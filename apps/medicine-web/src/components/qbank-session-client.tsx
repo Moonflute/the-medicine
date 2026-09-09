@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
 import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
@@ -160,6 +161,7 @@ function activeSessionFrom(value: unknown): QbankActiveSession | null {
 }
 
 export function QbankSessionClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
+  const [optionSessionId, setOptionSessionId] = useState("");
   const [questions, setQuestions] = useState<QbankQuestion[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -245,6 +247,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
         const restoredQuestion = selectedQuestions[restoredIndex];
         const restoredAnswer = canRestore && snapshot ? snapshot.answers.find((item) => item.questionId === restoredQuestion?.id) : undefined;
+        setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
         setCurrentIndex(restoredIndex);
         setAnswers(canRestore && snapshot ? snapshot.answers.filter((item) => selectedQuestions.some((question) => question.id === item.questionId)) : []);
@@ -310,6 +313,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         params.set("session", remoteActiveSession.sessionId);
         window.history.replaceState(window.history.state, "", `${window.location.pathname}?${params.toString()}${window.location.hash}`);
         window.sessionStorage.setItem(`${QBANK_SESSION_STORAGE_PREFIX}${remoteActiveSession.sessionId}`, JSON.stringify(remoteActiveSession));
+        setOptionSessionId(remoteActiveSession.sessionId);
         setQuestions(restoredQuestions);
         setCurrentIndex(restoredIndex);
         setAnswers(remoteActiveSession.answers.filter((item) => restoredQuestions.some((question) => question.id === item.questionId)));
@@ -343,6 +347,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     });
     return () => listener?.data.subscription.unsubscribe();
   }, [questions]);
+  const displayedOptions = current ? optionOrder(current, optionSessionId) : [];
   const currentTheoryTargetHref = current ? theoryTargetHref(current) : null;
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
   const specialtyResults = useMemo(() => {
@@ -418,8 +423,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       if (target instanceof HTMLElement && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
       if (!current) return;
 
-      if (!submitted && ["1", "2", "3", "4"].includes(event.key)) {
-        const answer = (["A", "B", "C", "D", "E"] as QbankAnswer[])[Number(event.key) - 1];
+      if (!submitted && ["1", "2", "3", "4", "5"].includes(event.key)) {
+        const answer = optionOrder(current, optionSessionId)[Number(event.key) - 1];
         if (answer && current.options[answer]) {
           event.preventDefault();
           setSelected(answer);
@@ -447,7 +452,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [current, currentIndex, next, previous, selected, submit, submitted]);
+  }, [current, currentIndex, next, optionSessionId, previous, selected, submit, submitted]);
   useEffect(() => {
     if (loading || completed || questions.length === 0 || !sessionIdRef.current) return;
     const snapshot: QbankActiveSession = {
@@ -523,7 +528,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
 
         <div className="mt-7 grid gap-3">
-          {(Object.keys(current.options) as QbankAnswer[]).map((key) => {
+          {displayedOptions.map((key, position) => {
             const isCorrect = submitted && key === current.answer;
             const isWrong = submitted && current.answer !== null && key === selected && key !== current.answer;
             const isSelected = key === selected;
@@ -537,7 +542,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
                   isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"
                 }`}
               >
-                <span className="font-semibold">{key}.</span><span>{current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key]}</span>
+                <span className="font-semibold">{OPTION_LABELS[position]}.</span><span>{current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key]}</span>
               </button>
             );
           })}
@@ -546,8 +551,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         {submitted ? (
           <div className={`mt-6 rounded-lg border p-4 ${current.answer === null ? "border-slate-200 bg-slate-50" : selected === current.answer ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="secondary-action float-right">오답 노트에서 제거</button> : null}
-            <div className="flex items-center gap-2 font-semibold">{current.answer === null ? null : selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{current.answer === null ? "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다." : selected === current.answer ? "정답입니다." : `정답은 ${current.answer}입니다.`}</div>
+            <div className="flex items-center gap-2 font-semibold">{current.answer === null ? null : selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{current.answer === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : selected === current.answer ? "정답입니다." : `정답은 ${OPTION_LABELS[displayedOptions.indexOf(current.answer)]}입니다.`}</div>
             {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
+            {!!current.evidenceReferences?.length && <div className="mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
             {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d) => d.type !== "drug").map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={`${d.type === "disease" ? "/disease/" : "/cc/"}${d.slug}`}>{d.title} · 이론(자동 연결)</Link>)}</div>}
             {(current.relatedTheoryQuestionIds?.length ?? 0) > 0 && <Link className="secondary-action mt-3" href={`/review/qbank/session?mode=theory-linked&practiceId=${encodeURIComponent(current.id)}&count=10`}>관련 이론문제 풀기</Link>}

@@ -390,6 +390,8 @@ export type SkillsManifest = {
 export type QbankAnswer = "A" | "B" | "C" | "D" | "E";
 
 export type QbankQuestion = {
+  ungradedReason?: string;
+  evidenceReferences?: Array<{ title: string; url: string }>;
   id: string;
   source: string;
   sourceSplit: "train" | "validation" | "test" | string;
