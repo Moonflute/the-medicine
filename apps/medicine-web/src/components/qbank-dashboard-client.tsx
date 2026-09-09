@@ -215,8 +215,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
         <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} count={count} />
       </div>
-      <label className="mt-6 block max-w-xs text-sm font-medium text-slate-700">문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
+      {!(tab === "practice" && practiceFilters.order === "book") && <><label className="mt-6 block max-w-xs text-sm font-medium text-slate-700">문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
       {selectedCount + practiceCount > 0 ? <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />선택한 탭 문제 함께 랜덤풀이</Link> : <p className="mt-5 text-sm text-rose-700">이론·임상·실전문제 중 하나 이상 선택하세요.</p>}
+      </>}
       </fieldset>
     </section>
 

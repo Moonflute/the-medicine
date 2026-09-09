@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { matchesPractice, toggleGroup } from "@/lib/practice-selection";
+import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams } from "@/lib/practice-selection";
 
 type Dimension = "series" | "departments" | "specialties" | "years";
 export function PracticeBankPicker({ questions, filters, onChange, message, count }: {
@@ -10,6 +10,28 @@ export function PracticeBankPicker({ questions, filters, onChange, message, coun
 }) {
   if (!questions.length) return <p className="rounded-lg bg-slate-50 p-4 text-sm text-slate-600" role="status">{message}</p>;
   const ordered = filters.order === "book";
+  const modes = <fieldset className="flex flex-wrap gap-4"><legend className="mb-2 font-semibold">풀이 방식</legend>{([['random', '분과별 랜덤풀이'], ['book', '연도별 순서풀이']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
+  if (ordered) {
+    const exams = practiceMockExams(questions);
+    const active = filters.series?.length === 1 && filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length
+      ? exams.find((exam) => filters.series?.[0] === exam.series && filters.years[0] === String(exam.year)) : undefined;
+    const params = active ? new URLSearchParams({ mode: "practice-book", count: "all", practiceSeries: active.series, practiceYears: String(active.year) }) : null;
+    return <div>
+      {modes}
+      <p className="mt-3 text-sm text-slate-600">풀 모의고사를 선택하세요. 내과·외과·산부인과·소아과 전체를 원래 문제 번호 순서대로 풉니다.</p>
+      <fieldset className="mt-5"><legend className="font-semibold text-slate-900">모의고사 선택</legend>
+        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{exams.map((exam) => {
+          const checked = active === exam;
+          return <label key={exam.label} className={`flex cursor-pointer items-center gap-3 rounded-xl border p-4 ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`}>
+            <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.series, exam.year))} className="accent-teal-600" />
+            <span><span className="block font-semibold">{exam.label}</span><span className="text-xs text-slate-500">{exam.count.toLocaleString()}문항</span></span>
+          </label>;
+        })}</div>
+      </fieldset>
+      <p className="mt-3 text-xs text-slate-500">P: 퍼펙트 · R: 리얼</p>
+      <div className="mt-5" role="status">{active && params ? <Link className="primary-action" href={`/review/qbank/session?${params}`}>{active.label} 시작 · 전체 {active.count.toLocaleString()}문항</Link> : <p className="text-sm text-slate-600">모의고사 하나를 선택하세요.</p>}</div>
+    </div>;
+  }
   const selected = questions.filter((q) => matchesPractice(q, filters)).length;
   const specialties = [...new Map(questions.map((q) => [q.specialtySlug, q.specialty])).entries()].sort((a, b) => a[1].localeCompare(b[1], "ko"));
   const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
@@ -26,7 +48,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, coun
   const params = new URLSearchParams({ mode: ordered ? "practice-book" : "selection", count: ordered ? "all" : count, practiceSeries: (filters.series ?? []).join(","), practiceDepartments: (filters.departments ?? []).join(","), practiceSpecialties: filters.specialties.join(","), practiceYears: filters.years.join(","), practiceBooks: filters.books.join(",") });
   const ready = selected > 0 && (!ordered || Boolean(filters.series?.length && filters.years.length));
   return <div>
-    <fieldset className="flex flex-wrap gap-4"><legend className="mb-2 font-semibold">풀이 방식</legend>{([['random', '분과별 랜덤풀이'], ['book', 'P / R 연도별 순서풀이']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ ...filters, order: value })} />{label}</label>)}</fieldset>
+    {modes}
     <p className="mt-3 text-sm text-slate-600">{ordered ? "P / R과 출제년도를 선택하세요. 선택한 문제 전체를 과목별 원래 번호 순서로 풉니다." : "과목이나 세부 분과만 선택해도 됩니다. 아래 문항 수만큼 무작위로 출제합니다."} 선택하지 않은 조건은 전체를 포함합니다.</p>
     {group("series", "P / R", [["퍼펙트", "P"], ["리얼", "R"]])}
     <p className="mt-1 text-xs text-slate-500">P: 퍼펙트 · R: 리얼</p>

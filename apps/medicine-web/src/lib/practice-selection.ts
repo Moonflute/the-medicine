@@ -18,6 +18,22 @@ export type PracticeIndex = {
 export type PracticeFilters = { books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[]; order?: "random" | "book" };
 export const EMPTY_PRACTICE_FILTERS: PracticeFilters = { books: [], specialties: [], years: [] };
 
+export function mockExamFilters(series: string, year: number): PracticeFilters {
+  return { books: [], specialties: [], departments: [], series: [series], years: [String(year)], order: "book" };
+}
+
+export function practiceMockExams(questions: PracticeIndex[]) {
+  const exams = new Map<string, { series: string; year: number; label: string; count: number }>();
+  for (const q of questions) {
+    if (q.examYear === null || !["퍼펙트", "리얼"].includes(q.bookSeries)) continue;
+    const key = `${q.bookSeries}:${q.examYear}`;
+    const exam = exams.get(key) ?? { series: q.bookSeries, year: q.examYear, label: `${q.bookSeries === "퍼펙트" ? "P" : "R"} ${q.examYear}`, count: 0 };
+    exam.count++;
+    exams.set(key, exam);
+  }
+  return [...exams.values()].sort((a, b) => a.label[0].localeCompare(b.label[0]) || b.year - a.year);
+}
+
 export function hasPracticeSelection(filters?: PracticeFilters): boolean {
   return Boolean(filters && (filters.books.length || filters.specialties.length || filters.years.length || filters.series?.length || filters.departments?.length));
 }
