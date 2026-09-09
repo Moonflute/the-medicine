@@ -388,8 +388,11 @@ export type SkillsManifest = {
 };
 
 export type QbankAnswer = "A" | "B" | "C" | "D" | "E";
+export type QbankSelection = QbankAnswer | QbankAnswer[];
 
 export type QbankQuestion = {
+  gradingMode?: "single" | "multiple-exact" | "multiple-any" | "all-credit";
+  acceptedAnswers?: QbankAnswer[];
   ungradedReason?: string;
   evidenceReferences?: Array<{ title: string; url: string }>;
   id: string;

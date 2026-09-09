@@ -1,11 +1,11 @@
-import type { QbankAnswer } from "@/lib/types";
+import type { QbankSelection } from "@/lib/types";
 
 export type QbankProgress = {
   questionId: string;
   attempts: number;
   correctAttempts: number;
   consecutiveCorrect: number;
-  lastAnswer?: QbankAnswer;
+  lastAnswer?: QbankSelection;
   lastCorrect?: boolean;
   lastAttemptedAt?: string;
 };
@@ -88,7 +88,7 @@ export function saveQbankState(state: QbankState, source: "local" | "remote" = "
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
 
-function applyAttempt(state: QbankState, questionId: string, answer: QbankAnswer | undefined, correct: boolean) {
+function applyAttempt(state: QbankState, questionId: string, answer: QbankSelection | undefined, correct: boolean) {
   const previous = state.progress[questionId] ?? {
     questionId,
     attempts: 0,
@@ -117,14 +117,14 @@ function applyAttempt(state: QbankState, questionId: string, answer: QbankAnswer
   return next;
 }
 
-export function recordQbankAttempt(questionId: string, answer: QbankAnswer, correct: boolean) {
+export function recordQbankAttempt(questionId: string, answer: QbankSelection, correct: boolean) {
   const state = loadQbankState();
   const next = applyAttempt(state, questionId, answer, correct);
   saveQbankState(state);
   return next;
 }
 
-export function recordMockExam(result: QbankSessionResult, outcomes: Array<{ questionId: string; selected?: QbankAnswer; correct: boolean | null }>) {
+export function recordMockExam(result: QbankSessionResult, outcomes: Array<{ questionId: string; selected?: QbankSelection; correct: boolean | null }>) {
   const state = loadQbankState();
   if (state.sessions.some(s => s.id === result.id)) return;
   for (const item of outcomes) if (item.correct !== null) applyAttempt(state, item.questionId, item.selected, item.correct);

@@ -1,5 +1,7 @@
 "use client";
 
+import { encodeSelection, decodeSelection } from "@/lib/qbank-grading";
+
 import { useEffect, useRef } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import {
@@ -18,7 +20,6 @@ import {
   loadQbankState,
   replaceQbankSyncData,
   QBANK_CHANGE_EVENT,
-  type QbankProgress,
   type QbankSessionResult,
   type QbankState,
 } from "@/lib/qbank-store";
@@ -145,7 +146,7 @@ function qbankStateFromRows(progressRows: Row[], sessionRows: Row[]): QbankState
       attempts: typeof row.attempts === "number" ? row.attempts : 0,
       correctAttempts: typeof row.correct_attempts === "number" ? row.correct_attempts : 0,
       consecutiveCorrect: typeof row.consecutive_correct === "number" ? row.consecutive_correct : 0,
-      lastAnswer: typeof row.last_answer === "string" ? row.last_answer as QbankProgress["lastAnswer"] : undefined,
+      lastAnswer: decodeSelection(row.last_answer),
       lastCorrect: typeof row.last_correct === "boolean" ? row.last_correct : undefined,
       lastAttemptedAt: typeof row.last_attempted_at === "string" ? row.last_attempted_at : undefined,
     };
@@ -248,7 +249,7 @@ export function LearningSyncProvider() {
         const qbankIds = new Set([...Object.keys(qbank.progress), ...qbank.wrongIds, ...qbank.bookmarkIds]);
         const qbankRows = [...qbankIds].map((questionId) => {
           const progress = qbank.progress[questionId];
-          return { user_id: userId, question_id: questionId, attempts: progress?.attempts ?? 0, correct_attempts: progress?.correctAttempts ?? 0, consecutive_correct: progress?.consecutiveCorrect ?? 0, last_answer: progress?.lastAnswer ?? null, last_correct: progress?.lastCorrect ?? null, last_attempted_at: progress?.lastAttemptedAt ?? null, wrong_marked: qbank.wrongIds.includes(questionId), bookmarked: qbank.bookmarkIds.includes(questionId) };
+          return { user_id: userId, question_id: questionId, attempts: progress?.attempts ?? 0, correct_attempts: progress?.correctAttempts ?? 0, consecutive_correct: progress?.consecutiveCorrect ?? 0, last_answer: encodeSelection(progress?.lastAnswer), last_correct: progress?.lastCorrect ?? null, last_attempted_at: progress?.lastAttemptedAt ?? null, wrong_marked: qbank.wrongIds.includes(questionId), bookmarked: qbank.bookmarkIds.includes(questionId) };
         });
         if (qbankRows.length > 0) {
           const { error } = await supabase.from("qbank_question_progress").upsert(qbankRows, { onConflict: "user_id,question_id" });

@@ -1,6 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { gradeMockExam, readMockExam } from '../src/lib/mock-exam.ts';
+import fs from 'node:fs';
+import ts from 'typescript';
+const compile = path => ts.transpileModule(fs.readFileSync(new URL(path, import.meta.url), 'utf8'), {compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const url = code => `data:text/javascript;base64,${Buffer.from(code).toString('base64')}`;
+const grading = url(compile('../src/lib/qbank-grading.ts'));
+const {gradeMockExam, readMockExam} = await import(url(compile('../src/lib/mock-exam.ts').replace('"./qbank-grading"', JSON.stringify(grading))));
 import { recordMockExam, loadQbankState } from '../src/lib/qbank-store.ts';
 const questions = [
   {id:'QB-T-IM-1',answer:'A',options:{A:'a',B:'b'}},

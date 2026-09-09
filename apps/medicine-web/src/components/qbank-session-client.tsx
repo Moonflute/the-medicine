@@ -1,5 +1,6 @@
 "use client";
 
+import { correctAnswers, gradeQuestion, isSelection, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
 import Link from "next/link";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { readMockExam, type MockExamState } from "@/lib/mock-exam";
@@ -19,11 +20,11 @@ import {
   saveQbankSession,
   toggleQbankBookmark,
 } from "@/lib/qbank-store";
-import type { QbankAnswer, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
+import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 
-type SessionAnswer = { questionId: string; selected: QbankAnswer; correct: boolean | null; specialty: string };
-type QbankSessionSnapshot = { mockExam?: MockExamState | null; questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankAnswer | null; submitted: boolean };
+type SessionAnswer = { questionId: string; selected: QbankSelection; correct: boolean | null; specialty: string };
+type QbankSessionSnapshot = { mockExam?: MockExamState | null; questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankSelection | null; submitted: boolean };
 type QbankActiveSession = QbankSessionSnapshot & { sessionId: string; updatedAt: string };
 
 const QBANK_SESSION_STORAGE_PREFIX = "medicine-web-qbank-session:";
@@ -158,7 +159,7 @@ function activeSessionFrom(value: unknown): QbankActiveSession | null {
     questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
     currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,
     answers: candidate.answers as SessionAnswer[],
-    selected: candidate.selected === "A" || candidate.selected === "B" || candidate.selected === "C" || candidate.selected === "D" || candidate.selected === "E" ? candidate.selected : null,
+    selected: isSelection(candidate.selected) ? candidate.selected : null,
     submitted: Boolean(candidate.submitted),
     updatedAt: candidate.updatedAt,
   };
@@ -171,7 +172,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selected, setSelected] = useState<QbankAnswer | null>(null);
+  const [selected, setSelected] = useState<QbankSelection | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [answers, setAnswers] = useState<SessionAnswer[]>([]);
   const [bookmarked, setBookmarked] = useState(false);
@@ -398,7 +399,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   const submit = useCallback(() => {
     if (mockExam || !current || !selected || submitted) return;
-    const correct = current.answer === null ? null : selected === current.answer;
+    const correct = gradeQuestion(current, selected);
     if (correct !== null) recordQbankAttempt(current.id, selected, correct);
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
     setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: current.specialty }]);
@@ -450,7 +451,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const answer = optionOrder(current, optionSessionId)[Number(event.key) - 1];
         if (answer && current.options[answer]) {
           event.preventDefault();
-          setSelected(answer);
+          setSelected(value => toggleSelection(current, value, answer));
         }
         return;
       }
@@ -557,17 +558,19 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         {current.figures?.map((figure, index) => <figure key={figure.path}><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="mt-1 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}
         <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
 
+        {selectionHint(current) && <p className="mt-4 text-sm font-medium text-teal-700">{selectionHint(current)}</p>}
         <div className="mt-7 grid gap-3">
           {displayedOptions.map((key, position) => {
-            const isCorrect = submitted && key === current.answer;
-            const isWrong = submitted && current.answer !== null && key === selected && key !== current.answer;
-            const isSelected = key === selected;
+            const isCorrect = submitted && correctAnswers(current).includes(key);
+            const isWrong = submitted && gradeQuestion(current, selected) === false && selectedAnswers(selected).includes(key) && !correctAnswers(current).includes(key);
+            const isSelected = selectedAnswers(selected).includes(key);
             return (
               <button
                 key={key}
                 type="button"
                 disabled={submitted}
-                onClick={() => setSelected(key)}
+                aria-pressed={isSelected}
+                onClick={() => setSelected(value => toggleSelection(current, value, key))}
                 className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${
                   isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"
                 }`}
@@ -579,9 +582,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </div>
 
         {submitted ? (
-          <div className={`mt-6 rounded-lg border p-4 ${current.answer === null ? "border-slate-200 bg-slate-50" : selected === current.answer ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
+          <div className={`mt-6 rounded-lg border p-4 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="secondary-action float-right">오답 노트에서 제거</button> : null}
-            <div className="flex items-center gap-2 font-semibold">{current.answer === null ? null : selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{current.answer === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : selected === current.answer ? "정답입니다." : `정답은 ${OPTION_LABELS[displayedOptions.indexOf(current.answer)]}입니다.`}</div>
+            <div className="flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
             {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
             {!!current.evidenceReferences?.length && <div className="mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
