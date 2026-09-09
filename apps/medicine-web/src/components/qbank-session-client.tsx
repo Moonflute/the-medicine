@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
@@ -75,6 +76,7 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
 }
 
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters): Promise<QbankQuestion[]> {
+  if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 학습 통계에서 다시 선택해 주세요.");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
   let candidates = mode === "practice-book" ? [] : index;
@@ -105,7 +107,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   } else if (mode === "disease") {
     if (!disease) return [];
     candidates = index.filter((item) => item.relatedDiseaseSlugs?.includes(disease));
-  } else if (mode === "wrong" || mode === "bookmarks") {
+  } else if (mode === "wrong" || mode === "bookmarks" || mode === "retry") {
     const state = loadQbankState();
     const ids = targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
     if (ids.size === 0) return [];
@@ -120,12 +122,12 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     ));
   }
   let privateQuestions: QbankQuestion[] = [];
-  const wantsPrivate = hasPracticeSelection(practiceFilters) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode);
+  const wantsPrivate = hasPracticeSelection(practiceFilters) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode) || (mode === "retry" && [...(targetIds ?? [])].some(id => id.startsWith("QB-")));
   if (wantsPrivate) {
     const { questions: privateIndex } = await loadPracticeIndex();
     const state = loadQbankState();
     const privateIds = privateIndex.filter((q) => {
-      if (mode === "wrong" || mode === "bookmarks") return (targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds)).has(q.id);
+      if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return (targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds)).has(q.id);
       if (mode === "all") return !targetIds || targetIds.has(q.id);
       if (mode === "unattempted") return !state.progress[q.id];
       if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
@@ -210,7 +212,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
     const initialState = loadQbankState();
-    const targetIds = mode === "wrong"
+    let retryIds: string[] = [];
+    if (mode === "retry") {
+      const key = params.get("set") ?? "";
+      try { retryIds = key.startsWith("qbank-retry-") ? readRetryIds(window.sessionStorage.getItem(key)) : []; } catch { /* Storage unavailable. */ }
+    }
+    const targetIds = mode === "retry" ? new Set(retryIds) : mode === "wrong"
       ? new Set(initialState.wrongIds)
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
@@ -220,7 +227,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const state = initialState;
         let filtered = loaded;
         if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
-        if (mode === "wrong" || mode === "bookmarks") filtered = loaded.filter((item) => targetIds?.has(item.id));
+        if (mode === "wrong" || mode === "bookmarks" || mode === "retry") filtered = loaded.filter((item) => targetIds?.has(item.id));
         if (mode === "unattempted") filtered = loaded.filter((item) => !state.progress[item.id]);
         const requestedCount = requestedCountValue === "all"
           ? filtered.length
@@ -488,6 +495,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <p className="mt-2 text-slate-600">정답률 {rate}% · 정답 미확인 {answers.length - gradedCount}문항은 채점에서 제외했습니다.</p>
         </section>
         <div className="flex flex-wrap justify-center gap-3">
+          <Link href="/review/qbank/stats" className="secondary-action">학습 통계</Link>
           <Link href="/review/qbank" className="secondary-action"><ArrowLeft className="h-4 w-4" />문제은행</Link>
           <Link href={`/review/qbank/session?mode=wrong&count=${questions.length}`} className="primary-action"><RotateCcw className="h-4 w-4" />오답 다시 풀기</Link>
         </div>
