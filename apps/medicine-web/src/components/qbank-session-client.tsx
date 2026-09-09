@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
 import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters } from "@/lib/practice-selection";
@@ -511,7 +512,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </div>
         {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id} · {current.reviewStatus === "source-compared" ? "원문 대조 완료" : "OCR 자동 변환 · 원본 확인 필요"}</p>}
         {current.figures?.map((figure, index) => <figure key={figure.path}><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="mt-1 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}
-        <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.question}</p>
+        <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
 
         <div className="mt-7 grid gap-3">
           {(Object.keys(current.options) as QbankAnswer[]).map((key) => {
@@ -528,7 +529,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
                   isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"
                 }`}
               >
-                <span className="font-semibold">{key}.</span><span>{current.options[key]}</span>
+                <span className="font-semibold">{key}.</span><span>{current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key]}</span>
               </button>
             );
           })}
@@ -538,7 +539,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <div className={`mt-6 rounded-lg border p-4 ${current.answer === null ? "border-slate-200 bg-slate-50" : selected === current.answer ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="secondary-action float-right">오답 노트에서 제거</button> : null}
             <div className="flex items-center gap-2 font-semibold">{current.answer === null ? null : selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{current.answer === null ? "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다." : selected === current.answer ? "정답입니다." : `정답은 ${current.answer}입니다.`}</div>
-            {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
+            {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
             {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d) => d.type !== "drug").map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={`${d.type === "disease" ? "/disease/" : "/cc/"}${d.slug}`}>{d.title} · 이론(자동 연결)</Link>)}</div>}
             {(current.relatedTheoryQuestionIds?.length ?? 0) > 0 && <Link className="secondary-action mt-3" href={`/review/qbank/session?mode=theory-linked&practiceId=${encodeURIComponent(current.id)}&count=10`}>관련 이론문제 풀기</Link>}
@@ -553,3 +554,4 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     </div>
   );
 }
+
