@@ -510,7 +510,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
           </button>
         </div>
-        {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id} · {current.reviewStatus === "source-compared" ? "원문 대조 완료" : "OCR 자동 변환 · 원본 확인 필요"}</p>}
+        {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id}</p>}
         {current.figures?.map((figure, index) => <figure key={figure.path}><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="mt-1 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}
         <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
 
