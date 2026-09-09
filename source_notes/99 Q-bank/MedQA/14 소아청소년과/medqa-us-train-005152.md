@@ -1,6 +1,7 @@
 ---
 type: qbank
 schema_version: 1
+quality_reviewed_at: 2026-09-09
 id: medqa-us-train-005152
 source: MedQA-US
 source_split: train
@@ -20,11 +21,11 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: verified
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,9 +48,13 @@ D. 정맥 에피네프린 투여
 ## 해설
 
 
-출생 직후 호흡곤란, 저산소증, 청색증이 지속되는 신생아는 양압환기(CPAP)가 기도 유지와 가스 교환을 개선한다. 양압환기는 인공호흡보다 덜 침습적이며 즉각적인 산소화 개선에 효과적이다. 따라서 양압환기 시행이 가장 적절한 처치이다.
+
+초기 처치 후에도 심박수가 분당 100회 미만이면 효과적인 환기를 제공해야 하므로 양압환기(PPV, B)가 적절하다. 이 환아는 심박수가 분당 96회이고 호흡이 불규칙하다.
+
+PPV는 호흡을 보조하는 환기이며, 자발호흡하는 영아의 기도를 지속적인 압력으로 유지하는 CPAP와 동일하지 않다. 적절한 마스크 환기에도 반응이 부족할 때 대체 기도를 고려하며, 에피네프린은 효과적인 환기와 흉부압박 후에도 심한 서맥이 지속되는 단계의 약제다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005152
+- 검토 근거: [AHA/AAP Neonatal Resuscitation 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation)

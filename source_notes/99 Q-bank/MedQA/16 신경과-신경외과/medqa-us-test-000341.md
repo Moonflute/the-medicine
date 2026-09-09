@@ -1,6 +1,9 @@
 ---
 type: qbank
 schema_version: 1
+publication_status: withheld
+publication_reason: missing-essential-source-image
+quality_reviewed_at: 2026-09-09
 id: medqa-us-test-000341
 source: MedQA-US
 source_split: test
@@ -19,11 +22,11 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: verified
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,9 +52,12 @@ D. 인지 훈련
 ## 해설
 
 
-CT에서 만성 경막하혈종이 확인되며, 인지장애와 보행불안정은 혈종에 의한 압박 때문이다. 외과적 제거보다 인지 훈련이 증상 관리에 가장 적절하다. 따라서 정답은 인지 훈련이다.
+
+원본 정답은 인지 훈련(D)으로 제공되어 있으나, 문항이 참조하는 CT 영상이 데이터에 포함되어 있지 않다. 이 상태에서 CT의 만성 경막하혈종을 단정하거나 이를 인지 훈련의 근거로 연결할 수 없다. 영상 또는 신뢰할 수 있는 원본 해설을 확보하여 진단과 처치 근거를 검증하기 전까지 출제에서 보류한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000341
+- 편집 이력: 필수 CT 영상과 진단 근거가 없어 출제 보류. 기존 생성 해설의 근거 없는 만성 경막하혈종 단정을 제거했다.
+- 검토 근거: [CUH Chronic Subdural Haematoma](https://www.cuh.nhs.uk/patient-information/chronic-subdural-haematoma-csdh/)

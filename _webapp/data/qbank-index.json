@@ -3081,31 +3081,6 @@
     "targetTitle": ""
   },
   {
-    "id": "medqa-us-test-000341",
-    "specialty": "16 신경과-신경외과",
-    "specialtySlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
-    "relatedDiseaseSlugs": [
-      "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k"
-    ],
-    "relatedCcSlugs": [
-      "6riw7Ja166ClIOyggO2VmA"
-    ],
-    "relatedDrugSlugs": [
-      "ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA",
-      "ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k",
-      "ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k",
-      "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA"
-    ],
-    "questionType": "management",
-    "difficulty": "standard",
-    "translationStatus": "machine-verified",
-    "explanationStatus": "machine-generated",
-    "questionBank": "clinical",
-    "targetType": "",
-    "targetSlug": "",
-    "targetTitle": ""
-  },
-  {
     "id": "medqa-us-test-000343",
     "specialty": "21 응급의학",
     "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
@@ -5576,7 +5551,7 @@
     "questionType": "management",
     "difficulty": "simple",
     "translationStatus": "machine-verified",
-    "explanationStatus": "machine-generated",
+    "explanationStatus": "verified",
     "questionBank": "clinical",
     "targetType": "",
     "targetSlug": "",
@@ -50011,7 +49986,7 @@
     "questionType": "임상증례 객관식",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
-    "explanationStatus": "machine-generated",
+    "explanationStatus": "verified",
     "questionBank": "clinical",
     "targetType": "",
     "targetSlug": "",
@@ -61406,7 +61381,7 @@
     "questionType": "management",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
-    "explanationStatus": "machine-generated",
+    "explanationStatus": "verified",
     "questionBank": "clinical",
     "targetType": "",
     "targetSlug": "",
@@ -169473,7 +169448,7 @@
     "questionType": "recognition",
     "difficulty": "standard",
     "translationStatus": "not-applicable",
-    "explanationStatus": "machine-generated",
+    "explanationStatus": "verified",
     "questionBank": "theory",
     "targetType": "disease",
     "targetSlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T11:41:55.010Z",
+  "generatedAt": "2026-09-09T14:36:52.020Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -60,7 +60,7 @@
       "source": "derived from diseases"
     },
     "qbank": {
-      "count": 9258,
+      "count": 9257,
       "source": "99 Q-bank/MedQA"
     },
     "infectionPathways": {

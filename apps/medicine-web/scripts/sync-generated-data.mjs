@@ -1550,6 +1550,8 @@ function buildQbank() {
     for (const filePath of listMarkdownFiles(root, { ignoreFiles: new Set(["index.md", "README.md"]) })) {
     const { frontmatter, body } = splitFrontmatter(readText(filePath));
     if (readScalar(frontmatter.type) !== "qbank") continue;
+    // Keep withdrawn source records for provenance, but never publish them as playable questions.
+    if (readScalar(frontmatter.publication_status) === "withheld") continue;
     const id = readScalar(frontmatter.id);
     const sourceHash = readScalar(frontmatter.source_hash);
     const specialty = readScalar(frontmatter.specialty);
