@@ -39,8 +39,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: apps/medicine-web/.next/cache
-          key: ${{ runner.os }}-next-${{ hashFiles('apps/medicine-web/package-lock.json') }}-${{ hashFiles('apps/medicine-web/src/**/*', 'apps/medicine-web/next.config.ts') }}
+          key: ${{ runner.os }}-next-lint-v1-${{ hashFiles('apps/medicine-web/package-lock.json') }}-${{ github.sha }}
           restore-keys: |
+            ${{ runner.os }}-next-lint-v1-${{ hashFiles('apps/medicine-web/package-lock.json') }}-
             ${{ runner.os }}-next-${{ hashFiles('apps/medicine-web/package-lock.json') }}-
 
       - name: Configure Pages
@@ -55,7 +56,8 @@ jobs:
         run: npm run sync:data
 
       - name: Lint
-        run: npm run lint
+        # Content hashes survive checkout timestamps; dependency changes get a new cache.
+        run: npm run lint -- --cache --cache-strategy content --cache-location .next/cache/eslint/
 
       - name: Verify interactive physiology
         run: npm run verify:physiology
