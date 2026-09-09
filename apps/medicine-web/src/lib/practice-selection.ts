@@ -18,6 +18,22 @@ export type PracticeIndex = {
 export type PracticeFilters = { books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[]; order?: "random" | "book" };
 export const EMPTY_PRACTICE_FILTERS: PracticeFilters = { books: [], specialties: [], years: [] };
 
+// The source book subject owns classification; linked theory is only a topic.
+export const PRACTICE_DEPARTMENTS = ["내과", "외과", "산부인과", "소아과"] as const;
+export function practiceTopicKey(q: PracticeIndex): string {
+  return `${q.bookDepartment}:${q.specialtySlug}`;
+}
+export function practiceTopicLabel(q: PracticeIndex): string {
+  const topic = q.specialty.replace(/^\d+\s*/, "");
+  const labels: Record<string, string> = {
+    "외과": "수술·외과 일반", "소아청소년과": "성장·발달·소아 일반",
+    "정신건강의학과": "정신·행동", "신경과-신경외과": "신경",
+    "이비인후과": "귀·코·목", "피부과": "피부", "비뇨기과": "비뇨기",
+    "응급의학": "응급·소생", "정형외과": "근골격",
+  };
+  return labels[topic] ?? topic;
+}
+
 export function mockExamFilters(series: string, year: number): PracticeFilters {
   return { books: [], specialties: [], departments: [], series: [series], years: [String(year)], order: "book" };
 }
@@ -44,7 +60,7 @@ export function matchesPractice(question: PracticeIndex, filters: PracticeFilter
     && (!filters.books.length || filters.books.includes(question.bookId))
     && (!filters.series?.length || filters.series.includes(question.bookSeries))
     && (!filters.departments?.length || filters.departments.includes(question.bookDepartment))
-    && (!filters.specialties.length || filters.specialties.includes(question.specialtySlug))
+    && (!filters.specialties.length || (filters.specialties.includes(practiceTopicKey(question)) || filters.specialties.includes(question.specialtySlug)))
     && (!filters.years.length || filters.years.includes(question.examYear === null ? "unknown" : String(question.examYear)));
 }
 
