@@ -88,8 +88,7 @@ export function saveQbankState(state: QbankState, source: "local" | "remote" = "
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
 
-export function recordQbankAttempt(questionId: string, answer: QbankAnswer, correct: boolean) {
-  const state = loadQbankState();
+function applyAttempt(state: QbankState, questionId: string, answer: QbankAnswer | undefined, correct: boolean) {
   const previous = state.progress[questionId] ?? {
     questionId,
     attempts: 0,
@@ -115,8 +114,22 @@ export function recordQbankAttempt(questionId: string, answer: QbankAnswer, corr
     attempts: daily.attempts + 1,
     correct: daily.correct + (correct ? 1 : 0),
   };
+  return next;
+}
+
+export function recordQbankAttempt(questionId: string, answer: QbankAnswer, correct: boolean) {
+  const state = loadQbankState();
+  const next = applyAttempt(state, questionId, answer, correct);
   saveQbankState(state);
   return next;
+}
+
+export function recordMockExam(result: QbankSessionResult, outcomes: Array<{ questionId: string; selected?: QbankAnswer; correct: boolean | null }>) {
+  const state = loadQbankState();
+  if (state.sessions.some(s => s.id === result.id)) return;
+  for (const item of outcomes) if (item.correct !== null) applyAttempt(state, item.questionId, item.selected, item.correct);
+  state.sessions = [result, ...state.sessions].slice(0, 100);
+  saveQbankState(state);
 }
 
 export function toggleQbankBookmark(questionId: string) {

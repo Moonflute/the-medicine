@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { MockExamPanel } from "@/components/mock-exam-panel";
+import { readMockExam, type MockExamState } from "@/lib/mock-exam";
 import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
 import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
@@ -21,7 +23,7 @@ import type { QbankAnswer, QbankQuestion, QbankQuestionIndex, QbankSpecialtySumm
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 
 type SessionAnswer = { questionId: string; selected: QbankAnswer; correct: boolean | null; specialty: string };
-type QbankSessionSnapshot = { questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankAnswer | null; submitted: boolean };
+type QbankSessionSnapshot = { mockExam?: MockExamState | null; questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankAnswer | null; submitted: boolean };
 type QbankActiveSession = QbankSessionSnapshot & { sessionId: string; updatedAt: string };
 
 const QBANK_SESSION_STORAGE_PREFIX = "medicine-web-qbank-session:";
@@ -122,6 +124,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
     ));
   }
+  if (mode === "all" && targetIds) candidates = candidates.filter(item => targetIds.has(item.id));
   let privateQuestions: QbankQuestion[] = [];
   const wantsPrivate = hasPracticeSelection(practiceFilters) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode) || (mode === "retry" && [...(targetIds ?? [])].some(id => id.startsWith("QB-")));
   if (wantsPrivate) {
@@ -151,6 +154,7 @@ function activeSessionFrom(value: unknown): QbankActiveSession | null {
   if (typeof candidate.sessionId !== "string" || !Array.isArray(candidate.questionIds) || !Array.isArray(candidate.answers) || typeof candidate.updatedAt !== "string") return null;
   return {
     sessionId: candidate.sessionId,
+    mockExam: readMockExam(candidate.mockExam),
     questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
     currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,
     answers: candidate.answers as SessionAnswer[],
@@ -161,6 +165,7 @@ function activeSessionFrom(value: unknown): QbankActiveSession | null {
 }
 
 export function QbankSessionClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
+  const [mockExam, setMockExam] = useState<MockExamState | null>(null);
   const [optionSessionId, setOptionSessionId] = useState("");
   const [questions, setQuestions] = useState<QbankQuestion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -174,6 +179,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [completed, setCompleted] = useState(false);
   const [sessionStartedAt] = useState(() => new Date().toISOString());
   const sessionIdRef = useRef<string | null>(null);
+  const requestedSessionIdRef = useRef<string | null>(null);
   const newSetRequestedRef = useRef(false);
   const activeSessionChannelRef = useRef<RealtimeChannel | null>(null);
   const activeSessionTimerRef = useRef<number | null>(null);
@@ -186,6 +192,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     if (!sessionIdRef.current) {
       const params = new URLSearchParams(window.location.search);
       const existingId = params.get("session");
+      requestedSessionIdRef.current = existingId;
       const generatedId = window.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random()}`;
       sessionIdRef.current = existingId || generatedId;
       if (!existingId) {
@@ -213,6 +220,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const targetSlugs = params.get("targets") || "";
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
+    if (params.get("resume") === "1") return;
     const initialState = loadQbankState();
     let retryIds: string[] = [];
     if (mode === "retry") {
@@ -226,6 +234,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         : undefined;
     void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) })
       .then((loaded) => {
+        if (appliedRemoteSessionVersionRef.current) return;
         const state = initialState;
         let filtered = loaded;
         if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
@@ -236,7 +245,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           : Math.max(1, Math.min(100, Number(requestedCountValue) || 10));
         let snapshot: QbankSessionSnapshot | null = null;
         try {
-          const stored = window.sessionStorage.getItem(storageKey);
+          const stored = window.sessionStorage.getItem(storageKey) ?? window.localStorage.getItem(storageKey);
           if (stored) snapshot = JSON.parse(stored) as QbankSessionSnapshot;
         } catch {
           snapshot = null;
@@ -247,6 +256,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
         const restoredQuestion = selectedQuestions[restoredIndex];
         const restoredAnswer = canRestore && snapshot ? snapshot.answers.find((item) => item.questionId === restoredQuestion?.id) : undefined;
+        setMockExam(canRestore ? readMockExam(snapshot?.mockExam) : params.get("exam") === "1" ? { version: 1, title: `${params.get("practiceSeries") === "퍼펙트" ? "P" : "R"} ${params.get("practiceYears") || "모의고사"}`, startedAt: new Date().toISOString(), drafts: {}, flaggedIds: [] } : null);
         setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
         setCurrentIndex(restoredIndex);
@@ -262,12 +272,18 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
-    if (!supabase) return;
+    const remoteResume = new URLSearchParams(window.location.search).get("resume") === "1";
     let active = true;
+    const resumeFailed = () => {
+      if (active && remoteResume) { setError("계정의 저장된 풀이를 불러오지 못했습니다. 로그인과 네트워크 상태를 확인하고 다시 열어 주세요."); setLoading(false); }
+    };
+    if (!supabase) { queueMicrotask(resumeFailed); return () => { active = false; }; }
 
     const applyRemote = (value: unknown) => {
       const session = activeSessionFrom(value);
-      if (!active || newSetRequestedRef.current || !session || session.updatedAt === appliedRemoteSessionVersionRef.current) return;
+      if (!active || !session || session.updatedAt <= appliedRemoteSessionVersionRef.current) return;
+      if (requestedSessionIdRef.current && requestedSessionIdRef.current !== session.sessionId) return;
+      if (newSetRequestedRef.current && session.sessionId !== sessionIdRef.current) return;
       remoteSessionApplyingRef.current = true;
       setRemoteActiveSession(session);
     };
@@ -275,12 +291,16 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const start = async () => {
       const { data } = await supabase.auth.getUser();
       const user = data.user;
-      if (!user || !active) return;
+      if (!active) return;
+      if (!user) { resumeFailed(); return; }
       const { data: preference, error: preferenceError } = await supabase.from("user_preferences").select("qbank_active_session").eq("user_id", user.id).maybeSingle();
       if (preferenceError) {
         console.warn("Q-bank active session sync is unavailable.", preferenceError);
+        resumeFailed();
       } else {
-        applyRemote((preference as Record<string, unknown> | null)?.qbank_active_session);
+        const saved = (preference as Record<string, unknown> | null)?.qbank_active_session;
+        if (!activeSessionFrom(saved)) resumeFailed();
+        else applyRemote(saved);
       }
       if (!active) return;
       setSyncUserId(user.id);
@@ -289,7 +309,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         .subscribe();
     };
 
-    void start();
+    void start().catch(resumeFailed);
     return () => {
       active = false;
       if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
@@ -304,15 +324,18 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     void loadQuestions(specialties, "all", "all", "", new Set(remoteActiveSession.questionIds))
       .then((loaded) => {
         const restoredQuestions = remoteActiveSession.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item));
-        if (cancelled || restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) return;
+        if (cancelled) return;
+        if (restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) throw new Error("저장된 문제에 접근할 수 없습니다.");
         const restoredIndex = Math.min(Math.max(remoteActiveSession.currentIndex, 0), restoredQuestions.length - 1);
         const restoredQuestion = restoredQuestions[restoredIndex];
         const restoredAnswer = remoteActiveSession.answers.find((item) => item.questionId === restoredQuestion.id);
         sessionIdRef.current = remoteActiveSession.sessionId;
         const params = new URLSearchParams(window.location.search);
         params.set("session", remoteActiveSession.sessionId);
+        params.delete("resume");
         window.history.replaceState(window.history.state, "", `${window.location.pathname}?${params.toString()}${window.location.hash}`);
         window.sessionStorage.setItem(`${QBANK_SESSION_STORAGE_PREFIX}${remoteActiveSession.sessionId}`, JSON.stringify(remoteActiveSession));
+        setMockExam(readMockExam(remoteActiveSession.mockExam));
         setOptionSessionId(remoteActiveSession.sessionId);
         setQuestions(restoredQuestions);
         setCurrentIndex(restoredIndex);
@@ -324,8 +347,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setWrongTracked(state.wrongIds.includes(restoredQuestion.id));
         appliedRemoteSessionVersionRef.current = remoteActiveSession.updatedAt;
       })
-      .catch((error) => console.warn("Q-bank active session could not be restored.", error))
-      .finally(() => window.setTimeout(() => { remoteSessionApplyingRef.current = false; }, 0));
+      .catch((error) => { console.warn("Q-bank active session could not be restored.", error); if (!cancelled) setError("저장된 풀이를 복원하지 못했습니다. 로그인과 문제 접근 권한을 확인해 주세요."); })
+      .finally(() => { if (!cancelled) setLoading(false); window.setTimeout(() => { remoteSessionApplyingRef.current = false; }, 0); });
     return () => { cancelled = true; };
   }, [remoteActiveSession, specialties]);
 
@@ -374,13 +397,13 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [answers, questions]);
 
   const submit = useCallback(() => {
-    if (!current || !selected || submitted) return;
+    if (mockExam || !current || !selected || submitted) return;
     const correct = current.answer === null ? null : selected === current.answer;
     if (correct !== null) recordQbankAttempt(current.id, selected, correct);
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
     setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: current.specialty }]);
     setSubmitted(true);
-  }, [current, selected, submitted]);
+  }, [current, mockExam, selected, submitted]);
 
   const next = useCallback(() => {
     if (currentIndex + 1 >= questions.length) {
@@ -421,7 +444,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     function handleKeyDown(event: KeyboardEvent) {
       const target = event.target;
       if (target instanceof HTMLElement && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
-      if (!current) return;
+      if (!current || mockExam) return;
 
       if (!submitted && ["1", "2", "3", "4", "5"].includes(event.key)) {
         const answer = optionOrder(current, optionSessionId)[Number(event.key) - 1];
@@ -452,10 +475,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [current, currentIndex, next, optionSessionId, previous, selected, submit, submitted]);
+  }, [current, currentIndex, mockExam, next, optionSessionId, previous, selected, submit, submitted]);
   useEffect(() => {
     if (loading || completed || questions.length === 0 || !sessionIdRef.current) return;
     const snapshot: QbankActiveSession = {
+      mockExam,
       sessionId: sessionIdRef.current,
       questionIds: questions.map((item) => item.id),
       currentIndex,
@@ -466,6 +490,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     };
     try {
       window.sessionStorage.setItem(sessionStorageKey(), JSON.stringify(snapshot));
+      if (mockExam) {
+        window.localStorage.setItem(sessionStorageKey(), JSON.stringify(snapshot));
+        window.localStorage.setItem("medicine-web-last-mock", JSON.stringify({ updatedAt: snapshot.updatedAt, title: mockExam.title, finished: Boolean(mockExam.finishedAt), href: `/review/qbank/session${window.location.search}` }));
+      }
     } catch {
       // Keep the session usable when browser storage is unavailable.
     }
@@ -477,8 +505,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       appliedRemoteSessionVersionRef.current = snapshot.updatedAt;
       void supabase.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: snapshot }, { onConflict: "user_id" })
         .then(({ error }) => { if (error) console.warn("Q-bank active session sync failed.", error); });
-    }, 500);
-  }, [answers, completed, currentIndex, loading, questions, selected, sessionStorageKey, submitted, syncUserId]);
+    }, mockExam ? 0 : 500);
+  }, [answers, completed, currentIndex, loading, mockExam, questions, selected, sessionStorageKey, submitted, syncUserId]);
   if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
   if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
   if (questions.length === 0) return (
@@ -487,6 +515,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       <Link href="/review/qbank" className="secondary-action mt-4">문제은행으로 돌아가기</Link>
     </div>
   );
+
+  if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} onChange={setMockExam} onMove={setCurrentIndex} />;
 
   if (completed) {
     const gradedCount = answers.filter((item) => item.correct !== null).length;

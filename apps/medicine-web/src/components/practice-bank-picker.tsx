@@ -1,6 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { getSupabaseBrowserClient } from "@/lib/supabase/client";
+import { readMockExam } from "@/lib/mock-exam";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
 import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicKey, practiceTopicLabel } from "@/lib/practice-selection";
 
@@ -8,15 +11,41 @@ type Dimension = "series" | "departments" | "specialties" | "years";
 export function PracticeBankPicker({ questions, filters, onChange, message, count }: {
   questions: PracticeIndex[]; filters: PracticeFilters; onChange: (next: PracticeFilters) => void; message: string; count: string;
 }) {
+  const [examMode, setExamMode] = useState(true);
+  const [lastMock, setLastMock] = useState<{ title: string; href: string; finished: boolean } | null>(null);
+  useEffect(() => {
+    let active = true;
+    async function restore() {
+      let saved: { title: string; href: string; finished: boolean; updatedAt?: string } | null = null;
+      try {
+        const local = JSON.parse(localStorage.getItem("medicine-web-last-mock") ?? "null");
+        if (typeof local?.title === "string" && typeof local?.href === "string" && local.href.startsWith("/review/qbank/session?")) saved = local;
+      } catch { /* No locally saved mock exam. */ }
+      if (active) setLastMock(saved);
+      const client = getSupabaseBrowserClient();
+      if (!client) return;
+      const { data: auth } = await client.auth.getUser();
+      if (!active || !auth.user) return;
+      const { data } = await client.from("user_preferences").select("qbank_active_session").eq("user_id", auth.user.id).maybeSingle();
+      const remote = data?.qbank_active_session;
+      const exam = readMockExam(remote?.mockExam);
+      if (active && exam && typeof remote.sessionId === "string" && (!saved?.updatedAt || remote.updatedAt > saved.updatedAt)) {
+        setLastMock({ title: exam.title, finished: Boolean(exam.finishedAt), href: `/review/qbank/session?resume=1&session=${encodeURIComponent(remote.sessionId)}` });
+      }
+    }
+    void restore().catch(() => { /* Local resume remains available offline. */ });
+    return () => { active = false; };
+  }, []);
   if (!questions.length) return <p className="rounded-lg bg-slate-50 p-4 text-sm text-slate-600" role="status">{message}</p>;
   const ordered = filters.order === "book";
-  const modes = <fieldset className="flex flex-wrap gap-4"><legend className="mb-2 font-semibold">풀이 방식</legend>{([['random', '분과별 랜덤풀이'], ['book', '연도별 순서풀이']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
+  const modes = <fieldset className="flex flex-wrap gap-4"><legend className="mb-2 font-semibold">풀이 방식</legend>{([['random', '분과별 랜덤풀이'], ['book', '연도별 풀이·모의고사']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
   if (ordered) {
     const exams = practiceMockExams(questions);
     const active = filters.series?.length === 1 && filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length
       ? exams.find((exam) => filters.series?.[0] === exam.series && filters.years[0] === String(exam.year)) : undefined;
-    const params = active ? new URLSearchParams({ mode: "practice-book", count: "all", practiceSeries: active.series, practiceYears: String(active.year) }) : null;
+    const params = active ? new URLSearchParams({ mode: "practice-book", count: "all", practiceSeries: active.series, practiceYears: String(active.year), ...(examMode ? { exam: "1" } : {}) }) : null;
     return <div>
+      {lastMock && <Link href={lastMock.href} className="secondary-action mb-4">{lastMock.title} · {lastMock.finished ? "최근 결과 보기" : "이어서 풀기"}</Link>}
       {modes}
       <p className="mt-3 text-sm text-slate-600">풀 모의고사를 선택하세요. 내과·외과·산부인과·소아과 전체를 원래 문제 번호 순서대로 풉니다.</p>
       <fieldset className="mt-5"><legend className="font-semibold text-slate-900">모의고사 선택</legend>
@@ -29,7 +58,8 @@ export function PracticeBankPicker({ questions, filters, onChange, message, coun
         })}</div>
       </fieldset>
       <p className="mt-3 text-xs text-slate-500">P: 퍼펙트 · R: 리얼</p>
-      <div className="mt-5" role="status">{active && params ? <Link className="primary-action" href={`/review/qbank/session?${params}`}>{active.label} 시작 · 전체 {active.count.toLocaleString()}문항</Link> : <p className="text-sm text-slate-600">모의고사 하나를 선택하세요.</p>}</div>
+      <fieldset className="mt-5 grid gap-2 sm:grid-cols-2"><legend className="mb-2 font-semibold">채점 방식</legend>{[[true, "모의고사", "자유롭게 답을 수정하고 종료 후 일괄 채점"], [false, "즉시 해설 학습", "한 문제씩 채점하고 바로 해설 확인"]].map(([value, title, detail]) => <label key={String(value)} className={`flex cursor-pointer gap-3 rounded-xl border p-4 ${examMode === value ? "border-teal-500 bg-teal-50" : "border-slate-200"}`}><input type="radio" name="exam-mode" checked={examMode === value} onChange={() => setExamMode(value === true)} className="accent-teal-600" /><span><span className="block text-sm font-semibold">{title}</span><span className="text-xs text-slate-500">{detail}</span></span></label>)}</fieldset>
+      <div className="mt-5" role="status">{active && params ? <Link className="primary-action" href={`/review/qbank/session?${params}`}>{active.label} {examMode ? "모의고사" : "학습"} 시작 · 전체 {active.count.toLocaleString()}문항</Link> : <p className="text-sm text-slate-600">모의고사 하나를 선택하세요.</p>}</div>
     </div>;
   }
   const selected = questions.filter((q) => matchesPractice(q, filters)).length;
