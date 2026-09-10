@@ -24,7 +24,7 @@ import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtyS
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 
 type SessionAnswer = { questionId: string; selected: QbankSelection; correct: boolean | null; specialty: string };
-type QbankSessionSnapshot = { mockExam?: MockExamState | null; questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankSelection | null; submitted: boolean };
+type QbankSessionSnapshot = { drafts?: Record<string, QbankSelection>; mockExam?: MockExamState | null; questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankSelection | null; submitted: boolean };
 type QbankActiveSession = QbankSessionSnapshot & { sessionId: string; updatedAt: string };
 
 const QBANK_SESSION_STORAGE_PREFIX = "medicine-web-qbank-session:";
@@ -149,6 +149,11 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   return [...shards.flat().filter((item) => ids.has(item.id)), ...privateQuestions];
 }
 
+function readDrafts(value: unknown): Record<string, QbankSelection> {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+  return Object.fromEntries(Object.entries(value).filter(([, answer]) => isSelection(answer)));
+}
+
 function activeSessionFrom(value: unknown): QbankActiveSession | null {
   if (!value || typeof value !== "object") return null;
   const candidate = value as Partial<QbankActiveSession>;
@@ -156,6 +161,7 @@ function activeSessionFrom(value: unknown): QbankActiveSession | null {
   return {
     sessionId: candidate.sessionId,
     mockExam: readMockExam(candidate.mockExam),
+    drafts: readDrafts(candidate.drafts),
     questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
     currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,
     answers: candidate.answers as SessionAnswer[],
@@ -172,6 +178,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [drafts, setDrafts] = useState<Record<string, QbankSelection>>({});
   const [selected, setSelected] = useState<QbankSelection | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [answers, setAnswers] = useState<SessionAnswer[]>([]);
@@ -262,6 +269,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setQuestions(selectedQuestions);
         setCurrentIndex(restoredIndex);
         setAnswers(canRestore && snapshot ? snapshot.answers.filter((item) => selectedQuestions.some((question) => question.id === item.questionId)) : []);
+        setDrafts(canRestore ? readDrafts(snapshot?.drafts) : {});
         setSelected(restoredAnswer?.selected ?? (canRestore && snapshot ? snapshot.selected : null));
         setSubmitted(Boolean(restoredAnswer));
         setBookmarked(Boolean(restoredQuestion && state.bookmarkIds.includes(restoredQuestion.id)));
@@ -341,6 +349,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setQuestions(restoredQuestions);
         setCurrentIndex(restoredIndex);
         setAnswers(remoteActiveSession.answers.filter((item) => restoredQuestions.some((question) => question.id === item.questionId)));
+        setDrafts(readDrafts(remoteActiveSession.drafts));
         setSelected(restoredAnswer?.selected ?? remoteActiveSession.selected);
         setSubmitted(Boolean(restoredAnswer));
         const state = loadQbankState();
@@ -388,14 +397,20 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   const showQuestion = useCallback((index: number) => {
     const question = questions[index];
-    if (!question) return;
+    if (!question || index === currentIndex) return;
+    if (current && !submitted) setDrafts(items => {
+      const nextDrafts = { ...items };
+      if (selected) nextDrafts[current.id] = selected;
+      else delete nextDrafts[current.id];
+      return nextDrafts;
+    });
     const previousAnswer = answers.find((item) => item.questionId === question.id);
     setCurrentIndex(index);
     setBookmarked(loadQbankState().bookmarkIds.includes(question.id));
-    setSelected(previousAnswer?.selected ?? null);
+    setSelected(previousAnswer?.selected ?? drafts[question.id] ?? null);
     setSubmitted(Boolean(previousAnswer));
     setWrongTracked(loadQbankState().wrongIds.includes(question.id));
-  }, [answers, questions]);
+  }, [answers, questions, current, currentIndex, selected, submitted, drafts]);
 
   const submit = useCallback(() => {
     if (mockExam || !current || !selected || submitted) return;
@@ -481,6 +496,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     if (loading || completed || questions.length === 0 || !sessionIdRef.current) return;
     const snapshot: QbankActiveSession = {
       mockExam,
+      drafts: current && selected && !submitted ? { ...drafts, [current.id]: selected } : drafts,
       sessionId: sessionIdRef.current,
       questionIds: questions.map((item) => item.id),
       currentIndex,
@@ -507,7 +523,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       void supabase.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: snapshot }, { onConflict: "user_id" })
         .then(({ error }) => { if (error) console.warn("Q-bank active session sync failed.", error); });
     }, mockExam ? 0 : 500);
-  }, [answers, completed, currentIndex, loading, mockExam, questions, selected, sessionStorageKey, submitted, syncUserId]);
+  }, [answers, completed, current, currentIndex, drafts, loading, mockExam, questions, selected, sessionStorageKey, submitted, syncUserId]);
   if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
   if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
   if (questions.length === 0) return (
@@ -546,6 +562,30 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         <span>{currentIndex + 1} / {questions.length}</span>
       </div>
       <div className="h-2 overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
+
+      {questions.some(question => question.questionBank === "practice") && <section className="rounded-lg border border-slate-200 bg-white p-3" aria-label="문제 번호 이동">
+        <div className="flex flex-wrap items-center gap-2">
+          <label className="flex items-center gap-2 text-sm font-medium">문제 번호
+            <select className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm" value={currentIndex} onChange={event => showQuestion(Number(event.target.value))}>
+              {questions.map((question, index) => <option key={question.id} value={index}>{index + 1}번 · {question.specialty}</option>)}
+            </select>
+          </label>
+          <button type="button" className="secondary-action disabled:opacity-40" disabled={currentIndex === 0} onClick={previous}>이전</button>
+          <button type="button" className="secondary-action disabled:opacity-40" disabled={currentIndex === questions.length - 1} onClick={() => showQuestion(currentIndex + 1)}>다음</button>
+          <span className="ml-auto text-xs text-slate-500">제출 {answers.length}/{questions.length}</span>
+        </div>
+        <details className="mt-2">
+          <summary className="cursor-pointer text-xs text-slate-600">전체 번호</summary>
+          <div className="mt-2 flex max-h-48 flex-wrap gap-1.5 overflow-y-auto p-1">
+            {questions.map((question, index) => {
+              const answer = answers.find(item => item.questionId === question.id);
+              const chosen = index === currentIndex ? selected : drafts[question.id];
+              const status = answer ? answer.correct === null ? "채점 제외" : answer.correct ? "정답" : "오답" : chosen ? "선택 중" : "미응답";
+              return <button key={question.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 · ${status}`} title={`${index + 1}번 · ${status}`} onClick={() => showQuestion(index)} className={`h-9 min-w-9 rounded-md border px-2 text-xs tabular-nums ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""} ${answer ? answer.correct === null ? "border-slate-200 bg-slate-100" : answer.correct ? "border-teal-200 bg-teal-50 text-teal-800" : "border-rose-200 bg-rose-50 text-rose-800" : chosen ? "border-blue-200 bg-blue-50 text-blue-800" : "border-slate-200 bg-white text-slate-600"}`}>{index + 1}</button>;
+            })}
+          </div>
+        </details>
+      </section>}
 
       <article className="surface p-5 sm:p-7">
         <div className="flex flex-wrap items-center justify-between gap-3">
