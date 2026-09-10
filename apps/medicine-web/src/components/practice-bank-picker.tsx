@@ -1,5 +1,6 @@
 "use client";
 
+import { PracticeStartControls } from "@/components/practice-start-controls";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
@@ -38,16 +39,15 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
   }, []);
   if (!questions.length) return <p className="rounded-lg bg-slate-50 p-4 text-sm text-slate-600" role="status">{message}</p>;
   const ordered = filters.order === "book";
-  const modes = <fieldset className="flex flex-wrap gap-4"><legend className="mb-2 font-semibold">풀이 방식</legend>{([['random', '분과별 랜덤풀이'], ['book', '회차 전체 풀기']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
+  const modes = <fieldset className="flex flex-wrap gap-4"><legend className="mb-2 font-semibold">문제 선택 방식</legend>{([['random', '분과·조건 선택'], ['book', '회차 전체 풀기']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
   if (ordered) {
     const exams = practiceMockExams(questions);
     const active = filters.series?.length === 1 && filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length
       ? exams.find((exam) => filters.series?.[0] === exam.series && filters.years[0] === String(exam.year)) : undefined;
-    const params = active ? new URLSearchParams({ mode: "practice-book", count: "all", practiceSeries: active.series, practiceYears: String(active.year), ...(examMode ? { exam: "1" } : {}) }) : null;
     return <div>
       {lastMock && <Link href={lastMock.href} className="secondary-action mb-4">{lastMock.title} · {lastMock.finished ? "최근 결과 보기" : "이어서 풀기"}</Link>}
       {modes}
-      <p className="mt-3 text-sm text-slate-600">P/R 연도 하나를 선택하면 전체 문항을 내과·외과·산부인과·소아과의 원래 번호 순서대로 풉니다. 문항 수는 따로 지정하지 않습니다.</p>
+      <p className="mt-3 text-sm text-slate-600">P/R 연도 하나를 선택하면 전체 문항을 내과·외과·산부인과·소아과의 원래 번호 순서대로 풉니다. 기본은 전체 문항이며, 문항 수 변경을 펼쳐 조정할 수 있습니다.</p>
       <fieldset className="mt-5"><legend className="font-semibold text-slate-900">모의고사 선택</legend>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{exams.map((exam) => {
           const checked = active === exam;
@@ -59,7 +59,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
       </fieldset>
       <p className="mt-3 text-xs text-slate-500">P: 퍼펙트 · R: 리얼</p>
       <fieldset className="mt-5 grid gap-2 sm:grid-cols-2"><legend className="mb-2 font-semibold">채점 방식</legend>{[[true, "모의고사", "자유롭게 답을 수정하고 종료 후 일괄 채점"], [false, "즉시 해설 학습", "한 문제씩 채점하고 바로 해설 확인"]].map(([value, title, detail]) => <label key={String(value)} className={`flex cursor-pointer gap-3 rounded-xl border p-4 ${examMode === value ? "border-teal-500 bg-teal-50" : "border-slate-200"}`}><input type="radio" name="exam-mode" checked={examMode === value} onChange={() => setExamMode(value === true)} className="accent-teal-600" /><span><span className="block text-sm font-semibold">{title}</span><span className="text-xs text-slate-500">{detail}</span></span></label>)}</fieldset>
-      <div className="mt-5" role="status">{active && params ? <Link className="primary-action" href={`/review/qbank/session?${params}`}>선택 회차 다 풀기 · {active.label} · {active.count.toLocaleString()}문항</Link> : <p className="text-sm text-slate-600">모의고사 하나를 선택하세요.</p>}</div>
+      <PracticeStartControls key={active?.label || "no-round"} total={active?.count ?? 0} filters={filters} exam={examMode} label={active?.label} />
     </div>;
   }
   const selected = questions.filter((q) => matchesPractice(q, filters)).length;
@@ -76,7 +76,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
   </fieldset>;
   return <div>
     {modes}
-    <p className="mt-3 text-sm text-slate-600">과목이나 세부 분과로 범위를 고른 뒤, 아래 시작 영역에서 풀 문항 수를 정하세요. 선택하지 않은 조건은 전체를 포함합니다.</p>
+    <p className="mt-3 text-sm text-slate-600">과목이나 세부 분과로 범위를 고르면 전체 문항을 기존 순서대로 풀 수 있습니다. 선택하지 않은 조건은 전체를 포함합니다.</p>
     {group("series", "P / R", [["퍼펙트", "P"], ["리얼", "R"]])}
     <p className="mt-1 text-xs text-slate-500">P: 퍼펙트 · R: 리얼</p>
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
@@ -91,7 +91,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
     })}
     {group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}
     <p className="mt-4 text-xs text-slate-500">출제년도 기준입니다. 연도를 알 수 없는 BANK 문제는 별도로 선택합니다.</p>
-    <p className="mt-2 text-sm font-semibold" role="status">선택 조건에 맞는 실전문제 {selected.toLocaleString()}문항</p>
-    <button type="button" className="mt-3 text-xs text-slate-500 underline" onClick={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: filters.order })}>실전 선택 초기화</button>
+    <PracticeStartControls key={JSON.stringify(filters)} total={selected} filters={filters} />
   </div>;
 }

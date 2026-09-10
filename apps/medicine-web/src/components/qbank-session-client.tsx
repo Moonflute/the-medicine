@@ -243,7 +243,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         if (mode === "unattempted") filtered = loaded.filter((item) => !state.progress[item.id]);
         const requestedCount = requestedCountValue === "all"
           ? filtered.length
-          : Math.max(1, Math.min(100, Number(requestedCountValue) || 10));
+          : Math.max(1, Math.min(mode === "practice-book" || params.get("practiceOnly") === "1" ? filtered.length : 100, Number(requestedCountValue) || 10));
         let snapshot: QbankSessionSnapshot | null = null;
         try {
           const stored = window.sessionStorage.getItem(storageKey) ?? window.localStorage.getItem(storageKey);
@@ -253,7 +253,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         }
         const restoredQuestions = snapshot?.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item)) ?? [];
         const canRestore = Boolean(snapshot && restoredQuestions.length === snapshot.questionIds.length && restoredQuestions.length > 0);
-        const selectedQuestions = canRestore ? restoredQuestions : (mode === "practice-book" ? [...filtered].sort(comparePracticeOrder) : shuffled(filtered).slice(0, requestedCount));
+        const selectedQuestions = canRestore ? restoredQuestions : (mode === "practice-book" ? [...filtered].sort(comparePracticeOrder) : shuffled(filtered)).slice(0, requestedCount);
         const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
         const restoredQuestion = selectedQuestions[restoredIndex];
         const restoredAnswer = canRestore && snapshot ? snapshot.answers.find((item) => item.questionId === restoredQuestion?.id) : undefined;

@@ -227,7 +227,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
         <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
       </div>
-      {!(tab === "practice" && practiceFilters.order === "book") && <section className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" aria-label="랜덤풀이 시작 설정">
+      {tab !== "practice" && <section className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" aria-label="랜덤풀이 시작 설정">
         <h3 className="font-semibold text-slate-900">랜덤풀이 시작</h3>
 
         <p className="mt-3 text-sm text-slate-700" role="status">{randomSources.length ? `출제 범위: ${randomSources.map(source => `${source.label} ${source.count.toLocaleString()}문항`).join(" + ")}` : "위에서 풀고 싶은 분과 또는 조건을 선택하세요."}</p>
