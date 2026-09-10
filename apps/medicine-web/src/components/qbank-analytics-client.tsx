@@ -11,7 +11,7 @@ import { practiceTopicLabel, PRACTICE_DEPARTMENTS } from "@/lib/practice-selecti
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import type { QbankQuestionIndex } from "@/lib/types";
 
-const BANKS = [["all", "전체"], ["clinical", "임상문제"], ["practice", "실전문제"], ["theory", "이론문제"]] as const;
+const BANKS = [["all", "전체"], ["theory", "이론문제"], ["clinical", "임상문제"], ["practice", "실전문제"]] as const;
 const clean = (s: string) => s.replace(/^\d+\s*/, "");
 const percent = (n: number, d: number) => d ? `${Math.round(n / d * 100)}%` : "—";
 const dateLabel = (value: string) => { const d = new Date(value); return Number.isNaN(d.getTime()) ? "날짜 없음" : d.toLocaleDateString("ko-KR", { month: "short", day: "numeric" }); };
