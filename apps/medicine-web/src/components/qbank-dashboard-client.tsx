@@ -108,6 +108,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const draftKey = `medicine-qbank-picker-v2:${relatedTarget ? `${relatedTarget.type}:${relatedTarget.slug}` : "all"}`;
   const [selectedTheory, setSelectedTheory] = useState<string[]>([]);
   const [selectedClinical, setSelectedClinical] = useState<string[]>([]);
+  const [randomScope, setRandomScope] = useState<"current" | "combined">("current");
   const [count, setCount] = useState("10");
   const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);
   const [unattemptedCount, setUnattemptedCount] = useState("10");
@@ -154,14 +155,15 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       setSelectedClinical(stringArray(saved?.clinical));
       setPracticeFilters({ books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years), series: saved?.practice?.series ? stringArray(saved.practice.series) : [...new Set(stringArray(saved?.practice?.books).map((book) => book.startsWith("perfect") ? "퍼펙트" : "리얼"))], departments: stringArray(saved?.practice?.departments), order: saved?.practice?.order === "book" ? "book" : "random" });
       setTab(saved?.tab === "clinical" || saved?.tab === "practice" ? saved.tab : "theory");
+      setRandomScope(saved?.randomScope === "combined" ? "combined" : "current");
       setCount(typeof saved?.count === "string" ? saved.count : "10");
     } catch { /* Storage is optional; in-memory selections remain available. */ }
     setLoadedDraft(draftKey);
   }, [draftKey]);
   useEffect(() => {
     if (loadedDraft !== draftKey) return;
-    try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceFilters, count })); } catch { /* Storage unavailable. */ }
-  }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceFilters, count]);
+    try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceFilters, count, randomScope })); } catch { /* Storage unavailable. */ }
+  }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceFilters, count, randomScope]);
   const availablePractice = useMemo(() => practice.filter((q) => !relatedTarget || (relatedTarget.type === "disease" ? q.relatedDiseaseSlugs.some((slug) => (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).includes(slug)) : q.relatedCcSlugs.includes(relatedTarget.slug))), [practice, relatedTarget]);
   const practiceCount = availablePractice.filter((q) => matchesPractice(q, practiceFilters)).length;
   const selectedTheoryCount = availableQuestions.filter((q) => q.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(q))).length;
@@ -170,16 +172,28 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     (item.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(item)))
     || (item.questionBank === "clinical" && selectedClinical.includes(item.specialtySlug))
   )).length, [availableQuestions, selectedClinical, selectedTheory]);
+  const includeTheory = randomScope === "combined" || tab === "theory";
+  const includeClinical = randomScope === "combined" || tab === "clinical";
+  const includePractice = (randomScope === "combined" || tab === "practice") && practiceFilters.order !== "book";
+  const randomSources = [
+    { label: "이론", count: includeTheory ? selectedTheoryCount : 0 },
+    { label: "임상", count: includeClinical ? selectedClinicalCount : 0 },
+    { label: "실전", count: includePractice ? practiceCount : 0 },
+  ].filter(source => source.count > 0);
+  const randomPool = randomSources.reduce((sum, source) => sum + source.count, 0);
+  const validCount = /^\d+$/.test(count) && Number(count) >= 1 && Number(count) <= 100;
+  const drawCount = Math.min(Number(count) || 0, randomPool);
+  const randomLabel = randomSources.map(source => source.label).join(" + ");
   const sessionParams = new URLSearchParams({
     mode: relatedTarget ? "related" : "selection",
-    theory: selectedTheory.join(","),
-    clinical: selectedClinical.join(","),
+    theory: includeTheory ? selectedTheory.join(",") : "",
+    clinical: includeClinical ? selectedClinical.join(",") : "",
     count,
-    practiceSeries: (practiceFilters.series ?? []).join(","),
-    practiceDepartments: (practiceFilters.departments ?? []).join(","),
-    practiceBooks: practiceFilters.books.join(","),
-    practiceSpecialties: practiceFilters.specialties.join(","),
-    practiceYears: practiceFilters.years.join(","),
+    practiceSeries: includePractice ? (practiceFilters.series ?? []).join(",") : "",
+    practiceDepartments: includePractice ? (practiceFilters.departments ?? []).join(",") : "",
+    practiceBooks: includePractice ? practiceFilters.books.join(",") : "",
+    practiceSpecialties: includePractice ? practiceFilters.specialties.join(",") : "",
+    practiceYears: includePractice ? practiceFilters.years.join(",") : "",
   });
   if (relatedTarget) {
     sessionParams.set("targetType", relatedTarget.type);
@@ -196,7 +210,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
 
     <section className="surface p-5 sm:p-6">
       <fieldset disabled={loadedDraft !== draftKey}>
-      <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2><p className="mt-1 text-sm text-slate-600">탭을 바꿔도 선택이 유지됩니다. 여러 탭에서 고른 문제를 함께 풀 수 있습니다.</p></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
+      <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2><p className="mt-1 text-sm text-slate-600">탭을 바꿔도 선택이 유지됩니다. 아래 시작 영역에서 현재 탭만 풀거나 여러 탭을 함께 풀 수 있습니다.</p></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
       <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
         {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => setTab(key)} onKeyDown={(event) => {
           const tabs = ['theory', 'clinical', 'practice'] as const;
@@ -213,11 +227,18 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <QuestionBankPicker questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
       </div>
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
-        <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} count={count} />
+        <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
       </div>
-      {!(tab === "practice" && practiceFilters.order === "book") && <><label className="mt-6 block max-w-xs text-sm font-medium text-slate-700">문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
-      {selectedCount + practiceCount > 0 ? <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />선택한 탭 문제 함께 랜덤풀이</Link> : <p className="mt-5 text-sm text-rose-700">이론·임상·실전문제 중 하나 이상 선택하세요.</p>}
-      </>}
+      {!(tab === "practice" && practiceFilters.order === "book") && <section className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" aria-label="랜덤풀이 시작 설정">
+        <h3 className="font-semibold text-slate-900">랜덤풀이 시작</h3>
+        <fieldset className="mt-3 flex flex-wrap gap-3 text-sm"><legend className="mb-2 text-xs font-medium text-slate-500">출제 대상</legend>{([["current", "현재 탭만"], ["combined", "선택한 탭 함께"]] as const).map(([value,label]) => <label key={value} className="flex cursor-pointer items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2"><input type="radio" name="random-scope" checked={randomScope === value} onChange={() => setRandomScope(value)} className="accent-teal-600" />{label}</label>)}</fieldset>
+        <p className="mt-3 text-sm text-slate-700" role="status">{randomSources.length ? `출제 범위: ${randomSources.map(source => `${source.label} ${source.count.toLocaleString()}문항`).join(" + ")}` : "위에서 풀고 싶은 분과 또는 조건을 선택하세요."}</p>
+        {randomScope === "combined" && practiceFilters.order === "book" && <p className="mt-2 text-xs text-slate-500">실전의 연도별 풀이는 별도로 시작합니다. 함께 랜덤풀기에 실전을 넣으려면 실전 탭에서 분과별 랜덤풀이를 선택하세요.</p>}
+        <div className="mt-4 flex flex-wrap items-end gap-3"><label className="block text-sm font-medium text-slate-700">이번에 풀 문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={event => setCount(event.target.value)} aria-describedby="random-count-help" className="mt-2 block w-32 rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
+        {randomPool > 0 && validCount ? <Link href={sessionHref} className="primary-action"><Play className="h-4 w-4" />{randomLabel} {drawCount}문항 랜덤으로 시작</Link> : <button disabled className="primary-action opacity-40">{randomPool ? "문항 수를 확인하세요" : "출제 범위를 선택하세요"}</button>}</div>
+        <p id="random-count-help" className="mt-2 text-xs text-slate-500">{!validCount ? "문항 수는 1~100 사이의 정수로 입력하세요." : randomPool > 0 ? `선택 범위에서 ${drawCount}문항을 무작위로 뽑습니다.${Number(count) > randomPool ? " 선택한 문제가 입력 수보다 적어 모두 출제합니다." : ""}` : "선택한 범위에서 입력한 수만큼 무작위로 출제합니다. 최대 100문항입니다."}</p>
+      </section>}
+
       </fieldset>
     </section>
 
