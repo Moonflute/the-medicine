@@ -41,3 +41,16 @@ test('empty data and malformed retry lists remain empty; retry IDs are bounded a
   assert.deepEqual(readRetryIds('["a","a",null,1,""]'), ['a']);
   assert.equal(readRetryIds(JSON.stringify(Array.from({length:200},(_,i)=>String(i)))).length,100);
 });
+
+test('department order follows catalog ranks and latest accuracy differs from repeat-weighted accuracy', () => {
+  const questions = [
+    {id:'p',bank:'practice',department:'소아과',topic:'소아',label:'p',order:3},
+    {id:'m',bank:'practice',department:'내과',topic:'내과',label:'m',order:0},
+    {id:'s',bank:'practice',department:'외과',topic:'외과',label:'s',order:1},
+  ];
+  const s=buildQbankAnalytics(questions,{...state,progress:{m:{attempts:4,correctAttempts:3,lastCorrect:true,consecutiveCorrect:2},s:{attempts:1,correctAttempts:0,lastCorrect:false,consecutiveCorrect:0}}});
+  assert.deepEqual(s.groups.map(g=>g.key),['내과','외과','소아과']);
+  assert.equal(s.latestCorrect,1);assert.equal(s.mastered,1);assert.equal(s.recovered,1);
+  assert.equal(s.correct/s.attempts,0.6);assert.equal(s.latestCorrect/s.attempted,0.5);
+  assert.equal(s.groups[0].mastered,1);assert.equal(s.groups[2].attempted,0);
+});

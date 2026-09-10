@@ -1,7 +1,7 @@
 import type { QbankState } from "./qbank-store";
 
-export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string };
-export type AnalyticsGroup = { key: string; total: number; attempted: number; attempts: number; correct: number; wrong: number; retryIds: string[] };
+export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number };
+export type AnalyticsGroup = { key: string; total: number; attempted: number; attempts: number; correct: number; wrong: number; retryIds: string[]; order: number; latestCorrect: number; mastered: number };
 export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: QbankState, bank = "all", department = "all") {
   const catalog = [...new Map(questions.map(q => [q.id, q])).values()];
   const selected = catalog.filter(q => (bank === "all" || q.bank === bank) && (department === "all" || q.department === department));
@@ -9,7 +9,7 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
   const groups = new Map<string, AnalyticsGroup>();
   const topics = new Map<string, AnalyticsGroup>();
   const exams = new Map<string, AnalyticsGroup>();
-  let attempts = 0, correct = 0, attempted = 0, recovered = 0;
+  let attempts = 0, correct = 0, attempted = 0, recovered = 0, latestCorrect = 0, mastered = 0;
   const wrong: Array<AnalyticsQuestion & { mistakes: number; attempts: number; last: string }> = [];
   for (const q of selected) {
     const p = state.progress[q.id];
@@ -19,11 +19,16 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
     const mistakes = count - right;
     attempts += count; correct += right;
     if (count > 0) attempted++;
+    if (count > 0 && p?.lastCorrect === true) latestCorrect++;
+    if (count > 0 && (p?.consecutiveCorrect ?? 0) >= 2) mastered++;
     if (mistakes > 0 && p?.lastCorrect === true) recovered++;
     if (latestWrong) wrong.push({ ...q, mistakes, attempts: count, last: p?.lastAttemptedAt ?? "" });
     for (const [map, key] of [[groups, q.department], [topics, `${q.department} · ${q.topic}`], [exams, q.exam]] as const) {
       if (!key) continue;
-      const g = map.get(key) ?? { key, total: 0, attempted: 0, attempts: 0, correct: 0, wrong: 0, retryIds: [] };
+      const g = map.get(key) ?? { key, total: 0, attempted: 0, attempts: 0, correct: 0, wrong: 0, retryIds: [], order: q.order ?? 999, latestCorrect: 0, mastered: 0 };
+      g.order = Math.min(g.order, q.order ?? 999);
+      if (count > 0 && p?.lastCorrect === true) g.latestCorrect++;
+      if (count > 0 && (p?.consecutiveCorrect ?? 0) >= 2) g.mastered++;
       g.total++; g.attempts += count; g.correct += right;
       if (count > 0) g.attempted++;
       if (latestWrong) { g.wrong++; g.retryIds.push(q.id); }
@@ -37,7 +42,7 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
   const recent = sessions.slice(0, 5), previous = sessions.slice(5, 10);
   const rate = (items: typeof sessions) => items.length ? Math.round(100 * items.reduce((sum, s) => sum + s.correct, 0) / items.reduce((sum, s) => sum + s.total, 0)) : null;
   const currentRate = rate(recent), previousRate = rate(previous);
-  return { selected, attempts, correct, attempted, recovered, wrong, repeated: wrong.filter(q => q.mistakes >= 2), groups: [...groups.values()].sort((a, b) => a.key.localeCompare(b.key, "ko")), weak, exams: [...exams.values()].sort((a, b) => b.key.localeCompare(a.key)), sessions, currentRate, change: recent.length === 5 && previous.length === 5 && currentRate !== null && previousRate !== null ? currentRate - previousRate : null };
+  return { selected, attempts, correct, attempted, recovered, latestCorrect, mastered, wrong, repeated: wrong.filter(q => q.mistakes >= 2), groups: [...groups.values()].sort((a, b) => a.order - b.order || a.key.localeCompare(b.key, "ko")), weak, exams: [...exams.values()].sort((a, b) => b.key.localeCompare(a.key)), sessions, currentRate, change: recent.length === 5 && previous.length === 5 && currentRate !== null && previousRate !== null ? currentRate - previousRate : null };
 }
 
 export function readRetryIds(value: string | null): string[] {
