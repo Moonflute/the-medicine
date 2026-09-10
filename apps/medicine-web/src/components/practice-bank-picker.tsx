@@ -57,20 +57,27 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
           </label>;
         })}</div>
       </fieldset>
-      <p className="mt-3 text-xs text-slate-500">P: 퍼펙트 · R: 리얼</p>
       <fieldset className="mt-5 grid gap-2 sm:grid-cols-2"><legend className="mb-2 font-semibold">채점 방식</legend>{[[true, "모의고사", "자유롭게 답을 수정하고 종료 후 일괄 채점"], [false, "즉시 해설 학습", "한 문제씩 채점하고 바로 해설 확인"]].map(([value, title, detail]) => <label key={String(value)} className={`flex cursor-pointer gap-3 rounded-xl border p-4 ${examMode === value ? "border-teal-500 bg-teal-50" : "border-slate-200"}`}><input type="radio" name="exam-mode" checked={examMode === value} onChange={() => setExamMode(value === true)} className="accent-teal-600" /><span><span className="block text-sm font-semibold">{title}</span><span className="text-xs text-slate-500">{detail}</span></span></label>)}</fieldset>
       <PracticeStartControls key={active?.label || "no-round"} total={active?.count ?? 0} filters={filters} exam={examMode} label={active?.label} />
     </div>;
   }
   const selected = questions.filter((q) => matchesPractice(q, filters)).length;
-  const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
+  const seriesQuestions = questions.filter(q => !filters.series?.length || filters.series.includes(q.bookSeries));
+  const years = [...new Set(seriesQuestions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
   const group = (key: Dimension, title: string, items: [string, string][]) => <fieldset className="mt-5">
     <legend className="font-semibold text-slate-900">{title}</legend>
     <div className={`mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 ${key === "series" ? "max-w-sm" : "lg:grid-cols-4"}`}>{items.map(([id, label]) => {
       const checked = (filters[key] ?? []).includes(id);
       const total = questions.filter((q) => matchesPractice(q, { ...filters, books: [], [key]: [id] })).length;
       return <label key={id} className={`flex min-h-11 cursor-pointer items-center gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 transition-colors sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700 hover:border-teal-300"}`}>
-        <input type="checkbox" className="h-4 w-4 shrink-0 accent-teal-600" checked={checked} onChange={() => onChange({ ...filters, books: [], [key]: toggleGroup(filters[key] ?? [], [id]) })} /><span className="min-w-0 font-medium">{label}</span><span className="ml-auto shrink-0 text-[11px] tabular-nums text-slate-500">{total.toLocaleString()}</span>
+        <input type="checkbox" className="h-4 w-4 shrink-0 accent-teal-600" checked={checked} onChange={() => {
+          const next = { ...filters, books: [], [key]: toggleGroup(filters[key] ?? [], [id]) };
+          if (key === "series") {
+            const availableYears = new Set(questions.filter(q => !next.series?.length || next.series.includes(q.bookSeries)).map(q => q.examYear === null ? "unknown" : String(q.examYear)));
+            next.years = next.years.filter(year => availableYears.has(year));
+          }
+          onChange(next);
+        }} /><span className="min-w-0 font-medium">{label}</span><span className="ml-auto shrink-0 text-[11px] tabular-nums text-slate-500">{total.toLocaleString()}</span>
       </label>;
     })}</div>
   </fieldset>;
@@ -78,7 +85,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
     {modes}
     <p className="mt-3 text-sm text-slate-600">과목이나 세부 분과로 범위를 고르면 전체 문항을 기존 순서대로 풀 수 있습니다. 선택하지 않은 조건은 전체를 포함합니다.</p>
     {group("series", "P / R", [["퍼펙트", "P"], ["리얼", "R"]])}
-    <p className="mt-1 text-xs text-slate-500">P: 퍼펙트 · R: 리얼</p>
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
     <p className="mt-3 text-xs text-slate-500">과목은 원본 책의 내·외·산·소 구분을 따릅니다. 세부 주제는 해당 과목 안에서 선택합니다.</p>
     {PRACTICE_DEPARTMENTS.map((d) => {
