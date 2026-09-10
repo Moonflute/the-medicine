@@ -208,7 +208,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
 
     <section className="surface p-5 sm:p-6">
       <fieldset disabled={loadedDraft !== draftKey}>
-      <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2><p className="mt-1 text-sm text-slate-600">탭을 바꿔도 선택이 유지됩니다. 선택한 범위에서 랜덤으로 풀거나, 실전 회차 전체를 번호순으로 풀 수 있습니다.</p></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
+      <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
       <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
         {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => setTab(key)} onKeyDown={(event) => {
           const tabs = ['theory', 'clinical', 'practice'] as const;
@@ -218,8 +218,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         }} className={`rounded-md px-2 py-3 text-sm font-semibold ${tab === key ? 'bg-white text-teal-800 shadow-sm' : 'text-slate-600'}`}>{label} <span className="text-xs">{selected > 0 ? `(${selected})` : ''}</span></button>)}
       </div>
       <div role="tabpanel" id="panel-theory" aria-labelledby="tab-theory" hidden={tab !== "theory"} className="mt-6 space-y-6">
-        <div><h3 className="text-base font-semibold text-slate-900">이론 문제 <span className="text-sm font-normal text-slate-500">{theoryGroups.reduce((sum, group) => sum + group.items.reduce((countSum, item) => countSum + item.count, 0), 0).toLocaleString()}문항</span></h3><p className="mt-1 text-sm text-slate-500">문서 소속별로 나눈 뒤 필요한 분과만 선택하세요.</p></div>
-        {theoryGroups.map((group) => <div key={group.type} className="border-t border-slate-200 pt-5"><p className="mb-4 text-sm text-slate-500">{group.description}</p><QuestionBankPicker questionBank="theory" title={group.title} items={group.items} selected={selectedTheory} setSelected={setSelectedTheory} /></div>)}
+        <div><h3 className="text-base font-semibold text-slate-900">이론 문제 <span className="text-sm font-normal text-slate-500">{theoryGroups.reduce((sum, group) => sum + group.items.reduce((countSum, item) => countSum + item.count, 0), 0).toLocaleString()}문항</span></h3></div>
+        {theoryGroups.map((group) => <div key={group.type} className="border-t border-slate-200 pt-5"><QuestionBankPicker questionBank="theory" title={group.title} items={group.items} selected={selectedTheory} setSelected={setSelectedTheory} /></div>)}
       </div>
       <div role="tabpanel" id="panel-clinical" aria-labelledby="tab-clinical" hidden={tab !== "clinical"} className="mt-6">
         <QuestionBankPicker questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />

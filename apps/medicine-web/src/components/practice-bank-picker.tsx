@@ -47,7 +47,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
     return <div>
       {lastMock && <Link href={lastMock.href} className="secondary-action mb-4">{lastMock.title} · {lastMock.finished ? "최근 결과 보기" : "이어서 풀기"}</Link>}
       {modes}
-      <p className="mt-3 text-sm text-slate-600">P/R 연도 하나를 선택하면 전체 문항을 내과·외과·산부인과·소아과의 원래 번호 순서대로 풉니다. 기본은 전체 문항이며, 문항 수 변경을 펼쳐 조정할 수 있습니다.</p>
       <fieldset className="mt-5"><legend className="font-semibold text-slate-900">모의고사 선택</legend>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{exams.map((exam) => {
           const checked = active === exam;
@@ -83,10 +82,8 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
   </fieldset>;
   return <div>
     {modes}
-    <p className="mt-3 text-sm text-slate-600">과목이나 세부 분과로 범위를 고르면 전체 문항을 기존 순서대로 풀 수 있습니다. 선택하지 않은 조건은 전체를 포함합니다.</p>
     {group("series", "P / R", [["퍼펙트", "P"], ["리얼", "R"]])}
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
-    <p className="mt-3 text-xs text-slate-500">과목은 원본 책의 내·외·산·소 구분을 따릅니다. 세부 주제는 해당 과목 안에서 선택합니다.</p>
     {PRACTICE_DEPARTMENTS.map((d) => {
       const topics = [...new Map(questions.filter((q) => q.bookDepartment === d).map((q) => [practiceTopicKey(q), practiceTopicLabel(q)])).entries()].sort((a, b) => a[1].localeCompare(b[1], "ko"));
       const chosen = topics.filter(([key]) => filters.specialties.includes(key)).length;
@@ -96,7 +93,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
       </details>;
     })}
     {group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}
-    <p className="mt-4 text-xs text-slate-500">출제년도 기준입니다. 연도를 알 수 없는 BANK 문제는 별도로 선택합니다.</p>
     <PracticeStartControls key={JSON.stringify(filters)} total={selected} filters={filters} />
   </div>;
 }
