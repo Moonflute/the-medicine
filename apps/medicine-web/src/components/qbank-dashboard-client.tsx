@@ -200,10 +200,10 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
   return <div className="space-y-6">
-    {!relatedTarget ? <section className="grid grid-cols-3 gap-2 sm:gap-3">
-      <div className="surface p-4"><div className="text-xs text-slate-500">전체 문제</div><div className="mt-1 text-2xl font-semibold">{(questions.length + practice.length).toLocaleString()}</div></div>
-      <div className="surface p-4"><div className="text-xs text-slate-500">풀이 완료</div><div className="mt-1 text-2xl font-semibold">{stats.attempted.toLocaleString()}</div></div>
-      <div className="surface border-rose-200 bg-rose-50 p-4"><div className="text-xs text-rose-700">오답</div><div className="mt-1 text-2xl font-semibold text-rose-950">{stats.wrong.toLocaleString()}</div></div>
+    {!relatedTarget ? <section aria-label="문제풀이 요약" className="flex flex-wrap items-center gap-x-5 gap-y-1 px-1 text-xs sm:text-sm">
+      <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">전체 문제</span><span className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</span></div>
+      <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">풀이 완료</span><span className="font-semibold tabular-nums">{stats.attempted.toLocaleString()}</span></div>
+      <div className="flex items-baseline gap-2 whitespace-nowrap text-rose-700"><span>오답</span><span className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</span></div>
     </section> : null}
 
     <section className="surface p-5 sm:p-6">
