@@ -1,3 +1,6 @@
+import { queueChangedRows } from "./learning-sync-outbox";
+import { reviewRow, coverageRow } from "./learning-sync-data";
+
 export type ReviewDomain = "disease" | "cc" | "drug" | "lab" | "skill";
 
 export type ReviewConfidence = "again" | "hard" | "good";
@@ -134,6 +137,7 @@ export function loadReviewItems(catalog: ReviewCatalogItem[] = []): ReviewItem[]
 }
 
 export function saveReviewItems(items: ReviewItem[], source: "local" | "remote" = "local") {
+  if (source === "local") queueChangedRows("review_items", readArray<ReviewItem>(STORAGE_KEY).map(reviewRow), items.map(reviewRow));
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   emitChange(source);
 }
@@ -214,6 +218,7 @@ export function trackRecentItem(item: ReviewCatalogItem) {
     lastCountedDate: dateKey,
     viewCount: (previous?.viewCount ?? 0) + (previous?.lastCountedDate === dateKey ? 0 : 1),
   };
+  queueChangedRows("content_progress", previous ? [coverageRow(previous, current.find(saved => saved.type === item.type && saved.id === item.id))] : [], [coverageRow(coverage[key], next[0])]);
   window.localStorage.setItem(COVERAGE_KEY, JSON.stringify(coverage));
   emitChange();
 }

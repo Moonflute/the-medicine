@@ -62,6 +62,9 @@ jobs:
       - name: Verify lab workspace
         run: node --test scripts/test-lab-workbench.mjs
 
+      - name: Verify learning sync
+        run: node --test scripts/test-learning-sync.mjs
+
       - name: Verify interactive physiology
         run: npm run verify:physiology
 

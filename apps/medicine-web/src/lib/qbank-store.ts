@@ -1,3 +1,5 @@
+import { queueChangedRows } from "./learning-sync-outbox";
+import { questionRows, sessionRow } from "./learning-sync-data";
 import type { QbankSelection } from "@/lib/types";
 
 export type QbankProgress = {
@@ -84,6 +86,11 @@ export function loadQbankState(): QbankState {
 }
 
 export function saveQbankState(state: QbankState, source: "local" | "remote" = "local") {
+  if (source === "local") {
+    const previous = loadQbankState();
+    queueChangedRows("qbank_question_progress", questionRows(previous), questionRows(state));
+    queueChangedRows("qbank_sessions", previous.sessions.map(sessionRow), state.sessions.map(sessionRow));
+  }
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
