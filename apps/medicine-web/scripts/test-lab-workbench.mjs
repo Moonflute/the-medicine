@@ -7,9 +7,9 @@ import ts from "typescript";
 const base = new URL("../", import.meta.url);
 const read = name => fs.readFileSync(new URL(name, base), "utf8");
 const compile = (name, dependencies={}) => {
- const module={exports:{}};
- vm.runInNewContext(ts.transpileModule(read(name),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText,{exports:module.exports,module,require:name=>dependencies[name]});
- return module.exports;
+ const compiledModule={exports:{}};
+ vm.runInNewContext(ts.transpileModule(read(name),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText,{exports:compiledModule.exports,module:compiledModule,require:name=>dependencies[name]});
+ return compiledModule.exports;
 };
 const engine=compile("src/lib/lab-engine.ts");
 const model=compile("src/lib/lab-workbench-model.ts",{"./lab-engine":engine});
