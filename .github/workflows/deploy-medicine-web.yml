@@ -65,6 +65,9 @@ jobs:
       - name: Verify learning sync
         run: node --test scripts/test-learning-sync.mjs
 
+      - name: Verify question sessions
+        run: node --test scripts/test-qbank-session-results.mjs
+
       - name: Verify interactive physiology
         run: npm run verify:physiology
 

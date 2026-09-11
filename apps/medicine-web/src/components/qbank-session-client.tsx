@@ -1,6 +1,8 @@
 "use client";
 
 import { correctAnswers, gradeQuestion, isSelection, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
+import { remainingQuestions, sessionWrongIds } from "@/lib/qbank-session-results";
+import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { readMockExam, type MockExamState } from "@/lib/mock-exam";
@@ -12,7 +14,7 @@ import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
 import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters } from "@/lib/practice-selection";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
-import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
+import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, XCircle } from "lucide-react";
 import {
   loadQbankState,
   removeQbankWrong,
@@ -80,7 +82,7 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
 }
 
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters): Promise<QbankQuestion[]> {
-  if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 학습 통계에서 다시 선택해 주세요.");
+  if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 결과 화면이나 학습 통계에서 다시 선택해 주세요.");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
   let candidates = mode === "practice-book" ? [] : index;
@@ -185,6 +187,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [bookmarked, setBookmarked] = useState(false);
   const [wrongTracked, setWrongTracked] = useState(false);
   const [completed, setCompleted] = useState(false);
+  const [finishConfirm, setFinishConfirm] = useState(false);
+  const [finishError, setFinishError] = useState("");
+  const finishingRef = useRef(false);
+  const continueButtonRef = useRef<HTMLButtonElement>(null);
   const [sessionStartedAt] = useState(() => new Date().toISOString());
   const sessionIdRef = useRef<string | null>(null);
   const requestedSessionIdRef = useRef<string | null>(null);
@@ -421,27 +427,50 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     setSubmitted(true);
   }, [current, mockExam, selected, submitted]);
 
-  const next = useCallback(() => {
-    if (currentIndex + 1 >= questions.length) {
-      const finishedAnswers = answers;
+  const remaining = remainingQuestions(questions.map(question => question.id), answers, drafts, current?.id, selected);
+  const finish = useCallback(() => {
+    if (finishingRef.current || completed) return;
+    finishingRef.current = true;
+    try {
       saveQbankSession({
-        id: `session-${Date.now()}`,
+        id: `session-${sessionIdRef.current}`,
         startedAt: sessionStartedAt,
         completedAt: new Date().toISOString(),
-        questionIds: questions.map((item) => item.id),
-        correct: finishedAnswers.filter((item) => item.correct).length,
-        total: finishedAnswers.filter((item) => item.correct !== null).length,
+        questionIds: questions.map(item => item.id),
+        correct: answers.filter(item => item.correct === true).length,
+        total: answers.filter(item => item.correct !== null).length,
       });
-      window.sessionStorage.removeItem(sessionStorageKey());
-      if (syncUserId) {
-        const supabase = getSupabaseBrowserClient();
-        if (supabase) void supabase.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: null }, { onConflict: "user_id" });
-      }
-      setCompleted(true);
+    } catch {
+      finishingRef.current = false;
+      setFinishError("결과를 저장하지 못했습니다. 저장 공간을 확인한 뒤 다시 시도해 주세요.");
+      return;
+    }
+    if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+    try { window.sessionStorage.removeItem(sessionStorageKey()); } catch { /* Result is already saved. */ }
+    if (syncUserId) {
+      const client = getSupabaseBrowserClient();
+      if (client) void client.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: null }, { onConflict: "user_id" });
+    }
+    setFinishConfirm(false);
+    setCompleted(true);
+  }, [answers, completed, questions, sessionStartedAt, sessionStorageKey, syncUserId]);
+
+  const next = useCallback(() => {
+    if (completed || finishConfirm) return;
+    if (currentIndex + 1 >= questions.length) {
+      if (remaining.remaining.length) setFinishConfirm(true);
+      else finish();
       return;
     }
     showQuestion(currentIndex + 1);
-  }, [answers, currentIndex, questions, sessionStartedAt, sessionStorageKey, showQuestion, syncUserId]);
+  }, [completed, finishConfirm, currentIndex, questions.length, remaining.remaining.length, finish, showQuestion]);
+
+  useEffect(() => {
+    if (finishConfirm) {
+      continueButtonRef.current?.focus();
+      continueButtonRef.current?.scrollIntoView({ block: "center" });
+    }
+  }, [finishConfirm]);
 
   const previous = useCallback(() => {
     if (currentIndex > 0) showQuestion(currentIndex - 1);
@@ -460,7 +489,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     function handleKeyDown(event: KeyboardEvent) {
       const target = event.target;
       if (target instanceof HTMLElement && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
-      if (!current || mockExam) return;
+      if (!current || mockExam || completed || finishConfirm || event.isComposing) return;
 
       if (!submitted && ["1", "2", "3", "4", "5"].includes(event.key)) {
         const answer = optionOrder(current, optionSessionId)[Number(event.key) - 1];
@@ -491,9 +520,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [current, currentIndex, mockExam, next, optionSessionId, previous, selected, submit, submitted]);
+  }, [current, currentIndex, mockExam, next, optionSessionId, previous, selected, submit, submitted, completed, finishConfirm]);
   useEffect(() => {
-    if (loading || completed || questions.length === 0 || !sessionIdRef.current) return;
+    if (loading || completed || finishingRef.current || questions.length === 0 || !sessionIdRef.current) return;
     const snapshot: QbankActiveSession = {
       mockExam,
       drafts: current && selected && !submitted ? { ...drafts, [current.id]: selected } : drafts,
@@ -544,12 +573,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <div className="eyebrow">Session complete</div>
           <h1 className="mt-3 text-3xl font-semibold">{correctCount} / {gradedCount}</h1>
           {specialtyResults.length > 0 ? <div className="mx-auto mt-5 max-w-md rounded-lg border border-slate-200 bg-white p-3 text-left text-sm">{specialtyResults.map(([specialty, result]) => <div key={specialty} className="flex justify-between gap-4 py-1"><span>{specialty}</span><span>{result.correct}/{result.total}</span></div>)}</div> : null}
-          <p className="mt-2 text-slate-600">정답률 {rate}% · 정답 미확인 {answers.length - gradedCount}문항은 채점에서 제외했습니다.</p>
+          <p className="mt-2 text-slate-600">정답률 {rate}% · 채점 제외 {answers.length - gradedCount}문항{remaining.remaining.length > 0 ? ` · 미응답 ${remaining.unanswered}문항 · 선택 후 미제출 ${remaining.unsubmitted}문항` : ""}</p>
         </section>
         <div className="flex flex-wrap justify-center gap-3">
           <Link href="/review/qbank/stats" className="secondary-action">학습 통계</Link>
           <Link href="/review/qbank" className="secondary-action"><ArrowLeft className="h-4 w-4" />문제은행</Link>
-          <Link href={`/review/qbank/session?mode=wrong&count=${questions.length}`} className="primary-action"><RotateCcw className="h-4 w-4" />오답 다시 풀기</Link>
+          <SessionRetryActions ids={sessionWrongIds(answers)} />
         </div>
       </div>
     );
@@ -585,6 +614,17 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             })}
           </div>
         </details>
+      </section>}
+
+      {finishError && <p role="alert" className="text-sm text-rose-700">{finishError}</p>}
+      {finishConfirm && <section role="alertdialog" aria-label="미제출 문제 확인" className="rounded-lg border border-amber-300 bg-amber-50 p-4">
+        <h2 className="text-sm font-semibold">아직 제출하지 않은 문제가 있습니다.</h2>
+        <p className="mt-1 text-sm">미응답 {remaining.unanswered}문항 · 선택 후 미제출 {remaining.unsubmitted}문항</p>
+        <p className="mt-1 text-xs text-slate-600">지금 종료하면 제출한 답안만 결과에 포함합니다.</p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <button type="button" ref={continueButtonRef} className="secondary-action" onClick={() => { setFinishConfirm(false); const first = remaining.remaining[0]; if (first) showQuestion(first.index); }}>남은 문제 계속 풀기</button>
+          <button type="button" className="secondary-action" onClick={finish}>제출한 답안만으로 종료</button>
+        </div>
       </section>}
 
       <article className="surface p-5 sm:p-7">

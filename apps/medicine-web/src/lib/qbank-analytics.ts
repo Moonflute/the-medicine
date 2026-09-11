@@ -46,5 +46,5 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
 }
 
 export function readRetryIds(value: string | null): string[] {
-  try { const ids: unknown = JSON.parse(value ?? "null"); return Array.isArray(ids) ? [...new Set(ids.filter((id): id is string => typeof id === "string" && id.length > 0 && id.length < 2000))].slice(0, 100) : []; } catch { return []; }
+  try { const ids: unknown = JSON.parse(value ?? "null"); return Array.isArray(ids) ? [...new Set(ids.filter((id): id is string => typeof id === "string" && id.length > 0 && id.length < 2000))].slice(0, 10000) : []; } catch { return []; }
 }
