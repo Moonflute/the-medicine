@@ -90,12 +90,12 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <MicrobiologyBacklinks targetType="disease" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />
-      {(previousDisease || nextDisease) ? <nav aria-label="질환 페이지 이동" className="grid gap-3 border-t border-slate-200 pt-6 sm:grid-cols-2">
-        {previousDisease ? <Link href={`/disease/${previousDisease.slug}`} className="group flex min-h-20 items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left transition hover:border-teal-300 hover:bg-teal-50">
+      {(previousDisease || nextDisease) ? <nav aria-label="질환 페이지 이동" className="grid grid-cols-1 gap-3 border-t border-slate-200 pt-6 sm:grid-cols-2">
+        {previousDisease ? <Link href={`/disease/${previousDisease.slug}`} className="group flex min-w-0 min-h-20 items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left transition hover:border-teal-300 hover:bg-teal-50">
           <ArrowLeft className="h-5 w-5 shrink-0 text-slate-400 transition group-hover:-translate-x-0.5 group-hover:text-teal-700" />
           <span className="min-w-0"><span className="block text-xs font-semibold text-slate-500">이전 질환</span><span className="mt-1 block truncate text-sm font-semibold text-slate-950">{previousDisease.title}</span></span>
         </Link> : <div className="hidden sm:block" />}
-        {nextDisease ? <Link href={`/disease/${nextDisease.slug}`} className="group flex min-h-20 items-center justify-end gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-right transition hover:border-teal-300 hover:bg-teal-50">
+        {nextDisease ? <Link href={`/disease/${nextDisease.slug}`} className="group flex min-w-0 min-h-20 items-center justify-end gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-right transition hover:border-teal-300 hover:bg-teal-50">
           <span className="min-w-0"><span className="block text-xs font-semibold text-slate-500">다음 질환</span><span className="mt-1 block truncate text-sm font-semibold text-slate-950">{nextDisease.title}</span></span>
           <ArrowRight className="h-5 w-5 shrink-0 text-slate-400 transition group-hover:translate-x-0.5 group-hover:text-teal-700" />
         </Link> : null}

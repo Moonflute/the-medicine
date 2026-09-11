@@ -2,6 +2,7 @@
 
 import { useMemo } from "react";
 import Link from "next/link";
+import { DocumentToc } from "@/components/document-toc";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote, TermLink } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
@@ -42,6 +43,8 @@ export function DiseaseCard({
   relatedQbankHref?: string;
 }) {
   const expanded = !compact;
+  const tocId = `disease-${note.slug}-toc`;
+  const sectionItems = note.sections.map((section, index) => ({ id: `disease-${note.slug}-section-${index + 1}`, title: section.title }));
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const contentMeta = note.contentMeta;
   const lastUpdated = formatKoreanDate(contentMeta?.contentUpdatedAt || note.updatedAt);
@@ -113,6 +116,8 @@ export function DiseaseCard({
         ) : null}
       </div>
 
+      {expanded && sectionItems.length > 1 && <DocumentToc key={tocId} id={tocId} items={sectionItems} />}
+
       {!compact && (familyLinks.length > 0 || sourceLinks.length > 0) ? (
         <div className="border-b border-slate-200 bg-white p-5 sm:p-6">
           {familyLinks.length > 0 ? (
@@ -150,8 +155,8 @@ export function DiseaseCard({
 
       {expanded ? (
         <div className="grid gap-3 bg-slate-50/70 p-4 sm:p-5">
-          {note.sections.slice(0, compact ? 2 : note.sections.length).map((section) => (
-            <section key={section.title} className="border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4" style={{ borderRadius: 8 }}>
+          {note.sections.slice(0, compact ? 2 : note.sections.length).map((section, index) => (
+            <section id={sectionItems[index].id} tabIndex={-1} key={sectionItems[index].id} className="scroll-mt-20 focus-visible:outline-teal-600 border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4" style={{ borderRadius: 8 }}>
               <div className="mb-3 flex items-center gap-2 text-sm font-semibold text-slate-950">
                 <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-slate-500" />
                 {section.title}
