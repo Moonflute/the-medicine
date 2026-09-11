@@ -1,3 +1,4 @@
+import { studyDateKey } from "./study-date";
 import { queueChangedRows } from "./learning-sync-outbox";
 import { reviewRow, coverageRow } from "./learning-sync-data";
 
@@ -65,12 +66,6 @@ function catalogKey(type: string, id: string) {
   return `${type}|${id}`;
 }
 
-function localDateKey(date = new Date()) {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
 
 export function loadReviewCoverage(catalog: ReviewCatalogItem[] = []): Record<string, ReviewCoverageItem> {
   if (typeof window === "undefined") return {};
@@ -90,7 +85,7 @@ export function loadReviewCoverage(catalog: ReviewCatalogItem[] = []): Record<st
         id: item.id,
         firstViewedAt: item.viewedAt,
         lastViewedAt: item.viewedAt,
-        lastCountedDate: localDateKey(new Date(item.viewedAt)),
+        lastCountedDate: studyDateKey(new Date(item.viewedAt)),
         viewCount: 1,
       };
     }
@@ -209,7 +204,7 @@ export function trackRecentItem(item: ReviewCatalogItem) {
   const coverage = loadReviewCoverage();
   const key = catalogKey(item.type, item.id);
   const previous = coverage[key];
-  const dateKey = localDateKey(now);
+  const dateKey = studyDateKey(now);
   coverage[key] = {
     type: item.type,
     id: item.id,

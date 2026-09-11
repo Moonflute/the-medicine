@@ -1,3 +1,4 @@
+import { loadActivity, loadActivityRows, mergeActivityRows } from "./qbank-activity";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { loadRecentItems, loadReviewCoverage, loadReviewItems, replaceReviewSyncData, type RecentReviewItem, type ReviewCoverageItem, type ReviewItem } from "./review-store";
 import { loadQbankState, replaceQbankSyncData } from "./qbank-store";
@@ -8,7 +9,7 @@ export const MIGRATION_PREFIX = "medicine-learning-migrated-v2:";
 type Snapshot = Record<SyncTable, SyncRow[]>;
 const conflictKeys: Record<SyncTable, string> = {
   review_items: "user_id,domain,content_id", content_progress: "user_id,domain,content_id",
-  qbank_question_progress: "user_id,question_id", qbank_sessions: "user_id,session_id",
+  qbank_question_progress: "user_id,question_id", qbank_sessions: "user_id,session_id", qbank_activity_daily: "user_id,source_id,activity_date",
 };
 export async function readRemote(client: Pick<SupabaseClient, "from">, userId: string): Promise<Snapshot> {
   const tables = await Promise.all(SYNC_TABLES.map(async table => {
@@ -20,7 +21,7 @@ export async function readRemote(client: Pick<SupabaseClient, "from">, userId: s
     }
     return readAllPages<SyncRow>((from, to) => {
       const query = client.from(table).select("*").eq("user_id", userId);
-      return (table === "qbank_question_progress" ? query.order("question_id") : query.order("domain").order("content_id")).range(from, to);
+      return (table === "qbank_activity_daily" ? query.order("source_id").order("activity_date") : table === "qbank_question_progress" ? query.order("question_id") : query.order("domain").order("content_id")).range(from, to);
     });
   }));
   return Object.fromEntries(SYNC_TABLES.map((table, i) => [table, tables[i]])) as Snapshot;
@@ -42,7 +43,7 @@ function seedMigration(remote: Snapshot) {
   const rows: Snapshot = {
     review_items: items.map(reviewRow),
     content_progress: Object.values(coverage).map(item => coverageRow(item, recent.get(key(item.type, item.id)))),
-    qbank_question_progress: questionRows(qbank), qbank_sessions: qbank.sessions.map(sessionRow),
+    qbank_question_progress: questionRows(qbank), qbank_sessions: qbank.sessions.map(sessionRow), qbank_activity_daily: loadActivityRows(),
   };
   for (const table of SYNC_TABLES) {
     const candidates = overlayPending(rows[table], table, pending);
@@ -58,6 +59,7 @@ export async function synchronizeLearning(client: Pick<SupabaseClient, "from">, 
   const owner = window.localStorage.getItem(OWNER_KEY);
   if (owner && owner !== userId) throw new Error("이 기기의 기록은 다른 계정에 연결되어 있습니다. 기존 계정으로 로그인해 주세요.");
   window.localStorage.setItem(OWNER_KEY, userId);
+  loadQbankState(); // Preserve and queue legacy daily counts before downloading any remote totals.
   const remote = await readRemote(client, userId);
   assertCurrent();
   const marker = `${MIGRATION_PREFIX}${userId}`;
@@ -68,12 +70,8 @@ export async function synchronizeLearning(client: Pick<SupabaseClient, "from">, 
   const pending = pendingWrites();
   const combined = Object.fromEntries(SYNC_TABLES.map(table => [table, overlayPending(remote[table], table, pending)])) as Snapshot;
   const data = decode(combined);
-  // Full local daily history must not be replaced by the server's latest 100 sessions.
-  const local = loadQbankState();
-  for (const [day, daily] of Object.entries(local.dailyActivity)) {
-    const existing = data.qbank.dailyActivity[day];
-    data.qbank.dailyActivity[day] = { attempts: Math.max(daily.attempts, existing?.attempts ?? 0), correct: Math.max(daily.correct, existing?.correct ?? 0) };
-  }
+  mergeActivityRows(combined.qbank_activity_daily);
+  data.qbank.dailyActivity = loadActivity();
   replaceReviewSyncData(data.items, data.recent, data.coverage);
   replaceQbankSyncData(data.qbank);
   for (const table of SYNC_TABLES) {

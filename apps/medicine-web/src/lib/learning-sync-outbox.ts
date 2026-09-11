@@ -1,5 +1,5 @@
 export type SyncRow = Record<string, unknown>;
-export const SYNC_TABLES = ["review_items", "content_progress", "qbank_question_progress", "qbank_sessions"] as const;
+export const SYNC_TABLES = ["review_items", "content_progress", "qbank_question_progress", "qbank_sessions", "qbank_activity_daily"] as const;
 export type SyncTable = typeof SYNC_TABLES[number];
 export type PendingWrite = { table: SyncTable; row: SyncRow; revision: string };
 export const OUTBOX_PREFIX = "medicine-learning-outbox-v1:";
@@ -14,6 +14,7 @@ export function publishSyncStatus(next: SyncStatus) {
   if (typeof window !== "undefined") window.dispatchEvent(new Event(SYNC_STATUS_EVENT));
 }
 export function rowKey(table: SyncTable, row: SyncRow): string {
+  if (table === "qbank_activity_daily") return JSON.stringify([row.source_id, row.activity_date]);
   return table === "review_items" || table === "content_progress" ? JSON.stringify([row.domain, row.content_id]) : String(row.question_id ?? row.session_id);
 }
 function storageKey(table: SyncTable, row: SyncRow) { return `${OUTBOX_PREFIX}${table}:${rowKey(table, row)}`; }
@@ -56,6 +57,7 @@ export function queueChangedRows(table: SyncTable, before: SyncRow[], after: Syn
   enqueueRows(table, patches);
 }
 export function identity(table: SyncTable, row: SyncRow): SyncRow {
+  if (table === "qbank_activity_daily") return { source_id: row.source_id, activity_date: row.activity_date };
   return table === "review_items" || table === "content_progress" ? { domain: row.domain, content_id: row.content_id } : table === "qbank_sessions" ? { session_id: row.session_id } : { question_id: row.question_id };
 }
 export function acknowledgeWrite(sent: PendingWrite) {
@@ -70,7 +72,7 @@ export function overlayPending(remote: SyncRow[], table: SyncTable, writes: Pend
     const id = rowKey(table, entry.row);
     const previous = rows.get(id) ?? {};
     const merged = { ...previous, ...entry.row };
-    for (const field of ["attempts", "correct_attempts", "review_count", "view_count"]) {
+    for (const field of ["attempts", "correct_attempts", "review_count", "view_count", "correct"]) {
       if (typeof previous[field] === "number" && typeof merged[field] === "number") merged[field] = Math.max(previous[field] as number, merged[field] as number);
     }
     rows.set(id, merged);

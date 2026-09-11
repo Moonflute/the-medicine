@@ -7,8 +7,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import ts from "typescript";
 
-function harness() {
-  const values = new Map();
+export function harness(values = new Map()) {
   const storage = { getItem: key => values.get(key) ?? null, setItem: (key, value) => values.set(key, value), removeItem: key => values.delete(key), key: i => [...values.keys()][i] ?? null, get length() { return values.size; } };
   const window = { localStorage: storage, dispatchEvent() {} };
   const cache = new Map();
@@ -22,10 +21,10 @@ function harness() {
     vm.runInNewContext(js, { exports: compiled.exports, module: compiled, window, Event, CustomEvent, crypto: webcrypto, console, require: ref => load(ref.replace(/^\.\//, "")) });
     return compiled.exports;
   }
-  return { storage, outbox: load("learning-sync-outbox"), engine: load("learning-sync-engine"), review: load("review-store"), qbank: load("qbank-store") };
+  return { values, storage, outbox: load("learning-sync-outbox"), engine: load("learning-sync-engine"), review: load("review-store"), qbank: load("qbank-store"), activity: load("qbank-activity"), date: load("study-date"), calendar: load("study-calendar") };
 }
 const catalog = id => ({ type: "disease", id, title: id, href: `/disease/${id}`, category: "test", summary: "" });
-function server(outbox) {
+export function server(outbox) {
   const tables = Object.fromEntries(outbox.SYNC_TABLES.map(table => [table, []]));
   const calls = [];
   let fail = false;
@@ -110,11 +109,11 @@ test("unconfirmed server writes remain pending and retry without duplicate attem
 });
 test("bookmark removal does not overwrite newer server answers; recent-session hydration preserves local daily history", async () => {
   const h = harness(); const api = server(h.outbox);
+  h.storage.setItem("medicine-web-qbank-v1", JSON.stringify({version:1,progress:{},sessions:[],dailyActivity:{"2025-01-01":{attempts:42,correct:30}}}));
   h.qbank.toggleQbankBookmark("q1");
   await h.engine.synchronizeLearning(api.client, "u1", () => true);
   h.qbank.toggleQbankBookmark("q1");
   Object.assign(api.tables.qbank_question_progress[0], {attempts: 5, last_answer: "C", last_correct: true, consecutive_correct: 3});
-  const local = h.qbank.loadQbankState(); local.dailyActivity["2025-01-01"] = {attempts: 42, correct: 30}; h.qbank.saveQbankState(local, "remote");
   await h.engine.synchronizeLearning(api.client, "u1", () => true);
   assert.equal(api.tables.qbank_question_progress[0].bookmarked, false);
   assert.equal(api.tables.qbank_question_progress[0].last_answer, "C");
@@ -148,4 +147,54 @@ test("unsent sessions survive the 100-session display limit", async () => {
   await h.engine.synchronizeLearning(api.client, "u1", () => true);
   assert.equal(api.tables.qbank_sessions.length, 105);
   assert.equal(h.qbank.loadQbankState().sessions[0].id, "s104");
+});
+
+test("two devices add new daily activity once, including offline retries and reloads", async () => {
+  const a = harness(), b = harness(), api = server(a.outbox);
+  a.qbank.recordQbankAttempt("same-question", "A", true);
+  b.qbank.recordQbankAttempt("same-question", "B", false);
+  b.qbank.recordQbankAttempt("same-question", "A", true);
+  api.fail(true);
+  await assert.rejects(b.engine.synchronizeLearning(api.client, "u1", () => true));
+  api.fail(false);
+  await a.engine.synchronizeLearning(api.client, "u1", () => true);
+  await b.engine.synchronizeLearning(api.client, "u1", () => true);
+  await a.engine.synchronizeLearning(api.client, "u1", () => true);
+  const today = a.date.studyDateKey();
+  assert.equal(a.qbank.loadQbankState().dailyActivity[today].attempts, 3);
+  assert.equal(a.qbank.loadQbankState().dailyActivity[today].correct, 2);
+  const reloaded = harness(a.values);
+  reloaded.qbank.recordQbankAttempt("another-question", "A", true);
+  await reloaded.engine.synchronizeLearning(api.client, "u1", () => true);
+  await b.engine.synchronizeLearning(api.client, "u1", () => true);
+  await b.engine.synchronizeLearning(api.client, "u1", () => true);
+  assert.equal(b.qbank.loadQbankState().dailyActivity[today].attempts, 4);
+  assert.equal(b.qbank.loadQbankState().dailyActivity[today].correct, 3);
+});
+test("legacy overlapping totals are a floor, not double counted; new empty devices see full history", async () => {
+  const a = harness(), b = harness(), api = server(a.outbox);
+  for (const device of [a, b]) device.storage.setItem("medicine-web-qbank-v1", JSON.stringify({version:1,progress:{},sessions:[],dailyActivity:{"2020-01-01":{attempts:42,correct:30}}}));
+  a.qbank.recordQbankAttempt("q1", "A", true);
+  b.qbank.recordQbankAttempt("q2", "A", true);
+  await a.engine.synchronizeLearning(api.client, "u1", () => true);
+  await b.engine.synchronizeLearning(api.client, "u1", () => true);
+  const fresh = harness();
+  await fresh.engine.synchronizeLearning(api.client, "u1", () => true);
+  assert.equal(fresh.qbank.loadQbankState().dailyActivity["2020-01-01"].attempts, 42);
+  assert.equal(fresh.qbank.loadQbankState().dailyActivity[fresh.date.studyDateKey()].attempts, 2);
+  assert.equal(fresh.qbank.loadQbankState().sessions.length, 0);
+});
+test("Korean midnight, year change, leap day and calendar dates agree regardless of machine time zone", () => {
+  const h = harness();
+  assert.equal(h.date.studyDateKey(new Date("2026-12-31T14:59:59Z")), "2026-12-31");
+  assert.equal(h.date.studyDateKey(new Date("2026-12-31T15:00:00Z")), "2027-01-01");
+  assert.equal(h.date.studyDateKey(new Date("2024-02-28T15:00:00Z")), "2024-02-29");
+  const calendar = h.calendar.activityCalendar("month", new Date("2024-02-28T15:00:00Z"));
+  assert.equal(calendar.days.filter(day => day.inRange).length, 29);
+  assert.equal(calendar.days.find(day => day.key === "2024-02-29").future, false);
+  h.activity.initializeActivity({});
+  h.activity.recordActivity(true, new Date("2026-12-31T14:59:59Z"));
+  h.activity.recordActivity(false, new Date("2026-12-31T15:00:00Z"));
+  assert.equal(h.activity.loadActivity()["2026-12-31"].correct, 1);
+  assert.equal(h.activity.loadActivity()["2027-01-01"].attempts, 1);
 });

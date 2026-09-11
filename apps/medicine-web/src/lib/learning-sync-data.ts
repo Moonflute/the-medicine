@@ -1,3 +1,4 @@
+import { studyDateKey } from "./study-date";
 import { encodeSelection, decodeSelection } from "./qbank-grading";
 import type { RecentReviewItem, ReviewCatalogItem, ReviewCoverageItem, ReviewDomain, ReviewItem } from "./review-store";
 import type { QbankSessionResult, QbankState } from "./qbank-store";
@@ -53,7 +54,7 @@ export function coverageFromRow(row: Row): ReviewCoverageItem | null {
     id,
     firstViewedAt: text(row.first_viewed_at, lastViewedAt),
     lastViewedAt,
-    lastCountedDate: lastViewedAt.slice(0, 10),
+    lastCountedDate: studyDateKey(new Date(lastViewedAt)),
     viewCount: typeof row.view_count === "number" ? row.view_count : 0,
   };
 }
@@ -101,7 +102,7 @@ export function mergeCoverage(local: Record<string, ReviewCoverageItem>, remote:
       ...current,
       firstViewedAt: isoMin(current.firstViewedAt, item.firstViewedAt) ?? current.firstViewedAt,
       lastViewedAt: isoMax(current.lastViewedAt, item.lastViewedAt) ?? current.lastViewedAt,
-      lastCountedDate: (isoMax(current.lastViewedAt, item.lastViewedAt) ?? current.lastViewedAt).slice(0, 10),
+      lastCountedDate: studyDateKey(new Date(isoMax(current.lastViewedAt, item.lastViewedAt) ?? current.lastViewedAt)),
       viewCount: Math.max(current.viewCount, item.viewCount),
     } : item;
   }
@@ -138,7 +139,7 @@ export function qbankStateFromRows(progressRows: Row[], sessionRows: Row[]): Qba
     total: typeof row.total === "number" ? row.total : 0,
   })).filter((session) => Boolean(session.id)).sort((a, b) => b.completedAt.localeCompare(a.completedAt));
   for (const session of state.sessions) {
-    const day = session.completedAt.slice(0, 10);
+    const day = studyDateKey(new Date(session.completedAt));
     const daily = state.dailyActivity[day] ?? { attempts: 0, correct: 0 };
     state.dailyActivity[day] = { attempts: daily.attempts + session.total, correct: daily.correct + session.correct };
   }
@@ -168,7 +169,7 @@ export function mergeQbank(local: QbankState, remote: QbankState): QbankState {
   for (const item of [...remote.sessions, ...local.sessions]) sessions.set(item.id, item);
   state.sessions = [...sessions.values()].sort((left, right) => right.completedAt.localeCompare(left.completedAt)).slice(0, 100);
   for (const session of state.sessions) {
-    const day = session.completedAt.slice(0, 10);
+    const day = studyDateKey(new Date(session.completedAt));
     const daily = state.dailyActivity[day] ?? { attempts: 0, correct: 0 };
     state.dailyActivity[day] = { attempts: daily.attempts + session.total, correct: daily.correct + session.correct };
   }

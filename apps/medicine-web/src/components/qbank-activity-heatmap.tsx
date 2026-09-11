@@ -1,50 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { studyDateKey } from "@/lib/study-date";
+import { activityCalendar as calendarFor, activityStreak as streak, type RangeKey, type DayCell } from "@/lib/study-calendar";
 import { Activity } from "lucide-react";
 import { loadQbankState, QBANK_CHANGE_EVENT, type QbankDailyActivity } from "@/lib/qbank-store";
 
-type RangeKey = "week" | "month" | "year";
-type DayCell = { date: Date; key: string; col: number; row: number; inRange: boolean; future: boolean };
-
-function dateKey(date: Date) {
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-}
-
-function dayStart(value = new Date()) {
-  const date = new Date(value);
-  date.setHours(0, 0, 0, 0);
-  return date;
-}
-
-function calendarFor(range: RangeKey) {
-  const today = dayStart();
-  let start = new Date(today);
-  let end = new Date(today);
-  if (range === "week") {
-    start.setDate(today.getDate() - today.getDay());
-    end = new Date(start);
-    end.setDate(start.getDate() + 6);
-  } else if (range === "month") {
-    start = new Date(today.getFullYear(), today.getMonth(), 1);
-    end = new Date(today.getFullYear(), today.getMonth() + 1, 0);
-  } else {
-    start = new Date(today.getFullYear(), 0, 1);
-    end = new Date(today.getFullYear(), 11, 31);
-  }
-  const gridStart = new Date(start);
-  gridStart.setDate(start.getDate() - start.getDay());
-  const gridEnd = new Date(end);
-  gridEnd.setDate(end.getDate() + 6 - end.getDay());
-  const length = Math.round((gridEnd.getTime() - gridStart.getTime()) / 86_400_000) + 1;
-  const verticalWeekdays = range === "year";
-  const days = Array.from({ length }, (_, index): DayCell => {
-    const date = new Date(gridStart);
-    date.setDate(gridStart.getDate() + index);
-    return { date, key: dateKey(date), col: verticalWeekdays ? Math.floor(index / 7) : index % 7, row: verticalWeekdays ? index % 7 : Math.floor(index / 7), inRange: date >= start && date <= end, future: date > today };
-  });
-  return { days, columns: Math.ceil(length / 7), title: range === "week" ? "\uc774\ubc88 \uc8fc" : range === "month" ? `${today.getMonth() + 1}\uc6d4` : `${today.getFullYear()}\ub144` };
-}
 
 function fill(attempts: number) {
   if (attempts === 0) return "#f1f5f9";
@@ -54,21 +15,12 @@ function fill(attempts: number) {
   return "#115e59";
 }
 
-function streak(activity: Record<string, QbankDailyActivity>) {
-  const cursor = dayStart();
-  let count = 0;
-  while ((activity[dateKey(cursor)]?.attempts ?? 0) > 0) {
-    count += 1;
-    cursor.setDate(cursor.getDate() - 1);
-  }
-  return count;
-}
 
 function monthOutlines(days: DayCell[], pitch: number, cell: number, offset: number) {
   const months = new Map<string, DayCell[]>();
   for (const day of days) {
     if (!day.inRange) continue;
-    const key = `${day.date.getFullYear()}-${day.date.getMonth()}`;
+    const key = `${day.date.getUTCFullYear()}-${day.date.getUTCMonth()}`;
     months.set(key, [...(months.get(key) ?? []), day]);
   }
   return [...months.entries()].map(([key, monthDays]) => {
@@ -85,12 +37,12 @@ function monthOutlines(days: DayCell[], pitch: number, cell: number, offset: num
       if (!occupied.has(`${day.col}:${day.row + 1}`)) path.push(`M${right} ${bottom}H${left}`);
       if (!occupied.has(`${day.col - 1}:${day.row}`)) path.push(`M${left} ${bottom}V${top}`);
     }
-    return { key, path: path.join(""), label: `${monthDays[0].date.getMonth() + 1}\uc6d4`, x: monthDays[0].col * pitch };
+    return { key, path: path.join(""), label: `${monthDays[0].date.getUTCMonth() + 1}\uc6d4`, x: monthDays[0].col * pitch };
   });
 }
 
-function CalendarSvg({ range, activity }: { range: RangeKey; activity: Record<string, QbankDailyActivity> }) {
-  const calendar = useMemo(() => calendarFor(range), [range]);
+function CalendarSvg({ range, activity, today, year }: { range: RangeKey; activity: Record<string, QbankDailyActivity>; today: string; year: number }) {
+  const calendar = useMemo(() => calendarFor(range, new Date(`${today}T00:00:00+09:00`), year), [range, today, year]);
   const [hoveredKey, setHoveredKey] = useState<string | null>(null);
   const [pinnedKey, setPinnedKey] = useState<string | null>(null);
   const cell = range === "week" ? 25 : range === "month" ? 16 : 10;
@@ -122,33 +74,40 @@ function CalendarSvg({ range, activity }: { range: RangeKey; activity: Record<st
       return hidden ? null : <rect key={`hit-${day.key}`} x={day.col * pitch} y={top + day.row * pitch} width={cell} height={cell} fill="transparent" tabIndex={0} role="button" aria-label={`${day.key} 상세 보기`} className="cursor-pointer outline-none" onMouseEnter={() => setHoveredKey(day.key)} onMouseLeave={() => setHoveredKey(null)} onFocus={() => setHoveredKey(day.key)} onBlur={() => setHoveredKey(null)} onClick={() => setPinnedKey((current) => current === day.key ? null : day.key)} />;
     })}
   </svg>
-  {selectedDay && selectedValue ? <div className="mt-2 inline-block rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-[11px] leading-5 text-slate-600 shadow-sm"><div className="font-semibold text-slate-900">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short" })}</div><div>풀이 {selectedValue.attempts}개 · 정답 {selectedValue.correct}개</div><div className={selectedWrong > 0 ? "text-rose-700" : "text-slate-500"}>오답 {selectedWrong}개{selectedValue.attempts > 0 ? ` · 정답률 ${Math.round(selectedValue.correct / selectedValue.attempts * 100)}%` : ""}</div></div> : null}
+  {selectedDay && selectedValue ? <div className="mt-2 inline-block rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-[11px] leading-5 text-slate-600 shadow-sm"><div className="font-semibold text-slate-900">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short", timeZone: "UTC" })}</div><div>풀이 {selectedValue.attempts}개 · 정답 {selectedValue.correct}개</div><div className={selectedWrong > 0 ? "text-rose-700" : "text-slate-500"}>오답 {selectedWrong}개{selectedValue.attempts > 0 ? ` · 정답률 ${Math.round(selectedValue.correct / selectedValue.attempts * 100)}%` : ""}</div></div> : null}
 </div>;
 }
 
 export function QbankRangeActivityHeatmap({ compact = false }: { compact?: boolean }) {
   const [activity, setActivity] = useState<Record<string, QbankDailyActivity>>({});
+  const [today, setToday] = useState(studyDateKey);
+  const [selectedYear, setSelectedYear] = useState<number>();
+  const year = selectedYear ?? Number(today.slice(0, 4));
+  const years = [...new Set([Number(today.slice(0, 4)), ...Object.keys(activity).map(day => Number(day.slice(0, 4)))])].sort((a, b) => b - a);
   const [range, setRange] = useState<RangeKey>(compact ? "month" : "year");
-  const calendar = useMemo(() => calendarFor(range), [range]);
+  const calendar = useMemo(() => calendarFor(range, new Date(`${today}T00:00:00+09:00`), year), [range, today, year]);
   useEffect(() => {
-    const refresh = () => setActivity(loadQbankState().dailyActivity);
+    const refresh = () => { setActivity(loadQbankState().dailyActivity); setToday(studyDateKey()); };
     refresh();
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
-    return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
+    const timer = window.setInterval(refresh, 60_000);
+    window.addEventListener("focus", refresh);
+    return () => { window.clearInterval(timer); window.removeEventListener("focus", refresh); window.removeEventListener(QBANK_CHANGE_EVENT, refresh); };
   }, []);
   const visible = calendar.days.filter((day) => day.inRange && !day.future);
   const attempts = visible.reduce((sum, day) => sum + (activity[day.key]?.attempts ?? 0), 0);
   const correct = visible.reduce((sum, day) => sum + (activity[day.key]?.correct ?? 0), 0);
   const activeDays = visible.filter((day) => (activity[day.key]?.attempts ?? 0) > 0).length;
   const rate = attempts ? Math.round(correct / attempts * 100) : 0;
-  return <section className="surface p-5 sm:p-6">
+  return <section className="surface p-5 sm:p-6" title="날짜는 한국 시간(Asia/Seoul) 기준">
     <div className="flex flex-wrap items-start justify-between gap-4">
       <div><div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><Activity className="h-5 w-5" />{"\ubb38\uc81c\ud480\uc774 \ud65c\ub3d9"}</div><h2 className="mt-2 text-xl font-semibold text-slate-950">{calendar.title}</h2></div>
       <div className="flex flex-wrap items-start gap-5"><div className="grid grid-cols-3 gap-4 text-right text-sm"><div><div className="text-xs text-slate-500">{"\ud480\uc774"}</div><div className="font-semibold">{attempts.toLocaleString()}</div></div><div><div className="text-xs text-slate-500">{"\uc815\ub2f5\ub960"}</div><div className="font-semibold">{rate}%</div></div><div><div className="text-xs text-slate-500">{"\uc5f0\uc18d"}</div><div className="font-semibold">{streak(activity)}{"\uc77c"}</div></div></div>
+        {range === "year" && years.length > 1 && <select aria-label="학습 활동 연도" value={year} onChange={event => setSelectedYear(Number(event.target.value))} className="rounded-md border border-slate-200 bg-white px-2 py-1.5 text-xs">{years.map(value => <option key={value} value={value}>{value}년</option>)}</select>}
         <div className="inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="tablist" aria-label="\ubb38\uc81c\ud480\uc774 \ud65c\ub3d9 \uae30\uac04">{([['week', '\uc8fc'], ['month', '\uc6d4'], ['year', '\uc5f0']] as Array<[RangeKey, string]>).map(([key, label]) => <button key={key} type="button" role="tab" aria-selected={range === key} onClick={() => setRange(key)} className={`rounded-md px-3 py-1.5 text-xs font-semibold ${range === key ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}>{label}</button>)}</div>
       </div>
     </div>
-    <div className="mt-5"><CalendarSvg range={range} activity={activity} /></div>
+    <div className="mt-5"><CalendarSvg range={range} activity={activity} today={today} year={year} /></div>
     <div className="mt-2 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500"><span>{"\ud65c\ub3d9\uc77c"} {activeDays}{"\uc77c"}</span><div className="flex items-center gap-1.5"><span>{"\uc801\uc74c"}</span>{[0, 3, 10, 20, 40].map((value) => <span key={value} className="h-3 w-3 rounded-[3px]" style={{ backgroundColor: fill(value) }} />)}<span>{"\ub9ce\uc74c"}</span></div></div>
   </section>;
 }

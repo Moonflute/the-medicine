@@ -1,3 +1,5 @@
+import { initializeActivity, loadActivity, recordActivity } from "./qbank-activity";
+import { studyDateKey } from "./study-date";
 import { queueChangedRows } from "./learning-sync-outbox";
 import { questionRows, sessionRow } from "./learning-sync-data";
 import type { QbankSelection } from "@/lib/types";
@@ -38,12 +40,6 @@ export type QbankState = {
 const STORAGE_KEY = "medicine-web-qbank-v1";
 const CHANGE_EVENT = "medicine-web-qbank-change";
 
-function localDateKey(date = new Date()) {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
 
 function emptyState(): QbankState {
   return { version: 1, progress: {}, wrongIds: [], bookmarkIds: [], sessions: [], dailyActivity: {} };
@@ -56,7 +52,7 @@ function loadDailyActivity(value: unknown, sessions: QbankSessionResult[]): Reco
   const derived: Record<string, QbankDailyActivity> = {};
   for (const session of sessions) {
     if (!session?.completedAt) continue;
-    const key = localDateKey(new Date(session.completedAt));
+    const key = studyDateKey(new Date(session.completedAt));
     const daily = derived[key] ?? { attempts: 0, correct: 0 };
     derived[key] = {
       attempts: daily.attempts + Math.max(0, Number(session.total) || 0),
@@ -70,15 +66,16 @@ export function loadQbankState(): QbankState {
   if (typeof window === "undefined") return emptyState();
   try {
     const value = JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? "null") as Partial<QbankState> | null;
-    if (!value || value.version !== 1) return emptyState();
+    if (!value || value.version !== 1) { initializeActivity({}); return {...emptyState(), dailyActivity: loadActivity()}; }
     const sessions = Array.isArray(value.sessions) ? value.sessions.slice(0, 100) : [];
+    initializeActivity(loadDailyActivity(value.dailyActivity, sessions));
     return {
       version: 1,
       progress: value.progress && typeof value.progress === "object" ? value.progress : {},
       wrongIds: Array.isArray(value.wrongIds) ? value.wrongIds.filter((item): item is string => typeof item === "string") : [],
       bookmarkIds: Array.isArray(value.bookmarkIds) ? value.bookmarkIds.filter((item): item is string => typeof item === "string") : [],
       sessions,
-      dailyActivity: loadDailyActivity(value.dailyActivity, sessions),
+      dailyActivity: loadActivity(),
     };
   } catch {
     return emptyState();
@@ -115,12 +112,8 @@ function applyAttempt(state: QbankState, questionId: string, answer: QbankSelect
   state.wrongIds = correct
     ? state.wrongIds
     : [...new Set([...state.wrongIds, questionId])];
-  const dateKey = localDateKey();
-  const daily = state.dailyActivity[dateKey] ?? { attempts: 0, correct: 0 };
-  state.dailyActivity[dateKey] = {
-    attempts: daily.attempts + 1,
-    correct: daily.correct + (correct ? 1 : 0),
-  };
+  recordActivity(correct);
+  state.dailyActivity = loadActivity();
   return next;
 }
 

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { studyDayStart } from "@/lib/study-date";
 import { Activity, BookOpenCheck } from "lucide-react";
 import { DiseaseCoverageDashboard } from "@/components/disease-coverage-dashboard";
 import { QbankRangeActivityHeatmap } from "@/components/qbank-activity-heatmap";
@@ -24,22 +25,18 @@ const DOMAIN_LABELS: Record<ReviewDomain, string> = {
 };
 
 function localDateKey(date: Date) {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
+  return date.toISOString().slice(0, 10);
 }
 
 function calendarDays(weeks: number) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const today = studyDayStart();
   const calendarEnd = new Date(today);
-  calendarEnd.setDate(calendarEnd.getDate() + (6 - calendarEnd.getDay()));
+  calendarEnd.setUTCDate(calendarEnd.getUTCDate() + (6 - calendarEnd.getUTCDay()));
   const start = new Date(calendarEnd);
-  start.setDate(start.getDate() - weeks * 7 + 1);
+  start.setUTCDate(start.getUTCDate() - weeks * 7 + 1);
   return Array.from({ length: weeks * 7 }, (_, index) => {
     const date = new Date(start);
-    date.setDate(start.getDate() + index);
+    date.setUTCDate(start.getUTCDate() + index);
     return { date, key: localDateKey(date), future: date.getTime() > today.getTime() };
   });
 }
@@ -53,12 +50,11 @@ function activityColor(attempts: number) {
 }
 
 function calculateStreak(activity: Record<string, QbankDailyActivity>) {
-  const cursor = new Date();
-  cursor.setHours(0, 0, 0, 0);
+  const cursor = studyDayStart();
   let streak = 0;
   while ((activity[localDateKey(cursor)]?.attempts ?? 0) > 0) {
     streak += 1;
-    cursor.setDate(cursor.getDate() - 1);
+    cursor.setUTCDate(cursor.getUTCDate() - 1);
   }
   return streak;
 }
