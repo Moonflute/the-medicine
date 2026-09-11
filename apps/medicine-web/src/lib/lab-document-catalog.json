@@ -1,0 +1,471 @@
+{
+  "01 혈액검사/혈액검사.md": {
+    "kind": "index"
+  },
+  "01 혈액검사/Activated Partial Thromboplastin Time (aPTT).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Alanine Aminotransferase (ALT).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Albumin.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Alkaline Phosphatase (ALP).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Arterial Blood Gas Analysis (ABGA).md": {
+    "kind": "panel",
+    "members": []
+  },
+  "01 혈액검사/Aspartate Aminotransferase (AST).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Beta-human Chorionic Gonadotropin (beta-hCG).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Bicarbonate (Total CO2).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Blood Glucose.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Blood Urea Nitrogen (BUN).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/C-Reactive Protein (CRP).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Calcium.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Cardiac markers overview.md": {
+    "kind": "panel",
+    "members": [
+      "Troponin",
+      "Natriuretic Peptide Tests (BNP, NT-proBNP)"
+    ]
+  },
+  "01 혈액검사/CBC/CBC overview.md": {
+    "kind": "panel",
+    "members": [
+      "White Blood Cell Count (WBC)",
+      "Red Blood Cell Count (RBC)",
+      "Hemoglobin",
+      "Hematocrit",
+      "Mean Corpuscular Volume (MCV)",
+      "Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC)",
+      "Red Cell Distribution Width (RDW)",
+      "Platelet Count",
+      "White Blood Cell Differential"
+    ]
+  },
+  "01 혈액검사/CBC/Hematocrit.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/Hemoglobin.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/Mean Corpuscular Volume (MCV).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/Platelet Count.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/Red Blood Cell Count (RBC).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/Red Cell Distribution Width (RDW).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/White Blood Cell Count (WBC).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/CBC/White Blood Cell Differential.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Chloride.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Cholesterol Levels (Lipid Panel).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Coagulation overview.md": {
+    "kind": "panel",
+    "members": [
+      "Prothrombin Time and INR (PT-INR)",
+      "Activated Partial Thromboplastin Time (aPTT)",
+      "Fibrinogen",
+      "D-dimer"
+    ]
+  },
+  "01 혈액검사/Complement C3.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Complement C4.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Complete Blood Count (CBC).md": {
+    "kind": "panel",
+    "members": [
+      "White Blood Cell Count (WBC)",
+      "Red Blood Cell Count (RBC)",
+      "Hemoglobin",
+      "Hematocrit",
+      "Mean Corpuscular Volume (MCV)",
+      "Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC)",
+      "Red Cell Distribution Width (RDW)",
+      "Platelet Count",
+      "White Blood Cell Differential"
+    ]
+  },
+  "01 혈액검사/Comprehensive Metabolic Panel (CMP).md": {
+    "kind": "panel",
+    "members": [
+      "Blood Glucose",
+      "Calcium",
+      "Sodium",
+      "Potassium",
+      "Chloride",
+      "Bicarbonate (Total CO2)",
+      "Blood Urea Nitrogen (BUN)",
+      "Creatinine",
+      "Albumin",
+      "Total Bilirubin",
+      "Alkaline Phosphatase (ALP)",
+      "Alanine Aminotransferase (ALT)",
+      "Aspartate Aminotransferase (AST)"
+    ]
+  },
+  "01 혈액검사/Cortisol.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Creatinine.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/D-dimer.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Electrolytes overview.md": {
+    "kind": "panel",
+    "members": [
+      "Sodium",
+      "Potassium",
+      "Chloride",
+      "Bicarbonate (Total CO2)",
+      "Calcium",
+      "Magnesium",
+      "Phosphate"
+    ]
+  },
+  "01 혈액검사/Erythrocyte Sedimentation Rate (ESR).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Estimated Glomerular Filtration Rate (eGFR).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Ferritin.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Fibrinogen.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Free Thyroxine (Free T4).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Glucose metabolism overview.md": {
+    "kind": "panel",
+    "members": [
+      "Blood Glucose",
+      "Hemoglobin A1C (HbA1c)"
+    ]
+  },
+  "01 혈액검사/Hemoglobin A1C (HbA1c).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Hormones overview.md": {
+    "kind": "panel",
+    "members": [
+      "Thyroid-Stimulating Hormone (TSH)",
+      "Free Thyroxine (Free T4)",
+      "Cortisol",
+      "Prolactin",
+      "Beta-human Chorionic Gonadotropin (beta-hCG)"
+    ]
+  },
+  "01 혈액검사/Immunoglobulin A (IgA).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Immunoglobulin E (IgE).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Immunoglobulin G (IgG).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Immunoglobulin M (IgM).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Immunology overview.md": {
+    "kind": "panel",
+    "members": [
+      "Immunoglobulin G (IgG)",
+      "Immunoglobulin A (IgA)",
+      "Immunoglobulin M (IgM)",
+      "Immunoglobulin E (IgE)",
+      "Complement C3",
+      "Complement C4"
+    ]
+  },
+  "01 혈액검사/Iron status overview.md": {
+    "kind": "panel",
+    "members": [
+      "Ferritin"
+    ]
+  },
+  "01 혈액검사/Lactate Dehydrogenase (LDH).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Lactate.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Lipase.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Lipid overview.md": {
+    "kind": "panel",
+    "members": [
+      "Cholesterol Levels (Lipid Panel)"
+    ]
+  },
+  "01 혈액검사/Liver Function Tests (LFT).md": {
+    "kind": "panel",
+    "members": [
+      "Aspartate Aminotransferase (AST)",
+      "Alanine Aminotransferase (ALT)",
+      "Alkaline Phosphatase (ALP)",
+      "Albumin",
+      "Total Bilirubin"
+    ]
+  },
+  "01 혈액검사/Liver-Pancreas overview.md": {
+    "kind": "panel",
+    "members": [
+      "Aspartate Aminotransferase (AST)",
+      "Alanine Aminotransferase (ALT)",
+      "Alkaline Phosphatase (ALP)",
+      "Albumin",
+      "Total Bilirubin",
+      "Lipase"
+    ]
+  },
+  "01 혈액검사/Magnesium.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Natriuretic Peptide Tests (BNP, NT-proBNP).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Phosphate.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Potassium.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Procalcitonin.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Prolactin.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Prothrombin Time and INR (PT-INR).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Renal overview.md": {
+    "kind": "panel",
+    "members": [
+      "Creatinine",
+      "Estimated Glomerular Filtration Rate (eGFR)",
+      "Blood Urea Nitrogen (BUN)"
+    ]
+  },
+  "01 혈액검사/Serum Osmolality.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Sodium.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Thyroid function overview.md": {
+    "kind": "panel",
+    "members": [
+      "Thyroid-Stimulating Hormone (TSH)",
+      "Free Thyroxine (Free T4)"
+    ]
+  },
+  "01 혈액검사/Thyroid-Stimulating Hormone (TSH).md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Total Bilirubin.md": {
+    "kind": "test"
+  },
+  "01 혈액검사/Troponin.md": {
+    "kind": "test"
+  },
+  "02 소변검사/소변검사.md": {
+    "kind": "index"
+  },
+  "02 소변검사/Urinalysis.md": {
+    "kind": "panel",
+    "members": [
+      "Urine Specific Gravity",
+      "Urine pH",
+      "Urine Protein",
+      "Urine Blood and Hemoglobin",
+      "Urine Glucose",
+      "Urine Ketone",
+      "Urine Nitrite",
+      "Urine Leukocyte Esterase",
+      "Urine Red Blood Cells (Urine RBC)",
+      "Urine White Blood Cells (Urine WBC)"
+    ]
+  },
+  "02 소변검사/Urinalysis/Urinary Casts.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urinary Crystals.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Bilirubin.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Blood and Hemoglobin.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Glucose.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Ketone.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Leukocyte Esterase.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Microscopy.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Nitrite.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine pH.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Protein.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Red Blood Cells (Urine RBC).md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Specific Gravity.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine Urobilinogen.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urinalysis/Urine White Blood Cells (Urine WBC).md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urine Albumin-Creatinine Ratio (UACR).md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urine Osmolality.md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urine Protein-Creatinine Ratio (UPCR).md": {
+    "kind": "test"
+  },
+  "02 소변검사/Urine Sodium.md": {
+    "kind": "test"
+  },
+  "03 심전도/심전도.md": {
+    "kind": "imaging"
+  },
+  "04 영상검사/영상검사.md": {
+    "kind": "index"
+  },
+  "04 영상검사/Computed Tomography (CT).md": {
+    "kind": "imaging"
+  },
+  "04 영상검사/Echocardiography.md": {
+    "kind": "imaging"
+  },
+  "04 영상검사/Magnetic Resonance Imaging (MRI).md": {
+    "kind": "imaging"
+  },
+  "04 영상검사/Ultrasonography.md": {
+    "kind": "imaging"
+  },
+  "04 영상검사/X-ray.md": {
+    "kind": "imaging"
+  },
+  "05 미생물검사/미생물검사.md": {
+    "kind": "index"
+  },
+  "05 미생물검사/Antimicrobial susceptibility testing.md": {
+    "kind": "test"
+  },
+  "05 미생물검사/Blood culture.md": {
+    "kind": "test"
+  },
+  "05 미생물검사/Gram stain.md": {
+    "kind": "test"
+  },
+  "05 미생물검사/Syndromic multiplex NAAT.md": {
+    "kind": "test"
+  },
+  "99 기타 검사/01 폐기능검사/폐기능검사.md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/02 내시경검사/내시경검사.md": {
+    "kind": "index"
+  },
+  "99 기타 검사/02 내시경검사/Bronchoscopy.md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/02 내시경검사/Colonoscopy.md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/02 내시경검사/Cystoscopy.md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/02 내시경검사/EGD (Esophagogastroduodenoscopy).md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/03 병리·세포검사/병리·세포검사.md": {
+    "kind": "index"
+  },
+  "99 기타 검사/04 신경생리·기능검사/신경생리·기능검사.md": {
+    "kind": "index"
+  },
+  "99 기타 검사/04 신경생리·기능검사/Electroencephalography (EEG).md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/04 신경생리·기능검사/Electromyography (EMG).md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/04 신경생리·기능검사/Nerve Conduction Study (NCS).md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/04 신경생리·기능검사/Polysomnography.md": {
+    "kind": "imaging"
+  },
+  "99 기타 검사/기타 검사.md": {
+    "kind": "index"
+  },
+  "99 기타 검사/CSF analysis.md": {
+    "kind": "test"
+  },
+  "99 수치입력/수치입력.md": {
+    "kind": "tool"
+  }
+}

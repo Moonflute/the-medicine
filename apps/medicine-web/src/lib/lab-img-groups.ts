@@ -1,3 +1,4 @@
+import { labDocumentMeta } from "./lab-document-kind";
 ﻿import type { DomainNote, DomainToc } from "@/lib/webdb";
 
 export type LabImgLeafGroup = { rawTitle: string; title: string; overviewNote?: DomainNote; notes: DomainNote[] };
@@ -9,7 +10,6 @@ function clean(value: string) { return value.replace(/^\d+\s*/, "").trim(); }
 function sortLabels(a: string, b: string) { return a.localeCompare(b, "ko"); }
 function noteSort(notes: DomainNote[]) { return notes.slice().sort((a, b) => sortLabels(a.title, b.title)); }
 function noteKey(value: string) { return value.replace(/overview/gi, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim().toLowerCase(); }
-function wikiLinks(note: DomainNote) { return note.sections.flatMap((section) => section.content.flatMap((line) => [...line.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)].map((match) => match[1].trim()))); }
 
 /** Builds the clinical panels explicitly declared in the 혈액검사 index note. */
 export function buildLabImgBloodPanels(notes: DomainNote[]): LabImgBloodPanel[] {
@@ -39,7 +39,7 @@ export function buildLabImgBloodPanels(notes: DomainNote[]): LabImgBloodPanel[] 
       notes.filter((note) => note.pathSegments[0] === "01 혈액검사" && note.pathSegments[1] === "CBC" && !/overview/i.test(note.title))
         .forEach((note) => included.set(note.slug, note));
     }
-    for (const linkedTitle of overviewNote ? wikiLinks(overviewNote) : []) {
+    for (const linkedTitle of overviewNote ? (labDocumentMeta(overviewNote).members ?? []) : []) {
       const linked = resolve(linkedTitle);
       if (linked && linked.slug !== overviewNote?.slug && !/overview/i.test(linked.title)) included.set(linked.slug, linked);
     }

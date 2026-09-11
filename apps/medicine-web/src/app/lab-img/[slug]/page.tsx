@@ -13,7 +13,7 @@ import { buildLabImgOverviewGroups, formatLabImgReference, isLabImgOverviewNote 
 import { getAllDiseases, getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes, getLabImgToc } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
-  return /참고|reference|references|bibliography|출처/i.test(title);
+  return /^(참고문헌|references?|bibliography|출처)$/i.test(title.trim());
 }
 
 export function generateStaticParams() {
@@ -87,8 +87,8 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
               </section>
             ))}
           </div>
-        ) : (
-          <div className="space-y-6">
+        ) : null}
+          <div className="mt-6 space-y-6">
             {visibleSections.map((section) => (
               <section key={section.title} className="space-y-3">
                 <h3 className="font-medium text-slate-950">{section.title}</h3>
@@ -96,7 +96,6 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
               </section>
             ))}
           </div>
-        )}
       </section>
       {note.contentMeta?.sources?.length ? (
         <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">

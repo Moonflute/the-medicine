@@ -146,3 +146,18 @@ code {
   .physiology-stage > aside > .space-y-4 > * { margin: 0; }
   .physiology-stage > aside > .space-y-4 > details { grid-column: 1 / -1; }
 }
+
+/* Compact lab workspace: result rows remain visible beside the theory pane. */
+.lab-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
+.lab-results-scroll { max-height: 55vh; }
+.lab-explanation-scroll { max-height: 65vh; }
+@media (min-width: 1024px) {
+  .lab-grid { grid-template-columns: 168px minmax(0, 1fr) minmax(285px, 34%); }
+  .lab-panels { max-height: 76vh; overflow-y: auto; }
+  .lab-results-scroll { max-height: 62vh; min-height: 330px; }
+  .lab-explanation-scroll { max-height: 70vh; }
+}
+@media (max-width: 639px) {
+  .lab-workbench input, .lab-workbench select, .lab-workbench textarea { font-size: 16px; }
+  .lab-workbench input[inputmode="decimal"] { width: 80px; }
+}

@@ -1,3 +1,4 @@
+import { labDocumentMeta } from "./lab-document-kind";
 import type { DomainNote } from "@/lib/webdb";
 
 export type LabImgRangeRow = {
@@ -114,7 +115,7 @@ function normalizeSpace(value: string) {
 }
 
 function stripBulletPrefix(value: string) {
-  return value.replace(/^[??\-]\s*/, "").trim();
+  return value.replace(/^[•*\-]\s*/, "").trim();
 }
 
 function normalizeKey(value: string) {
@@ -231,69 +232,19 @@ export function formatLabImgReference(row: LabImgRangeRow) {
   if (noUpper) return /^[<>\u2265\u2264]/.test(lower) ? lower : `\u2265 ${lower}`;
   return `${lower} \u2013 ${upper}`;
 }
-function parseInlineRange(text: string) {
-  const compact = cleanText(text);
-  const match = compact.match(/([<>]?\s*[\d.]+(?:\s*\/\s*[\d.]+)?(?:\s*-\s*[\d.]+(?:\s*\/\s*[\d.]+)?)?)\s*([A-Za-z%/^.0-9µμmEqL\- ]+)?$/);
-  if (!match) return null;
-
-  const rawRange = normalizeSpace(match[1]);
-  const unit = normalizeSpace(match[2] ?? "");
-
-  if (rawRange.includes("-")) {
-    const [lower, upper] = rawRange.split("-").map((part) => part.trim());
-    return {
-      lower: `${lower}${unit ? ` ${unit}` : ""}`.trim(),
-      upper: `${upper}${unit ? ` ${unit}` : ""}`.trim(),
-    };
-  }
-
-  if (/^>/.test(rawRange)) return { lower: rawRange.replace(/^>\s*/, "> "), upper: "-" };
-  if (/^</.test(rawRange)) return { lower: "-", upper: rawRange.replace(/^<\s*/, "< ") };
-  return null;
-}
-
 function parseRangesFromNormalSection(note: DomainNote): LabImgRangeRow[] {
-  const rangeSection = note.sections.find((section) => {
-    const title = cleanText(section.title).toLowerCase();
-    return title.includes("normal") || title.includes("?뺤긽");
+  const section = note.sections.find(item => /normal|정상|참고.*범위|대표.*참고/.test(cleanText(item.title).toLowerCase()));
+  if (!section) return [];
+  return section.content.filter(line => /\d/.test(line) && !line.trim().startsWith("|")).map(line => {
+    const value = stripBulletPrefix(cleanText(line)).replace(/^•\s*/, "");
+    const context = /^(여성|남성)/.exec(value)?.[1];
+    const label = labDocumentMeta(note).kind === "panel" ? value.split(/\s+약\s+|:/)[0] : conciseLabel(note.title);
+    return { slug: note.slug, title: context ? label + " · " + context : label, lower: value, upper: "-", rangeType: "reference" };
   });
-  if (!rangeSection) return [];
-
-  return rangeSection.content
-    .map((line) => stripBulletPrefix(cleanText(line)))
-    .filter((line) => line.includes(":"))
-    .map((line) => {
-      const [rawLabel, ...rest] = line.split(":");
-      const parsed = parseInlineRange(rest.join(":"));
-      if (!parsed) return null;
-
-      return {
-        slug: note.slug,
-        title: conciseLabel(rawLabel),
-        lower: parsed.lower,
-        upper: parsed.upper,
-      };
-    })
-    .filter((row): row is LabImgRangeRow => Boolean(row));
 }
-
 function parseSingleRangeRow(note: DomainNote) {
-  const summaryRange = parseInlineRange(note.summary.join(" "));
-  if (summaryRange) {
-    return {
-      slug: note.slug,
-      title: conciseLabel(note.title),
-      lower: summaryRange.lower,
-      upper: summaryRange.upper,
-    };
-  }
-
-  const sectionRanges = parseRangesFromNormalSection(note);
-  if (sectionRanges.length === 1) {
-    return sectionRanges[0];
-  }
-
-  return null;
+  const rows = parseRangesFromNormalSection(note);
+  return rows.length === 1 ? rows[0] : null;
 }
 
 function dedupeRows(rows: LabImgRangeRow[]) {
@@ -307,53 +258,26 @@ function dedupeRows(rows: LabImgRangeRow[]) {
 }
 
 function isBloodOverviewNote(note: DomainNote) {
-  const key = normalizeKey(`${note.title} ${note.sourcePath} ${note.relativePath}`);
-  return key.includes("blood") || key.includes("cbc") || key.includes("hematology");
+  return note.relativePath === "01 혈액검사/혈액검사.md";
 }
-
 function isCbcOverviewNote(note: DomainNote) {
-  return normalizeKey(note.title) === "cbc" || normalizeKey(note.title) === "cbc overview";
+  return ["CBC overview", "Complete Blood Count (CBC)"].includes(note.title);
 }
-
-function isLabImgOverviewByTitle(note: DomainNote) {
-  return cleanText(note.title).toLowerCase().includes("overview");
-}
-
-function rowsFromRelatedLinks(
-  note: DomainNote,
-  lookup: Map<string, DomainNote>,
-  allNotes: DomainNote[],
-  visited: Set<string>,
-) {
-  const links = note.sections.flatMap((section) => section.content.flatMap((line) => extractWikiLinks(line)));
-  const rows: LabImgRangeRow[] = [];
-
-  for (const link of links) {
-    const linked = resolveNote(link, lookup);
-    if (!linked || linked.slug === note.slug || visited.has(linked.slug)) continue;
-    rows.push(...extractRowsFromNote(linked, lookup, allNotes, new Set([...visited, linked.slug])));
-  }
-
-  return dedupeRows(rows);
-}
-
-function extractRowsFromNote(
-  note: DomainNote,
-  lookup: Map<string, DomainNote>,
-  allNotes: DomainNote[],
-  visited = new Set<string>([note.slug]),
-): LabImgRangeRow[] {
+function extractRowsFromNote(note: DomainNote, lookup: Map<string, DomainNote>, _allNotes: DomainNote[]): LabImgRangeRow[] {
   const tableRows = parseTableRows(note, lookup);
-  if (tableRows.length > 0) return tableRows;
-
-  const sectionRanges = parseRangesFromNormalSection(note);
-  if (sectionRanges.length > 1) return sectionRanges;
-
-  const relatedRows = rowsFromRelatedLinks(note, lookup, allNotes, visited);
-  if (relatedRows.length > 0) return relatedRows;
-
-  const single = parseSingleRangeRow(note);
-  return single ? [single] : [];
+  if (tableRows.length) return tableRows;
+  const sections = parseRangesFromNormalSection(note);
+  if (sections.length) return sections;
+  const own = parseSingleRangeRow(note);
+  if (own) return [own];
+  // Only declared panel members can supply values. Related clinical links never do.
+  return (labDocumentMeta(note).members ?? []).flatMap(title => {
+    const member = _allNotes.find(item => item.title === title);
+    if (!member) return [];
+    const ranges = parseRangesFromNormalSection(member);
+    const single = parseSingleRangeRow(member);
+    return ranges.length ? ranges : single ? [single] : [];
+  });
 }
 
 function groupRowsForSingleOverview(note: DomainNote, lookup: Map<string, DomainNote>, allNotes: DomainNote[]): LabImgOverviewGroup[] {
@@ -389,12 +313,7 @@ function buildBloodOverviewGroups(note: DomainNote, lookup: Map<string, DomainNo
 
     if (resolved.length === 0) continue;
 
-    const preferredOverview =
-      resolved.find((item) => isCbcOverviewNote(item)) ??
-      resolved.find((item) => isLabImgOverviewByTitle(item)) ??
-      resolved[0];
-
-    const rows = dedupeRows(extractRowsFromNote(preferredOverview, lookup, allNotes));
+    const rows = dedupeRows(resolved.flatMap(item => extractRowsFromNote(item, lookup, allNotes)));
     if (rows.length === 0) continue;
 
     groups.push({
@@ -408,9 +327,7 @@ function buildBloodOverviewGroups(note: DomainNote, lookup: Map<string, DomainNo
 }
 
 export function isLabImgOverviewNote(note: DomainNote) {
-  if (isBloodOverviewNote(note)) return true;
-  const title = cleanText(note.title).toLowerCase();
-  return title.includes("overview");
+  return ["panel", "index"].includes(labDocumentMeta(note).kind);
 }
 
 export function buildLabImgOverviewGroups(note: DomainNote, allNotes: DomainNote[]) {
