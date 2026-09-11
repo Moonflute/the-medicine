@@ -16,7 +16,7 @@ const model=compile("src/lib/lab-workbench-model.ts",{"./lab-engine":engine});
 const catalog=JSON.parse(read("src/lib/lab-document-catalog.json"));
 const kinds=compile("src/lib/lab-document-kind.ts",{"./lab-document-catalog.json":catalog});
 const ranges=compile("src/lib/lab-img-overview.ts",{"./lab-document-kind":kinds});
-const notes=JSON.parse(fs.readFileSync(new URL("../../../_webapp/data/lab-img.json",base),"utf8"));
+const notes=JSON.parse(fs.readFileSync(new URL("../../_webapp/data/lab-img.json",base),"utf8"));
 test("clearing a result never turns it into a zero-valued abnormality",()=>{
  for(const raw of [undefined,""," ","not-a-number"]) assert.equal(engine.numberAt({k:raw},"k"),undefined);
  assert.equal(engine.numberAt({k:"0"},"k"),0);
