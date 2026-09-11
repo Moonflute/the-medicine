@@ -29,24 +29,7 @@ group_members:
 - 모야모야병 (Moyamoya disease)
 - 일과성 허혈 발작 (Transient ischemic attack)
 - 추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)
-- 하나반 증후군 (One and a half syndrome)- ACA 경색 (ACA infarction)
-- Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction)
-- MCA 경색 (MCA infarction)
-- PCA 경색 (PCA infarction)
-- 경동맥 협착증 (Carotid artery stenosis)
-- 모야모야병 (Moyamoya disease)
-- 일과성 허혈 발작 (Transient ischemic attack)
-- 추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)
-- 하나반 증후군 (One and a half syndrome)- "일과성 허혈 발작 (Transient ischemic attack)"
-- "경동맥 협착증 (Carotid artery stenosis)"
-- "모야모야병 (Moyamoya disease)"
-- "ACA 경색 (ACA infarction)"
-- "MCA 경색 (MCA infarction)"
-- "PCA 경색 (PCA infarction)"
-- "Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction)"
-- "추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)"
-- "하나반 증후군 (One and a half syndrome)"
-
+- 하나반 증후군 (One and a half syndrome)
 관련분과:
 - 21 응급의학
 응급의학_분류:

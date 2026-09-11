@@ -31,13 +31,7 @@ group_members:
 - 자간증 (Eclampsia)
 - 전자간증 (Preeclampsia)
 - 중증 전자간증 (Severe Pre-eclampsia)
-- HELLP 증후군 (HELLP Syndrome)- 자간증 (Eclampsia)
-- 전자간증 (Preeclampsia)
-- 중증 전자간증 (Severe Pre-eclampsia)
-- HELLP 증후군 (HELLP Syndrome)- "전자간증 (Preeclampsia)"
-- "중증 전자간증 (Severe Pre-eclampsia)"
-- "자간증 (Eclampsia)"
-- "HELLP 증후군 (HELLP Syndrome)"
+- HELLP 증후군 (HELLP Syndrome)
 ---
 ## 1. 개요
 - 임신성고혈압은 임신 20주 이후 처음 발생한 고혈압으로, 처음 평가 시 단백뇨 또는 자간전증의 중증 소견이 없는 경우를 말한다. 산후 경과에서 만성고혈압과 구분한다.

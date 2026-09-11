@@ -6,11 +6,7 @@ document_role: group_overview
 group_members:
 - 화학물질화상 (Chemical Burn)
 - 흡입화상 (Inhalation Burn)
-- 전기 화상 (Electrical Burn)- 화학물질화상 (Chemical Burn)
-- 흡입화상 (Inhalation Burn)
-- 전기 화상 (Electrical Burn)- 전기 화상 (Electrical Burn)
-- 화학물질화상 (Chemical Burn)
-- 흡입화상 (Inhalation Burn)
+- 전기 화상 (Electrical Burn)
 유형:
 - disease
 계통: 외과

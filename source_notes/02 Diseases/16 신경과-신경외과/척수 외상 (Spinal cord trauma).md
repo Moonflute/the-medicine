@@ -24,13 +24,7 @@ group_members:
 - Brown-Sequard 증후군 (Brown-Sequard syndrome)
 - 전 척수 증후군 (Anterior cord syndrome)
 - 중심 척수 증후군 (Central cord syndrome)
-- 후 척수 증후군 (Posterior cord syndrome)- Brown-Sequard 증후군 (Brown-Sequard syndrome)
-- 전 척수 증후군 (Anterior cord syndrome)
-- 중심 척수 증후군 (Central cord syndrome)
-- 후 척수 증후군 (Posterior cord syndrome)- "전 척수 증후군 (Anterior cord syndrome)"
-- "중심 척수 증후군 (Central cord syndrome)"
-- "후 척수 증후군 (Posterior cord syndrome)"
-- "Brown-Sequard 증후군 (Brown-Sequard syndrome)"
+- 후 척수 증후군 (Posterior cord syndrome)
 ---
 분과 : [[신경과-신경외과]]
 

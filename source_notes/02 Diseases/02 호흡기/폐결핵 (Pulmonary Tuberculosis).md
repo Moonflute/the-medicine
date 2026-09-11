@@ -7,14 +7,6 @@ group_members:
 - 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
 - 잠복 결핵 (소아) (Latent Tuberculosis (Child))
 - 좁쌀 결핵 (Miliary Tuberculosis)
-- 진균종 (Fungus Ball)- 기관지 결핵 (Bronchial Tuberculosis)
-- 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
-- 잠복 결핵 (소아) (Latent Tuberculosis (Child))
-- 좁쌀 결핵 (Miliary Tuberculosis)
-- 진균종 (Fungus Ball)- 기관지 결핵 (Bronchial Tuberculosis)
-- 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
-- 잠복 결핵 (소아) (Latent Tuberculosis (Child))
-- 좁쌀 결핵 (Miliary Tuberculosis)
 - 진균종 (Fungus Ball)
 유형:
 - disease

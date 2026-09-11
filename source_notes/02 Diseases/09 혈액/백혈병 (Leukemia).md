@@ -7,14 +7,6 @@ group_members:
 - 급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)
 - 급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)
 - 만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)
-- 만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)- 급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)
-- 급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)
-- 급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)
-- 만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)
-- 만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)- 급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)
-- 급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)
-- 급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)
-- 만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)
 - 만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)
 유형:
 - disease

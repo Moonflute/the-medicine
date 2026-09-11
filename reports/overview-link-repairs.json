@@ -1,0 +1,182 @@
+[
+  {
+    "label": "조현병",
+    "previousTarget": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "target": "조현병 (Schizophrenia)"
+  },
+  {
+    "label": "조현양상장애",
+    "previousTarget": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "target": "조현양상장애 (Schizophreniform disorder)"
+  },
+  {
+    "label": "단기정신병적장애",
+    "previousTarget": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "target": "단기 정신병적 장애 (Brief psychotic disorder)"
+  },
+  {
+    "label": "망상장애",
+    "previousTarget": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "target": "망상 장애 (Delusional disorder)"
+  },
+  {
+    "label": "산후정신병",
+    "previousTarget": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "target": "산후 정신병 (Postpartum psychosis)"
+  },
+  {
+    "label": "조현정동장애",
+    "previousTarget": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "target": "조현정동장애 (Schizoaffective disorder)"
+  },
+  {
+    "label": "주요우울장애",
+    "previousTarget": "기분 장애 (Bipolar and Related Disorders)",
+    "target": "주요 우울 장애 (Major Depressive Disorder)"
+  },
+  {
+    "label": "공황장애",
+    "previousTarget": "불안 장애 (Anxiety Disorders)",
+    "target": "공황 장애 (Panic Disorder)"
+  },
+  {
+    "label": "광장공포증",
+    "previousTarget": "불안 장애 (Anxiety Disorders)",
+    "target": "광장 공포증 (Agoraphobia)"
+  },
+  {
+    "label": "사회불안장애",
+    "previousTarget": "불안 장애 (Anxiety Disorders)",
+    "target": "사회 불안 장애 (Social Anxiety Disorder)"
+  },
+  {
+    "label": "범불안장애",
+    "previousTarget": "불안 장애 (Anxiety Disorders)",
+    "target": "범 불안 장애 (Generalized Anxiety Disorder)"
+  },
+  {
+    "label": "특정공포증",
+    "previousTarget": "불안 장애 (Anxiety Disorders)",
+    "target": "특정 공포증 (Specific Phobia)"
+  },
+  {
+    "label": "강박장애",
+    "previousTarget": "불안 장애 (Anxiety Disorders)",
+    "target": "강박 장애 (Obsessive-Compulsive Disorder, OCD)"
+  },
+  {
+    "label": "급성스트레스장애",
+    "previousTarget": "외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)",
+    "target": "급성 스트레스 장애 (Acute Stress Disorder)"
+  },
+  {
+    "label": "적응장애",
+    "previousTarget": "외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)",
+    "target": "적응 장애 (Adjustment Disorder)"
+  },
+  {
+    "label": "해리성 기억상실",
+    "previousTarget": "기억의 장애 (Disorders of Memory)",
+    "target": "해리성 기억 상실 (Dissociative Amnesia)"
+  },
+  {
+    "label": "해리성 주체장애",
+    "previousTarget": "의식의 장애 (Disorders of Consciousness)",
+    "target": "해리성 주체 장애 (Dissociative Identity Disorder)"
+  },
+  {
+    "label": "신체증상장애",
+    "previousTarget": "신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders)",
+    "target": "신체 증상 장애 (Somatic Symptom Disorder)"
+  },
+  {
+    "label": "질병불안장애",
+    "previousTarget": "신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders)",
+    "target": "질병 불안 장애 (Illness Anxiety Disorder)"
+  },
+  {
+    "label": "전환장애",
+    "previousTarget": "신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders)",
+    "target": "전환 장애 (Conversion Disorder)"
+  },
+  {
+    "label": "인위성장애",
+    "previousTarget": "신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders)",
+    "target": "인위성 장애 (Factitious Disorder)"
+  },
+  {
+    "label": "불면장애",
+    "previousTarget": "수면 관련 장애 (Sleep-Wake Disorders)",
+    "target": "불면 장애 (Insomnia Disorder)"
+  },
+  {
+    "label": "기면증",
+    "previousTarget": "수면 관련 장애 (Sleep-Wake Disorders)",
+    "target": "기면증 (Narcolepsy)"
+  },
+  {
+    "label": "수면무호흡증",
+    "previousTarget": "수면 관련 장애 (Sleep-Wake Disorders)",
+    "target": "수면 무호흡증 (Sleep Apnea Syndrome)"
+  },
+  {
+    "label": "악몽",
+    "previousTarget": "수면 관련 장애 (Sleep-Wake Disorders)",
+    "target": "악몽 (Nightmare)"
+  },
+  {
+    "label": "렘수면행동장애",
+    "previousTarget": "수면 관련 장애 (Sleep-Wake Disorders)",
+    "target": "렘수면 행동 장애 (REM Sleep Behavior Disorder)"
+  },
+  {
+    "label": "하지불안증후군",
+    "previousTarget": "수면 관련 장애 (Sleep-Wake Disorders)",
+    "target": "하지 불안 증후군 (Restless Leg Syndrome)"
+  },
+  {
+    "label": "간헐적 폭발장애",
+    "previousTarget": "파괴적 충동 조절 및 행동 장애 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "target": "간헐적 폭발 장애 (Intermittent Explosive Disorder)"
+  },
+  {
+    "label": "알코올금단섬망",
+    "previousTarget": "물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)",
+    "target": "알코올 금단 섬망 (Alcohol Withdrawal Delirium)"
+  },
+  {
+    "label": "치매",
+    "previousTarget": "신경인지장애 (Neurocognitive Disorders)",
+    "target": "치매 (Dementia)"
+  },
+  {
+    "label": "섬망",
+    "previousTarget": "신경인지장애 (Neurocognitive Disorders)",
+    "target": "섬망 (Delirium)"
+  },
+  {
+    "label": "자폐스펙트럼장애",
+    "previousTarget": "소아 정신 의학 (Child and Adolescent Psychiatric Disorders)",
+    "target": "자폐 스펙트럼 장애 (Autism Spectrum Disorder)"
+  },
+  {
+    "label": "특정학습장애",
+    "previousTarget": "소아 정신 의학 (Child and Adolescent Psychiatric Disorders)",
+    "target": "특정 학습 장애 (Specific Learning Disorder)"
+  },
+  {
+    "label": "반응성애착장애",
+    "previousTarget": "소아 정신 의학 (Child and Adolescent Psychiatric Disorders)",
+    "target": "반응성 애착 장애 (Reactive Attachment Disorder)"
+  },
+  {
+    "label": "적대적 반항장애",
+    "previousTarget": "파괴적 충동 조절 및 행동 장애 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "target": "적대적 반항 장애 (Oppositional Defiant Disorder)"
+  },
+  {
+    "label": "품행장애",
+    "previousTarget": "파괴적 충동 조절 및 행동 장애 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "target": "품행 장애 (Conduct Disorder)"
+  }
+]

@@ -8,17 +8,7 @@ group_members:
 - 림프모구성 림프종 (Lymphoblastic Lymphoma)
 - 버킷 림프종 (Burkitt's Lymphoma)
 - 소림프구 림프종 (Small Lymphocytic Lymphoma)
-- 여포성 림프종 (Follicular Lymphoma)- 호지킨 림프종 (Hodgkin Lymphoma)
-- 비호지킨 림프종 (Non-Hodgkin Lymphoma)
-- 림프모구성 림프종 (Lymphoblastic Lymphoma)
-- 버킷 림프종 (Burkitt's Lymphoma)
-- 소림프구 림프종 (Small Lymphocytic Lymphoma)
-- 여포성 림프종 (Follicular Lymphoma)- 호지킨 림프종 (Hodgkin Lymphoma)
-- 비호지킨 림프종 (Non-Hodgkin Lymphoma)
-- 버킷 림프종 (Burkitt's Lymphoma)
 - 여포성 림프종 (Follicular Lymphoma)
-- 림프모구성 림프종 (Lymphoblastic Lymphoma)
-- 소림프구 림프종 (Small Lymphocytic Lymphoma)
 유형:
 - disease
 계통: 혈액내과

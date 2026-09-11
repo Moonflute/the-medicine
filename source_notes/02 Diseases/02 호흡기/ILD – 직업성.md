@@ -12,7 +12,6 @@ CC: []
 preprocessing_required: x
 group_members:
 - 규폐증 (Silicosis)
-- 석면폐증 (Asbestosis)- 규폐증 (Silicosis)
 - 석면폐증 (Asbestosis)
 ---
 # ILD – 직업성

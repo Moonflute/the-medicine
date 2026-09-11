@@ -30,19 +30,7 @@ group_members:
 - 두개인두종 (Craniopharyngioma)
 - 신경초종 (Schwannoma)
 - 전이성 뇌종양 (Metastatic brain tumor)
-- 혈관모세포종 (Hemangioblastoma)- 교모세포종 (Glioblastoma)
-- 뇌수막종 (Meningioma)
-- 뇌종양 관련 두통 (Headache due to brain tumor)
-- 두개인두종 (Craniopharyngioma)
-- 신경초종 (Schwannoma)
-- 전이성 뇌종양 (Metastatic brain tumor)
-- 혈관모세포종 (Hemangioblastoma)- "교모세포종 (Glioblastoma)"
-- "뇌수막종 (Meningioma)"
-- "두개인두종 (Craniopharyngioma)"
-- "신경초종 (Schwannoma)"
-- "전이성 뇌종양 (Metastatic brain tumor)"
-- "혈관모세포종 (Hemangioblastoma)"
-- "뇌종양 관련 두통 (Headache due to brain tumor)"
+- 혈관모세포종 (Hemangioblastoma)
 ---
 분과 : [[신경과-신경외과]]
 

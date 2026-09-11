@@ -14,10 +14,6 @@ group_members:
 - 간질성 폐질환 (Interstitial lung disease)
 - 비특이 간질성 폐렴 (NSIP) (Nonspecific Interstitial Pneumonia)
 - 유육종증 (Sarcoidosis)
-- 조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)- 특발성 폐섬유증 (IPF) (Idiopathic Pulmonary Fibrosis)
-- 간질성 폐질환 (Interstitial lung disease)
-- 비특이 간질성 폐렴 (NSIP) (Nonspecific Interstitial Pneumonia)
-- 유육종증 (Sarcoidosis)
 - 조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)
 ---
 # ILD

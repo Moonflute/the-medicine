@@ -14,10 +14,6 @@ group_members:
 - PUD 협착 (Stricture)
 - 가스트린종 (Gastrinoma)
 - 십이지장 궤양 (Duodenal Ulcer)
-- 위궤양 (Gastric Ulcer)- PUD 천공 (Perforation)
-- PUD 협착 (Stricture)
-- 가스트린종 (Gastrinoma)
-- 십이지장 궤양 (Duodenal Ulcer)
 - 위궤양 (Gastric Ulcer)
 ---
 # PUD

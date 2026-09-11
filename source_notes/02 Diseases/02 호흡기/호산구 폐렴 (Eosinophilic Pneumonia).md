@@ -6,11 +6,7 @@ document_role: group_overview
 group_members:
 - 폐흡충증 (Pulmonary Paragonimiasis)
 - 알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)
-- 처그-스트라우스 증후군 (Churg-Strauss Syndrome)- 폐흡충증 (Pulmonary Paragonimiasis)
-- 알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)
-- 처그-스트라우스 증후군 (Churg-Strauss Syndrome)- 알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)
 - 처그-스트라우스 증후군 (Churg-Strauss Syndrome)
-- 폐흡충증 (Pulmonary Paragonimiasis)
 유형:
 - disease
 계통: 호흡기

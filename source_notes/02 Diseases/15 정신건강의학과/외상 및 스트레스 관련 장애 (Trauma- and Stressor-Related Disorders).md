@@ -23,19 +23,7 @@ group_members:
 - 급성 스트레스 장애 (Acute Stress Disorder)
 - 외상 후 스트레스 장애 (PTSD)
 - 이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)
-- 적응 장애 (Adjustment Disorder)- 해리성 기억 상실 (Dissociative Amnesia)
-- 해리성 둔주 (Dissociative Fugue)
-- 해리성 주체 장애 (Dissociative Identity Disorder)
-- 급성 스트레스 장애 (Acute Stress Disorder)
-- 외상 후 스트레스 장애 (PTSD)
-- 이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)
-- 적응 장애 (Adjustment Disorder)- "외상 후 스트레스 장애 (PTSD)"
-- "급성 스트레스 장애 (Acute Stress Disorder)"
-- "적응 장애 (Adjustment Disorder)"
-- "이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)"
-- "해리성 기억 상실 (Dissociative Amnesia)"
-- "해리성 둔주 (Dissociative Fugue)"
-- "해리성 주체 장애 (Dissociative Identity Disorder)"
+- 적응 장애 (Adjustment Disorder)
 ---
 ## 1. 개요
 - 정의**: 외상성 또는 스트레스 유발 사건에 노출된 후 발생하는 심리적, 신체적 부적응 반응을 포함하는 질환군.

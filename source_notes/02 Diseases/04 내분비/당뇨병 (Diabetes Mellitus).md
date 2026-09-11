@@ -30,23 +30,7 @@ group_members:
 - 당뇨병성 콩팥병증 (Diabetic Nephropathy)
 - 저혈당 (Hypoglycemia)
 - 제1형 당뇨병 (Type 1 Diabetes Mellitus)
-- 제2형 당뇨병 (Type 2 Diabetes Mellitus)- 고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)
-- 당뇨병성 망막병증 (Diabetic Retinopathy)
-- 당뇨병성 신경병증 (Diabetic Neuropathy)
-- 당뇨병성 족부질환
-- 당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)
-- 당뇨병성 콩팥병증 (Diabetic Nephropathy)
-- 저혈당 (Hypoglycemia)
-- 제1형 당뇨병 (Type 1 Diabetes Mellitus)
-- 제2형 당뇨병 (Type 2 Diabetes Mellitus)- 제1형 당뇨병 (Type 1 Diabetes Mellitus)
 - 제2형 당뇨병 (Type 2 Diabetes Mellitus)
-- 당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)
-- 고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)
-- 저혈당 (Hypoglycemia)
-- 당뇨병성 망막병증 (Diabetic Retinopathy)
-- 당뇨병성 콩팥병증 (Diabetic Nephropathy)
-- 당뇨병성 신경병증 (Diabetic Neuropathy)
-- 당뇨병성 족부질환
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---

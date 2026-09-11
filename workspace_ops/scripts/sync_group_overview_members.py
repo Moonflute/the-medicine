@@ -23,11 +23,28 @@ def split_frontmatter(raw: str) -> tuple[str, str]:
 
 
 def replace_list(frontmatter: str, key: str, values: list[str]) -> str:
-    block = key + ":\n" + "\n".join(f"- {value}" for value in values)
-    pattern = rf"^{re.escape(key)}:\s*(?:\n(?:[ \t]*-.*\n?)*)?"
-    if re.search(pattern, frontmatter, re.M):
-        return re.sub(pattern, block, frontmatter, count=1, flags=re.M).rstrip()
-    return frontmatter.rstrip() + "\n" + block
+    # Work on complete lines: \s* used to consume the newline after the key,
+    # leaving the old list behind and joining it to the final replacement item.
+    values = list(dict.fromkeys(values))
+    block = [key + (":" if values else ": []"), *[f"- {value}" for value in values]]
+    lines = frontmatter.splitlines()
+    output: list[str] = []
+    replaced = False
+    index = 0
+    while index < len(lines):
+        if re.match(rf"^{re.escape(key)}:", lines[index]):
+            if not replaced:
+                output.extend(block)
+                replaced = True
+            index += 1
+            while index < len(lines) and (not lines[index].strip() or re.match(r"^[ \t]*-\s", lines[index])):
+                index += 1
+        else:
+            output.append(lines[index])
+            index += 1
+    if not replaced:
+        output.extend(block)
+    return "\n".join(output).rstrip()
 
 
 def replace_included_section(body: str, values: list[str]) -> str:
@@ -48,7 +65,7 @@ def main() -> None:
         if not group.get("groupOverview"):
             continue
         member_slugs = hierarchy.get("groupMemberSlugsBySlug", {}).get(group["slug"], [])
-        members = [by_slug[slug]["title"] for slug in member_slugs if slug in by_slug]
+        members = list(dict.fromkeys(by_slug[slug]["title"] for slug in member_slugs if slug in by_slug))
         path = ROOT / group["sourcePath"]
         if not path.exists():
             missing.append(group["sourcePath"])

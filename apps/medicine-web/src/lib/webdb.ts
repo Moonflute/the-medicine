@@ -168,12 +168,21 @@ function buildTermLinks(notes: Array<{ slug: string; title: string; displayTitle
   return [...links.entries()].map(([term, href]) => ({ term, href }));
 }
 
-export function getDiseaseLinks(): TermLink[] {
+export function getDiseaseLinks(specialty?: string): TermLink[] {
+  if (specialty) {
+    const cached = diseaseLinksBySpecialty.get(specialty);
+    if (cached) return cached;
+    const notes = getAllDiseases().filter(note => !isCompatibilityDisease(note));
+    const scoped = buildTermLinks([...notes.filter(note => note.specialty === specialty), ...notes.filter(note => note.specialty !== specialty)], slug => `/disease/${slug}`);
+    diseaseLinksBySpecialty.set(specialty, scoped);
+    return scoped;
+  }
   diseaseLinks ??= buildTermLinks(getAllDiseases().filter((note) => !isCompatibilityDisease(note)), (slug) => `/disease/${slug}`);
   return diseaseLinks;
 }
 
 let diseaseLinks: TermLink[] | undefined;
+const diseaseLinksBySpecialty = new Map<string, TermLink[]>();
 
 export function getSpecialties(): SpecialtySummary[] {
   return readJson("specialties.json");

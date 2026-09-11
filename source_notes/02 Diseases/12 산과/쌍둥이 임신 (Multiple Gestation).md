@@ -17,9 +17,7 @@ reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
 - 단일 양막성 쌍태 임신 (Monoamniotic Twins)
-- 쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)- 단일 양막성 쌍태 임신 (Monoamniotic Twins)
-- 쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)- "단일 양막성 쌍태 임신 (Monoamniotic Twins)"
-- "쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)"
+- 쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)
 ---
 분과 : [[산과]]
 

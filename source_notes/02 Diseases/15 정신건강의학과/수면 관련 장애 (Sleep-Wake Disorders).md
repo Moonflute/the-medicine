@@ -25,23 +25,7 @@ group_members:
 - 렘수면 행동 장애 (REM Sleep Behavior Disorder)
 - 수면 무호흡증 (Sleep Apnea Syndrome)
 - 악몽 (Nightmare)
-- 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)- 하지 불안 증후군 (Restless Leg Syndrome)
-- 기면증 (Narcolepsy)
-- 과수면 장애 (Hypersomnolence Disorder)
-- 불면 장애 (Insomnia Disorder)
-- 비렘수면 행동 장애 (NREM Sleep Behavior Disorder)
-- 렘수면 행동 장애 (REM Sleep Behavior Disorder)
-- 수면 무호흡증 (Sleep Apnea Syndrome)
-- 악몽 (Nightmare)
-- 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)- "불면 장애 (Insomnia Disorder)"
-- "과수면 장애 (Hypersomnolence Disorder)"
-- "기면증 (Narcolepsy)"
-- "수면 무호흡증 (Sleep Apnea Syndrome)"
-- "렘수면 행동 장애 (REM Sleep Behavior Disorder)"
-- "비렘수면 행동 장애 (NREM Sleep Behavior Disorder)"
-- "악몽 (Nightmare)"
-- "일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)"
-- "하지 불안 증후군 (Restless Leg Syndrome)"
+- 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)
 ---
 ## 1. 개요
 - 정의**: 수면의 질, 양, 시간의 문제로 인해 낮 동안의 기능 저하를 동반하는 다양한 질환군.

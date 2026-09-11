@@ -83,7 +83,7 @@ function isOverviewNoteForLabel(note: DiseaseNote, label: string) {
     .replace(/\s*\([^)]*\)\s*$/, "")
     .trim();
 
-  return Boolean(note.groupOverview) || normalize(note.title) === normalize(label);
+  return [note.title, note.displayTitle, ...note.aliases].some(value => value && normalize(value) === normalize(label));
 }
 
 function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: TocOrder): FirstLevelGroup[] {

@@ -24,18 +24,6 @@ group_members:
 - 압박 두드러기 (Pressure Urticaria)
 - 약물 알레르기 (Drug Allergy)
 - 음식 알레르기 (Food Allergy)
-- 음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)- 피부묘기증 (Dermatographism)
-- 한랭 두드러기 (Cold Urticaria)
-- 혈관부종 (유전성) (Hereditary Angioedema)
-- 혈관부종 (후천성) (Acquired Angioedema)
-- 두드러기 (Urticaria)
-- 콜린성 두드러기 (Cholinergic Urticaria)
-- 아나필락시스 (Anaphylaxis)
-- 아나필락시스양 반응 (Anaphylactoid Reaction)
-- 알레르기 비염 (Allergic Rhinitis)
-- 압박 두드러기 (Pressure Urticaria)
-- 약물 알레르기 (Drug Allergy)
-- 음식 알레르기 (Food Allergy)
 - 음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)
 ---
 # Type I

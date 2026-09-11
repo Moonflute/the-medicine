@@ -109,7 +109,7 @@ function parseBlocks(lines: string[], bulletStyle: BulletStyle): ParsedBlock[] {
 
     if (isSpecialLine(trimmed)) {
       flushGroup();
-      blocks.push({ type: "line", line: trimmed });
+      blocks.push({ type: "line", line });
       continue;
     }
 
@@ -124,20 +124,20 @@ function parseBlocks(lines: string[], bulletStyle: BulletStyle): ParsedBlock[] {
       }
 
       if (currentGroup?.type === "group") {
-        currentGroup.items.push(trimmed);
+        currentGroup.items.push(line);
         continue;
       }
 
-      blocks.push({ type: "line", line: trimmed });
+      blocks.push({ type: "line", line });
       continue;
     }
 
     if (currentGroup?.type === "group") {
-      currentGroup.items.push(trimmed);
+      currentGroup.items.push(line);
       continue;
     }
 
-    blocks.push({ type: "line", line: trimmed });
+    blocks.push({ type: "line", line });
   }
 
   flushGroup();
@@ -313,11 +313,12 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
   }
 
   if (isBulletLine(trimmed)) {
+    const depth = Math.floor((line.match(/^[ \t]*/)?.[0] ?? "").replace(/\t/g, "  ").length / 2);
     const body = stripBulletPrefix(trimmed);
 
     if (bulletStyle === "plain") {
       return (
-        <div className="flex gap-3">
+        <div className="flex gap-3" data-outline-depth={depth} style={{ marginInlineStart: Math.min(depth, 6) * 16 }}>
           <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400" />
           {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-slate-700", termLinks, wikiLinks)}
         </div>

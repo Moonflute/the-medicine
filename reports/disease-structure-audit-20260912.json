@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-12",
+  "diseases": 1393,
+  "specialtyOverviews": 22,
+  "groups": 130,
+  "validMemberships": 778,
+  "unresolvedGroupMembersBefore": 166,
+  "unresolvedGroupMembersAfter": 0,
+  "membershipAndQuestionScopesPreserved": true,
+  "flowClassificationRepairs": 44,
+  "directPsychiatryLinkRepairs": 36,
+  "repeatSourceSyncChangedFiles": 0,
+  "checks": [
+    "source writer idempotence and unrelated frontmatter/body preservation",
+    "all group references, all 22 overview links, duplicate outline bullets, nesting depth",
+    "repeated generation has identical hierarchy",
+    "same-name links prefer current specialty",
+    "rendered nested links preserve indentation"
+  ],
+  "clinicalReferences": [
+    "https://www.nhlbi.nih.gov/health/copd/symptoms",
+    "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/euthyroid-sick-syndrome",
+    "https://www.cdc.gov/inflammatory-bowel-disease/about/myths.html"
+  ],
+  "limitations": [
+    "Group memberships include differential diagnoses and related conditions; classification differences alone were not used to remove links.",
+    "This is a structure and linkage audit, not a complete medical evidence review or content expansion."
+  ],
+  "browserChecks": [
+    "desktop: COPD only under COPD with one indented child link",
+    "psychiatry: panic-disorder link resolves to its detailed note",
+    "mobile: 390px viewport without horizontal overflow",
+    "no browser page errors"
+  ],
+  "publicQuestionContentsUnchanged": true
+}

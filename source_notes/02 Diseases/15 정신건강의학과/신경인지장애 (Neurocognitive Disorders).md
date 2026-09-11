@@ -20,13 +20,7 @@ group_members:
 - 경도 인지 장애 (Mild Cognitive Impairment)
 - 치매 (Dementia)
 - 섬망 (Delirium)
-- 일과성 전체 기억 상실 (Transient Global Amnesia)- 경도 인지 장애 (Mild Cognitive Impairment)
-- 치매 (Dementia)
-- 섬망 (Delirium)
-- 일과성 전체 기억 상실 (Transient Global Amnesia)- "경도 인지 장애 (Mild Cognitive Impairment)"
-- "섬망 (Delirium)"
-- "일과성 전체 기억 상실 (Transient Global Amnesia)"
-- "치매 (Dementia)"
+- 일과성 전체 기억 상실 (Transient Global Amnesia)
 ---
 ## 1. 개요
 - 정의**: 인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태.

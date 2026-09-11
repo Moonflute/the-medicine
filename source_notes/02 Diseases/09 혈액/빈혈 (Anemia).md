@@ -11,21 +11,7 @@ group_members:
 - 용혈성 빈혈 (Hemolytic Anemia)
 - 재생불량성 빈혈 (AA) (Aplastic Anemia (AA))
 - 지중해 빈혈 (Thalassemia)
-- 철 결핍 빈혈 (Iron Deficiency Anemia)- 거대적혈모구 빈혈 (Megaloblastic Anemia)
-- 겸상적혈구병 (Sickle Cell Disease)
-- 만성 질환 빈혈 (Anemia of Chronic Disease)
-- 악성 빈혈 (Pernicious Anemia)
-- 용혈성 빈혈 (Hemolytic Anemia)
-- 재생불량성 빈혈 (AA) (Aplastic Anemia (AA))
-- 지중해 빈혈 (Thalassemia)
-- 철 결핍 빈혈 (Iron Deficiency Anemia)- 철 결핍 빈혈 (Iron Deficiency Anemia)
-- 만성 질환 빈혈 (Anemia of Chronic Disease)
-- 거대적혈모구 빈혈 (Megaloblastic Anemia)
-- 악성 빈혈 (Pernicious Anemia)
-- 용혈성 빈혈 (Hemolytic Anemia)
-- 겸상적혈구병 (Sickle Cell Disease)
-- 재생불량성 빈혈 (AA) (Aplastic Anemia (AA))
-- 지중해 빈혈 (Thalassemia)
+- 철 결핍 빈혈 (Iron Deficiency Anemia)
 유형:
 - disease
 계통: 혈액내과

@@ -57,7 +57,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
   }
 
   const ccLinks = getChiefComplaintLinksForTerms(note.chiefComplaints);
-  const diseaseLinks = getDiseaseLinks();
+  const diseaseLinks = getDiseaseLinks(note.specialty);
   const parentHref = `/specialty/${Buffer.from(note.specialty, "utf-8").toString("base64url")}`;
   const relations = getClinicalRelationsFor("disease", note.id);
   const infectionPathways = getInfectionPathwaysForDisease(note.slug);

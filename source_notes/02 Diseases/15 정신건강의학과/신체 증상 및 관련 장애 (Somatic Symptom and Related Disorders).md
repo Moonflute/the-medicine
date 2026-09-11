@@ -22,15 +22,7 @@ group_members:
 - 신체 증상 장애 (Somatic Symptom Disorder)
 - 인위성 장애 (Factitious Disorder)
 - 전환 장애 (Conversion Disorder)
-- 질병 불안 장애 (Illness Anxiety Disorder)- 꾀병 (Malingering)
-- 신체 증상 장애 (Somatic Symptom Disorder)
-- 인위성 장애 (Factitious Disorder)
-- 전환 장애 (Conversion Disorder)
-- 질병 불안 장애 (Illness Anxiety Disorder)- "신체 증상 장애 (Somatic Symptom Disorder)"
-- "질병 불안 장애 (Illness Anxiety Disorder)"
-- "전환 장애 (Conversion Disorder)"
-- "인위성 장애 (Factitious Disorder)"
-- "꾀병 (Malingering)"
+- 질병 불안 장애 (Illness Anxiety Disorder)
 ---
 ## 1. 개요
 - 정의**: 신체적 증상을 호소하지만, 이를 충분히 설명할 수 있는 의학적 질환이 없거나 증상에 비해 과도한 반응을 보이는 장애군.

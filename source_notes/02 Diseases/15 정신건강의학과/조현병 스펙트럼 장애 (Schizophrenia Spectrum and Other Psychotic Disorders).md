@@ -22,17 +22,7 @@ group_members:
 - 산후 정신병 (Postpartum psychosis)
 - 조현병 (Schizophrenia)
 - 조현양상장애 (Schizophreniform disorder)
-- 조현정동장애 (Schizoaffective disorder)- 단기 정신병적 장애 (Brief psychotic disorder)
-- 망상 장애 (Delusional disorder)
-- 산후 정신병 (Postpartum psychosis)
-- 조현병 (Schizophrenia)
-- 조현양상장애 (Schizophreniform disorder)
-- 조현정동장애 (Schizoaffective disorder)- "조현병 (Schizophrenia)"
-- "조현양상장애 (Schizophreniform disorder)"
-- "조현정동장애 (Schizoaffective disorder)"
-- "망상 장애 (Delusional disorder)"
-- "단기 정신병적 장애 (Brief psychotic disorder)"
-- "산후 정신병 (Postpartum psychosis)"
+- 조현정동장애 (Schizoaffective disorder)
 ---
 ## 1. 개요
 - 정의**: 망상, 환각, 와해된 사고(언어), 와해된 행동, 음성 증상 중 하나 이상을 특징으로 하는 정신질환군을 의미함.

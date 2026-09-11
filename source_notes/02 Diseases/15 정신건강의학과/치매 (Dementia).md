@@ -23,13 +23,7 @@ group_members:
 - 혈관성 치매 (Vascular Dementia)
 - 레비 소체 치매 (Dementia with Lewy Bodies)
 - 알츠하이머 치매 (Alzheimer's Disease)
-- 전두측두엽 치매 (Frontotemporal Dementia)- 혈관성 치매 (Vascular Dementia)
-- 레비 소체 치매 (Dementia with Lewy Bodies)
-- 알츠하이머 치매 (Alzheimer's Disease)
-- 전두측두엽 치매 (Frontotemporal Dementia)- "알츠하이머 치매 (Alzheimer's Disease)"
-- "혈관성 치매 (Vascular Dementia)"
-- "레비 소체 치매 (Dementia with Lewy Bodies)"
-- "전두측두엽 치매 (Frontotemporal Dementia)"
+- 전두측두엽 치매 (Frontotemporal Dementia)
 ---
 분과 : [[정신건강의학과]]
 

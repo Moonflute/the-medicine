@@ -60521,7 +60521,10 @@
     "relatedDiseaseSlugs": [
       "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JuQ67Cc7ISxIOyErOuqqOyatOuPmeydtOyDgeymnSAoUHJpbWFyeSBDaWxpYXJ5IER5c2tpbmVzaWEpLm1k"
     ],
-    "relatedCcSlugs": [],
+    "relatedCcSlugs": [
+      "6riw7Lmo",
+      "7Zi47Z2h6rOk656A"
+    ],
     "relatedDrugSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -62285,7 +62288,9 @@
     "relatedDiseaseSlugs": [
       "MDUg7Iug7J6lL-2YiOuHqC5tZA"
     ],
-    "relatedCcSlugs": [],
+    "relatedCcSlugs": [
+      "7ZiI64eo"
+    ],
     "relatedDrugSlugs": [
       "ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA"
     ],
@@ -69395,6 +69400,8 @@
       "MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA"
     ],
     "relatedCcSlugs": [
+      "6riw7Lmo",
+      "7Zi47Z2h6rOk656A",
       "67Cc7Je0"
     ],
     "relatedDrugSlugs": [],

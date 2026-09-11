@@ -65,6 +65,11 @@ jobs:
       - name: Verify learning sync
         run: node --test scripts/test-learning-sync.mjs
 
+      - name: Verify disease structure
+        run: |
+          node --test scripts/test-disease-structure.mjs
+          python ../../workspace_ops/scripts/test_group_overview_members.py
+
       - name: Verify question sessions
         run: node --test scripts/test-qbank-session-results.mjs
 

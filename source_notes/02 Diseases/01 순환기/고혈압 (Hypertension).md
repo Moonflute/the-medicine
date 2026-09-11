@@ -3,7 +3,7 @@ aliases:
 - HTN
 document_role: group_overview
 group_members:
-- 고혈압성 위기 (Hypertensive Crisis)- 고혈압성 위기 (Hypertensive Crisis)- 고혈압성 위기 (Hypertensive Crisis)
+- 고혈압성 위기 (Hypertensive Crisis)
 유형:
 - disease
 계통: 순환기

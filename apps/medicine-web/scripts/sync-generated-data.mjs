@@ -96,6 +96,30 @@ function splitFrontmatter(raw) {
 
 function readList(value) {
   if (!value) return [];
+  const flow = value.trim();
+  if (flow.startsWith("[") && flow.endsWith("]")) {
+    // YAML flow lists are lists too, not one literal "[parent, child]" label.
+    try {
+      const parsed = JSON.parse(flow);
+      if (Array.isArray(parsed)) return parsed.filter(item => typeof item === "string").map(item => item.trim()).filter(Boolean);
+    } catch { /* YAML also permits unquoted and single-quoted scalar items. */ }
+    const values = [];
+    let current = "", quote = "";
+    for (const char of flow.slice(1, -1)) {
+      if (quote) {
+        current += char;
+        if (char === quote) quote = "";
+      } else if ((char === '"' || char === "'") && !current.trim()) {
+        quote = char;
+        current += char;
+      } else if (char === ",") {
+        values.push(current.trim());
+        current = "";
+      } else current += char;
+    }
+    values.push(current.trim());
+    return values.map(item => item.replace(/^["']|["']$/g, "").trim()).filter(Boolean);
+  }
   return value
     .split(/\r?\n/)
     .map((line) => line.trim().replace(/^\-\s*/, "").trim().replace(/^["']|["']$/g, "").trim())
@@ -129,19 +153,25 @@ function normalizeSummaryLine(line) {
   return normalized;
 }
 
-function splitSections(body) {
+function normalizeOutlineLine(line) {
+  if (/^[ \t]*[-*]\s*$/.test(line)) return "";
+  return line.replace(/\t/g, "  ").trimEnd();
+}
+
+function splitSections(body, preserveOutline = false) {
+  const normalize = preserveOutline ? normalizeOutlineLine : normalizeLine;
   const matches = [...body.matchAll(/^##\s+(.+)$/gm)];
   if (matches.length === 0) {
-    return [{ title: "본문", content: body.split(/\r?\n/).map(normalizeLine).filter(Boolean) }];
+    return [{ title: "본문", content: body.split(/\r?\n/).map(normalize).filter(Boolean) }];
   }
 
   return matches.map((match, index) => {
     const start = match.index ?? 0;
     const end = index + 1 < matches.length ? matches[index + 1].index ?? body.length : body.length;
-    const chunk = body.slice(start + match[0].length, end).trim();
+    const chunk = body.slice(start + match[0].length, end).replace(/^\s*\n/, "").trimEnd();
     return {
       title: cleanupHeading(match[1]),
-      content: chunk.split(/\r?\n/).map(normalizeLine).filter(Boolean),
+      content: chunk.split(/\r?\n/).map(normalize).filter(Boolean),
     };
   });
 }
@@ -420,8 +450,9 @@ function buildDiseases() {
   return files.map((filePath) => {
     const raw = readText(filePath);
     const { frontmatter, body } = splitFrontmatter(raw);
-    const sections = splitSections(body);
     const specialty = path.relative(root, filePath).split(path.sep)[0];
+    const isSpecialtyOverview = path.basename(filePath, ".md") === specialty.replace(/^\d+\s*/, "");
+    const sections = splitSections(body, isSpecialtyOverview || readScalar(frontmatter["document_role"]) === "group_overview");
     const fileName = path.basename(filePath, ".md");
     const stat = fs.statSync(filePath);
     const contentUpdatedAt = readScalar(frontmatter["content_updated_at"]);
