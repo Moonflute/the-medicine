@@ -23,7 +23,7 @@ CC:
 - 황달
 - 피로
 - 구토
-clinical_priority: tier_3
+clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 sources:

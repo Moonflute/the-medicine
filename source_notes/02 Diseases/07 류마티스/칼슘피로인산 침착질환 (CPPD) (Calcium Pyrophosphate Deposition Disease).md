@@ -15,6 +15,7 @@ CC:
 - 부종
 sources:
 - "2023 ACR/EULAR Classification Criteria for CPPD | https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.42619"
+clinical_priority: tier_2
 ---
 # 칼슘피로인산 침착질환 (CPPD)
 

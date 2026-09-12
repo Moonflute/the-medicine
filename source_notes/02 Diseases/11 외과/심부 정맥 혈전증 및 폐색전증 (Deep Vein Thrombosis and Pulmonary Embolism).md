@@ -6,6 +6,7 @@ canonical_disease: 심부 정맥 혈전증 및 폐색전증 (Deep Vein Thrombosi
 계통: 외과
 분류: [외과]
 CC: []
+clinical_priority: tier_3
 ---
 
 # 심부 정맥 혈전증 및 폐색전증

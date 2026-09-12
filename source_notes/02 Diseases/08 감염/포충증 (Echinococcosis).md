@@ -3,6 +3,7 @@ aliases:
   - echinococcosis
   - hydatid disease
 category: 기생충 감염
+clinical_priority: tier_3
 ---
 # 포충증 (Echinococcosis)
 

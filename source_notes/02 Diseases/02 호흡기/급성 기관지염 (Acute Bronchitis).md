@@ -2,6 +2,7 @@
 aliases:
   - acute bronchitis
 category: 기도 질환
+clinical_priority: tier_1
 ---
 # 급성 기관지염 (Acute Bronchitis)
 

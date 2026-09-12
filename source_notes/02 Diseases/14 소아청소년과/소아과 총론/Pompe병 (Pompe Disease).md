@@ -6,6 +6,7 @@ aliases: [Pompe disease, acid maltase deficiency, glycogen storage disease type 
 CC: [근력저하, 호흡곤란]
 sources:
 - 'MedlinePlus Genetics: Pompe disease | https://medlineplus.gov/genetics/condition/pompe-disease/'
+clinical_priority: tier_3
 ---
 # Pompe병 (Pompe Disease)
 

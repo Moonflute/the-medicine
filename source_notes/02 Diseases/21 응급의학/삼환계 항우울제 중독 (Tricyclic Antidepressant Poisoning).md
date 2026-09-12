@@ -12,6 +12,7 @@ CC:
 - 의식저하
 - 경련 (성인)
 - 두근거림
+clinical_priority: tier_2
 ---
 # 삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)
 

@@ -2,6 +2,7 @@
 aliases:
   - Langerhans cell histiocytosis
 category: 혈액종양
+clinical_priority: tier_3
 ---
 # 랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis)
 

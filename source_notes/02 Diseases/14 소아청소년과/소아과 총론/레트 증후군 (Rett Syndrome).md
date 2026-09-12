@@ -6,6 +6,7 @@ aliases: [Rett syndrome, MECP2 mutation]
 CC: [성장발달, 경련 (소아)]
 sources:
 - 'MedlinePlus Genetics: Rett syndrome | https://medlineplus.gov/genetics/condition/rett-syndrome/'
+clinical_priority: tier_3
 ---
 # 레트 증후군 (Rett Syndrome)
 

@@ -12,6 +12,7 @@ CC:
 - 기침
 - 발열
 - 호흡곤란
+clinical_priority: tier_2
 ---
 # 반복성 폐렴 (Recurrent Pneumonia)
 

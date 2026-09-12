@@ -6,6 +6,7 @@ aliases: [Patau syndrome, trisomy 13]
 CC: [성장발달]
 sources:
 - 'MedlinePlus Genetics: Genetic Conditions | https://medlineplus.gov/genetics/condition/'
+clinical_priority: tier_3
 ---
 # 파타우 증후군 (Patau Syndrome)
 

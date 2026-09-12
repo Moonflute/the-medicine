@@ -17,6 +17,7 @@ CC:
 - 시야장애
 sources:
 - "2025 AHA/ACC High Blood Pressure Guideline | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+clinical_priority: tier_1
 ---
 # 고혈압성 위기
 

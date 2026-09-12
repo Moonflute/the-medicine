@@ -2,6 +2,7 @@
 aliases:
   - costochondritis
 category: 흉통
+clinical_priority: tier_2
 ---
 # 늑연골염 (Costochondritis)
 

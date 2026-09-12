@@ -12,6 +12,7 @@ aliases:
 CC:
 - 의식저하
 - 호흡곤란
+clinical_priority: tier_1
 ---
 # 아편유사제 중독 (Opioid Poisoning)
 

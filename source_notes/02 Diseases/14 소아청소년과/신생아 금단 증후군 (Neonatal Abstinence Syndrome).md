@@ -3,6 +3,7 @@ aliases:
   - neonatal abstinence syndrome
   - neonatal withdrawal syndrome
 category: 신생아 질환
+clinical_priority: tier_2
 ---
 # 신생아 금단 증후군 (Neonatal Abstinence Syndrome)
 

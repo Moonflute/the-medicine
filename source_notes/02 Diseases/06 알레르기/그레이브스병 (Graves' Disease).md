@@ -20,6 +20,7 @@ canonical_disease: "그레이브스병 (Graves' Disease)"
 relation_to_parent: "canonical_reference"
 review_status: "compatibility_reference"
 reviewed_at: "2026-07-16"
+clinical_priority: tier_2
 ---
 분과 : [[알레르기]]
 

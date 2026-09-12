@@ -2,6 +2,7 @@
 aliases:
   - acute mastoiditis
 category: 중이염
+clinical_priority: tier_2
 ---
 # 급성 유양돌기염 (Acute Mastoiditis)
 

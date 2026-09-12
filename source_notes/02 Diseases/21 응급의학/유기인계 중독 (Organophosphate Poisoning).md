@@ -11,6 +11,7 @@ aliases:
 CC:
 - 호흡곤란
 - 의식저하
+clinical_priority: tier_1
 ---
 # 유기인계 중독 (Organophosphate Poisoning)
 

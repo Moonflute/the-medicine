@@ -12,6 +12,7 @@ group_members:
 - Type II
 CC: []
 preprocessing_required: x
+clinical_priority: tier_2
 ---
 # Type II
 

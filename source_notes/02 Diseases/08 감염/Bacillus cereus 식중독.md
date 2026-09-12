@@ -13,6 +13,7 @@ CC:
 - 구토
 - 설사
 - 복통
+clinical_priority: tier_2
 ---
 # Bacillus cereus 식중독
 

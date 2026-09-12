@@ -14,6 +14,7 @@ group_members:
 - 혈청병 (Serum Sickness)
 - 연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))
 - 전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))
+clinical_priority: tier_2
 ---
 # Type III
 

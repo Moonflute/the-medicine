@@ -6,6 +6,7 @@ category: 내분비
 분류:
   - 갑상샘 질환
   - 갑상샘염
+clinical_priority: tier_2
 ---
 # 무통성 갑상샘염 (Silent Thyroiditis)
 

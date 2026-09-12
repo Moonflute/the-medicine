@@ -3,6 +3,7 @@ aliases:
   - erectile dysfunction
   - vascular erectile dysfunction
 category: 남성 성기능 질환
+clinical_priority: tier_1
 ---
 # 발기부전 (Erectile Dysfunction)
 

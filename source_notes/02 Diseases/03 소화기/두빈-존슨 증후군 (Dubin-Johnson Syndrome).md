@@ -3,6 +3,7 @@ aliases:
   - Dubin-Johnson syndrome
   - benign hereditary jaundice
 category: 간 질환
+clinical_priority: tier_3
 ---
 # 두빈-존슨 증후군 (Dubin-Johnson Syndrome)
 

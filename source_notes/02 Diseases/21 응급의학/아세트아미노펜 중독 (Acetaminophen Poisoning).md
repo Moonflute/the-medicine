@@ -12,6 +12,7 @@ aliases:
 CC:
 - 복통
 - 구토
+clinical_priority: tier_1
 ---
 # 아세트아미노펜 중독 (Acetaminophen Poisoning)
 

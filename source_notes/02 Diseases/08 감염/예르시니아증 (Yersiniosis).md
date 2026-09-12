@@ -3,6 +3,7 @@ aliases:
   - yersiniosis
   - Yersinia infection
 category: 세균 감염
+clinical_priority: tier_2
 ---
 # 예르시니아증 (Yersiniosis)
 

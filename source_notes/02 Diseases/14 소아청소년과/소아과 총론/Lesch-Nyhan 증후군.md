@@ -6,6 +6,7 @@ aliases: [Lesch-Nyhan syndrome, HPRT deficiency]
 CC: [발달지연]
 sources:
 - 'MedlinePlus Genetics: Lesch-Nyhan syndrome | https://medlineplus.gov/genetics/condition/lesch-nyhan-syndrome/'
+clinical_priority: tier_3
 ---
 # Lesch-Nyhan 증후군
 

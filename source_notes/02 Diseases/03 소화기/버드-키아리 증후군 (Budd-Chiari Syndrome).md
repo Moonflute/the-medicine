@@ -4,6 +4,7 @@ aliases:
 category: 간 혈관 질환
 sources:
   - "AASLD: Vascular Liver Disorders"
+clinical_priority: tier_3
 ---
 # 버드-키아리 증후군 (Budd-Chiari Syndrome)
 

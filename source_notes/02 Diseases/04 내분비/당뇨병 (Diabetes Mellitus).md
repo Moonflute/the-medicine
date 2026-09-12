@@ -11,7 +11,7 @@ CC:
 - 체중감소/식욕부진
 - 피로
 - 시야 흐림
-clinical_priority: "tier_2"
+clinical_priority: tier_1
 content_updated_at: '2026-07-14'
 guideline_year: "2026"
 sources:

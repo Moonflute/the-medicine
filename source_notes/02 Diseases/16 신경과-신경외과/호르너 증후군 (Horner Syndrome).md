@@ -3,6 +3,7 @@ aliases:
   - Horner syndrome
   - ptosis miosis anhidrosis
 category: 신경과
+clinical_priority: tier_2
 ---
 # 호르너 증후군 (Horner Syndrome)
 

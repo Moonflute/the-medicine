@@ -16,6 +16,7 @@ CC:
 - 구토
 sources:
 - "EXTRIP Workgroup: Lithium | https://www.extrip-workgroup.org/lithium"
+clinical_priority: tier_2
 ---
 # 리튬 중독
 

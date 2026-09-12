@@ -19,6 +19,7 @@ group_members:
 - 리스테리아 (Listeria)
 - 사슬알균 인두염 (Streptococcal Pharyngitis)
 - 연조직염 (Cellulitis)
+clinical_priority: tier_1
 ---
 # G(+)
 

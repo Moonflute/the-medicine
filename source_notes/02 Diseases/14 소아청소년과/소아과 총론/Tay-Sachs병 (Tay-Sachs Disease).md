@@ -6,6 +6,7 @@ aliases: [Tay-Sachs disease, hexosaminidase A deficiency]
 CC: [발달지연, 경련 (소아)]
 sources:
 - 'MedlinePlus Genetics: Tay-Sachs disease | https://medlineplus.gov/genetics/condition/tay-sachs-disease/'
+clinical_priority: tier_3
 ---
 # Tay-Sachs병 (Tay-Sachs Disease)
 

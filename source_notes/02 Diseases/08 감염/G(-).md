@@ -20,6 +20,7 @@ group_members:
 - 수막알균 (Meningococcus)
 - 임균 감염 (Gonococcal Infection)
 - 장티푸스 (Typhoid Fever)
+clinical_priority: tier_1
 ---
 # G(-)
 

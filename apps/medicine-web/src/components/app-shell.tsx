@@ -18,6 +18,11 @@ const navItems = [
   { href: "/review", label: "Review", icon: BookOpenCheck },
 ];
 
+function isNavItemActive(pathname: string, href: string) {
+  const roots = href === "/specialties" ? [href, "/specialty", "/disease"] : [href];
+  return roots.some((root) => pathname === root || (root !== "/" && pathname.startsWith(`${root}/`)));
+}
+
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -72,11 +77,12 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
           <nav className="space-y-1">
             {navItems.map((item) => {
-              const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
+              const active = isNavItemActive(pathname, item.href);
               return (
                 <Link
                   key={item.href}
                   href={item.href}
+                  aria-current={active ? "page" : undefined}
                   className={`flex items-center gap-3 px-3 py-2.5 text-sm font-medium transition ${
                     active ? "bg-teal-500 text-white" : "text-slate-300 hover:bg-slate-800 hover:text-white"
                   }`}
@@ -120,11 +126,12 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               <div className="border-t border-slate-200 bg-white px-4 py-3 xl:hidden">
                 <nav className="grid grid-cols-2 gap-2 sm:grid-cols-3">
                   {navItems.map((item) => {
-                    const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
+                    const active = isNavItemActive(pathname, item.href);
                     return (
                       <Link
                         key={item.href}
                         href={item.href}
+                  aria-current={active ? "page" : undefined}
                         onClick={() => setOpen(false)}
                         className={`flex items-center gap-2 px-3 py-2 text-sm font-medium ${
                           active ? "bg-teal-600 text-white" : "border border-slate-200 bg-slate-50 text-slate-700"
@@ -148,11 +155,12 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <nav className="sticky bottom-0 z-40 border-t border-slate-200 bg-white/95 px-3 py-2 backdrop-blur xl:hidden">
             <div className="grid grid-cols-7 gap-1">
               {navItems.map((item) => {
-                const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
+                const active = isNavItemActive(pathname, item.href);
                 return (
                   <Link
                     key={item.href}
                     href={item.href}
+                  aria-current={active ? "page" : undefined}
                     className={`flex h-12 flex-col items-center justify-center gap-0.5 text-[10px] font-medium ${
                       active ? "bg-teal-600 text-white" : "text-slate-600"
                     }`}

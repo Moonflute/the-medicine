@@ -14,6 +14,7 @@ aliases:
 CC:
 - 상처
 - 발열
+clinical_priority: tier_1
 ---
 # 교상 감염 (Bite Wound Infection)
 

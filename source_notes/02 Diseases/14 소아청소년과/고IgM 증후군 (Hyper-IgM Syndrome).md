@@ -3,6 +3,7 @@ aliases:
   - hyper-IgM syndrome
   - high IgM syndrome
 category: 소아 유전 질환
+clinical_priority: tier_3
 ---
 # 고IgM 증후군 (Hyper-IgM Syndrome)
 

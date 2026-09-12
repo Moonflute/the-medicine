@@ -14,7 +14,7 @@ CC:
 - 무증상
 - 두통
 - 심박수이상
-clinical_priority: "tier_2"
+clinical_priority: tier_1
 content_updated_at: '2026-07-14'
 guideline_year: "2026"
 sources:

@@ -26,7 +26,7 @@ CC:
 - 멍
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
+clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 ---

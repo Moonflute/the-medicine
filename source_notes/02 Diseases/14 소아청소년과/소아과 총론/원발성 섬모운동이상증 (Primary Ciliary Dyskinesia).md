@@ -6,6 +6,7 @@ aliases: [Kartagener syndrome, primary ciliary dyskinesia, PCD]
 CC: [기침, 호흡곤란]
 sources:
 - 'MedlinePlus Genetics: Primary ciliary dyskinesia | https://medlineplus.gov/genetics/condition/primary-ciliary-dyskinesia/'
+clinical_priority: tier_3
 ---
 # 원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)
 

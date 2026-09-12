@@ -13,6 +13,7 @@ group_members:
 - Type IV
 CC: []
 preprocessing_required: x
+clinical_priority: tier_2
 ---
 # Type IV
 

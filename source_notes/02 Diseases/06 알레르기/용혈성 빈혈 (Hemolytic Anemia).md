@@ -15,6 +15,7 @@ canonical_disease: "용혈성 빈혈 (Hemolytic Anemia)"
 relation_to_parent: "canonical_reference"
 review_status: "compatibility_reference"
 reviewed_at: "2026-07-16"
+clinical_priority: tier_3
 ---
 분과 : [[알레르기]]
 

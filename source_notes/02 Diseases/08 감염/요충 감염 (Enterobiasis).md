@@ -4,6 +4,7 @@ aliases:
   - enterobiasis
   - 요충 감염
 category: 기생충 감염
+clinical_priority: tier_2
 ---
 # 요충 감염 (Enterobiasis)
 

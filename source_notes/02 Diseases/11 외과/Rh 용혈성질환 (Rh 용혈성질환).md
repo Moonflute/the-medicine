@@ -6,6 +6,7 @@ canonical_disease: Rh 용혈성질환 (Rh 용혈성질환)
 계통: 외과
 분류: [외과]
 CC: []
+clinical_priority: tier_3
 ---
 
 # Rh 용혈성질환

@@ -115,6 +115,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     }
   });
   const inputRef = useRef<HTMLInputElement>(null);
+  const isComposingRef = useRef(false);
   const parsedQuery = useMemo(() => parseSearchQuery(query), [query]);
   const term = parsedQuery.term.toLowerCase();
   const compactTerm = normalizeSearchText(parsedQuery.term);
@@ -143,6 +144,8 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     return groups;
   }, {}), [results]);
 
+  const displayedResults = useMemo(() => Object.values(resultGroups).flat(), [resultGroups]);
+
   const setSearchQuery = (value: string) => {
     setQuery(value);
     setActiveResultIndex(0);
@@ -162,20 +165,21 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
   };
 
   const openResult = (index: number) => {
-    const entry = results[index];
+    const entry = displayedResults[index];
     if (!entry) return;
     rememberSearch();
     router.push(entry.href);
   };
 
   const handleInputKeyDown = (event: ReactKeyboardEvent<HTMLInputElement>) => {
-    if (!results.length) return;
+    if (isComposingRef.current || event.nativeEvent.isComposing || event.nativeEvent.keyCode === 229) return;
+    if (!displayedResults.length) return;
     if (event.key === "ArrowDown") {
       event.preventDefault();
-      setActiveResultIndex((index) => (index + 1) % results.length);
+      setActiveResultIndex((index) => (index + 1) % displayedResults.length);
     } else if (event.key === "ArrowUp") {
       event.preventDefault();
-      setActiveResultIndex((index) => (index - 1 + results.length) % results.length);
+      setActiveResultIndex((index) => (index - 1 + displayedResults.length) % displayedResults.length);
     } else if (event.key === "Enter") {
       event.preventDefault();
       openResult(activeResultIndex);
@@ -189,7 +193,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     <section className={`relative w-full ${className}`.trim()}>
       <label className="surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
         <Search className="h-5 w-5 shrink-0 text-slate-500" />
-        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} placeholder={"\uC608: disease: \uD3D0\uB834, drug: metformin"} className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
+        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} onCompositionStart={() => { isComposingRef.current = true; }} onCompositionEnd={() => { isComposingRef.current = false; }} placeholder={"\uC608: disease: \uD3D0\uB834, drug: metformin"} className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
 
@@ -212,7 +216,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
             <section key={label}>
               <div className="mb-2 text-xs font-semibold uppercase text-slate-500">{label}</div>
               <div className="grid gap-2">{group.map((entry) => {
-                const resultIndex = results.indexOf(entry);
+                const resultIndex = displayedResults.indexOf(entry);
                 const isActive = resultIndex === activeResultIndex;
                 return (
                 <Link key={`${entry.type}:${entry.slug}`} id={`search-result-${resultIndex}`} href={entry.href} onClick={rememberSearch} onMouseEnter={() => setActiveResultIndex(resultIndex)} className={`list-tile group flex items-center justify-between gap-4 px-4 py-3 ${isActive ? "border-teal-500 bg-teal-50" : ""}`}>

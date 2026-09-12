@@ -15,6 +15,7 @@ group_members:
 - 비특이 간질성 폐렴 (NSIP) (Nonspecific Interstitial Pneumonia)
 - 유육종증 (Sarcoidosis)
 - 조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)
+clinical_priority: tier_2
 ---
 # ILD
 

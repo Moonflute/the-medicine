@@ -2,6 +2,7 @@
 aliases:
   - Whipple disease
 category: 소장 질환
+clinical_priority: tier_3
 ---
 # 휘플병 (Whipple Disease)
 

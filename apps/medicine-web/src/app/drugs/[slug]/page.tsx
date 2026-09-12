@@ -1,3 +1,4 @@
+import { ContentMetadata } from "@/components/content-metadata";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ParentPageFab } from "@/components/parent-page-fab";
@@ -23,13 +24,6 @@ function getPriorityLabel(priority: string | undefined) {
 
 function normalizeDiseaseTerm(value: string) {
   return value.toLocaleLowerCase("ko").replace(/[\s\p{P}\p{S}]+/gu, "");
-}
-
-function getReviewStatusLabel(status: string | undefined) {
-  if (status === "verified") return "직접 검증";
-  if (status === "reviewed") return "검토 완료";
-  if (status === "draft") return "검토 초안";
-  return status || "미검토";
 }
 
 function resolveDiseaseHref(value: string, links: Array<{ term: string; href: string }>) {
@@ -131,13 +125,10 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
             <span className="rounded-full bg-teal-50 px-3 py-1 text-xs font-medium text-teal-800">Clinical core</span>
           ) : null}
           {priorityLabel ? <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-medium text-sky-800">{priorityLabel}</span> : null}
-          {contentMeta?.reviewStatus ? (
-            <span className="rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-800">
-              {getReviewStatusLabel(contentMeta.reviewStatus)}
-              {contentMeta.reviewedAt ? ` · ${contentMeta.reviewedAt}` : ""}
-            </span>
-          ) : null}
+
         </div>
+
+        <ContentMetadata meta={contentMeta} />
 
         {brands.length > 0 || doses.length > 0 || indications.length > 0 ? (
           <div className="mt-5 grid gap-3 md:grid-cols-3">

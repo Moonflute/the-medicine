@@ -6,6 +6,7 @@ canonical_disease: 포도알균 감염 (Staphylococcal Infection)
 계통: 감염
 분류: [G(+)]
 CC: []
+clinical_priority: tier_3
 ---
 
 # 포도알균 (Staphylococcus)

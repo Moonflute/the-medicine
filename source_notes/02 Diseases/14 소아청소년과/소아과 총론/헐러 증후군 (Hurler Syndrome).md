@@ -6,6 +6,7 @@ aliases: [Hurler syndrome, mucopolysaccharidosis type I, MPS I]
 CC: [성장발달]
 sources:
 - 'MedlinePlus Genetics: Genetic Conditions | https://medlineplus.gov/genetics/condition/'
+clinical_priority: tier_3
 ---
 # 헐러 증후군 (Hurler Syndrome)
 

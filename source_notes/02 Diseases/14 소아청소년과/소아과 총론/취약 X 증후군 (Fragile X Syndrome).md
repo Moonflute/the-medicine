@@ -6,6 +6,7 @@ aliases: [Fragile X syndrome, FMR1, CGG repeat expansion]
 CC: [성장발달]
 sources:
 - 'MedlinePlus Genetics: Fragile X syndrome | https://medlineplus.gov/genetics/condition/fragile-x-syndrome/'
+clinical_priority: tier_3
 ---
 # 취약 X 증후군 (Fragile X Syndrome)
 

@@ -10,6 +10,7 @@ canonical_disease: 염증성 장질환 (IBD) (Inflammatory Bowel Disease)
 - IBD
 CC: []
 preprocessing_required: x
+clinical_priority: tier_3
 ---
 # IBD
 

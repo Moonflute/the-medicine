@@ -2,6 +2,7 @@
 aliases:
   - metabolic syndrome
 category: 당대사 및 지질 질환
+clinical_priority: tier_1
 ---
 # 대사증후군 (Metabolic Syndrome)
 

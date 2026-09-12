@@ -13,6 +13,7 @@ preprocessing_required: x
 group_members:
 - 규폐증 (Silicosis)
 - 석면폐증 (Asbestosis)
+clinical_priority: tier_2
 ---
 # ILD – 직업성
 

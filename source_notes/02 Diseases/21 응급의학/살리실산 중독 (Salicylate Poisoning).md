@@ -12,6 +12,7 @@ CC:
 - 의식저하
 - 구토
 - 이명
+clinical_priority: tier_2
 ---
 # 살리실산 중독 (Salicylate Poisoning)
 

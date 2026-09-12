@@ -5,6 +5,7 @@ category: 내분비
 분류:
   - 갑상샘 질환
   - 갑상샘염
+clinical_priority: tier_3
 ---
 # 리델 갑상샘염 (Riedel Thyroiditis)
 

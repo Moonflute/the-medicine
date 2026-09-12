@@ -17,6 +17,7 @@ CC:
 sources:
 - "AHA: Adult and Pediatric Special Circumstances of Resuscitation | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"
 - "Royal Children's Hospital: Benzodiazepine poisoning | https://www.rch.org.au/clinicalguide/guideline_index/Benzodiazepine_poisoning/"
+clinical_priority: tier_2
 ---
 # 벤조디아제핀 중독
 

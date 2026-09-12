@@ -1,0 +1,1259 @@
+{
+  "scope": "Only previously unassigned; approximate editorial classification, not full medical review",
+  "count": 208,
+  "distribution": {
+    "tier_2": 62,
+    "tier_1": 121,
+    "tier_3": 25
+  },
+  "changes": [
+    {
+      "id": "02 Diseases/01 순환기/(급사증후군).md",
+      "title": "(급사증후군)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/고혈압성 위기 (Hypertensive Crisis).md",
+      "title": "고혈압성 위기 (Hypertensive Crisis)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/늑연골염 (Costochondritis).md",
+      "title": "늑연골염 (Costochondritis)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/대동맥 질환.md",
+      "title": "대동맥 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/무해성 심잡음.md",
+      "title": "무해성 심잡음",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/부정맥.md",
+      "title": "부정맥",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/순환기.md",
+      "title": "순환기",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/실신.md",
+      "title": "실신",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/심근질환.md",
+      "title": "심근질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/심막질환.md",
+      "title": "심막질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/심부전.md",
+      "title": "심부전",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/판막질환.md",
+      "title": "판막질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/허혈성 심질환.md",
+      "title": "허혈성 심질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/01 순환기/혈관질환.md",
+      "title": "혈관질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/급성 기관지염 (Acute Bronchitis).md",
+      "title": "급성 기관지염 (Acute Bronchitis)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/기도폐쇄질환.md",
+      "title": "기도폐쇄질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/기침.md",
+      "title": "기침",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/기흉.md",
+      "title": "기흉",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/반복성 폐렴 (Recurrent Pneumonia).md",
+      "title": "반복성 폐렴 (Recurrent Pneumonia)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/병원획득 폐렴 (Hospital-Acquired Pneumonia).md",
+      "title": "병원획득 폐렴 (Hospital-Acquired Pneumonia)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/종격동.md",
+      "title": "종격동",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/종격동질환.md",
+      "title": "종격동질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/폐결핵.md",
+      "title": "폐결핵",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/폐종양.md",
+      "title": "폐종양",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/폐혈관.md",
+      "title": "폐혈관",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/폐혈관질환.md",
+      "title": "폐혈관질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/호산구 폐렴.md",
+      "title": "호산구 폐렴",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/호흡기.md",
+      "title": "호흡기",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/호흡부전 (Respiratory Failure).md",
+      "title": "호흡부전 (Respiratory Failure)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/환기장애.md",
+      "title": "환기장애",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/흉수.md",
+      "title": "흉수",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/ILD – 직업성.md",
+      "title": "ILD – 직업성",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/02 호흡기/ILD.md",
+      "title": "ILD",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "title": "간 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/간.md",
+      "title": "간",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/간암.md",
+      "title": "간암",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/고빌리루빈증.md",
+      "title": "고빌리루빈증",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/담.md",
+      "title": "담",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/담도계 질환.md",
+      "title": "담도계 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/지방간.md",
+      "title": "지방간",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/췌.md",
+      "title": "췌",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/췌장 질환.md",
+      "title": "췌장 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/췌장암.md",
+      "title": "췌장암",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/간담췌/췌장염.md",
+      "title": "췌장염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/두빈-존슨 증후군 (Dubin-Johnson Syndrome).md",
+      "title": "두빈-존슨 증후군 (Dubin-Johnson Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/버드-키아리 증후군 (Budd-Chiari Syndrome).md",
+      "title": "버드-키아리 증후군 (Budd-Chiari Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/소화기.md",
+      "title": "소화기",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/게실.md",
+      "title": "게실",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/배변이상.md",
+      "title": "배변이상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/삼킴곤란.md",
+      "title": "삼킴곤란",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/소화기 암.md",
+      "title": "소화기 암",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/식도 질환.md",
+      "title": "식도 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/식도.md",
+      "title": "식도",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/암.md",
+      "title": "암",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/위 절제 부작용.md",
+      "title": "위 절제 부작용",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/위 질환.md",
+      "title": "위 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/위.md",
+      "title": "위",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/위장관 출혈.md",
+      "title": "위장관 출혈",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/위장관 혈관.md",
+      "title": "위장관 혈관",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/위장관 혈관질환.md",
+      "title": "위장관 혈관질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/장폐색.md",
+      "title": "장폐색",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/직장 및 항문.md",
+      "title": "직장 및 항문",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/직장 및 항문질환.md",
+      "title": "직장 및 항문질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/흡수장애.md",
+      "title": "흡수장애",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/IBD.md",
+      "title": "IBD",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/03 소화기/위장관/PUD.md",
+      "title": "PUD",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/03 소화기/휘플병 (Whipple Disease).md",
+      "title": "휘플병 (Whipple Disease)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/갑상샘 질환.md",
+      "title": "갑상샘 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/갑상샘.md",
+      "title": "갑상샘",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/04 내분비/내분비.md",
+      "title": "내분비",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/뇌하수체 질환.md",
+      "title": "뇌하수체 질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/뇌하수체.md",
+      "title": "뇌하수체",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/04 내분비/당 질환.md",
+      "title": "당 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/당.md",
+      "title": "당",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/04 내분비/대사증후군 (Metabolic Syndrome).md",
+      "title": "대사증후군 (Metabolic Syndrome)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/리델 갑상샘염 (Riedel Thyroiditis).md",
+      "title": "리델 갑상샘염 (Riedel Thyroiditis)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/무통성 갑상샘염 (Silent Thyroiditis).md",
+      "title": "무통성 갑상샘염 (Silent Thyroiditis)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/부신(피질) 질환.md",
+      "title": "부신(피질) 질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/부신(피질).md",
+      "title": "부신(피질)",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/04 내분비/지질 질환.md",
+      "title": "지질 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/지질.md",
+      "title": "지질",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/04 내분비/칼슘 질환.md",
+      "title": "칼슘 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/04 내분비/칼슘.md",
+      "title": "칼슘",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/05 신장/단백뇨.md",
+      "title": "단백뇨",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/사구체질환.md",
+      "title": "사구체질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/산염기 질환.md",
+      "title": "산염기 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/세관기능장애.md",
+      "title": "세관기능장애",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/세관사이질 질환.md",
+      "title": "세관사이질 질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/신기능 이상.md",
+      "title": "신기능 이상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/신장.md",
+      "title": "신장",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/신혈관 질환.md",
+      "title": "신혈관 질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/요로감염.md",
+      "title": "요로감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/요로질환.md",
+      "title": "요로질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/전해질 이상.md",
+      "title": "전해질 이상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/05 신장/혈뇨.md",
+      "title": "혈뇨",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/06 알레르기/그레이브스병 (Graves' Disease).md",
+      "title": "그레이브스병 (Graves' Disease)",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/06 알레르기/알레르기.md",
+      "title": "알레르기",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/06 알레르기/용혈성 빈혈 (Hemolytic Anemia).md",
+      "title": "용혈성 빈혈 (Hemolytic Anemia)",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/06 알레르기/Type I.md",
+      "title": "Type I",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/06 알레르기/Type II.md",
+      "title": "Type II",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/06 알레르기/Type III.md",
+      "title": "Type III",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/06 알레르기/Type IV.md",
+      "title": "Type IV",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/07 류마티스/류마티스.md",
+      "title": "류마티스",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/07 류마티스/칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease).md",
+      "title": "칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/감염.md",
+      "title": "감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/교상 감염 (Bite Wound Infection).md",
+      "title": "교상 감염 (Bite Wound Infection)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/급성 HIV 감염 (Acute HIV Infection).md",
+      "title": "급성 HIV 감염 (Acute HIV Infection)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/기생충.md",
+      "title": "기생충",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/기타 감염질환.md",
+      "title": "기타 감염질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/기타.md",
+      "title": "기타",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/08 감염/물림 및 교상 감염.md",
+      "title": "물림 및 교상 감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/바이러스.md",
+      "title": "바이러스",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/식중독 및 식품매개 감염.md",
+      "title": "식중독 및 식품매개 감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/여행자·수인성 감염.md",
+      "title": "여행자·수인성 감염",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/예르시니아증 (Yersiniosis).md",
+      "title": "예르시니아증 (Yersiniosis)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/요충 감염 (Enterobiasis).md",
+      "title": "요충 감염 (Enterobiasis)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/원내감염.md",
+      "title": "원내감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/원생돌물.md",
+      "title": "원생돌물",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/08 감염/원생동물.md",
+      "title": "원생동물",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/지역사회 감염.md",
+      "title": "지역사회 감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/지역사회.md",
+      "title": "지역사회",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/08 감염/진균.md",
+      "title": "진균",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/포도알균 (Staphylococcus).md",
+      "title": "포도알균 (Staphylococcus)",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/08 감염/포충증 (Echinococcosis).md",
+      "title": "포충증 (Echinococcosis)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/Bacillus cereus 식중독.md",
+      "title": "Bacillus cereus 식중독",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/G(-).md",
+      "title": "G(-)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/08 감염/G(+).md",
+      "title": "G(+)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/림프구 질환.md",
+      "title": "림프구 질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/림프구.md",
+      "title": "림프구",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/09 혈액/백혈구 질환.md",
+      "title": "백혈구 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/백혈구.md",
+      "title": "백혈구",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/09 혈액/유전성 혈전성향증 (Inherited Thrombophilia).md",
+      "title": "유전성 혈전성향증 (Inherited Thrombophilia)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/응고인자 질환.md",
+      "title": "응고인자 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/응고인자.md",
+      "title": "응고인자",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/09 혈액/적혈구 질환.md",
+      "title": "적혈구 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/적혈구.md",
+      "title": "적혈구",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/09 혈액/혈관벽 질환.md",
+      "title": "혈관벽 질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/혈관벽.md",
+      "title": "혈관벽",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/09 혈액/혈소판 질환.md",
+      "title": "혈소판 질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/09 혈액/혈소판.md",
+      "title": "혈소판",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/09 혈액/혈액.md",
+      "title": "혈액",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/10 종양/랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis).md",
+      "title": "랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/10 종양/종양.md",
+      "title": "종양",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/10 종양/종양내과.md",
+      "title": "종양내과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/11 외과/급성 충수염 (Acute Appendicitis).md",
+      "title": "급성 충수염 (Acute Appendicitis)",
+      "tier": "tier_2",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/11 외과/수혈부작용.md",
+      "title": "수혈부작용",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/11 외과/심부 정맥 혈전증 및 폐색전증 (Deep Vein Thrombosis and Pulmonary Embolism).md",
+      "title": "심부 정맥 혈전증 및 폐색전증 (Deep Vein Thrombosis and Pulmonary Embolism)",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/11 외과/외과.md",
+      "title": "외과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/11 외과/외상.md",
+      "title": "외상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/11 외과/폐색전증 (Pulmonary Embolism).md",
+      "title": "폐색전증 (Pulmonary Embolism)",
+      "tier": "tier_1",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/11 외과/혈관 손상.md",
+      "title": "혈관 손상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/11 외과/흉부 외상.md",
+      "title": "흉부 외상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/11 외과/Rh 용혈성질환 (Rh 용혈성질환).md",
+      "title": "Rh 용혈성질환 (Rh 용혈성질환)",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/12 산과/산과.md",
+      "title": "산과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/12 산과/산후출혈.md",
+      "title": "산후출혈",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/12 산과/임신 중 감염.md",
+      "title": "임신 중 감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/12 산과/임신 중 질출혈.md",
+      "title": "임신 중 질출혈",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/12 산과/전자간증 (Pre-eclampsia).md",
+      "title": "전자간증 (Pre-eclampsia)",
+      "tier": "tier_3",
+      "reason": "연결된 대표 문서 Tier와 일치"
+    },
+    {
+      "id": "02 Diseases/13 부인과/부인과.md",
+      "title": "부인과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/13 부인과/성매개감염.md",
+      "title": "성매개감염",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/고IgM 증후군 (Hyper-IgM Syndrome).md",
+      "title": "고IgM 증후군 (Hyper-IgM Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 각론/소아과 각론.md",
+      "title": "소아과 각론",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/레트 증후군 (Rett Syndrome).md",
+      "title": "레트 증후군 (Rett Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "title": "소아 유전질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/소아과 총론.md",
+      "title": "소아과 총론",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/아동학대 및 비우발적 손상.md",
+      "title": "아동학대 및 비우발적 손상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/원발성 섬모운동이상증 (Primary Ciliary Dyskinesia).md",
+      "title": "원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/윌리엄스 증후군 (Williams Syndrome).md",
+      "title": "윌리엄스 증후군 (Williams Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/취약 X 증후군 (Fragile X Syndrome).md",
+      "title": "취약 X 증후군 (Fragile X Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/파타우 증후군 (Patau Syndrome).md",
+      "title": "파타우 증후군 (Patau Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/헐러 증후군 (Hurler Syndrome).md",
+      "title": "헐러 증후군 (Hurler Syndrome)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/Hartnup병 (Hartnup Disease).md",
+      "title": "Hartnup병 (Hartnup Disease)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/Lesch-Nyhan 증후군.md",
+      "title": "Lesch-Nyhan 증후군",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/Pompe병 (Pompe Disease).md",
+      "title": "Pompe병 (Pompe Disease)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아과 총론/Tay-Sachs병 (Tay-Sachs Disease).md",
+      "title": "Tay-Sachs병 (Tay-Sachs Disease)",
+      "tier": "tier_3",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/소아청소년과.md",
+      "title": "소아청소년과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/14 소아청소년과/신생아 금단 증후군 (Neonatal Abstinence Syndrome).md",
+      "title": "신생아 금단 증후군 (Neonatal Abstinence Syndrome)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/15 정신건강의학과/정신건강의학과.md",
+      "title": "정신건강의학과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/16 신경과-신경외과/두통.md",
+      "title": "두통",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/16 신경과-신경외과/신경과-신경외과.md",
+      "title": "신경과-신경외과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "title": "신경근육질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "title": "이상운동질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/16 신경과-신경외과/호르너 증후군 (Horner Syndrome).md",
+      "title": "호르너 증후군 (Horner Syndrome)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/17 이비인후과/급성 유양돌기염 (Acute Mastoiditis).md",
+      "title": "급성 유양돌기염 (Acute Mastoiditis)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/17 이비인후과/이비인후과.md",
+      "title": "이비인후과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/18 안과/안과.md",
+      "title": "안과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/18 안과/안구 외상.md",
+      "title": "안구 외상",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/19 피부과/구진인설성질환.md",
+      "title": "구진인설성질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/19 피부과/습진성피부질환.md",
+      "title": "습진성피부질환",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/19 피부과/피부과.md",
+      "title": "피부과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/19 피부과/홍반성피부질환.md",
+      "title": "홍반성피부질환",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/20 비뇨기과/발기부전 (Erectile Dysfunction).md",
+      "title": "발기부전 (Erectile Dysfunction)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/20 비뇨기과/비뇨기과.md",
+      "title": "비뇨기과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/20 비뇨기과/출혈성 방광염 (Hemorrhagic Cystitis).md",
+      "title": "출혈성 방광염 (Hemorrhagic Cystitis)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/독성 알코올.md",
+      "title": "독성 알코올",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/리튬 중독 (Lithium Poisoning).md",
+      "title": "리튬 중독 (Lithium Poisoning)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/벤조디아제핀 중독 (Benzodiazepine Poisoning).md",
+      "title": "벤조디아제핀 중독 (Benzodiazepine Poisoning)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/살리실산 중독 (Salicylate Poisoning).md",
+      "title": "살리실산 중독 (Salicylate Poisoning)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning).md",
+      "title": "삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/생물 독소.md",
+      "title": "생물 독소",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/아세트아미노펜 중독 (Acetaminophen Poisoning).md",
+      "title": "아세트아미노펜 중독 (Acetaminophen Poisoning)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/아편유사제 중독 (Opioid Poisoning).md",
+      "title": "아편유사제 중독 (Opioid Poisoning)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/약물 및 화학물질 중독.md",
+      "title": "약물 및 화학물질 중독",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/유기인계 중독 (Organophosphate Poisoning).md",
+      "title": "유기인계 중독 (Organophosphate Poisoning)",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/응급의학.md",
+      "title": "응급의학",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/21 응급의학/흡입성 중독.md",
+      "title": "흡입성 중독",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/22 정형외과/말초신경 손상.md",
+      "title": "말초신경 손상",
+      "tier": "tier_2",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    },
+    {
+      "id": "02 Diseases/22 정형외과/정형외과.md",
+      "title": "정형외과",
+      "tier": "tier_1",
+      "reason": "주제의 빈도·중요도에 따른 간이 배정"
+    }
+  ]
+}

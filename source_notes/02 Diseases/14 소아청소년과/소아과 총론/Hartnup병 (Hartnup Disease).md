@@ -6,6 +6,7 @@ aliases: [Hartnup disease, SLC6A19 deficiency]
 CC: [피부발진, 운동실조]
 sources:
 - 'MedlinePlus Genetics: Hartnup disease | https://medlineplus.gov/genetics/condition/hartnup-disease/'
+clinical_priority: tier_3
 ---
 # Hartnup병 (Hartnup Disease)
 

@@ -456,6 +456,8 @@ function buildDiseases() {
     const fileName = path.basename(filePath, ".md");
     const stat = fs.statSync(filePath);
     const contentUpdatedAt = readScalar(frontmatter["content_updated_at"]);
+    const reviewedAt = readScalar(frontmatter["reviewed_at"]);
+    const reviewStatus = readScalar(frontmatter["review_status"]);
     const guidelineYear = readScalar(frontmatter["guideline_year"]);
     const sources = parseSkillSources(frontmatter.sources);
     const family = readScalar(frontmatter["disease_family"]);
@@ -473,7 +475,7 @@ function buildDiseases() {
     ])];
     const isGroupOverview = documentRole === "group_overview"
       || (groupMemberTitles.length > 0 && normalizeGroupLabel(fileName) === normalizeGroupLabel(readList(frontmatter["\uBD84\uB958"])[0]));
-    const hasContentMeta = Boolean(contentUpdatedAt || guidelineYear || sources.length);
+    const hasContentMeta = Boolean(contentUpdatedAt || guidelineYear || reviewedAt || reviewStatus || sources.length);
     const hasFamilyMeta = Boolean(family || parentDisease || relationToParent || population || canonicalDisease);
 
     return {
@@ -500,6 +502,8 @@ function buildDiseases() {
       ...(hasContentMeta ? {
         contentMeta: {
           contentUpdatedAt,
+          reviewedAt,
+          reviewStatus,
           guidelineYear,
           sources,
         },
@@ -1009,6 +1013,7 @@ function buildGenericNotes(domainFolder, domainKey, options = {}) {
       sections,
       updatedAt: stat.mtime.toISOString(),
       contentMeta: {
+        contentUpdatedAt: readScalar(frontmatter["content_updated_at"]),
         reviewedAt: readScalar(frontmatter["reviewed_at"]),
         reviewStatus: readScalar(frontmatter["review_status"]),
         guidelineYear: readScalar(frontmatter["guideline_year"]),
@@ -1062,6 +1067,7 @@ function buildDrugs() {
       sections,
       updatedAt: stat.mtime.toISOString(),
       contentMeta: {
+        contentUpdatedAt: readScalar(frontmatter["content_updated_at"]),
         reviewedAt: readScalar(frontmatter["reviewed_at"]),
         reviewStatus: readScalar(frontmatter["review_status"]),
         guidelineYear: readScalar(frontmatter["guideline_year"]),

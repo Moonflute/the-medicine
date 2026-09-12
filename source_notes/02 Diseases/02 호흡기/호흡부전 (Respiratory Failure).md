@@ -2,6 +2,7 @@
 aliases:
   - respiratory failure
 category: 호흡기 응급
+clinical_priority: tier_1
 ---
 # 호흡부전 (Respiratory Failure)
 

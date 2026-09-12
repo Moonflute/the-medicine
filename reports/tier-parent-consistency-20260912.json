@@ -1,0 +1,92 @@
+[
+  {
+    "title": "고혈압 (Hypertension)",
+    "id": "02 Diseases/01 순환기/고혈압 (Hypertension).md",
+    "before": "tier_2",
+    "after": "tier_1"
+  },
+  {
+    "title": "호산구 폐렴 (Eosinophilic Pneumonia)",
+    "id": "02 Diseases/02 호흡기/호산구 폐렴 (Eosinophilic Pneumonia).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "간경변증 (Liver Cirrhosis)",
+    "id": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "간염 (Hepatitis)",
+    "id": "02 Diseases/03 소화기/간담췌/간염 (Hepatitis).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "염증성 장질환 (IBD) (Inflammatory Bowel Disease)",
+    "id": "02 Diseases/03 소화기/위장관/염증성 장질환 (IBD) (Inflammatory Bowel Disease).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "당뇨병 (Diabetes Mellitus)",
+    "id": "02 Diseases/04 내분비/당뇨병 (Diabetes Mellitus).md",
+    "before": "tier_2",
+    "after": "tier_1"
+  },
+  {
+    "title": "Type I",
+    "id": "02 Diseases/06 알레르기/Type I.md",
+    "before": "tier_2",
+    "after": "tier_1"
+  },
+  {
+    "title": "림프종 (Lymphoma)",
+    "id": "02 Diseases/09 혈액/림프종 (Lymphoma).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "백혈병 (Leukemia)",
+    "id": "02 Diseases/09 혈액/백혈병 (Leukemia).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "빈혈 (Anemia)",
+    "id": "02 Diseases/09 혈액/빈혈 (Anemia).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "다운 증후군 (Down Syndrome)",
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/다운 증후군 (Down Syndrome).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "신경인지장애 (Neurocognitive Disorders)",
+    "id": "02 Diseases/15 정신건강의학과/신경인지장애 (Neurocognitive Disorders).md",
+    "before": "tier_3",
+    "after": "tier_2"
+  },
+  {
+    "title": "급성 중독 총론 (General Management of Acute Poisoning)",
+    "id": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+    "before": "tier_2",
+    "after": "tier_1"
+  },
+  {
+    "title": "독성 알코올",
+    "id": "02 Diseases/21 응급의학/독성 알코올.md",
+    "before": "tier_2",
+    "after": "tier_1"
+  },
+  {
+    "title": "생물 독소",
+    "id": "02 Diseases/21 응급의학/생물 독소.md",
+    "before": "tier_2",
+    "after": "tier_1"
+  }
+]

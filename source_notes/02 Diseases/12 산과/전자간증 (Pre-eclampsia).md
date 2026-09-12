@@ -20,6 +20,7 @@ relation_to_parent: "canonical_reference"
 population: "pregnancy"
 review_status: "compatibility_reference"
 reviewed_at: "2026-07-16"
+clinical_priority: tier_3
 ---
 분과 : [[산과]]
 

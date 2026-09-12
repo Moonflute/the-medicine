@@ -6,6 +6,7 @@ aliases: [Williams syndrome, 7q11.23 deletion]
 CC: [성장발달, 심잡음]
 sources:
 - 'MedlinePlus Genetics: Williams syndrome | https://medlineplus.gov/genetics/condition/williams-syndrome/'
+clinical_priority: tier_3
 ---
 # 윌리엄스 증후군 (Williams Syndrome)
 

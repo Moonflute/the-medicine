@@ -3,6 +3,7 @@ aliases:
   - inherited thrombophilia
   - factor V Leiden thrombophilia
 category: 혈전성 질환
+clinical_priority: tier_2
 ---
 # 유전성 혈전성향증 (Inherited Thrombophilia)
 

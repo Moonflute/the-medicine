@@ -6,6 +6,7 @@ canonical_disease: 급성 충수염 (Acute Appendicitis)
 계통: 외과
 분류: [외과]
 CC: []
+clinical_priority: tier_2
 ---
 
 # 급성 충수염 (Acute Appendicitis)

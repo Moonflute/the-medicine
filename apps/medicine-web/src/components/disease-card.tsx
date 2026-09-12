@@ -7,7 +7,7 @@ import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote, TermLink } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { ReviewSaveButton } from "@/components/review-save-button";
-import { formatKoreanDate } from "@/lib/format";
+import { ContentMetadata } from "@/components/content-metadata";
 
 function stripEditorialLines(lines: string[]) {
   const cleaned: string[] = [];
@@ -47,7 +47,6 @@ export function DiseaseCard({
   const sectionItems = note.sections.map((section, index) => ({ id: `disease-${note.slug}-section-${index + 1}`, title: section.title }));
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const contentMeta = note.contentMeta;
-  const lastUpdated = formatKoreanDate(contentMeta?.contentUpdatedAt || note.updatedAt);
   const displayTitle = note.displayTitle || note.title;
   const sourceLinks = contentMeta?.sources?.filter((source) => source.label && source.url) ?? [];
   const familyLinks = [
@@ -75,11 +74,10 @@ export function DiseaseCard({
             <div className="eyebrow">{note.specialty}</div>
             <h2 className="mt-2 text-2xl font-semibold text-slate-950 sm:text-3xl">{displayTitle}</h2>
             {note.definition ? <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-700">{note.definition}</p> : null}
+            {!compact ? <ContentMetadata meta={contentMeta} /> : null}
             {!compact ? (
               <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500">
-                <span>내용 갱신 {lastUpdated}</span>
                 {note.clinicalPriority ? <span className="pill">{note.clinicalPriority.replace("tier_", "Tier ")}</span> : null}
-                {contentMeta?.guidelineYear ? <span className="pill">근거 연도 {contentMeta.guidelineYear}</span> : null}
               </div>
             ) : null}
           </div>

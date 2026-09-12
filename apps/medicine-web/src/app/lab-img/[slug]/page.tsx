@@ -1,3 +1,4 @@
+import { ContentMetadata } from "@/components/content-metadata";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -97,14 +98,11 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
             ))}
           </div>
       </section>
+      <ContentMetadata meta={note.contentMeta} />
       {note.contentMeta?.sources?.length ? (
         <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
-          <h2 className="font-semibold text-slate-950">근거 및 검토 정보</h2>
-          <div className="mt-3 flex flex-wrap gap-2 text-sm text-slate-600">
-            {note.contentMeta.reviewStatus ? <span className="pill">상태 {note.contentMeta.reviewStatus}</span> : null}
-            {note.contentMeta.reviewedAt ? <span className="pill">검토일 {note.contentMeta.reviewedAt}</span> : null}
-            {note.contentMeta.guidelineYear ? <span className="pill">근거 연도 {note.contentMeta.guidelineYear}</span> : null}
-          </div>
+          <h2 className="font-semibold text-slate-950">출처</h2>
+
           <ul className="mt-4 space-y-2 text-sm">
             {note.contentMeta.sources.map((source) => (
               <li key={`${source.label}-${source.url}`}>

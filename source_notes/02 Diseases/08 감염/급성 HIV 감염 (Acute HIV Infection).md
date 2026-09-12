@@ -5,6 +5,7 @@ aliases:
 category: 바이러스 감염
 sources:
   - "CDC STI Treatment Guidelines: HIV"
+clinical_priority: tier_1
 ---
 # 급성 HIV 감염 (Acute HIV Infection)
 

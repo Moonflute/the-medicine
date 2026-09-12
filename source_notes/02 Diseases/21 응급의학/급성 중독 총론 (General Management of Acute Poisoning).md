@@ -18,7 +18,7 @@ CC:
 - 중독／과량복용
 - 의식장애
 - 경련 (성인)
-clinical_priority: tier_2
+clinical_priority: tier_1
 review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
 content_updated_at: '2026-07-17'

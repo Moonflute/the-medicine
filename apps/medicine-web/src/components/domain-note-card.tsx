@@ -1,3 +1,4 @@
+import { ContentMetadata } from "@/components/content-metadata";
 import Link from "next/link";
 import type { DomainNote } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
@@ -17,8 +18,6 @@ export function DomainNoteCard({
 }) {
   const priorityLabel = note.drugMeta?.priority ? (PRIORITY_LABELS[note.drugMeta.priority] ?? note.drugMeta.priority) : "";
   const brands = note.drugMeta?.brands?.filter(Boolean) ?? [];
-  const reviewStatus = note.contentMeta?.reviewStatus?.trim();
-  const reviewedAt = note.contentMeta?.reviewedAt?.trim();
 
   const body = (
     <article className="surface p-5 sm:p-6">
@@ -34,14 +33,7 @@ export function DomainNoteCard({
         </div>
       ) : null}
 
-      {reviewStatus || reviewedAt ? (
-        <div className="mt-3 flex flex-wrap gap-2">
-          {reviewStatus ? (
-            <span className="pill border-amber-200 bg-amber-50 text-amber-800">검토 상태: {reviewStatus}</span>
-          ) : null}
-          {reviewedAt ? <span className="pill">검토일 {reviewedAt}</span> : null}
-        </div>
-      ) : null}
+      <ContentMetadata meta={note.contentMeta} />
       {brands.length > 0 ? (
         <p className="mt-3 text-sm leading-6 text-slate-600">
           Brands <span className="font-medium text-slate-900">{brands.slice(0, 2).join(", ")}</span>

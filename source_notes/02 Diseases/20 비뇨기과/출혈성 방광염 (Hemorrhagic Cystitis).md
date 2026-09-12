@@ -5,6 +5,7 @@ aliases:
 category: 방광 질환
 sources:
   - "Merck Manual Professional: Hemorrhagic Cystitis"
+clinical_priority: tier_2
 ---
 # 출혈성 방광염 (Hemorrhagic Cystitis)
 

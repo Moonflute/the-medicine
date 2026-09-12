@@ -15,6 +15,7 @@ CC:
 - 기침
 - 발열
 - 호흡곤란
+clinical_priority: tier_1
 ---
 # 병원획득 폐렴 (Hospital-Acquired Pneumonia)
 
