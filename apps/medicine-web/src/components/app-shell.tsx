@@ -26,7 +26,8 @@ function isNavItemActive(pathname: string, href: string) {
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
-  const immersive = pathname.startsWith("/interactive/") || pathname === "/nervous-system-hub" || pathname === "/nervous-system-hub/";
+  const atlas = pathname === "/atlas" || pathname === "/atlas/";
+  const immersive = atlas || pathname.startsWith("/interactive/") || pathname === "/nervous-system-hub" || pathname === "/nervous-system-hub/";
   const [open, setOpen] = useState(false);
   const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.8.5";
 
@@ -61,7 +62,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <AudioReviewProvider>
-    <div className={`min-h-screen bg-slate-100 text-slate-950 ${immersive ? "immersive-shell" : ""}`}>
+    <div className={`min-h-screen bg-slate-100 text-slate-950 ${immersive ? "immersive-shell" : ""} ${atlas ? "atlas-shell" : ""}`}>
       <LearningSyncProvider />
       <div className="mx-auto flex min-h-screen max-w-[1680px]">
         <aside className="sticky top-0 hidden h-screen w-64 shrink-0 self-start border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block">

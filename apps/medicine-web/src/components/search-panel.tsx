@@ -100,9 +100,9 @@ function scoreEntry(entry: SearchEntry, term: string, compactTerm: string) {
   return 0;
 }
 
-export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[]; className?: string }) {
+export function SearchPanel({ entries, className = "", initialQuery = "" }: { entries: SearchEntry[]; className?: string; initialQuery?: string }) {
   const router = useRouter();
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const [activeResultIndex, setActiveResultIndex] = useState(0);
   const [recentSearches, setRecentSearches] = useState<string[]>(() => {
     if (typeof window === "undefined") return [];

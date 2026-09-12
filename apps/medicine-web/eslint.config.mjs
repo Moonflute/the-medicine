@@ -5,5 +5,5 @@ import nextTs from "eslint-config-next/typescript";
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  globalIgnores([".next/**", ".next-*/**", "tmp/**", "out/**", "build/**", "next-env.d.ts"]),
+  globalIgnores(["public/organ-atlas/**", ".next/**", ".next-*/**", "tmp/**", "out/**", "build/**", "next-env.d.ts"]),
 ]);

@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   // Lets isolated local verification run without touching another Next dev server's .next lock.
   distDir: process.env.NEXT_DIST_DIR || ".next",
   trailingSlash: true,
+  typescript: { tsconfigPath: process.env.NEXT_TSCONFIG_PATH || "tsconfig.json" },
   experimental: {
     // The static export generates a large number of note pages. Keep the
     // worker count bounded so local/CI builds remain within memory.

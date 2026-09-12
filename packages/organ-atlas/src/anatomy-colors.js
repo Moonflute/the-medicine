@@ -1,0 +1,7 @@
+// Anatomical vessel classes take precedence over organ tissue substrings.
+export function anatomicalColor(id,name,base){let color=base;
+   if(id==='mouth'){if(/teeth|hard_palate/.test(name))color='#e2d7bd';else if(/gland/.test(name))color='#bda1a7';else if(/tongue|papillae/.test(name))color='#c78f88';else color='#d4aca0';}
+   if(/artery|aort|pulmonary_trunk|celiac_trunk/.test(name))color='#c5896d';if(/vein|vena|coronary_sinus/.test(name))color='#82a4ad';if(/cartilage|trachea|bronchus|carina/.test(name)&&id==='lungs')color='#d7c7ab';if(/ligament/.test(name))color='#d5bd95';if(id==='brain'&&/cerebell|pons|medulla/.test(name))color='#ab96b7';
+   if(/optic_nerve|nerves_of_eye/.test(name))color='#d1bb85';if(/extraocular_muscle/.test(name))color='#bd8d89';if(/(_ducts?(_|$)|gallbladder)/.test(name))color='#9fab79';
+   if(id==='eyes'){if(/sclera|conjunctiva/.test(name))color='#eee8da';if(/iris/.test(name))color='#668c88';if(/pupil/.test(name))color='#293d3b';if(/retina/.test(name))color='#c4998c';if(/choroid/.test(name))color='#927381';if(/ciliary/.test(name))color='#b99786';if(/^VH_M_lens_[LR]$/.test(name))color='#b4c7cb';if(/optic_disc|fovea|macula/.test(name))color='#d3b16e';}
+   if(/artery|aort|pulmonary_trunk|celiac_trunk/.test(name))color='#c5896d';if(/vein|vena|coronary_sinus/.test(name))color='#82a4ad';return color;}

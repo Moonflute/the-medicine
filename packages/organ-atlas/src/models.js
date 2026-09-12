@@ -1,0 +1,3 @@
+import * as T from 'three';
+// Only a neutral overview shell. Actual organs come from reference-models.js.
+export function createBody(){const root=new T.Group();const material=new T.MeshStandardMaterial({color:'#dedbce',roughness:.9});function oval(p,s){const m=new T.Mesh(new T.IcosahedronGeometry(1,3),material);m.position.set(...p);m.scale.set(...s);m.castShadow=true;m.receiveShadow=true;root.add(m);return m}oval([0,2.25,-.23],[.34,.45,.29]);oval([0,1.67,-.25],[.17,.27,.19]);oval([0,.87,-.3],[.68,.84,.25]);oval([0,-.06,-.27],[.49,.42,.25]);for(const s of [-1,1]){oval([s*.8,.72,-.26],[.16,.82,.17]).rotation.z=s*.13;oval([s*.92,-.08,-.22],[.15,.24,.14]);oval([s*.25,-1.04,-.28],[.2,.8,.21]);oval([s*.25,-1.91,-.2],[.15,.27,.26])}return root}

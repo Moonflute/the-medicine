@@ -1,4 +1,5 @@
 "use client";
+import atlasMappings from "@/generated/atlas-links.json";
 
 import { useMemo } from "react";
 import Link from "next/link";
@@ -43,6 +44,7 @@ export function DiseaseCard({
   relatedQbankHref?: string;
 }) {
   const expanded = !compact;
+  const atlasMapping = !compact ? atlasMappings.find(mapping => mapping.diseaseId === note.id) : undefined;
   const tocId = `disease-${note.slug}-toc`;
   const sectionItems = note.sections.map((section, index) => ({ id: `disease-${note.slug}-section-${index + 1}`, title: section.title }));
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
@@ -81,7 +83,8 @@ export function DiseaseCard({
               </div>
             ) : null}
           </div>
-          <div className="flex shrink-0 items-center gap-2">
+          <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
+            {atlasMapping ? <Link href={"/atlas/?" + new URLSearchParams({organ:atlasMapping.organId,disease:note.slug}).toString()} className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-teal-200 bg-teal-50 text-sm font-semibold text-teal-800 hover:bg-teal-100" aria-label={displayTitle+" 3D로 보기"} title="3D로 보기">3D</Link> : null}
             {relatedQbankHref ? (
               <Link
                 href={relatedQbankHref}

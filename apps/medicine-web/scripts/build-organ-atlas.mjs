@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import {spawnSync} from 'node:child_process';
+const app=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const atlas=path.resolve(app,'../../packages/organ-atlas');
+const {diseaseMappings}=await import(pathToFileURL(path.join(atlas,'src/disease-mappings.js')).href);
+const diseases=JSON.parse(fs.readFileSync(path.resolve(app,'../../_webapp/data/diseases.json'),'utf8'));
+const mappings=diseaseMappings.map(m=>{const d=diseases.find(d=>d.id===m.diseaseId);if(!d)throw Error('Atlas disease mapping missing: '+m.diseaseId);return {...m,diseaseSlug:d.slug,title:d.title}});
+fs.mkdirSync(path.join(app,'src/generated'),{recursive:true});
+fs.writeFileSync(path.join(app,'src/generated/atlas-links.json'),JSON.stringify(mappings,null,2)+'\n');
+fs.writeFileSync(path.join(atlas,'static/disease-catalog.json'),JSON.stringify({schemaVersion:1,diseases:diseases.map(({id,slug,title,specialty,category,classification,aliases,familyMeta})=>({id,slug,title,specialty,category,classification,aliases,familyMeta}))}));
+const result=spawnSync(process.execPath,[path.join(atlas,'node_modules/vite/bin/vite.js'),'build'],{cwd:atlas,stdio:'inherit'});
+if(result.status!==0)process.exit(result.status??1);
+console.log('Built atlas with '+mappings.length+' verified disease links and '+diseases.length+' catalog records.');

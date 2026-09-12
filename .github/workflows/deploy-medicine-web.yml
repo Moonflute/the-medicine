@@ -52,12 +52,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install organ atlas dependencies
+        run: npm ci --prefix ../../packages/organ-atlas
+
       - name: Generate web DB
         run: npm run sync:data
 
       - name: Lint
         # Content hashes survive checkout timestamps; dependency changes get a new cache.
         run: npm run lint -- --cache --cache-strategy content --cache-location .next/cache/eslint/
+
+      - name: Verify organ atlas contracts
+        run: node scripts/test-atlas-contracts.mjs
 
       - name: Verify lab workspace
         run: node --test scripts/test-lab-workbench.mjs

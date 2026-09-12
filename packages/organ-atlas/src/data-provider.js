@@ -1,0 +1,6 @@
+// The host may replace this provider; no production DB credentials belong in the viewer.
+let provider={async getDiseaseCatalog({signal}={}){const r=await fetch('./disease-catalog.json',{signal});if(!r.ok)throw Error('Disease catalog unavailable');return r.json();}};
+let generation=0,cache;
+export function configureDataProvider(next){if(typeof next?.getDiseaseCatalog!=='function')throw new TypeError('getDiseaseCatalog is required');provider=next;generation++;cache=undefined;}
+export async function getDiseaseCatalog({signal}={}){if(cache)return cache;const token=generation;const data=await provider.getDiseaseCatalog({signal});if(data.schemaVersion!==1||!Array.isArray(data.diseases))throw new Error('Unsupported disease catalog');for(const d of data.diseases){if(typeof d.id!=='string'||typeof d.slug!=='string'||typeof d.title!=='string'||typeof d.specialty!=='string'||!Array.isArray(d.classification))throw new Error('Invalid disease record');}if(token===generation)cache=data;return data;}
+export async function saveAtlasView(snapshot){if(!snapshot)throw Error("Model is not ready for saving");if(snapshot.schemaVersion!==1)throw Error('Unsupported view version');return provider.saveView?provider.saveView(snapshot):{saved:false,reason:'No persistence provider configured'};}

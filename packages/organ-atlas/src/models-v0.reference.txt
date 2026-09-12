@@ -1,0 +1,45 @@
+import * as T from 'three';
+const clay = color => new T.MeshStandardMaterial({color,roughness:.83,metalness:0,flatShading:true});
+function mesh(group,geometry,color,position=[0,0,0],scale=[1,1,1]){const m=new T.Mesh(geometry,clay(color));m.position.set(...position);m.scale.set(...scale);m.castShadow=true;m.receiveShadow=true;group.add(m);return m}
+function oval(g,c,p,s,detail=3){return mesh(g,new T.IcosahedronGeometry(1,detail),c,p,s)}
+function tube(g,c,points,r=.09){const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p)));return mesh(g,new T.TubeGeometry(curve,28,r,8,false),c)}
+function vessel(g,c,points,r){tube(g,c,points,r);const end=new T.Vector3(...points.at(-1)),prev=new T.Vector3(...points.at(-2));const ring=mesh(g,new T.TorusGeometry(r*.82,r*.2,6,12),c);ring.position.copy(end);ring.quaternion.setFromUnitVectors(new T.Vector3(0,0,1),end.clone().sub(prev).normalize());const hole=mesh(g,new T.CircleGeometry(r*.65,12),'#715b67');hole.position.copy(end).addScaledVector(end.clone().sub(prev).normalize(),.003);hole.quaternion.copy(ring.quaternion)}
+function heart(g,c){
+ const geom=new T.SphereGeometry(1,28,22);const p=geom.attributes.position;
+ for(let i=0;i<p.count;i++){const y=p.getY(i);const taper=.58+.40*(y+1)/2; p.setXYZ(i,p.getX(i)*taper+.23*(1-y),y*1.02,p.getZ(i)*(.65+.1*y))}geom.computeVertexNormals();mesh(g,geom,c,[0,-.05,0]);
+ oval(g,'#d79389',[-.43,.55,-.04],[.48,.42,.48]);oval(g,c,[.4,.57,-.12],[.43,.34,.43]);
+ vessel(g,'#cb8e78',[[-.13,.55,-.1],[-.18,1.1,-.12],[.08,1.48,-.12],[.48,1.4,-.15],[.6,1.13,-.25]],.18);
+ vessel(g,'#8dacae',[[.17,.5,.28],[.12,.94,.3],[-.32,1.11,.32],[-.63,1.05,.29]],.14);
+ vessel(g,'#91aeb8',[[-.62,.24,-.12],[-.65,.77,-.15],[-.66,1.27,-.14]],.12);
+ for(const x of [-.04,.17,.36])vessel(g,'#cb8e78',[[x,1.34,-.12],[x-.04,1.68,-.13]],.065);
+ tube(g,'#efb098',[[.25,.72,.54],[.06,.31,.67],[.15,-.18,.59],[.35,-.7,.35]],.032);
+ tube(g,'#b25e60',[[.05,.26,.68],[-.33,.04,.55],[-.49,-.2,.4]],.024);
+ tube(g,'#efb098',[[.12,.02,.65],[.5,-.1,.48],[.67,-.43,.25]],.023);
+}
+function lungs(g,c){
+ for(const side of [-1,1]){const geo=new T.SphereGeometry(1,24,20);const p=geo.attributes.position;for(let i=0;i<p.count;i++){let y=p.getY(i);p.setXYZ(i,p.getX(i)*(.67-.2*y),y*1.16,p.getZ(i)*.53)}geo.computeVertexNormals();const l=mesh(g,geo,c,[side*.7,-.04,0]);l.rotation.z=-side*.12;
+ tube(g,'#568f8b',[[side*.28,.2,.43],[side*.65,-.17,.53],[side*1.13,-.52,.29]],.019);
+ if(side===-1)tube(g,'#568f8b',[[-.25,-.12,.43],[-.73,-.16,.52],[-1.24,-.08,.32]],.018);
+ }
+ vessel(g,'#decab1',[[0,1.56,.05],[0,1,.05],[0,.65,.08]],.13);
+ for(let i=0;i<6;i++){const r=mesh(g,new T.TorusGeometry(.135,.021,6,12),'#efe0c9',[0,.81+i*.13,.05]);r.rotation.x=Math.PI/2}
+ for(const s of [-1,1]){tube(g,'#dfc8ab',[[0,.72,.08],[s*.3,.37,.31],[s*.62,.1,.48]],.093);tube(g,'#dec9ae',[[s*.39,.26,.4],[s*.6,-.04,.53],[s*.72,-.47,.5]],.045)}
+}
+function brain(g,c){
+ for(const side of [-1,1]){oval(g,c,[side*.47,.14,0],[.55,.81,.83]);
+ for(let row=0;row<5;row++){const z=-.6+row*.3;const pts=[];for(let j=0;j<=16;j++){const a=-1.14+j/16*2.26;pts.push([side*(.18+.64*Math.cos(a)),.13+.68*Math.sin(a),z+.045*Math.sin(j*.9+row)])}tube(g,row%2?'#b9aad0':'#c4b5d7',pts,.095)}
+ }
+ oval(g,'#a293b7',[0,-.58,-.46],[.59,.33,.42]);tube(g,'#d6c2b0',[[0,-.59,-.2],[0,-1,-.2],[.12,-1.18,-.25]],.16);
+}
+function liver(g,c){
+ const geo=new T.SphereGeometry(1,30,22),p=geo.attributes.position;
+ for(let i=0;i<p.count;i++){const x=p.getX(i),y=p.getY(i),z=p.getZ(i);p.setXYZ(i,x*1.43,y*(.64-.23*x)+.21*x,z*(.68-.19*x));}geo.computeVertexNormals();mesh(g,geo,c);
+ tube(g,'#d4ad87',[[.01,.58,.25],[-.08,.27,.62],[-.12,-.04,.69],[-.25,-.38,.46]],.032);
+ oval(g,'#879b70',[-.26,-.54,.15],[.16,.32,.16]);tube(g,'#91a479',[[-.24,-.42,.19],[-.1,-.32,.23],[.08,-.44,.2]],.045);
+ vessel(g,'#91aeb8',[[.15,-.17,-.35],[.28,.38,-.4],[.3,.84,-.4]],.14);
+}
+const factories={heart,lungs,brain,liver};
+export function createOrgan(id,color){const g=new T.Group();factories[id](g,color);g.traverse(m=>{if(m.isMesh){m.userData.organId=id;m.userData.baseColor=m.material.color.clone()}});return g}
+export function createBody(organs){const root=new T.Group(),shell=new T.Group();root.add(shell);const c='#dedbce';oval(shell,c,[0,2.25,-.23],[.34,.45,.29]);oval(shell,c,[0,1.67,-.25],[.17,.27,.19]);oval(shell,c,[0,.87,-.3],[.68,.84,.25]);oval(shell,c,[0,-.06,-.27],[.49,.42,.25]);
+ for(const s of [-1,1]){const arm=oval(shell,c,[s*.8,.72,-.26],[.16,.82,.17]);arm.rotation.z=s*.13;oval(shell,c,[s*.92,-.08,-.22],[.15,.24,.14]);oval(shell,c,[s*.25,-1.04,-.28],[.2,.8,.21]);oval(shell,c,[s*.25,-1.91,-.2],[.15,.27,.26]);}
+ const places={brain:[0,2.3,.03,.28],lungs:[0,1.15,.05,.36],heart:[.1,.96,.35,.19],liver:[-.13,.46,.13,.3]};for(const o of organs){const m=createOrgan(o.id,o.color),[x,y,z,s]=places[o.id];m.position.set(x,y,z);m.scale.setScalar(s);root.add(m)}return root}
