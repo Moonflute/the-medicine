@@ -1,7 +1,9 @@
 "use client";
 
+import { useHubState } from "@/lib/use-hub-state";
+
 import Link from "next/link";
-import { useDeferredValue, useState } from "react";
+import { useDeferredValue } from "react";
 import { ArrowUpRight, Bug, Dna, Search, ShieldAlert } from "lucide-react";
 import type { AntibioticSpectrumDataset, MicrobiologyDataset, MicrobiologyEntity, MicrobiologyEntityKind, MicrobiologyPathogenType } from "@/lib/types";
 import type { InfectionPathwayDataset } from "@/lib/infection-types";
@@ -129,10 +131,10 @@ function PathogenCard({ entity, pathways, spectrum }: { entity: MicrobiologyEnti
 }
 
 export function MicrobiologyBrowser({ dataset, pathways, spectrum }: { dataset: MicrobiologyDataset; pathways: InfectionPathwayDataset; spectrum: AntibioticSpectrumDataset }) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useHubState("microbiology-browser:query", "");
   const deferredQuery = useDeferredValue(query);
-  const [pathogenType, setPathogenType] = useState<MicrobiologyPathogenType | "">("");
-  const [entityKind, setEntityKind] = useState<MicrobiologyEntityKind | "">("");
+  const [pathogenType, setPathogenType] = useHubState<MicrobiologyPathogenType | "">("microbiology-browser:pathogenType", "");
+  const [entityKind, setEntityKind] = useHubState<MicrobiologyEntityKind | "">("microbiology-browser:entityKind", "");
   const availablePathogenTypes = [...new Set(dataset.entities.map((entity) => entity.pathogenType))];
   const visible = dataset.entities.filter((entity) =>
     matches(entity, deferredQuery)

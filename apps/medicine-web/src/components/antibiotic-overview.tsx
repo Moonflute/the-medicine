@@ -1,5 +1,7 @@
 ﻿"use client";
 
+import { useHubState } from "@/lib/use-hub-state";
+
 import Link from "next/link";
 import { useDeferredValue, useState } from "react";
 import { useSearchParams } from "next/navigation";
@@ -131,10 +133,10 @@ export function AntibioticOverview({ dataset, pathways, initialMode, initialOrga
   const resolvedOrganism = initialOrganism ?? searchParams.get("organism") ?? "";
   const resolvedAntibiotic = initialAntibiotic ?? searchParams.get("antibiotic") ?? "";
   const validMode = (["matrix", "organism", "antibiotic"] as Mode[]).includes(resolvedMode as Mode) ? resolvedMode as Mode : "matrix";
-  const [mode, setMode] = useState<Mode>(validMode);
-  const [query, setQuery] = useState(""); const deferredQuery = useDeferredValue(query);
-  const [group, setGroup] = useState<OrganismGroup | "">(""); const [route, setRoute] = useState(""); const [drugClass, setDrugClass] = useState(""); const [pregnancy, setPregnancy] = useState(""); const [matchingOnly, setMatchingOnly] = useState(false);
-  const [organismId, setOrganismId] = useState(dataset.organisms.some((item) => item.id === resolvedOrganism) ? resolvedOrganism : dataset.organisms[0]?.id ?? ""); const [antibioticId, setAntibioticId] = useState(dataset.antibiotics.some((item) => item.id === resolvedAntibiotic) ? resolvedAntibiotic : dataset.antibiotics[0]?.id ?? ""); const [matrixFocus, setMatrixFocus] = useState(false);
+  const [mode, setMode] = useHubState<Mode>("antibiotic-overview:mode", validMode);
+  const [query, setQuery] = useHubState("antibiotic-overview:query", ""); const deferredQuery = useDeferredValue(query);
+  const [group, setGroup] = useHubState<OrganismGroup | "">("antibiotic-overview:group", ""); const [route, setRoute] = useHubState("antibiotic-overview:route", ""); const [drugClass, setDrugClass] = useHubState("antibiotic-overview:drugClass", ""); const [pregnancy, setPregnancy] = useHubState("antibiotic-overview:pregnancy", ""); const [matchingOnly, setMatchingOnly] = useHubState("antibiotic-overview:matchingOnly", false);
+  const [organismId, setOrganismId] = useHubState("antibiotic-overview:organismId", dataset.organisms.some((item) => item.id === resolvedOrganism) ? resolvedOrganism : dataset.organisms[0]?.id ?? ""); const [antibioticId, setAntibioticId] = useHubState("antibiotic-overview:antibioticId", dataset.antibiotics.some((item) => item.id === resolvedAntibiotic) ? resolvedAntibiotic : dataset.antibiotics[0]?.id ?? ""); const [matrixFocus, setMatrixFocus] = useState(false);
   const classes = [...new Set(dataset.antibiotics.map((item) => item.class))].sort();
   const organisms = dataset.organisms.slice().sort((a, b) => GROUP_ORDER.indexOf(a.group as OrganismGroup) - GROUP_ORDER.indexOf(b.group as OrganismGroup));
   const visibleOrganisms = group ? organisms.filter((item) => item.group === group) : organisms;

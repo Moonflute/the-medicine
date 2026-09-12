@@ -1,7 +1,9 @@
 "use client";
 
+import { useHubState, useHubScroll } from "@/lib/use-hub-state";
+
 import Link from "next/link";
-import { useState, type ReactNode } from "react";
+import { type ReactNode } from "react";
 import { Check, ChevronRight, ExternalLink, HeartPulse, ShieldAlert, Stethoscope } from "lucide-react";
 import type { DiseaseNote, MaternalChildHubData } from "@/lib/webdb";
 
@@ -16,7 +18,8 @@ function resolveRelated(diseases: DiseaseNote[], terms: string[]) {
 
 export function MaternalChildHub({ diseases, hub }: { diseases: DiseaseNote[]; hub: MaternalChildHubData }) {
   const { stages, pediatricMilestones, sources: sourceLinks } = hub;
-  const [filter, setFilter] = useState<"all" | "obstetrics" | "pediatrics">("all");
+  useHubScroll();
+  const [filter, setFilter] = useHubState<"all" | "obstetrics" | "pediatrics">("maternal-child-hub:filter", "all");
   const visible = stages.filter((stage) => filter === "all" || stage.group === filter || stage.group === "shared");
 
   return (

@@ -1,5 +1,7 @@
 "use client";
 
+import { useHubState } from "@/lib/use-hub-state";
+
 import Link from "next/link";
 import { useDeferredValue, useState } from "react";
 import { useSearchParams } from "next/navigation";
@@ -26,11 +28,11 @@ export function InfectionPathwayExplorer({ dataset, spectrum, initialPathway = "
   const resolvedPathway = initialPathway || searchParams.get("pathway") || "";
   const resolvedOrganism = initialOrganism || searchParams.get("organism") || "";
   const resolvedAntibiotic = initialAntibiotic || searchParams.get("antibiotic") || "";
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useHubState("infection-pathway-explorer:query", "");
   const deferredQuery = useDeferredValue(query);
-  const [site, setSite] = useState("");
-  const [setting, setSetting] = useState("");
-  const [population, setPopulation] = useState("");
+  const [site, setSite] = useHubState("infection-pathway-explorer:site", "");
+  const [setting, setSetting] = useHubState("infection-pathway-explorer:setting", "");
+  const [population, setPopulation] = useHubState("infection-pathway-explorer:population", "");
   const [organismFilter] = useState(resolvedOrganism);
   const [antibioticFilter] = useState(resolvedAntibiotic);
   const [selectedId, setSelectedId] = useState(resolvedPathway || clinicalPathways.find((item) => resolvedOrganism ? item.pathogenGroups.some((group) => group.organisms.some((organism) => organism.organismId === resolvedOrganism)) : resolvedAntibiotic ? item.empiricRegimens.some((regimen) => regimen.components.some((component) => component.antibioticIds.includes(resolvedAntibiotic))) || item.targetedTherapies.some((therapy) => therapy.antibioticIds.includes(resolvedAntibiotic)) : false)?.id || clinicalPathways[0]?.id || "");

@@ -1,5 +1,7 @@
 "use client";
 
+import { useHubState } from "@/lib/use-hub-state";
+
 import Link from "next/link";
 import cytoscape, { type Core, type ElementDefinition } from "cytoscape";
 import {
@@ -375,19 +377,19 @@ export function InfectionRelationMap({
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useHubState("infection-relation-map:query", "");
   const deferredQuery = useDeferredValue(query);
-  const [site, setSite] = useState("");
-  const [pathogenGroup, setPathogenGroup] = useState("");
-  const [drugClass, setDrugClass] = useState("");
-  const [hideDiseaseAntibiotic, setHideDiseaseAntibiotic] = useState(false);
+  const [site, setSite] = useHubState("infection-relation-map:site", "");
+  const [pathogenGroup, setPathogenGroup] = useHubState("infection-relation-map:pathogenGroup", "");
+  const [drugClass, setDrugClass] = useHubState("infection-relation-map:drugClass", "");
+  const [hideDiseaseAntibiotic, setHideDiseaseAntibiotic] = useHubState("infection-relation-map:hideDiseaseAntibiotic", false);
   const [isMobile, setIsMobile] = useState(false);
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useHubState("infection-relation-map:collapsed", false);
   const [expandedGroups, setExpandedGroups] = useState<Set<string>>(
     () => new Set(),
   );
-  const [selectedId, setSelectedId] = useState("");
-  const [viewMode, setViewMode] = useState<"all" | "focus">("all");
+  const [selectedId, setSelectedId] = useHubState("infection-relation-map:selectedId", "");
+  const [viewMode, setViewMode] = useHubState<"all" | "focus">("infection-relation-map:viewMode", "all");
   const [fullScreen, setFullScreen] = useState(false);
   useEffect(() => {
     const media = window.matchMedia("(max-width: 767px)");
@@ -801,7 +803,7 @@ export function InfectionRelationMap({
       cy.destroy();
       if (cyRef.current === cy) cyRef.current = null;
     };
-  }, [graph.elements, isMobile]);
+  }, [graph.elements, isMobile, setSelectedId, setViewMode]);
   useEffect(() => {
     const cy = cyRef.current;
     if (!cy) return;

@@ -1,5 +1,7 @@
 "use client";
 
+import { useHubScroll, useHubState } from "@/lib/use-hub-state";
+
 import { useRouter, useSearchParams } from "next/navigation";
 import { Bug, BookOpenCheck, GraduationCap, Network, Pill } from "lucide-react";
 import { AntibioticOverview } from "@/components/antibiotic-overview";
@@ -21,6 +23,7 @@ export function InfectionHub({
   pathways: InfectionPathwayDataset;
   microbiology: MicrobiologyDataset;
 }) {
+  useHubScroll();
   const router = useRouter();
   const searchParams = useSearchParams();
   const requestedView = searchParams.get("view") ?? searchParams.get("tab");
@@ -29,9 +32,11 @@ export function InfectionHub({
     : requestedView === "map" || requestedView === "antibiotics" || requestedView === "quiz" || requestedView === "pathogens"
       ? requestedView
       : "map";
-  const tab = initialView;
+  const [savedTab, setSavedTab] = useHubState<HubTab>("infection-hub:tab", "map");
+  const tab = requestedView ? initialView : savedTab;
 
   const selectTab = (nextTab: HubTab) => {
+    setSavedTab(nextTab);
     const params = new URLSearchParams(searchParams.toString());
     params.set("view", nextTab);
     params.delete("tab");

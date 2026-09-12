@@ -1,5 +1,7 @@
 "use client";
 
+import { useHubState, useHubScroll } from "@/lib/use-hub-state";
+
 import Link from "next/link";
 import { BookOpen, BrainCircuit, ChevronRight, Expand, Focus, Info, Move, Route, Search, Stethoscope, X, ZoomIn, ZoomOut, RotateCcw } from "lucide-react";
 import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
@@ -26,23 +28,24 @@ function Breadcrumb({ view }: { view: ViewItem }) {
 }
 
 export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtlas; diseaseHrefs?: Record<string, string>; drugHrefs?: Record<string, string> }) {
-  const [tab, setTab] = useState<Tab>("atlas");
-  const [viewId, setViewId] = useState("whole-neuraxis");
-  const [selectedId, setSelectedId] = useState("");
-  const [pathwayId, setPathwayId] = useState("");
+  useHubScroll();
+  const [tab, setTab] = useHubState<Tab>("nervous-system-hub:tab", "atlas");
+  const [viewId, setViewId] = useHubState("nervous-system-hub:viewId", "whole-neuraxis");
+  const [selectedId, setSelectedId] = useHubState("nervous-system-hub:selectedId", "");
+  const [pathwayId, setPathwayId] = useHubState("nervous-system-hub:pathwayId", "");
   const [pathPlaying, setPathPlaying] = useState(false);
   const [pathSpeed, setPathSpeed] = useState(1);
   const [lesionOpen, setLesionOpen] = useState(false);
   const [pathwayStageIndex, setPathwayStageIndex] = useState<number>();
   const [hoveredId, setHoveredId] = useState<string>();
-  const [query, setQuery] = useState("");
-  const [noteQuery, setNoteQuery] = useState("");
-  const [noteKind, setNoteKind] = useState<"all" | NeuroNoteKind>("all");
+  const [query, setQuery] = useHubState("nervous-system-hub:query", "");
+  const [noteQuery, setNoteQuery] = useHubState("nervous-system-hub:noteQuery", "");
+  const [noteKind, setNoteKind] = useHubState<"all" | NeuroNoteKind>("nervous-system-hub:noteKind", "all");
   const [pickerOpen, setPickerOpen] = useState(false);
   const [fullScreen, setFullScreen] = useState(false);
   const [educationOpen, setEducationOpen] = useState(false);
-  const [zoom, setZoom] = useState(1);
-  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [zoom, setZoom] = useHubState("nervous-system-hub:zoom", 1);
+  const [pan, setPan] = useHubState("nervous-system-hub:pan", { x: 0, y: 0 });
   const drag = useRef<{ x: number; y: number; startX: number; startY: number } | undefined>(undefined);
   const atlasWheelRef = useRef<HTMLDivElement | null>(null);
 
@@ -65,16 +68,19 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   useEffect(() => {
     queueMicrotask(() => {
       const params = new URLSearchParams(window.location.search);
+      const hasSaved = (key: string) => {
+        try { return sessionStorage.getItem(`medicine-hub:v1:${window.location.pathname}:${window.location.search}:nervous-system-hub:${key}`) !== null; } catch { return false; }
+      };
       const requestedTab = params.get("tab");
-      if (requestedTab === "nex" || requestedTab === "notes" || requestedTab === "atlas") setTab(requestedTab);
+      if (!hasSaved("tab") && (requestedTab === "nex" || requestedTab === "notes" || requestedTab === "atlas")) setTab(requestedTab);
       const requestedView = params.get("view");
-      if (requestedView && views.some((item) => item.id === requestedView)) setViewId(requestedView);
+      if (!hasSaved("viewId") && requestedView && views.some((item) => item.id === requestedView)) setViewId(requestedView);
       const requestedPathway = params.get("pathway");
-      if (requestedPathway && atlas.pathways.some((item) => item.id === requestedPathway)) setPathwayId(requestedPathway);
+      if (!hasSaved("pathwayId") && requestedPathway && atlas.pathways.some((item) => item.id === requestedPathway)) setPathwayId(requestedPathway);
       const requestedStructure = params.get("structure");
-      if (requestedStructure && structures.some((item) => item.id === requestedStructure)) setSelectedId(requestedStructure);
+      if (!hasSaved("selectedId") && requestedStructure && structures.some((item) => item.id === requestedStructure)) setSelectedId(requestedStructure);
     });
-  }, [atlas.pathways, structures, views]);
+  }, [atlas.pathways, structures, views, setTab, setViewId, setPathwayId, setSelectedId]);
 
   useEffect(() => {
     const element = atlasWheelRef.current;
@@ -82,7 +88,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
     const onWheel = (event: WheelEvent) => { event.preventDefault(); setZoom((value) => Math.max(.75, Math.min(2.4, value + (event.deltaY < 0 ? .1 : -.1)))); };
     element.addEventListener("wheel", onWheel, { passive: false });
     return () => element.removeEventListener("wheel", onWheel);
-  }, [fullScreen]);
+  }, [fullScreen, setZoom]);
 
   const reset = () => { setZoom(1); setPan({ x: 0, y: 0 }); };
   const chooseView = (id: string) => { setPathPlaying(false); setLesionOpen(false); setViewId(id); setPathwayId(""); setPathwayStageIndex(undefined); reset(); setPickerOpen(false); };
@@ -106,7 +112,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
     if (!segment) return;
     const nextView = imageAtlasViewForStructure(segment.structureId);
     queueMicrotask(() => { setSelectedId(segment.structureId); if(nextView) setViewId(nextView); if(pathwayStageIndex === selectedPathway!.segments!.length-1) setPathPlaying(false); });
-  }, [pathPlaying, pathwayStageIndex, selectedPathway]);
+  }, [pathPlaying, pathwayStageIndex, selectedPathway, setSelectedId, setViewId]);
   const onAtlasPointerDown = (event: ReactPointerEvent<HTMLDivElement>) => { if ((event.target as Element).closest("[role=button],button")) return; drag.current = { x: pan.x, y: pan.y, startX: event.clientX, startY: event.clientY }; event.currentTarget.setPointerCapture(event.pointerId); };
   const onAtlasPointerMove = (event: ReactPointerEvent<HTMLDivElement>) => { if (drag.current) setPan({ x: drag.current.x + event.clientX - drag.current.startX, y: drag.current.y + event.clientY - drag.current.startY }); };
   const onAtlasPointerEnd = () => { drag.current = undefined; };
