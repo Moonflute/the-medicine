@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';
+// Preserve research sources locally; only omit these known unused monoliths
+// from the generated web distribution. Regional runtime files stay intact.
+export const sourceOnlyModels=['body-muscles.glb.gz','body-muscles-light.glb.gz','body-vessels.glb.gz','body-vessels-light.glb.gz','body-limb-vessels.glb.gz','body-limb-vessels-light.glb.gz','body-nerves.glb.gz','body-nerves-light.glb.gz'];
+export function omitSourceOnlyModels(){let outDir;return {name:'omit-source-only-anatomy',apply:'build',configResolved(config){outDir=path.resolve(config.root,config.build.outDir)},closeBundle(){const directory=path.join(outDir,'models','current');let bytes=0;for(const name of sourceOnlyModels){const target=path.resolve(directory,name);if(path.dirname(target)!==directory)throw Error('Unsafe generated asset path');if(fs.existsSync(target)){bytes+=fs.statSync(target).size;fs.unlinkSync(target);}}console.log('Excluded source-only anatomy assets:',bytes,'bytes');}};}

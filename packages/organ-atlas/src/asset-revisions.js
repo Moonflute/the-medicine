@@ -20,6 +20,154 @@ export const assetRevisions={
     "sha256": "84340c5b969d035bc0b7909992b6e2442c86f3256c86aeb3ca5d343c45852a3a",
     "bytes": 111556
   },
+  "./models/current/body-limb-vessels-light.glb.gz": {
+    "sha256": "f47e59ff62733ef00b5ce83d699d6704e81783d69f049502e9b77597cf20b22d",
+    "bytes": 14368122
+  },
+  "./models/current/body-limb-vessels-lower-limb-left-arteries.glb.gz": {
+    "sha256": "53eaf9bd294d95a0db3c524cc77901d0865108bddc9fc7c290b9e5cc8f61b27c",
+    "bytes": 1892085
+  },
+  "./models/current/body-limb-vessels-lower-limb-left-veins.glb.gz": {
+    "sha256": "a161d6be779f670e725ef4f42a7c8495f052966863514deb348673c32d3c0b68",
+    "bytes": 2350535
+  },
+  "./models/current/body-limb-vessels-lower-limb-right-arteries.glb.gz": {
+    "sha256": "8783d8fe933d799abc565430b21449d5f3869a5a382b165c78fb3d293810a40e",
+    "bytes": 1929399
+  },
+  "./models/current/body-limb-vessels-lower-limb-right-veins.glb.gz": {
+    "sha256": "84a64a7c07921ee580d7646213ec36f4f7281a857c75376e33ba97eed50e8989",
+    "bytes": 2354822
+  },
+  "./models/current/body-limb-vessels-upper-limb-left-arteries.glb.gz": {
+    "sha256": "b61a89b883253265d3a1e1236c2fb491b2df458e1f39ceb05118c2b6c0da1956",
+    "bytes": 1317699
+  },
+  "./models/current/body-limb-vessels-upper-limb-left-veins.glb.gz": {
+    "sha256": "dba28b6b500bf3410bd01c1c8cf5f0c409c6625673f0c8a6ba2ca49582df4940",
+    "bytes": 1486912
+  },
+  "./models/current/body-limb-vessels-upper-limb-right-arteries.glb.gz": {
+    "sha256": "cb0f9d2d8e69d027edca3038f546a57132424d9570dd7407d189f6013366a699",
+    "bytes": 1317730
+  },
+  "./models/current/body-limb-vessels-upper-limb-right-veins.glb.gz": {
+    "sha256": "96586c7a3e113b5db26e38b5bab36ff0e235b183fe54ce211de30a6dab6c3099",
+    "bytes": 1486702
+  },
+  "./models/current/body-limb-vessels.glb.gz": {
+    "sha256": "b8fd0f064a369d3a8e408086dc0bdd91b7b6a517f99a3b19b8b81415042e0577",
+    "bytes": 17442293
+  },
+  "./models/current/body-muscles-anterior-trunk-left.glb.gz": {
+    "sha256": "bdcf567b3919c23e182bb71ae19a9eecae06de00bc3b595451efe499d2bfebdd",
+    "bytes": 3792545
+  },
+  "./models/current/body-muscles-anterior-trunk-right.glb.gz": {
+    "sha256": "f302ab0b82b01b6a89e1867f43f46f1f22301b9aa63d5145782dcf9f873dc524",
+    "bytes": 3517177
+  },
+  "./models/current/body-muscles-anterior-trunk.glb.gz": {
+    "sha256": "726d7932ad94a408ba2793c6477968fa55fd36c6d26fe24c34445f6581633938",
+    "bytes": 33999
+  },
+  "./models/current/body-muscles-back-left.glb.gz": {
+    "sha256": "8fa6133ea8c3686933f56cb8e36d56949cc5c53b0dbddfb2235f7f9f977e4a99",
+    "bytes": 3168925
+  },
+  "./models/current/body-muscles-back-right.glb.gz": {
+    "sha256": "8cd176033cc4c733ce77dd6dc8c95c431f6a346935bf568c61338a42cc2aea3c",
+    "bytes": 3163158
+  },
+  "./models/current/body-muscles-chest-wall-left.glb.gz": {
+    "sha256": "e845b6d75bce1f6d93fb53b2e5bca89fda7993dce0dc1c3bfdf65994a9b958ae",
+    "bytes": 5334524
+  },
+  "./models/current/body-muscles-chest-wall-right.glb.gz": {
+    "sha256": "395c867cccf1db44d1813585f58401255278ff562d32db1b019b0f7576e325f9",
+    "bytes": 5324777
+  },
+  "./models/current/body-muscles-light.glb.gz": {
+    "sha256": "dff4e3bd3e7508e98a216d4f902a3c4e217ec26a74d69d609779cb08584c5114",
+    "bytes": 36223826
+  },
+  "./models/current/body-muscles-lower-limb-left.glb.gz": {
+    "sha256": "99f8ef9cb61c3076a3f321653c8a19fb1c822d06d3e38204283e811927d1b006",
+    "bytes": 3101516
+  },
+  "./models/current/body-muscles-lower-limb-right.glb.gz": {
+    "sha256": "e5c288c58bf0ad18cf1c9f6495f87401bf5abdf23b7b62bffc7f70853d573272",
+    "bytes": 3088194
+  },
+  "./models/current/body-muscles-neck.glb.gz": {
+    "sha256": "736f122a4ba08a4ff856352bd6d4adfba00fd321abb8252387d2e47965033b59",
+    "bytes": 2295655
+  },
+  "./models/current/body-muscles-upper-limb-left.glb.gz": {
+    "sha256": "3a3909d9183caf5efde52b70eb7a3b03fd37ed415afbc2419ae9508e484bba34",
+    "bytes": 1846331
+  },
+  "./models/current/body-muscles-upper-limb-right.glb.gz": {
+    "sha256": "ac775e9d1028a7d7f75fb99e17689951924d2dccf0d9df27724ceb2f8b3f159d",
+    "bytes": 1843124
+  },
+  "./models/current/body-muscles.glb.gz": {
+    "sha256": "f091c09a2c09a15893a6f1f4318fed2251eaf4b3c1dce69cb1a4776ce91fe6fb",
+    "bytes": 45499316
+  },
+  "./models/current/body-nerves-cervical-upper-left.glb.gz": {
+    "sha256": "0f04032115f9648e06f64e66535ec92dada1b5bff2b394e6679d7015fbf09bf2",
+    "bytes": 1123210
+  },
+  "./models/current/body-nerves-cranial-left.glb.gz": {
+    "sha256": "775fe5195ba2cb96006f3bc9ff2d45f02ea9864e0f59d444f79fdb891cc06473",
+    "bytes": 2562648
+  },
+  "./models/current/body-nerves-cranial-midline.glb.gz": {
+    "sha256": "57ae4e07afeb799b41ec75889656e6df8fbfce0e52c94f6473812b605259d515",
+    "bytes": 6885
+  },
+  "./models/current/body-nerves-cranial-right.glb.gz": {
+    "sha256": "73372137751f8c186d9c3f3167def26c4eb1ad18fea7ddf4406adc8223999524",
+    "bytes": 2076556
+  },
+  "./models/current/body-nerves-light.glb.gz": {
+    "sha256": "0a71605c4629bc18e906fd7db0ed8a119fb517444934f14cfc89542ed833d49e",
+    "bytes": 6458917
+  },
+  "./models/current/body-nerves-spinal-cord.glb.gz": {
+    "sha256": "57a85fb7466caeb4809d055287d2832fb400faab4e8eb90557f8949f25b0cf57",
+    "bytes": 208747
+  },
+  "./models/current/body-nerves.glb.gz": {
+    "sha256": "8c53faf92c258477baf423ba5b5db36793babc9c4e7264e28dc1deea81e375b9",
+    "bytes": 7828677
+  },
+  "./models/current/body-skeleton-light.glb.gz": {
+    "sha256": "cd7632142c8fdc766fda3659fabd9f092be6b800b60e042e5a2e6d51199577aa",
+    "bytes": 9565962
+  },
+  "./models/current/body-skeleton.glb.gz": {
+    "sha256": "a0a59a0172b67d8a6974994761d9c7fb8286a94e0b2fe6120e179f10465208e2",
+    "bytes": 11417860
+  },
+  "./models/current/body-vessels-central-arteries.glb.gz": {
+    "sha256": "51fbfa4bc2fc84cd7bf80c82494e702157a62e9a9adb7a3f3d1dec78f675fafc",
+    "bytes": 2646446
+  },
+  "./models/current/body-vessels-central-veins.glb.gz": {
+    "sha256": "8f74f3f12f153bdbe53b0a21e186ace2dbc908c35f36a11660efc386f34161f1",
+    "bytes": 3659304
+  },
+  "./models/current/body-vessels-light.glb.gz": {
+    "sha256": "34944fe3b6618e822ecbbf3d4f820da6fed458acfcdaced08bc46034a5969f50",
+    "bytes": 6447433
+  },
+  "./models/current/body-vessels.glb.gz": {
+    "sha256": "cba3b08a9029b299f8e5b4032dab496f1854e76feb514f295c8f56f481aed39f",
+    "bytes": 7751776
+  },
   "./models/current/brain-light.glb.gz": {
     "sha256": "64aa1d836491e9acdfae7afa92fabbd3412477efb0ef93cce83f30970ca66f02",
     "bytes": 8195418
@@ -295,5 +443,37 @@ export const assetRevisions={
   "./models/current/vasculature.glb.gz": {
     "sha256": "2fe29ecee8253d1d9584c608fc0d689d447bf1e0071179cc013201c889305ea9",
     "bytes": 6816522
+  },
+  "./models/current/z-lower-neural-l.glb.gz": {
+    "sha256": "bd809cbc09a2d03899047f67aec1b005ad1bfb2d000e34ae947b8ade8f4d517c",
+    "bytes": 807451
+  },
+  "./models/current/z-lower-neural-r.glb.gz": {
+    "sha256": "d2b67adf9e059b65fdaeac280fc9ad5070351ce0f9ad527c14e2bf3046e2fe50",
+    "bytes": 808768
+  },
+  "./models/current/z-whole-arteries-optimized.glb.gz": {
+    "sha256": "4fee06b4f7b206eff33308d756bc8c9a763188efbdfad75a5bfd349281ac466f",
+    "bytes": 17035531
+  },
+  "./models/current/z-whole-central-nerves-optimized.glb.gz": {
+    "sha256": "4396c67f59e49d66695504347836a04a66ac2a98f55d9b768e4aae1f1fd595f3",
+    "bytes": 10533156
+  },
+  "./models/current/z-whole-muscles-optimized.glb.gz": {
+    "sha256": "fb578e9a90d96592992c19a0fee8cdfd128edbfa3a41e0867d42e3ff2ac8d7cf",
+    "bytes": 21416609
+  },
+  "./models/current/z-whole-nerves-optimized.glb.gz": {
+    "sha256": "374e470db62e990671a2dbb518708fff7803824253696c43b0bd2ed80f6675d8",
+    "bytes": 12516999
+  },
+  "./models/current/z-whole-skeleton-optimized.glb.gz": {
+    "sha256": "bf87e05b1711e60a32871dd1eead35e9f91dff14825e1c7db086858ffa8b522b",
+    "bytes": 4633023
+  },
+  "./models/current/z-whole-veins-optimized.glb.gz": {
+    "sha256": "b3138bcc07314a7eed4ea5b669dab6ff0db3906d1a48e4400039dfeea8d98707",
+    "bytes": 10955711
   }
 };

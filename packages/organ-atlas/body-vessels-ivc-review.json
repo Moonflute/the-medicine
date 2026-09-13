@@ -1,0 +1,51 @@
+{
+  "source": "BodyParts3D 4.3",
+  "ids": [
+    "FJ3441",
+    "FJ3659"
+  ],
+  "hashes": [
+    "22cee979046d6ade5883a10e2eca4b08222403e7e1adf5802973a21ee6b44b97",
+    "e795b17885e03eb14174a527ebc0467b003fd1dc3e5b96c7a327e21b3dc4fe5b"
+  ],
+  "bounds": [
+    [
+      [
+        -26.825599670410156,
+        -126.53800201416016,
+        1094.93994140625
+      ],
+      [
+        -3.9695301055908203,
+        -103.552001953125,
+        1190.530029296875
+      ]
+    ],
+    [
+      [
+        -23.79599952697754,
+        -128.7899932861328,
+        950.8920288085938
+      ],
+      [
+        -2.058500051498413,
+        -105.58200073242188,
+        1095.030029296875
+      ]
+    ]
+  ],
+  "nearestVertexDistanceMm": 0.010000019999970904,
+  "nearestPointsMm": [
+    [
+      -7.5215,
+      -108.864,
+      1094.97
+    ],
+    [
+      -7.52148,
+      -108.864,
+      1094.96
+    ]
+  ],
+  "decision": "Keep both distinct source surfaces. Superior-inferior ranges meet near Z=1095 mm; not duplicate meshes. Seam watertightness and lumen continuity unproven."
+}

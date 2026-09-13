@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const manifest=JSON.parse(fs.readFileSync('static/models/current/z-whole-manifest.json'));
+const source=JSON.parse(fs.readFileSync('../../tmp/atlas-qa/z-anatomy-object-inventory.json'));
+const names=new Set(Object.values(manifest.identities).map(d=>d.sourceMesh)),sourceNames=new Set(source.objects.map(o=>o.name));
+const cranial=['Olfactory nerve (I)','Optic nerve (II)','Oculomotor nerve (III)','Trochlear nerve (IV)','Trigeminal nerve (V)','Abducens nerve (VI)','Facial nerve (VII)','Vestibulocochlear nerve (VIII)','Glossopharyngeal nerve (IX)','Vagus nerve (X)','Accessory nerve (XI)','Hypoglossal nerve (XII)'];
+const major=['Phrenic nerve','Axillary nerve','Musculocutaneous nerve','Median nerve','Ulnar nerve','Radial nerve','Femoral nerve','Obturator nerve','Sciatic nerve','Tibial nerve','Common fibular nerve','Superior gluteal nerve','Inferior gluteal nerve','Pudendal nerve'];
+const results=[...cranial,...major].flatMap(name=>['l','r'].map(side=>{const key=name+'.'+side;return {sourceName:key,loaded:names.has(key),exactNameInSource:sourceNames.has(key)};}));
+const groupedRoots=['Anterior root of spinal nerve.r','Anterior root of spinal nerve.l','Posterior root of spinal nerve.r','Posterior root of spinal nerve.l'].map(name=>({name,loaded:names.has(name),levelSpecific:false}));
+const report={method:'Exact source-name coverage only. Absence here means a separately named surface was not found, not proof that no corresponding fibers exist inside another source mesh. No inferred nerve names or generated geometry.',results,groupedRoots,missing:results.filter(r=>!r.loaded),references:['https://www.ncbi.nlm.nih.gov/books/NBK513325/','https://www.ncbi.nlm.nih.gov/books/NBK532884/']};
+fs.writeFileSync('../../tmp/atlas-qa/z-neural-coverage-screen.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify({checked:results.length,loaded:results.filter(r=>r.loaded).length,missing:report.missing,groupedRoots}));

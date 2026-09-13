@@ -148,3 +148,5 @@ export const lightModels={
     "triangles": 109720
   }
 };
+
+lightModels.skeleton={url:'./models/current/body-skeleton-light.glb.gz'};

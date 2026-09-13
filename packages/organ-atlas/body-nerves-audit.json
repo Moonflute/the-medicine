@@ -1,0 +1,5531 @@
+{
+  "source": "BodyParts3D 4.3",
+  "scope": "Candidate source nerves and spinal cord; coverage and course under review; not complete nervous system",
+  "meshes": 240,
+  "triangles": 403100,
+  "gzipBytes": 7828677,
+  "sourcePositionsPreserved": true,
+  "sourceTransformsPreserved": true,
+  "records": [
+    {
+      "file": "FJ1283_BP21112_FMA52677_Left anterior ethmoidal nerve.obj",
+      "fj": "FJ1283",
+      "fma": "FMA52677",
+      "name": "Left anterior ethmoidal nerve",
+      "bytes": 17753,
+      "sha256": "67787b3f203606aae0951bd0730ab9c564add92031215c73c885602346748c37",
+      "partId": "FJ1283_Left_anterior_ethmoidal_nerve",
+      "vertices": 870,
+      "triangles": 290,
+      "bounds": [
+        [
+          8.000100135803223,
+          -144.45599365234375,
+          1527.1400146484375
+        ],
+        [
+          15.725600242614746,
+          -140.06399536132812,
+          1528.5999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ1288_BP21701_FMA53550_Left ciliary ganglion.obj",
+      "fj": "FJ1288",
+      "fma": "FMA53550",
+      "name": "Left ciliary ganglion",
+      "bytes": 9970,
+      "sha256": "432ee96446dcb2a9de34ba3b2831954a46d90552b1dfea522ff44599996b06de",
+      "partId": "FJ1288_Left_ciliary_ganglion",
+      "vertices": 540,
+      "triangles": 180,
+      "bounds": [
+        [
+          22.49810028076172,
+          -134.0279998779297,
+          1523.949951171875
+        ],
+        [
+          25.71929931640625,
+          -130.80999755859375,
+          1526.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1290_BP20367_FMA52640_Left frontal nerve.obj",
+      "fj": "FJ1290",
+      "fma": "FMA52640",
+      "name": "Left frontal nerve",
+      "bytes": 73464,
+      "sha256": "0c45545eea949cbece54d47d8796c7a56e259ed72753d6a236eb002d54326ba9",
+      "partId": "FJ1290_Left_frontal_nerve",
+      "vertices": 3774,
+      "triangles": 1258,
+      "bounds": [
+        [
+          19.19099998474121,
+          -141.94900512695312,
+          1528.4599609375
+        ],
+        [
+          24.577899932861328,
+          -120.30500030517578,
+          1540.2900390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1293_BP20304_FMA52577_Inferior branch of left oculomotor nerve.obj",
+      "fj": "FJ1293",
+      "fma": "FMA52577",
+      "name": "Inferior branch of left oculomotor nerve",
+      "bytes": 124949,
+      "sha256": "58c75a4b8dc830e1e08ca1a2541fc78c9465e1f3a1f6e606f575c3f7c0d2c8e0",
+      "partId": "FJ1293_Inferior_branch_of_left_oculomotor_nerve",
+      "vertices": 4962,
+      "triangles": 1654,
+      "bounds": [
+        [
+          13.15999984741211,
+          -150.0749969482422,
+          1505.800048828125
+        ],
+        [
+          37.74150085449219,
+          -114.20800018310547,
+          1531.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1296_BP22715_FMA52699_Left infratrochlear nerve.obj",
+      "fj": "FJ1296",
+      "fma": "FMA52699",
+      "name": "Left infratrochlear nerve",
+      "bytes": 14611,
+      "sha256": "6e7c88c6571279f9a85350a927238522ec3c12be9babe3aef5b72f910712038c",
+      "partId": "FJ1296_Left_infratrochlear_nerve",
+      "vertices": 750,
+      "triangles": 250,
+      "bounds": [
+        [
+          7.021349906921387,
+          -173.54100036621094,
+          1520.699951171875
+        ],
+        [
+          10.56879997253418,
+          -168.38400268554688,
+          1530.3299560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ1300_BP20380_FMA52630_Left lacrimal nerve.obj",
+      "fj": "FJ1300",
+      "fma": "FMA52630",
+      "name": "Left lacrimal nerve",
+      "bytes": 116432,
+      "sha256": "e1ab2bdb523216ed8e01ed33d0d7e6c5381da37b47acb3ea8bab0fea53b0aa6d",
+      "partId": "FJ1300_Left_lacrimal_nerve",
+      "vertices": 5832,
+      "triangles": 1944,
+      "bounds": [
+        [
+          19.480100631713867,
+          -155.97000122070312,
+          1526.9599609375
+        ],
+        [
+          42.823299407958984,
+          -120.50700378417969,
+          1534.800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1310_BP20818_FMA52670_Left nasociliary nerve.obj",
+      "fj": "FJ1310",
+      "fma": "FMA52670",
+      "name": "Left nasociliary nerve",
+      "bytes": 53525,
+      "sha256": "89140daaa6b03a4bbee401ef8fe462fabd7b7bf35cf291f2ac1f16418366085d",
+      "partId": "FJ1310_Left_nasociliary_nerve",
+      "vertices": 2502,
+      "triangles": 834,
+      "bounds": [
+        [
+          1.6303999423980713,
+          -185.43299865722656,
+          1515.02001953125
+        ],
+        [
+          19.426000595092773,
+          -110.70500183105469,
+          1530.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1311_BP21151_FMA52674_Communicating branch of left nasociliary nerve with left ciliary ganglion.obj",
+      "fj": "FJ1311",
+      "fma": "FMA52674",
+      "name": "Communicating branch of left nasociliary nerve with left ciliary ganglion",
+      "bytes": 15670,
+      "sha256": "2a40b3d1a21a069b1709eb6faba251170bcf71d4d64c0f033925ef37dca30ba7",
+      "partId": "FJ1311_Communicating_branch_of_left_nasociliary_nerve_with_left_ciliary_ganglion",
+      "vertices": 690,
+      "triangles": 230,
+      "bounds": [
+        [
+          16.379100799560547,
+          -132.2050018310547,
+          1524.9200439453125
+        ],
+        [
+          24.685400009155273,
+          -125.93099975585938,
+          1529.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ1315_BP21490_FMA52716_Left posterior ethmoidal nerve.obj",
+      "fj": "FJ1315",
+      "fma": "FMA52716",
+      "name": "Left posterior ethmoidal nerve",
+      "bytes": 14669,
+      "sha256": "9d01a286a4cf3e09dd116f39718c6d54db6a04f2e219208b080496c32983ed3e",
+      "partId": "FJ1315_Left_posterior_ethmoidal_nerve",
+      "vertices": 666,
+      "triangles": 222,
+      "bounds": [
+        [
+          8.315449714660645,
+          -135.2530059814453,
+          1526.8699951171875
+        ],
+        [
+          16.0762996673584,
+          -132.66600036621094,
+          1528.719970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1318_BP22719_FMA82735_Left long ciliary nerve.obj",
+      "fj": "FJ1318",
+      "fma": "FMA82735",
+      "name": "Left long ciliary nerve",
+      "bytes": 19777,
+      "sha256": "788fe917211d7a7941ca85cfdfed40ef188cc989a67ff484835771991a652084",
+      "partId": "FJ1318_Left_long_ciliary_nerve",
+      "vertices": 882,
+      "triangles": 294,
+      "bounds": [
+        [
+          15.602999687194824,
+          -147.52499389648438,
+          1521.300048828125
+        ],
+        [
+          27.534700393676758,
+          -131.7519989013672,
+          1527.6600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ1319_BP21577_FMA7041_Short ciliary nerve.obj",
+      "fj": "FJ1319",
+      "fma": "FMA7041",
+      "name": "Short ciliary nerve",
+      "bytes": 44106,
+      "sha256": "a8e791670bb33b48556ab4be1c9db53b578f6903b3f5adccea8d54c8d2ade986",
+      "partId": "FJ1319_Short_ciliary_nerve",
+      "vertices": 1806,
+      "triangles": 602,
+      "bounds": [
+        [
+          23.125699996948242,
+          -147.05999755859375,
+          1521.5899658203125
+        ],
+        [
+          32.20859909057617,
+          -131.74899291992188,
+          1525.760009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1321_BP20060_FMA52575_Superior branch of left oculomotor nerve.obj",
+      "fj": "FJ1321",
+      "fma": "FMA52575",
+      "name": "Superior branch of left oculomotor nerve",
+      "bytes": 58952,
+      "sha256": "59ed7d0296824709819f76700f92ff2a22591b21ba6cbb9279e154f8273f6454",
+      "partId": "FJ1321_Superior_branch_of_left_oculomotor_nerve",
+      "vertices": 2430,
+      "triangles": 810,
+      "bounds": [
+        [
+          15.94279956817627,
+          -146.3800048828125,
+          1525.68994140625
+        ],
+        [
+          28.355499267578125,
+          -120.29100036621094,
+          1535.3399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1326_BP21030_FMA52644_Left supratrochlear nerve.obj",
+      "fj": "FJ1326",
+      "fma": "FMA52644",
+      "name": "Left supratrochlear nerve",
+      "bytes": 143270,
+      "sha256": "4caf13f73efb446866276e858688127f478520ab0f751204c957d714a0f23cbe",
+      "partId": "FJ1326_Left_supratrochlear_nerve",
+      "vertices": 7074,
+      "triangles": 2358,
+      "bounds": [
+        [
+          1.3065600395202637,
+          -177.9770050048828,
+          1531.06005859375
+        ],
+        [
+          24.49169921875,
+          -140.58599853515625,
+          1551.2099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ1333_BP23799_FMA52676_Right anterior ethmoidal nerve.obj",
+      "fj": "FJ1333",
+      "fma": "FMA52676",
+      "name": "Right anterior ethmoidal nerve",
+      "bytes": 15371,
+      "sha256": "5dd34b3b475f0ea61407dbdb907971751ee62ccb157494b813f52a10e60d63f9",
+      "partId": "FJ1333_Right_anterior_ethmoidal_nerve",
+      "vertices": 708,
+      "triangles": 236,
+      "bounds": [
+        [
+          -17.04010009765625,
+          -144.43499755859375,
+          1527.1099853515625
+        ],
+        [
+          -9.300439834594727,
+          -140.0800018310547,
+          1528.5899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1339_BP21634_FMA53549_Right ciliary ganglion.obj",
+      "fj": "FJ1339",
+      "fma": "FMA53549",
+      "name": "Right ciliary ganglion",
+      "bytes": 13784,
+      "sha256": "42a668215c91fdba490470ba7d15ccbddc85236907928dfcd9471b5117411bcb",
+      "partId": "FJ1339_Right_ciliary_ganglion",
+      "vertices": 738,
+      "triangles": 246,
+      "bounds": [
+        [
+          -27.039100646972656,
+          -134.05799865722656,
+          1523.9599609375
+        ],
+        [
+          -23.79520034790039,
+          -130.7989959716797,
+          1526.530029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ1341_BP20449_FMA52639_Right frontal nerve.obj",
+      "fj": "FJ1341",
+      "fma": "FMA52639",
+      "name": "Right frontal nerve",
+      "bytes": 74093,
+      "sha256": "56128f160e6543ec506cd6c7de72270401ab5eb607ffb65faaa4f58ddf7427f6",
+      "partId": "FJ1341_Right_frontal_nerve",
+      "vertices": 3774,
+      "triangles": 1258,
+      "bounds": [
+        [
+          -25.887300491333008,
+          -141.95599365234375,
+          1528.4599609375
+        ],
+        [
+          -20.503000259399414,
+          -120.30599975585938,
+          1540.2900390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1344_BP20231_FMA52576_Inferior branch of right oculomotor nerve.obj",
+      "fj": "FJ1344",
+      "fma": "FMA52576",
+      "name": "Inferior branch of right oculomotor nerve",
+      "bytes": 117079,
+      "sha256": "af74c8934f5869a460cd6f75c90245538377e013fae3d87a406094f4cfdd4977",
+      "partId": "FJ1344_Inferior_branch_of_right_oculomotor_nerve",
+      "vertices": 4710,
+      "triangles": 1570,
+      "bounds": [
+        [
+          -39.05619812011719,
+          -150.07899475097656,
+          1505.7900390625
+        ],
+        [
+          -14.42959976196289,
+          -114.21099853515625,
+          1531.02001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1347_BP21130_FMA52698_Right infratrochlear nerve.obj",
+      "fj": "FJ1347",
+      "fma": "FMA52698",
+      "name": "Right infratrochlear nerve",
+      "bytes": 16528,
+      "sha256": "5ffd8cdad24b4da31cf5b393b3edae27977aa8307b8fc484fc1aed292f3d1109",
+      "partId": "FJ1347_Right_infratrochlear_nerve",
+      "vertices": 750,
+      "triangles": 250,
+      "bounds": [
+        [
+          -11.885299682617188,
+          -173.55499267578125,
+          1520.719970703125
+        ],
+        [
+          -8.312820434570312,
+          -168.37899780273438,
+          1530.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1351_BP20357_FMA52629_Right lacrimal nerve.obj",
+      "fj": "FJ1351",
+      "fma": "FMA52629",
+      "name": "Right lacrimal nerve",
+      "bytes": 119484,
+      "sha256": "8c2f0846eb61cdb7be90b2ac73b7dbff7344ff8cfb8c3c0fc3765e602e04e720",
+      "partId": "FJ1351_Right_lacrimal_nerve",
+      "vertices": 5874,
+      "triangles": 1958,
+      "bounds": [
+        [
+          -44.130401611328125,
+          -155.9759979248047,
+          1526.969970703125
+        ],
+        [
+          -20.790300369262695,
+          -120.50700378417969,
+          1534.81005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ1361_BP21045_FMA52669_Right nasociliary nerve.obj",
+      "fj": "FJ1361",
+      "fma": "FMA52669",
+      "name": "Right nasociliary nerve",
+      "bytes": 52850,
+      "sha256": "8d808989bd1057066f2072ba8d8f41fee675f6d997bcb94959cbbab9b9d5c1ae",
+      "partId": "FJ1361_Right_nasociliary_nerve",
+      "vertices": 2358,
+      "triangles": 786,
+      "bounds": [
+        [
+          -20.746599197387695,
+          -185.4759979248047,
+          1515.02001953125
+        ],
+        [
+          -2.9293999671936035,
+          -110.70099639892578,
+          1530.52001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1362_BP21146_FMA52673_Communicating branch of right nasociliary nerve with right ciliary ganglion.obj",
+      "fj": "FJ1362",
+      "fma": "FMA52673",
+      "name": "Communicating branch of right nasociliary nerve with right ciliary ganglion",
+      "bytes": 17201,
+      "sha256": "3443e1f1695b28c90a6a026285e4b72219046522a8d24ab8539134acf04f615d",
+      "partId": "FJ1362_Communicating_branch_of_right_nasociliary_nerve_with_right_ciliary_ganglion",
+      "vertices": 720,
+      "triangles": 240,
+      "bounds": [
+        [
+          -26.000699996948242,
+          -132.23599243164062,
+          1524.9300537109375
+        ],
+        [
+          -17.691600799560547,
+          -125.87899780273438,
+          1529.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ1363_BP20226_FMA52622_Right ophthalmic nerve.obj",
+      "fj": "FJ1363",
+      "fma": "FMA52622",
+      "name": "Right ophthalmic nerve",
+      "bytes": 104937,
+      "sha256": "41c3030b9fdb8194c045f10547b8170313b5235455f027080c34661221f17d05",
+      "partId": "FJ1363_Right_ophthalmic_nerve",
+      "vertices": 5328,
+      "triangles": 1776,
+      "bounds": [
+        [
+          -22.371299743652344,
+          -121.8239974975586,
+          1521.4200439453125
+        ],
+        [
+          -17.742700576782227,
+          -94.48999786376953,
+          1529.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ1366_BP21144_FMA52715_Right posterior ethmoidal nerve.obj",
+      "fj": "FJ1366",
+      "fma": "FMA52715",
+      "name": "Right posterior ethmoidal nerve",
+      "bytes": 13598,
+      "sha256": "7a9de164f25ace03253e74596462df8ae10431b13b2a9afc921d7d0b40e2c0ae",
+      "partId": "FJ1366_Right_posterior_ethmoidal_nerve",
+      "vertices": 600,
+      "triangles": 200,
+      "bounds": [
+        [
+          -17.372699737548828,
+          -135.27999877929688,
+          1526.8699951171875
+        ],
+        [
+          -9.612279891967773,
+          -132.6510009765625,
+          1528.719970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1369_BP22010_FMA82734_Right long ciliary nerve.obj",
+      "fj": "FJ1369",
+      "fma": "FMA82734",
+      "name": "Right long ciliary nerve",
+      "bytes": 21635,
+      "sha256": "515e22d0a6dd05db3f5fa3c8470a1d5c20be3002adf906ff6479257f8b2cd467",
+      "partId": "FJ1369_Right_long_ciliary_nerve",
+      "vertices": 996,
+      "triangles": 332,
+      "bounds": [
+        [
+          -28.853099822998047,
+          -147.531005859375,
+          1521.2900390625
+        ],
+        [
+          -16.875499725341797,
+          -131.76600646972656,
+          1527.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1370_BP21577_FMA7041_Short ciliary nerve.obj",
+      "fj": "FJ1370",
+      "fma": "FMA7041",
+      "name": "Short ciliary nerve",
+      "bytes": 46501,
+      "sha256": "96130f6c93626635aee66faf1ba02290e0eebe17d444513b1730d722435c84f3",
+      "partId": "FJ1370_Short_ciliary_nerve",
+      "vertices": 1914,
+      "triangles": 638,
+      "bounds": [
+        [
+          -33.50659942626953,
+          -147.05999755859375,
+          1521.5899658203125
+        ],
+        [
+          -24.433700561523438,
+          -131.75599670410156,
+          1525.780029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ1372_BP20049_FMA52574_Superior branch of right oculomotor nerve.obj",
+      "fj": "FJ1372",
+      "fma": "FMA52574",
+      "name": "Superior branch of right oculomotor nerve",
+      "bytes": 59902,
+      "sha256": "bbcb64ae69d4b9af6330e791f73ec49a2b1f591b571178163dad8c984eca3700",
+      "partId": "FJ1372_Superior_branch_of_right_oculomotor_nerve",
+      "vertices": 2544,
+      "triangles": 848,
+      "bounds": [
+        [
+          -29.670499801635742,
+          -146.38699340820312,
+          1525.6800537109375
+        ],
+        [
+          -17.222900390625,
+          -120.28500366210938,
+          1535.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ1376_BP22693_FMA52656_Right supra-orbital nerve.obj",
+      "fj": "FJ1376",
+      "fma": "FMA52656",
+      "name": "Right supra-orbital nerve",
+      "bytes": 159628,
+      "sha256": "4411fa536d5be6c4cff3939bc305f431ff46e84c81249de111b3bff2ae2d5f7e",
+      "partId": "FJ1376_Right_supra-orbital_nerve",
+      "vertices": 7794,
+      "triangles": 2598,
+      "bounds": [
+        [
+          -31.039899826049805,
+          -175.82200622558594,
+          1538.9300537109375
+        ],
+        [
+          -23.901899337768555,
+          -140.58799743652344,
+          1560.550048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1377_BP22708_FMA52643_Right supratrochlear nerve.obj",
+      "fj": "FJ1377",
+      "fma": "FMA52643",
+      "name": "Right supratrochlear nerve",
+      "bytes": 144593,
+      "sha256": "7aca984a6a7ee75af713a0b7946e52eb2bbb363f9e1a321870418a1a77542b15",
+      "partId": "FJ1377_Right_supratrochlear_nerve",
+      "vertices": 7074,
+      "triangles": 2358,
+      "bounds": [
+        [
+          -25.80030059814453,
+          -177.9770050048828,
+          1531.050048828125
+        ],
+        [
+          -2.6176600456237793,
+          -140.57400512695312,
+          1551.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ1381_BP23210_FMA50881_Right trochlear nerve.obj",
+      "fj": "FJ1381",
+      "fma": "FMA50881",
+      "name": "Right trochlear nerve",
+      "bytes": 169563,
+      "sha256": "4bc7adf0fb6d00ffc565ff4d71e54f2e2d59a5ecb23e225bc20b60a050544b96",
+      "partId": "FJ1381_Right_trochlear_nerve",
+      "vertices": 8274,
+      "triangles": 2758,
+      "bounds": [
+        [
+          -20.756900787353516,
+          -150.83599853515625,
+          1522.1099853515625
+        ],
+        [
+          -11.631600379943848,
+          -71.68879699707031,
+          1533.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ1737_BP21401_FMA78497_Central canal of spinal cord.obj",
+      "fj": "FJ1737",
+      "fma": "FMA78497",
+      "name": "Central canal of spinal cord",
+      "bytes": 46544,
+      "sha256": "eacfd3749020d68189afe623f850f937a9b6d1d8860c4ba72fcb8be087988c44",
+      "partId": "FJ1737_Central_canal_of_spinal_cord",
+      "vertices": 2184,
+      "triangles": 728,
+      "bounds": [
+        [
+          -1.7627500295639038,
+          -64.99620056152344,
+          1458.5999755859375
+        ],
+        [
+          0.4565410017967224,
+          -51.86539840698242,
+          1494.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3891_BP29534_FMA50886_Right abducens nerve.obj",
+      "fj": "FJ3891",
+      "fma": "FMA50886",
+      "name": "Right abducens nerve",
+      "bytes": 75374,
+      "sha256": "2447bdf59125a20d8d4285a48e70d623248c5591aa5ba3d024158d033124223c",
+      "partId": "FJ3891_Right_abducens_nerve",
+      "vertices": 3270,
+      "triangles": 1090,
+      "bounds": [
+        [
+          -35.624900817871094,
+          -140.08599853515625,
+          1502.18994140625
+        ],
+        [
+          -4.1662797927856445,
+          -83.30829620361328,
+          1528.3399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3892_BP29071_FMA52941_Right anterior superior alveolar nerve.obj",
+      "fj": "FJ3892",
+      "fma": "FMA52941",
+      "name": "Right anterior superior alveolar nerve",
+      "bytes": 102300,
+      "sha256": "576e6451f91fd44c6ce28fdfd5986eb6bd6ee7c15f09f52ed95d411d55d5a292",
+      "partId": "FJ3892_Right_anterior_superior_alveolar_nerve",
+      "vertices": 4614,
+      "triangles": 1538,
+      "bounds": [
+        [
+          -30.360000610351562,
+          -175.29600524902344,
+          1466.5899658203125
+        ],
+        [
+          -4.498419761657715,
+          -153.0050048828125,
+          1499.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3893_BP29166_FMA80540_Trunk of right auriculotemporal nerve.obj",
+      "fj": "FJ3893",
+      "fma": "FMA80540",
+      "name": "Trunk of right auriculotemporal nerve",
+      "bytes": 242145,
+      "sha256": "1a2820984531bce032339479d2206e1908f3512a7f40ad18b255f68324d9a36a",
+      "partId": "FJ3893_Trunk_of_right_auriculotemporal_nerve",
+      "vertices": 11658,
+      "triangles": 3886,
+      "bounds": [
+        [
+          -72.62680053710938,
+          -107.40399932861328,
+          1485.8900146484375
+        ],
+        [
+          -34.149200439453125,
+          -87.997802734375,
+          1565.699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3894_BP29543_FMA50890_Right vestibulocochlear nerve.obj",
+      "fj": "FJ3894",
+      "fma": "FMA50890",
+      "name": "Right vestibulocochlear nerve",
+      "bytes": 98735,
+      "sha256": "6be6de736fcf27c481890f605f1cc5e2211547b2a993a51a2922cf622d0c739e",
+      "partId": "FJ3894_Right_vestibulocochlear_nerve",
+      "vertices": 5016,
+      "triangles": 1672,
+      "bounds": [
+        [
+          -45.57809829711914,
+          -87.82420349121094,
+          1501.4200439453125
+        ],
+        [
+          -11.652400016784668,
+          -71.01290130615234,
+          1504.8800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3895_BP29121_FMA53072_Branch of right mandibular nerve to right otic ganglion.obj",
+      "fj": "FJ3895",
+      "fma": "FMA53072",
+      "name": "Branch of right mandibular nerve to right otic ganglion",
+      "bytes": 32903,
+      "sha256": "5aa2232cae8754776772af3cc5db0de7e23cea66ed7420e1f6120b57e4d82f88",
+      "partId": "FJ3895_Branch_of_right_mandibular_nerve_to_right_otic_ganglion",
+      "vertices": 1494,
+      "triangles": 498,
+      "bounds": [
+        [
+          -40.30440139770508,
+          -110.7750015258789,
+          1488.6300048828125
+        ],
+        [
+          -34.502601623535156,
+          -106.76300048828125,
+          1498.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3896_BP29352_FMA53311_Buccal branch of right facial nerve.obj",
+      "fj": "FJ3896",
+      "fma": "FMA53311",
+      "name": "Buccal branch of right facial nerve",
+      "bytes": 263995,
+      "sha256": "76e5894cb39a6dae74745dd8cd05038f34a10d4ab5d897b5172f9b11a3476950",
+      "partId": "FJ3896_Buccal_branch_of_right_facial_nerve",
+      "vertices": 12540,
+      "triangles": 4180,
+      "bounds": [
+        [
+          -52.46609878540039,
+          -166.34100341796875,
+          1445.18994140625
+        ],
+        [
+          -25.210100173950195,
+          -86.93070220947266,
+          1477.6800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3897_BP29111_FMA53067_Right buccal nerve.obj",
+      "fj": "FJ3897",
+      "fma": "FMA53067",
+      "name": "Right buccal nerve",
+      "bytes": 118744,
+      "sha256": "2f5b9de8f0879b7b6dcd72d759ed98d079637c4c31dce3bb5bf0388b9efc19c5",
+      "partId": "FJ3897_Right_buccal_nerve",
+      "vertices": 5862,
+      "triangles": 1954,
+      "bounds": [
+        [
+          -47.767799377441406,
+          -153.69400024414062,
+          1456.8599853515625
+        ],
+        [
+          -29.799400329589844,
+          -107.23999786376953,
+          1497.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3898_BP29302_FMA53398_Cervical branch of right facial nerve.obj",
+      "fj": "FJ3898",
+      "fma": "FMA53398",
+      "name": "Cervical branch of right facial nerve",
+      "bytes": 177935,
+      "sha256": "37fc40c0f053ffe99538b456b443edc94832c7d86af9da83a80e00d088e121b0",
+      "partId": "FJ3898_Cervical_branch_of_right_facial_nerve",
+      "vertices": 8520,
+      "triangles": 2840,
+      "bounds": [
+        [
+          -47.771400451660156,
+          -119.29000091552734,
+          1385.1199951171875
+        ],
+        [
+          -20.599700927734375,
+          -103.69400024414062,
+          1446.1300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3899_BP29410_FMA65421_Trunk of right facial nerve.obj",
+      "fj": "FJ3899",
+      "fma": "FMA65421",
+      "name": "Trunk of right facial nerve",
+      "bytes": 293679,
+      "sha256": "b9a13f88f9282463941529d7b081e5885fa650071b17b8dfc4fde0bec675b600",
+      "partId": "FJ3899_Trunk_of_right_facial_nerve",
+      "vertices": 14016,
+      "triangles": 4672,
+      "bounds": [
+        [
+          -52.45640182495117,
+          -104.74400329589844,
+          1445
+        ],
+        [
+          -11.411600112915039,
+          -68.56610107421875,
+          1504.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3900_BP29182_FMA52732_Ganglionic branch of right maxillary nerve to right pterygopalatine ganglion.obj",
+      "fj": "FJ3900",
+      "fma": "FMA52732",
+      "name": "Ganglionic branch of right maxillary nerve to right pterygopalatine ganglion",
+      "bytes": 18638,
+      "sha256": "9bc93141b7f89ddca2e4150db2a070204b966dde7d8a96b627c8c3e3519583e3",
+      "partId": "FJ3900_Ganglionic_branch_of_right_maxillary_nerve_to_right_pterygopalatine_ganglion",
+      "vertices": 948,
+      "triangles": 316,
+      "bounds": [
+        [
+          -21.357900619506836,
+          -128.3350067138672,
+          1503.449951171875
+        ],
+        [
+          -19.808300018310547,
+          -125.64099884033203,
+          1517.02001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3901_BP29500_FMA50894_Left glossopharyngeal nerve.obj",
+      "fj": "FJ3901",
+      "fma": "FMA50894",
+      "name": "Left glossopharyngeal nerve",
+      "bytes": 450504,
+      "sha256": "75b6042e1038a077c1c26e4158cc51930a4fa61749603a07f2d8131882f83d8c",
+      "partId": "FJ3901_Left_glossopharyngeal_nerve",
+      "vertices": 20778,
+      "triangles": 6926,
+      "bounds": [
+        [
+          -37.510101318359375,
+          -126.76899719238281,
+          1396.4200439453125
+        ],
+        [
+          -9.126660346984863,
+          -68.44529724121094,
+          1501.760009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3902_BP29212_FMA52803_Right greater palatine nerve.obj",
+      "fj": "FJ3902",
+      "fma": "FMA52803",
+      "name": "Right greater palatine nerve",
+      "bytes": 79995,
+      "sha256": "de6bcfc880cc87de8e945898dc882298db5b7307ddb723115461c68a10defd23",
+      "partId": "FJ3902_Right_greater_palatine_nerve",
+      "vertices": 3264,
+      "triangles": 1088,
+      "bounds": [
+        [
+          -21.383399963378906,
+          -165.60899353027344,
+          1465.9300537109375
+        ],
+        [
+          -14.91409969329834,
+          -127.9739990234375,
+          1501.3800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3903_BP29069_FMA80518_Trunk of right inferior alveolar nerve.obj",
+      "fj": "FJ3903",
+      "fma": "FMA80518",
+      "name": "Trunk of right inferior alveolar nerve",
+      "bytes": 151847,
+      "sha256": "2eab9520e09631b4d0b618204dfdf480f07a29f5d1c4954c3bfe72fcda5b3aa3",
+      "partId": "FJ3903_Trunk_of_right_inferior_alveolar_nerve",
+      "vertices": 7530,
+      "triangles": 2510,
+      "bounds": [
+        [
+          -39.7322998046875,
+          -157.9949951171875,
+          1435.8499755859375
+        ],
+        [
+          -22.282499313354492,
+          -110.99600219726562,
+          1482.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3904_BP29004_FMA52990_External nasal branch of right infra-orbital nerve.obj",
+      "fj": "FJ3904",
+      "fma": "FMA52990",
+      "name": "External nasal branch of right infra-orbital nerve",
+      "bytes": 59758,
+      "sha256": "e773015fb08f3ae4fabf90ef8b119bace9d51b3301f8b9c5a3e0adc1061c3df2",
+      "partId": "FJ3904_External_nasal_branch_of_right_infra-orbital_nerve",
+      "vertices": 3036,
+      "triangles": 1012,
+      "bounds": [
+        [
+          -27.029800415039062,
+          -177.50100708007812,
+          1486.8399658203125
+        ],
+        [
+          -9.445429801940918,
+          -164.37399291992188,
+          1517.31005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3905_BP29078_FMA52987_Inferior palpebral branch of right infra-orbital nerve.obj",
+      "fj": "FJ3905",
+      "fma": "FMA52987",
+      "name": "Inferior palpebral branch of right infra-orbital nerve",
+      "bytes": 39607,
+      "sha256": "4d29986fb84661bbf84138255713e5cafdf22c02a500fefc3ef5d25924fc29d8",
+      "partId": "FJ3905_Inferior_palpebral_branch_of_right_infra-orbital_nerve",
+      "vertices": 1794,
+      "triangles": 598,
+      "bounds": [
+        [
+          -27.952499389648438,
+          -170.23300170898438,
+          1487.0400390625
+        ],
+        [
+          -23.74220085144043,
+          -164.38499450683594,
+          1502.8699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3906_BP29087_FMA52992_Internal nasal branch of right infra-orbital nerve.obj",
+      "fj": "FJ3906",
+      "fma": "FMA52992",
+      "name": "Internal nasal branch of right infra-orbital nerve",
+      "bytes": 28544,
+      "sha256": "dadcf34f56238965d6220b02b437034a59c4a237c31baa48889e4682e0604296",
+      "partId": "FJ3906_Internal_nasal_branch_of_right_infra-orbital_nerve",
+      "vertices": 1440,
+      "triangles": 480,
+      "bounds": [
+        [
+          -27.024599075317383,
+          -180.13299560546875,
+          1484.550048828125
+        ],
+        [
+          -15.400400161743164,
+          -164.3800048828125,
+          1488.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3907_BP29062_FMA52994_Superior labial branch of right infra-orbital nerve.obj",
+      "fj": "FJ3907",
+      "fma": "FMA52994",
+      "name": "Superior labial branch of right infra-orbital nerve",
+      "bytes": 74787,
+      "sha256": "7d43162461d121c8b7ee8605e0300262c35e5e1988a6d7ba616e330caa7abb27",
+      "partId": "FJ3907_Superior_labial_branch_of_right_infra-orbital_nerve",
+      "vertices": 3810,
+      "triangles": 1270,
+      "bounds": [
+        [
+          -28.35849952697754,
+          -178.91000366210938,
+          1463.72998046875
+        ],
+        [
+          -21.048599243164062,
+          -161.71299743652344,
+          1493.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3908_BP21112_FMA52677_Left anterior ethmoidal nerve.obj",
+      "fj": "FJ3908",
+      "fma": "FMA52677",
+      "name": "Left anterior ethmoidal nerve",
+      "bytes": 61574,
+      "sha256": "927b342fe8b2fecbbae6d1758989213d95e231519d19c43d2eb2b70736a01a7d",
+      "partId": "FJ3908_Left_anterior_ethmoidal_nerve",
+      "vertices": 3048,
+      "triangles": 1016,
+      "bounds": [
+        [
+          0.4340269863605499,
+          -158.53799438476562,
+          1519.0799560546875
+        ],
+        [
+          16.02560043334961,
+          -136.98300170898438,
+          1529
+        ]
+      ]
+    },
+    {
+      "file": "FJ3909_BP21151_FMA52674_Communicating branch of left nasociliary nerve with left ciliary ganglion.obj",
+      "fj": "FJ3909",
+      "fma": "FMA52674",
+      "name": "Communicating branch of left nasociliary nerve with left ciliary ganglion",
+      "bytes": 16149,
+      "sha256": "b3064d49feb33e44d79a535ff82c2230cab42578a11bba9028158d0c2123c72d",
+      "partId": "FJ3909_Communicating_branch_of_left_nasociliary_nerve_with_left_ciliary_ganglion",
+      "vertices": 702,
+      "triangles": 234,
+      "bounds": [
+        [
+          16.418699264526367,
+          -132.1999969482422,
+          1524.949951171875
+        ],
+        [
+          24.658300399780273,
+          -125.91999816894531,
+          1529.0400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3910_BP20367_FMA52640_Left frontal nerve.obj",
+      "fj": "FJ3910",
+      "fma": "FMA52640",
+      "name": "Left frontal nerve",
+      "bytes": 159178,
+      "sha256": "e4b12d254ac3d9f58c8bff01f3fbad3cf429267df6c6c0ccb68ac59f2178fb52",
+      "partId": "FJ3910_Left_frontal_nerve",
+      "vertices": 7926,
+      "triangles": 2642,
+      "bounds": [
+        [
+          19.162399291992188,
+          -161.718994140625,
+          1528.3399658203125
+        ],
+        [
+          27.518600463867188,
+          -120.26599884033203,
+          1544.68994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3911_BP22715_FMA52699_Left infratrochlear nerve.obj",
+      "fj": "FJ3911",
+      "fma": "FMA52699",
+      "name": "Left infratrochlear nerve",
+      "bytes": 35897,
+      "sha256": "c3fc29f375e787403462b4bcb055daa36f9eaee4b7705e2174c045810cb5a7cb",
+      "partId": "FJ3911_Left_infratrochlear_nerve",
+      "vertices": 1446,
+      "triangles": 482,
+      "bounds": [
+        [
+          1.6660699844360352,
+          -186.6300048828125,
+          1515.739990234375
+        ],
+        [
+          13.503800392150879,
+          -160.73399353027344,
+          1530.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3912_BP20380_FMA52630_Left lacrimal nerve.obj",
+      "fj": "FJ3912",
+      "fma": "FMA52630",
+      "name": "Left lacrimal nerve",
+      "bytes": 120211,
+      "sha256": "87f1693f3da50f0b56f886f0f4f2774bfb6cafe5a72eee21270eed5a70b62686",
+      "partId": "FJ3912_Left_lacrimal_nerve",
+      "vertices": 6024,
+      "triangles": 2008,
+      "bounds": [
+        [
+          19.478099822998047,
+          -155.89999389648438,
+          1527.0799560546875
+        ],
+        [
+          42.8025016784668,
+          -120.51899719238281,
+          1535.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3913_BP20818_FMA52670_Left nasociliary nerve.obj",
+      "fj": "FJ3913",
+      "fma": "FMA52670",
+      "name": "Left nasociliary nerve",
+      "bytes": 32508,
+      "sha256": "ece48cefdbe3cc599970d669e54438ba03d0ad00780fd16df95363b871f8e589",
+      "partId": "FJ3913_Left_nasociliary_nerve",
+      "vertices": 1374,
+      "triangles": 458,
+      "bounds": [
+        [
+          12.908900260925293,
+          -161.20799255371094,
+          1526.6700439453125
+        ],
+        [
+          19.423500061035156,
+          -110.71800231933594,
+          1530.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3915_BP29573_FMA52593_Left olfactory nerve.obj",
+      "fj": "FJ3915",
+      "fma": "FMA52593",
+      "name": "Left olfactory nerve",
+      "bytes": 35627,
+      "sha256": "acc52312f2ab4ee3dfd9b5e42fdc7ca355f88dc30601e2a9a132ed1c021bbe05",
+      "partId": "FJ3915_Left_olfactory_nerve",
+      "vertices": 1680,
+      "triangles": 560,
+      "bounds": [
+        [
+          0.6426349878311157,
+          -153.6020050048828,
+          1514.030029296875
+        ],
+        [
+          4.1849799156188965,
+          -150.41700744628906,
+          1539.489990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3916_BP29573_FMA52593_Left olfactory nerve.obj",
+      "fj": "FJ3916",
+      "fma": "FMA52593",
+      "name": "Left olfactory nerve",
+      "bytes": 33117,
+      "sha256": "aabc22a6bd9aa15a7b58113c64ee266f2e1e6421f9c2fddee8f7d6d06bb6f324",
+      "partId": "FJ3916_Left_olfactory_nerve",
+      "vertices": 1530,
+      "triangles": 510,
+      "bounds": [
+        [
+          0.778132975101471,
+          -149.64999389648438,
+          1514.6800537109375
+        ],
+        [
+          4.097859859466553,
+          -146.74600219726562,
+          1538.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3917_BP29573_FMA52593_Left olfactory nerve.obj",
+      "fj": "FJ3917",
+      "fma": "FMA52593",
+      "name": "Left olfactory nerve",
+      "bytes": 33767,
+      "sha256": "54264c36c990f50674ef2199fbe60f5f00780e7ba86e8fbf8d5035d077cf678f",
+      "partId": "FJ3917_Left_olfactory_nerve",
+      "vertices": 1440,
+      "triangles": 480,
+      "bounds": [
+        [
+          1.1339199542999268,
+          -146.05999755859375,
+          1515.5699462890625
+        ],
+        [
+          4.060029983520508,
+          -143.48899841308594,
+          1537.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3918_BP29573_FMA52593_Left olfactory nerve.obj",
+      "fj": "FJ3918",
+      "fma": "FMA52593",
+      "name": "Left olfactory nerve",
+      "bytes": 35048,
+      "sha256": "dffca41e9959979549a18dd9a96f015c67315064d4d94a6978123e6fc3a39b8f",
+      "partId": "FJ3918_Left_olfactory_nerve",
+      "vertices": 1566,
+      "triangles": 522,
+      "bounds": [
+        [
+          0.9943850040435791,
+          -144.08999633789062,
+          1513.5899658203125
+        ],
+        [
+          4.060090065002441,
+          -141.54800415039062,
+          1537.2099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3919_BP29573_FMA52593_Left olfactory nerve.obj",
+      "fj": "FJ3919",
+      "fma": "FMA52593",
+      "name": "Left olfactory nerve",
+      "bytes": 35322,
+      "sha256": "f1b7a851c96a32aee12039981d7f3f60ecb7af01902aeb21161e32f9bcd2fe03",
+      "partId": "FJ3919_Left_olfactory_nerve",
+      "vertices": 1476,
+      "triangles": 492,
+      "bounds": [
+        [
+          0.7574859857559204,
+          -140.6219940185547,
+          1514.1800537109375
+        ],
+        [
+          4.206079959869385,
+          -138.2760009765625,
+          1536.5999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3920_BP29573_FMA52593_Left olfactory nerve.obj",
+      "fj": "FJ3920",
+      "fma": "FMA52593",
+      "name": "Left olfactory nerve",
+      "bytes": 35449,
+      "sha256": "b5e966aa7faaed3dcf2a49edce1792926d06d5de55836069713540af94f1cc83",
+      "partId": "FJ3920_Left_olfactory_nerve",
+      "vertices": 1578,
+      "triangles": 526,
+      "bounds": [
+        [
+          1.0765700340270996,
+          -137.63600158691406,
+          1514.1300048828125
+        ],
+        [
+          4.434309959411621,
+          -134.78900146484375,
+          1535.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3921_BP23833_FMA52623_Left ophthalmic nerve.obj",
+      "fj": "FJ3921",
+      "fma": "FMA52623",
+      "name": "Left ophthalmic nerve",
+      "bytes": 58220,
+      "sha256": "79409d56822b38b6423f87ca106017565c366aca0b198cfa17533761c3073dc8",
+      "partId": "FJ3921_Left_ophthalmic_nerve",
+      "vertices": 3000,
+      "triangles": 1000,
+      "bounds": [
+        [
+          16.858600616455078,
+          -121.67400360107422,
+          1518.010009765625
+        ],
+        [
+          21.913799285888672,
+          -83.02639770507812,
+          1530.02001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3922_BP21490_FMA52716_Left posterior ethmoidal nerve.obj",
+      "fj": "FJ3922",
+      "fma": "FMA52716",
+      "name": "Left posterior ethmoidal nerve",
+      "bytes": 36962,
+      "sha256": "c33577353d91761b7dd9bc3656fafd53c5cef6a325f59bdd29d7ae3bc4aa1cf1",
+      "partId": "FJ3922_Left_posterior_ethmoidal_nerve",
+      "vertices": 1836,
+      "triangles": 612,
+      "bounds": [
+        [
+          7.783279895782471,
+          -135.19000244140625,
+          1521.9300537109375
+        ],
+        [
+          16.037500381469727,
+          -132.87399291992188,
+          1527.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3923_BP29761_FMA80695_Trunk of left recurrent laryngeal nerve.obj",
+      "fj": "FJ3923",
+      "fma": "FMA80695",
+      "name": "Trunk of left recurrent laryngeal nerve",
+      "bytes": 315416,
+      "sha256": "d7a4d859120d395bc487b1ceb87f46d4e5157926802371da94ec9e2edc5a8164",
+      "partId": "FJ3923_Trunk_of_left_recurrent_laryngeal_nerve",
+      "vertices": 15024,
+      "triangles": 5008,
+      "bounds": [
+        [
+          -13.065999984741211,
+          -113.625,
+          1291.77001953125
+        ],
+        [
+          28.841299057006836,
+          -91.33889770507812,
+          1388.0400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3924_BP20828_FMA52657_Left supra-orbital nerve.obj",
+      "fj": "FJ3924",
+      "fma": "FMA52657",
+      "name": "Left supra-orbital nerve",
+      "bytes": 83094,
+      "sha256": "8cea89d6b5e70e6e02ebe2127efeef33da4248ee97b8811e0ffeeb496f02df65",
+      "partId": "FJ3924_Left_supra-orbital_nerve",
+      "vertices": 4092,
+      "triangles": 1364,
+      "bounds": [
+        [
+          22.925800323486328,
+          -175.49200439453125,
+          1541.8599853515625
+        ],
+        [
+          29.531400680541992,
+          -160.7270050048828,
+          1559.7099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3925_BP21030_FMA52644_Left supratrochlear nerve.obj",
+      "fj": "FJ3925",
+      "fma": "FMA52644",
+      "name": "Left supratrochlear nerve",
+      "bytes": 134071,
+      "sha256": "a9c58c4ebeecc18fc7abf700cdb1db1ee5c03a17a1b3e512daa99a0fc55b30ca",
+      "partId": "FJ3925_Left_supratrochlear_nerve",
+      "vertices": 6648,
+      "triangles": 2216,
+      "bounds": [
+        [
+          1.4773999452590942,
+          -177.89599609375,
+          1531.1099853515625
+        ],
+        [
+          24.49180030822754,
+          -140.593994140625,
+          1551.0999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3926_BP29477_FMA18157_Trunk of left vagus nerve.obj",
+      "fj": "FJ3926",
+      "fma": "FMA18157",
+      "name": "Trunk of left vagus nerve",
+      "bytes": 1963465,
+      "sha256": "d9a723878f9fc77ca8e82778dcbd08a40fc27b5d3880c404f30747f854d3074c",
+      "partId": "FJ3926_Trunk_of_left_vagus_nerve",
+      "vertices": 88116,
+      "triangles": 29372,
+      "bounds": [
+        [
+          2.005350112915039,
+          -119.59700012207031,
+          1067.27001953125
+        ],
+        [
+          54.86180114746094,
+          -66.28299713134766,
+          1500.280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3927_BP29502_FMA50887_Left abducens nerve.obj",
+      "fj": "FJ3927",
+      "fma": "FMA50887",
+      "name": "Left abducens nerve",
+      "bytes": 77089,
+      "sha256": "6d73c3be88280529fc93c08427d0c305883831e1a253f8e608128a17dda7dda7",
+      "partId": "FJ3927_Left_abducens_nerve",
+      "vertices": 3438,
+      "triangles": 1146,
+      "bounds": [
+        [
+          2.846869945526123,
+          -140.08999633789062,
+          1502.18994140625
+        ],
+        [
+          34.32210159301758,
+          -83.33319854736328,
+          1528.31005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3928_BP29554_FMA81015_Trunk of left accessory nerve.obj",
+      "fj": "FJ3928",
+      "fma": "FMA81015",
+      "name": "Trunk of left accessory nerve",
+      "bytes": 524103,
+      "sha256": "77f13262c3670ff37fc3b9b0a25710a4c8bf226a80280d2abbc4c2fd8557cd47",
+      "partId": "FJ3928_Trunk_of_left_accessory_nerve",
+      "vertices": 24054,
+      "triangles": 8018,
+      "bounds": [
+        [
+          4.368740081787109,
+          -95.88020324707031,
+          1368.760009765625
+        ],
+        [
+          49.180599212646484,
+          -59.022499084472656,
+          1497.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3929_BP29126_FMA52733_Ganglionic branch of left maxillary nerve to left pterygopalatine ganglion.obj",
+      "fj": "FJ3929",
+      "fma": "FMA52733",
+      "name": "Ganglionic branch of left maxillary nerve to left pterygopalatine ganglion",
+      "bytes": 18709,
+      "sha256": "0e2867bd00f988df1966bf00efa0df0d62da1b7b6275e373c7b5327cf3a3ad53",
+      "partId": "FJ3929_Ganglionic_branch_of_left_maxillary_nerve_to_left_pterygopalatine_ganglion",
+      "vertices": 966,
+      "triangles": 322,
+      "bounds": [
+        [
+          18.504899978637695,
+          -128.3419952392578,
+          1503.449951171875
+        ],
+        [
+          20.04560089111328,
+          -125.64900207519531,
+          1517.02001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3930_BP29082_FMA52942_Left anterior superior alveolar nerve.obj",
+      "fj": "FJ3930",
+      "fma": "FMA52942",
+      "name": "Left anterior superior alveolar nerve",
+      "bytes": 102220,
+      "sha256": "ce2cfc344ca89a5d7e56e168d279d652a50860ea3ec4f4c5eef01f3b65dc22aa",
+      "partId": "FJ3930_Left_anterior_superior_alveolar_nerve",
+      "vertices": 4692,
+      "triangles": 1564,
+      "bounds": [
+        [
+          3.1986100673675537,
+          -175.2969970703125,
+          1466.5899658203125
+        ],
+        [
+          29.048599243164062,
+          -153.00599670410156,
+          1499.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3931_BP29210_FMA80541_Trunk of left auriculotemporal nerve.obj",
+      "fj": "FJ3931",
+      "fma": "FMA80541",
+      "name": "Trunk of left auriculotemporal nerve",
+      "bytes": 245820,
+      "sha256": "3c52884c9eb53a7d4b2f5183b95bc9f3b49a00d256b9d3fb875ca561f46f15f6",
+      "partId": "FJ3931_Trunk_of_left_auriculotemporal_nerve",
+      "vertices": 11910,
+      "triangles": 3970,
+      "bounds": [
+        [
+          32.844200134277344,
+          -107.40599822998047,
+          1485.8900146484375
+        ],
+        [
+          71.31749725341797,
+          -87.99359893798828,
+          1565.699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3932_BP29535_FMA50891_Left vestibulocochlear nerve.obj",
+      "fj": "FJ3932",
+      "fma": "FMA50891",
+      "name": "Left vestibulocochlear nerve",
+      "bytes": 100417,
+      "sha256": "0ad502daacef35f5332e4afafacfa4eb4e054ff4aec32301b7e9d2c8cdbd98b0",
+      "partId": "FJ3932_Left_vestibulocochlear_nerve",
+      "vertices": 5142,
+      "triangles": 1714,
+      "bounds": [
+        [
+          10.337200164794922,
+          -87.82420349121094,
+          1501.4200439453125
+        ],
+        [
+          44.26810073852539,
+          -71.00299835205078,
+          1504.8900146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3933_BP29270_FMA53073_Branch of left mandibular nerve to left otic ganglion.obj",
+      "fj": "FJ3933",
+      "fma": "FMA53073",
+      "name": "Branch of left mandibular nerve to left otic ganglion",
+      "bytes": 34249,
+      "sha256": "a7d2db851e863db6ce20435e45ca75c56dc13c1fd5300fb036c842999c57b8f0",
+      "partId": "FJ3933_Branch_of_left_mandibular_nerve_to_left_otic_ganglion",
+      "vertices": 1584,
+      "triangles": 528,
+      "bounds": [
+        [
+          33.18880081176758,
+          -110.7750015258789,
+          1488.6400146484375
+        ],
+        [
+          38.99959945678711,
+          -106.76300048828125,
+          1498.5
+        ]
+      ]
+    },
+    {
+      "file": "FJ3934_BP29347_FMA53312_Buccal branch of left facial nerve.obj",
+      "fj": "FJ3934",
+      "fma": "FMA53312",
+      "name": "Buccal branch of left facial nerve",
+      "bytes": 267627,
+      "sha256": "48441f4fa6ed429d30d34c85346c2c4e3295f6cd7b3b1ea6e2f0d73c684482a4",
+      "partId": "FJ3934_Buccal_branch_of_left_facial_nerve",
+      "vertices": 12852,
+      "triangles": 4284,
+      "bounds": [
+        [
+          23.89900016784668,
+          -166.33999633789062,
+          1445.18994140625
+        ],
+        [
+          51.1526985168457,
+          -86.93070220947266,
+          1477.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3935_BP29164_FMA53068_Left buccal nerve.obj",
+      "fj": "FJ3935",
+      "fma": "FMA53068",
+      "name": "Left buccal nerve",
+      "bytes": 120245,
+      "sha256": "51d301007c9d8587bcf90f8d10a04252632a21ad109e46be86f57c11e019b83c",
+      "partId": "FJ3935_Left_buccal_nerve",
+      "vertices": 5976,
+      "triangles": 1992,
+      "bounds": [
+        [
+          28.48550033569336,
+          -153.6790008544922,
+          1456.8699951171875
+        ],
+        [
+          46.46310043334961,
+          -107.23300170898438,
+          1497.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3936_BP29357_FMA53399_Cervical branch of left facial nerve.obj",
+      "fj": "FJ3936",
+      "fma": "FMA53399",
+      "name": "Cervical branch of left facial nerve",
+      "bytes": 181829,
+      "sha256": "25cbcd7e3810161533c9ae6403106abfb66493fd3f968108c7cb0590400c44be",
+      "partId": "FJ3936_Cervical_branch_of_left_facial_nerve",
+      "vertices": 8736,
+      "triangles": 2912,
+      "bounds": [
+        [
+          19.2903995513916,
+          -119.28099822998047,
+          1385.1099853515625
+        ],
+        [
+          46.45830154418945,
+          -103.69400024414062,
+          1446.1300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3937_BP28777_FMA52690_Left external nasal nerve.obj",
+      "fj": "FJ3937",
+      "fma": "FMA52690",
+      "name": "Left external nasal nerve",
+      "bytes": 56036,
+      "sha256": "dd9b2a52872173229cdb57765333791624110adb784995e90a72c47e370a5ddc",
+      "partId": "FJ3937_Left_external_nasal_nerve",
+      "vertices": 2400,
+      "triangles": 800,
+      "bounds": [
+        [
+          0.6414700150489807,
+          -182.50900268554688,
+          1513.280029296875
+        ],
+        [
+          7.561550140380859,
+          -157.97999572753906,
+          1523.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3938_BP29462_FMA65422_Trunk of left facial nerve.obj",
+      "fj": "FJ3938",
+      "fma": "FMA65422",
+      "name": "Trunk of left facial nerve",
+      "bytes": 299069,
+      "sha256": "11e87253b185411f5d8755b26547b421936b20263dbd01fe77bd05af111a4ec9",
+      "partId": "FJ3938_Trunk_of_left_facial_nerve",
+      "vertices": 14370,
+      "triangles": 4790,
+      "bounds": [
+        [
+          10.09850025177002,
+          -104.75399780273438,
+          1445
+        ],
+        [
+          51.150901794433594,
+          -68.56520080566406,
+          1504.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3939_BP29500_FMA50894_Left glossopharyngeal nerve.obj",
+      "fj": "FJ3939",
+      "fma": "FMA50894",
+      "name": "Left glossopharyngeal nerve",
+      "bytes": 457294,
+      "sha256": "b5974899a90d02463da0385030c9105cbcb37e71f4e34d0b8d4d9b13a5b66291",
+      "partId": "FJ3939_Left_glossopharyngeal_nerve",
+      "vertices": 21300,
+      "triangles": 7100,
+      "bounds": [
+        [
+          7.816850185394287,
+          -126.76699829101562,
+          1396.4200439453125
+        ],
+        [
+          36.19559860229492,
+          -68.44210052490234,
+          1501.760009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3940_BP29137_FMA52804_Left greater palatine nerve.obj",
+      "fj": "FJ3940",
+      "fma": "FMA52804",
+      "name": "Left greater palatine nerve",
+      "bytes": 79875,
+      "sha256": "0f52ddabacff1ee7ec335536d40f197d41e500c00ee8e2b6b3c1d425b679866f",
+      "partId": "FJ3940_Left_greater_palatine_nerve",
+      "vertices": 3264,
+      "triangles": 1088,
+      "bounds": [
+        [
+          13.602299690246582,
+          -165.62899780273438,
+          1465.93994140625
+        ],
+        [
+          20.086000442504883,
+          -127.98699951171875,
+          1501.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3941_BP29459_FMA80483_Trunk of left hypoglossal nerve.obj",
+      "fj": "FJ3941",
+      "fma": "FMA80483",
+      "name": "Trunk of left hypoglossal nerve",
+      "bytes": 120080,
+      "sha256": "bdef6f96d99391903b39322a760318ecaaa0aa534efe21796004bc81a7fa5d73",
+      "partId": "FJ3941_Trunk_of_left_hypoglossal_nerve",
+      "vertices": 5046,
+      "triangles": 1682,
+      "bounds": [
+        [
+          6.111649990081787,
+          -154.51499938964844,
+          1446.68994140625
+        ],
+        [
+          31.601499557495117,
+          -69.75879669189453,
+          1500.0899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3942_BP29102_FMA80519_Trunk of left inferior alveolar nerve.obj",
+      "fj": "FJ3942",
+      "fma": "FMA80519",
+      "name": "Trunk of left inferior alveolar nerve",
+      "bytes": 153857,
+      "sha256": "47f86e1c2bd4aefa937b1e30c56fdb7371c94564ef58161b9fa44485e8317bab",
+      "partId": "FJ3942_Trunk_of_left_inferior_alveolar_nerve",
+      "vertices": 7686,
+      "triangles": 2562,
+      "bounds": [
+        [
+          20.97319984436035,
+          -158,
+          1435.8399658203125
+        ],
+        [
+          38.42290115356445,
+          -110.99700164794922,
+          1482.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3943_BP29025_FMA52991_External nasal branch of left infra-orbital nerve.obj",
+      "fj": "FJ3943",
+      "fma": "FMA52991",
+      "name": "External nasal branch of left infra-orbital nerve",
+      "bytes": 60207,
+      "sha256": "cc05ae9b4916dfbd992ca69340df569489520eae404418db07104bb1ba9faab6",
+      "partId": "FJ3943_External_nasal_branch_of_left_infra-orbital_nerve",
+      "vertices": 3090,
+      "triangles": 1030,
+      "bounds": [
+        [
+          8.132410049438477,
+          -177.5019989013672,
+          1486.8299560546875
+        ],
+        [
+          25.726999282836914,
+          -164.3780059814453,
+          1517.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3944_BP29015_FMA52988_Inferior palpebral branch of left infra-orbital nerve.obj",
+      "fj": "FJ3944",
+      "fma": "FMA52988",
+      "name": "Inferior palpebral branch of left infra-orbital nerve",
+      "bytes": 40592,
+      "sha256": "72db3b2eb58572fa5d575f0f225caa8547fd318cbe34327f302d37d147f4f134",
+      "partId": "FJ3944_Inferior_palpebral_branch_of_left_infra-orbital_nerve",
+      "vertices": 1824,
+      "triangles": 608,
+      "bounds": [
+        [
+          22.426300048828125,
+          -170.2220001220703,
+          1487.0400390625
+        ],
+        [
+          26.647499084472656,
+          -164.39700317382812,
+          1502.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3945_BP29003_FMA52993_Internal nasal branch of left infra-orbital nerve.obj",
+      "fj": "FJ3945",
+      "fma": "FMA52993",
+      "name": "Internal nasal branch of left infra-orbital nerve",
+      "bytes": 29137,
+      "sha256": "881178f6d2c9f99705ed3cdb9768f00c7983fe1985a358c26dcf9d91497c2146",
+      "partId": "FJ3945_Internal_nasal_branch_of_left_infra-orbital_nerve",
+      "vertices": 1464,
+      "triangles": 488,
+      "bounds": [
+        [
+          14.093600273132324,
+          -180.11900329589844,
+          1484.5400390625
+        ],
+        [
+          25.721900939941406,
+          -164.37600708007812,
+          1488.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3946_BP29024_FMA52995_Superior labial branch of left infra-orbital nerve.obj",
+      "fj": "FJ3946",
+      "fma": "FMA52995",
+      "name": "Superior labial branch of left infra-orbital nerve",
+      "bytes": 75627,
+      "sha256": "ec3874c65480f96ba77e7bad315b53c57e11fa9173b40ae2c24b0fa3366b08d9",
+      "partId": "FJ3946_Superior_labial_branch_of_left_infra-orbital_nerve",
+      "vertices": 3882,
+      "triangles": 1294,
+      "bounds": [
+        [
+          19.738800048828125,
+          -178.91000366210938,
+          1463.72998046875
+        ],
+        [
+          27.050600051879883,
+          -161.71499633789062,
+          1493.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3947_BP28825_FMA52687_Internal nasal branch of left anterior ethmoidal nerve.obj",
+      "fj": "FJ3947",
+      "fma": "FMA52687",
+      "name": "Internal nasal branch of left anterior ethmoidal nerve",
+      "bytes": 22955,
+      "sha256": "900c98d1d65af9617c418b716826042c4795d54fd965b146b7cdcd8ff5a90f0c",
+      "partId": "FJ3947_Internal_nasal_branch_of_left_anterior_ethmoidal_nerve",
+      "vertices": 1026,
+      "triangles": 342,
+      "bounds": [
+        [
+          0.257968008518219,
+          -158.50999450683594,
+          1503.3299560546875
+        ],
+        [
+          1.2131600379943848,
+          -151.28500366210938,
+          1519.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3948_BP28697_FMA52685_Lateral internal nasal branch of left anterior ethmoidal nerve.obj",
+      "fj": "FJ3948",
+      "fma": "FMA52685",
+      "name": "Lateral internal nasal branch of left anterior ethmoidal nerve",
+      "bytes": 30643,
+      "sha256": "8bd1fd899becca3c6e69527a80a7c8ea8d4d6b7e594fe2153e777ab87ee60b18",
+      "partId": "FJ3948_Lateral_internal_nasal_branch_of_left_anterior_ethmoidal_nerve",
+      "vertices": 1410,
+      "triangles": 470,
+      "bounds": [
+        [
+          -0.11677300184965134,
+          -170.44900512695312,
+          1508.6400146484375
+        ],
+        [
+          7.431580066680908,
+          -164.0469970703125,
+          1521.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3949_BP29199_FMA80512_Trunk of left lingual nerve.obj",
+      "fj": "FJ3949",
+      "fma": "FMA80512",
+      "name": "Trunk of left lingual nerve",
+      "bytes": 147877,
+      "sha256": "fc111c90759c98a8884557b3dc6fc1dbf8dec735ff6a1ab96b163b0eafc392bd",
+      "partId": "FJ3949_Trunk_of_left_lingual_nerve",
+      "vertices": 7278,
+      "triangles": 2426,
+      "bounds": [
+        [
+          1.9878699779510498,
+          -161.95899963378906,
+          1442.050048828125
+        ],
+        [
+          37.5640983581543,
+          -113.3550033569336,
+          1478.949951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3950_BP22719_FMA82735_Left long ciliary nerve.obj",
+      "fj": "FJ3950",
+      "fma": "FMA82735",
+      "name": "Left long ciliary nerve",
+      "bytes": 23374,
+      "sha256": "7ff3869f99feef981f0111126f74b6bd1f3797b860738a9cec62dfd77f40d9ad",
+      "partId": "FJ3950_Left_long_ciliary_nerve",
+      "vertices": 1080,
+      "triangles": 360,
+      "bounds": [
+        [
+          15.565299987792969,
+          -147.531005859375,
+          1521.300048828125
+        ],
+        [
+          27.522600173950195,
+          -131.7469940185547,
+          1527.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3951_BP29377_FMA52998_Left mandibular nerve.obj",
+      "fj": "FJ3951",
+      "fma": "FMA52998",
+      "name": "Left mandibular nerve",
+      "bytes": 40739,
+      "sha256": "258363cb099ac440b381d0770b4b3c342ba01cc99a376f3860a54280f96d1117",
+      "partId": "FJ3951_Left_mandibular_nerve",
+      "vertices": 2004,
+      "triangles": 668,
+      "bounds": [
+        [
+          20.484500885009766,
+          -114.32499694824219,
+          1477.969970703125
+        ],
+        [
+          38.59600067138672,
+          -83.21399688720703,
+          1519.5899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3952_BP29350_FMA53367_Marginal mandibular branch of left facial nerve.obj",
+      "fj": "FJ3952",
+      "fma": "FMA53367",
+      "name": "Marginal mandibular branch of left facial nerve",
+      "bytes": 256760,
+      "sha256": "09bfef79c73f8403193e446bf31392cfff2944293f7e528fd5f260fcddbd3ca3",
+      "partId": "FJ3952_Marginal_mandibular_branch_of_left_facial_nerve",
+      "vertices": 12156,
+      "triangles": 4052,
+      "bounds": [
+        [
+          7.115359783172607,
+          -167.95700073242188,
+          1419.5799560546875
+        ],
+        [
+          45.5989990234375,
+          -103.70099639892578,
+          1446.22998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3953_BP29133_FMA53105_Left masseteric nerve.obj",
+      "fj": "FJ3953",
+      "fma": "FMA53105",
+      "name": "Left masseteric nerve",
+      "bytes": 103468,
+      "sha256": "a48bd762e1328199f01b85ca0d4acdde7240da0557fe81dbda080af5bd2d5ee7",
+      "partId": "FJ3953_Left_masseteric_nerve",
+      "vertices": 4992,
+      "triangles": 1664,
+      "bounds": [
+        [
+          36.23099899291992,
+          -132.4510040283203,
+          1462.949951171875
+        ],
+        [
+          50.159400939941406,
+          -108.80799865722656,
+          1493.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3954_BP29330_FMA80595_Trunk of left maxillary nerve.obj",
+      "fj": "FJ3954",
+      "fma": "FMA80595",
+      "name": "Trunk of left maxillary nerve",
+      "bytes": 79976,
+      "sha256": "3e079970c3f9693ffd478eafc0185f454edd3c6694165cb6ac0d73a99d17910b",
+      "partId": "FJ3954_Trunk_of_left_maxillary_nerve",
+      "vertices": 4080,
+      "triangles": 1360,
+      "bounds": [
+        [
+          15.612899780273438,
+          -162.99899291992188,
+          1492.0699462890625
+        ],
+        [
+          29.350200653076172,
+          -83.05870056152344,
+          1520.9300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3955_BP29120_FMA52730_Left middle meningeal nerve.obj",
+      "fj": "FJ3955",
+      "fma": "FMA52730",
+      "name": "Left middle meningeal nerve",
+      "bytes": 28436,
+      "sha256": "1c82191e029f1e453028028f59fff833885f7e19756cbd67411e7a12b86a28f8",
+      "partId": "FJ3955_Left_middle_meningeal_nerve",
+      "vertices": 1380,
+      "triangles": 460,
+      "bounds": [
+        [
+          18.221799850463867,
+          -112.69400024414062,
+          1512.8900146484375
+        ],
+        [
+          35.031700134277344,
+          -105.01599884033203,
+          1519.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3956_BP28937_FMA53252_Left mental nerve.obj",
+      "fj": "FJ3956",
+      "fma": "FMA53252",
+      "name": "Left mental nerve",
+      "bytes": 93123,
+      "sha256": "fa99a0de8a38dde67a7c5e19a7a86aca6b4e02f456fa0f52e8833f9b1a0097bb",
+      "partId": "FJ3956_Left_mental_nerve",
+      "vertices": 4092,
+      "triangles": 1364,
+      "bounds": [
+        [
+          3.39067006111145,
+          -171.6179962158203,
+          1427.8900146484375
+        ],
+        [
+          23.373600006103516,
+          -157.21800231933594,
+          1445.0400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3957_BP29084_FMA52940_Left middle superior alveolar nerve.obj",
+      "fj": "FJ3957",
+      "fma": "FMA52940",
+      "name": "Left middle superior alveolar nerve",
+      "bytes": 78130,
+      "sha256": "e76340fbdf8782335e603cbf47f5e46cc2fdbab9f9ba90e87075c644c2c92fc5",
+      "partId": "FJ3957_Left_middle_superior_alveolar_nerve",
+      "vertices": 3750,
+      "triangles": 1250,
+      "bounds": [
+        [
+          20.250099182128906,
+          -164.27699279785156,
+          1465.81005859375
+        ],
+        [
+          27.53689956665039,
+          -138.53900146484375,
+          1505.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3958_BP28957_FMA80524_Trunk of left mylohyoid nerve.obj",
+      "fj": "FJ3958",
+      "fma": "FMA80524",
+      "name": "Trunk of left mylohyoid nerve",
+      "bytes": 113299,
+      "sha256": "c4c2d3ab3bd7bd731fb681ef815b1c29b2095b951cb9200c563cd1af0ad703f8",
+      "partId": "FJ3958_Trunk_of_left_mylohyoid_nerve",
+      "vertices": 5634,
+      "triangles": 1878,
+      "bounds": [
+        [
+          7.217879772186279,
+          -144.3459930419922,
+          1433.97998046875
+        ],
+        [
+          37.519901275634766,
+          -105.39900207519531,
+          1473.969970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3959_BP29143_FMA52799_Left nasopalatine nerve.obj",
+      "fj": "FJ3959",
+      "fma": "FMA52799",
+      "name": "Left nasopalatine nerve",
+      "bytes": 62441,
+      "sha256": "7b347f625403ea3c9f9911c961ea38fd25dfee427375de68baae50154c0873d3",
+      "partId": "FJ3959_Left_nasopalatine_nerve",
+      "vertices": 3084,
+      "triangles": 1028,
+      "bounds": [
+        [
+          -0.46207699179649353,
+          -169.35000610351562,
+          1479.050048828125
+        ],
+        [
+          19.874799728393555,
+          -127.73300170898438,
+          1502.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3960_BP29197_FMA53058_Left medial pterygoid nerve.obj",
+      "fj": "FJ3960",
+      "fma": "FMA53058",
+      "name": "Left medial pterygoid nerve",
+      "bytes": 59730,
+      "sha256": "a30219aaf346eb4ae41ceacb4f8032b454bcaf9cc3cbb118537e6f3e2117a644",
+      "partId": "FJ3960_Left_medial_pterygoid_nerve",
+      "vertices": 2742,
+      "triangles": 914,
+      "bounds": [
+        [
+          24.402799606323242,
+          -117.16500091552734,
+          1486.97998046875
+        ],
+        [
+          43.33140182495117,
+          -102.58499908447266,
+          1503.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3961_BP29054_FMA53110_Left lateral pterygoid nerve.obj",
+      "fj": "FJ3961",
+      "fma": "FMA53110",
+      "name": "Left lateral pterygoid nerve",
+      "bytes": 52029,
+      "sha256": "cf3f628b1f1c68853bfff21ef99b1a0cafe5de029580db87fb706cfd68da6e1d",
+      "partId": "FJ3961_Left_lateral_pterygoid_nerve",
+      "vertices": 2352,
+      "triangles": 784,
+      "bounds": [
+        [
+          10.594599723815918,
+          -111.19000244140625,
+          1484.4200439453125
+        ],
+        [
+          29.082199096679688,
+          -101.18099975585938,
+          1502.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3962_BP29265_FMA80553_Trunk of branch of left mandibular nerve to tensor tympani.obj",
+      "fj": "FJ3962",
+      "fma": "FMA80553",
+      "name": "Trunk of branch of left mandibular nerve to tensor tympani",
+      "bytes": 54774,
+      "sha256": "894c0fcd9c0c153110ca0ced0878af6cff8df2a179ddac68e8e2d74613efa575",
+      "partId": "FJ3962_Trunk_of_branch_of_left_mandibular_nerve_to_tensor_tympani",
+      "vertices": 2202,
+      "triangles": 734,
+      "bounds": [
+        [
+          29.596599578857422,
+          -108.38500213623047,
+          1494.6400146484375
+        ],
+        [
+          47.942100524902344,
+          -71.86540222167969,
+          1521.7099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3963_BP29107_FMA53077_Nerve to left tensor veli palatini.obj",
+      "fj": "FJ3963",
+      "fma": "FMA53077",
+      "name": "Nerve to left tensor veli palatini",
+      "bytes": 23638,
+      "sha256": "91659a808c42153b94f64e194b7c7682dfe639b949e32d449ab87e8025d3579f",
+      "partId": "FJ3963_Nerve_to_left_tensor_veli_palatini",
+      "vertices": 1140,
+      "triangles": 380,
+      "bounds": [
+        [
+          13.576899528503418,
+          -115.18499755859375,
+          1491.3599853515625
+        ],
+        [
+          23.972900390625,
+          -101.98899841308594,
+          1504.1600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3964_BP29185_FMA53287_Occipital branch of left posterior auricular nerve.obj",
+      "fj": "FJ3964",
+      "fma": "FMA53287",
+      "name": "Occipital branch of left posterior auricular nerve",
+      "bytes": 232351,
+      "sha256": "a8574c2831da4a4c26075ab5fe459d559aa02d5cddc05447a60adb79ace79cc9",
+      "partId": "FJ3964_Occipital_branch_of_left_posterior_auricular_nerve",
+      "vertices": 11232,
+      "triangles": 3744,
+      "bounds": [
+        [
+          3.713510036468506,
+          -37.03969955444336,
+          1504.780029296875
+        ],
+        [
+          58.5172004699707,
+          18.572399139404297,
+          1532.72998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3965_BP29175_FMA52580_Nerve to left ciliary ganglion.obj",
+      "fj": "FJ3965",
+      "fma": "FMA52580",
+      "name": "Nerve to left ciliary ganglion",
+      "bytes": 17483,
+      "sha256": "f8fd3639da0830572b5c7109eff5086cae0083284083ce532b85020be3a2e71f",
+      "partId": "FJ3965_Nerve_to_left_ciliary_ganglion",
+      "vertices": 648,
+      "triangles": 216,
+      "bounds": [
+        [
+          18.350000381469727,
+          -131.0800018310547,
+          1519.9599609375
+        ],
+        [
+          24.06450080871582,
+          -128.74000549316406,
+          1525.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3966_BP29110_FMA52606_Nerve to left inferior rectus.obj",
+      "fj": "FJ3966",
+      "fma": "FMA52606",
+      "name": "Nerve to left inferior rectus",
+      "bytes": 41518,
+      "sha256": "d98768eab7bdaad17e2ee01b4f03103a21d64c60862357570523387c667a48cb",
+      "partId": "FJ3966_Nerve_to_left_inferior_rectus",
+      "vertices": 1662,
+      "triangles": 554,
+      "bounds": [
+        [
+          18.008699417114258,
+          -145.60000610351562,
+          1507.6700439453125
+        ],
+        [
+          25.315000534057617,
+          -125.4280014038086,
+          1529.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3967_BP29184_FMA52584_Nerve to left superior rectus.obj",
+      "fj": "FJ3967",
+      "fma": "FMA52584",
+      "name": "Nerve to left superior rectus",
+      "bytes": 23662,
+      "sha256": "1014fbae568b6d11009cbe8e84c738c9765100edbea4c70d7458b292a821c9bf",
+      "partId": "FJ3967_Nerve_to_left_superior_rectus",
+      "vertices": 990,
+      "triangles": 330,
+      "bounds": [
+        [
+          18.327199935913086,
+          -146.5760040283203,
+          1529.449951171875
+        ],
+        [
+          29.578699111938477,
+          -125.56900024414062,
+          1532.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3968_BP29438_FMA65426_Trunk of left oculomotor nerve.obj",
+      "fj": "FJ3968",
+      "fma": "FMA65426",
+      "name": "Trunk of left oculomotor nerve",
+      "bytes": 39293,
+      "sha256": "416c07d2d859ad02c81f0ba0ce921abcec1c2ae20704d62b9dec4fa31b92ccac",
+      "partId": "FJ3968_Trunk_of_left_oculomotor_nerve",
+      "vertices": 1944,
+      "triangles": 648,
+      "bounds": [
+        [
+          0.8000509738922119,
+          -125.73999786376953,
+          1528.77001953125
+        ],
+        [
+          19.33370018005371,
+          -91.95590209960938,
+          1534.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3969_BP29201_FMA52604_Nerve to left inferior oblique.obj",
+      "fj": "FJ3969",
+      "fma": "FMA52604",
+      "name": "Nerve to left inferior oblique",
+      "bytes": 54164,
+      "sha256": "7e0de3a9d58f013fb47c156346020920c565bbae3816b89bc9ddac1ec2ad9d9a",
+      "partId": "FJ3969_Nerve_to_left_inferior_oblique",
+      "vertices": 2118,
+      "triangles": 706,
+      "bounds": [
+        [
+          18.137399673461914,
+          -157.09300231933594,
+          1503.4100341796875
+        ],
+        [
+          37.9984016418457,
+          -128.76499938964844,
+          1522.22998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3970_BP29228_FMA52602_Nerve to left medial rectus.obj",
+      "fj": "FJ3970",
+      "fma": "FMA52602",
+      "name": "Nerve to left medial rectus",
+      "bytes": 25954,
+      "sha256": "a78b98de6b686c6ea0ea78a22909695ad58d7821eb4b72b65200f2290c878b26",
+      "partId": "FJ3970_Nerve_to_left_medial_rectus",
+      "vertices": 864,
+      "triangles": 288,
+      "bounds": [
+        [
+          16.282499313354492,
+          -146.81900024414062,
+          1519.06005859375
+        ],
+        [
+          18.841899871826172,
+          -128.718994140625,
+          1526.6300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3971_BP29086_FMA52774_Orbital branch of left maxillary nerve to left orbitalis.obj",
+      "fj": "FJ3971",
+      "fma": "FMA52774",
+      "name": "Orbital branch of left maxillary nerve to left orbitalis",
+      "bytes": 32068,
+      "sha256": "e5651973c6aa2b50c5105fac3820f05f96c9bf7b0c3aec8d66020d976a1f47ce",
+      "partId": "FJ3971_Orbital_branch_of_left_maxillary_nerve_to_left_orbitalis",
+      "vertices": 1638,
+      "triangles": 546,
+      "bounds": [
+        [
+          10.621399879455566,
+          -133.2830047607422,
+          1503.5
+        ],
+        [
+          19.531700134277344,
+          -127.63700103759766,
+          1527.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3972_BP29344_FMA77524_Pharyngeal nerve.obj",
+      "fj": "FJ3972",
+      "fma": "FMA77524",
+      "name": "Pharyngeal nerve",
+      "bytes": 71647,
+      "sha256": "f3d4c5324d694806179b434dec43bd4c3aa88713ebf95103f481922b17131c19",
+      "partId": "FJ3972_Pharyngeal_nerve",
+      "vertices": 3414,
+      "triangles": 1138,
+      "bounds": [
+        [
+          6.447770118713379,
+          -127.43599700927734,
+          1471.1099853515625
+        ],
+        [
+          18.996700286865234,
+          -106.00499725341797,
+          1502.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3973_BP29299_FMA80806_Trunk of left posterior auricular nerve.obj",
+      "fj": "FJ3973",
+      "fma": "FMA80806",
+      "name": "Trunk of left posterior auricular nerve",
+      "bytes": 203858,
+      "sha256": "234271390320724163cbf55c77243b3d1afa1e3cace71142b6448c801dee2fb3",
+      "partId": "FJ3973_Trunk_of_left_posterior_auricular_nerve",
+      "vertices": 9984,
+      "triangles": 3328,
+      "bounds": [
+        [
+          40.244300842285156,
+          -84.01390075683594,
+          1484.760009765625
+        ],
+        [
+          65.9520034790039,
+          -35.967498779296875,
+          1505.9300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3974_BP29092_FMA52825_Left posterior inferior nasal nerve.obj",
+      "fj": "FJ3974",
+      "fma": "FMA52825",
+      "name": "Left posterior inferior nasal nerve",
+      "bytes": 96560,
+      "sha256": "e550e258cd78c2a4fcb2cc33311d0c992141b912d2f1fb518475d91f9abffbb6",
+      "partId": "FJ3974_Left_posterior_inferior_nasal_nerve",
+      "vertices": 4590,
+      "triangles": 1530,
+      "bounds": [
+        [
+          6.505390167236328,
+          -154.36500549316406,
+          1479.8599853515625
+        ],
+        [
+          19.871400833129883,
+          -127.44000244140625,
+          1502.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3975_BP29013_FMA52937_Left posterior superior alveolar nerve.obj",
+      "fj": "FJ3975",
+      "fma": "FMA52937",
+      "name": "Left posterior superior alveolar nerve",
+      "bytes": 105872,
+      "sha256": "47f19a959066883cd56e2508c15a5161e442a78e249610b26fca810e733aa186",
+      "partId": "FJ3975_Left_posterior_superior_alveolar_nerve",
+      "vertices": 5058,
+      "triangles": 1686,
+      "bounds": [
+        [
+          24.259899139404297,
+          -144.07699584960938,
+          1470.3699951171875
+        ],
+        [
+          33.79899978637695,
+          -130.9340057373047,
+          1508.199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3976_BP29138_FMA52784_Left lateral posterior superior nasal nerve.obj",
+      "fj": "FJ3976",
+      "fma": "FMA52784",
+      "name": "Left lateral posterior superior nasal nerve",
+      "bytes": 47176,
+      "sha256": "a03f452ce2a24b5e2da96e00eaaa2edab66fa428e4340af59d7714919f5d6351",
+      "partId": "FJ3976_Left_lateral_posterior_superior_nasal_nerve",
+      "vertices": 2232,
+      "triangles": 744,
+      "bounds": [
+        [
+          7.480800151824951,
+          -162.76600646972656,
+          1502.77001953125
+        ],
+        [
+          20.338199615478516,
+          -127.85700225830078,
+          1513.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3977_BP29161_FMA52596_Nerve to left levator palpebrae superioris.obj",
+      "fj": "FJ3977",
+      "fma": "FMA52596",
+      "name": "Nerve to left levator palpebrae superioris",
+      "bytes": 22404,
+      "sha256": "e5e50af6d2af36d2c2acb78ea7d2cb7b805e0c3b1f15d833728e03154295d8fc",
+      "partId": "FJ3977_Nerve_to_left_levator_palpebrae_superioris",
+      "vertices": 1032,
+      "triangles": 344,
+      "bounds": [
+        [
+          19.46310043334961,
+          -141.1490020751953,
+          1530.02001953125
+        ],
+        [
+          23.615400314331055,
+          -126.91200256347656,
+          1535.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3978_BP29140_FMA52787_Left medial posterior superior nasal nerve.obj",
+      "fj": "FJ3978",
+      "fma": "FMA52787",
+      "name": "Left medial posterior superior nasal nerve",
+      "bytes": 53242,
+      "sha256": "11e9cbce84836a0bed88238db86afaf2dd408a1fb64c08715c5c2c63b6360f11",
+      "partId": "FJ3978_Left_medial_posterior_superior_nasal_nerve",
+      "vertices": 2394,
+      "triangles": 798,
+      "bounds": [
+        [
+          -0.5031260251998901,
+          -152.8350067138672,
+          1490.949951171875
+        ],
+        [
+          19.481199264526367,
+          -127.78900146484375,
+          1503.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3979_BP29341_FMA80828_Trunk of temporal branch of left facial nerve.obj",
+      "fj": "FJ3979",
+      "fma": "FMA80828",
+      "name": "Trunk of temporal branch of left facial nerve",
+      "bytes": 346082,
+      "sha256": "ce680d0639aadc62c6e18942ed7af63a364d3204c904ecd6f7059b6344bd28be",
+      "partId": "FJ3979_Trunk_of_temporal_branch_of_left_facial_nerve",
+      "vertices": 16398,
+      "triangles": 5466,
+      "bounds": [
+        [
+          32.23080062866211,
+          -174.49400329589844,
+          1486.6500244140625
+        ],
+        [
+          66.40540313720703,
+          -112.8280029296875,
+          1560.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3980_BP29463_FMA65424_Trunk of left trigeminal nerve.obj",
+      "fj": "FJ3980",
+      "fma": "FMA65424",
+      "name": "Trunk of left trigeminal nerve",
+      "bytes": 13700,
+      "sha256": "f7e1789b0df8a66ffad551245e3d2043a79f38764669d995a7ab69d650661d0e",
+      "partId": "FJ3980_Trunk_of_left_trigeminal_nerve",
+      "vertices": 738,
+      "triangles": 246,
+      "bounds": [
+        [
+          18.398399353027344,
+          -85.22149658203125,
+          1515.6500244140625
+        ],
+        [
+          22.417600631713867,
+          -77.24310302734375,
+          1520.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3981_BP23034_FMA50882_Left trochlear nerve.obj",
+      "fj": "FJ3981",
+      "fma": "FMA50882",
+      "name": "Left trochlear nerve",
+      "bytes": 313898,
+      "sha256": "e2cc5d5c57a7859cbd23ba31e9ee26deba19206c4125f6c2634fda99de50a7fa",
+      "partId": "FJ3981_Left_trochlear_nerve",
+      "vertices": 14568,
+      "triangles": 4856,
+      "bounds": [
+        [
+          -1.532099962234497,
+          -160.31700134277344,
+          1526.3199462890625
+        ],
+        [
+          18.414400100708008,
+          -67.0552978515625,
+          1533.77001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3982_BP29360_FMA80847_Trunk of zygomatic branch of left facial nerve.obj",
+      "fj": "FJ3982",
+      "fma": "FMA80847",
+      "name": "Trunk of zygomatic branch of left facial nerve",
+      "bytes": 263119,
+      "sha256": "e94ea3c1e818677f7b160d1cdff827430a1c662ad1921ebf7b64d147a11c8a1d",
+      "partId": "FJ3982_Trunk_of_zygomatic_branch_of_left_facial_nerve",
+      "vertices": 12378,
+      "triangles": 4126,
+      "bounds": [
+        [
+          42.97529983520508,
+          -159.9029998779297,
+          1483.719970703125
+        ],
+        [
+          64.02220153808594,
+          -82.68250274658203,
+          1513.5999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3983_BP29129_FMA52969_Left zygomatic nerve.obj",
+      "fj": "FJ3983",
+      "fma": "FMA52969",
+      "name": "Left zygomatic nerve",
+      "bytes": 128687,
+      "sha256": "ad441d4ace8cec2b65fd6f7980bb47ec64ea7d2c1db5d278cb44d19a54187eb4",
+      "partId": "FJ3983_Left_zygomatic_nerve",
+      "vertices": 5640,
+      "triangles": 1880,
+      "bounds": [
+        [
+          14.215399742126465,
+          -163.8520050048828,
+          1495.5899658203125
+        ],
+        [
+          62.56990051269531,
+          -120.76699829101562,
+          1535.469970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3984_BP29156_FMA80511_Trunk of right lingual nerve.obj",
+      "fj": "FJ3984",
+      "fma": "FMA80511",
+      "name": "Trunk of right lingual nerve",
+      "bytes": 147211,
+      "sha256": "ee5a91f1c971091bfa3398f7d102669308fe82380e22563a81369ecf00c2d8a1",
+      "partId": "FJ3984_Trunk_of_right_lingual_nerve",
+      "vertices": 7134,
+      "triangles": 2378,
+      "bounds": [
+        [
+          -38.87089920043945,
+          -161.96200561523438,
+          1442.06005859375
+        ],
+        [
+          -3.302109956741333,
+          -113.35399627685547,
+          1478.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3985_BP29281_FMA52997_Right mandibular nerve.obj",
+      "fj": "FJ3985",
+      "fma": "FMA52997",
+      "name": "Right mandibular nerve",
+      "bytes": 40716,
+      "sha256": "a82827feaf5225334b8f5985c1df076f1fa8b1d1eb83b83ec7541c2716d7e2b8",
+      "partId": "FJ3985_Right_mandibular_nerve",
+      "vertices": 1968,
+      "triangles": 656,
+      "bounds": [
+        [
+          -39.923099517822266,
+          -114.31300354003906,
+          1477.969970703125
+        ],
+        [
+          -21.77899932861328,
+          -83.21080017089844,
+          1519.5999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3986_BP29323_FMA53366_Marginal mandibular branch of right facial nerve.obj",
+      "fj": "FJ3986",
+      "fma": "FMA53366",
+      "name": "Marginal mandibular branch of right facial nerve",
+      "bytes": 251866,
+      "sha256": "80a6d4373045f7517d8f260a4bd190fef198cc3d847346e874e3f5c57050e99f",
+      "partId": "FJ3986_Marginal_mandibular_branch_of_right_facial_nerve",
+      "vertices": 11856,
+      "triangles": 3952,
+      "bounds": [
+        [
+          -46.90959930419922,
+          -167.95399475097656,
+          1419.5799560546875
+        ],
+        [
+          -8.426759719848633,
+          -103.7030029296875,
+          1446.22998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3987_BP29127_FMA53104_Right masseteric nerve.obj",
+      "fj": "FJ3987",
+      "fma": "FMA53104",
+      "name": "Right masseteric nerve",
+      "bytes": 103947,
+      "sha256": "74c93dcd7b7cde15193c6df645ac0820e1988ef7dc21f0bee9f6c0af8ccaf568",
+      "partId": "FJ3987_Right_masseteric_nerve",
+      "vertices": 4896,
+      "triangles": 1632,
+      "bounds": [
+        [
+          -51.470699310302734,
+          -132.45599365234375,
+          1462.949951171875
+        ],
+        [
+          -37.5255012512207,
+          -108.80699920654297,
+          1493.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3988_BP29403_FMA80594_Trunk of right maxillary nerve.obj",
+      "fj": "FJ3988",
+      "fma": "FMA80594",
+      "name": "Trunk of right maxillary nerve",
+      "bytes": 79086,
+      "sha256": "4d33aeccaf8e6c2f637cabb7179b4892f7a6bff650496463115b8b8c01484fd2",
+      "partId": "FJ3988_Trunk_of_right_maxillary_nerve",
+      "vertices": 4008,
+      "triangles": 1336,
+      "bounds": [
+        [
+          -30.64940071105957,
+          -162.98699951171875,
+          1492.0699462890625
+        ],
+        [
+          -16.91309928894043,
+          -83.04440307617188,
+          1520.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3989_BP29205_FMA52729_Right middle meningeal nerve.obj",
+      "fj": "FJ3989",
+      "fma": "FMA52729",
+      "name": "Right middle meningeal nerve",
+      "bytes": 27559,
+      "sha256": "8f5dfc76e8524091c18b20768aee2f442b8604a5cf6d6df4fa73f4d54b51ad7b",
+      "partId": "FJ3989_Right_middle_meningeal_nerve",
+      "vertices": 1356,
+      "triangles": 452,
+      "bounds": [
+        [
+          -36.34709930419922,
+          -112.6989974975586,
+          1512.8900146484375
+        ],
+        [
+          -19.52739906311035,
+          -105.01599884033203,
+          1519.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3990_BP28919_FMA53251_Right mental nerve.obj",
+      "fj": "FJ3990",
+      "fma": "FMA53251",
+      "name": "Right mental nerve",
+      "bytes": 88218,
+      "sha256": "cac2afe3a3e1de780161592f430b2734420e6535ed5b1115dc5070fe29db42d5",
+      "partId": "FJ3990_Right_mental_nerve",
+      "vertices": 3672,
+      "triangles": 1224,
+      "bounds": [
+        [
+          -24.68600082397461,
+          -171.61599731445312,
+          1427.8800048828125
+        ],
+        [
+          -4.701620101928711,
+          -157.2270050048828,
+          1445.0400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3991_BP28993_FMA52939_Right middle superior alveolar nerve.obj",
+      "fj": "FJ3991",
+      "fma": "FMA52939",
+      "name": "Right middle superior alveolar nerve",
+      "bytes": 76699,
+      "sha256": "1171bd1816579f1b7e98174e2e2ce46c9e5d15c5369034b1b6f242f0ddb25808",
+      "partId": "FJ3991_Right_middle_superior_alveolar_nerve",
+      "vertices": 3684,
+      "triangles": 1228,
+      "bounds": [
+        [
+          -28.84510040283203,
+          -164.27699279785156,
+          1465.81005859375
+        ],
+        [
+          -21.557600021362305,
+          -138.53599548339844,
+          1505.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3992_BP28909_FMA80523_Trunk of right mylohyoid nerve.obj",
+      "fj": "FJ3992",
+      "fma": "FMA80523",
+      "name": "Trunk of right mylohyoid nerve",
+      "bytes": 111341,
+      "sha256": "6382b1da8b450c807ce651c54a250faec2721d02422ed7cbe8ba76c7042d71b3",
+      "partId": "FJ3992_Trunk_of_right_mylohyoid_nerve",
+      "vertices": 5520,
+      "triangles": 1840,
+      "bounds": [
+        [
+          -38.8306999206543,
+          -144.3489990234375,
+          1433.9599609375
+        ],
+        [
+          -8.517680168151855,
+          -105.40599822998047,
+          1473.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3993_BP29147_FMA52798_Right nasopalatine nerve.obj",
+      "fj": "FJ3993",
+      "fma": "FMA52798",
+      "name": "Right nasopalatine nerve",
+      "bytes": 62555,
+      "sha256": "ee1728878871e867bf6fa41be7d9864634b71419a99c7040e1e08a9a057734a0",
+      "partId": "FJ3993_Right_nasopalatine_nerve",
+      "vertices": 3024,
+      "triangles": 1008,
+      "bounds": [
+        [
+          -21.179100036621094,
+          -169.36099243164062,
+          1479.050048828125
+        ],
+        [
+          -0.8469330072402954,
+          -127.72699737548828,
+          1502.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3994_BP29232_FMA53057_Right medial pterygoid nerve.obj",
+      "fj": "FJ3994",
+      "fma": "FMA53057",
+      "name": "Right medial pterygoid nerve",
+      "bytes": 58791,
+      "sha256": "9fbbe989091c74e43891e6783a7f15bd39ed1cb68bc85be1e8d6443d1a9067d5",
+      "partId": "FJ3994_Right_medial_pterygoid_nerve",
+      "vertices": 2688,
+      "triangles": 896,
+      "bounds": [
+        [
+          -44.639198303222656,
+          -117.1510009765625,
+          1486.97998046875
+        ],
+        [
+          -25.713199615478516,
+          -102.58599853515625,
+          1503.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3995_BP29080_FMA53109_Right lateral pterygoid nerve.obj",
+      "fj": "FJ3995",
+      "fma": "FMA53109",
+      "name": "Right lateral pterygoid nerve",
+      "bytes": 53016,
+      "sha256": "d67a72ee54331632ab8baa3fb58e0e34e26d8139f0c8286bdf6fd75feea669ce",
+      "partId": "FJ3995_Right_lateral_pterygoid_nerve",
+      "vertices": 2382,
+      "triangles": 794,
+      "bounds": [
+        [
+          -30.39459991455078,
+          -111.20099639892578,
+          1484.4200439453125
+        ],
+        [
+          -11.915200233459473,
+          -101.18699645996094,
+          1502.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3996_BP29219_FMA80552_Trunk of branch of right mandibular nerve to tensor tympani.obj",
+      "fj": "FJ3996",
+      "fma": "FMA80552",
+      "name": "Trunk of branch of right mandibular nerve to tensor tympani",
+      "bytes": 54039,
+      "sha256": "c3065079d3151b0bbc635ece141046beb8ad2ea1ffd52618aab06421821483f6",
+      "partId": "FJ3996_Trunk_of_branch_of_right_mandibular_nerve_to_tensor_tympani",
+      "vertices": 2136,
+      "triangles": 712,
+      "bounds": [
+        [
+          -49.26350021362305,
+          -108.38200378417969,
+          1494.6500244140625
+        ],
+        [
+          -30.907499313354492,
+          -71.86540222167969,
+          1521.7099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3997_BP29266_FMA53076_Nerve to right tensor veli palatini.obj",
+      "fj": "FJ3997",
+      "fma": "FMA53076",
+      "name": "Nerve to right tensor veli palatini",
+      "bytes": 23106,
+      "sha256": "c2c17f071045105bca79248fa5d59d5f52192746f3aa3ac40ef64e1db4174de2",
+      "partId": "FJ3997_Nerve_to_right_tensor_veli_palatini",
+      "vertices": 1122,
+      "triangles": 374,
+      "bounds": [
+        [
+          -25.292600631713867,
+          -115.19400024414062,
+          1491.3699951171875
+        ],
+        [
+          -14.887100219726562,
+          -101.97699737548828,
+          1504.1700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3998_BP29193_FMA53286_Occipital branch of right posterior auricular nerve.obj",
+      "fj": "FJ3998",
+      "fma": "FMA53286",
+      "name": "Occipital branch of right posterior auricular nerve",
+      "bytes": 229040,
+      "sha256": "8740a2827b8403d9b8b3b69a3c2d9b549cbac6e1c3564b8a5ebea25242e77fae",
+      "partId": "FJ3998_Occipital_branch_of_right_posterior_auricular_nerve",
+      "vertices": 10956,
+      "triangles": 3652,
+      "bounds": [
+        [
+          -59.827701568603516,
+          -37.04050064086914,
+          1504.780029296875
+        ],
+        [
+          -5.024010181427002,
+          18.572399139404297,
+          1532.72998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3999_BP29093_FMA52773_Orbital branch of right maxillary nerve to right orbitalis.obj",
+      "fj": "FJ3999",
+      "fma": "FMA52773",
+      "name": "Orbital branch of right maxillary nerve to right orbitalis",
+      "bytes": 31581,
+      "sha256": "19a5732c79142973ef916b820000bc4b7b774e086c562a6c9c3ee28a451da504",
+      "partId": "FJ3999_Orbital_branch_of_right_maxillary_nerve_to_right_orbitalis",
+      "vertices": 1614,
+      "triangles": 538,
+      "bounds": [
+        [
+          -20.840599060058594,
+          -133.302001953125,
+          1503.5
+        ],
+        [
+          -11.928000450134277,
+          -127.63800048828125,
+          1527.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4000_BP29344_FMA77524_Pharyngeal nerve.obj",
+      "fj": "FJ4000",
+      "fma": "FMA77524",
+      "name": "Pharyngeal nerve",
+      "bytes": 69487,
+      "sha256": "5a60def5d5ec5be3c983a2fdbd1af63128c352912e0e6a173bce033445dd93ca",
+      "partId": "FJ4000_Pharyngeal_nerve",
+      "vertices": 3354,
+      "triangles": 1118,
+      "bounds": [
+        [
+          -20.305299758911133,
+          -127.43599700927734,
+          1471.0999755859375
+        ],
+        [
+          -7.765369892120361,
+          -105.97699737548828,
+          1503
+        ]
+      ]
+    },
+    {
+      "file": "FJ4001_BP29285_FMA80805_Trunk of right posterior auricular nerve.obj",
+      "fj": "FJ4001",
+      "fma": "FMA80805",
+      "name": "Trunk of right posterior auricular nerve",
+      "bytes": 200096,
+      "sha256": "f6be92e38f7139381d0c1ea43be98fe2da0ad068c01c17bd28e8e5a6b813ad49",
+      "partId": "FJ4001_Trunk_of_right_posterior_auricular_nerve",
+      "vertices": 9738,
+      "triangles": 3246,
+      "bounds": [
+        [
+          -67.26229858398438,
+          -84.01309967041016,
+          1484.760009765625
+        ],
+        [
+          -41.548500061035156,
+          -35.9734992980957,
+          1505.9300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4002_BP29085_FMA52824_Right posterior inferior nasal nerve.obj",
+      "fj": "FJ4002",
+      "fma": "FMA52824",
+      "name": "Right posterior inferior nasal nerve",
+      "bytes": 94600,
+      "sha256": "d9f8a657096f532b353fb60b649be3cf1b31006e36d34811054133f1d39cddb1",
+      "partId": "FJ4002_Right_posterior_inferior_nasal_nerve",
+      "vertices": 4500,
+      "triangles": 1500,
+      "bounds": [
+        [
+          -21.18239974975586,
+          -154.35400390625,
+          1479.8699951171875
+        ],
+        [
+          -7.814529895782471,
+          -127.43800354003906,
+          1502.6199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4003_BP28997_FMA52936_Right posterior superior alveolar nerve.obj",
+      "fj": "FJ4003",
+      "fma": "FMA52936",
+      "name": "Right posterior superior alveolar nerve",
+      "bytes": 106723,
+      "sha256": "81458ca8ba6a3e600ea48f30ad8e74efcb6b81eef49cd820b85050bb046a000f",
+      "partId": "FJ4003_Right_posterior_superior_alveolar_nerve",
+      "vertices": 4974,
+      "triangles": 1658,
+      "bounds": [
+        [
+          -35.09830093383789,
+          -144.0780029296875,
+          1470.3599853515625
+        ],
+        [
+          -25.571699142456055,
+          -130.9340057373047,
+          1508.199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4004_BP29209_FMA52785_Right lateral posterior superior nasal nerve.obj",
+      "fj": "FJ4004",
+      "fma": "FMA52785",
+      "name": "Right lateral posterior superior nasal nerve",
+      "bytes": 48582,
+      "sha256": "6200a072ac74ac87e93582b3760590a4a66a22b125e68c0961f207c2288bef54",
+      "partId": "FJ4004_Right_lateral_posterior_superior_nasal_nerve",
+      "vertices": 2190,
+      "triangles": 730,
+      "bounds": [
+        [
+          -21.653600692749023,
+          -162.75900268554688,
+          1502.760009765625
+        ],
+        [
+          -8.78966999053955,
+          -127.85099792480469,
+          1513.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4005_BP29247_FMA52786_Right medial posterior superior nasal nerve.obj",
+      "fj": "FJ4005",
+      "fma": "FMA52786",
+      "name": "Right medial posterior superior nasal nerve",
+      "bytes": 52358,
+      "sha256": "2f7112087261db956b7cb9153d1c0a9762b6d466435d224ace3e2c4c59a5a809",
+      "partId": "FJ4005_Right_medial_posterior_superior_nasal_nerve",
+      "vertices": 2352,
+      "triangles": 784,
+      "bounds": [
+        [
+          -20.789100646972656,
+          -152.8300018310547,
+          1490.949951171875
+        ],
+        [
+          -0.7984380125999451,
+          -127.79299926757812,
+          1503.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4006_BP23799_FMA52676_Right anterior ethmoidal nerve.obj",
+      "fj": "FJ4006",
+      "fma": "FMA52676",
+      "name": "Right anterior ethmoidal nerve",
+      "bytes": 61044,
+      "sha256": "091cea5ac932586c54fcdbcf4983459ddf00be9349382c88a76c4734f6975e17",
+      "partId": "FJ4006_Right_anterior_ethmoidal_nerve",
+      "vertices": 3012,
+      "triangles": 1004,
+      "bounds": [
+        [
+          -17.318099975585938,
+          -158.5570068359375,
+          1519.0899658203125
+        ],
+        [
+          -1.748329997062683,
+          -136.97999572753906,
+          1529.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4007_BP21146_FMA52673_Communicating branch of right nasociliary nerve with right ciliary ganglion.obj",
+      "fj": "FJ4007",
+      "fma": "FMA52673",
+      "name": "Communicating branch of right nasociliary nerve with right ciliary ganglion",
+      "bytes": 14436,
+      "sha256": "af15e5b1bf2d18223ec4161bd8f839ef478920a5f04220a1f958de72169c63dc",
+      "partId": "FJ4007_Communicating_branch_of_right_nasociliary_nerve_with_right_ciliary_ganglion",
+      "vertices": 654,
+      "triangles": 218,
+      "bounds": [
+        [
+          -25.945999145507812,
+          -132.1959991455078,
+          1524.969970703125
+        ],
+        [
+          -17.73069953918457,
+          -125.92400360107422,
+          1529.0400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4008_BP20449_FMA52639_Right frontal nerve.obj",
+      "fj": "FJ4008",
+      "fma": "FMA52639",
+      "name": "Right frontal nerve",
+      "bytes": 159456,
+      "sha256": "b54494ac6df47e832f95f26ad06b0bb6fed12bab7b8fdb6f284fb00d0cd0c579",
+      "partId": "FJ4008_Right_frontal_nerve",
+      "vertices": 7878,
+      "triangles": 2626,
+      "bounds": [
+        [
+          -28.826200485229492,
+          -161.718994140625,
+          1528.3399658203125
+        ],
+        [
+          -20.47559928894043,
+          -120.26799774169922,
+          1544.68994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4009_BP28826_FMA52709_Palpebral branch of right infratrochlear nerve.obj",
+      "fj": "FJ4009",
+      "fma": "FMA52709",
+      "name": "Palpebral branch of right infratrochlear nerve",
+      "bytes": 35155,
+      "sha256": "bdb3a9eeddfa1b16944988dbec27063907745b5af206651f4fcfbc30d6391d9b",
+      "partId": "FJ4009_Palpebral_branch_of_right_infratrochlear_nerve",
+      "vertices": 1344,
+      "triangles": 448,
+      "bounds": [
+        [
+          -14.84000015258789,
+          -186.61300659179688,
+          1515.75
+        ],
+        [
+          -2.9633100032806396,
+          -160.73399353027344,
+          1530.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4010_BP20357_FMA52629_Right lacrimal nerve.obj",
+      "fj": "FJ4010",
+      "fma": "FMA52629",
+      "name": "Right lacrimal nerve",
+      "bytes": 121068,
+      "sha256": "819e13434b1b3cb85315b65cf07f31be89d74927620a3420b28784fdc1f8acee",
+      "partId": "FJ4010_Right_lacrimal_nerve",
+      "vertices": 5982,
+      "triangles": 1994,
+      "bounds": [
+        [
+          -44.119998931884766,
+          -155.89199829101562,
+          1527.0799560546875
+        ],
+        [
+          -20.7987003326416,
+          -120.51499938964844,
+          1535.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4011_BP21130_FMA52698_Right infratrochlear nerve.obj",
+      "fj": "FJ4011",
+      "fma": "FMA52698",
+      "name": "Right infratrochlear nerve",
+      "bytes": 32717,
+      "sha256": "224fcce629046eaa35ff6c9701a4033fe93bcce3b1f6a8788c68d2804150cc25",
+      "partId": "FJ4011_Right_infratrochlear_nerve",
+      "vertices": 1410,
+      "triangles": 470,
+      "bounds": [
+        [
+          -20.748699188232422,
+          -161.13800048828125,
+          1526.68994140625
+        ],
+        [
+          -14.220100402832031,
+          -110.70099639892578,
+          1530.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4013_BP29597_FMA52592_Right olfactory nerve.obj",
+      "fj": "FJ4013",
+      "fma": "FMA52592",
+      "name": "Right olfactory nerve",
+      "bytes": 36382,
+      "sha256": "4ffabe238662ceccf33d60c9ca96dacf16e67ef1af514b1a4627d6721c7cee32",
+      "partId": "FJ4013_Right_olfactory_nerve",
+      "vertices": 1680,
+      "triangles": 560,
+      "bounds": [
+        [
+          -5.512010097503662,
+          -153.60299682617188,
+          1514.030029296875
+        ],
+        [
+          -1.9521700143814087,
+          -150.42799377441406,
+          1539.489990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4014_BP29597_FMA52592_Right olfactory nerve.obj",
+      "fj": "FJ4014",
+      "fma": "FMA52592",
+      "name": "Right olfactory nerve",
+      "bytes": 32697,
+      "sha256": "e83fdc95d2d3e37295d9b44fad7c07eecd49169735aaa1a0f2b8bc5bcec4b958",
+      "partId": "FJ4014_Right_olfactory_nerve",
+      "vertices": 1530,
+      "triangles": 510,
+      "bounds": [
+        [
+          -5.382629871368408,
+          -149.6529998779297,
+          1514.6800537109375
+        ],
+        [
+          -2.095060110092163,
+          -146.7449951171875,
+          1538.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4015_BP29597_FMA52592_Right olfactory nerve.obj",
+      "fj": "FJ4015",
+      "fma": "FMA52592",
+      "name": "Right olfactory nerve",
+      "bytes": 32940,
+      "sha256": "735a86a2edb9cca69a92f9fe0b333e8a54cfb84a806b34ca3c18147977f293d3",
+      "partId": "FJ4015_Right_olfactory_nerve",
+      "vertices": 1440,
+      "triangles": 480,
+      "bounds": [
+        [
+          -5.366970062255859,
+          -146.07899475097656,
+          1515.5699462890625
+        ],
+        [
+          -2.450930118560791,
+          -143.49400329589844,
+          1537.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4016_BP29597_FMA52592_Right olfactory nerve.obj",
+      "fj": "FJ4016",
+      "fma": "FMA52592",
+      "name": "Right olfactory nerve",
+      "bytes": 35903,
+      "sha256": "20ae52f7918f99b81a2d80f100bdee4804a70c1371e89df055be3a5378d9cf63",
+      "partId": "FJ4016_Right_olfactory_nerve",
+      "vertices": 1566,
+      "triangles": 522,
+      "bounds": [
+        [
+          -5.376820087432861,
+          -144.08700561523438,
+          1513.5799560546875
+        ],
+        [
+          -2.3122000694274902,
+          -141.56199645996094,
+          1537.199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4017_BP29597_FMA52592_Right olfactory nerve.obj",
+      "fj": "FJ4017",
+      "fma": "FMA52592",
+      "name": "Right olfactory nerve",
+      "bytes": 35003,
+      "sha256": "4733e26b5671e9d42ac63a08360152bfe90e594e5c725ab63ec222ef29ec62c6",
+      "partId": "FJ4017_Right_olfactory_nerve",
+      "vertices": 1476,
+      "triangles": 492,
+      "bounds": [
+        [
+          -5.526919841766357,
+          -140.6219940185547,
+          1514.1800537109375
+        ],
+        [
+          -2.1008899211883545,
+          -138.27099609375,
+          1536.5999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4018_BP29597_FMA52592_Right olfactory nerve.obj",
+      "fj": "FJ4018",
+      "fma": "FMA52592",
+      "name": "Right olfactory nerve",
+      "bytes": 36825,
+      "sha256": "dc79abcab823814e3d94894e0ab1bbccc1134b4dda641ecbc81f8146e0c8ea79",
+      "partId": "FJ4018_Right_olfactory_nerve",
+      "vertices": 1650,
+      "triangles": 550,
+      "bounds": [
+        [
+          -5.756629943847656,
+          -137.65499877929688,
+          1514.1199951171875
+        ],
+        [
+          -2.382780075073242,
+          -134.79600524902344,
+          1535.969970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4019_BP20226_FMA52622_Right ophthalmic nerve.obj",
+      "fj": "FJ4019",
+      "fma": "FMA52622",
+      "name": "Right ophthalmic nerve",
+      "bytes": 58403,
+      "sha256": "c20b23b2c39c9db92ea5379e679f57ff6375ab81672e00ea8ce97a2c639bc33f",
+      "partId": "FJ4019_Right_ophthalmic_nerve",
+      "vertices": 2982,
+      "triangles": 994,
+      "bounds": [
+        [
+          -23.208099365234375,
+          -121.66899871826172,
+          1518
+        ],
+        [
+          -18.162900924682617,
+          -83.02259826660156,
+          1530.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4020_BP21144_FMA52715_Right posterior ethmoidal nerve.obj",
+      "fj": "FJ4020",
+      "fma": "FMA52715",
+      "name": "Right posterior ethmoidal nerve",
+      "bytes": 27936,
+      "sha256": "7ebaa141f22440572908847f7a77cd167d34843cd8d913ac59ab041d4d290421",
+      "partId": "FJ4020_Right_posterior_ethmoidal_nerve",
+      "vertices": 1296,
+      "triangles": 432,
+      "bounds": [
+        [
+          -17.346500396728516,
+          -135.1909942626953,
+          1521.93994140625
+        ],
+        [
+          -9.089400291442871,
+          -132.9010009765625,
+          1527.530029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4021_BP29389_FMA80694_Trunk of right recurrent laryngeal nerve.obj",
+      "fj": "FJ4021",
+      "fma": "FMA80694",
+      "name": "Trunk of right recurrent laryngeal nerve",
+      "bytes": 157643,
+      "sha256": "788f9eee2f853038749d9de7f7158d31666ccdc292143ba661afad7047de5fac",
+      "partId": "FJ4021_Trunk_of_right_recurrent_laryngeal_nerve",
+      "vertices": 7788,
+      "triangles": 2596,
+      "bounds": [
+        [
+          -24.412900924682617,
+          -105.46099853515625,
+          1341.1800537109375
+        ],
+        [
+          -10.173100471496582,
+          -91.20189666748047,
+          1392.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4022_BP22693_FMA52656_Right supra-orbital nerve.obj",
+      "fj": "FJ4022",
+      "fma": "FMA52656",
+      "name": "Right supra-orbital nerve",
+      "bytes": 82680,
+      "sha256": "a36ffc32674e5ffd681e4c83c7512c62f15a37d03d5f4e6a99857ff2cecc2ba7",
+      "partId": "FJ4022_Right_supra-orbital_nerve",
+      "vertices": 4068,
+      "triangles": 1356,
+      "bounds": [
+        [
+          -30.84160041809082,
+          -175.4969940185547,
+          1541.8599853515625
+        ],
+        [
+          -24.235300064086914,
+          -160.73300170898438,
+          1559.739990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4023_BP22708_FMA52643_Right supratrochlear nerve.obj",
+      "fj": "FJ4023",
+      "fma": "FMA52643",
+      "name": "Right supratrochlear nerve",
+      "bytes": 134797,
+      "sha256": "e12802fe618a91f860a0998dd5b8f0ec9a380f35f03e4dc074e8285ec1e0cc0b",
+      "partId": "FJ4023_Right_supratrochlear_nerve",
+      "vertices": 6606,
+      "triangles": 2202,
+      "bounds": [
+        [
+          -25.80030059814453,
+          -177.8979949951172,
+          1531.1099853515625
+        ],
+        [
+          -2.782860040664673,
+          -140.5760040283203,
+          1551.1199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4024_BP29476_FMA18151_Trunk of right vagus nerve.obj",
+      "fj": "FJ4024",
+      "fma": "FMA18151",
+      "name": "Trunk of right vagus nerve",
+      "bytes": 1651782,
+      "sha256": "be374d656c6ec642a93681673744d0330b06d70a84d0dd53bcd3dcde870284df",
+      "partId": "FJ4024_Trunk_of_right_vagus_nerve",
+      "vertices": 74370,
+      "triangles": 24790,
+      "bounds": [
+        [
+          -37.99290084838867,
+          -179.843994140625,
+          1114.739990234375
+        ],
+        [
+          78.33910369873047,
+          -61.153900146484375,
+          1500.260009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4025_BP29541_FMA81014_Trunk of right accessory nerve.obj",
+      "fj": "FJ4025",
+      "fma": "FMA81014",
+      "name": "Trunk of right accessory nerve",
+      "bytes": 514568,
+      "sha256": "f61eb9a8d12433202449935ff9b051ecb7012d305cfcd4cb25a7c79da31ac23d",
+      "partId": "FJ4025_Trunk_of_right_accessory_nerve",
+      "vertices": 23466,
+      "triangles": 7822,
+      "bounds": [
+        [
+          -50.49850082397461,
+          -95.87850189208984,
+          1368.760009765625
+        ],
+        [
+          -5.674200057983398,
+          -59.0265007019043,
+          1497.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4026_BP28799_FMA52689_Right external nasal nerve.obj",
+      "fj": "FJ4026",
+      "fma": "FMA52689",
+      "name": "Right external nasal nerve",
+      "bytes": 54959,
+      "sha256": "08576a4ec69b572f7e18c2988394000aff13e3a6fd02374369900f0bd46adeb7",
+      "partId": "FJ4026_Right_external_nasal_nerve",
+      "vertices": 2244,
+      "triangles": 748,
+      "bounds": [
+        [
+          -8.860119819641113,
+          -182.50399780273438,
+          1513.280029296875
+        ],
+        [
+          -1.94281005859375,
+          -157.98699951171875,
+          1523.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4027_BP29430_FMA80482_Trunk of right hypoglossal nerve.obj",
+      "fj": "FJ4027",
+      "fma": "FMA80482",
+      "name": "Trunk of right hypoglossal nerve",
+      "bytes": 318286,
+      "sha256": "680000147b0ac768185da3310b3aaf910889d8428fd5891a8db3e1d2f32d320f",
+      "partId": "FJ4027_Trunk_of_right_hypoglossal_nerve",
+      "vertices": 14634,
+      "triangles": 4878,
+      "bounds": [
+        [
+          -32.970001220703125,
+          -154.53900146484375,
+          1446.6800537109375
+        ],
+        [
+          -7.403369903564453,
+          -69.74960327148438,
+          1500.1099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4028_BP28762_FMA52686_Internal nasal branch of right anterior ethmoidal nerve.obj",
+      "fj": "FJ4028",
+      "fma": "FMA52686",
+      "name": "Internal nasal branch of right anterior ethmoidal nerve",
+      "bytes": 25433,
+      "sha256": "7f039209746b592c0b8a5e43b95939918105ede4847be85be452ff1daff7eb77",
+      "partId": "FJ4028_Internal_nasal_branch_of_right_anterior_ethmoidal_nerve",
+      "vertices": 1212,
+      "triangles": 404,
+      "bounds": [
+        [
+          -2.5209898948669434,
+          -158.51400756835938,
+          1503.3399658203125
+        ],
+        [
+          -1.5788999795913696,
+          -151.2760009765625,
+          1519.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4029_BP28712_FMA52684_Lateral internal nasal branch of right anterior ethmoidal nerve.obj",
+      "fj": "FJ4029",
+      "fma": "FMA52684",
+      "name": "Lateral internal nasal branch of right anterior ethmoidal nerve",
+      "bytes": 28090,
+      "sha256": "210018ca26bfea674dc27d9268ea198c4f829fd172d3c1f72e38ae27469ae60b",
+      "partId": "FJ4029_Lateral_internal_nasal_branch_of_right_anterior_ethmoidal_nerve",
+      "vertices": 1170,
+      "triangles": 390,
+      "bounds": [
+        [
+          -8.751999855041504,
+          -170.43499755859375,
+          1508.6400146484375
+        ],
+        [
+          -1.2068899869918823,
+          -164.04600524902344,
+          1521.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4030_BP29214_FMA52579_Nerve to right ciliary ganglion.obj",
+      "fj": "FJ4030",
+      "fma": "FMA52579",
+      "name": "Nerve to right ciliary ganglion",
+      "bytes": 20290,
+      "sha256": "6f8d6802ccf3fd8b7a7510a165a022e71cc72929dfb5b1105f03d00104e1f1d1",
+      "partId": "FJ4030_Nerve_to_right_ciliary_ganglion",
+      "vertices": 726,
+      "triangles": 242,
+      "bounds": [
+        [
+          -25.36870002746582,
+          -131.0800018310547,
+          1519.969970703125
+        ],
+        [
+          -19.664600372314453,
+          -128.75100708007812,
+          1525.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4031_BP29223_FMA52605_Nerve to right inferior rectus.obj",
+      "fj": "FJ4031",
+      "fma": "FMA52605",
+      "name": "Nerve to right inferior rectus",
+      "bytes": 45523,
+      "sha256": "fa8d27469fde10302dfc412625b397c060f9650092eabdaf45ac2e9308937be3",
+      "partId": "FJ4031_Nerve_to_right_inferior_rectus",
+      "vertices": 1884,
+      "triangles": 628,
+      "bounds": [
+        [
+          -26.61549949645996,
+          -145.60000610351562,
+          1507.6700439453125
+        ],
+        [
+          -19.321399688720703,
+          -125.427001953125,
+          1530
+        ]
+      ]
+    },
+    {
+      "file": "FJ4032_BP29200_FMA52583_Nerve to right superior rectus.obj",
+      "fj": "FJ4032",
+      "fma": "FMA52583",
+      "name": "Nerve to right superior rectus",
+      "bytes": 22768,
+      "sha256": "92090d672ddf29248ac1909897891a948fc8be4f8aa7d9d76489ee427d468fcf",
+      "partId": "FJ4032_Nerve_to_right_superior_rectus",
+      "vertices": 972,
+      "triangles": 324,
+      "bounds": [
+        [
+          -30.888599395751953,
+          -146.56700134277344,
+          1529.3299560546875
+        ],
+        [
+          -19.648700714111328,
+          -125.56900024414062,
+          1532.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4033_BP29461_FMA65425_Trunk of right oculomotor nerve.obj",
+      "fj": "FJ4033",
+      "fma": "FMA65425",
+      "name": "Trunk of right oculomotor nerve",
+      "bytes": 40326,
+      "sha256": "3be46eec2cabf39270b443326760fd3077b9f894bdd563ebe6d02bc786853bca",
+      "partId": "FJ4033_Trunk_of_right_oculomotor_nerve",
+      "vertices": 1944,
+      "triangles": 648,
+      "bounds": [
+        [
+          -20.64240074157715,
+          -125.73999786376953,
+          1528.77001953125
+        ],
+        [
+          -2.126919984817505,
+          -91.94580078125,
+          1534.6800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4034_BP29461_FMA65425_Trunk of right oculomotor nerve.obj",
+      "fj": "FJ4034",
+      "fma": "FMA65425",
+      "name": "Trunk of right oculomotor nerve",
+      "bytes": 64569,
+      "sha256": "e29e7e539955a915bd893c4ff533c4a00726a6ea3808a2d3065662a2cbed296d",
+      "partId": "FJ4034_Trunk_of_right_oculomotor_nerve",
+      "vertices": 2628,
+      "triangles": 876,
+      "bounds": [
+        [
+          -39.31740188598633,
+          -157.0760040283203,
+          1503.4000244140625
+        ],
+        [
+          -19.43950080871582,
+          -128.76699829101562,
+          1522.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4035_BP29252_FMA52601_Nerve to right medial rectus.obj",
+      "fj": "FJ4035",
+      "fma": "FMA52601",
+      "name": "Nerve to right medial rectus",
+      "bytes": 29919,
+      "sha256": "79736cd084f3e0534db3b3faeff1aea26235095fcd1738a1935ad30e11c47e2f",
+      "partId": "FJ4035_Nerve_to_right_medial_rectus",
+      "vertices": 1074,
+      "triangles": 358,
+      "bounds": [
+        [
+          -20.148500442504883,
+          -146.81900024414062,
+          1519.06005859375
+        ],
+        [
+          -17.597299575805664,
+          -128.70399475097656,
+          1526.6300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4037_BP29236_FMA52595_Nerve to right levator palpebrae superioris.obj",
+      "fj": "FJ4037",
+      "fma": "FMA52595",
+      "name": "Nerve to right levator palpebrae superioris",
+      "bytes": 19874,
+      "sha256": "5e013ea6406598f23c81440c88a8c75df9d4334f4dd439e392497ca3cb3beeaa",
+      "partId": "FJ4037_Nerve_to_right_levator_palpebrae_superioris",
+      "vertices": 912,
+      "triangles": 304,
+      "bounds": [
+        [
+          -24.922100067138672,
+          -141.1490020751953,
+          1530.02001953125
+        ],
+        [
+          -20.783300399780273,
+          -126.91300201416016,
+          1535.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4038_BP29432_FMA65423_Trunk of right trigeminal nerve.obj",
+      "fj": "FJ4038",
+      "fma": "FMA65423",
+      "name": "Trunk of right trigeminal nerve",
+      "bytes": 13719,
+      "sha256": "e9169b6ac3881ded050f2fd6c7605cc4692d1b3696a0567154fc68c60aad5bc4",
+      "partId": "FJ4038_Trunk_of_right_trigeminal_nerve",
+      "vertices": 732,
+      "triangles": 244,
+      "bounds": [
+        [
+          -23.770200729370117,
+          -85.2333984375,
+          1515.68994140625
+        ],
+        [
+          -19.648300170898438,
+          -77.21640014648438,
+          1520.56005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4039_BP23210_FMA50881_Right trochlear nerve.obj",
+      "fj": "FJ4039",
+      "fma": "FMA50881",
+      "name": "Right trochlear nerve",
+      "bytes": 312751,
+      "sha256": "41405d1a29aea69114e34f513c2f2e525ccefb2a88451784abfbe35c788bdffa",
+      "partId": "FJ4039_Right_trochlear_nerve",
+      "vertices": 14478,
+      "triangles": 4826,
+      "bounds": [
+        [
+          -19.723899841308594,
+          -160.31700134277344,
+          1526.3199462890625
+        ],
+        [
+          0.2195110023021698,
+          -67.05460357666016,
+          1533.77001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4040_BP29394_FMA80827_Trunk of temporal branch of right facial nerve.obj",
+      "fj": "FJ4040",
+      "fma": "FMA80827",
+      "name": "Trunk of temporal branch of right facial nerve",
+      "bytes": 340608,
+      "sha256": "88a32aa7f67701ff5cf919c53e878bfe27a36c8b3a028593a9e650338dbed642",
+      "partId": "FJ4040_Trunk_of_temporal_branch_of_right_facial_nerve",
+      "vertices": 15996,
+      "triangles": 5332,
+      "bounds": [
+        [
+          -67.70379638671875,
+          -174.49400329589844,
+          1486.6500244140625
+        ],
+        [
+          -33.54069900512695,
+          -112.8280029296875,
+          1560.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4041_BP29335_FMA80846_Trunk of zygomatic branch of right facial nerve.obj",
+      "fj": "FJ4041",
+      "fma": "FMA80846",
+      "name": "Trunk of zygomatic branch of right facial nerve",
+      "bytes": 258270,
+      "sha256": "342d43a3a773f420bbda1c3767ca6a4b7faf4eae51236ec4a76db97c10d82fdf",
+      "partId": "FJ4041_Trunk_of_zygomatic_branch_of_right_facial_nerve",
+      "vertices": 12078,
+      "triangles": 4026,
+      "bounds": [
+        [
+          -65.33070373535156,
+          -159.89599609375,
+          1483.719970703125
+        ],
+        [
+          -44.28160095214844,
+          -82.68099975585938,
+          1513.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4042_BP29246_FMA52968_Right zygomatic nerve.obj",
+      "fj": "FJ4042",
+      "fma": "FMA52968",
+      "name": "Right zygomatic nerve",
+      "bytes": 134123,
+      "sha256": "feb0578a474a2666e468e9ebcf2b5448b4d07637cba1f843cd8e95d7fc865673",
+      "partId": "FJ4042_Right_zygomatic_nerve",
+      "vertices": 5772,
+      "triangles": 1924,
+      "bounds": [
+        [
+          -63.90359878540039,
+          -163.8560028076172,
+          1495.5999755859375
+        ],
+        [
+          -15.518600463867188,
+          -120.7770004272461,
+          1535.47998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4156_BP29455_FMA6201_Pericardial branch of phrenic nerve.obj",
+      "fj": "FJ4156",
+      "fma": "FMA6201",
+      "name": "Pericardial branch of phrenic nerve",
+      "bytes": 34255,
+      "sha256": "b52a9b3469141b1fae1905f8d98551baa859ff2d97ee4153821970dc39449258",
+      "partId": "FJ4156_Pericardial_branch_of_phrenic_nerve",
+      "vertices": 1326,
+      "triangles": 442,
+      "bounds": [
+        [
+          -33.0614013671875,
+          -144.7449951171875,
+          1233.9200439453125
+        ],
+        [
+          -25.269899368286133,
+          -118.98799896240234,
+          1262.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4157_BP29423_FMA65387_Trunk of left phrenic nerve.obj",
+      "fj": "FJ4157",
+      "fma": "FMA65387",
+      "name": "Trunk of left phrenic nerve",
+      "bytes": 67550,
+      "sha256": "8f0b011b7675e9484f6779d05368853541cd498971e31ff0e024d8bdc8971fa7",
+      "partId": "FJ4157_Trunk_of_left_phrenic_nerve",
+      "vertices": 3318,
+      "triangles": 1106,
+      "bounds": [
+        [
+          24.313199996948242,
+          -121.30400085449219,
+          1192.4599609375
+        ],
+        [
+          36.62220001220703,
+          -72.44219970703125,
+          1433.0400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4158_BP29313_FMA65326_Left anterior interosseous nerve.obj",
+      "fj": "FJ4158",
+      "fma": "FMA65326",
+      "name": "Left anterior interosseous nerve",
+      "bytes": 29314,
+      "sha256": "8dfe1d72b88241c98e172662d81ac35440f848aca553475caca50090b3ba21b1",
+      "partId": "FJ4158_Left_anterior_interosseous_nerve",
+      "vertices": 1212,
+      "triangles": 404,
+      "bounds": [
+        [
+          219.42100524902344,
+          -101.30400085449219,
+          927.4609985351562
+        ],
+        [
+          244.94700622558594,
+          -91.78309631347656,
+          994.0020141601562
+        ]
+      ]
+    },
+    {
+      "file": "FJ4159_BP29800_FMA8922_Anterior cutaneous branch of left first intercostal nerve.obj",
+      "fj": "FJ4159",
+      "fma": "FMA8922",
+      "name": "Anterior cutaneous branch of left first intercostal nerve",
+      "bytes": 46261,
+      "sha256": "f2342030606f6555098659bdd09e806e8650fb3dda298e6e1cc387cc6bee5215",
+      "partId": "FJ4159_Anterior_cutaneous_branch_of_left_first_intercostal_nerve",
+      "vertices": 1860,
+      "triangles": 620,
+      "bounds": [
+        [
+          0.4304499924182892,
+          -176.7550048828125,
+          1290.0999755859375
+        ],
+        [
+          19.064300537109375,
+          -161.18099975585938,
+          1303.2099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4163_BP29795_FMA6115_Anterior cutaneous branch of left second intercostal nerve.obj",
+      "fj": "FJ4163",
+      "fma": "FMA6115",
+      "name": "Anterior cutaneous branch of left second intercostal nerve",
+      "bytes": 33421,
+      "sha256": "011f5a6487e6e919695e114c498e35cfb35f41aed2e06b3714da0a3a2d1eb8d0",
+      "partId": "FJ4163_Anterior_cutaneous_branch_of_left_second_intercostal_nerve",
+      "vertices": 1338,
+      "triangles": 446,
+      "bounds": [
+        [
+          2.0527100563049316,
+          -192.43099975585938,
+          1258.3299560546875
+        ],
+        [
+          12.211299896240234,
+          -181.875,
+          1274.780029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4171_BP29488_FMA37074_Left axillary nerve.obj",
+      "fj": "FJ4171",
+      "fma": "FMA37074",
+      "name": "Left axillary nerve",
+      "bytes": 46757,
+      "sha256": "ba5be7fa0836ccfa72b016da504ab8ff04498c053d3ca4f5cf6b7ff18940418d",
+      "partId": "FJ4171_Left_axillary_nerve",
+      "vertices": 1962,
+      "triangles": 654,
+      "bounds": [
+        [
+          120.41300201416016,
+          -65.05599975585938,
+          1262.4599609375
+        ],
+        [
+          196.3560028076172,
+          -54.4468994140625,
+          1317
+        ]
+      ]
+    },
+    {
+      "file": "FJ4172_BP29806_FMA37071_Left radial nerve.obj",
+      "fj": "FJ4172",
+      "fma": "FMA37071",
+      "name": "Left radial nerve",
+      "bytes": 35574,
+      "sha256": "a6cd726af7026964e340fdae14c1dc22a8c8fbe0ed8996c937709e83a4cef909",
+      "partId": "FJ4172_Left_radial_nerve",
+      "vertices": 1728,
+      "triangles": 576,
+      "bounds": [
+        [
+          226.9040069580078,
+          -70.12590026855469,
+          933.3800048828125
+        ],
+        [
+          243.3209991455078,
+          -45.721900939941406,
+          1042.47998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4173_BP29081_FMA65396_Trunk of left great auricular nerve.obj",
+      "fj": "FJ4173",
+      "fma": "FMA65396",
+      "name": "Trunk of left great auricular nerve",
+      "bytes": 83521,
+      "sha256": "82f55fb034d158ce9c7a767e7e52fc5e598c149f2f9e2a9265c7c553acdcd3ba",
+      "partId": "FJ4173_Trunk_of_left_great_auricular_nerve",
+      "vertices": 3774,
+      "triangles": 1258,
+      "bounds": [
+        [
+          32.032100677490234,
+          -123.61599731445312,
+          1427.239990234375
+        ],
+        [
+          51.74599838256836,
+          -74.02279663085938,
+          1459.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4174_BP29305_FMA85332_Trunk of left first intercostal nerve.obj",
+      "fj": "FJ4174",
+      "fma": "FMA85332",
+      "name": "Trunk of left first intercostal nerve",
+      "bytes": 50342,
+      "sha256": "46617af185bdc1d74b152120664ef2146ac553e30366798bd0f8dfa18b7dac29",
+      "partId": "FJ4174_Trunk_of_left_first_intercostal_nerve",
+      "vertices": 2322,
+      "triangles": 774,
+      "bounds": [
+        [
+          18.53849983215332,
+          -161.76100158691406,
+          1295.2099609375
+        ],
+        [
+          68.44210052490234,
+          -63.2765998840332,
+          1360.68994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4178_BP29343_FMA85334_Trunk of left second intercostal nerve.obj",
+      "fj": "FJ4178",
+      "fma": "FMA85334",
+      "name": "Trunk of left second intercostal nerve",
+      "bytes": 71345,
+      "sha256": "d49324805db7d3ecfaec13bde329278c658bfd417d33343ec4809d5231b0615a",
+      "partId": "FJ4178_Trunk_of_left_second_intercostal_nerve",
+      "vertices": 3396,
+      "triangles": 1132,
+      "bounds": [
+        [
+          9.690079689025879,
+          -183.40499877929688,
+          1269.56005859375
+        ],
+        [
+          92.39749908447266,
+          -54.400001525878906,
+          1340.1600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4185_BP29040_FMA65908_Left second intercostobrachial nerve.obj",
+      "fj": "FJ4185",
+      "fma": "FMA65908",
+      "name": "Left second intercostobrachial nerve",
+      "bytes": 128467,
+      "sha256": "9f467fa539885021336d9800ba581f7dea01aba5478d34d940ca6fd7e07f26f9",
+      "partId": "FJ4185_Left_second_intercostobrachial_nerve",
+      "vertices": 4704,
+      "triangles": 1568,
+      "bounds": [
+        [
+          68.20659637451172,
+          -90.36370086669922,
+          1184.6700439453125
+        ],
+        [
+          188.22500610351562,
+          -48.04140090942383,
+          1331.4200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4197_BP29803_FMA6752_Lateral cutaneous branch of left first intercostal nerve.obj",
+      "fj": "FJ4197",
+      "fma": "FMA6752",
+      "name": "Lateral cutaneous branch of left first intercostal nerve",
+      "bytes": 79619,
+      "sha256": "c9545d536395b7f1e7abdb333040021fcfc92157e08c2031266fb8e15c932821",
+      "partId": "FJ4197_Lateral_cutaneous_branch_of_left_first_intercostal_nerve",
+      "vertices": 3564,
+      "triangles": 1188,
+      "bounds": [
+        [
+          63.914798736572266,
+          -150.55599975585938,
+          1291.949951171875
+        ],
+        [
+          92.30850219726562,
+          -92.62429809570312,
+          1330.719970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4209_BP29800_FMA8922_Anterior cutaneous branch of left first intercostal nerve.obj",
+      "fj": "FJ4209",
+      "fma": "FMA8922",
+      "name": "Anterior cutaneous branch of left first intercostal nerve",
+      "bytes": 57098,
+      "sha256": "33a4919560df3ea0a4391d234540396e39447bc22cfa6f4066e8d30d0a851918",
+      "partId": "FJ4209_Anterior_cutaneous_branch_of_left_first_intercostal_nerve",
+      "vertices": 2328,
+      "triangles": 776,
+      "bounds": [
+        [
+          16.356800079345703,
+          -182.2239990234375,
+          1281.47998046875
+        ],
+        [
+          43.78269958496094,
+          -171.9669952392578,
+          1294
+        ]
+      ]
+    },
+    {
+      "file": "FJ4213_BP29795_FMA6115_Anterior cutaneous branch of left second intercostal nerve.obj",
+      "fj": "FJ4213",
+      "fma": "FMA6115",
+      "name": "Anterior cutaneous branch of left second intercostal nerve",
+      "bytes": 60927,
+      "sha256": "ab74313bb7e1c9974b1095c80f925bcae65d9a9a09ceff0a4c8df1c77687ca93",
+      "partId": "FJ4213_Anterior_cutaneous_branch_of_left_second_intercostal_nerve",
+      "vertices": 2472,
+      "triangles": 824,
+      "bounds": [
+        [
+          11.246999740600586,
+          -198.49099731445312,
+          1254.02001953125
+        ],
+        [
+          43.706298828125,
+          -189.218994140625,
+          1267.800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4221_BP28988_FMA65389_Left lesser occipital nerve.obj",
+      "fj": "FJ4221",
+      "fma": "FMA65389",
+      "name": "Left lesser occipital nerve",
+      "bytes": 104089,
+      "sha256": "879fc0bde040b9ba28fe0f78a4fcf02fea3e24bd69193f85cb6cd3c375dab314",
+      "partId": "FJ4221_Left_lesser_occipital_nerve",
+      "vertices": 3786,
+      "triangles": 1262,
+      "bounds": [
+        [
+          8.288619995117188,
+          -67.76529693603516,
+          1448.1400146484375
+        ],
+        [
+          37.62329864501953,
+          14.718600273132324,
+          1601.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4222_BP29235_FMA79667_Trunk of left long thoracic nerve.obj",
+      "fj": "FJ4222",
+      "fma": "FMA79667",
+      "name": "Trunk of left long thoracic nerve",
+      "bytes": 99937,
+      "sha256": "4fb3e702f359607165b89d30d4d94c6883d64e9f878583db223fb5187a9062ae",
+      "partId": "FJ4222_Trunk_of_left_long_thoracic_nerve",
+      "vertices": 4680,
+      "triangles": 1560,
+      "bounds": [
+        [
+          26.279399871826172,
+          -140.14999389648438,
+          1110.5799560546875
+        ],
+        [
+          135.69000244140625,
+          -72.32839965820312,
+          1401.52001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4223_BP29528_FMA65295_Left medial pectoral nerve.obj",
+      "fj": "FJ4223",
+      "fma": "FMA65295",
+      "name": "Left medial pectoral nerve",
+      "bytes": 182549,
+      "sha256": "3ba80e21c2805f78aa0c8067342c5a644b08745515e2b928f4abd33d2bee32ae",
+      "partId": "FJ4223_Left_medial_pectoral_nerve",
+      "vertices": 6900,
+      "triangles": 2300,
+      "bounds": [
+        [
+          29.907899856567383,
+          -203.91099548339844,
+          1158.1700439453125
+        ],
+        [
+          120.56999969482422,
+          -95.00959777832031,
+          1317.68994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4224_BP29809_FMA37068_Left median nerve.obj",
+      "fj": "FJ4224",
+      "fma": "FMA37068",
+      "name": "Left median nerve",
+      "bytes": 275660,
+      "sha256": "0005af3008aa7ae05d1c8900bd559458f897d89fc99c4899323195af81ba99e3",
+      "partId": "FJ4224_Left_median_nerve",
+      "vertices": 13116,
+      "triangles": 4372,
+      "bounds": [
+        [
+          -0.3123520016670227,
+          -135.4429931640625,
+          784.3939819335938
+        ],
+        [
+          262.7179870605469,
+          -68.30760192871094,
+          1400.1500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4225_BP29815_FMA37066_Left musculocutaneous nerve.obj",
+      "fj": "FJ4225",
+      "fma": "FMA37066",
+      "name": "Left musculocutaneous nerve",
+      "bytes": 209111,
+      "sha256": "33bcb8e18b548e418eaef9905d8639382498628b0937a2faba4b43b2d257e303",
+      "partId": "FJ4225_Left_musculocutaneous_nerve",
+      "vertices": 9792,
+      "triangles": 3264,
+      "bounds": [
+        [
+          87.37969970703125,
+          -130.00599670410156,
+          829.8590087890625
+        ],
+        [
+          271.6619873046875,
+          -81.57460021972656,
+          1338.9000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4226_BP29455_FMA6201_Pericardial branch of phrenic nerve.obj",
+      "fj": "FJ4226",
+      "fma": "FMA6201",
+      "name": "Pericardial branch of phrenic nerve",
+      "bytes": 32661,
+      "sha256": "d3f8a433870376379548dbe56681a08da7878626188da6f51e5fe241842c67b9",
+      "partId": "FJ4226_Pericardial_branch_of_phrenic_nerve",
+      "vertices": 1224,
+      "triangles": 408,
+      "bounds": [
+        [
+          23.959999084472656,
+          -144.75599670410156,
+          1233.9200439453125
+        ],
+        [
+          31.7898006439209,
+          -118.95099639892578,
+          1262.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4240_BP29806_FMA37071_Left radial nerve.obj",
+      "fj": "FJ4240",
+      "fma": "FMA37071",
+      "name": "Left radial nerve",
+      "bytes": 281192,
+      "sha256": "b7bbc22a41bcfc72af2c1a9b6fedd888e372d784887ef4d7400f079e678f698d",
+      "partId": "FJ4240_Left_radial_nerve",
+      "vertices": 13422,
+      "triangles": 4474,
+      "bounds": [
+        [
+          85.10420227050781,
+          -107.01599884033203,
+          786.3060302734375
+        ],
+        [
+          277.9840087890625,
+          -53.102699279785156,
+          1333.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4241_BP29108_FMA79671_Trunk of left subclavian nerve.obj",
+      "fj": "FJ4241",
+      "fma": "FMA79671",
+      "name": "Trunk of left subclavian nerve",
+      "bytes": 38077,
+      "sha256": "b27ca8eaf3d1050b81333c317d2ea749fde10da49a43d51a5c5c47fb84edf350",
+      "partId": "FJ4241_Trunk_of_left_subclavian_nerve",
+      "vertices": 1464,
+      "triangles": 488,
+      "bounds": [
+        [
+          47.736000061035156,
+          -128.09100341796875,
+          1315.9100341796875
+        ],
+        [
+          66.53679656982422,
+          -79.0248031616211,
+          1364.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4242_BP29426_FMA65306_Left superior subscapular nerve.obj",
+      "fj": "FJ4242",
+      "fma": "FMA65306",
+      "name": "Left superior subscapular nerve",
+      "bytes": 69024,
+      "sha256": "b73b9361cbfbc1acee0ef817cb279f9d80f1ea7c006cbacffd0673dd5e63343a",
+      "partId": "FJ4242_Left_superior_subscapular_nerve",
+      "vertices": 2748,
+      "triangles": 916,
+      "bounds": [
+        [
+          88.77130126953125,
+          -77.30660247802734,
+          1222.8399658203125
+        ],
+        [
+          142.07899475097656,
+          -37.66360092163086,
+          1330.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4243_BP29488_FMA37074_Left axillary nerve.obj",
+      "fj": "FJ4243",
+      "fma": "FMA37074",
+      "name": "Left axillary nerve",
+      "bytes": 27986,
+      "sha256": "1744a5584078ab48f0a1fd4e4c06efefd304c61208eda1f2792d17d745179d12",
+      "partId": "FJ4243_Left_axillary_nerve",
+      "vertices": 1080,
+      "triangles": 360,
+      "bounds": [
+        [
+          178.01800537109375,
+          -79.83740234375,
+          1229.9599609375
+        ],
+        [
+          221.36199951171875,
+          -60.092899322509766,
+          1277.760009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4244_BP29533_FMA65416_Left supraclavicular nerve.obj",
+      "fj": "FJ4244",
+      "fma": "FMA65416",
+      "name": "Left supraclavicular nerve",
+      "bytes": 151705,
+      "sha256": "87ec4b0e8a2b26d9bd68b76692583907e77495006c04cc27c2ec40f0268027da",
+      "partId": "FJ4244_Left_supraclavicular_nerve",
+      "vertices": 5094,
+      "triangles": 1698,
+      "bounds": [
+        [
+          30.705900192260742,
+          -138.36500549316406,
+          1339.47998046875
+        ],
+        [
+          127.65799713134766,
+          -72.90730285644531,
+          1422.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4245_BP29808_FMA7023_Trunk of left first thoracic nerve.obj",
+      "fj": "FJ4245",
+      "fma": "FMA7023",
+      "name": "Trunk of left first thoracic nerve",
+      "bytes": 24327,
+      "sha256": "730268434b74e1ae81dc620a8b841836a9212fbff2cbd201f0a3a1fde4439034",
+      "partId": "FJ4245_Trunk_of_left_first_thoracic_nerve",
+      "vertices": 1032,
+      "triangles": 344,
+      "bounds": [
+        [
+          1.139870047569275,
+          -66.53279876708984,
+          1358.8699951171875
+        ],
+        [
+          25.760000228881836,
+          -57.0010986328125,
+          1364.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4248_BP29807_FMA7025_Trunk of left second thoracic nerve.obj",
+      "fj": "FJ4248",
+      "fma": "FMA7025",
+      "name": "Trunk of left second thoracic nerve",
+      "bytes": 27165,
+      "sha256": "0248dfe17771bcf2f714318160d7f184cb3127473096329899efc3a946feaee8",
+      "partId": "FJ4248_Trunk_of_left_second_thoracic_nerve",
+      "vertices": 1320,
+      "triangles": 440,
+      "bounds": [
+        [
+          0.22376400232315063,
+          -56.31719970703125,
+          1336.8199462890625
+        ],
+        [
+          22.569799423217773,
+          -48.10210037231445,
+          1341.02001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4256_BP29546_FMA65292_Left thoracodorsal nerve.obj",
+      "fj": "FJ4256",
+      "fma": "FMA65292",
+      "name": "Left thoracodorsal nerve",
+      "bytes": 149894,
+      "sha256": "97fbf447a823d44529a6f69a382395cad552bda6200a9ffa53d06c9f7b3724c2",
+      "partId": "FJ4256_Left_thoracodorsal_nerve",
+      "vertices": 6204,
+      "triangles": 2068,
+      "bounds": [
+        [
+          39.0635986328125,
+          -66.80010223388672,
+          1068.3399658203125
+        ],
+        [
+          132.15699768066406,
+          -14.929400444030762,
+          1308.4200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4257_BP29547_FMA55173_Left transverse cervical nerve.obj",
+      "fj": "FJ4257",
+      "fma": "FMA55173",
+      "name": "Left transverse cervical nerve",
+      "bytes": 69702,
+      "sha256": "de235ed7814f81c43919c28cd13ab6501b05f6b1a85ace86b0a98d4de34f91f7",
+      "partId": "FJ4257_Left_transverse_cervical_nerve",
+      "vertices": 2562,
+      "triangles": 854,
+      "bounds": [
+        [
+          25.00160026550293,
+          -118.56500244140625,
+          1400.260009765625
+        ],
+        [
+          48.575801849365234,
+          -74.50910186767578,
+          1427.1199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4258_BP29812_FMA37321_Left ulnar nerve.obj",
+      "fj": "FJ4258",
+      "fma": "FMA37321",
+      "name": "Left ulnar nerve",
+      "bytes": 276297,
+      "sha256": "e83c41c5d566d299f56e4e68ae45022fa7b41a649e4a2a6e4de1cc6ba17ad38f",
+      "partId": "FJ4258_Left_ulnar_nerve",
+      "vertices": 13218,
+      "triangles": 4406,
+      "bounds": [
+        [
+          82.38960266113281,
+          -132.718994140625,
+          786.052978515625
+        ],
+        [
+          247.5590057373047,
+          -54.728599548339844,
+          1333.6600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4260_BP29456_FMA6442_Left first cervical nerve.obj",
+      "fj": "FJ4260",
+      "fma": "FMA6442",
+      "name": "Left first cervical nerve",
+      "bytes": 134503,
+      "sha256": "105b1717c2f70059928f164a575199ebdf801905c80372c3be1228aff88fb9af",
+      "partId": "FJ4260_Left_first_cervical_nerve",
+      "vertices": 6498,
+      "triangles": 2166,
+      "bounds": [
+        [
+          0.9486600160598755,
+          -140.15199279785156,
+          1423.56005859375
+        ],
+        [
+          32.53390121459961,
+          -56.692901611328125,
+          1479.550048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4261_BP29310_FMA7003_Trunk of left second cervical nerve.obj",
+      "fj": "FJ4261",
+      "fma": "FMA7003",
+      "name": "Trunk of left second cervical nerve",
+      "bytes": 69930,
+      "sha256": "7c350173fe65eacc6f48aff7a2c224e6f1f904e63f05fe41cec69f42d902e746",
+      "partId": "FJ4261_Trunk_of_left_second_cervical_nerve",
+      "vertices": 3300,
+      "triangles": 1100,
+      "bounds": [
+        [
+          0.6795430183410645,
+          -76.08070373535156,
+          1430.800048828125
+        ],
+        [
+          39.26169967651367,
+          -56.58769989013672,
+          1463.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4262_BP29408_FMA7005_Trunk of left third cervical nerve.obj",
+      "fj": "FJ4262",
+      "fma": "FMA7005",
+      "name": "Trunk of left third cervical nerve",
+      "bytes": 86754,
+      "sha256": "a13f145f88a653114ecdef8f416bb29cc1237cccd254ec03ec6b405103c2c252",
+      "partId": "FJ4262_Trunk_of_left_third_cervical_nerve",
+      "vertices": 4092,
+      "triangles": 1364,
+      "bounds": [
+        [
+          2.8643999099731445,
+          -82.02490234375,
+          1419.4300537109375
+        ],
+        [
+          39.1411018371582,
+          -59.18899917602539,
+          1446.1800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4263_BP29309_FMA7007_Trunk of left fourth cervical nerve.obj",
+      "fj": "FJ4263",
+      "fma": "FMA7007",
+      "name": "Trunk of left fourth cervical nerve",
+      "bytes": 60427,
+      "sha256": "94f418aa78b950bf3f39ebe6086795c6c66c0fee49c5ed795f6523d0c4f21eb0",
+      "partId": "FJ4263_Trunk_of_left_fourth_cervical_nerve",
+      "vertices": 2802,
+      "triangles": 934,
+      "bounds": [
+        [
+          1.0037000179290771,
+          -84.1708984375,
+          1414.3399658203125
+        ],
+        [
+          28.994199752807617,
+          -62.52410125732422,
+          1428.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4264_BP29324_FMA24105_Trunk of left fifth cervical nerve.obj",
+      "fj": "FJ4264",
+      "fma": "FMA24105",
+      "name": "Trunk of left fifth cervical nerve",
+      "bytes": 115363,
+      "sha256": "c45e251cfc015a3fd9834805a55e29fb3123485d3bc321af2b1442fa975d9c00",
+      "partId": "FJ4264_Trunk_of_left_fifth_cervical_nerve",
+      "vertices": 5778,
+      "triangles": 1926,
+      "bounds": [
+        [
+          1.0019400119781494,
+          -89.40750122070312,
+          1378.93994140625
+        ],
+        [
+          40.02149963378906,
+          -64.72090148925781,
+          1418.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4265_BP29315_FMA7011_Trunk of left sixth cervical nerve.obj",
+      "fj": "FJ4265",
+      "fma": "FMA7011",
+      "name": "Trunk of left sixth cervical nerve",
+      "bytes": 68404,
+      "sha256": "4f8c708b7a866609078ce513432b060fd9bf04f2b899aef52ebaf9c8af13a200",
+      "partId": "FJ4265_Trunk_of_left_sixth_cervical_nerve",
+      "vertices": 3318,
+      "triangles": 1106,
+      "bounds": [
+        [
+          0.7275360226631165,
+          -83.43309783935547,
+          1371.739990234375
+        ],
+        [
+          41.74470138549805,
+          -65.34329986572266,
+          1401.1500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4266_BP29366_FMA7013_Trunk of left seventh cervical nerve.obj",
+      "fj": "FJ4266",
+      "fma": "FMA7013",
+      "name": "Trunk of left seventh cervical nerve",
+      "bytes": 58244,
+      "sha256": "d22ca0d722f811e9fba1cc51accfbd50d0e8805070b6fe0616cf9700e57e529a",
+      "partId": "FJ4266_Trunk_of_left_seventh_cervical_nerve",
+      "vertices": 2868,
+      "triangles": 956,
+      "bounds": [
+        [
+          0.6784679889678955,
+          -76.67369842529297,
+          1361.6500244140625
+        ],
+        [
+          42.34400177001953,
+          -63.446998596191406,
+          1391.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4267_BP29406_FMA7015_Trunk of left eighth cervical nerve.obj",
+      "fj": "FJ4267",
+      "fma": "FMA7015",
+      "name": "Trunk of left eighth cervical nerve",
+      "bytes": 60680,
+      "sha256": "6e3be4f8b771cd9d2226869e18f2c8e99155319063c44ec1c6869bb930674002",
+      "partId": "FJ4267_Trunk_of_left_eighth_cervical_nerve",
+      "vertices": 2910,
+      "triangles": 970,
+      "bounds": [
+        [
+          1.3118599653244019,
+          -80.33519744873047,
+          1353.3399658203125
+        ],
+        [
+          46.401798248291016,
+          -60.3572998046875,
+          1377.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4268_BP29802_FMA44997_Medial dorsal digital branch of left radial nerve to left middle finger.obj",
+      "fj": "FJ4268",
+      "fma": "FMA44997",
+      "name": "Medial dorsal digital branch of left radial nerve to left middle finger",
+      "bytes": 56793,
+      "sha256": "2d5746ee24015a824621a25a34a94799b269222d108785e11c6fe69e0276453d",
+      "partId": "FJ4268_Medial_dorsal_digital_branch_of_left_radial_nerve_to_left_middle_finger",
+      "vertices": 2346,
+      "triangles": 782,
+      "bounds": [
+        [
+          256.0350036621094,
+          -178.75900268554688,
+          660.718017578125
+        ],
+        [
+          275.84100341796875,
+          -102.00299835205078,
+          800.2059936523438
+        ]
+      ]
+    },
+    {
+      "file": "FJ4269_BP29786_FMA44977_First dorsal digital branch of radial nerve.obj",
+      "fj": "FJ4269",
+      "fma": "FMA44977",
+      "name": "First dorsal digital branch of radial nerve",
+      "bytes": 42712,
+      "sha256": "db79eeaa7ce17b437e79846dea09b93ea021e2b0d54dade976b98fe5d6d00d00",
+      "partId": "FJ4269_First_dorsal_digital_branch_of_radial_nerve",
+      "vertices": 1932,
+      "triangles": 644,
+      "bounds": [
+        [
+          266.02099609375,
+          -163.06199645996094,
+          739.7050170898438
+        ],
+        [
+          324.7120056152344,
+          -94.8563003540039,
+          832.9030151367188
+        ]
+      ]
+    },
+    {
+      "file": "FJ4270_BP29794_FMA44979_First dorsal digital branch of left radial nerve.obj",
+      "fj": "FJ4270",
+      "fma": "FMA44979",
+      "name": "First dorsal digital branch of left radial nerve",
+      "bytes": 97984,
+      "sha256": "22cb87e03de72e017a4caa63603f93793a30cc300570be73990562cad5210fdc",
+      "partId": "FJ4270_First_dorsal_digital_branch_of_left_radial_nerve",
+      "vertices": 3942,
+      "triangles": 1314,
+      "bounds": [
+        [
+          273.0360107421875,
+          -182.0590057373047,
+          657.9550170898438
+        ],
+        [
+          317.6180114746094,
+          -105.36599731445312,
+          803.4019775390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4271_BP29790_FMA44986_Dorsal digital branch of left radial nerve to medial side of left index finger.obj",
+      "fj": "FJ4271",
+      "fma": "FMA44986",
+      "name": "Dorsal digital branch of left radial nerve to medial side of left index finger",
+      "bytes": 35917,
+      "sha256": "180533a3530d9d7c10415f3e6126ca181147b36d84538707f9ca59c9cde17d1f",
+      "partId": "FJ4271_Dorsal_digital_branch_of_left_radial_nerve_to_medial_side_of_left_index_finger",
+      "vertices": 1398,
+      "triangles": 466,
+      "bounds": [
+        [
+          278.1159973144531,
+          -174.81900024414062,
+          664.8150024414062
+        ],
+        [
+          304.9280090332031,
+          -122.61100006103516,
+          728.0780029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4273_BP29300_FMA65364_Inferior trunk of left brachial nerve plexus.obj",
+      "fj": "FJ4273",
+      "fma": "FMA65364",
+      "name": "Inferior trunk of left brachial nerve plexus",
+      "bytes": 24250,
+      "sha256": "d04bdf01c87bb85a6476fae87427993eacf640093acbd279954352a2a42486db",
+      "partId": "FJ4273_Inferior_trunk_of_left_brachial_nerve_plexus",
+      "vertices": 990,
+      "triangles": 330,
+      "bounds": [
+        [
+          32.311500549316406,
+          -84.19989776611328,
+          1348.949951171875
+        ],
+        [
+          63.561100006103516,
+          -73.96549987792969,
+          1365.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "fj": "FJ4274",
+      "fma": "FMA45239",
+      "name": "Lateral cord of left brachial nerve plexus",
+      "bytes": 21771,
+      "sha256": "b386c72f814da56f26b3fa8647e53d76b75f20008a7b6678d50d644c0358f445",
+      "partId": "FJ4274_Lateral_cord_of_left_brachial_nerve_plexus",
+      "vertices": 1044,
+      "triangles": 348,
+      "bounds": [
+        [
+          64.18389892578125,
+          -89.2354965209961,
+          1335.8800048828125
+        ],
+        [
+          90.39459991455078,
+          -78.38249969482422,
+          1362.6199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "fj": "FJ4275",
+      "fma": "FMA45241",
+      "name": "Medial cord of left brachial nerve plexus",
+      "bytes": 103364,
+      "sha256": "dafa39b78d7491f619aa9aa09e676da0560dd86357cc4d118e7ab4ce7cc89e7d",
+      "partId": "FJ4275_Medial_cord_of_left_brachial_nerve_plexus",
+      "vertices": 5124,
+      "triangles": 1708,
+      "bounds": [
+        [
+          53.215599060058594,
+          -91.07360076904297,
+          1330.280029296875
+        ],
+        [
+          89.82530212402344,
+          -81.24220275878906,
+          1352.5899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4276_BP29380_FMA65366_Middle trunk of left brachial nerve plexus.obj",
+      "fj": "FJ4276",
+      "fma": "FMA65366",
+      "name": "Middle trunk of left brachial nerve plexus",
+      "bytes": 22974,
+      "sha256": "af471cdd660e8ec2dd4f783e2d3537c0cb0f96f522031d88389fa1fc12481526",
+      "partId": "FJ4276_Middle_trunk_of_left_brachial_nerve_plexus",
+      "vertices": 1050,
+      "triangles": 350,
+      "bounds": [
+        [
+          34.03070068359375,
+          -81.095703125,
+          1352.219970703125
+        ],
+        [
+          66.78520202636719,
+          -73.8280029296875,
+          1373.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ4278_BP29777_FMA44984_Lateral dorsal digital branch of radial nerve to index finger.obj",
+      "fj": "FJ4278",
+      "fma": "FMA44984",
+      "name": "Lateral dorsal digital branch of radial nerve to index finger",
+      "bytes": 39534,
+      "sha256": "6fb98b933f510a6be6e93040652ef57e590163bb2b0c88ec17b5b2b19be5e2db",
+      "partId": "FJ4278_Lateral_dorsal_digital_branch_of_radial_nerve_to_index_finger",
+      "vertices": 1812,
+      "triangles": 604,
+      "bounds": [
+        [
+          276.04901123046875,
+          -164.63400268554688,
+          674.3699951171875
+        ],
+        [
+          308.8240051269531,
+          -105.08300018310547,
+          788.2459716796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4279_BP29423_FMA65387_Trunk of left phrenic nerve.obj",
+      "fj": "FJ4279",
+      "fma": "FMA65387",
+      "name": "Trunk of left phrenic nerve",
+      "bytes": 64088,
+      "sha256": "9d9fb727aa8a3bd4d8596f2cdda44a6bf1e8ef941f288d3ade9542203d99d846",
+      "partId": "FJ4279_Trunk_of_left_phrenic_nerve",
+      "vertices": 2148,
+      "triangles": 716,
+      "bounds": [
+        [
+          29.62470054626465,
+          -166.3800048828125,
+          1179.0699462890625
+        ],
+        [
+          101.85299682617188,
+          -120.58000183105469,
+          1193.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4280_BP29303_FMA45243_Posterior cord of left brachial nerve plexus.obj",
+      "fj": "FJ4280",
+      "fma": "FMA45243",
+      "name": "Posterior cord of left brachial nerve plexus",
+      "bytes": 65939,
+      "sha256": "2951c684acb4242e581f95e2d17bbe59e485bbc77c1d148d7284c68d1883135d",
+      "partId": "FJ4280_Posterior_cord_of_left_brachial_nerve_plexus",
+      "vertices": 3390,
+      "triangles": 1130,
+      "bounds": [
+        [
+          61.03030014038086,
+          -81.87580108642578,
+          1330.1400146484375
+        ],
+        [
+          87.96029663085938,
+          -75.26699829101562,
+          1354.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ4281_BP29027_FMA65338_Lateral proper palmar digital branch of left median nerve to left thumb.obj",
+      "fj": "FJ4281",
+      "fma": "FMA65338",
+      "name": "Lateral proper palmar digital branch of left median nerve to left thumb",
+      "bytes": 50406,
+      "sha256": "d88b84cc7425ef07af878e7e653dfb6dc19da4bb3f7c357596a06bb49ed0b3d0",
+      "partId": "FJ4281_Lateral_proper_palmar_digital_branch_of_left_median_nerve_to_left_thumb",
+      "vertices": 2010,
+      "triangles": 670,
+      "bounds": [
+        [
+          261.27801513671875,
+          -173.56700134277344,
+          720.7930297851562
+        ],
+        [
+          322.531005859375,
+          -134.4290008544922,
+          785.8309936523438
+        ]
+      ]
+    },
+    {
+      "file": "FJ4282_BP29041_FMA65344_Medial proper palmar digital branch of left median nerve to left index finger.obj",
+      "fj": "FJ4282",
+      "fma": "FMA65344",
+      "name": "Medial proper palmar digital branch of left median nerve to left index finger",
+      "bytes": 58943,
+      "sha256": "32c713dcc51b4795a93a5f92837ea3bd3c8d385d7b8d8041941b17fc466c838f",
+      "partId": "FJ4282_Medial_proper_palmar_digital_branch_of_left_median_nerve_to_left_index_finger",
+      "vertices": 2286,
+      "triangles": 762,
+      "bounds": [
+        [
+          262.1210021972656,
+          -186.875,
+          663.2379760742188
+        ],
+        [
+          304.5989990234375,
+          -133.8179931640625,
+          784.9099731445312
+        ]
+      ]
+    },
+    {
+      "file": "FJ4283_BP29095_FMA65348_Medial proper palmar digital branch of left median nerve to left middle finger.obj",
+      "fj": "FJ4283",
+      "fma": "FMA65348",
+      "name": "Medial proper palmar digital branch of left median nerve to left middle finger",
+      "bytes": 54685,
+      "sha256": "59eb7f2804fb9cb54f54e98411c5b72e71a1e287cfca48eb177cecf1b36a7b92",
+      "partId": "FJ4283_Medial_proper_palmar_digital_branch_of_left_median_nerve_to_left_middle_finger",
+      "vertices": 2004,
+      "triangles": 668,
+      "bounds": [
+        [
+          256.2460021972656,
+          -194.0709991455078,
+          654.2680053710938
+        ],
+        [
+          274.2120056152344,
+          -129.68299865722656,
+          797
+        ]
+      ]
+    },
+    {
+      "file": "FJ4284_BP29101_FMA65342_Lateral proper palmar digital branch of left median nerve to left index finger.obj",
+      "fj": "FJ4284",
+      "fma": "FMA65342",
+      "name": "Lateral proper palmar digital branch of left median nerve to left index finger",
+      "bytes": 46792,
+      "sha256": "75ad7bedddb7d669889e2e9d7f1e93b4ea38ea039f6028aae27ff87f3e2a7ba2",
+      "partId": "FJ4284_Lateral_proper_palmar_digital_branch_of_left_median_nerve_to_left_index_finger",
+      "vertices": 1920,
+      "triangles": 640,
+      "bounds": [
+        [
+          262.1600036621094,
+          -183.86900329589844,
+          664.2150268554688
+        ],
+        [
+          310.6960144042969,
+          -134.6320037841797,
+          784.9080200195312
+        ]
+      ]
+    },
+    {
+      "file": "FJ4285_BP29115_FMA44867_Lateral proper palmar digital branch of median nerve to middle finger.obj",
+      "fj": "FJ4285",
+      "fma": "FMA44867",
+      "name": "Lateral proper palmar digital branch of median nerve to middle finger",
+      "bytes": 39168,
+      "sha256": "320f55307f8ff753ed20beedd13d8716e6b391f324db59dc1d658c4c2b6615c8",
+      "partId": "FJ4285_Lateral_proper_palmar_digital_branch_of_median_nerve_to_middle_finger",
+      "vertices": 1548,
+      "triangles": 516,
+      "bounds": [
+        [
+          269.989990234375,
+          -195.2570037841797,
+          654.9409790039062
+        ],
+        [
+          280.33099365234375,
+          -133.68600463867188,
+          755.7130126953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4286_BP29194_FMA44871_Lateral proper palmar digital branch of left median nerve to left ring finger.obj",
+      "fj": "FJ4286",
+      "fma": "FMA44871",
+      "name": "Lateral proper palmar digital branch of left median nerve to left ring finger",
+      "bytes": 55592,
+      "sha256": "9e26a20ae66a12b1aa1feaa692c8e7ab76379a9d5ea744d812d95a09e915a9df",
+      "partId": "FJ4286_Lateral_proper_palmar_digital_branch_of_left_median_nerve_to_left_ring_finger",
+      "vertices": 2082,
+      "triangles": 694,
+      "bounds": [
+        [
+          250.0800018310547,
+          -194.31900024414062,
+          665.6500244140625
+        ],
+        [
+          257.40899658203125,
+          -129.3350067138672,
+          768.9559936523438
+        ]
+      ]
+    },
+    {
+      "file": "FJ4287_BP28982_FMA65340_Medial proper palmar digital branch of left median nerve to left thumb.obj",
+      "fj": "FJ4287",
+      "fma": "FMA65340",
+      "name": "Medial proper palmar digital branch of left median nerve to left thumb",
+      "bytes": 28590,
+      "sha256": "33073fc6ea60d9d09a2952586de20e064098c3562cfd57b52b89a269c263409b",
+      "partId": "FJ4287_Medial_proper_palmar_digital_branch_of_left_median_nerve_to_left_thumb",
+      "vertices": 1098,
+      "triangles": 366,
+      "bounds": [
+        [
+          284.5979919433594,
+          -170.28799438476562,
+          718.5780029296875
+        ],
+        [
+          319.80999755859375,
+          -143.58299255371094,
+          772.6719970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4290_BP29296_FMA65362_Superior trunk of left brachial nerve plexus.obj",
+      "fj": "FJ4290",
+      "fma": "FMA65362",
+      "name": "Superior trunk of left brachial nerve plexus",
+      "bytes": 26889,
+      "sha256": "eef38026c899cc0602025cbdff6efab87c45da270b2b4ff63989f1bd5db52077",
+      "partId": "FJ4290_Superior_trunk_of_left_brachial_nerve_plexus",
+      "vertices": 1284,
+      "triangles": 428,
+      "bounds": [
+        [
+          37.2338981628418,
+          -83.1885986328125,
+          1351.949951171875
+        ],
+        [
+          66.58390045166016,
+          -75.61599731445312,
+          1381.9100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ4291_BP29635_FMA75533_Set of phrenico-abdominal branches of phrenic nerve.obj",
+      "fj": "FJ4291",
+      "fma": "FMA75533",
+      "name": "Set of phrenico-abdominal branches of phrenic nerve",
+      "bytes": 58496,
+      "sha256": "20c14106def611e9545307c64a636fdbbfa2f7f354463eca4b8f1c1b6a7c4d4a",
+      "partId": "FJ4291_Set_of_phrenico-abdominal_branches_of_phrenic_nerve",
+      "vertices": 1896,
+      "triangles": 632,
+      "bounds": [
+        [
+          -103.16300201416016,
+          -166.4409942626953,
+          1179.0699462890625
+        ],
+        [
+          -30.934600830078125,
+          -120.58000183105469,
+          1193.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ4426_BP29816_FMA242005_Neural tissue of spinal cord.obj",
+      "fj": "FJ4426",
+      "fma": "FMA242005",
+      "name": "Neural tissue of spinal cord",
+      "bytes": 852923,
+      "sha256": "16a3dbf5a0fbc6334df956071a8e27b4f538a9d1f18178919984df0856aa7053",
+      "partId": "FJ4426_Neural_tissue_of_spinal_cord",
+      "vertices": 29856,
+      "triangles": 9952,
+      "bounds": [
+        [
+          -9.42609977722168,
+          -73.14230346679688,
+          1030.56005859375
+        ],
+        [
+          8.12147045135498,
+          -25.71339988708496,
+          1482.3900146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ7501_BP23301_FMA50875_Right optic nerve.obj",
+      "fj": "FJ7501",
+      "fma": "FMA50875",
+      "name": "Right optic nerve",
+      "bytes": 97548,
+      "sha256": "15c204aca7e2140d534e10e1bc048cfe8ed67a5ab480365be2fbff5c8e5b398f",
+      "partId": "FJ7501_Right_optic_nerve",
+      "vertices": 4518,
+      "triangles": 1506,
+      "bounds": [
+        [
+          -31.264400482177734,
+          -142.43299865722656,
+          1518.3900146484375
+        ],
+        [
+          -3.8102500438690186,
+          -107.76599884033203,
+          1538.5799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ7501M_BP23214_FMA50878_Left optic nerve.obj",
+      "fj": "FJ7501M",
+      "fma": "FMA50878",
+      "name": "Left optic nerve",
+      "bytes": 97007,
+      "sha256": "b0ffb2097bb6fd3609c68df8aea9b5383c074863e0b4583184a7135ccbae5c54",
+      "partId": "FJ7501M_Left_optic_nerve",
+      "vertices": 4518,
+      "triangles": 1506,
+      "bounds": [
+        [
+          3.8102500438690186,
+          -142.4199981689453,
+          1518.4100341796875
+        ],
+        [
+          31.264400482177734,
+          -107.76599884033203,
+          1538.5799560546875
+        ]
+      ]
+    }
+  ]
+}

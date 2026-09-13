@@ -1,0 +1,5582 @@
+{
+  "source": "BodyParts3D 4.3",
+  "scope": "Candidate skeleton and supporting cartilages; coverage audit ongoing",
+  "meshes": 242,
+  "triangles": 581888,
+  "gzipBytes": 11417860,
+  "sourcePositionsPreserved": true,
+  "sourceTransformsPreserved": true,
+  "counts": {
+    "vertebrae": 24,
+    "ribs": 24,
+    "discs": 23
+  },
+  "records": [
+    {
+      "file": "FJ3152_BP23294_FMA16586_Right hip bone.obj",
+      "fj": "FJ3152",
+      "fma": "FMA16586",
+      "name": "Right hip bone",
+      "bytes": 149023,
+      "sha256": "1ab3bfe0f8b279995928c27eec9e44c568d0eddf85765149cc942843df03c809",
+      "partId": "FJ3152_Right_hip_bone",
+      "vertices": 7122,
+      "triangles": 2374,
+      "bounds": [
+        [
+          -144.8719940185547,
+          -139.0189971923828,
+          752.1530151367188
+        ],
+        [
+          -2.790299892425537,
+          -1.1187800168991089,
+          957.8690185546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3153_BP22299_FMA7488_Xiphoid process.obj",
+      "fj": "FJ3153",
+      "fma": "FMA7488",
+      "name": "Xiphoid process",
+      "bytes": 55901,
+      "sha256": "78c5b7418f7a20e567c7fe238626febaa054faf623aa1fbda5d6f84d0906832d",
+      "partId": "FJ3153_Xiphoid_process",
+      "vertices": 2766,
+      "triangles": 922,
+      "bounds": [
+        [
+          -10.337800025939941,
+          -213.35299682617188,
+          1164.02001953125
+        ],
+        [
+          10.603899955749512,
+          -198.50900268554688,
+          1184.5
+        ]
+      ]
+    },
+    {
+      "file": "FJ3154_BP23555_FMA10037_Tenth thoracic vertebra.obj",
+      "fj": "FJ3154",
+      "fma": "FMA10037",
+      "name": "Tenth thoracic vertebra",
+      "bytes": 181310,
+      "sha256": "b8322a72a3fc0e720e22fdbbdc81f04adaaa12a7ce5a11b76013e6f6e0e974c7",
+      "partId": "FJ3154_Tenth_thoracic_vertebra",
+      "vertices": 8370,
+      "triangles": 2790,
+      "bounds": [
+        [
+          -33.65679931640625,
+          -84.05780029296875,
+          1099.77001953125
+        ],
+        [
+          32.245201110839844,
+          -7.822500228881836,
+          1157.1300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3155_BP23648_FMA10059_Eleventh thoracic vertebra.obj",
+      "fj": "FJ3155",
+      "fma": "FMA10059",
+      "name": "Eleventh thoracic vertebra",
+      "bytes": 177706,
+      "sha256": "f1734b5a82b3134f392b770255947569b8fb7fcefd152846a1102e7fa3c7b543",
+      "partId": "FJ3155_Eleventh_thoracic_vertebra",
+      "vertices": 8022,
+      "triangles": 2674,
+      "bounds": [
+        [
+          -26.76099967956543,
+          -92.53240203857422,
+          1075.719970703125
+        ],
+        [
+          25.55929946899414,
+          -13.008899688720703,
+          1129.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3156_BP23373_FMA10081_Twelfth thoracic vertebra.obj",
+      "fj": "FJ3156",
+      "fma": "FMA10081",
+      "name": "Twelfth thoracic vertebra",
+      "bytes": 181289,
+      "sha256": "396f459937f9afd71ee42ed17cad6b989842c6ec072a1401dc184bc292a0d68d",
+      "partId": "FJ3156_Twelfth_thoracic_vertebra",
+      "vertices": 8316,
+      "triangles": 2772,
+      "bounds": [
+        [
+          -22.38640022277832,
+          -101.38500213623047,
+          1049.9599609375
+        ],
+        [
+          21.054800033569336,
+          -22.56089973449707,
+          1101.5899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3157_BP23647_FMA13072_First lumbar vertebra.obj",
+      "fj": "FJ3157",
+      "fma": "FMA13072",
+      "name": "First lumbar vertebra",
+      "bytes": 193434,
+      "sha256": "3d5c43595140cf7e17d3698ec8d03568cacfeb6352b82d9cf2ed3a6ab097868f",
+      "partId": "FJ3157_First_lumbar_vertebra",
+      "vertices": 8916,
+      "triangles": 2972,
+      "bounds": [
+        [
+          -35.77980041503906,
+          -109.4800033569336,
+          1015.2000122070312
+        ],
+        [
+          34.46139907836914,
+          -29.222400665283203,
+          1071.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3158_BP23701_FMA9165_First thoracic vertebra.obj",
+      "fj": "FJ3158",
+      "fma": "FMA9165",
+      "name": "First thoracic vertebra",
+      "bytes": 113811,
+      "sha256": "decdbc71af9e3ed2ec870ec51cb13074293ad95365e11d51a0429fcde4e7be86",
+      "partId": "FJ3158_First_thoracic_vertebra",
+      "vertices": 5100,
+      "triangles": 1700,
+      "bounds": [
+        [
+          -37.382999420166016,
+          -86.87190246582031,
+          1347.219970703125
+        ],
+        [
+          35.91619873046875,
+          -17.086700439453125,
+          1376.9000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3159_BP23671_FMA13073_Second lumbar vertebra.obj",
+      "fj": "FJ3159",
+      "fma": "FMA13073",
+      "name": "Second lumbar vertebra",
+      "bytes": 213652,
+      "sha256": "f754ca81497dbf3d52a96d4243c74c692c6d3b4a5027db4d950bf6934e5a728a",
+      "partId": "FJ3159_Second_lumbar_vertebra",
+      "vertices": 9642,
+      "triangles": 3214,
+      "bounds": [
+        [
+          -40.35089874267578,
+          -114.72000122070312,
+          992.3159790039062
+        ],
+        [
+          39.06079864501953,
+          -34.34880065917969,
+          1039.760009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3160_BP23621_FMA9187_Second thoracic vertebra.obj",
+      "fj": "FJ3160",
+      "fma": "FMA9187",
+      "name": "Second thoracic vertebra",
+      "bytes": 126209,
+      "sha256": "a80babd2d3d511869c791607dad70939daf0ea8974f28a0a0c37278a94a832b9",
+      "partId": "FJ3160_Second_thoracic_vertebra",
+      "vertices": 5814,
+      "triangles": 1938,
+      "bounds": [
+        [
+          -35.92210006713867,
+          -82.67579650878906,
+          1326.5899658203125
+        ],
+        [
+          34.578399658203125,
+          -12.120499610900879,
+          1360.3599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3161_BP23693_FMA12521_Third cervical vertebra.obj",
+      "fj": "FJ3161",
+      "fma": "FMA12521",
+      "name": "Third cervical vertebra",
+      "bytes": 139208,
+      "sha256": "1fc32d22fd860e4fab228e2063a8a167ea2e85b14ad7570ac5c3a1d693df67e3",
+      "partId": "FJ3161_Third_cervical_vertebra",
+      "vertices": 6090,
+      "triangles": 2030,
+      "bounds": [
+        [
+          -29.84280014038086,
+          -87.81320190429688,
+          1417
+        ],
+        [
+          28.5393009185791,
+          -38.13309860229492,
+          1445.739990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3162_BP23454_FMA13074_Third lumbar vertebra.obj",
+      "fj": "FJ3162",
+      "fma": "FMA13074",
+      "name": "Third lumbar vertebra",
+      "bytes": 213996,
+      "sha256": "eefd71864836c9138d817d757932c987f94b0aff72fd825d92153052d4bf25b4",
+      "partId": "FJ3162_Third_lumbar_vertebra",
+      "vertices": 9816,
+      "triangles": 3272,
+      "bounds": [
+        [
+          -40.20289993286133,
+          -115.35299682617188,
+          967.6929931640625
+        ],
+        [
+          38.840999603271484,
+          -29.513999938964844,
+          1009.72998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3163_BP23513_FMA9209_Third thoracic vertebra.obj",
+      "fj": "FJ3163",
+      "fma": "FMA9209",
+      "name": "Third thoracic vertebra",
+      "bytes": 130173,
+      "sha256": "8e53609cdd7c5a49a1cbb9abd5e97a43e0a21a16708dcb71f085555010d190f8",
+      "partId": "FJ3163_Third_thoracic_vertebra",
+      "vertices": 6114,
+      "triangles": 2038,
+      "bounds": [
+        [
+          -32.96609878540039,
+          -76.73629760742188,
+          1302.22998046875
+        ],
+        [
+          31.840900421142578,
+          -1.3601100444793701,
+          1341.8499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3164_BP23757_FMA12522_Fourth cervical vertebra.obj",
+      "fj": "FJ3164",
+      "fma": "FMA12522",
+      "name": "Fourth cervical vertebra",
+      "bytes": 161128,
+      "sha256": "8a211a85a55ca6ed0466a7ff9505656f80677b8c3fdaf133026b750974089111",
+      "partId": "FJ3164_Fourth_cervical_vertebra",
+      "vertices": 7230,
+      "triangles": 2410,
+      "bounds": [
+        [
+          -27.753400802612305,
+          -89.10810089111328,
+          1404.5999755859375
+        ],
+        [
+          26.377500534057617,
+          -40.693599700927734,
+          1432.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3165_BP23680_FMA13075_Fourth lumbar vertebra.obj",
+      "fj": "FJ3165",
+      "fma": "FMA13075",
+      "name": "Fourth lumbar vertebra",
+      "bytes": 229439,
+      "sha256": "819bc08eef893a233a1292d76e9ba3c8d12151097526bca0624935dd10a95808",
+      "partId": "FJ3165_Fourth_lumbar_vertebra",
+      "vertices": 10536,
+      "triangles": 3512,
+      "bounds": [
+        [
+          -42.7661018371582,
+          -110.40499877929688,
+          938.6640014648438
+        ],
+        [
+          41.415401458740234,
+          -26.156200408935547,
+          983.4019775390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3166_BP23564_FMA9248_Fourth thoracic vertebra.obj",
+      "fj": "FJ3166",
+      "fma": "FMA9248",
+      "name": "Fourth thoracic vertebra",
+      "bytes": 133514,
+      "sha256": "6b6d555c6132b5dd673e9b702a76574f2869462aace2bb3892cd8e38387ce0dc",
+      "partId": "FJ3166_Fourth_thoracic_vertebra",
+      "vertices": 6198,
+      "triangles": 2066,
+      "bounds": [
+        [
+          -35.461700439453125,
+          -69.60489654541016,
+          1277.739990234375
+        ],
+        [
+          34.28200149536133,
+          -0.19789600372314453,
+          1321.4100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3167_BP23524_FMA12523_Fifth cervical vertebra.obj",
+      "fj": "FJ3167",
+      "fma": "FMA12523",
+      "name": "Fifth cervical vertebra",
+      "bytes": 158493,
+      "sha256": "b5e0cb9386110c82189b036d56d8be640a29c7f56fa88cf922bce80c93a33825",
+      "partId": "FJ3167_Fifth_cervical_vertebra",
+      "vertices": 6588,
+      "triangles": 2196,
+      "bounds": [
+        [
+          -29.697799682617188,
+          -90.77259826660156,
+          1393.77001953125
+        ],
+        [
+          28.333200454711914,
+          -36.08250045776367,
+          1417.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3168_BP23617_FMA13076_Fifth lumbar vertebra.obj",
+      "fj": "FJ3168",
+      "fma": "FMA13076",
+      "name": "Fifth lumbar vertebra",
+      "bytes": 251770,
+      "sha256": "91a45192b217738af6e18cd979907d858b8dc5ae30831c3d0edcc7c83bf112b0",
+      "partId": "FJ3168_Fifth_lumbar_vertebra",
+      "vertices": 11676,
+      "triangles": 3892,
+      "bounds": [
+        [
+          -51.000701904296875,
+          -99.07649993896484,
+          904.594970703125
+        ],
+        [
+          49.57360076904297,
+          -18.2450008392334,
+          954.8330078125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3169_BP23466_FMA9922_Fifth thoracic vertebra.obj",
+      "fj": "FJ3169",
+      "fma": "FMA9922",
+      "name": "Fifth thoracic vertebra",
+      "bytes": 147550,
+      "sha256": "2a06234c1a3837b3b643f0dd3af11843c85f6bd2a8ed29a011da31fea08d0682",
+      "partId": "FJ3169_Fifth_thoracic_vertebra",
+      "vertices": 6840,
+      "triangles": 2280,
+      "bounds": [
+        [
+          -36.1515007019043,
+          -66.00900268554688,
+          1239.77001953125
+        ],
+        [
+          34.88970184326172,
+          0.018549900501966476,
+          1297.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3170_BP24077_FMA12524_Sixth cervical vertebra.obj",
+      "fj": "FJ3170",
+      "fma": "FMA12524",
+      "name": "Sixth cervical vertebra",
+      "bytes": 161671,
+      "sha256": "ca1c7507951b7a16bbd4286492391af0a4f60c8f07fb59a876f6526853ce9f60",
+      "partId": "FJ3170_Sixth_cervical_vertebra",
+      "vertices": 7122,
+      "triangles": 2374,
+      "bounds": [
+        [
+          -31.265199661254883,
+          -91.6709976196289,
+          1381.5899658203125
+        ],
+        [
+          29.94770050048828,
+          -29.179399490356445,
+          1404.739990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3171_BP24088_FMA9945_Sixth thoracic vertebra.obj",
+      "fj": "FJ3171",
+      "fma": "FMA9945",
+      "name": "Sixth thoracic vertebra",
+      "bytes": 148727,
+      "sha256": "082ac32fee22c34609758a61d58227d7dcd84220bf4264f8f110f64f2ebb3992",
+      "partId": "FJ3171_Sixth_thoracic_vertebra",
+      "vertices": 6744,
+      "triangles": 2248,
+      "bounds": [
+        [
+          -36.422698974609375,
+          -65.22090148925781,
+          1209.3800048828125
+        ],
+        [
+          35.03390121459961,
+          -1.192430019378662,
+          1269.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3172_BP23626_FMA12525_Seventh cervical vertebra.obj",
+      "fj": "FJ3172",
+      "fma": "FMA12525",
+      "name": "Seventh cervical vertebra",
+      "bytes": 132995,
+      "sha256": "20df76505e5d21ad9eac99e1dd241576a4411a3fa0d2c1d3dda7aa69a9f79f32",
+      "partId": "FJ3172_Seventh_cervical_vertebra",
+      "vertices": 5460,
+      "triangles": 1820,
+      "bounds": [
+        [
+          -33.22930145263672,
+          -90.03189849853516,
+          1364.7099609375
+        ],
+        [
+          31.93160057067871,
+          -21.266399383544922,
+          1391.8399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3173_BP23615_FMA9968_Seventh thoracic vertebra.obj",
+      "fj": "FJ3173",
+      "fma": "FMA9968",
+      "name": "Seventh thoracic vertebra",
+      "bytes": 167251,
+      "sha256": "9f20e518e1a27a7c4be01a829bef7afda1a032cedf45c0fe165539a7df2edc8e",
+      "partId": "FJ3173_Seventh_thoracic_vertebra",
+      "vertices": 7722,
+      "triangles": 2574,
+      "bounds": [
+        [
+          -37.22629928588867,
+          -66.97920227050781,
+          1179.300048828125
+        ],
+        [
+          36.32059860229492,
+          -0.6714929938316345,
+          1241.800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3174_BP23727_FMA9991_Eighth thoracic vertebra.obj",
+      "fj": "FJ3174",
+      "fma": "FMA9991",
+      "name": "Eighth thoracic vertebra",
+      "bytes": 157078,
+      "sha256": "3f4f6575d9392332f5a8e04efdc2e1525fdd5d3ac1c3dac6b2f5f540d9833dad",
+      "partId": "FJ3174_Eighth_thoracic_vertebra",
+      "vertices": 7272,
+      "triangles": 2424,
+      "bounds": [
+        [
+          -33.659400939941406,
+          -72.02760314941406,
+          1153.75
+        ],
+        [
+          32.1526985168457,
+          -0.9317960143089294,
+          1213.050048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3175_BP23429_FMA10014_Ninth thoracic vertebra.obj",
+      "fj": "FJ3175",
+      "fma": "FMA10014",
+      "name": "Ninth thoracic vertebra",
+      "bytes": 165754,
+      "sha256": "41be91d8fd03e9894d868be28e931c66f5d805764bf143f91e8f8990c5784d15",
+      "partId": "FJ3175_Ninth_thoracic_vertebra",
+      "vertices": 7758,
+      "triangles": 2586,
+      "bounds": [
+        [
+          -34.394798278808594,
+          -77.65290069580078,
+          1126.6300048828125
+        ],
+        [
+          32.99800109863281,
+          -6.156060218811035,
+          1184.8399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3176_BP23663_FMA12519_Atlas.obj",
+      "fj": "FJ3176",
+      "fma": "FMA12519",
+      "name": "Atlas",
+      "bytes": 148313,
+      "sha256": "0adae3222ad287eb367bbf83c1cd6fbcd7664f40a1d2536feb6d768d7518e6bf",
+      "partId": "FJ3176_Atlas",
+      "vertices": 6282,
+      "triangles": 2094,
+      "bounds": [
+        [
+          -41.364601135253906,
+          -87.64420318603516,
+          1462.2099609375
+        ],
+        [
+          40.2307014465332,
+          -40.59579849243164,
+          1481.4300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3177_BP23565_FMA12520_Axis.obj",
+      "fj": "FJ3177",
+      "fma": "FMA12520",
+      "name": "Axis",
+      "bytes": 161535,
+      "sha256": "6cf7e5c7936a928dd6a53e177f05a1342be97fd4093b8cb0750ab958ad57fc55",
+      "partId": "FJ3177_Axis",
+      "vertices": 6864,
+      "triangles": 2288,
+      "bounds": [
+        [
+          -25.961599349975586,
+          -86.53910064697266,
+          1433.1700439453125
+        ],
+        [
+          24.574199676513672,
+          -36.6708984375,
+          1478.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3178_BP22232_FMA7487_Body of sternum.obj",
+      "fj": "FJ3178",
+      "fma": "FMA7487",
+      "name": "Body of sternum",
+      "bytes": 373931,
+      "sha256": "2778645a031486a98f2e26be0c67f664f2de391a5e760427db96a403e676391f",
+      "partId": "FJ3178_Body_of_sternum",
+      "vertices": 13938,
+      "triangles": 4646,
+      "bounds": [
+        [
+          -23.614900588989258,
+          -213.83200073242188,
+          1179.6500244140625
+        ],
+        [
+          23.95560073852539,
+          -165.16600036621094,
+          1289.6400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3179_BP21928_FMA32653_Distal phalanx of left second toe.obj",
+      "fj": "FJ3179",
+      "fma": "FMA32653",
+      "name": "Distal phalanx of left second toe",
+      "bytes": 16436,
+      "sha256": "84e1886835b3df8f88af41cc4ae6c1a1a0ca3044d0f70ad7f22a8631cfd98f07",
+      "partId": "FJ3179_Distal_phalanx_of_left_second_toe",
+      "vertices": 720,
+      "triangles": 240,
+      "bounds": [
+        [
+          132.1529998779297,
+          -234.01699829101562,
+          -70.22679901123047
+        ],
+        [
+          143.39700317382812,
+          -220.86399841308594,
+          -63.02259826660156
+        ]
+      ]
+    },
+    {
+      "file": "FJ3180_BP21935_FMA32655_Distal phalanx of left third toe.obj",
+      "fj": "FJ3180",
+      "fma": "FMA32655",
+      "name": "Distal phalanx of left third toe",
+      "bytes": 20318,
+      "sha256": "44eeeeb7a9ec5eb4da82c5c2880fe10ced28a6da63ca66f2d77cc7b942f9d62a",
+      "partId": "FJ3180_Distal_phalanx_of_left_third_toe",
+      "vertices": 1008,
+      "triangles": 336,
+      "bounds": [
+        [
+          145.8419952392578,
+          -223.6510009765625,
+          -70.26129913330078
+        ],
+        [
+          154.84100341796875,
+          -212.31399536132812,
+          -64.36810302734375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3181_BP21950_FMA32657_Distal phalanx of left fourth toe.obj",
+      "fj": "FJ3181",
+      "fma": "FMA32657",
+      "name": "Distal phalanx of left fourth toe",
+      "bytes": 14641,
+      "sha256": "a48734a7aa2682fd2c2e7c9bec2fea58f0c1a0853e4f405b9a62719b0e140b81",
+      "partId": "FJ3181_Distal_phalanx_of_left_fourth_toe",
+      "vertices": 678,
+      "triangles": 226,
+      "bounds": [
+        [
+          155.21200561523438,
+          -206.55299377441406,
+          -70.3093032836914
+        ],
+        [
+          164.0749969482422,
+          -195.43099975585938,
+          -63.4546012878418
+        ]
+      ]
+    },
+    {
+      "file": "FJ3182_BP23971_FMA32651_Distal phalanx of left big toe.obj",
+      "fj": "FJ3182",
+      "fma": "FMA32651",
+      "name": "Distal phalanx of left big toe",
+      "bytes": 25704,
+      "sha256": "e74c5aa9126c21fe5ad41f778a639dbbb0e042d8bbd0992bd55243a4d343600b",
+      "partId": "FJ3182_Distal_phalanx_of_left_big_toe",
+      "vertices": 1134,
+      "triangles": 378,
+      "bounds": [
+        [
+          102.50399780273438,
+          -235.91900634765625,
+          -70.00650024414062
+        ],
+        [
+          125.05599975585938,
+          -210.72500610351562,
+          -59.041099548339844
+        ]
+      ]
+    },
+    {
+      "file": "FJ3183_BP23969_FMA23953_Distal phalanx of left index finger.obj",
+      "fj": "FJ3183",
+      "fma": "FMA23953",
+      "name": "Distal phalanx of left index finger",
+      "bytes": 20889,
+      "sha256": "6150a7f7ea4e7be42732790cc1faf840a5ad61b1fa21b71641af7bf169620b08",
+      "partId": "FJ3183_Distal_phalanx_of_left_index_finger",
+      "vertices": 984,
+      "triangles": 328,
+      "bounds": [
+        [
+          301.260986328125,
+          -186.71099853515625,
+          661.8510131835938
+        ],
+        [
+          311.2539978027344,
+          -169.61399841308594,
+          675.5670166015625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3184_BP21916_FMA23959_Distal phalanx of left little finger.obj",
+      "fj": "FJ3184",
+      "fma": "FMA23959",
+      "name": "Distal phalanx of left little finger",
+      "bytes": 14161,
+      "sha256": "c995e7ec14456c6853f6814d8b5ec244c78c1cc5aa718d8e7993d4143b7b761a",
+      "partId": "FJ3184_Distal_phalanx_of_left_little_finger",
+      "vertices": 594,
+      "triangles": 198,
+      "bounds": [
+        [
+          218.8939971923828,
+          -182.28399658203125,
+          676.6279907226562
+        ],
+        [
+          227.15499877929688,
+          -168.4199981689453,
+          689.3090209960938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3185_BP21949_FMA32659_Distal phalanx of left little toe.obj",
+      "fj": "FJ3185",
+      "fma": "FMA32659",
+      "name": "Distal phalanx of left little toe",
+      "bytes": 15332,
+      "sha256": "86021dcf20b717bbd7365d34cfd4c84e5f2d3a056cc799c2b302f9527dabf3fd",
+      "partId": "FJ3185_Distal_phalanx_of_left_little_toe",
+      "vertices": 660,
+      "triangles": 220,
+      "bounds": [
+        [
+          161.26100158691406,
+          -186.5449981689453,
+          -70.47989654541016
+        ],
+        [
+          169.35800170898438,
+          -176.16000366210938,
+          -65.12899780273438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3186_BP23915_FMA23955_Distal phalanx of left middle finger.obj",
+      "fj": "FJ3186",
+      "fma": "FMA23955",
+      "name": "Distal phalanx of left middle finger",
+      "bytes": 17244,
+      "sha256": "cb807de4fad4b9f4ed954288e50c7ada19dc516a4332b7dc4771ea6148cbe47a",
+      "partId": "FJ3186_Distal_phalanx_of_left_middle_finger",
+      "vertices": 798,
+      "triangles": 266,
+      "bounds": [
+        [
+          271.3609924316406,
+          -195.08900451660156,
+          653.3670043945312
+        ],
+        [
+          280.85400390625,
+          -178.08399963378906,
+          666.3709716796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3187_BP21666_FMA23957_Distal phalanx of left ring finger.obj",
+      "fj": "FJ3187",
+      "fma": "FMA23957",
+      "name": "Distal phalanx of left ring finger",
+      "bytes": 13276,
+      "sha256": "4d5e4ece6e1d4741cd8ce2a4c6c4ed9c9a4fa77eeb9b63e9e3ed04edafd98b3f",
+      "partId": "FJ3187_Distal_phalanx_of_left_ring_finger",
+      "vertices": 588,
+      "triangles": 196,
+      "bounds": [
+        [
+          245.3000030517578,
+          -194.36000061035156,
+          664.81201171875
+        ],
+        [
+          253.64599609375,
+          -178.75599670410156,
+          673.8989868164062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3188_BP21923_FMA23951_Distal phalanx of left thumb.obj",
+      "fj": "FJ3188",
+      "fma": "FMA23951",
+      "name": "Distal phalanx of left thumb",
+      "bytes": 18373,
+      "sha256": "d8c273fb164ea42d97c1fc630512412477944644043392dcb49fb3098440c09e",
+      "partId": "FJ3188_Distal_phalanx_of_left_thumb",
+      "vertices": 810,
+      "triangles": 270,
+      "bounds": [
+        [
+          310.8380126953125,
+          -173.2729949951172,
+          719.2429809570312
+        ],
+        [
+          323.93499755859375,
+          -157.24099731445312,
+          742.2310180664062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3189_BP21864_FMA32652_Distal phalanx of right second toe.obj",
+      "fj": "FJ3189",
+      "fma": "FMA32652",
+      "name": "Distal phalanx of right second toe",
+      "bytes": 15605,
+      "sha256": "48f4b9353efc75c4d49cffad8809f0afe5509ecb8d44e8e56a17bb2c7ad41bb5",
+      "partId": "FJ3189_Distal_phalanx_of_right_second_toe",
+      "vertices": 600,
+      "triangles": 200,
+      "bounds": [
+        [
+          -143.3459930419922,
+          -234.0959930419922,
+          -70.28849792480469
+        ],
+        [
+          -132.34800720214844,
+          -221.01199340820312,
+          -63.05339813232422
+        ]
+      ]
+    },
+    {
+      "file": "FJ3190_BP23850_FMA32654_Distal phalanx of right third toe.obj",
+      "fj": "FJ3190",
+      "fma": "FMA32654",
+      "name": "Distal phalanx of right third toe",
+      "bytes": 16744,
+      "sha256": "c0b58e40b39e22e8b6293003258f00de24717d18f4fe03e06be9132daf03114f",
+      "partId": "FJ3190_Distal_phalanx_of_right_third_toe",
+      "vertices": 780,
+      "triangles": 260,
+      "bounds": [
+        [
+          -154.8249969482422,
+          -223.66600036621094,
+          -70.19760131835938
+        ],
+        [
+          -145.89100646972656,
+          -212.25900268554688,
+          -64.3865966796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3191_BP21925_FMA32656_Distal phalanx of right fourth toe.obj",
+      "fj": "FJ3191",
+      "fma": "FMA32656",
+      "name": "Distal phalanx of right fourth toe",
+      "bytes": 15098,
+      "sha256": "a19004a28f51cac5ea3361389af6a53fe0ec82f7ba56005724155bdcc52836bc",
+      "partId": "FJ3191_Distal_phalanx_of_right_fourth_toe",
+      "vertices": 732,
+      "triangles": 244,
+      "bounds": [
+        [
+          -164.1269989013672,
+          -206.53500366210938,
+          -70.39230346679688
+        ],
+        [
+          -155.3350067138672,
+          -195.3679962158203,
+          -63.395999908447266
+        ]
+      ]
+    },
+    {
+      "file": "FJ3192_BP21927_FMA32650_Distal phalanx of right big toe.obj",
+      "fj": "FJ3192",
+      "fma": "FMA32650",
+      "name": "Distal phalanx of right big toe",
+      "bytes": 29706,
+      "sha256": "0638859a053e0f7a13eb1bc79ecee6c1800b20d133221fbf339459f0c5187d39",
+      "partId": "FJ3192_Distal_phalanx_of_right_big_toe",
+      "vertices": 1320,
+      "triangles": 440,
+      "bounds": [
+        [
+          -125.11900329589844,
+          -236.04400634765625,
+          -69.89790344238281
+        ],
+        [
+          -102.39800262451172,
+          -210.78199768066406,
+          -59.005401611328125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3193_BP21690_FMA24460_Distal phalanx of right index finger.obj",
+      "fj": "FJ3193",
+      "fma": "FMA24460",
+      "name": "Distal phalanx of right index finger",
+      "bytes": 16787,
+      "sha256": "695dd129f6a0d303121bdfcfba17540ba93ad238644f335705eb9337c27f9fe5",
+      "partId": "FJ3193_Distal_phalanx_of_right_index_finger",
+      "vertices": 630,
+      "triangles": 210,
+      "bounds": [
+        [
+          -311.3680114746094,
+          -186.72999572753906,
+          661.8460083007812
+        ],
+        [
+          -301.42498779296875,
+          -169.64700317382812,
+          675.6890258789062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3194_BP21896_FMA24463_Distal phalanx of right little finger.obj",
+      "fj": "FJ3194",
+      "fma": "FMA24463",
+      "name": "Distal phalanx of right little finger",
+      "bytes": 13240,
+      "sha256": "1dd93b78f4b9b1bdca308125f0fd43f59a96619f71b2482ab7df8c9769625ac3",
+      "partId": "FJ3194_Distal_phalanx_of_right_little_finger",
+      "vertices": 564,
+      "triangles": 188,
+      "bounds": [
+        [
+          -227.2030029296875,
+          -181.8730010986328,
+          676.7490234375
+        ],
+        [
+          -218.89500427246094,
+          -168.17100524902344,
+          689.2769775390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3195_BP21926_FMA32658_Distal phalanx of right little toe.obj",
+      "fj": "FJ3195",
+      "fma": "FMA32658",
+      "name": "Distal phalanx of right little toe",
+      "bytes": 16298,
+      "sha256": "632626d89aee3e43f61e172d23923699fe2fbfebd2707d3ee98386014ef38370",
+      "partId": "FJ3195_Distal_phalanx_of_right_little_toe",
+      "vertices": 630,
+      "triangles": 210,
+      "bounds": [
+        [
+          -169.32699584960938,
+          -186.57899475097656,
+          -70.35379791259766
+        ],
+        [
+          -161.16900634765625,
+          -176.1999969482422,
+          -65.14189910888672
+        ]
+      ]
+    },
+    {
+      "file": "FJ3196_BP21955_FMA24461_Distal phalanx of right middle finger.obj",
+      "fj": "FJ3196",
+      "fma": "FMA24461",
+      "name": "Distal phalanx of right middle finger",
+      "bytes": 13091,
+      "sha256": "2439441124099f09be9d9bf37bc711dcf3bcdb1cfae92ab26442165380019f42",
+      "partId": "FJ3196_Distal_phalanx_of_right_middle_finger",
+      "vertices": 522,
+      "triangles": 174,
+      "bounds": [
+        [
+          -280.9119873046875,
+          -195.42799377441406,
+          653.0670166015625
+        ],
+        [
+          -271.364990234375,
+          -178.2050018310547,
+          666.531005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3197_BP22672_FMA24462_Distal phalanx of right ring finger.obj",
+      "fj": "FJ3197",
+      "fma": "FMA24462",
+      "name": "Distal phalanx of right ring finger",
+      "bytes": 9747,
+      "sha256": "0281340147e48d4c0f51cf42f79522c9283859b2b297245f1f506d5fbadcf5d1",
+      "partId": "FJ3197_Distal_phalanx_of_right_ring_finger",
+      "vertices": 336,
+      "triangles": 112,
+      "bounds": [
+        [
+          -253.61399841308594,
+          -194.3800048828125,
+          664.8690185546875
+        ],
+        [
+          -245.281005859375,
+          -178.7169952392578,
+          674.0079956054688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3198_BP23933_FMA24459_Distal phalanx of right thumb.obj",
+      "fj": "FJ3198",
+      "fma": "FMA24459",
+      "name": "Distal phalanx of right thumb",
+      "bytes": 17607,
+      "sha256": "35699ef999a79d72ff18d9cf383db6e259c55cfc8f7a6f7cd07893b409984c23",
+      "partId": "FJ3198_Distal_phalanx_of_right_thumb",
+      "vertices": 720,
+      "triangles": 240,
+      "bounds": [
+        [
+          -323.91400146484375,
+          -173.35800170898438,
+          719.1389770507812
+        ],
+        [
+          -310.26300048828125,
+          -157.13499450683594,
+          742.166015625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3200_BP22997_FMA52734_Frontal bone.obj",
+      "fj": "FJ3200",
+      "fma": "FMA52734",
+      "name": "Frontal bone",
+      "bytes": 1005624,
+      "sha256": "6a5a6c364c07703d53ff5da743babde5cceb5187023eb6fb56ac32cba02c057b",
+      "partId": "FJ3200_Frontal_bone",
+      "vertices": 43530,
+      "triangles": 14510,
+      "bounds": [
+        [
+          -63.3025016784668,
+          -177.38499450683594,
+          1520.8900146484375
+        ],
+        [
+          61.99209976196289,
+          -106.63899993896484,
+          1629.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3201_BP22977_FMA52749_Hyoid bone.obj",
+      "fj": "FJ3201",
+      "fma": "FMA52749",
+      "name": "Hyoid bone",
+      "bytes": 75198,
+      "sha256": "167054d8b26c55d574fe8ddbfa40850b96311f6a90593cb3402c0df8c5584681",
+      "partId": "FJ3201_Hyoid_bone",
+      "vertices": 3588,
+      "triangles": 1196,
+      "bounds": [
+        [
+          -19.524200439453125,
+          -129,
+          1422.3699951171875
+        ],
+        [
+          18.282499313354492,
+          -94.418701171875,
+          1440.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3202_BP23556_FMA25058_Intervertebral disk of axis.obj",
+      "fj": "FJ3202",
+      "fma": "FMA25058",
+      "name": "Intervertebral disk of axis",
+      "bytes": 235087,
+      "sha256": "a00d34def49239402d52c4cf6c254570dff0792cbf9df89adf1c4285a14f5a64",
+      "partId": "FJ3202_Intervertebral_disk_of_axis",
+      "vertices": 11136,
+      "triangles": 3712,
+      "bounds": [
+        [
+          -13.440400123596191,
+          -87.25340270996094,
+          1441.449951171875
+        ],
+        [
+          11.684000015258789,
+          -69.22129821777344,
+          1450.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3203_BP23395_FMA13501_Intervertebral disk of fourth thoracic vertebra.obj",
+      "fj": "FJ3203",
+      "fma": "FMA13501",
+      "name": "Intervertebral disk of fourth thoracic vertebra",
+      "bytes": 114896,
+      "sha256": "3f7b88045dcf1ee6f7ac00f951d2f0c2a1fc89c63e77dd2f87ea8d8f88c12786",
+      "partId": "FJ3203_Intervertebral_disk_of_fourth_thoracic_vertebra",
+      "vertices": 4680,
+      "triangles": 1560,
+      "bounds": [
+        [
+          -15.493900299072266,
+          -66.73590087890625,
+          1278.030029296875
+        ],
+        [
+          14.234700202941895,
+          -37.68330001831055,
+          1291.3299560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3204_BP23548_FMA13502_Intervertebral disk of fifth thoracic vertebra.obj",
+      "fj": "FJ3204",
+      "fma": "FMA13502",
+      "name": "Intervertebral disk of fifth thoracic vertebra",
+      "bytes": 142268,
+      "sha256": "26383360a9ce7ab69998185e58ff11c8b6c5cc6deb4b2a6f33c1c5ee86856d5b",
+      "partId": "FJ3204_Intervertebral_disk_of_fifth_thoracic_vertebra",
+      "vertices": 5508,
+      "triangles": 1836,
+      "bounds": [
+        [
+          -15.923399925231934,
+          -65.30249786376953,
+          1254.5
+        ],
+        [
+          14.632200241088867,
+          -33.55649948120117,
+          1265
+        ]
+      ]
+    },
+    {
+      "file": "FJ3205_BP23378_FMA13503_Intervertebral disk of sixth thoracic vertebra.obj",
+      "fj": "FJ3205",
+      "fma": "FMA13503",
+      "name": "Intervertebral disk of sixth thoracic vertebra",
+      "bytes": 205384,
+      "sha256": "7ba98ac182ae384902306b9f811c85f37afa6f5831d52a085ed57d73c9a08597",
+      "partId": "FJ3205_Intervertebral_disk_of_sixth_thoracic_vertebra",
+      "vertices": 7692,
+      "triangles": 2564,
+      "bounds": [
+        [
+          -17.65410041809082,
+          -66.19889831542969,
+          1227.0899658203125
+        ],
+        [
+          16.35219955444336,
+          -30.60650062561035,
+          1239.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3206_BP23588_FMA13504_Intervertebral disk of seventh thoracic vertebra.obj",
+      "fj": "FJ3206",
+      "fma": "FMA13504",
+      "name": "Intervertebral disk of seventh thoracic vertebra",
+      "bytes": 207624,
+      "sha256": "d62bb5e51751735b1cbc61a116ddc914d7df397b42210332c2e8515a41f422d5",
+      "partId": "FJ3206_Intervertebral_disk_of_seventh_thoracic_vertebra",
+      "vertices": 7890,
+      "triangles": 2630,
+      "bounds": [
+        [
+          -17.618999481201172,
+          -69.49259948730469,
+          1200.949951171875
+        ],
+        [
+          16.288700103759766,
+          -32.84349822998047,
+          1213.1800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3207_BP23381_FMA13505_Intervertebral disk of eighth thoracic vertebra.obj",
+      "fj": "FJ3207",
+      "fma": "FMA13505",
+      "name": "Intervertebral disk of eighth thoracic vertebra",
+      "bytes": 265862,
+      "sha256": "42ee1a498f882c99d6e8e7a68988daaecae8ba17cac0fec4abe2472c82523731",
+      "partId": "FJ3207_Intervertebral_disk_of_eighth_thoracic_vertebra",
+      "vertices": 8682,
+      "triangles": 2894,
+      "bounds": [
+        [
+          -18.475200653076172,
+          -74.18250274658203,
+          1174.719970703125
+        ],
+        [
+          17.16069984436035,
+          -38.382301330566406,
+          1189.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3208_BP23570_FMA13506_Intervertebral disk of ninth thoracic vertebra.obj",
+      "fj": "FJ3208",
+      "fma": "FMA13506",
+      "name": "Intervertebral disk of ninth thoracic vertebra",
+      "bytes": 264813,
+      "sha256": "f3cb730a0db38b2c61227a1302136393bf3038d4298c5ba972968b47bf34dce4",
+      "partId": "FJ3208_Intervertebral_disk_of_ninth_thoracic_vertebra",
+      "vertices": 8820,
+      "triangles": 2940,
+      "bounds": [
+        [
+          -19.579099655151367,
+          -79.63169860839844,
+          1147.1099853515625
+        ],
+        [
+          18.26219940185547,
+          -43.585201263427734,
+          1162.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3209_BP23730_FMA13507_Intervertebral disk of tenth thoracic vertebra.obj",
+      "fj": "FJ3209",
+      "fma": "FMA13507",
+      "name": "Intervertebral disk of tenth thoracic vertebra",
+      "bytes": 276130,
+      "sha256": "21ce916d9e706032f7b40731206f94c131c1359c1a96be14adf71d3b04210508",
+      "partId": "FJ3209_Intervertebral_disk_of_tenth_thoracic_vertebra",
+      "vertices": 9306,
+      "triangles": 3102,
+      "bounds": [
+        [
+          -19.96649932861328,
+          -87.79419708251953,
+          1119.9100341796875
+        ],
+        [
+          18.669599533081055,
+          -49.68149948120117,
+          1135.31005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3210_BP23504_FMA13508_Intervertebral disk of eleventh thoracic vertebra.obj",
+      "fj": "FJ3210",
+      "fma": "FMA13508",
+      "name": "Intervertebral disk of eleventh thoracic vertebra",
+      "bytes": 307934,
+      "sha256": "833ace3f03d5d510695a2b92e4d5c14ec31924a616786024efb152fd5a3d1745",
+      "partId": "FJ3210_Intervertebral_disk_of_eleventh_thoracic_vertebra",
+      "vertices": 10008,
+      "triangles": 3336,
+      "bounds": [
+        [
+          -20.77280044555664,
+          -97.01219940185547,
+          1091.6099853515625
+        ],
+        [
+          19.428600311279297,
+          -56.986900329589844,
+          1108.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3211_BP19656_FMA13509_Intervertebral disk of twelfth thoracic vertebra.obj",
+      "fj": "FJ3211",
+      "fma": "FMA13509",
+      "name": "Intervertebral disk of twelfth thoracic vertebra",
+      "bytes": 358331,
+      "sha256": "e441ca0b9ca0ba03f38ba21df5e59b5d1495e06920d9a3159f4fb66d22ee88df",
+      "partId": "FJ3211_Intervertebral_disk_of_twelfth_thoracic_vertebra",
+      "vertices": 10428,
+      "triangles": 3476,
+      "bounds": [
+        [
+          -21.774599075317383,
+          -105.1259994506836,
+          1061.5
+        ],
+        [
+          20.466100692749023,
+          -65.7969970703125,
+          1078.8900146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3212_BP23645_FMA16033_Intervertebral disk of first lumbar vertebra.obj",
+      "fj": "FJ3212",
+      "fma": "FMA16033",
+      "name": "Intervertebral disk of first lumbar vertebra",
+      "bytes": 344570,
+      "sha256": "dbb06d83aaa9db2ffb709734ad4e1bb87091a7d7766dc1ce8a9e23f3daa8f3e8",
+      "partId": "FJ3212_Intervertebral_disk_of_first_lumbar_vertebra",
+      "vertices": 10494,
+      "triangles": 3498,
+      "bounds": [
+        [
+          -21.895200729370117,
+          -112.3030014038086,
+          1032.56005859375
+        ],
+        [
+          20.59819984436035,
+          -74.53209686279297,
+          1048.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3213_BP23714_FMA13896_Intervertebral disk of third cervical vertebra.obj",
+      "fj": "FJ3213",
+      "fma": "FMA13896",
+      "name": "Intervertebral disk of third cervical vertebra",
+      "bytes": 58365,
+      "sha256": "941380d19e2be9b6cbf97ebe2f5cc3f47c656cbd961967665bc83ef94d3fe408",
+      "partId": "FJ3213_Intervertebral_disk_of_third_cervical_vertebra",
+      "vertices": 2310,
+      "triangles": 770,
+      "bounds": [
+        [
+          -11.971099853515625,
+          -88.69100189208984,
+          1426.8900146484375
+        ],
+        [
+          10.661399841308594,
+          -72.66190338134766,
+          1433.0699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3214_BP23406_FMA16034_Intervertebral disk of second lumbar vertebra.obj",
+      "fj": "FJ3214",
+      "fma": "FMA16034",
+      "name": "Intervertebral disk of second lumbar vertebra",
+      "bytes": 319790,
+      "sha256": "4f282d710c20d9e5df48897ce4eb4959f85f039053bbb4b61f440f2d508c58eb",
+      "partId": "FJ3214_Intervertebral_disk_of_second_lumbar_vertebra",
+      "vertices": 10218,
+      "triangles": 3406,
+      "bounds": [
+        [
+          -22.969900131225586,
+          -115.99099731445312,
+          1001.1199951171875
+        ],
+        [
+          21.64900016784668,
+          -78.12930297851562,
+          1012.5700073242188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3215_BP23492_FMA16035_Intervertebral disk of third lumbar vertebra.obj",
+      "fj": "FJ3215",
+      "fma": "FMA16035",
+      "name": "Intervertebral disk of third lumbar vertebra",
+      "bytes": 359310,
+      "sha256": "acb6cc9e42c21395d01ffada9b7b76564818fefdf4787bd728ca216749793a37",
+      "partId": "FJ3215_Intervertebral_disk_of_third_lumbar_vertebra",
+      "vertices": 10362,
+      "triangles": 3454,
+      "bounds": [
+        [
+          -23.009700775146484,
+          -112.85299682617188,
+          963.2940063476562
+        ],
+        [
+          21.716699600219727,
+          -74.57839965820312,
+          980.7069702148438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3216_BP24073_FMA16036_Intervertebral disk of fourth lumbar vertebra.obj",
+      "fj": "FJ3216",
+      "fma": "FMA16036",
+      "name": "Intervertebral disk of fourth lumbar vertebra",
+      "bytes": 330777,
+      "sha256": "74cbf4b6ec23fe9d4f57af85bf5f9c1e3a0376a3caa01ea6a3ef46eb223b1f1d",
+      "partId": "FJ3216_Intervertebral_disk_of_fourth_lumbar_vertebra",
+      "vertices": 10536,
+      "triangles": 3512,
+      "bounds": [
+        [
+          -25.25309944152832,
+          -102.76699829101562,
+          930.6279907226562
+        ],
+        [
+          23.898700714111328,
+          -64.25499725341797,
+          953.593017578125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3217_BP23709_FMA16037_Intervertebral disk of fifth lumbar vertebra.obj",
+      "fj": "FJ3217",
+      "fma": "FMA16037",
+      "name": "Intervertebral disk of fifth lumbar vertebra",
+      "bytes": 266442,
+      "sha256": "e1cb74e7c5031df0b0004833df43465ca502866cfb50dacdb31b647fc49b1035",
+      "partId": "FJ3217_Intervertebral_disk_of_fifth_lumbar_vertebra",
+      "vertices": 10494,
+      "triangles": 3498,
+      "bounds": [
+        [
+          -24.354999542236328,
+          -91.07849884033203,
+          894.8259887695312
+        ],
+        [
+          22.99250030517578,
+          -53.94599914550781,
+          923.77099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3218_BP23423_FMA13897_Intervertebral disk of fourth cervical vertebra.obj",
+      "fj": "FJ3218",
+      "fma": "FMA13897",
+      "name": "Intervertebral disk of fourth cervical vertebra",
+      "bytes": 66817,
+      "sha256": "fc8ca687ae2db092cf7873d66974c89b0f3ae3818c854703f60e98068e0717f6",
+      "partId": "FJ3218_Intervertebral_disk_of_fourth_cervical_vertebra",
+      "vertices": 2778,
+      "triangles": 926,
+      "bounds": [
+        [
+          -13.390199661254883,
+          -91.28350067138672,
+          1408.7099609375
+        ],
+        [
+          12.067299842834473,
+          -74.21520233154297,
+          1419.3299560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3219_BP23710_FMA13898_Intervertebral disk of fifth cervical vertebra.obj",
+      "fj": "FJ3219",
+      "fma": "FMA13898",
+      "name": "Intervertebral disk of fifth cervical vertebra",
+      "bytes": 68274,
+      "sha256": "bc5feec465f04f070de074bb2f6f9770473048d49f2518de6f7c93848b8d7cb0",
+      "partId": "FJ3219_Intervertebral_disk_of_fifth_cervical_vertebra",
+      "vertices": 2868,
+      "triangles": 956,
+      "bounds": [
+        [
+          -14.809599876403809,
+          -91.97979736328125,
+          1392.5699462890625
+        ],
+        [
+          13.479000091552734,
+          -75.52140045166016,
+          1403.3299560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3220_BP23991_FMA13899_Intervertebral disk of sixth cervical vertebra.obj",
+      "fj": "FJ3220",
+      "fma": "FMA13899",
+      "name": "Intervertebral disk of sixth cervical vertebra",
+      "bytes": 78490,
+      "sha256": "fc4330356dd0aa56c50bcb356303711cc9b7e96b2b7e30e7031547c83806d86a",
+      "partId": "FJ3220_Intervertebral_disk_of_sixth_cervical_vertebra",
+      "vertices": 2676,
+      "triangles": 892,
+      "bounds": [
+        [
+          -14.826000213623047,
+          -90.30120086669922,
+          1377.1800537109375
+        ],
+        [
+          13.354999542236328,
+          -73.52290344238281,
+          1386.75
+        ]
+      ]
+    },
+    {
+      "file": "FJ3221_BP23990_FMA13900_Intervertebral disk of seventh cervical vertebra.obj",
+      "fj": "FJ3221",
+      "fma": "FMA13900",
+      "name": "Intervertebral disk of seventh cervical vertebra",
+      "bytes": 87873,
+      "sha256": "b766aa63a293d3de68c761ca4a4501d0278cfa5c4b7c481c24bc9fbe782e374b",
+      "partId": "FJ3221_Intervertebral_disk_of_seventh_cervical_vertebra",
+      "vertices": 3276,
+      "triangles": 1092,
+      "bounds": [
+        [
+          -16.331199645996094,
+          -87.61229705810547,
+          1360
+        ],
+        [
+          14.939000129699707,
+          -69.77529907226562,
+          1371.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3222_BP23623_FMA10458_Intervertebral disk of first thoracic vertebra.obj",
+      "fj": "FJ3222",
+      "fma": "FMA10458",
+      "name": "Intervertebral disk of first thoracic vertebra",
+      "bytes": 98251,
+      "sha256": "f5c2af84b26e8bd1010f67c6ba2194bf54c3e541b6d089c114ce933ce7b641bb",
+      "partId": "FJ3222_Intervertebral_disk_of_first_thoracic_vertebra",
+      "vertices": 3696,
+      "triangles": 1232,
+      "bounds": [
+        [
+          -17.06399917602539,
+          -83.78189849853516,
+          1341.9000244140625
+        ],
+        [
+          15.535799980163574,
+          -63.90869903564453,
+          1354.75
+        ]
+      ]
+    },
+    {
+      "file": "FJ3223_BP23787_FMA13495_Intervertebral disk of second thoracic vertebra.obj",
+      "fj": "FJ3223",
+      "fma": "FMA13495",
+      "name": "Intervertebral disk of second thoracic vertebra",
+      "bytes": 113738,
+      "sha256": "e4f42fbb1ff973a61a566fb4a9ab4e0757f2f110544cc75eed6d3fbbf9a784df",
+      "partId": "FJ3223_Intervertebral_disk_of_second_thoracic_vertebra",
+      "vertices": 4122,
+      "triangles": 1374,
+      "bounds": [
+        [
+          -16.608400344848633,
+          -78.26619720458984,
+          1320.739990234375
+        ],
+        [
+          15.304699897766113,
+          -55.354400634765625,
+          1335.6199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3224_BP23785_FMA13500_Intervertebral disk of third thoracic vertebra.obj",
+      "fj": "FJ3224",
+      "fma": "FMA13500",
+      "name": "Intervertebral disk of third thoracic vertebra",
+      "bytes": 132875,
+      "sha256": "fb5a2310f93e646d982c8cd75104df95aa5e4633a79f05342acd9ee4f64ec7a9",
+      "partId": "FJ3224_Intervertebral_disk_of_third_thoracic_vertebra",
+      "vertices": 4422,
+      "triangles": 1474,
+      "bounds": [
+        [
+          -15.54419994354248,
+          -71.5833969116211,
+          1299.72998046875
+        ],
+        [
+          14.206199645996094,
+          -45.689701080322266,
+          1314.4000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3225_BP23877_FMA8472_Left tenth rib.obj",
+      "fj": "FJ3225",
+      "fma": "FMA8472",
+      "name": "Left tenth rib",
+      "bytes": 431812,
+      "sha256": "38da43831695ce20a30e75bfea67ef8b30d6d809acc06047e43cc669735764e9",
+      "partId": "FJ3225_Left_tenth_rib",
+      "vertices": 20478,
+      "triangles": 6826,
+      "bounds": [
+        [
+          15.562299728393555,
+          -117.71499633789062,
+          1022.9600219726562
+        ],
+        [
+          122.3489990234375,
+          -11.354499816894531,
+          1158.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3226_BP22277_FMA8532_Left eleventh rib.obj",
+      "fj": "FJ3226",
+      "fma": "FMA8532",
+      "name": "Left eleventh rib",
+      "bytes": 303913,
+      "sha256": "a319bfed8a58a63a92b21360115816ea9d4d088a8e089ad67608db0f6ddd8ce7",
+      "partId": "FJ3226_Left_eleventh_rib",
+      "vertices": 14598,
+      "triangles": 4866,
+      "bounds": [
+        [
+          16.27899932861328,
+          -96.01170349121094,
+          1008.0599975585938
+        ],
+        [
+          110.05400085449219,
+          -17.96139907836914,
+          1121.739990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3227_BP22319_FMA8534_Left twelfth rib.obj",
+      "fj": "FJ3227",
+      "fma": "FMA8534",
+      "name": "Left twelfth rib",
+      "bytes": 170630,
+      "sha256": "6a67f81f9442f9ab46f685d0835904410a4e2d314d95258014a512374008da04",
+      "partId": "FJ3227_Left_twelfth_rib",
+      "vertices": 8454,
+      "triangles": 2818,
+      "bounds": [
+        [
+          16.890300750732422,
+          -66.0698013305664,
+          1011.3300170898438
+        ],
+        [
+          85.22109985351562,
+          -28.01490020751953,
+          1089.1600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3228_BP22221_FMA7987_Left first rib.obj",
+      "fj": "FJ3228",
+      "fma": "FMA7987",
+      "name": "Left first rib",
+      "bytes": 200486,
+      "sha256": "6a19fc2a31580adbe8186e7df47dce050ee28ecd1ac61c0f4f594e764a3c794f",
+      "partId": "FJ3228_Left_first_rib",
+      "vertices": 9828,
+      "triangles": 3276,
+      "bounds": [
+        [
+          13.800399780273438,
+          -130.4199981689453,
+          1310.0699462890625
+        ],
+        [
+          68.45459747314453,
+          -64.41699981689453,
+          1370.47998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3229_BP22527_FMA8012_Left second rib.obj",
+      "fj": "FJ3229",
+      "fma": "FMA8012",
+      "name": "Left second rib",
+      "bytes": 354866,
+      "sha256": "6451db218e0d23b4f32350cb1704c5c6f4cc891826d25109368c685cd4ebd62a",
+      "partId": "FJ3229_Left_second_rib",
+      "vertices": 16782,
+      "triangles": 5594,
+      "bounds": [
+        [
+          14.73490047454834,
+          -167.1269989013672,
+          1273.510009765625
+        ],
+        [
+          95.66100311279297,
+          -50.64680099487305,
+          1359.030029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3230_BP22294_FMA8039_Left third rib.obj",
+      "fj": "FJ3230",
+      "fma": "FMA8039",
+      "name": "Left third rib",
+      "bytes": 459671,
+      "sha256": "8690da802ef43712bb17dcbb35e33d7b210ebbfd365297b8516fee9fb07ab008",
+      "partId": "FJ3230_Left_third_rib",
+      "vertices": 21762,
+      "triangles": 7254,
+      "bounds": [
+        [
+          12.724300384521484,
+          -179.2570037841797,
+          1243.8399658203125
+        ],
+        [
+          107.63300323486328,
+          -36.8578987121582,
+          1335.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3231_BP22488_FMA8148_Left fourth rib.obj",
+      "fj": "FJ3231",
+      "fma": "FMA8148",
+      "name": "Left fourth rib",
+      "bytes": 564170,
+      "sha256": "62f81d0f6e799c759d048b0d7e4e6ea0ccf59eebc76deb8c5f4f4b93ebe56c7a",
+      "partId": "FJ3231_Left_fourth_rib",
+      "vertices": 26550,
+      "triangles": 8850,
+      "bounds": [
+        [
+          12.905699729919434,
+          -192.19500732421875,
+          1211.0999755859375
+        ],
+        [
+          116.28099822998047,
+          -23.1919002532959,
+          1315.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3232_BP22285_FMA8093_Left fifth rib.obj",
+      "fj": "FJ3232",
+      "fma": "FMA8093",
+      "name": "Left fifth rib",
+      "bytes": 622026,
+      "sha256": "134ed1994bcf99a0827baca7e4548b952ede8cebcd9c32ff9bba83694fe2af82",
+      "partId": "FJ3232_Left_fifth_rib",
+      "vertices": 29130,
+      "triangles": 9710,
+      "bounds": [
+        [
+          14.004500389099121,
+          -197.68800354003906,
+          1172.1700439453125
+        ],
+        [
+          125.76799774169922,
+          -12.722700119018555,
+          1291.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3233_BP22298_FMA8202_Left sixth rib.obj",
+      "fj": "FJ3233",
+      "fma": "FMA8202",
+      "name": "Left sixth rib",
+      "bytes": 656948,
+      "sha256": "4a9e0c4b951c18cad19c92f8e1d6bf900294e33e3197df0bf3ee470d5f740b03",
+      "partId": "FJ3233_Left_sixth_rib",
+      "vertices": 30792,
+      "triangles": 10264,
+      "bounds": [
+        [
+          12.775400161743164,
+          -193.4949951171875,
+          1137.9000244140625
+        ],
+        [
+          133.0540008544922,
+          -3.644399881362915,
+          1266.8299560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3234_BP22332_FMA8256_Left seventh rib.obj",
+      "fj": "FJ3234",
+      "fma": "FMA8256",
+      "name": "Left seventh rib",
+      "bytes": 642046,
+      "sha256": "1cf8ddde6c1e25053e0d96d140abca16e21ca44004ea254bde2b74aec1bbd28c",
+      "partId": "FJ3234_Left_seventh_rib",
+      "vertices": 30096,
+      "triangles": 10032,
+      "bounds": [
+        [
+          12.382499694824219,
+          -180.20799255371094,
+          1105.18994140625
+        ],
+        [
+          135.7779998779297,
+          -4.497950077056885,
+          1240.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3235_BP23684_FMA8310_Left eighth rib.obj",
+      "fj": "FJ3235",
+      "fma": "FMA8310",
+      "name": "Left eighth rib",
+      "bytes": 532419,
+      "sha256": "2fce674e4ab849da6c60fbeba69330ab2708c47b2dfeb7e63bcf31d8f0b8cd71",
+      "partId": "FJ3235_Left_eighth_rib",
+      "vertices": 25008,
+      "triangles": 8336,
+      "bounds": [
+        [
+          12.370400428771973,
+          -162.6750030517578,
+          1074.6500244140625
+        ],
+        [
+          131.63800048828125,
+          -4.569570064544678,
+          1211.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3236_BP22343_FMA8391_Left ninth rib.obj",
+      "fj": "FJ3236",
+      "fma": "FMA8391",
+      "name": "Left ninth rib",
+      "bytes": 481426,
+      "sha256": "a85a2feb2b1adf0d40c64daf505cce78277c3f0998df00dcaded3b58d7c35d46",
+      "partId": "FJ3236_Left_ninth_rib",
+      "vertices": 22728,
+      "triangles": 7576,
+      "bounds": [
+        [
+          14.558199882507324,
+          -135.6020050048828,
+          1050.0899658203125
+        ],
+        [
+          127.78299713134766,
+          -7.527659893035889,
+          1185.3599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3237_BP23283_FMA13323_Left clavicle.obj",
+      "fj": "FJ3237",
+      "fma": "FMA13323",
+      "name": "Left clavicle",
+      "bytes": 69345,
+      "sha256": "a7eda265732db6c87ab0fb8c8f78a274882ceca59510991b0e7b32078c08152f",
+      "partId": "FJ3237_Left_clavicle",
+      "vertices": 3528,
+      "triangles": 1176,
+      "bounds": [
+        [
+          8.378729820251465,
+          -147.0780029296875,
+          1308.530029296875
+        ],
+        [
+          143.94200134277344,
+          -54.38750076293945,
+          1355.1800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3239_BP21373_FMA8005_Left first costal cartilage.obj",
+      "fj": "FJ3239",
+      "fma": "FMA8005",
+      "name": "Left first costal cartilage",
+      "bytes": 42423,
+      "sha256": "5ae7390557de025f0be9a3044664d2996e442013688e27dfc18e323001eb32fb",
+      "partId": "FJ3239_Left_first_costal_cartilage",
+      "vertices": 1926,
+      "triangles": 642,
+      "bounds": [
+        [
+          19.49519920349121,
+          -150.81199645996094,
+          1296.8699951171875
+        ],
+        [
+          56.1953010559082,
+          -122.3239974975586,
+          1320.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3240_BP23735_FMA24465_Left first metacarpal bone.obj",
+      "fj": "FJ3240",
+      "fma": "FMA24465",
+      "name": "Left first metacarpal bone",
+      "bytes": 34159,
+      "sha256": "0c3a399a2146f7c092fcece0889cee64d0b9a3513acb043ee6154af1cc5db8ad",
+      "partId": "FJ3240_Left_first_metacarpal_bone",
+      "vertices": 1734,
+      "triangles": 578,
+      "bounds": [
+        [
+          272.3529968261719,
+          -153.78199768066406,
+          760.2949829101562
+        ],
+        [
+          309.625,
+          -123.40599822998047,
+          797.406982421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3241_BP23618_FMA24508_Left first metatarsal bone.obj",
+      "fj": "FJ3241",
+      "fma": "FMA24508",
+      "name": "Left first metatarsal bone",
+      "bytes": 70611,
+      "sha256": "4b72c66cbdee72b349a7af076b77f770383eb25baf36be85a2ab0b6a3a80d26d",
+      "partId": "FJ3241_Left_first_metatarsal_bone",
+      "vertices": 3516,
+      "triangles": 1172,
+      "bounds": [
+        [
+          74.83699798583984,
+          -192.24099731445312,
+          -65.37570190429688
+        ],
+        [
+          104.37799835205078,
+          -129.9709930419922,
+          -22.140600204467773
+        ]
+      ]
+    },
+    {
+      "file": "FJ3242_BP22752_FMA8031_Left second costal cartilage.obj",
+      "fj": "FJ3242",
+      "fma": "FMA8031",
+      "name": "Left second costal cartilage",
+      "bytes": 35836,
+      "sha256": "33ec240cf5e4f5dd11a5ee3b19ce2d026baa207650729be12134852a64b6a732",
+      "partId": "FJ3242_Left_second_costal_cartilage",
+      "vertices": 1764,
+      "triangles": 588,
+      "bounds": [
+        [
+          10.202500343322754,
+          -178.2449951171875,
+          1270.1700439453125
+        ],
+        [
+          48.05730056762695,
+          -157.7480010986328,
+          1288.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3243_BP23703_FMA24467_Left second metacarpal bone.obj",
+      "fj": "FJ3243",
+      "fma": "FMA24467",
+      "name": "Left second metacarpal bone",
+      "bytes": 46765,
+      "sha256": "a10476ad50c3bf2ada5b3fb1651cf6a60c32445f66e22ba53c840601f5f5cd50",
+      "partId": "FJ3243_Left_second_metacarpal_bone",
+      "vertices": 2322,
+      "triangles": 774,
+      "bounds": [
+        [
+          261.84100341796875,
+          -142.43299865722656,
+          719.0419921875
+        ],
+        [
+          292.6130065917969,
+          -117.11699676513672,
+          786.8690185546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3244_BP23753_FMA24510_Left second metatarsal bone.obj",
+      "fj": "FJ3244",
+      "fma": "FMA24510",
+      "name": "Left second metatarsal bone",
+      "bytes": 51213,
+      "sha256": "599e5091f55e95ade3c741bcb8f90d2d917d6d57adcbdd5a14025a0fde36182a",
+      "partId": "FJ3244_Left_second_metatarsal_bone",
+      "vertices": 2322,
+      "triangles": 774,
+      "bounds": [
+        [
+          90.58940124511719,
+          -187.37100219726562,
+          -66.1636962890625
+        ],
+        [
+          121.3479995727539,
+          -122.48899841308594,
+          -18.306900024414062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3245_BP22750_FMA8058_Left third costal cartilage.obj",
+      "fj": "FJ3245",
+      "fma": "FMA8058",
+      "name": "Left third costal cartilage",
+      "bytes": 36238,
+      "sha256": "bf21ca805673e90d2fa277bd369b1f9b427de0ad7aa8291144ec7248b3b689fe",
+      "partId": "FJ3245_Left_third_costal_cartilage",
+      "vertices": 1812,
+      "triangles": 604,
+      "bounds": [
+        [
+          13.094499588012695,
+          -190.07400512695312,
+          1242.4000244140625
+        ],
+        [
+          50.722599029541016,
+          -171.43800354003906,
+          1259.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3246_BP23394_FMA24469_Left third metacarpal bone.obj",
+      "fj": "FJ3246",
+      "fma": "FMA24469",
+      "name": "Left third metacarpal bone",
+      "bytes": 43264,
+      "sha256": "245d8f3bbc8ff1b35ad7c68bf32ae1e1a37c6aaad15065ccb1c1ad0ca4c84c4d",
+      "partId": "FJ3246_Left_third_metacarpal_bone",
+      "vertices": 2124,
+      "triangles": 708,
+      "bounds": [
+        [
+          252.36000061035156,
+          -142.81300354003906,
+          720.6489868164062
+        ],
+        [
+          272.25201416015625,
+          -112.41000366210938,
+          785.0250244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3247_BP23506_FMA24512_Left third metatarsal bone.obj",
+      "fj": "FJ3247",
+      "fma": "FMA24512",
+      "name": "Left third metatarsal bone",
+      "bytes": 46783,
+      "sha256": "21dc51e3072ee1186c9f57fd59ed77a3203d728c681dc1d1966b94ed08e04c80",
+      "partId": "FJ3247_Left_third_metatarsal_bone",
+      "vertices": 2226,
+      "triangles": 742,
+      "bounds": [
+        [
+          98.31990051269531,
+          -180.7949981689453,
+          -66.50479888916016
+        ],
+        [
+          133.61000061035156,
+          -118.14099884033203,
+          -23.668100357055664
+        ]
+      ]
+    },
+    {
+      "file": "FJ3248_BP22751_FMA8167_Left fourth costal cartilage.obj",
+      "fj": "FJ3248",
+      "fma": "FMA8167",
+      "name": "Left fourth costal cartilage",
+      "bytes": 40361,
+      "sha256": "9b35ba20fb4eb7f2e9f71cb71b1d3fa0bce4fa132106b9186bf624f8993d7154",
+      "partId": "FJ3248_Left_fourth_costal_cartilage",
+      "vertices": 1974,
+      "triangles": 658,
+      "bounds": [
+        [
+          14.3016996383667,
+          -198.57699584960938,
+          1211.0799560546875
+        ],
+        [
+          59.776798248291016,
+          -184.3260040283203,
+          1235.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3249_BP23976_FMA24471_Left fourth metacarpal bone.obj",
+      "fj": "FJ3249",
+      "fma": "FMA24471",
+      "name": "Left fourth metacarpal bone",
+      "bytes": 33400,
+      "sha256": "c5bd536db6d99cca94cd570d97f0e9c9d8c6f33d58dd5c59683f3c4e9bbd3426",
+      "partId": "FJ3249_Left_fourth_metacarpal_bone",
+      "vertices": 1584,
+      "triangles": 528,
+      "bounds": [
+        [
+          241.3560028076172,
+          -141.91099548339844,
+          725.2529907226562
+        ],
+        [
+          253.7740020751953,
+          -115.89800262451172,
+          785.218017578125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3250_BP23526_FMA24514_Left fourth metatarsal bone.obj",
+      "fj": "FJ3250",
+      "fma": "FMA24514",
+      "name": "Left fourth metatarsal bone",
+      "bytes": 48184,
+      "sha256": "3dabc6566e907570aa8535bc4b7c77e5546b7a7f81886097ccd6bae771450b77",
+      "partId": "FJ3250_Left_fourth_metatarsal_bone",
+      "vertices": 2316,
+      "triangles": 772,
+      "bounds": [
+        [
+          101.77300262451172,
+          -169.4250030517578,
+          -67.3905029296875
+        ],
+        [
+          142.63800048828125,
+          -106.96600341796875,
+          -32.02109909057617
+        ]
+      ]
+    },
+    {
+      "file": "FJ3251_BP21380_FMA8112_Left fifth costal cartilage.obj",
+      "fj": "FJ3251",
+      "fma": "FMA8112",
+      "name": "Left fifth costal cartilage",
+      "bytes": 66165,
+      "sha256": "46de52741e3407a108c40a584714afc0aa6201818ea4dab0fe162583d3c4bbcb",
+      "partId": "FJ3251_Left_fifth_costal_cartilage",
+      "vertices": 3258,
+      "triangles": 1086,
+      "bounds": [
+        [
+          17.715299606323242,
+          -209.03799438476562,
+          1171.6099853515625
+        ],
+        [
+          82.03359985351562,
+          -189.3249969482422,
+          1215.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3252_BP23700_FMA24473_Left fifth metacarpal bone.obj",
+      "fj": "FJ3252",
+      "fma": "FMA24473",
+      "name": "Left fifth metacarpal bone",
+      "bytes": 30444,
+      "sha256": "8a58f789ac3c4d4497c8ca6ee55ffc1969ee588f7ee38698a58e90382c9120ea",
+      "partId": "FJ3252_Left_fifth_metacarpal_bone",
+      "vertices": 1500,
+      "triangles": 500,
+      "bounds": [
+        [
+          225.27000427246094,
+          -144.4199981689453,
+          732.031005859375
+        ],
+        [
+          245.3939971923828,
+          -120.2239990234375,
+          786.7589721679688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3253_BP23673_FMA24516_Left fifth metatarsal bone.obj",
+      "fj": "FJ3253",
+      "fma": "FMA24516",
+      "name": "Left fifth metatarsal bone",
+      "bytes": 51421,
+      "sha256": "93efa633121ca1edc3a288889236368bfaa1ad7648a670f8e0a43c852ca67dcd",
+      "partId": "FJ3253_Left_fifth_metatarsal_bone",
+      "vertices": 2592,
+      "triangles": 864,
+      "bounds": [
+        [
+          106.43699645996094,
+          -155.08599853515625,
+          -69.81400299072266
+        ],
+        [
+          152.375,
+          -89.29239654541016,
+          -39.772701263427734
+        ]
+      ]
+    },
+    {
+      "file": "FJ3254_BP21377_FMA8221_Left sixth costal cartilage.obj",
+      "fj": "FJ3254",
+      "fma": "FMA8221",
+      "name": "Left sixth costal cartilage",
+      "bytes": 91328,
+      "sha256": "53dfca2e5124c10f68f68cc4b2ef01c4edebc3124a5ed61fe06d46befa28ab68",
+      "partId": "FJ3254_Left_sixth_costal_cartilage",
+      "vertices": 4494,
+      "triangles": 1498,
+      "bounds": [
+        [
+          13.862199783325195,
+          -212.16099548339844,
+          1137.5799560546875
+        ],
+        [
+          93.00140380859375,
+          -185.1719970703125,
+          1197.280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3255_BP22753_FMA8275_Left seventh costal cartilage.obj",
+      "fj": "FJ3255",
+      "fma": "FMA8275",
+      "name": "Left seventh costal cartilage",
+      "bytes": 150515,
+      "sha256": "80a1b623c7d3805f51d141d783bc148f3e1a216b77620a2953ca940c00784528",
+      "partId": "FJ3255_Left_seventh_costal_cartilage",
+      "vertices": 6942,
+      "triangles": 2314,
+      "bounds": [
+        [
+          3.3289599418640137,
+          -213.21600341796875,
+          1102.5799560546875
+        ],
+        [
+          108.45700073242188,
+          -170.9040069580078,
+          1186.4100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3256_BP23796_FMA24498_Left calcaneus.obj",
+      "fj": "FJ3256",
+      "fma": "FMA24498",
+      "name": "Left calcaneus",
+      "bytes": 80055,
+      "sha256": "fd76df3ee64615b681f23cea5e18e7f62e4246dcfa4ffc2d463074ffe877a9af",
+      "partId": "FJ3256_Left_calcaneus",
+      "vertices": 3864,
+      "triangles": 1288,
+      "bounds": [
+        [
+          45.0099983215332,
+          -94.14179992675781,
+          -68.41719818115234
+        ],
+        [
+          100.76799774169922,
+          -24.20680046081543,
+          -19.071199417114258
+        ]
+      ]
+    },
+    {
+      "file": "FJ3257_BP21759_FMA24447_Left capitate.obj",
+      "fj": "FJ3257",
+      "fma": "FMA24447",
+      "name": "Left capitate",
+      "bytes": 24986,
+      "sha256": "af457c999e65eef635e82edf388c7d9c8cb6fc080b46e10feddcb19ea2a1fcb7",
+      "partId": "FJ3257_Left_capitate",
+      "vertices": 1206,
+      "triangles": 402,
+      "bounds": [
+        [
+          248.61000061035156,
+          -127.35099792480469,
+          782.1640014648438
+        ],
+        [
+          264.2879943847656,
+          -110.572998046875,
+          804.5880126953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3258_BP23392_FMA24529_Left cuboid bone.obj",
+      "fj": "FJ3258",
+      "fma": "FMA24529",
+      "name": "Left cuboid bone",
+      "bytes": 54899,
+      "sha256": "53ae458c943b2fa30aa967506b9413fb953ff5200ee5f5466bcb4fed0b6b3280",
+      "partId": "FJ3258_Left_cuboid_bone",
+      "vertices": 2658,
+      "triangles": 886,
+      "bounds": [
+        [
+          81.96499633789062,
+          -116.68499755859375,
+          -51.522300720214844
+        ],
+        [
+          115.13400268554688,
+          -83.16300201416016,
+          -21.85300064086914
+        ]
+      ]
+    },
+    {
+      "file": "FJ3259_BP23820_FMA24475_Left femur.obj",
+      "fj": "FJ3259",
+      "fma": "FMA24475",
+      "name": "Left femur",
+      "bytes": 196814,
+      "sha256": "caaeea4b7fd4ff7b5065b03a991c47e35a57f2aa7bac793f52b06a704c7eca53",
+      "partId": "FJ3259_Left_femur",
+      "vertices": 9612,
+      "triangles": 3204,
+      "bounds": [
+        [
+          31.96619987487793,
+          -112.2760009765625,
+          368.0559997558594
+        ],
+        [
+          150.23699951171875,
+          -49.482200622558594,
+          834.239013671875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3260_BP24067_FMA24481_Left fibula.obj",
+      "fj": "FJ3260",
+      "fma": "FMA24481",
+      "name": "Left fibula",
+      "bytes": 66715,
+      "sha256": "94d8f624931202824a1394bd12f583d8a3944c2a96ffd286c2d09d517c6e6120",
+      "partId": "FJ3260_Left_fibula",
+      "vertices": 3372,
+      "triangles": 1124,
+      "bounds": [
+        [
+          84.52899932861328,
+          -78.11900329589844,
+          -25.19059944152832
+        ],
+        [
+          120.10800170898438,
+          -48.534000396728516,
+          359.1310119628906
+        ]
+      ]
+    },
+    {
+      "file": "FJ3261_BP23940_FMA24449_Left hamate.obj",
+      "fj": "FJ3261",
+      "fma": "FMA24449",
+      "name": "Left hamate",
+      "bytes": 29027,
+      "sha256": "83f398b7581b910da975681f79a4a74afa68f6c97bf2b984f366aa61daa5c448",
+      "partId": "FJ3261_Left_hamate",
+      "vertices": 1356,
+      "triangles": 452,
+      "bounds": [
+        [
+          236.5970001220703,
+          -133.98199462890625,
+          781.2559814453125
+        ],
+        [
+          251.57000732421875,
+          -111.3219985961914,
+          800.6309814453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3262_BP24066_FMA23131_Left humerus.obj",
+      "fj": "FJ3262",
+      "fma": "FMA23131",
+      "name": "Left humerus",
+      "bytes": 247065,
+      "sha256": "c9512362bc5bb07b29292a5444eda8be7f6f6a0959f59213a695bc6323aa0010",
+      "partId": "FJ3262_Left_humerus",
+      "vertices": 11532,
+      "triangles": 3844,
+      "bounds": [
+        [
+          140.072998046875,
+          -100.22899627685547,
+          1029.2099609375
+        ],
+        [
+          240.75999450683594,
+          -51.05590057373047,
+          1336.52001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3263_BP22607_FMA54738_Left inferior nasal concha.obj",
+      "fj": "FJ3263",
+      "fma": "FMA54738",
+      "name": "Left inferior nasal concha",
+      "bytes": 49262,
+      "sha256": "56d8ae2f36071f0187a243a9f9c064536a743583f9089ad88433441328885944",
+      "partId": "FJ3263_Left_inferior_nasal_concha",
+      "vertices": 2214,
+      "triangles": 738,
+      "bounds": [
+        [
+          4.591209888458252,
+          -169.47999572753906,
+          1482.6600341796875
+        ],
+        [
+          15.939900398254395,
+          -133.9510040283203,
+          1498.050048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3264_BP20273_FMA24524_Left intermediate cuneiform bone.obj",
+      "fj": "FJ3264",
+      "fma": "FMA24524",
+      "name": "Left intermediate cuneiform bone",
+      "bytes": 31214,
+      "sha256": "35384e460ea22de93f9d642ac34015bac73bafe03f23c2b1f9ac08efcc96b343",
+      "partId": "FJ3264_Left_intermediate_cuneiform_bone",
+      "vertices": 1398,
+      "triangles": 466,
+      "bounds": [
+        [
+          82.01360321044922,
+          -130.3300018310547,
+          -34.42879867553711
+        ],
+        [
+          101.95500183105469,
+          -109.63200378417969,
+          -11.310400009155273
+        ]
+      ]
+    },
+    {
+      "file": "FJ3265_BP23042_FMA53646_Left lacrimal bone.obj",
+      "fj": "FJ3265",
+      "fma": "FMA53646",
+      "name": "Left lacrimal bone",
+      "bytes": 39635,
+      "sha256": "c042fb00ea4945552703ea1960233145ce67da5313be3e2f980cd295d99719da",
+      "partId": "FJ3265_Left_lacrimal_bone",
+      "vertices": 1920,
+      "triangles": 640,
+      "bounds": [
+        [
+          7.319439888000488,
+          -164.73199462890625,
+          1497.8699951171875
+        ],
+        [
+          17.931100845336914,
+          -150.76400756835938,
+          1526.8800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3266_BP23738_FMA45098_Sesamoid bone of left foot.obj",
+      "fj": "FJ3266",
+      "fma": "FMA45098",
+      "name": "Sesamoid bone of left foot",
+      "bytes": 7236,
+      "sha256": "4764ff663da6adf2b4068469ffd386d1e984a1cd100d1da1b0be98dd9f3b9834",
+      "partId": "FJ3266_Sesamoid_bone_of_left_foot",
+      "vertices": 300,
+      "triangles": 100,
+      "bounds": [
+        [
+          87.49479675292969,
+          -184.7519989013672,
+          -67.99739837646484
+        ],
+        [
+          94.2791976928711,
+          -175.53599548339844,
+          -61.57279968261719
+        ]
+      ]
+    },
+    {
+      "file": "FJ3267_BP23844_FMA24526_Left lateral cuneiform bone.obj",
+      "fj": "FJ3267",
+      "fma": "FMA24526",
+      "name": "Left lateral cuneiform bone",
+      "bytes": 43513,
+      "sha256": "800d5c6d4dc9de239836b7d52b22f74a065e5b3935dcb7f31232c5795e03c4fb",
+      "partId": "FJ3267_Left_lateral_cuneiform_bone",
+      "vertices": 2040,
+      "triangles": 680,
+      "bounds": [
+        [
+          87.22599792480469,
+          -125.14600372314453,
+          -40.62710189819336
+        ],
+        [
+          112.88500213623047,
+          -100.89800262451172,
+          -14.815400123596191
+        ]
+      ]
+    },
+    {
+      "file": "FJ3268_BP21780_FMA24438_Left lunate.obj",
+      "fj": "FJ3268",
+      "fma": "FMA24438",
+      "name": "Left lunate",
+      "bytes": 19432,
+      "sha256": "e40c68c097031fb7c486dc073e490a6cf5835c94d2e1a9473f9ffba041e25d21",
+      "partId": "FJ3268_Left_lunate",
+      "vertices": 942,
+      "triangles": 314,
+      "bounds": [
+        [
+          236.33900451660156,
+          -127.13099670410156,
+          797.2219848632812
+        ],
+        [
+          252.88299560546875,
+          -110.62799835205078,
+          809.8880004882812
+        ]
+      ]
+    },
+    {
+      "file": "FJ3269_BP23755_FMA53650_Left maxilla.obj",
+      "fj": "FJ3269",
+      "fma": "FMA53650",
+      "name": "Left maxilla",
+      "bytes": 384450,
+      "sha256": "59b3ee93b5894c800594be3e7860488c65277f1177ae79744816aecb4b5e6da1",
+      "partId": "FJ3269_Left_maxilla",
+      "vertices": 15594,
+      "triangles": 5198,
+      "bounds": [
+        [
+          -3.067929983139038,
+          -182.8800048828125,
+          1463.989990234375
+        ],
+        [
+          45.79520034790039,
+          -126.81400299072266,
+          1533.2900390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3270_BP23738_FMA45098_Sesamoid bone of left foot.obj",
+      "fj": "FJ3270",
+      "fma": "FMA45098",
+      "name": "Sesamoid bone of left foot",
+      "bytes": 9356,
+      "sha256": "bb2fc0cf69329d276d0272d2537e225ca73ad35e4b0d9ba71016883128b5ec69",
+      "partId": "FJ3270_Sesamoid_bone_of_left_foot",
+      "vertices": 432,
+      "triangles": 144,
+      "bounds": [
+        [
+          94.69439697265625,
+          -183.49600219726562,
+          -69.29309844970703
+        ],
+        [
+          103.16600036621094,
+          -170.64300537109375,
+          -61.92499923706055
+        ]
+      ]
+    },
+    {
+      "file": "FJ3271_BP21821_FMA24522_Left medial cuneiform bone.obj",
+      "fj": "FJ3271",
+      "fma": "FMA24522",
+      "name": "Left medial cuneiform bone",
+      "bytes": 63354,
+      "sha256": "d294a701f354deda023a40eb735c86edefaf171c9250ebac7031b5c52fb3e12d",
+      "partId": "FJ3271_Left_medial_cuneiform_bone",
+      "vertices": 2988,
+      "triangles": 996,
+      "bounds": [
+        [
+          66.0426025390625,
+          -140.5189971923828,
+          -45.14440155029297
+        ],
+        [
+          94.1093978881836,
+          -112.06099700927734,
+          -14.192099571228027
+        ]
+      ]
+    },
+    {
+      "file": "FJ3273_BP23315_FMA53656_Left palatine bone.obj",
+      "fj": "FJ3273",
+      "fma": "FMA53656",
+      "name": "Left palatine bone",
+      "bytes": 125793,
+      "sha256": "aa5963fce152c007c00b767130923ce5912d026f16cb5454d6acb47082826299",
+      "partId": "FJ3273_Left_palatine_bone",
+      "vertices": 5814,
+      "triangles": 1938,
+      "bounds": [
+        [
+          -1.543239951133728,
+          -149.96200561523438,
+          1470.1600341796875
+        ],
+        [
+          27.45840072631836,
+          -103.3219985961914,
+          1513.4000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3274_BP23158_FMA52789_Left parietal bone.obj",
+      "fj": "FJ3274",
+      "fma": "FMA52789",
+      "name": "Left parietal bone",
+      "bytes": 956492,
+      "sha256": "73652930ff6999709640f702a2db64b9549df21a84be6ffa33eac733f026d5d0",
+      "partId": "FJ3274_Left_parietal_bone",
+      "vertices": 39630,
+      "triangles": 13210,
+      "bounds": [
+        [
+          -7.867740154266357,
+          -131.68600463867188,
+          1517.800048828125
+        ],
+        [
+          74.85649871826172,
+          14.952199935913086,
+          1636.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3275_BP23711_FMA24487_Left patella.obj",
+      "fj": "FJ3275",
+      "fma": "FMA24487",
+      "name": "Left patella",
+      "bytes": 18804,
+      "sha256": "2090a1b59431e36ce69dbfde88565053d6af126db63f29808c955b7aba8e1e3e",
+      "partId": "FJ3275_Left_patella",
+      "vertices": 930,
+      "triangles": 310,
+      "bounds": [
+        [
+          60.592498779296875,
+          -122.7509994506836,
+          361.49700927734375
+        ],
+        [
+          102.2239990234375,
+          -100.9010009765625,
+          400.76300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3276_BP21678_FMA24442_Left pisiform.obj",
+      "fj": "FJ3276",
+      "fma": "FMA24442",
+      "name": "Left pisiform",
+      "bytes": 12129,
+      "sha256": "dde00dcc98e11d009558440b91a375bf9ac3716461550d926658d46f3d322b1d",
+      "partId": "FJ3276_Left_pisiform",
+      "vertices": 630,
+      "triangles": 210,
+      "bounds": [
+        [
+          231.83799743652344,
+          -137.58900451660156,
+          789.7249755859375
+        ],
+        [
+          240.02999877929688,
+          -127.03099822998047,
+          801.2769775390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3277_BP23197_FMA23465_Left radius.obj",
+      "fj": "FJ3277",
+      "fma": "FMA23465",
+      "name": "Left radius",
+      "bytes": 39511,
+      "sha256": "ebc1afbbf440d816b93d95a2381d82188491924a806bf0a4eb564ceb50a87f4f",
+      "partId": "FJ3277_Left_radius",
+      "vertices": 1896,
+      "triangles": 632,
+      "bounds": [
+        [
+          219.83599853515625,
+          -127.25199890136719,
+          806.1630249023438
+        ],
+        [
+          279.14300537109375,
+          -61.46929931640625,
+          1035.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3278_BP21685_FMA24436_Left scaphoid.obj",
+      "fj": "FJ3278",
+      "fma": "FMA24436",
+      "name": "Left scaphoid",
+      "bytes": 18691,
+      "sha256": "b11e96eeb99b1b080d64c340488e4bf9f03f02e54c9a85294c3aee7f6f4470a8",
+      "partId": "FJ3278_Left_scaphoid",
+      "vertices": 936,
+      "triangles": 312,
+      "bounds": [
+        [
+          249.45199584960938,
+          -126.44400024414062,
+          796.219970703125
+        ],
+        [
+          272.97698974609375,
+          -111.5270004272461,
+          811.6820068359375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3279_BP23279_FMA13396_Left scapula.obj",
+      "fj": "FJ3279",
+      "fma": "FMA13396",
+      "name": "Left scapula",
+      "bytes": 1865374,
+      "sha256": "87cebf8702718e03dd10afbee87a50abce47139802ff305c749b33f40d451fda",
+      "partId": "FJ3279_Left_scapula",
+      "vertices": 84318,
+      "triangles": 28106,
+      "bounds": [
+        [
+          57.0614013671875,
+          -102.84500122070312,
+          1183.949951171875
+        ],
+        [
+          166.46400451660156,
+          5.076399803161621,
+          1349.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3280_BP23443_FMA24483_Left talus.obj",
+      "fj": "FJ3280",
+      "fma": "FMA24483",
+      "name": "Left talus",
+      "bytes": 85595,
+      "sha256": "64cedd57d301c3560dac1b22a7d2cf6ef26b6658d3bdf467faf7521fa8600e0f",
+      "partId": "FJ3280_Left_talus",
+      "vertices": 4068,
+      "triangles": 1356,
+      "bounds": [
+        [
+          49.635398864746094,
+          -105.677001953125,
+          -31.305599212646484
+        ],
+        [
+          90.17839813232422,
+          -48.81399917602539,
+          3.0981099605560303
+        ]
+      ]
+    },
+    {
+      "file": "FJ3281_BP23760_FMA52739_Left temporal bone.obj",
+      "fj": "FJ3281",
+      "fma": "FMA52739",
+      "name": "Left temporal bone",
+      "bytes": 340765,
+      "sha256": "d4e9a662ad120e5cdaa18a8aac1abc16b0fd239a0cdc69f4fadce4015bbfdac7",
+      "partId": "FJ3281_Left_temporal_bone",
+      "vertices": 14808,
+      "triangles": 4936,
+      "bounds": [
+        [
+          11.624199867248535,
+          -133.56700134277344,
+          1475.47998046875
+        ],
+        [
+          72.58529663085938,
+          -35.07040023803711,
+          1551.4599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3282_BP23963_FMA24478_Left tibia.obj",
+      "fj": "FJ3282",
+      "fma": "FMA24478",
+      "name": "Left tibia",
+      "bytes": 101028,
+      "sha256": "38346f7a254ac8f574facdbed1099a7894b87ebee06d1151dcee41583680e5da",
+      "partId": "FJ3282_Left_tibia",
+      "vertices": 5076,
+      "triangles": 1692,
+      "bounds": [
+        [
+          35.03419876098633,
+          -114.51499938964844,
+          -6.095330238342285
+        ],
+        [
+          109.45500183105469,
+          -51.98210144042969,
+          373.86199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3283_BP21682_FMA24444_Left trapezium.obj",
+      "fj": "FJ3283",
+      "fma": "FMA24444",
+      "name": "Left trapezium",
+      "bytes": 23090,
+      "sha256": "03564653665cd2773767f11f2f9f4b073223c5210a3ec67fba60e17f77a53edd",
+      "partId": "FJ3283_Left_trapezium",
+      "vertices": 1068,
+      "triangles": 356,
+      "bounds": [
+        [
+          264.781005859375,
+          -134.5540008544922,
+          785.7470092773438
+        ],
+        [
+          281.7950134277344,
+          -117.70999908447266,
+          805.7930297851562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3284_BP21753_FMA24445_Left trapezoid.obj",
+      "fj": "FJ3284",
+      "fma": "FMA24445",
+      "name": "Left trapezoid",
+      "bytes": 27365,
+      "sha256": "fa35609f59675f0616d46d4ea4cf21e8c2ae0a49d44d021cc11ac57d430e2f3e",
+      "partId": "FJ3284_Left_trapezoid",
+      "vertices": 1194,
+      "triangles": 398,
+      "bounds": [
+        [
+          262.25299072265625,
+          -128.4499969482422,
+          782.7219848632812
+        ],
+        [
+          273.28900146484375,
+          -113.6449966430664,
+          795.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3285_BP23878_FMA24440_Left triquetral.obj",
+      "fj": "FJ3285",
+      "fma": "FMA24440",
+      "name": "Left triquetral",
+      "bytes": 18747,
+      "sha256": "d50d07375dd7fa4ebf1f10435d4e76598ee452e84e3794008806c91727a79278",
+      "partId": "FJ3285_Left_triquetral",
+      "vertices": 912,
+      "triangles": 304,
+      "bounds": [
+        [
+          231.8209991455078,
+          -129.8070068359375,
+          788.948974609375
+        ],
+        [
+          242.7310028076172,
+          -114.42500305175781,
+          802.52001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3286_BP23154_FMA23468_Left ulna.obj",
+      "fj": "FJ3286",
+      "fma": "FMA23468",
+      "name": "Left ulna",
+      "bytes": 52697,
+      "sha256": "58cf7a9d905ac649ff38bb8b75e5d9cb1c26dd11574052e70dd8d29766dee734",
+      "partId": "FJ3286_Left_ulna",
+      "vertices": 2472,
+      "triangles": 824,
+      "bounds": [
+        [
+          196.89199829101562,
+          -123.27899932861328,
+          805.0159912109375
+        ],
+        [
+          247.1199951171875,
+          -44.55229949951172,
+          1052.469970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3287_BP23337_FMA52893_Left zygomatic bone.obj",
+      "fj": "FJ3287",
+      "fma": "FMA52893",
+      "name": "Left zygomatic bone",
+      "bytes": 96344,
+      "sha256": "1e078681788941807982e4e65c7ca751416f816aa82fec1438847f016730ba22",
+      "partId": "FJ3287_Left_zygomatic_bone",
+      "vertices": 4302,
+      "triangles": 1434,
+      "bounds": [
+        [
+          31.893299102783203,
+          -161.4320068359375,
+          1480.6199951171875
+        ],
+        [
+          63.24440002441406,
+          -121.74299621582031,
+          1536.739990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3288_BP23152_FMA16587_Left hip bone.obj",
+      "fj": "FJ3288",
+      "fma": "FMA16587",
+      "name": "Left hip bone",
+      "bytes": 144601,
+      "sha256": "7f1304382fe7882e2172d5367ee996a363da872f0981bd889a0c7a820147d384",
+      "partId": "FJ3288_Left_hip_bone",
+      "vertices": 6996,
+      "triangles": 2332,
+      "bounds": [
+        [
+          2.750309944152832,
+          -139.09500122070312,
+          751.9509887695312
+        ],
+        [
+          144.75399780273438,
+          -1.3149399757385254,
+          958.0900268554688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3289_BP22817_FMA52748_Mandible.obj",
+      "fj": "FJ3289",
+      "fma": "FMA52748",
+      "name": "Mandible",
+      "bytes": 354931,
+      "sha256": "f0250d55be8e912e9465c55a4c966f9f3bed709f503d3069d3cd19479bbcfe2b",
+      "partId": "FJ3289_Mandible",
+      "vertices": 16728,
+      "triangles": 5576,
+      "bounds": [
+        [
+          -53.84590148925781,
+          -173.83200073242188,
+          1421.6300048828125
+        ],
+        [
+          52.554100036621094,
+          -89.85369873046875,
+          1506.0999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3290_BP22794_FMA7486_Manubrium.obj",
+      "fj": "FJ3290",
+      "fma": "FMA7486",
+      "name": "Manubrium",
+      "bytes": 164391,
+      "sha256": "734e95c8265b6458f2db41a04c61ba706ed9b55ea1aefa9d0a8f048310651a68",
+      "partId": "FJ3290_Manubrium",
+      "vertices": 7638,
+      "triangles": 2546,
+      "bounds": [
+        [
+          -27.44969940185547,
+          -178.58799743652344,
+          1280.27001953125
+        ],
+        [
+          27.44969940185547,
+          -130.80099487304688,
+          1325.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3291_BP23924_FMA23942_Middle phalanx of left ring finger.obj",
+      "fj": "FJ3291",
+      "fma": "FMA23942",
+      "name": "Middle phalanx of left ring finger",
+      "bytes": 21936,
+      "sha256": "181d9d9470a26e52926dbb9c9306af2bb08735e6b69196d6f980154c9b187a8b",
+      "partId": "FJ3291_Middle_phalanx_of_left_ring_finger",
+      "vertices": 1020,
+      "triangles": 340,
+      "bounds": [
+        [
+          242.78199768066406,
+          -180.5469970703125,
+          669.8209838867188
+        ],
+        [
+          254.53199768066406,
+          -156.79400634765625,
+          693.6840209960938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3292_BP20655_FMA24457_Middle phalanx of right ring finger.obj",
+      "fj": "FJ3292",
+      "fma": "FMA24457",
+      "name": "Middle phalanx of right ring finger",
+      "bytes": 21662,
+      "sha256": "43e83d74c320a2fe53ef5f86b2066eb3a5c222bc1d09e36b1b9ccd13611e2280",
+      "partId": "FJ3292_Middle_phalanx_of_right_ring_finger",
+      "vertices": 948,
+      "triangles": 316,
+      "bounds": [
+        [
+          -254.29299926757812,
+          -180.56700134277344,
+          669.7039794921875
+        ],
+        [
+          -242.76300048828125,
+          -156.53599548339844,
+          693.60400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3293_BP21870_FMA32643_Middle phalanx of left second toe.obj",
+      "fj": "FJ3293",
+      "fma": "FMA32643",
+      "name": "Middle phalanx of left second toe",
+      "bytes": 20526,
+      "sha256": "d4b78cfedcf2183479c8f44b8bab638242a2dc6d58a911d6aece62a143c78d87",
+      "partId": "FJ3293_Middle_phalanx_of_left_second_toe",
+      "vertices": 972,
+      "triangles": 324,
+      "bounds": [
+        [
+          125.12699890136719,
+          -224.62899780273438,
+          -67.95359802246094
+        ],
+        [
+          139.21200561523438,
+          -207.5290069580078,
+          -59.34130096435547
+        ]
+      ]
+    },
+    {
+      "file": "FJ3294_BP21664_FMA32645_Middle phalanx of left third toe.obj",
+      "fj": "FJ3294",
+      "fma": "FMA32645",
+      "name": "Middle phalanx of left third toe",
+      "bytes": 18935,
+      "sha256": "40cd64e40f1d7a4639da857ad2a46c80d041605b8322601a842d52b8a38f0f6c",
+      "partId": "FJ3294_Middle_phalanx_of_left_third_toe",
+      "vertices": 882,
+      "triangles": 294,
+      "bounds": [
+        [
+          138.9149932861328,
+          -215.8520050048828,
+          -68.98359680175781
+        ],
+        [
+          151.81100463867188,
+          -198.91099548339844,
+          -61.1088981628418
+        ]
+      ]
+    },
+    {
+      "file": "FJ3295_BP21930_FMA32647_Middle phalanx of left fourth toe.obj",
+      "fj": "FJ3295",
+      "fma": "FMA32647",
+      "name": "Middle phalanx of left fourth toe",
+      "bytes": 18537,
+      "sha256": "9af692aa44ca3ef6c3224707fc979b0a47f63ef369a5b7d12d22be05eb111ffd",
+      "partId": "FJ3295_Middle_phalanx_of_left_fourth_toe",
+      "vertices": 852,
+      "triangles": 284,
+      "bounds": [
+        [
+          149.04400634765625,
+          -198.7790069580078,
+          -69.79190063476562
+        ],
+        [
+          161.38999938964844,
+          -185.43299865722656,
+          -61.96950149536133
+        ]
+      ]
+    },
+    {
+      "file": "FJ3296_BP23918_FMA23938_Middle phalanx of left index finger.obj",
+      "fj": "FJ3296",
+      "fma": "FMA23938",
+      "name": "Middle phalanx of left index finger",
+      "bytes": 19269,
+      "sha256": "b357e9cf35dd2a245aac1f9ab72242e8c26d98fe8bd0ebc7f8324e090cacf4f8",
+      "partId": "FJ3296_Middle_phalanx_of_left_index_finger",
+      "vertices": 918,
+      "triangles": 306,
+      "bounds": [
+        [
+          294.3890075683594,
+          -172.0570068359375,
+          670.9749755859375
+        ],
+        [
+          309.0010070800781,
+          -151.25599670410156,
+          691.4530029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3297_BP21913_FMA23944_Middle phalanx of left little finger.obj",
+      "fj": "FJ3297",
+      "fma": "FMA23944",
+      "name": "Middle phalanx of left little finger",
+      "bytes": 18009,
+      "sha256": "11c31dbb07c322927cd810a585ea4f15a598da009c08ce119c45bb67915e1419",
+      "partId": "FJ3297_Middle_phalanx_of_left_little_finger",
+      "vertices": 762,
+      "triangles": 254,
+      "bounds": [
+        [
+          218.92100524902344,
+          -171.47900390625,
+          687.4660034179688
+        ],
+        [
+          230.2989959716797,
+          -154.91200256347656,
+          707.0609741210938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3298_BP21689_FMA230988_Middle phalanx of left little toe.obj",
+      "fj": "FJ3298",
+      "fma": "FMA230988",
+      "name": "Middle phalanx of left little toe",
+      "bytes": 14439,
+      "sha256": "4c3cd3bb65f237806ccbb1b36d8b66ac930da3face4ed13e4d8c7ab3b70fe751",
+      "partId": "FJ3298_Middle_phalanx_of_left_little_toe",
+      "vertices": 678,
+      "triangles": 226,
+      "bounds": [
+        [
+          158.10000610351562,
+          -178.95399475097656,
+          -70.0542984008789
+        ],
+        [
+          166.6739959716797,
+          -171.552001953125,
+          -63.779598236083984
+        ]
+      ]
+    },
+    {
+      "file": "FJ3299_BP22657_FMA23940_Middle phalanx of left middle finger.obj",
+      "fj": "FJ3299",
+      "fma": "FMA23940",
+      "name": "Middle phalanx of left middle finger",
+      "bytes": 24052,
+      "sha256": "83a06ba4129a59b064c1529834af4cf424e650d73a7d18a4da1866ae0e8c788b",
+      "partId": "FJ3299_Middle_phalanx_of_left_middle_finger",
+      "vertices": 1152,
+      "triangles": 384,
+      "bounds": [
+        [
+          266.5169982910156,
+          -180.87600708007812,
+          662.4089965820312
+        ],
+        [
+          280.2049865722656,
+          -157.85800170898438,
+          687.7670288085938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3300_BP21966_FMA32642_Middle phalanx of right second toe.obj",
+      "fj": "FJ3300",
+      "fma": "FMA32642",
+      "name": "Middle phalanx of right second toe",
+      "bytes": 18718,
+      "sha256": "f70741748609cfab75ff560afc041b08cd739c3f77205af445fda2b45fab9509",
+      "partId": "FJ3300_Middle_phalanx_of_right_second_toe",
+      "vertices": 792,
+      "triangles": 264,
+      "bounds": [
+        [
+          -139.35499572753906,
+          -224.68800354003906,
+          -68.01029968261719
+        ],
+        [
+          -125.23699951171875,
+          -207.6479949951172,
+          -59.403900146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3301_BP21691_FMA32644_Middle phalanx of right third toe.obj",
+      "fj": "FJ3301",
+      "fma": "FMA32644",
+      "name": "Middle phalanx of right third toe",
+      "bytes": 19381,
+      "sha256": "3f533febd8853a7fe8912c9b80faac21501dfb2a24a326165c693fe0f622b663",
+      "partId": "FJ3301_Middle_phalanx_of_right_third_toe",
+      "vertices": 876,
+      "triangles": 292,
+      "bounds": [
+        [
+          -151.7259979248047,
+          -215.7449951171875,
+          -68.83110046386719
+        ],
+        [
+          -138.88900756835938,
+          -198.86700439453125,
+          -60.914398193359375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3302_BP21929_FMA32646_Middle phalanx of right fourth toe.obj",
+      "fj": "FJ3302",
+      "fma": "FMA32646",
+      "name": "Middle phalanx of right fourth toe",
+      "bytes": 22865,
+      "sha256": "f247094bde17cdfaa08c0c01d96a77a6d713b1441792ebd2a0ddd4c820fbfa07",
+      "partId": "FJ3302_Middle_phalanx_of_right_fourth_toe",
+      "vertices": 1050,
+      "triangles": 350,
+      "bounds": [
+        [
+          -161.3419952392578,
+          -198.80599975585938,
+          -69.88880157470703
+        ],
+        [
+          -149.0709991455078,
+          -185.43499755859375,
+          -61.93550109863281
+        ]
+      ]
+    },
+    {
+      "file": "FJ3303_BP20064_FMA24455_Middle phalanx of right index finger.obj",
+      "fj": "FJ3303",
+      "fma": "FMA24455",
+      "name": "Middle phalanx of right index finger",
+      "bytes": 18299,
+      "sha256": "f896e11f79bdad21aefa62461722c5656ea2d125296ee179a1731e8ec3469a60",
+      "partId": "FJ3303_Middle_phalanx_of_right_index_finger",
+      "vertices": 792,
+      "triangles": 264,
+      "bounds": [
+        [
+          -309,
+          -172.08299255371094,
+          671.0059814453125
+        ],
+        [
+          -294.3999938964844,
+          -151.3090057373047,
+          691.4760131835938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3304_BP21922_FMA24458_Middle phalanx of right little finger.obj",
+      "fj": "FJ3304",
+      "fma": "FMA24458",
+      "name": "Middle phalanx of right little finger",
+      "bytes": 15554,
+      "sha256": "e7c235041b4e0765a9cdff24ab0bb8fa720c476db1bdbec6cac48f17de73a3e5",
+      "partId": "FJ3304_Middle_phalanx_of_right_little_finger",
+      "vertices": 624,
+      "triangles": 208,
+      "bounds": [
+        [
+          -230.5449981689453,
+          -171.43899536132812,
+          687.5700073242188
+        ],
+        [
+          -218.93499755859375,
+          -154.822998046875,
+          707.155029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3305_BP21890_FMA230986_Middle phalanx of right little toe.obj",
+      "fj": "FJ3305",
+      "fma": "FMA230986",
+      "name": "Middle phalanx of right little toe",
+      "bytes": 9655,
+      "sha256": "229399f5143def5a16cee27ffaa5341bd19cc913dd1d67d825d9db408e0c141d",
+      "partId": "FJ3305_Middle_phalanx_of_right_little_toe",
+      "vertices": 408,
+      "triangles": 136,
+      "bounds": [
+        [
+          -166.69000244140625,
+          -178.8179931640625,
+          -70.09040069580078
+        ],
+        [
+          -158.0800018310547,
+          -171.4499969482422,
+          -63.73910140991211
+        ]
+      ]
+    },
+    {
+      "file": "FJ3306_BP21846_FMA24456_Middle phalanx of right middle finger.obj",
+      "fj": "FJ3306",
+      "fma": "FMA24456",
+      "name": "Middle phalanx of right middle finger",
+      "bytes": 22942,
+      "sha256": "95b535c86d0a21220740102987df5073e879c40650fb6971230f47c63e1dc5d5",
+      "partId": "FJ3306_Middle_phalanx_of_right_middle_finger",
+      "vertices": 1026,
+      "triangles": 342,
+      "bounds": [
+        [
+          -280.2019958496094,
+          -180.9340057373047,
+          662.4569702148438
+        ],
+        [
+          -266.5880126953125,
+          -157.7989959716797,
+          687.8070068359375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3307_BP23683_FMA24501_Navicular bone of left foot.obj",
+      "fj": "FJ3307",
+      "fma": "FMA24501",
+      "name": "Navicular bone of left foot",
+      "bytes": 48589,
+      "sha256": "d54b4d83671d4bcaa989c7b4ba4383845e0d3a4aa32e609b34ca4eaef60275cf",
+      "partId": "FJ3307_Navicular_bone_of_left_foot",
+      "vertices": 2232,
+      "triangles": 744,
+      "bounds": [
+        [
+          57.92959976196289,
+          -121.09700012207031,
+          -30.974199295043945
+        ],
+        [
+          96.643798828125,
+          -94.2760009765625,
+          -6.297110080718994
+        ]
+      ]
+    },
+    {
+      "file": "FJ3308_BP24109_FMA24500_Navicular bone of right foot.obj",
+      "fj": "FJ3308",
+      "fma": "FMA24500",
+      "name": "Navicular bone of right foot",
+      "bytes": 47888,
+      "sha256": "a70b3da9585e667b40e7123d353909d557a0a1e8047b899d900f81bc926b29aa",
+      "partId": "FJ3308_Navicular_bone_of_right_foot",
+      "vertices": 2148,
+      "triangles": 716,
+      "bounds": [
+        [
+          -96.75399780273438,
+          -120.99299621582031,
+          -30.77630043029785
+        ],
+        [
+          -58.18960189819336,
+          -94.3290023803711,
+          -6.155799865722656
+        ]
+      ]
+    },
+    {
+      "file": "FJ3309_BP23972_FMA52735_Occipital bone.obj",
+      "fj": "FJ3309",
+      "fma": "FMA52735",
+      "name": "Occipital bone",
+      "bytes": 843312,
+      "sha256": "4447f4d6d6bb111465598b29fba900931226757a538df3c4d3ad6e66ef973577",
+      "partId": "FJ3309_Occipital_bone",
+      "vertices": 37350,
+      "triangles": 12450,
+      "bounds": [
+        [
+          -61.96120071411133,
+          -100.95899963378906,
+          1477.77001953125
+        ],
+        [
+          60.705299377441406,
+          18.000999450683594,
+          1584.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3310_BP21948_FMA43253_Proximal phalanx of right big toe.obj",
+      "fj": "FJ3310",
+      "fma": "FMA43253",
+      "name": "Proximal phalanx of right big toe",
+      "bytes": 30627,
+      "sha256": "b05d0c7141727d5788308c2b77df4b6580e49166476d0b669cc6470ab0fd6f80",
+      "partId": "FJ3310_Proximal_phalanx_of_right_big_toe",
+      "vertices": 1458,
+      "triangles": 486,
+      "bounds": [
+        [
+          -117.19599914550781,
+          -219.28900146484375,
+          -68.63909912109375
+        ],
+        [
+          -86.65959930419922,
+          -186.07000732421875,
+          -51.40869903564453
+        ]
+      ]
+    },
+    {
+      "file": "FJ3311_BP21898_FMA32637_Proximal phalanx of left third toe.obj",
+      "fj": "FJ3311",
+      "fma": "FMA32637",
+      "name": "Proximal phalanx of left third toe",
+      "bytes": 26092,
+      "sha256": "0e101ea25afdebe5e50be6a9e90f742b715b7e6285bfd69f39e5104d69f9be34",
+      "partId": "FJ3311_Proximal_phalanx_of_left_third_toe",
+      "vertices": 1224,
+      "triangles": 408,
+      "bounds": [
+        [
+          125.13200378417969,
+          -202.83399963378906,
+          -67.69830322265625
+        ],
+        [
+          145.80799865722656,
+          -174.61700439453125,
+          -55.91339874267578
+        ]
+      ]
+    },
+    {
+      "file": "FJ3312_BP23880_FMA32639_Proximal phalanx of left fourth toe.obj",
+      "fj": "FJ3312",
+      "fma": "FMA32639",
+      "name": "Proximal phalanx of left fourth toe",
+      "bytes": 27377,
+      "sha256": "d215f05dfd30a169abd8b951f6316228d019a1e2d4819d9dab980e79b229edba",
+      "partId": "FJ3312_Proximal_phalanx_of_left_fourth_toe",
+      "vertices": 1314,
+      "triangles": 438,
+      "bounds": [
+        [
+          134.3090057373047,
+          -188.4250030517578,
+          -69.7052993774414
+        ],
+        [
+          155.89999389648438,
+          -164.42799377441406,
+          -56.52510070800781
+        ]
+      ]
+    },
+    {
+      "file": "FJ3313_BP21883_FMA71915_Proximal phalanx of left index finger.obj",
+      "fj": "FJ3313",
+      "fma": "FMA71915",
+      "name": "Proximal phalanx of left index finger",
+      "bytes": 23790,
+      "sha256": "fc330636e3539a4606a5d98ae316684ff520eeea91d511673609bea1870cbd7b",
+      "partId": "FJ3313_Proximal_phalanx_of_left_index_finger",
+      "vertices": 1176,
+      "triangles": 392,
+      "bounds": [
+        [
+          280.8139953613281,
+          -157.0570068359375,
+          685.7210083007812
+        ],
+        [
+          302.80999755859375,
+          -134.08900451660156,
+          723.3560180664062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3314_BP23837_FMA66791_Proximal phalanx of left little finger.obj",
+      "fj": "FJ3314",
+      "fma": "FMA66791",
+      "name": "Proximal phalanx of left little finger",
+      "bytes": 16884,
+      "sha256": "14b9a5189cd062590bcee3dc0aa6834f0321c84499d18f841383661ae15d333e",
+      "partId": "FJ3314_Proximal_phalanx_of_left_little_finger",
+      "vertices": 822,
+      "triangles": 274,
+      "bounds": [
+        [
+          222.2270050048828,
+          -159.46099853515625,
+          703.385009765625
+        ],
+        [
+          236.29400634765625,
+          -138.66799926757812,
+          735.7899780273438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3315_BP21965_FMA32641_Proximal phalanx of left little toe.obj",
+      "fj": "FJ3315",
+      "fma": "FMA32641",
+      "name": "Proximal phalanx of left little toe",
+      "bytes": 24672,
+      "sha256": "90e2818f48f88c193f651e40dc2ba737f8644c2e909db446eb0171ac2da8800e",
+      "partId": "FJ3315_Proximal_phalanx_of_left_little_toe",
+      "vertices": 1188,
+      "triangles": 396,
+      "bounds": [
+        [
+          142.93800354003906,
+          -174.0189971923828,
+          -69.80919647216797
+        ],
+        [
+          164.7899932861328,
+          -148.77499389648438,
+          -59.987098693847656
+        ]
+      ]
+    },
+    {
+      "file": "FJ3316_BP21937_FMA71908_Proximal phalanx of left middle finger.obj",
+      "fj": "FJ3316",
+      "fma": "FMA71908",
+      "name": "Proximal phalanx of left middle finger",
+      "bytes": 28262,
+      "sha256": "0e66d87b9e5b9897b3422432d8c14a41eda5882a121543e9c36a83fc22df9fae",
+      "partId": "FJ3316_Proximal_phalanx_of_left_middle_finger",
+      "vertices": 1380,
+      "triangles": 460,
+      "bounds": [
+        [
+          259.20098876953125,
+          -164.0959930419922,
+          684.2990112304688
+        ],
+        [
+          277.3800048828125,
+          -135.19200134277344,
+          724.9660034179688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3317_BP21939_FMA71916_Proximal phalanx of left ring finger.obj",
+      "fj": "FJ3317",
+      "fma": "FMA71916",
+      "name": "Proximal phalanx of left ring finger",
+      "bytes": 22318,
+      "sha256": "8edda25e40b623128820aaf8e250d9eacf47d9fc6baed19af9716704f428ff44",
+      "partId": "FJ3317_Proximal_phalanx_of_left_ring_finger",
+      "vertices": 1128,
+      "triangles": 376,
+      "bounds": [
+        [
+          240.49200439453125,
+          -161.92999267578125,
+          690.052001953125
+        ],
+        [
+          253.88600158691406,
+          -135.70899963378906,
+          728.9580078125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3318_BP21907_FMA65470_Proximal phalanx of left thumb.obj",
+      "fj": "FJ3318",
+      "fma": "FMA65470",
+      "name": "Proximal phalanx of left thumb",
+      "bytes": 21258,
+      "sha256": "2161ba83158a62445cf9196716e364ba713cf7ea35dc4051e1b8cc2bd392acd3",
+      "partId": "FJ3318_Proximal_phalanx_of_left_thumb",
+      "vertices": 1038,
+      "triangles": 346,
+      "bounds": [
+        [
+          298.6940002441406,
+          -164.7530059814453,
+          735.5289916992188
+        ],
+        [
+          318.6189880371094,
+          -142.62899780273438,
+          767.1680297851562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3319_BP21897_FMA32634_Proximal phalanx of right second toe.obj",
+      "fj": "FJ3319",
+      "fma": "FMA32634",
+      "name": "Proximal phalanx of right second toe",
+      "bytes": 25744,
+      "sha256": "b18efb71399070be96ccc33b9461694282956da3ce7f9b73f9dcacfd726332f1",
+      "partId": "FJ3319_Proximal_phalanx_of_right_second_toe",
+      "vertices": 1242,
+      "triangles": 414,
+      "bounds": [
+        [
+          -133.56500244140625,
+          -211.67999267578125,
+          -66.87359619140625
+        ],
+        [
+          -111.34600067138672,
+          -183.55499267578125,
+          -54.5463981628418
+        ]
+      ]
+    },
+    {
+      "file": "FJ3320_BP21918_FMA32636_Proximal phalanx of right third toe.obj",
+      "fj": "FJ3320",
+      "fma": "FMA32636",
+      "name": "Proximal phalanx of right third toe",
+      "bytes": 28336,
+      "sha256": "d143c85506c23ead3a72eda2e1b3def22cfea467a4a5a9c420fc822b5a5e9b08",
+      "partId": "FJ3320_Proximal_phalanx_of_right_third_toe",
+      "vertices": 1266,
+      "triangles": 422,
+      "bounds": [
+        [
+          -145.90199279785156,
+          -202.84100341796875,
+          -67.6449966430664
+        ],
+        [
+          -125.07599639892578,
+          -174.43600463867188,
+          -56.20439910888672
+        ]
+      ]
+    },
+    {
+      "file": "FJ3321_BP21914_FMA32638_Proximal phalanx of right fourth toe.obj",
+      "fj": "FJ3321",
+      "fma": "FMA32638",
+      "name": "Proximal phalanx of right fourth toe",
+      "bytes": 27489,
+      "sha256": "9a83ce22d6258e140891c7fcfe37b3269d64dbf2449aa8e19e459416a82fb9e4",
+      "partId": "FJ3321_Proximal_phalanx_of_right_fourth_toe",
+      "vertices": 1314,
+      "triangles": 438,
+      "bounds": [
+        [
+          -155.92999267578125,
+          -188.42799377441406,
+          -69.74099731445312
+        ],
+        [
+          -134.33900451660156,
+          -164.37899780273438,
+          -56.498600006103516
+        ]
+      ]
+    },
+    {
+      "file": "FJ3322_BP21887_FMA24451_Proximal phalanx of right index finger.obj",
+      "fj": "FJ3322",
+      "fma": "FMA24451",
+      "name": "Proximal phalanx of right index finger",
+      "bytes": 24074,
+      "sha256": "efb790246f7f0a46413b614a96a01743b2f071a899563da2e647a56abf16cc88",
+      "partId": "FJ3322_Proximal_phalanx_of_right_index_finger",
+      "vertices": 1158,
+      "triangles": 386,
+      "bounds": [
+        [
+          -302.7650146484375,
+          -156.75799560546875,
+          685.8189697265625
+        ],
+        [
+          -280.9519958496094,
+          -134.09300231933594,
+          723.197021484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3323_BP21904_FMA24454_Proximal phalanx of right little finger.obj",
+      "fj": "FJ3323",
+      "fma": "FMA24454",
+      "name": "Proximal phalanx of right little finger",
+      "bytes": 19649,
+      "sha256": "4397b61d8e6ad97f6140ef1c6a0e8e768b25435f410c1a06201ccf8de3bbd3c3",
+      "partId": "FJ3323_Proximal_phalanx_of_right_little_finger",
+      "vertices": 942,
+      "triangles": 314,
+      "bounds": [
+        [
+          -236.32899475097656,
+          -159.5229949951172,
+          703.3560180664062
+        ],
+        [
+          -222.15199279785156,
+          -138.7209930419922,
+          735.9559936523438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3324_BP21863_FMA32640_Proximal phalanx of right little toe.obj",
+      "fj": "FJ3324",
+      "fma": "FMA32640",
+      "name": "Proximal phalanx of right little toe",
+      "bytes": 25635,
+      "sha256": "226cc5f4400e7a4377eee4cebc15b47b6839ab7f071ea3d39d908348551a376a",
+      "partId": "FJ3324_Proximal_phalanx_of_right_little_toe",
+      "vertices": 1218,
+      "triangles": 406,
+      "bounds": [
+        [
+          -164.83700561523438,
+          -174.08399963378906,
+          -69.89320373535156
+        ],
+        [
+          -142.88499450683594,
+          -148.71099853515625,
+          -60.047298431396484
+        ]
+      ]
+    },
+    {
+      "file": "FJ3325_BP21934_FMA24452_Proximal phalanx of right middle finger.obj",
+      "fj": "FJ3325",
+      "fma": "FMA24452",
+      "name": "Proximal phalanx of right middle finger",
+      "bytes": 28930,
+      "sha256": "fe50d15f221c18ba9951cb605c8f30745ff0448ebc4714af9c65dc1e3e6822ab",
+      "partId": "FJ3325_Proximal_phalanx_of_right_middle_finger",
+      "vertices": 1374,
+      "triangles": 458,
+      "bounds": [
+        [
+          -277.41400146484375,
+          -164.2010040283203,
+          684.281005859375
+        ],
+        [
+          -259.2080078125,
+          -135.11199951171875,
+          724.8610229492188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3326_BP21866_FMA24453_Proximal phalanx of right ring finger.obj",
+      "fj": "FJ3326",
+      "fma": "FMA24453",
+      "name": "Proximal phalanx of right ring finger",
+      "bytes": 22769,
+      "sha256": "16644e4b745693ef0863444878d2219cbacfa038cf4e144696a3bbdc8328d256",
+      "partId": "FJ3326_Proximal_phalanx_of_right_ring_finger",
+      "vertices": 1128,
+      "triangles": 376,
+      "bounds": [
+        [
+          -253.82400512695312,
+          -161.9770050048828,
+          689.968017578125
+        ],
+        [
+          -240.59100341796875,
+          -135.6580047607422,
+          728.9320068359375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3327_BP23922_FMA24450_Proximal phalanx of right thumb.obj",
+      "fj": "FJ3327",
+      "fma": "FMA24450",
+      "name": "Proximal phalanx of right thumb",
+      "bytes": 20347,
+      "sha256": "642edcb113158f1cbd699eb992a1c9948aabf58390239861906459c2927f28e5",
+      "partId": "FJ3327_Proximal_phalanx_of_right_thumb",
+      "vertices": 954,
+      "triangles": 318,
+      "bounds": [
+        [
+          -318.8089904785156,
+          -164.88299560546875,
+          735.6069946289062
+        ],
+        [
+          -298.64898681640625,
+          -142.6529998779297,
+          767.197998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3328_BP21940_FMA32635_Proximal phalanx of left second toe.obj",
+      "fj": "FJ3328",
+      "fma": "FMA32635",
+      "name": "Proximal phalanx of left second toe",
+      "bytes": 24367,
+      "sha256": "d1919a6e774956a1d752f765d0ab18ec8389bd1ae5c29e9b861e392f59a40be1",
+      "partId": "FJ3328_Proximal_phalanx_of_left_second_toe",
+      "vertices": 1140,
+      "triangles": 380,
+      "bounds": [
+        [
+          111.4489974975586,
+          -211.62399291992188,
+          -66.84010314941406
+        ],
+        [
+          133.4929962158203,
+          -183.48500061035156,
+          -54.47010040283203
+        ]
+      ]
+    },
+    {
+      "file": "FJ3329_BP23919_FMA43254_Proximal phalanx of left big toe.obj",
+      "fj": "FJ3329",
+      "fma": "FMA43254",
+      "name": "Proximal phalanx of left big toe",
+      "bytes": 33429,
+      "sha256": "957d646080408d9add5551bbcda6bf0f5f64e39dccd9739a44d5791b85535ede",
+      "partId": "FJ3329_Proximal_phalanx_of_left_big_toe",
+      "vertices": 1548,
+      "triangles": 516,
+      "bounds": [
+        [
+          86.70330047607422,
+          -219.27099609375,
+          -68.41519927978516
+        ],
+        [
+          117.08200073242188,
+          -186.03599548339844,
+          -51.55220031738281
+        ]
+      ]
+    },
+    {
+      "file": "FJ3330_BP22326_FMA8445_Right tenth rib.obj",
+      "fj": "FJ3330",
+      "fma": "FMA8445",
+      "name": "Right tenth rib",
+      "bytes": 434445,
+      "sha256": "ad4dccb79323905d88a155253ddae8fb276fe0ab6302cd856530d08baafbdf82",
+      "partId": "FJ3330_Right_tenth_rib",
+      "vertices": 20460,
+      "triangles": 6820,
+      "bounds": [
+        [
+          -123.64800262451172,
+          -117.68699645996094,
+          1022.97998046875
+        ],
+        [
+          -16.872900009155273,
+          -11.359299659729004,
+          1158.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3331_BP22303_FMA8531_Right eleventh rib.obj",
+      "fj": "FJ3331",
+      "fma": "FMA8531",
+      "name": "Right eleventh rib",
+      "bytes": 306359,
+      "sha256": "29bf864f0504b20c290aa48abd9d655a6a8e5a563c1f80495c7ba2be16576ec1",
+      "partId": "FJ3331_Right_eleventh_rib",
+      "vertices": 14598,
+      "triangles": 4866,
+      "bounds": [
+        [
+          -111.35299682617188,
+          -96.01830291748047,
+          1008.0800170898438
+        ],
+        [
+          -17.59630012512207,
+          -17.961999893188477,
+          1121.72998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3332_BP22528_FMA8533_Right twelfth rib.obj",
+      "fj": "FJ3332",
+      "fma": "FMA8533",
+      "name": "Right twelfth rib",
+      "bytes": 172027,
+      "sha256": "136feff5b7a8a596c7a2b62bea426aaf6389a3da944a71a71790a4c2691ecfd8",
+      "partId": "FJ3332_Right_twelfth_rib",
+      "vertices": 8454,
+      "triangles": 2818,
+      "bounds": [
+        [
+          -86.533203125,
+          -66.09729766845703,
+          1011.3400268554688
+        ],
+        [
+          -18.212499618530273,
+          -27.99220085144043,
+          1089.1700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3333_BP21366_FMA7875_Right first costal cartilage.obj",
+      "fj": "FJ3333",
+      "fma": "FMA7875",
+      "name": "Right first costal cartilage",
+      "bytes": 45235,
+      "sha256": "5c8d82a785fb34d753164a0d3f5368c82c84f06821d2e3e29bbe22080d2caf33",
+      "partId": "FJ3333_Right_first_costal_cartilage",
+      "vertices": 2028,
+      "triangles": 676,
+      "bounds": [
+        [
+          -56.187400817871094,
+          -150.7570037841797,
+          1296.9100341796875
+        ],
+        [
+          -19.512100219726562,
+          -122.1709976196289,
+          1320.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3334_BP22293_FMA7857_Right first rib.obj",
+      "fj": "FJ3334",
+      "fma": "FMA7857",
+      "name": "Right first rib",
+      "bytes": 201982,
+      "sha256": "ea7d23529b902df78aa02faa1ced1929477c06f49ee941e4b2aae668330251ae",
+      "partId": "FJ3334_Right_first_rib",
+      "vertices": 9828,
+      "triangles": 3276,
+      "bounds": [
+        [
+          -69.76409912109375,
+          -130.4239959716797,
+          1310.0699462890625
+        ],
+        [
+          -15.110899925231934,
+          -64.41459655761719,
+          1370.47998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3335_BP21383_FMA7886_Right second costal cartilage.obj",
+      "fj": "FJ3335",
+      "fma": "FMA7886",
+      "name": "Right second costal cartilage",
+      "bytes": 41651,
+      "sha256": "98f173ff6aa109c173cf9401fe2843cce125fbe4c37dec3cdca20b51084d94d5",
+      "partId": "FJ3335_Right_second_costal_cartilage",
+      "vertices": 1974,
+      "triangles": 658,
+      "bounds": [
+        [
+          -48.1870002746582,
+          -178.26100158691406,
+          1270.1199951171875
+        ],
+        [
+          -10.244600296020508,
+          -157.7449951171875,
+          1288.02001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3336_BP22251_FMA7882_Right second rib.obj",
+      "fj": "FJ3336",
+      "fma": "FMA7882",
+      "name": "Right second rib",
+      "bytes": 357986,
+      "sha256": "c3c4acf9bf84f4b6bcde4dbf215c750da1f5c5cc68ab42e6c8b6693b11ea2fce",
+      "partId": "FJ3336_Right_second_rib",
+      "vertices": 16782,
+      "triangles": 5594,
+      "bounds": [
+        [
+          -96.97209930419922,
+          -167.15699768066406,
+          1273.550048828125
+        ],
+        [
+          -16.04949951171875,
+          -50.65290069580078,
+          1359.030029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3337_BP21360_FMA7913_Right third costal cartilage.obj",
+      "fj": "FJ3337",
+      "fma": "FMA7913",
+      "name": "Right third costal cartilage",
+      "bytes": 41763,
+      "sha256": "fce39adfab01b0619df6143fc03da771e7be9e0dc2d253a0402784dead4679b1",
+      "partId": "FJ3337_Right_third_costal_cartilage",
+      "vertices": 1956,
+      "triangles": 652,
+      "bounds": [
+        [
+          -50.72420120239258,
+          -190.10800170898438,
+          1242.3800048828125
+        ],
+        [
+          -13.050999641418457,
+          -171.42100524902344,
+          1259.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3338_BP22334_FMA7909_Right third rib.obj",
+      "fj": "FJ3338",
+      "fma": "FMA7909",
+      "name": "Right third rib",
+      "bytes": 463164,
+      "sha256": "e14e8eaaf3eaba8dc7c214dd8224ace97df68f56d31beb989e867076bc5c6096",
+      "partId": "FJ3338_Right_third_rib",
+      "vertices": 21762,
+      "triangles": 7254,
+      "bounds": [
+        [
+          -108.9469985961914,
+          -179.26800537109375,
+          1243.8199462890625
+        ],
+        [
+          -14.02400016784668,
+          -36.82899856567383,
+          1335.969970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3339_BP21410_FMA7976_Right fourth costal cartilage.obj",
+      "fj": "FJ3339",
+      "fma": "FMA7976",
+      "name": "Right fourth costal cartilage",
+      "bytes": 43261,
+      "sha256": "2e6f362cb2e2541cdd379e2d7286f5719c666e1d204076c302719b13978034ad",
+      "partId": "FJ3339_Right_fourth_costal_cartilage",
+      "vertices": 2082,
+      "triangles": 694,
+      "bounds": [
+        [
+          -59.90679931640625,
+          -198.58700561523438,
+          1211.0999755859375
+        ],
+        [
+          -14.311100006103516,
+          -184.20399475097656,
+          1235.56005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3340_BP22336_FMA7957_Right fourth rib.obj",
+      "fj": "FJ3340",
+      "fma": "FMA7957",
+      "name": "Right fourth rib",
+      "bytes": 567074,
+      "sha256": "bedef7dd347f8668a2fd4de79d571cebad8a6cb306e179297ac9fa8aa5529fd3",
+      "partId": "FJ3340_Right_fourth_rib",
+      "vertices": 26496,
+      "triangles": 8832,
+      "bounds": [
+        [
+          -117.59300231933594,
+          -192.19200134277344,
+          1211.0999755859375
+        ],
+        [
+          -15.011899948120117,
+          -23.194499969482422,
+          1315.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3341_BP21376_FMA8070_Right fifth costal cartilage.obj",
+      "fj": "FJ3341",
+      "fma": "FMA8070",
+      "name": "Right fifth costal cartilage",
+      "bytes": 72810,
+      "sha256": "7d6a9cf8835d7d58e44c1029b27612432786c258e77abe5b629e01627c5abb4f",
+      "partId": "FJ3341_Right_fifth_costal_cartilage",
+      "vertices": 3504,
+      "triangles": 1168,
+      "bounds": [
+        [
+          -82.16580200195312,
+          -209.03599548339844,
+          1171.6099853515625
+        ],
+        [
+          -17.699600219726562,
+          -189.3159942626953,
+          1215.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3342_BP22307_FMA8066_Right fifth rib.obj",
+      "fj": "FJ3342",
+      "fma": "FMA8066",
+      "name": "Right fifth rib",
+      "bytes": 626812,
+      "sha256": "7375d50a05530a18c1b5684886d470c1799253b4cceffbcc93c0248545b3c8fc",
+      "partId": "FJ3342_Right_fifth_rib",
+      "vertices": 29130,
+      "triangles": 9710,
+      "bounds": [
+        [
+          -127.0790023803711,
+          -197.6510009765625,
+          1172.1600341796875
+        ],
+        [
+          -15.314200401306152,
+          -12.72760009765625,
+          1291.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3343_BP22071_FMA8194_Right sixth costal cartilage.obj",
+      "fj": "FJ3343",
+      "fma": "FMA8194",
+      "name": "Right sixth costal cartilage",
+      "bytes": 103141,
+      "sha256": "21254bf943da0b309de0f6719cbf1c09539a65545a5e706b068f1261452bcf84",
+      "partId": "FJ3343_Right_sixth_costal_cartilage",
+      "vertices": 4638,
+      "triangles": 1546,
+      "bounds": [
+        [
+          -93.69740295410156,
+          -212.18699645996094,
+          1137.56005859375
+        ],
+        [
+          -13.865500450134277,
+          -184.74899291992188,
+          1197.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3344_BP22272_FMA8175_Right sixth rib.obj",
+      "fj": "FJ3344",
+      "fma": "FMA8175",
+      "name": "Right sixth rib",
+      "bytes": 661483,
+      "sha256": "00c82e5fe46f58567578dd66ff98a570b8495ce1bef7f26392bdc201d84b3cc0",
+      "partId": "FJ3344_Right_sixth_rib",
+      "vertices": 30738,
+      "triangles": 10246,
+      "bounds": [
+        [
+          -134.3489990234375,
+          -193.5050048828125,
+          1137.9100341796875
+        ],
+        [
+          -14.837300300598145,
+          -3.6414101123809814,
+          1265.699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3345_BP21381_FMA8248_Right seventh costal cartilage.obj",
+      "fj": "FJ3345",
+      "fma": "FMA8248",
+      "name": "Right seventh costal cartilage",
+      "bytes": 167200,
+      "sha256": "62db8ee22c64127930c5c3451dcd841267d49ff8add3294f10d7a9dad9ea5b84",
+      "partId": "FJ3345_Right_seventh_costal_cartilage",
+      "vertices": 7350,
+      "triangles": 2450,
+      "bounds": [
+        [
+          -109.90899658203125,
+          -213.20799255371094,
+          1102.56005859375
+        ],
+        [
+          49.56529998779297,
+          -170.77499389648438,
+          1186.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3346_BP22330_FMA8229_Right seventh rib.obj",
+      "fj": "FJ3346",
+      "fma": "FMA8229",
+      "name": "Right seventh rib",
+      "bytes": 647068,
+      "sha256": "b91e96dcb05423c614bec2e1a9309e2097dc3f4bee97248c894c04311b4632e7",
+      "partId": "FJ3346_Right_seventh_rib",
+      "vertices": 30096,
+      "triangles": 10032,
+      "bounds": [
+        [
+          -137.0850067138672,
+          -180.2030029296875,
+          1105.18994140625
+        ],
+        [
+          -13.68970012664795,
+          -4.486909866333008,
+          1240.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3347_BP23993_FMA8283_Right eighth rib.obj",
+      "fj": "FJ3347",
+      "fma": "FMA8283",
+      "name": "Right eighth rib",
+      "bytes": 535420,
+      "sha256": "09b796b3987bd982a0d0bd986b7fd2bc6512ac88a96c83fd041b0c13cbf12674",
+      "partId": "FJ3347_Right_eighth_rib",
+      "vertices": 25008,
+      "triangles": 8336,
+      "bounds": [
+        [
+          -132.96800231933594,
+          -162.67799377441406,
+          1074.6600341796875
+        ],
+        [
+          -13.67650032043457,
+          -4.564489841461182,
+          1211.3299560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3348_BP23888_FMA8364_Right ninth rib.obj",
+      "fj": "FJ3348",
+      "fma": "FMA8364",
+      "name": "Right ninth rib",
+      "bytes": 484835,
+      "sha256": "d9195a65a4ef628ce51c0f47ecaf76a3347ce195a5947bd888e5524ff9754456",
+      "partId": "FJ3348_Right_ninth_rib",
+      "vertices": 22728,
+      "triangles": 7576,
+      "bounds": [
+        [
+          -129.09800720214844,
+          -135.6320037841797,
+          1050.0899658203125
+        ],
+        [
+          -15.86460018157959,
+          -7.529069900512695,
+          1185.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3349_BP23239_FMA23464_Right radius.obj",
+      "fj": "FJ3349",
+      "fma": "FMA23464",
+      "name": "Right radius",
+      "bytes": 42337,
+      "sha256": "c04d4b27108c2a8764e0eb8c7b6505ff2b212e7993c5184a759f3f3a1ec305e6",
+      "partId": "FJ3349_Right_radius",
+      "vertices": 2016,
+      "triangles": 672,
+      "bounds": [
+        [
+          -279.5350036621094,
+          -126.90799713134766,
+          805.8350219726562
+        ],
+        [
+          -219.83299255371094,
+          -61.10260009765625,
+          1035.050048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3350_BP23975_FMA24464_Right first metacarpal bone.obj",
+      "fj": "FJ3350",
+      "fma": "FMA24464",
+      "name": "Right first metacarpal bone",
+      "bytes": 34190,
+      "sha256": "cdde80709fabcd28970c8483c40e8964c555aed27293a0392aae851db162c2e0",
+      "partId": "FJ3350_Right_first_metacarpal_bone",
+      "vertices": 1698,
+      "triangles": 566,
+      "bounds": [
+        [
+          -309.5769958496094,
+          -153.86099243164062,
+          760.281005859375
+        ],
+        [
+          -272.2359924316406,
+          -123.62699890136719,
+          797.2379760742188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3351_BP23412_FMA24507_Right first metatarsal bone.obj",
+      "fj": "FJ3351",
+      "fma": "FMA24507",
+      "name": "Right first metatarsal bone",
+      "bytes": 68947,
+      "sha256": "c249e55e5f3c3ec7cd041bad00df7d32b1fd2109214fdf9a847c34fd07af88f1",
+      "partId": "FJ3351_Right_first_metatarsal_bone",
+      "vertices": 3366,
+      "triangles": 1122,
+      "bounds": [
+        [
+          -104.36499786376953,
+          -192.1820068359375,
+          -65.3292007446289
+        ],
+        [
+          -74.8136978149414,
+          -129.94400024414062,
+          -22.12019920349121
+        ]
+      ]
+    },
+    {
+      "file": "FJ3352_BP23440_FMA24466_Right second metacarpal bone.obj",
+      "fj": "FJ3352",
+      "fma": "FMA24466",
+      "name": "Right second metacarpal bone",
+      "bytes": 46273,
+      "sha256": "efd05b0bfc32cdd7446395e111a776eac19aaae14ddb36a268c820c53b5b9fe5",
+      "partId": "FJ3352_Right_second_metacarpal_bone",
+      "vertices": 2244,
+      "triangles": 748,
+      "bounds": [
+        [
+          -292.68701171875,
+          -142.78700256347656,
+          718.8709716796875
+        ],
+        [
+          -261.82000732421875,
+          -117.05699920654297,
+          786.8690185546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3353_BP23620_FMA24509_Right second metatarsal bone.obj",
+      "fj": "FJ3353",
+      "fma": "FMA24509",
+      "name": "Right second metatarsal bone",
+      "bytes": 52784,
+      "sha256": "6ae56110ac985f4bb37d15de00d0d6b94e0d6fe1b82ac7b6aab5a9250cb44e48",
+      "partId": "FJ3353_Right_second_metatarsal_bone",
+      "vertices": 2256,
+      "triangles": 752,
+      "bounds": [
+        [
+          -121.27300262451172,
+          -187.406005859375,
+          -66.31780242919922
+        ],
+        [
+          -90.65660095214844,
+          -122.447998046875,
+          -18.32469940185547
+        ]
+      ]
+    },
+    {
+      "file": "FJ3354_BP23643_FMA24468_Right third metacarpal bone.obj",
+      "fj": "FJ3354",
+      "fma": "FMA24468",
+      "name": "Right third metacarpal bone",
+      "bytes": 44074,
+      "sha256": "323ba5aeeba06780a5d74d0b6310f525d914eaae31c1fa2bed468ab7dcb08d5e",
+      "partId": "FJ3354_Right_third_metacarpal_bone",
+      "vertices": 2106,
+      "triangles": 702,
+      "bounds": [
+        [
+          -272.34600830078125,
+          -142.73300170898438,
+          720.8400268554688
+        ],
+        [
+          -252.48599243164062,
+          -112.32599639892578,
+          785.2620239257812
+        ]
+      ]
+    },
+    {
+      "file": "FJ3355_BP23610_FMA24511_Right third metatarsal bone.obj",
+      "fj": "FJ3355",
+      "fma": "FMA24511",
+      "name": "Right third metatarsal bone",
+      "bytes": 45560,
+      "sha256": "8e2ab66b5264d3523f0d2e399c15e708ef7b6ad8c960809b7dc6bf376450bf86",
+      "partId": "FJ3355_Right_third_metatarsal_bone",
+      "vertices": 2100,
+      "triangles": 700,
+      "bounds": [
+        [
+          -133.5959930419922,
+          -180.85699462890625,
+          -66.37740325927734
+        ],
+        [
+          -98.32219696044922,
+          -118.36100006103516,
+          -23.672500610351562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3356_BP23371_FMA24470_Right fourth metacarpal bone.obj",
+      "fj": "FJ3356",
+      "fma": "FMA24470",
+      "name": "Right fourth metacarpal bone",
+      "bytes": 35361,
+      "sha256": "9248cb33ea45ef48c69d04a06b8bac5f29a4b82cad0fbd3818a6ac292b98e9b9",
+      "partId": "FJ3356_Right_fourth_metacarpal_bone",
+      "vertices": 1608,
+      "triangles": 536,
+      "bounds": [
+        [
+          -253.74099731445312,
+          -141.9709930419922,
+          725.2789916992188
+        ],
+        [
+          -241.42599487304688,
+          -115.91699981689453,
+          785.1580200195312
+        ]
+      ]
+    },
+    {
+      "file": "FJ3357_BP23640_FMA24513_Right fourth metatarsal bone.obj",
+      "fj": "FJ3357",
+      "fma": "FMA24513",
+      "name": "Right fourth metatarsal bone",
+      "bytes": 43223,
+      "sha256": "660c220f477a06bdd929e4d5f1864b47fcc763449944c1e89a5e27567e8092f8",
+      "partId": "FJ3357_Right_fourth_metatarsal_bone",
+      "vertices": 2022,
+      "triangles": 674,
+      "bounds": [
+        [
+          -142.6699981689453,
+          -169.6840057373047,
+          -67.34390258789062
+        ],
+        [
+          -101.86699676513672,
+          -106.97599792480469,
+          -31.958499908447266
+        ]
+      ]
+    },
+    {
+      "file": "FJ3358_BP23729_FMA24472_Right fifth metacarpal bone.obj",
+      "fj": "FJ3358",
+      "fma": "FMA24472",
+      "name": "Right fifth metacarpal bone",
+      "bytes": 30826,
+      "sha256": "5387eba65d922bde4afd5d4bb65f62e4510ac22040baa0e8458ecd7f915888ee",
+      "partId": "FJ3358_Right_fifth_metacarpal_bone",
+      "vertices": 1518,
+      "triangles": 506,
+      "bounds": [
+        [
+          -245.31399536132812,
+          -144.52000427246094,
+          732.0159912109375
+        ],
+        [
+          -225.20199584960938,
+          -120.07599639892578,
+          786.9190063476562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3359_BP23705_FMA24515_Right fifth metatarsal bone.obj",
+      "fj": "FJ3359",
+      "fma": "FMA24515",
+      "name": "Right fifth metatarsal bone",
+      "bytes": 49081,
+      "sha256": "b11fc0b2474a1c87d645eecdc6ea1bb578579eb05056f2543e6d6f8e92e8f199",
+      "partId": "FJ3359_Right_fifth_metatarsal_bone",
+      "vertices": 2382,
+      "triangles": 794,
+      "bounds": [
+        [
+          -152.33099365234375,
+          -155.0780029296875,
+          -69.8196029663086
+        ],
+        [
+          -106.45800018310547,
+          -89.3821029663086,
+          -39.879398345947266
+        ]
+      ]
+    },
+    {
+      "file": "FJ3360_BP23541_FMA24497_Right calcaneus.obj",
+      "fj": "FJ3360",
+      "fma": "FMA24497",
+      "name": "Right calcaneus",
+      "bytes": 81418,
+      "sha256": "57c17be5638a780e5eb0d211734d24e8771d09d36e46823f26ce1e90f85d9b73",
+      "partId": "FJ3360_Right_calcaneus",
+      "vertices": 3786,
+      "triangles": 1262,
+      "bounds": [
+        [
+          -100.78099822998047,
+          -94.14849853515625,
+          -68.4906997680664
+        ],
+        [
+          -44.87580108642578,
+          -24.00510025024414,
+          -19.154699325561523
+        ]
+      ]
+    },
+    {
+      "file": "FJ3361_BP21773_FMA24446_Right capitate.obj",
+      "fj": "FJ3361",
+      "fma": "FMA24446",
+      "name": "Right capitate",
+      "bytes": 27104,
+      "sha256": "df7b715d057239199bf014e8d2fcb7ae0255e69978e5f0ff5adb084485167de0",
+      "partId": "FJ3361_Right_capitate",
+      "vertices": 1284,
+      "triangles": 428,
+      "bounds": [
+        [
+          -264.48199462890625,
+          -127.49199676513672,
+          782.1909790039062
+        ],
+        [
+          -248.4010009765625,
+          -110.53399658203125,
+          804.5969848632812
+        ]
+      ]
+    },
+    {
+      "file": "FJ3362_BP23174_FMA13322_Right clavicle.obj",
+      "fj": "FJ3362",
+      "fma": "FMA13322",
+      "name": "Right clavicle",
+      "bytes": 67957,
+      "sha256": "ea1c86d112c0635759ecf6ca9633b023b87e16511f01d6ef165b98d729316970",
+      "partId": "FJ3362_Right_clavicle",
+      "vertices": 3438,
+      "triangles": 1146,
+      "bounds": [
+        [
+          -145.27699279785156,
+          -146.947998046875,
+          1308.6199951171875
+        ],
+        [
+          -9.661649703979492,
+          -54.412498474121094,
+          1355.43994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3364_BP24103_FMA24528_Right cuboid bone.obj",
+      "fj": "FJ3364",
+      "fma": "FMA24528",
+      "name": "Right cuboid bone",
+      "bytes": 59713,
+      "sha256": "d2becafc6b01ea7bd1a555ce65a018c488e813f8109bb22cb04cd97a174c1844",
+      "partId": "FJ3364_Right_cuboid_bone",
+      "vertices": 2796,
+      "triangles": 932,
+      "bounds": [
+        [
+          -115.08499908447266,
+          -116.76799774169922,
+          -51.12160110473633
+        ],
+        [
+          -82.36650085449219,
+          -83.73269653320312,
+          -22.088300704956055
+        ]
+      ]
+    },
+    {
+      "file": "FJ3365_BP23346_FMA24474_Right femur.obj",
+      "fj": "FJ3365",
+      "fma": "FMA24474",
+      "name": "Right femur",
+      "bytes": 191750,
+      "sha256": "4ecf1a20a04bcf7963c23fde40e41bef9842c4a584337ea131c6a090bd53e9cb",
+      "partId": "FJ3365_Right_femur",
+      "vertices": 9306,
+      "triangles": 3102,
+      "bounds": [
+        [
+          -150.13400268554688,
+          -112.19200134277344,
+          368.1499938964844
+        ],
+        [
+          -31.89430046081543,
+          -49.53020095825195,
+          834.2520141601562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3366_BP23268_FMA24480_Right fibula.obj",
+      "fj": "FJ3366",
+      "fma": "FMA24480",
+      "name": "Right fibula",
+      "bytes": 68833,
+      "sha256": "64272264d3aba3cd3226a1d2df47008c4f4375df52367be85df765dac83cdba6",
+      "partId": "FJ3366_Right_fibula",
+      "vertices": 3426,
+      "triangles": 1142,
+      "bounds": [
+        [
+          -120.16500091552734,
+          -78.1688003540039,
+          -25.27989959716797
+        ],
+        [
+          -84.34449768066406,
+          -48.48740005493164,
+          359.1499938964844
+        ]
+      ]
+    },
+    {
+      "file": "FJ3367_BP23822_FMA24448_Right hamate.obj",
+      "fj": "FJ3367",
+      "fma": "FMA24448",
+      "name": "Right hamate",
+      "bytes": 34630,
+      "sha256": "4249d3f73d0c5bf6c77f39b8bf4122a8d2285984267eed6d1e697ac1e8228e53",
+      "partId": "FJ3367_Right_hamate",
+      "vertices": 1566,
+      "triangles": 522,
+      "bounds": [
+        [
+          -251.92799377441406,
+          -133.93099975585938,
+          781.2930297851562
+        ],
+        [
+          -236.60000610351562,
+          -111.40599822998047,
+          800.6530151367188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3368_BP23164_FMA23130_Right humerus.obj",
+      "fj": "FJ3368",
+      "fma": "FMA23130",
+      "name": "Right humerus",
+      "bytes": 256200,
+      "sha256": "0ad8a599aa3189fe4085c3d2d9b51f38c4aa46dcc8491769b4d5a03fc5666e38",
+      "partId": "FJ3368_Right_humerus",
+      "vertices": 11352,
+      "triangles": 3784,
+      "bounds": [
+        [
+          -240.84100341796875,
+          -100.21900177001953,
+          1029.199951171875
+        ],
+        [
+          -140.08999633789062,
+          -51.039100646972656,
+          1336.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3369_BP23235_FMA54737_Right inferior nasal concha.obj",
+      "fj": "FJ3369",
+      "fma": "FMA54737",
+      "name": "Right inferior nasal concha",
+      "bytes": 54468,
+      "sha256": "04093e7f4a2527c20126e063f821cfe7ec9eb76d7e9610011311b4a874a54d8e",
+      "partId": "FJ3369_Right_inferior_nasal_concha",
+      "vertices": 2142,
+      "triangles": 714,
+      "bounds": [
+        [
+          -16.532100677490234,
+          -166.32699584960938,
+          1478.52001953125
+        ],
+        [
+          -6.688169956207275,
+          -129.96099853515625,
+          1498.47998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3370_BP20141_FMA24523_Right intermediate cuneiform bone.obj",
+      "fj": "FJ3370",
+      "fma": "FMA24523",
+      "name": "Right intermediate cuneiform bone",
+      "bytes": 30002,
+      "sha256": "8eb94f2285ff05aeebe6515f19cf032c72a5941311dab660fcf184d92a58d5eb",
+      "partId": "FJ3370_Right_intermediate_cuneiform_bone",
+      "vertices": 1350,
+      "triangles": 450,
+      "bounds": [
+        [
+          -102.00700378417969,
+          -130.53399658203125,
+          -34.43659973144531
+        ],
+        [
+          -81.8594970703125,
+          -109.58499908447266,
+          -11.38539981842041
+        ]
+      ]
+    },
+    {
+      "file": "FJ3371_BP23129_FMA53645_Right lacrimal bone.obj",
+      "fj": "FJ3371",
+      "fma": "FMA53645",
+      "name": "Right lacrimal bone",
+      "bytes": 43813,
+      "sha256": "6c0b8ef764ecaa4f9087961296afffcfdc8d87e6dc6baa6bd1255db04f812e20",
+      "partId": "FJ3371_Right_lacrimal_bone",
+      "vertices": 2106,
+      "triangles": 702,
+      "bounds": [
+        [
+          -18.041900634765625,
+          -165.50999450683594,
+          1501.8800048828125
+        ],
+        [
+          -7.4864702224731445,
+          -150.94700622558594,
+          1527.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3372_BP23488_FMA45097_Sesamoid bone of right foot.obj",
+      "fj": "FJ3372",
+      "fma": "FMA45097",
+      "name": "Sesamoid bone of right foot",
+      "bytes": 6509,
+      "sha256": "9a23384905cace0df9fefeefb7868fd5dee8bbbeeb768d0cc8e80c0368ead051",
+      "partId": "FJ3372_Sesamoid_bone_of_right_foot",
+      "vertices": 240,
+      "triangles": 80,
+      "bounds": [
+        [
+          -94.160400390625,
+          -184.7790069580078,
+          -67.78929901123047
+        ],
+        [
+          -87.06109619140625,
+          -175.4929962158203,
+          -61.588199615478516
+        ]
+      ]
+    },
+    {
+      "file": "FJ3373_BP23823_FMA24525_Right lateral cuneiform bone.obj",
+      "fj": "FJ3373",
+      "fma": "FMA24525",
+      "name": "Right lateral cuneiform bone",
+      "bytes": 41619,
+      "sha256": "4112bc89a676cf474144c5b31b316d66a11abf10fbf3de11763adf0fcc40902d",
+      "partId": "FJ3373_Right_lateral_cuneiform_bone",
+      "vertices": 1878,
+      "triangles": 626,
+      "bounds": [
+        [
+          -112.875,
+          -125.23200225830078,
+          -40.56439971923828
+        ],
+        [
+          -87.19830322265625,
+          -100.83799743652344,
+          -14.856200218200684
+        ]
+      ]
+    },
+    {
+      "file": "FJ3374_BP23841_FMA24437_Right lunate.obj",
+      "fj": "FJ3374",
+      "fma": "FMA24437",
+      "name": "Right lunate",
+      "bytes": 20704,
+      "sha256": "e696638d33e10bd33293394d90d4e20e27b5c6a0240688ab80dbeba06c82c4e4",
+      "partId": "FJ3374_Right_lunate",
+      "vertices": 996,
+      "triangles": 332,
+      "bounds": [
+        [
+          -252.7239990234375,
+          -126.92400360107422,
+          797.4609985351562
+        ],
+        [
+          -236.20199584960938,
+          -110.63500213623047,
+          809.8200073242188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3375_BP23661_FMA53649_Right maxilla.obj",
+      "fj": "FJ3375",
+      "fma": "FMA53649",
+      "name": "Right maxilla",
+      "bytes": 388214,
+      "sha256": "867e5c366244097506a919ae85d601a15f0b745c4da27433c08bfb21228a233a",
+      "partId": "FJ3375_Right_maxilla",
+      "vertices": 15972,
+      "triangles": 5324,
+      "bounds": [
+        [
+          -47.61069869995117,
+          -184.0290069580078,
+          1463.989990234375
+        ],
+        [
+          -0.25105398893356323,
+          -129.37399291992188,
+          1533.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3376_BP23488_FMA45097_Sesamoid bone of right foot.obj",
+      "fj": "FJ3376",
+      "fma": "FMA45097",
+      "name": "Sesamoid bone of right foot",
+      "bytes": 10281,
+      "sha256": "77786360b1d2dab189d32fb27fa8092c8e3c0fc89d2ecbdc24837e926a163dca",
+      "partId": "FJ3376_Sesamoid_bone_of_right_foot",
+      "vertices": 474,
+      "triangles": 158,
+      "bounds": [
+        [
+          -103.00800323486328,
+          -183.55999755859375,
+          -69.26409912109375
+        ],
+        [
+          -94.77860260009766,
+          -170.73800659179688,
+          -61.72330093383789
+        ]
+      ]
+    },
+    {
+      "file": "FJ3377_BP21781_FMA24521_Right medial cuneiform bone.obj",
+      "fj": "FJ3377",
+      "fma": "FMA24521",
+      "name": "Right medial cuneiform bone",
+      "bytes": 64642,
+      "sha256": "baa8f420ebd5246b67eb275678a93cf8afc870cae5717362c704ed7b4905c268",
+      "partId": "FJ3377_Right_medial_cuneiform_bone",
+      "vertices": 2856,
+      "triangles": 952,
+      "bounds": [
+        [
+          -94.12760162353516,
+          -140.5070037841797,
+          -45.27320098876953
+        ],
+        [
+          -66.00440216064453,
+          -111.98200225830078,
+          -14.229599952697754
+        ]
+      ]
+    },
+    {
+      "file": "FJ3379_BP24091_FMA53655_Right palatine bone.obj",
+      "fj": "FJ3379",
+      "fma": "FMA53655",
+      "name": "Right palatine bone",
+      "bytes": 118888,
+      "sha256": "3125499d2b51aedf32b0e9224b6da36c8f719251ed6f91b1cea3251cb54c9bc1",
+      "partId": "FJ3379_Right_palatine_bone",
+      "vertices": 5208,
+      "triangles": 1736,
+      "bounds": [
+        [
+          -28.810400009155273,
+          -149.90699768066406,
+          1470.449951171875
+        ],
+        [
+          0.14722099900245667,
+          -103.31300354003906,
+          1513.3399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3380_BP23064_FMA52788_Right parietal bone.obj",
+      "fj": "FJ3380",
+      "fma": "FMA52788",
+      "name": "Right parietal bone",
+      "bytes": 928502,
+      "sha256": "ef9812913a8593b50ae384955418c0c2339933740473e85b9e3b309a777ecf21",
+      "partId": "FJ3380_Right_parietal_bone",
+      "vertices": 39006,
+      "triangles": 13002,
+      "bounds": [
+        [
+          -76.1884994506836,
+          -127.88600158691406,
+          1517.8800048828125
+        ],
+        [
+          5.002439975738525,
+          14.831399917602539,
+          1636.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3381_BP23756_FMA24486_Right patella.obj",
+      "fj": "FJ3381",
+      "fma": "FMA24486",
+      "name": "Right patella",
+      "bytes": 18841,
+      "sha256": "0047f75b0dc301a7531323631e54500765dd323b2c4554d72e6cfc250e753c55",
+      "partId": "FJ3381_Right_patella",
+      "vertices": 918,
+      "triangles": 306,
+      "bounds": [
+        [
+          -102.28800201416016,
+          -122.72699737548828,
+          361.4859924316406
+        ],
+        [
+          -60.62080001831055,
+          -100.99199676513672,
+          400.7959899902344
+        ]
+      ]
+    },
+    {
+      "file": "FJ3382_BP21756_FMA24441_Right pisiform.obj",
+      "fj": "FJ3382",
+      "fma": "FMA24441",
+      "name": "Right pisiform",
+      "bytes": 11328,
+      "sha256": "e1d59617164a40057a48c7bdf4cd8e0b0df565661ca83b090da80a0877591607",
+      "partId": "FJ3382_Right_pisiform",
+      "vertices": 570,
+      "triangles": 190,
+      "bounds": [
+        [
+          -240.22000122070312,
+          -137.6580047607422,
+          789.6749877929688
+        ],
+        [
+          -231.95599365234375,
+          -127.2490005493164,
+          801.3250122070312
+        ]
+      ]
+    },
+    {
+      "file": "FJ3383_BP21772_FMA24435_Right scaphoid.obj",
+      "fj": "FJ3383",
+      "fma": "FMA24435",
+      "name": "Right scaphoid",
+      "bytes": 20235,
+      "sha256": "83e115e4269b6b30900132898f599ef70eb73eb8605d9bfad83905fa34f29b76",
+      "partId": "FJ3383_Right_scaphoid",
+      "vertices": 966,
+      "triangles": 322,
+      "bounds": [
+        [
+          -273.05999755859375,
+          -126.66300201416016,
+          796.35400390625
+        ],
+        [
+          -249.33200073242188,
+          -111.5739974975586,
+          811.7899780273438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3384_BP23090_FMA13395_Right scapula.obj",
+      "fj": "FJ3384",
+      "fma": "FMA13395",
+      "name": "Right scapula",
+      "bytes": 1743404,
+      "sha256": "3873c4310d32f3269af812eac978aa32292359f5bd4af7f7e422b7f87b835a6f",
+      "partId": "FJ3384_Right_scapula",
+      "vertices": 78516,
+      "triangles": 26172,
+      "bounds": [
+        [
+          -166.46400451660156,
+          -102.85600280761719,
+          1183.9599609375
+        ],
+        [
+          -57.05379867553711,
+          5.082749843597412,
+          1349.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3385_BP23520_FMA24482_Right talus.obj",
+      "fj": "FJ3385",
+      "fma": "FMA24482",
+      "name": "Right talus",
+      "bytes": 89456,
+      "sha256": "8565b9c34e287c94574e34a8f41fd671ef0c28cfc75b64d5c8f4a6cc177e17aa",
+      "partId": "FJ3385_Right_talus",
+      "vertices": 4140,
+      "triangles": 1380,
+      "bounds": [
+        [
+          -90.11360168457031,
+          -105.56900024414062,
+          -31.156099319458008
+        ],
+        [
+          -49.62730026245117,
+          -48.75400161743164,
+          3.1109299659729004
+        ]
+      ]
+    },
+    {
+      "file": "FJ3386_BP23685_FMA52738_Right temporal bone.obj",
+      "fj": "FJ3386",
+      "fma": "FMA52738",
+      "name": "Right temporal bone",
+      "bytes": 349604,
+      "sha256": "ca1defb8b800c22dc3f9b6723a3b5e73dbdf847e1f9c0f4f10567225af22ec29",
+      "partId": "FJ3386_Right_temporal_bone",
+      "vertices": 14784,
+      "triangles": 4928,
+      "bounds": [
+        [
+          -73.9894027709961,
+          -133.73599243164062,
+          1475.5699462890625
+        ],
+        [
+          -12.695099830627441,
+          -35.01259994506836,
+          1551.530029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3387_BP23960_FMA24477_Right tibia.obj",
+      "fj": "FJ3387",
+      "fma": "FMA24477",
+      "name": "Right tibia",
+      "bytes": 99776,
+      "sha256": "5fe201dfb80da682439c70444d97c705b9b3079b340aec00406074a304688d61",
+      "partId": "FJ3387_Right_tibia",
+      "vertices": 4992,
+      "triangles": 1664,
+      "bounds": [
+        [
+          -109.35299682617188,
+          -114.83499908447266,
+          -6.0371599197387695
+        ],
+        [
+          -35.215999603271484,
+          -52.072898864746094,
+          373.9200134277344
+        ]
+      ]
+    },
+    {
+      "file": "FJ3388_BP20135_FMA24443_Right trapezium.obj",
+      "fj": "FJ3388",
+      "fma": "FMA24443",
+      "name": "Right trapezium",
+      "bytes": 28585,
+      "sha256": "bd7504ce6fb1fa12416c8ffcfd19cf751052e7960fc8de7af69fc943b1811073",
+      "partId": "FJ3388_Right_trapezium",
+      "vertices": 1302,
+      "triangles": 434,
+      "bounds": [
+        [
+          -281.72198486328125,
+          -134.5760040283203,
+          785.8049926757812
+        ],
+        [
+          -264.93798828125,
+          -117.7300033569336,
+          805.7329711914062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3389_BP23964_FMA23725_Right trapezoid.obj",
+      "fj": "FJ3389",
+      "fma": "FMA23725",
+      "name": "Right trapezoid",
+      "bytes": 26082,
+      "sha256": "ea58285389bced4ad7ab5acfbf8e294e2dd3732cb3e1c293e27c2c9dad64609f",
+      "partId": "FJ3389_Right_trapezoid",
+      "vertices": 1080,
+      "triangles": 360,
+      "bounds": [
+        [
+          -273.260986328125,
+          -128.38800048828125,
+          782.864990234375
+        ],
+        [
+          -262.1400146484375,
+          -113.5270004272461,
+          795.3109741210938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3390_BP21751_FMA24439_Right triquetral.obj",
+      "fj": "FJ3390",
+      "fma": "FMA24439",
+      "name": "Right triquetral",
+      "bytes": 12725,
+      "sha256": "aac53e48c673cd3f7691d1274d2fb9b4f260d7ed46b996be6a57fca73350ef63",
+      "partId": "FJ3390_Right_triquetral",
+      "vertices": 510,
+      "triangles": 170,
+      "bounds": [
+        [
+          -242.76600646972656,
+          -129.73599243164062,
+          788.7689819335938
+        ],
+        [
+          -232.15699768066406,
+          -114.63099670410156,
+          802.5900268554688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3391_BP23195_FMA23467_Right ulna.obj",
+      "fj": "FJ3391",
+      "fma": "FMA23467",
+      "name": "Right ulna",
+      "bytes": 53810,
+      "sha256": "dee852d107cd345be4461734f8155f01799352bacf4505471c4c1f82f676683b",
+      "partId": "FJ3391_Right_ulna",
+      "vertices": 2502,
+      "triangles": 834,
+      "bounds": [
+        [
+          -247.1790008544922,
+          -123.49400329589844,
+          805.1729736328125
+        ],
+        [
+          -196.88099670410156,
+          -44.799198150634766,
+          1052.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3392_BP23110_FMA52892_Right zygomatic bone.obj",
+      "fj": "FJ3392",
+      "fma": "FMA52892",
+      "name": "Right zygomatic bone",
+      "bytes": 100735,
+      "sha256": "81400b9ebe1b4cf54a9d6eeb6676681ffe4fd962e68350a38ec2349ba170928b",
+      "partId": "FJ3392_Right_zygomatic_bone",
+      "vertices": 4668,
+      "triangles": 1556,
+      "bounds": [
+        [
+          -64.5779037475586,
+          -161.4530029296875,
+          1480.6400146484375
+        ],
+        [
+          -33.23460006713867,
+          -121.77400207519531,
+          1536.6400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3393_BP22840_FMA16202_Sacrum.obj",
+      "fj": "FJ3393",
+      "fma": "FMA16202",
+      "name": "Sacrum",
+      "bytes": 654514,
+      "sha256": "075790fa7c698f2128c83c9321167a19f67d09830cbc93b465619b4ac86bd7e6",
+      "partId": "FJ3393_Sacrum",
+      "vertices": 29766,
+      "triangles": 9922,
+      "bounds": [
+        [
+          -59.59120178222656,
+          -81.39640045166016,
+          782.8369750976562
+        ],
+        [
+          58.20289993286133,
+          7.253749847412109,
+          927.2000122070312
+        ]
+      ]
+    },
+    {
+      "file": "FJ3394_BP23082_FMA52736_Sphenoid bone.obj",
+      "fj": "FJ3394",
+      "fma": "FMA52736",
+      "name": "Sphenoid bone",
+      "bytes": 573231,
+      "sha256": "955ce48240d3037006bb724e1d39eb7b6939e15ce3ef53019a8058cfc19b99e4",
+      "partId": "FJ3394_Sphenoid_bone",
+      "vertices": 24462,
+      "triangles": 8154,
+      "bounds": [
+        [
+          -56.319801330566406,
+          -145.0189971923828,
+          1478.9100341796875
+        ],
+        [
+          55.032901763916016,
+          -90.4126968383789,
+          1548.4599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ6309_BP23248_FMA52740_Ethmoid.obj",
+      "fj": "FJ6309",
+      "fma": "FMA52740",
+      "name": "Ethmoid",
+      "bytes": 1493867,
+      "sha256": "ba08d5c389906c2dc7c5d956b32a5986f154fa692d10017b886b543a06b9475c",
+      "partId": "FJ6309_Ethmoid",
+      "vertices": 67044,
+      "triangles": 22348,
+      "bounds": [
+        [
+          -20.250699996948242,
+          -169.656005859375,
+          1492.75
+        ],
+        [
+          19.259899139404297,
+          -120.5479965209961,
+          1537.4300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ6383_BP23333_FMA53648_Left nasal bone.obj",
+      "fj": "FJ6383",
+      "fma": "FMA53648",
+      "name": "Left nasal bone",
+      "bytes": 31471,
+      "sha256": "ebc3e68ab27e2db2edb2670796b1c6f27f15f00d2a28dfb66e238db0e1776316",
+      "partId": "FJ6383_Left_nasal_bone",
+      "vertices": 1500,
+      "triangles": 500,
+      "bounds": [
+        [
+          -1.7767499685287476,
+          -190.78900146484375,
+          1501.8299560546875
+        ],
+        [
+          7.315849781036377,
+          -169.30099487304688,
+          1533.47998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ6470_BP23260_FMA53647_Right nasal bone.obj",
+      "fj": "FJ6470",
+      "fma": "FMA53647",
+      "name": "Right nasal bone",
+      "bytes": 29437,
+      "sha256": "4bb561d5b081aa72739c846e7246fd6de22fa4301e148e6228d233cf62abc2d0",
+      "partId": "FJ6470_Right_nasal_bone",
+      "vertices": 1404,
+      "triangles": 468,
+      "bounds": [
+        [
+          -9.008330345153809,
+          -190.8679962158203,
+          1500.6300048828125
+        ],
+        [
+          0.3034929931163788,
+          -169.6020050048828,
+          1533.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ6486_BP22288_FMA9710_Vomer.obj",
+      "fj": "FJ6486",
+      "fma": "FMA9710",
+      "name": "Vomer",
+      "bytes": 455385,
+      "sha256": "511883f99b87558eb8fbc59c2c1a7531640911e2ae95d67b8187f4b5456a78d5",
+      "partId": "FJ6486_Vomer",
+      "vertices": 21306,
+      "triangles": 7102,
+      "bounds": [
+        [
+          -4.7430901527404785,
+          -176.40899658203125,
+          1477.8499755859375
+        ],
+        [
+          3.6342499256134033,
+          -108.23600006103516,
+          1516.9599609375
+        ]
+      ]
+    }
+  ]
+}

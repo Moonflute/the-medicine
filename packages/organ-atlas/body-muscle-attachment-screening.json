@@ -1,0 +1,329 @@
+{
+  "method": "Minimum original muscle vertex to original bone triangle surface in common source millimeter coordinates. Proximity does not establish named attachment footprint or exclude penetration. No mesh alteration.",
+  "references": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064717/",
+    "https://pubmed.ncbi.nlm.nih.gov/11948958/"
+  ],
+  "rows": [
+    {
+      "muscle": "Right tibialis anterior",
+      "sourceId": "FJ1439",
+      "sourceSha256": "43dfb2f95a79be5501f7cc7604fc188172d348f4fb2387ea69e81c7d619a5067",
+      "bone": "Right medial cuneiform bone",
+      "targetId": "FJ3377",
+      "targetSha256": "baa8f420ebd5246b67eb275678a93cf8afc870cae5717362c704ed7b4905c268",
+      "minimumVertexToSurfaceMm": 0.006986737856796254,
+      "sourcePointMm": [
+        -70.5339,
+        -132.684,
+        -34.4245
+      ],
+      "targetPointMm": [
+        -70.5396365783179,
+        -132.68004434129693,
+        -34.42399113920652
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Right tibialis anterior",
+      "sourceId": "FJ1439",
+      "sourceSha256": "43dfb2f95a79be5501f7cc7604fc188172d348f4fb2387ea69e81c7d619a5067",
+      "bone": "Right first metatarsal bone",
+      "targetId": "FJ3351",
+      "targetSha256": "c249e55e5f3c3ec7cd041bad00df7d32b1fd2109214fdf9a847c34fd07af88f1",
+      "minimumVertexToSurfaceMm": 0.0011107462346143296,
+      "sourcePointMm": [
+        -77.1053,
+        -144.273,
+        -26.8498
+      ],
+      "targetPointMm": [
+        -77.10442647066165,
+        -144.2733597903406,
+        -26.849215829987454
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Left tibialis anterior",
+      "sourceId": "FJ1439M",
+      "sourceSha256": "6420bc598e4a35e5eb7bd0056afad22b012214fe81d602452942089859fcfb12",
+      "bone": "Left medial cuneiform bone",
+      "targetId": "FJ3271",
+      "targetSha256": "d294a701f354deda023a40eb735c86edefaf171c9250ebac7031b5c52fb3e12d",
+      "minimumVertexToSurfaceMm": 0.0035223948417691625,
+      "sourcePointMm": [
+        76.7337,
+        -137.28,
+        -24.6297
+      ],
+      "targetPointMm": [
+        76.73082575185475,
+        -137.28078148787876,
+        -24.62781977668448
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Left tibialis anterior",
+      "sourceId": "FJ1439M",
+      "sourceSha256": "6420bc598e4a35e5eb7bd0056afad22b012214fe81d602452942089859fcfb12",
+      "bone": "Left first metatarsal bone",
+      "targetId": "FJ3241",
+      "targetSha256": "4b72c66cbdee72b349a7af076b77f770383eb25baf36be85a2ab0b6a3a80d26d",
+      "minimumVertexToSurfaceMm": 0.02580499141659244,
+      "sourcePointMm": [
+        76.8634,
+        -142.496,
+        -25.9968
+      ],
+      "targetPointMm": [
+        76.84280248116846,
+        -142.50621892407148,
+        -25.98508618803222
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Acromial part of right deltoid",
+      "sourceId": "FJ1467",
+      "sourceSha256": "da5c025e90963016d6ff7b982d45393167b2cd0bfe4fc4e733eb3ffcae3d5e74",
+      "bone": "Right humerus",
+      "targetId": "FJ3368",
+      "targetSha256": "0ad8a599aa3189fe4085c3d2d9b51f38c4aa46dcc8491769b4d5a03fc5666e38",
+      "minimumVertexToSurfaceMm": 0.1114363969568094,
+      "sourcePointMm": [
+        -193.008,
+        -83.9523,
+        1255.73
+      ],
+      "targetPointMm": [
+        -192.94468870397546,
+        -83.86073755494276,
+        1255.7248942172444
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Acromial part of right deltoid",
+      "sourceId": "FJ1467",
+      "sourceSha256": "da5c025e90963016d6ff7b982d45393167b2cd0bfe4fc4e733eb3ffcae3d5e74",
+      "bone": "Right scapula",
+      "targetId": "FJ3384",
+      "targetSha256": "3873c4310d32f3269af812eac978aa32292359f5bd4af7f7e422b7f87b835a6f",
+      "minimumVertexToSurfaceMm": 0.012526469479662555,
+      "sourcePointMm": [
+        -156.159,
+        -74.5494,
+        1343.43
+      ],
+      "targetPointMm": [
+        -156.16234151375536,
+        -74.55393289341694,
+        1343.4188107372577
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Acromial part of left deltoid",
+      "sourceId": "FJ1467M",
+      "sourceSha256": "615c8bb7daa5824e6d2a5d3ebdc3d28392a29c4ede76cf73751a4459cb87ce2b",
+      "bone": "Left humerus",
+      "targetId": "FJ3262",
+      "targetSha256": "c9512362bc5bb07b29292a5444eda8be7f6f6a0959f59213a695bc6323aa0010",
+      "minimumVertexToSurfaceMm": 0.03829819584621912,
+      "sourcePointMm": [
+        193.009,
+        -83.9523,
+        1255.73
+      ],
+      "targetPointMm": [
+        193.03278083243546,
+        -83.98218678245253,
+        1255.7328291426945
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Acromial part of left deltoid",
+      "sourceId": "FJ1467M",
+      "sourceSha256": "615c8bb7daa5824e6d2a5d3ebdc3d28392a29c4ede76cf73751a4459cb87ce2b",
+      "bone": "Left scapula",
+      "targetId": "FJ3279",
+      "targetSha256": "87cebf8702718e03dd10afbee87a50abce47139802ff305c749b33f40d451fda",
+      "minimumVertexToSurfaceMm": 0.019663264708272427,
+      "sourcePointMm": [
+        161.193,
+        -69.5109,
+        1342.86
+      ],
+      "targetPointMm": [
+        161.18923781305747,
+        -69.5062998629453,
+        1342.8787437634287
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Clavicular part of right deltoid",
+      "sourceId": "FJ1468",
+      "sourceSha256": "6d381bac512e455e7816dcef19f1540d1a9c281cc86074cde2e6d5a1e4ad4330",
+      "bone": "Right humerus",
+      "targetId": "FJ3368",
+      "targetSha256": "0ad8a599aa3189fe4085c3d2d9b51f38c4aa46dcc8491769b4d5a03fc5666e38",
+      "minimumVertexToSurfaceMm": 0.11589746122813276,
+      "sourcePointMm": [
+        -197.07,
+        -83.3688,
+        1230.97
+      ],
+      "targetPointMm": [
+        -196.99209057920297,
+        -83.28326388533198,
+        1230.9632238094996
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Clavicular part of right deltoid",
+      "sourceId": "FJ1468",
+      "sourceSha256": "6d381bac512e455e7816dcef19f1540d1a9c281cc86074cde2e6d5a1e4ad4330",
+      "bone": "Right clavicle",
+      "targetId": "FJ3362",
+      "targetSha256": "ea1c86d112c0635759ecf6ca9633b023b87e16511f01d6ef165b98d729316970",
+      "minimumVertexToSurfaceMm": 0.0006350775505610367,
+      "sourcePointMm": [
+        -91.3762,
+        -102.983,
+        1340.98
+      ],
+      "targetPointMm": [
+        -91.375774500068,
+        -102.98259499724085,
+        1340.979758657778
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Clavicular part of left deltoid",
+      "sourceId": "FJ1468M",
+      "sourceSha256": "3ef0c665b228c01c3b39e59e5ac20f609b95dfe2eec8a29c64e3ce73456195a1",
+      "bone": "Left humerus",
+      "targetId": "FJ3262",
+      "targetSha256": "c9512362bc5bb07b29292a5444eda8be7f6f6a0959f59213a695bc6323aa0010",
+      "minimumVertexToSurfaceMm": 0.004556918297355032,
+      "sourcePointMm": [
+        200.882,
+        -81.2514,
+        1205.99
+      ],
+      "targetPointMm": [
+        200.88522191187946,
+        -81.25460822433514,
+        1205.9903034548158
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Clavicular part of left deltoid",
+      "sourceId": "FJ1468M",
+      "sourceSha256": "3ef0c665b228c01c3b39e59e5ac20f609b95dfe2eec8a29c64e3ce73456195a1",
+      "bone": "Left clavicle",
+      "targetId": "FJ3237",
+      "targetSha256": "a7eda265732db6c87ab0fb8c8f78a274882ceca59510991b0e7b32078c08152f",
+      "minimumVertexToSurfaceMm": 0.0029040066552443486,
+      "sourcePointMm": [
+        129.558,
+        -78.8509,
+        1353.95
+      ],
+      "targetPointMm": [
+        129.5579414316808,
+        -78.84965217930447,
+        1353.9473784035556
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Spinal part of right deltoid",
+      "sourceId": "FJ1513",
+      "sourceSha256": "4477f1b005b4492d637198f78707611c28a48b3c679e30960c6ac3de2fe08bc7",
+      "bone": "Right humerus",
+      "targetId": "FJ3368",
+      "targetSha256": "0ad8a599aa3189fe4085c3d2d9b51f38c4aa46dcc8491769b4d5a03fc5666e38",
+      "minimumVertexToSurfaceMm": 0.0022688369262036166,
+      "sourcePointMm": [
+        -200.25,
+        -77.8992,
+        1227.66
+      ],
+      "targetPointMm": [
+        -200.25221699648213,
+        -77.8994746463719,
+        1227.660396379826
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Spinal part of right deltoid",
+      "sourceId": "FJ1513",
+      "sourceSha256": "4477f1b005b4492d637198f78707611c28a48b3c679e30960c6ac3de2fe08bc7",
+      "bone": "Right scapula",
+      "targetId": "FJ3384",
+      "targetSha256": "3873c4310d32f3269af812eac978aa32292359f5bd4af7f7e422b7f87b835a6f",
+      "minimumVertexToSurfaceMm": 0.002665212675061367,
+      "sourcePointMm": [
+        -159.338,
+        -38.2651,
+        1329.79
+      ],
+      "targetPointMm": [
+        -159.33950977612096,
+        -38.26546216005991,
+        1329.7878337186796
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Spinal part of left deltoid",
+      "sourceId": "FJ1513M",
+      "sourceSha256": "3f6ec5b7c1fc0689b27f93850c15a5265787e86be4c76f8911e8a605bf83683a",
+      "bone": "Left humerus",
+      "targetId": "FJ3262",
+      "targetSha256": "c9512362bc5bb07b29292a5444eda8be7f6f6a0959f59213a695bc6323aa0010",
+      "minimumVertexToSurfaceMm": 0.042003363617876044,
+      "sourcePointMm": [
+        197.915,
+        -78.966,
+        1238.97
+      ],
+      "targetPointMm": [
+        197.95598628197274,
+        -78.97095489924442,
+        1238.9777366800854
+      ],
+      "status": "screening-only"
+    },
+    {
+      "muscle": "Spinal part of left deltoid",
+      "sourceId": "FJ1513M",
+      "sourceSha256": "3f6ec5b7c1fc0689b27f93850c15a5265787e86be4c76f8911e8a605bf83683a",
+      "bone": "Left scapula",
+      "targetId": "FJ3279",
+      "targetSha256": "87cebf8702718e03dd10afbee87a50abce47139802ff305c749b33f40d451fda",
+      "minimumVertexToSurfaceMm": 0.002402741290999943,
+      "sourcePointMm": [
+        159.338,
+        -38.2651,
+        1329.79
+      ],
+      "targetPointMm": [
+        159.336783584128,
+        -38.265086615233265,
+        1329.7920720325735
+      ],
+      "status": "screening-only"
+    }
+  ]
+}

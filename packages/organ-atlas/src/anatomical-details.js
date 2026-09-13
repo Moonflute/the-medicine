@@ -6,6 +6,12 @@ export {detailOptions} from './detail-catalog.js';
 const refs={'testis-ducts':['https://openstax.org/books/anatomy-and-physiology/pages/27-1-anatomy-and-physiology-of-the-male-reproductive-system'],'adrenal-zones':['https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands'],chordae:['https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy'],conduction:['https://www.nhlbi.nih.gov/health/heart/heart-beats','https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity'],nephron:['https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work','https://openstax.org/books/anatomy-and-physiology/pages/25-4-microscopic-anatomy-of-the-kidney'],'renal-tree':['https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney']};
 export function buildDetailModel(organId,key){
  if(!detailOptions[organId]?.some(([id])=>id===key))throw Error('Unsupported anatomical detail');
+ if(key==='whole-source-body')return import('./z-whole-detail.js').then(m=>m.loadWholeBodyDetail());
+ if(key.startsWith('z-neural-'))return import('./z-neural-detail.js').then(m=>m.loadZNeuralDetail(key));
+ if(key.startsWith('combined-'))return import('./body-combined-detail.js').then(m=>m.loadCombinedDetail(key));
+ if(key.startsWith('neural-'))return import('./body-nerve-detail.js').then(m=>m.loadNeuralDetail(key));
+ if(key.startsWith('vascular-'))return import('./body-vessel-detail.js').then(m=>m.loadVascularDetail(key));
+ if(key.startsWith('musculoskeletal-'))return import('./body-muscle-detail.js').then(m=>m.loadMusculoskeletalDetail(key));
  if(['larynx-framework','pharynx-larynx','thyroid-larynx'].includes(key))return import('./larynx-detail.js').then(m=>m.loadLarynxDetail(organId,key));
  if((key.startsWith('testis-outflow-')||key.startsWith('testis-vascular-')))return import('./testis-outflow.js').then(m=>m.loadTestisOutflow(key));
  if(key.startsWith('auricle-'))return import('./auricle-detail.js').then(m=>m.loadAuricleDetail(key));
@@ -52,7 +58,3 @@ export function buildDetailModel(organId,key){
  }
  root.updateMatrixWorld(true);const box=new T.Box3().setFromObject(root),center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());root.position.sub(center);const norm=new T.Group();norm.add(root);norm.scale.setScalar(2.8/Math.max(size.x,size.y,size.z));const wrapper=new T.Group();wrapper.add(norm);wrapper.userData.detail=root.userData.detail;return wrapper;
 }
-
-
-
-

@@ -1,0 +1,4634 @@
+{
+  "source": "BodyParts3D 4.3",
+  "scope": "Candidate central vessels from FJ3400–3670; branch continuity and source identities under review; not complete body vasculature",
+  "meshes": 201,
+  "triangles": 398854,
+  "gzipBytes": 7751776,
+  "sourcePositionsPreserved": true,
+  "sourceTransformsPreserved": true,
+  "records": [
+    {
+      "file": "FJ3400_BP20949_FMA15394_Left colic vein.obj",
+      "fj": "FJ3400",
+      "fma": "FMA15394",
+      "name": "Left colic vein",
+      "bytes": 35376,
+      "sha256": "350a59410a5d69e049f5bd49ba4c9fdc9e8a46c93a15a34922e88e8a8e970246",
+      "partId": "FJ3400_Left_colic_vein",
+      "vertices": 1626,
+      "triangles": 542,
+      "bounds": [
+        [
+          28.459199905395508,
+          -124.45800018310547,
+          975.0850219726562
+        ],
+        [
+          60.07630157470703,
+          -101.28700256347656,
+          1065.52001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3401_BP20430_FMA70479_Anterior inferior pancreaticoduodenal artery.obj",
+      "fj": "FJ3401",
+      "fma": "FMA70479",
+      "name": "Anterior inferior pancreaticoduodenal artery",
+      "bytes": 22706,
+      "sha256": "3b7e900274acd3024b60f06bf7ae87681de444fcebc6f2d5db7bf07c7902af63",
+      "partId": "FJ3401_Anterior_inferior_pancreaticoduodenal_artery",
+      "vertices": 1068,
+      "triangles": 356,
+      "bounds": [
+        [
+          -46.177101135253906,
+          -145.052001953125,
+          1007.1599731445312
+        ],
+        [
+          -14.678199768066406,
+          -131.91400146484375,
+          1026.5899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3406_BP22077_FMA14816_Anterior cecal artery.obj",
+      "fj": "FJ3406",
+      "fma": "FMA14816",
+      "name": "Anterior cecal artery",
+      "bytes": 8715,
+      "sha256": "66b9cfb611a1cd9a79a0629e341ad4cb88652e58a6fbbe4ea3fd308a1487565c",
+      "partId": "FJ3406_Anterior_cecal_artery",
+      "vertices": 360,
+      "triangles": 120,
+      "bounds": [
+        [
+          -72.60700225830078,
+          -122.53299713134766,
+          921.9749755859375
+        ],
+        [
+          -58.4010009765625,
+          -119.45899963378906,
+          929.083984375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3409_BP22070_FMA14782_Anterior superior pancreaticoduodenal artery.obj",
+      "fj": "FJ3409",
+      "fma": "FMA14782",
+      "name": "Anterior superior pancreaticoduodenal artery",
+      "bytes": 29884,
+      "sha256": "90d923aa5757c63527b9b06a5e545b2e529077eed4c4e68d27dcea193dcabb64",
+      "partId": "FJ3409_Anterior_superior_pancreaticoduodenal_artery",
+      "vertices": 1362,
+      "triangles": 454,
+      "bounds": [
+        [
+          -46.65620040893555,
+          -139.9810028076172,
+          1023.1400146484375
+        ],
+        [
+          -9.125980377197266,
+          -128.66600036621094,
+          1065.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3410_BP22112_FMA14818_Appendicular artery.obj",
+      "fj": "FJ3410",
+      "fma": "FMA14818",
+      "name": "Appendicular artery",
+      "bytes": 68958,
+      "sha256": "85aa1b58c1c34a4f07470fb411c6811ca65af43fa1515a85c337a133065e5317",
+      "partId": "FJ3410_Appendicular_artery",
+      "vertices": 2604,
+      "triangles": 868,
+      "bounds": [
+        [
+          -55.70880126953125,
+          -124.552001953125,
+          872.7119750976562
+        ],
+        [
+          -23.484899520874023,
+          -88.38739776611328,
+          939.8610229492188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3411_BP23913_FMA3768_Arch of aorta.obj",
+      "fj": "FJ3411",
+      "fma": "FMA3768",
+      "name": "Arch of aorta",
+      "bytes": 41378,
+      "sha256": "6b72258bcc413abbcf6193e11575933d08f3ba960b52a7b8462a7b0ccb4607eb",
+      "partId": "FJ3411_Arch_of_aorta",
+      "vertices": 2010,
+      "triangles": 670,
+      "bounds": [
+        [
+          -6.830460071563721,
+          -137.16299438476562,
+          1281.9000244140625
+        ],
+        [
+          34.837799072265625,
+          -49.84489822387695,
+          1317.0899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3413_BP20272_FMA3736_Ascending aorta.obj",
+      "fj": "FJ3413",
+      "fma": "FMA3736",
+      "name": "Ascending aorta",
+      "bytes": 24321,
+      "sha256": "6903aed5746a4e210ebd7c0a15bba69707b2ef29398b97903bc2815c2f82c2bc",
+      "partId": "FJ3413_Ascending_aorta",
+      "vertices": 1188,
+      "triangles": 396,
+      "bounds": [
+        [
+          -6.822179794311523,
+          -137.43899536132812,
+          1234.06005859375
+        ],
+        [
+          28.94300079345703,
+          -106.66200256347656,
+          1281.9000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3414_BP20758_FMA75856_Trunk of superior branch of ileocolic artery.obj",
+      "fj": "FJ3414",
+      "fma": "FMA75856",
+      "name": "Trunk of superior branch of ileocolic artery",
+      "bytes": 25328,
+      "sha256": "85d70c662b7579713f5e93dcdcb1f2998985bca7169fbceda0612ad778868bde",
+      "partId": "FJ3414_Trunk_of_superior_branch_of_ileocolic_artery",
+      "vertices": 1074,
+      "triangles": 358,
+      "bounds": [
+        [
+          -72.0967025756836,
+          -133.92599487304688,
+          956.6179809570312
+        ],
+        [
+          -25.8435001373291,
+          -115.25900268554688,
+          990.322021484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3415_BP20351_FMA15408_Ileocolic vein.obj",
+      "fj": "FJ3415",
+      "fma": "FMA15408",
+      "name": "Ileocolic vein",
+      "bytes": 28684,
+      "sha256": "32dc988d6ee0a3464ada8fe6c1b906629ea9b4d52c37caa484876f85ed40a0b5",
+      "partId": "FJ3415_Ileocolic_vein",
+      "vertices": 1332,
+      "triangles": 444,
+      "bounds": [
+        [
+          -74.18389892578125,
+          -130.4770050048828,
+          956.6909790039062
+        ],
+        [
+          -28.059600830078125,
+          -111.60299682617188,
+          990.2979736328125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3416_BP22361_FMA4838_Azygos vein.obj",
+      "fj": "FJ3416",
+      "fma": "FMA4838",
+      "name": "Azygos vein",
+      "bytes": 1185447,
+      "sha256": "ffd96b33a9eeaf229f25d3dd2eb9caecd399124255c2245d289ae92efdba42e4",
+      "partId": "FJ3416_Azygos_vein",
+      "vertices": 54780,
+      "triangles": 18260,
+      "bounds": [
+        [
+          -18.15019989013672,
+          -113.02899932861328,
+          1073.75
+        ],
+        [
+          -5.621640205383301,
+          -59.845699310302734,
+          1291.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3417_BP23234_FMA69316_Trunk of brachiocephalic artery.obj",
+      "fj": "FJ3417",
+      "fma": "FMA69316",
+      "name": "Trunk of brachiocephalic artery",
+      "bytes": 16367,
+      "sha256": "eca3366eebc7fa284955df19ff55c0334246e2a424be90b49902d1c6ff9083d2",
+      "partId": "FJ3417_Trunk_of_brachiocephalic_artery",
+      "vertices": 786,
+      "triangles": 262,
+      "bounds": [
+        [
+          -19.282800674438477,
+          -119.65699768066406,
+          1304.3199462890625
+        ],
+        [
+          18.24570083618164,
+          -101.9729995727539,
+          1342.280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3418_BP20410_FMA14177_Bronchial branch of arch of aorta.obj",
+      "fj": "FJ3418",
+      "fma": "FMA14177",
+      "name": "Bronchial branch of arch of aorta",
+      "bytes": 80363,
+      "sha256": "3422fc8359fcf2f73e11b78a2f628fce37e216dc00941e388c3bac96625857bf",
+      "partId": "FJ3418_Bronchial_branch_of_arch_of_aorta",
+      "vertices": 3426,
+      "triangles": 1142,
+      "bounds": [
+        [
+          -29.62179946899414,
+          -79.0958023071289,
+          1261.739990234375
+        ],
+        [
+          17.332399368286133,
+          -70.0708999633789,
+          1303.0899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3419_BP20977_FMA14793_Caudal pancreatic artery.obj",
+      "fj": "FJ3419",
+      "fma": "FMA14793",
+      "name": "Caudal pancreatic artery",
+      "bytes": 56604,
+      "sha256": "dba6a61d986a22ab59e0794dbece90e2cc3e5ea514f9a6f9fa4a1876d04e4b49",
+      "partId": "FJ3419_Caudal_pancreatic_artery",
+      "vertices": 1968,
+      "triangles": 656,
+      "bounds": [
+        [
+          29.335899353027344,
+          -105.41100311279297,
+          1060.3299560546875
+        ],
+        [
+          58.270999908447266,
+          -95.4801025390625,
+          1072.56005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3420_BP20232_FMA14773_Splenic artery.obj",
+      "fj": "FJ3420",
+      "fma": "FMA14773",
+      "name": "Splenic artery",
+      "bytes": 47672,
+      "sha256": "96661722071fda9d7f3f192643272fba299d2b133453e89d90d73ec3ae948384",
+      "partId": "FJ3420_Splenic_artery",
+      "vertices": 1320,
+      "triangles": 440,
+      "bounds": [
+        [
+          44.057899475097656,
+          -108.56400299072266,
+          1066.8900146484375
+        ],
+        [
+          50.83639907836914,
+          -103.26300048828125,
+          1075.8699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3426_BP22069_FMA21386_Left superficial dorsal vein of penis.obj",
+      "fj": "FJ3426",
+      "fma": "FMA21386",
+      "name": "Left superficial dorsal vein of penis",
+      "bytes": 308801,
+      "sha256": "bde6120329de4be5e57e33281a2967a6c82846def58933d74d03b0dc9d240319",
+      "partId": "FJ3426_Left_superficial_dorsal_vein_of_penis",
+      "vertices": 14634,
+      "triangles": 4878,
+      "bounds": [
+        [
+          -5.068230152130127,
+          -190.28199768066406,
+          714.8629760742188
+        ],
+        [
+          5.067770004272461,
+          -102.32099914550781,
+          791.7639770507812
+        ]
+      ]
+    },
+    {
+      "file": "FJ3427_BP23707_FMA3784_Descending aorta.obj",
+      "fj": "FJ3427",
+      "fma": "FMA3784",
+      "name": "Descending aorta",
+      "bytes": 288865,
+      "sha256": "5d461cda0a71eaa0136f3a13bf1938ad7660ee3e4cc1750eb4ac865c91ba4668",
+      "partId": "FJ3427_Descending_aorta",
+      "vertices": 13686,
+      "triangles": 4562,
+      "bounds": [
+        [
+          -2.411220073699951,
+          -131.23599243164062,
+          946.7789916992188
+        ],
+        [
+          34.6963996887207,
+          -45.08580017089844,
+          1281.9100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3428_BP22516_FMA14829_Descending branch of left colic artery.obj",
+      "fj": "FJ3428",
+      "fma": "FMA14829",
+      "name": "Descending branch of left colic artery",
+      "bytes": 30744,
+      "sha256": "70f8627e7b40b22e76d3530fc7350ec920396b72f8ff719f1135ce1736135028",
+      "partId": "FJ3428_Descending_branch_of_left_colic_artery",
+      "vertices": 1446,
+      "triangles": 482,
+      "bounds": [
+        [
+          28.031200408935547,
+          -129.82899475097656,
+          942.3150024414062
+        ],
+        [
+          65.21959686279297,
+          -110.66999816894531,
+          980.7639770507812
+        ]
+      ]
+    },
+    {
+      "file": "FJ3429_BP20949_FMA15394_Left colic vein.obj",
+      "fj": "FJ3429",
+      "fma": "FMA15394",
+      "name": "Left colic vein",
+      "bytes": 31958,
+      "sha256": "bd27b0df0f0b8b7a48a35cf6ddd28670f2f784fcd50b1c4e91a0b59a515a2796",
+      "partId": "FJ3429_Left_colic_vein",
+      "vertices": 1416,
+      "triangles": 472,
+      "bounds": [
+        [
+          30.88290023803711,
+          -123.71700286865234,
+          942.2860107421875
+        ],
+        [
+          68.19419860839844,
+          -105.41699981689453,
+          980.6430053710938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3430_BP20791_FMA14787_Dorsal pancreatic artery.obj",
+      "fj": "FJ3430",
+      "fma": "FMA14787",
+      "name": "Dorsal pancreatic artery",
+      "bytes": 78909,
+      "sha256": "19e40d999860f73b41b8e341add2b845e101ff1538fd4481a5556d6e09ed960b",
+      "partId": "FJ3430_Dorsal_pancreatic_artery",
+      "vertices": 3990,
+      "triangles": 1330,
+      "bounds": [
+        [
+          3.3910999298095703,
+          -131.98699951171875,
+          1046.81005859375
+        ],
+        [
+          10.063300132751465,
+          -122.62200164794922,
+          1077.7900390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3431_BP21484_FMA71537_Set of oesophageal branches of thoracic aorta.obj",
+      "fj": "FJ3431",
+      "fma": "FMA71537",
+      "name": "Set of oesophageal branches of thoracic aorta",
+      "bytes": 93736,
+      "sha256": "ac2e63540ac0db86b14bf6608871459162aa9c122ffb0583c7264f2824e6b633",
+      "partId": "FJ3431_Set_of_oesophageal_branches_of_thoracic_aorta",
+      "vertices": 4014,
+      "triangles": 1338,
+      "bounds": [
+        [
+          -14.099200248718262,
+          -85.88919830322266,
+          1200.0699462890625
+        ],
+        [
+          21.891000747680664,
+          -54.42649841308594,
+          1256.760009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3432_BP22087_FMA76574_Trunk of gastroduodenal artery.obj",
+      "fj": "FJ3432",
+      "fma": "FMA76574",
+      "name": "Trunk of gastroduodenal artery",
+      "bytes": 12325,
+      "sha256": "2eb1fa4d0dcac145f71648317be29a351f5ce1bceeb4707534e3338d138a008d",
+      "partId": "FJ3432_Trunk_of_gastroduodenal_artery",
+      "vertices": 612,
+      "triangles": 204,
+      "bounds": [
+        [
+          -11.35789966583252,
+          -141.3070068359375,
+          1065.0999755859375
+        ],
+        [
+          -5.860360145568848,
+          -135.84300231933594,
+          1078.1800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3433_BP20766_FMA14792_Great pancreatic artery.obj",
+      "fj": "FJ3433",
+      "fma": "FMA14792",
+      "name": "Great pancreatic artery",
+      "bytes": 15539,
+      "sha256": "fab917a215e9a2e552915f6d6f5c59aa6f036aac43809134b47a5c72a077adfe",
+      "partId": "FJ3433_Great_pancreatic_artery",
+      "vertices": 810,
+      "triangles": 270,
+      "bounds": [
+        [
+          41.10329818725586,
+          -108.59600067138672,
+          1065.81005859375
+        ],
+        [
+          44.960201263427734,
+          -100.39299774169922,
+          1075.4200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3434_BP22357_FMA4944_Hemiazygos vein.obj",
+      "fj": "FJ3434",
+      "fma": "FMA4944",
+      "name": "Hemiazygos vein",
+      "bytes": 265441,
+      "sha256": "d6a7695382586ae3fd1428c1ccd6388d63546c5650a468af9dc72cc6b4fa4bf4",
+      "partId": "FJ3434_Hemiazygos_vein",
+      "vertices": 12798,
+      "triangles": 4266,
+      "bounds": [
+        [
+          -15.802399635314941,
+          -75.79010009765625,
+          1070.260009765625
+        ],
+        [
+          24.03820037841797,
+          -55.10060119628906,
+          1174.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3437_BP24021_FMA75857_Trunk of inferior branch of ileocolic artery.obj",
+      "fj": "FJ3437",
+      "fma": "FMA75857",
+      "name": "Trunk of inferior branch of ileocolic artery",
+      "bytes": 12667,
+      "sha256": "3969c5e3cd4002a1b157dc8b2418065d8a391b5b133cd98d4cf6e2bf4454de1d",
+      "partId": "FJ3437_Trunk_of_inferior_branch_of_ileocolic_artery",
+      "vertices": 558,
+      "triangles": 186,
+      "bounds": [
+        [
+          -53.30659866333008,
+          -132.3000030517578,
+          936.6339721679688
+        ],
+        [
+          -29.144500732421875,
+          -121.4739990234375,
+          957.031005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3438_BP19815_FMA15405_Ileal vein.obj",
+      "fj": "FJ3438",
+      "fma": "FMA15405",
+      "name": "Ileal vein",
+      "bytes": 13795,
+      "sha256": "42a448bf12babc85c520609278d5a8eb78f508e9f2bea014804229c2cb00b220",
+      "partId": "FJ3438_Ileal_vein",
+      "vertices": 636,
+      "triangles": 212,
+      "bounds": [
+        [
+          -55.10820007324219,
+          -129.41000366210938,
+          936.9299926757812
+        ],
+        [
+          -30.953500747680664,
+          -118.46199798583984,
+          957.6019897460938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3439_BP22663_FMA66499_Trunk of ileocolic artery.obj",
+      "fj": "FJ3439",
+      "fma": "FMA66499",
+      "name": "Trunk of ileocolic artery",
+      "bytes": 14387,
+      "sha256": "5146304ef3af84f8a5c3bd72396f363721c19551af419cfc5f337868c7ef52d7",
+      "partId": "FJ3439_Trunk_of_ileocolic_artery",
+      "vertices": 732,
+      "triangles": 244,
+      "bounds": [
+        [
+          -31.38050079345703,
+          -144.3699951171875,
+          954.4660034179688
+        ],
+        [
+          -5.439819812774658,
+          -129.63600158691406,
+          983.3909912109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3440_BP20351_FMA15408_Ileocolic vein.obj",
+      "fj": "FJ3440",
+      "fma": "FMA15408",
+      "name": "Ileocolic vein",
+      "bytes": 16330,
+      "sha256": "1d5dc3d4e0e1a37e2e6856de8b651f810cc63dff90df0edd1409ad94f73a12be",
+      "partId": "FJ3440_Ileocolic_vein",
+      "vertices": 750,
+      "triangles": 250,
+      "bounds": [
+        [
+          -33.319000244140625,
+          -138.1300048828125,
+          954.8400268554688
+        ],
+        [
+          -11.109600067138672,
+          -126.23300170898438,
+          979.177978515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3441_BP23720_FMA10951_Inferior vena cava.obj",
+      "fj": "FJ3441",
+      "fma": "FMA10951",
+      "name": "Inferior vena cava",
+      "bytes": 88638,
+      "sha256": "22cee979046d6ade5883a10e2eca4b08222403e7e1adf5802973a21ee6b44b97",
+      "partId": "FJ3441_Inferior_vena_cava",
+      "vertices": 4230,
+      "triangles": 1410,
+      "bounds": [
+        [
+          -26.825599670410156,
+          -126.53800201416016,
+          1094.93994140625
+        ],
+        [
+          -3.9695301055908203,
+          -103.552001953125,
+          1190.530029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3442_BP23699_FMA66359_Trunk of inferior mesenteric artery.obj",
+      "fj": "FJ3442",
+      "fma": "FMA66359",
+      "name": "Trunk of inferior mesenteric artery",
+      "bytes": 32787,
+      "sha256": "18ba13f602cde87dad466fab724d731d987b01ffd679c7f88054125762c1ca03",
+      "partId": "FJ3442_Trunk_of_inferior_mesenteric_artery",
+      "vertices": 1638,
+      "triangles": 546,
+      "bounds": [
+        [
+          4.192969799041748,
+          -136.718994140625,
+          899.0499877929688
+        ],
+        [
+          18.455900192260742,
+          -113.27300262451172,
+          986.2319946289062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3443_BP20470_FMA15391_Inferior mesenteric vein.obj",
+      "fj": "FJ3443",
+      "fma": "FMA15391",
+      "name": "Inferior mesenteric vein",
+      "bytes": 65798,
+      "sha256": "1270139cf44e5572936a49047401458876d8065635af99d61d95f842209eecdb",
+      "partId": "FJ3443_Inferior_mesenteric_vein",
+      "vertices": 3324,
+      "triangles": 1108,
+      "bounds": [
+        [
+          5.390669822692871,
+          -131.08200073242188,
+          900.4290161132812
+        ],
+        [
+          27.060199737548828,
+          -111.19100189208984,
+          1069.550048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3444_BP22698_FMA14790_Inferior pancreatic artery.obj",
+      "fj": "FJ3444",
+      "fma": "FMA14790",
+      "name": "Inferior pancreatic artery",
+      "bytes": 55941,
+      "sha256": "de8aaeec4bcd7647da50ac6f22796f6a306ad7c119838670f1b2218fe3bafaa0",
+      "partId": "FJ3444_Inferior_pancreatic_artery",
+      "vertices": 2784,
+      "triangles": 928,
+      "bounds": [
+        [
+          9.297590255737305,
+          -125.5270004272461,
+          1046.4100341796875
+        ],
+        [
+          30.05940055847168,
+          -104.60399627685547,
+          1061.1700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3446_BP20203_FMA14805_Inferior pancreaticoduodenal artery.obj",
+      "fj": "FJ3446",
+      "fma": "FMA14805",
+      "name": "Inferior pancreaticoduodenal artery",
+      "bytes": 16038,
+      "sha256": "719c8233247e2e0548e6fdab781c7e55d0c40144b55b48ee39a3c7f4fc509c49",
+      "partId": "FJ3446_Inferior_pancreaticoduodenal_artery",
+      "vertices": 780,
+      "triangles": 260,
+      "bounds": [
+        [
+          -16.132400512695312,
+          -144.16600036621094,
+          1024.5899658203125
+        ],
+        [
+          -0.8219649791717529,
+          -134.2570037841797,
+          1029.260009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3447_BP21792_FMA68068_Inferior phrenic vein.obj",
+      "fj": "FJ3447",
+      "fma": "FMA68068",
+      "name": "Inferior phrenic vein",
+      "bytes": 68151,
+      "sha256": "55935c272ecab642523465972e50e0a76cd3ed0177366cd77332c4e2ce38af1e",
+      "partId": "FJ3447_Inferior_phrenic_vein",
+      "vertices": 3126,
+      "triangles": 1042,
+      "bounds": [
+        [
+          -9.241609573364258,
+          -142.8820037841797,
+          1033.47998046875
+        ],
+        [
+          36.09320068359375,
+          -90.19999694824219,
+          1180.8900146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3448_BP21792_FMA68068_Inferior phrenic vein.obj",
+      "fj": "FJ3448",
+      "fma": "FMA68068",
+      "name": "Inferior phrenic vein",
+      "bytes": 60543,
+      "sha256": "44f23712769a806b807b098fdf06f57331afc70397cfa942da9c7047b9a3ed34",
+      "partId": "FJ3448_Inferior_phrenic_vein",
+      "vertices": 2394,
+      "triangles": 798,
+      "bounds": [
+        [
+          24.89889907836914,
+          -149.46600341796875,
+          1095.56005859375
+        ],
+        [
+          113.63500213623047,
+          -85.93180084228516,
+          1166.4100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3449_BP21792_FMA68068_Inferior phrenic vein.obj",
+      "fj": "FJ3449",
+      "fma": "FMA68068",
+      "name": "Inferior phrenic vein",
+      "bytes": 41238,
+      "sha256": "96f2151bd9e1c1779a69caafe2dd84cade211afdb0b6063ac39d4d9297007df5",
+      "partId": "FJ3449_Inferior_phrenic_vein",
+      "vertices": 1500,
+      "triangles": 500,
+      "bounds": [
+        [
+          29.765499114990234,
+          -148.32200622558594,
+          1120.5
+        ],
+        [
+          108.96600341796875,
+          -125.48100280761719,
+          1174.3399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3450_BP21792_FMA68068_Inferior phrenic vein.obj",
+      "fj": "FJ3450",
+      "fma": "FMA68068",
+      "name": "Inferior phrenic vein",
+      "bytes": 26168,
+      "sha256": "58dd229315d4f652b113b857c3216cc8680dee1063eb5a1a797b312606a6e949",
+      "partId": "FJ3450_Inferior_phrenic_vein",
+      "vertices": 984,
+      "triangles": 328,
+      "bounds": [
+        [
+          12.199999809265137,
+          -196.30599975585938,
+          1165.9100341796875
+        ],
+        [
+          24.14299964904785,
+          -140.39999389648438,
+          1176.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3451_BP21792_FMA68068_Inferior phrenic vein.obj",
+      "fj": "FJ3451",
+      "fma": "FMA68068",
+      "name": "Inferior phrenic vein",
+      "bytes": 52594,
+      "sha256": "90cd8847f74fa347198bf85330a2b8d3d60a1ce4369db22993c26c4b24086d25",
+      "partId": "FJ3451_Inferior_phrenic_vein",
+      "vertices": 1776,
+      "triangles": 592,
+      "bounds": [
+        [
+          86.23370361328125,
+          -128.01800537109375,
+          1046.4000244140625
+        ],
+        [
+          117.33499908447266,
+          -91.35079956054688,
+          1159.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3452_BP21792_FMA68068_Inferior phrenic vein.obj",
+      "fj": "FJ3452",
+      "fma": "FMA68068",
+      "name": "Inferior phrenic vein",
+      "bytes": 58295,
+      "sha256": "8d7e17e2995473c100df96dc35d1c9c122d5b15d13cb5fee43b54a1edecb4b4e",
+      "partId": "FJ3452_Inferior_phrenic_vein",
+      "vertices": 2976,
+      "triangles": 992,
+      "bounds": [
+        [
+          94.77469635009766,
+          -94.29460144042969,
+          1035.7099609375
+        ],
+        [
+          116.02799987792969,
+          -62.08369827270508,
+          1093.5
+        ]
+      ]
+    },
+    {
+      "file": "FJ3458_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "fj": "FJ3458",
+      "fma": "FMA70487",
+      "name": "Anterior division of left renal artery",
+      "bytes": 85975,
+      "sha256": "843a749443c0aff7f2ce8f1723e85a2727cadff56b98526fb3b6cbab61c886cf",
+      "partId": "FJ3458_Anterior_division_of_left_renal_artery",
+      "vertices": 4404,
+      "triangles": 1468,
+      "bounds": [
+        [
+          27.9606990814209,
+          -110.33599853515625,
+          1038.3900146484375
+        ],
+        [
+          61.56990051269531,
+          -81.29109954833984,
+          1053.1600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3459_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "fj": "FJ3459",
+      "fma": "FMA70487",
+      "name": "Anterior division of left renal artery",
+      "bytes": 33233,
+      "sha256": "4add66ee0fe0d6cde4da5d98f31e1f34a7ad189b3884453f1f80726c48e7dc27",
+      "partId": "FJ3459_Anterior_division_of_left_renal_artery",
+      "vertices": 1602,
+      "triangles": 534,
+      "bounds": [
+        [
+          48.041900634765625,
+          -90.57080078125,
+          1002.02001953125
+        ],
+        [
+          56.50510025024414,
+          -84.61509704589844,
+          1030.77001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3460_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "fj": "FJ3460",
+      "fma": "FMA70487",
+      "name": "Anterior division of left renal artery",
+      "bytes": 39895,
+      "sha256": "c38d3afa438fcbc6d3bf741d911ed1302bb6bddffac53e0f7c98a2c4c6f0761d",
+      "partId": "FJ3460_Anterior_division_of_left_renal_artery",
+      "vertices": 1794,
+      "triangles": 598,
+      "bounds": [
+        [
+          60.47700119018555,
+          -87.02429962158203,
+          1008.4400024414062
+        ],
+        [
+          70.13269805908203,
+          -74.50409698486328,
+          1057.6400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3461_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "fj": "FJ3461",
+      "fma": "FMA70487",
+      "name": "Anterior division of left renal artery",
+      "bytes": 316174,
+      "sha256": "158a9c615a83881680841acd64ac9c48920268905d647fb6ffe9ae46deb8405f",
+      "partId": "FJ3461_Anterior_division_of_left_renal_artery",
+      "vertices": 13098,
+      "triangles": 4366,
+      "bounds": [
+        [
+          41.94609832763672,
+          -89.27290344238281,
+          996.7659912109375
+        ],
+        [
+          81.64920043945312,
+          -71.5647964477539,
+          1075.199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3462_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "fj": "FJ3462",
+      "fma": "FMA70487",
+      "name": "Anterior division of left renal artery",
+      "bytes": 88451,
+      "sha256": "d8b43c1022fc6b8a521164564f39a9040df97b7c4d720f5ccffacbec3f94aee3",
+      "partId": "FJ3462_Anterior_division_of_left_renal_artery",
+      "vertices": 4530,
+      "triangles": 1510,
+      "bounds": [
+        [
+          30.958200454711914,
+          -106.28399658203125,
+          1040.489990234375
+        ],
+        [
+          57.307498931884766,
+          -77.55449676513672,
+          1065.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3463_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "fj": "FJ3463",
+      "fma": "FMA70487",
+      "name": "Anterior division of left renal artery",
+      "bytes": 178148,
+      "sha256": "8db02d11ae4a44a6e36a874727f370ae572115192f7772d1443353f18da353bb",
+      "partId": "FJ3463_Anterior_division_of_left_renal_artery",
+      "vertices": 8796,
+      "triangles": 2932,
+      "bounds": [
+        [
+          27.062999725341797,
+          -109.76300048828125,
+          1011.510009765625
+        ],
+        [
+          67.9749984741211,
+          -80.38999938964844,
+          1043.6800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3464_BP22662_FMA69384_Trunk of left common iliac artery.obj",
+      "fj": "FJ3464",
+      "fma": "FMA69384",
+      "name": "Trunk of left common iliac artery",
+      "bytes": 13920,
+      "sha256": "7d1847243fd661ca54ba2f5c9dd0edeee0a0d2536b032ab9250a8fb3368609d1",
+      "partId": "FJ3464_Trunk_of_left_common_iliac_artery",
+      "vertices": 744,
+      "triangles": 248,
+      "bounds": [
+        [
+          0.9080470204353333,
+          -129.72000122070312,
+          901.7329711914062
+        ],
+        [
+          35.98429870605469,
+          -90.63500213623047,
+          964.635009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3465_BP21633_FMA21388_Left common iliac vein.obj",
+      "fj": "FJ3465",
+      "fma": "FMA21388",
+      "name": "Left common iliac vein",
+      "bytes": 26238,
+      "sha256": "ba800af42f2dec96764d29a2a693a0f648e0585d5f41b1694b5e312d743de06a",
+      "partId": "FJ3465_Left_common_iliac_vein",
+      "vertices": 1290,
+      "triangles": 430,
+      "bounds": [
+        [
+          -15.09570026397705,
+          -123.13600158691406,
+          900.5910034179688
+        ],
+        [
+          26.247900009155273,
+          -76.90550231933594,
+          965.1740112304688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3466_BP23478_FMA69391_Trunk proper of left external iliac artery.obj",
+      "fj": "FJ3466",
+      "fma": "FMA69391",
+      "name": "Trunk proper of left external iliac artery",
+      "bytes": 26656,
+      "sha256": "a5ac78c639f42a2a0abf9f359d778dece6f804f112bbc5832979299bcafeb060",
+      "partId": "FJ3466_Trunk_proper_of_left_external_iliac_artery",
+      "vertices": 1386,
+      "triangles": 462,
+      "bounds": [
+        [
+          25.536399841308594,
+          -152.94400024414062,
+          809.8319702148438
+        ],
+        [
+          65.44149780273438,
+          -78.13629913330078,
+          912.3359985351562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3467_BP22653_FMA69266_Left inferior suprarenal artery.obj",
+      "fj": "FJ3467",
+      "fma": "FMA69266",
+      "name": "Left inferior suprarenal artery",
+      "bytes": 74871,
+      "sha256": "67aae1febcfdba2d992b229f20a3286b9c68da9d881cda4be541f31a31cd625b",
+      "partId": "FJ3467_Left_inferior_suprarenal_artery",
+      "vertices": 2862,
+      "triangles": 954,
+      "bounds": [
+        [
+          22.148799896240234,
+          -106.5260009765625,
+          1040.199951171875
+        ],
+        [
+          76.02549743652344,
+          -68.44400024414062,
+          1088.18994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3468_BP20757_FMA70187_Trunk of left internal iliac artery.obj",
+      "fj": "FJ3468",
+      "fma": "FMA70187",
+      "name": "Trunk of left internal iliac artery",
+      "bytes": 18533,
+      "sha256": "d74c03dc33b4e752790cf868167d1a8d98b6aeff124303f53a67da48ea2f11f7",
+      "partId": "FJ3468_Trunk_of_left_internal_iliac_artery",
+      "vertices": 810,
+      "triangles": 270,
+      "bounds": [
+        [
+          22.271499633789062,
+          -101.4520034790039,
+          845.3380126953125
+        ],
+        [
+          33.53879928588867,
+          -11.719799995422363,
+          909.8660278320312
+        ]
+      ]
+    },
+    {
+      "file": "FJ3469_BP21482_FMA18888_Left internal iliac vein.obj",
+      "fj": "FJ3469",
+      "fma": "FMA18888",
+      "name": "Left internal iliac vein",
+      "bytes": 13192,
+      "sha256": "ba3da6ab9b93035420ed399b1957045b8bd28a1c101b56a2b6f057e3bb937624",
+      "partId": "FJ3469_Left_internal_iliac_vein",
+      "vertices": 624,
+      "triangles": 208,
+      "bounds": [
+        [
+          12.614700317382812,
+          -89.90840148925781,
+          855.9219970703125
+        ],
+        [
+          24.074199676513672,
+          -29.83530044555664,
+          914.3920288085938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3470_BP21482_FMA18888_Left internal iliac vein.obj",
+      "fj": "FJ3470",
+      "fma": "FMA18888",
+      "name": "Left internal iliac vein",
+      "bytes": 11569,
+      "sha256": "0c8e2aaf5259271aced8cbecbfe21d1ef0e6a9d316b302dd7db054be4ed1eb7b",
+      "partId": "FJ3470_Left_internal_iliac_vein",
+      "vertices": 528,
+      "triangles": 176,
+      "bounds": [
+        [
+          17.468299865722656,
+          -47.05720138549805,
+          825.2069702148438
+        ],
+        [
+          22.68269920349121,
+          2.785170078277588,
+          877.2249755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3471_BP21482_FMA18888_Left internal iliac vein.obj",
+      "fj": "FJ3471",
+      "fma": "FMA18888",
+      "name": "Left internal iliac vein",
+      "bytes": 13052,
+      "sha256": "e72fdabe7396a8164f9577a769b68c37dcb07cf740dda8b0db40b0742eddc452",
+      "partId": "FJ3471_Left_internal_iliac_vein",
+      "vertices": 540,
+      "triangles": 180,
+      "bounds": [
+        [
+          11.571800231933594,
+          -32.95280075073242,
+          789.4500122070312
+        ],
+        [
+          25.818199157714844,
+          10.068300247192383,
+          857.4760131835938
+        ]
+      ]
+    },
+    {
+      "file": "FJ3472_BP23927_FMA14756_Left middle suprarenal artery.obj",
+      "fj": "FJ3472",
+      "fma": "FMA14756",
+      "name": "Left middle suprarenal artery",
+      "bytes": 47105,
+      "sha256": "8d79a9c657dcfe9a5417dcb2ae7c19a46f700dc4694399d3864e7892ea4c7763",
+      "partId": "FJ3472_Left_middle_suprarenal_artery",
+      "vertices": 1656,
+      "triangles": 552,
+      "bounds": [
+        [
+          8.698800086975098,
+          -111.80400085449219,
+          1056.25
+        ],
+        [
+          58.44369888305664,
+          -66.10050201416016,
+          1097.280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3473_BP20416_FMA70490_Posterior division of left renal artery.obj",
+      "fj": "FJ3473",
+      "fma": "FMA70490",
+      "name": "Posterior division of left renal artery",
+      "bytes": 26208,
+      "sha256": "41d9dd828aa260e73e8a33f849f0d997afd9dc5f1fee71a034795bc714fee9a8",
+      "partId": "FJ3473_Posterior_division_of_left_renal_artery",
+      "vertices": 1002,
+      "triangles": 334,
+      "bounds": [
+        [
+          15.95460033416748,
+          -112.63999938964844,
+          1037.6500244140625
+        ],
+        [
+          57.39350128173828,
+          -68.68470001220703,
+          1044.489990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3474_BP20416_FMA70490_Posterior division of left renal artery.obj",
+      "fj": "FJ3474",
+      "fma": "FMA70490",
+      "name": "Posterior division of left renal artery",
+      "bytes": 16831,
+      "sha256": "a40d08c338db825c14f184a0a97516e48cc2b216a534f09ae8152307e1f0e105",
+      "partId": "FJ3474_Posterior_division_of_left_renal_artery",
+      "vertices": 762,
+      "triangles": 254,
+      "bounds": [
+        [
+          40.81679916381836,
+          -75.93569946289062,
+          1028.31005859375
+        ],
+        [
+          49.811500549316406,
+          -71.2113037109375,
+          1039.1500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3475_BP20416_FMA70490_Posterior division of left renal artery.obj",
+      "fj": "FJ3475",
+      "fma": "FMA70490",
+      "name": "Posterior division of left renal artery",
+      "bytes": 25226,
+      "sha256": "2b6e1e3a70aea444d05009c831c39a8bae6226eba0f4268394944c7b2379697e",
+      "partId": "FJ3475_Posterior_division_of_left_renal_artery",
+      "vertices": 1194,
+      "triangles": 398,
+      "bounds": [
+        [
+          39.26259994506836,
+          -100.92400360107422,
+          1041.6400146484375
+        ],
+        [
+          53.813899993896484,
+          -69.61239624023438,
+          1044.3399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3476_BP22669_FMA66364_Trunk of left renal artery.obj",
+      "fj": "FJ3476",
+      "fma": "FMA66364",
+      "name": "Trunk of left renal artery",
+      "bytes": 14449,
+      "sha256": "dfe5b3712f2940b5adfcd6d545b9964f77749f17fa5d9c2d888e451a832304e9",
+      "partId": "FJ3476_Trunk_of_left_renal_artery",
+      "vertices": 774,
+      "triangles": 258,
+      "bounds": [
+        [
+          3.757349967956543,
+          -120.23200225830078,
+          1036.8399658203125
+        ],
+        [
+          38.5442008972168,
+          -98.5425033569336,
+          1049.7099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3477_BP22197_FMA14336_Left renal vein.obj",
+      "fj": "FJ3477",
+      "fma": "FMA14336",
+      "name": "Left renal vein",
+      "bytes": 38139,
+      "sha256": "938dabbef109d83bacb61fb592ab14ac2e51a8306ce207d4012af816a9557a55",
+      "partId": "FJ3477_Left_renal_vein",
+      "vertices": 1956,
+      "triangles": 652,
+      "bounds": [
+        [
+          -15.768600463867188,
+          -132.42599487304688,
+          1023.2899780273438
+        ],
+        [
+          31.696500778198242,
+          -89.58059692382812,
+          1039.75
+        ]
+      ]
+    },
+    {
+      "file": "FJ3478_BP22197_FMA14336_Left renal vein.obj",
+      "fj": "FJ3478",
+      "fma": "FMA14336",
+      "name": "Left renal vein",
+      "bytes": 356025,
+      "sha256": "ba1a05f51e9bcaa538edf21c5e230d578757d611b3864506d20c0274d98bde13",
+      "partId": "FJ3478_Left_renal_vein",
+      "vertices": 12780,
+      "triangles": 4260,
+      "bounds": [
+        [
+          24.56439971923828,
+          -97.39730072021484,
+          997.5880126953125
+        ],
+        [
+          81.04750061035156,
+          -67.7072982788086,
+          1074.5999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3479_BP23654_FMA69319_Trunk of left subclavian artery.obj",
+      "fj": "FJ3479",
+      "fma": "FMA69319",
+      "name": "Trunk of left subclavian artery",
+      "bytes": 39608,
+      "sha256": "577179fcb8c1bb9eb19a596150158c28cfef808c73ac0b005900e253dd699b92",
+      "partId": "FJ3479_Trunk_of_left_subclavian_artery",
+      "vertices": 1938,
+      "triangles": 646,
+      "bounds": [
+        [
+          17.685699462890625,
+          -105.63400268554688,
+          1307.31005859375
+        ],
+        [
+          86.54650115966797,
+          -86.8478012084961,
+          1356.4599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3480_BP21800_FMA14349_Left suprarenal vein.obj",
+      "fj": "FJ3480",
+      "fma": "FMA14349",
+      "name": "Left suprarenal vein",
+      "bytes": 47130,
+      "sha256": "3f05ab068e7c3f116cfde9fc52be00fd2579f5989de5db89bfea3e7472120768",
+      "partId": "FJ3480_Left_suprarenal_vein",
+      "vertices": 2022,
+      "triangles": 674,
+      "bounds": [
+        [
+          26.90760040283203,
+          -89.23040008544922,
+          1037.6500244140625
+        ],
+        [
+          44.0276985168457,
+          -69.78500366210938,
+          1103.0400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3481_BP21867_FMA70493_Ureteric segment of left renal artery.obj",
+      "fj": "FJ3481",
+      "fma": "FMA70493",
+      "name": "Ureteric segment of left renal artery",
+      "bytes": 88666,
+      "sha256": "200b415209074db37916f26151030fef4231603652570b94813ba71f1d4bca9a",
+      "partId": "FJ3481_Ureteric_segment_of_left_renal_artery",
+      "vertices": 3888,
+      "triangles": 1296,
+      "bounds": [
+        [
+          26.584699630737305,
+          -110.23200225830078,
+          969.8140258789062
+        ],
+        [
+          38.305301666259766,
+          -91.6436996459961,
+          1038.6500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3482_BP21752_FMA4761_Left brachiocephalic vein.obj",
+      "fj": "FJ3482",
+      "fma": "FMA4761",
+      "name": "Left brachiocephalic vein",
+      "bytes": 43629,
+      "sha256": "146540e833e0fc5ba091deffe0cc3ccd5af2f0310b41ed7061dd69ebe21fcdfd",
+      "partId": "FJ3482_Left_brachiocephalic_vein",
+      "vertices": 2244,
+      "triangles": 748,
+      "bounds": [
+        [
+          -23.78969955444336,
+          -132.35699462890625,
+          1295.8800048828125
+        ],
+        [
+          28.006799697875977,
+          -110.54299926757812,
+          1347.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3483_BP23219_FMA75867_Trunk of left internal carotid artery.obj",
+      "fj": "FJ3483",
+      "fma": "FMA75867",
+      "name": "Trunk of left internal carotid artery",
+      "bytes": 11774,
+      "sha256": "2638d2c667900e7b31b5f4b37f7142d04b9f0afa719f029a4540235993ab0553",
+      "partId": "FJ3483_Trunk_of_left_internal_carotid_artery",
+      "vertices": 510,
+      "triangles": 170,
+      "bounds": [
+        [
+          10.820799827575684,
+          -112.2239990234375,
+          1307.3900146484375
+        ],
+        [
+          22.933000564575195,
+          -96.00630187988281,
+          1373.6800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3484_BP23965_FMA18886_Left external iliac vein.obj",
+      "fj": "FJ3484",
+      "fma": "FMA18886",
+      "name": "Left external iliac vein",
+      "bytes": 41162,
+      "sha256": "78e0d283c47f9e28608a29a01e491f12a7b8473ab50634d6635bbc5b8d7dda0c",
+      "partId": "FJ3484_Left_external_iliac_vein",
+      "vertices": 2010,
+      "triangles": 670,
+      "bounds": [
+        [
+          13.691699981689453,
+          -150.51300048828125,
+          804.4420166015625
+        ],
+        [
+          57.13520050048828,
+          -68.31089782714844,
+          905.2100219726562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3485_BP20878_FMA4762_Left internal jugular vein.obj",
+      "fj": "FJ3485",
+      "fma": "FMA4762",
+      "name": "Left internal jugular vein",
+      "bytes": 16664,
+      "sha256": "f823c5a7ca2d49952eecc2fe7a81faddf26c907783fc93525ee753a087cc861d",
+      "partId": "FJ3485_Left_internal_jugular_vein",
+      "vertices": 840,
+      "triangles": 280,
+      "bounds": [
+        [
+          18.107500076293945,
+          -122.11399841308594,
+          1337.4100341796875
+        ],
+        [
+          30.905399322509766,
+          -111.70099639892578,
+          1380.4300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3486_BP20970_FMA4763_Left subclavian vein.obj",
+      "fj": "FJ3486",
+      "fma": "FMA4763",
+      "name": "Left subclavian vein",
+      "bytes": 27757,
+      "sha256": "e91a4667bcd399c36281b0ecfb337623d5c9cb1bcd99b43db42b2142ef21517f",
+      "partId": "FJ3486_Left_subclavian_vein",
+      "vertices": 1302,
+      "triangles": 434,
+      "bounds": [
+        [
+          19.380800247192383,
+          -121.07599639892578,
+          1325.18994140625
+        ],
+        [
+          94.25779724121094,
+          -105.44200134277344,
+          1353.469970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3493_BP20994_FMA4950_Left ascending lumbar vein.obj",
+      "fj": "FJ3493",
+      "fma": "FMA4950",
+      "name": "Left ascending lumbar vein",
+      "bytes": 105260,
+      "sha256": "55aa9ee9d5e5ed155cca37186ffa4e2a9de81a83ce2a52ef39ca2ce905ffbe3f",
+      "partId": "FJ3493_Left_ascending_lumbar_vein",
+      "vertices": 5316,
+      "triangles": 1772,
+      "bounds": [
+        [
+          -27.577600479125977,
+          -114.0009994506836,
+          929.7739868164062
+        ],
+        [
+          -7.200170040130615,
+          -94.51239776611328,
+          1080.1600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3494_BP20214_FMA14826_Left colic artery.obj",
+      "fj": "FJ3494",
+      "fma": "FMA14826",
+      "name": "Left colic artery",
+      "bytes": 12074,
+      "sha256": "8684d2f92553d1aa4ea34a64ffdbb3246a17ff8981cc19f0f853ece95a0bfb83",
+      "partId": "FJ3494_Left_colic_artery",
+      "vertices": 546,
+      "triangles": 182,
+      "bounds": [
+        [
+          12.972200393676758,
+          -136.7949981689453,
+          971.8790283203125
+        ],
+        [
+          31.799999237060547,
+          -126.65399932861328,
+          979.0809936523438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3495_BP20949_FMA15394_Left colic vein.obj",
+      "fj": "FJ3495",
+      "fma": "FMA15394",
+      "name": "Left colic vein",
+      "bytes": 6540,
+      "sha256": "bd250733b1659362f5e1fe133cf038f627c6d333eac2496a0512ad9813760962",
+      "partId": "FJ3495_Left_colic_vein",
+      "vertices": 306,
+      "triangles": 102,
+      "bounds": [
+        [
+          21.87019920349121,
+          -127.32499694824219,
+          972.9600219726562
+        ],
+        [
+          33.29290008544922,
+          -121.39399719238281,
+          977.9169921875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3496_BP21108_FMA20819_Left dorsal artery of penis.obj",
+      "fj": "FJ3496",
+      "fma": "FMA20819",
+      "name": "Left dorsal artery of penis",
+      "bytes": 337280,
+      "sha256": "c00e4b69b0a645b56364e6926197eecfc5e39a5674e7847b28f8bedfdd48ab31",
+      "partId": "FJ3496_Left_dorsal_artery_of_penis",
+      "vertices": 15228,
+      "triangles": 5076,
+      "bounds": [
+        [
+          3.4625799655914307,
+          -194.16099548339844,
+          738.469970703125
+        ],
+        [
+          26.315500259399414,
+          -66.252197265625,
+          789.2059936523438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3497_BP21108_FMA20819_Left dorsal artery of penis.obj",
+      "fj": "FJ3497",
+      "fma": "FMA20819",
+      "name": "Left dorsal artery of penis",
+      "bytes": 86876,
+      "sha256": "2e87265cfd69c102ff0191f868a71bac7b96a35ee6ad7288b5ff002c24ed14a2",
+      "partId": "FJ3497_Left_dorsal_artery_of_penis",
+      "vertices": 4368,
+      "triangles": 1456,
+      "bounds": [
+        [
+          3.081899881362915,
+          -189.7030029296875,
+          733.0759887695312
+        ],
+        [
+          8.242569923400879,
+          -134.5760040283203,
+          788.0020141601562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3499_BP21932_FMA14768_Left gastric artery.obj",
+      "fj": "FJ3499",
+      "fma": "FMA14768",
+      "name": "Left gastric artery",
+      "bytes": 65682,
+      "sha256": "c1ad6e0234f8feb9a2b5576033d174c2e519bb69129e7ee9e239deee15833b13",
+      "partId": "FJ3499_Left_gastric_artery",
+      "vertices": 3300,
+      "triangles": 1100,
+      "bounds": [
+        [
+          4.93379020690918,
+          -169.48500061035156,
+          1080.9000244140625
+        ],
+        [
+          26.731599807739258,
+          -122.8010025024414,
+          1126.280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3500_BP20528_FMA15399_Left gastric vein.obj",
+      "fj": "FJ3500",
+      "fma": "FMA15399",
+      "name": "Left gastric vein",
+      "bytes": 73269,
+      "sha256": "495350daaedc3223dddc30f06241e9d2839d54afba2943150bb33448d2fa8282",
+      "partId": "FJ3500_Left_gastric_vein",
+      "vertices": 3498,
+      "triangles": 1166,
+      "bounds": [
+        [
+          -14.354299545288086,
+          -169.656005859375,
+          1082.4200439453125
+        ],
+        [
+          25.1643009185791,
+          -123.6500015258789,
+          1132.1600341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3501_BP20519_FMA14796_Left gastro-epiploic artery.obj",
+      "fj": "FJ3501",
+      "fma": "FMA14796",
+      "name": "Left gastro-epiploic artery",
+      "bytes": 145882,
+      "sha256": "42aa9b896cd4d7c76d806bab0ebd366a56cd2e0fb570c0ffb0c443e519b263f9",
+      "partId": "FJ3501_Left_gastro-epiploic_artery",
+      "vertices": 7260,
+      "triangles": 2420,
+      "bounds": [
+        [
+          57.5614013671875,
+          -165.8159942626953,
+          1046.43994140625
+        ],
+        [
+          92.98490142822266,
+          -101.29000091552734,
+          1085.06005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3502_BP22508_FMA15390_Left gastroepiploic vein.obj",
+      "fj": "FJ3502",
+      "fma": "FMA15390",
+      "name": "Left gastroepiploic vein",
+      "bytes": 31017,
+      "sha256": "455b76c44e689c4719e3a78b0ed1f1bc12a05f7b0c275d1d84020b15688cd735",
+      "partId": "FJ3502_Left_gastroepiploic_vein",
+      "vertices": 1332,
+      "triangles": 444,
+      "bounds": [
+        [
+          60.096099853515625,
+          -171.83700561523438,
+          1046.699951171875
+        ],
+        [
+          94.55670166015625,
+          -101.5260009765625,
+          1084.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3510_BP20875_FMA18904_Left iliolumbar vein.obj",
+      "fj": "FJ3510",
+      "fma": "FMA18904",
+      "name": "Left iliolumbar vein",
+      "bytes": 685858,
+      "sha256": "d8b4659d18d8f685ab9fc88fd9b83fc56864a443b56c60f7ce14670613d824b4",
+      "partId": "FJ3510_Left_iliolumbar_vein",
+      "vertices": 32076,
+      "triangles": 10692,
+      "bounds": [
+        [
+          13.845399856567383,
+          -133.86300659179688,
+          882.4420166015625
+        ],
+        [
+          127.22899627685547,
+          -46.83209991455078,
+          960.3289794921875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3511_BP22007_FMA20689_Left inferior epigastric artery.obj",
+      "fj": "FJ3511",
+      "fma": "FMA20689",
+      "name": "Left inferior epigastric artery",
+      "bytes": 431223,
+      "sha256": "4be3c279d62abfa57a13301f830fd2453c6c05d5fd428c0ff5ac5dee0780bd53",
+      "partId": "FJ3511_Left_inferior_epigastric_artery",
+      "vertices": 20472,
+      "triangles": 6824,
+      "bounds": [
+        [
+          21.798200607299805,
+          -185.37899780273438,
+          830.656005859375
+        ],
+        [
+          48.592201232910156,
+          -109.16200256347656,
+          1030.43994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3512_BP20837_FMA21164_Left inferior epigastric vein.obj",
+      "fj": "FJ3512",
+      "fma": "FMA21164",
+      "name": "Left inferior epigastric vein",
+      "bytes": 473375,
+      "sha256": "31fefaa152ad7e18123c1ba4bf82fd9f12658a34e3a24ca74e09eb465eabd3ff",
+      "partId": "FJ3512_Left_inferior_epigastric_vein",
+      "vertices": 22398,
+      "triangles": 7466,
+      "bounds": [
+        [
+          18.112600326538086,
+          -186.9239959716797,
+          831.3660278320312
+        ],
+        [
+          41.79069900512695,
+          -111.47000122070312,
+          1031.0699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3513_BP20957_FMA18913_Left inferior gluteal vein.obj",
+      "fj": "FJ3513",
+      "fma": "FMA18913",
+      "name": "Left inferior gluteal vein",
+      "bytes": 723004,
+      "sha256": "aaa365c7029e262ad445dc36237c9fda839e8f3c0d20ada1e8ddb94344bf6074",
+      "partId": "FJ3513_Left_inferior_gluteal_vein",
+      "vertices": 34056,
+      "triangles": 11352,
+      "bounds": [
+        [
+          12.998900413513184,
+          -64.07119750976562,
+          753.2680053710938
+        ],
+        [
+          52.433998107910156,
+          15.419899940490723,
+          873.7540283203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3514_BP21807_FMA14747_Left inferior phrenic artery.obj",
+      "fj": "FJ3514",
+      "fma": "FMA14747",
+      "name": "Left inferior phrenic artery",
+      "bytes": 55520,
+      "sha256": "48ce35700de94c83e529e2fdb265963de175550f5015eeddf7bb4447ea37196e",
+      "partId": "FJ3514_Left_inferior_phrenic_artery",
+      "vertices": 2226,
+      "triangles": 742,
+      "bounds": [
+        [
+          3.9156301021575928,
+          -197.59500122070312,
+          1087.0699462890625
+        ],
+        [
+          39.778099060058594,
+          -80.05729675292969,
+          1176.550048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3515_BP21807_FMA14747_Left inferior phrenic artery.obj",
+      "fj": "FJ3515",
+      "fma": "FMA14747",
+      "name": "Left inferior phrenic artery",
+      "bytes": 56891,
+      "sha256": "d9c0733ce1efaa125f86b73f1ae0c475d061e7f83b1cd679f28457b7e70756bc",
+      "partId": "FJ3515_Left_inferior_phrenic_artery",
+      "vertices": 2316,
+      "triangles": 772,
+      "bounds": [
+        [
+          31.47209930419922,
+          -93.48269653320312,
+          1038.47998046875
+        ],
+        [
+          116.09100341796875,
+          -59.2140007019043,
+          1164.3399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3516_BP21807_FMA14747_Left inferior phrenic artery.obj",
+      "fj": "FJ3516",
+      "fma": "FMA14747",
+      "name": "Left inferior phrenic artery",
+      "bytes": 26492,
+      "sha256": "c10198684e8ca83cb57741ae314dfb1d6ddbb7c8ae5a3c98c981588322ee433c",
+      "partId": "FJ3516_Left_inferior_phrenic_artery",
+      "vertices": 1002,
+      "triangles": 334,
+      "bounds": [
+        [
+          36.18190002441406,
+          -153.14100646972656,
+          1145.8199462890625
+        ],
+        [
+          96.25309753417969,
+          -126.39600372314453,
+          1172.4000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3517_BP21807_FMA14747_Left inferior phrenic artery.obj",
+      "fj": "FJ3517",
+      "fma": "FMA14747",
+      "name": "Left inferior phrenic artery",
+      "bytes": 30172,
+      "sha256": "ade96e025d7dd82d41a6822af75f32f51fca73c8ef166703e53ff6f53ef11622",
+      "partId": "FJ3517_Left_inferior_phrenic_artery",
+      "vertices": 1152,
+      "triangles": 384,
+      "bounds": [
+        [
+          91.35310363769531,
+          -172.89100646972656,
+          1080.4000244140625
+        ],
+        [
+          114.37799835205078,
+          -89.43229675292969,
+          1142.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3518_BP21807_FMA14747_Left inferior phrenic artery.obj",
+      "fj": "FJ3518",
+      "fma": "FMA14747",
+      "name": "Left inferior phrenic artery",
+      "bytes": 43951,
+      "sha256": "f824829cc56cce5e907b4d637d6614fd07061d3b4be9b995445d7fc4324f9ec1",
+      "partId": "FJ3518_Left_inferior_phrenic_artery",
+      "vertices": 1668,
+      "triangles": 556,
+      "bounds": [
+        [
+          52.007999420166016,
+          -184.64700317382812,
+          1100.1199951171875
+        ],
+        [
+          82.44059753417969,
+          -139.0590057373047,
+          1171.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3519_BP21807_FMA14747_Left inferior phrenic artery.obj",
+      "fj": "FJ3519",
+      "fma": "FMA14747",
+      "name": "Left inferior phrenic artery",
+      "bytes": 20676,
+      "sha256": "de5f821453acf7cf591c9d3b98b00ffbbef2983b008fa5d40db9eeb1d1ffedbd",
+      "partId": "FJ3519_Left_inferior_phrenic_artery",
+      "vertices": 798,
+      "triangles": 266,
+      "bounds": [
+        [
+          113.56900024414062,
+          -109.65899658203125,
+          1032.0799560546875
+        ],
+        [
+          116.94100189208984,
+          -87.83999633789062,
+          1092.9300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3520_BP21807_FMA14747_Left inferior phrenic artery.obj",
+      "fj": "FJ3520",
+      "fma": "FMA14747",
+      "name": "Left inferior phrenic artery",
+      "bytes": 15786,
+      "sha256": "ec5c6b7d8856e1f76ad232ee0b8a9e46a669dde9cf1b3aaefe2e765038e6d357",
+      "partId": "FJ3520_Left_inferior_phrenic_artery",
+      "vertices": 564,
+      "triangles": 188,
+      "bounds": [
+        [
+          55.75310134887695,
+          -196.5780029296875,
+          1109.1099853515625
+        ],
+        [
+          68.72810363769531,
+          -180.54200744628906,
+          1150.6800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3522_BP23965_FMA18886_Left external iliac vein.obj",
+      "fj": "FJ3522",
+      "fma": "FMA18886",
+      "name": "Left external iliac vein",
+      "bytes": 10061,
+      "sha256": "1b3d67ed1dec08b23d3e6b40f5a4dcf92826804c4a5c51f46bad1526ed265f9f",
+      "partId": "FJ3522_Left_external_iliac_vein",
+      "vertices": 504,
+      "triangles": 168,
+      "bounds": [
+        [
+          7.749750137329102,
+          -94.14240264892578,
+          887.468017578125
+        ],
+        [
+          18.208200454711914,
+          -67.80840301513672,
+          913.8670043945312
+        ]
+      ]
+    },
+    {
+      "file": "FJ3523_BP23965_FMA18886_Left external iliac vein.obj",
+      "fj": "FJ3523",
+      "fma": "FMA18886",
+      "name": "Left external iliac vein",
+      "bytes": 10527,
+      "sha256": "5e5611e0638120a709628b4023b8fadbcebd123562a8e09571b3f30739533ef8",
+      "partId": "FJ3523_Left_external_iliac_vein",
+      "vertices": 558,
+      "triangles": 186,
+      "bounds": [
+        [
+          10.739399909973145,
+          -74.28630065917969,
+          867.1649780273438
+        ],
+        [
+          18.199899673461914,
+          -59.33789825439453,
+          891.7069702148438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3524_BP23965_FMA18886_Left external iliac vein.obj",
+      "fj": "FJ3524",
+      "fma": "FMA18886",
+      "name": "Left external iliac vein",
+      "bytes": 8056,
+      "sha256": "7847c5458ce0fcddb061543fdff006b9649453f4e90ab7fe9f48e62d059fe088",
+      "partId": "FJ3524_Left_external_iliac_vein",
+      "vertices": 336,
+      "triangles": 112,
+      "bounds": [
+        [
+          11.540900230407715,
+          -72.65519714355469,
+          875.072998046875
+        ],
+        [
+          20.16990089416504,
+          -50.61830139160156,
+          890.7109985351562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3525_BP20838_FMA18919_Left internal pudendal vein.obj",
+      "fj": "FJ3525",
+      "fma": "FMA18919",
+      "name": "Left internal pudendal vein",
+      "bytes": 477719,
+      "sha256": "03181637949373dedf093a87f2b6ddf3c7b6caabe8189f6b376063848e030594",
+      "partId": "FJ3525_Left_internal_pudendal_vein",
+      "vertices": 22356,
+      "triangles": 7452,
+      "bounds": [
+        [
+          -7.419300079345703,
+          -91.24649810791016,
+          762.468017578125
+        ],
+        [
+          34.21620178222656,
+          -12.480799674987793,
+          858.0540161132812
+        ]
+      ]
+    },
+    {
+      "file": "FJ3526_BP22699_FMA18907_Left lateral sacral vein.obj",
+      "fj": "FJ3526",
+      "fma": "FMA18907",
+      "name": "Left lateral sacral vein",
+      "bytes": 191630,
+      "sha256": "3de388e328c6470ab3a6b7a11e0653940bc80060719c86b18b52bb91dd86471e",
+      "partId": "FJ3526_Left_lateral_sacral_vein",
+      "vertices": 9138,
+      "triangles": 3046,
+      "bounds": [
+        [
+          -3.6610400676727295,
+          -41.47779846191406,
+          822.2470092773438
+        ],
+        [
+          18.659400939941406,
+          2.459089994430542,
+          868.5289916992188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3527_BP21028_FMA18916_Left obturator vein.obj",
+      "fj": "FJ3527",
+      "fma": "FMA18916",
+      "name": "Left obturator vein",
+      "bytes": 309626,
+      "sha256": "c282d07819fb4cc2e116680097b2f46d7f3a4e97965ff03cdd066fb5c69a191b",
+      "partId": "FJ3527_Left_obturator_vein",
+      "vertices": 14862,
+      "triangles": 4954,
+      "bounds": [
+        [
+          13.435999870300293,
+          -92.48269653320312,
+          809.3569946289062
+        ],
+        [
+          51.161800384521484,
+          -51.65950012207031,
+          870.176025390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3529_BP23984_FMA20736_Left superficial epigastric artery.obj",
+      "fj": "FJ3529",
+      "fma": "FMA20736",
+      "name": "Left superficial epigastric artery",
+      "bytes": 162482,
+      "sha256": "7f048f044b5499371bb2a61033c4bb5b5ba0ef2cb8ee209e9b4e78f595d32fec",
+      "partId": "FJ3529_Left_superficial_epigastric_artery",
+      "vertices": 7866,
+      "triangles": 2622,
+      "bounds": [
+        [
+          32.918800354003906,
+          -200.3820037841797,
+          810.1290283203125
+        ],
+        [
+          66.1780014038086,
+          -147.4980010986328,
+          958.5850219726562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3530_BP21100_FMA4785_Left superior epigastric vein.obj",
+      "fj": "FJ3530",
+      "fma": "FMA4785",
+      "name": "Left superior epigastric vein",
+      "bytes": 186146,
+      "sha256": "4391f2c9cb45cdb059caed0fa4056a9ddb1cd60635f2c5a8e454691a6cbb425c",
+      "partId": "FJ3530_Left_superior_epigastric_vein",
+      "vertices": 8814,
+      "triangles": 2938,
+      "bounds": [
+        [
+          14.157400131225586,
+          -201,
+          806.6820068359375
+        ],
+        [
+          43.622501373291016,
+          -138.6020050048828,
+          933.302001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3531_BP20786_FMA18910_Left superior gluteal vein.obj",
+      "fj": "FJ3531",
+      "fma": "FMA18910",
+      "name": "Left superior gluteal vein",
+      "bytes": 24196,
+      "sha256": "04f6d403d8606499f7b70bb17c213b0efe116f0f90d99900382bf5d0de5d1784",
+      "partId": "FJ3531_Left_superior_gluteal_vein",
+      "vertices": 960,
+      "triangles": 320,
+      "bounds": [
+        [
+          13.35420036315918,
+          -64.53630065917969,
+          849.2119750976562
+        ],
+        [
+          56.52180099487305,
+          -27.79199981689453,
+          896.6909790039062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3532_BP23839_FMA14760_Left testicular artery.obj",
+      "fj": "FJ3532",
+      "fma": "FMA14760",
+      "name": "Left testicular artery",
+      "bytes": 796410,
+      "sha256": "dfad8d7c6b657efdf873630e95d3db08263cadb569079bddf9611045ceea4f7e",
+      "partId": "FJ3532_Left_testicular_artery",
+      "vertices": 37260,
+      "triangles": 12420,
+      "bounds": [
+        [
+          7.519859790802002,
+          -149.12600708007812,
+          689.4019775390625
+        ],
+        [
+          69.84829711914062,
+          -84.89099884033203,
+          1024.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3533_BP20558_FMA14345_Left testicular vein.obj",
+      "fj": "FJ3533",
+      "fma": "FMA14345",
+      "name": "Left testicular vein",
+      "bytes": 932242,
+      "sha256": "c5d3d6bc39998619179167d9f906ba9a80dd5e78d9a9fd25d90e8406c245251e",
+      "partId": "FJ3533_Left_testicular_vein",
+      "vertices": 43464,
+      "triangles": 14488,
+      "bounds": [
+        [
+          13.29010009765625,
+          -149.34100341796875,
+          689.6849975585938
+        ],
+        [
+          72.54280090332031,
+          -85.15249633789062,
+          1036.0999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3541_BP20343_FMA77168_Median sacral vein.obj",
+      "fj": "FJ3541",
+      "fma": "FMA77168",
+      "name": "Median sacral vein",
+      "bytes": 296479,
+      "sha256": "66acef761c75b39bf02672270ef9e8353c91e9f0fa346a81c985fdbaacbbaa89",
+      "partId": "FJ3541_Median_sacral_vein",
+      "vertices": 13998,
+      "triangles": 4666,
+      "bounds": [
+        [
+          -4.219170093536377,
+          -108.33499908447266,
+          797.10498046875
+        ],
+        [
+          1.04899001121521,
+          -12.068900108337402,
+          929.989013671875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3542_BP20153_FMA14810_Middle colic artery.obj",
+      "fj": "FJ3542",
+      "fma": "FMA14810",
+      "name": "Middle colic artery",
+      "bytes": 97057,
+      "sha256": "ab7cc53ec5b35f5de90af1786ce1c2c58acda653e4246f07fd76afa7f3895796",
+      "partId": "FJ3542_Middle_colic_artery",
+      "vertices": 4290,
+      "triangles": 1430,
+      "bounds": [
+        [
+          -68.39800262451172,
+          -179.45899963378906,
+          1013.3800048828125
+        ],
+        [
+          62.5536994934082,
+          -119.44400024414062,
+          1065.0699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3543_BP22248_FMA15406_Middle colic vein.obj",
+      "fj": "FJ3543",
+      "fma": "FMA15406",
+      "name": "Middle colic vein",
+      "bytes": 91223,
+      "sha256": "5106b4e55374ace03a90d69733341f43836b0a1a23cf373053b2991cfe8d7f7e",
+      "partId": "FJ3543_Middle_colic_vein",
+      "vertices": 3972,
+      "triangles": 1324,
+      "bounds": [
+        [
+          -66.30609893798828,
+          -176.94700622558594,
+          1012.5
+        ],
+        [
+          60.942298889160156,
+          -116.69599914550781,
+          1064.739990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3544_BP20232_FMA14773_Splenic artery.obj",
+      "fj": "FJ3544",
+      "fma": "FMA14773",
+      "name": "Splenic artery",
+      "bytes": 219617,
+      "sha256": "924bca915ecc43ce387d0e426614138b601cf0c02e7e0abd8bfa4e14d84e2194",
+      "partId": "FJ3544_Splenic_artery",
+      "vertices": 7764,
+      "triangles": 2588,
+      "bounds": [
+        [
+          19.503400802612305,
+          -121.83899688720703,
+          1059.5899658203125
+        ],
+        [
+          68.54499816894531,
+          -102.06700134277344,
+          1078.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3545_BP22437_FMA15398_Pancreaticoduodenal vein.obj",
+      "fj": "FJ3545",
+      "fma": "FMA15398",
+      "name": "Pancreaticoduodenal vein",
+      "bytes": 51029,
+      "sha256": "607bdf053fee3f6a880d764c6d68d96b9b0e4bc20d7c1b47260fe65d19b11a66",
+      "partId": "FJ3545_Pancreaticoduodenal_vein",
+      "vertices": 1980,
+      "triangles": 660,
+      "bounds": [
+        [
+          -48.066898345947266,
+          -145.7530059814453,
+          1005.0499877929688
+        ],
+        [
+          -11.47920036315918,
+          -125.15399932861328,
+          1056.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3546_BP22238_FMA70480_Posterior inferior pancreaticoduodenal artery.obj",
+      "fj": "FJ3546",
+      "fma": "FMA70480",
+      "name": "Posterior inferior pancreaticoduodenal artery",
+      "bytes": 25298,
+      "sha256": "6492bdf653db7248c99b9dd1c01f19350fae94bf12dfd6ddc420920e974b78ee",
+      "partId": "FJ3546_Posterior_inferior_pancreaticoduodenal_artery",
+      "vertices": 1152,
+      "triangles": 384,
+      "bounds": [
+        [
+          -35.162899017333984,
+          -141.40499877929688,
+          1017.239990234375
+        ],
+        [
+          -11.823699951171875,
+          -113.3270034790039,
+          1032.050048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3553_BP23977_FMA14817_Posterior cecal artery.obj",
+      "fj": "FJ3553",
+      "fma": "FMA14817",
+      "name": "Posterior cecal artery",
+      "bytes": 9686,
+      "sha256": "813f8104ae15bdda036a6dfd5d545514c3374aae2fc189f165cb976432782c21",
+      "partId": "FJ3553_Posterior_cecal_artery",
+      "vertices": 270,
+      "triangles": 90,
+      "bounds": [
+        [
+          -69.23670196533203,
+          -121.6989974975586,
+          918
+        ],
+        [
+          -58.33359909057617,
+          -116.51000213623047,
+          921.635009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3557_BP21132_FMA14784_Posterior superior pancreaticoduodenal artery.obj",
+      "fj": "FJ3557",
+      "fma": "FMA14784",
+      "name": "Posterior superior pancreaticoduodenal artery",
+      "bytes": 27589,
+      "sha256": "8b2055aeae0c4ac228bbb7780446c152abf794f92e8712b260ec1326b1f69068",
+      "partId": "FJ3557_Posterior_superior_pancreaticoduodenal_artery",
+      "vertices": 1182,
+      "triangles": 394,
+      "bounds": [
+        [
+          -35.45759963989258,
+          -138.88400268554688,
+          1031.68994140625
+        ],
+        [
+          -14.23330020904541,
+          -109.18800354003906,
+          1065.68994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3558_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "fj": "FJ3558",
+      "fma": "FMA70486",
+      "name": "Anterior division of right renal artery",
+      "bytes": 64718,
+      "sha256": "b01af1fa1bd274b3957e7882920e8e0ba707f8d791ab3b71b5141437c571320a",
+      "partId": "FJ3558_Anterior_division_of_right_renal_artery",
+      "vertices": 3198,
+      "triangles": 1066,
+      "bounds": [
+        [
+          -63.202999114990234,
+          -103.66600036621094,
+          995.7420043945312
+        ],
+        [
+          -34.49489974975586,
+          -93.10669708251953,
+          1031.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3559_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "fj": "FJ3559",
+      "fma": "FMA70486",
+      "name": "Anterior division of right renal artery",
+      "bytes": 42626,
+      "sha256": "4cf78068c7af89b466ecc00bcd06337049a88177695c22bfc3b6b80cd6eeb08a",
+      "partId": "FJ3559_Anterior_division_of_right_renal_artery",
+      "vertices": 2154,
+      "triangles": 718,
+      "bounds": [
+        [
+          -53.96860122680664,
+          -103.3740005493164,
+          1027.31005859375
+        ],
+        [
+          -34.60210037231445,
+          -92.18509674072266,
+          1037
+        ]
+      ]
+    },
+    {
+      "file": "FJ3560_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "fj": "FJ3560",
+      "fma": "FMA70486",
+      "name": "Anterior division of right renal artery",
+      "bytes": 39507,
+      "sha256": "abdaeefe2f5bb2bedc4c573add2e35ff0b3ae4f430e5a4a846e9e94bf7528a99",
+      "partId": "FJ3560_Anterior_division_of_right_renal_artery",
+      "vertices": 1998,
+      "triangles": 666,
+      "bounds": [
+        [
+          -48.40060043334961,
+          -102.29900360107422,
+          1029.18994140625
+        ],
+        [
+          -36.92380142211914,
+          -89.69560241699219,
+          1049.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3561_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "fj": "FJ3561",
+      "fma": "FMA70486",
+      "name": "Anterior division of right renal artery",
+      "bytes": 39116,
+      "sha256": "e395d4c4048e8be4076b7a1c5203bccfbc109696d6f2a80a4188033bd155443b",
+      "partId": "FJ3561_Anterior_division_of_right_renal_artery",
+      "vertices": 1908,
+      "triangles": 636,
+      "bounds": [
+        [
+          -61.222801208496094,
+          -103.19300079345703,
+          1009.780029296875
+        ],
+        [
+          -38.51340103149414,
+          -88.63310241699219,
+          1029.6800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3562_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "fj": "FJ3562",
+      "fma": "FMA70486",
+      "name": "Anterior division of right renal artery",
+      "bytes": 80878,
+      "sha256": "64829125814ff500cca0cfa4bf52d0a618d0aaacce491455ec3cfe73d287d824",
+      "partId": "FJ3562_Anterior_division_of_right_renal_artery",
+      "vertices": 3762,
+      "triangles": 1254,
+      "bounds": [
+        [
+          -62.04410171508789,
+          -99.57569885253906,
+          984.7689819335938
+        ],
+        [
+          -44.19179916381836,
+          -85.3416976928711,
+          1042.0799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3563_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "fj": "FJ3563",
+      "fma": "FMA70486",
+      "name": "Anterior division of right renal artery",
+      "bytes": 335252,
+      "sha256": "45d854e879a0cf689608a8ce53e50a912f2b3d7f8a6370d0f69253a236a4f957",
+      "partId": "FJ3563_Anterior_division_of_right_renal_artery",
+      "vertices": 14100,
+      "triangles": 4700,
+      "bounds": [
+        [
+          -73.48269653320312,
+          -97.5988998413086,
+          980.531005859375
+        ],
+        [
+          -32.918399810791016,
+          -79.30590057373047,
+          1059.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3564_BP23191_FMA69325_Trunk of right common carotid artery.obj",
+      "fj": "FJ3564",
+      "fma": "FMA69325",
+      "name": "Trunk of right common carotid artery",
+      "bytes": 52086,
+      "sha256": "1a12829b8a46ac3b0dd098e80f5568c5a0f49e3d748b7419d3517bf46a8013b6",
+      "partId": "FJ3564_Trunk_of_right_common_carotid_artery",
+      "vertices": 2652,
+      "triangles": 884,
+      "bounds": [
+        [
+          -21.25790023803711,
+          -117.5479965209961,
+          1329.4200439453125
+        ],
+        [
+          -8.614439964294434,
+          -105.38300323486328,
+          1373.3800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3565_BP19705_FMA69383_Trunk of right common iliac artery.obj",
+      "fj": "FJ3565",
+      "fma": "FMA69383",
+      "name": "Trunk of right common iliac artery",
+      "bytes": 12559,
+      "sha256": "f382d4aa7f240e3aafc30142e59c9018eb8181dbb112755e1b93a9e9df345372",
+      "partId": "FJ3565_Trunk_of_right_common_iliac_artery",
+      "vertices": 660,
+      "triangles": 220,
+      "bounds": [
+        [
+          -37.502899169921875,
+          -130.0659942626953,
+          903.4619750976562
+        ],
+        [
+          10.1766996383667,
+          -105.04399871826172,
+          964.6649780273438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3566_BP21679_FMA21387_Right common iliac vein.obj",
+      "fj": "FJ3566",
+      "fma": "FMA21387",
+      "name": "Right common iliac vein",
+      "bytes": 21656,
+      "sha256": "fd40af96c7cb3bab7903fce9202f5e1edb8f52b5f60ce574c4fb6fef6fac236d",
+      "partId": "FJ3566_Right_common_iliac_vein",
+      "vertices": 1074,
+      "triangles": 358,
+      "bounds": [
+        [
+          -35.880699157714844,
+          -123.447998046875,
+          900.6320190429688
+        ],
+        [
+          -3.588550090789795,
+          -88.33360290527344,
+          964.6069946289062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3567_BP23461_FMA69390_Trunk proper of right external iliac artery.obj",
+      "fj": "FJ3567",
+      "fma": "FMA69390",
+      "name": "Trunk proper of right external iliac artery",
+      "bytes": 23687,
+      "sha256": "d0e2da1ed861020de297ef5d496b29a7a8e4c6388e886654c0a97f2cd482712f",
+      "partId": "FJ3567_Trunk_proper_of_right_external_iliac_artery",
+      "vertices": 1188,
+      "triangles": 396,
+      "bounds": [
+        [
+          -61.2869987487793,
+          -144.4980010986328,
+          803.6129760742188
+        ],
+        [
+          -27.45829963684082,
+          -77.7970962524414,
+          913.5399780273438
+        ]
+      ]
+    },
+    {
+      "file": "FJ3568_BP22755_FMA18885_Right external iliac vein.obj",
+      "fj": "FJ3568",
+      "fma": "FMA18885",
+      "name": "Right external iliac vein",
+      "bytes": 44178,
+      "sha256": "56977387f707ccae76d5f6fc42a887419a2fb2833d2949e0b961fbecea4d9590",
+      "partId": "FJ3568_Right_external_iliac_vein",
+      "vertices": 2172,
+      "triangles": 724,
+      "bounds": [
+        [
+          -52.12200164794922,
+          -151.59100341796875,
+          795.6300048828125
+        ],
+        [
+          -24.808300018310547,
+          -62.44369888305664,
+          905.5490112304688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3569_BP21640_FMA18809_Right internal iliac artery.obj",
+      "fj": "FJ3569",
+      "fma": "FMA18809",
+      "name": "Right internal iliac artery",
+      "bytes": 19404,
+      "sha256": "83a1ab60bd5d821465b633b5fdd167d2d8c8c08d50b6174edc62cbdbdda1fd98",
+      "partId": "FJ3569_Right_internal_iliac_artery",
+      "vertices": 828,
+      "triangles": 276,
+      "bounds": [
+        [
+          -36.03070068359375,
+          -112.46700286865234,
+          850.364990234375
+        ],
+        [
+          -27.234899520874023,
+          -27.452199935913086,
+          910.7659912109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3570_BP21783_FMA18887_Right internal iliac vein.obj",
+      "fj": "FJ3570",
+      "fma": "FMA18887",
+      "name": "Right internal iliac vein",
+      "bytes": 15026,
+      "sha256": "e31f86121ab7f23c75ed85648928a436895b3212cfc345f8e9bbac1aea427462",
+      "partId": "FJ3570_Right_internal_iliac_vein",
+      "vertices": 648,
+      "triangles": 216,
+      "bounds": [
+        [
+          -31.735599517822266,
+          -99.32209777832031,
+          853.7100219726562
+        ],
+        [
+          -23.467100143432617,
+          -36.58980178833008,
+          911.8779907226562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3571_BP21783_FMA18887_Right internal iliac vein.obj",
+      "fj": "FJ3571",
+      "fma": "FMA18887",
+      "name": "Right internal iliac vein",
+      "bytes": 13190,
+      "sha256": "da1db84ababc7334c5c087b95e47b90c3c8f42f75da6eb8c21d05001c143dcc3",
+      "partId": "FJ3571_Right_internal_iliac_vein",
+      "vertices": 606,
+      "triangles": 202,
+      "bounds": [
+        [
+          -29.906400680541992,
+          -50.77360153198242,
+          816.3319702148438
+        ],
+        [
+          -24.303699493408203,
+          -5.617559909820557,
+          873.9119873046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3572_BP21783_FMA18887_Right internal iliac vein.obj",
+      "fj": "FJ3572",
+      "fma": "FMA18887",
+      "name": "Right internal iliac vein",
+      "bytes": 13856,
+      "sha256": "7fbaadc88a992c501e8d935361e82a7a1693ca5753eb93035b351bcb364a0354",
+      "partId": "FJ3572_Right_internal_iliac_vein",
+      "vertices": 576,
+      "triangles": 192,
+      "bounds": [
+        [
+          -38.8119010925293,
+          -40.257598876953125,
+          788.8200073242188
+        ],
+        [
+          -16.81100082397461,
+          0.6259329915046692,
+          855.0869750976562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3573_BP19937_FMA70489_Posterior division of right renal artery.obj",
+      "fj": "FJ3573",
+      "fma": "FMA70489",
+      "name": "Posterior division of right renal artery",
+      "bytes": 31669,
+      "sha256": "1e5feab75d91bbf0f682787c69b76187a8e477c76e7b76016bbdba1db60cfb80",
+      "partId": "FJ3573_Posterior_division_of_right_renal_artery",
+      "vertices": 1488,
+      "triangles": 496,
+      "bounds": [
+        [
+          -74.23069763183594,
+          -82.32099914550781,
+          1010.9199829101562
+        ],
+        [
+          -62.021400451660156,
+          -78.38289642333984,
+          1022.4099731445312
+        ]
+      ]
+    },
+    {
+      "file": "FJ3574_BP19937_FMA70489_Posterior division of right renal artery.obj",
+      "fj": "FJ3574",
+      "fma": "FMA70489",
+      "name": "Posterior division of right renal artery",
+      "bytes": 27032,
+      "sha256": "a0c7cbbeef7e4f971c3a2846178ef63d4ed7c0277ddae48a5914ed2afacaed0c",
+      "partId": "FJ3574_Posterior_division_of_right_renal_artery",
+      "vertices": 1284,
+      "triangles": 428,
+      "bounds": [
+        [
+          -65.31289672851562,
+          -82.60140228271484,
+          1006.239990234375
+        ],
+        [
+          -48.98910140991211,
+          -77.98480224609375,
+          1026.3399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3575_BP19937_FMA70489_Posterior division of right renal artery.obj",
+      "fj": "FJ3575",
+      "fma": "FMA70489",
+      "name": "Posterior division of right renal artery",
+      "bytes": 113344,
+      "sha256": "e8cdf48a0a1f4f1aee5a5dbfd54b40f37c9ad29283e7310cd4adb5415ecfc3af",
+      "partId": "FJ3575_Posterior_division_of_right_renal_artery",
+      "vertices": 5550,
+      "triangles": 1850,
+      "bounds": [
+        [
+          -73.5531997680664,
+          -105.67900085449219,
+          1020.52001953125
+        ],
+        [
+          -26.83300018310547,
+          -77.73059844970703,
+          1034.8900146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3576_BP24071_FMA66363_Trunk of right renal artery.obj",
+      "fj": "FJ3576",
+      "fma": "FMA66363",
+      "name": "Trunk of right renal artery",
+      "bytes": 16072,
+      "sha256": "e282311345a6c464bb87c82a03132532951f4519e7d04d93ea099922ef87db56",
+      "partId": "FJ3576_Trunk_of_right_renal_artery",
+      "vertices": 846,
+      "triangles": 282,
+      "bounds": [
+        [
+          -40.42259979248047,
+          -120.14900207519531,
+          1027.219970703125
+        ],
+        [
+          12.918999671936035,
+          -98.1010971069336,
+          1048.469970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3577_BP19745_FMA14335_Right renal vein.obj",
+      "fj": "FJ3577",
+      "fma": "FMA14335",
+      "name": "Right renal vein",
+      "bytes": 19111,
+      "sha256": "99c61ccf20105b8ffac8c35c4307af9d5ef917e12060803408d42ebf5e4d112b",
+      "partId": "FJ3577_Right_renal_vein",
+      "vertices": 996,
+      "triangles": 332,
+      "bounds": [
+        [
+          -31.353900909423828,
+          -117.2229995727539,
+          1021.0900268554688
+        ],
+        [
+          -8.988929748535156,
+          -92.22949981689453,
+          1033.199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3578_BP19745_FMA14335_Right renal vein.obj",
+      "fj": "FJ3578",
+      "fma": "FMA14335",
+      "name": "Right renal vein",
+      "bytes": 387962,
+      "sha256": "2229e87d6ffe72c5733ae433be6c2eed74a62736e2aa75f2081b9e412cb692b6",
+      "partId": "FJ3578_Right_renal_vein",
+      "vertices": 14046,
+      "triangles": 4682,
+      "bounds": [
+        [
+          -73.35569763183594,
+          -101.46800231933594,
+          980.8809814453125
+        ],
+        [
+          -23.74530029296875,
+          -78.65709686279297,
+          1058.260009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3579_BP23187_FMA69318_Trunk of right subclavian artery.obj",
+      "fj": "FJ3579",
+      "fma": "FMA69318",
+      "name": "Trunk of right subclavian artery",
+      "bytes": 27310,
+      "sha256": "685211dba96c9cdcef4c04b35daff86317fd4d3a28f7b123b9e8f45d4b150175",
+      "partId": "FJ3579_Trunk_of_right_subclavian_artery",
+      "vertices": 1356,
+      "triangles": 452,
+      "bounds": [
+        [
+          -82.1760025024414,
+          -112.22100067138672,
+          1330.93994140625
+        ],
+        [
+          -9.747289657592773,
+          -94.35459899902344,
+          1353.030029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3580_BP23962_FMA14343_Right suprarenal vein.obj",
+      "fj": "FJ3580",
+      "fma": "FMA14343",
+      "name": "Right suprarenal vein",
+      "bytes": 45751,
+      "sha256": "459c1532fd74bedf80e077b32edc0d04b247cbfcb05de0be9f83209541ba4436",
+      "partId": "FJ3580_Right_suprarenal_vein",
+      "vertices": 1824,
+      "triangles": 608,
+      "bounds": [
+        [
+          -45.61289978027344,
+          -115.63200378417969,
+          1037.280029296875
+        ],
+        [
+          -18.481599807739258,
+          -87.756103515625,
+          1086.6300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3581_BP22647_FMA70492_Ureteric segment of right renal artery.obj",
+      "fj": "FJ3581",
+      "fma": "FMA70492",
+      "name": "Ureteric segment of right renal artery",
+      "bytes": 29816,
+      "sha256": "0068b226cd48c4b916496894bc018abd6ed14ea71b329deb861a171f95ab968b",
+      "partId": "FJ3581_Ureteric_segment_of_right_renal_artery",
+      "vertices": 1404,
+      "triangles": 468,
+      "bounds": [
+        [
+          -37.68130111694336,
+          -102.14099884033203,
+          989.6950073242188
+        ],
+        [
+          -24.166500091552734,
+          -98.18990325927734,
+          1028.68994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3582_BP22647_FMA70492_Ureteric segment of right renal artery.obj",
+      "fj": "FJ3582",
+      "fma": "FMA70492",
+      "name": "Ureteric segment of right renal artery",
+      "bytes": 38911,
+      "sha256": "a0673bfc8e004a732141a1dea81665d26101b136661ce21507667f1e82f80729",
+      "partId": "FJ3582_Ureteric_segment_of_right_renal_artery",
+      "vertices": 1818,
+      "triangles": 606,
+      "bounds": [
+        [
+          -31.637300491333008,
+          -105.16300201416016,
+          982.4869995117188
+        ],
+        [
+          -25.189699172973633,
+          -92.23729705810547,
+          1016.969970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3583_BP23322_FMA66647_Trunk of right brachiocephalic vein.obj",
+      "fj": "FJ3583",
+      "fma": "FMA66647",
+      "name": "Trunk of right brachiocephalic vein",
+      "bytes": 31668,
+      "sha256": "58f75b56ff6e4310f335c426025a133d09c458d3353d9cae47cb5a68c8711d60",
+      "partId": "FJ3583_Trunk_of_right_brachiocephalic_vein",
+      "vertices": 1638,
+      "triangles": 546,
+      "bounds": [
+        [
+          -31.965499877929688,
+          -131.27099609375,
+          1298.02001953125
+        ],
+        [
+          -10.295999526977539,
+          -109.37699890136719,
+          1349.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3584_BP21938_FMA69265_Right inferior suprarenal artery.obj",
+      "fj": "FJ3584",
+      "fma": "FMA69265",
+      "name": "Right inferior suprarenal artery",
+      "bytes": 58000,
+      "sha256": "796ca8f605990842a640759ff75938e1d8e3a96765b6c825917b0d9933a5e50e",
+      "partId": "FJ3584_Right_inferior_suprarenal_artery",
+      "vertices": 2262,
+      "triangles": 754,
+      "bounds": [
+        [
+          -70.11479949951172,
+          -103.72000122070312,
+          1030.280029296875
+        ],
+        [
+          -29.769699096679688,
+          -75.53399658203125,
+          1071.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3585_BP24100_FMA4754_Right internal jugular vein.obj",
+      "fj": "FJ3585",
+      "fma": "FMA4754",
+      "name": "Right internal jugular vein",
+      "bytes": 14893,
+      "sha256": "ff2bae30132ca2bd506bc914ee831b16510e0941bd760d98450b399da06a6e28",
+      "partId": "FJ3585_Right_internal_jugular_vein",
+      "vertices": 678,
+      "triangles": 226,
+      "bounds": [
+        [
+          -31.139999389648438,
+          -122.07499694824219,
+          1340.47998046875
+        ],
+        [
+          -21.712099075317383,
+          -112.88700103759766,
+          1381.739990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3586_BP21829_FMA14755_Right middle suprarenal artery.obj",
+      "fj": "FJ3586",
+      "fma": "FMA14755",
+      "name": "Right middle suprarenal artery",
+      "bytes": 56143,
+      "sha256": "74825b8688c1331ac4986e2317a092dc4adaad63e9d5e4ca4a26addfce56f91d",
+      "partId": "FJ3586_Right_middle_suprarenal_artery",
+      "vertices": 1962,
+      "triangles": 654,
+      "bounds": [
+        [
+          -54.93830108642578,
+          -110.76799774169922,
+          1055.260009765625
+        ],
+        [
+          6.600560188293457,
+          -80.59290313720703,
+          1078.72998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3587_BP23970_FMA4755_Right subclavian vein.obj",
+      "fj": "FJ3587",
+      "fma": "FMA4755",
+      "name": "Right subclavian vein",
+      "bytes": 22618,
+      "sha256": "bdd60f5e0407e4a237e7b03e302c8e7265001e20a6a8b8f7d2e776f2d8b2f431",
+      "partId": "FJ3587_Right_subclavian_vein",
+      "vertices": 1104,
+      "triangles": 368,
+      "bounds": [
+        [
+          -86.82869720458984,
+          -121.79299926757812,
+          1327.72998046875
+        ],
+        [
+          -22.342300415039062,
+          -108.49700164794922,
+          1351.550048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3588_BP24025_FMA14832_Superior rectal artery.obj",
+      "fj": "FJ3588",
+      "fma": "FMA14832",
+      "name": "Superior rectal artery",
+      "bytes": 29275,
+      "sha256": "61121a09a57157ad396d428f96e23c3643cac7f4f7bce71e72b21b831c716dc6",
+      "partId": "FJ3588_Superior_rectal_artery",
+      "vertices": 1212,
+      "triangles": 404,
+      "bounds": [
+        [
+          -4.665259838104248,
+          -107.04900360107422,
+          864.8519897460938
+        ],
+        [
+          1.3891899585723877,
+          -67.00550079345703,
+          892.156005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3589_BP22700_FMA4843_Right ascending lumbar vein.obj",
+      "fj": "FJ3589",
+      "fma": "FMA4843",
+      "name": "Right ascending lumbar vein",
+      "bytes": 500779,
+      "sha256": "9dd272d1a2caab093ad99d0cf6e775cedf6a2263ec6b9af425241baa2d352924",
+      "partId": "FJ3589_Right_ascending_lumbar_vein",
+      "vertices": 23652,
+      "triangles": 7884,
+      "bounds": [
+        [
+          11.803000450134277,
+          -103.3499984741211,
+          913.7789916992188
+        ],
+        [
+          25.227800369262695,
+          -72.16840362548828,
+          1072.8499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3590_BP21884_FMA14811_Right colic artery.obj",
+      "fj": "FJ3590",
+      "fma": "FMA14811",
+      "name": "Right colic artery",
+      "bytes": 72119,
+      "sha256": "efea723a22590c6b49818ecf8a17faf11e51f90286f34034ff39014219f7e683",
+      "partId": "FJ3590_Right_colic_artery",
+      "vertices": 3000,
+      "triangles": 1000,
+      "bounds": [
+        [
+          -68.94599914550781,
+          -149.6929931640625,
+          985.677001953125
+        ],
+        [
+          -5.397089958190918,
+          -118.76000213623047,
+          1039.1300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3591_BP22526_FMA15407_Right colic vein.obj",
+      "fj": "FJ3591",
+      "fma": "FMA15407",
+      "name": "Right colic vein",
+      "bytes": 81005,
+      "sha256": "dcd538ae77481635440bafb6e9cf646ae791ce310986405bc54d49dd153e2de9",
+      "partId": "FJ3591_Right_colic_vein",
+      "vertices": 3612,
+      "triangles": 1204,
+      "bounds": [
+        [
+          -70.76519775390625,
+          -144.0679931640625,
+          985.4910278320312
+        ],
+        [
+          -7.192699909210205,
+          -115.0510025024414,
+          1039.050048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3592_BP21071_FMA20818_Right dorsal artery of penis.obj",
+      "fj": "FJ3592",
+      "fma": "FMA20818",
+      "name": "Right dorsal artery of penis",
+      "bytes": 339533,
+      "sha256": "b4d6f1e09e8d008d935731868cabcc55a52bd8ad6f2dc9b498e9d16ab628f8a4",
+      "partId": "FJ3592_Right_dorsal_artery_of_penis",
+      "vertices": 15324,
+      "triangles": 5108,
+      "bounds": [
+        [
+          -26.314199447631836,
+          -193.9409942626953,
+          738.4569702148438
+        ],
+        [
+          -3.1159400939941406,
+          -66.24800109863281,
+          789.2979736328125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3593_BP21071_FMA20818_Right dorsal artery of penis.obj",
+      "fj": "FJ3593",
+      "fma": "FMA20818",
+      "name": "Right dorsal artery of penis",
+      "bytes": 92246,
+      "sha256": "d5f402f7635edf03a99aac33cd3ee8d0226d15df2d0e130e99062d876223ba18",
+      "partId": "FJ3593_Right_dorsal_artery_of_penis",
+      "vertices": 4626,
+      "triangles": 1542,
+      "bounds": [
+        [
+          -8.30148983001709,
+          -189.43499755859375,
+          733.4010009765625
+        ],
+        [
+          -3.034630060195923,
+          -134.5260009765625,
+          787.780029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3594_BP21662_FMA14776_Right gastric artery.obj",
+      "fj": "FJ3594",
+      "fma": "FMA14776",
+      "name": "Right gastric artery",
+      "bytes": 29027,
+      "sha256": "ba0e58d4af0aba344600dd46301718b028b877f1e38889273406a125d5595bab",
+      "partId": "FJ3594_Right_gastric_artery",
+      "vertices": 1434,
+      "triangles": 478,
+      "bounds": [
+        [
+          -12.45460033416748,
+          -169.4929962158203,
+          1076.18994140625
+        ],
+        [
+          21.536699295043945,
+          -137.63099670410156,
+          1089.5799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3595_BP20492_FMA15400_Right gastric vein.obj",
+      "fj": "FJ3595",
+      "fma": "FMA15400",
+      "name": "Right gastric vein",
+      "bytes": 28330,
+      "sha256": "f8f18cd48c96c72acdb0abae3760a274fb5e93bc6350592c96c7aadceeb5ff09",
+      "partId": "FJ3595_Right_gastric_vein",
+      "vertices": 1410,
+      "triangles": 470,
+      "bounds": [
+        [
+          -23.11829948425293,
+          -163.5500030517578,
+          1077.3499755859375
+        ],
+        [
+          0.7959120273590088,
+          -137.45899963378906,
+          1094.4200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3596_BP20783_FMA14781_Right gastro-epiploic artery.obj",
+      "fj": "FJ3596",
+      "fma": "FMA14781",
+      "name": "Right gastro-epiploic artery",
+      "bytes": 231309,
+      "sha256": "f7c5ec837cdf37e83e47d4c243826be5a05811c0082b15e0004450b4085106c2",
+      "partId": "FJ3596_Right_gastro-epiploic_artery",
+      "vertices": 11082,
+      "triangles": 3694,
+      "bounds": [
+        [
+          -18.16029930114746,
+          -177.58799743652344,
+          1039.02001953125
+        ],
+        [
+          58.38140106201172,
+          -136.35499572753906,
+          1066.9300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3597_BP20445_FMA15397_Right gastroepiploic vein.obj",
+      "fj": "FJ3597",
+      "fma": "FMA15397",
+      "name": "Right gastroepiploic vein",
+      "bytes": 45125,
+      "sha256": "ab1ec8f3e354446763743f877ca71c4ec26243c27ab81c9264145741f3da8aa2",
+      "partId": "FJ3597_Right_gastroepiploic_vein",
+      "vertices": 2004,
+      "triangles": 668,
+      "bounds": [
+        [
+          -17.11669921875,
+          -180.30799865722656,
+          1028.3699951171875
+        ],
+        [
+          60.65019989013672,
+          -137.94500732421875,
+          1051.780029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3603_BP20762_FMA18903_Right iliolumbar vein.obj",
+      "fj": "FJ3603",
+      "fma": "FMA18903",
+      "name": "Right iliolumbar vein",
+      "bytes": 689729,
+      "sha256": "3eed1ffec6c633c1d45811790e1e867b73cd76c2c159dc2c029ffe22ba79a447",
+      "partId": "FJ3603_Right_iliolumbar_vein",
+      "vertices": 31830,
+      "triangles": 10610,
+      "bounds": [
+        [
+          -128.53900146484375,
+          -133.86300659179688,
+          882.1259765625
+        ],
+        [
+          -24.347000122070312,
+          -46.83599853515625,
+          960.3359985351562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3604_BP22048_FMA20688_Right inferior epigastric artery.obj",
+      "fj": "FJ3604",
+      "fma": "FMA20688",
+      "name": "Right inferior epigastric artery",
+      "bytes": 438803,
+      "sha256": "ccf22c15dbfc73c2c4e32a522009e8c18aa7539c2be30cdba29b193a331a70a8",
+      "partId": "FJ3604_Right_inferior_epigastric_artery",
+      "vertices": 20664,
+      "triangles": 6888,
+      "bounds": [
+        [
+          -56.5275993347168,
+          -185.38600158691406,
+          830.656005859375
+        ],
+        [
+          -21.796499252319336,
+          -109.16400146484375,
+          1030.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3605_BP20785_FMA21163_Right inferior epigastric vein.obj",
+      "fj": "FJ3605",
+      "fma": "FMA21163",
+      "name": "Right inferior epigastric vein",
+      "bytes": 498458,
+      "sha256": "fa336458e1d1ce19f68654d556659f989b80061dc6a90a7332419a34d749ec47",
+      "partId": "FJ3605_Right_inferior_epigastric_vein",
+      "vertices": 23370,
+      "triangles": 7790,
+      "bounds": [
+        [
+          -42.35100173950195,
+          -186.927001953125,
+          826.7069702148438
+        ],
+        [
+          -18.111299514770508,
+          -108.50700378417969,
+          1031.0699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3606_BP20915_FMA18912_Right inferior gluteal vein.obj",
+      "fj": "FJ3606",
+      "fma": "FMA18912",
+      "name": "Right inferior gluteal vein",
+      "bytes": 741166,
+      "sha256": "e689a77ee2ce1dfa00e8dee97c925f2290b0d149417b6305279fa19e6cd14449",
+      "partId": "FJ3606_Right_inferior_gluteal_vein",
+      "vertices": 34518,
+      "triangles": 11506,
+      "bounds": [
+        [
+          -62.77730178833008,
+          -79.62629699707031,
+          753.916015625
+        ],
+        [
+          -21.87849998474121,
+          1.3116799592971802,
+          875.1129760742188
+        ]
+      ]
+    },
+    {
+      "file": "FJ3607_BP21783_FMA18887_Right internal iliac vein.obj",
+      "fj": "FJ3607",
+      "fma": "FMA18887",
+      "name": "Right internal iliac vein",
+      "bytes": 7135,
+      "sha256": "dc5a550333bebf129d52c67cdc8cce95083ce689b2a9cf87b9e4d39a6f26984f",
+      "partId": "FJ3607_Right_internal_iliac_vein",
+      "vertices": 282,
+      "triangles": 94,
+      "bounds": [
+        [
+          -28.64080047607422,
+          -105.15399932861328,
+          887.8300170898438
+        ],
+        [
+          -18.973499298095703,
+          -81.87429809570312,
+          914.7230224609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3608_BP21783_FMA18887_Right internal iliac vein.obj",
+      "fj": "FJ3608",
+      "fma": "FMA18887",
+      "name": "Right internal iliac vein",
+      "bytes": 11720,
+      "sha256": "15bffd4f0ce9065192a5a144121d19ccea2618f5f3ff45ae4c5b989593a75890",
+      "partId": "FJ3608_Right_internal_iliac_vein",
+      "vertices": 606,
+      "triangles": 202,
+      "bounds": [
+        [
+          -27.004600524902344,
+          -88.4738998413086,
+          868.8619995117188
+        ],
+        [
+          -20.465200424194336,
+          -74.24710083007812,
+          892.5260009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3609_BP21783_FMA18887_Right internal iliac vein.obj",
+      "fj": "FJ3609",
+      "fma": "FMA18887",
+      "name": "Right internal iliac vein",
+      "bytes": 6157,
+      "sha256": "367e9038f795ba1a69a2c0c1e83c771220f8e9e4fe780c71fde68fb0affa3469",
+      "partId": "FJ3609_Right_internal_iliac_vein",
+      "vertices": 222,
+      "triangles": 74,
+      "bounds": [
+        [
+          -30.346200942993164,
+          -86.64219665527344,
+          875.7529907226562
+        ],
+        [
+          -21.622499465942383,
+          -64.4719009399414,
+          891.7009887695312
+        ]
+      ]
+    },
+    {
+      "file": "FJ3610_BP21024_FMA18918_Right internal pudendal vein.obj",
+      "fj": "FJ3610",
+      "fma": "FMA18918",
+      "name": "Right internal pudendal vein",
+      "bytes": 474101,
+      "sha256": "2301e8eceddedd31ad7cbbc13664adaaee9ce7f80ebb4c1fd6b8b7dac433eb12",
+      "partId": "FJ3610_Right_internal_pudendal_vein",
+      "vertices": 22068,
+      "triangles": 7356,
+      "bounds": [
+        [
+          -44.56330108642578,
+          -105.3740005493164,
+          763.1160278320312
+        ],
+        [
+          -2.9249300956726074,
+          -26.59269905090332,
+          857.22998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3611_BP20842_FMA18906_Right lateral sacral vein.obj",
+      "fj": "FJ3611",
+      "fma": "FMA18906",
+      "name": "Right lateral sacral vein",
+      "bytes": 196107,
+      "sha256": "05ebe7cc4da9100aa1d66f1bd146a810dbebb78d1487c032bfd5485b561991e8",
+      "partId": "FJ3611_Right_lateral_sacral_vein",
+      "vertices": 9306,
+      "triangles": 3102,
+      "bounds": [
+        [
+          -29.012399673461914,
+          -55.619598388671875,
+          822.8920288085938
+        ],
+        [
+          -6.6852498054504395,
+          -11.633899688720703,
+          869.177978515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3612_BP21011_FMA18915_Right obturator vein.obj",
+      "fj": "FJ3612",
+      "fma": "FMA18915",
+      "name": "Right obturator vein",
+      "bytes": 306326,
+      "sha256": "9130a2b52d3243e848164327ecdd2cd5cc9e0392e8bcd33f18cb8f8aeb97c20b",
+      "partId": "FJ3612_Right_obturator_vein",
+      "vertices": 14412,
+      "triangles": 4804,
+      "bounds": [
+        [
+          -60.631500244140625,
+          -101.99299621582031,
+          802.0330200195312
+        ],
+        [
+          -26.46150016784668,
+          -61.15510177612305,
+          867.406982421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3614_BP22627_FMA20735_Right superficial epigastric artery.obj",
+      "fj": "FJ3614",
+      "fma": "FMA20735",
+      "name": "Right superficial epigastric artery",
+      "bytes": 184747,
+      "sha256": "129f46d8e2a4b1337c5f3d2db6cc1f9d236a795918e0d84a626c5647086dbc50",
+      "partId": "FJ3614_Right_superficial_epigastric_artery",
+      "vertices": 8772,
+      "triangles": 2924,
+      "bounds": [
+        [
+          -66.17859649658203,
+          -200.38099670410156,
+          806.0230102539062
+        ],
+        [
+          -32.92449951171875,
+          -136.61900329589844,
+          958.5859985351562
+        ]
+      ]
+    },
+    {
+      "file": "FJ3615_BP21143_FMA4771_Right superior epigastric vein.obj",
+      "fj": "FJ3615",
+      "fma": "FMA4771",
+      "name": "Right superior epigastric vein",
+      "bytes": 198008,
+      "sha256": "696182a445cbdd2dd04ecfaae4b3afef9f2f8988abd7e31d48d7a06e7c434692",
+      "partId": "FJ3615_Right_superior_epigastric_vein",
+      "vertices": 9426,
+      "triangles": 3142,
+      "bounds": [
+        [
+          -43.630401611328125,
+          -201.00399780273438,
+          805.1610107421875
+        ],
+        [
+          -14.147600173950195,
+          -132.4669952392578,
+          933.3480224609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3616_BP20822_FMA18909_Right superior gluteal vein.obj",
+      "fj": "FJ3616",
+      "fma": "FMA18909",
+      "name": "Right superior gluteal vein",
+      "bytes": 23638,
+      "sha256": "2271503f63ea66d77e0072eb2b7feabe64df9c804c50386eb64ae10b660d532f",
+      "partId": "FJ3616_Right_superior_gluteal_vein",
+      "vertices": 990,
+      "triangles": 330,
+      "bounds": [
+        [
+          -67.44439697265625,
+          -78.7428970336914,
+          849.7410278320312
+        ],
+        [
+          -23.85070037841797,
+          -41.78969955444336,
+          897.385009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3617_BP20559_FMA14759_Right testicular artery.obj",
+      "fj": "FJ3617",
+      "fma": "FMA14759",
+      "name": "Right testicular artery",
+      "bytes": 836412,
+      "sha256": "98ced9e742cfe32ed12399f9e5109b450c1f7ca0e36571db1bc7ef38613d737a",
+      "partId": "FJ3617_Right_testicular_artery",
+      "vertices": 38814,
+      "triangles": 12938,
+      "bounds": [
+        [
+          -67.56330108642578,
+          -149.3260040283203,
+          689.4180297851562
+        ],
+        [
+          5.744349956512451,
+          -79.98629760742188,
+          1026.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3618_BP20477_FMA14341_Right testicular vein.obj",
+      "fj": "FJ3618",
+      "fma": "FMA14341",
+      "name": "Right testicular vein",
+      "bytes": 886780,
+      "sha256": "49a72767dc376d3969091791549343ad09b64a0d1ac5640c4725710c7e109f02",
+      "partId": "FJ3618_Right_testicular_vein",
+      "vertices": 40920,
+      "triangles": 13640,
+      "bounds": [
+        [
+          -69.67530059814453,
+          -149.5330047607422,
+          689.39599609375
+        ],
+        [
+          -11.836700439453125,
+          -79.3311996459961,
+          1022.1500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3619_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3619",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 59476,
+      "sha256": "62c80395903a2a3d813b5d4d604b7ba79aecb65d22056ead7c656c9630cc2860",
+      "partId": "FJ3619_Right_inferior_phrenic_artery",
+      "vertices": 2520,
+      "triangles": 840,
+      "bounds": [
+        [
+          -83.99710083007812,
+          -175.39100646972656,
+          1079.8399658203125
+        ],
+        [
+          1.1123700141906738,
+          -75.03759765625,
+          1190.4300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3620_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3620",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 55281,
+      "sha256": "61df605c7581c4516c79e91f95675d496162006f6dd423bc601d34ca109c74db",
+      "partId": "FJ3620_Right_inferior_phrenic_artery",
+      "vertices": 2202,
+      "triangles": 734,
+      "bounds": [
+        [
+          -118.18399810791016,
+          -102.38600158691406,
+          1082.3299560546875
+        ],
+        [
+          -45.47439956665039,
+          -83.9030990600586,
+          1189.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3621_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3621",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 32890,
+      "sha256": "297da4daa336040a9064557aaa9c45d97c33fb18e059d1069512f3b4cd4aa92d",
+      "partId": "FJ3621_Right_inferior_phrenic_artery",
+      "vertices": 1320,
+      "triangles": 440,
+      "bounds": [
+        [
+          -53.67890167236328,
+          -190.24099731445312,
+          1169.8699951171875
+        ],
+        [
+          -31.50309944152832,
+          -117.04499816894531,
+          1190.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3622_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3622",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 29491,
+      "sha256": "2bbf1b1dded03246b845d6c2d7b4e9e2ec63b58c8ee413eed4ec3ec222aecf17",
+      "partId": "FJ3622_Right_inferior_phrenic_artery",
+      "vertices": 1140,
+      "triangles": 380,
+      "bounds": [
+        [
+          -113.19999694824219,
+          -128.06199645996094,
+          1157.9599609375
+        ],
+        [
+          -78.25060272216797,
+          -92.2802963256836,
+          1185.989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3623_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3623",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 18974,
+      "sha256": "3a428fb9b4c66ebc5b68b0a018ca8272f6d2c04ac504d055af390998f2def912",
+      "partId": "FJ3623_Right_inferior_phrenic_artery",
+      "vertices": 714,
+      "triangles": 238,
+      "bounds": [
+        [
+          -37.99140167236328,
+          -198.02200317382812,
+          1168.800048828125
+        ],
+        [
+          -6.996870040893555,
+          -154.81199645996094,
+          1186.52001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3624_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3624",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 41844,
+      "sha256": "ec157d1e335fcbe719739301a25cd6ca5771e5d70c216bb628716d88be99aa4c",
+      "partId": "FJ3624_Right_inferior_phrenic_artery",
+      "vertices": 1506,
+      "triangles": 502,
+      "bounds": [
+        [
+          -119.04100036621094,
+          -125.25299835205078,
+          1032.3399658203125
+        ],
+        [
+          -110.12799835205078,
+          -93.2155990600586,
+          1161.6400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3625_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3625",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 29210,
+      "sha256": "26960cfb1b7bf9816892d6f1e0f5999789a302c9656cc6f3d8007f4f9e35b7fe",
+      "partId": "FJ3625_Right_inferior_phrenic_artery",
+      "vertices": 1026,
+      "triangles": 342,
+      "bounds": [
+        [
+          -114.36900329589844,
+          -90.31559753417969,
+          1068.010009765625
+        ],
+        [
+          -94.2219009399414,
+          -47.35559844970703,
+          1121.6300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3626_BP21676_FMA14746_Right inferior phrenic artery.obj",
+      "fj": "FJ3626",
+      "fma": "FMA14746",
+      "name": "Right inferior phrenic artery",
+      "bytes": 25357,
+      "sha256": "d3438805b8690b1a136d2e96aebcf2faa201e7ead540a9816650bf238083302a",
+      "partId": "FJ3626_Right_inferior_phrenic_artery",
+      "vertices": 858,
+      "triangles": 286,
+      "bounds": [
+        [
+          -118.87799835205078,
+          -148.1999969482422,
+          1026.219970703125
+        ],
+        [
+          -99.54060363769531,
+          -118.08399963378906,
+          1105.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3631_BP19660_FMA15370_Lumbar vein.obj",
+      "fj": "FJ3631",
+      "fma": "FMA15370",
+      "name": "Lumbar vein",
+      "bytes": 571222,
+      "sha256": "6288e75e1cc7c1671d4673115f611328b77ff2479f1157e26e2479a2562e6dae",
+      "partId": "FJ3631_Lumbar_vein",
+      "vertices": 26502,
+      "triangles": 8834,
+      "bounds": [
+        [
+          20.36639976501465,
+          -102.78800201416016,
+          951.906005859375
+        ],
+        [
+          90.84259796142578,
+          -43.600399017333984,
+          1038.5
+        ]
+      ]
+    },
+    {
+      "file": "FJ3632_BP23563_FMA14735_Lumbar artery.obj",
+      "fj": "FJ3632",
+      "fma": "FMA14735",
+      "name": "Lumbar artery",
+      "bytes": 781407,
+      "sha256": "e08ed4dfcc69e97c08986d0ae04ea462f3cc5ee44bd526b4b8bc6c886e4824ac",
+      "partId": "FJ3632_Lumbar_artery",
+      "vertices": 36174,
+      "triangles": 12058,
+      "bounds": [
+        [
+          0.2624349892139435,
+          -126.23999786376953,
+          950.5330200195312
+        ],
+        [
+          92.73870086669922,
+          -43.60139846801758,
+          1042.25
+        ]
+      ]
+    },
+    {
+      "file": "FJ3635_BP19660_FMA15370_Lumbar vein.obj",
+      "fj": "FJ3635",
+      "fma": "FMA15370",
+      "name": "Lumbar vein",
+      "bytes": 581136,
+      "sha256": "7549a47b294856051308bcc14e15eeff486dc43e5e765abf2a3c7b3cce1fee42",
+      "partId": "FJ3635_Lumbar_vein",
+      "vertices": 26760,
+      "triangles": 8920,
+      "bounds": [
+        [
+          -90.83679962158203,
+          -111.8740005493164,
+          952.260986328125
+        ],
+        [
+          -12.372699737548828,
+          -43.60649871826172,
+          1047.4100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3636_BP23563_FMA14735_Lumbar artery.obj",
+      "fj": "FJ3636",
+      "fma": "FMA14735",
+      "name": "Lumbar artery",
+      "bytes": 810967,
+      "sha256": "4315eb0db7de52226682607c08dee5e1d706bc199d08930e88e9fbc919a5d877",
+      "partId": "FJ3636_Lumbar_artery",
+      "vertices": 37494,
+      "triangles": 12498,
+      "bounds": [
+        [
+          -90.85070037841797,
+          -121.62699890136719,
+          950.9609985351562
+        ],
+        [
+          5.023260116577148,
+          -43.499900817871094,
+          1045.719970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3637_BP20527_FMA21385_Right superficial dorsal vein of penis.obj",
+      "fj": "FJ3637",
+      "fma": "FMA21385",
+      "name": "Right superficial dorsal vein of penis",
+      "bytes": 170632,
+      "sha256": "77e0ced6795b4a37e1bfdc7c636b9dca5e75011bfc6b7f77893adb065321e815",
+      "partId": "FJ3637_Right_superficial_dorsal_vein_of_penis",
+      "vertices": 8346,
+      "triangles": 2782,
+      "bounds": [
+        [
+          -0.9092810153961182,
+          -195.26600646972656,
+          714.6810302734375
+        ],
+        [
+          0.9052079916000366,
+          -142.3939971923828,
+          791.7869873046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3638_BP23925_FMA14830_Sigmoid artery.obj",
+      "fj": "FJ3638",
+      "fma": "FMA14830",
+      "name": "Sigmoid artery",
+      "bytes": 120797,
+      "sha256": "e544a444fc52bb84e77b664e87aadcf93742d838e3544c7c3cef06fcf7ef97cb",
+      "partId": "FJ3638_Sigmoid_artery",
+      "vertices": 5106,
+      "triangles": 1702,
+      "bounds": [
+        [
+          4.1572699546813965,
+          -134.7969970703125,
+          876.3880004882812
+        ],
+        [
+          70.38379669189453,
+          -112.4219970703125,
+          964.5250244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3639_BP20945_FMA15395_Sigmoid vein.obj",
+      "fj": "FJ3639",
+      "fma": "FMA15395",
+      "name": "Sigmoid vein",
+      "bytes": 108325,
+      "sha256": "8250a369fcef8db72494fd0519bb3f68df45b3dc837d8b4c93c4e597d3abb61e",
+      "partId": "FJ3639_Sigmoid_vein",
+      "vertices": 4266,
+      "triangles": 1422,
+      "bounds": [
+        [
+          5.64818000793457,
+          -130.69500732421875,
+          877.0079956054688
+        ],
+        [
+          71.1531982421875,
+          -110.00399780273438,
+          963.3159790039062
+        ]
+      ]
+    },
+    {
+      "file": "FJ3640_BP20232_FMA14773_Splenic artery.obj",
+      "fj": "FJ3640",
+      "fma": "FMA14773",
+      "name": "Splenic artery",
+      "bytes": 126275,
+      "sha256": "f72ad4af208b4a35c72a76f80922cd34f7ae77ab9d9e00aa0fcb5b1925037c57",
+      "partId": "FJ3640_Splenic_artery",
+      "vertices": 5226,
+      "triangles": 1742,
+      "bounds": [
+        [
+          4.6627302169799805,
+          -133.5780029296875,
+          1070.31005859375
+        ],
+        [
+          99.03739929199219,
+          -80.41809844970703,
+          1094.0999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3641_BP20220_FMA14331_Splenic vein.obj",
+      "fj": "FJ3641",
+      "fma": "FMA14331",
+      "name": "Splenic vein",
+      "bytes": 87010,
+      "sha256": "6e21d97501840a864454e0dca8e9ebec09ae7cf0b326604d709ddf8b6a9c4327",
+      "partId": "FJ3641_Splenic_vein",
+      "vertices": 3432,
+      "triangles": 1144,
+      "bounds": [
+        [
+          -12.03030014038086,
+          -124.08300018310547,
+          1051.260009765625
+        ],
+        [
+          99.85009765625,
+          -83.07219696044922,
+          1091.780029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3644_BP24097_FMA66358_Trunk of superior mesenteric artery.obj",
+      "fj": "FJ3644",
+      "fma": "FMA66358",
+      "name": "Trunk of superior mesenteric artery",
+      "bytes": 90333,
+      "sha256": "e7d299a2e45bab5cfc1f102ba27dc3af78c3d2b309b6d00c5ba2c5db07e472e7",
+      "partId": "FJ3644_Trunk_of_superior_mesenteric_artery",
+      "vertices": 4518,
+      "triangles": 1506,
+      "bounds": [
+        [
+          -60.88679885864258,
+          -151.18800354003906,
+          909.406982421875
+        ],
+        [
+          8.581990242004395,
+          -112.0530014038086,
+          1054.72998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3645_BP23624_FMA4720_Superior vena cava.obj",
+      "fj": "FJ3645",
+      "fma": "FMA4720",
+      "name": "Superior vena cava",
+      "bytes": 35843,
+      "sha256": "48a2c870ff2dbb3f6eef1817cf0ebf57501c78f0726787d3a40424178095e902",
+      "partId": "FJ3645_Superior_vena_cava",
+      "vertices": 1794,
+      "triangles": 598,
+      "bounds": [
+        [
+          -26.634899139404297,
+          -127.2760009765625,
+          1274.81005859375
+        ],
+        [
+          -4.109429836273193,
+          -103.58699798583984,
+          1309.81005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3646_BP22437_FMA15398_Pancreaticoduodenal vein.obj",
+      "fj": "FJ3646",
+      "fma": "FMA15398",
+      "name": "Pancreaticoduodenal vein",
+      "bytes": 26320,
+      "sha256": "d087ced02985815cce27018354ce0a37d68d886ba109ea3e31b455caf29e77e6",
+      "partId": "FJ3646_Pancreaticoduodenal_vein",
+      "vertices": 1164,
+      "triangles": 388,
+      "bounds": [
+        [
+          -31.713499069213867,
+          -135.46099853515625,
+          1020.6099853515625
+        ],
+        [
+          -9.474220275878906,
+          -114.14299774169922,
+          1032.699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3647_BP20206_FMA14332_Superior mesenteric vein.obj",
+      "fj": "FJ3647",
+      "fma": "FMA14332",
+      "name": "Superior mesenteric vein",
+      "bytes": 49230,
+      "sha256": "5868700f6e29d733743db75fbcb330debd19863cf9234227b549ebf0cf08b4b0",
+      "partId": "FJ3647_Superior_mesenteric_vein",
+      "vertices": 2106,
+      "triangles": 702,
+      "bounds": [
+        [
+          -62.550899505615234,
+          -149.63299560546875,
+          910.1409912109375
+        ],
+        [
+          -5.020520210266113,
+          -109.14399719238281,
+          1066.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3648_BP23791_FMA78121_Superior phrenic vein.obj",
+      "fj": "FJ3648",
+      "fma": "FMA78121",
+      "name": "Superior phrenic vein",
+      "bytes": 54107,
+      "sha256": "5287f51069b19e4553839df04ad61fb42a6b030ada1822386f1e84e08e144c6f",
+      "partId": "FJ3648_Superior_phrenic_vein",
+      "vertices": 2046,
+      "triangles": 682,
+      "bounds": [
+        [
+          -110.78399658203125,
+          -149.7740020751953,
+          1154.239990234375
+        ],
+        [
+          -22.361600875854492,
+          -100.08100128173828,
+          1189.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3649_BP23791_FMA78121_Superior phrenic vein.obj",
+      "fj": "FJ3649",
+      "fma": "FMA78121",
+      "name": "Superior phrenic vein",
+      "bytes": 25936,
+      "sha256": "2c87bcd78adc66d52b3760489b7d3c58987f709535d94a2bfd6ec364eb520ad6",
+      "partId": "FJ3649_Superior_phrenic_vein",
+      "vertices": 924,
+      "triangles": 308,
+      "bounds": [
+        [
+          -89.19999694824219,
+          -132.1999969482422,
+          1184.2900390625
+        ],
+        [
+          -44.68370056152344,
+          -106.82099914550781,
+          1189.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3650_BP23791_FMA78121_Superior phrenic vein.obj",
+      "fj": "FJ3650",
+      "fma": "FMA78121",
+      "name": "Superior phrenic vein",
+      "bytes": 34652,
+      "sha256": "5c5043ea6b49c562f3b5c25d4f29237f8b7072d12bef8dc2f344cae1555305c7",
+      "partId": "FJ3650_Superior_phrenic_vein",
+      "vertices": 1254,
+      "triangles": 418,
+      "bounds": [
+        [
+          -42.36119842529297,
+          -190.86500549316406,
+          1173.300048828125
+        ],
+        [
+          -7,
+          -118.88300323486328,
+          1188.5899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3651_BP23791_FMA78121_Superior phrenic vein.obj",
+      "fj": "FJ3651",
+      "fma": "FMA78121",
+      "name": "Superior phrenic vein",
+      "bytes": 26353,
+      "sha256": "64b85edb38a9b7f64b2d0779932cca7a710a032e7a200b44901cfd7180bbbdb8",
+      "partId": "FJ3651_Superior_phrenic_vein",
+      "vertices": 1038,
+      "triangles": 346,
+      "bounds": [
+        [
+          -77.48359680175781,
+          -177.3070068359375,
+          1170.760009765625
+        ],
+        [
+          -36.467899322509766,
+          -122.03500366210938,
+          1189.8299560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3652_BP23791_FMA78121_Superior phrenic vein.obj",
+      "fj": "FJ3652",
+      "fma": "FMA78121",
+      "name": "Superior phrenic vein",
+      "bytes": 50202,
+      "sha256": "da8f194a36d1f28ecc99dc72b3574cc2702a8501630c399f815b1095f805a1a5",
+      "partId": "FJ3652_Superior_phrenic_vein",
+      "vertices": 1668,
+      "triangles": 556,
+      "bounds": [
+        [
+          -117.90899658203125,
+          -139.30999755859375,
+          1065.2099609375
+        ],
+        [
+          -78.14409637451172,
+          -93.28669738769531,
+          1187.8800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3653_BP23791_FMA78121_Superior phrenic vein.obj",
+      "fj": "FJ3653",
+      "fma": "FMA78121",
+      "name": "Superior phrenic vein",
+      "bytes": 127124,
+      "sha256": "5fb4d5dd0b9ebc39f2beeba435003844a6babfa3e44e1af2e7e4c13a1ad0d501",
+      "partId": "FJ3653_Superior_phrenic_vein",
+      "vertices": 4830,
+      "triangles": 1610,
+      "bounds": [
+        [
+          -118.21600341796875,
+          -127.69999694824219,
+          1042.5699462890625
+        ],
+        [
+          -76.7947998046875,
+          -52.400001525878906,
+          1188.77001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3654_BP23791_FMA78121_Superior phrenic vein.obj",
+      "fj": "FJ3654",
+      "fma": "FMA78121",
+      "name": "Superior phrenic vein",
+      "bytes": 36915,
+      "sha256": "1374d288191560389c367849dbf7146e0d2618a1b10cfa848b0e78a38bccfad0",
+      "partId": "FJ3654_Superior_phrenic_vein",
+      "vertices": 1146,
+      "triangles": 382,
+      "bounds": [
+        [
+          -118.38700103759766,
+          -99.97209930419922,
+          1081.199951171875
+        ],
+        [
+          -109.00199890136719,
+          -88.71649932861328,
+          1168
+        ]
+      ]
+    },
+    {
+      "file": "FJ3655_BP22437_FMA15398_Pancreaticoduodenal vein.obj",
+      "fj": "FJ3655",
+      "fma": "FMA15398",
+      "name": "Pancreaticoduodenal vein",
+      "bytes": 29204,
+      "sha256": "9f191ef9101fba307633c536ff4efad98f1fb5d1043c15dcbd316478cf0139ad",
+      "partId": "FJ3655_Pancreaticoduodenal_vein",
+      "vertices": 1314,
+      "triangles": 438,
+      "bounds": [
+        [
+          -32.12379837036133,
+          -133.04200744628906,
+          1032.25
+        ],
+        [
+          -13.718000411987305,
+          -110.4219970703125,
+          1088
+        ]
+      ]
+    },
+    {
+      "file": "FJ3656_BP22670_FMA66504_Trunk of superior rectal artery.obj",
+      "fj": "FJ3656",
+      "fma": "FMA66504",
+      "name": "Trunk of superior rectal artery",
+      "bytes": 26761,
+      "sha256": "eae9f0c66455cea9d34340e769991a89c55d4e9c432c303d61130264fb4c6904",
+      "partId": "FJ3656_Trunk_of_superior_rectal_artery",
+      "vertices": 1254,
+      "triangles": 418,
+      "bounds": [
+        [
+          -18.511600494384766,
+          -114.53199768066406,
+          849.5079956054688
+        ],
+        [
+          5.860169887542725,
+          -24.117900848388672,
+          900.2999877929688
+        ]
+      ]
+    },
+    {
+      "file": "FJ3657_BP20920_FMA15393_Superior rectal vein.obj",
+      "fj": "FJ3657",
+      "fma": "FMA15393",
+      "name": "Superior rectal vein",
+      "bytes": 30272,
+      "sha256": "f4d346d61f2169ffa3cd97c69a6f420005708b6d8b5f7cf187f337cbde401be3",
+      "partId": "FJ3657_Superior_rectal_vein",
+      "vertices": 1434,
+      "triangles": 478,
+      "bounds": [
+        [
+          -15.917699813842773,
+          -112.8499984741211,
+          851.3870239257812
+        ],
+        [
+          7.156169891357422,
+          -22.59950065612793,
+          902.176025390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3658_BP20473_FMA12858_Ascending lumbar vein.obj",
+      "fj": "FJ3658",
+      "fma": "FMA12858",
+      "name": "Ascending lumbar vein",
+      "bytes": 375588,
+      "sha256": "538c55658ff314a2e51ad4e266fec4460e558410faf87ab15f612cef7cecdaf1",
+      "partId": "FJ3658_Ascending_lumbar_vein",
+      "vertices": 17802,
+      "triangles": 5934,
+      "bounds": [
+        [
+          -22.89780044555664,
+          -115.6500015258789,
+          960.6220092773438
+        ],
+        [
+          24.732999801635742,
+          -94.67050170898438,
+          1011.6500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3659_BP23720_FMA10951_Inferior vena cava.obj",
+      "fj": "FJ3659",
+      "fma": "FMA10951",
+      "name": "Inferior vena cava",
+      "bytes": 107088,
+      "sha256": "e795b17885e03eb14174a527ebc0467b003fd1dc3e5b96c7a327e21b3dc4fe5b",
+      "partId": "FJ3659_Inferior_vena_cava",
+      "vertices": 5010,
+      "triangles": 1670,
+      "bounds": [
+        [
+          -23.79599952697754,
+          -128.7899932861328,
+          950.8920288085938
+        ],
+        [
+          -2.058500051498413,
+          -105.58200073242188,
+          1095.030029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ3660_BP19556_FMA3895_Circumflex branch of left coronary artery.obj",
+      "fj": "FJ3660",
+      "fma": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "bytes": 28376,
+      "sha256": "4534e782075378e269f6331c4571b99d96b149394f5ae7cae95f2c9c87a9e6f7",
+      "partId": "FJ3660_Circumflex_branch_of_left_coronary_artery",
+      "vertices": 1452,
+      "triangles": 484,
+      "bounds": [
+        [
+          34.359798431396484,
+          -121.93299865722656,
+          1222.3800048828125
+        ],
+        [
+          50.46860122680664,
+          -87.0167007446289,
+          1256.260009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3661_BP19556_FMA3895_Circumflex branch of left coronary artery.obj",
+      "fj": "FJ3661",
+      "fma": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "bytes": 42986,
+      "sha256": "41913ed9ff723c49a2c042bece65676fa497bfe0d13ac84b26292877ba9c64c3",
+      "partId": "FJ3661_Circumflex_branch_of_left_coronary_artery",
+      "vertices": 1974,
+      "triangles": 658,
+      "bounds": [
+        [
+          48.5620002746582,
+          -141.53500366210938,
+          1190.6600341796875
+        ],
+        [
+          77.1052017211914,
+          -87.07679748535156,
+          1223.9300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3662_BP19556_FMA3895_Circumflex branch of left coronary artery.obj",
+      "fj": "FJ3662",
+      "fma": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "bytes": 37493,
+      "sha256": "4201be8bc205a13e0e1a2f6cbd1b59e8d32409a633d194366200544eea3b3e4f",
+      "partId": "FJ3662_Circumflex_branch_of_left_coronary_artery",
+      "vertices": 1530,
+      "triangles": 510,
+      "bounds": [
+        [
+          58.75600051879883,
+          -115.5510025024414,
+          1211.0699462890625
+        ],
+        [
+          75.6332015991211,
+          -92.2562026977539,
+          1218.219970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ3663_BP19556_FMA3895_Circumflex branch of left coronary artery.obj",
+      "fj": "FJ3663",
+      "fma": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "bytes": 22406,
+      "sha256": "1920e0421ba1e02a94908699421af34afd20fe9085904a33c8e0b1f04a0a0049",
+      "partId": "FJ3663_Circumflex_branch_of_left_coronary_artery",
+      "vertices": 924,
+      "triangles": 308,
+      "bounds": [
+        [
+          64.18560028076172,
+          -107.27799987792969,
+          1194.6500244140625
+        ],
+        [
+          68.24259948730469,
+          -97.31950378417969,
+          1209.6099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ3664_BP19556_FMA3895_Circumflex branch of left coronary artery.obj",
+      "fj": "FJ3664",
+      "fma": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "bytes": 20597,
+      "sha256": "ae91ea9e37003af7729124f1bde94d7a2d3eb3411d8c333584aae41d6a8c66e3",
+      "partId": "FJ3664_Circumflex_branch_of_left_coronary_artery",
+      "vertices": 756,
+      "triangles": 252,
+      "bounds": [
+        [
+          73.74569702148438,
+          -128.3070068359375,
+          1188.3299560546875
+        ],
+        [
+          76.83110046386719,
+          -119.4489974975586,
+          1198.6800537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3665_BP19556_FMA3895_Circumflex branch of left coronary artery.obj",
+      "fj": "FJ3665",
+      "fma": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "bytes": 13415,
+      "sha256": "51de8bdd5f8fdc1f7afacafeeacb65bb6f43d06cc0edc573733871bbc6ac64c7",
+      "partId": "FJ3665_Circumflex_branch_of_left_coronary_artery",
+      "vertices": 516,
+      "triangles": 172,
+      "bounds": [
+        [
+          74.16670227050781,
+          -142.84500122070312,
+          1187.8199462890625
+        ],
+        [
+          76.4916000366211,
+          -131.2969970703125,
+          1192.2099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ3666_BP19556_FMA3895_Circumflex branch of left coronary artery.obj",
+      "fj": "FJ3666",
+      "fma": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "bytes": 29455,
+      "sha256": "064dba3b9395d14bc039e74f7b615f56816e8145b167cd75579e41dc08b3c697",
+      "partId": "FJ3666_Circumflex_branch_of_left_coronary_artery",
+      "vertices": 1188,
+      "triangles": 396,
+      "bounds": [
+        [
+          55.2864990234375,
+          -95.76339721679688,
+          1199.6800537109375
+        ],
+        [
+          59.81760025024414,
+          -89.42639923095703,
+          1216.5400390625
+        ]
+      ]
+    }
+  ]
+}

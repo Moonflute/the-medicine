@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import * as T from 'three';
+import {prepareGroupedExplosion} from './src/grouped-explosion.js';
+import {AtlasScene} from './src/scene.js';
+const root=new T.Group();root.rotation.set(.3,.7,-.2);root.scale.setScalar(1.4);
+for(const [i,p] of [[0,[-1,.3,.2]],[1,[1,-.3,-.2]],[2,[0,0,0]]]){const parent=new T.Group();parent.rotation.set(.2,-.4,.6);root.add(parent);const m=new T.Mesh(new T.BoxGeometry(.3,.3,.3),new T.MeshBasicMaterial());m.position.fromArray(p);m.userData={partId:'part'+i,organId:'test'+i};parent.add(m);}
+root.updateMatrixWorld(true);const center=new T.Box3().setFromObject(root).getCenter(new T.Vector3());prepareGroupedExplosion(root);
+root.traverse(m=>{if(!m.isMesh)return;const initial=m.position.clone(),q=m.quaternion.clone(),scale=m.scale.clone(),point=new T.Box3().setFromObject(m).getCenter(new T.Vector3()),radial=point.clone().sub(center);const offset=m.userData.explodeOffset.clone().applyMatrix3(new T.Matrix3().setFromMatrix4(m.parent.matrixWorld));assert.ok(offset.clone().cross(radial).length()<1e-8);assert.ok(offset.dot(radial)>=0);if(radial.length()<1e-8)assert.ok(offset.length()<1e-8);for(const t of [0,.2,.7,1,.4,0]){m.position.copy(initial).addScaledVector(m.userData.explodeOffset,t);root.updateMatrixWorld(true);const actual=new T.Box3().setFromObject(m).getCenter(new T.Vector3());assert.ok(actual.distanceTo(point.clone().addScaledVector(offset,t))<1e-8);assert.ok(m.quaternion.equals(q));assert.ok(m.scale.equals(scale));}assert.ok(m.position.equals(initial));});
+const fake={models:{test:root},active:'test',host:{dataset:{}},camera:new T.PerspectiveCamera(35,1,.1,60),controls:{target:new T.Vector3(),maxDistance:12},explodeAmount:0,reduced:false};fake.camera.position.set(3,2,6);const forward=()=>fake.camera.position.clone().sub(fake.controls.target).normalize();const check=()=>{const before=forward();for(let i=0;i<150;i++){AtlasScene.prototype.advanceFocus.call(fake,1/60);assert.ok(forward().distanceTo(before)<1e-8);}};AtlasScene.prototype.setExplode.call(fake,1);check();fake.camera.position.set(-4,3,5);fake.explodeAmount=1;AtlasScene.prototype.setExplode.call(fake,0);check();console.log('Radial translation, nested transforms, unchanged orientations, exact restore and camera direction passed');
+const rest=new Map();root.traverse(m=>{if(m.isMesh){rest.set(m,m.position.clone());m.position.addScaledVector(m.userData.explodeOffset,.7);}});
+const added=new T.Mesh(new T.BoxGeometry(.2,.2,.2),new T.MeshBasicMaterial());added.position.set(.4,1.8,.1);added.userData={partId:'late',organId:'late-layer'};root.add(added);rest.set(added,added.position.clone());delete root.userData.groupedExplosion;
+prepareGroupedExplosion(root,.7);const rebased=new Map();root.traverse(m=>{if(m.isMesh)rebased.set(m,m.userData.explodeOffset.clone());});
+for(const [mesh,position]of rest)mesh.position.copy(position);delete root.userData.groupedExplosion;prepareGroupedExplosion(root);
+for(const [mesh,offset]of rebased)assert.ok(mesh.userData.explodeOffset.distanceTo(offset)<1e-8);
+console.log('Late-loaded layer offsets equal a fresh undecomposed assembly');

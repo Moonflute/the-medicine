@@ -85,3 +85,40 @@ html.hosted-atlas body{background:var(--background);color:var(--foreground)}
 
 /* Keep long anatomical names clear of the exhibit clipping arc on phones. */
 @media(max-width:800px){.hosted-atlas .exhibit{border-radius:24px}.hosted-atlas .presentation-controls{left:14px;right:14px}.hosted-atlas #picked-structure{min-width:0}}
+
+/* Keep navigation on one row and give the released height to the workspace. */
+.hosted-atlas main{padding-top:12px}
+.hosted-atlas .catalog-controls{max-width:620px;align-items:stretch;flex-wrap:nowrap}
+.hosted-atlas .catalog-controls .body-button{flex:0 0 auto;min-height:40px;margin:0;padding:8px 14px;white-space:nowrap;border-radius:8px;font-size:12px;gap:6px}
+@media(max-width:800px){
+ .hosted-atlas .catalog-controls{max-width:none;gap:6px}
+ .hosted-atlas .catalog-controls input{padding:8px;min-height:40px;font-size:11px}
+ .hosted-atlas #organ-picker-toggle,.hosted-atlas .catalog-controls .body-button{padding:8px;font-size:11px}
+}
+
+/* Square model viewport on desktop and mobile. */
+.exhibit,.hosted-atlas .exhibit{border-radius:0}
+
+.anatomy-indications{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:4;overflow:hidden}.anatomy-indications path{fill:none;stroke:#648a91;stroke-width:1;opacity:.85}.anatomy-indications circle{fill:#0f766e}.anatomy-indications rect{fill:#fffffff0;stroke:#cbd5e1}.anatomy-indications text{fill:#233b46;font-family:Arial,sans-serif}#settings-sheet .indication-toggle{flex-direction:row;align-items:center;gap:8px;min-height:32px}
+
+.selection-pill-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:10px 0;color:#5b6472;font-size:11px}.selection-pill{display:flex;padding:3px;border:1px solid #d8dee8;border-radius:999px;background:#edf2f6;min-width:0}#settings-sheet .selection-pill label{position:relative;display:block;margin:0;cursor:pointer}.selection-pill input{position:absolute;opacity:0;width:1px;height:1px}.selection-pill span{display:block;padding:9px 12px;border-radius:999px;color:#5b6472;font-size:11px;transition:background .15s,color .15s}.selection-pill input:checked+span{background:#0f766e;color:white;box-shadow:0 1px 3px #0f172a18}.selection-pill input:focus-visible+span{outline:2px solid #0f766e;outline-offset:3px}@media(prefers-reduced-motion:reduce){.selection-pill span{transition:none}}
+
+#settings-sheet .inspection-row:has(>label:only-child){grid-template-columns:minmax(0,1fr)}
+
+#settings-sheet .slice-plane-pill{width:100%;box-sizing:border-box;margin:10px 0}#settings-sheet .slice-plane-pill label{flex:1;min-width:0;text-align:center}#settings-sheet .slice-plane-pill span{padding:9px 6px}
+
+/* Anatomical title sits directly on the model background. */
+.hosted-atlas .presentation-controls #picked-structure{background:transparent;border:0;box-shadow:none}
+
+#body-system-layers{margin:0;padding:8px 0;border:0;display:flex;flex-wrap:wrap;gap:8px 14px}#body-system-layers[hidden]{display:none}#body-system-layers legend{font-size:12px;color:var(--muted,#657575);margin-bottom:6px}#body-system-layers label{display:inline-flex;align-items:center;gap:5px;font-size:12px}#body-system-layers label[hidden]{display:none}
+.indication-rail{height:100%;display:flex;flex-direction:column;background:#fffffff0;border:1px solid #cbd5e1;box-sizing:border-box;pointer-events:auto;color:#233b46;font:11px/16px Arial,sans-serif;overflow:hidden}
+.indication-rail-count{padding:6px 8px;border-bottom:1px solid #dce3e9;color:#537078;flex:none}
+.indication-rail-list{overflow-y:auto;overscroll-behavior:contain;min-height:0;flex:1;touch-action:pan-y;scrollbar-width:thin}
+.indication-rail-label{box-sizing:border-box;min-height:44px;padding:6px 8px;display:flex;align-items:center;border-bottom:1px solid #edf0f3;overflow-wrap:anywhere}
+.indication-rail-label:hover{background:#e8f1ef}
+.local-model-controls{border-top:1px solid #dce3e9;margin-top:12px;padding-top:12px;display:grid;gap:8px;font-size:12px}
+.local-model-controls p,.local-model-controls small{margin:0;color:#627080;line-height:1.5}
+.local-model-controls>div{display:flex;flex-wrap:wrap;gap:6px}
+.local-model-controls button{padding:8px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#35645c;cursor:pointer}
+.local-model-controls button:disabled{opacity:.5;cursor:default}
+.local-model-controls output{font-size:12px;overflow-wrap:anywhere}

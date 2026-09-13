@@ -1,0 +1,6474 @@
+{
+  "source": "BodyParts3D 4.3",
+  "scope": "Candidate limb limb-vessels from FJ2050–2400; branch continuity and source identities under review; not complete body vasculature",
+  "meshes": 281,
+  "triangles": 921058,
+  "gzipBytes": 17442293,
+  "sourcePositionsPreserved": true,
+  "sourceTransformsPreserved": true,
+  "records": [
+    {
+      "file": "FJ2055_BP23450_FMA43916_Right dorsalis pedis artery.obj",
+      "fj": "FJ2055",
+      "fma": "FMA43916",
+      "name": "Right dorsalis pedis artery",
+      "bytes": 65118,
+      "sha256": "73655616b15033bcbfba54494d722f410b10be3d9e78980c8c2e8544351bea91",
+      "partId": "FJ2055_Right_dorsalis_pedis_artery",
+      "vertices": 3306,
+      "triangles": 1102,
+      "bounds": [
+        [
+          -91.88739776611328,
+          -148.4810028076172,
+          -23.951200485229492
+        ],
+        [
+          -67.78369903564453,
+          -88.31169891357422,
+          7.975490093231201
+        ]
+      ]
+    },
+    {
+      "file": "FJ2056_BP20844_FMA21354_Deep dorsal vein of penis.obj",
+      "fj": "FJ2056",
+      "fma": "FMA21354",
+      "name": "Deep dorsal vein of penis",
+      "bytes": 145169,
+      "sha256": "f3cf0f497517c5ba61d9ec2c7845d1d5bdbc57010f247f5dc356ca1619cca312",
+      "partId": "FJ2056_Deep_dorsal_vein_of_penis",
+      "vertices": 7068,
+      "triangles": 2356,
+      "bounds": [
+        [
+          -5.051809787750244,
+          -178.96099853515625,
+          714.1799926757812
+        ],
+        [
+          5.059329986572266,
+          -102.31400299072266,
+          794.0570068359375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2057_BP21176_FMA21422_Descending branch of right lateral circumflex femoral artery.obj",
+      "fj": "FJ2057",
+      "fma": "FMA21422",
+      "name": "Descending branch of right lateral circumflex femoral artery",
+      "bytes": 331178,
+      "sha256": "279573c4e40ddbba5fb73c95d04d27343ed21b534e303639a5fe618f7fc3a0b0",
+      "partId": "FJ2057_Descending_branch_of_right_lateral_circumflex_femoral_artery",
+      "vertices": 15702,
+      "triangles": 5234,
+      "bounds": [
+        [
+          -121.25299835205078,
+          -122.36399841308594,
+          411.2569885253906
+        ],
+        [
+          -75.21530151367188,
+          -91.31210327148438,
+          772.9829711914062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2058_BP22204_FMA69517_Distal perforating artery.obj",
+      "fj": "FJ2058",
+      "fma": "FMA69517",
+      "name": "Distal perforating artery",
+      "bytes": 47114,
+      "sha256": "ec1e980ba694c38f91b00f6bfa4ae9ef38a8c03cbd5a621ee9d3622a979ec288",
+      "partId": "FJ2058_Distal_perforating_artery",
+      "vertices": 2358,
+      "triangles": 786,
+      "bounds": [
+        [
+          -138.91700744628906,
+          -177.8249969482422,
+          -63.88420104980469
+        ],
+        [
+          -99.73650360107422,
+          -147.74899291992188,
+          -48.975399017333984
+        ]
+      ]
+    },
+    {
+      "file": "FJ2059_BP20463_FMA44882_Dorsal venous arch of left foot.obj",
+      "fj": "FJ2059",
+      "fma": "FMA44882",
+      "name": "Dorsal venous arch of left foot",
+      "bytes": 111767,
+      "sha256": "ab3177b2fac2800db7fd3a58f255c94794c98f4e397d3b901a2a4f5f2b42e1a0",
+      "partId": "FJ2059_Dorsal_venous_arch_of_left_foot",
+      "vertices": 5670,
+      "triangles": 1890,
+      "bounds": [
+        [
+          94.84980010986328,
+          -159.89500427246094,
+          -36.07780075073242
+        ],
+        [
+          120.90699768066406,
+          -83.1875,
+          -21.242000579833984
+        ]
+      ]
+    },
+    {
+      "file": "FJ2060_BP20463_FMA44882_Dorsal venous arch of left foot.obj",
+      "fj": "FJ2060",
+      "fma": "FMA44882",
+      "name": "Dorsal venous arch of left foot",
+      "bytes": 36932,
+      "sha256": "eb5512f93d094ceb816203066d7b38868ceb3b59e9ef6103d294c9fabdf24af9",
+      "partId": "FJ2060_Dorsal_venous_arch_of_left_foot",
+      "vertices": 1800,
+      "triangles": 600,
+      "bounds": [
+        [
+          92.21820068359375,
+          -153.48800659179688,
+          -43.69169998168945
+        ],
+        [
+          100.85199737548828,
+          -129.89700317382812,
+          -24.27280044555664
+        ]
+      ]
+    },
+    {
+      "file": "FJ2061_BP20448_FMA44881_Dorsal venous arch of right foot.obj",
+      "fj": "FJ2061",
+      "fma": "FMA44881",
+      "name": "Dorsal venous arch of right foot",
+      "bytes": 112778,
+      "sha256": "0d2f789700ca795a908d0c559ac68bd7cdd684a8518c7c2c97b6dec8b5799254",
+      "partId": "FJ2061_Dorsal_venous_arch_of_right_foot",
+      "vertices": 5670,
+      "triangles": 1890,
+      "bounds": [
+        [
+          -120.90399932861328,
+          -159.88099670410156,
+          -36.08319854736328
+        ],
+        [
+          -94.85330200195312,
+          -83.18379974365234,
+          -21.225000381469727
+        ]
+      ]
+    },
+    {
+      "file": "FJ2062_BP20448_FMA44881_Dorsal venous arch of right foot.obj",
+      "fj": "FJ2062",
+      "fma": "FMA44881",
+      "name": "Dorsal venous arch of right foot",
+      "bytes": 37820,
+      "sha256": "f3a809dd32fce5549a8af5b8860c463805be45fd80dc58451734058911f79fa2",
+      "partId": "FJ2062_Dorsal_venous_arch_of_right_foot",
+      "vertices": 1824,
+      "triangles": 608,
+      "bounds": [
+        [
+          -100.86199951171875,
+          -153.51300048828125,
+          -43.707801818847656
+        ],
+        [
+          -92.20989990234375,
+          -129.90199279785156,
+          -24.301599502563477
+        ]
+      ]
+    },
+    {
+      "file": "FJ2063_BP21192_FMA21423_Descending branch of left lateral circumflex femoral artery.obj",
+      "fj": "FJ2063",
+      "fma": "FMA21423",
+      "name": "Descending branch of left lateral circumflex femoral artery",
+      "bytes": 328249,
+      "sha256": "8ae361c91f1c62264263fe9eb17dfd3a0c4cbab99d6606f5204279b86877ceb7",
+      "partId": "FJ2063_Descending_branch_of_left_lateral_circumflex_femoral_artery",
+      "vertices": 15690,
+      "triangles": 5230,
+      "bounds": [
+        [
+          75.21620178222656,
+          -122.35800170898438,
+          411.260986328125
+        ],
+        [
+          121.2509994506836,
+          -91.31600189208984,
+          772.9849853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2064_BP22204_FMA69517_Distal perforating artery.obj",
+      "fj": "FJ2064",
+      "fma": "FMA69517",
+      "name": "Distal perforating artery",
+      "bytes": 44998,
+      "sha256": "c78cce2930dc39daecde7d765eb0cd02ea13ac2607288c92ee6a633e95c97d30",
+      "partId": "FJ2064_Distal_perforating_artery",
+      "vertices": 2196,
+      "triangles": 732,
+      "bounds": [
+        [
+          99.77330017089844,
+          -177.8249969482422,
+          -63.88029861450195
+        ],
+        [
+          138.9029998779297,
+          -147.7270050048828,
+          -49.002498626708984
+        ]
+      ]
+    },
+    {
+      "file": "FJ2065_BP23463_FMA66425_Trunk of left anterior tibial artery.obj",
+      "fj": "FJ2065",
+      "fma": "FMA66425",
+      "name": "Trunk of left anterior tibial artery",
+      "bytes": 1122066,
+      "sha256": "553a4958fe208477580283466d504880ff5b4a4467a66ad500cec160ac9d8a12",
+      "partId": "FJ2065_Trunk_of_left_anterior_tibial_artery",
+      "vertices": 52236,
+      "triangles": 17412,
+      "bounds": [
+        [
+          68.1333999633789,
+          -98.10479736328125,
+          4.321450233459473
+        ],
+        [
+          105.55599975585938,
+          -70.1084976196289,
+          321.82000732421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2066_BP20881_FMA43908_Left anterior tibial recurrent artery.obj",
+      "fj": "FJ2066",
+      "fma": "FMA43908",
+      "name": "Left anterior tibial recurrent artery",
+      "bytes": 392299,
+      "sha256": "acb9cb347240d6ae48e7bfe0ea60ec6e15dc758c48fce173973cdce253ad8e62",
+      "partId": "FJ2066_Left_anterior_tibial_recurrent_artery",
+      "vertices": 18120,
+      "triangles": 6040,
+      "bounds": [
+        [
+          49.9995002746582,
+          -123.64299774169922,
+          294.27899169921875
+        ],
+        [
+          111.91000366210938,
+          -74.79769897460938,
+          413.4830017089844
+        ]
+      ]
+    },
+    {
+      "file": "FJ2067_BP23789_FMA69495_Left arcuate artery.obj",
+      "fj": "FJ2067",
+      "fma": "FMA69495",
+      "name": "Left arcuate artery",
+      "bytes": 37430,
+      "sha256": "f14517dc2061ffa226bac815427a9d3289e033b662bff59cb0ec2b9e99b3ba1d",
+      "partId": "FJ2067_Left_arcuate_artery",
+      "vertices": 1926,
+      "triangles": 642,
+      "bounds": [
+        [
+          86.66549682617188,
+          -137.24400329589844,
+          -42.73910140991211
+        ],
+        [
+          117.08899688720703,
+          -99.08200073242188,
+          -15.035699844360352
+        ]
+      ]
+    },
+    {
+      "file": "FJ2068_BP20498_FMA69515_Left deep plantar artery.obj",
+      "fj": "FJ2068",
+      "fma": "FMA69515",
+      "name": "Left deep plantar artery",
+      "bytes": 27739,
+      "sha256": "67ca6acb7de7b3114fa56ec6903dce66c81512c48cf43c430bd0c4d5762805d5",
+      "partId": "FJ2068_Left_deep_plantar_artery",
+      "vertices": 1440,
+      "triangles": 480,
+      "bounds": [
+        [
+          90.10179901123047,
+          -150.01400756835938,
+          -39.797000885009766
+        ],
+        [
+          98.64949798583984,
+          -129.05499267578125,
+          -23.009300231933594
+        ]
+      ]
+    },
+    {
+      "file": "FJ2069_BP22722_FMA22508_Left descending genicular artery.obj",
+      "fj": "FJ2069",
+      "fma": "FMA22508",
+      "name": "Left descending genicular artery",
+      "bytes": 413633,
+      "sha256": "6f352903709965978cebf3282d046c56467f8df741a69903f04ff6bebe0dce4e",
+      "partId": "FJ2069_Left_descending_genicular_artery",
+      "vertices": 19590,
+      "triangles": 6530,
+      "bounds": [
+        [
+          32.847900390625,
+          -112.13400268554688,
+          360.2560119628906
+        ],
+        [
+          63.30739974975586,
+          -88.88809967041016,
+          482.5979919433594
+        ]
+      ]
+    },
+    {
+      "file": "FJ2070_BP21108_FMA20819_Left dorsal artery of penis.obj",
+      "fj": "FJ2070",
+      "fma": "FMA20819",
+      "name": "Left dorsal artery of penis",
+      "bytes": 182816,
+      "sha256": "9d3b92f0e5516fbaa53c931c5549e51a2d3245d30e59344a8d6d601ac2893d49",
+      "partId": "FJ2070_Left_dorsal_artery_of_penis",
+      "vertices": 7764,
+      "triangles": 2588,
+      "bounds": [
+        [
+          3.4412600994110107,
+          -183.7969970703125,
+          738.4730224609375
+        ],
+        [
+          26.27549934387207,
+          -66.25890350341797,
+          788.8939819335938
+        ]
+      ]
+    },
+    {
+      "file": "FJ2072_BP20937_FMA44660_Dorsal digital artery of foot.obj",
+      "fj": "FJ2072",
+      "fma": "FMA44660",
+      "name": "Dorsal digital artery of foot",
+      "bytes": 361058,
+      "sha256": "411595f42b5ffc86acbd760139a0b5577bbe42fda27dfef8288586309a3474cc",
+      "partId": "FJ2072_Dorsal_digital_artery_of_foot",
+      "vertices": 16428,
+      "triangles": 5476,
+      "bounds": [
+        [
+          104.11299896240234,
+          -229.0489959716797,
+          -69.29409790039062
+        ],
+        [
+          170.4530029296875,
+          -99.20580291748047,
+          -40.633399963378906
+        ]
+      ]
+    },
+    {
+      "file": "FJ2073_BP23420_FMA43917_Left dorsalis pedis artery.obj",
+      "fj": "FJ2073",
+      "fma": "FMA43917",
+      "name": "Left dorsalis pedis artery",
+      "bytes": 67266,
+      "sha256": "1442a51f1d4fc15f25eab1b7f2b20ac02c81950ca79df28eaa5922677e0d5989",
+      "partId": "FJ2073_Left_dorsalis_pedis_artery",
+      "vertices": 3444,
+      "triangles": 1148,
+      "bounds": [
+        [
+          67.79540252685547,
+          -148.4720001220703,
+          -23.94339942932129
+        ],
+        [
+          91.85369873046875,
+          -88.31549835205078,
+          7.971789836883545
+        ]
+      ]
+    },
+    {
+      "file": "FJ2074_BP22862_FMA20732_Trunk of left femoral artery.obj",
+      "fj": "FJ2074",
+      "fma": "FMA20732",
+      "name": "Trunk of left femoral artery",
+      "bytes": 42935,
+      "sha256": "7ef6f5b6ee93e4e2282c3c2c3a3fe88c72f035a4491b5e7f24051b6af5f26bad",
+      "partId": "FJ2074_Trunk_of_left_femoral_artery",
+      "vertices": 2220,
+      "triangles": 740,
+      "bounds": [
+        [
+          37.86690139770508,
+          -143.02099609375,
+          470.4259948730469
+        ],
+        [
+          65.9103012084961,
+          -85.40799713134766,
+          830.4080200195312
+        ]
+      ]
+    },
+    {
+      "file": "FJ2076_BP20356_FMA43893_Left inferior lateral genicular artery.obj",
+      "fj": "FJ2076",
+      "fma": "FMA43893",
+      "name": "Left inferior lateral genicular artery",
+      "bytes": 132045,
+      "sha256": "2d4543b3b84d01ac3cbfd98bb2e2172b4f1fb94f8fe222884936deddb595655c",
+      "partId": "FJ2076_Left_inferior_lateral_genicular_artery",
+      "vertices": 6678,
+      "triangles": 2226,
+      "bounds": [
+        [
+          79.43289947509766,
+          -101.54499816894531,
+          340.4219970703125
+        ],
+        [
+          115.9800033569336,
+          -53.77560043334961,
+          382.1199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2077_BP20365_FMA43891_Left inferior medial genicular artery.obj",
+      "fj": "FJ2077",
+      "fma": "FMA43891",
+      "name": "Left inferior medial genicular artery",
+      "bytes": 136311,
+      "sha256": "3ee00baf9de181cad62f4d75e3ed2e1d0f505bf28844f67b7f6a0777ee6cc8cd",
+      "partId": "FJ2077_Left_inferior_medial_genicular_artery",
+      "vertices": 6870,
+      "triangles": 2290,
+      "bounds": [
+        [
+          44.65489959716797,
+          -106.58999633789062,
+          334.0799865722656
+        ],
+        [
+          81.54570007324219,
+          -59.295101165771484,
+          352.4159851074219
+        ]
+      ]
+    },
+    {
+      "file": "FJ2078_BP21103_FMA20802_Left lateral circumflex femoral artery.obj",
+      "fj": "FJ2078",
+      "fma": "FMA20802",
+      "name": "Left lateral circumflex femoral artery",
+      "bytes": 65665,
+      "sha256": "60d1d6ebacf572a7f3382a34af996880bb0c08e0a514bd3d98dce76a5cbdd0fe",
+      "partId": "FJ2078_Left_lateral_circumflex_femoral_artery",
+      "vertices": 3306,
+      "triangles": 1102,
+      "bounds": [
+        [
+          75.98729705810547,
+          -124.61499786376953,
+          769.0260009765625
+        ],
+        [
+          120.52100372314453,
+          -61.5260009765625,
+          794.8040161132812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2079_BP23390_FMA69567_Trunk of left lateral plantar artery.obj",
+      "fj": "FJ2079",
+      "fma": "FMA69567",
+      "name": "Trunk of left lateral plantar artery",
+      "bytes": 52802,
+      "sha256": "896b94cd9b4e97dbcc891b0fad254df18099eb1b097b516ec7851dac52d85965",
+      "partId": "FJ2079_Trunk_of_left_lateral_plantar_artery",
+      "vertices": 2700,
+      "triangles": 900,
+      "bounds": [
+        [
+          66.8541030883789,
+          -103.26599884033203,
+          -59.85850143432617
+        ],
+        [
+          113.58599853515625,
+          -85.58319854736328,
+          -39.36330032348633
+        ]
+      ]
+    },
+    {
+      "file": "FJ2080_BP20385_FMA22589_Left lateral superior genicular artery.obj",
+      "fj": "FJ2080",
+      "fma": "FMA22589",
+      "name": "Left lateral superior genicular artery",
+      "bytes": 132568,
+      "sha256": "e98eef0dc506c92e0867dbe7b4024ae593ca887e66c9b02cd5dbbf1fc8df285a",
+      "partId": "FJ2080_Left_lateral_superior_genicular_artery",
+      "vertices": 6702,
+      "triangles": 2234,
+      "bounds": [
+        [
+          70.7240982055664,
+          -103.4219970703125,
+          389.8479919433594
+        ],
+        [
+          111.8949966430664,
+          -64.01589965820312,
+          430.4100036621094
+        ]
+      ]
+    },
+    {
+      "file": "FJ2081_BP22142_FMA69491_Left lateral tarsal artery.obj",
+      "fj": "FJ2081",
+      "fma": "FMA69491",
+      "name": "Left lateral tarsal artery",
+      "bytes": 94894,
+      "sha256": "bcf7bbc97720ac9301099fdde6d9e937507cedb8dd1b4b8e7d75d9fb18b17c70",
+      "partId": "FJ2081_Left_lateral_tarsal_artery",
+      "vertices": 4824,
+      "triangles": 1608,
+      "bounds": [
+        [
+          71.93679809570312,
+          -101.41400146484375,
+          -42.76860046386719
+        ],
+        [
+          116.69599914550781,
+          -93.0011978149414,
+          2.083400011062622
+        ]
+      ]
+    },
+    {
+      "file": "FJ2082_BP23388_FMA69757_Trunk of left medial plantar artery.obj",
+      "fj": "FJ2082",
+      "fma": "FMA69757",
+      "name": "Trunk of left medial plantar artery",
+      "bytes": 46226,
+      "sha256": "17a2cbe17df974a16023edb074bf23b67b9b0c799d769bdd022557fdbd32ec0c",
+      "partId": "FJ2082_Trunk_of_left_medial_plantar_artery",
+      "vertices": 2292,
+      "triangles": 764,
+      "bounds": [
+        [
+          66.81520080566406,
+          -126.23300170898438,
+          -43.92959976196289
+        ],
+        [
+          75.42559814453125,
+          -86.39399719238281,
+          -37.055301666259766
+        ]
+      ]
+    },
+    {
+      "file": "FJ2083_BP20379_FMA22587_Left medial superior genicular artery.obj",
+      "fj": "FJ2083",
+      "fma": "FMA22587",
+      "name": "Left medial superior genicular artery",
+      "bytes": 103560,
+      "sha256": "5f1307f045be81bd276e1ae8820c386396fa7417b20d9e2431177f59de313567",
+      "partId": "FJ2083_Left_medial_superior_genicular_artery",
+      "vertices": 5298,
+      "triangles": 1766,
+      "bounds": [
+        [
+          32.66059875488281,
+          -110.92900085449219,
+          382.4830017089844
+        ],
+        [
+          74.17749786376953,
+          -63.21500015258789,
+          423.0270080566406
+        ]
+      ]
+    },
+    {
+      "file": "FJ2084_BP20271_FMA22563_Left middle genicular artery.obj",
+      "fj": "FJ2084",
+      "fma": "FMA22563",
+      "name": "Left middle genicular artery",
+      "bytes": 148633,
+      "sha256": "e87ccdc983514dea2c21d80b8420236989a5f31944746c169e5db086f1ff8e6b",
+      "partId": "FJ2084_Left_middle_genicular_artery",
+      "vertices": 7080,
+      "triangles": 2360,
+      "bounds": [
+        [
+          42.680599212646484,
+          -65.3104019165039,
+          374.57598876953125
+        ],
+        [
+          109.86799621582031,
+          -51.50189971923828,
+          401.677001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2086_BP22017_FMA77381_Left popliteal artery.obj",
+      "fj": "FJ2086",
+      "fma": "FMA77381",
+      "name": "Left popliteal artery",
+      "bytes": 1076351,
+      "sha256": "e5179b8abf361b35d00fe42def164ea43e8b3e4a5f3aef8ab487cd9958a6893b",
+      "partId": "FJ2086_Left_popliteal_artery",
+      "vertices": 50196,
+      "triangles": 16732,
+      "bounds": [
+        [
+          55.858001708984375,
+          -95.7853012084961,
+          283.2749938964844
+        ],
+        [
+          95.84210205078125,
+          -52.6968994140625,
+          480.7749938964844
+        ]
+      ]
+    },
+    {
+      "file": "FJ2087_BP23421_FMA66427_Trunk of left posterior tibial artery.obj",
+      "fj": "FJ2087",
+      "fma": "FMA66427",
+      "name": "Trunk of left posterior tibial artery",
+      "bytes": 853297,
+      "sha256": "fc5e4cbd73cf0caeb175220f8923f2b997870c2a86f201ce2c9971b318fea784",
+      "partId": "FJ2087_Trunk_of_left_posterior_tibial_artery",
+      "vertices": 39654,
+      "triangles": 13218,
+      "bounds": [
+        [
+          44.47480010986328,
+          -86.76950073242188,
+          -41.3401985168457
+        ],
+        [
+          91.13140106201172,
+          -50.34939956665039,
+          289.7650146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2089_BP22174_FMA43938_Left superficial medial plantar artery.obj",
+      "fj": "FJ2089",
+      "fma": "FMA43938",
+      "name": "Left superficial medial plantar artery",
+      "bytes": 55663,
+      "sha256": "0e164b380192e4c0c970b13e8eb7705d98ca8e26e0bd02ff29aada34601be400",
+      "partId": "FJ2089_Left_superficial_medial_plantar_artery",
+      "vertices": 2844,
+      "triangles": 948,
+      "bounds": [
+        [
+          68.72889709472656,
+          -179.85299682617188,
+          -62.80860137939453
+        ],
+        [
+          83.02210235595703,
+          -124.47799682617188,
+          -42.161598205566406
+        ]
+      ]
+    },
+    {
+      "file": "FJ2090_BP29051_FMA20797_Left deep femoral artery.obj",
+      "fj": "FJ2090",
+      "fma": "FMA20797",
+      "name": "Left deep femoral artery",
+      "bytes": 72803,
+      "sha256": "795e528723c2d50ecd4fafee6f6ba8bca4b0bf55a1e0ee45b3b5b56964b130d4",
+      "partId": "FJ2090_Left_deep_femoral_artery",
+      "vertices": 3684,
+      "triangles": 1228,
+      "bounds": [
+        [
+          69.85919952392578,
+          -119.13200378417969,
+          542.8270263671875
+        ],
+        [
+          92.94249725341797,
+          -95.12370300292969,
+          719.947998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2091_BP21103_FMA20802_Left lateral circumflex femoral artery.obj",
+      "fj": "FJ2091",
+      "fma": "FMA20802",
+      "name": "Left lateral circumflex femoral artery",
+      "bytes": 151414,
+      "sha256": "ab6f58fedf24a92cbf6c60a04a3980b0fe8c9f3fa9fddc487a0057dd5b7059f3",
+      "partId": "FJ2091_Left_lateral_circumflex_femoral_artery",
+      "vertices": 7506,
+      "triangles": 2502,
+      "bounds": [
+        [
+          75.2406997680664,
+          -122.3219985961914,
+          762.0880126953125
+        ],
+        [
+          146.9429931640625,
+          -51.08599853515625,
+          836.22802734375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2092_BP23224_FMA70821_Set of common plantar digital arteries.obj",
+      "fj": "FJ2092",
+      "fma": "FMA70821",
+      "name": "Set of common plantar digital arteries",
+      "bytes": 68894,
+      "sha256": "4d7b40103cc9cb6d4db190bca5d785cae8e7f3b875473334308d020158df9c11",
+      "partId": "FJ2092_Set_of_common_plantar_digital_arteries",
+      "vertices": 3210,
+      "triangles": 1070,
+      "bounds": [
+        [
+          102.59700012207031,
+          -185.81700134277344,
+          -68.36810302734375
+        ],
+        [
+          142.46200561523438,
+          -147.83999633789062,
+          -55.5806999206543
+        ]
+      ]
+    },
+    {
+      "file": "FJ2093_BP29771_FMA43923_Left peroneal artery.obj",
+      "fj": "FJ2093",
+      "fma": "FMA43923",
+      "name": "Left peroneal artery",
+      "bytes": 777754,
+      "sha256": "860f2a7e4e72fdfb164ea4d657d5d76452ae89945bea586703a42056892c994b",
+      "partId": "FJ2093_Left_peroneal_artery",
+      "vertices": 36324,
+      "triangles": 12108,
+      "bounds": [
+        [
+          68.40850067138672,
+          -64.64250183105469,
+          -38.5994987487793
+        ],
+        [
+          101.22899627685547,
+          -44.026100158691406,
+          289.7650146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2094_BP29051_FMA20797_Left deep femoral artery.obj",
+      "fj": "FJ2094",
+      "fma": "FMA20797",
+      "name": "Left deep femoral artery",
+      "bytes": 387046,
+      "sha256": "882cfa9b283f33d8346d89fb2d350d1b4ce9ed9f8327048cde4b5986c30de828",
+      "partId": "FJ2094_Left_deep_femoral_artery",
+      "vertices": 18414,
+      "triangles": 6138,
+      "bounds": [
+        [
+          46.927101135253906,
+          -137.4290008544922,
+          512.1599731445312
+        ],
+        [
+          84.97669982910156,
+          -88.74909973144531,
+          822.0189819335938
+        ]
+      ]
+    },
+    {
+      "file": "FJ2095_BP22636_FMA71564_Set of plantar digital arteries proper.obj",
+      "fj": "FJ2095",
+      "fma": "FMA71564",
+      "name": "Set of plantar digital arteries proper",
+      "bytes": 67002,
+      "sha256": "0322080d97e9e4fd3b006e0665638c67cc613439339c870c3071af4a228299cd",
+      "partId": "FJ2095_Set_of_plantar_digital_arteries_proper",
+      "vertices": 3132,
+      "triangles": 1044,
+      "bounds": [
+        [
+          96.0552978515625,
+          -164.74200439453125,
+          -52.69309997558594
+        ],
+        [
+          127.56700134277344,
+          -117.9260025024414,
+          -39.00400161743164
+        ]
+      ]
+    },
+    {
+      "file": "FJ2096_BP23345_FMA69715_Trunk of plantar metatarsal artery.obj",
+      "fj": "FJ2096",
+      "fma": "FMA69715",
+      "name": "Trunk of plantar metatarsal artery",
+      "bytes": 166176,
+      "sha256": "27d3675a425237ab7e196132836874af24c06b000c7a9e5a440901f3ee22cc76",
+      "partId": "FJ2096_Trunk_of_plantar_metatarsal_artery",
+      "vertices": 8172,
+      "triangles": 2724,
+      "bounds": [
+        [
+          97.97820281982422,
+          -169.99600219726562,
+          -64.4175033569336
+        ],
+        [
+          132.6540069580078,
+          -111.51300048828125,
+          -36.714599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2097_BP21228_FMA44337_Left anterior tibial vein.obj",
+      "fj": "FJ2097",
+      "fma": "FMA44337",
+      "name": "Left anterior tibial vein",
+      "bytes": 173033,
+      "sha256": "f235ec51071d323031886c243174913c881668a5066d7b29f701cc1aa49524b1",
+      "partId": "FJ2097_Left_anterior_tibial_vein",
+      "vertices": 8520,
+      "triangles": 2840,
+      "bounds": [
+        [
+          50.944801330566406,
+          -114.19599914550781,
+          291.3580017089844
+        ],
+        [
+          109.98699951171875,
+          -72.57219696044922,
+          405.77801513671875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2099_BP21065_FMA51043_Left deep femoral vein.obj",
+      "fj": "FJ2099",
+      "fma": "FMA51043",
+      "name": "Left deep femoral vein",
+      "bytes": 400056,
+      "sha256": "1e0a8ad7146d30a8c86a162e16a7f32960f74f86f2700cd2e7d5cf700de79120",
+      "partId": "FJ2099_Left_deep_femoral_vein",
+      "vertices": 19014,
+      "triangles": 6338,
+      "bounds": [
+        [
+          32.88309860229492,
+          -143.42799377441406,
+          508.3380126953125
+        ],
+        [
+          78.76280212402344,
+          -105.04100036621094,
+          818.4990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2100_BP22625_FMA70922_Set of perforating veins.obj",
+      "fj": "FJ2100",
+      "fma": "FMA70922",
+      "name": "Set of perforating veins",
+      "bytes": 81468,
+      "sha256": "ecf4b0fe34ec8d50c01837660ee3cb2415c66892bc7cceba3fa169a2776e73f8",
+      "partId": "FJ2100_Set_of_perforating_veins",
+      "vertices": 4116,
+      "triangles": 1372,
+      "bounds": [
+        [
+          100.14700317382812,
+          -178.5679931640625,
+          -66.02899932861328
+        ],
+        [
+          141.19200134277344,
+          -143.00900268554688,
+          -40.02640151977539
+        ]
+      ]
+    },
+    {
+      "file": "FJ2102_BP20856_FMA21189_Left femoral vein.obj",
+      "fj": "FJ2102",
+      "fma": "FMA21189",
+      "name": "Left femoral vein",
+      "bytes": 38085,
+      "sha256": "81ac633f5ec012628cdecd371d92b18cf478b85948f6dfad64d07d04ccebdc8c",
+      "partId": "FJ2102_Left_femoral_vein",
+      "vertices": 1974,
+      "triangles": 658,
+      "bounds": [
+        [
+          31.872100830078125,
+          -154.81399536132812,
+          483.5710144042969
+        ],
+        [
+          73.947998046875,
+          -83.95050048828125,
+          806.8419799804688
+        ]
+      ]
+    },
+    {
+      "file": "FJ2103_BP21070_FMA21380_Left great saphenous vein.obj",
+      "fj": "FJ2103",
+      "fma": "FMA21380",
+      "name": "Left great saphenous vein",
+      "bytes": 2016874,
+      "sha256": "0bc8b17acd8630e229cc69387fde33c22a5ed8e7ceea037063ade52c05f626d5",
+      "partId": "FJ2103_Left_great_saphenous_vein",
+      "vertices": 90120,
+      "triangles": 30040,
+      "bounds": [
+        [
+          13.420499801635742,
+          -153.94700622558594,
+          -26.385299682617188
+        ],
+        [
+          94.88739776611328,
+          -48.082401275634766,
+          795.8460083007812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2107_BP21251_FMA44888_Left genicular vein.obj",
+      "fj": "FJ2107",
+      "fma": "FMA44888",
+      "name": "Left genicular vein",
+      "bytes": 111948,
+      "sha256": "5de1bf72f9acd584fd53e3ff3405a7d6b6840430502a14293c27d97ba4f25642",
+      "partId": "FJ2107_Left_genicular_vein",
+      "vertices": 5682,
+      "triangles": 1894,
+      "bounds": [
+        [
+          84.24729919433594,
+          -110.88800048828125,
+          355.47900390625
+        ],
+        [
+          117.49600219726562,
+          -52.9739990234375,
+          369.0559997558594
+        ]
+      ]
+    },
+    {
+      "file": "FJ2108_BP21251_FMA44888_Left genicular vein.obj",
+      "fj": "FJ2108",
+      "fma": "FMA44888",
+      "name": "Left genicular vein",
+      "bytes": 132450,
+      "sha256": "30582d2ba997d73898d2431d1e7e82995ff3b565bf9b43812e9c5ac4ed44082e",
+      "partId": "FJ2108_Left_genicular_vein",
+      "vertices": 6696,
+      "triangles": 2232,
+      "bounds": [
+        [
+          33.872501373291016,
+          -114.81300354003906,
+          320.4289855957031
+        ],
+        [
+          103.19499969482422,
+          -55.609798431396484,
+          354.16400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2113_BP21639_FMA44499_Tributary of plantar venous arch.obj",
+      "fj": "FJ2113",
+      "fma": "FMA44499",
+      "name": "Tributary of plantar venous arch",
+      "bytes": 52869,
+      "sha256": "7c73dd1be2138dfda852f8d4fc1847049ecafce501a3628c355104e3188cf11d",
+      "partId": "FJ2113_Tributary_of_plantar_venous_arch",
+      "vertices": 2700,
+      "triangles": 900,
+      "bounds": [
+        [
+          66.85089874267578,
+          -103.26000213623047,
+          -64.07879638671875
+        ],
+        [
+          113.59500122070312,
+          -85.61499786376953,
+          -43.56740188598633
+        ]
+      ]
+    },
+    {
+      "file": "FJ2115_BP21639_FMA44499_Tributary of plantar venous arch.obj",
+      "fj": "FJ2115",
+      "fma": "FMA44499",
+      "name": "Tributary of plantar venous arch",
+      "bytes": 46419,
+      "sha256": "d10c3ccad8203767fd8e231a0d6583705024fd6b103e1c5232c0a1039862d644",
+      "partId": "FJ2115_Tributary_of_plantar_venous_arch",
+      "vertices": 2292,
+      "triangles": 764,
+      "bounds": [
+        [
+          66.80960083007812,
+          -126.2490005493164,
+          -48.144500732421875
+        ],
+        [
+          75.41570281982422,
+          -86.4020004272461,
+          -41.2859001159668
+        ]
+      ]
+    },
+    {
+      "file": "FJ2117_BP21201_FMA44329_Left popliteal vein.obj",
+      "fj": "FJ2117",
+      "fma": "FMA44329",
+      "name": "Left popliteal vein",
+      "bytes": 1075896,
+      "sha256": "18ee61c4e165a2dc6b7f258528deaf74a745d92f936a30d579a499c0c70a3a29",
+      "partId": "FJ2117_Left_popliteal_vein",
+      "vertices": 49776,
+      "triangles": 16592,
+      "bounds": [
+        [
+          64.16259765625,
+          -94.2593002319336,
+          319.4859924316406
+        ],
+        [
+          101.76200103759766,
+          -55.05720138549805,
+          496.1440124511719
+        ]
+      ]
+    },
+    {
+      "file": "FJ2118_BP21236_FMA44339_Left posterior tibial vein.obj",
+      "fj": "FJ2118",
+      "fma": "FMA44339",
+      "name": "Left posterior tibial vein",
+      "bytes": 893858,
+      "sha256": "3d42d2fff8592c398c96fd9c63df1e2f26a1ed519aec47620af7e66ad2d32f71",
+      "partId": "FJ2118_Left_posterior_tibial_vein",
+      "vertices": 41478,
+      "triangles": 13826,
+      "bounds": [
+        [
+          39.77629852294922,
+          -87.8948974609375,
+          -45.666099548339844
+        ],
+        [
+          102.38099670410156,
+          -49.19169998168945,
+          283.8479919433594
+        ]
+      ]
+    },
+    {
+      "file": "FJ2119_BP22625_FMA70922_Set of perforating veins.obj",
+      "fj": "FJ2119",
+      "fma": "FMA70922",
+      "name": "Set of perforating veins",
+      "bytes": 121307,
+      "sha256": "1bb40fbd41ebf5fe189041a9c92228ca64d7c929f0476d667ae607b5983fc951",
+      "partId": "FJ2119_Set_of_perforating_veins",
+      "vertices": 5760,
+      "triangles": 1920,
+      "bounds": [
+        [
+          98.1688003540039,
+          -174.89700317382812,
+          -56.7599983215332
+        ],
+        [
+          132.00799560546875,
+          -113.75299835205078,
+          -34.5447998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2120_BP21296_FMA70919_Set of plantar digital veins.obj",
+      "fj": "FJ2120",
+      "fma": "FMA70919",
+      "name": "Set of plantar digital veins",
+      "bytes": 505072,
+      "sha256": "21273c01e757ff18cf5da01b151cda8a8b07b25b88875e23ccd1dfce4805163a",
+      "partId": "FJ2120_Set_of_plantar_digital_veins",
+      "vertices": 23148,
+      "triangles": 7716,
+      "bounds": [
+        [
+          68.73870086669922,
+          -235.27699279785156,
+          -77.22640228271484
+        ],
+        [
+          168.52499389648438,
+          -101.49500274658203,
+          -46.40330123901367
+        ]
+      ]
+    },
+    {
+      "file": "FJ2121_BP21258_FMA44335_Left small saphenous vein.obj",
+      "fj": "FJ2121",
+      "fma": "FMA44335",
+      "name": "Left small saphenous vein",
+      "bytes": 1053371,
+      "sha256": "5ca6f352a59a73a8bc654d912a788532b060fc517e5edd5afcd69112d8a3cfc8",
+      "partId": "FJ2121_Left_small_saphenous_vein",
+      "vertices": 49008,
+      "triangles": 16336,
+      "bounds": [
+        [
+          62.311798095703125,
+          -86.39099884033203,
+          -44.24089813232422
+        ],
+        [
+          112.43800354003906,
+          -11.065999984741211,
+          410.1709899902344
+        ]
+      ]
+    },
+    {
+      "file": "FJ2122_BP21197_FMA44341_Left superficial epigastric vein.obj",
+      "fj": "FJ2122",
+      "fma": "FMA44341",
+      "name": "Left superficial epigastric vein",
+      "bytes": 91702,
+      "sha256": "1452c369c4655251a91b6997dd9dc322d90346affb8baa816ab1d1eb66e90721",
+      "partId": "FJ2122_Left_superficial_epigastric_vein",
+      "vertices": 4410,
+      "triangles": 1470,
+      "bounds": [
+        [
+          14.184000015258789,
+          -200.97300720214844,
+          805.2039794921875
+        ],
+        [
+          43.5989990234375,
+          -132.50100708007812,
+          933.302001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2124_BP21251_FMA44888_Left genicular vein.obj",
+      "fj": "FJ2124",
+      "fma": "FMA44888",
+      "name": "Left genicular vein",
+      "bytes": 139491,
+      "sha256": "97418135a7edba1e1c44663f4a445d1c91d76e2335eee497d6e6351f28e583e9",
+      "partId": "FJ2124_Left_genicular_vein",
+      "vertices": 6948,
+      "triangles": 2316,
+      "bounds": [
+        [
+          75.63390350341797,
+          -110.34200286865234,
+          391.3299865722656
+        ],
+        [
+          113.62699890136719,
+          -62.41790008544922,
+          423.1210021972656
+        ]
+      ]
+    },
+    {
+      "file": "FJ2125_BP21251_FMA44888_Left genicular vein.obj",
+      "fj": "FJ2125",
+      "fma": "FMA44888",
+      "name": "Left genicular vein",
+      "bytes": 96643,
+      "sha256": "ef0ef9206f090f0942b8178d54a9d651e3b4286fc8b416d3db1ee83df2de4425",
+      "partId": "FJ2125_Left_genicular_vein",
+      "vertices": 4812,
+      "triangles": 1604,
+      "bounds": [
+        [
+          35.74319839477539,
+          -107.99800109863281,
+          394.7980041503906
+        ],
+        [
+          81.70110321044922,
+          -70.95459747314453,
+          440.6610107421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2127_BP23446_FMA20731_Trunk of right femoral artery.obj",
+      "fj": "FJ2127",
+      "fma": "FMA20731",
+      "name": "Trunk of right femoral artery",
+      "bytes": 73814,
+      "sha256": "a203d336aba0aac1e638950b0fedf594747e529f3a83c7f3ce18562f47d7b853",
+      "partId": "FJ2127_Trunk_of_right_femoral_artery",
+      "vertices": 3726,
+      "triangles": 1242,
+      "bounds": [
+        [
+          -92.96640014648438,
+          -119.14299774169922,
+          542.8150024414062
+        ],
+        [
+          -69.86479949951172,
+          -95.10289764404297,
+          719.9550170898438
+        ]
+      ]
+    },
+    {
+      "file": "FJ2128_BP20475_FMA44884_Plantar venous arch of left foot.obj",
+      "fj": "FJ2128",
+      "fma": "FMA44884",
+      "name": "Plantar venous arch of left foot",
+      "bytes": 70873,
+      "sha256": "f087d6eac799d3a192e2c4198727785946e6ef847c9c8c73496e2d9eceea99c4",
+      "partId": "FJ2128_Plantar_venous_arch_of_left_foot",
+      "vertices": 3600,
+      "triangles": 1200,
+      "bounds": [
+        [
+          68.75370025634766,
+          -130.91000366210938,
+          -64.06900024414062
+        ],
+        [
+          113.58999633789062,
+          -101.49800109863281,
+          -41.007301330566406
+        ]
+      ]
+    },
+    {
+      "file": "FJ2129_BP20597_FMA44883_Plantar venous arch of right foot.obj",
+      "fj": "FJ2129",
+      "fma": "FMA44883",
+      "name": "Plantar venous arch of right foot",
+      "bytes": 73311,
+      "sha256": "d3f678e316fd10d47c19efcb1b297e1e319041476715fabc63694ec72501ece1",
+      "partId": "FJ2129_Plantar_venous_arch_of_right_foot",
+      "vertices": 3690,
+      "triangles": 1230,
+      "bounds": [
+        [
+          -113.5790023803711,
+          -130.8990020751953,
+          -64.07080078125
+        ],
+        [
+          -68.74299621582031,
+          -101.49600219726562,
+          -41.01539993286133
+        ]
+      ]
+    },
+    {
+      "file": "FJ2130_BP23419_FMA66424_Trunk of right anterior tibial artery.obj",
+      "fj": "FJ2130",
+      "fma": "FMA66424",
+      "name": "Trunk of right anterior tibial artery",
+      "bytes": 1125758,
+      "sha256": "b1bc72c0e656233bcebcfb95c8b9e9c96e5480ea8b48277e09c9b376d29ff924",
+      "partId": "FJ2130_Trunk_of_right_anterior_tibial_artery",
+      "vertices": 52002,
+      "triangles": 17334,
+      "bounds": [
+        [
+          -105.55500030517578,
+          -98.10659790039062,
+          4.319109916687012
+        ],
+        [
+          -68.13819885253906,
+          -70.10579681396484,
+          321.8210144042969
+        ]
+      ]
+    },
+    {
+      "file": "FJ2131_BP20767_FMA43907_Right anterior tibial recurrent artery.obj",
+      "fj": "FJ2131",
+      "fma": "FMA43907",
+      "name": "Right anterior tibial recurrent artery",
+      "bytes": 399381,
+      "sha256": "381f4a9119a95c2c8dcf38cd9e88b69b6d4f0e3312a649e6f81f2d1112d13ee5",
+      "partId": "FJ2131_Right_anterior_tibial_recurrent_artery",
+      "vertices": 18180,
+      "triangles": 6060,
+      "bounds": [
+        [
+          -111.91500091552734,
+          -123.63999938964844,
+          294.2760009765625
+        ],
+        [
+          -50.002201080322266,
+          -74.78469848632812,
+          413.49200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2132_BP21257_FMA44336_Right anterior tibial vein.obj",
+      "fj": "FJ2132",
+      "fma": "FMA44336",
+      "name": "Right anterior tibial vein",
+      "bytes": 173966,
+      "sha256": "b75da1ec4958bee28e645afb652443e844e8dc2de3b68bd3ea953069535b9c9a",
+      "partId": "FJ2132_Right_anterior_tibial_vein",
+      "vertices": 8520,
+      "triangles": 2840,
+      "bounds": [
+        [
+          -109.97899627685547,
+          -114.21700286865234,
+          291.3550109863281
+        ],
+        [
+          -50.94850158691406,
+          -72.57749938964844,
+          405.781005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2133_BP22162_FMA69494_Right arcuate artery.obj",
+      "fj": "FJ2133",
+      "fma": "FMA69494",
+      "name": "Right arcuate artery",
+      "bytes": 37388,
+      "sha256": "63d3f0d4168e7d83294e73df7b0ee01a3c01c0e5f24a2708d7f664da6d2ce718",
+      "partId": "FJ2133_Right_arcuate_artery",
+      "vertices": 1902,
+      "triangles": 634,
+      "bounds": [
+        [
+          -117.06500244140625,
+          -137.26600646972656,
+          -42.73759841918945
+        ],
+        [
+          -86.67539978027344,
+          -99.06060028076172,
+          -15.072699546813965
+        ]
+      ]
+    },
+    {
+      "file": "FJ2135_BP21089_FMA51042_Right deep femoral vein.obj",
+      "fj": "FJ2135",
+      "fma": "FMA51042",
+      "name": "Right deep femoral vein",
+      "bytes": 403688,
+      "sha256": "b89bcc0eff53cb08f90e7d0ebfb01346151ac7f9709253dc96c72bedbeb3e00f",
+      "partId": "FJ2135_Right_deep_femoral_vein",
+      "vertices": 19038,
+      "triangles": 6346,
+      "bounds": [
+        [
+          -78.74590301513672,
+          -143.4429931640625,
+          508.3420104980469
+        ],
+        [
+          -32.87580108642578,
+          -105.04299926757812,
+          818.489990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2136_BP20307_FMA69514_Right deep plantar artery.obj",
+      "fj": "FJ2136",
+      "fma": "FMA69514",
+      "name": "Right deep plantar artery",
+      "bytes": 28269,
+      "sha256": "37d3d85b9a78767913cb0e0e5259d663a511440cb239509e6bc7f4b7f32394ba",
+      "partId": "FJ2136_Right_deep_plantar_artery",
+      "vertices": 1452,
+      "triangles": 484,
+      "bounds": [
+        [
+          -98.63829803466797,
+          -150.0050048828125,
+          -39.826900482177734
+        ],
+        [
+          -90.10820007324219,
+          -129.04299926757812,
+          -23.007099151611328
+        ]
+      ]
+    },
+    {
+      "file": "FJ2137_BP22206_FMA22507_Right descending genicular artery.obj",
+      "fj": "FJ2137",
+      "fma": "FMA22507",
+      "name": "Right descending genicular artery",
+      "bytes": 419932,
+      "sha256": "f7fb6e0adf76b4ddd4b452ae10e373bb3c2a48130db1a60181427af7c2f69530",
+      "partId": "FJ2137_Right_descending_genicular_artery",
+      "vertices": 19608,
+      "triangles": 6536,
+      "bounds": [
+        [
+          -63.31380081176758,
+          -112.12699890136719,
+          360.24798583984375
+        ],
+        [
+          -32.85029983520508,
+          -88.88410186767578,
+          482.6000061035156
+        ]
+      ]
+    },
+    {
+      "file": "FJ2138_BP22625_FMA70922_Set of perforating veins.obj",
+      "fj": "FJ2138",
+      "fma": "FMA70922",
+      "name": "Set of perforating veins",
+      "bytes": 85779,
+      "sha256": "bb636b57d21acd176406d93147f54e329b766101e11fa0680f3e9990fef2b3e4",
+      "partId": "FJ2138_Set_of_perforating_veins",
+      "vertices": 4272,
+      "triangles": 1424,
+      "bounds": [
+        [
+          -141.19700622558594,
+          -178.5989990234375,
+          -66.02559661865234
+        ],
+        [
+          -100.15399932861328,
+          -142.9929962158203,
+          -40.04209899902344
+        ]
+      ]
+    },
+    {
+      "file": "FJ2141_BP20937_FMA44660_Dorsal digital artery of foot.obj",
+      "fj": "FJ2141",
+      "fma": "FMA44660",
+      "name": "Dorsal digital artery of foot",
+      "bytes": 329968,
+      "sha256": "18c19fc5b94b047b649c9ccef5b9a64df9cdfd5463e9659a9f3a7329add8c355",
+      "partId": "FJ2141_Dorsal_digital_artery_of_foot",
+      "vertices": 14928,
+      "triangles": 4976,
+      "bounds": [
+        [
+          -170.4720001220703,
+          -229.06199645996094,
+          -69.2959976196289
+        ],
+        [
+          -104.12200164794922,
+          -99.19869995117188,
+          -40.62350082397461
+        ]
+      ]
+    },
+    {
+      "file": "FJ2143_BP23446_FMA20731_Trunk of right femoral artery.obj",
+      "fj": "FJ2143",
+      "fma": "FMA20731",
+      "name": "Trunk of right femoral artery",
+      "bytes": 44153,
+      "sha256": "38a157165e0feb068d98087e14dcea2e6307217dc4b82c3493d2ff9dad7ef51d",
+      "partId": "FJ2143_Trunk_of_right_femoral_artery",
+      "vertices": 2256,
+      "triangles": 752,
+      "bounds": [
+        [
+          -66.16889953613281,
+          -142.95399475097656,
+          470.4219970703125
+        ],
+        [
+          -37.72249984741211,
+          -85.49220275878906,
+          830.2509765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2144_BP20797_FMA21188_Right femoral vein.obj",
+      "fj": "FJ2144",
+      "fma": "FMA21188",
+      "name": "Right femoral vein",
+      "bytes": 38686,
+      "sha256": "2efbb12df7ecc014df3266c2e4ec0c0bd55e3af1a2f4438f2682e543313e1ea6",
+      "partId": "FJ2144_Right_femoral_vein",
+      "vertices": 1974,
+      "triangles": 658,
+      "bounds": [
+        [
+          -73.77950286865234,
+          -154.73699951171875,
+          483.56500244140625
+        ],
+        [
+          -31.963899612426758,
+          -84.0614013671875,
+          806.8280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2145_BP21061_FMA21379_Right great saphenous vein.obj",
+      "fj": "FJ2145",
+      "fma": "FMA21379",
+      "name": "Right great saphenous vein",
+      "bytes": 2029016,
+      "sha256": "ef8d01ca0259213a168a28d8a1a00699aff219d1e767c06a9d50a3703d98f652",
+      "partId": "FJ2145_Right_great_saphenous_vein",
+      "vertices": 90108,
+      "triangles": 30036,
+      "bounds": [
+        [
+          -94.88829803466797,
+          -153.9510040283203,
+          -26.385299682617188
+        ],
+        [
+          -13.421299934387207,
+          -48.08649826049805,
+          795.8489990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2150_BP22510_FMA43892_Right inferior lateral genicular artery.obj",
+      "fj": "FJ2150",
+      "fma": "FMA43892",
+      "name": "Right inferior lateral genicular artery",
+      "bytes": 133427,
+      "sha256": "3b21c625235bc001e5aeefbe97e08263068bb83c89a4c1a3ebfb0a0be1aaf5c6",
+      "partId": "FJ2150_Right_inferior_lateral_genicular_artery",
+      "vertices": 6678,
+      "triangles": 2226,
+      "bounds": [
+        [
+          -115.97599792480469,
+          -101.57499694824219,
+          340.40399169921875
+        ],
+        [
+          -79.42620086669922,
+          -53.79069900512695,
+          382.1199951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2151_BP21264_FMA44887_Right genicular vein.obj",
+      "fj": "FJ2151",
+      "fma": "FMA44887",
+      "name": "Right genicular vein",
+      "bytes": 115185,
+      "sha256": "e25489faa0d92535fd98286b082637b3f81baf0deaf6825c9f9ec607d28c8247",
+      "partId": "FJ2151_Right_genicular_vein",
+      "vertices": 5778,
+      "triangles": 1926,
+      "bounds": [
+        [
+          -117.49800109863281,
+          -110.89199829101562,
+          355.4800109863281
+        ],
+        [
+          -84.24649810791016,
+          -52.969600677490234,
+          369.05999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2152_BP22440_FMA43890_Right inferior medial genicular artery.obj",
+      "fj": "FJ2152",
+      "fma": "FMA43890",
+      "name": "Right inferior medial genicular artery",
+      "bytes": 136749,
+      "sha256": "b770c39468ce78524b3ae53c740b6f6c32c678a9c1d8f3fed47d4eafcd44bedc",
+      "partId": "FJ2152_Right_inferior_medial_genicular_artery",
+      "vertices": 6840,
+      "triangles": 2280,
+      "bounds": [
+        [
+          -81.54940032958984,
+          -106.59600067138672,
+          334.0870056152344
+        ],
+        [
+          -44.66350173950195,
+          -59.28260040283203,
+          352.4289855957031
+        ]
+      ]
+    },
+    {
+      "file": "FJ2153_BP21264_FMA44887_Right genicular vein.obj",
+      "fj": "FJ2153",
+      "fma": "FMA44887",
+      "name": "Right genicular vein",
+      "bytes": 133464,
+      "sha256": "e16a9386788179dc5b5e52d99ada77ad6fa2d6e81f5c126dc8ffd07d93ade440",
+      "partId": "FJ2153_Right_genicular_vein",
+      "vertices": 6690,
+      "triangles": 2230,
+      "bounds": [
+        [
+          -103.2030029296875,
+          -114.82099914550781,
+          320.43701171875
+        ],
+        [
+          -33.862098693847656,
+          -55.622798919677734,
+          354.1650085449219
+        ]
+      ]
+    },
+    {
+      "file": "FJ2158_BP21128_FMA20801_Right lateral circumflex femoral artery.obj",
+      "fj": "FJ2158",
+      "fma": "FMA20801",
+      "name": "Right lateral circumflex femoral artery",
+      "bytes": 66677,
+      "sha256": "208a0bcb2f8cb0fe723de1e26cd7007bc3c85ab0cb2c650470fdc1d9c24037f5",
+      "partId": "FJ2158_Right_lateral_circumflex_femoral_artery",
+      "vertices": 3330,
+      "triangles": 1110,
+      "bounds": [
+        [
+          -120.54299926757812,
+          -124.6240005493164,
+          769.031982421875
+        ],
+        [
+          -76.00990295410156,
+          -61.51250076293945,
+          794.8140258789062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2159_BP23343_FMA69566_Trunk of right lateral plantar artery.obj",
+      "fj": "FJ2159",
+      "fma": "FMA69566",
+      "name": "Trunk of right lateral plantar artery",
+      "bytes": 55359,
+      "sha256": "5aced9a22d2a568e781b4c3e44a29b4f46735d888269ebe99ee2be87f910a74f",
+      "partId": "FJ2159_Trunk_of_right_lateral_plantar_artery",
+      "vertices": 2808,
+      "triangles": 936,
+      "bounds": [
+        [
+          -113.58899688720703,
+          -103.26599884033203,
+          -59.864498138427734
+        ],
+        [
+          -66.86419677734375,
+          -85.58519744873047,
+          -39.34389877319336
+        ]
+      ]
+    },
+    {
+      "file": "FJ2160_BP21639_FMA44499_Tributary of plantar venous arch.obj",
+      "fj": "FJ2160",
+      "fma": "FMA44499",
+      "name": "Tributary of plantar venous arch",
+      "bytes": 55404,
+      "sha256": "8eb97d3df315e1ada5763d4e8701d9203e4fb346f5c4a5a55ae7c043d1621112",
+      "partId": "FJ2160_Tributary_of_plantar_venous_arch",
+      "vertices": 2808,
+      "triangles": 936,
+      "bounds": [
+        [
+          -113.58899688720703,
+          -103.25599670410156,
+          -64.0886001586914
+        ],
+        [
+          -66.86309814453125,
+          -85.58699798583984,
+          -43.56700134277344
+        ]
+      ]
+    },
+    {
+      "file": "FJ2162_BP19748_FMA22588_Right lateral superior genicular artery.obj",
+      "fj": "FJ2162",
+      "fma": "FMA22588",
+      "name": "Right lateral superior genicular artery",
+      "bytes": 130815,
+      "sha256": "a85d134530d8c854f079507ce17a2bdd46deb11994827376a9ee9d2535f198ef",
+      "partId": "FJ2162_Right_lateral_superior_genicular_artery",
+      "vertices": 6576,
+      "triangles": 2192,
+      "bounds": [
+        [
+          -111.90399932861328,
+          -103.4229965209961,
+          389.8479919433594
+        ],
+        [
+          -70.72540283203125,
+          -64.0145034790039,
+          430.4119873046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2163_BP22207_FMA69490_Right lateral tarsal artery.obj",
+      "fj": "FJ2163",
+      "fma": "FMA69490",
+      "name": "Right lateral tarsal artery",
+      "bytes": 101217,
+      "sha256": "6b45978ae4113ccb75b5f3dab6e22070d673c6938214422b2faf7b7a5948773d",
+      "partId": "FJ2163_Right_lateral_tarsal_artery",
+      "vertices": 5100,
+      "triangles": 1700,
+      "bounds": [
+        [
+          -116.6969985961914,
+          -101.41200256347656,
+          -42.77259826660156
+        ],
+        [
+          -71.93370056152344,
+          -92.99539947509766,
+          2.0770299434661865
+        ]
+      ]
+    },
+    {
+      "file": "FJ2164_BP23398_FMA69756_Trunk of right medial plantar artery.obj",
+      "fj": "FJ2164",
+      "fma": "FMA69756",
+      "name": "Trunk of right medial plantar artery",
+      "bytes": 47023,
+      "sha256": "c50730260706149a2ff3727bc5ef6aff20963bb09dedd6134c19393d3ea08fc3",
+      "partId": "FJ2164_Trunk_of_right_medial_plantar_artery",
+      "vertices": 2316,
+      "triangles": 772,
+      "bounds": [
+        [
+          -75.41840362548828,
+          -126.24500274658203,
+          -43.90909957885742
+        ],
+        [
+          -66.81510162353516,
+          -86.37359619140625,
+          -37.047698974609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2165_BP21639_FMA44499_Tributary of plantar venous arch.obj",
+      "fj": "FJ2165",
+      "fma": "FMA44499",
+      "name": "Tributary of plantar venous arch",
+      "bytes": 46684,
+      "sha256": "e02c64908641e4f67b9d1c73b7cf736d171f25b2b254691123b81b03e37cdad1",
+      "partId": "FJ2165_Tributary_of_plantar_venous_arch",
+      "vertices": 2316,
+      "triangles": 772,
+      "bounds": [
+        [
+          -75.42919921875,
+          -126.24299621582031,
+          -48.160499572753906
+        ],
+        [
+          -66.79550170898438,
+          -86.39109802246094,
+          -41.27439880371094
+        ]
+      ]
+    },
+    {
+      "file": "FJ2166_BP20434_FMA22586_Right medial superior genicular artery.obj",
+      "fj": "FJ2166",
+      "fma": "FMA22586",
+      "name": "Right medial superior genicular artery",
+      "bytes": 104269,
+      "sha256": "40c19f62aaa370755a3bc9891bf99c25bf690df84b3940e562bfd9be4f2623cf",
+      "partId": "FJ2166_Right_medial_superior_genicular_artery",
+      "vertices": 5292,
+      "triangles": 1764,
+      "bounds": [
+        [
+          -74.18090057373047,
+          -110.91699981689453,
+          382.4670104980469
+        ],
+        [
+          -32.655799865722656,
+          -63.21620178222656,
+          423.0329895019531
+        ]
+      ]
+    },
+    {
+      "file": "FJ2167_BP20312_FMA22562_Right middle genicular artery.obj",
+      "fj": "FJ2167",
+      "fma": "FMA22562",
+      "name": "Right middle genicular artery",
+      "bytes": 150018,
+      "sha256": "69abf8d9ddb1dce95ba09e24c9134e0d286d2ec61f68bc23596281f72c05debd",
+      "partId": "FJ2167_Right_middle_genicular_artery",
+      "vertices": 7044,
+      "triangles": 2348,
+      "bounds": [
+        [
+          -109.875,
+          -65.32080078125,
+          374.57000732421875
+        ],
+        [
+          -42.679500579833984,
+          -51.52040100097656,
+          401.6929931640625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2170_BP20536_FMA77380_Right popliteal artery.obj",
+      "fj": "FJ2170",
+      "fma": "FMA77380",
+      "name": "Right popliteal artery",
+      "bytes": 1087649,
+      "sha256": "af87bf9096eb32020fab5d4e286d7f9de07f83b362c3770d581902f952dede09",
+      "partId": "FJ2170_Right_popliteal_artery",
+      "vertices": 50334,
+      "triangles": 16778,
+      "bounds": [
+        [
+          -95.841796875,
+          -95.78710174560547,
+          283.2749938964844
+        ],
+        [
+          -55.85639953613281,
+          -52.69540023803711,
+          480.77801513671875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2171_BP21198_FMA44328_Right popliteal vein.obj",
+      "fj": "FJ2171",
+      "fma": "FMA44328",
+      "name": "Right popliteal vein",
+      "bytes": 1089650,
+      "sha256": "d12f25d813fd368b7d4cfda5cfe061869a7b9341d23ff49d6efb73fede83a272",
+      "partId": "FJ2171_Right_popliteal_vein",
+      "vertices": 49980,
+      "triangles": 16660,
+      "bounds": [
+        [
+          -101.76799774169922,
+          -94.26010131835938,
+          319.4859924316406
+        ],
+        [
+          -64.16329956054688,
+          -55.05659866333008,
+          496.14300537109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2172_BP23477_FMA66426_Trunk of right posterior tibial artery.obj",
+      "fj": "FJ2172",
+      "fma": "FMA66426",
+      "name": "Trunk of right posterior tibial artery",
+      "bytes": 852779,
+      "sha256": "5a938542bd83f382642ea8865add7c4b4b345f920ebea3b07ad15b56470cb666",
+      "partId": "FJ2172_Trunk_of_right_posterior_tibial_artery",
+      "vertices": 39390,
+      "triangles": 13130,
+      "bounds": [
+        [
+          -91.13269805908203,
+          -86.77519989013672,
+          -41.331298828125
+        ],
+        [
+          -44.47840118408203,
+          -50.34749984741211,
+          289.7659912109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2173_BP21252_FMA44338_Right posterior tibial vein.obj",
+      "fj": "FJ2173",
+      "fma": "FMA44338",
+      "name": "Right posterior tibial vein",
+      "bytes": 898944,
+      "sha256": "26708f03995dbdd3327523f817004e2c4b314f225ac27be995da622649726c86",
+      "partId": "FJ2173_Right_posterior_tibial_vein",
+      "vertices": 41346,
+      "triangles": 13782,
+      "bounds": [
+        [
+          -102.38400268554688,
+          -87.94219970703125,
+          -45.65409851074219
+        ],
+        [
+          -39.773399353027344,
+          -49.186798095703125,
+          283.85101318359375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2174_BP22625_FMA70922_Set of perforating veins.obj",
+      "fj": "FJ2174",
+      "fma": "FMA70922",
+      "name": "Set of perforating veins",
+      "bytes": 126317,
+      "sha256": "bd56decc69c1d58c1613a8a57bb7c3284fb91748f8a59a76f667457820c91dfb",
+      "partId": "FJ2174_Set_of_perforating_veins",
+      "vertices": 5946,
+      "triangles": 1982,
+      "bounds": [
+        [
+          -132.1179962158203,
+          -174.93099975585938,
+          -56.741600036621094
+        ],
+        [
+          -98.16570281982422,
+          -113.71800231933594,
+          -34.51129913330078
+        ]
+      ]
+    },
+    {
+      "file": "FJ2175_BP21296_FMA70919_Set of plantar digital veins.obj",
+      "fj": "FJ2175",
+      "fma": "FMA70919",
+      "name": "Set of plantar digital veins",
+      "bytes": 491530,
+      "sha256": "4ab6163a861b9f3361017785f2e70dd50dfbfe50ae8545c66cef40f34f5ba13b",
+      "partId": "FJ2175_Set_of_plantar_digital_veins",
+      "vertices": 22260,
+      "triangles": 7420,
+      "bounds": [
+        [
+          -168.5290069580078,
+          -235.2570037841797,
+          -77.22470092773438
+        ],
+        [
+          -68.74590301513672,
+          -101.50599670410156,
+          -46.41170120239258
+        ]
+      ]
+    },
+    {
+      "file": "FJ2176_BP21219_FMA44334_Right small saphenous vein.obj",
+      "fj": "FJ2176",
+      "fma": "FMA44334",
+      "name": "Right small saphenous vein",
+      "bytes": 1061030,
+      "sha256": "156a8d2a52252be376b672e1f4622f2c23005679e02c96be38ed4b039d566b5a",
+      "partId": "FJ2176_Right_small_saphenous_vein",
+      "vertices": 48996,
+      "triangles": 16332,
+      "bounds": [
+        [
+          -112.43399810791016,
+          -86.393798828125,
+          -44.2411994934082
+        ],
+        [
+          -62.31100082397461,
+          -11.070099830627441,
+          410.16900634765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2178_BP21153_FMA44340_Right superficial epigastric vein.obj",
+      "fj": "FJ2178",
+      "fma": "FMA44340",
+      "name": "Right superficial epigastric vein",
+      "bytes": 92764,
+      "sha256": "ab0fe5cff7cd1d7e262f8104078dc997ca3fdaa8643f43f64cb8201bd5a0e1b2",
+      "partId": "FJ2178_Right_superficial_epigastric_vein",
+      "vertices": 4458,
+      "triangles": 1486,
+      "bounds": [
+        [
+          -43.580299377441406,
+          -200.9969940185547,
+          805.2000122070312
+        ],
+        [
+          -14.155799865722656,
+          -132.4969940185547,
+          933.3480224609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2179_BP21206_FMA43937_Right superficial medial plantar artery.obj",
+      "fj": "FJ2179",
+      "fma": "FMA43937",
+      "name": "Right superficial medial plantar artery",
+      "bytes": 53122,
+      "sha256": "971276ee2ae7c497c10fccd50f199074aa9027aecf8dc0dba1c4a51b8067ed8c",
+      "partId": "FJ2179_Right_superficial_medial_plantar_artery",
+      "vertices": 2694,
+      "triangles": 898,
+      "bounds": [
+        [
+          -83.02369689941406,
+          -179.8730010986328,
+          -62.819400787353516
+        ],
+        [
+          -68.74140167236328,
+          -124.48300170898438,
+          -42.158599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2181_BP21264_FMA44887_Right genicular vein.obj",
+      "fj": "FJ2181",
+      "fma": "FMA44887",
+      "name": "Right genicular vein",
+      "bytes": 138702,
+      "sha256": "3f3fa8c1f824205a6711c225e2b01297ce7e99a1bf083ada74b005780656b7f6",
+      "partId": "FJ2181_Right_genicular_vein",
+      "vertices": 6888,
+      "triangles": 2296,
+      "bounds": [
+        [
+          -113.64099884033203,
+          -110.3479995727539,
+          391.31201171875
+        ],
+        [
+          -75.62779998779297,
+          -62.39509963989258,
+          423.1180114746094
+        ]
+      ]
+    },
+    {
+      "file": "FJ2182_BP21264_FMA44887_Right genicular vein.obj",
+      "fj": "FJ2182",
+      "fma": "FMA44887",
+      "name": "Right genicular vein",
+      "bytes": 99799,
+      "sha256": "71455276ab13bfe8bbea0d6ec238d07f0d0c373534950bd4b95d1ea32fdf17f3",
+      "partId": "FJ2182_Right_genicular_vein",
+      "vertices": 4908,
+      "triangles": 1636,
+      "bounds": [
+        [
+          -81.74079895019531,
+          -107.99099731445312,
+          394.7749938964844
+        ],
+        [
+          -35.7317008972168,
+          -70.9188003540039,
+          440.6700134277344
+        ]
+      ]
+    },
+    {
+      "file": "FJ2183_BP21228_FMA44337_Left anterior tibial vein.obj",
+      "fj": "FJ2183",
+      "fma": "FMA44337",
+      "name": "Left anterior tibial vein",
+      "bytes": 821175,
+      "sha256": "ae02eafe1c5e5c2393795cdb6a2ae81fb603f002ef860f355fe8765bb5f59738",
+      "partId": "FJ2183_Left_anterior_tibial_vein",
+      "vertices": 38382,
+      "triangles": 12794,
+      "bounds": [
+        [
+          81.6604995727539,
+          -92.65570068359375,
+          40.3036003112793
+        ],
+        [
+          108.81700134277344,
+          -69.54170227050781,
+          324.0409851074219
+        ]
+      ]
+    },
+    {
+      "file": "FJ2184_BP21229_FMA44886_Left fibular vein.obj",
+      "fj": "FJ2184",
+      "fma": "FMA44886",
+      "name": "Left fibular vein",
+      "bytes": 33381,
+      "sha256": "de4d37e951e30cfbec6d7ae95cf68c6bd1b1572a18542acd199753ceabde8d86",
+      "partId": "FJ2184_Left_fibular_vein",
+      "vertices": 1590,
+      "triangles": 530,
+      "bounds": [
+        [
+          38.9807014465332,
+          -58.86140060424805,
+          -33.86399841308594
+        ],
+        [
+          77.12680053710938,
+          -39.7942008972168,
+          -25.837600708007812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2185_BP22641_FMA70917_Set of dorsal digital veins.obj",
+      "fj": "FJ2185",
+      "fma": "FMA70917",
+      "name": "Set of dorsal digital veins",
+      "bytes": 317473,
+      "sha256": "ffea5755c167c3d618f317f64b37334f628215d305cfb8626ce2757ea31f8423",
+      "partId": "FJ2185_Set_of_dorsal_digital_veins",
+      "vertices": 14160,
+      "triangles": 4720,
+      "bounds": [
+        [
+          86.02290344238281,
+          -238.21600341796875,
+          -70.44740295410156
+        ],
+        [
+          169.96200561523438,
+          -152.16900634765625,
+          -39.04349899291992
+        ]
+      ]
+    },
+    {
+      "file": "FJ2186_BP23862_FMA22954_Dorsal metacarpal vein.obj",
+      "fj": "FJ2186",
+      "fma": "FMA22954",
+      "name": "Dorsal metacarpal vein",
+      "bytes": 269297,
+      "sha256": "35820d3aac192d67694fb63ccba52de0f94bf5be12509a89bb4c38e540268ed6",
+      "partId": "FJ2186_Dorsal_metacarpal_vein",
+      "vertices": 12876,
+      "triangles": 4292,
+      "bounds": [
+        [
+          91.93170166015625,
+          -189.2830047607422,
+          -59.66279983520508
+        ],
+        [
+          153.36399841308594,
+          -122.7229995727539,
+          -21.55150032043457
+        ]
+      ]
+    },
+    {
+      "file": "FJ2187_BP21229_FMA44886_Left fibular vein.obj",
+      "fj": "FJ2187",
+      "fma": "FMA44886",
+      "name": "Left fibular vein",
+      "bytes": 688253,
+      "sha256": "8fb5f7d7e3a743c857a3980eda680510691472b381eb9fdbdece2b19344d8b6a",
+      "partId": "FJ2187_Left_fibular_vein",
+      "vertices": 31854,
+      "triangles": 10618,
+      "bounds": [
+        [
+          63.831199645996094,
+          -70.30400085449219,
+          -45.866600036621094
+        ],
+        [
+          93.3843994140625,
+          -41.039100646972656,
+          265.69500732421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2188_BP21127_FMA44922_Left lateral circumflex femoral vein.obj",
+      "fj": "FJ2188",
+      "fma": "FMA44922",
+      "name": "Left lateral circumflex femoral vein",
+      "bytes": 181662,
+      "sha256": "c2ce9ee11d31394c464efc164d20e456adb00667d6b1ebe4f8ac1681e2ef485a",
+      "partId": "FJ2188_Left_lateral_circumflex_femoral_vein",
+      "vertices": 8874,
+      "triangles": 2958,
+      "bounds": [
+        [
+          50.45000076293945,
+          -128.08999633789062,
+          760.572998046875
+        ],
+        [
+          146.25399780273438,
+          -53.692901611328125,
+          811.5989990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2189_BP21120_FMA44919_Left medial circumflex femoral vein.obj",
+      "fj": "FJ2189",
+      "fma": "FMA44919",
+      "name": "Left medial circumflex femoral vein",
+      "bytes": 65595,
+      "sha256": "eb10a5eb2428c35d60337e21075a530499be3a62b8afef5097bd5d9299ecb4fd",
+      "partId": "FJ2189_Left_medial_circumflex_femoral_vein",
+      "vertices": 3300,
+      "triangles": 1100,
+      "bounds": [
+        [
+          59.287601470947266,
+          -125.0260009765625,
+          763.8499755859375
+        ],
+        [
+          103.82099914550781,
+          -61.94860076904297,
+          789.6190185546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2190_BP21243_FMA44885_Right fibular vein.obj",
+      "fj": "FJ2190",
+      "fma": "FMA44885",
+      "name": "Right fibular vein",
+      "bytes": 72985,
+      "sha256": "34ac9ba0da099422ffc2866dc5fc139665e10d8b0d0f9bcb77bbf8f25efb954b",
+      "partId": "FJ2190_Right_fibular_vein",
+      "vertices": 3714,
+      "triangles": 1238,
+      "bounds": [
+        [
+          63.89550018310547,
+          -131.36000061035156,
+          539.7069702148438
+        ],
+        [
+          90.89649963378906,
+          -109.76399993896484,
+          717.5120239257812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2191_BP22530_FMA44504_Plantar metatarsal vein.obj",
+      "fj": "FJ2191",
+      "fma": "FMA44504",
+      "name": "Plantar metatarsal vein",
+      "bytes": 236465,
+      "sha256": "6b884076c4272809ff99e98b5d7df64e81cfc26233c3f31eb2f6aa2cc5ed5edf",
+      "partId": "FJ2191_Plantar_metatarsal_vein",
+      "vertices": 11118,
+      "triangles": 3706,
+      "bounds": [
+        [
+          97.97540283203125,
+          -185.80299377441406,
+          -72.57949829101562
+        ],
+        [
+          142.44400024414062,
+          -111.52400207519531,
+          -40.937198638916016
+        ]
+      ]
+    },
+    {
+      "file": "FJ2192_BP22625_FMA70922_Set of perforating veins.obj",
+      "fj": "FJ2192",
+      "fma": "FMA70922",
+      "name": "Set of perforating veins",
+      "bytes": 74190,
+      "sha256": "833fa3758df167a34d8711c55684d62f0fd03e6f785ef1636bcadd6cde450c63",
+      "partId": "FJ2192_Set_of_perforating_veins",
+      "vertices": 3726,
+      "triangles": 1242,
+      "bounds": [
+        [
+          -90.89630126953125,
+          -131.36599731445312,
+          539.6900024414062
+        ],
+        [
+          -63.89720153808594,
+          -109.80799865722656,
+          717.52001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2193_BP21257_FMA44336_Right anterior tibial vein.obj",
+      "fj": "FJ2193",
+      "fma": "FMA44336",
+      "name": "Right anterior tibial vein",
+      "bytes": 825172,
+      "sha256": "3a72e50cb95a9532e3053d1ff2906d14636df0137177fe8e20aca9245b846f00",
+      "partId": "FJ2193_Right_anterior_tibial_vein",
+      "vertices": 38268,
+      "triangles": 12756,
+      "bounds": [
+        [
+          -108.81500244140625,
+          -92.65789794921875,
+          40.3046989440918
+        ],
+        [
+          -81.66280364990234,
+          -69.54290008544922,
+          324.0409851074219
+        ]
+      ]
+    },
+    {
+      "file": "FJ2194_BP21243_FMA44885_Right fibular vein.obj",
+      "fj": "FJ2194",
+      "fma": "FMA44885",
+      "name": "Right fibular vein",
+      "bytes": 35682,
+      "sha256": "d452c6bbd0b6743b7d8b2abafc5893c8808c2cac78698524766fe10185bb50c8",
+      "partId": "FJ2194_Right_fibular_vein",
+      "vertices": 1722,
+      "triangles": 574,
+      "bounds": [
+        [
+          -77.11070251464844,
+          -58.870601654052734,
+          -33.86399841308594
+        ],
+        [
+          -38.93050003051758,
+          -39.78239822387695,
+          -25.825899124145508
+        ]
+      ]
+    },
+    {
+      "file": "FJ2195_BP21128_FMA20801_Right lateral circumflex femoral artery.obj",
+      "fj": "FJ2195",
+      "fma": "FMA20801",
+      "name": "Right lateral circumflex femoral artery",
+      "bytes": 153459,
+      "sha256": "325efcbc404e09d274409fb1ad13fcb65028c2ddc62c36a0c142b91b0993f9f8",
+      "partId": "FJ2195_Right_lateral_circumflex_femoral_artery",
+      "vertices": 7518,
+      "triangles": 2506,
+      "bounds": [
+        [
+          -146.94000244140625,
+          -122.34200286865234,
+          762.0800170898438
+        ],
+        [
+          -75.24019622802734,
+          -51.07929992675781,
+          836.218994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2196_BP23224_FMA70821_Set of common plantar digital arteries.obj",
+      "fj": "FJ2196",
+      "fma": "FMA70821",
+      "name": "Set of common plantar digital arteries",
+      "bytes": 69398,
+      "sha256": "72dc796a889fc1fba0316e00e7a40d5635e425731dce6f72ae36b53103209544",
+      "partId": "FJ2196_Set_of_common_plantar_digital_arteries",
+      "vertices": 3156,
+      "triangles": 1052,
+      "bounds": [
+        [
+          -142.51300048828125,
+          -185.81100463867188,
+          -68.34439849853516
+        ],
+        [
+          -102.59100341796875,
+          -147.8300018310547,
+          -55.551700592041016
+        ]
+      ]
+    },
+    {
+      "file": "FJ2197_BP29774_FMA43922_Right peroneal artery.obj",
+      "fj": "FJ2197",
+      "fma": "FMA43922",
+      "name": "Right peroneal artery",
+      "bytes": 782676,
+      "sha256": "b01f65b60ca9f752d5718dbca11c8e744a115e1d5b97faff418831269d39acee",
+      "partId": "FJ2197_Right_peroneal_artery",
+      "vertices": 36264,
+      "triangles": 12088,
+      "bounds": [
+        [
+          -101.22899627685547,
+          -64.64569854736328,
+          -38.60319900512695
+        ],
+        [
+          -68.40640258789062,
+          -44.02429962158203,
+          289.7659912109375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2198_BP22641_FMA70917_Set of dorsal digital veins.obj",
+      "fj": "FJ2198",
+      "fma": "FMA70917",
+      "name": "Set of dorsal digital veins",
+      "bytes": 320738,
+      "sha256": "1a596817008ab2c678bd2d4781c8fa363c9a5dd381263ddad9c5ae80c65cf1ee",
+      "partId": "FJ2198_Set_of_dorsal_digital_veins",
+      "vertices": 14154,
+      "triangles": 4718,
+      "bounds": [
+        [
+          -169.97300720214844,
+          -238.21800231933594,
+          -70.46600341796875
+        ],
+        [
+          -86.02940368652344,
+          -152.17799377441406,
+          -39.06529998779297
+        ]
+      ]
+    },
+    {
+      "file": "FJ2199_BP23862_FMA22954_Dorsal metacarpal vein.obj",
+      "fj": "FJ2199",
+      "fma": "FMA22954",
+      "name": "Dorsal metacarpal vein",
+      "bytes": 271184,
+      "sha256": "40f7a230d184d54d7d6cdcce2f7902e2fbc304f18b00511aa621fe7de0cc08f2",
+      "partId": "FJ2199_Dorsal_metacarpal_vein",
+      "vertices": 12870,
+      "triangles": 4290,
+      "bounds": [
+        [
+          -153.3679962158203,
+          -189.28399658203125,
+          -59.66419982910156
+        ],
+        [
+          -91.9352035522461,
+          -122.72699737548828,
+          -21.552200317382812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2200_BP21243_FMA44885_Right fibular vein.obj",
+      "fj": "FJ2200",
+      "fma": "FMA44885",
+      "name": "Right fibular vein",
+      "bytes": 689801,
+      "sha256": "f81c5e85e3356189ee8e3bf97979ed4cc98e26f8dde5a8aac0f9d7eb598170de",
+      "partId": "FJ2200_Right_fibular_vein",
+      "vertices": 31692,
+      "triangles": 10564,
+      "bounds": [
+        [
+          -93.38529968261719,
+          -70.32170104980469,
+          -45.865699768066406
+        ],
+        [
+          -63.82609939575195,
+          -41.038299560546875,
+          265.72601318359375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2201_BP22938_FMA44920_Right lateral circumflex femoral vein.obj",
+      "fj": "FJ2201",
+      "fma": "FMA44920",
+      "name": "Right lateral circumflex femoral vein",
+      "bytes": 182788,
+      "sha256": "0402874468d5da731db88c7959799bd9b73536fd92665b322c5347e68b22cc47",
+      "partId": "FJ2201_Right_lateral_circumflex_femoral_vein",
+      "vertices": 8880,
+      "triangles": 2960,
+      "bounds": [
+        [
+          -146.26400756835938,
+          -128.06399536132812,
+          760.5900268554688
+        ],
+        [
+          -50.46030044555664,
+          -53.69559860229492,
+          811.594970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2202_BP21148_FMA44918_Right medial circumflex femoral vein.obj",
+      "fj": "FJ2202",
+      "fma": "FMA44918",
+      "name": "Right medial circumflex femoral vein",
+      "bytes": 66863,
+      "sha256": "704583472823bb32c79acb026579f355c013d6700f49bbd589293271e1b74dea",
+      "partId": "FJ2202_Right_medial_circumflex_femoral_vein",
+      "vertices": 3330,
+      "triangles": 1110,
+      "bounds": [
+        [
+          -103.84300231933594,
+          -125.03900146484375,
+          763.8519897460938
+        ],
+        [
+          -59.28310012817383,
+          -61.939998626708984,
+          789.635009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2203_BP29028_FMA20796_Right deep femoral artery.obj",
+      "fj": "FJ2203",
+      "fma": "FMA20796",
+      "name": "Right deep femoral artery",
+      "bytes": 389850,
+      "sha256": "ed385313f3b3a473f74a700695a43eeb7b4726f4e08412f4ddf6fae7edcbc25b",
+      "partId": "FJ2203_Right_deep_femoral_artery",
+      "vertices": 18396,
+      "triangles": 6132,
+      "bounds": [
+        [
+          -84.96379852294922,
+          -137.427001953125,
+          512.14599609375
+        ],
+        [
+          -46.91889953613281,
+          -88.73600006103516,
+          822.0269775390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2204_BP22636_FMA71564_Set of plantar digital arteries proper.obj",
+      "fj": "FJ2204",
+      "fma": "FMA71564",
+      "name": "Set of plantar digital arteries proper",
+      "bytes": 70180,
+      "sha256": "f589a74adad3e0b08f79f30b4585f9ef375ce5fc81ec08c3808d09fc359aa1dc",
+      "partId": "FJ2204_Set_of_plantar_digital_arteries_proper",
+      "vertices": 3006,
+      "triangles": 1002,
+      "bounds": [
+        [
+          -127.56900024414062,
+          -164.71200561523438,
+          -52.75040054321289
+        ],
+        [
+          -96.07260131835938,
+          -117.79399871826172,
+          -38.921199798583984
+        ]
+      ]
+    },
+    {
+      "file": "FJ2205_BP22636_FMA71564_Set of plantar digital arteries proper.obj",
+      "fj": "FJ2205",
+      "fma": "FMA71564",
+      "name": "Set of plantar digital arteries proper",
+      "bytes": 433553,
+      "sha256": "059f77b9550a91042c1fd33b0f208d645700e80db6b58a4ee9b7f12275b50f2f",
+      "partId": "FJ2205_Set_of_plantar_digital_arteries_proper",
+      "vertices": 19638,
+      "triangles": 6546,
+      "bounds": [
+        [
+          -168.5229949951172,
+          -235.26699829101562,
+          -73.00070190429688
+        ],
+        [
+          -81.41300201416016,
+          -101.50900268554688,
+          -58.09389877319336
+        ]
+      ]
+    },
+    {
+      "file": "FJ2206_BP23345_FMA69715_Trunk of plantar metatarsal artery.obj",
+      "fj": "FJ2206",
+      "fma": "FMA69715",
+      "name": "Trunk of plantar metatarsal artery",
+      "bytes": 163022,
+      "sha256": "21b6ff2218a099587b5ef6d08fa22f5e27ad5d1ef6aa2f4be8d9f59c24628912",
+      "partId": "FJ2206_Trunk_of_plantar_metatarsal_artery",
+      "vertices": 7932,
+      "triangles": 2644,
+      "bounds": [
+        [
+          -132.6649932861328,
+          -169.9949951171875,
+          -64.41010284423828
+        ],
+        [
+          -97.96900177001953,
+          -111.51399993896484,
+          -36.71860122680664
+        ]
+      ]
+    },
+    {
+      "file": "FJ2207_BP22530_FMA44504_Plantar metatarsal vein.obj",
+      "fj": "FJ2207",
+      "fma": "FMA44504",
+      "name": "Plantar metatarsal vein",
+      "bytes": 232793,
+      "sha256": "233850c81e91e0d830b796a7f07af22246d71a89c95c4fbda253337660c95104",
+      "partId": "FJ2207_Plantar_metatarsal_vein",
+      "vertices": 10824,
+      "triangles": 3608,
+      "bounds": [
+        [
+          -142.53700256347656,
+          -185.8179931640625,
+          -72.5625991821289
+        ],
+        [
+          -97.98079681396484,
+          -111.51100158691406,
+          -40.94329833984375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2208_BP21193_FMA21384_Superficial dorsal vein of penis.obj",
+      "fj": "FJ2208",
+      "fma": "FMA21384",
+      "name": "Superficial dorsal vein of penis",
+      "bytes": 87861,
+      "sha256": "1c77fab4f49bd9f2edd09d5a7f7337b4b6845246c2acd98ad0e49254177ee205",
+      "partId": "FJ2208_Superficial_dorsal_vein_of_penis",
+      "vertices": 4440,
+      "triangles": 1480,
+      "bounds": [
+        [
+          -0.9887049794197083,
+          -186.73500061035156,
+          714.302001953125
+        ],
+        [
+          0.974793016910553,
+          -143.5850067138672,
+          793.3280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2209_BP22474_FMA10697_Right inferior thyroid artery.obj",
+      "fj": "FJ2209",
+      "fma": "FMA10697",
+      "name": "Right inferior thyroid artery",
+      "bytes": 31978,
+      "sha256": "e725a12ac6a4ddc0acab89940e4eb1e376814bd42a75628655965affea13790b",
+      "partId": "FJ2209_Right_inferior_thyroid_artery",
+      "vertices": 1446,
+      "triangles": 482,
+      "bounds": [
+        [
+          -43.41120147705078,
+          -105.82599639892578,
+          1357.5
+        ],
+        [
+          -28.728700637817383,
+          -97.68589782714844,
+          1390.8800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2210_BP20824_FMA10680_Left inferior thyroid artery.obj",
+      "fj": "FJ2210",
+      "fma": "FMA10680",
+      "name": "Left inferior thyroid artery",
+      "bytes": 31180,
+      "sha256": "a3c7a4f6a9b705e1c870b32b8871dd1a0b676587103d3e8b7282c854d47b9c8d",
+      "partId": "FJ2210_Left_inferior_thyroid_artery",
+      "vertices": 1440,
+      "triangles": 480,
+      "bounds": [
+        [
+          28.752700805664062,
+          -105.81600189208984,
+          1357.510009765625
+        ],
+        [
+          43.41109848022461,
+          -97.67140197753906,
+          1390.8800048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2211_BP22078_FMA23069_Acromial branch of left thoraco-acromial artery.obj",
+      "fj": "FJ2211",
+      "fma": "FMA23069",
+      "name": "Acromial branch of left thoraco-acromial artery",
+      "bytes": 56860,
+      "sha256": "7a0ce45553b48ae2a69544946923f6b17635714908b32f1e9ec127b21c1eb1fc",
+      "partId": "FJ2211_Acromial_branch_of_left_thoraco-acromial_artery",
+      "vertices": 2922,
+      "triangles": 974,
+      "bounds": [
+        [
+          94.14849853515625,
+          -103.55899810791016,
+          1317.489990234375
+        ],
+        [
+          138.2530059814453,
+          -96.37850189208984,
+          1334.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2212_BP23968_FMA22683_Left anterior circumflex humeral artery.obj",
+      "fj": "FJ2212",
+      "fma": "FMA22683",
+      "name": "Left anterior circumflex humeral artery",
+      "bytes": 202025,
+      "sha256": "a2ac1e608b0c8143ecd8d10527ce8dbcfd3731a0adf7f1e1f0ed93efd12555f4",
+      "partId": "FJ2212_Left_anterior_circumflex_humeral_artery",
+      "vertices": 9816,
+      "triangles": 3272,
+      "bounds": [
+        [
+          143.25900268554688,
+          -106.46399688720703,
+          1265.550048828125
+        ],
+        [
+          191.2310028076172,
+          -70.99949645996094,
+          1332.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2213_BP21245_FMA77955_Left anterior circumflex humeral vein.obj",
+      "fj": "FJ2213",
+      "fma": "FMA77955",
+      "name": "Left anterior circumflex humeral vein",
+      "bytes": 186863,
+      "sha256": "37f8b3d089ee7bce3c98dafd41bede82f848c107095dbad1f6488eb9a3dfe010",
+      "partId": "FJ2213_Left_anterior_circumflex_humeral_vein",
+      "vertices": 9120,
+      "triangles": 3040,
+      "bounds": [
+        [
+          145.79800415039062,
+          -105.63200378417969,
+          1267.4100341796875
+        ],
+        [
+          192.9720001220703,
+          -75.57530212402344,
+          1330.81005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2214_BP23983_FMA22813_Left anterior interosseous artery.obj",
+      "fj": "FJ2214",
+      "fma": "FMA22813",
+      "name": "Left anterior interosseous artery",
+      "bytes": 115663,
+      "sha256": "62e064710c17074086c6af1a4c95abda1954c6a994bfb435a0facb889a4371f1",
+      "partId": "FJ2214_Left_anterior_interosseous_artery",
+      "vertices": 5898,
+      "triangles": 1966,
+      "bounds": [
+        [
+          220.3509979248047,
+          -108.63600158691406,
+          850.6320190429688
+        ],
+        [
+          244.1439971923828,
+          -74.15640258789062,
+          994.010009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2215_BP21941_FMA22713_Left inferior ulnar collateral artery.obj",
+      "fj": "FJ2215",
+      "fma": "FMA22713",
+      "name": "Left inferior ulnar collateral artery",
+      "bytes": 68786,
+      "sha256": "8cf65a86af627546e950821fe0305dce14e0e9f0dc9aee6224d11308ac71cfbb",
+      "partId": "FJ2215_Left_inferior_ulnar_collateral_artery",
+      "vertices": 3528,
+      "triangles": 1176,
+      "bounds": [
+        [
+          186.02000427246094,
+          -87.40679931640625,
+          1020.1500244140625
+        ],
+        [
+          195.53900146484375,
+          -69.60389709472656,
+          1088.6400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2216_BP22518_FMA22656_Left axillary artery.obj",
+      "fj": "FJ2216",
+      "fma": "FMA22656",
+      "name": "Left axillary artery",
+      "bytes": 105519,
+      "sha256": "0c7899cd1aadc005dba7432fd3a09197236505519e99882635ebedd04b1c8c6b",
+      "partId": "FJ2216_Left_axillary_artery",
+      "vertices": 5400,
+      "triangles": 1800,
+      "bounds": [
+        [
+          76.93470001220703,
+          -106.41500091552734,
+          1258.1300048828125
+        ],
+        [
+          151.45700073242188,
+          -80.0780029296875,
+          1339.8399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2217_BP21099_FMA13331_Left axillary vein.obj",
+      "fj": "FJ2217",
+      "fma": "FMA13331",
+      "name": "Left axillary vein",
+      "bytes": 126472,
+      "sha256": "56ca24aa806620872a0660710ccd2704ceb6eb4fb7499c74f1f46d790c2360eb",
+      "partId": "FJ2217_Left_axillary_vein",
+      "vertices": 6330,
+      "triangles": 2110,
+      "bounds": [
+        [
+          74.92620086669922,
+          -115.16600036621094,
+          1232.8399658203125
+        ],
+        [
+          157.14100646972656,
+          -91.4032974243164,
+          1335.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2218_BP21683_FMA22910_Left basilic vein.obj",
+      "fj": "FJ2218",
+      "fma": "FMA22910",
+      "name": "Left basilic vein",
+      "bytes": 1181387,
+      "sha256": "8a996050d59000854aa4877c9be21cd2a8c97fab4f6bca56156dfb9bd2253277",
+      "partId": "FJ2218_Left_basilic_vein",
+      "vertices": 55014,
+      "triangles": 18338,
+      "bounds": [
+        [
+          151.00399780273438,
+          -114.81099700927734,
+          788.8330078125
+        ],
+        [
+          235.48199462890625,
+          -62.831199645996094,
+          1237.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2219_BP22410_FMA22692_Left brachial artery.obj",
+      "fj": "FJ2219",
+      "fma": "FMA22692",
+      "name": "Left brachial artery",
+      "bytes": 213003,
+      "sha256": "abfcf16be0c40edab3f9865444ceca142d6a39c91f2bce23ea5f9583419c4986",
+      "partId": "FJ2219_Left_brachial_artery",
+      "vertices": 10410,
+      "triangles": 3470,
+      "bounds": [
+        [
+          143.04299926757812,
+          -88.9677963256836,
+          1020.5999755859375
+        ],
+        [
+          217.4510040283203,
+          -72.34750366210938,
+          1274.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2220_BP22733_FMA13326_Left cephalic vein.obj",
+      "fj": "FJ2220",
+      "fma": "FMA13326",
+      "name": "Left cephalic vein",
+      "bytes": 1497564,
+      "sha256": "e5ad57e024d1dd922ebf7d22971b1d6f765fe674e50118cd3bddac118698dfcf",
+      "partId": "FJ2220_Left_cephalic_vein",
+      "vertices": 68622,
+      "triangles": 22874,
+      "bounds": [
+        [
+          106.83100128173828,
+          -131.72900390625,
+          774.468994140625
+        ],
+        [
+          279.0350036621094,
+          -77.65599822998047,
+          1326.8199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2221_BP23895_FMA23181_Left circumflex scapular artery.obj",
+      "fj": "FJ2221",
+      "fma": "FMA23181",
+      "name": "Left circumflex scapular artery",
+      "bytes": 44524,
+      "sha256": "072459e34dc4bdbc3a8e21923adbde80c70f281942e2e6546a75bacc9b5df22d",
+      "partId": "FJ2221_Left_circumflex_scapular_artery",
+      "vertices": 2286,
+      "triangles": 762,
+      "bounds": [
+        [
+          134.15699768066406,
+          -86.71289825439453,
+          1280.550048828125
+        ],
+        [
+          144.2310028076172,
+          -51.11309814453125,
+          1293.9200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2222_BP21266_FMA77950_Left circumflex scapular vein.obj",
+      "fj": "FJ2222",
+      "fma": "FMA77950",
+      "name": "Left circumflex scapular vein",
+      "bytes": 56130,
+      "sha256": "663d59ec5a117fac1bed26b1784eef2d0ac9e2c58a1d535e7d5e5f3f3c4f8190",
+      "partId": "FJ2222_Left_circumflex_scapular_vein",
+      "vertices": 2850,
+      "triangles": 950,
+      "bounds": [
+        [
+          127.83899688720703,
+          -103.0719985961914,
+          1282.7900390625
+        ],
+        [
+          151.81700134277344,
+          -52.20429992675781,
+          1295.4000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2223_BP23902_FMA76470_Trunk of left common interosseous artery.obj",
+      "fj": "FJ2223",
+      "fma": "FMA76470",
+      "name": "Trunk of left common interosseous artery",
+      "bytes": 24949,
+      "sha256": "07c226235356ae34a0699bcd37e0051c4418cd1b0408013dda66dcdd65ff394a",
+      "partId": "FJ2223_Trunk_of_left_common_interosseous_artery",
+      "vertices": 1308,
+      "triangles": 436,
+      "bounds": [
+        [
+          211.70700073242188,
+          -80.13829803466797,
+          991.6129760742188
+        ],
+        [
+          222.7429962158203,
+          -71.11910247802734,
+          999.6929931640625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2225_BP21677_FMA22697_Left deep brachial artery.obj",
+      "fj": "FJ2225",
+      "fma": "FMA22697",
+      "name": "Left deep brachial artery",
+      "bytes": 150223,
+      "sha256": "365c3818e55ede5fe3eabb25580f2c6c48faa20bcbf5622e065d8d55587be07e",
+      "partId": "FJ2225_Left_deep_brachial_artery",
+      "vertices": 7518,
+      "triangles": 2506,
+      "bounds": [
+        [
+          174.35400390625,
+          -76.66329956054688,
+          1114.97998046875
+        ],
+        [
+          206.03700256347656,
+          -52.1077995300293,
+          1184.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2226_BP21009_FMA4134_Left deep cervical artery.obj",
+      "fj": "FJ2226",
+      "fma": "FMA4134",
+      "name": "Left deep cervical artery",
+      "bytes": 66239,
+      "sha256": "c970f2b9bbecaffd6596dcfe064ba57f6b5d42b0c3f45dd2dc633121b310c69f",
+      "partId": "FJ2226_Left_deep_cervical_artery",
+      "vertices": 3300,
+      "triangles": 1100,
+      "bounds": [
+        [
+          32.460601806640625,
+          -93.23829650878906,
+          1354.2900390625
+        ],
+        [
+          48.780601501464844,
+          -49.59090042114258,
+          1425.280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2228_BP21509_FMA62507_Dorsal venous network of left hand.obj",
+      "fj": "FJ2228",
+      "fma": "FMA62507",
+      "name": "Dorsal venous network of left hand",
+      "bytes": 267649,
+      "sha256": "5196b632ff413cf0ac7e96c9f67466e2a1d98b646381e8d6a30338846dac23be",
+      "partId": "FJ2228_Dorsal_venous_network_of_left_hand",
+      "vertices": 12912,
+      "triangles": 4304,
+      "bounds": [
+        [
+          229.85400390625,
+          -132.72799682617188,
+          721.6909790039062
+        ],
+        [
+          289.9129943847656,
+          -112.12200164794922,
+          791.5120239257812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2229_BP23627_FMA22913_Left deep palmar venous arch.obj",
+      "fj": "FJ2229",
+      "fma": "FMA22913",
+      "name": "Left deep palmar venous arch",
+      "bytes": 114982,
+      "sha256": "7e8dbabc6c7119ae9b5c5450f5bec5f3add0ed276587f15885b8ea168a565cbf",
+      "partId": "FJ2229_Left_deep_palmar_venous_arch",
+      "vertices": 5820,
+      "triangles": 1940,
+      "bounds": [
+        [
+          235.86900329589844,
+          -138.85299682617188,
+          770.8900146484375
+        ],
+        [
+          284.82000732421875,
+          -120.90499877929688,
+          819.2680053710938
+        ]
+      ]
+    },
+    {
+      "file": "FJ2230_BP22038_FMA23073_Deltoid branch of left thoraco-acromial artery.obj",
+      "fj": "FJ2230",
+      "fma": "FMA23073",
+      "name": "Deltoid branch of left thoraco-acromial artery",
+      "bytes": 45877,
+      "sha256": "bb2683177afe72e7d1f24104d1e622d2be911377c02ebb6e7cd4c907fe77c35f",
+      "partId": "FJ2230_Deltoid_branch_of_left_thoraco-acromial_artery",
+      "vertices": 2364,
+      "triangles": 788,
+      "bounds": [
+        [
+          111.9219970703125,
+          -103.88400268554688,
+          1310.81005859375
+        ],
+        [
+          161.822998046875,
+          -97.79029846191406,
+          1321.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2231_BP21960_FMA22773_Dorsal carpal branch of left radial artery.obj",
+      "fj": "FJ2231",
+      "fma": "FMA22773",
+      "name": "Dorsal carpal branch of left radial artery",
+      "bytes": 18533,
+      "sha256": "510addfd3d5bdafbfec5e40478906462f5f96dafd62e47088530baa87d26f430",
+      "partId": "FJ2231_Dorsal_carpal_branch_of_left_radial_artery",
+      "vertices": 960,
+      "triangles": 320,
+      "bounds": [
+        [
+          259.35699462890625,
+          -119.66699981689453,
+          785.1640014648438
+        ],
+        [
+          279.031005859375,
+          -110.33300018310547,
+          792.5919799804688
+        ]
+      ]
+    },
+    {
+      "file": "FJ2232_BP22079_FMA10552_Left dorsal scapular artery.obj",
+      "fj": "FJ2232",
+      "fma": "FMA10552",
+      "name": "Left dorsal scapular artery",
+      "bytes": 286141,
+      "sha256": "b3cd12642eb930f1c245039a9b76b18bbb74b5ee4c1ba2f3b109ef6c4b28bd31",
+      "partId": "FJ2232_Left_dorsal_scapular_artery",
+      "vertices": 13596,
+      "triangles": 4532,
+      "bounds": [
+        [
+          55.47209930419922,
+          -97.89209747314453,
+          1183.18994140625
+        ],
+        [
+          106.65899658203125,
+          3.2253201007843018,
+          1361.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2233_BP21262_FMA71212_Left lateral thoracic vein.obj",
+      "fj": "FJ2233",
+      "fma": "FMA71212",
+      "name": "Left lateral thoracic vein",
+      "bytes": 224377,
+      "sha256": "274b60da927f32efcc9e8bb470721606fd47ac589c7951175293a3119d4a55f7",
+      "partId": "FJ2233_Left_lateral_thoracic_vein",
+      "vertices": 10920,
+      "triangles": 3640,
+      "bounds": [
+        [
+          124.12300109863281,
+          -150.3520050048828,
+          1097.3900146484375
+        ],
+        [
+          135.83200073242188,
+          -107.87699890136719,
+          1314.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2234_BP21271_FMA22969_Left median antebrachial vein.obj",
+      "fj": "FJ2234",
+      "fma": "FMA22969",
+      "name": "Left median antebrachial vein",
+      "bytes": 334545,
+      "sha256": "31bcc776113271735fc813c6496c1476d05fdee13a9052e0c4afe5e3cf0cdd83",
+      "partId": "FJ2234_Left_median_antebrachial_vein",
+      "vertices": 15942,
+      "triangles": 5314,
+      "bounds": [
+        [
+          176.28500366210938,
+          -134.53399658203125,
+          814.7210083007812
+        ],
+        [
+          262.4570007324219,
+          -72.86139678955078,
+          1013.6500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2235_BP22734_FMA22965_Left median cubital vein.obj",
+      "fj": "FJ2235",
+      "fma": "FMA22965",
+      "name": "Left median cubital vein",
+      "bytes": 150023,
+      "sha256": "e65e13c2d46ff9a81b641a3b71515f7d7822acf25079be9be7b917455c4e7bea",
+      "partId": "FJ2235_Left_median_cubital_vein",
+      "vertices": 7506,
+      "triangles": 2502,
+      "bounds": [
+        [
+          183.5050048828125,
+          -101.34600067138672,
+          1024.469970703125
+        ],
+        [
+          233.9290008544922,
+          -66.78710174560547,
+          1063.949951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2236_BP21023_FMA22822_Left dorsal carpal branch of ulnar artery.obj",
+      "fj": "FJ2236",
+      "fma": "FMA22822",
+      "name": "Left dorsal carpal branch of ulnar artery",
+      "bytes": 42810,
+      "sha256": "6dea04192955be01df88f1ba91d7b61a1b8578a8cc27255b67dc50b5bbb5690e",
+      "partId": "FJ2236_Left_dorsal_carpal_branch_of_ulnar_artery",
+      "vertices": 2172,
+      "triangles": 724,
+      "bounds": [
+        [
+          230.21800231933594,
+          -130.88999938964844,
+          783.2479858398438
+        ],
+        [
+          260.7149963378906,
+          -110.24700164794922,
+          806.52099609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2237_BP20810_FMA22865_Left palmar metacarpal artery.obj",
+      "fj": "FJ2237",
+      "fma": "FMA22865",
+      "name": "Left palmar metacarpal artery",
+      "bytes": 110956,
+      "sha256": "29b8094ae0dd640317428c1f20b0aa0ee1810e3f2d233da5967029a8d1240fba",
+      "partId": "FJ2237_Left_palmar_metacarpal_artery",
+      "vertices": 5478,
+      "triangles": 1826,
+      "bounds": [
+        [
+          240.45899963378906,
+          -141.46099853515625,
+          743.5900268554688
+        ],
+        [
+          282.87298583984375,
+          -119.28299713134766,
+          781.4669799804688
+        ]
+      ]
+    },
+    {
+      "file": "FJ2238_BP21649_FMA22921_Left palmar metacarpal vein.obj",
+      "fj": "FJ2238",
+      "fma": "FMA22921",
+      "name": "Left palmar metacarpal vein",
+      "bytes": 35771,
+      "sha256": "43b41353f7d5d141bef914e0210cf5350d301e0cf69254f72b8dc00fb54e2479",
+      "partId": "FJ2238_Left_palmar_metacarpal_vein",
+      "vertices": 1788,
+      "triangles": 596,
+      "bounds": [
+        [
+          276.1629943847656,
+          -138.6959991455078,
+          741.0009765625
+        ],
+        [
+          286.90399169921875,
+          -128.63299560546875,
+          778.14501953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2239_BP23894_FMA22687_Left posterior circumflex humeral artery.obj",
+      "fj": "FJ2239",
+      "fma": "FMA22687",
+      "name": "Left posterior circumflex humeral artery",
+      "bytes": 56734,
+      "sha256": "765824b9f7562c36f954edf1dfbefdd79b27191e1e17d5158f724dc3d70c1c0c",
+      "partId": "FJ2239_Left_posterior_circumflex_humeral_artery",
+      "vertices": 2922,
+      "triangles": 974,
+      "bounds": [
+        [
+          140.13600158691406,
+          -87.93440246582031,
+          1287.2099609375
+        ],
+        [
+          191.26199340820312,
+          -63.294700622558594,
+          1297.1099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2240_BP23894_FMA22687_Left posterior circumflex humeral artery.obj",
+      "fj": "FJ2240",
+      "fma": "FMA22687",
+      "name": "Left posterior circumflex humeral artery",
+      "bytes": 41041,
+      "sha256": "47f57dfad892dfb09892b678dace112a7820b642f35b2fe36ee1cf7ef11d076d",
+      "partId": "FJ2240_Left_posterior_circumflex_humeral_artery",
+      "vertices": 2064,
+      "triangles": 688,
+      "bounds": [
+        [
+          142.19000244140625,
+          -98.17900085449219,
+          1285.9000244140625
+        ],
+        [
+          192.8990020751953,
+          -62.425899505615234,
+          1298.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2241_BP21107_FMA22805_Left posterior ulnar recurrent artery.obj",
+      "fj": "FJ2241",
+      "fma": "FMA22805",
+      "name": "Left posterior ulnar recurrent artery",
+      "bytes": 22958,
+      "sha256": "48872264fed8c25e629430ccc82e388ab392ac1166df1b784214ca5d19410be8",
+      "partId": "FJ2241_Left_posterior_ulnar_recurrent_artery",
+      "vertices": 1134,
+      "triangles": 378,
+      "bounds": [
+        [
+          187.01699829101562,
+          -70.55439758300781,
+          1020.0900268554688
+        ],
+        [
+          194.6219940185547,
+          -54.33259963989258,
+          1041.4599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2242_BP22827_FMA66626_Trunk of left radial artery.obj",
+      "fj": "FJ2242",
+      "fma": "FMA66626",
+      "name": "Trunk of left radial artery",
+      "bytes": 492581,
+      "sha256": "fbc112c07726018aa49524987d8ba69ce11dd2fa12dd369c32eac032115c856b",
+      "partId": "FJ2242_Trunk_of_left_radial_artery",
+      "vertices": 23292,
+      "triangles": 7764,
+      "bounds": [
+        [
+          213.61099243164062,
+          -127.12699890136719,
+          791.1859741210938
+        ],
+        [
+          279.5069885253906,
+          -83.1510009765625,
+          1024.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2243_BP22024_FMA22766_Left radial recurrent artery.obj",
+      "fj": "FJ2243",
+      "fma": "FMA22766",
+      "name": "Left radial recurrent artery",
+      "bytes": 156718,
+      "sha256": "ace88b4191e50db60187df8f96f2953b9f818b9e34e52589f0279980616bedbf",
+      "partId": "FJ2243_Left_radial_recurrent_artery",
+      "vertices": 7818,
+      "triangles": 2606,
+      "bounds": [
+        [
+          228.0260009765625,
+          -93.33830261230469,
+          1000.6699829101562
+        ],
+        [
+          242.86099243164062,
+          -51.718299865722656,
+          1075.280029296875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2244_BP21275_FMA22949_Left radial vein.obj",
+      "fj": "FJ2244",
+      "fma": "FMA22949",
+      "name": "Left radial vein",
+      "bytes": 311258,
+      "sha256": "477237e32b8ad547c93a0b9fce3c6f0bcd8665d59edd90f05db9883dff323807",
+      "partId": "FJ2244_Left_radial_vein",
+      "vertices": 14796,
+      "triangles": 4932,
+      "bounds": [
+        [
+          213.7050018310547,
+          -125.81800079345703,
+          819.833984375
+        ],
+        [
+          266.90399169921875,
+          -85.50289916992188,
+          1025.8499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2245_BP22718_FMA268669_Left recurrent interosseous artery.obj",
+      "fj": "FJ2245",
+      "fma": "FMA268669",
+      "name": "Left recurrent interosseous artery",
+      "bytes": 75894,
+      "sha256": "ebba898065165542b683fba37f5a31aa378060f9fd6e995ee7905110545f9b18",
+      "partId": "FJ2245_Left_recurrent_interosseous_artery",
+      "vertices": 3900,
+      "triangles": 1300,
+      "bounds": [
+        [
+          220.31700134277344,
+          -76.17839813232422,
+          991.9829711914062
+        ],
+        [
+          227.9669952392578,
+          -52.824798583984375,
+          1048.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2246_BP23899_FMA66551_Trunk of left subscapular artery.obj",
+      "fj": "FJ2246",
+      "fma": "FMA66551",
+      "name": "Trunk of left subscapular artery",
+      "bytes": 47095,
+      "sha256": "e31c9b579e093ab069cb5365d209af1ef02902cfbefc7badc6e1947edf55f686",
+      "partId": "FJ2246_Trunk_of_left_subscapular_artery",
+      "vertices": 2370,
+      "triangles": 790,
+      "bounds": [
+        [
+          128.98599243164062,
+          -92.21720123291016,
+          1279.4200439453125
+        ],
+        [
+          141.96499633789062,
+          -83.65879821777344,
+          1294.8699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2247_BP21260_FMA23115_Left subscapular vein.obj",
+      "fj": "FJ2247",
+      "fma": "FMA23115",
+      "name": "Left subscapular vein",
+      "bytes": 29864,
+      "sha256": "c59e7bce00e00d2d2f8db7ecf6b6dee6a28c2efe385b0caf3c6514d01f3a62eb",
+      "partId": "FJ2247_Left_subscapular_vein",
+      "vertices": 1560,
+      "triangles": 520,
+      "bounds": [
+        [
+          126.2959976196289,
+          -106.68800354003906,
+          1292.219970703125
+        ],
+        [
+          129.83099365234375,
+          -100.41600036621094,
+          1312.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2248_BP23569_FMA22837_Left superficial palmar arterial arch.obj",
+      "fj": "FJ2248",
+      "fma": "FMA22837",
+      "name": "Left superficial palmar arterial arch",
+      "bytes": 179757,
+      "sha256": "5c6020f0cee84190abaa5cb4c3e8d4632059be5af937e95ec437db2d9ec84064",
+      "partId": "FJ2248_Left_superficial_palmar_arterial_arch",
+      "vertices": 8868,
+      "triangles": 2956,
+      "bounds": [
+        [
+          234.78500366210938,
+          -140.4040069580078,
+          754.8309936523438
+        ],
+        [
+          271.7279968261719,
+          -121.60800170898438,
+          828.8170166015625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2249_BP23469_FMA22916_Left superficial palmar venous arch.obj",
+      "fj": "FJ2249",
+      "fma": "FMA22916",
+      "name": "Left superficial palmar venous arch",
+      "bytes": 146198,
+      "sha256": "4eaa40cc9b8a9b7a6d0055745668d75e52457312c783d184e9308bf2da65c9c3",
+      "partId": "FJ2249_Left_superficial_palmar_venous_arch",
+      "vertices": 7272,
+      "triangles": 2424,
+      "bounds": [
+        [
+          238.7259979248047,
+          -137.28399658203125,
+          753.9949951171875
+        ],
+        [
+          269.20599365234375,
+          -124.00499725341797,
+          820.791015625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2250_BP21212_FMA50860_Left suprascapular vein.obj",
+      "fj": "FJ2250",
+      "fma": "FMA50860",
+      "name": "Left suprascapular vein",
+      "bytes": 116316,
+      "sha256": "ab70d33379b1df1f2bb9e924b37f0b1abad326c9ae6db12cdc4fbfc4c23c72b9",
+      "partId": "FJ2250_Left_suprascapular_vein",
+      "vertices": 5922,
+      "triangles": 1974,
+      "bounds": [
+        [
+          63.520198822021484,
+          -113.88300323486328,
+          1283.1199951171875
+        ],
+        [
+          139.61500549316406,
+          -51.6885986328125,
+          1343.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2251_BP21984_FMA10681_Left suprascapular artery.obj",
+      "fj": "FJ2251",
+      "fma": "FMA10681",
+      "name": "Left suprascapular artery",
+      "bytes": 119087,
+      "sha256": "1f6c345d135332f69138bd21b2d2439ce2d9c48570375e89e0881cae0e1eedc7",
+      "partId": "FJ2251_Left_suprascapular_artery",
+      "vertices": 5784,
+      "triangles": 1928,
+      "bounds": [
+        [
+          41.0349006652832,
+          -102.29499816894531,
+          1291.489990234375
+        ],
+        [
+          138.12100219726562,
+          -36.887699127197266,
+          1354.8199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2252_BP23786_FMA66564_Trunk of left thoraco-acromial artery.obj",
+      "fj": "FJ2252",
+      "fma": "FMA66564",
+      "name": "Trunk of left thoraco-acromial artery",
+      "bytes": 26832,
+      "sha256": "f44445c069be843f1350ba6d18ced8b7fdffe8ca87f01d5905fedbdac4443dbe",
+      "partId": "FJ2252_Trunk_of_left_thoraco-acromial_artery",
+      "vertices": 1404,
+      "triangles": 468,
+      "bounds": [
+        [
+          91.66539764404297,
+          -102.86599731445312,
+          1318.3299560546875
+        ],
+        [
+          96.52439880371094,
+          -97.86139678955078,
+          1330.9000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2253_BP21627_FMA66322_Left thoracodorsal artery.obj",
+      "fj": "FJ2253",
+      "fma": "FMA66322",
+      "name": "Left thoracodorsal artery",
+      "bytes": 127065,
+      "sha256": "5018098939ecb801764b9a9d309b2004647cb4b5c443d5459f362bf0258afc40",
+      "partId": "FJ2253_Left_thoracodorsal_artery",
+      "vertices": 6312,
+      "triangles": 2104,
+      "bounds": [
+        [
+          128.3560028076172,
+          -91.48709869384766,
+          1200.6500244140625
+        ],
+        [
+          138.93699645996094,
+          -63.711700439453125,
+          1280.510009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2254_BP21230_FMA71215_Left thoracodorsal vein.obj",
+      "fj": "FJ2254",
+      "fma": "FMA71215",
+      "name": "Left thoracodorsal vein",
+      "bytes": 98996,
+      "sha256": "7967f12991fa568a0ff978711c70a2a07909da05f58e776dbfe3c4f724f8f043",
+      "partId": "FJ2254_Left_thoracodorsal_vein",
+      "vertices": 5064,
+      "triangles": 1688,
+      "bounds": [
+        [
+          124.51699829101562,
+          -118.87999725341797,
+          1193.6199951171875
+        ],
+        [
+          136.08599853515625,
+          -100.41000366210938,
+          1295.1700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2256_BP22080_FMA10683_Left superficial cervical artery.obj",
+      "fj": "FJ2256",
+      "fma": "FMA10683",
+      "name": "Left superficial cervical artery",
+      "bytes": 43298,
+      "sha256": "b6129ddf69e2867b1ca0b8d8ea6536c667d866a2d32e3521681cbba9ef559eef",
+      "partId": "FJ2256_Left_superficial_cervical_artery",
+      "vertices": 1938,
+      "triangles": 646,
+      "bounds": [
+        [
+          46.096500396728516,
+          -103.6709976196289,
+          1360.6600341796875
+        ],
+        [
+          61.63930130004883,
+          -80.22090148925781,
+          1403.5899658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2257_BP20754_FMA81009_Trunk of left transverse cervical artery.obj",
+      "fj": "FJ2257",
+      "fma": "FMA81009",
+      "name": "Trunk of left transverse cervical artery",
+      "bytes": 21690,
+      "sha256": "0a5eccd50b8c7ab3b2b570eb0cdad109939b08492122084d92ec2a5d1431992e",
+      "partId": "FJ2257_Trunk_of_left_transverse_cervical_artery",
+      "vertices": 1098,
+      "triangles": 366,
+      "bounds": [
+        [
+          40.97100067138672,
+          -100.13800048828125,
+          1354.9599609375
+        ],
+        [
+          60.827701568603516,
+          -95.08869934082031,
+          1360.6700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2258_BP23608_FMA66624_Trunk of left ulnar artery.obj",
+      "fj": "FJ2258",
+      "fma": "FMA66624",
+      "name": "Trunk of left ulnar artery",
+      "bytes": 450756,
+      "sha256": "745eaf973c2aae99be5f626e643e33049e207c8a6a1a6a0d002b9cc3e9514b52",
+      "partId": "FJ2258_Trunk_of_left_ulnar_artery",
+      "vertices": 21342,
+      "triangles": 7114,
+      "bounds": [
+        [
+          211.05099487304688,
+          -131.072998046875,
+          794.6840209960938
+        ],
+        [
+          243.72000122070312,
+          -76.98370361328125,
+          1024.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2259_BP21097_FMA22802_Left anterior ulnar recurrent artery.obj",
+      "fj": "FJ2259",
+      "fma": "FMA22802",
+      "name": "Left anterior ulnar recurrent artery",
+      "bytes": 26738,
+      "sha256": "d208bc07ab12a5af9b9b5ee964e0f50add27925c0d2170756a66717eaec31094",
+      "partId": "FJ2259_Left_anterior_ulnar_recurrent_artery",
+      "vertices": 1398,
+      "triangles": 466,
+      "bounds": [
+        [
+          193.427001953125,
+          -80.27549743652344,
+          1004.4199829101562
+        ],
+        [
+          214.41799926757812,
+          -69.34709930419922,
+          1021.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2260_BP21284_FMA22952_Left ulnar vein.obj",
+      "fj": "FJ2260",
+      "fma": "FMA22952",
+      "name": "Left ulnar vein",
+      "bytes": 372536,
+      "sha256": "99f7575d18d6eede0682deab0f934661350c941a5b98d65fe8ad48dfbb783721",
+      "partId": "FJ2260_Left_ulnar_vein",
+      "vertices": 17754,
+      "triangles": 5918,
+      "bounds": [
+        [
+          210.84800720214844,
+          -134.2239990234375,
+          814.2410278320312
+        ],
+        [
+          250.156005859375,
+          -83.86029815673828,
+          1023.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2261_BP21105_FMA23127_Radial collateral branch of left deep brachial artery.obj",
+      "fj": "FJ2261",
+      "fma": "FMA23127",
+      "name": "Radial collateral branch of left deep brachial artery",
+      "bytes": 84937,
+      "sha256": "72a4ed002611cf7a4de9b2ee71b290ce8b398ca89b42dd50b5feb6f9311b7b5b",
+      "partId": "FJ2261_Radial_collateral_branch_of_left_deep_brachial_artery",
+      "vertices": 4356,
+      "triangles": 1452,
+      "bounds": [
+        [
+          203.06300354003906,
+          -55.08470153808594,
+          1072.4200439453125
+        ],
+        [
+          230.88099670410156,
+          -50.909400939941406,
+          1117.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2262_BP21092_FMA23126_Radial collateral branch of right deep brachial artery.obj",
+      "fj": "FJ2262",
+      "fma": "FMA23126",
+      "name": "Radial collateral branch of right deep brachial artery",
+      "bytes": 78891,
+      "sha256": "d553823392dfa8bcbefaf4d21abfa427be0f3250e3d9316526b5dfaf43b9fdff",
+      "partId": "FJ2262_Radial_collateral_branch_of_right_deep_brachial_artery",
+      "vertices": 4014,
+      "triangles": 1338,
+      "bounds": [
+        [
+          -230.88400268554688,
+          -55.052398681640625,
+          1072.4100341796875
+        ],
+        [
+          -203.05299377441406,
+          -50.91239929199219,
+          1117.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2263_BP20789_FMA23068_Acromial branch of right thoraco-acromial artery.obj",
+      "fj": "FJ2263",
+      "fma": "FMA23068",
+      "name": "Acromial branch of right thoraco-acromial artery",
+      "bytes": 58763,
+      "sha256": "275a22eb1229e37535f0536ed4f3751b69f2e1ea574103dafe9d48b5627800fe",
+      "partId": "FJ2263_Acromial_branch_of_right_thoraco-acromial_artery",
+      "vertices": 2988,
+      "triangles": 996,
+      "bounds": [
+        [
+          -138.27999877929688,
+          -103.57099914550781,
+          1317.5
+        ],
+        [
+          -94.14900207519531,
+          -96.36280059814453,
+          1334.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2264_BP22428_FMA22682_Right anterior circumflex humeral artery.obj",
+      "fj": "FJ2264",
+      "fma": "FMA22682",
+      "name": "Right anterior circumflex humeral artery",
+      "bytes": 201357,
+      "sha256": "0021c724b6091a1e87df409227510f15c9eedf451b39db3535e7aa30b8a54c45",
+      "partId": "FJ2264_Right_anterior_circumflex_humeral_artery",
+      "vertices": 9714,
+      "triangles": 3238,
+      "bounds": [
+        [
+          -191.23199462890625,
+          -106.45800018310547,
+          1265.550048828125
+        ],
+        [
+          -143.2570037841797,
+          -70.99539947509766,
+          1332.93994140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2265_BP21263_FMA77954_Right anterior circumflex humeral vein.obj",
+      "fj": "FJ2265",
+      "fma": "FMA77954",
+      "name": "Right anterior circumflex humeral vein",
+      "bytes": 189302,
+      "sha256": "c646ad1c288c449d8d22092dac3921f9b37ac2d681251e1f0e5a38177cf93372",
+      "partId": "FJ2265_Right_anterior_circumflex_humeral_vein",
+      "vertices": 9060,
+      "triangles": 3020,
+      "bounds": [
+        [
+          -192.99000549316406,
+          -105.6259994506836,
+          1267.3900146484375
+        ],
+        [
+          -145.79600524902344,
+          -74.38819885253906,
+          1330.81005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2266_BP24011_FMA22812_Right anterior interosseous artery.obj",
+      "fj": "FJ2266",
+      "fma": "FMA22812",
+      "name": "Right anterior interosseous artery",
+      "bytes": 118658,
+      "sha256": "2972b7807a9d1d9329f3575732e6c48a099b4185a74bee78e89eb4e99735fca6",
+      "partId": "FJ2266_Right_anterior_interosseous_artery",
+      "vertices": 5976,
+      "triangles": 1992,
+      "bounds": [
+        [
+          -244.15199279785156,
+          -108.64299774169922,
+          850.6259765625
+        ],
+        [
+          -220.34800720214844,
+          -74.15080261230469,
+          994.0040283203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2267_BP22953_FMA22712_Right inferior ulnar collateral artery.obj",
+      "fj": "FJ2267",
+      "fma": "FMA22712",
+      "name": "Right inferior ulnar collateral artery",
+      "bytes": 71245,
+      "sha256": "781a8bbc5254aa5d5af78b60f543efc195f3b56be0287efc41e80f55792a98f5",
+      "partId": "FJ2267_Right_inferior_ulnar_collateral_artery",
+      "vertices": 3612,
+      "triangles": 1204,
+      "bounds": [
+        [
+          -195.5240020751953,
+          -87.42680358886719,
+          1020.1500244140625
+        ],
+        [
+          -186.01600646972656,
+          -69.60669708251953,
+          1088.6300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2268_BP20364_FMA22655_Right axillary artery.obj",
+      "fj": "FJ2268",
+      "fma": "FMA22655",
+      "name": "Right axillary artery",
+      "bytes": 107893,
+      "sha256": "c76630b53f0c84b99d3fcc6b689374916f91a8689ed62d55b8b9a878b1ce250d",
+      "partId": "FJ2268_Right_axillary_artery",
+      "vertices": 5478,
+      "triangles": 1826,
+      "bounds": [
+        [
+          -151.44000244140625,
+          -106.42500305175781,
+          1258.1199951171875
+        ],
+        [
+          -76.94149780273438,
+          -80.05619812011719,
+          1339.8399658203125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2269_BP21093_FMA13330_Right axillary vein.obj",
+      "fj": "FJ2269",
+      "fma": "FMA13330",
+      "name": "Right axillary vein",
+      "bytes": 130511,
+      "sha256": "49154a671a269e229cb40b95db3884eeddc2973972e56d3c2ed6090879203aaf",
+      "partId": "FJ2269_Right_axillary_vein",
+      "vertices": 6438,
+      "triangles": 2146,
+      "bounds": [
+        [
+          -157.16700744628906,
+          -115.16899871826172,
+          1232.8499755859375
+        ],
+        [
+          -74.91909790039062,
+          -91.39420318603516,
+          1335.1400146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2270_BP23821_FMA22909_Right basilic vein.obj",
+      "fj": "FJ2270",
+      "fma": "FMA22909",
+      "name": "Right basilic vein",
+      "bytes": 1177608,
+      "sha256": "4783b228d402c86f39bd11593fd38ec2c2abbef9f2a2985c0cc612c7f3d15589",
+      "partId": "FJ2270_Right_basilic_vein",
+      "vertices": 54450,
+      "triangles": 18150,
+      "bounds": [
+        [
+          -235.48500061035156,
+          -114.80799865722656,
+          788.8309936523438
+        ],
+        [
+          -151.00599670410156,
+          -62.82849884033203,
+          1237.239990234375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2271_BP23743_FMA22691_Right brachial artery.obj",
+      "fj": "FJ2271",
+      "fma": "FMA22691",
+      "name": "Right brachial artery",
+      "bytes": 191229,
+      "sha256": "6b69f0550d5c614befbb5f4584def210d552c8b9c8ba8e6074d4f759de6bd8fb",
+      "partId": "FJ2271_Right_brachial_artery",
+      "vertices": 9336,
+      "triangles": 3112,
+      "bounds": [
+        [
+          -217.468994140625,
+          -88.97160339355469,
+          1020.5900268554688
+        ],
+        [
+          -143.03799438476562,
+          -72.3469009399414,
+          1274.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2272_BP21688_FMA13325_Right cephalic vein.obj",
+      "fj": "FJ2272",
+      "fma": "FMA13325",
+      "name": "Right cephalic vein",
+      "bytes": 1491506,
+      "sha256": "890a655783c58399d652af125be278d0fccd0fe86a8758619161144145cdc8c9",
+      "partId": "FJ2272_Right_cephalic_vein",
+      "vertices": 67866,
+      "triangles": 22622,
+      "bounds": [
+        [
+          -279.0409851074219,
+          -131.7310028076172,
+          774.4650268554688
+        ],
+        [
+          -106.83599853515625,
+          -77.65540313720703,
+          1326.8199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2273_BP22477_FMA23180_Right circumflex scapular artery.obj",
+      "fj": "FJ2273",
+      "fma": "FMA23180",
+      "name": "Right circumflex scapular artery",
+      "bytes": 46018,
+      "sha256": "3b98c41dc56213af1126ec545fd11f295f680020077e6503c1a0f1628838f43e",
+      "partId": "FJ2273_Right_circumflex_scapular_artery",
+      "vertices": 2334,
+      "triangles": 778,
+      "bounds": [
+        [
+          -144.22999572753906,
+          -86.71269989013672,
+          1280.56005859375
+        ],
+        [
+          -134.13499450683594,
+          -51.11579895019531,
+          1293.9200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2274_BP21217_FMA77949_Right circumflex scapular vein.obj",
+      "fj": "FJ2274",
+      "fma": "FMA77949",
+      "name": "Right circumflex scapular vein",
+      "bytes": 57765,
+      "sha256": "b4f77690d5aa10aa0047a1a0b9d3bb730578379f11c17fdc6af38c049afbf6b8",
+      "partId": "FJ2274_Right_circumflex_scapular_vein",
+      "vertices": 2880,
+      "triangles": 960,
+      "bounds": [
+        [
+          -151.85499572753906,
+          -103.08699798583984,
+          1282.7900390625
+        ],
+        [
+          -127.85900115966797,
+          -52.21609878540039,
+          1295.4000244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2275_BP23743_FMA22691_Right brachial artery.obj",
+      "fj": "FJ2275",
+      "fma": "FMA22691",
+      "name": "Right brachial artery",
+      "bytes": 25099,
+      "sha256": "9a2c842f46cef54d18db65c3d296731a98480a8d8b8f3d493181ae5cfafc2a1f",
+      "partId": "FJ2275_Right_brachial_artery",
+      "vertices": 1290,
+      "triangles": 430,
+      "bounds": [
+        [
+          -222.74000549316406,
+          -80.13259887695312,
+          991.6069946289062
+        ],
+        [
+          -211.70700073242188,
+          -71.11620330810547,
+          999.6890258789062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2277_BP20827_FMA22696_Right deep brachial artery.obj",
+      "fj": "FJ2277",
+      "fma": "FMA22696",
+      "name": "Right deep brachial artery",
+      "bytes": 140863,
+      "sha256": "1c576e55699e55e715793cde28ee9ac942b14a3107af64dcac54053844906f49",
+      "partId": "FJ2277_Right_deep_brachial_artery",
+      "vertices": 7038,
+      "triangles": 2346,
+      "bounds": [
+        [
+          -206.0449981689453,
+          -76.66539764404297,
+          1114.97998046875
+        ],
+        [
+          -174.3470001220703,
+          -52.11520004272461,
+          1184.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2278_BP22455_FMA10660_Right deep cervical artery.obj",
+      "fj": "FJ2278",
+      "fma": "FMA10660",
+      "name": "Right deep cervical artery",
+      "bytes": 67314,
+      "sha256": "2f3dd2a2f619e963a958bb599b92f3eba6c2626451dfba916ee9c62ff2d30723",
+      "partId": "FJ2278_Right_deep_cervical_artery",
+      "vertices": 3312,
+      "triangles": 1104,
+      "bounds": [
+        [
+          -48.77519989013672,
+          -93.29889678955078,
+          1354.239990234375
+        ],
+        [
+          -32.46580123901367,
+          -49.57350158691406,
+          1425.300048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2280_BP21338_FMA62506_Dorsal venous network of right hand.obj",
+      "fj": "FJ2280",
+      "fma": "FMA62506",
+      "name": "Dorsal venous network of right hand",
+      "bytes": 272532,
+      "sha256": "c27301a997e2a9378067c457d7254f4166b4245c32aa627e61e799562460a284",
+      "partId": "FJ2280_Dorsal_venous_network_of_right_hand",
+      "vertices": 12990,
+      "triangles": 4330,
+      "bounds": [
+        [
+          -289.9159851074219,
+          -132.7270050048828,
+          721.6859741210938
+        ],
+        [
+          -229.86300659179688,
+          -112.12100219726562,
+          791.5189819335938
+        ]
+      ]
+    },
+    {
+      "file": "FJ2281_BP23670_FMA22912_Right deep palmar venous arch.obj",
+      "fj": "FJ2281",
+      "fma": "FMA22912",
+      "name": "Right deep palmar venous arch",
+      "bytes": 117284,
+      "sha256": "3751a5164113bbcdc39537df5eb90072b50ae0e92812b5d5aef6b2eb5c3eeefd",
+      "partId": "FJ2281_Right_deep_palmar_venous_arch",
+      "vertices": 5826,
+      "triangles": 1942,
+      "bounds": [
+        [
+          -284.8299865722656,
+          -138.84500122070312,
+          770.885986328125
+        ],
+        [
+          -235.84100341796875,
+          -120.91000366210938,
+          819.2789916992188
+        ]
+      ]
+    },
+    {
+      "file": "FJ2282_BP22469_FMA23072_Deltoid branch of right thoraco-acromial artery.obj",
+      "fj": "FJ2282",
+      "fma": "FMA23072",
+      "name": "Deltoid branch of right thoraco-acromial artery",
+      "bytes": 47651,
+      "sha256": "c9b4a9dd548c53af2374e49592c3223c99dc6eb177b5f64ea788270a0dcf40e8",
+      "partId": "FJ2282_Deltoid_branch_of_right_thoraco-acromial_artery",
+      "vertices": 2436,
+      "triangles": 812,
+      "bounds": [
+        [
+          -161.843994140625,
+          -103.87200164794922,
+          1310.800048828125
+        ],
+        [
+          -111.91400146484375,
+          -97.76820373535156,
+          1321.1500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2283_BP21652_FMA22772_Dorsal carpal branch of right radial artery.obj",
+      "fj": "FJ2283",
+      "fma": "FMA22772",
+      "name": "Dorsal carpal branch of right radial artery",
+      "bytes": 18272,
+      "sha256": "4831c53be423528ac896cc893c2b47dd719769e318001f614e731e1abdb77184",
+      "partId": "FJ2283_Dorsal_carpal_branch_of_right_radial_artery",
+      "vertices": 936,
+      "triangles": 312,
+      "bounds": [
+        [
+          -279.04901123046875,
+          -119.6709976196289,
+          785.1649780273438
+        ],
+        [
+          -259.3710021972656,
+          -110.33100128173828,
+          792.6069946289062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2284_BP23774_FMA4057_Right dorsal scapular artery.obj",
+      "fj": "FJ2284",
+      "fma": "FMA4057",
+      "name": "Right dorsal scapular artery",
+      "bytes": 282842,
+      "sha256": "b6da455d37957dda0dbcdf7201f55c876fae3fb4e1a00c43f6d31267e4627475",
+      "partId": "FJ2284_Right_dorsal_scapular_artery",
+      "vertices": 13338,
+      "triangles": 4446,
+      "bounds": [
+        [
+          -106.66000366210938,
+          -97.9032974243164,
+          1183.1600341796875
+        ],
+        [
+          -55.45199966430664,
+          3.2104599475860596,
+          1361.3199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2285_BP21210_FMA71211_Right lateral thoracic vein.obj",
+      "fj": "FJ2285",
+      "fma": "FMA71211",
+      "name": "Right lateral thoracic vein",
+      "bytes": 226812,
+      "sha256": "fc53eb0d9534555437887cd4049162ed89e5d01365be086d4751a1a8b88b65a5",
+      "partId": "FJ2285_Right_lateral_thoracic_vein",
+      "vertices": 10950,
+      "triangles": 3650,
+      "bounds": [
+        [
+          -135.83399963378906,
+          -150.3520050048828,
+          1097.3900146484375
+        ],
+        [
+          -124.12300109863281,
+          -107.87999725341797,
+          1314.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2286_BP21283_FMA22968_Right median antebrachial vein.obj",
+      "fj": "FJ2286",
+      "fma": "FMA22968",
+      "name": "Right median antebrachial vein",
+      "bytes": 341739,
+      "sha256": "3b15904f3d90d52265a3ee7388c523f8af9a1e76e2e5857d3d25dc6b3e512ba8",
+      "partId": "FJ2286_Right_median_antebrachial_vein",
+      "vertices": 16158,
+      "triangles": 5386,
+      "bounds": [
+        [
+          -262.447998046875,
+          -134.5330047607422,
+          814.7169799804688
+        ],
+        [
+          -176.28399658203125,
+          -72.86530303955078,
+          1013.6500244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2287_BP21273_FMA22964_Right median cubital vein.obj",
+      "fj": "FJ2287",
+      "fma": "FMA22964",
+      "name": "Right median cubital vein",
+      "bytes": 151220,
+      "sha256": "564bdf7ee13f84f5b1d354546ac3182383e1349385559ac95fdf25a6470f637b",
+      "partId": "FJ2287_Right_median_cubital_vein",
+      "vertices": 7506,
+      "triangles": 2502,
+      "bounds": [
+        [
+          -233.9290008544922,
+          -101.34700012207031,
+          1024.469970703125
+        ],
+        [
+          -183.5030059814453,
+          -66.77989959716797,
+          1063.949951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2288_BP22471_FMA22821_Right dorsal carpal branch of ulnar artery.obj",
+      "fj": "FJ2288",
+      "fma": "FMA22821",
+      "name": "Right dorsal carpal branch of ulnar artery",
+      "bytes": 43369,
+      "sha256": "6a5e6b411fb73d5f3efc2640567762a2157cf37579faa49e0850669bcce60373",
+      "partId": "FJ2288_Right_dorsal_carpal_branch_of_ulnar_artery",
+      "vertices": 2190,
+      "triangles": 730,
+      "bounds": [
+        [
+          -260.72100830078125,
+          -130.88999938964844,
+          783.2650146484375
+        ],
+        [
+          -230.2270050048828,
+          -110.23899841308594,
+          806.5540161132812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2289_BP20923_FMA22864_Right palmar metacarpal artery.obj",
+      "fj": "FJ2289",
+      "fma": "FMA22864",
+      "name": "Right palmar metacarpal artery",
+      "bytes": 111502,
+      "sha256": "60cb3d39278225470c48ab5567f6c71931023ef190661af43a61a3a59cea5987",
+      "partId": "FJ2289_Right_palmar_metacarpal_artery",
+      "vertices": 5448,
+      "triangles": 1816,
+      "bounds": [
+        [
+          -282.89300537109375,
+          -141.468994140625,
+          743.5989990234375
+        ],
+        [
+          -240.4290008544922,
+          -119.28399658203125,
+          781.47900390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2290_BP21646_FMA22920_Right palmar metacarpal vein.obj",
+      "fj": "FJ2290",
+      "fma": "FMA22920",
+      "name": "Right palmar metacarpal vein",
+      "bytes": 35706,
+      "sha256": "8dd414e4ddfa901f343f2ef49c4a730f21938d317e930441a4b7440484eb19a4",
+      "partId": "FJ2290_Right_palmar_metacarpal_vein",
+      "vertices": 1800,
+      "triangles": 600,
+      "bounds": [
+        [
+          -286.9179992675781,
+          -138.7550048828125,
+          740.9860229492188
+        ],
+        [
+          -276.15899658203125,
+          -128.65499877929688,
+          778.1480102539062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2291_BP22429_FMA22685_Right posterior circumflex humeral artery.obj",
+      "fj": "FJ2291",
+      "fma": "FMA22685",
+      "name": "Right posterior circumflex humeral artery",
+      "bytes": 57847,
+      "sha256": "11141f61236b8f8c64de82f2856fd0ce45a25ce508731312a105799c6a7979ef",
+      "partId": "FJ2291_Right_posterior_circumflex_humeral_artery",
+      "vertices": 2952,
+      "triangles": 984,
+      "bounds": [
+        [
+          -191.27200317382812,
+          -87.93250274658203,
+          1287.219970703125
+        ],
+        [
+          -140.1320037841797,
+          -63.31399917602539,
+          1297.1099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2292_BP22429_FMA22685_Right posterior circumflex humeral artery.obj",
+      "fj": "FJ2292",
+      "fma": "FMA22685",
+      "name": "Right posterior circumflex humeral artery",
+      "bytes": 66537,
+      "sha256": "fc7c7241c2230eb76d5b37d6ca8cbf30699d43b7fac95809449ac047fa321723",
+      "partId": "FJ2292_Right_posterior_circumflex_humeral_artery",
+      "vertices": 3378,
+      "triangles": 1126,
+      "bounds": [
+        [
+          -192.95199584960938,
+          -98.18840026855469,
+          1285.8699951171875
+        ],
+        [
+          -142.18099975585938,
+          -62.414398193359375,
+          1298.4599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2293_BP21310_FMA22804_Right posterior ulnar recurrent artery.obj",
+      "fj": "FJ2293",
+      "fma": "FMA22804",
+      "name": "Right posterior ulnar recurrent artery",
+      "bytes": 23828,
+      "sha256": "e39df65ebbd4b1604a72dc0755b42f43e8540c7991873400b522386db7761188",
+      "partId": "FJ2293_Right_posterior_ulnar_recurrent_artery",
+      "vertices": 1140,
+      "triangles": 380,
+      "bounds": [
+        [
+          -194.63400268554688,
+          -70.55699920654297,
+          1020.0800170898438
+        ],
+        [
+          -187.00799560546875,
+          -54.34280014038086,
+          1041.47998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2294_BP23743_FMA22691_Right brachial artery.obj",
+      "fj": "FJ2294",
+      "fma": "FMA22691",
+      "name": "Right brachial artery",
+      "bytes": 477494,
+      "sha256": "cdf2302d3c47686b36e5eb095a86264d2a682f334ac1aff8744246ee81aad756",
+      "partId": "FJ2294_Right_brachial_artery",
+      "vertices": 22416,
+      "triangles": 7472,
+      "bounds": [
+        [
+          -279.51300048828125,
+          -127.12300109863281,
+          791.1820068359375
+        ],
+        [
+          -213.61099243164062,
+          -83.15149688720703,
+          1024.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2295_BP21311_FMA22764_Right radial recurrent artery.obj",
+      "fj": "FJ2295",
+      "fma": "FMA22764",
+      "name": "Right radial recurrent artery",
+      "bytes": 157694,
+      "sha256": "e345313f633f5f2093ea528dd3e3f47d41a73b1daf232661b2c2130b912f46bc",
+      "partId": "FJ2295_Right_radial_recurrent_artery",
+      "vertices": 7806,
+      "triangles": 2602,
+      "bounds": [
+        [
+          -242.86199951171875,
+          -93.36720275878906,
+          1000.6799926757812
+        ],
+        [
+          -228.02699279785156,
+          -51.70709991455078,
+          1075.27001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2296_BP21270_FMA22948_Right radial vein.obj",
+      "fj": "FJ2296",
+      "fma": "FMA22948",
+      "name": "Right radial vein",
+      "bytes": 338303,
+      "sha256": "44cde5577a81b8af4e9f22faa74b40989bf5f14d774d26d61bf53536e52cd454",
+      "partId": "FJ2296_Right_radial_vein",
+      "vertices": 15846,
+      "triangles": 5282,
+      "bounds": [
+        [
+          -266.9100036621094,
+          -125.82099914550781,
+          819.81201171875
+        ],
+        [
+          -213.6999969482422,
+          -85.50240325927734,
+          1025.8499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2297_BP21076_FMA268667_Right recurrent interosseous artery.obj",
+      "fj": "FJ2297",
+      "fma": "FMA268667",
+      "name": "Right recurrent interosseous artery",
+      "bytes": 74838,
+      "sha256": "b3e66ba423d09243fd0fd098205f8663ec25bbf6ea7c7c309fc98eb8a0bc9c48",
+      "partId": "FJ2297_Right_recurrent_interosseous_artery",
+      "vertices": 3810,
+      "triangles": 1270,
+      "bounds": [
+        [
+          -227.95700073242188,
+          -76.17829895019531,
+          991.9810180664062
+        ],
+        [
+          -220.31100463867188,
+          -52.8291015625,
+          1048.5400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2298_BP23139_FMA66550_Trunk of right subscapular artery.obj",
+      "fj": "FJ2298",
+      "fma": "FMA66550",
+      "name": "Trunk of right subscapular artery",
+      "bytes": 48129,
+      "sha256": "d77e98921e0d84b0c409daae1ee29e465158847e4458fc2aaf289b37d5d9c5f3",
+      "partId": "FJ2298_Trunk_of_right_subscapular_artery",
+      "vertices": 2358,
+      "triangles": 786,
+      "bounds": [
+        [
+          -141.98199462890625,
+          -92.2238998413086,
+          1279.4000244140625
+        ],
+        [
+          -128.94000244140625,
+          -83.65160369873047,
+          1294.8900146484375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2299_BP22655_FMA23114_Right subscapular vein.obj",
+      "fj": "FJ2299",
+      "fma": "FMA23114",
+      "name": "Right subscapular vein",
+      "bytes": 30489,
+      "sha256": "f5f7d58fbf114013ee15f4afdd1884ffcf169897e11566749e6927722220f0cc",
+      "partId": "FJ2299_Right_subscapular_vein",
+      "vertices": 1578,
+      "triangles": 526,
+      "bounds": [
+        [
+          -129.8260040283203,
+          -106.66799926757812,
+          1292.18994140625
+        ],
+        [
+          -126.2770004272461,
+          -100.41899871826172,
+          1312.31005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2300_BP23595_FMA22835_Right superficial palmar arterial arch.obj",
+      "fj": "FJ2300",
+      "fma": "FMA22835",
+      "name": "Right superficial palmar arterial arch",
+      "bytes": 184644,
+      "sha256": "0e8d06e325e668cbf2d16cff8783962cfcdf2d787e10da5df3d6072d7212282a",
+      "partId": "FJ2300_Right_superficial_palmar_arterial_arch",
+      "vertices": 9024,
+      "triangles": 3008,
+      "bounds": [
+        [
+          -271.7340087890625,
+          -140.41000366210938,
+          754.8389892578125
+        ],
+        [
+          -234.77099609375,
+          -121.61499786376953,
+          828.822998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2301_BP23759_FMA22915_Right superficial palmar venous arch.obj",
+      "fj": "FJ2301",
+      "fma": "FMA22915",
+      "name": "Right superficial palmar venous arch",
+      "bytes": 149210,
+      "sha256": "657563f816b448b080931c1cc4d5cdb8c78537952d90166299225969f698c1ff",
+      "partId": "FJ2301_Right_superficial_palmar_venous_arch",
+      "vertices": 7302,
+      "triangles": 2434,
+      "bounds": [
+        [
+          -269.218994140625,
+          -137.27699279785156,
+          753.9920043945312
+        ],
+        [
+          -238.73199462890625,
+          -124.01000213623047,
+          820.7639770507812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2302_BP21204_FMA50859_Right suprascapular vein.obj",
+      "fj": "FJ2302",
+      "fma": "FMA50859",
+      "name": "Right suprascapular vein",
+      "bytes": 117998,
+      "sha256": "e5cc914a1b9e251a8c897683b7c75b4bf4eb7a7b98290d5ba271be4bfd76f3b3",
+      "partId": "FJ2302_Right_suprascapular_vein",
+      "vertices": 5958,
+      "triangles": 1986,
+      "bounds": [
+        [
+          -139.64999389648438,
+          -113.87699890136719,
+          1283.1300048828125
+        ],
+        [
+          -63.51689910888672,
+          -51.680198669433594,
+          1343.9599609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2303_BP22473_FMA10698_Right suprascapular artery.obj",
+      "fj": "FJ2303",
+      "fma": "FMA10698",
+      "name": "Right suprascapular artery",
+      "bytes": 117220,
+      "sha256": "7de97207d945ae95ef48682ed185867ac0c46a7546f2a060884abcd54e784894",
+      "partId": "FJ2303_Right_suprascapular_artery",
+      "vertices": 5736,
+      "triangles": 1912,
+      "bounds": [
+        [
+          -138.11199951171875,
+          -102.30500030517578,
+          1291.489990234375
+        ],
+        [
+          -41.03670120239258,
+          -36.83729934692383,
+          1354.8199462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2304_BP22447_FMA66563_Trunk of right thoraco-acromial artery.obj",
+      "fj": "FJ2304",
+      "fma": "FMA66563",
+      "name": "Trunk of right thoraco-acromial artery",
+      "bytes": 27311,
+      "sha256": "b62442aefabd3395b69d9d9f4c97df4e747614ed443ffa5774d9971f00111ae3",
+      "partId": "FJ2304_Trunk_of_right_thoraco-acromial_artery",
+      "vertices": 1416,
+      "triangles": 472,
+      "bounds": [
+        [
+          -96.46859741210938,
+          -102.83599853515625,
+          1318.3399658203125
+        ],
+        [
+          -91.66169738769531,
+          -97.85099792480469,
+          1330.9200439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2305_BP22448_FMA66321_Right thoracodorsal artery.obj",
+      "fj": "FJ2305",
+      "fma": "FMA66321",
+      "name": "Right thoracodorsal artery",
+      "bytes": 128633,
+      "sha256": "a418f0a4e9463b3c5c8525b0d52ed6ba9fb9edde82effa0e6f9f5f736f035514",
+      "partId": "FJ2305_Right_thoracodorsal_artery",
+      "vertices": 6324,
+      "triangles": 2108,
+      "bounds": [
+        [
+          -138.9290008544922,
+          -91.4927978515625,
+          1200.6500244140625
+        ],
+        [
+          -128.35699462890625,
+          -63.707801818847656,
+          1280.550048828125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2306_BP21231_FMA71214_Right thoracodorsal vein.obj",
+      "fj": "FJ2306",
+      "fma": "FMA71214",
+      "name": "Right thoracodorsal vein",
+      "bytes": 100380,
+      "sha256": "c02eb3f31f97398ec7d20752962873895ed80ae3472b95259903df8f0a6b43d8",
+      "partId": "FJ2306_Right_thoracodorsal_vein",
+      "vertices": 5076,
+      "triangles": 1692,
+      "bounds": [
+        [
+          -136.093994140625,
+          -118.89800262451172,
+          1193.6199951171875
+        ],
+        [
+          -124.51200103759766,
+          -100.4010009765625,
+          1295.1700439453125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2308_BP22959_FMA10700_Right superficial cervical artery.obj",
+      "fj": "FJ2308",
+      "fma": "FMA10700",
+      "name": "Right superficial cervical artery",
+      "bytes": 44541,
+      "sha256": "bde47f03948f2257cdb8652f22b2295f89a8d3014096404d6cafe4b510a5afc0",
+      "partId": "FJ2308_Right_superficial_cervical_artery",
+      "vertices": 1872,
+      "triangles": 624,
+      "bounds": [
+        [
+          -61.66809844970703,
+          -103.67400360107422,
+          1360.6600341796875
+        ],
+        [
+          -46.09960174560547,
+          -80.20590209960938,
+          1403.5799560546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2310_BP23743_FMA22691_Right brachial artery.obj",
+      "fj": "FJ2310",
+      "fma": "FMA22691",
+      "name": "Right brachial artery",
+      "bytes": 438345,
+      "sha256": "0301f1d6eece6cfbc42ecc90d7caf3b261514c00fa00c55e506adbf816bd8ff1",
+      "partId": "FJ2310_Right_brachial_artery",
+      "vertices": 20628,
+      "triangles": 6876,
+      "bounds": [
+        [
+          -243.7259979248047,
+          -131.07400512695312,
+          794.6790161132812
+        ],
+        [
+          -211.0489959716797,
+          -76.98560333251953,
+          1024.449951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2311_BP22454_FMA22801_Right anterior ulnar recurrent artery.obj",
+      "fj": "FJ2311",
+      "fma": "FMA22801",
+      "name": "Right anterior ulnar recurrent artery",
+      "bytes": 27373,
+      "sha256": "5948cfaa020e2280785b507108ca1ea47b25d1dd21a6a2ada8ec995ce910ecab",
+      "partId": "FJ2311_Right_anterior_ulnar_recurrent_artery",
+      "vertices": 1416,
+      "triangles": 472,
+      "bounds": [
+        [
+          -214.41900634765625,
+          -80.28130340576172,
+          1004.4199829101562
+        ],
+        [
+          -193.4250030517578,
+          -69.34529876708984,
+          1021.3599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2312_BP21281_FMA22951_Right ulnar vein.obj",
+      "fj": "FJ2312",
+      "fma": "FMA22951",
+      "name": "Right ulnar vein",
+      "bytes": 385816,
+      "sha256": "b70d719e0803fd99f66daed41254f3b3fefe17c108c4c954531c9023ec484421",
+      "partId": "FJ2312_Right_ulnar_vein",
+      "vertices": 18228,
+      "triangles": 6076,
+      "bounds": [
+        [
+          -250.16099548339844,
+          -134.22500610351562,
+          814.2420043945312
+        ],
+        [
+          -210.843994140625,
+          -83.86620330810547,
+          1023.3699951171875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2313_BP21287_FMA22936_Left medial brachial vein.obj",
+      "fj": "FJ2313",
+      "fma": "FMA22936",
+      "name": "Left medial brachial vein",
+      "bytes": 174678,
+      "sha256": "052ceb60e120bd3f57f94d6b5ce8048e0a1eb01f90e84042a275c0fad57e4b34",
+      "partId": "FJ2313_Left_medial_brachial_vein",
+      "vertices": 8556,
+      "triangles": 2852,
+      "bounds": [
+        [
+          149.9969940185547,
+          -97.22820281982422,
+          1018.4000244140625
+        ],
+        [
+          218.20399475097656,
+          -82.70880126953125,
+          1234.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2314_BP20998_FMA22778_Left arteria radialis indicis.obj",
+      "fj": "FJ2314",
+      "fma": "FMA22778",
+      "name": "Left arteria radialis indicis",
+      "bytes": 43471,
+      "sha256": "a7b4e1fd798ea78e062e97a9002c6dbfef2f382e4bfeea52b2c0627f4cbb6815",
+      "partId": "FJ2314_Left_arteria_radialis_indicis",
+      "vertices": 2250,
+      "triangles": 750,
+      "bounds": [
+        [
+          270.6969909667969,
+          -143.7469940185547,
+          724.5640258789062
+        ],
+        [
+          294.2699890136719,
+          -136.2530059814453,
+          770.4030151367188
+        ]
+      ]
+    },
+    {
+      "file": "FJ2315_BP21051_FMA85118_Left first common palmar digital artery.obj",
+      "fj": "FJ2315",
+      "fma": "FMA85118",
+      "name": "Left first common palmar digital artery",
+      "bytes": 25949,
+      "sha256": "19dd2f486e20f3c0202b817cb978fabdfdb15576ee2b3822cc550da6894c1508",
+      "partId": "FJ2315_Left_first_common_palmar_digital_artery",
+      "vertices": 1332,
+      "triangles": 444,
+      "bounds": [
+        [
+          265.9320068359375,
+          -143.66000366210938,
+          729.239990234375
+        ],
+        [
+          276.2120056152344,
+          -134.39199829101562,
+          759.3410034179688
+        ]
+      ]
+    },
+    {
+      "file": "FJ2316_BP20895_FMA85120_Left second common palmar digital artery.obj",
+      "fj": "FJ2316",
+      "fma": "FMA85120",
+      "name": "Left second common palmar digital artery",
+      "bytes": 23661,
+      "sha256": "e330d2f04993cbdae05d98424d42f27a2bb98d7448d2b27f993c96b40b88de6b",
+      "partId": "FJ2316_Left_second_common_palmar_digital_artery",
+      "vertices": 1242,
+      "triangles": 414,
+      "bounds": [
+        [
+          254.0260009765625,
+          -144.8090057373047,
+          729.2880249023438
+        ],
+        [
+          257.0820007324219,
+          -133.13900756835938,
+          756.8880004882812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2317_BP20981_FMA85122_Left third common palmar digital artery.obj",
+      "fj": "FJ2317",
+      "fma": "FMA85122",
+      "name": "Left third common palmar digital artery",
+      "bytes": 23312,
+      "sha256": "0cc50fc4b10f3ec6abaf3c4a6832a0e532fc72d7f2d64a5fa5c811ab3cd340e4",
+      "partId": "FJ2317_Left_third_common_palmar_digital_artery",
+      "vertices": 1218,
+      "triangles": 406,
+      "bounds": [
+        [
+          238.6269989013672,
+          -148.4320068359375,
+          735.8040161132812
+        ],
+        [
+          245.2740020751953,
+          -132.09300231933594,
+          760.0679931640625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2318_BP22606_FMA70801_Set of dorsal digital arteries.obj",
+      "fj": "FJ2318",
+      "fma": "FMA70801",
+      "name": "Set of dorsal digital arteries",
+      "bytes": 510087,
+      "sha256": "7839aebb9d7d045a47ca4356b2f56d76aed4a5e7b56cc4e6123987e94b206ebb",
+      "partId": "FJ2318_Set_of_dorsal_digital_arteries",
+      "vertices": 23022,
+      "triangles": 7674,
+      "bounds": [
+        [
+          217.3249969482422,
+          -192.8040008544922,
+          654.4119873046875
+        ],
+        [
+          320.9830017089844,
+          -121.06999969482422,
+          767.4110107421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2319_BP21033_FMA85103_Proper palmar digital vein of left little finger.obj",
+      "fj": "FJ2319",
+      "fma": "FMA85103",
+      "name": "Proper palmar digital vein of left little finger",
+      "bytes": 123860,
+      "sha256": "9eb040431ae015d2dde2db25382050050a4178da7097665f3b850af489bee04d",
+      "partId": "FJ2319_Proper_palmar_digital_vein_of_left_little_finger",
+      "vertices": 6210,
+      "triangles": 2070,
+      "bounds": [
+        [
+          237.96099853515625,
+          -150.11000061035156,
+          720.5029907226562
+        ],
+        [
+          295.90301513671875,
+          -126.91799926757812,
+          770.0999755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2320_BP21649_FMA22921_Left palmar metacarpal vein.obj",
+      "fj": "FJ2320",
+      "fma": "FMA22921",
+      "name": "Left palmar metacarpal vein",
+      "bytes": 72045,
+      "sha256": "adca249c808b893a752dc58a5b0a63ebf8c38d0c05eb75dbb12fa91bc44b4e53",
+      "partId": "FJ2320_Left_palmar_metacarpal_vein",
+      "vertices": 3642,
+      "triangles": 1214,
+      "bounds": [
+        [
+          265.1659851074219,
+          -175.98300170898438,
+          723.760009765625
+        ],
+        [
+          324.3420104980469,
+          -124.00800323486328,
+          820.7960205078125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2321_BP21033_FMA85103_Proper palmar digital vein of left little finger.obj",
+      "fj": "FJ2321",
+      "fma": "FMA85103",
+      "name": "Proper palmar digital vein of left little finger",
+      "bytes": 53014,
+      "sha256": "9439ce45132579cb587b52e071d6ecaaf73808219fea6cd3f3b66e6d0e2c0a38",
+      "partId": "FJ2321_Proper_palmar_digital_vein_of_left_little_finger",
+      "vertices": 2634,
+      "triangles": 878,
+      "bounds": [
+        [
+          218.41200256347656,
+          -175.35800170898438,
+          683.4290161132812
+        ],
+        [
+          239.5659942626953,
+          -129.40899658203125,
+          760.3499755859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2322_BP20283_FMA22923_Common palmar digital vein.obj",
+      "fj": "FJ2322",
+      "fma": "FMA22923",
+      "name": "Common palmar digital vein",
+      "bytes": 30927,
+      "sha256": "b706b184b22f398c96753acd23bb0c031ade9e8276c88adde4349cde1e3a9583",
+      "partId": "FJ2322_Common_palmar_digital_vein",
+      "vertices": 1554,
+      "triangles": 518,
+      "bounds": [
+        [
+          237.8280029296875,
+          -150.17999267578125,
+          718.1309814453125
+        ],
+        [
+          276.41400146484375,
+          -135.27999877929688,
+          733.8419799804688
+        ]
+      ]
+    },
+    {
+      "file": "FJ2323_BP21649_FMA22921_Left palmar metacarpal vein.obj",
+      "fj": "FJ2323",
+      "fma": "FMA22921",
+      "name": "Left palmar metacarpal vein",
+      "bytes": 43067,
+      "sha256": "2722fc71d6e8a469e7958134888fc474d1324cf4c9b6dceca36ba5dfe350b71d",
+      "partId": "FJ2323_Left_palmar_metacarpal_vein",
+      "vertices": 2160,
+      "triangles": 720,
+      "bounds": [
+        [
+          281.4179992675781,
+          -169.47900390625,
+          719.2360229492188
+        ],
+        [
+          318.64599609375,
+          -137.26800537109375,
+          774.635986328125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2324_BP21031_FMA85097_Proper palmar digital vein of left index finger.obj",
+      "fj": "FJ2324",
+      "fma": "FMA85097",
+      "name": "Proper palmar digital vein of left index finger",
+      "bytes": 33608,
+      "sha256": "f10a399ecb05c75817bdc6322221fb6b6002aa48fc06c9270317739a71b1725f",
+      "partId": "FJ2324_Proper_palmar_digital_vein_of_left_index_finger",
+      "vertices": 1662,
+      "triangles": 554,
+      "bounds": [
+        [
+          294.91900634765625,
+          -183.93699645996094,
+          664.9530029296875
+        ],
+        [
+          312.2080078125,
+          -136.60899353027344,
+          720.5009765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2325_BP21031_FMA85097_Proper palmar digital vein of left index finger.obj",
+      "fj": "FJ2325",
+      "fma": "FMA85097",
+      "name": "Proper palmar digital vein of left index finger",
+      "bytes": 49227,
+      "sha256": "fdcc1313f51badd5502f6561c74654130ca20412c39c181d5664ce0bfbdd2f81",
+      "partId": "FJ2325_Proper_palmar_digital_vein_of_left_index_finger",
+      "vertices": 2472,
+      "triangles": 824,
+      "bounds": [
+        [
+          274.9620056152344,
+          -185.7429962158203,
+          663.5560302734375
+        ],
+        [
+          304.8429870605469,
+          -139.5679931640625,
+          724.177001953125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2326_BP20899_FMA85099_Proper palmar digital vein of left middle finger.obj",
+      "fj": "FJ2326",
+      "fma": "FMA85099",
+      "name": "Proper palmar digital vein of left middle finger",
+      "bytes": 44692,
+      "sha256": "1435ee73d14c52d503cd8c0f1355f38abfd001425a3687b79c2685a2f5a8f02d",
+      "partId": "FJ2326_Proper_palmar_digital_vein_of_left_middle_finger",
+      "vertices": 2274,
+      "triangles": 758,
+      "bounds": [
+        [
+          275.0169982910156,
+          -193.656005859375,
+          655.6190185546875
+        ],
+        [
+          281.1549987792969,
+          -141.55099487304688,
+          724.1220092773438
+        ]
+      ]
+    },
+    {
+      "file": "FJ2327_BP20961_FMA85101_Proper palmar digital vein of left ring finger.obj",
+      "fj": "FJ2327",
+      "fma": "FMA85101",
+      "name": "Proper palmar digital vein of left ring finger",
+      "bytes": 42853,
+      "sha256": "22a3b0a44eaaf0d72497c27f38248a6880afa6459a214c70d0134962cc2d602c",
+      "partId": "FJ2327_Proper_palmar_digital_vein_of_left_ring_finger",
+      "vertices": 2100,
+      "triangles": 700,
+      "bounds": [
+        [
+          252.90699768066406,
+          -189.55999755859375,
+          666.6099853515625
+        ],
+        [
+          258.0929870605469,
+          -139.55499267578125,
+          719.5969848632812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2328_BP20961_FMA85101_Proper palmar digital vein of left ring finger.obj",
+      "fj": "FJ2328",
+      "fma": "FMA85101",
+      "name": "Proper palmar digital vein of left ring finger",
+      "bytes": 43504,
+      "sha256": "445688bccdf01bc213e35de8a6ea961a9bdadc6ab0b3b01eac77c240b946b089",
+      "partId": "FJ2328_Proper_palmar_digital_vein_of_left_ring_finger",
+      "vertices": 2184,
+      "triangles": 728,
+      "bounds": [
+        [
+          237.85000610351562,
+          -186.6199951171875,
+          667.3170166015625
+        ],
+        [
+          246.5500030517578,
+          -146.15199279785156,
+          728.114013671875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2329_BP21033_FMA85103_Proper palmar digital vein of left little finger.obj",
+      "fj": "FJ2329",
+      "fma": "FMA85103",
+      "name": "Proper palmar digital vein of left little finger",
+      "bytes": 33064,
+      "sha256": "7b31200d291346e5026ecdd21923a19b9032307791113da3b46f4725da3f9411",
+      "partId": "FJ2329_Proper_palmar_digital_vein_of_left_little_finger",
+      "vertices": 1614,
+      "triangles": 538,
+      "bounds": [
+        [
+          223.55299377441406,
+          -175.13400268554688,
+          680.7509765625
+        ],
+        [
+          239.27499389648438,
+          -148.06500244140625,
+          728.1190185546875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2330_BP21961_FMA23064_Pectoral branch of left thoraco-acromial artery.obj",
+      "fj": "FJ2330",
+      "fma": "FMA23064",
+      "name": "Pectoral branch of left thoraco-acromial artery",
+      "bytes": 206796,
+      "sha256": "635aedbe24c1a75575c4083cc8811c1d483ecd531530b7ca1487f2454727e42a",
+      "partId": "FJ2330_Pectoral_branch_of_left_thoraco-acromial_artery",
+      "vertices": 10128,
+      "triangles": 3376,
+      "bounds": [
+        [
+          92.45760345458984,
+          -149.48500061035156,
+          1200.6300048828125
+        ],
+        [
+          126.88800048828125,
+          -98.78929901123047,
+          1322.4100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2331_BP21094_FMA23125_Middle collateral branch of left deep brachial artery.obj",
+      "fj": "FJ2331",
+      "fma": "FMA23125",
+      "name": "Middle collateral branch of left deep brachial artery",
+      "bytes": 111261,
+      "sha256": "27f71887588744d28f38294d177fe52e9b6e6929db1d224db05e0c3700fb5231",
+      "partId": "FJ2331_Middle_collateral_branch_of_left_deep_brachial_artery",
+      "vertices": 5688,
+      "triangles": 1896,
+      "bounds": [
+        [
+          203.16000366210938,
+          -55.940399169921875,
+          1045.9599609375
+        ],
+        [
+          222.88499450683594,
+          -50.870601654052734,
+          1117.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2332_BP20998_FMA22778_Left arteria radialis indicis.obj",
+      "fj": "FJ2332",
+      "fma": "FMA22778",
+      "name": "Left arteria radialis indicis",
+      "bytes": 44644,
+      "sha256": "849e3b6b69cef63592d4797f21b8136e1ed1c49e352af283f27c5986fdd6298d",
+      "partId": "FJ2332_Left_arteria_radialis_indicis",
+      "vertices": 2196,
+      "triangles": 732,
+      "bounds": [
+        [
+          292.85400390625,
+          -184.2469940185547,
+          664.8800048828125
+        ],
+        [
+          313.7980041503906,
+          -139.4010009765625,
+          726.031982421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2333_BP22710_FMA23051_Medial proper palmar digital artery of left index finger.obj",
+      "fj": "FJ2333",
+      "fma": "FMA23051",
+      "name": "Medial proper palmar digital artery of left index finger",
+      "bytes": 49176,
+      "sha256": "b869107ceffb0b6267d7796274eee325e8e7d0413c2b92ab662e28efc7a7ab00",
+      "partId": "FJ2333_Medial_proper_palmar_digital_artery_of_left_index_finger",
+      "vertices": 2418,
+      "triangles": 806,
+      "bounds": [
+        [
+          274.7439880371094,
+          -182.32200622558594,
+          662.6110229492188
+        ],
+        [
+          303.739990234375,
+          -139.94400024414062,
+          730.6909790039062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2334_BP22717_FMA22860_Lateral proper palmar digital artery of left middle finger.obj",
+      "fj": "FJ2334",
+      "fma": "FMA22860",
+      "name": "Lateral proper palmar digital artery of left middle finger",
+      "bytes": 48841,
+      "sha256": "06f3de1f0cbc59a655a0a7eea85192f1abd6e6937b55028e56f58895886d6c00",
+      "partId": "FJ2334_Lateral_proper_palmar_digital_artery_of_left_middle_finger",
+      "vertices": 2424,
+      "triangles": 808,
+      "bounds": [
+        [
+          274.5580139160156,
+          -194.50399780273438,
+          655.6079711914062
+        ],
+        [
+          283.3869934082031,
+          -142.20599365234375,
+          730.6950073242188
+        ]
+      ]
+    },
+    {
+      "file": "FJ2335_BP21126_FMA85116_Lateral proper palmar digital artery of left ring finger.obj",
+      "fj": "FJ2335",
+      "fma": "FMA85116",
+      "name": "Lateral proper palmar digital artery of left ring finger",
+      "bytes": 44112,
+      "sha256": "972ac02ea225627a2f12974623adb314030c0f5cb8cb0985f6ac701395acf6c0",
+      "partId": "FJ2335_Lateral_proper_palmar_digital_artery_of_left_ring_finger",
+      "vertices": 2148,
+      "triangles": 716,
+      "bounds": [
+        [
+          254.23199462890625,
+          -192.718994140625,
+          666.5859985351562
+        ],
+        [
+          256.4219970703125,
+          -143.37600708007812,
+          730.739013671875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2336_BP21087_FMA23055_Lateral proper palmar digital artery of left little finger.obj",
+      "fj": "FJ2336",
+      "fma": "FMA23055",
+      "name": "Lateral proper palmar digital artery of left little finger",
+      "bytes": 36349,
+      "sha256": "d530cf0e66b2c33b11ee2456f55e5779088745d035c42cf5e1c589899649efdb",
+      "partId": "FJ2336_Lateral_proper_palmar_digital_artery_of_left_little_finger",
+      "vertices": 1812,
+      "triangles": 604,
+      "bounds": [
+        [
+          225.156005859375,
+          -181.1479949951172,
+          677.948974609375
+        ],
+        [
+          240.0449981689453,
+          -146.98500061035156,
+          737.2750244140625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2337_BP20776_FMA85124_Left fourth common palmar digital artery.obj",
+      "fj": "FJ2337",
+      "fma": "FMA85124",
+      "name": "Left fourth common palmar digital artery",
+      "bytes": 55391,
+      "sha256": "f337d776578b7dc0eef20a393513a1bf0c6efe4d4aba413dad4b9bde9119c6ac",
+      "partId": "FJ2337_Left_fourth_common_palmar_digital_artery",
+      "vertices": 2760,
+      "triangles": 920,
+      "bounds": [
+        [
+          217.3280029296875,
+          -180.36599731445312,
+          679.2529907226562
+        ],
+        [
+          236.3090057373047,
+          -135.43800354003906,
+          768.2689819335938
+        ]
+      ]
+    },
+    {
+      "file": "FJ2338_BP20903_FMA22907_Left arteria princeps pollicis.obj",
+      "fj": "FJ2338",
+      "fma": "FMA22907",
+      "name": "Left arteria princeps pollicis",
+      "bytes": 64750,
+      "sha256": "ba107a793488243b205e282d3eee98bc20ff4eddd7d671c37f37c758a04cd268",
+      "partId": "FJ2338_Left_arteria_princeps_pollicis",
+      "vertices": 3234,
+      "triangles": 1078,
+      "bounds": [
+        [
+          273.3890075683594,
+          -175.3679962158203,
+          723.5089721679688
+        ],
+        [
+          324.4259948730469,
+          -124.51499938964844,
+          816.9829711914062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2339_BP20903_FMA22907_Left arteria princeps pollicis.obj",
+      "fj": "FJ2339",
+      "fma": "FMA22907",
+      "name": "Left arteria princeps pollicis",
+      "bytes": 45699,
+      "sha256": "3971e9d04ee3acb8e8b1a598bac79b27ef7817116bc5c2d372e8d18a9e86bb4b",
+      "partId": "FJ2339_Left_arteria_princeps_pollicis",
+      "vertices": 2340,
+      "triangles": 780,
+      "bounds": [
+        [
+          277.8399963378906,
+          -168.54400634765625,
+          719.5759887695312
+        ],
+        [
+          319.885009765625,
+          -134.6540069580078,
+          777.281005859375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2340_BP20899_FMA85099_Proper palmar digital vein of left middle finger.obj",
+      "fj": "FJ2340",
+      "fma": "FMA85099",
+      "name": "Proper palmar digital vein of left middle finger",
+      "bytes": 49555,
+      "sha256": "2fc4862c7e775736a6cc2e0892f14c5d2e7e993f02595e848548b944e8f6da97",
+      "partId": "FJ2340_Proper_palmar_digital_vein_of_left_middle_finger",
+      "vertices": 2454,
+      "triangles": 818,
+      "bounds": [
+        [
+          256.6610107421875,
+          -193.07699584960938,
+          654.9290161132812
+        ],
+        [
+          276.531005859375,
+          -139.5540008544922,
+          719.5980224609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2341_BP21755_FMA22935_Right medial brachial vein.obj",
+      "fj": "FJ2341",
+      "fma": "FMA22935",
+      "name": "Right medial brachial vein",
+      "bytes": 158971,
+      "sha256": "1d7d5e2c64d1cc6c8b74abadb4e20dab59c342252b0ed2edf901632cf11338a8",
+      "partId": "FJ2341_Right_medial_brachial_vein",
+      "vertices": 7710,
+      "triangles": 2570,
+      "bounds": [
+        [
+          -218.19400024414062,
+          -97.24330139160156,
+          1018.4000244140625
+        ],
+        [
+          -150.02499389648438,
+          -82.70149993896484,
+          1234.97998046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2342_BP21050_FMA22777_Right arteria radialis indicis.obj",
+      "fj": "FJ2342",
+      "fma": "FMA22777",
+      "name": "Right arteria radialis indicis",
+      "bytes": 43547,
+      "sha256": "45e1e8f0b2df2b2a12ced8821f3c5bead182e39a5fbd6cf281134d5504b5dd48",
+      "partId": "FJ2342_Right_arteria_radialis_indicis",
+      "vertices": 2226,
+      "triangles": 742,
+      "bounds": [
+        [
+          -294.27301025390625,
+          -143.7429962158203,
+          724.5549926757812
+        ],
+        [
+          -270.7030029296875,
+          -136.2550048828125,
+          770.3939819335938
+        ]
+      ]
+    },
+    {
+      "file": "FJ2343_BP20905_FMA22856_Right first common palmar digital artery.obj",
+      "fj": "FJ2343",
+      "fma": "FMA22856",
+      "name": "Right first common palmar digital artery",
+      "bytes": 25175,
+      "sha256": "4c0815ee87924989733cb81110e11f2d1685e6c0cb866d35edb9d118973bac72",
+      "partId": "FJ2343_Right_first_common_palmar_digital_artery",
+      "vertices": 1302,
+      "triangles": 434,
+      "bounds": [
+        [
+          -276.2019958496094,
+          -143.6719970703125,
+          729.2310180664062
+        ],
+        [
+          -265.9490051269531,
+          -134.40899658203125,
+          759.3460083007812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2344_BP20845_FMA85119_Right second common palmar digital artery.obj",
+      "fj": "FJ2344",
+      "fma": "FMA85119",
+      "name": "Right second common palmar digital artery",
+      "bytes": 23721,
+      "sha256": "5a76ae80aba61222cbd8799e4c7b701ff86a58d4eb2a81974698d3d8105bb25f",
+      "partId": "FJ2344_Right_second_common_palmar_digital_artery",
+      "vertices": 1230,
+      "triangles": 410,
+      "bounds": [
+        [
+          -257.08599853515625,
+          -144.79299926757812,
+          729.2930297851562
+        ],
+        [
+          -254.04200744628906,
+          -133.14500427246094,
+          756.8759765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2345_BP21044_FMA85121_Right third common palmar digital artery.obj",
+      "fj": "FJ2345",
+      "fma": "FMA85121",
+      "name": "Right third common palmar digital artery",
+      "bytes": 23819,
+      "sha256": "7ff9170d7d4bd7c27632db5f97e6fdd99016d60ccdd564f3fdf30567e154bc36",
+      "partId": "FJ2345_Right_third_common_palmar_digital_artery",
+      "vertices": 1236,
+      "triangles": 412,
+      "bounds": [
+        [
+          -245.26699829101562,
+          -148.44000244140625,
+          735.7979736328125
+        ],
+        [
+          -238.6060028076172,
+          -132.10299682617188,
+          760.052978515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2346_BP22606_FMA70801_Set of dorsal digital arteries.obj",
+      "fj": "FJ2346",
+      "fma": "FMA70801",
+      "name": "Set of dorsal digital arteries",
+      "bytes": 518070,
+      "sha256": "20c1bbc58cb3f5aa17dcc7f55fc0cf4e6e7492a0530cd208bf8f52ed01b464d8",
+      "partId": "FJ2346_Set_of_dorsal_digital_arteries",
+      "vertices": 23172,
+      "triangles": 7724,
+      "bounds": [
+        [
+          -320.9949951171875,
+          -192.83700561523438,
+          654.406005859375
+        ],
+        [
+          -217.3000030517578,
+          -121.0770034790039,
+          767.4329833984375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2347_BP22634_FMA70800_Set of dorsal metacarpal arteries.obj",
+      "fj": "FJ2347",
+      "fma": "FMA70800",
+      "name": "Set of dorsal metacarpal arteries",
+      "bytes": 270622,
+      "sha256": "19b6a28d203158f8997bd5290150215e395c1d31d588e9b71d8491024020fe3e",
+      "partId": "FJ2347_Set_of_dorsal_metacarpal_arteries",
+      "vertices": 12942,
+      "triangles": 4314,
+      "bounds": [
+        [
+          -290.02801513671875,
+          -139.42999267578125,
+          725.781982421875
+        ],
+        [
+          -224.2429962158203,
+          -110.322998046875,
+          793.2890014648438
+        ]
+      ]
+    },
+    {
+      "file": "FJ2348_BP22634_FMA70800_Set of dorsal metacarpal arteries.obj",
+      "fj": "FJ2348",
+      "fma": "FMA70800",
+      "name": "Set of dorsal metacarpal arteries",
+      "bytes": 268627,
+      "sha256": "76e3b318bada635ea0a638b9950f4a629df09780f385f20a9721000eb1861140",
+      "partId": "FJ2348_Set_of_dorsal_metacarpal_arteries",
+      "vertices": 12942,
+      "triangles": 4314,
+      "bounds": [
+        [
+          224.26699829101562,
+          -139.41900634765625,
+          725.7899780273438
+        ],
+        [
+          290.02099609375,
+          -110.322998046875,
+          793.2940063476562
+        ]
+      ]
+    },
+    {
+      "file": "FJ2349_BP20962_FMA85102_Proper palmar digital vein of right little finger.obj",
+      "fj": "FJ2349",
+      "fma": "FMA85102",
+      "name": "Proper palmar digital vein of right little finger",
+      "bytes": 126514,
+      "sha256": "b7c578797002f248b95de53d7a74f187676577b1fff328250cbcb28e710dc0fc",
+      "partId": "FJ2349_Proper_palmar_digital_vein_of_right_little_finger",
+      "vertices": 6264,
+      "triangles": 2088,
+      "bounds": [
+        [
+          -295.9200134277344,
+          -150.11300659179688,
+          720.4990234375
+        ],
+        [
+          -237.92799377441406,
+          -126.89700317382812,
+          770.1099853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2350_BP21646_FMA22920_Right palmar metacarpal vein.obj",
+      "fj": "FJ2350",
+      "fma": "FMA22920",
+      "name": "Right palmar metacarpal vein",
+      "bytes": 72204,
+      "sha256": "fdd0f05e28e19fa2f895318bf5e9fd184a924012ca02c101f9a1465861a72d70",
+      "partId": "FJ2350_Right_palmar_metacarpal_vein",
+      "vertices": 3618,
+      "triangles": 1206,
+      "bounds": [
+        [
+          -324.3429870605469,
+          -175.98899841308594,
+          723.7429809570312
+        ],
+        [
+          -265.1610107421875,
+          -124.00499725341797,
+          820.7869873046875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2351_BP20962_FMA85102_Proper palmar digital vein of right little finger.obj",
+      "fj": "FJ2351",
+      "fma": "FMA85102",
+      "name": "Proper palmar digital vein of right little finger",
+      "bytes": 53915,
+      "sha256": "d704b03d10b7215bdd26c3547a46ab4b38fa690f9f4b575362425843f5dbddbc",
+      "partId": "FJ2351_Proper_palmar_digital_vein_of_right_little_finger",
+      "vertices": 2658,
+      "triangles": 886,
+      "bounds": [
+        [
+          -239.58599853515625,
+          -175.3699951171875,
+          683.426025390625
+        ],
+        [
+          -218.41099548339844,
+          -129.39999389648438,
+          760.3419799804688
+        ]
+      ]
+    },
+    {
+      "file": "FJ2352_BP20283_FMA22923_Common palmar digital vein.obj",
+      "fj": "FJ2352",
+      "fma": "FMA22923",
+      "name": "Common palmar digital vein",
+      "bytes": 32645,
+      "sha256": "ca6184332ad77566a5ae6bfe7643c54bd144f03c43d7393eeeb08129824f8e8d",
+      "partId": "FJ2352_Common_palmar_digital_vein",
+      "vertices": 1620,
+      "triangles": 540,
+      "bounds": [
+        [
+          -276.42999267578125,
+          -150.12100219726562,
+          718.1589965820312
+        ],
+        [
+          -237.82699584960938,
+          -135.30099487304688,
+          733.875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2353_BP21646_FMA22920_Right palmar metacarpal vein.obj",
+      "fj": "FJ2353",
+      "fma": "FMA22920",
+      "name": "Right palmar metacarpal vein",
+      "bytes": 43123,
+      "sha256": "cfc3fb2057ab9a28b61cb30eaa923d661b4b386ef74cd840a09d0f54e2bdca51",
+      "partId": "FJ2353_Right_palmar_metacarpal_vein",
+      "vertices": 2172,
+      "triangles": 724,
+      "bounds": [
+        [
+          -318.635986328125,
+          -169.49400329589844,
+          719.2369995117188
+        ],
+        [
+          -281.4230041503906,
+          -137.2830047607422,
+          774.6439819335938
+        ]
+      ]
+    },
+    {
+      "file": "FJ2354_BP20953_FMA85096_Proper palmar digital vein of right index finger.obj",
+      "fj": "FJ2354",
+      "fma": "FMA85096",
+      "name": "Proper palmar digital vein of right index finger",
+      "bytes": 36227,
+      "sha256": "add82270479e6dfb371ad30fac14ffc4ff153b71b127fef6224121ba8e42e99d",
+      "partId": "FJ2354_Proper_palmar_digital_vein_of_right_index_finger",
+      "vertices": 1686,
+      "triangles": 562,
+      "bounds": [
+        [
+          -312.2049865722656,
+          -183.94200134277344,
+          664.9340209960938
+        ],
+        [
+          -294.8840026855469,
+          -136.53500366210938,
+          720.5360107421875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2355_BP20953_FMA85096_Proper palmar digital vein of right index finger.obj",
+      "fj": "FJ2355",
+      "fma": "FMA85096",
+      "name": "Proper palmar digital vein of right index finger",
+      "bytes": 50353,
+      "sha256": "84d3d5aaceecb59a22285fd3d4b33fcf00da09a8d9c6b5941d9a0c57fb22124d",
+      "partId": "FJ2355_Proper_palmar_digital_vein_of_right_index_finger",
+      "vertices": 2496,
+      "triangles": 832,
+      "bounds": [
+        [
+          -304.8789978027344,
+          -185.7480010986328,
+          663.5390014648438
+        ],
+        [
+          -274.9639892578125,
+          -139.5989990234375,
+          724.1580200195312
+        ]
+      ]
+    },
+    {
+      "file": "FJ2356_BP20611_FMA85098_Proper palmar digital vein of right middle finger.obj",
+      "fj": "FJ2356",
+      "fma": "FMA85098",
+      "name": "Proper palmar digital vein of right middle finger",
+      "bytes": 45041,
+      "sha256": "ece1d75d51135130bb77bab4cb8f3de6a10129a29aeb2c45c0c0bde660c3c48a",
+      "partId": "FJ2356_Proper_palmar_digital_vein_of_right_middle_finger",
+      "vertices": 2280,
+      "triangles": 760,
+      "bounds": [
+        [
+          -281.1759948730469,
+          -193.66799926757812,
+          655.614013671875
+        ],
+        [
+          -275.01800537109375,
+          -141.54299926757812,
+          724.1259765625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2357_BP20611_FMA85098_Proper palmar digital vein of right middle finger.obj",
+      "fj": "FJ2357",
+      "fma": "FMA85098",
+      "name": "Proper palmar digital vein of right middle finger",
+      "bytes": 50932,
+      "sha256": "aeb2964f8658f5cda106f3cc0c352f7f62ae3895d3b7ca931816d4ae4c77d604",
+      "partId": "FJ2357_Proper_palmar_digital_vein_of_right_middle_finger",
+      "vertices": 2478,
+      "triangles": 826,
+      "bounds": [
+        [
+          -276.52301025390625,
+          -193.07899475097656,
+          654.9420166015625
+        ],
+        [
+          -256.6400146484375,
+          -139.55599975585938,
+          719.60400390625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2358_BP20801_FMA85100_Proper palmar digital vein of right ring finger.obj",
+      "fj": "FJ2358",
+      "fma": "FMA85100",
+      "name": "Proper palmar digital vein of right ring finger",
+      "bytes": 41956,
+      "sha256": "b970910fbbc7718778b9516488ef10f3f191dee51e9a3fb5d30e9b067e17d450",
+      "partId": "FJ2358_Proper_palmar_digital_vein_of_right_ring_finger",
+      "vertices": 2094,
+      "triangles": 698,
+      "bounds": [
+        [
+          -258.0780029296875,
+          -189.57699584960938,
+          666.6430053710938
+        ],
+        [
+          -252.8979949951172,
+          -139.55299377441406,
+          719.5980224609375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2359_BP20801_FMA85100_Proper palmar digital vein of right ring finger.obj",
+      "fj": "FJ2359",
+      "fma": "FMA85100",
+      "name": "Proper palmar digital vein of right ring finger",
+      "bytes": 43924,
+      "sha256": "1259c1339d217b7774a35fc9575a57da7e2495e98f566ff99b1b160c51ba9d29",
+      "partId": "FJ2359_Proper_palmar_digital_vein_of_right_ring_finger",
+      "vertices": 2178,
+      "triangles": 726,
+      "bounds": [
+        [
+          -246.55799865722656,
+          -186.6280059814453,
+          667.3150024414062
+        ],
+        [
+          -237.85899353027344,
+          -146.125,
+          728.1170043945312
+        ]
+      ]
+    },
+    {
+      "file": "FJ2360_BP20962_FMA85102_Proper palmar digital vein of right little finger.obj",
+      "fj": "FJ2360",
+      "fma": "FMA85102",
+      "name": "Proper palmar digital vein of right little finger",
+      "bytes": 33362,
+      "sha256": "6cc9b944a6f769bca7fbfcb3dcbde2fba7f98b9c8e4677fdc0d8382f7fad6089",
+      "partId": "FJ2360_Proper_palmar_digital_vein_of_right_little_finger",
+      "vertices": 1644,
+      "triangles": 548,
+      "bounds": [
+        [
+          -239.25900268554688,
+          -175.13400268554688,
+          680.7410278320312
+        ],
+        [
+          -223.51400756835938,
+          -148.07200622558594,
+          728.1229858398438
+        ]
+      ]
+    },
+    {
+      "file": "FJ2361_BP20917_FMA23063_Pectoral branch of right thoraco-acromial artery.obj",
+      "fj": "FJ2361",
+      "fma": "FMA23063",
+      "name": "Pectoral branch of right thoraco-acromial artery",
+      "bytes": 209885,
+      "sha256": "dd861b1f5849b5ac01002287351d6877468780b296dea2f20b8a6708f7a9bfea",
+      "partId": "FJ2361_Pectoral_branch_of_right_thoraco-acromial_artery",
+      "vertices": 10200,
+      "triangles": 3400,
+      "bounds": [
+        [
+          -126.89299774169922,
+          -149.48500061035156,
+          1200.6300048828125
+        ],
+        [
+          -92.45249938964844,
+          -98.79180145263672,
+          1322.4100341796875
+        ]
+      ]
+    },
+    {
+      "file": "FJ2362_BP22011_FMA23124_Middle collateral branch of right deep brachial artery.obj",
+      "fj": "FJ2362",
+      "fma": "FMA23124",
+      "name": "Middle collateral branch of right deep brachial artery",
+      "bytes": 99573,
+      "sha256": "4613c80290dd49bd73eb2f3813270ebc204b3edca7aa1ee1aac0bb7fc70cbb50",
+      "partId": "FJ2362_Middle_collateral_branch_of_right_deep_brachial_artery",
+      "vertices": 5052,
+      "triangles": 1684,
+      "bounds": [
+        [
+          -222.88400268554688,
+          -55.94660186767578,
+          1045.949951171875
+        ],
+        [
+          -203.15699768066406,
+          -50.869300842285156,
+          1117.8599853515625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2363_BP21050_FMA22777_Right arteria radialis indicis.obj",
+      "fj": "FJ2363",
+      "fma": "FMA22777",
+      "name": "Right arteria radialis indicis",
+      "bytes": 44095,
+      "sha256": "b98cd5fca6bdb3bae91a6dc26ce16b2455a7dbcb76b49581d543dfe73b9ace6d",
+      "partId": "FJ2363_Right_arteria_radialis_indicis",
+      "vertices": 2178,
+      "triangles": 726,
+      "bounds": [
+        [
+          -313.81201171875,
+          -184.25599670410156,
+          664.864013671875
+        ],
+        [
+          -292.8139953613281,
+          -139.40899658203125,
+          726.0280151367188
+        ]
+      ]
+    },
+    {
+      "file": "FJ2364_BP21084_FMA23050_Medial proper palmar digital artery of right index finger.obj",
+      "fj": "FJ2364",
+      "fma": "FMA23050",
+      "name": "Medial proper palmar digital artery of right index finger",
+      "bytes": 49304,
+      "sha256": "c9d30c89e8dd216474c2b1462208a435db142f75d4f4f950e79c281c12a926e6",
+      "partId": "FJ2364_Medial_proper_palmar_digital_artery_of_right_index_finger",
+      "vertices": 2400,
+      "triangles": 800,
+      "bounds": [
+        [
+          -303.7550048828125,
+          -182.3300018310547,
+          662.6019897460938
+        ],
+        [
+          -274.74798583984375,
+          -139.947998046875,
+          730.6959838867188
+        ]
+      ]
+    },
+    {
+      "file": "FJ2365_BP21139_FMA22858_Lateral proper palmar digital artery of right middle finger.obj",
+      "fj": "FJ2365",
+      "fma": "FMA22858",
+      "name": "Lateral proper palmar digital artery of right middle finger",
+      "bytes": 49465,
+      "sha256": "007d10641b654894b531964ce6e62de6d716926455ff84ddee82776b2986bad6",
+      "partId": "FJ2365_Lateral_proper_palmar_digital_artery_of_right_middle_finger",
+      "vertices": 2418,
+      "triangles": 806,
+      "bounds": [
+        [
+          -283.3819885253906,
+          -194.5240020751953,
+          655.6069946289062
+        ],
+        [
+          -274.55499267578125,
+          -142.20399475097656,
+          730.6959838867188
+        ]
+      ]
+    },
+    {
+      "file": "FJ2366_BP21074_FMA85115_Lateral proper palmar digital artery of right ring finger.obj",
+      "fj": "FJ2366",
+      "fma": "FMA85115",
+      "name": "Lateral proper palmar digital artery of right ring finger",
+      "bytes": 43762,
+      "sha256": "276f6c19650aea7191c874aad1e64b9b790bd8668906acd261aca537328d7eaa",
+      "partId": "FJ2366_Lateral_proper_palmar_digital_artery_of_right_ring_finger",
+      "vertices": 2160,
+      "triangles": 720,
+      "bounds": [
+        [
+          -256.4070129394531,
+          -192.73300170898438,
+          666.5910034179688
+        ],
+        [
+          -254.2220001220703,
+          -143.343994140625,
+          730.7589721679688
+        ]
+      ]
+    },
+    {
+      "file": "FJ2367_BP22709_FMA85112_Medial proper palmar digital artery of right middle finger.obj",
+      "fj": "FJ2367",
+      "fma": "FMA85112",
+      "name": "Medial proper palmar digital artery of right middle finger",
+      "bytes": 50685,
+      "sha256": "3c54e07e0ce9306483896722f66b223691f75503ed5204e5322f974db5d75280",
+      "partId": "FJ2367_Medial_proper_palmar_digital_artery_of_right_middle_finger",
+      "vertices": 2478,
+      "triangles": 826,
+      "bounds": [
+        [
+          -274.5840148925781,
+          -193.68600463867188,
+          656.2839965820312
+        ],
+        [
+          -254.9530029296875,
+          -143.3300018310547,
+          730.7210083007812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2368_BP21140_FMA23054_Lateral proper palmar digital artery of right little finger.obj",
+      "fj": "FJ2368",
+      "fma": "FMA23054",
+      "name": "Lateral proper palmar digital artery of right little finger",
+      "bytes": 37298,
+      "sha256": "92dcef10f8d9c30a0a45e133d3aee32d69970adbb4c890fe7d5957b833ccfbee",
+      "partId": "FJ2368_Lateral_proper_palmar_digital_artery_of_right_little_finger",
+      "vertices": 1842,
+      "triangles": 614,
+      "bounds": [
+        [
+          -240.05599975585938,
+          -181.16400146484375,
+          677.9409790039062
+        ],
+        [
+          -225.156005859375,
+          -146.98500061035156,
+          737.2739868164062
+        ]
+      ]
+    },
+    {
+      "file": "FJ2369_BP21101_FMA23052_Medial proper palmar digital artery of right ring finger.obj",
+      "fj": "FJ2369",
+      "fma": "FMA23052",
+      "name": "Medial proper palmar digital artery of right ring finger",
+      "bytes": 44385,
+      "sha256": "7f2c7b029391de09858bbf29176f5ff6cd34eec64a7d19fd84cc4fa63b87138d",
+      "partId": "FJ2369_Medial_proper_palmar_digital_artery_of_right_ring_finger",
+      "vertices": 2178,
+      "triangles": 726,
+      "bounds": [
+        [
+          -248.0959930419922,
+          -192.82000732421875,
+          666.6190185546875
+        ],
+        [
+          -238.6230010986328,
+          -146.97300720214844,
+          737.2429809570312
+        ]
+      ]
+    },
+    {
+      "file": "FJ2370_BP20782_FMA85123_Right fourth common palmar digital artery.obj",
+      "fj": "FJ2370",
+      "fma": "FMA85123",
+      "name": "Right fourth common palmar digital artery",
+      "bytes": 57350,
+      "sha256": "eb7ffc2bd1457fa6a68939df6a93c00c74c2f1f6db7eea638c954c8de55e325e",
+      "partId": "FJ2370_Right_fourth_common_palmar_digital_artery",
+      "vertices": 2808,
+      "triangles": 936,
+      "bounds": [
+        [
+          -236.3179931640625,
+          -180.36199951171875,
+          679.2540283203125
+        ],
+        [
+          -217.32699584960938,
+          -135.44500732421875,
+          768.2620239257812
+        ]
+      ]
+    },
+    {
+      "file": "FJ2371_BP20966_FMA22905_Right arteria princeps pollicis.obj",
+      "fj": "FJ2371",
+      "fma": "FMA22905",
+      "name": "Right arteria princeps pollicis",
+      "bytes": 65605,
+      "sha256": "2f8f93f4b68480fafafec2feea02e84e2350056de2fab1453c48ef12d2a75e8c",
+      "partId": "FJ2371_Right_arteria_princeps_pollicis",
+      "vertices": 3210,
+      "triangles": 1070,
+      "bounds": [
+        [
+          -324.4259948730469,
+          -175.36900329589844,
+          723.4910278320312
+        ],
+        [
+          -273.37799072265625,
+          -124.51699829101562,
+          816.97802734375
+        ]
+      ]
+    },
+    {
+      "file": "FJ2372_BP20966_FMA22905_Right arteria princeps pollicis.obj",
+      "fj": "FJ2372",
+      "fma": "FMA22905",
+      "name": "Right arteria princeps pollicis",
+      "bytes": 46204,
+      "sha256": "e807c7a842f58c284f85ad3c25668e01eaf85b182e22e95fd9ea03d94aefdabc",
+      "partId": "FJ2372_Right_arteria_princeps_pollicis",
+      "vertices": 2340,
+      "triangles": 780,
+      "bounds": [
+        [
+          -319.89801025390625,
+          -168.55599975585938,
+          719.5399780273438
+        ],
+        [
+          -277.8349914550781,
+          -134.63099670410156,
+          777.2969970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2373_BP22420_FMA22707_Right superior ulnar collateral artery.obj",
+      "fj": "FJ2373",
+      "fma": "FMA22707",
+      "name": "Right superior ulnar collateral artery",
+      "bytes": 87053,
+      "sha256": "b716078b7ea6ecc67bcceca78ce113af87c0d3fc6a231abd2c6b9ea0ab3c46a6",
+      "partId": "FJ2373_Right_superior_ulnar_collateral_artery",
+      "vertices": 4428,
+      "triangles": 1476,
+      "bounds": [
+        [
+          -188.82400512695312,
+          -84.2344970703125,
+          1040.510009765625
+        ],
+        [
+          -181.1739959716797,
+          -54.42580032348633,
+          1122.969970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2374_BP21892_FMA22708_Left superior ulnar collateral artery.obj",
+      "fj": "FJ2374",
+      "fma": "FMA22708",
+      "name": "Left superior ulnar collateral artery",
+      "bytes": 86359,
+      "sha256": "41aacc317c5143c0c37a419691ba37098439ae58234068265e47c93264438e03",
+      "partId": "FJ2374_Left_superior_ulnar_collateral_artery",
+      "vertices": 4428,
+      "triangles": 1476,
+      "bounds": [
+        [
+          181.16299438476562,
+          -84.23519897460938,
+          1040.52001953125
+        ],
+        [
+          188.81300354003906,
+          -54.417198181152344,
+          1122.969970703125
+        ]
+      ]
+    },
+    {
+      "file": "FJ2386_BP22665_FMA70447_Caudate lobe branch of right hepatic artery.obj",
+      "fj": "FJ2386",
+      "fma": "FMA70447",
+      "name": "Caudate lobe branch of right hepatic artery",
+      "bytes": 22581,
+      "sha256": "bcd177d80466ef320cafb8bdcb9c525bac0dba316044404f556321008a6dcf64",
+      "partId": "FJ2386_Caudate_lobe_branch_of_right_hepatic_artery",
+      "vertices": 1086,
+      "triangles": 362,
+      "bounds": [
+        [
+          -33.012901306152344,
+          -141.66600036621094,
+          1106.719970703125
+        ],
+        [
+          -16.512399673461914,
+          -128.35899353027344,
+          1119.5699462890625
+        ]
+      ]
+    },
+    {
+      "file": "FJ2394_BP21167_FMA71708_Right lobe branch of right hepatic artery.obj",
+      "fj": "FJ2394",
+      "fma": "FMA71708",
+      "name": "Right lobe branch of right hepatic artery",
+      "bytes": 100991,
+      "sha256": "a6ac66530884c25c19bc898098ab343d5dcceeb209a4a82d6cce41d98cc40b04",
+      "partId": "FJ2394_Right_lobe_branch_of_right_hepatic_artery",
+      "vertices": 4122,
+      "triangles": 1374,
+      "bounds": [
+        [
+          -91.93060302734375,
+          -152.55299377441406,
+          1113.260009765625
+        ],
+        [
+          -45.30820083618164,
+          -66.7136001586914,
+          1143.449951171875
+        ]
+      ]
+    }
+  ]
+}

@@ -476,3 +476,5 @@ export const modelSources={
     "meshCount": 13
   }
 };
+
+modelSources.skeleton={url:'./models/current/body-skeleton.glb.gz',meshCount:242,sources:[{url:'https://lifesciencedb.jp/bp3d/',version:'4.3'}]};

@@ -1,6 +1,13 @@
 // Laterality follows source naming, never camera coordinates. Relative branches can
 // contain both words; ambiguous names and known source conflicts remain unassigned.
-export function sourceLaterality(id){
+export function sourceLaterality(id,detail){
+ // Hash-based whole-body IDs have no side token. Source metadata is authoritative;
+ // an explicit null must stay unassigned rather than falling back to a label guess.
+ if(detail?.identityNamespace==='Z-Anatomy object name'&&Object.hasOwn(detail,'laterality')){
+  return detail.laterality==='L'||detail.laterality==='R'?detail.laterality:null;
+ }
+ // Audited Z-Anatomy object suffixes .l/.r are preserved as _l/_r in GLB names.
+ const zSide=id.match(/(?:^|:)ZA_[^:]+_([lr])$/)?.[1];if(zSide)return zSide.toUpperCase();
  // united-male v1.10: these ten nodes have anatomical_structure_of
  // #VHMRightKidney and parent VH_M_renal_pyramid_R. Original IDs stay intact.
  if(/^VH_M_renal_pyramid_[a-j]$/.test(id))return 'R';

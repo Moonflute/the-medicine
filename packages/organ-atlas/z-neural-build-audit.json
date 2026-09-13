@@ -1,0 +1,50 @@
+{
+  "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "regions": [
+    {
+      "side": "l",
+      "file": "z-lower-neural-l.glb.gz",
+      "bytes": 807451,
+      "structures": [
+        "Hip bone.l",
+        "Femur.l",
+        "Tibia.l",
+        "Fibula.l",
+        "Sciatic nerve.l",
+        "Femoral nerve.l",
+        "Tibial nerve.l",
+        "Obturator nerve.l",
+        "Piriformis muscle.l",
+        "Iliacus muscle.l",
+        "Psoas major.l",
+        "Inguinal ligament.l",
+        "Sacrum",
+        "Coccyx"
+      ],
+      "sourceCoordinatesPreserved": true
+    },
+    {
+      "side": "r",
+      "file": "z-lower-neural-r.glb.gz",
+      "bytes": 808768,
+      "structures": [
+        "Hip bone.r",
+        "Femur.r",
+        "Tibia.r",
+        "Fibula.r",
+        "Sciatic nerve.r",
+        "Femoral nerve.r",
+        "Tibial nerve.r",
+        "Obturator nerve.r",
+        "Piriformis muscle.r",
+        "Iliacus muscle.r",
+        "Psoas major.r",
+        "Inguinal ligament.r",
+        "Sacrum",
+        "Coccyx"
+      ],
+      "sourceCoordinatesPreserved": true
+    }
+  ],
+  "registration": "Own source frame only; NOT registered to BodyParts3D 4.3"
+}

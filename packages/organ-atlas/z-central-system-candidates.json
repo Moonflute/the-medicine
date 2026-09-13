@@ -1,0 +1,15 @@
+{
+  "status": "Research candidates; not connected to app or registered to BP3D",
+  "source": "Z-Anatomy evaluated shared frame",
+  "groups": [
+    {
+      "system": "nerves",
+      "structures": 248,
+      "triangles": 782786,
+      "file": "z-whole-nerves.glb.gz",
+      "bytes": 11795943,
+      "sourceCoordinatesAndIndicesPreserved": true
+    }
+  ],
+  "classification": "Objects shared by muscle and nerve collections classified as muscles; no source geometry duplicated"
+}

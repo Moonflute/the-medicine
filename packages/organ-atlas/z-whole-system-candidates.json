@@ -1,0 +1,47 @@
+{
+  "status": "Research candidates; not connected to app or registered to BP3D",
+  "source": "Z-Anatomy evaluated shared frame",
+  "groups": [
+    {
+      "system": "skeleton",
+      "structures": 329,
+      "triangles": 814839,
+      "file": "z-whole-skeleton.glb.gz",
+      "bytes": 11845639,
+      "sourceCoordinatesAndIndicesPreserved": true
+    },
+    {
+      "system": "muscles",
+      "structures": 681,
+      "triangles": 2314143,
+      "file": "z-whole-muscles.glb.gz",
+      "bytes": 34146212,
+      "sourceCoordinatesAndIndicesPreserved": true
+    },
+    {
+      "system": "arteries",
+      "structures": 400,
+      "triangles": 2381290,
+      "file": "z-whole-arteries.glb.gz",
+      "bytes": 33067917,
+      "sourceCoordinatesAndIndicesPreserved": true
+    },
+    {
+      "system": "veins",
+      "structures": 212,
+      "triangles": 1165728,
+      "file": "z-whole-veins.glb.gz",
+      "bytes": 16131914,
+      "sourceCoordinatesAndIndicesPreserved": true
+    },
+    {
+      "system": "nerves",
+      "structures": 253,
+      "triangles": 1207386,
+      "file": "z-whole-nerves.glb.gz",
+      "bytes": 16773191,
+      "sourceCoordinatesAndIndicesPreserved": true
+    }
+  ],
+  "classification": "Objects shared by muscle and nerve collections classified as muscles; no source geometry duplicated"
+}
