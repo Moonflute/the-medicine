@@ -391,3 +391,10 @@ Source limitations: https://lifesciencedb.jp/bp3d/info_en/index.html and https:/
 - Actual HTTPS Chromium UI passed heart save, duplicate save without download, network-blocked reload, scoped deletion, and all six whole-body system saves plus five previously unloaded layers with model networking blocked.
 - Model storage does not cache the whole web application; browser eviction remains possible.
 - First release retains documented source coverage and anatomical identity limitations; full anatomical verification is not claimed.
+
+## Post-0.13.0 phrenic source coverage correction
+- Deployment 34753264555 of commit 6c3c53562ef616f9bf63c2ce3c6d2a8833a67d35 succeeded; public 0.13.0 and real network-blocked cached heart reload verified.
+- Rechecked broader source-name matches in the 7,184-object Z inventory and BodyParts3D 4.3 tree. No separately named Z phrenic or inferior gluteal nerve surfaced. The existing BP cervical-upper-left partition already contains all five phrenic candidate surfaces, including right-sided branch surfaces. It must not be described as wholly left-sided.
+- Corrected regional label to include cervical/left upper-limb/phrenic scope, and added five source-preserving coverage notes. Original medical labels, FMA IDs and geometry are unchanged. Two left trunk-named source pieces have different inferior/superior extents; no invented branch identity or mirrored right trunk was added.
+- Clinical course comparison reference: https://www.ncbi.nlm.nih.gov/books/NBK513325/; imaging/anatomic primary-source search result https://pmc.ncbi.nlm.nih.gov/articles/PMC12789753/ describes pericardial/pleural and anterior hilar relationships. This is not evidence for registering BP surfaces to Z.
+- Generated catalog, source-identity display assertions for all five records and Vite build passed. Changes remain local for the next release; no additional deployment.

@@ -2937,14 +2937,18 @@ export const neuralIdentities={
     "ontologyId": "FMA:6201",
     "sourceMesh": "FJ4156",
     "system": "nerves",
-    "representation": "tissue-surface"
+    "representation": "tissue-surface",
+    "representationNote": "횡격신경의 심막 가지 원본 표면입니다. 이 보기에는 완전한 오른쪽 횡격신경 줄기가 없습니다.",
+    "reviewStatus": "incomplete-source-coverage"
   },
   "FJ4157_Trunk_of_left_phrenic_nerve": {
     "englishLabel": "Trunk of left phrenic nerve",
     "ontologyId": "FMA:65387",
     "sourceMesh": "FJ4157",
     "system": "nerves",
-    "representation": "tissue-surface"
+    "representation": "tissue-surface",
+    "representationNote": "왼쪽 횡격신경 줄기 원본의 한 구간입니다. 동일 명칭의 FJ4279와 원본 범위가 다르며, 완전한 경수 기시·분지 구현을 의미하지 않습니다.",
+    "reviewStatus": "incomplete-source-coverage"
   },
   "FJ4158_Left_anterior_interosseous_nerve": {
     "englishLabel": "Left anterior interosseous nerve",
@@ -3070,7 +3074,9 @@ export const neuralIdentities={
     "ontologyId": "FMA:6201",
     "sourceMesh": "FJ4226",
     "system": "nerves",
-    "representation": "tissue-surface"
+    "representation": "tissue-surface",
+    "representationNote": "횡격신경의 심막 가지 원본 표면입니다. 이 보기의 횡격신경 표면들은 완전한 양측 신경계를 구성하지 않습니다.",
+    "reviewStatus": "incomplete-source-coverage"
   },
   "FJ4240_Left_radial_nerve": {
     "englishLabel": "Left radial nerve",
@@ -3266,7 +3272,9 @@ export const neuralIdentities={
     "ontologyId": "FMA:65387",
     "sourceMesh": "FJ4279",
     "system": "nerves",
-    "representation": "tissue-surface"
+    "representation": "tissue-surface",
+    "representationNote": "원본은 왼쪽 횡격신경 줄기로 명명했지만 FJ4157보다 아래쪽에 놓인 별도 표면입니다. 세부 구간 명칭과 연결 관계는 검수 중입니다.",
+    "reviewStatus": "incomplete-source-coverage"
   },
   "FJ4280_Posterior_cord_of_left_brachial_nerve_plexus": {
     "englishLabel": "Posterior cord of left brachial nerve plexus",
@@ -3336,7 +3344,9 @@ export const neuralIdentities={
     "ontologyId": "FMA:75533",
     "sourceMesh": "FJ4291",
     "system": "nerves",
-    "representation": "tissue-surface"
+    "representation": "tissue-surface",
+    "representationNote": "횡격복부 가지 원본 표면입니다. 이 보기에는 해당 가지로 이어지는 완전한 오른쪽 횡격신경 줄기가 없습니다.",
+    "reviewStatus": "incomplete-source-coverage"
   },
   "FJ4426_Neural_tissue_of_spinal_cord": {
     "englishLabel": "Neural tissue of spinal cord",

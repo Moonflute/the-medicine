@@ -26,7 +26,7 @@ export const nerveRegions=[
   },
   {
     "id": "neural-cervical-upper-left",
-    "label": "왼쪽 경부·상지 신경·골격",
+    "label": "경부·왼쪽 상지·횡격신경·골격",
     "file": "body-nerves-cervical-upper-left.glb.gz",
     "count": 58
   }
