@@ -1,0 +1,12 @@
+import * as T from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {loadCompressedGlb} from './load-glb.js';
+import {testesOutflowIdentities} from './testes-outflow-identities.js';
+export async function loadTestisOutflow(key){
+ const vascular=key.startsWith('testis-vascular'),side=key.endsWith('-right')?'Right':'Left',file=vascular?'testes-vascular':'testes-outflow',asset='./models/current/'+file+(vascular?'-light':'')+'.glb.gz',source=(await loadCompressedGlb(asset,new GLTFLoader())).scene;
+ const root=new T.Group(),kept=[];source.updateMatrixWorld(true);
+ const references=['https://lifesciencedb.jp/bp3d/','https://openstax.org/books/anatomy-and-physiology/pages/27-1-anatomy-and-physiology-of-the-male-reproductive-system'];
+ source.traverse(m=>{if(!m.isMesh)return;if(!m.name.includes(side)||(vascular?/deferent_duct/i.test(m.name):/artery|vein/i.test(m.name))){m.geometry.dispose();m.material.dispose();return;}const identity=testesOutflowIdentities[file+'/'+m.name];const label=identity.ontologyLabel.replace('deferent duct','ductus deferens');m.geometry.applyMatrix4(m.matrixWorld);m.position.set(0,0,0);m.rotation.set(0,0,0);m.scale.set(1,1,1);m.material.color.set(/artery/.test(label)?'#c5896d':/vein/.test(label)?'#82a4ad':/deferens/.test(label)?'#d2bb91':/epididymis/.test(label)?'#bfa578':'#c6a2a0');const sourceMesh=m.name;m.name='detail:'+key+':'+identity.ontologyId.replace(':','-');m.userData={organId:'testes',partId:m.name,label,baseColor:m.material.color.clone(),restOpacity:1,detail:{id:m.name,englishLabel:label,label,kind:'source-surface',ontologyId:identity.ontologyId,sourceMesh,references}};kept.push(m)});
+ kept.forEach(m=>{m.removeFromParent();root.add(m)});const box=new T.Box3().setFromObject(root),center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3()),scale=2.7/Math.max(...size.toArray());kept.forEach(m=>{m.geometry.translate(-center.x,-center.y,-center.z);m.geometry.scale(scale,scale,scale)});
+ root.userData.detail={id:key,kind:'source-surface',revision:2,title:side+(vascular?' testis and gonadal vessels':' testis and ductus deferens'),renderingQuality:vascular?'light':'original',references,assets:[{organId:'testes',renderingAsset:asset,sources:[{url:references[0],version:'4.3'}]}],notice:vascular?'같은 BodyParts3D 표본의 고환·부고환·고환동맥·고환정맥을 원본 좌표로 표시합니다. 대동맥·신정맥·대정맥의 연결 상대와 미세 분지·정맥덩굴은 포함하지 않습니다. 이 보기의 혈관 길이는 원본에 포함된 범위이며 실제 혈류는 재현하지 않습니다.':'같은 BodyParts3D 표본의 한쪽 고환·부고환·정관을 원본 상대 좌표로 표시합니다. 원본 표면은 거칠며, 관강·사정관·정낭·주변 골반 구조는 포함하지 않습니다. 내부 모식 단면과는 별도 보기입니다.'};return root;
+}

@@ -16,7 +16,6 @@ const reproductive = [
  {id:'uterus',name:'자궁',english:'Uterus',system:'생식기계',color:'#c695a2',position:'여성 골반',description:'임신 시 배아와 태아가 발달하는 근육성 기관.',files:['VH_F_Uterus.glb'],overview:false,landmarks:['여성 기준 원본 해부 모델입니다.','남성 기준 전신 지도에는 합성하지 않고 단독으로 탐색합니다.'],links:[['질환','자궁근종','uterine-fibroid'],['검사','골반 초음파','pelvic-ultrasound'],['개념','자궁내막','endometrium']]},
  {id:'ovaries',name:'난소',english:'Ovaries',system:'생식기계',color:'#c3a6bd',position:'여성 골반 · 자궁 양쪽',description:'난자를 성숙시키고 생식 호르몬을 분비하는 한 쌍의 기관.',files:['VH_F_Ovary_L.glb','VH_F_Ovary_R.glb'],overview:false,landmarks:['양쪽 난소의 원본 위치 관계를 유지합니다.','생리주기·연령에 따른 모든 형태 변이를 대표하지 않습니다.'],links:[['질환','난소낭종','ovarian-cyst'],['검사','골반 초음파','pelvic-ultrasound'],['개념','배란','ovulation']]},
  {id:'fallopian-tubes',name:'난관',english:'Uterine tubes',system:'생식기계',color:'#d0a99f',position:'여성 골반 · 자궁 위가쪽',description:'난소 근처에서 자궁으로 이어지는 한 쌍의 관.',files:['VH_F_Fallopian_Tube_L.glb','VH_F_Fallopian_Tube_R.glb'],overview:false,landmarks:['양쪽 난관의 경로와 말단 형상을 유지합니다.','남성 기준 전신 지도에는 표시하지 않습니다.'],links:[['질환','난관 임신','tubal-pregnancy'],['검사','자궁난관조영술','hsg'],['개념','수정','fertilization']]},
- {id:'placenta',name:'태반',english:'Placenta',system:'생식기계',color:'#bc888c',position:'임신 · 자궁 내',description:'임신 중 모체와 태아 사이의 물질 교환에 관여하는 기관.',files:['VH_F_Placenta.glb'],overview:false,landmarks:['태반 단독 자료이며 비임신 전신 모델에 배치하지 않습니다.','원본에서 확인되는 표면과 연결부만 표시합니다.'],links:[['질환','전치태반','placenta-previa'],['검사','산과 초음파','obstetric-ultrasound'],['개념','태반 순환','placental-circulation']]}
 ];
 additions.push(...reproductive);
 

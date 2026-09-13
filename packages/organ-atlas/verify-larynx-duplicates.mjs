@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {OBJLoader} from 'three/addons/loaders/OBJLoader.js';
+const dir='../../tmp/atlas-qa/source43';
+function triangles(id){const f=fs.readdirSync(dir).find(f=>f.startsWith(id+'_'));const o=new OBJLoader().parse(fs.readFileSync(dir+'/'+f,'utf8'));const s=new Set();o.traverse(m=>{if(!m.isMesh)return;const p=m.geometry.attributes.position;for(let i=0;i<p.count;i+=3)s.add([0,1,2].map(j=>[p.getX(i+j),p.getY(i+j),p.getZ(i+j)].join(',')).sort().join('|'));});return s;}
+const results=[];for(const [a,b]of [['FJ2784','FJ2785'],['FJ2802','FJ2803']]){const x=triangles(a),y=triangles(b);results.push({a,b,trianglesA:x.size,trianglesB:y.size,identicalTriangles:[...x].filter(v=>y.has(v)).length});}fs.writeFileSync('larynx-duplicate-audit.json',JSON.stringify(results,null,2));console.log(results);

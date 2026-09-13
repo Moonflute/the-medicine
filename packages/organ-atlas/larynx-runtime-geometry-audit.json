@@ -1,0 +1,41 @@
+[
+  {
+    "key": "larynx-framework",
+    "parts": 39,
+    "groups": 4,
+    "indexedBytes": 2681484,
+    "expandedBytes": 8186832,
+    "savedPercent": 67.24637808617547,
+    "size": [
+      1.945387363433838,
+      2.700000047683716,
+      1.8865717649459839
+    ]
+  },
+  {
+    "key": "pharynx-larynx",
+    "parts": 52,
+    "groups": 6,
+    "indexedBytes": 4632216,
+    "expandedBytes": 15077088,
+    "savedPercent": 69.27645444531464,
+    "size": [
+      1.8641576766967773,
+      2.700000047683716,
+      1.0543292760849
+    ]
+  },
+  {
+    "key": "thyroid-larynx",
+    "parts": 58,
+    "groups": 13,
+    "indexedBytes": 4207428,
+    "expandedBytes": 10548816,
+    "savedPercent": 60.11468964858236,
+    "size": [
+      1.5723397731781006,
+      2.700000047683716,
+      0.7322340607643127
+    ]
+  }
+]

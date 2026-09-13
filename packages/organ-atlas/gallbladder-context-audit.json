@@ -1,0 +1,14 @@
+[
+  {
+    "quality": "original",
+    "triangles": 17596,
+    "bytes": 302822,
+    "sharedBuffersReused": true
+  },
+  {
+    "quality": "light",
+    "triangles": 12138,
+    "bytes": 218900,
+    "sharedBuffersReused": true
+  }
+]

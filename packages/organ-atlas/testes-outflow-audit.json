@@ -1,0 +1,16 @@
+[
+  {
+    "organ": "testes-outflow",
+    "meshes": 6,
+    "triangles": 2790,
+    "gzipBytes": 61625,
+    "roundTripVerified": true
+  },
+  {
+    "organ": "testes-vascular",
+    "meshes": 8,
+    "triangles": 54222,
+    "gzipBytes": 1013869,
+    "roundTripVerified": true
+  }
+]

@@ -1,4 +1,4 @@
-export const modelSources = {
+export const modelSources={
   "brain": {
     "url": "./models/current/brain.glb.gz",
     "sources": [
@@ -247,7 +247,7 @@ export const modelSources = {
         "sha256": "41014d2b222c2dbbe8d1cc38206b0099ce76d79659a9fdea9f28b8c7d669b864"
       }
     ],
-    "meshCount": 11,
+    "meshCount": 15,
     "brainReflection": false
   },
   "ovaries": {
@@ -275,17 +275,6 @@ export const modelSources = {
       {
         "url": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2",
         "sha256": "eec911de07307d1a27cfe27c939e3f3562590e5c419e27decaf3b1d7b13ab038"
-      }
-    ],
-    "meshCount": 8,
-    "brainReflection": false
-  },
-  "placenta": {
-    "url": "./models/current/placenta.glb.gz",
-    "sources": [
-      {
-        "url": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1",
-        "sha256": "32381ebb2b2369e8e83c2b1e5f94cb1cafccf1e1e23439f80bada482ab9e57ef"
       }
     ],
     "meshCount": 8,
@@ -412,5 +401,78 @@ export const modelSources = {
     ],
     "meshCount": 2,
     "brainReflection": false
+  },
+  "nose": {
+    "url": "./models/current/nose.glb.gz",
+    "sources": [
+      {
+        "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
+      }
+    ],
+    "meshCount": 15,
+    "schematic": false
+  },
+  "ears": {
+    "url": "./models/current/ears.glb.gz",
+    "sources": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.1473724"
+      }
+    ],
+    "meshCount": 12
+  },
+  "gallbladder": {
+    "url": "./models/current/gallbladder.glb.gz",
+    "meshCount": 6,
+    "sources": [
+      {
+        "url": "https://purl.humanatlas.io/ref-organ/united-male/v1.10"
+      }
+    ]
+  },
+  "larynx": {
+    "url": "./models/current/larynx.glb.gz",
+    "meshCount": 18,
+    "sources": [
+      {
+        "url": "https://purl.humanatlas.io/ref-organ/united-male/v1.10"
+      }
+    ]
+  },
+  "thyroid": {
+    "url": "./models/current/thyroid.glb.gz",
+    "sources": [
+      {
+        "url": "https://lifesciencedb.jp/bp3d/"
+      }
+    ],
+    "meshCount": 19
+  },
+  "adrenals": {
+    "url": "./models/current/adrenals.glb.gz",
+    "sources": [
+      {
+        "url": "https://lifesciencedb.jp/bp3d/"
+      }
+    ],
+    "meshCount": 8
+  },
+  "testes": {
+    "url": "./models/current/testes.glb.gz",
+    "sources": [
+      {
+        "url": "https://lifesciencedb.jp/bp3d/"
+      }
+    ],
+    "meshCount": 4
+  },
+  "pharynx": {
+    "url": "./models/current/pharynx.glb.gz",
+    "sources": [
+      {
+        "url": "https://lifesciencedb.jp/bp3d/"
+      }
+    ],
+    "meshCount": 13
   }
 };

@@ -1,1 +1,87 @@
 .hosted-atlas #app>header{display:none}.hosted-atlas .intro{padding-top:12px;padding-bottom:12px}.hosted-atlas .intro .eyebrow,.hosted-atlas .intro p{display:none}.hosted-atlas .intro h1{font-size:20px}.hosted-atlas{background:#f1f0e9}@media(min-width:801px){.hosted-atlas main{height:100dvh;padding-top:0;padding-bottom:10px}.hosted-atlas .workspace{min-height:0;flex:1}}
+/* Match the host application's slate surfaces and teal interaction colors. */
+.hosted-atlas {
+  --background:#f5f7fb; --foreground:#111827; --muted:#5b6472;
+  --line:#d8dee8; --surface:#fff; --surface-subtle:#f8fafc;
+  --primary:#0f766e; --primary-strong:#115e59;
+  color:var(--foreground); background:var(--background);
+  font-family:Inter,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+}
+.hosted-atlas .exhibit { background:radial-gradient(ellipse at 50% 44%,#e9eff3 0%,#f1f5f9 48%,#f8fafc 85%);border-color:var(--line); }
+.hosted-atlas :is(#panel,dialog,#disease-browser,#hover-label,#fallback) { background:var(--surface);color:var(--foreground);border-color:var(--line);box-shadow:0 8px 28px #0f172a08; }
+.hosted-atlas :is(.catalog-controls input,.catalog-controls select,#structure-tools input[type=search],#structure-tools select,#pathology-tools select,.disease-filters>*) { background:var(--surface);color:var(--foreground);border-color:var(--line); }
+.hosted-atlas :is(.body-button,.view-controls,.angle-controls button,.presentation-controls label,.presentation-controls output,#selection-actions button,#restore-structures,#focus-structure,#pathology-tools button,#disease-results button) { background:var(--surface);color:var(--primary-strong);border-color:var(--line); }
+.hosted-atlas .presentation-controls select { color:var(--foreground); }
+.hosted-atlas .panel-tabs { background:#eaf0f6; }
+.hosted-atlas .panel-tabs button { color:var(--muted); }
+.hosted-atlas .panel-tabs button[aria-selected=true] { background:var(--surface);color:var(--primary); }
+.hosted-atlas .organ-button[aria-pressed=true] { background:#f0fdfa;border-color:#99d5cc;box-shadow:0 2px 8px #0f172a06; }
+.hosted-atlas #selection-actions button[aria-pressed=true],.hosted-atlas #dialog-ok { background:var(--primary);border-color:var(--primary);color:white; }
+.hosted-atlas :is(.organ-text small,.organ-index,.nav-label,.nav-foot,.description,.gesture,.coverage-note,.slice-note,.anatomy-notes,.anatomy-notes p,.dialog-note,.related-heading,.card-system,.state-note,#picked-structure small,#pathology-tools p,#disease-results p,#disease-results small,.specimen>span) { color:var(--muted); }
+.hosted-atlas :is(h1 span,.anatomy-notes summary,.anatomy-notes a,#structure-tools a,footer a) { color:var(--primary); }
+.hosted-atlas :is(.specimen h2,.presentation-controls #picked-structure) { color:var(--foreground); }
+.hosted-atlas :is(#structure-tools,#pathology-tools,.related button,#disease-results article) { border-color:var(--line); }
+.hosted-atlas input[type=range] { accent-color:var(--primary); }
+.hosted-atlas :is(button,a,input,select):focus-visible { outline-color:var(--primary); }
+.hosted-atlas #organ-list { scrollbar-color:#cbd5e1 transparent; }
+.hosted-atlas dialog::backdrop { background:#0f172a55; }
+/* Compact organ picker: one toolbar row, with an on-demand catalog. */
+.hosted-atlas .workspace{grid-template-columns:minmax(0,1fr) 280px;grid-template-rows:auto minmax(0,1fr)}
+.hosted-atlas .organ-nav{grid-column:1/-1;position:relative;height:auto;display:block;padding:0;z-index:8}
+.hosted-atlas .nav-label,.hosted-atlas .nav-foot{display:none}
+.hosted-atlas .catalog-controls{display:flex;gap:8px;margin:0;max-width:460px}
+.hosted-atlas .catalog-controls input{flex:1;width:0;min-width:0;min-height:40px}
+.hosted-atlas #organ-picker-toggle{flex:0 0 auto;min-height:40px;padding:8px 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--primary);font-size:12px}
+.hosted-atlas #organ-menu{position:absolute;top:calc(100% + 6px);left:0;width:min(460px,100%);padding:8px;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:0 12px 32px #0f172a18}
+.hosted-atlas #organ-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;max-height:min(400px,50dvh);overflow:auto;padding:0;scroll-snap-type:none}
+.hosted-atlas .organ-button{width:100%;margin:0;justify-content:flex-start;min-height:52px;padding:8px;gap:8px}
+.hosted-atlas #no-results{padding:10px;color:var(--muted)}
+@media(max-width:800px){.hosted-atlas .workspace{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto}.hosted-atlas .catalog-controls{max-width:none}.hosted-atlas .organ-text small{font-size:9px}}
+.hosted-atlas #structure-tools .structure-picker-row{display:flex;align-items:center;gap:8px}
+.hosted-atlas #structure-tools .structure-picker-row input{flex:1;min-width:0;width:0;margin:0;min-height:40px}
+.hosted-atlas #structure-tools .structure-picker-row select{flex:0 1 45%;min-width:0;width:45%;margin:0;min-height:40px;text-overflow:ellipsis}
+.hosted-atlas .structure-advanced{margin-top:14px}
+.hosted-atlas .structure-advanced>summary{color:var(--muted);font-size:11px;padding:6px 0}
+.hosted-atlas #structure-tools .structure-picker-row #restore-structures{display:grid;place-items:center;flex:0 0 36px;width:36px;min-height:40px;margin:0;padding:0;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--primary);font-size:21px}
+/* Non-modal settings sheet: controls stay beside the specimen. */
+.model-settings{position:absolute;right:14px;bottom:18px;z-index:7}
+#settings-toggle{display:grid;place-items:center;width:44px;height:44px;border:1px solid #d8dee8;border-radius:50%;background:#fff;color:#0f766e;font-size:24px;box-shadow:0 3px 12px #0f172a12}
+#settings-sheet{position:absolute;right:0;bottom:54px;width:280px;max-width:calc(100vw - 64px);max-height:min(560px,65dvh);overflow:auto;overscroll-behavior:contain;padding:16px;border:1px solid #d8dee8;border-radius:16px;background:#fff;color:#111827;box-shadow:0 12px 40px #0f172a22;opacity:0;visibility:hidden;transform:translateY(18px);transition:transform .22s ease,opacity .22s ease,visibility .22s}
+.model-settings.is-open #settings-sheet{opacity:1;visibility:visible;transform:translateY(0)}
+.model-settings.is-open #settings-toggle{background:#0f766e;color:white}
+.settings-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-size:14px}
+#settings-close{font-size:24px;min-width:36px;min-height:36px}
+#settings-sheet label{display:flex;flex-direction:column;gap:6px;font-size:11px;color:#5b6472;margin:10px 0}
+#settings-sheet select{width:100%;min-width:0;min-height:38px;padding:8px;border:1px solid #d8dee8;border-radius:8px;background:#f8fafc;color:#111827;font:inherit;font-size:12px}
+#settings-sheet input[type=range]{width:100%;accent-color:#0f766e}
+#settings-sheet .slice-toggle{flex-direction:row;align-items:center}
+#settings-sheet .inspection-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+#settings-sheet .inspection-row select{width:100%!important}
+#settings-inspection{border-top:1px solid #d8dee8;margin-top:14px;padding-top:4px}
+#settings-sheet #selection-actions{flex-wrap:wrap;gap:5px}
+#settings-sheet #selection-actions button{flex:1;font-size:11px;padding:8px;border-radius:8px}
+@media(max-width:800px){.model-settings{right:10px;bottom:14px}#settings-sheet{max-height:280px;width:260px}}
+@media(prefers-reduced-motion:reduce){#settings-sheet{transition:none}}
+html.hosted-atlas body{background:var(--background);color:var(--foreground)}
+.workspace:has(.model-settings.is-open) #connector{opacity:0;pointer-events:none}
+.hosted-atlas .structure-context{display:grid;gap:8px;margin-top:12px}
+.hosted-atlas .structure-context:empty{display:none}
+.hosted-atlas .structure-context .slice-toggle{margin:0;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--surface-subtle);font-size:12px}
+.hosted-atlas #structure-identity:empty{display:none}
+.hosted-atlas #organ-list{display:block}
+.organ-group h3{margin:12px 8px 5px;font-size:11px;font-weight:600;color:#5b6472}
+.organ-group:first-child h3{margin-top:4px}
+.organ-group-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+.pathology-visual{margin:14px 0;padding:12px;border:1px solid #d8dee8;border-radius:12px;background:#f8fafc}
+.pathology-visual>strong{font-size:13px;color:#111827}
+.pathology-comparison{display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:center}
+.pathology-comparison svg{display:block;width:100%;height:auto}
+.pathology-comparison span{font-size:11px;color:#5b6472}
+.pathology-visual small,.pathology-visual>a{display:block;font-size:10px;line-height:1.6;margin-top:8px}
+.physiology-pulse{transform-box:fill-box;transform-origin:center;animation:ventricular-cycle var(--cycle,1.2s) ease-in-out infinite;animation-play-state:paused}
+.pathology-visual[data-playing=true] .physiology-pulse{animation-play-state:running}
+@keyframes ventricular-cycle{0%,100%{transform:scale(1)}45%{transform:scale(var(--contraction,.88))}}
+@media(prefers-reduced-motion:reduce){.physiology-pulse{animation:none}}
+
+/* Keep long anatomical names clear of the exhibit clipping arc on phones. */
+@media(max-width:800px){.hosted-atlas .exhibit{border-radius:24px}.hosted-atlas .presentation-controls{left:14px;right:14px}.hosted-atlas #picked-structure{min-width:0}}

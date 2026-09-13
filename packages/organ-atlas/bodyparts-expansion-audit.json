@@ -1,0 +1,30 @@
+[
+  {
+    "organ": "thyroid",
+    "meshes": 19,
+    "triangles": 32354,
+    "gzipBytes": 898296,
+    "roundTripVerified": true
+  },
+  {
+    "organ": "adrenals",
+    "meshes": 8,
+    "triangles": 10486,
+    "gzipBytes": 211197,
+    "roundTripVerified": true
+  },
+  {
+    "organ": "testes",
+    "meshes": 4,
+    "triangles": 736,
+    "gzipBytes": 16474,
+    "roundTripVerified": true
+  },
+  {
+    "organ": "pharynx",
+    "meshes": 13,
+    "triangles": 191182,
+    "gzipBytes": 3783997,
+    "roundTripVerified": true
+  }
+]

@@ -1,3 +1,4 @@
+import {smoothTestisSurface} from './testis-shading.js';
 import {loadCompressedGlb} from './load-glb.js';
 import {lightModels} from './light-model-manifest.js';
 import {anatomicalColor} from './anatomy-colors.js';
@@ -28,16 +29,19 @@ export class ModelRepository {
   const norm=new T.Group();norm.add(assembled);norm.scale.setScalar(2.7/Math.max(size.x,size.y,size.z));const wrapper=new T.Group();wrapper.add(norm);wrapper.userData.context=context.id;this.contextModels.set(id,wrapper);return wrapper;
  }
  async loadOrgan(id){
+  if(this.raws.has(id))return this.normalize(this.raws.get(id));
   const o=organs.find(o=>o.id===id);if(!o)throw Error('Unknown organ: '+id);const url=this.quality==="light"&&lightModels[id]?lightModels[id].url:modelSources[id].url;let gltf;
   gltf=await loadCompressedGlb(url,this.loader);
-  const raw=gltf.scene;if(id==='brain')raw.scale.x*=-1;if(id==='heart'||id==='vasculature')raw.userData.shadingSeams=smoothVesselSeamNormals(raw);
-  raw.traverse(m=>{if(!m.isMesh)return;const name=m.name;let color=anatomicalColor(id,name,o.color);
-   const translucent=(id==='spinal-cord'&&/vertebra|intervertebral/.test(name))||id==='eyes'&&/cornea|conjunctiva|aqueous_humor|vitreous_humor|lens/.test(name)&&!/ligament|junction/.test(name);
+  const raw=gltf.scene;if(id==='testes')raw.userData.shading=smoothTestisSurface(raw);if(id==='brain')raw.scale.x*=-1;if(id==='heart'||id==='vasculature')raw.userData.shadingSeams=smoothVesselSeamNormals(raw);
+  raw.traverse(m=>{if(!m.isMesh)return;const name=m.name;let color=id==='ears'?'#'+m.material.color.getHexString():anatomicalColor(id,name,o.color);
+   const earContext=id==='ears'&&/Dural_venous_sinus|Internal_carotid_artery/.test(name),earCanal=id==='ears'&&/External_acoustic_meatus|Tympanic_membrane/.test(name);
+   const nasalContext=id==='nose'&&/FJ3269|FJ3375|FJ3273|FJ3379/.test(name);const translucent=nasalContext||earContext||earCanal||(id==='spinal-cord'&&/vertebra|intervertebral/.test(name))||id==='eyes'&&/cornea|conjunctiva|aqueous_humor|vitreous_humor|lens/.test(name)&&!/ligament|junction/.test(name);
    if(['knees','pelvis'].includes(id)){if(/cartilage|meniscus/.test(name))color='#91aaa6';else if(/ligament/.test(name))color='#bba580';}
-   const old=m.material;m.material=new T.MeshStandardMaterial({color,roughness:.85,metalness:0,flatShading:false,transparent:translucent,opacity:translucent?.08:1,depthWrite:!translucent});if(Array.isArray(old))old.forEach(m=>m.dispose());else old.dispose();m.userData={organId:id,partId:name,label:labels[name]||name.replace(/^(VH_[MF]_|Allen_|SBU_[MF]_)/,'').replaceAll('_',' '),baseColor:m.material.color.clone(),source:modelSources[id].sources[0].url};m.userData.structureIdentity=getStructureIdentity(id,name);m.userData.label=partLabel(name,m.userData.label);m.userData.restOpacity=m.material.opacity;m.userData.restTransparent=m.material.transparent;m.userData.restDepthWrite=m.material.depthWrite;m.castShadow=!translucent;m.receiveShadow=true;
+   const old=m.material;m.material=new T.MeshStandardMaterial({color,roughness:.85,metalness:0,flatShading:false,transparent:translucent,opacity:nasalContext?.18:earCanal?.22:translucent?.08:1,depthWrite:!translucent});if(Array.isArray(old))old.forEach(m=>m.dispose());else old.dispose();m.userData={organId:id,partId:name,label:labels[name]||name.replace(/^(VH_[MF]_|Allen_|SBU_[MF]_)/,'').replaceAll('_',' '),baseColor:m.material.color.clone(),source:modelSources[id].sources[0].url};m.userData.structureIdentity=getStructureIdentity(id,name);m.userData.label=partLabel(name,m.userData.label);m.userData.contextStructure=earContext||nasalContext;m.userData.restOpacity=m.material.opacity;m.userData.restTransparent=m.material.transparent;m.userData.restDepthWrite=m.material.depthWrite;m.castShadow=!translucent;m.receiveShadow=true;
   });
-  raw.updateMatrixWorld(true);this.raws.set(id,raw);const inner=this.copy(raw),box=new T.Box3().setFromObject(inner),center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());inner.position.sub(center);const norm=new T.Group();norm.add(inner);norm.scale.setScalar(2.7/Math.max(size.x,size.y,size.z));const wrapper=new T.Group();wrapper.add(norm);return wrapper;
+  raw.updateMatrixWorld(true);this.raws.set(id,raw);return this.normalize(raw);
  }
+ normalize(raw){const inner=this.copy(raw),box=new T.Box3();inner.updateMatrixWorld(true);inner.traverse(m=>{if(m.isMesh&&!m.userData.contextStructure)box.expandByObject(m)});const center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());inner.position.sub(center);const norm=new T.Group();norm.add(inner);norm.scale.setScalar(2.7/Math.max(size.x,size.y,size.z));const wrapper=new T.Group();wrapper.add(norm);return wrapper;}
  releaseInactive(id,active){
  const keepRawIds=active.userData.context?contextGroupFor(id).members:[id];const retained=[active,...keepRawIds.map(key=>this.raws.get(key)).filter(Boolean)];const geometries=new Set(),materials=new Set();for(const root of retained)root.traverse(m=>{if(m.geometry)geometries.add(m.geometry);if(m.material)materials.add(m.material)});
  const discarded=[...Object.values(this.models),...this.raws.values(),...this.contextModels?.values()||[]].filter(root=>!retained.includes(root));const disposedG=new Set(),disposedM=new Set();for(const root of discarded)root.traverse(m=>{if(m.geometry&&!geometries.has(m.geometry)&&!disposedG.has(m.geometry)){m.geometry.dispose();disposedG.add(m.geometry)}if(m.material&&!materials.has(m.material)&&!disposedM.has(m.material)){m.material.dispose();disposedM.add(m.material)}});
@@ -52,3 +56,5 @@ export class ModelRepository {
   }return body;
  }
 }
+
+

@@ -1,13 +1,21 @@
+import {addTestisDetail} from './reproductive-details.js';
+import {addAdrenalLayers} from './endocrine-details.js';
 import * as T from 'three';
-export const detailOptions={heart:[['chordae','판막·건삭'],['conduction','심장 전도계']],kidneys:[['nephron','네프론 확대'],['renal-tree','신장 혈관 분지']],vasculature:[['renal-tree','신장 혈관 분지']]};
-const refs={chordae:['https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy'],conduction:['https://www.nhlbi.nih.gov/health/heart/heart-beats','https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity'],nephron:['https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work','https://openstax.org/books/anatomy-and-physiology/pages/25-4-microscopic-anatomy-of-the-kidney'],'renal-tree':['https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney']};
+import {detailOptions} from './detail-catalog.js';
+export {detailOptions} from './detail-catalog.js';
+const refs={'testis-ducts':['https://openstax.org/books/anatomy-and-physiology/pages/27-1-anatomy-and-physiology-of-the-male-reproductive-system'],'adrenal-zones':['https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands'],chordae:['https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy'],conduction:['https://www.nhlbi.nih.gov/health/heart/heart-beats','https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity'],nephron:['https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work','https://openstax.org/books/anatomy-and-physiology/pages/25-4-microscopic-anatomy-of-the-kidney'],'renal-tree':['https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney']};
 export function buildDetailModel(organId,key){
  if(!detailOptions[organId]?.some(([id])=>id===key))throw Error('Unsupported anatomical detail');
+ if(['larynx-framework','pharynx-larynx','thyroid-larynx'].includes(key))return import('./larynx-detail.js').then(m=>m.loadLarynxDetail(organId,key));
+ if((key.startsWith('testis-outflow-')||key.startsWith('testis-vascular-')))return import('./testis-outflow.js').then(m=>m.loadTestisOutflow(key));
+ if(key.startsWith('auricle-'))return import('./auricle-detail.js').then(m=>m.loadAuricleDetail(key));
  const root=new T.Group();root.userData.detail={id:key,kind:'schematic',revision:1,references:refs[key],notice:'확대·단순화한 구조 모형입니다. 실제 크기·좌표·개인별 분지 수를 재현하지 않습니다.'};
  function add(id,label,geometry,color,opacity=1,position=[0,0,0]){const material=new T.MeshStandardMaterial({color,roughness:.82,transparent:opacity<1,opacity,depthWrite:opacity===1,side:T.DoubleSide});const mesh=new T.Mesh(geometry,material);mesh.position.set(...position);mesh.name='detail:'+key+':'+id;mesh.userData={partId:mesh.name,organId,label,baseColor:material.color.clone(),restOpacity:opacity,detail:{id:mesh.name,label,kind:'schematic',references:refs[key]}};mesh.castShadow=opacity===1;root.add(mesh);return mesh;}
  function tube(id,label,points,r=.035,color='#c78c82'){return add(id,label,new T.TubeGeometry(new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p))),Math.max(12,points.length*6),r,6,false),color)}
  function ball(id,label,point,r,color,opacity=1){return add(id,label,new T.SphereGeometry(r,16,10),color,opacity,point)}
  function leaflet(id,label,x,y,z,width){const shape=new T.Shape();shape.moveTo(-width/2,0);shape.quadraticCurveTo(0,-.35,width/2,0);shape.lineTo(-width/2,0);return add(id,label,new T.ShapeGeometry(shape,10),'#dcc5a1',1,[x,y,z])}
+ if(key==='testis-ducts'){const result=addTestisDetail(add);root.userData.detail.title='Testis and epididymis';root.userData.detail.notice=result.notice+' 경로 재생은 연결 순서를 설명하며 실제 이동 시간이나 정자 운동을 재현하지 않습니다.';root.userData.detail.motionSequence=result.sequence;}
+ if(key==='adrenal-zones'){addAdrenalLayers(add);root.userData.detail.title='Adrenal cortex and medulla';root.userData.detail.notice='피막·피질 3개 층·수질의 안팎 관계를 설명하는 모식 단면입니다. 층의 두께는 설명용이며 원본 부신의 조직 분할이나 실제 조직 표본이 아닙니다. 혈관·세포 배열·호르몬 분비는 이 모형에 포함하지 않습니다.';}
  if(key==='chordae'){
   for(const [side,cx,count]of [['mitral',-.75,2],['tricuspid',.75,3]]){
    const title=side==='mitral'?'승모판':'삼첨판';add(side+'-annulus',title+' 판륜',new T.TorusGeometry(.46,.04,6,32),'#b99c82',1,[cx,.68,0]);
@@ -44,3 +52,7 @@ export function buildDetailModel(organId,key){
  }
  root.updateMatrixWorld(true);const box=new T.Box3().setFromObject(root),center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());root.position.sub(center);const norm=new T.Group();norm.add(root);norm.scale.setScalar(2.8/Math.max(size.x,size.y,size.z));const wrapper=new T.Group();wrapper.add(norm);wrapper.userData.detail=root.userData.detail;return wrapper;
 }
+
+
+
+

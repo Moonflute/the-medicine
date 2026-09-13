@@ -4,7 +4,7 @@ import Link from "next/link";
 import {useRouter,useSearchParams} from "next/navigation";
 import mappings from "@/generated/atlas-links.json";
 const basePath=process.env.NEXT_PUBLIC_BASE_PATH??"";
-const organIds=new Set(["brain","lungs","heart","liver","kidneys","pancreas","spleen","small-intestine","colon","bladder","ureters","prostate","spinal-cord","eyes","thymus","skin","uterus","ovaries","fallopian-tubes","placenta","lymph-node","knees","pelvis","urethra","vasculature","stomach","esophagus","mouth","tonsils"]);
+const organIds=new Set(["brain","lungs","larynx","gallbladder","thyroid","adrenals","testes","pharynx","heart","liver","kidneys","pancreas","spleen","small-intestine","colon","bladder","ureters","prostate","spinal-cord","eyes","nose","ears","thymus","skin","uterus","ovaries","fallopian-tubes","lymph-node","knees","pelvis","urethra","vasculature","stomach","esophagus","mouth","tonsils"]);
 export function AtlasWorkspace(){
  const query=useSearchParams(),router=useRouter(),frame=useRef<HTMLIFrameElement>(null);
  const organ=organIds.has(query.get("organ")??"")?query.get("organ")!:"heart";

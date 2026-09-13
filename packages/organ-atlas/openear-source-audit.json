@@ -1,0 +1,93 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.1473724",
+  "specimen": "ZETA",
+  "license": "CC-BY-4.0",
+  "sourceVerticesAndPlacementPreserved": true,
+  "gzipBytes": 3536779,
+  "structures": [
+    {
+      "file": "01_Scala Tympani.ply",
+      "partId": "OpenEar_ZETA_Scala_tympani",
+      "sha256": "98af05f86d72ec8333e943f49b1e46a1a6994f4e1fa84237d748c9b9648d6057",
+      "vertices": 8000,
+      "triangles": 15996
+    },
+    {
+      "file": "02_Scala Vestibuli.ply",
+      "partId": "OpenEar_ZETA_Scala_vestibuli",
+      "sha256": "bfc2675fde44dc5aa3701a2e6cd6937cf376731980de2b2a22848374492e2610",
+      "vertices": 10000,
+      "triangles": 20008
+    },
+    {
+      "file": "03_Malleus.ply",
+      "partId": "OpenEar_ZETA_Malleus",
+      "sha256": "52e00f6afe6946e8adf6e2514acbf072950e62dac4d39ca8edc0d87b2ffb1cc2",
+      "vertices": 2000,
+      "triangles": 3996
+    },
+    {
+      "file": "04_Incus.ply",
+      "partId": "OpenEar_ZETA_Incus",
+      "sha256": "f967dd6b0fc5f195fe76a3605f8a5acfaf522c62667d0acf194637574c2049ee",
+      "vertices": 2000,
+      "triangles": 3996
+    },
+    {
+      "file": "05_Stapes.ply",
+      "partId": "OpenEar_ZETA_Stapes",
+      "sha256": "91da300f4245514218410d33a371be2470e53b30c4197001ebf9879988bb3364",
+      "vertices": 1000,
+      "triangles": 2000
+    },
+    {
+      "file": "06_Facial Nerve.ply",
+      "partId": "OpenEar_ZETA_Facial_nerve",
+      "sha256": "eac4659a931547f7076268916a0764aee68d4fa8b608f705152f83e24e451003",
+      "vertices": 10000,
+      "triangles": 19996
+    },
+    {
+      "file": "07_Chorda Tympani.ply",
+      "partId": "OpenEar_ZETA_Chorda_tympani",
+      "sha256": "8ff2794c19781737d95f1727e432cca894b0a0e415fb314bc4409469fec35dd1",
+      "vertices": 3000,
+      "triangles": 5996
+    },
+    {
+      "file": "08_Cochleovestibular Nerve.ply",
+      "partId": "OpenEar_ZETA_Vestibulocochlear_nerve",
+      "sha256": "c18b95a8c6969bcc1af9ec3043219cca199e618b61ed0234e34a5e442cba5f8a",
+      "vertices": 8003,
+      "triangles": 16018
+    },
+    {
+      "file": "09_Tympanic Membrane.ply",
+      "partId": "OpenEar_ZETA_Tympanic_membrane",
+      "sha256": "1c4e249ccd92245b310c0f90faa7f8b3f314fd36595edb008d82ec9fcc96ca8d",
+      "vertices": 4000,
+      "triangles": 7996
+    },
+    {
+      "file": "10_External Auditory Canal.ply",
+      "partId": "OpenEar_ZETA_External_acoustic_meatus",
+      "sha256": "a147fe221fbbd4049997c8e25a7ee39e4b2bdf5e41f99df26fbb69a5ea6967f4",
+      "vertices": 8000,
+      "triangles": 15996
+    },
+    {
+      "file": "11_Sinus Dura.ply",
+      "partId": "OpenEar_ZETA_Dural_venous_sinus",
+      "sha256": "fad44c122c79d2d3fa9cc662795dea8c735d6db03c3e469dca44834c371df4fe",
+      "vertices": 50603,
+      "triangles": 101104
+    },
+    {
+      "file": "12_Carotis Interna.ply",
+      "partId": "OpenEar_ZETA_Internal_carotid_artery",
+      "sha256": "cbe91185a03494fa05d0cb27fcb00bcce30a39cdf57dd1976f2060832cb2d0c5",
+      "vertices": 8000,
+      "triangles": 15996
+    }
+  ]
+}

@@ -20,7 +20,6 @@ skin:[p('dermatitis','피부 염증 범위','skin','#ca9386','피부 표면의 �
 uterus:[p('myometrium','자궁벽 병변 위치','wall_of_uterus|body_of_uterus','#c590a1','자궁벽의 영향을 받는 범위를 강조합니다. 근종 결절이나 조직층을 새로 생성하지 않습니다.')],
 ovaries:[p('ovarian','난소 병변 위치','ovary','#c899af','난소의 병변 평가 범위를 표시합니다. 낭종의 내부 구조를 재현한 모델은 아닙니다.')],
 'fallopian-tubes':[p('salpingitis','난관염','uterine_tube|fallopian_tube','#cb968b','난관의 염증 부위를 강조합니다. 유착·폐쇄 여부를 계산하지 않습니다.')],
-placenta:[p('placental','태반 혈관 영향','placenta_vessels|umbilical_artery','#b391ac','태반·제대동맥의 영향을 받는 구조를 표시합니다. 태반 기능부전의 혈류량을 계산하지 않습니다.')],
 'lymph-node':[p('reactive','반응성 림프절','follicles|paracortex','#b5a277','면역 반응에 관여하는 소포·곁겉질을 강조합니다. 세포 증식의 미세 구조는 생략합니다.')],
 knees:[p('cartilage','관절연골 손상','articular_cartilage_of_knee|meniscus','#c0a080','관절연골·반월상연골을 강조합니다. 연골 결손이나 파열선을 임의 생성하지 않습니다.')],
 pelvis:[p('bone','골반뼈 병변 위치','pubis|ilium|ischium|sacrum','#bfa78f','골반뼈 병변의 해부 위치를 살펴봅니다. 골절선이나 골밀도 변화 모델은 아닙니다.')],
@@ -38,3 +37,12 @@ for(const [organ,id,references] of [
  ['pancreas','pancreatitis',['https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/definition-facts']]
 ])pathology[organ].find(s=>s.id===id).references=references;
 pathology.tonsils=[{...p('tonsillitis','편도염 · 발적·종창','^VH_M_palatine_tonsil_[LR]$','#c87f86','구개편도의 발적과 종창을 색·개념적 확대로 표시합니다. 삼출물·편도주위농양·기도 폐쇄·감염 원인은 재현하지 않습니다. 표현 강도는 임상 등급이 아닙니다.','expand',.12),references:['https://111.wales.nhs.uk/Tonsillitis/']}];
+
+pathology.nose=[];pathology.ears=[];
+
+pathology.gallbladder=[];pathology.larynx=[];
+
+pathology.thyroid=[{...p('goiter','갑상선종 · 엽 비대','^FJ367[12]_', '#c7949b','갑상선엽의 크기 증가를 비교하는 개념 모형입니다. 부갑상선·혈관·신경은 확대하지 않습니다. 결절·호르몬 수치·기도 압박과 주변 조직의 이동은 재현하지 않으며, 강도는 임상 중증도가 아닙니다.','expand',.18),references:['https://www.niddk.nih.gov/health-information/endocrine-diseases/hashimotos-disease','https://www.niddk.nih.gov/health-information/endocrine-diseases/graves-disease']}];
+pathology.adrenals=[];
+pathology.testes=[];
+pathology.pharynx=[];

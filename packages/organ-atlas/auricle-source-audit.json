@@ -1,0 +1,18 @@
+{
+  "sourceMesh": "FJ2811",
+  "sourceConcept": "FMA:52781",
+  "sha256": "97d4d3dc4b33a3a79f4de7c490cfcc301260b5980c30b9d8ef3bda71a48524eb",
+  "operation": "Separate disconnected bilateral source triangles at x=0; preserve every vertex; rigid source-to-view rotation only",
+  "sides": [
+    {
+      "side": "left",
+      "triangles": 1498
+    },
+    {
+      "side": "right",
+      "triangles": 1412
+    }
+  ],
+  "gzipBytes": 63984,
+  "roundTripVerified": true
+}

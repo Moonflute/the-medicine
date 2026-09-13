@@ -1,0 +1,425 @@
+{
+  "method": "Up to 256 deterministically sampled vertices and 256 triangle centroids per primitive in each direction, nearest triangle surface; original source units (millimetres for BodyParts3D/OpenEar, HRA units retained). This does not establish clinical accuracy.",
+  "report": [
+    {
+      "organ": "thyroid",
+      "meshes": [
+        {
+          "name": "FJ2209_Right_inferior_thyroid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 5.924835794653793e-13
+        },
+        {
+          "name": "FJ2210_Left_inferior_thyroid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.444927891657081e-13
+        },
+        {
+          "name": "FJ3670_Isthmus_of_thyroid_gland",
+          "maxSampledSurfaceErrorSourceUnits": 1.0913981661096344e-9
+        },
+        {
+          "name": "FJ3671_Left_lobe_of_thyroid_gland",
+          "maxSampledSurfaceErrorSourceUnits": 6.5943932460930575e-12
+        },
+        {
+          "name": "FJ3672_Right_lobe_of_thyroid_gland",
+          "maxSampledSurfaceErrorSourceUnits": 2.313632330010042e-13
+        },
+        {
+          "name": "FJ3673_Left_inferior_parathyroid_gland",
+          "maxSampledSurfaceErrorSourceUnits": 2.313427743713089e-13
+        },
+        {
+          "name": "FJ3674_Left_superior_parathyroid_gland",
+          "maxSampledSurfaceErrorSourceUnits": 2.315813459252391e-13
+        },
+        {
+          "name": "FJ3675_Right_inferior_parathyroid_gland",
+          "maxSampledSurfaceErrorSourceUnits": 2.3201695664817656e-13
+        },
+        {
+          "name": "FJ3676_Right_superior_parathyroid_gland",
+          "maxSampledSurfaceErrorSourceUnits": 2.314450494353413e-13
+        },
+        {
+          "name": "FJ3923_Trunk_of_left_recurrent_laryngeal_nerve",
+          "maxSampledSurfaceErrorSourceUnits": 2.313427743713089e-13
+        },
+        {
+          "name": "FJ4021_Trunk_of_right_recurrent_laryngeal_nerve",
+          "maxSampledSurfaceErrorSourceUnits": 2.318809162045557e-13
+        },
+        {
+          "name": "FJ4999_Right_middle_thyroid_vein",
+          "maxSampledSurfaceErrorSourceUnits": 2.3177202635764743e-13
+        },
+        {
+          "name": "FJ5011_Trunk_of_right_superior_thyroid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.315813459252391e-13
+        },
+        {
+          "name": "FJ5024_Anterior_glandular_branch_of_right_superior_thyroid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.315813459252391e-13
+        },
+        {
+          "name": "FJ5072_Right_cricothyroid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.317321369047977e-13
+        },
+        {
+          "name": "FJ5099_Right_inferior_thyroid_vein",
+          "maxSampledSurfaceErrorSourceUnits": 0.06571460428412415
+        },
+        {
+          "name": "FJ5112_Lateral_glandular_branch_of_right_superior_thyroid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.2961087086140034e-13
+        },
+        {
+          "name": "FJ5163_Posterior_glandular_branch_of_right_superior_thyroid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.3177202635764743e-13
+        },
+        {
+          "name": "FJ5231_Right_superior_thyroid_vein",
+          "maxSampledSurfaceErrorSourceUnits": 2.31335954426011e-13
+        }
+      ]
+    },
+    {
+      "organ": "adrenals",
+      "meshes": [
+        {
+          "name": "FJ3129_Left_adrenal_gland",
+          "maxSampledSurfaceErrorSourceUnits": 2.3177202635764743e-13
+        },
+        {
+          "name": "FJ3130_Right_adrenal_gland",
+          "maxSampledSurfaceErrorSourceUnits": 2.3177202635764743e-13
+        },
+        {
+          "name": "FJ3467_Left_inferior_suprarenal_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.3201695664817656e-13
+        },
+        {
+          "name": "FJ3472_Left_middle_suprarenal_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.32315965210316e-13
+        },
+        {
+          "name": "FJ3480_Left_suprarenal_vein",
+          "maxSampledSurfaceErrorSourceUnits": 2.32315965210316e-13
+        },
+        {
+          "name": "FJ3580_Right_suprarenal_vein",
+          "maxSampledSurfaceErrorSourceUnits": 2.32315965210316e-13
+        },
+        {
+          "name": "FJ3584_Right_inferior_suprarenal_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.308990589380062e-13
+        },
+        {
+          "name": "FJ3586_Right_middle_suprarenal_artery",
+          "maxSampledSurfaceErrorSourceUnits": 2.3177202635764743e-13
+        }
+      ]
+    },
+    {
+      "organ": "gallbladder",
+      "meshes": [
+        {
+          "name": "VH_M_gallbladder",
+          "maxSampledSurfaceErrorSourceUnits": 5.763878168445254e-17
+        },
+        {
+          "name": "VH_M_cystic_duct",
+          "maxSampledSurfaceErrorSourceUnits": 5.721958498152797e-17
+        },
+        {
+          "name": "VH_M_common_bile_duct",
+          "maxSampledSurfaceErrorSourceUnits": 0.000051598523637133555
+        },
+        {
+          "name": "VH_M_right_hepatic_duct",
+          "maxSampledSurfaceErrorSourceUnits": 5.745575946153046e-17
+        },
+        {
+          "name": "VH_M_left_hepatic_duct",
+          "maxSampledSurfaceErrorSourceUnits": 0.000033013323799839355
+        },
+        {
+          "name": "VH_M_common_hepatic_duct",
+          "maxSampledSurfaceErrorSourceUnits": 5.647850449853784e-17
+        }
+      ]
+    },
+    {
+      "organ": "testes",
+      "meshes": [
+        {
+          "name": "FJ3136_Left_epididymis",
+          "maxSampledSurfaceErrorSourceUnits": 1.180442248897588e-13
+        },
+        {
+          "name": "FJ3138_Left_testis",
+          "maxSampledSurfaceErrorSourceUnits": 1.1827122038509192e-13
+        },
+        {
+          "name": "FJ3141_Right_epididymis",
+          "maxSampledSurfaceErrorSourceUnits": 1.185244067699804e-13
+        },
+        {
+          "name": "FJ3142_Right_testis",
+          "maxSampledSurfaceErrorSourceUnits": 1.180442248897588e-13
+        }
+      ]
+    },
+    {
+      "organ": "pharynx",
+      "meshes": [
+        {
+          "name": "FJ2740_Left_inferior_pharyngeal_constrictor",
+          "maxSampledSurfaceErrorSourceUnits": 0.06388628538085946
+        },
+        {
+          "name": "FJ2742_Right_middle_pharyngeal_constrictor",
+          "maxSampledSurfaceErrorSourceUnits": 0.048355612492235266
+        },
+        {
+          "name": "FJ2743_Left_palatopharyngeus",
+          "maxSampledSurfaceErrorSourceUnits": 0.019935384036521384
+        },
+        {
+          "name": "FJ2745_Left_salpingopharyngeus",
+          "maxSampledSurfaceErrorSourceUnits": 0.02972507421652092
+        },
+        {
+          "name": "FJ2746_Left_stylopharyngeus",
+          "maxSampledSurfaceErrorSourceUnits": 2.3177202635764743e-13
+        },
+        {
+          "name": "FJ2747_Left_superior_pharyngeal_constrictor",
+          "maxSampledSurfaceErrorSourceUnits": 0.060539987301324504
+        },
+        {
+          "name": "FJ2749_Pharyngeal_raphe",
+          "maxSampledSurfaceErrorSourceUnits": 0.10896304244495934
+        },
+        {
+          "name": "FJ2752_Right_inferior_pharyngeal_constrictor",
+          "maxSampledSurfaceErrorSourceUnits": 0.10383954387174273
+        },
+        {
+          "name": "FJ2754_Left_middle_pharyngeal_constrictor",
+          "maxSampledSurfaceErrorSourceUnits": 0.04809151841664514
+        },
+        {
+          "name": "FJ2755_Right_palatopharyngeus",
+          "maxSampledSurfaceErrorSourceUnits": 0.018405882178985523
+        },
+        {
+          "name": "FJ2757_Right_salpingopharyngeus",
+          "maxSampledSurfaceErrorSourceUnits": 0.029716470817710942
+        },
+        {
+          "name": "FJ2758_Right_stylopharyngeus",
+          "maxSampledSurfaceErrorSourceUnits": 0.02772192666189763
+        },
+        {
+          "name": "FJ2759_Right_superior_pharyngeal_constrictor",
+          "maxSampledSurfaceErrorSourceUnits": 0.06311707853936904
+        }
+      ]
+    },
+    {
+      "organ": "larynx",
+      "meshes": [
+        {
+          "name": "VH_M_thyroepiglottideus",
+          "maxSampledSurfaceErrorSourceUnits": 1.1335923501900107e-16
+        },
+        {
+          "name": "VH_M_vocalis",
+          "maxSampledSurfaceErrorSourceUnits": 1.1315746967714126e-16
+        },
+        {
+          "name": "VH_M_posterior_cricoarytenoid_L",
+          "maxSampledSurfaceErrorSourceUnits": 1.1247979657955549e-16
+        },
+        {
+          "name": "VH_M_posterior_cricoarytenoid_R",
+          "maxSampledSurfaceErrorSourceUnits": 1.1264020518906844e-16
+        },
+        {
+          "name": "VH_M_lateral_cricoarytenoid_R",
+          "maxSampledSurfaceErrorSourceUnits": 1.1328952961336746e-16
+        },
+        {
+          "name": "VH_M_lateral_cricoarytenoid_L",
+          "maxSampledSurfaceErrorSourceUnits": 1.129703286137716e-16
+        },
+        {
+          "name": "VH_M_cricothyroid_R",
+          "maxSampledSurfaceErrorSourceUnits": 1.129703286137716e-16
+        },
+        {
+          "name": "VH_M_cricothyroid_L",
+          "maxSampledSurfaceErrorSourceUnits": 1.1295700899707568e-16
+        },
+        {
+          "name": "VH_M_thyroarytenoid_L",
+          "maxSampledSurfaceErrorSourceUnits": 1.1304023085246505e-16
+        },
+        {
+          "name": "VH_M_thyroarytenoid_R",
+          "maxSampledSurfaceErrorSourceUnits": 1.1295700899707568e-16
+        },
+        {
+          "name": "VH_M_arytenoid",
+          "maxSampledSurfaceErrorSourceUnits": 1.129703286137716e-16
+        },
+        {
+          "name": "VH_M_arytenoid_cartilage_R",
+          "maxSampledSurfaceErrorSourceUnits": 1.1328952961336746e-16
+        },
+        {
+          "name": "VH_M_arytenoid_cartilage_L",
+          "maxSampledSurfaceErrorSourceUnits": 1.1285039546789633e-16
+        },
+        {
+          "name": "VH_M_epiglottic_cartilage",
+          "maxSampledSurfaceErrorSourceUnits": 1.1324158225765155e-16
+        },
+        {
+          "name": "VH_M_cricoid_cartilage",
+          "maxSampledSurfaceErrorSourceUnits": 1.129703286137716e-16
+        },
+        {
+          "name": "VH_M_thyroid_cartilage",
+          "maxSampledSurfaceErrorSourceUnits": 0.00007606555645776818
+        },
+        {
+          "name": "VH_M_corniculate_cartilage_L",
+          "maxSampledSurfaceErrorSourceUnits": 1.129703286137716e-16
+        },
+        {
+          "name": "VH_M_corniculate_cartilage_R",
+          "maxSampledSurfaceErrorSourceUnits": 1.1296033904849067e-16
+        }
+      ]
+    },
+    {
+      "organ": "nose",
+      "meshes": [
+        {
+          "name": "BP3D_FJ2554",
+          "maxSampledSurfaceErrorSourceUnits": 2.345232552414487e-13
+        },
+        {
+          "name": "BP3D_FJ2555",
+          "maxSampledSurfaceErrorSourceUnits": 2.3448593646040075e-13
+        },
+        {
+          "name": "BP3D_FJ3378",
+          "maxSampledSurfaceErrorSourceUnits": 2.3470104237044373e-13
+        },
+        {
+          "name": "BP3D_FJ3272",
+          "maxSampledSurfaceErrorSourceUnits": 2.3512125394624795e-13
+        },
+        {
+          "name": "BP3D_FJ3369",
+          "maxSampledSurfaceErrorSourceUnits": 2.321597133189142e-13
+        },
+        {
+          "name": "BP3D_FJ3263",
+          "maxSampledSurfaceErrorSourceUnits": 2.345396526024365e-13
+        },
+        {
+          "name": "BP3D_FJ2557",
+          "maxSampledSurfaceErrorSourceUnits": 6.917538921255952e-13
+        },
+        {
+          "name": "BP3D_FJ2558",
+          "maxSampledSurfaceErrorSourceUnits": 2.3533879075442877e-13
+        },
+        {
+          "name": "BP3D_FJ2556",
+          "maxSampledSurfaceErrorSourceUnits": 2.313632330010042e-13
+        },
+        {
+          "name": "BP3D_FJ3395",
+          "maxSampledSurfaceErrorSourceUnits": 0.04839577112618193
+        },
+        {
+          "name": "BP3D_FJ3199",
+          "maxSampledSurfaceErrorSourceUnits": 0.054831960306785714
+        },
+        {
+          "name": "BP3D_FJ3269",
+          "maxSampledSurfaceErrorSourceUnits": 0.07132325375482823
+        },
+        {
+          "name": "BP3D_FJ3375",
+          "maxSampledSurfaceErrorSourceUnits": 0.07957674450656486
+        },
+        {
+          "name": "BP3D_FJ3273",
+          "maxSampledSurfaceErrorSourceUnits": 2.3541045550995953e-13
+        },
+        {
+          "name": "BP3D_FJ3379",
+          "maxSampledSurfaceErrorSourceUnits": 2.3447910280083306e-13
+        }
+      ]
+    },
+    {
+      "organ": "ears",
+      "meshes": [
+        {
+          "name": "OpenEar_ZETA_Scala_tympani",
+          "maxSampledSurfaceErrorSourceUnits": 0.008644138171136266
+        },
+        {
+          "name": "OpenEar_ZETA_Scala_vestibuli",
+          "maxSampledSurfaceErrorSourceUnits": 0.020000619637039783
+        },
+        {
+          "name": "OpenEar_ZETA_Malleus",
+          "maxSampledSurfaceErrorSourceUnits": 7.944109290391274e-15
+        },
+        {
+          "name": "OpenEar_ZETA_Incus",
+          "maxSampledSurfaceErrorSourceUnits": 6.153480596427404e-15
+        },
+        {
+          "name": "OpenEar_ZETA_Stapes",
+          "maxSampledSurfaceErrorSourceUnits": 7.944109290391274e-15
+        },
+        {
+          "name": "OpenEar_ZETA_Facial_nerve",
+          "maxSampledSurfaceErrorSourceUnits": 0.007638457451091238
+        },
+        {
+          "name": "OpenEar_ZETA_Chorda_tympani",
+          "maxSampledSurfaceErrorSourceUnits": 0.013876797702930294
+        },
+        {
+          "name": "OpenEar_ZETA_Vestibulocochlear_nerve",
+          "maxSampledSurfaceErrorSourceUnits": 0.015558098632895855
+        },
+        {
+          "name": "OpenEar_ZETA_Tympanic_membrane",
+          "maxSampledSurfaceErrorSourceUnits": 0.016179604302153445
+        },
+        {
+          "name": "OpenEar_ZETA_External_acoustic_meatus",
+          "maxSampledSurfaceErrorSourceUnits": 0.01498389357894446
+        },
+        {
+          "name": "OpenEar_ZETA_Dural_venous_sinus",
+          "maxSampledSurfaceErrorSourceUnits": 0.033594419522274856
+        },
+        {
+          "name": "OpenEar_ZETA_Internal_carotid_artery",
+          "maxSampledSurfaceErrorSourceUnits": 0.009947162373381403
+        }
+      ]
+    }
+  ]
+}

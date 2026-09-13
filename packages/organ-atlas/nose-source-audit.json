@@ -1,0 +1,81 @@
+{
+  "source": "BodyParts3D 4.0",
+  "verticesAndPlacementPreserved": true,
+  "structures": [
+    {
+      "partId": "BP3D_FJ2554",
+      "vertices": 1098,
+      "triangles": 366
+    },
+    {
+      "partId": "BP3D_FJ2555",
+      "vertices": 1242,
+      "triangles": 414
+    },
+    {
+      "partId": "BP3D_FJ3378",
+      "vertices": 1248,
+      "triangles": 416
+    },
+    {
+      "partId": "BP3D_FJ3272",
+      "vertices": 1314,
+      "triangles": 438
+    },
+    {
+      "partId": "BP3D_FJ3369",
+      "vertices": 2142,
+      "triangles": 714
+    },
+    {
+      "partId": "BP3D_FJ3263",
+      "vertices": 2214,
+      "triangles": 738
+    },
+    {
+      "partId": "BP3D_FJ2557",
+      "vertices": 1242,
+      "triangles": 414
+    },
+    {
+      "partId": "BP3D_FJ2558",
+      "vertices": 1428,
+      "triangles": 476
+    },
+    {
+      "partId": "BP3D_FJ2556",
+      "vertices": 1272,
+      "triangles": 424
+    },
+    {
+      "partId": "BP3D_FJ3395",
+      "vertices": 21654,
+      "triangles": 7218
+    },
+    {
+      "partId": "BP3D_FJ3199",
+      "vertices": 66828,
+      "triangles": 22276
+    },
+    {
+      "partId": "BP3D_FJ3269",
+      "vertices": 15594,
+      "triangles": 5198
+    },
+    {
+      "partId": "BP3D_FJ3375",
+      "vertices": 15972,
+      "triangles": 5324
+    },
+    {
+      "partId": "BP3D_FJ3273",
+      "vertices": 5814,
+      "triangles": 1938
+    },
+    {
+      "partId": "BP3D_FJ3379",
+      "vertices": 5208,
+      "triangles": 1736
+    }
+  ]
+}

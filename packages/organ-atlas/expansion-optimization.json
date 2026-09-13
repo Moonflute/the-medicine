@@ -1,0 +1,51 @@
+[
+  {
+    "id": "thyroid",
+    "before": 24750,
+    "after": 21352,
+    "bytes": 735153
+  },
+  {
+    "id": "adrenals",
+    "before": 10486,
+    "after": 10486,
+    "bytes": 139528
+  },
+  {
+    "id": "testes",
+    "before": 736,
+    "after": 736,
+    "bytes": 12004
+  },
+  {
+    "id": "pharynx",
+    "before": 191182,
+    "after": 95698,
+    "bytes": 1238060
+  },
+  {
+    "id": "larynx",
+    "before": 30303,
+    "after": 27109,
+    "bytes": 471973
+  },
+  {
+    "id": "gallbladder",
+    "before": 17596,
+    "after": 12138,
+    "bytes": 218900,
+    "sharedBuffersReused": true
+  },
+  {
+    "id": "nose",
+    "before": 48090,
+    "after": 37076,
+    "bytes": 481893
+  },
+  {
+    "id": "ears",
+    "before": 229098,
+    "after": 109720,
+    "bytes": 1187552
+  }
+]

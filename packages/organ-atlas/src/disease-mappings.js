@@ -94,5 +94,23 @@ export const diseaseMappings = [
     "references": [
       "https://111.wales.nhs.uk/Tonsillitis/"
     ]
+  },
+  {
+    "organId": "thyroid",
+    "scenarioId": "goiter",
+    "diseaseId": "02 Diseases/04 내분비/그레이브스병 (Graves' Disease).md",
+    "diseaseSlug": "MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA",
+    "title": "그레이브스병 (Graves' Disease)",
+    "relationship": "qualitative-example",
+    "scopeNote": "갑상선엽 크기 증가의 개념 예시입니다. 모든 환자에게 갑상선종이 나타나는 것은 아니며, 호르몬 기능·자가항체·결절·압박 및 질환의 전체 경과는 재현하지 않습니다."
+  },
+  {
+    "organId": "thyroid",
+    "scenarioId": "goiter",
+    "diseaseId": "02 Diseases/04 내분비/하시모토 갑상샘염 (Hashimoto's Thyroiditis).md",
+    "diseaseSlug": "MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA",
+    "title": "하시모토 갑상샘염 (Hashimoto's Thyroiditis)",
+    "relationship": "qualitative-example",
+    "scopeNote": "갑상선엽 크기 증가의 개념 예시입니다. 모든 환자에게 갑상선종이 나타나는 것은 아니며, 호르몬 기능·자가항체·결절·압박 및 질환의 전체 경과는 재현하지 않습니다."
   }
 ];

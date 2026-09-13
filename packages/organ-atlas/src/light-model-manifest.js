@@ -1,4 +1,8 @@
 export const lightModels={
+  "thyroid": {
+    "url": "./models/current/thyroid-light.glb.gz",
+    "triangles": 21352
+  },
   "brain": {
     "url": "./models/current/brain-light.glb.gz",
     "triangles": 608470,
@@ -79,11 +83,6 @@ export const lightModels={
     "triangles": 22389,
     "originalTriangles": 36051
   },
-  "placenta": {
-    "url": "./models/current/placenta-light.glb.gz",
-    "triangles": 75341,
-    "originalTriangles": 188365
-  },
   "lymph-node": {
     "url": "./models/current/lymph-node-light.glb.gz",
     "triangles": 216343,
@@ -119,5 +118,33 @@ export const lightModels={
     "triangles": 989716,
     "originalTriangles": 989716,
     "derivation": "position-exact-reindex; smooth normals on large surfaces; original quality retained"
+  },
+  "adrenals": {
+    "url": "./models/current/adrenals-light.glb.gz",
+    "triangles": 10486
+  },
+  "testes": {
+    "url": "./models/current/testes-light.glb.gz",
+    "triangles": 736
+  },
+  "pharynx": {
+    "url": "./models/current/pharynx-light.glb.gz",
+    "triangles": 95698
+  },
+  "larynx": {
+    "url": "./models/current/larynx-light.glb.gz",
+    "triangles": 27109
+  },
+  "gallbladder": {
+    "url": "./models/current/gallbladder-light.glb.gz",
+    "triangles": 12138
+  },
+  "nose": {
+    "url": "./models/current/nose-light.glb.gz",
+    "triangles": 37076
+  },
+  "ears": {
+    "url": "./models/current/ears-light.glb.gz",
+    "triangles": 109720
   }
 };

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "gallbladder",
+    "structures": [
+      "VH_M_common_bile_duct",
+      "VH_M_right_hepatic_duct",
+      "VH_M_left_hepatic_duct",
+      "VH_M_common_hepatic_duct",
+      "VH_M_cystic_duct",
+      "VH_M_gallbladder"
+    ],
+    "gzipBytes": 300585,
+    "sourceHash": "69857009518d156a390ebe42b57723f1",
+    "verticesAndPlacementVerified": true
+  },
+  {
+    "id": "larynx",
+    "structures": [
+      "VH_M_thyroepiglottideus",
+      "VH_M_vocalis",
+      "VH_M_posterior_cricoarytenoid_L",
+      "VH_M_posterior_cricoarytenoid_R",
+      "VH_M_lateral_cricoarytenoid_R",
+      "VH_M_lateral_cricoarytenoid_L",
+      "VH_M_cricothyroid_R",
+      "VH_M_cricothyroid_L",
+      "VH_M_thyroarytenoid_L",
+      "VH_M_thyroarytenoid_R",
+      "VH_M_arytenoid",
+      "VH_M_arytenoid_cartilage_R",
+      "VH_M_arytenoid_cartilage_L",
+      "VH_M_epiglottic_cartilage",
+      "VH_M_cricoid_cartilage",
+      "VH_M_thyroid_cartilage",
+      "VH_M_corniculate_cartilage_L",
+      "VH_M_corniculate_cartilage_R"
+    ],
+    "gzipBytes": 705584,
+    "sourceHash": "69857009518d156a390ebe42b57723f1",
+    "verticesAndPlacementVerified": true
+  }
+]
