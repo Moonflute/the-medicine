@@ -26,6 +26,7 @@ aliases:
 ## 3. 검체 및 측정 방법
 - 검체는 venous blood에서 얻은 serum을 사용한다.
 - 일반 CRP와 `hs-CRP`는 목적이 다르며, 본 문서는 일반적인 inflammation marker로서의 CRP를 우선 다룬다.
+- nephelometry 또는 turbidimetry 같은 정량 면역측정법으로 혈중 농도를 보고한다.
 
 ## 4. 정상범위
 - MedlinePlus 기준으로 건강한 사람은 대체로 `0.8-1.0 mg/dL` 이하를 healthy range로 본다.
@@ -35,12 +36,14 @@ aliases:
 - `상승`은 bacterial infection, chronic inflammatory disease, autoimmune disease, tissue injury, 일부 malignancy에서 보일 수 있다.
 - CRP는 **염증의 존재와 정도**를 반영하지만, 원인이나 위치를 특정하지는 못한다.
 - 치료 중 CRP 하강은 대체로 inflammatory burden 감소를 시사한다.
+- CRP는 acute-phase reactant 중 빠르게 증가하고 회복 시 빠르게 정상화되는 편이어서, 자가면역질환의 질병 활성도 평가와 잠재 감염 확인의 보조 지표로 사용할 수 있다. 다만 감염·외상·수술·조직괴사도 CRP를 올리므로 임상상과 다른 검사 없이 원인을 단정할 수 없다.
 
 ## 6. 임상적 활용
 - infection과 noninfectious inflammation의 activity 추적
 - 수술 후 infection monitoring
 - sepsis 평가 보조
 - 류마티스성 질환 flare 추적
+- 류마티스 질환에서는 치료 후 경과, 질환의 경중, 장기 침범 여부를 평가하는 여러 검사 중 하나로 사용한다. 단일 수치보다 증상·진찰·다른 염증표지자와 함께 추세를 해석한다.
 
 ## 7. 주의점 및 함정
 - obesity, smoking, hormone therapy, depression, insomnia 등도 CRP를 높일 수 있다.
@@ -55,3 +58,4 @@ aliases:
 ## 9. 참고문헌
 - MedlinePlus Medical Test: C-Reactive Protein (CRP) Test
 - Mayo Clinic Laboratories: C-Reactive Protein (CRP), Serum
+- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “류마티스 질환을 위한 임상병리검사의 해석”, p. 916.

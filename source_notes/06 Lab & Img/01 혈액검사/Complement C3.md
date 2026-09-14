@@ -26,6 +26,9 @@ aliases:
 ## 4. 이상 소견의 해석
 - `감소`는 immune complex disease, complement consumption, severe liver dysfunction 일부를 생각한다.
 - lupus nephritis 등에서는 disease activity 평가 보조로 쓰일 수 있다.
+- SLE에서는 임상적 악화에 앞서 C3 또는 C4가 감소할 수 있어, 증상·소변검사·다른 장기 평가와 함께 자가면역 활성도의 추세를 본다. 수치 한 번으로 flare를 확정하거나 배제하지 않는다.
+- C3 감소가 면역복합체 형성과 함께 보이면 SLE, cryoglobulinemia, membranoproliferative glomerulonephritis(MPGN), 감염 후 사구체신염을 감별한다. 간기능 저하 등 synthesis 감소나 다른 임상 상황도 함께 고려한다.
+- 총보체활성(CH50)은 보체 결핍의 선별에 도움이 되며, C3·C4와 함께 보체 경로의 소모 또는 결핍 가능성을 평가한다. 활동성 염증만으로 질병활성도를 판단하는 표지자로는 한계가 있다.
 
 ## 5. 관련 검사
 - [[Complement C4]]
@@ -33,3 +36,4 @@ aliases:
 
 ## 6. 참고문헌
 - complement testing general principles
+- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “류마티스 질환을 위한 임상병리검사의 해석”, pp. 918–919.

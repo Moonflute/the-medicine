@@ -41,6 +41,8 @@ aliases:
 - giant cell arteritis, polymyalgia rheumatica 같은 염증성 질환 평가
 - chronic inflammatory disease activity 추적
 - fever of unknown origin 평가 보조
+- ESR은 acute-phase reactant 평가의 한 요소로, 류마티스관절염을 포함한 collagen vascular disease에서 중등도로 증가할 수 있다. 질병 활성도 추적에는 유용하지만 감염, 외상, 수술, 조직괴사에서도 상승하므로 특정 류마티스 질환의 진단 근거로 단독 사용하지 않는다.
+- 혈액검사·화학검사·요검사와 임상 증상을 함께 보며, ESR 변화가 느린 점을 고려해 급성 변화에는 CRP의 추세를 병행한다.
 
 ## 7. 주의점 및 함정
 - ESR alone으로 진단할 수 없다.
@@ -54,3 +56,4 @@ aliases:
 ## 9. 참고문헌
 - MedlinePlus Medical Test: Erythrocyte Sedimentation Rate (ESR)
 - 일반적 성인 reference range는 널리 쓰이는 Westergren 기반 기준을 요약함
+- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “류마티스 질환을 위한 임상병리검사의 해석”, p. 916.
