@@ -9,14 +9,19 @@ import { TaskList, TaskItem } from "@tiptap/extension-list";
 
 export default function DocumentEditorBlock({ markdown, disabled, onChange }: { markdown: string; disabled: boolean; onChange: (markdown: string) => void }) {
   const initial = useRef("");
+  const originalMarkdown = useRef(markdown);
   const editor = useEditor({
     extensions: [StarterKit.configure({ heading: false, codeBlock: false, horizontalRule: false, link: { openOnClick: false } }), Markdown, TableKit, TaskList, TaskItem.configure({ nested: true })],
     immediatelyRender: false,
     content: markdown,
     contentType: "markdown",
     editable: !disabled,
-    onCreate: ({ editor }) => { initial.current = JSON.stringify(editor.getJSON()); },
-    onUpdate: ({ editor }) => onChange(JSON.stringify(editor.getJSON()) === initial.current ? markdown : editor.getMarkdown()),
+    onCreate: ({ editor }) => { initial.current = editor.getMarkdown().trim(); },
+    onUpdate: ({ editor }) => {
+      const current = editor.getMarkdown();
+      // Preserve the original source after undo, including editor-added empty trailing paragraphs.
+      onChange(current.trim() === initial.current ? originalMarkdown.current : current);
+    },
     editorProps: { attributes: { class: "min-h-40 p-5 text-base leading-8 outline-none [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_table]:w-full [&_td]:border [&_td]:p-2 [&_th]:border [&_th]:p-2 [&_th]:bg-slate-100 [&_p]:my-2", "aria-label": "본문 블록 편집" } },
   });
   if (!editor) return <p className="p-5">편집기 준비 중…</p>;
