@@ -40,6 +40,7 @@ aliases:
 ## 7. 주의점 및 함정
 - volume status에 따라 상대적 농도 변화가 생긴다.
 - 임상증상 없이 수치만으로 수혈 결정을 내리면 안 된다.
+- Hb 저하는 Hct, RBC 수, 망상적혈구 및 적혈구 지표와 함께 해석한다. 급성 출혈에서는 초기 Hb가 출혈량을 과소평가할 수 있으며, 수액·탈수·수혈은 농도와 추세를 바꾼다.
 
 ## 8. 관련 검사
 - [[Red Blood Cell Count (RBC)]]
@@ -48,3 +49,4 @@ aliases:
 
 ## 9. 참고문헌
 - MedlinePlus Medical Test: Hemoglobin Test
+- 삼성서울병원 내과 매뉴얼 제8판, 책 651–653쪽(PDF 671–673쪽).

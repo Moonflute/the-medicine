@@ -34,6 +34,7 @@ aliases:
 ## 6. 임상적 활용
 - anemia pattern 분류
 - 추가 검사 선택의 방향 결정
+- 망상적혈구 반응과 결합하면 MCV의 방향성을 해석하기 쉽다. 저 RPI의 소구성 빈혈은 철결핍·염증·철적아구성 빈혈 등을, 저 RPI의 대구성 빈혈은 B12/엽산 결핍 또는 약물성 성숙장애 등을 우선 평가한다.
 
 ## 7. 주의점 및 함정
 - 최근 수혈, mixed deficiency state에서는 평균값이 정상처럼 보일 수 있다.
@@ -45,3 +46,4 @@ aliases:
 
 ## 9. 참고문헌
 - MedlinePlus Medical Test: MCV (Mean Corpuscular Volume)
+- 삼성서울병원 내과 매뉴얼 제8판, 책 651–653쪽(PDF 671–673쪽).

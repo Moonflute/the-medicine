@@ -34,10 +34,14 @@ reviewed_at: "2026-07-30"
 - 혈청 철(serum iron) 및 트랜스페린(transferrin) 감소, 페리틴(ferritin)은 정상 또는 증가.
   초기에는 정적혈구 정색소성 빈혈(normocytic normochromic anemia)이나, 경과에 따라 소적혈구 저색소성 빈혈(microcytic hypochromic anemia)로 진행 가능.
   망상적혈구 수(reticulocyte count) 감소.
+- 전형적으로 hypoproliferative, 경도 정구성 빈혈이며 일부에서 소구성 저색소성으로 보인다. iron 감소, TIBC <300 μg/dL, TSAT 10–20%, ferritin 정상 또는 증가가 IDA와의 구분에 도움 된다.
 
 ## 4. 진단 (Diagnosis)
+- **CKD가 동반된 경우:** CBC·망상적혈구와 ferritin·TSAT을 함께 보며, 절대 철 결핍과 염증에 의한 기능적 철 제한을 구분합니다. 예상보다 급격한 Hb 저하, 혈구 감소, 출혈 의심, 용혈 소견이 있으면 CKD만으로 설명하지 않고 추가 원인을 찾습니다.
+
 - 기저 만성질환의 존재와 특징적인 혈액 검사 소견으로 진단.
   철결핍성 빈혈이 동반된 경우 페리틴 수치가 낮아질 수 있으므로(염증 시 페리틴은 급성기 반응물질로 상승함), 감별이 필요할 경우 sTFR(soluble transferrin receptor) 등을 활용.
+- 염증 증거가 있고 TSAT <16%이면 다른 빈혈 원인을 배제한다. ferritin <30 ng/mL는 절대 철결핍을, 30–100 ng/mL에서는 soluble transferrin receptor/log ferritin 지수(>2는 동반 진성 철결핍, <1은 만성질환 빈혈 지지)를 보조적으로 활용할 수 있다.
 
 ## 5. 치료
 - 기저 만성질환을 적극적으로 치료·조절하고, 염증 억제 상태를 유지한다.
@@ -45,11 +49,14 @@ reviewed_at: "2026-07-30"
 - 신장 질환·항암 치료 등에서 ESA 사용이 필요할 경우, 철 상태를 충분히 확보한 뒤 부작용(고혈압, 혈전) 모니터링을 포함한 안전성 평가를 시행한다.
 - 빈혈이 중등도 이상이거나 증상이 악화될 경우 혈액내과 전문의에 의뢰하고, 필요 시 수혈을 고려한다.
 - CBC·철대사 지표(철, 트랜스페린, 페리틴) 등을 3~6개월 간격으로 추적하여 치료 효과와 기저질환 변화를 평가한다.
+- 수혈은 조직 저산소증 여부와 생리적 손상을 바탕으로 개별화하며, 안정적인 입원 환자에서 Hb 7–8 g/dL 부근은 한 기준점일 뿐 단독 지표가 아니다. 농축적혈구 1단위는 대개 Hb를 약 1 g/dL 올리며, 반복 수혈은 감염 위험과 철 과부하를 고려한다.
+- 내인성 EPO가 낮은 CKD 또는 항암치료 관련 빈혈에서는 ESA를 고려할 수 있으나 혈전색전증과 종양 진행 위험을 고려해 적응증과 목표치를 제한한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저질환의 예후에 따라 달라짐.
 
-출처 : Merck Manual Professional (Anemia of Chronic Disease)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+출처: Merck Manual Professional (Anemia of Chronic Disease); [KDIGO anemia in CKD guideline](https://kdigo.org/guidelines/anemia-in-ckd/); 삼성서울병원 내과 매뉴얼 제8판, 책 590–591쪽(PDF 610–611쪽) 및 책 655–657쪽(PDF 675–677쪽).

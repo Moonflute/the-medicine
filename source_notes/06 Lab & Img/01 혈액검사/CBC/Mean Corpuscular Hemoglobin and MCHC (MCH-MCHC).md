@@ -37,6 +37,7 @@ aliases:
 ## 6. 임상적 활용
 - microcytic/hypochromic anemia 해석 보조
 - RBC morphology 추정
+- MCH/MCHC는 MCV·RDW와 함께 소구성 저색소성 패턴을 확인하는 데 사용한다. 철결핍에서는 MCV 감소와 RDW 증가가 함께 나타날 수 있고, 지중해빈혈에서는 소구성이라도 RDW가 상대적으로 덜 상승할 수 있어 철대사 검사 및 도말과 결합한다.
 
 ## 7. 주의점 및 함정
 - 단독 해석 가치보다 `MCV`, `RDW`, smear와 함께 볼 때 유용하다.
@@ -49,3 +50,4 @@ aliases:
 
 ## 9. 참고문헌
 - CBC standard index interpretation
+- 삼성서울병원 내과 매뉴얼 제8판, 책 651–653쪽(PDF 671–673쪽).

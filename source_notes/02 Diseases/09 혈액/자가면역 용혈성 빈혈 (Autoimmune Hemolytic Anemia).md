@@ -31,10 +31,12 @@ review_status: "guideline_enriched"
 - **기전**: 직접 쿰스 검사 (Direct Coombs test) 양성으로 진단.
   **온난 자가면역 용혈성 빈혈 (Warm AIHA)** : 자가 IgG 항체가 37°C 이상의 온도에서 적혈구와 반응하며, 주로 비장에서 혈관 외 용혈을 유발.
   **한랭 자가면역 용혈성 빈혈 (Cold AIHA)** : 자가 IgM 항체가 37°C 미만에서 적혈구와 반응하며, 주로 보체 매개성 용혈을 유발.
+- 온난형은 특발성이거나 SLE, CLL, 림프종, 동종 조혈모세포이식 후 및 약물(cefotetan, ceftriaxone 등)과 연관될 수 있다. 한랭응집소병은 특발성 또는 EBV·CMV·Mycoplasma 감염, Waldenström macroglobulinemia·림프종과 연관될 수 있다.
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 빈혈 증상 (피로, 창백, 심한 경우 흉통, 실신, 심부전).
 * **P/E**: 황달, 비장 비대 (Warm AIHA), 한랭 노출 시 말단 청색증 및 레이노 현상 (Cold AIHA).
+- 급성 중증 AIHA는 수일 안에 심한 Hb 저하, 황달, 비장비대를 보일 수 있다. Evans syndrome(AIHA와 ITP 동반) 여부도 확인한다.
 
 ## 3. 검사 (Lab & Imaging)
 - 용혈성 빈혈의 일반적인 소견 (망상적혈구 증가, LDH 증가, 간접 빌리루빈 증가, 합토글로빈 감소).
@@ -56,13 +58,15 @@ review_status: "guideline_enriched"
     추위 노출 회피.
     기저 질환 치료.
     리툭시맙 (단독 또는 화학요법 병용), 보체 억제제 고려.
+- 중증 급성 AIHA는 응급상황이며 수혈 호환성 문제가 있을 수 있다. 생명을 위협하는 빈혈에서는 교차시험을 진행하면서 수혈을 지연하지 않되, 안정적이면 수혈 필요성을 신중히 판단한다. 매뉴얼의 온난형 1차 예시는 prednisolone 1 mg/kg/day이며, 재발·불응성에서는 rituximab 또는 비장절제술을 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료에 반응하는 경우가 많으나, 재발 가능성 있음.
   정맥 혈전색전증 위험 증가.
 
-출처 : Merck Manual Professional (Autoimmune Hemolytic Anemia)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강
+
+출처: Merck Manual Professional (Autoimmune Hemolytic Anemia); 삼성서울병원 내과 매뉴얼 제8판, 책 659–660쪽(PDF 679–680쪽).

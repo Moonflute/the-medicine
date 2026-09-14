@@ -48,12 +48,16 @@ sources:
 | Normocytic + retic 높음 | 출혈, 용혈 | bilirubin, LDH, haptoglobin, DAT, 출혈 평가 |
 | Macrocytic | B12/folate 결핍, 알코올·간질환, 갑상선, 약물, MDS | smear, B12/folate, LFT, TSH, 약물 검토 |
 
+- 망상적혈구는 빈혈 정도를 보정해 해석한다. `corrected reticulocyte count = reticulocyte(%) × Hct/45`; RPI는 보정 망상적혈구율을 성숙시간으로 나눈 값이다. Hct 45/35/25/15%에서 성숙시간은 각각 약 1.0/1.5/2.0/2.5일이며, RPI <2.5는 부적절한 골수 반응을, ≥2.5는 출혈 또는 용혈에 대한 반응을 시사한다.
+- 빈혈 평가의 CBC 세부 확인 항목은 Hb, Hct, 망상적혈구, MCV/MCH/MCHC/RDW, 백혈구 감별과 호중구 분엽, 혈소판 수 및 말초도말의 크기·Hb 함량·anisocytosis·poikilocytosis·polychromasia이다.
+
 ## 5. WBC·혈소판 패턴
 
 - Neutrophilia: 감염·염증, 스트레스, glucocorticoid, 흡연 등을 맥락과 함께 본다.
 - Neutropenia: ANC와 발열 여부가 핵심이다. 약물, 감염, 항암치료, 골수질환을 검토한다.
 - Thrombocytopenia: 가성저하 → 소비(DIC/TMA) → 파괴(면역/약물) → 생성저하 → 비장격리 순으로 좁힌다.
 - Thrombocytosis: 감염·염증·철결핍 등 반응성과 지속되는 골수증식성 원인을 구분한다.
+- **Pancytopenia**: RBC·WBC·platelet이 함께 감소하면 먼저 도말, 망상적혈구, 세포계열별 추세와 약물·알코올·감염·영양 병력을 확인한다. 저세포성 골수는 재생불량성 빈혈, 일부 MDS, 저세포성 백혈병·림프종을, 세포성 골수는 MDS·PNH·골수섬유증·골수침윤, 비장비대, B12/엽산 결핍, 중증 감염 등을 시사할 수 있다. 지속되거나 blast·비정상 도말이 있으면 혈액내과 및 골수 평가가 필요하다.
 
 ## 6. Red flags
 
@@ -82,3 +86,5 @@ sources:
 ## 9. 출처
 
 - [MedlinePlus: Complete Blood Count](https://medlineplus.gov/lab-tests/complete-blood-count-cbc/)
+- 삼성서울병원 내과 매뉴얼 제8판, 책 651–653쪽(PDF 671–673쪽).
+- 삼성서울병원 내과 매뉴얼 제8판, 책 661쪽(PDF 681쪽).
