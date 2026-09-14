@@ -1,5 +1,6 @@
 // Run against serve-document-editor-harness.cjs with fake Supabase env.
 // Intercepts every editor API request: never writes real GitHub content.
+/* eslint-disable @typescript-eslint/no-require-imports -- Standalone CommonJS test runner accepts an external Playwright installation. */
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const fs = require('node:fs');
 const path = require('node:path');

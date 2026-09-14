@@ -1,5 +1,6 @@
 // Isolated browser harness: uses the actual components, fake Supabase settings,
 // and no application routes. Install esbuild under tmp/document-editor-harness.
+/* eslint-disable @typescript-eslint/no-require-imports -- Standalone CommonJS harness with a locally installed test runtime. */
 const fs = require('node:fs');
 const path = require('node:path');
 const http = require('node:http');
