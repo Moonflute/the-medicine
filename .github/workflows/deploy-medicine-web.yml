@@ -82,6 +82,9 @@ jobs:
       - name: Verify interactive physiology
         run: npm run verify:physiology
 
+      - name: Verify document editing preservation and conflicts
+        run: node --experimental-strip-types --test scripts/test-document-edit.mjs scripts/test-document-editor-api.mjs scripts/test-document-tiptap.mjs
+
       - name: Build static site
         run: npm run build -- --webpack
 

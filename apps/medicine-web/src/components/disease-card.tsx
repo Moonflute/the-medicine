@@ -8,6 +8,7 @@ import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote, TermLink } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { ReviewSaveButton } from "@/components/review-save-button";
+import { DocumentEditButton } from "@/components/document-edit-button";
 import { ContentMetadata } from "@/components/content-metadata";
 
 function stripEditorialLines(lines: string[]) {
@@ -85,6 +86,7 @@ export function DiseaseCard({
           </div>
           <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
             {atlasMapping ? <Link href={"/atlas/?" + new URLSearchParams({organ:atlasMapping.organId,disease:note.slug}).toString()} className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-teal-200 bg-teal-50 text-sm font-semibold text-teal-800 hover:bg-teal-100" aria-label={displayTitle+" 3D로 보기"} title="3D로 보기">3D</Link> : null}
+            {!compact && <DocumentEditButton sourcePath={note.sourcePath} title={displayTitle} />}
             {relatedQbankHref ? (
               <Link
                 href={relatedQbankHref}

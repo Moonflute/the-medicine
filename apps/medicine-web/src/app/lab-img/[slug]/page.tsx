@@ -7,6 +7,7 @@ import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ECGWorkbench } from "@/components/ecg-workbench";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { ReviewSaveButton } from "@/components/review-save-button";
+import { DocumentEditButton } from "@/components/document-edit-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
@@ -51,7 +52,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
           <ArrowLeft className="h-4 w-4" />
           {parentTitle}로 돌아가기
         </Link>
-        <ReviewSaveButton item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
+        <div className="flex gap-2"><DocumentEditButton sourcePath={note.sourcePath} title={note.title} /><ReviewSaveButton item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} /></div>
       </div>
       <DomainNoteCard note={note} />
       {isEcgHub ? <ECGWorkbench diseases={getAllDiseases()} /> : null}

@@ -5,6 +5,7 @@ import { ParentPageFab } from "@/components/parent-page-fab";
 import { AntibioticClinicalLinks } from "@/components/antibiotic-clinical-links";
 import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ReviewSaveButton } from "@/components/review-save-button";
+import { DocumentEditButton } from "@/components/document-edit-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildDrugGroups } from "@/lib/drug-groups";
@@ -99,7 +100,8 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
 
   return (
     <div className="space-y-6">
-      <div className="flex justify-end">
+      <div className="flex justify-end gap-2">
+        <DocumentEditButton sourcePath={note.sourcePath} title={note.title} />
         <ReviewSaveButton item={{ type: "drug", id: note.id, title: note.title, href: `/drugs/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
       </div>
       <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
