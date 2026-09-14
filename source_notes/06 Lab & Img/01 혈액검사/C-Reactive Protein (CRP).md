@@ -13,7 +13,7 @@ aliases:
 > 정상범위: `0.8-1.0 mg/dL` 이하
 
 ## 1. 개요
-- CRP는 liver에서 생성되는 acute-phase protein으로, 전신 inflammation의 정도를 반영하는 비특이적 marker이다.
+- **CRP**는 liver에서 생성되는 acute-phase protein으로, 전신 inflammation의 정도를 반영하는 비특이적 marker이다.
 
 ## 2. 검사 원리
 - `CRP`는 `C-reactive protein`의 약자로, 원래 **폐렴구균(pneumococcus)의 C-polysaccharide와 반응하는 단백질**로 처음 기술되었기 때문에 이런 이름이 붙었다.
