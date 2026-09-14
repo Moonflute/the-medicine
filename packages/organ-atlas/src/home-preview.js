@@ -1,3 +1,4 @@
+import {anatomicalColor} from './anatomy-colors.js';
 import {loadCompressedGlb} from './load-glb.js';
 import * as T from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
@@ -29,7 +30,7 @@ const loader=new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);let gltf;
 gltf=await loadCompressedGlb('./models/current/heart-preview.glb.gz',loader);
 if(disposed){gltf.scene.traverse(m=>{m.geometry?.dispose();m.material?.dispose()});return}
 // Keep the heart itself and proximal vessels; exclude distant systemic vessel meshes.
-const raw=gltf.scene;raw.traverse(m=>{if(!m.isMesh)return;m.visible=!/inferior_vena_cava|abdominal|descending_aorta|iliac|renal|celiac|mesenteric/.test(m.name);m.material.dispose();m.material=new T.MeshStandardMaterial({color:/vein|vena|pulmonary_trunk|pulmonary_arter/.test(m.name)?'#80aaa7':'#cc8c7e',roughness:.85})});
+const raw=gltf.scene;raw.traverse(m=>{if(!m.isMesh)return;m.visible=!/inferior_vena_cava|abdominal|descending_aorta|iliac|renal|celiac|mesenteric/.test(m.name);m.material.dispose();m.material=new T.MeshStandardMaterial({color:anatomicalColor('heart',m.name),roughness:.85})});
 raw.updateMatrixWorld(true);const box=new T.Box3();raw.traverse(m=>{if(m.isMesh&&m.visible){m.geometry.computeBoundingBox();box.union(m.geometry.boundingBox.clone().applyMatrix4(m.matrixWorld))}});const center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());raw.position.sub(center);model=new T.Group();model.add(raw);model.scale.setScalar(2.25/Math.max(size.x,size.y,size.z));model.rotation.set(.08,-.3,0);scene.add(model);status.hidden=true;host.dataset.ready='true';window.parent.postMessage({type:'atlas:preview-ready'},location.origin);render();start();
 }catch(error){status.textContent='미니어처를 불러오지 못했어요. 여기를 눌러 인체모형을 열 수 있어요.';console.warn('Heart preview unavailable',error)}}
 window.addEventListener('pagehide',()=>{disposed=true;pause();observer?.disconnect();scene.traverse(m=>{m.geometry?.dispose();if(Array.isArray(m.material))m.material.forEach(x=>x.dispose());else m.material?.dispose()});renderer?.dispose();renderer?.forceContextLoss()},{once:true});
