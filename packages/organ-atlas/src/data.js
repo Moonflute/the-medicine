@@ -1,3 +1,4 @@
+import {organPalette} from './anatomy-palette.js';
 import {additions} from './additions.js';
 /** Content is independent of meshes. Replace contentKey through the host app's route resolver. */
 export const organs = [
@@ -26,3 +27,5 @@ organs.push({id:'gallbladder',name:'담낭·담도',english:'Gallbladder & bile 
 organs.push(...[{"id":"thyroid","name":"갑상선·부갑상선","english":"Thyroid & parathyroid glands","system":"내분비계","color":"#bfa299","description":"갑상선·부갑상선의 원본 구조와 위치 관계를 탐색합니다.","position":"목","links":[],"states":["normal"],"overview":false},{"id":"adrenals","name":"부신","english":"Adrenal glands","system":"내분비계","color":"#bfa299","description":"부신의 원본 구조와 위치 관계를 탐색합니다.","position":"후복막 · 신장 위","links":[],"states":["normal"],"overview":false},{"id":"testes","name":"고환·부고환","english":"Testes & epididymides","system":"생식기계","color":"#bfa299","description":"고환·부고환의 원본 구조와 위치 관계를 탐색합니다.","position":"음낭","links":[],"states":["normal"],"overview":false},{"id":"pharynx","name":"인두","english":"Pharynx","system":"소화기·호흡기계","color":"#bfa299","description":"인두의 원본 구조와 위치 관계를 탐색합니다.","position":"목","links":[],"states":["normal"],"overview":false}]);
 
 organs.push({id:'skeleton',name:'전신 골격',english:'Skeleton',system:'근골격계',color:'#d4c6ab',description:'원본 좌표를 유지한 전신 골격과 보조 연골. 같은 기준의 근육·혈관·신경을 단계적으로 추가합니다.',position:'전신 · BodyParts3D 성인 남성 기준',links:[],states:['normal'],overview:false});
+
+for(const organ of organs)if(organPalette[organ.id])organ.color=organPalette[organ.id];
