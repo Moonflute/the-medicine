@@ -122,3 +122,5 @@ html.hosted-atlas body{background:var(--background);color:var(--foreground)}
 .local-model-controls button{padding:8px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#35645c;cursor:pointer}
 .local-model-controls button:disabled{opacity:.5;cursor:default}
 .local-model-controls output{font-size:12px;overflow-wrap:anywhere}
+
+.hosted-atlas .catalog-controls{max-width:100%;gap:8px}.hosted-atlas #organ-search{flex:1 1 200px;max-width:400px}.hosted-atlas #body-browse-mode{flex:0 0 90px;width:90px}.hosted-atlas #body-browse-value{flex:0 0 120px;width:120px}.body-browse-status{font-size:11px;align-self:center}.body-browse-status:empty{display:none}@media(max-width:600px){.hosted-atlas .catalog-controls{flex-wrap:wrap}.hosted-atlas #organ-search{flex:1 1 120px}.hosted-atlas #body-browse-mode,.hosted-atlas #body-browse-value{flex:1 1 40%;width:auto}}

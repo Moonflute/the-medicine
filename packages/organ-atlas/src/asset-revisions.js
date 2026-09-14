@@ -468,6 +468,10 @@ export const assetRevisions={
     "sha256": "374e470db62e990671a2dbb518708fff7803824253696c43b0bd2ed80f6675d8",
     "bytes": 12516999
   },
+  "./models/current/z-whole-organs.glb.gz": {
+    "sha256": "5f7bd9c43c82bc9871ccd178edc11ccd59f12778aad71276edf89b2490a250a3",
+    "bytes": 4344697
+  },
   "./models/current/z-whole-skeleton-optimized.glb.gz": {
     "sha256": "bf87e05b1711e60a32871dd1eead35e9f91dff14825e1c7db086858ffa8b522b",
     "bytes": 4633023
