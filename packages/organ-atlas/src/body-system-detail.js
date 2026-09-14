@@ -34,7 +34,7 @@ export async function loadBodySystemDetail(region,identities,notice){
     // structure independent highlight/opacity state.
     const original=m.material;m.material=original.clone();
     m.material.color.set(identity.representation==='cavity-surface'?'#a6bbb3':identity.system==='nerves'?(identity.representation==='cavity-surface'?'#a6bbb3':'#d2b979'):identity.system==='vessels'?(/vein|vena|venous/i.test(identity.englishLabel)?'#82a4ad':'#c5896d'):identity.system==='skeleton'?(/cartilage|disc/i.test(identity.englishLabel)?'#a6bbb3':'#d4c6ab'):(/tendon|membrane|retinaculum|aponeurosis/i.test(identity.englishLabel)?'#d4c6ab':'#b98079'));
-    if(identity.layer==='organs')m.material.color.set(({digestive:'#b9856e',cardiovascular:'#ba706b',respiratory:'#a8bfba',urinary:'#a68275',endocrine:'#baa37a',lymphatic:'#997894'})[identity.system]||'#b9856e');m.material.roughness=.85;
+    if(identity.layer==='organs')m.material.color.set(({digestive:'#b9856e',cardiovascular:'#ba706b',respiratory:'#a8bfba',urinary:'#a68275',endocrine:'#baa37a',lymphatic:'#997894',reproductive:'#b58594'})[identity.system]||'#b9856e');m.material.roughness=.85;
     if(identity.layer==='skeleton'&&skeletalTypeColors[identity.structureType])m.material.color.set(skeletalTypeColors[identity.structureType]);
     m.userData={organId:'skeleton',partId:m.name,label:identity.englishLabel,baseColor:m.material.color.clone(),restOpacity:1,
      detail:{...identity,layer:identity.layer??(identity.system==='vessels'?(/vein|vena|venous/i.test(identity.englishLabel)?'veins':'arteries'):identity.system),id:m.name,kind:'source-surface',sourceVersion:sourceReference.version,sourcePartId:sourceName,references}};

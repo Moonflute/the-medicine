@@ -469,8 +469,8 @@ export const assetRevisions={
     "bytes": 12516999
   },
   "./models/current/z-whole-organs.glb.gz": {
-    "sha256": "5f7bd9c43c82bc9871ccd178edc11ccd59f12778aad71276edf89b2490a250a3",
-    "bytes": 4344697
+    "sha256": "ace69067a7130b6cf76e53e7cfa3324f320709b117cd36432f1fccc642b665ca",
+    "bytes": 4793047
   },
   "./models/current/z-whole-skeleton-optimized.glb.gz": {
     "sha256": "bf87e05b1711e60a32871dd1eead35e9f91dff14825e1c7db086858ffa8b522b",
