@@ -9,6 +9,21 @@ const payload = { action: 'save', path: PILOT_PATHS[0], sha, changes: [{ index: 
 const req = (body = payload, token = 'valid') => new Request('https://local/editor', { method: 'POST', headers: { Authorization: `Bearer ${token}`, Origin: 'https://moonflute.github.io' }, body: JSON.stringify(body) });
 const json = (value, status = 200) => new Response(JSON.stringify(value), { status });
 const file = (version = sha) => json({ type: 'file', encoding: 'base64', content: btoa('old text\n'), sha: version });
+
+test('new skill paths save complete Markdown bodies with atomic SHA protection', async () => {
+  let writes = 0;
+  const handler = createHandler({ token: 'server-only', authenticate: async () => owner, fetcher: async (_url, init) => {
+    if (init.method !== 'PUT') return file();
+    const body = JSON.parse(init.body);
+    assert.equal(body.sha, sha);
+    assert.equal(atob(body.content), '# Steps\n\n[[related|label]]\n');
+    writes++;
+    return json({content:{sha:commit},commit:{sha:commit,html_url:'https://github.com/commit'}});
+  }});
+  const result = await handler(req({...payload,path:'source_notes/07 Skills/category/procedure.md',changes:[{index:-1,markdown:'# Steps\n\n[[related|label]]\n'}]}));
+  assert.equal(result.status, 200);
+  assert.equal(writes, 1);
+});
 test('owner restriction runs before GitHub calls', async () => {
   const handler = createHandler({ token: 'server-only', authenticate: async () => ({ id: 'other' }), fetcher: async () => { throw Error('must not call'); } });
   assert.equal((await handler(req())).status, 403);

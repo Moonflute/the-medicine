@@ -1437,6 +1437,7 @@ function buildSkills() {
       parsedSkills.push({
         order,
         skill: {
+          sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
           id,
           name,
           aliases: readList(frontmatter.aliases),

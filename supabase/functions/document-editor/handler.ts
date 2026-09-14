@@ -1,4 +1,4 @@
-import { assertEditor, isPilotPath, replaceBlocks, type Replacement } from "../../../apps/medicine-web/src/lib/document-edit-core.ts";
+import { assertEditor, isEditablePath, replaceBlocks, type Replacement } from "../../../apps/medicine-web/src/lib/document-edit-core.ts";
 
 type Config = {
   token: string;
@@ -28,7 +28,7 @@ export function createHandler(config: Config) {
       const raw = await req.text();
       if (encoder.encode(raw).length > 400_000) return reply({ error: "요청이 너무 큽니다." }, 413);
       const input = JSON.parse(raw);
-      if (!isPilotPath(input.path)) return reply({ error: "시범 편집 대상 문서가 아닙니다." }, 403);
+      if (!isEditablePath(input.path)) return reply({ error: "편집 대상 문서 경로가 아닙니다." }, 403);
       const github = async (route: string, init: RequestInit = {}) => {
         const response = await request(`https://api.github.com/repos/${REPO}/${route}`, {
           ...init, headers: { Authorization: `Bearer ${config.token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json", ...init.headers }, signal: AbortSignal.timeout(15_000),

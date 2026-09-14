@@ -1,9 +1,8 @@
-# GitHub document editor pilot
+# GitHub document editor
 
 GitHub `Moonflute/the-medicine`, branch `master`, remains the only published
 document source. This function stores no document body in Supabase. The shared
-core at `apps/medicine-web/src/lib/document-edit-core.ts` defines the exact four
-allowed Markdown paths and the verified Google owner's Supabase user ID.
+core at `apps/medicine-web/src/lib/document-edit-core.ts` defines the five allowed document directories and the verified Google owner's Supabase user ID.
 
 ## Server setup
 
@@ -27,13 +26,14 @@ server-managed app metadata. Gateway JWT verification may be disabled for this
 function because authentication is explicitly implemented here (compatible with
 asymmetric signing keys). Missing GitHub configuration fails closed with 503.
 
-## Deliberately limited pilot
+## Supported documents
 
-- CC: 가슴통증; disease: 고혈압; drug: Adenosine; lab: CRP.
-- Metadata, headings, wiki links, callouts, code and unsupported syntax are
-  protected raw source. Only supported body blocks can be changed.
-- Drug editing initially permits the `## 기전` section only. Dose and other
-  fields duplicated in YAML must get a separate synchronized editor first.
+- All Markdown files under CC, Diseases, Pharmacology, Lab & Img, and Skills.
+- The server rejects traversal, encoded paths, other directories and non-Markdown files.
+- Supported blocks use Tiptap. Full-body Markdown mode supports headings, wiki
+  links, callouts, code and other source syntax without rich-text conversion.
+- YAML metadata is preserved byte-for-byte in both modes. Drug body sections
+  are all available; YAML-derived attributes still require a separate metadata editor.
 - Unedited blocks and metadata retain original bytes, BOM, EOL and final newline.
 - Typing creates a per-owner, per-document, per-tab localStorage draft, not a commit.
   Drafts are local to the device. Explicit save commits to GitHub.
@@ -68,4 +68,5 @@ components. For visual checks it reuses the isolated Next build's generated CSS.
 Before production activation, validate an authenticated read, a no-op save,
 one intended content edit, and the resulting Actions/Pages deployment. Never
 insert fake clinical text into published documents just to test the commit path.
-Do not expand the allowlist until these checks are complete.
+The initial four-document save/deployment checks passed before expansion.
+The corpus test now checks all five document trees (2,211 files at expansion).

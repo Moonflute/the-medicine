@@ -6,12 +6,17 @@ export const PILOT_PATHS = [
   "source_notes/04 Pharmacology/01 심혈계/Adenosine.md",
   "source_notes/06 Lab & Img/01 혈액검사/C-Reactive Protein (CRP).md",
 ] as const;
+export const EDITABLE_DIRECTORIES = ["01 Chief Complaint", "02 Diseases", "04 Pharmacology", "06 Lab & Img", "07 Skills"] as const;
 export type Replacement = { index: number; markdown: string };
 export type SourceBlock = { raw: string; editable: boolean };
 export type SourceDocument = { prefix: string; blocks: SourceBlock[] };
 
-export function isPilotPath(path: unknown): path is string {
-  return typeof path === "string" && (PILOT_PATHS as readonly string[]).includes(path);
+export function isEditablePath(path: unknown): path is string {
+  if (typeof path !== "string" || /[\\%?#\x00-\x1f]/.test(path)) return false;
+  const parts = path.split("/");
+  return parts.length >= 3 && parts[0] === "source_notes" &&
+    (EDITABLE_DIRECTORIES as readonly string[]).includes(parts[1]) &&
+    parts.every(part => part !== "." && part !== ".." && part.length > 0 && part === part.trim()) && path.endsWith(".md");
 }
 
 export function canEditBlock(raw: string): boolean {
@@ -20,7 +25,7 @@ export function canEditBlock(raw: string): boolean {
   return Boolean(raw.trim()) && !/(^|\n)(?: {4}|\t)|(^|\n)[ \t]*(?:#{1,6}\s|```|~~~|\[.*\]:|[-*_]{3,}\s*$)|\[\[|\]\[|!\[|\[!|<|\$|\^\w|%%|\r(?!\n)|(?:javascript|vbscript|data)\s*:/im.test(raw);
 }
 
-export function splitSource(source: string, path?: string): SourceDocument {
+export function splitSource(source: string, _path?: string): SourceDocument {
   if (typeof source !== "string" || source.length > 200_000) throw new Error("문서 크기를 확인해주세요.");
   let prefix = source.startsWith("\uFEFF") ? "\uFEFF" : "";
   let body = source.slice(prefix.length);
@@ -57,18 +62,19 @@ export function splitSource(source: string, path?: string): SourceDocument {
   // HTML/comments can span blank lines. A pilot document containing them is
   // entirely protected until a source-range parser supports these constructs.
   if (/<\/?[a-z!][\s\S]*?>/i.test(body)) blocks.forEach(block => { block.editable = false; });
-  if (path?.includes("/04 Pharmacology/")) {
-    let mechanism = false;
-    for (const block of blocks) {
-      if (/^#{1,6}\s/.test(block.raw)) mechanism = /^## 기전\s*$/.test(block.raw.trimEnd());
-      block.editable = block.editable && mechanism;
-    }
-  }
   return { prefix, blocks };
 }
 
 export function replaceBlocks(source: string, changes: Replacement[], path?: string): string {
   if (!Array.isArray(changes) || changes.length > 500) throw new Error("잘못된 수정 요청입니다.");
+  if (changes.length === 1 && changes[0]?.index === -1) {
+    const next = changes[0].markdown;
+    if (typeof next !== "string" || !next.trim() || next.includes("\0")) throw new Error("비어 있거나 잘못된 원문입니다.");
+    const original = splitSource(source, path);
+    const edited = splitSource(next, path);
+    if (original.prefix !== edited.prefix) throw new Error("메타데이터는 원문 그대로 보존해주세요. 본문만 수정할 수 있습니다.");
+    return next;
+  }
   const document = splitSource(source, path);
   const seen = new Set<number>();
   for (const change of changes) {

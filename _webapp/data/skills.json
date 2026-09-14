@@ -251,6 +251,7 @@
   ],
   "items": [
     {
+      "sourcePath": "source_notes/07 Skills/1. 채혈/정맥채혈 (Venipuncture).md",
       "id": "venipuncture",
       "name": "정맥채혈 (Venipuncture)",
       "aliases": [],
@@ -339,6 +340,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/1. 채혈/동맥채혈 (ABGA).md",
       "id": "abga",
       "name": "동맥채혈 (ABGA)",
       "aliases": [],
@@ -426,6 +428,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/1. 채혈/대퇴혈관 천자 (Femoral Access).md",
       "id": "femoral-puncture",
       "name": "대퇴혈관 천자 (Femoral Access)",
       "aliases": [],
@@ -506,6 +509,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/1. 채혈/혈액배양 (Blood Culture).md",
       "id": "blood-culture",
       "name": "혈액배양 (Blood Culture)",
       "aliases": [],
@@ -594,6 +598,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/1. 채혈/주사침 찔림 (Needlestick Injury).md",
       "id": "needle-stick-injury",
       "name": "주사침 찔림 (Needlestick Injury)",
       "aliases": [],
@@ -682,6 +687,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/비위관 삽입 (Nasogastric Tube).md",
       "id": "ng-tube",
       "name": "비위관 삽입 (Nasogastric Tube)",
       "aliases": [],
@@ -771,6 +777,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/기관절개관 관리 (Tracheostomy Tube).md",
       "id": "t-tube",
       "name": "기관절개관 관리 (Tracheostomy Tube)",
       "aliases": [],
@@ -854,6 +861,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/일반 배액관 관리 (Drainage Tube).md",
       "id": "drainage-tube",
       "name": "일반 배액관 관리 (Drainage Tube)",
       "aliases": [],
@@ -934,6 +942,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/관장 (Enema).md",
       "id": "enema",
       "name": "관장 (Enema)",
       "aliases": [],
@@ -1010,6 +1019,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/흉관 (Chest Tube).md",
       "id": "chest-tube",
       "name": "흉관 (Chest Tube)",
       "aliases": [],
@@ -1095,6 +1105,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/도뇨관 (Foley Catheter).md",
       "id": "foley",
       "name": "도뇨관 (Foley Catheter)",
       "aliases": [],
@@ -1197,6 +1208,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/J-P Drain 관리.md",
       "id": "jp-drain",
       "name": "J/P Drain 관리",
       "aliases": [],
@@ -1277,6 +1289,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/위루관 (PEG Tube).md",
       "id": "peg-tube",
       "name": "위루관 (PEG Tube)",
       "aliases": [],
@@ -1353,6 +1366,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/체외뇌실배액 (EVD).md",
       "id": "evd",
       "name": "체외뇌실배액 (EVD)",
       "aliases": [],
@@ -1433,6 +1447,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/2. 관·튜브/기도 흡인 (Suction Catheter).md",
       "id": "suction-catheter",
       "name": "기도 흡인 (Suction Catheter)",
       "aliases": [],
@@ -1509,6 +1524,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/3. 환자 감시/심전도 (EKG).md",
       "id": "ekg",
       "name": "심전도 (EKG)",
       "aliases": [],
@@ -1592,6 +1608,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/3. 환자 감시/기본 환자 모니터링.md",
       "id": "patient-monitoring",
       "name": "기본 환자 모니터링",
       "aliases": [],
@@ -1675,6 +1692,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/3. 환자 감시/뇌신경계 모니터링.md",
       "id": "brain-monitoring",
       "name": "뇌신경계 모니터링",
       "aliases": [],
@@ -1755,6 +1773,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/3. 환자 감시/수술 중 신경 모니터링 (IONM).md",
       "id": "intra-monitor",
       "name": "수술 중 신경 모니터링 (IONM)",
       "aliases": [],
@@ -1831,6 +1850,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/3. 환자 감시/태동 검사 (NST).md",
       "id": "nst",
       "name": "태동 검사 (NST)",
       "aliases": [],
@@ -1907,6 +1927,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/3. 환자 감시/중환자 CT 동행 관리.md",
       "id": "ct-keep",
       "name": "중환자 CT 동행 관리",
       "aliases": [],
@@ -1984,6 +2005,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/4. 고급 술기/복수 천자 (Paracentesis).md",
       "id": "paracentesis",
       "name": "복수 천자 (Paracentesis)",
       "aliases": [],
@@ -2061,6 +2083,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/4. 고급 술기/자궁경부 세포검사 (Pap Smear).md",
       "id": "pap-smear",
       "name": "자궁경부 세포검사 (Pap Smear)",
       "aliases": [],
@@ -2143,6 +2166,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/4. 고급 술기/요추천자 (Lumbar Puncture).md",
       "id": "lumbar-puncture",
       "name": "요추천자 (Lumbar Puncture)",
       "aliases": [],
@@ -2220,6 +2244,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/5. CPR·호흡/산소요법.md",
       "id": "oxygen",
       "name": "산소요법",
       "aliases": [],
@@ -2308,6 +2333,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/5. CPR·호흡/심폐소생술 (CPR).md",
       "id": "cpr",
       "name": "심폐소생술 (CPR)",
       "aliases": [],
@@ -2396,6 +2422,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/5. CPR·호흡/윤상연골 압박 (Sellick Maneuver).md",
       "id": "sellick",
       "name": "윤상연골 압박 (Sellick Maneuver)",
       "aliases": [],
@@ -2471,6 +2498,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/6. 혈관 라인/동맥라인 (Arterial Line).md",
       "id": "a-line",
       "name": "동맥라인 (Arterial Line)",
       "aliases": [],
@@ -2551,6 +2579,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/6. 혈관 라인/혈관 Sheath 관리.md",
       "id": "sheath",
       "name": "혈관 Sheath 관리",
       "aliases": [],
@@ -2631,6 +2660,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/6. 혈관 라인/중심정맥관 (C-line).md",
       "id": "c-line",
       "name": "중심정맥관 (C-line)",
       "aliases": [
@@ -2721,6 +2751,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/6. 혈관 라인/말초정맥라인 (Peripheral IV).md",
       "id": "iv-line",
       "name": "말초정맥라인 (Peripheral IV)",
       "aliases": [],
@@ -2809,6 +2840,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/7. 주사 및 약물 투여/앰플·바이알 조제.md",
       "id": "ampule",
       "name": "앰플·바이알 조제",
       "aliases": [],
@@ -2886,6 +2918,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/7. 주사 및 약물 투여/항생제 투여 - AST 확인.md",
       "id": "abx-injection",
       "name": "항생제 투여 / AST 확인",
       "aliases": [],
@@ -2963,6 +2996,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/7. 주사 및 약물 투여/마약성 진통제 투여.md",
       "id": "narcotics",
       "name": "마약성 진통제 투여",
       "aliases": [],
@@ -3043,6 +3077,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/7. 주사 및 약물 투여/항암제 투여.md",
       "id": "chemo",
       "name": "항암제 투여",
       "aliases": [],
@@ -3124,6 +3159,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/7. 주사 및 약물 투여/조영제 투여.md",
       "id": "contrast-media",
       "name": "조영제 투여",
       "aliases": [],
@@ -3200,6 +3236,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/7. 주사 및 약물 투여/소아 진정.md",
       "id": "ped-sedation",
       "name": "소아 진정",
       "aliases": [],
@@ -3280,6 +3317,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/7. 주사 및 약물 투여/Infusion Pump 사용.md",
       "id": "infusion-pump",
       "name": "Infusion Pump 사용",
       "aliases": [],
@@ -3361,6 +3399,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/8. 드레싱 및 상처관리/상처 드레싱.md",
       "id": "wound-care",
       "name": "상처 드레싱",
       "aliases": [],
@@ -3438,6 +3477,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/8. 드레싱 및 상처관리/화상 처치.md",
       "id": "burn-care",
       "name": "화상 처치",
       "aliases": [],
@@ -3519,6 +3559,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/9. 병동 대응/고혈압 악화 보고.md",
       "id": "htn-call",
       "name": "고혈압 악화 보고",
       "aliases": [],
@@ -3606,6 +3647,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/9. 병동 대응/혈당 이상 대응.md",
       "id": "sugar-call",
       "name": "혈당 이상 대응",
       "aliases": [],
@@ -3698,6 +3740,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/9. 병동 대응/혈관수축제 사용 감시.md",
       "id": "vasopressor",
       "name": "혈관수축제 사용 감시",
       "aliases": [],
@@ -3788,6 +3831,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/9. 병동 대응/수혈.md",
       "id": "transfusion",
       "name": "수혈",
       "aliases": [],
@@ -3887,6 +3931,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/9. 병동 대응/사망 확인과 초기 문서화.md",
       "id": "death-pronouncement",
       "name": "사망 확인과 초기 문서화",
       "aliases": [],
@@ -3970,6 +4015,7 @@
       ]
     },
     {
+      "sourcePath": "source_notes/07 Skills/9. 병동 대응/연명의료결정제도 대응.md",
       "id": "lstd",
       "name": "연명의료결정제도 대응",
       "aliases": [],

@@ -356,6 +356,7 @@ export type SkillSource = {
 };
 
 export type ClinicalSkill = {
+  sourcePath: string;
   id: string;
   name: string;
   aliases: string[];
