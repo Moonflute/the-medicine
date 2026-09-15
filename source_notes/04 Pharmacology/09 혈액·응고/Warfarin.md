@@ -35,6 +35,12 @@ review_status: draft
 - 비타민 K의 재생을 억제하여 응고인자 II, VII, IX, X의 합성을 감소시킨다.
 
 ## 임상 정보
+- **시술 전후 중단**: 비심장 수술·침습 시술 전 와파린 중단·재개와 UFH/LMWH bridging은 시술 출혈위험, 기계판막 위치/세대, 최근 혈전색전증, 심방세동·좌심실 기능 및 INR을 함께 평가해 결정한다. 환자별 계획 없이 일률적으로 중단하거나 bridging하지 않는다.
+
+- **기계 인공판막**: 기계판막은 평생 비타민 K 길항제(VKA) 항응고가 필요하며 INR 목표는 판막 종류·삽입 위치·혈전색전 위험인자와 출혈 위험에 따라 판막 전문팀이 정한다. DOAC 또는 이중항혈소판요법으로 기계판막 혈전 예방을 대체하지 않는다.
+
+- **임신과 기계 인공판막**: 와파린은 태반을 통과해 태아 독성 위험이 있으나, 항응고 전략을 변경하는 과정에서는 산모의 판막 혈전·색전 위험도 함께 고려해야 한다. 임신 전부터 심장·고위험산과·항응고 전문팀이 개인별 항응고 계획과 모니터링을 정한다. 새 호흡곤란이나 색전 의심 증상이 생기면 지체 없이 심초음파를 포함한 판막 평가를 시행한다.
+
 - INR 목표 범위와 적응증을 기반으로 용량을 개별화해야 한다.
 - 식이, 항생제, 간 기능, 병용 약물에 의한 상호작용의 영향을 크게 받는다.
 - 치료 범위 내에서도 출혈 위험이 존재하므로 지속적인 모니터링이 필요하다.
@@ -90,3 +96,6 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+
+
+보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 232–234쪽(PDF 252–254쪽). [2025 ESC/EACTS 판막질환 진료지침](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828), [ESC 항혈전 치료 해설](https://www.escardio.org/communities/working-groups/cardiovascular-pharmacotherapy/scientific-documents-and-publications/Commented-articles/a-spotlight-on-antithrombotic-aspects-of-the-2025-esc-eacts-guidelines-on-valvular-heart-disease/); 기계 인공판막의 VKA·DOAC 금기, 시술 전후 항응고 및 임신 중 개별 위험평가 원칙을 대조. 2026-09-15 기존 목차 내 보완.

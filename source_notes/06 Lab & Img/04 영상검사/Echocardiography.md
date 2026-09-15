@@ -59,6 +59,9 @@ aliases:
 - tamponade / pericardial effusion
 - pulmonary hypertension 추정
 - infective endocarditis 보조 평가
+- **생존심근 평가**: 저용량 dobutamine stress echo에서 수축이 호전되고 고용량에서 다시 악화되는 이단계 반응은 수축 예비력을 가진 생존심근을 시사한다.
+- **판막수술 전 TEE**: 중증 판막질환에서 판막 형태, 역류/협착의 기전, 혈전 또는 수술 계획에 영향을 줄 소견을 TTE만으로 충분히 판단하기 어려울 때 선택적으로 시행한다.
+- **운동부하 초음파**: 무증상 중증 판막질환 또는 증상과 안정 시 판막 중증도가 맞지 않을 때 운동 유발 증상과 혈역학 변화를 평가하는 데 활용한다.
 
 ## 8. 장점
 - no ionizing radiation
@@ -85,3 +88,4 @@ aliases:
 
 ## 12. 참고문헌
 - 일반 echocardiography 원리 및 표준 개념 요약
+- 보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 231쪽(PDF 251쪽).

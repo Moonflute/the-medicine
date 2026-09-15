@@ -27,6 +27,7 @@ sources:
 
 ## 3. 검사
 - ECG와 심초음파로 구조·수축·이완 기능을 평가하고, 필요 시 심장 MRI, 관상동맥 평가, 유전·가족력 평가, 리듬 감시를 시행한다.
+- 확장성 심근병증은 심실 확장과 수축기 기능 저하가, 제한성 심근병증은 비확장 심실·현저한 양심방 확장과 이완기 충만장애가, 비후성 심근병증은 비대칭 중격 비후·승모판 수축기 전방운동(SAM) 및 동적 LVOT 폐쇄가 각각 중요한 영상 단서다.
 
 ## 4. 진단
 - 허혈성·판막성·고혈압성 심장질환과 구분하고, 형태별 진단 기준 및 가족력·침윤성 질환·약물/독성 노출을 함께 평가한다.
@@ -45,3 +46,7 @@ sources:
 - [[확장성 심근병증 (Dilated Cardiomyopathy)]]
 - [[비후성 심근병증 (Hypertrophic Cardiomyopathy)]]
 - [[제한성 심근병증 (Restrictive Cardiomyopathy)]]
+- [[타코츠보 심근병증 (Takotsubo Cardiomyopathy)]]
+
+
+보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 213–218쪽(PDF 233–238쪽). [International Expert Consensus: Takotsubo Syndrome Part I](https://academic.oup.com/eurheartj/article/39/22/2032/5025412), [International Expert Consensus: Takotsubo Syndrome Part II](https://academic.oup.com/eurheartj/article/39/22/2047/5025411), [2024 International Expert Consensus Report](https://pubmed.ncbi.nlm.nih.gov/39417524/); 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.

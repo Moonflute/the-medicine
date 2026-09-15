@@ -42,6 +42,7 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 적응증
 - 성인 만성 심부전 환자의 심부전 악화로 인한 입원 위험 감소
+- 동율동에서만 심박수를 낮추므로 심방세동 환자의 심실 박동수 조절 목적으로는 사용하지 않는다.
 
 #### 금기증
 - 급성 비대상성 심부전
@@ -77,3 +78,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 삼성서울병원 내과 매뉴얼 제8판, 책 211쪽(PDF 231쪽).

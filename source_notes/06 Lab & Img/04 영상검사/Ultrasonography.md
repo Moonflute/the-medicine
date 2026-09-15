@@ -55,6 +55,7 @@ aliases:
 - `Spectral Doppler`: 혈류 속도 파형
 
 ## 8. 임상적 활용
+- **내시경초음파(EUS)**는 내시경 끝의 고주파 초음파로 위장관벽과 인접 장기를 근접 평가한다. 작은 췌담도 병변과 점막하 병변의 발견·국소 병기 평가에 유용하며, 필요 시 표적 조직 획득 여부를 판단하는 데 활용한다.
 - hepatobiliary disease
 - hydronephrosis
 - DVT screening
@@ -87,3 +88,4 @@ aliases:
 
 ## 13. 참고문헌
 - 일반 diagnostic ultrasound 원리 요약
+- 보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 179쪽(PDF 199쪽).

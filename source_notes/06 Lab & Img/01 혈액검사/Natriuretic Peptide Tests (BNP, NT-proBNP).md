@@ -31,6 +31,8 @@ aliases:
 ## 4. 이상 소견의 해석
 - `상승`은 heart failure 가능성을 높인다.
 - renal dysfunction, age 증가, pulmonary hypertension, acute coronary syndrome 등에서도 상승할 수 있다.
+- 급성 호흡곤란 평가에서 BNP <100 pg/mL 또는 NT-proBNP <300 pg/mL이면 심부전 가능성이 낮다. 비급성 평가에서는 BNP <35 pg/mL 또는 NT-proBNP <125 pg/mL가 심부전 가능성을 낮춘다.
+- 이 문턱값은 심부전을 확진하는 기준이 아니며, 임상 의심이 높거나 검사 결과와 임상상이 맞지 않으면 심전도·흉부영상·심장초음파 등을 함께 평가한다.
 
 ## 5. 관련 검사
 - [[Troponin]]
@@ -38,3 +40,4 @@ aliases:
 
 ## 6. 참고문헌
 - [MedlinePlus: Natriuretic Peptide Tests (BNP, NT-proBNP)](https://medlineplus.gov/lab-tests/natriuretic-peptide-tests-bnp-nt-probnp/)
+- 삼성서울병원 내과 매뉴얼 제8판, 책 204쪽(PDF 224쪽).

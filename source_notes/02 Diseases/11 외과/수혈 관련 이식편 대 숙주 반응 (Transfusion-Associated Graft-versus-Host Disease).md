@@ -42,7 +42,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 
 - 근본적인 치료법이 없으므로 발병 시 대증 요법 및 면역 억제 치료를 시행하나 예후가 매우 불량함.
-- 면역 저하 환자에게는 반드시 방사선 조사(irradiation)를 거친 혈액 제제를 수혈하여 공여자의 T 림프구를 불활성화함.
+- 방사선 조사(irradiation)는 공여자의 T 림프구 증식을 억제하는 예방 조치다. 조혈모세포이식, 특정 면역결핍·면역억제치료, 혈연자 헌혈·HLA 선택 혈소판 등 적응증과 기관 기준을 확인한다. 모든 면역저하 또는 급성 백혈병 환자에게 진단명만으로 일률 적용하는 것은 아니다.
 - 수혈 후 발열, 피부 발진, 설사 등 의심 증상 발생 시 즉시 혈액종양내과 전문의에게 자문 및 전원을 고려함.
 - 고위험군 환자군을 사전에 식별하여 수혈 전 예방적 조치가 이루어지도록 관리함.
 
@@ -53,3 +53,7 @@ reviewed_at: "2026-07-30"
 출처 : StatPearls (Graft-Versus-Host Disease)
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)
+
+보완 근거: [Canadian Blood Services 특수 제제](https://professionaleducation.blood.ca/en/transfusion/clinical-guide/irradiated-washed-and-cmv-seronegative-blood-components).
+
+참고: 삼성서울병원 내과 매뉴얼 제8판, 수혈, 책 681–684쪽.
