@@ -41,4 +41,3 @@ review_status: "samsung8e_source_integrated"
 - 급성 손상은 호전할 수 있으나 후기 섬유화·운동장애·협착은 지속될 수 있다. 드물게 만성 궤양, 누공, 출혈·천공이 발생한다.
 
 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 9쪽(PDF 29쪽). [eviQ Oesophagitis, 2025 검토본](https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/gastrointestinal/420-oesophagitis).
-

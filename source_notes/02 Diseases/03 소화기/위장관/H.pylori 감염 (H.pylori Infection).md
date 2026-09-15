@@ -85,4 +85,3 @@ Last updated :
 
 
 보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 12–14쪽(PDF 32–34쪽). [국내 H. pylori 진단·치료 지침 2025 개정판, 2026 발표](https://pmc.ncbi.nlm.nih.gov/articles/PMC13359576/), [ACG 2024 제균 확인](https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/). 2026-09-14 기존 목차 내 보완.
-
