@@ -21,6 +21,7 @@ import {
   recordQbankAttempt,
   saveQbankSession,
   toggleQbankBookmark,
+  type QbankProgress,
 } from "@/lib/qbank-store";
 import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
@@ -38,6 +39,33 @@ function shuffled<T>(values: T[]): T[] {
     [next[index], next[swap]] = [next[swap], next[index]];
   }
   return next;
+}
+
+function balancedUnattemptedFirst(questions: QbankQuestion[], progress: Record<string, QbankProgress>, count: number): QbankQuestion[] {
+  const selected: QbankQuestion[] = [];
+  const used = new Set<string>();
+  const drawRoundRobin = (pool: QbankQuestion[]) => {
+    const groups = new Map<string, QbankQuestion[]>();
+    for (const question of shuffled(pool)) {
+      const key = `${question.questionBank}:${question.specialtySlug}`;
+      const bucket = groups.get(key) ?? [];
+      bucket.push(question);
+      groups.set(key, bucket);
+    }
+    const queues = shuffled([...groups.values()]);
+    while (queues.some((queue) => queue.length > 0) && selected.length < count) {
+      for (const queue of queues) {
+        const question = queue.shift();
+        if (question && !used.has(question.id) && selected.length < count) {
+          selected.push(question);
+          used.add(question.id);
+        }
+      }
+    }
+  };
+  drawRoundRobin(questions.filter((question) => !progress[question.id]));
+  if (selected.length < count) drawRoundRobin(questions.filter((question) => progress[question.id] && !used.has(question.id)));
+  return selected;
 }
 
 async function fetchJson<T>(path: string): Promise<T> {
@@ -186,6 +214,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [answers, setAnswers] = useState<SessionAnswer[]>([]);
   const [bookmarked, setBookmarked] = useState(false);
   const [wrongTracked, setWrongTracked] = useState(false);
+  const [questionProgress, setQuestionProgress] = useState<QbankProgress | null>(null);
   const [completed, setCompleted] = useState(false);
   const [finishConfirm, setFinishConfirm] = useState(false);
   const [finishError, setFinishError] = useState("");
@@ -266,7 +295,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         }
         const restoredQuestions = snapshot?.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item)) ?? [];
         const canRestore = Boolean(snapshot && restoredQuestions.length === snapshot.questionIds.length && restoredQuestions.length > 0);
-        const selectedQuestions = canRestore ? restoredQuestions : (mode === "practice-book" ? [...filtered].sort(comparePracticeOrder) : shuffled(filtered)).slice(0, requestedCount);
+        const selectedQuestions = canRestore ? restoredQuestions : mode === "practice-book"
+          ? [...filtered].sort(comparePracticeOrder).slice(0, requestedCount)
+          : mode === "selection" || mode === "related"
+            ? balancedUnattemptedFirst(filtered, state.progress, requestedCount)
+            : shuffled(filtered).slice(0, requestedCount);
         const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
         const restoredQuestion = selectedQuestions[restoredIndex];
         const restoredAnswer = canRestore && snapshot ? snapshot.answers.find((item) => item.questionId === restoredQuestion?.id) : undefined;
@@ -280,6 +313,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setSubmitted(Boolean(restoredAnswer));
         setBookmarked(Boolean(restoredQuestion && state.bookmarkIds.includes(restoredQuestion.id)));
         setWrongTracked(Boolean(restoredQuestion && state.wrongIds.includes(restoredQuestion.id)));
+        setQuestionProgress(restoredQuestion ? state.progress[restoredQuestion.id] ?? null : null);
       })
       .catch((reason: unknown) => setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."))
       .finally(() => setLoading(false));
@@ -361,6 +395,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const state = loadQbankState();
         setBookmarked(state.bookmarkIds.includes(restoredQuestion.id));
         setWrongTracked(state.wrongIds.includes(restoredQuestion.id));
+        setQuestionProgress(state.progress[restoredQuestion.id] ?? null);
         appliedRemoteSessionVersionRef.current = remoteActiveSession.updatedAt;
       })
       .catch((error) => { console.warn("Q-bank active session could not be restored.", error); if (!cancelled) setError("저장된 풀이를 복원하지 못했습니다. 로그인과 문제 접근 권한을 확인해 주세요."); })
@@ -411,18 +446,21 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       return nextDrafts;
     });
     const previousAnswer = answers.find((item) => item.questionId === question.id);
+    const state = loadQbankState();
     setCurrentIndex(index);
-    setBookmarked(loadQbankState().bookmarkIds.includes(question.id));
+    setBookmarked(state.bookmarkIds.includes(question.id));
     setSelected(previousAnswer?.selected ?? drafts[question.id] ?? null);
     setSubmitted(Boolean(previousAnswer));
-    setWrongTracked(loadQbankState().wrongIds.includes(question.id));
+    setWrongTracked(state.wrongIds.includes(question.id));
+    setQuestionProgress(state.progress[question.id] ?? null);
   }, [answers, questions, current, currentIndex, selected, submitted, drafts]);
 
   const submit = useCallback(() => {
     if (mockExam || !current || !selected || submitted) return;
     const correct = gradeQuestion(current, selected);
-    if (correct !== null) recordQbankAttempt(current.id, selected, correct);
+    const progress = correct !== null ? recordQbankAttempt(current.id, selected, correct) : null;
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
+    setQuestionProgress(progress);
     setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: current.specialty }]);
     setSubmitted(true);
   }, [current, mockExam, selected, submitted]);
@@ -629,7 +667,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
       <article className="surface p-5 sm:p-7">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex flex-wrap gap-2"><span className="pill">{current.specialty}</span><span className="pill">{current.questionType}</span></div>
+          <div className="flex flex-wrap items-center gap-2"><span className="pill">{current.specialty}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</div>
           <button type="button" onClick={toggleBookmark} className="secondary-action" aria-pressed={bookmarked}>
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
           </button>

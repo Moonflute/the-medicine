@@ -240,10 +240,10 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       </fieldset>
     </section>
 
-    {!relatedTarget ? <section className="grid gap-3 sm:grid-cols-3">
-      <button type="button" onClick={() => setShowUnattemptedDialog(true)} className="list-tile p-5 text-left"><RotateCcw className="h-5 w-5 text-teal-700" /><h3 className="mt-3 font-semibold">미풀이 문제</h3><p className="mt-1 text-sm text-slate-600">아직 풀지 않은 문제만 무작위로 풉니다.</p></button>
-      <Link href={`/review/qbank/session?mode=wrong&count=${count}`} className="list-tile p-5"><CircleAlert className="h-5 w-5 text-rose-700" /><h3 className="mt-3 font-semibold">오답 다시 풀기</h3><p className="mt-1 text-sm text-slate-600">표시한 오답 {stats.wrong}개 중에서 출제합니다.</p></Link>
-      <Link href={`/review/qbank/session?mode=bookmarks&count=${count}`} className="list-tile p-5"><Bookmark className="h-5 w-5 text-amber-700" /><h3 className="mt-3 font-semibold">북마크</h3><p className="mt-1 text-sm text-slate-600">저장한 문제 {stats.bookmarks}개를 다시 풉니다.</p></Link>
+    {!relatedTarget ? <section className="grid gap-2 sm:grid-cols-3">
+      <button type="button" onClick={() => setShowUnattemptedDialog(true)} className="list-tile flex items-center gap-2.5 px-3.5 py-3 text-left"><RotateCcw className="h-4 w-4 shrink-0 text-teal-700" /><h3 className="font-semibold">미풀이 문제</h3></button>
+      <Link href={`/review/qbank/session?mode=wrong&count=${count}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><CircleAlert className="h-4 w-4 shrink-0 text-rose-700" /><h3 className="font-semibold">오답 다시 풀기</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.wrong}개</span></Link>
+      <Link href={`/review/qbank/session?mode=bookmarks&count=${count}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><Bookmark className="h-4 w-4 shrink-0 text-amber-700" /><h3 className="font-semibold">북마크</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.bookmarks}개</span></Link>
     </section> : null}
 
     {showUnattemptedDialog ? <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/35 p-4" role="dialog" aria-modal="true" aria-labelledby="unattempted-dialog-title">

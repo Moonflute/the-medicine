@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { readMockExam } from "@/lib/mock-exam";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicKey, practiceTopicLabel } from "@/lib/practice-selection";
+import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicSections } from "@/lib/practice-selection";
 
 type Dimension = "series" | "departments" | "specialties" | "years";
 export function PracticeBankPicker({ questions, filters, onChange, message }: {
@@ -85,11 +85,14 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
     {group("series", "P / R", [["퍼펙트", "P"], ["리얼", "R"]])}
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
     {PRACTICE_DEPARTMENTS.map((d) => {
-      const topics = [...new Map(questions.filter((q) => q.bookDepartment === d).map((q) => [practiceTopicKey(q), practiceTopicLabel(q)])).entries()].sort((a, b) => a[1].localeCompare(b[1], "ko"));
-      const chosen = topics.filter(([key]) => filters.specialties.includes(key)).length;
+      const sections = practiceTopicSections(questions, d);
+      const topicCount = sections.reduce((count, section) => count + section.topics.length, 0);
+      const chosen = sections.flatMap((section) => section.topics).filter(([key]) => filters.specialties.includes(key)).length;
       return <details key={d} className="mt-3 rounded-xl border border-slate-200 bg-slate-50/50 px-3 pb-3 sm:px-4">
-        <summary className="-mb-3 cursor-pointer py-3 text-sm font-semibold text-slate-800 marker:text-teal-600">{d} · 세부 주제 <span className="ml-2 text-xs font-normal text-slate-500">{chosen ? `${chosen}개 선택` : `${topics.length}개`}</span></summary>
-        {group("specialties", `${d} 세부 주제 선택`, topics)}
+        <summary className="-mb-3 cursor-pointer py-3 text-sm font-semibold text-slate-800 marker:text-teal-600">{d} · 세부 주제 <span className="ml-2 text-xs font-normal text-slate-500">{chosen ? `${chosen}개 선택` : `${topicCount}개`}</span></summary>
+        <div className="mt-5 space-y-5">
+          {sections.map((section) => <div key={section.id}>{group("specialties", section.title, section.topics)}</div>)}
+        </div>
       </details>;
     })}
     {group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}
