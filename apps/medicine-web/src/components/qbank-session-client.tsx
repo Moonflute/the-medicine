@@ -1,6 +1,6 @@
 "use client";
 
-import { correctAnswers, gradeQuestion, isSelection, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
+import { correctAnswers, gradeQuestion, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
 import { remainingQuestions, sessionWrongIds } from "@/lib/qbank-session-results";
 import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
@@ -25,13 +25,10 @@ import {
 } from "@/lib/qbank-store";
 import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
+import { activeSessionFrom, clearLocalActiveQbankSession, QBANK_SESSION_STORAGE_PREFIX, readQbankSessionDrafts, saveLocalActiveQbankSession, type QbankActiveSession, type QbankSessionAnswer, type QbankSessionSnapshot } from "@/lib/qbank-active-session";
 
-type SessionAnswer = { questionId: string; selected: QbankSelection; correct: boolean | null; specialty: string };
-type QbankSessionSnapshot = { drafts?: Record<string, QbankSelection>; mockExam?: MockExamState | null; questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankSelection | null; submitted: boolean };
-type QbankActiveSession = QbankSessionSnapshot & { sessionId: string; updatedAt: string };
 type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">>;
-
-const QBANK_SESSION_STORAGE_PREFIX = "medicine-web-qbank-session:";
+type SessionAnswer = QbankSessionAnswer;
 
 function shuffled<T>(values: T[]): T[] {
   const next = [...values];
@@ -188,28 +185,6 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   return [...shards.flat().filter((item) => ids.has(item.id)), ...privateQuestions];
 }
 
-function readDrafts(value: unknown): Record<string, QbankSelection> {
-  if (!value || typeof value !== "object" || Array.isArray(value)) return {};
-  return Object.fromEntries(Object.entries(value).filter(([, answer]) => isSelection(answer)));
-}
-
-function activeSessionFrom(value: unknown): QbankActiveSession | null {
-  if (!value || typeof value !== "object") return null;
-  const candidate = value as Partial<QbankActiveSession>;
-  if (typeof candidate.sessionId !== "string" || !Array.isArray(candidate.questionIds) || !Array.isArray(candidate.answers) || typeof candidate.updatedAt !== "string") return null;
-  return {
-    sessionId: candidate.sessionId,
-    mockExam: readMockExam(candidate.mockExam),
-    drafts: readDrafts(candidate.drafts),
-    questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
-    currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,
-    answers: candidate.answers as SessionAnswer[],
-    selected: isSelection(candidate.selected) ? candidate.selected : null,
-    submitted: Boolean(candidate.submitted),
-    updatedAt: candidate.updatedAt,
-  };
-}
-
 export function QbankSessionClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
   const [mockExam, setMockExam] = useState<MockExamState | null>(null);
   const [optionSessionId, setOptionSessionId] = useState("");
@@ -317,7 +292,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setQuestions(selectedQuestions);
         setCurrentIndex(restoredIndex);
         setAnswers(canRestore && snapshot ? snapshot.answers.filter((item) => selectedQuestions.some((question) => question.id === item.questionId)) : []);
-        setDrafts(canRestore ? readDrafts(snapshot?.drafts) : {});
+        setDrafts(canRestore ? readQbankSessionDrafts(snapshot?.drafts) : {});
         setSelected(restoredAnswer?.selected ?? (canRestore && snapshot ? snapshot.selected : null));
         setSubmitted(Boolean(restoredAnswer));
         setBookmarked(Boolean(restoredQuestion && state.bookmarkIds.includes(restoredQuestion.id)));
@@ -393,12 +368,13 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         params.delete("resume");
         window.history.replaceState(window.history.state, "", `${window.location.pathname}?${params.toString()}${window.location.hash}`);
         window.sessionStorage.setItem(`${QBANK_SESSION_STORAGE_PREFIX}${remoteActiveSession.sessionId}`, JSON.stringify(remoteActiveSession));
+        saveLocalActiveQbankSession(remoteActiveSession);
         setMockExam(readMockExam(remoteActiveSession.mockExam));
         setOptionSessionId(remoteActiveSession.sessionId);
         setQuestions(restoredQuestions);
         setCurrentIndex(restoredIndex);
         setAnswers(remoteActiveSession.answers.filter((item) => restoredQuestions.some((question) => question.id === item.questionId)));
-        setDrafts(readDrafts(remoteActiveSession.drafts));
+        setDrafts(readQbankSessionDrafts(remoteActiveSession.drafts));
         setSelected(restoredAnswer?.selected ?? remoteActiveSession.selected);
         setSubmitted(Boolean(restoredAnswer));
         const state = loadQbankState();
@@ -493,14 +469,14 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       return;
     }
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
-    try { window.sessionStorage.removeItem(sessionStorageKey()); } catch { /* Result is already saved. */ }
+    try { clearLocalActiveQbankSession(sessionIdRef.current ?? undefined); } catch { /* Result is already saved. */ }
     if (syncUserId) {
       const client = getSupabaseBrowserClient();
       if (client) void client.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: null }, { onConflict: "user_id" });
     }
     setFinishConfirm(false);
     setCompleted(true);
-  }, [answers, completed, questions, sessionStartedAt, sessionStorageKey, syncUserId]);
+  }, [answers, completed, questions, sessionStartedAt, syncUserId]);
 
   const next = useCallback(() => {
     if (completed || finishConfirm) return;
@@ -583,6 +559,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     };
     try {
       window.sessionStorage.setItem(sessionStorageKey(), JSON.stringify(snapshot));
+      saveLocalActiveQbankSession(snapshot);
       if (mockExam) {
         window.localStorage.setItem(sessionStorageKey(), JSON.stringify(snapshot));
         window.localStorage.setItem("medicine-web-last-mock", JSON.stringify({ updatedAt: snapshot.updatedAt, title: mockExam.title, finished: Boolean(mockExam.finishedAt), href: `/review/qbank/session${window.location.search}` }));

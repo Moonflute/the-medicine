@@ -8,11 +8,17 @@ import { EMPTY_PRACTICE_FILTERS, matchesPractice, stringArray, toggleGroup, type
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
+import { activeSessionFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
 import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
 type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string; scopeSlugs?: string[] };
 type SpecialtyChoice = QbankSpecialtySummary;
 type TheorySourceType = "disease" | "cc" | "drug" | "other";
+
+function initialActiveSession() {
+  const session = loadLocalActiveQbankSession();
+  return session?.mockExam?.finishedAt ? null : session;
+}
 
 const THEORY_SOURCE_GROUPS: Array<{ type: TheorySourceType; title: string; description: string }> = [
   { type: "disease", title: "질병 이론", description: "질병 문서에서 만든 핵심 개념 문제" },
@@ -112,6 +118,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);
   const [unattemptedCount, setUnattemptedCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
+  const [activeSession, setActiveSession] = useState<QbankActiveSession | null>(null);
+  const [endingActiveSession, setEndingActiveSession] = useState(false);
+  const [activeSessionError, setActiveSessionError] = useState("");
 
   useEffect(() => {
     const refresh = () => {
@@ -123,6 +132,51 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
     return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
   }, []);
+
+  useEffect(() => {
+    let active = true;
+    const latest = initialActiveSession();
+    queueMicrotask(() => { if (active) setActiveSession(latest); });
+    const client = getSupabaseBrowserClient();
+    if (!client) return () => { active = false; };
+    const restore = async () => {
+      const { data: auth } = await client.auth.getUser();
+      if (!active || !auth.user) return;
+      const { data, error } = await client.from("user_preferences").select("qbank_active_session").eq("user_id", auth.user.id).maybeSingle();
+      if (error) {
+        console.warn("Q-bank active session lookup failed.", error);
+        return;
+      }
+      const remote = activeSessionFrom(data?.qbank_active_session);
+      if (!active || !remote || remote.mockExam?.finishedAt) return;
+      if (!latest || remote.updatedAt > latest.updatedAt) setActiveSession(remote);
+    };
+    void restore().catch((error) => console.warn("Q-bank active session lookup failed.", error));
+    return () => { active = false; };
+  }, []);
+
+  const endActiveSession = async () => {
+    if (!activeSession || endingActiveSession) return;
+    setEndingActiveSession(true);
+    setActiveSessionError("");
+    try {
+      const client = getSupabaseBrowserClient();
+      if (client) {
+        const { data: auth } = await client.auth.getUser();
+        if (auth.user) {
+          const { error } = await client.from("user_preferences").upsert({ user_id: auth.user.id, qbank_active_session: null }, { onConflict: "user_id" });
+          if (error) throw error;
+        }
+      }
+      clearLocalActiveQbankSession(activeSession.sessionId);
+      setActiveSession(null);
+    } catch (error) {
+      console.warn("Q-bank active session could not be ended.", error);
+      setActiveSessionError("저장된 풀이를 종료하지 못했습니다. 네트워크를 확인하고 다시 시도해 주세요.");
+    } finally {
+      setEndingActiveSession(false);
+    }
+  };
 
   useEffect(() => {
     let active = true;
@@ -204,6 +258,18 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">전체 문제</span><span className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</span></div>
       <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">풀이 완료</span><span className="font-semibold tabular-nums">{stats.attempted.toLocaleString()}</span></div>
       <div className="flex items-baseline gap-2 whitespace-nowrap text-rose-700"><span>오답</span><span className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</span></div>
+    </section> : null}
+
+    {!relatedTarget && activeSession ? <section className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5" aria-label="진행 중인 문제 세트">
+      <div className="min-w-0">
+        <p className="text-sm font-semibold text-teal-950">{activeSession.mockExam?.title || "진행 중인 문제 세트"}</p>
+        <p className="mt-0.5 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
+        {activeSessionError ? <p role="alert" className="mt-1 text-xs text-rose-700">{activeSessionError}</p> : null}
+      </div>
+      <div className="flex shrink-0 flex-wrap gap-2">
+        <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="primary-action">이어서 풀기</Link>
+        <button type="button" className="secondary-action text-rose-700" disabled={endingActiveSession} onClick={() => void endActiveSession()}>{endingActiveSession ? "종료 중…" : "조기 종료"}</button>
+      </div>
     </section> : null}
 
     <section className="surface p-5 sm:p-6">
