@@ -660,30 +660,34 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           </button></div>
         </div>
         {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id}</p>}
-        {current.figures?.map((figure, index) => <figure key={figure.path}><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="mt-1 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}
-        <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
+        <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>
+          <div>
+            <p className={`${current.figures?.length ? "" : "mt-6 "}whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base`}>{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
 
-        {selectionHint(current) && <p className="mt-4 text-sm font-medium text-teal-700">{selectionHint(current)}</p>}
-        <div className="mt-7 grid gap-3">
-          {displayedOptions.map((key, position) => {
-            const isCorrect = submitted && correctAnswers(current).includes(key);
-            const isWrong = submitted && gradeQuestion(current, selected) === false && selectedAnswers(selected).includes(key) && !correctAnswers(current).includes(key);
-            const isSelected = selectedAnswers(selected).includes(key);
-            return (
-              <button
-                key={key}
-                type="button"
-                disabled={submitted}
-                aria-pressed={isSelected}
-                onClick={() => setSelected(value => toggleSelection(current, value, key))}
-                className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${
-                  isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"
-                }`}
-              >
-                <span className="font-semibold">{OPTION_LABELS[position]}.</span><span>{current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key]}</span>
-              </button>
-            );
-          })}
+            {selectionHint(current) && <p className="mt-4 text-sm font-medium text-teal-700">{selectionHint(current)}</p>}
+            <div className="mt-7 grid gap-3">
+              {displayedOptions.map((key, position) => {
+                const isCorrect = submitted && correctAnswers(current).includes(key);
+                const isWrong = submitted && gradeQuestion(current, selected) === false && selectedAnswers(selected).includes(key) && !correctAnswers(current).includes(key);
+                const isSelected = selectedAnswers(selected).includes(key);
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    disabled={submitted}
+                    aria-pressed={isSelected}
+                    onClick={() => setSelected(value => toggleSelection(current, value, key))}
+                    className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${
+                      isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"
+                    }`}
+                  >
+                    <span className="font-semibold">{OPTION_LABELS[position]}.</span><span>{current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key]}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+          {current.figures?.length ? <aside className="space-y-4 lg:sticky lg:top-5">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}</aside> : null}
         </div>
 
         {submitted ? (
