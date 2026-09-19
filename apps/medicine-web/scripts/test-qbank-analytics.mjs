@@ -35,11 +35,11 @@ test('session trends are weighted and exclude sessions crossing the selected sco
   assert.equal(s.sessions.length, 10); assert.equal(s.currentRate, 100); assert.equal(s.change, 50);
   assert.equal(buildQbankAnalytics(catalog, {...state,sessions}).sessions[0].id, 'mixed');
 });
-test('empty data and malformed retry lists remain empty; retry IDs are bounded and unique', () => {
+test('empty data and malformed retry lists remain empty; large retry IDs stay unique', () => {
   assert.equal(buildQbankAnalytics([],state).currentRate, null);
   assert.deepEqual(readRetryIds('{'), []); assert.deepEqual(readRetryIds(null), []);
   assert.deepEqual(readRetryIds('["a","a",null,1,""]'), ['a']);
-  assert.equal(readRetryIds(JSON.stringify(Array.from({length:200},(_,i)=>String(i)))).length,100);
+  assert.equal(readRetryIds(JSON.stringify(Array.from({length:200},(_,i)=>String(i)))).length,200);
 });
 
 test('department order follows catalog ranks and latest accuracy differs from repeat-weighted accuracy', () => {
