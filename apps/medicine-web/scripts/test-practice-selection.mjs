@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceMockExams } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceMockExams, practiceTopicSections } from '../src/lib/practice-selection.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
   assert.deepEqual(toggleGroup(['disease:cardio'], ['cc:cardio', 'cc:renal']), ['disease:cardio', 'cc:cardio', 'cc:renal']);
@@ -43,3 +43,16 @@ test('one mock exam combines all four subjects across volumes and excludes other
   const ids = ['QB-RL2019-V01-GS-0001', 'QB-RL2019-V01-IM-0010', 'QB-RL2019-V01-IM-0002'];
   assert.deepEqual(ids.map(id => ({id})).sort(comparePracticeOrder).map(q => q.id), [ids[2], ids[1], ids[0]]);
  });
+
+test('internal-medicine detail topics mirror only theory specialties 01 through 10', () => {
+  const rows = [
+    { bookDepartment: '내과', specialty: '09 혈액', specialtySlug: 'hematology' },
+    { bookDepartment: '내과', specialty: '01 순환기', specialtySlug: 'cardiology' },
+    { bookDepartment: '내과', specialty: '11 외과', specialtySlug: 'surgery' },
+    { bookDepartment: '내과', specialty: '21 응급의학', specialtySlug: 'emergency' },
+  ];
+  assert.deepEqual(
+    practiceTopicSections(rows, '내과').flatMap(section => section.topics).map(([key, label]) => [key, label]),
+    [['내과:cardiology', '순환기'], ['내과:hematology', '혈액']],
+  );
+});

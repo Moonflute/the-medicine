@@ -11,7 +11,7 @@ import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, XCircle } from "lucide-react";
@@ -29,6 +29,7 @@ import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 type SessionAnswer = { questionId: string; selected: QbankSelection; correct: boolean | null; specialty: string };
 type QbankSessionSnapshot = { drafts?: Record<string, QbankSelection>; mockExam?: MockExamState | null; questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankSelection | null; submitted: boolean };
 type QbankActiveSession = QbankSessionSnapshot & { sessionId: string; updatedAt: string };
+type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">>;
 
 const QBANK_SESSION_STORAGE_PREFIX = "medicine-web-qbank-session:";
 
@@ -104,12 +105,19 @@ function theoryTargetTitle(question: QbankQuestion): string {
   }
 }
 
+function practiceQuestionLabel(question: SessionQuestion): string {
+  if (question.questionBank !== "practice") return question.specialty;
+  if (question.bookDepartment) return question.bookDepartment;
+  const subject = question.id.match(/-(IM|GS|OG|PE)(?:-|$)/)?.[1];
+  return ({ IM: "내과", GS: "외과", OG: "산부인과", PE: "소아과" } as Record<string, string>)[subject ?? ""] ?? question.specialty;
+}
+
 function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
   if (drugs.length === 0) return null;
   return <div className="mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters): Promise<QbankQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters): Promise<SessionQuestion[]> {
   if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 결과 화면이나 학습 통계에서 다시 선택해 주세요.");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
@@ -156,7 +164,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     ));
   }
   if (mode === "all" && targetIds) candidates = candidates.filter(item => targetIds.has(item.id));
-  let privateQuestions: QbankQuestion[] = [];
+  let privateQuestions: SessionQuestion[] = [];
   const wantsPrivate = hasPracticeSelection(practiceFilters) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode) || (mode === "retry" && [...(targetIds ?? [])].some(id => id.startsWith("QB-")));
   if (wantsPrivate) {
     const { questions: privateIndex } = await loadPracticeIndex();
@@ -170,7 +178,8 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       const scope = targetSlugs.split(",").filter(Boolean);
       return targetType === "disease" ? q.relatedDiseaseSlugs.some((slug) => (scope.length ? scope : [targetSlug]).includes(slug)) : q.relatedCcSlugs.includes(targetSlug);
     }).map((q) => q.id);
-    privateQuestions = await loadPracticeQuestions(privateIds);
+    const metadata = new Map(privateIndex.map((question) => [question.id, question]));
+    privateQuestions = (await loadPracticeQuestions(privateIds)).map((question) => ({ ...question, bookDepartment: metadata.get(question.id)?.bookDepartment }));
   }
   const slugs = [...new Set(candidates.map((item) => item.specialtySlug))];
   if (slugs.length === 0) return privateQuestions;
@@ -204,7 +213,7 @@ function activeSessionFrom(value: unknown): QbankActiveSession | null {
 export function QbankSessionClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
   const [mockExam, setMockExam] = useState<MockExamState | null>(null);
   const [optionSessionId, setOptionSessionId] = useState("");
-  const [questions, setQuestions] = useState<QbankQuestion[]>([]);
+  const [questions, setQuestions] = useState<SessionQuestion[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -293,7 +302,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         } catch {
           snapshot = null;
         }
-        const restoredQuestions = snapshot?.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item)) ?? [];
+        const restoredQuestions = snapshot?.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is SessionQuestion => Boolean(item)) ?? [];
         const canRestore = Boolean(snapshot && restoredQuestions.length === snapshot.questionIds.length && restoredQuestions.length > 0);
         const selectedQuestions = canRestore ? restoredQuestions : mode === "practice-book"
           ? [...filtered].sort(comparePracticeOrder).slice(0, requestedCount)
@@ -461,7 +470,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const progress = correct !== null ? recordQbankAttempt(current.id, selected, correct) : null;
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
     setQuestionProgress(progress);
-    setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: current.specialty }]);
+    setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: practiceQuestionLabel(current) }]);
     setSubmitted(true);
   }, [current, mockExam, selected, submitted]);
 
@@ -634,7 +643,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         <div className="flex flex-wrap items-center gap-2">
           <label className="flex items-center gap-2 text-sm font-medium">문제 번호
             <select className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm" value={currentIndex} onChange={event => showQuestion(Number(event.target.value))}>
-              {questions.map((question, index) => <option key={question.id} value={index}>{index + 1}번 · {question.specialty}</option>)}
+              {questions.map((question, index) => <option key={question.id} value={index}>{index + 1}번 · {practiceQuestionLabel(question)}</option>)}
             </select>
           </label>
           <button type="button" className="secondary-action disabled:opacity-40" disabled={currentIndex === 0} onClick={previous}>이전</button>
@@ -667,7 +676,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
       <article className="surface p-5 sm:p-7">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex flex-wrap items-center gap-2"><span className="pill">{current.specialty}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</div>
+          <div className="flex flex-wrap items-center gap-2"><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</div>
           <button type="button" onClick={toggleBookmark} className="secondary-action" aria-pressed={bookmarked}>
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
           </button>

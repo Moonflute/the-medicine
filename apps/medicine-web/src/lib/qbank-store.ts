@@ -38,6 +38,7 @@ export type QbankState = {
 };
 
 const STORAGE_KEY = "medicine-web-qbank-v1";
+const PROGRESS_VIEW_STORAGE_KEY = "medicine-web-qbank-progress-view-v1";
 const CHANGE_EVENT = "medicine-web-qbank-change";
 
 
@@ -80,6 +81,21 @@ export function loadQbankState(): QbankState {
   } catch {
     return emptyState();
   }
+}
+
+// This marker resets only completion views. Attempts, answers, bookmarks and
+// review queues remain intact in the regular QBank record.
+export function loadQbankProgressViewResetAt(): string | null {
+  if (typeof window === "undefined") return null;
+  const value = window.localStorage.getItem(PROGRESS_VIEW_STORAGE_KEY);
+  return value && !Number.isNaN(new Date(value).getTime()) ? value : null;
+}
+
+export function resetQbankProgressView() {
+  const resetAt = new Date().toISOString();
+  window.localStorage.setItem(PROGRESS_VIEW_STORAGE_KEY, resetAt);
+  window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source: "progress-view-reset" } }));
+  return resetAt;
 }
 
 export function saveQbankState(state: QbankState, source: "local" | "remote" = "local") {

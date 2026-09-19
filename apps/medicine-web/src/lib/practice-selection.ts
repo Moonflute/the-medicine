@@ -42,6 +42,17 @@ export function practiceTopicOrder(q: Pick<PracticeIndex, "specialty" | "special
   return Number.isFinite(number) ? number : Number.MAX_SAFE_INTEGER;
 }
 
+// The practice-book subject is broader than an individual linked theory page.
+// Its detail picker must nevertheless mirror the theory taxonomy for that
+// subject: medicine is exactly 01 순환기 through 10 종양. A question linked
+// only to a surgical, pediatric, etc. page remains available through the
+// top-level "내과" selector, but must not create a false inner-medicine topic.
+function isDepartmentTheoryTopic(question: PracticeIndex, department: string): boolean {
+  if (department !== "내과") return true;
+  const order = practiceTopicOrder(question);
+  return order >= 1 && order <= 10;
+}
+
 function normalizedTopic(value: string) {
   return value.replace(/\s+/g, "").replace(/[·ㆍ·\-–—/]/g, "").toLowerCase();
 }
@@ -83,7 +94,7 @@ function sectionForTopic(question: PracticeIndex): { id: string; title: string; 
 }
 
 export function practiceTopicSections(questions: PracticeIndex[], department: string): PracticeTopicSection[] {
-  const source = questions.filter((question) => question.bookDepartment === department);
+  const source = questions.filter((question) => question.bookDepartment === department && isDepartmentTheoryTopic(question, department));
   const candidates = new Map<string, { label: string; order: number; sections: Map<string, { title: string; primary?: string; order: number; count: number }> }>();
   for (const question of source) {
     const section = sectionForTopic(question);

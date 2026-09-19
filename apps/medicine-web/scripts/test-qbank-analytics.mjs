@@ -54,3 +54,23 @@ test('department order follows catalog ranks and latest accuracy differs from re
   assert.equal(s.correct/s.attempts,0.6);assert.equal(s.latestCorrect/s.attempted,0.5);
   assert.equal(s.groups[0].mastered,1);assert.equal(s.groups[2].attempted,0);
 });
+
+test('progress reset affects completion only and keeps historical accuracy and practice subgroups', () => {
+  const questions = [
+    { id: 'old', bank: 'practice', department: '내과', topic: '순환기', subgroup: '순환기', label: 'old', order: 1 },
+    { id: 'new', bank: 'practice', department: '내과', topic: '호흡기', subgroup: '호흡기', label: 'new', order: 2 },
+    { id: 'surgery', bank: 'practice', department: '외과', topic: '외과 일반', label: 'surgery', order: 11 },
+  ];
+  const s = buildQbankAnalytics(questions, {
+    ...state,
+    progress: {
+      old: { attempts: 2, correctAttempts: 1, lastCorrect: true, lastAttemptedAt: '2026-09-01T00:00:00.000Z' },
+      new: { attempts: 1, correctAttempts: 1, lastCorrect: true, lastAttemptedAt: '2026-09-18T00:00:00.000Z' },
+      surgery: { attempts: 1, correctAttempts: 0, lastCorrect: false, lastAttemptedAt: '2026-09-18T00:00:00.000Z' },
+    },
+  }, 'practice', 'all', '2026-09-10T00:00:00.000Z');
+  assert.equal(s.progressed, 2); assert.equal(s.attempts, 4); assert.equal(s.correct, 2);
+  assert.deepEqual(s.practiceGroups.map(group => [group.key, group.progressed]), [['내과', 1], ['외과', 1]]);
+  assert.deepEqual(s.practiceGroups[0].children.map(group => [group.key, group.progressed]), [['순환기', 0], ['호흡기', 1]]);
+  assert.equal(s.recentTotal, 3); assert.equal(s.recentCorrect, 2);
+});
