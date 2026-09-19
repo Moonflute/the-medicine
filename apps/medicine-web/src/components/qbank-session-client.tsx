@@ -611,35 +611,31 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   return (
     <div className="space-y-5">
-      <div className="flex items-center justify-between gap-3 text-sm text-slate-600">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-600">
         <Link href="/review/qbank" className="inline-flex items-center gap-1 hover:text-teal-700"><ArrowLeft className="h-4 w-4" />나가기</Link>
-        <span>{currentIndex + 1} / {questions.length}</span>
-      </div>
-      <div className="h-2 overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
-
-      {questions.some(question => question.questionBank === "practice") && <section className="rounded-lg border border-slate-200 bg-white p-3" aria-label="문제 번호 이동">
-        <div className="flex flex-wrap items-center gap-2">
-          <label className="flex items-center gap-2 text-sm font-medium">문제 번호
-            <select className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm" value={currentIndex} onChange={event => showQuestion(Number(event.target.value))}>
+        <div className="h-2 min-w-28 flex-1 max-w-md overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
+        <span className="tabular-nums whitespace-nowrap">{currentIndex + 1} / {questions.length}</span>
+        {questions.some(question => question.questionBank === "practice") && <div className="ml-auto flex flex-wrap items-center gap-2" aria-label="문제 번호 이동">
+          <label className="sr-only" htmlFor="qbank-question-select">문제 선택</label>
+          <select id="qbank-question-select" aria-label="문제 선택" className="h-9 max-w-36 rounded-md border border-slate-300 bg-white px-2 text-sm font-medium" value={currentIndex} onChange={event => showQuestion(Number(event.target.value))}>
               {questions.map((question, index) => <option key={question.id} value={index}>{index + 1}번 · {practiceQuestionLabel(question)}</option>)}
-            </select>
-          </label>
-          <button type="button" className="secondary-action disabled:opacity-40" disabled={currentIndex === 0} onClick={previous}>이전</button>
-          <button type="button" className="secondary-action disabled:opacity-40" disabled={currentIndex === questions.length - 1} onClick={() => showQuestion(currentIndex + 1)}>다음</button>
-          <span className="ml-auto text-xs text-slate-500">제출 {answers.length}/{questions.length}</span>
+          </select>
+          <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={currentIndex === 0} onClick={previous}>이전</button>
+          <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={currentIndex === questions.length - 1} onClick={() => showQuestion(currentIndex + 1)}>다음</button>
+          <details className="relative">
+            <summary className="cursor-pointer list-none rounded-md border border-slate-300 bg-white px-2.5 py-2 text-xs font-medium text-slate-600 hover:bg-slate-50">전체 번호</summary>
+            <div className="absolute right-0 z-10 mt-2 flex max-h-48 w-72 flex-wrap gap-1.5 overflow-y-auto rounded-lg border border-slate-200 bg-white p-3 shadow-lg">
+              {questions.map((question, index) => {
+                const answer = answers.find(item => item.questionId === question.id);
+                const chosen = index === currentIndex ? selected : drafts[question.id];
+                const status = answer ? answer.correct === null ? "채점 제외" : answer.correct ? "정답" : "오답" : chosen ? "선택 중" : "미응답";
+                return <button key={question.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 · ${status}`} title={`${index + 1}번 · ${status}`} onClick={() => showQuestion(index)} className={`h-9 min-w-9 rounded-md border px-2 text-xs tabular-nums ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""} ${answer ? answer.correct === null ? "border-slate-200 bg-slate-100" : answer.correct ? "border-teal-200 bg-teal-50 text-teal-800" : "border-rose-200 bg-rose-50 text-rose-800" : chosen ? "border-blue-200 bg-blue-50 text-blue-800" : "border-slate-200 bg-white text-slate-600"}`}>{index + 1}</button>;
+              })}
+            </div>
+          </details>
+          <span className="text-xs text-slate-500">제출 {answers.length}/{questions.length}</span>
         </div>
-        <details className="mt-2">
-          <summary className="cursor-pointer text-xs text-slate-600">전체 번호</summary>
-          <div className="mt-2 flex max-h-48 flex-wrap gap-1.5 overflow-y-auto p-1">
-            {questions.map((question, index) => {
-              const answer = answers.find(item => item.questionId === question.id);
-              const chosen = index === currentIndex ? selected : drafts[question.id];
-              const status = answer ? answer.correct === null ? "채점 제외" : answer.correct ? "정답" : "오답" : chosen ? "선택 중" : "미응답";
-              return <button key={question.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 · ${status}`} title={`${index + 1}번 · ${status}`} onClick={() => showQuestion(index)} className={`h-9 min-w-9 rounded-md border px-2 text-xs tabular-nums ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""} ${answer ? answer.correct === null ? "border-slate-200 bg-slate-100" : answer.correct ? "border-teal-200 bg-teal-50 text-teal-800" : "border-rose-200 bg-rose-50 text-rose-800" : chosen ? "border-blue-200 bg-blue-50 text-blue-800" : "border-slate-200 bg-white text-slate-600"}`}>{index + 1}</button>;
-            })}
-          </div>
-        </details>
-      </section>}
+      }</div>
 
       {finishError && <p role="alert" className="text-sm text-rose-700">{finishError}</p>}
       {finishConfirm && <section role="alertdialog" aria-label="미제출 문제 확인" className="rounded-lg border border-amber-300 bg-amber-50 p-4">
@@ -659,7 +655,6 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
           </button></div>
         </div>
-        {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id}</p>}
         <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>
           <div>
             <p className={`${current.figures?.length ? "" : "mt-6 "}whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base`}>{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
