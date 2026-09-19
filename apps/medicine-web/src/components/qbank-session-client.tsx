@@ -687,11 +687,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
               })}
             </div>
           </div>
-          {current.figures?.length ? <aside className="space-y-4 lg:sticky lg:top-5">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}</aside> : null}
-        </div>
+          {current.figures?.length ? <aside className="space-y-4">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}</aside> : null}
 
         {submitted ? (
-          <div className={`mt-6 rounded-lg border p-4 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
+          <div className={`mt-6 rounded-lg border p-4 lg:col-span-2 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="float-right rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[10px] font-medium text-slate-600 transition hover:border-rose-300 hover:text-rose-700">오답 노트에서 제거</button> : null}
             <div className="flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
             {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
@@ -702,6 +701,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
           </div>
         ) : null}
+        </div>
 
         <div className="mt-6 flex justify-end">
           {submitted ? <button type="button" onClick={next} className="primary-action">{currentIndex + 1 === questions.length ? "결과 보기" : "다음 문제"}<ChevronRight className="h-4 w-4" /></button> : <button type="button" onClick={submit} disabled={!selected} className="primary-action disabled:cursor-not-allowed disabled:opacity-40">정답 제출</button>}
