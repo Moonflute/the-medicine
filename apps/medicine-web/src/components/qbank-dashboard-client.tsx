@@ -266,7 +266,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <p className="mt-0.5 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
         {activeSessionError ? <p role="alert" className="mt-1 text-xs text-rose-700">{activeSessionError}</p> : null}
       </div>
-      <div className="flex shrink-0 flex-wrap gap-2">
+      <div className="action-pair flex shrink-0 flex-wrap gap-2">
         <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="primary-action">이어서 풀기</Link>
         <button type="button" className="secondary-action text-rose-700" disabled={endingActiveSession} onClick={() => void endActiveSession()}>{endingActiveSession ? "종료 중…" : "조기 종료"}</button>
       </div>
