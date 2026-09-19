@@ -397,6 +397,7 @@ export type QbankQuestion = {
   ungradedReason?: string;
   evidenceReferences?: Array<{ title: string; url: string }>;
   id: string;
+  sourcePath: string;
   source: string;
   sourceSplit: "train" | "validation" | "test" | string;
   specialty: string;

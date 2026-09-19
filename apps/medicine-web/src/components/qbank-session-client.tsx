@@ -26,6 +26,7 @@ import {
 import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { activeSessionFrom, clearLocalActiveQbankSession, QBANK_SESSION_STORAGE_PREFIX, readQbankSessionDrafts, saveLocalActiveQbankSession, type QbankActiveSession, type QbankSessionAnswer, type QbankSessionSnapshot } from "@/lib/qbank-active-session";
+import { DocumentEditButton } from "@/components/document-edit-button";
 
 type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">>;
 type SessionAnswer = QbankSessionAnswer;
@@ -654,9 +655,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       <article className="surface p-5 sm:p-7">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex flex-wrap items-center gap-2"><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</div>
-          <button type="button" onClick={toggleBookmark} className="secondary-action" aria-pressed={bookmarked}>
+          <div className="flex items-center gap-2"><DocumentEditButton sourcePath={current.sourcePath} title={`Q-bank · ${current.id}`} /><button type="button" onClick={toggleBookmark} className="secondary-action" aria-pressed={bookmarked}>
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
-          </button>
+          </button></div>
         </div>
         {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id}</p>}
         {current.figures?.map((figure, index) => <figure key={figure.path}><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="mt-1 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}

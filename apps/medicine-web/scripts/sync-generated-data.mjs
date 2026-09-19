@@ -1630,6 +1630,7 @@ function buildQbank() {
     const specialtySlug = toSlug(specialty);
     questions.push({
       id,
+      sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
       source: readScalar(frontmatter.source),
       sourceSplit: readScalar(frontmatter.source_split),
       specialty,

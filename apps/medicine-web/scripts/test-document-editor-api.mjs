@@ -32,6 +32,27 @@ test('path allowlist rejects repository code writes', async () => {
   const handler = createHandler({ token: 'server-only', authenticate: async () => owner, fetcher: async () => { throw Error('must not call'); } });
   assert.equal((await handler(req({ ...payload, path: '.github/workflows/deploy.yml' }))).status, 403);
 });
+test('owner can attach a supported image only beside an editable document', async () => {
+  let route = '';
+  const handler = createHandler({ token: 'server-only', authenticate: async () => owner, fetcher: async (url, init) => {
+    route = url;
+    assert.equal(init.method, 'PUT');
+    const body = JSON.parse(init.body);
+    assert.equal(atob(body.content), 'image-bytes');
+    return json({ content: { sha }, commit: { sha: commit } });
+  } });
+  const result = await (await handler(req({ action: 'upload-image', path: PILOT_PATHS[0], name: 'screen.png', contentType: 'image/png', content: btoa('image-bytes') }))).json();
+  assert.match(route, /apps\/medicine-web\/public\/images\/documents\//);
+  assert.match(result.src, /^https:\/\/moonflute\.github\.io\/the-medicine\/images\/documents\/.+\.png$/);
+  assert.equal(result.alt, 'screen');
+});
+test('image attachment rejects invalid type and oversized content before GitHub writes', async () => {
+  let writes = 0;
+  const handler = createHandler({ token: 'server-only', authenticate: async () => owner, fetcher: async () => { writes++; return file(); } });
+  assert.equal((await handler(req({ action: 'upload-image', path: PILOT_PATHS[0], contentType: 'image/svg+xml', content: btoa('<svg/>') }))).status, 400);
+  assert.equal((await handler(req({ action: 'upload-image', path: PILOT_PATHS[0], contentType: 'image/png', content: btoa('x'.repeat(3 * 1024 * 1024 + 1)) }))).status, 413);
+  assert.equal(writes, 0);
+});
 test('stale editor is rejected before PUT', async () => {
   let writes = 0;
   const handler = createHandler({ token: 'server-only', authenticate: async () => owner, fetcher: async (_url, init) => { if (init.method === 'PUT') writes++; return file('c'.repeat(40)); } });

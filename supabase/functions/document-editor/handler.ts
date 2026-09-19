@@ -9,6 +9,8 @@ const REPO = "Moonflute/the-medicine";
 const BRANCH = "master";
 const ORIGINS = new Set(["https://moonflute.github.io", "http://localhost:3000", "http://localhost:3017"]);
 const encoder = new TextEncoder();
+const IMAGE_TYPES: Record<string, string> = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif" };
+const MAX_IMAGE_BYTES = 3 * 1024 * 1024;
 
 export function createHandler(config: Config) {
   const request = config.fetcher ?? fetch;
@@ -26,7 +28,7 @@ export function createHandler(config: Config) {
       catch { return reply({ error: "편집 권한이 없습니다." }, 403); }
       if (!config.token) return reply({ error: "GitHub 저장 연결 설정이 아직 완료되지 않았습니다." }, 503);
       const raw = await req.text();
-      if (encoder.encode(raw).length > 400_000) return reply({ error: "요청이 너무 큽니다." }, 413);
+      if (encoder.encode(raw).length > 4_300_000) return reply({ error: "요청이 너무 큽니다." }, 413);
       const input = JSON.parse(raw);
       if (!isEditablePath(input.path)) return reply({ error: "편집 대상 문서 경로가 아닙니다." }, 403);
       const github = async (route: string, init: RequestInit = {}) => {
@@ -48,6 +50,24 @@ export function createHandler(config: Config) {
         }
         const own = data.workflow_runs?.find((run: { head_sha: string }) => run.head_sha === input.commit);
         return reply({ state: own?.conclusion === "failure" ? "failed" : "pending", url: own?.html_url });
+      }
+      if (input.action === "upload-image") {
+        const extension = IMAGE_TYPES[input.contentType];
+        if (!extension || typeof input.content !== "string" || !/^[A-Za-z0-9+/]*={0,2}$/.test(input.content) || input.content.length % 4 !== 0) return reply({ error: "지원하지 않는 이미지 형식입니다." }, 400);
+        let bytes: Uint8Array;
+        try { bytes = Uint8Array.from(atob(input.content), character => character.charCodeAt(0)); }
+        catch { return reply({ error: "이미지 내용을 읽지 못했습니다." }, 400); }
+        if (!bytes.length || bytes.length > MAX_IMAGE_BYTES) return reply({ error: "이미지는 파일당 3MB까지 첨부할 수 있습니다." }, 413);
+        const rawName = typeof input.name === "string" ? input.name : "image";
+        const alt = rawName.replace(/[\\/\x00-\x1f]/g, " ").replace(/\.[a-z0-9]+$/i, "").trim().slice(0, 120) || "첨부 이미지";
+        const filename = `${crypto.randomUUID()}.${extension}`;
+        const assetPath = `apps/medicine-web/public/images/documents/${filename}`;
+        let binary = "";
+        for (let offset = 0; offset < bytes.length; offset += 0x8000) binary += String.fromCharCode(...bytes.subarray(offset, offset + 0x8000));
+        const saved = await github(`contents/${assetPath.split("/").map(encodeURIComponent).join("/")}`, { method: "PUT", body: JSON.stringify({ branch: BRANCH, message: `docs: attach image for ${input.path.split("/").pop()}`, content: btoa(binary) }) });
+        if (!saved.response.ok) return reply({ error: "GitHub에 이미지를 저장하지 못했습니다." }, 502);
+        const src = `https://moonflute.github.io/the-medicine/images/documents/${filename}`;
+        return reply({ src, alt, markdown: `![${alt}](${src})`, commit: saved.data.commit?.sha });
       }
       if (!["read", "save"].includes(input.action)) return reply({ error: "잘못된 작업입니다." }, 400);
       const route = `contents/${input.path.split("/").map(encodeURIComponent).join("/")}`;

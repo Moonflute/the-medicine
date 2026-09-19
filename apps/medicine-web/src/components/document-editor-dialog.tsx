@@ -3,11 +3,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { EDITOR_USER_ID, replaceBlocks, splitSource, type Replacement } from "@/lib/document-edit-core";
-import DocumentEditorBlock from "./document-editor-block";
+import { Bold, CodeXml, ImagePlus, Italic, List, ListOrdered, Quote, Redo2, Undo2 } from "lucide-react";
+import DocumentEditorBlock, { type UploadedDocumentImage } from "./document-editor-block";
 
 type Snapshot = { source: string; sha: string };
 type Draft = { version: 1; path: string; base: Snapshot; changes: Replacement[]; savedAt: string };
 type SaveResult = Snapshot & { commit?: string; unchanged?: boolean; url?: string };
+type UploadedImageResponse = { markdown: string; src: string; alt: string };
 async function invoke<T>(input: object): Promise<T> {
   const client = getSupabaseBrowserClient();
   if (!client) throw new Error("로그인 연결을 확인해주세요.");
@@ -22,6 +24,8 @@ async function invoke<T>(input: object): Promise<T> {
 
 export default function DocumentEditorDialog({ path, title, onClose }: { path: string; title: string; onClose: () => void }) {
   const dialog = useRef<HTMLDialogElement>(null);
+  const sourceTextarea = useRef<HTMLTextAreaElement>(null);
+  const sourceImageInput = useRef<HTMLInputElement>(null);
   const [base, setBase] = useState<Snapshot | null>(null);
   const [changes, setChanges] = useState<Replacement[]>([]);
   const [sourceMode, setSourceMode] = useState(false);
@@ -29,6 +33,7 @@ export default function DocumentEditorDialog({ path, title, onClose }: { path: s
   const [status, setStatus] = useState("GitHub 최신 원본을 불러오는 중…");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+  const [uploading, setUploading] = useState(false);
   const [drafts, setDrafts] = useState<Array<{ key: string; draft: Draft }>>([]);
   const [latest, setLatest] = useState<Snapshot | null>(null);
   const [commit, setCommit] = useState<string | null>(null);
@@ -44,6 +49,51 @@ export default function DocumentEditorDialog({ path, title, onClose }: { path: s
     try { return replaceBlocks(base.source, changes, path); }
     catch { return changes.map(change => change.markdown).join("\n\n"); }
   }, [base, changes, path]);
+
+  const setSourceBody = (body: string) => {
+    if (!base) return;
+    const markdown = splitSource(base.source).prefix + body;
+    setChanges(markdown === base.source ? [] : [{ index: -1, markdown }]);
+  };
+  const insertSource = (before: string, after = "", linePrefix = "") => {
+    const textarea = sourceTextarea.current;
+    if (!textarea || !base) return;
+    const body = preview.slice(splitSource(base.source).prefix.length);
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const selectedText = body.slice(start, end);
+    const value = linePrefix ? selectedText.split("\n").map(line => `${linePrefix}${line}`).join("\n") : `${before}${selectedText || "텍스트"}${after}`;
+    setSourceBody(`${body.slice(0, start)}${value}${body.slice(end)}`);
+    queueMicrotask(() => { textarea.focus(); textarea.setSelectionRange(start + before.length, start + value.length - after.length); });
+  };
+  const uploadImages = async (files: File[]): Promise<UploadedDocumentImage[]> => {
+    const selectedFiles = files.filter(file => ["image/jpeg", "image/png", "image/webp", "image/gif"].includes(file.type));
+    if (!selectedFiles.length) throw new Error("JPG, PNG, WebP 또는 GIF 파일만 첨부할 수 있습니다.");
+    if (selectedFiles.some(file => file.size > 3 * 1024 * 1024)) throw new Error("이미지는 파일당 3MB까지 첨부할 수 있습니다.");
+    setUploading(true); setError("");
+    try {
+      const uploaded = await Promise.all(selectedFiles.map(async file => {
+        const bytes = new Uint8Array(await file.arrayBuffer());
+        let binary = "";
+        for (let offset = 0; offset < bytes.length; offset += 0x8000) binary += String.fromCharCode(...bytes.subarray(offset, offset + 0x8000));
+        return invoke<UploadedImageResponse>({ action: "upload-image", path, name: file.name, contentType: file.type, content: btoa(binary) });
+      }));
+      return uploaded.map(image => ({ src: image.src, alt: image.alt }));
+    } finally { setUploading(false); }
+  };
+  const uploadSourceImages = async (files: File[]) => {
+    try {
+      const images = await uploadImages(files);
+      const textarea = sourceTextarea.current;
+      if (!textarea || !base) return;
+      const body = preview.slice(splitSource(base.source).prefix.length);
+      const start = textarea.selectionStart;
+      const end = textarea.selectionEnd;
+      const value = images.map(image => `![${image.alt}](${image.src})`).join("\n") + "\n";
+      setSourceBody(`${body.slice(0, start)}${value}${body.slice(end)}`);
+      queueMicrotask(() => { textarea.focus(); textarea.setSelectionRange(start + value.length, start + value.length); });
+    } catch (uploadError) { setError(uploadError instanceof Error ? uploadError.message : "이미지를 첨부하지 못했습니다."); }
+  };
 
   useEffect(() => {
     dialog.current?.showModal();
@@ -139,10 +189,10 @@ export default function DocumentEditorDialog({ path, title, onClose }: { path: s
         {error && <p role="alert" className="rounded-lg border border-red-200 bg-red-50 p-4 text-red-800">{error}</p>}
         {drafts.map(({ key, draft }) => <div key={key} className="rounded-lg border border-amber-300 bg-amber-50 p-4"><p>{new Date(draft.savedAt).toLocaleString("ko-KR")} 임시저장본이 있습니다.</p><button type="button" className="mt-2 underline" onClick={() => { restoredDraft.current = { key, savedAt: draft.savedAt }; if (base && draft.base.sha !== base.sha) setLatest(base); setBase(draft.base); setChanges(draft.changes); setSourceMode(draft.changes.some((c: Replacement) => c.index === -1)); setSelected(null); setDrafts([]); }}>복구하기</button><button type="button" className="ml-5 underline" onClick={() => { try { localStorage.removeItem(key); setDrafts(list => list.filter(item => item.key !== key)); } catch { setError("초안 삭제에 실패했습니다."); } }}>이 초안 삭제</button></div>)}
         {latest && base && <section className="space-y-3 rounded-xl border border-amber-300 bg-amber-50 p-4"><h3 className="font-bold">GitHub 원본이 변경되어 저장을 멈췄습니다.</h3><p className="text-sm">내 변경 내용을 복사해 보관한 다음 최신 원본에서 다시 편집해주세요. 기존 초안도 이 기기에 남습니다.</p><div className="grid gap-3 sm:grid-cols-2"><label>내 수정 원문<textarea readOnly value={preview} className="mt-2 h-56 w-full rounded border bg-white p-3 text-sm" /></label><label>GitHub 최신 원문<textarea readOnly value={latest.source} className="mt-2 h-56 w-full rounded border bg-white p-3 text-sm" /></label></div><button type="button" className="rounded border bg-white px-4 py-2" onClick={() => { onClose(); }}>초안을 보존하고 닫기</button></section>}
-        <div className="flex gap-2"><button type="button" disabled={busy || !base || Boolean(latest)} onClick={() => { setSelected(null); setSourceMode(true); }} className="rounded-lg border bg-white px-4 py-2">Markdown 원문 편집</button>{sourceMode && <span className="text-sm text-slate-600">원문 변경을 저장한 뒤 본문 편집으로 돌아갈 수 있습니다.</span>}</div>
-        {sourceMode && base ? <label className="block text-sm font-semibold">전체 본문 원문<textarea aria-label="전체 본문 원문" disabled={busy || Boolean(latest)} value={preview.slice(splitSource(base.source).prefix.length)} onChange={event => { const markdown = splitSource(base.source).prefix + event.target.value; setChanges(markdown === base.source ? [] : [{ index: -1, markdown }]); }} spellCheck={false} className="mt-3 min-h-[55vh] w-full rounded-xl border bg-white p-5 font-mono text-base font-normal leading-7" /></label> : blocks.map((block, index) => !block.raw.trim() ? null : selected === index && !busy ? <DocumentEditorBlock key={`${base?.sha}-${index}`} markdown={changes.find(c => c.index === index)?.markdown ?? block.raw} disabled={busy} onChange={markdown => { setChanges(previous => [...previous.filter(c => c.index !== index), ...(markdown === block.raw ? [] : [{ index, markdown }])]); }} /> : <button type="button" key={index} disabled={!block.editable || busy || Boolean(latest)} onClick={() => setSelected(index)} className={`block w-full whitespace-pre-wrap rounded-xl p-4 text-left text-base leading-7 ${block.editable ? "border border-slate-200 bg-white hover:border-teal-500" : "text-slate-600"}`}><span className={/^#{1,6}\s/.test(block.raw) ? "text-lg font-semibold" : ""}>{changes.find(c => c.index === index)?.markdown ?? block.raw.replace(/^#{1,6}\s+/, "")}</span>{block.editable && <span className="mt-2 block text-xs font-medium text-teal-700">{changes.some(c => c.index === index) ? "수정됨 · 다시 편집" : "클릭하여 편집"}</span>}</button>)}
+        <div className="flex items-center gap-2"><button type="button" title="Markdown 원문 편집" aria-label="Markdown 원문 편집" disabled={busy || uploading || !base || Boolean(latest)} onClick={() => { setSelected(null); setSourceMode(true); }} className="inline-flex h-10 items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 text-sm font-medium text-slate-700 hover:bg-slate-50"><CodeXml size={18} />Markdown 원문 편집</button>{sourceMode && <span className="text-sm text-slate-600">원문 변경을 저장한 뒤 본문 편집으로 돌아갈 수 있습니다.</span>}</div>
+        {sourceMode && base ? <section className="overflow-hidden rounded-xl border border-slate-300 bg-white shadow-sm"><div className="flex flex-wrap items-center gap-1 border-b border-slate-200 bg-slate-50 p-2" role="toolbar" aria-label="Markdown 서식"><span className="mr-2 px-2 text-xs font-semibold uppercase tracking-wide text-slate-500">Markdown</span><button type="button" title="굵게" aria-label="굵게" onClick={() => insertSource("**", "**")} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800"><Bold size={18} /></button><button type="button" title="기울임" aria-label="기울임" onClick={() => insertSource("*", "*")} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800"><Italic size={18} /></button><button type="button" title="글머리표 목록" aria-label="글머리표 목록" onClick={() => insertSource("", "", "- ")} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800"><List size={18} /></button><button type="button" title="번호 목록" aria-label="번호 목록" onClick={() => insertSource("", "", "1. ")} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800"><ListOrdered size={18} /></button><button type="button" title="인용" aria-label="인용" onClick={() => insertSource("", "", "> ")} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800"><Quote size={18} /></button><span className="mx-1 h-6 w-px bg-slate-200" /><button type="button" title="이미지 첨부" aria-label="이미지 첨부" disabled={uploading} onClick={() => sourceImageInput.current?.click()} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800 disabled:opacity-40"><ImagePlus size={18} /></button><span className="flex-1" /><button type="button" title="실행 취소" aria-label="실행 취소" onClick={() => { sourceTextarea.current?.focus(); document.execCommand("undo"); }} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800"><Undo2 size={18} /></button><button type="button" title="다시 실행" aria-label="다시 실행" onClick={() => { sourceTextarea.current?.focus(); document.execCommand("redo"); }} className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-white hover:text-teal-800"><Redo2 size={18} /></button></div><label className="block"><span className="sr-only">전체 본문 원문</span><textarea ref={sourceTextarea} aria-label="전체 본문 원문" disabled={busy || uploading || Boolean(latest)} value={preview.slice(splitSource(base.source).prefix.length)} onPaste={event => { const files = Array.from(event.clipboardData.files); if (files.length) { event.preventDefault(); void uploadSourceImages(files); } }} onChange={event => setSourceBody(event.target.value)} spellCheck={false} className="min-h-[55vh] w-full resize-y p-5 font-mono text-base font-normal leading-7 outline-none" /></label><input ref={sourceImageInput} className="sr-only" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple onChange={event => { const files = Array.from(event.currentTarget.files ?? []); event.currentTarget.value = ""; void uploadSourceImages(files); }} />{uploading && <p role="status" className="border-t border-slate-100 px-4 py-2 text-sm text-slate-600">이미지 첨부 중…</p>}</section> : blocks.map((block, index) => !block.raw.trim() ? null : selected === index && !busy ? <DocumentEditorBlock key={`${base?.sha}-${index}`} markdown={changes.find(c => c.index === index)?.markdown ?? block.raw} disabled={busy || uploading} onUploadImages={uploadImages} onChange={markdown => { setChanges(previous => [...previous.filter(c => c.index !== index), ...(markdown === block.raw ? [] : [{ index, markdown }])]); }} /> : <button type="button" key={index} disabled={!block.editable || busy || uploading || Boolean(latest)} onClick={() => setSelected(index)} className={`block w-full whitespace-pre-wrap rounded-xl p-4 text-left text-base leading-7 ${block.editable ? "border border-slate-200 bg-white hover:border-teal-500" : "text-slate-600"}`}><span className={/^#{1,6}\s/.test(block.raw) ? "text-lg font-semibold" : ""}>{changes.find(c => c.index === index)?.markdown ?? block.raw.replace(/^#{1,6}\s+/, "")}</span>{block.editable && <span className="mt-2 block text-xs font-medium text-teal-700">{changes.some(c => c.index === index) ? "수정됨 · 다시 편집" : "클릭하여 편집"}</span>}</button>)}
       </main>
-      <footer className="flex flex-wrap items-center justify-between gap-3 border-t bg-white p-4"><p role="status" className="text-sm text-slate-600">{status}</p><div className="flex flex-wrap gap-2">{commitUrl && <a href={commitUrl} target="_blank" rel="noreferrer" className="rounded-lg border px-3 py-2 text-sm">저장 커밋</a>}{commit && <button type="button" onClick={() => void checkDeployment()} className="rounded-lg border px-3 py-2 text-sm">배포 확인</button>}<button type="button" disabled={busy} onClick={() => void refresh()} className="rounded-lg border px-3 py-2 text-sm">최신 원본 확인</button><button type="button" disabled={!base || !changes.length || busy || Boolean(latest)} onClick={() => void save()} className="rounded-lg bg-teal-700 px-4 py-2 font-semibold text-white disabled:opacity-40">{busy ? "GitHub 저장 중…" : "변경사항 저장"}</button></div></footer>
+      <footer className="flex flex-wrap items-center justify-between gap-3 border-t bg-white p-4"><p role="status" className="text-sm text-slate-600">{status}</p><div className="flex flex-wrap gap-2">{commitUrl && <a href={commitUrl} target="_blank" rel="noreferrer" className="rounded-lg border px-3 py-2 text-sm">저장 커밋</a>}{commit && <button type="button" onClick={() => void checkDeployment()} className="rounded-lg border px-3 py-2 text-sm">배포 확인</button>}<button type="button" disabled={busy || uploading} onClick={() => void refresh()} className="rounded-lg border px-3 py-2 text-sm">최신 원본 확인</button><button type="button" disabled={!base || !changes.length || busy || uploading || Boolean(latest)} onClick={() => void save()} className="rounded-lg bg-teal-700 px-4 py-2 font-semibold text-white disabled:opacity-40">{busy ? "GitHub 저장 중…" : "변경사항 저장"}</button></div></footer>
     </div>
   </dialog>;
 }

@@ -6,7 +6,7 @@ export const PILOT_PATHS = [
   "source_notes/04 Pharmacology/01 심혈계/Adenosine.md",
   "source_notes/06 Lab & Img/01 혈액검사/C-Reactive Protein (CRP).md",
 ] as const;
-export const EDITABLE_DIRECTORIES = ["01 Chief Complaint", "02 Diseases", "04 Pharmacology", "06 Lab & Img", "07 Skills"] as const;
+export const EDITABLE_DIRECTORIES = ["01 Chief Complaint", "02 Diseases", "04 Pharmacology", "06 Lab & Img", "07 Skills", "99 Q-bank"] as const;
 export type Replacement = { index: number; markdown: string };
 export type SourceBlock = { raw: string; editable: boolean };
 export type SourceDocument = { prefix: string; blocks: SourceBlock[] };

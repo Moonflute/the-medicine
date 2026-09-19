@@ -4,9 +4,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { PILOT_PATHS, splitSource, replaceBlocks, isEditablePath, assertEditor, EDITOR_USER_ID } from '../src/lib/document-edit-core.ts';
 
-test('all five document trees preserve their complete source', () => {
+test('all editable document trees preserve their complete source', () => {
   let count = 0;
-  for (const dir of ['01 Chief Complaint', '02 Diseases', '04 Pharmacology', '06 Lab & Img', '07 Skills']) {
+  for (const dir of ['01 Chief Complaint', '02 Diseases', '04 Pharmacology', '06 Lab & Img', '07 Skills', '99 Q-bank']) {
     const folder = path.resolve('../..', 'source_notes', dir);
     for (const relative of fs.readdirSync(folder, { recursive: true })) {
       if (!relative.endsWith('.md')) continue;
@@ -19,8 +19,8 @@ test('all five document trees preserve their complete source', () => {
       count++;
     }
   }
-  assert.ok(count > 1000);
-  console.log(`Verified ${count} Markdown documents across five trees`);
+  assert.ok(count > 5000);
+  console.log(`Verified ${count} Markdown documents across editable trees`);
 });
 
 test('raw body edits preserve metadata and reject traversal', () => {

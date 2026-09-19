@@ -292,6 +292,11 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
     return <hr className="border-slate-200" />;
   }
 
+  const documentImage = trimmed.match(/^!\[([^\]]*)\]\((https:\/\/moonflute\.github\.io\/the-medicine\/images\/documents\/[^\s)]+)\)$/);
+  if (documentImage) {
+    return <figure className="my-4 overflow-hidden rounded-xl border border-slate-200 bg-slate-50"><img src={documentImage[2]} alt={documentImage[1] || "첨부 이미지"} className="max-h-[560px] w-full object-contain" /><figcaption className="border-t border-slate-200 bg-white px-3 py-2 text-xs text-slate-500">{documentImage[1]}</figcaption></figure>;
+  }
+
   if (isEmphasisLabelLine(trimmed)) {
     return renderEmphasisLabel(trimmed, termLinks, wikiLinks);
   }
