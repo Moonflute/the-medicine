@@ -1,4 +1,5 @@
-import { assertEditor, isEditablePath, replaceBlocks, type Replacement } from "../../../apps/medicine-web/src/lib/document-edit-core.ts";
+// Kept beside the function so the Supabase bundle does not depend on the web app path.
+import { assertEditor, isEditablePath, replaceBlocks, type Replacement } from "./document-edit-core.ts";
 
 type Config = {
   token: string;
@@ -11,6 +12,38 @@ const ORIGINS = new Set(["https://moonflute.github.io", "http://localhost:3000",
 const encoder = new TextEncoder();
 const IMAGE_TYPES: Record<string, string> = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif" };
 const MAX_IMAGE_BYTES = 3 * 1024 * 1024;
+const PRIVATE_QBANK_ID = /^QB-[A-Za-z0-9-]+$/;
+
+function privateText(value: unknown, field: string, limit: number, allowEmpty = true): string {
+  if (typeof value !== "string") throw new Error(`${field}을(를) 확인해주세요.`);
+  const text = value.replace(/\r\n/g, "\n");
+  if (text.length > limit || (!allowEmpty && !text.trim())) throw new Error(`${field}을(를) 확인해주세요.`);
+  return text;
+}
+
+function privateQuestionPayload(base: unknown, fields: unknown, id: string): Record<string, unknown> {
+  if (!base || typeof base !== "object" || Array.isArray(base) || (base as Record<string, unknown>).id !== id) throw new Error("기준 문항을 다시 불러와주세요.");
+  if (!fields || typeof fields !== "object" || Array.isArray(fields)) throw new Error("수정 내용을 확인해주세요.");
+  const values = fields as Record<string, unknown>;
+  const original = base as Record<string, unknown>;
+  const rawOptions = values.options;
+  if (!rawOptions || typeof rawOptions !== "object" || Array.isArray(rawOptions)) throw new Error("보기 내용을 확인해주세요.");
+  const options: Record<string, string> = {};
+  for (const key of ["A", "B", "C", "D", "E"]) {
+    const option = (rawOptions as Record<string, unknown>)[key];
+    if (option !== undefined && option !== "") options[key] = privateText(option, `${key} 보기`, 10_000, false);
+  }
+  if (Object.keys(options).length < 2) throw new Error("보기는 두 개 이상 필요합니다.");
+  const answer = values.answer === "" || values.answer === null ? null : values.answer;
+  if (answer !== null && (typeof answer !== "string" || !/^[A-E]$/.test(answer) || !(answer in options))) throw new Error("정답 보기를 확인해주세요.");
+  return {
+    ...original,
+    question: privateText(values.question, "문제", 30_000, false),
+    options,
+    answer,
+    explanation: privateText(values.explanation, "해설", 50_000),
+  };
+}
 
 export function createHandler(config: Config) {
   const request = config.fetcher ?? fetch;
@@ -26,10 +59,40 @@ export function createHandler(config: Config) {
       if (!bearer) return reply({ error: "Google 로그인이 필요합니다." }, 401);
       try { assertEditor(await config.authenticate(bearer)); }
       catch { return reply({ error: "편집 권한이 없습니다." }, 403); }
-      if (!config.token) return reply({ error: "GitHub 저장 연결 설정이 아직 완료되지 않았습니다." }, 503);
       const raw = await req.text();
       if (encoder.encode(raw).length > 4_300_000) return reply({ error: "요청이 너무 큽니다." }, 413);
       const input = JSON.parse(raw);
+      if (input.action === "read-private-qbank" || input.action === "save-private-qbank") {
+        if (typeof input.id !== "string" || !PRIVATE_QBANK_ID.test(input.id)) return reply({ error: "잘못된 실전문제 식별값입니다." }, 400);
+        const serviceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
+        const supabaseUrl = Deno.env.get("SUPABASE_URL") ?? "";
+        if (!serviceKey || !supabaseUrl) return reply({ error: "비공개 문제 저장 연결을 확인해주세요." }, 503);
+        const database = async (route: string, init: RequestInit = {}) => {
+          const response = await request(`${supabaseUrl}/rest/v1/${route}`, {
+            ...init,
+            headers: { Authorization: `Bearer ${serviceKey}`, apikey: serviceKey, "Content-Type": "application/json", ...init.headers },
+            signal: AbortSignal.timeout(15_000),
+          });
+          const data = await response.json().catch(() => null);
+          return { response, data };
+        };
+        const readPrivate = () => database(`private_qbank_items?id=eq.${encodeURIComponent(input.id)}&select=payload`);
+        if (input.action === "read-private-qbank") {
+          const latest = await readPrivate();
+          const payload = latest.data?.[0]?.payload;
+          if (!latest.response.ok || !payload) return reply({ error: "비공개 문제 원본을 읽지 못했습니다." }, 502);
+          return reply({ id: input.id, payload });
+        }
+        let next: Record<string, unknown>;
+        try { next = privateQuestionPayload(input.base, input.fields, input.id); }
+        catch (error) { return reply({ error: (error as Error).message }, 400); }
+        const saved = await database("rpc/private_qbank_owner_update", { method: "POST", body: JSON.stringify({ p_id: input.id, p_expected: input.base, p_payload: next }) });
+        if (!saved.response.ok) return reply({ error: "비공개 문제를 저장하지 못했습니다. 초안을 유지했습니다." }, 502);
+        if (saved.data === true) return reply({ id: input.id, payload: next });
+        const latest = await readPrivate();
+        return reply({ error: "다른 기기에서 이 문제가 변경되었습니다. 내 초안을 보존했습니다.", latest: { payload: latest.data?.[0]?.payload } }, 409);
+      }
+      if (!config.token) return reply({ error: "GitHub 저장 연결 설정이 아직 완료되지 않았습니다." }, 503);
       if (!isEditablePath(input.path)) return reply({ error: "편집 대상 문서 경로가 아닙니다." }, 403);
       const github = async (route: string, init: RequestInit = {}) => {
         const response = await request(`https://api.github.com/repos/${REPO}/${route}`, {
