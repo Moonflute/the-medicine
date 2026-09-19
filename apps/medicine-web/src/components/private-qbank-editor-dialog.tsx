@@ -73,6 +73,10 @@ export default function PrivateQbankEditorDialog({ question, onClose, onSaved }:
 
   useEffect(() => {
     if (!base || !fields) return;
+    if (JSON.stringify(fields) === JSON.stringify(fieldsFrom(base))) {
+      try { localStorage.removeItem(draftKey); } catch { /* no unsaved draft to preserve */ }
+      return;
+    }
     const timer = window.setTimeout(() => {
       try {
         localStorage.setItem(draftKey, JSON.stringify({ version: 1, base, fields, savedAt: new Date().toISOString() } satisfies Draft));
