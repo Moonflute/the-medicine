@@ -2,7 +2,7 @@ import { isSelection } from "./qbank-grading";
 import { readMockExam, type MockExamState } from "./mock-exam";
 import type { QbankSelection } from "./types";
 
-export type QbankSessionAnswer = { questionId: string; selected: QbankSelection; correct: boolean | null; specialty: string };
+export type QbankSessionAnswer = { questionId: string; selected?: QbankSelection; correct: boolean | null; specialty: string };
 export type QbankSessionSnapshot = {
   drafts?: Record<string, QbankSelection>;
   mockExam?: MockExamState | null;

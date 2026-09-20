@@ -133,7 +133,7 @@ function applyAttempt(state: QbankState, questionId: string, answer: QbankSelect
   return next;
 }
 
-export function recordQbankAttempt(questionId: string, answer: QbankSelection, correct: boolean) {
+export function recordQbankAttempt(questionId: string, answer: QbankSelection | undefined, correct: boolean) {
   const state = loadQbankState();
   const next = applyAttempt(state, questionId, answer, correct);
   saveQbankState(state);

@@ -442,12 +442,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [answers, questions, current, currentIndex, selected, submitted, drafts]);
 
   const submit = useCallback(() => {
-    if (mockExam || !current || !selected || submitted) return;
+    if (mockExam || !current || submitted) return;
     const correct = gradeQuestion(current, selected);
-    const progress = correct !== null ? recordQbankAttempt(current.id, selected, correct) : null;
+    const progress = correct !== null ? recordQbankAttempt(current.id, selected ?? undefined, correct) : null;
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
     setQuestionProgress(progress);
-    setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: practiceQuestionLabel(current) }]);
+    setAnswers((items) => [...items, { questionId: current.id, selected: selected ?? undefined, correct, specialty: practiceQuestionLabel(current) }]);
     setSubmitted(true);
   }, [current, mockExam, selected, submitted]);
 
@@ -687,7 +687,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </div>
 
         <div className="mt-6 flex justify-end">
-          {submitted ? <button type="button" onClick={next} className="primary-action">{currentIndex + 1 === questions.length ? "결과 보기" : "다음 문제"}<ChevronRight className="h-4 w-4" /></button> : <button type="button" onClick={submit} disabled={!selected} className="primary-action disabled:cursor-not-allowed disabled:opacity-40">정답 제출</button>}
+          {submitted ? <button type="button" onClick={next} className="primary-action">{currentIndex + 1 === questions.length ? "결과 보기" : "다음 문제"}<ChevronRight className="h-4 w-4" /></button> : <button type="button" onClick={submit} className="primary-action">{selected ? "답안 제출" : "모름으로 제출"}</button>}
         </div>
       </article>
     </div>
