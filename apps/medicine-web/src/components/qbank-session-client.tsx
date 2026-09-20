@@ -651,8 +651,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       <article className="surface p-5 sm:p-7">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex flex-wrap items-center gap-2"><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</div>
-          <div className="flex items-center gap-2"><QbankEditButton question={current} onSaved={payload => setQuestions(previous => previous.map(item => item.id === payload.id ? { ...item, ...payload } : item))} /><button type="button" onClick={toggleBookmark} className="secondary-action" aria-pressed={bookmarked}>
-            {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
+          <div className="flex items-center gap-2"><QbankEditButton question={current} onSaved={payload => setQuestions(previous => previous.map(item => item.id === payload.id ? { ...item, ...payload } : item))} /><button type="button" onClick={toggleBookmark} className="secondary-action h-9 w-9 !px-0" aria-label={bookmarked ? "북마크 해제" : "북마크 저장"} aria-pressed={bookmarked} title={bookmarked ? "북마크 해제" : "북마크 저장"}>
+            {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}
           </button></div>
         </div>
         <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>
