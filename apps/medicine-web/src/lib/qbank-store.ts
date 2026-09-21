@@ -98,6 +98,15 @@ export function resetQbankProgressView() {
   return resetAt;
 }
 
+// The analytics progress bar and “unattempted only” use this identical
+// boundary. A reset starts a fresh progress view without erasing history.
+export function isQbankProgressedInCurrentView(progress?: QbankProgress, resetAt = loadQbankProgressViewResetAt()): boolean {
+  const attemptedAt = progress?.lastAttemptedAt ? new Date(progress.lastAttemptedAt).getTime() : Number.NaN;
+  if (Number.isNaN(attemptedAt)) return false;
+  const resetTime = resetAt ? new Date(resetAt).getTime() : Number.NaN;
+  return Number.isNaN(resetTime) || attemptedAt >= resetTime;
+}
+
 export function saveQbankState(state: QbankState, source: "local" | "remote" = "local") {
   if (source === "local") {
     const previous = loadQbankState();

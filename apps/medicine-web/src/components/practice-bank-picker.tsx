@@ -29,7 +29,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
         })}</div>
       </fieldset>
       <fieldset className="mt-5 grid gap-2 sm:grid-cols-2"><legend className="mb-2 font-semibold">채점 방식</legend>{[[true, "모의고사", "자유롭게 답을 수정하고 종료 후 일괄 채점"], [false, "즉시 해설 학습", "한 문제씩 채점하고 바로 해설 확인"]].map(([value, title, detail]) => <label key={String(value)} className={`flex cursor-pointer gap-3 rounded-xl border p-4 ${examMode === value ? "border-teal-500 bg-teal-50" : "border-slate-200"}`}><input type="radio" name="exam-mode" checked={examMode === value} onChange={() => setExamMode(value === true)} className="accent-teal-600" /><span><span className="block text-sm font-semibold">{title}</span><span className="text-xs text-slate-500">{detail}</span></span></label>)}</fieldset>
-      <PracticeStartControls key={active?.label || "no-round"} total={active?.count ?? 0} filters={filters} exam={examMode} label={active?.label} />
+      <PracticeStartControls key={active?.label || "no-round"} total={active?.count ?? 0} questionIds={questions.filter((question) => matchesPractice(question, filters)).map((question) => question.id)} filters={filters} exam={examMode} label={active?.label} />
     </div>;
   }
   const selected = questions.filter((q) => matchesPractice(q, filters)).length;
@@ -62,6 +62,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
       </details>;
     })}
     {group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}
-    <PracticeStartControls key={JSON.stringify(filters)} total={selected} filters={filters} />
+    <PracticeStartControls key={JSON.stringify(filters)} total={selected} questionIds={questions.filter((question) => matchesPractice(question, filters)).map((question) => question.id)} filters={filters} />
   </div>;
 }

@@ -17,6 +17,8 @@ import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, Copy, Info, XCircle } from "lucide-react";
 import {
   loadQbankState,
+  isQbankProgressedInCurrentView,
+  loadQbankProgressViewResetAt,
   removeQbankWrong,
   recordQbankAttempt,
   saveQbankSession,
@@ -115,7 +117,7 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
   return <div className="mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters): Promise<SessionQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters, practiceUnattemptedOnly = false): Promise<SessionQuestion[]> {
   if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 결과 화면이나 학습 통계에서 다시 선택해 주세요.");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
@@ -172,6 +174,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       if (mode === "all") return !targetIds || targetIds.has(q.id);
       if (mode === "unattempted") return !state.progress[q.id];
       if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
+      if (practiceUnattemptedOnly && isQbankProgressedInCurrentView(state.progress[q.id], loadQbankProgressViewResetAt())) return false;
       if (mode !== "related") return true;
       const scope = targetSlugs.split(",").filter(Boolean);
       return targetType === "disease" ? q.relatedDiseaseSlugs.some((slug) => (scope.length ? scope : [targetSlug]).includes(slug)) : q.relatedCcSlugs.includes(targetSlug);
@@ -246,6 +249,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const targetType = params.get("targetType") || "";
     const targetSlug = params.get("target") || "";
     const targetSlugs = params.get("targets") || "";
+    const practiceUnattemptedOnly = params.get("practiceUnattempted") === "1";
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
     if (params.get("resume") === "1") return;
@@ -260,7 +264,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
         : undefined;
-    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) })
+    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) }, practiceUnattemptedOnly)
       .then((loaded) => {
         if (appliedRemoteSessionVersionRef.current) return;
         const state = initialState;
