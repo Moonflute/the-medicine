@@ -225,12 +225,11 @@ from _canonical_progress;
 -- Completed session summaries retain their historical scores, but their stored
 -- IDs now resolve to canonical questions.
 update public.qbank_sessions s
-set question_ids = mapped.question_ids
-from lateral (
+set question_ids = (
   select jsonb_agg(to_jsonb(coalesce(m.canonical_id, item.question_id)) order by item.ordinality) as question_ids
   from jsonb_array_elements_text(s.question_ids) with ordinality as item(question_id, ordinality)
   left join public.private_qbank_canonical_sources m on m.source_id = item.question_id
-) mapped
+)
 where s.question_ids is not null;
 
 -- In-progress cloud sessions include IDs in arrays, answer objects and draft
