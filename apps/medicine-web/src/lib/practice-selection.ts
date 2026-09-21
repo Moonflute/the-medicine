@@ -29,10 +29,12 @@ function isObstetricPracticeQuestion(question: PracticeIndex): boolean {
 }
 export function practiceTopicKey(q: PracticeIndex): string {
   if (q.bookDepartment === "산부인과" && !isObstetricPracticeQuestion(q)) return "산부인과:gynecology";
+  if (q.bookDepartment === "외과") return "외과:" + surgeryPracticeTheme(q).id;
   return `${q.bookDepartment}:${q.specialtySlug}`;
 }
 export function practiceTopicLabel(q: PracticeIndex): string {
   if (q.bookDepartment === "산부인과" && !isObstetricPracticeQuestion(q)) return "부인과";
+  if (q.bookDepartment === "외과") return surgeryPracticeTheme(q).title;
   const topic = q.specialty.replace(/^\d+\s*/, "");
   const labels: Record<string, string> = {
     "외과": "수술·외과 일반", "소아청소년과": "성장·발달·소아 일반",
@@ -69,6 +71,17 @@ function includesAny(value: string, terms: string[]) {
   return terms.some((term) => value.includes(normalizedTopic(term)));
 }
 
+function surgeryPracticeTheme(question: PracticeIndex): { id: string; title: string; order: number } {
+  const topic = normalizedTopic(question.specialty);
+  if (/^21\b/.test(question.specialty) || includesAny(topic, ["응급", "외상", "화상", "쇼크", "중독", "물림", "쏘임"])) {
+    return { id: "emergency", title: "응급처치", order: 30 };
+  }
+  if (/^11\b/.test(question.specialty) || includesAny(topic, ["외과", "수술", "수술후", "수술 전"])) {
+    return { id: "general", title: "외과개론", order: 10 };
+  }
+  return { id: "detail", title: "외과각론", order: 20 };
+}
+
 function sectionForTopic(question: PracticeIndex): { id: string; title: string; primary?: string; order: number } {
   const topic = normalizedTopic(`${question.specialty} ${practiceTopicLabel(question)}`);
   if (question.bookDepartment === "소아과") {
@@ -92,11 +105,7 @@ function sectionForTopic(question: PracticeIndex): { id: string; title: string; 
     return { id: `${primary}-${secondary[0]}`, title: secondary[1], primary, order: primary === "산과" ? 20 : 50 };
   }
   if (question.bookDepartment === "외과") {
-    if (includesAny(topic, ["외상", "손상", "골절", "화상"])) return { id: "surgery-trauma", title: "외상·화상", order: 10 };
-    if (includesAny(topic, ["탈장", "복벽", "복증", "충수", "장폐색", "담도", "복부"])) return { id: "surgery-abdomen", title: "복부·탈장", order: 20 };
-    if (includesAny(topic, ["수술후", "수술 후", "문합", "창상", "상처", "합병증"])) return { id: "surgery-postop", title: "수술 후 합병증", order: 30 };
-    if (includesAny(topic, ["수혈", "쇼크", "물림", "쏘임"])) return { id: "surgery-acute", title: "수혈·쇼크·물림", order: 40 };
-    return { id: "surgery-general", title: "외과 일반", order: 50 };
+    return surgeryPracticeTheme(question);
   }
   return { id: "default", title: `${question.bookDepartment} 세부 주제`, order: 0 };
 }
