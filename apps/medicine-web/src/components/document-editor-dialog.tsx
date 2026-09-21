@@ -48,7 +48,7 @@ export default function DocumentEditorDialog({ path, title, onClose }: { path: s
     if (!base) return "";
     try { return replaceBlocks(base.source, changes); }
     catch { return changes.map(change => change.markdown).join("\n\n"); }
-  }, [base, changes, path]);
+  }, [base, changes]);
 
   const setSourceBody = (body: string) => {
     if (!base) return;
