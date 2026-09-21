@@ -25,7 +25,7 @@ export function canEditBlock(raw: string): boolean {
   return Boolean(raw.trim()) && !/(^|\n)(?: {4}|\t)|(^|\n)[ \t]*(?:#{1,6}\s|```|~~~|\[.*\]:|[-*_]{3,}\s*$)|\[\[|\]\[|!\[|\[!|<|\$|\^\w|%%|\r(?!\n)|(?:javascript|vbscript|data)\s*:/im.test(raw);
 }
 
-export function splitSource(source: string, _path?: string): SourceDocument {
+export function splitSource(source: string): SourceDocument {
   if (typeof source !== "string" || source.length > 200_000) throw new Error("문서 크기를 확인해주세요.");
   let prefix = source.startsWith("\uFEFF") ? "\uFEFF" : "";
   let body = source.slice(prefix.length);
@@ -70,12 +70,12 @@ export function replaceBlocks(source: string, changes: Replacement[], path?: str
   if (changes.length === 1 && changes[0]?.index === -1) {
     const next = changes[0].markdown;
     if (typeof next !== "string" || !next.trim() || next.includes("\0")) throw new Error("비어 있거나 잘못된 원문입니다.");
-    const original = splitSource(source, path);
-    const edited = splitSource(next, path);
+    const original = splitSource(source);
+    const edited = splitSource(next);
     if (original.prefix !== edited.prefix) throw new Error("메타데이터는 원문 그대로 보존해주세요. 본문만 수정할 수 있습니다.");
     return next;
   }
-  const document = splitSource(source, path);
+  const document = splitSource(source);
   const seen = new Set<number>();
   for (const change of changes) {
     if (!change || !Number.isInteger(change.index) || seen.has(change.index)) throw new Error("중복되거나 잘못된 블록입니다.");

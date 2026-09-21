@@ -1,5 +1,6 @@
 ﻿import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import type { TermLink } from "@/lib/webdb";
 
 type BulletStyle = "plain" | "card";
@@ -78,7 +79,7 @@ function getLabelOnly(body: string) {
   return match ? match[1] : null;
 }
 
-function parseBlocks(lines: string[], bulletStyle: BulletStyle): ParsedBlock[] {
+function parseBlocks(lines: string[]): ParsedBlock[] {
   const blocks: ParsedBlock[] = [];
   let currentGroup: ParsedBlock | null = null;
 
@@ -294,7 +295,7 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
 
   const documentImage = trimmed.match(/^!\[([^\]]*)\]\((https:\/\/moonflute\.github\.io\/the-medicine\/images\/documents\/[^\s)]+)\)$/);
   if (documentImage) {
-    return <figure className="my-4 overflow-hidden rounded-xl border border-slate-200 bg-slate-50"><img src={documentImage[2]} alt={documentImage[1] || "첨부 이미지"} className="max-h-[560px] w-full object-contain" /><figcaption className="border-t border-slate-200 bg-white px-3 py-2 text-xs text-slate-500">{documentImage[1]}</figcaption></figure>;
+    return <figure className="my-4 overflow-hidden rounded-xl border border-slate-200 bg-slate-50"><Image src={documentImage[2]} alt={documentImage[1] || "첨부 이미지"} width={1600} height={900} className="max-h-[560px] w-full object-contain" /><figcaption className="border-t border-slate-200 bg-white px-3 py-2 text-xs text-slate-500">{documentImage[1]}</figcaption></figure>;
   }
 
   if (isEmphasisLabelLine(trimmed)) {
@@ -398,7 +399,7 @@ export function RichTextLines({
   termLinks?: TermLink[];
   wikiLinks?: TermLink[];
 }) {
-  const blocks = parseBlocks(lines, bulletStyle);
+  const blocks = parseBlocks(lines);
 
   return (
     <div className={`min-w-0 ${className}`.trim()}>

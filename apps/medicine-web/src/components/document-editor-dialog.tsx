@@ -43,7 +43,7 @@ export default function DocumentEditorDialog({ path, title, onClose }: { path: s
   const draftKey = draftPrefix + tabId;
   const draftRef = useRef<Draft | null>(null);
   const restoredDraft = useRef<{ key: string; savedAt: string } | null>(null);
-  const blocks = useMemo(() => base ? splitSource(base.source, path).blocks : [], [base, path]);
+  const blocks = useMemo(() => base ? splitSource(base.source).blocks : [], [base]);
   const preview = useMemo(() => {
     if (!base) return "";
     try { return replaceBlocks(base.source, changes, path); }
