@@ -14,7 +14,9 @@ export function isMultiple(question: QbankQuestion): boolean {
 }
 export function toggleSelection(question: QbankQuestion, value: QbankSelection | null | undefined, answer: QbankAnswer): QbankSelection | null {
   if (question.options[answer] === undefined) return value ?? null;
-  if (!isMultiple(question)) return answer;
+  // A single-answer choice behaves as a true toggle as well: selecting the
+  // same option again restores the intentionally unanswered state.
+  if (!isMultiple(question)) return value === answer ? null : answer;
   const previous = selectedAnswers(value);
   const next = previous.includes(answer) ? previous.filter(key => key !== answer) : [...previous, answer].sort();
   return next.length ? next : null;
