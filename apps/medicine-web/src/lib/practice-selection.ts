@@ -22,10 +22,17 @@ export const EMPTY_PRACTICE_FILTERS: PracticeFilters = { books: [], specialties:
 
 // The source book subject owns classification; linked theory is only a topic.
 export const PRACTICE_DEPARTMENTS = ["내과", "외과", "산부인과", "소아과"] as const;
+function isObstetricPracticeQuestion(question: PracticeIndex): boolean {
+  const topic = normalizedTopic(question.specialty);
+  return /^12\b/.test(question.specialty)
+    || includesAny(topic, ["산과", "임신", "분만", "태아", "산후", "산욕", "양수", "태반", "탯줄", "유산", "난산", "조산", "쌍둥이", "자궁경부무력", "자궁경부결찰", "cerclage"]);
+}
 export function practiceTopicKey(q: PracticeIndex): string {
+  if (q.bookDepartment === "산부인과" && !isObstetricPracticeQuestion(q)) return "산부인과:gynecology";
   return `${q.bookDepartment}:${q.specialtySlug}`;
 }
 export function practiceTopicLabel(q: PracticeIndex): string {
+  if (q.bookDepartment === "산부인과" && !isObstetricPracticeQuestion(q)) return "부인과";
   const topic = q.specialty.replace(/^\d+\s*/, "");
   const labels: Record<string, string> = {
     "외과": "수술·외과 일반", "소아청소년과": "성장·발달·소아 일반",
@@ -69,7 +76,7 @@ function sectionForTopic(question: PracticeIndex): { id: string; title: string; 
     return general ? { id: "pediatric-general", title: "소아과 총론", order: 10 } : { id: "pediatric-detail", title: "소아과 각론", order: 20 };
   }
   if (question.bookDepartment === "산부인과") {
-    const obstetric = /^12\b/.test(question.specialty) || includesAny(topic, ["산과", "임신", "분만", "태아", "산후", "산욕", "양수", "태반", "탯줄", "유산", "난산", "조산", "쌍둥이", "자궁경부"]);
+    const obstetric = isObstetricPracticeQuestion(question);
     const primary = obstetric ? "산과" : "부인과";
     const secondary = obstetric
       ? includesAny(topic, ["분만", "난산", "조산", "둔위"]) ? ["delivery", "분만"]
