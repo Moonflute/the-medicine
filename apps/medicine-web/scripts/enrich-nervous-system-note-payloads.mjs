@@ -6,7 +6,6 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../.
 const atlasPath = path.join(root, "source_notes", "10 Hubs", "03 \uC2E0\uACBD\uACC4 Hub", "_data", "nervous-system-atlas.json");
 const atlas = JSON.parse(fs.readFileSync(atlasPath, "utf8"));
 
-const clinical = (items) => ({ heading: "\uC784\uC0C1\uC801 \uC758\uC758 \uBC0F \uBCD1\uBCC0 \uC2DC \uC99D\uC0C1", items });
 const item = (label, text) => ({ label, text });
 const category = (id, group) => {
   const text = `${id} ${group}`.toLowerCase();

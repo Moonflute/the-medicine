@@ -46,7 +46,7 @@ export default function DocumentEditorDialog({ path, title, onClose }: { path: s
   const blocks = useMemo(() => base ? splitSource(base.source).blocks : [], [base]);
   const preview = useMemo(() => {
     if (!base) return "";
-    try { return replaceBlocks(base.source, changes, path); }
+    try { return replaceBlocks(base.source, changes); }
     catch { return changes.map(change => change.markdown).join("\n\n"); }
   }, [base, changes, path]);
 

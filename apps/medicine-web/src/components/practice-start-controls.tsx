@@ -1,25 +1,24 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useReducer, useState } from "react";
 import type { PracticeFilters } from "@/lib/practice-selection";
 import { isQbankProgressedInCurrentView, loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 
 export function PracticeStartControls({ total, questionIds, filters, exam = false, label }: { total: number; questionIds: string[]; filters: PracticeFilters; exam?: boolean; label?: string }) {
   const [count, setCount] = useState(() => String(total));
   const [unattemptedOnly, setUnattemptedOnly] = useState(false);
-  const [progressVersion, setProgressVersion] = useState(0);
+  const [, refreshProgress] = useReducer((value: number) => value + 1, 0);
   useEffect(() => {
-    const refresh = () => setProgressVersion((value) => value + 1);
+    const refresh = () => refreshProgress();
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
     return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
   }, []);
-  const available = useMemo(() => {
-    if (!unattemptedOnly) return total;
+  const available = !unattemptedOnly ? total : (() => {
     const state = loadQbankState();
     const resetAt = loadQbankProgressViewResetAt();
     return questionIds.filter((id) => !isQbankProgressedInCurrentView(state.progress[id], resetAt)).length;
-  }, [questionIds, progressVersion, total, unattemptedOnly]);
+  })();
   useEffect(() => {
     if (available > 0 && Number(count) > available) setCount(String(available));
   }, [available, count]);

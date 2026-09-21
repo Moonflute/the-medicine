@@ -65,7 +65,7 @@ export function splitSource(source: string): SourceDocument {
   return { prefix, blocks };
 }
 
-export function replaceBlocks(source: string, changes: Replacement[], path?: string): string {
+export function replaceBlocks(source: string, changes: Replacement[]): string {
   if (!Array.isArray(changes) || changes.length > 500) throw new Error("잘못된 수정 요청입니다.");
   if (changes.length === 1 && changes[0]?.index === -1) {
     const next = changes[0].markdown;

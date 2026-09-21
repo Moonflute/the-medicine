@@ -36,8 +36,6 @@ const pathwayStructures: Record<string, string[]> = {
 
 const neuroAssetBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
-const routeColor: Record<string, string> = { motor: "#0f8d83", sensory: "#366ff0", cranial: "#8b5cf6", reflex: "#d97706", autonomic: "#b45309" };
-
 const maps: Record<ImageAtlasViewId, { asset: string; viewBox: string; regions: Region[] }> = {
   "whole-neuraxis": {
     asset: "/neuro-atlas/illustrations/whole-neuraxis.png", viewBox: "0 0 1152 1408",
