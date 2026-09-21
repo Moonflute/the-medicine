@@ -156,7 +156,7 @@ with paired as (
 )
 update public.private_qbank_canonical_items c
 set payload = jsonb_set(c.payload, '{explanation}', to_jsonb(
-  concat('### 해설 1\n', coalesce(paired.perfect_explanation, ''), '\n\n### 해설 2\n', coalesce(paired.real_explanation, ''))
+  concat('[해설 1]', E'\n', coalesce(paired.perfect_explanation, ''), E'\n\n[해설 2]\n', coalesce(paired.real_explanation, ''))
 ), true)
 from paired where paired.canonical_id = c.id;
 
@@ -175,19 +175,19 @@ where (c.id, r.id) in (
 -- image/answer follows the stem, while the alternate image condition remains
 -- visible at the end of the explanation instead of becoming a duplicate item.
 update public.private_qbank_canonical_items c
-set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n### 추가 · 사진 변형\n**[사진]** 유두 외측의 경계가 좋은 원형 양성 석회화만 보이는 경우에는 조직검사보다 1년 간격 유방촬영 추적관찰이 적절합니다.'), true)
+set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n[추가]\n[사진] 유두 외측의 경계가 좋은 원형 양성 석회화만 보이는 경우에는 조직검사보다 1년 간격 유방촬영 추적관찰이 적절합니다.'), true)
 where c.id = 'QB-PF2026-V01-GS-Y2019-0022';
 update public.private_qbank_canonical_items c
-set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n### 추가 · 사진 변형\n**[사진]** 항문관 6시 방향의 선형 궤양(치열) 사진이라면, 이 문항의 선택지에서는 내괄약근절개술이 답이 됩니다.'), true)
+set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n[추가]\n[사진] 항문관 6시 방향의 선형 궤양(치열) 사진이라면, 이 문항의 선택지에서는 내괄약근절개술이 답이 됩니다.'), true)
 where c.id = 'QB-PF2026-V01-GS-Y2020-0019';
 update public.private_qbank_canonical_items c
-set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n### 추가 · 사진 변형\n**[사진]** 광범위 복막염 없이 국한된 충수돌기주위 농양이 주 소견인 CT라면, 정주 항생제와 경피배농술로 초기 치료합니다.'), true)
+set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n[추가]\n[사진] 광범위 복막염 없이 국한된 충수돌기주위 농양이 주 소견인 CT라면, 정주 항생제와 경피배농술로 초기 치료합니다.'), true)
 where c.id = 'QB-PF2026-V01-GS-Y2022-0018';
 update public.private_qbank_canonical_items c
-set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n### 추가 · 사진 변형\n**[사진]** CC view에서 outer, MLO view에서 upper 쪽에 병변이 확인되는 사진이라면 상외부 병변입니다.'), true)
+set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n[추가]\n[사진] CC view에서 outer, MLO view에서 upper 쪽에 병변이 확인되는 사진이라면 상외부 병변입니다.'), true)
 where c.id = 'QB-PF2026-V01-GS-Y2022-0028';
 update public.private_qbank_canonical_items c
-set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n### 추가 · 사진 변형\n**[사진]** 만성·가족력 맥락에서 유전구상적혈구증을 시사하는 도말이라면, 삼투압 취약성 검사 또는 EMA 결합 검사가 적절합니다.'), true)
+set payload = jsonb_set(c.payload, '{explanation}', to_jsonb((c.payload->>'explanation') || E'\n\n[추가]\n[사진] 만성·가족력 맥락에서 유전구상적혈구증을 시사하는 도말이라면, 삼투압 취약성 검사 또는 EMA 결합 검사가 적절합니다.'), true)
 where c.id = 'QB-PF2026-V02-PE-Y2023-0015';
 
 -- Existing attempts, bookmarks and wrong-answer queues merge onto the
