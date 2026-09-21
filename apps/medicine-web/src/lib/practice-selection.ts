@@ -126,7 +126,10 @@ export function practiceTopicSections(questions: PracticeIndex[], department: st
   for (const primary of ["산과", "부인과"]) {
     const children = grouped.filter((group) => group.primary === primary).sort((left, right) => left.order - right.order || left.title.localeCompare(right.title, "ko"));
     const topicCount = children.reduce((count, group) => count + group.topics.length, 0);
-    if (topicCount < 8 || children.length < 2) {
+    // Obstetrics and gynecology are the two meaningful top-level choices for
+    // this book.  Keep gynecology as one selectable block even as its linked
+    // theory topics grow, rather than exposing a second layer of tiny groups.
+    if (primary === "부인과" || topicCount < 8 || children.length < 2) {
       result.push({ id: `obgyn-${primary}`, title: primary, topics: children.flatMap((group) => group.topics) });
     } else {
       result.push(...children.map(({ id, title, topics }) => ({ id, title: `${primary} · ${title}`, topics })));
