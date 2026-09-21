@@ -59,8 +59,9 @@ jobs:
         run: npm run sync:data
 
       - name: Lint
-        # Content hashes survive checkout timestamps; dependency changes get a new cache.
-        run: npm run lint -- --cache --cache-strategy content --cache-location .next/cache/eslint/
+        # Run from a clean state. Restoring .next/cache can otherwise retain stale
+        # ESLint results from an earlier revision and fail after the source is fixed.
+        run: npm run lint
 
       - name: Verify organ atlas contracts
         run: node scripts/test-atlas-contracts.mjs

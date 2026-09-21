@@ -19,9 +19,6 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
     const resetAt = loadQbankProgressViewResetAt();
     return questionIds.filter((id) => !isQbankProgressedInCurrentView(state.progress[id], resetAt)).length;
   })();
-  useEffect(() => {
-    if (available > 0 && Number(count) > available) setCount(String(available));
-  }, [available, count]);
   const valid = available > 0 && /^\d+$/.test(count) && Number(count) >= 1 && Number(count) <= available;
   const href = (ordered: boolean) => {
     const params = new URLSearchParams({ mode: ordered ? "practice-book" : "selection", practiceOnly: "1", count, practiceSeries: (filters.series ?? []).join(","), practiceDepartments: (filters.departments ?? []).join(","), practiceSpecialties: filters.specialties.join(","), practiceYears: filters.years.join(","), practiceBooks: filters.books.join(",") });
@@ -37,7 +34,16 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
       {valid ? <Link href={href(true)} className="primary-action">기존 문제 순서대로 풀기</Link> : <button disabled className="primary-action opacity-40">기존 문제 순서대로 풀기</button>}
       {valid ? <Link href={href(false)} className="primary-action">순서 섞어서 풀기</Link> : <button disabled className="primary-action opacity-40">순서 섞어서 풀기</button>}
     </div>
-    <label className="mt-4 flex w-fit cursor-pointer items-center gap-2 text-sm font-medium text-slate-700"><input type="checkbox" checked={unattemptedOnly} onChange={(event) => setUnattemptedOnly(event.target.checked)} className="h-4 w-4 accent-teal-600" />안 푼 문제만 풀기</label>
+    <label className="mt-4 flex w-fit cursor-pointer items-center gap-2 text-sm font-medium text-slate-700"><input type="checkbox" checked={unattemptedOnly} onChange={(event) => {
+      const nextUnattemptedOnly = event.target.checked;
+      if (nextUnattemptedOnly) {
+        const state = loadQbankState();
+        const resetAt = loadQbankProgressViewResetAt();
+        const unattemptedAvailable = questionIds.filter((id) => !isQbankProgressedInCurrentView(state.progress[id], resetAt)).length;
+        if (unattemptedAvailable > 0 && Number(count) > unattemptedAvailable) setCount(String(unattemptedAvailable));
+      }
+      setUnattemptedOnly(nextUnattemptedOnly);
+    }} className="h-4 w-4 accent-teal-600" />안 푼 문제만 풀기</label>
     {!valid && available > 0 && <p className="mt-2 text-xs leading-5 text-slate-500">{`1~${available} 사이의 정수를 입력하세요.`}</p>}
     {unattemptedOnly && total > 0 && available === 0 && <p className="mt-2 text-xs leading-5 text-slate-500">현재 진행 기준에서 미풀이 문제가 없습니다. 통계 탭에서 진행률을 초기화하면 다시 선택할 수 있습니다.</p>}
   </section>;
