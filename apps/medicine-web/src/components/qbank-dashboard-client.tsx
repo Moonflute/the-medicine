@@ -7,8 +7,8 @@ import { PracticeBankPicker } from "@/components/practice-bank-picker";
 import { EMPTY_PRACTICE_FILTERS, matchesPractice, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
-import { activeSessionFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
+import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
+import { activeSessionFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, remapLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
 import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
 type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string; scopeSlugs?: string[] };
@@ -187,7 +187,14 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       setPracticeMessage("실전문제 접근 권한을 확인 중입니다.");
       try {
         const result = await loadPracticeIndex();
-        if (active && request === revision) { setPractice(result.questions); setPracticeMessage(result.message); }
+        if (active && request === revision) {
+          const aliases = Object.fromEntries(result.questions.flatMap((question) => (question.sourceIds ?? []).map((sourceId) => [sourceId, question.id])));
+          remapQbankQuestionIds(aliases);
+          const remappedActive = remapLocalActiveQbankSession(aliases);
+          if (remappedActive) setActiveSession(remappedActive);
+          setPractice(result.questions);
+          setPracticeMessage(result.message);
+        }
       } catch (error) { if (active && request === revision) setPracticeMessage(error instanceof Error ? error.message : "실전문제를 불러오지 못했습니다."); }
     };
     void refresh();
@@ -206,7 +213,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedTheory(stringArray(saved?.theory));
       setSelectedClinical(stringArray(saved?.clinical));
-      setPracticeFilters({ books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years), series: saved?.practice?.series ? stringArray(saved.practice.series) : [...new Set(stringArray(saved?.practice?.books).map((book) => book.startsWith("perfect") ? "퍼펙트" : "리얼"))], departments: stringArray(saved?.practice?.departments), order: saved?.practice?.order === "book" ? "book" : "random" });
+      setPracticeFilters({ books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years), series: [], departments: stringArray(saved?.practice?.departments), order: saved?.practice?.order === "book" ? "book" : "random" });
       setTab(saved?.tab === "clinical" || saved?.tab === "practice" ? saved.tab : "theory");
       setCount(typeof saved?.count === "string" ? saved.count : "10");
     } catch { /* Storage is optional; in-memory selections remain available. */ }

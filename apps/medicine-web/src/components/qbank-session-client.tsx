@@ -288,7 +288,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
         const restoredQuestion = selectedQuestions[restoredIndex];
         const restoredAnswer = canRestore && snapshot ? snapshot.answers.find((item) => item.questionId === restoredQuestion?.id) : undefined;
-        setMockExam(canRestore ? readMockExam(snapshot?.mockExam) : params.get("exam") === "1" ? { version: 1, title: `${params.get("practiceSeries") === "퍼펙트" ? "P" : "R"} ${params.get("practiceYears") || "모의고사"}`, startedAt: new Date().toISOString(), drafts: {}, flaggedIds: [] } : null);
+        setMockExam(canRestore ? readMockExam(snapshot?.mockExam) : params.get("exam") === "1" ? { version: 1, title: `${params.get("practiceYears") || "모의고사"}년 모의고사`, startedAt: new Date().toISOString(), drafts: {}, flaggedIds: [] } : null);
         setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
         setCurrentIndex(restoredIndex);

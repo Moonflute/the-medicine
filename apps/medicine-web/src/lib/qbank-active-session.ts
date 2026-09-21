@@ -65,3 +65,16 @@ export function clearLocalActiveQbankSession(sessionId?: string) {
     window.sessionStorage.removeItem(`${QBANK_SESSION_STORAGE_PREFIX}${targetId}`);
   }
 }
+
+export function remapLocalActiveQbankSession(aliases: Record<string, string>) {
+  const session = loadLocalActiveQbankSession();
+  if (!session || !Object.keys(aliases).length) return session;
+  const map = (id: string) => aliases[id] ?? id;
+  const questionIds = session.questionIds.map(map);
+  const answers = session.answers.map((answer) => ({ ...answer, questionId: map(answer.questionId) }));
+  const drafts = Object.fromEntries(Object.entries(session.drafts ?? {}).map(([id, value]) => [map(id), value]));
+  if (questionIds.every((id, index) => id === session.questionIds[index]) && answers.every((answer, index) => answer.questionId === session.answers[index].questionId)) return session;
+  const next = { ...session, questionIds, answers, drafts, selected: session.selected };
+  saveLocalActiveQbankSession(next);
+  return next;
+}

@@ -5,7 +5,7 @@ import { useState } from "react";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
 import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicSections } from "@/lib/practice-selection";
 
-type Dimension = "series" | "departments" | "specialties" | "years";
+type Dimension = "departments" | "specialties" | "years";
 export function PracticeBankPicker({ questions, filters, onChange, message }: {
   questions: PracticeIndex[]; filters: PracticeFilters; onChange: (next: PracticeFilters) => void; message: string;
 }) {
@@ -15,15 +15,15 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
   const modes = <fieldset className="flex flex-wrap gap-4"><legend className="mb-2 font-semibold">문제 선택 방식</legend>{([['random', '분과·조건 선택'], ['book', '회차 전체 풀기']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
   if (ordered) {
     const exams = practiceMockExams(questions);
-    const active = filters.series?.length === 1 && filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length
-      ? exams.find((exam) => filters.series?.[0] === exam.series && filters.years[0] === String(exam.year)) : undefined;
+    const active = filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length
+      ? exams.find((exam) => filters.years[0] === String(exam.year)) : undefined;
     return <div>
       {modes}
       <fieldset className="mt-5"><legend className="font-semibold text-slate-900">모의고사 선택</legend>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{exams.map((exam) => {
           const checked = active === exam;
           return <label key={exam.label} className={`flex cursor-pointer items-center gap-3 rounded-xl border p-4 ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`}>
-            <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.series, exam.year))} className="accent-teal-600" />
+            <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year))} className="accent-teal-600" />
             <span><span className="block font-semibold">{exam.label}</span><span className="text-xs text-slate-500">{exam.count.toLocaleString()}문항</span></span>
           </label>;
         })}</div>
@@ -33,20 +33,15 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
     </div>;
   }
   const selected = questions.filter((q) => matchesPractice(q, filters)).length;
-  const seriesQuestions = questions.filter(q => !filters.series?.length || filters.series.includes(q.bookSeries));
-  const years = [...new Set(seriesQuestions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
+  const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
   const group = (key: Dimension, title: string, items: [string, string][]) => <fieldset className="mt-5">
     <legend className="font-semibold text-slate-900">{title}</legend>
-    <div className={`mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 ${key === "series" ? "max-w-sm" : "lg:grid-cols-4"}`}>{items.map(([id, label]) => {
+    <div className="mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4">{items.map(([id, label]) => {
       const checked = (filters[key] ?? []).includes(id);
       const total = questions.filter((q) => matchesPractice(q, { ...filters, books: [], [key]: [id] })).length;
       return <label key={id} className={`flex min-h-11 cursor-pointer items-center gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 transition-colors sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700 hover:border-teal-300"}`}>
         <input type="checkbox" className="h-4 w-4 shrink-0 accent-teal-600" checked={checked} onChange={() => {
           const next = { ...filters, books: [], [key]: toggleGroup(filters[key] ?? [], [id]) };
-          if (key === "series") {
-            const availableYears = new Set(questions.filter(q => !next.series?.length || next.series.includes(q.bookSeries)).map(q => q.examYear === null ? "unknown" : String(q.examYear)));
-            next.years = next.years.filter(year => availableYears.has(year));
-          }
           onChange(next);
         }} /><span className="min-w-0 font-medium">{label}</span><span className="ml-auto shrink-0 text-[11px] tabular-nums text-slate-500">{total.toLocaleString()}</span>
       </label>;
@@ -54,7 +49,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message }: {
   </fieldset>;
   return <div>
     {modes}
-    {group("series", "P / R", [["퍼펙트", "P"], ["리얼", "R"]])}
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
     {PRACTICE_DEPARTMENTS.map((d) => {
       const sections = practiceTopicSections(questions, d);

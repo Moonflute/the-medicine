@@ -170,6 +170,40 @@ export function saveQbankSession(result: QbankSessionResult) {
   saveQbankState(state);
 }
 
+// Source-book aliases can arrive in an already open browser after the server
+// has consolidated the corresponding records.  Merge locally before the next
+// sync write so an older R-only attempt is not stranded on a hidden source ID.
+export function remapQbankQuestionIds(aliases: Record<string, string>) {
+  if (typeof window === "undefined" || !Object.keys(aliases).length) return;
+  const state = loadQbankState();
+  let changed = false;
+  const progress: Record<string, QbankProgress> = {};
+  for (const item of Object.values(state.progress)) {
+    const questionId = aliases[item.questionId] ?? item.questionId;
+    changed ||= questionId !== item.questionId;
+    const previous = progress[questionId];
+    if (!previous) { progress[questionId] = { ...item, questionId }; continue; }
+    const latest = new Date(item.lastAttemptedAt ?? 0).getTime() >= new Date(previous.lastAttemptedAt ?? 0).getTime() ? item : previous;
+    progress[questionId] = {
+      ...latest,
+      questionId,
+      attempts: previous.attempts + item.attempts,
+      correctAttempts: previous.correctAttempts + item.correctAttempts,
+      consecutiveCorrect: Math.max(previous.consecutiveCorrect, item.consecutiveCorrect),
+    };
+  }
+  const mapIds = (ids: string[]) => ids.map((id) => aliases[id] ?? id);
+  const wrongIds = [...new Set(mapIds(state.wrongIds))];
+  const bookmarkIds = [...new Set(mapIds(state.bookmarkIds))];
+  const sessions = state.sessions.map((session) => {
+    const questionIds = mapIds(session.questionIds);
+    changed ||= questionIds.some((id, index) => id !== session.questionIds[index]);
+    return { ...session, questionIds };
+  });
+  if (!changed) return;
+  saveQbankState({ ...state, progress, wrongIds, bookmarkIds, sessions });
+}
+
 
 export function replaceQbankSyncData(state: QbankState) {
   if (typeof window === "undefined") return;
