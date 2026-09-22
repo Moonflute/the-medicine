@@ -5,6 +5,8 @@ type Config = {
   token: string;
   authenticate: (token: string) => Promise<{ id: string; app_metadata?: { providers?: string[] } } | null>;
   fetcher?: typeof fetch;
+  supabaseUrl?: string;
+  serviceKey?: string;
 };
 const REPO = "Moonflute/the-medicine";
 const BRANCH = "master";
@@ -19,6 +21,21 @@ function privateText(value: unknown, field: string, limit: number, allowEmpty = 
   const text = value.replace(/\r\n/g, "\n");
   if (text.length > limit || (!allowEmpty && !text.trim())) throw new Error(`${field}을(를) 확인해주세요.`);
   return text;
+}
+
+function privateRelatedDocuments(value: unknown): Array<{ type: "disease" | "cc"; slug: string; title: string }> {
+  if (!Array.isArray(value) || value.length > 100) throw new Error("관련 이론 페이지를 확인해주세요.");
+  const documents = new Map<string, { type: "disease" | "cc"; slug: string; title: string }>();
+  for (const raw of value) {
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) throw new Error("관련 이론 페이지를 확인해주세요.");
+    const item = raw as Record<string, unknown>;
+    if (item.type !== "disease" && item.type !== "cc") throw new Error("관련 이론 페이지 종류를 확인해주세요.");
+    const slug = privateText(item.slug, "관련 이론 페이지 식별값", 500, false);
+    const title = privateText(item.title, "관련 이론 페이지 이름", 300, false).trim();
+    if (!/^[A-Za-z0-9_-]+$/.test(slug)) throw new Error("관련 이론 페이지 식별값을 확인해주세요.");
+    documents.set(`${item.type}:${slug}`, { type: item.type, slug, title });
+  }
+  return [...documents.values()];
 }
 
 function privateQuestionPayload(base: unknown, fields: unknown, id: string): Record<string, unknown> {
@@ -36,12 +53,20 @@ function privateQuestionPayload(base: unknown, fields: unknown, id: string): Rec
   if (Object.keys(options).length < 2) throw new Error("보기는 두 개 이상 필요합니다.");
   const answer = values.answer === "" || values.answer === null ? null : values.answer;
   if (answer !== null && (typeof answer !== "string" || !/^[A-E]$/.test(answer) || !(answer in options))) throw new Error("정답 보기를 확인해주세요.");
+  const relatedTheoryDocuments = privateRelatedDocuments(values.relatedDocuments);
+  const retainedDocuments = Array.isArray(original.relatedDocuments)
+    ? original.relatedDocuments.filter((value) => value && typeof value === "object" && !Array.isArray(value) && (value as Record<string, unknown>).type === "drug")
+    : [];
   return {
     ...original,
     question: privateText(values.question, "문제", 30_000, false),
     options,
     answer,
     explanation: privateText(values.explanation, "해설", 50_000),
+    relatedDocuments: [...retainedDocuments, ...relatedTheoryDocuments],
+    relatedDiseaseSlugs: relatedTheoryDocuments.filter((document) => document.type === "disease").map((document) => document.slug),
+    relatedDiseaseTerms: relatedTheoryDocuments.filter((document) => document.type === "disease").map((document) => document.title),
+    relatedCcSlugs: relatedTheoryDocuments.filter((document) => document.type === "cc").map((document) => document.slug),
   };
 }
 
@@ -64,8 +89,8 @@ export function createHandler(config: Config) {
       const input = JSON.parse(raw);
       if (input.action === "read-private-qbank" || input.action === "save-private-qbank") {
         if (typeof input.id !== "string" || !PRIVATE_QBANK_ID.test(input.id)) return reply({ error: "잘못된 실전문제 식별값입니다." }, 400);
-        const serviceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
-        const supabaseUrl = Deno.env.get("SUPABASE_URL") ?? "";
+        const serviceKey = config.serviceKey ?? Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
+        const supabaseUrl = config.supabaseUrl ?? Deno.env.get("SUPABASE_URL") ?? "";
         if (!serviceKey || !supabaseUrl) return reply({ error: "비공개 문제 저장 연결을 확인해주세요." }, 503);
         const database = async (route: string, init: RequestInit = {}) => {
           const response = await request(`${supabaseUrl}/rest/v1/${route}`, {
@@ -76,7 +101,7 @@ export function createHandler(config: Config) {
           const data = await response.json().catch(() => null);
           return { response, data };
         };
-        const readPrivate = () => database(`private_qbank_items?id=eq.${encodeURIComponent(input.id)}&select=payload`);
+        const readPrivate = () => database(`private_qbank_canonical_items?id=eq.${encodeURIComponent(input.id)}&select=payload`);
         if (input.action === "read-private-qbank") {
           const latest = await readPrivate();
           const payload = latest.data?.[0]?.payload;

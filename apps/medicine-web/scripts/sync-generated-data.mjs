@@ -6,6 +6,7 @@ const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
 const SOURCE_NOTES_ROOT = path.join(WORKSPACE_ROOT, "source_notes");
 const OUTPUT_ROOT = path.join(WORKSPACE_ROOT, "_webapp");
 const DATA_ROOT = path.join(OUTPUT_ROOT, "data");
+const PUBLIC_GENERATED_ROOT = path.join(APP_ROOT, "public", "generated");
 const PUBLIC_QBANK_ROOT = path.join(APP_ROOT, "public", "generated", "qbank");
 const QBANK_DATA_ROOT = path.join(DATA_ROOT, "qbank");
 
@@ -24,6 +25,11 @@ function writeJson(fileName, value) {
 function writePublicQbankJson(fileName, value) {
   ensureDir(PUBLIC_QBANK_ROOT);
   fs.writeFileSync(path.join(PUBLIC_QBANK_ROOT, fileName), `${JSON.stringify(value)}\n`, "utf-8");
+}
+
+function writePublicGeneratedJson(fileName, value) {
+  ensureDir(PUBLIC_GENERATED_ROOT);
+  fs.writeFileSync(path.join(PUBLIC_GENERATED_ROOT, fileName), `${JSON.stringify(value)}\n`, "utf-8");
 }
 
 function writeQbankDataJson(fileName, value) {
@@ -1728,6 +1734,10 @@ function main() {
   const labImgToc = buildDomainToc("06 Lab & Img");
   const specialtyToc = buildSpecialtyToc();
   const qbank = buildQbank();
+  writePublicGeneratedJson("theory-documents.json", [
+    ...visibleDiseases.map((item) => ({ type: "disease", slug: item.slug, title: item.displayTitle || item.title, category: item.specialty })),
+    ...chiefComplaints.map((item) => ({ type: "cc", slug: item.slug, title: item.title, category: item.category || "CC" })),
+  ]);
 
   const specialties = [...new Map(visibleDiseases.map((item) => [item.specialty, item])).keys()].map((name) => {
     const normalizedName = name.replace(/^\d+\s*/, "").trim();

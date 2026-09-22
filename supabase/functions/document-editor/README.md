@@ -37,6 +37,9 @@ asymmetric signing keys). Missing GitHub configuration fails closed with 503.
 - Unedited blocks and metadata retain original bytes, BOM, EOL and final newline.
 - Typing creates a per-owner, per-document, per-tab localStorage draft, not a commit.
   Drafts are local to the device. Explicit save commits to GitHub.
+- Private practice-question edits remain in the canonical Supabase payload. The
+  owner can also curate disease/CC theory links; saving updates the payload and
+  its lightweight related-question index in one optimistic-concurrency write.
 - Both a preliminary SHA check and GitHub's atomic Contents API SHA check prevent
   stale writes. A failed/uncertain PUT is never automatically retried.
 - The conflict view keeps the draft and offers both versions for copying. Close

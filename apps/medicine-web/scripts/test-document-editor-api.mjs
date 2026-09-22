@@ -28,6 +28,37 @@ test('owner restriction runs before GitHub calls', async () => {
   const handler = createHandler({ token: 'server-only', authenticate: async () => ({ id: 'other' }), fetcher: async () => { throw Error('must not call'); } });
   assert.equal((await handler(req())).status, 403);
 });
+test('private Q-bank reads the canonical payload used by the app', async () => {
+  const id = 'QB-PF2026-V01-IM-Y2024-0001';
+  const canonical = { id, question: 'question' };
+  const handler = createHandler({ token: '', supabaseUrl: 'https://db.invalid', serviceKey: 'service-test', authenticate: async () => owner, fetcher: async (url) => {
+    assert.match(String(url), /private_qbank_canonical_items\?id=eq\./);
+    return json([{ payload: canonical }]);
+  } });
+  const response = await handler(req({ action: 'read-private-qbank', id }));
+  assert.equal(response.status, 200);
+  assert.deepEqual((await response.json()).payload, canonical);
+});
+test('private Q-bank save validates and synchronizes editable theory links', async () => {
+  const id = 'QB-PF2026-V01-IM-Y2024-0001';
+  const base = { id, question: 'old', options: { A: 'one', B: 'two' }, answer: 'A', explanation: '', relatedDocuments: [{ type: 'drug', slug: 'drug-1', title: 'Drug' }] };
+  let saved;
+  const handler = createHandler({ token: '', supabaseUrl: 'https://db.invalid', serviceKey: 'service-test', authenticate: async () => owner, fetcher: async (url, init) => {
+    assert.match(String(url), /rpc\/private_qbank_owner_update$/);
+    saved = JSON.parse(init.body).p_payload;
+    return json(true);
+  } });
+  const fields = { question: 'new', options: { A: 'one', B: 'two' }, answer: 'B', explanation: 'why', relatedDocuments: [
+    { type: 'disease', slug: 'disease_1', title: '질병 1' },
+    { type: 'cc', slug: 'cc-1', title: '주호소 1' },
+  ] };
+  const response = await handler(req({ action: 'save-private-qbank', id, base, fields }));
+  assert.equal(response.status, 200);
+  assert.deepEqual(saved.relatedDiseaseSlugs, ['disease_1']);
+  assert.deepEqual(saved.relatedDiseaseTerms, ['질병 1']);
+  assert.deepEqual(saved.relatedCcSlugs, ['cc-1']);
+  assert.deepEqual(saved.relatedDocuments, [base.relatedDocuments[0], ...fields.relatedDocuments]);
+});
 test('path allowlist rejects repository code writes', async () => {
   const handler = createHandler({ token: 'server-only', authenticate: async () => owner, fetcher: async () => { throw Error('must not call'); } });
   assert.equal((await handler(req({ ...payload, path: '.github/workflows/deploy.yml' }))).status, 403);

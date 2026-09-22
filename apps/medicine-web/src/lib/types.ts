@@ -391,6 +391,13 @@ export type SkillsManifest = {
 export type QbankAnswer = "A" | "B" | "C" | "D" | "E";
 export type QbankSelection = QbankAnswer | QbankAnswer[];
 
+export type RelatedTheoryDocument = {
+  type: "disease" | "cc";
+  slug: string;
+  title: string;
+  category?: string;
+};
+
 export type QbankQuestion = {
   gradingMode?: "single" | "multiple-exact" | "multiple-any" | "all-credit";
   acceptedAnswers?: QbankAnswer[];
