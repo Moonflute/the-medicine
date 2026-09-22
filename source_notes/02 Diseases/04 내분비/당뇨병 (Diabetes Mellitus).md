@@ -140,6 +140,3 @@ review_status: "guideline_enriched"
 - [[저혈당 (Hypoglycemia)]]
 - [[제1형 당뇨병 (Type 1 Diabetes Mellitus)]]
 - [[제2형 당뇨병 (Type 2 Diabetes Mellitus)]]
-
-
-보완 출처: 삼성서울병원 메뉴얼. [ADA Standards of Care in Diabetes 2026](https://professional.diabetes.org/standards-of-care), [대한당뇨병학회 2025 제9판 진료지침](https://diabetes.or.kr/bbs/?code=guide)을 대조. 2026-09-14 기존 목차 내 보완.
