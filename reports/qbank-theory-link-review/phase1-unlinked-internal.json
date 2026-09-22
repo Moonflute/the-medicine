@@ -1,0 +1,476 @@
+[
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0094",
+    "payloadHash": "18f51d6d7398b6de3d6b7255eb9ed8c1",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "문항의 핵심은 심정지 후 자발순환 회복 환자의 표적체온관리 목표와 유지 시간이다. 현재 카탈로그에는 심정지 후 치료 또는 표적체온관리 개별 문서가 없으며, 대표문서인 응급의학을 연결하면 범위가 지나치게 넓어진다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "심정지 후 치료 및 표적체온관리",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0104",
+    "payloadHash": "71e99b5ccc936c910f5aa4cc78a6611b",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "여러 소화기 내시경 시술에서 예방적 항생제 적응증을 비교하는 술기·감염예방 문항이다. 보기의 간경변, 췌장 낭종, 식도 협착은 비교 대상일 뿐 특정 질환 이론으로 연결할 근거가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "소화기 내시경의 예방적 항생제",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0208",
+    "payloadHash": "435d933fe7c33975f783069b018b34c1",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDUg7Iug7J6lL-uLqOuwseuHqC5tZA",
+        "title": "단백뇨",
+        "category": "05 신장"
+      }
+    ],
+    "action": "add",
+    "rationale": "24시간 소변 단백 정량을 위한 정확한 채취법을 묻는 문항으로, 단백뇨의 평가 과정과 직접 연결된다. 기립성 단백뇨처럼 특정 원인 문서보다 단백뇨 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0255",
+    "payloadHash": "5ffd512f4d376a3027a02676e5aba0f3",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "BMI와 동반질환에 따른 비만대사수술 적응증을 묻는다. 카탈로그에 비만 또는 비만대사수술 문서가 없고, 당뇨병·고혈압은 없다고 명시된 배제 조건이므로 이들 문서에 연결하면 안 된다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "비만 및 비만대사수술 적응증",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0257",
+    "payloadHash": "68b75f9a33b313e3c7b9119ea0e7bd8a",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k",
+        "type": "drug",
+        "title": "ImipenemCilastatin"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ",
+        "title": "대장균 (E. coli)",
+        "category": "08 감염"
+      }
+    ],
+    "action": "add",
+    "rationale": "설사 환자의 E. coli 감수성 결과에서 ESBL 양상을 판독하고 카바페넴을 선택하는 문항이다. 특정 병원체가 확정되어 있으므로 가장 좁은 대장균 문서가 적절하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0312",
+    "payloadHash": "fc31b5221b62233cf15d8b1cf54f9395",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "Venturi mask 등 산소 전달 장치의 유량 체계와 고정 FiO2를 구분하는 문항이다. 특정 질환이나 증상 접근 문항이 아니므로 호흡기 질환을 임의로 연결하지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "산소요법 및 산소 전달 장치",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0329",
+    "payloadHash": "a559a861d9ec244055f73140367b752e",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "기관지로 잘못 삽입된 비위관을 영상으로 확인하고 즉시 제거하는 술기 안전 문항이다. 대장암과 장폐색은 비위관을 사용하게 된 배경일 뿐 정답 개념이 아니다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "비위관 삽입 및 위치 확인",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0330",
+    "payloadHash": "70c631d9aee434617cfb9da0eb463a3a",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "복부 신체진찰의 순서 자체를 묻는 일반 진찰 문항이며 특정 질환·CC와 연결할 수 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "복부 진찰",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0333",
+    "payloadHash": "1fea6057235c3c5ea86fa5d5c9b53434",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "점막피부 색소침착과 과오종성 용종을 근거로 Peutz-Jeghers syndrome을 진단하는 문항이다. 카탈로그에 해당 개별 문서가 없고 FAP·HNPCC는 오답 감별 대상이므로 대신 연결하면 안 된다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "포이츠-예거 증후군 (Peutz-Jeghers Syndrome)",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0348",
+    "payloadHash": "352dda7dd39239f5224d73a51c247c47",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "고도 요독 환자에서 급격한 혈액투석 직후 발생한 신경학적 악화로 투석불균형증후군을 진단하는 문항이다. 만성 콩팥병은 배경질환이고 현재 카탈로그에는 이 합병증의 개별 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "투석불균형증후군 (Dialysis Disequilibrium Syndrome)",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0353",
+    "payloadHash": "03921650b9b21bd5815d0c79c9e71aab",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k",
+        "type": "drug",
+        "title": "ImipenemCilastatin"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA",
+        "title": "급성 신우신염 (Acute Pyelonephritis)",
+        "category": "05 신장"
+      },
+      {
+        "type": "disease",
+        "slug": "MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ",
+        "title": "대장균 (E. coli)",
+        "category": "08 감염"
+      }
+    ],
+    "action": "add",
+    "rationale": "발열·옆구리통증과 요·혈액배양 E. coli는 급성 신우신염에 합당하고, 정답 선택은 ESBL 생성 대장균의 항균제 치료에 달려 있다. 질환과 원인균이 모두 문제 핵심이므로 두 개별 문서를 연결한다.",
+    "confidence": "high",
+    "flags": ["existing-drug-link-review"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0383",
+    "payloadHash": "d41a3d410a39b8909be1b9863894aa74",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "산소 전달 장치별 권장 유량을 묻는 장비·산소요법 문항이다. 저산소혈증은 산소 투여의 전제일 뿐 특정 CC의 감별·접근을 묻지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "산소요법 및 산소 전달 장치",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0394",
+    "payloadHash": "3aca7d3a36ddd55289d0f128ec40e229",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA",
+        "type": "drug",
+        "title": "Vancomycin"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ",
+        "title": "포도알균 감염 (Staphylococcal Infection)",
+        "category": "08 감염"
+      }
+    ],
+    "action": "add",
+    "rationale": "coagulase 양성 포도알균과 oxacillin 내성으로 MRSA를 판정하고 vancomycin을 선택하는 문항이다. 광범위한 폐렴 대표문서보다 원인균과 내성 해석을 다루는 포도알균 감염 문서가 더 좁고 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0401",
+    "payloadHash": "07e48c1181ae0fd4c90858737ea1c4af",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k",
+        "type": "drug",
+        "title": "Labetalol"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+        "title": "임신성고혈압 (Gestational Hypertension)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "임신 중 고혈압 약제 선택과 ACE 억제제 금기를 묻는다. 일반 고혈압보다 임신 중 고혈압 치료를 포함하는 산과 문서가 임상 맥락에 더 가깝다.",
+    "confidence": "medium",
+    "flags": ["diagnostic-scope-ambiguous", "current-drug-is-distractor"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0407",
+    "payloadHash": "1e56e21dd45ae3f08730fcf1eb5b7685",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trgq3slZQgKEdhbGxibGFkZGVyIENhbmNlcikubWQ",
+        "title": "담낭암 (Gallbladder Cancer)",
+        "category": "03 소화기"
+      }
+    ],
+    "action": "add",
+    "rationale": "담낭절제 후 우연히 발견된 점막 국한 담낭암의 병기별 추가 수술 여부를 묻는 문항으로 담낭암 개별 문서와 직접 일치한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0408",
+    "payloadHash": "1aecee50810fc60a9ddb881d755d3cb2",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "청진기의 구조와 정상·비정상 호흡음 원리를 묻는 흉부 신체진찰 문항이다. 보기에서 언급한 폐경화·흉수는 오답 설명의 예시이므로 질환 연결 대상으로 삼지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "흉부 진찰 및 호흡음",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0422",
+    "payloadHash": "2ebc3200f4d30b8a07a779f9a2affbfd",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SZXBhZ2xpbmlkZS5tZA",
+        "type": "drug",
+        "title": "Repaglinide"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+        "title": "제2형 당뇨병 (Type 2 Diabetes Mellitus)",
+        "category": "04 내분비"
+      }
+    ],
+    "action": "add",
+    "rationale": "경구 혈당강하제 중 insulin secretagogue의 단독 저혈당 위험을 묻는다. 약제군이 주로 사용되는 제2형 당뇨병 문서가 당뇨병 전체 대표문서보다 좁고 실용적이다.",
+    "confidence": "medium",
+    "flags": ["inferred-type-2-diabetes"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2019-0018",
+    "payloadHash": "50bd291ef431dbd9b14086f2ef36c241",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "노인의 낙상 위험 선별에서 과거력을 우선 확인하는 원칙을 묻는다. 폐렴은 입원 배경일 뿐 연결 대상이 아니며 카탈로그에 노인 낙상 평가 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "노인 낙상 위험 평가",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2019-0020",
+    "payloadHash": "29da110bf160c0a94ebf94f501cd3992",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA",
+        "type": "drug",
+        "title": "Warfarin"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "와파린 복용 중 출혈 경향에서 PT/INR을 확인하는 약물 모니터링 문항이다. 심방세동은 약물 복용의 배경이고 혈소판·응고인자 질환을 진단하는 문항도 아니므로 별도 질환 연결을 강제하지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "항응고제 모니터링 및 와파린 과항응고",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2021-0026",
+    "payloadHash": "2a97092c50e76c3109f0b381d34e609c",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDgg6rCQ7Je8L-y9lOuhnOuCmOuwlOydtOufrOyKpOqwkOyXvOymnS0xOSAoQ09WSUQtMTkpLm1k",
+        "title": "코로나바이러스감염증-19 (COVID-19)",
+        "category": "08 감염"
+      }
+    ],
+    "action": "add",
+    "rationale": "SARS-CoV-2 비인두 검체 채취 시 필요한 PPE를 묻는 COVID-19 감염관리 문항이다. 뇌졸중과 고혈압은 내원 배경이므로 연결하지 않는다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2022-0030",
+    "payloadHash": "95c3c060260b1a80278b94b94a4cd518",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "포괄적 노인평가에서 IADL 항목을 구분하는 기능평가 문항이다. 골절은 퇴원 전 평가의 배경일 뿐이며 현재 카탈로그에 ADL/IADL 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "포괄적 노인평가와 ADL/IADL",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2023-0030",
+    "payloadHash": "bb023378ebba9224b0564cb4106767a1",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "반복 낙상과 보행 불안정이 있는 노인에서 Timed Up and Go Test를 선택하는 낙상 평가 문항이다. 고혈압과 당뇨병은 병력일 뿐 정답 판단의 핵심이 아니다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "노인 낙상 위험 평가",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2024-0016",
+    "payloadHash": "f773bee29f5926f9777ad01cc6db597b",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "cc",
+        "slug": "7JiI67Cp7KCR7KKF",
+        "title": "예방접종",
+        "category": "10 소아"
+      }
+    ],
+    "action": "add",
+    "rationale": "고령자의 PPSV23·PCV13 순차 접종 간격을 묻는 성인 예방접종 일정 문항이다. 특정 폐렴 질환의 진단·치료가 아니라 예방접종 접근 자체가 핵심이므로 예방접종 CC가 가장 적절하다.",
+    "confidence": "high",
+    "flags": ["catalog-category-pediatric-for-adult-topic"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2025-0002",
+    "payloadHash": "45ec39305f4283373479f3ed3b45d18a",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDcg66WY66eI7Yuw7IqkL-yErOycoOq3vO2GtSAoRmlicm9teWFsZ2lhKS5tZA",
+        "title": "섬유근통 (Fibromyalgia)",
+        "category": "07 류마티스"
+      }
+    ],
+    "action": "add",
+    "rationale": "정상 염증수치·근효소와 근력저하 부재를 바탕으로 섬유근통을 진단하는 문항이다. 감별 보기의 염증성 근육병·척추관절염·혈관염은 오답이므로 연결하지 않고 가장 구체적인 섬유근통 문서만 연결한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2025-0004",
+    "payloadHash": "15c7bf842f0c1790f234591e4a3a4583",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ",
+        "type": "drug",
+        "title": "Metformin"
+      },
+      {
+        "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k",
+        "type": "drug",
+        "title": "Atorvastatin"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "정상 신기능 환자에서 정맥 요오드 조영제와 metformin 관리 원칙을 묻는 검사·약물 안전 문항이다. 실제 AKI나 CKD가 없으므로 해당 질환 문서를 연결하면 부정확하다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "요오드 조영제와 메트포민 관리",
+    "flags": ["incidental-drug-link"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2025-0010",
+    "payloadHash": "6480ec07c83f7e686a36fd56637d089a",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+        "type": "drug",
+        "title": "Ceftriaxone"
+      },
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA",
+        "type": "drug",
+        "title": "Metronidazole"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "치과 시술 뒤 발생한 ring-enhancing lesion을 뇌농양으로 진단하고 경험적 항생제를 고르는 문항이다. 카탈로그에 뇌농양 개별 문서가 없으며 뇌수막염이나 다른 부위 농양 문서는 대체할 수 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "뇌농양 (Brain Abscess)",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2026-0004",
+    "payloadHash": "e1dcb0faebaa07774313ccf5d276e4b5",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k",
+        "type": "drug",
+        "title": "Cefazolin"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "감염 상태를 알 수 없는 노출원에 대한 주사침 손상 후 HBV·HIV 등 노출후 예방을 묻는다. 특정 감염이 진단된 것이 아니므로 HBV·HIV 문서를 연결하면 안 되며, 카탈로그에 직업성 혈액노출 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "주사침 손상 및 혈액매개감염 노출후 예방",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2026-0006",
+    "payloadHash": "81843d593800416d8c5a6cc95a7dea98",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k",
+        "type": "drug",
+        "title": "Cefazolin"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "대장수술에서 예방적 항생제를 피부 절개 전 60분 이내 투여하는 원칙을 묻는다. 대장암은 수술의 배경이고 암의 이론을 묻지 않으므로 연결하지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "수술 예방적 항생제",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-Y2026-0029",
+    "payloadHash": "f56a2726358e31e2098790b10a143bbd",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "사전연명의료의향서가 있는 말기 환자의 임종기 호흡과 분비물 소견을 인지하고 임종 돌봄을 계획하는 문항이다. 폐암과 뇌전이는 임종 상황의 배경이며 종양 치료 문항이 아니다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "임종 돌봄 및 연명의료 결정",
+    "flags": []
+  }
+]

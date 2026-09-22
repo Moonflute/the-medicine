@@ -1,0 +1,508 @@
+[
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0001",
+    "payloadHash": "d381de6c988677411419145931cc10b1",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL-u2gOygleunpS5tZA", "type": "disease", "title": "부정맥" }],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "제세동 직후 즉시 흉부압박을 재개하는 심정지 소생술 순서를 묻는다. 부정맥 일반론은 범위가 지나치게 넓고 카탈로그에 심정지·기본소생술 개별 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "심정지 및 기본소생술",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0002",
+    "payloadHash": "af8e1a7b4ddf5b0d1ecb0d159fa829aa",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k", "type": "disease", "title": "발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k", "title": "발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)", "category": "01 순환기" }],
+    "action": "keep",
+    "rationale": "미주신경 자극에 반응하지 않은 안정형 PSVT의 다음 치료로 아데노신을 고르는 문항이므로 현재 개별 질환 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0003",
+    "payloadHash": "9f07b4bf5467e68b8e3cf16a4024ccc4",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k", "type": "disease", "title": "심방 조동-세동 (Atrial Flutter-Fibrillation)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k", "title": "심방 조동-세동 (Atrial Flutter-Fibrillation)", "category": "01 순환기" }],
+    "action": "keep",
+    "rationale": "심방세동 환자의 뇌졸중 위험 평가와 항응고제 선택이 핵심이므로 심방 조동-세동 문서가 직접 대응한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0004",
+    "payloadHash": "8886987ffaa8976b375521a6c06c866c",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k", "type": "disease", "title": "급성 심부전 (Acute Heart Failure)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k", "title": "급성 심부전 (Acute Heart Failure)", "category": "01 순환기" }],
+    "action": "keep",
+    "rationale": "저혈압과 폐울혈을 동반한 급성 심부전에서 수축력 증강제를 선택하는 문항으로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0005",
+    "payloadHash": "51cf8558e98863d56f6a0d454cb01ad6",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ", "type": "disease", "title": "허혈성 심질환" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL-u2iOyViOyglSDtmJHsi6zspp0gKFVuc3RhYmxlIEFuZ2luYSkubWQ", "title": "불안정 협심증 (Unstable Angina)", "category": "01 순환기" }],
+    "action": "replace",
+    "rationale": "안정 시에도 발생하는 흉통, ST 하강, 정상 심근효소로 불안정 협심증을 진단하고 관상동맥조영술을 결정하는 문항이다. 상위 허혈성 심질환보다 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0006",
+    "payloadHash": "ab1bbc6625cd4e5f2cb93e6c8d837b5a",
+    "currentDocuments": [{ "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA", "type": "disease", "title": "당뇨병성 콩팥병증 (Diabetic Nephropathy)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA", "title": "당뇨병성 콩팥병증 (Diabetic Nephropathy)", "category": "04 내분비" }],
+    "action": "keep",
+    "rationale": "당뇨병성 단백뇨와 고혈압에서 ACE 억제제의 신보호 효과를 묻는 문항이므로 현재 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0007",
+    "payloadHash": "436b7e7b95cc55fa30fcebbc75b54127",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA", "type": "disease", "title": "대동맥 박리 (Aortic Dissection)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA", "title": "대동맥 박리 (Aortic Dissection)", "category": "01 순환기" }],
+    "action": "keep",
+    "rationale": "대동맥 박리의 초기 혈압·심박수 조절을 묻는 문항이므로 현재 문서가 직접 대응한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0008",
+    "payloadHash": "ded07145ed873196bb27639a71e731a3",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ", "type": "disease", "title": "상부 위장관 출혈 (Upper Gastrointestinal Tract)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ", "title": "상부 위장관 출혈 (Upper Gastrointestinal Tract)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "비정맥류성 상부 위장관 출혈이 내시경 지혈 뒤 재출혈했을 때의 다음 처치를 묻는 문항으로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0009",
+    "payloadHash": "b0974b948ed6c2d95cd07989988c9e73",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA", "type": "disease", "title": "식도암 (Esophageal Cancer)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA", "title": "식도암 (Esophageal Cancer)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "국소 진행성 식도암의 치료 전략을 묻는 문항이므로 식도암 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0010",
+    "payloadHash": "41a4abc308740e54e0e26a3f320f154d",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ", "type": "disease", "title": "PUD" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ", "title": "PUD", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "NSAID를 계속 사용해야 하는 활동성 소화성 궤양 환자의 PPI 병용을 묻는 문항이므로 PUD 문서가 직접 대응한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0011",
+    "payloadHash": "13f11363bf19d18d3a7c090436df3933",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA", "type": "disease", "title": "위암 (Gastric Cancer)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA", "title": "위암 (Gastric Cancer)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "전이성 위암에 의한 위출구 폐쇄의 완화 치료를 묻는 문항으로 위암 문서가 적절하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0012",
+    "payloadHash": "5611f0dbcbf904686608dd38e5f10a29",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg6riw7KeIIOyiheyWkSAoR0lTVCkgKEdhc3Ryb2ludGVzdGluYWwgU3Ryb21hbCBUdW1vcikubWQ", "type": "disease", "title": "위장관 기질 종양 (GIST) (Gastrointestinal Stromal Tumor)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg6riw7KeIIOyiheyWkSAoR0lTVCkgKEdhc3Ryb2ludGVzdGluYWwgU3Ryb21hbCBUdW1vcikubWQ", "title": "위장관 기질 종양 (GIST) (Gastrointestinal Stromal Tumor)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "절제 가능한 위 GIST의 수술 범위를 묻는 문항이므로 현재 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0013",
+    "payloadHash": "553e7066f38848a8c02ea6a895200d8e",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k", "type": "disease", "title": "크론병 (CD) (Crohn's Disease (CD))" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k", "title": "크론병 (CD) (Crohn's Disease (CD))", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "크론병의 섬유성 협착과 장폐색에 대한 수술 적응증을 묻는 문항이므로 크론병 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0014",
+    "payloadHash": "fc45a6c6223d909425397f86d1fcb3a0",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ", "type": "disease", "title": "궤양성 대장염 (UC) (Ulcerative Colitis)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ", "title": "궤양성 대장염 (UC) (Ulcerative Colitis)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "궤양성 대장염의 중증 합병증인 독성 거대결장과 응급 수술을 묻는다. 독성 거대결장 개별 문서는 없지만 원질환과 합병증 관리가 포함되는 UC 문서가 가장 적절하다.",
+    "confidence": "high",
+    "flags": ["exact-subtype-document-missing"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0015",
+    "payloadHash": "624a01636f8cd1046d0b338bcfb3e9a7",
+    "currentDocuments": [{ "slug": "MTEg7Jm46rO8L-yepeujqCDso7zsnIQg7YOI7J6lIChQYXJhc3RvbWFsIEhlcm5pYSkubWQ", "type": "disease", "title": "장루 주위 탈장 (Parastomal Hernia)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MTEg7Jm46rO8L-yepeujqCDso7zsnIQg7YOI7J6lIChQYXJhc3RvbWFsIEhlcm5pYSkubWQ", "title": "장루 주위 탈장 (Parastomal Hernia)", "category": "11 외과" }],
+    "action": "keep",
+    "rationale": "장루 주위 탈장의 진단과 처치를 묻는 문항이므로 현재 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0016",
+    "payloadHash": "0e0a2315ac7729c66ee865b3d6a69e16",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ", "type": "disease", "title": "장폐색" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ", "title": "장폐색", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "유착성 소장폐색의 초기 비수술적 감압 치료를 묻는 문항으로 장폐색 문서가 직접 대응한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0017",
+    "payloadHash": "27d1e936a87e3d04663cdcaba8836e30",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA", "type": "disease", "title": "게실염 (Diverticulitis)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA", "title": "게실염 (Diverticulitis)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "합병증 없는 급성 게실염의 진단과 치료가 핵심이므로 현재 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0018",
+    "payloadHash": "ae9b1c31501e5c73a711fceb8eedd957",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rgrTsuZjtlbUgKEludGVybmFsIEhlbW9ycmhvaWQpLm1k", "type": "disease", "title": "내치핵 (Internal Hemorrhoid)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_smbjsuZjtlbUgKEV4dGVybmFsIEhlbW9ycmhvaWQpLm1k", "title": "외치핵 (External Hemorrhoid)", "category": "03 소화기" }],
+    "action": "replace",
+    "rationale": "통증을 동반한 항문 주위 종괴와 정답이 외치핵을 가리키므로 내치핵 연결을 외치핵 개별 문서로 교체해야 한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0019",
+    "payloadHash": "c3a81d6feb48addd30b2b692484e8c74",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7JO46rCc7Je8IChBY3V0ZSBDaG9sZWN5c3RpdGlzKS5tZA", "type": "disease", "title": "급성 쓸개염 (Acute Cholecystitis)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7JO46rCc7Je8IChBY3V0ZSBDaG9sZWN5c3RpdGlzKS5tZA", "title": "급성 쓸개염 (Acute Cholecystitis)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "담낭벽 내 공기를 보이는 기종성 담낭염과 응급 수술을 묻는다. 기종성 아형 문서는 없고 급성 쓸개염 문서가 가장 직접적인 기존 문서다.",
+    "confidence": "high",
+    "flags": ["exact-subtype-document-missing"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0020",
+    "payloadHash": "02037f33830ec8b75b668343ed81f2ab",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trgq3slZQgKEdhbGxibGFkZGVyIENhbmNlcikubWQ", "type": "disease", "title": "담낭암 (Gallbladder Cancer)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trgq3slZQgKEdhbGxibGFkZGVyIENhbmNlcikubWQ", "title": "담낭암 (Gallbladder Cancer)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "담낭절제술 뒤 우연히 발견된 T1a 담낭암의 추가 치료 여부를 묻는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0021",
+    "payloadHash": "1a5f8fa7a82a10a55e4944bce3a37f47",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIDrj4wgKENvbW1vbiBCaWxlIER1Y3QgU3RvbmUpLm1k", "type": "disease", "title": "쓸개관돌 (Common Bile Duct Stone)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIDrj4wgKENvbW1vbiBCaWxlIER1Y3QgU3RvbmUpLm1k", "title": "쓸개관돌 (Common Bile Duct Stone)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "총담관 결석에 의한 담관염에서 ERCP를 선택하는 문항으로 현재 쓸개관돌 문서가 직접 대응한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0022",
+    "payloadHash": "690a8425f5a8df0fb60d0574c3552574",
+    "currentDocuments": [{ "slug": "MTEg7Jm46rO8L-uLtOuPhCDshpDsg4EgKEJpbGUgRHVjdCBJbmp1cnkpLm1k", "type": "disease", "title": "담도 손상 (Bile Duct Injury)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MTEg7Jm46rO8L-uLtOuPhCDshpDsg4EgKEJpbGUgRHVjdCBJbmp1cnkpLm1k", "title": "담도 손상 (Bile Duct Injury)", "category": "11 외과" }],
+    "action": "keep",
+    "rationale": "복강경 담낭절제술 뒤 클립에 의한 담도 폐쇄·협착의 치료를 묻는 문항으로 담도 손상 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0023",
+    "payloadHash": "157037e7aa25455310d0d1fb5b20ae68",
+    "currentDocuments": [{ "slug": "MDIg7Zi47Z2h6riwL-yynOyLnSAoQXN0aG1hKS5tZA", "type": "disease", "title": "천식 (Asthma)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA", "title": "천식", "category": "02 호흡기" }],
+    "action": "replace",
+    "rationale": "조절되지 않는 천식의 단계적 흡입 스테로이드 치료를 묻는 문항이다. 현재 slug는 카탈로그 개편 전 경로이므로 현행 천식 정본 문서로 교체한다.",
+    "confidence": "high",
+    "flags": ["stale-current-slug"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0024",
+    "payloadHash": "ae0680a63ddc45bd80b93c08d25ed6b5",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA", "type": "disease", "title": "췌장암 (Pancreatic Cancer)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA", "title": "췌장암 (Pancreatic Cancer)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "무통성 폐쇄성 황달과 Courvoisier 징후로 췌장두부암을 판단하는 문항이므로 췌장암 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0025",
+    "payloadHash": "15aed8a59e7b98b7fbad171bab6a61da",
+    "currentDocuments": [{ "slug": "MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA", "type": "disease", "title": "기립성 단백뇨 (Orthostatic Proteinuria)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA", "title": "기립성 단백뇨 (Orthostatic Proteinuria)", "category": "05 신장" }],
+    "action": "keep",
+    "rationale": "청소년에서 체위에 따라 달라지는 단백뇨를 진단하는 문항이므로 현재 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0026",
+    "payloadHash": "256a5adb27b4174b05c90b78c3b8b37c",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA", "type": "disease", "title": "췌장암 (Pancreatic Cancer)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA", "title": "췌장암 (Pancreatic Cancer)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "이중관 징후와 폐쇄성 황달을 보이는 췌장두부 악성 종양의 수술을 묻는 문항으로 췌장암 문서가 가장 적절하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0027",
+    "payloadHash": "faaa01d92a3536058079d21afa5b7fda",
+    "currentDocuments": [{ "slug": "MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k", "type": "disease", "title": "폐암 (Lung Cancer)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k", "title": "폐암 (Lung Cancer)", "category": "02 호흡기" }],
+    "action": "keep",
+    "rationale": "Golden S 징후를 보이는 기관지성 폐암의 진단 접근을 묻는 문항이므로 폐암 문서가 적절하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0028",
+    "payloadHash": "434fd5539a3e9754bed76415b6f57e31",
+    "currentDocuments": [{ "slug": "MDIg7Zi47Z2h6riwL-qysO2VteyEsSDtnYnrp4nsl7wgKFR1YmVyY3Vsb3VzIFBsZXVyaXN5KS5tZA", "type": "disease", "title": "결핵성 흉막염 (Tuberculous Pleurisy)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDIg7Zi47Z2h6riwL-qysO2VteyEsSDtnYnrp4nsl7wgKFR1YmVyY3Vsb3VzIFBsZXVyaXN5KS5tZA", "title": "결핵성 흉막염 (Tuberculous Pleurisy)", "category": "02 호흡기" }],
+    "action": "keep",
+    "rationale": "림프구 우세 삼출액과 높은 ADA로 결핵성 흉막염을 진단하는 문항이므로 현재 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0029",
+    "payloadHash": "d7b0aa3096da7ca693aa79059ab21f59",
+    "currentDocuments": [{ "slug": "MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA", "type": "disease", "title": "갑상샘 결절 (Thyroid Nodule)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA", "title": "갑상샘 결절 (Thyroid Nodule)", "category": "04 내분비" }],
+    "action": "keep",
+    "rationale": "악성 의심 갑상샘 결절의 미세침흡인검사 적응증을 묻는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0030",
+    "payloadHash": "1932416ec981c95720197f2fd985580a",
+    "currentDocuments": [{ "slug": "MDUg7Iug7J6lL-y9qe2MpeyEuOq0gCDsgrDspp0gMe2YlSAoUmVuYWwgVHVidWxhciBBY2lkb3NpcyBUeXBlIDEpLm1k", "type": "disease", "title": "콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDUg7Iug7J6lL-y9qe2MpeyEuOq0gCDsgrDspp0gMe2YlSAoUmVuYWwgVHVidWxhciBBY2lkb3NpcyBUeXBlIDEpLm1k", "title": "콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)", "category": "05 신장" }],
+    "action": "keep",
+    "rationale": "정상 음이온차 대사산증, 양성 소변 음이온차, 저칼륨혈증으로 원위부 1형 RTA를 진단하는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0031",
+    "payloadHash": "a02eb3d5f1f75f725b0c823349473433",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k", "type": "disease", "title": "급성 췌장염 (Acute Pancreatitis)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k", "title": "급성 췌장염 (Acute Pancreatitis)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "고중성지방혈증성 급성 췌장염에서 경구 식이를 재개할 시점을 묻는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0032",
+    "payloadHash": "73d27c07e3b59868f06f29a4fdf10991",
+    "currentDocuments": [{ "slug": "MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA", "type": "disease", "title": "긴장성 기흉 (Tension Pneumothorax)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA", "title": "긴장성 기흉 (Tension Pneumothorax)", "category": "02 호흡기" }],
+    "action": "keep",
+    "rationale": "저혈압과 영상상 종격 이동을 동반한 긴장성 기흉의 즉각적 흉관 삽입을 묻는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": ["image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0033",
+    "payloadHash": "41e0d7f414a33f4181c07342c47ac37f",
+    "currentDocuments": [{ "slug": "MDUg7Iug7J6lL0lnQSDsvantjKXrs5Hspp0gKElnQU4pIChJZ0EgTmVwaHJvcGF0aHkpLm1k", "type": "disease", "title": "IgA 콩팥병증 (IgAN) (IgA Nephropathy)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDUg7Iug7J6lL0lnQSDsvantjKXrs5Hspp0gKElnQU4pIChJZ0EgTmVwaHJvcGF0aHkpLm1k", "title": "IgA 콩팥병증 (IgAN) (IgA Nephropathy)", "category": "05 신장" }],
+    "action": "keep",
+    "rationale": "상기도 감염 수일 내 반복되는 육안적 혈뇨로 IgA 콩팥병증을 진단하는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0034",
+    "payloadHash": "252d0fcf92a82623c71df465870c8b8b",
+    "currentDocuments": [{ "slug": "MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ", "type": "disease", "title": "말단비대증 (Acromegaly)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ", "title": "말단비대증 (Acromegaly)", "category": "04 내분비" }],
+    "action": "keep",
+    "rationale": "말단비대증의 확진을 위한 경구당부하 후 성장호르몬 억제 검사를 묻는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0035",
+    "payloadHash": "9565f108df7b8ec552e0055e0b811e46",
+    "currentDocuments": [{ "slug": "MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k", "type": "disease", "title": "제2형 당뇨병 (Type 2 Diabetes Mellitus)" }],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "체중 증가, 말초부종, 간독성이라는 부작용으로 rosiglitazone을 식별하는 약리 문항이다. 제2형 당뇨병 질환 문서는 지나치게 넓고 카탈로그에 티아졸리딘디온 계열 약물 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "티아졸리딘디온 계열 약물",
+    "flags": ["drug-topic"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0036",
+    "payloadHash": "02e05ed4c3c9585d4afb71703e20de42",
+    "currentDocuments": [{ "slug": "MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ", "type": "disease", "title": "포도알균 감염 (Staphylococcal Infection)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ", "title": "포도알균 감염 (Staphylococcal Infection)", "category": "08 감염" }],
+    "action": "keep",
+    "rationale": "음식 섭취 4시간 뒤 급성 구토가 발생한 포도알균 장독소 식중독을 식별하는 문항으로 포도알균 감염 문서가 가장 구체적이다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0037",
+    "payloadHash": "8329336797336f470898243cbcba860a",
+    "currentDocuments": [{ "slug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k", "type": "disease", "title": "당뇨병 (Diabetes Mellitus)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k", "title": "당뇨병 (Diabetes Mellitus)", "category": "04 내분비" }],
+    "action": "keep",
+    "rationale": "입원 중 basal-bolus 인슐린 용량을 공복혈당에 따라 조절하는 당뇨병 관리 문항이므로 당뇨병 문서가 적절하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0038",
+    "payloadHash": "cfce68d1092476fdd5dd733587da3977",
+    "currentDocuments": [{ "slug": "MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA", "type": "disease", "title": "철 결핍 빈혈 (Iron Deficiency Anemia)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA", "title": "철 결핍 빈혈 (Iron Deficiency Anemia)", "category": "09 혈액" }],
+    "action": "keep",
+    "rationale": "소구성 저색소성 빈혈과 말초도말로 철 결핍 빈혈을 진단하고 철분 치료를 고르는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0039",
+    "payloadHash": "5a0e5222ecbc9e9ce2c43a0f28c63a87",
+    "currentDocuments": [{ "slug": "MTAg7KKF7JaRL-u2gOyiheyWkSDspp3tm4TqtbAgKFBhcmFuZW9wbGFzdGljIFN5bmRyb21lKS5tZA", "type": "disease", "title": "부종양 증후군 (Paraneoplastic Syndrome)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDQg64K067aE67mEL-2VreydtOuHqO2YuOultOuqrCDrtoDsoIHsoIgg67aE67mEIOymne2bhOq1sCAoU0lBREgpIChTeW5kcm9tZSBvZiBJbmFwcHJvcHJpYXRlIEFudGlkaXVyZXRpYyBIb3Jtb25lIFNlY3JldGlvbiAoU0lBREgpKS5tZA", "title": "항이뇨호르몬 부적절 분비 증후군 (SIADH) (Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH))", "category": "04 내분비" }],
+    "action": "replace",
+    "rationale": "저삼투압성 정상혈량 저나트륨혈증, 높은 요삼투압과 요나트륨으로 SIADH를 진단하고 치료하는 문항이다. 원인인 부종양 증후군보다 SIADH 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0040",
+    "payloadHash": "4d7873ab782a4510f4f548c63f9e032a",
+    "currentDocuments": [{ "slug": "MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k", "type": "disease", "title": "아나필락시스 (Anaphylaxis)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k", "title": "아나필락시스 (Anaphylaxis)", "category": "06 알레르기" }],
+    "action": "keep",
+    "rationale": "약물 투여 직후 저혈압, 천명, 피부 홍조가 발생한 아나필락시스에서 근육주사 에피네프린을 고르는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0041",
+    "payloadHash": "e158a736a38dac4a6322fd1b3cd9d27b",
+    "currentDocuments": [{ "slug": "MTAg7KKF7JaRL-u2gOyiheyWkSDspp3tm4TqtbAgKFBhcmFuZW9wbGFzdGljIFN5bmRyb21lKS5tZA", "type": "disease", "title": "부종양 증후군 (Paraneoplastic Syndrome)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ", "title": "고칼슘혈증 (Hypercalcemia)", "category": "04 내분비" }],
+    "action": "replace",
+    "rationale": "의식저하를 동반한 중증 고칼슘혈증에서 생리식염수로 초기 치료하는 문항이다. 종양은 원인이므로 부종양 증후군보다 고칼슘혈증 문서가 직접적인 학습 목표다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0042",
+    "payloadHash": "ca24aa35186e6e3e754f7a8583903d18",
+    "currentDocuments": [{ "slug": "MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA", "type": "disease", "title": "류마티스 관절염 (Rheumatoid Arthritis)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA", "title": "류마티스 관절염 (Rheumatoid Arthritis)", "category": "07 류마티스" }],
+    "action": "keep",
+    "rationale": "대칭성 소관절 다발관절염, 장시간 아침강직, anti-CCP 양성으로 류마티스 관절염을 진단하는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0043",
+    "payloadHash": "db8b93754d49b00a6c6e884b1fabb300",
+    "currentDocuments": [{ "slug": "MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ", "type": "disease", "title": "통풍 (Gout)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ", "title": "통풍 (Gout)", "category": "07 류마티스" }],
+    "action": "keep",
+    "rationale": "과음 뒤 발생한 급성 단관절염과 바늘 모양 결정으로 통풍 발작을 진단하고 NSAID 치료를 고르는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0044",
+    "payloadHash": "83fdc5f09183336093d81ebfe90f149b",
+    "currentDocuments": [{ "slug": "MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA", "type": "disease", "title": "두드러기 (Urticaria)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA", "title": "두드러기 (Urticaria)", "category": "06 알레르기" }],
+    "action": "keep",
+    "rationale": "기도 증상이나 혈역학적 이상이 없는 급성 음식 유발 두드러기에서 2세대 항히스타민제를 선택하는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0045",
+    "payloadHash": "e484dc28a675b2ff3c17856e913f716f",
+    "currentDocuments": [{ "slug": "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA", "type": "disease", "title": "폐렴" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA", "title": "폐렴", "category": "02 호흡기" }],
+    "action": "keep",
+    "rationale": "건강한 성인의 폐렴구균성 지역사회획득폐렴에서 경험적 항생제를 선택하는 문항이다. 폐렴구균성 폐렴 개별 문서는 없고 폐렴 문서가 적절한 범위다.",
+    "confidence": "high",
+    "flags": ["exact-subtype-document-missing"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0046",
+    "payloadHash": "0b73f8e470bc955143e07425ffd5e558",
+    "currentDocuments": [{ "slug": "MTEg7Jm46rO8L-yZuOqzvOyggSDrj4Tqtawg67CPIOqzte2GtSDtlITroZzthqDsvZwgKFN1cmdpY2FsIFRvb2xzIGFuZCBDb3JlIFByb3RvY29scykubWQ", "type": "disease", "title": "외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols)" }],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "무호흡·무반응 환자에서 맥박을 확인하고 C-A-B 순서로 진행하는 기본소생술 문항이다. 외과적 도구 문서는 관련이 없고 심정지·기본소생술 개별 문서가 카탈로그에 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "심정지 및 기본소생술",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0047",
+    "payloadHash": "d27276c3ab4b6e6032c12512088b21a5",
+    "currentDocuments": [{ "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ", "type": "disease", "title": "상부 위장관 출혈 (Upper Gastrointestinal Tract)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ", "title": "상부 위장관 출혈 (Upper Gastrointestinal Tract)", "category": "03 소화기" }],
+    "action": "keep",
+    "rationale": "반복 내시경 지혈에도 지속되는 십이지장 궤양 출혈에서 수술적 결찰과 날문성형술을 선택하는 문항으로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0048",
+    "payloadHash": "4bb95a4f1b1a6cfb7607395799eebab1",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL-uzgOydtO2YlSDtmJHsi6zspp0gKFZhcmlhbnQgQW5naW5hKS5tZA", "type": "disease", "title": "변이형 협심증 (Variant Angina)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL-uzgOydtO2YlSDtmJHsi6zspp0gKFZhcmlhbnQgQW5naW5hKS5tZA", "title": "변이형 협심증 (Variant Angina)", "category": "01 순환기" }],
+    "action": "keep",
+    "rationale": "새벽 흉통과 일과성 ST 변화가 있는 변이형 협심증에서 칼슘통로차단제를 선택하는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": ["image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0049",
+    "payloadHash": "e8270086b6044e9f752ded1db0a5ac7e",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ", "type": "disease", "title": "ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ", "title": "ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)", "category": "01 순환기" }],
+    "action": "keep",
+    "rationale": "하벽 ST 상승과 후벽의 거울상 변화를 판독해 하후벽 STEMI를 진단하는 문항이므로 STEMI 문서가 정확하다.",
+    "confidence": "high",
+    "flags": ["image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V01-IM-BANK-0050",
+    "payloadHash": "6e76bc3f531943b813d2a9d3fac1d1b4",
+    "currentDocuments": [{ "slug": "MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ", "type": "disease", "title": "ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)" }],
+    "proposedDocuments": [{ "type": "disease", "slug": "MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ", "title": "ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)", "category": "01 순환기" }],
+    "action": "keep",
+    "rationale": "전흉부 유도의 초급성 T파와 R파 소실로 전벽 STEMI를 진단하는 문항이므로 현재 문서가 정확하다.",
+    "confidence": "high",
+    "flags": ["image-dependent"]
+  }
+]

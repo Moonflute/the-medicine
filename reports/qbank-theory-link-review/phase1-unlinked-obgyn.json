@@ -1,0 +1,468 @@
+[
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0003",
+    "payloadHash": "f78edb5ee224d975253786d350bdb466",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "발프로산 노출 및 신경관결손 재발 고위험 여성의 임신 전 고용량 엽산 예방을 묻는다. 현재 카탈로그에는 신경관결손 또는 임신 전 엽산 예방 문서가 없고, 발프로산은 과거 노출 배경이므로 다른 신경계 질환 문서에 연결하지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "신경관결손 예방 및 임신 전 엽산 보충",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0086",
+    "payloadHash": "5980eb3f439a133b25b9e00ea342dadd",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "그림에서 회음부·항문괄약근·직장점막 손상 범위를 판독해 4도 회음열상으로 분류하는 문항이다. 산후출혈 대표문서는 범위가 넓고 회음열상 분류 자체를 대신하지 못한다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "산과적 회음열상 및 산도손상",
+    "flags": ["missing-exact-document", "image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0098",
+    "payloadHash": "42dc847b96f99a4be24da3a43a9a1542",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k",
+        "type": "drug",
+        "title": "Ethinylestradiol"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "배란기 에스트로겐과 자궁경관점액의 fern pattern을 묻는 정상 월경주기 생리 문항이다. 불임 문서에는 경관점액 검사가 언급되지만 이 문항은 불임 평가가 아니므로 질환 연결을 강제하지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "월경주기·배란 생리와 자궁경관점액 검사",
+    "flags": ["missing-exact-document", "existing-drug-link-review"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0122",
+    "payloadHash": "a6441ccddc81e00192051e22f9a39d0e",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg66qo7LK0IOuzgO2ZlCAoTWF0ZXJuYWwgQ2hhbmdlcyBEdXJpbmcgUHJlZ25hbmN5KS5tZA",
+        "title": "임신 중 모체 변화 (Maternal Changes During Pregnancy)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "임신 28주, 다른 출혈 소견 없이 혈소판 80,000/μL인 안정 환자에서 경과관찰을 선택하는 문항으로 임신 중 혈액학적 변화와 임신성 혈소판감소증 감별이 핵심이다. ITP는 확정되지 않았으므로 ITP 문서보다 모체 변화 문서가 임상 맥락에 가깝다.",
+    "confidence": "medium",
+    "flags": ["target-document-needs-gestational-thrombocytopenia-coverage"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0183",
+    "payloadHash": "588e97a880d27660c8662f0b9036507e",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "그림의 직장류를 확인하고 직장질중격 결손을 고르는 문항이다. 자궁 탈출은 골반장기탈출증의 다른 형태이므로 대신 연결하면 해부학적 진단이 부정확해진다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "골반장기탈출증 및 직장류",
+    "flags": ["missing-exact-document", "image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0187",
+    "payloadHash": "dea5e647a111ddf81d7ca807c542a050",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "모체 AFP 상승과 태아 초음파에서 두개골·뇌 조직 부재를 근거로 무뇌증을 진단한다. 다운증후군 등 다른 태아 이상은 감별 보기일 뿐이며 카탈로그에 무뇌증 또는 신경관결손 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "태아 신경관결손 및 무뇌증",
+    "flags": ["missing-exact-document", "image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0191",
+    "payloadHash": "318cc21069e5a675df97a878aafd993f",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "임신 6주에 우발적으로 시행한 단순 흉부 X선의 극저선량 노출을 상담하고 임신을 유지하는 원칙을 묻는다. 방사선 식도염은 전혀 다른 질환이며 현재 임신 중 진단 방사선 노출 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "임신 중 진단 방사선 노출과 상담",
+    "flags": ["missing-exact-document", "answer-explanation-wording-review"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0192",
+    "payloadHash": "e1c7dca9fd4374f91be92ec29295f08c",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "정상 분만 기전 그림에서 앞·뒤숫구멍 방향을 이용해 LOA 태향을 판독하는 문항이다. 둔위·안면위·난산 문서는 정상 두정위 태향 판독을 대신할 수 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "태위·태향과 정상 분만 기전",
+    "flags": ["missing-exact-document", "image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0214",
+    "payloadHash": "d4e092aa1daf5bdec4068c2b992b4953",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "이전 개복수술로 배꼽 주위 유착이 의심될 때 Palmer point에 해당하는 좌상복부로 복강경 진입하는 술기 안전 문항이다. 자궁내막유착증은 복강 내 수술 유착과 다른 질환이다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "부인과 복강경 진입법 및 수술 유착 시 접근",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2017-0016",
+    "payloadHash": "dccbd562c7550995a00f12f9f8c13bbc",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "지연된 아두 하강 뒤 액체저류 없이 보이는 일시적 두개 변형으로 거푸집 현상을 진단한다. 난산은 분만 배경일 뿐 정답 개념이 아니고, 카탈로그에 신생아 두피·두개 분만손상 감별 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "분만 관련 신생아 두피 종창과 두개 변형",
+    "flags": ["missing-exact-document", "image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2018-0005",
+    "payloadHash": "8432bc28f037eb99055e9df74892cc20",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA",
+        "type": "drug",
+        "title": "Metronidazole"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k",
+        "title": "세균성 질염 (Bacterial Vaginosis)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "add",
+    "rationale": "회색의 생선 냄새 분비물과 clue cell로 세균성 질염을 진단하고 metronidazole을 선택하는 전형적 문항이다. 질분비물 CC보다 확정된 개별 질환 문서가 더 좁고 정확하다.",
+    "confidence": "high",
+    "flags": ["keep-existing-drug-link"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2018-0020",
+    "payloadHash": "42952c0d6df96faf752a591e934ecb00",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k",
+        "title": "요실금 (Urinary Incontinence)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "add",
+    "rationale": "재채기 때 누출, 요도과운동성, 배뇨근 수축 부재와 정상 잔뇨로 복압성 요실금을 진단하고 중부요도 슬링술을 선택한다. 증상 CC보다 진단·치료를 다루는 요실금 질환 문서가 적절하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2019-0010",
+    "payloadHash": "af04b8e37245af5c972b66734c6ba7a3",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzoxMCDsooXslpEvUGFjbGl0YXhlbC5tZA",
+        "type": "drug",
+        "title": "Paclitaxel"
+      },
+      {
+        "slug": "ZHJ1ZzoxMCDsooXslpEvQ2FyYm9wbGF0aW4ubWQ",
+        "type": "drug",
+        "title": "Carboplatin"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yDge2UvOyEsSDrgpzshozslZQgKEVwaXRoZWxpYWwgT3ZhcmlhbiBDYW5jZXIpLm1k",
+        "title": "상피성 난소암 (Epithelial Ovarian Cancer)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "add",
+    "rationale": "장액성 샘암종과 대망 전이로 진행성 상피성 난소암의 수술 후 paclitaxel-carboplatin 치료를 묻는다. 난소 종양 대표문서보다 상피성 난소암 개별 문서가 정확하다.",
+    "confidence": "high",
+    "flags": ["keep-existing-drug-links"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2020-0004",
+    "payloadHash": "4f63929c7ce7ecca680691822999c5d9",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "임신 초기 단순 흉부 X선 노출의 위해도를 설명하고 불필요한 임신중절이나 침습검사를 피하는 상담 문항이다. 현재 카탈로그에 임신 중 진단 방사선 노출 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "임신 중 진단 방사선 노출과 상담",
+    "flags": ["missing-exact-document", "answer-explanation-conflict"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2020-0009",
+    "payloadHash": "068a98a021d1a996d5c5df323409d4d3",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "배란 뒤 황체에서 분비되는 프로게스테론이 기초체온을 올리는 정상 월경주기 생리를 묻는다. PCOS·무배란·불임을 진단하는 문항이 아니므로 해당 질환을 연결하지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "월경주기·배란 생리와 기초체온",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2020-0013",
+    "payloadHash": "f809ad8267a01b465c268971a10bdfeb",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-y0iOq4sOqwkOyGjSAoRWFybHkgRGVjZWxlcmF0aW9uKS5tZA",
+        "title": "초기감속 (Early Deceleration)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "분만 중 태아심박동검사에서 정상 변이도와 초기감속을 판독하고 경과관찰을 선택한다. 태아 감시 일반 문서보다 초기감속 개별 문서가 가장 좁다.",
+    "confidence": "high",
+    "flags": ["image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2021-0003",
+    "payloadHash": "3afbd86fcb3218b388ac7cf8ae9f8b5a",
+    "currentDocuments": [
+      {
+        "slug": "ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA",
+        "type": "drug",
+        "title": "Oxytocin"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "옥시토신 유도분만 중 비정상 태아심박동을 인지하고 자궁수축제를 중단하는 자궁내 소생술 원칙이 핵심이다. 두 해설이 변동감속과 후기감속으로 서로 달라 개별 감속 문서를 단정하지 않고 태아 감시 문서로 연결한다.",
+    "confidence": "medium",
+    "flags": ["image-dependent", "explanation-conflict", "keep-existing-drug-link"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2021-0005",
+    "payloadHash": "cade2bb177979aae4f25c6b224960d73",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "정상 활력의 신생아 두피 종창에서 산류·두혈종을 감별하고 관찰하는 문항이다. 신생아 황달은 두혈종의 가능한 합병증일 뿐 정답 개념이 아니며 해당 두피 종창 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "신생아 산류·두혈종·모상건막하출혈 감별",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2021-0009",
+    "payloadHash": "9dfee448005cadba2591a5ef4a409ea7",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA",
+        "title": "요로결석 (Urolithiasis)",
+        "category": "05 신장"
+      }
+    ],
+    "action": "add",
+    "rationale": "임신 중 반복되는 옆구리 산통과 감염 없는 현미경적 혈뇨로 요로결석을 진단하고 우선 보존적 진통 치료를 선택한다. 임신은 치료 선택에 영향을 주지만 진단 자체는 요로결석이다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2021-0012",
+    "payloadHash": "59ee30b6bf88b3e548ba02bbf5973222",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA",
+        "title": "포상기태 (Molar Pregnancy)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "add",
+    "rationale": "제시된 초음파의 snowstorm pattern을 완전포상기태로 해석하고 흡입소파술을 선택하도록 구성된 문항이므로 포상기태 개별 문서가 가장 직접적이다.",
+    "confidence": "medium",
+    "flags": ["image-dependent", "stem-explanation-conflict"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2021-0020",
+    "payloadHash": "18094c7b1a471efa3e7b8b477df7ac0d",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "영아에서 얇고 쉽게 박리되는 음순 사이 막으로 음순유착을 진단한다. 무공처녀막·모호한 생식기는 오답 감별이며 카탈로그에 음순유착 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "소아 음순유착 (Labial Adhesion)",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2022-0002",
+    "payloadHash": "65a7ad781951d22747e8539cd32aea26",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "기계식 인공판막을 가진 임신 초기 환자에서 와파린의 태아독성을 피하면서 항응고를 유지하도록 헤파린으로 전환하는 문항이다. 특정 판막질환이 아니라 임신 중 인공판막 항응고가 핵심이며 이에 맞는 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "임신 중 기계판막 항응고요법",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2022-0003",
+    "payloadHash": "407cd71754be2afd3f7fed160254ce7b",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "만삭에 불규칙 수축이 있으나 2시간 동안 자궁경부 변화가 없는 가진통을 진단하고 귀가 교육하는 문항이다. 잠복기 지연은 실제 분만진통의 진행 이상이므로 대체 연결하면 안 된다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "진진통과 가진통의 감별",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2022-0020",
+    "payloadHash": "db9af41ed67619d5db7a4ea7cf08def5",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "다분만 고령 여성의 외음부 돌출과 배뇨 곤란을 근거로 골반장기탈출증을 진단한다. 카탈로그의 자궁 탈출은 하위 형태 하나에 불과하고 사진에서 탈출 장기를 확정할 수 없으므로 임의로 좁히지 않는다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "골반장기탈출증 (Pelvic Organ Prolapse)",
+    "flags": ["missing-exact-document", "image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2023-0001",
+    "payloadHash": "144ac8f20c90dd02c8b573de44b5fa85",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "태아심박동의 sinusoidal pattern을 판독하고 중증 태아빈혈을 원인으로 고르는 문항이다. 태아빈혈 개별 문서가 없으며 검사 패턴 해석이 핵심이므로 태아 감시 문서가 적절하다.",
+    "confidence": "high",
+    "flags": ["image-dependent"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2023-0003",
+    "payloadHash": "1ecfd4251b1664cd46198d81ee2407e5",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "진통 중 태변착색과 비정상 태아심박동을 함께 해석해 태아곤란으로 즉시 분만할지를 결정한다. 특정 감속형보다 전체 감시장치 판독과 처치가 핵심이므로 태아 감시 문서가 적절하다.",
+    "confidence": "medium",
+    "flags": ["image-dependent", "explanation-conflict"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2023-0018",
+    "payloadHash": "6a40bc291ad576e0ad12ba0213f8d9e7",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "폐전이가 동반된 자궁 평활근육종의 진행성 병기 치료로 항암화학요법을 선택한다. 자궁근종은 양성 평활근 종양으로 별개이며 카탈로그에 자궁 평활근육종 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "자궁 평활근육종 (Uterine Leiomyosarcoma)",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2023-0019",
+    "payloadHash": "6fd5fecc3f7059bb423d1a73f2d8bcf1",
+    "currentDocuments": [],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "복강 내 젤리 같은 점액성 물질로 복막가성점액종을 진단하고 흔한 충수돌기 원발을 확인하는 문항이다. 난소암은 감별 배경이며 카탈로그에 복막가성점액종 또는 충수 점액성 종양 문서가 없다.",
+    "confidence": "high",
+    "noSuitableDocument": true,
+    "neededDocument": "복막가성점액종 및 충수 점액성 종양",
+    "flags": ["missing-exact-document"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2024-0003",
+    "payloadHash": "eba8c04e9b07a1eb49d4025d10d2adc9",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-unpOuPhSAoU3lwaGlsaXMpLm1k",
+        "title": "임신 중 매독",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "add",
+    "rationale": "임신 초기 VDRL 양성에서 treponemal 확진검사를 먼저 시행하는 산전 매독 선별·확진 문항이다. 일반 매독 문서보다 임신 중 매독 특수집단 문서가 더 좁고 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2026-0005",
+    "payloadHash": "4385f44d7d3e459f41f1468d231cfa05",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+        "title": "산후출혈",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "분만 3주 뒤 소량의 갈색 출혈이 정상 오로인지 후기 산후출혈인지 감별하고 관찰을 선택하는 문항이다. 진단은 정상 오로이지만 후기 산후출혈의 원인·위험 신호 배제가 정답 판단의 중심이므로 산후출혈 대표문서가 관련 이론으로 유용하다.",
+    "confidence": "medium",
+    "flags": ["broader-than-ideal-target"]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-Y2026-0014",
+    "payloadHash": "4e626b33d8890a12af8bc3ae42ade1a4",
+    "currentDocuments": [],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k",
+        "title": "불임 (Infertility)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "add",
+    "rationale": "1년간 임신 실패한 여성의 기초체온표를 이용해 배란 후 프로게스테론과 황체 기능을 해석한다. 단순 월경주기 생리 문항과 달리 불임 평가 맥락이 명시되어 있어 불임 문서가 적절하다.",
+    "confidence": "high",
+    "flags": []
+  }
+]

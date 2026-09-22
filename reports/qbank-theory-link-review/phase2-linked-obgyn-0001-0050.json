@@ -1,0 +1,1219 @@
+[
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0001",
+    "payloadHash": "228655d1c3b4ee20a572f11d54c5c6a0",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "type": "disease",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "감소한 태동 뒤 NST 반응성을 판독하고 추적 간격을 정하는 문제로, 임신 중 태아 감시 문서가 검사 해석과 처치를 직접 다룬다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0002",
+    "payloadHash": "72f2ad09dd21baa4c88565964a8c052c",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "type": "disease",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-2bhOq4sOqwkOyGjSAoTGF0ZSBEZWNlbGVyYXRpb24pLm1k",
+        "title": "후기감속 (Late Deceleration)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "전자태아감시에서 반복 후기감속을 판독하고 응급 분만을 결정하므로 일반 태아 감시보다 후기감속 개별 문서가 더 정확하다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0004",
+    "payloadHash": "45fae13504e587c834f9db1bdebfcf3c",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+        "type": "disease",
+        "title": "산후출혈"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+        "title": "산후출혈",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "분만 3주 뒤 자궁 퇴축부전으로 발생한 후기 산후출혈에 자궁수축제를 쓰는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0005",
+    "payloadHash": "f2296037db2cd2304bf9d01535210b0d",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yekOq2geqyveu2gCDrrLTroKXspp0gKEluY29tcGV0ZW50IEludGVybmFsIE9zIG9mIENlcnZpeCkubWQ",
+        "type": "disease",
+        "title": "자궁경부 무력증 (Incompetent Internal Os of Cervix)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yekOq2geqyveu2gCDrrLTroKXspp0gKEluY29tcGV0ZW50IEludGVybmFsIE9zIG9mIENlcnZpeCkubWQ",
+        "title": "자궁경부 무력증 (Incompetent Internal Os of Cervix)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "반복 조산력과 현저히 짧은 자궁경부에 자궁경부결찰술을 선택하므로 자궁경부 무력증 문서와 일치한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0006",
+    "payloadHash": "cbbfd8724ee7a7479da4588674b5764d",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-qyrOqwkSDrgpzsgrAgKFNob3VsZGVyIER5c3RvY2lhKS5tZA",
+        "type": "disease",
+        "title": "견갑 난산 (Shoulder Dystocia)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-qyrOqwkSDrgpzsgrAgKFNob3VsZGVyIER5c3RvY2lhKS5tZA",
+        "title": "견갑 난산 (Shoulder Dystocia)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "견갑난산에서 맥로버츠 술기를 식별하는 그림 문항이므로 견갑 난산 문서가 가장 구체적이다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0007",
+    "payloadHash": "e80defab7b2d7a98574ddbbeb36a5d45",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ",
+        "type": "disease",
+        "title": "태반조기박리 (Placental Abruption)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ",
+        "title": "태반조기박리 (Placental Abruption)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "고혈압 위험인자, 통증성 질출혈, 자궁 압통으로 태반조기박리를 진단한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0008",
+    "payloadHash": "0b4b4ed4b04e8d6d80b7cec906433e74",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA",
+        "type": "disease",
+        "title": "전자간증 (Preeclampsia)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA",
+        "title": "전자간증 (Preeclampsia)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "중증 소견을 동반한 전자간증에서 급성 혈압 조절 약제를 선택하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0009",
+    "payloadHash": "71b0c786ab47f9cf58ae53617f18ebb1",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k",
+        "type": "disease",
+        "title": "임신 중 감염"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-unpOuPhSAoU3lwaGlsaXMpLm1k",
+        "title": "임신 중 매독",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "VDRL과 TPHA가 모두 양성인 임신부의 페니실린 치료를 묻기 때문에 광범위한 임신 중 감염보다 임신 중 매독 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0010",
+    "payloadHash": "042c358397801c5fb452b0dbcb7777c1",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2geuCtOunieycoOywqeymnSAoQXNoZXJtYW4gU3luZHJvbWUpLm1k",
+        "type": "disease",
+        "title": "자궁내막유착증 (Asherman Syndrome)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geuCtOunieycoOywqeymnSAoQXNoZXJtYW4gU3luZHJvbWUpLm1k",
+        "title": "자궁내막유착증 (Asherman Syndrome)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "반복 소파술 뒤 과소월경·불임이 발생한 아셔만 증후군의 자궁경 진단을 묻는다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0011",
+    "payloadHash": "b6410b8e983240e3b78006b3e66e1574",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k",
+        "type": "disease",
+        "title": "불임 (Infertility)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k",
+        "title": "불임 (Infertility)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "여성 불임 평가에서 월경 직후 난관조영술의 시행 시기를 묻는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0012",
+    "payloadHash": "ffe4d9bf56f7a64c214b374657a03d45",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDqt7zsooUgKFV0ZXJpbmUgTGVpb215b21hKS5tZA",
+        "type": "disease",
+        "title": "자궁 근종 (Uterine Leiomyoma)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ",
+        "title": "자궁근종 (Uterine Fibroids)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "무증상 자궁근종의 경과관찰 적응증을 묻고 있어 자궁근종 정본 문서 하나로 정리한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0013",
+    "payloadHash": "c0f2630e9c362aeef83d863f14d20cb0",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDqt7zsooUgKFV0ZXJpbmUgTGVpb215b21hKS5tZA",
+        "type": "disease",
+        "title": "자궁 근종 (Uterine Leiomyoma)"
+      },
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ",
+        "type": "disease",
+        "title": "자궁근종 (Uterine Fibroids)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ",
+        "title": "자궁근종 (Uterine Fibroids)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "불임의 원인이 된 점막하 자궁근종의 자궁경하 절제술을 묻고 있어 중복 별칭 문서를 제거하고 정본 자궁근종 문서만 남긴다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent",
+      "duplicate-alias-cleanup"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0014",
+    "payloadHash": "8bbf3e599c07c897fef3294e21bfeb75",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ",
+        "type": "disease",
+        "title": "자궁 내막암 (Endometrial Cancer)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ",
+        "title": "자궁 내막암 (Endometrial Cancer)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "조직학적으로 확인된 자궁내막암에서 수술적 병기 설정을 선택하는 문제다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0015",
+    "payloadHash": "9b4802cf7c3577e8111640d00c64dbec",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-uCnOyGjCDsooXslpEgKE92YXJpYW4gVHVtb3IpLm1k",
+        "type": "disease",
+        "title": "난소 종양 (Ovarian Tumor)"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "가임기 여성의 단순 난소낭종 관찰 원칙을 묻지만 현재 카탈로그에는 단순·기능성 난소낭종 문서가 없고, 난소 종양 대표문서로 강제 연결하면 범위가 지나치게 넓다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent",
+      "missing-exact-document"
+    ],
+    "noSuitableDocument": true,
+    "neededDocument": "단순·기능성 난소낭종"
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0016",
+    "payloadHash": "2752d074d5779f42930c01ec843d4960",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA",
+        "type": "disease",
+        "title": "자궁경부 상피내 종양 (Cervical Intraepithelial Neoplasia)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA",
+        "title": "자궁경부 상피내 종양 (Cervical Intraepithelial Neoplasia)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "임신 중 확인된 CIN 3의 산후 추적 원칙을 묻기 때문에 자궁경부 상피내 종양 문서가 정확하다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0017",
+    "payloadHash": "1f637a429f428bc9d282eaf5307e389e",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA",
+        "type": "disease",
+        "title": "자궁경부암 (Cervical Cancer)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA",
+        "title": "자궁경부암 (Cervical Cancer)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "진행성 자궁경부암의 병기별 복합 화학방사선 치료를 묻는다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0018",
+    "payloadHash": "5f90d058c50152d55d2ce8019c52fce7",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-uCtOuwsOyXveuPmeyiheyWkSAoRW5kb2Rlcm1hbCBTaW51cyBUdW1vcikubWQ",
+        "type": "disease",
+        "title": "내배엽동종양 (Endodermal Sinus Tumor)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-uCtOuwsOyXveuPmeyiheyWkSAoRW5kb2Rlcm1hbCBTaW51cyBUdW1vcikubWQ",
+        "title": "내배엽동종양 (Endodermal Sinus Tumor)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "소아·청소년 난소 종괴와 AFP 상승으로 난황낭종양을 진단하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0019",
+    "payloadHash": "e9ffae46df89e29a07c254a26ff487f8",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-2PrOyDgSDquLDtg5wgKEh5ZGF0aWRpZm9ybSBNb2xlKS5tZA",
+        "type": "disease",
+        "title": "포상 기태 (Hydatidiform Mole)"
+      },
+      {
+        "slug": "MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA",
+        "type": "disease",
+        "title": "포상기태 (Molar Pregnancy)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA",
+        "title": "포상기태 (Molar Pregnancy)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "고 hCG와 snowstorm 초음파로 완전포상기태를 진단하고 흡입소파술을 선택하므로 중복 별칭을 제거하고 포상기태 정본만 남긴다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent",
+      "duplicate-alias-cleanup"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0020",
+    "payloadHash": "4e8df751a85905742bc0503ddc7b061a",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k",
+        "type": "disease",
+        "title": "요실금 (Urinary Incontinence)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k",
+        "title": "요실금 (Urinary Incontinence)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "절박뇨와 야간뇨를 동반한 절박성 요실금을 분류하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0021",
+    "payloadHash": "d2872351c822d3e7f1b36b2b03e1d49b",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "type": "disease",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "목덜미 투명대 측정 시기를 묻는 산전 염색체이상 선별검사 문제로, 임신 중 태아 감시는 범위가 다르고 카탈로그에 정확한 산전 선별검사 문서가 없다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent",
+      "missing-exact-document"
+    ],
+    "noSuitableDocument": true,
+    "neededDocument": "산전 태아 염색체이상 선별검사"
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0022",
+    "payloadHash": "c2aa5ee552835bf4e12579873e76f71a",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ",
+        "type": "disease",
+        "title": "양수 과소증 (Oligohydramnios)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ",
+        "title": "양수 과소증 (Oligohydramnios)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "만삭의 양수과소증에서 분만을 선택하는 문제로 양수 과소증 문서가 직접 대응한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0023",
+    "payloadHash": "67c382792e24a24186a69a730c97de1c",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-ycoOuPhCDrtoTrp4wgKEluZHVjdGlvbiBvZiBMYWJvcikubWQ",
+        "type": "disease",
+        "title": "유도 분만 (Induction of Labor)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-ycoOuPhCDrtoTrp4wgKEluZHVjdGlvbiBvZiBMYWJvcikubWQ",
+        "title": "유도 분만 (Induction of Labor)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "옥시토신 유도분만 중 자궁빈수축을 확인해 투여를 중단하는 문제로 유도 분만 문서가 처치 맥락을 포함한다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0024",
+    "payloadHash": "acd56649e3c00613d9f6ffc4ad0992c4",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yekOq2geqyveu2gCDrrLTroKXspp0gKEluY29tcGV0ZW50IEludGVybmFsIE9zIG9mIENlcnZpeCkubWQ",
+        "type": "disease",
+        "title": "자궁경부 무력증 (Incompetent Internal Os of Cervix)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yekOq2geqyveu2gCDrrLTroKXspp0gKEluY29tcGV0ZW50IEludGVybmFsIE9zIG9mIENlcnZpeCkubWQ",
+        "title": "자궁경부 무력증 (Incompetent Internal Os of Cervix)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "반복 조산력과 자궁경부 funneling을 근거로 결찰술을 선택하므로 자궁경부 무력증 문서가 정확하다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0025",
+    "payloadHash": "fe520d4da29ee2f81bdd6478db2dc910",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "type": "disease",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-2bhOq4sOqwkOyGjSAoTGF0ZSBEZWNlbGVyYXRpb24pLm1k",
+        "title": "후기감속 (Late Deceleration)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "NST에서 후기감속을 판독하고 자궁내 소생술을 시행하는 문제이므로 일반 태아 감시보다 후기감속 개별 문서가 적절하다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0026",
+    "payloadHash": "d4e5c83bfcf7eca0fe4e6428584be594",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k",
+        "type": "disease",
+        "title": "태아 성장 지연 (Fetal Growth Restriction)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k",
+        "title": "태아 성장 지연 (Fetal Growth Restriction)",
+        "category": "12 산과"
+      },
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ",
+        "title": "양수 과소증 (Oligohydramnios)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "36주 태아성장지연에 양수과소증이 동반되어 분만 시점을 결정하므로 두 질환이 모두 처치 판단의 핵심이다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0027",
+    "payloadHash": "4b746698bea5c9c8db61fb12ca5dda4e",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yeoOuzteq4sCDsp4Dsl7AgKFByb2xvbmdlZCBMYXRlbnQgUGhhc2UpLm1k",
+        "type": "disease",
+        "title": "잠복기 지연 (Prolonged Latent Phase)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yeoOuzteq4sCDsp4Dsl7AgKFByb2xvbmdlZCBMYXRlbnQgUGhhc2UpLm1k",
+        "title": "잠복기 지연 (Prolonged Latent Phase)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "출제 해설은 잠복기 지연의 관찰 처치를 목표로 하므로 해당 문서를 유지하되, 제시된 경과 시간이 진단 기준에 못 미치는 원문 오류 가능성을 표시한다.",
+    "confidence": "medium",
+    "flags": [
+      "source-criteria-review"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0028",
+    "payloadHash": "6bcc0092f4d2f148d9aadbce10b83c03",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ",
+        "type": "disease",
+        "title": "자궁근종 (Uterine Fibroids)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ",
+        "title": "자궁근종 (Uterine Fibroids)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "증상성 다발 자궁근종과 중증 빈혈에서 수술 전 GnRH 작용제를 사용하는 문제다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0029",
+    "payloadHash": "7ee6749caa69b09778433b6b4e628b2d",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA",
+        "type": "disease",
+        "title": "전자간증 (Preeclampsia)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA",
+        "title": "전자간증 (Preeclampsia)",
+        "category": "12 산과"
+      },
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k",
+        "title": "태아 성장 지연 (Fetal Growth Restriction)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "add",
+    "rationale": "만삭 전자간증에 태아성장지연이 동반되어 유도분만을 결정하므로 두 상태가 모두 임상 판단에 관여한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0030",
+    "payloadHash": "23fed94212bb942500447ce3b7ff81c0",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k",
+        "type": "disease",
+        "title": "임신 중 감염"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MjAg67mE64eo6riw6rO8L-uLqOyInO2PrOynhCAoR2VuaXRhbCBoZXJwZXMpLm1k",
+        "title": "단순포진 (Genital herpes)",
+        "category": "20 비뇨기과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "분만 시 활성 생식기 헤르페스 병변이 있어 제왕절개를 선택하는 문제로, 광범위한 임신 중 감염보다 생식기 단순포진 문서가 구체적이다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0031",
+    "payloadHash": "bf034665640038ad8e05984f039caeb1",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k",
+        "type": "disease",
+        "title": "불임 (Infertility)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k",
+        "title": "불임 (Infertility)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "양측 난관 폐쇄를 동반한 불임에서 IVF-ET를 선택하는 보조생식술 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0032",
+    "payloadHash": "18d9bc253235c9601c0cd0a96a073962",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yDge2UvOyEsSDrgpzshozslZQgKEVwaXRoZWxpYWwgT3ZhcmlhbiBDYW5jZXIpLm1k",
+        "type": "disease",
+        "title": "상피성 난소암 (Epithelial Ovarian Cancer)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yDge2UvOyEsSDrgpzshozslZQgKEVwaXRoZWxpYWwgT3ZhcmlhbiBDYW5jZXIpLm1k",
+        "title": "상피성 난소암 (Epithelial Ovarian Cancer)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "재발성 상피성 난소암의 이차 종양감축술 적응증을 묻기 때문에 상피성 난소암 문서가 정확하다.",
+    "confidence": "medium",
+    "flags": [
+      "image-dependent",
+      "source-management-review"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0033",
+    "payloadHash": "9a820a9bc54006464d89f664c0700d3f",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ",
+        "type": "disease",
+        "title": "자궁 내막암 (Endometrial Cancer)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ",
+        "title": "자궁 내막암 (Endometrial Cancer)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "폐경 후 출혈과 자궁내막 비후에서 자궁내막암을 배제하기 위한 조직검사를 선택한다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0034",
+    "payloadHash": "1ab3cbf169f1438b09c6767197cd8c64",
+    "currentDocuments": [
+      {
+        "slug": "MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA",
+        "type": "disease",
+        "title": "요로감염"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA",
+        "title": "요로감염",
+        "category": "05 신장"
+      }
+    ],
+    "action": "keep",
+    "rationale": "폐경 여성의 재발성 요로감염 예방 전략을 묻기 때문에 요로감염 문서가 현재 카탈로그에서 가장 가까운 개별 문서다.",
+    "confidence": "medium",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0035",
+    "payloadHash": "d31486690f3d008f6912d733d08edb74",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-2PkOqyvSAoTWVub3BhdXNlKS5tZA",
+        "type": "disease",
+        "title": "폐경 (Menopause)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA",
+        "title": "골다공증 (Osteoporosis)",
+        "category": "04 내분비"
+      }
+    ],
+    "action": "replace",
+    "rationale": "T-score가 골다공증 범위이고 골절 예방 치료를 묻는 문제이므로 폐경보다 골다공증 문서가 핵심 질환에 맞다.",
+    "confidence": "medium",
+    "flags": [
+      "source-management-review"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0036",
+    "payloadHash": "d30a29295408613cf41dae5263338baa",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA",
+        "type": "disease",
+        "title": "자궁경부암 (Cervical Cancer)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA",
+        "title": "자궁경부 상피내 종양 (Cervical Intraepithelial Neoplasia)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "replace",
+    "rationale": "HSIL 세포검사와 CIN 1 생검의 불일치에서 원추절제술을 선택하는 문제로 침윤암이 아니라 자궁경부 상피내 종양 문서가 맞다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0037",
+    "payloadHash": "184a3a07130fa730460f126993f38cc8",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA",
+        "type": "disease",
+        "title": "자궁경부암 (Cervical Cancer)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA",
+        "title": "자궁경부암 (Cervical Cancer)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "미세침윤 자궁경부암의 병기와 추가 치료 여부를 판단하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0038",
+    "payloadHash": "a0de39e2aec69f64099ee3a00267c00c",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yZuOydjOu2gOyVlCAoVnVsdmFyIENhbmNlcikubWQ",
+        "type": "disease",
+        "title": "외음부암 (Vulvar Cancer)"
+      }
+    ],
+    "proposedDocuments": [],
+    "action": "no-suitable-document",
+    "rationale": "림프절 곽청술 뒤 하지 림프부종을 배경으로 발생한 림프관염을 진단하는 문제이며 외음부암은 과거 수술 배경일 뿐이다. 현재 림프부종·림프관염 문서가 없다.",
+    "confidence": "medium",
+    "flags": [
+      "image-dependent",
+      "missing-exact-document",
+      "incidental-history-link-removed"
+    ],
+    "noSuitableDocument": true,
+    "neededDocument": "수술 후 하지 림프부종 및 림프관염"
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0039",
+    "payloadHash": "5a2dac276eaf02eea29c777a7ddc8f54",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA",
+        "type": "disease",
+        "title": "전치태반 (Placenta Previa)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA",
+        "title": "전치태반 (Placenta Previa)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "무통성 임신 후기 출혈과 초음파로 전치태반을 진단하고 제왕절개를 선택한다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0040",
+    "payloadHash": "af4ed88a89c69aa808b61148836daa07",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ",
+        "type": "disease",
+        "title": "골반내 감염 (Pelvic Inflammatory Disease)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ",
+        "title": "골반내 감염 (Pelvic Inflammatory Disease)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "장기간 IUD 사용과 만성 골반 통증·악취 분비물에서 골반내 감염을 진단하고 장치 제거를 결정한다.",
+    "confidence": "medium",
+    "flags": [
+      "image-dependent",
+      "source-management-review"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0041",
+    "payloadHash": "4b5f0ee87aa845d4627f136d1b1dfae9",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k",
+        "type": "disease",
+        "title": "불임 (Infertility)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k",
+        "title": "불임 (Infertility)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "불임 평가에서 황체기 중반 혈청 프로게스테론으로 배란을 확인하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0042",
+    "payloadHash": "5fcdbda97ac398e9fb6240ab0c5061f7",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ",
+        "type": "disease",
+        "title": "양수 과소증 (Oligohydramnios)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ",
+        "title": "양수 과소증 (Oligohydramnios)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "33주 양수과소증에서 태아 생물리학 계수로 안녕을 평가하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0043",
+    "payloadHash": "bc245335f4402473efa02834ca25e2f9",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "type": "disease",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ",
+        "title": "임신 중 태아 감시 (Fetal Monitoring)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "20분 비반응성 NST를 20분 더 연장하는 검사 해석 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0044",
+    "payloadHash": "5a23acf9a21f924b8d0eb6adcb5f3f1e",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yekOq2geqyveu2gCDrrLTroKXspp0gKEluY29tcGV0ZW50IEludGVybmFsIE9zIG9mIENlcnZpeCkubWQ",
+        "type": "disease",
+        "title": "자궁경부 무력증 (Incompetent Internal Os of Cervix)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yekOq2geqyveu2gCDrrLTroKXspp0gKEluY29tcGV0ZW50IEludGVybmFsIE9zIG9mIENlcnZpeCkubWQ",
+        "title": "자궁경부 무력증 (Incompetent Internal Os of Cervix)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "임신 2분기의 무통성 자궁경부 개대와 funneling으로 자궁경부 무력증을 진단한다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0045",
+    "payloadHash": "97eef55d6da43be1f03eeae595d7fdb2",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+        "type": "disease",
+        "title": "산후출혈"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+        "title": "산후출혈",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "산후 1주 안정 환자의 후기 산후출혈·태반부착부 퇴축부전에 자궁수축제를 선택한다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0046",
+    "payloadHash": "1b170c428dbd9cee79cd563ce63e18e7",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA",
+        "type": "disease",
+        "title": "전자간증 (Preeclampsia)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA",
+        "title": "전자간증 (Preeclampsia)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "임신 20주 이전 고혈압 뒤 새 단백뇨가 생긴 중복전자간증으로, 별도 하위 문서가 없어 전자간증 문서를 유지한다.",
+    "confidence": "medium",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0047",
+    "payloadHash": "a0dc4edea8b00bed17924e207d11d7ef",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-2bhOq4sOqwkOyGjSAoTGF0ZSBEZWNlbGVyYXRpb24pLm1k",
+        "type": "disease",
+        "title": "후기감속 (Late Deceleration)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-2bhOq4sOqwkOyGjSAoTGF0ZSBEZWNlbGVyYXRpb24pLm1k",
+        "title": "후기감속 (Late Deceleration)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "태아심박동 그림에서 후기감속과 태아곤란을 판독해 응급 제왕절개를 결정한다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0048",
+    "payloadHash": "a4cf5a483f4c24735a2f3aba9195927d",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA",
+        "type": "disease",
+        "title": "임신성 당뇨병 (Gestational Diabetes Mellitus)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA",
+        "title": "임신성 당뇨병 (Gestational Diabetes Mellitus)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "식이요법으로 조절되지 않는 임신성 당뇨병에서 인슐린으로 전환하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0049",
+    "payloadHash": "3877a6194131c9291f5e0648ec500a78",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDtg4jstpwgKFV0ZXJpbmUgUHJvbGFwc2UpLm1k",
+        "type": "disease",
+        "title": "자궁 탈출 (Uterine Prolapse)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDtg4jstpwgKFV0ZXJpbmUgUHJvbGFwc2UpLm1k",
+        "title": "자궁 탈출 (Uterine Prolapse)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "다산 여성의 환원되는 외음부 종괴와 배뇨 증상으로 자궁 탈출을 진단한다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0050",
+    "payloadHash": "5e8938353c5fec3d6f503bf05ba5fb18",
+    "currentDocuments": [
+      {
+        "slug": "MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k",
+        "type": "disease",
+        "title": "조기 양막 파수 (Premature Rupture of Membranes)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k",
+        "title": "조기 양막 파수 (Premature Rupture of Membranes)",
+        "category": "12 산과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "31주 조기 양막 파수에서 감염·진통 없이 태아 폐성숙 스테로이드를 투여하는 문제다.",
+    "confidence": "high",
+    "flags": []
+  },
+  {
+    "id": "QB-PF2026-V02-OG-BANK-0051",
+    "payloadHash": "0c9d622506d930cb058b868d1dbda223",
+    "currentDocuments": [
+      {
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDshKDsspzquLDtmJUgKENvbmdlbml0YWwgVXRlcmluZSBBbm9tYWx5KS5tZA",
+        "type": "disease",
+        "title": "자궁 선천기형 (Congenital Uterine Anomaly)"
+      }
+    ],
+    "proposedDocuments": [
+      {
+        "type": "disease",
+        "slug": "MTMg67aA7J246rO8L-yekOq2gSDshKDsspzquLDtmJUgKENvbmdlbml0YWwgVXRlcmluZSBBbm9tYWx5KS5tZA",
+        "title": "자궁 선천기형 (Congenital Uterine Anomaly)",
+        "category": "13 부인과"
+      }
+    ],
+    "action": "keep",
+    "rationale": "반복 유산 환자의 자궁난관조영술에서 중격자궁을 확인하고 자궁경 수술을 선택한다.",
+    "confidence": "high",
+    "flags": [
+      "image-dependent"
+    ]
+  }
+]
