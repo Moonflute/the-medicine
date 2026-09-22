@@ -1735,7 +1735,13 @@ function main() {
   const specialtyToc = buildSpecialtyToc();
   const qbank = buildQbank();
   writePublicGeneratedJson("theory-documents.json", [
-    ...visibleDiseases.map((item) => ({ type: "disease", slug: item.slug, title: item.displayTitle || item.title, category: item.specialty })),
+    ...visibleDiseases.map((item) => ({
+      type: "disease",
+      slug: item.slug,
+      title: item.displayTitle || item.title,
+      category: item.specialty,
+      scopeSlugs: diseaseHierarchy.scopeSlugsBySlug[item.slug] ?? [item.slug],
+    })),
     ...chiefComplaints.map((item) => ({ type: "cc", slug: item.slug, title: item.title, category: item.category || "CC" })),
   ]);
 

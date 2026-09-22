@@ -78,7 +78,7 @@ jobs:
           python ../../workspace_ops/scripts/test_group_overview_members.py
 
       - name: Verify question sessions
-        run: node --test scripts/test-qbank-session-results.mjs
+        run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-qbank-session-results.mjs scripts/test-qbank-active-session.mjs scripts/test-qbank-related-theory.mjs scripts/test-qbank-session-context.mjs
 
       - name: Verify interactive physiology
         run: npm run verify:physiology

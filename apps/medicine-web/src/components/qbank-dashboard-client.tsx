@@ -8,16 +8,16 @@ import { EMPTY_PRACTICE_FILTERS, matchesPractice, stringArray, toggleGroup, type
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
-import { activeSessionFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, remapLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
+import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSessions, remapLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
+import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
 import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
 type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string; scopeSlugs?: string[] };
 type SpecialtyChoice = QbankSpecialtySummary;
 type TheorySourceType = "disease" | "cc" | "drug" | "other";
 
-function initialActiveSession() {
-  const session = loadLocalActiveQbankSession();
-  return session?.mockExam?.finishedAt ? null : session;
+function initialActiveSessions() {
+  return loadLocalActiveQbankSessions().filter((session) => !session.mockExam?.finishedAt);
 }
 
 const THEORY_SOURCE_GROUPS: Array<{ type: TheorySourceType; title: string; description: string }> = [
@@ -118,9 +118,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);
   const [unattemptedCount, setUnattemptedCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
-  const [activeSession, setActiveSession] = useState<QbankActiveSession | null>(null);
-  const [endingActiveSession, setEndingActiveSession] = useState(false);
-  const [activeSessionError, setActiveSessionError] = useState("");
+  const [activeSessions, setActiveSessions] = useState<QbankActiveSession[]>([]);
+  const [endingActiveSessionId, setEndingActiveSessionId] = useState("");
+  const [activeSessionError, setActiveSessionError] = useState<{ sessionId: string; message: string } | null>(null);
 
   useEffect(() => {
     const refresh = () => {
@@ -135,46 +135,59 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
 
   useEffect(() => {
     let active = true;
-    const latest = initialActiveSession();
-    queueMicrotask(() => { if (active) setActiveSession(latest); });
+    const local = initialActiveSessions();
+    queueMicrotask(() => { if (active) setActiveSessions(local); });
     const client = getSupabaseBrowserClient();
     if (!client) return () => { active = false; };
+    let channel: ReturnType<typeof client.channel> | null = null;
     const restore = async () => {
       const { data: auth } = await client.auth.getUser();
       if (!active || !auth.user) return;
-      const { data, error } = await client.from("user_preferences").select("qbank_active_session").eq("user_id", auth.user.id).maybeSingle();
-      if (error) {
-        console.warn("Q-bank active session lookup failed.", error);
-        return;
-      }
-      const remote = activeSessionFrom(data?.qbank_active_session);
-      if (!active || !remote || remote.mockExam?.finishedAt) return;
-      if (!latest || remote.updatedAt > latest.updatedAt) setActiveSession(remote);
+      const cloud = await loadCloudActiveQbankSessionState(client, auth.user.id);
+      if (!active) return;
+      const endedIds = new Set(cloud.endedSessionIds);
+      for (const sessionId of endedIds) clearLocalActiveQbankSession(sessionId);
+      const remote = cloud.sessions.filter((session) => !session.mockExam?.finishedAt);
+      setActiveSessions(activeSessionsFrom([...remote, ...local.filter((session) => !endedIds.has(session.sessionId))]));
+      channel = client.channel(`qbank-active-sessions:${auth.user.id}`)
+        .on("postgres_changes", { event: "INSERT", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${auth.user.id}` }, (payload) => {
+          const session = activeSessionFrom((payload.new as Record<string, unknown>).payload);
+          if (session && !session.mockExam?.finishedAt) setActiveSessions((items) => activeSessionsFrom([session, ...items]));
+        })
+        .on("postgres_changes", { event: "UPDATE", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${auth.user.id}` }, (payload) => {
+          const row = payload.new as Record<string, unknown>;
+          const sessionId = row.session_id;
+          if (typeof sessionId === "string" && row.ended_at) {
+            clearLocalActiveQbankSession(sessionId);
+            setActiveSessions((items) => items.filter((session) => session.sessionId !== sessionId));
+            return;
+          }
+          const session = activeSessionFrom(row.payload);
+          if (session && !session.mockExam?.finishedAt) setActiveSessions((items) => activeSessionsFrom([session, ...items]));
+        })
+        .subscribe();
     };
     void restore().catch((error) => console.warn("Q-bank active session lookup failed.", error));
-    return () => { active = false; };
+    return () => { active = false; if (channel) void client.removeChannel(channel); };
   }, []);
 
-  const endActiveSession = async () => {
-    if (!activeSession || endingActiveSession) return;
-    setEndingActiveSession(true);
-    setActiveSessionError("");
+  const endActiveSession = async (activeSession: QbankActiveSession) => {
+    if (endingActiveSessionId) return;
+    setEndingActiveSessionId(activeSession.sessionId);
+    setActiveSessionError(null);
     try {
       const client = getSupabaseBrowserClient();
       if (client) {
         const { data: auth } = await client.auth.getUser();
-        if (auth.user) {
-          const { error } = await client.from("user_preferences").upsert({ user_id: auth.user.id, qbank_active_session: null }, { onConflict: "user_id" });
-          if (error) throw error;
-        }
+        if (auth.user) await removeCloudActiveQbankSession(client, auth.user.id, activeSession.sessionId);
       }
       clearLocalActiveQbankSession(activeSession.sessionId);
-      setActiveSession(null);
+      setActiveSessions((items) => items.filter((session) => session.sessionId !== activeSession.sessionId));
     } catch (error) {
       console.warn("Q-bank active session could not be ended.", error);
-      setActiveSessionError("저장된 풀이를 종료하지 못했습니다. 네트워크를 확인하고 다시 시도해 주세요.");
+      setActiveSessionError({ sessionId: activeSession.sessionId, message: "저장된 풀이를 종료하지 못했습니다. 네트워크를 확인하고 다시 시도해 주세요." });
     } finally {
-      setEndingActiveSession(false);
+      setEndingActiveSessionId("");
     }
   };
 
@@ -190,8 +203,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         if (active && request === revision) {
           const aliases = Object.fromEntries(result.questions.flatMap((question) => (question.sourceIds ?? []).map((sourceId) => [sourceId, question.id])));
           remapQbankQuestionIds(aliases);
-          const remappedActive = remapLocalActiveQbankSession(aliases);
-          if (remappedActive) setActiveSession(remappedActive);
+          remapLocalActiveQbankSession(aliases);
+          setActiveSessions((items) => activeSessionsFrom([...initialActiveSessions(), ...items]));
           setPractice(result.questions);
           setPracticeMessage(result.message);
         }
@@ -257,6 +270,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   if (relatedTarget) {
     sessionParams.set("targetType", relatedTarget.type);
     sessionParams.set("target", relatedTarget.slug);
+    sessionParams.set("targetLabel", relatedTarget.label);
     if (relatedTarget.type === "disease") sessionParams.set("targets", (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).join(","));
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
@@ -267,16 +281,20 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       <div className="flex items-baseline gap-2 whitespace-nowrap text-rose-700"><span>오답</span><span className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</span></div>
     </section> : null}
 
-    {!relatedTarget && activeSession ? <section className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5" aria-label="진행 중인 문제 세트">
-      <div className="min-w-0">
-        <p className="text-sm font-semibold text-teal-950">{activeSession.mockExam?.title || "진행 중인 문제 세트"}</p>
-        <p className="mt-0.5 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
-        {activeSessionError ? <p role="alert" className="mt-1 text-xs text-rose-700">{activeSessionError}</p> : null}
-      </div>
-      <div className="action-pair flex shrink-0 flex-wrap gap-2">
-        <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="primary-action">이어서 풀기</Link>
-        <button type="button" className="secondary-action text-rose-700" disabled={endingActiveSession} onClick={() => void endActiveSession()}>{endingActiveSession ? "종료 중…" : "조기 종료"}</button>
-      </div>
+    {!relatedTarget && activeSessions.length > 0 ? <section className="space-y-2" aria-label="진행 중인 문제 세트">
+      {activeSessions.map((activeSession) => <article key={activeSession.sessionId} className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5">
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-2"><p className="text-sm font-semibold text-teal-950">{activeSession.mockExam?.title || activeSession.context?.title || "진행 중인 문제 세트"}</p>{activeSession.context?.kind === "related-theory" ? <span className="rounded-full bg-teal-700 px-2 py-0.5 text-[10px] font-semibold text-white">관련 문제풀이</span> : null}</div>
+          {activeSession.context?.summary ? <p className="mt-0.5 truncate text-xs text-teal-800">{activeSession.context.summary}</p> : null}
+          {activeSession.context?.topics?.length ? <div className="mt-1.5 flex flex-wrap gap-1">{activeSession.context.topics.slice(0, 4).map((topic) => <span key={`${topic.type}:${topic.slug}`} className="rounded-full border border-teal-200 bg-white/80 px-2 py-0.5 text-[10px] text-teal-900">{topic.title} {topic.count}</span>)}</div> : null}
+          <p className="mt-1 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
+          {activeSessionError?.sessionId === activeSession.sessionId ? <p role="alert" className="mt-1 text-xs text-rose-700">{activeSessionError.message}</p> : null}
+        </div>
+        <div className="action-pair flex shrink-0 flex-wrap gap-2">
+          <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="primary-action">이어서 풀기</Link>
+          <button type="button" className="secondary-action text-rose-700" disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "조기 종료"}</button>
+        </div>
+      </article>)}
     </section> : null}
 
     <section className="surface p-5 sm:p-6">

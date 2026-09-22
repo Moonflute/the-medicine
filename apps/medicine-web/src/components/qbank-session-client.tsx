@@ -25,10 +25,15 @@ import {
   toggleQbankBookmark,
   type QbankProgress,
 } from "@/lib/qbank-store";
-import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
+import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary, RelatedTheoryDocument } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { activeSessionFrom, clearLocalActiveQbankSession, QBANK_SESSION_STORAGE_PREFIX, readQbankSessionDrafts, saveLocalActiveQbankSession, type QbankActiveSession, type QbankSessionAnswer, type QbankSessionSnapshot } from "@/lib/qbank-active-session";
 import { QbankEditButton } from "@/components/qbank-edit-button";
+import { RelatedTheoryLauncher } from "@/components/related-theory-launcher";
+import { filterRelatedTheoryQuestions, parseRelatedTheoryTopicKeys, relatedTheoryTopicKey, type RelatedTheoryTopic } from "@/lib/qbank-related-theory";
+import { qbankSessionContextFromParams } from "@/lib/qbank-session-context";
+import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
+import type { QbankSessionContext } from "@/lib/qbank-active-session";
 
 type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">>;
 type SessionAnswer = QbankSessionAnswer;
@@ -117,7 +122,7 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
   return <div className="mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters, practiceUnattemptedOnly = false): Promise<SessionQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters, practiceUnattemptedOnly = false, relatedTopicKeys = ""): Promise<SessionQuestion[]> {
   if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 결과 화면이나 학습 통계에서 다시 선택해 주세요.");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
@@ -125,8 +130,19 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   if (mode === "theory-linked") {
     const practiceId = new URLSearchParams(window.location.search).get("practiceId") ?? "";
     const [source] = await loadPracticeQuestions([practiceId]);
-    const linked = new Set(source?.relatedTheoryQuestionIds ?? []);
-    candidates = index.filter((q) => q.questionBank === "theory" && linked.has(q.id));
+    const sourceReferences = Array.isArray(source?.relatedDocuments)
+      ? source.relatedDocuments.filter((item): item is RelatedTheoryDocument => item.type === "disease" || item.type === "cc")
+      : [
+          ...(source?.relatedDiseaseSlugs ?? []).map((slug) => ({ type: "disease" as const, slug, title: slug })),
+          ...(source?.relatedCcSlugs ?? []).map((slug) => ({ type: "cc" as const, slug, title: slug })),
+        ];
+    const allowedKeys = new Set(sourceReferences.map(relatedTheoryTopicKey));
+    const requested = parseRelatedTheoryTopicKeys(relatedTopicKeys);
+    const selectedReferences = (requested.length ? requested : sourceReferences).filter((topic) => allowedKeys.has(relatedTheoryTopicKey(topic)));
+    const catalog = await fetchJson<RelatedTheoryTopic[]>(`${basePath}/generated/theory-documents.json`);
+    const catalogByKey = new Map(catalog.map((topic) => [relatedTheoryTopicKey(topic), topic]));
+    const topics = selectedReferences.map((reference) => catalogByKey.get(relatedTheoryTopicKey(reference)) ?? { ...reference, title: sourceReferences.find((item) => relatedTheoryTopicKey(item) === relatedTheoryTopicKey(reference))?.title ?? reference.slug });
+    candidates = filterRelatedTheoryQuestions(index, topics);
   }
   if (mode === "selection") {
     const theory = new Set(theorySpecialties.split(",").filter(Boolean));
@@ -214,10 +230,23 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const newSetRequestedRef = useRef(false);
   const activeSessionChannelRef = useRef<RealtimeChannel | null>(null);
   const activeSessionTimerRef = useRef<number | null>(null);
+  const pendingCloudSessionRef = useRef<{ userId: string; snapshot: QbankActiveSession } | null>(null);
   const remoteSessionApplyingRef = useRef(false);
   const appliedRemoteSessionVersionRef = useRef("");
   const [syncUserId, setSyncUserId] = useState<string | null>(null);
   const [remoteActiveSession, setRemoteActiveSession] = useState<QbankActiveSession | null>(null);
+  const [sessionContext, setSessionContext] = useState<QbankSessionContext | undefined>();
+
+  const flushPendingCloudSession = useCallback(() => {
+    const pending = pendingCloudSessionRef.current;
+    if (!pending) return;
+    pendingCloudSessionRef.current = null;
+    appliedRemoteSessionVersionRef.current = pending.snapshot.updatedAt;
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
+    void saveCloudActiveQbankSession(supabase, pending.userId, pending.snapshot)
+      .catch((error) => console.warn("Q-bank active session sync failed.", error));
+  }, []);
 
   const sessionStorageKey = useCallback(() => {
     if (!sessionIdRef.current) {
@@ -249,7 +278,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const targetType = params.get("targetType") || "";
     const targetSlug = params.get("target") || "";
     const targetSlugs = params.get("targets") || "";
+    const relatedTopicKeys = params.get("relatedTopics") || "";
     const practiceUnattemptedOnly = params.get("practiceUnattempted") === "1";
+    const requestedContext = qbankSessionContextFromParams(params, specialties);
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
     if (params.get("resume") === "1") return;
@@ -264,7 +295,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
         : undefined;
-    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) }, practiceUnattemptedOnly)
+    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) }, practiceUnattemptedOnly, relatedTopicKeys)
       .then((loaded) => {
         if (appliedRemoteSessionVersionRef.current) return;
         const state = initialState;
@@ -286,7 +317,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const canRestore = Boolean(snapshot && restoredQuestions.length === snapshot.questionIds.length && restoredQuestions.length > 0);
         const selectedQuestions = canRestore ? restoredQuestions : mode === "practice-book"
           ? [...filtered].sort(comparePracticeOrder).slice(0, requestedCount)
-          : mode === "selection" || mode === "related"
+          : mode === "selection" || mode === "related" || mode === "theory-linked"
             ? balancedUnattemptedFirst(filtered, state.progress, requestedCount)
             : shuffled(filtered).slice(0, requestedCount);
         const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
@@ -295,6 +326,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setMockExam(canRestore ? readMockExam(snapshot?.mockExam) : params.get("exam") === "1" ? { version: 1, title: `${params.get("practiceYears") || "모의고사"}년 모의고사`, startedAt: new Date().toISOString(), drafts: {}, flaggedIds: [] } : null);
         setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
+        setSessionContext(canRestore ? snapshot?.context ?? requestedContext : requestedContext);
         setCurrentIndex(restoredIndex);
         setAnswers(canRestore && snapshot ? snapshot.answers.filter((item) => selectedQuestions.some((question) => question.id === item.questionId)) : []);
         setDrafts(canRestore ? readQbankSessionDrafts(snapshot?.drafts) : {});
@@ -326,24 +358,45 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       setRemoteActiveSession(session);
     };
 
+    const applyRemoteRow = (value: Record<string, unknown>) => {
+      const sessionId = value.session_id;
+      if (typeof sessionId === "string" && value.ended_at) {
+        if (sessionId !== sessionIdRef.current || finishingRef.current) return;
+        if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+        pendingCloudSessionRef.current = null;
+        clearLocalActiveQbankSession(sessionId);
+        setError("다른 기기에서 종료된 문제 세트입니다.");
+        setLoading(false);
+        return;
+      }
+      applyRemote(value.payload);
+    };
+
     const start = async () => {
       const { data } = await supabase.auth.getUser();
       const user = data.user;
       if (!active) return;
       if (!user) { resumeFailed(); return; }
-      const { data: preference, error: preferenceError } = await supabase.from("user_preferences").select("qbank_active_session").eq("user_id", user.id).maybeSingle();
-      if (preferenceError) {
-        console.warn("Q-bank active session sync is unavailable.", preferenceError);
-        resumeFailed();
-      } else {
-        const saved = (preference as Record<string, unknown> | null)?.qbank_active_session;
-        if (!activeSessionFrom(saved)) resumeFailed();
+      try {
+        const cloud = await loadCloudActiveQbankSessionState(supabase, user.id);
+        if (requestedSessionIdRef.current && cloud.endedSessionIds.includes(requestedSessionIdRef.current)) {
+          clearLocalActiveQbankSession(requestedSessionIdRef.current);
+          setError("이미 종료된 문제 세트입니다.");
+          setLoading(false);
+          return;
+        }
+        const saved = requestedSessionIdRef.current ? cloud.sessions.find((session) => session.sessionId === requestedSessionIdRef.current) : cloud.sessions[0];
+        if (!saved) resumeFailed();
         else applyRemote(saved);
+      } catch (error) {
+        console.warn("Q-bank active session sync is unavailable.", error);
+        resumeFailed();
       }
       if (!active) return;
       setSyncUserId(user.id);
       activeSessionChannelRef.current = supabase.channel(`qbank-active-session:${user.id}`)
-        .on("postgres_changes", { event: "*", schema: "public", table: "user_preferences", filter: `user_id=eq.${user.id}` }, (payload) => applyRemote((payload.new as Record<string, unknown>).qbank_active_session))
+        .on("postgres_changes", { event: "INSERT", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${user.id}` }, (payload) => applyRemote((payload.new as Record<string, unknown>).payload))
+        .on("postgres_changes", { event: "UPDATE", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${user.id}` }, (payload) => applyRemoteRow(payload.new as Record<string, unknown>))
         .subscribe();
     };
 
@@ -351,10 +404,23 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     return () => {
       active = false;
       if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+      flushPendingCloudSession();
       activeSessionChannelRef.current?.unsubscribe();
       activeSessionChannelRef.current = null;
     };
-  }, []);
+  }, [flushPendingCloudSession]);
+
+  useEffect(() => {
+    const flushWhenHidden = () => {
+      if (document.visibilityState === "hidden") flushPendingCloudSession();
+    };
+    window.addEventListener("pagehide", flushPendingCloudSession);
+    document.addEventListener("visibilitychange", flushWhenHidden);
+    return () => {
+      window.removeEventListener("pagehide", flushPendingCloudSession);
+      document.removeEventListener("visibilitychange", flushWhenHidden);
+    };
+  }, [flushPendingCloudSession]);
 
   useEffect(() => {
     if (!remoteActiveSession || remoteActiveSession.updatedAt === appliedRemoteSessionVersionRef.current) return;
@@ -375,6 +441,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         window.sessionStorage.setItem(`${QBANK_SESSION_STORAGE_PREFIX}${remoteActiveSession.sessionId}`, JSON.stringify(remoteActiveSession));
         saveLocalActiveQbankSession(remoteActiveSession);
         setMockExam(readMockExam(remoteActiveSession.mockExam));
+        setSessionContext(remoteActiveSession.context);
         setOptionSessionId(remoteActiveSession.sessionId);
         setQuestions(restoredQuestions);
         setCurrentIndex(restoredIndex);
@@ -474,10 +541,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       return;
     }
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+    pendingCloudSessionRef.current = null;
     try { clearLocalActiveQbankSession(sessionIdRef.current ?? undefined); } catch { /* Result is already saved. */ }
     if (syncUserId) {
       const client = getSupabaseBrowserClient();
-      if (client) void client.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: null }, { onConflict: "user_id" });
+      if (client && sessionIdRef.current) void removeCloudActiveQbankSession(client, syncUserId, sessionIdRef.current)
+        .catch((error) => console.warn("Q-bank active session cleanup failed.", error));
     }
     setFinishConfirm(false);
     setCompleted(true);
@@ -552,6 +621,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   useEffect(() => {
     if (loading || completed || finishingRef.current || questions.length === 0 || !sessionIdRef.current) return;
     const snapshot: QbankActiveSession = {
+      context: sessionContext,
       mockExam,
       drafts: current && selected && !submitted ? { ...drafts, [current.id]: selected } : drafts,
       sessionId: sessionIdRef.current,
@@ -574,14 +644,21 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     }
     if (!syncUserId || remoteSessionApplyingRef.current) return;
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+    pendingCloudSessionRef.current = { userId: syncUserId, snapshot };
     activeSessionTimerRef.current = window.setTimeout(() => {
-      const supabase = getSupabaseBrowserClient();
-      if (!supabase) return;
-      appliedRemoteSessionVersionRef.current = snapshot.updatedAt;
-      void supabase.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: snapshot }, { onConflict: "user_id" })
-        .then(({ error }) => { if (error) console.warn("Q-bank active session sync failed.", error); });
+      flushPendingCloudSession();
     }, mockExam ? 0 : 500);
-  }, [answers, completed, current, currentIndex, drafts, loading, mockExam, questions, selected, sessionStorageKey, submitted, syncUserId]);
+  }, [answers, completed, current, currentIndex, drafts, flushPendingCloudSession, loading, mockExam, questions, selected, sessionContext, sessionStorageKey, submitted, syncUserId]);
+  useEffect(() => {
+    if (!mockExam?.finishedAt || !sessionIdRef.current) return;
+    const finishedSessionId = sessionIdRef.current;
+    if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+    pendingCloudSessionRef.current = null;
+    try { clearLocalActiveQbankSession(finishedSessionId); } catch { /* The completed result is already stored separately. */ }
+    const client = getSupabaseBrowserClient();
+    if (client && syncUserId) void removeCloudActiveQbankSession(client, syncUserId, finishedSessionId)
+      .catch((error) => console.warn("Completed mock session cleanup failed.", error));
+  }, [mockExam?.finishedAt, syncUserId]);
   if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
   if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
   if (questions.length === 0) return (
@@ -684,7 +761,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {!!current.evidenceReferences?.length && <div className="mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
             {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d) => d.type !== "drug").map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={`${d.type === "disease" ? "/disease/" : "/cc/"}${d.slug}`}>{d.title} · 이론</Link>)}</div>}
-            {(current.relatedTheoryQuestionIds?.length ?? 0) > 0 && <Link className="secondary-action mt-3" href={`/review/qbank/session?mode=theory-linked&practiceId=${encodeURIComponent(current.id)}&count=10`}>관련 이론문제 풀기</Link>}
+            <RelatedTheoryLauncher key={current.id} question={current} />
             {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
           </div>
         ) : null}
