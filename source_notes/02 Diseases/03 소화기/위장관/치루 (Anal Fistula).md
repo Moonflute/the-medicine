@@ -43,6 +43,7 @@ reviewed_at: "2026-07-30"
 ## 4. 진단 (Diagnosis)
 - 임상적 증상과 신체 검진을 통해 진단.
 - 필요시 영상 검사를 통해 누관의 경로를 확인하고 괄약근 침범 정도를 평가.
+- 누관은 괄약근간형·경괄약근형·상괄약근형·괄약근외형으로 분류할 수 있으며, 치료 계획에는 누관 높이와 괄약근 기능 평가가 중요하다.
 
 
 ## 5. 치료
@@ -57,7 +58,7 @@ reviewed_at: "2026-07-30"
 
 
 
-출처 : StatPearls (Anal Fissures, Anal Carcinoma)
+출처 : StatPearls (Anal Fissures, Anal Carcinoma); 삼성서울병원 외과 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

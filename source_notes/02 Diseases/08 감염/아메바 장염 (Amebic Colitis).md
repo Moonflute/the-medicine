@@ -51,9 +51,9 @@ reviewed_at: "2026-07-30"
 - 위생 관리 및 오염된 물과 음식 섭취를 피하는 예방 교육을 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
-- 독성 거대결장, 장 천공, 아메바성 간 농양 등의 합병증이 발생할 수 있다.
+- 독성 거대결장, 장 천공, 아메바성 간 농양 및 염증성 종괴(ameboma) 등의 합병증이 발생할 수 있다. 천공 또는 치료에 반응하지 않는 염증성 종괴에서는 외과적 평가가 필요하다.
 
-출처 : StatPearls (Amebic Liver Abscess, Colitis)
+출처 : StatPearls (Amebic Liver Abscess, Colitis); 삼성서울병원 외과 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

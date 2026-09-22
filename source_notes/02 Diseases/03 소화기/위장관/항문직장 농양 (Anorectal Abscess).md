@@ -33,6 +33,7 @@ reviewed_at: "2026-07-30"
 * **P/E**:
   표재성 농양은 시진으로 확인 가능.
   심부 농양은 직장수지검사(DRE) 시 압통 및 파동성 종괴가 만져질 수 있음
+  상항문거근형 등 심부 농양은 외부 소견이 거의 없이 막연한 불편감이나 통증만 나타날 수 있어, 의심 시 마취하 검사 또는 골반 영상 평가를 고려한다.
 
 
 ## 3. 검사 (Lab & Imaging)
@@ -57,7 +58,7 @@ reviewed_at: "2026-07-30"
 
 
 
-출처 : Merck Manual Professional (Anorectal Abscess)
+출처 : Merck Manual Professional (Anorectal Abscess); 삼성서울병원 외과 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

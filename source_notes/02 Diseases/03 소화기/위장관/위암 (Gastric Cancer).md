@@ -76,6 +76,7 @@ reviewed_at: "2026-07-30"
 - 절제 가능 종양은 병변 위치와 범위에 따라 원위부 위절제술 또는 전위부 위절제술을 시행하고, 병기와 수술 범위에 맞는 림프절 절제와 수술 전·후 항암화학요법을 병행한다.
 - 절제 불가능한 국소진행성 또는 전이성 위암에서는, 플루오로우라실‑옥살리플라틴 기반 화학요법을 기본으로 하고, HER2, PD‑L1, MSI/dMMR 등 바이오마커 양성 시 해당 표적·면역제와 병용한다. 치료 중 독성 및 신체 상태를 정기적으로 평가한다.
 - 폐쇄·출혈 등 국소 증상은 병변 위치와 전신 상태에 따라 내시경 스텐트·지혈, 우회술, 방사선치료 등 증상 완화 방법을 다학제로 검토한다.
+- **위절제 주술기 관리**: 수술 전에는 영양 상태·동반질환과 폐색 시 감압 필요성을 평가하고, 수술 후에는 활력징후·통증·상처와 배액 양상, 장운동 회복 및 식이 진행을 함께 추적한다. 병리 결과를 확인해 보조치료 필요성과 추적 계획을 다학제로 정한다.
 
 ## 6. 예후 및 합병증
 - 위절제 뒤 초기에는 출혈, 누출, 문합부 폐쇄를, 후기에는 담즙 역류, 덤핑증후군, 영양·흡수장애를 증상과 경과에 따라 평가한다. 수입각·수출각 폐쇄도 후기 합병증으로 감별한다.
@@ -92,4 +93,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [국내 위암 진료지침 2024, 2025 발표](https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11), [ESGE MAPS III 2025](https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025), [ESGE ESD 기술 검토](https://www.esge.com/esd-techniques-and-technology-esge-technical-review). 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 외과 메뉴얼. [국내 위암 진료지침 2024, 2025 발표](https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11), [ESGE MAPS III 2025](https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025), [ESGE ESD 기술 검토](https://www.esge.com/esd-techniques-and-technology-esge-technical-review). 2026-09-14 기존 목차 내 보완.

@@ -35,6 +35,7 @@ reviewed_at: "2026-07-30"
 - 혈소판 수 감소 (혈전 형성으로 인한 소모성 감소).
   HIT 항체 검사 (PF4-헤파린 항체 ELISA): 민감도가 높아 음성 시 배제 가능.
   세로토닌 방출 검사 (serotonin release assay, SRA): 기능적 확진 검사.
+- 수술 전후에는 혈소판 절대값뿐 아니라 하강 추세를 추적하고, 대량출혈·수혈 뒤 희석, 패혈증·DIC, 다른 약물 및 수술 자체의 영향을 함께 감별한다.
 
 ## 4. 진단 (Diagnosis)
 - 4T 점수 (Thrombocytopenia, Timing, Thrombosis, Other causes)를 통해 가능성 평가.
@@ -56,3 +57,5 @@ reviewed_at: "2026-07-30"
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 외과 메뉴얼
