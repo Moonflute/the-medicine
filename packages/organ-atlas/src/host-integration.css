@@ -63,7 +63,6 @@
 @media(max-width:800px){.model-settings{right:10px;bottom:14px}#settings-sheet{max-height:280px;width:260px}}
 @media(prefers-reduced-motion:reduce){#settings-sheet{transition:none}}
 html.hosted-atlas body{background:var(--background);color:var(--foreground)}
-.workspace:has(.model-settings.is-open) #connector{opacity:0;pointer-events:none}
 .hosted-atlas .structure-context{display:grid;gap:8px;margin-top:12px}
 .hosted-atlas .structure-context:empty{display:none}
 .hosted-atlas .structure-context .slice-toggle{margin:0;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--surface-subtle);font-size:12px}

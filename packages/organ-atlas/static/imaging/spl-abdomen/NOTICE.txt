@@ -1,0 +1,32 @@
+All or portions of this licensed product (such portions are the "Software")
+have been obtained under license from The Brigham and Women's Hospital,
+Inc. and are subject to the following terms and conditions:
+
+This distribution includes a modified, web-oriented derivative of the SPL
+Abdominal Atlas (September 2015; archive abdomen-2016-09).
+
+Original atlas authors:
+- Florin Talos, Surgical Planning Laboratory
+- Marianna Jakab, Surgical Planning Laboratory
+- Ron Kikinis, Surgical Planning Laboratory
+
+Institution:
+Surgical Planning Laboratory, Department of Radiology,
+Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.
+
+Official atlas page:
+https://www.openanatomy.org/atlas-pages/atlas-spl-abdomen.html
+
+Changes made for this web atlas:
+- copied the original embedded-gzip Int16 CT and label-map NRRD files without
+  changing voxel values or spatial metadata;
+- selected 11 official abdominal surface models and converted their VTK
+  geometry to a single gzip-compressed GLB while preserving source positions;
+- applied new display materials, browser interaction metadata, and a common
+  RAS-to-web-view transform to the CT plane and surfaces together;
+- generated a manifest containing hashes, geometry, labels, and provenance;
+- left the unknown source label value 699 unmapped and transparent.
+
+The complete 3D Slicer license is distributed beside this notice as
+SLICER-LICENSE.txt. The atlas is for research and education and is not a
+diagnostic medical device.

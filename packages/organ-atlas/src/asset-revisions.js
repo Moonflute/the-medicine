@@ -479,5 +479,21 @@ export const assetRevisions={
   "./models/current/z-whole-veins-optimized.glb.gz": {
     "sha256": "b3138bcc07314a7eed4ea5b669dab6ff0db3906d1a48e4400039dfeea8d98707",
     "bytes": 10955711
+  },
+  "./imaging/spl-abdomen/I.nrrd": {
+    "sha256": "741e36154074b3834be49c0554e1b49875a9a96d8ed1e466d7614758f2a8f726",
+    "bytes": 7120975
+  },
+  "./imaging/spl-abdomen/seg.nrrd": {
+    "sha256": "f6ccae59157948bd790c0783ca672ba1bfb719239bb5ac1a9f023f63357ea02f",
+    "bytes": 232498
+  },
+  "./imaging/spl-abdomen/spl-abdomen-core.glb.gz": {
+    "sha256": "1870f60893a102d1a3740a099d97cf428fabb616c4ef520e32844ec743b7ff0f",
+    "bytes": 6063664
+  },
+  "./imaging/spl-abdomen/spl-abdomen-manifest.json": {
+    "sha256": "d5a5efa66b3e89b38896cc3ab4a7bb1b11b62c9d6d3d612cef22b20b5302b919",
+    "bytes": 68254
   }
 };

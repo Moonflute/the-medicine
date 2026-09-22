@@ -1,0 +1,3234 @@
+{
+  "schemaVersion": 1,
+  "atlas": {
+    "id": "spl-abdomen-2016-09",
+    "title": "SPL Abdominal Atlas",
+    "coordinateSystem": "RAS",
+    "officialPage": "https://www.openanatomy.org/atlas-pages/atlas-spl-abdomen.html",
+    "officialArchive": "https://www.openanatomy.org/atlases/nac/abdomen-2016-09.zip"
+  },
+  "source": {
+    "providedAs": "local-zip",
+    "archiveSha256": "1cf85dbc820767b7c3095790ff38ae150a085af713061a2f0e950e355e4dc7c8",
+    "archiveBytes": 34861066,
+    "files": {
+      "mrml": {
+        "path": "abdomen-2016-09/AbdominalAtlas-2015Sept-Slicer4-4Version.mrml",
+        "bytes": 1594413,
+        "sha256": "2c6311959fdd09074e9a5faa03b86e974f1c8424df3658e850e63966e9fd3ef5",
+        "version": "Slicer4.4.0"
+      },
+      "atlasStructure": {
+        "path": "abdomen-2016-09/atlasStructure.json",
+        "bytes": 101513,
+        "sha256": "5de765910cfa99ddf57395be858d688604c999251d71c265da7bb1599667c6d6"
+      },
+      "colorTable": {
+        "path": "abdomen-2016-09/Data/AbdominalAtlasColors.ctbl",
+        "bytes": 4466,
+        "sha256": "87fbdfaf643eb3b587eccac2c38622f363611c972ee11be2633880cfca711951"
+      }
+    }
+  },
+  "volume": {
+    "ct": {
+      "file": "I.nrrd",
+      "bytes": 7120975,
+      "sha256": "741e36154074b3834be49c0554e1b49875a9a96d8ed1e466d7614758f2a8f726",
+      "type": "int16",
+      "sourceType": "short",
+      "dimensions": [
+        256,
+        256,
+        113
+      ],
+      "spacing": [
+        0.9375000000000002,
+        0.9375000000000002,
+        1.5000000000000004
+      ],
+      "ijkToRas": [
+        -0.9375000000000002,
+        0,
+        0,
+        119.53000000000002,
+        0,
+        0.9375000000000002,
+        0,
+        -119.53000000000007,
+        0,
+        0,
+        -1.5000000000000004,
+        84.00000000000003,
+        0,
+        0,
+        0,
+        1
+      ],
+      "space": "left-posterior-superior",
+      "encoding": "gzip",
+      "endian": "little"
+    },
+    "seg": {
+      "file": "seg.nrrd",
+      "bytes": 232498,
+      "sha256": "f6ccae59157948bd790c0783ca672ba1bfb719239bb5ac1a9f023f63357ea02f",
+      "type": "int16",
+      "sourceType": "short",
+      "dimensions": [
+        256,
+        256,
+        113
+      ],
+      "spacing": [
+        0.9375000000000002,
+        0.9375000000000002,
+        1.5000000000000004
+      ],
+      "ijkToRas": [
+        -0.9375000000000002,
+        0,
+        0,
+        119.53000000000002,
+        0,
+        0.9375000000000002,
+        0,
+        -119.53000000000007,
+        0,
+        0,
+        -1.5000000000000004,
+        84.00000000000003,
+        0,
+        0,
+        0,
+        1
+      ],
+      "space": "left-posterior-superior",
+      "encoding": "gzip",
+      "endian": "little"
+    }
+  },
+  "windowLevel": {
+    "window": 1310,
+    "level": 666,
+    "source": "MRML VolumeDisplay"
+  },
+  "labelMap": [
+    {
+      "labelValue": 2,
+      "ctblName": "bone",
+      "rgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 3,
+      "ctblName": "liver",
+      "rgba": [
+        147,
+        59,
+        0,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "liver",
+      "sourceId": "liver",
+      "geometrySource": "Data/Model_3_liver.vtk",
+      "atlasRgba": [
+        147,
+        59,
+        0,
+        255
+      ],
+      "voxelCount": 181482
+    },
+    {
+      "labelValue": 4,
+      "ctblName": "spleen",
+      "rgba": [
+        140,
+        100,
+        160,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "spleen",
+      "sourceId": "spleen",
+      "geometrySource": "Data/Model_4_spleen.vtk",
+      "atlasRgba": [
+        140,
+        100,
+        160,
+        255
+      ],
+      "voxelCount": 13154
+    },
+    {
+      "labelValue": 6,
+      "ctblName": "pancreas",
+      "rgba": [
+        157,
+        110,
+        55,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "pancreas",
+      "sourceId": "pancreas",
+      "geometrySource": "Data/Model_6_pancreas.vtk",
+      "atlasRgba": [
+        156,
+        110,
+        54,
+        255
+      ],
+      "voxelCount": 9492
+    },
+    {
+      "labelValue": 7,
+      "ctblName": "aorta",
+      "rgba": [
+        255,
+        50,
+        21,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "aorta",
+      "sourceId": "aorta",
+      "geometrySource": "Data/Model_7_aorta.vtk",
+      "atlasRgba": [
+        255,
+        49,
+        20,
+        255
+      ],
+      "voxelCount": 16752
+    },
+    {
+      "labelValue": 8,
+      "ctblName": "inferior_vena_cava",
+      "rgba": [
+        50,
+        21,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "inferior vena cava",
+      "sourceId": "inferior_vena_cava",
+      "geometrySource": "Data/Model_8_inferior_vena_cava.vtk",
+      "atlasRgba": [
+        49,
+        20,
+        255,
+        255
+      ],
+      "voxelCount": 15220
+    },
+    {
+      "labelValue": 9,
+      "ctblName": "colon_and_ileum",
+      "rgba": [
+        255,
+        245,
+        197,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "colon and ileum",
+      "sourceId": "colon_and_ileum",
+      "geometrySource": "Data/Model_9_colon_and_ileum.vtk",
+      "atlasRgba": [
+        255,
+        244,
+        196,
+        255
+      ],
+      "voxelCount": 204598
+    },
+    {
+      "labelValue": 10,
+      "ctblName": "gallbladder",
+      "rgba": [
+        0,
+        255,
+        127,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "gallbladder",
+      "sourceId": "gallbladder",
+      "geometrySource": "Data/Model_10_gallbladder.vtk",
+      "atlasRgba": [
+        0,
+        255,
+        126,
+        255
+      ],
+      "voxelCount": 5885
+    },
+    {
+      "labelValue": 11,
+      "ctblName": "inferior_mesenteric_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 12,
+      "ctblName": "portal_vein_and_superior_mesenteric_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "portal vein and superior mesenteric vein",
+      "sourceId": "portal_vein_and_superior_mesenteric_vein",
+      "geometrySource": "Data/Model_12_portal_vein_and_superior_mesenteric_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 2275
+    },
+    {
+      "labelValue": 13,
+      "ctblName": "stomach_and_duodenum",
+      "rgba": [
+        210,
+        170,
+        160,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "stomach and duodenum",
+      "sourceId": "stomach_and_duodenum",
+      "geometrySource": "Data/Model_13_stomach_and_duodenum.vtk",
+      "atlasRgba": [
+        209,
+        170,
+        160,
+        255
+      ],
+      "voxelCount": 68541
+    },
+    {
+      "labelValue": 16,
+      "ctblName": "celiac_trunk",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "celiac trunk",
+      "sourceId": "celiac_trunk",
+      "geometrySource": "Data/Model_16_celiac_trunk.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 405
+    },
+    {
+      "labelValue": 17,
+      "ctblName": "splenic_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "splenic artery",
+      "sourceId": "splenic_artery",
+      "geometrySource": "Data/Model_17_splenic_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 1716
+    },
+    {
+      "labelValue": 18,
+      "ctblName": "left_gastric_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left gastric artery",
+      "sourceId": "left_gastric_artery",
+      "geometrySource": "Data/Model_18_left_gastric_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 625
+    },
+    {
+      "labelValue": 19,
+      "ctblName": "common_hepatic_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "common hepatic artery",
+      "sourceId": "common_hepatic_artery",
+      "geometrySource": "Data/Model_19_common_hepatic_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 280
+    },
+    {
+      "labelValue": 20,
+      "ctblName": "hepatic_artery_proper",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "hepatic artery proper",
+      "sourceId": "hepatic_artery_proper",
+      "geometrySource": "Data/Model_20_hepatic_artery_proper.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 236
+    },
+    {
+      "labelValue": 21,
+      "ctblName": "gastroduodenal_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "gastroduodenal artery",
+      "sourceId": "gastroduodenal_artery",
+      "geometrySource": "Data/Model_21_gastroduodenal_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 876
+    },
+    {
+      "labelValue": 22,
+      "ctblName": "superior_mesenteric_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "superior mesenteric artery",
+      "sourceId": "superior_mesenteric_artery",
+      "geometrySource": "Data/Model_22_superior_mesenteric_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 1648
+    },
+    {
+      "labelValue": 23,
+      "ctblName": "inferior_mesenteric_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "inferior mesenteric artery",
+      "sourceId": "inferior_mesenteric_artery",
+      "geometrySource": "Data/Model_23_inferior_mesenteric_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 1416
+    },
+    {
+      "labelValue": 24,
+      "ctblName": "left_hepatic_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left hepatic artery",
+      "sourceId": "left_hepatic_artery",
+      "geometrySource": "Data/Model_24_left_hepatic_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 285
+    },
+    {
+      "labelValue": 25,
+      "ctblName": "right_hepatic_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right hepatic artery",
+      "sourceId": "right_hepatic_artery",
+      "geometrySource": "Data/Model_25_right_hepatic_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 817
+    },
+    {
+      "labelValue": 29,
+      "ctblName": "left_renal_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left renal artery",
+      "sourceId": "left_renal_artery",
+      "geometrySource": "Data/Model_29_left_renal_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 1509
+    },
+    {
+      "labelValue": 32,
+      "ctblName": "rectus_abdominis_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "rectus abdominis muscle",
+      "sourceId": "rectus_abdominis_muscle",
+      "geometrySource": "Data/Model_32_rectus_abdominis_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 72590
+    },
+    {
+      "labelValue": 51,
+      "ctblName": "right_kidney",
+      "rgba": [
+        220,
+        170,
+        120,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right kidney",
+      "sourceId": "right_kidney",
+      "geometrySource": "Data/Model_51_right_kidney.vtk",
+      "atlasRgba": [
+        219,
+        170,
+        119,
+        255
+      ],
+      "voxelCount": 35862
+    },
+    {
+      "labelValue": 52,
+      "ctblName": "left_kidney",
+      "rgba": [
+        220,
+        170,
+        120,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left kidney",
+      "sourceId": "left_kidney",
+      "geometrySource": "Data/Model_52_left_kidney.vtk",
+      "atlasRgba": [
+        219,
+        170,
+        119,
+        255
+      ],
+      "voxelCount": 35826
+    },
+    {
+      "labelValue": 71,
+      "ctblName": "right_common_iliac_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right common iliac artery",
+      "sourceId": "right_common_iliac_artery",
+      "geometrySource": "Data/Model_71_right_common_iliac_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 1073
+    },
+    {
+      "labelValue": 72,
+      "ctblName": "left_common_iliac_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left common iliac artery",
+      "sourceId": "left_common_iliac_artery",
+      "geometrySource": "Data/Model_72_left_common_iliac_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 653
+    },
+    {
+      "labelValue": 73,
+      "ctblName": "right_external_iliac_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right external iliac artery",
+      "sourceId": "right_external_iliac_artery",
+      "geometrySource": "Data/Model_73_right_external_iliac_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 802
+    },
+    {
+      "labelValue": 74,
+      "ctblName": "left_external_iliac_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left external iliac artery",
+      "sourceId": "left_external_iliac_artery",
+      "geometrySource": "Data/Model_74_left_external_iliac_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 941
+    },
+    {
+      "labelValue": 75,
+      "ctblName": "right_internal_iliac_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right internal iliac artery",
+      "sourceId": "right_internal_iliac_artery",
+      "geometrySource": "Data/Model_75_right_internal_iliac_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 548
+    },
+    {
+      "labelValue": 76,
+      "ctblName": "left_internal_iliac_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left internal iliac artery",
+      "sourceId": "left_internal_iliac_artery",
+      "geometrySource": "Data/Model_76_left_internal_iliac_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 511
+    },
+    {
+      "labelValue": 81,
+      "ctblName": "right_common_iliac_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right common iliac vein",
+      "sourceId": "right_common_iliac_vein",
+      "geometrySource": "Data/Model_81_right_common_iliac_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 1078
+    },
+    {
+      "labelValue": 82,
+      "ctblName": "left_common_iliac_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left common iliac vein",
+      "sourceId": "left_common_iliac_vein",
+      "geometrySource": "Data/Model_82_left_common_iliac_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 1004
+    },
+    {
+      "labelValue": 83,
+      "ctblName": "right_external_iliac_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right external iliac vein",
+      "sourceId": "right_external_iliac_vein",
+      "geometrySource": "Data/Model_83_right_external_iliac_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 924
+    },
+    {
+      "labelValue": 84,
+      "ctblName": "left_external_iliac_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left external iliac vein",
+      "sourceId": "left_external_iliac_vein",
+      "geometrySource": "Data/Model_84_left_external_iliac_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 819
+    },
+    {
+      "labelValue": 85,
+      "ctblName": "right_internal_iliac_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right internal iliac vein",
+      "sourceId": "right_internal_iliac_vein",
+      "geometrySource": "Data/Model_85_right_internal_iliac_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 468
+    },
+    {
+      "labelValue": 86,
+      "ctblName": "left_internal_iliac_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left internal iliac vein",
+      "sourceId": "left_internal_iliac_vein",
+      "geometrySource": "Data/Model_86_left_internal_iliac_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 472
+    },
+    {
+      "labelValue": 111,
+      "ctblName": "right_adrenal_gland",
+      "rgba": [
+        255,
+        224,
+        77,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right adrenal gland",
+      "sourceId": "right_adrenal_gland",
+      "geometrySource": "Data/Model_111_right_adrenal_gland.vtk",
+      "atlasRgba": [
+        255,
+        223,
+        77,
+        255
+      ],
+      "voxelCount": 612
+    },
+    {
+      "labelValue": 112,
+      "ctblName": "left_adrenal_gland",
+      "rgba": [
+        255,
+        224,
+        77,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left adrenal gland",
+      "sourceId": "left_adrenal_gland",
+      "geometrySource": "Data/Model_112_left_adrenal_gland.vtk",
+      "atlasRgba": [
+        255,
+        223,
+        77,
+        255
+      ],
+      "voxelCount": 1029
+    },
+    {
+      "labelValue": 117,
+      "ctblName": "splenic_vein",
+      "rgba": [
+        41,
+        166,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "splenic vein",
+      "sourceId": "splenic_vein",
+      "geometrySource": "Data/Model_117_splenic_vein.vtk",
+      "atlasRgba": [
+        40,
+        165,
+        255,
+        255
+      ],
+      "voxelCount": 727
+    },
+    {
+      "labelValue": 126,
+      "ctblName": "right_renal_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right renal artery",
+      "sourceId": "right_renal_artery",
+      "geometrySource": "Data/Model_126_right_renal_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 1220
+    },
+    {
+      "labelValue": 127,
+      "ctblName": "right_inferior_epigastric_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right inferior epigastric artery",
+      "sourceId": "right_inferior_epigastric_artery",
+      "geometrySource": "Data/Model_127_right_inferior_epigastric_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 495
+    },
+    {
+      "labelValue": 128,
+      "ctblName": "left_renal_vein",
+      "rgba": [
+        196,
+        203,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left renal vein",
+      "sourceId": "left_renal_vein",
+      "geometrySource": "Data/Model_128_left_renal_vein.vtk",
+      "atlasRgba": [
+        195,
+        202,
+        255,
+        255
+      ],
+      "voxelCount": 858
+    },
+    {
+      "labelValue": 129,
+      "ctblName": "right_renal_vein",
+      "rgba": [
+        196,
+        203,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right renal vein",
+      "sourceId": "right_renal_vein",
+      "geometrySource": "Data/Model_129_right_renal_vein.vtk",
+      "atlasRgba": [
+        195,
+        202,
+        255,
+        255
+      ],
+      "voxelCount": 525
+    },
+    {
+      "labelValue": 131,
+      "ctblName": "right_psoas_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right psoas muscle",
+      "sourceId": "right_psoas_muscle",
+      "geometrySource": "Data/Model_131_right_psoas_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 26020
+    },
+    {
+      "labelValue": 133,
+      "ctblName": "right_quadratus_lumborum_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right quadratus lumborum muscle",
+      "sourceId": "right_quadratus_lumborum_muscle",
+      "geometrySource": "Data/Model_133_right_quadratus_lumborum_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 8226
+    },
+    {
+      "labelValue": 135,
+      "ctblName": "right_external_oblique_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right external oblique muscle",
+      "sourceId": "right_external_oblique_muscle",
+      "geometrySource": "Data/Model_135_right_external_oblique_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 41929
+    },
+    {
+      "labelValue": 136,
+      "ctblName": "right_internal_oblique_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right internal oblique muscle",
+      "sourceId": "right_internal_oblique_muscle",
+      "geometrySource": "Data/Model_136_right_internal_oblique_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 24295
+    },
+    {
+      "labelValue": 137,
+      "ctblName": "right_erector_spinae_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right erector spinae muscle",
+      "sourceId": "right_erector_spinae_muscle",
+      "geometrySource": "Data/Model_137_right_erector_spinae_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 68254
+    },
+    {
+      "labelValue": 138,
+      "ctblName": "right_iliacus_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right iliacus muscle",
+      "sourceId": "right_iliacus_muscle",
+      "geometrySource": "Data/Model_138_right_iliacus_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 8314
+    },
+    {
+      "labelValue": 139,
+      "ctblName": "right_gluteus_minimus_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right gluteus minimus muscle",
+      "sourceId": "right_gluteus_minimus_muscle",
+      "geometrySource": "Data/Model_139_right_gluteus_minimus_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 6762
+    },
+    {
+      "labelValue": 140,
+      "ctblName": "right_gluteus_medius_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right gluteus medius muscle",
+      "sourceId": "right_gluteus_medius_muscle",
+      "geometrySource": "Data/Model_140_right_gluteus_medius_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 32642
+    },
+    {
+      "labelValue": 141,
+      "ctblName": "right_ureter",
+      "rgba": [
+        225,
+        150,
+        75,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right ureter",
+      "sourceId": "right_ureter",
+      "geometrySource": "Data/Model_141_right_ureter.vtk",
+      "atlasRgba": [
+        225,
+        149,
+        75,
+        255
+      ],
+      "voxelCount": 1647
+    },
+    {
+      "labelValue": 142,
+      "ctblName": "left_ureter",
+      "rgba": [
+        225,
+        150,
+        75,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left ureter",
+      "sourceId": "left_ureter",
+      "geometrySource": "Data/Model_142_left_ureter.vtk",
+      "atlasRgba": [
+        225,
+        149,
+        75,
+        255
+      ],
+      "voxelCount": 1813
+    },
+    {
+      "labelValue": 143,
+      "ctblName": "right_gluteus_maximus_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right gluteus maximus muscle",
+      "sourceId": "right_gluteus_maximus_muscle",
+      "geometrySource": "Data/Model_143_right_gluteus_maximus_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 18476
+    },
+    {
+      "labelValue": 145,
+      "ctblName": "right_renal_pelvis",
+      "rgba": [
+        225,
+        150,
+        75,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right renal pelvis",
+      "sourceId": "right_renal_pelvis",
+      "geometrySource": "Data/Model_145_right_renal_pelvis.vtk",
+      "atlasRgba": [
+        225,
+        149,
+        75,
+        255
+      ],
+      "voxelCount": 3249
+    },
+    {
+      "labelValue": 146,
+      "ctblName": "left_renal_pelvis",
+      "rgba": [
+        225,
+        150,
+        75,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left renal pelvis",
+      "sourceId": "left_renal_pelvis",
+      "geometrySource": "Data/Model_146_left_renal_pelvis.vtk",
+      "atlasRgba": [
+        225,
+        149,
+        75,
+        255
+      ],
+      "voxelCount": 3934
+    },
+    {
+      "labelValue": 151,
+      "ctblName": "right_hepatic_vein",
+      "rgba": [
+        196,
+        203,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "right hepatic vein",
+      "sourceId": "right_hepatic_vein",
+      "geometrySource": "Data/Model_151_right_hepatic_vein.vtk",
+      "atlasRgba": [
+        195,
+        202,
+        255,
+        255
+      ],
+      "voxelCount": 1357
+    },
+    {
+      "labelValue": 152,
+      "ctblName": "middle_hepatic_vein",
+      "rgba": [
+        196,
+        203,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 153,
+      "ctblName": "left_hepatic_vein",
+      "rgba": [
+        196,
+        203,
+        255,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left hepatic vein",
+      "sourceId": "left_hepatic_vein",
+      "geometrySource": "Data/Model_153_left_hepatic_vein.vtk",
+      "atlasRgba": [
+        195,
+        202,
+        255,
+        255
+      ],
+      "voxelCount": 309
+    },
+    {
+      "labelValue": 227,
+      "ctblName": "left_inferior_epigastric_artery",
+      "rgba": [
+        253,
+        99,
+        71,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left inferior epigastric artery",
+      "sourceId": "left_inferior_epigastric_artery",
+      "geometrySource": "Data/Model_227_left_inferior_epigastric_artery.vtk",
+      "atlasRgba": [
+        253,
+        98,
+        70,
+        255
+      ],
+      "voxelCount": 480
+    },
+    {
+      "labelValue": 231,
+      "ctblName": "left_psoas_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left psoas muscle",
+      "sourceId": "left_psoas_muscle",
+      "geometrySource": "Data/Model_231_left_psoas_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 25201
+    },
+    {
+      "labelValue": 233,
+      "ctblName": "left_quadratus_lumborum_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left quadratus lumborum muscle",
+      "sourceId": "left_quadratus_lumborum_muscle",
+      "geometrySource": "Data/Model_233_left_quadratus_lumborum_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 8909
+    },
+    {
+      "labelValue": 235,
+      "ctblName": "left_external_oblique_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left external oblique muscle",
+      "sourceId": "left_external_oblique_muscle",
+      "geometrySource": "Data/Model_235_left_external_oblique_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 37906
+    },
+    {
+      "labelValue": 236,
+      "ctblName": "left_internal_oblique_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left internal oblique muscle",
+      "sourceId": "left_internal_oblique_muscle",
+      "geometrySource": "Data/Model_236_left_internal_oblique_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 23593
+    },
+    {
+      "labelValue": 237,
+      "ctblName": "left_erector_spinae_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left erector spinae muscle",
+      "sourceId": "left_erector_spinae_muscle",
+      "geometrySource": "Data/Model_237_left_erector_spinae_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 69616
+    },
+    {
+      "labelValue": 238,
+      "ctblName": "left_iliacus_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left iliacus muscle",
+      "sourceId": "left_iliacus_muscle",
+      "geometrySource": "Data/Model_238_left_iliacus_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 7673
+    },
+    {
+      "labelValue": 239,
+      "ctblName": "left_gluteus_minimus_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left gluteus minimus muscle",
+      "sourceId": "left_gluteus_minimus_muscle",
+      "geometrySource": "Data/Model_239_left_gluteus_minimus_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 6426
+    },
+    {
+      "labelValue": 240,
+      "ctblName": "left_gluteus_medius_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left gluteus medius muscle",
+      "sourceId": "left_gluteus_medius_muscle",
+      "geometrySource": "Data/Model_240_left_gluteus_medius_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 32383
+    },
+    {
+      "labelValue": 241,
+      "ctblName": "left_gluteus_maximus_muscle",
+      "rgba": [
+        230,
+        125,
+        125,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "left gluteus maximus muscle",
+      "sourceId": "left_gluteus_maximus_muscle",
+      "geometrySource": "Data/Model_241_left_gluteus_maximus_muscle.vtk",
+      "atlasRgba": [
+        230,
+        124,
+        124,
+        255
+      ],
+      "voxelCount": 16512
+    },
+    {
+      "labelValue": 299,
+      "ctblName": "Pelvis",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Pelvis",
+      "sourceId": "Pelvis",
+      "geometrySource": "Data/Model_299_Pelvis.vtk",
+      "atlasRgba": [
+        196,
+        188,
+        177,
+        255
+      ],
+      "voxelCount": 86900
+    },
+    {
+      "labelValue": 301,
+      "ctblName": "Cervical1",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 302,
+      "ctblName": "Cervical2",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 303,
+      "ctblName": "Cervical3",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 304,
+      "ctblName": "Cervical4",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 305,
+      "ctblName": "Cervical5",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 306,
+      "ctblName": "Cervical6",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 307,
+      "ctblName": "Cervical7",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 401,
+      "ctblName": "Thoracic1",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 402,
+      "ctblName": "Thoracic2",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 403,
+      "ctblName": "Thoracic3",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 404,
+      "ctblName": "Thoracic4",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 405,
+      "ctblName": "Thoracic5",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 406,
+      "ctblName": "Thoracic6",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 407,
+      "ctblName": "Thoracic7",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 408,
+      "ctblName": "Thoracic8",
+      "rgba": [
+        197,
+        189,
+        177,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 409,
+      "ctblName": "Thoracic9",
+      "rgba": [
+        214,
+        199,
+        186,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Thoracic9",
+      "sourceId": "Thoracic9",
+      "geometrySource": "Data/Model_409_Thoracic9.vtk",
+      "atlasRgba": [
+        214,
+        198,
+        186,
+        255
+      ],
+      "voxelCount": 609
+    },
+    {
+      "labelValue": 410,
+      "ctblName": "Thoracic10",
+      "rgba": [
+        176,
+        163,
+        153,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Thoracic10",
+      "sourceId": "Thoracic10",
+      "geometrySource": "Data/Model_410_Thoracic10.vtk",
+      "atlasRgba": [
+        175,
+        163,
+        153,
+        255
+      ],
+      "voxelCount": 5996
+    },
+    {
+      "labelValue": 411,
+      "ctblName": "Thoracic11",
+      "rgba": [
+        138,
+        128,
+        120,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Thoracic11",
+      "sourceId": "Thoracic11",
+      "geometrySource": "Data/Model_411_Thoracic11.vtk",
+      "atlasRgba": [
+        137,
+        128,
+        119,
+        255
+      ],
+      "voxelCount": 7454
+    },
+    {
+      "labelValue": 412,
+      "ctblName": "Thoracic12",
+      "rgba": [
+        138,
+        134,
+        120,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Thoracic12",
+      "sourceId": "Thoracic12",
+      "geometrySource": "Data/Model_412_Thoracic12.vtk",
+      "atlasRgba": [
+        137,
+        133,
+        119,
+        255
+      ],
+      "voxelCount": 8919
+    },
+    {
+      "labelValue": 501,
+      "ctblName": "Lumbar1",
+      "rgba": [
+        214,
+        208,
+        186,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Lumbar1",
+      "sourceId": "Lumbar1",
+      "geometrySource": "Data/Model_501_Lumbar1.vtk",
+      "atlasRgba": [
+        214,
+        207,
+        186,
+        255
+      ],
+      "voxelCount": 9295
+    },
+    {
+      "labelValue": 502,
+      "ctblName": "Lumbar2",
+      "rgba": [
+        176,
+        171,
+        153,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Lumbar2",
+      "sourceId": "Lumbar2",
+      "geometrySource": "Data/Model_502_Lumbar2.vtk",
+      "atlasRgba": [
+        175,
+        170,
+        153,
+        255
+      ],
+      "voxelCount": 10018
+    },
+    {
+      "labelValue": 503,
+      "ctblName": "Lumbar3",
+      "rgba": [
+        138,
+        138,
+        138,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Lumbar3",
+      "sourceId": "Lumbar3",
+      "geometrySource": "Data/Model_503_Lumbar3.vtk",
+      "atlasRgba": [
+        137,
+        137,
+        137,
+        255
+      ],
+      "voxelCount": 14328
+    },
+    {
+      "labelValue": 504,
+      "ctblName": "Lumbar4",
+      "rgba": [
+        117,
+        117,
+        117,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Lumbar4",
+      "sourceId": "Lumbar4",
+      "geometrySource": "Data/Model_504_Lumbar4.vtk",
+      "atlasRgba": [
+        117,
+        117,
+        117,
+        255
+      ],
+      "voxelCount": 12907
+    },
+    {
+      "labelValue": 505,
+      "ctblName": "Lumbar5",
+      "rgba": [
+        189,
+        189,
+        189,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Lumbar5",
+      "sourceId": "Lumbar5",
+      "geometrySource": "Data/Model_505_Lumbar5.vtk",
+      "atlasRgba": [
+        188,
+        188,
+        188,
+        255
+      ],
+      "voxelCount": 15210
+    },
+    {
+      "labelValue": 551,
+      "ctblName": "Sacrum-L5-IntervertebralDisc",
+      "rgba": [
+        122,
+        122,
+        122,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Sacrum-L5-IntervertebralDisc",
+      "sourceId": "Sacrum-L5-IntervertebralDisc",
+      "geometrySource": "Data/Model_551_Sacrum-L5-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        121,
+        121,
+        121,
+        255
+      ],
+      "voxelCount": 2345
+    },
+    {
+      "labelValue": 552,
+      "ctblName": "L5-L4-IntervertebralDisc",
+      "rgba": [
+        212,
+        207,
+        195,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "L5-L4-IntervertebralDisc",
+      "sourceId": "L5-L4-IntervertebralDisc",
+      "geometrySource": "Data/Model_552_L5-L4-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        212,
+        207,
+        195,
+        255
+      ],
+      "voxelCount": 3266
+    },
+    {
+      "labelValue": 553,
+      "ctblName": "L4-L3-IntervertebralDisc",
+      "rgba": [
+        173,
+        169,
+        160,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "L4-L3-IntervertebralDisc",
+      "sourceId": "L4-L3-IntervertebralDisc",
+      "geometrySource": "Data/Model_553_L4-L3-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        172,
+        168,
+        160,
+        255
+      ],
+      "voxelCount": 4138
+    },
+    {
+      "labelValue": 554,
+      "ctblName": "L3-L2-IntervertebralDisc",
+      "rgba": [
+        166,
+        166,
+        166,
+        225
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "L3-L2-IntervertebralDisc",
+      "sourceId": "L3-L2-IntervertebralDisc",
+      "geometrySource": "Data/Model_554_L3-L2-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        165,
+        165,
+        165,
+        255
+      ],
+      "voxelCount": 4860
+    },
+    {
+      "labelValue": 555,
+      "ctblName": "L2-L1-IntervertebralDisc",
+      "rgba": [
+        208,
+        208,
+        199,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "L2-L1-IntervertebralDisc",
+      "sourceId": "L2-L1-IntervertebralDisc",
+      "geometrySource": "Data/Model_555_L2-L1-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        207,
+        207,
+        198,
+        255
+      ],
+      "voxelCount": 4596
+    },
+    {
+      "labelValue": 556,
+      "ctblName": "L1-T12-IntervertebralDisc",
+      "rgba": [
+        173,
+        173,
+        173,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "L1-T12-IntervertebralDisc",
+      "sourceId": "L1-T12-IntervertebralDisc",
+      "geometrySource": "Data/Model_556_L1-T12-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        172,
+        172,
+        172,
+        255
+      ],
+      "voxelCount": 3151
+    },
+    {
+      "labelValue": 557,
+      "ctblName": "T12-T11-IntervertebralDisc",
+      "rgba": [
+        173,
+        169,
+        160,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "T12-T11-IntervertebralDisc",
+      "sourceId": "T12-T11-IntervertebralDisc",
+      "geometrySource": "Data/Model_557_T12-T11-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        172,
+        168,
+        160,
+        255
+      ],
+      "voxelCount": 2370
+    },
+    {
+      "labelValue": 558,
+      "ctblName": "T11-T10-IntervertebralDisc",
+      "rgba": [
+        127,
+        127,
+        127,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "T11-T10-IntervertebralDisc",
+      "sourceId": "T11-T10-IntervertebralDisc",
+      "geometrySource": "Data/Model_558_T11-T10-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        126,
+        126,
+        126,
+        255
+      ],
+      "voxelCount": 2698
+    },
+    {
+      "labelValue": 559,
+      "ctblName": "T10-T9-IntervertebralDisc",
+      "rgba": [
+        220,
+        213,
+        198,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "T10-T9-IntervertebralDisc",
+      "sourceId": "T10-T9-IntervertebralDisc",
+      "geometrySource": "Data/Model_559_T10-T9-IntervertebralDisc.vtk",
+      "atlasRgba": [
+        219,
+        212,
+        198,
+        255
+      ],
+      "voxelCount": 974
+    },
+    {
+      "labelValue": 600,
+      "ctblName": "Sacrum",
+      "rgba": [
+        75,
+        68,
+        58,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Sacrum",
+      "sourceId": "Sacrum",
+      "geometrySource": "Data/Model_600_Sacrum.vtk",
+      "atlasRgba": [
+        75,
+        68,
+        58,
+        255
+      ],
+      "voxelCount": 43262
+    },
+    {
+      "labelValue": 681,
+      "ctblName": "Rib1",
+      "rgba": [
+        25,
+        25,
+        10,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 682,
+      "ctblName": "Rib2",
+      "rgba": [
+        45,
+        45,
+        30,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 683,
+      "ctblName": "Rib3",
+      "rgba": [
+        65,
+        65,
+        50,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 684,
+      "ctblName": "Rib4",
+      "rgba": [
+        85,
+        85,
+        70,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 685,
+      "ctblName": "Rib5",
+      "rgba": [
+        105,
+        1,
+        252,
+        90
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    },
+    {
+      "labelValue": 686,
+      "ctblName": "Rib6",
+      "rgba": [
+        125,
+        125,
+        110,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Rib6",
+      "sourceId": "Rib6",
+      "geometrySource": "Data/Model_686_Rib6.vtk",
+      "atlasRgba": [
+        124,
+        124,
+        110,
+        255
+      ],
+      "voxelCount": 3089
+    },
+    {
+      "labelValue": 687,
+      "ctblName": "Rib7",
+      "rgba": [
+        145,
+        145,
+        130,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Rib7",
+      "sourceId": "Rib7",
+      "geometrySource": "Data/Model_687_Rib7.vtk",
+      "atlasRgba": [
+        144,
+        144,
+        130,
+        255
+      ],
+      "voxelCount": 4632
+    },
+    {
+      "labelValue": 688,
+      "ctblName": "Rib8",
+      "rgba": [
+        165,
+        165,
+        150,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Rib8",
+      "sourceId": "Rib8",
+      "geometrySource": "Data/Model_688_Rib8.vtk",
+      "atlasRgba": [
+        165,
+        165,
+        149,
+        255
+      ],
+      "voxelCount": 5630
+    },
+    {
+      "labelValue": 689,
+      "ctblName": "Rib9",
+      "rgba": [
+        185,
+        185,
+        170,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Rib9",
+      "sourceId": "Rib9",
+      "geometrySource": "Data/Model_689_Rib9.vtk",
+      "atlasRgba": [
+        184,
+        184,
+        170,
+        255
+      ],
+      "voxelCount": 7660
+    },
+    {
+      "labelValue": 690,
+      "ctblName": "Rib10",
+      "rgba": [
+        205,
+        205,
+        190,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Rib10",
+      "sourceId": "Rib10",
+      "geometrySource": "Data/Model_690_Rib10.vtk",
+      "atlasRgba": [
+        205,
+        205,
+        189,
+        255
+      ],
+      "voxelCount": 10468
+    },
+    {
+      "labelValue": 691,
+      "ctblName": "Rib11",
+      "rgba": [
+        215,
+        215,
+        200,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Rib11",
+      "sourceId": "Rib11",
+      "geometrySource": "Data/Model_691_Rib11.vtk",
+      "atlasRgba": [
+        214,
+        214,
+        200,
+        255
+      ],
+      "voxelCount": 6286
+    },
+    {
+      "labelValue": 692,
+      "ctblName": "Rib12",
+      "rgba": [
+        225,
+        225,
+        210,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl",
+        "atlasStructure.json"
+      ],
+      "name": "Rib12",
+      "sourceId": "Rib12",
+      "geometrySource": "Data/Model_692_Rib12.vtk",
+      "atlasRgba": [
+        225,
+        225,
+        209,
+        255
+      ],
+      "voxelCount": 3624
+    },
+    {
+      "labelValue": 700,
+      "ctblName": "Coccyx",
+      "rgba": [
+        166,
+        153,
+        135,
+        255
+      ],
+      "sources": [
+        "AbdominalAtlasColors.ctbl"
+      ],
+      "voxelCount": 0
+    }
+  ],
+  "segmentation": {
+    "storageType": "int16",
+    "voxelCount": 7405568,
+    "backgroundLabelValue": 0,
+    "observedLabelValues": [
+      0,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      29,
+      32,
+      51,
+      52,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      111,
+      112,
+      117,
+      126,
+      127,
+      128,
+      129,
+      131,
+      133,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      145,
+      146,
+      151,
+      153,
+      227,
+      231,
+      233,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      299,
+      409,
+      410,
+      411,
+      412,
+      501,
+      502,
+      503,
+      504,
+      505,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      600,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      699
+    ],
+    "unmappedLabelValues": [
+      699
+    ],
+    "valueCounts": {
+      "0": 5958679,
+      "3": 181482,
+      "4": 13154,
+      "6": 9492,
+      "7": 16752,
+      "8": 15220,
+      "9": 204598,
+      "10": 5885,
+      "12": 2275,
+      "13": 68541,
+      "16": 405,
+      "17": 1716,
+      "18": 625,
+      "19": 280,
+      "20": 236,
+      "21": 876,
+      "22": 1648,
+      "23": 1416,
+      "24": 285,
+      "25": 817,
+      "29": 1509,
+      "32": 72590,
+      "51": 35862,
+      "52": 35826,
+      "71": 1073,
+      "72": 653,
+      "73": 802,
+      "74": 941,
+      "75": 548,
+      "76": 511,
+      "81": 1078,
+      "82": 1004,
+      "83": 924,
+      "84": 819,
+      "85": 468,
+      "86": 472,
+      "111": 612,
+      "112": 1029,
+      "117": 727,
+      "126": 1220,
+      "127": 495,
+      "128": 858,
+      "129": 525,
+      "131": 26020,
+      "133": 8226,
+      "135": 41929,
+      "136": 24295,
+      "137": 68254,
+      "138": 8314,
+      "139": 6762,
+      "140": 32642,
+      "141": 1647,
+      "142": 1813,
+      "143": 18476,
+      "145": 3249,
+      "146": 3934,
+      "151": 1357,
+      "153": 309,
+      "227": 480,
+      "231": 25201,
+      "233": 8909,
+      "235": 37906,
+      "236": 23593,
+      "237": 69616,
+      "238": 7673,
+      "239": 6426,
+      "240": 32383,
+      "241": 16512,
+      "299": 86900,
+      "409": 609,
+      "410": 5996,
+      "411": 7454,
+      "412": 8919,
+      "501": 9295,
+      "502": 10018,
+      "503": 14328,
+      "504": 12907,
+      "505": 15210,
+      "551": 2345,
+      "552": 3266,
+      "553": 4138,
+      "554": 4860,
+      "555": 4596,
+      "556": 3151,
+      "557": 2370,
+      "558": 2698,
+      "559": 974,
+      "600": 43262,
+      "686": 3089,
+      "687": 4632,
+      "688": 5630,
+      "689": 7660,
+      "690": 10468,
+      "691": 6286,
+      "692": 3624,
+      "699": 29
+    },
+    "unmappedBehavior": "transparent"
+  },
+  "core": {
+    "configuredLabelValues": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      51,
+      52
+    ],
+    "partIdPattern": "spl-abdomen-label-{labelValue}",
+    "coordinatesPreserved": true,
+    "meshes": [
+      {
+        "partId": "spl-abdomen-label-3",
+        "labelValue": 3,
+        "sourceId": "liver",
+        "sourceName": "liver",
+        "sourceFile": "Data/Model_3_liver.vtk",
+        "sourceBytes": 1238396,
+        "sourceSha256": "a96618a37c029caa2c1b426c37affa6cf52902370830135656baff7311403e18",
+        "positionSha256": "439ab482fc53aa0c7891ae005e764742cc1217bf1b5028b1a02e27aa4a89ad15",
+        "vertices": 33950,
+        "triangles": 67152,
+        "bounds": [
+          [
+            -56.59700012207031,
+            -54.37950134277344,
+            -12.719499588012695
+          ],
+          [
+            96.51439666748047,
+            50.94390106201172,
+            71.28250122070312
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-4",
+        "labelValue": 4,
+        "sourceId": "spleen",
+        "sourceName": "spleen",
+        "sourceFile": "Data/Model_4_spleen.vtk",
+        "sourceBytes": 196276,
+        "sourceSha256": "64fcbd177791bad71b00ab2d1a33c4e487519c322bd95e2a2581a2ce3168a972",
+        "positionSha256": "8871164847dfd2883b5bb80703d1d3d26c754439c6c69fd48e3698ea4346d1ef",
+        "vertices": 5369,
+        "triangles": 10596,
+        "bounds": [
+          [
+            -85.5521011352539,
+            -56.086700439453125,
+            39.8651008605957
+          ],
+          [
+            -22.350000381469727,
+            -6.144999980926514,
+            60.91339874267578
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-6",
+        "labelValue": 6,
+        "sourceId": "pancreas",
+        "sourceName": "pancreas",
+        "sourceFile": "Data/Model_6_pancreas.vtk",
+        "sourceBytes": 202948,
+        "sourceSha256": "0ebb4c9dcf27d6ed30cf0fb41edfca926638cf8db3f2b4ccee7256757c1e8af1",
+        "positionSha256": "db7bf4ba1d8dd89a069bfe251d8923910667f7c2baf53ba0fa76c32eceeb031f",
+        "vertices": 5527,
+        "triangles": 10938,
+        "bounds": [
+          [
+            -74.22579956054688,
+            -29.896299362182617,
+            -0.5561079978942871
+          ],
+          [
+            25.161100387573242,
+            16.623300552368164,
+            45.950401306152344
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-7",
+        "labelValue": 7,
+        "sourceId": "aorta",
+        "sourceName": "aorta",
+        "sourceFile": "Data/Model_7_aorta.vtk",
+        "sourceBytes": 220924,
+        "sourceSha256": "e449fcec7c91bd67ac893a385e1bd2ef7b161c636ebd55577f572e94cb609b1d",
+        "positionSha256": "f69e422d0e7f2e21682bee69be208e0b07a2329632dfd51291df6e6c47e9596f",
+        "vertices": 6031,
+        "triangles": 12000,
+        "bounds": [
+          [
+            -26.17180061340332,
+            -41.21070098876953,
+            -33.915401458740234
+          ],
+          [
+            15.045299530029297,
+            5.30010986328125,
+            83.3595962524414
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-8",
+        "labelValue": 8,
+        "sourceId": "inferior_vena_cava",
+        "sourceName": "inferior vena cava",
+        "sourceFile": "Data/Model_8_inferior_vena_cava.vtk",
+        "sourceBytes": 245176,
+        "sourceSha256": "5d5aa81ae98f5b6391399e17c12c1b679070330561b98b99f4b6d7e1d51ad363",
+        "positionSha256": "790e5d0cdbfcc022f10fca0ebba0ec565d35f10815a5677b116836697f6f4679",
+        "vertices": 6707,
+        "triangles": 13308,
+        "bounds": [
+          [
+            -9.666159629821777,
+            -15.850899696350098,
+            -39.70240020751953
+          ],
+          [
+            30.67169952392578,
+            13.796299934387207,
+            77.40589904785156
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-9",
+        "labelValue": 9,
+        "sourceId": "colon_and_ileum",
+        "sourceName": "colon and ileum",
+        "sourceFile": "Data/Model_9_colon_and_ileum.vtk",
+        "sourceBytes": 3763630,
+        "sourceSha256": "2d8d22506ae03ba9296b95d4ebf1db28968f48a1d147525f8ce800eb458ad9b2",
+        "positionSha256": "711d3b2b260fb2c2d3744283e2151e91672505b4569645b27710c619d32de520",
+        "vertices": 102763,
+        "triangles": 199506,
+        "bounds": [
+          [
+            -86.49079895019531,
+            -51.45180130004883,
+            -83.18720245361328
+          ],
+          [
+            80.52249908447266,
+            59.266300201416016,
+            59.222801208496094
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-10",
+        "labelValue": 10,
+        "sourceId": "gallbladder",
+        "sourceName": "gallbladder",
+        "sourceFile": "Data/Model_10_gallbladder.vtk",
+        "sourceBytes": 82034,
+        "sourceSha256": "225104aa7ca2a54db0bb7e107dd0351868d7645a854d844658816d141e3af323",
+        "positionSha256": "c25c2892ec389c83df61fb8c32cbb34a66dfe2f1aa70fa5a4a34d888812d1ae0",
+        "vertices": 2230,
+        "triangles": 4422,
+        "bounds": [
+          [
+            37.708900451660156,
+            6.4079999923706055,
+            12.83810043334961
+          ],
+          [
+            59.57619857788086,
+            32.60850143432617,
+            45.730201721191406
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-12",
+        "labelValue": 12,
+        "sourceId": "portal_vein_and_superior_mesenteric_vein",
+        "sourceName": "portal vein and superior mesenteric vein",
+        "sourceFile": "Data/Model_12_portal_vein_and_superior_mesenteric_vein.vtk",
+        "sourceBytes": 81766,
+        "sourceSha256": "c3c77e078ced18cf3936b970da2a65737e47e309da20185dafc6191705681e3b",
+        "positionSha256": "e29fbc259a437ee1ecb8913e2b43b4e5bb04477664b73060dfdce6633a1ae041",
+        "vertices": 2228,
+        "triangles": 4430,
+        "bounds": [
+          [
+            -1.3128600120544434,
+            -1.2921299934387207,
+            -47.325401306152344
+          ],
+          [
+            45.71969985961914,
+            15.166600227355957,
+            45.90230178833008
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-13",
+        "labelValue": 13,
+        "sourceId": "stomach_and_duodenum",
+        "sourceName": "stomach and duodenum",
+        "sourceFile": "Data/Model_13_stomach_and_duodenum.vtk",
+        "sourceBytes": 808578,
+        "sourceSha256": "1bab634109a994b0da724018e9940410e8402d26560f3cb2d928f7f661ea082b",
+        "positionSha256": "ffea2fa32111c7d59adf7d97ff7ac9f1436bc80b9f512e9bdaacdd668d5a98ab",
+        "vertices": 22177,
+        "triangles": 43614,
+        "bounds": [
+          [
+            -61.2484016418457,
+            -25.140199661254883,
+            -10.991999626159668
+          ],
+          [
+            41.987998962402344,
+            47.47420120239258,
+            83.32109832763672
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-51",
+        "labelValue": 51,
+        "sourceId": "right_kidney",
+        "sourceName": "right kidney",
+        "sourceFile": "Data/Model_51_right_kidney.vtk",
+        "sourceBytes": 346140,
+        "sourceSha256": "573a449cef279f647b07678abd72c4e15561bd270908e9c614b32dd5482b564b",
+        "positionSha256": "69b6f9f2cee18ec877da757c4affc17778bdfd712153ec66014958099d5b49e2",
+        "vertices": 9498,
+        "triangles": 18962,
+        "bounds": [
+          [
+            22.163700103759766,
+            -52.457698822021484,
+            -12.628000259399414
+          ],
+          [
+            66.527099609375,
+            -4.995880126953125,
+            48.65330123901367
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      },
+      {
+        "partId": "spl-abdomen-label-52",
+        "labelValue": 52,
+        "sourceId": "left_kidney",
+        "sourceName": "left kidney",
+        "sourceFile": "Data/Model_52_left_kidney.vtk",
+        "sourceBytes": 363244,
+        "sourceSha256": "97015cd7df91c2cc366acb98ef670fef40b7a8cb332624b2b6756cc6e966e9e1",
+        "positionSha256": "e62898f1b8c987b7c1776ffe0eda3f1916ffb41c71066e01703016ea937fab50",
+        "vertices": 9968,
+        "triangles": 19794,
+        "bounds": [
+          [
+            -62.43840026855469,
+            -53.4640007019043,
+            -10.963199615478516
+          ],
+          [
+            -14.853500366210938,
+            -8.750900268554688,
+            47.1952018737793
+          ]
+        ],
+        "coordinates": "source RAS coordinates; no per-part transform"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "kind": "core-surface-model",
+      "file": "spl-abdomen-core.glb.gz",
+      "mediaType": "model/gltf-binary",
+      "contentEncoding": "gzip",
+      "bytes": 6063664,
+      "sha256": "1870f60893a102d1a3740a099d97cf428fabb616c4ef520e32844ec743b7ff0f",
+      "glbBytes": 9824276,
+      "glbSha256": "d7768fe02fd3227221d84b83f0dbe5f1e2d6bc1c17b9d17938125ea18f928d30",
+      "meshNames": [
+        "spl-abdomen-label-10",
+        "spl-abdomen-label-12",
+        "spl-abdomen-label-13",
+        "spl-abdomen-label-3",
+        "spl-abdomen-label-4",
+        "spl-abdomen-label-51",
+        "spl-abdomen-label-52",
+        "spl-abdomen-label-6",
+        "spl-abdomen-label-7",
+        "spl-abdomen-label-8",
+        "spl-abdomen-label-9"
+      ]
+    }
+  ]
+}
