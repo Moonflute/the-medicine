@@ -49,4 +49,4 @@ aliases:
 
 ## 9. 참고문헌
 - MedlinePlus Medical Test: Hemoglobin Test
-- 삼성서울병원 내과 매뉴얼 제8판, 책 651–653쪽(PDF 671–673쪽).
+- 삼성서울병원 메뉴얼

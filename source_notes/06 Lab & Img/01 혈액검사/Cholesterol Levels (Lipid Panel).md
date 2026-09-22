@@ -47,6 +47,7 @@ aliases:
 ## 6. 임상적 활용
 - ASCVD risk assessment
 - statin 등 lipid-lowering therapy 결정과 추적
+- 지질저하제 시작 또는 변경 후 약 4–12주에 지질검사를 반복하여 반응과 복약 순응도를 평가하고, 이후 검사 간격은 위험도와 치료 반응에 따라 개별화한다.
 - familial hypercholesterolemia 평가 보조
 - severe hypertriglyceridemia 및 pancreatitis risk 평가
 
@@ -63,4 +64,4 @@ aliases:
 
 ## 9. 참고문헌
 - MedlinePlus Medical Test: Cholesterol Levels
-
+- 삼성서울병원 메뉴얼

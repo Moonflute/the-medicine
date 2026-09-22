@@ -66,6 +66,6 @@ review_status: "samsung8e_source_integrated"
 - 원인에 따라 경과가 다르며 화농성 감염은 생명을 위협할 수 있다.
 - 만성 위축·장상피화생은 위선암 위험과 관련된다. 자가면역성 위염에서는 악성빈혈과 위 신경내분비종양도 고려한다. 제균 후에도 이미 진행한 위축·화생의 위험 평가를 지속한다.
 
-출처: 삼성서울병원 내과 매뉴얼 제8판, 책 10–12쪽(PDF 30–32쪽). [AGA 위축성 위염 임상 업데이트 2021](https://gastro.org/clinical-guidance/diagnosis-and-management-of-atrophic-gastritis/).
+출처: 삼성서울병원 메뉴얼. [AGA 위축성 위염 임상 업데이트 2021](https://gastro.org/clinical-guidance/diagnosis-and-management-of-atrophic-gastritis/).
 
-참고: 삼성서울병원 내과 매뉴얼 제8판, 책 10–12쪽.
+참고: 삼성서울병원 메뉴얼

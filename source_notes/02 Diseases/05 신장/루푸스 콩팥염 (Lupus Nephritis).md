@@ -82,10 +82,10 @@ content_updated_at: "2026-07-16"
 - **예후 보완:** 말기신부전에서는 투석 또는 신이식을 시행하며, 이식신의 루푸스 신염 재발은 교재에서 2–4%로 보고했다.
 
 
-출처 : Merck Manual Professional (Lupus Nephritis); 삼성서울병원 내과 매뉴얼 제8판, Rheumatology pp. 939–942 (OCR: PDF 959–962쪽; 통합일 2026-09-15)
+출처 : Merck Manual Professional (Lupus Nephritis); 삼성서울병원 메뉴얼
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 629–633쪽(PDF 649–653쪽). [KDIGO 2024 Lupus Nephritis guideline](https://kdigo.org/guidelines/gd/lupus-nephritis/)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [KDIGO 2024 Lupus Nephritis guideline](https://kdigo.org/guidelines/gd/lupus-nephritis/)를 대조. 2026-09-14 기존 목차 내 보완.

@@ -31,6 +31,8 @@ aliases:
 ## 5. 주의점 및 함정
 - 급성 변화, extreme body habitus, very high or low muscle mass에서는 한계가 있다.
 - eGFR 단독보다 추세와 urine albuminuria를 함께 봐야 한다.
+- AKI처럼 creatinine이 빠르게 변할 때에는 안정상태를 전제로 한 추정식의 정확도가 떨어진다. 특이 식이·근육량·체격에서는 cystatin C 등 보조 지표나 추가 평가를 개별화한다.
+- 24시간 소변 creatinine clearance는 수집 오류와 분비의 영향을 받아 항상 eGFR보다 우월하지 않으며, 특수한 식이 또는 근육량에서 보조적으로 고려한다.
 
 ## 6. 관련 검사
 - [[Creatinine]]
@@ -38,3 +40,4 @@ aliases:
 
 ## 7. 참고문헌
 - [MedlinePlus: Creatinine Test](https://medlineplus.gov/lab-tests/creatinine-test/)
+- 보완 출처: 삼성서울병원 메뉴얼

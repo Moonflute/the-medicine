@@ -77,4 +77,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 186–190쪽(PDF 206–210쪽). [ESC 2023 급성 관상동맥증후군 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/), 불안정 협심증/NSTE-ACS의 위험도 기반 침습 전략과 초기 안전 처치 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [ESC 2023 급성 관상동맥증후군 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/), 불안정 협심증/NSTE-ACS의 위험도 기반 침습 전략과 초기 안전 처치 원칙을 대조. 2026-09-14 기존 목차 내 보완.

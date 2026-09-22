@@ -47,6 +47,7 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 부작용
 - 계열 관련 부작용
+- Rifampin에 의한 면역성 혈소판감소증이 의심되면 약을 중단하고 혈소판 회복을 추적한다. 해당 이상반응으로 확인되면 회복 후에도 재투여하지 않는다.
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
 #### 주의
@@ -62,3 +63,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 보완 출처: 삼성서울병원 메뉴얼

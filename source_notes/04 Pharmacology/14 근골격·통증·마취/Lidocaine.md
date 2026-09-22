@@ -64,7 +64,7 @@ review_status: draft
 - 에피네프린 함유 복합 주사제는 작용 시간을 연장하나 허혈 위험 부위에서는 주의 필요
 
 #### 부작용
-- 중추신경계: 어지럼, 졸림, 입주위 저림, 이명, 금속맛, 떨림, 경련, 의식 저하, 호흡 억제
+- 중추신경계: 어지럼, 졸림, 입주위 저림, 이명, 금속맛, 떨림, 구음장애, 경련, 의식 저하, 호흡 억제
 - 심혈관계: 저혈압, 서맥, 전도 장애, 부정맥, 심정지
 - 기타: 주사 부위 반응, 외용 부위 자극, 국소마취제 전신독성(LAST)
 
@@ -85,3 +85,4 @@ review_status: draft
 ## 출처
 - DailyMed official label: lidocaine hydrochloride injection
 - DailyMed official label: lidocaine topical cream
+- 보완 출처: 삼성서울병원 메뉴얼

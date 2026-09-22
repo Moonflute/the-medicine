@@ -55,7 +55,7 @@ content_updated_at: "2026-07-16"
   골수섬유증 또는 급성 골수성 백혈병으로 진행할 수 있음.
 
 출처 : Merck Manual Professional
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 672–673쪽(PDF 692–693쪽).
+보완 출처: 삼성서울병원 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

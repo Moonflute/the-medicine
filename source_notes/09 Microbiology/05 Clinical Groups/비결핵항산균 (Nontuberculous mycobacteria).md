@@ -66,6 +66,7 @@ reviewed_at: 2026-07-29
 #### 주요 감염질환
 
 - nodular-bronchiectatic 또는 cavitary pulmonary disease
+- 섬유공동형은 치료하지 않으면 수년 안에 광범위한 폐실질 파괴로 진행할 수 있어, 결절기관지확장형의 경과와 구별해 증상·영상 변화 및 치료 이득을 평가한다.
 - cervical lymphadenitis
 - skin-soft-tissue와 surgical-site infection
 - disseminated disease in advanced immunosuppression
@@ -76,13 +77,16 @@ reviewed_at: 2026-07-29
 - 중증 또는 비전형적 경과에서는 bacteremia, metastatic focus, abscess와 source control 필요성을 재평가한다.
 
 ## 진단
+- NTM 폐질환은 증상, 흉부 영상(결절성 기관지확장증 또는 공동성 병변 등), 미생물 기준을 함께 충족해야 한다. 환경 오염·일시 집락화를 줄이기 위해 일반적으로 같은 NTM species(또는 *M. abscessus* subspecies)가 서로 다른 객담 배양에서 반복 검출되는지를 확인하며, 기관지경 검체나 조직 검체는 상황에 맞게 해석한다.
+- 진단 기준을 충족해도 즉시 치료가 자동으로 필요한 것은 아니다. 공동성 질환, AFB 도말 양성, 진행하는 증상·영상 변화, 치료 독성·환자 선호를 함께 고려해 치료와 관찰을 결정한다. [[기관지 확장증 (Bronchiectasis)]] 환자의 장기 macrolide 치료 전에는 특히 NTM 평가가 중요하다.
+
 
 - 반복 객담 또는 무균 검체의 species-level identification과 susceptibility pattern을 임상·영상 기준과 함께 해석한다.
 - 검체 종류와 품질, 채취 시점, Gram stain·배양·동정·감수성검사 결과를 임상 증후군과 함께 해석한다.
 
 ## 치료 원칙
 
-- species, macrolide 감수성, 질환 부위와 중증도에 따라 다제 병합치료를 장기간 시행하므로 전문가 자문이 필요하다.
+- species/subspecies 동정, macrolide·amikacin 감수성 및 유도성 macrolide 내성 가능성, 질환 부위와 중증도에 따라 다제 병합치료를 설계하므로 호흡기·감염 전문팀 자문이 필요하다. MAC, *M. kansasii*, *M. abscessus* 등은 치료 조합·기간·수술 역할이 서로 다르다.
 - 약제·용량·기간은 감염 부위, 중증도, 감수성, source control, 장기기능과 최신 지침을 기준으로 결정한다.
 
 ## 내성 및 치료 실패
@@ -106,3 +110,6 @@ reviewed_at: 2026-07-29
 - [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
 - [List of Prokaryotic names with Standing in Nomenclature](https://lpsn.dsmz.de/)
 - [IDSA/ASM Guide to Utilization of the Microbiology Laboratory](https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/)
+
+
+보완 출처: 삼성서울병원 메뉴얼. [ERS 성인 기관지확장증 진료지침 2025](https://publications.ersnet.org/content/erj/66/6/2501126), [ATS/ERS/ESCMID/IDSA NTM 폐질환 진료지침](https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/), [BTS 성인 기관지확장증 지침](https://www.brit-thoracic.org.uk/document-library/guidelines/bronchiectasis/bts-guideline-for-bronchiectasis-in-adults/)을 대조. 2026-09-14 기존 목차 내 보완.

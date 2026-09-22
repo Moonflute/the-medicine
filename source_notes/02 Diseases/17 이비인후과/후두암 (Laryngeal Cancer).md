@@ -36,6 +36,7 @@ review_status: "guideline_enriched"
 * **CC**:
   성문부 암은 쉰 목소리(hoarseness)가 가장 흔함.
   성문상부 암은 연하곤란(dysphagia) 및 인후통이 초기 증상으로 나타날 수 있음.
+  무통성 경부 종괴, 연하통, 객혈 또는 연관 이통도 후두암의 임상 단서가 될 수 있다.
 * **P/E**:
   후두내시경을 통한 종양 관찰 및 성대 운동성 평가.
   경부 림프절 전이 여부 확인(만져지는 덩어리).
@@ -66,3 +67,5 @@ review_status: "guideline_enriched"
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강
+
+보완 출처: 삼성서울병원 메뉴얼

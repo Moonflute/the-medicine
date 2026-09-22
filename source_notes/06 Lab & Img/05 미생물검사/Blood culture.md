@@ -26,6 +26,7 @@ sources:
 - 성인은 보통 서로 다른 venipuncture에서 aerobic·anaerobic bottle을 포함한 set를 확보한다.
 - 혈액량이 가장 중요한 민감도 결정요인 중 하나이며 bottle 제조사와 기관 지침의 권장량을 따른다.
 - catheter-related bloodstream infection 의심 시 peripheral과 catheter-drawn specimen의 동시 채취 및 time-to-positivity를 활용할 수 있다.
+- 동시에 같은 양을 채취한 카테터·말초 혈액배양에서 같은 균이 자란 경우 카테터 채취 배양이 말초 배양보다 2시간 이상 먼저 양성인 differential time to positivity는 CRBSI를 지지한다. 제거한 카테터 tip의 단독 양성은 집락화를 뜻할 수 있어 혈액배양·임상 소견과 함께 해석한다.
 
 ## 결과 해석
 
@@ -37,8 +38,10 @@ sources:
 
 - 선행 항균치료는 민감도를 낮춘다.
 - 반복 배양은 `S. aureus` bacteremia, endocarditis, candidemia 등 지속 혈류감염 확인이 필요한 상황에 선별한다.
+- 항균치료와 카테터 제거 뒤에도 균혈증이 지속되면 심내막염, 화농성 혈전정맥염 및 전이성 감염을 평가한다.
 - 단순 발열 추적 목적으로 무분별하게 반복하면 오염과 불필요한 치료가 늘 수 있다.
 
 ## 출처
 
 - [IDSA/ASM Guide to Utilization of the Microbiology Laboratory](https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/)
+- 삼성서울병원 메뉴얼

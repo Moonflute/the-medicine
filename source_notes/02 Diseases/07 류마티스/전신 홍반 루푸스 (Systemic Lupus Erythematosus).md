@@ -65,7 +65,7 @@ review_status: "guideline_enriched"
 
 - 예후 보완: 신부전, 감염, 질병 활성도와 혈전색전증은 주요 불량 경과 요인이다. 진단 시 creatinine >1.4 mg/dL, 고혈압, 신증후군 범위 단백뇨, 빈혈, 저알부민혈증, 저보체혈증은 불량 예후와 연관된다.
 
-출처 : [BSR guideline for SLE 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13290301/); 삼성서울병원 내과 매뉴얼 제8판, Rheumatology pp. 928–942 (OCR: PDF 948–962쪽; 통합일 2026-09-15)
+출처 : [BSR guideline for SLE 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13290301/); 삼성서울병원 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

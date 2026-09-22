@@ -63,5 +63,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 300–301쪽(PDF 320–321쪽). [2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동맥염 진료지침](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632), [2018 EULAR 대혈관염 관리 권고](https://pubmed.ncbi.nlm.nih.gov/31270110/); 다카야수 동맥염의 영상 기반 평가, 초기 병용 면역억제 및 재관류 시점 원칙을 대조. 2026-09-14 기존 목차 내 보완.
-- 삼성서울병원 내과 매뉴얼 제8판, Cardiology, “타카야수 동맥염”, pp. 299–301 (OCR: page-0319~0321).
+보완 출처: 삼성서울병원 메뉴얼. [2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동맥염 진료지침](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632), [2018 EULAR 대혈관염 관리 권고](https://pubmed.ncbi.nlm.nih.gov/31270110/); 다카야수 동맥염의 영상 기반 평가, 초기 병용 면역억제 및 재관류 시점 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+- 삼성서울병원 메뉴얼

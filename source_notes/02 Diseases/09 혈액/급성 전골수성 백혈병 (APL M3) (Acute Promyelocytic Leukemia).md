@@ -66,6 +66,6 @@ Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 693–697쪽(PDF 713–717쪽).
+보완 출처: 삼성서울병원 메뉴얼
 
 치료 시작 원칙 보완: [ELN APL 권고](https://pmc.ncbi.nlm.nih.gov/articles/6509567/).

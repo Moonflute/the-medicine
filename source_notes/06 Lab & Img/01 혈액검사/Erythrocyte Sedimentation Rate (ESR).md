@@ -56,4 +56,4 @@ aliases:
 ## 9. 참고문헌
 - MedlinePlus Medical Test: Erythrocyte Sedimentation Rate (ESR)
 - 일반적 성인 reference range는 널리 쓰이는 Westergren 기반 기준을 요약함
-- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “류마티스 질환을 위한 임상병리검사의 해석”, p. 916.
+- 삼성서울병원 메뉴얼

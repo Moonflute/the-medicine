@@ -35,7 +35,7 @@ baseline이 불명확하면 이전 기록, 체격·근육량, 변화 추세를 �
 2. 정확한 intake/output와 Foley patency, 이전 creatinine을 확인한다.
 3. 저혈압·탈수·sepsis, 조영제, NSAID, ACEi/ARB, 이뇨제, 항생제 등 노출을 검토한다.
 4. urinalysis와 sediment로 혈뇨·단백뇨·pyuria·cast를 확인한다.
-5. 폐쇄 위험이 있으면 bladder scan/renal ultrasound를 신속히 시행한다.
+5. 폐쇄 위험이 있으면 bladder scan/renal ultrasound를 신속히 시행한다. 초음파에서는 수신증뿐 아니라 신장 크기와 피질 두께를 함께 보아 만성 변화의 단서를 확인한다.
 6. 원인 교정 후 creatinine, urine output, 전해질을 serial monitoring한다.
 
 ## 3. 패턴
@@ -64,6 +64,7 @@ FeNa와 FeUrea는 보조도구이며 이뇨제, CKD, sepsis 등에서 단독 결
 
 - BMP, Mg/phosphate, CBC, urinalysis/sediment, urine protein 정량
 - 원인에 따라 CK, hemolysis, serology, culture, ultrasound
+- 폐쇄 여부와 분리 신기능 또는 배출을 구분해야 할 때 신장 핵의학 검사를 고려한다. DTPA는 여과 기능과 배출 평가에, MAG3는 신기능 저하 환자에서 배액 평가에, DMSA는 피질 반흔과 분리 신기능 평가에 각각 활용한다.
 - 약물 용량을 현재 신기능에 맞추고 nephrotoxin·불필요한 contrast를 재검토
 - 원인 불명, 진행성, red flag 또는 투석 고려 시 조기 신장내과 협진
 
@@ -78,3 +79,4 @@ FeNa와 FeUrea는 보조도구이며 이뇨제, CKD, sepsis 등에서 단독 결
 ## 7. 출처
 
 - [KDIGO: 2012 Clinical Practice Guideline for Acute Kidney Injury](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf)
+- 삼성서울병원 메뉴얼

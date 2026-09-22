@@ -34,4 +34,4 @@ aliases:
 
 ## 6. 참고문헌
 - complement testing general principles
-- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “류마티스 질환을 위한 임상병리검사의 해석”, pp. 918–919.
+- 삼성서울병원 메뉴얼

@@ -23,6 +23,7 @@ aliases:
 ## 3. 주요 종류와 의미
 - `calcium oxalate`: 흔함, stone 연관 가능
 - `uric acid`: acidic urine에서 흔함
+- `phosphate`: alkaline urine에서 보일 수 있음
 - `struvite`: urease-positive UTI와 연관
 - `cystine`: cystinuria 시사
 
@@ -32,3 +33,4 @@ aliases:
 
 ## 5. 참고문헌
 - 일반 urinary crystal 해석 요약
+- 삼성서울병원 메뉴얼

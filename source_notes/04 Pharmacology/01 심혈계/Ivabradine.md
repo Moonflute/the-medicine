@@ -78,4 +78,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
-- 삼성서울병원 내과 매뉴얼 제8판, 책 211쪽(PDF 231쪽).
+- 삼성서울병원 메뉴얼

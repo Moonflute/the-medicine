@@ -31,4 +31,4 @@ aliases:
 - 순수 소섬유신경병증(small fiber neuropathy) 평가는 제한적이다.
 - 중환자 근병증 등 다른 위약 원인과의 감별은 임상 및 추가 전기생리검사를 종합한다.
 
-출처 : 삼성서울병원 내과 매뉴얼 제8판, Neurology, “Spinal cord, spinal nerve, and peripheral nerve”, pp. 1054–1056 (OCR: page-1074~1076, Headache 시작 전).
+출처 : 삼성서울병원 메뉴얼

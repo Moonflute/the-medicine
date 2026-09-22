@@ -34,6 +34,7 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
   - 핍뇨 또는 무뇨 (갑작스러운 무뇨는 완전 폐쇄 시사)
   - 아랫배 통증, 옆구리 통증
   - 배뇨 곤란
+  - 암 환자에서 지속되는 요로감염, 혈뇨, 무뇨·질소혈증 또는 옆구리 통증은 요로 폐쇄 단서가 될 수 있다.
 
 * **P/E**
   - 방광 팽만(Bladder distension) 확인
@@ -42,9 +43,10 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
 
 ## 3. 검사 (Lab & Imaging)
 - 신장 초음파(US): 수신증(Hydronephrosis) 확인을 위한 1차 검사
-- CT: 결석, 종양 등 폐쇄 원인 파악
+- CT: 결석, 종양, 후복막 종괴 또는 림프절 등 폐쇄 원인 파악
 - PSA: 전립샘암 감별
 - 소변 검사: 폐쇄 해제 후 다뇨(Post-obstructive diuresis) 및 전해질 이상 모니터링
+- 골반 방사선치료력, 골반·후복막 종양 병력은 병력 청취에서 확인한다.
 
 
 ## 4. 진단 (Diagnosis)
@@ -66,3 +68,5 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+보완 출처: 삼성서울병원 메뉴얼

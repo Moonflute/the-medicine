@@ -25,7 +25,7 @@ sources: ["Consensus document on the diagnosis, management, and treatment of chr
 
 ## 1. 개요
 - **정의**: C형 간염 바이러스(HCV) 감염에 의한 간의 염증반응 및 간세포 손상이 6개월 이상 지속되는 질환.
-- **역학**: 
+- **역학**:
   - 급성 C형 간염 환자의 약 75%가 만성으로 이행.
   - 만성 환자의 약 20~30%에서 간경변증으로 진행.
   - 전 세계적으로 약 5,800만 명이 감염된 것으로 추정.

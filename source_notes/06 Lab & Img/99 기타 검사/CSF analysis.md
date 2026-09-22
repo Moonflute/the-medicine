@@ -45,11 +45,13 @@ sources:
 
 이 표는 전형적 경향일 뿐 배제 기준이 아니다. 초기·부분치료·면역저하에서는 중첩된다.
 
+초기 바이러스성 수막염은 호중구 우세로, 부분 치료된 세균성 수막염은 림프구 우세로 보일 수 있어 세포 우세만으로 원인을 배제하지 않는다. CSF glucose는 같은 시점의 serum glucose와 비율을 함께 해석하며, 결핵성 수막염에서 PCR 음성은 배제 근거가 아니고 ADA도 비특이적이다.
+
 ## 4. 검체·전처리 함정
 
 - tube 번호와 검사 배분을 명확히 하고 microbiology 검체를 지연하지 않는다.
 - CSF cell은 빠르게 소실될 수 있어 신속히 분석한다.
-- traumatic tap의 WBC 보정 공식은 보조적이며 임상 판단을 대체하지 않는다.
+- traumatic tap의 WBC 보정 공식은 보조적이며 임상 판단을 대체하지 않는다. 보정 결과만으로 감염을 확실히 배제할 수 없다.
 - oligoclonal band는 paired serum과 함께 해석한다.
 
 ## 5. Red flags
@@ -78,3 +80,4 @@ sources:
 ## 8. 출처
 
 - [MedlinePlus: Cerebrospinal Fluid Analysis](https://medlineplus.gov/lab-tests/cerebrospinal-fluid-csf-analysis/)
+- 삼성서울병원 메뉴얼

@@ -58,6 +58,7 @@ sources_ref: "openFDA drug label API (US)"
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
 #### 주의
+- 치료 전 시력·색각을 확인하고, 치료 중 시력저하·색각 변화가 있으면 시신경독성을 의심해 신속히 평가한다.
 - 배양 결과가 나오면 가능한 de-escalation 또는 중단 시점을 같이 판단한다.
 - 알레르기 병력, 신기능, 간기능, C. difficile 위험을 같이 본다.
 - 체온, 백혈구, CRP, 배양 결과, 임상적 호전 여부를 함께 본다.
@@ -71,3 +72,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 보완 출처: 삼성서울병원 메뉴얼

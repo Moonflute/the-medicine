@@ -42,6 +42,7 @@ aliases:
 - pelvic soft tissue
 - liver lesion characterization
 - edema, infarction, tumor extent
+- 고형 또는 낭성 신장 병변의 성격화와 혈관 관련 질문의 평가에 활용할 수 있으며, 검사 선택은 CT·초음파 소견과 신기능, 조영제 안전성을 함께 고려한다.
 
 ## 6. 무엇이 약한가
 - 검사 시간이 길다.
@@ -77,3 +78,4 @@ aliases:
 ## 11. 참고문헌
 - RadiologyInfo: MRI Safety
 - 일반 MRI 기본 원리 요약
+- 삼성서울병원 메뉴얼

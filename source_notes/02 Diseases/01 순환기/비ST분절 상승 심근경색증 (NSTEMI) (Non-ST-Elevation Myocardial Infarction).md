@@ -66,4 +66,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 181–183쪽 및 189–190쪽(PDF 201–203쪽 및 209–210쪽). [ESC 2023 급성 관상동맥증후군 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/), ACS의 증상·심전도·고감도 트로포닌 연속검사와 NSTEMI 분류 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [ESC 2023 급성 관상동맥증후군 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/), ACS의 증상·심전도·고감도 트로포닌 연속검사와 NSTEMI 분류 원칙을 대조. 2026-09-14 기존 목차 내 보완.

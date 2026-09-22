@@ -51,6 +51,7 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 부작용
 - 간독성
+- 고요산혈증과 관절통이 흔할 수 있으며, 급성 단관절 통증·발적 등 통풍성 관절염이 의심되면 평가한다.
 - 말초신경병증
 - 시신경염
 - 고요산혈증
@@ -71,3 +72,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 보완 출처: 삼성서울병원 메뉴얼

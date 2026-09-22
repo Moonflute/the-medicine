@@ -86,5 +86,4 @@ sources:
 ## 9. 출처
 
 - [MedlinePlus: Complete Blood Count](https://medlineplus.gov/lab-tests/complete-blood-count-cbc/)
-- 삼성서울병원 내과 매뉴얼 제8판, 책 651–653쪽(PDF 671–673쪽).
-- 삼성서울병원 내과 매뉴얼 제8판, 책 661쪽(PDF 681쪽).
+- 삼성서울병원 메뉴얼

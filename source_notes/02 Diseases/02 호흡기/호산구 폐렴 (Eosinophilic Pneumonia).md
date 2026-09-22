@@ -68,7 +68,7 @@ reviewed_at: "2026-07-30"
   만성형은 재발이 잦으나 치료에 잘 반응함.
 
 출처 : Merck Manual Professional (Acute/Chronic Eosinophilic Pneumonia)
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 1027쪽(PDF 1047쪽).
+보완 출처: 삼성서울병원 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

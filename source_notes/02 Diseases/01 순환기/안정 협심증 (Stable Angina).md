@@ -57,4 +57,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 184–185쪽(PDF 204–205쪽). [ESC 2024 만성 관상동맥증후군 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/), [ESC 2024 핵심 권고](https://www.escardio.org/static-file/Escardio/Guidelines/Products/Essential%20Messages/2024%20EM/Essential%20Messages_2024%20CCS.pdf), 만성 관상동맥증후군의 위험도 기반 검사·예방치료와 변이형 협심증의 약제 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [ESC 2024 만성 관상동맥증후군 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/), [ESC 2024 핵심 권고](https://www.escardio.org/static-file/Escardio/Guidelines/Products/Essential%20Messages/2024%20EM/Essential%20Messages_2024%20CCS.pdf), 만성 관상동맥증후군의 위험도 기반 검사·예방치료와 변이형 협심증의 약제 원칙을 대조. 2026-09-14 기존 목차 내 보완.

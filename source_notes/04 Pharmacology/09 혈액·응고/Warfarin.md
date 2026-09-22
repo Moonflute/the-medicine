@@ -98,4 +98,4 @@ review_status: draft
 - openFDA drug label API (US)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 232–234쪽(PDF 252–254쪽). [2025 ESC/EACTS 판막질환 진료지침](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828), [ESC 항혈전 치료 해설](https://www.escardio.org/communities/working-groups/cardiovascular-pharmacotherapy/scientific-documents-and-publications/Commented-articles/a-spotlight-on-antithrombotic-aspects-of-the-2025-esc-eacts-guidelines-on-valvular-heart-disease/); 기계 인공판막의 VKA·DOAC 금기, 시술 전후 항응고 및 임신 중 개별 위험평가 원칙을 대조. 2026-09-15 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [2025 ESC/EACTS 판막질환 진료지침](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828), [ESC 항혈전 치료 해설](https://www.escardio.org/communities/working-groups/cardiovascular-pharmacotherapy/scientific-documents-and-publications/Commented-articles/a-spotlight-on-antithrombotic-aspects-of-the-2025-esc-eacts-guidelines-on-valvular-heart-disease/); 기계 인공판막의 VKA·DOAC 금기, 시술 전후 항응고 및 임신 중 개별 위험평가 원칙을 대조. 2026-09-15 기존 목차 내 보완.

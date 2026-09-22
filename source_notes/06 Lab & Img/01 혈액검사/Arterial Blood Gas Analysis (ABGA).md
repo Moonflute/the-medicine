@@ -30,6 +30,7 @@ sources:
 ## 2. 30초 해석 순서
 
 1. pH로 acidemia 또는 alkalemia를 확인한다.
+   - pH가 참고범위 안에 있어도 반대 방향의 장애가 함께 있으면 혼합 산-염기장애를 배제할 수 없다.
 2. PaCO2와 HCO3− 중 pH 변화와 같은 방향으로 설명되는 주된 장애를 정한다.
 3. 예상 보상과 실제 값을 비교해 혼합장애를 찾는다.
 4. metabolic acidosis면 anion gap = Na − (Cl + HCO3−)를 계산하고 albumin 저하를 고려한다.
@@ -55,6 +56,13 @@ sources:
 | Respiratory acidosis | hypoventilation, CNS/약물, COPD, neuromuscular | airway, ventilation, medication |
 | Respiratory alkalosis | hypoxemia, sepsis, pain/anxiety, pregnancy | oxygenation, infection, PE context |
 | Metabolic alkalosis | vomiting/NG loss, diuretic, mineralocorticoid | volume, urine chloride, medication |
+
+대사알칼리증에서는 bicarbonaturia가 있으면 urine sodium이 높아도 체액 고갈이 남아 있을 수 있다. urine chloride는 이뇨제 투약 시점, 혈압, 체액 상태와 함께 해석한다.
+
+### 저산소혈증의 A–a gradient 해석
+
+- 저산소혈증에서 정상 A–a gradient는 저환기 또는 낮은 흡입 산소분압을 시사하며, PaCO2 상승은 저환기를 뒷받침한다. A–a gradient 증가는 V/Q 불일치, 확산장애 또는 shunt를 시사하며 임상·영상과 함께 원인을 찾는다.
+- 산소 공급에 PaO2가 뚜렷이 개선되면 V/Q 불일치가 흔한 기전이고, 충분한 산소에도 개선이 제한되면 shunt를 고려한다. 혼합 기전이 흔하므로 이 반응만으로 확진하지 않는다.
 
 ## 5. 검체·전처리 함정
 
@@ -89,3 +97,4 @@ sources:
 ## 9. 출처
 
 - [MedlinePlus: Blood Gases](https://medlineplus.gov/lab-tests/blood-gases/)
+- 보완 출처: 삼성서울병원 메뉴얼

@@ -89,5 +89,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 633쪽(PDF 653쪽). [EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update](https://pubmed.ncbi.nlm.nih.gov/36927642/)를 대조. 2026-09-14 기존 목차 내 보완.
-- 삼성서울병원 내과 매뉴얼 제8판, Cardiology p. 299의 혈관염 분류표 및 Rheumatology pp. 951–959 (OCR: page-0319의 혈관염 표, page-0971~0979; 공유 마지막 페이지의 다음 주제 제외).
+보완 출처: 삼성서울병원 메뉴얼. [EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update](https://pubmed.ncbi.nlm.nih.gov/36927642/)를 대조. 2026-09-14 기존 목차 내 보완.
+- 삼성서울병원 메뉴얼

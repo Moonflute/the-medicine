@@ -63,6 +63,6 @@ population: adult
 - biphasic 반응, 기도부종 재발, 쇼크·부정맥 및 aspiration이 주요 우려다. 퇴원 후 원인 확인 전까지 의심 유발 인자를 피하고, 재노출 위험과 자기주사 사용법을 교육한다.
 
 출처: Resuscitation Council UK, *Emergency Treatment of Anaphylaxis* (2021).
-OCR 출처: 삼성서울병원 내과 매뉴얼 제8판, Allergy PDF 1041–1044쪽.
+OCR 출처: 삼성서울병원 메뉴얼
 
 검사 시점 보완: [NICE 아나필락시스 tryptase 채혈](https://www.nice.org.uk/guidance/ng258/chapter/Timing-of-blood-samples).

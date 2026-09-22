@@ -5,7 +5,7 @@ category_id: "blood"
 category_name: "1. 채혈"
 icon_name: "Droplet"
 order: 5
-video_url: 
+video_url:
 sources:
 - CDC: Sharps Safety Program Resources | https://www.cdc.gov/infection-control/hcp/sharps-safety/index.html
 - CDC: Management of Potentially Infectious Exposures and Illnesses | https://www.cdc.gov/infection-control/hcp/healthcare-personnel-infrastructure-routine-practices/exposure-managment.html

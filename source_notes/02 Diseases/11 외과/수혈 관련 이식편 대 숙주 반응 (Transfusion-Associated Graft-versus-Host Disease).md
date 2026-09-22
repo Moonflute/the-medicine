@@ -56,4 +56,4 @@ Last updated :
 
 보완 근거: [Canadian Blood Services 특수 제제](https://professionaleducation.blood.ca/en/transfusion/clinical-guide/irradiated-washed-and-cmv-seronegative-blood-components).
 
-참고: 삼성서울병원 내과 매뉴얼 제8판, 수혈, 책 681–684쪽.
+참고: 삼성서울병원 메뉴얼

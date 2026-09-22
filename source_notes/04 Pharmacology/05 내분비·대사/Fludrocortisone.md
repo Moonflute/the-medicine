@@ -48,7 +48,8 @@ review_status: draft
 - 당질코르티코이드와 병용 투여 권장
 
 #### 적응증
-- 일차성 및 이차성 부신피질 기능 저하증(애디슨병)
+- 알도스테론 결핍을 동반한 일차성 부신피질 기능저하증(애디슨병)의 광물코르티코이드 보충
+- 이차성 및 외인성 당질코르티코이드 유발 부신 기능저하에서는 알도스테론 분비가 대체로 보존되므로 이 진단만으로 일률적으로 보충하지 않는다.
 - 염분 소실성 부신성기 증후군
 
 #### 금기증
@@ -86,3 +87,5 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+- [Endocrine Society: Glucocorticoid-induced adrenal insufficiency](https://www.endocrine.org/clinical-practice-guidelines/glucocorticoid-induced-adrenal-insufficiency)
+- 삼성서울병원 메뉴얼

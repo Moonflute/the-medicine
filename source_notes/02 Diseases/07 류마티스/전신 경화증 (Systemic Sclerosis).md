@@ -94,4 +94,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 출처 : Merck Manual Professional (Systemic Sclerosis)
-- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “Scleroderma, Systemic sclerosis”, pp. 972–978 (OCR: page-0992의 전신경화증 시작 부분 및 page-0993~0998; page-0999의 AOSD는 제외).
+- 삼성서울병원 메뉴얼

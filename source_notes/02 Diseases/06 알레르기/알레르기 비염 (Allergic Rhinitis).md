@@ -85,7 +85,7 @@ content_updated_at: "2026-07-16"
 - 예후: 환경 관리 및 약물 치료로 증상 조절 가능
 
 출처 : Merck Manual Professional (Allergic Rhinitis, Nonallergic Rhinitis)
-OCR 출처: 삼성서울병원 내과 매뉴얼 제8판, Allergy PDF 1029–1037쪽.
+OCR 출처: 삼성서울병원 메뉴얼
 Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-03 : 본문 갱신 (processed)

@@ -40,4 +40,4 @@ aliases:
 
 ## 6. 참고문헌
 - [MedlinePlus: Natriuretic Peptide Tests (BNP, NT-proBNP)](https://medlineplus.gov/lab-tests/natriuretic-peptide-tests-bnp-nt-probnp/)
-- 삼성서울병원 내과 매뉴얼 제8판, 책 204쪽(PDF 224쪽).
+- 삼성서울병원 메뉴얼

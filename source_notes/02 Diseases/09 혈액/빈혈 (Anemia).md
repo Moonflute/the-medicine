@@ -36,7 +36,7 @@ sources:
 
 ## 3. 검사
 - CBC 지표와 망상적혈구를 먼저 확인하고, 말초혈액도말·철 상태·비타민 B12/엽산·용혈 표지자·신장기능·출혈 원인을 임상 맥락에 맞춰 선택한다.
-- 망상적혈구는 빈혈 정도를 보정해 해석한다. `corrected reticulocyte count = reticulocyte(%) × Hct/45`이며, RPI는 이 값을 망상적혈구 성숙시간으로 나눈다(Hct 45/35/25/15%에서 각각 약 1.0/1.5/2.0/2.5일). RPI <2.5는 생성 저하 또는 성숙장애, ≥2.5는 출혈·용혈을 시사한다.
+- 망상적혈구는 빈혈 정도를 보정해 해석한다. `corrected reticulocyte count = reticulocyte(%) × Hct/45`이며, RPI는 이 값을 망상적혈구 성숙시간으로 나눈다(Hct 45/35/25/15%에서 각각 약 1.0/1.5/2.0/2.5일). RPI <2.5는 생성 저하 또는 성숙장애, ≥2.5는 출혈·용혈을 시사한다. 다만 raw reticulocyte%는 낮은 Hct와 조기 방출된 망상적혈구의 긴 성숙시간 때문에 골수 반응을 과대평가할 수 있어, corrected reticulocyte count·RPI와 임상 경과를 함께 해석하며 단일 절단값으로 확정하지 않는다.
 - CBC와 망상적혈구 뒤에는 적혈구 형태를 본다. 소구성·저색소성은 철결핍·지중해빈혈·철적아구성 빈혈, 대구성은 B12/엽산 결핍 및 약물성 DNA 합성 장애를, spherocyte·schistocyte 등은 용혈 원인을 좁히는 단서다.
 
 ## 4. 진단
@@ -57,7 +57,7 @@ sources:
 ### 하위 질환
 - [[철 결핍 빈혈 (Iron Deficiency Anemia)]]
 
-출처: 삼성서울병원 내과 매뉴얼 제8판, 책 651–653쪽(PDF 671–673쪽).
+출처: 삼성서울병원 메뉴얼
 - [[거대적혈모구 빈혈 (Megaloblastic Anemia)]]
 - [[악성 빈혈 (Pernicious Anemia)]]
 - [[만성 질환 빈혈 (Anemia of Chronic Disease)]]

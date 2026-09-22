@@ -52,6 +52,7 @@ content_updated_at: "2026-07-16"
 - Capture beat, Fusion beat 존재
 - 감별 진단: Supraventricular tachycardia with aberrancy (PSVT + BBB, accessory pathway 등)
 - VT 시사 소견: AV dissociation, aVR의 (+) QRS, V1-V6의 (-) QRS, Capture/fusion beat
+- 이전 심근경색 또는 구조적 심질환이 있는 wide QRS tachycardia에서는 VT 가능성이 특히 높다.
 - 주의사항: STAR(Stereotactic arrhythmia radioablation) 고려 시, 표준 치료(약물 및 전극도자절제술) 불응성 환자에 대한 다학제적 접근 및 표적 용적 정의를 위한 영상 검사 필요
 
 ## 4. 진단
@@ -60,18 +61,20 @@ content_updated_at: "2026-07-16"
 - 병태생리: QT 연장 상태에서 R on T 현상으로 발생, 조기 후탈분극(EAD) 및 재분극 분산에 기인
 - 원인: 전해질 불균형(HypoK, HypoMg), 약물(Class IA/III 항부정맥제 등), 선천성 Long QT syndrome, 심장질환
 - 심전도: Polymorphic, wide QRS가 baseline 중심으로 회전(rotation), Short-Long-Short RR 간격 후 시작되는 경향
+- **획득성 QT 연장 TdP**는 pause-dependent 양상으로 나타날 수 있다. QT 연장 약물, 저칼륨혈증·저마그네슘혈증·저칼슘혈증, 심한 서맥을 확인해 교정·중단한다.
 - Catecholaminergic Polymorphic VT (CPVT)
 - 병태생리: 세포 내 칼슘 조절 이상(Ryanodine receptor 등), 아드레날린 자극 시 유발
 - 특징: 운동/감정 스트레스 시 유발, 양방향성(bidirectional) VT가 특징적
 
 ## 5. 치료
+- 저혈압, 급성 의식변화, 쇼크 징후, 허혈성 흉부 불편감 또는 급성 심부전이 동반되면 혈역학적으로 불안정한 빈맥으로 보고 즉시 전기적 치료를 준비한다.
 - Nonsustained VT: 무증상 시 경과관찰, 유증상 시 원인 교정, BB, non-DHP CCB, amiodarone 투여, 적응증 시 ICD 삽입
 - Sustained Monomorphic VT
   - 혈액역학적 불안정: DC synchronized cardioversion
   - 혈액역학적 안정: DC cardioversion(1st line), 항부정맥제(Amiodarone, Procainamide, Sotalol)
 - Sustained Polymorphic VT
   - 혈액역학적 상태 무관: Defibrillation(1st line)
-  - 이후 치료: QT 정상 시 Amiodarone/Lidocaine, QT 연장(TdP) 시 Magnesium, 서맥 시 Isoproterenol/Pacing
+  - 이후 치료: QT 정상 시 Amiodarone/Lidocaine, QT 연장(TdP) 시 Magnesium(혈청 Mg가 정상이어도 투여), 서맥 시 Isoproterenol/Pacing
 - 만성기 치료(재발 방지 및 심정지 예방)
   - ICD 삽입: 심정지 생존자, 구조적 심질환 동반, 원인 불명 실신 등
   - 약물치료: β-blocker(1st line), Amiodarone, Sotalol, CPVT 시 Flecainide 고려

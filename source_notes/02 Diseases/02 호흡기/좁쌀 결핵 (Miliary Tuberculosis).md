@@ -41,6 +41,7 @@ sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.ht
 * **P/E**: 간비대, 림프절 종대, 안저 검사 시 맥락막 결절(choroid tubercles)이 관찰될 수 있음.
 
 ## 3. 검사 (Lab & Imaging)
+  * 중증 또는 좁쌀결핵에서는 TST가 위음성일 수 있으므로, 음성 결과만으로 결핵을 배제하지 않는다.
   * **Chest X-ray/CT:** 양측 폐에 미만성 소결절(diffuse miliary nodules) 소견이 특징적.
   * **검체:** 기관지폐포세척(BAL), 경기관지폐생검(TBLB), 간 생검 등.
   * **기타:** 객담 배양은 음성일 수 있음. 빈혈, 간수치 상승, 저나트륨혈증 등이 동반될 수 있음.

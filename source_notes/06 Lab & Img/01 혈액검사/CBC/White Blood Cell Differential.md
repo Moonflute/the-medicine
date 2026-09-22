@@ -56,4 +56,4 @@ aliases:
 ## 9. 참고문헌
 - Cleveland Clinic CBC differential description
 - standard adult CBC differential reference summary
-- 삼성서울병원 내과 매뉴얼 제8판, 책 1024–1028쪽(PDF 1044–1048쪽).
+- 삼성서울병원 메뉴얼

@@ -78,7 +78,7 @@ reviewed_at: "2026-07-30"
 - 예후: 남성 환자에서 상대적으로 불량한 경과를 보임
 - 만성 재발성 포도막염은 심각한 후유증을 남길 수 있고, 동맥류는 동맥 폐색보다 더 나쁜 예후를 보인다.
 
-출처 : Harrison 22e, EULAR guideline 2018; 삼성서울병원 내과 매뉴얼 제8판, Rheumatology pp. 959–962 (OCR: PDF 979–982쪽; 통합일 2026-09-15); International Team for the Revision of the International Criteria for Behçet's Disease. ICBD, J Eur Acad Dermatol Venereol. 2014;28:338–347. doi:10.1111/jdv.12107
+출처 : Harrison 22e, EULAR guideline 2018; 삼성서울병원 메뉴얼. International Team for the Revision of the International Criteria for Behçet's Disease. ICBD, J Eur Acad Dermatol Venereol. 2014;28:338–347. doi:10.1111/jdv.12107
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

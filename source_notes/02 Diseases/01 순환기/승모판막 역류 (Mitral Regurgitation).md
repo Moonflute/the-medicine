@@ -64,7 +64,7 @@ content_updated_at: "2026-07-16"
 
 - **내과적 치료**: 무증상 환자는 경과 관찰. 심부전 증상 시 이뇨제, ACE 억제제/ARB, 베타차단제 사용.
 - **심방 기능성 승모판막 역류(AFMR) 관리**: 심방세동 및 심부전 관리를 포함한 리듬 조절 및 약물 치료가 우선.
-- **수술 및 중재적 치료**: 
+- **수술 및 중재적 치료**:
   - 일차성 MR: 판막 성형(repair) 우선 고려.
   - 이차성/AFMR: 기저 질환 치료가 우선이며, 필요 시 수술적 치료 또는 경피적 판막 끝-대-끝 수리술(TEER) 고려.
 - **수술 적응증(일차성 MR)**: 유증상 중증 MR, 또는 무증상이라도 LVEF ≤ 60% 또는 LVESD ≥ 40 mm인 경우 수술 고려.
@@ -78,4 +78,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 218–224쪽(PDF 238–244쪽). [2025 ESC/EACTS 판막질환 진료지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/), [2025 ESC/EACTS 세부 권고](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828); 승모판 협착·역류의 중재 원칙과 급성 중증 MR 처치를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [2025 ESC/EACTS 판막질환 진료지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/), [2025 ESC/EACTS 세부 권고](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828); 승모판 협착·역류의 중재 원칙과 급성 중증 MR 처치를 대조. 2026-09-14 기존 목차 내 보완.

@@ -32,6 +32,7 @@ sources_ref: "openFDA drug label API (US)"
 - 수술 전후 진통 및 마취 보조제로 사용됨.
 - 정맥 또는 근육 주사로 투여하며, 호흡 억제 관리가 필수적임.
 - 환자의 연령, 체중, 기저 질환 및 수술 종류에 따라 용량을 개별화해야 함.
+- 경피 패치는 효과 발현이 지연될 수 있어 다른 opioid에서 전환할 때 진통 공백과 과도한 진정을 모두 감시한다.
 
 #### 용법/용량
 - 성인: 수술 전 투약 시 50~100 mcg 근육 주사.
@@ -75,3 +76,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 삼성서울병원 메뉴얼

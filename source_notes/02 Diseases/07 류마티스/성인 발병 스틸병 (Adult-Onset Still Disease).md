@@ -49,5 +49,5 @@ preprocessing_required: x
 - 만성 지속성 경과는 파괴성 관절염이 주된 문제이며 이차 AA 아밀로이드증으로 이어질 수 있다. 초기 다발관절염, 어깨·고관절 등 근위 관절 침범, 2년 초과 전신 스테로이드 필요는 만성화·불량 예후 인자이다.
 - 주요 이환·사망 원인은 ARDS, 간부전, 간질지속상태, DIC, TTP이다.
 
-출처 : 삼성서울병원 내과 매뉴얼 제8판, Rheumatology pp. 979–983 (OCR: PDF 999–1003쪽; 통합일 2026-09-15)
+출처 : 삼성서울병원 메뉴얼
 - [EULAR/PReS Still disease recommendations 2024](https://pmc.ncbi.nlm.nih.gov/articles/11672000/).

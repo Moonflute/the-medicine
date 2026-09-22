@@ -70,4 +70,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판(2021), 책 1–3쪽(PDF 21–23쪽). [ACG Achalasia guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC9896940/)와 대조. 기존 SAGES/POEM 권고는 유지함. 2026-09-14 기존 목차 내 부분 보완.
+보완 출처: 삼성서울병원 메뉴얼. [ACG Achalasia guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC9896940/)와 대조. 기존 SAGES/POEM 권고는 유지함. 2026-09-14 기존 목차 내 부분 보완.

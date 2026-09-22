@@ -27,6 +27,7 @@ sources:
 
 ## 해석 원칙
 
+- MIC는 균의 가시적 성장을 억제하는 최소 항균제 농도이고, breakpoint는 MIC 또는 zone diameter를 임상 감수성 범주로 해석하기 위한 기준이다.
 - 현재 적용 중인 EUCAST 또는 CLSI breakpoint version과 검사실 보고 범주를 확인한다.
 - `S`, `I`, `R`의 의미는 체계별 정의를 따른다. EUCAST의 `I`는 increased exposure에서 감수성을 의미한다.
 - intrinsic resistance와 expected phenotype에 어긋나는 결과는 identification·AST 오류 또는 드문 기전을 재검토한다.
@@ -38,8 +39,10 @@ sources:
 - urine breakpoint와 systemic infection breakpoint가 다를 수 있다.
 - heteroresistance, inducible resistance와 검사법별 detection gap이 존재한다.
 - molecular resistance marker 음성은 모든 표현형 내성을 배제하지 않는다.
+- 임상 실패 시에는 감염 부위의 약물 노출·투여 경로·source control을 다시 확인하고, 자연·획득·유도 내성 가능성과 추가 검사의 필요성을 검사실과 협의한다.
 
 ## 출처
 
 - [EUCAST Clinical Breakpoint Tables](https://www.eucast.org/clinical_breakpoints)
 - [EUCAST Expert Rules and Expected Phenotypes](https://www.eucast.org/expert_rules_and_expected_phenotypes)
+- 삼성서울병원 메뉴얼

@@ -88,5 +88,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 출처 : Merck Manual Professional (Keratoconjunctivitis Sicca)
-- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “Sjögren's syndrome”, pp. 963–965 (PDF 983–985쪽).
+- 삼성서울병원 메뉴얼
 - Shiboski CH, et al. 2016 ACR/EULAR Classification Criteria for Primary Sjögren's Syndrome. *Arthritis Rheumatol.* 2017;69:35–45. doi:10.1002/art.39859.

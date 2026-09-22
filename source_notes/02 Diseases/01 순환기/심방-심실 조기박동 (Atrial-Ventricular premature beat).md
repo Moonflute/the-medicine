@@ -35,6 +35,7 @@ reviewed_at: "2026-07-30"
 ## 3. 검사
 - **심전도(EKG)**
 - **PAC**: 조기에 나타나는 비정상적인 P파, 불완전한 대상성 휴지기(incomplete compensatory pause).
+- **비전도 심방조기박동(nonconducted PAC)**: 조기 P파가 방실결절 불응기에 도달하면 뒤따르는 QRS 없이 휴지기로 보일 수 있다. 탈락한 QRS만 보고 동방차단이나 방실차단으로 단정하지 말고, 앞선 T파 안이나 직전에 숨어 있는 조기·형태가 다른 P파를 확인한다.
 - **PVC**: 넓고 기이한(wide and bizarre) QRS파(>120ms), 완전한 대상성 휴지기(compensatory pause).
 - **심방세동**: P파 부재, 불규칙한 RR 간격(irregularly irregular), V1에서 자글자글한 f wave 관찰.
 - **심방조동**: 톱니바퀴 모양의 Sawtooth F wave, AV block에 의한 2:1~4:1 전도.
@@ -56,6 +57,7 @@ reviewed_at: "2026-07-30"
 - **합병증**: 심부전, 혈전색전증(뇌졸중 등), 빈맥 유발성 심근병증(Tachycardia-induced cardiomyopathy).
 
 출처 : StatPearls (Premature Atrial Contractions, Premature Ventricular Complex)
+보완 출처: 삼성서울병원 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-10 : 본문 갱신 (processed)

@@ -50,7 +50,7 @@ content_updated_at: "2026-07-16"
 - 영상 소견과 호르몬 검사 결과를 종합하여 다학제적 접근 필요
 
 ## 5. 치료
-- 수술적 절제(Adrenalectomy): 
+- 수술적 절제(Adrenalectomy):
   - 영상학적으로 악성이 의심되는 경우
   - 명백한 호르몬 과다 증후군(Overt hormonal syndromes)이 동반된 경우
 - 추적관찰:

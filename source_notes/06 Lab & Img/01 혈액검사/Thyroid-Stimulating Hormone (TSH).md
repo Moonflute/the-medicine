@@ -27,9 +27,12 @@ aliases:
 - `상승 + Free T4 저하`는 primary hypothyroidism을 시사한다.
 - `감소 + Free T4 상승`은 hyperthyroidism을 시사한다.
 - `TSH` 단독 해석보다 `Free T4`를 함께 봐야 한다.
+- 뇌하수체 질환이 의심되면 정상 또는 낮은 TSH만으로 갑상샘 기능저하를 배제하지 않는다. Free T4와 함께 평가하며, 중증 급성질환·약물에 의한 변화도 감별한다.
+- TSH가 낮지만 Free T4가 정상이면 T3를 확인해 T3 갑상샘중독증과 무증상 기능항진증을 구분한다.
 
 ## 5. 관련 검사
 - [[Free Thyroxine (Free T4)]]
 
 ## 6. 참고문헌
 - thyroid axis interpretation 요약
+- 삼성서울병원 메뉴얼

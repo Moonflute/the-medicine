@@ -72,4 +72,4 @@ Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: Merck Manual Professional (2026); 삼성서울병원 내과 매뉴얼 제8판, 책 659–660쪽(PDF 679–680쪽).
+출처: Merck Manual Professional (2026); 삼성서울병원 메뉴얼

@@ -82,7 +82,7 @@ reviewed_at: "2026-07-30"
 - 합병증: 루푸스 신염(Class IV 예후 불량), 감염, 심혈관 질환, 혈전증, 반복적 유산.
 
 
-출처 : Merck Manual Professional; 삼성서울병원 내과 매뉴얼 제8판, Rheumatology pp. 928–942 (OCR: PDF 948–962쪽; 통합일 2026-09-15)
+출처 : Merck Manual Professional; 삼성서울병원 메뉴얼
 Last updated :
 2024-07-29 — 초안 분리 정리
 2026-05-11 : 본문 갱신 (processed)

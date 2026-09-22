@@ -32,6 +32,7 @@ sources_ref: "openFDA drug label API (US)"
 ## 임상 정보
 - 급성 심근경색 후 심부전 환자의 생존율 개선
 - 성인의 고혈압 치료를 통한 심혈관계 사건 위험 감소
+- 원발성 알도스테론증에서 약물치료를 선택할 때 spironolactone의 대안으로 고려할 수 있다. 혈압·칼륨·신기능과 내약성에 따라 개별화한다.
 
 #### 용법/용량
 - 심근경색 후 심부전: 25mg 1일 1회로 시작하여 4주 이내에 50mg 1일 1회로 증량 (칼륨 수치에 따라 조절)
@@ -73,3 +74,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 삼성서울병원 메뉴얼

@@ -74,4 +74,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 218–224쪽(PDF 238–244쪽). [2025 ESC/EACTS 판막질환 진료지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/), [2025 ESC/EACTS 세부 권고](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828); 승모판 협착·역류의 중재 원칙과 급성 중증 MR 처치를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [2025 ESC/EACTS 판막질환 진료지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/), [2025 ESC/EACTS 세부 권고](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828); 승모판 협착·역류의 중재 원칙과 급성 중증 MR 처치를 대조. 2026-09-14 기존 목차 내 보완.

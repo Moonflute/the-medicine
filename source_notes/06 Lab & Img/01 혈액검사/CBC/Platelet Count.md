@@ -29,16 +29,17 @@ aliases:
 - 약 `150-400 x10^9/L`
 
 ## 5. 이상 소견의 해석
-- `감소`는 decreased production, increased destruction, sequestration, dilution을 감별해야 한다.
+- `감소`는 생성 저하, 말초 파괴·소모, 비장 격리, 희석을 기전별로 감별해야 한다. Hb·WBC도 함께 보아 단독 혈소판감소인지 복수 혈구감소인지 구분한다.
 - `증가`는 inflammation, iron deficiency, post-splenectomy state 같은 reactive thrombocytosis 또는 clonal disorder 가능성이 있다.
 
 ## 6. 임상적 활용
 - bleeding risk 평가
 - thrombocytopenia / thrombocytosis workup
+- 혈소판감소와 파편적혈구(schistocyte)가 함께 보이면 혈전미세혈관병증(TMA), DIC 등 긴급 원인을 우선 평가
 - marrow 반응 및 inflammatory reaction 추적
 
 ## 7. 주의점 및 함정
-- EDTA-induced platelet clumping은 가짜 thrombocytopenia를 만들 수 있다.
+- EDTA-induced platelet clumping 또는 platelet satellitism은 가짜 thrombocytopenia를 만들 수 있다. 의심되면 말초도말로 응집·위성현상을 확인하고, citrate 등 다른 항응고제 검체로 재검한다.
 - platelet 수와 platelet 기능은 다르므로 정상 수치여도 출혈질환이 있을 수 있다.
 
 ## 8. 관련 검사
@@ -48,3 +49,4 @@ aliases:
 
 ## 9. 참고문헌
 - Cleveland Clinic CBC reference range
+- 삼성서울병원 메뉴얼

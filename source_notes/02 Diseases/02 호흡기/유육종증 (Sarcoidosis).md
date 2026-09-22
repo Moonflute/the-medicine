@@ -40,7 +40,9 @@ reviewed_at: "2026-07-30"
 
 ## 3. 검사 (Lab & Imaging)
 * 혈액 검사: 고칼슘혈증(hypercalcemia), 고칼슘뇨증.
+  육아종 대식세포의 비조절적 vitamin D 활성화가 칼슘 흡수를 높이는 기전과 연관된다.
   * **CXR/CT:** 양측 폐문 림프절 비대(bilateral hilar lymphadenopathy)가 가장 흔함.
+* 신경학적 증상은 신경유육종증을, ECG 이상·실신·두근거림은 심장 침범을 평가한다. 시야흐림·눈부심·안통은 포도막염 등 안과 침범 단서이므로 조기 안과 평가가 필요하다.
 
 ## 4. 진단 (Diagnosis)
 * ACE (angiotensin-converting enzyme) level 상승 가능.
@@ -61,3 +63,4 @@ reviewed_at: "2026-07-30"
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+보완 출처: 삼성서울병원 메뉴얼

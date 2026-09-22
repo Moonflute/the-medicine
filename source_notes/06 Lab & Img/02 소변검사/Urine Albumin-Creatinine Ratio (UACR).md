@@ -21,6 +21,7 @@ aliases:
 - urine albumin 농도만 보면 소변이 묽은지 진한지에 따라 값이 흔들린다.
 - 그래서 albumin을 urine creatinine으로 나누어 **소변 농도 차이를 보정**한다.
 - 즉 UACR은 “spot urine 한 번으로 하루 albumin 배설량을 근사하려는 지표”라고 이해하면 된다.
+- 아침 첫 spot urine이 변동을 줄이는 데 유용하다. 다만 creatinine 배설량은 근육량에 따라 달라 비율은 개인의 실제 일일 배설량을 근사하는 값으로 해석한다.
 
 ## 3. 정상범위
 - `30 mg/g creatinine` 미만
@@ -34,7 +35,10 @@ aliases:
 ## 5. 주의점 및 함정
 - exercise, fever, UTI, menstruation, marked hyperglycemia는 일시적 상승을 만들 수 있다.
 - 이상 소견은 반복 확인이 중요하다.
+- 24시간 소변 수집이 필요한 경우에는 수집 누락 가능성을 함께 평가하며, 소변 creatinine은 수집의 완전성을 판단하는 보조 자료가 된다.
 
 ## 6. 참고문헌
 - MedlinePlus Medical Test: Microalbumin Creatinine Ratio
 - NIDDK: Albuminuria
+
+보완 출처: 삼성서울병원 메뉴얼

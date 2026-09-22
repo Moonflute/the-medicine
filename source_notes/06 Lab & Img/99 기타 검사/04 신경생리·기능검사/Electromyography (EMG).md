@@ -17,7 +17,7 @@ aliases:
 
 ## 2. 검사 원리
 - needle electrode를 근육에 삽입해 휴식 시와 수축 시 electrical activity를 기록한다.
-- fibrillation, positive sharp wave, recruitment pattern, motor unit morphology를 본다.
+- fibrillation, positive sharp wave, recruitment pattern, motor unit morphology를 본다. 근병성 염증에서는 삽입활동 증가, fibrillation·positive sharp wave 및 자발성 고빈도 방전과 함께 짧고 낮은 진폭의 다상성 motor unit potential이 보일 수 있다.
 
 ## 3. 임상적 활용
 - radiculopathy
@@ -27,4 +27,6 @@ aliases:
 
 ## 4. 한계
 - 침습적이고 통증이 있을 수 있다.
-- 검사자 경험에 따라 해석 차이가 날 수 있다.
+- 검사자 경험에 따라 해석 차이가 날 수 있다. 전형적 근병성 소견도 단독 확진 기준은 아니며, 정상 EMG만으로 근염을 배제하지 않는다. 근력, 근효소, MRI 및 필요 시 생검과 함께 해석한다.
+
+출처: 삼성서울병원 메뉴얼

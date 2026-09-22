@@ -49,4 +49,4 @@ sources:
 - [[타코츠보 심근병증 (Takotsubo Cardiomyopathy)]]
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 213–218쪽(PDF 233–238쪽). [International Expert Consensus: Takotsubo Syndrome Part I](https://academic.oup.com/eurheartj/article/39/22/2032/5025412), [International Expert Consensus: Takotsubo Syndrome Part II](https://academic.oup.com/eurheartj/article/39/22/2047/5025411), [2024 International Expert Consensus Report](https://pubmed.ncbi.nlm.nih.gov/39417524/); 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. [International Expert Consensus: Takotsubo Syndrome Part I](https://academic.oup.com/eurheartj/article/39/22/2032/5025412), [International Expert Consensus: Takotsubo Syndrome Part II](https://academic.oup.com/eurheartj/article/39/22/2047/5025411), [2024 International Expert Consensus Report](https://pubmed.ncbi.nlm.nih.gov/39417524/); 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.

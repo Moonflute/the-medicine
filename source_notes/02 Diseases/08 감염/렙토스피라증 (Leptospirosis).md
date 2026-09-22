@@ -41,6 +41,7 @@ reviewed_at: "2026-07-30"
 
 ## 3. 검사 (Lab & Imaging)
 - 혈액/소변/뇌척수액 배양 검사, 혈청학적 검사(미세응집반응 검사, MAT), PCR 검사
+- 직접 검출 검체는 발병 시기에 맞춰 선택하며, 초기에는 혈액 또는 뇌척수액, 이후에는 소변 검체가 더 도움이 될 수 있다.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 역학적 노출력, 혈청학적 검사(항체 역가 상승) 또는 PCR 검사 양성으로 진단한다.
@@ -55,7 +56,7 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증 형태인 Weil's disease는 사망률이 높으며, 신부전, 간부전, 폐출혈, 심근염 등의 합병증이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Leptospirosis)
+출처 : Merck Manual Professional (Leptospirosis); 삼성서울병원 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

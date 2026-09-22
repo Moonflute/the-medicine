@@ -37,5 +37,5 @@ preprocessing_required: x
 ## 6. 예후 및 합병증
 - 구조적 관절 손상이나 변형을 일으키지 않는다. 통증, 피로, 수면·기분·인지 증상과 동반 기능저하를 함께 평가하고 관리한다.
 
-출처 : 삼성서울병원 내과 매뉴얼 제8판, Rheumatology pp. 983–984 (OCR: PDF 1003–1004쪽; 통합일 2026-09-15)
+출처 : 삼성서울병원 메뉴얼
 - [EULAR 섬유근통 치료 권고 요약](https://www.eular.org/document/download/251/cfc1fc15-1cab-4262-b7f8-4d50cb60be84/267).

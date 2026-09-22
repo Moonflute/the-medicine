@@ -28,13 +28,18 @@ sources:
 6. pyuria/bacteriuria는 증상과 culture indication을 함께 판단한다.
 
 ## 2. 검체·전처리 함정
+- specific gravity는 용질의 크기·조영제·포도당 등 영향을 받으므로 농축·희석 상태를 정밀하게 판단해야 할 때 urine osmolality와 함께 해석합니다. nitrite 또는 leukocyte esterase 음성만으로 증상성 UTI를 배제하지 않으며, 양성 결과도 무증상 세균뇨·오염과 임상 증상을 함께 판단합니다. dipstick ketone은 β-hydroxybutyrate를 충분히 반영하지 않아 DKA가 의심되면 혈중 β-hydroxybutyrate와 산-염기 상태를 확인합니다.
+
 
 - midstream clean-catch가 기본이며 squamous epithelial cell이 많으면 오염 가능성이 높다.
-- 실온 지연은 세포·cast 소실, 세균 증식, pH 변화를 일으킨다.
+- 실온 지연은 세포·cast 소실, 세균 증식과 pH 상승을 일으킬 수 있다.
 - dipstick blood 양성인데 RBC가 없으면 hemoglobinuria/myoglobinuria 또는 용혈 검체를 고려한다.
 - vitamin C, 농축·희석뇨, 약물은 dipstick 결과에 영향을 줄 수 있다.
+- nitrite는 방광 내 체류 시간이 짧거나 nitrate를 환원하지 않는 균이 원인인 경우, 또는 vitamin C 복용 시 위음성이 될 수 있다.
 
 ## 3. 패턴
+- **침사 우선 원칙:** RBC cast·이형적 RBC와 단백뇨는 사구체성 원인을, WBC cast는 신우신염·간질성 신염 등 세뇨관간질성 원인을 시사하지만 단일 침사 소견만으로 확진하지 않습니다. 반복 신선 검체, 신기능·정량 단백뇨와 임상 소견을 결합하고, 지속 혈뇨는 신장성·비뇨기성 위험을 나누어 평가합니다.
+
 
 | 패턴 | 방향 | 다음 확인 |
 |---|---|---|
@@ -71,3 +76,6 @@ sources:
 ## 7. 출처
 
 - [MedlinePlus: Urinalysis](https://medlineplus.gov/urinalysis.html)
+
+
+보완 출처: 삼성서울병원 메뉴얼. [AUA/SUFU 미세혈뇨 지침](https://www.auanet.org/guidelines-and-quality/guidelines/microhematuria), [KDIGO CKD 지침 2024](https://kdigo.org/guidelines/ckd-evaluation-and-management/)를 대조. 2026-09-14 기존 목차 내 보완.

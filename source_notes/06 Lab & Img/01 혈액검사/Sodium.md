@@ -29,6 +29,7 @@ aliases:
 
 ## 5. 주의점 및 함정
 - serum sodium만 보고 volume status를 단정하면 안 된다.
+- 혈청 나트륨 농도, 총 체내 나트륨량, 유효순환혈액량은 같은 뜻이 아니다. 병력, 체중 변화, 기립 증상, 부종, JVP와 소변검사를 종합해 체액 상태를 평가한다.
 - glucose elevation, hyperlipidemia, hyperproteinemia 등 특수 상황이 해석을 흔들 수 있다.
 
 ## 6. 관련 검사
@@ -38,3 +39,4 @@ aliases:
 
 ## 7. 참고문헌
 - 일반 electrolyte interpretation 요약
+- 삼성서울병원 메뉴얼

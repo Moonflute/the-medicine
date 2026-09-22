@@ -51,4 +51,4 @@ Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: StatPearls (Acute Anemia, Anemia); 삼성서울병원 내과 매뉴얼 제8판, 책 659–660쪽(PDF 679–680쪽).
+출처: StatPearls (Acute Anemia, Anemia); 삼성서울병원 메뉴얼

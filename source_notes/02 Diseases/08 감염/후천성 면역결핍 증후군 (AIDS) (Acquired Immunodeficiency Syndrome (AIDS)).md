@@ -32,7 +32,7 @@ reviewed_at: "2026-07-30"
 ## 2. 임상 양상 (Clinical Features)
 * **급성기**: 감염 초기(2~4주)에 발열, 인후통, 근육통, 발진 등 감기 유사 증상이 나타날 수 있으며, 이후 무증상 잠복기를 거친다.
 
-* **진행기**: 만성 감염이 지속되어 CD4 T 세포 수가 200/µL 미만으로 감소하면 면역 결핍으로 인한 기회 감염 및 HIV 관련 신경인지 장애(HAND) 등이 발생한다.
+* **진행기**: 만성 감염이 지속되어 CD4 T 세포 수가 200/µL 미만으로 감소하면 면역 결핍으로 인한 기회 감염 및 HIV 관련 신경인지 장애(HAND) 등이 발생한다. 지속적인 림프절병증은 결핵·림프종 등 다른 원인도 함께 평가한다.
 
 ## 3. 검사 (Lab & Imaging)
 - 선별 검사: HIV 항원/항체 복합 검사 (4세대 ELISA)
@@ -55,7 +55,7 @@ reviewed_at: "2026-07-30"
 - 합병증: 폐렴, 결핵, 구강 칸디다증, 톡소플라즈마증, 비호지킨 림프종 등 기회 감염 및 악성 종양.
 - 노출 후 예방(PEP): HIV 노출 가능성 발생 시 72시간 이내에 항레트로바이러스제를 투여하여 감염을 예방한다.
 
-출처 : StatPearls (HIV and AIDS, HIV-1 Encephalopathy and Aids Dementia Complex)
+출처 : StatPearls (HIV and AIDS, HIV-1 Encephalopathy and Aids Dementia Complex); 삼성서울병원 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

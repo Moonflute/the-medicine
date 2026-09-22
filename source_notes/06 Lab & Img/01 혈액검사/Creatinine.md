@@ -31,6 +31,8 @@ aliases:
 ## 5. 주의점 및 함정
 - creatinine alone은 kidney function을 완전하게 반영하지 못한다.
 - 같은 creatinine이라도 age, sex, muscle mass에 따라 의미가 다르다.
+- 저근육량·영양실조·절단·근육 소모에서는 creatinine 생성이 적어 실제 신기능 저하를 과소평가할 수 있고, 육류 섭취나 creatine 보충은 일시적으로 수치를 높일 수 있다.
+- trimethoprim·cimetidine은 세뇨관 creatinine 분비를 억제해 실제 GFR 저하 없이 creatinine을 올릴 수 있으므로, 약물 시작 시점과 임상 경과를 함께 해석한다.
 
 ## 6. 관련 검사
 - [[Estimated Glomerular Filtration Rate (eGFR)]]
@@ -39,3 +41,4 @@ aliases:
 
 ## 7. 참고문헌
 - [MedlinePlus: Creatinine Test](https://medlineplus.gov/lab-tests/creatinine-test/)
+- 보완 출처: 삼성서울병원 메뉴얼

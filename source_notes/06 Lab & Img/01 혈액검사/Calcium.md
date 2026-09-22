@@ -28,7 +28,8 @@ aliases:
 - `증가`는 primary hyperparathyroidism, malignancy, granulomatous disease 등을 생각한다.
 
 ## 5. 주의점 및 함정
-- albumin correction 또는 ionized calcium 확인이 필요할 수 있다.
+- albumin correction은 총 칼슘 해석을 돕는 추정치일 뿐이며, 중증 질환·산염기 변화 등에서는 이온화 칼슘을 직접 확인하는 것이 필요할 수 있다.
+- 이상 소견은 반복 검사로 확인하고, 고칼슘혈증에서는 PTH가 높거나 부적절하게 정상인지, 억제되어 있는지에 따라 다음 검사를 분기한다.
 
 ## 6. 관련 검사
 - [[Magnesium]]
@@ -38,3 +39,4 @@ aliases:
 
 ## 7. 참고문헌
 - 일반 calcium interpretation 요약
+- 삼성서울병원 메뉴얼

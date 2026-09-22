@@ -78,4 +78,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 내과 매뉴얼 제8판(2021), 책 4–6쪽(PDF 24–26쪽). [ACG GERD 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/)와 진단·복용 시점·유지요법을 대조함. 2026-09-14 기존 목차 내 부분 보완.
+보완 출처: 삼성서울병원 메뉴얼. [ACG GERD 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/)와 진단·복용 시점·유지요법을 대조함. 2026-09-14 기존 목차 내 부분 보완.

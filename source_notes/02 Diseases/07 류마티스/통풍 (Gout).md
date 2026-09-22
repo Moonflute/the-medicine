@@ -115,6 +115,6 @@ Last updated :
 출처:
 - ACR Guideline for the Management of Gout | https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/
 - Neogi T, et al. 2015 Gout Classification Criteria: An ACR/EULAR Collaborative Initiative | https://pmc.ncbi.nlm.nih.gov/articles/PMC4566153/
-- 삼성서울병원 내과 매뉴얼 제8판, 류마티스, Gout (Monosodium urate gout), pp. 943–945. OCR 원문: `output/samsung_internal_medicine_8e/pages/page-0963.md`–`page-0965.md`; 원본 이미지 대조 완료.
+- 삼성서울병원 메뉴얼
 
 - 급성 발작 스테로이드 약제·용량 보완: [ACR 2012 Part II](https://pmc.ncbi.nlm.nih.gov/articles/PMC3662546/).

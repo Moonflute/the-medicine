@@ -44,15 +44,15 @@ sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Managem
 - 필요 시 신장 초음파(폐쇄성 요로병증 배제)
 
 ## 4. 진단 (Diagnosis)
+- **순서 있는 평가:** 채혈 용혈·장시간 지혈대 사용·심한 혈소판/백혈구 증가 등 가성 고칼륨혈증을 우선 확인하되, 심전도 변화나 근력저하가 있으면 재검 결과를 기다리며 치료를 지연하지 않습니다. 이후 신기능·소변량, 산증/고혈당·조직 손상, 레닌-알도스테론 축 및 칼륨 상승 약물(ACEi/ARB/MRA·NSAID 등)을 함께 점검합니다.
+
 - 혈청 칼륨 농도 확인
 - 가성 고칼륨혈증(용혈 등) 배제
 - 약물 복용력 및 신기능 평가
 
 ## 5. 치료 (Treatment)
-- **심장 보호**: IV Calcium gluconate (심전도 변화 시)
-- **세포 내 이동 촉진**: IV Insulin + Glucose, 흡입용 Beta-2 agonist(Albuterol)
-- **칼륨 배설**: 루프 이뇨제, 양이온교환수지(Sodium polystyrene sulfonate 등)
-- **근본 치료**: 원인 약물 중단, 식이 조절, 투석(내과적 치료에 반응 없는 중증 또는 신부전 환자)
+- **응급 처치의 우선순위:** 심전도 독성이 있으면 IV 칼슘으로 막 안정화를 먼저 시행하고, 인슐린-포도당 및 흡입 베타2 작용제로 일시적 세포 내 이동을 유도합니다. 이는 체내 칼륨을 제거하지 않으므로 반등 가능성을 염두에 두고 반복 K·혈당·심전도 감시가 필요합니다.
+- **제거와 재발 예방:** 체액 과다 없이 소변이 확보된 경우 루프 이뇨제를 고려하고, 급성 중증·난치성 고칼륨혈증이나 신부전에서는 조기에 투석팀과 상의합니다. 경구 칼륨결합제(예: sodium polystyrene sulfonate)는 발현 속도와 장관 안전성을 고려해 응급 단독 처치로 의존하지 않으며, 안정화 후 유발 약물·식이·산증·변비를 재평가합니다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치명적인 부정맥 발생 위험
@@ -61,3 +61,6 @@ sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Managem
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+
+보완 출처: 삼성서울병원 메뉴얼. [2023 Korean Society of Nephrology consensus guideline](https://www.ksn.or.kr/journal/view.php?number=202300002)를 대조. 2026-09-14 기존 목차 내 보완.

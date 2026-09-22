@@ -88,11 +88,11 @@ Last updated :
 
 
 
-보완 출처: 삼성 내과 8판 보완 근거(쪽수와 대조 자료):
-- 삼성서울병원 내과 매뉴얼 제8판, 책 82–83쪽(PDF 102–103쪽, 장외결핵·진단 보조검사). [CDC 결핵 검사·진단](https://www.cdc.gov/tb/hcp/testing-diagnosis/index.html), [CDC IGRA 해석](https://www.cdc.gov/tb/hcp/testing-diagnosis/interferon-gamma-release-assay.html).
-- 삼성서울병원 내과 매뉴얼 제8판, 책 83쪽(PDF 103쪽, 장결핵 감별). [임상·내시경·조직 감별 연구](https://pubmed.ncbi.nlm.nih.gov/20087333/), [통합 감별 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC4694248/).
-- 삼성서울병원 내과 매뉴얼 제8판, 책 83쪽(PDF 103쪽, 조직·미생물 진단). [ATS/CDC/IDSA 결핵 진단 지침](https://www.idsociety.org/practice-guideline/diagnosis-of-tb-in-adults-and-children/), [CDC 폐외결핵 진단](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tuberculosis.html).
-- 삼성서울병원 내과 매뉴얼 제8판, 책 83–84쪽(PDF 103–104쪽, 치료 무반응). [ATS/CDC/IDSA 결핵 치료 지침](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/), [CDC 치료 반응 평가](https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html).
+보완 출처: 삼성서울병원 메뉴얼
+- 삼성서울병원 메뉴얼. [CDC 결핵 검사·진단](https://www.cdc.gov/tb/hcp/testing-diagnosis/index.html), [CDC IGRA 해석](https://www.cdc.gov/tb/hcp/testing-diagnosis/interferon-gamma-release-assay.html).
+- 삼성서울병원 메뉴얼. [임상·내시경·조직 감별 연구](https://pubmed.ncbi.nlm.nih.gov/20087333/), [통합 감별 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC4694248/).
+- 삼성서울병원 메뉴얼. [ATS/CDC/IDSA 결핵 진단 지침](https://www.idsociety.org/practice-guideline/diagnosis-of-tb-in-adults-and-children/), [CDC 폐외결핵 진단](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tuberculosis.html).
+- 삼성서울병원 메뉴얼. [ATS/CDC/IDSA 결핵 치료 지침](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/), [CDC 치료 반응 평가](https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html).
  2026-09-14 기존 목차 내 보완.
 
-- 삼성서울병원 내과 매뉴얼 제8판, 책 83쪽(PDF 103쪽, 치료 기간); [ATS/CDC/IDSA 약제감수성 결핵 치료 지침 — Abdominal Tuberculosis](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/).
+- 삼성서울병원 메뉴얼. [ATS/CDC/IDSA 약제감수성 결핵 치료 지침 — Abdominal Tuberculosis](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/).

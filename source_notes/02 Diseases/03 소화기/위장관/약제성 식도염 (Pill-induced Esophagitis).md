@@ -40,4 +40,4 @@ review_status: "samsung8e_source_integrated"
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 제거 후 호전할 수 있으나 출혈·협착이 남을 수 있다. 재발 예방에는 약제와 복용 습관 교정이 중요하다.
 
-출처: 삼성서울병원 내과 매뉴얼 제8판, 책 9쪽(PDF 29쪽). [약제성 식도 궤양 임상 증례군](https://pubmed.ncbi.nlm.nih.gov/25003679/), [Doxycycline 관련 식도 궤양 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC7045682/).
+출처: 삼성서울병원 메뉴얼. [약제성 식도 궤양 임상 증례군](https://pubmed.ncbi.nlm.nih.gov/25003679/), [Doxycycline 관련 식도 궤양 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC7045682/).

@@ -76,4 +76,4 @@ Last updated :
 2026-07-15 — 공식 지침 기반 Tier 2 보강
 
 출처 : [BSR guideline for idiopathic inflammatory myopathy 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9398208/)
-- 삼성서울병원 내과 매뉴얼 제8판, Rheumatology, “Inflammatory Myopathy”, pp. 966–972 (OCR: page-0986~0992; 992쪽은 전신경화증 시작 전까지).
+- 삼성서울병원 메뉴얼

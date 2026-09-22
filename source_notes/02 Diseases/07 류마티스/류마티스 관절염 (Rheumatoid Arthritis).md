@@ -104,8 +104,8 @@ Last updated :
 2024-05-15 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-2026-09-15 — 삼성서울병원 내과 매뉴얼 제8판 OCR 통합본 작성 (Terra)
+2026-09-15 — 삼성서울병원 메뉴얼 OCR 통합본 작성 (Terra)
 
-출처 : 삼성서울병원 내과 매뉴얼 제8판, Rheumatology pp. 919–928 (OCR: PDF 939–948쪽; 통합일 2026-09-15); Smolen JS, et al. EULAR RA management recommendations. Ann Rheum Dis. 2020;79:685–699. doi:10.1136/annrheumdis-2019-216655
+출처 : 삼성서울병원 메뉴얼. Smolen JS, et al. EULAR RA management recommendations. Ann Rheum Dis. 2020;79:685–699. doi:10.1136/annrheumdis-2019-216655
 
 보완 근거: [Leflunomide 허가정보](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acf3efe4-0d70-4718-9c50-789d69ab215d); [ACR/EULAR 2011 관해 정의](https://pmc.ncbi.nlm.nih.gov/articles/PMC3115717/).

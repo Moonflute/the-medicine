@@ -40,4 +40,4 @@ clinical_priority: tier_2
 - [[통풍 (Gout)]]
 - [[감염 관절염 (Infectious Arthritis)]]
 
-통합 출처: 삼성서울병원 내과 매뉴얼 제8판, 책 946쪽 (PDF 966쪽).
+통합 출처: 삼성서울병원 메뉴얼

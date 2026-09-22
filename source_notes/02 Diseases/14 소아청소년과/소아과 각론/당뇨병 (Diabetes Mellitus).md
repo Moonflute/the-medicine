@@ -54,7 +54,7 @@ review_status: "guideline_enriched"
 - 혈당 목표는 성장·저혈당·기술 접근성과 치료 부담을 반영해 개별화한다. 대부분의 소아청소년 제1형 당뇨병은 HbA1c <7%를 목표로 하며, 유의한 저혈당이나 과도한 부담 없이 가능하면 더 엄격한 목표를 고려한다.
 - 소아 제2형 당뇨병은 진단 시 생활중재와 약물치료를 함께 시작한다. 무증상이고 HbA1c <8.5%이면 금기가 없는 한 metformin을 우선 사용하고, HbA1c ≥8.5%의 뚜렷한 고혈당이지만 산증이 없으면 metformin을 증량하면서 장시간형 인슐린을 시작한다. 케톤산증이 있으면 피하 또는 정주 인슐린으로 즉시 치료한다.
 - 소아 제2형은 저혈당 위험이 낮으면 HbA1c <6.5%를 고려하고 최소 3개월마다 평가한다. 목표 미달이면 연령·국내 허가와 동반질환을 확인해 GLP-1 수용체작용제, SGLT2 억제제 또는 인슐린 병용을 소아내분비팀에서 조정한다.
-- sick-day 계획, 운동·급식·현장학습 시 저혈당 예방, 글루카곤 접근성, 학교의 인슐린·혈당 대응 계획을 문서화한다. 반복 저혈당, DKA, 섭식장애·우울, 치료 접근성 문제는 다학제 협진을 강화한다.
+- sick-day 계획, 운동·급식·현장학습 시 저혈당 예방, 글루카곤 접근성, 학교의 인슐린·혈당 대응 계획을 문서화한다. 반복 저혈당, DKA, 섭식장애, 우울·불안, 수면 문제, 치료 접근성 문제는 다학제 협진을 강화한다.
 
 ## 6. 예후 및 합병증
 - 적절한 교육·기술·가족 지원은 급성 저혈당과 DKA, 장기 미세혈관 합병증을 줄이는 데 중요하다. 성장·사춘기와 자율성 발달에 따라 치료 역할을 점진적으로 이행한다.
@@ -63,3 +63,4 @@ review_status: "guideline_enriched"
 ## 출처
 - ISPAD Clinical Practice Consensus Guidelines 2024: https://www.ispad.org/resources/ispad-clinical-practice-consensus-guidelines/2024-cpcg.html
 - ADA Standards of Care in Diabetes 2026, Children and Adolescents: https://diabetesjournals.org/care/article/49/Supplement_1/S297/163923/14-Children-and-Adolescents-Standards-of-Care-in
+- 보완 출처: 삼성서울병원 메뉴얼

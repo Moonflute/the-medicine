@@ -37,7 +37,7 @@ reviewed_at: "2026-07-30"
 - 전형적으로 hypoproliferative, 경도 정구성 빈혈이며 일부에서 소구성 저색소성으로 보인다. iron 감소, TIBC <300 μg/dL, TSAT 10–20%, ferritin 정상 또는 증가가 IDA와의 구분에 도움 된다.
 
 ## 4. 진단 (Diagnosis)
-- **CKD가 동반된 경우:** CBC·망상적혈구와 ferritin·TSAT을 함께 보며, 절대 철 결핍과 염증에 의한 기능적 철 제한을 구분합니다. 예상보다 급격한 Hb 저하, 혈구 감소, 출혈 의심, 용혈 소견이 있으면 CKD만으로 설명하지 않고 추가 원인을 찾습니다.
+- **CKD가 동반된 경우:** CKD 빈혈을 EPO 부족만으로 단정하지 않고 CBC·망상적혈구와 ferritin·TSAT을 함께 보며, 절대 철 결핍과 염증에 의한 기능적 철 제한을 구분합니다. 출혈, 염증, B12/엽산 결핍, 이차성 부갑상샘기능항진증 및 예상보다 급격한 Hb 저하·혈구 감소·용혈 소견을 함께 평가해 추가 원인을 찾습니다.
 
 - 기저 만성질환의 존재와 특징적인 혈액 검사 소견으로 진단.
   철결핍성 빈혈이 동반된 경우 페리틴 수치가 낮아질 수 있으므로(염증 시 페리틴은 급성기 반응물질로 상승함), 감별이 필요할 경우 sTFR(soluble transferrin receptor) 등을 활용.
@@ -59,4 +59,4 @@ Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: Merck Manual Professional (Anemia of Chronic Disease); [KDIGO anemia in CKD guideline](https://kdigo.org/guidelines/anemia-in-ckd/); 삼성서울병원 내과 매뉴얼 제8판, 책 590–591쪽(PDF 610–611쪽) 및 책 655–657쪽(PDF 675–677쪽).
+출처: Merck Manual Professional (Anemia of Chronic Disease); [KDIGO anemia in CKD guideline](https://kdigo.org/guidelines/anemia-in-ckd/); 삼성서울병원 메뉴얼

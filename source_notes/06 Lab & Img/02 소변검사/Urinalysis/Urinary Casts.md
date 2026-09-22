@@ -22,10 +22,10 @@ aliases:
 - Tamm-Horsfall protein(urodulin)이 matrix 역할을 한다.
 
 ## 3. 주요 종류와 의미
-- `hyaline cast`: dehydration, exercise, fever에서 소량 가능
-- `RBC cast`: glomerulonephritis 강하게 시사
-- `WBC cast`: pyelonephritis, interstitial nephritis 시사
-- `granular cast`: tubular injury에서 흔함
+- `hyaline cast`: 농축뇨, dehydration, exercise, fever 또는 이뇨제 사용에서 소량 보일 수 있으며 특정 신질환에 특이적이지 않음
+- `RBC cast`: glomerulonephritis를 강하게 시사하며 혈관염을 포함한 사구체성 질환 맥락에서 평가
+- `WBC cast`: pyelonephritis, interstitial nephritis를 시사하지만 일부 사구체질환에서도 보일 수 있음
+- `granular cast`: 세뇨관 손상에서 흔하지만 비특이적일 수 있어 AKI 경과와 다른 침사 소견을 함께 해석
 - `waxy cast`: chronic advanced kidney disease 시사
 
 ## 4. 주의점 및 함정
@@ -33,3 +33,4 @@ aliases:
 
 ## 5. 참고문헌
 - 일반 urinary cast 해석 요약
+- 삼성서울병원 메뉴얼
