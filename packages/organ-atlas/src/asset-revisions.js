@@ -20,10 +20,6 @@ export const assetRevisions={
     "sha256": "84340c5b969d035bc0b7909992b6e2442c86f3256c86aeb3ca5d343c45852a3a",
     "bytes": 111556
   },
-  "./models/current/body-limb-vessels-light.glb.gz": {
-    "sha256": "f47e59ff62733ef00b5ce83d699d6704e81783d69f049502e9b77597cf20b22d",
-    "bytes": 14368122
-  },
   "./models/current/body-limb-vessels-lower-limb-left-arteries.glb.gz": {
     "sha256": "53eaf9bd294d95a0db3c524cc77901d0865108bddc9fc7c290b9e5cc8f61b27c",
     "bytes": 1892085
@@ -56,10 +52,6 @@ export const assetRevisions={
     "sha256": "96586c7a3e113b5db26e38b5bab36ff0e235b183fe54ce211de30a6dab6c3099",
     "bytes": 1486702
   },
-  "./models/current/body-limb-vessels.glb.gz": {
-    "sha256": "b8fd0f064a369d3a8e408086dc0bdd91b7b6a517f99a3b19b8b81415042e0577",
-    "bytes": 17442293
-  },
   "./models/current/body-muscles-anterior-trunk-left.glb.gz": {
     "sha256": "bdcf567b3919c23e182bb71ae19a9eecae06de00bc3b595451efe499d2bfebdd",
     "bytes": 3792545
@@ -88,10 +80,6 @@ export const assetRevisions={
     "sha256": "395c867cccf1db44d1813585f58401255278ff562d32db1b019b0f7576e325f9",
     "bytes": 5324777
   },
-  "./models/current/body-muscles-light.glb.gz": {
-    "sha256": "dff4e3bd3e7508e98a216d4f902a3c4e217ec26a74d69d609779cb08584c5114",
-    "bytes": 36223826
-  },
   "./models/current/body-muscles-lower-limb-left.glb.gz": {
     "sha256": "99f8ef9cb61c3076a3f321653c8a19fb1c822d06d3e38204283e811927d1b006",
     "bytes": 3101516
@@ -112,10 +100,6 @@ export const assetRevisions={
     "sha256": "ac775e9d1028a7d7f75fb99e17689951924d2dccf0d9df27724ceb2f8b3f159d",
     "bytes": 1843124
   },
-  "./models/current/body-muscles.glb.gz": {
-    "sha256": "f091c09a2c09a15893a6f1f4318fed2251eaf4b3c1dce69cb1a4776ce91fe6fb",
-    "bytes": 45499316
-  },
   "./models/current/body-nerves-cervical-upper-left.glb.gz": {
     "sha256": "0f04032115f9648e06f64e66535ec92dada1b5bff2b394e6679d7015fbf09bf2",
     "bytes": 1123210
@@ -132,17 +116,9 @@ export const assetRevisions={
     "sha256": "73372137751f8c186d9c3f3167def26c4eb1ad18fea7ddf4406adc8223999524",
     "bytes": 2076556
   },
-  "./models/current/body-nerves-light.glb.gz": {
-    "sha256": "0a71605c4629bc18e906fd7db0ed8a119fb517444934f14cfc89542ed833d49e",
-    "bytes": 6458917
-  },
   "./models/current/body-nerves-spinal-cord.glb.gz": {
     "sha256": "57a85fb7466caeb4809d055287d2832fb400faab4e8eb90557f8949f25b0cf57",
     "bytes": 208747
-  },
-  "./models/current/body-nerves.glb.gz": {
-    "sha256": "8c53faf92c258477baf423ba5b5db36793babc9c4e7264e28dc1deea81e375b9",
-    "bytes": 7828677
   },
   "./models/current/body-skeleton-light.glb.gz": {
     "sha256": "cd7632142c8fdc766fda3659fabd9f092be6b800b60e042e5a2e6d51199577aa",
@@ -159,14 +135,6 @@ export const assetRevisions={
   "./models/current/body-vessels-central-veins.glb.gz": {
     "sha256": "8f74f3f12f153bdbe53b0a21e186ace2dbc908c35f36a11660efc386f34161f1",
     "bytes": 3659304
-  },
-  "./models/current/body-vessels-light.glb.gz": {
-    "sha256": "34944fe3b6618e822ecbbf3d4f820da6fed458acfcdaced08bc46034a5969f50",
-    "bytes": 6447433
-  },
-  "./models/current/body-vessels.glb.gz": {
-    "sha256": "cba3b08a9029b299f8e5b4032dab496f1854e76feb514f295c8f56f481aed39f",
-    "bytes": 7751776
   },
   "./models/current/brain-light.glb.gz": {
     "sha256": "64aa1d836491e9acdfae7afa92fabbd3412477efb0ef93cce83f30970ca66f02",
@@ -251,10 +219,6 @@ export const assetRevisions={
   "./models/current/larynx-bodyparts-light.glb.gz": {
     "sha256": "4ee1cf214263ccf7a6d3368196def07c140eb346280234a3af5feb047a8b5d93",
     "bytes": 1641185
-  },
-  "./models/current/larynx-bodyparts.glb.gz": {
-    "sha256": "d24d1dbea729b6481ee0c2c4bb804a30c4842b6ba8472b03ca95d17999f7c2ac",
-    "bytes": 2932767
   },
   "./models/current/larynx-light.glb.gz": {
     "sha256": "cceae28d694fb0389c3b905606ef4c59ce741114bfc56c67e3b749dafcd87916",
@@ -388,10 +352,6 @@ export const assetRevisions={
     "sha256": "393282f68772af6b27d2e10ff586894879fb3ab69c90efd837f44208c059bdd6",
     "bytes": 847229
   },
-  "./models/current/testes-vascular.glb.gz": {
-    "sha256": "aa91aded0694d201bf18b7457a6ff81e956b11a836f8bc9af9062cd60ad2086b",
-    "bytes": 1013869
-  },
   "./models/current/testes.glb.gz": {
     "sha256": "f366c391ad855de3ad1a133682311534a6968284b6ac703ae47e1c9be83ee27b",
     "bytes": 16474
@@ -479,6 +439,10 @@ export const assetRevisions={
   "./models/current/z-whole-veins-optimized.glb.gz": {
     "sha256": "b3138bcc07314a7eed4ea5b669dab6ff0db3906d1a48e4400039dfeea8d98707",
     "bytes": 10955711
+  },
+  "./models/current/z-whole-manifest.json": {
+    "sha256": "34b8a7e8a8238831a2a4ba8aa9bb3fa434047824addc8805dfef3c792f959d37",
+    "bytes": 1133961
   },
   "./imaging/spl-abdomen/I.nrrd": {
     "sha256": "741e36154074b3834be49c0554e1b49875a9a96d8ed1e466d7614758f2a8f726",

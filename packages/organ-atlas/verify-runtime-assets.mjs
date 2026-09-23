@@ -4,4 +4,4 @@ import {sourceOnlyModels} from './source-only-models.mjs';import {muscleRegions}
 const out=path.resolve('../../apps/medicine-web/public/organ-atlas/models/current');const runtime=new Set(['body-skeleton.glb.gz','body-skeleton-light.glb.gz',...[...muscleRegions,...vesselRegions,...nerveRegions,...combinedRegions,...zNeuralRegions].flatMap(r=>r.files||[r.file])]);
 for(const file of runtime){assert.ok(fs.existsSync(path.join(out,file)),'Missing runtime model '+file);assert.ok(!sourceOnlyModels.includes(file),'Runtime references source-only model '+file);assert.equal(fs.statSync(path.join(out,file)).size,fs.statSync('static/models/current/'+file).size);}
 for(const file of sourceOnlyModels){assert.ok(fs.existsSync('static/models/current/'+file),'Local source removed');assert.ok(!fs.existsSync(path.join(out,file)),'Source-only model published');}
-console.log(runtime.size,'runtime body models retained; 8 source-only models preserved locally and omitted from distribution');
+console.log(runtime.size,'runtime body models retained;',sourceOnlyModels.length,'source-only models preserved locally and omitted from distribution');
