@@ -290,9 +290,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
           <p className="mt-1 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
           {activeSessionError?.sessionId === activeSession.sessionId ? <p role="alert" className="mt-1 text-xs text-rose-700">{activeSessionError.message}</p> : null}
         </div>
-        <div className="action-pair flex shrink-0 flex-wrap gap-2">
-          <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="primary-action">이어서 풀기</Link>
-          <button type="button" className="secondary-action text-rose-700" disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "조기 종료"}</button>
+        <div className="flex shrink-0 gap-1.5">
+          <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="inline-flex h-8 items-center justify-center whitespace-nowrap rounded-md border border-slate-200 bg-white px-2.5 text-xs font-medium text-blue-600 transition hover:border-blue-200 hover:bg-blue-50">재개</Link>
+          <button type="button" className="inline-flex h-8 items-center justify-center whitespace-nowrap rounded-md border border-slate-200 bg-white px-2.5 text-xs font-medium text-rose-600 transition hover:border-rose-200 hover:bg-rose-50 disabled:cursor-wait disabled:opacity-60" disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "종료"}</button>
         </div>
       </article>)}
     </section> : null}
