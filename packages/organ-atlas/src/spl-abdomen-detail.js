@@ -5,11 +5,11 @@ import {registerDetailController} from './detail-resources.js';
 import {fetchModelManifest,fetchModelResponse} from './local-model-store.js';
 import {loadCompressedGlb} from './load-glb.js';
 import {parseNrrdVolume,SLICE_PLANES} from './imaging/nrrd-volume.js';
+import {centerCrosshair,clampCrosshair,createCtWindowPresets,crosshairPixel,drawCrosshair,indexForPlane,planeIndices,rasFromIJK,setPlaneIndex} from './imaging/mpr-state.js';
 
 const BASE='./imaging/spl-abdomen/';
 const MANIFEST=BASE+'spl-abdomen-manifest.json';
 const SOURCE='https://www.openanatomy.org/atlas-pages/atlas-spl-abdomen.html';
-const PLANE_AXIS={axial:2,coronal:1,sagittal:0};
 const MEDICAL_LABELS=new Map([
  [3,['Liver','liver']],
  [4,['Spleen','spleen']],
@@ -25,8 +25,6 @@ const MEDICAL_LABELS=new Map([
 ]);
 
 const sameArray=(a,b,tolerance=1e-6)=>Array.isArray(a)&&Array.isArray(b)&&a.length===b.length&&a.every((value,index)=>Math.abs(value-b[index])<=tolerance);
-const clamp=(value,min,max)=>Math.max(min,Math.min(max,value));
-
 function assertManifest(manifest){
  if(manifest?.schemaVersion!==1||manifest.atlas?.id!=='spl-abdomen-2016-09')throw Error('지원하지 않는 복부 영상 명세입니다.');
  const {ct,seg}=manifest.volume||{};
@@ -127,7 +125,7 @@ export async function loadSplAbdomenDetail(){
   mesh.castShadow=true;mesh.receiveShadow=true;
  });
 
- const initialPlane='axial',initialIndex=Math.floor(ct.getPlaneLength(initialPlane)/2);
+ const initialPlane='axial';
  const placeholder=new T.DataTexture(new Uint8Array([0,0,0,255]),1,1,T.RGBAFormat);placeholder.needsUpdate=true;
  const planeMesh=new T.Mesh(new T.BufferGeometry(),new T.MeshBasicMaterial({map:placeholder,side:T.DoubleSide,transparent:true,opacity:.9,depthWrite:false,toneMapped:false}));
  planeMesh.name='spl-abdomen-ct-plane';planeMesh.renderOrder=8;planeMesh.userData.contextStructure=true;
@@ -152,17 +150,21 @@ export async function loadSplAbdomenDetail(){
   {organId:'abdomen',renderingAsset:surfaceUrl,sources:[sourceReference]},
  ],notice:'동일 대상의 복부 CT, Int16 분할 지도와 3D 표면을 같은 RAS 좌표로 표시합니다. 교육·연구용 자료이며 진단용 영상 뷰어가 아닙니다.',imaging:true};
 
- const colors=labelColors(manifest),state={plane:initialPlane,index:initialIndex,overlay:true,selectedLabel:null};let listener=()=>{};
- function snapshot(){return {...state,length:ct.getPlaneLength(state.plane),dimensions:[...ct.dimensions],spacingMm:[...ct.spacingMm],windowLevel:{level:manifest.windowLevel.level,width:manifest.windowLevel.window}};}
+ const colors=labelColors(manifest),windowPresets=createCtWindowPresets({sourceLevel:manifest.windowLevel.level,sourceWidth:manifest.windowLevel.window,storedValueOffset:1024}),presetById=new Map(windowPresets.map(preset=>[preset.id,preset]));
+ const sourcePreset=presetById.get('source'),state={plane:initialPlane,crosshairIJK:centerCrosshair(ct.dimensions),overlay:true,selectedLabel:null,windowPreset:sourcePreset.id,windowLevel:{level:sourcePreset.level,width:sourcePreset.width}};let listener=()=>{};
+ function snapshot(){const indices=planeIndices(state.crosshairIJK);return {plane:state.plane,index:indices[state.plane],indices,crosshairIJK:[...state.crosshairIJK],crosshairRas:rasFromIJK(state.crosshairIJK,ct.ijkToRas),overlay:state.overlay,selectedLabel:state.selectedLabel,length:ct.getPlaneLength(state.plane),dimensions:[...ct.dimensions],spacingMm:[...ct.spacingMm],windowPreset:state.windowPreset,windowLevel:{...state.windowLevel,units:'stored-value',huOffset:-1024},windowPresets:windowPresets.map(preset=>({...preset}))};}
  function renderSlice(){
-  const image=ct.renderSliceRGBA(state.plane,state.index,{level:manifest.windowLevel.level,windowWidth:manifest.windowLevel.window,...(state.overlay?{labelVolume:seg,labelColors:colors,labelOpacity:.42}:{})});
+  const index=indexForPlane(state.crosshairIJK,state.plane),image=ct.renderSliceRGBA(state.plane,index,{level:state.windowLevel.level,windowWidth:state.windowLevel.width,...(state.overlay?{labelVolume:seg,labelColors:colors,labelOpacity:.42}:{})});
+  drawCrosshair(image.data,image.width,image.height,{...crosshairPixel(state.crosshairIJK,state.plane)});
   const texture=new T.DataTexture(image.data,image.width,image.height,T.RGBAFormat,T.UnsignedByteType);texture.colorSpace=T.SRGBColorSpace;texture.minFilter=T.LinearFilter;texture.magFilter=T.LinearFilter;texture.generateMipmaps=false;texture.needsUpdate=true;
-  planeMesh.material.map?.dispose();planeMesh.material.map=texture;planeMesh.material.needsUpdate=true;setPlaneGeometry(planeMesh,ct,state.plane,state.index);listener(snapshot());
+  planeMesh.material.map?.dispose();planeMesh.material.map=texture;planeMesh.material.needsUpdate=true;setPlaneGeometry(planeMesh,ct,state.plane,index);listener(snapshot());
  }
- function setPlane(plane){if(!SLICE_PLANES.includes(plane))return;state.plane=plane;const selected=centroids.get(state.selectedLabel);state.index=selected?selected[PLANE_AXIS[plane]]:Math.floor(ct.getPlaneLength(plane)/2);renderSlice();}
- function setSlice(index){state.index=clamp(Math.round(Number(index)||0),0,ct.getPlaneLength(state.plane)-1);renderSlice();}
+ function setPlane(plane){if(!SLICE_PLANES.includes(plane))return;state.plane=plane;renderSlice();}
+ function setSlice(index,plane=state.plane){if(!SLICE_PLANES.includes(plane))return;state.crosshairIJK=setPlaneIndex(state.crosshairIJK,plane,index,ct.dimensions);renderSlice();}
+ function setCrosshairIJK(ijk){state.crosshairIJK=clampCrosshair(ijk,ct.dimensions);renderSlice();}
+ function setWindowPreset(id){const preset=presetById.get(id);if(!preset)return;state.windowPreset=preset.id;state.windowLevel={level:preset.level,width:preset.width};renderSlice();}
  function setOverlay(visible){state.overlay=!!visible;renderSlice();}
- function selectPart(partId){const value=Number(/spl-abdomen-label-(\d+)$/.exec(partId)?.[1]);if(!centroids.has(value))return;state.selectedLabel=value;state.index=centroids.get(value)[PLANE_AXIS[state.plane]];renderSlice();}
- const controller={root,getState:()=>[],getImagingState:snapshot,setPlane,setSlice,setOverlay,selectPart,subscribe(callback){listener=typeof callback==='function'?callback:()=>{};listener(snapshot());return()=>{listener=()=>{}}},dispose(){listener=()=>{};ct.dispose();seg.dispose();disposeTree(root)}};
+ function selectPart(partId){const value=Number(/spl-abdomen-label-(\d+)$/.exec(partId)?.[1]);if(!centroids.has(value))return;state.selectedLabel=value;state.crosshairIJK=clampCrosshair(centroids.get(value),ct.dimensions);renderSlice();}
+ const controller={root,getState:()=>[],getImagingState:snapshot,setPlane,setSlice,setCrosshairIJK,setWindowPreset,setOverlay,selectPart,subscribe(callback){listener=typeof callback==='function'?callback:()=>{};listener(snapshot());return()=>{listener=()=>{}}},dispose(){listener=()=>{};ct.dispose();seg.dispose();disposeTree(root)}};
  registerDetailController(root,controller);renderSlice();return root;
 }

@@ -6,9 +6,9 @@ const base=process.env.ATLAS_URL||'http://127.0.0.1:4191/';
 const systemChrome=process.env.CHROME_PATH||'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 const browser=await chromium.launch({headless:true,...(existsSync(systemChrome)?{executablePath:systemChrome}:{})});
 const page=await browser.newPage({viewport:{width:1366,height:850},deviceScaleFactor:1});
-const requests=[];const errors=[];
+const requests=[];const errors=[];let expectedOfflineImaging=false;
 page.on('request',request=>requests.push(request.url()));
-page.on('requestfailed',request=>errors.push(`${request.url()} · ${request.failure()?.errorText||'request failed'}`));
+page.on('requestfailed',request=>{if(expectedOfflineImaging&&request.url().includes('/imaging/spl-abdomen/'))return;errors.push(`${request.url()} · ${request.failure()?.errorText||'request failed'}`)});
 page.on('console',message=>{if(message.type()==='error')errors.push(message.text())});
 page.on('pageerror',error=>errors.push(error.message));
 
@@ -38,8 +38,19 @@ try{
  const saveButton=page.locator('[data-local-save]');
  assert.equal(await saveButton.isDisabled(),false,'localhost should support per-device model storage');
  await saveButton.click();
- await page.waitForFunction(()=>document.querySelector('.local-model-controls output')?.textContent.includes('저장 완료'),{timeout:60000});
- assert.match(await page.locator('.local-model-controls output').textContent(),/1[23]\.[0-9] MB/,'linked imaging save plan did not include every asset');
+ await page.waitForFunction(()=>!document.querySelector('[data-local-save]')?.disabled,{timeout:60000});
+ const savedStatus=await page.locator('.local-model-controls output').textContent();
+ assert.match(savedStatus,/저장 완료/,'local save failed: '+savedStatus);
+ assert.match(savedStatus,/1[23]\.[0-9] MB/,'linked imaging save plan did not include every asset');
+ expectedOfflineImaging=true;
+ await page.route('**/imaging/spl-abdomen/**',route=>route.abort('failed'));
+ await page.reload({waitUntil:'domcontentloaded'});
+ await page.waitForFunction(()=>document.querySelector('#viewport')?.dataset.model==='liver',{timeout:30000});
+ await page.click('#settings-toggle');
+ await page.selectOption('#detail-model','spl-abdomen-ct');
+ await page.waitForFunction(()=>window.organAtlas?.exportView?.()?.detailModel?.id==='spl-abdomen-ct',{timeout:60000});
+ expectedOfflineImaging=false;
+ await page.unroute('**/imaging/spl-abdomen/**');
  await page.click('[data-local-clear]');
  await page.waitForFunction(()=>document.querySelector('.local-model-controls output')?.textContent.includes('0.0 MB'));
 
@@ -50,6 +61,14 @@ try{
  assert.deepEqual(await page.evaluate(()=>window.organAtlas.exportView().camera),cameraBefore,'changing image plane moved the camera');
  await page.locator('#imaging-slice').evaluate(element=>{element.value='90';element.dispatchEvent(new Event('input',{bubbles:true}))});
  await page.waitForFunction(()=>window.organAtlas.exportView().imaging.index===90);
+ await page.locator('[data-mpr-plane="sagittal"]').evaluate(element=>{element.value='64';element.dispatchEvent(new Event('input',{bubbles:true}))});
+ await page.waitForFunction(()=>window.organAtlas.exportView().imaging.indices.sagittal===64);
+ const synchronized=await page.evaluate(()=>window.organAtlas.exportView().imaging);
+ assert.equal(synchronized.indices.coronal,90,'moving a second MPR axis reset the first axis');
+ assert.equal(synchronized.crosshairIJK[0],64);
+ await page.selectOption('#imaging-window','bone');
+ await page.waitForFunction(()=>window.organAtlas.exportView().imaging.windowPreset==='bone');
+ assert.deepEqual((await page.evaluate(()=>window.organAtlas.exportView().imaging.windowLevel)),{level:1224,width:1000,units:'stored-value',huOffset:-1024});
  await page.uncheck('#imaging-overlay');
  assert.equal((await page.evaluate(()=>window.organAtlas.exportView())).imaging.overlay,false);
 
@@ -65,7 +84,7 @@ try{
  await page.waitForTimeout(100);
  const overflow=await page.locator('#settings-sheet').evaluate(element=>element.scrollWidth-element.clientWidth);
  assert.ok(overflow<=1,`mobile settings overflow by ${overflow}px`);
- const materialErrors=errors.filter(error=>!error.includes('fonts.googleapis.com')&&error!=='Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED');
+ const materialErrors=errors.filter(error=>!error.includes('fonts.googleapis.com')&&error!=='Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED'&&error!=='Failed to load resource: net::ERR_FAILED');
  assert.equal(materialErrors.length,0,materialErrors.join('\n'));
  console.log(JSON.stringify({lazyRequests:requests.filter(url=>url.includes('/imaging/spl-abdomen/')).length,dimensions:manifest.volume.ct.dimensions,unknownLabel699:'transparent',cameraStable:true,mobileOverflow:overflow},null,2));
 }finally{

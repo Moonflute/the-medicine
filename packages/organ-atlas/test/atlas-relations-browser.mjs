@@ -20,6 +20,9 @@ try{
  await page.getByRole('button',{name:'Aortic arch branches'}).click();
  await page.waitForSelector('.relation-brancher');
  const camera=await page.evaluate(()=>window.organAtlas.exportView().camera);
+ assert.equal(await page.locator('.relation-heading strong').textContent(),'Guided anatomy');
+ assert.equal(await page.locator('.guided-progress button').count(),4,'guided route progress must include the origin and three branches');
+ assert.equal(await page.locator('.relation-replay').count(),1,'guided route needs a replay action');
  assert.equal(await page.locator('.relation-stepper').count(),0,'parallel branches must not use sequential arrows');
  assert.equal(await page.locator('.relation-origin').count(),1,'parallel branches need one common origin');
  assert.equal(await page.locator('.relation-branches button').count(),3,'aortic arch needs three sibling branch choices');

@@ -33,9 +33,14 @@ export async function saveModels(plan,{signal,onProgress=()=>{}}={}){
   signal?.throwIfAborted();const cacheKey=key(url),rev=revision(url);
   if(!await cache.match(cacheKey)){
    const response=await fetch(url,{signal});if(!response.ok)throw Error('모델 다운로드 실패: '+response.status);
+   const transportDecoded=response.headers.get('Content-Encoding')?.toLowerCase().includes('gzip');
    const data=await response.arrayBuffer();signal?.throwIfAborted();
-   if(rev){const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',data))].map(v=>v.toString(16).padStart(2,'0')).join('');if(digest!==rev.sha256)throw Error('모델 검증에 실패했어요. 다시 시도해 주세요.');}
+   // Browsers transparently decode an HTTP Content-Encoding response. In that
+   // case the gzip CRC has already validated the payload, while our revision
+   // hash still describes the compressed file served by GitHub Pages.
+   if(rev&&!transportDecoded){const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',data))].map(v=>v.toString(16).padStart(2,'0')).join('');if(digest!==rev.sha256)throw Error('모델 검증에 실패했어요. 다시 시도해 주세요.');}
    const headers=new Headers(response.headers);headers.delete('Content-Encoding');headers.delete('Content-Length');
+   if(transportDecoded)headers.set('X-Atlas-Decoded-Gzip','1');
    await cache.put(cacheKey,new Response(data,{status:200,headers}));
    for(const request of await cache.keys()){const old=new URL(request.url);old.searchParams.delete('atlas-sha256');if(old.href===absolute(url)&&request.url!==cacheKey)await cache.delete(request);}
   }

@@ -1,3 +1,5 @@
+import {attachStagedPathology} from './pathology-stages.js';
+
 // Educational, qualitative scenarios. Intensity is a visual control, not a clinical grade.
 const p=(id,label,target,color,change,kind='highlight',amount=0)=>({id,label,target,color,change,kind,amount});
 export const pathology={
@@ -46,3 +48,5 @@ pathology.thyroid=[{...p('goiter','갑상선종 · 엽 비대','^FJ367[12]_', '#
 pathology.adrenals=[];
 pathology.testes=[];
 pathology.pharynx=[];
+
+attachStagedPathology(pathology);
