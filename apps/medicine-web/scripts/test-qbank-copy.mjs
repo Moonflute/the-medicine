@@ -5,11 +5,11 @@ import test from 'node:test';
 import ts from 'typescript';
 
 function compile(name, deps = {}) {
-  const module = { exports: {} };
+  const moduleShim = { exports: {} };
   const source = fs.readFileSync(new URL(`../src/lib/${name}`, import.meta.url), 'utf8');
   const output = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 } }).outputText;
-  vm.runInNewContext(output, { module, exports: module.exports, require: (id) => deps[id] });
-  return module.exports;
+  vm.runInNewContext(output, { module: moduleShim, exports: moduleShim.exports, require: (id) => deps[id] });
+  return moduleShim.exports;
 }
 
 const grading = compile('qbank-grading.ts');
