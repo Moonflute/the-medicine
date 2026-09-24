@@ -32,27 +32,47 @@ export async function loadCloudActiveQbankSessionState(client: SupabaseClient, u
 export async function saveCloudActiveQbankSession(client: SupabaseClient, userId: string, session: QbankActiveSession): Promise<void> {
   const parsed = activeSessionFrom(session);
   if (!parsed) return;
-  const { error } = await client.from("qbank_active_sessions").upsert({
+  const { data: inserted, error } = await client.from("qbank_active_sessions").upsert({
     user_id: userId,
     session_id: parsed.sessionId,
     payload: parsed,
     updated_at: parsed.updatedAt,
-  }, { onConflict: "user_id,session_id" });
+  }, { onConflict: "user_id,session_id", ignoreDuplicates: true }).select("session_id");
   if (!isMissingActiveSessionsTable(error)) {
     if (error) throw error;
+    if (inserted?.length) return;
+    // A different device may have a newer snapshot or an end tombstone.
+    // Never overwrite either with an older local copy.
+    const { error: updateError } = await client.from("qbank_active_sessions")
+      .update({ payload: parsed, updated_at: parsed.updatedAt })
+      .eq("user_id", userId).eq("session_id", parsed.sessionId)
+      .is("ended_at", null).lt("updated_at", parsed.updatedAt);
+    if (updateError) throw updateError;
     return;
   }
   const { error: legacyError } = await client.from("user_preferences").upsert({ user_id: userId, qbank_active_session: parsed }, { onConflict: "user_id" });
   if (legacyError) throw legacyError;
 }
 
-export async function removeCloudActiveQbankSession(client: SupabaseClient, userId: string, sessionId: string): Promise<void> {
+export async function removeCloudActiveQbankSession(client: SupabaseClient, userId: string, sessionId: string, localSession?: QbankActiveSession | null): Promise<void> {
   // Keep an account-wide tombstone. A delayed debounced upsert from another
   // open tab can update the payload, but cannot make this row active again.
   const endedAt = new Date().toISOString();
-  const { error } = await client.from("qbank_active_sessions").update({ ended_at: endedAt, updated_at: endedAt }).eq("user_id", userId).eq("session_id", sessionId).is("ended_at", null);
+  const { data: updated, error } = await client.from("qbank_active_sessions").update({ ended_at: endedAt, updated_at: endedAt }).eq("user_id", userId).eq("session_id", sessionId).is("ended_at", null).select("session_id");
   if (!isMissingActiveSessionsTable(error)) {
     if (error) throw error;
+    if (!updated?.length && localSession) {
+      const parsed = activeSessionFrom(localSession);
+      if (parsed?.sessionId === sessionId) {
+        // A locally created set may be ended before its first successful upload.
+        const { error: insertError } = await client.from("qbank_active_sessions").upsert({
+          user_id: userId, session_id: sessionId, payload: parsed, updated_at: endedAt, ended_at: endedAt,
+        }, { onConflict: "user_id,session_id", ignoreDuplicates: true });
+        if (insertError) throw insertError;
+        const { error: retryError } = await client.from("qbank_active_sessions").update({ ended_at: endedAt, updated_at: endedAt }).eq("user_id", userId).eq("session_id", sessionId).is("ended_at", null);
+        if (retryError) throw retryError;
+      }
+    }
     return;
   }
   const legacy = await loadLegacySession(client, userId);

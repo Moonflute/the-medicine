@@ -23,7 +23,7 @@ const storage = () => {
 const browser = { localStorage: storage(), sessionStorage: storage() };
 const grading = compile('qbank-grading.ts');
 const mockExam = compile('mock-exam.ts', { './qbank-grading': grading });
-const { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, loadLocalActiveQbankSessions, remapLocalActiveQbankSession, saveLocalActiveQbankSession } = compile('qbank-active-session.ts', {
+const { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, loadLocalActiveQbankSessions, planActiveQbankSessionSync, remapLocalActiveQbankSession, saveLocalActiveQbankSession } = compile('qbank-active-session.ts', {
   './qbank-grading': grading,
   './mock-exam': mockExam,
 }, { window: browser });
@@ -129,4 +129,90 @@ test('activeSessionsFrom accepts Supabase-style collections and keeps the newest
   ] });
   assert.equal(sessions.length, 1);
   assert.equal(sessions[0].context.title, '최신');
+});
+
+test('a device-only set is scheduled for account upload', () => {
+  const local = [{ ...legacy, sessionId: 'shared' }, { ...legacy, sessionId: 'device-only' }];
+  const plan = planActiveQbankSessionSync(local, [local[0]], []);
+  assert.deepEqual(Array.from(plan.sessions, session => session.sessionId).sort(), ['device-only', 'shared']);
+  assert.deepEqual(Array.from(plan.toUpload, session => session.sessionId), ['device-only']);
+});
+
+test('newer server progress wins and an ended set is never uploaded again', () => {
+  const local = [{ ...legacy, sessionId: 'shared' }, { ...legacy, sessionId: 'ended' }];
+  const remote = [{ ...legacy, sessionId: 'shared', updatedAt: '2026-09-23T00:00:00.000Z', currentIndex: 1 }];
+  const plan = planActiveQbankSessionSync(local, remote, ['ended']);
+  assert.equal(plan.sessions.length, 1);
+  assert.equal(plan.sessions[0].currentIndex, 1);
+  assert.equal(plan.toUpload.length, 0);
+});
+
+test('a newer offline answer is scheduled to replace older server progress', () => {
+  const local = [{ ...legacy, updatedAt: '2026-09-24T00:00:00.000Z', answers: [{ questionId: 'a', correct: true, specialty: '순환기' }] }];
+  const plan = planActiveQbankSessionSync(local, [legacy], []);
+  assert.equal(plan.sessions[0].answers.length, 1);
+  assert.equal(plan.toUpload.length, 1);
+});
+
+const { saveCloudActiveQbankSession, removeCloudActiveQbankSession } = compile('qbank-active-session-cloud.ts', {
+  './qbank-active-session': { activeSessionFrom, activeSessionsFrom },
+});
+
+function fakeActiveSessionClient(initial = []) {
+  const rows = new Map(initial.map(row => [row.session_id, { ...row }]));
+  return {
+    rows,
+    from(table) {
+      assert.equal(table, 'qbank_active_sessions');
+      return {
+        upsert(row, options) {
+          assert.equal(options.ignoreDuplicates, true);
+          const run = async () => {
+            if (rows.has(row.session_id)) return { data: [], error: null };
+            rows.set(row.session_id, { ...row });
+            return { data: [{ session_id: row.session_id }], error: null };
+          };
+          return { select: run, then: (resolve, reject) => run().then(resolve, reject) };
+        },
+        update(patch) {
+          const filters = {};
+          const query = {
+            eq(key, value) { filters[key] = value; return this; },
+            is(key, value) { filters[key] = value; return this; },
+            lt(key, value) { filters[`lt:${key}`] = value; return this; },
+            select() { return this; },
+            then(resolve, reject) {
+              const row = rows.get(filters.session_id);
+              const matches = row && row.user_id === filters.user_id
+                && (!Object.hasOwn(filters, 'ended_at') || row.ended_at == null)
+                && (!filters['lt:updated_at'] || row.updated_at < filters['lt:updated_at']);
+              if (matches) rows.set(filters.session_id, { ...row, ...patch });
+              return Promise.resolve({ data: matches ? [{ session_id: filters.session_id }] : [], error: null }).then(resolve, reject);
+            },
+          };
+          return query;
+        },
+      };
+    },
+  };
+}
+
+test('cloud upload inserts missing sets but cannot overwrite newer progress or ended sets', async () => {
+  const client = fakeActiveSessionClient([
+    { user_id: 'user', session_id: 'newer', payload: { ...legacy, sessionId: 'newer', currentIndex: 2 }, updated_at: '2026-09-24T00:00:00.000Z' },
+    { user_id: 'user', session_id: 'ended', payload: { ...legacy, sessionId: 'ended' }, updated_at: '2026-09-24T00:00:00.000Z', ended_at: '2026-09-24T00:00:00.000Z' },
+  ]);
+  await saveCloudActiveQbankSession(client, 'user', { ...legacy, sessionId: 'missing' });
+  await saveCloudActiveQbankSession(client, 'user', { ...legacy, sessionId: 'newer' });
+  await saveCloudActiveQbankSession(client, 'user', { ...legacy, sessionId: 'ended', updatedAt: '2026-09-25T00:00:00.000Z' });
+  assert.equal(client.rows.has('missing'), true);
+  assert.equal(client.rows.get('newer').payload.currentIndex, 2);
+  assert.ok(client.rows.get('ended').ended_at);
+});
+
+test('ending a local-only set records a tombstone before another device can upload it', async () => {
+  const client = fakeActiveSessionClient();
+  await removeCloudActiveQbankSession(client, 'user', legacy.sessionId, legacy);
+  await saveCloudActiveQbankSession(client, 'user', { ...legacy, updatedAt: '2026-09-25T00:00:00.000Z' });
+  assert.ok(client.rows.get(legacy.sessionId).ended_at);
 });

@@ -107,6 +107,20 @@ function sessionTime(session: QbankActiveSession): number {
   return Number.isFinite(value) ? value : 0;
 }
 
+export function planActiveQbankSessionSync(local: QbankActiveSession[], remote: QbankActiveSession[], endedSessionIds: string[]) {
+  const ended = new Set(endedSessionIds);
+  const localActive = activeSessionsFrom(local).filter((session) => !ended.has(session.sessionId) && !session.mockExam?.finishedAt);
+  const remoteActive = activeSessionsFrom(remote).filter((session) => !ended.has(session.sessionId) && !session.mockExam?.finishedAt);
+  const remoteById = new Map(remoteActive.map((session) => [session.sessionId, session]));
+  return {
+    sessions: activeSessionsFrom([...localActive, ...remoteActive]),
+    toUpload: localActive.filter((session) => {
+      const saved = remoteById.get(session.sessionId);
+      return !saved || sessionTime(session) > sessionTime(saved);
+    }),
+  };
+}
+
 export function activeSessionsFrom(value: unknown): QbankActiveSession[] {
   const record = value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : null;
   const values = Array.isArray(value) ? value

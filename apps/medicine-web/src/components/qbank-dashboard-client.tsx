@@ -8,8 +8,9 @@ import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceTopicKey, practiceTopi
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
-import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSessions, remapLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
-import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
+import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSessions, planActiveQbankSessionSync, remapLocalActiveQbankSession, saveLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
+import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
+import { OWNER_KEY } from "@/lib/learning-sync-outbox";
 import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
 type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string; scopeSlugs?: string[] };
@@ -153,6 +154,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [unattemptedCount, setUnattemptedCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
   const [activeSessions, setActiveSessions] = useState<QbankActiveSession[]>([]);
+  const [activeSessionSyncRevision, setActiveSessionSyncRevision] = useState(0);
+  const [activeSessionSyncError, setActiveSessionSyncError] = useState("");
+  const [activeSessionSyncing, setActiveSessionSyncing] = useState(false);
   const [endingActiveSessionId, setEndingActiveSessionId] = useState("");
   const [activeSessionError, setActiveSessionError] = useState<{ sessionId: string; message: string } | null>(null);
   const questionsById = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions]);
@@ -181,18 +185,47 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     if (!client) return () => { active = false; };
     let channel: ReturnType<typeof client.channel> | null = null;
     const restore = async () => {
-      const { data: auth } = await client.auth.getUser();
-      if (!active || !auth.user) return;
+      setActiveSessionSyncing(true);
+      setActiveSessionSyncError("");
+      const { data: auth, error: authError } = await client.auth.getUser();
+      if (!active) return;
+      if (authError) throw authError;
+      if (!auth.user) return;
+      const owner = window.localStorage.getItem(OWNER_KEY);
+      if (owner && owner !== auth.user.id) {
+        const accountSessions = await loadCloudActiveQbankSessionState(client, auth.user.id);
+        if (!active) return;
+        setActiveSessions(accountSessions.sessions.filter((session) => !session.mockExam?.finishedAt));
+        setActiveSessionSyncError("이 기기의 다른 계정 기록은 제외했습니다. 현재 계정의 문제 세트만 표시합니다.");
+        return;
+      }
+      if (!owner) window.localStorage.setItem(OWNER_KEY, auth.user.id);
+
       const cloud = await loadCloudActiveQbankSessionState(client, auth.user.id);
       if (!active) return;
-      const endedIds = new Set(cloud.endedSessionIds);
-      for (const sessionId of endedIds) clearLocalActiveQbankSession(sessionId);
-      const remote = cloud.sessions.filter((session) => !session.mockExam?.finishedAt);
-      setActiveSessions(activeSessionsFrom([...remote, ...local.filter((session) => !endedIds.has(session.sessionId))]));
+      for (const sessionId of cloud.endedSessionIds) clearLocalActiveQbankSession(sessionId);
+      const pending = planActiveQbankSessionSync(initialActiveSessions(), cloud.sessions, cloud.endedSessionIds);
+      for (const session of cloud.sessions) if (!session.mockExam?.finishedAt) saveLocalActiveQbankSession(session);
+      setActiveSessions(pending.sessions);
+      const uploads = await Promise.allSettled(pending.toUpload.map((session) => saveCloudActiveQbankSession(client, auth.user.id, session)));
+      for (const result of uploads) if (result.status === "rejected") console.warn("Q-bank active session upload failed.", result.reason);
+      if (!active) return;
+      const confirmed = pending.toUpload.length ? await loadCloudActiveQbankSessionState(client, auth.user.id) : cloud;
+      if (!active) return;
+      for (const sessionId of confirmed.endedSessionIds) clearLocalActiveQbankSession(sessionId);
+      const reconciled = planActiveQbankSessionSync(initialActiveSessions(), confirmed.sessions, confirmed.endedSessionIds);
+      for (const session of confirmed.sessions) if (!session.mockExam?.finishedAt) saveLocalActiveQbankSession(session);
+      setActiveSessions(reconciled.sessions);
+      if (reconciled.toUpload.length) {
+        setActiveSessionSyncError("일부 문제 세트를 계정에 저장하지 못했습니다. 다시 시도해 주세요.");
+      }
       channel = client.channel(`qbank-active-sessions:${auth.user.id}`)
         .on("postgres_changes", { event: "INSERT", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${auth.user.id}` }, (payload) => {
           const session = activeSessionFrom((payload.new as Record<string, unknown>).payload);
-          if (session && !session.mockExam?.finishedAt) setActiveSessions((items) => activeSessionsFrom([session, ...items]));
+          if (session && !session.mockExam?.finishedAt) {
+            saveLocalActiveQbankSession(session);
+            setActiveSessions((items) => activeSessionsFrom([session, ...items]));
+          }
         })
         .on("postgres_changes", { event: "UPDATE", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${auth.user.id}` }, (payload) => {
           const row = payload.new as Record<string, unknown>;
@@ -203,13 +236,29 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
             return;
           }
           const session = activeSessionFrom(row.payload);
-          if (session && !session.mockExam?.finishedAt) setActiveSessions((items) => activeSessionsFrom([session, ...items]));
+          if (session && !session.mockExam?.finishedAt) {
+            saveLocalActiveQbankSession(session);
+            setActiveSessions((items) => activeSessionsFrom([session, ...items]));
+          }
         })
         .subscribe();
     };
-    void restore().catch((error) => console.warn("Q-bank active session lookup failed.", error));
-    return () => { active = false; if (channel) void client.removeChannel(channel); };
-  }, []);
+    void restore().catch((error) => {
+      console.warn("Q-bank active session lookup failed.", error);
+      if (active) setActiveSessionSyncError("문제 세트 동기화에 실패했습니다. 네트워크를 확인하고 다시 시도해 주세요.");
+    }).finally(() => { if (active) setActiveSessionSyncing(false); });
+    const authListener = client.auth.onAuthStateChange((event) => {
+      if (event === "SIGNED_IN" || event === "SIGNED_OUT") window.setTimeout(() => { if (active) setActiveSessionSyncRevision((value) => value + 1); }, 0);
+    });
+    const refreshWhenVisible = () => { if (document.visibilityState === "visible") setActiveSessionSyncRevision((value) => value + 1); };
+    document.addEventListener("visibilitychange", refreshWhenVisible);
+    return () => {
+      active = false;
+      authListener.data.subscription.unsubscribe();
+      document.removeEventListener("visibilitychange", refreshWhenVisible);
+      if (channel) void client.removeChannel(channel);
+    };
+  }, [activeSessionSyncRevision]);
 
   const endActiveSession = async (activeSession: QbankActiveSession) => {
     if (endingActiveSessionId) return;
@@ -219,7 +268,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       const client = getSupabaseBrowserClient();
       if (client) {
         const { data: auth } = await client.auth.getUser();
-        if (auth.user) await removeCloudActiveQbankSession(client, auth.user.id, activeSession.sessionId);
+        if (auth.user) await removeCloudActiveQbankSession(client, auth.user.id, activeSession.sessionId, activeSession);
       }
       clearLocalActiveQbankSession(activeSession.sessionId);
       setActiveSessions((items) => items.filter((session) => session.sessionId !== activeSession.sessionId));
@@ -321,7 +370,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       <div className="flex items-baseline gap-2 whitespace-nowrap text-rose-700"><span>오답</span><span className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</span></div>
     </section> : null}
 
-    {!relatedTarget && activeSessions.length > 0 ? <section className="space-y-2" aria-label="진행 중인 문제 세트">
+    {!relatedTarget && (activeSessions.length > 0 || activeSessionSyncError) ? <section className="space-y-2" aria-label="진행 중인 문제 세트">
+      {activeSessionSyncError ? <div role="alert" className="flex flex-wrap items-center gap-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900"><span>{activeSessionSyncError}</span><button type="button" onClick={() => setActiveSessionSyncRevision((value) => value + 1)} className="rounded border border-amber-300 bg-white px-2 py-1 font-medium hover:bg-amber-100">다시 시도</button></div> : null}
+      {activeSessionSyncing ? <p role="status" className="px-1 text-xs text-slate-500">문제 세트 동기화 중…</p> : null}
       {activeSessions.map((activeSession, index) => <article key={activeSession.sessionId} className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5">
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5"><p className="shrink-0 text-sm font-semibold text-teal-950">세트 {index + 1}</p><p className="min-w-0 text-xs leading-5 text-teal-800">{activeSessionDescription(activeSession, questionsById, practiceById, practiceTopicLabels)}</p>{activeSession.context?.kind === "related-theory" ? <span className="rounded-full bg-teal-700 px-2 py-0.5 text-[10px] font-semibold text-white">관련 문제풀이</span> : null}</div>

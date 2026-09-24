@@ -27,7 +27,7 @@ import {
 } from "@/lib/qbank-store";
 import type { QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary, RelatedTheoryDocument } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { activeSessionFrom, clearLocalActiveQbankSession, QBANK_SESSION_STORAGE_PREFIX, readQbankSessionDrafts, saveLocalActiveQbankSession, type QbankActiveSession, type QbankSessionAnswer, type QbankSessionSnapshot } from "@/lib/qbank-active-session";
+import { activeSessionFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, QBANK_SESSION_STORAGE_PREFIX, readQbankSessionDrafts, saveLocalActiveQbankSession, type QbankActiveSession, type QbankSessionAnswer, type QbankSessionSnapshot } from "@/lib/qbank-active-session";
 import { QbankEditButton } from "@/components/qbank-edit-button";
 import { RelatedTheoryLauncher } from "@/components/related-theory-launcher";
 import { filterRelatedTheoryQuestions, parseRelatedTheoryTopicKeys, relatedTheoryTopicKey, type RelatedTheoryTopic } from "@/lib/qbank-related-theory";
@@ -542,10 +542,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     }
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
     pendingCloudSessionRef.current = null;
+    const endingSnapshot = sessionIdRef.current ? loadLocalActiveQbankSession(sessionIdRef.current) : null;
     try { clearLocalActiveQbankSession(sessionIdRef.current ?? undefined); } catch { /* Result is already saved. */ }
     if (syncUserId) {
       const client = getSupabaseBrowserClient();
-      if (client && sessionIdRef.current) void removeCloudActiveQbankSession(client, syncUserId, sessionIdRef.current)
+      if (client && sessionIdRef.current) void removeCloudActiveQbankSession(client, syncUserId, sessionIdRef.current, endingSnapshot)
         .catch((error) => console.warn("Q-bank active session cleanup failed.", error));
     }
     setFinishConfirm(false);
@@ -654,9 +655,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const finishedSessionId = sessionIdRef.current;
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
     pendingCloudSessionRef.current = null;
+    const endingSnapshot = loadLocalActiveQbankSession(finishedSessionId);
     try { clearLocalActiveQbankSession(finishedSessionId); } catch { /* The completed result is already stored separately. */ }
     const client = getSupabaseBrowserClient();
-    if (client && syncUserId) void removeCloudActiveQbankSession(client, syncUserId, finishedSessionId)
+    if (client && syncUserId) void removeCloudActiveQbankSession(client, syncUserId, finishedSessionId, endingSnapshot)
       .catch((error) => console.warn("Completed mock session cleanup failed.", error));
   }, [mockExam?.finishedAt, syncUserId]);
   if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
