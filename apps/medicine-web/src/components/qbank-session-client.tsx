@@ -7,6 +7,8 @@ import Link from "next/link";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { readMockExam, type MockExamState } from "@/lib/mock-exam";
 import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
+import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
+import { QbankCopyButton } from "@/components/qbank-copy-button";
 import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
@@ -753,6 +755,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
                 return <button key={key} type="button" disabled={submitted} aria-pressed={isSelected} onClick={() => setSelected(value => toggleSelection(current, value, key))} className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"}`}><span className="font-semibold">{OPTION_LABELS[position]}.</span><span>{current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key]}</span></button>;
               })}
             </div>
+            <div className="mt-2 flex justify-end">
+              <QbankCopyButton key={`question:${current.id}`} text={qbankQuestionCopyText(current, displayedOptions)} label="문제와 보기 텍스트 복사" title="문제와 보기 텍스트 복사 · 이미지는 제외" iconOnly />
+            </div>
           </div>
 
         {submitted ? (
@@ -765,6 +770,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d) => d.type !== "drug").map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={`${d.type === "disease" ? "/disease/" : "/cc/"}${d.slug}`}>{d.title} · 이론</Link>)}</div>}
             <RelatedTheoryLauncher key={current.id} question={current} />
             {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
+            <div className="mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200/70 pt-2">
+              <QbankCopyButton key={`explanation:${current.id}`} text={qbankExplanationCopyText(current, displayedOptions)} label="해설 복사" />
+              <QbankCopyButton key={`both:${current.id}`} text={qbankCombinedCopyText(current, displayedOptions)} label="문제+해설 복사" title="문제와 보기 및 해설 텍스트 복사 · 이미지는 제외" />
+            </div>
           </div>
         ) : null}
         </div>

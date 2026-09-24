@@ -66,6 +66,27 @@ input {
 .qbank-session-action--end { color: #e11d48; }
 .qbank-session-action:disabled { cursor: wait; opacity: 0.6; }
 
+.qbank-copy-action {
+  display: inline-flex;
+  height: 1.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.375rem;
+  background: #fff;
+  padding: 0 0.375rem;
+  font-family: inherit;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #475569;
+}
+
+.qbank-copy-action:hover { border-color: #5eead4; color: #0f766e; }
+.qbank-copy-action:focus-visible { outline: 2px solid #0d9488; outline-offset: 2px; }
+.qbank-copy-action--copied { border-color: #5eead4; color: #0f766e; }
+
 code {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 }
