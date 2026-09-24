@@ -52,5 +52,5 @@ export function AuthStatus() {
     return <div className="flex shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center sm:gap-2"><LearningSyncStatus /><button type="button" onClick={() => void signIn()} disabled={busy} className="secondary-action whitespace-nowrap" title="Sync learning records with a Google account"><LogIn className="h-4 w-4" />{busy ? "Connecting" : "Sign in"}</button></div>;
   }
 
-  return <div className="flex min-w-0 shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center sm:gap-2"><LearningSyncStatus /><span className="hidden max-w-36 truncate text-xs font-medium text-slate-600 sm:inline" title={user.email ?? undefined}>{displayName(user)}</span><button type="button" onClick={() => void signOut()} disabled={busy} className="secondary-action px-2.5" title="Sign out"><LogOut className="h-4 w-4" /><span className="hidden sm:inline">Sign out</span></button></div>;
+  return <div className="flex min-w-0 shrink-0 items-center gap-2"><LearningSyncStatus /><span className="hidden max-w-36 truncate text-xs font-medium text-slate-600 sm:inline" title={user.email ?? undefined}>{displayName(user)}</span><button type="button" onClick={() => void signOut()} disabled={busy} className="secondary-action shrink-0 px-2.5" title="Sign out"><LogOut className="h-4 w-4" /><span className="hidden sm:inline">Sign out</span></button></div>;
 }

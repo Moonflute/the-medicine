@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
-import { EMPTY_PRACTICE_FILTERS, matchesPractice, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
@@ -18,6 +18,40 @@ type TheorySourceType = "disease" | "cc" | "drug" | "other";
 
 function initialActiveSessions() {
   return loadLocalActiveQbankSessions().filter((session) => !session.mockExam?.finishedAt);
+}
+
+function compactSessionLabels(labels: string[]): string {
+  const unique = [...new Set(labels)];
+  return unique.length > 2 ? `${unique.slice(0, 2).join("·")} 외 ${unique.length - 2}개` : unique.join("·");
+}
+
+function activeSessionDescription(
+  session: QbankActiveSession,
+  questionsById: Map<string, QbankQuestionIndex>,
+  practiceById: Map<string, PracticeIndex>,
+  practiceTopicLabels: Map<string, string>,
+): string {
+  const context = session.context;
+  const settings = context?.summary || context?.settings?.join(" · ");
+  if (settings) {
+    const readable = [...practiceTopicLabels.entries()].reduce((text, [key, label]) => text.replaceAll(key, label), settings);
+    return context?.title && !["문제풀이 세션", "선택 범위 문제풀이", "실전문제 풀이"].includes(context.title)
+      ? `${context.title} · ${readable}` : readable;
+  }
+  if (session.mockExam?.title) return session.mockExam.title;
+  const groups = new Map<string, { count: number; specialties: string[] }>();
+  for (const id of session.questionIds) {
+    const practice = practiceById.get(id);
+    const question = questionsById.get(id);
+    const kind = practice || id.startsWith("QB-") ? "실전" : question?.questionBank === "theory" ? "이론" : "임상";
+    const specialty = practice?.bookDepartment ?? question?.specialty?.replace(/^\d+\s*/, "");
+    const group = groups.get(kind) ?? { count: 0, specialties: [] };
+    group.count += 1;
+    if (specialty) group.specialties.push(specialty);
+    groups.set(kind, group);
+  }
+  const composition = [...groups].map(([kind, group]) => `${kind} ${group.count}문항${group.specialties.length ? ` (${compactSessionLabels(group.specialties)})` : ""}`).join(" · ");
+  return context?.title && context.title !== "문제풀이 세션" ? `${context.title} · ${composition}` : composition || "선택 조건 정보 없음";
 }
 
 const THEORY_SOURCE_GROUPS: Array<{ type: TheorySourceType; title: string; description: string }> = [
@@ -121,6 +155,12 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [activeSessions, setActiveSessions] = useState<QbankActiveSession[]>([]);
   const [endingActiveSessionId, setEndingActiveSessionId] = useState("");
   const [activeSessionError, setActiveSessionError] = useState<{ sessionId: string; message: string } | null>(null);
+  const questionsById = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions]);
+  const practiceById = useMemo(() => new Map(practice.map((question) => [question.id, question])), [practice]);
+  const practiceTopicLabels = useMemo(() => new Map<string, string>(practice.flatMap((question) => [
+    [practiceTopicKey(question), practiceTopicLabel(question)] as [string, string],
+    [question.specialtySlug, question.specialty.replace(/^\d+\s*/, "")] as [string, string],
+  ])), [practice]);
 
   useEffect(() => {
     const refresh = () => {
@@ -282,17 +322,16 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     </section> : null}
 
     {!relatedTarget && activeSessions.length > 0 ? <section className="space-y-2" aria-label="진행 중인 문제 세트">
-      {activeSessions.map((activeSession) => <article key={activeSession.sessionId} className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5">
+      {activeSessions.map((activeSession, index) => <article key={activeSession.sessionId} className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5">
         <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-center gap-2"><p className="text-sm font-semibold text-teal-950">{activeSession.mockExam?.title || activeSession.context?.title || "진행 중인 문제 세트"}</p>{activeSession.context?.kind === "related-theory" ? <span className="rounded-full bg-teal-700 px-2 py-0.5 text-[10px] font-semibold text-white">관련 문제풀이</span> : null}</div>
-          {activeSession.context?.summary ? <p className="mt-0.5 truncate text-xs text-teal-800">{activeSession.context.summary}</p> : null}
+          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5"><p className="shrink-0 text-sm font-semibold text-teal-950">세트 {index + 1}</p><p className="min-w-0 text-xs leading-5 text-teal-800">{activeSessionDescription(activeSession, questionsById, practiceById, practiceTopicLabels)}</p>{activeSession.context?.kind === "related-theory" ? <span className="rounded-full bg-teal-700 px-2 py-0.5 text-[10px] font-semibold text-white">관련 문제풀이</span> : null}</div>
           {activeSession.context?.topics?.length ? <div className="mt-1.5 flex flex-wrap gap-1">{activeSession.context.topics.slice(0, 4).map((topic) => <span key={`${topic.type}:${topic.slug}`} className="rounded-full border border-teal-200 bg-white/80 px-2 py-0.5 text-[10px] text-teal-900">{topic.title} {topic.count}</span>)}</div> : null}
           <p className="mt-1 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
           {activeSessionError?.sessionId === activeSession.sessionId ? <p role="alert" className="mt-1 text-xs text-rose-700">{activeSessionError.message}</p> : null}
         </div>
         <div className="flex shrink-0 gap-1.5">
-          <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="inline-flex h-8 items-center justify-center whitespace-nowrap rounded-md border border-slate-200 bg-white px-2.5 text-xs font-medium text-blue-600 transition hover:border-blue-200 hover:bg-blue-50">재개</Link>
-          <button type="button" className="inline-flex h-8 items-center justify-center whitespace-nowrap rounded-md border border-slate-200 bg-white px-2.5 text-xs font-medium text-rose-600 transition hover:border-rose-200 hover:bg-rose-50 disabled:cursor-wait disabled:opacity-60" disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "종료"}</button>
+          <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="qbank-session-action qbank-session-action--resume">재개</Link>
+          <button type="button" className="qbank-session-action qbank-session-action--end" disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "종료"}</button>
         </div>
       </article>)}
     </section> : null}
