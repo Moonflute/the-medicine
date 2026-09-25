@@ -1,5 +1,5 @@
 import { ChiefComplaintCategoryCard } from "@/components/chief-complaint-category-card";
-import { getChiefComplaintCategories, getChiefComplaintsByCategory } from "@/lib/webdb";
+import { getChiefComplaintCategories, getChiefComplaintsByCategory, getWardGroups, WARD_CATEGORY } from "@/lib/webdb";
 
 export default function ChiefComplaintPage() {
   const categories = getChiefComplaintCategories();
@@ -17,6 +17,7 @@ export default function ChiefComplaintPage() {
             key={category.slug}
             category={category}
             notes={getChiefComplaintsByCategory(category.slug)}
+            groups={category.name === WARD_CATEGORY ? getWardGroups() : undefined}
           />
         ))}
       </div>

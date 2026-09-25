@@ -1,7 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { BookOpenText, RotateCcw } from "lucide-react";
+import { WARD_CATEGORY } from "@/lib/cc-categories";
 import type { ChiefComplaintExamSlot, ChiefComplaintNote, DiseaseSection, TermLink } from "@/lib/webdb";
 import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
 import { RichTextLines } from "@/components/rich-text-lines";
@@ -204,7 +206,7 @@ function getViewSections(note: ChiefComplaintNote, view: ViewKey) {
     return note.sections.filter((section) => section.title.trim().toLowerCase() === "er");
   }
 
-  return note.sections.filter((section) => sectionMatches(section, ["\uC811\uADFC", "\uAC80\uC0AC", "\uCE58\uB8CC"]));
+  return note.sections.filter((section) => sectionMatches(section, ["\uC811\uADFC", "\uAC80\uC0AC", "\uCE58\uB8CC", "콜 접수", "위험 판단", "원인 감별·추가검사", "처치", "경과관찰"]));
 }
 
 function displayTitle(section: DiseaseSection, view: ViewKey) {
@@ -302,10 +304,24 @@ export function ChiefComplaintDetailTabs({
   note: ChiefComplaintNote;
   diseaseLinks: TermLink[];
 }) {
-  const [activeView, setActiveView] = useState<ViewKey>("concept");
+  const searchParams = useSearchParams();
+  const [selectedView, setSelectedView] = useState<ViewKey>(() => {
+    const requestedView = searchParams.get("tab");
+    return VIEWS.find((view) => view.key === requestedView)?.key ?? "concept";
+  });
+  const activeView = note.category === WARD_CATEGORY ? "inpatient" : selectedView;
+  const selectView = (view: ViewKey) => {
+    setSelectedView(view);
+    const url = new URL(window.location.href);
+    if (view === "concept") url.searchParams.delete("tab");
+    else url.searchParams.set("tab", view);
+    window.history.replaceState(null, "", url);
+  };
   const views = useMemo(
-    () => VIEWS.filter((view) => view.key !== "emergency" || note.sections.some((section) => section.title.trim().toLowerCase() === "er")),
-    [note.sections],
+    () => note.category === WARD_CATEGORY
+      ? VIEWS.filter((view) => view.key === "inpatient")
+      : VIEWS.filter((view) => view.key !== "emergency" || note.sections.some((section) => section.title.trim().toLowerCase() === "er")),
+    [note.category, note.sections],
   );
   const sections = useMemo(() => getViewSections(note, activeView), [note, activeView]);
 
@@ -322,7 +338,7 @@ export function ChiefComplaintDetailTabs({
                 <button
                   key={view.key}
                   type="button"
-                  onClick={() => setActiveView(view.key)}
+                  onClick={() => selectView(view.key)}
                   className={[
                     "rounded-md px-3 py-1.5 text-sm font-medium transition",
                     selected

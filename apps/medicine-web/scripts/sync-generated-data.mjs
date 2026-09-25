@@ -956,6 +956,8 @@ function buildChiefComplaints() {
       title,
       aliases: readList(frontmatter["aliases"]),
       category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]),
+      legacyCategory: readScalar(frontmatter["이전계통"]),
+      subCategory: readScalar(frontmatter["하위분류"]),
       sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
       concept: firstSectionText(sections, "concept"),
       differentials: firstSectionText(sections, "감별"),

@@ -268,6 +268,8 @@ export type ChiefComplaintNote = {
   title: string;
   aliases: string[];
   category: string;
+  legacyCategory?: string;
+  subCategory?: string;
   sourcePath: string;
   concept: string[];
   differentials: string[];
@@ -311,6 +313,8 @@ export type ChiefComplaintCategorySummary = {
   slug: string;
   count: number;
 };
+
+export type ChiefComplaintGroupSummary = ChiefComplaintCategorySummary;
 
 export type ClinicalRelation = {
   sourceType: string;

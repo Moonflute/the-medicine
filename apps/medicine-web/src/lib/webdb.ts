@@ -1,8 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { WARD_CATEGORY, WARD_CC_SHORTCUTS, WARD_GROUP_NAMES } from "@/lib/cc-categories";
 import type {
   AntibioticSpectrumDataset,
   ChiefComplaintCategorySummary,
+  ChiefComplaintGroupSummary,
   ChiefComplaintNote,
   ClinicalRelation,
   ClinicalRelationIndex,
@@ -30,6 +32,7 @@ import { interactiveConcepts } from "@/lib/interactive-concepts";
 
 export type {
   ChiefComplaintCategorySummary,
+  ChiefComplaintGroupSummary,
   ChiefComplaintNote,
   ChiefComplaintHistorySlot,
   ChiefComplaintExamSlot,
@@ -59,6 +62,7 @@ export type {
 
 const DATA_ROOT = path.resolve(process.cwd(), "..", "..", "_webapp", "data");
 const DEFAULT_CATEGORY = "General";
+export { WARD_CATEGORY, WARD_GROUP_NAMES } from "@/lib/cc-categories";
 const jsonCache = new Map<string, unknown>();
 
 function readJson<T>(fileName: string): T {
@@ -240,7 +244,7 @@ export function getChiefComplaintBySlug(slug: string): ChiefComplaintNote | unde
 }
 
 export function getChiefComplaintCategories(): ChiefComplaintCategorySummary[] {
-  const counts = new Map<string, number>();
+  const counts = new Map<string, number>([[WARD_CATEGORY, 0]]);
 
   for (const note of getChiefComplaints()) {
     const key = normalizeCategory(note.category);
@@ -260,8 +264,47 @@ export function getChiefComplaintsByCategory(slug: string): ChiefComplaintNote[]
   return getChiefComplaints().filter((note) => toBase64Url(normalizeCategory(note.category)) === slug);
 }
 
+export function getWardGroups(): ChiefComplaintGroupSummary[] {
+  const wardNotes = getChiefComplaints().filter((note) => note.category === WARD_CATEGORY);
+  for (const note of wardNotes) {
+    if (!WARD_GROUP_NAMES.some((name) => name === note.subCategory)) {
+      throw new Error(`Unknown ward group for ${note.title}: ${note.subCategory || "(missing)"}`);
+    }
+  }
+  return WARD_GROUP_NAMES.map((name) => ({
+    name,
+    slug: toBase64Url(name),
+    count: getChiefComplaintsByWardGroup(toBase64Url(name)).length,
+  }));
+}
+
+export function getWardGroupBySlug(slug: string): ChiefComplaintGroupSummary | undefined {
+  return getWardGroups().find((group) => group.slug === slug);
+}
+
+export function getChiefComplaintsByWardGroup(slug: string): ChiefComplaintNote[] {
+  const notes = getChiefComplaints();
+  const wardNotes = notes.filter((note) => note.category === WARD_CATEGORY && toBase64Url(note.subCategory ?? "") === slug);
+  const shortcuts = WARD_CC_SHORTCUTS
+    .filter((shortcut) => toBase64Url(shortcut.group) === slug)
+    .map((shortcut) => {
+      const note = notes.find((item) => item.id === shortcut.ccId);
+      if (!note || note.category === WARD_CATEGORY) throw new Error(`Invalid ward CC shortcut: ${shortcut.ccId}`);
+      return note;
+    });
+  return [...wardNotes, ...shortcuts];
+}
+
+export function getCanonicalCategorySlugForLegacy(slug: string): string | undefined {
+  const note = getChiefComplaints().find((item) => item.legacyCategory && toBase64Url(item.legacyCategory) === slug);
+  return note ? toBase64Url(note.category) : undefined;
+}
+
 export function getChiefComplaintByCategoryAndSlug(categorySlug: string, slug: string): ChiefComplaintNote | undefined {
-  return getChiefComplaints().find((note) => note.slug === slug && toBase64Url(normalizeCategory(note.category)) === categorySlug);
+  return getChiefComplaints().find((note) => note.slug === slug && (
+    toBase64Url(normalizeCategory(note.category)) === categorySlug
+    || (note.legacyCategory && toBase64Url(note.legacyCategory) === categorySlug)
+  ));
 }
 
 export function getChiefComplaintLinksForTerms(terms: string[]): TermLink[] {
