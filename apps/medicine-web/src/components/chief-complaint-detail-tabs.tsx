@@ -302,10 +302,12 @@ export function ChiefComplaintDetailTabs({
   note,
   diseaseLinks,
   actions,
+  relatedContent,
 }: {
   note: ChiefComplaintNote;
   diseaseLinks: TermLink[];
   actions: ReactNode;
+  relatedContent: ReactNode;
 }) {
   const searchParams = useSearchParams();
   const [selectedView, setSelectedView] = useState<ViewKey>(() => {
@@ -363,6 +365,7 @@ export function ChiefComplaintDetailTabs({
           ))}
         </div>
       </section>
+      {relatedContent}
     </div>
   );
 }
