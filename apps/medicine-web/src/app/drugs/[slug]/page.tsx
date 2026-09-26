@@ -1,5 +1,6 @@
 import { ContentMetadata } from "@/components/content-metadata";
 import Link from "next/link";
+import { DocumentToolbar } from "@/components/document-toolbar";
 import { notFound } from "next/navigation";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { AntibioticClinicalLinks } from "@/components/antibiotic-clinical-links";
@@ -100,10 +101,10 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
 
   return (
     <div className="space-y-6">
-      <div className="flex justify-end gap-2">
+      <DocumentToolbar title={note.title}>
         <DocumentEditButton sourcePath={note.sourcePath} title={note.title} />
-        <ReviewSaveButton item={{ type: "drug", id: note.id, title: note.title, href: `/drugs/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
-      </div>
+        <ReviewSaveButton compact item={{ type: "drug", id: note.id, title: note.title, href: `/drugs/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
+      </DocumentToolbar>
       <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
         <div className="text-xs  text-slate-500">
           {note.drugMeta?.categoryPath || note.category}

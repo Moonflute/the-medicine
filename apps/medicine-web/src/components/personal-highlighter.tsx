@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { usePathname } from "next/navigation";
 import { Eraser, Highlighter, MousePointer2, Trash2, X } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
@@ -30,6 +31,8 @@ export function PersonalHighlighter() {
   const pathname = usePathname();
   const [user, setUser] = useState<string | null>(null);
   const [scope, setScope] = useState<Scope | null>(null);
+  const [slot, setSlot] = useState<HTMLElement | null>(null);
+  const [panelPosition, setPanelPosition] = useState({ top: 120, left: 12 });
   const [open, setOpen] = useState(false);
   const [color, setColor] = useState<HighlightColor>("yellow");
   const [mode, setMode] = useState<Mode>("read");
@@ -40,6 +43,7 @@ export function PersonalHighlighter() {
   const store = useRef<HighlightStore | null>(null);
   const selection = useRef<Range | null>(null);
   const tools = useRef<HTMLDivElement>(null);
+  const panel = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const client = getSupabaseBrowserClient();
@@ -59,6 +63,10 @@ export function PersonalHighlighter() {
       // Stable question IDs are shared by normal sessions and mock exams.
       const key = question?.dataset.highlightDocument ?? "page:" + pathname.replace(/\/$/, "");
       setScope(old => old?.key === key && old.root === root ? old : { key, root });
+      const target = root.querySelector<HTMLElement>("[data-document-toolbar] [data-highlighter-slot]")
+        ?? main.querySelector<HTMLElement>("[data-document-toolbar] [data-highlighter-slot]")
+        ?? main.querySelector<HTMLElement>("[data-highlight-fallback] [data-highlighter-slot]");
+      setSlot(old => old === target ? old : target);
     };
     update();
     const observer = new MutationObserver(update);
@@ -114,7 +122,7 @@ export function PersonalHighlighter() {
     if (!scope || !current?.rangeCount || current.isCollapsed) return;
     const range = current.getRangeAt(0);
     if (scope.root.contains(range.startContainer) && scope.root.contains(range.endContainer) &&
-      !(range.startContainer.parentElement?.closest("dialog,[contenteditable=true],input,textarea"))) selection.current = range.cloneRange();
+      !(range.startContainer.parentElement?.closest("[data-highlight-ignore],dialog,[contenteditable=true],input,textarea"))) selection.current = range.cloneRange();
   }, [scope]);
 
   const apply = useCallback((erase = false, chosenColor = color, reconnect?: PersonalHighlight) => {
@@ -155,11 +163,13 @@ export function PersonalHighlighter() {
     root?.setAttribute("data-highlighter-active", user && mode !== "read" ? "true" : "false");
     const selectionChanged = () => capture();
     let pointerTimer = 0;
-    const pointerUp = () => {
+    const pointerUp = (event: PointerEvent) => {
+      if ((event.target as Element).closest?.("[data-highlight-ignore]")) return;
       window.clearTimeout(pointerTimer);
       if (user && mode !== "read") pointerTimer = window.setTimeout(() => apply(mode === "erase"), 60);
     };
     const click = (event: MouseEvent) => {
+      if ((event.target as Element).closest?.("[data-highlight-ignore]")) return;
       if (user && mode !== "read" && root?.contains(event.target as Node)) { event.preventDefault(); event.stopPropagation(); }
     };
     const escape = (event: KeyboardEvent) => { if (event.key === "Escape") { setOpen(false); setMode("read"); } };
@@ -178,17 +188,35 @@ export function PersonalHighlighter() {
 
   useEffect(() => {
     if (!open) return;
-    const close = (event: PointerEvent) => { if (!tools.current?.contains(event.target as Node)) { setOpen(false); setConfirmClear(false); } };
+    const close = (event: PointerEvent) => { if (!tools.current?.contains(event.target as Node) && !panel.current?.contains(event.target as Node)) { setOpen(false); setConfirmClear(false); } };
     document.addEventListener("pointerdown", close);
     return () => document.removeEventListener("pointerdown", close);
   }, [open]);
 
+  useEffect(() => {
+    if (!open || !slot) return;
+    const position = () => {
+      const anchor = tools.current?.getBoundingClientRect();
+      if (!anchor) return;
+      const width = Math.min(288, window.innerWidth - 24);
+      const next = { top: Math.min(anchor.bottom + 8, window.innerHeight - 100), left: Math.max(12, Math.min(anchor.left, window.innerWidth - width - 12)) };
+      setPanelPosition(old => old.top === next.top && old.left === next.left ? old : next);
+    };
+    position();
+    window.addEventListener("scroll", position, { passive: true });
+    window.addEventListener("resize", position);
+    const observer = new ResizeObserver(position);
+    observer.observe(slot);
+    return () => { observer.disconnect(); window.removeEventListener("scroll", position); window.removeEventListener("resize", position); };
+  }, [open, slot]);
+
   const unmatched = detached.filter(row => !row.deleted && row.user_id === user && row.document_key === scope?.key);
   const activeRows = rows.filter(row => !row.deleted && row.user_id === user && row.document_key === scope?.key);
   const button = "flex items-center gap-2 rounded-md px-2.5 py-2 text-left text-xs hover:bg-slate-100";
-  return <div ref={tools} className="relative shrink-0" data-highlight-ignore>
+  if (!slot) return null;
+  return createPortal(<div ref={tools} className="relative shrink-0" data-highlight-ignore>
     <button type="button" aria-label="형광펜 도구" title={mode === "pen" ? "형광펜 모드 켜짐" : mode === "erase" ? "지우개 모드 켜짐" : "개인 형광펜"} aria-expanded={open} onPointerDown={capture} onClick={() => setOpen(value => !value)} className={`inline-flex h-10 w-10 items-center justify-center rounded-lg border transition ${mode !== "read" && user ? "border-amber-400 bg-amber-100 text-amber-900" : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"}`}><Highlighter size={18} /></button>
-    {open && <div role="dialog" aria-label="형광펜 도구 패널" className="fixed right-3 top-[4.5rem] z-50 max-h-[calc(100dvh-6rem)] w-72 max-w-[90vw] overflow-y-auto rounded-xl border border-slate-200 bg-white p-3 text-slate-800 shadow-xl lg:absolute lg:right-0 lg:top-auto lg:mt-2">
+    {open && createPortal(<div ref={panel} data-highlight-ignore role="dialog" aria-label="형광펜 도구 패널" style={{ ...panelPosition, maxHeight: `calc(100dvh - ${panelPosition.top + 16}px)` }} className="fixed z-[60] w-72 max-w-[calc(100vw-1.5rem)] overflow-y-auto rounded-xl border border-slate-200 bg-white p-3 text-slate-800 shadow-xl">
       <div className="mb-2 flex items-center justify-between"><strong className="text-sm">개인 형광펜</strong><button type="button" className="rounded p-1 hover:bg-slate-100" aria-label="형광펜 패널 닫기" onClick={() => setOpen(false)}><X size={16} /></button></div>
       {!user ? <p className="text-xs leading-5 text-slate-600">Google 계정으로 로그인하면 표시가 내 계정에 저장됩니다.</p> : <>
         <div className="flex justify-between gap-2" role="group" aria-label="형광펜 색상">{HIGHLIGHT_COLORS.map(value => <button key={value} type="button" aria-label={COLORS[value].name + " 형광펜"} aria-pressed={color === value} title={COLORS[value].name} onClick={() => { setColor(value); if (selection.current) apply(false, value); }} className={`h-8 w-8 rounded-full border-2 ${color === value ? "border-slate-700 ring-2 ring-slate-200" : "border-transparent"}`} style={{ backgroundColor: COLORS[value].swatch }} />)}</div>
@@ -205,6 +233,6 @@ export function PersonalHighlighter() {
         <p role="status" className="mt-1 text-[11px] leading-4 text-slate-500">{status}</p>
         {unmatched.length > 0 && <details className="mt-2 border-t pt-2 text-xs"><summary className="cursor-pointer">현재 화면에 연결되지 않은 표시 {unmatched.length}개</summary><p className="mt-2 text-slate-500">본문 수정·접힌 구역으로 숨겨진 표시도 기록은 보존됩니다. 본문을 선택해 다시 연결할 수 있습니다.</p>{unmatched.map(row => <div key={row.id} className="mt-2 rounded bg-slate-50 p-2"><p className="line-clamp-2">{row.anchor.exact}</p><div className="mt-1 flex gap-3"><button type="button" onClick={() => apply(false, row.color, row)} className="text-teal-700">선택 부분에 다시 연결</button><button type="button" onClick={() => store.current?.write([{ ...row, deleted: true }])} className="text-rose-700">삭제</button></div></div>)}</details>}
       </>}
-    </div>}
-  </div>;
+    </div>, document.body)}
+  </div>, slot);
 }

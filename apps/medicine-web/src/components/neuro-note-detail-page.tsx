@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DocumentToolbar } from "@/components/document-toolbar";
 import { ArrowLeft, BookOpen, Route, Stethoscope } from "lucide-react";
 import type { NeuroAtlas } from "@/lib/webdb";
 import { diseasesForReflex, getNeuroNoteItem, medicalTerm, neuroNoteHref, type NeuroNoteKind, relatedStructures } from "@/lib/neuro-notes";
@@ -56,5 +57,5 @@ function NoteBody({ sections, diseases, diseaseHrefs, related, atlasHref }: { se
 }
 
 function Frame({ icon: Icon, label, title, subtitle, backHref, children }: { icon: typeof BookOpen; label: string; title: string; subtitle: string; backHref: string; children: React.ReactNode }) {
-  return <main className="mx-auto w-full max-w-4xl px-4 pb-20 pt-6 sm:px-6 lg:px-8"><Link href={backHref} className="inline-flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-900"><ArrowLeft className="h-4 w-4" />신경계 Hub로 돌아가기</Link><header className="mt-5 border-b border-slate-200 pb-8"><p className="flex items-center gap-2 text-xs font-bold tracking-[.15em] text-teal-700"><Icon className="h-4 w-4" />{label}</p><h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">{title}</h1><p className="mt-2 text-base text-slate-500">{subtitle}</p></header><div className="mt-8">{children}</div></main>;
+  return <main className="mx-auto w-full max-w-4xl px-4 pb-20 pt-6 sm:px-6 lg:px-8"><Link href={backHref} className="inline-flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-900"><ArrowLeft className="h-4 w-4" />신경계 Hub로 돌아가기</Link><DocumentToolbar title={title} className="mt-5" /><header className="mt-5 border-b border-slate-200 pb-8"><p className="flex items-center gap-2 text-xs font-bold tracking-[.15em] text-teal-700"><Icon className="h-4 w-4" />{label}</p><h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">{title}</h1><p className="mt-2 text-base text-slate-500">{subtitle}</p></header><div className="mt-8">{children}</div></main>;
 }

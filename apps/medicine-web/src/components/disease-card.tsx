@@ -3,6 +3,7 @@ import atlasMappings from "@/generated/atlas-links.json";
 
 import { useMemo } from "react";
 import Link from "next/link";
+import { DocumentToolbar } from "@/components/document-toolbar";
 import { DocumentToc } from "@/components/document-toc";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote, TermLink } from "@/lib/webdb";
@@ -70,7 +71,23 @@ export function DiseaseCard({
   );
 
   return (
-    <article className="surface overflow-hidden">
+    <article className="surface">
+      {!compact && <DocumentToolbar title={displayTitle}>
+            <DocumentEditButton sourcePath={note.sourcePath} title={displayTitle} />
+            {relatedQbankHref ? (
+              <Link
+                href={relatedQbankHref}
+                className="inline-flex h-10 w-10 items-center justify-center border border-slate-300 bg-white text-sm font-bold text-slate-700 transition hover:border-teal-500 hover:text-teal-700"
+                style={{ borderRadius: 8 }}
+                aria-label="관련 문제 풀기"
+                title="관련 문제 풀기"
+              >
+                Q
+              </Link>
+            ) : null}
+            {atlasMapping ? <Link href={"/atlas/?" + new URLSearchParams({organ:atlasMapping.organId,disease:note.slug}).toString()} className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-teal-200 bg-teal-50 text-sm font-semibold text-teal-800 hover:bg-teal-100" aria-label={displayTitle+" 3D로 보기"} title="3D로 보기">3D</Link> : null}
+            <ReviewSaveButton item={reviewItem} compact />
+      </DocumentToolbar>}
       <div className="border-b border-slate-200 p-5 sm:p-6">
         <div className="flex items-start justify-between gap-4">
           <div className="min-w-0">
@@ -84,22 +101,7 @@ export function DiseaseCard({
               </div>
             ) : null}
           </div>
-          <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
-            {atlasMapping ? <Link href={"/atlas/?" + new URLSearchParams({organ:atlasMapping.organId,disease:note.slug}).toString()} className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-teal-200 bg-teal-50 text-sm font-semibold text-teal-800 hover:bg-teal-100" aria-label={displayTitle+" 3D로 보기"} title="3D로 보기">3D</Link> : null}
-            {!compact && <DocumentEditButton sourcePath={note.sourcePath} title={displayTitle} />}
-            {relatedQbankHref ? (
-              <Link
-                href={relatedQbankHref}
-                className="inline-flex h-10 w-10 items-center justify-center border border-slate-300 bg-white text-sm font-bold text-slate-700 transition hover:border-teal-500 hover:text-teal-700"
-                style={{ borderRadius: 8 }}
-                aria-label="관련 문제 풀기"
-                title="관련 문제 풀기"
-              >
-                Q
-              </Link>
-            ) : null}
-            <ReviewSaveButton item={reviewItem} trackView={!compact} compact />
-          </div>
+          {compact && <div className="flex shrink-0 items-center gap-2">{relatedQbankHref && <Link href={relatedQbankHref} className="secondary-action" aria-label="관련 문제 풀기">Q</Link>}<ReviewSaveButton item={reviewItem} trackView={false} compact /></div>}
         </div>
 
         {note.chiefComplaints.length > 0 ? (

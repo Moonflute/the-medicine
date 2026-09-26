@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { DocumentToolbar } from "@/components/document-toolbar";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, BookOpenCheck, FlaskConical, Pill } from "lucide-react";
@@ -92,6 +93,7 @@ export default async function MicrobiologyDetailPage(props: { params: Promise<{ 
         병원체 목록으로 돌아가기
       </Link>
 
+      <DocumentToolbar title={entity.koreanName || entity.scientificName} />
       <header className={visual ? "relative rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7 lg:min-h-[360px] lg:pr-[292px]" : "rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"}>
         <div className="flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-teal-100 px-3 py-1 text-xs font-semibold text-teal-900">{KIND_LABELS[entity.entityKind]}</span>

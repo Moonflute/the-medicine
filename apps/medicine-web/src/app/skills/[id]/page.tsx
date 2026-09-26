@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DocumentToolbar } from "@/components/document-toolbar";
 import { notFound } from "next/navigation";
 import { AlertTriangle, CheckSquare, ChevronRight, Info, Link2, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
 import { getAllSkills, getSkillById } from "@/lib/webdb";
@@ -33,10 +34,10 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
         <span className="font-medium text-slate-950">{skill.name}</span>
       </div>
 
-      <div className="flex justify-end gap-2">
+      <DocumentToolbar title={skill.name}>
         <DocumentEditButton sourcePath={skill.sourcePath} title={skill.name} />
-        <ReviewSaveButton item={{ type: "skill", id: `skill:${skill.id}`, title: skill.name, href: `/skills/${skill.id}`, category: skill.categoryName, summary: skill.summary[0] || skill.indications[0] || "" }} />
-      </div>
+        <ReviewSaveButton compact item={{ type: "skill", id: `skill:${skill.id}`, title: skill.name, href: `/skills/${skill.id}`, category: skill.categoryName, summary: skill.summary[0] || skill.indications[0] || "" }} />
+      </DocumentToolbar>
       <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <h1 className="flex items-center gap-3 text-4xl font-semibold  text-slate-950">
           <Stethoscope className="h-8 w-8 text-teal-700" />

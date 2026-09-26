@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, FlaskConical, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
@@ -30,7 +30,18 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const atlas = pathname === "/atlas" || pathname === "/atlas/";
   const immersive = atlas || pathname.startsWith("/interactive/") || pathname === "/nervous-system-hub" || pathname === "/nervous-system-hub/";
   const [open, setOpen] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
   const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.8.5";
+
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+    const measure = () => document.documentElement.style.setProperty("--app-header-height", `${header.getBoundingClientRect().height}px`);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const openSearch = (event: KeyboardEvent) => {
@@ -99,7 +110,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         </aside>
 
         <div className="flex min-h-screen min-w-0 flex-1 flex-col">
-          <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
+          <header ref={headerRef} className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
             <div className="flex h-16 items-center justify-between gap-3 px-4 sm:px-6 xl:px-8">
               <div className="flex min-w-0 items-center gap-3">
                 <button
@@ -117,7 +128,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <PersonalHighlighter />
                 <AuthStatus />
                 <Link href="/search" className="secondary-action whitespace-nowrap">
                   <Search className="h-4 w-4" />
@@ -152,8 +162,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </header>
 
           <main data-personal-highlight-root className="flex-1 px-4 py-6 sm:px-6 xl:px-8">
-            <div className="mx-auto max-w-7xl">{children}</div>
+            <div className="mx-auto max-w-7xl">
+              <div data-highlight-fallback data-highlight-ignore className="document-toolbar mb-4">
+                <div className="document-toolbar-title">{title}</div>
+                <span data-highlighter-slot className="inline-flex shrink-0" />
+              </div>
+              {children}
+            </div>
           </main>
+          <PersonalHighlighter />
 
           <nav className="sticky bottom-0 z-40 border-t border-slate-200 bg-white/95 px-3 py-2 backdrop-blur xl:hidden">
             <div className="grid grid-cols-7 gap-1">

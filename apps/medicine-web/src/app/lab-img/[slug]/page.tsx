@@ -1,6 +1,7 @@
 import { ContentMetadata } from "@/components/content-metadata";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { DocumentToolbar } from "@/components/document-toolbar";
 import { ArrowLeft } from "lucide-react";
 import { DomainNoteCard } from "@/components/domain-note-card";
 import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
@@ -52,8 +53,9 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
           <ArrowLeft className="h-4 w-4" />
           {parentTitle}로 돌아가기
         </Link>
-        <div className="flex gap-2"><DocumentEditButton sourcePath={note.sourcePath} title={note.title} /><ReviewSaveButton item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} /></div>
+
       </div>
+      <DocumentToolbar title={note.title}><DocumentEditButton sourcePath={note.sourcePath} title={note.title} /><ReviewSaveButton compact item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} /></DocumentToolbar>
       <DomainNoteCard note={note} />
       {isEcgHub ? <ECGWorkbench diseases={getAllDiseases()} /> : null}
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">

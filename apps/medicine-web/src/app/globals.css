@@ -11,6 +11,36 @@
   --primary: #0f766e;
   --primary-strong: #115e59;
   --accent: #2563eb;
+  --app-header-height: 65px;
+}
+
+.document-toolbar {
+  position: sticky;
+  top: var(--app-header-height);
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgb(15 23 42 / 5%);
+}
+.document-toolbar-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.9375rem; font-weight: 600; }
+.document-toolbar-actions { display: flex; align-items: center; flex-shrink: 0; gap: 0.5rem; }
+[data-personal-highlight-root]:has([data-document-toolbar]) [data-highlight-fallback] { display: none; }
+html:has([data-document-toolbar]) { scroll-padding-top: calc(var(--app-header-height) + 4rem); }
+[data-document-toolbar] ~ [id], [data-document-toolbar] ~ * [id] { scroll-margin-top: 0; }
+.document-toolbar--inset { margin: -1.25rem -1.25rem 0; border-top: 0; border-right: 0; border-left: 0; border-radius: 0.5rem 0.5rem 0 0; }
+@media (min-width: 640px) { .document-toolbar--inset { margin: -1.75rem -1.75rem 0; } }
+@media (max-width: 479px) {
+  .document-toolbar { gap: 0.375rem; padding-inline: 0.5rem; }
+  .document-toolbar-title { font-size: 0.8125rem; }
+  .document-toolbar-actions { gap: 0.375rem; }
+  .document-toolbar-actions > a, .document-toolbar-actions > button, .document-toolbar-actions [data-highlighter-slot] button { width: 2.25rem; height: 2.25rem; }
 }
 
 /* Custom Highlights paint behind glyphs without changing document markup. */
