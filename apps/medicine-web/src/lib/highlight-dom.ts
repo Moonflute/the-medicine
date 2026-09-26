@@ -4,6 +4,24 @@ type Point = { node: Text; offset: number };
 export type TextBlock = { element: Element; key: string; text: string; starts: Point[]; ends: Point[] };
 const EXCLUDED = "script,style,nav,dialog,[role=dialog],[role=alertdialog],textarea,input,select,svg,[contenteditable=true],[data-highlight-ignore],[hidden]";
 const SEMANTIC = "[data-highlight-block],p,li,td,th,h1,h2,h3,h4,h5,h6,pre,blockquote,dt,dd";
+const fingerprints = new WeakMap<TextBlock[], string>();
+
+function fingerprint(blocks: TextBlock[]) {
+  const cached = fingerprints.get(blocks);
+  if (cached) return cached;
+  const value = JSON.stringify(blocks.map(block => [block.key, block.element.tagName, block.text]));
+  let first = 2166136261, second = 5381;
+  for (let i = 0; i < value.length; i++) {
+    first = Math.imul(first ^ value.charCodeAt(i), 16777619);
+    second = Math.imul(second, 33) ^ value.charCodeAt(i);
+  }
+  const result = (first >>> 0).toString(16) + ":" + (second >>> 0).toString(16);
+  fingerprints.set(blocks, result);
+  return result;
+}
+export function makeDOMAnchor(blocks: TextBlock[], block: TextBlock, start: number, end: number, snapshot = fingerprint(blocks)): TextAnchor {
+  return { ...makeAnchor(block.text, start, end, block.key), kind: block.element.tagName, position: blocks.indexOf(block), snapshot };
+}
 
 export function textBlocks(root: HTMLElement): TextBlock[] {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
@@ -46,6 +64,7 @@ export function anchorRange(block: TextBlock, start: number, end: number): Range
 }
 
 export function selectionAnchors(blocks: TextBlock[], range: Range): TextAnchor[] {
+  const snapshot = fingerprint(blocks);
   return blocks.flatMap(block => {
     if (!range.intersectsNode(block.element)) return [];
     let start = -1, end = -1;
@@ -58,14 +77,26 @@ export function selectionAnchors(blocks: TextBlock[], range: Range): TextAnchor[
     }
     while (start >= 0 && start < end && block.text[start] === " ") start++;
     while (end > start && block.text[end - 1] === " ") end--;
-    return start >= 0 && end > start ? [makeAnchor(block.text, start, end, block.key)] : [];
+    return start >= 0 && end > start ? [makeDOMAnchor(blocks, block, start, end, snapshot)] : [];
   });
 }
 
 export function resolveHighlight(blocks: TextBlock[], anchor: TextAnchor) {
-  const candidates = blocks.filter(block => !anchor.block || block.key === anchor.block)
+  // A position is trusted only while the entire rendered text is unchanged.
+  // This allows marking identical headings/table cells immediately without
+  // guessing by an old offset after an edit.
+  if (Number.isInteger(anchor.position) && anchor.snapshot === fingerprint(blocks)) {
+    const block = blocks[anchor.position!];
+    if (block && (!anchor.block || block.key === anchor.block) && block.text.slice(anchor.start, anchor.start + anchor.exact.length) === anchor.exact) {
+      return { block, start: anchor.start, end: anchor.start + anchor.exact.length };
+    }
+  }
+  let candidates = blocks.filter(block => !anchor.block || block.key === anchor.block)
     .flatMap(block => { const position = locateAnchor(block.text, anchor); return position ? [{ block, ...position }] : []; });
   if (candidates.length === 1) return candidates[0];
+  const sameKind = candidates.filter(candidate => candidate.block.element.tagName === anchor.kind);
+  if (sameKind.length === 1) return sameKind[0];
+  if (sameKind.length > 0) candidates = sameKind;
   const contextual = candidates.filter(({ block, start, end }) =>
     (anchor.prefix && block.text.slice(Math.max(0, start - anchor.prefix.length), start) === anchor.prefix) ||
     (anchor.suffix && block.text.slice(end, end + anchor.suffix.length) === anchor.suffix));

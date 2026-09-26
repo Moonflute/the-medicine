@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 import { Eraser, Highlighter, MousePointer2, Trash2, X } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { HighlightStore } from "@/lib/highlight-store";
-import { HIGHLIGHT_COLORS, makeAnchor, subtractInterval, type HighlightColor, type PersonalHighlight, type TextAnchor } from "@/lib/highlight-anchor";
-import { anchorRange, resolveHighlight, selectionAnchors, textBlocks } from "@/lib/highlight-dom";
+import { HIGHLIGHT_COLORS, subtractInterval, type HighlightColor, type PersonalHighlight, type TextAnchor } from "@/lib/highlight-anchor";
+import { anchorRange, makeDOMAnchor, resolveHighlight, selectionAnchors, textBlocks } from "@/lib/highlight-dom";
 
 const COLORS: Record<HighlightColor, { name: string; swatch: string }> = {
   yellow: { name: "노랑", swatch: "#fde68a" }, green: { name: "초록", swatch: "#a7f3d0" },
@@ -140,7 +140,7 @@ export function PersonalHighlighter() {
       });
       const pieces = subtractInterval(found.start, found.end, cuts);
       if (pieces.length === 1 && pieces[0].start === found.start && pieces[0].end === found.end) continue;
-      updates.push({ ...row, deleted: true }, ...pieces.map(piece => makeRow(makeAnchor(found.block.text, piece.start, piece.end, found.block.key), row.color)));
+      updates.push({ ...row, deleted: true }, ...pieces.map(piece => makeRow(makeDOMAnchor(blocks, found.block, piece.start, piece.end), row.color)));
     }
     if (reconnect) updates.push({ ...reconnect, deleted: true });
     if (!erase) updates.push(...anchors.map(anchor => makeRow(anchor)));

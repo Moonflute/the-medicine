@@ -19,7 +19,9 @@ account records and merges them with pending changes.
 
 The CSS Custom Highlight API paints translucent backgrounds without rewriting the
 rendered content or Markdown. Text quotes and surrounding context restore positions
-after paragraph insertions or edits around a quote. If the quote itself disappears
+after paragraph insertions or edits around a quote. A rendered-text fingerprint
+also preserves the exact position of repeated phrases while that text is unchanged;
+old offsets are never trusted after a content change. If the quote itself disappears
 or cannot be located unambiguously, its record remains available in the panel for
 manual reconnection. Collapsed content is repainted when it becomes visible.
 

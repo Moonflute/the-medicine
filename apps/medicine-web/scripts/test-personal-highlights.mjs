@@ -1,6 +1,36 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import vm from "node:vm";
+import ts from "typescript";
+import * as anchors from "../src/lib/highlight-anchor.ts";
 import { makeAnchor, locateAnchor, normalizeText, subtractInterval, mergeHighlights } from "../src/lib/highlight-anchor.ts";
+
+const compiled = { exports: {} };
+const source = ts.transpileModule(fs.readFileSync(new URL("../src/lib/highlight-dom.ts", import.meta.url), "utf8"), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
+vm.runInNewContext(source, { exports: compiled.exports, module: compiled, require: () => anchors });
+const { makeDOMAnchor, resolveHighlight } = compiled.exports;
+const block = (text, tagName = "P", key = "") => ({ text, element: { tagName }, key, starts: [], ends: [] });
+
+test("identical headings are distinguished from a breadcrumb even after a paragraph is added", () => {
+  const blocks = [block("정맥채혈", "SPAN"), block("정맥채혈", "H1")];
+  const anchor = makeDOMAnchor(blocks, blocks[1], 0, 4);
+  assert.equal(resolveHighlight(blocks, anchor).block, blocks[1]);
+  const changed = [block("추가 문단"), ...blocks];
+  assert.equal(resolveHighlight(changed, anchor).block, blocks[1]);
+});
+test("repeated identical paragraphs use offsets only while the whole document is unchanged", () => {
+  const blocks = [block("정상"), block("정상")];
+  const anchor = makeDOMAnchor(blocks, blocks[1], 0, 2);
+  assert.equal(resolveHighlight(blocks, anchor).block, blocks[1]);
+  assert.equal(resolveHighlight([block("추가 문단"), ...blocks], anchor), null);
+});
+test("question and option scope prevents moving a quote to a different option", () => {
+  const blocks = [block("혈압 저하", "SPAN", "option:A"), block("혈압 저하", "SPAN", "option:B")];
+  const anchor = makeDOMAnchor(blocks, blocks[1], 0, 5);
+  assert.equal(resolveHighlight([...blocks].reverse(), anchor).block.key, "option:B");
+  assert.equal(resolveHighlight([blocks[0]], anchor), null);
+});
 
 test("whitespace normalizes across rendered inline content", () => {
   assert.equal(normalizeText("  혈압\n  저하\t후 "), "혈압 저하 후");

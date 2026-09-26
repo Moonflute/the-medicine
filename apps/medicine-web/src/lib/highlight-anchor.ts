@@ -1,6 +1,6 @@
 export const HIGHLIGHT_COLORS = ["yellow", "green", "blue", "pink", "purple", "orange"] as const;
 export type HighlightColor = typeof HIGHLIGHT_COLORS[number];
-export type TextAnchor = { exact: string; prefix: string; suffix: string; start: number; block: string };
+export type TextAnchor = { exact: string; prefix: string; suffix: string; start: number; block: string; kind?: string; position?: number; snapshot?: string };
 export type PersonalHighlight = { id: string; user_id: string; document_key: string; color: HighlightColor; anchor: TextAnchor; deleted: boolean };
 
 export function normalizeText(text: string): string { return text.replace(/\s+/g, " ").trim(); }
