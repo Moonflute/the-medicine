@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowLeft, BookOpen, ChevronRight, Route, Stethoscope } from "lucide-react";
+import { DocumentToolbar } from "@/components/document-toolbar";
 import type { NeuroAtlas } from "@/lib/webdb";
-import { diseasesForReflex, diseasesForStructure, getNeuroNoteItem, neuroNoteHref, type NeuroNoteKind, relatedStructures } from "@/lib/neuro-notes";
+import { diseasesForPathway, diseasesForReflex, diseasesForStructure, getNeuroNoteItem, medicalTerm, neuroNoteHref, relatedStructures, type NeuroNoteKind } from "@/lib/neuro-notes";
 
 type Props = {
   atlas: NeuroAtlas;
@@ -11,92 +12,114 @@ type Props = {
   drugHrefs: Record<string, string>;
 };
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
-  return <section className="border-t border-slate-200 pt-7"><h2 className="text-xl font-bold text-slate-950">{title}</h2><div className="mt-3 text-[15px] leading-7 text-slate-700">{children}</div></section>;
+type NotePayload = NonNullable<NeuroAtlas["structures"][number]["note"]>;
+type NoteItem = NotePayload["anatomy"][number];
+
+function Section({ title, items, empty }: { title: string; items: NoteItem[]; empty?: string }) {
+  if (!items.length && !empty) return null;
+  return (
+    <section className="border-t border-slate-200 pt-7">
+      <h2 className="text-xl font-bold text-slate-950">{title}</h2>
+      {items.length ? <dl className="mt-4 grid gap-3">{items.map((item, index) => (
+        <div key={`${item.label ?? "item"}-${index}`} className="rounded-xl bg-slate-50 px-4 py-3">
+          {item.label ? <dt className="text-sm font-bold text-slate-950">{item.label}</dt> : null}
+          <dd className={`${item.label ? "mt-1 " : ""}text-[15px] leading-7 text-slate-700`}>{item.text}</dd>
+        </div>
+      ))}</dl> : <p className="mt-3 text-sm text-slate-500">{empty}</p>}
+    </section>
+  );
 }
 
-function LinkPills({ items, hrefs, empty }: { items: string[]; hrefs: Record<string, string>; empty: string }) {
-  const linked = items.filter((item) => hrefs[item]);
-  if (!linked.length) return <p className="text-sm text-slate-500">{empty}</p>;
-  return <div className="flex flex-wrap gap-2">{linked.map((item) => <Link key={item} href={hrefs[item]} className="rounded-lg border border-teal-200 bg-teal-50 px-3 py-2 text-sm font-semibold text-teal-900 hover:border-teal-500 hover:bg-white">{item}<ChevronRight className="ml-1 inline h-3.5 w-3.5" /></Link>)}</div>;
+function TermLinks({ title, items, hrefs, empty }: { title: string; items: string[]; hrefs: Record<string, string>; empty: string }) {
+  const unique = [...new Set(items)];
+  return (
+    <section className="border-t border-slate-200 pt-7">
+      <h2 className="text-xl font-bold text-slate-950">{title}</h2>
+      {unique.length ? <div className="mt-4 flex flex-wrap gap-2">{unique.map((item) => {
+        const href = hrefs[item] ?? `/search?q=${encodeURIComponent(item)}`;
+        return <Link key={item} href={href} className="inline-flex items-center rounded-lg border border-teal-200 bg-teal-50 px-3 py-2 text-sm font-semibold text-teal-950 hover:border-teal-500 hover:bg-white">{medicalTerm(item)}<ChevronRight className="ml-1 h-3.5 w-3.5" /></Link>;
+      })}</div> : <p className="mt-3 text-sm text-slate-500">{empty}</p>}
+    </section>
+  );
 }
 
-function StructureLinks({ structures }: { structures: NeuroAtlas["structures"] }) {
-  if (!structures.length) return <p className="text-sm text-slate-500">연결된 구조 정보가 아직 없습니다.</p>;
-  return <div className="grid gap-2 sm:grid-cols-2">{structures.map((item) => <Link key={item.id} href={neuroNoteHref("structure", item.id)} className="rounded-xl border border-slate-200 px-3 py-3 hover:border-teal-500 hover:bg-teal-50"><span className="block font-semibold text-slate-950">{item.ko}</span><span className="mt-0.5 block text-xs text-slate-500">{item.en}</span></Link>)}</div>;
+function RelatedLinks({ atlas, related, fallbackIds = [] }: { atlas: NeuroAtlas; related: NotePayload["related"]; fallbackIds?: string[] }) {
+  const entries = related.length ? related : fallbackIds.map((id) => {
+    const structure = atlas.structures.find((item) => item.id === id);
+    return { id, label: structure?.en, text: structure?.summary ?? "연관된 해부 구조입니다." };
+  });
+  return (
+    <section className="border-t border-slate-200 pt-7">
+      <h2 className="text-xl font-bold text-slate-950">연관 구조</h2>
+      {entries.length ? <div className="mt-4 grid gap-3 sm:grid-cols-2">{entries.map((entry) => {
+        const structure = atlas.structures.find((item) => item.id === entry.id);
+        const title = structure?.en ?? entry.label ?? entry.id;
+        const subtitle = structure?.ko;
+        return <Link key={entry.id} href={neuroNoteHref("structure", entry.id)} className="rounded-xl border border-slate-200 px-4 py-3 hover:border-teal-500 hover:bg-teal-50"><span className="block font-semibold text-slate-950">{title}</span>{subtitle ? <span className="mt-0.5 block text-xs font-medium text-slate-500">{subtitle}</span> : null}<span className="mt-2 block text-sm leading-6 text-slate-600">{entry.text}</span></Link>;
+      })}</div> : <p className="mt-3 text-sm text-slate-500">연결된 구조 정보가 아직 없습니다.</p>}
+    </section>
+  );
 }
 
 function Sources({ atlas, sourceIds }: { atlas: NeuroAtlas; sourceIds: string[] }) {
   const sourceById = new Map(atlas.sources.filter((source) => source.id).map((source) => [source.id!, source]));
-  return <section className="rounded-2xl border border-slate-200 bg-slate-50 p-5"><p className="text-xs font-bold tracking-[.14em] text-slate-500">출처</p><div className="mt-3 flex flex-wrap gap-2">{sourceIds.map((id) => {
+  const sources = [...new Set(sourceIds)].flatMap((id) => {
     const source = sourceById.get(id);
-    return source ? <a key={id} href={source.url} target="_blank" rel="noreferrer" className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 hover:border-teal-500">{source.title ?? source.label}</a> : null;
-  })}</div></section>;
+    return source ? [source] : [];
+  });
+  return <section className="rounded-2xl border border-slate-200 bg-slate-50 p-5"><p className="text-xs font-bold tracking-[.14em] text-slate-500">출처</p>{sources.length ? <div className="mt-3 grid gap-2">{sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer" className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium leading-5 text-slate-700 hover:border-teal-500">{source.title ?? source.label}</a>)}</div> : <p className="mt-3 text-sm text-slate-500">등록된 출처가 없습니다.</p>}</section>;
+}
+
+function NoteBody({ atlas, note, diseases, diseaseHrefs, drugs, drugHrefs, relatedIds, atlasHref }: { atlas: NeuroAtlas; note: NotePayload; diseases: string[]; diseaseHrefs: Record<string, string>; drugs: string[]; drugHrefs: Record<string, string>; relatedIds?: string[]; atlasHref: string }) {
+  return <>
+    <Section title="해부학 정보" items={note.anatomy} />
+    <Section title="담당 혹은 관련 기능" items={note.function} />
+    <Section title="문제 발생 시 나타날 수 있는 증상·징후" items={note.clinical} empty="임상 증상과 징후를 정리 중입니다." />
+    <TermLinks title="관련 질환" items={[...new Set([...note.diseases, ...diseases])]} hrefs={diseaseHrefs} empty="연결된 질환 노트를 정리 중입니다." />
+    {drugs.length ? <TermLinks title="관련 약물" items={drugs} hrefs={drugHrefs} empty="연결된 약물 노트가 없습니다." /> : null}
+    <RelatedLinks atlas={atlas} related={note.related} fallbackIds={relatedIds} />
+    <section className="border-t border-slate-200 pt-7"><h2 className="text-xl font-bold text-slate-950">Atlas에서 보기</h2><Link href={atlasHref} className="mt-4 inline-flex rounded-lg bg-teal-700 px-4 py-2.5 text-sm font-bold text-white hover:bg-teal-800">해당 위치 확인</Link></section>
+  </>;
 }
 
 export function NeuroNotePage({ atlas, kind, id, diseaseHrefs, drugHrefs }: Props) {
   const item = getNeuroNoteItem(atlas, kind, id);
   if (!item) return null;
-
   const Icon = kind === "pathway" ? Route : kind === "reflex" ? Stethoscope : BookOpen;
-  const typeLabel = kind === "structure" ? "해부 구조 노트" : kind === "pathway" ? "신경 경로 노트" : kind === "reflex" ? "NEx · 반사 노트" : "주제 노트";
 
   if (kind === "structure") {
     const structure = item as NeuroAtlas["structures"][number];
-    const pathways = atlas.pathways.filter((pathway) => pathway.nodes?.includes(structure.id));
-    const reflexes = atlas.reflexes.filter((reflex) => reflex.route?.includes(structure.id));
-    const related = relatedStructures(atlas, structure.id);
-    return <NoteFrame icon={Icon} typeLabel={typeLabel} title={structure.ko} subtitle={structure.en} backHref="/nervous-system-hub?tab=notes" source={<Sources atlas={atlas} sourceIds={structure.sourceIds ?? []} />}>
-      <Section title="해부학 정보"><p>{structure.summary}</p><dl className="mt-4 grid gap-3 rounded-xl bg-slate-50 p-4 text-sm sm:grid-cols-2"><div><dt className="font-bold text-slate-950">분류</dt><dd>{structure.group}</dd></div><div><dt className="font-bold text-slate-950">확인 가능한 지도</dt><dd>{(structure.viewIds ?? []).length}개 보기</dd></div></dl></Section>
-      <Section title="담당 혹은 관련 기능"><p>{pathways.length ? `${pathways.map((pathway) => pathway.ko).join(" · ")}의 경로에서 이 구조를 함께 확인합니다.` : "선택한 Atlas 보기에서 이 구조의 위치와 인접 구조를 함께 확인합니다."}</p>{reflexes.length ? <p className="mt-3">관련 진찰·반사: {reflexes.map((reflex) => reflex.label).join(" · ")}</p> : null}</Section>
-      <Section title="관련 질환"><LinkPills items={structure.links} hrefs={diseaseHrefs} empty="연결된 질환 노트를 정리 중입니다." /></Section>
-      {structure.drugLinks?.length ? <Section title="관련 약물"><LinkPills items={structure.drugLinks} hrefs={drugHrefs} empty="연결된 약물 노트가 없습니다." /></Section> : null}
-      <Section title="연관 구조"><StructureLinks structures={related} /></Section>
-      <Section title="지도에서 보기"><div className="flex flex-wrap gap-2">{(structure.viewIds ?? []).map((viewId) => { const view = atlas.views.find((entry) => entry.id === viewId); return view ? <Link key={viewId} href={`/nervous-system-hub?view=${viewId}&structure=${structure.id}`} className="rounded-lg border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-700 hover:border-teal-500">{view.hierarchy.join(" › ")} · {view.label}</Link> : null; })}</div></Section>
-    </NoteFrame>;
+    const note = structure.note;
+    if (!note) return null;
+    return <Frame icon={Icon} typeLabel="해부 구조 노트" title={structure.en} subtitle={structure.ko} backHref="/nervous-system-hub?tab=notes" source={<Sources atlas={atlas} sourceIds={note.sourceIds ?? structure.sourceIds ?? []} />}><NoteBody atlas={atlas} note={note} diseases={diseasesForStructure(atlas, structure.id)} diseaseHrefs={diseaseHrefs} drugs={structure.drugLinks ?? []} drugHrefs={drugHrefs} relatedIds={relatedStructures(atlas, structure.id).map((entry) => entry.id)} atlasHref={`/nervous-system-hub?view=${structure.viewIds?.[0] ?? "whole-neuraxis"}&structure=${structure.id}`} /></Frame>;
   }
 
   if (kind === "pathway") {
     const pathway = item as NeuroAtlas["pathways"][number];
-    const structures = (pathway.nodes ?? []).flatMap((structureId) => atlas.structures.filter((structure) => structure.id === structureId));
-    return <NoteFrame icon={Icon} typeLabel={typeLabel} title={pathway.ko} subtitle={pathway.en} backHref="/nervous-system-hub?tab=notes" source={<Sources atlas={atlas} sourceIds={pathway.sourceIds ?? []} />}>
-      <Section title="해부학 정보"><p>{pathway.route}</p><dl className="mt-4 grid gap-3 rounded-xl bg-slate-50 p-4 text-sm"><div><dt className="font-bold text-slate-950">시작</dt><dd>{pathway.origin ?? "정리 중"}</dd></div><div><dt className="font-bold text-slate-950">중계 구조</dt><dd>{pathway.relayNuclei?.join(" · ") ?? "정리 중"}</dd></div><div><dt className="font-bold text-slate-950">교차</dt><dd>{pathway.decussation ?? "정리 중"}</dd></div><div><dt className="font-bold text-slate-950">종결</dt><dd>{pathway.termination ?? "정리 중"}</dd></div></dl></Section>
-      <Section title="담당 혹은 관련 기능"><p>{pathway.primaryFunction ?? pathway.route}</p></Section>
-      <Section title="병변과 측성"><p>{pathway.lesionPattern ?? pathway.pattern}</p>{pathway.laterality ? <p className="mt-3 rounded-xl border border-amber-200 bg-amber-50 p-4 text-amber-950"><b>측성:</b> {pathway.laterality.description}</p> : null}</Section>
-      <Section title="관련 질환"><LinkPills items={pathway.links} hrefs={diseaseHrefs} empty="연결된 질환 노트를 정리 중입니다." /></Section>
-      {pathway.drugLinks?.length ? <Section title="관련 약물"><LinkPills items={pathway.drugLinks} hrefs={drugHrefs} empty="연결된 약물 노트가 없습니다." /></Section> : null}
-      <Section title="연관 구조"><StructureLinks structures={structures} /></Section>
-      <Section title="지도에서 보기"><Link href={`/nervous-system-hub?pathway=${pathway.id}`} className="inline-flex rounded-lg bg-teal-700 px-4 py-2.5 text-sm font-bold text-white hover:bg-teal-800">경로를 Atlas에서 보기</Link></Section>
-    </NoteFrame>;
+    const note = pathway.note;
+    if (!note) return null;
+    return <Frame icon={Icon} typeLabel="신경 경로 노트" title={pathway.en} subtitle={pathway.ko} backHref="/nervous-system-hub?tab=notes" source={<Sources atlas={atlas} sourceIds={note.sourceIds ?? pathway.sourceIds ?? []} />}><NoteBody atlas={atlas} note={note} diseases={diseasesForPathway(atlas, pathway.id)} diseaseHrefs={diseaseHrefs} drugs={pathway.drugLinks ?? []} drugHrefs={drugHrefs} relatedIds={pathway.nodes} atlasHref={`/nervous-system-hub?pathway=${pathway.id}`} /></Frame>;
   }
 
   if (kind === "reflex") {
     const reflex = item as NeuroAtlas["reflexes"][number];
-    const structures = (reflex.route ?? []).flatMap((structureId) => atlas.structures.filter((structure) => structure.id === structureId));
-    return <NoteFrame icon={Icon} typeLabel={typeLabel} title={reflex.label} subtitle="신경학적 진찰 · 반사 회로" backHref="/nervous-system-hub?tab=nex" source={<Sources atlas={atlas} sourceIds={reflex.sourceIds ?? []} />}>
-      <Section title="해부학 정보"><p>{reflex.arc}</p>{reflex.route?.length ? <ol className="mt-4 grid gap-2 sm:grid-cols-2">{reflex.route.map((structureId, index) => <li key={structureId + index} className="rounded-xl border border-slate-200 p-3"><span className="text-xs font-bold uppercase tracking-[.12em] text-teal-700">{reflex.routeStages?.[index] ?? "경로"}</span><span className="mt-1 block font-semibold text-slate-950">{reflex.routeLabels?.[index] ?? atlas.structures.find((structure) => structure.id === structureId)?.ko ?? structureId}</span></li>)}</ol> : null}</Section>
-      <Section title="담당 혹은 관련 기능"><p>{reflex.purpose ?? reflex.localization}</p>{reflex.technique?.length ? <ul className="mt-3 list-disc space-y-1 pl-5">{reflex.technique.map((line) => <li key={line}>{line}</li>)}</ul> : null}</Section>
-      <Section title="정상 반응과 위치추정"><dl className="grid gap-4"><div><dt className="font-bold text-slate-950">정상 반응</dt><dd>{reflex.normal ?? "임상 맥락에서 양측 반응을 비교합니다."}</dd></div><div><dt className="font-bold text-slate-950">이상 소견 · 주의사항</dt><dd>{reflex.abnormal ?? "병력과 다른 신경학적 소견을 함께 해석합니다."}</dd></div><div><dt className="font-bold text-slate-950">국소화</dt><dd>{reflex.localization}</dd></div>{reflex.laterality ? <div><dt className="font-bold text-slate-950">측성</dt><dd>{reflex.laterality.description}</dd></div> : null}</dl></Section>
-      <Section title="관련 질환"><LinkPills items={diseasesForReflex(atlas, reflex.id)} hrefs={diseaseHrefs} empty="연결된 질환 노트를 정리 중입니다." /></Section>
-      <Section title="연관 구조"><StructureLinks structures={structures} /></Section>
-      <Section title="지도에서 보기"><Link href={`/nervous-system-hub?view=${reflex.viewId ?? "whole-neuraxis"}&structure=${reflex.route?.[0] ?? ""}`} className="inline-flex rounded-lg bg-teal-700 px-4 py-2.5 text-sm font-bold text-white hover:bg-teal-800">반사 회로를 Atlas에서 보기</Link></Section>
-    </NoteFrame>;
+    const note = reflex.note;
+    if (!note) return null;
+    return <Frame icon={Icon} typeLabel="NEx · 반사 노트" title={reflex.label} subtitle="Neurological examination" backHref="/nervous-system-hub?tab=nex" source={<Sources atlas={atlas} sourceIds={note.sourceIds ?? reflex.sourceIds ?? []} />}><NoteBody atlas={atlas} note={note} diseases={diseasesForReflex(atlas, reflex.id)} diseaseHrefs={diseaseHrefs} drugs={[]} drugHrefs={drugHrefs} relatedIds={reflex.route} atlasHref={`/nervous-system-hub?view=${reflex.viewId ?? "whole-neuraxis"}&structure=${reflex.route?.[0] ?? ""}`} /></Frame>;
   }
 
   const topic = item as NeuroAtlas["theoryTopics"][number];
-  const targetStructure = atlas.structures.find((structure) => structure.id === topic.itemId);
-  const targetPathway = atlas.pathways.find((pathway) => pathway.id === topic.itemId);
-  const targetReflex = atlas.reflexes.find((reflex) => reflex.id === topic.itemId);
-  const diseases = targetStructure ? diseasesForStructure(atlas, targetStructure.id) : targetPathway ? targetPathway.links : targetReflex ? diseasesForReflex(atlas, targetReflex.id) : [];
-  return <NoteFrame icon={Icon} typeLabel={typeLabel} title={topic.title} subtitle={topic.category} backHref="/nervous-system-hub?tab=notes" source={<Sources atlas={atlas} sourceIds={topic.sourceIds} />}>
-    <Section title="해부학 정보"><p>{topic.summary}</p></Section>
-    {topic.sections?.map((section) => <Section key={section.heading} title={section.heading}><p>{section.body}</p></Section>)}
-    <Section title="관련 질환"><LinkPills items={diseases} hrefs={diseaseHrefs} empty="연결된 질환 노트를 정리 중입니다." /></Section>
-    <Section title="연관 구조">{targetStructure ? <StructureLinks structures={relatedStructures(atlas, targetStructure.id)} /> : targetPathway ? <StructureLinks structures={(targetPathway.nodes ?? []).flatMap((structureId) => atlas.structures.filter((structure) => structure.id === structureId))} /> : targetReflex ? <StructureLinks structures={(targetReflex.route ?? []).flatMap((structureId) => atlas.structures.filter((structure) => structure.id === structureId))} /> : <p className="text-sm text-slate-500">연관 구조를 정리 중입니다.</p>}</Section>
-    <Section title="지도에서 보기"><Link href={`/nervous-system-hub?view=${topic.viewId}${targetPathway ? `&pathway=${targetPathway.id}` : targetStructure ? `&structure=${targetStructure.id}` : ""}`} className="inline-flex rounded-lg bg-teal-700 px-4 py-2.5 text-sm font-bold text-white hover:bg-teal-800">Atlas에서 확인하기</Link></Section>
-  </NoteFrame>;
+  const note = topic.note;
+  if (!note) return null;
+  let topicDiseases: string[] = [];
+  if (topic.itemId) {
+    if (atlas.structures.some((entry) => entry.id === topic.itemId)) topicDiseases = diseasesForStructure(atlas, topic.itemId);
+    else if (atlas.pathways.some((entry) => entry.id === topic.itemId)) topicDiseases = diseasesForPathway(atlas, topic.itemId);
+    else if (atlas.reflexes.some((entry) => entry.id === topic.itemId)) topicDiseases = diseasesForReflex(atlas, topic.itemId);
+  }
+  return <Frame icon={Icon} typeLabel="신경계 이론 노트" title={topic.title} subtitle={topic.category} backHref="/nervous-system-hub?tab=notes" source={<Sources atlas={atlas} sourceIds={note.sourceIds ?? topic.sourceIds} />}><NoteBody atlas={atlas} note={note} diseases={topicDiseases} diseaseHrefs={diseaseHrefs} drugs={topic.drugLinks ?? []} drugHrefs={drugHrefs} atlasHref={`/nervous-system-hub?view=${topic.viewId}${topic.itemId ? `&structure=${topic.itemId}` : ""}`} /></Frame>;
 }
 
-function NoteFrame({ icon: Icon, typeLabel, title, subtitle, backHref, source, children }: { icon: typeof BookOpen; typeLabel: string; title: string; subtitle: string; backHref: string; source: React.ReactNode; children: React.ReactNode }) {
-  return <main className="mx-auto w-full max-w-6xl px-4 pb-20 pt-6 sm:px-6 lg:px-8"><Link href={backHref} className="inline-flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-900"><ArrowLeft className="h-4 w-4" />신경계 Hub로 돌아가기</Link><header className="mt-5 border-b border-slate-200 pb-8"><p className="flex items-center gap-2 text-xs font-bold tracking-[.15em] text-teal-700"><Icon className="h-4 w-4" />{typeLabel}</p><h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">{title}</h1><p className="mt-2 text-base text-slate-500">{subtitle}</p></header><div className="mt-8 grid gap-10 xl:grid-cols-[minmax(0,1fr)_290px]"><article className="space-y-8">{children}</article><aside className="xl:sticky xl:top-6 xl:self-start">{source}</aside></div></main>;
+function Frame({ icon: Icon, typeLabel, title, subtitle, backHref, source, children }: { icon: typeof BookOpen; typeLabel: string; title: string; subtitle: string; backHref: string; source: React.ReactNode; children: React.ReactNode }) {
+  return <main className="mx-auto w-full max-w-6xl px-4 pb-20 pt-6 sm:px-6 lg:px-8"><Link href={backHref} className="inline-flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-900"><ArrowLeft className="h-4 w-4" />신경계 Hub로 돌아가기</Link><DocumentToolbar title={title} className="mt-5" /><header className="mt-5 border-b border-slate-200 pb-8"><p className="flex items-center gap-2 text-xs font-bold tracking-[.15em] text-teal-700"><Icon className="h-4 w-4" />{typeLabel}</p><h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">{title}</h1><p className="mt-2 text-base text-slate-500">{subtitle}</p></header><div className="mt-8 grid gap-10 xl:grid-cols-[minmax(0,1fr)_290px]"><article className="space-y-8">{children}</article><aside className="xl:sticky xl:top-6 xl:self-start">{source}</aside></div></main>;
 }

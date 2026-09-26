@@ -364,6 +364,7 @@ export type MaternalChildHubData = {
   schemaVersion: number;
   updatedAt: string;
   stages: Array<{
+    id: string;
     group: "obstetrics" | "pediatrics" | "shared";
     time: string;
     title: string;
@@ -372,7 +373,7 @@ export type MaternalChildHubData = {
     assessments: string[];
     clinicalFocus: string[];
     related: string[];
-    sources: string[];
+    sourceIds: string[];
   }>;
   pediatricMilestones: Array<{
     age: string;
@@ -383,7 +384,7 @@ export type MaternalChildHubData = {
     social: string[];
     visit: string[];
   }>;
-  sources: Array<{ label: string; url: string }>;
+  sources: Array<{ id: string; label: string; url: string }>;
 };
 
 export function getMaternalChildHubData(): MaternalChildHubData {

@@ -44,7 +44,30 @@ export function relatedStructures(atlas: NeuroAtlas, structureId: string) {
 }
 
 export function diseasesForStructure(atlas: NeuroAtlas, structureId: string) {
-  return atlas.structures.find((item) => item.id === structureId)?.links ?? [];
+  const structure = atlas.structures.find((item) => item.id === structureId);
+  if (!structure) return [];
+  const diseases = new Set([...(structure.links ?? []), ...(structure.note?.diseases ?? [])]);
+  for (const pathway of atlas.pathways) {
+    if (pathway.nodes?.includes(structureId)) [...pathway.links, ...(pathway.note?.diseases ?? [])].forEach((item) => diseases.add(item));
+  }
+  for (const reflex of atlas.reflexes) {
+    if (!reflex.route?.includes(structureId)) continue;
+    for (const id of reflex.route) {
+      const routeStructure = atlas.structures.find((item) => item.id === id);
+      [...(routeStructure?.links ?? []), ...(routeStructure?.note?.diseases ?? [])].forEach((item) => diseases.add(item));
+    }
+  }
+  for (const related of structure.note?.related ?? []) {
+    const relatedStructure = atlas.structures.find((item) => item.id === related.id);
+    [...(relatedStructure?.links ?? []), ...(relatedStructure?.note?.diseases ?? [])].forEach((item) => diseases.add(item));
+  }
+  return [...diseases];
+}
+
+export function diseasesForPathway(atlas: NeuroAtlas, pathwayId: string) {
+  const pathway = atlas.pathways.find((item) => item.id === pathwayId);
+  if (!pathway) return [];
+  return [...new Set([...pathway.links, ...(pathway.note?.diseases ?? []), ...(pathway.nodes ?? []).flatMap((id) => diseasesForStructure(atlas, id))])];
 }
 
 export function diseasesForReflex(atlas: NeuroAtlas, reflexId: string) {

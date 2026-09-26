@@ -3,16 +3,22 @@
 import { useHubScroll, useHubState } from "@/lib/use-hub-state";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import dynamic from "next/dynamic";
 import { Bug, BookOpenCheck, GraduationCap, Network, Pill } from "lucide-react";
 import { AntibioticOverview } from "@/components/antibiotic-overview";
 import { InfectionHubQuiz } from "@/components/infection-hub-quiz";
 import { InfectionPathwayExplorer } from "@/components/infection-pathway-explorer";
 import { MicrobiologyBrowser } from "@/components/microbiology-browser";
-import { InfectionRelationMap } from "@/components/infection-relation-map";
+import { HubStatusStrip } from "@/components/hub-status-strip";
 import type { AntibioticSpectrumDataset, MicrobiologyDataset } from "@/lib/types";
 import type { InfectionPathwayDataset } from "@/lib/infection-types";
 
 type HubTab = "map" | "pathogens" | "diseases" | "antibiotics" | "quiz";
+
+const InfectionRelationMap = dynamic(
+  () => import("@/components/infection-relation-map").then((module) => module.InfectionRelationMap),
+  { loading: () => <div className="rounded-xl border border-slate-200 bg-white p-8 text-sm text-slate-500">관계도를 불러오는 중입니다.</div> },
+);
 
 export function InfectionHub({
   dataset,
@@ -31,8 +37,8 @@ export function InfectionHub({
     ? "diseases"
     : requestedView === "map" || requestedView === "antibiotics" || requestedView === "quiz" || requestedView === "pathogens"
       ? requestedView
-      : "map";
-  const [savedTab, setSavedTab] = useHubState<HubTab>("infection-hub:tab", "map");
+      : "diseases";
+  const [savedTab, setSavedTab] = useHubState<HubTab>("infection-hub:tab", "diseases");
   const tab = requestedView ? initialView : savedTab;
 
   const selectTab = (nextTab: HubTab) => {
@@ -73,6 +79,16 @@ export function InfectionHub({
         ))}
         </div>
       </header>
+
+      <HubStatusStrip
+        reviewedAt={[pathways.reviewedAt, dataset.reviewedAt, microbiology.reviewedAt].sort().at(-1) ?? pathways.reviewedAt}
+        items={[
+          { label: "질환 경로", value: pathways.pathways.filter((item) => item.reviewStatus !== "retired").length },
+          { label: "병원체", value: microbiology.entities.length },
+          { label: "항생제", value: dataset.antibiotics.length },
+          { label: "출처", value: new Set([...pathways.sources.map((item) => item.url), ...microbiology.sources.map((item) => item.url), ...dataset.sources.map((item) => item.url)]).size },
+        ]}
+      />
 
       {tab === "map" ? <InfectionRelationMap pathways={pathways} spectrum={dataset} /> : null}
       {tab === "pathogens" ? <MicrobiologyBrowser dataset={microbiology} pathways={pathways} spectrum={dataset} /> : null}

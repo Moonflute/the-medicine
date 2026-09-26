@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-09-27",
   "stages": [
     {
+      "id": "antenatal-first-trimester",
       "group": "obstetrics",
       "time": "GA 0–13+6주",
       "title": "임신 초기",
@@ -26,12 +27,13 @@
         "자연 유산",
         "임신 입덧"
       ],
-      "sources": [
-        "ACOG 산전관리",
-        "WHO ANC"
+      "sourceIds": [
+        "acog-prenatal",
+        "who-anc"
       ]
     },
     {
+      "id": "antenatal-second-trimester",
       "group": "obstetrics",
       "time": "GA 14–27+6주",
       "title": "임신 중기",
@@ -56,12 +58,13 @@
         "조기 진통",
         "태아 성장 지연"
       ],
-      "sources": [
-        "ACOG 산전관리",
-        "ACOG 당뇨·고혈압 지침"
+      "sourceIds": [
+        "acog-prenatal",
+        "acog-pregnancy-guidance"
       ]
     },
     {
+      "id": "antenatal-third-trimester",
       "group": "obstetrics",
       "time": "GA 28–36+6주",
       "title": "임신 후기",
@@ -85,12 +88,13 @@
         "태아 성장 지연",
         "조기 양막 파수"
       ],
-      "sources": [
-        "ACOG 태아감시",
-        "CDC GBS"
+      "sourceIds": [
+        "acog-fetal-surveillance",
+        "cdc-gbs"
       ]
     },
     {
+      "id": "term-labor",
       "group": "obstetrics",
       "time": "GA 37주–분만",
       "title": "만삭 · 분만",
@@ -115,12 +119,13 @@
         "자궁이완증",
         "태반조기박리"
       ],
-      "sources": [
-        "ACOG 분만·산후출혈",
-        "WHO intrapartum care"
+      "sourceIds": [
+        "acog-postpartum-hemorrhage",
+        "who-intrapartum"
       ]
     },
     {
+      "id": "postpartum-newborn",
       "group": "shared",
       "time": "출생–생후 6주",
       "title": "산후 · 신생아 전환기",
@@ -145,12 +150,13 @@
         "신생아 황달",
         "신생아 패혈증"
       ],
-      "sources": [
-        "WHO 산후·신생아관리",
-        "CDC 신생아 선별"
+      "sourceIds": [
+        "who-postnatal",
+        "cdc-newborn-screening"
       ]
     },
     {
+      "id": "early-infancy",
       "group": "pediatrics",
       "time": "생후 2–6개월",
       "title": "초기 영아기",
@@ -174,12 +180,13 @@
         "선천성 심장병",
         "발달 지연"
       ],
-      "sources": [
-        "CDC 발달감시",
-        "질병관리청 예방접종"
+      "sourceIds": [
+        "cdc-development",
+        "kdca-immunization"
       ]
     },
     {
+      "id": "late-infancy",
       "group": "pediatrics",
       "time": "생후 6–12개월",
       "title": "후기 영아기",
@@ -203,12 +210,13 @@
         "음식 알레르기",
         "뇌성 마비"
       ],
-      "sources": [
-        "CDC 발달감시",
-        "AAP 예방의학"
+      "sourceIds": [
+        "cdc-development",
+        "aap-periodicity"
       ]
     },
     {
+      "id": "toddler",
       "group": "pediatrics",
       "time": "12–24개월",
       "title": "걸음마기",
@@ -232,12 +240,13 @@
         "열성 경련",
         "가와사키병"
       ],
-      "sources": [
-        "CDC 발달감시",
-        "CDC 예방접종"
+      "sourceIds": [
+        "cdc-development",
+        "cdc-immunization"
       ]
     },
     {
+      "id": "preschool",
       "group": "pediatrics",
       "time": "2–5세",
       "title": "유아기",
@@ -261,38 +270,68 @@
         "변비",
         "급성 중이염"
       ],
-      "sources": [
-        "CDC 소아 발달",
-        "질병관리청 예방접종"
+      "sourceIds": [
+        "cdc-development",
+        "kdca-immunization"
       ]
     },
     {
+      "id": "school-age",
       "group": "pediatrics",
-      "time": "6–18세",
-      "title": "학령기 · 청소년기",
-      "subtitle": "성장급등 · 정신건강 · 전환진료",
+      "time": "6–11세",
+      "title": "학령기",
+      "subtitle": "학습 · 성장 · 수면 · 만성질환 관리",
       "development": [
-        "사춘기 단계, 키 성장속도, 수면·학업·또래관계·자기관리 능력의 변화가 핵심이다.",
-        "청소년 진료는 비밀보장 범위와 보호자 참여를 사전에 설명하고 일정 부분 단독 문진을 포함한다."
+        "키 성장속도와 BMI 추세, 수면, 학업 수행, 또래관계와 자기관리 능력을 함께 확인한다.",
+        "학교·가정 양쪽에서 나타나는 주의력, 학습, 행동 변화는 기능 저하의 범위와 지속 기간을 확인한다."
       ],
       "assessments": [
-        "BMI·혈압·시력·청력, 우울/자살위험·물질사용·성건강·폭력 노출을 연령과 위험에 맞춰 선별",
-        "HPV, Tdap, meningococcal 등 최신 국가 일정과 고위험군 추가접종을 확인",
-        "만성질환에서는 성인 진료 전환 계획, 복약 자가관리, 응급계획을 조기에 시작"
+        "성장/BMI·혈압·시력·청력과 구강건강을 연령별 예방진료 일정에 맞춰 평가",
+        "학습·행동·수면·정서 문제와 학교 결석, bullying, 가정·지역사회 안전을 확인",
+        "국가예방접종 일정과 누락 접종을 점검하고 만성질환의 복약·운동 계획을 갱신"
       ],
       "clinicalFocus": [
-        "자살사고, 섭식장애, 심한 두통·신경학적 증상, 운동 중 흉통/실신은 즉시 위험도를 평가한다.",
-        "사춘기 지연/조숙, 성장속도 저하는 가족력과 성장곡선을 바탕으로 내분비 평가를 고려한다."
+        "운동 중 흉통/실신, 심한 두통·신경학적 증상, 빠른 성장곡선 이탈은 즉시 원인을 평가한다.",
+        "학습이나 행동의 갑작스러운 변화는 시청각 문제, 수면장애, 정서·환경 요인을 함께 확인한다."
+      ],
+      "related": [
+        "천식",
+        "당뇨병",
+        "소아 비만"
+      ],
+      "sourceIds": [
+        "aap-periodicity",
+        "cdc-immunization"
+      ]
+    },
+    {
+      "id": "adolescence",
+      "group": "pediatrics",
+      "time": "12–18세",
+      "title": "청소년기",
+      "subtitle": "사춘기 · 정신건강 · 성인진료 전환",
+      "development": [
+        "사춘기 단계, 키 성장속도, 수면·학업·또래관계와 자율적인 건강관리 능력의 변화를 확인한다.",
+        "비밀보장 범위와 보호자 참여 원칙을 먼저 설명하고 발달 수준에 맞는 단독 문진을 포함한다."
+      ],
+      "assessments": [
+        "우울·자살위험, 물질사용, 성건강, 폭력 노출과 섭식 문제를 연령과 위험에 맞춰 선별",
+        "HPV, Tdap, meningococcal 등 최신 국가 일정과 고위험군 추가접종을 확인",
+        "만성질환은 복약 자가관리, 응급계획과 성인 진료 전환 준비도를 단계적으로 평가"
+      ],
+      "clinicalFocus": [
+        "자살사고, 섭식장애, 운동 중 흉통/실신, 새 신경학적 증상은 즉시 안전과 의학적 위험도를 평가한다.",
+        "사춘기 지연/조숙과 성장속도 저하는 성장곡선·가족력·진찰을 바탕으로 내분비 평가를 고려한다."
       ],
       "related": [
         "우울증",
         "섭식 장애",
-        "당뇨병",
-        "천식"
+        "당뇨병"
       ],
-      "sources": [
-        "CDC 청소년 예방접종",
-        "AAP 예방의학"
+      "sourceIds": [
+        "aap-periodicity",
+        "aap-suicide-screening",
+        "cdc-immunization"
       ]
     }
   ],
@@ -556,36 +595,84 @@
   ],
   "sources": [
     {
+      "id": "cdc-milestones",
       "label": "CDC: 연령별 발달 이정표",
       "url": "https://www.cdc.gov/act-early/milestones/index.html"
     },
     {
+      "id": "cdc-development",
       "label": "CDC/AAP: 발달·ASD 선별",
       "url": "https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html"
     },
     {
+      "id": "acog-prenatal",
       "label": "ACOG: 산전관리",
       "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/08/recommendations-for-preventive-care-for-women"
     },
     {
+      "id": "who-anc",
       "label": "WHO: ANC",
       "url": "https://www.who.int/publications/i/item/9789241549912"
     },
     {
+      "id": "who-postnatal",
       "label": "WHO: 산후·신생아 관리",
       "url": "https://www.who.int/publications/i/item/9789240045989"
     },
     {
+      "id": "cdc-immunization",
       "label": "CDC: 소아 예방접종",
       "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent.html"
     },
     {
-      "label": "CDC: 발달감시·선별",
-      "url": "https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html"
-    },
-    {
+      "id": "kdca-immunization",
       "label": "질병관리청: 예방접종도우미",
       "url": "https://nip.kdca.go.kr"
+    },
+    {
+      "id": "aap-periodicity",
+      "label": "AAP Bright Futures: 예방진료 주기표",
+      "url": "https://www.aap.org/periodicityschedule"
+    },
+    {
+      "id": "aap-suicide-screening",
+      "label": "AAP: 청소년 자살위험 선별",
+      "url": "https://www.aap.org/en/patient-care/blueprint-for-youth-suicide-prevention/strategies-for-clinical-settings-for-youth-suicide-prevention/screening-for-suicide-risk-in-clinical-practice/"
+    },
+    {
+      "id": "acog-pregnancy-guidance",
+      "label": "ACOG: 임신 합병증 임상 지침",
+      "url": "https://www.acog.org/clinical"
+    },
+    {
+      "id": "acog-fetal-surveillance",
+      "label": "ACOG: Antepartum fetal surveillance",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/06/indications-for-outpatient-antenatal-fetal-surveillance"
+    },
+    {
+      "id": "cdc-gbs",
+      "label": "CDC: Group B Streptococcus screening",
+      "url": "https://www.cdc.gov/group-b-strep/testing/index.html"
+    },
+    {
+      "id": "acog-postpartum-hemorrhage",
+      "label": "ACOG: Postpartum hemorrhage",
+      "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/10/postpartum-hemorrhage"
+    },
+    {
+      "id": "who-intrapartum",
+      "label": "WHO: Intrapartum care",
+      "url": "https://www.who.int/publications/i/item/WHO-RHR-18.12"
+    },
+    {
+      "id": "cdc-newborn-screening",
+      "label": "CDC: Newborn screening",
+      "url": "https://www.cdc.gov/newborn-screening/about/index.html"
+    },
+    {
+      "id": "cdc-development-legacy",
+      "label": "CDC: 발달감시·선별",
+      "url": "https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html"
     }
   ]
 }

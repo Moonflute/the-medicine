@@ -13,7 +13,11 @@ if (!fs.existsSync(SOURCE_PATH)) throw new Error("Maternal-child Hub source is m
 const data = JSON.parse(fs.readFileSync(SOURCE_PATH, "utf8"));
 if (data.schemaVersion !== 1 || !Array.isArray(data.stages) || !Array.isArray(data.pediatricMilestones) || !Array.isArray(data.sources)) throw new Error("Maternal-child Hub source schema is invalid.");
 if (!data.stages.length || !data.pediatricMilestones.length || !data.sources.length) throw new Error("Maternal-child Hub requires timeline, milestones, and sources.");
-for (const stage of data.stages) { if (!stage.group || !stage.time || !stage.title || !Array.isArray(stage.development) || !Array.isArray(stage.assessments) || !Array.isArray(stage.clinicalFocus)) throw new Error("Maternal-child timeline stage is incomplete."); }
+const sourceIds = new Set(data.sources.map((source) => source.id));
+for (const stage of data.stages) {
+  if (!stage.id || !stage.group || !stage.time || !stage.title || !Array.isArray(stage.development) || !Array.isArray(stage.assessments) || !Array.isArray(stage.clinicalFocus) || !Array.isArray(stage.sourceIds)) throw new Error("Maternal-child timeline stage is incomplete.");
+  if (stage.sourceIds.some((id) => !sourceIds.has(id))) throw new Error(`Unknown maternal-child source id: ${stage.id}`);
+}
 for (const milestone of data.pediatricMilestones) { if (!milestone.age || !milestone.title || !Array.isArray(milestone.gross) || !Array.isArray(milestone.fine) || !Array.isArray(milestone.language) || !Array.isArray(milestone.social) || !Array.isArray(milestone.visit)) throw new Error("Maternal-child milestone is incomplete."); }
 fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
 fs.writeFileSync(OUTPUT_PATH, JSON.stringify(data, null, 2) + "\n", "utf8");

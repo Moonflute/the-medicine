@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.13.55",
+  "version": "0.13.56",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs",
@@ -14,6 +14,7 @@
     "lint": "eslint",
     "verify:physiology": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-interactive-physiology.mjs",
     "audit:microbiology": "node scripts/build-microbiology-relations.mjs && node scripts/audit-microbiology-quality.mjs",
+    "audit:hubs": "node scripts/audit-hubs.mjs",
     "test:neuro": "node --test scripts/test-nervous-system-atlas.mjs",
     "build:atlas": "node scripts/build-organ-atlas.mjs",
     "prebuild": "npm run build:atlas"
