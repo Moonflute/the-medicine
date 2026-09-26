@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
+import { ChiefComplaintDocumentHeader } from "@/components/chief-complaint-document-header";
 import { useSearchParams } from "next/navigation";
 import { BookOpenText, RotateCcw } from "lucide-react";
 import { WARD_CATEGORY } from "@/lib/cc-categories";
@@ -300,9 +301,11 @@ function SectionContent({
 export function ChiefComplaintDetailTabs({
   note,
   diseaseLinks,
+  actions,
 }: {
   note: ChiefComplaintNote;
   diseaseLinks: TermLink[];
+  actions: ReactNode;
 }) {
   const searchParams = useSearchParams();
   const [selectedView, setSelectedView] = useState<ViewKey>(() => {
@@ -327,20 +330,17 @@ export function ChiefComplaintDetailTabs({
 
   return (
     <div className="space-y-6">
-      <article className="surface p-5 sm:p-6">
-        <div className="eyebrow">{note.category || "Chief Complaint"}</div>
-        <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <h1 className="text-2xl font-semibold text-slate-950 sm:text-3xl">{note.title}</h1>
-          <div className="inline-flex rounded-lg border border-slate-200 bg-slate-50 p-1">
+      <ChiefComplaintDocumentHeader title={note.title} actions={actions}>
             {views.map((view) => {
               const selected = activeView === view.key;
               return (
                 <button
                   key={view.key}
                   type="button"
+                  aria-pressed={selected}
                   onClick={() => selectView(view.key)}
                   className={[
-                    "rounded-md px-3 py-1.5 text-sm font-medium transition",
+                    "min-w-0 rounded-md px-3 py-1.5 text-sm font-medium transition",
                     selected
                       ? "bg-white text-slate-950 shadow-sm"
                       : "text-slate-500 hover:bg-white/70 hover:text-slate-950",
@@ -350,9 +350,7 @@ export function ChiefComplaintDetailTabs({
                 </button>
               );
             })}
-          </div>
-        </div>
-      </article>
+      </ChiefComplaintDocumentHeader>
 
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         <div className="mb-3 text-xs uppercase text-slate-500">{views.find((view) => view.key === activeView)?.label}</div>

@@ -70,7 +70,7 @@ export function PersonalHighlighter() {
     };
     update();
     const observer = new MutationObserver(update);
-    observer.observe(main, { subtree: true, childList: true, attributes: true, attributeFilter: ["data-highlight-document"] });
+    observer.observe(main, { subtree: true, childList: true, attributes: true, attributeFilter: ["data-highlight-document", "data-highlighter-slot"] });
     return () => { observer.disconnect(); selection.current = null; clearPaint(); };
   }, [pathname]);
 

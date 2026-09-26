@@ -31,7 +31,39 @@
 }
 .document-toolbar-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.9375rem; font-weight: 600; }
 .document-toolbar-actions { display: flex; align-items: center; flex-shrink: 0; gap: 0.5rem; }
+.cc-document-header {
+  position: sticky;
+  top: var(--app-header-height);
+  z-index: 30;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgb(15 23 42 / 5%);
+  transition: padding 160ms ease;
+}
+.cc-document-title { grid-column: 1; grid-row: 1; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 1.875rem; font-weight: 600; line-height: 1.3; transition: font-size 160ms ease; }
+.cc-document-actions { grid-column: 2; grid-row: 1; }
+.cc-document-views { grid-column: 1 / -1; grid-row: 2; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 0.25rem; padding: 0.25rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; background: #f8fafc; }
+.cc-document-header[data-compact="true"] { padding: 0.5rem 0.75rem; }
+.cc-document-header[data-compact="true"] .cc-document-title { font-size: 1rem; }
+@media (min-width: 768px) {
+  .cc-document-header[data-compact="true"] { grid-template-columns: minmax(0, 1fr) auto auto; }
+  .cc-document-header[data-compact="true"] .cc-document-views { grid-column: 2; grid-row: 1; width: clamp(15rem, 28vw, 24rem); }
+  .cc-document-header[data-compact="true"] .cc-document-actions { grid-column: 3; }
+}
+@media (max-width: 479px) {
+  .cc-document-header { gap: 0.625rem; padding: 0.875rem; }
+  .cc-document-title { font-size: 1.5rem; }
+  .cc-document-actions { gap: 0.375rem; }
+}
+@media (prefers-reduced-motion: reduce) { .cc-document-header, .cc-document-title { transition: none; } }
 html:has([data-document-toolbar]) { scroll-padding-top: calc(var(--app-header-height) + 4rem); }
+html:has(.cc-document-header) { scroll-padding-top: calc(var(--app-header-height) + var(--cc-header-height, 7rem) + 0.75rem); }
 [data-document-toolbar] ~ [id], [data-document-toolbar] ~ * [id] { scroll-margin-top: 0; }
 .document-toolbar--inset { margin: -1.25rem -1.25rem 0; border-top: 0; border-right: 0; border-left: 0; border-radius: 0.5rem 0.5rem 0 0; }
 @media (min-width: 640px) { .document-toolbar--inset { margin: -1.75rem -1.75rem 0; } }
