@@ -162,13 +162,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </header>
 
           <main data-personal-highlight-root className="flex-1 px-4 py-6 sm:px-6 xl:px-8">
-            <div className="mx-auto max-w-7xl">
-              <div data-highlight-fallback data-highlight-ignore className="document-toolbar mb-4">
-                <div className="document-toolbar-title">{title}</div>
-                <span data-highlighter-slot className="inline-flex shrink-0" />
-              </div>
-              {children}
-            </div>
+            <div className="mx-auto max-w-7xl">{children}</div>
           </main>
           <PersonalHighlighter />
 

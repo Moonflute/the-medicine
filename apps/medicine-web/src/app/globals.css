@@ -31,7 +31,6 @@
 }
 .document-toolbar-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.9375rem; font-weight: 600; }
 .document-toolbar-actions { display: flex; align-items: center; flex-shrink: 0; gap: 0.5rem; }
-[data-personal-highlight-root]:has([data-document-toolbar]) [data-highlight-fallback] { display: none; }
 html:has([data-document-toolbar]) { scroll-padding-top: calc(var(--app-header-height) + 4rem); }
 [data-document-toolbar] ~ [id], [data-document-toolbar] ~ * [id] { scroll-margin-top: 0; }
 .document-toolbar--inset { margin: -1.25rem -1.25rem 0; border-top: 0; border-right: 0; border-left: 0; border-radius: 0.5rem 0.5rem 0 0; }

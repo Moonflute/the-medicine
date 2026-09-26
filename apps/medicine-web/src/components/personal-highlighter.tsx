@@ -62,11 +62,11 @@ export function PersonalHighlighter() {
       const root = question ?? main;
       // Stable question IDs are shared by normal sessions and mock exams.
       const key = question?.dataset.highlightDocument ?? "page:" + pathname.replace(/\/$/, "");
-      setScope(old => old?.key === key && old.root === root ? old : { key, root });
       const target = root.querySelector<HTMLElement>("[data-document-toolbar] [data-highlighter-slot]")
-        ?? main.querySelector<HTMLElement>("[data-document-toolbar] [data-highlighter-slot]")
-        ?? main.querySelector<HTMLElement>("[data-highlight-fallback] [data-highlighter-slot]");
+        ?? main.querySelector<HTMLElement>("[data-document-toolbar] [data-highlighter-slot]");
+      setScope(old => !target ? null : old?.key === key && old.root === root ? old : { key, root });
       setSlot(old => old === target ? old : target);
+      if (!target) { setOpen(false); setMode("read"); setConfirmClear(false); selection.current = null; }
     };
     update();
     const observer = new MutationObserver(update);
