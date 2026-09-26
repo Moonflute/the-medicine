@@ -72,6 +72,9 @@ jobs:
       - name: Verify learning sync
         run: node --test scripts/test-learning-sync.mjs
 
+      - name: Verify personal highlight anchoring and merge
+        run: node --experimental-strip-types --test scripts/test-personal-highlights.mjs scripts/test-personal-highlight-store.mjs
+
       - name: Verify disease structure
         run: |
           node --test scripts/test-disease-structure.mjs

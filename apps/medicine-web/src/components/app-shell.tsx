@@ -7,6 +7,7 @@ import { Activity, BookOpenCheck, FlaskConical, HeartPulse, House, Menu, Pill, S
 import { AuthStatus } from "@/components/auth-status";
 import { LearningSyncProvider } from "@/components/learning-sync-provider";
 import { AudioReviewProvider } from "@/components/audio-review-provider";
+import { PersonalHighlighter } from "@/components/personal-highlighter";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
@@ -116,6 +117,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 </div>
               </div>
               <div className="flex items-center gap-2">
+                <PersonalHighlighter />
                 <AuthStatus />
                 <Link href="/search" className="secondary-action whitespace-nowrap">
                   <Search className="h-4 w-4" />
@@ -149,7 +151,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             )}
           </header>
 
-          <main className="flex-1 px-4 py-6 sm:px-6 xl:px-8">
+          <main data-personal-highlight-root className="flex-1 px-4 py-6 sm:px-6 xl:px-8">
             <div className="mx-auto max-w-7xl">{children}</div>
           </main>
 
