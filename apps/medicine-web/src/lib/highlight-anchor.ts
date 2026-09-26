@@ -6,7 +6,11 @@ export type PersonalHighlight = { id: string; user_id: string; document_key: str
 export function normalizeText(text: string): string { return text.replace(/\s+/g, " ").trim(); }
 
 export function makeAnchor(text: string, start: number, end: number, block = ""): TextAnchor {
-  return { exact: text.slice(start, end), prefix: text.slice(Math.max(0, start - 48), start), suffix: text.slice(end, end + 48), start, block };
+  // Cutting a context window through an emoji can leave an unpaired UTF-16
+  // surrogate, which PostgreSQL rejects when the anchor is sent as JSON.
+  const prefix = text.slice(Math.max(0, start - 48), start).replace(/^[\uDC00-\uDFFF]/, "");
+  const suffix = text.slice(end, end + 48).replace(/[\uD800-\uDBFF]$/, "");
+  return { exact: text.slice(start, end), prefix, suffix, start, block };
 }
 
 // Exact text survives inserted paragraphs and changed layout. Context resolves

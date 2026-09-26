@@ -35,6 +35,13 @@ test("question and option scope prevents moving a quote to a different option", 
 test("whitespace normalizes across rendered inline content", () => {
   assert.equal(normalizeText("  혈압\n  저하\t후 "), "혈압 저하 후");
 });
+test("context windows do not cut an emoji into invalid JSON Unicode", () => {
+  const text = "🩺" + "가".repeat(47) + "선택" + "나".repeat(47) + "🩺";
+  const start = text.indexOf("선택");
+  const anchor = makeAnchor(text, start, start + 2);
+  assert.equal(anchor.prefix, "가".repeat(47));
+  assert.equal(anchor.suffix, "나".repeat(47));
+});
 test("a quote survives insertion and edits outside the selected text", () => {
   const text = "혈압 저하는 신장 관류 감소를 유발한다.";
   const start = text.indexOf("신장 관류");
