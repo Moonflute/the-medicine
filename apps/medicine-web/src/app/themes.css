@@ -161,6 +161,7 @@ html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-teal-600"]
 /* Pure black surfaces; clinical emphasis remains in text and borders. */
 html[data-theme="dark"] :is(.app-header, .app-bottom-nav, .app-sidebar) { background: var(--background); }
 html[data-theme="dark"] .surface-subtle { background: var(--surface-subtle); }
+html[data-theme="dark"] [data-home-anatomy] iframe { color-scheme: light; }
 html[data-theme="dark"] .app-main :is(
   [class*="bg-teal-50"], [class*="bg-teal-100"], [class*="bg-emerald-50"], [class*="bg-emerald-100"],
   [class*="bg-sky-50"], [class*="bg-sky-100"], [class*="bg-blue-50"], [class*="bg-blue-100"],
