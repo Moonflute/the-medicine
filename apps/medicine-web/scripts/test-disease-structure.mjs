@@ -44,9 +44,12 @@ test('all 22 specialty outlines have valid disease links, no duplicate bullets p
 });
 const compile=(file,deps)=>{const compiledModule={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText,{exports:compiledModule.exports,module:compiledModule,require:n=>deps[n],process,Buffer});return compiledModule.exports;};
 test('rendered overview links retain their indentation',()=>{
- const rich=compile('src/components/rich-text-lines.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'next/link':({children,...props})=>React.createElement('a',props,children)});
- const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines:['- [[Parent]]','  - [[Child]]'],bulletStyle:'plain',wikiLinks:[{term:'Child',href:'/disease/child'}]}));
- assert.match(html,/data-outline-depth="1"/);assert.match(html,/margin-inline-start:16px/);assert.match(html,/href="\/disease\/child"/);
+ for(const theme of ['light','chat','sheet','terminal']) {
+  const skin=compile('src/components/skin-document.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'@/components/theme-provider':{useAppTheme:()=>({theme})}});
+  const rich=compile('src/components/rich-text-lines.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'next/link':({children,...props})=>React.createElement('a',props,children),'@/components/skin-document':skin});
+  const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines:['- [[Parent]]','  - [[Child]]'],bulletStyle:'plain',wikiLinks:[{term:'Child',href:'/disease/child'}]}));
+  assert.match(html,/data-outline-depth="1"/,theme);assert.match(html,/margin-inline-start:16px/,theme);assert.match(html,/href="\/disease\/child"/,theme);
+ }
 });
 test('same-named disease links favor the current specialty',()=>{
  const db=compile('src/lib/webdb.ts',{'node:fs':fs,'node:path':path,'@/lib/interactive-concepts':{interactiveConcepts:[]}});
@@ -54,3 +57,4 @@ test('same-named disease links favor the current specialty',()=>{
  assert.ok(repeated.length>0);
  for(const d of repeated)assert.equal(db.getDiseaseLinks(d.specialty).find(link=>link.term===d.title)?.href,'/disease/'+d.slug,d.specialty+': '+d.title);
 });
+
