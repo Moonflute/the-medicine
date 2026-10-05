@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, ChevronLeft, FileSpreadsheet, FlaskConical, HeartPulse, House, Menu, MessageCircle, Pill, Search, Stethoscope, Terminal, X } from "lucide-react";
 import { useAppTheme } from "@/components/theme-provider";
+import { SkinAppFrame } from "@/components/skin-app-frame";
 import { AuthStatus } from "@/components/auth-status";
 import { LearningSyncProvider } from "@/components/learning-sync-provider";
 import { AudioReviewProvider } from "@/components/audio-review-provider";
@@ -51,7 +52,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     const observer = new ResizeObserver(measure);
     observer.observe(header);
     return () => observer.disconnect();
-  }, []);
+  }, [theme, immersive]);
 
   useEffect(() => {
     const openSearch = (event: KeyboardEvent) => {
@@ -86,8 +87,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <AudioReviewProvider>
     <div className={`app-shell min-h-screen bg-slate-100 text-slate-950 ${immersive ? "immersive-shell" : ""} ${atlas ? "atlas-shell" : ""}`} data-page={isHome ? "home" : "content"} data-view={documentPage ? "document" : "browse"}>
       <LearningSyncProvider />
-      <div className="mx-auto flex min-h-screen max-w-[1680px]">
-        <aside className="app-sidebar sticky top-0 hidden h-screen w-64 shrink-0 self-start border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block">
+      <SkinAppFrame theme={theme} pathname={pathname} headerRef={headerRef} version={version} immersive={immersive}
+        conversation={documentPage || pathname.startsWith("/review/qbank/session")}
+        normalRail={<>
           <Link href="/" className="mb-7 flex items-center gap-3 px-2">
             <div className="flex h-10 w-10 items-center justify-center bg-teal-500 text-white" style={{ borderRadius: 8 }}>
               {theme === "chat" ? <MessageCircle className="h-5 w-5" /> : theme === "sheet" ? <FileSpreadsheet className="h-5 w-5" /> : theme === "terminal" ? <Terminal className="h-5 w-5" /> : <Activity className="h-5 w-5" />}
@@ -117,10 +119,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               );
             })}
           </nav>
-        </aside>
-
-        <div className="flex min-h-screen min-w-0 flex-1 flex-col">
-          <header ref={headerRef} className="app-header sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
+        </>}
+        normalHeader={<>
             <div className="flex h-16 items-center justify-between gap-3 px-4 sm:px-6 xl:px-8">
               <div className="flex min-w-0 items-center gap-3">
                 {specialTheme && !isHome ? <Link href="/" className="skin-home-link" aria-label="홈으로"><ChevronLeft className="h-5 w-5" /></Link> : null}
@@ -170,7 +170,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 </nav>
               </div>
             )}
-          </header>
+          </>}
+        normalExtras={<>
 
           {theme === "sheet" && !immersive ? <div className="sheet-toolbar" aria-label="문서 도구 모음">
             <span className="sheet-file-icon"><FileSpreadsheet className="h-4 w-4" />문서</span>
@@ -180,12 +181,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           {theme === "sheet" && !immersive ? <div className="sheet-formula-bar"><span className="sheet-cell-name">A1</span><span className="sheet-fx" aria-hidden="true">ƒx</span><span className="sheet-formula-value">{isHome ? "문서 목록" : title}</span></div> : null}
           {theme === "terminal" && !immersive ? <div className="terminal-status"><span>LOCAL / READ MODE</span><span>UTF-8 · READY</span></div> : null}
 
-          <main data-personal-highlight-root className="app-main flex-1 px-4 py-6 sm:px-6 xl:px-8">
-            <div className="mx-auto max-w-7xl">{children}</div>
-          </main>
-          <PersonalHighlighter />
-
-          <nav className="app-bottom-nav sticky bottom-0 z-40 border-t border-slate-200 bg-white/95 px-3 py-2 backdrop-blur xl:hidden" aria-label="주 메뉴">
+          </>}
+        normalFooter={<>
             <div className="grid grid-cols-7 gap-1">
               {navItems.map((item, index) => {
                 const active = isNavItemActive(pathname, item.href);
@@ -205,10 +202,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 );
               })}
             </div>
-          </nav>
-        </div>
-      </div>
+          </>}
+      >{children}</SkinAppFrame>
+      <PersonalHighlighter />
     </div>
     </AudioReviewProvider>
   );
 }
+

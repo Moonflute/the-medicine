@@ -1,3 +1,4 @@
+import { SkinDocumentSections } from "@/components/skin-document";
 import { ContentMetadata } from "@/components/content-metadata";
 import Link from "next/link";
 import { DocumentToolbar } from "@/components/document-toolbar";
@@ -233,20 +234,12 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
         ) : null}
       </section>
 
-      <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
-        <div className="space-y-4">
-          {note.sections.map((section) => (
-            <section key={section.title} className="rounded-lg border border-slate-200 p-4">
-              <h3 className="font-medium text-slate-950">{section.title}</h3>
-              <RichTextLines
-                lines={section.content}
-                className="mt-2 space-y-2 text-sm leading-6 text-slate-700"
-                bulletStyle="plain"
-              />
-            </section>
-          ))}
-        </div>
-      </section>
+      <div className="skin-domain-sections">
+        <SkinDocumentSections className="space-y-4" plainSectionClassName="rounded-lg border border-slate-200 p-4" sections={note.sections.map((section, index) => ({
+          id: `domain-${note.slug}-section-${index}`, title: section.title,
+          content: <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" bulletStyle="plain" />,
+        }))} />
+      </div>
       {antibioticEntry && infectionSpecialty ? <AntibioticClinicalLinks antibioticId={antibioticEntry.id} pathways={infectionPathways} specialtySlug={infectionSpecialty.slug} /> : null}
       <MicrobiologyBacklinks targetType="drug" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />
@@ -254,5 +247,6 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
     </div>
   );
 }
+
 
 

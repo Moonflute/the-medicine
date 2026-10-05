@@ -3,6 +3,7 @@ import atlasMappings from "@/generated/atlas-links.json";
 
 import { useMemo } from "react";
 import Link from "next/link";
+import { SkinDocumentIntro, SkinDocumentSections } from "@/components/skin-document";
 import { DocumentToolbar } from "@/components/document-toolbar";
 import { DocumentToc } from "@/components/document-toc";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
@@ -88,7 +89,7 @@ export function DiseaseCard({
             {atlasMapping ? <Link href={"/atlas/?" + new URLSearchParams({organ:atlasMapping.organId,disease:note.slug}).toString()} className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-teal-200 bg-teal-50 text-sm font-semibold text-teal-800 hover:bg-teal-100" aria-label={displayTitle+" 3D로 보기"} title="3D로 보기">3D</Link> : null}
             <ReviewSaveButton item={reviewItem} compact />
       </DocumentToolbar>}
-      <div className="border-b border-slate-200 p-5 sm:p-6">
+      <SkinDocumentIntro title={compact ? "" : displayTitle} category={note.specialty}><div className="border-b border-slate-200 p-5 sm:p-6">
         <div className="flex items-start justify-between gap-4">
           <div className="min-w-0">
             <div className="eyebrow">{note.specialty}</div>
@@ -119,7 +120,7 @@ export function DiseaseCard({
             )}
           </div>
         ) : null}
-      </div>
+      </div></SkinDocumentIntro>
 
       {expanded && sectionItems.length > 1 && <DocumentToc key={tocId} id={tocId} items={sectionItems} />}
 
@@ -159,26 +160,16 @@ export function DiseaseCard({
       ) : null}
 
       {expanded ? (
-        <div className="clinical-sections grid gap-3 bg-slate-50/70 p-4 sm:p-5">
-          {note.sections.slice(0, compact ? 2 : note.sections.length).map((section, index) => (
-            <section id={sectionItems[index].id} tabIndex={-1} key={sectionItems[index].id} className="clinical-section scroll-mt-20 focus-visible:outline-teal-600 border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4" style={{ borderRadius: 8 }}>
-              <div className="mb-3 flex items-center gap-2 text-sm font-semibold text-slate-950">
-                <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-slate-500" />
-                {section.title}
-              </div>
-              <RichTextLines
-                lines={stripEditorialLines(section.content).slice(0, compact ? 6 : section.content.length)}
-                className="space-y-2.5"
-                bulletStyle="plain"
-                termLinks={ccLinks}
-                wikiLinks={diseaseLinks}
-              />
-            </section>
-          ))}
-        </div>
+        <SkinDocumentSections className="clinical-sections grid gap-3 bg-slate-50/70 p-4 sm:p-5" plainSectionClassName="clinical-section scroll-mt-20 focus-visible:outline-teal-600 border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4 rounded-lg" sections={note.sections.map((section, index) => ({
+          id: sectionItems[index].id,
+          title: section.title,
+          icon: <DiseaseSectionIcon title={section.title} />,
+          content: <RichTextLines lines={stripEditorialLines(section.content)} className="space-y-2.5" bulletStyle="plain" termLinks={ccLinks} wikiLinks={diseaseLinks} />,
+        }))} />
       ) : null}
 
     </article>
   );
 }
+
 

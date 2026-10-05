@@ -1,9 +1,12 @@
 "use client";
 
+import { SkinPanel } from "@/components/skin-panel";
+
 import { correctAnswers, gradeQuestion, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
 import { remainingQuestions, sessionWrongIds } from "@/lib/qbank-session-results";
 import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
+import { SkinQuestionWorkspace, SkinQuestionChoices, SkinQuestionAction } from "@/components/skin-question";
 import { DocumentToolbar } from "@/components/document-toolbar";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { readMockExam, type MockExamState } from "@/lib/mock-exam";
@@ -17,7 +20,7 @@ import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
 import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
-import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, Copy, Info, XCircle } from "lucide-react";
+import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
 import {
   loadQbankState,
   isQbankProgressedInCurrentView,
@@ -681,12 +684,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const rate = gradedCount ? Math.round((correctCount / gradedCount) * 100) : 0;
     return (
       <div className="space-y-5">
-        <section className="surface p-7 text-center">
+        <SkinPanel className="surface p-7 text-center" title="풀이 결과" ordinal={1}>
           <div className="eyebrow">Session complete</div>
           <h1 className="mt-3 text-3xl font-semibold">{correctCount} / {gradedCount}</h1>
           {specialtyResults.length > 0 ? <div className="mx-auto mt-5 max-w-md rounded-lg border border-slate-200 bg-white p-3 text-left text-sm">{specialtyResults.map(([specialty, result]) => <div key={specialty} className="flex justify-between gap-4 py-1"><span>{specialty}</span><span>{result.correct}/{result.total}</span></div>)}</div> : null}
           <p className="mt-2 text-slate-600">정답률 {rate}% · 채점 제외 {answers.length - gradedCount}문항{remaining.remaining.length > 0 ? ` · 미응답 ${remaining.unanswered}문항 · 선택 후 미제출 ${remaining.unsubmitted}문항` : ""}</p>
-        </section>
+        </SkinPanel>
         <div className="flex flex-wrap justify-center gap-3">
           <Link href="/review/qbank/stats" className="secondary-action">학습 통계</Link>
           <Link href="/review/qbank" className="secondary-action"><ArrowLeft className="h-4 w-4" />문제은행</Link>
@@ -735,33 +738,30 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </div>
       </section>}
 
-      <article data-highlight-document={`qbank:${current.id}`} className="surface p-5 sm:p-7">
+      <article data-highlight-document={`qbank:${current.id}`} className="skin-q-article surface p-5 sm:p-7">
         <DocumentToolbar title={`${currentIndex + 1}번 · ${practiceQuestionLabel(current)}`} className="document-toolbar--inset"><QbankEditButton question={current} onSaved={payload => setQuestions(previous => previous.map(item => item.id === payload.id ? { ...item, ...payload } : item))} /><details className="relative"><summary className="secondary-action h-9 w-9 cursor-pointer list-none !px-0" aria-label="문제 ID 보기" title="문제 ID 보기"><Info className="h-4 w-4" /></summary><div className="absolute right-0 z-20 mt-2 w-64 rounded-lg border border-slate-200 bg-white p-3 shadow-lg"><p className="text-xs font-medium text-slate-500">문제 ID</p><div className="mt-1.5 flex items-center gap-2"><code className="min-w-0 flex-1 truncate rounded bg-slate-100 px-2 py-1.5 text-xs text-slate-700">{current.id}</code><button type="button" onClick={() => void navigator.clipboard?.writeText(current.id)} className="secondary-action h-8 w-8 shrink-0 !px-0" aria-label="문제 ID 복사" title="문제 ID 복사"><Copy className="h-3.5 w-3.5" /></button></div></div></details><button type="button" onClick={toggleBookmark} className="secondary-action h-9 w-9 !px-0" aria-label={bookmarked ? "북마크 해제" : "북마크 저장"} aria-pressed={bookmarked} title={bookmarked ? "북마크 해제" : "북마크 저장"}>
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}
           </button>
         </DocumentToolbar>
         <div className="mt-3 flex flex-wrap items-center gap-2"><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</div>
-        <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>
+        <SkinQuestionWorkspace number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length}
+          hint={selectionHint(current)}
+          answerText={displayedOptions.filter(key => selectedAnswers(selected).includes(key)).map(key => `${OPTION_LABELS[displayedOptions.indexOf(key)]}. ${current.options[key] ?? ""}`).join("\n")}
+          question={        <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>
           <div>
             <p data-highlight-block="question" className={`${current.figures?.length ? "" : "mt-6 "}whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base`}>{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
           </div>
           {current.figures?.length ? <aside className="space-y-4">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}</aside> : null}
-          <div className={current.figures?.length ? "lg:col-span-2" : ""}>
-            {selectionHint(current) && <p className="mt-5 text-sm font-medium text-teal-700">{selectionHint(current)}</p>}
-            <div className="mt-7 grid gap-3">
-              {displayedOptions.map((key, position) => {
-                const isCorrect = submitted && correctAnswers(current).includes(key);
-                const isWrong = submitted && gradeQuestion(current, selected) === false && selectedAnswers(selected).includes(key) && !correctAnswers(current).includes(key);
-                const isSelected = selectedAnswers(selected).includes(key);
-                return <button key={key} type="button" disabled={submitted} aria-pressed={isSelected} onClick={() => setSelected(value => toggleSelection(current, value, key))} className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"}`}><span className="font-semibold">{OPTION_LABELS[position]}.</span><span data-highlight-block={`option:${key}`}>{current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key]}</span></button>;
-              })}
-            </div>
-            <div className="mt-2 flex justify-end">
-              <QbankCopyButton key={`question:${current.id}`} text={qbankQuestionCopyText(current, displayedOptions)} label="문제와 보기 텍스트 복사" title="문제와 보기 텍스트 복사 · 이미지는 제외" iconOnly />
-            </div>
-          </div>
-
-        {submitted ? (
+        </div>}
+          choices={<SkinQuestionChoices disabled={submitted} onSelect={key => setSelected(value => toggleSelection(current, value, key))} choices={displayedOptions.map((key, position) => ({
+            key, label: OPTION_LABELS[position],
+            text: current.sourceSplit === "private-scan" ? reflowOcrText(current.options[key] ?? "") : current.options[key] ?? "",
+            selected: selectedAnswers(selected).includes(key),
+            correct: submitted && correctAnswers(current).includes(key),
+            wrong: submitted && gradeQuestion(current, selected) === false && selectedAnswers(selected).includes(key) && !correctAnswers(current).includes(key),
+          }))} />}
+          copy={<QbankCopyButton key={`question:${current.id}`} text={qbankQuestionCopyText(current, displayedOptions)} label="문제와 보기 텍스트 복사" title="문제와 보기 텍스트 복사 · 이미지는 제외" iconOnly />}
+          response={submitted ? (
           <div className={`mt-6 rounded-lg border p-4 lg:col-span-2 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="float-right rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[10px] font-medium text-slate-600 transition hover:border-rose-300 hover:text-rose-700">오답 노트에서 제거</button> : null}
             <div className="flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
@@ -777,13 +777,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             </div>
           </div>
         ) : null}
-        </div>
-
-        <div className="mt-6 flex justify-end">
-          {submitted ? <button type="button" onClick={next} className="primary-action">{currentIndex + 1 === questions.length ? "결과 보기" : "다음 문제"}<ChevronRight className="h-4 w-4" /></button> : <button type="button" onClick={submit} className="primary-action">{selected ? "답안 제출" : "모름으로 제출"}</button>}
-        </div>
+          actions={<SkinQuestionAction submitted={submitted} unknown={!selected} last={currentIndex + 1 === questions.length} onSubmit={submit} onNext={next} />}
+        />
       </article>
     </div>
   );
 }
-

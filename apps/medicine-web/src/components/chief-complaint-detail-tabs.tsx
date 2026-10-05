@@ -7,6 +7,7 @@ import { BookOpenText, RotateCcw } from "lucide-react";
 import { WARD_CATEGORY } from "@/lib/cc-categories";
 import type { ChiefComplaintExamSlot, ChiefComplaintNote, DiseaseSection, TermLink } from "@/lib/webdb";
 import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
+import { SkinDocumentSections } from "@/components/skin-document";
 import { RichTextLines } from "@/components/rich-text-lines";
 
 type ViewKey = "concept" | "outpatient" | "inpatient" | "emergency";
@@ -331,7 +332,7 @@ export function ChiefComplaintDetailTabs({
   const sections = useMemo(() => getViewSections(note, activeView), [note, activeView]);
 
   return (
-    <div className="space-y-6">
+    <div className="cc-themed-document space-y-6">
       <ChiefComplaintDocumentHeader title={note.title} actions={actions}>
             {views.map((view) => {
               const selected = activeView === view.key;
@@ -354,18 +355,16 @@ export function ChiefComplaintDetailTabs({
             })}
       </ChiefComplaintDocumentHeader>
 
-      <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
-        <div className="mb-3 text-xs uppercase text-slate-500">{views.find((view) => view.key === activeView)?.label}</div>
-        <div className="space-y-4">
-          {sections.map((section) => (
-            <section key={activeView + "-" + section.title} className="rounded-lg border border-slate-200 p-4">
-              <h3 className="font-medium text-slate-950">{displayTitle(section, activeView)}</h3>
-              <SectionContent section={section} view={activeView} note={note} diseaseLinks={diseaseLinks} />
-            </section>
-          ))}
-        </div>
-      </section>
+      <div className="cc-document-body rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
+        <div className="cc-view-label mb-3 text-xs uppercase text-slate-500">{views.find((view) => view.key === activeView)?.label}</div>
+        <SkinDocumentSections className="space-y-4" plainSectionClassName="rounded-lg border border-slate-200 p-4" sections={sections.map((section, index) => ({
+          id: "cc-" + activeView + "-section-" + index,
+          title: displayTitle(section, activeView),
+          content: <SectionContent section={section} view={activeView} note={note} diseaseLinks={diseaseLinks} />,
+        }))} />
+      </div>
       {relatedContent}
     </div>
   );
 }
+

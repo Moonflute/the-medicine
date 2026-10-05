@@ -1,6 +1,7 @@
 ﻿import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { SkinTextBlocks, type SkinTextBlock } from "@/components/skin-document";
 import type { TermLink } from "@/lib/webdb";
 
 type BulletStyle = "plain" | "card";
@@ -399,19 +400,14 @@ export function RichTextLines({
   termLinks?: TermLink[];
   wikiLinks?: TermLink[];
 }) {
-  const blocks = parseBlocks(lines);
-
-  return (
-    <div className={`min-w-0 ${className}`.trim()}>
-      {blocks.map((block, index) => (
-        <div key={index}>
-          {block.type === "group"
-            ? renderGroup(block.label, block.items, termLinks, wikiLinks)
-            : block.type === "table"
-              ? renderTable(block.headers, block.rows, termLinks, wikiLinks)
-              : renderLine(block.line, bulletStyle, termLinks, wikiLinks)}
-        </div>
-      ))}
-    </div>
-  );
+  const blocks: SkinTextBlock[] = parseBlocks(lines).map((block) => ({
+    kind: block.type === "group" ? "group" : block.type === "table" ? "table" : !block.line.trim() ? "space" : /^(?:#{3,4}\s|---$)/.test(block.line.trim()) ? "heading" : "text",
+    label: block.type === "group" ? plainText(block.label).replace(/[:：]\s*$/, "") : undefined,
+    content: block.type === "group"
+      ? renderGroup(block.label, block.items, termLinks, wikiLinks)
+      : block.type === "table"
+        ? renderTable(block.headers, block.rows, termLinks, wikiLinks)
+        : renderLine(block.line, bulletStyle, termLinks, wikiLinks),
+  }));
+  return <SkinTextBlocks blocks={blocks} className={className} />;
 }

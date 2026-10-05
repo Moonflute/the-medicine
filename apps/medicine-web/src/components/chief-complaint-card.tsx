@@ -1,3 +1,4 @@
+import { SkinEntry } from "@/components/skin-entry";
 import type { ChiefComplaintNote } from "@/lib/webdb";
 
 export function ChiefComplaintCard({
@@ -17,8 +18,9 @@ export function ChiefComplaintCard({
   if (!href) return body;
 
   return (
-    <a href={href} className="block transition hover:-translate-y-0.5">
+    <SkinEntry href={href} title={note.title} meta={note.category} className="block transition hover:-translate-y-0.5">
       {body}
-    </a>
+    </SkinEntry>
   );
 }
+

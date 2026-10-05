@@ -1,3 +1,4 @@
+import { SkinDocumentSections } from "@/components/skin-document";
 import { ContentMetadata } from "@/components/content-metadata";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -92,14 +93,12 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
             ))}
           </div>
         ) : null}
-          <div className="mt-6 space-y-6">
-            {visibleSections.map((section) => (
-              <section key={section.title} className="space-y-3">
-                <h3 className="font-medium text-slate-950">{section.title}</h3>
-                <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-slate-700" bulletStyle="plain" />
-              </section>
-            ))}
-          </div>
+      <div className="skin-domain-sections">
+        <SkinDocumentSections className="space-y-4" plainSectionClassName="rounded-lg border border-slate-200 p-4" sections={visibleSections.map((section, index) => ({
+          id: `domain-${note.slug}-section-${index}`, title: section.title,
+          content: <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" bulletStyle="plain" />,
+        }))} />
+      </div>
       </section>
       <ContentMetadata meta={note.contentMeta} />
       {note.contentMeta?.sources?.length ? (
@@ -123,3 +122,4 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
     </div>
   );
 }
+

@@ -1,0 +1,75 @@
+"use client";
+
+import { useState, type ReactNode, type RefObject } from "react";
+import Link from "next/link";
+import { ChevronLeft, Menu, MessageCircle, Search, X } from "lucide-react";
+import { AuthStatus } from "@/components/auth-status";
+import { skinDestination, skinDestinations } from "@/lib/skin-navigation";
+import type { AppTheme } from "@/lib/themes";
+
+export function SkinAppFrame({ theme, pathname, headerRef, version, children, conversation, immersive, normalRail, normalHeader, normalFooter, normalExtras }: {
+  theme: AppTheme; pathname: string; headerRef: RefObject<HTMLElement | null>;
+  version: string; children: ReactNode; conversation: boolean; immersive: boolean;
+  normalRail: ReactNode; normalHeader: ReactNode; normalFooter: ReactNode; normalExtras: ReactNode;
+}) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const special = theme === "chat" || theme === "sheet" || theme === "terminal";
+  const current = skinDestination(pathname);
+  const isHome = pathname === "/";
+  const active = (href: string) => href === "/" ? isHome : href === current.href;
+  const menu = <nav className="skin-drawer-links" aria-label="전체 메뉴">
+    {skinDestinations.map((item, index) => <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined} onClick={() => setMenuOpen(false)}>
+      <span className="skin-nav-marker" aria-hidden="true">{theme === "terminal" ? String(index + 1).padStart(2, "0") : theme === "sheet" ? String.fromCharCode(65 + index) : item.initials}</span>
+      <span>{theme === "terminal" ? item.code : item.title}</span>
+      <small>{theme === "terminal" ? item.short : item.summary}</small>
+    </Link>)}
+  </nav>;
+
+  return <div className={special ? `skin-frame skin-frame--${theme}` : "mx-auto flex min-h-screen max-w-[1680px]"} data-conversation={conversation} data-immersive={immersive}>
+    <aside className={special ? "skin-desktop-rail" : "app-sidebar sticky top-0 hidden h-screen w-64 shrink-0 self-start border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block"}>
+      {special ? <>
+      <Link href="/" className="skin-rail-title">{theme === "chat" ? "채팅" : theme === "sheet" ? "통합문서" : "NOTES.EXE"}</Link>
+      {menu}
+      <span className="skin-rail-version">v {version}</span>
+      </> : normalRail}
+    </aside>
+    <div className={special ? "skin-frame-body" : "flex min-h-screen min-w-0 flex-1 flex-col"}>
+      <header ref={headerRef} className={special ? "app-header skin-app-header" : "app-header sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur"}>
+        {special ? <>
+        <div className="skin-header-line">
+          {theme === "chat" ? <>
+            {isHome ? <MessageCircle className="skin-header-icon" aria-hidden="true" /> : <Link href={current.href} className="skin-icon-button" aria-label="목록으로"><ChevronLeft size={20} /></Link>}
+            <div className="skin-header-heading"><strong>{isHome ? "채팅" : current.title}</strong><small>{isHome ? "자료를 여는 대화" : conversation ? "자료 대화방" : "대화방 목록"}</small></div>
+          </> : theme === "sheet" ? <>
+            <Link href="/" className="skin-workbook-icon" aria-label="홈으로">X</Link>
+            <div className="skin-header-heading"><strong>업무 노트.xlsx</strong><small>{current.title}</small></div>
+          </> : <>
+            <Link href="/" className="skin-console-mark" aria-label="홈으로">&gt;_</Link>
+            <div className="skin-header-heading"><strong>NOTES.EXE</strong><small>{current.code} / {conversation ? "READ" : "DIRECTORY"}</small></div>
+          </>}
+          <div className="skin-header-actions">
+            <AuthStatus />
+            <Link href="/search" className="skin-icon-button" aria-label="검색"><Search size={18} /></Link>
+            <button type="button" className="skin-icon-button" aria-label="전체 메뉴" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(value => !value)}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button>
+          </div>
+        </div>
+        {theme === "sheet" ? <>
+          <nav className="skin-ribbon" aria-label="통합문서 도구"><Link href="/">파일</Link><Link href={current.href} aria-current="page">{isHome ? "홈" : current.short}</Link><Link href="/search">찾기</Link><Link href="/review">보관함</Link><span>읽기</span></nav>
+          <div className="skin-formula"><span>A1</span><i aria-hidden="true">ƒx</i><output>{isHome ? "자료 목록" : current.title}</output></div>
+        </> : theme === "terminal" ? <div className="skin-console-path"><span>C:\NOTES\{current.code}&gt;</span><span>v{version} · UTF-8</span></div> : null}
+        {menuOpen ? <div id="skin-app-menu" className="skin-app-menu">{menu}</div> : null}
+        </> : normalHeader}
+      </header>
+      {!special ? normalExtras : null}
+      <main key="main-content" data-personal-highlight-root className={special ? "app-main skin-page" : "app-main flex-1 px-4 py-6 sm:px-6 xl:px-8"}><div className={special ? "skin-page-content" : "mx-auto max-w-7xl"}>{children}</div></main>
+      {special && theme === "chat" ? <nav className="skin-chat-dock app-bottom-nav" aria-label="주 메뉴">
+        {[skinDestinations[0], skinDestinations[1], skinDestinations[2], skinDestinations[6]].map(item => <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined}><span className="skin-dock-glyph" aria-hidden="true">{item.initials}</span><span>{item.short}</span></Link>)}
+        <button type="button" aria-label="전체 메뉴" aria-expanded={menuOpen} aria-controls="skin-app-menu" onClick={() => setMenuOpen(value => !value)}><span className="skin-dock-glyph" aria-hidden="true">···</span><span>더보기</span></button>
+      </nav> : special && theme === "sheet" ? <nav className="skin-workbook-tabs app-bottom-nav" aria-label="자료 시트">
+        {skinDestinations.map(item => <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined}>{item.href === "/" ? "목록" : item.short}</Link>)}
+      </nav> : special ? <nav className="skin-console-dock app-bottom-nav" aria-label="주 메뉴">
+        <Link href="/">[HOME]</Link><Link href="/search">[FIND]</Link><Link href="/review/qbank">[Q]</Link><button type="button" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(value => !value)}>[MENU]</button>
+      </nav> : <nav className="app-bottom-nav sticky bottom-0 z-40 border-t border-slate-200 bg-white/95 px-3 py-2 backdrop-blur xl:hidden" aria-label="주 메뉴">{normalFooter}</nav>}
+    </div>
+  </div>;
+}

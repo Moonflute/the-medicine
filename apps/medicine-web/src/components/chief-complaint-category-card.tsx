@@ -1,3 +1,4 @@
+import { SkinCategory } from "@/components/skin-category";
 import Link from "next/link";
 import type { ChiefComplaintCategorySummary, ChiefComplaintGroupSummary, ChiefComplaintNote } from "@/lib/webdb";
 function NaturalTitleBreaks({ title }: { title: string }) {
@@ -23,6 +24,9 @@ export function ChiefComplaintCategoryCard({
   groups?: ChiefComplaintGroupSummary[];
 }) {
   return (
+    <SkinCategory title={category.name} href={groups ? `/cc/category/${category.slug}` : undefined} entries={groups
+      ? groups.map(group => ({ href: `/cc/category/${category.slug}/group/${group.slug}`, title: group.name, summary: `자료 ${group.count}개` }))
+      : notes.map(note => ({ href: `/cc/category/${category.slug}/${note.slug}`, title: note.title, summary: category.name }))}>
     <section className="list-tile p-4 sm:p-5">
       <h2 className="text-lg font-semibold text-slate-950">
         {groups ? <Link href={`/cc/category/${category.slug}`} className="hover:text-teal-800">{category.name}</Link> : category.name}
@@ -47,5 +51,6 @@ export function ChiefComplaintCategoryCard({
         ))}
       </div>}
     </section>
+    </SkinCategory>
   );
 }

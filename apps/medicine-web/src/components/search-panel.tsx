@@ -2,9 +2,10 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
-import Link from "next/link";
+import { SkinEntry } from "@/components/skin-entry";
 import { useRouter } from "next/navigation";
-import { ArrowRight, Clock3, FileText, MessageCircle, Search, Trash2 } from "lucide-react";
+import { ArrowRight, Clock3, Search, Trash2 } from "lucide-react";
+import { SkinHomeDirectory } from "@/components/skin-home-directory";
 import { useAppTheme } from "@/components/theme-provider";
 import type { SearchEntry } from "@/lib/types";
 
@@ -107,16 +108,17 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
   const specialTheme = theme === "chat" || theme === "sheet" || theme === "terminal";
   const [query, setQuery] = useState(initialQuery);
   const [activeResultIndex, setActiveResultIndex] = useState(0);
-  const [recentSearches, setRecentSearches] = useState<string[]>(() => {
-    if (typeof window === "undefined") return [];
+  const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  useEffect(() => {
     try {
-      const saved = JSON.parse(window.localStorage.getItem(RECENT_SEARCHES_KEY) ?? "[]") as string[];
-      return saved.filter((item) => typeof item === "string").slice(0, 6);
+      const saved: unknown = JSON.parse(window.localStorage.getItem(RECENT_SEARCHES_KEY) ?? "[]");
+      // Browser history must be restored after hydration so the server and first client render agree.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setRecentSearches(Array.isArray(saved) ? saved.filter((item): item is string => typeof item === "string").slice(0, 6) : []);
     } catch {
-      window.localStorage.removeItem(RECENT_SEARCHES_KEY);
-      return [];
+      // Search remains usable when browser storage is unavailable or malformed.
     }
-  });
+  }, []);
   const inputRef = useRef<HTMLInputElement>(null);
   const isComposingRef = useRef(false);
   const parsedQuery = useMemo(() => parseSearchQuery(query), [query]);
@@ -196,24 +198,11 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
     <section className={`search-panel relative w-full ${className}`.trim()}>
       <label className="search-input-bar surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
         {theme === "terminal" ? <span className="terminal-prompt" aria-hidden="true">C:\&gt;</span> : <Search className="h-5 w-5 shrink-0 text-slate-500" />}
-        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} onCompositionStart={() => { isComposingRef.current = true; }} onCompositionEnd={() => { isComposingRef.current = false; }} placeholder={specialTheme ? "노트 검색" : "\uC608: disease: \uD3D0\uB834, drug: metformin"} aria-label="자료 검색" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" />
+        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} onCompositionStart={() => { isComposingRef.current = true; }} onCompositionEnd={() => { isComposingRef.current = false; }} placeholder={specialTheme ? (theme === "chat" ? "대화방과 자료 검색" : theme === "sheet" ? "통합문서에서 찾기" : "FIND 자료 이름") : "\uC608: disease: \uD3D0\uB834, drug: metformin"} aria-label="자료 검색" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" />
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
 
-      {specialTheme && !hasSearch ? <div className="skin-home-notes">
-        <div className="skin-home-notes-label">{theme === "chat" ? "노트 모아보기" : theme === "terminal" ? "DIRECTORY / NOTES" : "문서 목록"}</div>
-        {[
-          { href: "/cc", title: "증상 노트", summary: "증상별 확인 항목과 접근 순서", initials: "증상" },
-          { href: "/specialties", title: "진료과 노트", summary: "진료과별 질환과 참고 자료", initials: "진료" },
-          { href: "/drugs", title: "약물 노트", summary: "약물 정보와 용량 확인", initials: "약물" },
-          { href: "/lab-img", title: "검사 노트", summary: "검사 수치와 영상 참고 자료", initials: "검사" },
-          { href: "/review", title: "내 노트", summary: "저장한 자료와 복습 기록", initials: "저장" },
-        ].map((note, index) => <Link key={note.href} href={note.href} className="skin-home-note">
-          <span className="skin-note-avatar" aria-hidden="true">{theme === "sheet" ? index + 1 : theme === "terminal" ? `[${index + 1}]` : note.initials}</span>
-          <span className="skin-note-copy"><span className="skin-note-title">{note.title}</span><span className="skin-note-summary">{note.summary}</span></span>
-          {theme === "chat" ? <MessageCircle className="h-4 w-4 skin-note-end" /> : <FileText className="h-4 w-4 skin-note-end" />}
-        </Link>)}
-      </div> : null}
+      {specialTheme && !hasSearch ? <SkinHomeDirectory /> : null}
 
       {!hasSearch && recentSearches.length > 0 ? (
         <div className="mt-4">
@@ -237,7 +226,7 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
                 const resultIndex = displayedResults.indexOf(entry);
                 const isActive = resultIndex === activeResultIndex;
                 return (
-                <Link key={`${entry.type}:${entry.slug}`} id={`search-result-${resultIndex}`} href={entry.href} onClick={rememberSearch} onMouseEnter={() => setActiveResultIndex(resultIndex)} className={`search-result list-tile group flex items-center justify-between gap-4 px-4 py-3 ${isActive ? "border-teal-500 bg-teal-50" : ""}`}>
+                <SkinEntry key={`${entry.type}:${entry.slug}`} id={`search-result-${resultIndex}`} href={entry.href} title={entry.title} summary={entry.quickSummary} meta={`${TYPE_LABELS[entry.type] ?? entry.type} · ${entry.category}`} ordinal={resultIndex + 1} active={isActive} onClick={rememberSearch} onMouseEnter={() => setActiveResultIndex(resultIndex)} className={`search-result list-tile group flex items-center justify-between gap-4 px-4 py-3 ${isActive ? "border-teal-500 bg-teal-50" : ""}`}>
                   {specialTheme ? <span className="skin-result-avatar" aria-hidden="true">{theme === "sheet" ? resultIndex + 1 : theme === "terminal" ? ">" : entry.title.slice(0, 1)}</span> : null}
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2"><div className="truncate font-semibold text-slate-950">{entry.title}</div><span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600">{TYPE_LABELS[entry.type] ?? entry.type}</span></div>
@@ -245,7 +234,7 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
                     {entry.quickSummary ? <div className="mt-1 line-clamp-2 text-sm leading-5 text-slate-700">{entry.quickSummary}</div> : null}
                   </div>
                   <ArrowRight className="h-4 w-4 shrink-0 text-slate-400 transition group-hover:text-teal-700" />
-                </Link>
+                </SkinEntry>
                 );
               })}</div>
             </section>

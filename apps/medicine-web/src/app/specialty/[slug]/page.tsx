@@ -1,3 +1,4 @@
+import { SkinEntry } from "@/components/skin-entry";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
@@ -258,7 +259,7 @@ function DiseaseLinks({ notes, specialtyLabel }: { notes: DiseaseNote[]; special
   return (
     <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
       {notes.map((note) => (
-        <Link
+        <SkinEntry title={note.displayTitle || note.title} summary={note.definition || note.overview?.[0]} meta={specialtyLabel}
           key={note.slug}
           href={`/disease/${note.slug}`}
           className={`flex items-center justify-between rounded-lg border px-4 py-3 transition ${note.groupOverview ? "border-teal-200 bg-teal-50/80 hover:border-teal-400 hover:bg-teal-50" : "border-slate-200 bg-slate-50 hover:border-slate-300 hover:bg-white"}`}
@@ -270,7 +271,7 @@ function DiseaseLinks({ notes, specialtyLabel }: { notes: DiseaseNote[]; special
             ) : null}
           </span>
           <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
-        </Link>
+        </SkinEntry>
       ))}
     </div>
   );
@@ -359,6 +360,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
     </div>
   );
 }
+
 
 
 

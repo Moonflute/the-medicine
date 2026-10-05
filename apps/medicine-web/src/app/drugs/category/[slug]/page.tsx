@@ -1,3 +1,4 @@
+import { SkinEntry } from "@/components/skin-entry";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, BrainCircuit, ChevronRight, Network } from "lucide-react";
@@ -13,14 +14,14 @@ function DrugLinks({ notes }: { notes: ReturnType<typeof getDrugs> }) {
   return (
     <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
       {notes.map((note) => (
-        <Link
+        <SkinEntry title={note.title} summary={note.summary[0]} meta={note.category}
           key={note.slug}
           href={`/drugs/${note.slug}`}
           className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 transition hover:border-slate-300 hover:bg-white"
         >
           <span className="pr-3 text-sm font-medium text-slate-950">{note.title}</span>
           <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
-        </Link>
+        </SkinEntry>
       ))}
     </div>
   );
@@ -99,3 +100,4 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
     </div>
   );
 }
+

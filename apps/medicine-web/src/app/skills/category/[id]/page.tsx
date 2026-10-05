@@ -1,3 +1,4 @@
+import { SkinEntry } from "@/components/skin-entry";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
@@ -41,7 +42,7 @@ export default async function SkillCategoryDetailPage(props: { params: Promise<{
 
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
         {category.items.map((skill, index) => (
-          <Link
+          <SkinEntry title={skill.name} meta={category.name} ordinal={index + 1}
             key={skill.id}
             href={`/skills/${skill.id}`}
             className="flex items-center justify-between rounded-lg border border-slate-200 bg-white/85 px-4 py-4 shadow-sm transition hover:border-slate-300"
@@ -53,7 +54,7 @@ export default async function SkillCategoryDetailPage(props: { params: Promise<{
               <span className="truncate font-medium text-slate-950">{skill.name}</span>
             </div>
             <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
-          </Link>
+          </SkinEntry>
         ))}
       </div>
       <ParentPageFab href="/skills" />

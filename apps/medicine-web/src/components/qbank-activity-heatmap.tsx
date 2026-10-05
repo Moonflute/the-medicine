@@ -1,5 +1,7 @@
 "use client";
 
+import { SkinPanel } from "@/components/skin-panel";
+
 import { useEffect, useMemo, useState } from "react";
 import { studyDateKey } from "@/lib/study-date";
 import { activityCalendar as calendarFor, activityStreak as streak, type RangeKey, type DayCell } from "@/lib/study-calendar";
@@ -99,7 +101,7 @@ export function QbankRangeActivityHeatmap({ compact = false }: { compact?: boole
   const correct = visible.reduce((sum, day) => sum + (activity[day.key]?.correct ?? 0), 0);
   const activeDays = visible.filter((day) => (activity[day.key]?.attempts ?? 0) > 0).length;
   const rate = attempts ? Math.round(correct / attempts * 100) : 0;
-  return <section className="surface p-5 sm:p-6" title="날짜는 한국 시간(Asia/Seoul) 기준">
+  return <SkinPanel className="surface p-5 sm:p-6" title="문제풀이 기록" ordinal={1}>
     <div className="flex flex-wrap items-start justify-between gap-4">
       <div><div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><Activity className="h-5 w-5" />{"\ubb38\uc81c\ud480\uc774 \ud65c\ub3d9"}</div><h2 className="mt-2 text-xl font-semibold text-slate-950">{calendar.title}</h2></div>
       <div className="flex flex-wrap items-start gap-5"><div className="grid grid-cols-3 gap-4 text-right text-sm"><div><div className="text-xs text-slate-500">{"\ud480\uc774"}</div><div className="font-semibold">{attempts.toLocaleString()}</div></div><div><div className="text-xs text-slate-500">{"\uc815\ub2f5\ub960"}</div><div className="font-semibold">{rate}%</div></div><div><div className="text-xs text-slate-500">{"\uc5f0\uc18d"}</div><div className="font-semibold">{streak(activity)}{"\uc77c"}</div></div></div>
@@ -109,5 +111,6 @@ export function QbankRangeActivityHeatmap({ compact = false }: { compact?: boole
     </div>
     <div className="mt-5"><CalendarSvg range={range} activity={activity} today={today} year={year} /></div>
     <div className="mt-2 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500"><span>{"\ud65c\ub3d9\uc77c"} {activeDays}{"\uc77c"}</span><div className="flex items-center gap-1.5"><span>{"\uc801\uc74c"}</span>{[0, 3, 10, 20, 40].map((value) => <span key={value} className="h-3 w-3 rounded-[3px]" style={{ backgroundColor: fill(value) }} />)}<span>{"\ub9ce\uc74c"}</span></div></div>
-  </section>;
+  </SkinPanel>;
 }
+

@@ -20,9 +20,9 @@ export const themeGroups = [
     title: "특수 테마",
     description: "익숙한 앱과 업무 문서의 화면 구성",
     themes: [
-      { id: "chat", label: "카톡 스타일", description: "채팅 목록 · 메시지 카드 · 옅은 대화 배경", swatch: "#fae100", chrome: "#ffffff" },
-      { id: "sheet", label: "엑셀 스타일", description: "녹색 문서 헤더 · 셀 구분 · 시트 탭", swatch: "#217346", chrome: "#217346" },
-      { id: "terminal", label: "DOS / 터미널", description: "검은 화면 · 흰 글자 · 개발자 콘솔", swatch: "#000000", chrome: "#000000" },
+      { id: "chat", label: "카톡 스타일", description: "자료는 대화방, 이론은 메시지, 답안은 선택해서 보내는 대화 화면", swatch: "#fae100", chrome: "#ffffff" },
+      { id: "sheet", label: "엑셀 스타일", description: "자료 목록과 답안을 셀로 읽고, 이론의 목차를 실제 시트로 전환하는 통합문서", swatch: "#217346", chrome: "#217346" },
+      { id: "terminal", label: "DOS / 터미널", description: "검정 배경과 흰 글자, 디렉터리 탐색과 번호 선택으로 읽는 콘솔", swatch: "#000000", chrome: "#000000" },
     ],
   },
 ] satisfies Array<{

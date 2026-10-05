@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { SkinEntry } from "@/components/skin-entry";
+import { SkinPanel } from "@/components/skin-panel";
 import { useEffect, useMemo, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import { LearningActivityDashboard } from "@/components/learning-activity-dashboard";
@@ -99,20 +100,20 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
         </div>
       ) : (
         <div className="grid gap-4">
-          {current.map((item) => {
+          {current.map((item, index) => {
             const key = `${item.type}|${item.id}`;
             const isSaved = savedKeys.has(key);
             const isRevealed = revealed.has(key);
             const reviewItem = "savedAt" in item ? item : null;
             return (
-              <article key={key} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
+              <SkinPanel key={key} title={tab === "saved" ? "저장 자료" : "최근 열람"} ordinal={index + 1} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div>
                     <div className="flex flex-wrap gap-2 text-xs text-slate-500">
                       <span className="pill">{TYPE_LABELS[item.type] ?? item.type}</span>
                       <span className="pill">{item.category}</span>
                     </div>
-                    <Link href={item.href} className="mt-3 block text-xl font-semibold text-slate-950 hover:text-teal-700">{item.title}</Link>
+                    <SkinEntry href={item.href} title={item.title} meta={item.category} ordinal={index + 1} className="mt-3 block text-xl font-semibold text-slate-950 hover:text-teal-700">{item.title}</SkinEntry>
                   </div>
                   <div className="flex gap-2">
                     <button type="button" onClick={() => toggleReveal(item)} className="secondary-action">
@@ -139,7 +140,7 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
                     </div>
                   </div>
                 ) : null}
-              </article>
+              </SkinPanel>
             );
           })}
         </div>
@@ -147,3 +148,4 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
     </div>
   );
 }
+

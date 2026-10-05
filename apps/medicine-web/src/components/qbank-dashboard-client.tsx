@@ -1,5 +1,7 @@
 "use client";
 
+import { SkinPanel } from "@/components/skin-panel";
+
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
@@ -364,13 +366,13 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
   return <div className="space-y-6">
-    {!relatedTarget ? <section aria-label="문제풀이 요약" className="flex flex-wrap items-center gap-x-5 gap-y-1 px-1 text-xs sm:text-sm">
+    {!relatedTarget ? <SkinPanel label="문제풀이 요약" className="flex flex-wrap items-center gap-x-5 gap-y-1 px-1 text-xs sm:text-sm" title="풀이 현황" ordinal={1}>
       <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">전체 문제</span><span className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</span></div>
       <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">풀이 완료</span><span className="font-semibold tabular-nums">{stats.attempted.toLocaleString()}</span></div>
       <div className="flex items-baseline gap-2 whitespace-nowrap text-rose-700"><span>오답</span><span className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</span></div>
-    </section> : null}
+    </SkinPanel> : null}
 
-    {!relatedTarget && (activeSessions.length > 0 || activeSessionSyncError) ? <section className="space-y-2" aria-label="진행 중인 문제 세트">
+    {!relatedTarget && (activeSessions.length > 0 || activeSessionSyncError) ? <SkinPanel className="space-y-2" label="진행 중인 문제 세트" title="진행 중인 문제 세트" ordinal={2}>
       {activeSessionSyncError ? <div role="alert" className="flex flex-wrap items-center gap-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900"><span>{activeSessionSyncError}</span><button type="button" onClick={() => setActiveSessionSyncRevision((value) => value + 1)} className="rounded border border-amber-300 bg-white px-2 py-1 font-medium hover:bg-amber-100">다시 시도</button></div> : null}
       {activeSessionSyncing ? <p role="status" className="px-1 text-xs text-slate-500">문제 세트 동기화 중…</p> : null}
       {activeSessions.map((activeSession, index) => <article key={activeSession.sessionId} className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5">
@@ -385,9 +387,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
           <button type="button" className="qbank-session-action qbank-session-action--end" disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "종료"}</button>
         </div>
       </article>)}
-    </section> : null}
+    </SkinPanel> : null}
 
-    <section className="surface p-5 sm:p-6">
+    <SkinPanel className="surface p-5 sm:p-6" title="문제 세트 구성" ordinal={3}>
       <fieldset disabled={loadedDraft !== draftKey}>
       <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
       <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
@@ -408,7 +410,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
         <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
       </div>
-      {tab !== "practice" && <section className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" aria-label="랜덤풀이 시작 설정">
+      {tab !== "practice" && <SkinPanel className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" label="랜덤풀이 시작 설정" title="출제 설정" ordinal={4}>
         <h3 className="font-semibold text-slate-900">랜덤풀이 시작</h3>
 
         <p className="mt-3 text-sm text-slate-700" role="status">{randomSources.length ? `출제 범위: ${randomSources.map(source => `${source.label} ${source.count.toLocaleString()}문항`).join(" + ")}` : "위에서 풀고 싶은 분과 또는 조건을 선택하세요."}</p>
@@ -416,16 +418,16 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <div className="mt-4 flex flex-wrap items-end gap-3"><label className="block text-sm font-medium text-slate-700">이번에 풀 문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={event => setCount(event.target.value)} aria-describedby="random-count-help" className="mt-2 block w-32 rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
         {randomPool > 0 && validCount ? <Link href={sessionHref} className="primary-action"><Play className="h-4 w-4" />{randomLabel} {drawCount}문항 랜덤으로 시작</Link> : <button disabled className="primary-action opacity-40">{randomPool ? "문항 수를 확인하세요" : "출제 범위를 선택하세요"}</button>}</div>
         <p id="random-count-help" className="mt-2 text-xs text-slate-500">{!validCount ? "문항 수는 1~100 사이의 정수로 입력하세요." : randomPool > 0 ? `선택 범위에서 ${drawCount}문항을 무작위로 뽑습니다.${Number(count) > randomPool ? " 선택한 문제가 입력 수보다 적어 모두 출제합니다." : ""}` : "선택한 범위에서 입력한 수만큼 무작위로 출제합니다. 최대 100문항입니다."}</p>
-      </section>}
+      </SkinPanel>}
 
       </fieldset>
-    </section>
+    </SkinPanel>
 
-    {!relatedTarget ? <section className="grid gap-2 sm:grid-cols-3">
+    {!relatedTarget ? <SkinPanel className="grid gap-2 sm:grid-cols-3" title="빠른 실행" ordinal={5}>
       <button type="button" onClick={() => setShowUnattemptedDialog(true)} className="list-tile flex items-center gap-2.5 px-3.5 py-3 text-left"><RotateCcw className="h-4 w-4 shrink-0 text-teal-700" /><h3 className="font-semibold">미풀이 문제</h3></button>
       <Link href={`/review/qbank/session?mode=wrong&count=${count}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><CircleAlert className="h-4 w-4 shrink-0 text-rose-700" /><h3 className="font-semibold">오답 다시 풀기</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.wrong}개</span></Link>
       <Link href={`/review/qbank/session?mode=bookmarks&count=${count}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><Bookmark className="h-4 w-4 shrink-0 text-amber-700" /><h3 className="font-semibold">북마크</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.bookmarks}개</span></Link>
-    </section> : null}
+    </SkinPanel> : null}
 
     {showUnattemptedDialog ? <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/35 p-4" role="dialog" aria-modal="true" aria-labelledby="unattempted-dialog-title">
       <div className="w-full max-w-sm rounded-xl border border-slate-200 bg-white p-5 shadow-xl">
@@ -442,3 +444,4 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     </div> : null}
   </div>;
 }
+

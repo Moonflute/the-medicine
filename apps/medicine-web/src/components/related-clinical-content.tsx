@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { SkinEntry } from "@/components/skin-entry";
+import { SkinPanel } from "@/components/skin-panel";
 import type { ClinicalRelation } from "@/lib/webdb";
 
 const GROUPS = [
@@ -40,7 +41,7 @@ export function RelatedClinicalContent({ relations, limitPerGroup = 12 }: { rela
   if (groups.length === 0) return null;
 
   return (
-    <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm sm:p-6">
+    <SkinPanel title="함께 볼 자료" className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm sm:p-6">
       <div className="flex flex-wrap items-end justify-between gap-2">
         <div>
           <div className="eyebrow">Clinical graph</div>
@@ -50,19 +51,19 @@ export function RelatedClinicalContent({ relations, limitPerGroup = 12 }: { rela
       </div>
       <div className="mt-5 grid gap-4 lg:grid-cols-2">
         {groups.map((group) => (
-          <section key={group.type} className="rounded-lg border border-slate-200 bg-slate-50/70 p-4">
+          <section key={group.type} className="skin-related-group rounded-lg border border-slate-200 bg-slate-50/70 p-4">
             <h3 className="text-sm font-semibold text-slate-800">{group.label}</h3>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {group.items.map((relation) => (
-                <Link key={`${relation.targetType}-${relation.targetId}`} href={relation.targetHref} title={relation.evidence || relation.relation} className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 transition hover:border-teal-300 hover:text-teal-800">
+            <div className="skin-related-links mt-3 flex flex-wrap gap-2">
+              {group.items.map((relation, index) => (
+                <SkinEntry key={`${relation.targetType}-${relation.targetId}`} href={relation.targetHref} title={relation.targetTitle} tooltip={relation.evidence || relation.relation} meta={relationLabel(relation)} ordinal={index + 1} className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 transition hover:border-teal-300 hover:text-teal-800">
                   <span>{relation.targetTitle}</span>
                   <span className={relation.provenance === "generated" ? "text-amber-700" : "text-teal-700"}>{relationLabel(relation)}</span>
-                </Link>
+                </SkinEntry>
               ))}
             </div>
           </section>
         ))}
       </div>
-    </section>
+    </SkinPanel>
   );
 }

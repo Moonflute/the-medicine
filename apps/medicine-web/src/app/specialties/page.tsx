@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SkinEntry } from "@/components/skin-entry";
 import {
   Activity,
   Baby,
@@ -147,7 +147,7 @@ export default function SpecialtiesPage() {
                 const SpecialtyIcon = iconByIndex[index] ?? ShieldPlus;
 
                 return (
-                  <Link
+                  <SkinEntry title={specialty.name} meta={group.title} ordinal={index}
                     key={specialty.slug}
                     href={`/specialty/${specialty.slug}`}
                     className="list-tile flex min-h-10 items-center gap-1.5 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm md:min-h-24 md:flex-col md:justify-center md:px-2 md:py-3 md:text-center lg:min-h-28"
@@ -160,7 +160,7 @@ export default function SpecialtiesPage() {
                       <SpecialtyIcon className="h-4 w-4 shrink-0 text-teal-700 md:h-7 md:w-7 lg:h-8 lg:w-8" />
                     )}
                     <span className="min-w-0 truncate md:overflow-visible md:whitespace-normal md:text-center md:leading-tight">{specialty.name}</span>
-                  </Link>
+                  </SkinEntry>
                 );
               })}
             </div>
@@ -175,14 +175,14 @@ export default function SpecialtiesPage() {
 
           <div className="grid grid-cols-3 gap-2 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8">
             {hubItems.map(({ title, href, icon: HubIcon, className, iconClassName }) => (
-              <Link
+              <SkinEntry title={title} meta="Hub"
                 key={href}
                 href={href}
                 className={`flex min-h-10 items-center gap-1.5 rounded-lg border px-2 py-2 text-xs font-semibold transition hover:shadow-sm sm:gap-2 sm:px-3 sm:text-sm md:min-h-24 md:flex-col md:justify-center md:px-2 md:py-3 md:text-center lg:min-h-28 ${className}`}
               >
                 <HubIcon className={`h-4 w-4 shrink-0 md:h-7 md:w-7 lg:h-8 lg:w-8 ${iconClassName}`} />
                 <span className="min-w-0 truncate md:overflow-visible md:whitespace-normal md:text-center md:leading-tight">{title}</span>
-              </Link>
+              </SkinEntry>
             ))}
           </div>
         </section>
@@ -190,3 +190,4 @@ export default function SpecialtiesPage() {
     </div>
   );
 }
+

@@ -1,5 +1,5 @@
 import { ContentMetadata } from "@/components/content-metadata";
-import Link from "next/link";
+import { SkinEntry } from "@/components/skin-entry";
 import type { DomainNote } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
 
@@ -47,9 +47,10 @@ export function DomainNoteCard({
   if (!href) return body;
 
   return (
-    <Link href={href} className="block transition hover:-translate-y-0.5">
+    <SkinEntry href={href} title={note.title} summary={note.summary[0]} meta={[note.category, priorityLabel, brands.slice(0, 2).join(", ")].filter(Boolean).join(" · ")} className="block transition hover:-translate-y-0.5">
       {body}
-    </Link>
+    </SkinEntry>
   );
 }
+
 
