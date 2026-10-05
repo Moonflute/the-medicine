@@ -8,7 +8,13 @@ const ThemeContext = createContext<{ theme: AppTheme; setTheme: (theme: AppTheme
 
 function getSnapshot(): AppTheme {
   const theme = document.documentElement.dataset.theme;
-  return isAppTheme(theme) ? theme : "light";
+  if (isAppTheme(theme)) return theme;
+  try {
+    const saved = localStorage.getItem(THEME_STORAGE_KEY);
+    return isAppTheme(saved) ? saved : "light";
+  } catch {
+    return "light";
+  }
 }
 
 function getServerSnapshot(): AppTheme {
@@ -51,8 +57,12 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const value = useMemo(() => ({ theme, setTheme }), [theme]);
 
   useEffect(() => {
-    const selected = themeGroups.map((group) => group.themes.find((item) => item.id === theme)).find(Boolean);
+    // Hydration recovery can replace <html> and remove the prepaint attribute.
+    const currentTheme = getSnapshot();
+    applyTheme(currentTheme);
+    const selected = themeGroups.map((group) => group.themes.find((item) => item.id === currentTheme)).find(Boolean);
     document.querySelector('meta[name="theme-color"]')?.setAttribute("content", selected?.chrome ?? "#ffffff");
+    if (currentTheme !== theme) window.dispatchEvent(new Event(THEME_EVENT));
   }, [theme]);
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
