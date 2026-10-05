@@ -12,7 +12,7 @@ export const themeGroups = [
     description: "읽기 편한 화면 색상",
     themes: [
       { id: "light", label: "라이트", description: "밝고 깔끔한 기본 화면", swatch: "#ffffff", chrome: "#ffffff" },
-      { id: "dark", label: "다크", description: "짙은 남색 배경과 편안한 밝은 글자", swatch: "#17212f", chrome: "#17212f" },
+      { id: "dark", label: "다크", description: "검정 배경과 밝은 글자", swatch: "#000000", chrome: "#000000" },
       { id: "sepia", label: "세피아", description: "따뜻한 종이색과 차분한 갈색 글자", swatch: "#eee2c9", chrome: "#f8f1e3" },
     ],
   },

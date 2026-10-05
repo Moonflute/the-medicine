@@ -1,28 +1,27 @@
 /* Theme palettes also adapt the existing Tailwind neutral utilities. */
 html[data-theme="dark"] {
   color-scheme: dark;
-  --background: #0e1520;
-  --foreground: #e7edf5;
-  --muted: #a5b3c6;
-  --line: #364459;
-  --surface: #17212f;
-  --surface-subtle: #1c2939;
+  --background: #000000;
+  --foreground: #f5f5f5;
+  --muted: #b3b3b3;
+  --line: #303030;
+  --surface: #000000;
+  --surface-subtle: #111111;
   --primary: #6ee7d0;
   --primary-strong: #115e59;
   --accent: #93c5fd;
-  --color-slate-50: #1c2939;
-  --color-slate-100: #0e1520;
-  --color-slate-200: #364459;
-  --color-slate-300: #526278;
-  --color-slate-400: #94a7be;
-  --color-slate-500: #a5b3c6;
-  --color-slate-600: #becbdb;
-  --color-slate-700: #cfdae7;
-  --color-slate-800: #dae4ef;
-  --color-slate-900: #e7edf5;
-  --color-slate-950: #f1f5fa;
+  --color-slate-50: #111111;
+  --color-slate-100: #000000;
+  --color-slate-200: #303030;
+  --color-slate-300: #525252;
+  --color-slate-400: #a3a3a3;
+  --color-slate-500: #b3b3b3;
+  --color-slate-600: #c7c7c7;
+  --color-slate-700: #d4d4d4;
+  --color-slate-800: #e5e5e5;
+  --color-slate-900: #f0f0f0;
+  --color-slate-950: #fafafa;
 }
-
 html[data-theme="sepia"] {
   --background: #eee5d4;
   --foreground: #392e25;
@@ -158,6 +157,20 @@ html:is([data-theme="dark"], [data-theme="terminal"]) .app-sidebar a:hover { bac
 
 /* Header buttons and selected actions must retain their contrast. */
 html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-teal-600"], [class~="bg-teal-700"], [class~="bg-teal-800"], [class~="bg-slate-950"]) { color: #fff; }
+
+/* Pure black surfaces; clinical emphasis remains in text and borders. */
+html[data-theme="dark"] :is(.app-header, .app-bottom-nav, .app-sidebar) { background: var(--background); }
+html[data-theme="dark"] .surface-subtle { background: var(--surface-subtle); }
+html[data-theme="dark"] .app-main :is(
+  [class*="bg-teal-50"], [class*="bg-teal-100"], [class*="bg-emerald-50"], [class*="bg-emerald-100"],
+  [class*="bg-sky-50"], [class*="bg-sky-100"], [class*="bg-blue-50"], [class*="bg-blue-100"],
+  [class*="bg-cyan-50"], [class*="bg-cyan-100"], [class*="bg-amber-50"], [class*="bg-amber-100"],
+  [class*="bg-yellow-50"], [class*="bg-yellow-100"], [class*="bg-orange-50"], [class*="bg-orange-100"],
+  [class*="bg-rose-50"], [class*="bg-rose-100"], [class*="bg-red-50"], [class*="bg-red-100"],
+  [class*="bg-pink-50"], [class*="bg-pink-100"], [class*="bg-indigo-50"], [class*="bg-indigo-100"],
+  [class*="bg-violet-50"], [class*="bg-violet-100"], [class*="bg-purple-50"], [class*="bg-purple-100"],
+  [class*="bg-green-50"], [class*="bg-green-100"], [class*="bg-lime-100"], [class*="bg-fuchsia-100"]
+) { background-color: var(--surface); }
 
 .app-bottom-nav {
   padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
