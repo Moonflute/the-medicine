@@ -2,13 +2,13 @@
 
 import { useRef, useState } from "react";
 import { useAppTheme } from "@/components/theme-provider";
-import { themeGroups } from "@/lib/themes";
+import { chatFonts, chatSkins, CHAT_TEXT_SIZES, isChatFont, isChatTextSize, themeGroups } from "@/lib/themes";
 
 export function HomeSettings() {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const [open, setOpen] = useState(false);
-  const { theme: activeTheme, setTheme } = useAppTheme();
+  const { theme: activeTheme, setTheme, chatSkin, setChatSkin, chatFont, setChatFont, chatTextSize, setChatTextSize } = useAppTheme();
   const [saveMessage, setSaveMessage] = useState("");
   const selectedTheme = themeGroups.map((group) => group.themes.find((item) => item.id === activeTheme)).find(Boolean);
 
@@ -83,6 +83,34 @@ export function HomeSettings() {
                     </button>
                   ))}
                 </div>
+                {group.title === "특수 테마" && activeTheme === "chat" ? <div className="home-settings-chat-family">
+                  <h4>카톡 테마</h4>
+                  <div className="home-settings-chat-skins" role="group" aria-label="카톡 테마">
+                    {chatSkins.map(skin => <button type="button" key={skin.id} aria-pressed={chatSkin === skin.id} className="home-settings-chat-skin" title={skin.description} onClick={() => {
+                      const saved = setChatSkin(skin.id);
+                      setSaveMessage(saved ? `${skin.label} 테마가 적용되었습니다.` : "테마가 적용되었습니다. 이 브라우저에서는 선택을 저장할 수 없어요.");
+                    }}>
+                      <span className="home-settings-chat-preview" data-chat-preview={skin.id} style={{ backgroundColor: skin.background }} aria-hidden="true"><i /><i style={{ backgroundColor: skin.bubble }} /></span>
+                      <span>{skin.label}</span>
+                    </button>)}
+                  </div>
+                  <div className="home-settings-chat-type">
+                    <label>대화 글꼴<select aria-label="대화 글꼴" value={chatFont} onChange={event => {
+                      if (isChatFont(event.target.value)) {
+                        const saved = setChatFont(event.target.value);
+                        setSaveMessage(saved ? "대화 글꼴을 저장했습니다." : "대화 글꼴이 적용되었습니다. 이 브라우저에서는 선택을 저장할 수 없어요.");
+                      }
+                    }}>{chatFonts.map(font => <option key={font.id} value={font.id}>{font.label}</option>)}</select></label>
+                    <label>글자 크기<select aria-label="대화 글자 크기" value={chatTextSize} onChange={event => {
+                      const size = Number(event.target.value);
+                      if (isChatTextSize(size)) {
+                        const saved = setChatTextSize(size);
+                        setSaveMessage(saved ? "대화 글자 크기를 저장했습니다." : "대화 글자 크기가 적용되었습니다. 이 브라우저에서는 선택을 저장할 수 없어요.");
+                      }
+                    }}>{CHAT_TEXT_SIZES.map(size => <option key={size} value={size}>{size}px{size === 15 ? " · 기본" : ""}</option>)}</select></label>
+                  </div>
+                  <div className="home-settings-chat-sample" aria-label="대화 글꼴 미리보기"><span>자료 대화방</span><p>오늘의 대화, 편하게 읽어요.<br />가나다 ABC 123</p><p>이 글꼴로 볼게요.</p></div>
+                </div> : null}
               </fieldset>
             ))}
             <p className="home-settings-selected-description">{selectedTheme?.description}</p>

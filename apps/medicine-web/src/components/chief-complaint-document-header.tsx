@@ -1,14 +1,19 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import { DocumentToolbar } from "@/components/document-toolbar";
+import { useAppTheme } from "@/components/theme-provider";
+import { SkinDocumentNotice } from "@/components/skin-document";
 
 export function ChiefComplaintDocumentHeader({ title, actions, children }: { title: string; actions: ReactNode; children: ReactNode }) {
   const sentinel = useRef<HTMLDivElement>(null);
   const header = useRef<HTMLElement>(null);
   const highlighterSlot = useRef<HTMLSpanElement>(null);
   const [compact, setCompact] = useState(false);
+  const { theme } = useAppTheme();
 
   useEffect(() => {
+    if (theme === "chat") return;
     // Register the external portal only after this header has hydrated.
     highlighterSlot.current?.setAttribute("data-highlighter-slot", "");
     const marker = sentinel.current;
@@ -38,7 +43,9 @@ export function ChiefComplaintDocumentHeader({ title, actions, children }: { tit
       window.removeEventListener("scroll", onScroll); window.removeEventListener("resize", onScroll);
       document.documentElement.style.removeProperty("--cc-header-height");
     };
-  }, []);
+  }, [theme]);
+
+  if (theme === "chat") return <><DocumentToolbar title={title}>{actions}</DocumentToolbar><SkinDocumentNotice title="진료 관점"><div className="cc-document-views" role="group" aria-label="진료 관점">{children}</div></SkinDocumentNotice></>;
 
   return <>
     <div ref={sentinel} aria-hidden="true" className="h-0" />

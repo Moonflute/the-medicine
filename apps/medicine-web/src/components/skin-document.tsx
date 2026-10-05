@@ -5,6 +5,15 @@ import { useAppTheme } from "@/components/theme-provider";
 
 export type SkinTextBlock = { kind: "text" | "heading" | "group" | "table" | "space"; label?: string; content: ReactNode };
 
+export function SkinDocumentNotice({ title, children, className = "mt-3 flex flex-wrap items-center gap-2" }: { title: string; children: ReactNode; className?: string }) {
+  const { theme } = useAppTheme();
+  if (theme !== "chat") return <div className={className}>{children}</div>;
+  return <details className="chat-pinned-notice">
+    <summary><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m3 9 12-5v16L3 15V9ZM15 9h3a3 3 0 0 1 0 6h-3M5 16l2 5h3l-2-4" /></svg><span>{title}</span><span className="chat-notice-chevron" aria-hidden="true">⌄</span></summary>
+    <div className="chat-pinned-notice-content">{children}</div>
+  </details>;
+}
+
 /** The same parsed content and links get a different reading structure in each skin. */
 export function SkinTextBlocks({ blocks, className }: { blocks: SkinTextBlock[]; className: string }) {
   const { theme } = useAppTheme();
@@ -97,6 +106,7 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
 
 export function SkinDocumentIntro({ title, category, children }: { title: string; category?: string; children: ReactNode }) {
   const { theme } = useAppTheme();
+  if (theme === "chat" && title) return <div className="skin-document-intro skin-document-intro--chat"><SkinDocumentNotice title={`${category || "자료 안내"} · 공지`}>{children}</SkinDocumentNotice></div>;
   return <div className={`skin-document-intro skin-document-intro--${theme}`}>
     {theme === "chat" && title ? <div className="skin-document-contact"><span className="skin-contact-avatar" aria-hidden="true">{title.slice(0, 1)}</span><span><strong>{title}</strong><small>{category || "자료 대화"}</small></span></div> : theme === "terminal" && title ? <div className="skin-command-line">C:\NOTES&gt; TYPE &quot;{title}&quot;</div> : null}
     <div className="skin-document-intro-content">{children}</div>

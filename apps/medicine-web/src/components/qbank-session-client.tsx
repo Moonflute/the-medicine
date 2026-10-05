@@ -8,6 +8,8 @@ import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
 import { SkinQuestionWorkspace, SkinQuestionChoices, SkinQuestionAction } from "@/components/skin-question";
 import { DocumentToolbar } from "@/components/document-toolbar";
+import { SkinDocumentNotice } from "@/components/skin-document";
+import { ChatOptionalTools } from "@/components/chat-room";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { readMockExam, type MockExamState } from "@/lib/mock-exam";
 import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
@@ -701,11 +703,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   return (
     <div className="space-y-5">
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-600">
+      <div className="qbank-session-progress flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-600">
         <Link href="/review/qbank" className="inline-flex items-center gap-1 hover:text-teal-700"><ArrowLeft className="h-4 w-4" />나가기</Link>
         <div className="h-2 min-w-28 flex-1 max-w-md overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
         <span className="tabular-nums whitespace-nowrap">{currentIndex + 1} / {questions.length}</span>
-        {questions.some(question => question.questionBank === "practice") && <div className="ml-auto flex flex-wrap items-center gap-2" aria-label="문제 번호 이동">
+        {questions.some(question => question.questionBank === "practice") && <ChatOptionalTools><div className="ml-auto flex flex-wrap items-center gap-2" aria-label="문제 번호 이동">
           <label className="sr-only" htmlFor="qbank-question-select">문제 선택</label>
           <select id="qbank-question-select" aria-label="문제 선택" className="h-9 max-w-36 rounded-md border border-slate-300 bg-white px-2 text-sm font-medium" value={currentIndex} onChange={event => showQuestion(Number(event.target.value))}>
               {questions.map((question, index) => <option key={question.id} value={index}>{index + 1}번 · {practiceQuestionLabel(question)}</option>)}
@@ -724,7 +726,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             </div>
           </details>
           <span className="text-xs text-slate-500">제출 {answers.length}/{questions.length}</span>
-        </div>
+        </div></ChatOptionalTools>
       }</div>
 
       {finishError && <p role="alert" className="text-sm text-rose-700">{finishError}</p>}
@@ -743,7 +745,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}
           </button>
         </DocumentToolbar>
-        <div className="mt-3 flex flex-wrap items-center gap-2"><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</div>
+        <SkinDocumentNotice title={`${practiceQuestionLabel(current)} · ${current.questionType}`}><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</SkinDocumentNotice>
         <SkinQuestionWorkspace number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length}
           hint={selectionHint(current)}
           answerText={displayedOptions.filter(key => selectedAnswers(selected).includes(key)).map(key => `${OPTION_LABELS[displayedOptions.indexOf(key)]}. ${current.options[key] ?? ""}`).join("\n")}
@@ -763,7 +765,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           copy={<QbankCopyButton key={`question:${current.id}`} text={qbankQuestionCopyText(current, displayedOptions)} label="문제와 보기 텍스트 복사" title="문제와 보기 텍스트 복사 · 이미지는 제외" iconOnly />}
           response={submitted ? (
           <div className={`mt-6 rounded-lg border p-4 lg:col-span-2 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
-            {wrongTracked ? <button type="button" onClick={dismissWrong} className="float-right rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[10px] font-medium text-slate-600 transition hover:border-rose-300 hover:text-rose-700">오답 노트에서 제거</button> : null}
+            {wrongTracked ? <ChatOptionalTools><button type="button" onClick={dismissWrong} className="float-right rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[10px] font-medium text-slate-600 transition hover:border-rose-300 hover:text-rose-700">오답 노트에서 제거</button></ChatOptionalTools> : null}
             <div className="flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
             {current.explanation ? <div data-highlight-block="explanation" className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
             {!!current.evidenceReferences?.length && <div className="mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
@@ -771,10 +773,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d) => d.type !== "drug").map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={`${d.type === "disease" ? "/disease/" : "/cc/"}${d.slug}`}>{d.title} · 이론</Link>)}</div>}
             <RelatedTheoryLauncher key={current.id} question={current} />
             {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
-            <div className="mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200/70 pt-2">
+            <ChatOptionalTools className="mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200/70 pt-2">
               <QbankCopyButton key={`explanation:${current.id}`} text={qbankExplanationCopyText(current, displayedOptions)} label="해설 복사" />
               <QbankCopyButton key={`both:${current.id}`} text={qbankCombinedCopyText(current, displayedOptions)} label="문제+해설 복사" title="문제와 보기 및 해설 텍스트 복사 · 이미지는 제외" />
-            </div>
+            </ChatOptionalTools>
           </div>
         ) : null}
           actions={<SkinQuestionAction submitted={submitted} unknown={!selected} last={currentIndex + 1 === questions.length} onSubmit={submit} onNext={next} />}

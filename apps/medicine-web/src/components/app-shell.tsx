@@ -10,6 +10,7 @@ import { AuthStatus } from "@/components/auth-status";
 import { LearningSyncProvider } from "@/components/learning-sync-provider";
 import { AudioReviewProvider } from "@/components/audio-review-provider";
 import { PersonalHighlighter } from "@/components/personal-highlighter";
+import { ChatRoomProvider } from "@/components/chat-room";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
@@ -87,6 +88,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <AudioReviewProvider>
     <div className={`app-shell min-h-screen bg-slate-100 text-slate-950 ${immersive ? "immersive-shell" : ""} ${atlas ? "atlas-shell" : ""}`} data-page={isHome ? "home" : "content"} data-view={documentPage ? "document" : "browse"}>
       <LearningSyncProvider />
+      <ChatRoomProvider>
       <SkinAppFrame theme={theme} pathname={pathname} headerRef={headerRef} version={version} immersive={immersive}
         conversation={documentPage || pathname.startsWith("/review/qbank/session")}
         normalRail={<>
@@ -205,8 +207,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </>}
       >{children}</SkinAppFrame>
       <PersonalHighlighter />
+      </ChatRoomProvider>
     </div>
     </AudioReviewProvider>
   );
 }
-
