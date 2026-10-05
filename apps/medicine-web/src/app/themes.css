@@ -301,3 +301,19 @@ html[data-theme="terminal"] .app-sidebar [class~="bg-teal-500"] { background: #3
 }
 
 html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .home-anatomy-slot { display: none; }
+
+
+/* Shared document controls follow the theme instead of fixed light surfaces. */
+html[data-theme]:not([data-theme="light"]) :is(.document-toolbar, .cc-document-header, .qbank-session-action, .qbank-copy-action) {
+  background: var(--surface);
+  color: var(--foreground);
+  border-color: var(--line);
+}
+html[data-theme]:not([data-theme="light"]) .cc-document-views {
+  background: var(--surface-subtle);
+  border-color: var(--line);
+}
+html[data-theme="terminal"] :is(.document-toolbar, .cc-document-header, .cc-document-views, .qbank-session-action, .qbank-copy-action) {
+  border-radius: 0;
+  box-shadow: none;
+}
