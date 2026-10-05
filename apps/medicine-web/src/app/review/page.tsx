@@ -1,7 +1,6 @@
 import { ReviewPageClient } from "@/components/review-page-client";
 import { RandomPageLearningCard } from "@/components/random-page-learning-card";
-import Link from "next/link";
-import { ArrowRight, Headphones, ListChecks } from "lucide-react";
+import { ReviewLaunchAction, ReviewLaunchActions } from "@/components/review-launch-actions";
 import {
   getAllDiseases,
   getAllSkills,
@@ -68,29 +67,11 @@ export default function ReviewPage() {
         <div className="eyebrow">Review</div>
         <h1 className="page-title">통합 복습</h1>
       </header>
-      <div className="grid gap-4 lg:grid-cols-3">
-        <Link href="/review/qbank" className="block rounded-xl border border-teal-200 bg-teal-50 p-5 transition hover:border-teal-500 hover:bg-teal-100/70 sm:p-6">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><ListChecks className="h-5 w-5" />Q-bank</div>
-              <h2 className="mt-3 text-2xl font-semibold text-slate-950">문제 풀기</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-600">이론·임상 Q-bank 문제 풀기</p>
-            </div>
-            <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-teal-700" />
-          </div>
-        </Link>
+      <ReviewLaunchActions>
+        <ReviewLaunchAction kind="qbank" href="/review/qbank" />
         <RandomPageLearningCard catalog={catalog} />
-        <Link href="/review/audio" className="block rounded-xl border border-violet-200 bg-violet-50 p-5 transition hover:border-violet-400 hover:bg-violet-100/70 sm:p-6">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <div className="flex items-center gap-2 text-sm font-semibold text-violet-800"><Headphones className="h-5 w-5" />Audio Review</div>
-              <h2 className="mt-3 text-2xl font-semibold text-slate-950">청취 모드</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-600">팟캐스트처럼 틀어놓고 듣습니다.</p>
-            </div>
-            <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-violet-700" />
-          </div>
-        </Link>
-      </div>
+        <ReviewLaunchAction kind="audio" href="/review/audio" />
+      </ReviewLaunchActions>
       <ReviewPageClient catalog={catalog} questions={getQbankIndex()} />
     </div>
   );

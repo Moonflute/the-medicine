@@ -1,6 +1,6 @@
 "use client";
 
-import { Settings2, Shuffle } from "lucide-react";
+import { ReviewLaunchAction } from "@/components/review-launch-actions";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { ReviewCatalogItem, ReviewDomain } from "@/lib/review-store";
@@ -69,34 +69,18 @@ export function RandomPageLearningCard({ catalog }: { catalog: ReviewCatalogItem
   }
 
   return (
-    <section className="relative rounded-xl border border-indigo-200 bg-indigo-50 p-5 transition hover:border-indigo-400 hover:bg-indigo-100/70 sm:p-6">
-      <button type="button" onClick={startRandomLearning} aria-label="Start random page learning" className="absolute inset-0 z-0 cursor-pointer rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2" />
-      <div className="pointer-events-none relative z-10 flex items-start justify-between gap-4">
-        <div>
-          <div className="flex items-center gap-2 text-sm font-semibold text-indigo-800"><Shuffle className="h-5 w-5" />Random study</div>
-          <h2 className="mt-3 text-2xl font-semibold text-slate-950">랜덤 페이지 학습</h2>
-          <p className="mt-2 text-sm leading-6 text-slate-600">선택한 섹션에서 임의의 페이지를 열어 복습합니다.</p>
-        </div>
-        <button
-          type="button"
-          className="pointer-events-auto relative z-10 rounded-lg border border-indigo-200 bg-white p-2 text-indigo-700 transition hover:bg-indigo-100"
-          aria-label="랜덤 학습 설정"
-          title="랜덤 학습 설정"
-          onClick={() => setSettingsOpen((open) => !open)}
-        >
-          <Settings2 className="h-5 w-5" />
-        </button>
-      </div>
-
+    <ReviewLaunchAction kind="random" onClick={startRandomLearning} onSettings={() => setSettingsOpen((open) => !open)}
+      settingsOpen={settingsOpen} settingsId="random-page-learning-options">
+      {settingsOpen || message ? <>
       {settingsOpen ? (
-        <div className="pointer-events-auto relative z-10 mt-4 rounded-lg border border-indigo-200 bg-white/80 p-4">
-          <p className="text-sm font-semibold text-slate-800">학습 대상</p>
-          <div className="mt-3 flex flex-wrap gap-2">
+        <div id="random-page-learning-options" className="review-launcher-options">
+          <p>학습 대상</p>
+          <div className="review-launcher-option-list">
             {DOMAIN_OPTIONS.map((option) => {
               const checked = domains.includes(option.value);
               return (
-                <label key={option.value} className={`cursor-pointer rounded-lg border px-3 py-2 text-sm font-medium transition ${checked ? "border-indigo-300 bg-indigo-100 text-indigo-900" : "border-slate-200 bg-white text-slate-600"}`}>
-                  <input className="sr-only" type="checkbox" checked={checked} onChange={() => toggleDomain(option.value)} />
+                <label key={option.value} className="review-launcher-option" data-checked={checked}>
+                  <input type="checkbox" checked={checked} onChange={() => toggleDomain(option.value)} />
                   {option.label}
                 </label>
               );
@@ -104,7 +88,8 @@ export function RandomPageLearningCard({ catalog }: { catalog: ReviewCatalogItem
           </div>
         </div>
       ) : null}
-      {message ? <p role="status" className="mt-3 text-sm font-medium text-rose-700">{message}</p> : null}
-    </section>
+      {message ? <p role="status" className="review-launcher-message">{message}</p> : null}
+      </> : null}
+    </ReviewLaunchAction>
   );
 }
