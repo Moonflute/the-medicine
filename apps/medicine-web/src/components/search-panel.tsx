@@ -4,7 +4,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, Clock3, Search, Trash2 } from "lucide-react";
+import { ArrowRight, Clock3, FileText, MessageCircle, Search, Trash2 } from "lucide-react";
+import { useAppTheme } from "@/components/theme-provider";
 import type { SearchEntry } from "@/lib/types";
 
 const RECENT_SEARCHES_KEY = "medicine-web-recent-searches";
@@ -102,6 +103,8 @@ function scoreEntry(entry: SearchEntry, term: string, compactTerm: string) {
 
 export function SearchPanel({ entries, className = "", initialQuery = "" }: { entries: SearchEntry[]; className?: string; initialQuery?: string }) {
   const router = useRouter();
+  const { theme } = useAppTheme();
+  const specialTheme = theme === "chat" || theme === "sheet" || theme === "terminal";
   const [query, setQuery] = useState(initialQuery);
   const [activeResultIndex, setActiveResultIndex] = useState(0);
   const [recentSearches, setRecentSearches] = useState<string[]>(() => {
@@ -190,12 +193,27 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
     document.getElementById(`search-result-${activeResultIndex}`)?.scrollIntoView({ block: "nearest" });
   }, [activeResultIndex]);
   return (
-    <section className={`relative w-full ${className}`.trim()}>
-      <label className="surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
-        <Search className="h-5 w-5 shrink-0 text-slate-500" />
-        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} onCompositionStart={() => { isComposingRef.current = true; }} onCompositionEnd={() => { isComposingRef.current = false; }} placeholder={"\uC608: disease: \uD3D0\uB834, drug: metformin"} className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
+    <section className={`search-panel relative w-full ${className}`.trim()}>
+      <label className="search-input-bar surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
+        {theme === "terminal" ? <span className="terminal-prompt" aria-hidden="true">C:\&gt;</span> : <Search className="h-5 w-5 shrink-0 text-slate-500" />}
+        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} onCompositionStart={() => { isComposingRef.current = true; }} onCompositionEnd={() => { isComposingRef.current = false; }} placeholder={specialTheme ? "노트 검색" : "\uC608: disease: \uD3D0\uB834, drug: metformin"} aria-label="자료 검색" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" />
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
+
+      {specialTheme && !hasSearch ? <div className="skin-home-notes">
+        <div className="skin-home-notes-label">{theme === "chat" ? "노트 모아보기" : theme === "terminal" ? "DIRECTORY / NOTES" : "문서 목록"}</div>
+        {[
+          { href: "/cc", title: "증상 노트", summary: "증상별 확인 항목과 접근 순서", initials: "증상" },
+          { href: "/specialties", title: "진료과 노트", summary: "진료과별 질환과 참고 자료", initials: "진료" },
+          { href: "/drugs", title: "약물 노트", summary: "약물 정보와 용량 확인", initials: "약물" },
+          { href: "/lab-img", title: "검사 노트", summary: "검사 수치와 영상 참고 자료", initials: "검사" },
+          { href: "/review", title: "내 노트", summary: "저장한 자료와 복습 기록", initials: "저장" },
+        ].map((note, index) => <Link key={note.href} href={note.href} className="skin-home-note">
+          <span className="skin-note-avatar" aria-hidden="true">{theme === "sheet" ? index + 1 : theme === "terminal" ? `[${index + 1}]` : note.initials}</span>
+          <span className="skin-note-copy"><span className="skin-note-title">{note.title}</span><span className="skin-note-summary">{note.summary}</span></span>
+          {theme === "chat" ? <MessageCircle className="h-4 w-4 skin-note-end" /> : <FileText className="h-4 w-4 skin-note-end" />}
+        </Link>)}
+      </div> : null}
 
       {!hasSearch && recentSearches.length > 0 ? (
         <div className="mt-4">
@@ -211,7 +229,7 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
       ) : null}
 
       {hasSearch ? (
-        <div className="absolute inset-x-0 top-full z-10 mt-4 grid max-h-[calc(50vh-5rem)] gap-4 overflow-y-auto overscroll-contain pb-4">
+        <div className="search-results absolute inset-x-0 top-full z-10 mt-4 grid max-h-[calc(50vh-5rem)] gap-4 overflow-y-auto overscroll-contain pb-4">
           {results.length > 0 ? Object.entries(resultGroups).map(([label, group]) => (
             <section key={label}>
               <div className="mb-2 text-xs font-semibold uppercase text-slate-500">{label}</div>
@@ -219,7 +237,8 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
                 const resultIndex = displayedResults.indexOf(entry);
                 const isActive = resultIndex === activeResultIndex;
                 return (
-                <Link key={`${entry.type}:${entry.slug}`} id={`search-result-${resultIndex}`} href={entry.href} onClick={rememberSearch} onMouseEnter={() => setActiveResultIndex(resultIndex)} className={`list-tile group flex items-center justify-between gap-4 px-4 py-3 ${isActive ? "border-teal-500 bg-teal-50" : ""}`}>
+                <Link key={`${entry.type}:${entry.slug}`} id={`search-result-${resultIndex}`} href={entry.href} onClick={rememberSearch} onMouseEnter={() => setActiveResultIndex(resultIndex)} className={`search-result list-tile group flex items-center justify-between gap-4 px-4 py-3 ${isActive ? "border-teal-500 bg-teal-50" : ""}`}>
+                  {specialTheme ? <span className="skin-result-avatar" aria-hidden="true">{theme === "sheet" ? resultIndex + 1 : theme === "terminal" ? ">" : entry.title.slice(0, 1)}</span> : null}
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2"><div className="truncate font-semibold text-slate-950">{entry.title}</div><span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600">{TYPE_LABELS[entry.type] ?? entry.type}</span></div>
                     <div className="mt-1 text-sm text-slate-500">{entry.category}</div>

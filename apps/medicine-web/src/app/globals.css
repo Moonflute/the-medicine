@@ -1,4 +1,5 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
+@import "./themes.css";
 
 :root {
   color-scheme: light;
@@ -293,3 +294,177 @@ code {
 
 /* Atlas is reached from the home miniature and disease documents, without a new navigation tab. */
 .atlas-shell > div > aside,.atlas-shell > div > div > header,.atlas-shell > div > div > nav{display:none!important}.atlas-shell > div{max-width:none}.atlas-shell main{padding:0!important}.atlas-shell main>div{max-width:none}.atlas-workspace{height:100dvh;display:flex;flex-direction:column;background:var(--background)}.atlas-host-toolbar{height:44px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:1px solid var(--line);background:var(--surface);font-size:13px;color:var(--primary)}.atlas-host-toolbar a{padding:10px 0}.atlas-viewer{width:100%;flex:1;min-height:0;border:0}
+
+.home-settings-trigger {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: calc(5rem + env(safe-area-inset-bottom));
+  z-index: 45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  height: 2rem;
+  padding: 0 0.625rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  box-shadow: 0 3px 12px rgb(15 23 42 / 12%);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.home-settings-trigger-label { font-size: 0.75rem; font-weight: 500; }
+
+.home-settings-trigger:focus-visible,
+.home-settings-close:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.home-settings-dialog {
+  position: fixed;
+  inset: auto 0 0;
+  width: min(100%, 28rem);
+  max-width: 100%;
+  max-height: calc(100dvh - 2rem);
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-bottom: 0;
+  border-radius: 20px 20px 0 0;
+  color: var(--foreground);
+  background: var(--surface);
+  overscroll-behavior: contain;
+}
+
+.home-settings-dialog::backdrop {
+  background: rgb(15 23 42 / 40%);
+}
+
+body:has(.home-settings-dialog[open]) {
+  overflow: hidden;
+}
+
+.home-settings-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.home-settings-header h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.home-settings-close {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 8px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.home-settings-content {
+  padding: 1.25rem 1.25rem calc(1.25rem + env(safe-area-inset-bottom));
+}
+
+.home-settings-content h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.home-settings-intro,
+.home-settings-group-description {
+  margin-top: 0.375rem;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.home-settings-theme-group {
+  min-width: 0;
+  margin-top: 1.5rem;
+}
+
+.home-settings-theme-group legend {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.home-settings-theme-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.home-settings-theme {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  min-height: 2.25rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-subtle);
+  text-align: left;
+}
+
+.home-settings-swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  flex-shrink: 0;
+  border: 1px solid rgb(100 116 139 / 25%);
+  border-radius: 50%;
+}
+
+.home-settings-theme-copy {
+  display: block;
+  min-width: 0;
+  gap: 0.125rem;
+}
+
+.home-settings-theme-name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.home-settings-theme-description,
+.home-settings-theme-status {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.home-settings-theme-status {
+  flex-shrink: 0;
+}
+
+.home-settings-selected-description {
+  margin-top: 1.25rem;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+@media (min-width: 640px) {
+  .home-settings-dialog {
+    inset: 0;
+    margin: auto;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-settings-trigger {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+

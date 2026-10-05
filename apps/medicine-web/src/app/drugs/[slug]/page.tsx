@@ -100,7 +100,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
   const infectionPathways = antibioticEntry ? getInfectionPathwaysForAntibiotic(antibioticEntry.id) : [];
 
   return (
-    <div className="space-y-6">
+    <div className="drug-document space-y-6">
       <DocumentToolbar title={note.title}>
         <DocumentEditButton sourcePath={note.sourcePath} title={note.title} />
         <ReviewSaveButton compact item={{ type: "drug", id: note.id, title: note.title, href: `/drugs/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />

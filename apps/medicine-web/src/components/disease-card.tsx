@@ -71,7 +71,7 @@ export function DiseaseCard({
   );
 
   return (
-    <article className="surface">
+    <article className="clinical-document surface">
       {!compact && <DocumentToolbar title={displayTitle}>
             <DocumentEditButton sourcePath={note.sourcePath} title={displayTitle} />
             {relatedQbankHref ? (
@@ -159,9 +159,9 @@ export function DiseaseCard({
       ) : null}
 
       {expanded ? (
-        <div className="grid gap-3 bg-slate-50/70 p-4 sm:p-5">
+        <div className="clinical-sections grid gap-3 bg-slate-50/70 p-4 sm:p-5">
           {note.sections.slice(0, compact ? 2 : note.sections.length).map((section, index) => (
-            <section id={sectionItems[index].id} tabIndex={-1} key={sectionItems[index].id} className="scroll-mt-20 focus-visible:outline-teal-600 border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4" style={{ borderRadius: 8 }}>
+            <section id={sectionItems[index].id} tabIndex={-1} key={sectionItems[index].id} className="clinical-section scroll-mt-20 focus-visible:outline-teal-600 border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4" style={{ borderRadius: 8 }}>
               <div className="mb-3 flex items-center gap-2 text-sm font-semibold text-slate-950">
                 <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-slate-500" />
                 {section.title}

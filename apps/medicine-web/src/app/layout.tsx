@@ -1,7 +1,9 @@
-﻿import type { Metadata, Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { AppShell } from "@/components/app-shell";
 import { PWARegister } from "@/components/pwa-register";
+import { ThemeProvider } from "@/components/theme-provider";
+import { themeInitScript } from "@/lib/themes";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
@@ -33,10 +35,11 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
+      <head><script id="medicine-theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript }} /></head>
       <body>
         <PWARegister />
-        <AppShell>{children}</AppShell>
+        <ThemeProvider><AppShell>{children}</AppShell></ThemeProvider>
       </body>
     </html>
   );

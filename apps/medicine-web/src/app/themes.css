@@ -1,0 +1,303 @@
+/* Theme palettes also adapt the existing Tailwind neutral utilities. */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0e1520;
+  --foreground: #e7edf5;
+  --muted: #a5b3c6;
+  --line: #364459;
+  --surface: #17212f;
+  --surface-subtle: #1c2939;
+  --primary: #6ee7d0;
+  --primary-strong: #115e59;
+  --accent: #93c5fd;
+  --color-slate-50: #1c2939;
+  --color-slate-100: #0e1520;
+  --color-slate-200: #364459;
+  --color-slate-300: #526278;
+  --color-slate-400: #94a7be;
+  --color-slate-500: #a5b3c6;
+  --color-slate-600: #becbdb;
+  --color-slate-700: #cfdae7;
+  --color-slate-800: #dae4ef;
+  --color-slate-900: #e7edf5;
+  --color-slate-950: #f1f5fa;
+}
+
+html[data-theme="sepia"] {
+  --background: #eee5d4;
+  --foreground: #392e25;
+  --muted: #74624f;
+  --line: #d6c8af;
+  --surface: #faf5e9;
+  --surface-subtle: #f3ebda;
+  --primary: #626c3e;
+  --primary-strong: #48512c;
+  --accent: #805d34;
+  --color-slate-50: #f3ebda;
+  --color-slate-100: #eee5d4;
+  --color-slate-200: #d6c8af;
+  --color-slate-300: #c8b99f;
+  --color-slate-400: #928068;
+  --color-slate-500: #74624f;
+  --color-slate-600: #675440;
+  --color-slate-700: #574533;
+  --color-slate-800: #473629;
+  --color-slate-900: #392e25;
+  --color-slate-950: #2f251d;
+}
+
+html[data-theme="chat"] {
+  --background: #b8cad8;
+  --foreground: #242b32;
+  --muted: #63717d;
+  --line: #e3e7eb;
+  --surface: #ffffff;
+  --surface-subtle: #f4f6f8;
+  --primary: #615713;
+  --primary-strong: #504811;
+  --accent: #466b84;
+}
+
+html[data-theme="sheet"] {
+  --background: #f2f4f3;
+  --foreground: #20342a;
+  --muted: #596961;
+  --line: #d2dcd5;
+  --surface: #ffffff;
+  --surface-subtle: #f1f6f2;
+  --primary: #217346;
+  --primary-strong: #185c37;
+  --accent: #217346;
+}
+
+html[data-theme="terminal"] {
+  color-scheme: dark;
+  --background: #000000;
+  --foreground: #f5f5f5;
+  --muted: #b4b4b4;
+  --line: #414141;
+  --surface: #0a0a0a;
+  --surface-subtle: #151515;
+  --primary: #ffffff;
+  --primary-strong: #303030;
+  --accent: #dddddd;
+  --color-slate-50: #151515;
+  --color-slate-100: #000000;
+  --color-slate-200: #414141;
+  --color-slate-300: #666666;
+  --color-slate-400: #a8a8a8;
+  --color-slate-500: #b4b4b4;
+  --color-slate-600: #c8c8c8;
+  --color-slate-700: #dedede;
+  --color-slate-800: #e5e5e5;
+  --color-slate-900: #f0f0f0;
+  --color-slate-950: #ffffff;
+}
+
+html[data-theme]:not([data-theme="light"]) .app-shell {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html[data-theme]:not([data-theme="light"]) :where(.surface, .list-tile, .secondary-action, [class~="bg-white"], [class~="bg-white/95"], [class~="bg-white/90"], [class~="bg-white/85"], [class~="bg-white/80"], [class~="bg-white/45"]) {
+  background-color: var(--surface);
+}
+
+html[data-theme]:not([data-theme="light"]) :where(.primary-action, [class~="bg-teal-600"], [class~="bg-teal-700"], [class~="bg-teal-800"]) {
+  background-color: var(--primary-strong);
+  color: #fff;
+}
+
+html[data-theme]:not([data-theme="light"]) .primary-action:hover {
+  filter: brightness(1.12);
+}
+
+html[data-theme="sepia"] :is([class~="text-teal-600"], [class~="text-teal-700"], [class~="text-teal-800"]) {
+  color: var(--primary);
+}
+
+html:is([data-theme="dark"], [data-theme="terminal"]) .app-sidebar {
+  background: var(--surface);
+  color: var(--foreground);
+}
+
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-slate-800"], [class~="bg-slate-900"], [class~="bg-slate-950"]) {
+  background-color: var(--surface-subtle);
+}
+
+html[data-theme="sepia"] .app-sidebar {
+  background: #463c2d;
+  color: #faf5e9;
+}
+
+html[data-theme="sepia"] .app-sidebar :is(a, .text-slate-400) {
+  color: #f0e5d0;
+}
+
+/* Keep tinted clinical alerts readable on dark backgrounds. */
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-teal-50"], [class~="bg-teal-100"], [class~="bg-emerald-50"], [class~="bg-emerald-100"], [class~="bg-green-50"], [class~="bg-green-100"]) { background-color: #133a31; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="text-teal-600"], [class~="text-teal-700"], [class~="text-teal-800"], [class~="text-teal-900"], [class~="text-emerald-600"], [class~="text-emerald-700"], [class~="text-emerald-800"], [class~="text-emerald-900"], [class~="text-green-700"], [class~="text-green-800"]) { color: #8ce2c3; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-sky-50"], [class~="bg-sky-100"], [class~="bg-blue-50"], [class~="bg-blue-100"], [class~="bg-cyan-50"], [class~="bg-cyan-100"]) { background-color: #153249; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="text-sky-600"], [class~="text-sky-700"], [class~="text-sky-800"], [class~="text-sky-900"], [class~="text-blue-600"], [class~="text-blue-700"], [class~="text-blue-800"], [class~="text-blue-900"], [class~="text-cyan-700"], [class~="text-cyan-800"]) { color: #9ed4ff; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-amber-50"], [class~="bg-amber-100"], [class~="bg-yellow-50"], [class~="bg-yellow-100"], [class~="bg-orange-50"], [class~="bg-orange-100"]) { background-color: #40311b; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="text-amber-600"], [class~="text-amber-700"], [class~="text-amber-800"], [class~="text-amber-900"], [class~="text-yellow-700"], [class~="text-yellow-800"], [class~="text-orange-700"], [class~="text-orange-800"]) { color: #f5cf8e; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-rose-50"], [class~="bg-rose-100"], [class~="bg-red-50"], [class~="bg-red-100"], [class~="bg-pink-50"], [class~="bg-pink-100"]) { background-color: #45212c; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="text-rose-600"], [class~="text-rose-700"], [class~="text-rose-800"], [class~="text-rose-900"], [class~="text-red-600"], [class~="text-red-700"], [class~="text-red-800"], [class~="text-red-900"], [class~="text-pink-700"], [class~="text-pink-800"]) { color: #ffb0bc; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-indigo-50"], [class~="bg-indigo-100"], [class~="bg-violet-50"], [class~="bg-violet-100"], [class~="bg-purple-50"], [class~="bg-purple-100"]) { background-color: #2c284c; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="text-indigo-600"], [class~="text-indigo-700"], [class~="text-indigo-800"], [class~="text-indigo-900"], [class~="text-violet-700"], [class~="text-violet-800"], [class~="text-purple-700"], [class~="text-purple-800"]) { color: #c7beff; }
+
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-teal-50/40"], [class~="bg-teal-50/50"], [class~="bg-teal-50/60"], [class~="bg-teal-50/70"], [class~="bg-teal-100/70"], [class~="bg-lime-100"]) { background-color: #133a31; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-sky-50/60"], [class~="bg-sky-50/70"]) { background-color: #153249; }
+html:is([data-theme="dark"], [data-theme="terminal"]) [class~="bg-amber-50/70"] { background-color: #40311b; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-rose-50/50"], [class~="bg-rose-50/70"], [class~="bg-red-50/80"], [class~="bg-fuchsia-100"]) { background-color: #45212c; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-indigo-100/70"], [class~="bg-violet-50/40"]) { background-color: #2c284c; }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-stone-50"], [class~="bg-stone-100"]) { background-color: var(--surface-subtle); }
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="text-stone-600"], [class~="text-stone-700"], [class~="text-stone-800"], [class~="text-stone-900"]) { color: var(--foreground); }
+html:is([data-theme="dark"], [data-theme="terminal"]) .app-sidebar a { color: var(--foreground); }
+html:is([data-theme="dark"], [data-theme="terminal"]) .app-sidebar a:hover { background: var(--surface-subtle); }
+
+/* Header buttons and selected actions must retain their contrast. */
+html:is([data-theme="dark"], [data-theme="terminal"]) :is([class~="bg-teal-600"], [class~="bg-teal-700"], [class~="bg-teal-800"], [class~="bg-slate-950"]) { color: #fff; }
+
+.app-bottom-nav {
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+}
+
+.app-main { min-width: 0; overflow-wrap: anywhere; }
+.home-settings-trigger::before { content: ""; position: absolute; inset: -6px; }
+.clinical-sections { grid-template-columns: minmax(0, 1fr); }
+.clinical-section { min-width: 0; }
+.app-main pre { max-width: 100%; overflow-x: auto; }
+.skin-home-link { display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 2.5rem; height: 2.5rem; }
+.home-settings-save-message { min-height: 1.25rem; color: var(--muted); font-size: 0.75rem; line-height: 1.5; margin-top: 0.375rem; }
+.home-settings-theme { cursor: pointer; }
+.home-settings-theme[aria-pressed="true"] { border-color: var(--primary); box-shadow: inset 0 0 0 1px var(--primary); }
+.home-settings-theme:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+
+/* Special themes share a compact, mobile-first home list. */
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .home-screen {
+  min-height: 0;
+  align-items: flex-start;
+  padding: 0;
+}
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-shell:not(.immersive-shell) .app-main > div { max-width: 56rem; }
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-menu-button { display: none; }
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-search-action { width: 2.75rem; height: 2.75rem; padding: 0; border: 0; background: transparent; color: inherit; }
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-search-action span { display: none; }
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .search-results { position: static; max-height: none; }
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .search-result { justify-content: flex-start; }
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .search-result > .min-w-0 { flex: 1; }
+.skin-home-notes { margin-top: 1.5rem; }
+.skin-home-notes-label { padding: 0 0.25rem 0.625rem; font-size: 0.75rem; color: var(--muted); }
+.skin-home-note { display: flex; align-items: center; gap: 0.875rem; padding: 1rem 0.25rem; min-height: 4.5rem; border-bottom: 1px solid var(--line); }
+.skin-note-avatar, .skin-result-avatar { display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 2.75rem; height: 2.75rem; font-size: 0.8125rem; border-radius: 16px; background: #e9eef2; color: #536c7e; }
+.skin-note-copy { display: grid; min-width: 0; flex: 1; gap: 0.25rem; }
+.skin-note-title { font-weight: 600; font-size: 0.9375rem; }
+.skin-note-summary { color: var(--muted); font-size: 0.8125rem; line-height: 1.5; }
+.skin-note-end { flex-shrink: 0; color: var(--muted); }
+
+/* Chat skin: list screens are white; detail screens are a conversation. */
+html[data-theme="chat"] .app-shell[data-view="browse"] { background: #fff; }
+html[data-theme="chat"] .app-header { background: #fff; border-bottom: 0; }
+html[data-theme="chat"] .app-main { padding: 1rem; }
+html[data-theme="chat"] .app-sidebar { background: #f4f6f8; color: #242b32; }
+html[data-theme="chat"] .app-sidebar a { color: #394854; }
+html[data-theme="chat"] .search-input-bar { border: 0; box-shadow: none; background: #f2f4f6; border-radius: 12px; padding: 0.875rem; }
+html[data-theme="chat"] .skin-home-note:nth-of-type(2n) .skin-note-avatar { background: #eee8dc; color: #7b6951; }
+html[data-theme="chat"] .app-bottom-nav { background: #f8f9fa; }
+html[data-theme="chat"] .app-bottom-nav a[aria-current="page"] { background: transparent; color: #222c35; font-weight: 700; }
+html[data-theme="chat"] .app-bottom-nav a[aria-current="page"] svg { fill: #fae100; stroke: #282e33; }
+html[data-theme="chat"] :is(.primary-action, .app-sidebar [class~="bg-teal-500"]) { background: #fae100; color: #302b17; }
+html[data-theme="chat"] .page-header { border-bottom: 0; padding-bottom: 0.5rem; }
+html[data-theme="chat"] .page-title { font-size: 1.375rem; margin-top: 0.25rem; }
+html[data-theme="chat"] .eyebrow { letter-spacing: 0; font-size: 0.6875rem; }
+html[data-theme="chat"] .app-main .grid:has(> .list-tile) { grid-template-columns: 1fr; gap: 0; background: #fff; border-radius: 12px; padding: 0 0.875rem; }
+html[data-theme="chat"] .app-main .grid > a.list-tile { flex-direction: row; justify-content: flex-start; min-height: 3.75rem; border: 0; border-bottom: 1px solid var(--line); border-radius: 0 !important; padding: 0.875rem 0.25rem; box-shadow: none; font-size: 0.875rem; text-align: left; }
+html[data-theme="chat"] .app-main .grid > .list-tile > svg { width: 1.75rem; height: 1.75rem; flex-shrink: 0; margin-right: 0.25rem; color: #6b8393; }
+html[data-theme="chat"] .app-main .grid > .list-tile > span { white-space: normal; text-align: left; }
+html[data-theme="chat"] .clinical-document { border: 0; background: transparent; box-shadow: none; }
+html[data-theme="chat"] .clinical-document > div { background: transparent; border-color: rgb(60 84 102 / 16%); }
+html[data-theme="chat"] .clinical-document > div:first-child { padding: 0.5rem 0.25rem 1rem; }
+html[data-theme="chat"] .clinical-sections { padding: 1rem 0; gap: 1rem; }
+html[data-theme="chat"] .clinical-section { position: relative; max-width: 96%; border-radius: 3px 14px 14px 14px !important; padding: 1rem; box-shadow: 0 1px 1px rgb(20 40 60 / 8%); }
+html[data-theme="chat"] .clinical-section:nth-child(even) { margin-left: auto; background: #fff6bd; border-radius: 14px 3px 14px 14px !important; }
+html[data-theme="chat"] .drug-document > section { border-radius: 3px 14px 14px 14px; box-shadow: none; }
+
+/* Spreadsheet skin: genuine navigation becomes worksheet tabs, never a fake editor. */
+html[data-theme="sheet"] .app-header { background: #217346; color: #fff; border: 0; }
+html[data-theme="sheet"] .app-header-title { color: #fff; font-size: 1rem; }
+html[data-theme="sheet"] .app-header .secondary-action { color: #fff; background: #185c37; border-color: #4c946b; }
+html[data-theme="sheet"] .app-sidebar { background: #185c37; color: #fff; }
+html[data-theme="sheet"] .app-sidebar a { color: #e4f2e9; }
+.sheet-toolbar { display: flex; align-items: center; gap: 1.25rem; min-height: 2.5rem; padding: 0.375rem 1rem; background: var(--surface); border-bottom: 1px solid var(--line); color: var(--foreground); font-size: 0.75rem; }
+.sheet-file-icon { display: flex; align-items: center; gap: 0.375rem; color: #217346; font-weight: 600; }
+.sheet-readonly { margin-left: auto; color: var(--muted); font-size: 0.6875rem; }
+.sheet-formula-bar { display: flex; align-items: center; min-height: 2.25rem; background: #fff; border-bottom: 1px solid var(--line); font-size: 0.8125rem; }
+.sheet-cell-name { width: 3.5rem; flex-shrink: 0; text-align: center; border-right: 1px solid var(--line); color: #4a6255; }
+.sheet-fx { padding: 0 0.75rem; color: #718078; font-style: italic; }
+.sheet-formula-value { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+html[data-theme="sheet"] .app-main { padding: 1rem 0.75rem; background-image: linear-gradient(to right, rgb(130 150 137 / 8%) 1px, transparent 1px), linear-gradient(to bottom, rgb(130 150 137 / 8%) 1px, transparent 1px); background-size: 5rem 2rem; }
+html[data-theme="sheet"] .search-input-bar { border-radius: 0; box-shadow: none; border-color: #217346; padding: 0.75rem; }
+html[data-theme="sheet"] .skin-home-notes { border: 1px solid var(--line); background: #fff; }
+html[data-theme="sheet"] .skin-home-notes-label { padding: 0.625rem; background: #e8f0eb; border-bottom: 1px solid var(--line); font-weight: 600; }
+html[data-theme="sheet"] .skin-home-note { padding: 0; gap: 0.75rem; }
+html[data-theme="sheet"] .skin-note-avatar { align-self: stretch; width: 2.5rem; height: auto; border-right: 1px solid var(--line); border-radius: 0; background: #f0f4f1; color: #5d7164; }
+html[data-theme="sheet"] .skin-note-copy { padding: 0.875rem 0; }
+html[data-theme="sheet"] .skin-note-end { margin-right: 0.75rem; color: #217346; }
+html[data-theme="sheet"] .app-bottom-nav { padding-left: 0.375rem; padding-right: 0.375rem; background: #e9eeeb; border-color: #c5d3c9; }
+html[data-theme="sheet"] .app-bottom-nav a { border-radius: 0 !important; height: 2.75rem; font-size: 0.6875rem; border-right: 1px solid #d2dcd5; gap: 0.25rem; }
+html[data-theme="sheet"] .app-bottom-nav a svg { display: none; }
+html[data-theme="sheet"] .app-bottom-nav a[aria-current="page"] { background: #fff; color: #217346; border-bottom: 3px solid #217346; }
+html[data-theme="sheet"] .page-title { font-size: 1.375rem; }
+html[data-theme="sheet"] :is(.surface, .surface-subtle, .clinical-section, .drug-document > section) { border-radius: 0 !important; box-shadow: none; }
+html[data-theme="sheet"] .app-main .grid:has(> .list-tile) { display: block; background: #fff; border: 1px solid var(--line); counter-reset: sheet-row; }
+html[data-theme="sheet"] .app-main .grid > a.list-tile { position: relative; display: flex; flex-direction: row; justify-content: flex-start; gap: 0.625rem; min-height: 3.25rem; padding: 0.75rem 0.75rem 0.75rem 3.25rem; border: 0; border-bottom: 1px solid var(--line); border-radius: 0 !important; box-shadow: none; font-size: 0.8125rem; text-align: left; counter-increment: sheet-row; }
+html[data-theme="sheet"] .app-main .grid > a.list-tile::before { content: counter(sheet-row); position: absolute; inset: 0 auto 0 0; display: flex; align-items: center; justify-content: center; width: 2.5rem; background: #eff4f0; border-right: 1px solid var(--line); color: #65776a; font-size: 0.75rem; }
+html[data-theme="sheet"] .app-main .grid > .list-tile > svg { width: 1rem; height: 1rem; flex-shrink: 0; }
+html[data-theme="sheet"] .app-main .grid > .list-tile > span { white-space: normal; text-align: left; }
+html[data-theme="sheet"] .skin-result-avatar { display: none; }
+html[data-theme="sheet"] .clinical-sections { padding: 0; gap: 0; }
+html[data-theme="sheet"] .clinical-section { border-top: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+html[data-theme="sheet"] .clinical-section > div:first-child { border-bottom: 1px solid var(--line); margin: -1rem -1rem 0.875rem; padding: 0.625rem 1rem; background: #edf3ef; }
+
+/* DOS skin: fixed-width typography, directory rows and an actual search prompt. */
+html[data-theme="terminal"] body { font-family: "Cascadia Mono", Consolas, "D2Coding", "Malgun Gothic", monospace; }
+html[data-theme="terminal"] .app-header { background: var(--background); border-bottom: 1px solid var(--line); }
+html[data-theme="terminal"] .app-header-title { font-size: 0.9375rem; letter-spacing: 0.075em; color: var(--primary); }
+html[data-theme="terminal"] .app-header .app-search-action { background: transparent; color: #ffffff; transition: none; }
+.terminal-status { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 1rem; font-size: 0.625rem; color: var(--muted); border-bottom: 1px dashed var(--line); }
+html[data-theme="terminal"] .app-main { padding: 1rem; line-height: 1.65; }
+html[data-theme="terminal"] :is(.surface, .surface-subtle, .list-tile, .secondary-action, .primary-action, .clinical-section, .drug-document > section, .home-settings-dialog) { border-radius: 0 !important; box-shadow: none; }
+html[data-theme="terminal"] .search-input-bar { padding: 0.875rem; border-color: var(--line); }
+.terminal-prompt { color: var(--primary); white-space: nowrap; font-size: 0.875rem; }
+html[data-theme="terminal"] .skin-home-notes-label { padding-bottom: 0.75rem; border-bottom: 1px dashed var(--line); letter-spacing: 0.05em; }
+html[data-theme="terminal"] .skin-note-avatar, html[data-theme="terminal"] .skin-result-avatar { width: 2rem; height: 2rem; border-radius: 0; background: transparent; color: var(--primary); }
+html[data-theme="terminal"] .skin-home-note { min-height: 4rem; border-bottom: 1px dashed var(--line); }
+html[data-theme="terminal"] .skin-note-title { color: var(--primary); }
+html[data-theme="terminal"] .skin-note-end { display: none; }
+html[data-theme="terminal"] .app-bottom-nav { background: var(--background); border-top: 1px solid var(--line); }
+html[data-theme="terminal"] .app-bottom-nav a { border-radius: 0 !important; font-size: 0.625rem; }
+html[data-theme="terminal"] .app-bottom-nav a[aria-current="page"] { background: #262626; color: #ffffff; box-shadow: inset 0 -2px 0 var(--primary); }
+html[data-theme="terminal"] .page-title { font-size: 1.375rem; }
+html[data-theme="terminal"] .eyebrow::before { content: "> "; }
+html[data-theme="terminal"] .app-main .grid:has(> .list-tile) { grid-template-columns: 1fr; gap: 0.5rem; }
+html[data-theme="terminal"] .app-main .grid > a.list-tile { min-height: 3rem; flex-direction: row; justify-content: flex-start; text-align: left; padding: 0.75rem; }
+html[data-theme="terminal"] .app-main .grid > .list-tile > span { white-space: normal; text-align: left; }
+html[data-theme="terminal"] .app-main .grid > .list-tile > svg { width: 1rem; height: 1rem; }
+html[data-theme="terminal"] .clinical-sections { background: var(--background); }
+html[data-theme="terminal"] .clinical-section > div:first-child::before { content: "[+]"; color: var(--primary); }
+
+/* Monochrome DOS: colored utility accents become white text and gray panels. */
+html[data-theme="terminal"] .app-main :is([class*="bg-teal-50"], [class*="bg-teal-100"], [class*="bg-emerald-50"], [class*="bg-emerald-100"], [class*="bg-sky-50"], [class*="bg-sky-100"], [class*="bg-blue-50"], [class*="bg-blue-100"], [class*="bg-cyan-50"], [class*="bg-cyan-100"], [class*="bg-amber-50"], [class*="bg-amber-100"], [class*="bg-yellow-50"], [class*="bg-yellow-100"], [class*="bg-orange-50"], [class*="bg-orange-100"], [class*="bg-rose-50"], [class*="bg-rose-100"], [class*="bg-red-50"], [class*="bg-red-100"], [class*="bg-pink-50"], [class*="bg-pink-100"], [class*="bg-indigo-50"], [class*="bg-indigo-100"], [class*="bg-violet-50"], [class*="bg-violet-100"], [class*="bg-purple-50"], [class*="bg-purple-100"], [class*="bg-green-50"], [class*="bg-green-100"], [class*="bg-lime-100"], [class*="bg-fuchsia-100"]) { background-color: var(--surface-subtle); }
+html[data-theme="terminal"] .app-main :is([class*="text-teal-"], [class*="text-emerald-"], [class*="text-sky-"], [class*="text-blue-"], [class*="text-cyan-"], [class*="text-amber-"], [class*="text-yellow-"], [class*="text-orange-"], [class*="text-rose-"], [class*="text-red-"], [class*="text-pink-"], [class*="text-indigo-"], [class*="text-violet-"], [class*="text-purple-"], [class*="text-green-"], [class*="text-lime-"], [class*="text-fuchsia-"]) { color: var(--foreground); }
+html[data-theme="terminal"] .clinical-section { border-left-color: #777777; }
+html[data-theme="terminal"] .app-sidebar [class~="bg-teal-500"] { background: #303030; color: #ffffff; }
+
+@media (max-width: 639px) {
+  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-header > div { height: 3.5rem; gap: 0.5rem; }
+  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-header > div > div { gap: 0.375rem; }
+  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-main h1 { font-size: 1.5rem; line-height: 1.35; }
+  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-main h2 { font-size: 1.25rem; line-height: 1.45; }
+}
+
+html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .home-anatomy-slot { display: none; }
