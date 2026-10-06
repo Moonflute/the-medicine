@@ -45,8 +45,8 @@ export function ChatQbankLobby({ banks, bank, onChooseBank, conversations, syncS
   const validUnattemptedCount = /^\d+$/.test(unattemptedCount) && Number(unattemptedCount) >= 1 && Number(unattemptedCount) <= 100;
   const safeQuickCount = /^\d+$/.test(quickCount) && Number(quickCount) >= 1 && Number(quickCount) <= 100 ? quickCount : "10";
   const openPicker = (next: Bank = bank) => {
-    onChooseBank(next);
     picker.current?.showModal();
+    onChooseBank(next);
   };
   const tools = <>
     <button type="button" className="skin-icon-button" aria-label="새 문제 대화" aria-haspopup="dialog" onClick={() => openPicker()}><Plus size={23} /></button>

@@ -6,7 +6,7 @@ import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
 import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
@@ -151,6 +151,11 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const clinicalSpecialties = useMemo(() => specialtyChoices(availableQuestions, "clinical"), [availableQuestions]);
   const [tab, setTab] = useState<"theory" | "clinical" | "practice">("theory");
   const [chatPracticeFooter, setChatPracticeFooter] = useState<HTMLDivElement | null>(null);
+  const chatPickerContent = useRef<HTMLDivElement>(null);
+  const chooseBank = (next: "theory" | "clinical" | "practice") => {
+    setTab(next);
+    chatPickerContent.current?.scrollTo({ top: 0 });
+  };
   const [practice, setPractice] = useState<PracticeIndex[]>([]);
   const [practiceMessage, setPracticeMessage] = useState("실전문제 접근 권한을 확인 중입니다.");
   const [practiceFilters, setPracticeFilters] = useState<PracticeFilters>(EMPTY_PRACTICE_FILTERS);
@@ -373,11 +378,11 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
   const selectionTabs = <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
-        {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => setTab(key)} onKeyDown={(event) => {
+        {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => chooseBank(key)} onKeyDown={(event) => {
           const tabs = ['theory', 'clinical', 'practice'] as const;
           const index = tabs.indexOf(key);
           const next = event.key === 'ArrowRight' ? tabs[(index + 1) % 3] : event.key === 'ArrowLeft' ? tabs[(index + 2) % 3] : event.key === 'Home' ? tabs[0] : event.key === 'End' ? tabs[2] : null;
-          if (next) { event.preventDefault(); setTab(next); document.getElementById(`tab-${next}`)?.focus(); }
+          if (next) { event.preventDefault(); chooseBank(next); document.getElementById(`tab-${next}`)?.focus(); }
         }} className={`rounded-md px-2 py-3 text-sm font-semibold ${tab === key ? 'bg-white text-teal-800 shadow-sm' : 'text-slate-600'}`}>{label} <span className="text-xs">{selected > 0 ? `(${selected})` : ''}</span></button>)}
       </div>;
   const selectionPanels = <><div role="tabpanel" id="panel-theory" aria-labelledby="tab-theory" hidden={tab !== "theory"} className="mt-6 space-y-6">
@@ -397,7 +402,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     ];
     return <ChatQbankLobby
       banks={[{ id: "theory", label: "이론", selected: selectedTheoryCount }, { id: "clinical", label: "임상", selected: selectedClinicalCount }, { id: "practice", label: "실전", selected: practiceCount }]}
-      bank={tab} onChooseBank={setTab} stats={stats} total={questions.length + practice.length} quickCount={count}
+      bank={tab} onChooseBank={chooseBank} stats={stats} total={questions.length + practice.length} quickCount={count}
       endingSessionId={endingActiveSessionId} onEndSession={(id) => { const session = activeSessions.find((item) => item.sessionId === id); if (session) void endActiveSession(session); }}
       syncStatus={<>{activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="chat-qbank-sync" /> : null}{activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="chat-qbank-sync" /> : null}</>}
       conversations={activeSessions.map((session) => ({
@@ -408,7 +413,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     >
       <fieldset disabled={loadedDraft !== draftKey} className="chat-qbank-form">
         {selectionTabs}
-        <div className="chat-qbank-picker-content">{selectionPanels}</div>
+        <div ref={chatPickerContent} className="chat-qbank-picker-content">{selectionPanels}</div>
         <div ref={setChatPracticeFooter} className="chat-qbank-practice-footer" hidden={tab !== "practice"} />
         {tab !== "practice" ? <section className="chat-qbank-selection-footer" aria-label="선택한 문제 시작">
           <div className="chat-qbank-start-summary"><div><strong>{randomSources.length ? `${randomLabel} · ${drawCount}문항` : "함께 풀 문제를 선택하세요"}</strong><span>{selectedLabels.length ? compactSessionLabels(selectedLabels) : "분과를 여러 개 선택할 수 있어요"}</span></div>
