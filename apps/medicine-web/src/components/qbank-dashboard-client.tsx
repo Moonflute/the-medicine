@@ -1,5 +1,7 @@
 "use client";
 
+import { ChatQbankLobby } from "@/components/chat-qbank-lobby";
+import { useAppTheme } from "@/components/theme-provider";
 import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
 
@@ -97,7 +99,7 @@ function specialtyChoices(questions: QbankQuestionIndex[], questionBank: "theory
   return [...grouped.values()].sort((left, right) => left.name.localeCompare(right.name, "ko"));
 }
 
-function QuestionBankPicker({ questionBank, title, items, selected, setSelected }: { questionBank: "theory" | "clinical"; title: string; items: SpecialtyChoice[]; selected: string[]; setSelected: (items: string[]) => void }) {
+function QuestionBankPicker({ questionBank, title, items, selected, setSelected, appearance = "default" }: { questionBank: "theory" | "clinical"; title: string; items: SpecialtyChoice[]; selected: string[]; setSelected: (items: string[]) => void; appearance?: "default" | "chat" }) {
   const allSlugs = items.map((item) => item.slug);
   const all = allSlugs.length > 0 && allSlugs.every((slug) => selected.includes(slug));
   const selectionGroups = SPECIALTY_SELECTION_GROUPS.map((group) => ({
@@ -123,9 +125,10 @@ function QuestionBankPicker({ questionBank, title, items, selected, setSelected 
       })}
       <button type="button" onClick={() => toggleSelection(allSlugs)} className={`rounded-md border px-2.5 py-1.5 text-xs font-semibold transition-colors ${all ? "border-teal-700 bg-teal-700 text-white" : "border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-800"}`}>{all ? "전체 해제" : "전체 선택"}</button>
     </div>}
-    {items.length === 0 ? <SkinStatus kind="questionsEmpty" fallback={`연결된 ${questionBank === "theory" ? "이론" : "임상"} 문제가 없습니다.`} className="mt-3 text-sm text-slate-500" /> : <div className="mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4">{items.map((item) => {
+    {items.length === 0 ? <SkinStatus kind="questionsEmpty" fallback={`연결된 ${questionBank === "theory" ? "이론" : "임상"} 문제가 없습니다.`} className="mt-3 text-sm text-slate-500" /> : <div className={appearance === "chat" ? "chat-qbank-choice-list" : "mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4"}>{items.map((item) => {
       const checked = selected.includes(item.slug);
-      return <label key={item.slug} className={`flex cursor-pointer items-start gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`}>
+      return <label key={item.slug} className={appearance === "chat" ? "chat-qbank-choice" : `flex cursor-pointer items-start gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`} data-checked={checked}>
+        {appearance === "chat" ? <span className="skin-contact-avatar" aria-hidden="true" /> : null}
         <input type="checkbox" checked={checked} onChange={() => setSelected(checked ? selected.filter((value) => value !== item.slug) : [...selected, item.slug])} className="mt-0.5 h-4 w-4 shrink-0 accent-teal-600" /><span className="min-w-0">{item.name}</span> <span className="shrink-0 text-[11px] text-slate-500">({item.count})</span>
       </label>;
     })}</div>}
@@ -133,6 +136,8 @@ function QuestionBankPicker({ questionBank, title, items, selected, setSelected 
 }
 
 export function QbankDashboardClient({ questions, relatedTarget }: { questions: QbankQuestionIndex[]; relatedTarget?: RelatedTarget }) {
+  const { theme } = useAppTheme();
+  const chatLayout = theme === "chat" && !relatedTarget;
   const availableQuestions = useMemo(() => {
     if (!relatedTarget) return questions;
     const targetSlugs = new Set(relatedTarget.type === "disease" ? (relatedTarget.scopeSlugs ?? [relatedTarget.slug]) : [relatedTarget.slug]);
@@ -145,6 +150,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const theoryGroups = useMemo(() => THEORY_SOURCE_GROUPS.map((group) => ({ ...group, items: specialtyChoices(availableQuestions, "theory", group.type) })).filter((group) => group.items.length > 0), [availableQuestions]);
   const clinicalSpecialties = useMemo(() => specialtyChoices(availableQuestions, "clinical"), [availableQuestions]);
   const [tab, setTab] = useState<"theory" | "clinical" | "practice">("theory");
+  const [chatPracticeFooter, setChatPracticeFooter] = useState<HTMLDivElement | null>(null);
   const [practice, setPractice] = useState<PracticeIndex[]>([]);
   const [practiceMessage, setPracticeMessage] = useState("실전문제 접근 권한을 확인 중입니다.");
   const [practiceFilters, setPracticeFilters] = useState<PracticeFilters>(EMPTY_PRACTICE_FILTERS);
@@ -366,6 +372,55 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     if (relatedTarget.type === "disease") sessionParams.set("targets", (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).join(","));
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
+  const selectionTabs = <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
+        {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => setTab(key)} onKeyDown={(event) => {
+          const tabs = ['theory', 'clinical', 'practice'] as const;
+          const index = tabs.indexOf(key);
+          const next = event.key === 'ArrowRight' ? tabs[(index + 1) % 3] : event.key === 'ArrowLeft' ? tabs[(index + 2) % 3] : event.key === 'Home' ? tabs[0] : event.key === 'End' ? tabs[2] : null;
+          if (next) { event.preventDefault(); setTab(next); document.getElementById(`tab-${next}`)?.focus(); }
+        }} className={`rounded-md px-2 py-3 text-sm font-semibold ${tab === key ? 'bg-white text-teal-800 shadow-sm' : 'text-slate-600'}`}>{label} <span className="text-xs">{selected > 0 ? `(${selected})` : ''}</span></button>)}
+      </div>;
+  const selectionPanels = <><div role="tabpanel" id="panel-theory" aria-labelledby="tab-theory" hidden={tab !== "theory"} className="mt-6 space-y-6">
+        <div><h3 className="text-base font-semibold text-slate-900">이론 문제 <span className="text-sm font-normal text-slate-500">{theoryGroups.reduce((sum, group) => sum + group.items.reduce((countSum, item) => countSum + item.count, 0), 0).toLocaleString()}문항</span></h3></div>
+        {theoryGroups.map((group) => <div key={group.type} className="border-t border-slate-200 pt-5"><QuestionBankPicker appearance={chatLayout ? "chat" : "default"} questionBank="theory" title={group.title} items={group.items} selected={selectedTheory} setSelected={setSelectedTheory} /></div>)}
+      </div>
+      <div role="tabpanel" id="panel-clinical" aria-labelledby="tab-clinical" hidden={tab !== "clinical"} className="mt-6">
+        <QuestionBankPicker appearance={chatLayout ? "chat" : "default"} questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
+      </div>
+      <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
+        <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
+      </div></>;
+  if (chatLayout) {
+    const selectedLabels = [
+      ...theoryGroups.flatMap((group) => group.items).filter((item) => selectedTheory.includes(item.slug)).map((item) => item.name.replace(/^\d+\s*/, "")),
+      ...clinicalSpecialties.filter((item) => selectedClinical.includes(item.slug)).map((item) => item.name.replace(/^\d+\s*/, "")),
+    ];
+    return <ChatQbankLobby
+      banks={[{ id: "theory", label: "이론", selected: selectedTheoryCount }, { id: "clinical", label: "임상", selected: selectedClinicalCount }, { id: "practice", label: "실전", selected: practiceCount }]}
+      bank={tab} onChooseBank={setTab} stats={stats} total={questions.length + practice.length} quickCount={count}
+      endingSessionId={endingActiveSessionId} onEndSession={(id) => { const session = activeSessions.find((item) => item.sessionId === id); if (session) void endActiveSession(session); }}
+      syncStatus={<>{activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="chat-qbank-sync" /> : null}{activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="chat-qbank-sync" /> : null}</>}
+      conversations={activeSessions.map((session) => ({
+        id: session.sessionId, title: activeSessionDescription(session, questionsById, practiceById, practiceTopicLabels),
+        current: Math.min(session.currentIndex + 1, session.questionIds.length), total: session.questionIds.length, answers: session.answers.length,
+        error: activeSessionError?.sessionId === session.sessionId ? <SkinStatus kind="saveError" fallback={activeSessionError.message} detail={activeSessionError.message} className="chat-qbank-sync" /> : undefined,
+      }))}
+    >
+      <fieldset disabled={loadedDraft !== draftKey} className="chat-qbank-form">
+        {selectionTabs}
+        <div className="chat-qbank-picker-content">{selectionPanels}</div>
+        <div ref={setChatPracticeFooter} className="chat-qbank-practice-footer" hidden={tab !== "practice"} />
+        {tab !== "practice" ? <section className="chat-qbank-selection-footer" aria-label="선택한 문제 시작">
+          <div className="chat-qbank-start-summary"><div><strong>{randomSources.length ? `${randomLabel} · ${drawCount}문항` : "함께 풀 문제를 선택하세요"}</strong><span>{selectedLabels.length ? compactSessionLabels(selectedLabels) : "분과를 여러 개 선택할 수 있어요"}</span></div>
+            <label>문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} aria-describedby="chat-random-count-help" /></label>
+          </div>
+          {randomPool > 0 && validCount ? <Link href={sessionHref} className="chat-qbank-start">대화 시작</Link> : <button type="button" disabled className="chat-qbank-start">{randomPool ? "문항 수를 확인하세요" : "문제를 선택하세요"}</button>}
+          <p id="chat-random-count-help" className="chat-qbank-count-help" role="status">{!validCount ? "1~100 사이의 정수를 입력하세요." : Number(count) > randomPool && randomPool > 0 ? "선택 범위의 모든 문제를 시작합니다." : ""}</p>
+        </section> : null}
+      </fieldset>
+    </ChatQbankLobby>;
+  }
+
   return <div className="space-y-6">
     {!relatedTarget ? <SkinPanel label="문제풀이 요약" className="flex flex-wrap items-center gap-x-5 gap-y-1 px-1 text-xs sm:text-sm" title="풀이 현황" ordinal={1}>
       <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">전체 문제</span><span className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</span></div>
@@ -393,24 +448,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     <SkinPanel className="surface p-5 sm:p-6" title="문제 세트 구성" ordinal={3}>
       <fieldset disabled={loadedDraft !== draftKey}>
       <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
-      <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
-        {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => setTab(key)} onKeyDown={(event) => {
-          const tabs = ['theory', 'clinical', 'practice'] as const;
-          const index = tabs.indexOf(key);
-          const next = event.key === 'ArrowRight' ? tabs[(index + 1) % 3] : event.key === 'ArrowLeft' ? tabs[(index + 2) % 3] : event.key === 'Home' ? tabs[0] : event.key === 'End' ? tabs[2] : null;
-          if (next) { event.preventDefault(); setTab(next); document.getElementById(`tab-${next}`)?.focus(); }
-        }} className={`rounded-md px-2 py-3 text-sm font-semibold ${tab === key ? 'bg-white text-teal-800 shadow-sm' : 'text-slate-600'}`}>{label} <span className="text-xs">{selected > 0 ? `(${selected})` : ''}</span></button>)}
-      </div>
-      <div role="tabpanel" id="panel-theory" aria-labelledby="tab-theory" hidden={tab !== "theory"} className="mt-6 space-y-6">
-        <div><h3 className="text-base font-semibold text-slate-900">이론 문제 <span className="text-sm font-normal text-slate-500">{theoryGroups.reduce((sum, group) => sum + group.items.reduce((countSum, item) => countSum + item.count, 0), 0).toLocaleString()}문항</span></h3></div>
-        {theoryGroups.map((group) => <div key={group.type} className="border-t border-slate-200 pt-5"><QuestionBankPicker questionBank="theory" title={group.title} items={group.items} selected={selectedTheory} setSelected={setSelectedTheory} /></div>)}
-      </div>
-      <div role="tabpanel" id="panel-clinical" aria-labelledby="tab-clinical" hidden={tab !== "clinical"} className="mt-6">
-        <QuestionBankPicker questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
-      </div>
-      <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
-        <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
-      </div>
+      {selectionTabs}
+      {selectionPanels}
       {tab !== "practice" && <SkinPanel className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" label="랜덤풀이 시작 설정" title="출제 설정" ordinal={4}>
         <h3 className="font-semibold text-slate-900">랜덤풀이 시작</h3>
 

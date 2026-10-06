@@ -8,6 +8,7 @@ import { useAppTheme } from "@/components/theme-provider";
 
 const ChatRoomContext = createContext<{
   title: string | null; register: (title: string) => () => void;
+  lobbyToolsTarget: HTMLDivElement | null; setLobbyToolsTarget: (target: HTMLDivElement | null) => void;
   toolsTarget: HTMLDivElement | null; setToolsTarget: (target: HTMLDivElement | null) => void;
   draftTarget: HTMLDivElement | null; setDraftTarget: (target: HTMLDivElement | null) => void;
   actionTarget: HTMLDivElement | null; setActionTarget: (target: HTMLDivElement | null) => void;
@@ -16,6 +17,7 @@ const ChatRoomContext = createContext<{
 /** Slots move the existing controls; their handlers and component state stay intact. */
 export function ChatRoomProvider({ children }: { children: ReactNode }) {
   const [title, setTitle] = useState<string | null>(null);
+  const [lobbyToolsTarget, setLobbyToolsTarget] = useState<HTMLDivElement | null>(null);
   const [toolsTarget, setToolsTarget] = useState<HTMLDivElement | null>(null);
   const [draftTarget, setDraftTarget] = useState<HTMLDivElement | null>(null);
   const [actionTarget, setActionTarget] = useState<HTMLDivElement | null>(null);
@@ -23,7 +25,7 @@ export function ChatRoomProvider({ children }: { children: ReactNode }) {
     setTitle(nextTitle);
     return () => setTitle(current => current === nextTitle ? null : current);
   }, []);
-  const value = useMemo(() => ({ title, register, toolsTarget, setToolsTarget, draftTarget, setDraftTarget, actionTarget, setActionTarget }), [title, register, toolsTarget, draftTarget, actionTarget]);
+  const value = useMemo(() => ({ title, register, lobbyToolsTarget, setLobbyToolsTarget, toolsTarget, setToolsTarget, draftTarget, setDraftTarget, actionTarget, setActionTarget }), [title, register, lobbyToolsTarget, toolsTarget, draftTarget, actionTarget]);
   return <ChatRoomContext.Provider value={value}>{children}</ChatRoomContext.Provider>;
 }
 

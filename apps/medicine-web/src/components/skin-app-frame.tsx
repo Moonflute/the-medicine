@@ -18,6 +18,7 @@ export function SkinAppFrame({ theme, pathname, headerRef, version, children, co
   const [menuOpen, setMenuOpen] = useState(false);
   const room = useChatRoom();
   const inChatRoom = theme === "chat" && Boolean(room?.title);
+  const isQbankLobby = theme === "chat" && pathname === "/review/qbank";
   const special = theme === "chat" || theme === "sheet" || theme === "terminal";
   const current = skinDestination(pathname);
   const isHome = pathname === "/";
@@ -43,8 +44,8 @@ export function SkinAppFrame({ theme, pathname, headerRef, version, children, co
         {special ? <>
         <div className="skin-header-line">
           {theme === "chat" ? <>
-            {isHome ? <MessageCircle className="skin-header-icon" aria-hidden="true" /> : <Link href={current.href} className="skin-icon-button" aria-label="목록으로"><ChevronLeft size={20} /></Link>}
-            <div className="skin-header-heading"><strong>{isHome ? "채팅" : inChatRoom ? room?.title : current.title}</strong><small>{isHome ? "자료를 여는 대화" : conversation || inChatRoom ? "자료 대화방" : "대화방 목록"}</small></div>
+            {isHome ? <MessageCircle className="skin-header-icon" aria-hidden="true" /> : <Link href={isQbankLobby ? "/review" : current.href} className="skin-icon-button" aria-label="목록으로"><ChevronLeft size={20} /></Link>}
+            <div className="skin-header-heading"><strong>{isHome ? "채팅" : inChatRoom ? room?.title : current.title}</strong>{isQbankLobby ? null : <small>{isHome ? "자료를 여는 대화" : conversation || inChatRoom ? "자료 대화방" : "대화방 목록"}</small>}</div>
           </> : theme === "sheet" ? <>
             <Link href="/" className="skin-workbook-icon" aria-label="홈으로">X</Link>
             <div className="skin-header-heading"><strong>업무 노트.xlsx</strong><small>{current.title}</small></div>
@@ -55,7 +56,7 @@ export function SkinAppFrame({ theme, pathname, headerRef, version, children, co
           <div className="skin-header-actions">
             {theme !== "chat" ? <AuthStatus /> : null}
             <Link href="/search" className="skin-icon-button" aria-label="검색"><Search size={18} /></Link>
-            <button type="button" className="skin-icon-button" aria-label="전체 메뉴" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(value => !value)}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button>
+            {isQbankLobby ? <div ref={room?.setLobbyToolsTarget} className="chat-qbank-header-tools" /> : <button type="button" className="skin-icon-button" aria-label="전체 메뉴" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(value => !value)}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button>}
           </div>
         </div>
         {theme === "sheet" ? <>

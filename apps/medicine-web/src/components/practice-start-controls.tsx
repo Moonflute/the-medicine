@@ -5,7 +5,7 @@ import { useEffect, useReducer, useState } from "react";
 import type { PracticeFilters } from "@/lib/practice-selection";
 import { isQbankProgressedInCurrentView, loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 
-export function PracticeStartControls({ total, questionIds, filters, exam = false, label }: { total: number; questionIds: string[]; filters: PracticeFilters; exam?: boolean; label?: string }) {
+export function PracticeStartControls({ total, questionIds, filters, exam = false, label, appearance = "default" }: { total: number; questionIds: string[]; filters: PracticeFilters; exam?: boolean; label?: string; appearance?: "default" | "chat" }) {
   const [count, setCount] = useState(() => String(total));
   const [unattemptedOnly, setUnattemptedOnly] = useState(false);
   const [, refreshProgress] = useReducer((value: number) => value + 1, 0);
@@ -26,6 +26,26 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
     if (exam) params.set("exam", "1");
     return `/review/qbank/session?${params}`;
   };
+  if (appearance === "chat") return <section className="chat-qbank-selection-footer" aria-label="실전문제 시작">
+    <div className="chat-qbank-start-summary"><div><strong>{label ? `실전 · ${label}` : "실전 · 선택한 문제"}</strong><span>{total ? `선택 ${total.toLocaleString()}문항 · ${exam ? "종료 후 채점" : "즉시 해설"}` : "회차 또는 분과를 선택하세요"}</span></div>
+      <label>문항 수<input type="number" min="1" max={Math.max(1, available)} step="1" inputMode="numeric" disabled={!available} value={count} onChange={event => setCount(event.target.value)} aria-describedby="chat-practice-count-help" /></label>
+    </div>
+    <label className="chat-qbank-unattempted-check"><input type="checkbox" checked={unattemptedOnly} onChange={(event) => {
+      const next = event.target.checked;
+      if (next) {
+        const state = loadQbankState();
+        const resetAt = loadQbankProgressViewResetAt();
+        const remaining = questionIds.filter((id) => !isQbankProgressedInCurrentView(state.progress[id], resetAt)).length;
+        if (remaining > 0 && Number(count) > remaining) setCount(String(remaining));
+      }
+      setUnattemptedOnly(next);
+    }} />안 푼 문제만 <span>{unattemptedOnly ? `${available.toLocaleString()}문항` : ""}</span></label>
+    <div className="chat-qbank-start-actions">
+      {valid ? <Link href={href(true)} className="chat-qbank-start">순서대로 시작</Link> : <button type="button" disabled className="chat-qbank-start">순서대로 시작</button>}
+      {valid ? <Link href={href(false)} className="chat-qbank-start chat-qbank-start--secondary">섞어서 시작</Link> : <button type="button" disabled className="chat-qbank-start chat-qbank-start--secondary">섞어서 시작</button>}
+    </div>
+    <p id="chat-practice-count-help" className="chat-qbank-count-help" role="status">{!available ? unattemptedOnly && total > 0 ? "현재 진행 기준에서 미풀이 문제가 없습니다." : "위에서 회차 또는 분과를 선택하세요." : !valid ? `1~${available} 사이의 정수를 입력하세요.` : ""}</p>
+  </section>;
   return <section className="mt-6 rounded-xl border border-teal-300 bg-teal-50/60 p-4 sm:p-5" aria-label="실전문제 시작">
     <h3 className="font-semibold text-slate-900">{label || "선택한 실전문제 풀기"}</h3>
     <p className="mt-2 text-sm text-slate-600">{total ? (unattemptedOnly ? `현재 진행 기준 미풀이 ${available.toLocaleString()} / 선택 ${total.toLocaleString()}문항` : `선택 가능 ${total.toLocaleString()}문항`) : "위에서 회차 또는 분과를 선택하세요."}</p>
