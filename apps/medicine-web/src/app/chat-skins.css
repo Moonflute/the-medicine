@@ -83,6 +83,10 @@ html[data-theme="chat"][data-chat-skin="midnight"] {
 html[data-theme="chat"][data-chat-font="gothic"] { --chat-font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans CJK KR", Arial, sans-serif; }
 html[data-theme="chat"][data-chat-font="serif"] { --chat-font-family: "Batang", "AppleMyungjo", "Noto Serif CJK KR", Georgia, serif; }
 html[data-theme="chat"][data-chat-font="mono"] { --chat-font-family: "D2Coding", "Cascadia Code", "SFMono-Regular", Consolas, monospace; }
+html[data-theme="chat"][data-chat-size="10"] { --chat-font-size:10px; }
+html[data-theme="chat"][data-chat-size="11"] { --chat-font-size:11px; }
+html[data-theme="chat"][data-chat-size="12"] { --chat-font-size:12px; }
+html[data-theme="chat"][data-chat-size="13"] { --chat-font-size:13px; }
 html[data-theme="chat"][data-chat-size="14"] { --chat-font-size:14px; }
 html[data-theme="chat"][data-chat-size="16"] { --chat-font-size:16px; }
 html[data-theme="chat"][data-chat-size="17"] { --chat-font-size:17px; }

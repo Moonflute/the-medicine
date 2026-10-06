@@ -17,7 +17,7 @@ export const chatFonts = [
   { id: "serif", label: "명조" }, { id: "mono", label: "고정폭" },
 ] as const;
 export type ChatFont = (typeof chatFonts)[number]["id"];
-export const CHAT_TEXT_SIZES = [14, 15, 16, 17, 18] as const;
+export const CHAT_TEXT_SIZES = [10, 11, 12, 13, 14, 15, 16, 17, 18] as const;
 export type ChatTextSize = (typeof CHAT_TEXT_SIZES)[number];
 export const isChatSkin = (value: unknown): value is ChatSkin => chatSkins.some(skin => skin.id === value);
 export const isChatFont = (value: unknown): value is ChatFont => chatFonts.some(font => font.id === value);
