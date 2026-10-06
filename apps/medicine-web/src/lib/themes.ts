@@ -7,6 +7,7 @@ export const CHAT_FONT_STORAGE_KEY = "medicine-web-chat-font-v1";
 export const CHAT_SIZE_STORAGE_KEY = "medicine-web-chat-size-v1";
 export const chatSkins = [
   { id: "classic", label: "기본 카톡", description: "하늘색 대화방과 노란 말풍선", background: "#b2c7d9", bubble: "#fae100", chrome: "#b2c7d9" },
+  { id: "clear-blue", label: "Clear Blue", description: "맑은 하늘색 대화방, 흰 받은 톡과 파란 내 톡 · 버튼", background: "#cfe8ff", bubble: "#246bce", chrome: "#cfe8ff" },
   { id: "con", label: "콘 · 그린", description: "작은 초록 악어와 산뜻한 민트색 대화방", background: "#dceacb", bubble: "#bce07c", chrome: "#dceacb" },
   { id: "blossom", label: "벚꽃", description: "연분홍 대화방과 부드러운 꽃잎색 말풍선", background: "#f3e0e7", bubble: "#f9bfce", chrome: "#f3e0e7" },
   { id: "midnight", label: "미드나잇", description: "어두운 대화방과 차분한 회색 말풍선", background: "#1c2028", bubble: "#e6d36b", chrome: "#1c2028" },
