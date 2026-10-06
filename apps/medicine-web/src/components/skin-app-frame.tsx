@@ -18,7 +18,7 @@ export function SkinAppFrame({ theme, pathname, headerRef, version, children, co
   const [menuOpen, setMenuOpen] = useState(false);
   const room = useChatRoom();
   const inChatRoom = theme === "chat" && Boolean(room?.title);
-  const isQbankLobby = theme === "chat" && pathname === "/review/qbank";
+  const isQbankLobby = theme === "chat" && /^\/review\/qbank\/?$/.test(pathname);
   const special = theme === "chat" || theme === "sheet" || theme === "terminal";
   const current = skinDestination(pathname);
   const isHome = pathname === "/";
