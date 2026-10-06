@@ -1,6 +1,7 @@
 "use client";
 
 import { useHubScroll, useHubState } from "@/lib/use-hub-state";
+import { SkinStatus } from "@/components/skin-status";
 
 import { useRouter, useSearchParams } from "next/navigation";
 import dynamic from "next/dynamic";
@@ -17,7 +18,7 @@ type HubTab = "map" | "pathogens" | "diseases" | "antibiotics" | "quiz";
 
 const InfectionRelationMap = dynamic(
   () => import("@/components/infection-relation-map").then((module) => module.InfectionRelationMap),
-  { loading: () => <div className="rounded-xl border border-slate-200 bg-white p-8 text-sm text-slate-500">관계도를 불러오는 중입니다.</div> },
+  { loading: () => <SkinStatus kind="documentLoading" fallback="관계도를 불러오는 중입니다." stage className="rounded-xl border border-slate-200 bg-white p-8 text-sm text-slate-500" /> },
 );
 
 export function InfectionHub({

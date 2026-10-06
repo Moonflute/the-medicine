@@ -2,6 +2,8 @@
 
 import { SkinEntry } from "@/components/skin-entry";
 import { SkinPanel } from "@/components/skin-panel";
+import { SkinStatus } from "@/components/skin-status";
+import type { SkinStatusKind } from "@/lib/skin-status";
 import { useEffect, useMemo, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import { LearningActivityDashboard } from "@/components/learning-activity-dashboard";
@@ -38,7 +40,7 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
   const [recent, setRecent] = useState<RecentReviewItem[]>([]);
   const [tab, setTab] = useState<Tab>("activity");
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState<{ kind: SkinStatusKind; text: string; detail: string } | null>(null);
 
   useEffect(() => {
     const refresh = () => {
@@ -64,13 +66,13 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
 
   function rate(item: ReviewItem, confidence: ReviewConfidence) {
     rateReviewItem(item.type, item.id, confidence);
-    setMessage(`${item.title}: ${confidence}로 기록했습니다.`);
+    setMessage({ kind: "recorded", text: `${item.title}: ${confidence}로 기록했습니다.`, detail: `${item.title} · ${confidence}` });
   }
 
   function toggleSaved(item: ReviewCatalogItem) {
     const nowSaved = toggleReviewItem(item);
     setItems(loadReviewItems(catalog));
-    setMessage(nowSaved ? `${item.title}: 복습 목록에 저장했습니다.` : `${item.title}: 복습 목록에서 제거했습니다.`);
+    setMessage({ kind: nowSaved ? "saved" : "removed", text: nowSaved ? `${item.title}: 복습 목록에 저장했습니다.` : `${item.title}: 복습 목록에서 제거했습니다.`, detail: item.title });
   }
 
 
@@ -90,14 +92,13 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
         </div>
       </section>
 
-      {message ? <div role="status" className="rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900">{message}</div> : null}
+      {message ? <SkinStatus kind={message.kind} fallback={message.text} detail={message.detail} className="rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900" /> : null}
 
       {tab === "activity" ? (
         <LearningActivityDashboard catalog={catalog} questions={questions} />
       ) : current.length === 0 ? (
-        <div className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600">
-          {tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."}
-        </div>
+        <SkinStatus kind={tab === "recent" ? "recentEmpty" : "savedEmpty"} stage className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600"
+          fallback={tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."} />
       ) : (
         <div className="grid gap-4">
           {current.map((item, index) => {
@@ -148,4 +149,3 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
     </div>
   );
 }
-

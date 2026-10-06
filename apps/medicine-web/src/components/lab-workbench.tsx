@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { SkinStatus } from "@/components/skin-status";
 import { useEffect, useMemo, useState } from "react";
 import type { DiseaseNote, DomainNote } from "@/lib/webdb";
 import { RichTextLines } from "./rich-text-lines";
@@ -104,7 +105,7 @@ export function LabWorkbench({notes,diseases}: {notes:DomainNote[];diseases:Dise
     <header className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-300 bg-slate-100 px-3 py-2">
       <h1 className="text-sm font-semibold">Lab &amp; Imaging</h1>
       <div className="flex flex-wrap items-center gap-3 text-[11px] text-slate-500">
-        <span role="status">{storageError?"임시 저장 실패 · 현재 입력은 유지됩니다":ready?"이 탭에 임시 저장":"불러오는 중"}</span>
+        <SkinStatus inline kind={storageError ? "draftError" : ready ? "draftSaved" : "draftLoading"} fallback={storageError?"임시 저장 실패 · 현재 입력은 유지됩니다":ready?"이 탭에 임시 저장":"불러오는 중"} />
         <Link href="/lab-img/numeric-input" className="hover:underline">슬라이더 입력</Link>
         <a href="https://chronic-disease-dun.vercel.app/" target="_blank" rel="noreferrer" className="hover:underline">MedCalc ↗</a>
       </div>
@@ -184,7 +185,7 @@ export function LabWorkbench({notes,diseases}: {notes:DomainNote[];diseases:Dise
         <select aria-label="검사 문서 종류" value={docCategory} onChange={e=>setDocCategory(e.target.value)} className={control+" mt-2 w-full"}><option value="">전체 종류</option>{categories.map(category=><option key={category}>{category}</option>)}</select>
         <div className="mt-2 max-h-60 overflow-auto lg:max-h-[65vh]">{filteredDocs.map(note=><button type="button" key={note.slug} onClick={()=>setDocumentId(note.slug)} aria-pressed={document?.slug===note.slug} className={"block w-full border-b border-slate-200 px-2 py-2 text-left text-xs "+(document?.slug===note.slug?"bg-sky-50 font-semibold text-sky-900":"hover:bg-white")}>{note.title}</button>)}</div>
       </section>
-      <section className="max-h-[75vh] min-w-0 overflow-auto p-4">{document?<><h2 className="mb-3 text-sm font-semibold">{document.title}</h2><NoteBody key={document.slug} note={document} />{document.title==="심전도"&&<Link href={"/lab-img/"+document.slug} className="mt-3 inline-block text-xs text-sky-800 underline">심전도 워크벤치 열기</Link>}</>:<p className="text-xs text-slate-500">검색 결과가 없습니다.</p>}</section>
+      <section className="max-h-[75vh] min-w-0 overflow-auto p-4">{document?<><h2 className="mb-3 text-sm font-semibold">{document.title}</h2><NoteBody key={document.slug} note={document} />{document.title==="심전도"&&<Link href={"/lab-img/"+document.slug} className="mt-3 inline-block text-xs text-sky-800 underline">심전도 워크벤치 열기</Link>}</>:<SkinStatus kind="searchEmpty" fallback="검색 결과가 없습니다." className="text-xs text-slate-500" />}</section>
     </div>}
   </div>;
 }

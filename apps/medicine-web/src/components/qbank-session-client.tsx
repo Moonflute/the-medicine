@@ -1,6 +1,7 @@
 "use client";
 
 import { SkinPanel } from "@/components/skin-panel";
+import { SkinStatus } from "@/components/skin-status";
 
 import { correctAnswers, gradeQuestion, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
 import { remainingQuestions, sessionWrongIds } from "@/lib/qbank-session-results";
@@ -670,11 +671,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     if (client && syncUserId) void removeCloudActiveQbankSession(client, syncUserId, finishedSessionId, endingSnapshot)
       .catch((error) => console.warn("Completed mock session cleanup failed.", error));
   }, [mockExam?.finishedAt, syncUserId]);
-  if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
-  if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
+  if (loading) return <SkinStatus kind="questionsLoading" fallback="문제를 불러오는 중입니다…" stage className="surface p-8 text-center text-slate-600" />;
+  if (error) return <SkinStatus kind="questionsError" fallback={error} detail={error} stage onRetry={() => window.location.reload()} className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900" />;
   if (questions.length === 0) return (
     <div className="surface p-8 text-center">
-      <p className="text-slate-600">조건에 맞는 문제가 없습니다.</p>
+      <SkinStatus kind="questionsEmpty" fallback="조건에 맞는 문제가 없습니다." className="text-slate-600" />
       <Link href="/review/qbank" className="secondary-action mt-4">문제은행으로 돌아가기</Link>
     </div>
   );
@@ -729,7 +730,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </div></ChatOptionalTools>
       }</div>
 
-      {finishError && <p role="alert" className="text-sm text-rose-700">{finishError}</p>}
+      {finishError && <SkinStatus kind="saveError" fallback={finishError} detail={finishError} className="text-sm text-rose-700" />}
       {finishConfirm && <section role="alertdialog" aria-label="미제출 문제 확인" className="rounded-lg border border-amber-300 bg-amber-50 p-4">
         <h2 className="text-sm font-semibold">아직 제출하지 않은 문제가 있습니다.</h2>
         <p className="mt-1 text-sm">미응답 {remaining.unanswered}문항 · 선택 후 미제출 {remaining.unsubmitted}문항</p>

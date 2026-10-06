@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
+import { SkinStatus } from "@/components/skin-status";
 import { notFound, redirect } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { ChiefComplaintDetailTabs } from "@/components/chief-complaint-detail-tabs";
@@ -46,7 +47,7 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
         <span className="font-medium text-slate-950">{note.title}</span>
       </div>
 
-      <Suspense fallback={<div className="surface p-5 text-sm text-slate-500">문서를 불러오는 중입니다.</div>}>
+      <Suspense fallback={<SkinStatus kind="documentLoading" fallback="문서를 불러오는 중입니다." stage className="surface p-5 text-sm text-slate-500" />}>
         <ChiefComplaintDetailTabs note={note} diseaseLinks={diseaseLinks} actions={<>
         <DocumentEditButton sourcePath={note.sourcePath} title={note.title} />
         {relatedQbankCount > 0 ? <Link href={`/review/qbank/related?targetType=cc&target=${encodeURIComponent(note.slug)}&label=${encodeURIComponent(note.title)}`} className="inline-flex h-10 w-10 items-center justify-center border border-slate-300 bg-white text-sm font-bold text-slate-700 transition hover:border-teal-500 hover:text-teal-700" style={{ borderRadius: 8 }} aria-label="관련 문제 풀기" title="관련 문제 풀기">Q</Link> : null}

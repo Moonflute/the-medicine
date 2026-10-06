@@ -38,10 +38,10 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
   if (theme === "chat") return <div className="skin-question-workspace skin-question-chat" data-question-skin="chat">
     <div className="chat-message-date">{mode === "mock" ? "실전 대화" : "문제 대화"} · {number} / {total}</div>
     <div className="skin-q-received"><span className="skin-message-avatar" aria-hidden="true">{sourceTitle.slice(0, 1)}</span><div className="chat-question-message"><span className="skin-message-sender">{sourceTitle}</span><div className="skin-message-bubble">{question}{hintNode}</div></div></div>
-    {submitted ? <><div className="skin-q-sent" aria-label="보낸 답안"><div>{answerText || "모르겠습니다."}</div><small>답안 제출됨</small></div><div className="skin-q-response" aria-live="polite">{response}</div></> : null}
+    {submitted ? <><div className="skin-q-sent" aria-label="보낸 답안"><div>{answerText || "모르겠습니다."}</div><small>전송됨</small></div><div className="skin-q-response" aria-live="polite">{response}</div></> : null}
     {submitted ? <details className="chat-answer-history"><summary>보기 다시 보기</summary>{choices}</details> : <div className="chat-reply-choices"><span className="sr-only">보낼 답을 선택하세요{mode === "mock" ? ". 선택한 답은 자동으로 저장됩니다." : ". 입력창의 전송 버튼으로 제출합니다."}</span>{choices}</div>}
     <ChatComposerContent area="tools"><div className="document-toolbar-actions chat-attachment-actions">{copy}</div></ChatComposerContent>
-    <ChatComposerContent area="draft"><span className="chat-answer-draft" data-empty={!answerText} aria-live="polite">{submitted ? "답장을 보냈습니다." : answerText || "답장 선택"}</span></ChatComposerContent>
+    <ChatComposerContent area="draft"><span className="chat-answer-draft" data-empty={!answerText} aria-live="polite">{submitted ? "답장을 보냈어요." : answerText || "답장 선택"}</span></ChatComposerContent>
     <ChatComposerContent area="action"><div className="chat-send-actions">{actions}</div></ChatComposerContent>
   </div>;
   if (theme === "sheet") return <div className="skin-question-workspace skin-question-sheet" data-question-skin="sheet">

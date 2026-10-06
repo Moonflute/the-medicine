@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
+import { SkinStatus } from "@/components/skin-status";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { InfectionHub } from "@/components/infection-hub";
@@ -21,7 +22,7 @@ export default async function InfectionHubPage(props: { params: Promise<{ slug: 
         <ArrowLeft className="h-4 w-4" />
         감염 분과로 돌아가기
       </Link>
-      <Suspense fallback={<div className="rounded-xl border border-slate-200 bg-white p-6 text-sm text-slate-500">감염 Hub를 불러오는 중입니다.</div>}>
+      <Suspense fallback={<SkinStatus kind="documentLoading" fallback="감염 Hub를 불러오는 중입니다." stage className="rounded-xl border border-slate-200 bg-white p-6 text-sm text-slate-500" />}>
         <InfectionHub
           dataset={getAntibioticSpectrum()}
           pathways={getInfectionPathways()}

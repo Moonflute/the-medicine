@@ -2,6 +2,7 @@
 @import "./themes.css";
 @import "./skins.css";
 @import "./chat-skins.css";
+@import "./skin-status.css";
 
 :root {
   color-scheme: light;
@@ -469,4 +470,3 @@ body:has(.home-settings-dialog[open]) {
     right: 1.5rem;
   }
 }
-

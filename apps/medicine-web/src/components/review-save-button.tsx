@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useAppTheme } from "@/components/theme-provider";
 import { Bookmark, BookmarkCheck } from "lucide-react";
 import {
   loadReviewItems,
@@ -19,7 +20,9 @@ export function ReviewSaveButton({
   trackView?: boolean;
   compact?: boolean;
 }) {
+  const { theme } = useAppTheme();
   const [saved, setSaved] = useState(false);
+  const label = theme === "chat" ? saved ? "보관함에서 꺼내기" : "보관함에 저장" : theme === "terminal" ? saved ? "REMOVE SAVE" : "SAVE" : saved ? "복습 목록에서 제거" : "복습 목록에 저장";
 
   useEffect(() => {
     const refresh = () => {
@@ -42,10 +45,10 @@ export function ReviewSaveButton({
       }
       style={{ borderRadius: 8 }}
       aria-label={saved ? "복습 목록에서 제거" : "복습 목록에 저장"}
-      title={saved ? "복습 목록에서 제거" : "복습 목록에 저장"}
+      title={label}
     >
       {saved ? <BookmarkCheck className="h-5 w-5" /> : <Bookmark className="h-5 w-5" />}
-      {!compact ? <span>{saved ? "저장됨" : "복습 저장"}</span> : null}
+      {!compact ? <span>{theme === "terminal" ? saved ? "SAVED" : "SAVE" : theme === "chat" ? saved ? "저장됨" : "보관함에 저장" : saved ? "저장됨" : "복습 저장"}</span> : null}
     </button>
   );
 }

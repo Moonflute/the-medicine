@@ -1,6 +1,7 @@
 "use client";
 
 import { SkinPanel } from "@/components/skin-panel";
+import { SkinStatus } from "@/components/skin-status";
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
@@ -122,7 +123,7 @@ function QuestionBankPicker({ questionBank, title, items, selected, setSelected 
       })}
       <button type="button" onClick={() => toggleSelection(allSlugs)} className={`rounded-md border px-2.5 py-1.5 text-xs font-semibold transition-colors ${all ? "border-teal-700 bg-teal-700 text-white" : "border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-800"}`}>{all ? "전체 해제" : "전체 선택"}</button>
     </div>}
-    {items.length === 0 ? <p className="mt-3 text-sm text-slate-500">연결된 {questionBank === "theory" ? "이론" : "임상"} 문제가 없습니다.</p> : <div className="mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4">{items.map((item) => {
+    {items.length === 0 ? <SkinStatus kind="questionsEmpty" fallback={`연결된 ${questionBank === "theory" ? "이론" : "임상"} 문제가 없습니다.`} className="mt-3 text-sm text-slate-500" /> : <div className="mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4">{items.map((item) => {
       const checked = selected.includes(item.slug);
       return <label key={item.slug} className={`flex cursor-pointer items-start gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`}>
         <input type="checkbox" checked={checked} onChange={() => setSelected(checked ? selected.filter((value) => value !== item.slug) : [...selected, item.slug])} className="mt-0.5 h-4 w-4 shrink-0 accent-teal-600" /><span className="min-w-0">{item.name}</span> <span className="shrink-0 text-[11px] text-slate-500">({item.count})</span>
@@ -373,14 +374,14 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     </SkinPanel> : null}
 
     {!relatedTarget && (activeSessions.length > 0 || activeSessionSyncError) ? <SkinPanel className="space-y-2" label="진행 중인 문제 세트" title="진행 중인 문제 세트" ordinal={2}>
-      {activeSessionSyncError ? <div role="alert" className="flex flex-wrap items-center gap-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900"><span>{activeSessionSyncError}</span><button type="button" onClick={() => setActiveSessionSyncRevision((value) => value + 1)} className="rounded border border-amber-300 bg-white px-2 py-1 font-medium hover:bg-amber-100">다시 시도</button></div> : null}
-      {activeSessionSyncing ? <p role="status" className="px-1 text-xs text-slate-500">문제 세트 동기화 중…</p> : null}
+      {activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900" /> : null}
+      {activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="px-1 text-xs text-slate-500" /> : null}
       {activeSessions.map((activeSession, index) => <article key={activeSession.sessionId} className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5">
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5"><p className="shrink-0 text-sm font-semibold text-teal-950">세트 {index + 1}</p><p className="min-w-0 text-xs leading-5 text-teal-800">{activeSessionDescription(activeSession, questionsById, practiceById, practiceTopicLabels)}</p>{activeSession.context?.kind === "related-theory" ? <span className="rounded-full bg-teal-700 px-2 py-0.5 text-[10px] font-semibold text-white">관련 문제풀이</span> : null}</div>
           {activeSession.context?.topics?.length ? <div className="mt-1.5 flex flex-wrap gap-1">{activeSession.context.topics.slice(0, 4).map((topic) => <span key={`${topic.type}:${topic.slug}`} className="rounded-full border border-teal-200 bg-white/80 px-2 py-0.5 text-[10px] text-teal-900">{topic.title} {topic.count}</span>)}</div> : null}
           <p className="mt-1 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
-          {activeSessionError?.sessionId === activeSession.sessionId ? <p role="alert" className="mt-1 text-xs text-rose-700">{activeSessionError.message}</p> : null}
+          {activeSessionError?.sessionId === activeSession.sessionId ? <SkinStatus kind="saveError" fallback={activeSessionError.message} detail={activeSessionError.message} className="mt-1 text-xs text-rose-700" /> : null}
         </div>
         <div className="flex shrink-0 gap-1.5">
           <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="qbank-session-action qbank-session-action--resume">재개</Link>
@@ -444,4 +445,3 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     </div> : null}
   </div>;
 }
-

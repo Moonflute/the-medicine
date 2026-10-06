@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { SkinStatus } from "@/components/skin-status";
 import { BookOpenCheck, X } from "lucide-react";
 import { useMemo, useState } from "react";
 import {
@@ -108,8 +109,8 @@ export function RelatedTheoryLauncher({ question }: { question: QbankQuestion })
           <button type="button" onClick={() => setOpen(false)} className="secondary-action h-9 w-9 shrink-0 !px-0" aria-label="닫기"><X className="h-4 w-4" /></button>
         </header>
         <div className="p-5">
-          {loading ? <p className="py-8 text-center text-sm text-slate-600">관련 문항을 계산하는 중입니다…</p> : null}
-          {error ? <div role="alert" className="rounded-lg border border-rose-200 bg-rose-50 p-4 text-sm text-rose-800"><p>{error}</p><button type="button" className="secondary-action mt-3" onClick={() => { setIndex([]); void showPicker(); }}>다시 시도</button></div> : null}
+          {loading ? <SkinStatus kind="relatedLoading" fallback="관련 문항을 계산하는 중입니다…" stage className="py-8 text-center text-sm text-slate-600" /> : null}
+          {error ? <SkinStatus kind="questionsError" fallback={error} detail={error} onRetry={() => { setIndex([]); void showPicker(); }} className="rounded-lg border border-rose-200 bg-rose-50 p-4 text-sm text-rose-800" /> : null}
           {!loading && !error ? <>
             <div className="space-y-2">{allStats.topics.map((topic) => {
               const key = relatedTheoryTopicKey(topic);

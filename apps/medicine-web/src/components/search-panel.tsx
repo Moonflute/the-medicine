@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { SkinEntry } from "@/components/skin-entry";
+import { SkinStatus } from "@/components/skin-status";
 import { useRouter } from "next/navigation";
 import { ArrowRight, Clock3, Search, Trash2 } from "lucide-react";
 import { SkinHomeDirectory } from "@/components/skin-home-directory";
@@ -238,7 +239,7 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
                 );
               })}</div>
             </section>
-          )) : <div className="surface-subtle p-5 text-sm text-slate-600">검색 결과가 없습니다.</div>}
+          )) : <SkinStatus kind="searchEmpty" fallback="검색 결과가 없습니다." className="surface-subtle p-5 text-sm text-slate-600" />}
         </div>
       ) : null}
     </section>
