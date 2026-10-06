@@ -1,5 +1,6 @@
 "use client";
 
+import { ChatSenderProvider } from "@/components/chat-contact";
 import { useMemo, useState, type ReactNode } from "react";
 import { ChiefComplaintDocumentHeader } from "@/components/chief-complaint-document-header";
 import { useSearchParams } from "next/navigation";
@@ -332,7 +333,7 @@ export function ChiefComplaintDetailTabs({
   const sections = useMemo(() => getViewSections(note, activeView), [note, activeView]);
 
   return (
-    <div className="cc-themed-document space-y-6">
+    <ChatSenderProvider name={note.category}><div className="cc-themed-document space-y-6">
       <ChiefComplaintDocumentHeader title={note.title} actions={actions}>
             {views.map((view) => {
               const selected = activeView === view.key;
@@ -364,7 +365,7 @@ export function ChiefComplaintDetailTabs({
         }))} />
       </div>
       {relatedContent}
-    </div>
+    </div></ChatSenderProvider>
   );
 }
 

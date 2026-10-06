@@ -1,3 +1,4 @@
+import { ChatSenderProvider } from "@/components/chat-contact";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AlertTriangle, CheckSquare, ChevronRight, Info, Link2, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
@@ -49,7 +50,7 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
       ]} /> },
   ];
 
-  return <div className="space-y-6">
+  return <ChatSenderProvider name={skill.categoryName}><div className="space-y-6">
     <div className="flex flex-wrap items-center gap-2 text-sm text-slate-500"><Link href="/skills" className="transition hover:text-slate-950">Clinical Skills</Link><ChevronRight className="h-4 w-4" /><span>{skill.categoryName}</span><ChevronRight className="h-4 w-4" /><span className="font-medium text-slate-950">{skill.name}</span></div>
     <DocumentToolbar title={skill.name}>
       <DocumentEditButton sourcePath={skill.sourcePath} title={skill.name} />
@@ -66,5 +67,5 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
     </div>
     <SkinDocumentSections sections={sections} className="grid items-start gap-4 lg:grid-cols-2" plainSectionClassName="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm" />
     <ParentPageFab href={`/skills/category/${skill.categoryId}`} />
-  </div>;
+  </div></ChatSenderProvider>;
 }

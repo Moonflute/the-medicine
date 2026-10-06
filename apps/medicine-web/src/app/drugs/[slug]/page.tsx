@@ -1,3 +1,4 @@
+import { ChatSenderProvider } from "@/components/chat-contact";
 import { SkinDocumentSections } from "@/components/skin-document";
 import { ContentMetadata } from "@/components/content-metadata";
 import Link from "next/link";
@@ -101,7 +102,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
   const infectionPathways = antibioticEntry ? getInfectionPathwaysForAntibiotic(antibioticEntry.id) : [];
 
   return (
-    <div className="drug-document space-y-6">
+    <ChatSenderProvider name={note.category}><div className="drug-document space-y-6">
       <DocumentToolbar title={note.title}>
         <DocumentEditButton sourcePath={note.sourcePath} title={note.title} />
         <ReviewSaveButton compact item={{ type: "drug", id: note.id, title: note.title, href: `/drugs/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
@@ -244,7 +245,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
       <MicrobiologyBacklinks targetType="drug" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
-    </div>
+    </div></ChatSenderProvider>
   );
 }
 

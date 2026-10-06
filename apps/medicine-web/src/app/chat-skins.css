@@ -140,6 +140,16 @@ html[data-theme="chat"] .skin-q-response { font-family:var(--chat-font-family); 
 html[data-theme="chat"] .skin-q-response :is(p,[data-highlight-block]) { font-size:var(--chat-font-size); line-height:1.75; }
 html[data-theme="chat"] .skin-frame .skin-doc-panel :is(label,.skin-checklist-message) { background:var(--chat-received); color:var(--chat-text); }
 html[data-theme="chat"] .skin-contact-avatar { background:var(--chat-avatar); color:var(--chat-meta); }
+html[data-theme="chat"] .skin-frame :is(.skin-message-avatar,.skin-contact-avatar) {
+  background-color:#91c9ed;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='23' r='11' fill='%23eef7ff'/%3E%3Cpath d='M9 64v-7c0-13 10-21 23-21s23 8 23 21v7Z' fill='%23eef7ff'/%3E%3C/svg%3E"),linear-gradient(145deg,#9bcff1,#6bade1);
+  background-size:100% 100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:transparent;
+  font-size:0;
+  overflow:hidden;
+}
 html[data-theme="chat"] .skin-entry--chat { border-color:var(--line); }
 html[data-theme="chat"] .skin-chat-dock [aria-current] .skin-dock-glyph { background:transparent; color:var(--chat-text); }
 html[data-theme="chat"] .skin-chat-dock .skin-dock-glyph { height:24px; }
@@ -233,7 +243,7 @@ html[data-theme="chat"] .chat-send-actions .skin-q-send-label { display:none; }
 .chat-tools-grid .chat-attachment-actions > :is(a,button) > svg,.chat-tools-grid [data-highlighter-slot] button > svg { width:22px; height:22px; }
 
 /* The green character is drawn as vector artwork, with no extra image request. */
-html[data-theme="chat"][data-chat-skin="con"] :is(.skin-message-avatar,.skin-contact-avatar,.review-action-icon) { background-color:var(--chat-avatar); background-image:var(--chat-character); background-position:center; background-repeat:no-repeat; background-size:90%; color:transparent; font-size:0; }
+html[data-theme="chat"][data-chat-skin="con"] .review-action-icon { background-color:var(--chat-avatar); background-image:var(--chat-character); background-position:center; background-repeat:no-repeat; background-size:90%; color:transparent; font-size:0; }
 html[data-theme="chat"][data-chat-skin="con"] .review-action-icon svg { visibility:hidden; }
 html[data-theme="chat"][data-chat-skin="con"] .skin-frame[data-chat-room="true"] .skin-page { background-image:var(--chat-character); background-size:105px auto; background-repeat:no-repeat; background-position:right 24px bottom 96px; background-attachment:fixed; }
 html[data-theme="chat"][data-chat-skin="midnight"] .review-launchers { background:var(--chat-chrome); border-color:var(--line); }

@@ -1,4 +1,5 @@
 "use client";
+import { ChatSenderProvider } from "@/components/chat-contact";
 import atlasMappings from "@/generated/atlas-links.json";
 
 import { useMemo } from "react";
@@ -72,7 +73,7 @@ export function DiseaseCard({
   );
 
   return (
-    <article className="clinical-document surface">
+    <ChatSenderProvider name={note.specialty}><article className="clinical-document surface">
       {!compact && <DocumentToolbar title={displayTitle}>
             <DocumentEditButton sourcePath={note.sourcePath} title={displayTitle} />
             {relatedQbankHref ? (
@@ -168,7 +169,7 @@ export function DiseaseCard({
         }))} />
       ) : null}
 
-    </article>
+    </article></ChatSenderProvider>
   );
 }
 

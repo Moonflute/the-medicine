@@ -1,3 +1,4 @@
+import { ChatSenderProvider } from "@/components/chat-contact";
 import { SkinDocumentSections } from "@/components/skin-document";
 import { ContentMetadata } from "@/components/content-metadata";
 import { notFound } from "next/navigation";
@@ -48,7 +49,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
   const relations = getClinicalRelationsFor("lab", note.id);
 
   return (
-    <div className="space-y-6">
+    <ChatSenderProvider name={note.category}><div className="space-y-6">
       <div className="flex items-center justify-between gap-3">
         <Link href={parentHref} className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-teal-300 hover:text-teal-800">
           <ArrowLeft className="h-4 w-4" />
@@ -119,7 +120,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
       <MicrobiologyBacklinks targetType="lab" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
-    </div>
+    </div></ChatSenderProvider>
   );
 }
 

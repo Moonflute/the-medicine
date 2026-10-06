@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type ReactNode } from "react";
 import { useAppTheme } from "@/components/theme-provider";
+import { useChatSenderName } from "@/components/chat-contact";
 
 export type SkinTextBlock = { kind: "text" | "heading" | "group" | "table" | "space"; label?: string; content: ReactNode };
 
@@ -18,11 +19,12 @@ export function SkinDocumentNotice({ title, children, className = "mt-3 flex fle
 export function SkinTextBlocks({ blocks, className }: { blocks: SkinTextBlock[]; className: string }) {
   const { theme } = useAppTheme();
   const [selectedRow, setSelectedRow] = useState<number | null>(null);
+  const senderName = useChatSenderName();
   if (theme !== "chat" && theme !== "sheet" && theme !== "terminal") return <div className={`min-w-0 ${className}`.trim()}>{blocks.map((block, index) => <div key={index}>{block.content}</div>)}</div>;
   const visible = blocks.filter(block => block.kind !== "space");
   if (theme === "chat") return <div className="skin-message-stream" data-skin-blocks="chat">
     {visible.map((block, index) => block.kind === "heading" ? <div key={index} className="skin-message-divider">{block.content}</div> : <div key={index} className="skin-note-message" data-message-kind={block.kind}>
-      <span className="skin-message-avatar" aria-hidden="true">노트</span><div className="skin-note-message-body"><span className="skin-message-sender">{block.label || (block.kind === "table" ? "표 자료" : "자료")}</span><div className="skin-message-bubble">{block.content}</div></div>
+      <span className="skin-message-avatar" aria-hidden="true">노트</span><div className="skin-note-message-body"><span className="skin-message-sender">{senderName}</span><div className="skin-message-bubble">{block.content}</div></div>
     </div>)}
   </div>;
   if (theme === "sheet") return <div className="skin-note-sheet" data-skin-blocks="sheet">
@@ -106,7 +108,7 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
 
 export function SkinDocumentIntro({ title, category, children }: { title: string; category?: string; children: ReactNode }) {
   const { theme } = useAppTheme();
-  if (theme === "chat" && title) return <div className="skin-document-intro skin-document-intro--chat"><SkinDocumentNotice title={`${category || "자료 안내"} · 공지`}>{children}</SkinDocumentNotice></div>;
+  if (theme === "chat" && title) return <div className="skin-document-intro skin-document-intro--chat"><SkinDocumentNotice title={`${title} · 공지`}>{children}</SkinDocumentNotice></div>;
   return <div className={`skin-document-intro skin-document-intro--${theme}`}>
     {theme === "chat" && title ? <div className="skin-document-contact"><span className="skin-contact-avatar" aria-hidden="true">{title.slice(0, 1)}</span><span><strong>{title}</strong><small>{category || "자료 대화"}</small></span></div> : theme === "terminal" && title ? <div className="skin-command-line">C:\NOTES&gt; TYPE &quot;{title}&quot;</div> : null}
     <div className="skin-document-intro-content">{children}</div>
