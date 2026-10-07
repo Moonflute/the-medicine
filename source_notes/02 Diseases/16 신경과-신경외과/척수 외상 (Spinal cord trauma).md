@@ -29,7 +29,6 @@ guideline_reviewed_at: '2026-10-08'
 sources:
   - "AO Spine/Praxis 급성 척수손상 임상 가이드라인 개정 소개, 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10964896/"
 ---
-
 # 척수 외상
 
 ## 초기 안정화와 신경학적 평가
@@ -56,7 +55,6 @@ sources:
 - [[전 척수 증후군 (Anterior cord syndrome)]]
 - [[중심 척수 증후군 (Central cord syndrome)]]
 - [[후 척수 증후군 (Posterior cord syndrome)]]
-
 
 ## 참고 자료
 

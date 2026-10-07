@@ -23,7 +23,6 @@ sources:
   - "ISUOG 쌍태 임신 초음파 실무지침, 2025 | https://www.isuog.org/static/89db40d1-928b-49bc-be5ea200fd41130c/ISUOG-Practice-Guidelines-role-of-ultrasound-in-twin-pregnancy.pdf"
   - "NICE NG137 쌍태·삼태 임신, 2019; 조산 예방 2024 개정 | https://www.nice.org.uk/guidance/ng137/chapter/Recommendations"
 ---
-
 # 쌍둥이 임신
 
 ## 융모막성과 양막성이 관리 기준
@@ -48,7 +47,6 @@ sources:
 ## 포함 질환
 - [[단일 양막성 쌍태 임신 (Monoamniotic Twins)]]
 - [[쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)]]
-
 
 ## 참고 자료
 

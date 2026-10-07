@@ -20,7 +20,6 @@ sources:
   - "S3 SJS/TEN 진단·치료 가이드라인, 2024 | https://onlinelibrary.wiley.com/doi/10.1111/ddg.15515"
   - "성인 DRESS 관리 국제 Delphi 합의, 2024 | https://pubmed.ncbi.nlm.nih.gov/37966824/"
 ---
-
 # Type IV
 
 ## T세포 매개 반응의 범위
@@ -45,7 +44,6 @@ DRESS는 간·신장·혈액과 기타 장기 손상에 따른 중증도 기반 
 - [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]]
 - [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]]
 - [[접촉피부염 (Contact Dermatitis)]]
-
 
 ## 참고 자료
 

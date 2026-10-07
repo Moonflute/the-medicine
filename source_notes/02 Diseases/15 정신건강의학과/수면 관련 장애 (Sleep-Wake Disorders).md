@@ -32,7 +32,6 @@ sources:
   - "AASM: Treatment of Restless Legs Syndrome and Periodic Limb Movement Disorder (2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/"
   - "AASM: Management of REM Sleep Behavior Disorder (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/"
 ---
-
 # 수면 관련 장애
 
 ## 잠이 안 오는 것과 낮에 졸린 것을 구분
@@ -71,7 +70,6 @@ AASM 2025 하지불안증후군 권고는 철 결핍·유발 요인 교정과 ga
 - [[수면 무호흡증 (Sleep Apnea Syndrome)]]
 - [[악몽 (Nightmare)]]
 - [[일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)]]
-
 
 ## 참고 자료
 

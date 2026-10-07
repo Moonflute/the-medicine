@@ -31,7 +31,6 @@ group_members:
 content_updated_at: '2026-10-08'
 guideline_reviewed_at: '2026-10-08'
 ---
-
 # 출혈성 뇌졸중
 
 ## 비외상성 뇌출혈과 외상성 혈종 구분
@@ -66,7 +65,6 @@ ABC와 신경학적 상태를 확인하고 비조영 CT를 신속히 시행한�
 - [[뇌내 출혈 (Intracerebral hemorrhage)]]
 - [[만성 경막하 출혈 (Chronic subdural hematoma)]]
 - [[지주막하 출혈 (Subarachnoid hemorrhage)]]
-
 
 ## 참고 자료
 

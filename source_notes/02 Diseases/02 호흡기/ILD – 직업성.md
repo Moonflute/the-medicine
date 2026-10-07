@@ -21,7 +21,6 @@ sources:
   - "ATSDR 석면 건강 영향, 2026-10 현행 자료 확인 | https://www.atsdr.cdc.gov/asbestos/health-effects/index.html"
   - "ATSDR 석면 임상평가·검사, 보존 임상 교육자료 | https://archive.cdc.gov/www_atsdr_cdc_gov/csem/asbestos/clinical_assessment-tests.html"
 ---
-
 # ILD – 직업성
 
 ## 노출력과 영상의 결합
@@ -44,7 +43,6 @@ sources:
 ## 포함 질환
 - [[규폐증 (Silicosis)]]
 - [[석면폐증 (Asbestosis)]]
-
 
 ## 참고 자료
 

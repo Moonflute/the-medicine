@@ -19,7 +19,6 @@ sources:
   - "BSH 일차 자가면역 용혈성 빈혈 진단·관리 가이드라인, 2016 | https://b-s-h.org.uk/media/2636/aiha_primary_guideline_bsh_website.pdf"
   - "ATA 갑상샘항진증·갑상샘중독증 가이드라인, 2016 | https://www.thyroid.org/professionals/ata-professional-guidelines/"
 ---
-
 # Type II
 
 ## 항체가 표적으로 하는 위치
@@ -45,7 +44,6 @@ II형 과민반응은 세포 표면·기저막·수용체에 대한 IgG 또는 I
 ## 포함 질환
 - [[그레이브스병 (Graves' Disease)]]
 - [[자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)]]
-
 
 ## 참고 자료
 

@@ -29,7 +29,6 @@ sources:
   - "NICE CG178: Psychosis and Schizophrenia in Adults (2014; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg178/chapter/recommendations"
   - "Merck Manual: Schizoaffective Disorder (2026-10 확인) | https://www.merckmanuals.com/en-ca/home/mental-health-disorders/schizophrenia-and-related-disorders/schizoaffective-disorder"
 ---
-
 # 조현병 스펙트럼 장애
 
 ## 정신병 증상과 원인을 분리하기
@@ -64,7 +63,6 @@ sources:
 - [[조현병 (Schizophrenia)]]
 - [[조현양상장애 (Schizophreniform disorder)]]
 - [[조현정동장애 (Schizoaffective disorder)]]
-
 
 ## 참고 자료
 

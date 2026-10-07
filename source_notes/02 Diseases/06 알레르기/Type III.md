@@ -22,7 +22,6 @@ sources:
   - "CDC PSGN 임상 지침, 2025 자료; 2026-10 확인 | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html"
   - "Merck Manual Professional 약물 과민반응, 임상 참고자료; 2026-10 확인 | https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/drug-hypersensitivity"
 ---
-
 # Type III
 
 ## 면역복합체 침착의 판단
@@ -48,7 +47,6 @@ PSGN은 고혈압·부종 관리와 남은 감염의 치료가 중요하다. 항
 - [[혈청병 (Serum Sickness)]]
 - [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]]
 - [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]
-
 
 ## 참고 자료
 

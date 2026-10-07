@@ -29,7 +29,6 @@ group_members:
 - 전두측두엽 치매 (Frontotemporal Dementia)
 guideline_reviewed_at: '2026-10-08'
 ---
-
 # 치매
 
 ## 독립적 생활을 방해하는 인지 저하
@@ -64,7 +63,6 @@ FDA 2025 안전성 공지는 lecanemab의 제3회 주입 전 MRI 감시 추가�
 - [[레비 소체 치매 (Dementia with Lewy Bodies)]]
 - [[알츠하이머 치매 (Alzheimer's Disease)]]
 - [[전두측두엽 치매 (Frontotemporal Dementia)]]
-
 
 ## 참고 자료
 

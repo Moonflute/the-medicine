@@ -31,7 +31,6 @@ sources:
   - "VA National Center for PTSD: Acute Stress Disorder (2026-10 확인) | https://www.ptsd.va.gov/professional/treat/essentials/acute_stress_disorder.asp"
   - "Merck Manual: Overview of Dissociative Disorders (2026-10 확인) | https://www.merckmanuals.com/professional/psychiatric-disorders/dissociative-disorders/overview-of-dissociative-disorders"
 ---
-
 # 외상 및 스트레스 관련 장애
 
 ## 사건·기간·증상군을 함께 확인
@@ -70,7 +69,6 @@ VA/DoD 2023은 PTSD에서 지속 노출, 인지처리치료, EMDR 같은 외상 
 - [[외상 후 스트레스 장애 (PTSD)]]
 - [[이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)]]
 - [[적응 장애 (Adjustment Disorder)]]
-
 
 ## 참고 자료
 

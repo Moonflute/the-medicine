@@ -34,7 +34,6 @@ sources:
   - "NCI 호지킨 림프종 전문의용 PDQ, 2025 갱신 내용; 2026-10 확인 | https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq"
   - "NCI 림프종 치료 전문의 자료, 지속 갱신; 2026-10 확인 | https://www.cancer.gov/types/lymphoma/hp"
 ---
-
 # 림프종
 
 ## 진단·병기·위험은 별개의 단계
@@ -64,7 +63,6 @@ sources:
 - [[버킷 림프종 (Burkitt's Lymphoma)]]
 - [[소림프구 림프종 (Small Lymphocytic Lymphoma)]]
 - [[여포성 림프종 (Follicular Lymphoma)]]
-
 
 ## 참고 자료
 

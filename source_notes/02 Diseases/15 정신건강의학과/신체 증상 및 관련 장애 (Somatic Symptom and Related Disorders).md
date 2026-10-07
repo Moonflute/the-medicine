@@ -30,7 +30,6 @@ sources:
   - "Merck Manual: Factitious Disorder Imposed on Self (2026-10 확인) | https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/factitious-disorder-imposed-on-self"
   - "JAMA Neurology: Current Concepts in Diagnosis and Treatment of Functional Neurological Disorders (2018) | https://pmc.ncbi.nlm.nih.gov/articles/PMC7293766/"
 ---
-
 # 신체 증상 및 관련 장애
 
 ## 증상은 실제이며 기질 질환과 공존할 수 있음
@@ -63,7 +62,6 @@ sources:
 - [[인위성 장애 (Factitious Disorder)]]
 - [[전환 장애 (Conversion Disorder)]]
 - [[질병 불안 장애 (Illness Anxiety Disorder)]]
-
 
 ## 참고 자료
 

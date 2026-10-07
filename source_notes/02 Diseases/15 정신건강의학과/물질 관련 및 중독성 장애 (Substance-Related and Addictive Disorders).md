@@ -35,7 +35,6 @@ sources:
   - "ASAM 등 benzodiazepine 감량 공동 가이드라인, 2025 | https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering"
   - "ASAM 오피오이드 사용장애 임상 가이드라인, 2020 집중개정 | https://www.asam.org/quality-care/clinical-guidelines/national-practice-guideline"
 ---
-
 # 물질 관련 및 중독성 장애
 
 ## 사용장애·중독·금단의 구별
@@ -74,7 +73,6 @@ AUDIT 등 설문은 선별 도구이며 약물 검사 양성만으로 중독의 
 - [[알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)]]
 - [[자극제 (Stimulants)]]
 - [[진정제, 수면제 (Sedatives, Hypnotics)]]
-
 
 ## 참고 자료
 

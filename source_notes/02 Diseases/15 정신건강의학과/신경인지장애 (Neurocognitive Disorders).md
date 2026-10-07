@@ -27,7 +27,6 @@ sources:
   - "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/"
   - "Alzheimer's Association: Blood-Based Biomarkers in Specialized Care (2025) | https://aaic.alz.org/releases-2025/clinical-practice-guideline-blood-based-biomarkers.asp"
 ---
-
 # 신경인지장애
 
 ## 발병 속도와 독립성으로 나누기
@@ -59,7 +58,6 @@ NICE 2023 섬망 권고는 일반 병동에서 4AT, 중환자실에서는 CAM-IC
 - [[치매 (Dementia)]]
 - [[섬망 (Delirium)]]
 - [[일과성 전체 기억 상실 (Transient Global Amnesia)]]
-
 
 ## 참고 자료
 

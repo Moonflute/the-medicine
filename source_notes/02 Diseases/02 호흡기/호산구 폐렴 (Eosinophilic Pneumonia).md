@@ -30,7 +30,6 @@ sources:
   - "ACR/Vasculitis Foundation ANCA 연관 혈관염 지침, 2021 | https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24634"
   - "Merck Manual Professional 급성 호산구 폐렴, 임상 참고자료; 2026-10 확인 | https://www.merckmanuals.com/professional/pulmonary-disorders/interstitial-lung-diseases/acute-eosinophilic-pneumonia"
 ---
-
 # 호산구 폐렴
 
 ## 호산구성 폐질환의 범위
@@ -59,7 +58,6 @@ ISHAM 2024 ABPA 기준은 적절한 배경 또는 임상·영상 양상에서 �
 - [[폐흡충증 (Pulmonary Paragonimiasis)]]
 - [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]]
 - [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]]
-
 
 ## 참고 자료
 
