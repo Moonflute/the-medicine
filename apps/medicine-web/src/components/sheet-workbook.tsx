@@ -40,7 +40,7 @@ function visibleRows(root: HTMLElement) {
 }
 
 /** A single canvas owns row numbering and cell selection for the visible worksheet. */
-export function SheetDocumentCanvas({ children }: { children: ReactNode }) {
+export function SheetDocumentCanvas({ children, className = "" }: { children: ReactNode; className?: string }) {
   const workbook = useSheetWorkbook();
   const selectCell = (target: EventTarget, root: HTMLElement) => {
     if (!(target instanceof HTMLElement)) return;
@@ -66,7 +66,7 @@ export function SheetDocumentCanvas({ children }: { children: ReactNode }) {
     else if (event.key === "ArrowRight" && column === "A") target = row.querySelector<HTMLElement>('[data-sheet-cell="B"]:not(.sheet-row-number)');
     if (target) { event.preventDefault(); target.focus(); }
   };
-  return <div className="sheet-document" data-sheet-document={Boolean(workbook?.title)} onClick={event => selectCell(event.target, event.currentTarget)} onFocusCapture={event => selectCell(event.target, event.currentTarget)} onKeyDown={navigate}>{children}</div>;
+  return <div className={`sheet-document ${className}`.trim()} data-sheet-document={Boolean(workbook?.title)} onClick={event => selectCell(event.target, event.currentTarget)} onFocusCapture={event => selectCell(event.target, event.currentTarget)} onKeyDown={navigate}>{children}</div>;
 }
 
 export function SheetCellRow({ label, children, heading = false, initial = false }: {

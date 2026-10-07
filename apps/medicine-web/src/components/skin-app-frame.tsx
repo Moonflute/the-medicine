@@ -75,7 +75,7 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
         </> : normalHeader}
       </header>
       {!special ? normalExtras : null}
-      <main key="main-content" data-personal-highlight-root className={special ? "app-main skin-page" : "app-main flex-1 px-4 py-6 sm:px-6 xl:px-8"}><div className={special ? "skin-page-content" : "mx-auto max-w-7xl"}><SheetDocumentCanvas>{children}</SheetDocumentCanvas></div><ChatRoomComposer /></main>
+      <main key="main-content" data-personal-highlight-root className={special ? "app-main skin-page" : "app-main flex-1 px-4 py-6 sm:px-6 xl:px-8"}><SheetDocumentCanvas className={special ? "skin-page-content" : "mx-auto max-w-7xl"}>{children}</SheetDocumentCanvas><ChatRoomComposer /></main>
       {special && theme === "chat" ? <nav className="skin-chat-dock app-bottom-nav" aria-label="주 메뉴" hidden={inChatRoom}>
         {[skinDestinations[0], skinDestinations[1], skinDestinations[2], skinDestinations[6]].map((item, index) => { const Icon = chatDockIcons[index]; return <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined}><span className="skin-dock-glyph" aria-hidden="true"><Icon size={23} /></span><span>{item.short}</span></Link>; })}
         <button type="button" aria-label="전체 메뉴" aria-expanded={menuOpen} aria-controls="skin-app-menu" onClick={() => setMenuOpen(value => !value)}><span className="skin-dock-glyph" aria-hidden="true"><Ellipsis size={24} /></span><span>더보기</span></button>
