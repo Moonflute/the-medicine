@@ -331,7 +331,9 @@ html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-q
 .concept-answer-sheet { min-width:0; margin:12px 0; border:1px solid var(--line); }
 .concept-answer-sheet > summary { padding:11px 12px; font-size:12px; cursor:pointer; background:var(--surface-subtle); }
 .concept-answer-sheet > .skin-panel { border:0; margin:0; }
-html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .qbank-session-progress [aria-label="문제 번호 이동"] details > div { z-index:60; }
+html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .qbank-session-progress [aria-label="문제 번호 이동"] { position:relative; z-index:60; }
+html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .qbank-session-progress [aria-label="문제 번호 이동"] details { position:static; }
+html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .qbank-session-progress [aria-label="문제 번호 이동"] details > div { top:100%; z-index:60; }
 html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-status { font-size:11px; line-height:1.8; padding:10px 0; color:var(--muted); }
 html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-status-line { display:flex; gap:8px; align-items:center; }
 html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-status--stage { min-height:100px; display:flex; align-items:center; justify-content:center; }
