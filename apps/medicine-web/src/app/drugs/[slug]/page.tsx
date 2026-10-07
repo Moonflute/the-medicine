@@ -1,5 +1,5 @@
 import { ChatSenderProvider } from "@/components/chat-contact";
-import { SkinDocumentSections } from "@/components/skin-document";
+import { SkinDocumentIntro, SkinDocumentSections } from "@/components/skin-document";
 import { ContentMetadata } from "@/components/content-metadata";
 import Link from "next/link";
 import { DocumentToolbar } from "@/components/document-toolbar";
@@ -107,7 +107,24 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
         <DocumentEditButton sourcePath={note.sourcePath} title={note.title} />
         <ReviewSaveButton compact item={{ type: "drug", id: note.id, title: note.title, href: `/drugs/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
       </DocumentToolbar>
-      <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
+      <SkinDocumentIntro title={note.title} category={note.category} sheetRows={[
+        { label: "분류 경로", content: [note.drugMeta?.categoryPath || note.category, note.drugMeta?.detailClass].filter(Boolean).join(" > ") },
+        ...([note.folder, note.drugMeta?.clinicalCore ? "Clinical core" : "", priorityLabel].some(Boolean) ? [{ label: "태그", content: [note.folder, note.drugMeta?.clinicalCore ? "Clinical core" : "", priorityLabel].filter(Boolean).join(" · ") }] : []),
+        ...(contentMeta ? [{ label: "검토 정보", content: <ContentMetadata meta={contentMeta} /> }] : []),
+        ...(brands.length ? [{ label: "제품명", content: brands.join(", ") }] : []),
+        ...(doses.length ? [{ label: "용량", content: doses.join(", ") }] : []),
+        ...(indications.length ? [{ label: "적응증", content: <RichTextLines lines={indications} className="space-y-1.5" bulletStyle="plain" /> }] : []),
+        ...(contraindications.length ? [{ label: "금기", content: <RichTextLines lines={contraindications} className="space-y-1.5" bulletStyle="plain" /> }] : []),
+        ...(adverseEffects.length ? [{ label: "이상 반응", content: <RichTextLines lines={adverseEffects} className="space-y-1.5" bulletStyle="plain" /> }] : []),
+        ...(monitoring.length ? [{ label: "모니터링", content: <RichTextLines lines={monitoring} className="space-y-1.5" bulletStyle="plain" /> }] : []),
+        ...(summaryLines.length ? [{ label: "요약", content: <RichTextLines lines={summaryLines} className="space-y-2" bulletStyle="plain" /> }] : []),
+        ...(relatedDiseases.length ? [{ label: "관련 질환", content: <div className="flex flex-wrap gap-x-3 gap-y-1">{relatedDiseases.map(item => {
+          const href = resolveDiseaseHref(item, diseaseLinks);
+          return href ? <Link key={item} href={href}>{item}</Link> : <span key={item}>{item}</span>;
+        })}</div> }] : []),
+        ...(contentSources.length ? [{ label: "근거", content: <div className="flex flex-wrap gap-x-3 gap-y-1">{contentSources.map(source => <a key={source.label + "|" + source.url} href={source.url} target="_blank" rel="noreferrer">{source.label}</a>)}</div> }] : []),
+        ...(antibioticEntry ? [{ label: "스펙트럼", content: <Link href={`/drugs/antibiotics?antibiotic=${antibioticEntry.id}`}>항생제 스펙트럼에서 보기</Link> }] : []),
+      ]}><section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
         <div className="text-xs  text-slate-500">
           {note.drugMeta?.categoryPath || note.category}
           {note.drugMeta?.detailClass ? ` > ${note.drugMeta.detailClass}` : ""}
@@ -233,7 +250,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
             </ul>
           </div>
         ) : null}
-      </section>
+      </section></SkinDocumentIntro>
 
       <div className="skin-domain-sections">
         <SkinDocumentSections className="space-y-4" plainSectionClassName="rounded-lg border border-slate-200 p-4" sections={note.sections.map((section, index) => ({

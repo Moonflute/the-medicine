@@ -4,9 +4,11 @@ import Link from "next/link";
 import { CornerUpLeft } from "lucide-react";
 import { useAppTheme } from "@/components/theme-provider";
 import { ChatComposerContent } from "@/components/chat-room";
+import { SheetParentDestination } from "@/components/sheet-workbook";
 
 export function ParentPageFab({ href }: { href: string }) {
   const { theme } = useAppTheme();
+  if (theme === "sheet") return <SheetParentDestination href={href} />;
   if (theme === "chat") return <ChatComposerContent area="tools"><div className="document-toolbar-actions chat-attachment-actions"><Link href={href} aria-label="상위 페이지로 이동" title="상위 페이지"><CornerUpLeft size={22} /></Link></div></ChatComposerContent>;
   return (
     <Link

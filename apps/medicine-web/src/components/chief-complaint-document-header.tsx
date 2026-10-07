@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { DocumentToolbar } from "@/components/document-toolbar";
 import { useAppTheme } from "@/components/theme-provider";
-import { SkinDocumentNotice } from "@/components/skin-document";
+import { SkinDocumentIntro, SkinDocumentNotice } from "@/components/skin-document";
 
 export function ChiefComplaintDocumentHeader({ title, actions, children }: { title: string; actions: ReactNode; children: ReactNode }) {
   const sentinel = useRef<HTMLDivElement>(null);
@@ -13,7 +13,7 @@ export function ChiefComplaintDocumentHeader({ title, actions, children }: { tit
   const { theme } = useAppTheme();
 
   useEffect(() => {
-    if (theme === "chat") return;
+    if (theme === "chat" || theme === "sheet") return;
     // Register the external portal only after this header has hydrated.
     highlighterSlot.current?.setAttribute("data-highlighter-slot", "");
     const marker = sentinel.current;
@@ -46,6 +46,8 @@ export function ChiefComplaintDocumentHeader({ title, actions, children }: { tit
   }, [theme]);
 
   if (theme === "chat") return <><DocumentToolbar title={title}>{actions}</DocumentToolbar><SkinDocumentNotice title="진료 관점"><div className="cc-document-views" role="group" aria-label="진료 관점">{children}</div></SkinDocumentNotice></>;
+
+  if (theme === "sheet") return <><DocumentToolbar title={title}>{actions}</DocumentToolbar><SkinDocumentIntro title={title} sheetRows={[{ label: "진료 관점", content: <div className="sheet-cc-views" role="group" aria-label="진료 관점">{children}</div> }]}>{children}</SkinDocumentIntro></>;
 
   return <>
     <div ref={sentinel} aria-hidden="true" className="h-0" />

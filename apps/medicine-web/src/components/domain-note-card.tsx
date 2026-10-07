@@ -1,5 +1,6 @@
 import { ContentMetadata } from "@/components/content-metadata";
 import { SkinEntry } from "@/components/skin-entry";
+import { SkinDocumentIntro } from "@/components/skin-document";
 import type { DomainNote } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
 
@@ -44,7 +45,12 @@ export function DomainNoteCard({
     </article>
   );
 
-  if (!href) return body;
+  if (!href) return <SkinDocumentIntro title={note.title} category={note.category} sheetRows={[
+    ...(note.drugMeta ? [{ label: "분류", content: [note.folder, note.drugMeta.detailClass, note.drugMeta.clinicalCore ? "Clinical core" : "", priorityLabel].filter(Boolean).join(" · ") }] : []),
+    ...(note.contentMeta ? [{ label: "검토 정보", content: <ContentMetadata meta={note.contentMeta} /> }] : []),
+    ...(brands.length ? [{ label: "제품명", content: brands.slice(0, 2).join(", ") }] : []),
+    { label: "요약", content: <RichTextLines lines={note.summary.slice(0, 5)} className="space-y-2 text-sm leading-6 text-slate-700" /> },
+  ]}>{body}</SkinDocumentIntro>;
 
   return (
     <SkinEntry href={href} title={note.title} summary={note.summary[0]} meta={[note.category, priorityLabel, brands.slice(0, 2).join(", ")].filter(Boolean).join(" · ")} className="block transition hover:-translate-y-0.5">

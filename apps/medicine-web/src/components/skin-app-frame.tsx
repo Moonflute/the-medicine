@@ -7,14 +7,22 @@ import { AuthStatus } from "@/components/auth-status";
 import { ChatRoomComposer, useChatRoom } from "@/components/chat-room";
 import { skinDestination, skinDestinations } from "@/lib/skin-navigation";
 import type { AppTheme } from "@/lib/themes";
+import { SheetWorkbookProvider, SheetDocumentCanvas, useSheetWorkbook } from "@/components/sheet-workbook";
 
 const chatDockIcons = [MessageCircle, UsersRound, MessagesSquare, Bookmark];
 
-export function SkinAppFrame({ theme, pathname, headerRef, version, children, conversation, immersive, normalRail, normalHeader, normalFooter, normalExtras }: {
+type SkinFrameProps = {
   theme: AppTheme; pathname: string; headerRef: RefObject<HTMLElement | null>;
   version: string; children: ReactNode; conversation: boolean; immersive: boolean;
   normalRail: ReactNode; normalHeader: ReactNode; normalFooter: ReactNode; normalExtras: ReactNode;
-}) {
+};
+
+export function SkinAppFrame(props: SkinFrameProps) {
+  return <SheetWorkbookProvider><SkinFrameContent {...props} /></SheetWorkbookProvider>;
+}
+
+function SkinFrameContent({ theme, pathname, headerRef, version, children, conversation, immersive, normalRail, normalHeader, normalFooter, normalExtras }: SkinFrameProps) {
+  const { title: workbookTitle, parentHref: sheetParentHref, selection: sheetSelection, setTabsTarget } = useSheetWorkbook() ?? {};
   const [menuOpen, setMenuOpen] = useState(false);
   const room = useChatRoom();
   const inChatRoom = theme === "chat" && Boolean(room?.title);
@@ -48,7 +56,7 @@ export function SkinAppFrame({ theme, pathname, headerRef, version, children, co
             <div className="skin-header-heading"><strong>{isHome ? "채팅" : inChatRoom ? room?.title : current.title}</strong>{isQbankLobby ? null : <small>{isHome ? "자료를 여는 대화" : conversation || inChatRoom ? "자료 대화방" : "대화방 목록"}</small>}</div>
           </> : theme === "sheet" ? <>
             <Link href="/" className="skin-workbook-icon" aria-label="홈으로">X</Link>
-            <div className="skin-header-heading"><strong>업무 노트.xlsx</strong><small>{current.title}</small></div>
+            <div className="skin-header-heading"><strong>{workbookTitle ? `${workbookTitle}.xlsx` : "업무 노트.xlsx"}</strong><small>{current.title}</small></div>
           </> : <>
             <Link href="/" className="skin-console-mark" aria-label="홈으로">&gt;_</Link>
             <div className="skin-header-heading"><strong>NOTES.EXE</strong><small>{current.code} / {conversation ? "READ" : "DIRECTORY"}</small></div>
@@ -61,17 +69,19 @@ export function SkinAppFrame({ theme, pathname, headerRef, version, children, co
         </div>
         {theme === "sheet" ? <>
           <nav className="skin-ribbon" aria-label="통합문서 도구"><Link href="/">파일</Link><Link href={current.href} aria-current="page">{isHome ? "홈" : current.short}</Link><Link href="/search">찾기</Link><Link href="/review">보관함</Link><span>읽기</span></nav>
-          <div className="skin-formula"><span>A1</span><i aria-hidden="true">ƒx</i><output>{isHome ? "자료 목록" : current.title}</output></div>
+          <div className="skin-formula"><span aria-label="선택한 셀">{sheetSelection?.address ?? (workbookTitle ? "B1" : "A1")}</span><i aria-hidden="true">ƒx</i><output title={sheetSelection?.text ?? workbookTitle ?? current.title}>{sheetSelection?.text ?? workbookTitle ?? (isHome ? "자료 목록" : current.title)}</output></div>
         </> : theme === "terminal" ? <div className="skin-console-path"><span>C:\NOTES\{current.code}&gt;</span><span>v{version} · UTF-8</span></div> : null}
         {menuOpen ? <div id="skin-app-menu" className="skin-app-menu">{menu}{theme === "chat" ? <div className="chat-account-tools"><AuthStatus /></div> : null}</div> : null}
         </> : normalHeader}
       </header>
       {!special ? normalExtras : null}
-      <main key="main-content" data-personal-highlight-root className={special ? "app-main skin-page" : "app-main flex-1 px-4 py-6 sm:px-6 xl:px-8"}><div className={special ? "skin-page-content" : "mx-auto max-w-7xl"}>{children}</div><ChatRoomComposer /></main>
+      <main key="main-content" data-personal-highlight-root className={special ? "app-main skin-page" : "app-main flex-1 px-4 py-6 sm:px-6 xl:px-8"}><div className={special ? "skin-page-content" : "mx-auto max-w-7xl"}>{theme === "sheet" ? <SheetDocumentCanvas>{children}</SheetDocumentCanvas> : children}</div><ChatRoomComposer /></main>
       {special && theme === "chat" ? <nav className="skin-chat-dock app-bottom-nav" aria-label="주 메뉴" hidden={inChatRoom}>
         {[skinDestinations[0], skinDestinations[1], skinDestinations[2], skinDestinations[6]].map((item, index) => { const Icon = chatDockIcons[index]; return <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined}><span className="skin-dock-glyph" aria-hidden="true"><Icon size={23} /></span><span>{item.short}</span></Link>; })}
         <button type="button" aria-label="전체 메뉴" aria-expanded={menuOpen} aria-controls="skin-app-menu" onClick={() => setMenuOpen(value => !value)}><span className="skin-dock-glyph" aria-hidden="true"><Ellipsis size={24} /></span><span>더보기</span></button>
-      </nav> : special && theme === "sheet" ? <nav className="skin-workbook-tabs app-bottom-nav" aria-label="자료 시트">
+      </nav> : special && theme === "sheet" ? workbookTitle ? <nav className="skin-workbook-tabs sheet-document-tabs app-bottom-nav" aria-label="문서 시트 탐색">
+        <Link href={sheetParentHref ?? current.href} aria-label="자료 목록으로" title="자료 목록으로">‹</Link><div ref={setTabsTarget} className="sheet-document-tab-target" />
+      </nav> : <nav className="skin-workbook-tabs app-bottom-nav" aria-label="자료 시트">
         {skinDestinations.map(item => <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined}>{item.href === "/" ? "목록" : item.short}</Link>)}
       </nav> : special ? <nav className="skin-console-dock app-bottom-nav" aria-label="주 메뉴">
         <Link href="/">[HOME]</Link><Link href="/search">[FIND]</Link><Link href="/review/qbank">[Q]</Link><button type="button" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(value => !value)}>[MENU]</button>

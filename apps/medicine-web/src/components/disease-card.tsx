@@ -13,6 +13,8 @@ import { RichTextLines } from "@/components/rich-text-lines";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { DocumentEditButton } from "@/components/document-edit-button";
 import { ContentMetadata } from "@/components/content-metadata";
+import { useAppTheme } from "@/components/theme-provider";
+import { SheetCellRow, type SheetIntroRow } from "@/components/sheet-workbook";
 
 function stripEditorialLines(lines: string[]) {
   const cleaned: string[] = [];
@@ -47,6 +49,8 @@ export function DiseaseCard({
   hideOverview?: boolean;
   relatedQbankHref?: string;
 }) {
+  const { theme } = useAppTheme();
+  const sheet = theme === "sheet" && !compact;
   const expanded = !compact;
   const atlasMapping = !compact ? atlasMappings.find(mapping => mapping.diseaseId === note.id) : undefined;
   const tocId = `disease-${note.slug}-toc`;
@@ -72,6 +76,40 @@ export function DiseaseCard({
     [note, displayTitle],
   );
 
+  const sheetRows: SheetIntroRow[] = [
+    ...(note.definition ? [{ label: "정의", content: <p>{note.definition}</p> }] : []),
+    ...(contentMeta ? [{ label: "검토 정보", content: <ContentMetadata meta={contentMeta} /> }] : []),
+    ...(note.clinicalPriority ? [{ label: "우선순위", content: note.clinicalPriority.replace("tier_", "Tier ") }] : []),
+    ...(note.chiefComplaints.length ? [{ label: "증상", content: <div className="flex flex-wrap gap-x-3 gap-y-1">{note.chiefComplaints.slice(0, 6).map(item => hrefByTerm.get(item) ? <Link key={item} href={hrefByTerm.get(item)!}>{item}</Link> : <span key={item}>{item}</span>)}</div> }] : []),
+  ];
+  const relatedReferences = (
+        <div className="border-b border-slate-200 bg-white p-5 sm:p-6">
+          {familyLinks.length > 0 ? (
+            <div className="flex flex-wrap gap-2">
+              {familyLinks.map((item) => {
+                const href = diseaseLinks.find((link) => link.term === item.value)?.href;
+                return href ? (
+                  <Link key={item.label} href={href} className="pill hover:border-teal-500 hover:text-teal-700">
+                    {item.label}: {item.value}
+                  </Link>
+                ) : (
+                  <span key={item.label} className="pill">{item.label}: {item.value}</span>
+                );
+              })}
+            </div>
+          ) : null}
+          {sourceLinks.length > 0 ? (
+            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-500">
+              {sourceLinks.map((source) => (
+                <a key={`${source.label}-${source.url}`} href={source.url} target="_blank" rel="noreferrer" className="hover:text-teal-700 hover:underline">
+                  근거: {source.label}
+                </a>
+              ))}
+            </div>
+          ) : null}
+        </div>
+  );
+
   return (
     <ChatSenderProvider name={note.specialty}><article className="clinical-document surface">
       {!compact && <DocumentToolbar title={displayTitle}>
@@ -90,7 +128,7 @@ export function DiseaseCard({
             {atlasMapping ? <Link href={"/atlas/?" + new URLSearchParams({organ:atlasMapping.organId,disease:note.slug}).toString()} className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-teal-200 bg-teal-50 text-sm font-semibold text-teal-800 hover:bg-teal-100" aria-label={displayTitle+" 3D로 보기"} title="3D로 보기">3D</Link> : null}
             <ReviewSaveButton item={reviewItem} compact />
       </DocumentToolbar>}
-      <SkinDocumentIntro title={compact ? "" : displayTitle} category={note.specialty}><div className="border-b border-slate-200 p-5 sm:p-6">
+      <SkinDocumentIntro title={compact ? "" : displayTitle} category={note.specialty} sheetRows={sheet ? sheetRows : undefined}><div className="border-b border-slate-200 p-5 sm:p-6">
         <div className="flex items-start justify-between gap-4">
           <div className="min-w-0">
             <div className="eyebrow">{note.specialty}</div>
@@ -126,34 +164,10 @@ export function DiseaseCard({
       {expanded && sectionItems.length > 1 && <DocumentToc key={tocId} id={tocId} items={sectionItems} />}
 
       {!compact && (familyLinks.length > 0 || sourceLinks.length > 0) ? (
-        <div className="border-b border-slate-200 bg-white p-5 sm:p-6">
-          {familyLinks.length > 0 ? (
-            <div className="flex flex-wrap gap-2">
-              {familyLinks.map((item) => {
-                const href = diseaseLinks.find((link) => link.term === item.value)?.href;
-                return href ? (
-                  <Link key={item.label} href={href} className="pill hover:border-teal-500 hover:text-teal-700">
-                    {item.label}: {item.value}
-                  </Link>
-                ) : (
-                  <span key={item.label} className="pill">{item.label}: {item.value}</span>
-                );
-              })}
-            </div>
-          ) : null}
-          {sourceLinks.length > 0 ? (
-            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-500">
-              {sourceLinks.map((source) => (
-                <a key={`${source.label}-${source.url}`} href={source.url} target="_blank" rel="noreferrer" className="hover:text-teal-700 hover:underline">
-                  근거: {source.label}
-                </a>
-              ))}
-            </div>
-          ) : null}
-        </div>
+        sheet ? <SheetCellRow label="관련 자료">{relatedReferences}</SheetCellRow> : relatedReferences
       ) : null}
 
-      {!hideOverview && overview.length > 0 ? (
+      {!hideOverview && overview.length > 0 ? (sheet ? <><SheetCellRow label="요약" heading>Quick reference</SheetCellRow><RichTextLines lines={overview} className="space-y-2.5" termLinks={ccLinks} wikiLinks={diseaseLinks} /></> :
         <div className="border-b border-slate-200 bg-teal-50/60 p-5 sm:p-6">
           <div className="mb-3 text-sm font-semibold text-teal-900">Quick reference</div>
           <RichTextLines lines={overview} className="space-y-2.5" termLinks={ccLinks} wikiLinks={diseaseLinks} />

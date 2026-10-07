@@ -7,6 +7,7 @@ import ts from 'typescript';
 import React from 'react';
 import * as jsxRuntime from 'react/jsx-runtime';
 import {renderToStaticMarkup} from 'react-dom/server';
+import {createPortal} from 'react-dom';
 import * as api from './sync-generated-data.mjs';
 const plain=x=>JSON.parse(JSON.stringify(x));
 const diseases=api.buildDiseases();
@@ -43,7 +44,8 @@ const compile=(file,deps)=>{const compiledModule={exports:{}};vm.runInNewContext
 test('rendered overview links retain their indentation',()=>{
  for(const theme of ['light','chat','sheet','terminal']) {
   const contact=compile('src/components/chat-contact.tsx',{'react':React,'react/jsx-runtime':jsxRuntime});
-  const skin=compile('src/components/skin-document.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'@/components/chat-contact':contact,'@/components/theme-provider':{useAppTheme:()=>({theme})}});
+  const sheet=compile('src/components/sheet-workbook.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'react-dom':{createPortal}});
+  const skin=compile('src/components/skin-document.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'@/components/chat-contact':contact,'@/components/sheet-workbook':sheet,'@/components/theme-provider':{useAppTheme:()=>({theme})}});
   const rich=compile('src/components/rich-text-lines.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'next/link':({children,...props})=>React.createElement('a',props,children),'@/components/skin-document':skin});
   const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines:['- [[Parent]]','  - [[Child]]'],bulletStyle:'plain',wikiLinks:[{term:'Child',href:'/disease/child'}]}));
   assert.match(html,/data-outline-depth="1"/,theme);assert.match(html,/margin-inline-start:16px/,theme);assert.match(html,/href="\/disease\/child"/,theme);

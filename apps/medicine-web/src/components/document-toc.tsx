@@ -20,8 +20,9 @@ export function DocumentToc({ id, items }: { id: string; items: { id: string; ti
     }, { rootMargin: "-64px 0px 0px 0px" });
     observer.observe(nav);
     return () => observer.disconnect();
-  }, [id]);
+  }, [id, theme]);
 
+  if (theme === "sheet") return null;
   if (theme === "chat") return <>
     <SkinDocumentNotice title="대화방 목차"><nav ref={navRef} id={id} tabIndex={-1} aria-label="문서 목차" className="chat-notice-toc">{items.map(item => <a key={item.id} href={`#${item.id}`} onClick={() => window.dispatchEvent(new CustomEvent("medicine:document-section", { detail: item.id }))}>{item.title}</a>)}</nav></SkinDocumentNotice>
     <ChatComposerContent area="tools"><div className="document-toolbar-actions chat-attachment-actions"><a href={`#${id}`} aria-label="목차로 돌아가기" title="목차"><ArrowUp size={22} /></a></div></ChatComposerContent>

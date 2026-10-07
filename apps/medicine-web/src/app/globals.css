@@ -2,6 +2,7 @@
 @import "./themes.css";
 @import "./skins.css";
 @import "./chat-skins.css";
+@import "./sheet-skins.css";
 @import "./skin-status.css";
 
 :root {
