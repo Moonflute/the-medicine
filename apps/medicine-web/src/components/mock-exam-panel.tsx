@@ -3,6 +3,7 @@
 import { ChatSenderProvider } from "@/components/chat-contact";
 import { SkinQuestionChoices, SkinQuestionWorkspace } from "@/components/skin-question";
 import { SkinPanel } from "@/components/skin-panel";
+import { isConceptTheme } from "@/lib/themes";
 
 import { correctAnswers, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
 import { SessionRetryActions } from "./session-retry-actions";
@@ -134,7 +135,7 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChan
           actions={<div className="mt-6 flex justify-between gap-2"><button type="button" aria-label="이전 문제" className="secondary-action disabled:opacity-40" disabled={currentIndex === 0} onClick={() => onMove(currentIndex - 1)}><ChevronLeft className="h-4 w-4" /><span className={chatLayout ? "sr-only" : undefined}>이전</span></button>{currentIndex < questions.length - 1 ? <button type="button" aria-label="다음 문제" className="primary-action" onClick={() => onMove(currentIndex + 1)}><span className={chatLayout ? "sr-only" : undefined}>다음</span><ChevronRight className="h-4 w-4" /></button> : !finished ? <button type="button" aria-label="답안 제출" className="primary-action" onClick={requestSubmit}><span className={chatLayout ? "sr-only" : undefined}>답안 제출</span>{chatLayout && <Check className="h-4 w-4" />}</button> : null}</div>}
         />
       </article></ChatSenderProvider>}
-      {!chatLayout && <div className={finished && !review ? "xl:col-span-2" : "min-w-0 xl:sticky xl:top-20"}>{sheet}</div>}
+      {!chatLayout && <div className={finished && !review ? "xl:col-span-2" : "min-w-0 xl:sticky xl:top-20"}>{isConceptTheme(theme) ? <details className="concept-answer-sheet"><summary>{theme === "mail" ? "첨부: 답안표" : theme === "social" ? "전체 답안 보기" : "answers.json"} · {answered}/{questions.length}</summary>{sheet}</details> : sheet}</div>}
     </div>
   </div>;
 }

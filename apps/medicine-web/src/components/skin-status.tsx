@@ -2,6 +2,7 @@
 
 import { RefreshCw } from "lucide-react";
 import { useAppTheme } from "@/components/theme-provider";
+import { isSpecialTheme } from "@/lib/themes";
 import { skinRetryLabel, skinStatusMessage, skinStatusTone, type SkinStatusKind } from "@/lib/skin-status";
 
 /** Presentation only: callers keep their loading, persistence, and retry logic. */
@@ -17,7 +18,7 @@ export function SkinStatus({ kind, fallback, detail, className = "", stage = fal
   title?: string;
 }) {
   const { theme } = useAppTheme();
-  const special = theme === "chat" || theme === "sheet" || theme === "terminal";
+  const special = isSpecialTheme(theme);
   const tone = skinStatusTone(kind);
   const Tag = inline ? "span" : "div";
   const label = skinRetryLabel(theme, kind === "syncFailed");

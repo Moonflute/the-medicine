@@ -5,12 +5,17 @@ import { useAppTheme } from "@/components/theme-provider";
 import { ChatDocumentTools } from "@/components/chat-room";
 import { useChatSenderName } from "@/components/chat-contact";
 import { SheetDocumentToolbar } from "@/components/sheet-workbook";
+import { ConceptDocumentToolbar } from "@/components/concept-document";
+import { useConceptDocument } from "@/components/concept-workspace";
+import { isConceptTheme } from "@/lib/themes";
 
 /** Keep document actions with their content, below the app navigation. */
 export function DocumentToolbar({ title, children, className = "" }: { title: string; children?: ReactNode; className?: string }) {
   const { theme } = useAppTheme();
   const senderName = useChatSenderName(title);
+  useConceptDocument(title, senderName);
   const special = theme === "chat" || theme === "sheet" || theme === "terminal";
+  if (isConceptTheme(theme)) return <ConceptDocumentToolbar theme={theme} title={title} className={className}>{children}</ConceptDocumentToolbar>;
   if (theme === "chat") return <ChatDocumentTools title={senderName}><span data-highlighter-slot className="inline-flex shrink-0" />{children}</ChatDocumentTools>;
   if (theme === "sheet") return <SheetDocumentToolbar className={className}><span data-highlighter-slot className="inline-flex shrink-0" />{children}</SheetDocumentToolbar>;
   return <div data-document-toolbar data-highlight-ignore className={`document-toolbar ${className}`}>

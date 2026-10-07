@@ -1,4 +1,4 @@
-import type { AppTheme } from "@/lib/themes";
+import { isConceptTheme, type AppTheme, type ConceptTheme } from "@/lib/themes";
 
 const statusCopy = {
   questionsLoading: { tone: "busy", chat: "메시지 불러오는 중…", sheet: "시트 여는 중…", terminal: "READING DATA..." },
@@ -31,7 +31,37 @@ const statusCopy = {
 
 export type SkinStatusKind = keyof typeof statusCopy;
 
+const conceptStatus: Record<SkinStatusKind, Record<ConceptTheme, string>> = {
+  questionsLoading: { mail: "메일 불러오는 중…", social: "문제 게시물 불러오는 중…", editor: "Loading questions…" },
+  documentLoading: { mail: "메일 여는 중…", social: "게시물 불러오는 중…", editor: "Opening document.md…" },
+  imageLoading: { mail: "첨부 이미지 불러오는 중…", social: "사진 불러오는 중…", editor: "Loading image asset…" },
+  relatedLoading: { mail: "관련 첨부 자료 찾는 중…", social: "관련 게시물 찾는 중…", editor: "Resolving references…" },
+  statisticsLoading: { mail: "메일 기록 불러오는 중…", social: "활동 기록 불러오는 중…", editor: "Loading activity log…" },
+  syncLocal: { mail: "이 기기에 보관됨", social: "이 기기에 저장됨", editor: "Saved locally" },
+  syncPending: { mail: "자료 동기화 대기", social: "변경 내용 동기화 대기", editor: "Sync queued" },
+  syncing: { mail: "자료 동기화 중…", social: "변경 내용 동기화 중…", editor: "Syncing changes…" },
+  synced: { mail: "자료 동기화 완료", social: "변경 내용 반영됨", editor: "All changes synced" },
+  syncFailed: { mail: "자료를 동기화하지 못했습니다.", social: "변경 내용을 반영하지 못했어요.", editor: "Sync failed" },
+  saved: { mail: "중요 자료로 보관했습니다.", social: "저장한 게시물에 추가했어요.", editor: "Bookmark saved" },
+  removed: { mail: "중요 자료 보관을 해제했습니다.", social: "게시물 저장을 해제했어요.", editor: "Bookmark removed" },
+  recorded: { mail: "검토 기록을 남겼습니다.", social: "학습 활동을 기록했어요.", editor: "Review log updated" },
+  questionsError: { mail: "메일을 불러오지 못했습니다.", social: "문제 게시물을 불러오지 못했어요.", editor: "Unable to load questions" },
+  documentError: { mail: "메일을 열지 못했습니다.", social: "게시물을 불러오지 못했어요.", editor: "Unable to open document" },
+  imageError: { mail: "첨부 이미지를 불러오지 못했습니다.", social: "사진을 불러오지 못했어요.", editor: "Image asset unavailable" },
+  saveError: { mail: "자료를 보관하지 못했습니다.", social: "저장하지 못했어요.", editor: "Save failed" },
+  questionsEmpty: { mail: "선택한 메일함에 질문이 없습니다.", social: "선택한 범위에 문제 게시물이 없어요.", editor: "No matching questions" },
+  searchEmpty: { mail: "검색한 메일과 자료가 없습니다.", social: "검색한 게시물이 없어요.", editor: "No matching files" },
+  recentEmpty: { mail: "최근 읽은 메일이 없습니다.", social: "최근 본 게시물이 없어요.", editor: "No recently opened files" },
+  savedEmpty: { mail: "중요 자료가 없습니다. 메일 도구의 별표로 보관하세요.", social: "저장한 게시물이 없어요. 문서 도구의 북마크로 저장해 보세요.", editor: "No bookmarks · Use the document bookmark tool" },
+  recordsEmpty: { mail: "이 범위의 회신 기록이 없습니다.", social: "이 범위의 풀이 활동이 아직 없어요.", editor: "No answer history in this scope" },
+  wrongEmpty: { mail: "다시 검토할 답안이 없습니다.", social: "복습할 오답이 없어요.", editor: "No failed answers to review" },
+  draftLoading: { mail: "임시 저장 답장 불러오는 중…", social: "임시 저장 내용 불러오는 중…", editor: "Restoring draft…" },
+  draftSaved: { mail: "이 탭에 답장 임시 저장됨", social: "이 탭에 임시 저장됨", editor: "Draft saved in this tab" },
+  draftError: { mail: "임시 저장하지 못했습니다. 현재 답장은 유지됩니다.", social: "임시 저장하지 못했어요. 입력 내용은 유지돼요.", editor: "Draft save failed · Current input retained" },
+};
+
 export function skinStatusMessage(theme: AppTheme, kind: SkinStatusKind, fallback: string): string {
+  if (isConceptTheme(theme)) return conceptStatus[kind][theme];
   return theme === "chat" || theme === "sheet" || theme === "terminal" ? statusCopy[kind][theme] : fallback;
 }
 
@@ -40,5 +70,5 @@ export function skinStatusTone(kind: SkinStatusKind) {
 }
 
 export function skinRetryLabel(theme: AppTheme, resend = false) {
-  return theme === "terminal" ? "RETRY" : theme === "chat" && resend ? "재전송" : "다시 시도";
+  return theme === "terminal" || theme === "editor" ? "RETRY" : theme === "mail" && resend ? "동기화 재시도" : theme === "chat" && resend ? "재전송" : "다시 시도";
 }

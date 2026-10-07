@@ -2,11 +2,12 @@
 
 import { useState, type ReactNode, type RefObject } from "react";
 import Link from "next/link";
-import { Bookmark, ChevronLeft, Ellipsis, Menu, MessageCircle, MessagesSquare, Search, UsersRound, X } from "lucide-react";
+import { Bookmark, ChevronLeft, Ellipsis, Files, Menu, MessageCircle, MessagesSquare, Search, UsersRound, X } from "lucide-react";
 import { AuthStatus } from "@/components/auth-status";
 import { ChatRoomComposer, useChatRoom } from "@/components/chat-room";
 import { skinDestination, skinDestinations } from "@/lib/skin-navigation";
-import type { AppTheme } from "@/lib/themes";
+import { isConceptTheme, isSpecialTheme, type AppTheme } from "@/lib/themes";
+import { ConceptWorkspaceProvider, ConceptHeader, ConceptNavigation, ConceptFooter } from "@/components/concept-workspace";
 import { SheetWorkbookProvider, SheetDocumentCanvas, useSheetWorkbook } from "@/components/sheet-workbook";
 
 const chatDockIcons = [MessageCircle, UsersRound, MessagesSquare, Bookmark];
@@ -18,7 +19,7 @@ type SkinFrameProps = {
 };
 
 export function SkinAppFrame(props: SkinFrameProps) {
-  return <SheetWorkbookProvider><SkinFrameContent {...props} /></SheetWorkbookProvider>;
+  return <ConceptWorkspaceProvider><SheetWorkbookProvider><SkinFrameContent {...props} /></SheetWorkbookProvider></ConceptWorkspaceProvider>;
 }
 
 function SkinFrameContent({ theme, pathname, headerRef, version, children, conversation, immersive, normalRail, normalHeader, normalFooter, normalExtras }: SkinFrameProps) {
@@ -27,7 +28,8 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
   const room = useChatRoom();
   const inChatRoom = theme === "chat" && Boolean(room?.title);
   const isQbankLobby = theme === "chat" && /^\/review\/qbank\/?$/.test(pathname);
-  const special = theme === "chat" || theme === "sheet" || theme === "terminal";
+  const special = isSpecialTheme(theme);
+  const concept = isConceptTheme(theme);
   const current = skinDestination(pathname);
   const isHome = pathname === "/";
   const active = (href: string) => href === "/" ? isHome : href === current.href;
@@ -41,7 +43,11 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
 
   return <div className={special ? `skin-frame skin-frame--${theme}` : "mx-auto flex min-h-screen max-w-[1680px]"} data-conversation={conversation || inChatRoom} data-chat-room={inChatRoom} data-immersive={immersive}>
     <aside className={special ? "skin-desktop-rail" : "app-sidebar sticky top-0 hidden h-screen w-64 shrink-0 self-start border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block"}>
-      {special ? <>
+      {concept ? <>
+        <Link href="/" className="concept-rail-brand">{theme === "mail" ? <><b>N</b> 메일</> : theme === "social" ? "medstagram" : <><Files size={21} /> EXPLORER</>}</Link>
+        <ConceptNavigation theme={theme} pathname={pathname} />
+        <span className="skin-rail-version">v {version}</span>
+      </> : special ? <>
       <Link href="/" className="skin-rail-title">{theme === "chat" ? "채팅" : theme === "sheet" ? "통합문서" : "NOTES.EXE"}</Link>
       {menu}
       <span className="skin-rail-version">v {version}</span>
@@ -50,6 +56,7 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
     <div className={special ? "skin-frame-body" : "flex min-h-screen min-w-0 flex-1 flex-col"}>
       <header ref={headerRef} className={special ? "app-header skin-app-header" : "app-header sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur"}>
         {special ? <>
+        {concept ? <ConceptHeader theme={theme} pathname={pathname} menuOpen={menuOpen} onMenu={() => setMenuOpen(value => !value)} /> : <>
         <div className="skin-header-line">
           {theme === "chat" ? <>
             {isHome ? <MessageCircle className="skin-header-icon" aria-hidden="true" /> : <Link href={isQbankLobby ? "/review" : current.href} className="skin-icon-button" aria-label="목록으로"><ChevronLeft size={20} /></Link>}
@@ -71,12 +78,13 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
           <nav className="skin-ribbon" aria-label="통합문서 도구"><Link href="/">파일</Link><Link href={current.href} aria-current="page">{isHome ? "홈" : current.short}</Link><Link href="/search">찾기</Link><Link href="/review">보관함</Link><span>읽기</span></nav>
           <div className="skin-formula"><span aria-label="선택한 셀">{sheetSelection?.address ?? (workbookTitle ? "B1" : "A1")}</span><i aria-hidden="true">ƒx</i><output title={sheetSelection?.text ?? workbookTitle ?? current.title}>{sheetSelection?.text ?? workbookTitle ?? (isHome ? "자료 목록" : current.title)}</output></div>
         </> : theme === "terminal" ? <div className="skin-console-path"><span>C:\NOTES\{current.code}&gt;</span><span>v{version} · UTF-8</span></div> : null}
-        {menuOpen ? <div id="skin-app-menu" className="skin-app-menu">{menu}{theme === "chat" ? <div className="chat-account-tools"><AuthStatus /></div> : null}</div> : null}
+        </>}
+        {menuOpen ? <div id="skin-app-menu" className="skin-app-menu">{concept ? <ConceptNavigation theme={theme} pathname={pathname} onNavigate={() => setMenuOpen(false)} /> : menu}{theme === "chat" || concept ? <div className="chat-account-tools"><AuthStatus /></div> : null}</div> : null}
         </> : normalHeader}
       </header>
       {!special ? normalExtras : null}
       <main key="main-content" data-personal-highlight-root className={special ? "app-main skin-page" : "app-main flex-1 px-4 py-6 sm:px-6 xl:px-8"}><SheetDocumentCanvas className={special ? "skin-page-content" : "mx-auto max-w-7xl"}>{children}</SheetDocumentCanvas><ChatRoomComposer /></main>
-      {special && theme === "chat" ? <nav className="skin-chat-dock app-bottom-nav" aria-label="주 메뉴" hidden={inChatRoom}>
+      {concept ? <ConceptFooter theme={theme} pathname={pathname} menuOpen={menuOpen} onMenu={() => setMenuOpen(value => !value)} version={version} /> : special && theme === "chat" ? <nav className="skin-chat-dock app-bottom-nav" aria-label="주 메뉴" hidden={inChatRoom}>
         {[skinDestinations[0], skinDestinations[1], skinDestinations[2], skinDestinations[6]].map((item, index) => { const Icon = chatDockIcons[index]; return <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined}><span className="skin-dock-glyph" aria-hidden="true"><Icon size={23} /></span><span>{item.short}</span></Link>; })}
         <button type="button" aria-label="전체 메뉴" aria-expanded={menuOpen} aria-controls="skin-app-menu" onClick={() => setMenuOpen(value => !value)}><span className="skin-dock-glyph" aria-hidden="true"><Ellipsis size={24} /></span><span>더보기</span></button>
       </nav> : special && theme === "sheet" ? workbookTitle ? <nav className="skin-workbook-tabs sheet-document-tabs app-bottom-nav" aria-label="문서 시트 탐색">

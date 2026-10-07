@@ -5,6 +5,9 @@ import { useAppTheme } from "@/components/theme-provider";
 import { ArrowUp } from "lucide-react";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { ChatComposerContent } from "@/components/chat-room";
+import { isConceptTheme } from "@/lib/themes";
+import { openConceptSection } from "@/components/concept-workspace";
+import { ChevronDown, Code2, Paperclip } from "lucide-react";
 
 export function DocumentToc({ id, items }: { id: string; items: { id: string; title: string }[] }) {
   const { theme } = useAppTheme();
@@ -23,6 +26,7 @@ export function DocumentToc({ id, items }: { id: string; items: { id: string; ti
   }, [id, theme]);
 
   if (theme === "sheet") return null;
+  if (isConceptTheme(theme)) return <details className={`concept-document-toc concept-document-toc--${theme}`}><summary>{theme === "mail" ? <Paperclip size={14} /> : theme === "editor" ? <Code2 size={14} /> : <ChevronDown size={14} />}<span>{theme === "mail" ? "본문 목차" : theme === "social" ? "게시물 문단" : "OUTLINE"} · {items.length}</span></summary><nav ref={navRef} id={id} tabIndex={-1} aria-label="문서 목차">{items.map(item => <a key={item.id} href={`#${item.id}`} onClick={() => openConceptSection(item.id)}>{item.title}</a>)}</nav></details>;
   if (theme === "chat") return <>
     <SkinDocumentNotice title="대화방 목차"><nav ref={navRef} id={id} tabIndex={-1} aria-label="문서 목차" className="chat-notice-toc">{items.map(item => <a key={item.id} href={`#${item.id}`} onClick={() => window.dispatchEvent(new CustomEvent("medicine:document-section", { detail: item.id }))}>{item.title}</a>)}</nav></SkinDocumentNotice>
     <ChatComposerContent area="tools"><div className="document-toolbar-actions chat-attachment-actions"><a href={`#${id}`} aria-label="목차로 돌아가기" title="목차"><ArrowUp size={22} /></a></div></ChatComposerContent>

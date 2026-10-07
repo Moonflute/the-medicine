@@ -4,6 +4,7 @@
 @import "./chat-skins.css";
 @import "./sheet-skins.css";
 @import "./skin-status.css";
+@import "./concept-skins.css";
 
 :root {
   color-scheme: light;

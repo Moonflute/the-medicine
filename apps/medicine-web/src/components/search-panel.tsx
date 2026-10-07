@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 import { ArrowRight, Clock3, Search, Trash2 } from "lucide-react";
 import { SkinHomeDirectory } from "@/components/skin-home-directory";
 import { useAppTheme } from "@/components/theme-provider";
+import { isSpecialTheme } from "@/lib/themes";
 import type { SearchEntry } from "@/lib/types";
 
 const RECENT_SEARCHES_KEY = "medicine-web-recent-searches";
@@ -106,7 +107,7 @@ function scoreEntry(entry: SearchEntry, term: string, compactTerm: string) {
 export function SearchPanel({ entries, className = "", initialQuery = "" }: { entries: SearchEntry[]; className?: string; initialQuery?: string }) {
   const router = useRouter();
   const { theme } = useAppTheme();
-  const specialTheme = theme === "chat" || theme === "sheet" || theme === "terminal";
+  const specialTheme = isSpecialTheme(theme);
   const [query, setQuery] = useState(initialQuery);
   const [activeResultIndex, setActiveResultIndex] = useState(0);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
@@ -199,7 +200,7 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
     <section className={`search-panel relative w-full ${className}`.trim()}>
       <label className="search-input-bar surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
         {theme === "terminal" ? <span className="terminal-prompt" aria-hidden="true">C:\&gt;</span> : <Search className="h-5 w-5 shrink-0 text-slate-500" />}
-        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} onCompositionStart={() => { isComposingRef.current = true; }} onCompositionEnd={() => { isComposingRef.current = false; }} placeholder={specialTheme ? (theme === "chat" ? "대화방과 자료 검색" : theme === "sheet" ? "통합문서에서 찾기" : "FIND 자료 이름") : "\uC608: disease: \uD3D0\uB834, drug: metformin"} aria-label="자료 검색" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" />
+        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} onCompositionStart={() => { isComposingRef.current = true; }} onCompositionEnd={() => { isComposingRef.current = false; }} placeholder={specialTheme ? (theme === "chat" ? "대화방과 자료 검색" : theme === "sheet" ? "통합문서에서 찾기" : theme === "mail" ? "메일과 자료 검색" : theme === "social" ? "검색" : theme === "editor" ? "Search files…" : "FIND 자료 이름") : "\uC608: disease: \uD3D0\uB834, drug: metformin"} aria-label="자료 검색" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" />
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
 

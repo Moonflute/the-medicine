@@ -4,7 +4,7 @@ import atlasMappings from "@/generated/atlas-links.json";
 
 import { useMemo } from "react";
 import Link from "next/link";
-import { SkinDocumentIntro, SkinDocumentSections } from "@/components/skin-document";
+import { SkinDocumentIntro, SkinDocumentSections, SkinQuickReference } from "@/components/skin-document";
 import { DocumentToolbar } from "@/components/document-toolbar";
 import { DocumentToc } from "@/components/document-toc";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
@@ -168,10 +168,9 @@ export function DiseaseCard({
       ) : null}
 
       {!hideOverview && overview.length > 0 ? (sheet ? <><SheetCellRow label="요약" heading>Quick reference</SheetCellRow><RichTextLines lines={overview} className="space-y-2.5" termLinks={ccLinks} wikiLinks={diseaseLinks} /></> :
-        <div className="border-b border-slate-200 bg-teal-50/60 p-5 sm:p-6">
-          <div className="mb-3 text-sm font-semibold text-teal-900">Quick reference</div>
+        <SkinQuickReference className="border-b border-slate-200 bg-teal-50/60 p-5 sm:p-6">
           <RichTextLines lines={overview} className="space-y-2.5" termLinks={ccLinks} wikiLinks={diseaseLinks} />
-        </div>
+        </SkinQuickReference>
       ) : null}
 
       {expanded ? (
@@ -186,5 +185,3 @@ export function DiseaseCard({
     </article></ChatSenderProvider>
   );
 }
-
-

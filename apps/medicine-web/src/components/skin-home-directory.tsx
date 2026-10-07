@@ -3,12 +3,15 @@
 import Link from "next/link";
 import { ChevronRight, FolderOpen, MessageCircle } from "lucide-react";
 import { useAppTheme } from "@/components/theme-provider";
+import { ConceptHomeDirectory } from "@/components/concept-home";
+import { isConceptTheme } from "@/lib/themes";
 import { skinDestinations } from "@/lib/skin-navigation";
 
 const entries = skinDestinations.slice(1);
 
 export function SkinHomeDirectory() {
   const { theme } = useAppTheme();
+  if (isConceptTheme(theme)) return <ConceptHomeDirectory theme={theme} />;
   if (theme === "chat") return <div className="skin-conversations">
     <div className="skin-directory-heading"><h2>대화방</h2><span>자료 {entries.length}</span></div>
     {entries.map((item, index) => <Link key={item.href} href={item.href} className="skin-conversation">

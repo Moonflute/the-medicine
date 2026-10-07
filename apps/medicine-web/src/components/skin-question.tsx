@@ -6,17 +6,19 @@ import { useAppTheme } from "@/components/theme-provider";
 import type { QbankAnswer } from "@/lib/types";
 import { ChatComposerContent } from "@/components/chat-room";
 import { useChatSenderName } from "@/components/chat-contact";
+import { isConceptTheme, isSpecialTheme } from "@/lib/themes";
+import { ConceptQuestionWorkspace } from "@/components/concept-question";
 
 export type SkinChoice = { key: QbankAnswer; label: string; text: string; selected: boolean; correct: boolean; wrong: boolean };
 
 export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: SkinChoice[]; disabled: boolean; onSelect: (key: QbankAnswer) => void }) {
   const { theme } = useAppTheme();
-  const special = theme === "chat" || theme === "sheet" || theme === "terminal";
+  const special = isSpecialTheme(theme);
   return <div className={special ? `skin-q-choices skin-q-choices--${theme}` : "mt-7 grid gap-3"} role="group" aria-label="답 보기">
     {choices.map((choice, index) => <button key={choice.key} type="button" disabled={disabled} aria-pressed={choice.selected} onClick={() => onSelect(choice.key)} data-selected={choice.selected} data-correct={choice.correct} data-wrong={choice.wrong}
       className={special ? "skin-q-choice" : `flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${choice.correct ? "border-teal-500 bg-teal-50 text-teal-950" : choice.wrong ? "border-rose-400 bg-rose-50 text-rose-950" : choice.selected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"}`}>
       {theme === "sheet" ? <span className="skin-q-choice-label">{index + 2}</span> : null}
-      <span className={special ? "skin-q-choice-label" : "font-semibold"}>{theme === "terminal" ? `[${index + 1}] ${choice.label}.` : `${choice.label}.`}</span>
+      <span className={special ? "skin-q-choice-label" : "font-semibold"}>{theme === "terminal" ? `[${index + 1}] ${choice.label}.` : theme === "editor" ? `${choice.label}:` : theme === "social" ? choice.label : `${choice.label}.`}</span>
       <span data-highlight-block={`option:${choice.key}`} className="min-w-0 break-words">{choice.text}</span>
       {special ? <span className="skin-q-choice-state">{choice.correct ? "정답" : choice.wrong ? "오답" : choice.selected ? "✓" : ""}</span> : null}
     </button>)}
@@ -25,7 +27,7 @@ export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: 
 
 export function SkinQuestionAction({ submitted, unknown, last, onSubmit, onNext }: { submitted: boolean; unknown: boolean; last: boolean; onSubmit: () => void; onNext: () => void }) {
   const { theme } = useAppTheme();
-  const label = submitted ? last ? "결과 보기" : "다음 문제" : unknown ? "모름으로 제출" : theme === "chat" ? "보내기" : theme === "terminal" ? "ENTER · 제출" : "답안 제출";
+  const label = submitted ? last ? "결과 보기" : theme === "mail" ? "다음 메일" : theme === "social" ? "다음 게시물" : theme === "editor" ? "Next test" : "다음 문제" : unknown ? theme === "mail" ? "모름으로 회신" : theme === "editor" ? "모름으로 실행" : "모름으로 제출" : theme === "mail" ? "회신" : theme === "social" ? "답 제출" : theme === "editor" ? "▶ 실행" : theme === "chat" ? "보내기" : theme === "terminal" ? "ENTER · 제출" : "답안 제출";
   return <button type="button" onClick={submitted ? onNext : onSubmit} title={label} aria-label={submitted ? last ? "결과 보기" : "다음 문제" : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <ArrowUp size={18} /> : null}</button>;
 }
 
@@ -36,6 +38,7 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
 }) {
   const { theme } = useAppTheme();
   const senderName = useChatSenderName(sourceTitle);
+  if (isConceptTheme(theme)) return <ConceptQuestionWorkspace theme={theme} question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} choicesCount={choicesCount} />;
   const hintNode = hint ? <p className="mt-5 text-sm font-medium text-teal-700">{hint}</p> : null;
   if (theme === "chat") return <div className="skin-question-workspace skin-question-chat" data-question-skin="chat">
     <div className="chat-message-date">{mode === "mock" ? "실전 대화" : "문제 대화"} · {number} / {total}</div>

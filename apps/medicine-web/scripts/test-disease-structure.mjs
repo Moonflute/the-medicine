@@ -6,6 +6,7 @@ import assert from 'node:assert/strict';
 import ts from 'typescript';
 import React from 'react';
 import * as jsxRuntime from 'react/jsx-runtime';
+import * as lucide from 'lucide-react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {createPortal} from 'react-dom';
 import * as api from './sync-generated-data.mjs';
@@ -42,10 +43,16 @@ test('all 22 specialty outlines have valid disease links, no duplicate bullets p
 });
 const compile=(file,deps)=>{const compiledModule={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText,{exports:compiledModule.exports,module:compiledModule,require:n=>deps[n],process,Buffer});return compiledModule.exports;};
 test('rendered overview links retain their indentation',()=>{
- for(const theme of ['light','chat','sheet','terminal']) {
+ for(const theme of ['light','chat','sheet','terminal','mail','social','editor']) {
   const contact=compile('src/components/chat-contact.tsx',{'react':React,'react/jsx-runtime':jsxRuntime});
   const sheet=compile('src/components/sheet-workbook.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'react-dom':{createPortal}});
-  const skin=compile('src/components/skin-document.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'@/components/chat-contact':contact,'@/components/sheet-workbook':sheet,'@/components/theme-provider':{useAppTheme:()=>({theme})}});
+  const themes=compile('src/lib/themes.ts',{});
+  const navigation=compile('src/lib/skin-navigation.ts',{});
+  const link=({children,...props})=>React.createElement('a',props,children);
+  const deps={'react':React,'react/jsx-runtime':jsxRuntime,'lucide-react':lucide,'next/link':link,'@/lib/themes':themes,'@/lib/skin-navigation':navigation,'@/components/theme-provider':{useAppTheme:()=>({theme})}};
+  const conceptDocument=compile('src/components/concept-document.tsx',deps);
+  const conceptWorkspace=compile('src/components/concept-workspace.tsx',deps);
+  const skin=compile('src/components/skin-document.tsx',{...deps,'@/components/chat-contact':contact,'@/components/sheet-workbook':sheet,'@/components/concept-document':conceptDocument,'@/components/concept-workspace':conceptWorkspace});
   const rich=compile('src/components/rich-text-lines.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'next/link':({children,...props})=>React.createElement('a',props,children),'@/components/skin-document':skin});
   const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines:['- [[Parent]]','  - [[Child]]'],bulletStyle:'plain',wikiLinks:[{term:'Child',href:'/disease/child'}]}));
   assert.match(html,/data-outline-depth="1"/,theme);assert.match(html,/margin-inline-start:16px/,theme);assert.match(html,/href="\/disease\/child"/,theme);
@@ -57,4 +64,3 @@ test('same-named disease links favor the current specialty',()=>{
  assert.ok(repeated.length>0);
  for(const d of repeated)assert.equal(db.getDiseaseLinks(d.specialty).find(link=>link.term===d.title)?.href,'/disease/'+d.slug,d.specialty+': '+d.title);
 });
-

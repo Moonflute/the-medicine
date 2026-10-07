@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useAppTheme } from "@/components/theme-provider";
-import { Bookmark, BookmarkCheck } from "lucide-react";
+import { Bookmark, BookmarkCheck, Star } from "lucide-react";
 import {
   loadReviewItems,
   REVIEW_CHANGE_EVENT,
@@ -22,7 +22,7 @@ export function ReviewSaveButton({
 }) {
   const { theme } = useAppTheme();
   const [saved, setSaved] = useState(false);
-  const label = theme === "chat" ? saved ? "보관함에서 꺼내기" : "보관함에 저장" : theme === "terminal" ? saved ? "REMOVE SAVE" : "SAVE" : saved ? "복습 목록에서 제거" : "복습 목록에 저장";
+  const label = theme === "mail" ? saved ? "중요 자료 해제" : "중요 자료로 보관" : theme === "social" ? saved ? "게시물 저장 해제" : "게시물 저장" : theme === "editor" ? saved ? "Remove bookmark" : "Add bookmark" : theme === "chat" ? saved ? "보관함에서 꺼내기" : "보관함에 저장" : theme === "terminal" ? saved ? "REMOVE SAVE" : "SAVE" : saved ? "복습 목록에서 제거" : "복습 목록에 저장";
 
   useEffect(() => {
     const refresh = () => {
@@ -45,9 +45,10 @@ export function ReviewSaveButton({
       }
       style={{ borderRadius: 8 }}
       aria-label={saved ? "복습 목록에서 제거" : "복습 목록에 저장"}
+      aria-pressed={saved}
       title={label}
     >
-      {saved ? <BookmarkCheck className="h-5 w-5" /> : <Bookmark className="h-5 w-5" />}
+      {theme === "mail" ? <Star className="h-5 w-5" fill={saved ? "currentColor" : "none"} /> : theme === "social" ? <Bookmark className="h-5 w-5" fill={saved ? "currentColor" : "none"} /> : saved ? <BookmarkCheck className="h-5 w-5" /> : <Bookmark className="h-5 w-5" />}
       {!compact ? <span>{theme === "terminal" ? saved ? "SAVED" : "SAVE" : theme === "chat" ? saved ? "저장됨" : "보관함에 저장" : saved ? "저장됨" : "복습 저장"}</span> : null}
     </button>
   );

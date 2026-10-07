@@ -1,6 +1,9 @@
 export const THEME_STORAGE_KEY = "medicine-web-theme-v1";
-export const THEME_IDS = ["light", "dark", "sepia", "chat", "sheet", "terminal"] as const;
+export const THEME_IDS = ["light", "dark", "sepia", "chat", "sheet", "terminal", "mail", "social", "editor"] as const;
 export type AppTheme = (typeof THEME_IDS)[number];
+export type ConceptTheme = "mail" | "social" | "editor";
+export const isConceptTheme = (theme: AppTheme): theme is ConceptTheme => theme === "mail" || theme === "social" || theme === "editor";
+export const isSpecialTheme = (theme: AppTheme) => theme !== "light" && theme !== "dark" && theme !== "sepia";
 
 export const CHAT_SKIN_STORAGE_KEY = "medicine-web-chat-skin-v1";
 export const CHAT_FONT_STORAGE_KEY = "medicine-web-chat-font-v1";
@@ -45,6 +48,9 @@ export const themeGroups = [
       { id: "chat", label: "카톡 스타일", description: "대화방, 공지, + 메뉴와 답장을 쓰는 입력창", swatch: "#fae100", chrome: "#b2c7d9" },
       { id: "sheet", label: "엑셀 스타일", description: "자료 목록과 답안을 셀로 읽고, 이론의 목차를 실제 시트로 전환하는 통합문서", swatch: "#217346", chrome: "#217346" },
       { id: "terminal", label: "DOS / 터미널", description: "검정 배경과 흰 글자, 디렉터리 탐색과 번호 선택으로 읽는 콘솔", swatch: "#000000", chrome: "#000000" },
+      { id: "mail", label: "네이버 메일 스타일", description: "메일함의 자료 목록, 메일 본문으로 읽는 이론과 답장으로 제출하는 문제", swatch: "#03c75a", chrome: "#ffffff" },
+      { id: "social", label: "인스타 스타일", description: "스토리와 자료 피드, 목차를 넘기는 게시물과 투표처럼 고르는 답안", swatch: "#dd2a7b", chrome: "#ffffff" },
+      { id: "editor", label: "코드 에디터", description: "파일 탐색기, 문서 탭과 접히는 코드, 답안을 실행하고 확인하는 출력 패널", swatch: "#007acc", chrome: "#181818" },
     ],
   },
 ] satisfies Array<{
@@ -54,4 +60,4 @@ export const themeGroups = [
 }>;
 
 // Runs before the first paint, so a saved dark theme does not flash white.
-export const themeInitScript = `(function(){var t="light",c="classic",f="system",s=15;try{var v=localStorage.getItem(${JSON.stringify(THEME_STORAGE_KEY)});if(${JSON.stringify(THEME_IDS)}.indexOf(v)!==-1)t=v;v=localStorage.getItem(${JSON.stringify(CHAT_SKIN_STORAGE_KEY)});if(${JSON.stringify(chatSkins.map(skin => skin.id))}.indexOf(v)!==-1)c=v;v=localStorage.getItem(${JSON.stringify(CHAT_FONT_STORAGE_KEY)});if(${JSON.stringify(chatFonts.map(font => font.id))}.indexOf(v)!==-1)f=v;v=Number(localStorage.getItem(${JSON.stringify(CHAT_SIZE_STORAGE_KEY)}));if(${JSON.stringify(CHAT_TEXT_SIZES)}.indexOf(v)!==-1)s=v}catch(e){}var h=document.documentElement;h.dataset.theme=t;h.dataset.chatSkin=c;h.dataset.chatFont=f;h.dataset.chatSize=String(s);h.style.colorScheme=(t==="dark"||t==="terminal"||(t==="chat"&&c==="midnight"))?"dark":"light"})();`;
+export const themeInitScript = `(function(){var t="light",c="classic",f="system",s=15;try{var v=localStorage.getItem(${JSON.stringify(THEME_STORAGE_KEY)});if(${JSON.stringify(THEME_IDS)}.indexOf(v)!==-1)t=v;v=localStorage.getItem(${JSON.stringify(CHAT_SKIN_STORAGE_KEY)});if(${JSON.stringify(chatSkins.map(skin => skin.id))}.indexOf(v)!==-1)c=v;v=localStorage.getItem(${JSON.stringify(CHAT_FONT_STORAGE_KEY)});if(${JSON.stringify(chatFonts.map(font => font.id))}.indexOf(v)!==-1)f=v;v=Number(localStorage.getItem(${JSON.stringify(CHAT_SIZE_STORAGE_KEY)}));if(${JSON.stringify(CHAT_TEXT_SIZES)}.indexOf(v)!==-1)s=v}catch(e){}var h=document.documentElement;h.dataset.theme=t;h.dataset.chatSkin=c;h.dataset.chatFont=f;h.dataset.chatSize=String(s);h.style.colorScheme=(t==="dark"||t==="terminal"||t==="editor"||(t==="chat"&&c==="midnight"))?"dark":"light"})();`;

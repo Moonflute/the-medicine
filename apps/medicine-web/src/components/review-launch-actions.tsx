@@ -17,6 +17,7 @@ export function ReviewLaunchActions({ children }: { children: ReactNode }) {
     {theme === "chat" ? <div className="review-launcher-heading"><span>학습 대화</span><span>3개</span></div>
       : theme === "sheet" ? <div className="review-launcher-columns" aria-hidden="true"><span /><span>A · 학습</span><span>B · 내용</span><span>C</span></div>
         : theme === "terminal" ? <div className="review-launcher-heading"><span>C:\REVIEW&gt; MENU</span><span>3 COMMANDS</span></div> : null}
+    {theme === "mail" || theme === "social" || theme === "editor" ? <div className="skin-directory-heading"><span>{theme === "mail" ? "학습 메일함" : theme === "social" ? "내 학습 피드" : "scripts / learning"}</span><span>3</span></div> : null}
     <div className="review-launcher-list" key="actions">{children}</div>
   </section>;
 }

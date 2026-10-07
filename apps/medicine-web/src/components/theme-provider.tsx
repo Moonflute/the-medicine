@@ -32,7 +32,7 @@ const getSize = (): ChatTextSize => {
 };
 function updateColorScheme() {
   const theme = getTheme();
-  document.documentElement.style.colorScheme = theme === "dark" || theme === "terminal" || (theme === "chat" && getSkin() === "midnight") ? "dark" : "light";
+  document.documentElement.style.colorScheme = theme === "dark" || theme === "terminal" || theme === "editor" || (theme === "chat" && getSkin() === "midnight") ? "dark" : "light";
 }
 
 function subscribe(callback: () => void) {

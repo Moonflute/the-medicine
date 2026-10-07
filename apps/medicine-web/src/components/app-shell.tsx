@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, ChevronLeft, FileSpreadsheet, FlaskConical, HeartPulse, House, Menu, MessageCircle, Pill, Search, Stethoscope, Terminal, X } from "lucide-react";
 import { useAppTheme } from "@/components/theme-provider";
+import { isSpecialTheme } from "@/lib/themes";
 import { SkinAppFrame } from "@/components/skin-app-frame";
 import { AuthStatus } from "@/components/auth-status";
 import { LearningSyncProvider } from "@/components/learning-sync-provider";
@@ -18,7 +19,7 @@ const navItems = [
   { href: "/specialties", label: "Specialties", icon: Activity },
   { href: "/drugs", label: "Drugs", icon: Pill },
   { href: "/lab-img", label: "Lab & Img", icon: FlaskConical },
-  { href: "/skills", label: "술기 및 처치", icon: Stethoscope },
+  { href: "/skills", label: "Skills", icon: Stethoscope },
   { href: "/review", label: "Review", icon: BookOpenCheck },
 ];
 
@@ -34,7 +35,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const immersive = atlas || pathname.startsWith("/interactive/") || pathname === "/nervous-system-hub" || pathname === "/nervous-system-hub/";
   const [open, setOpen] = useState(false);
   const { theme } = useAppTheme();
-  const specialTheme = theme === "chat" || theme === "sheet" || theme === "terminal";
+  const specialTheme = isSpecialTheme(theme);
   const isHome = pathname === "/";
   const documentPage = (/^\/(disease|drugs|skills|lab-img)\/[^/]+\/?$/.test(pathname)
     && !/\/(category|antibiotics|medcalc|numeric-input|blood-reference)\/?$/.test(pathname))
@@ -79,7 +80,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     if (pathname.startsWith("/specialty") || pathname.startsWith("/disease")) return "Disease Library";
     if (pathname.startsWith("/drugs")) return "Pharmacology";
     if (pathname.startsWith("/lab-img")) return "Lab & Imaging";
-    if (pathname.startsWith("/skills")) return "술기 및 처치";
+    if (pathname.startsWith("/skills")) return "Clinical Skills";
     if (pathname.startsWith("/review")) return "Review";
     return "The Medicine";
   }, [pathname]);

@@ -1,4 +1,5 @@
 import type { ContentMeta } from "@/lib/types";
+import { ConceptMetadata } from "@/components/concept-document";
 
 const STATUS_LABELS: Record<string, string> = {
   draft: "초안", reviewed: "검토 완료", verified: "검증 완료",
@@ -13,5 +14,5 @@ export function ContentMetadata({ meta }: { meta?: ContentMeta }) {
     meta?.reviewedAt?.trim() ? `검토일 ${meta.reviewedAt.trim()}` : "",
   ].filter(Boolean);
   if (!items.length) return null;
-  return <p className="mt-3 text-xs leading-5 text-slate-500">{items.join(" · ")}</p>;
+  return <ConceptMetadata><p className="mt-3 text-xs leading-5 text-slate-500">{items.join(" · ")}</p></ConceptMetadata>;
 }
