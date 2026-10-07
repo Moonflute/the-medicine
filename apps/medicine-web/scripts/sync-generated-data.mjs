@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { createSkillsManifest } from "./skills-manifest.mjs";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
@@ -1826,11 +1827,16 @@ function main() {
   );
 }
 
-if (process.argv.includes("--skills-only")) {
-  ensureDir(DATA_ROOT);
-  const skills = buildSkills();
-  writeJson("skills.json", skills);
-  console.log(JSON.stringify({ skills: skills.items.length, categories: skills.categories.length }));
-} else {
-  main();
+export { readList, splitSections, buildDiseases, buildDiseaseHierarchy, parseSpecialtyTocMarkdown };
+
+// Importing parsers for contract tests must not run generation or write files.
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  if (process.argv.includes("--skills-only")) {
+    ensureDir(DATA_ROOT);
+    const skills = buildSkills();
+    writeJson("skills.json", skills);
+    console.log(JSON.stringify({ skills: skills.items.length, categories: skills.categories.length }));
+  } else {
+    main();
+  }
 }

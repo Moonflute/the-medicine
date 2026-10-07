@@ -45,6 +45,12 @@ test("all current lab documents have explicit classifications and valid panel me
  assert.equal(kinds.labDocumentMeta(bun).kind,"test");
  const renamed={...bun,title:"Blood CBC Hematology overview"};
  assert.equal(ranges.isLabImgOverviewNote(renamed),false);
+ for(const title of ["수술 중 담도조영술 (Intraoperative Cholangiography)","유방촬영술 (Mammography)"]) {
+  const imaging=notes.find(note=>note.title===title);
+  assert.ok(imaging,title);
+  assert.equal(kinds.labDocumentMeta(imaging).kind,"imaging",title);
+  assert.equal(ranges.isLabImgOverviewNote(imaging),false,title);
+ }
 });
 test("single-test ranges never come from another test",()=>{
  for(const title of ["Blood Urea Nitrogen (BUN)","Creatinine","Hemoglobin"]) {
