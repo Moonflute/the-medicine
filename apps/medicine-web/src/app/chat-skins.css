@@ -381,3 +381,56 @@ html[data-theme="chat"]:has(.chat-qbank-dialog[open]) { overflow:hidden; }
   .chat-qbank-picker-content { padding-inline:25px; }
   .chat-qbank-selection-footer { padding-inline:25px; }
 }
+
+/* Mock exams keep notices and actions out of the message stream. */
+.chat-mock-exam > .chat-pinned-notice { margin-bottom:5px; }
+.chat-mock-exam .chat-exam-notice-info dl,.chat-exam-submit dl { display:flex; gap:22px; margin-bottom:8px; font-size:12px; }
+.chat-exam-notice-info dt,.chat-exam-submit dt { margin-bottom:3px; color:var(--chat-meta); font-size:10px; }
+.chat-exam-notice-info dd,.chat-exam-submit dd { font-variant-numeric:tabular-nums; }
+.chat-exam-notice-info > p { color:var(--chat-meta); font-size:10px; }
+.chat-exam-notice-info > div { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:10px; }
+.chat-exam-notice-info button { color:var(--primary); font-size:12px; cursor:pointer; }
+.chat-exam-notice-info > div > span { color:var(--chat-meta); font-size:10px; }
+.chat-exam-sheet-summary { display:flex; flex-direction:column; gap:5px; flex-shrink:0; padding:14px 18px; font-size:13px; }
+.chat-exam-sheet-summary > span { color:var(--muted); font-size:11px; }
+.chat-exam-sheet-filters { display:flex; flex-shrink:0; gap:0; padding:0 14px; border-bottom:1px solid var(--line); }
+.chat-exam-sheet-filters > button { display:flex; align-items:center; justify-content:center; flex:1; gap:5px; min-height:44px; padding:9px 3px; border-bottom:2px solid transparent; color:var(--muted); font-size:12px; cursor:pointer; }
+.chat-exam-sheet-filters > button[aria-pressed="true"] { border-bottom-color:var(--primary); color:var(--chat-text); font-weight:600; }
+.chat-exam-sheet-filters small { font-size:10px; font-variant-numeric:tabular-nums; }
+.chat-exam-answer-list { flex:1; min-height:0; overflow:auto; overscroll-behavior:contain; padding:5px 18px 16px; }
+.chat-exam-answer-list h3 { position:sticky; top:0; z-index:1; padding:12px 0 8px; background:var(--chat-chrome); color:var(--muted); font-size:11px; font-weight:500; }
+.chat-exam-answer-row { display:flex; align-items:center; gap:11px; width:100%; min-height:64px; padding:11px 0; border-bottom:1px solid var(--line); text-align:left; cursor:pointer; }
+.chat-exam-number { display:flex; flex-shrink:0; align-items:center; justify-content:center; width:32px; height:32px; border-radius:11px; background:var(--surface-subtle); color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; }
+.chat-exam-answer-row[aria-current="step"] .chat-exam-number { background:var(--chat-sent); color:var(--chat-sent-text); }
+.chat-exam-answer-copy { display:flex; flex:1; min-width:0; flex-direction:column; gap:5px; }
+.chat-exam-answer-copy strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--chat-text); font-size:13px; font-weight:500; }
+.chat-exam-answer-copy > span { color:var(--muted); font-size:10px; }
+.chat-exam-answer-label { flex-shrink:0; min-width:24px; color:var(--chat-text); font-size:12px; text-align:right; }
+.chat-exam-answer-row[data-status="미응답"] .chat-exam-answer-label { color:var(--muted); }
+.chat-exam-answer-row[data-status="정답"] .chat-exam-answer-copy > span { color:var(--color-teal-600,#0d9488); }
+.chat-exam-answer-row[data-status="오답"] .chat-exam-answer-copy > span { color:var(--color-rose-600,#e11d48); }
+.chat-exam-flag { flex-shrink:0; color:var(--primary); }
+.chat-exam-list-empty { padding:45px 10px; color:var(--muted); font-size:12px; text-align:center; }
+.chat-exam-sheet-help { flex-shrink:0; padding:12px 18px calc(13px + env(safe-area-inset-bottom)); border-top:1px solid var(--line); color:var(--muted); font-size:10px; }
+.chat-exam-submit { padding:20px 20px 17px; font-size:14px; line-height:1.7; }
+.chat-exam-submit dl { margin-top:16px; }
+.chat-exam-submit .chat-exam-submit-note { margin-top:15px; color:var(--muted); font-size:12px; }
+.chat-exam-submit-error { margin-top:12px; color:var(--color-rose-600,#e11d48); font-size:12px; }
+.chat-exam-submit-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:22px; }
+.chat-exam-submit-actions > button { display:flex; align-items:center; justify-content:center; gap:5px; min-height:39px; padding:8px 11px; border-radius:6px; background:var(--surface-subtle); color:var(--chat-text); font-size:12px; cursor:pointer; }
+.chat-exam-submit-actions > button:last-child { background:var(--chat-sent); color:var(--chat-sent-text); }
+.chat-exam-result { margin:22px 4px 18px; }
+html[data-theme="chat"] .chat-mock-exam .chat-exam-result-message h2 { margin:0; font-size:var(--chat-font-size); line-height:1.7; font-weight:500; }
+html[data-theme="chat"] .chat-exam-result-message .chat-exam-result-score { display:flex; align-items:baseline; gap:12px; margin-top:12px; font-size:24px; font-weight:600; }
+.chat-exam-result-score > span { color:var(--primary); font-size:13px; }
+html[data-theme="chat"] .chat-exam-result-message .chat-exam-result-note { margin-top:5px; color:var(--chat-meta); font-size:11px; }
+.chat-exam-result-message dl { margin-top:16px; font-size:12px; }
+.chat-exam-result-message dl > div { display:flex; justify-content:space-between; gap:20px; padding:6px 0; border-bottom:1px solid var(--line); }
+.chat-exam-result-message dt { color:var(--chat-meta); }
+.chat-exam-result-message dd { font-variant-numeric:tabular-nums; }
+.chat-exam-review-button { display:block; width:100%; min-height:39px; margin-top:16px; padding:8px 12px; border-radius:6px; background:var(--chat-sent); color:var(--chat-sent-text); font-size:12px; cursor:pointer; }
+.chat-exam-result-message > .chat-exam-retry { margin-top:12px; padding-top:12px; border-top:1px solid var(--line); }
+html[data-theme="chat"] .chat-exam-retry :is(button,a) { font-size:11px; }
+html[data-theme="chat"] .chat-exam-dialog :is(button,a):focus-visible { outline:2px solid var(--primary); outline-offset:2px; }
+
+.chat-tools-grid .chat-attachment-actions > button[aria-pressed="true"]:has(.lucide-flag) { background:var(--chat-sent); color:var(--chat-sent-text); }
