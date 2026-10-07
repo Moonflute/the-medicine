@@ -20,7 +20,7 @@ sources_ref: "openFDA drug label API (US)"
 clinical_priority: tier_1
 sources:
   - 'DailyMed INFLIXIMAB (INFLIXIMAB) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b05c174f-832c-4321-b34f-2c4ad3742269'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -47,6 +47,8 @@ review_status: draft
 - 투여 전 과민반응 대비를 위한 인력 및 약물 준비 필수
 
 #### 적응증
+- 성인 누공성 크론병에서 배액되는 장피부·직장질 누공의 수를 줄이고 누공 폐쇄를 유지하는 데 사용한다.
+
 - 성인 및 소아(6세 이상)의 중등도-중증 활동성 크론병 및 궤양성 대장염
 - 성인의 중등도-중증 활동성 류마티스관절염 (메토트렉세이트 병용)
 - 활동성 강직성 척추염 및 건선성 관절염
@@ -68,6 +70,9 @@ review_status: draft
 - 기타: 간독성, 혈구감소증, 루푸스 유사 증후군
 
 #### 모니터링 및 주의
+- 항-infliximab 항체가 생기면 약물 청소율 증가, 효과 감소 및 주입 반응 증가가 나타날 수 있다. 유지 치료 중 반응 소실이나 재투여 후 주입 반응을 평가할 때 면역원성을 고려한다.
+- 시신경염·다발성경화증을 포함한 탈수초성 질환이나 경련의 신규 발생 또는 악화에 주의한다. 관련 신경계 질환이 있는 환자에서는 신중히 선택하며, 발생 시 투여 중단을 고려한다.
+
 - 중증 감염 위험: 활동성 감염 시 투여 금지, 기회감염 주의
 - 결핵: 투여 전 잠복 결핵 검사 및 필요 시 치료 시행
 - B형 간염 재활성화: 투여 전 검사 및 보균자 모니터링
@@ -88,3 +93,6 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+
+참고: 삼성서울병원 메뉴얼.
+- [DailyMed infliximab 허가정보](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b05c174f-832c-4321-b34f-2c4ad3742269)

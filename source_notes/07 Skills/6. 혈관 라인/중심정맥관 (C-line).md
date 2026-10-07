@@ -44,6 +44,8 @@ C-line은 승압제·고삼투성 약물·대량수액·장기 접근에 유용�
 
 - ‘팔에 삽입했다’는 이유만으로 말초정맥관이라고 분류하지 않습니다. 도관 선택은 필요한 약물·유량·예상 기간과 환자 혈관 상태에 맞춥니다.
 
+- **투석 접근 보존:** 진행성 CKD 또는 투석 가능성이 있는 환자에서는 일반 C-line·PICC·불필요한 상지 채혈/정맥로가 향후 AV access를 제한할 수 있으므로, 시술 전 신장내과의 access 계획을 확인합니다. 혈액투석에는 별도의 고유량 전용 catheter가 필요하며 일반 중심정맥관을 대체로 사용하지 않습니다.
+
 ## 시행
 
 ### 준비물
@@ -77,6 +79,10 @@ Warning: guidewire 위치가 불확실하거나 저항·부정맥이 있으면 d
 ### Lumen 확인·고정
 각 lumen에서 blood return과 saline flush를 확인해 cap을 닫고 catheter를 고정합니다. 멸균 dressing과 lumen별 label을 적용합니다.
 
+- site별 감염·기계 합병증과 향후 투석 접근을 함께 고려합니다. 진행성 CKD에서 중심정맥 협착 위험을 줄이기 위해 불필요한 PICC·상지 정맥 손상과 subclavian 접근을 피할 수 있도록 신장내과/시술팀과 부위를 결정합니다.
+
+진행성 CKD·투석 환자는 기존 AV fistula/graft, 향후 접근 예정 팔, 중심정맥 협착·pacemaker·이전 catheter 이력을 확인합니다. 긴급 투석 catheter의 부위·종류·삽입은 신장내과/시술팀과 결정하고, 가능한 한 혈관 보존 계획과 일치시킵니다.
+
 ## 결과
 
 ### 위치·합병증 확인 후 사용
@@ -96,3 +102,8 @@ Warning: guidewire 위치가 불확실하거나 저항·부정맥이 있으면 d
 
 ### 유지·기록
 site·side, catheter·lumen, 깊이, 시도, ultrasound·wire 제거, 위치 확인, 합병증을 기록합니다. Hub를 접근 전마다 소독하고 dressing·감염·혈전·필요성을 매일 확인합니다.
+
+AV fistula/graft가 있는 팔은 채혈·혈압측정·말초정맥로를 피하도록 표지하고, 매일 thrill/bruit 변화, 통증·부종·발적, 손 허혈 증상을 확인해 이상 시 투석 access 팀에 즉시 알립니다.
+
+참고: 삼성서울병원 메뉴얼.
+- [KDOQI 2019 Vascular Access Guideline](https://www.kidney.org/sites/default/files/2026-07/2019-kdoqi-guideline-vascular-access.pdf)

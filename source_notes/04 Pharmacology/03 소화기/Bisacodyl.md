@@ -22,7 +22,7 @@ easy_drug_update_de: "2021-12-21"
 clinical_priority: tier_1
 sources:
   - 'DailyMed Bisacodyl 5 mg delayed-release tablet | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4fb4e630-875f-4c82-86d9-7696857e3c42'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -44,6 +44,8 @@ review_status: draft
 - 장기 복용 시 약물 의존성 및 내성이 발생할 수 있어 주의가 필요합니다.
 
 #### 용법/용량
+- 경구 장용정과 직장 좌약은 투여 경로·발현 시간이 다르므로 같은 용법으로 대체하지 않는다. 경구 장용정은 보통 복용 후 6–12시간에 배변 효과가 나타날 수 있다.
+
 - 성인: 1일 1회 10mg(2정)을 취침 시 복용합니다.
 - 증상에 따라 1회 최대 15mg(3정)까지 증량 가능합니다.
 - 제형의 특성상 씹거나 부수지 말고 그대로 복용해야 합니다.
@@ -71,6 +73,8 @@ review_status: draft
 - 혈관부종, 아나필락시스 반응
 
 #### 모니터링 및 주의
+- 지속적인 배변 곤란에서 용량만 올리지 말고 폐색·매복변·골반저 배변장애를 평가한다. 과도한 사용이나 설사가 이어지면 수분·전해질 상태를 확인한다.
+
 - 1주일 이상 연속 사용하지 마십시오.
 - 소아, 고령자, 황색4호 과민증 환자는 복용 전 전문가와 상의하십시오.
 - 복용 후 심한 복통이나 설사, 어지러움이 나타나면 즉시 중단하고 진료를 받으십시오.
@@ -81,3 +85,6 @@ review_status: draft
 
 ## 출처
 - 식약처 e약은요(의약품개요정보) API (품목기준코드: 197600483)
+
+참고: 삼성서울병원 메뉴얼.
+- [Bisacodyl 장용정 공식 라벨](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d5dd009-c371-43c2-b42d-1b5c7dd09a4d&version=1)

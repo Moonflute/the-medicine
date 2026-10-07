@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-08"
 aliases: []
 유형:
 - disease
@@ -18,7 +18,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-08"
 ---
 분과 : [[소화기]]
 
@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
   내시경 초음파(EUS)는 낭종액 흡인(FNA)을 통해 낭성 종양과의 감별(CEA 수치 등) 및 치료적 배액에 활용된다.
 
 ## 4. 진단 (Diagnosis)
+- 급성 췌장염 뒤 4주 이내의 단순 액체저류, 괴사성 내용물을 포함한 walled-off necrosis(WON), 낭성 종양을 가성낭종과 구분한다. 감염·출혈·통증·위출구/담도 폐쇄 또는 진단 불확실성이 있으면 조영 CT/MRI와 필요 시 EUS로 재평가한다.
+
 - **진단 기준**
 * 췌장염 또는 외상 병력
 * 영상 검사에서 경계가 명확한 액체 저류 확인
@@ -57,8 +59,8 @@ reviewed_at: "2026-07-30"
 - **감별진단**: 췌장 낭성 종양(IPMN, 점액성 낭성 종양 등), 췌장 농양, 구역성 췌장 괴사(WON) 등과 감별이 중요하다.
 
 ## 5. 치료
-- 무증상 가성낭종은 6주 이상 성숙 기간을 둔 뒤 초음파·CT로 정기 추적 관찰하고, 크기·증상 변화 시 재평가한다.
-- 증상이나 감염·출혈·폐쇄 등 합병증이 나타나면 내시경적 배액술을 1차 선택하고, 시술 전 혈역학 안정 및 항생제 예방투여를 확인한다.
+- 무증상 가성낭종은 크기나 발생 후 경과만으로 배액하지 않고 증상·성장·합병증·진단 불확실성에 따라 임상 및 영상을 추적한다. 추적 검사 종류와 간격은 췌관 상태, 원인과 영상 소견에 맞춰 정한다.
+- 증상, 감염·출혈·폐쇄 등 합병증이 있으면 해부학·췌관 연결·괴사성 내용물과 시술 전문성에 따라 EUS 유도 내시경, 경피 또는 수술 배액을 선택한다. 감염 또는 출혈이 의심되면 배양·혈관 평가와 원인 조절을 배액 계획에 포함한다.
 - 내시경 배액이 실패하거나 복합 구조·전이 위험이 있을 경우 외과적 배액(낭‑공장 문합술)으로 전환하며, 해당 환자는 소화기외과 전문의에게
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -72,3 +74,8 @@ reviewed_at: "2026-07-30"
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [ACG 만성 췌장염 진료지침](https://pubmed.ncbi.nlm.nih.gov/32022720/)
+- [ESGE 괴사성 췌장염 내시경 지침](https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline)
+- [Pancreapedia 자가면역 췌장염 진단](https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis)

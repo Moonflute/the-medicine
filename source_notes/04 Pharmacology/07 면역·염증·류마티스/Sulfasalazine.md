@@ -21,7 +21,7 @@ sources_ref: "openFDA drug label API (US)"
 clinical_priority: tier_1
 sources:
   - 'DailyMed Sulfasalazine delayed-release tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=257cee60-b68f-4c2b-b57d-8e4d73d17e09'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -34,6 +34,8 @@ review_status: draft
 > 용량: `-`
 
 ## 기전
+- 대장에서 세균의 azo reductase가 azo 결합을 분해하여 5-ASA와 sulfapyridine을 방출한다. UC에서는 5-ASA의 국소 항염증 작용이 중요하다.
+
 - 면역세포 증식과 염증 신호를 억제한다.
 
 ## 임상 정보
@@ -51,9 +53,13 @@ review_status: draft
 - 중증 간질환 또는 골수억제
 
 #### 상호작용
+- 엽산과 digoxin 흡수가 감소할 수 있다. 엽산 상태와 보충 필요성을 확인하고 digoxin 병용 시 임상 반응을 점검한다.
+
 - 병용약이 많다면 CYP 대사, 진정, 출혈, 신기능 영향 축을 먼저 점검한다.
 
 #### 부작용
+- 두통·식욕부진·오심·구토 등 불내성은 용량 증가와 함께 심해질 수 있어 점진적 증량을 고려한다. 가역적 정자 이상·정자수 감소도 설명한다. 발열·발진·인후통·황달·새 호흡기 증상은 중증 과민반응·혈액 이상·간/폐 손상 평가가 필요한 신호다.
+
 - 간독성
 - 골수억제
 - 오심
@@ -61,6 +67,8 @@ review_status: draft
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
 #### 모니터링 및 주의
+- 투약 전 CBC·백혈구 감별·간기능을 확인하고 초기에는 특히 면밀히 추적한다. 신기능과 소변검사도 함께 평가하며 독성이 의심되면 단순 증량 불내성으로 넘기지 않는다.
+
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 
@@ -70,3 +78,6 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+
+참고: 삼성서울병원 메뉴얼.
+- [DailyMed sulfasalazine](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=029716bd-ee1a-484c-bf1f-ec8d02d5281b)

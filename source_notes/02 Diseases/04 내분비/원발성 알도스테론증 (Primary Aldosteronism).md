@@ -14,10 +14,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-10-08"
 review_status: "source_reviewed_no_change"
 guideline_year: "2025"
-sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis and Management of Primary Aldosteronism | https://www.endocrinology.or.kr/journal/view.php?number=1789", "Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline | https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism"]
+sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis and Management of Primary Aldosteronism | https://www.endocrinology.or.kr/journal/view.php?number=1789", "Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline | https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2"]
 
 ---
 ## 1. 개요
@@ -41,12 +41,13 @@ sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis 
   - 부종: 드묾
 
 ## 3. 검사
+- **ARR의 전제:** 저칼륨혈증을 교정하고, 혈압약·염분섭취·자세·채혈시간 및 신기능이 레닌·알도스테론에 미치는 영향을 기록합니다. 약물 중단은 안전할 때에만 대체 약제를 포함해 계획하며, 위험한 고혈압에서 일률적으로 중단하지 않습니다. ARR은 검사실 단위와 절단값, 절대 알도스테론 및 레닌 억제를 함께 해석합니다.
+- **확인과 아형화:** 반복 ARR 및 확진검사는 고전적 고확률 표현형에서는 생략될 수 있고, 고령·심부전·신장질환에서는 염분부하 검사가 부적절할 수 있습니다. 수술을 고려하는 환자는 부신 CT만으로 일측성을 단정하지 않고, 적합하면 경험 있는 센터의 AVS로 수술 가능 아형을 확인합니다.
+
 - 혈액 검사: 알도스테론 증가, 레닌 활성도(PRA) 감소, 저칼륨혈증, 대사성 알칼리증
 - 선별 검사: 혈장 알도스테론 농도 및 혈장 레닌 활성도(PRA) 측정
-- 검사 전 4~6주간 RAS에 영향을 주는 약제(ACE 억제제, ARB, 이뇨제 등) 중단 권고
-- 의심 지표: 알도스테론 > 15 ng/dL, PRA 저하, 알도스테론/레닌 비율(ARR) > 20
-- 확진 검사: 생리식염수 부하 검사 또는 경구 나트륨 부하 검사 후 알도스테론 억제 여부 확인(자율적 분비 시 억제되지 않음)
-- 위치 확인: CT 또는 MRI 시행, 필요 시 부신 정맥 채혈(AVS)을 통해 일측성(샘종)과 양측성(증식증) 감별
+- ARR 검사는 약물·칼륨·염분섭취·자세·검사실 단위를 고려해 해석한다. 특정 단일 ARR 절단값만으로 확진·배제하지 않는다.
+- 확진검사와 부신정맥채혈(AVS)은 임상 확률, 수술 계획, 신장·심부전 위험과 영상 결과에 따라 선택한다. CT/MRI는 해부학 평가에 중요하지만 단독으로 분비 병변의 측성을 확정하지 않는다.
 
 ## 4. 진단
 - 고혈압 환자에서 저칼륨혈증이 동반된 경우 의심(단, 정상 칼륨 수치인 경우도 많음)
@@ -69,3 +70,7 @@ Last updated :
 2024-07-30 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [대한내분비학회 2023 원발성 알도스테론증 합의지침](https://www.endocrinology.or.kr/journal/view.php?number=1789)
+- [Endocrine Society 원발성 알도스테론증 지침](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2)

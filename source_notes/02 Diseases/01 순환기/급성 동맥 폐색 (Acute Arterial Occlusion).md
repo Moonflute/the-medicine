@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-08"
 aliases: []
 유형:
 - disease
@@ -14,7 +14,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-08"
 ---
 분과 : [[순환기]]
 
@@ -38,10 +38,14 @@ reviewed_at: "2026-07-30"
 - **기타**: 심전도(심방세동 확인), 심장 초음파(색전원 확인)를 병행한다.
 
 ## 4. 진단 (Diagnosis)
+- **시술 뒤 콜레스테롤 색전 감별**: 대동맥/관상동맥 시술 뒤 수일~수주에 blue toe, livedo reticularis, 피부궤양과 진행성 신기능 저하가 나타나는데 말초 맥박이 보존되면 콜레스테롤 색전을 의심한다. 호산구증가·저보체혈증은 보조 단서이며, 조영제 관련 신손상·심장성 혈전색전과 시간 경과를 포함해 구분한다.
+
 - 임상적 의심이 가장 중요하며, CT 혈관조영술을 통해 확진한다.
 - 감각저하·근력저하의 범위와 동맥·정맥 도플러 신호를 함께 확인해 사지 생존 가능성을 분류한다. 감각·운동 장애가 진행하거나 동맥 신호가 소실된 위협 사지는 영상 때문에 재관류가 지연되지 않도록 즉시 혈관외과와 협진한다.
 
 ## 5. 치료
+- 콜레스테롤 색전은 큰 혈관의 급성 혈전폐색처럼 일률적 혈전용해·혈전제거로 치료하지 않는다. 유발 가능한 혈관 조작을 줄이고, 신기능·피부/장기 허혈을 지지 치료하며 동맥경화 위험인자와 색전원을 전문팀이 관리한다.
+
 - 의심 즉시 헤파린 등의 전신 항응고 요법을 시작하여 혈전의 추가 확산을 방지한다.
 - 카테터를 이용한 혈전 제거술, 혈전 용해술, 또는 수술적 혈전 제거술 등을 통한 신속한 재관류 치료를 시행한다.
 - 비가역적 허혈이나 마비가 동반된 응급 상황에서는 즉각적인 상급 병원 전원을 고려한다.
@@ -51,7 +55,7 @@ reviewed_at: "2026-07-30"
 - 재관류 증후군(고칼륨혈증, 대사성 산증, 근육병증), 사지 절단, 영구적인 신경 손상 등이 발생할 수 있다.
 
 출처 : Merck Manual Professional
-보완 출처: 삼성서울병원 외과 메뉴얼
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [Merck 급성 하지허혈](https://www.merckmanuals.com/en-ca/professional/cardiovascular-disorders/peripheral-artery-disorders/acute-limb-ischemia)
+- [MSD 조영제 신병증과 죽상색전 감별](https://www.msdmanuals.com/professional/nephrology/tubulointerstitial-diseases/contrast-nephropathy)

@@ -12,7 +12,7 @@ CC:
 - 식은땀
 - 구토
 clinical_priority: tier_1
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-10-08"
 guideline_year: '2023'
 sources:
 - '2023 ESC Guidelines for the Management of Acute Coronary Syndromes | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/'
@@ -43,6 +43,10 @@ population: adult
 - NSTE-ACS는 재발성 흉통, 동적 ST-T 변화, 혈역학 불안정, 심부전·부정맥, troponin 변화 및 임상 위험도를 바탕으로 매우 고위험·고위험 여부를 즉시 분류한다.
 
 ## 5. 치료
+- **이차예방의 재평가**: DAPT 기간·수술 시점은 스텐트 종류만으로 고정하지 않고 ACS 여부, 출혈/허혈 위험, 항응고 병용, 긴급 수술 필요성과 시술팀 협의에 따라 조정한다. 퇴원 뒤 4–8주에는 지질저하 반응을 재확인하고 심장재활·금연·복약 순응을 연결한다.
+
+- **CABG와 PCI 선택**: 좌주간부 또는 복잡한 다혈관 병변, 당뇨, 좌심실 기능, 해부학적 PCI 가능성, 동반질환·취약성, 수술 위험과 환자 목표를 Heart Team에서 함께 평가한다. 특히 해부학적으로 두 방법 모두 가능한 복잡 다혈관 CAD와 당뇨에서는 CABG의 장기 이득을 검토하되, 나이·신장/폐/간기능·뇌혈관 위험만으로 기계적 금기 판정을 내리지 않는다.
+
 - STEMI 또는 매우 고위험 NSTE-ACS는 즉시 침습 전략이 필요하다. STEMI는 primary PCI가 우선이며, 진단 후 120분 이내에 적절한 PCI가 불가능하고 증상 발생 12시간 이내이며 금기가 없으면 fibrinolysis를 고려하고 이후 PCI 가능한 기관으로 이송한다.
 - 모든 ACS에서 aspirin을 포함한 항혈소판 치료와 항응고 전략을 허혈·출혈 위험, 재관류 방법, 경구항응고제 사용 여부에 맞춰 결정한다. P2Y12 억제제의 선택·투여 시점은 STEMI/NSTE-ACS, 예정된 시술, 출혈 위험 및 수술 가능성에 따라 다르므로 일률적 pre-treatment를 피한다.
 - NSTE-ACS는 입원 중 침습적 평가가 원칙이며, 고위험 특징이 있으면 조기 침습 전략(통상 24시간 이내)을 고려한다. 심인성 쇼크·진행성 허혈·불응성 통증·위험 부정맥은 즉시 전략의 대상이다.
@@ -54,3 +58,7 @@ population: adult
 - 퇴원 후에는 재발 MI, 출혈, 심부전, 부정맥, 우울·복약 중단을 추적한다. 갑작스러운 흉통 재발, 실신, 호흡곤란, 출혈 또는 흑색변은 즉시 평가가 필요하다.
 
 출처: ESC, *2023 Guidelines for the Management of Acute Coronary Syndromes*.
+
+참고: 삼성서울병원 메뉴얼.
+- [AHA 2025 급성 관상동맥증후군 지침 핵심](https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know)
+- [ACC 2024 만성 관상동맥증후군 핵심](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/09/01/15/01/2024-esc-guidelines-for-ccs-esc-2024)

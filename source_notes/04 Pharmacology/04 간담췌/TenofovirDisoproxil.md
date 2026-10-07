@@ -20,7 +20,7 @@ sources_ref: "openFDA drug label API (US)"
 clinical_priority: tier_1
 sources:
   - 'DailyMed Tenofovir Disoproxil Fumarate | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08a30772-02fc-4f63-e063-6394a90afd43'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -57,6 +57,9 @@ review_status: draft
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
 #### 모니터링 및 주의
+- 투여 전과 치료 중 혈청 크레아티닌, 추정 크레아티닌 청소율, 요단백·요당을 확인한다. 만성 신질환이 있으면 혈청 인도 확인하며, 근위세뇨관 손상에 따른 인 소실과 저인산혈증에 유의한다. 신기능 변화나 골통·근력 저하 등이 나타나면 약제 독성과 다른 원인을 평가한다.
+- 신기능 저하 또는 골질환 위험이 있으면 기존 내성·치료 이력과 각 약제의 허가조건을 고려하여 TAF 또는 엔테카비르 등 대안의 적합성을 검토한다. TDF와 TAF의 용량·신기능 기준을 서로 그대로 적용하지 않는다.
+
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 
@@ -66,3 +69,6 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+
+참고: 삼성서울병원 메뉴얼.
+- [TDF 허가사항](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ac4c628-f01f-42d4-b8e6-d12273aefc6d)

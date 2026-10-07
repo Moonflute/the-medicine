@@ -35,12 +35,16 @@ sources_ref: "openFDA drug label API (US)"
 - 경구용 용액제는 조제 후 냉장 보관이 필요하며, 투여 시 음식과 함께 복용 권장
 
 #### 용법/용량
+- 성인 활동성 CMV 식도염: 정상 신기능에서 900 mg 경구 12시간 간격을 사용할 수 있다. 신기능별 감량이 필요하며 예방의 1일 1회 투여나 소아 BSA 계산법과 구분한다.
+
 - 소아 용량은 수정된 Schwartz 공식을 사용하여 체표면적(BSA)과 크레아티닌 청소율(CrCl)을 기반으로 계산
 - 이식 후 10일 이내에 투여를 시작하며, 신장 이식은 200일, 심장 이식은 100일까지 1일 1회 투여
-- 계산된 용량이 900mg을 초과할 경우 최대 900mg까지만 투여
+- 소아 이식 예방의 계산된 1회 용량이 900 mg을 초과하면 1회 최대 900 mg을 투여
 - 조제된 용액은 2~8°C에서 냉장 보관하며, 최대 49일간 사용 가능(냉동 금지)
 
 #### 적응증
+- 성인 [[거대세포바이러스 식도염 (CMV Esophagitis)]]의 경증 또는 경구 흡수가 가능한 전환 치료에도 사용한다. 아래 소아 이식 예방 항목과 구분한다.
+
 - 소아 신장 이식 환자(4개월~16세)의 CMV 질환 예방
 - 소아 심장 이식 환자(1개월~16세)의 CMV 질환 예방
 
@@ -73,3 +77,7 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+
+참고: 삼성서울병원 메뉴얼.
+- [NIH 성인·청소년 HIV 기회감염 CMV 지침](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus?view=full)
+- [고형장기이식 CMV 국제합의 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180710/)

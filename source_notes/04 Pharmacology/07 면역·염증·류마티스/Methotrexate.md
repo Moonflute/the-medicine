@@ -19,7 +19,7 @@ sources_ref: "openFDA drug label API (US)"
 clinical_priority: tier_1
 sources:
   - 'DailyMed METHOTREXATE (Trexall) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e942f8db-510f-44d6-acb5-b822196f5e8c'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -40,13 +40,17 @@ review_status: draft
 - 진통제가 아닌 질병 조절 항류마티스제(DMARD)로서 장기적인 질병 조절을 목적으로 한다.
 
 #### 용법/용량
-- 주 1회 경구 투여가 원칙이며, 투약 오류로 인한 치명적 사례가 보고되어 주의가 필요하다.
+- 성인 중등도–중증 크론병에서 사용하는 경우 피하(SC) 또는 근육(IM) 주사로 관해 유도 시 25 mg 주 1회(통상 16–24주), 유지 시 15 mg 주 1회를 사용한다. 경구 단독요법은 크론병 치료에서 권고되지 않는다. 엽산을 매일 보충하며 CBC·간기능을 정기적으로 추적한다.
+
+- 류마티스관절염·건선의 저용량 경구요법은 주 1회 투여한다. 크론병의 주사요법과 항암요법은 해당 적응증·경로별 처방을 확인한다. 주간 처방을 매일 투여하는 오류는 치명적일 수 있다.
 - 류마티스관절염: 초회 용량 7.5mg/주, 반응에 따라 증량한다.
 - 소아 pJIA: 초회 용량 10mg/m²/주, 반응에 따라 증량한다.
 - 건선: 10~25mg/주, 반응에 따라 조절하며 최대 30mg/주를 초과하지 않는다.
 - 부작용 감소를 위해 엽산(folic acid) 또는 폴린산(folinic acid) 보충을 병행한다.
 
 #### 적응증
+- 성인 중등도–중증 크론병에서 SC/IM 단독요법을 고려할 수 있다. 질병 중증도와 이전 치료 반응에 따라 선택하며, 모든 환자에서 azathioprine/6-MP 실패를 먼저 요구하는 일률적인 순서는 적용하지 않는다.
+
 - 성인 류마티스관절염
 - 소아 다관절형 특발성 관절염(pJIA)
 - 성인 중증 건선
@@ -85,3 +89,7 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+
+참고: 삼성서울병원 메뉴얼.
+- [AGA 크론병 약물치료 지침 2025, 2026년 3월 재검토](https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/)
+- [용량·감시 상세](https://pmc.ncbi.nlm.nih.gov/articles/PMC13218589/)

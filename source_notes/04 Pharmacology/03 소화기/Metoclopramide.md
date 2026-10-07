@@ -20,7 +20,7 @@ sources_ref: "openFDA drug label API (US)"
 clinical_priority: tier_1
 sources:
   - 'DailyMed METOCLOPRAMIDE (Metoclopramide) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5d31d815-50fa-4e78-8ebd-affc2514ce78'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -33,6 +33,8 @@ review_status: draft
 > - 대표 용량: 5-10mg 1일 3회 경구 투여
 
 ## 기전
+- 말초 위장관 작용뿐 아니라 중추 도파민 수용체도 차단하므로, 운동 촉진 효과와 추체외로 증상·지연성 운동장애 위험을 함께 고려한다.
+
 - 도파민 D2 수용체 길항 작용을 통해 위장관 운동을 촉진하고 구토 중추를 억제
 - 상부 위장관의 연동 운동을 강화하고 위 배출 시간을 단축
 
@@ -69,11 +71,14 @@ review_status: draft
 - 기타: 설사, 변비, 드물게 간독성 및 혈액학적 이상(호중구 감소증 등)
 
 #### 모니터링 및 주의
+- 지연성 운동장애는 비가역적일 수 있고 총 누적 용량과 치료 기간에 따라 위험이 증가한다. 반복 처방 시 이전 처방을 포함한 노출 기간과 필요성을 확인하고, 얼굴·혀·사지의 불수의 운동이 발생하면 중단 후 평가한다. 미국 경구제의 12주 제한은 모든 적응증이나 국내 제품에서 그 기간까지 사용해도 된다는 뜻이 아니므로 제품별 허가 기간을 확인한다.
+- 다른 도파민 차단제 등 TD/EPS/NMS를 유발할 수 있는 약물과의 중복을 확인하여 병용을 피한다. 기존 지연성 운동장애 또는 metoclopramide 유발 근긴장이상 병력은 미국 경구제 허가사항상 금기이다.
+
 - 지연성 운동장애(Tardive Dyskinesia): 장기 투여 시 발생 위험 증가, 증상 발생 시 즉시 중단
 - 추체외로 증상(EPS): 급성 근긴장 이상 등 발생 가능, 특히 30세 미만 및 고용량 투여 시 주의
 - 우울증: 우울증 병력이 있는 경우 신중 투여
 - 신경이완제 악성 증후군(NMS): 고열, 근육 강직, 의식 변화 등 발생 시 즉시 투여 중단 및 처치
-- 파킨슨병 환자: 증상 악화 가능성으로 인해 신중 투여
+- 파킨슨병 환자: 증상 악화 가능성으로 사용을 피한다(미국 경구제 허가사항).
 - 모니터링: 지연성 운동장애 징후, 추체외로 증상 발생 여부, 당뇨 환자의 혈당 수치 변화, 장기 투여 시 신경학적 상태 평가
 
 #### 비고
@@ -85,3 +90,6 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+
+참고: 삼성서울병원 메뉴얼.
+- [DailyMed metoclopramide 경구제 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f0a13cc-9346-4f4a-9a0d-b725045b01aa)

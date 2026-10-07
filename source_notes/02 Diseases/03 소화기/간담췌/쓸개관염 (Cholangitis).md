@@ -16,7 +16,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-10-08"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
 sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real-world evidence in primary biliary cholangitis. | https://pubmed.ncbi.nlm.nih.gov/42191456/"]
@@ -44,14 +44,18 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
   중증 담관염의 경우 저혈압, 빈맥, 의식 수준 저하 등 패혈증 및 쇼크 징후가 나타날 수 있다.
 
 ## 3. 검사 (Lab & Imaging)
+- 항생제 투여 전 가능하면 혈액배양을 채취하되, 패혈증 소생·항생제·배액을 지연하지 않습니다. lactate, 신장·간기능, 응고·혈소판과 산소화·의식을 확인해 장기기능장애와 배액·시술 위험을 함께 평가합니다.
+
 - 혈액 검사에서 백혈구 증가증, ESR 및 CRP 상승 등 염증 소견이 나타난다.
   빌리루빈(특히 직접 빌리루빈), ALP, GGT 수치가 현저히 상승하여 폐쇄성 황달을 시사한다.
   혈액 배양 검사에서 원인균이 검출될 수 있다.
   영상 검사로는 복부 초음파(US)에서 담관 확장 및 담석을 확인할 수 있다.
   CT, MRI도 진단에 유용하다.
-  ERCP(Endoscopic Retrograde Cholangiopancreatography)는 담관염 진단의 확진 검사이자 치료적 시술(담즙 배액)이다.
+  ERCP(Endoscopic Retrograde Cholangiopancreatography)는 진단만을 위한 확진검사로 일상적으로 사용하지 않고, 감염된 폐쇄의 담즙 배액·결석 제거가 필요한 경우 치료적으로 시행한다. 진단 평가는 초음파·CT와 필요 시 MRCP/EUS를 상황에 맞춰 조합한다.
 
 ## 4. 진단 (Diagnosis)
+- 샤르코 삼징후는 전형적 소견이지만 없다고 급성 담관염을 배제하지 않는다. 전신 염증, 담즙정체, 영상의 담도 확장 또는 폐쇄 원인을 함께 평가하며, 패혈증·장기기능 저하가 있으면 완전한 검사 결과를 기다려 배액을 지연하지 않는다.
+
 - **진단 기준**
 * 샤르코 삼징후 (우상복부 통증, 발열, 황달)
 * 염증 소견 (백혈구 증가, CRP 상승)
@@ -61,14 +65,15 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
 - **감별진단**: 급성 담낭염, 급성 췌장염, 간 농양, 담관암 등 다른 상복부 통증 및 황달을 유발하는 질환과 감별해야 한다.
 
 ## 5. 치료 (Treatment)
-- 급성 담관염은 응급 치료가 필요한 질환이다.
-  금식, 수액 공급, 광범위 항생제 투여(3세대 세팔로스포린, 페니실린/베타락타마제 억제제, 메트로니다졸 등)를 즉시 시작한다.
-  가장 중요한 치료는 담관 배액술을 통한 담즙 배액이다.
-  담관 배액술은 ERCP를 통한 내시경 괄약근 절개술(EST) 및 담석 제거술, 또는 내시경적 비담즙 배액술(ENBD), 경피경간 담즙 배액술(PTBD) 등을 통해 시행할 수 있다.
-  담관 폐쇄의 원인이 담석인 경우 ERCP를 통한 담석 제거술과 함께 담낭절제술을 시행한다.
-  종양이 원인인 경우 휘플 수술(Whipple) 등 수술적 치료를 고려할 수 있다.
+- **배액 시점:** 쇼크·의식 변화·호흡/신장/응고 이상이 있거나 초기 치료에 반응하지 않는 담관염은 응급 배액과 장기지지가 필요합니다. 안정 환자도 임상 반응과 폐쇄 정도에 따라 조기 배액을 계획하고, ERCP가 어렵거나 실패하면 PTBD·EUS 유도 또는 수술 배액을 고려합니다.
+
+- 급성 담관염은 응급 치료가 필요한 질환이다. 초기에는 산소화·정맥로·수액과 혈압 지지, 통증·전해질 교정, 배양 채취 및 지역 감수성·의료노출·신기능을 반영한 경험적 항생제를 함께 시작한다.
+  가장 중요한 치료는 막힌 담도의 source control이며, ERCP를 통한 배액·결석 제거를 우선 고려한다. 내시경 배액이 불가능·실패하거나 해부학적 접근이 어려우면 PTBD, EUS 유도 배액 또는 수술을 전문팀이 선택한다.
+  담석성 폐쇄는 안정화와 배액·결석 제거를 우선하고, 담낭절제 시점은 중증도·수술 위험·자원에 맞춰 계획한다. 악성 폐쇄는 절제 가능성, 전신 상태와 치료 목표에 따라 내시경/경피 배액, 수술·종양 치료를 다학제로 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
+- 담도 배액 뒤에도 발열·황달·혈액배양 양성 또는 장기기능 저하가 지속되면 스텐트 폐색·불완전 배액·간농양·다른 감염원을 재평가합니다. 배양 결과, 원인 질환과 source control 여부에 따라 항생제 범위·기간을 조정합니다.
+
 - **예후**: 조기에 진단하고 적절히 치료하면 예후가 개선될 수 있으나, 중증 담관염은 패혈증 및 다발성 장기 부전으로 인해 사망률이 높다.
 
 - **합병증**: 패혈증, 간 농양, 췌장염, 담도성 간경변증, 담관암 등이 발생할 수 있다.
@@ -77,3 +82,8 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [ESGE 총담관 결석 지침](https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline)
+- [Tokyo Guidelines 2018 담관염 진단](https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512)
+- [Tokyo Guidelines 2018 acute cholangitis management](https://pubmed.ncbi.nlm.nih.gov/29372522/)

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-08"
 aliases: []
 유형:
 - disease
@@ -17,7 +17,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-08"
 ---
 ## 1. 개요
 - **정의**: 췌장의 만성적인 염증으로 인해 비가역적인 구조적 손상(섬유화, 췌관 협착)이 발생하고, 이로 인해 외분비 및 내분비 기능 부전이 나타나는 질환.
@@ -56,9 +56,13 @@ reviewed_at: "2026-07-30"
 - **감별진단**: 췌장암(특히 췌관 협착 시 반드시 배제), 기능성 소화불량, 담석증.
 
 ## 5. 치료
+- **통증·폐쇄 중재**: 난치성 통증이나 췌관 결석/협착, 가성낭종·담도/십이지장 폐쇄가 있으면 CT/MRCP/EUS로 해부학을 재평가해 내시경·수술적 배액 또는 절제의 이득을 다학제팀에서 결정한다. 일반적 통증에는 반복적 opioid 증량을 기본 전략으로 삼지 않는다.
+
+- **기능부전 관리**: 체중·근감소·지용성 비타민과 미량영양소, 골건강, 췌장성 당뇨를 정기 평가한다. 지방변·체중감소 등 외분비부전에는 식사와 함께 췌장효소 대체요법을 사용하고, 용량·복용법·위산억제 병용 필요성은 증상과 영양 반응에 맞춰 조절한다.
+
 - 금주·금연 유지와 저지방·고단백 식이로 영양 상태를 최적화하고 증상 악화를 예방한다.
 - 통증은 단계별로 관리한다: 비마약성 진통제 → 필요 시 삼환계 항우울제·가바펜틴·프레가발린 등 신경전달 억제제 → 약물로 조절되지 않을 경우 경피적 복부 신경 차단술을 고려한다.
-- 지방변·영양 결
+- 지방변·영양 결핍에는 췌장효소 대체요법, 식사 상담과 지용성 비타민·미량영양소 보충을 병행하고, 췌장성 당뇨는 저혈당 위험을 고려해 치료한다.
 
 ## 6. 예후 및 합병증
 - **예후**:
@@ -70,3 +74,8 @@ Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [ACG 만성 췌장염 진료지침](https://pubmed.ncbi.nlm.nih.gov/32022720/)
+- [ESGE 괴사성 췌장염 내시경 지침](https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline)
+- [Pancreapedia 자가면역 췌장염 진단](https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis)

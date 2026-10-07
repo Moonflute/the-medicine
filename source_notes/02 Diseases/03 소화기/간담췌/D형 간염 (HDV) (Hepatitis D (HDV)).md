@@ -15,12 +15,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
 
-content_updated_at: "2026-07-17"
+content_updated_at: "2026-10-08"
 ---
 분과 : [[소화기]]
 
@@ -51,6 +51,8 @@ content_updated_at: "2026-07-17"
   HBV 감염이 동반되어야 하므로 HBsAg 검사도 필수적이다.
 
 ## 4. 진단 (Diagnosis)
+- HBsAg 양성 환자의 HDV 평가는 total anti-HDV로 노출 여부를 확인한 뒤 양성이면 HDV RNA로 현재 바이러스혈증을 확인하는 순서로 진행한다. Anti-HDV는 감염 소실 후에도 남을 수 있으므로 항체 양성만으로 활동성 감염을 판단하지 않는다. 가능한 검사실에서는 항체 양성 검체의 RNA 후속 검사를 연결하여 확인 검사가 누락되지 않도록 한다.
+
 - **진단 기준**
 * **동시 감염(Coinfection)**: HBsAg 양성, IgM anti-HBc 양성, anti-HDV 양성 (급성 HBV와 HDV 동시 감염)
 * **중복 감염(Superinfection)**: HBsAg 양성, anti-HDV 양성, IgM anti-HBc 음성 (만성 HBV 감염자에게 HDV 추가 감염)
@@ -78,3 +80,6 @@ content_updated_at: "2026-07-17"
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [WHO HDV 검사 전략 2024](https://www.ncbi.nlm.nih.gov/books/NBK614983/)

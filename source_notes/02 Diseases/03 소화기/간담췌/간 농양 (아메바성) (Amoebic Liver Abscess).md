@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-08"
 aliases: []
 유형:
 - disease
@@ -19,7 +19,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-08"
 ---
 분과 : [[소화기]]
 
@@ -44,6 +44,8 @@ reviewed_at: "2026-07-30"
   황달은 드물게 나타난다.
 
 ## 3. 검사 (Lab & Imaging)
+- 혈청 항체는 장외 아메바증에서 민감도가 높지만 치료 후에도 수년간 남을 수 있어 양성만으로 현재 감염을 확정하지 않는다. 급성 아메바성 간농양이 의심되는데 초기 항체가 음성이면 7–10일 뒤 재검을 고려한다.
+
 - 혈액 검사에서 백혈구 증가증, 간 효소 수치 상승, CRP 상승이 나타난다.
   영상 검사(초음파, CT)에서 우엽에 호발하는 단일 병변이 주로 관찰된다.
   혈청 아메바 항체 검사가 진단에 매우 유용하며(민감도 95% 이상), 대변 검사는 민감도가 낮다.
@@ -54,7 +56,7 @@ reviewed_at: "2026-07-30"
 * 임상 증상(발열, 우상복부 통증) 및 역학적 위험 요인(유행 지역 여행력 등)
 * 영상 검사(CT, US)에서 간 내 농양 확인
 * 혈청 아메바 항체 양성
-* 메트로니다졸 치료에 대한 빠른 반응 확인
+* 메트로니다졸 치료 반응은 참고 소견이며, 세균성 농양도 반응할 수 있으므로 이것만으로 아메바성을 확진하지 않는다.
 
 - **감별진단**: 세균성 간 농양, 간 종양(괴사성), 간 혈종, 포충낭(Hydatid cyst) 등과 감별이 필요하다.
 
@@ -73,3 +75,7 @@ reviewed_at: "2026-07-30"
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [CDC DPDx: Amebiasis](https://www.cdc.gov/dpdx/amebiasis/)
+- [Johns Hopkins ABX Guide: Hepatic Abscess](https://www.hopkinsguides.com/hopkins/view/Johns_Hopkins_ABX_Guide/540259/3.2/Hepatic_Abscess)

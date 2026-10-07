@@ -20,7 +20,7 @@ sources_ref: "openFDA drug label API (US)"
 clinical_priority: tier_1
 sources:
   - 'DailyMed Entecavir Tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d69451df-e204-4a5c-a2bb-9e6d4d519302'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -37,14 +37,14 @@ review_status: draft
 
 ## 임상 정보
 - 만성 B형간염 환자에서 바이러스 증식을 억제하고 간염 진행을 지연시킴.
-- 라미부딘(lamivudine) 내성 환자에게도 효과를 보일 수 있음.
+- 라미부딘 내성이 확인된 환자에서는 엔테카비르 감수성 저하와 내성 발생 위험 때문에 약제 선택을 재평가한다. EASL 2025는 확인된 라미부딘 내성에서 엔테카비르 사용을 권고하지 않는다.
 - 치료 중단 시 급성 간염 악화 가능성이 있어 주의 깊은 모니터링이 필요함.
 - HIV/HBV 동시 감염 환자에게는 HIV에 대한 적절한 치료(HAART) 없이 단독 투여하지 않음.
 
 #### 용법/용량
 - 공복 시 투여(식사 2시간 전 또는 2시간 후).
 - 성인 초치료(뉴클레오사이드 미경험): 1일 1회 0.5mg.
-- 라미부딘 내성 또는 비대상성 간경변 환자: 1일 1회 1mg.
+- 미국 허가사항상 라미부딘 불응/관련 내성 또는 성인 비대상성 간질환 용량: 1일 1회 1mg. 이는 내성 환자에서 엔테카비르를 우선 선택하라는 의미가 아니며, 실제 선택은 내성 이력과 진료지침에 따른다.
 - 신기능 저하 환자(CrCl < 50mL/min): 크레아티닌 청소율에 따라 투여 간격 조절 필요.
 - 소아(2세 이상, 10kg 이상): 체중에 따른 용량 조절(경구용 액제 권장).
 
@@ -63,6 +63,8 @@ review_status: draft
 - 중대한 부작용: 치료 중단 후 간염 급성 악화, 젖산산증(lactic acidosis), 중증 간비대 및 지방증.
 
 #### 모니터링 및 주의
+- 약제 선택 전에 라미부딘·텔비부딘 등 이전 항바이러스제 노출, 바이러스 돌파 및 내성 검사 결과를 확인한다. 엔테카비르의 높은 내성 장벽은 특히 치료 경험이 없는 환자에서의 특성이며, 기존 라미부딘 내성이 있으면 교차내성과 추가 내성 발생 위험이 커진다.
+
 - 투여 중단 시 간 기능 검사를 포함한 임상적 모니터링을 수개월간 지속할 것.
 - 젖산산증이나 간독성 징후(간비대, 지방증 등) 발생 시 투여 중단 고려.
 - HIV 동시 감염 여부를 확인하고, HIV 치료가 병행되지 않는 경우 투여를 권장하지 않음.
@@ -73,3 +75,7 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+
+참고: 삼성서울병원 메뉴얼.
+- [EASL HBV 지침 2025](https://www.hepb.org/assets/Uploads/EASL-guidelines-May-2025.pdf)
+- [DailyMed 엔테카비르 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d69451df-e204-4a5c-a2bb-9e6d4d519302)

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-08"
 aliases: []
 유형:
 - disease
@@ -14,7 +14,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-08"
 ---
 분과: [[감염]]
 
@@ -24,6 +24,8 @@ reviewed_at: "2026-07-30"
 - **핵심**: 보균과 감염을 구분해야 하며, 설사 없는 환자에서 NAAT 양성만으로 CDI를 진단하지 않는다.
 
 ## 2. 임상 정보
+- 항생제 관련 설사는 투약 중뿐 아니라 중단 후에도 발생할 수 있다. 특정 항생제나 시작 후 4–10일이라는 시간 범위에만 한정해 의심하지 않는다. 장마비가 동반된 전격성 CDI에서는 설사가 뚜렷하지 않을 수 있다.
+
 - 새로 발생한 수양성 설사, 복통, 발열, 백혈구 증가, 신기능 악화가 흔하다.
 - 심한 복통, 복부팽만, 장폐색, 저혈압·쇼크, lactate 상승은 fulminant disease와 toxic megacolon을 시사할 수 있다.
 
@@ -34,6 +36,10 @@ reviewed_at: "2026-07-30"
 - 복잡성 CDI 또는 ileus/toxic megacolon이 의심되면 복부 영상과 조기 외과 협진을 고려한다.
 
 ## 4. 치료 원칙
+- 성인 초기 비전격성 CDI의 표준 용법은 fidaxomicin 200 mg 경구 하루 2회 10일이며, 대안은 vancomycin 125 mg 경구 하루 4회 10일이다. 원문의 경증·중등도 metronidazole 일차 치료표를 그대로 적용하지 않는다.
+- 전격성 CDI(저혈압·쇼크, 장마비 또는 거대결장)는 vancomycin 500 mg 경구/비위관 하루 4회에 metronidazole 500 mg 정주 매 8시간을 병용하는 요법을 사용한다. 장마비가 있으면 직장 vancomycin 추가를 전문팀과 검토하며, 외과 평가를 지연하지 않는다. 비전격성 용법을 그대로 적용하지 않는다.
+- 첫 재발을 무조건 첫 발병과 동일하게 치료하지 않는다. 이전 약제와 재발 위험에 따라 fidaxomicin 또는 vancomycin 감량·간헐 요법 등을 선택한다.
+
 - 가능하면 유발 가능성이 높은 불필요 항생제를 중단 또는 축소하고, 수액·전해질·복부 진찰·백혈구 및 신기능을 함께 관리한다.
 - 성인 초기 CDI에서는 fidaxomicin을 우선 고려하고, 접근성·자원에 따라 경구 vancomycin을 대안으로 사용한다. 재발에서는 이전 치료, 재발 횟수, 고위험 인자를 바탕으로 fidaxomicin, vancomycin taper/pulse 또는 재발 예방 전략을 개별화한다.
 - fulminant disease는 경구/비위관 vancomycin 기반 치료, ileus 시 직장 투여 고려, 정주 metronidazole 병용 및 조기 외과 평가가 필요할 수 있다. 세부 용량과 수술 적응증은 최신 지침과 현지 프로토콜을 따른다.
@@ -50,3 +56,7 @@ reviewed_at: "2026-07-30"
 ## 출처
 - SHEA/IDSA. 2021 Focused Update Guidelines on Management of *Clostridioides difficile* Infection in Adults.
 - CDC. C. diff clinical resources.
+
+참고: 삼성서울병원 메뉴얼.
+- [SHEA/IDSA 2021 CDI 지침](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/)
+- [2017 진단·전격성 치료 지침](https://www.idsociety.org/practice-guideline/clostridium-difficile)

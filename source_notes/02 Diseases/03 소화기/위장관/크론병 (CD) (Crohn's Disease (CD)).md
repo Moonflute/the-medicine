@@ -17,12 +17,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Position statement of the Spanish Working Group on Crohn's Disease and Ulcerative Colitis (GETECCU) on the diagnosis and management of acute severe ulcerative colitis. | https://pubmed.ncbi.nlm.nih.gov/42248446/"]
+sources: ["ACG Clinical Guideline: Management of Crohn’s Disease in Adults, 2025 | https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/", "AGA Pharmacological Management of Moderate-to-Severe Crohn’s Disease, 2025 | https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-10-08"
 ---
 분과 : [[소화기]]
 
@@ -34,8 +34,16 @@ content_updated_at: "2026-07-16"
 - **기전**: 장관 벽의 전층을 침범하는 만성 염증 반응으로, 면역 세포의 비정상적인 활성화가 조직 손상을 유발함.
 
 
-
 ## 2. 임상 양상 (Clinical Features)
+- 안구통·눈부심·시력 저하는 포도막염 등 시력 위협 질환을 의심해 신속히 안과 평가로 연결한다. 장 증상과 무관하게 발생할 수 있다. 상공막염은 대개 통증이 없거나 경미한 충혈로 장 활동도와 연관되지만, 증상만으로 감별해 스테로이드 점안을 시작하지 않는다.
+
+- 장외 증상으로 말초 관절통·관절염, 염증성 요통, 피부 결절·궤양을 확인한다. 말초 관절염 일부는 장 활동도와 함께 변하지만 축성 척추관절염은 장 증상이 조절되어도 지속될 수 있다.
+- 정강이의 압통성 붉은 결절은 결절홍반을 시사하며 장 염증 조절과 함께 호전될 수 있다. 빠르게 진행하는 통증성 피부 궤양은 괴저성 농피증 등을 감별하여 피부과와 평가한다. 피부 병변을 모두 감염으로 단정하거나 장 증상 호전만 기다리지 않는다.
+
+- 반복되는 우하복부 통증은 충수염처럼 보일 수 있다. 고열·종괴·국소 통증 악화는 농양을, 식후 통증·팽만·구토는 염증성 또는 섬유성 협착에 의한 폐색을 평가할 단서다.
+- 관통성 병변은 인접 장·피부·방광·질 등으로 누공을 만들 수 있다. 배뇨 증상·회음부 배액도 확인하며 항문주위 누공이 있어도 내시경상 직장 염증이 반드시 보이는 것은 아니다.
+- 설사는 활동성 염증 외에도 협착·누공 관련 세균 과증식, 회장 염증·절제 후 담즙산 흡수장애가 기여할 수 있다. 증상만으로 면역억제 치료를 강화하지 않고 기전을 재평가한다.
+
 * **CC**:
   설사, 체중감소, 우하복부 통증(RLQ pain), 혈변, 복통.
   항문 주변 누공(fistula), 치열(fissure), 항문통증.
@@ -45,23 +53,56 @@ content_updated_at: "2026-07-16"
 
 
 ## 3. 검사 (Lab & Imaging)
-- 감염 배제: 중증 급성기 환자에서 Clostridioides difficile 및 거대세포바이러스(CMV) 감염 여부 확인 필수.
+- 직장을 넘어 대장을 침범한 IBD에서는 대장 이형성·암 감시 계획을 세운다. AGA 기준으로 진단 후 8–10년에 초기 감시 대장내시경을 시행하고 PSC 동반 시 즉시 시작한다. 음성 검사 후에는 현재·과거 염증 부담, 대장암 가족력, PSC, 이형성 병력과 이전 검사의 질을 반영해 통상 1–5년 간격을 정한다. 좌측 대장염이라는 이유만으로 초기 감시를 12–15년까지 미루지 않는다.
+
+- 장관 영상은 점막 소견뿐 아니라 협착·누공·염증성 종괴·농양 등 장벽 밖 합병증을 평가한다. CT/MR 등 단면 영상을 임상 상황에 맞춰 선택하고, 항문주위 누공·골반 농양의 범위 평가에는 골반 MRI를 활용한다.
+
+- 작은 아프타성 궤양이 종축으로 배열·융합하여 종주 궤양과 조약돌 모양을 형성할 수 있으며 가성용종도 보인다. 비건락성 육아종은 진단을 지지하지만 생검에서 없다고 크론병을 배제하지 않는다. 전층성 질환이라는 특성과 점막 생검으로 관찰 가능한 범위를 구분한다.
+
+- 설사·대장염의 악화 시 C. difficile 등 장감염을 배제한다. 중증 또는 면역억제·치료 불응 환자에서 CMV 대장염이 의심되면 조직검사를 포함해 평가하며 모든 크론병 환자에게 일률적으로 CMV 검사를 요구하지 않는다.
 - 내시경: Cobblestone appearance, 종주 궤양(longitudinal ulcer) 확인.
 - 조직검사: 비건락성 육아종(non-caseating granuloma) 확인.
-- 기타: ASCA(+), CT 및 대장조영술을 통한 병변 범위 평가.
+- ASCA/pANCA는 단독으로 크론병·UC를 확진하거나 배제하지 않으며 일상적인 진단 검사로 요구하지 않는다. 내시경·조직과 장관 영상으로 병변 범위 및 합병증을 평가한다.
 
 ## 4. 진단 (Diagnosis)
+- 장결핵과 크론병의 내시경 소견은 겹칠 수 있다. 횡행·윤상 궤양과 열린 회맹판은 장결핵을, 종주·아프타 궤양과 조약돌 모양 및 항문주위 병변은 크론병을 지지하는 단서다. Skip lesion만으로 장결핵을 확진하거나 강하게 단정하지 않으며, 임상·조직·미생물·영상 결과를 종합해 감별한다.
+
+- Montreal 분류는 진단 시 나이 A1(16세 이하), A2(17–40세), A3(40세 초과), 위치 L1(회장), L2(대장), L3(회장·대장), L4(상부 위장관)를 기록한다. 상부 병변이 동반되면 L1–L3에 L4를 추가한다.
+- 질병 행태는 B1(비협착·비관통), B2(협착), B3(관통)이며 항문주위 질환은 p를 추가한다. B1은 이후 협착·관통으로 변할 수 있어 추적 시 갱신하고, 연구에서 행태 확정에 사용하는 관찰 기간을 임상 진단 대기기간으로 적용하지 않는다.
+
 - 임상 증상, 내시경 소견, 조직검사, 영상의학적 검사를 종합하여 진단함.
 
 
 ## 5. 치료 (Treatment)
-- 1차 치료: 정맥용 스테로이드(Intravenous corticosteroids).
-- 반응 평가: 치료 시작 72시간 후 검증된 기준에 따라 반응성 평가.
-- 스테로이드 불응성 환자: Infliximab 또는 Cyclosporine을 구제 요법(rescue therapy)으로 고려 (환자 특성 및 동반 질환에 따라 개별화).
+- 대장 이형성은 등급만으로 수술 여부를 정하지 않고 가시성·경계·침윤 소견·완전 절제 가능성과 다발성을 함께 평가한다. 경계가 명확하고 침윤암 소견이 없는 절제 가능한 병변은 전문 내시경 절제 후 면밀한 감시를 고려한다. 비가시성 이형성은 숙련된 내시경의가 고해상도 색소내시경과 해당 부위 생검으로 재평가한다. 절제 불가능한 가시성 이형성이나 비가시성 다발성 또는 고도 이형성에서는 대장절제술을 논의한다.
+
+- 복강 내 농양은 전신 항생제와 크기·위치에 따른 배액으로 감염원을 조절하고, 이후 약물·수술 치료를 함께 결정한다. 농양·패혈증을 확인하지 않은 상태에서 단순 악화로 판단해 면역억제 치료만 강화하지 않는다.
+- 장폐색에서 정주 스테로이드는 활동성 염증의 근거가 있을 때 고려한다. 보존적 치료에 반응하지 않았다는 이유만으로 자동 투여하지 않으며, 섬유성 협착·농양 등 원인과 수술 필요성을 평가한다.
+
+- 중등도–중증에서 vedolizumab(α4β7 integrin 표적, 장 선택적 백혈구 이동 억제)과 ustekinumab(IL-12/23 공통 p40 표적)은 치료 선택지이다. 이전 고도 치료 노출·반응과 환자 위험도를 반영해 선택하며 anti-TNF 실패 후에만 사용할 수 있는 것으로 제한하지 않는다. Vedolizumab은 PML 위험을 완전히 배제할 수 없으므로 새로 발생하거나 악화하는 신경학적 증상을 확인한다.
+
+- 완전 경장영양(EEN)은 크론병의 임상 관해 유도와 내시경 반응에 사용할 수 있으며 근거는 성인보다 소아에서 더 강하다. 영양불량 환자의 예정 수술 전 영양 상태 개선에도 고려한다. 영양사와 함께 섭취 가능성·순응도 및 영양 목표를 평가한다.
+- 정맥영양은 고배출 장누공, 지속성 장마비, 단장증후군 또는 경구·경장영양이 실패하거나 불가능한 중증 영양불량에서 고려한다. 경장영양의 관해 유도 역할과 정맥영양의 영양 지원 적응증을 구분하여 치료 계획을 세운다.
+
+- Methotrexate를 선택할 경우 SC/IM 경로를 사용하며, 통상 관해 유도 25 mg 주 1회 후 유지 15 mg 주 1회로 조절한다. 경구 methotrexate 단독요법은 권고되지 않는다. 엽산 보충과 CBC·간기능 추적을 병행하고 임신을 계획하는 여성에서는 사용하지 않는다.
+
+- Azathioprine/6-MP를 사용할 때에는 효과 발현이 느리므로 즉각적인 구제 치료와 구분한다. TPMT·NUDT15 결과를 초기 용량 선택에 반영하되 정상 결과가 골수억제 위험을 없애지는 않는다. 치료 중 CBC·간기능을 추적하며 췌장염·발열·발진·간독성 등 이상반응도 확인한다.
+
+- 유도 치료는 위치·활동도·진행 위험에 따라 선택한다. 경도–중등도 회맹부 병변에는 budesonide 9 mg/일을 사용할 수 있다. 전신 스테로이드는 필요한 경우 단기 유도에 사용하며 유지요법으로 사용하지 않는다.
+- 반응은 증상·염증 지표·내시경 또는 영상으로 평가하며 약제와 임상 상태에 맞춰 시점을 정한다. 급성 중증 UC의 72시간 구제 알고리즘을 크론병 전체에 적용하지 않는다.
+- 중등도–중증에서는 생물학제·소분자 제제 등 고도 치료를 조기에 검토하며 기존 약제 실패를 반드시 기다리지는 않는다. 이전 치료·질병 행태·동반질환·접근성을 고려한다. UC의 cyclosporine 구제요법을 크론병의 표준으로 사용하지 않는다.
 - 보조 요법: 영양 상태 최적화, 혈전 예방(thromboprophylaxis), 지속적인 모니터링.
 - 수술: 약물 치료 실패 또는 합병증 발생 시 조기 외과적 평가 시행.
 
 ## 6. 예후 및 합병증 (Prognosis)
+- 만성 항문주위 크론병은 항문암, 특히 누공 관련 선암 위험이 증가한다. 새로 생기거나 악화하는 통증 등 항문 증상의 변화는 단순 염증 재발로만 판단하지 않는다. 의심 병변을 자세히 평가하고 필요하면 마취하 검사·생검 및 누공 소파 검사를 시행한다.
+
+- 젊은 나이의 발병, 광범위 또는 회장·회장대장 침범, 진단 당시 협착·관통성 병변 및 항문주위 병변은 합병증 위험 평가에 반영한다. 이러한 고위험 소견이 있으면 조기 치료 강화와 면밀한 추적을 검토하며, 현재 증상의 강도만으로 장기 위험을 판단하지 않는다.
+
+- 폐색·누공·농양 외에 자유 천공과 대량 출혈도 발생할 수 있다. 천공이 상대적으로 드물다는 이유로 급격한 통증 악화·복막자극징후·패혈증 평가를 늦추지 않는다.
+
+- 광범위 소장 침범은 지방변·단백 소실·영양 결핍을 일으킬 수 있다. 알부민·전해질과 B12·비타민 D 등 결핍을 평가하며 골 건강·골절 위험과 장성 고옥살산뇨에 따른 요로결석도 고려한다.
+
 * **특징**: 전층성 (transmural), 회맹부 (ileocecal)에 호발, 분절성 병변
 * **수술**: 회맹장절제술
 
@@ -70,9 +111,31 @@ content_updated_at: "2026-07-16"
 - 절제 범위는 장 길이를 보존하도록 병변에 맞추며, 수술 후에도 재발할 수 있어 장기 추적과 내과적 치료 계획이 필요하다.
 
 
-
 출처 : Merck Manual Professional
 출처 : 삼성서울병원 외과 메뉴얼
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [Montreal 분류 합의](https://pmc.ncbi.nlm.nih.gov/articles/1856208/)
+- [ECCO 조직학 정의](https://pmc.ncbi.nlm.nih.gov/articles/PMC10896637/)
+- [ACG 크론병 2025](https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/)
+- [AGA 크론병 약물치료 2025](https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/)
+- [ECCO 진단 지침](https://doi.org/10.1093/ecco-jcc/jjy113)
+- [ECCO 진단·모니터링 2025](https://academic.oup.com/ecco-jcc/article/19/7/jjaf106/8219802)
+- [ECCO 진단·영상 지침](https://academic.oup.com/ecco-jcc/article/13/2/144/5078195)
+- [ECCO 장외 증상 지침 2024](https://academic.oup.com/ecco-jcc/article/18/1/1/7205776)
+- [CPIC TPMT/NUDT15 2025 개정·2026 발표](https://pmc.ncbi.nlm.nih.gov/articles/PMC12997511/)
+- [용량·감시 상세](https://pmc.ncbi.nlm.nih.gov/articles/PMC13218589/)
+- [AGA IBD 영양요법 2024](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
+- [ACG UC 2025](https://gi.org/journals-publications/ebgi/alkazzi_aug2025/)
+- [Vedolizumab 허가정보](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c)
+- [ECCO 예후 예측 합의문](https://academic.oup.com/ecco-jcc/article/10/12/1385/2707011)
+- [AGA 입원 IBD 관리 2026](https://www.sciencedirect.com/science/article/pii/S0016508525059864)
+- [AGA IBD 이형성 감시 지침](https://gastro.org/clinical-guidance/endoscopic-surveillance-and-management-of-colorectal-dysplasia-in-inflammatory-bowel-diseases-ibd/)
+- [ASGE IBD 내시경 합의문 2025](https://www.sciencedirect.com/science/article/abs/pii/S0016510724034722)
+- [BSG 대장 감시 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13018778/)
+- [ECCO IBD 악성종양 지침 2023](https://academic.oup.com/ecco-jcc/article/17/6/827/6931718)
+- [임상·내시경·조직 감별 연구](https://pubmed.ncbi.nlm.nih.gov/20087333/)
+- [통합 감별 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC4694248/)

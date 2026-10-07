@@ -19,7 +19,7 @@ related_diseases:
 clinical_priority: tier_1
 sources:
   - 'DailyMed Mesalamine delayed-release tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9703f92d-1d15-4376-8b2b-51502c266012'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -41,6 +41,9 @@ review_status: draft
 - Crohn disease에서는 효과가 제한적이어서 질환 위치와 목표를 구분해 사용해야 합니다.
 
 #### 용법/용량
+- 경도–중등도 좌측 UC의 관해 유도에서는 직장 5-ASA 관장 ≥1 g/일과 경구 ≥2 g/일 병용을 고려한다. 좌제와 관장액은 도달 범위가 달라 같은 직장 제형으로 일괄 대체하지 않는다.
+- 경구 제품은 pH 의존 지연방출·미세과립 조절방출·MMX 등 방출 설계가 다르다. 제품별 유도/유지 적응증과 용량을 확인하며 원문 표의 총 g/day만으로 서로 교환하지 않는다.
+
 - 경구 총 용량은 제형에 따라 보통 `2-4.8 g/day` 범위에서 사용합니다.
 - 직장 제형은 병변 범위에 따라 좌제 또는 관장액을 선택합니다.
 - 관해 유지에서는 유도기보다 낮은 용량으로 지속하는 경우가 많습니다.
@@ -82,3 +85,6 @@ review_status: draft
 - DailyMed SPL search: `mesalamine`, latest labels confirmed May 2026.
 - 제품 예시: `Asacol HD`, `Rowasa`, `Pentasa` 계열 공식 라벨.
 - IBD 약물의 일반적 제형 선택 원칙을 반영해 임상 포인트를 정리함.
+
+참고: 삼성서울병원 메뉴얼.
+- [ACG UC 2025](https://gi.org/journals-publications/ebgi/alkazzi_aug2025/)

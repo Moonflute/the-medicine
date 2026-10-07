@@ -23,7 +23,7 @@ easy_drug_update_de: "2021-01-29"
 clinical_priority: tier_1
 sources:
   - 'DailyMed Ursodiol tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e'
-reviewed_at: 2026-07-11
+reviewed_at: "2026-10-08"
 review_status: draft
 ---
 
@@ -39,6 +39,10 @@ review_status: draft
 - 담즙산의 조성을 변화시켜 담즙 흐름을 원활하게 하고 간세포 보호 및 간기능을 개선함
 
 ## 임상 정보
+- **[[원발성 경화성 담관염 (PSC) (Primary Sclerosing Cholangitis)|PSC]]와의 관계**: UDCA는 PSC의 생존 개선을 위한 일률적 표준치료가 아니다. 지속 담즙정체 등에서 이득 가능성이 있고 내약성이 확인된 일부 환자에게만 13–23 mg/kg/day의 치료시험을 고려하며, 12개월에 생화학적 또는 증상 호전이 뚜렷할 때 지속 여부를 재평가한다. 국내 제품 허가사항과는 별도로 간담도 전문의가 결정한다.
+
+- **담낭 담석과의 연계**: [[쓸개돌 (Gallstone)]]의 용해 치료는 담낭 기능이 유지되고 담낭관 폐쇄가 없으며 작은 방사선 투과성 콜레스테롤 담석인 환자에서만 선택적으로 고려한다. 급성 담낭염·담도 폐쇄의 처치를 대신하지 않으며, 제품별 허가사항과 전문의 판단에 따라 사용한다.
+
 - 담즙 분비 부전 및 담도계 질환의 보조적 치료
 - 만성 간질환의 간기능 개선
 - 소장 절제 후유증 및 염증성 소장 질환에 의한 소화불량 완화
@@ -90,3 +94,10 @@ review_status: draft
 
 ## 출처
 - 식약처 e약은요 API (품목기준코드: 198100119)
+
+참고: 삼성서울병원 메뉴얼.
+- [Merck 급성 담낭염](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/acute-cholecystitis)
+- [Merck 만성 담낭염](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/chronic-cholecystitis)
+- [ASGE 담관결석 지침](https://www.asge.org/docs/default-source/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis-2019-june-gie.pdf)
+- [AASLD PSC·담관암 진료지침](https://www.aasld.org/sites/default/files/2023-01/Hepatology%20-%202022%20-%20Bowlus%20-%20AASLD%20practice%20guidance%20on%20primary%20sclerosing%20cholangitis%20and%20cholangiocarcinoma.pdf)
+- [AASLD PSC 관리 요점](https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/primary-sclerosing-cholangitis-management-tips-and)

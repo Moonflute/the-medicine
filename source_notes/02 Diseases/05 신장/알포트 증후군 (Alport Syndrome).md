@@ -14,10 +14,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-10-08"
 guideline_year: "2025"
 sources: ["Diagnosis, management and treatment of the Alport syndrome - 2024 guideline on behalf of ERKNet, ERA and ESPN. | https://pubmed.ncbi.nlm.nih.gov/39673454/"]
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 ---
 분과 : [[신장]]
@@ -27,6 +27,8 @@ review_status: "guideline_enriched"
 - X-연관, 상염색체 열성 또는 상염색체 우성 형태가 있으며 유전양식·성별·변이 유형에 따라 신부전 위험이 다르다.
 
 ## 2. 임상 양상
+- **가족 평가의 단서:** 가족력이 없더라도 de novo 변이, 불완전한 가족 정보 또는 경증 표현형이 가능하므로, 지속성 사구체성 혈뇨에 난청·특징적 안과 소견·원인 불명 CKD가 동반되면 알포트를 다시 고려합니다.
+
 - 지속성 미세혈뇨가 가장 흔한 초기 소견이며 감염 때 육안적 혈뇨가 나타날 수 있다. 이후 albuminuria/proteinuria, 고혈압, eGFR 감소로 진행한다.
 - 고주파 감각신경성 난청, 전방 원추수정체와 망막 fleck 등 안과 소견이 동반될 수 있다. 가족 내 원인 불명 신부전·혈뇨·난청이 단서가 된다.
 
@@ -37,10 +39,14 @@ review_status: "guideline_enriched"
 - 진단 시 청력검사와 안과검사를 시행한다. X-연관/상염색체 열성 환자는 주기적 추적을 고려하고, COL4A3/4 이형접합자는 증상에 따라 검사한다.
 
 ## 4. 진단
+- **유전상담:** 병적 변이가 확인되면 가족 내 신장·청력·안과 추적과 표적 유전자검사를 논의합니다. 임신·생식 계획에는 유전양식, 산모의 CKD·고혈압 위험, 배아·산전 유전검사 선택지를 유전상담과 다학제 진료로 안내합니다.
+
 - 임상상과 가계도를 바탕으로 의심하되, 가능하면 COL4A3/4/5 병적 또는 가능성 높은 병적 변이로 분자진단한다. 유전양식과 성별에 따라 예후가 크게 달라 정확한 유전자형을 기록한다.
 - 유전자 결과가 불확실하면 변이 분류, 가족 내 분리, 신장생검 및 다른 유전성/후천성 사구체질환을 함께 재평가한다. 단순히 ‘얇은 기저막병’으로 안심시키지 말고 단백뇨·고혈압·eGFR 저하 여부로 위험을 층화한다.
 
 ## 5. 치료
+- 신장이식 평가에서는 가족 공여자의 COL4A3/4/5 변이 여부와 장기 신장 위험을 먼저 확인합니다. 이식 뒤 설명되지 않는 혈뇨·단백뇨 또는 이식신 기능 저하가 생기면 드문 anti-GBM 관련 합병증을 포함해 신속히 평가합니다.
+
 - **RAS 차단이 핵심**이다. ACE 억제제 또는 ARB를 조기에 시작하며, 모든 유전형에서 UACR >30 mg/g가 두 차례 확인되면 내약 가능한 최대 용량까지 증량한다. 혈압·creatinine·potassium을 시작/증량 후 확인한다.
 - X-연관 남성 및 상염색체 열성 환자는 현성 단백뇨 이전이라도 유전진단 후 조기 RAS 차단을 신장 전문의와 논의한다. 여성 X-연관 및 COL4A3/4 이형접합자는 microalbuminuria 발생 시 시작한다.
 - 염분 제한, 금연, 체중·혈압 관리와 신독성 약물 회피 등 CKD 신보호를 병행한다. 진행성 CKD는 일반 CKD 지침에 따라 합병증과 신대체요법을 준비한다.
@@ -57,3 +63,6 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — ERKNet·ERA·ESPN 2024 지침 기반 보강
 2026-07-15 — 공식 지침 기반 Tier 2 보강
+
+참고: 삼성서울병원 메뉴얼.
+- [ERKNet·ERA·ESPN Alport syndrome guideline 2024](https://www.erknet.org/guidelines-pathways/hereditary-glomerulopathies/alport-syndrome)

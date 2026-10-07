@@ -30,16 +30,20 @@ related_diseases:
 
 ## 임상 정보
 - CMV retinitis, CMV colitis, CMV pneumonitis, CMV prophylaxis 또는 preemptive therapy에서 사용됩니다.
-- valganciclovir의 정주 전구 약 개념으로 이해하면 실무 맥락이 정리됩니다.
+- Valganciclovir는 경구 투여 후 ganciclovir로 전환되는 전구약물이며, 정맥 ganciclovir와 역할을 구분합니다.
 - 강력하지만 myelosuppression이 커서 "항바이러스제"이면서도 hematology 모니터링이 매우 중요합니다.
 
 #### 용법/용량
+- CMV 식도염은 정상 신기능 성인에서 5 mg/kg IV 12시간 간격을 사용하며, 경구 흡수와 반응이 확보되면 valganciclovir 전환을 검토합니다. HIV 관련 식도염의 21–42일 치료 기간을 다른 이식 상황에 일괄 적용하지 않습니다.
+
 - 유도 치료는 흔히 `5 mg/kg IV q12h`
 - 유지 치료 또는 예방은 신기능과 임상 상황에 따라 조정합니다.
 - creatinine clearance에 따라 반드시 감량합니다.
 - 급속 bolus 주입은 피하고 충분한 시간에 걸쳐 정주합니다.
 
 #### 적응증
+- [[거대세포바이러스 식도염 (CMV Esophagitis)]] 등 조직 침범 CMV의 치료. 예방·선제치료와 활동성 질환의 치료 용량·종료 기준을 구분합니다.
+
 - CMV retinitis
 - CMV disease 치료
 - 장기이식 환자의 CMV 예방 또는 선제 치료
@@ -73,3 +77,8 @@ related_diseases:
 ## 출처
 - openFDA / 공식 ganciclovir label 계열 자료.
 - CMV 질환 치료의 일반적 임상 운용 원칙을 반영함.
+
+참고: 삼성서울병원 메뉴얼.
+- [NIH 성인·청소년 HIV 기회감염 CMV 지침](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus?view=full)
+- [고형장기이식 CMV 국제합의 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180710/)
+- [Valganciclovir 공식 라벨](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=383e8810-b877-4a4f-abdf-c8c4c8e394f8)

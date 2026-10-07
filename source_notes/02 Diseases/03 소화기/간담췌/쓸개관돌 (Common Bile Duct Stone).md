@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-08"
 aliases: []
 유형:
 - disease
@@ -19,7 +19,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-08"
 ---
 분과 : [[소화기]]
 
@@ -49,22 +49,28 @@ reviewed_at: "2026-07-30"
   백혈구 증가증 등 염증 소견이 나타날 수 있다.
   영상 검사로는 복부 초음파(US)에서 총담관 확장 및 담석을 확인할 수 있다.
   CT, MRCP(Magnetic Resonance Cholangiopancreatography)도 진단에 유용하다.
-  ERCP(Endoscopic Retrograde Cholangiopancreatography)는 총담관 담석 진단의 확진 검사이자 치료적 시술(내시경 괄약근 절개술 및 담석 제거술)이다.
-  EUS(Endoscopic Ultrasonography)는 총담관 담석 진단에 가장 민감한 검사이다.
+  ERCP(Endoscopic Retrograde Cholangiopancreatography)는 진단만을 위한 확진검사로 일상적으로 사용하지 않고, 배액·내시경 괄약근 절개·결석 제거가 필요한 경우 치료적으로 시행한다. 임상 의심이 남지만 초음파 근거가 충분하지 않으면 MRCP 또는 EUS를 선택한다.
+  EUS(Endoscopic Ultrasonography)와 MRCP는 각각의 접근성·금기·시술자 경험을 고려해 총담관 담석 확인에 사용한다.
 
 ## 4. 진단 (Diagnosis)
+- **위험도 기반 검사:** 영상에서 결석이 확인되었거나 상행성 담관염이 있으면 치료적 ERCP·배액 경로를 신속히 계획합니다. 그러나 임상·검사상 중간 가능성만 있는 경우에는 ERCP 합병증을 피하기 위해 MRCP 또는 EUS로 확인한 뒤 치료를 결정합니다.
+
 - **진단 기준**
-* 폐쇄성 황달의 임상 증상 (황달, 우상복부 통증, 발열)
-* 혈액 검사에서 빌리루빈, ALP, GGT 상승
-* 영상 검사(US, CT, MRCP, ERCP, EUS)에서 총담관 내 담석 확인
+* 증상, 빌리루빈·ALP·GGT 등 담즙정체 소견, 영상에서의 담관 확장 또는 결석을 종합
+* 무증상 결석도 영상으로 확인될 수 있으며, 발열·황달·저혈압·의식 변화는 감염성 폐쇄를 신속히 평가할 위험 신호
+* 초음파 근거가 불충분한 지속 의심에서는 MRCP/EUS를 이용하고, 치료적 ERCP 필요성을 별도로 판단
 
 - **감별진단**: 담관암, 췌장암, 담관 협착 등 다른 담도 폐쇄 원인과 감별해야 한다.
 
 ## 5. 치료
-- 급성 증상(심한 황달·통증·발열) 시 즉시 ERCP 또는 PTBD를 통한 담즙 배액을 시행한다.
-- 감염 조절을 위해 항생제 치료를 시작하고, 임상·실험실 변화를 모니터링하며 필요 시 항생제 교체한다.
-- 내시경 역행성 담췌관 조영술(ERCP)로 내시경 괄약근 절개와 담석 제거를 수행하고, 동반 담낭 결석이 있으면 복강경 담낭절제술을 계획한다.
-- 시술 후 혈액·영상 검사를 통해 재폐쇄 여부를 확인하고, 4–6주 내 외래 추적 검진을 권고하며, 재발 위험이 있으면 정기 초음파 검진을 시행한다.
+- 큰 결석·매복 결석 또는 해부학적 접근이 어려운 경우에는 유두괄약근 절개 후 큰 풍선확장, 기계적·관내 쇄석, 일시적 스텐트, 수술/경피 접근을 전문팀이 결석·담관·환자 특성에 맞춰 선택합니다. 단일 내시경 기법이나 반복 시술을 모든 환자에게 일률 적용하지 않습니다.
+
+- 담관염 또는 지속 폐쇄가 있으면 소생과 항생제에 더해 긴급 담도 배액을 우선한다. ERCP 전·후 또는 수술 중 결석 제거의 선택은 결석 특성, 담낭 상태, 환자 안정성 및 내시경·수술 전문성에 따라 결정한다.
+
+- 급성 담관염·패혈증 또는 지속 폐쇄에서는 소생과 항생제와 함께 시기 적절한 담도 배액을 시행한다. 해부학적으로 가능하면 ERCP를 우선 고려하고, 실패·불가능 시 경피 또는 수술적 배액을 전문팀과 결정한다.
+- 무증상 또는 안정적 총담관 결석에서도 결석 제거 필요성을 평가하되, 단순 통증·황달만으로 즉시 ERCP를 자동 결정하지 않고 위험도와 MRCP/EUS 결과를 반영한다.
+- 담관 청결 뒤 동반 담낭 결석의 담낭절제 시점은 담관염·췌장염의 중증도, 수술 위험과 자원에 따라 계획한다.
+- 시술 후 증상, 간담도 혈액검사와 임상 상황에 맞는 영상으로 담도 청결·재폐쇄·합병증을 평가한다. 정기 초음파의 간격을 모든 환자에게 일률 적용하지 않고, 동반 담낭 결석·협착·재발 위험과 치료 계획에 따라 추적한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -77,3 +83,8 @@ reviewed_at: "2026-07-30"
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [ESGE 총담관 결석 지침](https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline)
+- [Tokyo Guidelines 2018 담관염 진단](https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512)
+- [ASGE choledocholithiasis guideline](https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis)

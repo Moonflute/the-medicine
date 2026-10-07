@@ -15,7 +15,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-10-08"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
 sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
@@ -44,6 +44,9 @@ sources: ["Consensus document on the diagnosis, management, and treatment of chr
 - **간외 합병증**: 혼합형 크리오글로불린혈증(mixed cryoglobulinemia), 막증식성 사구체신염, 포르피린증(PCT), 편평태선, B세포 림프종 등.
 
 ## 3. 검사
+- 최근 노출 또는 면역억제 상태에서는 anti-HCV가 음성이어도 감염을 배제하지 않고 HCV RNA를 확인한다. 항체 양성·RNA 음성은 현재 바이러스혈증의 근거가 없다는 뜻이며 과거 회복·치료 후 상태 외에 항체 위양성도 가능하다. 최근 노출이나 임상적 의심이 지속되면 재검을 판단한다.
+- HCV core antigen 검사는 현재 감염을 확인하는 데 이용될 수 있으나 RNA 검사보다 민감도가 낮다. 항체 양성이면서 core antigen 음성인 경우 RNA 확인으로 감염을 배제한다.
+
 - **혈액 검사**: AST, ALT 수치가 상승할 수 있으나 정상 범위일 수도 있음.
 - **진단 검사**:
 - anti-HCV: 선별검사.
@@ -55,11 +58,15 @@ sources: ["Consensus document on the diagnosis, management, and treatment of chr
 - anti-HCV(-), HCV RNA(+): 급성 감염 초기 또는 면역억제 상태.
 
 ## 4. 진단
-- **진단 기준**: anti-HCV 양성 및 HCV RNA 양성 확인.
-- **평가**: 치료 전 유전자형(Genotype) 확인, 간 섬유화 정도 평가(비침습적 검사 선호), B형 간염 및 HIV 동시 감염 여부 확인.
+- **진단 기준**: HCV RNA로 현재 감염을 확인하며 감염 기간과 과거 검사로 급성·만성을 구분한다. 초기 감염이나 면역억제 상태에서는 anti-HCV 양성을 필수 조건으로 요구하지 않는다.
+- **평가**: 간 섬유화 정도 평가(비침습적 검사 선호), B형 간염 및 HIV 동시 감염 여부 확인. 유전자형 검사의 필요성은 예정 요법·간경변·치료 이력에 따라 판단하며, 범유전자형 간편 치료의 모든 환자에서 필수로 요구하지 않는다.
 - **감별진단**: 알코올성 간 질환, 비알코올성 지방간 질환, 자가면역 간염, 기타 바이러스성 간염.
 
 ## 5. 치료
+- **치료 전 확인**: 간 섬유화·간경변과 과거 비대상화, 이전 HCV 치료 및 실패 약제, HCV RNA, 신기능과 동반질환을 확인한다. 처방약뿐 아니라 일반약·건강기능식품까지 목록을 작성해 예정 DAA 조합의 상호작용을 검토한다. 약제는 NS3/4A 단백분해효소, NS5A, NS5B 중합효소 등 서로 다른 표적에 작용하는 조합으로 사용하며, 개별 성분을 임의로 단독 투여하지 않는다.
+- 비대상성 간질환의 현재 또는 과거 병력이 있거나 현재 Child-Pugh 점수가 7점 이상이면 NS3 단백분해효소 억제제 포함 요법을 사용하지 않는다. 범유전자형이라는 특성만으로 모든 간기능 상태에 같은 조합을 처방하지 않는다.
+- **치료 반응 평가**: 치료 종료 시 RNA 불검출(ETR)과 치료 종료 12주 이상 후 확인하는 지속 바이러스 반응(SVR12)을 구분한다. 완치 확인은 종료 후 HCV RNA로 하며 항체 음전을 요구하지 않는다. 과거 인터페론 치료의 4·12·24주 반응에 따라 기간을 조절하던 방식을 현재 DAA 요법에 그대로 적용하지 않는다.
+
 - **적응증**: 기대 수명이 짧은 경우를 제외한 모든 만성 C형 간염 환자.
 - **항바이러스제(DAA)**: 직접 작용 항바이러스제(Direct-Acting Antivirals)를 사용하여 바이러스 박멸(SVR 달성)을 목표로 함.
 - 범유전자형 치료제(Sofosbuvir/velpatasvir, Glecaprevir/pibrentasvir 등)가 표준 치료.
@@ -77,3 +84,7 @@ Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [AASLD/IDSA HCV 검사](https://www.hcvguidelines.org/guidance/hcv-testing-and-linkage-to-care/)
+- [치료 모니터링](https://www.hcvguidelines.org/guidance/monitoring-patients-who-are-starting-hcv-treatment-are-on-treatment-or-have-completed-therapy/)

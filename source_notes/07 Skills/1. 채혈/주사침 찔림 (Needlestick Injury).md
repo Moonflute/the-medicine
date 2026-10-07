@@ -9,8 +9,8 @@ subcategory_order: 1
 icon_name: "ClipboardList"
 order: 5
 video_url:
-reviewed_at: "2026-10-07"
-content_updated_at: "2026-10-07"
+reviewed_at: "2026-10-08"
+content_updated_at: "2026-10-08"
 guideline_year: "2025"
 sources:
 - CDC: Sharps Safety Program Resources | https://www.cdc.gov/infection-control/hcp/sharps-safety/index.html
@@ -73,6 +73,8 @@ Warning: HIV PEP 필요성 평가는 시간 의존적이므로 source 검사 결
 - HBV는 **백신 접종 기록과 과거 항체 반응**을 함께 확인합니다. 문서화된 면역 반응이 있던 사람의 현재 anti-HBs 음성을 백신 무반응과 동일하게 취급하지 않습니다. 미접종·불완전 접종자가 HBsAg 양성·불명 노출원에 노출되면 HBIG와 백신이 필요합니다. 두 차례 완전 접종에도 무반응인 사람은 다른 HBIG 경로를 사용합니다.
 - HCV는 예방적 항바이러스제 투여가 아니라 기저·추적검사와 감염 발생 시 치료 연결이 원칙입니다.
 
+HCV 기초 검사는 가급적 노출 48시간 이내 진행합니다. 노출자는 anti-HCV를 검사하고 양성이면 HCV RNA를 확인합니다. 감염원은 HCV RNA 또는 항체 검사 후 양성 시 RNA 확인으로 현재 감염 여부를 평가합니다.
+
 ## 결과
 
 노출 위험·source 및 노출자 평가와 필요한 예방치료 계획이 확인됐는지 정리합니다. 초기 검사 결과만으로 새 감염을 배제하지 않고 정해진 추적검사를 완료합니다.
@@ -91,3 +93,8 @@ PEP 복용법, 흔한 부작용, 놓친 용량 대처, 약물상호작용과 추
 
 ### 추적검사 완료
 감염관리실이 정한 시점의 HIV·HBV·HCV 검사와 진료를 일정에 등록합니다. 발열, 발진, 황달 등 증상이 생기거나 PEP를 지속하기 어렵다면 예약일까지 기다리지 말고 즉시 연락합니다.
+
+HCV 감염원이 RNA 양성이거나, 항체 양성인데 RNA 결과가 없거나, 감염원 검사가 불가능하여 추적이 필요한 경우에는 노출 3–6주에 HCV RNA를 검사합니다. 이후 4–6개월에 anti-HCV를 검사하고 양성이면 RNA를 확인합니다. 기초 항체 양성·RNA 음성인 노출자는 항체 대신 RNA로 추적합니다. 간염 증상이 나타나면 예정일을 기다리지 않고 평가합니다.
+
+참고: 삼성서울병원 메뉴얼.
+- [CDC 의료인 HCV 노출 후 검사](https://www.cdc.gov/hepatitis-c/hcp/infection-control/index.html)

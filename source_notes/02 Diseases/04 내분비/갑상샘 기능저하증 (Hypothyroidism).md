@@ -17,14 +17,14 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-10-08"
 guideline_year: "2014"
 sources:
 - 'AACE ATA Adult Hypothyroidism Clinical Practice Guideline | https://pubmed.ncbi.nlm.nih.gov/23246686/'
 - 'ATA Guidelines for Treatment of Hypothyroidism | https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/'
 disease_family: hypothyroidism
 population: adult
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 ---
 
@@ -45,6 +45,8 @@ review_status: "guideline_enriched"
 - 주의사항: 비오틴(biotin) 복용은 검사 결과에 간섭을 일으킬 수 있으므로 검사 전 중단 필요
 
 ## 4. 진단
+- TSH와 fT4는 병력·약물·급성 질환 및 검사 간섭 가능성과 함께 해석합니다. 뇌하수체·시상하부 질환이 의심되면 정상 또는 낮은 TSH만으로 배제하지 않고 fT4와 다른 뇌하수체 축·MRI 평가를 연결합니다. 일시적 갑상샘염, 최근 요오드 노출·수술·방사선, amiodarone·lithium 등 약물 여부도 확인합니다.
+
 - 일차성: TSH 상승, fT4 저하
 - 이차성: TSH 저하 또는 정상, fT4 저하
 - 불현성 갑상샘기능저하증: TSH 상승, fT4 정상
@@ -70,3 +72,7 @@ Last updated :
 2024-07-30 — 초기 작성
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: 삼성서울병원 메뉴얼.
+- [ATA 갑상샘기능저하증 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/)
+- [British Thyroid Association 갑상샘기능저하증 합의문 2023](https://pubmed.ncbi.nlm.nih.gov/36517373/)
