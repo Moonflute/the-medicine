@@ -26,8 +26,15 @@ sources:
 
 content_updated_at: '2026-10-08'
 guideline_reviewed_at: '2026-10-08'
+group_members:
+- 특정 공포증 (Specific Phobia)
+- 피부뜯기기장애 (Excoriation Disorder)
+- 광장 공포증 (Agoraphobia)
+- 강박 장애 (Obsessive-Compulsive Disorder, OCD)
+- 공황 장애 (Panic Disorder)
+- 범 불안 장애 (Generalized Anxiety Disorder)
+- 사회 불안 장애 (Social Anxiety Disorder)
 ---
-
 # 불안 장애
 
 ## 불안의 대상·시간 경과·회피를 구분
@@ -55,19 +62,16 @@ guideline_reviewed_at: '2026-10-08'
 SSRI/SNRI는 초기에 불안·초조가 일시적으로 증가할 수 있어 낮은 용량 시작과 추적이 중요하다. 효과 지연, 중단 증상·성기능 부작용을 설명한다. 벤조디아제핀을 장기 기본 치료로 삼지 않으며 의존·낙상·인지 영향에 주의한다. 적절한 기간의 치료에도 반응이 없으면 진단·복약·동반 질환을 재평가한다.
 
 ## 포함 질환
-- [[강박 장애 (Obsessive-Compulsive Disorder, OCD)]]
-- [[공황 장애 (Panic Disorder)]]
-- [[광장 공포증 (Agoraphobia)]]
-- [[범 불안 장애 (Generalized Anxiety Disorder)]]
-- [[사회 불안 장애 (Social Anxiety Disorder)]]
 - [[특정 공포증 (Specific Phobia)]]
 - [[피부뜯기기장애 (Excoriation Disorder)]]
-
-
+- [[광장 공포증 (Agoraphobia)]]
+- [[강박 장애 (Obsessive-Compulsive Disorder, OCD)]]
+- [[공황 장애 (Panic Disorder)]]
+- [[범 불안 장애 (Generalized Anxiety Disorder)]]
+- [[사회 불안 장애 (Social Anxiety Disorder)]]
 
 ## 참고 자료
 
 - [NICE CG113: Generalised Anxiety Disorder and Panic Disorder (2020 갱신)](https://www.nice.org.uk/guidance/cg113/chapter/Recommendations)
 - [NICE CG159: Social Anxiety Disorder (2013; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg159/chapter/recommendations)
 - [NICE CG31: Obsessive-Compulsive Disorder (2005; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg31/chapter/Recommendations)
-

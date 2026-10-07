@@ -23,8 +23,13 @@ guideline_reviewed_at: '2026-10-08'
 sources:
   - "NICE CG185: Bipolar Disorder, Assessment and Management (2025 갱신) | https://www.nice.org.uk/guidance/cg185/chapter/recommendations"
   - "VA/DoD: Management of Major Depressive Disorder (2022) | https://www.healthquality.va.gov/guidelines/MH/mdd/"
+group_members:
+- 기분 저하 장애 (지속적 우울 장애, Dysthymia)
+- 순환 기분 장애 (Cyclothymic Disorder)
+- 양극성 장애 (Bipolar Disorder)
+- 정상 애도 반응 (Bereavement)
+- 주요 우울 장애 (Major Depressive Disorder)
 ---
-
 # 기분 장애
 
 ## 우울 증상보다 먼저 확인할 병력
@@ -60,10 +65,7 @@ NICE 2025 갱신은 발프로산의 생식·태아 위험과 사용 제한을 �
 - [[정상 애도 반응 (Bereavement)]]
 - [[주요 우울 장애 (Major Depressive Disorder)]]
 
-
-
 ## 참고 자료
 
 - [NICE CG185: Bipolar Disorder, Assessment and Management (2025 갱신)](https://www.nice.org.uk/guidance/cg185/chapter/recommendations)
 - [VA/DoD: Management of Major Depressive Disorder (2022)](https://www.healthquality.va.gov/guidelines/MH/mdd/)
-

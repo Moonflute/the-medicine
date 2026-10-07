@@ -19,8 +19,13 @@ guideline_reviewed_at: '2026-10-08'
 sources:
   - "NICE CG158: Antisocial Behaviour and Conduct Disorders (2013/2017; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg158/chapter/recommendations"
   - "American Psychiatric Association: Disruptive, Impulse-Control and Conduct Disorders (2026-10 확인) | https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct"
+group_members:
+- 품행 장애 (Conduct Disorder)
+- 간헐적 폭발 장애 (Intermittent Explosive Disorder)
+- 도벽 (Kleptomania)
+- 방화광 (Pyromania)
+- 적대적 반항 장애 (Oppositional Defiant Disorder)
 ---
-
 # 파괴적 충동 조절 및 행동 장애
 
 ## 발달 수준·기능·행동의 목적을 평가
@@ -48,16 +53,13 @@ sources:
 NICE CG158은 품행 문제에 대한 일상적인 약물 처방을 권고하지 않는다. 심리사회적 개입에도 심한 공격성과 정서조절 문제가 지속되는 일부 환자에서 전문의가 risperidone의 단기 사용을 고려한다. 대사·추체외로·프로락틴 부작용과 효과를 점검하고 지속 필요성을 재평가한다. 이를 도벽·방화광·모든 반항 행동의 공통 처방으로 확대하지 않는다.
 
 ## 포함 질환
+- [[품행 장애 (Conduct Disorder)]]
 - [[간헐적 폭발 장애 (Intermittent Explosive Disorder)]]
 - [[도벽 (Kleptomania)]]
 - [[방화광 (Pyromania)]]
 - [[적대적 반항 장애 (Oppositional Defiant Disorder)]]
-- [[품행 장애 (Conduct Disorder)]]
-
-
 
 ## 참고 자료
 
 - [NICE CG158: Antisocial Behaviour and Conduct Disorders (2013/2017; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg158/chapter/recommendations)
 - [American Psychiatric Association: Disruptive, Impulse-Control and Conduct Disorders (2026-10 확인)](https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct)
-
