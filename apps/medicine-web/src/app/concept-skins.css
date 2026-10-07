@@ -180,6 +180,7 @@ html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .review
 /* Documents retain their real headings, links, metadata, and complete paragraphs. */
 html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-page .clinical-document { padding:0; border:0; border-radius:0; background:var(--surface); }
 .skin-frame .concept-document-toolbar { display:flex; flex-wrap:wrap; position:sticky; top:var(--app-header-height); gap:6px; padding:6px 1px; min-height:38px; border:0; border-bottom:1px solid var(--line); border-radius:0; background:var(--surface); box-shadow:none; }
+.skin-frame .concept-document-toolbar.document-toolbar--inset { margin:0; }
 .concept-document-toolbar-title { display:flex; flex:1; align-items:center; gap:6px; min-width:0; font-size:11px; color:var(--muted); }
 .concept-document-toolbar-title > small { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:10px; margin-left:4px; }
 .concept-document-toolbar-title > :is(svg,span) { flex-shrink:0; }
@@ -330,6 +331,7 @@ html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-q
 .concept-answer-sheet { min-width:0; margin:12px 0; border:1px solid var(--line); }
 .concept-answer-sheet > summary { padding:11px 12px; font-size:12px; cursor:pointer; background:var(--surface-subtle); }
 .concept-answer-sheet > .skin-panel { border:0; margin:0; }
+html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .qbank-session-progress [aria-label="문제 번호 이동"] details > div { z-index:60; }
 html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-status { font-size:11px; line-height:1.8; padding:10px 0; color:var(--muted); }
 html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-status-line { display:flex; gap:8px; align-items:center; }
 html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-status--stage { min-height:100px; display:flex; align-items:center; justify-content:center; }
@@ -348,6 +350,7 @@ html[data-theme="editor"] .home-settings-theme { background:#252526; }
   html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .skin-page-content > div > a[class*="rounded-full"] { padding:6px 0; border:0; border-radius:0; background:transparent; box-shadow:none; font-size:11px; }
   html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .clinical-document > div[class*="border-b"] { padding:13px 0; background:transparent; }
   html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .qbank-session-progress { font-size:11px; gap:7px; }
+  html:is([data-theme="mail"],[data-theme="social"],[data-theme="editor"]) .qbank-session-progress [aria-label="문제 번호 이동"] details > div { position:fixed; top:calc(var(--app-header-height) + 76px); left:12px; right:12px; width:auto; max-width:none; max-height:50dvh; z-index:60; }
   html[data-theme="editor"] .concept-header-actions { display:none; }
 }
 @media (min-width:900px) {
