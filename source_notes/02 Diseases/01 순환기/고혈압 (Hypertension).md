@@ -15,15 +15,19 @@ CC:
 - 두통
 - 심박수이상
 clinical_priority: tier_1
-content_updated_at: '2026-07-14'
+content_updated_at: '2026-10-07'
 guideline_year: "2026"
 sources:
-- '대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read'
-- '2025 ACC/AHA High Blood Pressure Guideline | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know'
+- "대한고혈압학회 제6판 지침 공식 하이라이트, 2026 | https://doi.org/10.5646/ch.2026.32.e31"
+- "대한고혈압학회 제6판 진료지침, 2026(공식 수정본 배포 페이지) | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read"
+- "ACC/AHA 고혈압 지침, 2025: 공식 핵심 권고 | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+- "Endocrine Society 일차성 알도스테론증 지침, 2025 | https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2"
 disease_family: hypertension
 population: adult
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 ## 1. 개요
 - 고혈압은 반복 측정에서 혈압이 상승해 심뇌혈관·신장·혈관 사건 위험을 높이는 만성 질환이다. 대부분은 일차성 고혈압이며, 신장질환·신혈관질환·일차성 알도스테론증·내분비질환·수면무호흡·약물 등이 이차성 원인이 될 수 있다.
@@ -50,7 +54,7 @@ review_status: "guideline_enriched"
 
 ## 5. 치료
 - **생활요법**: 체중 조절, 하루 소금 5 g 이하(나트륨 2,000 mg 이하)를 목표로 한 저염 식이, 규칙적 신체활동, 절주, 금연, 수면과 스트레스 관리, 복약 지속성 확인을 모든 환자에게 적용한다. 대한고혈압학회는 모든 성인에서 주당 중강도 운동 150분 또는 고강도 운동 75분을 권고한다.
-- **약물 시작과 목표**: 반복 측정에서 수축기 ≥140 mmHg 또는 이완기 ≥90 mmHg이면 생활요법과 함께 약물치료 시작 또는 강화가 필요하다. 목표 혈압은 연령, 기립저혈압, 심혈관 위험, CKD, 임신 여부를 고려해 개별화한다.
+- **약물 시작과 목표**: 반복 확인한 혈압과 전체 심혈관 위험·장기손상·동반질환으로 생활요법과 약물 시작/강화 시점을 정한다. 대한고혈압학회 2026은 고위험 또는 심혈관질환 동반 환자, 당뇨병, 뇌졸중 병력에서 <130/80 mmHg를 권고하며, CKD에서도 내약성이 있으면 같은 목표를 권고한다. CKD의 표준화 측정에서는 수축기 <120 mmHg를 고려할 수 있으나 이를 일반 진료실 측정 목표와 혼용하지 않는다.
 - **기본 약제와 병용**: ACE 억제제 또는 ARB, 칼슘통로차단제, 티아지드계/티아지드 유사 이뇨제를 기본 축으로 선택한다. 혈압 수준과 위험도가 높아 단일제로 목표 달성이 어렵다면 서로 다른 계열의 병용을 고려한다. ACE 억제제와 ARB의 병용은 피한다.
 - **동반질환과 특수 상황**: 알부민뇨가 있는 CKD에서는 RAS 차단제를 우선 고려하고, 심부전·CKD·당뇨병이 동반된 경우에는 각 동반질환의 근거 기반 치료를 함께 적용한다. 임신 계획 또는 임신 중에는 ACE 억제제·ARB 등 금기 약제를 피하고 임신 관련 지침에 맞는 약제를 선택한다.
 - **난치성/저항성 고혈압**: 측정 오류, 백의효과, 복약순응도, 생활요법, 이차성 원인, 이뇨제 적절성을 먼저 확인한다. 지속적으로 조절되지 않으면 스피로놀락톤을 우선 검토하며, 사용이 어렵다면 아밀로라이드 등 대안을 관련 전문과와 검토한다.
@@ -63,18 +67,22 @@ review_status: "guideline_enriched"
 - 관련 문서: [[신혈관성 고혈압 (Renovascular Hypertension)]], [[원발성 알도스테론증 (Primary Aldosteronism)]], [[임신성고혈압 (Gestational Hypertension)]], [[고혈압망막병증 (hypertensive retinopathy)]], [[당뇨병 (Diabetes Mellitus)]], [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]]
 - [[고혈압성 위기 (Hypertensive Crisis)]]
 
-출처 :
-- 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read
-- 2025 ACC/AHA High Blood Pressure Guideline: https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know
+## 지침별 기준과 응급 감별
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+- 대한고혈압학회 2026은 고위험 고혈압 전단계에서도 약물 치료를 고려하도록 했으며, 65세 이상 고위험군도 내약성이 있으면 더 낮은 목표를 검토한다. 허약·85세 이상·증상성 기립저혈압 등은 개별화한다. 임신 중 만성/임신성 고혈압은 <140/90 mmHg를 목표로 관리하되 과도한 저하를 피한다.
+- 국내 지침의 일차성 알도스테론증 선별은 저항성·저칼륨혈증·수면무호흡·부신 우연종·조기 발병·관련 가족력 등 고위험군을 중심으로 한다. 아래 Endocrine Society의 모든 고혈압 환자 선별 조건부 제안과 적용 범위를 구분한다.
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[고혈압성 위기 (Hypertensive Crisis)]] | 중증 혈압 상승만으로 고혈압성 응급을 진단하지 않는다. 핵심은 **급성 표적장기손상**의 유무다 |
+- 국내 진단 기준과 미국의 위험 기반 치료 기준은 구분한다. ACC/AHA 2025는 평균 ≥140/90 mmHg에서 약물 치료를 권고하고, ≥130/80이면서 심혈관질환·당뇨·CKD 또는 PREVENT 10년 위험 ≥7.5%이면 더 낮은 역치에서 치료한다.
+- 미국 기준상 위험 <7.5%라도 ≥130/80이 생활요법 3–6개월 뒤 지속되면 약물 시작을 권고한다. 이 위험 계산을 국내 환자에게 검증 없이 그대로 적용하지 않는다.
+- 일차성 알도스테론증의 Endocrine Society 2025 지침은 모든 고혈압 환자의 선별을 조건부 제안한다. 현실적인 우선순위는 저항성·저칼륨혈증·젊은 발병 등이며, 저칼륨혈증이 없다고 배제하지 않는다.
+- 고혈압성 응급은 급성 표적장기손상이 핵심이다. 일반적인 응급에서는 급격한 정상화보다 통제된 강하가 필요하고, 대동맥박리·뇌졸중·임신성 응급은 별도 목표를 따른다. 혈압 수치만 높고 장기손상이 없으면 급속 정주 강하를 일괄 시행하지 않는다.
 
 ## 포함 질환
 - [[고혈압성 위기 (Hypertensive Crisis)]]
+
+## 참고 가이드라인
+
+- [대한고혈압학회 제6판 지침 공식 하이라이트, 2026](https://doi.org/10.5646/ch.2026.32.e31)
+- [대한고혈압학회 제6판 진료지침, 2026(공식 수정본 배포 페이지)](https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read)
+- [ACC/AHA 고혈압 지침, 2025: 공식 핵심 권고](https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know)
+- [Endocrine Society 일차성 알도스테론증 지침, 2025](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2)

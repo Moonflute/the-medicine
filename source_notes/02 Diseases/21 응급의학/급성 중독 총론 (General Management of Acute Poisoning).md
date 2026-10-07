@@ -21,12 +21,14 @@ CC:
 clinical_priority: tier_1
 review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
-content_updated_at: '2026-07-17'
-guideline_year: '2023'
+content_updated_at: '2026-10-07'
+guideline_year: '2025'
 sources:
-- 'AHA 2023 Focused Update: Cardiac Arrest or Life-Threatening Toxicity Due to Poisoning | https://professional.heart.org/en/science-news/2023-american-heart-association-focused-update-on-the-management-of-patients-with-cardiac-arrest/top-things-to-know'
+- "AHA 2025 CPR·ECC Part 10 중독 소생술 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"
 disease_family: poisoning
 population: general
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 분과 : [[응급의학]]
 
@@ -61,24 +63,24 @@ population: general
 - 예후는 물질, 용량, 치료 지연과 초기 장기손상에 좌우된다. 흡인, 저산소성 뇌손상, 간·신부전, rhabdomyolysis, 부정맥과 지연성 신경합병증이 발생할 수 있다.
 - 퇴원은 예상 독성 시간창이 지나고 활력징후·심전도·필요한 serial level이 안정되며 정신사회 안전성이 확보된 경우에만 고려한다. 예방교육과 약물 보관·처방 조정을 연결한다.
 
-출처 :
-- Tintinalli's Emergency Medicine Manual, 8e, Ch. 100-117.
-- AHA, 2023 Focused Update on Life-Threatening Toxicity Due to Poisoning.
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+## 생명위협 중독에서 치료가 달라지는 지점
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[흡입성 중독]] | [[일산화탄소 중독 (Carbon Monoxide Poisoning)]] |
-| [[독성 알코올]] | [[에틸렌글리콜 중독 (Ethylene Glycol Poisoning)]] |
-| [[생물 독소]] | [[보툴리눔 중독 (Botulism)]] |
-| [[약물 및 화학물질 중독]] | [[리튬 중독 (Lithium Poisoning)]] |
+| 소견 | 우선 처치 | 주의점 |
+| --- | --- | --- |
+| 축동과 호흡억제 | 환기 보조와 naloxone | 심정지에서는 압박·환기를 지연하지 않고, 재호흡억제를 관찰 |
+| Na 통로 차단에 의한 넓은 QRS·저혈압 | sodium bicarbonate | 반복 ECG·산염기·Na를 보며 조절 |
+| β 차단제·칼슘통로 차단제에 의한 불응성 쇼크 | 고용량 insulin 등 물질별 치료 | 혈당·K를 집중 감시하고 독성 전문가와 협의 |
+| benzodiazepine 노출 의심 | 기도·환기 우선 | 혼합 중독·의존·경련 위험에서 flumazenil을 일률 투여하지 않음 |
+
+일반 소생술에 반응하지 않는 중독성 심혈관 붕괴는 회복 가능한 독성을 고려하여 해독제와 VA-ECMO 가능 기관 의뢰를 조기에 검토한다. 독성물질이 확인되었다는 이유만으로 다른 동반 질환·손상을 배제하지 않는다.
 
 ## 포함 질환
 - [[흡입성 중독]]
 - [[독성 알코올]]
 - [[생물 독소]]
 - [[약물 및 화학물질 중독]]
+
+## 참고 가이드라인
+
+- [AHA 2025 CPR·ECC Part 10 중독 소생술](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation)

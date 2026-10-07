@@ -15,11 +15,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 sources:
-- '대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read'
-- 'ACOG Gestational Hypertension and Preeclampsia | https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia'
+- "ACOG Practice Bulletin 222 2020·2026 재확인 | https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia"
+- "ACOG 2025 검토 임신 고혈압 임상 설명 | https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+- "NICE NG133 2023 개정 임신 고혈압 | https://www.nice.org.uk/guidance/ng133/chapter/recommendations"
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-14'
-guideline_year: "2026"
+content_updated_at: '2026-10-07'
+guideline_year: '2023'
 disease_family: hypertension
 parent_disease: 고혈압 (Hypertension)
 relation_to_parent: special_population
@@ -32,6 +33,8 @@ group_members:
 - 전자간증 (Preeclampsia)
 - 중증 전자간증 (Severe Pre-eclampsia)
 - HELLP 증후군 (HELLP Syndrome)
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 ## 1. 개요
 - 임신성고혈압은 임신 20주 이후 처음 발생한 고혈압으로, 처음 평가 시 단백뇨 또는 자간전증의 중증 소견이 없는 경우를 말한다. 산후 경과에서 만성고혈압과 구분한다.
@@ -58,24 +61,28 @@ group_members:
 - 자간전증, 경련, 태반조기박리, 조산·태아성장제한 위험이 증가할 수 있다. 산후에도 혈압 악화 또는 산후 자간전증이 가능하므로 두통·시야장애·호흡곤란 교육과 조기 혈압 확인이 필요하다.
 - 임신성고혈압 병력은 이후 만성고혈압·심혈관 위험 증가와 관련되므로, 산후 산과 추적에서 일차진료로 혈압·심혈관 위험 관리를 연결한다.
 
-## 출처
-- ACOG Gestational Hypertension and Preeclampsia: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia
-- 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read
+## 고혈압 질환의 감별
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+| 상태 | 구분 | 치료의 차이 |
+| --- | --- | --- |
+| 임신성고혈압 | 20주 이후 고혈압, 전자간증 장기 이상 없음 | 지속 감시, 37주 이후 분만 계획 |
+| 전자간증 | 고혈압과 단백뇨 또는 장기 이상 | 단백뇨가 없어도 진단 가능 |
+| 중증 소견 동반 전자간증 | 중증 혈압·장기손상·신경 증상 등 | 입원·혈압 조절·MgSO₄ 필요성·분만 평가 |
+| 자간증 | 다른 원인으로 설명되지 않는 경련 | MgSO₄와 기도·순환 안정화 후 분만 |
+| HELLP | 용혈·간효소 상승·혈소판 감소 | 출혈·간 합병증 평가, 신속 산과 처치 |
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[자간증 (Eclampsia)]] | 전자간증(preeclampsia) 환자에서 다른 신경학적 원인 없이 발생하는 경련(seizure) |
-| [[전자간증 (Preeclampsia)]] | 임신 20주 이후에 발생하는 새로운 고혈압(BP ≥ 140/90 mmHg)과 함께 단백뇨가 동반된 상태 |
-| [[중증 전자간증 (Severe Pre-eclampsia)]] | 임신 중 고혈압성 질환과 동반된 160/110 mmHg 이상의 혈압, 또는 중증 전자간증의 진단 기준(단백뇨, 혈소판 감소, 간기능 이상, 신기능 저하, 폐부종, 뇌신경 증상 등)을 만족하는 상태 |
-| [[HELLP 증후군 (HELLP Syndrome)]] | 용혈(Hemolysis), 간 효소 상승(Elevated Liver enzymes), 혈소판 감소(Low Platelets)를 특징으로 하는 임신 및 산욕기 질환. 전자간증의 중증 합병증으로 간주되기도 하나, 최근에는 독립적인 병태생리적 기전을 가진 질환으로 보기도 함… |
+MgSO₄는 경련 예방·치료제이며 혈압 강하제의 대체가 아니다. 투여 중 호흡·심부건반사·소변량을 감시하고 신기능 저하에서는 독성에 주의한다. 중증 소견이 있는 경우 통상 34주 이후 안정화 후 분만을 고려하고, 34주 미만의 대기는 안정된 산모·태아와 전문센터 감시에 한한다. 모체·태아 악화 시 태아 폐성숙 steroid 완료를 위해 분만을 지연하지 않는다.
+
+만성고혈압의 CHAP 이후 약물치료 기준을 임신성고혈압·전자간증의 모든 상황에 동일하게 적용하지 않는다. 산후에도 고혈압·전자간증이 발생할 수 있으며 지속 두통·시야장애·호흡곤란은 즉시 재평가한다.
 
 ## 포함 질환
 - [[자간증 (Eclampsia)]]
 - [[전자간증 (Preeclampsia)]]
 - [[중증 전자간증 (Severe Pre-eclampsia)]]
 - [[HELLP 증후군 (HELLP Syndrome)]]
+
+## 참고 가이드라인
+
+- [ACOG Practice Bulletin 222 2020·2026 재확인](https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia)
+- [ACOG 2025 검토 임신 고혈압 임상 설명](https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy)
+- [NICE NG133 2023 개정 임신 고혈압](https://www.nice.org.uk/guidance/ng133/chapter/recommendations)

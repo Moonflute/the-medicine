@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: '2026-10-08'
 aliases:
 - 섭식 장애
 - 신체 증상 및 관련 장애
@@ -23,55 +23,39 @@ group_members:
 - 인위성 장애 (Factitious Disorder)
 - 전환 장애 (Conversion Disorder)
 - 질병 불안 장애 (Illness Anxiety Disorder)
+guideline_reviewed_at: '2026-10-08'
+sources:
+  - "Merck Manual: Somatic Symptom Disorder (2026 갱신) | https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/somatic-symptom-disorder"
+  - "Merck Manual: Illness Anxiety Disorder (2026-10 확인) | https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/illness-anxiety-disorder"
+  - "Merck Manual: Factitious Disorder Imposed on Self (2026-10 확인) | https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/factitious-disorder-imposed-on-self"
+  - "JAMA Neurology: Current Concepts in Diagnosis and Treatment of Functional Neurological Disorders (2018) | https://pmc.ncbi.nlm.nih.gov/articles/PMC7293766/"
 ---
-## 1. 개요
-- 정의**: 신체적 증상을 호소하지만, 이를 충분히 설명할 수 있는 의학적 질환이 없거나 증상에 비해 과도한 반응을 보이는 장애군.
-- 원인**: 생물학적 취약성, 심리적 요인(스트레스, 트라우마), 사회문화적 요인이 복합적으로 작용.
-- 기전**: 신체 감각에 대한 인지적 왜곡, 정서적 고통의 신체화(somatization).
 
-## 2. 임상 양상
-- CC**: 통증, 소화기 증상, 신경학적 증상 등 다양한 신체 불편감.
-- P/E**:
-- 신체 검진상 기질적 이상 소견 없음.
+# 신체 증상 및 관련 장애
 
-## 3. 검사
-- 기질적 질환을 배제하기 위한 기본적인 혈액 검사 및 영상 검사 시행.
-- 불필요한 반복 검사는 지양함.
+## 증상은 실제이며 기질 질환과 공존할 수 있음
 
-## 4. 진단
-- 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
+신체 증상 장애는 “검사가 정상인 증상”이라는 뜻이 아니다. 증상에 대한 과도한 생각·불안·행동과 기능 손상이 핵심이며 의학적 질환이 있어도 진단될 수 있다. 새로운 증상·객관적 이상이 나타나면 다시 평가한다.
 
-## 5. 치료
+## 의도성과 관심 대상을 구분
 
-- **치료 목표 설정**: 증상의 완전한 제거보다는 일상생활의 기능 회복과 삶의 질 향상에 우선순위를 둠.
-- **의료 이용 관리**: 여러 과를 전전하는 '닥터 쇼핑'을 방지하기 위해 주치의를 지정하여 정기적이고 계획된 상담을 시행함.
-- **불필요한 검사 제한**: 기질적 질환이 배제된 경우, 반복적인 신체 검사나 침습적 처치는 증상을 강화할 수 있으므로 지양함.
-- **동반 질환 관리**: 우울, 불안 등 공존하는 정신건강의학과적 질환에 대해 약물 치료 및 인지행동치료를 적극적으로 병행함.
-- **심리 교육**: 신체 증상과 심리적 요인의 연관성을 환자가 이해하도록 돕고, 스트레스 관리 및 대처 기술을 훈련함.
+| 상태 | 핵심 특징 | 혼동하지 말 점 |
+| --- | --- | --- |
+| 신체 증상 장애 | 신체 증상과 관련된 과도한 반응 | 증상을 일부러 만드는 것이 아님 |
+| 질병 불안 장애 | 증상은 없거나 경미하지만 심각한 병에 대한 집착 | 증상의 부담보다 질병에 대한 불안이 중심 |
+| 기능성 신경학적 증상 장애·전환 장애 | 알려진 신경 질환 패턴과 불일치를 보이는 양성 진찰 소견 | 스트레스 사건이나 정상 영상만으로 진단하지 않음 |
+| 인위성 장애 | 증상·손상을 의도적으로 조작, 뚜렷한 외적 보상 없음 | 다른 사람에게 유발하면 피해자 보호 필요 |
+| 꾀병 | 외적 이득을 위한 의도적 증상 조작 | 정신질환 진단 자체가 아님; 비협조만으로 단정하지 않음 |
 
-## 6. 예후 및 합병증
-- 만성적인 경과를 보일 수 있으며, 의료 시스템에 대한 의존도가 높음.
-- Impression**:
+## 평가와 설명
 
-### 하위 질환
-- [[꾀병 (Malingering)]]
-- [[신체 증상 장애 (Somatic Symptom Disorder)]]
-- [[인위성 장애 (Factitious Disorder)]]
-- [[전환 장애 (Conversion Disorder)]]
-- [[질병 불안 장애 (Illness Anxiety Disorder)]]
+병력·진찰·위험 소견에 맞는 검사를 시행한다. 기능성 신경학적 증상은 Hoover 징후 등 검증된 양성 소견을 임상 맥락에서 사용하고 신경과와 협력한다. 기질적 신경 질환과 공존할 수 있으므로 배제 진단만으로 접근하지 않는다.
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+환자에게 증상이 거짓이라는 메시지를 주지 않는다. 확인된 소견을 설명하고 기능 회복 계획을 공유한다. 증상의 의도성을 증명하는 근거 없이 꾀병·인위성 장애로 낙인찍지 않는다.
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[꾀병 (Malingering)]] | 특징: 진료 시 비협조적 태도, 검사 결과와 주관적 호소의 현저한 불일치, 법적/경제적 분쟁 상황과 연관된 경우가 많음 |
-| [[신체 증상 장애 (Somatic Symptom Disorder)]] | 하나 이상의 신체 증상을 호소하며, 이와 관련하여 과도한 생각, 감정, 행동을 보임으로써 일상생활에 상당한 고통이나 지장을 초래하는 질환 |
-| [[인위성 장애 (Factitious Disorder)]] | 병원 쇼핑(Peregrination): 여러 병원을 전전하며 불필요한 검사나 침습적 처치, 수술을 요구함 |
-| [[전환 장애 (Conversion Disorder)]] | 특징: 심리적 갈등과 증상 발생 간의 시간적 연관성이 관찰됨 |
-| [[질병 불안 장애 (Illness Anxiety Disorder)]] | 심각한 미진단 질환이 있다고 믿거나 발생할 것을 과도하게 걱정하는 정신질환 (구 명칭: 건강염려증) |
+## 치료의 공통점과 차이
+
+일관된 담당 의료진과 계획된 추적, 불필요한 반복 검사 감소, CBT·동반 우울·불안 치료가 유용하다. 기능성 운동 증상에는 특화 재활을 더한다. 인위성 장애는 위해·의료 남용을 줄이는 다학제 접근이 필요하다. 증상이 변했을 때 재평가하는 원칙과 반복 검사를 피하는 원칙을 함께 유지한다.
 
 ## 포함 질환
 - [[꾀병 (Malingering)]]
@@ -79,3 +63,11 @@ group_members:
 - [[인위성 장애 (Factitious Disorder)]]
 - [[전환 장애 (Conversion Disorder)]]
 - [[질병 불안 장애 (Illness Anxiety Disorder)]]
+
+
+## 참고 자료
+
+- [Merck Manual: Somatic Symptom Disorder (2026 갱신)](https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/somatic-symptom-disorder)
+- [Merck Manual: Illness Anxiety Disorder (2026-10 확인)](https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/illness-anxiety-disorder)
+- [Merck Manual: Factitious Disorder Imposed on Self (2026-10 확인)](https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/factitious-disorder-imposed-on-self)
+- [JAMA Neurology: Current Concepts in Diagnosis and Treatment of Functional Neurological Disorders (2018)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7293766/)

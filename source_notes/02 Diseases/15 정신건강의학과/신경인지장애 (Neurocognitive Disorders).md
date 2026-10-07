@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: '2026-10-08'
 aliases:
 - 신경인지장애
 유형:
@@ -21,57 +21,48 @@ group_members:
 - 치매 (Dementia)
 - 섬망 (Delirium)
 - 일과성 전체 기억 상실 (Transient Global Amnesia)
+guideline_reviewed_at: '2026-10-08'
+sources:
+  - "NICE CG103: Delirium (2023 갱신) | https://www.nice.org.uk/guidance/cg103/chapter/Recommendations"
+  - "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/"
+  - "Alzheimer's Association: Blood-Based Biomarkers in Specialized Care (2025) | https://aaic.alz.org/releases-2025/clinical-practice-guideline-blood-based-biomarkers.asp"
 ---
-## 1. 개요
-- 정의**: 인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태.
-- 원인**: 퇴행성 질환(알츠하이머병 등), 혈관성 질환, 감염(HIV 등), 외상, 약물, 대사성 질환 등 다양함.
-- 기전**: 신경세포의 손상, 시냅스 기능 저하, 신경전달물질 불균형, 뇌 위축 및 염증 반응 등이 복합적으로 작용.
 
-## 2. 임상 양상
-- CC**: 기억력 저하, 성격 변화, 언어 장애, 일상생활 수행 능력 저하.
-- P/E**: 인지 기능 검사(MMSE, MoCA), 신경학적 검사(보행 장애, 진전, 반사 항진 등), 정신상태 검사(환시, 우울, 불안).
+# 신경인지장애
 
-## 3. 검사
-- 혈액 검사**: CBC, LFT, RFT, 전해질, 비타민 B12, 엽산, 갑상선 기능 검사, 매독 혈청 검사, HIV 검사.
-- 영상 검사**: 뇌 MRI/CT (위축, 경색, 종양, 수두증 확인), 필요 시 PET (아밀로이드 침착, 대사 저하).
+## 발병 속도와 독립성으로 나누기
 
-## 4. 진단
-- 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
+인지 검사 점수만으로 진단하지 않는다. 이전 기능 수준, 변화 시점, 약물·음주, 수면·우울, 청각·시각과 일상생활 수행을 확인한다. 환자 면담에 가족·보호자 정보를 더한다. 급성 변화와 주의력 저하는 만성 치매보다 섬망을 먼저 생각한다.
 
-## 5. 치료
+## 상태별 감별
 
-- **가역적 원인 교정**: 약물 부작용, 대사 이상, 감염, 비타민 결핍 등 치료 가능한 원인을 우선적으로 식별하여 교정함.
-- **약물 치료**: 인지 기능 개선제(콜린에스테라제 억제제, NMDA 수용체 길항제)를 적응증에 따라 처방하고, 정신행동증상(BPSD) 조절을 위해 필요 시 항정신병 약물을 신중히 사용함.
-- **비약물적 중재**: 인지 재활 훈련, 일상생활 수행 능력 유지를 위한 환경 수정, 환자 및 보호자 대상 질환 교육과 심리적 지지를 병행함.
-- **추적 관찰 및 전원**: 인지 기능 저하 속도와 부작용을 정기적으로 모니터링하며, 급격한 증상 악화나 복합적인 신경학적 이상 소견 시 상급 병원 또는 전문의에게 전원함.
+| 상태 | 시간 경과·기능 | 구분 포인트 |
+| --- | --- | --- |
+| 섬망 | 수시간~수일, 변동하는 경과 | 주의력·각성 변화, 급성 유발 원인 |
+| 경도인지장애 | 지속적 인지 저하, 독립성은 대체로 유지 | 더 많은 노력·보조가 필요할 수 있음 |
+| 주요 신경인지장애·치매 | 인지 저하로 독립적 생활에 지장 | 병인과 행동·신경 증상 평가 |
+| 우울 관련 인지 증상 | 우울·수면·동기 변화 동반 | 우울과 신경퇴행성 질환은 함께 있을 수 있음 |
+| 일과성 전체 기억상실 | 갑작스러운 전향 기억상실, 보통 24시간 내 회복 | 국소 결손·의식 변화·반복 발작이면 다른 원인 평가 |
 
-## 6. 예후 및 합병증
-- 예후**:
-- 원인 질환에 따라 상이함.
+## 원인에 맞춘 검사
 
-### 하위 질환
-- [[경도 인지 장애 (Mild Cognitive Impairment)]]
-- [[레비 소체 치매 (Dementia with Lewy Bodies)]]
-- [[섬망 (Delirium)]]
-- [[알츠하이머 치매 (Alzheimer's Disease)]]
-- [[일과성 전체 기억 상실 (Transient Global Amnesia)]]
-- [[전두측두엽 치매 (Frontotemporal Dementia)]]
-- [[혈관성 치매 (Vascular Dementia)]]
+인지 선별검사와 기능 평가, 신경학적 진찰, 기본 혈액검사·갑상샘 기능·B12 및 구조적 뇌 영상을 조합한다. 감염·자가면역·독성 검사는 위험 인자·비전형적 경과에 맞춰 추가하며 모든 환자에게 같은 확장 검사를 시행하지 않는다. 급성 국소 결손이나 빠른 악화는 긴급 신경학적 평가가 필요하다.
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+NICE 2023 섬망 권고는 일반 병동에서 4AT, 중환자실에서는 CAM-ICU 또는 ICDSC 등의 평가를 제시한다. 원인 교정, 수분·산소화·통증·수면·감각 보조와 환경 안정이 우선이다.
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[경도 인지 장애 (Mild Cognitive Impairment)]] | 정상적인 노화 과정에서 기대되는 수준을 넘어서는 인지 기능 저하가 있으나, 치매 진단 기준(일상생활 수행 능력의 현저한 저하)을 충족하지 않는 상태 |
-| [[치매 (Dementia)]] | 인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태 |
-| [[섬망 (Delirium)]] | 주의력 및 인지 기능의 급성 장애로, 단기간에 발생하며 증상의 심각도가 변동하는 임상 증후군 |
-| [[일과성 전체 기억 상실 (Transient Global Amnesia)]] | 갑작스러운 전향 기억 상실(anterograde amnesia)과 가변적인 후향 기억 상실(retrograde amnesia)이 나타나는 일시적인 신경학적 증후군 |
+## 최근 진단 도구의 적용 범위
+
+2025 알츠하이머협회 혈액 바이오마커 가이드라인은 객관적 인지 저하가 있는 전문진료 환자를 대상으로 한다. 정확도가 검증된 검사와 임상 평가를 함께 사용하며 일반인의 무증상 선별이나 임의의 모든 상용 검사 사용을 지지하는 권고가 아니다. 인지 저하 자체와 알츠하이머 병리 확인을 구분한다.
 
 ## 포함 질환
 - [[경도 인지 장애 (Mild Cognitive Impairment)]]
 - [[치매 (Dementia)]]
 - [[섬망 (Delirium)]]
 - [[일과성 전체 기억 상실 (Transient Global Amnesia)]]
+
+
+## 참고 자료
+
+- [NICE CG103: Delirium (2023 갱신)](https://www.nice.org.uk/guidance/cg103/chapter/Recommendations)
+- [Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/)
+- [Alzheimer's Association: Blood-Based Biomarkers in Specialized Care (2025)](https://aaic.alz.org/releases-2025/clinical-practice-guideline-blood-based-biomarkers.asp)

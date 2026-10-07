@@ -17,8 +17,13 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "source_reviewed_no_change"
 guideline_year: "2021"
-sources: ["CHEST Guideline and Expert Panel Report: Antithrombotic Therapy for VTE Disease | https://journal.chestnet.org/article/S0012-3692%252824%252900292-7/fulltext", "ASH VTE Guidelines: Treatment of Deep Vein Thrombosis and Pulmonary Embolism | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/treatment"]
-
+sources:
+- "ASH — Diagnosis of Venous Thromboembolism (2018) | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/diagnosis"
+- "ASH — Treatment of DVT and PE (2020) | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/treatment"
+- "CHEST — Antithrombotic Therapy for VTE Disease, Compendium and Review of 2012–2021 Guidelines (2024) | https://journal.chestnet.org/article/S0012-3692%2824%2900292-7/fulltext"
+content_updated_at: '2026-10-07'
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 분과 : [[순환기]]
 
@@ -41,12 +46,13 @@ sources: ["CHEST Guideline and Expert Panel Report: Antithrombotic Therapy for V
   호만 징후(Homan’s sign)는 진단적 가치가 낮다.
 
 ## 3. 검사 (Lab & Imaging)
-- **D-dimer**: 민감도가 높아 선별 검사로 유용하다.
+- **D-dimer**: 낮은 임상 사전확률에서는 고감도 검사 음성으로 DVT를 배제할 수 있다. 양성만으로 확진하지 않으며, 입원·수술·임신 등에서는 비특이적 상승이 흔하다.
 - **이중 초음파(Duplex US)**: 비침습적이며 진단에 가장 널리 사용되는 영상 검사이다.
 - **Wells score**: 임상적 확률을 평가하여 검사 전략을 결정하는 데 사용한다.
 
 ## 4. 진단 (Diagnosis)
-- Wells score를 통해 고위험군을 선별하고, D-dimer 검사 및 이중 초음파를 시행하여 확진한다.
+- Wells score 등으로 사전확률을 정한 뒤 검사를 선택한다. 가능성이 높으면 D-dimer 결과를 기다리기보다 압박 초음파를 우선한다.
+- 중간·높은 사전확률에서 근위부 초음파가 음성이지만 다른 진단이 없으면 약 1주 뒤 반복 초음파를 고려한다. 적절한 전하지 초음파 음성 경로와 근위부 검사만 시행한 경로를 구별한다.
 
 ## 5. 치료 (Treatment)
 - **항응고가 기본**: 출혈 금기가 없는 성인 하지 DVT는 DOAC(apixaban, rivaroxaban 등)을 우선 고려한다. 임신, 중증 신기능저하, 항인지질증후군, 약물상호작용 등에서는 LMWH·UFH 또는 VKA가 더 적절할 수 있다.
@@ -57,7 +63,17 @@ sources: ["CHEST Guideline and Expert Panel Report: Antithrombotic Therapy for V
 ## 6. 예후 및 합병증 (Prognosis)
 - 가장 치명적인 합병증은 폐색전증(PE), 장기적으로는 혈전 후 증후군(post-thrombotic syndrome)에 의한 만성 정맥 부전이 발생할 수 있다.
 
-출처 : StatPearls (Deep Venous Thrombosis)
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-18 — 본문 갱신 (codex fill)
+## 출혈 위험과 특수 상황
+
+- 혈전 제거술·혈전용해술은 대부분의 DVT에 일률적으로 시행하지 않는다. 사지 위협 또는 선택된 심한 장골대퇴정맥 혈전에서 출혈 위험과 함께 검토한다.
+- 원위부 저위험 DVT를 항응고 없이 관찰할 때는 약 2주 동안 연속 초음파로 연장을 확인하고, 근위부로 진행하면 항응고로 전환한다.
+- 임신에서는 LMWH를 중심으로 치료하고 DOAC를 일반적으로 사용하지 않는다. 고위험 항인지질증후군에서는 DOAC보다 VKA가 적절할 수 있다.
+- 새 호흡곤란·흉통·실신·저산소증은 PE 동반을 평가할 단서다. 항응고 기간은 혈전 잔여 영상이나 D-dimer 한 번만으로 정하지 않고 유발요인·재발·출혈 위험을 함께 판단한다.
+
+
+
+## 참고 가이드라인
+
+- [ASH — Diagnosis of Venous Thromboembolism (2018)](https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/diagnosis)
+- [ASH — Treatment of DVT and PE (2020)](https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/treatment)
+- [CHEST — Antithrombotic Therapy for VTE Disease, Compendium and Review of 2012–2021 Guidelines (2024)](https://journal.chestnet.org/article/S0012-3692%2824%2900292-7/fulltext)

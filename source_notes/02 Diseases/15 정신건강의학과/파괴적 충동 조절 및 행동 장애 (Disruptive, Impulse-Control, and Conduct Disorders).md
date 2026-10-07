@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: '2026-10-08'
 aliases:
 - 파괴적 충동 조절 및 행동 장애
 유형:
@@ -15,40 +15,49 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+guideline_reviewed_at: '2026-10-08'
+sources:
+  - "NICE CG158: Antisocial Behaviour and Conduct Disorders (2013/2017; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg158/chapter/recommendations"
+  - "American Psychiatric Association: Disruptive, Impulse-Control and Conduct Disorders (2026-10 확인) | https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct"
 ---
-document_role: hub
-## 1. 개요
-- 정의**: 충동, 유혹, 욕구를 억제하지 못해 자신이나 타인에게 해를 끼치는 행동을 반복하는 장애군. DSM-5에서는 '파괴적, 충동 조절 및 품행 장애'로 분류함.
-- 원인**: 다요인성. 유전적 소인, 신경생물학적 이상(전두엽-변연계 회로 기능 이상, 기저 코르티솔 저하), 사회적 요인(낮은 사회경제적 지위, 방임, 학대, 부적절한 양육 환경) 등이 복합적으로 작용.
-- 기전**: 충동적 본능(id)과 이를 통제하려는 자아(superego) 간의 갈등 조절 실패 및 전두엽의 자기 조절 기능 저하로 인한 탈억제(disinhibition).
 
-## 2. 임상 양상
-- CC**: 타인에 대한 공격성, 규칙 위반, 분노 폭발, 재산 파괴 등 외부로 표출되는 행동 문제.
-- P/E**:
-- 행동 문제 발생 전 긴장감 고조, 행동 후 일시적 해소감(catharsis)을 경험하는 경우가 많음.
+# 파괴적 충동 조절 및 행동 장애
 
-## 3. 검사
-- 평가**: 가족력 및 양육 방식 조사, 교사 및 보호자 면담, 발달사 및 학업 기록 확인.
-- 도구**: Minnesota Impulse Disorders Interview (MIDI) 등이 진단적 가치를 가짐.
+## 발달 수준·기능·행동의 목적을 평가
 
-## 4. 진단
-- 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
+반항이나 분노 표현 하나를 질환으로 판단하지 않는다. 빈도·지속 기간·가정과 학교의 양상·기능 손상, 타인의 권리 침해와 위험을 확인한다. ADHD·자폐·기분장애·물질 사용, 학대·가정 환경을 함께 평가한다.
 
-## 5. 치료
+## 행동의 양상으로 구분
 
-- **다각적 접근**: 약물 치료는 보조적 수단으로 활용하며, 부모 관리 훈련(PMT), 인지행동치료(CBT) 등 심리사회적 개입을 병행하여 행동 교정을 도모함.
-- **환경적 개입**: 가정 내 양육 환경 개선 및 학교와의 협력을 통해 부적절한 행동에 대한 보상을 차단하고 친사회적 행동을 강화함.
-- **안전 관리**: 자해나 타해 위험이 높은 경우 즉각적인 안전 확보 및 입원 치료를 고려하며, 동반된 정신질환(ADHD, 우울증 등)에 대한 적극적인 평가와 치료를 시행함.
-- **장기적 추적 관찰**: 증상의 재발 가능성과 성인기 반사회적 인격 장애로의 이행 위험을 고려하여 지속적인 모니터링 및 사회적 기능 회복을 위한 장기적 계획을 수립함.
+| 질환 | 핵심 특징 | 구분할 상황 |
+| --- | --- | --- |
+| 적대적 반항장애 | 화·과민성, 논쟁·반항, 앙심의 지속 패턴 | 발달상 일시적 반항과 구분 |
+| 품행장애 | 공격·재산 파괴·기만·중대한 규칙 위반 | 단순 불복종을 넘어 타인 권리 침해 |
+| 간헐적 폭발장애 | 상황에 비례하지 않는 충동적 공격 폭발 | 계획적·이득 목적 공격, 조증·물질 영향 |
+| 도벽 | 필요·경제적 이득 때문이 아닌 반복 절도 충동 | 통상적 절도·조증 등 |
+| 방화광 | 불에 대한 관심과 반복 방화 충동 | 이득·복수·범죄 은폐 목적 방화 등 |
 
-## 6. 예후 및 합병증
-- 예후**: 조기 개입이 중요하며, 치료하지 않을 경우 성인기까지 지속되어 사회적 기능 저하, 실업, 물질 남용, 우울증 등으로 이어질 가능성이 높음.
-- 합병증**: 품행 장애의 경우 반사회적 인격 장애로 이행될 위험이 있으며, 법적 문제 및 대인관계 갈등이 빈번함.
+범죄 행동을 곧바로 정신질환으로 설명하지 않는다. 특정 사건보다 반복 양상과 다른 원인 배제가 중요하다.
 
-### 하위 질환
+## 심리사회적 개입이 중심
+
+부모 관리 훈련, 아이의 사회·문제 해결 기술 훈련, 가족·학교 개입을 연령과 필요에 맞춰 결합한다. 일관된 규칙과 긍정적 강화, 폭력·학대에서의 보호가 중요하며 단순 처벌 강화만으로 해결하려 하지 않는다. 동반 ADHD 등은 해당 근거 기반 치료를 시행한다.
+
+## 약물 사용의 범위
+
+NICE CG158은 품행 문제에 대한 일상적인 약물 처방을 권고하지 않는다. 심리사회적 개입에도 심한 공격성과 정서조절 문제가 지속되는 일부 환자에서 전문의가 risperidone의 단기 사용을 고려한다. 대사·추체외로·프로락틴 부작용과 효과를 점검하고 지속 필요성을 재평가한다. 이를 도벽·방화광·모든 반항 행동의 공통 처방으로 확대하지 않는다.
+
+## 포함 질환
 - [[간헐적 폭발 장애 (Intermittent Explosive Disorder)]]
 - [[도벽 (Kleptomania)]]
 - [[방화광 (Pyromania)]]
 - [[적대적 반항 장애 (Oppositional Defiant Disorder)]]
 - [[품행 장애 (Conduct Disorder)]]
+
+
+
+## 참고 자료
+
+- [NICE CG158: Antisocial Behaviour and Conduct Disorders (2013/2017; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg158/chapter/recommendations)
+- [American Psychiatric Association: Disruptive, Impulse-Control and Conduct Disorders (2026-10 확인)](https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct)
 

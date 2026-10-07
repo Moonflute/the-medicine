@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: '2026-10-07'
 aliases:
 - anemia
 document_role: group_overview
@@ -26,7 +26,12 @@ clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 sources:
-- 'Merck Manual: Overview of Anemia | https://www.merckmanuals.com/home/blood-disorders/anemia/overview-of-anemia'
+- "ASH 철 결핍 진단 지침, 2026 | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/iron-deficiency-anemia/diagnosis-of-iron-deficiency"
+- "AABB 적혈구 수혈 지침, 2023: 공식 요약 | https://www.aabb.org/docs/default-source/default-document-library/resources/updates-in-red-blood-cell-transfusion-thresholds.pdf"
+- "AABB 급성 심근경색 적혈구 수혈 지침, 2025 | https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami"
+- "NICE NG239 B12 결핍, 2024 | https://www.nice.org.uk/guidance/ng239/chapter/Recommendations"
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 ## 1. 개요
 - 빈혈은 혈색소 또는 적혈구량 감소로 조직 산소 공급이 부족해지는 상태이다. 원인은 크게 혈액 소실, 적혈구 생성 저하, 적혈구 파괴 증가로 접근한다.
@@ -54,31 +59,22 @@ sources:
 ## 6. 예후 및 합병증
 - 원인과 속도에 따라 경과가 다르다. 급성 출혈, 중증 용혈, 골수부전 또는 흉통·실신·저혈압 동반 시 응급 평가가 필요하다.
 
-### 하위 질환
-- [[철 결핍 빈혈 (Iron Deficiency Anemia)]]
+## 감별에서 치료까지
 
-출처: 삼성서울병원 메뉴얼
-- [[거대적혈모구 빈혈 (Megaloblastic Anemia)]]
-- [[악성 빈혈 (Pernicious Anemia)]]
-- [[만성 질환 빈혈 (Anemia of Chronic Disease)]]
-- [[재생불량성 빈혈 (AA) (Aplastic Anemia (AA))]]
-- [[용혈성 빈혈 (Hemolytic Anemia)]]
+| 양상 | 핵심 구분 | 주의 |
+| --- | --- | --- |
+| 소구성 | 철 결핍·염증성·지중해빈혈 | Ferritin은 염증 시 상승. 철 결핍 확인 없이 모두 철 치료하지 않음 |
+| 거대적혈구성 | B12/엽산·약물·골수질환 | 신경 증상 B12 결핍은 검사 대기로 치료 지연 금지 |
+| 망상적혈구 증가·용혈 | LDH·간접 bilirubin·haptoglobin, DAT·도말 | 출혈과 골수 회복도 망상적혈구 증가 원인 |
+| 범혈구감소 | 골수부전·MDS·침윤·결핍 | 골수 평가와 전문 의뢰 |
+| 유전성 혈색소병 | 가족력·도말·Hb 분석 | 겸상적혈구병과 지중해빈혈의 치료·수혈 적응증은 별도 |
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+## 최근 지침의 적용
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[거대적혈모구 빈혈 (Megaloblastic Anemia)]] | 비타민 B12(코발라민) 또는 엽산 결핍으로 DNA 합성이 저해되어 골수 내 조혈세포가 거대해지고 성숙 장애를 겪는 빈혈 |
-| [[겸상적혈구병 (Sickle Cell Disease)]] | 말초혈액검사와 헤모글로빈 분석으로 확인하며, 예방접종·감염 예방·통증 및 장기 합병증 관리가 장기 치료의 핵심이다 |
-| [[만성 질환 빈혈 (Anemia of Chronic Disease)]] | 감염, 자가면역질환, 암, 만성 신질환 등 만성 염증성 질환에 의해 발생하는 다요인성 빈혈 |
-| [[악성 빈혈 (Pernicious Anemia)]] | 위의 벽세포 (parietal cell) 파괴로 인해 내인자 (intrinsic factor) 생성이 부족하여 비타민 B12 흡수 장애가 발생하는 자가면역성 거대적혈모구 빈혈 |
-| [[용혈성 빈혈 (Hemolytic Anemia)]] | 적혈구의 수명이 120일 미만으로 단축되어 골수의 적혈구 생성 능력을 초과할 때 발생하는 빈혈. 골수가 보상 능력을 유지하면 보상성 용혈 빈혈, 초과하면 비보상성 용혈 빈혈이라 함 |
-| [[재생불량성 빈혈 (AA) (Aplastic Anemia (AA))]] | 골수 기능 부전(BM failure syndrome)으로 인해 모든 혈구 세포 생산에 장애가 생겨 범혈구감소증(pancytopenia)을 초래하는 질환 |
-| [[지중해 빈혈 (Thalassemia)]] | 글로빈 사슬(알파 또는 베타) 합성의 유전적 결함으로 인해 발생하는 유전성 소적혈구 용혈성 빈혈 |
-| [[철 결핍 빈혈 (Iron Deficiency Anemia)]] | 일반적 증상: 피로, 쇠약감, 운동 시 호흡곤란, 어지러움, 창백 |
+- ASH 2026 철 결핍 진단은 빈혈 유무와 관계없이 철 결핍을 평가하고 대상군별 ferritin 역치를 사용한다. 염증이 있으면 ferritin만으로 배제하지 않는다. 치료 후 Hb 상승만 확인하지 않고 출혈 원인과 저장철 회복을 추적한다.
+- 안정된 입원 성인의 적혈구 수혈은 AABB 2023의 제한적 전략(대개 Hb <7 g/dL)을 기준으로 고려하되 수술·심혈관질환·활동성 출혈·증상을 반영한다. 급성 대량출혈에는 수치가 떨어질 때까지 기다리지 않는다.
+- **급성 심근경색은 별도:** AABB 2025는 입원 AMI에서 Hb <10 g/dL의 관대한 전략을 조건부 제안했다. 근거의 불확실성과 울혈·출혈·허혈 상태를 고려하며 안정 빈혈의 7 기준을 무조건 대입하지 않는다.
+- 자가면역성 위염에 의한 B12 결핍은 지속 보충이 필요하다. 엽산만 주어 혈액 소견을 개선하면서 신경 손상을 놓치지 않는다.
 
 ## 포함 질환
 - [[거대적혈모구 빈혈 (Megaloblastic Anemia)]]
@@ -89,3 +85,10 @@ sources:
 - [[재생불량성 빈혈 (AA) (Aplastic Anemia (AA))]]
 - [[지중해 빈혈 (Thalassemia)]]
 - [[철 결핍 빈혈 (Iron Deficiency Anemia)]]
+
+## 참고 가이드라인
+
+- [ASH 철 결핍 진단 지침, 2026](https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/iron-deficiency-anemia/diagnosis-of-iron-deficiency)
+- [AABB 적혈구 수혈 지침, 2023: 공식 요약](https://www.aabb.org/docs/default-source/default-document-library/resources/updates-in-red-blood-cell-transfusion-thresholds.pdf)
+- [AABB 급성 심근경색 적혈구 수혈 지침, 2025](https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami)
+- [NICE NG239 B12 결핍, 2024](https://www.nice.org.uk/guidance/ng239/chapter/Recommendations)

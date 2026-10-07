@@ -14,121 +14,60 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
-guideline_year: "2026"
-sources: ["Appropriate use recommendations of the Spanish Society of Neurology's Behavioural Neurology and Dementia Study Group on anti-amyloid antibodies in the treatment of Alzheimer disease. | https://pubmed.ncbi.nlm.nih.gov/42202980/"]
+guideline_year: "2025"
+sources:
+  - "NICE NG97: Dementia, Assessment and Management (2018; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/ng97/chapter/Recommendations"
+  - "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/"
+  - "FDA: Additional Earlier MRI Monitoring for Leqembi (2025 안전성 공지) | https://www.fda.gov/drugs/drug-safety-communications/fda-recommend-additional-earlier-mri-monitoring-patients-alzheimers-disease-taking-leqembi-lecanemab"
 
-content_updated_at: "2026-07-16"
+content_updated_at: '2026-10-08'
 document_role: "group_overview"
 group_members:
 - 혈관성 치매 (Vascular Dementia)
 - 레비 소체 치매 (Dementia with Lewy Bodies)
 - 알츠하이머 치매 (Alzheimer's Disease)
 - 전두측두엽 치매 (Frontotemporal Dementia)
+guideline_reviewed_at: '2026-10-08'
 ---
-분과 : [[정신건강의학과]]
 
-## 1. 개요
-- **정의**: 인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태.
-- **원인**: 퇴행성 질환(알츠하이머병 등), 혈관성 질환, 감염(HIV 등), 외상, 약물, 대사성 질환 등 다양함.
-- **기전**: 신경세포의 손상, 시냅스 기능 저하, 신경전달물질 불균형, 뇌 위축 및 염증 반응 등이 복합적으로 작용.
+# 치매
 
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 기억력 저하, 성격 변화, 언어 장애, 일상생활 수행 능력 저하.
-* **P/E**: 인지 기능 검사(MMSE, MoCA), 신경학적 검사(보행 장애, 진전, 반사 항진 등), 정신상태 검사(환시, 우울, 불안).
+## 독립적 생활을 방해하는 인지 저하
 
-## 3. 검사 (Lab & Imaging)
-* **혈액 검사**: CBC, LFT, RFT, 전해질, 비타민 B12, 엽산, 갑상선 기능 검사, 매독 혈청 검사, HIV 검사.
-* **영상 검사**: 뇌 MRI/CT (위축, 경색, 종양, 수두증 확인), 필요 시 PET (아밀로이드 침착, 대사 저하).
-* **신경심리 검사**: 인지 영역별 정밀 평가.
-* **참고**: 항아밀로이드 단일클론항체 치료 고려 시 아밀로이드 침착 확인을 위한 추가 검사가 필요할 수 있음.
+기억력 저하만으로 치매를 진단하지 않는다. 이전과 비교한 인지 기능, 복약·금전·식사·이동 등 일상 수행, 보호자 관찰을 확인한다. 갑작스러운 변화는 섬망·뇌졸중·약물 문제부터 평가한다.
 
-## 4. 진단 (Diagnosis)
-* **DSM-5 기준**: 인지 기능의 저하가 이전 수준보다 유의미하며, 일상생활의 독립적 수행에 지장을 주는 정도(주요 신경인지장애) 또는 지장을 주지 않는 정도(경도 신경인지장애)로 구분.
-* **감별 진단**: 섬망(급성), 우울증(가성 치매), 일과성 전체 기억 상실.
+## 주요 병인의 감별
 
-## 5. 치료 (Treatment)
-* **원인 질환 치료**: 가역적 원인(약물, 대사 이상, 감염 등) 교정.
-* **약물 치료**: 
-  * 인지 기능 개선제: Donepezil, Rivastigmine, Galantamine, Memantine.
-  * 항아밀로이드 단일클론항체: 알츠하이머병 치료제로 승인되었으며, 환자 선정 기준, 모니터링, 치료 중단 기준에 대한 전문가 합의 권고안을 준수해야 함.
-  * 원인 질환에 따른 항정신병 약물 등.
-* **비약물적 치료**: 인지 재활, 환경 수정, 보호자 교육.
-* **관리**: 치료 결정 시 환자-의사 간 공유 의사결정(Shared decision-making)이 필수적이며, 처방 센터의 요건을 확인해야 함.
+| 병인 | 두드러지는 단서 | 치료상 주의점 |
+| --- | --- | --- |
+| 알츠하이머병 | 흔히 점진적 최근 기억 저하, 이후 다른 영역 침범 | 인지 증상 치료와 적합한 초기 환자의 질환 수정 치료 구분 |
+| 혈관성 인지장애 | 뇌혈관 병변과 경과의 연관, 실행·처리 속도 저하 | 모든 환자가 계단식 경과를 보이는 것은 아님; 혈관 위험 관리 |
+| 레비 소체 치매 | 인지 변동, 반복 환시, 파킨슨증·REM 수면행동장애 | 항정신병약 과민반응 가능 |
+| 전두측두엽 치매 | 초기 행동·성격 또는 언어 변화 | 알츠하이머 인지 약제를 일괄 적용하지 않음 |
 
-## 6. 예후 및 합병증 (Prognosis)
-- **예후**:
-  원인 질환에 따라 상이함.
-  퇴행성 질환은 점진적 악화 경향.
-- **합병증**: 낙상, 흡인성 폐렴, 욕창, 영양 결핍, 행동 심리 증상(BPSD).
+혼합 병리는 흔하다. 영상의 위축이나 한 증상만으로 병인을 확정하지 않는다.
 
+## 검사와 기본 관리
 
-### 경도 인지 장애 (Mild Cognitive Impairment)
-- **정의**: 치매 진단만큼의 기억력 저하는 아닌 상태
+인지·기능 평가와 신경 진찰, 가역적 악화 요인 검사, 구조적 영상으로 병인을 좁힌다. 감염 검사는 위험에 맞춰 선택한다. 우울·청각·시각·수면·항콜린성 약물, 영양·낙상·운전·돌봄 부담을 함께 점검한다.
 
-### 일과성 전체 기억 상실 (Transient Global Amnesia)
-- **정의**: 갑자기 전향, 후향 기억 상실이 발생했다가 24시간 이내 회복
+알츠하이머병에서는 단계에 맞춰 cholinesterase 억제제와 memantine을 고려한다. 레비 소체 치매에서도 일부 cholinesterase 억제제가 도움이 될 수 있다. 행동 변화는 통증·섬망·환경 문제부터 교정한다. 항정신병약은 심한 고통·위해 위험 등 제한된 상황에서 최소 용량·최단 기간을 검토하며, quetiapine을 모든 레비 소체 치매의 기본 치료로 부르지 않는다.
 
-### 치매 (Dementia)
-* **선별 검사**: MMSE-K
+## 항아밀로이드 치료와 최근 안전성
 
-### 알츠하이머 치매 (Alzheimer's Disease)
-* **Impression**: 만성적으로 진행
-* **검사**: MRI-CT 광범위 뇌 위축, amyloid 침착
-* **치료**: Donepezil, Rivastigmine, Galantamine, Memantine
+Lecanemab·donanemab 등은 아밀로이드 병리가 확인된 적합한 초기 알츠하이머병 환자를 대상으로 하며 모든 치매의 치료가 아니다. 기대 효과·주입 부담, APOE ε4 관련 위험, MRI 소견·항응고제, ARIA를 설명하고 전문팀이 선정·추적한다.
 
-### 레비 소체 치매 (Dementia with Lewy Bodies)
-* **Impression**: 환시 + 운동 장애
-* **증상**: 환시, PD 증상, REM 행동 장애 나타나는 기억력 저하
-* **치료**: Quetiapine (TOC), Clozapine / 정형 항정신 약물은 금기
-
-### 혈관성 치매 (Vascular Dementia)
-* **Impression**: 급성으로 발생, stroke Hx, 국소 신경학적 징후
-* **검사**: MRI-CT – 광범위 경색
-* **치료**: Donepezil, Rivastigmine, Galantamine, Memantine / 비 약물적 치료
-
-### 전두측두엽 치매 (Frontotemporal Dementia)
-* **Impression**: 성격 변화, 행동 변화, 언어 장애
-* **검사**: MRI-CT – 전두 측두엽 위축, Pick body
-
-출처 : DSM-5, StatPearls (HIV Neurocognitive Disorders)
-Last updated :
-### 경도 인지 장애 (Mild Cognitive Impairment)
-- **정의**: 치매 진단만큼의 기억력 저하는 아닌 상태
-### 일과성 전체 기억 상실 (Transient Global Amnesia)
-- **정의**: 갑자기 전향, 후향 기억 상실이 발생했다가 24시간 이내 회복
-### 치매 (Dementia)
-* **선별 검사**: MMSE-K
-### 알츠하이머 치매 (Alzheimer's Disease)
-* **Impression**: 만성적으로 진행
-* **검사**: MCT-CT 광범위 뇌 위축, amyloid 침착
-* **치료**: Donepezil, Rivastigmine, Galantamine, Memantine
-### 레비 소체 치매 (Dementia with Lewy Bodies)
-* **Impression**: 환시 + 운동 장애
-* **증상**: 환시, PD 증상, REM 행동 장애 나타나는 기억력 저하
-* **치료**: Quetiapine (TOC), Clozapine / 정형 항정신 약물은 금기
-### 혈관성 치매 (Vascular Dementia)
-* **Impression**: 급성으로 발생, stroke Hx, 국소 신경학적 징후
-* **검사**: MRI-CT – 광범위 경색
-* **치료**: Donepezil, Rivastigmine, Galantamine, Memantine / 비 약물적 치료
-### 전두측두엽 치매 (Frontotemporal Dementia)
-* **Impression**: 성격 변화, 행동 변화, 언어 장애
-* **검사**: MRI-CT – 전두 측두엽 위축, Pick body
-2026-05-18 — 본문 갱신 (codex fill)
-
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
-
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[혈관성 치매 (Vascular Dementia)]] | CC: 뇌혈관질환 관련 인지저하 |
-| [[레비 소체 치매 (Dementia with Lewy Bodies)]] | 레비 소체 치매(DLB)는 인지 기능 저하, 환시, 파킨슨증이 특징인 퇴행성 뇌 질환으로, 파킨슨병 치매(PDD)와 함께 레비 소체 치매(LBD) 범주에 포함됨 |
-| [[알츠하이머 치매 (Alzheimer's Disease)]] | 가장 흔한 치매의 원인으로, 점진적으로 진행되는 신경퇴행성 질환 |
-| [[전두측두엽 치매 (Frontotemporal Dementia)]] | 전두엽 및 전측두엽의 신경 퇴행으로 인해 성격 변화, 행동 장애, 언어 기능 저하가 나타나는 신경 퇴행성 질환 |
+FDA 2025 안전성 공지는 lecanemab의 제3회 주입 전 MRI 감시 추가를 권고했다. 증상성 ARIA는 뇌졸중처럼 보일 수 있으므로 치료 중 두통·혼돈·국소 증상 발생 시 즉시 평가한다. 제제·투여 방식별 현행 허가사항과 MRI 일정을 확인한다.
 
 ## 포함 질환
 - [[혈관성 치매 (Vascular Dementia)]]
 - [[레비 소체 치매 (Dementia with Lewy Bodies)]]
 - [[알츠하이머 치매 (Alzheimer's Disease)]]
 - [[전두측두엽 치매 (Frontotemporal Dementia)]]
+
+
+## 참고 자료
+
+- [NICE NG97: Dementia, Assessment and Management (2018; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/ng97/chapter/Recommendations)
+- [Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/)
+- [FDA: Additional Earlier MRI Monitoring for Leqembi (2025 안전성 공지)](https://www.fda.gov/drugs/drug-safety-communications/fda-recommend-additional-earlier-mri-monitoring-patients-alzheimers-disease-taking-leqembi-lecanemab)

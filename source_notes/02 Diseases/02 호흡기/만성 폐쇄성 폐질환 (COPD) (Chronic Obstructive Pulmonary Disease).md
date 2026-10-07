@@ -14,12 +14,16 @@ CC:
 - 체중감소/식욕부진
 - 피로
 clinical_priority: tier_1
-content_updated_at: '2026-07-15'
+content_updated_at: '2026-10-07'
 guideline_year: '2026'
 sources:
-- 'GOLD 2026 Report and Pocket Guide | https://goldcopd.org/2026-gold-report-and-pocket-guide/'
+- "GOLD 2026 Report·Pocket Guide | https://goldcopd.org/2026-gold-report-and-pocket-guide/"
+- "GOLD 2026 주요 개정 사항 | https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf"
+- "GOLD 2026 이탈리아어 공식 Pocket Guide | https://goldcopd.it/wp-content/uploads/2026/01/GOLD_Pocket_Guide_2026.pdf"
 disease_family: copd
 population: adult
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 
 ## 1. 개요
@@ -52,7 +56,23 @@ population: adult
 - 악화는 폐기능 저하, 입원과 사망 위험을 높인다. 폐렴, 폐색전증, 심혈관질환, 불안·우울, 근감소증·골다공증을 함께 관리한다.
 - 예후는 FEV1만으로 정하지 않으며 체질량지수, 기류제한, 호흡곤란 및 운동능력을 통합한 BODE 같은 다차원 평가가 도움이 된다.
 
-출처: Global Initiative for Chronic Obstructive Lung Disease, *GOLD 2026 Report*.
+## GOLD 2026 위험 분류의 변화
+
+2026 ABE 분류는 지난 1년의 중등도 또는 중증 악화가 1회 이상이면 E군으로 평가한다. 이전의 ‘중등도 2회 이상’ 기준으로만 분류하면 위험을 낮게 잡을 수 있다. E군의 초기 기본은 LABA+LAMA이며, eosinophil ≥300/µL 등에서 3제 치료를 고려한다. 천식 동반이면 ICS 포함 치료가 필요하다.
+
+| 치료 후 남은 문제 | 다음 판단 |
+| --- | --- |
+| 호흡곤란 지속 | 흡입기·순응도·재활·심장/빈혈 원인을 확인, 기관지확장제 최적화 |
+| LABA+LAMA에도 악화 | eosinophil과 폐렴 위험을 보고 ICS 추가 판단 |
+| 3제 치료에도 악화 | 만성 기관지염·폐기능·eosinophil에 따라 추가 약제·생물학적 치료를 전문 평가 |
+| ICS 중단 검토 | 반복 폐렴·부작용과 eosinophil을 함께 판단; 높은 eosinophil에서는 악화 위험 |
+
+급성 악화에서 전신 steroid는 보통 짧은 과정으로 사용하며 장기 반복 처방을 기본 치료로 삼지 않는다. 고탄산성 호흡부전의 환기는 산소만 올려 해결하려 하지 않고 혈액가스와 NIV 적응증을 평가한다.
 
 
-보완 출처: 삼성서울병원 메뉴얼. [GOLD 2026 Report and Pocket Guide](https://goldcopd.org/2026-gold-report-and-pocket-guide/)를 대조하여 COPD 진단, 흡입치료, 급성악화의 산소·환기·퇴원 원칙을 갱신. 2026-09-14 기존 목차 내 보완.
+
+## 참고 가이드라인
+
+- [GOLD 2026 Report·Pocket Guide](https://goldcopd.org/2026-gold-report-and-pocket-guide/)
+- [GOLD 2026 주요 개정 사항](https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf)
+- [GOLD 2026 이탈리아어 공식 Pocket Guide](https://goldcopd.it/wp-content/uploads/2026/01/GOLD_Pocket_Guide_2026.pdf)

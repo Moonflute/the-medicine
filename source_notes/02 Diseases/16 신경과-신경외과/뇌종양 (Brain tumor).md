@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: '2026-10-07'
 aliases:
 - 뇌종양
 유형:
@@ -31,67 +31,53 @@ group_members:
 - 신경초종 (Schwannoma)
 - 전이성 뇌종양 (Metastatic brain tumor)
 - 혈관모세포종 (Hemangioblastoma)
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
+sources:
+- "EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7904519/"
+- "EANO. Diagnosis and Management of Meningiomas — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/"
+- "SNO/EANO. Anticonvulsant Prophylaxis in Newly Diagnosed Brain Tumors — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563323/"
+- "EANO/ESMO. Neurological and Vascular Complications of Brain Tumours — 2021 | https://doi.org/10.1016/j.annonc.2020.11.003"
+- "ASCO-SNO. Diffuse Astrocytic and Oligodendroglial Tumors: Rapid Recommendation Update — 2025 | https://ascopubs.org/doi/10.1200/JCO-25-00250"
+- "ASCO-SNO-ASTRO. Treatment for Brain Metastases — 2021 온라인/2022 저널 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/"
 ---
 분과 : [[신경과-신경외과]]
 
 ## 1. 개요
-- **정의**: 뇌 내에 발생하는 원발성 또는 전이성 종양으로, 세포의 비정상적인 증식에 의해 발생함.
-- **원인**: 이온화 방사선 노출, 유전적 소인(Li-Fraumeni 증후군, 신경섬유종증, 결절성 경화증 등), 선천적 기형 등이 관련됨.
-- **기전**: 세포 성장 경로(MAPK, mTOR 등)의 유전자 돌연변이 및 조절 장애로 인한 비정상적 세포 증식.
+- 뇌종양은 뇌 실질의 원발성 종양, 수막·뇌신경·안장 부위 종양, 다른 암의 뇌전이를 포함한다. 위치에 따른 증상과 조직·분자 분류에 따른 예후·치료를 구분한다.
+- 일부 종양은 유전증후군이나 방사선 노출과 연관되지만, 모든 뇌종양을 선천적 기형이나 동일한 신호전달 경로의 이상으로 설명하지 않는다.
 
+## 2. 임상 양상
+- 새 국소 발작, 진행하는 편측 약화·실어증·뇌신경 장애, 인지·행동 변화가 나타날 수 있다. 두개내압 상승은 두통·구토·유두부종·의식 저하로 나타나며, 시력·내분비 이상은 안장 부위 병변의 단서이다.
+- 급격한 의식 저하, 뇌탈출 징후, 폐쇄성 수두증은 응급 신경외과 평가가 필요하다. 두통만으로 종양을 확진하거나 배제하지 않는다.
 
+## 3. 검사와 진단
+- 조영 전후 MRI를 중심으로 종양의 위치·범위·주변 부종·출혈·확산·수두증을 평가한다. 모든 종양이 동일한 T1/T2 신호나 조영 증강을 보이는 것은 아니다.
+- CT는 급성 출혈·석회화·응급 평가에 유용하다. 기능 MRI·확산텐서영상 등은 수술 계획에 선택적으로 사용한다.
+- 조직이 필요한 경우 최대한 안전한 절제 또는 생검으로 진단한다. 영상만으로 추적 가능한 전형적 무증상 수막종 등도 있어 모든 병변을 즉시 수술하는 것은 아니다.
+- 미만성 신경교종은 조직학과 IDH, 1p/19q 등 분자 소견을 통합한다. MGMT promoter methylation은 교모세포종의 temozolomide 치료 판단에 도움이 된다.
 
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 국소 증상 (근력 저하, 국소 발작, 신경학적 이상), 전신 증상 (두개내압 상승으로 인한 두통, 오심, 구토, 유두부종, 의식 변화).
-* **P/E**:
-  신경학적 결손(운동/감각 저하, 뇌신경 마비), 보행 장애, 인지 기능 저하 등.
-  소아의 경우 대두증(macrocephaly)이나 발달 지연이 나타날 수 있음.
+## 4. 하위 질환의 감별
 
-
-
-## 3. 검사 (Lab & Imaging)
-- **MRI (표준 검사)**:
-  T1 저음영, T2 고음영, 조영 증강 T1 고음영(BBB 파괴 확인).
-  확산강조영상(DWI)은 세포 밀도 평가에 유용.
-- **기타**: CT(석회화 및 수두증 확인), MR 분광법(MRS), 기능적 MRI(fMRI) 등.
-
-
-
-## 4. 진단 (Diagnosis)
-- 병력 청취 및 신경학적 검진.
-- 영상 의학적 진단(MRI)이 핵심이며, 확진을 위해 조직 생검 또는 수술적 절제 후 병리 조직 검사 시행.
-
-
+| 질환 | 위치·영상·임상 단서 | 중요한 판단 |
+| --- | --- | --- |
+| [[교모세포종 (Glioblastoma)]] | 침윤성 실질 병변, 괴사·주변 부종 | 분자 분류와 수행능력에 맞춘 복합 치료 |
+| [[뇌수막종 (Meningioma)]] | 경막 기반 종괴 | 무증상·성장 없음은 관찰 가능; 증상·성장은 치료 평가 |
+| [[전이성 뇌종양 (Metastatic brain tumor)]] | 회백질-백질 경계 병변, 다발성 가능 | 원발암·전신 상태와 국소 치료를 함께 고려 |
+| [[두개인두종 (Craniopharyngioma)]] | 안장 위 병변, 시야·내분비 이상 | 시상하부·뇌하수체 기능 보존을 고려한 치료 |
+| [[신경초종 (Schwannoma)]] | 뇌신경 경로, 전정신경초종의 청력 저하 | 크기·성장·청력 및 뇌신경 기능으로 관찰/치료 결정 |
+| [[혈관모세포종 (Hemangioblastoma)]] | 고혈관성 결절·낭성 병변 가능 | 다발성·가족력이면 VHL 관련 평가 |
 
 ## 5. 치료
-- 수술 적응 여부를 평가하고, 가능한 경우 최대 절제 목표로 신경외과 전문의에게 즉시 의뢰
-- 뇌부종 관리: 스테로이드 단기 사용 및 필요 시 외과적 배액(션트 등) 시행, 부작용 지속 시 신경외과 재평가
-- 항경련제 시작 및 용량 조절은 신경과에서 관리하고, 부작용 및 복용 순응도 정기적으로 확인
-- 방사선·항암 요법은 종양 조직학·위치에 따라 종양센터 다학제팀이 계획·조정, 치료 중 안전성 모니터링 필수
-- 수술·보조요법 후 3~6개월 간 MRI와 신경학적 검진을 정기적으로 시행해 재발·진행 여부를 추적하고, 재발
+- 신경교종의 절제 목표는 최대한 많이가 아니라 최대한 안전하게이다. 중요한 신경 기능을 손상시키는 절제를 일괄 권하지 않으며, 종양 종류·위치·상태에 맞춰 절제·생검·관찰을 선택한다.
+- 증상성 종양 주변 혈관성 부종에는 dexamethasone을 필요한 최소 용량·기간으로 사용한다. 수두증의 뇌척수액 배액은 다른 적응증의 처치이며, 모든 부종에 션트를 사용하는 것은 아니다.
+- 발작 병력이 없는 새 뇌종양 환자에게 예방 목적으로 항경련제를 일괄 처방하지 않는다. 이미 발작이 있으면 치료하고, 약제 상호작용과 부작용을 확인한다. 수술 전후 예방의 근거도 제한적이다.
+- 방사선·항암·표적치료는 종양별로 다르다. 2025 ASCO-SNO 개정은 수술 후 방사선·항암치료를 유예할 수 있는 성인 IDH 변이 WHO grade 2 성상세포종·희소돌기교종에 vorasidenib을 조건부 선택지로 추가했다. 모든 등급의 신경교종에 적용하지 않으며 간기능 감시가 필요하다.
+- 증상성 뇌전이는 전신치료 여부와 관계없이 수술·정위방사선 등 국소 치료를 평가한다. 무증상 뇌전이의 국소 치료 유예는 특정 전신치료의 근거와 다학제 판단이 있을 때만 고려한다.
 
-## 6. 예후 및 합병증 (Prognosis)
-- 종양의 조직학적 등급, 위치, 절제 범위, 환자 연령에 따라 예후가 크게 다름.
-- 합병증으로 신경학적 결손, 뇌전증, 내분비 장애, 인지 기능 저하 등이 발생할 수 있음.
-
-출처 : StatPearls (Neonatal Brain Tumors, Neuronal Brain Tumors)
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
-
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
-
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[교모세포종 (Glioblastoma)]] | 성인에서 가장 흔한 원발성 악성 뇌종양으로, 신경교종(glioma) 중 가장 악성도가 높음 |
-| [[뇌수막종 (Meningioma)]] | 뇌와 척수를 둘러싼 수막(arachnoid cap cells)에서 발생하는 종양으로, 원발성 중추신경계 종양 중 가장 흔함 |
-| [[뇌종양 관련 두통 (Headache due to brain tumor)]] | 뇌종양으로 인해 발생하는 두통으로, 종양 자체의 압박, 뇌부종, 뇌척수액 흐름 차단에 의한 뇌압 상승이 주된 원인임 |
-| [[두개인두종 (Craniopharyngioma)]] | 주로 안장(sellar) 및 안장 위(suprasellar) 영역에서 발생하는 양성 중추신경계 종양으로, 뇌하수체 줄기 근처에서 흔히 발생함 |
-| [[신경초종 (Schwannoma)]] | 신경초(nerve sheath)에서 발생하는 양성 종양으로, 슈반세포(Schwann cell)에서 기원함. WHO Grade I 종양으로 분류됨 |
-| [[전이성 뇌종양 (Metastatic brain tumor)]] | 다른 부위에서 뇌로 전이된 종양 |
-| [[혈관모세포종 (Hemangioblastoma)]] | 중추신경계(CNS)에 발생하는 WHO grade 1의 드문 양성 고혈관성 종양 |
+## 6. 추적과 합병증
+- MRI 추적 간격은 종양 종류·등급·치료 시점·증상·진행 위험에 맞춘다. 모든 종양을 동일하게 3–6개월 간격으로 추적하지 않는다.
+- 새로운 신경학적 결손·발작·인지 변화는 재발뿐 아니라 치료 후 변화·부종·혈관성 합병증 등도 감별한다. 청력·시력·내분비·신경인지 기능과 치료 관련 독성을 함께 추적한다.
 
 ## 포함 질환
 - [[교모세포종 (Glioblastoma)]]
@@ -101,3 +87,12 @@ Last updated :
 - [[신경초종 (Schwannoma)]]
 - [[전이성 뇌종양 (Metastatic brain tumor)]]
 - [[혈관모세포종 (Hemangioblastoma)]]
+
+## 참고 가이드라인
+
+- [EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC7904519/)
+- [EANO. Diagnosis and Management of Meningiomas — 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/)
+- [SNO/EANO. Anticonvulsant Prophylaxis in Newly Diagnosed Brain Tumors — 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8563323/)
+- [EANO/ESMO. Neurological and Vascular Complications of Brain Tumours — 2021](https://doi.org/10.1016/j.annonc.2020.11.003)
+- [ASCO-SNO. Diffuse Astrocytic and Oligodendroglial Tumors: Rapid Recommendation Update — 2025](https://ascopubs.org/doi/10.1200/JCO-25-00250)
+- [ASCO-SNO-ASTRO. Treatment for Brain Metastases — 2021 온라인/2022 저널 발행](https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/)

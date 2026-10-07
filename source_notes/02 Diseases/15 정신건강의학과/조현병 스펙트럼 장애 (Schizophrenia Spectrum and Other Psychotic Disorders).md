@@ -14,7 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-content_updated_at: "2026-07-30"
+content_updated_at: '2026-10-08'
 document_role: "group_overview"
 group_members:
 - 단기 정신병적 장애 (Brief psychotic disorder)
@@ -23,55 +23,39 @@ group_members:
 - 조현병 (Schizophrenia)
 - 조현양상장애 (Schizophreniform disorder)
 - 조현정동장애 (Schizoaffective disorder)
+guideline_reviewed_at: '2026-10-08'
+sources:
+  - "VA/DoD: First-Episode Psychosis and Schizophrenia (2023) | https://www.healthquality.va.gov/guidelines/mh/scz/index.asp"
+  - "NICE CG178: Psychosis and Schizophrenia in Adults (2014; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg178/chapter/recommendations"
+  - "Merck Manual: Schizoaffective Disorder (2026-10 확인) | https://www.merckmanuals.com/en-ca/home/mental-health-disorders/schizophrenia-and-related-disorders/schizoaffective-disorder"
 ---
-## 1. 개요
-- 정의**: 망상, 환각, 와해된 사고(언어), 와해된 행동, 음성 증상 중 하나 이상을 특징으로 하는 정신질환군을 의미함.
-- 원인**: 유전적 요인, 신경전달물질(도파민 과다 등)의 불균형, 뇌 구조적 이상, 환경적 스트레스 요인 등이 복합적으로 작용함.
-- 기전**: 중뇌-피질 및 중뇌-변연계 도파민 경로의 기능 이상이 주요 기전으로 알려져 있음.
 
-## 2. 임상 양상
-- CC**: 환청, 피해망상, 관계망상, 사회적 고립, 의욕 저하, 부적절한 정동 등.
-- P/E**: 정신상태검사(MSE)상 사고의 비약, 지리멸렬, 환각, 병식 결여 등이 관찰될 수 있음.
+# 조현병 스펙트럼 장애
 
-## 3. 검사
-- 진단 검사**: 혈액 검사(갑상선 기능, 전해질 등), 뇌 영상(MRI/CT)을 통해 기질적 원인 배제.
-- 심리 검사**: MMPI, Rorschach, 지능 검사 등을 통해 사고 장애 및 인지 기능 평가.
+## 정신병 증상과 원인을 분리하기
 
-## 4. 진단
-- 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
+망상·환각·사고 와해가 있어도 바로 조현병으로 진단하지 않는다. 의식·주의력 변화, 물질·약물, 기분삽화, 신경 질환을 확인한다. 발병 시점과 기능 저하, 기분 증상 없이 정신병이 있었던 기간을 가족 정보와 함께 재구성한다.
 
-## 5. 치료
+## 경과별 감별
 
-- **급성기 안전 및 감별**: 자·타해 위험을 최우선으로 평가하고, 섬망·물질 사용·기질적 의학 질환을 배제하며 안전한 환경에서 신속히 증상을 안정화한다.
-- **약물 치료 및 모니터링**: 항정신병약의 치료 반응과 대사 증후군 등 부작용을 정기적으로 점검하며, 재발 방지를 위해 증상 호전 후에도 유지 치료를 지속한다.
-- **치료 저항성 관리**: 충분한 약물 치료에도 반응이 없거나 자살 위험이 높은 경우, Clozapine 사용을 적극적으로 고려하고 평가한다.
-- **포괄적 재활 및 교육**: 조기 중재, 인지행동치료(CBTp), 가족 교육 및 사회적 재활 프로그램을 병행하며, 환자의 선호도를 반영하여 장기지속형 주사제(LAI) 등을 논의한다.
-
-## 6. 예후 및 합병증
-- 예후**:
-- 조기 발견 및 지속적인 약물 유지가 예후에 결정적임.
-
-### 하위 질환
-- [[단기 정신병적 장애 (Brief psychotic disorder)]]
-- [[망상 장애 (Delusional disorder)]]
-- [[산후 정신병 (Postpartum psychosis)]]
-- [[조현병 (Schizophrenia)]]
-- [[조현양상장애 (Schizophreniform disorder)]]
-- [[조현정동장애 (Schizoaffective disorder)]]
-
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
-
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
+| 질환 | 핵심 구분 |
 | --- | --- |
-| [[단기 정신병적 장애 (Brief psychotic disorder)]] | 갑작스럽게 발병하여 1일 이상 1개월 미만으로 지속되는 정신병적 증상(망상, 환각, 와해된 언어, 와해된 행동 등)을 특징으로 함 |
-| [[망상 장애 (Delusional disorder)]] | 1개월 이상 지속되는 하나 이상의 비괴이적(non-bizarre) 망상을 특징으로 하는 질환 |
-| [[산후 정신병 (Postpartum psychosis)]] | 출산 후 수일에서 6주 이내에 발생하는 급성 정신병적 상태로, 정신과적 응급 상황임 |
-| [[조현병 (Schizophrenia)]] | 망상, 환각, 와해된 언어, 와해된 행동, 음성 증상 등이 특징인 만성 정신질환 |
-| [[조현양상장애 (Schizophreniform disorder)]] | 조현병과 유사한 증상이 나타나지만, 지속 기간이 1개월 이상 6개월 미만인 정신질환 |
-| [[조현정동장애 (Schizoaffective disorder)]] | 조현병의 증상과 주요 기분 삽화(조증 또는 우울증)가 동시에 나타나는 질환 |
+| 단기 정신병적 장애 | 정신병 증상 1일 이상~1개월 미만, 이전 기능으로 회복 |
+| 조현양상장애 | 조현병과 유사한 증상, 1개월 이상~6개월 미만 |
+| 조현병 | 지속 징후 6개월 이상, 활성기 증상과 기능 저하 |
+| 망상장애 | 1개월 이상 망상, 다른 조현병 핵심 증상은 두드러지지 않음; 비괴이적 망상에만 한정하지 않음 |
+| 조현정동장애 | 주요 기분삽화와 정신병, 기분삽화 없는 정신병도 2주 이상; 전체 경과에서 기분삽화가 큰 비중 |
+| 산후 정신병 | 산후 급성 정신병·기분 변화, 산모와 영아 안전을 위협하는 응급 상태 |
+
+기분삽화 때만 정신병이 나타나는 기분장애와 조현정동장애를 구분한다. 산후 정신병은 양극성 장애 등과 연관될 수 있으며 조현병과 동일한 만성 진단을 뜻하지 않는다.
+
+## 평가와 치료
+
+- 정신상태·신체·신경 진찰, 자·타해 위험, 물질 사용과 필요한 혈액검사를 확인한다. 비전형적 소견 없이 뇌 영상·광범위 심리검사를 모두 일률적으로 시행하지 않는다.
+- 초발 정신병은 조기 중재팀에 연결하고 항정신병약, 가족 교육·CBT·기능 회복 지원을 결합한다.
+- 체중·혈압·혈당·지질, 운동 부작용·QT 위험과 복약 상황을 추적한다. 장기지속형 주사제는 선호·재발 위험을 함께 논의한다.
+- 충분한 두 가지 항정신병약 치료에도 지속되는 치료저항성은 clozapine을 평가한다. 지속 자살 위험도 적응증이 될 수 있으며 혈액·심장·변비 등 안전 관리를 병행한다.
+- 호전 뒤 갑자기 약을 끊지 않는다. 유지 기간과 감량은 재발력·회복·환자 선호에 맞춰 결정한다.
 
 ## 포함 질환
 - [[단기 정신병적 장애 (Brief psychotic disorder)]]
@@ -80,3 +64,10 @@ group_members:
 - [[조현병 (Schizophrenia)]]
 - [[조현양상장애 (Schizophreniform disorder)]]
 - [[조현정동장애 (Schizoaffective disorder)]]
+
+
+## 참고 자료
+
+- [VA/DoD: First-Episode Psychosis and Schizophrenia (2023)](https://www.healthquality.va.gov/guidelines/mh/scz/index.asp)
+- [NICE CG178: Psychosis and Schizophrenia in Adults (2014; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg178/chapter/recommendations)
+- [Merck Manual: Schizoaffective Disorder (2026-10 확인)](https://www.merckmanuals.com/en-ca/home/mental-health-disorders/schizophrenia-and-related-disorders/schizoaffective-disorder)

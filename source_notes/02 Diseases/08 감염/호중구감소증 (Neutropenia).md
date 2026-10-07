@@ -14,55 +14,50 @@ population: "adult"
 clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
-guideline_year: "2026"
-sources: ["Clinical practice guidelines for the management of fever and neutropenia in South African children and adolescents with cancer. | https://pubmed.ncbi.nlm.nih.gov/42246864/"]
-
-content_updated_at: "2026-07-16"
+guideline_year: '2024'
+sources:
+- "AGIHO/DGHO. Adult Neutropenic FUO: 2024 Guideline Update — 2025 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11836497/"
+- "ASCO/IDSA. Outpatient Management of Fever and Neutropenia in Adults — 2018 | https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf"
+- "IDSA. Antimicrobial Agents in Neutropenic Patients With Cancer — 2010 개정/2011 발행, 기본 정의·고위험 평가 | https://doi.org/10.1093/cid/cir073"
+content_updated_at: '2026-10-07'
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 분과 : [[감염]]
 
 ## 1. 개요
-- **정의**: 호중구 수 감소(일반적으로 절대 호중구 수 < 1,500/µL)로 인해 면역 기능이 저하된 상태에서 발생하는 감염. 호중구 수가 500/µL 미만일 때 감염 위험이 급격히 증가함.
+- 호중구감소증은 절대호중구수(ANC)가 감소한 상태이지 감염 그 자체가 아니다. 통상 ANC <1,500/µL이며, <500/µL의 심한 감소와 지속 기간이 감염 위험에 중요하다.
+- 원인은 항암치료·약물, 골수 질환, 바이러스 감염, 자가면역 및 선천성 질환 등이다. 감염이 동반되면 정상적인 염증 반응이 약해져 국소 발적·통증·고름이 뚜렷하지 않을 수 있다.
+- 아래 급성 치료는 성인 암 환자의 열성 호중구감소증을 중심으로 정리했다. 소아·선천성·만성 비암성 호중구감소증에는 대상별 평가가 따로 필요하다.
 
-- **원인**
-  - 내인성 미생물총(구강, 장관 등)에 의한 감염이 흔함.
-  - 주요 원인균:
-    - 그람 양성균: 응고효소 음성 포도알균, 황색포도알균(S. aureus)
-    - 그람 음성균: 녹농균(P. aeruginosa), 대장균(E. coli), 폐렴막대균(Klebsiella)
-    - 진균: 칸디다(Candida), 아스페르길루스(Aspergillus)
+## 2. 열성 호중구감소증을 알아보는 기준
+- 1회 체온 ≥38.3°C 또는 ≥38.0°C가 1시간 이상 지속되며, ANC <500/µL이거나 48시간 내 그 수준으로 감소가 예상되면 열성 호중구감소증을 평가한다.
+- 저혈압·저산소증·의식 변화·복통·신경 증상은 즉시 중증 감염을 평가할 신호이다. 발열이 없더라도 심한 호중구감소와 새로운 감염 소견이 있으면 안심하지 않는다.
+- 예상 호중구감소 >7일, 매우 낮은 ANC, 주요 동반질환 또는 불안정한 상태는 고위험이다. MASCC·CISNE 등 점수는 임상 평가와 함께 쓰며 점수만으로 퇴원시키지 않는다.
 
-- **기전**:
-  호중구는 세균 및 진균 감염에 대한 일차 방어선임.
-  호중구 감소 시 염증 반응이 둔화되어 발열 외의 국소 염증 징후(발적, 부종, 통증 등)가 미약하거나 나타나지 않을 수 있음.
+## 3. 검사와 감염 초점
+- CBC/differential, 신장·간기능·전해질과 필요 시 lactate를 확인한다. 항생제 전 말초혈액과 도관이 있으면 도관 혈액배양을 채취하되 투여를 지연하지 않는다.
+- 구강·피부·도관 부위·회음부·복부를 확인하고 증상에 맞춰 배양·검사를 추가한다. 직장 체온·직장 수지검사 등 점막 손상을 유발할 수 있는 처치는 피한다.
+- 흉부 X선이 모든 환자에게 필수인 것은 아니다. 호흡 증상이나 지속 발열·침습성 진균감염 위험에 따라 흉부 CT 등을 선택한다. AGIHO 2024 개정은 낮은 민감도 때문에 단순 흉부 X선보다 증상 기반 CT 평가를 강조한다.
 
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 발열(1회 38.3°C 이상 또는 38.0°C 이상이 1시간 지속)이 감염의 가장 흔하고 중요한 징후임. 이전 항암·방사선치료, 최근 시술, 감염력 및 가정·병동 공사 노출을 확인한다.
+## 4. 초기 치료
+- 분류·평가 후 첫 1시간 이내 경험적 항균제를 시작한다. 고위험 환자는 입원해 cefepime, piperacillin/tazobactam, meropenem 또는 imipenem 등 항녹농균 beta-lactam을 사용한다. 이전 배양·내성균 보유, 알레르기, 신기능과 감염 초점을 반영한다.
+- Vancomycin은 일괄 병합하지 않는다. 혈역학 불안정, 도관·피부연조직 감염, 폐렴 또는 MRSA 가능성 등 특정 적응증에서 추가를 판단한다.
+- 저위험 외래 치료는 안정성·경구 섭취·복약·보호자·신속한 재내원 가능성이 확보된 선별 환자에 한한다. 초기 약제 투여 후 최소 4시간 관찰한다. Fluoroquinolone 예방요법 중 발생한 경우 같은 계열에 의존한 외래 경험적 요법은 피한다.
 
-* **P/E**: 구강 점막염, 치은염, 항문 주위 염증, 피부 병변, 카테터 삽입 부위 확인이 필수적임.
+## 5. 재평가와 치료 종료
+- 열이 지속된다는 이유만으로 안정적인 환자의 항생제를 자동 확대하지 않는다. 배양·초점·약물·도관과 임상 상태를 재평가하며, 악화·불안정·새 감염 근거가 있으면 즉시 조정한다.
+- 전신 항진균 예방을 받지 않는 침습성 진균감염 고위험 환자에서 적절한 항균제에도 72–96시간 이상 발열이 지속·재발하면 mold-active 경험적 치료를 고려한다. 신속한 영상·진균 검사가 가능한 경우에는 검사 기반 선제 치료가 대안이다. 저위험 환자에게 일괄 적용하지 않는다.
+- AGIHO 개정은 감염이 확인되지 않았고 임상적으로 회복한 환자의 경험적 항균제를 72–96시간 무열 후 ANC 회복과 무관하게 종료할 수 있도록 했다. 확인된 감염은 원인·초점별 기간으로 치료하며, 지속 발열·불안정 환자에게 이 종료 기준을 적용하지 않는다.
+- G-CSF는 모든 열성 호중구감소증의 일괄 치료가 아니다. 항암요법의 발열 위험과 환자 위험에 따른 예방, 또는 고위험 상황의 선택적 사용을 구분한다.
 
-## 3. 검사 (Lab & Imaging)
-- **혈액 검사**: CBC 및 백혈구 감별 계산(Differential count)을 통한 절대 호중구 수(ANC) 확인.
-- **배양 검사**: 혈액(말초 및 카테터), 소변, 의심 부위 배양.
-- **영상 검사**: 흉부 X-ray는 필수. 필요시 흉부/복부/부비동 CT 시행.
-- **특수 고려사항**: 결핵 유병률이 높은 지역에서는 결핵 평가를 포함한 감별 진단 고려.
+## 6. 합병증
+- 균혈증·패혈증·침습성 진균감염·호중구감소성 장염을 주의한다. 새로운 복통·설사·팽만은 장염과 복부 합병증 평가가 필요하다.
 
-## 4. 진단 (Diagnosis)
-- 발열과 함께 ANC 500/µL 미만이거나 48시간 안에 그 수준으로 감소가 예상되면 열성 호중구감소증을 강력히 의심한다.
-- 감염원 확인을 위해 배양 검사 및 영상 검사를 신속히 시행.
-- 장기간의 심한 호중구감소, 혈역학 불안정, 경구 섭취 불가 점막염, 새 신경 증상, 저산소증 또는 복부 증상은 고위험 소견이다.
 
-## 5. 치료 (Treatment)
-- **경험적 항생제**: 발열 시 즉시 녹농균(P. aeruginosa)을 포함한 광범위 항생제(세페핌, 피페라실린-타조박탐, 카바페넴 등) 투여.
-- **반코마이신**: 도관 관련 감염 의심, 베타-락탐 내성균, 저혈압, 심혈관 기능 저하 시 추가 고려.
-- **보조 요법**: 필요시 G-CSF(과립구 집락 자극 인자)를 사용하여 호중구 생성을 촉진.
-- **관리 원칙**: 암 환자의 경우, 임상 결과 개선을 위해 근거 기반의 표준화된 진료 지침(CPG)에 따른 일관된 관리가 필수적임.
-- 안정적 환자에서는 열이 지속된다는 이유만으로 즉시 항균제를 확대하지 않고 임상 경과·배양·감염 초점을 재평가한다. 악화 시에는 신속히 치료를 조정하며, 지속 고위험 발열에서는 폐·부비동 진균 감염 평가를 고려한다.
 
-## 6. 예후 및 합병증 (Prognosis)
-- 패혈증, 다발성 장기 부전 등 치명적인 합병증 발생 위험이 높으므로 신속한 진단과 치료가 필수적임.
+## 참고 가이드라인
 
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼
+- [AGIHO/DGHO. Adult Neutropenic FUO: 2024 Guideline Update — 2025 발행](https://pmc.ncbi.nlm.nih.gov/articles/PMC11836497/)
+- [ASCO/IDSA. Outpatient Management of Fever and Neutropenia in Adults — 2018](https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf)
+- [IDSA. Antimicrobial Agents in Neutropenic Patients With Cancer — 2010 개정/2011 발행, 기본 정의·고위험 평가](https://doi.org/10.1093/cid/cir073)

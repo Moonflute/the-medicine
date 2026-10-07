@@ -13,8 +13,14 @@ CC:
 clinical_priority: tier_2
 review_status: "guideline_enriched"
 reviewed_at: "2026-07-30"
-guideline_year: "2023"
-sources: ["AHA/ASA Guideline for Spontaneous Intracerebral Hemorrhage (2022) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000407", "AHA/ASA Guideline for Aneurysmal Subarachnoid Hemorrhage (2023) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"]
+guideline_year: "2026"
+sources:
+  - "ESO/EANS: Spontaneous Intracerebral Haemorrhage Guideline (2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/"
+  - "AHA/ASA: Spontaneous Intracerebral Hemorrhage (2022) | https://doi.org/10.1161/STR.0000000000000407"
+  - "ESO/EANS/ESMINT: Aneurysmal Subarachnoid Haemorrhage Guideline (2026) | https://doi.org/10.1093/esj/aakag043"
+  - "AHA/ASA: Aneurysmal Subarachnoid Hemorrhage (2023) | https://doi.org/10.1161/STR.0000000000000436"
+  - "ACS: Best Practices in the Management of Traumatic Brain Injury (2024) | https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf"
+  - "FDA: Update on the Safety of Andexxa (2025) | https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa"
 document_role: "group_overview"
 group_members:
 - 경막외 출혈 (Epidural hemorrhage)
@@ -22,44 +28,37 @@ group_members:
 - 뇌내 출혈 (Intracerebral hemorrhage)
 - 만성 경막하 출혈 (Chronic subdural hematoma)
 - 지주막하 출혈 (Subarachnoid hemorrhage)
+content_updated_at: '2026-10-08'
+guideline_reviewed_at: '2026-10-08'
 ---
-## 1. 개요
-- 출혈성 뇌졸중은 뇌내출혈과 지주막하출혈을 포함하며, 급격한 신경학적 악화와 높은 사망·장애 위험을 가진 응급 질환군이다.
 
-## 2. 임상 양상
-- 갑작스러운 국소 신경학적 결손, 의식 저하, 심한 두통, 구토, 경련이 나타날 수 있다. 번개 치듯 시작한 두통은 지주막하출혈을 우선 배제해야 한다.
+# 출혈성 뇌졸중
 
-## 3. 검사
-- 비조영 뇌 CT를 즉시 시행하고, 필요 시 CTA/MRA·혈관조영술로 혈관 병변을 평가한다. 항응고제·항혈소판제, INR·혈소판, 혈압·혈당을 동시에 확인한다.
+## 비외상성 뇌출혈과 외상성 혈종 구분
 
-## 4. 진단
-- CT로 출혈 위치·크기·뇌실 침범·수두증을 확인한다. 고혈압성 출혈, 동맥류, 혈관기형, 종양, 항응고 관련 출혈을 감별한다.
+뇌내출혈·비외상성 지주막하출혈은 출혈성 뇌졸중에 해당한다. 경막외·경막하출혈은 흔히 외상성 손상이며 같은 혈압·수술 기준을 적용하지 않는다. 여기서는 연결된 두개강 내 출혈의 위치·원인·응급 처치를 함께 비교한다.
 
-## 5. 치료
-- **이 문서는 뇌내출혈과 지주막하출혈의 응급 허브다**. 출혈 유형, 원인과 수술·혈관내 중재 여부는 아래 하위 문서에서 확인한다.
-- **공통 초기 처치**: stroke code, ABC·신경학적 중증도, 비조영 CT와 항응고제 복용력을 즉시 확인한다. 머리 올리기, 저산소증·발열·저혈당 교정, 중환자·신경외과/신경중재 협진을 병행한다.
-- **고혈압·항응고 역전**: 혈압은 출혈 유형·중증도와 기관 프로토콜에 따라 부드럽고 지속적으로 조절하며 급격한 변동을 피한다. 항응고 관련 출혈은 약제별 역전(PCC, idarucizumab, andexanet 등 가능 자원)을 지연 없이 검토한다.
-- **압력·수두증·경련**: 의식저하, 뇌실확장·수두증, 후두와 병변·대량 혈종은 외부뇌실배액 또는 수술 여부를 긴급 평가한다. 경련은 치료하되, 일률적 장기 예방항경련제는 유형별 위험을 보고 결정한다.
-- **SAH 특이점**: 동맥류성 SAH가 의심되면 혈관 영상과 조기 aneurysm securing을 의뢰하고, vasospasm 예방·감시와 중환자 치료를 포함한다.
-## 6. 예후 및 합병증
-- 재출혈, 뇌압 상승, 수두증, 경련, 흡인·폐렴이 발생할 수 있다. 급성 신경학적 증상은 외래 평가 대상이 아니라 즉시 응급 뇌졸중 경로로 연결한다.
+## 위치와 경과별 감별
 
-### 하위 질환
-- [[뇌내 출혈 (Intracerebral hemorrhage)]]
-- [[지주막하 출혈 (Subarachnoid hemorrhage)]]
+| 유형 | 대표 영상·경과 | 주요 판단 |
+| --- | --- | --- |
+| 뇌내출혈 | 뇌 실질 혈종, 때로 뇌실 침범 | 고혈압·아밀로이드혈관병·항응고제·혈관 병변 |
+| 지주막하출혈 | 고랑·기저수조 출혈, 번개 두통 | 동맥류성 출혈 여부와 조기 재출혈 위험 |
+| 경막외출혈 | 렌즈형 혈종, 외상·골절 연관 | 빠른 악화·뇌탈출 위험; 명료기가 항상 있는 것은 아님 |
+| 급성 경막하출혈 | 초승달형 혈종, 외상 뒤 급성 악화 | 동반 뇌손상·압박과 수술 필요성 |
+| 만성 경막하출혈 | 경미한 외상 뒤 점진적 인지·보행·국소 증상 | 고령·항혈전제, 혈종 압박·재발 |
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+## 공통 초기 평가
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[경막외 출혈 (Epidural hemorrhage)]] | 경막과 두개골 사이에 발생하는 출혈 |
-| [[급성 경막하 출혈 (Acute subdural hematoma)]] | 경막 아래 공간(dura mater와 arachnoid mater 사이)에 발생하는 급성 출혈 |
-| [[뇌내 출혈 (Intracerebral hemorrhage)]] | 뇌 실질 내 출혈(Intracerebral hemorrhage, ICH) |
-| [[만성 경막하 출혈 (Chronic subdural hematoma)]] | 경막하 공간에 혈액이 고여 뇌를 압박하는 질환으로, 외상 후 3주 이상 경과하여 혈종이 피막(membrane)을 형성한 상태를 의미함 |
-| [[지주막하 출혈 (Subarachnoid hemorrhage)]] | 지주막하 공간(지주막과 연막 사이) 내 출혈 |
+ABC와 신경학적 상태를 확인하고 비조영 CT를 신속히 시행한다. 필요 시 CTA·혈관조영술로 원인을 찾는다. 항혈전제 종류·마지막 투약·응고검사, 수두증·뇌압 상승을 동시에 평가하고 신경외과·뇌졸중팀에 연결한다.
+
+## 출혈별 처치 차이
+
+- 경도~중등도 자발성 뇌내출혈의 특정 고혈압 범위에서는 수축기혈압 약 140 mmHg 목표와 안정적인 조절을 고려한다. 심한 혈종·뇌압 문제·외상에 그대로 적용하거나 과도하게 낮추지 않는다.
+- Warfarin 관련 출혈은 4인자 PCC·정주 vitamin K, dabigatran은 idarucizumab 등 약제별 역전을 신속히 검토한다.
+- Factor Xa 억제제 역전은 현행 허가·혈전 위험·가용 약제에 따라 결정한다. FDA는 2025년 Andexxa 안전성 문제와 미국 판매 중단을 공지했으므로 과거 권고만 보고 일괄 사용하지 않는다.
+- 동맥류성 SAH는 조기 동맥류 폐색, 경구 nimodipine, 정상 혈량 유지와 지연성 뇌허혈 감시가 중요하다.
+- 수두증·후두와 압박·의식 악화는 배액·수술 필요성을 긴급 평가한다. 외상성 혈종은 별도의 외상·수술 기준으로 판단한다.
 
 ## 포함 질환
 - [[경막외 출혈 (Epidural hemorrhage)]]
@@ -67,3 +66,13 @@ group_members:
 - [[뇌내 출혈 (Intracerebral hemorrhage)]]
 - [[만성 경막하 출혈 (Chronic subdural hematoma)]]
 - [[지주막하 출혈 (Subarachnoid hemorrhage)]]
+
+
+## 참고 자료
+
+- [ESO/EANS: Spontaneous Intracerebral Haemorrhage Guideline (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/)
+- [AHA/ASA: Spontaneous Intracerebral Hemorrhage (2022)](https://doi.org/10.1161/STR.0000000000000407)
+- [ESO/EANS/ESMINT: Aneurysmal Subarachnoid Haemorrhage Guideline (2026)](https://doi.org/10.1093/esj/aakag043)
+- [AHA/ASA: Aneurysmal Subarachnoid Hemorrhage (2023)](https://doi.org/10.1161/STR.0000000000000436)
+- [ACS: Best Practices in the Management of Traumatic Brain Injury (2024)](https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf)
+- [FDA: Update on the Safety of Andexxa (2025)](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa)

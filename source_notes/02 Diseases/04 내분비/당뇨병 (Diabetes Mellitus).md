@@ -12,12 +12,14 @@ CC:
 - 피로
 - 시야 흐림
 clinical_priority: tier_1
-content_updated_at: '2026-07-14'
+content_updated_at: '2026-10-07'
 guideline_year: "2026"
 sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
-- 'KDIGO 2024 CKD Guideline | https://kdigo.org/guidelines/ckd-evaluation-and-management/'
+- "ADA Standards of Care in Diabetes (2026), 제2장 진단·제9장 약물치료 | https://professional.diabetes.org/standards-of-care"
+- "ADA 제9장 Pharmacologic Approaches to Glycemic Treatment (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment"
+- "ADA 제2장 Diagnosis and Classification (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes"
+- "대한당뇨병학회 당뇨병 진료지침 (2025): 국내 적용 | https://diabetes.or.kr/bbs/?code=guide"
+- "KDIGO CKD 지침 (2024): 동반 콩팥병 | https://kdigo.org/guidelines/ckd-evaluation-and-management/"
 disease_family: diabetes
 population: "general"
 document_role: group_overview
@@ -31,11 +33,13 @@ group_members:
 - 저혈당 (Hypoglycemia)
 - 제1형 당뇨병 (Type 1 Diabetes Mellitus)
 - 제2형 당뇨병 (Type 2 Diabetes Mellitus)
-reviewed_at: "2026-07-16"
+reviewed_at: '2026-10-07'
 review_status: "guideline_enriched"
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 ## 1. 개요
-- 진단은 HbA1c, 공복혈장포도당, 75 g OGTT 2시간 혈당, 또는 전형적 증상이 있는 무작위 혈당으로 판단하며, 명백한 고혈당이 아니면 다른 날 재확인한다.
+- 진단은 HbA1c, 공복혈장포도당, 75 g OGTT 2시간 혈당, 또는 전형적 증상이 있는 무작위 혈당으로 판단하며, 명백한 고혈당이 아니면 동일 검체의 서로 다른 두 진단검사 또는 반복 검사로 확인한다.
 - 제1형 당뇨병은 인슐린이 필수이고, 제2형 당뇨병은 심혈관·심부전·콩팥·체중·저혈당 위험을 먼저 반영해 약제를 선택한다.
 - ASCVD 또는 CKD가 있으면 메트포르민 사용 여부와 별개로 GLP-1 수용체작용제 또는 SGLT2 억제제를 포함한 심신장 보호 전략을 검토한다.
 - HbA1c 목표는 연령, 저혈당 위험, 동반질환, 기대여명, 환자 선호에 맞춰 개별화한다.
@@ -68,7 +72,7 @@ review_status: "guideline_enriched"
 
 - HbA1c ≥6.5%, 공복 혈장 포도당 ≥126 mg/dL, 75 g OGTT 2시간 혈장 포도당 ≥200 mg/dL 중 하나가 해당하면 당뇨병을 의심한다.
 - 전형적 고혈당 증상이 있는 경우 무작위 혈장 포도당 ≥200 mg/dL도 진단 기준이 될 수 있다.
-- 명백한 고혈당 위기가 아니라면 서로 다른 날 반복 검사 또는 다른 진단검사로 확인한다. 빈혈·혈색소 변이·신부전 등 HbA1c 해석을 왜곡하는 상황을 함께 기록한다.
+- 전형적 증상·명백한 고혈당 위기가 없다면 두 개의 비정상 결과가 필요하다. 동일 검체의 서로 다른 검사도 가능하며, 결과가 불일치하면 기준을 초과한 검사를 반복한다. 빈혈·혈색소 변이·신부전 등 HbA1c 해석을 왜곡하는 상황을 함께 기록한다.
 - 진단 후에는 제1형/제2형/기타 원인을 임상 경과, 케톤, 자가항체·C-펩타이드 등 필요 검사로 재평가한다.
 
 ## 5. 치료
@@ -76,7 +80,7 @@ review_status: "guideline_enriched"
 - 운동 강도와 종류는 망막병증·족부질환·신경병증을 평가해 개별화하고, 인슐린 또는 저혈당 유발 약제를 쓰거나 운동량을 바꿀 때는 혈당 확인과 저혈당 예방을 계획한다. 음주는 저혈당 위험과 식사·약물의 관계를 함께 교육한다.
 - 제1형은 기저-식전 인슐린 또는 이에 준하는 집중 인슐린 치료가 필수이며, 혈당측정·저혈당 교육을 포함한다.
 - 제2형은 초기부터 심혈관·신장·체중·저혈당 위험과 환자 선호를 반영한다. 메트포르민은 많은 환자에서 유용하지만 모든 환자에게 무조건적인 선행 조건은 아니다.
-- ASCVD가 있거나 위험이 높은 경우 GLP-1 수용체작용제 및/또는 SGLT2 억제제를, 심부전·CKD가 있으면 SGLT2 억제제 또는 근거가 있는 GLP-1 수용체작용제를 우선 검토한다.
+- ASCVD가 있거나 위험이 높으면 해당 이득이 입증된 GLP-1 수용체작용제 및/또는 SGLT2 억제제를 HbA1c와 독립적으로 고려한다. 심부전에서는 근거가 있는 SGLT2 억제제를 중심으로 하며, CKD에서는 eGFR·알부민뇨와 약제별 적응증에 따라 SGLT2 억제제·GLP-1 수용체작용제를 선택한다.
 - 비만·체중 감량이 핵심이면 체중 감소 효과가 큰 약제를, 저혈당 고위험이면 저혈당 위험이 낮은 약제를 선택한다.
 - 심한 고혈당, 체중 감소·케톤증, 증상성 고혈당, 급성 질환·입원·수술에서는 인슐린을 조기에 고려한다.
 - 약제 변경 후 효과·부작용·복약 지속성을 재평가하고, 목표에 미달하면 치료 지연을 줄인다.
@@ -106,29 +110,19 @@ review_status: "guideline_enriched"
 - 족부: [[당뇨병성 족부질환]]
 - 특수 집단: 소아청소년과 당뇨병 문서, [[임신성 당뇨병 (Gestational Diabetes Mellitus)]]
 
-출처 :
-- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide
-- ADA Standards of Care in Diabetes 2026: https://professional.diabetes.org/standards-of-care
-- KDIGO 2024 CKD Guideline: https://kdigo.org/guidelines/ckd-evaluation-and-management/
+## 치료 선택과 하위 질환의 차이
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
-
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
+| 상황 | 판단의 중심 |
 | --- | --- |
-| [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]] | 인슐린의 상대적 결핍으로 인해 발생하는 심한 고혈당, 고삼투압, 탈수를 특징으로 하는 당뇨병의 치명적인 급성 합병증 |
-| [[당뇨병성 망막병증 (Diabetic Retinopathy)]] | 초기에는 대개 무증상이다. 황반 침범 시 시력 저하·변시증이, 유리체출혈·견인망막박리에서는 비문증, 갑작스러운 시력 저하가 나타날 수 있다 |
-| [[당뇨병성 신경병증 (Diabetic Neuropathy)]] | 원위부 대칭성 다발신경병증은 발부터 시작하는 저림·화끈거림·통증·감각 저하와 야간 악화가 흔하며, 진행하면 균형 장애와 근력 저하가 동반될 수 있다 |
-| [[당뇨병성 족부질환]] | 발열·패혈증, 빠르게 진행하는 괴사·봉와직염, 심한 허혈·휴식통, 가스·깊은 농양, 노출된 뼈·건, 급성 Charcot 발은 외래 단순 관찰 대상이 아니며 즉시 응급·다학제 평가가 필요하다 |
-| [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]] | 인슐린 결핍과 길항 호르몬 증가로 인해 고혈당, 케톤혈증, 대사성 산증이 급격히 발생하는 당뇨병의 치명적 합병증 |
-| [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]] | 당뇨병의 대사 및 혈역학적 변화로 인해 발생하는 사구체 경화증 및 섬유화 |
-| [[저혈당 (Hypoglycemia)]] | 의식 저하·경련, 스스로 탄수화물을 섭취할 수 없음, 반복되거나 지속되는 저혈당은 즉시 구조 처치와 응급 평가가 필요한 소견이다 |
-| [[제1형 당뇨병 (Type 1 Diabetes Mellitus)]] | 케톤 양성, 복통·구토, 쿠스마울 호흡, 의식 변화, 심한 탈수는 [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]]를 즉시 평가할 소견이다 |
-| [[제2형 당뇨병 (Type 2 Diabetes Mellitus)]] | 무증상 선별검사에서 발견되기도 하며, 고혈당이 진행하면 다뇨·다음·체중 감소·피로·시야 흐림이 나타날 수 있다 |
+| 제1형·인슐린 결핍 | 기저 인슐린을 임의 중단하지 않는다; 케톤·자가관리 교육 |
+| 제2형 + ASCVD | 혈당만이 아니라 심혈관 이득이 입증된 약제 |
+| 제2형 + 심부전 | SGLT2 억제제의 심부전 이득과 사용 가능 여부 |
+| CKD | UACR/eGFR, 심신장 보호, 용량·저혈당 위험 |
+| 비만 | 체중 관리가 독립 치료 목표; GLP-1/GIP 기반 치료 등 개별 선택 |
+| 노쇠·반복 저혈당 | 안전한 목표로 조정하고 저혈당 유발 약제·복잡한 요법 완화 |
 
-보완 출처: 삼성서울병원 메뉴얼
+- ADA 2026은 인슐린 치료 성인뿐 아니라 저혈당을 유발할 수 있는 비인슐린 치료, 또는 관리에 도움이 되는 상황에서도 CGM을 권고한다. 도입 후 교육·사용 능력과 경보 설정을 함께 점검한다.
+- 일반 성인 진단 기준과 임신성 당뇨병 진단·목표를 혼동하지 않는다. 국내 약제 허가·급여와 대한당뇨병학회 지침을 함께 적용한다.
 
 ## 포함 질환
 - [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]]
@@ -140,3 +134,11 @@ review_status: "guideline_enriched"
 - [[저혈당 (Hypoglycemia)]]
 - [[제1형 당뇨병 (Type 1 Diabetes Mellitus)]]
 - [[제2형 당뇨병 (Type 2 Diabetes Mellitus)]]
+
+## 참고 가이드라인
+
+- [ADA Standards of Care in Diabetes (2026), 제2장 진단·제9장 약물치료](https://professional.diabetes.org/standards-of-care)
+- [ADA 제9장 Pharmacologic Approaches to Glycemic Treatment (2026)](https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment)
+- [ADA 제2장 Diagnosis and Classification (2026)](https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes)
+- [대한당뇨병학회 당뇨병 진료지침 (2025): 국내 적용](https://diabetes.or.kr/bbs/?code=guide)
+- [KDIGO CKD 지침 (2024): 동반 콩팥병](https://kdigo.org/guidelines/ckd-evaluation-and-management/)

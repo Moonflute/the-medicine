@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: '2026-10-07'
 aliases: []
 document_role: group_overview
 group_members:
@@ -27,16 +27,24 @@ last_studied: '2026-06-06'
 clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
+sources:
+- "Baveno VIII 문맥고혈압 개정 합의문, 2026 | https://doi.org/10.1016/j.jhep.2026.07.030"
+- "Baveno VII 문맥고혈압 합의문 (2022) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/"
+- "AASLD 복수·SBP·HRS 진료지침 (2021) | https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis"
+- "ADQI/ICA 간경변 AKI·HRS 합의문 (2024) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11193657/"
+- "EASL 만성 간질환 영양 지침 (2019) | https://easl.eu/wp-content/uploads/2018/10/EASL-CPG-nutrition-in-chronic-liver-disease.pdf"
 ---
 분과 : [[소화기]]
 
 ## 1. 개요
-- **정의**: 만성 간 손상으로 간 조직이 광범위하게 섬유화되고, 정상 간 구조가 파괴되어 재생 결절(regenerative nodules)이 형성되는 비가역적 진행성 간 질환
+- **정의**: 만성 간 손상으로 간 조직이 광범위하게 섬유화되고, 정상 간 구조가 파괴되어 재생 결절(regenerative nodules)이 형성되는 진행성 간 질환으로, 원인 교정 후 섬유화 퇴행과 임상적 재보상이 가능하지만 문맥고혈압·간암 위험이 남을 수 있음
 - **의의**: 간 기능 부전과 문맥 고혈압을 초래
 
 - **원인**:
   가장 흔한 원인: 만성 B형 간염, 만성 C형 간염, 알코올성 간 질환
-  기타: 비알코올성 지방간염(NASH), 자가면역 간염, 원발성 담즙성 담관염(PBC), 원발성 경화성 담관염(PSC), 윌슨병, 혈색소증, 약물 유발성 간 손상
+  기타: 대사이상 관련 지방간염(MASH; 이전 NASH), 자가면역 간염, 원발성 담즙성 담관염(PBC), 원발성 경화성 담관염(PSC), 윌슨병, 혈색소증, 약물 유발성 간 손상
 
 - **기전**:
   만성적인 간 손상과 염증이 지속되면 간성상세포(hepatic stellate cell)가 활성화되어 세포외 기질을 과도하게 생성하고 간 섬유화를 유발한다.
@@ -81,7 +89,7 @@ reviewed_at: "2026-07-30"
 - **원인 질환 교정 및 생활 습관**: 금주를 철저히 시행하고, 간 손상을 유발할 수 있는 불필요한 약물이나 건강보조식품 복용을 중단한다.
 - **간세포암 감시**: 간경변증 환자는 간세포암 고위험군이므로 6개월 간격으로 복부 초음파 및 혈청 알파태아단백(AFP) 검사를 정기적으로 시행한다.
 - **합병증 예방 및 관리**: 복수, 정맥류 출혈, 간성 뇌증 등 주요 합병증 발생 여부를 상시 모니터링하고, 필요 시 이뇨제나 베타차단제 등을 통한 약물 치료를 병행한다.
-- **영양 및 전원**: 충분한 열량과 단백질 섭취를 권장하되, 간성 뇌증 발생 시 단백질 섭취를 조절하며, 비대상성 간경변증으로 진행되거나 간 이식이 필요한 경우 상급 병원으로 신속히 전원한다.
+- **영양 및 전원**: 충분한 열량과 단백질 섭취를 권장하되, 간성 뇌증에서도 장기적인 단백질 제한은 피하며, 비대상성 간경변증으로 진행되거나 간 이식이 필요한 경우 상급 병원으로 신속히 전원한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -91,24 +99,21 @@ reviewed_at: "2026-07-30"
 
 - **합병증**: 문맥 고혈압(식도/위 정맥류 출혈), 복수, 자발성 세균 복막염, 간성 뇌증, 간신 증후군, 간세포암(HCC), 간부전 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional, StatPearls (Acute-on-Chronic Liver Failure)
-Last updated :
-2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
-2026-05-18 — 본문 갱신 (codex fill)
+## 합병증의 감별과 최신 관리
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+| 변화 | 먼저 확인할 것 | 관리 판단 |
+| --- | --- | --- |
+| 새 복수·입원 중 악화 | 복수 천자, PMN·배양과 다른 원인 | SBP·출혈·혈전 등 확인 |
+| 토혈·흑색변 | 소생과 정맥류 출혈 경로 | 혈관수축제·항생제·조기 내시경, 고위험군 TIPS |
+| 의식 변화 | 감염·출혈·변비·탈수·약물·전해질 | 유발 요인 교정과 lactulose, 재발 시 rifaximin |
+| 크레아티닌 상승·소변 감소 | 체액·감염·약물·구조적 손상 | AKI 원인과 HRS-AKI 구분 |
+| 재발성·불응성 복수 | 이뇨제 반응·신기능·Na | 복수 배액·albumin, 선별 TIPS·이식 평가 |
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[간성 뇌증 (Hepatic Encephalopathy)]] | 간 기능 저하 또는 문맥-전신 단락(portosystemic shunting)으로 인해 해독되지 못한 신경독성 물질이 뇌에 축적되어 발생하는 신경정신학적 증후군이다. 경미한 인지 기능 저하부터 혼수까지 다양한 임상 양상을 보 |
-| [[간신 증후군 (Hepatorenal Syndrome)]] | 진행된 간경변증 및 문맥 고혈압 환자에서 신장 자체의 구조적 손상 없이 발생하는 기능성 신부전이다. 전신 혈역학적 이상으로 인한 신혈관 수축과 신혈류 감소가 주된 기전 |
-| [[복수 (간경변) (Ascites (Cirrhosis))]] | 간경변증 환자에서 복강 내에 비정상적으로 체액이 축적되는 상태. 간경변증의 가장 흔한 합병증 중 하나이며, 비대상성 간경변증의 주요 특징 |
-| [[식도 정맥류 (Esophageal Varices)]] | 간경변증 등으로 인한 문맥 고혈압(portal hypertension)으로 인해 식도 하부의 점막하 정맥이 확장되고 부풀어 오른 상태를 말한다. 이는 문맥 고혈압의 가장 심각한 합병증 중 하나이며, 파열 시 생명을 위협하는 대량 출혈을 유발한다 |
-| [[위 정맥류 (Gastric Varices)]] | 간경변증 등으로 인한 문맥 고혈압으로 인해 위 점막 하부의 정맥이 확장되고 부풀어 오른 상태를 말한다. 식도 정맥류와 함께 문맥 고혈압의 중요한 합병증이며, 출혈 시 식도 정맥류 출혈보다 지혈이 어렵고 예후가 불량한 경우가 많다 |
-| [[자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)]] | 뚜렷한 복강 내 감염 원인 없이 발생하는 복수의 세균 감염이다. 주로 간경변증 환자의 복수에서 발생하며, 심각한 합병증 및 사망 위험을 동반한다 |
+Baveno VIII(2026)는 임상적으로 유의한 문맥고혈압(CSPH)이 있는 대상성 간경변/cACLD에서 비대상화 예방과 생존 개선을 위해 NSBB, 특히 carvedilol을 권고한다. CSPH가 없는 대상성 환자에게 같은 예방 목적으로 일괄 투여하지 않는다. 복수와 정맥류가 있는 환자도 적응증·내약성을 평가하되, 지속 수축기 <90 mmHg·평균혈압 <65 mmHg 또는 HRS-AKI에서는 감량/중단하고 회복 뒤 재평가한다. 원인 치료 후에도 CSPH가 남을 수 있으므로 임상 호전만으로 문맥고혈압이 해결되었다고 판단하지 않는다.
+
+2024 ADQI/ICA 기준의 HRS-AKI는 적절한 체액 소생이 필요한 경우 이를 시행한 뒤 24시간 안에 신기능이 호전되지 않고 다른 주된 원인의 강한 근거가 없는지를 평가한다. **48시간 albumin 투여를 모든 환자에게 필수 진단 시험으로 요구하지 않는다.** 구조적 손상이나 기존 CKD와 HRS가 함께 있을 수 있다. 진단 후 혈관수축제와 albumin을 사용하되 산소화·체액 과부하를 감시하고 이식 적합성을 평가한다.
+
+간성뇌증은 암모니아 수치 하나로 진단·중증도를 정하지 않는다. 금식·장기 단백질 제한은 근감소증을 악화시킬 수 있다. 보통 단백질 1.2–1.5 g/kg/day와 충분한 열량을 공급하고 장시간 공복을 피하며, 중증 상태에서는 경장 영양 등 투여 경로를 조절한다.
 
 ## 포함 질환
 - [[간성 뇌증 (Hepatic Encephalopathy)]]
@@ -117,3 +122,11 @@ Last updated :
 - [[식도 정맥류 (Esophageal Varices)]]
 - [[위 정맥류 (Gastric Varices)]]
 - [[자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)]]
+
+## 참고 가이드라인
+
+- [Baveno VIII 문맥고혈압 개정 합의문, 2026](https://doi.org/10.1016/j.jhep.2026.07.030)
+- [Baveno VII 문맥고혈압 합의문 (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/)
+- [AASLD 복수·SBP·HRS 진료지침 (2021)](https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis)
+- [ADQI/ICA 간경변 AKI·HRS 합의문 (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11193657/)
+- [EASL 만성 간질환 영양 지침 (2019)](https://easl.eu/wp-content/uploads/2018/10/EASL-CPG-nutrition-in-chronic-liver-disease.pdf)

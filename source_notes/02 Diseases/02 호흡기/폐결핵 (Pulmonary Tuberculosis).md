@@ -24,10 +24,13 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
-guideline_year: "2024"
-sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000001"]
-
-content_updated_at: "2026-07-17"
+guideline_year: '2025'
+sources:
+- "ATS·CDC·ERS·IDSA 2025 결핵 치료 업데이트 공식 요약 | https://www.cdc.gov/tb/php/dear-colleague-letters/2025-treatment-guidelines.html"
+- "CDC 2025 결핵 임상 치료 | https://www.cdc.gov/tb/hcp/treatment/index.html"
+content_updated_at: '2026-10-07'
+guideline_reviewed_at: '2026-10-07'
+guideline_review_status: primary_source_reviewed
 ---
 분과: [[호흡기]]
 
@@ -64,23 +67,18 @@ content_updated_at: "2026-07-17"
 - 흉부 X선 변화만으로 치료 반응을 판단하지 않는다. 치료 중단 뒤 재시작하거나 치료 실패가 의심되면 실제 복용 이력과 객담 배양·약제감수성을 다시 확인해 치료 조정의 근거를 확보한다.
 - 치료 종료 뒤에도 재발 증상과 잔존 폐질환, 약물 독성 후유증을 평가한다.
 
-## 출처
-- CDC. Clinical Treatment of Tuberculosis (2025).
-- ATS/CDC/ERS/IDSA. Updates on Treatment of Drug-Susceptible and Drug-Resistant Tuberculosis (2025).
-- 대한결핵 및 호흡기학회. 결핵진료지침 5판 (2024).
+## 활동성 감염과 잔존 공동의 구별
 
-## 공통 접근
-- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
-- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+| 상태 | 진단 포인트 | 처치 차이 |
+| --- | --- | --- |
+| 활동성 폐·기관지 결핵 | 증상·영상과 검체 NAAT/배양 | 병합치료·공기주의·접촉자 관리 |
+| 잠복결핵 | 활동성 질환 배제 후 감염 검사 해석 | 예방치료; 활동성 요법과 다름 |
+| 좁쌀결핵 | 전신 파종·다장기 침범 | 면역저하·중추신경 침범 등 중증 평가 |
+| 결핵 후 공동의 진균종 | 공동 내 종괴·객혈 | 결핵 재발과 감별; 항결핵제만으로 해결되지 않음 |
 
-## 하위 질환 감별 포인트
-| 하위 질환 | 구분에 유용한 단서 |
-| --- | --- |
-| [[기관지 결핵 (Bronchial Tuberculosis)]] | 기관지 내벽에 결핵 병변이 발생하는 형태의 결핵 |
-| [[잠복 결핵 (성인) (Latent Tuberculosis (Adult))]] | 결핵균에 감염되었으나 임상적으로 활동성 결핵의 증상이나 징후가 없고, 흉부 X-선 검사상 활동성 병변이 없는 상태 |
-| [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]] | 소아에서 결핵균에 감염되었으나 활동성 결핵의 증상이나 징후가 없는 상태 |
-| [[좁쌀 결핵 (Miliary Tuberculosis)]] | 결핵균이 혈류를 통해 전신으로 퍼져나가 폐를 포함한 여러 장기에 1~2mm 크기의 작은 결절성 병변(millet-seed-sized)을 형성하는 중증 결핵 |
-| [[진균종 (Fungus Ball)]] | 폐 내 기존 공동 (cavity) 내에 진균 (주로 Aspergillus fumigatus)이 증식하여 형성된 덩어리 (Mycetoma) |
+2025 ATS/CDC/ERS/IDSA 업데이트는 적격 ≥12세 약제감수성 폐결핵에서 rifapentine·moxifloxacin을 포함한 4개월 요법을 권고한다. 비중증 소아 결핵에서도 별도의 4개월 요법이 있으며, 파종·중추신경·중증 결핵 등에 임의 확대하지 않는다. 국내 적용은 약제 가용성·상호작용·체중과 국내 지침을 확인한다.
+
+LTBI는 rifamycin 기반 단기 요법을 선호할 수 있으나 감염원의 내성·임신·동반 약물에 맞춰 선택한다. 진균종은 기존 공동의 합병증으로, 이 목록에 있다고 결핵균 자체의 한 형태로 해석하지 않는다.
 
 ## 포함 질환
 - [[기관지 결핵 (Bronchial Tuberculosis)]]
@@ -88,3 +86,8 @@ content_updated_at: "2026-07-17"
 - [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]]
 - [[좁쌀 결핵 (Miliary Tuberculosis)]]
 - [[진균종 (Fungus Ball)]]
+
+## 참고 가이드라인
+
+- [ATS·CDC·ERS·IDSA 2025 결핵 치료 업데이트 공식 요약](https://www.cdc.gov/tb/php/dear-colleague-letters/2025-treatment-guidelines.html)
+- [CDC 2025 결핵 임상 치료](https://www.cdc.gov/tb/hcp/treatment/index.html)
