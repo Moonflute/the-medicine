@@ -77,6 +77,7 @@ jobs:
 
       - name: Verify disease structure
         run: |
+          node --test scripts/test-infection-toc-contract.mjs
           node --test scripts/test-skills-manifest.mjs
           node --test scripts/test-disease-structure.mjs
           python ../../workspace_ops/scripts/test_group_overview_members.py

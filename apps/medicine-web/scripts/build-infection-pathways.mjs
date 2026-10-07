@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { validateInfectionToc } from "./infection-toc-contract.mjs";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
@@ -155,12 +156,14 @@ function main() {
   const output = { ...source, pathways };
   writeJson(OUTPUT_PATH, output);
   const snapshot = buildSnapshot();
-  const expectedToc = ["감염", "G(+)", "G(-)", "기타 감염질환", "혐기성균", "바이러스", "진균", "원생동물", "기생충", "발열", "원내감염", "지역사회 감염"];
   // The catalog is intentionally extensible: adding a canonical infection
   // note must not invalidate the pathway build.  Guard against accidental
   // mass deletion, while keeping the TOC hierarchy as the real invariant.
   assert(snapshot.markdownCount >= 95, `Infection specialty structure unexpectedly shrank below the reviewed baseline (95): got ${snapshot.markdownCount}`);
-  assert(JSON.stringify(snapshot.tocHeadings) === JSON.stringify(expectedToc), "Infection specialty pathogen-centered TOC order changed");
+  snapshot.additionalTocHeadings = validateInfectionToc(
+    snapshot.tocHeadings,
+    diseases.filter(item => item.specialty === "08 감염").map(item => item.classification ?? []),
+  );
   writeJson(SNAPSHOT_PATH, snapshot);
   const currentYear = new Date().getUTCFullYear();
   const visiblePathways = pathways.filter((item) => ["verified", "reviewed"].includes(item.reviewStatus));
