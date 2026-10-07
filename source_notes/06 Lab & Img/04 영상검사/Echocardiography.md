@@ -5,6 +5,8 @@ aliases:
   - Echo
   - Echocardiography
   - Cardiac ultrasound
+sources:
+- "ASE: Comprehensive TTE in Adults, 2019 | https://www.asecho.org/wp-content/uploads/2019/01/2019_Comprehensive-TTE.pdf"
 ---
 
 # Echocardiography
@@ -89,3 +91,8 @@ aliases:
 ## 12. 참고문헌
 - 일반 echocardiography 원리 및 표준 개념 요약
 - 보완 출처: 삼성서울병원 메뉴얼
+
+## 정상 구조와 흉골연 장축 영상
+흉골연 장축(PLAX)은 좌심실·심실중격·승모판·대동맥근부·좌심방의 관계를 함께 확인하는 기본 단면이다. 대동맥근부 뒤쪽의 좌심방과 승모판의 연결, 근위 우심실 등을 구분한다. 화면의 화살표 위치만 외우지 말고 단면·probe 방향과 인접 구조를 대조한다. 영상 방향이나 단면이 바뀌면 같은 화면 위치라도 다른 구조가 될 수 있다.
+
+참고: [ASE 성인 경흉부 심초음파 표준, 2019](https://www.asecho.org/wp-content/uploads/2019/01/2019_Comprehensive-TTE.pdf).

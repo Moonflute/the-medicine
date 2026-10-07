@@ -1,5 +1,18 @@
 import type { QbankQuestionIndex, RelatedTheoryDocument } from "./types";
 
+export function isRelatedTheoryDocumentType(value: unknown): value is RelatedTheoryDocument["type"] {
+  return value === "disease" || value === "cc" || value === "skill" || value === "lab";
+}
+
+export function relatedTheoryDocumentLabel(type: RelatedTheoryDocument["type"]): string {
+  return { disease: "질병", cc: "CC", skill: "술기 및 처치", lab: "검사영상" }[type];
+}
+
+export function relatedTheoryDocumentHref(document: Pick<RelatedTheoryDocument, "type" | "slug">): string {
+  const root = { disease: "/disease/", cc: "/cc/", skill: "/skills/", lab: "/lab-img/" }[document.type];
+  return `${root}${encodeURIComponent(document.slug)}`;
+}
+
 export type RelatedTheoryTopic = RelatedTheoryDocument & {
   /** The canonical page plus any descendant/compatible pages covered by this topic. */
   scopeSlugs?: string[];
@@ -32,7 +45,7 @@ function topicScope(topic: RelatedTheoryTopicRef & { scopeSlugs?: string[] }): S
 
 export function relatedTheoryTopicKey(topic: RelatedTheoryTopicRef): string {
   const slug = cleanSlug(topic.slug);
-  return slug && (topic.type === "disease" || topic.type === "cc")
+  return slug && isRelatedTheoryDocumentType(topic.type)
     ? `${topic.type}:${encodeURIComponent(slug)}`
     : "";
 }
@@ -50,7 +63,7 @@ export function parseRelatedTheoryTopicKeys(
   for (const chunk of chunks) {
     const separator = chunk.indexOf(":");
     const type = chunk.slice(0, separator);
-    if (separator < 1 || (type !== "disease" && type !== "cc")) continue;
+    if (separator < 1 || !isRelatedTheoryDocumentType(type)) continue;
     let slug = "";
     try {
       slug = cleanSlug(decodeURIComponent(chunk.slice(separator + 1)));
@@ -80,8 +93,13 @@ function questionMatchesTopic(question: QbankQuestionIndex, topic: RelatedTheory
     return (question.targetType === "disease" && scope.has(question.targetSlug))
       || question.relatedDiseaseSlugs.some((slug) => scope.has(slug));
   }
-  return (question.targetType === "cc" && scope.has(question.targetSlug))
-    || question.relatedCcSlugs.some((slug) => scope.has(slug));
+  if (topic.type === "cc") {
+    return (question.targetType === "cc" && scope.has(question.targetSlug))
+      || question.relatedCcSlugs.some((slug) => scope.has(slug));
+  }
+  // A linked skill/lab page is not evidence of a disease or CC question match.
+  // With no questions explicitly authored for this target the result stays zero.
+  return question.targetType === topic.type && scope.has(question.targetSlug);
 }
 
 export function filterRelatedTheoryQuestions(

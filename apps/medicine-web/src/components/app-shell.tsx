@@ -18,7 +18,7 @@ const navItems = [
   { href: "/specialties", label: "Specialties", icon: Activity },
   { href: "/drugs", label: "Drugs", icon: Pill },
   { href: "/lab-img", label: "Lab & Img", icon: FlaskConical },
-  { href: "/skills", label: "Skills", icon: Stethoscope },
+  { href: "/skills", label: "술기 및 처치", icon: Stethoscope },
   { href: "/review", label: "Review", icon: BookOpenCheck },
 ];
 
@@ -79,7 +79,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     if (pathname.startsWith("/specialty") || pathname.startsWith("/disease")) return "Disease Library";
     if (pathname.startsWith("/drugs")) return "Pharmacology";
     if (pathname.startsWith("/lab-img")) return "Lab & Imaging";
-    if (pathname.startsWith("/skills")) return "Clinical Skills";
+    if (pathname.startsWith("/skills")) return "술기 및 처치";
     if (pathname.startsWith("/review")) return "Review";
     return "The Medicine";
   }, [pathname]);

@@ -24,7 +24,7 @@ function readTopicMeta(value: string | null): QbankSessionTopic[] {
     return parsed.flatMap((item) => {
       if (!item || typeof item !== "object") return [];
       const candidate = item as Partial<QbankSessionTopic>;
-      if ((candidate.type !== "disease" && candidate.type !== "cc") || typeof candidate.slug !== "string" || typeof candidate.title !== "string" || typeof candidate.count !== "number") return [];
+      if ((candidate.type !== "disease" && candidate.type !== "cc" && candidate.type !== "skill" && candidate.type !== "lab") || typeof candidate.slug !== "string" || typeof candidate.title !== "string" || typeof candidate.count !== "number") return [];
       return [{ type: candidate.type, slug: candidate.slug, title: candidate.title, count: candidate.count }];
     });
   } catch {

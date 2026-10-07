@@ -23,13 +23,15 @@ function privateText(value: unknown, field: string, limit: number, allowEmpty = 
   return text;
 }
 
-function privateRelatedDocuments(value: unknown): Array<{ type: "disease" | "cc"; slug: string; title: string }> {
+type TheoryDocument = { type: "disease" | "cc" | "skill" | "lab"; slug: string; title: string };
+
+function privateRelatedDocuments(value: unknown): TheoryDocument[] {
   if (!Array.isArray(value) || value.length > 100) throw new Error("관련 이론 페이지를 확인해주세요.");
-  const documents = new Map<string, { type: "disease" | "cc"; slug: string; title: string }>();
+  const documents = new Map<string, TheoryDocument>();
   for (const raw of value) {
     if (!raw || typeof raw !== "object" || Array.isArray(raw)) throw new Error("관련 이론 페이지를 확인해주세요.");
     const item = raw as Record<string, unknown>;
-    if (item.type !== "disease" && item.type !== "cc") throw new Error("관련 이론 페이지 종류를 확인해주세요.");
+    if (item.type !== "disease" && item.type !== "cc" && item.type !== "skill" && item.type !== "lab") throw new Error("관련 이론 페이지 종류를 확인해주세요.");
     const slug = privateText(item.slug, "관련 이론 페이지 식별값", 500, false);
     const title = privateText(item.title, "관련 이론 페이지 이름", 300, false).trim();
     if (!/^[A-Za-z0-9_-]+$/.test(slug)) throw new Error("관련 이론 페이지 식별값을 확인해주세요.");

@@ -51,6 +51,8 @@ test('private Q-bank save validates and synchronizes editable theory links', asy
   const fields = { question: 'new', options: { A: 'one', B: 'two' }, answer: 'B', explanation: 'why', relatedDocuments: [
     { type: 'disease', slug: 'disease_1', title: '질병 1' },
     { type: 'cc', slug: 'cc-1', title: '주호소 1' },
+    { type: 'skill', slug: 'cpr', title: '심폐소생술' },
+    { type: 'lab', slug: 'lab-1', title: '검사 1' },
   ] };
   const response = await handler(req({ action: 'save-private-qbank', id, base, fields }));
   assert.equal(response.status, 200);

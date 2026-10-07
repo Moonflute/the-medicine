@@ -1,9 +1,9 @@
 import { isSelection } from "./qbank-grading";
 import { readMockExam, type MockExamState } from "./mock-exam";
-import type { QbankSelection } from "./types";
+import type { QbankSelection, RelatedTheoryDocument } from "./types";
 
 export type QbankSessionAnswer = { questionId: string; selected?: QbankSelection; correct: boolean | null; specialty: string };
-export type QbankSessionTopic = { type: "disease" | "cc"; slug: string; title: string; count: number };
+export type QbankSessionTopic = RelatedTheoryDocument & { count: number };
 export type QbankSessionContext = {
   kind: string;
   title: string;
@@ -53,7 +53,7 @@ function readSessionContext(value: unknown): QbankSessionContext | undefined {
   const topics = Array.isArray(candidate.topics) ? candidate.topics.flatMap((value) => {
     if (!value || typeof value !== "object" || Array.isArray(value)) return [];
     const topic = value as Partial<QbankSessionTopic>;
-    if (topic.type !== "disease" && topic.type !== "cc") return [];
+    if (topic.type !== "disease" && topic.type !== "cc" && topic.type !== "skill" && topic.type !== "lab") return [];
     const slug = boundedText(topic.slug, 240);
     const topicTitle = boundedText(topic.title, 120);
     if (!slug || !topicTitle || typeof topic.count !== "number" || !Number.isInteger(topic.count) || topic.count < 0 || topic.count > 100_000) return [];

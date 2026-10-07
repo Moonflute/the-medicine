@@ -366,6 +366,8 @@ export type ClinicalSkill = {
   aliases: string[];
   categoryId: string;
   categoryName: string;
+  subcategory?: string;
+  sections?: DiseaseSection[];
   summary: string[];
   indications: string[];
   supplies: string[];
@@ -380,6 +382,11 @@ export type SkillCategorySummary = {
   id: string;
   name: string;
   iconName: string;
+  legacyIds?: string[];
+  groups?: Array<{
+    name: string;
+    items: Array<{ id: string; name: string }>;
+  }>;
   items: Array<{
     id: string;
     name: string;
@@ -396,7 +403,7 @@ export type QbankAnswer = "A" | "B" | "C" | "D" | "E";
 export type QbankSelection = QbankAnswer | QbankAnswer[];
 
 export type RelatedTheoryDocument = {
-  type: "disease" | "cc";
+  type: "disease" | "cc" | "skill" | "lab";
   slug: string;
   title: string;
   category?: string;
@@ -432,7 +439,7 @@ export type QbankQuestion = {
   targetSlug: string;
   targetTitle?: string;
   figures?: Array<{ path: string; alt: string }>;
-  relatedDocuments?: Array<{ type: "disease" | "cc" | "drug"; slug: string; title: string }>;
+  relatedDocuments?: Array<{ type: RelatedTheoryDocument["type"] | "drug"; slug: string; title: string }>;
   relatedTheoryQuestionIds?: string[];
 };
 

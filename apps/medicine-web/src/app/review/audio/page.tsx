@@ -76,7 +76,7 @@ export default function AudioReviewPage() {
     })),
     ...getAllSkills().map((note) => ({
       id: `skill:${note.id}`, domain: "skill" as const, title: note.name, category: note.categoryName, href: `/skills/${note.id}`,
-      sections: [
+      sections: note.sections?.length ? toAudioSections(note.sections) : [
         ...sections("요약", note.summary), ...sections("적응증", note.indications), ...sections("준비물", note.supplies),
         { title: "술기 순서", lines: note.steps.map((step) => `${step.stepNumber}. ${step.title}. ${step.description}${step.warning ? ` 주의: ${step.warning}` : ""}`) },
         ...sections("합병증", note.complications), ...sections("주의사항", note.precautions),

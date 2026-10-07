@@ -1,6 +1,8 @@
 "use client";
 
 import { ChatSenderProvider } from "@/components/chat-contact";
+import { isRelatedTheoryDocumentType, relatedTheoryDocumentHref } from "@/lib/qbank-related-theory";
+
 import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
 
@@ -141,7 +143,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     const practiceId = new URLSearchParams(window.location.search).get("practiceId") ?? "";
     const [source] = await loadPracticeQuestions([practiceId]);
     const sourceReferences = Array.isArray(source?.relatedDocuments)
-      ? source.relatedDocuments.filter((item): item is RelatedTheoryDocument => item.type === "disease" || item.type === "cc")
+      ? source.relatedDocuments.filter((item): item is RelatedTheoryDocument => isRelatedTheoryDocumentType(item.type))
       : [
           ...(source?.relatedDiseaseSlugs ?? []).map((slug) => ({ type: "disease" as const, slug, title: slug })),
           ...(source?.relatedCcSlugs ?? []).map((slug) => ({ type: "cc" as const, slug, title: slug })),
@@ -772,7 +774,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {current.explanation ? <div data-highlight-block="explanation" className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
             {!!current.evidenceReferences?.length && <div className="mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
-            {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d) => d.type !== "drug").map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={`${d.type === "disease" ? "/disease/" : "/cc/"}${d.slug}`}>{d.title} · 이론</Link>)}</div>}
+            {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d): d is RelatedTheoryDocument => isRelatedTheoryDocumentType(d.type)).map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={relatedTheoryDocumentHref(d)}>{d.title} · 이론</Link>)}</div>}
             <RelatedTheoryLauncher key={current.id} question={current} />
             {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
             <ChatOptionalTools className="mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200/70 pt-2">

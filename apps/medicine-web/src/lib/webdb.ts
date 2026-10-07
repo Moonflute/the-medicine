@@ -468,7 +468,7 @@ export function getSkillsCategories(): SkillCategorySummary[] {
 }
 
 export function getSkillCategoryById(id: string): SkillCategorySummary | undefined {
-  return getSkillsCategories().find((category) => category.id === id);
+  return getSkillsCategories().find((category) => category.id === id || category.legacyIds?.includes(id));
 }
 
 export function getAllSkills(): ClinicalSkill[] {

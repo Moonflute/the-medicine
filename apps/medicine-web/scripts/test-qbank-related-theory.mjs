@@ -6,6 +6,7 @@ import {
   parseRelatedTheoryTopicKeys,
   relatedTheoryTopicKey,
   serializeRelatedTheoryTopicKeys,
+  relatedTheoryDocumentHref,
 } from "../src/lib/qbank-related-theory.ts";
 
 const question = (id, overrides = {}) => ({
@@ -41,6 +42,21 @@ const topics = [
   { type: "cc", slug: "dyspnea", title: "호흡곤란" },
   { type: "disease", slug: "missing-page", title: "문항 없는 주제" },
 ];
+
+test("skill and lab links keep their own routes and never fall back to CC matches", () => {
+  assert.equal(relatedTheoryDocumentHref({ type: "skill", slug: "cpr" }), "/skills/cpr");
+  assert.equal(relatedTheoryDocumentHref({ type: "lab", slug: "ekg" }), "/lab-img/ekg");
+  assert.deepEqual(parseRelatedTheoryTopicKeys("skill:cpr,lab:ekg"), [
+    { type: "skill", slug: "cpr" }, { type: "lab", slug: "ekg" },
+  ]);
+  const references = [{ type: "skill", slug: "cpr", title: "CPR" }, { type: "lab", slug: "ekg", title: "ECG" }];
+  const data = buildRelatedTheoryTopicStats([
+    question("unrelated-cc", { targetType: "cc", targetSlug: "cpr", relatedCcSlugs: ["ekg"] }),
+    question("explicit-skill", { targetType: "skill", targetSlug: "cpr" }),
+  ], references);
+  assert.deepEqual(data.topics.map(topic => topic.count), [1, 0]);
+  assert.deepEqual(data.questionIds, ["explicit-skill"]);
+});
 
 test("matches direct targets, descendant scope and related disease slugs", () => {
   assert.deepEqual(

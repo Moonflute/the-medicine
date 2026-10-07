@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { createSkillsManifest } from "./skills-manifest.mjs";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
@@ -1414,36 +1415,25 @@ function buildSkills() {
     return { source: "07 Skills", categories: [], items: [] };
   }
 
-  const categoryDirs = fs
-    .readdirSync(skillsRoot, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => path.join(skillsRoot, entry.name))
-    .sort((a, b) => path.basename(a).localeCompare(path.basename(b), "ko"));
-
-  const categories = [];
-  const items = [];
-
-  for (const categoryDir of categoryDirs) {
-    const files = listMarkdownFiles(categoryDir, { recursive: false, ignoreDirs: new Set(), ignoreFiles: new Set() });
-    const parsedSkills = [];
-    let categoryId = "";
-    let categoryName = path.basename(categoryDir);
-    let iconName = "Stethoscope";
-
-    for (const filePath of files) {
+  const parsedSkills = [];
+  const files = listMarkdownFiles(skillsRoot, { ignoreFiles: new Set(["index.md", "_목차.md"]) });
+  for (const filePath of files) {
       const { frontmatter, body } = splitFrontmatter(readText(filePath));
+      if (readScalar(frontmatter.type) === "index") continue;
+      const categoryName = path.basename(path.dirname(filePath));
       const id = readScalar(frontmatter.id) || path.basename(filePath, ".md");
       const name = readScalar(frontmatter.name) || path.basename(filePath, ".md");
       const skillCategoryId = readScalar(frontmatter.category_id) || toSlug(categoryName);
       const skillCategoryName = readScalar(frontmatter.category_name) || categoryName;
-      const skillIconName = readScalar(frontmatter.icon_name) || iconName;
+      const skillIconName = readScalar(frontmatter.icon_name) || "Stethoscope";
       const order = Number(readScalar(frontmatter.order)) || Number.MAX_SAFE_INTEGER;
-      categoryId = categoryId || skillCategoryId;
-      categoryName = skillCategoryName;
-      iconName = skillIconName;
 
       parsedSkills.push({
         order,
+        categoryOrder: Number(readScalar(frontmatter.category_order)) || Number.MAX_SAFE_INTEGER,
+        subcategoryOrder: Number(readScalar(frontmatter.subcategory_order)) || Number.MAX_SAFE_INTEGER,
+        iconName: skillIconName,
+        legacyCategoryIds: readList(frontmatter.legacy_category_ids),
         skill: {
           sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
           id,
@@ -1451,28 +1441,20 @@ function buildSkills() {
           aliases: readList(frontmatter.aliases),
           categoryId: skillCategoryId,
           categoryName: skillCategoryName,
-          summary: extractSummaryCallout(body),
-          indications: firstSkillSection(body, "Indications"),
-          supplies: firstSkillSection(body, "Supplies"),
-          complications: firstSkillSection(body, "Complications"),
-          precautions: firstSkillSection(body, "Precautions"),
+          subcategory: readScalar(frontmatter.subcategory),
+          sections: splitSections(body, true).filter(section => section.content.length > 0),
+          summary: extractSummaryCallout(body).length ? extractSummaryCallout(body) : firstSkillSection(body, "개요·원리"),
+          indications: firstSkillSection(body, "Indications").length ? firstSkillSection(body, "Indications") : firstSkillSection(body, "적응증·금기증"),
+          supplies: firstSkillSection(body, "Supplies").length ? firstSkillSection(body, "Supplies") : extractNestedSection(body, /^준비물$/),
+          complications: firstSkillSection(body, "Complications").length ? firstSkillSection(body, "Complications") : extractNestedSection(body, /^합병증$/),
+          precautions: firstSkillSection(body, "Precautions").length ? firstSkillSection(body, "Precautions") : extractNestedSection(body, /^주의사항$/),
           sources: parseSkillSources(frontmatter.sources),
           videoUrl: readScalar(frontmatter.video_url) || null,
           steps: extractSkillSteps(body),
         },
       });
-    }
-
-    parsedSkills.sort((a, b) => a.order - b.order || a.skill.name.localeCompare(b.skill.name, "ko"));
-    const categoryItems = parsedSkills.map(({ skill }) => ({ id: skill.id, name: skill.name }));
-    items.push(...parsedSkills.map(({ skill }) => skill));
-
-    if (categoryItems.length > 0) {
-      categories.push({ id: categoryId, name: categoryName, iconName, items: categoryItems });
-    }
   }
-
-  return { source: "07 Skills", categories, items };
+  return createSkillsManifest(parsedSkills);
 }
 
 function buildSearchIndex({ diseases, chiefComplaints, drugs, microbiology, physiology, pathology, labImg, skills }) {
@@ -1538,7 +1520,7 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, microbiology, phys
       title: item.name,
       category: item.categoryName,
       aliases: item.aliases,
-      keywords: [...item.indications, ...item.supplies].slice(0, 20),
+      keywords: [item.subcategory, ...item.sections.map(section => section.title), ...item.indications, ...item.supplies].filter(Boolean).slice(0, 30),
       quickSummary: item.summary[0] || item.indications[0] || "",
       href: `/skills/${item.id}`,
     })),
@@ -1745,6 +1727,8 @@ function main() {
       scopeSlugs: diseaseHierarchy.scopeSlugsBySlug[item.slug] ?? [item.slug],
     })),
     ...chiefComplaints.map((item) => ({ type: "cc", slug: item.slug, title: item.title, category: item.category || "CC" })),
+    ...skills.items.map((item) => ({ type: "skill", slug: item.id, title: item.name, category: item.categoryName })),
+    ...labImg.map((item) => ({ type: "lab", slug: item.slug, title: item.title, category: item.category })),
   ]);
 
   const specialties = [...new Map(visibleDiseases.map((item) => [item.specialty, item])).keys()].map((name) => {
@@ -1842,4 +1826,11 @@ function main() {
   );
 }
 
-main();
+if (process.argv.includes("--skills-only")) {
+  ensureDir(DATA_ROOT);
+  const skills = buildSkills();
+  writeJson("skills.json", skills);
+  console.log(JSON.stringify({ skills: skills.items.length, categories: skills.categories.length }));
+} else {
+  main();
+}

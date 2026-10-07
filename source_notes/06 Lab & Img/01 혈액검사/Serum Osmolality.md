@@ -2,6 +2,8 @@
 유형: lab_test
 검사_분류: 혈액검사
 검체: serum
+sources:
+  - 'MedlinePlus: Osmolality tests | https://medlineplus.gov/lab-tests/osmolality-tests/'
 ---
 
 # Serum Osmolality
@@ -20,6 +22,7 @@
 - 용질 입자가 많을수록 용액의 freezing point가 더 낮아지는 성질을 이용해, 혈청의 freezing point 변화를 측정하고 이를 `mOsm/kg`로 환산한다.
 - 따라서 이 검사는 “나트륨만” 보는 검사가 아니라, **혈액이 전체적으로 얼마나 농축되어 있는지**를 직접 측정하는 검사이다.
 - 계산값은 흔히 `Calculated Osmolality = 2 x Na + Glucose/18 + BUN/2.8`로 추정하지만, 실제 측정값과 차이가 나면 `osmolar gap`을 생각한다.
+- 위 식은 Na를 mEq/L(또는 mmol/L), glucose·BUN을 mg/dL로 넣는 경우다. Na 140, glucose 90, BUN 14이면 계산값은 `280 + 5 + 5 = 290`이다. SI 단위의 glucose·urea 값을 같은 분모로 다시 나누지 않는다.
 
 ## 3. 검체 및 측정 방법
 - 검체는 venous blood에서 얻은 serum 또는 plasma를 사용한다.

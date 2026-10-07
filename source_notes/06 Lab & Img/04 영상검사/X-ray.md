@@ -6,6 +6,9 @@ aliases:
   - Radiography
   - X-ray
   - Chest X-ray
+sources:
+- "ACR: Cardiothoracic Ratio | https://www.acr.org/Data-Science-and-Informatics/AI-in-Your-Practice/AI-Use-Cases/Use-Cases/Cardiothoracic-Ratio"
+- "ACR: High-Yield Radiology Guides | https://cs.acr.org/-/media/ACR/Files/Member-Resources/Med-Students/MESO_High-Yield-Guides_Design_v3.pdf"
 ---
 
 # X-ray
@@ -72,3 +75,8 @@ aliases:
 ## 11. 참고문헌
 - RadiologyInfo: Radiation Dose from X-Ray and CT Exams
 - 일반 radiography 원리 요약
+
+## 심흉곽비
+심흉곽비(CTR)는 심장 음영의 최대 횡경을 흉곽의 최대 내부 횡경으로 나눈 값이다. 그림에서 정중선 기준 우측·좌측 심장 폭을 A·B, 흉곽 폭을 C라 표시했다면 `(A+B)/C`로 계산한다. 촬영 조건이 적절한 성인 PA 영상의 통상적인 0.5 기준을 소아·영아나 portable AP 영상에 그대로 적용하지 않는다. AP의 확대, 회전·흡기 정도, 흉선 등은 심장 크기 판단에 영향을 준다. 확대된 음영만으로 심부전·심근질환을 확정하지 않고 이전 영상·임상·심초음파 등과 대조한다.
+
+참고: [ACR 심흉곽비](https://www.acr.org/Data-Science-and-Informatics/AI-in-Your-Practice/AI-Use-Cases/Use-Cases/Cardiothoracic-Ratio), [촬영 방향과 확대](https://cs.acr.org/-/media/ACR/Files/Member-Resources/Med-Students/MESO_High-Yield-Guides_Design_v3.pdf).

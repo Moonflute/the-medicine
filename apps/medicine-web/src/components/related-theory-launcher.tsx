@@ -1,5 +1,7 @@
 "use client";
 
+import { isRelatedTheoryDocumentType, relatedTheoryDocumentLabel } from "@/lib/qbank-related-theory";
+
 import Link from "next/link";
 import { SkinStatus } from "@/components/skin-status";
 import { BookOpenCheck, X } from "lucide-react";
@@ -22,7 +24,7 @@ async function fetchJson<T>(path: string): Promise<T> {
 
 function questionTopicRefs(question: QbankQuestion): RelatedTheoryDocument[] {
   if (Array.isArray(question.relatedDocuments)) {
-    return question.relatedDocuments.filter((item): item is RelatedTheoryDocument => item.type === "disease" || item.type === "cc");
+    return question.relatedDocuments.filter((item): item is RelatedTheoryDocument => isRelatedTheoryDocumentType(item.type));
   }
   return [
     ...question.relatedDiseaseSlugs.map((slug) => ({ type: "disease" as const, slug, title: slug })),
@@ -117,7 +119,7 @@ export function RelatedTheoryLauncher({ question }: { question: QbankQuestion })
               const checked = selectedKeys.includes(key);
               return <label key={key} className={`flex items-center gap-3 rounded-lg border px-3.5 py-3 ${topic.count > 0 ? "cursor-pointer" : "cursor-not-allowed bg-slate-50 text-slate-400"} ${checked ? "border-teal-400 bg-teal-50" : "border-slate-200"}`}>
                 <input type="checkbox" disabled={topic.count === 0} checked={checked} onChange={() => setSelectedKeys((items) => checked ? items.filter((item) => item !== key) : [...items, key])} className="h-4 w-4 shrink-0 accent-teal-600" />
-                <span className="min-w-0 flex-1"><span className="block truncate text-sm font-semibold">{topic.title}</span><span className="text-xs text-slate-500">{topic.type === "disease" ? "질병" : "CC"}</span></span>
+                <span className="min-w-0 flex-1"><span className="block truncate text-sm font-semibold">{topic.title}</span><span className="text-xs text-slate-500">{relatedTheoryDocumentLabel(topic.type)}</span></span>
                 <span className="shrink-0 text-sm tabular-nums text-slate-600">{topic.count.toLocaleString()}문항</span>
               </label>;
             })}</div>

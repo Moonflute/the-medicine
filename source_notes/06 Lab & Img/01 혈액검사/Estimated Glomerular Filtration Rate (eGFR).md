@@ -5,6 +5,9 @@
 aliases:
   - eGFR
   - Estimated GFR
+sources:
+  - 'NIDDK: eGFR equations for adults | https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults'
+  - 'NIDDK: Determining drug dosing in adults with CKD | https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/ckd-drug-dosing-providers'
 ---
 
 # Estimated Glomerular Filtration Rate (eGFR)
@@ -19,6 +22,11 @@ aliases:
 - serum creatinine에 age와 sex 같은 인자를 넣어 계산한다.
 - 본질은 “분당 얼마나 혈액을 여과할 수 있는가”를 추정하는 것이다.
 - MedlinePlus도 creatinine 단독보다 eGFR가 kidney health를 더 정확히 보여줄 수 있다고 설명한다.
+
+### Cockcroft–Gault와 eGFR의 구분
+- 과거 Cockcroft–Gault 추정 CCr는 `(140−나이) × 체중(kg) / [72 × 혈청 Cr(mg/dL)]`, 여성에서는 ×0.85로 계산하며 단위는 mL/min이다.
+- CKD-EPI eGFR의 mL/min/1.73 m²와 같은 수치·단위로 취급하지 않는다. 약물 용량 기준은 해당 라벨의 신기능 지표·단위와 체표면적 보정 여부를 확인한다.
+- 예시의 47세·50 kg 여성과 20세·75 kg 남성이 모두 Cr 1.2라면 위 식의 CCr는 약 45.7과 104.2 mL/min으로 비율이 약 0.44다. 이 계산만으로 두 환자에게 CKD를 확진하지 않는다.
 
 ## 3. 정상범위
 - 대개 `90 mL/min/1.73 m2` 이상

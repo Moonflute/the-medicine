@@ -40,6 +40,18 @@ test("ordinary theory and clinical selections get a compact readable summary", (
   assert.match(context.summary, /20문항/);
 });
 
+test("skill and lab topic metadata survives URL parsing and session restoration", () => {
+  const topics = [
+    { type: "skill", slug: "c-line", title: "중심정맥관", count: 2 },
+    { type: "lab", slug: "abga", title: "동맥혈가스분석", count: 1 },
+  ];
+  const params = new URLSearchParams({ mode: "theory-linked", count: "3", topicMeta: JSON.stringify([...topics, { type: "unknown", slug: "wrong", title: "invalid", count: 99 }]) });
+  const context = qbankSessionContextFromParams(params, specialties);
+  assert.equal(JSON.stringify(context.topics), JSON.stringify(topics));
+  const restored = activeSession.activeSessionFrom({ sessionId: "test", updatedAt: new Date(0).toISOString(), questionIds: [], answers: [], selected: null, submitted: false, context });
+  assert.equal(JSON.stringify(restored.context.topics), JSON.stringify(topics));
+});
+
 test("practice, wrong and bookmark sessions receive specific labels", () => {
   const practice = qbankSessionContextFromParams(new URLSearchParams({ mode: "practice-book", practiceOnly: "1", practiceYears: "2025", practiceDepartments: "내과", practiceUnattempted: "1", count: "50" }), specialties);
   assert.equal(practice.title, "실전문제 풀이");

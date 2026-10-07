@@ -4,7 +4,7 @@ export const skinDestinations = [
   { href: "/specialties", title: "진료과 자료", short: "진료과", code: "THEORY", summary: "질환 이론과 진료과별 자료", initials: "이론" },
   { href: "/drugs", title: "약물 자료", short: "약물", code: "DRUGS", summary: "기전 · 용량 · 주의사항", initials: "약물" },
   { href: "/lab-img", title: "검사실", short: "검사", code: "LAB", summary: "검사 수치 · 영상 · 계산 도구", initials: "검사" },
-  { href: "/skills", title: "술기 자료", short: "술기", code: "SKILLS", summary: "준비부터 시행까지, 단계별 확인", initials: "술기" },
+  { href: "/skills", title: "술기 및 처치", short: "술기", code: "SKILLS", summary: "술기 원칙 · 처치 · 시행과 확인", initials: "술기" },
   { href: "/review", title: "내 보관함", short: "복습", code: "REVIEW", summary: "저장한 문서와 복습 기록", initials: "저장" },
   { href: "/review/qbank", title: "문제은행", short: "문제", code: "QBANK", summary: "문제풀이 · 오답 · 학습 통계", initials: "문제" },
 ] as const;
