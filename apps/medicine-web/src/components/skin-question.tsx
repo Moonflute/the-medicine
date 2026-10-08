@@ -25,10 +25,16 @@ export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: 
   </div>;
 }
 
+export function SkinQuestionSendIcon({ fallback }: { fallback?: ReactNode }) {
+  const { theme, chatSkin } = useAppTheme();
+  if (theme !== "chat" || chatSkin !== "clear-blue") return fallback ?? <ArrowUp size={18} aria-hidden="true" />;
+  return <svg width={22} height={22} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M3.2 3.5L21.4 12L3.2 20.5L5.6 13.4L15.7 12L5.6 10.6Z" /></svg>;
+}
+
 export function SkinQuestionAction({ submitted, unknown, last, onSubmit, onNext }: { submitted: boolean; unknown: boolean; last: boolean; onSubmit: () => void; onNext: () => void }) {
   const { theme } = useAppTheme();
   const label = submitted ? last ? "결과 보기" : theme === "mail" ? "다음 메일" : theme === "social" ? "다음 게시물" : theme === "editor" ? "Next test" : "다음 문제" : unknown ? theme === "mail" ? "모름으로 회신" : theme === "editor" ? "모름으로 실행" : "모름으로 제출" : theme === "mail" ? "회신" : theme === "social" ? "답 제출" : theme === "editor" ? "▶ 실행" : theme === "chat" ? "보내기" : theme === "terminal" ? "ENTER · 제출" : "답안 제출";
-  return <button type="button" onClick={submitted ? onNext : onSubmit} title={label} aria-label={submitted ? last ? "결과 보기" : "다음 문제" : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <ArrowUp size={18} /> : null}</button>;
+  return <button type="button" onClick={submitted ? onNext : onSubmit} title={label} aria-label={submitted ? last ? "결과 보기" : "다음 문제" : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <SkinQuestionSendIcon /> : null}</button>;
 }
 
 export function SkinQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode = "study", sourceTitle = "문제은행", choicesCount = 5 }: {
