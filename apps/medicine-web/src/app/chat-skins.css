@@ -38,7 +38,7 @@ html[data-theme="chat"][data-chat-skin="clear-blue"] {
   --accent: #246bce;
 }
 html[data-theme="chat"][data-chat-skin="clear-blue"] .skin-frame:has(.skin-question-chat,.chat-mock-exam) {
-  --chat-wall: #a9ccea;
+  --chat-wall: #9bc1e1;
 }
 html[data-theme="chat"][data-chat-skin="con"] {
   --chat-wall: #dceacb;
