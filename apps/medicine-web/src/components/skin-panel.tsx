@@ -1,14 +1,14 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { isSpecialTheme } from "@/lib/themes";
 
 /** Keep controls mounted while changing the surrounding presentation. */
 export function SkinPanel({ title, children, className = "", ordinal, label, id }: {
   title: string; children: ReactNode; className?: string; ordinal?: number; label?: string; id?: string;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const special = isSpecialTheme(theme);
   return <section id={id} aria-label={label || title} className={special ? `skin-panel skin-panel--${theme}` : className}>
     {special ? <div className="skin-panel-heading" key="heading">

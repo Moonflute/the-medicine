@@ -7,7 +7,7 @@ import { SkinStatus } from "@/components/skin-status";
 import { useRouter } from "next/navigation";
 import { ArrowRight, Clock3, Search, Trash2 } from "lucide-react";
 import { SkinHomeDirectory } from "@/components/skin-home-directory";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { isSpecialTheme } from "@/lib/themes";
 import type { SearchEntry } from "@/lib/types";
 
@@ -106,7 +106,7 @@ function scoreEntry(entry: SearchEntry, term: string, compactTerm: string) {
 
 export function SearchPanel({ entries, className = "", initialQuery = "" }: { entries: SearchEntry[]; className?: string; initialQuery?: string }) {
   const router = useRouter();
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const specialTheme = isSpecialTheme(theme);
   const [query, setQuery] = useState(initialQuery);
   const [activeResultIndex, setActiveResultIndex] = useState(0);

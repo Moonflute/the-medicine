@@ -62,10 +62,10 @@ html[data-theme="sheet"] .skin-frame .skin-page { padding:12px 8px 50px; backgro
 html[data-theme="sheet"] .skin-frame .skin-workbook-tabs { gap:0; overflow-x:auto; background:#edf2ee; border-top:1px solid #c7d5cb; scrollbar-width:thin; }
 html[data-theme="sheet"] .skin-frame .skin-workbook-tabs a { display:flex; flex-shrink:0; align-items:center; justify-content:center; min-width:52px; height:41px; padding:0 10px; font-size:11px; border-right:1px solid #cfdbd3; }
 html[data-theme="sheet"] .skin-frame .skin-workbook-tabs a[aria-current] { background:#fff; color:#217346; border-bottom:3px solid #217346; }
-html[data-theme="chat"] .skin-frame { background:#fff; }
-html[data-theme="chat"] .skin-frame[data-conversation="true"] .skin-page { background:#b2c7d9; }
-html[data-theme="chat"] .skin-frame .skin-app-header { background:#fafafa; border-bottom:1px solid #e6e9eb; }
-html[data-theme="chat"] .skin-frame .skin-chat-dock { justify-content:space-around; background:#f8f8f8; border-top:1px solid #e8e9eb; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame { background:#fff; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame[data-conversation="true"] .skin-page { background:#b2c7d9; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-app-header { background:#fafafa; border-bottom:1px solid #e6e9eb; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-chat-dock { justify-content:space-around; background:#f8f8f8; border-top:1px solid #e8e9eb; }
 .skin-chat-dock :is(a,button) { display:flex; flex:1; flex-direction:column; justify-content:center; align-items:center; gap:3px; height:56px; font-size:9px; color:#818990; }
 .skin-dock-glyph { display:flex; height:22px; min-width:28px; align-items:center; justify-content:center; font-size:10px; font-weight:600; border-radius:7px; }
 .skin-chat-dock [aria-current] .skin-dock-glyph { color:#252b2e; background:#fae100; }
@@ -169,9 +169,9 @@ html[data-theme="sheet"]:has(.cc-themed-document) { scroll-padding-top:calc(var(
 .skin-document-contact > span:last-child { display:flex; min-width:0; flex-direction:column; gap:4px; }
 .skin-document-contact strong { font-size:14px; }
 .skin-document-contact small { font-size:10px; color:#536b7e; }
-html[data-theme="chat"] .clinical-document > .skin-document-intro { padding:0 4px; }
-html[data-theme="chat"] .skin-document-intro-content > div { padding:12px; margin-left:36px; background:#fff; border-radius:0 12px 12px; border:0; }
-html[data-theme="chat"] .skin-document-intro-content h2 { display:none; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .clinical-document > .skin-document-intro { padding:0 4px; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-document-intro-content > div { padding:12px; margin-left:36px; background:#fff; border-radius:0 12px 12px; border:0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-document-intro-content h2 { display:none; }
 .skin-document-intro--terminal > .skin-command-line { margin:20px 0 6px; border-bottom:1px dashed #555; padding-bottom:8px; }
 .skin-document-toc { scroll-margin-top:calc(var(--app-header-height) + 40px); margin:14px 0; padding:10px; }
 .skin-document-toc--chat { margin-left:36px; background:#ffffffa0; border-radius:12px; }
@@ -179,9 +179,9 @@ html[data-theme="chat"] .skin-document-intro-content h2 { display:none; }
 .skin-document-toc--sheet { background:#eaf1ec; border:1px solid #c9d5cc; }
 .skin-document-toc--terminal { border:1px dashed #777; font-size:11px; }
 .skin-frame .cc-document-body { padding:0; background:transparent; border:0; box-shadow:none; }
-html[data-theme="chat"] .skin-frame .cc-view-label { text-align:center; margin:14px 0; }
-html[data-theme="chat"] .skin-frame .skin-doc-panel :is(label,.skin-checklist-message) { border:0; background:#fff; border-radius:0 12px 12px 12px; }
-html[data-theme="chat"] .skin-frame .skin-doc-panel .grid { gap:8px; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .cc-view-label { text-align:center; margin:14px 0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-doc-panel :is(label,.skin-checklist-message) { border:0; background:#fff; border-radius:0 12px 12px 12px; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-doc-panel .grid { gap:8px; }
 .skin-frame .cc-document-header { border-radius:0; }
 .skin-frame .cc-document-body { background:transparent; border:0; padding:0; box-shadow:none; border-radius:0; }
 .skin-frame .clinical-document.surface { background:transparent; border:0; box-shadow:none; }
@@ -244,24 +244,24 @@ html[data-theme="chat"] .skin-frame .skin-doc-panel .grid { gap:8px; }
 .skin-q-choices--terminal .skin-q-choice[data-selected="true"] { background:#fff; color:#000; }
 html[data-theme="terminal"] .skin-question-console .skin-q-response > :is(div,section) { border:1px dashed #aaa; background:#000; border-radius:0; padding:12px; }
 .skin-q-command-hints { display:flex; flex-wrap:wrap; gap:8px 16px; color:var(--muted); font-size:10px; margin:12px 0; }
-html[data-theme="chat"] .skin-q-article { padding:12px 4px; border:0; background:transparent; box-shadow:none; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-q-article { padding:12px 4px; border:0; background:transparent; box-shadow:none; }
 html[data-theme="sheet"] .skin-q-article { padding:0; border:0; background:transparent; }
 html[data-theme="terminal"] .skin-q-article { padding:0; border:0; background:#000; }
-html[data-theme="chat"] .skin-q-article .document-toolbar { margin-inline:-4px; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-q-article .document-toolbar { margin-inline:-4px; }
 html[data-theme="sheet"] .skin-q-article .document-toolbar { margin-inline:0; }
 html[data-theme="terminal"] .skin-q-article .document-toolbar { margin-inline:0; }
 .skin-frame .skin-q-article .document-toolbar--inset { margin-top:0; }
 html[data-theme="terminal"] .skin-q-choices--terminal .skin-q-choice[data-selected="true"] [class*="text-"] { color:#000; }
-html[data-theme="chat"] .home-settings-dialog { border-radius:16px 16px 0 0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .home-settings-dialog { border-radius:16px 16px 0 0; }
 html[data-theme="sheet"] .home-settings-dialog { border-radius:0; box-shadow:5px 5px 0 #0002; }
 html[data-theme="sheet"] .home-settings-header { background:#217346; color:white; }
 html[data-theme="terminal"] .home-settings-header { border-bottom:1px dashed #aaa; }
 html[data-theme="terminal"] .home-settings-theme { border-radius:0; }
 @media (max-width:639px) {
-  html:is([data-theme="chat"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-header-line { height:58px; gap:8px; }
-  html:is([data-theme="chat"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-app-menu { height:auto; }
-  html:is([data-theme="chat"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-formula { height:29px; }
-  html:is([data-theme="chat"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-console-path { height:28px; }
+  html:is([data-theme="chat"],[data-theme="messenger"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-header-line { height:58px; gap:8px; }
+  html:is([data-theme="chat"],[data-theme="messenger"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-app-menu { height:auto; }
+  html:is([data-theme="chat"],[data-theme="messenger"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-formula { height:29px; }
+  html:is([data-theme="chat"],[data-theme="messenger"],[data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-app-header > .skin-console-path { height:28px; }
   .skin-frame .skin-header-actions .secondary-action { padding-inline:7px; font-size:10px; min-height:30px; }
   .skin-message-bubble { padding:9px 11px; }
   .skin-note-grid td { padding:8px; }
@@ -300,7 +300,7 @@ html[data-theme="terminal"] .home-settings-theme { border-radius:0; }
 .skin-frame .skin-panel-content .skin-entry { margin-top:8px; }
 .skin-frame .skin-skill-video > div { aspect-ratio:auto; padding:16px; }
 .skin-frame .skin-skill-video > div > svg { width:22px; height:22px; margin-bottom:8px; }
-html[data-theme="chat"] .skin-panel-content .skin-entry--chat { padding:10px 0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-panel-content .skin-entry--chat { padding:10px 0; }
 html[data-theme="sheet"] .skin-panel-content .skin-entry--sheet { margin-inline:-16px; }
 @media (max-width:639px) { .skin-panel--chat { padding-left:30px; } .skin-panel-content { padding:12px; } html[data-theme="sheet"] .skin-panel-content .skin-entry--sheet { margin-inline:-12px; } }
 @media (prefers-reduced-motion:reduce) { .skin-frame * { scroll-behavior:auto; } }
@@ -333,18 +333,18 @@ html[data-theme="sheet"] .skin-panel-content .skin-entry--sheet { margin-inline:
 .review-launcher-option input { accent-color:var(--primary); }
 .review-launcher-message { margin-top:10px; color:var(--foreground); font-size:12px; }
 .review-launcher-heading { display:flex; justify-content:space-between; gap:12px; padding-bottom:10px; font-size:12px; color:var(--muted); }
-html[data-theme="chat"] .review-launchers { padding:12px 14px 0; border:1px solid var(--line); border-radius:12px; background:var(--surface); }
-html[data-theme="chat"] .review-launcher-list { gap:0; }
-html[data-theme="chat"] .review-launcher { border:0; border-bottom:1px solid var(--line); border-radius:0; }
-html[data-theme="chat"] .review-launcher:last-child { border-bottom:0; }
-html[data-theme="chat"] .review-action-main { grid-template-columns:42px minmax(0,1fr) 32px; align-items:center; min-height:84px; padding:13px 0; }
-html[data-theme="chat"] .review-action-icon { width:42px; height:42px; border:0; border-radius:14px; color:var(--muted); }
-html[data-theme="chat"] .review-action-label { display:none; }
-html[data-theme="chat"] .review-action-title { font-size:14px; }
-html[data-theme="chat"] .review-action-summary { font-size:11px; }
-html[data-theme="chat"] .review-action-open { color:var(--muted); }
-html[data-theme="chat"] .review-action-settings { top:24px; right:0; border:0; color:var(--muted); }
-html[data-theme="chat"] .review-launcher-details { padding:12px 0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-launchers { padding:12px 14px 0; border:1px solid var(--line); border-radius:12px; background:var(--surface); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-launcher-list { gap:0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-launcher { border:0; border-bottom:1px solid var(--line); border-radius:0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-launcher:last-child { border-bottom:0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-action-main { grid-template-columns:42px minmax(0,1fr) 32px; align-items:center; min-height:84px; padding:13px 0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-action-icon { width:42px; height:42px; border:0; border-radius:14px; color:var(--muted); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-action-label { display:none; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-action-title { font-size:14px; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-action-summary { font-size:11px; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-action-open { color:var(--muted); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-action-settings { top:24px; right:0; border:0; color:var(--muted); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .review-launcher-details { padding:12px 0; }
 html[data-theme="sheet"] .review-launcher-columns { display:grid; grid-template-columns:26px minmax(0,1fr) minmax(0,1.1fr) 42px; border:1px solid var(--line); background:var(--surface-subtle); color:var(--muted); font-size:10px; }
 html[data-theme="sheet"] .review-launcher-columns > span { min-width:0; padding:7px 8px; border-right:1px solid var(--line); }
 html[data-theme="sheet"] .review-launcher-columns > span:last-child { border-right:0; text-align:center; }
@@ -378,4 +378,4 @@ html[data-theme="terminal"] .review-action-settings { top:12px; right:0; width:4
 html[data-theme="terminal"] .review-action-settings > span { display:block; }
 html[data-theme="terminal"] .review-launcher-details { padding:12px 0; border-top-style:dashed; }
 html[data-theme="terminal"] .review-launcher-option { border-radius:0; color:#fff; }
-@media (min-width:1024px) { .review-launcher-list { grid-template-columns:repeat(3,minmax(0,1fr)); } html:is([data-theme="chat"],[data-theme="sheet"],[data-theme="terminal"]) .review-launcher-list { grid-template-columns:minmax(0,1fr); } }
+@media (min-width:1024px) { .review-launcher-list { grid-template-columns:repeat(3,minmax(0,1fr)); } html:is([data-theme="chat"],[data-theme="messenger"],[data-theme="sheet"],[data-theme="terminal"]) .review-launcher-list { grid-template-columns:minmax(0,1fr); } }

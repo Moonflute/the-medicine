@@ -5,6 +5,7 @@
 @import "./sheet-skins.css";
 @import "./skin-status.css";
 @import "./concept-skins.css";
+@import "./skin-workspace.css";
 
 :root {
   color-scheme: light;

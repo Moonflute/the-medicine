@@ -1,7 +1,7 @@
 "use client";
 
 import { ChatQbankLobby } from "@/components/chat-qbank-lobby";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
 
@@ -136,7 +136,7 @@ function QuestionBankPicker({ questionBank, title, items, selected, setSelected,
 }
 
 export function QbankDashboardClient({ questions, relatedTarget }: { questions: QbankQuestionIndex[]; relatedTarget?: RelatedTarget }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const chatLayout = theme === "chat" && !relatedTarget;
   const availableQuestions = useMemo(() => {
     if (!relatedTarget) return questions;

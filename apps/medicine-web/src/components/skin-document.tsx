@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, type ReactNode } from "react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { useChatSenderName } from "@/components/chat-contact";
 import { SheetCellRow, SheetDocumentIntro, SheetSectionTabs, useInSheetCell, useSheetWorkbook, type SheetIntroRow } from "@/components/sheet-workbook";
 import { isConceptTheme, isSpecialTheme } from "@/lib/themes";
@@ -11,13 +11,13 @@ import { useConceptWorkspace } from "@/components/concept-workspace";
 export type SkinTextBlock = { kind: "text" | "heading" | "group" | "table" | "space"; label?: string; content: ReactNode };
 
 export function SkinQuickReference({ children, className }: { children: ReactNode; className: string }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   if (isConceptTheme(theme)) return <ConceptDocumentSummary theme={theme}>{children}</ConceptDocumentSummary>;
   return <div className={className}><div className="mb-3 text-sm font-semibold text-teal-900">Quick reference</div>{children}</div>;
 }
 
 export function SkinDocumentNotice({ title, children, className = "mt-3 flex flex-wrap items-center gap-2" }: { title: string; children: ReactNode; className?: string }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   if (isConceptTheme(theme)) return <ConceptDocumentNotice theme={theme} title={title}>{children}</ConceptDocumentNotice>;
   if (theme !== "chat") return <div className={className}>{children}</div>;
   return <details className="chat-pinned-notice">
@@ -28,7 +28,7 @@ export function SkinDocumentNotice({ title, children, className = "mt-3 flex fle
 
 /** The same parsed content and links get a different reading structure in each skin. */
 export function SkinTextBlocks({ blocks, className }: { blocks: SkinTextBlock[]; className: string }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const inSheetCell = useInSheetCell();
   const senderName = useChatSenderName();
   if (!isSpecialTheme(theme)) return <div className={`min-w-0 ${className}`.trim()}>{blocks.map((block, index) => <div key={index}>{block.content}</div>)}</div>;
@@ -52,7 +52,7 @@ export type SkinDocumentSection = { id: string; title: string; content: ReactNod
 export function SkinDocumentSections({ sections, className = "", plainSectionClassName = "" }: {
   sections: SkinDocumentSection[]; className?: string; plainSectionClassName?: string;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const resetSelection = useSheetWorkbook()?.reset;
   const setOutline = useConceptWorkspace()?.setOutline;
   const [selectedId, setSelectedId] = useState(sections[0]?.id ?? "");
@@ -135,7 +135,7 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
 }
 
 export function SkinDocumentIntro({ title, category, children, sheetRows }: { title: string; category?: string; children: ReactNode; sheetRows?: SheetIntroRow[] }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   if (isConceptTheme(theme)) return <ConceptDocumentIntro theme={theme} title={title} category={category}>{children}</ConceptDocumentIntro>;
   if (theme === "sheet" && title) return <SheetDocumentIntro title={title} category={category} rows={sheetRows}>{children}</SheetDocumentIntro>;
   if (theme === "chat" && title) return <div className="skin-document-intro skin-document-intro--chat"><SkinDocumentNotice title={`${title} · 공지`}>{children}</SkinDocumentNotice></div>;

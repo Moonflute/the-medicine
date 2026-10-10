@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useMemo, useSyncExternalStore } from "react";
 import {
-  chatSkins, isAppTheme, isChatFont, isChatSkin, isChatTextSize, themeGroups,
+  chatSkins, themeLayout, isAppTheme, isChatFont, isChatSkin, isChatTextSize, themeGroups,
   THEME_STORAGE_KEY, CHAT_SKIN_STORAGE_KEY, CHAT_FONT_STORAGE_KEY, CHAT_SIZE_STORAGE_KEY,
   type AppTheme, type ChatSkin, type ChatFont, type ChatTextSize,
 } from "@/lib/themes";
@@ -21,7 +21,10 @@ function readSetting<T>(attribute: string, key: string, valid: (value: unknown) 
   try { const saved = localStorage.getItem(key); return valid(saved) ? saved : fallback; }
   catch { return fallback; }
 }
-const getTheme = () => readSetting("data-theme", THEME_STORAGE_KEY, isAppTheme, "light");
+const getTheme = (): AppTheme => {
+  const theme = readSetting("data-theme", THEME_STORAGE_KEY, isAppTheme, "light");
+  return theme === "chat" && getSkin() === "clear-blue" ? "messenger" : theme;
+};
 const getSkin = () => readSetting("data-chat-skin", CHAT_SKIN_STORAGE_KEY, isChatSkin, "classic");
 const getFont = () => readSetting("data-chat-font", CHAT_FONT_STORAGE_KEY, isChatFont, "system");
 const getSize = (): ChatTextSize => {
@@ -72,7 +75,10 @@ function persist(attribute: string, key: string, value: string) {
   window.dispatchEvent(new Event(THEME_EVENT));
   return saved;
 }
-const setTheme = (theme: AppTheme) => persist("data-theme", THEME_STORAGE_KEY, theme);
+const setTheme = (theme: AppTheme) => {
+  if (theme === "chat" && getSkin() === "clear-blue") persist("data-chat-skin", CHAT_SKIN_STORAGE_KEY, "classic");
+  return persist("data-theme", THEME_STORAGE_KEY, theme);
+};
 const setChatSkin = (skin: ChatSkin) => persist("data-chat-skin", CHAT_SKIN_STORAGE_KEY, skin);
 const setChatFont = (font: ChatFont) => persist("data-chat-font", CHAT_FONT_STORAGE_KEY, font);
 const setChatTextSize = (size: ChatTextSize) => persist("data-chat-size", CHAT_SIZE_STORAGE_KEY, String(size));
@@ -105,4 +111,10 @@ export function useAppTheme() {
   const context = useContext(ThemeContext);
   if (!context) throw new Error("useAppTheme must be used inside ThemeProvider");
   return context;
+}
+
+/** Share the conversation renderer while keeping the selected theme and palette independent. */
+export function useSkinTheme() {
+  const context = useAppTheme();
+  return { ...context, theme: themeLayout(context.theme), chatSkin: context.theme === "messenger" ? "clear-blue" as const : context.chatSkin };
 }

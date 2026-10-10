@@ -4,10 +4,10 @@ import { useState, type ReactNode } from "react";
 import { ChevronDown, Code2, FileText, Mail, MoreHorizontal, Paperclip } from "lucide-react";
 import type { ConceptTheme } from "@/lib/themes";
 import { isConceptTheme } from "@/lib/themes";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 
 export function ConceptMetadata({ children }: { children: ReactNode }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   if (!isConceptTheme(theme)) return <>{children}</>;
   return <details className={`concept-metadata concept-metadata--${theme}`}><summary>{theme === "social" ? "게시물 정보" : theme === "editor" ? "document.meta" : "자료 정보"}<ChevronDown size={12} /></summary><div>{children}</div></details>;
 }

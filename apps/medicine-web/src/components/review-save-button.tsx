@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { Bookmark, BookmarkCheck, Star } from "lucide-react";
 import {
   loadReviewItems,
@@ -20,7 +20,7 @@ export function ReviewSaveButton({
   trackView?: boolean;
   compact?: boolean;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const [saved, setSaved] = useState(false);
   const label = theme === "mail" ? saved ? "중요 자료 해제" : "중요 자료로 보관" : theme === "social" ? saved ? "게시물 저장 해제" : "게시물 저장" : theme === "editor" ? saved ? "Remove bookmark" : "Add bookmark" : theme === "chat" ? saved ? "보관함에서 꺼내기" : "보관함에 저장" : theme === "terminal" ? saved ? "REMOVE SAVE" : "SAVE" : saved ? "복습 목록에서 제거" : "복습 목록에 저장";
 

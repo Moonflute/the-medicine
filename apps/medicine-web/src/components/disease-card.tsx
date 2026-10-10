@@ -13,7 +13,7 @@ import { RichTextLines } from "@/components/rich-text-lines";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { DocumentEditButton } from "@/components/document-edit-button";
 import { ContentMetadata } from "@/components/content-metadata";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { SheetCellRow, type SheetIntroRow } from "@/components/sheet-workbook";
 
 function stripEditorialLines(lines: string[]) {
@@ -49,7 +49,7 @@ export function DiseaseCard({
   hideOverview?: boolean;
   relatedQbankHref?: string;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const sheet = theme === "sheet" && !compact;
   const expanded = !compact;
   const atlasMapping = !compact ? atlasMappings.find(mapping => mapping.diseaseId === note.id) : undefined;

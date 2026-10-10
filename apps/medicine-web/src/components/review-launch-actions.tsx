@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { ArrowRight, Headphones, ListChecks, Settings2, Shuffle } from "lucide-react";
 import type { ReactNode } from "react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 
 const actions = {
   qbank: { number: 1, code: "QBANK", label: "문제", title: "문제 풀기", summary: "이론·임상 Q-bank 문제 풀기", icon: ListChecks },
@@ -12,7 +12,7 @@ const actions = {
 };
 
 export function ReviewLaunchActions({ children }: { children: ReactNode }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   return <section className="review-launchers" aria-label="학습 메뉴">
     {theme === "chat" ? <div className="review-launcher-heading"><span>학습 대화</span><span>3개</span></div>
       : theme === "sheet" ? <div className="review-launcher-columns" aria-hidden="true"><span /><span>A · 학습</span><span>B · 내용</span><span>C</span></div>
@@ -27,7 +27,7 @@ export function ReviewLaunchAction({ kind, href, onClick, onSettings, settingsOp
   kind: keyof typeof actions; href?: string; onClick?: () => void; onSettings?: () => void;
   settingsOpen?: boolean; settingsId?: string; children?: ReactNode;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const item = actions[kind];
   const Icon = item.icon;
   const content = <>

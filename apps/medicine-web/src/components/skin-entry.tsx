@@ -3,7 +3,7 @@
 import type { ReactNode, MouseEventHandler } from "react";
 import Link from "next/link";
 import { ChevronRight, FileText, Mail, Paperclip } from "lucide-react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { isConceptTheme, isSpecialTheme } from "@/lib/themes";
 
 export function SkinEntry({ href, title, summary, meta, ordinal, children, className = "", id, onClick, onMouseEnter, active, tooltip }: {
@@ -11,7 +11,7 @@ export function SkinEntry({ href, title, summary, meta, ordinal, children, class
   id?: string; onClick?: MouseEventHandler<HTMLAnchorElement>; onMouseEnter?: MouseEventHandler<HTMLAnchorElement>; active?: boolean;
   tooltip?: string;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   if (!isSpecialTheme(theme)) return <Link id={id} href={href} title={tooltip} className={className} onClick={onClick} onMouseEnter={onMouseEnter}>{children}</Link>;
   if (isConceptTheme(theme)) return <Link id={id} href={href} title={tooltip} className={`skin-entry skin-entry--${theme}`} onClick={onClick} onMouseEnter={onMouseEnter} data-active={active}>
     {theme === "mail" ? <><span className="concept-mail-dot" aria-hidden="true" /><span className="skin-entry-copy"><span className="concept-entry-sender">{meta || "자료 보관함"}</span><strong>{title}</strong><span>{summary || "첨부 자료 열기"}</span></span><span className="concept-entry-side" aria-hidden="true"><Mail size={15} /><Paperclip size={13} /></span></> : theme === "social" ? <><span className="concept-story-ring concept-story-ring--small" aria-hidden="true"><span>{title.replace(/^\d+\s*/, "").slice(0, 2)}</span></span><span className="skin-entry-copy"><strong>{title}</strong><span>{summary || meta || "자료 게시물"}</span></span><ChevronRight size={17} aria-hidden="true" /></> : <><FileText size={16} className="concept-file-icon" aria-hidden="true" /><span className="skin-entry-copy"><strong>{title}<em>.md</em></strong><span>{summary || meta || "Markdown"}</span></span><span className="concept-entry-side">{ordinal === undefined ? "MD" : String(ordinal).padStart(2, "0")}</span></>}

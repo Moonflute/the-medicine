@@ -13,7 +13,7 @@ import { DocumentToolbar } from "@/components/document-toolbar";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { ChatOptionalTools } from "@/components/chat-room";
 import { ChatMockExamResult, ChatMockExamTools } from "@/components/chat-mock-exam";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { useEffect, useRef, useState } from "react";
 import { Check, ChevronLeft, ChevronRight, Flag } from "lucide-react";
 import { PrivateQuestionImage } from "@/components/private-question-image";
@@ -29,7 +29,7 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChan
   questions: QbankQuestion[]; exam: MockExamState; sessionId: string; currentIndex: number;
   onChange: (state: MockExamState) => void; onMove: (index: number) => void;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const chatLayout = theme === "chat";
   const [now, setNow] = useState(() => Date.now());
   const [confirm, setConfirm] = useState(false);

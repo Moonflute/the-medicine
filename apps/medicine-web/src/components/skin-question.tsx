@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import { ArrowUp, ChevronRight } from "lucide-react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import type { QbankAnswer } from "@/lib/types";
 import { ChatComposerContent } from "@/components/chat-room";
 import { useChatSenderName } from "@/components/chat-contact";
@@ -12,7 +12,7 @@ import { ConceptQuestionWorkspace } from "@/components/concept-question";
 export type SkinChoice = { key: QbankAnswer; label: string; text: string; selected: boolean; correct: boolean; wrong: boolean };
 
 export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: SkinChoice[]; disabled: boolean; onSelect: (key: QbankAnswer) => void }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const special = isSpecialTheme(theme);
   return <div className={special ? `skin-q-choices skin-q-choices--${theme}` : "mt-7 grid gap-3"} role="group" aria-label="답 보기">
     {choices.map((choice, index) => <button key={choice.key} type="button" disabled={disabled} aria-pressed={choice.selected} onClick={() => onSelect(choice.key)} data-selected={choice.selected} data-correct={choice.correct} data-wrong={choice.wrong}
@@ -26,13 +26,13 @@ export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: 
 }
 
 export function SkinQuestionSendIcon({ fallback }: { fallback?: ReactNode }) {
-  const { theme, chatSkin } = useAppTheme();
+  const { theme, chatSkin } = useSkinTheme();
   if (theme !== "chat" || chatSkin !== "clear-blue") return fallback ?? <ArrowUp size={18} aria-hidden="true" />;
   return <svg width={22} height={22} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M3.2 3.5L21.4 12L3.2 20.5L5.6 13.4L15.7 12L5.6 10.6Z" /></svg>;
 }
 
 export function SkinQuestionAction({ submitted, unknown, last, onSubmit, onNext }: { submitted: boolean; unknown: boolean; last: boolean; onSubmit: () => void; onNext: () => void }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const label = submitted ? last ? "결과 보기" : theme === "mail" ? "다음 메일" : theme === "social" ? "다음 게시물" : theme === "editor" ? "Next test" : "다음 문제" : unknown ? theme === "mail" ? "모름으로 회신" : theme === "editor" ? "모름으로 실행" : "모름으로 제출" : theme === "mail" ? "회신" : theme === "social" ? "답 제출" : theme === "editor" ? "▶ 실행" : theme === "chat" ? "보내기" : theme === "terminal" ? "ENTER · 제출" : "답안 제출";
   return <button type="button" onClick={submitted ? onNext : onSubmit} title={label} aria-label={submitted ? last ? "결과 보기" : "다음 문제" : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <SkinQuestionSendIcon /> : null}</button>;
 }
@@ -42,7 +42,7 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
   hint: string; answerText: string; submitted: boolean; number: number; total: number;
   mode?: "study" | "mock"; sourceTitle?: string; choicesCount?: number;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const senderName = useChatSenderName(sourceTitle);
   if (isConceptTheme(theme)) return <ConceptQuestionWorkspace theme={theme} question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} choicesCount={choicesCount} />;
   const hintNode = hint ? <p className="mt-5 text-sm font-medium text-teal-700">{hint}</p> : null;

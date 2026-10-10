@@ -2,7 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { SkinStatus } from "@/components/skin-status";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { skinRetryLabel } from "@/lib/skin-status";
 import { getSyncStatus, SYNC_STATUS_EVENT, SYNC_RETRY_EVENT, type SyncStatus } from "@/lib/learning-sync-outbox";
 
@@ -13,7 +13,7 @@ const subscribe = (listener: () => void) => {
   return () => window.removeEventListener(SYNC_STATUS_EVENT, listener);
 };
 export function LearningSyncStatus() {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const status = useSyncExternalStore(subscribe, getSyncStatus, serverSnapshot);
   const label = { local: "기기 저장", pending: "전송 대기", syncing: "동기화 중", synced: "동기화 완료", failed: "동기화 실패" }[status.state];
   const kind = ({ local: "syncLocal", pending: "syncPending", syncing: "syncing", synced: "synced", failed: "syncFailed" } as const)[status.state];

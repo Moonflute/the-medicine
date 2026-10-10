@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { DocumentToolbar } from "@/components/document-toolbar";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { SkinDocumentIntro, SkinDocumentNotice } from "@/components/skin-document";
 import { isConceptTheme } from "@/lib/themes";
 
@@ -11,7 +11,7 @@ export function ChiefComplaintDocumentHeader({ title, actions, children }: { tit
   const header = useRef<HTMLElement>(null);
   const highlighterSlot = useRef<HTMLSpanElement>(null);
   const [compact, setCompact] = useState(false);
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
 
   useEffect(() => {
     if (theme === "chat" || theme === "sheet" || isConceptTheme(theme)) return;

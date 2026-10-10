@@ -1,7 +1,7 @@
 "use client";
 
 import { RefreshCw } from "lucide-react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { isSpecialTheme } from "@/lib/themes";
 import { skinRetryLabel, skinStatusMessage, skinStatusTone, type SkinStatusKind } from "@/lib/skin-status";
 
@@ -17,7 +17,7 @@ export function SkinStatus({ kind, fallback, detail, className = "", stage = fal
   suffix?: string;
   title?: string;
 }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const special = isSpecialTheme(theme);
   const tone = skinStatusTone(kind);
   const Tag = inline ? "span" : "div";

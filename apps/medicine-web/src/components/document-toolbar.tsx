@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { ChatDocumentTools } from "@/components/chat-room";
 import { useChatSenderName } from "@/components/chat-contact";
 import { SheetDocumentToolbar } from "@/components/sheet-workbook";
@@ -11,7 +11,7 @@ import { isConceptTheme } from "@/lib/themes";
 
 /** Keep document actions with their content, below the app navigation. */
 export function DocumentToolbar({ title, children, className = "" }: { title: string; children?: ReactNode; className?: string }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const senderName = useChatSenderName(title);
   useConceptDocument(title, senderName);
   const special = theme === "chat" || theme === "sheet" || theme === "terminal";

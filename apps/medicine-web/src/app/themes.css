@@ -45,7 +45,7 @@ html[data-theme="sepia"] {
   --color-slate-950: #2f251d;
 }
 
-html[data-theme="chat"] {
+html:is([data-theme="chat"],[data-theme="messenger"]) {
   --background: #b8cad8;
   --foreground: #242b32;
   --muted: #63717d;
@@ -189,18 +189,18 @@ html[data-theme="dark"] .app-main :is(
 .home-settings-theme:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
 
 /* Special themes share a compact, mobile-first home list. */
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .home-screen {
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .home-screen {
   min-height: 0;
   align-items: flex-start;
   padding: 0;
 }
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-shell:not(.immersive-shell) .app-main > div { max-width: 56rem; }
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-menu-button { display: none; }
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-search-action { width: 2.75rem; height: 2.75rem; padding: 0; border: 0; background: transparent; color: inherit; }
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-search-action span { display: none; }
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .search-results { position: static; max-height: none; }
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .search-result { justify-content: flex-start; }
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .search-result > .min-w-0 { flex: 1; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-shell:not(.immersive-shell) .app-main > div { max-width: 56rem; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-menu-button { display: none; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-search-action { width: 2.75rem; height: 2.75rem; padding: 0; border: 0; background: transparent; color: inherit; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-search-action span { display: none; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .search-results { position: static; max-height: none; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .search-result { justify-content: flex-start; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .search-result > .min-w-0 { flex: 1; }
 .skin-home-notes { margin-top: 1.5rem; }
 .skin-home-notes-label { padding: 0 0.25rem 0.625rem; font-size: 0.75rem; color: var(--muted); }
 .skin-home-note { display: flex; align-items: center; gap: 0.875rem; padding: 1rem 0.25rem; min-height: 4.5rem; border-bottom: 1px solid var(--line); }
@@ -211,31 +211,31 @@ html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .sea
 .skin-note-end { flex-shrink: 0; color: var(--muted); }
 
 /* Chat skin: list screens are white; detail screens are a conversation. */
-html[data-theme="chat"] .app-shell[data-view="browse"] { background: #fff; }
-html[data-theme="chat"] .app-header { background: #fff; border-bottom: 0; }
-html[data-theme="chat"] .app-main { padding: 1rem; }
-html[data-theme="chat"] .app-sidebar { background: #f4f6f8; color: #242b32; }
-html[data-theme="chat"] .app-sidebar a { color: #394854; }
-html[data-theme="chat"] .search-input-bar { border: 0; box-shadow: none; background: #f2f4f6; border-radius: 12px; padding: 0.875rem; }
-html[data-theme="chat"] .skin-home-note:nth-of-type(2n) .skin-note-avatar { background: #eee8dc; color: #7b6951; }
-html[data-theme="chat"] .app-bottom-nav { background: #f8f9fa; }
-html[data-theme="chat"] .app-bottom-nav a[aria-current="page"] { background: transparent; color: #222c35; font-weight: 700; }
-html[data-theme="chat"] .app-bottom-nav a[aria-current="page"] svg { fill: #fae100; stroke: #282e33; }
-html[data-theme="chat"] :is(.primary-action, .app-sidebar [class~="bg-teal-500"]) { background: #fae100; color: #302b17; }
-html[data-theme="chat"] .page-header { border-bottom: 0; padding-bottom: 0.5rem; }
-html[data-theme="chat"] .page-title { font-size: 1.375rem; margin-top: 0.25rem; }
-html[data-theme="chat"] .eyebrow { letter-spacing: 0; font-size: 0.6875rem; }
-html[data-theme="chat"] .app-main .grid:has(> .list-tile) { grid-template-columns: 1fr; gap: 0; background: #fff; border-radius: 12px; padding: 0 0.875rem; }
-html[data-theme="chat"] .app-main .grid > a.list-tile { flex-direction: row; justify-content: flex-start; min-height: 3.75rem; border: 0; border-bottom: 1px solid var(--line); border-radius: 0 !important; padding: 0.875rem 0.25rem; box-shadow: none; font-size: 0.875rem; text-align: left; }
-html[data-theme="chat"] .app-main .grid > .list-tile > svg { width: 1.75rem; height: 1.75rem; flex-shrink: 0; margin-right: 0.25rem; color: #6b8393; }
-html[data-theme="chat"] .app-main .grid > .list-tile > span { white-space: normal; text-align: left; }
-html[data-theme="chat"] .clinical-document { border: 0; background: transparent; box-shadow: none; }
-html[data-theme="chat"] .clinical-document > div { background: transparent; border-color: rgb(60 84 102 / 16%); }
-html[data-theme="chat"] .clinical-document > div:first-child { padding: 0.5rem 0.25rem 1rem; }
-html[data-theme="chat"] .clinical-sections { padding: 1rem 0; gap: 1rem; }
-html[data-theme="chat"] .clinical-section { position: relative; max-width: 96%; border-radius: 3px 14px 14px 14px !important; padding: 1rem; box-shadow: 0 1px 1px rgb(20 40 60 / 8%); }
-html[data-theme="chat"] .clinical-section:nth-child(even) { margin-left: auto; background: #fff6bd; border-radius: 14px 3px 14px 14px !important; }
-html[data-theme="chat"] .drug-document > section { border-radius: 3px 14px 14px 14px; box-shadow: none; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-shell[data-view="browse"] { background: #fff; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-header { background: #fff; border-bottom: 0; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-main { padding: 1rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-sidebar { background: #f4f6f8; color: #242b32; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-sidebar a { color: #394854; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .search-input-bar { border: 0; box-shadow: none; background: #f2f4f6; border-radius: 12px; padding: 0.875rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-home-note:nth-of-type(2n) .skin-note-avatar { background: #eee8dc; color: #7b6951; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-bottom-nav { background: #f8f9fa; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-bottom-nav a[aria-current="page"] { background: transparent; color: #222c35; font-weight: 700; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-bottom-nav a[aria-current="page"] svg { fill: #fae100; stroke: #282e33; }
+html:is([data-theme="chat"],[data-theme="messenger"]) :is(.primary-action, .app-sidebar [class~="bg-teal-500"]) { background: #fae100; color: #302b17; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .page-header { border-bottom: 0; padding-bottom: 0.5rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .page-title { font-size: 1.375rem; margin-top: 0.25rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .eyebrow { letter-spacing: 0; font-size: 0.6875rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-main .grid:has(> .list-tile) { grid-template-columns: 1fr; gap: 0; background: #fff; border-radius: 12px; padding: 0 0.875rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-main .grid > a.list-tile { flex-direction: row; justify-content: flex-start; min-height: 3.75rem; border: 0; border-bottom: 1px solid var(--line); border-radius: 0 !important; padding: 0.875rem 0.25rem; box-shadow: none; font-size: 0.875rem; text-align: left; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-main .grid > .list-tile > svg { width: 1.75rem; height: 1.75rem; flex-shrink: 0; margin-right: 0.25rem; color: #6b8393; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .app-main .grid > .list-tile > span { white-space: normal; text-align: left; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .clinical-document { border: 0; background: transparent; box-shadow: none; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .clinical-document > div { background: transparent; border-color: rgb(60 84 102 / 16%); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .clinical-document > div:first-child { padding: 0.5rem 0.25rem 1rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .clinical-sections { padding: 1rem 0; gap: 1rem; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .clinical-section { position: relative; max-width: 96%; border-radius: 3px 14px 14px 14px !important; padding: 1rem; box-shadow: 0 1px 1px rgb(20 40 60 / 8%); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .clinical-section:nth-child(even) { margin-left: auto; background: #fff6bd; border-radius: 14px 3px 14px 14px !important; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .drug-document > section { border-radius: 3px 14px 14px 14px; box-shadow: none; }
 
 /* Spreadsheet skin: genuine navigation becomes worksheet tabs, never a fake editor. */
 html[data-theme="sheet"] .app-header { background: #217346; color: #fff; border: 0; }
@@ -308,13 +308,13 @@ html[data-theme="terminal"] .clinical-section { border-left-color: #777777; }
 html[data-theme="terminal"] .app-sidebar [class~="bg-teal-500"] { background: #303030; color: #ffffff; }
 
 @media (max-width: 639px) {
-  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-header > div { height: 3.5rem; gap: 0.5rem; }
-  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-header > div > div { gap: 0.375rem; }
-  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-main h1 { font-size: 1.5rem; line-height: 1.35; }
-  html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .app-main h2 { font-size: 1.25rem; line-height: 1.45; }
+  html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-header > div { height: 3.5rem; gap: 0.5rem; }
+  html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-header > div > div { gap: 0.375rem; }
+  html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-main h1 { font-size: 1.5rem; line-height: 1.35; }
+  html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .app-main h2 { font-size: 1.25rem; line-height: 1.45; }
 }
 
-html:is([data-theme="chat"], [data-theme="sheet"], [data-theme="terminal"]) .home-anatomy-slot { display: none; }
+html:is([data-theme="chat"],[data-theme="messenger"], [data-theme="sheet"], [data-theme="terminal"]) .home-anatomy-slot { display: none; }
 
 
 /* Shared document controls follow the theme instead of fixed light surfaces. */
@@ -331,3 +331,4 @@ html[data-theme="terminal"] :is(.document-toolbar, .cc-document-header, .cc-docu
   border-radius: 0;
   box-shadow: none;
 }
+

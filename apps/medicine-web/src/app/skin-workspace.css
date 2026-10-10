@@ -1,0 +1,163 @@
+/* Navigation belongs to each app concept, including its desktop workspace. */
+.skin-frame { --skin-rail-width:0px; }
+.skin-frame .skin-app-menu { position:absolute; top:100%; right:12px; width:min(360px,calc(100vw - 24px)); max-height:min(65dvh,560px); padding:8px; border:1px solid var(--line); border-radius:8px; box-shadow:0 10px 30px #0002; z-index:60; }
+.skin-menu-heading { display:flex; align-items:center; justify-content:space-between; padding:0 8px 5px; border-bottom:1px solid var(--line); font-size:12px; }
+.skin-menu-heading .skin-icon-button { width:30px; height:32px; }
+.skin-app-menu .skin-drawer-links > a { min-height:46px; padding:8px; border-radius:4px; }
+.skin-app-menu .concept-navigation-caption { padding-top:9px; }
+.skin-app-menu--sheet { left:0; right:auto!important; border-radius:0!important; }
+.skin-frame .skin-app-menu--sheet { top:58px; width:min(320px,100vw); background:#f7faf8; border-color:#c7d5cb; }
+.skin-app-menu--sheet .skin-menu-heading { color:#217346; }
+.skin-app-menu--sheet .skin-nav-marker { background:#e7efe9; color:#217346; border-radius:0; }
+.skin-ribbon > button { height:100%; cursor:pointer; padding:0 2px; }
+.skin-ribbon > button[aria-expanded="true"] { color:#217346; font-weight:700; }
+.sheet-command-search,.sheet-workbook-status,.concept-mail-search,.concept-social-monogram { display:none; }
+.skin-workbook-tabs .sheet-tabs-menu { display:flex; align-items:center; justify-content:center; width:38px; min-width:38px; flex-shrink:0; color:#56705f; border-right:1px solid #c7d5cb; }
+.skin-workbook-tabs .sheet-tabs-menu[aria-expanded="true"] { background:#dbeee1; }
+.skin-console-menu-toggle { padding:7px 5px; font-size:11px; cursor:pointer; }
+.skin-console-menubar { display:flex; align-items:center; flex-wrap:wrap; gap:20px; min-height:30px; padding:3px 14px; border-block:1px solid #777; font-size:11px; }
+.skin-console-menubar > :is(a,button) { cursor:pointer; padding:3px 0; }
+.skin-console-menubar > :is(a,button):hover,.skin-console-menubar > button[aria-expanded="true"] { background:#fff; color:#000; }
+.skin-frame .skin-app-menu--terminal { left:12px; right:auto; width:min(520px,calc(100vw - 24px)); border:1px solid #aaa; border-radius:0; box-shadow:4px 4px 0 #555; background:#000; color:#fff; }
+.skin-app-menu--terminal .skin-nav-marker { border-radius:0; background:transparent; color:#aaa; }
+.skin-app-menu--terminal .skin-drawer-links a { border-bottom:1px dashed #444; border-radius:0; }
+.skin-app-menu--terminal .skin-drawer-links a[aria-current] { background:#fff; color:#000; }
+.skin-app-menu--terminal .skin-drawer-links a[aria-current] :is(small,.skin-nav-marker) { color:#333; }
+.skin-app-menu--terminal .skin-drawer-links small { font-size:10px; }
+.skin-app-menu--editor { border-radius:5px!important; background:#252526!important; }
+.editor-explorer-file { display:flex; align-items:center; gap:6px; padding:5px 10px 5px 45px; background:#37373d; font-size:11px; color:#d4d4d4; }
+.editor-explorer-file > span { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.editor-explorer-file > svg { flex-shrink:0; color:#6cb6dd; }
+.concept-navigation--editor nav > a { gap:5px; }
+.concept-navigation--editor nav > a > svg { flex-shrink:0; }
+.concept-navigation--editor nav > a > .lucide-folder { color:#c8ab79; }
+
+@media(min-width:900px) {
+  /* Spreadsheet and console windows use the whole workspace. */
+  html:is([data-theme="sheet"],[data-theme="terminal"]) .skin-frame .skin-page { padding:14px 12px 45px; }
+  html[data-theme="sheet"] .skin-frame .skin-page-content { max-width:none; }
+  html[data-theme="sheet"] .skin-frame .skin-header-line { height:44px; padding-inline:16px; gap:12px; }
+  html[data-theme="sheet"] .skin-header-heading { flex:1; }
+  html[data-theme="sheet"] .skin-header-heading strong { font-size:13px; }
+  html[data-theme="sheet"] .skin-header-heading small { display:none; }
+  html[data-theme="sheet"] .skin-workbook-icon { width:23px; height:26px; font-size:17px; }
+  .sheet-command-search { display:flex; align-items:center; justify-content:center; gap:10px; width:clamp(220px,35vw,440px); height:28px; background:#ffffff19; border:1px solid #ffffff30; border-radius:4px; color:#ffffffd9; font-size:11px; }
+  html[data-theme="sheet"] .skin-header-actions { flex:1; justify-content:flex-end; }
+  html[data-theme="sheet"] .skin-header-actions > a[aria-label="검색"] { display:none; }
+  html[data-theme="sheet"] .skin-header-actions .secondary-action { min-height:28px; height:28px; border-color:#ffffff40; background:transparent; color:white; }
+  html[data-theme="sheet"] .skin-frame .skin-app-menu--sheet { top:44px; }
+  html[data-theme="sheet"] .skin-frame .skin-ribbon { height:35px; gap:27px; }
+  html[data-theme="sheet"] .skin-frame .skin-formula { height:31px; }
+  html[data-theme="sheet"] .skin-frame .skin-workbook-tabs { min-height:34px; }
+  html[data-theme="sheet"] .skin-frame .skin-workbook-tabs a { height:34px; min-width:64px; }
+  html[data-theme="sheet"] .sheet-section-tabs > button { min-height:34px; padding:7px 16px; }
+  .sheet-workbook-status { display:flex; align-items:center; margin-left:auto; padding:0 17px; flex-shrink:0; color:#6a7c6e; font-size:10px; }
+  html[data-theme="terminal"] .skin-frame .skin-header-line { height:40px; }
+  html[data-theme="terminal"] .skin-header-heading strong { font-size:13px; }
+  html[data-theme="terminal"] .skin-header-heading small { display:none; }
+  html[data-theme="terminal"] .skin-frame .skin-console-path { height:28px; font-size:11px; }
+  html[data-theme="terminal"] .skin-console-dock { min-height:32px; }
+  html[data-theme="terminal"] .skin-frame .skin-console-dock > :is(a,button) { height:32px; }
+
+  /* Desktop chat uses a narrow icon strip; the composer shares its exact edge. */
+  html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame { --skin-rail-width:64px; }
+  html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-desktop-rail { display:flex; flex-direction:column; position:sticky; top:0; align-self:flex-start; width:var(--skin-rail-width); height:100dvh; flex-shrink:0; padding:18px 8px 12px; overflow:visible; border-right:1px solid var(--line); background:var(--chat-chrome); }
+  .chat-desktop-brand { display:flex; justify-content:center; padding:4px 0 25px; color:var(--chat-meta); }
+  .chat-desktop-navigation { display:flex; flex-direction:column; gap:13px; }
+  .chat-desktop-navigation > a,.chat-desktop-more { display:flex; align-items:center; justify-content:center; width:48px; height:43px; color:var(--chat-meta); border-radius:9px; cursor:pointer; }
+  .chat-desktop-navigation > a[aria-current] { color:var(--chat-text); background:var(--chat-avatar); }
+  .chat-desktop-navigation > a:hover,.chat-desktop-more:hover { background:var(--surface-subtle); }
+  .chat-desktop-more { margin-top:auto; }
+  html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-chat-dock { display:none; }
+  html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-page { padding-bottom:20px; }
+  html:is([data-theme="chat"],[data-theme="messenger"]) .skin-frame .skin-app-menu--chat { right:10px; }
+
+  /* Mail folders start below the full-width mail header. */
+  html:is([data-theme="mail"],[data-theme="editor"]) .skin-frame { display:grid; grid-template-columns:var(--skin-rail-width) minmax(0,1fr); grid-template-rows:auto minmax(0,1fr) auto; }
+  html:is([data-theme="mail"],[data-theme="editor"]) .skin-frame-body { display:contents; }
+  html:is([data-theme="mail"],[data-theme="editor"]) .skin-frame .skin-app-header { grid-column:1 / -1; grid-row:1; }
+  html:is([data-theme="mail"],[data-theme="editor"]) .skin-frame .skin-page { grid-column:2; grid-row:2; }
+  html:is([data-theme="mail"],[data-theme="editor"]) .skin-frame .app-bottom-nav { grid-column:1 / -1; grid-row:3; }
+  html[data-theme="mail"] .skin-frame { --skin-rail-width:210px; }
+  html[data-theme="mail"] .skin-frame .skin-desktop-rail { display:block; grid-column:1; grid-row:2; position:sticky; top:var(--app-header-height); align-self:start; height:calc(100dvh - var(--app-header-height)); width:auto; margin:0; padding:10px 8px; border-right:1px solid #e8eaed; background:#f7f8f9; overflow-y:auto; }
+  html[data-theme="mail"] .concept-header-line { height:60px; padding:0 20px; gap:14px; }
+  html[data-theme="mail"] .concept-header-location { font-size:16px; color:#333; margin-left:18px; }
+  html[data-theme="mail"] .concept-mail-folders { display:none; }
+  .concept-mail-search { display:flex; align-items:center; justify-content:space-between; gap:20px; width:260px; height:32px; padding:0 12px; border:1px solid #d8dce0; border-radius:2px; color:#868c91; font-size:12px; }
+  html[data-theme="mail"] .concept-header-actions > a[aria-label="검색"] { display:none; }
+  .skin-desktop-rail--mail .concept-navigation-caption { padding:12px 13px; font-size:12px; font-weight:600; color:#454b50; }
+  .skin-desktop-rail--mail .concept-navigation nav > a { min-height:37px; padding:8px 13px; gap:9px; font-size:13px; border-radius:4px; }
+  .skin-desktop-rail--mail .concept-navigation a[aria-current] { background:#e8f5ec; color:#039b48; }
+  html[data-theme="mail"] .skin-frame .skin-page { padding:20px 25px 30px; }
+  html[data-theme="mail"] .skin-page-content { max-width:none; }
+  html[data-theme="mail"] .skin-frame .skin-app-menu--mail { left:12px; right:auto; }
+
+  /* Social desktop navigation mirrors an app sidebar rather than a data index. */
+  html[data-theme="social"] .skin-frame { --skin-rail-width:72px; }
+  html[data-theme="social"] .skin-frame .skin-desktop-rail { display:flex; flex-direction:column; position:sticky; top:0; height:100dvh; align-self:flex-start; width:var(--skin-rail-width); flex-shrink:0; padding:23px 12px 16px; border-right:1px solid var(--line); background:white; overflow:visible; }
+  html[data-theme="social"] .concept-rail-brand { min-height:65px; padding:6px 0 20px; justify-content:center; }
+  .skin-desktop-rail--social .concept-rail-brand > span:first-child { display:none; }
+  .concept-social-monogram { display:block; font-size:32px; font-family:"Segoe Print","Brush Script MT",cursive; }
+  .social-desktop-navigation { display:flex; flex-direction:column; gap:10px; }
+  .social-desktop-navigation > a,.social-desktop-more { display:flex; align-items:center; gap:15px; min-height:48px; padding:11px; border-radius:8px; color:#111; font-size:16px; cursor:pointer; }
+  .social-desktop-navigation > a svg,.social-desktop-more svg { flex-shrink:0; }
+  .social-desktop-navigation > a:hover,.social-desktop-more:hover { background:#f5f5f5; }
+  .social-desktop-navigation > a[aria-current] { font-weight:700; }
+  .social-desktop-navigation > a[aria-current] svg { stroke-width:2.7; }
+  .social-desktop-navigation > a span,.social-desktop-more span { display:none; }
+  .social-desktop-more { margin-top:auto; }
+  html[data-theme="social"] .skin-frame .skin-app-header { height:0; border:0; }
+  html[data-theme="social"] .concept-header-line { display:none; }
+  html[data-theme="social"] .skin-frame .skin-page { padding:25px 25px 30px; }
+  html[data-theme="social"] .skin-frame .skin-app-menu--social { position:fixed; top:auto; right:auto; bottom:16px; left:calc(var(--skin-rail-width) + 10px); width:min(340px,calc(100vw - var(--skin-rail-width) - 24px)); max-height:80dvh; }
+
+  /* Editor title bar, activity bar, explorer, tabs, and status bar are independent. */
+  html[data-theme="editor"] .skin-frame { --skin-rail-width:48px; }
+  html[data-theme="editor"] .skin-frame .skin-app-header { background:transparent; border:0; z-index:50; }
+  html[data-theme="editor"] .concept-header-line { height:44px; background:#181818; border-bottom:1px solid #2b2b2b; }
+  html[data-theme="editor"] .concept-editor-tabs { margin-left:var(--skin-rail-width); border-bottom:1px solid #2b2b2b; }
+  html[data-theme="editor"] .skin-frame .skin-desktop-rail { display:flex; grid-column:1; grid-row:2; position:sticky; top:44px; align-self:start; margin-top:-36px; padding:0; width:auto; height:calc(100dvh - 67px); background:#181818; border-right:1px solid #343434; overflow:visible; z-index:41; }
+  .editor-activity-bar { display:flex; flex-direction:column; width:48px; min-width:48px; height:100%; border-right:1px solid #2e2e2e; }
+  .editor-activity-bar > :is(a,button) { display:flex; align-items:center; justify-content:center; height:48px; color:#858585; cursor:pointer; }
+  .editor-activity-bar > [aria-current] { color:#eee; border-left:2px solid #eee; }
+  .editor-activity-bar > :is(a,button):hover { color:#eee; }
+  .editor-activity-bar > button { margin-top:auto; }
+  .editor-explorer { display:none; min-width:0; width:240px; overflow-y:auto; }
+  .editor-explorer .concept-navigation-caption { height:36px; padding:10px 18px; font-size:11px; }
+  .editor-explorer .concept-project-name { height:28px; background:#181818; }
+  .editor-explorer .concept-navigation nav > a { min-height:28px; padding:5px 10px 5px 16px; font-size:12px; }
+  .editor-explorer .concept-navigation a[aria-current] { background:#2a2d2e; border-left:0; }
+  .editor-explorer .concept-outline { margin-top:10px; }
+  html[data-theme="editor"] .skin-frame .skin-page { padding:10px 16px 32px; }
+  html[data-theme="editor"] .skin-frame .skin-page-content { max-width:none; }
+  html[data-theme="editor"] .skin-frame .skin-app-menu--editor { left:50%; right:auto; top:44px; transform:translateX(-50%); width:min(560px,calc(100vw - 40px)); }
+  html[data-theme="editor"] .skin-frame .concept-dock--editor { padding:0; }
+  html[data-theme="editor"] .concept-editor-status { margin:0; padding:0 12px; }
+  html:is([data-theme="mail"],[data-theme="social"]) .home-settings-trigger { bottom:20px; }
+  html[data-theme="editor"] .home-settings-trigger { bottom:38px; }
+
+  .atlas-shell .skin-frame { --skin-rail-width:0px!important; display:flex!important; }
+  .atlas-shell .skin-frame-body { display:flex!important; }
+  .atlas-shell .skin-frame .skin-desktop-rail { display:none; }
+}
+@media(min-width:1100px) {
+  html[data-theme="editor"] .skin-frame { --skin-rail-width:288px; }
+  .editor-explorer { display:block; }
+}
+@media(min-width:1280px) {
+  html[data-theme="social"] .skin-frame { --skin-rail-width:240px; }
+  html[data-theme="social"] .concept-rail-brand { justify-content:flex-start; padding-left:10px; }
+  .skin-desktop-rail--social .concept-rail-brand > span:first-child { display:block; }
+  .skin-desktop-rail--social .concept-social-monogram { display:none; }
+  .social-desktop-navigation > a span,.social-desktop-more span { display:inline; }
+}
+@media(max-width:899px) {
+  .skin-frame .skin-desktop-rail { display:none; }
+  .skin-frame .skin-app-menu { max-height:calc(100dvh - var(--app-header-height) - 75px); }
+  html[data-theme="sheet"] .skin-frame .skin-app-menu--sheet { max-height:calc(100dvh - 120px); }
+  .skin-console-menubar { gap:17px; font-size:10px; }
+}
+@media print {
+  .skin-frame .skin-desktop-rail,.skin-frame .skin-app-menu { display:none!important; }
+  .skin-frame--mail,.skin-frame--editor,.skin-frame-body { display:block!important; }
+}

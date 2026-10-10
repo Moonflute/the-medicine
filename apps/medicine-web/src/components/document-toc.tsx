@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { ArrowUp } from "lucide-react";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { ChatComposerContent } from "@/components/chat-room";
@@ -10,7 +10,7 @@ import { openConceptSection } from "@/components/concept-workspace";
 import { ChevronDown, Code2, Paperclip } from "lucide-react";
 
 export function DocumentToc({ id, items }: { id: string; items: { id: string; title: string }[] }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const special = theme === "chat" || theme === "sheet" || theme === "terminal";
   const navRef = useRef<HTMLElement>(null);
   const [pastToc, setPastToc] = useState(false);

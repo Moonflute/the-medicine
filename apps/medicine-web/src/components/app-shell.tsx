@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, ChevronLeft, FileSpreadsheet, FlaskConical, HeartPulse, House, Menu, MessageCircle, Pill, Search, Stethoscope, Terminal, X } from "lucide-react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 import { isSpecialTheme } from "@/lib/themes";
 import { SkinAppFrame } from "@/components/skin-app-frame";
 import { AuthStatus } from "@/components/auth-status";
@@ -34,7 +34,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const atlas = pathname === "/atlas" || pathname === "/atlas/";
   const immersive = atlas || pathname.startsWith("/interactive/") || pathname === "/nervous-system-hub" || pathname === "/nervous-system-hub/";
   const [open, setOpen] = useState(false);
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const specialTheme = isSpecialTheme(theme);
   const isHome = pathname === "/";
   const documentPage = (/^\/(disease|drugs|skills|lab-img)\/[^/]+\/?$/.test(pathname)

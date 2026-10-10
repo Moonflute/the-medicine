@@ -4,7 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useId, useMemo, useR
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import { Plus, Search, X } from "lucide-react";
-import { useAppTheme } from "@/components/theme-provider";
+import { useSkinTheme } from "@/components/theme-provider";
 
 const ChatRoomContext = createContext<{
   title: string | null; register: (title: string) => () => void;
@@ -48,13 +48,13 @@ export function ChatComposerContent({ area, children }: { area: "tools" | "draft
 }
 
 export function ChatOptionalTools({ children, className }: { children: ReactNode; className?: string }) {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   if (theme === "chat") return <ChatComposerContent area="tools"><div className="document-toolbar-actions chat-attachment-actions">{children}</div></ChatComposerContent>;
   return className ? <div className={className}>{children}</div> : <>{children}</>;
 }
 
 export function ChatRoomComposer() {
-  const { theme } = useAppTheme();
+  const { theme } = useSkinTheme();
   const room = useChatRoom();
   const [open, setOpen] = useState(false);
   const panelId = useId();

@@ -14,6 +14,7 @@ export function HomeSettings() {
 
   function closeSettings() {
     dialogRef.current?.close();
+    setOpen(false);
   }
 
   return (
@@ -83,7 +84,8 @@ export function HomeSettings() {
                     </button>
                   ))}
                 </div>
-                {group.title === "특수 테마" && activeTheme === "chat" ? <div className="home-settings-chat-family">
+                {group.title === "특수 테마" && (activeTheme === "chat" || activeTheme === "messenger") ? <div className="home-settings-chat-family">
+                  {activeTheme === "chat" ? <>
                   <h4>카톡 테마</h4>
                   <div className="home-settings-chat-skins" role="group" aria-label="카톡 테마">
                     {chatSkins.map(skin => <button type="button" key={skin.id} aria-pressed={chatSkin === skin.id} className="home-settings-chat-skin" title={skin.description} onClick={() => {
@@ -94,6 +96,7 @@ export function HomeSettings() {
                       <span>{skin.label}</span>
                     </button>)}
                   </div>
+                  </> : null}
                   <div className="home-settings-chat-type">
                     <label>대화 글꼴<select aria-label="대화 글꼴" value={chatFont} onChange={event => {
                       if (isChatFont(event.target.value)) {
