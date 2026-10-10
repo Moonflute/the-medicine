@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-10",
+  "releaseVersion": "0.13.88",
+  "status": "database_applied",
+  "totalPracticeQuestions": 2074,
+  "hanCandidateQuestions": 178,
+  "correctedQuestions": 177,
+  "changedFields": {
+    "question": 24,
+    "explanation": 133,
+    "options": 25,
+    "figureAlt": 1
+  },
+  "explicitManualDecisions": 204,
+  "remainingGenuineHanQuestions": 2,
+  "verification": {
+    "totalQuestionsUnchanged": true,
+    "questionIdsAnswersSourceMappingsAndIndexUnchanged": true,
+    "remainingHanLimitedToVerifiedOriginalAnnotations": true,
+    "updateConflicts": 0,
+    "privateAuditReplayAndRollbackPassed": true
+  },
+  "scope": "Canonical private practice questions served from Supabase; only explicitly reviewed question, options, explanation and figure-alt fields were updated. No answer, question ID, progress, relationship or source-figure path changes.",
+  "privateAuditPath": "Qbank book/_private/manual-audit/ocr-han-2026-10-10.json",
+  "publicContentPolicy": "Private question text and original source pages are not included in this repository."
+}
