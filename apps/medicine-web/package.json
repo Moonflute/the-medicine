@@ -1,9 +1,9 @@
 {
   "name": "medicine-web",
-  "version": "0.13.90",
+  "version": "0.13.91",
   "private": true,
   "scripts": {
-    "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs",
+    "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs && node scripts/build-study-flow-index.mjs",
     "audit:content": "python ../../workspace_ops/scripts/build_content_quality_report.py",
     "audit:disease": "python ../../workspace_ops/scripts/build_disease_quality_report.py",
     "audit:hierarchy": "node scripts/audit-disease-hierarchy.mjs",
@@ -16,6 +16,7 @@
     "audit:microbiology": "node scripts/build-microbiology-relations.mjs && node scripts/audit-microbiology-quality.mjs",
     "audit:hubs": "node scripts/audit-hubs.mjs",
     "test:neuro": "node --test scripts/test-nervous-system-atlas.mjs",
+    "test:study-flow": "node --test scripts/test-study-flow.mjs",
     "build:atlas": "node scripts/build-organ-atlas.mjs",
     "prebuild": "npm run build:atlas"
   },

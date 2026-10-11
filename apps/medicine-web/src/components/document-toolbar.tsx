@@ -1,6 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
+import { useStudyDocumentSource } from "@/lib/study-flow-source";
 import { useSkinTheme } from "@/components/theme-provider";
 import { ChatDocumentTools } from "@/components/chat-room";
 import { useChatSenderName } from "@/components/chat-contact";
@@ -11,6 +12,7 @@ import { isConceptTheme } from "@/lib/themes";
 
 /** Keep document actions with their content, below the app navigation. */
 export function DocumentToolbar({ title, children, className = "" }: { title: string; children?: ReactNode; className?: string }) {
+  useStudyDocumentSource(title);
   const { theme } = useSkinTheme();
   const senderName = useChatSenderName(title);
   useConceptDocument(title, senderName);

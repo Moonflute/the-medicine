@@ -56,7 +56,8 @@ export function qbankSessionContextFromParams(params: URLSearchParams, specialti
   let kind = explicitKind || mode;
   let title = explicitTitle || "문제풀이 세션";
   if (!explicitTitle) {
-    if (mode === "theory-linked") title = "관련 이론문제 풀이";
+    if (mode === "study-flow") title = "학습 Flow에 연결한 문제";
+    else if (mode === "theory-linked") title = "관련 이론문제 풀이";
     else if (mode === "wrong") title = "오답 다시 풀기";
     else if (mode === "bookmarks") title = "북마크 문제 풀이";
     else if (mode === "unattempted") title = "미풀이 문제 풀이";

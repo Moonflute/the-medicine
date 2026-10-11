@@ -1,6 +1,7 @@
 "use client";
 
 import { ChatSenderProvider } from "@/components/chat-contact";
+import { studyQuestionHref, useStudyPageSource } from "@/lib/study-flow-source";
 import { isRelatedTheoryDocumentType, relatedTheoryDocumentHref } from "@/lib/qbank-related-theory";
 
 import { SkinPanel } from "@/components/skin-panel";
@@ -135,6 +136,7 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
 }
 
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters, practiceUnattemptedOnly = false, relatedTopicKeys = ""): Promise<SessionQuestion[]> {
+  if (mode === "study-flow" && !targetIds?.size) throw new Error("연결된 문제 정보를 확인하지 못했습니다.");
   if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 결과 화면이나 학습 통계에서 다시 선택해 주세요.");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
@@ -191,15 +193,15 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
     ));
   }
-  if (mode === "all" && targetIds) candidates = candidates.filter(item => targetIds.has(item.id));
+  if ((mode === "all" || mode === "study-flow") && targetIds) candidates = candidates.filter(item => targetIds.has(item.id));
   let privateQuestions: SessionQuestion[] = [];
-  const wantsPrivate = hasPracticeSelection(practiceFilters) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode) || (mode === "retry" && [...(targetIds ?? [])].some(id => id.startsWith("QB-")));
+  const wantsPrivate = hasPracticeSelection(practiceFilters) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode) || (["retry", "study-flow"].includes(mode) && [...(targetIds ?? [])].some(id => id.startsWith("QB-")));
   if (wantsPrivate) {
     const { questions: privateIndex } = await loadPracticeIndex();
     const state = loadQbankState();
     const privateIds = privateIndex.filter((q) => {
       if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return (targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds)).has(q.id);
-      if (mode === "all") return !targetIds || targetIds.has(q.id);
+      if (mode === "all" || mode === "study-flow") return !targetIds || targetIds.has(q.id);
       if (mode === "unattempted") return !state.progress[q.id];
       if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
       if (practiceUnattemptedOnly && isQbankProgressedInCurrentView(state.progress[q.id], loadQbankProgressViewResetAt())) return false;
@@ -302,7 +304,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       const key = params.get("set") ?? "";
       try { retryIds = key.startsWith("qbank-retry-") ? readRetryIds(window.sessionStorage.getItem(key)) : []; } catch { /* Storage unavailable. */ }
     }
-    const targetIds = mode === "retry" ? new Set(retryIds) : mode === "wrong"
+    const targetIds = mode === "study-flow" ? new Set((params.get("ids") ?? "").split(",").filter(id => /^[a-z0-9_-]{1,1000}$/i.test(id)).slice(0, 100)) : mode === "retry" ? new Set(retryIds) : mode === "wrong"
       ? new Set(initialState.wrongIds)
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
@@ -473,6 +475,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [remoteActiveSession, specialties]);
 
   const current = questions[currentIndex];
+  useStudyPageSource(current ? {
+    key: "question:" + current.id,
+    kind: "question",
+    title: (current.specialty + " · " + current.question.replace(/\s+/g, " ").slice(0, 110)).slice(0, 300),
+    href: studyQuestionHref(current.id),
+  } : null, 30);
   useEffect(() => {
     if (!questions.some((q) => q.questionBank === "practice")) return;
     const client = getSupabaseBrowserClient();
@@ -597,9 +605,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
+      if (event.defaultPrevented) return;
       if (document.documentElement.dataset.highlighterMode && document.documentElement.dataset.highlighterMode !== "read") return;
       const target = event.target;
-      if (target instanceof HTMLElement && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
+      if (target instanceof HTMLElement && (target.closest(".study-flow-host") || target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
       if (!current || mockExam || completed || finishConfirm || event.isComposing) return;
 
       if (!submitted && ["1", "2", "3", "4", "5"].includes(event.key)) {

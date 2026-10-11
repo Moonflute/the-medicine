@@ -12,6 +12,7 @@ import { LearningSyncProvider } from "@/components/learning-sync-provider";
 import { AudioReviewProvider } from "@/components/audio-review-provider";
 import { PersonalHighlighter } from "@/components/personal-highlighter";
 import { ChatRoomProvider } from "@/components/chat-room";
+import { StudyFlowHost } from "@/components/study-flow-host";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
@@ -208,6 +209,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </>}
       >{children}</SkinAppFrame>
       <PersonalHighlighter />
+      <StudyFlowHost />
       </ChatRoomProvider>
     </div>
     </AudioReviewProvider>
