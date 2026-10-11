@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowDown, ArrowUp, ChevronDown, ChevronRight, CornerDownRight, GripVertical, IndentDecrease, IndentIncrease, Link2, Plus, Trash2, X } from "lucide-react";
+import { ArrowDown, ArrowUp, ChevronDown, ChevronRight, GripVertical, Trash2, X } from "lucide-react";
 import { studyItems, type StudyItem, type StudyLink } from "@/lib/study-flow-model";
 import { attachStudyLink, createStudyItem, deleteStudyItem, editStudyItem, getStudySnapshot, indentStudyItem, moveStudyItem, setStudyUI } from "@/lib/study-flow-store";
 import { searchStudyLinks, type StudySearchEntry } from "@/lib/study-flow-search";
@@ -51,14 +51,6 @@ export function StudyFlowItemRow({ item, depth = 0, selected, hasChildren, colla
     setMention(null);
     focusStudyItem(item.id);
   };
-  const add = (child = false) => {
-    const id = createStudyItem(item.flowId, "", undefined, child ? item.id : item.parentId, child ? undefined : item.id);
-    if (child) {
-      const ui = getStudySnapshot().ui;
-      setStudyUI({ collapsed: ui.collapsed.filter(id => id !== item.id) });
-    }
-    focusStudyItem(id);
-  };
   const move = (direction: -1 | 1) => {
     const siblings = studyItems(getStudySnapshot().records, item.flowId).filter(value => value.parentId === item.parentId).sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
     const index = siblings.findIndex(value => value.id === item.id);
@@ -74,6 +66,10 @@ export function StudyFlowItemRow({ item, depth = 0, selected, hasChildren, colla
       moveStudyItem(item.flowId, id, event.shiftKey ? item.id : item.parentId, event.shiftKey ? undefined : item.id);
     }}>
     <div className="study-flow-row-line">
+      <div className="study-flow-row-move" role="group" aria-label="항목 순서 변경">
+        <button type="button" onClick={() => move(-1)} title="위로 이동" aria-label="위로 이동"><ArrowUp size={14} /></button>
+        <button type="button" onClick={() => move(1)} title="아래로 이동" aria-label="아래로 이동"><ArrowDown size={14} /></button>
+      </div>
       <button type="button" className="study-flow-grip" draggable onDragStart={event => { event.dataTransfer.setData("text/study-flow-item", item.id); event.dataTransfer.effectAllowed = "move"; }} aria-label="드래그로 순서 변경" title="드래그로 순서 변경 · Shift로 하위 항목에 넣기"><GripVertical size={14} /></button>
       <button type="button" className="study-flow-fold" disabled={!hasChildren} aria-label={collapsed ? "하위 항목 펼치기" : "하위 항목 접기"} aria-expanded={hasChildren ? !collapsed : undefined}
         onClick={() => { const ui = getStudySnapshot().ui; setStudyUI({ collapsed: collapsed ? ui.collapsed.filter(id => id !== item.id) : [...ui.collapsed, item.id] }); }}>
@@ -114,22 +110,12 @@ export function StudyFlowItemRow({ item, depth = 0, selected, hasChildren, colla
           }
           if (event.key === "Backspace" && !item.text && previousId && !mention) { event.preventDefault(); deleteStudyItem(item.flowId, item.id); focusStudyItem(previousId); }
         }} />
+      <button type="button" className="study-flow-row-delete" onClick={() => { deleteStudyItem(item.flowId, item.id); if (previousId) focusStudyItem(previousId); }} title="항목 삭제 · 하위 항목은 유지" aria-label="항목 삭제"><Trash2 size={14} /></button>
     </div>
     {item.links.length ? <div className="study-flow-links">{item.links.map(link => <span className="study-flow-link" key={link.key}>
       <Link href={link.href} prefetch={false} onClick={() => onNavigate(link, item.id)} title={link.title}><small>{STUDY_KIND_LABELS[link.kind] ?? "문서"}</small>{link.title}</Link>
       <button type="button" aria-label={link.title + " 연결 제거"} onClick={() => editStudyItem(item.id, { links: item.links.filter(value => value.key !== link.key) })}><X size={12} /></button>
     </span>)}</div> : null}
-    <div className="study-flow-row-tools">
-      <button type="button" onClick={() => add()} title="다음 항목 추가" aria-label="다음 항목 추가"><Plus size={14} /></button>
-      <button type="button" onClick={() => add(true)} title="하위 항목 추가" aria-label="하위 항목 추가"><CornerDownRight size={14} /></button>
-      <button type="button" onClick={() => indentStudyItem(item.flowId, item.id)} title="들여쓰기 · Tab" aria-label="들여쓰기"><IndentIncrease size={14} /></button>
-      <button type="button" onClick={() => indentStudyItem(item.flowId, item.id, true)} title="내어쓰기 · Shift Tab" aria-label="내어쓰기"><IndentDecrease size={14} /></button>
-      <button type="button" onClick={() => move(-1)} title="위로 이동" aria-label="위로 이동"><ArrowUp size={14} /></button>
-      <button type="button" onClick={() => move(1)} title="아래로 이동" aria-label="아래로 이동"><ArrowDown size={14} /></button>
-      <button type="button" onClick={() => { onSearch(); setMention({ start: null, end: 0, query: "" }); setActive(0); }} title="문서 연결 · @" aria-label="문서 연결"><Link2 size={14} /></button>
-      <button type="button" onClick={() => { deleteStudyItem(item.flowId, item.id); if (previousId) focusStudyItem(previousId); }} title="항목 삭제 · 하위 항목은 유지" aria-label="항목 삭제"><Trash2 size={14} /></button>
-      {depth > 6 ? <small>{depth + 1}단계</small> : null}
-    </div>
     {mention ? <div className="study-flow-link-search" data-highlight-ignore>
       <div className="study-flow-link-search-bar">
         {mention.start === null ? <input aria-label="연결할 문서 검색" autoFocus value={mention.query} placeholder="문서명이나 문제 ID 검색" onChange={event => { setMention({ ...mention, query: event.target.value }); setActive(0); }} onKeyDown={event => {
