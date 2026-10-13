@@ -1,0 +1,7 @@
+project_id = "the-medicine"
+
+[functions.device-login]
+# The public redeem action authenticates the one-time code itself.
+# issue/revoke still require a JWT verified by the Auth server in handler.ts.
+verify_jwt = false
+entrypoint = "./functions/device-login/index.ts"

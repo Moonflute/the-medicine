@@ -72,6 +72,9 @@ jobs:
       - name: Verify learning sync
         run: node --test scripts/test-learning-sync.mjs
 
+      - name: Verify temporary device login
+        run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-device-login.mjs
+
       - name: Verify personal highlight anchoring and merge
         run: node --experimental-strip-types --test scripts/test-personal-highlights.mjs scripts/test-personal-highlight-store.mjs
 

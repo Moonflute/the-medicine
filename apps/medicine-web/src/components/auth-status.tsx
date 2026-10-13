@@ -1,11 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import type { User } from "@supabase/supabase-js";
-import { LogIn, LogOut } from "lucide-react";
-import { getAppBasePath, getSupabaseBrowserClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import { KeyRound, LogIn, LogOut } from "lucide-react";
+import { clearTemporaryDeviceLogin, getAppBasePath, getSupabaseBrowserClient, isSupabaseConfigured, usesTemporaryDeviceLogin } from "@/lib/supabase/client";
 
 import { LearningSyncStatus } from "./learning-sync-status";
+
+const DeviceLoginDialog = dynamic(() => import("./device-login-dialog").then((module) => module.DeviceLoginDialog), { ssr: false });
 
 function displayName(user: User) {
   const metadataName = user.user_metadata?.full_name ?? user.user_metadata?.name;
@@ -15,13 +18,15 @@ function displayName(user: User) {
 export function AuthStatus() {
   const [user, setUser] = useState<User | null>(null);
   const [busy, setBusy] = useState(false);
+  const [ready, setReady] = useState(false);
+  const [dialog, setDialog] = useState<"sign-in" | "issue" | null>(null);
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
     if (!supabase) return;
 
-    void supabase.auth.getSession().then(({ data }) => setUser(data.session?.user ?? null));
-    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => setUser(session?.user ?? null));
+    void supabase.auth.getSession().then(({ data }) => { setUser(data.session?.user ?? null); setReady(true); });
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => { setUser(session?.user ?? null); setReady(true); });
     return () => listener.subscription.unsubscribe();
   }, []);
 
@@ -30,12 +35,11 @@ export function AuthStatus() {
   const signIn = async () => {
     const supabase = getSupabaseBrowserClient();
     if (!supabase || typeof window === "undefined") return;
-    setBusy(true);
+    clearTemporaryDeviceLogin();
     const redirectTo = `${window.location.origin}${getAppBasePath()}/auth/callback/`;
     const { error } = await supabase.auth.signInWithOAuth({ provider: "google", options: { redirectTo } });
     if (error) {
-      setBusy(false);
-      window.alert(`Google sign-in failed: ${error.message}`);
+      throw new Error("Google 로그인을 연결하지 못했습니다. 다시 시도해 주세요.");
     }
   };
 
@@ -43,14 +47,25 @@ export function AuthStatus() {
     const supabase = getSupabaseBrowserClient();
     if (!supabase) return;
     setBusy(true);
-    const { error } = await supabase.auth.signOut();
-    setBusy(false);
-    if (error) window.alert(`Sign-out failed: ${error.message}`);
+    const wasTemporary = usesTemporaryDeviceLogin();
+    try {
+      const { error } = await supabase.auth.signOut({ scope: "local" });
+      if (error) throw error;
+      clearTemporaryDeviceLogin();
+      if (wasTemporary) window.location.reload();
+    } catch { window.alert("로그아웃하지 못했습니다. 연결을 확인하고 다시 시도해 주세요."); }
+    finally { setBusy(false); }
   };
 
-  if (!user) {
-    return <div className="flex shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center sm:gap-2"><LearningSyncStatus /><button type="button" onClick={() => void signIn()} disabled={busy} className="secondary-action whitespace-nowrap" title="Sync learning records with a Google account"><LogIn className="h-4 w-4" />{busy ? "Connecting" : "Sign in"}</button></div>;
-  }
-
-  return <div className="flex min-w-0 shrink-0 items-center gap-2"><LearningSyncStatus /><span className="hidden max-w-36 truncate text-xs font-medium text-slate-600 sm:inline" title={user.email ?? undefined}>{displayName(user)}</span><button type="button" onClick={() => void signOut()} disabled={busy} className="secondary-action shrink-0 px-2.5" title="Sign out"><LogOut className="h-4 w-4" /><span className="hidden sm:inline">Sign out</span></button></div>;
+  return <>
+    <div className="flex min-w-0 shrink-0 items-center gap-2">
+      <LearningSyncStatus />
+      {user ? <>
+        <span className="hidden max-w-36 truncate text-xs font-medium text-slate-600 sm:inline" title={user.email ?? undefined}>{displayName(user)}</span>
+        <button type="button" onClick={() => setDialog("issue")} disabled={busy} className="secondary-action shrink-0 px-2.5" title="다른 기기 로그인 번호" aria-label="다른 기기 로그인 번호"><KeyRound className="h-4 w-4" /></button>
+        <button type="button" onClick={() => void signOut()} disabled={busy} className="secondary-action shrink-0 px-2.5" title="Sign out"><LogOut className="h-4 w-4" /><span className="hidden sm:inline">Sign out</span></button>
+      </> : <button type="button" onClick={() => setDialog("sign-in")} disabled={busy || !ready} className="secondary-action whitespace-nowrap disabled:opacity-50" title="Google 또는 임시 번호로 로그인"><LogIn className="h-4 w-4" />Sign in</button>}
+    </div>
+    {dialog ? <DeviceLoginDialog mode={dialog} onClose={() => setDialog(null)} onGoogleSignIn={signIn} /> : null}
+  </>;
 }
