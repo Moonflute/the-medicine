@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowDown, ArrowUp, ChevronDown, ChevronRight, GripVertical, Trash2, X } from "lucide-react";
-import { studyItems, type StudyItem, type StudyLink } from "@/lib/study-flow-model";
+import { ArrowDown, ArrowUp, ChevronDown, ChevronRight, GripVertical, Plus, Trash2, X } from "lucide-react";
+import { studyItemLinkContent, studyItems, type StudyItem, type StudyLink } from "@/lib/study-flow-model";
 import { attachStudyLink, createStudyItem, deleteStudyItem, editStudyItem, getStudySnapshot, indentStudyItem, moveStudyItem, setStudyUI } from "@/lib/study-flow-store";
 import { searchStudyLinks, type StudySearchEntry } from "@/lib/study-flow-search";
 
@@ -44,12 +44,21 @@ export function StudyFlowItemRow({ item, depth = 0, selected, hasChildren, colla
     onSearch();
   };
   const pick = (link: StudyLink) => {
+    const content = studyItemLinkContent(link);
+    const itemLink = content.link ?? link;
     if (mention?.start !== null && mention?.start !== undefined) {
       const text = item.text.slice(0, mention.start) + item.text.slice(mention.end);
-      editStudyItem(item.id, { text: text.trim() ? text : link.title, links: [...item.links.filter(value => value.key !== link.key), link].slice(0, 50) });
-    } else attachStudyLink(item.id, link);
+      editStudyItem(item.id, { text: text.trim() ? text : content.text, links: [...item.links.filter(value => value.key !== itemLink.key), itemLink].slice(0, 50) });
+    } else attachStudyLink(item.id, itemLink);
     setMention(null);
     focusStudyItem(item.id);
+  };
+  const add = (child = false) => {
+    const id = createStudyItem(item.flowId, "", undefined, child ? item.id : item.parentId, child ? undefined : item.id);
+    const ui = getStudySnapshot().ui;
+    setStudyUI({ view: "outline", hideDone: false, collapsed: ui.collapsed.filter(value => value !== item.id && value !== item.parentId) });
+    setMention(null);
+    focusStudyItem(id);
   };
   const move = (direction: -1 | 1) => {
     const siblings = studyItems(getStudySnapshot().records, item.flowId).filter(value => value.parentId === item.parentId).sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
@@ -66,11 +75,12 @@ export function StudyFlowItemRow({ item, depth = 0, selected, hasChildren, colla
       moveStudyItem(item.flowId, id, event.shiftKey ? item.id : item.parentId, event.shiftKey ? undefined : item.id);
     }}>
     <div className="study-flow-row-line">
-      <div className="study-flow-row-move" role="group" aria-label="항목 순서 변경">
-        <button type="button" onClick={() => move(-1)} title="위로 이동" aria-label="위로 이동"><ArrowUp size={14} /></button>
-        <button type="button" onClick={() => move(1)} title="아래로 이동" aria-label="아래로 이동"><ArrowDown size={14} /></button>
-      </div>
       <button type="button" className="study-flow-grip" draggable onDragStart={event => { event.dataTransfer.setData("text/study-flow-item", item.id); event.dataTransfer.effectAllowed = "move"; }} aria-label="드래그로 순서 변경" title="드래그로 순서 변경 · Shift로 하위 항목에 넣기"><GripVertical size={14} /></button>
+      <div className="study-flow-row-move" role="group" aria-label="항목 순서 변경">
+        <button type="button" onClick={() => move(-1)} title="위로 이동" aria-label="위로 이동"><ArrowUp size={12} /></button>
+        <button type="button" onClick={() => move(1)} title="아래로 이동" aria-label="아래로 이동"><ArrowDown size={12} /></button>
+      </div>
+      <button type="button" className="study-flow-row-add" onClick={() => add()} title="같은 단계의 새 항목 추가" aria-label="같은 단계의 새 항목 추가"><Plus size={12} /></button>
       <button type="button" className="study-flow-fold" disabled={!hasChildren} aria-label={collapsed ? "하위 항목 펼치기" : "하위 항목 접기"} aria-expanded={hasChildren ? !collapsed : undefined}
         onClick={() => { const ui = getStudySnapshot().ui; setStudyUI({ collapsed: collapsed ? ui.collapsed.filter(id => id !== item.id) : [...ui.collapsed, item.id] }); }}>
         {hasChildren ? collapsed ? <ChevronRight size={14} /> : <ChevronDown size={14} /> : <span />}
@@ -95,20 +105,16 @@ export function StudyFlowItemRow({ item, depth = 0, selected, hasChildren, colla
           if (mention && event.key === "Escape") { event.preventDefault(); setMention(null); return; }
           if (mention && event.key === "Enter" && !event.shiftKey && results.length) { event.preventDefault(); pick(results[Math.min(active, results.length - 1)]); return; }
           if (event.key === "Tab") {
-            if (indentStudyItem(item.flowId, item.id, event.shiftKey)) { event.preventDefault(); setMention(null); }
+            if (!event.shiftKey) { event.preventDefault(); add(true); }
+            else if (indentStudyItem(item.flowId, item.id, true)) { event.preventDefault(); setMention(null); }
             return;
           }
           if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) { event.preventDefault(); editStudyItem(item.id, { done: !item.done }); return; }
           if (event.key === "Enter" && !event.shiftKey) {
             event.preventDefault();
-            const before = item.text.slice(0, event.currentTarget.selectionStart);
-            const after = item.text.slice(event.currentTarget.selectionEnd);
-            editStudyItem(item.id, { text: before });
-            const id = createStudyItem(item.flowId, after, undefined, item.parentId, item.id);
-            setMention(null);
-            focusStudyItem(id);
+            add();
           }
-          if (event.key === "Backspace" && !item.text && previousId && !mention) { event.preventDefault(); deleteStudyItem(item.flowId, item.id); focusStudyItem(previousId); }
+          if (event.key === "Backspace" && !item.text && !item.links.length && previousId && !mention) { event.preventDefault(); deleteStudyItem(item.flowId, item.id); focusStudyItem(previousId); }
         }} />
       <button type="button" className="study-flow-row-delete" onClick={() => { deleteStudyItem(item.flowId, item.id); if (previousId) focusStudyItem(previousId); }} title="항목 삭제 · 하위 항목은 유지" aria-label="항목 삭제"><Trash2 size={14} /></button>
     </div>

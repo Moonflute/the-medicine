@@ -458,6 +458,36 @@ body:has(.home-settings-dialog[open]) {
   color: var(--muted);
 }
 
+.home-settings-flow {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.home-settings-flow-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 2.75rem;
+  margin-top: 0.375rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.home-settings-flow-toggle input {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.home-settings-flow-toggle input:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 3px;
+}
+
 @media (min-width: 640px) {
   .home-settings-dialog {
     inset: 0;

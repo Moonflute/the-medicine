@@ -5,6 +5,7 @@ import { AppShell } from "@/components/app-shell";
 import { PWARegister } from "@/components/pwa-register";
 import { ThemeProvider } from "@/components/theme-provider";
 import { themeInitScript } from "@/lib/themes";
+import { studyFlowButtonInitScript } from "@/lib/study-flow-preferences";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
@@ -37,7 +38,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <head><script id="medicine-theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript }} /></head>
+      <head><script id="medicine-theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript + studyFlowButtonInitScript }} /></head>
       <body>
         <PWARegister />
         <ThemeProvider><AppShell>{children}</AppShell></ThemeProvider>

@@ -5,6 +5,7 @@ import { useEffect, useSyncExternalStore } from "react";
 import { ListTree } from "lucide-react";
 import { StudyFlowSyncProvider } from "@/components/study-flow-sync-provider";
 import { getStudyServerSnapshot, getStudySnapshot, setStudyUI, subscribeStudyFlow } from "@/lib/study-flow-store";
+import { getStudyFlowButtonServerSnapshot, getStudyFlowButtonVisible, subscribeStudyFlowButton } from "@/lib/study-flow-preferences";
 
 const StudyFlowPanel = dynamic(() => import("./study-flow-panel").then(module => module.StudyFlowPanel), {
   ssr: false,
@@ -13,6 +14,7 @@ const StudyFlowPanel = dynamic(() => import("./study-flow-panel").then(module =>
 
 export function StudyFlowHost() {
   const state = useSyncExternalStore(subscribeStudyFlow, getStudySnapshot, getStudyServerSnapshot);
+  const buttonVisible = useSyncExternalStore(subscribeStudyFlowButton, getStudyFlowButtonVisible, getStudyFlowButtonServerSnapshot);
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.defaultPrevented || event.isComposing) return;
@@ -30,11 +32,11 @@ export function StudyFlowHost() {
   }, []);
   return <div className="study-flow-host" data-highlight-ignore>
     <StudyFlowSyncProvider />
-    <button id="study-flow-toggle" type="button" className={"study-flow-toggle" + (state.ui.open ? " is-open" : "")}
+    {buttonVisible ? <button id="study-flow-toggle" type="button" className={"study-flow-toggle" + (state.ui.open ? " is-open" : "")}
       aria-label="학습 Flow 열기" aria-expanded={state.ui.open} aria-controls="study-flow-panel"
       title="학습 Flow · Ctrl/⌘ Shift L" onClick={() => setStudyUI({ open: !state.ui.open })}>
       <ListTree size={19} /><span>Flow</span>
-    </button>
+    </button> : null}
     {state.ui.open ? <StudyFlowPanel /> : null}
   </div>;
 }

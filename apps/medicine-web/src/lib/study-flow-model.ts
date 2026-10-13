@@ -6,6 +6,13 @@ export type StudyItem = { id: string; flowId: string; parentId: string | null; o
 export type StudyPatch = { id: string; values: Record<string, unknown> };
 export type OutlineRow = { item: StudyItem; depth: number; parentId: string | null };
 
+export function studyItemLinkContent(link?: StudyLink): { text: string; link?: StudyLink } {
+  if (!link) return { text: "" };
+  if (link.kind !== "question") return { text: link.title, link };
+  const questionId = link.key.startsWith("question:") ? link.key.slice("question:".length) : "";
+  return { text: "", link: { ...link, title: questionId || link.title } };
+}
+
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const FLOW_FIELDS = ["title", "createdAt", "deleted"];
 const ITEM_FIELDS = ["flowId", "parentId", "order", "text", "done", "links", "createdAt", "deleted"];

@@ -1,8 +1,9 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useSyncExternalStore } from "react";
 import { useAppTheme } from "@/components/theme-provider";
 import { chatFonts, chatSkins, CHAT_TEXT_SIZES, isChatFont, isChatTextSize, themeGroups } from "@/lib/themes";
+import { getStudyFlowButtonServerSnapshot, getStudyFlowButtonVisible, setStudyFlowButtonVisible, subscribeStudyFlowButton } from "@/lib/study-flow-preferences";
 
 export function HomeSettings() {
   const dialogRef = useRef<HTMLDialogElement>(null);
@@ -10,6 +11,7 @@ export function HomeSettings() {
   const [open, setOpen] = useState(false);
   const { theme: activeTheme, setTheme, chatSkin, setChatSkin, chatFont, setChatFont, chatTextSize, setChatTextSize } = useAppTheme();
   const [saveMessage, setSaveMessage] = useState("");
+  const flowButtonVisible = useSyncExternalStore(subscribeStudyFlowButton, getStudyFlowButtonVisible, getStudyFlowButtonServerSnapshot);
   const selectedTheme = themeGroups.map((group) => group.themes.find((item) => item.id === activeTheme)).find(Boolean);
 
   function closeSettings() {
@@ -117,6 +119,18 @@ export function HomeSettings() {
               </fieldset>
             ))}
             <p className="home-settings-selected-description">{selectedTheme?.description}</p>
+          </section>
+          <section className="home-settings-flow" aria-labelledby="home-settings-flow-title">
+            <h3 id="home-settings-flow-title">학습 Flow</h3>
+            <label className="home-settings-flow-toggle">
+              <span>학습 Flow 버튼 표시</span>
+              <input type="checkbox" role="switch" checked={flowButtonVisible} aria-describedby="home-settings-flow-description" onChange={event => {
+                const visible = event.target.checked;
+                const saved = setStudyFlowButtonVisible(visible);
+                setSaveMessage(saved ? (visible ? "학습 Flow 버튼을 표시합니다." : "학습 Flow 버튼을 숨겼습니다.") : "표시 설정이 적용되었습니다. 이 브라우저에서는 설정을 저장할 수 없어요.");
+              }} />
+            </label>
+            <p id="home-settings-flow-description" className="home-settings-intro">화면 가장자리 버튼만 숨깁니다. 작성한 메모는 유지되며, 표시 설정은 이 브라우저에 저장됩니다.</p>
           </section>
         </div>
       </dialog>

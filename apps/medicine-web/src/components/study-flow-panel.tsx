@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, CheckCheck, CornerDownRight, FilePlus2, GitBranch, ListTree, Plus, RefreshCw, Trash2, X } from "lucide-react";
 import { StudyFlowItemRow, focusStudyItem } from "./study-flow-item-row";
 import { StudyFlowMindmap } from "./study-flow-mindmap";
-import { outlineStudyItems, studyFlows, studyItems, type StudyLink } from "@/lib/study-flow-model";
+import { outlineStudyItems, studyFlows, studyItemLinkContent, studyItems, type StudyLink } from "@/lib/study-flow-model";
 import { createStudyFlow, createStudyItem, deleteStudyFlow, editStudyItem, getStudyServerSnapshot, getStudySnapshot, hasGuestStudyFlows, importGuestStudyFlows, patchStudyRecords, retryStudyStorage, setStudyUI, subscribeStudyFlow, STUDY_FLOW_RETRY } from "@/lib/study-flow-store";
 import { loadStudySearchIndex, practiceStudyEntries, type StudySearchEntry } from "@/lib/study-flow-search";
 import { currentStudyPageSource, studyPath, STUDY_SOURCE_EVENT } from "@/lib/study-flow-source";
@@ -88,9 +88,10 @@ export function StudyFlowPanel() {
     rememberNavigation(link, itemId);
     router.push(link.href);
   };
-  const add = (link?: StudyLink, child = false) => {
+  const add = (link?: StudyLink, placement: "after" | "child" | "end" = "after") => {
     const flowId = flow?.id ?? createStudyFlow();
-    const id = createStudyItem(flowId, link?.title ?? "", link, child && selected ? selected.id : null, !child ? selected?.id : undefined);
+    const content = studyItemLinkContent(link);
+    const id = createStudyItem(flowId, content.text, content.link, placement === "child" && selected ? selected.id : null, placement === "after" ? selected?.id : undefined);
     setStudyUI({ flowId, itemId: id, view: "outline", hideDone: false, collapsed: selected ? state.ui.collapsed.filter(value => value !== selected.id && value !== selected.parentId) : state.ui.collapsed });
     focusStudyItem(id);
   };
@@ -147,12 +148,12 @@ export function StudyFlowPanel() {
       <div className="study-flow-add-bar">
         <button type="button" onClick={() => add()}><Plus size={15} />항목 추가</button>
         <button type="button" disabled={!currentSource} onClick={() => currentSource && add(currentSource)} title={currentSource?.title ?? "문제를 불러오는 중"}><FilePlus2 size={15} />현재 {currentSource?.kind === "question" ? "문제" : "페이지"} 추가</button>
-        {selected ? <button type="button" title="선택 항목 아래에 추가" aria-label="하위 항목 추가" onClick={() => add(undefined, true)}><CornerDownRight size={15} /></button> : null}
+        {selected ? <button type="button" title="선택 항목 아래에 추가" aria-label="하위 항목 추가" onClick={() => add(undefined, "child")}><CornerDownRight size={15} /></button> : null}
       </div>
       {guestAvailable ? <div className="study-flow-guest"><span>로그인 전에 이 기기에 적어둔 Flow가 있습니다.</span><button type="button" onClick={() => importGuestStudyFlows()}>내 계정으로 가져오기</button></div> : null}
     </div>
     <div className="study-flow-body" ref={body}>
-      {!items.length ? <div className="study-flow-empty"><ListTree size={28} /><p>공부할 것들을 적고 순서대로 이어 보세요.</p><span>Enter로 다음 항목 · Tab으로 하위 항목<br />@로 문서 연결 · Shift Enter로 줄바꿈</span><button type="button" onClick={() => add()}>첫 항목 적기</button></div>
+      {!items.length ? <div className="study-flow-empty"><ListTree size={28} /><p>공부할 것들을 적고 순서대로 이어 보세요.</p><span>Enter로 같은 단계 새 항목 · Tab으로 하위 새 항목<br />@로 문서 연결 · Shift Enter로 줄바꿈</span><button type="button" onClick={() => add()}>첫 항목 적기</button></div>
       : state.ui.view === "outline" ? <div className="study-flow-outline" aria-label="학습 항목 목록">
         {rows.map((row, index) => <StudyFlowItemRow key={row.item.id} {...rowProps} item={row.item} depth={row.depth} selected={selected?.id === row.item.id} hasChildren={children.has(row.item.id)} collapsed={collapsed.has(row.item.id)} previousId={rows[index - 1]?.item.id} />)}
         {!rows.length ? <p className="study-flow-empty-note">모든 항목을 완료했습니다. ‘완료 숨김’을 끄면 다시 볼 수 있습니다.</p> : null}
@@ -160,6 +161,7 @@ export function StudyFlowPanel() {
         <StudyFlowMindmap rows={rows} title={flow?.title ?? ""} selectedId={selected?.id ?? null} onNavigate={openLink} />
         {selected ? <div className="study-flow-map-editor"><p>선택 항목 편집</p><StudyFlowItemRow key={selected.id} {...rowProps} item={selected} selected hasChildren={children.has(selected.id)} collapsed={collapsed.has(selected.id)} /></div> : <p className="study-flow-empty-note">노드를 선택하면 아래에서 같은 항목을 편집할 수 있습니다.</p>}
       </>}
+      {items.length ? <button type="button" className="study-flow-append" onClick={() => add(undefined, "end")} title="맨 아래 새 항목 추가" aria-label="맨 아래 새 항목 추가"><Plus size={17} /></button> : null}
     </div>
     <footer className="study-flow-footer">
       {selected ? <div className="study-flow-reading">

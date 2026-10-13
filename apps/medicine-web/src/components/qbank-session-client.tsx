@@ -478,7 +478,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   useStudyPageSource(current ? {
     key: "question:" + current.id,
     kind: "question",
-    title: (current.specialty + " · " + current.question.replace(/\s+/g, " ").slice(0, 110)).slice(0, 300),
+    title: current.id,
     href: studyQuestionHref(current.id),
   } : null, 30);
   useEffect(() => {
