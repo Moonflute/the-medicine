@@ -172,19 +172,27 @@ export function PersonalHighlighter() {
       if ((event.target as Element).closest?.("[data-highlight-ignore]")) return;
       if (user && mode !== "read" && root?.contains(event.target as Node)) { event.preventDefault(); event.stopPropagation(); }
     };
-    const escape = (event: KeyboardEvent) => { if (event.key === "Escape") { setOpen(false); setMode("read"); } };
+    const hotkeys = (event: KeyboardEvent) => {
+      if (event.key === "Escape") { setOpen(false); setMode("read"); return; }
+      if (event.key.toLowerCase() !== "h" || event.repeat || event.isComposing || event.defaultPrevented) return;
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || !scope || !slot || !user) return;
+      if (document.querySelector("dialog[open]")) return;
+      if (event.target instanceof Element && event.target.closest('input, textarea, select, [contenteditable], [role="textbox"]')) return;
+      event.preventDefault();
+      setMode(value => value === "pen" ? "read" : "pen");
+    };
     document.addEventListener("selectionchange", selectionChanged);
     root?.addEventListener("pointerup", pointerUp);
     root?.addEventListener("click", click, true);
-    document.addEventListener("keydown", escape);
+    document.addEventListener("keydown", hotkeys);
     return () => {
       window.clearTimeout(pointerTimer);
       document.documentElement.dataset.highlighterMode = "read";
       root?.removeAttribute("data-highlighter-active");
       document.removeEventListener("selectionchange", selectionChanged); root?.removeEventListener("pointerup", pointerUp);
-      root?.removeEventListener("click", click, true); document.removeEventListener("keydown", escape);
+      root?.removeEventListener("click", click, true); document.removeEventListener("keydown", hotkeys);
     };
-  }, [apply, capture, mode, scope, user]);
+  }, [apply, capture, mode, scope, slot, user]);
 
   useEffect(() => {
     if (!open) return;
@@ -215,7 +223,7 @@ export function PersonalHighlighter() {
   const button = "flex items-center gap-2 rounded-md px-2.5 py-2 text-left text-xs hover:bg-slate-100";
   if (!slot) return null;
   return createPortal(<div ref={tools} className="relative shrink-0" data-highlight-ignore>
-    <button type="button" aria-label="형광펜 도구" title={mode === "pen" ? "형광펜 모드 켜짐" : mode === "erase" ? "지우개 모드 켜짐" : "개인 형광펜"} aria-expanded={open} onPointerDown={capture} onClick={() => setOpen(value => !value)} className={`inline-flex h-10 w-10 items-center justify-center rounded-lg border transition ${mode !== "read" && user ? "border-amber-400 bg-amber-100 text-amber-900" : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"}`}><Highlighter size={18} /></button>
+    <button type="button" aria-label="형광펜 도구" title={mode === "pen" ? "형광펜 모드 켜짐 · H로 끄기" : mode === "erase" ? "지우개 모드 켜짐" : user ? "개인 형광펜 · H로 모드 전환" : "개인 형광펜"} aria-expanded={open} onPointerDown={capture} onClick={() => setOpen(value => !value)} className={`inline-flex h-10 w-10 items-center justify-center rounded-lg border transition ${mode !== "read" && user ? "border-amber-400 bg-amber-100 text-amber-900" : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"}`}><Highlighter size={18} /></button>
     {open && createPortal(<div ref={panel} data-highlight-ignore role="dialog" aria-label="형광펜 도구 패널" style={{ ...panelPosition, maxHeight: `calc(100dvh - ${panelPosition.top + 16}px)` }} className="fixed z-[60] w-72 max-w-[calc(100vw-1.5rem)] overflow-y-auto rounded-xl border border-slate-200 bg-white p-3 text-slate-800 shadow-xl">
       <div className="mb-2 flex items-center justify-between"><strong className="text-sm">개인 형광펜</strong><button type="button" className="rounded p-1 hover:bg-slate-100" aria-label="형광펜 패널 닫기" onClick={() => setOpen(false)}><X size={16} /></button></div>
       {!user ? <p className="text-xs leading-5 text-slate-600">Google 계정으로 로그인하면 표시가 내 계정에 저장됩니다.</p> : <>
@@ -229,7 +237,7 @@ export function PersonalHighlighter() {
           <button type="button" className={button + " text-rose-700"} onClick={() => setConfirmClear(true)}><Trash2 size={15} />문서 전체 지우기</button>
         </div>
         {confirmClear && <div className="mt-2 rounded-lg bg-rose-50 p-2 text-xs"><p>이 문서의 내 형광펜 {activeRows.length}개를 모두 지울까요?</p><div className="mt-2 flex gap-3"><button type="button" className="font-semibold text-rose-700" onClick={() => { store.current?.write(activeRows.map(row => ({ ...row, deleted: true }))); setConfirmClear(false); }}>모두 지우기</button><button type="button" onClick={() => setConfirmClear(false)}>취소</button></div></div>}
-        <p className="mt-2 text-[11px] leading-4 text-slate-500">{mode === "read" ? "글자를 선택한 뒤 색상을 누르세요." : mode === "pen" ? "드래그하면 표시됩니다. 읽기로 돌아가려면 Esc." : "지울 글자만 드래그하세요. Esc로 종료."}</p>
+        <p className="mt-2 text-[11px] leading-4 text-slate-500">{mode === "read" ? "글자를 선택한 뒤 색상을 누르세요. H로 형광펜 모드를 켤 수 있습니다." : mode === "pen" ? "드래그하면 표시됩니다. H를 다시 누르면 읽기 모드로 돌아갑니다." : "지울 글자만 드래그하세요. Esc로 종료."}</p>
         <p role="status" className="mt-1 text-[11px] leading-4 text-slate-500">{status}</p>
         {unmatched.length > 0 && <details className="mt-2 border-t pt-2 text-xs"><summary className="cursor-pointer">현재 화면에 연결되지 않은 표시 {unmatched.length}개</summary><p className="mt-2 text-slate-500">본문 수정·접힌 구역으로 숨겨진 표시도 기록은 보존됩니다. 본문을 선택해 다시 연결할 수 있습니다.</p>{unmatched.map(row => <div key={row.id} className="mt-2 rounded bg-slate-50 p-2"><p className="line-clamp-2">{row.anchor.exact}</p><div className="mt-1 flex gap-3"><button type="button" onClick={() => apply(false, row.color, row)} className="text-teal-700">선택 부분에 다시 연결</button><button type="button" onClick={() => store.current?.write([{ ...row, deleted: true }])} className="text-rose-700">삭제</button></div></div>)}</details>}
       </>}
