@@ -11,7 +11,7 @@ const GOOGLE_TOKEN = jwt(USER_ID, GOOGLE_SESSION_ID, "oauth");
 const DEVICE_TOKEN = jwt(USER_ID, DEVICE_SESSION_ID, "magiclink");
 const userFixture = () => ({ id: USER_ID, email: "device-test@example.invalid", email_confirmed_at: "2026-01-01T00:00:00Z", app_metadata: { providers: ["google"] }, factors: [] });
 
-function fixture(overrides = {}) {
+function fixture(overrides = {}, settings = {}) {
   const user = { ...userFixture(), ...overrides };
   const codes = new Map();
   const sessions = new Map();
@@ -40,6 +40,7 @@ function fixture(overrides = {}) {
       attempts.set(body.p_bucket, hits);
       return json(hits <= body.p_limit ? 0 : body.p_window_seconds);
     }
+    if (path.endsWith("/device_login_telegram_credentials")) return json({ botToken: "fake-bot-token", chatId: "12345" });
     if (path.endsWith("/device_login_issue")) {
       const id = `aaaaaaaa-aaaa-4aaa-8aaa-${String(nextId++).padStart(12, "0")}`;
       const value = { id, hash: body.p_code_hash, expiresAt: new Date(Date.now() + 10_000).toISOString() };
@@ -77,7 +78,7 @@ function fixture(overrides = {}) {
     }
     throw new Error(`Unexpected request ${path}`);
   };
-  const handler = createDeviceLoginHandler({ supabaseUrl: "https://project.test", anonKey: "public-test-key", serviceKey: "server-test-secret", telegramBotToken: "fake-bot-token", telegramChatId: "12345", fetcher });
+  const handler = createDeviceLoginHandler({ supabaseUrl: "https://project.test", anonKey: "public-test-key", serviceKey: "server-test-secret", ...(settings.vault ? {} : { telegramBotToken: "fake-bot-token", telegramChatId: "12345" }), fetcher });
   const call = (input, token, headers = {}) => handler(new Request("https://project.test/functions/v1/device-login", {
     method: "POST", headers: { Origin: "https://moonflute.github.io", "Content-Type": "application/json", "cf-connecting-ip": "192.0.2.1", ...(token ? { Authorization: `Bearer ${token === "phone-session" ? GOOGLE_TOKEN : token === "temporary-session" ? DEVICE_TOKEN : token}` } : {}), ...headers }, body: JSON.stringify(input),
   }));
@@ -137,6 +138,14 @@ test("receiver gets a registered new session only after its Telegram alert", asy
   const repeated = await f.call({ action: "redeem", code: code.code });
   assert.equal(repeated.status, 400);
   assert.ok(!JSON.stringify(await repeated.json()).includes("accessToken"));
+});
+
+test("Telegram credentials can come from the service-role-only Vault RPC", async () => {
+  const f = fixture({}, { vault: true });
+  const code = await f.issue();
+  assert.equal((await f.call({ action: "redeem", code: code.code })).status, 200);
+  assert.equal(f.calls.filter((call) => call.path.endsWith("/device_login_telegram_credentials")).length, 1);
+  assert.equal(f.calls.filter((call) => call.path.endsWith("/sendMessage")).length, 1);
 });
 
 test("a temporary session cannot issue codes or revoke sessions, while Google can revoke only temporary sessions", async () => {

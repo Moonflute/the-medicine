@@ -91,8 +91,17 @@ export function createDeviceLoginHandler(config: Config) {
     return data;
   };
   const rpc = (name: string, body: object) => adminRequest(`/rest/v1/rpc/${name}`, body);
-  const notifyLogin = async (req: Request, ip: string, sessionId: string) => {
-    if (!config.telegramBotToken || !config.telegramChatId) throw new Error("notification-unconfigured");
+  const notificationCredentials = async () => {
+    if (config.telegramBotToken && config.telegramChatId) {
+      return { botToken: config.telegramBotToken, chatId: config.telegramChatId };
+    }
+    const secrets = record(await rpc("device_login_telegram_credentials", {}));
+    return typeof secrets.botToken === "string" && secrets.botToken &&
+      typeof secrets.chatId === "string" && secrets.chatId
+      ? { botToken: secrets.botToken, chatId: secrets.chatId }
+      : null;
+  };
+  const notifyLogin = async (req: Request, ip: string, sessionId: string, credentials: { botToken: string; chatId: string }) => {
     const message = [
       "[임시번호 로그인]",
       `시각: ${koreanTime(new Date())}`,
@@ -100,9 +109,9 @@ export function createDeviceLoginHandler(config: Config) {
       `기기: ${safeHeader(req.headers.get("user-agent"))}`,
       `세션: …${sessionId.slice(-8)}`,
     ].join("\n");
-    const response = await request(`https://api.telegram.org/bot${config.telegramBotToken}/sendMessage`, {
+    const response = await request(`https://api.telegram.org/bot${credentials.botToken}/sendMessage`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ chat_id: config.telegramChatId, text: message }),
+      body: JSON.stringify({ chat_id: credentials.chatId, text: message }),
       signal: AbortSignal.timeout(5_000),
     });
     if (!response.ok || record(await response.json().catch(() => null)).ok !== true) throw new Error("notification-failed");
@@ -140,7 +149,8 @@ export function createDeviceLoginHandler(config: Config) {
       const ipLimit = await limit(`${String(input.action)}:ip:${await hash("ip", ip)}`, input.action === "session-status" ? 300 : input.action === "redeem" ? 10 : 30, 600);
       if (ipLimit) return ipLimit;
       if (input.action === "redeem") {
-        if (!config.telegramBotToken || !config.telegramChatId) return reply({ error: "로그인 알림 설정을 확인해 주세요." }, 503);
+        const credentials = await notificationCredentials();
+        if (!credentials) return reply({ error: "로그인 알림 설정을 확인해 주세요." }, 503);
         if (typeof input.code !== "string" || !/^\d{8}$/.test(input.code)) return reply({ error: INVALID_CODE }, 400);
         const userId = await rpc("device_login_redeem", { p_code_hash: await hash("code", input.code) });
         if (typeof userId !== "string" || !UUID.test(userId)) return reply({ error: INVALID_CODE }, 400);
@@ -168,7 +178,7 @@ export function createDeviceLoginHandler(config: Config) {
         try {
           const registered = await rpc("device_login_register_session", { p_user_id: userId, p_session_id: sessionId });
           if (registered !== true) throw new Error("session-registration-failed");
-          await notifyLogin(req, ip, sessionId);
+          await notifyLogin(req, ip, sessionId, credentials);
         } catch {
           // Never hand out credentials for an untracked or unannounced session.
           try { await rpc("device_login_revoke_session", { p_user_id: userId, p_session_id: sessionId }); }
