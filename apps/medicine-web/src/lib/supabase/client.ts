@@ -1,4 +1,4 @@
-import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { createClient, type Session, type SupabaseClient } from "@supabase/supabase-js";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabasePublishableKey =
@@ -11,6 +11,7 @@ export function isSupabaseConfigured() {
 let client: SupabaseClient | null = null;
 let clientIsTemporary = false;
 const DEVICE_SESSION_MARKER = "medicine.device-login.session.v1";
+const DEVICE_PERSISTENT_MARKER = "medicine.device-login.persistent-session.v1";
 const DEVICE_STORAGE_PREFIX = "medicine-device-auth-";
 
 function temporaryStorageKey() {
@@ -27,6 +28,32 @@ export function usesTemporaryDeviceLogin() {
   return clientIsTemporary;
 }
 
+function sessionClaims(session: Session | null): { session_id?: unknown; amr?: { method?: string }[] } {
+  if (!session?.access_token) return {};
+  try {
+    const encoded = session.access_token.split(".")[1];
+    return JSON.parse(atob(encoded.replace(/-/g, "+").replace(/_/g, "/"))) as { session_id?: unknown; amr?: { method?: string }[] };
+  } catch { return {}; }
+}
+
+function sessionAuthMethods(session: Session | null): string[] {
+  const claims = sessionClaims(session);
+  return Array.isArray(claims.amr) ? claims.amr.map((entry) => entry.method).filter((method): method is string => typeof method === "string") : [];
+}
+
+export function sessionUsesGoogleOAuth(session: Session | null) {
+  return sessionAuthMethods(session).includes("oauth");
+}
+
+export function sessionUsesDeviceCode(session: Session | null) {
+  const methods = sessionAuthMethods(session);
+  if (methods.includes("magiclink") || methods.includes("otp")) return true;
+  if (typeof window === "undefined" || !session) return false;
+  const sessionId = sessionClaims(session).session_id;
+  try { return typeof sessionId === "string" && window.localStorage.getItem(DEVICE_PERSISTENT_MARKER) === sessionId; }
+  catch { return false; }
+}
+
 export function clearTemporaryDeviceLogin() {
   if (typeof window === "undefined") return;
   try {
@@ -36,6 +63,8 @@ export function clearTemporaryDeviceLogin() {
     }
     window.sessionStorage.removeItem(DEVICE_SESSION_MARKER);
   } catch { /* No persistent Google session is removed here. */ }
+  try { window.localStorage.removeItem(DEVICE_PERSISTENT_MARKER); }
+  catch { /* Login still works when localStorage is unavailable. */ }
 }
 
 export function assertDeviceLoginStorage(remember: boolean) {
@@ -65,7 +94,7 @@ export function getSupabaseBrowserClient() {
   return client;
 }
 
-export async function establishDeviceLogin(tokenHash: string, expectedUserId: string, remember: boolean) {
+export async function establishDeviceLogin(accessToken: string, refreshToken: string, expectedUserId: string, remember: boolean) {
   assertDeviceLoginStorage(remember);
   const primary = getSupabaseBrowserClient();
   if (!primary) throw new Error("로그인 연결을 확인해 주세요.");
@@ -80,13 +109,20 @@ export async function establishDeviceLogin(tokenHash: string, expectedUserId: st
   });
   let receivedSession = false;
   try {
-    const { data, error } = await authClient.auth.verifyOtp({ token_hash: tokenHash, type: "email" });
+    const { data, error } = await authClient.auth.setSession({ access_token: accessToken, refresh_token: refreshToken });
     receivedSession = Boolean(data.session);
     if (error || !data.session || data.user?.id !== expectedUserId) {
       throw new Error("로그인을 완료하지 못했습니다. 폰에서 새 번호를 만들어 다시 시도해 주세요.");
     }
-    if (remember) clearTemporaryDeviceLogin();
-    else window.sessionStorage.setItem(DEVICE_SESSION_MARKER, key);
+    if (remember) {
+      clearTemporaryDeviceLogin();
+      const sessionId = sessionClaims(data.session).session_id;
+      if (typeof sessionId !== "string") throw new Error("로그인 세션을 확인하지 못했습니다.");
+      window.localStorage.setItem(DEVICE_PERSISTENT_MARKER, sessionId);
+    } else {
+      window.localStorage.removeItem(DEVICE_PERSISTENT_MARKER);
+      window.sessionStorage.setItem(DEVICE_SESSION_MARKER, key);
+    }
   } catch (error) {
     if (receivedSession) {
       try { await authClient.auth.signOut({ scope: "local" }); } catch { /* Best effort; never revoke the phone's session. */ }

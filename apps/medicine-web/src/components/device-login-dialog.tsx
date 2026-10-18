@@ -2,8 +2,8 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { KeyRound, LogIn, RefreshCw, X } from "lucide-react";
-import { issueDeviceLoginCode, revokeDeviceLoginCode, signInWithDeviceCode, type DeviceLoginCode } from "@/lib/device-login";
+import { KeyRound, LogIn, LogOut, RefreshCw, X } from "lucide-react";
+import { issueDeviceLoginCode, revokeAllDeviceLoginSessions, revokeDeviceLoginCode, signInWithDeviceCode, type DeviceLoginCode } from "@/lib/device-login";
 
 type Props = { mode: "sign-in" | "issue"; onClose: () => void; onGoogleSignIn: () => Promise<void> };
 
@@ -14,6 +14,7 @@ export function DeviceLoginDialog({ mode, onClose, onGoogleSignIn }: Props) {
   const descriptionId = useId();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  const [notice, setNotice] = useState("");
   const [input, setInput] = useState("");
   const [remember, setRemember] = useState(false);
   const [issued, setIssued] = useState<DeviceLoginCode | null>(null);
@@ -31,13 +32,14 @@ export function DeviceLoginDialog({ mode, onClose, onGoogleSignIn }: Props) {
 
   useEffect(() => {
     if (!issued) return;
-    const timer = window.setInterval(() => setNow(Date.now()), 1000);
+    const timer = window.setInterval(() => setNow(Date.now()), 250);
     return () => window.clearInterval(timer);
   }, [issued]);
 
   const run = async (action: () => Promise<void>) => {
     setBusy(true);
     setError("");
+    setNotice("");
     try { await action(); }
     catch (value) { setError(value instanceof Error ? value.message : "잠시 후 다시 시도해 주세요."); }
     finally { setBusy(false); }
@@ -48,7 +50,7 @@ export function DeviceLoginDialog({ mode, onClose, onGoogleSignIn }: Props) {
     const code = await issueDeviceLoginCode();
     const timestamp = Date.now();
     setNow(timestamp);
-    setDeadline(timestamp + code.expiresIn * 1000);
+    setDeadline(timestamp + code.remainingMs);
     setIssued(code);
   });
 
@@ -72,12 +74,20 @@ export function DeviceLoginDialog({ mode, onClose, onGoogleSignIn }: Props) {
         {issued ? <>
           <p className={`font-mono text-3xl font-semibold tracking-widest ${remaining ? "text-teal-700" : "text-slate-400"}`} aria-label={`인증번호 ${issued.code}`}>{issued.code.slice(0, 4)} {issued.code.slice(4)}</p>
           <p className="mt-2 text-xs text-slate-500" role="status">{remaining ? `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, "0")} 뒤 만료 · 1회 사용` : "번호가 만료되었습니다."}</p>
-        </> : <p className="text-sm text-slate-500">번호를 생성하면 3분 동안 사용할 수 있습니다.</p>}
+        </> : <p className="text-sm text-slate-500">번호를 생성하면 10초 동안 사용할 수 있습니다.</p>}
       </div>
       <div className="mt-3 grid grid-cols-2 gap-2">
         <button type="button" disabled={busy} onClick={() => void generate()} className="secondary-action text-sm disabled:opacity-50">{issued ? <RefreshCw className="h-4 w-4" /> : <KeyRound className="h-4 w-4" />}{busy ? "처리 중…" : issued ? "새 번호 발급" : "번호 생성"}</button>
         <button type="button" disabled={busy || !issued || !remaining} onClick={() => void run(async () => { await revokeDeviceLoginCode(issued!.id); setIssued(null); })} className="secondary-action text-sm disabled:opacity-40">번호 취소</button>
       </div>
+      <button type="button" disabled={busy} onClick={() => {
+        if (!window.confirm("임시번호로 로그인한 모든 기기를 로그아웃할까요? 현재 Google 로그인은 유지됩니다.")) return;
+        void run(async () => {
+          const count = await revokeAllDeviceLoginSessions();
+          setIssued(null);
+          setNotice(count ? `임시번호 로그인 세션 ${count}개를 로그아웃했습니다.` : "현재 로그인 중인 임시번호 세션이 없습니다.");
+        });
+      }} className="secondary-action mt-3 w-full text-sm text-red-700 disabled:opacity-50"><LogOut className="h-4 w-4" />임시번호 로그인 기기 모두 로그아웃</button>
       <p className="mt-3 text-xs leading-relaxed text-slate-500">새로 발급하면 이전 번호는 무효화됩니다. 이 번호를 아는 사람은 계정에 로그인할 수 있으니 다른 사람에게 알려주지 마세요.</p>
     </> : <>
       <p id={descriptionId} className="mt-3 text-sm leading-relaxed text-slate-600">Google로 로그인하거나 로그인된 폰에서 생성한 번호를 입력하세요.</p>
@@ -92,5 +102,6 @@ export function DeviceLoginDialog({ mode, onClose, onGoogleSignIn }: Props) {
       </form>
     </>}
     {error ? <p role="alert" className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs leading-relaxed text-red-700">{error}</p> : null}
+    {notice ? <p role="status" className="mt-3 rounded-lg border border-teal-200 bg-teal-50 px-3 py-2 text-xs leading-relaxed text-teal-800">{notice}</p> : null}
   </dialog>, document.body);
 }

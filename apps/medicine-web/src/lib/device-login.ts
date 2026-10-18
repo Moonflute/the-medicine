@@ -1,6 +1,6 @@
 import { assertDeviceLoginStorage, establishDeviceLogin, getSupabaseBrowserClient } from "./supabase/client";
 
-export type DeviceLoginCode = { id: string; code: string; expiresAt: string; expiresIn: number };
+export type DeviceLoginCode = { id: string; code: string; expiresAt: string; remainingMs: number };
 
 async function invoke<T>(input: object): Promise<T> {
   const client = getSupabaseBrowserClient();
@@ -20,12 +20,23 @@ async function invoke<T>(input: object): Promise<T> {
 
 export async function issueDeviceLoginCode() {
   const code = await invoke<DeviceLoginCode>({ action: "issue" });
-  if (!/^\d{8}$/.test(code.code) || typeof code.id !== "string" || !Number.isFinite(code.expiresIn)) throw new Error("번호를 생성하지 못했습니다.");
+  if (!/^\d{8}$/.test(code.code) || typeof code.id !== "string" || !Number.isFinite(code.remainingMs)) throw new Error("번호를 생성하지 못했습니다.");
   return code;
 }
 
 export async function revokeDeviceLoginCode(id: string) {
   await invoke({ action: "revoke", id });
+}
+
+export async function revokeAllDeviceLoginSessions() {
+  const result = await invoke<{ revoked: number }>({ action: "revoke-sessions" });
+  if (!Number.isInteger(result.revoked) || result.revoked < 0) throw new Error("로그아웃 결과를 확인하지 못했습니다.");
+  return result.revoked;
+}
+
+export async function deviceLoginSessionIsActive() {
+  const result = await invoke<{ active: boolean }>({ action: "session-status" });
+  return result.active === true;
 }
 
 export async function signInWithDeviceCode(code: string, remember: boolean) {
@@ -34,7 +45,7 @@ export async function signInWithDeviceCode(code: string, remember: boolean) {
   if (!client) throw new Error("로그인 연결을 확인해 주세요.");
   const { data } = await client.auth.getSession();
   if (data.session) throw new Error("이미 로그인되어 있습니다. 계정을 바꾸려면 먼저 로그아웃해 주세요.");
-  const result = await invoke<{ tokenHash: string; userId: string }>({ action: "redeem", code });
-  if (typeof result.tokenHash !== "string" || typeof result.userId !== "string") throw new Error("번호를 확인하지 못했습니다.");
-  await establishDeviceLogin(result.tokenHash, result.userId, remember);
+  const result = await invoke<{ accessToken: string; refreshToken: string; userId: string }>({ action: "redeem", code });
+  if (typeof result.accessToken !== "string" || typeof result.refreshToken !== "string" || typeof result.userId !== "string") throw new Error("번호를 확인하지 못했습니다.");
+  await establishDeviceLogin(result.accessToken, result.refreshToken, result.userId, remember);
 }

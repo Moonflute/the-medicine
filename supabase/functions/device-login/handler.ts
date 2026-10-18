@@ -1,4 +1,4 @@
-type Config = { supabaseUrl: string; anonKey: string; serviceKey: string; fetcher?: typeof fetch };
+type Config = { supabaseUrl: string; anonKey: string; serviceKey: string; telegramBotToken?: string; telegramChatId?: string; fetcher?: typeof fetch };
 type RecordValue = Record<string, unknown>;
 const ORIGINS = new Set(["https://moonflute.github.io", "http://localhost:3000", "http://localhost:3017"]);
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -18,6 +18,28 @@ function eligibleUser(value: unknown): RecordValue | null {
       user.is_anonymous || bannedUntil > Date.now() || !Array.isArray(providers) || !providers.includes("google") ||
       factors.some((factor) => record(factor).status === "verified")) return null;
   return user;
+}
+
+function jwtClaims(token: string): RecordValue {
+  try {
+    const encoded = token.split(".")[1];
+    return record(JSON.parse(atob(encoded.replace(/-/g, "+").replace(/_/g, "/"))));
+  } catch { return {}; }
+}
+
+function oauthSession(claims: RecordValue) {
+  return Array.isArray(claims.amr) && claims.amr.some((item) => record(item).method === "oauth");
+}
+
+function safeHeader(value: string | null, max = 160) {
+  return (value ?? "알 수 없음").replace(/[\u0000-\u001f\u007f]/g, " ").trim().slice(0, max) || "알 수 없음";
+}
+
+function koreanTime(date: Date) {
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23",
+  }).format(date) + " KST";
 }
 
 export function randomLoginCode(): string {
@@ -69,6 +91,22 @@ export function createDeviceLoginHandler(config: Config) {
     return data;
   };
   const rpc = (name: string, body: object) => adminRequest(`/rest/v1/rpc/${name}`, body);
+  const notifyLogin = async (req: Request, ip: string, sessionId: string) => {
+    if (!config.telegramBotToken || !config.telegramChatId) throw new Error("notification-unconfigured");
+    const message = [
+      "[임시번호 로그인]",
+      `시각: ${koreanTime(new Date())}`,
+      `접속 IP: ${safeHeader(ip, 64)}`,
+      `기기: ${safeHeader(req.headers.get("user-agent"))}`,
+      `세션: …${sessionId.slice(-8)}`,
+    ].join("\n");
+    const response = await request(`https://api.telegram.org/bot${config.telegramBotToken}/sendMessage`, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ chat_id: config.telegramChatId, text: message }),
+      signal: AbortSignal.timeout(5_000),
+    });
+    if (!response.ok || record(await response.json().catch(() => null)).ok !== true) throw new Error("notification-failed");
+  };
 
   return async (req: Request): Promise<Response> => {
     const origin = req.headers.get("origin") ?? "";
@@ -84,9 +122,9 @@ export function createDeviceLoginHandler(config: Config) {
     let input: RecordValue;
     try { input = await readInput(req); }
     catch (error) { return reply({ error: "요청 내용을 확인해 주세요." }, error instanceof Error && error.message === "request-size" ? 413 : 400); }
-    if (typeof input.action !== "string" || !["issue", "redeem", "revoke"].includes(input.action)) return reply({ error: "요청 내용을 확인해 주세요." }, 400);
+    if (typeof input.action !== "string" || !["issue", "redeem", "revoke", "revoke-sessions", "session-status"].includes(input.action)) return reply({ error: "요청 내용을 확인해 주세요." }, 400);
     const bearer = req.headers.get("authorization")?.match(/^Bearer (.+)$/i)?.[1];
-    if (input.action !== "redeem" && !bearer) return reply({ error: "로그인된 기기에서만 번호를 만들 수 있습니다." }, 401);
+    if (input.action !== "redeem" && !bearer) return reply({ error: "로그인된 기기에서만 사용할 수 있습니다." }, 401);
     try {
       const limit = async (bucket: string, count: number, seconds: number) => {
         const wait = await rpc("device_login_rate_limit", { p_bucket: bucket, p_limit: count, p_window_seconds: seconds });
@@ -96,12 +134,13 @@ export function createDeviceLoginHandler(config: Config) {
         return reply({ error: "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요.", retryAfter: wait }, 429);
       };
       // The global budget also bounds guessing if a caller spoofs forwarding headers.
-      const globalLimit = await limit(`global:${String(input.action)}`, input.action === "redeem" ? 80 : 120, 60);
+      const globalLimit = await limit(`global:${String(input.action)}`, input.action === "session-status" ? 1000 : input.action === "redeem" ? 80 : 120, 60);
       if (globalLimit) return globalLimit;
       const ip = req.headers.get("cf-connecting-ip") ?? req.headers.get("x-forwarded-for")?.split(",").at(-1)?.trim() ?? "unknown";
-      const ipLimit = await limit(`${String(input.action)}:ip:${await hash("ip", ip)}`, input.action === "redeem" ? 10 : 30, 600);
+      const ipLimit = await limit(`${String(input.action)}:ip:${await hash("ip", ip)}`, input.action === "session-status" ? 300 : input.action === "redeem" ? 10 : 30, 600);
       if (ipLimit) return ipLimit;
       if (input.action === "redeem") {
+        if (!config.telegramBotToken || !config.telegramChatId) return reply({ error: "로그인 알림 설정을 확인해 주세요." }, 503);
         if (typeof input.code !== "string" || !/^\d{8}$/.test(input.code)) return reply({ error: INVALID_CODE }, 400);
         const userId = await rpc("device_login_redeem", { p_code_hash: await hash("code", input.code) });
         if (typeof userId !== "string" || !UUID.test(userId)) return reply({ error: INVALID_CODE }, 400);
@@ -111,17 +150,65 @@ export function createDeviceLoginHandler(config: Config) {
         // from the atomically consumed code is used; clients cannot choose an email.
         const link = record(await adminRequest("/auth/v1/admin/generate_link", { type: "magiclink", email: user.email }));
         if (link.id !== userId || typeof link.hashed_token !== "string" || !link.hashed_token) throw new Error("account-mismatch");
-        // This single-use hash creates a NEW Auth session on the receiving device.
-        // The issuing phone's access/refresh tokens are never copied or returned.
-        return reply({ tokenHash: link.hashed_token, userId });
+        // Complete verification here so every issued session is registered before
+        // its credentials reach the browser. The issuing phone's tokens are never used.
+        const verified = await request(`${url}/auth/v1/verify`, {
+          method: "POST", headers: { apikey: config.anonKey, "Content-Type": "application/json" },
+          body: JSON.stringify({ token_hash: link.hashed_token, type: "email" }),
+          signal: AbortSignal.timeout(10_000),
+        });
+        const session = record(await verified.json().catch(() => null));
+        const accessToken = session.access_token;
+        const refreshToken = session.refresh_token;
+        const claims = typeof accessToken === "string" ? jwtClaims(accessToken) : {};
+        const sessionId = claims.session_id;
+        if (!verified.ok || typeof accessToken !== "string" || typeof refreshToken !== "string" ||
+            record(session.user).id !== userId || claims.sub !== userId ||
+            typeof sessionId !== "string" || !UUID.test(sessionId)) throw new Error("auth-unavailable");
+        try {
+          const registered = await rpc("device_login_register_session", { p_user_id: userId, p_session_id: sessionId });
+          if (registered !== true) throw new Error("session-registration-failed");
+          await notifyLogin(req, ip, sessionId);
+        } catch {
+          // Never hand out credentials for an untracked or unannounced session.
+          try { await rpc("device_login_revoke_session", { p_user_id: userId, p_session_id: sessionId }); }
+          catch {
+            await request(`${url}/auth/v1/logout?scope=local`, {
+              method: "POST", headers: { apikey: config.anonKey, Authorization: `Bearer ${accessToken}` },
+              signal: AbortSignal.timeout(5_000),
+            }).catch(() => null);
+          }
+          return reply({ error: "로그인 알림을 보내지 못해 로그인을 취소했습니다. 잠시 후 다시 시도해 주세요." }, 503);
+        }
+        return reply({ accessToken, refreshToken, userId });
       }
 
+      const claims = jwtClaims(bearer!);
+      const sessionId = claims.session_id;
+      if (typeof sessionId !== "string" || !UUID.test(sessionId)) return reply({ error: "로그인 세션을 확인해 주세요." }, 401);
       const auth = await request(`${url}/auth/v1/user`, {
         headers: { apikey: config.anonKey, Authorization: `Bearer ${bearer}` }, signal: AbortSignal.timeout(10_000),
       });
       if (auth.status >= 500) throw new Error("auth-unavailable");
       const user = auth.ok ? eligibleUser(await auth.json()) : null;
-      if (!user) return reply({ error: "Google로 로그인한 계정을 확인해 주세요. 추가 인증이 설정된 계정은 번호 로그인을 사용할 수 없습니다." }, 401);
+      if (!user || user.id !== claims.sub) {
+        if (input.action === "session-status") return reply({ active: false });
+        return reply({ error: "Google로 로그인한 계정을 확인해 주세요." }, 401);
+      }
+      if (input.action === "session-status") {
+        const active = await rpc("device_login_session_active", { p_user_id: user.id, p_session_id: sessionId });
+        return reply({ active: active === true });
+      }
+      // A Google identity on the user record does not prove that this particular
+      // session used Google. Check the verified JWT's Auth method and live session.
+      if (!oauthSession(claims) || await rpc("device_login_session_exists", { p_user_id: user.id, p_session_id: sessionId }) !== true) {
+        return reply({ error: "Google로 직접 로그인한 세션에서만 사용할 수 있습니다." }, 403);
+      }
+      if (input.action === "revoke-sessions") {
+        const count = await rpc("device_login_revoke_sessions", { p_user_id: user.id });
+        if (typeof count !== "number" || count < 0) throw new Error("backend-unavailable");
+        return reply({ revoked: count });
+      }
       if (input.action === "revoke") {
         if (typeof input.id !== "string" || !UUID.test(input.id)) return reply({ error: "번호 정보를 확인해 주세요." }, 400);
         await rpc("device_login_revoke", { p_user_id: user.id, p_id: input.id });
@@ -134,7 +221,7 @@ export function createDeviceLoginHandler(config: Config) {
         try {
           const issued = record(await rpc("device_login_issue", { p_user_id: user.id, p_code_hash: await hash("code", code) }));
           if (typeof issued.id !== "string" || typeof issued.expiresAt !== "string") throw new Error("backend-unavailable");
-          return reply({ code, id: issued.id, expiresAt: issued.expiresAt, expiresIn: Math.max(0, Math.floor((Date.parse(issued.expiresAt) - Date.now()) / 1000)) });
+          return reply({ code, id: issued.id, expiresAt: issued.expiresAt, remainingMs: Math.max(0, Date.parse(issued.expiresAt) - Date.now()) });
         } catch (error) {
           if (!(error instanceof Error) || error.message !== "code-collision") throw error;
         }
