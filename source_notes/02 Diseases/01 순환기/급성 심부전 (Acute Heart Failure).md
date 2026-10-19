@@ -1,5 +1,8 @@
 ---
-aliases: []
+aliases:
+- 비대상성 심부전
+- Decompensated Heart Failure
+- DHF
 유형:
 - disease
 계통: 순환기
@@ -12,13 +15,19 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-20"
 review_status: "guideline_enriched"
-guideline_year: "2022"
-sources: ["2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf", "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-and-Chronic-Heart-Failure"]
+guideline_year: "2026"
+guideline_reviewed_at: '2026-10-20'
+guideline_review_status: primary_source_reviewed
+sources:
+- '2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/'
+- '2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9'
+- 'AHA/ACC/ESC/WHF Second Universal Definition of Heart Failure, 2026: Top Things to Know | https://professional.heart.org/en/science-news/expert-consensus-document-second-universal-definition-of-heart-failure-2026/top-things-to-know'
+- '2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf'
 
-source_currency_assessment: "current_standard_retained"
-content_updated_at: "2026-07-30"
+source_currency_assessment: "updated_to_2026_ESC"
+content_updated_at: "2026-10-20"
 
 관련분과:
 - 21 응급의학
@@ -29,8 +38,9 @@ content_updated_at: "2026-07-30"
 분과 : [[순환기]]
 
 ## 1. 개요
-- **정의**: 심박출량 감소 또는 심실 충만압 상승으로 급성 호흡곤란과 울혈이 발생하거나, 기존 심부전이 급격히 악화되는 임상 증후군
-- **범위**: 신규 발생(de novo) 심부전과 만성 심부전의 급성 악화 모두 포함
+- **2026 용어**: ESC는 비대상성 심부전(DHF)이라는 표현을 사용한다. 국제 정의 합의문에서 DHF는 치료 강화·구제치료가 필요한 상태로, 갑작스러운 발병이나 입원에만 한정되지 않는다. 기존 문서명은 검색·과거 문헌 연결을 위해 유지한다.
+- **임상 양상**: 심박출량 감소 또는 심실 충만압 상승으로 호흡곤란·울혈·저관류가 발생하여 치료 강화가 필요한 상태
+- **범위**: 신규 발생(de novo) 심부전 또는 만성 심부전의 악화. 발병 속도와 무관하게 울혈·관류 및 호흡부전의 중증도로 긴급도를 판단한다.
 
 - **원인**:
   급성 관상동맥 증후군, 부정맥(예: 심방세동), 중증 고혈압, 급성 판막 역류, 감염, 심근염 등
@@ -63,7 +73,11 @@ content_updated_at: "2026-07-30"
 - **울혈 우세**: 정주 고리이뇨제로 감량·증상·소변량을 재평가하고 전해질·신기능을 추적한다. 수축기 혈압이 유지되는 고혈압성 울혈에서는 정주 혈관확장제를 고려할 수 있으나 저혈압·우심실경색·중증 판막질환에서는 피한다.
 - **저관류/쇼크**: 원인(급성 MI, 기계적 합병증, 중증 판막질환, 부정맥 등)을 즉시 찾아 교정한다. 지속 저관류에는 혈압·관류를 보며 혈관수축제/수축촉진제를 제한적으로 사용하고, 반응이 불충분하면 조기 심장중환자·advanced HF 팀과 기계적 순환보조 가능성을 논의한다.
 - **입원 중 재평가**: 하루 체중·수분균형, 소변량, 신기능·전해질과 저관류 징후를 반복 확인한다. 이뇨 반응이 불충분하면 용량·원인·울혈 평가를 다시 하고, 단순히 크레아티닌 상승만으로 유효한 울혈완화 치료를 중단하지 않는다.
+- **울혈 치료 보충(2026 ESC)**: 기존 loop 이뇨제 사용 중 체액과다에서는 단기간 정주 acetazolamide 또는 경구 hydrochlorothiazide 추가를 고려한다(IIa, B1). 초기 요중 Na 기반 조절도 고려할 수 있다(IIb, B1).
+- **SGLT2 억제제(2026 ESC)**: 초기 안정화 후 입원 중 시작을 권고한다(I, B1).
 - **퇴원 전**: 울혈 해소, 경구 이뇨제 전환 가능 여부, 유발 인자와 재발 예방, 만성 심부전 약제 최적화·조기 추적 계획을 확인한다.
+- **퇴원 후**: 첫 6주간 빈번한 추적으로 기초약물치료(FMT)를 신속히 도입·증량한다(2026 ESC I, B2).
+
 ## 6. 예후 및 합병증 (Prognosis)
 - 심인성 쇼크, 다장기 부전, 부정맥 발생 가능
 - 조기 진단과 적절한 약물 및 기계적 순환 보조 치료가 예후에 중요
@@ -71,3 +85,9 @@ content_updated_at: "2026-07-30"
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+2026-10-20 — 2026 ESC·국제 정의 합의문 반영
+
+## 참고 가이드라인
+
+- [2026 ESC 심부전 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/), [공식 교육 슬라이드](https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9): 비대상성 심부전의 퇴원·추적 및 치료 권고표(PDF 65, 67쪽).
+- [2026 국제 심부전 정의 합의문: 공식 핵심 요약](https://professional.heart.org/en/science-news/expert-consensus-document-second-universal-definition-of-heart-failure-2026/top-things-to-know): worsening HF와 decompensated HF의 구분.
