@@ -25,7 +25,7 @@ const navItems = [
 ];
 
 function isNavItemActive(pathname: string, href: string) {
-  const roots = href === "/specialties" ? [href, "/specialty", "/disease"] : [href];
+  const roots = href === "/specialties" ? [href, "/specialty", "/disease", "/maternal-child-hub", "/nervous-system-hub"] : [href];
   return roots.some((root) => pathname === root || (root !== "/" && pathname.startsWith(`${root}/`)));
 }
 
@@ -33,7 +33,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
   const atlas = pathname === "/atlas" || pathname === "/atlas/";
-  const immersive = atlas || pathname.startsWith("/interactive/") || pathname === "/nervous-system-hub" || pathname === "/nervous-system-hub/";
+  const immersive = atlas || pathname.startsWith("/interactive/");
   const [open, setOpen] = useState(false);
   const { theme } = useSkinTheme();
   const specialTheme = isSpecialTheme(theme);
@@ -78,6 +78,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     if (pathname === "/") return "The Medicine";
     if (pathname.startsWith("/search")) return "Search";
     if (pathname.startsWith("/cc")) return "Chief Complaint";
+    if (pathname.includes("-hub") || /^\/specialty\/[^/]+\/hub\/?$/.test(pathname)) return "Clinical Hubs";
     if (pathname.startsWith("/specialty") || pathname.startsWith("/disease")) return "Disease Library";
     if (pathname.startsWith("/drugs")) return "Pharmacology";
     if (pathname.startsWith("/lab-img")) return "Lab & Imaging";

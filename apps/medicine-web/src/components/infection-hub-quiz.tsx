@@ -289,9 +289,8 @@ export function InfectionHubQuiz({
   };
 
   if (!round.length) return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7">
-      <div className="text-xs font-semibold uppercase tracking-[0.16em] text-teal-700">Quiz setup</div>
-      <h2 className="mt-2 text-2xl font-bold text-slate-950">감염 퀴즈 설정</h2>
+    <section className="hub-panel">
+      <div className="hub-section-heading"><div><h2>감염 퀴즈</h2><p>문제 범위와 답안 형식을 고른 뒤 학습한 내용을 확인합니다.</p></div><span className="hub-result-count">{eligible.length}문제</span></div>
       <div className="mt-6 flex items-center justify-between gap-3">
         <h3 className="text-sm font-bold">문제 범위</h3>
         <button type="button" onClick={() => setTypes(types.length === availableTypes.length ? [] : availableTypes.map((item) => item.id))} className="text-xs font-bold text-teal-800">{types.length === availableTypes.length ? "전체 해제" : "전체 선택"}</button>
@@ -319,7 +318,7 @@ export function InfectionHubQuiz({
 
   const correct = selectedId === current.correctId;
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7">
+    <section className="hub-panel">
       <div className="flex justify-between"><span className="text-xs font-semibold uppercase tracking-[0.16em] text-teal-700">{TYPE_OPTIONS.find((item) => item.id === current.type)?.label}</span><span className="rounded-full bg-slate-100 px-3 py-1 text-xs">{index + 1} / {round.length}</span></div>
       {current.visual ? <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50"><Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${current.visual.asset}`} alt={`${current.visual.modality} 병원체 참고 이미지`} width={640} height={640} unoptimized className="mx-auto aspect-square w-full max-w-md object-cover" /><p className="border-t border-slate-200 bg-white px-4 py-2 text-xs text-slate-500">교육용 참고 이미지입니다. 실제 진단은 검체·배양·영상 판독과 함께 확인합니다.</p></div> : null}
       <h2 className="mt-6 text-lg font-bold leading-8">{current.prompt}</h2>

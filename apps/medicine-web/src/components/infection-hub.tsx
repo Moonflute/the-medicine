@@ -10,11 +10,11 @@ import { AntibioticOverview } from "@/components/antibiotic-overview";
 import { InfectionHubQuiz } from "@/components/infection-hub-quiz";
 import { InfectionPathwayExplorer } from "@/components/infection-pathway-explorer";
 import { MicrobiologyBrowser } from "@/components/microbiology-browser";
-import { HubStatusStrip } from "@/components/hub-status-strip";
+import { HubLayout, HubTabs, type HubTab } from "@/components/hub-layout";
 import type { AntibioticSpectrumDataset, MicrobiologyDataset } from "@/lib/types";
 import type { InfectionPathwayDataset } from "@/lib/infection-types";
 
-type HubTab = "map" | "pathogens" | "diseases" | "antibiotics" | "quiz";
+type Tab = "map" | "pathogens" | "diseases" | "antibiotics" | "quiz";
 
 const InfectionRelationMap = dynamic(
   () => import("@/components/infection-relation-map").then((module) => module.InfectionRelationMap),
@@ -34,15 +34,15 @@ export function InfectionHub({
   const router = useRouter();
   const searchParams = useSearchParams();
   const requestedView = searchParams.get("view") ?? searchParams.get("tab");
-  const initialView: HubTab = requestedView === "pathways" || requestedView === "diseases"
+  const initialView: Tab = requestedView === "pathways" || requestedView === "diseases"
     ? "diseases"
     : requestedView === "map" || requestedView === "antibiotics" || requestedView === "quiz" || requestedView === "pathogens"
       ? requestedView
       : "diseases";
-  const [savedTab, setSavedTab] = useHubState<HubTab>("infection-hub:tab", "diseases");
+  const [savedTab, setSavedTab] = useHubState<Tab>("infection-hub:tab", "diseases");
   const tab = requestedView ? initialView : savedTab;
 
-  const selectTab = (nextTab: HubTab) => {
+  const selectTab = (nextTab: Tab) => {
     setSavedTab(nextTab);
     const params = new URLSearchParams(searchParams.toString());
     params.set("view", nextTab);
@@ -50,47 +50,26 @@ export function InfectionHub({
     router.replace(`?${params.toString()}`, { scroll: false });
   };
 
-  const tabs = [
-    ["map", "관계도", Network],
-    ["pathogens", "병원체", Bug],
-    ["diseases", "질환", BookOpenCheck],
-    ["antibiotics", "항생제", Pill],
-    ["quiz", "퀴즈", GraduationCap],
-  ] as const;
+  const tabs: HubTab<Tab>[] = [
+    { id: "diseases", label: "질환", icon: BookOpenCheck },
+    { id: "pathogens", label: "병원체", icon: Bug },
+    { id: "antibiotics", label: "항생제", icon: Pill },
+    { id: "map", label: "관계도", icon: Network },
+    { id: "quiz", label: "퀴즈", icon: GraduationCap },
+  ];
 
   return (
-    <div className="space-y-5">
-      <header className="flex flex-col gap-1 rounded-xl border border-slate-200 bg-white p-1 shadow-sm sm:flex-row sm:items-center sm:gap-5 sm:pl-5">
-        <h1 className="px-3 py-2 text-xl font-bold text-slate-950 sm:shrink-0 sm:px-0 sm:text-2xl">감염 Hub</h1>
-        <div className="grid w-full min-w-0 grid-cols-5 gap-1 sm:flex-1" role="tablist" aria-label="감염 Hub">
-        {tabs.map(([value, label, Icon]) => (
-          <button
-            key={value}
-            type="button"
-            role="tab"
-            aria-selected={tab === value}
-            onClick={() => selectTab(value)}
-            className={`inline-flex min-w-0 flex-col items-center justify-center gap-1 rounded-lg px-1 py-2 text-xs font-semibold transition sm:flex-row sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm ${
-              tab === value ? "bg-slate-950 text-white shadow-sm" : "text-slate-600 hover:bg-slate-50 hover:text-slate-950"
-            }`}
-          >
-            <Icon className="h-4 w-4 shrink-0" />
-            <span>{label}</span>
-          </button>
-        ))}
-        </div>
-      </header>
-
-      <HubStatusStrip
-        reviewedAt={[pathways.reviewedAt, dataset.reviewedAt, microbiology.reviewedAt].sort().at(-1) ?? pathways.reviewedAt}
-        items={[
-          { label: "질환 경로", value: pathways.pathways.filter((item) => item.reviewStatus !== "retired").length },
-          { label: "병원체", value: microbiology.entities.length },
-          { label: "항생제", value: dataset.antibiotics.length },
-          { label: "출처", value: new Set([...pathways.sources.map((item) => item.url), ...microbiology.sources.map((item) => item.url), ...dataset.sources.map((item) => item.url)]).size },
-        ]}
-      />
-
+    <HubLayout hub="infection" title="감염 Hub"
+      description="질환 · 병원체 · 항생제를 연결해 탐색하고, 관계도와 퀴즈로 복습합니다."
+      date={tab === "pathogens" ? microbiology.reviewedAt : tab === "antibiotics" ? dataset.reviewedAt : pathways.reviewedAt}
+      dateLabel="선택 자료 검토일"
+      stats={[
+        { label: "질환 경로", value: pathways.pathways.filter((item) => item.reviewStatus !== "retired").length },
+        { label: "병원체", value: microbiology.entities.length },
+        { label: "항생제", value: dataset.antibiotics.length },
+        { label: "출처", value: new Set([...pathways.sources, ...microbiology.sources, ...dataset.sources].map((item) => item.url)).size },
+      ]}>
+      <HubTabs label="감염 Hub 탐색" tabs={tabs} value={tab} onChange={selectTab}>
       {tab === "map" ? <InfectionRelationMap pathways={pathways} spectrum={dataset} /> : null}
       {tab === "pathogens" ? <MicrobiologyBrowser dataset={microbiology} pathways={pathways} spectrum={dataset} /> : null}
       {tab === "diseases" ? <InfectionPathwayExplorer dataset={pathways} spectrum={dataset} /> : null}
@@ -103,6 +82,7 @@ export function InfectionHub({
           microbiology={microbiology}
         />
       ) : null}
-    </div>
+      </HubTabs>
+    </HubLayout>
   );
 }

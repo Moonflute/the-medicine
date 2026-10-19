@@ -3,8 +3,9 @@
 import { useHubState } from "@/lib/use-hub-state";
 
 import Link from "next/link";
+import { HubEmptyState, HubSearch, HubToolbar } from "@/components/hub-layout";
 import { useDeferredValue } from "react";
-import { ArrowUpRight, Bug, Dna, Search, ShieldAlert } from "lucide-react";
+import { ArrowUpRight, Bug, Dna, ShieldAlert } from "lucide-react";
 import type { AntibioticSpectrumDataset, MicrobiologyDataset, MicrobiologyEntity, MicrobiologyEntityKind, MicrobiologyPathogenType } from "@/lib/types";
 import type { InfectionPathwayDataset } from "@/lib/infection-types";
 
@@ -109,7 +110,7 @@ function PathogenCard({ entity, pathways, spectrum }: { entity: MicrobiologyEnti
   return (
     <Link
       href={`/microbiology/${entity.slug}`}
-      className="group flex min-h-36 flex-col rounded-xl border border-slate-200 bg-white p-4 transition hover:-translate-y-0.5 hover:border-teal-400 hover:shadow-md"
+      className="hub-card group min-h-36"
     >
       <div className="flex items-start justify-between gap-3">
         <span className={`rounded-full px-2.5 py-1 text-[11px] font-semibold ${isPhenotype ? "bg-rose-100 text-rose-800" : entity.entityKind === "clinical_group" ? "bg-amber-100 text-amber-900" : "bg-teal-100 text-teal-800"}`}>
@@ -153,33 +154,15 @@ export function MicrobiologyBrowser({ dataset, pathways, spectrum }: { dataset: 
 
   return (
     <div className="space-y-5">
-      <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-        <label className="relative block">
-          <Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-slate-400" />
-          <span className="sr-only">병원체 검색</span>
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="국문명·scientific name·약어 검색"
-            className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
-          />
-        </label>
-        <div className="mt-3 flex flex-wrap gap-2">
-          <button type="button" onClick={() => setPathogenType("")} className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${!pathogenType ? "border-slate-950 bg-slate-950 text-white" : "border-slate-200 text-slate-600"}`}>전체</button>
-          {availablePathogenTypes.map((type) => (
-            <button key={type} type="button" onClick={() => setPathogenType(pathogenType === type ? "" : type)} className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${pathogenType === type ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 text-slate-600"}`}>
-              {PATHOGEN_LABELS[type]}
-            </button>
-          ))}
-          <span className="mx-1 h-7 w-px bg-slate-200" />
-          {(["organism", "clinical_group", "resistance_phenotype"] as MicrobiologyEntityKind[]).map((kind) => (
-            <button key={kind} type="button" onClick={() => setEntityKind(entityKind === kind ? "" : kind)} className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${entityKind === kind ? "border-amber-700 bg-amber-700 text-white" : "border-slate-200 text-slate-600"}`}>
-              {KIND_LABELS[kind]}
-            </button>
-          ))}
-          <span className="ml-auto self-center text-xs font-semibold text-slate-500">{visible.length}/{dataset.entities.length}</span>
-        </div>
-      </section>
+      <HubToolbar title="병원체 탐색" description="이름과 분류로 병원체를 찾고 관련 질환·항생제로 이동합니다." count={`${visible.length} / ${dataset.entities.length}개`}>
+        <HubSearch label="병원체 검색" value={query} onChange={setQuery} placeholder="병원체 이름, scientific name 또는 약어 검색" />
+        <select className="hub-select" aria-label="병원체 분류" value={pathogenType} onChange={(event) => setPathogenType(event.target.value as typeof pathogenType)}>
+          <option value="">모든 병원체 분류</option>{availablePathogenTypes.map((type) => <option key={type} value={type}>{PATHOGEN_LABELS[type]}</option>)}
+        </select>
+        <select className="hub-select" aria-label="항목 유형" value={entityKind} onChange={(event) => setEntityKind(event.target.value as typeof entityKind)}>
+          <option value="">모든 항목 유형</option>{(["organism", "clinical_group", "resistance_phenotype"] as const).map((kind) => <option key={kind} value={kind}>{KIND_LABELS[kind]}</option>)}
+        </select>
+      </HubToolbar>
 
       {categories.length ? categories.map((category) => {
         const entities = visible.filter((entity) => entity.category === category);
@@ -198,7 +181,7 @@ export function MicrobiologyBrowser({ dataset, pathways, spectrum }: { dataset: 
           </section>
         );
       }) : (
-        <section className="rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-sm text-slate-500">조건에 맞는 병원체가 없습니다.</section>
+        <HubEmptyState onReset={() => { setQuery(""); setPathogenType(""); setEntityKind(""); }} />
       )}
 
       <footer className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-xs leading-5 text-slate-600">

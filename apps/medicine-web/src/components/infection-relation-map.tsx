@@ -1,6 +1,7 @@
 "use client";
 
 import { useHubState } from "@/lib/use-hub-state";
+import { HubSearch, HubToolbar } from "@/components/hub-layout";
 
 import Link from "next/link";
 import cytoscape, { type Core, type ElementDefinition } from "cytoscape";
@@ -9,7 +10,6 @@ import {
   Expand,
   Filter,
   RotateCcw,
-  Search,
   ZoomIn,
   ZoomOut,
 } from "lucide-react";
@@ -914,23 +914,12 @@ export function InfectionRelationMap({
           : "space-y-5"
       }
     >
-      <section
-        className={`rounded-2xl border p-4 shadow-sm ${fullScreen ? "border-slate-700 bg-slate-900" : "border-slate-200 bg-white"}`}
-      >
-        <div className="grid gap-3 lg:grid-cols-[minmax(220px,1.4fr)_repeat(3,minmax(150px,1fr))_auto]">
-          <label className="relative">
-            <Search className="absolute left-3 top-3 h-4 w-4 text-slate-400" />
-            <input
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="질환·병원체·항생제 검색"
-              className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm text-slate-950 outline-none focus:border-teal-500"
-            />
-          </label>
+      <HubToolbar title="감염 관계도" description="질환·병원체·항생제의 연결을 탐색하고, 항목을 선택해 관련 노트로 이동합니다.">
+          <HubSearch label="감염 관계도 검색" value={query} onChange={setQuery} placeholder="질환·병원체·항생제 검색" />
           <select
             value={pathogenGroup}
             onChange={(event) => setPathogenGroup(event.target.value)}
-            className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"
+            className="hub-select" aria-label="병원체 분류"
           >
             <option value="">모든 병원체 분류</option>
             {pathogenGroups.map((item) => (
@@ -942,7 +931,7 @@ export function InfectionRelationMap({
           <select
             value={site}
             onChange={(event) => setSite(event.target.value)}
-            className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"
+            className="hub-select" aria-label="감염 부위"
           >
             <option value="">모든 감염 부위</option>
             {sites.map((item) => (
@@ -954,7 +943,7 @@ export function InfectionRelationMap({
           <select
             value={drugClass}
             onChange={(event) => setDrugClass(event.target.value)}
-            className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"
+            className="hub-select" aria-label="항생제 계열"
           >
             <option value="">모든 항생제 계열</option>
             {classes.map((item) => (
@@ -964,13 +953,12 @@ export function InfectionRelationMap({
           <button
             type="button"
             onClick={reset}
-            className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-600"
+            className="hub-button"
           >
             <Filter className="h-4 w-4" />
             초기화
           </button>
-        </div>
-        <label className="mt-3 inline-flex cursor-pointer items-center gap-2 text-xs font-medium text-slate-600">
+        <label className="inline-flex w-full cursor-pointer items-center gap-2 text-xs font-medium text-slate-600">
           <input
             type="checkbox"
             checked={hideDiseaseAntibiotic}
@@ -979,27 +967,27 @@ export function InfectionRelationMap({
           />
           질병-항생제 직접 연결 숨기기
         </label>
-        <div className="mt-3 flex flex-wrap items-center justify-between gap-3">
-          <div className="flex flex-wrap gap-2">
+        <div className="flex w-full flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-3">
+          <div className="hub-filters">
             <button
               type="button"
               onClick={() => setViewMode("focus")}
               disabled={!selectedId}
-              className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${viewMode === "focus" ? "border-teal-700 bg-teal-700 text-white" : "border-teal-200 bg-teal-50 text-teal-900"}`}
+              className="hub-filter disabled:opacity-40" aria-pressed={viewMode === "focus"}
             >
-              Focus
+              선택 항목 중심
             </button>
             <button
               type="button"
               onClick={() => setViewMode("all")}
-              className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${viewMode === "all" ? "border-slate-800 bg-slate-800 text-white" : "border-slate-200 bg-white text-slate-700"}`}
+              className="hub-filter" aria-pressed={viewMode === "all"}
             >
               전체 관계도
             </button>
             <button
               type="button"
               onClick={() => setCollapsed((value) => !value)}
-              className={`inline-flex items-center gap-1 rounded-full border px-3 py-1.5 text-xs font-semibold ${collapsed ? "border-slate-800 bg-slate-800 text-white" : "border-slate-200 bg-white text-slate-700"}`}
+              className="hub-filter" aria-pressed={collapsed}
             >
               <ChevronDown
                 className={`h-3.5 w-3.5 ${collapsed ? "" : "rotate-180"}`}
@@ -1042,7 +1030,7 @@ export function InfectionRelationMap({
             </button>
           </div>
         </div>
-      </section>
+      </HubToolbar>
       <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_290px]">
         <section
           className="relative min-h-[540px] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm sm:min-h-[660px]"
