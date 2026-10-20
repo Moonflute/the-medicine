@@ -142,21 +142,36 @@ test("Tab creates and focuses a child; Enter and row plus create blank siblings 
   assert.equal(store.getStudySnapshot().records.length, count);
 });
 
-test("current question adds only its ID link; bottom plus appends a root even from a child selection", () => {
+test("current question tags the selected memo; without a selection it creates a new item", () => {
   const { store } = loadModules();
   const flow = store.createStudyFlow();
   const parentId = store.createStudyItem(flow, "기존 학습 목록");
   const lastRoot = store.createStudyItem(flow, "마지막 최상위 항목");
-  store.createStudyItem(flow, "선택한 하위 메모", undefined, parentId);
+  const editingId = store.createStudyItem(flow, "타이핑하던 내용", undefined, parentId);
   const link = { key: "question:QB-0031", kind: "question", title: "분과와 아주 긴 문제 본문", href: "/review/qbank/session?mode=study-flow&ids=QB-0031&count=1" };
   const editor = loadEditor(store, link);
   const panel = editor.StudyFlowPanel();
-  const currentButton = findElement(panel, node => node.type === "button" && [node.props.children].flat().filter(value => typeof value === "string").join("") === "현재 문제 추가");
+  const currentButton = findElement(panel, node => node.type === "button" && [node.props.children].flat().filter(value => typeof value === "string").join("") === "현재 문제 태그");
   assert.ok(currentButton);
+  const count = model.studyItems(store.getStudySnapshot().records, flow).length;
   currentButton.props.onClick();
+  currentButton.props.onClick();
+  const edited = model.studyItems(store.getStudySnapshot().records, flow).find(item => item.id === editingId);
+  assert.equal(edited.text, "타이핑하던 내용");
+  assert.deepEqual(plain(edited.links), [{ ...link, title: "QB-0031" }]);
+  assert.equal(model.studyItems(store.getStudySnapshot().records, flow).length, count);
+  assert.equal(store.getStudySnapshot().ui.itemId, editingId);
+  assert.equal(editor.focused.at(-1), "study-flow-input-" + editingId);
+
+  store.setStudyUI({ itemId: null });
+  const unselectedPanel = editor.StudyFlowPanel();
+  const addButton = findElement(unselectedPanel, node => node.type === "button" && [node.props.children].flat().filter(value => typeof value === "string").join("") === "현재 문제 추가");
+  assert.ok(addButton);
+  addButton.props.onClick();
   const questionItem = model.studyItems(store.getStudySnapshot().records, flow).find(item => item.id === store.getStudySnapshot().ui.itemId);
   assert.equal(questionItem.text, "");
   assert.deepEqual(plain(questionItem.links), [{ ...link, title: "QB-0031" }]);
+  assert.equal(model.studyItems(store.getStudySnapshot().records, flow).length, count + 1);
   const row = editor.StudyFlowItemRow({ item: questionItem, previousId: parentId, selected: true, hasChildren: false, collapsed: false, entries: [], onSearch: () => {}, onNavigate: () => {} });
   findElement(row, node => node.type === "textarea").props.onKeyDown(keyEvent("Backspace"));
   assert.ok(model.studyItems(store.getStudySnapshot().records, flow).some(item => item.id === questionItem.id));
@@ -166,7 +181,7 @@ test("current question adds only its ID link; bottom plus appends a root even fr
   const addedId = store.getStudySnapshot().ui.itemId;
   assert.equal(items.find(item => item.id === addedId).parentId, null);
   const roots = model.outlineStudyItems(items).filter(row => row.depth === 0).map(row => row.item.id);
-  assert.deepEqual(plain(roots), [parentId, lastRoot, addedId]);
+  assert.deepEqual(plain(roots), [parentId, lastRoot, questionItem.id, addedId]);
 });
 
 test("linked question text stays empty while ordinary document titles still seed a new memo", () => {

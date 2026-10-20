@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight, CheckCheck, CornerDownRight, FilePlus2, GitBranc
 import { StudyFlowItemRow, focusStudyItem } from "./study-flow-item-row";
 import { StudyFlowMindmap } from "./study-flow-mindmap";
 import { outlineStudyItems, studyFlows, studyItemLinkContent, studyItems, type StudyLink } from "@/lib/study-flow-model";
-import { createStudyFlow, createStudyItem, deleteStudyFlow, editStudyItem, getStudyServerSnapshot, getStudySnapshot, hasGuestStudyFlows, importGuestStudyFlows, patchStudyRecords, retryStudyStorage, setStudyUI, subscribeStudyFlow, STUDY_FLOW_RETRY } from "@/lib/study-flow-store";
+import { attachStudyLink, createStudyFlow, createStudyItem, deleteStudyFlow, editStudyItem, getStudyServerSnapshot, getStudySnapshot, hasGuestStudyFlows, importGuestStudyFlows, patchStudyRecords, retryStudyStorage, setStudyUI, subscribeStudyFlow, STUDY_FLOW_RETRY } from "@/lib/study-flow-store";
 import { loadStudySearchIndex, type StudySearchEntry } from "@/lib/study-flow-search";
 import { currentStudyPageSource, studyPath, STUDY_SOURCE_EVENT } from "@/lib/study-flow-source";
 
@@ -81,6 +81,16 @@ export function StudyFlowPanel() {
     setStudyUI({ flowId, itemId: id, view: "outline", hideDone: false, collapsed: selected ? state.ui.collapsed.filter(value => value !== selected.id && value !== selected.parentId) : state.ui.collapsed });
     focusStudyItem(id);
   };
+  const addCurrentSource = () => {
+    if (!currentSource) return;
+    if (currentSource.kind === "question" && selected) {
+      const link = studyItemLinkContent(currentSource).link;
+      if (link) attachStudyLink(selected.id, link);
+      focusStudyItem(selected.id);
+      return;
+    }
+    add(currentSource);
+  };
   const chooseItem = (id: string, navigate = true) => {
     const target = allRows.find(row => row.item.id === id);
     if (!target) return;
@@ -133,7 +143,7 @@ export function StudyFlowPanel() {
       </div>
       <div className="study-flow-add-bar">
         <button type="button" onClick={() => add()}><Plus size={15} />항목 추가</button>
-        <button type="button" disabled={!currentSource} onClick={() => currentSource && add(currentSource)} title={currentSource?.title ?? "문제를 불러오는 중"}><FilePlus2 size={15} />현재 {currentSource?.kind === "question" ? "문제" : "페이지"} 추가</button>
+        <button type="button" disabled={!currentSource} onClick={addCurrentSource} title={currentSource?.kind === "question" && selected ? "선택한 메모에 현재 문제 연결" : currentSource?.title ?? "문제를 불러오는 중"}><FilePlus2 size={15} />현재 {currentSource?.kind === "question" ? "문제" : "페이지"} {currentSource?.kind === "question" && selected ? "태그" : "추가"}</button>
         {selected ? <button type="button" title="선택 항목 아래에 추가" aria-label="하위 항목 추가" onClick={() => add(undefined, "child")}><CornerDownRight size={15} /></button> : null}
       </div>
       {guestAvailable ? <div className="study-flow-guest"><span>로그인 전에 이 기기에 적어둔 Flow가 있습니다.</span><button type="button" onClick={() => importGuestStudyFlows()}>내 계정으로 가져오기</button></div> : null}
