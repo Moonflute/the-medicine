@@ -62,8 +62,8 @@ export function StudyFlowPanel() {
     return () => { mounted.current = false; };
   }, []);
   useEffect(() => {
-    document.getElementById("study-flow-close")?.focus();
-  }, []);
+    if (state.ui.open) document.getElementById("study-flow-close")?.focus();
+  }, [state.ui.open]);
   const loadSearch = () => {
     if (publicError) void publicLoad();
   };

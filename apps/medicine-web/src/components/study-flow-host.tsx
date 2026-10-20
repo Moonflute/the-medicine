@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useEffect, useSyncExternalStore } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { ListTree } from "lucide-react";
 import { StudyFlowSyncProvider } from "@/components/study-flow-sync-provider";
 import { getStudyServerSnapshot, getStudySnapshot, setStudyUI, subscribeStudyFlow } from "@/lib/study-flow-store";
@@ -15,6 +15,12 @@ const StudyFlowPanel = dynamic(() => import("./study-flow-panel").then(module =>
 export function StudyFlowHost() {
   const state = useSyncExternalStore(subscribeStudyFlow, getStudySnapshot, getStudyServerSnapshot);
   const buttonVisible = useSyncExternalStore(subscribeStudyFlowButton, getStudyFlowButtonVisible, getStudyFlowButtonServerSnapshot);
+  const [hasOpened, setHasOpened] = useState(false);
+  useEffect(() => {
+    if (!state.ui.open) return;
+    const frame = requestAnimationFrame(() => setHasOpened(true));
+    return () => cancelAnimationFrame(frame);
+  }, [state.ui.open]);
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.defaultPrevented || event.isComposing) return;
@@ -37,6 +43,8 @@ export function StudyFlowHost() {
       title="학습 Flow · Ctrl/⌘ Shift L" onClick={() => setStudyUI({ open: !state.ui.open })}>
       <ListTree size={19} /><span>Flow</span>
     </button> : null}
-    {state.ui.open ? <StudyFlowPanel /> : null}
+    <div className={"study-flow-drawer" + (state.ui.open ? " is-open" : "")} aria-hidden={!state.ui.open} inert={!state.ui.open}>
+      {state.ui.open || hasOpened ? <StudyFlowPanel /> : null}
+    </div>
   </div>;
 }
