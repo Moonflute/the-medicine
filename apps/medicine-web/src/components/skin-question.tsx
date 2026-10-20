@@ -11,6 +11,13 @@ import { ConceptQuestionWorkspace } from "@/components/concept-question";
 
 export type SkinChoice = { key: QbankAnswer; label: string; text: string; selected: boolean; correct: boolean; wrong: boolean };
 
+export function SkinQuestionReferences({ available, children }: { available: boolean; children: ReactNode }) {
+  const { theme } = useSkinTheme();
+  if (!available) return null;
+  if (!isSpecialTheme(theme)) return <>{children}</>;
+  return <details className="qbank-feedback-resources"><summary><ChevronRight size={12} aria-hidden="true" />참고 자료 · 추가 학습</summary><div className="qbank-feedback-resources-content">{children}</div></details>;
+}
+
 export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: SkinChoice[]; disabled: boolean; onSelect: (key: QbankAnswer) => void }) {
   const { theme } = useSkinTheme();
   const special = isSpecialTheme(theme);

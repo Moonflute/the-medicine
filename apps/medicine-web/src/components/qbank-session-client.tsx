@@ -11,7 +11,7 @@ import { correctAnswers, gradeQuestion, selectedAnswers, selectionHint, toggleSe
 import { remainingQuestions, sessionWrongIds } from "@/lib/qbank-session-results";
 import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
-import { SkinQuestionWorkspace, SkinQuestionChoices, SkinQuestionAction } from "@/components/skin-question";
+import { SkinQuestionWorkspace, SkinQuestionChoices, SkinQuestionAction, SkinQuestionReferences } from "@/components/skin-question";
 import { DocumentToolbar } from "@/components/document-toolbar";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { ChatOptionalTools } from "@/components/chat-room";
@@ -132,7 +132,7 @@ function practiceQuestionLabel(question: SessionQuestion): string {
 
 function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
   if (drugs.length === 0) return null;
-  return <div className="mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
+  return <div className="qbank-feedback-drugs mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="qbank-feedback-links flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
 }
 
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters, practiceUnattemptedOnly = false, relatedTopicKeys = ""): Promise<SessionQuestion[]> {
@@ -777,16 +777,18 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           }))} />}
           copy={<QbankCopyButton key={`question:${current.id}`} text={qbankQuestionCopyText(current, displayedOptions)} label="문제와 보기 텍스트 복사" title="문제와 보기 텍스트 복사 · 이미지는 제외" iconOnly />}
           response={submitted ? (
-          <div className={`mt-6 rounded-lg border p-4 lg:col-span-2 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
+          <div className={`qbank-feedback mt-6 rounded-lg border p-4 lg:col-span-2 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <ChatOptionalTools><button type="button" onClick={dismissWrong} className="float-right rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[10px] font-medium text-slate-600 transition hover:border-rose-300 hover:text-rose-700">오답 노트에서 제거</button></ChatOptionalTools> : null}
-            <div className="flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
-            {current.explanation ? <div data-highlight-block="explanation" className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
-            {!!current.evidenceReferences?.length && <div className="mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
+            <div className="qbank-feedback-status flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
+            {current.explanation ? <div data-highlight-block="explanation" className="qbank-feedback-body mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="qbank-feedback-body mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
+            <SkinQuestionReferences key={current.id} available={Boolean(current.evidenceReferences?.some(ref => ref.url.startsWith("https://")) || current.relatedDrugs?.length || current.relatedDocuments?.length || currentTheoryTargetHref || current.relatedDiseaseSlugs.length || current.relatedCcSlugs.length)}>
+            {!!current.evidenceReferences?.length && <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
-            {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d): d is RelatedTheoryDocument => isRelatedTheoryDocumentType(d.type)).map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={relatedTheoryDocumentHref(d)}>{d.title} · 이론</Link>)}</div>}
+            {current.relatedDocuments && <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d): d is RelatedTheoryDocument => isRelatedTheoryDocumentType(d.type)).map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={relatedTheoryDocumentHref(d)}>{d.title} · 이론</Link>)}</div>}
             <RelatedTheoryLauncher key={current.id} question={current} />
-            {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
-            <ChatOptionalTools className="mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200/70 pt-2">
+            {currentTheoryTargetHref ? <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
+            </SkinQuestionReferences>
+            <ChatOptionalTools className="qbank-feedback-tools mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200/70 pt-2">
               <QbankCopyButton key={`explanation:${current.id}`} text={qbankExplanationCopyText(current, displayedOptions)} label="해설 복사" />
               <QbankCopyButton key={`both:${current.id}`} text={qbankCombinedCopyText(current, displayedOptions)} label="문제+해설 복사" title="문제와 보기 및 해설 텍스트 복사 · 이미지는 제외" />
             </ChatOptionalTools>
