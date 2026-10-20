@@ -32,9 +32,9 @@ function loadModules(disk = new Map()) {
     modules.set(file, compiled.exports);
     return compiled.exports;
   };
-  return { model: load("study-flow-model"), store: load("study-flow-store"), disk, window };
+  return { model: load("study-flow-model"), search: load("study-flow-search"), store: load("study-flow-store"), disk, window };
 }
-const { model } = loadModules();
+const { model, search } = loadModules();
 
 function loadEditor(store, source = null) {
   const focused = [];
@@ -85,6 +85,16 @@ function findElement(tree, matches) {
 function keyEvent(key, extra = {}) {
   return { key, nativeEvent: {}, preventDefault() { this.prevented = true; }, currentTarget: { selectionStart: 0, selectionEnd: 0 }, ...extra };
 }
+
+test("@ document search excludes public and private questions while retaining documents", () => {
+  const entries = [
+    { key: "question:theory", kind: "question", title: "심부전 이론 문항", href: "/review/qbank/session?ids=theory", aliases: ["심부전"] },
+    { key: "question:practice", kind: "question", title: "심부전 실전 문항", href: "/review/qbank/session?ids=practice", aliases: ["심부전"] },
+    { key: "disease:heart-failure", kind: "disease", title: "심부전", href: "/disease/heart-failure/", aliases: [] },
+  ];
+  assert.deepEqual(plain(search.searchStudyLinks(entries, "심부전")).map(entry => entry.kind), ["disease"]);
+  assert.deepEqual(plain(search.searchStudyLinks(entries, "", "question")), []);
+});
 
 test("Tab creates and focuses a child; Enter and row plus create blank siblings without splitting notes", () => {
   const { store } = loadModules();

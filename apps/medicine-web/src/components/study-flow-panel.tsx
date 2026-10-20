@@ -7,9 +7,8 @@ import { StudyFlowItemRow, focusStudyItem } from "./study-flow-item-row";
 import { StudyFlowMindmap } from "./study-flow-mindmap";
 import { outlineStudyItems, studyFlows, studyItemLinkContent, studyItems, type StudyLink } from "@/lib/study-flow-model";
 import { createStudyFlow, createStudyItem, deleteStudyFlow, editStudyItem, getStudyServerSnapshot, getStudySnapshot, hasGuestStudyFlows, importGuestStudyFlows, patchStudyRecords, retryStudyStorage, setStudyUI, subscribeStudyFlow, STUDY_FLOW_RETRY } from "@/lib/study-flow-store";
-import { loadStudySearchIndex, practiceStudyEntries, type StudySearchEntry } from "@/lib/study-flow-search";
+import { loadStudySearchIndex, type StudySearchEntry } from "@/lib/study-flow-search";
 import { currentStudyPageSource, studyPath, STUDY_SOURCE_EVENT } from "@/lib/study-flow-source";
-import { loadPracticeIndex } from "@/lib/practice-bank";
 
 const pageNames: Record<string, string> = {
   "/": "홈", "/review": "Review", "/cc": "CC", "/specialties": "질병 목록",
@@ -32,8 +31,6 @@ export function StudyFlowPanel() {
   const [publicEntries, setPublicEntries] = useState<StudySearchEntry[]>([]);
   const [publicLoading, setPublicLoading] = useState(true);
   const [publicError, setPublicError] = useState("");
-  const [privateSearch, setPrivateSearch] = useState<{ account: string | null; entries: StudySearchEntry[]; loading: boolean; error: string }>({ account: null, entries: [], loading: false, error: "" });
-  const privateRequest = useRef<string | null>(null);
   const mounted = useRef(true);
   const body = useRef<HTMLDivElement>(null);
   const flows = useMemo(() => studyFlows(state.records), [state.records]);
@@ -44,7 +41,6 @@ export function StudyFlowPanel() {
   const rows = useMemo(() => outlineStudyItems(state.ui.hideDone ? items.filter(item => !item.done) : items, collapsed), [items, collapsed, state.ui.hideDone]);
   const selected = items.find(item => item.id === state.ui.itemId);
   const children = useMemo(() => new Set(items.flatMap(item => item.parentId ? [item.parentId] : [])), [items]);
-  const entries = useMemo(() => [...publicEntries, ...(privateSearch.account === state.account ? privateSearch.entries : [])], [publicEntries, privateSearch, state.account]);
   const path = studyPath(pathname);
   const knownSource = publicEntries.find(entry => studyPath(entry.href.split("?")[0]) === path);
   const currentSource: StudyLink | null = liveSource ?? knownSource ?? (path === "/review/qbank/session" ? null : {
@@ -70,16 +66,6 @@ export function StudyFlowPanel() {
   }, []);
   const loadSearch = () => {
     if (publicError) void publicLoad();
-    const account = getStudySnapshot().account;
-    if (!account || privateRequest.current === account) return;
-    privateRequest.current = account;
-    setPrivateSearch({ account, entries: [], loading: true, error: "" });
-    void loadPracticeIndex().then(result => {
-      if (mounted.current && getStudySnapshot().account === account) setPrivateSearch({ account, entries: practiceStudyEntries(result.questions), loading: false, error: "" });
-    }).catch(() => {
-      if (privateRequest.current === account) privateRequest.current = null;
-      if (mounted.current && getStudySnapshot().account === account) setPrivateSearch({ account, entries: [], loading: false, error: "공개 문서만 검색됩니다. 비공개 문제는 로그인과 접근 권한을 확인해 주세요." });
-    });
   };
   const rememberNavigation = (_link: StudyLink, itemId: string) => {
     setStudyUI({ itemId, flowId: flow?.id ?? null, ...(window.matchMedia("(max-width: 767px)").matches ? { open: false } : {}) });
@@ -115,8 +101,8 @@ export function StudyFlowPanel() {
     if (rest) chooseItem(rest.item.id);
   };
   const rowProps = {
-    entries, searchLoading: publicLoading || (privateSearch.account === state.account && privateSearch.loading),
-    searchError: publicError || (privateSearch.account === state.account ? privateSearch.error : ""),
+    entries: publicEntries, searchLoading: publicLoading,
+    searchError: publicError,
     onSearch: loadSearch, onNavigate: rememberNavigation,
   };
   const guestAvailable = hasGuestStudyFlows();

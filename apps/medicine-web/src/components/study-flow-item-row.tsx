@@ -124,14 +124,14 @@ export function StudyFlowItemRow({ item, depth = 0, selected, hasChildren, colla
     </span>)}</div> : null}
     {mention ? <div className="study-flow-link-search" data-highlight-ignore>
       <div className="study-flow-link-search-bar">
-        {mention.start === null ? <input aria-label="연결할 문서 검색" autoFocus value={mention.query} placeholder="문서명이나 문제 ID 검색" onChange={event => { setMention({ ...mention, query: event.target.value }); setActive(0); }} onKeyDown={event => {
+        {mention.start === null ? <input aria-label="연결할 문서 검색" autoFocus value={mention.query} placeholder="문서명 검색" onChange={event => { setMention({ ...mention, query: event.target.value }); setActive(0); }} onKeyDown={event => {
           if (event.nativeEvent.isComposing) return;
           if (event.key === "ArrowDown" || event.key === "ArrowUp") { event.preventDefault(); if (results.length) setActive(index => (index + (event.key === "ArrowDown" ? 1 : -1) + results.length) % results.length); }
           if (event.key === "Enter" && results.length) { event.preventDefault(); pick(results[Math.min(active, results.length - 1)]); }
           if (event.key === "Escape") { event.preventDefault(); setMention(null); focusStudyItem(item.id); }
         }} /> : <span>@ {mention.query || "문서명 검색"}</span>}
         <select value={kind} aria-label="문서 종류" onChange={event => { setKind(event.target.value); setActive(0); }}>
-          <option value="all">전체</option><option value="disease">Disease</option><option value="cc">CC</option><option value="drug">Drug</option><option value="lab">Lab & Img</option><option value="question">문제</option><option value="skill">Skill</option>
+          <option value="all">전체</option><option value="disease">Disease</option><option value="cc">CC</option><option value="drug">Drug</option><option value="lab">Lab & Img</option><option value="skill">Skill</option>
         </select>
         <button type="button" aria-label="문서 검색 닫기" onClick={() => setMention(null)}><X size={14} /></button>
       </div>
