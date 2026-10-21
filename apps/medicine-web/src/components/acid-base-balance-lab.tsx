@@ -1,308 +1,58 @@
 "use client";
+import { useMemo, useState } from "react";
+import { useAnimatedModel } from "@/hooks/use-animated-model";
+import { CanvasFrame, ModelPanel, PhysiologyControl, PhysiologyHeader, PhysiologyMetric, PresetStrip } from "@/components/physiology-ui";
+import { GuidedExperiments, MetricComparison, useSimulationClock } from "@/components/simulation-workbench";
+import { ClinicalScenarioPanel, useLearningExperiments } from "@/components/interactive-learning";
+import { AcidBaseP5Canvas, type AcidBaseSimulationView } from "@/components/acid-base-p5-canvas";
+import { ACID_BASE_LABELS, calculateAcidBaseState, calculateAnionGap, compensatedInputs, type AcidBaseInputs, type AcidBaseDisorder, type CompensationDuration } from "@/lib/acid-base-model";
 import { updateSimulationClock } from "@/lib/simulation-clock";
 
-import { GuidedExperiments, MetricComparison, useSimulationClock } from "@/components/simulation-workbench";
-import { physiologyExperiments } from "@/lib/physiology-experiments";
-
-import Link from "next/link";
-import { CanvasFrame } from "@/components/physiology-ui";
-import { useEffect, useMemo, useRef, useState } from "react";
-import { Activity, ArrowRight, Droplets, Gauge, RotateCcw, Scale, Wind } from "lucide-react";
-import { AcidBaseP5Canvas, type AcidBaseSimulationView } from "@/components/acid-base-p5-canvas";
-import {
-  calculateAcidBaseState,
-  compensatedInputs,
-  estimateRespiratoryRate,
-  type AcidBaseInputs,
-} from "@/lib/acid-base-model";
-
-const NORMAL_INPUTS: AcidBaseInputs = { ventilation: 100, co2Production: 100, bicarbonate: 24 };
-
-const PRESETS: Array<{ id: string; label: string; cause: string; primaryChange: string; values: AcidBaseInputs }> = [
-  { id: "normal", label: "정상", cause: "정상 생리 상태", primaryChange: "CO₂ / HCO₃⁻ 평형", values: NORMAL_INPUTS },
-  { id: "hypoventilation", label: "저환기", cause: "폐포 저환기 발생", primaryChange: "CO₂ 저류", values: { ventilation: 55, co2Production: 100, bicarbonate: 24 } },
-  { id: "hyperventilation", label: "과환기", cause: "폐포 과환기 발생", primaryChange: "CO₂ 과다 제거", values: { ventilation: 155, co2Production: 100, bicarbonate: 24 } },
-  { id: "bicarbonate-loss", label: "HCO₃⁻ 소실", cause: "bicarbonate 소실", primaryChange: "HCO₃⁻ 감소", values: { ventilation: 100, co2Production: 100, bicarbonate: 14 } },
-  { id: "bicarbonate-gain", label: "HCO₃⁻ 증가", cause: "알칼리 부하 / H⁺ 소실", primaryChange: "HCO₃⁻ 증가", values: { ventilation: 100, co2Production: 100, bicarbonate: 34 } },
+const NORMAL:AcidBaseInputs={ventilation:100,co2Production:100,bicarbonate:24};
+const PRESETS:Array<{id:string;label:string;primary:AcidBaseDisorder;values:AcidBaseInputs}>=[
+  {id:"normal",label:"정상",primary:"auto",values:NORMAL},
+  {id:"hypoventilation",label:"Hypoventilation",primary:"respiratory-acidosis",values:{...NORMAL,ventilation:55}},
+  {id:"hyperventilation",label:"Hyperventilation",primary:"respiratory-alkalosis",values:{...NORMAL,ventilation:155}},
+  {id:"bicarbonate-loss",label:"HCO₃⁻ 소실",primary:"metabolic-acidosis",values:{...NORMAL,bicarbonate:14}},
+  {id:"bicarbonate-gain",label:"HCO₃⁻ 증가",primary:"metabolic-alkalosis",values:{...NORMAL,bicarbonate:34}},
 ];
-
-const INITIAL_SIMULATION: AcidBaseSimulationView = {
-  phase: "steady",
-  progress: 1,
-  cause: "정상 생리 상태",
-  primaryChange: "CO₂ / HCO₃⁻ 평형",
-  timeLabel: "steady state",
-  compensatingSystem: null,
-};
-
-function compensationSystemFor(state: ReturnType<typeof calculateAcidBaseState>): "lung" | "kidney" | null {
-  if (state.bicarbonate < 22 || state.bicarbonate > 26) return "lung";
-  if (state.paCO2 < 35 || state.paCO2 > 45) return "kidney";
-  return null;
-}
-
-function interpolateInputs(from: AcidBaseInputs, to: AcidBaseInputs, progress: number): AcidBaseInputs {
-  return {
-    ventilation: from.ventilation + (to.ventilation - from.ventilation) * progress,
-    co2Production: from.co2Production + (to.co2Production - from.co2Production) * progress,
-    bicarbonate: from.bicarbonate + (to.bicarbonate - from.bicarbonate) * progress,
-  };
-}
-
-function Control({
-  label,
-  value,
-  min,
-  max,
-  step,
-  unit,
-  hint,
-  displayValue,
-  onChange,
-}: {
-  label: string;
-  value: number;
-  min: number;
-  max: number;
-  step: number;
-  unit: string;
-  hint: string;
-  displayValue?: string;
-  onChange: (value: number) => void;
-}) {
-  return (
-    <label className="block border-b border-slate-200 pb-4 last:border-0 last:pb-0">
-      <span className="flex items-center justify-between gap-3 text-sm font-bold text-slate-900">
-        <span>{label}</span>
-        <span className="font-mono text-teal-800">{displayValue ?? `${value.toFixed(step < 1 ? 1 : 0)} ${unit}`}</span>
-      </span>
-      <input
-        type="range"
-        min={min}
-        max={max}
-        step={step}
-        value={value}
-        onChange={(event) => onChange(Number(event.target.value))}
-        className="mt-3 h-2 w-full cursor-pointer accent-teal-700"
-      />
-      <span className="mt-2 block text-xs leading-5 text-slate-500">{hint}</span>
-    </label>
-  );
-}
-
-function Metric({ label, value, status }: { label: string; value: string; status?: string }) {
-  return (
-    <div className="min-w-0 border-l border-slate-300 px-4 py-1 first:border-l-0">
-      <div className="text-[11px] font-semibold uppercase text-slate-500">{label}</div>
-      <div className="mt-1 font-mono text-xl font-semibold tabular-nums text-slate-950">{value}</div>
-      {status ? <div className="mt-1 text-xs text-slate-600">{status}</div> : null}
-    </div>
-  );
-}
-
-function SimulationLegend() {
-  return (
-    <div role="note" aria-label="시뮬레이션 기호 범례" className="text-sm">
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs leading-5 text-slate-600">
-        <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-[#3f7185]" aria-hidden="true" /><strong className="text-slate-800">CO₂</strong> 혈중 농도·폐포 배출</span>
-        <span className="inline-flex items-center gap-2"><span className="h-1 w-3 rounded-[1px] bg-[#b08a4a]" aria-hidden="true" /><strong className="text-slate-800">HCO₃⁻</strong> 완충 염기·신장 이동</span>
-        <span className="inline-flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-[#a95555]" aria-hidden="true" /><strong className="text-slate-800">H⁺</strong> 산성도</span>
-        <span className="inline-flex items-center gap-2"><ArrowRight className="h-3.5 w-4 text-slate-500" aria-hidden="true" />입자 속도·선 굵기 = 상대적 flux</span>
-      </div>
-    </div>
-  );
-}
-
-export function AcidBaseBalanceLab() {
-  const clock = useSimulationClock();
-  const [presetId, setPresetId] = useState("normal");
-  const [inputs, setInputs] = useState<AcidBaseInputs>(NORMAL_INPUTS);
-  const [simulation, setSimulation] = useState<AcidBaseSimulationView>(INITIAL_SIMULATION);
-  const animationRef = useRef<number | null>(null);
-  const state = useMemo(() => calculateAcidBaseState(inputs), [inputs]);
-  const respiratoryRate = estimateRespiratoryRate(inputs.ventilation);
-  const compensationSystem = compensationSystemFor(state);
-  const statusStyle = state.status === "acidemia"
-      ? "border-[#d8c0c0] bg-[#f7f1f1] text-[#713f3f]"
-    : state.status === "alkalemia"
-      ? "border-[#cbc8d8] bg-[#f3f2f6] text-[#514d6d]"
-      : "border-[#b8ceca] bg-[#f0f5f3] text-[#315f58]";
-  const compensationStyle = state.compensationTone === "mixed"
-    ? "border-[#d7c8ad] bg-[#f7f4ed]"
-    : state.compensationTone === "ok"
-      ? "border-[#b8ceca] bg-[#f0f5f3]"
-      : "border-slate-300 bg-[#f5f7f6]";
-
-  const stopAnimation = () => {
-    if (animationRef.current !== null) cancelAnimationFrame(animationRef.current);
-    animationRef.current = null;
-  };
-
-  useEffect(() => () => stopAnimation(), []);
-
-  const animateInputs = (
-    target: AcidBaseInputs,
-    duration: number,
-    onFrame: (progress: number) => void,
-    onComplete: () => void,
-  ) => {
-    stopAnimation();
-    const from = inputs;
-    let startedAt: number | null = null;
-    let elapsed = 0;
-    updateSimulationClock(clock, {playing: !clock.current.reducedMotion});
-    const tick = (now: number) => {
-      if (startedAt === null) startedAt = now;
-      if (clock.current.playing && !document.hidden) elapsed += Math.min(100, now - startedAt) * clock.current.speed;
-      startedAt = now;
-      const progress = clock.current.reducedMotion ? 1 : Math.min(1, elapsed / duration);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setInputs(interpolateInputs(from, target, eased));
-      onFrame(progress);
-      if (progress < 1) animationRef.current = requestAnimationFrame(tick);
-      else {
-        animationRef.current = null;
-        onComplete();
-      }
-    };
-    animationRef.current = requestAnimationFrame(tick);
-  };
-
-  const applyPreset = (preset: (typeof PRESETS)[number]) => {
-    setPresetId(preset.id);
-    setSimulation({
-      phase: "disturbance",
-      progress: 0,
-      cause: preset.cause,
-      primaryChange: preset.primaryChange,
-      timeLabel: "발생 중",
-      compensatingSystem: null,
-    });
-    animateInputs(
-      preset.values,
-      1200,
-      (progress) => setSimulation((current) => ({ ...current, progress: progress * 0.34, timeLabel: `${Math.round(progress * 5)} min` })),
-      () => setSimulation({
-        phase: preset.id === "normal" ? "steady" : "acute",
-        progress: preset.id === "normal" ? 1 : 0.34,
-        cause: preset.cause,
-        primaryChange: preset.primaryChange,
-        timeLabel: preset.id === "normal" ? "steady state" : "급성 · 보상 전",
-        compensatingSystem: null,
-      }),
-    );
-  };
-
-  const update = (key: keyof AcidBaseInputs, value: number) => {
-    setPresetId("custom");
-    stopAnimation();
-    setInputs((current) => ({ ...current, [key]: value }));
-    const primaryChange = key === "ventilation" ? "폐포 환기 변화" : key === "co2Production" ? "CO₂ 생성 변화" : "HCO₃⁻ 변화";
-    setSimulation({ phase: "acute", progress: 0.34, cause: "직접 변수 조절", primaryChange, timeLabel: "급성 · 보상 전", compensatingSystem: null });
-  };
-
-  const runCompensation = () => {
-    const system = compensationSystemFor(state);
-    if (!system || simulation.phase === "compensating") return;
-    const target = compensatedInputs(state);
-    setSimulation((current) => ({ ...current, phase: "compensating", progress: 0.34, compensatingSystem: system, timeLabel: system === "lung" ? "0 min" : "0 h" }));
-    animateInputs(
-      target,
-      4200,
-      (progress) => setSimulation((current) => ({
-        ...current,
-        phase: "compensating",
-        progress: 0.34 + progress * 0.66,
-        compensatingSystem: system,
-        timeLabel: system === "lung" ? `${Math.round(progress * 30)} min` : `${Math.round(progress * 48)} h`,
-      })),
-      () => setSimulation((current) => ({ ...current, phase: "compensated", progress: 1, compensatingSystem: system, timeLabel: system === "lung" ? "30 min · 새 평형" : "48 h · 새 평형" })),
-    );
-  };
-
-  return (
-    <div className="physiology-lab space-y-5">
-      <header className="border-b border-slate-200 pb-6">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase text-teal-800">
-            <Activity className="h-4 w-4" />
-            Interactive physiology
-          </div>
-          <Link href="/interactive/oxygenation-gas-exchange" className="inline-flex items-center gap-2 rounded-md border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:border-teal-500 hover:text-teal-800">
-            산소화와 가스교환 <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-        <h1 className="mt-3 text-3xl font-bold text-slate-950 sm:text-4xl">산-염기 균형</h1>
-        <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-600 sm:text-base">
-          폐가 조절하는 CO₂와 신장·대사 상태를 반영하는 HCO₃⁻의 비가 pH를 결정합니다. 각 변수를 바꾸며 보상과 혼합성 장애가 어떻게 나타나는지 확인합니다.
-        </p>
-      </header>
-
-      <section aria-label="산-염기 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
-        <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
-        {PRESETS.map((preset) => (
-          <button key={preset.id} type="button" aria-pressed={presetId === preset.id} onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">
-            {preset.label}
-          </button>
-        ))}
-        <button type="button" onClick={() => applyPreset(PRESETS[0])} className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-600 hover:border-teal-500 hover:text-teal-800" aria-label="정상 상태로 초기화" title="정상 상태로 초기화">
-          <RotateCcw className="h-4 w-4" />
-        </button>
-      </section>
-
-      <section className="physiology-stage">
-        <CanvasFrame legend={<SimulationLegend />}><AcidBaseP5Canvas state={state} simulation={simulation} /></CanvasFrame>
-        <aside aria-label="산-염기 조절 변수" className="rounded-md border border-slate-300 bg-[#f8faf9] p-5 shadow-sm">
-          <div className="mb-5 flex items-center gap-2">
-            <Gauge className="h-5 w-5 text-teal-700" />
-            <div><div className="text-[11px] font-semibold uppercase text-slate-500">Model inputs</div><h2 className="text-base font-semibold text-slate-950">생리 변수</h2></div>
-          </div>
-          <div className="space-y-4">
-            <Control label="호흡수 / 폐포 환기" value={inputs.ventilation} min={40} max={160} step={1} unit="%" displayValue={`RR ${respiratoryRate.toFixed(0)}/min · ${inputs.ventilation.toFixed(0)}%`} hint="1회호흡량과 사강이 일정하다고 가정한 추정 RR입니다. 올리면 CO2 배출이 증가해 PaCO2가 내려갑니다." onChange={(value) => update("ventilation", value)} />
-            <Control label="CO₂ 생성 부하" value={inputs.co2Production} min={60} max={160} step={1} unit="%" hint="대사로 만들어지는 volatile acid 부하를 나타냅니다." onChange={(value) => update("co2Production", value)} />
-            <Control label="HCO₃⁻ 상태" value={inputs.bicarbonate} min={8} max={40} step={0.5} unit="mmol/L" hint="신장 산 배설, bicarbonate 재생, 위장관 손실과 외부 알칼리 부하가 반영됩니다." onChange={(value) => update("bicarbonate", value)} />
-          </div>
-          <div className="mt-5 flex items-center justify-between border-t border-slate-200 pt-4 text-xs">
-            <span className="font-semibold text-slate-700">{simulation.phase === "compensating" ? "보상 진행 중" : simulation.phase === "compensated" ? "보상 후 새 평형" : simulation.phase === "acute" ? "급성 변화" : "현재 상태"}</span>
-            <span className="font-mono tabular-nums text-slate-500">{simulation.timeLabel}</span>
-          </div>
-          <button type="button" onClick={runCompensation} disabled={!compensationSystem || simulation.phase === "disturbance" || simulation.phase === "compensating" || simulation.phase === "compensated"} className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#27383c] px-4 py-3 text-sm font-semibold text-white transition hover:bg-teal-900 disabled:cursor-not-allowed disabled:bg-slate-300">
-            <Scale className="h-4 w-4" />
-            {simulation.phase === "compensating" ? `보상 진행 중 · ${simulation.timeLabel}` : simulation.phase === "compensated" ? "예상 보상 완료" : "예상 보상 진행"}
-          </button>
-        </aside>
-      </section>
-
-      <GuidedExperiments experiments={physiologyExperiments.acid} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
-      <MetricComparison metrics={[{label:"pH",value:state.pH,normal:7.4,unit:"",digits:2},{label:"PaCO₂",value:state.paCO2,normal:40,unit:"mmHg"},{label:"HCO₃⁻",value:state.bicarbonate,normal:24,unit:"mmol/L"}]} />
-      <section aria-label="계산 결과" className="grid gap-y-4 rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-4">
-        <Metric label="pH" value={state.pH.toFixed(2)} status={state.status === "normal" ? "7.35-7.45" : state.status === "acidemia" ? "acidemia" : "alkalemia"} />
-        <Metric label="PaCO₂" value={`${state.paCO2.toFixed(0)} mmHg`} status="호흡 성분" />
-        <Metric label="HCO₃⁻" value={`${state.bicarbonate.toFixed(1)} mmol/L`} status="대사·신장 성분" />
-        <Metric label="RR" value={`${respiratoryRate.toFixed(0)} /min`} status="추정치 · 정상 12-20/min" />
-      </section>
-
-      <section className={`rounded-lg border p-5 ${statusStyle}`} aria-live="polite">
-        <div className="flex items-center gap-2 text-xs font-semibold uppercase"><Droplets className="h-4 w-4" />Current pattern</div>
-        <h2 className="mt-2 text-xl font-bold">{state.pattern}</h2>
-        <p className="mt-2 text-sm leading-6">{state.explanation}</p>
-      </section>
-
-      <section className={`rounded-lg border p-5 ${compensationStyle}`} aria-live="polite">
-        <div className="flex items-center gap-2 text-sm font-bold text-slate-900"><Wind className="h-4 w-4 text-teal-700" />예상 보상 점검</div>
-        <p className="mt-2 text-sm leading-6 text-slate-700">{state.compensation}</p>
-        <p className="mt-2 text-xs leading-5 text-slate-500">보상은 pH를 정상 방향으로 이동시키지만 원래 장애를 제거하지 않으며, 정상 범위를 과도하게 넘어서는 변화는 혼합성 장애를 시사할 수 있습니다.</p>
-      </section>
-
-      <section className="grid gap-4 border-t border-slate-200 pt-6 md:grid-cols-3">
-        <article className="border-l-4 border-blue-500 pl-4"><h2 className="font-bold text-slate-950">폐: 빠른 조절</h2><p className="mt-2 text-sm leading-6 text-slate-600">분 단위로 환기를 바꿔 PaCO2를 조절합니다. 저환기는 산증, 과환기는 알칼리증 방향입니다.</p></article>
-        <article className="border-l-4 border-amber-500 pl-4"><h2 className="font-bold text-slate-950">신장: 느린 조절</h2><p className="mt-2 text-sm leading-6 text-slate-600">H+ 배설과 HCO3- 재흡수·재생을 통해 수시간에서 수일에 걸쳐 보상합니다.</p></article>
-        <article className="border-l-4 border-rose-500 pl-4"><h2 className="font-bold text-slate-950">임상: 비율을 읽기</h2><p className="mt-2 text-sm leading-6 text-slate-600">pH만 보지 않고 PaCO2와 HCO3-가 어느 방향으로 움직였는지, 예상 보상 범위에 드는지 함께 확인합니다.</p></article>
-      </section>
-
-      <p className="border-t border-slate-200 pt-4 text-xs leading-5 text-slate-500">
-        학습용 단순화 모델입니다. RR은 1회호흡량과 사강이 일정하다고 가정한 환기량 기반 추정치입니다. 실제 ABGA 해석에서는 검체, FiO2, albumin, 전해질, 시간 경과와 환자 상태를 함께 평가해야 합니다.
-      </p>
-    </div>
-  );
+export function AcidBaseBalanceLab(){
+  const {inputs,update:change,animateTo,transitioning}=useAnimatedModel(NORMAL);
+  const [preset,setPreset]=useState("normal"),[primary,setPrimary]=useState<AcidBaseDisorder>("auto"),[duration,setDuration]=useState<CompensationDuration>("acute"),[compensated,setCompensated]=useState(false);
+  const [sodium,setSodium]=useState(140),[chloride,setChloride]=useState(104),[albumin,setAlbumin]=useState(4);
+  const clock=useSimulationClock(),experiments=useLearningExperiments();
+  const state=useMemo(()=>calculateAcidBaseState(inputs,primary,duration),[inputs,primary,duration]),normal=calculateAcidBaseState(NORMAL);
+  const gap=calculateAnionGap(sodium,chloride,inputs.bicarbonate,albumin);
+  const update=(key:keyof AcidBaseInputs,value:number)=>{setPreset("custom");setCompensated(false);change(key,value);};
+  const apply=(id:string)=>{const next=PRESETS.find(p=>p.id===id);if(!next)return;setPreset(id);setPrimary(next.primary);setDuration("acute");setCompensated(false);animateTo(next.values);updateSimulationClock(clock,{seconds:0});};
+  const reset=()=>{apply("normal");setSodium(140);setChloride(104);setAlbumin(4);};
+  const compensate=()=>{setPrimary(state.primary);setCompensated(true);animateTo(compensatedInputs(state));};
+  const simulation:AcidBaseSimulationView={phase:compensated?(transitioning?"compensating":"compensated"):transitioning?"disturbance":preset==="normal"?"steady":"acute",progress:transitioning?.5:1,cause:state.pattern,primaryChange:ACID_BASE_LABELS[state.primary],timeLabel:compensated?(duration==="acute"?"Acute 예상 보상":"Chronic 예상 보상"):"선택한 입력 상태",compensatingSystem:compensated?(state.primary.startsWith("respiratory")?"kidney":"lung"):null};
+  const condition=`Ventilation ${inputs.ventilation.toFixed(0)}% · CO₂ production ${inputs.co2Production.toFixed(0)}% · HCO₃⁻ ${inputs.bicarbonate.toFixed(1)} · ${ACID_BASE_LABELS[primary]} · ${duration}`;
+  return <div className="physiology-lab space-y-5">
+    <PhysiologyHeader title="Acid–base balance" description="일차 장애와 보상을 구분하고, PaCO₂·HCO₃⁻가 pH를 바꾸는 과정을 관찰합니다. 설명은 학습용이며 실제 ABGA 판독은 임상 정보와 함께 해야 합니다." links={[{href:"/interactive/oxygenation-gas-exchange",label:"산소화와 가스교환"}]}/>
+    <PresetStrip presets={PRESETS} selected={preset} onSelect={apply} onReset={reset}/>
+    <section className="physiology-stage">
+      <CanvasFrame legend={<span>CO₂: 폐 배출 · HCO₃⁻: Buffer·신장 조절 · H⁺: 산성도 · 애니메이션 시간은 실제 보상 경과 시간이 아닙니다.</span>}><AcidBaseP5Canvas state={state} simulation={simulation}/></CanvasFrame>
+      <ModelPanel title="산염기 변수"><div className="space-y-4">
+        <PhysiologyControl label="Alveolar ventilation" value={inputs.ventilation} min={40} max={300} step={1} displayValue={inputs.ventilation.toFixed(0)+"%"} hint="유효 폐포 환기의 상대값입니다. 호흡수 자체가 아닙니다." onChange={v=>update("ventilation",v)}/>
+        <PhysiologyControl label="HCO₃⁻" value={inputs.bicarbonate} min={8} max={40} step={.1} displayValue={inputs.bicarbonate.toFixed(1)+" mEq/L"} hint="일차 대사 변화 또는 신장 보상의 결과가 될 수 있습니다." onChange={v=>update("bicarbonate",v)}/>
+        <PhysiologyControl label="CO₂ production" value={inputs.co2Production} min={60} max={160} step={1} displayValue={inputs.co2Production.toFixed(0)+"%"} hint="환기가 같을 때 CO₂ 생성량이 늘면 PaCO₂가 상승합니다." onChange={v=>update("co2Production",v)}/>
+        <label className="block text-sm font-semibold">일차 장애<select className="mt-2 w-full" value={primary} onChange={e=>{setPrimary(e.target.value as AcidBaseDisorder);setPreset("custom");setCompensated(false);}}>{Object.entries(ACID_BASE_LABELS).map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label>
+        <label className="block text-sm font-semibold">Respiratory 장애 보상 시기<select className="mt-2 w-full" value={duration} onChange={e=>{setDuration(e.target.value as CompensationDuration);setCompensated(false);setPreset("custom");}}><option value="acute">Acute · 초기</option><option value="chronic">Chronic · 신장 적응 후</option></select></label>
+        <button type="button" className="simulation-primary w-full" disabled={state.expected===null||transitioning||compensated} onClick={compensate}>{compensated?"예상 보상 적용됨":"예상 보상 적용"}</button>
+        <p className="text-xs leading-5 text-[var(--muted)]">일차 장애는 보상 뒤에도 유지됩니다. 버튼은 원인을 치료하지 않고 예상 중심값만 적용합니다.</p>
+      </div></ModelPanel>
+    </section>
+    <section className="grid physiology-card sm:grid-cols-4" aria-label="산염기 결과"><PhysiologyMetric label="pH" value={state.pH.toFixed(3)} status={state.status==="normal"?"pH 기준 범위":state.status==="acidemia"?"Acidemia":"Alkalemia"}/><PhysiologyMetric label="PaCO₂" value={state.paCO2.toFixed(1)+" mmHg"} status="호흡 성분"/><PhysiologyMetric label="HCO₃⁻" value={state.bicarbonate.toFixed(1)+" mEq/L"} status="대사 성분"/><PhysiologyMetric label="HCO₃⁻ / CO₂" value={state.ratio.toFixed(1)} status="Henderson–Hasselbalch ratio"/></section>
+    <section className="physiology-card space-y-2" aria-live="polite"><h2 className="text-lg font-bold">{state.pattern}</h2><p className="text-sm leading-6">{state.explanation}</p><p className="text-sm leading-6">{state.compensation}</p></section>
+    <MetricComparison busy={transitioning} snapshot={{label:condition,inputs:{...inputs,primary,duration,preset,sodium,chloride,albumin,compensated}}} onRestore={v=>{animateTo({ventilation:Number(v.ventilation),co2Production:Number(v.co2Production),bicarbonate:Number(v.bicarbonate)},0);setPrimary(v.primary as AcidBaseDisorder);setDuration(v.duration as CompensationDuration);setPreset(String(v.preset));setSodium(Number(v.sodium));setChloride(Number(v.chloride));setAlbumin(Number(v.albumin));setCompensated(Boolean(v.compensated));}} metrics={[{label:"pH",value:state.pH,normal:normal.pH,unit:"",digits:3},{label:"PaCO₂",value:state.paCO2,normal:40,unit:"mmHg"},{label:"HCO₃⁻",value:state.bicarbonate,normal:24,unit:"mEq/L"}]}/>
+    <ClinicalScenarioPanel id={preset}/>
+    <GuidedExperiments experiments={experiments} onApply={apply} activeScenario={compensated?"custom":preset}/>
+    <details className="physiology-card"><summary className="cursor-pointer font-bold">심화 · Anion gap과 Mixed disorder</summary><div className="mt-5 physiology-learning-grid">
+      <PhysiologyControl label="Na⁺" value={sodium} min={100} max={180} step={1} displayValue={sodium+" mEq/L"} hint="K⁺를 제외한 AG를 계산합니다." onChange={setSodium}/>
+      <PhysiologyControl label="Cl⁻" value={chloride} min={60} max={150} step={1} displayValue={chloride+" mEq/L"} hint="HCO₃⁻는 위 산염기 입력을 그대로 사용합니다." onChange={setChloride}/>
+      <PhysiologyControl label="Albumin" value={albumin} min={.5} max={6} step={.1} displayValue={albumin+" g/dL"} hint="낮은 Albumin이 숨길 수 있는 AG 증가를 보정합니다." onChange={setAlbumin}/>
+    </div><p className="my-5 font-mono text-sm">AG {gap.gap.toFixed(1)} · 보정 AG {gap.corrected.toFixed(1)} mEq/L · Delta ratio {gap.deltaRatio===null?"적용하지 않음":gap.deltaRatio.toFixed(2)}</p><ClinicalScenarioPanel id="mixed"/></details>
+  </div>;
 }

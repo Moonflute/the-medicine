@@ -27,10 +27,12 @@ function pointOnPolyline(points: Point[], progress: number) {
   return points[points.length - 1];
 }
 
-export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
+export function HemodynamicsP5Canvas({ state, reference }: { state: HemodynamicsState; reference?:HemodynamicsState }) {
   const hostRef = useRef<HTMLDivElement>(null);
   const instanceRef = useRef<P5Instance | null>(null); const clock = useClockRedraw(instanceRef);
   const stateRef = useRef(state);
+  const referenceRef=useRef(reference);
+  useEffect(()=>{referenceRef.current=reference;instanceRef.current?.redraw();},[reference]);
   useEffect(() => { stateRef.current = state; instanceRef.current?.redraw(); }, [state]);
 
   useEffect(() => {
@@ -41,7 +43,7 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
       const sketch = (p: P5Instance) => {
         let width = 760; let height = 650; let heart: P5Image | null = null; let cycle = 0;
         const label = (text: string, x: number, y: number, size = 11, color = COLORS.muted, align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.CENTER) => { p.noStroke(); p.fill(color); p.textAlign(align, p.CENTER); p.textSize(Math.max(12, size)); p.text(text, x, y); };
-        const resize = () => { width = Math.max(760, Math.floor(host.clientWidth)); height = width < 620 ? 850 : 650; p.resizeCanvas(width, height); };
+        const resize = () => { width = Math.max(320, Math.floor(host.clientWidth)); height = width < 620 ? 850 : 650; p.resizeCanvas(width, height); };
 
         const drawParticlePath = (points: Point[], count: number, speed: number, color: string, active: boolean, size = 7) => {
           p.noFill(); p.stroke(active ? `${color}99` : "#aebbbc66"); p.strokeWeight(active ? 4 : 2); p.beginShape(); points.forEach((point) => p.vertex(point.x, point.y)); p.endShape();
@@ -72,7 +74,7 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
         };
 
         const drawEcg = (x: number, y: number, w: number, currentCycle: number) => {
-          p.noStroke(); p.fill(248, 250, 249, 232); p.rect(x, y - 52, w, 112, 6); label("ELECTRICAL → MECHANICAL COUPLING", x + 12, y - 36, 9, COLORS.muted, p.LEFT);
+          p.noStroke(); p.fill(248, 250, 249, 232); p.rect(x, y - 52, w, 112, 6); label("전기적 활성 → 기계적 수축", x + 12, y - 36, 9, COLORS.muted, p.LEFT);
           p.stroke("#d6dfdf"); p.strokeWeight(1); p.line(x + 10, y, x + w - 10, y);
           p.stroke(COLORS.purple); p.strokeWeight(2.3); p.noFill(); p.beginShape();
           for (let px = x + 10; px <= x + w - 10; px += 2) { const relative = (px - x - 10) / (w - 20); p.vertex(px, y + ecgSignal(relative)); } p.endShape();
@@ -81,7 +83,7 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
         };
 
         const drawPvLoop = (x: number, y: number, w: number, h: number, current: HemodynamicsState) => {
-          p.noStroke(); p.fill(248, 250, 249, 232); p.rect(x, y, w, h, 6); label("LV PRESSURE–VOLUME LOOP", x + 12, y + 16, 9, COLORS.muted, p.LEFT);
+          p.noStroke(); p.fill(248, 250, 249, 232); p.rect(x, y, w, h, 6); label("LV pressure–volume loop", x + 12, y + 16, 9, COLORS.muted, p.LEFT);
           const left = x + 34; const right = x + w - 15; const top = y + 30; const bottom = y + h - 28;
           p.stroke("#aebbbb"); p.strokeWeight(1); p.line(left, bottom, right, bottom); p.line(left, bottom, left, top);
           const xForVolume = (volume: number) => p.map(volume, 0, 200, left, right); const yForPressure = (pressure: number) => p.map(pressure, 0, 220, bottom, top);
@@ -89,11 +91,11 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
             p.noFill(); p.stroke(color); p.strokeWeight(weight); p.beginShape();
             for(let i=0;i<=200;i++){ const snap=cardiacSnapshot(model,i/200); p.vertex(xForVolume(snap.volume),yForPressure(snap.pressure)); } p.endShape(p.CLOSE);
           };
-          trace(calculateHemodynamics({preload:100,afterload:100,contractility:100,heartRate:70}),"#acb9bc",1.5);
+          trace(referenceRef.current??calculateHemodynamics({preload:100,afterload:100,contractility:100,heartRate:70}),"#acb9bc",1.5);
           trace(current,COLORS.open,3);
           const snapshot=cardiacSnapshot(current,cycle); p.noStroke();p.fill(COLORS.conduction);p.circle(xForVolume(snapshot.volume),yForPressure(snapshot.pressure),10);
           label("0",left,bottom+13,10);label("200 mL",right,bottom+13,10);label("220",left-3,top-8,10);
-          label("회색: 정상 · 황색: 현재 시점",x+12,y+h-5,10,COLORS.muted,p.LEFT);
+          label(referenceRef.current?"회색: 저장 기준 · 황색: 현재 시점":"회색: 정상 · 황색: 현재 시점",x+12,y+h-5,10,COLORS.muted,p.LEFT);
         };
 
         p.setup = async () => {

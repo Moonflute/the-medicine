@@ -45,7 +45,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
   const instanceRef = useRef<P5Instance | null>(null); const clock = useClockRedraw(instanceRef);
 
   useEffect(() => {
-    stateRef.current = state;
+    stateRef.current = state; instanceRef.current?.redraw();
   }, [state]);
 
   useEffect(() => {
@@ -70,7 +70,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
         const mapClamped = (value: number, min: number, max: number, start: number, end: number) => p.map(clamp(value, min, max), min, max, start, end);
 
         const resize = () => {
-          canvasWidth = Math.max(760, Math.floor(host.clientWidth));
+          canvasWidth = Math.max(320, Math.floor(host.clientWidth));
           canvasHeight = clamp(Math.floor(canvasWidth * 0.67), 480, 570);
           p.resizeCanvas(canvasWidth, canvasHeight);
         };
@@ -148,7 +148,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           p.strokeWeight(0.8);
           p.noFill();
           p.rect(x, y, width, 76, 7);
-          label("ARTERIAL OXYGENATION", x + 14, y + 14, 10, COLORS.muted);
+          label("동맥 산소화", x + 14, y + 14, 10, COLORS.muted);
           label(current.pattern, x + width - 14, y + 14, 11, COLORS.ink, p.RIGHT);
           p.stroke("#c8d0d1");
           p.strokeWeight(4);
@@ -211,7 +211,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           p.strokeWeight(0.9);
           p.line(boxX + boxWidth / 2, boxY - boxHeight / 2, insetEdgeX, alveolusY - radius * 0.5);
           p.line(boxX + boxWidth / 2, boxY + boxHeight / 2, insetEdgeX, alveolusY + radius * 0.5);
-          label("magnified acinus", p.lerp(boxX, insetEdgeX, 0.55), alveolusY - radius * 0.62, 9, COLORS.muted, p.CENTER);
+          label("Acinus 확대", p.lerp(boxX, insetEdgeX, 0.55), alveolusY - radius * 0.62, 9, COLORS.muted, p.CENTER);
         };
 
         const drawAlveolarUnit = (x: number, y: number, radius: number, current: OxygenationState) => {
@@ -333,7 +333,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
             const target = cells[index % cells.length];
             drawOxygen(p.lerp(x - 42, x + target.x, progress), p.lerp(vesselY, y + target.y, progress), 4, 210);
           }
-          label("TISSUE DELIVERY", x, y - 66, 11, COLORS.ink, p.CENTER);
+          label("조직으로 전달", x, y - 66, 11, COLORS.ink, p.CENTER);
           label(`CaO₂ ${current.caO2.toFixed(1)} mL/dL`, x, y + 66, 11, COLORS.tissue, p.CENTER);
         };
 

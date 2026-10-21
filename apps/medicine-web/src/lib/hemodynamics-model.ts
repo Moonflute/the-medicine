@@ -18,9 +18,12 @@ export function calculateHemodynamics(raw: HemodynamicsInputs): HemodynamicsStat
   const edv = clamp(120 * preload / 100 * fillingPenalty, 45, 195); const effectiveContractility = Math.max(0.34, contractility / 100);
   const esv = clamp(48 * (afterload / 100) ** 0.82 / effectiveContractility, 14, edv - 8);
   const strokeVolume = edv - esv; const ejectionFraction = strokeVolume / edv * 100; const cardiacOutput = strokeVolume * heartRate / 1000;
-  const systolicPressure = clamp(112 + (afterload - 100) * 0.62 + (contractility - 100) * 0.18, 70, 220);
-  const diastolicPressure = clamp(70 + (afterload - 100) * 0.42 + (heartRate - 70) * 0.08, 40, 140);
-  const meanArterialPressure = diastolicPressure + (systolicPressure - diastolicPressure) / 3;
+  // Coupled teaching model: MAP = right atrial pressure + CO × relative SVR.
+  // Afterload is represented by an SVR proxy, not a measured arterial pressure.
+  const meanArterialPressure = 5 + cardiacOutput * 15.1 * (afterload / 100) ** 1.6;
+  const pulsePressure = strokeVolume / 1.78;
+  const diastolicPressure = Math.max(2, meanArterialPressure - pulsePressure / 3);
+  const systolicPressure = diastolicPressure + pulsePressure;
   const lvEndDiastolicPressure = clamp(7 + (preload - 100) * 0.11 + Math.max(0, 75 - contractility) * 0.13, 2, 30);
   const peakAorticFlow = clamp(strokeVolume / 70 * contractility / 100 * 420 / Math.sqrt(afterload / 100), 70, 780);
   let pattern = "정상 압력-용적 관계";

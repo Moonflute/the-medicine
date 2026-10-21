@@ -43,7 +43,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
   const instanceRef = useRef<P5Instance | null>(null); const clock = useClockRedraw(instanceRef);
 
   useEffect(() => {
-    stateRef.current = state;
+    stateRef.current = state; instanceRef.current?.redraw();
   }, [state]);
 
   useEffect(() => {
@@ -69,7 +69,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
         const mapClamped = (value: number, min: number, max: number, start: number, end: number) => p.map(clamp(value, min, max), min, max, start, end);
 
         const resize = () => {
-          canvasWidth = Math.max(760, Math.floor(host.clientWidth));
+          canvasWidth = Math.max(320, Math.floor(host.clientWidth));
           canvasHeight = clamp(Math.floor(canvasWidth * 0.68), 460, 570);
           p.resizeCanvas(canvasWidth, canvasHeight);
         };
@@ -128,7 +128,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
             p.noTint();
           }
           p.pop();
-          label("PULMONARY CONTROL", x, y + 105 * scale, 11, COLORS.ink, p.CENTER);
+          label("폐의 조절", x, y + 105 * scale, 11, COLORS.ink, p.CENTER);
           const rr = estimateRespiratoryRate(current.ventilation).toFixed(0);
           const breathingLabel = canvasWidth < 620 ? `RR ≈ ${rr}/min · ${current.ventilation.toFixed(0)}%` : `RR ≈ ${rr}/min · ventilation ${current.ventilation.toFixed(0)}%`;
           label(breathingLabel, x, y + 121 * scale, canvasWidth < 620 ? 10 : 11, COLORS.muted, p.CENTER);
@@ -186,7 +186,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
 
           const renalDrive = clamp((current.paCO2 - 40) / 35, -1, 1);
           const driveLabel = renalDrive > 0.12 ? "HCO₃⁻ conservation / generation" : renalDrive < -0.12 ? "HCO₃⁻ excretion favored" : "baseline renal handling";
-          label("RENAL CONTROL", x, y + 98 * scale, 11, COLORS.ink, p.CENTER);
+          label("신장의 조절", x, y + 98 * scale, 11, COLORS.ink, p.CENTER);
           label(driveLabel, x, y + 114 * scale, 10, renalDrive < -0.12 ? COLORS.hydrogen : COLORS.bicarbonate, p.CENTER);
         };
 
@@ -268,7 +268,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.strokeWeight(0.8);
           p.noFill();
           p.rect(x, y, width, 54, 6);
-          label("BICARBONATE BUFFER", x + 12, y + 13, 10, COLORS.muted, p.LEFT);
+          label("Bicarbonate buffer", x + 12, y + 13, 10, COLORS.muted, p.LEFT);
           const reaction = width < 300 ? "CO₂ ⇄ H⁺ + HCO₃⁻" : "CO₂ + H₂O  ⇄  H₂CO₃  ⇄  H⁺ + HCO₃⁻";
           label(reaction, x + width / 2, y + 34, width < 300 ? 11 : 13, COLORS.ink, p.CENTER);
           p.noStroke();
@@ -288,7 +288,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.strokeWeight(0.8);
           p.noFill();
           p.rect(x, y, width, 76, 7);
-          label("SYSTEMIC ACID–BASE STATE", x + 14, y + 14, 10, COLORS.muted, p.LEFT);
+          label("전신 산염기 상태", x + 14, y + 14, 10, COLORS.muted, p.LEFT);
           label(current.pattern, x + width - 14, y + 14, 11, COLORS.ink, p.RIGHT);
           p.stroke("#c8d0d1");
           p.strokeWeight(4);

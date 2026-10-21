@@ -1,236 +1,58 @@
 "use client";
-import { updateSimulationClock } from "@/lib/simulation-clock";
-
+import { useMemo, useState } from "react";
+import { useAnimatedModel } from "@/hooks/use-animated-model";
+import { CanvasFrame, ModelPanel, PhysiologyControl, PhysiologyHeader, PhysiologyMetric, PresetStrip, VariableDisclosure } from "@/components/physiology-ui";
 import { GuidedExperiments, MetricComparison, useSimulationClock } from "@/components/simulation-workbench";
-import { physiologyExperiments } from "@/lib/physiology-experiments";
-
-import Link from "next/link";
-import { CanvasFrame } from "@/components/physiology-ui";
-import { useEffect, useMemo, useRef, useState } from "react";
-import { Activity, ArrowRight, ChevronDown, Droplets, Gauge, RotateCcw, SlidersHorizontal, Wind } from "lucide-react";
-import { OxygenationP5Canvas, type OxygenationSimulationView } from "@/components/oxygenation-p5-canvas";
-import {
-  calculateOxygenationState,
-  type OxygenationInputs,
-} from "@/lib/oxygenation-model";
-
-const NORMAL_INPUTS: OxygenationInputs = {
-  fio2: 0.21,
-  respiratoryRate: 14,
-  vqMismatch: 0,
-  shuntFraction: 0.02,
-  hemoglobin: 14,
-  pH: 7.4,
-};
-
-const PRESETS: Array<{ id: string; label: string; cause: string; values: OxygenationInputs }> = [
-  { id: "normal", label: "정상", cause: "Room air · 정상 가스교환", values: NORMAL_INPUTS },
-  { id: "hypoventilation", label: "저환기", cause: "폐포 환기 저하", values: { ...NORMAL_INPUTS, respiratoryRate: 7, pH: 7.28 } },
-  { id: "vq-mismatch", label: "V/Q 불균형", cause: "낮은 V/Q 폐단위 증가", values: { ...NORMAL_INPUTS, respiratoryRate: 20, vqMismatch: 65, shuntFraction: 0.04, pH: 7.44 } },
-  { id: "shunt", label: "Shunt", cause: "비환기 혈류 혼합", values: { ...NORMAL_INPUTS, fio2: 0.6, respiratoryRate: 20, vqMismatch: 20, shuntFraction: 0.35 } },
-  { id: "anemia", label: "빈혈", cause: "Hemoglobin 감소", values: { ...NORMAL_INPUTS, hemoglobin: 7 } },
+import { ClinicalScenarioPanel, useLearningExperiments } from "@/components/interactive-learning";
+import { OxygenationP5Canvas } from "@/components/oxygenation-p5-canvas";
+import { calculateOxygenationState, type OxygenationInputs } from "@/lib/oxygenation-model";
+import { updateSimulationClock } from "@/lib/simulation-clock";
+const NORMAL:Required<OxygenationInputs>={fio2:.21,respiratoryRate:14,vqMismatch:0,shuntFraction:.02,hemoglobin:14,pH:7.4,cardiacOutput:5,age:40};
+const PRESETS=[
+  {id:"normal",label:"정상",values:NORMAL},
+  {id:"hypoventilation",label:"Hypoventilation",values:{...NORMAL,respiratoryRate:7,pH:7.28}},
+  {id:"vq-mismatch",label:"V/Q mismatch",values:{...NORMAL,respiratoryRate:20,vqMismatch:65,shuntFraction:.04,pH:7.44}},
+  {id:"shunt",label:"Shunt",values:{...NORMAL,fio2:.6,respiratoryRate:20,vqMismatch:20,shuntFraction:.35}},
+  {id:"anemia",label:"Anemia",values:{...NORMAL,hemoglobin:7}},
 ];
-
-const INITIAL_SIMULATION: OxygenationSimulationView = {
-  phase: "steady",
-  progress: 1,
-  cause: "Room air · 정상 가스교환",
-  timeLabel: "steady state",
-};
-
-function interpolateInputs(from: OxygenationInputs, to: OxygenationInputs, progress: number): OxygenationInputs {
-  return {
-    fio2: from.fio2 + (to.fio2 - from.fio2) * progress,
-    respiratoryRate: from.respiratoryRate + (to.respiratoryRate - from.respiratoryRate) * progress,
-    vqMismatch: from.vqMismatch + (to.vqMismatch - from.vqMismatch) * progress,
-    shuntFraction: from.shuntFraction + (to.shuntFraction - from.shuntFraction) * progress,
-    hemoglobin: from.hemoglobin + (to.hemoglobin - from.hemoglobin) * progress,
-    pH: from.pH + (to.pH - from.pH) * progress,
-  };
-}
-
-function Control({
-  label,
-  value,
-  min,
-  max,
-  step,
-  displayValue,
-  hint,
-  onChange,
-}: {
-  label: string;
-  value: number;
-  min: number;
-  max: number;
-  step: number;
-  displayValue: string;
-  hint: string;
-  onChange: (value: number) => void;
-}) {
-  return (
-    <label className="block border-b border-slate-200 pb-3 last:border-0 last:pb-0 sm:pb-4">
-      <span className="flex items-center justify-between gap-3 text-sm font-bold text-slate-900">
-        <span>{label}</span>
-        <span className="font-mono text-teal-800">{displayValue}</span>
-      </span>
-      <input type="range" min={min} max={max} step={step} value={value} onChange={(event) => onChange(Number(event.target.value))} className="mt-2 h-2 w-full cursor-pointer accent-teal-700 sm:mt-3" />
-      <span className="mt-2 hidden text-xs leading-5 text-slate-500 sm:block">{hint}</span>
-    </label>
-  );
-}
-
-function Metric({ label, value, status }: { label: string; value: string; status: string }) {
-  return (
-    <div className="min-w-0 border-l border-slate-300 px-4 py-1 first:border-l-0">
-      <div className="text-[11px] font-semibold uppercase text-slate-500">{label}</div>
-      <div className="mt-1 font-mono text-lg font-semibold tabular-nums text-slate-950">{value}</div>
-      <div className="mt-1 text-xs text-slate-600">{status}</div>
-    </div>
-  );
-}
-
-function SimulationLegend() {
-  return (
-    <div role="note" aria-label="산소화 시뮬레이션 범례" className="text-sm">
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs leading-5 text-slate-600">
-        <span className="inline-flex items-center gap-2"><span className="flex" aria-hidden="true"><span className="h-2 w-2 rounded-full bg-[#297f91]" /><span className="-ml-0.5 h-2 w-2 rounded-full bg-[#297f91]" /></span><strong className="text-slate-800">O₂</strong> 농도·이동</span>
-        <span className="inline-flex items-center gap-2"><span className="h-2.5 w-4 rounded-full bg-[#a45d62]" aria-hidden="true" />산소화 혈류</span>
-        <span className="inline-flex items-center gap-2"><span className="h-1 w-4 bg-[#725d74]" aria-hidden="true" />비환기 shunt 혈류</span>
-        <span className="inline-flex items-center gap-2"><span className="relative h-px w-5 bg-slate-400" aria-hidden="true"><span className="absolute -top-1 left-2 h-2 w-2 rounded-full bg-slate-500" /></span>입자 수·속도·혈관 굵기 = 상대적 농도와 flux</span>
-      </div>
-    </div>
-  );
-}
-
-export function OxygenationGasExchangeLab() {
-  const clock = useSimulationClock();
-  const [presetId, setPresetId] = useState("normal");
-  const [inputs, setInputs] = useState<OxygenationInputs>(NORMAL_INPUTS);
-  const [simulation, setSimulation] = useState<OxygenationSimulationView>(INITIAL_SIMULATION);
-  const [advancedOpen, setAdvancedOpen] = useState(false);
-  const animationRef = useRef<number | null>(null);
-  const state = useMemo(() => calculateOxygenationState(inputs), [inputs]);
-  const statusStyle = state.status === "critical"
-    ? "border-[#d8c0c0] bg-[#f7f1f1] text-[#713f3f]"
-    : state.status === "impaired"
-      ? "border-[#d7c8ad] bg-[#f7f4ed] text-[#70562e]"
-      : "border-[#b8ceca] bg-[#f0f5f3] text-[#315f58]";
-
-  const stopAnimation = () => {
-    if (animationRef.current !== null) cancelAnimationFrame(animationRef.current);
-    animationRef.current = null;
-  };
-
-  useEffect(() => () => stopAnimation(), []);
-
-  const animateInputs = (target: OxygenationInputs, cause: string, duration = 1400) => {
-    stopAnimation();
-    const from = inputs;
-    let startedAt: number | null = null;
-    let elapsed = 0;
-    updateSimulationClock(clock, {playing: !clock.current.reducedMotion});
-    setSimulation({ phase: "transition", progress: 0, cause, timeLabel: "변화 중" });
-    const tick = (now: number) => {
-      if (startedAt === null) startedAt = now;
-      if (clock.current.playing && !document.hidden) elapsed += Math.min(100, now - startedAt) * clock.current.speed;
-      startedAt = now;
-      const progress = clock.current.reducedMotion ? 1 : Math.min(1, elapsed / duration);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setInputs(interpolateInputs(from, target, eased));
-      setSimulation({ phase: progress < 1 ? "transition" : "settled", progress, cause, timeLabel: progress < 1 ? `${Math.round(progress * 60)} sec` : "새 평형" });
-      if (progress < 1) animationRef.current = requestAnimationFrame(tick);
-      else animationRef.current = null;
-    };
-    animationRef.current = requestAnimationFrame(tick);
-  };
-
-  const update = (key: keyof OxygenationInputs, value: number) => {
-    setPresetId("custom");
-    stopAnimation();
-    setInputs((current) => ({ ...current, [key]: value }));
-    setSimulation({ phase: "settled", progress: 1, cause: "직접 변수 조절", timeLabel: "새 평형" });
-  };
-
-  const testOxygenResponse = () => animateInputs({ ...inputs, fio2: 1 }, "FiO₂ 100% 반응 확인", 1800);
-
-  const applyPreset = (preset: (typeof PRESETS)[number]) => {
-    setPresetId(preset.id);
-    setAdvancedOpen(preset.id === "shunt" || preset.id === "anemia");
-    animateInputs(preset.values, preset.cause);
-  };
-
-  return (
-    <div className="physiology-lab space-y-5">
-      <header className="border-b border-slate-200 pb-6">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase text-teal-800"><Activity className="h-4 w-4" />Interactive physiology</div>
-          <Link href="/interactive/acid-base-balance" className="inline-flex items-center gap-2 rounded-md border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:border-teal-500 hover:text-teal-800">산-염기 균형 <ArrowRight className="h-4 w-4" /></Link>
-        </div>
-        <h1 className="mt-3 text-3xl font-bold text-slate-950 sm:text-4xl">산소화와 가스교환</h1>
-        <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-600 sm:text-base">FiO₂와 환기가 폐포 산소를 만들고, V/Q 불균형과 shunt가 동맥혈 산소화를 제한하며, hemoglobin이 실제 조직 운반량을 결정하는 과정을 확인합니다.</p>
-      </header>
-
-      <section aria-label="산소화 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
-        <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
-        {PRESETS.map((preset) => <button key={preset.id} type="button" aria-pressed={presetId === preset.id} onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
-        <button type="button" onClick={() => { applyPreset(PRESETS[0]); }} className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-600 hover:border-teal-500 hover:text-teal-800" aria-label="정상 상태로 초기화" title="정상 상태로 초기화"><RotateCcw className="h-4 w-4" /></button>
-      </section>
-
-      <section className="physiology-stage">
-        <CanvasFrame legend={<SimulationLegend />}><OxygenationP5Canvas state={state} simulation={simulation} /></CanvasFrame>
-        <aside aria-label="산소화 조절 변수" className="rounded-md border border-slate-300 bg-[#f8faf9] p-5 shadow-sm">
-          <div className="mb-5 flex items-center gap-2"><Gauge className="h-5 w-5 text-teal-700" /><div><div className="text-[11px] font-semibold uppercase text-slate-500">Model inputs</div><h2 className="text-base font-semibold text-slate-950">가스교환 변수</h2></div></div>
-          <div className="space-y-4">
-            <Control label="흡입 산소 FiO₂" value={inputs.fio2} min={0.21} max={1} step={0.01} displayValue={`${(inputs.fio2 * 100).toFixed(0)}%`} hint="해발 0 m, 대기압 760 mmHg를 가정합니다." onChange={(value) => update("fio2", value)} />
-            <Control label="호흡수 RR" value={inputs.respiratoryRate} min={6} max={30} step={1} displayValue={`${inputs.respiratoryRate.toFixed(0)} /min`} hint="1회호흡량·사강·CO₂ 생성이 일정하다고 가정해 PaCO₂를 추정합니다." onChange={(value) => update("respiratoryRate", value)} />
-            <Control label="V/Q 불균형" value={inputs.vqMismatch} min={0} max={100} step={1} displayValue={`${inputs.vqMismatch.toFixed(0)}%`} hint="실제 측정 단위가 아닌 폐단위 불균형을 나타내는 교육용 지수입니다." onChange={(value) => update("vqMismatch", value)} />
-          </div>
-          <details open={advancedOpen} onToggle={(event) => setAdvancedOpen(event.currentTarget.open)} className="group mt-4 border-t border-slate-300">
-            <summary className="flex cursor-pointer list-none items-center gap-2 py-3 text-sm font-semibold text-slate-800 marker:content-none">
-              <SlidersHorizontal className="h-4 w-4 text-teal-700" />
-              <span>상세 변수</span>
-              <span className="ml-auto hidden font-mono text-[11px] font-normal text-slate-500 sm:inline">Shunt {(inputs.shuntFraction * 100).toFixed(0)}% · Hb {inputs.hemoglobin.toFixed(1)} · pH {inputs.pH.toFixed(2)}</span>
-              <ChevronDown className="ml-auto h-4 w-4 text-slate-500 transition group-open:rotate-180 sm:ml-0" />
-            </summary>
-            <div className="space-y-4 pb-2 pt-1">
-              <Control label="Shunt fraction" value={inputs.shuntFraction} min={0} max={0.35} step={0.01} displayValue={`${(inputs.shuntFraction * 100).toFixed(0)}%`} hint="환기된 폐포를 거치지 않고 동맥혈에 섞이는 혈류 비율입니다." onChange={(value) => update("shuntFraction", value)} />
-              <Control label="Hemoglobin" value={inputs.hemoglobin} min={5} max={20} step={0.5} displayValue={`${inputs.hemoglobin.toFixed(1)} g/dL`} hint="포화도가 같아도 Hb가 낮으면 산소함량은 감소합니다." onChange={(value) => update("hemoglobin", value)} />
-              <Control label="pH / Bohr shift" value={inputs.pH} min={7.1} max={7.6} step={0.01} displayValue={inputs.pH.toFixed(2)} hint={`현재 추정 P50 ${state.p50.toFixed(1)} mmHg · 산증은 해리곡선을 우측으로 이동시킵니다.`} onChange={(value) => update("pH", value)} />
-            </div>
-          </details>
-          <button type="button" onClick={testOxygenResponse} disabled={inputs.fio2 >= 0.995 || simulation.phase === "transition"} className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#27383c] px-4 py-3 text-sm font-semibold text-white transition hover:bg-teal-900 disabled:cursor-not-allowed disabled:bg-slate-300"><Wind className="h-4 w-4" />FiO₂ 100% 반응 보기</button>
-        </aside>
-      </section>
-
-      <GuidedExperiments experiments={physiologyExperiments.oxygen} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
-      <MetricComparison metrics={[{label:"PaO₂",value:state.paO2,normal:calculateOxygenationState(NORMAL_INPUTS).paO2,unit:"mmHg"},{label:"SaO₂",value:state.saO2,normal:calculateOxygenationState(NORMAL_INPUTS).saO2,unit:"%"},{label:"CaO₂",value:state.caO2,normal:calculateOxygenationState(NORMAL_INPUTS).caO2,unit:"mL/dL"},{label:"A–a",value:state.aaGradient,normal:calculateOxygenationState(NORMAL_INPUTS).aaGradient,unit:"mmHg"}]} />
-      <section aria-label="산소화 계산 결과" className="grid gap-y-4 rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-5">
-        <Metric label="PAO₂" value={`${state.alveolarPO2.toFixed(0)} mmHg`} status="폐포 산소" />
-        <Metric label="PaO₂" value={`${state.paO2.toFixed(0)} mmHg`} status="동맥혈 산소" />
-        <Metric label="SaO₂" value={`${state.saO2.toFixed(0)}%`} status="Hb 포화도" />
-        <Metric label="A–a gradient" value={`${state.aaGradient.toFixed(0)} mmHg`} status="가스교환 간극" />
-        <Metric label="CaO₂" value={`${state.caO2.toFixed(1)} mL/dL`} status="동맥혈 산소함량" />
-      </section>
-
-      <section className={`rounded-lg border p-5 ${statusStyle}`} aria-live="polite">
-        <div className="flex items-center gap-2 text-xs font-semibold uppercase"><Droplets className="h-4 w-4" />Current pattern</div>
-        <h2 className="mt-2 text-xl font-bold">{state.pattern}</h2>
-        <p className="mt-2 text-sm leading-6">{state.explanation}</p>
-      </section>
-
-      <section className="rounded-lg border border-slate-300 bg-[#f5f7f6] p-5" aria-live="polite">
-        <div className="flex items-center gap-2 text-sm font-bold text-slate-900"><Wind className="h-4 w-4 text-teal-700" />산소 반응 해석</div>
-        <p className="mt-2 text-sm leading-6 text-slate-700">{state.oxygenResponse}</p>
-      </section>
-
-      <section className="grid gap-4 border-t border-slate-200 pt-6 md:grid-cols-3">
-        <article className="border-l-4 border-cyan-600 pl-4"><h2 className="font-bold text-slate-950">PAO₂: 공급과 환기</h2><p className="mt-2 text-sm leading-6 text-slate-600">FiO₂가 높을수록 증가하고, 저환기로 PaCO₂가 올라가면 alveolar gas equation에 따라 감소합니다.</p></article>
-        <article className="border-l-4 border-violet-500 pl-4"><h2 className="font-bold text-slate-950">A–a: 폐 내 전달</h2><p className="mt-2 text-sm leading-6 text-slate-600">V/Q 불균형과 shunt는 폐포와 동맥혈 사이의 산소 차이를 키웁니다.</p></article>
-        <article className="border-l-4 border-rose-500 pl-4"><h2 className="font-bold text-slate-950">CaO₂: 실제 운반량</h2><p className="mt-2 text-sm leading-6 text-slate-600">PaO₂보다 Hb와 SaO₂가 산소함량을 크게 좌우하므로 정상 포화도가 충분한 운반량을 보장하지 않습니다.</p></article>
-      </section>
-
-      <p className="border-t border-slate-200 pt-4 text-xs leading-5 text-slate-500">학습용 단순화 모델입니다. 해발 0 m, 정상 체온, RQ 0.8, 고정된 1회호흡량·사강·CO₂ 생성을 가정합니다. V/Q 불균형 지수와 PaO₂·SaO₂는 실제 환자 측정값이 아니며, 임상에서는 ABGA/co-oximetry, 산소 장치, 혈역학과 질환별 목표를 함께 평가해야 합니다.</p>
-    </div>
-  );
+export function OxygenationGasExchangeLab(){
+  const {inputs,update:change,animateTo,transitioning}=useAnimatedModel(NORMAL);
+  const [preset,setPreset]=useState("normal"),[open,setOpen]=useState(false);
+  const state=useMemo(()=>calculateOxygenationState(inputs),[inputs]),normal=calculateOxygenationState(NORMAL);
+  const experiments=useLearningExperiments(),clock=useSimulationClock();
+  const apply=(id:string)=>{const p=PRESETS.find(p=>p.id===id);if(!p)return;setPreset(id);animateTo(p.values);setOpen(false);updateSimulationClock(clock,{seconds:0});};
+  const update=(key:keyof OxygenationInputs,value:number)=>{setPreset("custom");change(key,value);};
+  const condition=`FiO₂ ${(inputs.fio2*100).toFixed(0)}% · RR ${inputs.respiratoryRate.toFixed(0)} · V/Q ${inputs.vqMismatch.toFixed(0)} · Shunt ${(inputs.shuntFraction*100).toFixed(0)}% · Hb ${inputs.hemoglobin.toFixed(1)} · pH ${inputs.pH.toFixed(2)} · CO ${inputs.cardiacOutput.toFixed(1)} · ${inputs.age.toFixed(0)}세`;
+  return <div className="physiology-lab space-y-5">
+    <PhysiologyHeader title="Oxygenation and gas exchange" description="환기, V/Q mismatch, Shunt와 Hemoglobin의 역할을 나누어 보고, 산소 분압·포화도·함량·전신 공급량의 차이를 비교합니다." links={[{href:"/interactive/acid-base-balance",label:"산염기 균형"},{href:"/interactive/cardiac-hemodynamics",label:"심장 혈역학"}]}/>
+    <PresetStrip presets={PRESETS} selected={preset} onSelect={apply} onReset={()=>apply("normal")}/>
+    <section className="physiology-stage">
+      <CanvasFrame legend={<span>O₂: 이동 입자 · Shunt: 비환기 혈류 · 색과 입자 수는 상대적 표현입니다. 실제 조직별 산소 소모는 계산하지 않습니다.</span>}><OxygenationP5Canvas state={state} simulation={{phase:transitioning?"transition":"settled",progress:transitioning?.5:1,cause:state.pattern,timeLabel:"선택한 입력 조건"}}/></CanvasFrame>
+      <ModelPanel title="가스교환 변수"><div className="space-y-4">
+        <PhysiologyControl label="FiO₂" value={inputs.fio2} min={.21} max={1} step={.01} displayValue={(inputs.fio2*100).toFixed(0)+"%"} hint="직접 입력은 0.21–1.00의 분율입니다." onChange={v=>update("fio2",v)}/>
+        <PhysiologyControl label="Respiratory rate" value={inputs.respiratoryRate} min={6} max={30} step={1} displayValue={inputs.respiratoryRate.toFixed(0)+"/min"} hint="Tidal volume·Dead space가 고정된 모델의 환기 대리변수입니다." onChange={v=>update("respiratoryRate",v)}/>
+        <PhysiologyControl label="V/Q 불균형 지수" value={inputs.vqMismatch} min={0} max={100} step={1} displayValue={inputs.vqMismatch.toFixed(0)+" / 100"} hint="교육용 강도 지수이며 병든 폐의 비율(%)이 아닙니다." onChange={v=>update("vqMismatch",v)}/>
+        <PhysiologyControl label="Shunt fraction" value={inputs.shuntFraction} min={0} max={.35} step={.01} displayValue={(inputs.shuntFraction*100).toFixed(0)+"%"} hint="직접 입력 0–0.35. 비환기 혈류를 Oxygen content 기준으로 혼합합니다." onChange={v=>update("shuntFraction",v)}/>
+        <VariableDisclosure open={open} onToggle={setOpen} summary="Hb · CO · pH · 연령">
+          <PhysiologyControl label="Hemoglobin" value={inputs.hemoglobin} min={5} max={20} step={.1} displayValue={inputs.hemoglobin.toFixed(1)+" g/dL"} hint="같은 포화도에서도 산소함량을 바꿉니다." onChange={v=>update("hemoglobin",v)}/>
+          <PhysiologyControl label="Cardiac output" value={inputs.cardiacOutput} min={1} max={12} step={.1} displayValue={inputs.cardiacOutput.toFixed(1)+" L/min"} hint="DO₂ 계산에 사용합니다. Mixed venous O₂의 자동 변화는 반영하지 않습니다." onChange={v=>update("cardiacOutput",v)}/>
+          <PhysiologyControl label="pH" value={inputs.pH} min={7.1} max={7.6} step={.01} displayValue={inputs.pH.toFixed(2)} hint="Bohr effect에 의한 P50 이동을 단순화합니다." onChange={v=>update("pH",v)}/>
+          <PhysiologyControl label="연령" value={inputs.age} min={18} max={90} step={1} displayValue={inputs.age.toFixed(0)+"세"} hint="A–a gradient의 비교 기준만 바꿉니다. 폐 구조의 노화 모델은 아닙니다." onChange={v=>update("age",v)}/>
+        </VariableDisclosure>
+        <button type="button" className="simulation-button w-full" onClick={()=>{setPreset("custom");animateTo({...inputs,fio2:1});}}>FiO₂ 100% 반응 보기</button>
+      </div></ModelPanel>
+    </section>
+    <section className="grid physiology-card sm:grid-cols-3 xl:grid-cols-6" aria-label="산소화 결과">
+      <PhysiologyMetric label="PaO₂" value={state.paO2.toFixed(0)+" mmHg"} status={"PAO₂ "+state.alveolarPO2.toFixed(0)}/>
+      <PhysiologyMetric label="SaO₂" value={state.saO2.toFixed(1)+"%"} status="Hb 포화율"/>
+      <PhysiologyMetric label="CaO₂" value={state.caO2.toFixed(1)+" mL/dL"} status="혈액당 산소함량"/>
+      <PhysiologyMetric label="DO₂" value={state.oxygenDelivery.toFixed(0)+" mL/min"} status="전신 공급량 추정"/>
+      <PhysiologyMetric label="PaCO₂" value={state.paCO2.toFixed(0)+" mmHg"} status="환기 지표"/>
+      <PhysiologyMetric label="A–a gradient" value={state.aaGradient.toFixed(0)+" mmHg"} status={"입력 조건별 근사 상한 "+state.expectedAaUpper.toFixed(0)}/>
+    </section>
+    <section className="physiology-card space-y-2" aria-live="polite"><h2 className="text-lg font-bold">{state.pattern}</h2><p className="text-sm leading-6">{state.explanation}</p><p className="text-sm leading-6">{state.oxygenResponse}</p><p className="scenario-notice">A–a 비교 상한 = (연령+10)/4 + (FiO₂−0.21)×60. 높은 FiO₂에서의 근사치로 진단 기준이 아닙니다.</p></section>
+    <MetricComparison busy={transitioning} snapshot={{label:condition,inputs:{...inputs,preset}}} onRestore={v=>{animateTo({fio2:Number(v.fio2),respiratoryRate:Number(v.respiratoryRate),vqMismatch:Number(v.vqMismatch),shuntFraction:Number(v.shuntFraction),hemoglobin:Number(v.hemoglobin),pH:Number(v.pH),cardiacOutput:Number(v.cardiacOutput),age:Number(v.age)},0);setPreset(String(v.preset));}} metrics={[{label:"PaO₂",value:state.paO2,normal:normal.paO2,unit:"mmHg"},{label:"SaO₂",value:state.saO2,normal:normal.saO2,unit:"%"},{label:"CaO₂",value:state.caO2,normal:normal.caO2,unit:"mL/dL"},{label:"DO₂",value:state.oxygenDelivery,normal:normal.oxygenDelivery,unit:"mL/min",digits:0}]}/>
+    <ClinicalScenarioPanel id={preset}/>
+    <GuidedExperiments experiments={experiments} activeScenario={preset} onApply={apply}/>
+  </div>;
 }

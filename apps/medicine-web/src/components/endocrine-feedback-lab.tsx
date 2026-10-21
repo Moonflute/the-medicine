@@ -1,42 +1,40 @@
 "use client";
-
-import { GuidedExperiments, MetricComparison } from "@/components/simulation-workbench";
-import { physiologyExperiments } from "@/lib/physiology-experiments";
-
 import { useMemo, useState } from "react";
-import { RefreshCcw } from "lucide-react";
-import { CanvasFrame, ModelPanel, PhysiologyControl, PhysiologyHeader, PhysiologyMetric, VariableDisclosure } from "@/components/physiology-ui";
+import { GuidedExperiments, MetricComparison, useSimulationClock } from "@/components/simulation-workbench";
+import { ClinicalScenarioPanel, useLearningExperiments } from "@/components/interactive-learning";
+import { CanvasFrame, ModelPanel, PhysiologyControl, PhysiologyHeader, PhysiologyMetric, PresetStrip } from "@/components/physiology-ui";
 import { EndocrineP5Canvas } from "@/components/endocrine-p5-canvas";
 import { calculateEndocrineState, ENDOCRINE_AXES, type EndocrineAxisId, type EndocrinePreset } from "@/lib/endocrine-model";
-
-const AXES: Array<{ id: EndocrineAxisId; label: string }> = [
-  { id: "thyroid", label: "갑상선 HPT" }, { id: "adrenal", label: "부신 HPA" }, { id: "gonadal", label: "난소 HPG" },
-  { id: "growth", label: "GH–IGF-1" }, { id: "adh", label: "ADH–삼투" }, { id: "pancreatic", label: "Glucose–Insulin" },
-];
-const PRESET_IDS: EndocrinePreset[] = ["normal", "primary-failure", "primary-excess", "pituitary-failure", "exogenous"];
-
-export function EndocrineFeedbackLab() {
-  const [axis, setAxis] = useState<EndocrineAxisId>("thyroid"); const [preset, setPreset] = useState<EndocrinePreset>("normal");
-  const [stimulus, setStimulus] = useState(100); const [feedback, setFeedback] = useState(100); const [exogenous, setExogenous] = useState(150); const [open, setOpen] = useState(false);
-  const definition = ENDOCRINE_AXES[axis]; const state = useMemo(() => calculateEndocrineState(axis, preset, stimulus, feedback, exogenous), [axis, preset, stimulus, feedback, exogenous]);
-  const selectAxis = (next: EndocrineAxisId) => { setAxis(next); setPreset("normal"); setOpen(false); setStimulus(100); setFeedback(100); setExogenous(150); };
-  const selectPreset = (next: EndocrinePreset) => { setPreset(next); setOpen(next === "exogenous"); };
+import { updateSimulationClock } from "@/lib/simulation-clock";
+const AXES:Array<{id:EndocrineAxisId;label:string}>=[{id:"thyroid",label:"HPT · Thyroid"},{id:"adrenal",label:"HPA · Adrenal"},{id:"gonadal",label:"HPG · Ovary"},{id:"growth",label:"GH–IGF-1"},{id:"adh",label:"Osmolality–ADH"},{id:"pancreatic",label:"Glucose–Insulin"}];
+const IDS:EndocrinePreset[]=["normal","primary-failure","primary-excess","pituitary-failure","exogenous"];
+export function EndocrineFeedbackLab(){
+  const [axis,setAxis]=useState<EndocrineAxisId>("thyroid"),[preset,setPreset]=useState<EndocrinePreset>("normal");
+  const [stimulus,setStimulus]=useState(100),[feedback,setFeedback]=useState(100),[exogenous,setExogenous]=useState(0),[modified,setModified]=useState(false);
+  const clock=useSimulationClock(),experiments=useLearningExperiments(axis+"-");
+  const definition=ENDOCRINE_AXES[axis],state=useMemo(()=>calculateEndocrineState(axis,preset,stimulus,feedback,exogenous),[axis,preset,stimulus,feedback,exogenous]),normal=calculateEndocrineState(axis,"normal");
+  const selectPreset=(next:EndocrinePreset)=>{setPreset(next);setStimulus(100);setFeedback(100);setExogenous(next==="exogenous"?100:0);setModified(false);updateSimulationClock(clock,{seconds:0});};
+  const selectAxis=(next:EndocrineAxisId)=>{setAxis(next);selectPreset("normal");};
+  const stimulusHint=axis==="pancreatic"?"Glucose 부하의 상대값입니다. g 단위 식사량은 아닙니다.":axis==="adh"?"Plasma osmolality를 올리는 상대적 수분 부족 자극입니다.":"선택한 축의 생리적 자극 강도입니다. 시각·주기·호르몬 반감기는 계산하지 않습니다.";
+  const feedbackLabel=axis==="pancreatic"?"Insulin sensitivity":axis==="adh"?"Osmotic response sensitivity":"Feedback sensitivity";
   return <div className="physiology-lab space-y-5">
-    <PhysiologyHeader title="내분비 호르몬 축" description="호르몬을 분비하는 기관과 표적기관의 확대도를 보면서 2–3단계 신호 전달, 측정 수치와 최종 산물의 음성 피드백이 질환별로 어떻게 바뀌는지 비교합니다." />
-    <div className="flex flex-wrap gap-2 border-b border-slate-200 pb-4" aria-label="내분비 축">{AXES.map((item) => <button type="button" key={item.id} onClick={() => selectAxis(item.id)} className={`rounded-md border px-3 py-2 text-xs font-semibold ${axis === item.id ? "border-teal-700 bg-teal-700 text-white" : "border-slate-300 bg-white"}`}>{item.label}</button>)}</div>
-    <div className="flex flex-wrap gap-2" aria-label={`${definition.title} 임상 프리셋`}>{PRESET_IDS.map((id) => <button type="button" key={id} onClick={() => selectPreset(id)} className={`rounded-md border px-3 py-2 text-xs font-semibold ${preset === id ? "border-amber-700 bg-amber-700 text-white" : "border-slate-300 bg-white"}`}>{definition.presetLabels[id]}</button>)}</div>
+    <PhysiologyHeader title="Endocrine feedback axes" description="호르몬의 분비, 표적기관 반응과 외인성 노출을 구분합니다. 축마다 다른 기전과 증상·검사 소견을 해당 상태의 노트에 연결합니다."/>
+    <div className="flex flex-wrap gap-2" aria-label="내분비 축">{AXES.map(a=><button key={a.id} type="button" className="simulation-button" aria-pressed={axis===a.id} onClick={()=>selectAxis(a.id)}>{a.label}</button>)}</div>
+    <PresetStrip presets={IDS.map(id=>({id,label:definition.presetLabels[id]}))} selected={preset} onSelect={id=>selectPreset(id as EndocrinePreset)} onReset={()=>selectPreset("normal")}/>
+    <p className="scenario-notice">값과 증감은 정상 모델 대비 방향입니다. 검사실 정상범위나 진단 기준이 아닙니다. 축·상태 선택 시 입력이 모두 초기화됩니다.</p>
     <section className="physiology-stage">
-      <CanvasFrame legend={<div className="flex flex-wrap gap-x-5 gap-y-2"><span><b className="text-teal-700">●</b> 1단계 상위 자극</span><span><b className="text-amber-700">●</b> 2단계 전달 호르몬</span><span><b className="text-rose-700">●</b> 3단계 표적기관 산물</span><span><b className="text-violet-700">T</b> 최종 산물의 억제 피드백</span></div>}><EndocrineP5Canvas state={state} /></CanvasFrame>
-      <ModelPanel title={`${definition.title} 변수`}><div className="space-y-4">
-        <PhysiologyControl label="생리적 입력 자극" value={stimulus} min={30} max={170} step={1} displayValue={`${stimulus}%`} hint="스트레스, 삼투질농도, 영양·성장·생식 신호의 상대적 입력입니다." onChange={setStimulus} />
-        <PhysiologyControl label="Feedback sensitivity" value={feedback} min={30} max={170} step={1} displayValue={`${feedback}%`} hint="최종 산물이 상위 단계에 가하는 억제 민감도입니다." onChange={setFeedback} />
-        <VariableDisclosure open={open} onToggle={setOpen} summary={`외인성 ${exogenous}%`}><PhysiologyControl label="외인성 최종 호르몬·작용" value={exogenous} min={0} max={180} step={1} displayValue={`${exogenous}%`} hint="외인성 프리셋에서 최종 효과와 상위 축 억제를 조절합니다." onChange={setExogenous} /></VariableDisclosure>
+      <CanvasFrame legend={<span>실선: 전방 자극 · 역방향 선: Feedback · 화살표 색과 입자는 상대적 신호입니다. HPG는 Negative feedback 구간만 계산합니다.</span>}><EndocrineP5Canvas state={state}/></CanvasFrame>
+      <ModelPanel title={definition.title+" 변수"}><div className="space-y-4">
+        <PhysiologyControl label={axis==="pancreatic"?"Glucose 부하":axis==="adh"?"삼투 자극":"생리적 입력 자극"} value={stimulus} min={30} max={170} step={1} displayValue={stimulus+"%"} hint={stimulusHint} onChange={v=>{setStimulus(v);setModified(true);}}/>
+        <PhysiologyControl label={feedbackLabel} value={feedback} min={30} max={170} step={1} displayValue={feedback+"%"} hint={axis==="pancreatic"?"같은 Insulin에 대한 표적조직 반응을 조절합니다.":"자극·장애가 있을 때 Feedback 반응을 조절합니다. 기준 평형 자체는 민감도를 바꿔도 유지될 수 있습니다."} onChange={v=>{setFeedback(v);setModified(true);}}/>
+        {(preset==="exogenous"||axis==="adh")?<PhysiologyControl label={axis==="adh"?"Desmopressin 추가 입력":"외인성 호르몬·작용"} value={exogenous} min={0} max={180} step={1} displayValue={exogenous+"%"} hint={axis==="adh"?"Central DI와 Nephrogenic DI에 같은 입력을 더해 반응을 비교하세요. 실제 투여 용량이 아닙니다.":"0%는 투여 없음입니다. %는 임상 약물 용량이나 혈중 농도가 아닙니다."} onChange={v=>{setExogenous(v);setModified(true);}}/>:<p className="text-xs text-[var(--muted)]">외인성 입력은 외인성 상태에서 조절할 수 있습니다.</p>}
       </div></ModelPanel>
     </section>
-    <GuidedExperiments key={`experiment-${axis}`} experiments={physiologyExperiments[axis === "adh" || axis === "pancreatic" ? axis : "endocrine"]} onApply={(id) => selectPreset(id as EndocrinePreset)} />
-    <MetricComparison key={`comparison-${axis}`} metrics={state.stages.map((stage, index) => ({label:stage.hormone,value:stage.value,normal:calculateEndocrineState(axis,"normal").stages[index].value,unit:stage.unit}))} />
-    <section className="grid rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-3">{state.stages.map((stage) => <PhysiologyMetric key={stage.id} label={`${stage.order} · ${stage.organLabel}`} value={`${stage.hormone} ${stage.value.toFixed(stage.value < 10 ? 1 : 0)} ${stage.unit}`} status={stage.status === "low" ? "감소" : stage.status === "high" ? "증가" : "기준 상태"} />)}</section>
-    <section className="rounded-md border border-amber-200 bg-amber-50 p-5"><div className="flex items-center gap-2 text-sm font-bold"><RefreshCcw className="h-4 w-4" />{state.pattern}</div><p className="mt-2 text-sm leading-6 text-slate-700">{state.explanation}</p><div className="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">{state.edges.map((edge) => <span key={`${edge.from}-${edge.to}`} className="border-l-2 border-slate-400 pl-2">{state.stages.find((stage) => stage.id === edge.from)?.hormone} {edge.kind === "inhibit" ? "억제" : "자극"} → {state.stages.find((stage) => stage.id === edge.to)?.hormone}</span>)}</div></section>
-    <p className="text-xs text-slate-500">대표 정상값을 기준으로 방향성을 설명하는 교육 모델입니다. 실제 해석은 채혈 시각, 월경주기, 결합단백, dynamic test, 약물과 검사실 기준범위를 함께 확인해야 합니다.</p>
+    <section className="grid physiology-card sm:grid-cols-3">{state.stages.map(stage=><PhysiologyMetric key={stage.id} label={stage.hormone} value={stage.value.toFixed(stage.value<10?2:1)+" "+(stage.unit==="relative"?"상대값":stage.unit)} status={stage.status==="low"?"정상 모델보다 낮음":stage.status==="high"?"정상 모델보다 높음":"정상 모델에 근접"}/>)}</section>
+    {state.effects.length>0&&<section className="grid physiology-card gap-3 sm:grid-cols-2" aria-label="외인성과 총 작용 구분">{state.effects.map(e=><div key={e.label}><h2 className="text-sm font-semibold">{e.label}</h2><p className="mt-1 font-mono">{e.value.toFixed(1)} {e.unit}</p></div>)}</section>}
+    <section className="physiology-card space-y-2" aria-live="polite"><h2 className="text-lg font-bold">{state.pattern}{modified?" · 입력 변경":""}</h2><p className="text-sm leading-6">{state.explanation}</p></section>
+    <MetricComparison key={axis} snapshot={{label:`${definition.presetLabels[preset]} · 자극 ${stimulus}% · ${feedbackLabel} ${feedback}% · 외인성 ${exogenous}%`,inputs:{preset,stimulus,feedback,exogenous,modified}}} onRestore={v=>{setPreset(v.preset as EndocrinePreset);setStimulus(Number(v.stimulus));setFeedback(Number(v.feedback));setExogenous(Number(v.exogenous));setModified(Boolean(v.modified));}} metrics={state.stages.map((s,i)=>({label:definition.stages[i].hormone,value:s.value,normal:normal.stages[i].value,unit:s.unit==="relative"?"상대값":s.unit,digits:s.value<10?2:1}))}/>
+    <ClinicalScenarioPanel id={axis+"-"+preset} modified={modified}/>
+    <GuidedExperiments key={axis} experiments={experiments} activeScenario={modified?"custom":preset} onApply={id=>selectPreset(id as EndocrinePreset)}/>
   </div>;
 }

@@ -1,7 +1,9 @@
 "use client";
 
 import { GuidedExperiments, MetricComparison } from "@/components/simulation-workbench";
-import { physiologyExperiments } from "@/lib/physiology-experiments";
+import { ClinicalScenarioPanel, useLearningExperiments } from "@/components/interactive-learning";
+import { useSimulationClock } from "@/components/simulation-workbench";
+import { updateSimulationClock } from "@/lib/simulation-clock";
 
 import { useMemo, useState } from "react";
 import { Droplets } from "lucide-react";
@@ -23,14 +25,15 @@ const PRESETS = [
 const SOLUTES: NephronSolute[] = ["Na+", "K+", "Cl-", "HCO3-", "Ca2+", "Mg2+", "H2O"];
 
 export function NephronElectrolyteLab() {
-  const { inputs, update: updateModel, animateTo } = useAnimatedModel(NORMAL); const state = useMemo(() => calculateNephronState(inputs), [inputs]);
+  const { inputs, update: updateModel, animateTo, transitioning } = useAnimatedModel(NORMAL); const state = useMemo(() => calculateNephronState(inputs), [inputs]);
   const [solute, setSolute] = useState<NephronSolute>("Na+"); const [selected, setSelected] = useState<NephronSegmentId>("proximal"); const [open, setOpen] = useState(false); const segment = getNephronSegment(state, selected);
   const [presetId, setPresetId] = useState("normal");
+  const experiments=useLearningExperiments(), clock=useSimulationClock();
   const update = (key: keyof NephronInputs, value: number) => { setPresetId("custom"); updateModel(key,value); };
   const normal = calculateNephronState(NORMAL);
-  const applyPreset = (id: string) => { const preset = PRESETS.find((item) => item.id === id)!; setPresetId(id); const segmentByPreset: Record<string, NephronSegmentId> = { loop: "thick-ascending", thiazide: "distal", enac: "collecting", ca: "proximal", siadh: "collecting", dehydration: "collecting", normal: "proximal" }; setSelected(segmentByPreset[id]); setSolute(id === "siadh" || id === "dehydration" ? "H2O" : id === "ca" ? "HCO3-" : "Na+"); setOpen(["loop", "thiazide", "enac", "ca"].includes(id)); animateTo(preset.values); };
+  const applyPreset = (id: string) => { const preset = PRESETS.find((item) => item.id === id)!; setPresetId(id); const segmentByPreset: Record<string, NephronSegmentId> = { loop: "thick-ascending", thiazide: "distal", enac: "collecting", ca: "proximal", siadh: "collecting", dehydration: "collecting", normal: "proximal" }; setSelected(segmentByPreset[id]); setSolute(id === "siadh" || id === "dehydration" ? "H2O" : id === "ca" ? "HCO3-" : "Na+"); setOpen(["loop", "thiazide", "enac", "ca"].includes(id)); animateTo(preset.values);updateSimulationClock(clock,{seconds:0}); };
   return <div className="physiology-lab space-y-5">
-    <PhysiologyHeader title="네프론 전해질 수송" description="통상적인 네프론 구조에서 선택한 분절을 확대해 관강, 상피세포, 간질과 모세혈관 사이의 apical·basolateral 수송체를 직접 확인합니다." links={[{ href: "/interactive/acid-base-balance", label: "산-염기 균형" }]} />
+    <PhysiologyHeader title="Nephron and electrolyte handling" description="통상적인 네프론 구조에서 선택한 분절을 확대해 관강, 상피세포, 간질과 모세혈관 사이의 apical·basolateral 수송체를 직접 확인합니다." links={[{ href: "/interactive/acid-base-balance", label: "산-염기 균형" }]} />
     <PresetStrip selected={presetId} presets={PRESETS} onSelect={applyPreset} onReset={() => applyPreset("normal")} />
     <div className="flex flex-wrap gap-2" aria-label="추적할 용질">{SOLUTES.map((item) => <button type="button" key={item} aria-pressed={item === solute} onClick={() => setSolute(item)} className={`rounded-md border px-3 py-2 text-xs font-semibold ${item === solute ? "border-teal-700 bg-teal-700 text-white" : "border-slate-300 bg-white text-slate-700"}`}>{item}</button>)}</div>
     <section className="physiology-stage">
@@ -48,11 +51,13 @@ export function NephronElectrolyteLab() {
       </div></ModelPanel>
     </section>
     <section aria-label={`${solute} 분절별 처리 프로파일`} className="overflow-x-auto rounded-md border border-slate-300 bg-[#f8faf9] p-4">
-      <div className="grid min-w-[760px] grid-cols-7 gap-2">{state.segments.map((item) => { const handled = item.handled[solute]; return <button type="button" key={item.id} onClick={() => setSelected(item.id)} className={`border-l-4 p-3 text-left ${item.id === selected ? "border-teal-700 bg-teal-50" : "border-slate-300 bg-white"}`}><span className="block text-xs font-bold text-slate-900">{item.shortLabel}</span><span className="mt-2 block font-mono text-xs text-slate-600">도달 {item.delivered[solute].toFixed(1)}%</span><span className={`mt-1 block font-mono text-xs ${handled < 0 ? "text-rose-700" : "text-teal-800"}`}>{handled < 0 ? "분비" : "재흡수"} {Math.abs(handled).toFixed(1)}%</span></button>; })}</div>
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 xl:grid-cols-7">{state.segments.map((item) => { const handled = item.handled[solute]; return <button type="button" key={item.id} aria-pressed={item.id===selected} onClick={() => setSelected(item.id)} className={`border-l-4 p-3 text-left ${item.id === selected ? "border-teal-700 bg-teal-50" : "border-slate-300 bg-white"}`}><span className="block text-xs font-bold text-slate-900">{item.shortLabel}</span><span className="mt-2 block font-mono text-xs text-slate-600">도달 {item.delivered[solute].toFixed(1)}%</span><span className={`mt-1 block font-mono text-xs ${handled < 0 ? "text-rose-700" : "text-teal-800"}`}>{handled < 0 ? "분비" : "재흡수"} {Math.abs(handled).toFixed(1)}%</span></button>; })}</div>
     </section>
-    <GuidedExperiments experiments={physiologyExperiments.nephron} onApply={applyPreset} />
-    <MetricComparison key={solute} metrics={[{label: `${solute} 배설`,value:state.excreted[solute],normal:normal.excreted[solute],unit:"%"},{label:"소변량",value:state.urineVolume,normal:normal.urineVolume,unit:"L/d"},{label:"K 배설",value:state.potassiumExcretion,normal:normal.potassiumExcretion,unit:"%"},{label:"소변 삼투질농도",value:state.urineOsmolality,normal:normal.urineOsmolality,unit:"mOsm/kg",digits:0}]} />
-    <section className="grid rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-4"><PhysiologyMetric label={`${solute} excreted`} value={`${state.excreted[solute].toFixed(1)}%`} status="여과 부하 대비" /><PhysiologyMetric label="Urine volume" value={`${state.urineVolume.toFixed(1)} L/d`} status="교육용 추정" /><PhysiologyMetric label="K excreted" value={`${state.potassiumExcretion.toFixed(1)}%`} status="여과 부하 대비" /><PhysiologyMetric label="Urine osm" value={`${state.urineOsmolality.toFixed(0)} mOsm/kg`} status="농축능 추정" /></section>
+    <ClinicalScenarioPanel id={presetId}/>
+    <ClinicalScenarioPanel id={"segment-"+selected}/>
+    <GuidedExperiments experiments={experiments} activeScenario={presetId} onApply={applyPreset} />
+    <MetricComparison key={solute} busy={transitioning} snapshot={{label:`GFR ${inputs.gfr.toFixed(0)}% · ADH ${inputs.adh.toFixed(0)} · Aldosterone ${inputs.aldosterone.toFixed(0)} · NKCC2 ${inputs.loopBlock.toFixed(0)} · NCC ${inputs.thiazideBlock.toFixed(0)} · ENaC ${inputs.enacBlock.toFixed(0)} · CA ${inputs.carbonicAnhydraseBlock.toFixed(0)} · ${solute}`,inputs:{...inputs,presetId,selected}}} onRestore={v=>{animateTo({gfr:Number(v.gfr),adh:Number(v.adh),aldosterone:Number(v.aldosterone),loopBlock:Number(v.loopBlock),thiazideBlock:Number(v.thiazideBlock),enacBlock:Number(v.enacBlock),carbonicAnhydraseBlock:Number(v.carbonicAnhydraseBlock)},0);setPresetId(String(v.presetId));setSelected(v.selected as NephronSegmentId);}} metrics={[{label: `${solute} 배설`,value:state.excreted[solute],normal:normal.excreted[solute],unit:"%"},{label:"소변량",value:state.urineVolume,normal:normal.urineVolume,unit:"L/d"},{label:"K 배설",value:state.potassiumExcretion,normal:normal.potassiumExcretion,unit:"%"},{label:"소변 삼투질농도",value:state.urineOsmolality,normal:normal.urineOsmolality,unit:"mOsm/kg",digits:0}]} />
+    <section className="grid rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-4"><PhysiologyMetric label={`${solute} 배설`} value={`${state.excreted[solute].toFixed(1)}%`} status="여과 부하 대비" /><PhysiologyMetric label="소변량" value={`${state.urineVolume.toFixed(1)} L/d`} status="교육용 추정" /><PhysiologyMetric label="K⁺ 배설" value={`${state.potassiumExcretion.toFixed(1)}%`} status="여과 부하 대비" /><PhysiologyMetric label="Urine osm" value={`${state.urineOsmolality.toFixed(0)} mOsm/kg`} status="농축능 추정" /></section>
     <section className="rounded-md border border-teal-200 bg-teal-50 p-5"><div className="flex items-center gap-2 text-sm font-bold"><Droplets className="h-4 w-4" />{state.pattern}</div><h2 className="mt-2 text-lg font-bold">{segment.label}: {solute}</h2><p className="mt-2 text-sm leading-6 text-slate-700">{segment.note} 이 분절에는 {segment.routes.filter((route) => route.solute === solute).map((route) => [route.apical, route.basolateral].filter(Boolean).join(" → ") || route.path).join(", ") || "주요 순이동 경로 없음"}이 표시됩니다.</p></section>
     <p className="text-xs leading-5 text-slate-500">분절별 정상 여과부하 처리율을 이용한 교육 모델입니다. 실제 배설은 섭취량, 혈류, 산염기 상태, nephron 적응과 약물 병용에 따라 달라집니다.</p>
   </div>;

@@ -1,0 +1,48 @@
+/* Scoped theme-safe workspace; keep scientific canvases on their own light drawing surface. */
+.physiology-workbench { color: var(--foreground); }
+.physiology-workbench .physiology-stage { display:grid; grid-template-columns:minmax(0,1fr); gap:1rem; align-items:start; }
+.physiology-workbench :is(.simulation-frame,.simulation-playback,.simulation-view-toolbar,.simulation-legend,.simulation-comparison,.guided-experiment,.physiology-stage>aside,.physiology-card) { background:var(--surface); color:var(--foreground); border-color:var(--line); }
+.physiology-workbench :is(.simulation-button,.simulation-primary) { background:var(--surface); color:var(--foreground); border-color:var(--line); min-height:44px; }
+.physiology-workbench :is(.simulation-primary,.simulation-button.is-selected,button[aria-pressed="true"]) { background:var(--primary-strong); color:white; border-color:var(--primary-strong); }
+.physiology-workbench button:not(:disabled):hover { outline:2px solid var(--primary); outline-offset:1px; }
+.physiology-workbench :is(button,input,select,a):focus-visible { outline:3px solid var(--primary); outline-offset:3px; }
+.physiology-workbench :is(select,input[type="number"]) { color:var(--foreground); background:var(--surface-subtle); border:1px solid var(--line); border-radius:.5rem; padding:.45rem; }
+.physiology-number { width:5.5rem; min-height:40px; font-variant-numeric:tabular-nums; }
+.physiology-control { border-bottom:1px solid var(--line); padding-bottom:1rem; }
+.physiology-control:last-child { border-bottom:0; }
+.physiology-workbench .simulation-viewport { max-height:70vh; background:#edf2f1; }
+.physiology-workbench .simulation-viewport canvas { display:block; }
+.physiology-workbench .physiology-lab:fullscreen { overflow:auto; background:var(--background); color:var(--foreground); padding:1.25rem; }
+.physiology-workbench .physiology-lab:fullscreen .physiology-stage { margin-top:1rem; }
+.physiology-workbench .physiology-stage>aside { position:static; }
+.physiology-workbench .physiology-stage>aside>.space-y-4 { display:block; }
+.physiology-workbench .physiology-stage>aside>.space-y-4>*+* { margin-top:1rem; }
+.physiology-workbench .physiology-card { border:1px solid var(--line); border-radius:.8rem; padding:1rem; }
+.physiology-learning-grid { display:grid; gap:1rem; }
+.physiology-learning-grid ul { list-style:disc; margin:.75rem 0 0; padding-left:1.25rem; }
+.physiology-learning-grid li+li { margin-top:.6rem; }
+.physiology-workbench .physiology-related { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.75rem; }
+.physiology-workbench .physiology-related a { border:1px solid var(--line); border-radius:.5rem; padding:.5rem .65rem; text-decoration:underline; text-underline-offset:3px; }
+.physiology-workbench .scenario-notice { border-left:3px solid var(--primary); padding-left:.8rem; color:var(--muted); font-size:.8rem; line-height:1.7; }
+.physiology-workbench .comparison-plot { width:100%; height:6rem; color:var(--primary); }
+@media(min-width:1024px) {
+  .physiology-workbench .physiology-stage { grid-template-columns:minmax(0,1fr) 300px; }
+  .physiology-workbench .physiology-stage>aside { position:sticky; top:1rem; max-height:85vh; overflow:auto; }
+  .physiology-learning-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+}
+@media(max-width:767px) {
+  .physiology-workbench .simulation-view-toolbar { flex-wrap:wrap; padding:.75rem; }
+  .physiology-workbench .simulation-playback,.physiology-workbench .simulation-legend { padding:.75rem; }
+  .physiology-workbench .physiology-stage>aside { padding:1rem; }
+  .physiology-workbench .simulation-viewport { max-height:65vh; }
+}
+/* Override legacy fixed light fills, including nested endocrine cards. */
+html[data-theme] .physiology-workbench :is(.bg-white,.bg-white\/85,.bg-\[\#f8faf9\],.bg-\[\#f7f9f8\],.bg-\[\#f5f7f6\],.bg-\[\#edf2f1\],.bg-amber-50,.bg-teal-50,.bg-rose-50,.bg-violet-50,.bg-violet-100) { background:var(--surface); color:var(--foreground); }
+html[data-theme] .physiology-workbench :is(.text-teal-800,.text-teal-900,.text-teal-700,.text-violet-700,.text-violet-900,.text-rose-700,.text-amber-700) { color:var(--primary); }
+html[data-theme] .physiology-workbench [aria-live="polite"],html[data-theme] .physiology-workbench .simulation-comparison>div>div { background:var(--surface); color:var(--foreground); border-color:var(--line); }
+html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:var(--primary-strong); color:white; }
+.physiology-workbench button:disabled { opacity:.55; cursor:not-allowed; }
+.physiology-workbench button { min-height:40px; }
+.physiology-workbench .physiology-card section h3 { color:var(--primary); }
+.physiology-workbench [aria-label="노트 목차"] a { padding:.45rem; }
+@media(prefers-reduced-motion:reduce) { .physiology-workbench * { scroll-behavior:auto; transition:none!important; } }

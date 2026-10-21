@@ -5,6 +5,8 @@ export type OxygenationInputs = {
   shuntFraction: number;
   hemoglobin: number;
   pH: number;
+  cardiacOutput?: number;
+  age?: number;
 };
 
 export type OxygenationState = OxygenationInputs & {
@@ -20,6 +22,8 @@ export type OxygenationState = OxygenationInputs & {
   pattern: string;
   explanation: string;
   oxygenResponse: string;
+  oxygenDelivery: number;
+  expectedAaUpper: number;
 };
 
 const SEA_LEVEL_PRESSURE = 760;
@@ -27,7 +31,7 @@ const WATER_VAPOR_PRESSURE = 47;
 const RESPIRATORY_QUOTIENT = 0.8;
 const BASELINE_RR = 14;
 const OXYGEN_BINDING_CAPACITY = 1.34;
-const DISSOLVED_OXYGEN_COEFFICIENT = 0.003;
+const DISSOLVED_OXYGEN_COEFFICIENT = 0.0031;
 
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
 
@@ -60,6 +64,8 @@ export function calculateOxygenationState(raw: OxygenationInputs): OxygenationSt
   const shuntFraction = clamp(raw.shuntFraction, 0, 0.35);
   const hemoglobin = clamp(raw.hemoglobin, 5, 20);
   const pH = clamp(raw.pH, 7.1, 7.6);
+  const cardiacOutput = clamp(raw.cardiacOutput ?? 5, 1, 12);
+  const age = clamp(raw.age ?? 40, 18, 90);
 
   const paCO2 = clamp(40 * (BASELINE_RR / respiratoryRate), 18, 90);
   const alveolarPO2 = Math.max(25, fio2 * (SEA_LEVEL_PRESSURE - WATER_VAPOR_PRESSURE) - paCO2 / RESPIRATORY_QUOTIENT);
@@ -77,7 +83,9 @@ export function calculateOxygenationState(raw: OxygenationInputs): OxygenationSt
   const aaGradient = Math.max(0, alveolarPO2 - paO2);
   const caO2 = oxygenContent(paO2, hemoglobin, p50);
 
-  const status = saO2 < 90 || paO2 < 60 ? "critical" : paO2 < 80 || aaGradient > 20 || caO2 < 16 ? "impaired" : "adequate";
+  const oxygenDelivery = caO2 * cardiacOutput * 10;
+  const expectedAaUpper = (age + 10) / 4 + (fio2 - .21) * 60;
+  const status = saO2 < 90 || paO2 < 60 ? "critical" : paO2 < 80 || aaGradient > expectedAaUpper || caO2 < 16 ? "impaired" : "adequate";
   let pattern = "보존된 산소화와 산소함량";
   let explanation = "폐포 산소가 폐모세혈관으로 전달되고 hemoglobin 농도도 충분한 범위입니다.";
 
@@ -96,6 +104,9 @@ export function calculateOxygenationState(raw: OxygenationInputs): OxygenationSt
   } else if (status === "critical") {
     pattern = "중증 산소화 저하 패턴";
     explanation = "PaO2 또는 SaO2가 낮습니다. 실제 임상에서는 측정 조건과 환자 상태를 즉시 함께 평가해야 합니다.";
+  } else if (status === "impaired") {
+    pattern = "산소화·산소함량의 제한 요소 확인";
+    explanation = "PaO₂, CaO₂ 또는 입력 조건별 A–a 기준에서 벗어난 항목이 있습니다. 단일 지표로 원인이나 중증도를 확정하지 않습니다.";
   }
 
   const oxygenResponse = shuntFraction >= 0.15
@@ -111,6 +122,10 @@ export function calculateOxygenationState(raw: OxygenationInputs): OxygenationSt
     shuntFraction,
     hemoglobin,
     pH,
+    age,
+    cardiacOutput,
+    oxygenDelivery,
+    expectedAaUpper,
     paCO2,
     alveolarPO2,
     endCapillaryPO2,

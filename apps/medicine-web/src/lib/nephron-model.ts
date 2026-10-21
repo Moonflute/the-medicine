@@ -58,11 +58,11 @@ type SegmentDefinition = Omit<NephronSegment, "delivered" | "handled" | "remaini
 
 const DEFINITIONS: SegmentDefinition[] = [
   {
-    id: "glomerulus", label: "사구체", shortLabel: "Glomerulus", region: "cortex", permeability: "크기·전하 선택성 여과", note: "혈장 수분과 작은 용질이 Bowman 공간으로 함께 여과됩니다.", baseHandling: {},
+    id: "glomerulus", label: "Glomerulus", shortLabel: "Glomerulus", region: "cortex", permeability: "크기·전하 선택성 여과", note: "혈장 수분과 작은 용질이 Bowman 공간으로 함께 여과됩니다.", baseHandling: {},
     routes: SOLUTES.map((solute) => ({ id: `filter-${solute}`, solute, direction: "filter", path: "filtration", detail: "사구체 모세혈관에서 Bowman 공간으로 여과" })),
   },
   {
-    id: "proximal", label: "근위세뇨관", shortLabel: "PCT", region: "cortex", permeability: "높은 물·용질 투과성", note: "등장성 대량 재흡수와 여과 HCO3- 회수가 일어납니다.",
+    id: "proximal", label: "Proximal tubule", shortLabel: "PCT", region: "cortex", permeability: "높은 물·용질 투과성", note: "등장성 대량 재흡수와 여과 HCO3- 회수가 일어납니다.",
     baseHandling: { "Na+": 65, "K+": 65, "Cl-": 65, "HCO3-": 80, "Ca2+": 65, "Mg2+": 15, H2O: 65 },
     routes: [
       { id: "pct-na", solute: "Na+", direction: "reabsorb", path: "transcellular", apical: "NHE3 · SGLT2", basolateral: "Na+/K+-ATPase", detail: "Na+ 유입이 glucose와 H+ 수송을 구동" },
@@ -75,21 +75,21 @@ const DEFINITIONS: SegmentDefinition[] = [
     ],
   },
   {
-    id: "descending", label: "얇은 하행각", shortLabel: "Thin descending", region: "inner-medulla", permeability: "물 투과성 높음 · 염류 낮음", note: "고삼투성 수질 간질로 물이 빠져나가 관강액이 농축됩니다.", baseHandling: { H2O: 15 },
+    id: "descending", label: "Thin descending limb", shortLabel: "Thin descending", region: "inner-medulla", permeability: "물 투과성 높음 · 염류 낮음", note: "고삼투성 수질 간질로 물이 빠져나가 관강액이 농축됩니다.", baseHandling: { H2O: 15 },
     routes: [{ id: "desc-water", solute: "H2O", direction: "reabsorb", path: "water-channel", apical: "AQP1", basolateral: "AQP1", detail: "수질 삼투기울기를 따라 물이 간질·vasa recta로 이동" }],
   },
   {
-    id: "thin-ascending", label: "얇은 상행각", shortLabel: "Thin ascending", region: "inner-medulla", permeability: "물 불투과 · 수동 NaCl 이동", note: "물은 남고 NaCl이 수동적으로 빠져나가 희석이 시작됩니다.", baseHandling: { "Na+": 2, "Cl-": 2 },
+    id: "thin-ascending", label: "Thin ascending limb", shortLabel: "Thin ascending", region: "inner-medulla", permeability: "물 불투과 · 수동 NaCl 이동", note: "물은 남고 NaCl이 수동적으로 빠져나가 희석이 시작됩니다.", baseHandling: { "Na+": 2, "Cl-": 2 },
     routes: [
       { id: "thin-na", solute: "Na+", direction: "reabsorb", path: "paracellular", detail: "농축된 관강액에서 수질 간질로 수동 이동" },
       { id: "thin-cl", solute: "Cl-", direction: "reabsorb", path: "transcellular", apical: "ClC-K1", basolateral: "ClC-K1", detail: "수동 Cl- 투과가 NaCl 회수를 돕음" },
     ],
   },
   {
-    id: "thick-ascending", label: "굵은 상행각", shortLabel: "TAL", region: "outer-medulla", permeability: "물 불투과 · 능동 염류 수송", note: "NKCC2가 Na-K-2Cl을 회수하고 ROMK 재순환이 양성 관강전위를 만듭니다.", baseHandling: { "Na+": 23, "K+": 25, "Cl-": 23, "HCO3-": 10, "Ca2+": 25, "Mg2+": 70 },
+    id: "thick-ascending", label: "Thick ascending limb", shortLabel: "TAL", region: "outer-medulla", permeability: "물 불투과 · 능동 염류 수송", note: "NKCC2가 Na-K-2Cl을 회수하고 ROMK 재순환이 양성 관강전위를 만듭니다.", baseHandling: { "Na+": 23, "K+": 25, "Cl-": 23, "HCO3-": 10, "Ca2+": 25, "Mg2+": 70 },
     routes: [
       { id: "tal-na", solute: "Na+", direction: "reabsorb", path: "transcellular", apical: "NKCC2", basolateral: "Na+/K+-ATPase", coupled: "K+ · 2Cl-", detail: "loop 이뇨제의 주 표적" },
-      { id: "tal-k", solute: "K+", direction: "reabsorb", path: "transcellular", apical: "NKCC2", basolateral: "Na+/K+-ATPase", detail: "NKCC2로 유입된 K+ 일부가 혈측으로 이동" },
+      { id: "tal-k", solute: "K+", direction: "reabsorb", path: "paracellular", coupled: "lumen-positive voltage", detail: "ROMK 재순환으로 형성된 lumen-positive voltage가 K+의 paracellular 회수를 돕습니다. Na+/K+-ATPase는 K+를 혈측에서 세포 안으로 운반합니다." },
       { id: "tal-k-recycle", solute: "K+", direction: "recycle", path: "transcellular", apical: "ROMK", detail: "K+를 관강으로 되돌려 NKCC2와 양성 관강전위를 유지" },
       { id: "tal-cl", solute: "Cl-", direction: "reabsorb", path: "transcellular", apical: "NKCC2", basolateral: "ClC-Kb", coupled: "Na+ · K+", detail: "NKCC2로 유입 후 basolateral ClC-Kb로 유출" },
       { id: "tal-ca", solute: "Ca2+", direction: "reabsorb", path: "paracellular", coupled: "lumen-positive voltage", detail: "ROMK가 만든 양성 관강전위에 의해 세포 사이 이동" },
@@ -98,7 +98,7 @@ const DEFINITIONS: SegmentDefinition[] = [
     ],
   },
   {
-    id: "distal", label: "원위곡세뇨관", shortLabel: "DCT", region: "cortex", permeability: "물 불투과 · 선택적 NaCl/Ca/Mg", note: "NCC가 NaCl을 회수하고 TRPV5와 TRPM6가 Ca2+·Mg2+를 선택적으로 조절합니다.", baseHandling: { "Na+": 5, "Cl-": 5, "Ca2+": 8, "Mg2+": 10 },
+    id: "distal", label: "Distal convoluted tubule", shortLabel: "DCT", region: "cortex", permeability: "물 불투과 · 선택적 NaCl/Ca/Mg", note: "NCC가 NaCl을 회수하고 TRPV5와 TRPM6가 Ca2+·Mg2+를 선택적으로 조절합니다.", baseHandling: { "Na+": 5, "Cl-": 5, "Ca2+": 8, "Mg2+": 10 },
     routes: [
       { id: "dct-na", solute: "Na+", direction: "reabsorb", path: "transcellular", apical: "NCC", basolateral: "Na+/K+-ATPase", coupled: "Cl-", detail: "thiazide의 주 표적" },
       { id: "dct-cl", solute: "Cl-", direction: "reabsorb", path: "transcellular", apical: "NCC", basolateral: "ClC-Kb", coupled: "Na+", detail: "NCC와 함께 전기중성 NaCl 회수" },
@@ -129,7 +129,8 @@ function segmentModifier(id: NephronSegmentId, solute: NephronSolute, inputs: Ne
     const distalFlow = 1 + (inputs.loopBlock + inputs.thiazideBlock) / 250;
     return (0.35 + inputs.aldosterone / 100 * 1.15) * distalFlow * (1 - inputs.enacBlock / 100 * 0.85);
   }
-  if (id === "collecting" && solute === "H2O") return 0.55 + inputs.adh / 100 * 0.9;
+  if (id === "descending" && solute === "H2O") return 1 - inputs.loopBlock / 100 * 0.5;
+  if (id === "proximal" && solute === "H2O") return 1 - inputs.carbonicAnhydraseBlock / 100 * 0.1;
   return 1;
 }
 
@@ -144,14 +145,26 @@ export function calculateNephronState(raw: NephronInputs): NephronState {
     const delivered = { ...remaining }; const handled = emptySolutes(); const activity = emptySolutes();
     for (const solute of SOLUTES) {
       const base = definition.baseHandling[solute] ?? 0; const modifier = segmentModifier(definition.id, solute, inputs);
-      handled[solute] = base * modifier; activity[solute] = base === 0 ? 0 : clamp(Math.abs(modifier) * 100, 0, 180);
-      remaining[solute] = clamp(remaining[solute] - handled[solute], 0.05, 160);
+      let requested = base * modifier;
+      if (definition.id === "collecting" && solute === "H2O") {
+        const gradient = 1 - inputs.loopBlock / 100 * 0.65;
+        const osmoticRetention = Math.min(.12, Math.max(0, remaining["Na+"] - 1.4) * .002 + Math.max(0, remaining["HCO3-"] - 3) * .0005);
+        const unrecoveredFraction = .45 * Math.exp(-inputs.adh / 22.756) / gradient + osmoticRetention;
+        const fraction = 1 - unrecoveredFraction;
+        requested = delivered.H2O * clamp(fraction, 0, 0.985);
+      }
+      // Every number is a percentage of the original filtered load, not of the previous segment.
+      handled[solute] = requested >= 0 ? Math.min(delivered[solute], requested) : requested;
+      activity[solute] = base === 0 ? 0 : clamp(Math.abs(handled[solute] / base) * 100, 0, 180);
+      remaining[solute] = delivered[solute] - handled[solute];
     }
     return { ...definition, delivered, handled, remaining: { ...remaining }, activity };
   });
   const excreted = { ...remaining }; const filteredWaterLiters = 180 * inputs.gfr / 100;
-  const urineVolume = clamp(filteredWaterLiters * excreted.H2O / 100, 0.35, 30); const sodiumExcretion = excreted["Na+"]; const potassiumExcretion = excreted["K+"];
-  const concentratingIntegrity = 1 - inputs.loopBlock / 100 * 0.65; const urineOsmolality = clamp(70 + inputs.adh * 10.5 * concentratingIntegrity, 50, 1200);
+  const urineVolume = filteredWaterLiters * excreted.H2O / 100; const sodiumExcretion = excreted["Na+"]; const potassiumExcretion = excreted["K+"];
+  // Illustrative osmole load; this is not a prediction of a patient's urine chemistry.
+  const osmoleLoad = 600 * inputs.gfr / 100 + Math.max(0, sodiumExcretion - 1.4) * 25 + Math.max(0, excreted["HCO3-"] - 3) * 10;
+  const urineOsmolality = osmoleLoad / Math.max(0.01, urineVolume);
   let pattern = "정상 분절별 수송과 최종 미세조정";
   if (inputs.loopBlock > 35) pattern = "NKCC2 억제 · NaCl/Ca/Mg 회수와 수질 농축기울기 감소";
   else if (inputs.thiazideBlock > 35) pattern = "NCC 억제 · NaCl 배설 증가와 Ca2+ 회수 증가";

@@ -4,6 +4,39 @@ export type EcgState = { rhythm: RhythmId; rate: number; atrialRate: number; ven
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
 const pushPair = (events: EcgEvent[], atrialTime: number, pr: number, conducted = true, qrsWidth = 0.09) => { events.push({ time: atrialTime, type: "atrial", conducted, width: 0.07, amplitude: 1 }); if (conducted) events.push({ time: atrialTime + pr, type: "ventricular", conducted: true, width: qrsWidth, amplitude: 1 }); };
 
+export function ecgRateControl(rhythm: RhythmId) {
+  if (rhythm === "flutter") return { label: "AV conduction ratio", min: 2, max: 4, hint: "Atrial rate 300/min을 고정하고 2:1, 3:1, 4:1 전도를 비교합니다." };
+  if (rhythm === "complete") return { label: "Ventricular escape rate", min: 30, max: 45, hint: "Atrial rate 85/min과 독립적인 Ventricular escape입니다." };
+  if (rhythm === "vt") return { label: "Ventricular rate", min: 140, max: 190, hint: "단순 Monomorphic VT의 심실 박동수입니다." };
+  if (rhythm === "af") return { label: "평균 Ventricular rate", min: 30, max: 190, hint: "평균 목표값입니다. 짧은 8초 창에서 센 박동수와는 다를 수 있습니다." };
+  return { label: "Atrial rate", min: rhythm === "tachy" ? 110 : 30, max: rhythm === "brady" ? 55 : 190, hint: "Mobitz에서는 이 Atrial rate에서 비전도 박동을 제외해 Ventricular rate를 계산합니다." };
+}
+
+/** Synthetic single-lead signal in mV. Event times are wave ONSETS. */
+export function ecgSignalAt(time: number, state: EcgState) {
+  let value = 0;
+  for (const event of state.events) {
+    const dt = time - event.time;
+    if (event.type === "atrial") {
+      if (state.rhythm === "af") value += .025 * Math.sin(64 * time + event.time) * Math.exp(-Math.abs(dt) * 25);
+      else if (state.rhythm === "flutter" && dt >= 0 && dt < .2) value += .18 * (dt / .2 - .5);
+      else if (dt >= 0 && dt < event.width) value += .12 * Math.sin(dt / event.width * Math.PI);
+    } else {
+      if (dt >= 0 && dt < event.width) {
+        const q = dt / event.width;
+        if (state.rhythm === "vt") value += Math.sin(q * Math.PI * 2) * event.amplitude;
+        else value += q < .2 ? -.15 * q / .2 : q < .45 ? -.15 + 1.15 * (q - .2) / .25 : q < .7 ? 1 - 1.25 * (q - .45) / .25 : -.25 + .25 * (q - .7) / .3;
+      }
+      if (state.rhythm !== "vt" && dt > .2 && dt < .42) value += .25 * Math.sin((dt - .2) / .22 * Math.PI);
+    }
+  }
+  return value;
+}
+
+export function measureEcgInterval(state: EcgState, first: number, second: number) {
+  return { milliseconds: Math.abs(second - first) * 1000, ventricularEvents: state.events.filter(e => e.type === "ventricular" && e.time >= Math.min(first, second) && e.time <= Math.max(first, second)).length };
+}
+
 export function buildEcgEvents(rhythm: RhythmId, requestedRate: number, windowSeconds = 8): EcgEvent[] {
   const rate = clamp(requestedRate, 30, 190); const events: EcgEvent[] = [];
   if (rhythm === "af") {
@@ -17,6 +50,7 @@ export function buildEcgEvents(rhythm: RhythmId, requestedRate: number, windowSe
     for (let t = 0.1; t < windowSeconds; t += 60 / 85) events.push({ time: t, type: "atrial", conducted: false, width: 0.07, amplitude: 1 });
     for (let t = 0.45; t < windowSeconds; t += 60 / Math.min(45, rate)) events.push({ time: t, type: "ventricular", conducted: true, width: 0.15, amplitude: 0.9 });
   } else if (rhythm === "vt") {
+    for (let t = .1; t < windowSeconds; t += 60 / 85) events.push({time:t,type:"atrial",conducted:false,width:.07,amplitude:1});
     for (let t = 0.18; t < windowSeconds; t += 60 / Math.max(140, rate)) events.push({ time: t, type: "ventricular", conducted: true, width: 0.18, amplitude: 1.15 });
   } else {
     const effectiveRate = rhythm === "brady" ? Math.min(rate, 55) : rhythm === "tachy" ? Math.max(rate, 110) : rate;

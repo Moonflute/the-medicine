@@ -41,7 +41,7 @@ export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: 
       const sketch = (p: P5Instance) => {
         let width = 1040; let height = 560; let lastDescription = ""; let geometryKey = ""; let paths: Record<NephronSegmentId, Point[]> = {} as Record<NephronSegmentId, Point[]>;
         const label = (text: string, x: number, y: number, size = 11, color = "#47595e", align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.CENTER) => { p.noStroke(); p.fill(color); p.textAlign(align, p.CENTER); p.textSize(Math.max(13, size)); p.text(text, x, y); };
-        const resize = () => { width = Math.max(620, host.clientWidth); height = width < 960 ? 1000 : 560; p.resizeCanvas(width, height); };
+        const resize = () => { width = Math.max(320, host.clientWidth); height = width < 960 ? 1000 : 560; p.resizeCanvas(width, height); };
 
         const buildPaths = (x: number, y: number, w: number, h: number) => {
           const key = `${x}:${y}:${w}:${h}`;
@@ -84,7 +84,7 @@ export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: 
             for (let index = 0; index < particleCount; index += 1) { const point = pointOnPath(path, ((clock.current.seconds * 30) * 0.006 + index / particleCount) % 1); p.noStroke(); p.fill(SOLUTE_COLOR[current.solute]); p.circle(point.x, point.y, current.solute === "H2O" ? 7 : 6); }
           }
 
-          const labelAt = (id: NephronSegmentId, progress: number, dx: number, dy: number) => { const point = pointOnPath(paths[id], progress); const segment = getNephronSegment(current.state, id); const names: Partial<Record<NephronSegmentId, string>> = { glomerulus: "사구체", descending: "하행각", "thin-ascending": "얇은 상행각" }; label(names[id] ?? segment.shortLabel, point.x + dx, point.y + dy, 9, id === current.selected ? "#176f70" : "#34464b"); };
+          const labelAt = (id: NephronSegmentId, progress: number, dx: number, dy: number) => { const point = pointOnPath(paths[id], progress); const segment = getNephronSegment(current.state, id); const names: Partial<Record<NephronSegmentId, string>> = { glomerulus: "Glomerulus", descending: "Descending", "thin-ascending": "Thin ascending" }; label(names[id] ?? segment.shortLabel, point.x + dx, point.y + dy, 9, id === current.selected ? "#176f70" : "#34464b"); };
           labelAt("glomerulus", 0.2, 0, -9); labelAt("proximal", 0.45, 0, -25); labelAt("descending", 0.48, -35, 0); labelAt("thin-ascending", 0.5, 33, 8); labelAt("thick-ascending", 0.55, 38, 0); labelAt("distal", 0.45, 0, -24); labelAt("collecting", 0.56, 40, 0);
 
           const selectedPath = paths[current.selected]; const midpoint = pointOnPath(selectedPath, 0.52); p.noFill(); p.stroke("#176f70"); p.strokeWeight(1.5); p.rect(midpoint.x - 22, midpoint.y - 22, 44, 44, 3);
@@ -125,7 +125,7 @@ export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: 
           p.noStroke(); p.fill("#e0f2fe"); p.rect(box.x + 1, membraneTop, box.w * 0.30, membraneBottom - membraneTop); p.fill("#fff7ed"); p.rect(apicalX, membraneTop, basalX - apicalX, membraneBottom - membraneTop); p.fill("#ecfdf5"); p.rect(basalX, membraneTop, box.w * 0.35, membraneBottom - membraneTop);
           p.stroke("#8a6f68"); p.strokeWeight(3); p.line(apicalX, membraneTop, apicalX, membraneBottom); p.line(basalX, membraneTop, basalX, membraneBottom);
           p.stroke("#a85d62"); p.strokeWeight(9); p.line(box.x + box.w * 0.89, membraneTop + 8, box.x + box.w * 0.89, membraneBottom - 8);
-          label("관강", box.x + box.w * 0.14, membraneTop + 14, 9); label("상피세포", box.x + box.w * 0.48, membraneTop + 14, 9); label("간질", box.x + box.w * 0.75, membraneTop + 14, 9); label("혈관", box.x + box.w * 0.90, membraneTop + 14, 9, "#935159");
+          label("Lumen", box.x + box.w * 0.14, membraneTop + 14, 9); label("Epithelium", box.x + box.w * 0.48, membraneTop + 14, 9); label("Interstitium", box.x + box.w * 0.75, membraneTop + 14, 9); label("Capillary", box.x + box.w * 0.90, membraneTop + 14, 9, "#935159");
           if (current.selected === "proximal") { p.stroke("#8a6f68"); p.strokeWeight(1); for (let y = membraneTop + 25; y < membraneBottom; y += 8) p.line(apicalX - 8, y, apicalX, y + 3); }
           if (routes.length === 0) { label(`${segment.shortLabel}에는 ${current.solute}의 주요 순이동 경로가 없습니다.`, box.x + box.w / 2, box.y + box.h / 2, 12, "#68797d"); }
           else routes.slice(0, 4).forEach((route, index) => drawRoute(route, index, segment.activity[current.solute], box));
