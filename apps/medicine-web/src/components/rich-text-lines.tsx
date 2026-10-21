@@ -360,7 +360,7 @@ function renderGroup(label: string, items: string[], termLinks: TermLink[], wiki
 
 function renderTable(headers: string[], rows: string[][], termLinks: TermLink[], wikiLinks: TermLink[]) {
   return (
-    <div className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
+    <div className="rich-text-table min-w-0 max-w-full overflow-x-auto rounded-lg border border-slate-200 bg-white">
       <table className="min-w-full text-left text-[13px] leading-6">
         <thead className="bg-slate-50 text-slate-700">
           <tr>
@@ -393,12 +393,14 @@ export function RichTextLines({
   bulletStyle = "card",
   termLinks = [],
   wikiLinks = [],
+  presentation = "document",
 }: {
   lines: string[];
   className?: string;
   bulletStyle?: BulletStyle;
   termLinks?: TermLink[];
   wikiLinks?: TermLink[];
+  presentation?: "document" | "embedded";
 }) {
   const blocks: SkinTextBlock[] = parseBlocks(lines).map((block) => ({
     kind: block.type === "group" ? "group" : block.type === "table" ? "table" : !block.line.trim() ? "space" : /^(?:#{3,4}\s|---$)/.test(block.line.trim()) ? "heading" : "text",
@@ -409,5 +411,8 @@ export function RichTextLines({
         ? renderTable(block.headers, block.rows, termLinks, wikiLinks)
         : renderLine(block.line, bulletStyle, termLinks, wikiLinks),
   }));
+  if (presentation === "embedded") {
+    return <div className={className}>{blocks.map((block, index) => <div key={index}>{block.content}</div>)}</div>;
+  }
   return <SkinTextBlocks blocks={blocks} className={className} />;
 }

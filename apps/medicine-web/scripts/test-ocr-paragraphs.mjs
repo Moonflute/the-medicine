@@ -16,3 +16,22 @@ test('preserves numeric table rows',()=>{
 test('joins narrative mentioning a lab without a result row',()=>{
  assert.equal(reflow('발열과\nCRP 상승이 있다.'),'발열과 CRP 상승이 있다.');
 });
+
+test("preserves all table rows and their boundaries without changing cell content", () => {
+  const table = "| 항목 | 값 |\n| --- | --- |\n| Sodium | 130 |\n| Potassium | 4 |";
+  const text = `검사 설명\n${table}\n표 다음 설명`;
+  const result = reflow(text);
+  assert.ok(result.includes(`\n${table}\n`));
+  assert.equal(result.replace(/\s/g, ""), text.replace(/\s/g, ""));
+});
+
+test("preserves multiple tables, compact dividers and CRLF line endings", () => {
+  const table = "| A | B |\n|:---|---:|\n| 273 | 130 |";
+  const input = `${table}\n\n설명\n${table}`.replace(/\n/g, "\r\n");
+  assert.equal(reflow(input).split(table).length - 1, 2);
+});
+
+test("ordinary OCR prose and non-table pipe fragments keep existing reflow behavior", () => {
+  assert.equal(reflow("검사 설명이\n이어진다"), "검사 설명이 이어진다");
+  assert.equal(reflow("알고리즘 | 일부 |\n이어서 설명"), "알고리즘 | 일부 | 이어서 설명");
+});

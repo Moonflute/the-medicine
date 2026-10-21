@@ -23,6 +23,7 @@ import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import type { QbankAnswer, QbankQuestion } from "@/lib/types";
 import { RelatedTheoryLauncher } from "@/components/related-theory-launcher";
 import { QbankCopyButton } from "@/components/qbank-copy-button";
+import { QbankExplanation } from "@/components/qbank-explanation";
 import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
 
 export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChange, onMove }: {
@@ -133,7 +134,7 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChan
           copy={<QbankCopyButton key={`question:${current.id}`} text={qbankQuestionCopyText(current, displayedOptions, "source")} label="문제와 보기 텍스트 복사" title="문제와 보기 텍스트 복사 · 이미지는 제외" iconOnly />}
           response={finished && <section className="qbank-feedback mt-6 rounded-lg bg-slate-50 p-4">
             <h2 className="qbank-feedback-status font-semibold">{result?.correct === null ? "채점 제외" : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : result?.correct ? "정답" : `오답 · 정답 ${(result?.correctAnswers ?? correctAnswers(current)).join(", ")}`}</h2>
-            <p data-highlight-block="explanation" className="qbank-feedback-body mt-3 whitespace-pre-line text-sm leading-6">{reflowOcrText(current.explanation)}</p>
+            <QbankExplanation text={current.explanation} reflow />
             <SkinQuestionReferences key={current.id} available={Boolean(current.evidenceReferences?.some(ref => ref.url.startsWith("https://")) || (current.questionBank === "practice" && (current.relatedDocuments?.length || current.relatedDiseaseSlugs.length || current.relatedCcSlugs.length)))}>
             <div className="qbank-feedback-links">{current.evidenceReferences?.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} className="text-xs text-teal-700 underline" target="_blank" rel="noopener noreferrer" href={ref.url}>{ref.title}</a>)}</div>
             <RelatedTheoryLauncher key={current.id} question={current} />

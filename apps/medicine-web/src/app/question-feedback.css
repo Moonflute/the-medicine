@@ -3,6 +3,15 @@
 .qbank-feedback .qbank-feedback-status { display:flex; align-items:flex-start; gap:6px; margin:0; font-size:1em; font-weight:600; line-height:1.6; }
 .qbank-feedback-status > svg { width:1.1em; height:1.1em; margin-top:.2em; flex-shrink:0; }
 .qbank-feedback .qbank-feedback-body { margin:7px 0 0; font-size:inherit; line-height:inherit; white-space:pre-line; color:inherit; }
+.qbank-feedback .qbank-explanation { min-width:0; max-width:100%; white-space:normal; }
+.qbank-explanation :is(p,h4,h5) { color:inherit; font-size:inherit; line-height:inherit; }
+.qbank-explanation .rich-text-table { max-width:100%; overflow-x:auto; border-color:var(--line); background:var(--surface); white-space:normal; }
+.qbank-explanation table { width:100%; min-width:100%; table-layout:auto; font-size:.92em; line-height:1.6; color:inherit; }
+.qbank-explanation :is(thead,tbody) { color:inherit; }
+.qbank-explanation thead { background:var(--surface-subtle); }
+.qbank-explanation :is(th,td) { border-color:var(--line); padding:7px 10px; overflow-wrap:normal; word-break:normal; vertical-align:top; }
+.qbank-explanation th { white-space:nowrap; }
+.qbank-explanation td { min-width:4.5em; max-width:28em; white-space:normal; }
 .qbank-feedback-links { display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 8px; margin-top:9px; min-width:0; }
 .qbank-feedback-links:empty { display:none; }
 .qbank-feedback .qbank-feedback-links > a { max-width:100%; border:0; border-radius:0; padding:0; background:transparent; color:var(--accent); font-size:.85em; line-height:1.65; white-space:normal; overflow-wrap:anywhere; text-decoration:underline; text-underline-offset:2px; }

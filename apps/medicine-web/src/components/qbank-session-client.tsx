@@ -20,6 +20,7 @@ import { readMockExam, type MockExamState } from "@/lib/mock-exam";
 import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
 import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
 import { QbankCopyButton } from "@/components/qbank-copy-button";
+import { QbankExplanation } from "@/components/qbank-explanation";
 import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
@@ -780,7 +781,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <div className={`qbank-feedback mt-6 rounded-lg border p-4 lg:col-span-2 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <ChatOptionalTools><button type="button" onClick={dismissWrong} className="float-right rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[10px] font-medium text-slate-600 transition hover:border-rose-300 hover:text-rose-700">오답 노트에서 제거</button></ChatOptionalTools> : null}
             <div className="qbank-feedback-status flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
-            {current.explanation ? <div data-highlight-block="explanation" className="qbank-feedback-body mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.sourceSplit === "private-scan" ? reflowOcrText(current.explanation) : current.explanation}</div> : <p className="qbank-feedback-body mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
+            {current.explanation ? <QbankExplanation text={current.explanation} reflow={current.sourceSplit === "private-scan"} /> : <p className="qbank-feedback-body mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
             <SkinQuestionReferences key={current.id} available={Boolean(current.evidenceReferences?.some(ref => ref.url.startsWith("https://")) || current.relatedDrugs?.length || current.relatedDocuments?.length || currentTheoryTargetHref || current.relatedDiseaseSlugs.length || current.relatedCcSlugs.length)}>
             {!!current.evidenceReferences?.length && <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
