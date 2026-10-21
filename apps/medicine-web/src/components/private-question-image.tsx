@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { SkinStatus } from "@/components/skin-status";
+import { QuestionImageDialog } from "@/components/question-image-dialog";
 
 export function PrivateQuestionImage({ path, alt }: { path: string; alt: string }) {
   const [image, setImage] = useState<{ path: string; url: string } | null>(null);
@@ -27,11 +28,7 @@ export function PrivateQuestionImage({ path, alt }: { path: string; alt: string 
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={image.url} alt={alt} className="mx-auto max-h-64 w-auto max-w-full object-contain" />
     </button>
-    {expanded && <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-4" role="dialog" aria-modal="true" aria-label={`${alt} 크게 보기`} onClick={() => setExpanded(false)}>
-      <button type="button" onClick={() => setExpanded(false)} className="absolute right-4 top-4 rounded-md bg-white/95 px-3 py-2 text-sm font-semibold text-slate-800">닫기</button>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={image.url} alt={alt} className="max-h-[88vh] max-w-[94vw] rounded-lg object-contain" onClick={(event) => event.stopPropagation()} />
-    </div>}
+    {expanded && <QuestionImageDialog src={image.url} alt={alt} onClose={() => setExpanded(false)} />}
   </>;
   return <SkinStatus kind={failed === path ? "imageError" : "imageLoading"}
     fallback={failed === path ? "원본 이미지를 불러오지 못했습니다. 접근 권한과 연결을 확인해주세요." : "원본 이미지를 불러오는 중입니다."}
