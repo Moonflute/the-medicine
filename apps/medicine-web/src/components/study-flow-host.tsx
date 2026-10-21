@@ -27,6 +27,14 @@ export function StudyFlowHost() {
       if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key.toLowerCase() === "l") {
         event.preventDefault();
         setStudyUI({ open: !getStudySnapshot().ui.open });
+      } else if (event.key === "]" && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.repeat) {
+        const target = event.target;
+        if (target instanceof HTMLElement && (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName) || target.closest('[role="textbox"]'))) return;
+        if (document.querySelector('dialog[open], [role="dialog"][aria-modal="true"]')) return;
+        event.preventDefault();
+        const wasOpen = getStudySnapshot().ui.open;
+        setStudyUI({ open: !wasOpen });
+        if (wasOpen) requestAnimationFrame(() => document.getElementById("study-flow-toggle")?.focus());
       } else if (event.key === "Escape" && getStudySnapshot().ui.open) {
         event.preventDefault();
         setStudyUI({ open: false });
@@ -40,7 +48,7 @@ export function StudyFlowHost() {
     <StudyFlowSyncProvider />
     {buttonVisible ? <button id="study-flow-toggle" type="button" className={"study-flow-toggle" + (state.ui.open ? " is-open" : "")}
       aria-label="학습 Flow 열기" aria-expanded={state.ui.open} aria-controls="study-flow-panel"
-      title="학습 Flow · Ctrl/⌘ Shift L" onClick={() => setStudyUI({ open: !state.ui.open })}>
+      title="학습 Flow · ] 또는 Ctrl/⌘ Shift L" onClick={() => setStudyUI({ open: !state.ui.open })}>
       <ListTree size={19} /><span>Flow</span>
     </button> : null}
     <div className={"study-flow-drawer" + (state.ui.open ? " is-open" : "")} aria-hidden={!state.ui.open} inert={!state.ui.open}>
