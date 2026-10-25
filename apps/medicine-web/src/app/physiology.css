@@ -73,21 +73,39 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .ecg-scene-toolbar label { display:flex; align-items:center; gap:5px; white-space:nowrap; }
 .ecg-scene-toolbar button:first-of-type { margin-left:auto; }
 .physiology-workbench .ecg-scene-toolbar select,.physiology-workbench .ecg-signal-toolbar select { padding:3px 5px; border-radius:5px; font-size:12px; }
-.ecg-integrated-scene { display:grid; grid-template-rows:minmax(0,1fr) 34px; min-height:0; min-width:0; background:#fafcfc; color:#20323d; }
-.ecg-integrated-heading { display:none; }
+.ecg-integrated-scene { position:relative; display:grid; grid-template-rows:minmax(0,1fr) 30px; min-height:0; min-width:0; background:#fbfcfa; color:#203b3b; }
+.ecg-integrated-heading { position:absolute; z-index:1; top:4px; left:0; right:0; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:3px 10px; pointer-events:none; }
+.ecg-scene-modes { pointer-events:auto; }
+.ecg-integrated-heading>span { font-size:10px; color:#526775; white-space:nowrap; }
+.ecg-scene-modes { display:flex; gap:2px; padding:2px; border:1px solid #d8e3e7; border-radius:6px; background:#f0f5f7; }
+.physiology-workbench .ecg-scene-modes button { min-height:22px; padding:2px 8px; border-radius:4px; color:#506674; font-size:11px; }
+.physiology-workbench .ecg-scene-modes button[aria-pressed="true"],html[data-theme] .physiology-workbench .ecg-scene-modes button[aria-pressed="true"] { background:white; color:#075b53; box-shadow:0 1px 3px #163a491c; font-weight:700; }
 .ecg-integrated-drawing { display:block; width:100%; height:100%; min-height:0; touch-action:none; }
 .ecg-anatomy-hit,.ecg-electrode-marker { cursor:pointer; outline:none; }
 .ecg-electrode-marker { touch-action:none; }
 .ecg-anatomy-hit:focus-visible,.ecg-electrode-marker:focus-visible { filter:drop-shadow(0 0 2px #007b77); outline:2px solid #007b77; outline-offset:3px; }
-.ecg-chamber-label { font:750 23px system-ui,sans-serif; fill:#253641; }
-.ecg-path-label { font:650 16px system-ui,sans-serif; fill:#21313e; }
-.ecg-anatomy-orientation,.ecg-scene-orientation { font:500 13px system-ui,sans-serif; fill:#55636d; }
-.ecg-septum-label { font:600 14px system-ui,sans-serif; fill:#725552; }
-.ecg-electrode-label { font:750 15px system-ui,sans-serif; paint-order:stroke; stroke:white; stroke-width:4px; stroke-linejoin:round; }
-.ecg-heart-key { display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:0 12px; font-size:11px; padding:2px 5px; }
+.ecg-chamber-label { font:650 25px system-ui,sans-serif; letter-spacing:.02em; fill:#536b68; paint-order:stroke; stroke:#f6f8f3; stroke-width:3px; }
+.ecg-chamber-name { font:450 11px system-ui,sans-serif; fill:#70817b; paint-order:stroke; stroke:#f6f8f3; stroke-width:2.5px; }
+.ecg-chamber-hit:hover .ecg-chamber-label,.ecg-chamber-hit:focus-visible .ecg-chamber-label { fill:#075b53; }
+.ecg-path-label { font:650 15px system-ui,sans-serif; fill:#2d4947; paint-order:stroke; stroke:#fbfcfa; stroke-width:3px; stroke-linejoin:round; }
+.ecg-path-sublabel { font:450 12px system-ui,sans-serif; fill:#697e78; paint-order:stroke; stroke:#fbfcfa; stroke-width:3px; }
+.ecg-label-leader { stroke:#91a69d; stroke-width:.9; }
+.ecg-landmark-label[aria-pressed="true"] .ecg-path-label,.ecg-landmark-label[data-highlighted="true"] .ecg-path-label { fill:#006a5a; }
+.ecg-structure-label[data-highlighted="true"] .ecg-label-leader { stroke:#087f70; stroke-width:1.5; }
+.ecg-anatomy-orientation,.ecg-scene-orientation { font:500 11px system-ui,sans-serif; fill:#6c817b; letter-spacing:.02em; }
+.ecg-anatomy-tooltip { position:absolute; right:10px; bottom:38px; z-index:3; display:grid; gap:4px; max-width:min(280px,calc(100% - 20px)); padding:10px 13px; border:1px solid #cadbd3; border-radius:8px; background:#fffffff5; box-shadow:0 5px 18px #1e403617; pointer-events:none; }
+.ecg-anatomy-tooltip strong { font-size:13px; font-weight:700; color:#1a574e; }.ecg-anatomy-tooltip span { font-size:12px; line-height:1.55; color:#35574d; }.ecg-anatomy-tooltip small { font-size:10px; color:#6c817b; }
+.ecg-electrode-label { font:700 13px system-ui,sans-serif; paint-order:stroke; stroke:white; stroke-width:4px; stroke-linejoin:round; }
+.ecg-block-label { font:800 23px system-ui,sans-serif; fill:#be3348; stroke:white; stroke-width:3px; paint-order:stroke; }
+.ecg-vector-title { font:600 10px system-ui,sans-serif; fill:#465968; }
+.ecg-integrated-scene[data-electrode-mode="true"] .ecg-anatomy-layer { pointer-events:none; }
+.ecg-integrated-scene[data-electrode-mode="true"] .ecg-landmark-label { display:none; }
+.ecg-integrated-scene[data-electrode-mode="true"] .ecg-conduction-network { opacity:.35; }
+.ecg-heart-key { display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:0 12px; font-size:10px; padding:2px 5px; border-top:1px solid #eaf0ea; }
 .ecg-heart-key span { display:inline-flex; align-items:center; gap:4px; }
+.ecg-heart-key strong { font-size:10px; font-weight:600; color:#46665b; border-left:1px solid #d8e4db; padding:2px 0 2px 12px; }
 .ecg-heart-key i { display:inline-block; width:11px; height:6px; border-radius:3px; }
-.ecg-key-conduction { background:#997034; }.ecg-key-current { background:#087f70; }.ecg-key-active { background:#f2ac32; }.ecg-key-recovery { background:#a18ad1; }
+.ecg-key-conduction { background:#397b71; }.ecg-key-current { background:#176c64; }.ecg-key-active { background:#e3a13e; }.ecg-key-recovery { background:#7b9eac; }.ecg-current-key { color:#176c64; }
 .ecg-vector-key { color:#5d6579; font-size:10px; }
 .ecg-forward-playback { display:flex; align-items:center; gap:6px; padding:4px 8px; border-top:1px solid var(--line); }
 .physiology-workbench .ecg-forward-playback button { min-height:32px; padding:4px 8px; font-size:12px; }

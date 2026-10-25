@@ -8,9 +8,11 @@
 ### 기전
 - 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
 - 구역 i에서 j로 흐르는 결합 전류는 g·(vi−vj)로 계산합니다. 한 구역에서 나가는 전류는 상대 구역에 들어가며, 연결을 끊으면 이 경로의 전류도 0이 됩니다. 막전위 변화는 자극 직후의 흥분뿐 아니라 plateau와 repolarization까지 계속 적분합니다.
-- 화면의 RA·LA·RV·LV, Septum, Apex는 위치를 이해하기 위한 전면 개념 절개도입니다. 뒤쪽의 LA도 펼쳐 그렸으며 환자 영상이나 실제 조직 경계는 아닙니다. 갈색 선은 계산에 쓰인 전도 연결이고, Atrial myocardium에서는 주변 구역 사이의 연결망으로 흥분이 퍼집니다.
-- 초록 화살표는 같은 결합 전류 g·(vi−vj)의 부호와 크기를 표시합니다. 차단된 연결에는 붉은 점선과 ×가 나타나며 전류 화살표는 그리지 않습니다. 깊이가 겹치거나 가까운 심근 연결은 큰 실제 전류를 대표로 골라 최대 40개까지 표시합니다. 혈류·입자 이동 속도·흉곽 전체의 전류 유선을 뜻하지 않습니다.
-- 벽의 색은 같은 전면 좌표로 투영된 구역들의 최대 Vm입니다. 주황은 흥분, 보라는 막전위가 내려가는 회복, 옅은 벽색은 낮은 Vm이며 산소포화도를 뜻하지 않습니다. 구조 이름을 누르면 해당 계산 구역과 첫 활성 시각을 확인할 수 있습니다.
+- 화면은 하나의 Epicardial 외곽선 안에 RA·LA·RV·LV, Septum, AV valves와 Chordae를 배치한 전면 개념 절개도입니다. 뒤쪽의 LA와 앞·뒤 심근 구역을 펼쳐 배치했으며 환자 영상, 실제 단면이나 위치 비례를 재현하지 않습니다. 청록색 전도 경로의 세부 좌표는 계산 좌표와 별개입니다.
+- RA–LA의 앞쪽 지붕을 잇는 경로는 Bachmann’s bundle에 대응하는 Interatrial 연결입니다. 혈액이 통하는 관이 아닙니다. SA node는 SVC–RA 접합부, AV node는 RA 하부 Septal 영역에 표시합니다. His·Bundle branches는 Septum을 따라 내려가고 Purkinje 말단은 Endocardial 경계에서 분지합니다. 그림의 말단 가지는 실제 계산에 쓰이는 Purkinje–myocardial 연결에 대응하지만, 실제 환자의 전체 Network나 세부 Fascicle을 재구성한 것은 아닙니다.
+- 황금색 이동점은 각 연결의 양 끝 구역에서 Vm이 0.5를 통과한 기록 시각 사이를 보간합니다. 매 박동의 실제 기록을 사용하며 RV 자극에서는 역방향 활성도 표시합니다. 연속 조직의 Wavefront 위치나 물리적 전도 속도를 따로 계산하는 것은 아닙니다. 차단된 연결은 붉은 점선과 ×로 표시하고 이동점이나 전류 화살표를 그리지 않습니다.
+- 청록 화살표는 결합 전류 g·(vi−vj)의 방향입니다. 겹치는 화살표는 줄이고 큰 실제 전도계 전류를 대표로 골라 최대 6개까지 표시합니다. 화살표 길이는 전류 크기나 전파 속도가 아니며 혈류·흉곽 전체의 전류 유선도 아닙니다. 전류 화살표를 꺼도 기록에 따른 활성·회복 표시는 유지됩니다.
+- 심근 벽의 옅은 황금색은 흥분, 청회색은 막전위가 내려가는 회복, 원래 벽색은 낮은 Vm입니다. 구역·층의 평균 Vm을 저장 샘플 사이에서 보간합니다. Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열하며 산소포화도는 아닙니다. 이름에 마우스를 올리거나 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 설명과 첫 활성 시각을 확인합니다.
 - 심근은 RA·LA 구역과 9개 Ventricular 구역으로 나눕니다. 각 Ventricular 구역에는 Endocardium에서 Epicardium으로 이어지는 12개 층과 가로 연결이 있고 Purkinje junction이 Endocardial 구역을 자극합니다. Septal·Apical·Lateral·Anterior·Posterior·Basal 구역의 방향과 유효 단면적이 다르며, 구역 경계에서는 단면적이 줄어드는 형태로 근사합니다. 단면적과 층 간격은 Capacitance와 결합도에 함께 반영합니다.
 - 총 1,137개 계산 구역은 각각 많은 세포를 대표합니다. SA·AV·His·Bundle branches·Purkinje에 대응하는 전도 연결을 포함합니다. 외부의 주기적 자극은 짧은 자극 Conductance로 Vm을 1 쪽으로 유도하며 SA node 자동능의 이온 통로는 재현하지 않습니다. RV 자극은 작은 RV Endocardial 구역에 같은 원리로 적용합니다.
 - Epicardial 쪽은 Endocardial 쪽보다 Action potential duration이 짧고, Ventricular 부위별 회복에도 차이를 둡니다. Transmural gradient는 Posterior 구역에서 더 작게 설정해 모든 부위가 같은 방향·시각으로 회복되지 않게 합니다. 이 차이가 Depolarization과 다른 Repolarization의 전위 기울기를 만들며 T wave에 기여합니다. 파형의 높이·부호·폭을 유도마다 별도 함수로 정하지 않습니다.
@@ -40,7 +42,8 @@
 - 초록 실선은 모든 심근 연결의 기여를 합친 전위차입니다. 주황 점선은 심장 중심의 Lead field와 합성 dipole을 내적한 근사이며, 두 선이 항상 일치해야 하는 것은 아닙니다. 표시되는 각도는 이 중심 근사의 3D 각도입니다.
 - 전압 배율은 모든 위치와 조건에서 고정합니다. 전극 이동 때 파형을 자동으로 같은 높이로 늘리지 않으므로 실제 계산 크기의 변화를 비교할 수 있습니다. 화면 감도만 바꾸면 그림 크기는 바뀌지만 원래 전위차 수치는 유지됩니다.
 - 왼쪽은 확대 심장 절개도와 전극 지도를 합친 화면이고 오른쪽은 같은 시간축·감도의 12유도입니다. 기본 시간축은 한 박동이며 전체 2.4초로 바꿀 수 있습니다. 유도를 선택하고 확대하면 한 파형을 오른쪽 전체 높이로 확인합니다. P·QRS·T 배경은 계산된 활성·회복에 대응하는 관찰 구간이며 임상 자동 판독 결과는 아닙니다.
-- 흉곽을 클릭하거나 전극을 드래그하고, 앞·옆·뒤 보기와 각도 조절로 3D 표면을 탐색합니다. 심장 그림은 구조를 읽기 위해 별도로 확대했으며 계산 좌표의 거리는 바뀌지 않습니다. 전극 위치 예시는 실제 늑간·Clavicle에 따른 부착 도해가 아닙니다. RA↔LA 위치 교환으로 Lead reversal의 영향을 비교할 수 있습니다.
+- 왼쪽의 ‘전도 경로’에서는 심장 구조와 전도 연결이 강조되고, ‘전극 위치’에서는 흉곽과 9개 측정 전극이 강조됩니다. 전극 위치 보기에서 흉곽을 클릭하거나 전극을 드래그하고, 앞·옆·뒤 보기와 각도 조절로 3D 표면을 탐색합니다. 심장 절개도는 정면을 유지하며 그 확대나 경로 배치가 계산 좌표의 거리를 바꾸지 않습니다. 전극 위치 예시는 실제 늑간·Clavicle에 따른 부착 도해가 아닙니다. RA↔LA 위치 교환으로 Lead reversal의 영향을 비교할 수 있습니다.
+- Dipole·Lead field 방향은 설정에서 켤 수 있으며 작은 별도 도해에 표시합니다. 청회색은 합성 dipole, 청록 점선은 선택한 유도의 Lead field이고, 화살표 길이는 방향을 읽기 위한 고정 배율입니다.
 ### 관련 자료
 - [심근 전기활동 계산](/interactive/ecg-arrhythmia/notes#forward-model)
 
@@ -163,6 +166,8 @@
 - [Ventricular tachycardia](disease:심실 빈맥 (Ventricular Tachycardia))
 
 ## 출처
+- [OpenStax — Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy)
+- [OpenStax — Cardiac Muscle and Electrical Activity: Conduction System of the Heart](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity)
 - [AHA/ACCF/HRS — ECG standardization, Part III: Intraventricular conduction disturbances (2009)](https://pubmed.ncbi.nlm.nih.gov/19281930/)
 - [Whole-heart model — APD gradients and T-wave concordance (2016)](https://pubmed.ncbi.nlm.nih.gov/27034121/)
 - [NHLBI — How the heart beats: cardiac conduction system](https://www.nhlbi.nih.gov/health/heart/heart-beats)

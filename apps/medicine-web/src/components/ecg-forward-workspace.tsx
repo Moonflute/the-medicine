@@ -18,10 +18,11 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
   const recording=readRecording();
   const [electrodes,setElectrodes]=useState<ElectrodeMap>(()=>structuredClone(DEFAULT_ELECTRODES));
   const [selected,setSelected]=useState<ElectrodeId>("LL"),[lead,setLead]=useState<StandardLead>("II");
-  const [part,setPart]=useState<HeartPart>("His"),[panel,setPanel]=useState<"structure"|"electrodes"|"model"|null>(null);
-  const initialTime=Math.round(((recording.activation.ventricularStart??250)+((recording.activation.ventricularEnd??310)-(recording.activation.ventricularStart??250))*.6)/recording.sampleMs)*recording.sampleMs;
+  const [part,setPart]=useState<HeartPart>("SA node"),[panel,setPanel]=useState<"structure"|"electrodes"|"model"|null>(null);
+  const initialTime=0;
   const [timeMs,setTimeMs]=useState(initialTime),[playing,setPlaying]=useState(false),[speed,setSpeed]=useState(.25);
-  const [yaw,setYaw]=useState(0),[showCurrents,setShowCurrents]=useState(true),[showVectors,setShowVectors]=useState(true);
+  const [yaw,setYaw]=useState(0),[showCurrents,setShowCurrents]=useState(true),[showVectors,setShowVectors]=useState(false);
+  const [electrodeMode,setElectrodeMode]=useState(false);
   const [showApproximation,setShowApproximation]=useState(false),[gain,setGain]=useState(1),[display,setDisplay]=useState<"twelve"|"focus">("twelve");
   const [windowMode,setWindowMode]=useState<"beat"|"all">("beat"),[comparison,setComparison]=useState<Comparison|null>(null);
   const clock=useRef(initialTime),guide=useRef<HTMLDialogElement>(null),settingsButton=useRef<HTMLButtonElement>(null);
@@ -56,7 +57,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
     document.addEventListener("keydown",close);return()=>document.removeEventListener("keydown",close);
   },[panel]);
   const seek=(time:number)=>{setPlaying(false);clock.current=time;setTimeMs(time);};
-  const selectElectrode=(value:ElectrodeId)=>{setSelected(value);if(value.startsWith("V"))setLead(value as StandardLead);};
+  const selectElectrode=(value:ElectrodeId)=>{setSelected(value);setElectrodeMode(true);if(value.startsWith("V"))setLead(value as StandardLead);};
   const chooseLead=(value:StandardLead)=>{setLead(value);setSelected(positiveElectrode(value));};
   const move=(id:ElectrodeId,electrode:Electrode)=>setElectrodes(value=>({...value,[id]:electrode}));
   const selectPart=(value:HeartPart)=>{setPart(value);setPanel("structure");};
@@ -68,12 +69,12 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
       <section className="ecg-scene-card" aria-label="심장과 전극">
         <div className="ecg-scene-toolbar">
           <label>전극<select aria-label="이동할 전극" value={selected} onChange={event=>selectElectrode(event.target.value as ElectrodeId)}>{ELECTRODE_IDS.map(id=><option key={id} value={id}>{id}</option>)}</select></label>
-          <label>보기<select aria-label="흉곽 보기" value={yaw} onChange={event=>setYaw(Number(event.target.value))}><option value={0}>Anterior</option><option value={45}>Oblique</option><option value={90}>Lateral</option><option value={180}>Posterior</option></select></label>
+          <label>흉곽<select aria-label="흉곽 보기" value={yaw} onChange={event=>{setYaw(Number(event.target.value));setElectrodeMode(true);}}><option value={0}>Anterior</option><option value={45}>Oblique</option><option value={90}>Lateral</option><option value={180}>Posterior</option></select></label>
           <label><input type="checkbox" checked={showCurrents} onChange={event=>setShowCurrents(event.target.checked)}/>전류</label>
           <button ref={settingsButton} type="button" className="ecg-icon-button" aria-label="구조·전극·모델 설정" aria-expanded={panel!==null} aria-controls="ecg-settings-panel" onClick={()=>setPanel(value=>value?null:"electrodes")}><SlidersHorizontal size={17}/><span>설정</span></button>
           <button type="button" className="ecg-icon-button" aria-label="도해와 계산 설명" onClick={()=>guide.current?.showModal()}><Info size={17}/></button>
         </div>
-        <EcgForwardScene readRecording={readRecording} electrodes={electrodes} placement={placement} lead={lead} timeMs={timeMs} yaw={yaw} selected={selected} showCurrents={showCurrents} showVectors={showVectors} part={part} onPart={selectPart} onMove={move} onSelect={selectElectrode}/>
+        <EcgForwardScene readRecording={readRecording} electrodes={electrodes} placement={placement} lead={lead} timeMs={timeMs} yaw={yaw} selected={selected} showCurrents={showCurrents} showVectors={showVectors} electrodeMode={electrodeMode} onElectrodeMode={setElectrodeMode} part={part} onPart={selectPart} onMove={move} onSelect={selectElectrode}/>
         <div className="ecg-forward-playback">
           <button className="simulation-primary" type="button" aria-label={playing?"전기활동 일시정지":"전기활동 재생"} onClick={()=>setPlaying(value=>!value)}>{playing?<Pause size={15}/>:<Play size={15}/>}<span>{playing?"정지":"재생"}</span></button>
           <button className="simulation-button" type="button" onClick={()=>seek(0)} aria-label="계산 기록 처음으로"><RotateCcw size={15}/></button>
@@ -130,9 +131,9 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
 
     <dialog ref={guide} className="ecg-guide-dialog" aria-labelledby="ecg-guide-title"><header><h2 id="ecg-guide-title">심장 전도와 12유도 읽기</h2><button type="button" aria-label="설명 닫기" onClick={()=>guide.current?.close()}><X size={20}/></button></header><div>
       <section><h3>같은 심장, 12개 관찰 방향</h3><p>I = LA−RA, II = LL−RA, III = LL−LA입니다. aVR·aVL·aVF는 각각 RA·LA·LL에서 나머지 두 전극의 평균을 뺍니다. V1–V6는 각 가슴 전극에서 RA·LA·LL 평균을 뺍니다. Limb electrode를 옮기면 이 전극을 기준으로 사용하는 다른 유도도 함께 바뀝니다. RL 접지의 접촉·장비 회로는 계산하지 않습니다.</p><p>12유도 전체는 같은 시간축·감도를 사용합니다. 유도를 선택하고 ‘확대’를 누르면 한 파형을 크게 볼 수 있습니다. 확대 화면의 P·QRS·T 배경은 계산된 Atrial activation, Ventricular activation·recovery 시점에 대응하는 구간이며 임상 자동 판독 결과는 아닙니다.</p></section>
-      <section><h3>전도·회복과 파형</h3><p>각 Myocardial 구역에서 막전위와 회복을 적분합니다. Purkinje 연결이 Endocardial 구역을 자극하고, 여러 층을 거쳐 Epicardial 구역으로 흥분이 퍼집니다. Epicardial 쪽의 짧은 Action potential duration과 부위별 회복 차이가 T wave의 방향과 폭에 기여합니다. ECG 파형을 미리 지정한 P·QRS·T 함수로 그리지 않습니다.</p><p>갈색 선은 실제 전도 연결이며 붉은 점선·×는 차단입니다. 초록 화살표는 g × (Vmₐ−Vmᵦ)로 구한 구역 사이 전류입니다. 가까이 겹치는 연결 중 큰 실제 전류를 골라 최대 40개를 표시합니다. 혈류나 흉곽 전류의 유선은 아닙니다.</p></section>
-      <section><h3>그림의 크기와 전극 좌표</h3><p>심장은 구조를 읽기 위해 확대해 그린 전면 개념 절개도입니다. LA도 펼쳐 보여 줍니다. 전극은 별도의 3D 흉곽 타원체 표면 좌표에서 계산하며, 심장 그림의 확대가 계산 거리를 바꾸지 않습니다. 가슴 전극 위치는 축약 좌표이며 실제 늑간 부착 도해가 아닙니다. 점선 전극은 현재 보기의 반대쪽 표면에 있습니다.</p><p>주황은 흥분, 보라는 회복, 옅은 벽색은 낮은 Vm입니다. 보라 화살표는 합성 dipole, 초록 점선 화살표는 선택 유도의 Lead field이며 길이는 방향 표시용입니다. 전압은 고정 배율의 a.u.이고 임상 mV로 보정하지 않았습니다. 기본 양상을 개선한 교육 모델이며 환자별 해부학·질환 진단을 재현하는 모델은 아닙니다.</p></section>
-      <p className="ecg-guide-sources">근거: <a href="https://www.bem.fi/book/06/06.htm" target="_blank" rel="noreferrer">Bioelectromagnetism · 활성과 전류</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27034121/" target="_blank" rel="noreferrer">APD gradient와 T wave 연구</a></p>
+      <section><h3>전도·회복과 파형</h3><p>각 Myocardial 구역에서 막전위와 회복을 적분합니다. Purkinje 연결이 Endocardial 구역을 자극하고, 여러 층을 거쳐 Epicardial 구역으로 흥분이 퍼집니다. Epicardial 쪽의 짧은 Action potential duration과 부위별 회복 차이가 T wave의 방향과 폭에 기여합니다. ECG 파형을 미리 지정한 P·QRS·T 함수로 그리지 않습니다.</p><p>청록색 선은 계산 모델의 전도 연결입니다. RA와 LA의 지붕을 잇는 경로는 Bachmann’s bundle에 해당하며 혈액이 통하는 관이 아닙니다. His와 Bundle branches는 Septum을 따르고, Purkinje 말단은 Endocardial 경계에서 분지하도록 펼쳐 그렸습니다. 세부 Fascicle이나 실제 환자의 전체 Purkinje network를 재구성한 것은 아닙니다.</p><p>황금색 이동점은 양 끝 구역의 Vm이 0.5를 통과한 실제 기록 시각 사이를 보간합니다. 첫 박동을 반복하는 장식이 아니며, RV 자극에서는 기록에 따라 역방향으로 이동합니다. 이동점의 화면 속도는 실제 조직의 전도 속도가 아닙니다. 붉은 점선·×는 차단이며 이동점을 표시하지 않습니다. 청록 화살표는 g × (Vmₐ−Vmᵦ)로 구한 전류 방향을 최대 6개까지 보여 줍니다. 화살표 길이는 전류 크기가 아니며, 혈류나 흉곽 전류의 유선도 아닙니다.</p></section>
+      <section><h3>그림의 크기와 전극 좌표</h3><p>심장은 구조를 읽기 위해 확대해 그린 전면 개념 절개도입니다. LA와 앞·뒤의 심근 구역을 펼쳐 보여 주며 실제 단면이나 위치 비례를 재현하지는 않습니다. 전극은 별도의 3D 흉곽 타원체 표면 좌표에서 계산하며, 심장 그림의 확대가 계산 거리를 바꾸지 않습니다. ‘전극 위치’에서는 전극과 흉곽을 함께 보여 줍니다. 흉곽 보기를 바꿔도 심장 절개도는 정면으로 유지됩니다. 가슴 전극 위치는 축약 좌표이며 실제 늑간 부착 도해가 아닙니다. 점선 전극은 현재 보기의 반대쪽 표면에 있습니다.</p><p>벽의 옅은 황금색은 흥분, 청회색은 Vm이 감소하는 회복입니다. 각 구역·층의 평균 Vm을 저장 샘플 사이에서 보간하며, Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열합니다. 이름에 마우스를 올리거나 키보드로 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 패널을 엽니다. 설정에서 켜는 작은 벡터 도해의 청회색은 합성 dipole, 청록 점선은 선택 유도의 Lead field입니다. 전압은 고정 배율의 a.u.이고 임상 mV로 보정하지 않았습니다.</p></section>
+      <p className="ecg-guide-sources">근거: <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noreferrer">OpenStax · Heart anatomy</a> · <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noreferrer">OpenStax · Conduction system</a> · <a href="https://www.bem.fi/book/06/06.htm" target="_blank" rel="noreferrer">Bioelectromagnetism · 활성과 전류</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27034121/" target="_blank" rel="noreferrer">APD gradient와 T wave 연구</a></p>
     </div></dialog>
   </div>;
 }
