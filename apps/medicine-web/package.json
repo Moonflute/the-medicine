@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.13.114",
+  "version": "0.13.115",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs && node scripts/build-study-flow-index.mjs",
@@ -14,6 +14,7 @@
     "lint": "eslint",
     "verify:ecg-forward": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-forward.mjs",
     "verify:ecg-refinements": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-refinements.mjs",
+    "verify:ecg-ischemia": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-ischemia.mjs",
     "verify:physiology": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-interactive-physiology.mjs && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-interactive-improvements.mjs && npm run verify:ecg-forward",
     "audit:microbiology": "node scripts/build-microbiology-relations.mjs && node scripts/audit-microbiology-quality.mjs",
     "audit:hubs": "node scripts/audit-hubs.mjs",

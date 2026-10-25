@@ -72,6 +72,16 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .ecg-scene-toolbar { display:flex; align-items:center; gap:10px; padding:0 9px; border-bottom:1px solid var(--line); font-size:12px; }
 .ecg-scene-toolbar label { display:flex; align-items:center; gap:5px; white-space:nowrap; }
 .ecg-scene-toolbar button:first-of-type { margin-left:auto; }
+.physiology-workbench .ecg-injury-launch { min-height:27px; padding:3px 6px; border:1px solid #d9bcc5; border-radius:5px; font-size:11px; color:#913a4b; white-space:nowrap; }
+.physiology-workbench .ecg-injury-launch[data-active="true"] { background:#f9e9ed; color:#873045; }
+.ecg-injury-key i { background:#b24762; }
+.ecg-injury-intro h3,.ecg-injury-result h3,.ecg-tissue-probes h3 { font-size:13px; font-weight:750; }
+.ecg-injury-intro p,.ecg-injury-result p,.ecg-tissue-probes p { margin-top:5px; font-size:11px; line-height:1.55; color:var(--muted); }
+.ecg-injury-regions { border:0; padding:0; min-width:0; }.ecg-injury-regions legend { font-size:12px; margin-bottom:6px; }.ecg-injury-regions>div { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; }
+.physiology-workbench .ecg-injury-regions button { min-height:30px; padding:4px 3px; border:1px solid var(--line); border-radius:5px; font-size:10px; }
+.ecg-injury-actions { display:flex; gap:5px; }.physiology-workbench .ecg-injury-actions button { padding:5px 8px; font-size:11px; min-height:32px; }
+.ecg-injury-result { padding-top:10px; border-top:1px solid var(--line); }.ecg-injury-result dl { margin:8px 0; display:grid; gap:5px; }.ecg-injury-result dl>div { display:flex; justify-content:space-between; font-size:12px; }.ecg-injury-result dd { font:600 13px ui-monospace,monospace; }.ecg-injury-result .ecg-check { margin-top:9px; }.ecg-injury-result .ecg-onset-button { margin-top:8px; }
+.ecg-tissue-probes svg { display:block; width:100%; margin-top:6px; background:#fafbf9; border:1px solid var(--line); border-radius:6px; }.ecg-tissue-probes text { font:9px system-ui,sans-serif; fill:#516a62; }
 .physiology-workbench .ecg-scene-toolbar select,.physiology-workbench .ecg-signal-toolbar select { padding:3px 5px; border-radius:5px; font-size:12px; }
 .ecg-integrated-scene { position:relative; display:grid; grid-template-rows:minmax(0,1fr) 30px; min-height:0; min-width:0; background:#fbfcfa; color:#203b3b; }
 .ecg-integrated-heading { position:absolute; z-index:1; top:4px; left:0; right:0; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:3px 10px; pointer-events:none; }

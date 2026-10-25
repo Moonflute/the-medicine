@@ -5,35 +5,48 @@ import { Pause, Play, RotateCcw, Save, X, Info, SlidersHorizontal, Maximize2, Gr
 import { useEffect, useMemo, useRef, useState } from "react";
 import { EcgForwardScene } from "@/components/ecg-forward-scene";
 import { EcgForwardTrace, type EcgTraceSignal, type EcgTraceTimeline } from "@/components/ecg-forward-trace";
+import { EcgIschemiaPanel } from "@/components/ecg-ischemia-panel";
+import {measureSt,sampleMean,stWindow} from "@/lib/ecg-ischemia";
 import { HEART_PARTS, partSnapshot, recordingFrame, type HeartPart } from "@/lib/ecg-forward-display";
 import { DEFAULT_ELECTRODES, ELECTRODE_IDS, STANDARD_LEADS, dot3, electrodePosition, FORWARD_CONDITIONS, leadFieldAtCenter, leadPreset, measureStandardTraces, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardInputs, type ForwardRecording, type StandardLead } from "@/lib/ecg-forward-model";
 
-type Props={readRecording:()=>ForwardRecording;inputs:ForwardInputs;onInputs:(inputs:ForwardInputs)=>void;busy:boolean};
+type Props={readRecording:()=>ForwardRecording;readReference?:()=>ForwardRecording;inputs:ForwardInputs;onInputs:(inputs:ForwardInputs)=>void;busy:boolean};
 type Comparison={inputs:ForwardInputs;electrodes:ElectrodeMap;values:Record<StandardLead,Float32Array>;lead:StandardLead;label:string};
 const STEPS:HeartPart[]=["SA node","RA","AV node","His","RV Purkinje","LV Purkinje"];
 const LEAD_ORDER:StandardLead[]=["I","II","III","aVR","aVL","aVF","V1","V2","V3","V4","V5","V6"];
 const positiveElectrode=(lead:StandardLead):ElectrodeId=>lead.startsWith("V")?lead as ElectrodeId:lead==="I"||lead==="aVL"?"LA":lead==="aVR"?"RA":"LL";
 
-export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) {
+export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs,busy}:Props) {
   const recording=readRecording();
+  const reference=readReference?.(),lesion=recording.inputs.ischemia;
   const [electrodes,setElectrodes]=useState<ElectrodeMap>(()=>structuredClone(DEFAULT_ELECTRODES));
   const [selected,setSelected]=useState<ElectrodeId>("LL"),[lead,setLead]=useState<StandardLead>("II");
-  const [part,setPart]=useState<HeartPart>("SA node"),[panel,setPanel]=useState<"structure"|"electrodes"|"model"|null>(null);
+  const [part,setPart]=useState<HeartPart>("SA node"),[panel,setPanel]=useState<"structure"|"electrodes"|"model"|"injury"|null>(null);
   const initialTime=0;
   const [timeMs,setTimeMs]=useState(initialTime),[playing,setPlaying]=useState(false),[speed,setSpeed]=useState(.25);
   const [yaw,setYaw]=useState(0),[showCurrents,setShowCurrents]=useState(true),[showVectors,setShowVectors]=useState(true);
   const [electrodeMode,setElectrodeMode]=useState(false);
   const [showApproximation,setShowApproximation]=useState(false),[gain,setGain]=useState(1),[display,setDisplay]=useState<"twelve"|"focus">("twelve");
   const [windowMode,setWindowMode]=useState<"beat"|"all">("beat"),[comparison,setComparison]=useState<Comparison|null>(null);
+  const [showReference,setShowReference]=useState(true),[tpZero,setTpZero]=useState(false);
   const clock=useRef(initialTime),guide=useRef<HTMLDialogElement>(null),settingsButton=useRef<HTMLButtonElement>(null);
   const traces=useMemo(()=>measureStandardTraces(recording,electrodes),[recording,electrodes]);
+  const normalTraces=useMemo(()=>reference&&lesion?measureStandardTraces(reference,electrodes):undefined,[reference,lesion,electrodes]);
+  const stInterval=useMemo(()=>stWindow(recording),[recording]);
+  const st=useMemo(()=>Object.fromEntries(STANDARD_LEADS.map(id=>[id,measureSt(recording,traces[id],stInterval)])) as Record<StandardLead,ReturnType<typeof measureSt>>,[recording,traces,stInterval]);
   const timeline=useMemo<EcgTraceTimeline>(()=>{
     const times=(chambers:string[],values:Float32Array)=>recording.mesh.cells.flatMap((cell,i)=>chambers.includes(cell.chamber)&&values[i]>=0?[values[i]]:[]);
     const atrial=times(["RA","LA"],recording.activationMs),ventricular=times(["RV","LV"],recording.activationMs),recovery=times(["RV","LV"],recording.recoveryMs);
     return {durationMs:recording.durationMs,sampleMs:recording.sampleMs,samples:recording.samples,periodMs:60000/recording.inputs.rate,phases:[{label:"P",start:Math.min(...atrial)-5,end:Math.max(...atrial)+8,color:"#dbeafe"},{label:"QRS",start:Math.min(...ventricular)-5,end:Math.max(...ventricular)+12,color:"#d1fae5"},{label:"T",start:Math.min(...recovery)-30,end:Math.max(...recovery)+30,color:"#ede9fe"}].filter(p=>Number.isFinite(p.start)&&Number.isFinite(p.end))};
   },[recording]);
   // Readers expose only the needed arrays without expanding them in React's dev profiler.
-  const signalReaders=useMemo(()=>Object.fromEntries(STANDARD_LEADS.map(id=>[id,()=>({trace:traces[id],baseline:comparison?.values[id]})])) as Record<StandardLead,()=>EcgTraceSignal>,[traces,comparison]);
+  const signalReaders=useMemo(()=>Object.fromEntries(STANDARD_LEADS.map(id=>{
+    const baseline=lesion&&showReference?normalTraces?.[id].values:comparison?.values[id];
+    const zero=lesion&&tpZero?st[id].tp:0;
+    const baselineZero=lesion&&tpZero&&baseline?sampleMean(baseline,recording.sampleMs,20,80):0;
+    const approximateZero=lesion&&tpZero?sampleMean(traces[id].approximate,recording.sampleMs,20,80):0;
+    return [id,()=>({trace:traces[id],baseline,zero,baselineZero,approximateZero,measurement:lesion?st[id]:undefined,stWindow:stInterval})];
+  })) as Record<StandardLead,()=>EcgTraceSignal>,[traces,comparison,lesion,showReference,normalTraces,tpZero,st,recording.sampleMs,stInterval]);
   const placement=leadPreset(lead,electrodes),trace=traces[lead],frame=recordingFrame(recording,timeMs);
   const snapshot=partSnapshot(recording,part,frame),definition=HEART_PARTS.find(item=>item.id===part)!;
   const field=leadFieldAtCenter(placement),p=recording.dipole.subarray(frame*3,frame*3+3),length=Math.hypot(...p)*Math.hypot(...field);
@@ -42,7 +55,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
   const windowMs=windowMode==="beat"?60000/recording.inputs.rate:recording.durationMs;
   const displaced=ELECTRODE_IDS.some(id=>Math.abs(electrodes[id].latitude-DEFAULT_ELECTRODES[id].latitude)>.01||Math.abs(electrodes[id].longitude-DEFAULT_ELECTRODES[id].longitude)>.01);
   useEffect(()=>{
-    if(!playing)return;
+    if(!playing||busy)return;
     let animation=0,previous=0,lastDraw=0;
     const step=(now:number)=>{
       if(previous&&!document.hidden)clock.current=(clock.current+Math.min(now-previous,100)*speed)%recording.durationMs;
@@ -50,7 +63,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
       animation=requestAnimationFrame(step);
     };
     animation=requestAnimationFrame(step);return()=>cancelAnimationFrame(animation);
-  },[playing,speed,recording.durationMs]);
+  },[playing,speed,recording.durationMs,busy]);
   useEffect(()=>{
     if(!panel)return;
     const close=(event:globalThis.KeyboardEvent)=>{if(event.key==="Escape"){setPanel(null);settingsButton.current?.focus();}};
@@ -70,7 +83,8 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
   const move=(id:ElectrodeId,electrode:Electrode)=>setElectrodes(value=>({...value,[id]:electrode}));
   const selectPart=(value:HeartPart)=>{setPart(value);setPanel("structure");};
   const jump=(value:HeartPart)=>{setPart(value);const onset=partSnapshot(recording,value,frame).onset;if(onset!==null)seek(Math.round(onset/recording.sampleMs)*recording.sampleMs);};
-  const save=()=>setComparison({inputs:{...inputs},electrodes:structuredClone(electrodes),lead,values:Object.fromEntries(STANDARD_LEADS.map(id=>[id,traces[id].values.slice()])) as Record<StandardLead,Float32Array>,label:`${FORWARD_CONDITIONS.find(item=>item.id===inputs.condition)?.label} · ${inputs.rate}/min · 12유도`});
+  const save=()=>{setShowReference(false);setComparison({inputs:structuredClone(inputs),electrodes:structuredClone(electrodes),lead,values:Object.fromEntries(STANDARD_LEADS.map(id=>[id,traces[id].values.slice()])) as Record<StandardLead,Float32Array>,label:`${FORWARD_CONDITIONS.find(item=>item.id===inputs.condition)?.label} · ${inputs.rate}/min · ${inputs.ischemia?.mode??"무손상"} · 12유도`});};
+  const applyTissue=(value:ForwardInputs)=>{setPlaying(false);setShowReference(true);onInputs(value);};
 
   return <div className="ecg-workspace">
     <div className="ecg-workspace-main" inert={busy}>
@@ -79,6 +93,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
           <label>전극<select aria-label="이동할 전극" value={selected} onChange={event=>selectElectrode(event.target.value as ElectrodeId)}>{ELECTRODE_IDS.map(id=><option key={id} value={id}>{id}</option>)}</select></label>
           <label>흉곽<select aria-label="흉곽 보기" value={yaw} onChange={event=>{setYaw(Number(event.target.value));setElectrodeMode(true);}}><option value={0}>Anterior</option><option value={45}>Oblique</option><option value={90}>Lateral</option><option value={180}>Posterior</option></select></label>
           <label><input type="checkbox" checked={showCurrents} onChange={event=>setShowCurrents(event.target.checked)}/>전류</label>
+          <button type="button" className="ecg-injury-launch" aria-label="Infarction 실험 열기" aria-pressed={panel==="injury"} data-active={Boolean(lesion)} onClick={()=>setPanel(value=>value==="injury"?null:"injury")}>Ischemia / MI{lesion?" ●":""}</button>
           <button ref={settingsButton} type="button" className="ecg-icon-button" aria-label="구조·전극·모델 설정" aria-expanded={panel!==null} aria-controls="ecg-settings-panel" onClick={()=>setPanel(value=>value?null:"electrodes")}><SlidersHorizontal size={17}/><span>설정</span></button>
           <button type="button" className="ecg-icon-button" aria-label="도해와 계산 설명" onClick={()=>guide.current?.showModal()}><Info size={17}/></button>
         </div>
@@ -87,7 +102,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
           <button className="simulation-primary" type="button" aria-label={playing?"전기활동 일시정지":"전기활동 재생"} onClick={()=>setPlaying(value=>!value)}>{playing?<Pause size={15}/>:<Play size={15}/>}<span>{playing?"정지":"재생"}</span></button>
           <button className="simulation-button" type="button" onClick={()=>seek(0)} aria-label="계산 기록 처음으로"><RotateCcw size={15}/></button>
           <select aria-label="전기활동 재생 속도" value={speed} onChange={event=>setSpeed(Number(event.target.value))}>{[.1,.25,.5,1].map(value=><option key={value} value={value}>{value}×</option>)}</select>
-          <div className="ecg-phase-jumps" role="group" aria-label="파형 단계 관찰">{["P","QRS","T"].map(label=><button type="button" key={label} aria-label={`${label} wave 관찰`} onClick={()=>jumpPhase(label)}>{label}</button>)}</div>
+          <div className="ecg-phase-jumps" role="group" aria-label="파형 단계 관찰">{["P","QRS","T"].map(label=><button type="button" key={label} aria-label={`${label} wave 관찰`} onClick={()=>jumpPhase(label)}>{label}</button>)}{lesion?<><button type="button" aria-label="TP 구간 관찰" onClick={()=>seek(60)}>TP</button><button type="button" aria-label="ST 구간 관찰" disabled={!st[lead].valid} onClick={()=>seek(stInterval.end+2)}>ST</button></>:null}</div>
           <input aria-label="관찰 시각" type="range" min={0} max={recording.durationMs} step={recording.sampleMs} value={timeMs} onChange={event=>seek(Number(event.target.value))}/><output>{Math.round(timeMs)} <small>ms</small></output>
         </div>
       </section>
@@ -97,20 +112,20 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
         <div className="ecg-signal-toolbar">
           <label>선택<select aria-label="관찰할 ECG 유도" value={lead} onChange={event=>chooseLead(event.target.value as StandardLead)}>{STANDARD_LEADS.map(id=><option key={id} value={id}>{id}</option>)}</select></label>
           <label>감도<select aria-label="ECG 화면 감도" value={gain} onChange={event=>setGain(Number(event.target.value))}>{[.25,.5,1,2].map(value=><option key={value} value={value}>{value}×</option>)}</select></label>
-          <label>시간축<select aria-label="ECG 시간 범위" value={windowMode} onChange={event=>setWindowMode(event.target.value as "beat"|"all")}><option value="beat">1박동</option><option value="all">전체 2.4 s</option></select></label><span className="ecg-shared-scale">{playing?"기록 중":"재생 → 파형 기록"} · 공통 배율</span>
+          <label>시간축<select aria-label="ECG 시간 범위" value={windowMode} onChange={event=>setWindowMode(event.target.value as "beat"|"all")}><option value="beat">1박동</option><option value="all">전체 2.4 s</option></select></label><span className="ecg-shared-scale">{lesion?`${tpZero?"TP=0":"원 전위"} · ${showReference?"점선: 무손상":"현재 조직"}`:playing?"기록 중":"재생 → 파형 기록"}</span>
         </div>
         {display==="twelve"?<div className="ecg-twelve-grid">{LEAD_ORDER.map(id=><section key={id} className="ecg-lead-tile" data-selected={lead===id} data-lead={id} aria-label={`Lead ${id}`}>
-          <button type="button" className="ecg-lead-label" aria-pressed={lead===id} aria-label={`Lead ${id} 선택`} onClick={()=>chooseLead(id)}><b>{id}</b><span>{traces[id].values[frame].toFixed(2)}</span></button>
+          <button type="button" className="ecg-lead-label" aria-pressed={lead===id} aria-label={`Lead ${id} 선택`} onClick={()=>chooseLead(id)}><b>{id}</b><span data-st-lead={id} data-st-value={st[id].valid?st[id].shift:undefined}>{lesion?st[id].valid?`ST ${st[id].shift>=0?"+":""}${st[id].shift.toFixed(3)}`:"ST —":traces[id].values[frame].toFixed(2)}</span></button>
           <EcgForwardTrace timeline={timeline} readSignal={signalReaders[id]} timeMs={timeMs} gain={gain} windowMs={windowMs} compact showApproximation={showApproximation} onSeek={seek}/>
         </section>)}</div>:<EcgForwardTrace timeline={timeline} readSignal={signalReaders[lead]} timeMs={timeMs} gain={gain} windowMs={windowMs} annotate showApproximation={showApproximation} onSeek={seek}/>}
-        <div className="ecg-signal-values"><span><b>{lead}</b> Δφ <b>{trace.values[frame].toFixed(3)}</b></span><span>φ(+) <b>{trace.positive[frame].toFixed(3)}</b></span><span>φ(ref) <b>{trace.reference[frame].toFixed(3)}</b></span><span>벡터 <b>{angle===null?"—":angle.toFixed(0)+"°"}</b></span><small>a.u. · mV 아님</small></div>
+        <div className="ecg-signal-values"><span><b>{lead}</b> Δφ <b>{trace.values[frame].toFixed(3)}</b></span>{lesion?<><span>TP <b>{st[lead].tp.toFixed(3)}</b></span><span title={st[lead].warning??"첫 박동 · 원 전위에서 측정"}>ST−TP <b>{st[lead].valid?`${st[lead].shift>=0?"+":""}${st[lead].shift.toFixed(3)}`:"해석 보류"}</b></span></>:<><span>φ(+) <b>{trace.positive[frame].toFixed(3)}</b></span><span>φ(ref) <b>{trace.reference[frame].toFixed(3)}</b></span></>}<span>벡터 <b>{angle===null?"—":angle.toFixed(0)+"°"}</b></span><small>{lesion?"첫 박동 · ":""}a.u. · mV 아님</small></div>
       </section>
     </div>
 
-    <aside id="ecg-settings-panel" className="ecg-inspector" aria-label="심장 모델 조작과 설명" hidden={panel===null}>
-      <div className="ecg-inspector-tabs" role="group" aria-label="조작 패널 선택">{([['structure','부위'],['electrodes','전극'],['model','모델']] as const).map(([value,label])=><button type="button" key={value} aria-pressed={panel===value} onClick={()=>setPanel(value)}>{label}</button>)}<button type="button" aria-label="설정 닫기" onClick={()=>{setPanel(null);settingsButton.current?.focus();}}><X size={17}/></button></div>
+    <aside id="ecg-settings-panel" className="ecg-inspector" aria-label="심장 모델 조작과 설명" hidden={panel===null} inert={busy}>
+      <div className="ecg-inspector-tabs" role="group" aria-label="조작 패널 선택">{([['injury','손상'],['structure','부위'],['electrodes','전극'],['model','모델']] as const).map(([value,label])=><button type="button" key={value} aria-pressed={panel===value} onClick={()=>setPanel(value)}>{label}</button>)}<button type="button" aria-label="설정 닫기" onClick={()=>{setPanel(null);settingsButton.current?.focus();}}><X size={17}/></button></div>
       <div className="ecg-inspector-content">
-        {panel==="structure"?<>
+        {panel==="injury"?<EcgIschemiaPanel key={JSON.stringify(recording.inputs)} inputs={inputs} onInputs={applyTissue} readRecording={readRecording} readReference={readReference} measurement={st[lead]} window={stInterval} lead={lead} onSt={()=>seek(stInterval.end+2)} showReference={showReference} onReference={setShowReference} tpZero={tpZero} onTpZero={setTpZero}/>:panel==="structure"?<>
           <label className="ecg-field">선택한 구조<select aria-label="심장 구조 선택" value={part} onChange={event=>setPart(event.target.value as HeartPart)}>{HEART_PARTS.map(item=><option key={item.id} value={item.id}>{item.id} · {item.name}</option>)}</select></label>
           <section className="ecg-part-detail"><span className="ecg-part-code">{part}</span><h3>{definition.name}</h3><p>{definition.description}</p></section>
           <div className="ecg-part-values"><div><span>현재 최대 Vm</span><b>{snapshot.peak.toFixed(2)}</b></div><div><span>활성 구역 / 전체</span><b>{snapshot.active} / {snapshot.total}</b></div></div>
@@ -141,7 +156,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
     <dialog ref={guide} className="ecg-guide-dialog" aria-labelledby="ecg-guide-title"><header><h2 id="ecg-guide-title">심장 전도와 12유도 읽기</h2><button type="button" aria-label="설명 닫기" onClick={()=>guide.current?.close()}><X size={20}/></button></header><div>
       <section><h3>같은 심장, 12개 관찰 방향</h3><p>I = LA−RA, II = LL−RA, III = LL−LA입니다. aVR·aVL·aVF는 각각 RA·LA·LL에서 나머지 두 전극의 평균을 뺍니다. V1–V6는 각 가슴 전극에서 RA·LA·LL 평균을 뺍니다. Limb electrode를 옮기면 이 전극을 기준으로 사용하는 다른 유도도 함께 바뀝니다. RL 접지의 접촉·장비 회로는 계산하지 않습니다.</p><p>12유도 전체는 같은 시간축·감도를 사용합니다. 유도를 선택하고 ‘확대’를 누르면 한 파형을 크게 볼 수 있습니다. 확대 화면의 P·QRS·T 배경은 계산된 Atrial activation, Ventricular activation·recovery 시점에 대응하는 구간이며 임상 자동 판독 결과는 아닙니다.</p></section>
       <section><h3>전도·회복과 파형</h3><p>각 Myocardial 구역의 막전위·회복과 구역 사이 전류를 적분합니다. Atrial propagation, 빠른 Septal activation, Ventricular wall 및 늦은 Basal activation의 합으로 P·QRS가 만들어집니다. 부위·층별 Action potential duration 차이는 T wave에 기여합니다. 유도별 P·QRS·T 함수를 덧붙이거나 결과를 평활화하지 않습니다.</p><p>청록색 선은 전도계입니다. 심방 사이의 개별 전도 경로는 도해에서 생략하고 계산에서는 Atrial myocardium 사이 결합으로 축약합니다. His와 Bundle branches는 Septum을 따르고, Purkinje 말단은 Endocardial 경계에서 분지하도록 펼쳤습니다. 황금색 이동점은 실제 기록의 활성 시각 사이를 보간하며 화면 속도가 실제 전도 속도를 뜻하지는 않습니다.</p><p>파란 화살표는 계산식 g × (Vmₐ−Vmᵦ)의 부호로 결정됩니다. 심근에서는 구역별로 도해에 투영한 합성 전류를, 전도계에서는 겹치지 않는 최대 5개의 결합 전류를 보여 줍니다. 길이는 가독성 범위 안에서 상대 크기를 나타내며 절대 전류 척도는 아닙니다. 흥분 파면·혈류·흉곽 전류 유선과는 다릅니다. 휴지기의 작은 전류는 표시하지 않으며, 전류가 역전되면 화살표도 반전합니다.</p><p>재생하면 2.4 s 계산 기록의 현재 시각까지 선이 그려집니다. 아직 도달하지 않은 파형은 보이지 않으며 새 시간창에서는 빈 종이부터 시작합니다. 비교 저장한 기록만 회색 점선으로 남습니다. P·QRS·T 버튼은 선택 유도의 해당 구간 최대 진폭 시점으로 이동합니다.</p></section>
-      <section><h3>부위별 Ischemia 확장의 범위</h3><p>내부 계산에는 구역·벽 깊이에 따라 Resting potential, Action potential amplitude, Excitability, Recovery 및 Coupling을 바꾸는 인터페이스를 마련했습니다. 이는 향후 연구용 확장점이며 지금 선택할 수 있는 Infarction 프리셋이나 검증된 ST elevation 모델은 아닙니다. 원 전위의 DC 성분을 보존하며 ST는 TP 기준선과의 차이로 별도 평가합니다. 실제 Ischemia에는 Ionic current·관류·경계 부위와 Torso conductor의 추가 검증이 필요합니다.</p></section>
+      <section><h3>부위별 Ischemia / Infarction 실험</h3><p>‘Ischemia / MI’에서 구역·침범 깊이·조직 상태를 선택하고 적용합니다. Acute ischemia는 Resting potential, Inward·Outward current, Recovery와 Coupling을 바꾸며, Scar는 비흥분성·절연 조직으로 처리합니다. 파형의 ST 구간에 값을 더하지 않습니다. 회색 점선은 같은 조건에서 손상만 제거한 별도 계산입니다. 허혈 스트레스는 정규화 매개변수이며 K⁺ 농도·괴사율·발병 시간이 아닙니다.</p><p>TP 버튼으로 휴지기 전류, ST 버튼으로 측정 구간을 관찰하세요. ST−TP는 첫 박동의 원 전위 평균 차이입니다. TP=0 표시를 켜도 전체 기록에서 상수만 차감하며 원 데이터는 보존됩니다. 전도 지연이나 비손상 심근 회복과의 중첩으로 구간 분리가 어려우면 수치를 보류합니다. 손상 패널의 Endocardial/Epicardial Vm은 같은 계산 배열에서 읽습니다.</p><p>9개 구역은 Coronary territory·AHA segment와 일대일 대응하지 않고, LV inferior는 독립 구역이 아닙니다. 실제 Ionic concentration, 관류, Fibrosis 구조와 흉곽 경계조건까지 재현한 Bidomain 모델은 아닙니다. 임상 mV·STEMI 진단·환자 예측에 사용할 수 없으며 Hyperkalemia는 아직 구현하지 않았습니다. 자세한 식과 한계는 <Link href="/interactive/ecg-arrhythmia/notes#regional-ischemia">부위별 Ischemia 노트</Link>에서 확인할 수 있습니다.</p></section>
       <section><h3>그림의 크기와 전극 좌표</h3><p>심장은 구조를 읽기 위해 확대해 그린 전면 개념 절개도입니다. LA와 앞·뒤의 심근 구역을 펼쳐 보여 주며 실제 단면이나 위치 비례를 재현하지는 않습니다. 전극은 별도의 3D 흉곽 타원체 표면 좌표에서 계산하며, 심장 그림의 확대가 계산 거리를 바꾸지 않습니다. ‘전극 위치’에서는 전극과 흉곽을 함께 보여 줍니다. 흉곽 보기를 바꿔도 심장 절개도는 정면으로 유지됩니다. 가슴 전극 위치는 축약 좌표이며 실제 늑간 부착 도해가 아닙니다. 점선 전극은 현재 보기의 반대쪽 표면에 있습니다.</p><p>벽의 옅은 황금색은 흥분, 청회색은 Vm이 감소하는 회복입니다. 각 구역·층의 평균 Vm을 저장 샘플 사이에서 보간하며, Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열합니다. 이름에 마우스를 올리거나 키보드로 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 패널을 엽니다. 설정에서 켜는 작은 벡터 도해의 청회색은 합성 dipole, 청록 점선은 선택 유도의 Lead field입니다. 전압은 고정 배율의 a.u.이고 임상 mV로 보정하지 않았습니다.</p></section>
       <p className="ecg-guide-sources">근거: <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noreferrer">OpenStax · Heart anatomy</a> · <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noreferrer">OpenStax · Conduction system</a> · <a href="https://www.bem.fi/book/06/06.htm" target="_blank" rel="noreferrer">Bioelectromagnetism · 활성과 전류</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27034121/" target="_blank" rel="noreferrer">APD gradient와 T wave 연구</a></p>
       <p className="ecg-guide-sources">모델 참고: <a href="https://doi.org/10.1161/01.CIR.41.6.899" target="_blank" rel="noreferrer">Durrer · Ventricular activation</a> · <a href="https://opencarp.org/documentation/examples/02_ep_tissue/07_extracellular" target="_blank" rel="noreferrer">openCARP · ECG recovery</a> · <a href="https://doi.org/10.1186/s12576-020-00760-3" target="_blank" rel="noreferrer">Okada · ST elevation 기전</a></p>

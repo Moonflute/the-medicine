@@ -41,6 +41,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
   const [hovered, setHovered] = useState<HeartPart | null>(null);
   const layout = useMemo(() => createAnatomyLayout(recording.mesh), [recording.mesh]);
   const events = useMemo(() => conductionEvents(recording, layout.paths), [recording, layout.paths]);
+  const injuryBands=useMemo(()=>layout.bands.map(band=>({...band,injury:band.cells.reduce((sum,index)=>sum+(recording.mesh.cells[index].injury??0),0)/Math.max(1,band.cells.length),scar:band.cells.some(index=>recording.mesh.cells[index].scar)})).filter(band=>band.injury>0),[layout.bands,recording.mesh]);
   const frame = recordingFrame(recording, timeMs), n = recording.mesh.cells.length;
   const position = Math.max(0, Math.min(recording.samples - 1, timeMs / recording.sampleMs));
   const left = Math.floor(position), right = Math.min(recording.samples - 1, left + 1), fraction = position - left;
@@ -113,6 +114,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
         onMove(selected, { longitude: ((e.longitude + (event.key === "ArrowRight" ? step : event.key === "ArrowLeft" ? -step : 0) + 540) % 360) - 180, latitude: Math.max(-80, Math.min(80, e.latitude + (event.key === "ArrowUp" ? step : event.key === "ArrowDown" ? -step : 0))) });
       }}>
       <defs>
+        <pattern id={`${id}-scar`} width="5" height="5" patternUnits="userSpaceOnUse"><rect width="5" height="5" fill="#b8a8a8"/><path d="M0 5L5 0" stroke="#64525b" strokeWidth="1"/></pattern>
         <filter id={`${id}-tissue-soften`} x="-.02" y="-.02" width="1.04" height="1.04" colorInterpolationFilters="sRGB"><feGaussianBlur stdDeviation="1.5" /></filter>
         <marker id={`${id}-current`} viewBox="0 0 12 12" refX="9" refY="6" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M1 1L11 6L1 11L3 6Z" fill="#086bb5" stroke="white" strokeWidth=".7" /></marker>
         {["dipole", "field"].map((key, i) => <marker key={key} id={`${id}-${key}`} viewBox="0 0 8 8" refX="6" refY="4" markerWidth="4" markerHeight="4" orient="auto"><path d="M1 1L7 4L1 7Z" fill={i ? "#176c64" : "#657f93"} /></marker>)}
@@ -126,6 +128,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
       <g className="ecg-anatomy-layer" opacity={electrodeMode ? .6 : 1} aria-hidden={electrodeMode}>
         <EcgForwardHeart id={id} />
         <g mask={`url(#${id}-myocardial-mask)`} pointerEvents="none" aria-hidden="true">
+          {injuryBands.map((band,index)=><path key={`injury-${index}`} data-injury-region={band.region} data-injury-state={band.scar?"scar":"acute"} d={band.path} fill={band.scar?`url(#${id}-scar)`:"#b24762"} fillOpacity={band.scar?.7:.18+band.injury*.4} stroke="#a23e52" strokeWidth=".35"/>)}
           <g filter={`url(#${id}-tissue-soften)`}>
             {bands.map((band, index) => <path key={index} data-myocardial-region={band.region} d={band.path} fill={band.falling ? "#7b9eac" : "#e5ad55"} fillOpacity={Math.max(0, band.voltage - .08) * .65} />)}
           </g>
@@ -204,6 +207,6 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
       }) : null}
     </svg>
     {!electrodeMode && hovered ? <div id={`${id}-hint`} className="ecg-anatomy-tooltip" role="tooltip"><strong>{HEART_PARTS.find(item => item.id === hovered)!.name}</strong><span>{HINTS[hovered]}</span><small>클릭 또는 Enter · 상세 설명</small></div> : null}
-    <div className="ecg-heart-key"><span><i className="ecg-key-conduction" />전도계</span><span><i className="ecg-key-active" />흥분</span><span><i className="ecg-key-recovery" />회복</span>{showCurrents ? <span className="ecg-current-key">➜ {arrows.length ? "전류 방향·상대 크기" : "전류 낮음"}</span> : null}<strong>{phase}</strong></div>
+    <div className="ecg-heart-key"><span><i className="ecg-key-conduction" />전도계</span><span><i className="ecg-key-active" />흥분</span><span><i className="ecg-key-recovery" />회복</span>{injuryBands.length?<span className="ecg-injury-key"><i/>{recording.inputs.ischemia?.mode==="scar"?"Scar":"Ischemia"}</span>:null}{showCurrents ? <span className="ecg-current-key">➜ {arrows.length ? "전류 방향·상대 크기" : "전류 낮음"}</span> : null}<strong>{phase}</strong></div>
   </div>;
 }

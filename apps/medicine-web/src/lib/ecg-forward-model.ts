@@ -11,11 +11,14 @@ export type Chamber = "RA" | "LA" | "RV" | "LV" | "node";
 export type ConductionCondition = "normal" | "av-slow" | "rbb-block" | "lbb-block" | "rv-pacing";
 export const MYOCARDIAL_REGIONS = ["lv-septal", "lv-apical", "lv-lateral", "lv-anterior", "lv-posterior", "lv-basal", "rv-anterior", "rv-apical", "rv-basal"] as const;
 export type MyocardialRegion = typeof MYOCARDIAL_REGIONS[number];
+export const MYOCARDIAL_LABELS: Record<MyocardialRegion,string> = {"lv-septal":"LV septal","lv-apical":"LV apical","lv-lateral":"LV lateral","lv-anterior":"LV anterior","lv-posterior":"LV posterior","lv-basal":"LV basal","rv-anterior":"RV anterior","rv-apical":"RV apical","rv-basal":"RV basal"};
+export type IschemiaInputs = { regions: MyocardialRegion[]; mode: "acute" | "scar"; depth: number; severity: number };
+export const DEFAULT_ISCHEMIA: IschemiaInputs = {regions:["lv-anterior"],mode:"acute",depth:100,severity:70};
 /** Research extension seam, not an infarction preset. Values are normalized,
  * NOT mV, ionic concentrations, or a validated mapping from ischemic severity. */
 export type RegionalTissue = { region: MyocardialRegion; from?: number; to?: number; restingPotential?: number; amplitude?: number; excitability?: number; recoveryScale?: number; couplingScale?: number };
-export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number; tissue?: RegionalTissue[] };
-export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number; longitudinal?: number; column?: number; bridge?: boolean; restingPotential?: number; amplitude?: number; excitability?: number };
+export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number; tissue?: RegionalTissue[]; ischemia?: IschemiaInputs };
+export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number; longitudinal?: number; column?: number; bridge?: boolean; restingPotential?: number; amplitude?: number; excitability?: number; injury?: number; scar?: boolean };
 export type MeshResolution = { atrialLayers: number; ventricularLayers: number };
 export const DEFAULT_MESH_RESOLUTION: MeshResolution = { atrialLayers: 33, ventricularLayers: 18 };
 export type TissueEdge = { a: number; b: number; conductance: number; source: boolean; branch?: "RBB" | "LBB" | "AV" };
@@ -72,11 +75,15 @@ export function normalizeForwardInputs(inputs: ForwardInputs): ForwardInputs {
     restingPotential:finite(item.restingPotential,0,0,.15),amplitude:finite(item.amplitude,1,.5,1.2),
     excitability:finite(item.excitability,1,.2,1.5),recoveryScale:finite(item.recoveryScale,1,.6,1.4),couplingScale:finite(item.couplingScale,1,.2,1.5),
   })).filter(item=>item.to>=item.from):[];
+  const lesion=inputs.ischemia;
+  const regions=Array.isArray(lesion?.regions)?MYOCARDIAL_REGIONS.filter(id=>lesion.regions.includes(id)):[];
+  const ischemia=regions.length&&lesion?{regions,mode:lesion.mode==="scar"?"scar" as const:"acute" as const,depth:finite(lesion.depth,100,0,100),severity:finite(lesion.severity,70,0,100)}:undefined;
   return {
     rate: clamp(Number.isFinite(inputs.rate) ? inputs.rate : 70, 50, 110),
     recovery: clamp(Number.isFinite(inputs.recovery) ? inputs.recovery : 100, 70, 135),
     condition: FORWARD_CONDITIONS.some(c => c.id === inputs.condition) ? inputs.condition : "normal",
     ...(tissue.length?{tissue}:{}),
+    ...(ischemia?{ischemia}:{}),
   };
 }
 
@@ -255,7 +262,31 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
     cell.restingPotential=material.restingPotential;cell.amplitude=material.amplitude;cell.excitability=material.excitability;
     cell.tauClose*=material.recoveryScale!;conductivity[index]=material.couplingScale!;
   });
-  for(const edge of edges)edge.conductance*=2*conductivity[edge.a]*conductivity[edge.b]/(conductivity[edge.a]+conductivity[edge.b]);
+  // Lesions change the membrane/coupling equations, never a lead or ST sample.
+  // This phenomenological reduction follows the direction of ischemic changes
+  // (Okada 2020), NOT its ORd ionic equations or a mapping to K+, ATP or minutes.
+  const lesion=inputs.ischemia;
+  if(lesion&&lesion.depth>0&&(lesion.severity>0||lesion.mode==="scar"))cells.forEach((cell,index)=>{
+    if(cell.transmural===undefined||cell.bridge||!lesion.regions.includes(cell.region as MyocardialRegion))return;
+    const depth=cell.transmural,limit=lesion.depth/100;
+    if(lesion.mode==="scar") {
+      if(depth>limit)return;
+      cell.scar=true;cell.injury=1;cell.restingPotential=0;cell.excitability=0;conductivity[index]=0;
+      return;
+    }
+    // A resolved border zone avoids a discontinuous jump at a partial-wall edge.
+    const distance=(limit-depth)/.12;
+    const border=limit===1?1:clamp(distance,0,1)**2*(3-2*clamp(distance,0,1));
+    const stress=lesion.severity/100*border;
+    if(stress===0)return;
+    const sensitivity=.4+.6*depth;
+    cell.injury=stress;cell.restingPotential=(cell.restingPotential??0)+.12*stress;
+    cell.excitability=(cell.excitability??1)*(1-.65*stress*sensitivity);
+    cell.tauOut/=1+1.8*stress*sensitivity;
+    cell.tauClose*=1-.18*stress*sensitivity;
+    conductivity[index]*=1-.3*stress;
+  });
+  for(const edge of edges){const a=conductivity[edge.a],b=conductivity[edge.b];edge.conductance*=a+b>0?2*a*b/(a+b):0;}
   return {cells,edges,landmarks,sinus,pacing};
 }
 
@@ -273,7 +304,7 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
   const tauIn=Float64Array.from(cells,c=>c.tauIn),tauOut=Float64Array.from(cells,c=>c.tauOut),tauClose=Float64Array.from(cells,c=>c.tauClose);
   const rest=Float64Array.from(cells,c=>c.restingPotential??0),amplitude=Float64Array.from(cells,c=>c.amplitude??1),excitability=Float64Array.from(cells,c=>c.excitability??1);
   const edgeA=Int32Array.from(edges,e=>e.a),edgeB=Int32Array.from(edges,e=>e.b),conductance=Float64Array.from(edges,e=>e.conductance);
-  const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0&&!cell.bridge?[index]:[]):[mesh.sinus];
+  const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0&&!cell.bridge&&!cell.scar?[index]:[]):[mesh.sinus];
   const sourceWeights=[new Float64Array(n),new Float64Array(n),new Float64Array(n)];
   for(const edge of edges) if(edge.source) for(let d=0;d<3;d++) {
     const factor=SOURCE_GAIN*edge.conductance*(cells[edge.b].position[d]-cells[edge.a].position[d]);
