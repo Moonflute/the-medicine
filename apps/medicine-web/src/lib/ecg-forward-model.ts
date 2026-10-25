@@ -10,7 +10,7 @@ export type Vec3 = readonly [number, number, number];
 export type Chamber = "RA" | "LA" | "RV" | "LV" | "node";
 export type ConductionCondition = "normal" | "av-slow" | "rbb-block" | "lbb-block" | "rv-pacing";
 export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number };
-export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number };
+export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number; bridge?: boolean };
 export type TissueEdge = { a: number; b: number; conductance: number; source: boolean; branch?: "RBB" | "LBB" | "AV" };
 export type HeartMesh = { cells: TissueCell[]; edges: TissueEdge[]; landmarks: { label: string; index: number }[]; sinus: number; pacing: number };
 export type ForwardRecording = {
@@ -31,7 +31,7 @@ export const DEFAULT_FORWARD_INPUTS: ForwardInputs = { rate: 70, condition: "nor
 export const DEFAULT_PLACEMENT: LeadPlacement = {
   positive: { longitude: 48, latitude: -42 }, negative: { longitude: -64, latitude: 37 }, reference: "bipolar",
 };
-export const HEART_CENTER: Vec3 = [1, 4, 0];
+export const HEART_CENTER: Vec3 = [2.5, 4, 1.2];
 export const TORSO_RADII: Vec3 = [16, 26, 10];
 export const LIMB_ELECTRODES: Record<"RA" | "LA" | "LL", Electrode> = {
   RA: { longitude: -64, latitude: 37 }, LA: { longitude: 64, latitude: 37 }, LL: { longitude: 48, latitude: -42 },
@@ -53,7 +53,7 @@ export const FORWARD_CONDITIONS: { id: ConductionCondition; label: string; expla
 const DT_MS = .1;
 const SAMPLE_MS = 2;
 // A single fixed scale for every electrode and scenario; never normalize each lead.
-export const FORWARD_SOURCE_GAIN = 1500;
+export const FORWARD_SOURCE_GAIN = 1200;
 const SOURCE_GAIN = FORWARD_SOURCE_GAIN;
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v));
 export const dot3 = (a: Vec3, b: Vec3) => a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
@@ -118,7 +118,7 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
         const index=cells.length;
         // Regional transmural APD gradients let recovery have a different
         // spatial direction from activation, rather than copying QRS polarity.
-        const transmuralGradient=id==="lv-posterior"?20:50;
+        const transmuralGradient=id==="lv-posterior"?42:46;
         const tauClose=atrial?70:(apd-transmuralGradient*fraction+row*2+col)*inputs.recovery/100;
         cells.push({position,chamber,tauIn:.3,tauOut:atrial?6:9,tauClose,capacity:area*section/resolution,region:id,transmural:atrial?undefined:fraction});
         column.push(index);
@@ -134,11 +134,11 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
   const ra=patch("ra-wall","RA",[-2.0,9.0,.9],[.45,-1,-.05],2.4,.28,70,true);
   const la=patch("la-wall","LA",[.8,8.6,-.5],[.8,-.65,-.65],2.4,.27,70,true);
   const ventricular = [
-    {id:"lv-septal",chamber:"LV",origin:[.65,3.55,.1],normal:[-.9,-.05,.6],depth:.85,area:1.2,apd:150,level:0},
+    {id:"lv-septal",chamber:"LV",origin:[.65,3.55,.1],normal:[-.65,-.05,.8],depth:.85,area:.72,apd:150,level:0},
     {id:"lv-apical",chamber:"LV",origin:[1.55,.9,-.15],normal:[.55,-.8,.05],depth:1.35,area:1.25,apd:142,level:1},
     {id:"lv-lateral",chamber:"LV",origin:[2.05,2.7,-.15],normal:[.9,-.4,-.15],depth:1.3,area:1.8,apd:151,level:2},
-    {id:"lv-anterior",chamber:"LV",origin:[1.45,3.15,.6],normal:[.5,-.5,.8],depth:1,area:.7,apd:145,level:2},
-    {id:"lv-posterior",chamber:"LV",origin:[1.75,2.7,-.7],normal:[.5,-.5,-.85],depth:1.15,area:1.1,apd:158,level:2},
+    {id:"lv-anterior",chamber:"LV",origin:[1.45,3.15,.6],normal:[.5,-.5,.8],depth:1,area:1.15,apd:145,level:1},
+    {id:"lv-posterior",chamber:"LV",origin:[1.75,2.7,-.7],normal:[.5,-.5,-.85],depth:1.15,area:1.1,apd:158,level:3},
     {id:"lv-basal",chamber:"LV",origin:[1.7,4.2,-.2],normal:[.2,.9,-.2],depth:1,area:.4,apd:160,level:3},
     {id:"rv-anterior",chamber:"RV",origin:[-.25,3.1,.75],normal:[-.6,-.3,.75],depth:.65,area:.5,apd:142,level:2},
     {id:"rv-apical",chamber:"RV",origin:[-.5,1.3,.8],normal:[-.6,-.7,.3],depth:.65,area:.4,apd:136,level:1},
@@ -147,7 +147,7 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
   for(const region of ventricular) patch(region.id,region.chamber,region.origin,region.normal,region.depth,region.area,region.apd);
   const node = (position: Vec3, label?: string, slow=false, capacity=2, ventricular=false) => {
     const index=cells.length;
-    cells.push({ position, chamber:"node", tauIn:slow?1.2:ventricular?.3:.12, tauOut:slow?15:6, tauClose:ventricular?175*inputs.recovery/100:100, capacity:slow?1:capacity,region:"conduction" });
+    cells.push({ position, chamber:"node", tauIn:slow?1.2:ventricular?.3:.12, tauOut:slow?15:6, tauClose:ventricular?160*inputs.recovery/100:65, capacity:slow?1:capacity,region:"conduction" });
     if(label) landmarks.push({label,index});
     return index;
   };
@@ -181,7 +181,7 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
       // Illustrative distributed branch impairment, not an isolated proximal cut:
       // retain slower reciprocal distal conduction instead of synchronously
       // re-exciting the whole affected ventricle through one retrograde terminal.
-      connect(previous,next,k===0&&blocked?0:blocked?.065:.12,k===0?branch:undefined);
+      connect(previous,next,k===0&&blocked?0:blocked?.03:.085,k===0?branch:undefined);
       trunk.push(next);
       previous=next;
     });
@@ -190,13 +190,46 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
       const columns=patches.get(region.id)!;
       const terminal=node(region.origin,undefined,false,12,true);
       connect(trunk[region.level],terminal,.2);
-      for(const column of columns) connect(terminal,column[0],.065*2.2*cells[column[0]].capacity);
+      // Small spatial variation in terminal coupling avoids identical upstrokes
+      // in all nine bundles. No lead-specific timing or output filtering.
+      columns.forEach((column,i)=>connect(terminal,column[0],.065*2.2*(.85+.3*(i%3)/2)*cells[column[0]].capacity));
     }
   }
   // Reciprocal septal myocardial path permits delayed activation during BBB or pacing.
   const septal=patches.get("lv-septal")!,rv=patches.get("rv-anterior")!;
   for(let i=0;i<septal.length;i++) edges.push({a:septal[i][septal[i].length-1],b:rv[i][0],conductance:.008,source:true});
+  // Continuous, low-mass myocardial cables between adjacent regional patches.
+  // Without these the disconnected walls could only be recruited by retrograde
+  // Purkinje conduction: a long silent gap followed by a narrow second QRS.
+  // Intermediate cells carry current and have their own Vm/recovery; this is not
+  // a time shift, a long nonlocal dipole, or a prescribed widening of the trace.
+  const neighbors = [
+    ["lv-septal","lv-apical"], ["lv-apical","lv-anterior"],
+    ["lv-apical","lv-lateral"], ["lv-lateral","lv-posterior"],
+    ["lv-posterior","lv-basal"], ["rv-anterior","rv-apical"],
+    ["rv-apical","rv-basal"],
+  ];
+  for(const [from,to] of neighbors) {
+    const first=patches.get(from)!,last=patches.get(to)!;
+    for(const column of [0,4,8]) {
+      const a=first[column][0],b=last[column][0];
+      let previous=a;
+      for(let k=1;k<=6;k++) {
+        const index=cells.length,fraction=k/7;
+        const position=cells[a].position.map((value,d)=>value+(cells[b].position[d]-value)*fraction) as unknown as Vec3;
+        cells.push({...cells[a],position,capacity:.03,tauClose:(cells[a].tauClose+cells[b].tauClose)/2,region:to,transmural:0,bridge:true});
+        edges.push({a:previous,b:index,conductance:.003,source:true});previous=index;
+      }
+      edges.push({a:previous,b,conductance:.003,source:true});
+    }
+  }
   const pacing=patches.get("rv-apical")![4][0];
+  // Embed the electrical tissue, not the enlarged SVG, in torso coordinates.
+  // The former narrow, nearly central cluster and synchronous anterior/posterior
+  // recruitment cancelled the V3 QRS. Separate wall locations and Purkinje levels
+  // now produce a rotating distributed source rather than one scaled lead vector.
+  // Dimensions/coupling remain educational parameters, not patient calibration.
+  for(const cell of cells) cell.position=[HEART_CENTER[0]+(cell.position[0]-1)*1.4,cell.position[1],HEART_CENTER[2]+cell.position[2]*1.3];
   return {cells,edges,landmarks,sinus,pacing};
 }
 
@@ -213,7 +246,7 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
   const {cells,edges}=mesh;
   const tauIn=Float64Array.from(cells,c=>c.tauIn),tauOut=Float64Array.from(cells,c=>c.tauOut),tauClose=Float64Array.from(cells,c=>c.tauClose);
   const edgeA=Int32Array.from(edges,e=>e.a),edgeB=Int32Array.from(edges,e=>e.b),conductance=Float64Array.from(edges,e=>e.conductance);
-  const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0?[index]:[]):[mesh.sinus];
+  const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0&&!cell.bridge?[index]:[]):[mesh.sinus];
   const sourceWeights=[new Float64Array(n),new Float64Array(n),new Float64Array(n)];
   for(const edge of edges) if(edge.source) for(let d=0;d<3;d++) {
     const factor=SOURCE_GAIN*edge.conductance*(cells[edge.b].position[d]-cells[edge.a].position[d]);

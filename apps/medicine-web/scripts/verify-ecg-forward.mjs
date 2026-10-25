@@ -36,6 +36,11 @@ for(const edge of normal.mesh.edges)if(edge.source){
   const a=normal.mesh.cells[edge.a],b=normal.mesh.cells[edge.b];
   assert.equal(["RA","LA"].includes(a.chamber),["RA","LA"].includes(b.chamber),"No myocardial AV shortcut");
 }
+const muscleAdjacency=normal.mesh.cells.map(()=>[]);
+for(const edge of normal.mesh.edges)if(edge.source){muscleAdjacency[edge.a].push(edge.b);muscleAdjacency[edge.b].push(edge.a);}
+const firstVentricle=normal.mesh.cells.findIndex(c=>c.chamber==="LV"),reachable=new Set([firstVentricle]),pending=[firstVentricle];
+for(let cursor=0;cursor<pending.length;cursor++)for(const next of muscleAdjacency[pending[cursor]])if(!reachable.has(next)){reachable.add(next);pending.push(next);}
+normal.mesh.cells.forEach((cell,i)=>{if(cell.chamber==="LV"||cell.chamber==="RV")assert.ok(reachable.has(i),"All ventricular tissue must remain connected without the Purkinje network");});
 
 const reversed=measureForwardTrace(normal,{...DEFAULT_PLACEMENT,positive:DEFAULT_PLACEMENT.negative,negative:DEFAULT_PLACEMENT.positive});
 const coincident=measureForwardTrace(normal,{...DEFAULT_PLACEMENT,negative:DEFAULT_PLACEMENT.positive});
@@ -51,6 +56,9 @@ const chest=measureForwardTrace(normal,leadPreset("V4"));
 assert.deepEqual(normal.voltage,before,"Electrode motion must not modify the cardiac solution");
 assert.ok(maxDiff(chest.values,trace.values)>.05,"Moving an electrode changes measured potential");
 assert.ok(maxDiff(chest.approximate,chest.values)>.001,"Distributed sources must not be replaced by a single dipole");
+const standardBeforeMove=measureStandardTraces(normal),movedChest=measureStandardTraces(normal,{...DEFAULT_ELECTRODES,V2:{longitude:28,latitude:16}});
+assert.ok(maxDiff(standardBeforeMove.V2.values,movedChest.V2.values)>.1);
+for(const lead of STANDARD_LEADS)if(lead!=="V2")assert.deepEqual(movedChest[lead].values,standardBeforeMove[lead].values,"Moving V2 must not rescale or change unrelated leads");
 const referenceWeights=potentialWeights(normal.mesh,electrodePosition(DEFAULT_PLACEMENT.positive));
 close(referenceWeights.reduce((sum,v)=>sum+v,0),0,1e-10,"Uniform Vm produces no current-gradient signal");
 const uniform=measureForwardTrace({...normal,voltage:new Float32Array(normal.voltage.length).fill(.8),dipole:new Float32Array(normal.dipole.length)},DEFAULT_PLACEMENT);
@@ -78,7 +86,9 @@ const significantSpan=(recording,values)=>{
   const peak=Math.max(...segment.map(p=>Math.abs(p.v))),active=segment.filter(p=>Math.abs(p.v)>.1*peak);
   return active.at(-1).t-active[0].t;
 };
-const baselineV6Span=significantSpan(normal,measureStandardTraces(normal).V6.values);
+const baselineTraces=measureStandardTraces(normal);
+const baselineV5Span=significantSpan(normal,baselineTraces.V5.values);
+const baselineV6Span=significantSpan(normal,baselineTraces.V6.values);
 for(const condition of ["av-slow","rbb-block","lbb-block","rv-pacing"]) {
   const result=simulateForwardEcg({...DEFAULT_FORWARD_INPUTS,condition});
   assert.equal(result.activation.ventricularCoverage,1,`${condition}: remaining tissue paths conduct`);
@@ -90,7 +100,12 @@ for(const condition of ["av-slow","rbb-block","lbb-block","rv-pacing"]) {
   const twelve=measureStandardTraces(result);
   for(const lead of STANDARD_LEADS)assert.ok(twelve[lead].values.every(Number.isFinite),`${condition}/${lead}: finite measured waveform`);
   if(condition==="rbb-block"||condition==="lbb-block"||condition==="rv-pacing")assert.ok(result.activation.ventricularEnd-result.activation.ventricularStart>normal.activation.ventricularEnd-normal.activation.ventricularStart+40,"Ventricular activation must broaden with bundle interruption or RV pacing");
-  if(condition==="lbb-block")assert.ok(significantSpan(result,twelve.V6.values)>baselineV6Span+40,"LBB interruption must broaden the measured lateral waveform, not merely delay a narrow peak");
+  // A single projection can be near-isoelectric during part of activation. Require
+  // widening in BOTH lateral chest leads, not just a delayed ventricular onset.
+  if(condition==="lbb-block") {
+    assert.ok(significantSpan(result,twelve.V5.values)>baselineV5Span+40,"LBB interruption must broaden V5, not merely delay a narrow peak");
+    assert.ok(significantSpan(result,twelve.V6.values)>baselineV6Span+20,"LBB interruption must also broaden the adjacent V6 waveform");
+  }
   if(condition==="rbb-block")assert.ok(twelve.V1.values.some((v,i)=>i*result.sampleMs>result.activation.ventricularStart+80&&i*result.sampleMs<result.activation.ventricularEnd+30&&v>.03),"RBB interruption must produce a delayed right-precordial positive contribution");
 }
 const longRecovery=simulateForwardEcg({...DEFAULT_FORWARD_INPUTS,recovery:135});
@@ -144,4 +159,40 @@ assert.ok(quality.V1.qrs.positive/quality.V1.qrs.negative<quality.V4.qrs.positiv
 assert.ok(a.ventricularStart-a.atrialStart>=120&&a.ventricularStart-a.atrialStart<=200,"Reference atrial-to-ventricular activation delay");
 assert.ok(a.ventricularEnd-a.ventricularStart>=40&&a.ventricularEnd-a.ventricularStart<=100,"Reference transmural activation spread");
 assert.ok(quality.II.p.positive<quality.II.qrs.positive*.35,"P must be smaller than the main ventricular deflection");
-console.log("Forward ECG passed: 12-lead identities, reference polarity/R-wave progression/P–QRS–T separation, tissue propagation, BBB/AV changes, recovery, electrode movement and numerical bounds.");
+// Reference morphology guardrails. These are expectations for this adult-like
+// reference configuration, NOT a definition of all normal human ECG variants.
+// Polarity alone previously passed despite a cancelled V3 QRS and reversed R progression.
+for(const [left,right] of [["V1","V2"],["V2","V3"],["V3","V4"],["V4","V5"]]) {
+  assert.ok(quality[right].qrs.positive>quality[left].qrs.positive*1.08,`${left} → ${right}: visible R-wave progression`);
+}
+assert.ok(quality.V6.qrs.positive<quality.V5.qrs.positive,"Reference R amplitude peaks before V6");
+assert.ok(quality.V2.qrs.negative>quality.V2.qrs.positive,"V2 remains S-dominant in the reference configuration");
+assert.ok(quality.V3.qrs.positive/quality.V3.qrs.negative>.75&&quality.V3.qrs.positive/quality.V3.qrs.negative<1.8,"V3 has a biphasic transition, not a cancelled/flat QRS");
+assert.ok(quality.V3.qrs.positive+quality.V3.qrs.negative>quality.V2.qrs.negative,"Transition lead must retain a substantial peak-to-peak QRS");
+for(const lead of ["I","II","V3","V4","V5","V6"]) {
+  const ratio=quality[lead].t.positive/quality[lead].qrs.positive;
+  assert.ok(ratio>.1&&ratio<.75,`${lead}: T must be visible but not dominate the reference QRS`);
+}
+const baselineSegment=(lead,start,end)=>leads[lead].values.subarray(Math.ceil(start/normal.sampleMs),Math.floor(end/normal.sampleMs));
+for(const lead of ["I","II","V3","V4","V5","V6"]) {
+  const st=baselineSegment(lead,a.ventricularEnd+35,a.ventricularEnd+80);
+  const tp=baselineSegment(lead,740,820);
+  assert.ok(Math.max(...st.map(Math.abs))<.1,"No artificial post-QRS hump in the reference ST segment");
+  assert.ok(Math.max(...tp.map(Math.abs))<.015,"Reference beat returns to the TP baseline");
+}
+// The retained window must show repeated sinus capture, not only a plausible first beat.
+const sinus=normal.mesh.sinus,upstrokes=[];
+for(let frame=1;frame<normal.samples;frame++) if(normal.voltage[(frame-1)*normal.mesh.cells.length+sinus]<.5&&normal.voltage[frame*normal.mesh.cells.length+sinus]>=.5)upstrokes.push(frame*normal.sampleMs);
+assert.ok(upstrokes.length>=3);
+for(let i=1;i<upstrokes.length;i++)close(upstrokes[i]-upstrokes[i-1],60000/normal.inputs.rate,normal.sampleMs);
+for(const rate of [50,90,110]) {
+  const r=simulateForwardEcg({...DEFAULT_FORWARD_INPUTS,rate}),twelve=measureStandardTraces(r),a=r.activation;
+  assert.equal(a.ventricularCoverage,1);
+  const amplitudes=["V1","V2","V3","V4","V5","V6"].map(lead=>{
+    const values=twelve[lead].values.subarray(Math.floor((a.ventricularStart-10)/r.sampleMs),Math.ceil((a.ventricularEnd+30)/r.sampleMs));
+    return {r:Math.max(...values),s:-Math.min(...values)};
+  });
+  for(let i=1;i<5;i++)assert.ok(amplitudes[i].r>amplitudes[i-1].r*1.08,`${rate}/min: preserve reference R progression`);
+  assert.ok(amplitudes[1].s>amplitudes[1].r&&amplitudes[3].r>amplitudes[3].s,`${rate}/min: retain the precordial transition`);
+}
+console.log("Forward ECG passed: 12-lead identities; reference R progression, R/S transition, P/QRS/T ratios and baseline; repeated capture; tissue propagation; measured lateral widening; AV/recovery changes; electrode movement and numerical bounds.");

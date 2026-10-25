@@ -1,5 +1,5 @@
 # ECG and arrhythmias
-검토 기준일: 2026-10-25
+검토 기준일: 2026-10-26
 - 기본 화면인 전기생리 모델은 심근 구역의 막전위·회복과 구역 사이 전류를 수치 적분하고, I·II·III·aVR·aVL·aVF·V1–V6를 같은 심장 상태에서 계산합니다. 상대 전압 a.u.를 사용하며 실제 임상 mV로 보정하지 않았습니다.
 - 별도의 리듬 판독 모드는 기존 Lead II 유사 합성 파형입니다. 이 모드의 가로 큰 칸 0.2 s·세로 큰 칸 0.5 mV 표기는 파형 학습용이며, 화면의 물리적 25 mm/s 용지를 의미하지 않습니다. 아래 Sinus rhythm–VT 노트의 고정 PR·QRS 수치는 이 합성 모드에만 해당합니다.
 - 두 모드 모두 진단·치료 판단에 사용할 수 없습니다. ST·QT morphology, 12-lead 진단, Ischemia 진단을 검증한 모델이 아니며 QRS가 있다고 실제 맥박·관류가 보장되지는 않습니다.
@@ -14,7 +14,8 @@
 - 청록 화살표는 결합 전류 g·(vi−vj)의 방향입니다. 겹치는 화살표는 줄이고 큰 실제 전도계 전류를 대표로 골라 최대 6개까지 표시합니다. 화살표 길이는 전류 크기나 전파 속도가 아니며 혈류·흉곽 전체의 전류 유선도 아닙니다. 전류 화살표를 꺼도 기록에 따른 활성·회복 표시는 유지됩니다.
 - 심근 벽의 옅은 황금색은 흥분, 청회색은 막전위가 내려가는 회복, 원래 벽색은 낮은 Vm입니다. 구역·층의 평균 Vm을 저장 샘플 사이에서 보간합니다. Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열하며 산소포화도는 아닙니다. 이름에 마우스를 올리거나 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 설명과 첫 활성 시각을 확인합니다.
 - 심근은 RA·LA 구역과 9개 Ventricular 구역으로 나눕니다. 각 Ventricular 구역에는 Endocardium에서 Epicardium으로 이어지는 12개 층과 가로 연결이 있고 Purkinje junction이 Endocardial 구역을 자극합니다. Septal·Apical·Lateral·Anterior·Posterior·Basal 구역의 방향과 유효 단면적이 다르며, 구역 경계에서는 단면적이 줄어드는 형태로 근사합니다. 단면적과 층 간격은 Capacitance와 결합도에 함께 반영합니다.
-- 총 1,137개 계산 구역은 각각 많은 세포를 대표합니다. SA·AV·His·Bundle branches·Purkinje에 대응하는 전도 연결을 포함합니다. 외부의 주기적 자극은 짧은 자극 Conductance로 Vm을 1 쪽으로 유도하며 SA node 자동능의 이온 통로는 재현하지 않습니다. RV 자극은 작은 RV Endocardial 구역에 같은 원리로 적용합니다.
+- 인접한 Ventricular 구역 사이에도 여러 계산 구역으로 이루어진 Myocardial cable을 연결합니다. 이 연결 조직은 자체 막전위와 회복을 계산하며 양방향으로 전류를 전달합니다. 따라서 차단된 쪽의 심근이 역방향 Purkinje 활성만 기다리는 것이 아니라, 남아 있는 심근 경로를 통해 순차적으로 흥분할 수 있습니다. 실제 환자의 섬유 배치를 재구성한 것은 아닙니다.
+- 총 1,263개 계산 구역은 각각 많은 세포를 대표합니다. 이 중 1,234개는 Myocardial 구역이며 나머지는 SA·AV·His·Bundle branches·Purkinje에 대응합니다. 외부의 주기적 자극은 짧은 자극 Conductance로 Vm을 1 쪽으로 유도하며 SA node 자동능의 이온 통로는 재현하지 않습니다. RV 자극은 작은 RV Endocardial 구역에 같은 원리로 적용합니다.
 - Epicardial 쪽은 Endocardial 쪽보다 Action potential duration이 짧고, Ventricular 부위별 회복에도 차이를 둡니다. Transmural gradient는 Posterior 구역에서 더 작게 설정해 모든 부위가 같은 방향·시각으로 회복되지 않게 합니다. 이 차이가 Depolarization과 다른 Repolarization의 전위 기울기를 만들며 T wave에 기여합니다. 파형의 높이·부호·폭을 유도마다 별도 함수로 정하지 않습니다.
 - 적분 간격은 0.1 ms, 화면에 저장하는 간격은 2 ms입니다. 시작 상태의 영향을 줄이기 위해 2회 선행 자극 후 2.4초 기록을 만듭니다. 입력을 바꾸면 새 기록을 계산하며 전극만 옮기면 저장된 동일 막전위에서 측정 전위만 다시 구합니다.
 ### 증상·검사 소견
@@ -24,6 +25,7 @@
 - SA node → AV node → His → 각 Ventricular 구역의 활성 시각을 선택해 실제로 어디가 먼저 흥분하는지 확인합니다. 활성 시각은 v가 0.5를 넘어간 때이며 ECG에서 재는 P onset이나 QRS onset과 동일하지 않습니다.
 - 고정된 전기생리 입력에서 전극을 옮겨도 구역의 색·전도 시간은 바뀌지 않습니다. 반면 AV 결합이나 Bundle branch 연결을 바꾸면 전기생리 계산 자체가 바뀌어 활성 순서와 파형이 함께 달라집니다.
 - 실제 심장 모양·벽 두께·섬유 방향을 반영한 해부학 mesh나 세포별 이온 통로 모델은 아닙니다. Atria·Ventricles·AV 연결부의 시상수와 결합도는 교육용으로 설정했으며 특정 환자나 질환의 ECG를 맞춘 값이 아닙니다.
+- 기준 전극·기준 전도에서는 V1–V2의 S 우세, V3 부근의 R/S 전환, V1에서 V5까지의 R-wave 증가와 V6에서의 감소를 관찰합니다. I·II·V3–V6에서는 QRS보다 작은 T wave와 ST·TP의 기저선 복귀를 비교합니다. 이는 이 모델의 대표 성인형 설정이지 모든 정상 ECG의 필수 모양을 정의하는 것은 아닙니다. 전극을 옮긴 경우에도 이 순서를 강제로 유지하도록 파형을 보정하지 않습니다.
 ### 관련 자료
 - [전극 위치와 전위차](/interactive/ecg-arrhythmia/notes#forward-electrodes)
 - [전도와 회복 조건 비교](/interactive/ecg-arrhythmia/notes#forward-conduction)
@@ -50,7 +52,7 @@
 ## forward-conduction | 전도 연결·자극 위치·Repolarization 비교
 ### 기전
 - AV 전도 저하에서는 AV 연결부의 결합도를 기준의 52%로 낮춥니다. AV 구역의 흥분이 이웃에 전달되는 시간이 달라지며, 심실 활성 시각을 직접 뒤로 옮기는 방식은 아닙니다.
-- RBB 또는 LBB 연결 차단에서는 His에서 해당 branch로 가는 연결의 결합도를 0으로 만들고, 같은 branch의 Distal 결합도는 0.12에서 0.065로 낮춥니다. 단일 Proximal cut만이 아니라 해당 branch의 분산된 전도 저하를 함께 가정한 교육용 조건입니다. 반대쪽 branch와 남은 Septal myocardial 경로로 해당 Ventricular 구역이 늦게 활성되고, 차단 아래쪽 branch도 역방향으로 활성될 수 있습니다. 이를 특정 환자의 병변 위치·중증도와 대응시키지 않습니다.
+- RBB 또는 LBB 연결 차단에서는 His에서 해당 branch로 가는 연결의 결합도를 0으로 만들고, 같은 branch의 Distal 결합도는 0.085에서 0.03으로 낮춥니다. 단일 Proximal cut만이 아니라 해당 branch의 분산된 전도 저하를 함께 가정한 교육용 조건입니다. 반대쪽 branch와 남은 Septal·Regional myocardial 경로로 해당 Ventricular 구역이 늦게 활성되고, 차단 아래쪽 branch도 역방향으로 활성될 수 있습니다. 이를 특정 환자의 병변 위치·중증도와 대응시키지 않습니다.
 - RV 자극은 SA 자극 대신 RV 구역에 전류를 줍니다. 이 모델의 연결은 양방향이므로 Ventricles에서 시작한 활성은 His·AV를 거쳐 Atria로 전달될 수 있습니다. 실제 기기의 pacing spike·전극 접촉·설정 회로는 구현하지 않았습니다.
 - Ventricular 회복 시상수는 회복 gate의 닫힘 속도를 바꿉니다. 구역별 기본 시상수에는 공간적 차이를 두어 repolarization의 전위 기울기가 생기도록 했습니다. 별도 T wave를 더하지 않으므로 repolarization과 다음 자극에 대한 반응이 같은 식의 결과로 연결됩니다.
 ### 증상·검사 소견
@@ -172,6 +174,9 @@
 - [Whole-heart model — APD gradients and T-wave concordance (2016)](https://pubmed.ncbi.nlm.nih.gov/27034121/)
 - [NHLBI — How the heart beats: cardiac conduction system](https://www.nhlbi.nih.gov/health/heart/heart-beats)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 6: The Heart](https://www.bem.fi/book/06/06.htm)
+- [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 11: Distributed sources and Lead vector](https://www.bem.fi/book/11/11.htm)
+- [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 15: 12-Lead ECG system](https://www.bem.fi/book/15/15.htm)
+- [AHA/ACCF/HRS — ECG standardization, Part I: Technology and multilead measurement (2007)](https://www.jacc.org/doi/10.1016/j.jacc.2007.01.024)
 - [Mitchell & Schaeffer — A two-current model for the dynamics of cardiac membrane (2003)](https://pubmed.ncbi.nlm.nih.gov/12909250/)
 - [Physiome Model Repository — Mitchell–Schaeffer model equations and parameters](https://models.physiomeproject.org/exposure/9efc295a6f3360044b4712c28b8314e7/mitchell_schaeffer_2003.cellml/view)
 - [CARPentry — Tissue-scale electrophysiology and extracellular potential recovery](https://grav.medunigraz.at/en/basics/modeling-cardiac-electrophysiology/tissue-scale-ep)
