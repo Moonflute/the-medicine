@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 경구 아스피린과 클로피도그렐
 
 ## 해설
 
+동맥류성 지주막하출혈 후 5일째 발생한 새 국소 결손은 지연성 뇌허혈을 우려하게 한다. 조기 경장 nimodipine(C)은 지연성 뇌허혈을 줄이고 기능적 예후를 개선하는 치료이다. 단순히 혈압을 낮춰 혈관연축을 예방한다는 설명은 부정확하다. 저혈압으로 뇌관류를 악화시키지 않도록 관리해야 한다. Aspirin과 clopidogrel을 일반적인 동맥류성 SAH 재출혈 예방약으로 사용하지 않는다.
 
-동맥류 수술 후 혈관연축을 예방하려면 혈압을 낮추는 니모디핀이 효과적이다. 항혈소판제는 재출혈 예방에 쓰이지만 연축 예방에는 직접적이지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Nimodipine C의 이익을 단순 혈압강하/혈관연축 방지로 환원한 오류와 항혈소판제의 SAH 재출혈 예방 주장을 교정.
+- 공식/학회 근거: https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000436
 
 ## 출처
 

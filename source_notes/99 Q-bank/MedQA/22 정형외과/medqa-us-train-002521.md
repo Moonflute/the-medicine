@@ -18,15 +18,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 요골 골절
 
 ## 해설
 
+손목 신전 마비는 요골신경 손상을 시사한다. 요골신경은 상완골 간부 뒤쪽의 요골신경고랑을 지나므로 상완골 중간 몸통 골절(B) 때 손상되어 손목처짐이 생길 수 있다. 상완골 경부 손상은 주로 액와신경과 연관되고 척골·요골 골절보다 제시된 외상 후 손목 신전 마비의 전형적 연결은 상완골 간부 골절이다.
 
-상완골 중간부 골절은 전완부를 지나는 요골 신경을 손상시켜 손목 신전(요골 신경 마비) 근력이 0/5가 된다. 따라서 가장 가능성 높은 골절은 상완골 중간 몸통 골절이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 요골신경 손상을 전완 통과로만 설명하던 해설을 상완골 간부의 요골신경고랑 관계로 바로잡았다.
 
 ## 출처
 

@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdXJveGltZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 임신 1분기 항생제 복용
 
 ## 해설
 
+태반 뒤 저에코 영역 소실과 열공, 전방 하부 자궁 태반은 태반유착스펙트럼(PAS)을 의심하게 한다. 반복 제왕절개(C)는 흉터 부위 탈락막 결손과 연관된 중요한 위험인자이며, 태반 위치가 낮을 때 위험이 더 커진다. 항생제·요로감염·과거 체중감소성 무월경이 주된 원인은 아니다.
 
-반복된 제왕절개는 자궁벽 흉터를 늘려 태반이 자궁근층에 비정상적으로 부착되는 전치태반·착상 위험을 크게 증가시킨다. 이는 이 환자에서 관찰된 전치부 저에코 영역과 자궁근층 열공의 주요 위험인자이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 전치태반과 PAS를 혼용한 해설 정리.
+- https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2018/12/placenta-accreta-spectrum
 
 ## 출처
 

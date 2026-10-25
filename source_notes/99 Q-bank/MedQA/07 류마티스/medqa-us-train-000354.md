@@ -21,7 +21,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 정상 방사선 소견
 
 
 고령 여성의 골관절염은 관절 간격 소실과 골극(osteophytes) 형성을 특징으로 하며, 방사선에서 이러한 소견이 가장 흔히 보인다. 따라서 정답은 관절 간격 소실 및 골극이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-train-000354` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 활동 후 악화되는 고관절통·가동범위 감소·염발음은 OA의 간격소실/골극 A와 일치. 최근 낙상도 존재하므로 실제 사진 없이 골절을 절대 배제한다는 의미 아님.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

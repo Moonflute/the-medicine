@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 심첨부에서 들리는 이완기 잡음
 
 ## 해설
 
+대동맥판 협착에서는 좌심실 박출 시간이 길어져 A2가 P2 뒤로 지연될 수 있어 역설적 제2심음 분열 C가 나타난다. 흡기 때 P2가 늦어지면 분열이 좁아진다. 중증 석회화에서는 A2가 약해지거나 안 들릴 수도 있으므로 모든 협착에서 분열이 들리는 것은 아니다.
 
-대동맥 협착증에서는 심박출량 감소와 심실 수축기 압력이 증가해 역설적인 S2 분열이 나타난다. 이는 가장 흔히 동반되는 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 대동맥판 협착의 역분열은 좌심실 박출 지연으로 A2가 늦어지는 기전.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

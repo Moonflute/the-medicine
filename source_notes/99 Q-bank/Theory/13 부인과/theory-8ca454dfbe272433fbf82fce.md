@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "15세 이전이면 모두 비정상이라는 오류를 평가 시점의 15세까지 초경 없음으로 수정. 초경 부재와 속발성 무월경 구분 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-원발성 무월경을 정의하는 기준은?
+원발성 무월경 평가가 필요한 대표적인 시점은?
 
 ## 선택지
 
-A. 15세 이전에 초경이 없거나 2차 성징 후 3년이 지나도 초경이 없는 경우
-B. 이전 월경이 있었으나 3개월 이상 월경이 없는 경우
-C. 이전 월경이 있었으나 6개월 이상 월경이 없는 경우
-D. 월경 주기가 35일 이상인 경우
+A. 15세가 되어도 초경이 없는 경우
+B. 이전에 규칙적 월경이 있었으나 3개월 이상 중단된 경우
+C. 이전에 불규칙 월경이 있었으나 6개월 이상 중단된 경우
+D. 월경을 이미 시작했고 주기만 길어진 모든 경우
 
 ## 해설
 
-원발성 무월경은 15세 이전에 초경이 없거나 2차 성징 후 3년이 지나도 초경이 나타나지 않을 때를 말한다.
+원발성 무월경은 초경이 아직 없는 상태이다. 정상적인 2차 성징이 있어도 15세까지 초경이 없으면 평가한다. 유방 발달이 13세에도 시작되지 않는 등 성징 이상은 더 이른 평가 단서가 된다.
 
 ## 오답 포인트
 
-- **B. 이전 월경이 있었으나 3개월 이상 월경이 없는 경우:** B는 속발성 무월경 정의이다.
+- 이미 월경을 했던 사람의 월경 중단은 속발성 무월경 범주이며 원발성과 구분한다.
 
 ## 출처
 
 - 내부 학습 노트: 무월경 (Amenorrhea)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/무월경 (Amenorrhea).md`
-- 학습 목표: 원문 핵심: - **정의**: 가임기 여성에서 월경이 없는 상태. - 원발성 무월경: 15세까지 초경이 없거나, 2차 성징 발현 후 3년이 지나도 초경이 없는 경우. - 속발성 무월경: 이전에 월경이 있던 여성에서 3개월 이상 월경이 없거나(주기적이었던 경우), 6개월 이상 월경이 없는 경우. - **원인 분류**: - 해부학적 이상 (유출로 폐쇄): 뮬러관 발육 부전(MRKH 증후군), 처녀막 막힘증, 질 중격, Asherman 증후군(자궁 내 유착), 안드로겐 무감응 증후군(CAIS). - 난소 기능 부전 (Hypergonadotropic…
+- 학습 목표: 원발성 무월경의 초경 부재와 평가 시점
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 15세 이전이면 모두 비정상이라는 오류를 평가 시점의 15세까지 초경 없음으로 수정. 초경 부재와 속발성 무월경 구분 유지.
+- 근거: https://www.acog.org/womens-health/faqs/your-first-period
+- 근거: https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/

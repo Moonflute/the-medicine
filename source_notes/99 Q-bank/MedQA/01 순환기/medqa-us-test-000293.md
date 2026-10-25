@@ -19,13 +19,15 @@ question_type: prognosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 패혈성 색전
 
 ## 해설
 
+정답은 C이다. 좌심방의 큰 유경성 종괴는 점액종에 합당하다. 종양 조각이나 표면 혈전은 좌심실·대동맥을 통해 체동맥으로 색전되어 뇌졸중 또는 급성 사지 동맥 폐색을 일으킬 수 있다. 좌심방 종양에서 통상적인 색전 경로는 폐동맥이 아니다. 판막구를 막으면 실신이나 급사가 가능하지만 문항이 묻는 대표 색전 합병증으로는 C가 가장 적합하다.
 
-좌심방 점액종은 혈류를 통해 전신으로 색소를 방출한다. 가장 위험한 합병증은 종양 조각이 대동맥을 통해 폐동맥으로 이동해 급성 폐동맥 폐색을 일으키는 것이다. 따라서 급성 동맥 폐색이 가장 위험한 합병증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 좌심방 점액종 색전의 경로를 폐동맥이 아니라 체동맥으로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

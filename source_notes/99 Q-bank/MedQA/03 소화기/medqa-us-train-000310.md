@@ -20,16 +20,18 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 대장내시경검사
 
 ## 해설
 
+정답은 D이다. 47세이며 아버지가 50세에 대장암으로 사망한 직계가족력이 있어 대장내시경 평가가 적합하다. UC의 이형성/암 감시는 질병 기간·범위·염증 정도와 PSC 등 위험인자에 따라 추가로 결정한다. 본문에 UC가 10년 이상 지속되었다는 정보는 없으며 흡연 10년을 UC 기간으로 바꾸어 설명하지 않는다.
 
-궤양성 대장염 환자는 대장암 위험이 증가하므로, 급성 인두염 치료와 동시에 10년 이상 지속된 경우 대장내시경 검사를 권고한다. 이는 조기 암 발견에 필수적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: UC가 10년 이상이라는 없는 병력 대신 50세 CRC 직계가족력과 연령으로 colonoscopy 근거를 명확히 함.
+- https://gastro.org/clinical-guidance/risk-stratification-for-colorectal-cancer-screening-and-surveillance/
 
 ## 출처
 

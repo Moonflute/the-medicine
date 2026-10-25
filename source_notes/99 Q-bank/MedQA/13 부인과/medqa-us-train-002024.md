@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 고혈압 가족력
 
 ## 해설
 
+20주 이후 새 고혈압이 4시간 간격으로 지속되고 요단백이 있는 임상상은 전자간증을 시사한다. 첫 임신/초임부(B)는 알려진 위험인자다. 그러나 다른 고위험 상태보다 모든 초임부가 가장 위험하다는 뜻은 아니다. 본문 가족의 중년 본태성 고혈압은 가족의 전자간증 병력과 동일하지 않으며, 임신 전 흡연을 보호 전략으로 해석해서도 안 된다.
 
-초임부(primigravida)는 임신 고혈압 및 전자간증 발생 위험이 가장 높은 인구 집단이다. 다른 선택지는 위험을 크게 증가시키지 않는다. 따라서 위험 요인은 초임부이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 초임부를 모든 집단 중 가장 높은 위험이라고 과장한 설명을 보기 내 위험인자 판단으로 한정했다.
+- https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pre-eclampsia/
 
 ## 출처
 

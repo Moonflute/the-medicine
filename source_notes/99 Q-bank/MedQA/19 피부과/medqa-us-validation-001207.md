@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-33세 남성이 양손의 흰 반점으로 진료를 받으러 왔다. 반점은 수개월 동안 커졌고 통증이나 궤양은 없다. 과거력에 갑상선기능저하증이 있다. 양손과 등·어깨에 경계가 뚜렷한 저색소성 반점이 있고 우드등에서 형광을 보이며 염증 소견은 없다. 가장 가능성 높은 진단은?
+33세 남성이 양손의 흰 반점으로 진료를 받으러 왔다. 반점은 수개월 동안 커졌고 통증이나 궤양은 없다. 과거력에 갑상선기능저하증이 있다. 양손과 등·어깨에 저색소성 반점이 있고 인접 피부에는 긁은 자국이 있다. 병변은 우드등에서 형광을 보이며 염증 소견은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -44,8 +46,11 @@ D. 후광모반
 
 ## 해설
 
+수개월 동안 커지는 무통성 백색 반점과 양손 침범, 갑상선기능저하증 병력은 백반증(A)을 지지한다. 우드등은 탈색소 부위를 뚜렷하게 보이도록 할 수 있으나 본문에는 형광색이 제시되지 않아 특정 색을 만들어 설명하지 않는다. 어루러기는 보통 몸통의 미세한 인설, 백색잔비늘증은 저색소성 습진성 병변, 후광모반은 중심 모반 주변의 탈색소 테두리가 단서다. 이 질환들이 모두 뚜렷한 염증을 동반해야 하는 것은 아니다.
 
-양손과 등·어깨에 경계가 뚜렷한 저색소성 반점이 자가면역성 갑상선 질환과 연관된 백반증의 전형적인 소견이다. 다른 선택지는 염증이나 색소침착이 동반된다. 정답은 백반증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문에 없는 경계 명료 표현을 제거하고 인접 피부의 긁은 자국을 복원했다. 백반증 A를 지지하되 다른 색소질환은 모두 염증성이라는 잘못된 배제를 수정했다.
 
 ## 출처
 

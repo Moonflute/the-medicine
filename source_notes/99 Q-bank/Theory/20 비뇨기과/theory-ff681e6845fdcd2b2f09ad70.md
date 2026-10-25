@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "외상성 음낭 손상의 고환·혈종 구조 평가에서 초음파 역할 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 혈액 검사
 
 ## 오답 포인트
 
-- **B. 복부 CT:** CT는 방사선 노출이 크고 고환 세부 구조를 보기 어렵다.
+- **복부 CT:** CT는 방사선 노출이 크고 고환 세부 구조를 보기 어렵다.
 
 ## 출처
 
 - 내부 학습 노트: 음낭 열상 (Scrotal laceration)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/음낭 열상 (Scrotal laceration).md`
-- 학습 목표: 원문 핵심: * **신체 검진:** 고환 손상 여부를 확인하기 위한 시진 및 촉진. * **영상 검사:** 음낭 초음파(Scrotal US)를 통해 고환 파열(testicular rupture) 및 혈종 유무를 우선적으로 평가.
+- 학습 목표: 음낭 외상의 초음파 구조 평가
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 외상성 음낭 손상의 고환·혈종 구조 평가에서 초음파 역할 유지.

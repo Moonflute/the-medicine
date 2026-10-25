@@ -17,15 +17,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q1reyGjCDthqDrpqzqtbPsnYzspp0gKEZvY2FsIFNlZ21lbnRhbCBHbG9tZXJ1bG9zY2xlcm9zaXMpLm1k
 question_type: diagnosis
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "정답 B와 모순되게 crescent를 FSGS 특징으로 설명한 핵심 오류 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -43,11 +48,19 @@ D. 변화 없음
 
 ## 해설
 
-
-HIV 관련 신증후군인 FSGS는 단백뇨, 저알부민혈증, 고지혈증을 동반한다. 신생검에서 초승달형 병변과 단핵구·대식세포 침윤이 특징이다. 따라서 초승달 형성, 단핵구 및 대식세포가 가장 적절한 소견이다.
-다른 선택지는 HIV 신증후군과 맞지 않는다.
+HIV 감염 맥락의 심한 단백뇨·저알부민혈증·고지혈증·부종은 HIV 관련 신병증을 시사한다. 대표 병리는 FSGS, 특히 collapsing 형태이며 보기 중 분절성 경화가 적합하다. 초승달과 대식세포 축적은 다른 급속진행 사구체신염의 소견으로 이 사례의 FSGS 설명이 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009479
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 정답 B와 모순되게 crescent를 FSGS 특징으로 설명한 핵심 오류 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

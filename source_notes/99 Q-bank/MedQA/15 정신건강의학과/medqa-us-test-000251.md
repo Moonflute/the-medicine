@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 외래 집단치료에 의뢰한다
 
 ## 해설
 
-
-편집증적 망상장애는 비현실적인 믿음이 고정되어 있으며, 인지행동치료(CBT)가 망상의 인지 재구성과 대처 기술을 향상시켜 가장 효과적이다. 따라서 CBT가 적절한 초기 치료이다.
+기이한 믿음과 사회적 고립이 있으나 직업 기능은 유지되는 환자에게 제시된 선택지 중 개별 인지행동치료가 적절하다. 믿음과 고통, 대처 방식을 탐색하고 치료 관계를 형성한다. 다만 이 정보만으로 망상장애 등 특정 진단을 확정할 수 없으며, 실제 진료에서는 물질·신체질환 및 정신병 평가와 곰 덫 설치로 인한 안전 위험 평가가 먼저 함께 필요하다. 정신병이 확인되면 CBT만이 모든 치료를 대체하는 것은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000251
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. CBT 원정답 유지. 기간·진단요건이 부족한 사례를 망상장애로 확정하고 CBT가 가장 효과적이라 단정하던 설명을 제한.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/Guidance/CG178/chapter/recommendations

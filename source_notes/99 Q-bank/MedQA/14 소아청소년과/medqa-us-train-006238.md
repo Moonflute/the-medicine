@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 성장호르몬 결핍
 
 ## 해설
 
+또래와 비슷한 기존 성장속도, 사춘기 급성장 지연과 골연령 11세는 체질성 성장·사춘기 지연(A)에 부합한다. 체중은 50백분위수로 저하되어 있지 않다. 골연령이 흔히 실제 연령에 가까운 가족성 저신장과 구별하며 성장 추적과 필요한 평가를 이어간다.
 
-키와 체중이 저하되고 골연령이 실제 연령보다 늦으며 성장곡선이 정상 범위 내에 있으면 체질성 성장지연을 의심한다. 갑상선 기능은 정상이며 다른 내분비 이상이 없으므로 가장 가능성 높은 진단은 체질성 성장지연이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정상 50백분위 체중을 저체중으로 기술한 해설을 교정.
+
 
 ## 출처
 

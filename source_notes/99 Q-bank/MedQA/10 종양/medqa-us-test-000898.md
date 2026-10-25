@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 니트로푸란토인
 ## 해설
 
 
-시클로포스파마이드(메스나)는 방광 점막 손상을 일으켜 출혈성 방광염을 유발한다. 따라서 이 부작용을 예방하려면 메스나 사용을 피해야 한다.
+루푸스 신염에 사용된 cyclophosphamide의 아크롤레인 등 요로독성 대사산물은 출혈성 방광염을 유발할 수 있다. Mesna(B)는 이를 결합·불활성화해 예방하는 약이며 cyclophosphamide와 같은 약이 아니다. 메스나를 피해야 예방된다는 기존 해설은 반대이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000898 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 메스나 B 정답인데 피하라고 권한 정반대 해설을 교체. cyclophosphamide와 mesna를 동일 약물로 혼동한 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/publications/dictionaries/cancer-drug/def/mesna
 
 ## 출처
 

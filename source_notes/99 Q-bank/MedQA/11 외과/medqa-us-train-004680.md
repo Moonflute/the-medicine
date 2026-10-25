@@ -20,11 +20,13 @@ question_type: association
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 심음 감소
 ## 해설
 
 
-좌측 9번째 갈비뼈와 심와부 압통은 횡격막 손상을 시사한다. 횡격막이 파열되면 혈액이 흉강으로 이동해 어깨(거위목) 통증을 유발한다. 따라서 어깨 통증이 가장 흔히 나타나는 추가 증상이다.
+왼쪽 하부 늑골 부위 외상과 복강내 자유액은 비장 손상·복강내 출혈을 의심하게 한다. 혈액이 횡격막 복막면을 자극하면 횡격신경(C3–5)을 통해 어깨, 특히 왼쪽으로 연관통(Kehr 징후, C)이 생길 수 있다. 이를 위해 횡격막이 파열되거나 혈액이 흉강으로 이동해야 하는 것은 아니다. Morrison 주머니의 자유액만으로 간이나 비장 중 어느 장기가 손상됐는지 확정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004680 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 비장 손상에 의한 횡격막 자극·연관통을 횡격막 파열과 흉강내 혈액 이동으로 잘못 설명한 기전을 교체했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

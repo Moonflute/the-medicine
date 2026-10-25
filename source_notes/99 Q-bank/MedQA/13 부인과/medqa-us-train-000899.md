@@ -27,13 +27,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,13 @@ D. HPV 관련 선별검사는 시행하지 않고 HPV 백신을 접종함
 
 ## 해설
 
+16세에 미접종 상태에서 시작하면 HPV백신3회 접종이 권고되어 D가 적절하다. 15세 전에 시작한 면역정상 청소년은 보통2회이며 접종은 감염 치료가 아닌 예방이다. 성생활을 한다고16세에 routinePap/HPV검사를 시작하지 않는다.
 
-16세 여성은 HPV 감염 위험이 높으며, 현재 HPV 선별 검사는 권장되지 않는다. 대신 11‑12세에 시작해 26세까지 3회 접종하는 HPV 백신이 예방에 가장 효과적이다. 따라서 HPV 백신을 접종하는 것이 적절한 다음 관리 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HPV백신 접종횟수를 모든11–26세3회로 일반화한 오류 수정.
+- https://www.cdc.gov/hpv/hcp/vaccination-considerations/
 
 ## 출처
 

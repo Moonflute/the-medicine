@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 증가된 A-a 경사도(A-a gradient), 증가된 확산 거리
 ## 해설
 
 
-Mycoplasma 폐렴은 폐포-모세관 막 손상으로 A‑a 구배가 증가하고 폐 확산 용량이 증가한다. 따라서 환자의 상태는 증가된 A‑a 구배와 증가된 확산 거리와 일치한다.
+간질성 폐렴에서 폐포-모세혈관 사이의 염증과 간질 비후는 산소의 확산거리를 늘리고 가스교환을 저하시킬 수 있다. 저산소혈증은 환기-관류 불균형 및 확산 장애와 연관되어 A-a 산소분압차가 증가한다. 따라서 D이다. 확산거리가 증가한다는 것은 확산용량이 증가한다는 뜻이 아니며, 오히려 산소 전달에 불리하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000810 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 확산거리 증가를 확산용량 증가로 잘못 기술한 생리 설명을 교정; 정답 D 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

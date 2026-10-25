@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. PCR에서 T세포 수용체 절제환 감소
 ## 해설
 
 
-전신성 결핵과 같은 심각한 감염에서 IFN‑γ 결핍은 마크로파지 활성 저하와 결핵 감염에 대한 감수성을 높인다. 환자의 임상양상과 혈액 도말에서 항산균이 보이는 점을 고려하면 IFN‑γ 수치 감소가 예상된다.
+소아 파종성 항산균 감염은 IL12–IFNγ 축의 선천 면역결함을 고려하게 한다. 선택지 A는 IL12/수용체 등의 결함에 따른 IFNγ 생산 저하를 묻는 맥락에 가장 부합한다. 하지만 모든 항산균 감수성 질환에서 혈청 IFNγ가 낮은 것은 아니며 IFNγ 수용체 반응 결함에서는 높을 수 있다. 항산균 검출만으로 결핵 종과 특정 유전결함을 확정하지 않고 면역 기능/유전검사로 구분한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005236 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: IFNγ 생산·반응 경로 결함과 실제 혈청 수치를 구분하여 A의 출제의도 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://rupress.org/jhi/article/1/1/e20250003/277390
 
 ## 출처
 

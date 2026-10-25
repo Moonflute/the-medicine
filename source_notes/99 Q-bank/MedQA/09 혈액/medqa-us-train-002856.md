@@ -20,11 +20,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 약물의 이상반응
 ## 해설
 
 
-이소니아지드 치료는 비타민 B6(피리독신) 결핍을 초래해 미오글로빈 합성 장애를 일으키며, 혈청 철은 높고 페리틴도 증가하는 미세적혈구성 빈혈(유리성 빈혈)을 유발한다. 따라서 약물 부작용이 원인이다.
+높은 철·ferritin과 낮은 TIBC를 동반한 소구성 저망상적혈구 빈혈은 철적모구빈혈을 고려하게 한다. 잠복결핵 진단 후 isoniazid를 복용했다면 pyridoxine(B6) 이용 장애로 ALA synthase 및 heme 합성이 저하되어 이러한 빈혈이 생길 수 있어 D가 출제 의도에 부합한다. 이는 myoglobin 합성 장애나 철결핍이 아니다. 다만 원문에는 실제 처방 약명이 없으므로 복약 확인 없이 isoniazid 원인으로 확정해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002856 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: B6-heme 합성 장애를 myoglobin 합성 장애·유리성 빈혈로 부른 오류를 sideroblastic anemia로 교정; 실제 INH 복용은 원문에 미명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b46d1d-2300-457d-a7bd-a88a3f8d2235
 
 ## 출처
 

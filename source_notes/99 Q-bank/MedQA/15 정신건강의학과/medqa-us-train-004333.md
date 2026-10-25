@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 리튬을 중단하고 향후 조증 재발 시 다시 시작
 
 ## 해설
 
-
-양극성 I형 장애에서 조증 유지 치료는 평생 리튬을 지속 투여하는 것이 표준이다. 감량이나 교체는 재발 위험을 높인다.
+최근 조증 외에도 작년에 두 차례 비슷한 삽화가 있어 재발 위험이 높으므로 리튬에 반응했다고 퇴원 때 즉시 중단하지 않고 장기 유지 치료를 계획한다. 제시된 선택지 중 평생 지속으로 표현된 장기 유지 선택이 가장 적절하다. 다만 모든 양극성 I형 환자에게 재평가 없이 동일 약물을 평생 강제한다는 뜻은 아니다. 신장·갑상선 기능, 혈중농도, 부작용·상호작용과 선호를 정기적으로 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004333
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 반복 조증의 장기 리튬 유지 원정답 유지. 양극성 I형이면 모든 환자가 예외 없이 평생 같은 약이라는 해설 단정 교정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg185/chapter/recommendations

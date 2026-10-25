@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 말초혈관 저항 증가로 인한 후부하 증가
 
 ## 해설
 
+외상 후 저혈압, 경정맥 팽창과 멀리 들리는 심음은 심장압전을 의심하게 한다. 심낭 내 압력 상승으로 심장의 이완기 충만이 제한되고 좌심실 박출량이 감소하므로 C가 적절하다. 이는 대동맥 압전이라는 질환이 아니며, 현대 쇼크 분류에서는 심장압전에 의한 폐쇄성 쇼크에 해당한다. 양쪽 호흡음과 정중앙 기관도 긴장성 기흉보다 이 진단을 지지한다.
 
-대동맥 압전은 심장 압박으로 좌심실 충만이 감소해 심박출량이 감소하고, 심음이 약해지는 특징이 있다. 이는 저혈압의 주요 원인이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 대동맥 압전이라는 잘못된 명칭을 심장압전으로 교정하고 폐쇄성 쇼크의 충만 장애 기전 C를 유지한다.
 
 ## 출처
 

@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 라모트리진
 
 ## 해설
 
+경련이 이미 멈추었고 기본 검사와 MRI에 원인이 없으므로, 주어진 선지에서는 EEG(C)로 발작 유형과 재발 위험 평가를 보조하는 것이 적절하다. 가능하면 첫 발작 후 신속히 시행한다. EEG는 임상 진단을 뒷받침하는 검사이며 정상이어도 뇌전증을 배제하지 못한다. 항발작약 시작은 발작력·신경학적 소견·영상·EEG 및 환자 상황을 종합해 결정한다. 현재 지속 중인 경련이 없어 로라제팜을 일률적으로 투여하는 상황은 아니다.
 
-첫 발작 후 원인 불명일 경우 표준 평가는 뇌파검사(EEG)이며, 이는 간질 진단에 필수적이다. 약물 투여나 기타 검사는 EEG 결과에 따라 결정한다. 따라서 뇌파검사가 적절한 다음 단계다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. EEG가 간질 진단의 필수조건이고 치료가 전적으로 EEG에 달린다는 단정을 수정했다. 첫 비유발 발작 후 선택지 C는 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng217/chapter/1-Diagnosis-and-assessment-of-epilepsy
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 자궁내막 샘플링을 포함한 질확대경검사
 
 ## 해설
 
+비임신 25세 이상 HSIL에서는 위험에 따라 질확대경·생검 또는 신속 절제를 상담한다. 선택지 중 LEEP(B)는 가능한 진단·치료 선택이지만 HPV 정보가 없는 이 사례에서 무조건 필수인 것은 아니다. 가임력과 이득·위험을 설명하며, 자궁내막 샘플링은 이 25세 HSIL 환자의 일률적 검사가 아니다.
 
-고등급 편평상피내병변은 자궁경부암 전구병변으로, 표준 치료는 루프 전기수술(LEEP)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 25세이상HSIL에서신속절제는선택가능하나 모든HSIL세포검사의필수표준은아님.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
 
 ## 출처
 

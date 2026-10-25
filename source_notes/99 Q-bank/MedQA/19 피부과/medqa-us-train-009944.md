@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 아토피피부염
 
 ## 해설
 
+두피·외이의 홍반성 판과 기름진 노란 인설은 영아 지루피부염/요람모(A)에 합당하다. 전신 진단을 혈액검사가 정상이라는 가정에 의존하지 않는다. 영아의 혈구검사 수치는 연령·채혈 방법·기관 참고범위를 확인해야 하며 제시된 Hb/Hct를 일괄 정상으로 확정하지 않는다.
 
-두피와 외이의 노란 비늘을 동반한 홍반성 판은 영아 지루피부염(요람모)의 전형적인 모습이다. 혈액검사에서 이상이 없으며, 다른 발진 질환과 구별되는 특징이다. 따라서 영아 지루피부염이 가장 가능하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Cradle cap A는 명확한 두피·외이 형태로 지지되지만 영아 CBC를 모두 정상이라고 한 단정을 제거한다.
+- 공식/학회 근거: https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment
 
 ## 출처
 

@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "통증성 성기궤양과 H.ducreyi 연결은 유용한 감염 기초."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. Herpes simplex virus
 
 ## 오답 포인트
 
-- **B. Treponema pallidum:** Treponema pallidum은 매독의 원인균이다.
+- **Treponema pallidum:** Treponema pallidum은 매독의 원인균이다.
 
 ## 출처
 
 - 내부 학습 노트: 연성하감 (Chancroid)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/연성하감 (Chancroid).md`
-- 학습 목표: 원문 핵심: - **정의:** Haemophilus ducreyi 감염에 의한 성매개 감염병으로, 통증이 심한 생식기 궤양을 특징으로 함 - **원인:** Haemophilus ducreyi (그람 음성 간균) - **기전:** H. ducreyi가 분비하는 독소(cytolethal distending toxin)가 상피세포의 세포주기를 억제하여 궤양을 유발함. HIV 감염의 위험 인자로 작용함
+- 학습 목표: 연성하감 병원체
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 통증성 성기궤양과 H.ducreyi 연결은 유용한 감염 기초.

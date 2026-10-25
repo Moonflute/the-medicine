@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 경구 알벤다졸
 ## 해설
 
 
-간 내 단방성 낭종이 초음파에서 딸낭을 보이고 동물과 접촉력이 있는 경우 간 포충낭종(Echinococcus) 의심이 된다. 치료는 알벤다졸 같은 항기생충제이며, 경구 알벤다졸이 1차 선택이다. 따라서 다음 적절한 처치는 경구 알벤다졸이다.
+정답 D. 동물 접촉력과 daughter cyst가 있는 간 낭종은 낭성 포충증을 시사한다. WHO 2025는 합병증 없는 간 CE2/CE3b 낭종이 5cm 이하이면 초기 albendazole 단독치료를 제안한다. 이 4cm 병변은 그 선택지와 부합하지만 실제 초음파 병기와 합병증을 평가해야 한다. 더 크거나 다른 병기·복잡성 병변에는 경피시술, 수술 또는 관찰 등 접근이 달라지므로 모든 포충낭종을 약물만으로 치료하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009695 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 4cm daughter cyst 간 포충낭종에 albendazole D 유지; 모든 낭종의 단일 치료가 아닌 2025 WHO 병기·크기 조건 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK616294/table/ch3.tab4/
 
 ## 출처
 

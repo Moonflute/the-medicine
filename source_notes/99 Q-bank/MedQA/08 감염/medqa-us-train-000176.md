@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. 붉은색 체액 배설
 ## 해설
 
 
-결핵 치료 중 간 효소 상승은 약물 독성의 흔한 부작용이며, 치료 중단이 권고되는 주요 적응증이다. 다른 선택지는 치료 중단을 요구하지 않는다. 따라서 간 효소 수치 상승이 가장 가능성 높은 중단 적응증이다.
+선지 중 간독성에 해당하는 간효소 상승(A)이 항결핵 간독성 약물 중단·재평가의 대표적 이유이다. 다만 모든 경미한 상승이 중단 적응증은 아니다. 보통 ALT가 간염 증상과 함께 정상상한의 3배 이상이거나 무증상으로 5배 이상이면 간독성 약제를 중단하고 평가한다. 부작용별 조치는 임상 상태에 따라 다르다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000176 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 항결핵약 간독성 A 유지. 무증상 경미 효소상승도 모두 중단하라는 잘못된 해설을 증상·배수 기준과 재평가로 제한.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/
 
 ## 출처
 

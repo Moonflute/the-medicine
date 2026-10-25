@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 기저귀 피부염
 
 ## 해설
 
+외상 설명 없이 엉덩이에 생긴 경계가 뚜렷한 직사각형 압통성 변색은 물체에 의한 손상과 학대성 멍(B)을 의심하게 한다. 안전 확보·학대 평가가 필요하다. 혈우병 가족력은 무관하지 않으며 필요한 출혈질환 검사도 병행할 수 있다. 출혈질환 여부와 학대 가능성은 서로를 자동 배제하지 않는다.
 
-직사각형 모양의 압통성 피부 변색은 외부 압력에 의한 멍이 아닌, 반복적인 물리적 압박(학대)에서 흔히 나타난다. 다른 전신 증상이나 출혈 질환의 증거가 없으며, 혈우병은 가계력과는 무관하게 출혈 양상이 다르다. 따라서 가장 가능성 높은 진단은 학대에 의한 멍이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모양 있는 멍의 학대 의심을 유지하되 출혈질환 가족력을 무관하다고 배제한 오류 교정.
+- https://publications.aap.org/pediatrics/article-lookup/doi/10.1542/peds.2015-0356
 
 ## 출처
 

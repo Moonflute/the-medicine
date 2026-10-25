@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,13 @@ D. 도파민 작용제 투여
 
 
 유두 분비와 무월경이 동반된 경우 고프로락틴혈증을 의심하고, 먼저 혈청 프로락틴 수치를 측정한다. 따라서 초기 처치는 혈청 프로락틴 측정이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001179 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 임신 음성 무월경+유두분비에서 prolactin B 선측정 후 원인별 영상/치료 결정은 일치.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nature.com/articles/s41574-023-00886-5
 
 ## 출처
 

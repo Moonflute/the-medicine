@@ -21,13 +21,15 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 치료가 필요하지 않다
 
 ## 해설
 
+한 차례의 진료실 BP140/89만으로 지속성 고혈압을 확진하지 않고 표준화 반복측정과 가능하면 가정/활동혈압으로 확인하므로 A가 초기 접근이다. 생활습관 상담도 병행한다. ACC/AHA 분류상 수축기140은 stage2에 해당하며, 확인된 평균≥140/90이면 약물치료를 검토해야 한다. 아직 약물이 항상 권장되지 않는다는 기존 해설은 단일 측정의 재평가와 지속성 고혈압 치료를 혼동한다.
 
-혈압 140/89 mmHg는 고혈압 1단계에 해당하지만, 진단을 확정하려면 재측정이 필요하다. 생활 습관 교정과 재검진이 우선이며, 약물 치료는 아직 권장되지 않는다. 따라서 가장 적절한 초기 관리는 혈압을 다시 측정하고 운동 상담을 하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 140/89의 단일 측정에서 재확인 A는 유지. 현행ACC/AHA stage2이며 확인된≥140/90에도 약물 불필요라는 일반화 수정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
 
 ## 출처
 

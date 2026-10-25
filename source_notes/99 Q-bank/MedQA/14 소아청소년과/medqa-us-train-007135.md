@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -35,6 +35,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvVG9icmFteWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -52,8 +54,13 @@ D. 경구 시프로플록사신
 
 ## 해설
 
+배양 소견은 Pseudomonas aeruginosa에 부합한다. CF에서 초기 또는 새 녹농균 검출 시 흡입 tobramycin(B)을 이용한 근절 치료가 권장되며, 만성 감염에서는 억제 요법을 평가한다. 녹농균이 전혀 검출되지 않은 모든 환자의 일차 예방으로 투여한다는 의미가 아니다. Ciprofloxacin이 어떤 경우에도 효과가 없다는 주장도 부정확하다.
 
-낭성 섬유증 환자에서 녹농균 감염을 예방하기 위해 흡입 토브라마이신을 사용한다. 경구 아목시실린·클라불란산·시프로플록사신·트리메토프림·설파메톡사졸은 예방에 효과가 없다. 따라서 흡입 토브라마이신이 가장 적절한 예방요법이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 초기 녹농균 검출 후 근절/억제 치료와 감염 전 일률적 예방을 구별.
+- https://www.cff.org/medical-professionals/eradication-initial-p-aeruginosa-clinical-care-guidelines
 
 ## 출처
 

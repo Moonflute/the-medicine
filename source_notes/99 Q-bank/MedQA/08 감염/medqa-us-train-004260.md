@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 측두엽 염증
 ## 해설
 
 
-수막구균성 수막염은 급성 부신피질 출혈(워터하우스-프리드리히센 증후군) 위험을 크게 증가시킨다. 고혈압, 저혈압, 부신 출혈이 흔한 합병증이다. 따라서 부신출혈이 위험이 증가하는 합병증이다.
+CSF의 그람음성 쌍구균과 급성 세균성 수막염은 수막구균 감염에 부합한다. 침습 감염에서는 DIC와 양측 부신출혈에 의한 Waterhouse–Friderichsen 증후군 B가 발생할 수 있어 급성 부신부전·쇼크 위험을 경계한다. 이것이 모든 환자에서 흔히 발생하거나 고혈압을 특징으로 한다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004260 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수막구균 부신출혈 B 유지; 고혈압과 부신출혈이 흔하다는 모순·빈도 과장 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

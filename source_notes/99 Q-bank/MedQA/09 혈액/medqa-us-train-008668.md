@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,15 @@ D. 포도당-6-인산 탈수소효소 분광광도검사
 ## 해설
 
 
-시프로플록사신에 의해 산화 스트레스가 유발된 G6PD 결핍 환자는 용혈성 빈혈을 보인다. 진단을 위해 G6PD 효소 활성을 측정하는 검사가 필요하다.
+간접 빌리루빈·LDH·망상적혈구 증가와 급성 빈혈은 용혈을 시사하며, 선택지 중 정량 G6PD 효소활성 분광광도검사(D)가 G6PD 결핍 평가에 맞는다. 다만 ciprofloxacin은 CPIC에서 표준 용량의 용혈 위험이 낮거나 없는 약물로 분류되므로 복용 시점만으로 약물성 용혈을 확정하지 않는다. 감염 자체도 용혈을 촉발할 수 있다. 급성 용혈 중에는 결핍 적혈구가 소실되고 망상적혈구 비율이 증가하여 효소활성이 위정상일 수 있어 회복 후 재검이 필요할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008668 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 용혈 후 정량 G6PD 검사 D의 의도는 유지하되 ciprofloxacin을 확립된 고위험 유발약으로 단정하지 않는다. CPIC는 표준 용량에서 low-to-no risk로 분류하며 감염 자체도 유발요인이다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10281211/
+- https://medlineplus.gov/ency/article/003671.htm
 
 ## 출처
 

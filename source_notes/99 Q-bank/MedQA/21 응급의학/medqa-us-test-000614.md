@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 요로감염
 
 ## 해설
 
+흙에 오염된 상처 뒤 심한 통증, 쇼크, 염발음과 조직 내 가스가 발생한 맥락은 Clostridium perfringens에 의한 외상성 가스괴저/근괴사를 시사한다. 이 균은 장독소에 의한 식중독도 일으키므로 C가 출제 의도에 부합한다. 다만 조직 내 가스만으로 원인균을 확정할 수 없으며, C. perfringens를 모든 괴사성 근막염의 가장 흔한 원인이라고 설명하는 것은 부정확하다.
 
-가스가 포함된 괴사성 근막염의 흔한 원인균은 클로스트리디움 퍼프린젠스이며, 이는 식중독을 일으키는 균이기도 하다. 따라서 정답은 식중독이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 외상성 가스괴저와 C. perfringens 식중독 연관은 유지하되 이를 모든 괴사성 근막염의 최다 원인으로 일반화한 해설을 교정.
 
 ## 출처
 

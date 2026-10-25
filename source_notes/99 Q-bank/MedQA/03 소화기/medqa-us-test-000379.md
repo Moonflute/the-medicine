@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 벽으로 둘러싸인 췌장액 저류
 
 ## 해설
 
+야간·공복에 악화되고 음식/제산제로 일부 호전되는 통증은 소화성 궤양을 시사한다. 비담즙성의 소화 안 된 음식 구토, 조기 포만감과 진탕음은 위출구 폐쇄를 지지한다. 급성 경과에서는 궤양 주변 유문·십이지장 구부의 염증과 부종(A)이 통과를 막는 기전으로 합당하다. 진탕음 자체만으로 원인이 확진되는 것은 아니며 종양 등 다른 폐쇄 원인은 실제 검사에서 감별한다.
 
-위의 촉진에서 고실성 종괴와 청진 시 진탕음은 위벽 부종과 염증으로 인한 위출구 폐쇄(위전이)를 의미한다. 이는 위염·부종에 의한 기계적 폐쇄이므로 원인은 염증과 부종이다. 따라서 A가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. 위전이라는 오기 제거 및 소화성 궤양 관련 유문·십이지장 구부 염증/부종에 의한 위출구 폐쇄로 구체화.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 경구 가바펜틴
 
 ## 해설
 
+피부절발진 후3개월 지속되는 작열통·전기충격통/접촉통은 대상포진후신경통이다. 가바펜틴(D)은 적절한 신경병성통증 치료이며 과거심근경색은 TCA의 심장부작용을 더 신중하게 고려할 이유이다. 이미사라진발진에 팜시클로버를 시작해 만성신경통을 치료하는 것은 아니다. 가바펜틴도 신장기능에 맞춰 사용하고 졸림/낙상위험을 감시하며 모든대안보다 항상 우월한 것은 아니다.
 
-대상포진 후 발생하는 신경통은 포스트헤르페틱 신경통이며, 가바펜틴은 신경병성 통증에 가장 효과적인 1차 약물이다. 따라서 다음 관리 단계는 경구 가바펜틴 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. gabapentin이 모든PHN에서 가장효과적이라는 과장 수정. 심근경색병력에서TCA보다 선택할 이유를 설명.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg173/chapter/Recommendations
 
 ## 출처
 

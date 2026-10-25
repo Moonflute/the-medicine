@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 코르티코스테로이드
 ## 해설
 
 
-다발성 근육통·강직, 특히 아침에 심해지는 증상과 ESR 상승은 다발성 근육통증후군을 시사한다. 이 질환은 고용량 글루코코르티코스테로이드에 가장 잘 반응한다. 따라서 치료는 코르티코스테로이드이다.
+50세 이후의 어깨·골반대 아침강직과 통증, 전신 증상 및 ESR 상승은 PMR에 부합한다. 보기 중 glucocorticoid D가 적절하지만 GCA 동반이 없는 PMR에 일률적인 고용량 치료를 권하면 안 된다. 2026 BSR은 prednisolone12.5–15 mg/day로 시작하고 필요 시 최대25 mg/day까지 조정하는 최소 유효용량 접근을 권고한다. GCA 증상과 감염·암 등 유사질환을 평가하고 반응과 부작용을 추적한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007712 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PMR에 고용량 steroid가 일률적이라는 오류를2026BSR의 저용량 시작·개별화로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13661133/
 
 ## 출처
 

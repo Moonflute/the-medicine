@@ -19,11 +19,11 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,14 @@ D. 스텐트 삽입을 동반한 혈관성형술
 
 ## 해설
 
+당뇨병에 LAD를 포함한 다혈관 CAD가 있고 재관류에 적합한 수술후보이면 CABG A가 PCI보다 선호될 수 있다. 실제 선택은 병변의 기능적 중요도·EF·해부학·수술위험과 Heart Team 평가로 결정한다. 심박수52 자체가 CABG 적응증인 것은 아니다.
 
-다혈관 관상동맥질환과 저심박동, 심근허혈이 있는 경우 관상동맥 우회술이 장기적인 재관류에 가장 효과적이다. 따라서 관상동맥 우회술이 권장 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: DM+LAD포함 다혈관CAD의 CABG A는 타당하나 서맥 자체를 수술근거로 한 해설 수정.
+- https://www.jacc.org/doi/10.1016/j.jacc.2021.09.005
 
 ## 출처
 

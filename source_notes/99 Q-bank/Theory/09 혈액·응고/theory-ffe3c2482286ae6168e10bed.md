@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+curation_status: "retained"
+curation_reason: "비분획 heparin의 antithrombin 매개 IIa·Xa 억제 기초."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Heparin은 항트롬빈 III와 결합하여 트롬빈과 응고인자 Xa의 활�
 
 - 내부 학습 노트: Heparin
 - 원본 경로: `source_notes/04 Pharmacology/09 혈액·응고/Heparin.md`
-- 학습 목표: 원문 핵심: - 항트롬빈 III(Antithrombin III)와 결합하여 트롬빈 및 응고인자 Xa의 활성을 억제함으로써 혈액 응고를 차단함
+- 학습 목표: Heparin: 항트롬빈 III와 결합해 트롬빈·Xa 활성을 억제한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

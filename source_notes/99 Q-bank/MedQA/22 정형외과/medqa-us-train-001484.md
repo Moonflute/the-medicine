@@ -18,17 +18,19 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 재활운동과 허용되는 범위의 활동
 
 ## 해설
 
+Moxifloxacin 투여 중 갑작스러운 아킬레스 부위 통증은 fluoroquinolone 관련 건염·건파열 가능성을 우려하게 한다. 약물을 즉시 중단하고 비퀴놀론 항생제 필요성을 재평가하며 운동과 해당 부위의 부하를 피하는 A가 적절하다. 급성 통증이 없었던 것이 아니며 파열 여부도 평가해야 한다.
 
-플루오로퀴놀론(목시플록사신)은 아킬레스건 힘줄염을 유발할 수 있는 위험인자이다. 환자는 급성 통증 없이 힘줄통증을 호소하므로 약물에 의한 힘줄염이 의심된다. 따라서 항생제를 플루오로퀴놀론에서 다른 클래스로 교체하고, 힘줄 손상을 악화시킬 수 있는 운동을 피하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Fluoroquinolone 관련 건병증 A는 맞으나 갑자기 심한 통증이 발생한 원문을 급성 통증 없음으로 뒤집은 설명을 교정한다.
+- 공식/학회 근거: https://www.fda.gov/media/119537/download
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=18b77b31-baf3-416f-b3b7-a631c8e46d20&type=display
 
 ## 출처
 

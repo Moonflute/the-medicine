@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 호흡성 산증과 고칼륨혈증
 ## 해설
 
 
-반복적인 구토는 위산 손실과 수소이온 배설 증가로 대사성 알칼리증을 일으키며, 동시에 칼륨 재흡수가 감소해 저칼륨혈증이 동반된다. 따라서 가장 가능성 높은 혈액 변화는 대사성 알칼리증과 저칼륨혈증이다.
+정답 B. 지속 구토로 위산과 염소가 소실되어 대사성 알칼리증이 생긴다. 체액 감소는 renin–angiotensin–aldosterone계를 활성화하고 신장의 칼륨·수소 이온 배설을 증가시켜 저칼륨혈증과 알칼리증을 유지한다. 따라서 예상되는 조합은 대사성 알칼리증과 저칼륨혈증이다. 단순히 칼륨 재흡수가 감소해서만 발생한다고 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009363 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 구토의 위산·염소 소실과 체액 감소에 따른 신장 K/H 배설로 저칼륨 대사성 알칼리증을 설명.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. QT 간격 단축
 
 ## 해설
 
+흉선저형성·안면/구개 이상과 총동맥간은 22q11.2 결실 증후군을 시사한다. 부갑상선저형성으로 급성 저칼슘혈증·테타니/경련이 생길 수 있어 신경근 과민성(C)을 평가한다. 저칼슘혈증은 QT를 단축시키지 않고 연장시킬 수 있다.
 
-DiGeorge 증후군(얼굴 기형, 흉선 저형성, 단일 대동맥)에서는 부갑상선 발달 결손으로 저칼슘혈증이 흔히 나타나며, 이는 신경근 과민성(테타니)으로 급성 합병증이 된다. 저혈당은 흔하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: DiGeorge의 저칼슘 신경근 과민성 C 유지. 단일 대동맥을 총동맥간으로 정확히 명명.
+
 
 ## 출처
 

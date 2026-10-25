@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VwaGFsZXhpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTWlub2N5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVG9icmFteWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 28일간 미노사이클린
 
 ## 해설
 
+CF에서 처음 또는 새롭게 분리된 Pseudomonas aeruginosa의 제균요법으로 흡입 tobramycin 28일 A가 권고된다. 이미 만성감염인 경우의 반복 억제요법이나 중증 급성악화의 전신 항생제 치료까지 단일 28일 요법으로 대체하지 않는다. 이전 배양과 현재 악화의 중증도를 함께 확인한다.
 
-낭성 섬유증 환자에서 녹농균 감염 시 흡입 토브라마이신이 항균 효과가 뛰어나며, 28일간 치료하는 것이 표준이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 흡입 tobramycin 28일 A는 초기/새 Pseudomonas 분리 제균요법으로 한정하며 만성감염·급성악화 치료와 구별.
+- https://www.cff.org/medical-professionals/eradication-initial-p-aeruginosa-clinical-care-guidelines
 
 ## 출처
 

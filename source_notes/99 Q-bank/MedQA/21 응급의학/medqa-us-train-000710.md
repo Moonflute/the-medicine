@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 온단세트론(ondansetron) 및 포도당이 포함된 1/2 생리식염수 �
 
 ## 해설
 
+지속 구토와 저혈압, 저염소·저칼륨·알칼리증 및 BUN/크레아티닌 상승은 체액·전해질 소실을 시사한다. 주어진 선택지에서는 등장성 식염수와 칼륨 보충을 포함한 C가 적절하다. 등장성은 0.9% 식염수이며 3% 식염수가 아니다. 대마 관련 구토증후군을 고려하되 다른 원인도 배제한다. 신기능·소변량을 확인하며 칼륨을 보충하고, 저칼륨 상태에서 온단세트론의 QT 연장 위험을 고려해 전해질 교정·ECG 확인을 우선한다. 대마 관련 구토는 통상 항구토제에 잘 반응하지 않을 수 있어 불응 시 전문 지침에 따라 치료한다.
 
-대마초 과다 사용에 의한 구토는 칸나비노이드 과다증후군이며, 저칼륨·대사성 알칼리증 교정이 필요하다. 온단세트론과 칼륨이 포함된 3% 식염수 투여가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선지 C의 등장성 식염수를 3% 고장성 식염수로 바꾼 해설의 안전성 오류를 바로잡았다. 저칼륨에서 항구토제의 QT 위험도 명시했다.
+- 공식/학회 근거: https://rcem.ac.uk/wp-content/uploads/2024/02/RCEM_Cannabinoid_Hyperemesis_Syndrome_v5.0.pdf
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf10d256-dd89-4a91-a3ed-81db505a79c2&version=17
 
 ## 출처
 

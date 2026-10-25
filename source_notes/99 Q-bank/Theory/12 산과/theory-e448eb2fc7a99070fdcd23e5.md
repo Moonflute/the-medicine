@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "여러 발진 단계의 공존은 수두 인지의 핵심 형태."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 홍반성 발진만 나타남
 
 - 내부 학습 노트: 수두 (Varicella)
 - 원본 경로: `source_notes/02 Diseases/12 산과/수두 (Varicella).md`
-- 학습 목표: 원문 핵심: * **CC**: 가려움증을 동반한 수포성 발진, 발열, 권태감. * **P/E**: 반점, 구진, 수포, 가피가 동시에 존재하는 다형성 발진(dew drops on a rose petal 양상). 얼굴과 몸통에서 시작하여 사지로 퍼짐.
+- 학습 목표: 수두의 병기 다른 발진 공존
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 여러 발진 단계의 공존은 수두 인지의 핵심 형태.

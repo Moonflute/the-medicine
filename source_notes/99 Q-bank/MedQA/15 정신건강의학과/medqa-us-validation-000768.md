@@ -19,22 +19,24 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-24세 남성이 환각과 피해망상으로 정신과 입원 후 약물치료를 받던 중 운동장에서 반응이 없고 사지가 수동운동에 저항하며 체온 40°C, 맥박 112회/분이 되었다. 가장 가능성 높은 진단은?
+24세 남성이 환각과 피해망상으로 정신과 입원 후 기존 약물에 부분 호전이 있었으나 새 약물을 추가한 뒤 운동장에서 운동하다 반응이 없고 사지가 수동운동에 저항하며 체온 40°C, 맥박 112회/분이 되었다. 가장 가능성 높은 원인 기전은?
 
 ## 선택지
 
@@ -45,10 +47,15 @@ D. 감염
 
 ## 해설
 
-
-항정신병제(도파민 수용체 차단제) 과다복용은 고열, 근육 강직, 자율신경 불안정성을 일으키는 악성 증후군을 유발한다. 환자의 고열·빈맥·근육 저항은 이에 해당한다. 따라서 도파민 수용체 차단이 가장 가능성 높은 원인이다.
+항정신병약 변경 후 의식 저하·고열·강직성 저항이 발생하여 신경이완제 악성증후군을 의심하며, 제시된 원인 기전 중 도파민 수용체 차단이 적절하다. 반드시 과다복용해야 생기는 것이 아니고 치료 용량에서도 발생할 수 있다. 원인 약물 중단과 체온·신기능·CK·전해질 등 응급 평가·지지치료가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000768
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. NMS를 과다복용에만 연결한 오류와 질문-기전 불일치 수정. 새 약물 추가 후 운동 중 쓰러진 원문 경과 복원.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 식욕촉진제
 
 ## 해설
 
-
-환자는 신경성 식욕부진증으로 체중 왜곡과 저체중을 보이며, 인지행동치료가 1차 치료로 가장 효과적이다.
+저체중인데도 자신을 뚱뚱하다고 여기고 식사를 거부하는 양상은 신경성 식욕부진증에 부합한다. 질문은 장기 관리를 묻고 있으므로 제시된 선택지 중 섭식장애에 초점을 둔 인지행동치료가 적절하다. 다만 실신·저혈압·서맥이 있는 현재 상황에서는 신체적 안정화와 영양 평가·회복, 필요 시 입원 치료가 우선이며, 장기 치료도 영양·신체 모니터링과 정신치료를 결합한다. CBT만이 모든 환자의 유일한 최선 치료라는 의미는 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001193
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 장기 CBT 정답 유지. 불안정한 활력징후에서 즉각적 신체 안정화·영양 치료가 불필요하다는 인상을 제거하고 단일 최우수 단정 완화.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/ng69/chapter/Recommendations

@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "요도구 출혈은 외상성 요도 손상의 중요한 경고 소견."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 요도 협착
 
 - 내부 학습 노트: 요도 손상 (Urethral injury)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/요도 손상 (Urethral injury).md`
-- 학습 목표: 원문 핵심: * **CC:** 요도구 출혈(blood at the meatus), 배뇨 곤란, 통증. * **P/E:** 요도구 혈흔, 골반 불안정성, 팽만된 방광, 회음부 타박상(butterfly pattern), 전립선 상승(high-riding prostate).
+- 학습 목표: 요도 손상의 요도구 출혈
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 요도구 출혈은 외상성 요도 손상의 중요한 경고 소견.

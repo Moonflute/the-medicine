@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. HIV 혈청 검사 양성
 ## 해설
 
 
-HIV 감염은 반복성 폐렴, 비장비대, 관절통, 혈액학적 이상(호중구 감소증) 등을 초래한다. 환자의 과거 감염력과 현재 비장비대, 호중구 감소를 고려하면 HIV 혈청 양성이 가장 가능성이 높다.
+하루가 지나면 좋아지는 손목·손가락 통증과 운동 제한은 RA 양상의 염증성 관절염을 시사한다. 이와 비장비대·반복 세균감염이 함께 있어 Felty 증후군과 호중구감소(C)를 고려하는 것이 출제 의도이다. 실제로 CBC 감별계산·관절질환 평가가 필요하며 RA가 확인되지 않았으므로 이 사례만으로 Felty를 확진하는 것은 아니다. 과거 정맥주사 약물사용력 때문에 HIV 검사도 필요할 수 있지만 그것만으로 D를 가장 가능성 높은 결과라고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000613 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정답 C 호중구감소와 달리 HIV 양성을 결론으로 제시한 해설을 Felty 임상상으로 교체했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 환기-관류 스캔(Ventilation-perfusion scan)
 
 ## 해설
 
+빈맥, 흉막성 통증, 저산소포화도 및 임신은 폐색전증을 의심하게 한다. 정신과적 과거력으로 이를 설명해서는 안 된다. 본문에는 정상 흉부 X선이 제시되어 있어 D, 환기-관류 스캔이 적절한 후속 영상 선택이다. V/Q에도 방사선 노출이 있으며, 검사 가용성이나 결과에 따라 CTPA가 필요할 수 있다. 정상 흉부 X선과 이 임상상만으로 ARDS라고 진단하는 것은 맞지 않는다.
 
-임신 중 호흡곤란·흉통·저산소증이 급성 호흡곤란 증후군을 의심하게 하며, 임산부에서는 방사선 피하기 위해 V/Q 스캔이 선호된다. 따라서 가장 적절한 진단 단계는 환기‑관류 스캔이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 임신·저산소포화도·흉막성 통증의 PE 평가를 ARDS로 잘못 연결한 해설과 V/Q 무방사선 주장을 교정.
+- 공식/학회 근거: https://member.thoracic.org/statements/resources/pvd/evaluation-of-suspected-pulmonary-embolism-in-pregnancy.pdf
 
 ## 출처
 

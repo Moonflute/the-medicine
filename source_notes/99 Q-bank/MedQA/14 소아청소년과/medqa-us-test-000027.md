@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 첨탑 징후
 
 ## 해설
 
+짖는 기침, 쉰 목소리와 흡기성 협착음은 크루프에 부합한다. 영상에서 보일 수 있는 첨탑 징후(D)는 성문하 기도 공기기둥이 좁아지는 소견이다. C의 엄지손가락 징후는 후두개 비대와 관련되어 후두개염을 시사하는 상기도 소견이지 폐 병변이 아니다. 전형적 크루프는 임상적으로 진단하며 영상검사를 일률적으로 요구하지 않는다. 호흡곤란이 있는 소아는 영상보다 기도·호흡 상태 평가와 적절한 처치를 우선한다.
 
-‘개가 짖는 듯한 기침’과 흡기성 협착음은 크루프를 시사하며, X‑ray에서 ‘첨탑 징후’(상부 기도 평활한 윤곽) 가 특징이다. 따라서 첨탑 징후가 가장 적절한 방사선 소견이다. 다른 선택지는 크루프와 관련 없는 폐 병변을 나타낸다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 첨탑징후를 성문하 협착으로 교정; 후두개염의 엄지징후 C를 폐병변이라고 한 오류 제거. D 유지.
+- https://cps.ca/en/documents/position/acute-management-of-croup
+- https://www.radiologyinfo.org/en/info/croup
 
 ## 출처
 

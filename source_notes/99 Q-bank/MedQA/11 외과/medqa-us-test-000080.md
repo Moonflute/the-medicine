@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 제2늑간 바늘흉강천자
 ## 해설
 
 
-우심실 자유벽 전층 관통은 심장 내 출혈을 초래하며, 즉시 외과적 봉합이 필요하다. 관통 부위가 작고 혈관 손상이 없을 경우, 심장 외과에서 지지성 패드를 이용한 2‑0 폴리프로필렌 단속 봉합이 표준 치료법이다. 따라서 가장 적절한 확정적 수술 방법은 지지성 패드를 사용한 단속 봉합이다.
+쇼크를 동반한 우심실 자유벽 전층 관통상은 출혈을 신속히 제어하고 심실벽을 직접 봉합해야 한다. 제시된 선택지에서는 지지 패드를 이용한 2-0 폴리프로필렌 단속봉합(C)이 확정적 복구에 해당한다. 이식·관찰·바늘흉강천자는 이 손상을 복구하지 못한다. 실제 봉합사의 굵기, 봉합 형태와 패드 사용은 열상 위치·크기·조직 상태에 따라 선택한다. 본문에는 심장 열상의 정확한 크기가 제시되지 않았으므로 작다고 가정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000080 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 우심실 관통상 봉합이라는 원문 정답은 유지하되 창상 크기와 단일 봉합법의 보편적 표준이라는 단정을 제거했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://journals.lww.com/jtrauma/Documents/2024%20TA%20Online%20Issue%20Proof_V2.pdf
 
 ## 출처
 

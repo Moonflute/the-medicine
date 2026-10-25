@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 혈관내 용혈
 ## 해설
 
 
-MCV 79 fL와 저색소성 빈혈은 철 결핍성 빈혈을 시사한다. 철 결핍은 소량 적혈구와 저색소성 적혈구를 만들며, 망상적혈구는 약간 증가할 수 있다. 따라서 가장 가능성 높은 원인은 철 결핍이다.
+선택지 중 소구성 빈혈(MCV 79fL)의 가장 흔한 원인은 철결핍(C)이다. 망상적혈구 2%는 빈혈에 대해 보정하면 충분한 증가라고 보기 어려우며, 수치 하나만으로 용혈을 지지하지 않는다. B12·엽산 결핍은 보통 거대적혈구성이다. 실제 철결핍 확인에는 ferritin 등 철 상태 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000006 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MCV79와 낮은 보정 망상반응은 철결핍 C가 선택지 중 적절. 실제 없는 저색소 도말 소견을 만들지 않고 망상2%를 빈혈에서 충분한 증가라고 하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

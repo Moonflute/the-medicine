@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 헤모글로빈 전기영동
 ## 해설
 
 
-삼출성 용혈성 빈혈, 고LDH, 말초 혈액 도말의 다형핵세포는 PNH를 시사한다. PNH는 적혈구 표면 CD55/59 결실을 확인하는 유세포분석(flow cytometry)으로 확진한다. 따라서 가장 확진 가능성이 높은 검사는 유세포분석이다.
+빈혈·짙은 소변·높은 LDH와 간정맥 혈류 저하는 혈관내 용혈과 비전형 부위 정맥혈전을 함께 시사하여 PNH를 의심한다. 다염색증은 망상적혈구 증가 관련 적혈구 소견이지 다형핵백혈구가 아니다. 유세포분석 B로 GPI 연결 단백 결핍을 평가하며 적혈구 CD55/CD59 및 과립구/단핵구의 적절한 표지·FLAER 등을 사용한다. TMP-SMX 노출만으로 G6PD 용혈을 선택하면 혈전 단서를 설명하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003442 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 다염색증을 다형핵세포, 혈관내 용혈을 삼출성 용혈이라 한 오류 교정; 비전형 부위 혈전·용혈에서 PNH 유세포분석 B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/10.1002/cyto.b.20525
 
 ## 출처
 

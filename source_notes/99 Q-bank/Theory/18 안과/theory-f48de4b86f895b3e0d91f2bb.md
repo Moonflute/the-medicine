@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "급성 안통을 망막동맥폐쇄와 연결한 오답 설명을 교정하고 무통성 시력저하의 기본 개념 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,19 @@ D. 시야에 번쩍이는 빛(플래시)
 
 ## 오답 포인트
 
-- **B. 급성 눈통증:** 통증은 일반적으로 동반되지 않으며, 이는 동맥 폐쇄와 혼동될 수 있습니다.
+- **급성 안통:** 망막정맥폐쇄의 전형적인 양상이 아니지만 망막동맥폐쇄 역시 대개 무통성이다. 통증 유무만으로 동맥과 정맥 폐쇄를 단순 구분하지 않는다.
+- **광시증:** 망막 열공·박리 등 다른 유리체망막 질환도 고려하는 증상이다.
 
 ## 출처
 
 - 내부 학습 노트: 망막분지정맥폐쇄 (branch retinal vein occlusion)
 - 원본 경로: `source_notes/02 Diseases/18 안과/망막분지정맥폐쇄 (branch retinal vein occlusion).md`
-- 학습 목표: 원문 핵심: * **CC**: 갑작스러운 통증 없는 시력 저하 또는 시야 결손 * **P/E**: 해당 분지 영역의 망막 출혈(점상/선상), 면화반(cotton-wool spots), 망막 부종, 정맥 확장 및 굴곡
+- 학습 목표: 망막정맥폐쇄의 무통성 시력저하와 망막동맥폐쇄도 대개 무통성임을 이해한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 급성 안통을 망막동맥폐쇄와 연결한 오답 설명을 교정하고 무통성 시력저하의 기본 개념 유지.
+- 근거: https://www.aao.org/education/preferred-practice-pattern/retinal-vein-occlusions-ppp
+- 근거: https://www.aaojournal.org/article/S0161-6420%2824%2900788-7/fulltext

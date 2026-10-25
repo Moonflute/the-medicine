@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -37,14 +39,19 @@ explanation_prompt_version: explanation-ko-v1
 ## 선택지
 
 A. 추가 X 염색체
-B. X 염색체의 CGG 삼염기 반복
+B. X 염색체 FMR1의 CGG 삼염기 반복 확장
 C. 페닐알라닌 수산화효소 활성 결함
 D. 동일 염색체 3개
 
 ## 해설
 
+발달/언어 지연과 자폐 양상, 긴 얼굴·큰 귀는 취약X증후군을 시사한다. X염색체 FMR1의 비정상적인 CGG 반복 확장(B)이 핵심이며 전형적 완전변이는 200회 초과 반복과 유전자 침묵에 관련된다. 단순히 CGG 서열이 있다는 사실만으로 확진하는 것은 아니다.
 
-장애된 언어 발달, 큰 귀, 장시간 눈맞춤 회피는 취약 X 증후군의 전형적인 표현형이다. 진단을 확정하려면 X 염색체의 CGG 삼염기 반복을 확인하는 분자 검사가 필요하다. 다른 염색체 이상은 해당 임상과 일치하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정상인에게도 존재하는 CGG 반복의 단순 존재가 아니라 FMR1의 병적 확장을 뜻함을 명확히 했다.
+- https://medlineplus.gov/genetics/condition/fragile-x-syndrome/
 
 ## 출처
 

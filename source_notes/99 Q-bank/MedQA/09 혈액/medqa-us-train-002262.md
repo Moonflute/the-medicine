@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. CD55 유세포분석
 ## 해설
 
 
-투석 중 헤파린 사용 후 혈소판 감소와 혈전 발생이 의심될 때는 HIT를 확인하기 위해 PF4‑헤파린 항체 ELISA 검사가 가장 민감하고 특이하다.
+헤파린 시작 약 1주 뒤 혈소판이 50% 감소하고 새 혈전이 의심되어 HIT의 임상 가능성이 높다. 4Ts로 사전확률을 평가한 뒤 보기 중 heparin/PF4 면역검사 A를 초기 검사로 선택한다. ELISA는 민감하지만 병적 혈소판 활성화 항체가 아닌 항체도 검출하여 특이도는 제한된다. 양성이면 상황에 따라 serotonin-release assay 같은 기능검사를 추가한다. 의심이 높으면 결과를 기다리며 헤파린을 계속 투여하는 것이 아니라 중단하고 적절한 비헤파린 항응고 치료를 평가해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002262 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HIT ELISA가 가장 민감하고 특이하다는 오류를 4Ts 후 면역검사·필요시 기능검사 순서로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/
 
 ## 출처
 

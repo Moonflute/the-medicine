@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7J2Y7Iud7J6l7JWg"
 theory_objective_id: cc-05-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "급성 국소징후·두부외상 의식저하에서 출혈 평가 영상의 역할은 독립된 검사 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 심전도
 - 내부 학습 노트: 의식장애
 - 원본 경로: `source_notes/01 Chief Complaint/의식장애.md`
 - 학습 목표: 원문 핵심: - 혈당, 심전도, CBC, 전해질·신장·간기능, 혈액가스와 독성검사를 임상 단서에 맞춰 시행한다. - 급성 국소신경학적 이상, 두부외상, 출혈 위험 또는 원인 불명 깊은 의식저하는 응급 뇌영상이 필요하다. - 감염이 의심되면 배양과 항균치료를 준비하며, 요추천자 전 영상 필요성을 판단하되 치료를 지연하지 않는다. - 원인 불명 지속 의식장애는 EEG를 포함해 비경련성 발작을 평가한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

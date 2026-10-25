@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "독성 정의와 알코올 선지의 중첩을 용량 의존·특이체질성 간손상 개념으로 개선."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc1xd2hpdux0t3kzaknfcmo0whnotevnnnjdrtdkzthjq2hvyjnocfl5qklawejozedsmgfytxbmbtfrfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -16,32 +21,43 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-독성 간염의 정의는 무엇인가?
+약물성 간손상의 발생 기전에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 약물·독성 물질 등에 의해 간세포 손상 및 염증이 발생하는 질환
-B. 바이러스 감염에 의해 발생하는 간염
-C. 알코올 섭취에 의한 간 손상
-D. 자가면역 반응에 의한 간염
+A. 아세트아미노펜 같은 용량 의존성 손상과 특이체질성 손상이 있으며 치료 용량도 모든 위험을 배제하지 않는다
+B. 모든 약물성 간손상은 과량 복용에서만 생긴다
+C. 특이체질성 손상은 모든 사람에게 같은 용량·잠복기로 발생한다
+D. 보충제·생약은 약물성 간손상 평가에서 제외한다
 
 ## 해설
 
-독성 간염은 약물·독성 물질 등 외인성 물질에 의해 간세포가 손상되고 염증이 생기는 질환입니다.
+DILI는 예측 가능한 용량 의존성 독성과 숙주 요인이 관여하는 특이체질성 손상을 포함한다. 처방약·일반약·보충제·생약의 시작·중단·용량과 시간 관계를 평가한다.
+
+## 오답 포인트
+
+- 과량만 발생: 특이체질성 손상은 통상 용량에서도 가능하다.
+- 보충제 제외: 중요한 원인 노출일 수 있다.
 
 ## 출처
 
 - 내부 학습 노트: 독성 간염 (Toxic Hepatitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/독성 간염 (Toxic Hepatitis).md`
-- 학습 목표: 원문 핵심: * **CC**: 대부분 무증상으로 시작되거나 비특이적인 증상(피로, 권태감, 식욕 부진, 오심, 구토)이 나타난다. 간 손상이 심해지면 황달, 우상복부 불편감, 소양증 등이 발생할 수 있다. * **P/E**: 신체 검진상 황달, 간비대, 우상복부 압통이 관찰될 수 있다. 심한 경우 간부전의 징후(복수, 부종, 간성 뇌증)가 나타날 수 있다.
+- 학습 목표: DILI의 용량 의존성과 특이체질성
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 독성 정의와 알코올 선지의 중첩을 용량 의존·특이체질성 간손상 개념으로 개선.
+- https://aasldpubs.onlinelibrary.wiley.com/doi/10.1002/hep.32689

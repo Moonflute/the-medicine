@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -24,6 +24,11 @@ review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+curation_status: "retained"
+curation_reason: "Fondaparinux의 antithrombin 매개 선택적 Xa 억제 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -47,4 +52,8 @@ Fondaparinux는 항트롬빈 III에 선택적으로 결합해 Factor Xa를 억�
 
 - 내부 학습 노트: Fondaparinux
 - 원본 경로: `source_notes/04 Pharmacology/09 혈액·응고/Fondaparinux.md`
-- 학습 목표: 원문 핵심: - 항트롬빈 III(Antithrombin III)에 선택적으로 결합하여 제10혈액응고인자(Factor Xa)를 억제함으로써 트롬빈 생성을 차단
+- 학습 목표: Fondaparinux: Antithrombin III에 결합, Factor Xa 억제
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0luZmxpeGltYWIubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 인플릭시맙
 
 ## 해설
 
+체표면적 >10%의 전형적 건선과 3개월간 말초관절 증상은 전신치료·건선관절염 평가를 필요로 한다. Methotrexate(C)는 피부와 말초관절 질환을 함께 조절하는 합리적인 초기 csDMARD 선택이며 EULAR는 유의한 피부 침범에서 이를 선호한다. Infliximab 등 생물학제제도 유효한 치료이며 질환 양상·중증도·금기와 치료 목표에 따라 선택한다. 광선치료만으로 관절 질환을 치료할 수는 없다.
 
-광범위한 은백색 인설성 판과 관절통을 동반한 중등도~중증 건선은 메토트렉세이트가 1차 치료제로 권장된다. 메토트렉세이트는 피부와 관절 증상을 동시에 억제한다. 따라서 정답은 메토트렉세이트이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 광범위 건선·말초관절 증상의 MTX C를 유지하되 모든 중증 건선의 유일한 일차약으로 단정하지 않도록 한다.
+- 공식/학회 근거: https://ard.bmj.com/content/83/6/706
+- 공식/학회 근거: https://www.aad.org/member/clinical-quality/guidelines/psoriasis
 
 ## 출처
 

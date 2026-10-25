@@ -20,11 +20,11 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -35,6 +35,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MaXJhZ2x1dGlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -52,8 +54,15 @@ D. 메토프롤롤
 
 ## 해설
 
+63세 환자의 제2형 당뇨병, 고혈압 및 LDL 105 mg/dL는 선택지 A의 아토르바스타틴 사용을 지지한다. 현행 2026년 지침의 PREVENT 위험 구분은 과거 PCE 등의 구분과 다르므로, 계산식이 제시되지 않은 18.7%를 무조건 중등도 위험으로 표시하지 않는다. 치료 강도와 목표는 위험인자와 치료 반응에 따라 정한다.
 
-10년 위험도 18.7%는 중등도 위험이며, 당뇨와 LDL‑C 105 mg/dL를 고려하면 중등도‑고강도 스타틴이 필요하다. 아토르바스타틴은 1차 선택약이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Statin A는유지하되산식미상의18.7%를현행중등도라고고정한위험분류교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001423
+- https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment
 
 ## 출처
 

@@ -23,12 +23,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNCDqsITri7Tst4wvRW50ZWNhdmlyLm1k
   - ZHJ1ZzowNCDqsITri7Tst4wvU29mb3NidXZpci5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,6 +50,13 @@ D. 테노포비르와 엔테카비르 치료
 
 
 C형 간염 genotype 1에 대해 직접 작용 항바이러스제인 소포스부비르와 레디파스비르 조합이 1세대 치료제보다 효능이 높고 부작용이 적다. 따라서 가장 적절한 치료는 A이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: HCV RNA 양성 genotype 1의 활성 감염에 제시된 유효 DAA 조합은 A ledipasvir/sofosbuvir. tenofovir 조합과 구식 interferon을 구별.
+- https://www.hcvguidelines.org/guidance/treatment-naive-genotype-1-without-cirrhosis/
 
 ## 출처
 

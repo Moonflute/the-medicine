@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 전굴자궁
 
 ## 해설
 
+임신보다 앞서 6개월간 지속된 골반 압박감과 빈뇨, 임신 약 11주에 비해 배꼽 높이까지 커진 자궁은 자궁근종(B)을 시사한다. 근종은 자궁 크기를 키우고 방광을 압박할 수 있다. β-hCG 한 값만으로 다태임신이나 포상임신을 확진할 수 없고, 실제 확인에는 초음파가 필요하다. 가족의 보조생식 후 쌍둥이 임신은 이 환자의 다태임신 근거가 아니며 전굴자궁도 이러한 종괴 효과를 설명하지 못한다. 매독 검사나 치료는 본문에 없다.
 
-임신 32주에 양성 매독은 태아 감염 위험이 높으며, 페니실린이 치료 표준이다. 다른 항생제는 효과가 부족하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 중 매독 치료 오연결 해설을 자궁근종으로 교체. 임신 전 시작된 압박·빈뇨와 과대 자궁에 근거해 B 유지.
+- https://www.fda.gov/consumers/womens-health-topics/uterine-fibroids
 
 ## 출처
 

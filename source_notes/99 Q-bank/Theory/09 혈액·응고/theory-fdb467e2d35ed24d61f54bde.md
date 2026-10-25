@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
 answer: C
 translation_status: not-applicable
@@ -24,6 +24,11 @@ review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+curation_status: "retained"
+curation_reason: "LMWH와 neuraxial 카테터의 투약·제거 시점 관리라는 중대한 안전 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,10 +50,10 @@ Enoxaparin을 신경계에 삽입된 카테터와 함께 사용할 경우, 투�
 
 ## 오답 포인트
 
-- **A. 혈압 및 헤마토크릿을 지속적으로 모니터링한다.:** 출혈 징후 모니터링도 필요하지만, 신경계 출혈 위험을 방지하기 위한 시점 준수가 우선이다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Enoxaparin
 - 원본 경로: `source_notes/04 Pharmacology/09 혈액·응고/Enoxaparin.md`
-- 학습 목표: 원문 핵심: - 출혈 징후(혈압 저하, 헤마토크릿 감소 등)를 면밀히 모니터링할 것. - 혈소판 수치를 정기적으로 확인하여 HIT 발생 여부를 감시할 것. - 척추/경막외 마취나 요추 천자 시 투여 시점과 카테터 제거 시점을 엄격히 준수할 것. - 타 헤파린 제제나 다른 저분자 헤파린과 상호 교체하여 사용하지 말 것.
+- 학습 목표: Enoxaparin: 투여 시점과 카테터 제거 시점을 정확히 준수한다.

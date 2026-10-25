@@ -22,9 +22,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,6 +46,13 @@ D. 장벽 전층 염증
 
 
 지속적인 물설사, 저칼륨혈증, 무산성증은 혈관활성 장펩티드(VIP) 과다 분비에 의한 WDHA 증후군을 특징으로 한다. VIPoma는 혈청 VIP 농도를 상승시켜 이러한 전해질 이상을 일으킨다. 따라서 가장 가능성 높은 원인은 B, 혈청 VIP 농도 상승이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 수양설사·저K·위산감소 WDHA는 VIP B를 지지하며 홍조만으로 carcinoid를 고르지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

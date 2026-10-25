@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 지중해빈혈 보인자
 
 
 MCV가 65 µm³인 소구성 빈혈이지만 페리틴이 정상·높은 수준이므로 철 결핍이 아니다. 지중해빈혈 보인자는 미세소구성 빈혈을 일으키며, 페리틴은 보통 정상이다. 따라서 지중해빈혈 보인자가 가장 가능성 높은 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000031 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Hb에 비해 심한 소구성·높은 RBC수·보존된 ferritin과 정상 RDW는 thalassemia trait D. 채식력만으로 B12/철결핍을 선택하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

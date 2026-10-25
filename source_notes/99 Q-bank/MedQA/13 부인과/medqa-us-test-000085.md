@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 안드로겐과 황체형성호르몬 분비 증가
 
 ## 해설
 
+월경 주기와 연관된 골반·요통, 통증성 설사와 난임은 자궁내막증을 시사한다. 자궁강 밖에 존재하는 자궁내막 유사 조직(C)이 출혈·염증·유착 등을 일으킬 수 있다. 정상 골반 진찰이나 자궁난관조영술만으로 이 기전을 배제할 수 없다. 이 문항은 다음 검사가 아니라 증상의 기전을 묻는다.
 
-주기적 골반·요통·설사와 불임은 자궁내막증의 전형적인 임상양상이며, 자궁외 내막 조직이 골반 내에 존재한다는 기전이 가장 가능성이 높다. 진단을 확인하려면 복강경으로 직접 병변을 관찰하고 조직을 채취한다. 따라서 가장 적절한 검사는 복강경검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 병태기전 질문의 해설을 복강경검사라는 다른 질문의 답으로 마무리한 오류를 제거했다.
+
 
 ## 출처
 

@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 항핵항체 및 신장 패널 검사
 
 ## 해설
 
+손등의 광노출 수포·흉터·비립종은 PCT 또는 pseudoporphyria를 시사한다. Naproxen은 pseudoporphyria를 유발할 수 있으므로 소변 uroporphyrin 등 porphyrin 검사(C)로 감별하는 것이 적절하다. PCT는 porphyrin이 증가하지만 pseudoporphyria에서는 보통 정상이다. 임상 모습만으로 PCT를 확정하거나 피부근육증으로 부르지 않는다.
 
-양손에 과다색소 침착과 수포가 동반된 포르피리아 피부근육증은 소변에서 유로포르피린이 검출되는 것이 진단적 단서이다. 따라서 소변 유로포르피린 측정이 다음 단계이다. 글루텐 제한이나 ANA 검사는 관련이 적다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Naproxen 관련 pseudoporphyria 감별을 놓치고 PCT로 확정한 설명을 교체한다. 소변 porphyrin 검사 C는 유지한다.
+- 공식/학회 근거: https://www.bad.org.uk/pils/porphyria-cutanea-tarda
+- 공식/학회 근거: https://www.pcds.org.uk/clinical-guidance/porphyria
 
 ## 출처
 

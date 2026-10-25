@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 구리 함유 자궁 내 장치 삽입
 
 ## 해설
 
+전날 피임 없는 성관계에 대해 구리 IUD를 5일 이내 삽입하면 응급피임과 지속 피임이 가능하다(D). 현재 음성 hCG는 전날 관계로 인한 임신을 배제하지 못한다. 울리프리스탈도 응급피임 선택지지만 지속 피임을 별도로 계획해야 한다. 복합 경구피임약을 단지 청소년의 혈전위험 때문에 배제하는 설명은 부적절하다.
 
-피임을 원하지만 임신 가능성이 낮고, 급히 효과가 필요한 경우 구리 IUD가 10년 이상 지속되는 비호르몬 피임법이다. 청소년에게도 안전하게 삽입 가능하므로 구리 IUD가 최선이다. 에스트로겐‑프로게스틴 복합제는 혈전 위험을 증가시켜 부적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 응급피임과 장기 피임을 함께 원하는 청소년에서 구리 IUD D 유지. 전날 임신은 음성 hCG로 배제할 수 없고 C의 단순 혈전위험 배제도 수정.
+- https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html
 
 ## 출처
 

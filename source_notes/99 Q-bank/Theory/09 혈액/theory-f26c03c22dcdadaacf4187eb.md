@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "ITP를 항체에 의한 말초 파괴만으로 한정하던 정의에 혈소판 생산 장애를 포함."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmltjldwv1d25peuvzu0r0bulqc2hvenrqskrxc0pec2hvennotevnn0o2uty3q1k3s2fksunoslphbhzjr0ywyudsaklgum9jbtl0ww05amvyunzjr1z1yvdnz1vivnljsfz5wvn3z1nwulfluzv0wkf8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -16,32 +21,42 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-특발성 혈소판감소성 자반증(ITP)의 정의는?
+ITP의 혈소판 감소 기전으로 적절한 것은?
 
 ## 선택지
 
-A. 자가항체에 의해 혈소판이 파괴되어 혈소판 수가 감소하는 자가면역 질환
-B. 골수에서 혈소판이 과다하게 생산되는 질환
-C. 혈소판이 비장에 축적되어 혈액 내 농도가 낮아지는 질환
-D. 혈소판 기능만 저하되고 수는 정상인 질환
+A. 면역성 혈소판 파괴 증가와 혈소판 생성 장애가 함께 관여할 수 있다.
+B. 혈소판 생산 과다만으로 발생한다.
+C. 비장에 저장되기만 하는 현상으로 모두 설명된다.
+D. 혈소판 수는 반드시 정상이고 기능만 저하된다.
 
 ## 해설
 
-ITP는 IgG 자가항체가 혈소판에 결합해 비장에서 파괴되면서 혈소판 감소를 일으킨다.
+ITP는 면역 매개 질환이며 말초 파괴뿐 아니라 생성 저하도 관여한다. 다른 혈소판감소 원인을 배제해 평가한다.
+
+## 오답 포인트
+
+- 생산 과다·비장 저장만·수 정상 필수: ITP의 병태생리를 충분히 설명하지 못한다.
 
 ## 출처
 
 - 내부 학습 노트: 특발성 혈소판감소성 자반증 (Idiopathic Thrombocytopenic Purpura, ITP)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/특발성 혈소판감소성 자반증 (Idiopathic Thrombocytopenic Purpura, ITP).md`
-- 학습 목표: 원문 핵심: - **정의**: 자가항체에 의해 혈소판이 파괴되어 혈소판 수가 감소하는 자가면역 질환. - **원인**: 백신 접종, 감염 (H. pylori, HIV, HCV 등), 자가면역 질환과 연관되거나 특발성으로 발생. 자가항체에 의해 혈소판이 비장에서 파괴됨. - **기전**: 혈소판 표면 항원에 대한 자가항체 (주로 IgG)가 생성 → 항체 결합 혈소판이 비장 등에서 대식세포에 의해 파괴 → 혈소판 수 감소.
+- 학습 목표: ITP는 면역성 혈소판 파괴 증가와 생성 장애가 관여함을 안다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: ITP를 항체에 의한 말초 파괴만으로 한정하던 정의에 혈소판 생산 장애를 포함.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/

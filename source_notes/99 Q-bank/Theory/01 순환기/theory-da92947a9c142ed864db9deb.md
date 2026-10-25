@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "판막 협착과 다른 RV 유출로 병변을 포괄하던 정의를 판막 수준의 폐색과 우심실 압력 과부하로 명확화했다."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc0yugtpdvbtzxvucguytwtpdw5pu0r0bupic3nla2dlrkixykcxdmjtrnllu0juzedwdwiztnbjewt1yldrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -16,36 +21,45 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-폐동맥판막 협착의 정의는 무엇입니까?
+판막성 폐동맥판막 협착의 주된 혈역학적 결과는?
 
 ## 선택지
 
-A. 우심실 유출로 또는 폐동맥판막의 협착으로 인해 우심실에서 폐동맥으로의 혈액 박출이 방해받는 질환
-B. 좌심실에서 대동맥으로 혈액이 나가는 것을 방해하는 대동맥판막 협착
-C. 좌심방에서 좌심실로 혈액이 역류하는 이첨판막 역류
-D. 우심방에서 우심실로 혈액이 역류하는 삼첨판막 역류
+A. 수축기 우심실 유출 저항과 RV-폐동맥 압력차가 증가하여 우심실 압력 과부하가 생긴다.
+B. 이완기 대동맥에서 좌심실로 역류가 생긴다.
+C. 수축기 좌심실에서 좌심방으로 역류가 생긴다.
+D. 좌심방-좌심실 이완기 유입이 선택적으로 제한된다.
 
 ## 해설
 
-폐동맥판막 협착은 우심실에서 폐동맥으로 혈액이 나가는 흐름이 협착으로 인해 방해받는 질환입니다.
+판막성 PS는 폐동맥판 수준의 개방 제한으로 수축기 유출을 방해한다. 우심실 압력·기능과 협착 위치·중증도를 평가하며 판막하/판막상 또는 말초 폐동맥 협착과 구별한다.
 
 ## 오답 포인트
 
-- **B. 좌심실에서 대동맥으로 혈액이 나가는 것을 방해하는 대동맥판막 협착:** 대동맥판막 협착은 좌심실·대동맥 사이의 문제이며, 폐동맥판막과는 무관합니다.
+- 대동맥-좌심실 이완기 역류: AR 기전이다.
+- 좌심실-좌심방 수축기 역류: MR 기전이다.
+- 좌심방 유입 제한: MS 기전이다.
 
 ## 출처
 
 - 내부 학습 노트: 폐동맥판막 협착 (Pulmonary Stenosis)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/폐동맥판막 협착 (Pulmonary Stenosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 우심실 유출로 또는 폐동맥판막의 협착으로 인해 우심실에서 폐동맥으로의 혈액 박출이 방해받는 질환 - **원인**: 대부분 선천성 심장 질환으로 발생하며, 팔로사징(Tetralogy of Fallot)의 일부로 나타나거나 누난 증후군(Noonan syndrome) 등과 연관될 수 있다. 성인에서는 카르시노이드 증후군이 원인이 되기도 한다. - **기전**: 폐동맥판막이 좁아지면 우심실은 혈액을 박출하기 위해 더 큰 압력을 생성해야 하므로, 우심실 비대(RV hypertrophy)가 발생한다.
+- 학습 목표: 판막성 PS가 수축기 RV-PA 압력차와 우심실 압력 과부하를 일으킴을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 판막 협착과 다른 RV 유출로 병변을 포괄하던 정의를 판막 수준의 폐색과 우심실 압력 과부하로 명확화했다.
+- https://academic.oup.com/eurheartj/article/42/6/563/5898606
+- https://www.escardio.org/static-file/Escardio/Subspecialty/EACVI/position-papers/EAE-recommendations-valve-stenosis.pdf

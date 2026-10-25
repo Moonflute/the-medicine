@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 오른쪽 교뇌
 
 ## 해설
 
+오른쪽 피질척수로 손상은 병변 아래 동측 상위운동신경원 위약·경직·Babinski 징후를, 오른쪽 후주 손상은 동측 진동·위치감각 저하를 만든다. 척수시상로 섬유는 들어온 뒤 척수에서 교차하므로 오른쪽 반척수 병변은 반대쪽인 왼쪽 통각·온도감각을 저하시킨다. 이 조합은 Brown–Séquard 양상의 오른쪽 척수 반쪽(C) 병변에 합당하다. 감각 전체가 반대쪽에서 소실되는 것은 아니다.
 
-우측 척수 반절 병변은 반대쪽(좌측) 감각 저하와 우측 운동신경 손상(근긴장도 증가, 반사亢진, 감각 저하)으로 나타난다. 따라서 병변은 오른쪽 척수 반쪽에 있을 가능성이 가장 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 척수 반절 병변의 반대쪽 감각저하를 모든 감각으로 뭉뚱그린 해설을 운동·후주·통각온도 각각의 교차 위치로 구별했다. 오른쪽 반척수 C를 유지한다.
 
 ## 출처
 

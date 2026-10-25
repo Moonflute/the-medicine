@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 소변검사
 
 ## 해설
 
+정상 땀 염소에도 임상 의심이 높으면 CFTR 유전자 및 기능 평가를 검토한다. 보기 중 비강 경상피 전위차(B)는 CFTR 기능 이상을 확인하는 보조 검사로, 숙련된 표준화 전문기관에서 시행·해석한다. 단일 검사를 모든 CF에서 가장 민감하다고 단정하지 않는다.
 
-비강 경상피 전위차 검사는 CFTR 기능을 평가해 낭성 섬유증을 진단하는 데 가장 민감한 검사이며, 정상 땀 염화물 검사에도 불구하고 의심되는 경우에 사용한다. 따라서 확인에 도움이 되는 검사는 비강 경상피 전위차 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: NPD를 보편적 최고 민감도 검사로 단정하지 않고 전문기관 CFTR 기능검사로 명확화.
+- https://www.cff.org/medical-professionals/cf-diagnosis-clinical-care-guidelines
 
 ## 출처
 

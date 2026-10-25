@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 소마토스타틴 수용체 신티그래피
 
 ## 해설
 
+장기과음·지방변·체중감소는 만성췌장염과 외분비부전을 의심하게 하며 B의 CT는 구조적 췌장질환 평가의 적절한 초기검사다. CT 또는 MRI를 이용하며 CT가 언제나 가장 민감하다는 뜻은 아니다. EPI의 기능평가는 대변elastase 등 별도로 필요할 수 있다.
 
-지방변과 체중 감소, 복부 통증은 췌장 외분비 기능부전(췌장염) 의심을 시사한다. 췌장 구조와 주변 장기 침범 여부를 확인하려면 조영제 사용 복부 CT가 가장 민감하고 빠른 영상검사이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: CT B는 만성췌장염 구조평가로 유지하되 EPI확진/최고민감 검사로 과장한 해설 교정.
+- https://doi.org/10.14309/ajg.0000000000000535
 
 ## 출처
 

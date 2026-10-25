@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 콜히친 치료
 
 ## 해설
 
+정답은 B, 체중감량 프로그램이다. 활동 후 악화되는 무릎 통증, 비만, 염발음 및 뚜렷한 염증 소견의 부재는 무릎 골관절염에 부합한다. 과체중·비만 환자의 체중감량과 운동은 초기 관리의 핵심이다. 필요하면 통증 약물이나 주사치료를 병행할 수 있으므로 모든 약물보다 체중감량이 항상 우월하거나 다른 치료를 반드시 미뤄야 한다는 뜻은 아니다. 충분한 비수술적 치료 없이 관절 전치환술을 우선하지 않으며, 콜히친을 선택할 급성 결정관절염 단서도 없다.
 
-무릎 골관절증의 주요 위험인자는 비만이며, 체중 감소가 증상 완화와 기능 개선에 가장 효과적이다. 수술이나 약물보다 먼저 체중 감량 프로그램을 시행하는 것이 권장된다. 따라서 가장 적절한 관리 단계는 체중 감량 프로그램이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 비만성 무릎 OA에서 체중감량 권고는 맞으나 모든 약물·수술보다 가장 효과적이라는 과장 수정. 그림 없이 본문으로 초기 보존치료 답 B 판단 가능.
+- X선 이미지 자체는 제공되지 않았으며 영상 소견을 추정하지 않았다. 본문의 기계적 증상·비만·염발음과 치료 선택지로 원래 초기 관리 답을 판단할 수 있어 이미지 언급만으로 보류하지 않았다.
+- 공식/학회 근거: https://www.arthritis.org/getmedia/d57cf9f5-e096-43a2-832d-dbc174065a58/Kolasinski-2020-american-college-of-rheumatology-a.pdf
 
 ## 출처
 

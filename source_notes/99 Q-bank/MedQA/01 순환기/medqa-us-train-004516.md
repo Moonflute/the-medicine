@@ -20,11 +20,11 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 에스트로겐과 암로디핀
 
 ## 해설
 
+항허혈약은 운동부하검사의 허혈검출 민감도를 낮출 수 있어 진단목적과 안전성을 검토한 담당의 지시하에 metoprolol·amlodipine A를 일시보류할 수 있다. Metoprolol은 심박수반응을 억제하지만 dihydropyridine인 amlodipine은 같은 직접서맥기전이 아니다. 모든검사에 일률중단하거나 환자가 임의로 급중단해서는 안 된다.
 
-운동부하검사 전 베타차단제와 칼슘채널 차단제는 심박수와 혈압 반응을 억제해 검사 결과를 왜곡한다. 메토프롤롤과 암로디핀을 중단하는 것이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 검사목적에따른 약물일시중단 A로 한정; amlodipine을 직접 심박수억제제로 오설명하지 않음.
+- https://www.journalofnuclearcardiology.org/article/S1071-3581%2826%2900351-X/fulltext
 
 ## 출처
 

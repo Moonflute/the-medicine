@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 안드로겐 불감증
 
 ## 해설
 
+정상 유방 발달에 비해 음모·액와모가 드물고 자궁이 없으며 막힌 질과 서혜부 생식샘 의심 종괴가 있어 완전 안드로겐 불응증(D)이 가장 적합하다. 안드로겐 수용체 기능 결함으로 발생하며 보통 46,XY 핵형이지만 이 사례에는 핵형 결과가 직접 제시된 것은 아니다. 기존의 ‘성 피질감소’는 이 질환의 적절한 명칭이나 기전이 아니다.
 
-청소년기에 46,XY이면서 외부는 여성형, 자궁·난소 미존재, 고환이 서혜부에 위치한 경우 완전 안드로겐 불감증(성 피질감소)이다. 이 상태는 안드로겐 수용체 기능 결함으로 발생한다. 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: AIS기전D유지. 무의미한성피질감소표현삭제하고검사되지않은46XY를확정값처럼쓰지않음.
+
 
 ## 출처
 

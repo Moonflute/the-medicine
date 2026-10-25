@@ -20,15 +20,17 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 메티마졸 용량 감소
 
 ## 해설
 
+Methimazole 시작 후 고열·인후통에 ANC≈3,200×0.09=288/mm³로 약물 유발 중증 호중구감소/무과립구증을 의심한다. 즉시 methimazole을 중단하는 B가 적절하며 단순 감량하지 않는다. 발열성 호중구감소증이므로 감염 평가와 신속한 치료를 병행해야 한다. 농양증이라는 기존 용어는 agranulocytosis의 번역이 아니다.
 
-메티마졸 복용 후 급성 호중구 감소증(백혈구 3,200, 호중구 9%)은 약물 유발 농양증이며, 가장 중요한 조치는 약물 중단이다. 다른 선택지는 이 상황을 해결하지 못한다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ANC 약288의 약물 유발 무과립구증을 농양증으로 잘못 쓴 오류; methimazole 즉시중단 B와 감염 응급평가.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ce3ca1-f2f2-7102-e063-6394a90ae819
 
 ## 출처
 

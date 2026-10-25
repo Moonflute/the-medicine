@@ -18,15 +18,19 @@ question_type: prevention
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: D
+answer_change_reason: "27–45세HPV백신공동결정현행권고로D에서A로변경;음성임신검사필수아님."
 ---
 
 # MedQA US 임상문제
@@ -44,8 +48,14 @@ D. 26세를 초과한 여성에게 HPV 예방접종은 권장되지 않는다
 
 ## 해설
 
+28세 미접종자는 27–45세 공동결정을 통해 HPV 백신을 접종할 수 있어 D의 연령상 일괄 배제는 부정확하다. 임신이 아니라면 접종 가능하다는 A가 선택지 중 맞다. 다만 정기 임신검사는 필수가 아니며 임신 중에는 접종을 연기한다. 과거 ASC-US는 금기가 아니고 접종 전 HPV 검사도 필요 없다.
 
-HPV 백신은 26세 이하 여성에게 권장되며, 26세 초과에서는 일반적으로 권장되지 않는다. 따라서 26세 초과인 환자에게는 백신이 권장되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 27–45세HPV백신공동결정현행권고로D에서A로변경;음성임신검사필수아님.
+- https://www.cdc.gov/hpv/hcp/vaccination-considerations/
+- https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-11-human-papillomavirus.html
 
 ## 출처
 

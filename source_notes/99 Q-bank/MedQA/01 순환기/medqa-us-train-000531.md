@@ -22,38 +22,56 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: mechanism
 difficulty: standard
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA
+medical_review_status: "content-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 중복으로 참인 약물 효과를 장기 신장 적응이라는 질문으로 명확화."
+curation_status: "revised"
+curation_reason: "중복으로 참인 약물 효과를 장기 신장 적응이라는 질문으로 명확화."
+curation_reviewed_at: "2026-10-25"
+wrong_notes_review_status: "reviewed"
+curation_disposition: "selected"
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-57세 남성이 호흡곤란을 주소로 응급실에 내원하였다. 그는 휴일에 가족과 저녁 식사를 하던 중 매우 심한 호흡곤란을 느껴 내원하게 되었다. 과거력상 당뇨병, 고혈압, 2회의 심근경색, 비만이 있다. 신체 검진에서 양측 폐의 수포음(crackles)과 경정맥 팽창(jugular venous distension)이 관찰된다. 흉부 X-선 검사에서 심장 음영의 확대와 늑골횡격막각(costophrenic angles)의 둔화가 확인된다. 환자는 급성 증상에 대해 약물 치료를 시작하였다. 2시간 후, 환자는 증상이 크게 호전되었다고 말하며, 재시행한 흉부 X-선 검사에서도 심장 음영의 확대가 관찰된다. 투여되었을 가능성이 가장 높은 약물의 특성으로 옳은 것은?
+57세 남성이 가족과 저녁 식사를 하던 중 심한 호흡곤란이 생겨 응급실에 왔다. 당뇨병, 고혈압, 두 차례 심근경색과 비만이 있다. 양측 폐 수포음과 경정맥 팽창이 있으며 흉부 X선에서 심장 확대와 늑골횡격막각 둔화가 보인다. 급성 울혈에 대한 약물치료 2시간 후 증상은 크게 호전되었지만 심장 확대는 남아 있다. 이 상황에서 흔히 사용하는 루프 이뇨제를 만성적으로 반복 투여할 때 나타날 수 있는 신장 내 변화는?
 
 ## 선택지
 
-A. 호흡 억제를 유발할 수 있다
-B. 정맥 확장을 일으키고 전부하(preload)를 감소시킨다
-C. 심근 수축력과 후부하(afterload)를 증가시킨다
-D. 만성 사용 시 장기적인 신성(nephrogenic) 적응을 유발한다
+A. 호흡중추 억제
+B. 투여 직후의 정맥 확장과 전부하 감소
+C. 심근 수축력과 후부하 증가
+D. 원위 네프론의 나트륨 재흡수 증가 등 보상성 적응
 
 ## 해설
 
+급성 울혈성 심부전에서 빠른 이뇨를 위해 흔히 사용하는 루프 이뇨제는 Na-K-2Cl 공동수송을 억제한다. 반복 투여하면 원위 네프론의 나트륨 재흡수 능력이 증가하는 적응이 생겨 이뇨 반응이 약해질 수 있다. 정맥 확장과 전부하 감소도 초기 효과이지만 질문은 만성 반복 투여에 따른 신장 적응을 묻는다. 이뇨 뒤 증상이 좋아져도 심장 확대가 곧바로 사라지는 것은 아니다.
 
-급성 심부전에서 증상 완화를 위해 투여된 약물은 일반적으로 루프 이뇨제인 furosemide이다. 고용량 루프 이뇨제는 장기 사용 시 신성(nephrogenic) 내분비 적응을 유발한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 중복으로 참인 약물 효과를 장기 신장 적응이라는 질문으로 명확화.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000531
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

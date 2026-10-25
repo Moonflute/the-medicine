@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 라미프릴
 ## 해설
 
 
-소변량 감소, 고혈압, 혈소판 감소, 미세혈관 용혈은 전신경화증에 동반되는 신장 위기(신경성 신장 위기)를 시사한다. 이 상황에서는 혈관 수축과 레닌-안지오텐신 시스템 활성화가 급격히 진행되므로 ACE 억제제가 혈압을 급격히 낮추고 신장 기능을 보호한다. 따라서 라미프릴이 가장 적절한 치료이다. 라니트로프루시드는 혈압 강하 효과는 있으나 ACE 억제제만큼 신장 위기에서의 생존율 개선 효과가 입증되지 않았다.
+피부경화·Raynaud 양상에 새 중증 고혈압·AKI·혈소판감소/미세혈관 용혈이 동반되어 경피증 신위기(SRC)를 의심한다. ACE 억제제를 신속히 시작하고 혈압·전해질·신기능을 감시하며 조절하므로 선택지 D ramipril이 적절하다. 목표는 과도한 신관류 저하 없이 상황에 맞게 혈압을 조절하는 것이지 무조건 급격한 정상화가 아니다. 필요시 다른 혈압약·신대체요법을 병행하지만 ACE 억제제를 단순 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005238 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경피증 신위기를 신경성으로 오역하고 혈압을 무조건 급격히 낮추라고 한 표현을 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/rheumatology/article/63/11/2948/7750185
 
 ## 출처
 

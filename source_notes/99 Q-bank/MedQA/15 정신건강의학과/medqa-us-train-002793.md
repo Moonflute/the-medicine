@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,9 +52,15 @@ D. 리튬
 ## 해설
 
 
-리스페리돈은 도파민 D2 수용체 차단제로 틱 장애(투렛 증후군)의 운동 및 음성 틱을 감소시키는 1차 약물이다. 발프로산은 항경련제, 클로나제팜은 벤조디아제핀, 리튬은 기분 안정제로 틱에 직접적인 효과가 적다.
+리스페리돈은 도파민 D2 수용체 차단제로 틱 장애(투렛 증후군)의 운동 및 음성 틱을 줄일 수 있는 약물로, 제시된 선택지 중 적절하다. 치료 필요성과 행동치료 등 대안, 대사·추체외로 부작용을 함께 고려한다. 발프로산은 항경련제, 클로나제팜은 벤조디아제핀, 리튬은 기분 안정제로 틱에 직접적인 효과가 적다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002793
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 운동·음성 틱에 리스페리돈 원정답 유지. 모든 투렛증후군의 단일 1차라는 단정 삭제.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

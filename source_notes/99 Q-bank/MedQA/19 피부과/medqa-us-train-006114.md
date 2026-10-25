@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 정강이
 
 ## 해설
 
+겨드랑이와 유방하 주름에서 반복되는 통증성 결절·누공·배농 및 흉터는 화농성 한선염(hidradenitis suppurativa)에 합당하다. 이 질환은 사타구니(C)·회음부 등 접힘 부위도 흔히 침범한다. Histoplasma 감염이나 발육저하를 의미하지 않는다.
 
-화농성 한선염(히포플라스마)과 연관된 누공은 사타구니(음부 주위)에서 흔히 동반된다. 다른 부위는 이 질환과 연관성이 낮다. 따라서 가장 높은 침범 가능 부위는 사타구니이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 반복되는 접힘부 결절·배농·흉터의 HS C를 히포플라스마로 잘못 적은 용어를 교정한다.
 
 ## 출처
 

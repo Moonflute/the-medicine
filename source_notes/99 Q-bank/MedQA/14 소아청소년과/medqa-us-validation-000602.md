@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 6개월까지 모체 IgG 감소
 
 ## 해설
 
+임신 중 태반을 통과한 모체 IgG는 출생 후 한동안 영아를 보호하지만 수개월에 걸쳐 감소한다. B세포가 없거나 매우 적은 X연관 무감마글로불린혈증 영아는 자체 항체를 충분히 만들지 못하므로 이 보호가 줄어드는 생후 수개월부터 감염이 두드러질 수 있어 D가 적절하다. 모체 IgG가 아예 전달되지 않았다는 뜻이 아니며 모유수유 종료가 태반 IgG를 없애는 것도 아니다.
 
-X연관 무감마글로불린혈증은 모체 IgG가 태아에게 전달되지 않아 6개월까지 IgG가 감소한다. 따라서 생후 6개월까지 모체 IgG 감소가 늦은 증상 발현을 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: X연관 무감마글로불린혈증에서 모체 IgG가 태반을 통과하지 않는다는 잘못된 설명을 수동 전달 항체의 생후 소실로 교정했다.
+
 
 ## 출처
 

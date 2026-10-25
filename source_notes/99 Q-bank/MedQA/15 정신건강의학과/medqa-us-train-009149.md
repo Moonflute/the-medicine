@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 환각
 
 ## 해설
 
-
-수술 후 급성 혼란, 환각이 아닌 실제 물체를 잘못 인식하는 현상은 착각이다. 환자는 실제 존재하지 않는 물체를 보며 혼란을 겪고 있으므로 착각이 가장 적절한 설명이다.
+벽에 실제로 걸린 목욕가운을 도둑으로 잘못 지각했으므로 착각이다. 외부 자극이 없는 상태에서 생기는 환각과 구별한다. 수술 후 급성 혼돈은 이 지각 오류가 나타나는 배경이며, 이 문항은 혼돈의 원인 진단이 아니라 지각 현상의 이름을 묻는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009149
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 실제 물체가 없다고 하면서 착각이라 한 내부 모순 교정. 목욕가운 오인이라는 실제 자극을 명시.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 경구 아시클로버
 ## 해설
 
 
-CD4 51/mm³인 AIDS 환자는 구강·식도 칸디다증이 흔히 발생한다. 구강 병변이 없더라도 식도 증상이 있을 경우 경구 플루코나졸이 1차 치료제이다. 따라서 플루코나졸이 정답이다.
+낮은 CD4와 진행성 연하통은 식도 칸디다증을 의심하게 하며 구강 병변이 없어도 가능하다. 선택지 중 경구 fluconazole(A)의 전신 치료가 적절하다. 국소 nystatin만으로 식도 감염을 치료하지 않는다. 적절한 치료에 호전하지 않으면 CMV·HSV 등 다른 원인을 위한 내시경·생검을 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000919 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: AIDS 연하통·구강 병변 부재에서도 식도 칸디다증 경험적 fluconazole A 유지, 치료 무반응이면 추가 내시경 감별 필요.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/candidiasis/
 
 ## 출처
 

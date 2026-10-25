@@ -18,17 +18,26 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVleyEsSDsnITquLAgKEh5cGVydGVuc2l2ZSBDcmlzaXMpLm1k
 question_type: 임상증례 객관식
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 고혈압성 뇌병증의 정주약과 강압 속도 설명 교정."
+curation_status: "revised"
+curation_reason: "고혈압성 뇌병증의 정주약과 강압 속도 설명 교정."
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -39,17 +48,27 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 정맥 니트로프루시드
-B. 경구 캅토프릴
-C. 정맥 만니톨
-D. 경구 클로니딘
+A. 감시하 정맥 니카르디핀으로 조절하며 혈압을 단계적으로 낮춘다
+B. 경구 캅토프릴 투여 후 즉시 귀가시킨다
+C. 정맥 만니톨만 투여한다
+D. 경구 클로니딘 투여 후 즉시 귀가시킨다
 
 ## 해설
 
+심한 고혈압에 의식 변화와 망막출혈이 동반되어 고혈압 응급상황이다. 정상 CT도 고혈압성 뇌병증을 배제하지 않는다. 지속 감시하에 조절 가능한 정주 항고혈압제로 단계적으로 낮춰야 하며, 즉시 정상혈압까지 떨어뜨리면 관류를 해칠 수 있다. Nicardipine은 이런 상황에 사용할 수 있다. 경구약만 주고 퇴원하거나 뇌압 상승 근거 없이 mannitol만 쓰는 것은 적절하지 않다.
 
-양측 망막출혈·삼출은 고혈압성 위기에서 흔히 나타나는 급성 눈병변이다. 혈압 245/115 mmHg와 두통·시야 흐림은 고혈압성 응급을 시사한다. 정맥 니트로프루시드는 즉시 혈관을 확장시켜 혈압을 급격히 낮추는 1차 치료제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 고혈압성 뇌병증의 정주약과 강압 속도 설명 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004129
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

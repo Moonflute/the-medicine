@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,6 +53,13 @@ D. 랄록시펜
 
 
 HER2 양성 침윤성 유관암은 HER2 수용체 과발현에 의해 성장 신호가 강화되므로, HER2 차단 항체인 트라스투주맙이 표적 치료에 적응된다. 다른 약물은 호르몬 수용체 또는 효소 억제제와 관련 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002792 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HER2 과발현 유방암에 trastuzumab B가 표적치료로 적응된다는 원문·정답·해설 일치를 확인했다. 실제 HER2 검사 확정과 심기능 감시를 전제하는 약물 적응증 범위 검수.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2
 
 ## 출처
 

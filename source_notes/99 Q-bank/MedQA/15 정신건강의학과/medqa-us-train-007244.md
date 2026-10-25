@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 산후 정신병
 
 ## 해설
 
+분만 2주 후 망상, 혼잣말/행동 변화와 아기를 없애야 한다는 믿음은 산후 정신병(D)에 부합한다. 이는 산후의 심각한 정신병적 임상증후군으로 양극성 기분삽화 등과 관련될 수 있어 본문만으로 기저 진단을 확정하지 않는다. RCPsych는 정신과 응급상황으로 신속한 평가를 권고하며, 이 사례에서는 산모와 아기의 즉각적 안전 확보가 중요하다. 정상적인 산후 우울감으로 설명해서는 안 된다.
 
-산후 2주 이내에 신생아에 대한 피해망상과 현실 부정, 혼란스러운 행동은 산후 정신병의 전형적인 양상이다. 이는 조현병과 구분되는 급성 정신병이며, 가장 적절한 진단은 산후 정신병이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 산후 정신병을 조현병과 단순히 별개인 질환으로 단정한 설명을 임상증후군/기분삽화 연관성과 모자 안전의 응급성으로 교정했다.
+- https://www.rcpsych.ac.uk/mental-health/mental-illnesses-and-mental-health-problems/postpartum-psychosis
 
 ## 출처
 

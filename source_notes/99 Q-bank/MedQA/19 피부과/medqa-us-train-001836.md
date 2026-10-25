@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 유세포분석
 
 ## 해설
 
+TMP-SMX 노출 뒤 통증성 피부 병변과 구강·안구 침범은 SJS/TEN을 의심하게 한다. 선지 중 병변 생검 및 조직병리검사(B)가 표피 괴사와 표피-진피 분리를 확인하고 유사 질환을 감별하는 데 가장 적절하다. 임상 경과·약물력·피부 소견과 함께 해석하며, 직접면역형광은 면역성 수포질환 감별에 유용하다. 박리 면적이 제시되지 않아 SJS/TEN 세부 등급은 확정하지 않는다.
 
-통증성 구강 궤양, 결막염, 전신 수포·표피 박리와 같은 점막·피부 병변은 약물 유발 Stevens‑Johnson 증후군(SJS)·TEN을 시사한다. SJS/TEN의 확진은 표피와 진피 경계에서 전형적인 전층 괴사와 표피 박리를 보이는 조직병리소견이 필요하다. 따라서 피부 병변의 생검 및 조직병리검사가 가장 확실한 진단 방법이다. 다른 선택지인 그람염색·배양은 감염 진단에 쓰이며 SJS/TEN 확인에 도움이 되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. SJS/TEN 의심에서 병변 조직검사 B를 유지하되 병리검사만으로 확진을 전적으로 결정한다는 표현을 제한한다.
+- 공식/학회 근거: https://academic.oup.com/bjd/article/174/6/1194/6617016?login=false
 
 ## 출처
 

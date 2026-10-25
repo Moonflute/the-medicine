@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. μ-오피오이드 수용체 부분 작용
 
 ## 해설
 
+미다졸람은 GABAA 수용체 작용을 강화하는 벤조디아제핀이며, PCP의 주요 작용은 NMDA 수용체 길항이다. 진정 후에도 위험한 흥분과 정신병적 증상이 지속될 때 보기 C의 도파민 D2 수용체 길항 작용을 갖는 항정신병약을 고려할 수 있다. 이는 GABAA 수용체를 차단하여 PCP 중독을 치료한다는 뜻이 아니다. 약제 선택 시 체온, 심전도와 QT 간격, 발작 위험 및 호흡 상태를 평가하고 지속적으로 관찰해야 한다.
 
-펜시클리딘 중독으로 인한 급성 흥분 상태는 GABA‑A 수용체에 대한 길항 작용을 통해 억제된다. 할로페리돌은 D2 수용체 길항제로 이 상황에 가장 효과적인 대체 진정제이다. 다른 선택지는 작용 기전이 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. PCP 흥분에 대한 GABAA 길항 설명을 교정한다. C의 D2 길항 기전은 유지하되 벤조디아제핀과 항정신병약의 역할·안전 조건을 구별한다.
+- 공식/학회 근거: https://www.acep.org/siteassets/new-pdfs/clinical-policies/severe-agitation-cp.pdf
 
 ## 출처
 

@@ -18,15 +18,20 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
 question_type: diagnosis
 difficulty: complex
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "이차성 부갑상샘항진도 고칼슘이라는 오해를 제거."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,19 @@ D. 부갑상선기능항진증
 
 ## 해설
 
-
-저칼슘혈증, 저인산혈증, 높은 PTH와 알칼리성 인산분해효소 상승은 비타민 D 결핍에 의한 골연화증을 시사한다. 골감소증·골다공증은 PTH가 정상이며, 부갑상선기능항진증은 칼슘이 상승하므로 부적절하다.
+불량한 영양 상태·뼈/근육 통증과 낮은 칼슘, 매우 높은 PTH는 vitamin D 부족에 따른 골연화증과 보상성 이차 부갑상샘항진을 시사한다. 선택지 중 골연화증이 전체 상황을 가장 잘 설명한다. 원발성 부갑상샘항진과 달리 이차성에서는 칼슘이 낮거나 정상일 수 있으며 25(OH)D 등으로 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007804
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 이차성 부갑상샘항진도 고칼슘이라는 오해를 제거.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

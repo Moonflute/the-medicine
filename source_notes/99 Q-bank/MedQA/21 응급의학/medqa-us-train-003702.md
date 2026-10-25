@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 구기관 삽관
 
 ## 해설
 
+먹먹한 목소리와 관통 경부손상은 기도 악화 가능성을 우려하게 하므로 보기 중 숙련된 팀의 구기관삽관(D)으로 기도를 확보하는 계획이 적합하다. 심한 후두·기관 파괴나 삽관 불능에서는 수술적 기도가 필요할 수 있어 백업을 준비한다. 얼굴/두개저 손상이 의심되는 상황에서 맹목적 비기관삽관을 선택하지 않는다.
 
-총상으로 인한 기도 손상 위험이 높으며, 환자는 말은 가능하지만 얼굴 골절 가능성이 있다. 구기관 삽관은 경부 손상이 있는 경우 가장 안전한 기도 확보 방법이다. 따라서 정답은 구기관 삽관이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경부 총상에서 구기관삽관이 언제나 가장 안전하다는 단정 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

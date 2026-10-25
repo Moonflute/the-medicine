@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,15 @@ D. 흡입 나트륨 크로몰린(비만세포 안정제)
 ## 해설
 
 
-중증 아나필락시스에서는 기도 부종·혈압 저하·두드러기 등이 동반되며, 근육 내 에피네프린이 가장 빠른 혈관수축·기관지 확장을 제공한다. 따라서 근육 내 에피네프린 투여가 최우선이다.
+음식 노출 후 얼굴 부종·발진과 호흡곤란·협착음이 함께 있어 혈압이 정상이어도 아나필락시스를 의심한다. 우선 처치는 근육 내 에피네프린(A)이다. 항히스타민제나 크로몰린으로 기도 문제의 치료를 지연해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000294`와 직접 대조했다.
+- 판정: 음식 노출 후 피부·점막 및 호흡기 침범으로 A 유지. 정상 혈압인 본 사례에 저혈압을 필수인 것처럼 덧붙이지 않도록 해설 교정. 불일치 플래그는 오연결 아님.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
+- https://www.resus.org.uk/professional-library/faqs/faqs-anaphylaxis
 
 ## 출처
 

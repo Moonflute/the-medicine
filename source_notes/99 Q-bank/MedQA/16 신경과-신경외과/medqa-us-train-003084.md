@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 소아 피부근염
 
 ## 해설
 
+눈꺼풀처짐, 얼굴·손의 근력저하와 무지구 타진 후 엄지의 느린 이완은 근긴장성 이영양증(C)을 시사한다. 근긴장증(myotonia)은 수축 후 근육 이완이 지연되는 현상이며 '근이완성 이영양증'이라는 별도 진단을 뜻하지 않는다. 감각은 보존되고 원위부 근력저하·주간 졸림과 학습 문제가 동반될 수 있어 다른 제시 질환보다 합당하다.
 
-눈꺼풀 처짐, 고아치형 입천장, 원위 근력 약화, 느린 이완이 특징인 근긴장성 이영양증은 근육 이완이 어려운 근이완성 근이영양증이다. 다른 선택지는 근위 근육 위축이나 염증성 근육질환을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 근긴장성 이영양증을 근이완성 질환이라고 부른 모순을 교정하고 타진 후 이완 지연이 근긴장증임을 설명했다.
 
 ## 출처
 

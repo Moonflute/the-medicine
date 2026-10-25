@@ -27,12 +27,14 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -52,6 +54,13 @@ D. 윌슨병(Wilson’s disease)
 
 
 십이지장에 황색 점막과 PAS 양성 대식세포 침윤은 휘플병(Whipple’s disease)의 병리소견이다. 이 질환은 Tropheryma whipplei 감염으로 소장뿐 아니라 전신에 비특이적 증상을 일으킨다. 따라서 가장 잘 설명하는 진단은 휘플병이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 만성 관절통 뒤 설사/체중감소·인지증상과 십이지장 PAS양성 대식세포는 T.whipplei/Whipple병 C를 지지.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

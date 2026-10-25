@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,10 +44,15 @@ D. 강력한 D2 길항제가 1차 약물 치료이다
 
 ## 해설
 
-
-청소년기에 지속적인 반사회적 행동과 양심 결여는 Conduct disorder이며, 성인이 되면 반사회적 인격 장애(antisocial personality disorder)로 진행될 위험이 있다. 따라서 증상이 반사회적 인격 장애로 진행될 수 있다.
+싸움·동물 학대·절도 등 타인의 권리를 침해하는 행동은 단순 반항성보다 품행장애를 시사한다. 일부 환자는 성인이 되어 반사회성 인격장애로 이어질 수 있지만 진행이 필연적인 것은 아니다. 12세에서 성인 반사회성 인격장애로 확진하거나 미래 수감을 단정하지 않는다. 원문 검사표의 칼슘 10 mmol/L는 통상적 단위·수치와 맞지 않는 원자료 이상이며, 임의로 정상 검사값으로 교체하지 않았다. 이 문항의 행동·예후 선택에는 칼슘 수치를 근거로 사용하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000432
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 공격·동물 학대·절도에서 품행장애와 성인 반사회성 인격장애 진행 가능성 해설 유지. 원문 칼슘 10 mmol/L 단위 이상을 실제 정상값으로 임의 변경하지 않고 한계 표시.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 반데타닙
 ## 해설
 
 
-높은 혈청 칼시토닌과 갑상선 수질암은 RET 유전자의 활성 변이를 동반하며, 수술 후 재발성 플러싱·설사는 RET 티로신키나제 활성에 의해 유발된다. RET 억제제 반데타닙은 진행성 수질암에서 표준 치료이며, 증상 완화에 가장 효과적이다. 따라서 반데타닙을 시행한다.
+칼시토닌 상승과 갑상선절제 후에도 지속되는 설사·홍조, 폐전이는 증상성 진행성 수질갑상선암에 부합한다. Vandetanib D는 절제 불가능한 국소 진행성 또는 전이성 수질암의 허가 치료 중 하나다. 방사성 요오드나 TSH 억제는 여포세포 유래 분화암의 접근으로 이 종양의 적절한 대체가 아니다. 모든 환자에서 RET 변이가 입증된 것은 아니므로 유전·종양 검사가 필요하며 RET 변이 양성에서는 선택적 RET 억제제 등도 고려한다. QT 연장·전해질 이상·설사 등의 안전성 평가가 필요하고 D가 모든 상황의 유일 최선 치료라는 의미는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009921 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 전이성 증상성 MTC에서 vandetanib D는 유효한 선택지이나 모든 MTC의 RET 변이 및 유일 최선 치료로 단정한 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022405s023lbl.pdf
 
 ## 출처
 

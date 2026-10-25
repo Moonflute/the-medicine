@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7Jyg67Cp642p7J20"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: C
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "통증 하나로 유방덩이의 양악성을 판단하지 않는 중요한 평가 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 덩이의 크기만
 
 ## 오답 포인트
 
-- **A. 통증 유무:** 통증은 양성·악성 구분에 제한적인 정보이다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

@@ -23,12 +23,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,6 +50,10 @@ D. 발목-상완지수 감소
 
 
 척추관 협착증은 굽히면 통증이 완화되는 특징이 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 영어/한국어 본문·네 선지·정답 C·해설 개별 대조. 서기/내리막에서 악화하고 굴곡 시 완화되는 요추관협착증의 신경인성 파행 설명은 일관됨. 감염 선행력/HLA-B27 가족력은 결정적 반증 아님.
 
 ## 출처
 

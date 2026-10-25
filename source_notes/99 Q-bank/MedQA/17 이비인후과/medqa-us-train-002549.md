@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 비중격성형술
 
 ## 해설
 
+비중격 혈종은 연골막을 연골에서 분리하여 연골로의 영양·혈류 공급을 방해한다. 이를 방치하면 연골 괴사와 비중격 천공이 생길 수 있고, 작은 천공을 통과하는 공기 때문에 휘파람 소리가 날 수 있다. 따라서 초기 혈종 배액 A가 이러한 합병증을 예방할 수 있었다. 단순히 혈종이 굳어서 소리가 난다고 설명하는 것은 정확하지 않다.
 
-코골절 후 발생한 비중격 혈종이 배액되지 않으면 혈종이 고형화돼 비중격 천공과 협착을 일으켜 호흡 시 휘파람 소음(코소음)을 유발한다. 혈종을 배액하면 이러한 합병증을 예방할 수 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 배액되지 않은 비중격 혈종의 합병증 기전을 고형화·협착이 아니라 연골 영양공급 차단과 괴사·천공으로 교정.
+- 공식/학회 근거: https://www.rch.org.au/trauma-service/manual/maxillofacial-injury/
 
 ## 출처
 

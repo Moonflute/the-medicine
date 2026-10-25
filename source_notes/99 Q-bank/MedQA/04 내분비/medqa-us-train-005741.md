@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 바이러스성 질환
 
 ## 해설
 
+고Ca·저P는 PTH매개 고칼슘혈증 A를 시사하지만 실제 PTH는 제시되지 않아 측정이 필요하다. 칼슘함유 제산제 과용은 오히려 고Ca의 원인이 될 수 있으나 이 경우 대사성 알칼리증·신기능 변화 등도 평가한다. 제산제가 보통 저Ca를 일으킨다는 설명은 잘못이다.
 
-고칼슘혈증과 저인산혈증, 정상 PTH 상승은 원발성 부갑상선기능항진증을 시사한다. 제산제 과다 복용은 보통 저칼슘혈증을 일으킨다. 따라서 PTH 증가가 현재 증상을 가장 잘 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 고Ca/저P의 PTH A 가능성은 유지하되 미측정 PTH상승과 제산제는 저Ca라는 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

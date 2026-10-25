@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 니코틴 대체요법 단독
 
 
 복합 금연 치료(부프로피온 + 니코틴 대체요법 + 인지행동치료)는 각각의 효과를 보강해 금연 성공률을 가장 높인다. 단독 요법보다 효과가 뛰어나다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 제시선택지 중 약물+상담 병용 B가 단독보다 금연성공에 유리. 다른 미제시 약물과의 절대우열은 판정하지 않음.
+- https://www.cdc.gov/tobacco/about/how-to-quit.html
 
 ## 출처
 

@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-75세 남성이 한 달간 반복되는 무통성 혈뇨로 내원했다. 방광경에서 단일 종양이 발견되어 경요도 절제술을 시행했고, 고등급 요로상피암이 점막 바로 아래까지 침범했지만 고유근층은 침범하지 않았다. 다음 중 가장 적절한 다음 치료는?
+75세 남성이 한 달간 반복되는 무통성 혈뇨로 내원했다. 방광경에서 단일 종양이 발견되어 경요도 절제술을 시행했고, 고등급 요로상피암이 상피층에 국한되며 하부조직이나 고유근층을 침범하지 않았다. 다음 중 가장 적절한 다음 치료는?
 
 ## 선택지
 
@@ -44,8 +46,13 @@ D. 전신 복합항암화학요법
 
 ## 해설
 
+고등급의 비근육침범 요로상피암이며 영어 원문에서는 하부조직이나 고유근층 침범이 없다고 기술되어 있다. 완전한 절제와 정확한 병기·위험도 평가를 바탕으로 선지 중 C, 방광 내 BCG가 적절한 보조 치료이다. 근육 포함 여부·절제 완전성 또는 T1 여부에 따라 재-TURBT가 필요할 수 있으며, 확인 없이 모든 경우 즉시 같은 경로로 진행한다는 뜻은 아니다.
 
-고등급 비근육 침범 방광암은 국소 재발 위험이 높아 방광 내 BCG 요법이 표준 치료이다. BCG는 면역학적 종양 억제로 재발을 감소시킨다. 따라서 가장 적절한 다음 치료는 방광 내 BCG이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 영어 원문은 하부조직 침범이 없는데 한국어가 점막 아래 침범으로 병기를 바꾼 오류 복원; BCG C 유지.
+- 공식/학회 근거: https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management
+- 공식/학회 근거: https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis
 
 ## 출처
 

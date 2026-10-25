@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 반사회성 인격장애
 
 ## 해설
 
-
-반사회적 행동, 타인에 대한 무감각, 지속적인 위법 행위는 반사회적 인격장애의 전형이다. 이 장애는 성인기에 지속적인 범죄 및 비사회적 행동으로 진행된다. 따라서 반사회적 인격장애가 가장 잘 발생할 질환이다.
+괴롭힘·절도·폭력·동물 학대와 타인의 피해에 대한 무관심은 품행장애를 시사한다. 이런 행동은 성인 반사회성 인격장애 위험과 관련되어 제시된 향후 질환 중 해당 진단이 가장 적절하다. 13세에서 성인 인격장애로 확진하거나 성인 범죄·장애가 반드시 지속된다고 단정하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009136
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 13세를 현재 반사회성 인격장애로 진단하거나 향후 범죄 진행을 필연시한 오류 교정. 품행장애의 성인 위험 예측 답 유지.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

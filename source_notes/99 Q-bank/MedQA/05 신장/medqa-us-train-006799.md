@@ -17,17 +17,22 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+curation_status: "revised"
+curation_reason: "간질성 사구체신염이라는 혼합 용어를 교정하고 호산구뇨의 한계 명시."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -45,10 +50,20 @@ D. 급성 세뇨관 괴사
 
 ## 해설
 
-
-혈뇨와 호산구뇨, NSAID 복용력은 급성 알레르기성 간질성 사구체신염(약물 유발 급성 간질성 신염)을 시사한다. 이 경우 급성 세뇨관-간질염이 가장 흔한 원인이다. 따라서 급성 세뇨관간질신염이 정답이다.
+NSAID 노출 뒤 발열·발진·호산구뇨의 조합은 선택지 중 약물 관련 급성 세뇨관간질신염을 지지한다. 그러나 호산구뇨는 민감도·특이도가 낮아 단독 확진·배제 검사가 아니며 신기능·다른 원인과 필요한 생검을 종합한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006799
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 간질성 사구체신염이라는 혼합 용어를 교정하고 호산구뇨의 한계 명시.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://pubmed.ncbi.nlm.nih.gov/24052222/

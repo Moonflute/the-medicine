@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 중탄산나트륨
 
 ## 해설
 
+급성 복통과 구토, 토혈, 빈맥 및 대사성 산증에 더해 위장관의 방사선 비투과성 물질은 철 중독을 시사한다. 심한 임상 독성이 의심되면 독성학 자문과 정맥 소생을 진행하며 철 킬레이트제인 데페록사민(A)을 사용한다. 혈청 철 농도와 산염기 상태도 평가하지만 중증 환자에서 치료를 불필요하게 지연하지 않는다. 본문에 제시된 출혈은 토혈이며 혈변으로 바꾸어 설명해서는 안 된다.
 
-철분 중독 시 구토, 혈변, 복부 방사선에서 불투과성 물질이 보이며, 데페록사민은 철과 결합해 배설을 촉진하는 해독제이다. 투석·포메피졸·중탄산나트륨은 철중독에 1차 치료가 아니다. 따라서 A가 옳다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 철 중독에서 데페록사민 A의 근거를 확인하고 토혈을 혈변으로 바꾼 해설을 바로잡는다.
+- 공식/학회 근거: https://www.rch.org.au/clinicalguide/guideline_index/iron_poisoning/
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,13 @@ D. 결절다발동맥염
 ## 해설
 
 
-천식, 호산구 증가, 다발성 신경병증, 폐음이 동반된 경우는 호산구성 육아종증을 동반한 다발혈관염(EGPA)이 가장 가능성 높다. 이는 호산구성 육아종증을 특징으로 한다.
+오래된 천식·상기도 알레르기 질환에 신경병증과 혈관성 피부병변이 생겨 보기 중 EGPA A가 가장 의심된다. 다만 이 문항에는 혈중 eosinophil 수치가 제시되지 않아 증가가 확인되었다고 설명하면 안 된다. 호산구, ANCA 및 조직·장기침범 평가로 다른 혈관염과 감별하여 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007863 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 실제 미제공된 호산구증가를 관찰값으로 꾸민 부분을 제거; EGPA A는 의심 진단으로 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

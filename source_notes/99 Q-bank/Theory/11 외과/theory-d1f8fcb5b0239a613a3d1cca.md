@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "스토마 허혈 목표를 일반 장간막 허혈로 대체한 설명을 장루의 관류·조직 생존성으로 구체화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-스토마합병증(허혈성 괴사)의 정의는?
+장루 허혈·괴사의 핵심 병태와 평가 원칙은?
 
 ## 선택지
 
-A. 장관 혈류 공급이 차단되어 발생하는 장의 괴사 상태
-B. 장관 혈류 공급이 증가해 발생하는 염증성 질환
-C. 장관에 세균 감염으로 인한 괴사
-D. 장관에 혈전이 형성되어 발생하는 혈전증
+A. 장루로 끌어낸 장의 혈류 장애로 생존성이 손상될 수 있어 점막 색과 괴사 깊이를 평가한다.
+B. 장루가 붓기만 하면 항상 전층 괴사다.
+C. 장루 점막이 검어도 근막 아래 깊이는 평가할 필요 없다.
+D. 정상 CT 한 장이면 장루의 허혈을 항상 배제한다.
 
 ## 해설
 
-허혈성 괴사는 장관 혈류 차단으로 인한 조직 괴사이며, 색전·혈전·저혈압 등으로 발생한다.
+장루 혈류 공급 장애나 정맥 울혈이 허혈·괴사를 일으킬 수 있다. 부종·울혈과 실제 괴사를 구별하고 임상·내시경적 평가로 깊이와 근위부 생존성을 확인한다. 근막 아래까지 생존성이 소실된 경우는 긴급 수술평가가 중요하다.
 
 ## 오답 포인트
 
-- **B. 장관 혈류 공급이 증가해 발생하는 염증성 질환:** 혈류 증가는 허혈과 반대되는 개념이므로 틀림
+- **부종만으로 전층 괴사:** 울혈과 괴사 깊이를 구분하지 않은 단정이다.
+- **깊이 평가 불필요·CT만으로 배제:** 임상·내시경적 생존성 평가의 중요성을 놓친다.
 
 ## 출처
 
 - 내부 학습 노트: 스토마합병증 (Ischemic Necrosis)
 - 원본 경로: `source_notes/02 Diseases/11 외과/스토마합병증 (Ischemic Necrosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 장관(bowel)의 혈류 공급이 차단되어 발생하는 장의 괴사 상태. - **원인**: 장간막 혈관의 폐색(색전증, 혈전증), 저혈압, 쇼크, 장폐색(volvulus, 탈장) 등에 의한 허혈. - **기전**: 혈류 감소로 인한 산소 및 영양 공급 부족 → 세포 대사 장애 → 세포 괴사 및 염증 반응 → 장벽 손상 및 천공.
+- 학습 목표: 장루 허혈의 혈류 손상과 괴사 깊이
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 스토마 허혈 목표를 일반 장간막 허혈로 대체한 설명을 장루의 관류·조직 생존성으로 구체화.
+- 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC9291558/

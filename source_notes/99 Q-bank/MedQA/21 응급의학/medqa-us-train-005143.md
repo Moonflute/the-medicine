@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 로라제팜
 
 ## 해설
 
+마취 후 고열·저작근 강직·고탄산혈증·산증·고칼륨혈증은 악성고열을 시사한다. Dantrolene(B)은 골격근의 과도한 근소포체 칼슘 방출을 억제하는 약이며 베타차단제가 아니다. 유발 마취제 중단, 100% 산소 환기, 냉각과 산증·고칼륨혈증 치료를 함께 신속히 시행한다.
 
-마취 후 급성 고칼륨성 부정맥과 저산소성 저산성증이 동반된 악성 고열증에서 근육 강직을 완화하기 위해서는 베타 차단제인 단트롤렌이 선택된다. 단트롤렌은 근육 강직을 감소시키고 혈압을 안정시킨다. 따라서 재삽관 후 단트롤렌 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Dantrolene을 베타차단제로 설명한 중대한 오류 교정.
+- 공식/학회 근거: https://www.mhaus.org/healthcare-professionals/managing-a-crisis/
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 항환형 시트룰린화 펩타이드 항체
 ## 해설
 
 
-히드랄라진 복용 후 발생한 루푸스 양상(관절염, 흉통, ST 상승)에서는 항히스톤 항체가 약물유발 루푸스에서 흔히 검출된다. 다른 항체들은 해당 임상양상과 연관성이 낮다. 따라서 항히스톤 항체가 추가로 검출될 것이다.
+Hydralazine을 복용한 환자에게 대칭성 관절염과 pericarditis가 생겨 drug-induced lupus를 의심하며 보기 중 anti-histone A가 연관된다. 다만 약물루푸스에서도 ANA는 대개 양성으로 원문의 음성은 비전형적이다. 음성 ANA 때문에 완전히 배제되지는 않지만 약물 노출기간, 다른 원인 및 추가 검사를 확인해야 하며 anti-histone도 절대적으로 특이적인 항체는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009738 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: hydralazine-DIL anti-histone A의 연관은 유지하되 ANA음성이 비전형임과 항체 단독확정 한계를 추가.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

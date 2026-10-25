@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. “진단 소식에 속상해 보입니다. 집에 가서 가족과 상의한
 
 
 환자의 절망감과 무관심을 인정하고 공감하며 치료 계획을 함께 논의하고 싶다는 표현이 가장 적절한 의사‑환자 소통이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007975 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 절망감과자책에 공감하며 협력적계획을 제안하는 B가 초기응답이라는 원문·해설일치를 직접 확인. 치료거부권 무시 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

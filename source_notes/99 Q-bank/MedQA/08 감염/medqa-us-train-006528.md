@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -52,7 +54,14 @@ D. 프레드니손 후 설파살라진
 ## 해설
 
 
-Whipple병에 의한 장관 및 심내막 감염은 설사, 체중 감소, 악취 나는 대변, 그리고 대동맥판막에 작은 이동성 종괴와 중등도 대동맥판막부전으로 나타난다. 이 병원체는 Tropheryma whipplei이며, 표준 치료는 세프트리악손과 트리메토프림-설파메톡사졸 복합 요법이다. 따라서 가장 적절한 처치는 A이다.
+PAS 양성 거품 대식세포·흡수장애·관절증상·인지변화와 판막 병변은 T.whipplei 감염에 합당하다. A는 CNS 침투성 ceftriaxone 유도 후 장기 cotrimoxazole 치료로 해석하는 유효한 접근이다. 두 약의 단기 동시 병용이 모든 경우의 유일 표준이라는 뜻은 아니다. ESC는 Whipple 심내막염에 doxycycline+hydroxychloroquine 장기 요법과 ceftriaxone 후 cotrimoxazole 대안 등을 제시하며 trimethoprim 자체의 균 활성은 없어 재발·내성·CNS 침범과 전체 요법을 전문팀이 관리해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006528 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Whipple병 장·신경·심장 침범의 A 유지; 동시 단기 병용 표준이 아닌 유도 후 장기 치료 순서 및 ESC 대안 설명.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107?searchresult=1
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 복와위
 
 ## 해설
 
+배변·울음에 유발된 청색증과 폐유출로 수축기 잡음은 Fallot 등의 과청색 발작을 시사한다. 무릎–가슴 자세(A)는 전신혈관저항을 증가시켜 우좌단락을 줄이고 폐혈류를 개선한다. 진정·산소·응급 심장 평가를 병행하며 신생아 RDS에서 횡격막을 내리는 기전으로 설명하지 않는다.
 
-신생아의 급성 호흡곤란 증후군에서 무릎-가슴 자세(Knees-to-chest)로 체위 변경하면 횡격막이 하강하고 폐 용적이 증가해 산소화가 개선된다. 이는 흉부 압박을 감소시켜 호흡을 돕는다. 따라서 무릎-가슴 자세가 가장 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 무릎가슴 자세의 효과를 RDS의 폐용적 증가로 오연결한 해설을 청색 발작의 SVR 기전으로 교체.
+- https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/
 
 ## 출처
 

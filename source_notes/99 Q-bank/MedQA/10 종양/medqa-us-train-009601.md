@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 왼쪽 유방 초음파
 ## 해설
 
 
-유방 초음파는 촉진된 종괴가 유방촬영술에서 보이지 않을 때 병변의 위치와 특성을 평가하는 가장 민감한 영상법이다. 따라서 추가 검사는 초음파가 가장 적절하다.
+지속적으로 만져지거나 커지는 종괴가 유방촬영에서 보이지 않아도 표적 초음파 D로 평가한다. 유방촬영 음성은 촉지 병변의 악성을 배제하지 않는다. 임상적으로 의심스럽거나 영상과 촉진 소견이 일치하지 않으면 영상이 음성이어도 조직검사가 필요할 수 있다. 단순히 6개월 기다리거나 진단 없이 tamoxifen을 시작하는 것은 적절하지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009601 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 음성 유방촬영 후에도 지속되는 촉지 종괴의 표적 US D 유지; 음성 영상만으로 악성을 배제하는 해석 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.radiologyinfo.org/en/info/acs-palpable-breast-masses
 
 ## 출처
 

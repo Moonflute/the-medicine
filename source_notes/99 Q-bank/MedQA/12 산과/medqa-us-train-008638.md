@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. HBV 전체 혈청 패널
 
 ## 해설
 
+양성 VDRL은 비트레포네마 검사로서 매독 특이 검사(TPHA 등, B)로 확인한다. 임신·자가면역 등에서 위양성이 가능하지만 확인 전 가짜 양성일 가능성이 높다고 안심시키면 안 된다. 감염이 확인되면 병기에 맞는 치료가 필요하다.
 
-임신 중 VDRL 양성은 가짜 양성일 가능성이 높으며, 확진을 위해 Treponema pallidum 혈구응집검사(TPHA)를 시행한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: VDRL양성을 임신 위양성으로 먼저 단정한 해설 수정.
+- https://www.cdc.gov/std/treatment-guidelines/syphilis.htm
 
 ## 출처
 

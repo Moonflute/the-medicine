@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 진단적 복강경
 
 ## 해설
 
+39세라도 6개월 지속된 비정상 자궁출혈과 비만 등 비길항 에스트로겐 노출 위험이 있어 자궁내막 생검(B)이 적절하다. 연령이 40세 이상이기 때문이라는 설명은 이 사례에 맞지 않는다. 악성·전암 병변 평가 전 내막절제를 시행하지 않는다.
 
-비정상 자궁출혈이 40세 이상에서 지속될 경우 자궁내막암을 배제하기 위해 조직검사가 필요하다. 따라서 가장 적절한 검사는 자궁내막 생검이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 39세의 내막생검 B 유지. 40세 이상이라는 틀린 연령 기준 대신 비만·지속 AUB의 적응증 제시.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/04/management-of-acute-abnormal-uterine-bleeding-in-nonpregnant-reproductive-aged-women
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 메토트렉세이트
 ## 해설
 
 
-조기 RA에서 anti‑CCP 양성, 관절 부종·통증, 상승된 ESR/CRP가 보이며, 메토트렉세이트가 가장 효과적인 최초 병용 DMARD이다. 따라서 정답은 D이다.
+대칭성 손·손목 활막염과 아침 경직, anti-CCP 양성, 염증수치 상승은 활동성 RA를 지지한다. NSAID에 반응이 부족한 이 환자는 질병조절항류마티스제 치료가 필요하며, 중등도 이상 활성도에 해당한다면 금기 평가 후 methotrexate(D) 단독이 적절한 초기 csDMARD 선택이다. 이를 곧바로 여러 DMARD 병용이 필수라는 뜻으로 해석하지 않는다. Hydroxychloroquine은 저활성도 등에서 선택 가능하며 infliximab을 처음부터 우선할 근거는 없다. 시작 전 임신 가능성·간기능·혈구·신기능과 감염 위험을 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003297 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: methotrexate를 최초 병용 DMARD라고 한 표현을 초기 단독 csDMARD 선택으로 바로잡았다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/9273041/
 
 ## 출처
 

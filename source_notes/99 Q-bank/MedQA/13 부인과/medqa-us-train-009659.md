@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 페사리 삽입
 
 ## 해설
 
+기침·웃음·재채기 때 누출되고 요로감염 소견이 없으면 복압성 요실금이다. 골반저근 운동(A)이 적절한 초기 보존치료다. 페사리도 비수술 선택지이며 수술은 선호·반응에 따라 고려한다. 단순 도뇨관은 복압성 요실금의 일반적인 2차 치료가 아니다.
 
-기침·재채기·웃음 시 발생하는 요실금은 복압성 요실금이며, 초기 치료는 골반저근 강화 운동(케겔 운동)이다. 카테터 삽입·요도고정술·페사리 삽입은 2차 치료에 해당한다. 따라서 정답은 케겔 운동이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 복압성 요실금 초기 케겔 A 유지. 카테터를 2차 치료로 분류한 오류와 페사리의 일률적 후순위 규정 수정.
+- https://www.acog.org/womens-health/faqs/surgery-for-stress-urinary-incontinence
 
 ## 출처
 

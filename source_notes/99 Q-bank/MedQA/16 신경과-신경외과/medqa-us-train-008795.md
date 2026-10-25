@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 폐활량 측정
 
 ## 해설
 
+설사 후 급성 진행성 하지 약화와 감각 증상은 GBS를 시사한다. 초기에는 폐활량 등 호흡기능(D)을 측정하고 반복 추적하여 호흡근 약화와 환기 필요성을 평가한다. 이는 GBS 확진검사가 아니라 중증도·호흡부전 위험 평가이다. 산소포화도가 비교적 유지되어도 신경근성 환기부전을 배제하지 못하며, 호흡기능 저하나 기도 보호 불능이면 삽관을 지연하지 않는다.
 
-급성 진행성 근력 약화와 감각 저하가 1주 이내에 나타난 것은 Guillain‑Barré syndrome을 시사한다. 진단을 확정하기 위해서는 폐활량 측정(폐기능 검사)으로 호흡근 약화를 평가한다. 따라서 폐활량 측정이 초기에 가장 적절한 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 폐활량 측정을 GBS 확진검사로 설명한 오류 교정.
+- 공식/학회 근거: https://onlinelibrary.wiley.com/doi/10.1111/ene.16073
 
 ## 출처
 

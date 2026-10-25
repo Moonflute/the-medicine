@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 24시간 소변 포르피린 수집
 
 
 관절에 출혈이 나타난 경우 혈우병 등 응고인자 결핍을 의심한다. 진단을 위해서는 프로트롬빈 시간(PT)과 부분 트롬보플라스틴 시간(PTT) 검사가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001026 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 가벼운 낙상 후 지연성 혈관절증에서 응고인자 결핍 평가 PT/aPTT C. 도말·신장생검·porphyrin과 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

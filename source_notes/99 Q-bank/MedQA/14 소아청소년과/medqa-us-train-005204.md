@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 털모양세포성 성상세포종
 
 ## 해설
 
+정중선을 가로지르는 복부 종괴, 증가한 HVA/VMA 및 안구간대·근간대 양상은 신경모세포종을 시사한다. 이는 신경능선 유래 교감신경 계통 종양이다. 히르슈스프룽병(B)은 신경능선 세포의 장관 이동·발달 이상으로 장 신경절이 없는 질환으로 같은 발생 세포 계통과 관련되지만 종양이 아니다. 환아의 복부 종괴를 히르슈스프룽병 자체라고 설명해서는 안 된다.
 
-히르슈스프룽병은 신경능선(크리프세포)에서 유래한 종양으로, 신경모세포종과 같은 세포계통에서 발생한다. 환자의 복부 종괴와 호모바닐린산·바닐릴만델산 상승은 이 질환을 시사한다. 따라서 정답은 히르슈스프룽병이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 히르슈스프룽병을 신경능선 유래 종양으로 잘못 정의하고 환아의 실제 종양과 혼동한 해설을 교정했다.
+
 
 ## 출처
 

@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,11 @@ D. 수막종
 
 ## 해설
 
+고령에서 새 발작과 함께 약간 고음영인 CT 종괴, 경계가 좋고 균질하며 인접 백질을 미는 MRI 종괴 및 T2 주변 테두리는 수막종(D)을 가장 시사한다. 실제 영상이 아니라 문자 기술만 있으므로 경막꼬리나 구체 부착 부위를 새로 추가하지 않는다. 신경초종·혈관모세포종도 경계가 좋은 종괴가 될 수 있지만 제시된 위치 관계·영상양상과 연령의 조합에서 수막종이 가장 합당하며, 교모세포종은 대개 더 불균질하고 침윤성이다.
 
-비조영 CT와 MRI에서 경계가 명확하고 균질한 4 cm 종괴가 뇌막을 따라 성장하며 주변 백질을 압박하는 모습은 수막종의 전형적인 영상소견이다. 다른 종양은 일반적으로 불균일하거나 침습적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 문자 영상만으로 가장 가능성 높은 수막종 D를 유지하되 본문에 없는 경막 부착을 추가하거나 모든 다른 종양은 침습적이라고 배제하지 않는다.
 
 ## 출처
 

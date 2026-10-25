@@ -12,36 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISgIOq4sOuKpSDsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: B
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "고열 제외 문항을 신생아 선별과 조기 치료의 중요성으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-신생아 갑상선 기능 저하증에서 흔히 관찰되지 않는 증상은?
+선천성 갑상선기능저하증에서 신생아 선별검사가 중요한 이유는?
 
 ## 선택지
 
-A. 저체온
-B. 고열
-C. 변비
-D. 거친 피부
+A. 초기 증상이 뚜렷하지 않아도 조기 확인·levothyroxine 치료가 신경발달 손상을 줄이기 때문이다
+B. 모든 환자가 출생 직후 전형적 증상을 보이기 때문이다
+C. 증상이 나타난 뒤 수개월 후 치료해도 차이가 없기 때문이다
+D. 선별 양성만으로 추가 혈청 검사가 항상 불필요하기 때문이다
 
 ## 해설
 
-신생아 갑상선 기능 저하증은 저체온, 변비, 거친 피부 등이 흔하지만 고열은 나타나지 않는다.
+이상 선별 결과는 혈청 FT4·TSH로 신속히 확인한다. 치료가 필요한 선천성 저하증은 가능한 빨리 치료하고 원인 영상 검사 때문에 치료를 지연하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 갑상선 기능 저하증 (Hypothyroidism)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/갑상선 기능 저하증 (Hypothyroidism).md`
-- 학습 목표: 원문 핵심: * **신생아/영아**: 황달 지속, 수유 곤란, 변비, 저체온, 거대설, 제대 탈장, 근육 저긴장증, 거친 피부 * **소아/성인**: 성장 발달 지연, 피로감, 추위 민감성, 체중 증가, 피부 건조, 탈모, 변비, 지능 저하(치료 지연 시)
+- 학습 목표: 선천성 갑상선기능저하증의 조기 발견·치료
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8001676/

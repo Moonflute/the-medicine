@@ -31,17 +31,19 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -59,8 +61,14 @@ D. 폐색전증
 
 ## 해설
 
+정답은 C이다. 돼지 승모판 삽입 12년 뒤 새 이완기 잡음과 울혈 증상은 구조적 생체판 퇴행으로 인한 판막 기능장애를 시사한다. 협착이 생기면 좌심방압과 폐정맥압이 상승해 호흡곤란·수포음을 유발할 수 있다. 모든 경우를 좌심실 용적부하 증가로만 설명하지 않으며 심초음파로 협착·역류·혈전/감염 등을 구별한다.
 
-12년 전 판막 교체 후 현재 심부전 증상(폐부종·심장음)과 좌심실 부하 증가가 나타나는 경우, 퇴행성 판막(특히 승모판) 손상이 가장 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 생체 승모판 퇴행에 따른 협착성 기능장애/좌심방압 상승으로 설명을 구체화.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

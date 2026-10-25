@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 알코올 사용
 
 ## 해설
 
+진통 전 맑은 질액 유출과 양치상 결정은 진통 전 양막파열을 지지한다. 선택지 중 상행성 감염(A)은 양막의 염증·약화를 통해 파열에 기여할 수 있다. 양막파열 후 감염 위험이 증가한다는 반대 방향의 설명만으로 원인 문항에 답해서는 안 된다. 37.9°C와 태아 빈맥만으로 확진된 자궁내감염을 단정하지 않는다.
 
-양수에 양치상 결정이 보이는 것은 양수 파열을 의미한다. 양수 파열 후 감염 위험이 가장 큰 원인은 상행성 감염이다. 따라서 가장 가능성 높은 원인은 상행성 감염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 진통 전 양막파열의 선행 원인을 묻는데 해설이 파열 후 감염 위험으로 인과를 뒤집은 오류를 교정했다.
+
 
 ## 출처
 

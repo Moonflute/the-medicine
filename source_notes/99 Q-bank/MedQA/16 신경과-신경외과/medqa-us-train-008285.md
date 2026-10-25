@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 수술적 감압
 
 ## 해설
 
+이마를 포함한 일측 안면마비와 눈감기 장애는 말초 제7뇌신경마비에 맞는다. 외상 다음 날 발생한 지연성 마비에서는 보기 중 steroid(B)를 고려하는 보존적 치료가 가능하다. 다만 외상성 마비를 곧바로 특발성 Bell 마비로 간주하거나 steroid 이익을 확정적으로 단정할 수 없다. 안구 노출 보호와 이비인후과 평가가 필요하며 측두골 손상 및 심한 신경변성 등 일부 상황에서는 수술을 검토할 수 있다.
 
-외상성 안면마비는 스테로이드 치료가 회복률을 높이며, 수술적 감압은 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 지연성 외상성 안면신경마비에서 B 고려 가능. 수술이 절대 불필요하고 steroid 효과가 확정이라는 단정 교정.
+- 공식/학회 근거: https://www.entnet.org/wp-content/uploads/files/Trauma-Chapter-6.pdf
+- 공식/학회 근거: https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1002/ohn.829
 
 ## 출처
 

@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,13 @@ D. 플루코나졸
 
 ## 해설
 
+임신검사가 음성인 청소년에서 발열·자궁경부 움직임 압통·복합 난관 병변은 PID와 난관난소농양을 시사한다. 입원 정주 세폭시틴과 독시사이클린(A)은 권고 요법이다. 농양이 있으면 경과를 관찰하고 경구 전환 후에도 혐기성균 치료를 포함해 총 14일 완료한다. 임신부 사례가 아니다.
 
-임신부에서 성병에 의한 골반염증성 질환이 의심될 때, 난관난소농양(TOA)은 광범위한 그람음성 및 그람양성 감염을 커버하는 세팔로스포린(세폭시틴)과 클라미디아·마이코플라즈마에 효과적인 독시사이클린이 1차 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비임신 청소년 PID/농양의 세폭시틴·독시사이클린 A 유지. 임신부로 오인하고 Mycoplasma 치료를 단정한 해설을 교정.
+- https://www.cdc.gov/std/treatment-guidelines/pid.htm
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 경계성
 
 ## 해설
 
-
-타인에 대한 지속적인 의심과 음모설, 타인을 적으로 보는 고정된 사고는 편집성(편집성) 성격장애의 핵심 특징이다. 다른 선택지는 충동성이나 감정 불안정과 관련이 있다.
+이웃과 의사 모두의 의도를 악의적으로 해석하고 지속적인 불신을 보이는 양상은 제시된 성격장애 중 편집성 성격장애에 가장 가깝다. 실제 진단에는 장기간 여러 상황에서의 경직된 패턴을 확인하고 망상장애·다른 정신병이나 물질·의학적 원인을 감별한다. 조현성 성격장애는 사회적 거리감·제한된 정서표현이 중심이므로 다른 선지를 모두 충동성·감정불안정으로 묶는 설명은 맞지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008176
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 편집성 성격장애 원정답 유지. 조현성까지 충동·감정불안정으로 설명한 오류 및 한 사건만으로 성격장애 확정하는 인상 제거.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

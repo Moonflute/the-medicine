@@ -11,44 +11,56 @@ specialty: 15 정신건강의학과
 target_type: disease
 target_slug: "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VreyasOyauOygnCAoQW50aWRlcHJlc3NhbnRzKS5tZA"
 theory_objective_id: disease-05-next_action
-question_type: next_action
-question_mode: clinical_application
+question_type: recognition
+question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k
+curation_status: revised
+curation_reason: "용량·순응도 정보가 없는 사례에서 다른 계열 교체를 무조건 우선한 오류를 순수 이론의 불충분 반응 평가 원리로 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-28세 남성이 SSRI(escitalopram) 복용 6주 후에도 우울증 증상이 호전되지 않았다. 다음 중 가장 적절한 조치는?
+항우울제 치료 반응이 불충분할 때의 원칙으로 옳은 것은?
 
 ## 선택지
 
-A. 현재 SSRI 용량을 최대 용량까지 증량한다
-B. 다른 SSRI(예: sertraline)로 교체한다
-C. 다른 항우울제 계열(SNRI 등)로 교체한다
-D. SSRI와 비정신 약물(예: 항정신병제) 증강 요법을 시작한다
+A. 반응이 없으면 현재 용량과 복약 여부를 확인하지 않고 최대 용량으로 올린다.
+B. 모든 환자는 반드시 같은 계열 약제로만 교체한다.
+C. 복약·용량·기간·진단과 부작용을 재평가한 뒤 조정·교체·병합 등 선택지를 논의한다.
+D. 치료 4주 후면 모든 환자에게 동일한 증강제를 즉시 추가한다.
 
 ## 해설
 
-SSRI 4~6주 후 충분한 반응이 없을 경우, 동일 계열 내 용량 증량보다 다른 계열(예: SNRI)으로 교체하거나 증강 요법을 고려한다. 용량 증량은 이미 표준 용량에 도달했을 가능성이 높아 우선 교체가 적절하다.
+불충분 반응에서는 적정 용량·기간과 순응도, 진단·동반 문제를 확인한다. 증량·동일/다른 계열 교체·심리치료·증강의 선택은 반응과 부작용 및 선호에 따라 달라진다.
 
 ## 오답 포인트
 
-- **A. 현재 SSRI 용량을 최대 용량까지 증량한다:** 용량 증량은 이미 표준 용량이므로 효과가 제한적이며, 다른 계열으로 교체가 우선이다.
+- 정보 없이 이미 충분한 용량이라고 가정하거나 모든 환자에게 특정 계열 교체가 최우선이라고 하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 항우울제 (Antidepressants)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/항우울제 (Antidepressants).md`
-- 학습 목표: 원문 핵심: * **치료 원칙**: SSRI를 1차 선택제로 우선 고려하며, 반응이 불충분할 경우 타 계열로의 교체나 증강 요법을 시행함. * **안전성 모니터링**: 소아 및 청년층 투여 시 자살 사고 위험 증가 가능성에 대해 면밀히 관찰하고, 세로토닌 증후군 등 급성 부작용 징후를 교육함. * **부작용 관리**: 체중 변화, 성기능 장애, 항콜린성 부작용, 수면 패턴 변화 등을 정기적으로 평가하여 약물 순응도를 유지함. * **추적 관찰 및 전원**: 증상 호전 여부와 약물 내약성을 주기적으로 확인하며, 치료 저항성 우울증이나 심각한 부작…
+- 학습 목표: 항우울제 불충분 반응 시 재평가 원칙
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 용량·순응도 정보가 없는 사례에서 다른 계열 교체를 무조건 우선한 오류를 순수 이론의 불충분 반응 평가 원리로 교정.
+- 근거: https://www.nice.org.uk/guidance/ng222/chapter/Recommendations

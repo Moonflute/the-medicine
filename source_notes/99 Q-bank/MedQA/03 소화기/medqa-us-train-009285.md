@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 수술적 절제
 ## 해설
 
 
-당뇨병성 위마비는 위 배출 지연으로 식후 포만감·구토가 나타나며, 첫 번째 치료는 혈당 조절과 저섬유식이 등 식이 조절이다. 따라서 정답은 A이다.
+정답 A. 조절되지 않는 당뇨병, 조기 포만감과 소화되지 않은 음식 구토는 위마비를 의심하게 한다. 우선 혈당 조절과 함께 작은 입자·저지방 식이를 소량씩 나누어 섭취하도록 한다. 기계적 폐색을 제외하고 객관적 위배출 지연을 확인해야 진단이 확정된다. 지속 증상에서는 약물치료 등을 추가 검토하지만 제시된 식이 조절은 적절한 초기 관리다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009285 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 당뇨병성 위배출 지연 의심 사례의 식이 A를 작은 입자·저지방 식이로 구체화; 증상만으로 확진하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9373497/
 
 ## 출처
 

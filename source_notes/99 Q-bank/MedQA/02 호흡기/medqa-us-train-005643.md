@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 간성 흉수
 
 
 중증 급성 췌장염에 동반된 전신 염증 반응은 폐모세관 투과성 증가로 비심인성 폐부종(ARDS)을 일으킨다. 따라서 급성 호흡곤란 증후군이 가장 가능성 높은 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 췌장염 전신염증·양측음영·P/F150·심인성 근거부족은 ARDS B에 부합. PEEP정보 없는 중증도 세부분류는 하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

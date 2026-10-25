@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 산소 친화도가 높은 혈색소 증가
 ## 해설
 
 
-하이드록시우레아는 2,3‑디인산(GDP) 농도를 증가시켜 산소 친화도가 높은 혈색소를 증가시킨다. 따라서 가장 가능성 높은 변화는 산소 친화도가 높은 혈색소 증가이다.
+Hydroxyurea는 HbF를 증가시켜 낫적혈구화를 줄인다. HbF는2,3-BPG 결합이 약하여 성인 HbA보다 산소 친화도가 높으므로 D가 맞다.2,3-BPG 증가 자체는 산소 친화도를 낮추는 방향이지 이 선택지의 기전이 아니다. HbA 생산을 직접 늘리는 약으로 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005888 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Hydroxyurea의 기전을2,3-DPG 증가라고 한 반대 오류 교정; HbF 증가 D 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

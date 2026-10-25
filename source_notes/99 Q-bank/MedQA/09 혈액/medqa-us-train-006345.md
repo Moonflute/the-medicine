@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -53,7 +55,14 @@ D. 관찰
 ## 해설
 
 
-빈혈이 미세소양성 빈혈이며 MCV가 정상인 점에서 철결핍성 빈혈을 의심한다. 철결핍을 확인하려면 혈청 철, 페리틴, TIBC 등을 포함한 철분 검사가 필요하다. 따라서 다음 단계는 철분 검사를 시행하는 것이 적절하다.
+MCV88fL은 정구성이며 결핵 병력이 있어 염증 관련 빈혈을 고려하되 철결핍도 초기/혼합형에서 정구성일 수 있다. 선택지 A의 ferritin·iron·TIBC/TSAT 등으로 구분한다. 정상 B12·엽산만으로 철결핍을 확진하거나 MCV를 소구성으로 바꾸지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006345 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MCV88을 미세소구성이라고 한 오류 교정; 철결핍과 염증빈혈 구분 위한 iron studies A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niddk.nih.gov/health-information/blood-diseases/anemia-inflammation-chronic-disease
 
 ## 출처
 

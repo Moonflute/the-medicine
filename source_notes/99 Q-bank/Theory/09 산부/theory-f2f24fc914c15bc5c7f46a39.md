@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7JuU6rK97J207IOBICjrrLTsm5Tqsr0p"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "임신 배제 및 일차·이차 무월경 분류의 출발점은 중요한 이론."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 가족력 조사와 생활 습관 평가
 - 내부 학습 노트: 월경이상 (무월경)
 - 원본 경로: `source_notes/01 Chief Complaint/월경이상 (무월경).md`
 - 학습 목표: 원문 핵심: 무월경은 임신을 먼저 배제한 뒤 초경 여부와 이차성징을 기준으로 시상하부·뇌하수체, 난소, 자궁·유출로 원인을 나눈다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

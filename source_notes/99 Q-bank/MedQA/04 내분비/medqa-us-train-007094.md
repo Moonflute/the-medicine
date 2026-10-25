@@ -22,13 +22,15 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 애디슨병
 
 ## 해설
 
+고혈압, 저칼륨혈증, 알칼리혈증은 제시된 선택지 중 원발성 알도스테론증(A)을 가장 시사한다. 실제 산염기 장애의 분류에는 HCO3와 PaCO2를 확인하고, 알도스테론과 레닌을 측정하여 평가한다. 쿠싱증후군 등도 저칼륨혈증을 동반한 고혈압을 일으킬 수 있으므로, 이 소견만으로 모든 대안을 절대적으로 배제하지는 않는다.
 
-고혈압, 저칼륨, 대사성 알칼리증은 알도스테론 과다에 의해 발생한다. 콘증후군(일차성 고알도스테론증)은 이러한 전해질 이상을 특징으로 한다. 다른 선택지는 부신 종양·쿠싱·애디슨과 일치하지 않는다. 따라서 일차성 고알도스테론증이 정답이다
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 고혈압/저K의 원발성aldo A는 지지하되 pH만으로대사성확정·Cushing은절대불가라는단정 한정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

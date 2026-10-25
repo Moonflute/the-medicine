@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7IK87YK06rOk656AIChFc29waGFnZWFsIER5c3BoYWdpYSkubWQ"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "구조적 병변 확인과 필요 생검의 EGD 역할은 운동검사와 구분하는 핵심 개념으로 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 복부 CT
 
 ## 오답 포인트
 
-- **B. 고해상도 식도내압검사(HRM):** HRM은 연동운동 평가에 사용되는 금본위 검사이지만, 구조적 병변 확인에는 적합하지 않다.
+- **고해상도 식도내압검사(HRM):** HRM은 연동운동 평가에 사용되는 금본위 검사이지만, 구조적 병변 확인에는 적합하지 않다.
 
 ## 출처
 
 - 내부 학습 노트: 식도 삼킴곤란 (Esophageal Dysphagia)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/식도 삼킴곤란 (Esophageal Dysphagia).md`
-- 학습 목표: 원문 핵심: - **식도위내시경(EGD)**: 구조적 병변(종양, 협착 등)을 확인하고 배제하기 위한 첫 단계 검사. - **고해상도 식도내압검사(High-Resolution Manometry, HRM)**: 식도 연동 운동 및 식도위접합부(EGJ) 기능을 평가하는 표준 검사(Gold standard). 시카고 분류법(Chicago Classification)을 적용하여 운동 질환을 분석함. - **EndoFLIP (Functional Lumen Imaging Probe)**: 진정 하에 시행하며, 특수 풍선을 이용해 식도 체부의 직경과 식도위…
+- 학습 목표: 식도 삼킴곤란의 구조적 병변 평가
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 구조적 병변 확인과 필요 생검의 EGD 역할은 운동검사와 구분하는 핵심 개념으로 유지.
+- 검수 범위: curriculum-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

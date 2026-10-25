@@ -20,11 +20,11 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 클린다마이신 치료
 
 ## 해설
 
+음주/흡인위험, 악취객담·공기액체층의 폐농양은 구강세균을 포함한 혼합감염을 시사한다. 선택지 중 clindamycin D는 혐기균과 구강연쇄상구균을 포괄하는 치료대안이나 C.difficile 위험 등으로 βlactam/βlactamase inhibitor가 흔히 선호된다. Klebsiella는 혐기균도 아니고 clindamycin으로 적절히 치료되는 균도 아니다. Metronidazole 단독은 혼합 구강균을 충분히 덮지 못한다.
 
-악취가 나는 가래와 폐농양은 혐기성 세균, 특히 클린다마이신에 민감한 클레브시엘라 종에 의해 흔히 발생한다. 메트로니다졸은 혐기성 그람음성균에 효과적이지만, 클린다마이신이 1차 치료제이다. 따라서 클린다마이신 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Klebsiella를 clindamycin민감 혐기균으로 쓴 오류. D는 선택지상 대안이며 현행 일률1차 아님.
+- https://thorax.bmj.com/content/78/Suppl_1/s3
 
 ## 출처
 

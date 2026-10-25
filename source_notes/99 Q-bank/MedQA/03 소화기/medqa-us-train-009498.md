@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 내시경 시행
 ## 해설
 
 
-식도정맥류 출혈은 내시경적 경결찰(밴딩)이나 경구조영술이 1차 치료이다. 환자는 혈역학적으로 불안정하지만 내시경적 치료가 가장 직접적인 출혈 제어 방법이다. 따라서 내시경 시행이 적절하다.
+정답 D. 토혈 환자에게 이미 수액·PPI·항생제·octreotide 등 초기 처치를 시작했으며 혈역학적 소생과 필요 시 기도 보호 후 상부위장관내시경으로 출혈원을 확인하고 지혈한다. 간경변/정맥류 병력은 정맥류 출혈 가능성을 높이지만 반복 구토 후 Mallory-Weiss 열상 등도 가능하다. 혈압이 낮은 상태에서 소생 없이 바로 검사를 진행하라는 뜻이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009498 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 초기 소생 후 EGD D 유지; 간경변만으로 정맥류 출혈 확진·Mallory-Weiss 배제하지 않도록 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/
 
 ## 출처
 

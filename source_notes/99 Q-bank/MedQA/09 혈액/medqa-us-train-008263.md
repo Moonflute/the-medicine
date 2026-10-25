@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 비타민 C
 
 
 설사, 피부색소침착, 인지장애는 나이아신 결핍(펠라그라)과 연관되며, 이는 비타민 B3 결핍이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008263 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 설사·광노출부 피부변화·인지장애의 pellagra-niacin B3 B 기전을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 위식도 역류질환
 
 
 고형식 연하곤란, 역류 증상, 아토피 병력, PPI에 반응하지 않는 경우 호산구성 식도염이 의심된다. 조직 검사에서 호산구 침윤이 확인된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 아토피 배경에 고형식 연하곤란과 고용량 PPI에도 지속되는 증상은 EoE C를 지지. 확진에 생검이 필요하다는 해설 연결 확인.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

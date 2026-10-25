@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 스머지 세포 존재
 
 
 CD20 양성 B세포 증식은 만성 림프구성 백혈병(CLL)에서 흔히 보이며, CLL의 특징적인 혈액학적 소견은 스머지 세포이다. 따라서 스머지 세포가 예상된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000526 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고령의 림프구증가·림프절병증과 CLL 맥락에서 smudge cell D 적절. CD20 하나로 CLL 확진한 것으로 확대하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

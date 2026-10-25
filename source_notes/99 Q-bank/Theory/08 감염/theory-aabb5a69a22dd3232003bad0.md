@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
+curation_status: "retained"
+curation_reason: "Ceftriaxone의 신생아 bilirubin·칼슘 관련 안전성은 계열 기전과 독립적으로 중요."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ Ceftriaxone은 신생아에서 빌리루빈을 displacement시키고, 칼슘과 
 
 ## 오답 포인트
 
-- **B. 경증 간 효소 상승:** 경증 간 효소 상승은 흔하지만, 신생아에서 가장 위험한 것은 빌리루빈 및 칼슘 관련 문제이다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Ceftriaxone
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Ceftriaxone.md`
-- 학습 목표: 원문 핵심: - 항생제는 배양 채취 후 시작하되, 결과가 나오면 de-escalation 가능성을 항상 점검한다. - 신생아에서는 `bilirubin displacement`와 `ceftriaxone-calcium precipitation` 문제가 핵심이다. - 성인과 소아 일반군에서는 경증-중등도 renal/hepatic dysfunction에서 dose adjustment가 항상 필요한 것은 아니지만, 중증 신부전이나 신경학적 이상반응이 있으면 더 면밀히 본다. - 장기 사용 시 담도 합병증, 혈액학적 이상, 신경학적 이상반응을 추적한다.
+- 학습 목표: Ceftriaxone: 빌리루빈 displacement와 칼슘 침전 위험

@@ -12,36 +12,56 @@ target_type: disease
 target_slug: "MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: D
+answer: "D"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "외상 검사 목록 제외형을 일차 평가·즉시 처치 원칙으로 정리"
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+publication_status: "published"
+curation_disposition: "selected"
+publication_reason: "직접 재검수 후 복구: 외상 검사 목록 제외형을 일차 평가·즉시 처치 원칙으로 정리"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-다발외상 환자에게 primary survey와 동시에 시행해야 하는 검사가 아닌 것은?
+중증 외상의 일차 평가(primary survey)에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 혈액형·교차시험
-B. CBC
-C. 전해질 검사
-D. 심전도(ECG)
+A. 모든 검사 결과를 받은 뒤 한 번에 치료를 시작한다
+B. 외관상 가장 큰 상처부터 치료하고 기도·호흡 평가는 나중에 한다
+C. CT 촬영을 완료해야 외부 대량출혈을 조절할 수 있다
+D. 대량출혈·기도·호흡·순환 등 생명 위협을 우선 평가하고 발견 즉시 처치한다
 
 ## 해설
 
-primary survey 시 혈액형·교차시험, CBC, 전해질 검사는 필수이나, 심전도는 핵심 항목에 포함되지 않는다.
+일차 평가는 진단 목록을 완성하는 절차가 아니라 즉시 생명을 위협하는 문제를 찾아 처치하는 과정이다. 치명적 외부출혈을 조절하고 경추를 보호하며 기도·호흡·순환, 신경학적 상태와 전신 노출을 체계적으로 평가한다. 검사와 감시는 소생을 보조하며 긴장성 기흉 감압이나 출혈 조절을 위해 영상 확진을 기다리지 않는다. 안정화 뒤 상세한 이차 평가와 반복 평가를 시행한다.
 
 ## 출처
 
 - 내부 학습 노트: 다발외상 (Polytrauma)
 - 원본 경로: `source_notes/02 Diseases/21 응급의학/다발외상 (Polytrauma).md`
-- 학습 목표: 원문 핵심: - primary survey와 동시에 혈액형·교차시험, CBC, 전해질, 혈액가스·lactate, 응고검사와 임신검사를 상황에 맞춰 시행한다. 정상 초기 혈색소는 급성 출혈을 배제하지 않는다. - 흉부·골반 X선과 FAST는 불안정 환자의 즉시 처치 결정을 보조한다. 안정 환자는 손상 기전과 진찰에 따라 조영증강 CT를 선택한다. - CT를 위해 출혈 조절, 기도 확보, 긴장성 기흉 감압과 응급수술을 지연하지 않는다. 사지 손상은 원위부 신경혈관 진찰을 영상 전후로 기록한다.
+- 학습 목표: 중증 외상의 일차 평가는 대량출혈·기도·호흡·순환 등의 생명 위협을 확인하는 즉시 교정하며 진행한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 외상 검사 목록 제외형을 일차 평가·즉시 처치 원칙으로 정리
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
+- https://www.who.int/publications/i/item/9789241513081
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

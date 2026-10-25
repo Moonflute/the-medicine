@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -35,7 +37,7 @@ related_drug_slugs:
 
 ## 문제
 
-56세 여성이 2주 동안 지속된 피로와 팔·몸통의 통증 없는 멍으로 병원에 왔다. 코피가 여러 번 났으나 몇 분간 압박하면 멎었다. 최근 요로감염 치료를 끝냈다. 체중 변화는 없다. 제2형 당뇨병과 고혈압이 있으며 마지막 월경은 5년 전이었다. 담배와 술은 하지 않는다. 메트포르민, 암로디핀, 에날라프릴을 복용 중이다. 활력징후는 정상이었다. 결막이 창백했고 상지, 가슴, 등에 반상출혈과 점상출혈이 있었다. 림프절병증은 없었고 나머지 진찰은 정상이었다. 혈색소 8.7 mg/dL, 백혈구 1,100/mm³, 혈소판 54,000/mm³, 망상적혈구 0.1%, 평균 적혈구 용적 93 μm³, 총 빌리루빈 1.1 mg/dL, LDH 80 U/L였다. 다음 중 진단을 확진하는 데 가장 유용한 검사는?
+56세 여성이 2주 동안 지속된 피로와 팔·몸통의 통증 없는 멍으로 병원에 왔다. 코피가 여러 번 났으나 몇 분간 압박하면 멎었다. 최근 요로감염 치료를 끝냈다. 체중 변화는 없다. 제2형 당뇨병과 고혈압이 있으며 마지막 월경은 5년 전이었다. 담배와 술은 하지 않는다. 메트포르민, 암로디핀, 에날라프릴을 복용 중이다. 활력징후는 정상이었다. 결막이 창백했고 상지, 가슴, 등에 반상출혈과 점상출혈이 있었다. 림프절병증은 없었고 나머지 진찰은 정상이었다. 혈색소 8.7 g/dL, 백혈구 1,100/mm³, 혈소판 54,000/mm³, 망상적혈구 0.1%, 평균 적혈구 용적 93 μm³, 총 빌리루빈 1.1 mg/dL, LDH 80 U/L였다. 다음 중 진단을 확진하는 데 가장 유용한 검사는?
 
 ## 선택지
 
@@ -48,6 +50,14 @@ D. 혈청 포르포빌리노겐 수치
 
 
 재생불량성 빈혈·범혈구감소증을 확진하려면 골수 조직을 직접 평가해야 하므로 골수 생검이 가장 유용한 검사이다. 따라서 정답은 골수 생검이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000354`와 직접 대조했다.
+- 판정: 범혈구감소·낮은 망상적혈구와 골수 생검 B 연결 유지. 영어 원문에도 있는 Hb mg/dL 단위 오류를 g/dL로 교정.
+- 추가 주의: 원문의 Hb 8.7 mg/dL는 통상적인 혈색소 보고 단위와 맞지 않아 8.7 g/dL로 교정했다. 수치는 유지했다.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

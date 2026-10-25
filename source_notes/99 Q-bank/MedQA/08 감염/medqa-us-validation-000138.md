@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 이소니아지드, 리팜핀, 에탐부톨, 피라진아미드 투여
 ## 해설
 
 
-양성 인터페론-γ 방출 검사와 흉부 X선 정상은 잠복결핵 감염을 의미한다. 이 경우 이소니아지드 단일 요법이 권장된다. 다른 선택지는 과도한 치료를 제시한다. 따라서 정답은 이소니아지드 투여(B)이다.
+무증상이고 IGRA 양성·흉부 X선 정상이라 잠복결핵 감염에 부합한다. 활동성 결핵이 배제되면 예방 치료가 필요하고, 선택지 중 isoniazid(B)는 유효한 대안이다. 현재는 적격 환자에서 짧은 rifamycin 기반 요법을 우선 권고하며 6–9개월 INH는 상호작용·접근성 등 상황에 따른 대안이므로 유일한 표준으로 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000138 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 무증상·IGRA 양성·정상 흉부영상 LTBI에서 INH B는 여전히 가능한 대안. 현재는 짧은 rifamycin 요법을 선호하며 INH만 유일 권고라는 표현 수정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/mmwr/volumes/69/rr/rr6901a1.htm
 
 ## 출처
 

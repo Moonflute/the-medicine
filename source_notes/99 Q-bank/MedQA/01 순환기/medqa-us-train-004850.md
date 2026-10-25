@@ -19,17 +19,19 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 니페디핀으로 변경
 
 ## 해설
 
+Amlodipine의 세동맥 확장이 정맥측 확장보다 커지면 모세혈관압이 올라 발목부종이 생길 수 있다. A의 enalapril 병용은 이러한 부종을 완화할 수 있다. 용량 감량·약제 교체도 임상 상황에 따른 대안이다. 단순 체액과부하와 달라 loop 이뇨제가 기전을 직접 해결하지 않으며 압박스타킹이 항상 부종을 악화시킨다는 설명도 잘못이다.
 
-암로디핀에 의한 말초 부종은 ACE 억제제(에날라프릴)와 병용하면 혈관 확장이 증가해 부종 위험을 감소시킨다. 다른 옵션은 부종을 악화시킬 수 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Amlodipine 부종의 전모세혈관 확장과 ACE억제제 병용 효과를 설명하고 압박치료가 악화시킨다는 오류 제거.
+- https://pubmed.ncbi.nlm.nih.gov/10679507/
 
 ## 출처
 

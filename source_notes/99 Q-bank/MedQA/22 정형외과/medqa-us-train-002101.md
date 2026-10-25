@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 장경인대 증후군
 
 ## 해설
 
+외반성 외상 뒤 하루 이상 지나 나타난 관절 종창과 운동 시 clicking·catching은 내측 반월상연골 파열(C)을 지지한다. 외측 타박상 자체가 손상 구조를 확진하는 것은 아니다. ACL 파열도 감별해야 하지만 빠른 혈관절증·특징적 인대검사 소견보다 지연 종창과 기계적 증상이 이 선지를 뒷받침한다.
 
-외측 충격으로 인한 무릎 외측 부종과 멍, 그리고 관절 내 가벼운 딸깍거림은 내측 반월상연골 손상을 시사한다. 내측 반월상연골 파열은 외측 충격 후 무릎 불안정감과 가벼운 관절음이 나타나는 전형적인 패턴이다. 따라서 가장 가능성 높은 진단은 내측 반월상연골 파열이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 내측 반월상연골 C를 외측 부종·타박상만으로 진단한 해설을 기계적 증상·지연 삼출에 기반하도록 교정한다.
 
 ## 출처
 

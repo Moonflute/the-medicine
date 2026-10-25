@@ -17,25 +17,34 @@ related_diseases:
 related_disease_slugs: []
 question_type: management
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 약물 중단 후 호전된 사례는 유지하고, 여러 LDL 저하 대책 중 무조건 하나가 우월하다는 질문을 기존 statin과 증상의 연관성을 재평가하는 재투여 단계로 명료화했다."
+curation_status: "revised"
+curation_reason: "약물 중단 후 호전된 사례는 유지하고, 여러 LDL 저하 대책 중 무조건 하나가 우월하다는 질문을 기존 statin과 증상의 연관성을 재평가하는 재투여 단계로 명료화했다."
+curation_reviewed_at: "2026-10-25"
+wrong_notes_review_status: "reviewed"
+curation_disposition: "selected"
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-61세 남성이 8주 전 로수바스타틴 40 mg을 시작한 뒤 추적 진료를 받으러 왔다. 다리에 통증이 있고 전신적인 쇠약감을 호소한다. 사지 관절운동 범위는 정상이지만 통증을 호소했다. 혈압 126/84 mmHg, 심박수 74회/분이었다. 스타틴을 중단하고 2주 후 다시 방문하여 증상 변화를 평가하기로 했다. 스타틴 중단 후 근육 증상이 소실되었다. LDL 조절에 관해 다음으로 취할 가장 적절한 조치는?
+61세 남성이 로수바스타틴 40 mg을 시작한 지 8주 뒤 다리 근육통과 전신 쇠약을 호소했다. 사지 관절운동 범위는 정상이고 혈압 126/84 mmHg, 맥박 74회/분이다. 약을 중단하고 2주 뒤 근육 증상은 소실되었다. 기존 로수바스타틴과 근육 증상의 연관성 및 더 낮은 용량의 내약성을 재평가하려는 경우 가장 적절한 접근은?
 
 ## 선택지
 
@@ -46,10 +55,20 @@ D. 어유를 시작한다
 
 ## 해설
 
+증상이 중단 후 사라졌다면 횡문근융해 등 재투여 금기가 없는지 확인한 후, 같은 statin을 낮은 용량으로 재투여해 증상 재발과 내약성을 평가할 수 있다. 다른 statin으로 바꾸는 것도 가능한 치료 전략이지만, 이 문항은 기존 약물의 감량 재투여 평가를 묻는다. 한 번의 근육통만으로 모든 statin을 영구 중단하거나 피브레이트·어유를 동등한 LDL 저하 대체약으로 취급하지 않는다.
 
-스타틴 유발 근육통은 약물 중단 시 증상이 사라진다. 재시작 시 용량을 낮추어 부작용을 최소화하는 것이 권장된다. 따라서 로수바스타틴을 더 낮은 용량으로 다시 시작하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 약물 중단 후 호전된 사례는 유지하고, 여러 LDL 저하 대책 중 무조건 하나가 우월하다는 질문을 기존 statin과 증상의 연관성을 재평가하는 재투여 단계로 명료화했다.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://tools.acc.org/LDL/StatinIntolerance/
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000244
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

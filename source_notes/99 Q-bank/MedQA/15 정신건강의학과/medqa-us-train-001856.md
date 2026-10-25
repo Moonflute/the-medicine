@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. 얼굴의 무도성 무정위운동
 
 ## 해설
 
-
-플루페니진과 같은 전통적 항정신병제의 장기 사용은 안면의 무도성 무정위운동(불수의증)이라는 지연성 운동이상을 유발한다. 이는 영구적인 신경학적 손상을 초래할 수 있어 약물 중단이 권고된다. 관찰된 소견이 얼굴의 무도성 무정위운동이므로 정답은 D이다.
+플루페나진 등 도파민 수용체 차단 약물 사용 뒤 나타나는 안면의 무도성 무정위운동은 지연성 운동이상증에 부합한다. 약물 조정 뒤에도 지속될 수 있어 조기 평가와 치료 계획 재검토가 필요하다. 안정 시 떨림·자발운동 감소는 약물 유발 파킨슨증, 계속 다리를 움직이는 것은 정좌불능증에 더 가깝다. 실제 약물 중단·감량·교체는 정신병 재발 위험과 함께 전문적으로 결정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001856
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 지연성 운동이상증 원정답 유지; 선지 문자 참조 제거, 무조건 영구 신경손상·즉시 임의 중단 단정 완화.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -17,17 +17,21 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: investigation
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: B
+answer_change_reason: "2026 제5차 심근경색 보편적 정의는 재발 허혈 증상에서 연속 심장 트로포닌 검사를 우선하며, CK-MB는 트로포닌 검사가 불가능할 때의 대안이다. 원정답 B를 C로 변경하여 현행 기준 및 해설과 일치시킴."
 ---
 
 # MedQA US 임상문제
@@ -45,8 +49,14 @@ D. 코펩틴
 
 ## 해설
 
+최근 심근경색 후 허혈성 증상이 재발하면 심장 트로포닌을 즉시 측정하고 연속 검사로 변화 양상을 평가한다. 현행 정의에서는 고감도 심장 트로포닌이 우선이며, 제시된 선택지 중 C가 적합하다. 이전 경색 때문에 값이 높을 수 있어 단일 양성값만으로 재경색을 확진하지 않는다. CK-MB는 트로포닌을 사용할 수 없을 때의 대안이지, 항상 더 신뢰할 수 있는 우선 검사는 아니다.
 
-재발성 심근경색을 의심할 때 가장 민감하고 특이한 바이오마커는 고감도 심장 트로포닌 T이며, 진단에 가장 신뢰할 수 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 재경색의 현행 검사는 연속 심장 트로포닌이며 원정답 B와 기존 해설 C의 불일치를 C로 정정.
+- https://www.jacc.org/doi/10.1016/j.jacc.2026.07.025
 
 ## 출처
 

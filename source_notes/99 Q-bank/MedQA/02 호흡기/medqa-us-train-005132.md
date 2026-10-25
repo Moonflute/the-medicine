@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 기관지경검사
 
 ## 해설
 
+안정 객혈의 초기 흉부 X선 A는 가능하다. 다만 높은 흡연력·진행 객혈에서는 정상 X선으로 악성이 배제되지 않으므로 CT 등 추가평가가 필요할 수 있다. X선이 종양 위치/크기를 최종 확정하는 검사는 아니다.
 
-점진적인 객혈과 호흡곤란은 폐암을 포함한 악성 종양을 의심하게 하는 중요한 단서이다. 초기 평가에서는 종양의 위치와 크기를 파악하기 위해 가장 빠르고 저렴한 영상검사인 흉부 방사선촬영이 우선한다. 따라서 흉부 X선이 적절한 초기 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 객혈 초기 CXR A가 악성을 배제하거나 종양 크기를 확정한다는 과장 교정.
+- https://acsearch.acr.org/list/TopicNarrativePdf?topicId=107
 
 ## 출처
 

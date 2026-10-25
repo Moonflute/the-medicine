@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,15 @@ D. 인공호흡기 연관 폐렴
 ## 해설
 
 
-중심정맥 카테터와 혈액배양에서 동일한 S. aureus가 검출된 경우는 중심 카테터 관련 균혈증을 의미한다. 요로감염은 다른 균주가 나오며, 심내막염은 심음 변화가 동반된다. 따라서 중심정맥 카테터 관련 균혈증이 가장 잘 설명한다.
+카테터 삽입 부위 발적과 함께 말초혈액 및 카테터 검체에서 동일 감수성의 S. aureus가 검출되어 중심정맥 카테터 관련 균혈증 B를 가장 강하게 지지한다. 흉부 CT에 새 폐침윤이 없고 소변의 다균성 배양만으로 요로가 감염원이라고 단정할 수 없다. 새로운 심잡음이 없더라도 S. aureus 심내막염은 배제되지 않으므로 추가 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001314 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 심잡음이 없으면 심내막염 배제라는 오류를 제거; 동일S aureus의 말초·카테터 배양 근거로 B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/cid/article/49/1/1/369414
+- https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/
 
 ## 출처
 

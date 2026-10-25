@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 소변 독성검사
 
 ## 해설
 
+농장 작업자에게 침 흘림, 기침·분비물 증가, 배뇨와 근육 씰룩거림이 함께 나타나면 유기인계 등 콜린에스터레이스 억제제 노출을 의심한다. 아트로핀(A)은 무스카린 수용체를 차단하여 기관지 분비와 기관지수축 등 생명위협 증상을 치료한다. 근섬유다발수축은 니코틴성 증상으로 아트로핀만으로 직접 역전되지 않는다. 안전한 제독과 환기 평가를 병행하고, 유기인계 중독에서는 프랄리독심 등 추가 치료도 검토한다.
 
-환자는 침흘림, 기침, 근육 경련, 저심박동(서맥) 등 무스카린성 증상이 나타나며, 이는 유기인계 살충제 중독에 특징적인 콜린성 독성이다. 아트로핀은 무스카린 수용체를 차단해 증상을 빠르게 완화한다. 따라서 가장 적절한 처치는 아트로핀 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 콜린성 독성에서 아트로핀 A는 유지하되 근섬유다발수축을 무스카린성으로 묶은 오류를 교정한다.
+- 공식/학회 근거: https://cdn.who.int/media/docs/default-source/chemical-safety/intox/soundmanagementpesticides_resourcetool.pdf
 
 ## 출처
 

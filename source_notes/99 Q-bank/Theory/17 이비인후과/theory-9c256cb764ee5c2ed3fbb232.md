@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "외이도 미만성 감염의 주요 병원체 복습 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 연쇄상구균(Streptococcus pneumoniae)
 
 - 내부 학습 노트: 미만성 외이도염 (Diffuse External Otitis)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/미만성 외이도염 (Diffuse External Otitis).md`
-- 학습 목표: 원문 핵심: - **정의**: 외이도 피부 및 피하조직에 발생하는 급성 미만성 염증 - **원인**: 녹농균(Pseudomonas aeruginosa)이 가장 흔하며, 황색포도상구균 등이 원인이 될 수 있음 - **기전**: 고온 다습한 환경, 수영, 보청기나 이어폰 사용 등으로 외이도의 산성 환경이 깨지고 피부 방어막이 손상되어 세균이 증식함
+- 학습 목표: 미만성 외이도염의 녹농균
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 외이도 미만성 감염의 주요 병원체 복습 유지.

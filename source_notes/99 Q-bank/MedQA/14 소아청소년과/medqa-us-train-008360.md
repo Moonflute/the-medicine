@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-생후 6개월 남아가 위탁가정에서 입양한 부부와 함께 건강검진을 위해 내원했다. 생모는 재활시설에 있었고 아이를 돌볼 능력이 없어 위탁가정에 맡겨졌으며 산전·출생력은 알 수 없다. 체중이 3백분위수 미만이고 중안면 저형성, 편평한 코등, 매끈한 인중, 얇은 입술, 좌측 하부 흉골연의 3/6등급 전수축기 심잡음, 발달지연이 있다. 다음 중 이 신생아 소견과 가장 관련된 기형유발물질은?
+생후 6개월 남아가 위탁가정에서 입양한 부부와 함께 건강검진을 위해 내원했다. 생모는 재활시설에 있었고 아이를 돌볼 능력이 없어 위탁가정에 맡겨졌으며 산전·출생력은 알 수 없다. 체중이 3백분위수 미만이고 중안면 저형성, 편평한 코등, 매끈한 인중, 얇은 입술, 좌측 하부 흉골연의 3/6등급 전수축기 심잡음, 발달지연이 있다. 다음 중 이 영아의 소견과 가장 관련된 기형유발물질은?
 
 ## 선택지
 
@@ -43,8 +45,13 @@ D. 코카인
 
 ## 해설
 
+성장부진, 매끈한 인중·얇은 윗입술 등 특징적 얼굴과 발달 문제는 태아 알코올 노출(A)에 부합한다. 심장 기형이 동반될 수 있으나 잡음 자체를 '저형성 심장 잡음'이라고 부르지 않는다. 환자는 생후 6개월 영아이며 신생아가 아니다.
 
-얼굴 기형, 성장 지연, 저형성 심장 잡음은 태아 알코올 증후군과 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 저형성 심장 잡음이라는 무의미한 표현을 태아 알코올 노출 소견으로 교체.
+
 
 ## 출처
 

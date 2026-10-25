@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 발달성 고관절 이형성증
 
 ## 해설
 
+하이드록시우레아를 복용하며 반복되는 심한 골·관절 통증은 겸상적혈구병의 혈관폐쇄성 합병증을 시사한다. 대퇴골두 혈류가 손상되면 무혈성 괴사가 생길 수 있다. 레그-칼베-페르테스병(C)도 대퇴골두 혈액공급 장애와 골괴사라는 공통 기전을 갖지만 겸상적혈구병 자체와 동일한 병명은 아니다. 본문에 골절이 확인된 것은 아니다. 갑작스러운 통증만으로 실제 괴사를 확진하는 것이 아니라 선지 간 병태생리 비교이다.
 
-반복적인 급성 골절 통증은 겸상적혈구병(레그-칼베-페르테스병)에서 혈관 폐쇄성 통증 발작과 동일한 병태생리를 가진다. 따라서 같은 병태생리를 가진 질환은 레그-칼베-페르테스병이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 겸상적혈구병과 Perthes병을 같은 질환으로 부르고 골절을 관찰한 듯한 오류를 교정했다. 공통점은 대퇴골두 허혈성 손상 기전이다.
 
 ## 출처
 

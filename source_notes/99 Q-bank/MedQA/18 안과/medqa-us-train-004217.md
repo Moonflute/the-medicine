@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 눈꺼풀 위생과 온찜질
 
 ## 해설
 
+정답은 D, 눈꺼풀 위생과 온찜질이다. 아침에 심한 눈꺼풀 자극과 딱지, 속눈썹 기저부 각질 및 눈꺼풀 가장자리 홍반은 안검염을 시사한다. 온찜질로 분비물과 딱지를 부드럽게 하고 눈꺼풀 가장자리를 부드럽게 세정하는 것이 초기 관리이다. 화농성 분비물이나 시력저하가 없으므로 제시된 전신 항생제·면역조절제·무피로신을 우선할 근거가 없다.
 
-대장암 1차 선별은 50세 이상에서 10년 간격 대장내시경이 권고된다. 환자는 71세이며, 이전 검사가 6년 전이므로 대장내시경이 필요하다. 따라서 정답은 대장내시경이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 대장암 선별 해설은 무관. 만성 안검염의 눈꺼풀 위생/온찜질로 해설 교체. 원정답 D 유지.
+- 공식/학회 근거: https://www.aao.org/eye-health/diseases/what-is-blepharitis
 
 ## 출처
 

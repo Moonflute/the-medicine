@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 두개내 동맥류 파열
 
 ## 해설
 
+50분간 지속된 발작 후 지속적인 편마비·동측성 반맹·수용성 실어증은 좌측 대뇌피질의 구조적 손상 가능성을 시사한다. 장시간 발작은 대사 요구량 증가, 에너지 불균형 및 흥분독성 손상을 통해 피질 층판 괴사(B)를 일으킬 수 있다. 이는 외부 전류에 의한 전기적 손상을 뜻하지 않는다. 2주간 지속되는 결손을 일시적 발작후 마비만으로 설명하지 않으며 실제로는 영상 등으로 다른 뇌혈관·구조적 원인도 평가한다.
 
-긴 발작 후 뇌피질 층판 괴사는 전기적 손상으로 인한 국소적인 뇌피질 손상이며, 편마비·반맹·실어증 같은 국소 신경학적 결손을 초래한다. 다른 선택지는 전반적인 출혈이나 농양과는 맞지 않는다. 따라서 가장 가능성 높은 원인은 피질 층판 괴사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 장시간 발작 후 피질 손상을 단순 전기적 손상이라고 부른 부정확한 기전을 에너지 요구 증가와 흥분독성 손상으로 교정했다. 지속되는 편측 피질 결손의 B를 유지한다.
+- 공식/학회 근거: https://jnnp.bmj.com/content/jnnp/77/1/104.full.pdf
 
 ## 출처
 

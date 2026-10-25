@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 메토트렉세이트 치료
 
 ## 해설
 
+단회 CRL 6 mm·무심박은 소실 확진 기준인 CRL ≥7 mm에 미달한다. 다만 3주 전 초음파에 자궁내 임신낭이 확인되었다면 14일 이상 지난 지속 무심박은 시간 기준에 따라 소실로 진단할 수 있어 A가 가능하다. 이전 영상을 확인하고 불확실하면 반복 초음파 후 치료한다. 확진된 초기 소실에서는 미페프리스톤 병용 등도 상담한다.
 
-임신 10주에 배아 심장 활동이 보이지 않는 경우는 미소유산(임신 손실)이며, 미소프로스톨이 자궁 수축을 유도해 조직 배출을 촉진한다. 다른 선택지는 자궁경부 문제·혈전증·항암제와 무관하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: CRL6mm무심박만으로소실확진하지말고3주전초음파와시간기준확인.
+- https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss
+- https://acsearch.acr.org/docs/69460/Narrative/
 
 ## 출처
 

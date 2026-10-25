@@ -20,16 +20,18 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 일차성 부갑상샘기능항진증
 
 ## 해설
 
+진행된 만성신장병에서는 인산 배설 저하에 따른 인산 저류와 활성 비타민 D 생성 감소, 저칼슘 자극 등이 PTH 상승을 일으켜 이차성 부갑상샘기능항진증(B)이 발생할 수 있다. CKD-미네랄뼈질환은 골질과 강도를 떨어뜨려 골절 위험을 높인다. 이 사례의 낮은 칼슘과 신부전은 고칼슘혈증을 흔히 보이는 일차성/삼차성 형태보다 이차성 형태를 지지한다. 인산 저하를 주된 원인으로 설명하는 것은 부정확하다.
 
-만성신장질환 환자는 인산, 비타민 D 활성화 감소와 인산 저하에 대한 보상으로 부갑상선 호르몬이 상승해 이차성 부갑상선기능항진증이 발생한다. 이는 골다공증과 병적 골절(압박골절) 위험을 높인다. 따라서 이차성 부갑상선기능항진증이 가장 가능성 높은 설명이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 B 유지. 인산 저하가 아니라 인산 저류·활성 비타민 D 감소에 따른 CKD-MBD/이차성 PTH 상승으로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

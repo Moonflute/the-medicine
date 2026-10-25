@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "가축 분비물·분만산물 에어로졸 흡입은 Q열을 구분하는 중요한 노출 경로라 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmltjca095whrdqw9vu0jhwlhabgnpa3viv1f8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ Coxiella burnetii는 감염 동물의 분비물·배설물·태반이 에어로�
 
 ## 오답 포인트
 
-- **B. 오염된 물 섭취:** 물 섭취는 드물게 전파될 수 있지만 주요 경로는 아니다.
+- **오염된 물 섭취:** 물 섭취는 드물게 전파될 수 있지만 주요 경로는 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 큐열 (Q Fever)
 - 원본 경로: `source_notes/02 Diseases/08 감염/큐열 (Q Fever).md`
 - 학습 목표: 원문 핵심: - **정의**: 콕시엘라 부르네티 (Coxiella burnetii)에 의해 발생하는 인수공통감염병 - **원인**: 콕시엘라 부르네티 (Coxiella burnetii) - **기전**: 감염된 동물 (소, 양, 염소)의 분비물, 배설물, 태반 등에 포함된 균이 에어로졸 형태로 비산되어 이를 흡입함으로써 전파된다. 드물게 오염된 우유 섭취를 통해서도 감염될 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 가축 분비물·분만산물 에어로졸 흡입은 Q열을 구분하는 중요한 노출 경로라 유지.

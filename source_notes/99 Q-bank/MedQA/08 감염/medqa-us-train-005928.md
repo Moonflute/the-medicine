@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,15 @@ D. 테노포비르와 벨파타스비르 치료
 ## 해설
 
 
-C형 간염 genotype 1에 대한 1세대 직접 작용 항바이러스제(소포스부비르+레디파스비르)는 현재 표준 치료이며, 높은 SVR률을 보인다. 따라서 이 환자에게 소포스부비르와 레디파스비르를 시작하는 것이 가장 적절한 관리이다.
+HCV RNA 양성 genotype1에서 B의 ledipasvir/sofosbuvir는 유효한 DAA 조합이다. 실제 요법·기간은 이전 치료·간경변/비대상성 여부·상호작용 및 신기능 등을 확인하여 결정하며 현행에는 pangenotypic 조합 등도 사용된다. 이를1세대의 유일 표준으로 묶지 않는다. Tenofovir와 velpatasvir D는 sofosbuvir/velpatasvir와 다른 부적절 조합이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005928 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Genotype1에서 ledipasvir/sofosbuvir B는 유효하나1세대·유일 현행 표준이라는 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46f4a73b-0cd6-4902-9092-3ac79e882c1a
+- https://www.hcvguidelines.org/guidance/initial-treatment-of-adults-with-hcv-infection/
 
 ## 출처
 

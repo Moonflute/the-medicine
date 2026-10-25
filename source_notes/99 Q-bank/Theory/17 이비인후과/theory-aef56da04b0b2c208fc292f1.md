@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "급성 중이염 주요 세균과 외이도 병원체의 비교 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. Mycobacterium tuberculosis, Nocardia asteroides, Actinomyces israelii
 
 - 내부 학습 노트: 중이염 (Otitis media)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/중이염 (Otitis media).md`
-- 학습 목표: 원문 핵심: - **정의**: 이관 기능 장애 및 미생물 감염으로 인한 중이강의 염증성 변화. 급성 중이염(AOM), 삼출성 중이염(OME), 만성 화농성 중이염(CSOM)으로 분류됨. - **원인**: 주요 세균: *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*. 바이러스: RSV, 인플루엔자, 아데노바이러스 등. - **기전**: 상기도 감염 후 이관 부종으로 인한 환기 장애, 중이강 내 음압 형성 및 삼출물 저류, 세균 증식 및 화농성 변화.
+- 학습 목표: 급성 중이염의 주요 세균
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 급성 중이염 주요 세균과 외이도 병원체의 비교 유지.

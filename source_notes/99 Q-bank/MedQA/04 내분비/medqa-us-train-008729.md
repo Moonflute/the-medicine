@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,13 @@ D. 원발성 갑상선 림프종
 ## 해설
 
 
-갑상선 기능저하증(특히 하시모토)에서 갑상선 림프종 발생 위험이 증가한다. 환자의 갑상선 비대와 저혈압이 이를 시사한다.
+정답 D. 차고 건조한 피부의 비압흔부종, 변비와 쉰 목소리는 갑상선기능저하에 의한 점액부종을 시사한다. 원인이 Hashimoto 갑상선염이면 원발성 갑상선 림프종 위험이 증가한다. 본문에는 갑상선비대나 저혈압이 없고 활력징후는 정상이다. 비압흔부종만으로 Hashimoto가 확진된 것은 아니며 실제 갑상선 기능/항체 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008729 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 본문에 없는 갑상선비대·저혈압 삭제, 차고 건조한 비압흔부종·변비·쉰목소리를 hypothyroid 의심에 연결.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

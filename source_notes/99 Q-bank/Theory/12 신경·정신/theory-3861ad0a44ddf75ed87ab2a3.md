@@ -12,19 +12,24 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
+curation_status: "revised"
+curation_reason: "항우울 작용과 이온채널 관련 독성을 혼합하지 않도록 해설 정리."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,14 @@ D. 아세틸콜린
 
 ## 해설
 
-Amitriptyline은 세로토닌과 노르에피네프린의 재흡수를 억제하고 이온 채널을 조절해 항우울 효과를 발휘한다.
+Amitriptyline은 삼환계 항우울제로 세로토닌과 노르에피네프린의 재흡수를 억제한다. 항콜린 작용 및 나트륨통로 영향 등은 별도의 부작용·독성과 관련된다.
 
 ## 출처
 
 - 내부 학습 노트: Amitriptyline
 - 원본 경로: `source_notes/04 Pharmacology/12 신경·정신/Amitriptyline.md`
-- 학습 목표: 원문 핵심: - 중추신경계의 신경전달물질(세로토닌, 노르에피네프린) 재흡수를 억제하고 이온 채널을 조절하여 항우울 효과를 나타낸다.
+- 학습 목표: TCA의 세로토닌·노르에피네프린 재흡수 억제
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

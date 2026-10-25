@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 자궁경부확장 및 소파술
 
 ## 해설
 
+주기 골반통·깊은 성교통과 경구피임약 불응은 자궁내막증을 의심하게 한다. 정상 초음파가 표재 병변을 배제하지 않아 선택지 중 복강경(C)을 고려한다. 모든 의심 환자에게 수술 확진이 필수인 것은 아니다. hCG 6은 검사실에 따라 경계값이므로 수술 전 재확인하며, 임신 경험이 없다는 사실만으로 불임을 진단하지 않는다.
 
-심한 골반통·월경전통증·불임은 자궁내막증을 의심하게 하며, 확진을 위해서는 복강경 검사가 가장 정확한 진단법이다. 따라서 C가 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신경험부재를불임으로단정한오류 및 hCG6경계값·현행진단접근반영.
+- https://academic.oup.com/hropen/article/2022/2/hoac009/6537540
 
 ## 출처
 

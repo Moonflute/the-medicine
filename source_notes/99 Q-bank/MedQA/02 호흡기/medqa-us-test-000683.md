@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2FzcG9mdW5naW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 프레드니손
 
 ## 해설
 
+정답은 D이다. 천식, 반복 악화, 갈색 점액 마개, finger-in-glove 음영 및 높은 IgE는 ABPA를 시사한다. 이는 단순 침습성 진균 폐렴이 아니라 Aspergillus에 대한 알레르기성 기도 염증이다. 급성 ABPA에는 경구 glucocorticoid 또는 적절한 항진균 치료를 상황에 맞게 선택하며, 제시된 약 중 prednisone이 적합하다. fluconazole은 ABPA의 적절한 표준 azole 선택지가 아니다. 용량·기간은 중증도와 반응에 맞추며 무조건 고용량을 장기 유지하지 않는다.
 
-천식 환자에게 폐렴 후 Aspergillus 감염(알레르기성 기관지폐 아스페르길루스증)으로 폐렴이 진행되면 고용량 프레드니손이 치료에 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ABPA를 침습성 Aspergillus 폐렴으로 설명한 오류를 알레르기성 염증으로 교정.
+- https://doi.org/10.1183/13993003.00061-2024
 
 ## 출처
 

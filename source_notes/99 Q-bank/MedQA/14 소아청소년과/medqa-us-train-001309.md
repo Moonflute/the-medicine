@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 악몽 장애
 
 ## 해설
 
+악몽 후 완전히 깨고 꿈 내용을 기억하며 보호자의 위로를 받을 수 있다는 점은 악몽장애(D)에 부합한다. 악몽은 주로 REM 수면과 관련된다. 야경증은 비REM 수면에서 불완전 각성, 심한 자율신경 반응과 달래기 어려움이 나타나며 다음 날 사건을 잘 기억하지 못하는 양상으로 구분한다.
 
-밤에 무서운 꿈을 꾸고 깨어난 뒤 다시 잠들 수 있는 현상은 악몽 장애이며, 수면 공포 장애는 깨어 있을 때 공포를 호소한다. 따라서 가장 가능성 높은 진단은 악몽 장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 야경증을 깨어 있는 동안의 공포라고 잘못 정의한 해설을 교정했다.
+
 
 ## 출처
 

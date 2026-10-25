@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. Yersinia pestis
 ## 해설
 
 
-아프리카 어린이의 하악부 종괴는 내인성 EBV 감염에 의해 발생하는 버킷 림프종과 연관된다. EBV는 B세포에 잠복해 종양세포 증식을 촉진한다. 따라서 조직병리와 일치하는 미생물은 EBV이다. Yersinia pestis는 전염성 흑사병을 일으키며 종양을 유발하지 않는다.
+나이지리아 출신 소아의 빠르게 커지는 하악 종괴는 endemic Burkitt 림프종을 시사하고 EBV(C)와 강한 연관이 있다. 실제 병리 그림은 없어 특정 현미경 소견을 확인한 것은 아니며 임상 단서와 선택지 비교로 C를 지지한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-001240 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 아프리카 소아 하악 종괴의 endemic Burkitt와 EBV C 유지. 누락 병리를 본 듯한 확정/내인성 표현 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. Borrelia burgdorferi 감염
 
 ## 해설
 
+치료받지 않은 인두염3주후 발열·심염/심부전과 고리모양 몸통발진은 ARF A를 시사한다. 이 환자에서 관절통이 제시된 것은 아니므로 진단근거로 만들어 넣지 않는다. 실제 진단에서는 streptococcal 선행감염 증거와 Jones기준을 종합한다.
 
-급성 류마티스열은 발열, 관절통, 피부에 고리 모양 발진, 심장 부전(심장 비대, S3) 등을 동반한다. 환자의 증상과 소견이 모두 이에 부합한다. 따라서 가장 가능성 높은 원인은 급성 류마티스열이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 류마티스열 A의 실제선행감염·심염·유연성홍반을 설명하고 제시되지 않은 관절통을 근거로 추가하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

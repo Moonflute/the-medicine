@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,8 +46,13 @@ D. 반복되는 눈 충혈과 통증
 ## 해설
 
 
-강직성 척추염은 전방 척추 관절염과 연관된 전방 포도막염(전방 포도막염)이 흔히 동반된다. 환자의 방사성 척추 변화와 전방 관절 통증은 강직성 척추염을 시사한다. 따라서 반복되는 눈 충혈과 통증이 가장 관련된 소견이다.
-다른 선택지는 강직성 척추염과 직접적인 연관이 없다.
+만성 염증성 요통, 양측 천장관절 미란·경화와 척추 강직은 ankylosing spondylitis/axial SpA에 부합한다. 급성 전방포도막염이 반복적인 눈 충혈·통증을 일으킬 수 있어 D가 대표적 연관이다. 강직성 척추는 경미한 외상에도 불안정 골절을 일으킬 수 있으며, 실제 C2 골절은 신경진찰이 정상이어도 별도 응급 평가 대상이다. 신경손상 관련 배뇨·배변 증상이 절대 발생하지 않는다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009461 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 전방척추관절염·방사성 변화라는 깨진 용어와 다른 신경합병증 연관없다는 과장 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

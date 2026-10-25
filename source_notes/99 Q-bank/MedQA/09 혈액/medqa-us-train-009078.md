@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 여포성 림프종
 ## 해설
 
 
-다발성 큰 B세포 림프종은 CD20 양성 고등급 비호지킨 림프종으로, 전신 림프절 비대와 B 증상을 동반한다. 환자의 전신 림프절 종대와 조직검사 소견이 이에 부합한다. 따라서 미만성 큰 B세포 림프종이 가장 가능성 높은 진단이다.
+짧은 기간에 진행한 큰 림프절, B 증상, LDH 상승과 CD20 양성·높은 증식지수는 선택지 중 미만성 큰 B세포 림프종(B)에 가장 부합한다. 변연부·여포성 림프종은 보통 더 완만한 경과를 보이며 털세포백혈병은 이 임상상과 다르다. 최종 분류에는 절제 조직의 형태와 면역표현형을 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009078 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 빠른 진행·B 증상·CD20 양성 고증식 B세포 림프종은 DLBCL B가 가장 적절. 다발성 큰 B세포라는 질환명 오기를 미만성으로 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

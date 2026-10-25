@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 림프구 수 증가
 ## 해설
 
 
-류마티스 관절염의 활액은 라기세포가 특징이다. 환자는 전형적인 증상과 항CCP 양성을 보이며, 라기세포가 예상된다. 따라서 라기세포가 가장 가능성 높은 소견이다.
+RA의 염증성 활액에서 면역복합체를 포식한 과립을 가진 호중구인 ragocyte(A)를 볼 수 있다. 이는 RA에 완전히 특이적이지 않으며 단독 확진검사는 아니다. 결정 침착 선지들은 다른 결정관절염과 관련된다. 원문 WBC1,400/mm³는 현저한 백혈구감소이므로 methotrexate를 안전하게 시작해도 된다는 사례로 받아들이지 말고 원인·ANC·약물/혈액질환을 먼저 평가하며 투약 보류/조절 여부를 판단해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006609 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Ragocyte A 연관은 유지하되 비특이성과 WBC1400에서 MTX 투여의 안전성 문제를 명시했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085s072lbl.pdf
 
 ## 출처
 

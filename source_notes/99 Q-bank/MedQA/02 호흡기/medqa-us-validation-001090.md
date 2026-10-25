@@ -19,13 +19,15 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 기관지경검사
 
 ## 해설
 
+반복되는 다량 객혈과 저산소혈증에서는 출혈 쪽 폐를 아래로 두어 반대쪽 폐를 보호하고 기도를 확보한다. D의 기관지경은 혈액과 혈전을 제거하고 출혈 부위를 확인하며 일시적 지혈을 시행하는 데 도움이 된다. 안정화 뒤 CTA와 기관지동맥 색전술 등 확정 치료를 병행하며, 기관지경만으로 모든 출혈의 최종 치료가 끝난다는 뜻은 아니다.
 
-대량 객혈이 발생한 폐를 하부에 두어 중력으로 혈액이 가라앉게 하는 것이 우선이며, 출혈 부위 확인과 지혈을 위해 기관지경검사가 필요하다. 기관지경을 통해 출혈 부위 시각화 및 국소 치료(압박, 레이저, 전기응고 등)를 할 수 있다. 따라서 다음 적절한 처치는 기관지경검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 생명위협 객혈의 기관지경 D를 기도 확보·혈액 제거 맥락으로 명시하고 색전술의 역할도 구별.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10289864/
 
 ## 출처
 

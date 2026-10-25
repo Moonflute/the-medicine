@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-ynhOq3oOyihSAoRnVuZ3VzIEJhbGwpLm1k"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "반복 정의를 기존 공동·객혈 위험이라는 하나의 개념으로 통합."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-진균종(Mycetoma)의 정의는?
+폐 아스페르길루스종(aspergilloma)의 대표적인 발생 환경은?
 
 ## 선택지
 
-A. 폐 내 기존 공동에 Aspergillus 등 진균이 증식해 형성된 덩어리
-B. 폐 조직 전체에 퍼진 진균 감염으로 폐렴을 일으키는 상태
-C. 폐 결절이 석회화된 양성 종양
-D. 폐에 형성된 고형 종양으로 암세포가 주성분인 폐암
+A. 이전 결핵 등으로 생긴 기존 폐 공동 안
+B. 정상 폐동맥 안의 혈전만
+C. 흉관 안의 림프액만
+D. 비강 점막에만 국한된 단순 비염
 
 ## 해설
 
-진균종은 기존 공동에 진균이 정착·증식해 형성되며, 주변 조직 침범은 거의 없고 객혈을 유발할 수 있다.
+기존 공동 안에서 진균 덩어리가 형성되며 객혈을 일으킬 수 있다. ABPA의 과민반응이나 침습성 아스페르길루스증과 구분한다.
 
 ## 오답 포인트
 
-- **B. 폐 조직 전체에 퍼진 진균 감염으로 폐렴을 일으키는 상태:** 폐 진균증은 폐 조직 전체에 퍼지는 감염으로 진균종과 다르다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 진균종 (Fungus Ball)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/진균종 (Fungus Ball).md`
-- 학습 목표: 원문 핵심: - **정의**: 폐 내 기존 공동 (cavity) 내에 진균 (주로 Aspergillus fumigatus)이 증식하여 형성된 덩어리 (Mycetoma). - **원인**: 폐결핵, 기관지확장증, 폐기종 등 기존 폐 질환으로 인한 공동 내에 Aspergillus 균이 정착하여 발생. - **기전**: 공동 내에 정착한 진균이 증식하며 염증 반응을 유발함. 주변 폐 조직을 침범하지는 않으나, 공동 내 혈관을 자극하거나 침식하여 객혈을 유발할 수 있음.
+- 학습 목표: 아스페르길루스종의 기존 공동과 객혈

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,15 @@ D. 타인을 대하는 방식과 관련된 죄책감
 
 ## 해설
 
-
-주요우울장애에서 과다수면·식욕 증가·무기력은 사회적 활동 회피와 연관되며, 가장 흔한 부가 특징이다.
+우울감·흥미와 집중 저하에 과다수면·식욕 증가·팔다리가 무거운 납마비 같은 비정형적 양상이 동반된다. 제시된 선택지 중 사회적 행사에 참여하지 못하는 기능적 제한이 원문 정답이다. 비정형 우울 양상에서는 대인관계의 거절 민감성도 살피지만 이 선지만으로 그 기준을 확정하는 것은 아니다. 겨울 악화나 피해망상을 당연히 동반한다고 가정하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004155
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 사회적 활동 회피가 모든 우울증의 가장 흔한 추가 특징이라는 단정을 삭제. 비정형 양상과 기능장애에 제한해 설명.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

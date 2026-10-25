@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 헴 합성 장애
 ## 해설
 
 
-마라톤 훈련 중 발생한 용혈성 빈혈은 혈관내 용혈(운동 유발 용혈)로, 혈색소 감소, LDH 상승, 하이포글로빈혈, 혈뇨가 없으며 MCV는 정상이다. 따라서 혈관내 용혈이 가장 가능성 높은 원인이다.
+정상 MCV 빈혈에 LDH 증가, haptoglobin 감소와 요시험지 blood 양성/적혈구 부재가 동반되어 혈관내 용혈(C)을 시사한다. 장거리 달리기에 따른 기계적 적혈구 손상이 가능한 원인이다. 소변 적혈구가 없는 혈색소뇨 양상은 진성 혈뇨와 다르다. 철 저장량이 보존되어 철결핍을 주원인으로 보기 어렵다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000850 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 운동 관련 혈관내 용혈 C 유지. 낮은 haptoglobin을 잘못된 단백 명칭으로 부른 오류 교정하고 혈뇨와 혈색소뇨 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

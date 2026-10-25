@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 정맥 면역글로불린
 
 ## 해설
 
+지속 발열과 결막·구강·사지·림프절·발진 소견은 가와사키병에 부합한다. IVIG(D)는 통상 2 g/kg을 단회 정주하며 aspirin 및 심초음파 평가를 병행한다. 5 mg/kg은 이 적응증의 IVIG 표준 용량이 아니다.
 
-발열, 결막충혈, 입술 균열, 림프절병증, 손발 부종, 전신성 발진 및 관절염을 동반한 소아는 가와사키병이 의심된다. 관동맥류 예방을 위해 5 mg/kg IVIG를 투여한다. 따라서 가장 적절한 치료는 정맥 면역글로불린이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 가와사키 IVIG 5 mg/kg이라는 중대한 용량 오류를 2 g/kg 단회로 교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001295
+- https://choc.org/wp-content/uploads/careguidelines/Kawasaki_Disease_Care_Guideine_2024.pdf
 
 ## 출처
 

@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 메틸프레드니솔론
 
 ## 해설
 
+통증성 시력저하와 왼눈 내전 장애, 과거 반복된 감각증상은 다발성경화증과 관련된 급성 탈수초성 시신경염 및 핵간안근마비를 시사한다. 기능을 크게 저해하는 급성 악화에는 고용량 메틸프레드니솔론(D)이 적절하며 정맥 1 g/일 3–5일은 중증 악화 등에서 사용하는 요법이다. 스테로이드는 회복 속도를 높이지만 전형적 시신경염의 장기 최종 시력이 반드시 더 좋아진다는 뜻은 아니다. 글라티라머와 인터페론-베타는 장기 질환조절제로 급성 시력저하를 신속히 치료하는 대안이 아니다.
 
-급성 시신경염은 고용량 정맥 메틸프레드니솔론(1 g/일)으로 치료하면 시력 회복률이 높다. 다른 선택지는 시신경염 치료에 효과가 없다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 시신경염에서 스테로이드가 장기 시력 회복률을 높인다는 과장과 질환조절제의 역할 혼동을 수정했다. 시신경염·핵간안근마비를 동반한 탈수초성 급성 악화의 D를 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng220/chapter/Recommendations
 
 ## 출처
 

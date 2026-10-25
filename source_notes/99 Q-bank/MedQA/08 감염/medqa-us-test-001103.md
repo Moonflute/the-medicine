@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 바이러스 표면항체
 ## 해설
 
 
-간 효소 상승과 급성 간염을 의심할 때, B형 간염의 급성 감염을 확인하려면 핵심항체(HBc IgM) 검사가 가장 민감하고 특이적이다. 따라서 가장 적절한 진단검사는 바이러스 핵심항체 검사이다.
+성접촉 위험과 간효소·빌리루빈 상승에서 HBV 감염을 평가할 수 있고 선지 중 core 항체(C)가 감염 표지에 해당한다. 급성 감염을 보려면 IgM anti-HBc를 해석하며 total anti-HBc 하나로 급성 여부가 확정되지는 않는다. 실제로는 HBsAg·anti-HBs·anti-HBc와 임상 소견을 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-001103 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: anti-HBc C가 선지상 HBV 감염 표지이나 total/IgM 구별 없이 급성간염 확진 최상검사라는 해설 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/
 
 ## 출처
 

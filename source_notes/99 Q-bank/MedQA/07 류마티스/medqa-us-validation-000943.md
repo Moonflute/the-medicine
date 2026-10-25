@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,13 @@ D. 에타너셉트
 
 
 류마티스 관절염의 진행을 늦추는 1차 치료는 질병조절항류마티스제인 메토트렉세이트이다. 이는 관절 손상을 예방한다. 따라서 메토트렉세이트가 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000943 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: antiCCP 양성 대칭 다관절염에서 진행억제 초기DMARD methotrexate B가 현행EULAR2025와 일치함을 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1016/j.ard.2026.01.023
 
 ## 출처
 

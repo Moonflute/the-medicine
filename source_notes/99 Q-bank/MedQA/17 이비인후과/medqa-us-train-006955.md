@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 경피적 알레르기 검사
 
 ## 해설
 
+향수·찬 계절 같은 비특이적 자극에 반응하고 가려움이나 알레르기 병력이 없는 지속 비염은 비알레르기성/혈관운동성 비염에 합당하다. C, 비강 azelastine은 국소 H1 수용체 길항제인 항히스타민제이며 혈관운동성 비염 증상에 사용할 수 있다. 스테로이드가 아니다. 알레르기 검사를 모든 경우 먼저 시행할 필요는 없고 경구 진정성 항히스타민제나 충혈제거제보다 이 증례에 적합하다.
 
-환자는 향수와 계절성 악화가 있는 비알레르기성 비염(혈관운동성 비염)이다. 국소 스테로이드인 아젤라스틴은 비염 증상을 억제하는 2세대 항히스타민제로 가장 효과적이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 아젤라스틴을 국소 스테로이드로 오분류한 오류를 H1 항히스타민제로 교정.
+- 공식/학회 근거: https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/020114s028lbl.pdf
 
 ## 출처
 

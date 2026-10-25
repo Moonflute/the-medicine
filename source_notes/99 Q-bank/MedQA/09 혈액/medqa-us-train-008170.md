@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 알로푸리놀
 
 
 Sickle cell disease에서 혈관 폐색 위기를 예방하기 위해 골수에서 HbF를 증가시키는 하이드록시우레아가 표준 치료이다. 다른 약물은 위기 예방에 직접적인 효과가 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008170 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HbS 존재/HbA 없음의 SCD 장기 혈관폐쇄 위기 감소 hydroxyurea C를 공식 허가사항과 원문 대조 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=76957c0d-0f98-4376-bb06-eee651adc09d
 
 ## 출처
 

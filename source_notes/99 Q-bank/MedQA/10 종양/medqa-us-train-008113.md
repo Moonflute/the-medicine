@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 회장항문문합을 동반한 예방적 전대장직장절제술
 ## 해설
 
 
-MLH1·MSH2 변이를 가진 린치 증후군 환자는 자궁내막암 및 난소암 위험이 높아, 예방적 자궁적출·양측 난소절제술이 권고된다. 따라서 가장 필요할 조치는 자궁·난소 절제이다.
+MLH1/MSH2 관련 Lynch syndrome은 자궁내막암과 난소암 위험이 높아 장기계획에서 risk-reducing hysterectomy와 bilateral salpingo-oophorectomy A를 고려한다. 이는34세현재 모든 환자에게 즉시수술하라는 뜻이 아니다. 출산 완료, 유전자별위험·가족력, 폐경·동반질환과 수술로 인한 조기폐경의 위해를 함께 상의해 시기를 개별화한다. 정상 대장내시경이 이 유전위험을 없애지는 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008113 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Lynch 예방수술 A는일생중고려이나34세현재즉시일률시행아님. 출산계획·유전자·조기폐경위험에따른시기명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/reproductive_and_hormonal_considerations.pdf
 
 ## 출처
 

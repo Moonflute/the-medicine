@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,13 @@ D. 혈청 내 낮은 페리틴 수치
 ## 해설
 
 
-소아에서 급성 빈혈·황달·고LDH·저 haptoglobin은 용혈성 빈혈을 시사하며, 비장비대는 혈액세포 파괴가 증가한 경우 흔히 동반된다.
+이전 손발 종창(dactylitis), 아프리카 출신, 간접 고빌리루빈혈증과 망상적혈구증가는 겸상적혈구병을 시사한다. 어린 환자에서 복통·급성 빈혈·저혈압이 함께 있으면 급성 비장 격리 위기를 의심하며 비장비대(B)가 예상된다. 이때 혈액이 비장에 급격히 저류되어 순환혈액량이 감소한다. 원문 LDH194 IU/L를 참고범위 없이 고LDH라고 단정하지 않는다. 보상성 망상적혈구증가는 골수저형성보다 용혈/격리에 맞는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001133 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 단순 용혈성 빈혈 일반론 대신 소아 SCD의 비장 격리 가능성과 실제 검사 단서를 연결했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

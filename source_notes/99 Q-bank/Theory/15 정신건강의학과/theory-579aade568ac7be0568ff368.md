@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "초기 금단 발작은 중요한 독립 개념 유지. 발열·고혈압을 섬망에만 연결한 오답 단정을 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 발열·고혈압
 
 ## 오답 포인트
 
-- **D. 발열·고혈압:** 발열·고혈압은 주로 금단 섬망(Delirium Tremens)에서 나타난다.
+- 자율신경 항진은 섬망이 없는 금단에서도 나타날 수 있다. 시간대와 고혈압·발열만으로 섬망 여부를 단정하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 알코올 금단 증후군 (Alcohol Withdrawal Syndrome)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/알코올 금단 증후군 (Alcohol Withdrawal Syndrome).md`
-- 학습 목표: 원문 핵심: - 초기 증상: 금주 5~10시간 후 불안, 두통, 위장관 불편감, 불면, 진전(tremor) 발생. - 진행 증상: 알코올 환각(환시, 환청), 금단 발작(금주 8~48시간 내). - 금단 섬망(Delirium Tremens): 금주 3~8일 후 발생 가능. 발열, 빈맥, 심한 진전, 초조, 발한, 지남력 상실, 고혈압 동반. - CC: 갈망(craving), 내성(tolerance), 금단(withdrawal), 조절 실패. - P/E: 활력징후 이상(빈맥, 고혈압), 진전, 발한, 의식 상태 변화.
+- 학습 목표: 알코올 금단의 초기 발작 위험
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 초기 금단 발작은 중요한 독립 개념 유지. 발열·고혈압을 섬망에만 연결한 오답 단정을 제거.

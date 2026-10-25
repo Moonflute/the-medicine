@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 충수염
 
 ## 해설
 
+통증의 이동, 발열·백혈구 증가와 국소 압통은 충수염(D)을 시사한다. 임신 중 커진 자궁에 따라 충수 위치가 위로 이동해 상복부 또는 우상복부 통증이 나타날 수 있다. 충수염은 중요한 비산과적 외과 질환이지 임신 중 모든 복통의 가장 흔한 원인이라는 뜻은 아니다. 담관염 등을 구별하려면 간담도 검사와 임상 평가가 필요하다.
 
-임신 시 충수는 위쪽으로 이동해 오른쪽 상복부 통증을 일으킬 수 있다. 발열, 백혈구 증가, 국소 압통은 급성 충수염의 전형적인 징후이며, 임신 중에도 가장 흔한 복통 원인이다. 따라서 가장 가능성 높은 진단은 충수염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 충수염을임신중모든복통의가장흔한원인이라고한과장삭제. 이동통/국소압통·발열로D.
+
 
 ## 출처
 

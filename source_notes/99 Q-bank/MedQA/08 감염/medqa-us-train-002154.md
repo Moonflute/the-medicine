@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 승모판막 성형술
 ## 해설
 
 
-급성 류마티스열은 연쇄상구균 감염 후 2~3주에 관절통, 발진, 심장소리 변화가 나타난다. 1차 치료는 베타-락탐계 항생제인 페니실린이다. 따라서 페니실린 치료가 정답이다.
+선행 인두염 뒤 관절증상·피하결절·발진·심잡음은 급성 류마티스열과 심장 침범을 시사한다. 선행 연쇄상구균 박멸을 위한 penicillin A와 이후 이차예방을 계획한다. NSAID는 관절통 등 염증 증상 완화에 사용할 수 있으나 항균 예방을 대신하지 않는다. 심초음파로 판막 및 심장 침범을 평가하며 이 자료만으로 즉시 판막 수술을 선택하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002154 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 류마티스열의 균 박멸 및 이차예방을 위한 penicillin A 유지; NSAID·심장평가를 대체하는 유일 치료라는 해석 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://professional.heart.org/en/science-news/-/media/PHD-Files-2/Science-News/Clinical-Update-Slides/2021-AHA-Clinical-Update-Valvular-Heart-Disease-PDF.pdf
 
 ## 출처
 

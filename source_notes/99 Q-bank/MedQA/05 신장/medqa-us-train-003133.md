@@ -21,17 +21,19 @@ question_type: risk_factor
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 췌장 신경내분비 종양
 
 ## 해설
 
+양측 옆구리 종괴·고혈압·혈뇨·신기능 저하와 가족력은 ADPKD를 시사한다. 선택지 중 승모판 탈출 C가 알려진 장외 연관 소견이다. 뇌동맥류도 ADPKD의 중요한 합병증이지만 이 문항의 선택지에 없으므로 C가 아니라며 설명할 수 없다.
 
-양측 신장 종괴와 고혈압, 신기능 저하가 동반된 경우, 다낭성 신장 질환(ADPKD)에서 뇌동맥류 발생 위험이 가장 높다. 신장 낭종과 연관된 혈관벽 약화가 뇌동맥류 형성을 촉진한다. 따라서 가장 높은 위험 합병증은 승모판 탈출이 아닌 뇌동맥류이며, 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ADPKD 관련 합병증 C를 두고 해설이 선택지에 없는 뇌동맥류로 바꾼 오연결 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

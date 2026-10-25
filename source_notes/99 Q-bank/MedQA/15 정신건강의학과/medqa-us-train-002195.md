@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,10 +50,15 @@ D. 히스타민 작용제 효과 감소
 
 ## 해설
 
-
-플루페나진은 D2 수용체를 강하게 차단해 장기간 사용 시 섬망성 운동이 발생한다. 리스페리돈은 D2 차단이 약하고 5‑HT2A 차단이 있어 이러한 부작용을 감소시킨다. 따라서 도파민 차단 감소가 증상 호전을 설명한다.
+입술 오므리기와 춤추는 듯한 팔다리 불수의운동은 도파민 수용체 차단제 노출 후 발생한 지연성 운동이상증을 시사하며 섬망이 아니다. 원문은 플루페나진에서 리스페리돈으로 교체 후 호전된 사례를 제시해 상대적으로 감소한 도파민 길항 효과를 정답으로 삼는다. 다만 리스페리돈도 D2 차단과 지연성 운동이상증 위험이 있고, 모든 용량에서 D2 차단이 약하거나 교체만으로 반드시 호전되는 것은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002195
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. '섬망성 운동'을 지연성 운동이상증으로 교정. 약물 교체 후 호전을 모든 리스페리돈 용량의 약한 D2 차단·치료 보장으로 일반화하지 않음.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

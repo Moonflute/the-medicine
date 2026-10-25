@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 칼륨 저류 증가
 
 ## 해설
 
+심부전의 유효순환량 감소는 RAAS를 활성화한다. AngII는 특히 수출세동맥의 긴장을 높여 A에 해당한다. 이는 큰 신동맥 자체를 말하는 것이 아니다. Aldosterone은 K배설을 촉진하며 이완기능장애에서 심실 순응도는 감소한다.
 
-고혈압성 심부전에서 레닌-안지오텐신-알도스테론계가 활성화되어 신장 수출세동맥(신동맥) 수축이 증가한다. 이는 체액 저류와 혈압 상승을 초래한다. 따라서 신장 수출세동맥 긴장도 증가가 예상된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: AngII 효과를 신동맥 전체가 아니라 수출세동맥 긴장 A로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

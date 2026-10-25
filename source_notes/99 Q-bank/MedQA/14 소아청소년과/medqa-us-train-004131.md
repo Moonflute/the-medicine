@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 인터페론-γ 치료
 
 ## 해설
 
+B세포 결핍·보존된 T세포와 재발 세균감염은 X연관 무감마글로불린혈증을 시사한다. 근본 면역결핍의 보충 치료는 IVIG(B)이다. 현재 폐렴과 저혈압의 항생제·순환 지지 등 급성 처치는 별도로 즉시 병행해야 한다.
 
-B세포 결핍(무감마글로불린혈증) 환자는 항체 매개 감염에 취약해 정맥 면역글로불린(IVIG)으로 수동 면역을 제공한다. 다른 선택지는 해당 면역 결핍에 효과가 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 면역글로불린 보충과 현 폐렴·저혈압의 응급 치료를 분리하여 명확화.
+- https://www.fda.gov/media/83304/download
 
 ## 출처
 

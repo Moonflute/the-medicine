@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -40,7 +42,7 @@ related_drug_slugs:
 
 ## 문제
 
-62세 남성이 의식저하와 발열로 응급실에 왔다. 대장암으로 종양 절제수술을 받은 병력이 있다. 혈압 130/80 mm Hg, 맥박 102/min, 호흡 20/min, 체온 38.8°C (101.8°F)이며 목 경직, 혼란과 눈부심이 있으나 국소 신경결손은 없다. 두부 CT는 정상이고 요추천자 후 ceftriaxone과 vancomycin을 시작했다. 다음 중 추가해야 할 항균제는 무엇인가?
+62세 남성이 노인요양시설에서 의식저하와 발열이 발견되어 응급실에 왔다. 대장암으로 종양 절제수술을 받은 병력이 있다. 혈압 130/80 mm Hg, 맥박 102/min, 호흡 20/min, 체온 38.8°C (101.8°F)이며 발진은 없고 목 경직, 혼란과 눈부심이 있으나 국소 신경결손은 없다. 두부 CT는 정상이고 요추천자 후 ceftriaxone과 vancomycin을 시작했다. 다음 중 추가해야 할 항균제는 무엇인가?
 
 ## 선택지
 
@@ -52,7 +54,14 @@ D. Meropenem
 ## 해설
 
 
-고칼슘혈증·고PTH와 함께 갑상선 암 위험이 증가하는 질환은 MEN 2A이며, 이때 가장 흔한 갑상선 암은 수질암이다. 따라서 추가해야 할 항균제가 아니라, 잠재적 합병증을 나타내는 갑상선 조직은 수질암이다. 다른 갑상선 암은 MEN 2A와 연관이 적다.
+62세 환자의 발열, 목경직, 의식변화와 눈부심은 급성 세균성 수막염을 의심하게 한다. 60세 초과는 Listeria monocytogenes 위험요인으로, ceftriaxone+vancomycin에 ampicillin을 추가하는 A가 적절하다. Listeria는 cephalosporin으로 충분히 치료되지 않는다. CSF·혈액배양 결과에 따라 치료를 조정한다. 기존 MEN2A와 갑상선 수질암 설명은 이 사례와 무관한 오연결이었다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001945 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수막염 질문에 MEN2A/수질암 해설이 연결된 명백한 오연결을 Listeria 경험적 치료로 교체.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

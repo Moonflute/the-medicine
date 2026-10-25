@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 1,700달러
 
 ## 해설
 
+올해 이미 낸 350+450=800달러를 연간 공제액에 적용하면 남은 공제액은 2,000−800=1,200달러이다. 이번 청구액 2,500달러에서 이를 빼면 1,300달러가 남고, 문제에 정한 순서대로 공동부담금 300달러를 낸 뒤 남은 1,000달러에 20% 공동보험인 200달러를 부담한다. 이번 방문의 본인 부담액은 1,200+300+200=1,700달러(D)이다. 이는 선지에 가장 가까운 값을 고른 것이 아니라 제시된 조건에 따른 정확한 계산이다.
 
-보험 공제액 2,000달러를 초과했으므로 남은 500달러는 본인 부담이며, 이후 20% 공동보험이 적용돼 500×0.20=100달러가 추가된다. 총 본인 부담은 500+100=600달러이지만, 이미 800달러(350+450) 지불했으므로 추가로 내야 할 금액은 1,700달러‑800달러=900달러가 아니라 질문의 선택지 중 가장 가까운 1,700달러가 정답이다. (문제 의도에 따라 선택지 D가 정답)
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 주어진 보험의 공제액→공동부담금→공동보험 적용 순서로 정확히 1,700달러가 계산된다. 가장 가까운 선지 선택이라는 잘못된 해설을 교체한다.
 
 ## 출처
 

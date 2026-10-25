@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 외측 대퇴피신경 손상
 
 ## 해설
 
+발등굽힘·외번 약화와 발등/전외측 하퇴 감각저하는 총비골신경 압박(C)에 맞는다. 분만 중 장시간 자세, 다리 지지대나 외측 무릎 압박으로 비골두 부위 신경이 손상될 수 있다. 이를 총비골신경이 골반에서 눌린다고 설명해서는 안 된다. 외측대퇴피신경은 대퇴 외측의 감각신경이므로 족하수를 만들지 않는다.
 
-출산 후 오른쪽 발등과 발목 외번, 발등 굴곡 약화, 외측 종아리 감각 저하는 총비골신경(외측 종아리 신경) 압박에 해당한다. 이는 산후 장시간 자세와 골반 압박으로 발생한다. 다른 선택지는 마취나 다른 신경 손상과 일치하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 총비골신경 C 유지. 비골두 부위 자세성 압박과 골반 내 신경총 압박을 구별.
 
 ## 출처
 

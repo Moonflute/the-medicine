@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 정맥 코르티코스테로이드 투여
 
 ## 해설
 
+발열, 연하통, 침 흘림, 목의 신전 제한과 후인두벽 팽윤은 후인두농양을 시사한다. 천명과 보조 호흡근 사용은 상기도 폐쇄가 진행 중임을 보여 주므로 보기 중 기도 확보(A)가 우선이다. 소아 기도에 숙련된 마취과·이비인후과 팀을 즉시 호출하여 조절된 환경에서 기도를 확보하며, 불필요하게 인두를 자극하거나 검사 때문에 이를 지연하지 않는다. 이후 정맥 항생제와 농양 배액 필요성을 평가한다. 이 사례를 후두개염으로 단정하는 해설은 적절하지 않다.
 
-급성 후두개염은 급성 인두·후두 부종으로 기도 폐쇄 위험이 크며, 호흡곤란과 흡기성 협착음이 나타난다. 가장 시급한 조치는 기도 확보를 위한 기관내 삽관이다. 따라서 정답은 기관내 삽관이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 인두 뒤쪽 팽윤과 경부 강직은 후인두농양을 시사한다. 후두개염으로 잘못 연결한 설명을 교체하며 심한 상기도 폐쇄에서 기도 확보 우선이라는 A를 유지한다.
+- 공식/학회 근거: https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/
 
 ## 출처
 

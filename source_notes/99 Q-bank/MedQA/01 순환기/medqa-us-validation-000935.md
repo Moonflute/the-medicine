@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 삼첨판 심내막염
 
 ## 해설
 
+뚜렷한 x·y 하강과 우심부전은 수축성 심낭 생리를 시사하며, 제시된 배경과 선택지에서는 결핵(B)이 대표적인 원인이다. 기이맥이 동반되면 삼출-수축성 질환 등도 평가해야 한다. 이는 제한성 심근병증과 같은 말이 아니며, 실제 결핵 여부는 검사로 확인한다. 누락된 청진 음원을 임의로 판독하지 않았다.
 
-결핵성 심낭염은 결핵 감염에 의해 심낭에 염증이 생겨 x·y 하강이 뚜렷한 제한성 심낭염을 일으킨다. 따라서 결핵이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 제한성 심낭염 오역을 수축성 심낭질환으로 교정하고 지리적 배경만으로 결핵 확진하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

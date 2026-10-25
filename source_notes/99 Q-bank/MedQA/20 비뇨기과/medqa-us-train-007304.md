@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 치질
 
 ## 해설
 
+오래 조절되지 않은 당뇨 신경병증은 방광 충만 감각 저하와 배뇨근 수축력 저하를 일으켜 잔뇨·요폐와 범람성 요실금 B를 유발할 수 있다. 이는 방광이 과도하게 수축하는 절박성 요실금의 기전과 다르다. 당뇨 환자 모두에서 한 가지 유형만 생기는 것은 아니나 선지 중 관련 위험이 가장 높은 것은 B이다.
 
-당뇨병성 신경병증은 방광 신경을 손상시켜 방광 과민과 요실금(범람성 요실금)을 유발한다. 고혈당이 지속될수록 위험이 증가한다. 따라서 범람성 요실금 위험이 가장 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 당뇨 신경병증에 의한 범람성 요실금을 방광 과민으로 잘못 설명한 기전 교정.
 
 ## 출처
 

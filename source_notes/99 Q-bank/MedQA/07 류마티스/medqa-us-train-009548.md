@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 측두하악관절 장애
 ## 해설
 
 
-고령 여성에서 급성 두통과 전신 증상, ESR 상승, 정상 CK와 함께 시력 저하 없이 두통이 진행되는 경우 거대세포동맥염이 가장 흔한 원인이다. 만성 경막하혈종은 신경학적 결손을, 편두통은 통증 양상이 다르며, 턱관절 장애는 국소적 통증만을 유발한다. 따라서 정답은 B이다.
+76세의 새로운 두통과 씹을 때 턱 통증, 전신증상·높은 ESR 및 PMR형 통증은 GCA B를 가장 강하게 시사한다. 기존 낙상 때문에 경막하혈종도 임상 감별이지만 턱 파행·염증성 소견을 더 잘 설명하는 것은 GCA이다. 모든 고령 두통의 가장 흔한 원인이 GCA라는 뜻은 아니다. 원문의 CK38 mg/dL는 효소활성 단위가 아니므로 이 수치를 정상 CK가 확정된 것처럼 사용하지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009548 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 새두통의 모든고령 최다원인이라 일반화한 설명을 턱파행·PMR동반 GCA로 교정; 원문CK단위불일치 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

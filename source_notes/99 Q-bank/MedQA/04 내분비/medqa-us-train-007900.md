@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 감수분열 비분리
 
 
 고환이 작고 단단하며 고환성 저하, 고 FSH/LH는 원발성 고환 기능 부전(감수분열 비분리로 47,XXY Klinefelter 증후군)을 의미한다. 비정상적인 성염색체 수는 고환 발달을 방해해 고환 위축과 고 FSH/LH를 초래한다. 따라서 정답은 감수분열 비분리이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007900 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 작고 단단한 고환·여성형유방·고FSH/LH가 Klinefelter의 감수분열 비분리 D에 부합. steroid 사용의 gonadotropin 억제와 구별됨.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

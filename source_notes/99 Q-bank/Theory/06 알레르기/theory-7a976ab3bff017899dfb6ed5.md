@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "음식알레르기 전체의 시간으로 일반화한 질문을 흔한 IgE 즉시형으로 한정."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrflnn0pxtty2q0k2nlcwnnjpd0wtewrqt3lmblnec2xzenjvswpycgjucxvmqwdlrvp2yjjrz1fxehnawepuzvnrdwjxuxxkaxnlyxnlltaylxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -16,36 +21,43 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-음식 알레르기 증상이 일반적으로 나타나는 시간은?
+일반적인 IgE 매개 급성 음식알레르기의 증상 발현 시간은?
 
 ## 선택지
 
-A. 섭취 후 수분~2시간 이내
-B. 섭취 후 24~48시간
-C. 섭취 후 3~8시간
-D. 섭취 후 1주
+A. 섭취 후 보통 수분~2시간 이내
+B. 반드시 24~48시간 후
+C. 반드시 1주 후
+D. 섭취 시점과 전혀 무관
 
 ## 해설
 
-IgE 매개 급성 알레르기는 섭취 후 수분에서 2시간 이내에 두드러기·혈관부종·아나필락시스가 발생한다.
+IgE 매개 급성 반응은 보통 수분~2시간 이내 생긴다. 모든 음식알레르기가 같은 시간 양상인 것은 아니며 지연 발현하는 예외도 있다.
 
 ## 오답 포인트
 
-- **C. 섭취 후 3~8시간:** 알파-갈 증후군은 3~8시간에 나타나지만 일반적인 급성 반응은 수분~2시간이다.
+- 24~48시간·1주가 필수: 일반적인 즉시형 반응의 시간 양상이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 음식 알레르기 (Food Allergy)
 - 원본 경로: `source_notes/02 Diseases/06 알레르기/음식 알레르기 (Food Allergy).md`
-- 학습 목표: 원문 핵심: - 발병: 섭취 후 수 분~2시간 이내 급격히 발생(알파-갈 증후군은 3~8시간 후 발생 가능). - 전형적 증상: - 피부: 급성 두드러기, 혈관부종, 소양감. - 위장관계: 오심, 구토, 복통, 설사. - 호흡기: 쌕쌕거림, 호흡곤란. - 전신: 아나필락시스. - 꽃가루-음식 알레르기(PFS): 구강 알레르기 증후군(OAS). 원인 꽃가루와 유사한 단백질을 가진 생과일/채소 섭취 시 구인두 소양감/부종 발생. 가열 시 단백질 변성으로 증상 완화 가능. - 음식의존 운동유발 아나필락시스(FDEIA): 특정 음식 섭취 후 운동 시에…
+- 학습 목표: 일반적인 IgE 매개 음식알레르기의 신속한 발현과 지연 예외를 구별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 음식알레르기 전체의 시간으로 일반화한 질문을 흔한 IgE 즉시형으로 한정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4241964/
+- https://medlineplus.gov/foodallergy.html

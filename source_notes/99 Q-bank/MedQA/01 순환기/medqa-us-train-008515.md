@@ -20,11 +20,11 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRXRoYW1idXRvbC5tZA
   - ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k
   - ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 심장이식
 
 ## 해설
 
+쿠스마울 징후, 심낭 석회화, 호흡에 따른 유입 변화와 dip-and-plateau 파형은 수축성 심낭염을 지지한다. 지속되는 증상성 수축에 대해 B의 심낭절제술을 평가하면서 결핵 치료도 계속한다. 가역적 염증성 수축 여부와 수술 위험은 따로 확인하며, 모든 결핵성 심낭염에 심낭절제술이 필요한 것은 아니다.
 
-결핵성 심낭염이 진행되어 수축성 심낭염이 되면 흡기 시 중심정맥압 상승, 폐음 감소, ‘dip‑and‑plateau’ 혈류 패턴이 나타난다. 근본적인 원인인 석회화된 심낭을 제거해야 하므로 치료는 심낭절제술이다. 다른 선택지는 원인 치료가 아니다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 석회화·명시적 수축 생리의 B를 지지하되 모든 결핵성 심낭염에 즉시 절제가 필요한 것처럼 설명하지 않음.
+- https://academic.oup.com/eurheartj/article/46/40/3952/8234483
 
 ## 출처
 

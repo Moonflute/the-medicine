@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 편평세포암
 ## 해설
 
 
-흡연자 고령 여성에서 고칼슘혈증을 동반한 저칼륨·저마그네슘 증상은 폐편평세포암이 PTHrP를 분비해 발생한다. 다른 암 유형은 이러한 부갑상선 호르몬 관련 증상을 덜 일으킨다. 따라서 정답은 편평세포암(D)이다.
+갈증·다뇨·탈수·의식 변화와 짧은 QT는 고칼슘혈증을 시사하며, 흡연자의 폐 종양과 연결하면 PTHrP 분비성 편평상피암 D가 전형적 연관이다. 실제 칼슘·PTH/PTHrP 등의 검사로 확인해야 한다. 제공되지 않은 CT 이미지에서 종괴 형태를 관찰했다고 할 수 없고 저칼륨혈증이나 저마그네슘혈증도 본문에 없는 사실이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000143 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고칼슘혈증의 임상·짧은 QT에서 PTHrP 관련 편평상피암 D 추론 유지; 제시되지 않은 저칼륨·저마그네슘과 CT 소견 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

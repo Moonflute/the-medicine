@@ -19,13 +19,15 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 상부위장관 내시경
 
 ## 해설
 
+폐렴과 큰 흉수가 있어 B의 정맥 항생제와 흉강천자가 적합하다. 천자로 pH, 배양과 육안 소견 등을 확인하여 단순 흉수, 복합성 흉수와 농흉을 구별한다. 흉수가 모두 고름인 것은 아니며 복합 감염성 흉수나 농흉이면 흉관 배액 등 추가 처치가 필요할 수 있다.
 
-좌측 하엽에 타진 둔탁음·촉각진동 증가와 대량 폐렴성 음영·광범위 흉수는 복합성 흉수성 폐렴을 시사한다. 복합성 흉수는 세균성 감염과 함께 흉강에 고름이 축적되므로, 항생제 투여와 동시에 흉강천자로 고름을 배액해야 한다. 따라서 정맥 항생제와 흉강천자가 초기 치료에 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 폐렴동반 흉수를 모두 농흉으로 단정하고 천자=완전 배액으로 설명한 오류를 교정.
+- https://www.brit-thoracic.org.uk/clinical-resources/guidelines/pleural-disease-full-guideline/
 
 ## 출처
 

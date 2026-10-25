@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -39,13 +41,16 @@ explanation_prompt_version: explanation-ko-v1
 
 A. 맥압 증가
 B. 3시간 동안 소변량 25 mL
-C. 글래스고 혼수 척수 8점
+C. 글래스고 혼수척도 8점
 D. 염기 결핍 1 mmol/L
 
 ## 해설
 
+3시간 소변량25 mL(B)는 성인에서 현저한 핍뇨로 신장관류가 충분하지 않음을 시사한다. 배뇨관 폐쇄나 기존 신장질환 등도 확인하되 출혈성 쇼크 소생 후에는 지속 저관류의 중요한 단서다. 의식상태와 염기결핍·젖산도 소생 평가에 쓰이므로 다른 지표가 쇼크와 무관한 것은 아니다. 다만 GCS는 두부손상·진정 등에도 영향을 받고, 염기결핍1 mmol/L는 중증 지속 대사성 산증을 나타내지 않아 이 선지 비교에서는 핍뇨가 가장 직접적이다.
 
-3시간 동안 소변량이 25 mL인 저출량은 저량성 쇼크(출혈성 쇼크)에서 기대되는 부적절한 신장 관류를 나타낸다. 다른 선택지는 쇼크 관리와 무관하거나 잘못된 지표이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 명백한 핍뇨 B를 유지하되 의식·염기결핍 등 다른 선지가 쇼크와 무관하다는 오류를 수정하고 혼수척수 오기를 교정했다.
 
 ## 출처
 

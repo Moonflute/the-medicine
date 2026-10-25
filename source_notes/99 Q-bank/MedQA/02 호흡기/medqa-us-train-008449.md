@@ -24,7 +24,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -35,6 +35,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -65,6 +67,13 @@ D. 정맥 세페핌과 경구 레보플록사신으로 입원 치료
 
 
 경증·중등도 폐렴 환자이며 외래 치료가 가능한 경우, 지역사회 획득 폐렴에 대한 1차 선택 약물은 경구 독시사이클린이다. 입원·정맥 항생제는 필요하지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 기저 중증질환·저산소증 없이 안정적인 외래 CAP에서 경구 독시사이클린 A가 적합하며 과거 4개월 전 항생제만으로 입원할 이유는 없음.
+- https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults
 
 ## 출처
 

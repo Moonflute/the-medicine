@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 비스포스포네이트 치료
 
 ## 해설
 
+연골무형성증의 대두·사지 단축에 근력저하·심한 반사항진이 있어 두개경추 접합부 협착과 수두증을 신속히 평가해야 한다. 보기 중 두부 CT(C)는 두개골·대후두공 골성 구조와 뇌실 평가에 도움이 되지만 신경 압박 자체는 MRI가 더 잘 평가하므로 전문팀의 MRI 및 신경외과 평가가 필요하다. 단순 저신장 치료부터 시작하지 않는다.
 
-단신형 저골증 환자는 척추관 협착과 뇌실 확대 위험이 있어 두부 CT로 수두증 여부를 확인해야 한다. 성장호르몬·레보티록신·비스포스포네이트는 진단 단계가 아니라 치료 옵션이다. 따라서 두부 CT가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 질환명 오역과 뇌실만 보는 접근을 교정. CT의 뼈 평가와 압박 의심 시 MRI 필요성을 명시.
+- https://publications.aap.org/pediatrics/article/145/6/e20201010/76908/Health-Supervision-for-People-With-Achondroplasia
 
 ## 출처
 

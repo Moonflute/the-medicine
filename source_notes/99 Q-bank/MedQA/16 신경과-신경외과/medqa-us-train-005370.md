@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 자기공명영상
 
 ## 해설
 
+내리막길·서기에서 악화되고 굴곡 자세의 실내 자전거에서 완화되는 하지통은 신경인성 파행, 특히 요추 척추관협착증을 시사한다. 지속 증상의 원인을 평가하고 치료계획을 정할 때 선지 중 요추 MRI(D)가 신경근·마미 주변 협착을 확인하는 데 적절하다. 성인 하부 요추는 주로 척수 자체가 아니라 신경근 다발이 지나며 영상협착은 무증상에서도 흔해 임상과 일치해야 한다. 모든 초기 요통에서 MRI가 필요한 것은 아니고, CT 척수조영은 MRI가 불가능한 경우 등의 대안이다.
 
-증상은 자세 변화에 따라 악화되는 요추관 협착증을 시사한다. 협착증을 확진하려면 신경근 및 척수 압박을 직접 시각화할 수 있는 MRI가 가장 민감하고 특이한 검사이다. 따라서 진단 확정을 위한 최적 검사는 MRI이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 요추협착증 MRI가 척수 압박을 직접 확진한다는 과도한 표현을 신경근/마미 공간과 임상-영상 일치로 교정했다. 검사 비교에서 D를 유지한다.
+- 공식/학회 근거: https://acsearch.acr.org/docs/69483/Narrative/
 
 ## 출처
 

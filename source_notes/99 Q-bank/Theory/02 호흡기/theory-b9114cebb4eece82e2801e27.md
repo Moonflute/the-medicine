@@ -12,43 +12,58 @@ target_type: drug
 target_slug: "ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k
+curation_status: "revised"
+curation_reason: "다른 약물로 잘못 연결된 안전성 문제를 테오필린 핵심 독성으로 교정"
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 다른 약물로 잘못 연결된 안전성 문제를 테오필린 핵심 독성으로 교정"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-Montelukast 복용 중 가장 주의해야 할 부작용은?
+테오필린 치료에서 혈중농도와 약물 상호작용을 특히 주의해야 하는 이유는?
 
 ## 선택지
 
-A. 신경정신과적 이상 반응(우울, 자살 사고 등)
-B. 간독성
-C. 심부전 악화
-D. 저혈당
+A. 치료 범위가 좁고 농도 상승 시 심각한 부정맥·발작이 생길 수 있기 때문이다
+B. 복용량과 관계없이 모든 환자에서 같은 혈중농도가 유지되기 때문이다
+C. 금연하면 테오필린 청소율이 반드시 증가해 독성 위험이 없어지기 때문이다
+D. 부작용이 생겨도 혈중농도와는 무관하므로 증량해야 하기 때문이다
 
 ## 해설
 
-Montelukast는 신경정신과적 이상 반응(불안, 공격성, 우울, 수면 장애, 자살 사고 등)이 보고되어 주의가 필요합니다.
+테오필린은 치료 범위가 좁고 환자별 청소율 차이가 커서 혈중농도와 부작용을 함께 확인해야 한다. 농도 상승은 구토, 부정맥, 발작 등으로 이어질 수 있다. 대사를 억제하는 약물, 간기능 저하, 심부전, 흡연 중단 등은 농도를 높일 수 있어 투여량과 모니터링을 재평가한다. 호흡기 증상이 악화되었다는 이유만으로 무조건 증량하지 않는다.
 
 ## 오답 포인트
 
-- **B. 간독성:** 간독성은 주된 부작용이 아니며, 주의 대상이 아닙니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: Theophylline
 - 원본 경로: `source_notes/04 Pharmacology/02 호흡기/Theophylline.md`
-- 학습 목표: 원문 핵심: - 다음 질환 환자는 주의가 필요합니다: 활동성 소화성 궤양, 발작 질환, 부정맥(서맥 제외). - 테오필린 청소율을 감소시키는 요인(고령, 간질환, 심부전, 특정 약물 병용 등)이 있는 경우 독성 위험이 높으므로 주의가 필요합니다. - 흡연 중단 시 테오필린 대사가 변할 수 있으므로 모니터링이 필요합니다. - 급성 증상 악화 시 용량을 급격히 증량하지 않습니다. - 혈중 테오필린 농도(치료 범위 10-20 mcg/mL)를 유지합니다. - 급성기 환자는 24시간 간격, 안정기 환자는 6개월~1년 간격으로 측정 권장.
+- 학습 목표: 테오필린은 치료 범위가 좁아 상호작용·금연 등에 따른 농도 변화와 부정맥·발작 독성을 주의한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 다른 약물로 잘못 연결된 안전성 문제를 테오필린 핵심 독성으로 교정
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa80b9f4-8a5d-3e14-e053-2a95a90a8aab

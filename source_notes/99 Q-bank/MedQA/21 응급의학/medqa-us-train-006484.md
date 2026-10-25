@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 심초음파
 
 ## 해설
 
+반복되는 발한, 떨림, 두근거림과 쇠약은 저혈당 때 나타날 수 있으므로 증상이 있을 때 손끝 혈당을 신속하게 측정하는 것(C)이 우선이다. 저혈당이 확인되면 즉시 교정하고 원인을 평가한다. 간호사라는 직업만으로 고의적 약물 사용을 단정할 수는 없다. 혈당이 정상이거나 증상이 지속된다면 갑상샘 질환, 부정맥 등 다른 원인에 대한 평가도 필요하다.
 
-저혈당은 교감신경 과다활성으로 심계항진, 발한, 손발 저림을 일으킨다. 혈당 측정이 가장 직접적인 확인 방법이며, 다른 검사는 필요하지 않다. 따라서 C가 옳다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 발한·두근거림·쇠약에서 즉시 교정 가능한 저혈당을 확인하는 C를 유지하되 다른 감별 검사를 영구적으로 불필요하다고 단정하지 않는다.
+- 공식/학회 근거: https://aci.health.nsw.gov.au/__data/assets/pdf_file/0007/196639/ACI-NSW-Adult-subcutaneous-insulin-prescribing-chart-user-guide.pdf
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 혈청 디하이드로에피안드로스테론 수치
 
 ## 해설
 
+7세의 진행한 유방 발달·출혈과 골연령 증가는 조기 사춘기 평가가 필요하다. 기저 LH가 낮더라도 중추성 성조숙증을 배제하지 못하므로, 임상 의심이 강한 이 경우 GnRH 자극검사(C)가 적절하다. 기저 LH만으로 충분히 확인되는 환자까지 모두 자극검사를 받아야 한다는 뜻은 아니다.
 
-조기 사춘증이 의심되며, 골연령이 진전되고 LH가 낮은 경우 GnRH 자극검사로 중추성 사춘증 여부를 확인한다. 이는 진단에 필수적인 검사이며, 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 낮은 기저 LH와 빠른 임상 진행에서 자극검사를 선택하는 이유를 2026 지침으로 확인. 모든 성조숙증의 필수검사라는 과잉 일반화를 교정.
+- https://www.endocrine.org/clinical-practice-guidelines/central-precocious-puberty
 
 ## 출처
 

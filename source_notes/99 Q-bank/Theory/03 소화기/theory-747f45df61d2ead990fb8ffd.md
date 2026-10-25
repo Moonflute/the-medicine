@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "위암의 내시경 생검 확진과 병기 영상의 역할 구분은 중요한 독립 개념으로 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 혈청 CEA 측정
 
 ## 오답 포인트
 
-- **B. 흉복부 CT:** CT는 병기 설정에 유용하지만, 최초 진단은 내시경이 필요하다.
+- **흉복부 CT:** CT는 병기 설정에 유용하지만, 최초 진단은 내시경이 필요하다.
 
 ## 출처
 
 - 내부 학습 노트: 위암 (Gastric Cancer)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/위암 (Gastric Cancer).md`
-- 학습 목표: 원문 핵심: - **진단**: 상부위장관 내시경(EGD) 및 조직 생검(다발성 생검 시 진단율 향상). - **병기 설정**: - 영상 검사: 흉부/복부/골반 CT, PET-CT(18FDG 사용). - 내시경초음파(EUS): 종양 침윤 깊이(T) 및 주위 림프절(N) 평가. - **기타 검사**: - 종양표지자: CEA, CA 19-9 상승. - 분자생물학적 평가: HER2, PD-L1, MSI/dMMR 발현 여부 확인. - 복수 세포진 검사(cytology): 양성 시 4기(Stage IV) 진단.
+- 학습 목표: 위암의 내시경·조직학적 확진
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 위암의 내시경 생검 확진과 병기 영상의 역할 구분은 중요한 독립 개념으로 유지.
+- 검수 범위: curriculum-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

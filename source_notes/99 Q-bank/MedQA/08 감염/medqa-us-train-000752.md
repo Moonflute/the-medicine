@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,16 @@ D. 건 파열
 ## 해설
 
 
-설사와 유당 불내증이 동반된 경우 Giardia lamblia 감염 치료에 메트로니다졸을 사용하면 디설피람 유사 반응이 나타날 수 있다. 메트로니다졸은 알코올 탈감소효소를 억제해 디설피람과 유사한 증상을 유발한다. 따라서 치료 부작용으로 디설피람 유사 반응이 옳다.
+장기간 악취성 설사·가스·유제품 악화와 야외활동력은 Giardia 감염을 시사한다. Metronidazole 같은 nitroimidazole 치료와 음주 시 디설피람 유사 반응(A)은 전통적 시험 연관이며 미국 허가문구는 복용 중과 종료 후 최소3일간 alcohol/propylene glycol을 피하도록 경고한다. 다만 CDC는 실제 상호작용의 설득력 있는 근거가 부족하고 metronidazole이 acetaldehyde dehydrogenase를 억제하지 않는다고 설명한다. 따라서 기존 해설처럼 특정 효소 억제가 확립되었다고 가르치지 않는다. 임상 복약지도에서는 해당 제품 허가사항을 따른다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000752 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Metronidazole의 aldehyde dehydrogenase 억제를 확립된 기전으로 단정한 오류를 고치고 허가문구와 임상근거를 구분했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbee69e8-029c-49d2-89cd-f504b8e0ac28
+- https://www.cdc.gov/std/treatment-guidelines/bv.htm
+- https://www.cdc.gov/giardia/about/
 
 ## 출처
 

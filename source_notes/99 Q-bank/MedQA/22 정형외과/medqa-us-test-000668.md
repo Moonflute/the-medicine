@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 외고정술
 
 ## 해설
 
+압궤 후 심한 부종·통증과 감각·운동 저하, 압력 상승은 급성 구획증후군을 강하게 시사하며 즉각적인 수술적 감압(A)이 필요하다. 차갑고 창백하며 맥박이 없는 사지는 동반 동맥손상도 긴급 평가·처치해야 한다. 구획압 35 mmHg만으로 모든 환자에서 확진하는 것은 아니며 임상 소견과 관류압 차이도 함께 해석한다. 검사를 위해 명백한 허혈의 수술 처치를 지연해서는 안 된다.
 
-다리 부종, 감각 소실, 맥박 소실, 구획압 35 mmHg는 급성 구획증후군을 의미한다. 조직 괴사를 방지하기 위해 즉시 응급 근막절개술이 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 임박한 허혈·구획증후군의 응급 근막절개 A를 유지하되 절대압 하나만으로 진단하고 동반 동맥손상을 누락한 해설을 보완한다.
+- 공식/학회 근거: https://www.boa.ac.uk/resource/boast-10-pdf.html
 
 ## 출처
 

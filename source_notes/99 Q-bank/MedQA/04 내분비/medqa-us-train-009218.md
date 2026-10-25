@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. TSH 감소, T4 증가, T3 감소
 ## 해설
 
 
-불면, 설사, 불안, 체중 감소, 안구돌출은 갑상선 기능 항진증, 특히 그레이브스병을 시사한다. 그레이브스병에서는 TSH가 억제되고 자유 T4와 T3가 상승한다. 따라서 예상되는 갑상선 패널 결과는 TSH 감소, T4 증가, T3 증가이다.
+정답 A. 불안·불면·설사·전신 근력저하와 양측 안구돌출은 Graves병에 의한 갑상선기능항진을 시사한다. 갑상선호르몬 증가의 음성되먹임으로 TSH는 억제되고 T4·T3가 증가할 것으로 예상된다. 본문에는 체중감소가 제시되지 않아 사실로 추가하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009218 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문 없는 체중감소를 삭제하고 Graves 임상상–저TSH/고T4,T3 A 연결.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

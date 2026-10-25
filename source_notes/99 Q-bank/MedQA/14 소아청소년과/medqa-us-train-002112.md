@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. CTG
 
 ## 해설
 
+지적·발달장애와 자폐 양상, 긴 얼굴·큰 이마·돌출 턱, 큰 고환은 취약X증후군을 시사한다. FMR1의 CGG 반복 확장(A)이 관련된다. 원문의 영상은 치아 밀집과 일부 선천 결손을 기술하므로 보호자가 말한 '치아가 많다'를 모두 진짜 과잉치로 확정해서는 안 된다.
 
-Fragile X 증후군은 FMR1 유전자의 CGG 삼염기 반복 확장이 원인이다. 환자의 특징적인 얼굴, 지능 저하, 치아 과다 등은 이 질환과 일치한다. 따라서 CGG 반복이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 치아 밀집을 실제 과잉치로 확정해 취약X 진단 근거로 쓴 해설을 주요 유전·임상 소견 중심으로 교정했다.
+
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. HIV 검사
 ## 해설
 
 
-PID 환자에서 HIV 감염은 치료 반응과 장기 합병증에 영향을 미치므로, 표준 검사 후 HIV 검사가 필요하다. 따라서 다음 단계는 HIV 검사이다.
+PID로 진단된 환자는 HIV와 매독 및 임균·클라미디아 검사를 함께 받아야 하므로 보기 중 D가 적절하다. HIV 검사는 감염을 확인하고 연계 치료를 제공하기 위한 것이며 단순히 기존 PID 치료 반응 예측만을 위한 검사는 아니다. 현재 표준 PID 항생제에는 anaerobe를 위한 metronidazole도 포함한다. 39°C 고열은 중증도와 입원·주사 치료 필요성을 함께 평가해야 하는 소견이다. 제시된 ceftriaxone+doxycycline만을 완결된 현행 요법이라고 해석하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001461 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PID의 HIV 검사 D 유지하되 현재의 metronidazole 포함 요법과 고열 시 입원평가 누락을 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/std/treatment-guidelines/pid.htm
 
 ## 출처
 

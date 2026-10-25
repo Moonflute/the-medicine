@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 당뇨병성 족부병변
 
 ## 해설
 
+혈관조작 후 갑작스러운 발가락 통증과 유지된 말초맥박은 죽상판에서 떨어진 물질의 소동맥 색전 A를 시사한다. 큰 혈관맥박이 유지되어도 미세색전이 가능하다. 색전이 반드시 대동맥판을 통과해 발생하는 것은 아니다. 누락 사진의 청색증을 실제 확인한 것처럼 기술하지 않는다.
 
-시술 후 갑작스러운 새끼발가락 통증과 청색증은 급성 혈류 차단을 시사한다. 경피적 관상동맥 중재술 후 발생하는 색전은 대동맥판을 통과해 말초동맥에 폐쇄를 일으키는 죽상색전증이 가장 흔하다. 따라서 가장 가능성 높은 진단은 죽상색전증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 시술후 말단통증·보존맥박의 죽상색전 A는 유지하되 대동맥판을 통과한 색전이라는 해부 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 폰빌레브란트병
 ## 해설
 
 
-PT는 정상이고 PTT가 연장된 경우 내인성 혈액응고인자 결핍을 시사한다. 폰빌레브란트병은 VIII·IX·XI·XII·XIII 인자 결핍으로 PTT 연장을 일으키며, 출혈 양상이 점막 출혈과 멍이 특징이다. 따라서 폰빌레브란트병이 가장 가능성 높다.
+반복 점막출혈과 정상 혈소판 수, 정상 PT 및 연장된 PTT는 von Willebrand병(D)에 부합한다. vWF는 혈소판의 손상 혈관 부착과 VIII인자의 운반·안정화에 관여한다. IX·XI·XII·XIII 인자의 동시 결핍을 일으키는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008759 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 점막출혈·정상 혈소판·PT 정상/PTT 연장은 VWD D에 부합. vWF가 IX·XI·XII·XIII 결핍까지 초래한다는 잘못된 해설 삭제.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

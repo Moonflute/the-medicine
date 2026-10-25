@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 횡단척수염
 
 ## 해설
 
+양측 어깨·팔의 망토형 통각·온도 소실과 보존된 진동·위치감각은 경수 척수공동증을 시사한다. 중심부 공동이 앞백색맞교차에서 교차하는 통각·온도 섬유를 손상시키고 초기에는 후주를 보존하여 해리성 감각소실을 만든다. Chiari 기형(A)은 척수공동증의 중요한 연관 질환이며 단순 척수 전각 기형의 다른 이름이 아니다. 더 커진 공동은 전각 등 다른 구조에도 영향을 줄 수 있으나 현재 근력은 정상이다.
 
-망토형 감각소실은 척수 전각(Arnold-Chiari) 기형과 연관된 아놀드-키아리 증후군에서 나타난다. 따라서 가장 관련된 질환은 아놀드-키아리 기형이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 척수공동증의 망토형 해리성 감각소실을 척수 전각 기형이라고 부른 해부학 오류를 수정했다. 연관 질환 A는 유지한다.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 메틸렌 블루
 
 ## 해설
 
+삼투차·고음이온차 산증·저칼슘혈증·옥살산 결정과 AKI는 ethylene glycol 중독을 시사한다. Fomepizole(B)은 alcohol dehydrogenase를 억제하여 유해 대사산물 생성을 막는다. 포도당으로 전환시키는 약이 아니다. 이 환자는 심한 산증과 높은 anion gap이 있어 해독제와 함께 혈액투석 필요성을 긴급 평가해야 하며, B만으로 모든 중증 독성물질이 제거되는 것은 아니다.
 
-에틸렌글리콜 대사산물인 옥살산이 신장에서 옥살산염 결정을 형성하고 고음이온 차 대사성 산증을 일으킨다. 포메피졸은 에틸렌글리콜을 포도당으로 전환시켜 독성을 차단한다. 따라서 에틸렌글리콜 중독에 가장 적절한 치료는 포메피졸이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Fomepizole이 ethylene glycol을 glucose로 바꾼다는 중대 약리 오류 교정. 중증 산증에서 투석 추가 적응증 보완.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a31d0148-2729-49de-b666-f24b0dfd2401
+- 공식/학회 근거: https://www.extrip-workgroup.org/ethylene-glycol
 
 ## 출처
 

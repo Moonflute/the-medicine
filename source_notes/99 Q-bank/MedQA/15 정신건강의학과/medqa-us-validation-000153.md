@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,10 +44,16 @@ D. “걱정되시는 건 이해하지만 이 상황에 대한 정보를 드릴 
 
 ## 해설
 
-
-환자 비밀보호 원칙에 따라 치료 내용은 환자 본인이나 법적 대리인에게만 공개할 수 있다. 따라서 “걱정은 이해하지만 정보를 드릴 수 없습니다”가 적절한 답변이다. 다른 선택지는 비밀보호를 위반한다.
+이 동료는 진료 목적이 아니라 이웃·친구로서 개인 정보를 묻고 있고 환자의 공개 동의도 제시되지 않았다. 걱정에는 공감하되 정보를 제공할 수 없다고 답하는 것이 적절하다. 입원 병동이나 약물검사 결과도 임의로 밝히지 않는다. 실제 정보 공유에는 환자의 동의, 치료상 필요와 법적 허용·요구 등 별도 근거가 있을 수 있으므로 본인과 대리인 외에는 언제나 공개 불가라고 일반화하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000153
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 치료 정보는 본인·법정대리인에게만 공개 가능하다는 과도한 개인정보 규칙을 교정. 비치료 동료의 사적 호기심에는 비공개 원정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정하며 최신 지침 전수 검증을 뜻하지 않음).
+- https://www.hhs.gov/hipaa/for-professionals/faq/when-does-hipaa-allow-a-health-care-provider-to-dicuss-information-with-family/index.html

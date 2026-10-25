@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 고혈압성 뇌병증
 
 ## 해설
 
+우측 전대뇌동맥(A)은 우측 내측 전두·두정엽을 공급하여, 폐색 시 반대편인 좌측 하지 우세 운동·감각 결손을 일으킬 수 있다. 내측 전두엽 기능장애는 무감동/의지저하와 배뇨 조절 이상을 설명한다. 우측 ACA 한쪽 폐색이 일반적으로 양측 하지 마비를 만든다고 설명해서는 안 된다.
 
-우측 전대뇌동맥 폐색은 양쪽 하지의 운동·감각 결손과 전두엽 기능 저하(집중·계산 장애)를 일으킨다. 환자의 증상은 전대뇌동맥 손상과 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 우측 ACA 폐색이 양쪽 하지 결손을 만든다는 좌우 오류를 좌측 하지 우세 결손으로 교정.
 
 ## 출처
 

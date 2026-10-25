@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 티아민 보충
 
 ## 해설
 
+항응고제 복용 고령자에서 낙상 뒤 수주에 걸친 두통·구토·인지변화는 경막하혈종을 의심하게 한다. 영상으로 확인한 증상성 만성 경막하혈종의 치료 선택지에는 천공 배액술(B)이 있다. INR 2.5는 심방세동에서 치료범위일 수 있지만 두개내출혈 위험을 없애지는 않는다. 실제 수술 결정과 항응고 역전은 영상, 증상, 출혈 중증도에 맞춰 신경외과와 긴급 평가한다.
 
-와파린 복용 환자에서 두부 외상 후 INR 2.5는 만성 경막하혈종 형성을 촉진한다. 치료는 혈종을 배액하는 천공배액술이다. 다른 선택지는 해당 상황에 맞지 않는다. 따라서 정답은 천공배액술(B)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경막하혈종 치료 선택 B 유지. 치료범위 INR 자체를 비정상 수치로 오인하지 않도록 영상/응고관리 전제 보완.
+- 공식/학회 근거: https://ww2.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf
+- 공식/학회 근거: https://www.jacc.org/doi/10.1016/j.jacc.2020.04.053
 
 ## 출처
 

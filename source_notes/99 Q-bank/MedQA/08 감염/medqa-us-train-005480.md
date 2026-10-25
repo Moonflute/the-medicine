@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 아지스로마이신과 에탐부톨
 ## 해설
 
 
-CD4 44/mm³인 환자에게 혈액배양에서 항산균이 자라면 Mycobacterium avium complex(MAC) 감염을 의심한다. MAC 감염 치료 1차 약물은 아지스로마이신과 에탐부톨이다. 따라서 가장 적절한 약물치료는 아지스로마이신과 에탐부톨이다.
+CD4<50·전신증상·간비장비대와 혈액 항산균 배양은 파종 MAC을 가장 의심하게 한다. D의 macrolide+ethambutol은 기본 치료이며 균종·macrolide 감수성과 약물 상호작용을 확인하고 중증도/종양부하에 따라 추가약을 고려한다. AFB 양성이 곧 MAC 확진이라는 뜻은 아니고 TB 등 균종을 구별한다. ART 재개/최적화가 함께 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005480 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 진행 AIDS 파종 MAC의 azithro+ethambutol D 유지; 항산균이라는 이유만으로 확진하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/disseminated
 
 ## 출처
 

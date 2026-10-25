@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 베르나르-술리에 증후군(Bernard-Soulier syndrome)
 ## 해설
 
 
-출혈 시간 연장, PT는 정상, PTT가 현저히 연장된 경우는 내인성 혈액응고인자 VIII·IX 결핍, 즉 혈우병을 시사한다. 따라서 혈우병이 가장 가능성 높은 진단이다.
+남아의 발치 후 지속 출혈, 외삼촌의 비슷한 출혈·관절종창과 현저한 aPTT 연장은 X연관 혈우병(C)을 시사한다. 혈소판 수·크기와 출혈시간은 보존될 수 있으며 제시된6분을 반드시 연장으로 해석하지 않는다. VIII 또는 IX 인자 결핍을 인자 활성도 검사로 구분한다. 혈소판 기능장애나 ITP는 이 응고검사·가족력 양상과 덜 맞는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000682 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정상 범위일 수 있는 출혈시간6분을 연장으로 단정한 해설을 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

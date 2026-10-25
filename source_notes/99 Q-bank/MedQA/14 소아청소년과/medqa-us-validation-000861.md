@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 대증치료
 
 ## 해설
 
+3세에서 팽륜·불투명·운동성 감소의 고막과 며칠 지속된 이통은 급성 중이염에 부합한다. 항생제를 선택할 때 최근 amoxicillin 사용·알레르기 등 예외가 없으면 amoxicillin(A)이 일차 선택이다. 경한 일부 중이염은 관찰할 수 있지만 연령1세 이하로만 약물 적응증을 설명하지 않는다.
 
-급성 중이염은 고막 팽창·불투명과 고막 움직임 감소를 보이며, 1세 이하 소아에서는 아목시실린이 1차 치료제이다. 따라서 아목시실린 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 3세에게1세 이하 원칙만 제시한 설명을 실제 통증 지속·AOM 기준으로 교정.
+- https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html
 
 ## 출처
 

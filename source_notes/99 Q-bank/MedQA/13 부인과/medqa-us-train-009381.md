@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 수유 중단 및 유방 생검
 
 ## 해설
 
+4일간 국소 염증과 발열·권태감이 지속되어 세균성 수유 유방염이 의심된다. 디클록사실린(A)은 MSSA를 표적으로 하는 항포도알균 페니실린이다. 수유를 지속하고 냉찜질·진통 등도 병행한다. 항생제나 수유 후 호전이 없으면 배양·농양을 평가한다.
 
-수유부의 유방염은 주로 Staphylococcus aureus에 의해 발생하며, 항생제 치료와 동시에 수유를 지속하면 감염이 빠르게 호전된다. 디클록사실린은 MSSA에 효과적인 1세대 세팔로스포린이다. 따라서 디클록사실린 투여와 수유 지속이 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 유방염의 디클록사실린·수유 지속 A 유지. 디클록사실린은 1세대 세팔로스포린이 아니라 항포도알균 페니실린이다.
+- https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf
 
 ## 출처
 

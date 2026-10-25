@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 경구 이미프라민
 
 ## 해설
 
+낮 증상·요로감염·진찰 이상 없이 지속된 야뇨는 일차 단일증상성 야뇨에 합당하다. 비난하지 않고 교육·행동관리와 경보기(B)를 사용할 수 있다. 데스모프레신도 상황에 따른 선택지이며 이미프라민·항콜린제를 일반적인 첫 치료로 사용하지 않는다.
 
-야뇨는 정상 요로 구조와 기능을 가진 아이에게 흔히 나타나며, 행동 치료와 야뇨 경보기 사용이 1차 치료이다. 약물은 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단일증상성 일차 야뇨의 교육·경보기 B 유지. 약물은 항상 불필요하다는 단정 교정.
+- https://cps.ca/en/documents/position/evaluation-and-management-of-enuresis-in-the-general-paediatric-setting
 
 ## 출처
 

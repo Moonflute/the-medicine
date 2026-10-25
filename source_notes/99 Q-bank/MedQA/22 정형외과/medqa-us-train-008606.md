@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 대퇴동맥 폐색
 
 ## 해설
 
+고관절 수술 후 고관절 굴곡 및 무릎 신전 약화, 슬개건반사 저하와 앞안쪽 허벅지·안쪽 종아리 감각저하는 대퇴신경 손상(A)에 합당하다. 안쪽 종아리 감각은 대퇴신경의 두렁신경 분지가 담당한다. 대퇴신경은 무릎 굴곡이 아니라 대퇴사두근을 통한 신전에 관여한다. 비복신경은 주로 종아리 뒤가쪽·발 가쪽의 피부감각신경이며 종아리 근육의 운동신경이 아니다. 정상 말초맥박은 대퇴동맥 폐색보다 신경 손상을 지지한다. 수술 접근법에 따라 위험 신경은 달라진다.
 
-수술 후 앞쪽 허벅지와 내측 종아리 감각 저하, 대퇴 굴곡·무릎 굴곡 약화, 무릎 반사 감소는 대퇴신경 손상을 시사한다. 대퇴신경은 고관절 수술 시 가장 위험한 신경이며, 비복신경은 종아리 근육, 대퇴동맥 폐색은 맥박 저하를 동반한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 대퇴신경을 무릎 굴곡 신경으로 설명하고 비복신경을 운동신경처럼 설명한 해설을 교정했다. 고관절 수술에서 가장 위험한 신경이라는 일반화도 제거했다.
 
 ## 출처
 

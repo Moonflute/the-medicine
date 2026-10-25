@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+curation_status: "retained"
+curation_reason: "PBP·세포벽 합성 억제를 대표하는 β-lactam 기초 문항."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Amoxicillin은 PBP에 결합해 세포벽 교차결합을 차단함으로써 세
 
 - 내부 학습 노트: Amoxicillin
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Amoxicillin.md`
-- 학습 목표: 원문 핵심: - 세균의 세포벽 합성에 필수적인 페니실린 결합 단백질(PBP)에 결합하여 세포벽의 가교 형성을 방해함으로써 세균을 사멸시킴.
+- 학습 목표: Amoxicillin: penicillin‑binding protein에 결합해 세포벽 가교 형성을 방해한다
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

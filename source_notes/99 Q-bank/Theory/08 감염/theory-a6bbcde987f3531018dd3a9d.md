@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOCDqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ
+curation_status: "retained"
+curation_reason: "Valganciclovir의 중요한 골수 억제와 CBC 추적 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ Valganciclovir는 중증 골수억제(백혈구·호중구·빈혈·혈소판 �
 
 ## 오답 포인트
 
-- **D. 간 효소:** 간 효소 상승은 Valganciclovir의 주요 독성이 아닙니다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Valganciclovir
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Valganciclovir.md`
-- 학습 목표: 원문 핵심: - 혈액학적 독성: 중증 백혈구감소증, 호중구감소증, 빈혈, 혈소판감소증 및 골수부전 위험 - 급성 신부전: 고령자, 신독성 약물 병용 환자, 탈수 환자에서 발생 가능 - 생식 독성: 남녀 모두에서 가임기 동안 피임 필수(남성은 투여 중 및 종료 후 90일, 여성은 30일까지) - 발암성 및 돌연변이 유발 가능성 존재 - 모니터링: 전혈구 검사(CBC), 혈소판 수치, 혈청 크레아티닌 수치 및 신기능 정기적 확인 - 소아의 경우 신장 및 체중 변화에 따른 용량 재조정 필요
+- 학습 목표: Valganciclovir: 전혈구 검사(CBC)

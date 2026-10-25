@@ -17,17 +17,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 디펜히드라민(Diphenhydramine)
 
 ## 해설
 
-
-환자는 조증 에피소드와 급성 정신병적 증상을 보이며, 양극성 장애가 의심된다. 장기 유지 치료에 가장 효과적이고 자살 위험 감소에 입증된 약물이 리튬이다. 따라서 리튬이 최선의 장기 치료이다.
+수면 욕구 감소·과다한 말·사고의 비약·과대성이 있어 조증을 시사한다. 제시된 약물 중 리튬은 양극성 장애의 장기 유지 치료에 사용하는 기분조절제이며, 반복 자살시도 병력도 선택 시 고려할 요소이다. 즉각적인 흥분 조절과 장기 유지 계획은 구별하며, 실제 진료에서는 신장·갑상선 기능과 혈중농도 등의 모니터링이 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001175
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 리튬 유지 정답 유지. 원문에서 확정되지 않은 급성 정신병을 단정하지 않고 조증·자살시도 병력에 근거.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

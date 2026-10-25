@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 혈청 유행성이하선염 IgG 역가 측정
 
 ## 해설
 
+정답은 C, 음낭 초음파이다. 배뇨통·농뇨와 성접촉력은 부고환염을 지지하지만 급성 통증·구토가 있어 고환염전을 감별해야 한다. 진찰과 검사만으로 확실히 구분되지 않으면 도플러 초음파가 유용하다. 단, 염전 가능성이 매우 높으면 즉시 비뇨의학과 평가/수술을 진행하며 영상검사 때문에 지연하지 않는다. 초음파 하나가 부분 염전을 항상 배제하는 것도 아니다.
 
-음낭·고환 통증과 부종, 백뇨가 동반된 경우 가장 먼저 시행해야 할 검사는 음낭 초음파로 혈류와 비정상적 흐름을 확인하는 것이다. 이는 고환염(부고환염)과 고환비틀림을 구분한다. CT나 혈청 검사는 초기 진단에 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성음낭통증 모두 초음파부터라는 일반화 수정. 애매한 임상에서 Doppler C 유지, 염전 고의심시 영상으로 수술 지연 금지.
+- 공식/학회 근거: https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm
 
 ## 출처
 

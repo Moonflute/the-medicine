@@ -18,11 +18,11 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -30,6 +30,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdGF6aWRpbWUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 국소 덱사메타손 투여 및 콘택트렌즈 착용 중단
 
 ## 해설
 
+콘택트렌즈 착용자에서 통증·충혈과 각막 혼탁/궤양은 감염성 각막염에 합당하다. 제시된 선지 중 B, gatifloxacin 점안과 같은 국소 항균 치료가 적절하다. Gatifloxacin은 4세대 fluoroquinolone이지 1세대가 아니다. 콘택트렌즈는 중단하고 긴급 안과 평가를 받으며, 크거나 중심부·깊은 궤양은 배양과 강화 항생제 등 중증도에 맞는 치료가 필요할 수 있다. 국소 steroid 단독이나 유리체 내 주사가 이 각막 병변의 기본 치료는 아니다.
 
-양측 각막 궤양은 세균성 각막염이 가장 흔히 원인이며, 광범위 1세대 플루오로퀸론(가티플록사신) 점안이 1차 치료에 적합하다. 따라서 정답은 가티플록사신 점안액이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Gatifloxacin을 1세대로 잘못 분류한 오류를 4세대 fluoroquinolone으로 교정하고 심한 각막궤양의 긴급 평가를 명시.
+- 공식/학회 근거: https://www.aaojournal.org/article/S0161-6420(24)00007-1/fulltext
 
 ## 출처
 

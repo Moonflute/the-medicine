@@ -20,11 +20,13 @@ question_type: ethics
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 부모 동의까지 수술 연기
 ## 해설
 
 
-복부 방사선상 장폐색과 급성 복통, 변비가 있으면 응급 개복술이 필요하며, 부모 동의를 기다릴 시간이 없다. 따라서 응급 개복술을 바로 시행한다. 동의 절차는 생명을 위협하는 상황에서는 생략 가능하다.
+이 환자는 담즙성 구토·장폐색 소견뿐 아니라 경직과 반발통 등 복막자극징후가 있어 응급 수술이 필요하다. 부모와 연락을 시도하되 생명·장기 손상을 막기 위한 처치를 지연하지 않는다. 부모가 즉시 동의할 수 없고 환자도 유효한 동의를 할 수 없는 응급상황에서는 필요한 개복술을 시행할 수 있으므로 C가 적절하다. 14세 형에게 법적 대리 동의를 요구하며 기다리지 않는다. 응급성, 연락 시도와 판단을 기록하고 가능한 한 빨리 부모에게 설명한다. 모든 장폐색이 곧바로 개복술 대상인 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000067 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복막자극징후가 있는 소아 응급수술의 동의 예외와 단순 장폐색의 일반화를 구분했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://code-medical-ethics.ama-assn.org/sites/default/files/2022-08/2.1.1.pdf
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 트리메토프림-설파메톡사졸
 ## 해설
 
 
-당뇨병 환자의 급성 신우신염 치료 후 경구 전환 시, 감염원인에 대한 지역 저항성을 고려해 트리메토프림‑설파메톡사졸이 1주일 이상 복용 가능한 구강 옵션이다. 입원 중 사용한 세프트리악손과 교차 저항성이 없으며, 치료 기간을 충족한다. 따라서 트리메토프림‑설파메톡사졸을 처방한다.
+임상적으로 안정되고 경구섭취가 가능하면 유효한 경구약으로 전환할 수 있어 선택지 중 TMP-SMX D가 적절한 옵션이다. 배양 감수성을 확인하여 선택하며 ceftriaxone에 호전되었다고 TMP-SMX 내성이 없다는 뜻은 아니다. Nitrofurantoin은 신실질 치료에 적절하지 않고 meropenem은 일반적인 경구 퇴원약이 아니다. 전체 유효 치료기간은 반응·합병증·현행 지침에 맞추며 무조건 최소1주 추가라는 규칙으로 정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006915 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 신우신염 경구전환 D 유지; ceftriaxone 반응이 TMP-SMX 감수성을 보장한다는 설명과 임의 기간 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/
 
 ## 출처
 

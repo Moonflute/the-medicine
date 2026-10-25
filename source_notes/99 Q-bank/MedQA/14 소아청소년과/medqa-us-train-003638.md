@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 비장절제술
 
 ## 해설
 
+감염 후 발생한 고립성 혈소판감소와 피부 점상출혈은 소아 ITP에 부합한다. 중대한 점막출혈 없이 혈소판 65,000/μL인 이 경우 관찰(B)이 적절하며 추적·출혈 경고 교육이 필요하다. 치료는 출혈·생활 영향 등에 따라 결정하며 특정 수치 미만이면 모두 IVIG나 비장절제술을 시행하는 것은 아니다.
 
-전신 점상출혈이 있으나 혈소판 수가 6만5천으로 경미한 혈소판 감소이며, 대부분 급성 후바이러스 ITP는 2~4주 내에 자연 회복한다. 증상이 경미하고 출혈이 제한적이므로 즉각적인 치료보다 관찰이 권장된다. 다른 선택지는 중증 출혈이나 혈소판 <2만인 경우에만 고려한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ITP에서 혈소판 숫자만으로 치료·비장절제술을 결정하는 설명을 출혈 중심의 관찰 원칙으로 교정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/
 
 ## 출처
 

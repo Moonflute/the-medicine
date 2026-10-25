@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 수술적 감압
 
 ## 해설
 
+원정답은 C, 부목 고정이다. 엄지·검지·중지의 야간 통증과 감각이상 및 손목 자극에 따른 증상 유발은 손목터널증후군을 시사한다. 객관적인 근력저하나 무지구 위축이 기술되지 않은 경우, 손목 중립 위치의 부목을 특히 야간에 사용하는 것은 적절한 초기 비수술 치료이다. 본문은 증상이 일상생활을 방해한다고 했으므로 이를 '경미한 증상'으로 바꾸어 설명하면 안 된다. 국소 스테로이드 주사는 단기 완화를 위해 고려할 수 있지만 장기 호전을 보장하지 않으며, 부목이 모든 치료보다 가장 효과적이라고 단정할 근거는 없다. 지속·악화하거나 운동결손이 있으면 추가 평가와 수술적 감압을 고려한다.
 
-손목터널증후군은 초기 보존 치료로 부목 고정이 가장 효과적이며, 증상이 경미할 때 우선 선택한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 일상생활을 방해하는 CTS를 경증이라고 둔갑시키고 부목이 가장 효과적이라고 한 표현 수정. 정중신경 분포와 초기 중립 부목의 역할 설명, 단기 주사/수술 적응을 구분. 원정답 C 유지.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/carpal-tunnel-syndrome/
+- 공식/학회 근거: https://www.aaos.org/quality/quality-programs/upper-extremity-programs/carpal-tunnel-syndrome/
 
 ## 출처
 

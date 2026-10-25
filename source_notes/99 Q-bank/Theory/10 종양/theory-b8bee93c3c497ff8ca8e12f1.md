@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMCDsooXslpEvRG94b3J1YmljaW4ubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMCDsooXslpEvRG94b3J1YmljaW4ubWQ
+curation_status: "retained"
+curation_reason: "Anthracycline의 topoisomerase II 기전과 다른 항암 표적 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Doxorubicin은 토포이소머라아제 II를 억제해 DNA 복제·전사를 �
 
 - 내부 학습 노트: Doxorubicin
 - 원본 경로: `source_notes/04 Pharmacology/10 종양/Doxorubicin.md`
-- 학습 목표: 원문 핵심: - 토포이소머라아제 II(topoisomerase II) 억제를 통해 DNA 복제 및 전사 차단 - DNA 이중 나선 사이에 삽입(intercalation)되어 DNA 구조 변형 및 사슬 절단 유도 - 활성산소(ROS) 생성을 통한 세포막 및 DNA 손상
+- 학습 목표: Doxorubicin: Topoisomerase II
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

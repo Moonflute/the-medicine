@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 간 생검
 
 ## 해설
 
+최근 1시간 내 잠재적 독성량을 섭취했고 의식과 기도보호가 유지되어 활성탄(A)을 고려한다. 1시간에 혈중 약물이 없거나 농도가 아직 오르지 않는다는 뜻은 아니다. 단회 급성 복용은 적절한 시간의 혈중 농도(통상 섭취 후 4시간 이후)와 시간정보로 NAC 필요성을 평가하며 초기 정상 간효소만으로 독성을 배제하지 않는다.
 
-환자는 25정(12.5 g) 정도의 아세트아미노펜을 1시간 내에 복용했으며 아직 혈청 아세트아미노펜 농도가 상승하기 전 단계이다. 활성탄은 위장관에서 약물을 흡착해 흡수를 차단하므로 1–2 시간 이내에 투여하면 효과적이다. 따라서 가장 적절한 조치는 활성탄 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 1시간에 혈중 농도가 아직 상승하지 않았다는 오류 교정. 활성탄 A와 4시간 농도/NAC 평가를 구별.
+- 공식/학회 근거: https://pubmed.ncbi.nlm.nih.gov/37552484/
 
 ## 출처
 

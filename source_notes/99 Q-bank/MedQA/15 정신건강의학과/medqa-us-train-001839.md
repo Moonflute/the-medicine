@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 인지행동치료를 시작한다
 
 ## 해설
 
-
-5세 아이의 복통이 기능성이며, 학교 회피와 정서적 요인이 관여할 가능성이 크다. 첫 번째 치료는 인지행동치료(CBT)로 증상 완화와 대처 기술을 가르치는 것이 가장 효과적이다. 따라서 인지행동치료를 시작한다가 적절하다.
+학교에서는 복통 때문에 귀가하지만 집에서는 정상으로 지내고 제시된 진찰·기본검사에 이상이 없어 정서적·기능성 복통을 고려한다. 증상과 학교의 스트레스·회피 맥락을 탐색한 뒤 제시된 선택지 중 인지행동치료로 대처와 기능 회복을 돕는 것이 적절하다. 기본검사가 정상이라는 이유만으로 모든 기질적 원인이 완전히 배제되거나 증상을 꾀병으로 단정하는 것은 아니며 경과와 경고 소견을 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001839
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. CBT 원정답 유지. 유기적 원인 완전 배제 및 CBT의 보편적 최상위 효과로 과장하지 않도록 수정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

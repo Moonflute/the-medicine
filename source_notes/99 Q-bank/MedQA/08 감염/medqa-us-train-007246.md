@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 비리단스 연쇄상구균
 ## 해설
 
 
-구강·치과 감염에서 뇌농양을 일으키는 가장 흔한 원인균은 비리단스 연쇄상구균이다. 치아우식과 치주염이 배경인 경우 이 균이 뇌농양을 형성한다. 따라서 배양에서 가장 가능성 높은 미생물은 비리단스 연쇄상구균이다.
+치통·다발 우식과 발열/국소 신경증상·농양 진단에서는 구강 viridans streptococci(특히 anginosus군 포함) D가 가장 관련된다. 구강 혐기균과 혼합 감염도 가능하여 배양 결과를 통합한다. 원문은 비조영 CT에서 ring enhancement라고 기술해 영상방법이 모순되므로 실제 조영 영상/원자료 확인이 필요하다. 그 모순을 임의 새 영상으로 바꾸거나 종 단위 확진으로 쓰지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007246 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 치과 기원 뇌농양의 viridans D 유지; 비조영 CT 조영증강이라는 원문 모순을 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

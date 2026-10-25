@@ -18,15 +18,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 근육 염좌
 
 ## 해설
 
+무거운 물건을 든 뒤 하루 동안 생긴 척추 옆 국소 통증, 움직임으로 악화·휴식으로 완화, 정상 신경학적 진찰과 CRP는 주어진 선지 중 근육 염좌(D)를 가장 지지한다. 하지만 2일 전 정맥주사 약물을 사용한 것은 척추 감염의 위험인자이며 정상 체온·CRP·정중선 압통 부재만으로 초기 경막외 농양을 완전히 배제할 수 없다. 경과 악화·발열·신경결손 또는 감염 의심이 있으면 즉시 재평가와 적절한 MRI를 고려해야 한다. 가장 가능성 높은 진단 선택을 무조건적인 무검사·귀가 지침으로 해석하지 않는다.
 
-갑작스러운 요통이 움직임에 의해 악화되고, 국소 근육 압통만 존재하며 신경학적 이상이 없고 CRP 정상인 경우 근육 염좌가 가장 흔한 원인이다. 압박골절이나 감염성 병변은 통증 양상과 검사소견이 다르다. 따라서 가장 가능성 높은 진단은 근육 염좌이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 근육 염좌 D가 가장 가능하지만 최근 IVDU라는 감염 위험을 무시하고 정상 CRP로 감염을 확정 배제하지 않도록 설명을 제한했다.
+- 공식/학회 근거: https://acsearch.acr.org/docs/3148734/Narrative/
 
 ## 출처
 

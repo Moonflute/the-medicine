@@ -21,13 +21,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 급성 심근경색
 
 ## 해설
 
+상부내시경 다음 날 흉통·심와부통과 흉부 crepitus가 나타나 의인성 식도천공 B를 의심한다. 반복 ECG/심근효소가 MI를 지지하지 않는 점도 감별에 도움이 된다. Boerhaave는 보통 격렬한 구토 후 자발성 전층 파열을 뜻하므로 시술 관련 천공을 모두 같은 명칭으로 부르면 부정확하다.
 
-상부 위장관 내시경 후 식도 천공(Boerhaave 증후군)은 흉통·구토·흉부 청진음이 나타나지만 심근효소는 정상이다. 따라서 가장 가능성 높은 진단은 식도 천공이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 내시경 후 의인성 식도천공 B를 자발성 구토후 파열 Boerhaave와 무조건 동일시한 오류.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

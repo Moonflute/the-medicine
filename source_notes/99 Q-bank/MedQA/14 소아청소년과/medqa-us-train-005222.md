@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-2세 남아가 1년 동안 반복되는 부비동염, 상기도감염, 입원이 필요한 중증 세기관지염, 출생 이후 반복되는 구강 칸디다증, 만성 설사와 성장부진으로 내원했다. RSV 양성이며 흉부 X선에서 과팽창, 간질 침윤과 무기폐가 보인다. 다음 중 결핍된 면역 요소는?
+2세 남아가 1년 동안 반복되는 부비동염, 상기도감염, 입원이 필요한 중증 세기관지염, 출생 이후 반복되는 구강 칸디다증, 만성 설사와 성장부진으로 내원했다. RSV 양성이며 흉부 X선에서 과팽창, 간질 침윤과 무기폐가 보인다. 진찰에서 두드러진 콧등, 저형성된 콧방울, 짧은 턱과 이형성 귀가 보인다. 다음 중 결핍된 면역 요소는?
 
 ## 선택지
 
@@ -44,8 +46,13 @@ D. T세포
 
 ## 해설
 
+반복 바이러스 감염, 만성 칸디다증·설사와 성장부진은 세포성 면역 결핍을 시사하므로 선택지 D의 T세포 결핍이 가장 적절하다. 원문의 코·턱·귀 형태 이상은 흉선 발달 이상 관련 질환도 고려하게 한다. 본문만으로 이를 특정 유전자형의 중증복합면역결핍이라고 확정할 수 없으며 B세포나 IgA 단독 결핍보다 넓은 감염 양상을 설명해야 한다.
 
-반복되는 심각한 호흡기·소화기 감염, 구강 칸디다증, 그리고 RSV 감염은 T세포 기능 결핍(중증 복합면역결핍)과 일치한다. T세포 결핍은 이러한 광범위한 감염에 취약하게 만든다. 따라서 정답은 T세포이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: T세포 결핍을 특정 SCID로 확정한 해설을 완화하고 번역에서 빠진 원문의 특징적인 얼굴 소견을 복원했다.
+
 
 ## 출처
 

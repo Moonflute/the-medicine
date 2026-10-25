@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "젖힌 포피가 원위치되지 않는 감돈 정의는 포경과 독립 감별."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 포피가 염증으로 부어오른 상태
 
 ## 오답 포인트
 
-- **B. 포피가 귀두 앞쪽에 고정된 상태:** 포피가 앞쪽에 고정된 경우는 포피 협착과 혼동될 수 있지만 정의와 다르다.
+- **포피가 귀두 앞쪽에 고정된 상태:** 포피가 앞쪽에 고정된 경우는 포피 협착과 혼동될 수 있지만 정의와 다르다.
 
 ## 출처
 
 - 내부 학습 노트: 감돈 포경 (Paraphimosis)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/감돈 포경 (Paraphimosis).md`
-- 학습 목표: 원문 핵심: - **정의:** 포피가 귀두 뒤쪽 관상구(corona)에 걸려 돌아오지 못하고 조이는 상태로, 비뇨기과적 응급 질환임. - **원인:** 포피를 뒤로 젖힌 후 원위치시키지 않은 경우(도뇨관 삽입, 세척, 검사 등), 성적 외상, 자가 손상 등. - **기전:** 포피의 협착륜(constricting band)이 정맥 및 림프 배액을 차단하여 귀두와 포피의 부종을 유발하며, 심할 경우 동맥 혈류 차단으로 인한 허혈 및 괴사 발생.
+- 학습 목표: 감돈포경의 구조
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 젖힌 포피가 원위치되지 않는 감돈 정의는 포경과 독립 감별.

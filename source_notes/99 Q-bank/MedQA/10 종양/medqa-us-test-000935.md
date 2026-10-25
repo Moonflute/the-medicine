@@ -19,11 +19,13 @@ question_type: ethics
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 이미 호스피스 자격이 있으므로 추가 단계가 필요 없다
 ## 해설
 
 
-호스피스 자격은 기대수명 ≤6개월이며, 치료를 거부한 경우 환자의 예상 생존 기간을 판단해 자격을 확인한다. 위암 말기 환자가 모든 연명 치료를 거부했으므로, 먼저 기대수명을 평가하는 것이 다음 단계이다. 전이 여부 확인은 이미 치료 거부 상황에서 우선순위가 아니다.
+미국 Medicare hospice 자격은 질환이 통상 경과를 따를 때 예상 생존이 6개월 이하라는 의사 인증 등이 필요해 B가 적절하다. 치료 거부나 위암 진단만으로 말기·자격이 자동 확정되지 않는다. 병기·상태와 환자 목표에 맞춰 예후를 평가하며 완화의료는 별도로 제공할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000935 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 미국 hospice 자격 예후평가 B 유지. 병기 미정 환자를 이미 말기로 확정한 문구 교정 및 치료거부만으로 자격 자동 획득 아님.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cms.gov/medicare/payment/fee-for-service-providers/hospice
 
 ## 출처
 

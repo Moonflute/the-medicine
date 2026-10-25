@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 발모벽
 
 ## 해설
 
+인설성 두피 병변, 탈모반, 후이개·경부 림프절 종대 및 남아 있는 검은 점은 두부백선(tinea capitis, C)을 지지한다. 검은 점은 감염된 모발이 두피 표면 가까이에서 부러져 남은 모발 단면이며 점상 각질이 아니다. 발모벽은 인설·림프절 종대보다는 불규칙하게 부러진 모발이 단서다.
 
-두피에 인설성 반점이 생기고 탈모반으로 진행되며 검은 점(점상 각질)이 남는 경우는 두부백선(티노프라스마)이다. 이는 곰팡이 감염에 의한 특이적 탈모와 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 두부백선 해설의 검은 점을 점상 각질로 설명한 오류와 존재하지 않는 병명 표기를 교정했다.
 
 ## 출처
 

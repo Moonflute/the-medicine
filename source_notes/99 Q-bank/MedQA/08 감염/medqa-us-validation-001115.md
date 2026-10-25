@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 페스트균(Yersinia pestis)
 ## 해설
 
 
-흉터성 림프절염과 발진이 동반된 급성 림프절염은 페스트(흑사병)에서 흔히 나타난다. 페스트는 Yersinia pestis에 의해 발생한다. 따라서 가장 가능성 높은 원인 병원체는 페스트균이다.
+미국 남서부의 설치류 노출 가능성과 급성 발열·심한 통증의 서혜부 림프절 종대(bubo)는 림프절형 페스트를 시사한다. 원인균은 Yersinia pestis(D)이며 보통 감염된 벼룩에 의해 전파된다. 이는 흉터성 림프절염이라는 뜻이 아니며, 동물과 직접 접촉한 기억이 없어도 벼룩 노출을 배제할 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001115 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 미국 남서부 설치류/벼룩 노출과 통증성 bubo의 plague D 유지. 흉터성 림프절염이라는 오역 교체.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

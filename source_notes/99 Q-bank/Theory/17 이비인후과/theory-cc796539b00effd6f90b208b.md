@@ -16,36 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "C형을 운동 증가, D형을 파열로 설명한 잘못된 분류 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-급성 화농성 중이염에서 고막운동도 검사에서 보이는 유형은?
+중이 삼출액이 있을 때 흔히 나타나는 고실도(tympanogram)는?
 
 ## 선택지
 
-A. B형(고막 움직임 감소)
-B. A형(정상 움직임)
-C. C형(고막 움직임 증가)
-D. D형(고막 파열)
+A. 평탄한 B형
+B. 정상 압력에서 뚜렷한 정점을 보이는 A형
+C. 음압 쪽으로 정점이 이동한 C형만이 항상 정상
+D. 검사 결과만으로 외이도 용적과 무관하게 고막 파열을 확진하는 D형
 
 ## 해설
 
-급성 화농성 중이염에서는 고막이 부풀어 고막 움직임이 감소하는 B형이 관찰된다.
+중이 삼출액에서는 평탄한 B형이 흔하다. B형은 천공 등에서도 보일 수 있으므로 외이도 용적·이경 소견을 함께 해석한다. C형은 음압 정점을 뜻하며 단순한 운동성 증가가 아니다.
 
 ## 오답 포인트
 
-- **B. A형(정상 움직임):** A형은 정상 고막 움직임을 의미한다.
+- **A형:** 통상 정상 중이 압력의 정점이다.
+- **C형:** 음압을 의미한다.
+- **D형만으로 파열 확진:** 보편적인 기본 분류 해석이 아니며 용적·이경 소견을 무시할 수 없다.
 
 ## 출처
 
 - 내부 학습 노트: 급성화농성중이염 (Acute suppurative otitis media)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/급성화농성중이염 (Acute suppurative otitis media).md`
-- 학습 목표: 원문 핵심: * **CC**: 발열, 박동성 이통, 전음성 난청, 이명, 이루 * **P/E**: 이경 검사: 고막의 중등도~고도 팽윤(bulging), 발적, 충혈, 부종. 고막운동도 검사상 B형(고막 움직임 감소)
+- 학습 목표: 중이 삼출액의 평탄 B형 고실도
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: C형을 운동 증가, D형을 파열로 설명한 잘못된 분류 제거.
+- 근거: https://www.asha.org/practice-portal/clinical-topics/hearing-loss

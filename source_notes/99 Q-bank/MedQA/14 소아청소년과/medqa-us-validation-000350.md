@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 진단검사로 이소성 위 조직의 위치를 확인한다
 
 ## 해설
 
+무통성 소아 혈변·철결핍에서 Meckel 게실을 의심한다. Tc-99m pertechnetate 스캔은 이소성 위점막을 검출하므로 D가 맞다. 원문의 '기술튬'은 테크네튬의 오기이며, 모든 게실이 스캔에 양성이거나 항상 산분비 조직을 갖는 것은 아니다.
 
-무통성 혈변과 경미한 철결핍을 동반한 영유아에게는 메켈 게실이 흔한 원인이다. 진단에 특이적인 검사는 기술튬‑99m 퍼테크네이트 스캔으로, 이소성 위점막의 위치를 확인한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 테크네튬의 잘못된 음역을 교정하고 이소성 위점막 검출의 D 근거 명확화.
+- https://tech.snmjournals.org/content/42/3/163
 
 ## 출처
 

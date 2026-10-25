@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,12 +43,15 @@ related_drug_slugs:
 A. 림프절염
 B. 편도주위 농양
 C. 설하 혈종
-D. 루드비히 협심증
+D. 루드비히 앙기나(구강저 봉와직염)
 
 ## 해설
 
+하악 어금니 감염 뒤 악하부·앞목 부종과 연하곤란이 발생하여 D, 루드비히 앙기나(구강저 봉와직염)가 가장 적절하다. 구강저의 악하·설하 공간 등으로 감염이 퍼지는 질환이며 심장 허혈성 협심증을 뜻하지 않는다. 편도주위농양의 편도 비대·목젖 편위보다는 치성 감염과 구강저/악하부 침범이 핵심이다.
 
-치아 감염이 하악 삼악골 공간으로 퍼져 발생하는 루드비히 협심증은 인두·하악 부종, 연하곤란을 동반한다. 따라서 가장 가능성 높은 진단은 루드비히 협심증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Ludwig angina를 심장 협심증으로 오해하지 않도록 용어와 감염 공간 설명을 교정; 치성 감염 케이스·정답 D 유지.
 
 ## 출처
 

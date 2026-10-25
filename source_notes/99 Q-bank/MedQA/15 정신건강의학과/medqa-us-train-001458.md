@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. 리튬
 
 ## 해설
 
-
-탈모반과 손톱 짧음은 원형 탈모증(alopecia areata)과 연관된 강박성 손톱 물어뜯기(trichotillomania)와 구분된다. 초기 치료는 행동치료로 습관을 교정한다. 따라서 행동치료가 적절하다.
+스트레스 상황에서 머리카락을 만지고 국소 탈모가 나타나는 맥락은 반복적으로 머리카락을 뽑는 발모광을 시사한다. 손톱이 짧다는 소견은 동반 습관을 시사할 수 있지만 발모광 자체의 정의가 손톱 물어뜯기는 아니다. 제시된 선택지 중 습관반전훈련 등을 포함한 행동치료가 초기 접근이다. 원형탈모증과는 병력·두피 및 모발 소견을 통해 감별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001458
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 발모광을 손톱 물어뜯기·원형탈모증과 혼동한 오류 교정. 행동치료 원정답 유지.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

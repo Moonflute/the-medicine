@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "MSLT의 객관적 수면 경향 측정 역할은 유지하되 8분 이하 하나로 모든 과수면을 확진하지 않도록 제한."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
 ---
 
 # 이론 문제
@@ -38,10 +42,17 @@ D. 혈당 부하 검사
 
 ## 해설
 
-MSLT는 평균 수면 잠복기가 8분 이하일 경우 주간 졸음 정도를 객관적으로 평가하는 표준 검사입니다.
+MSLT는 주간에 잠드는 경향과 입면 시 REM 출현을 평가한다. 수면 부족·약물·수면 일정 등 검사 조건을 고려하며 잠복기 수치 하나만으로 모든 졸음 원인을 확진하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 과수면 장애 (Hypersomnolence Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/과수면 장애 (Hypersomnolence Disorder).md`
-- 학습 목표: 원문 핵심: - 수면 다원 검사 (Polysomnography): 야간 수면의 질 평가 및 다른 수면 장애(무호흡, 주기적 사지 운동증) 배제. - 다중 수면 잠복기 검사 (MSLT): 주간 졸음의 객관적 측정(평균 수면 잠복기 8분 이하 시 기면증 의심). - 기타: 수면 일지(최소 2주), 혈액 검사(갑상선 기능, 빈혈 등).
+- 학습 목표: MSLT의 주간 수면 경향 측정
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: MSLT의 객관적 수면 경향 측정 역할은 유지하되 8분 이하 하나로 모든 과수면을 확진하지 않도록 제한.
+- 근거: https://health.nih.gov/health-topics-a-z/narcolepsy

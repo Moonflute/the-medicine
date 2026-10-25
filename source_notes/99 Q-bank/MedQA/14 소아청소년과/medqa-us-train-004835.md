@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. B군 사슬알균
 
 ## 해설
 
+출생 15시간 내 고열·기면·호흡 이상·혈구 변화는 조기 신생아 패혈증을 시사하며 선택지 중 B군 연쇄상구균(S. agalactiae, D)이 적절하다. 이 아이는 39주 만삭아이고 본문 혈압을 임의로 쇼크성 저혈압으로 바꾸지 않는다. 표피포도상구균은 카테터 관련 신생아 감염도 일으킬 수 있고 수막구균도 패혈증을 유발하므로 피부 감염/수막염만 일으킨다는 식으로 배제해서는 안 된다.
 
-신생아 패혈증에서 가장 흔한 원인균은 B군 연쇄상구균이며, 조산아와 저혈압·저산소증을 동반한다. 클로스트리디움 보툴리눔은 보툴리즘을, 수막알균은 수막염을, 표피포도상구균은 피부 감염을 주로 일으킨다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 만삭 사례를 조산아로 읽히게 한 설명과 표피포도상구균/수막구균의 질환 범위를 잘못 제한한 감별을 교정했다.
+
 
 ## 출처
 

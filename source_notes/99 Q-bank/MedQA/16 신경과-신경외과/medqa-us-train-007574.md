@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 머리 CT 혈관조영술
 
 ## 해설
 
+점진적인 인지·일상기능 저하가 있어 치매 원인 평가가 필요하다. 보기 중 뇌 MRI(A)는 혈관성 병변, 종양, 수두증 등 구조적 원인을 평가하는 데 적합하다. 정상 MRI가 치매를 배제하거나 MRI만으로 알츠하이머병/루이소체치매를 확진하는 것은 아니다. 환각을 포함한 임상 양상과 인지평가를 종합하고, PET 등의 추가검사는 진단 불확실성과 결과가 치료에 미칠 영향에 따라 선택한다.
 
-진행성 치매의 원인 평가를 위해 가장 민감하고 특이적인 영상검사는 뇌 MRI이다. 이는 구조적 변화를 상세히 보여준다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. MRI A는 구조적 원인 감별 검사로 유지. 치매 전반에 가장 민감/특이적인 확진검사라는 해설 오류 제거.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng97/chapter/Recommendations
 
 ## 출처
 

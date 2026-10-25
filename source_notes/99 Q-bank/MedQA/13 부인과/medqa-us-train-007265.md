@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 다산
 
 ## 해설
 
+폐경 이행기에 지방조직의 방향화효소가 안드로겐을 에스트로겐으로 전환해 말초 에스트로겐 공급을 유지하면 질 건조 등 저에스트로겐 증상이 덜 뚜렷할 수 있다. 따라서 다른 증상이 적은 이유로 비만(B)이 가장 적절하다. 이 문항은 비만이 무월경의 직접 원인임을 증명하는 것이 아니며 5개월 무월경만으로 자연 폐경이 확정된 것도 아니다.
 
-비만은 지방 조직에서 에스트로겐이 말단 전환되어 월경 주기를 억제할 수 있다. 환자의 무월경은 비만에 의한 에스트로겐 증가가 가장 가능성 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비만이 무월경 자체를 일으키는 이유가 아니라 다른 저에스트로겐 증상이 적은 이유를 묻는다는 점을 교정했다.
+
 
 ## 출처
 

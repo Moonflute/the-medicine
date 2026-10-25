@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "비염의 전형적인 수양성 콧물·재채기·코막힘을 묻는 쉬운 복습은 유지. 같은 목표의 ab832 중복과 두 오연결은 보류."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrflnn0pxtty2q0k2nlcwnnjpd0wtevzqt3vnau91bhrpctrzq0rydvluc2w3d2dlruzzykdwevoybgpjrkpvyvc1cgrhbhpluzv0wkf8zglzzwfzzs0wmi1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -45,3 +50,8 @@ D. 코막힘
 - 내부 학습 노트: 알레르기 비염 (Allergic Rhinitis)
 - 원본 경로: `source_notes/02 Diseases/06 알레르기/알레르기 비염 (Allergic Rhinitis).md`
 - 학습 목표: 원문 핵심: - 알레르기 비염: 콧물(수양성), 재채기, 코막힘, 코·인두·눈의 소양감, 후비루, 기침, 피로 - 신체 진찰: 점막 부종, 창백한 점막, 코 용종(nasal polyp), 결막 충혈, Allergic shiner, allergic salute, nasal crease - 혈관부종: 뚜렷한 부종 형태, 두드러기 동반(IgE 매개 시 흔함) - 유전성/후천성 혈관부종: 얼굴/입술 부종, 위장관 부종(복통), 후두 부종(호흡곤란)
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 비염의 전형적인 수양성 콧물·재채기·코막힘을 묻는 쉬운 복습은 유지. 같은 목표의 ab832 중복과 두 오연결은 보류.

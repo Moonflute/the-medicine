@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 프레드니손
 
 ## 해설
 
+기관지확장제 후 FEV1/FVC 0.65는 지속적인 기류제한을 지지하며 만성 가래 기침은 만성기관지염 양상이다. 현재 선택지 중 A의 알부테롤이 필요시 증상 완화에 적합하다. 발열이나 급격한 호흡 악화가 제시된 것은 아니므로 급성 악화라고 단정하지 않는다. 지속 증상이 많으면 장기작용 기관지확장제 필요성도 평가한다.
 
-만성 기관지염이 지배적인 COPD 환자에게는 급성 악화를 완화하기 위해 단시간 작용성 베타2 작용제인 알부테롤이 가장 적절한 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 안정기 COPD의 현재 증상 완화를 급성 악화 치료로 바꾼 해설을 교정.
+- https://goldcopd.org/2026-gold-report-and-pocket-guide/
 
 ## 출처
 

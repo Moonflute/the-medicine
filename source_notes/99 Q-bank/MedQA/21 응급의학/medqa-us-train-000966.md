@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 활성탄 투여
 
 ## 해설
 
+부식성 세정제 섭취 후 연하통·침흘림·구토·저산소증이 있어 기도를 먼저 확보하고 안정화한 뒤 상부 위장관 내시경(A)으로 손상 정도를 평가한다. 증상성 환자에서는 일반적으로 섭취 후 12–24시간 내 평가를 고려한다. 구강 화상이 보이지 않아도 식도·위 손상은 배제되지 않는다. 위세척·구토 유도·활성탄은 부식제 손상을 평가·치료하는 적절한 대안이 아니다. 천공 등 금기가 의심되면 내시경 전 별도 평가가 필요하다.
 
-구강·인두 화학 화상 후 기도 부종 위험이 높으며, 손상 부위 평가와 식도·위 손상 여부 확인을 위해 상부 위장관 내시경이 필요하다. 따라서 내시경 검사가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 입안에 화상이 없다는 원문을 화학화상이 확인된 것처럼 바꾼 해설을 수정했다. 기도 확보 후 증상성 부식제 섭취의 내시경 A는 유지한다.
+- 공식/학회 근거: https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/
 
 ## 출처
 

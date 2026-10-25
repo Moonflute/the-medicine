@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 조산
 
 ## 해설
 
+늑골척추각 압통·발열·농뇨는 임신 중 신우신염에 합당하다. 염증 반응은 조기 자궁수축/조산(D) 위험을 높이며 특정33주 이후에만 나타나는 현상은 아니다. 임신 UTI는 저체중 등 다른 불량 임신 결과와도 연관되지만 본문이 강조하는 급성 합병증은 조산이다.
 
-임신 중 신우신염은 자궁수축을 촉진해 조산 위험을 높인다. 특히 33주 이후 감염은 조산 발생률을 증가시킨다. 따라서 위험이 증가하는 것은 조산이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 33주 이후에만 조산 위험이 증가한다는 불필요한 한정 삭제.
+- https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals
 
 ## 출처
 

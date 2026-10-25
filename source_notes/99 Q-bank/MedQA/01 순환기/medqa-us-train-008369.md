@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 니트로글리세린 투여 후 PCI 센터로 이송
 
 ## 해설
 
+허혈성 흉통이 지속되는 ACS 의심 환자에서는 금기가 없으면 아스피린을 부하용량으로 투여하고 재관류가 가능한 체계로 신속히 이송한다. C의 325 mg은 권고 부하용량 162–325 mg 범위에 포함된다. 이는 이후 유지용량과 다르며, 혈압 85/50 mmHg에서 니트로글리세린을 더 투여하지 않는다. 누락된 ECG의 구체적인 경색 위치는 판독하지 않았다.
 
-STEMI 환자에게는 즉시 항혈소판 치료가 필요하며, 325 mg 아스피린이 급성 관상동맥 폐쇄에 대한 표준 용량이다. 고용량 아스피린 투여 후 PCI 가능한 시설로 이송하면 재관류가 신속히 이루어진다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 아스피린 급성 부하용량과 유지용량을 구별하고 저혈압에서 추가 질산염을 피함.
+- https://www.ahajournals.org/hyp/doi/pdf/10.1161/CIR.0000000000001309
 
 ## 출처
 

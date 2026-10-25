@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 단일신경절제술
 
 ## 해설
 
+짧은 체위성 현훈과 유발되는 회전성 안진은 BPPV에 합당하다. 이석정복술(B)은 반고리관 안으로 들어간 이석을 난형낭 쪽으로 이동시켜 증상을 완화한다. 반고리관의 중간 부분에 이석을 남기는 치료가 아니다. 증상과 안진으로 침범 고리관을 평가하고 적합한 정복술을 선택한다.
 
-증상은 전정관에 위치한 이석이 움직여 발생하는 양성 발작성 체위성 현기증(BPPV)이다. 이석을 반고리관의 가장 중간 부분으로 이동시키는 이석 정복술(에플리 재위치법)이 치료에 가장 효과적이다. 따라서 이석 정복술이 치료법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 이석을 반고리관 중간으로 이동시킨다는 해설 오류를 난형낭으로 복귀시키는 원리로 교정.
+- 공식/학회 근거: https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/bppv/
 
 ## 출처
 

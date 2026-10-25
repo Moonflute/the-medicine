@@ -20,15 +20,17 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,13 +43,20 @@ related_drug_slugs:
 
 A. 대변 지방검사
 B. IgG 탈아미드화 글리아딘 펩타이드 검사
-C. IgA 항내배엽항체
+C. IgA 항근내막항체
 D. 피부단자검사
 
 ## 해설
 
 
 환자는 IgA 결핍 상태에서 설사와 영양실조가 나타나며, 셀리악병을 의심한다. IgA 결핍 환자는 전통적인 IgA‑anti‑tTG 검사가 음성일 수 있어 IgG 탈아미드화 글리아딘 펩타이드 검사가 진단에 더 민감하다. 따라서 다음 단계는 IgG 탈아미드화 글리아딘 펩타이드 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: IgA 결핍 시 DGP-IgG B는 유지. 원문 endomysial을 항내배엽으로 번역한 선지 오역 수정.
+- https://www.nice.org.uk/guidance/ng20/chapter/Recommendations
 
 ## 출처
 

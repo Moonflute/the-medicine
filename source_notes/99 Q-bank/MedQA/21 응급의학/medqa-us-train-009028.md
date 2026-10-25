@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 펜시클리딘(PCP)
 
 ## 해설
 
+심한 초조와 공격성에 안진이 동반되어 보기 중 PCP(D)가 가장 잘 부합한다. PCP는 해리 상태, 지각 변화와 안진을 일으킬 수 있으며 동공 크기는 일정하지 않다. 알코올 동시 사용과 두부외상도 상태 평가에 중요하다. 메스암페타민이나 LSD도 초조·정신병적 증상을 일으킬 수 있으므로 이런 증상 자체가 PCP에만 특이적이라는 뜻은 아니다. 이 문항에서는 안진을 포함한 전체 소견을 비교해야 한다.
 
-PCP(펜시클리딘) 중독은 극심한 불안, 공격성, 안진, 운동성 장애를 일으키며, CT가 정상일 수 있다. 환자의 행동과 증상이 PCP와 일치한다. 다른 물질은 이러한 급성 정신운동 증상을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. PCP D를 지지하는 안진과 공격성은 유지하되 다른 물질이 급성 정신운동 증상을 전혀 만들지 못한다는 배타적 주장을 교정한다.
 
 ## 출처
 

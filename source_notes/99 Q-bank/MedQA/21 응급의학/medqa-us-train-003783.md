@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 뇌파검사
 
 ## 해설
 
+혈당 35mg/dL와 의식소실·발작은 중증 저혈당이다. 기도·환기를 지지하며 정맥 포도당(A)을 즉시 투여하고 혈당을 반복 확인한다. 포도당 농도와 용량은 안전한 기관 프로토콜에 따른다. 원인이 교정되지 않은 채 진정제만 투여하거나 EEG를 먼저 시행해서는 안 된다. 이후 인슐린·운동·섭취를 검토하여 재발을 예방한다.
 
-심한 저혈당으로 의식 저하와 경련이 나타났을 때 가장 빠른 치료는 정맥 주사로 50 % 포도당을 투여하는 것이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정맥 포도당 A 확인. 반드시 50%만 가장 빠른 치료라는 불필요한 농도 단정 제거.
+- 공식/학회 근거: https://aci.health.nsw.gov.au/__data/assets/pdf_file/0007/196639/ACI-NSW-Adult-subcutaneous-insulin-prescribing-chart-user-guide.pdf
 
 ## 출처
 

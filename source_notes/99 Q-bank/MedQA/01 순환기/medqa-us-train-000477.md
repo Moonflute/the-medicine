@@ -22,17 +22,19 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 저마그네슘혈증
 
 ## 해설
 
+정답은 A이다. methadone과 ondansetron은 QT를 연장할 수 있고 QRS 축이 주기적으로 변하는 다형성 VT와 실신은 torsades de pointes에 합당하다. 전해질 이상이 없어도 약물성 QT 연장이 발생할 수 있다. 모든 다형성 VT가 긴 QT에서만 발생하는 것은 아니며 이 사례의 약물과 리듬 양상을 함께 해석한다.
 
-다형성 심실빈맥이 주기적으로 나타나고 전해질·심근 효소가 정상인 경우, QT 간격 연장이 가장 흔한 원인이다. 연장된 QT는 토르사드스(토르사드스) 발생을 일으켜 실신을 초래한다. 따라서 기저 원인은 QT 간격 연장이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: QT 연장의 핵심 약물 노출을 설명하고 모든 다형성 VT의 원인이라는 단정 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

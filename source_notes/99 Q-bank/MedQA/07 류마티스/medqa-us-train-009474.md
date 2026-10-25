@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,8 +48,14 @@ D. 간기능검사
 ## 해설
 
 
-강직성 척추염 환자에서 TNF 억제제 투여 전에는 결핵 감염 여부를 확인해야 하며, 이를 위해 PPD(투베르쿨린) 검사가 필요하다. 따라서 PPD 피부반응검사가 가장 적절한 다음 조치이다.
-다른 선택지는 TNF 억제제 시작 전 필수 검사가 아니다.
+충분한 NSAID·운동 치료에도 활동성 axial SpA가 지속되어 생물학적 치료를 고려한다면 잠복결핵 screening이 필요해 보기 C가 가장 부합한다. TST/PPD 외 IGRA가 가능하고 EULAR는 이용 가능하면 IGRA를 선호하며 증상·흉부영상도 함께 평가한다. 간검사·HBV 등 다른 기초 안전검사가 불필요하다는 뜻은 아니고, 검사결과와 감염 위험에 따라 치료 계획을 정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009474 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: TNF억제 전 잠복결핵 평가 C 유지, PPD만 유일검사·LFT불필요라는 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://ard.bmj.com/content/82/6/742
 
 ## 출처
 

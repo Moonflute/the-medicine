@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 휴식과 이부프로펜
 
 ## 해설
 
+정답은 D, 휴식과 이부프로펜이다. 산후 반복적인 손목 사용과 엄지를 굽히고 손목을 척측 편위할 때 유발되는 통증은 드퀘르벵 건초염을 시사한다. 활동 조절과 금기가 없는 경우의 NSAID는 적절한 보존적 치료이다. 엄지와 손목을 지지하는 탈착식 부목도 사용할 수 있으므로 '고정이 필요 없다'는 단정은 옳지 않다. 선택지 B의 석고붕대는 통상적인 초기 탈착식 부목과 구별한다. 최근 손을 짚고 넘어진 병력이 있으므로 실제 진료에서 해부학적 코담배갑 압통 등 골절 의심 소견이 있으면 주상골 등 손상에 대한 영상 평가가 필요하다.
 
-손목 통증이 엄지 움직임에만 국소적으로 나타나는 것은 드퀘르벵 건초염(엄지 힘줄염)이며, 초기 치료는 휴식과 NSAID(이부프로펜) 복용이다. 방사선 촬영이나 고정은 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 드퀘르벵 초기 휴식/NSAID 답 D 유지. 부목 고정과 외상 후 영상이 무조건 불필요하다는 기존 해설의 위험한 일반화 수정.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/de-quervains-tendinosis/
 
 ## 출처
 

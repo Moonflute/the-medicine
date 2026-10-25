@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,14 @@ D. 혈청학적 검사
 ## 해설
 
 
-Raynaud 현상은 차가운 자극에 의해 혈관 경련이 일어나 손가락이 창백해졌다가 회복되는 양상이다. 증상이 경미하고 2차 검사 없이 생활 습관 교정이 우선이다. 따라서 다음 단계는 혈청학적 검사가 아니라 생활 습관 및 보존적 관리이며, 제시된 선택지 중 가장 적절한 것은 혈청학적 검사가 아닌 다른 옵션이 없으므로 혈청학적 검사를 선택한다.
+추위·긴장에 유발되는 창백 후 홍조는 Raynaud 현상에 맞는다. 중년 남성에서 새로 시작한 비대칭 증상과 ESR 상승은 이차성 원인을 평가할 단서이므로 혈청학적 검사(D)가 적절하다. 생활조언만으로 충분하다고 한 기존 해설은 이 사례에 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-train-000750` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 42세 남성의 새 비대칭 Raynaud·ESR 상승은 이차 원인 평가 D. 검사 필요 없다고 하면서 D를 억지 선택한 해설을 교체. 색변화가 본문에 충분해 사진은 필수 아님.
+- 범위: evidence-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niams.nih.gov/health-topics/raynauds-phenomenon/diagnosis-treatment-and-steps-to-take
 
 ## 출처
 

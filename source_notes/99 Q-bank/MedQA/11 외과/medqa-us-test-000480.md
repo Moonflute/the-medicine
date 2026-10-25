@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 동맥 외상
 ## 해설
 
 
-갑작스러운 한쪽 다리 통증·청색증·맥박 약화는 급성 동맥 폐색을 의미하며, 가장 흔한 원인은 심장에서 유래한 혈전(동맥 색전)이다. 따라서 동맥 색전이 정답이다.
+갑작스러운 다리 통증·저림·창백·냉감과 맥박 저하는 급성 사지허혈을 시사한다. 불규칙한 맥박은 심방세동 관련 심장성 색전을 지지하므로 C가 가장 타당하다. 이는 모든 급성 사지허혈에서 색전이 가장 흔하다는 일반화는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000480`와 직접 대조했다.
+- 판정: 돌발 사지허혈·불규칙 맥박에서 심장성 동맥색전 C 유지. 모든 급성 사지허혈 원인이 색전이라는 과잉 일반화와 본문에 없는 청색증 제거.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,15 @@ D. 에피네프린을 투여하고 응급실로 보낸다
 ## 해설
 
 
-벌에 물린 후 급성 호흡곤란, 전신 발진, 혈압 저하가 없으며 아나필락시스가 의심된다. 근육 내 에피네프린 투여가 1차 치료이며, 이후 응급실로 이송한다.
+벌에 쏘인 직후 호흡곤란과 천명이 발생해 아나필락시스를 의심한다. 저혈압이 없다고 배제할 수 없다. 근육 내 에피네프린을 즉시 투여하고 응급실로 이송하는 D가 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-005974`와 직접 대조했다.
+- 판정: 벌독 노출 후 호흡곤란·천명으로 D 유지. 본문에 없는 전신 발진을 추가하거나 저혈압 부재를 진단 반대로 표현한 해설 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
+- https://www.resus.org.uk/professional-library/faqs/faqs-anaphylaxis
 
 ## 출처
 

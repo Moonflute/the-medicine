@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 질편모충
 
 ## 해설
 
+많은 호중구가 있으나 그람염색에서 세균이 보이지 않는 요도 분비물은 비임균성 요도염을 시사한다. 선지 중 A, C. trachomatis가 대표적인 원인이며 그람염색만으로 잘 관찰되지 않는 세포내 병원체이다. 이는 단순히 그람음성 막대균이 보였다는 뜻이 아니다. 다른 원인도 가능하므로 실제 원인 확인에는 적절한 NAAT를 사용한다.
 
-그람음성, 호중구가 풍부한 분비물은 비임균성 요도염을 의미하며, 가장 흔한 원인균은 클라미디아 트라코마티스이다. 대장균·S. saprophyticus·트리코모나는 증상·검사에서 차이를 보인다. 따라서 가장 가능성 높은 감염 원인은 클라미디아이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 그람염색에서 세균이 안 보인다는 것을 그람음성균이라는 의미로 혼동하지 않도록 교정.
 
 ## 출처
 

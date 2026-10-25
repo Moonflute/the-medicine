@@ -20,13 +20,27 @@ function readText(filePath) {
   return fs.readFileSync(filePath, "utf-8");
 }
 
+function writeScopedQbankText(filePath, text) {
+  // This Windows workspace can reject truncate-on-open while allowing r+.
+  // Keep existing files/permissions and truncate only after the complete write.
+  if (!process.argv.includes("--qbank-only") || !fs.existsSync(filePath)) {
+    fs.writeFileSync(filePath, text, "utf-8");
+    return;
+  }
+  const fd = fs.openSync(filePath, "r+");
+  try {
+    fs.writeFileSync(fd, text, "utf-8");
+    fs.ftruncateSync(fd, Buffer.byteLength(text, "utf-8"));
+  } finally { fs.closeSync(fd); }
+}
+
 function writeJson(fileName, value) {
-  fs.writeFileSync(path.join(DATA_ROOT, fileName), `${JSON.stringify(value, null, 2)}\n`, "utf-8");
+  writeScopedQbankText(path.join(DATA_ROOT, fileName), `${JSON.stringify(value, null, 2)}\n`);
 }
 
 function writePublicQbankJson(fileName, value) {
   ensureDir(PUBLIC_QBANK_ROOT);
-  fs.writeFileSync(path.join(PUBLIC_QBANK_ROOT, fileName), `${JSON.stringify(value)}\n`, "utf-8");
+  writeScopedQbankText(path.join(PUBLIC_QBANK_ROOT, fileName), `${JSON.stringify(value)}\n`);
 }
 
 function writePublicGeneratedJson(fileName, value) {
@@ -36,7 +50,7 @@ function writePublicGeneratedJson(fileName, value) {
 
 function writeQbankDataJson(fileName, value) {
   ensureDir(QBANK_DATA_ROOT);
-  fs.writeFileSync(path.join(QBANK_DATA_ROOT, fileName), JSON.stringify(value) + "\n", "utf-8");
+  writeScopedQbankText(path.join(QBANK_DATA_ROOT, fileName), JSON.stringify(value) + "\n");
 }
 
 function toSlug(value) {
@@ -1529,13 +1543,25 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, microbiology, phys
 }
 
 function qbankSection(body, title) {
-  const marker = `## ${title}`;
-  const markerIndex = body.indexOf(marker);
+  const lines = body.replaceAll("\r", "").split("\n");
+  const markerIndex = lines.findIndex((line) => line.trimEnd() === `## ${title}`);
   if (markerIndex < 0) return "";
-  const contentStart = markerIndex + marker.length;
-  const rest = body.slice(contentStart);
+  const rest = lines.slice(markerIndex + 1).join("\n");
   const nextHeading = rest.search(/\n##\s+/);
   return (nextHeading >= 0 ? rest.slice(0, nextHeading) : rest).trim();
+}
+
+function qbankExplanation(body, frontmatter) {
+  if (!["verified", "human-verified", "manual-reviewed", "machine-generated"].includes(readScalar(frontmatter.explanation_status))) return "";
+  const explanation = qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim();
+  // Old automatically generated notes have not had a content review. Do not
+  // silently expose them. Reviewed notes use option text, not shuffled letters.
+  if (readScalar(frontmatter.wrong_notes_review_status) !== "reviewed") return explanation;
+  const notes = qbankSection(body, "오답 포인트")
+    .replace(/<!--([\s\S]*?)-->/g, "")
+    .replace(/^(\s*-\s*(?:\*\*)?)[A-D][.)]\s+(?=\S)/gm, "$1")
+    .trim();
+  return [explanation, notes ? `오답 포인트\n${notes}` : ""].filter(Boolean).join("\n\n");
 }
 
 function normalizeQbankDiseaseTerm(value) {
@@ -1545,7 +1571,7 @@ function normalizeQbankDiseaseTerm(value) {
     .replace(/\s+/g, "");
 }
 
-function buildQbank() {
+function buildQbank({ write = true, cleanStale = true } = {}) {
   const sourceRoots = [
     { root: path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "MedQA"), questionBank: "clinical" },
     { root: path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "Theory"), questionBank: "theory" },
@@ -1594,9 +1620,7 @@ function buildQbank() {
     for (const match of optionsText.matchAll(/^([A-D])\.\s+(.+)$/gm)) options[match[1]] = match[2].trim();
     if (!question || Object.keys(options).join("") !== "ABCD") throw new Error(`Q-bank malformed question/options for ${id}`);
     const explanationStatus = readScalar(frontmatter.explanation_status) || "missing";
-    const explanation = ["verified", "machine-generated"].includes(explanationStatus)
-      ? qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim()
-      : "";
+    const explanation = qbankExplanation(body, frontmatter);
     const diseaseTerms = readList(frontmatter.related_diseases);
     const hasExplicitDiseaseSlugs = Object.hasOwn(frontmatter, "related_disease_slugs");
     const explicitDiseaseSlugs = readList(frontmatter.related_disease_slugs)
@@ -1657,14 +1681,16 @@ function buildQbank() {
     values.push(question);
     grouped.set(question.specialty, values);
   }
-  ensureDir(PUBLIC_QBANK_ROOT);
+  if (write) ensureDir(PUBLIC_QBANK_ROOT);
   const expectedFiles = new Set(["index.json", "specialties.json"]);
   const specialties = [...grouped.entries()].map(([name, items]) => {
     const slug = toSlug(name);
     const fileName = `${slug}.json`;
     expectedFiles.add(fileName);
-    writePublicQbankJson(fileName, items);
-    writeQbankDataJson(fileName, items);
+    if (write) {
+      writePublicQbankJson(fileName, items);
+      writeQbankDataJson(fileName, items);
+    }
     return { name, slug, count: items.length };
   }).sort((a, b) => a.name.localeCompare(b.name, "ko"));
   const index = questions.map((item) => ({
@@ -1683,14 +1709,15 @@ function buildQbank() {
     targetSlug: item.targetSlug,
     targetTitle: item.targetTitle,
   }));
+  if (!write) return { index, specialties, questions };
   writePublicQbankJson("index.json", index);
   writePublicQbankJson("specialties.json", specialties);
-  for (const entry of fs.readdirSync(PUBLIC_QBANK_ROOT, { withFileTypes: true })) {
+  for (const entry of cleanStale ? fs.readdirSync(PUBLIC_QBANK_ROOT, { withFileTypes: true }) : []) {
     if (entry.isFile() && entry.name.endsWith(".json") && !expectedFiles.has(entry.name)) {
       fs.rmSync(path.join(PUBLIC_QBANK_ROOT, entry.name));
     }
   }
-  for (const entry of fs.readdirSync(QBANK_DATA_ROOT, { withFileTypes: true })) {
+  for (const entry of cleanStale ? fs.readdirSync(QBANK_DATA_ROOT, { withFileTypes: true }) : []) {
     if (entry.isFile() && entry.name.endsWith(".json") && !expectedFiles.has(entry.name)) {
       fs.rmSync(path.join(QBANK_DATA_ROOT, entry.name));
     }
@@ -1760,7 +1787,7 @@ function main() {
       drugToc: { count: drugToc.items.length, source: "04 Pharmacology/_\uBAA9\uCC28.md" },
       labImgToc: { count: labImgToc.items.length, source: "06 Lab & Img/_\uBAA9\uCC28.md" },
       specialties: { count: specialties.length, source: "derived from diseases" },
-      qbank: { count: qbank.questions.length, source: "99 Q-bank/MedQA" },
+      qbank: { count: qbank.questions.length, source: "99 Q-bank/MedQA + 99 Q-bank/Theory" },
     },
   };
 
@@ -1827,11 +1854,29 @@ function main() {
   );
 }
 
-export { readList, splitSections, buildDiseases, buildDiseaseHierarchy, parseSpecialtyTocMarkdown };
+function updatedQbankManifest(manifest, count, generatedAt) {
+  return { ...manifest, domains: { ...manifest.domains,
+    qbank: { ...manifest.domains?.qbank, count, source: "99 Q-bank/MedQA + 99 Q-bank/Theory", generatedAt },
+  } };
+}
+
+export { readList, splitSections, buildDiseases, buildDiseaseHierarchy, parseSpecialtyTocMarkdown, buildQbank, qbankSection, qbankExplanation, updatedQbankManifest };
 
 // Importing parsers for contract tests must not run generation or write files.
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  if (process.argv.includes("--skills-only")) {
+  if (process.argv.includes("--qbank-only")) {
+    // Scoped source regeneration: no unrelated domains or stale-file deletion.
+    const qbank = buildQbank({ cleanStale: false });
+    writeJson("qbank-index.json", qbank.index);
+    writeJson("qbank-specialties.json", qbank.specialties);
+    const manifestPath = path.join(DATA_ROOT, "manifest.json");
+    if (fs.existsSync(manifestPath)) {
+      // Do not leave the overview at a pre-curation count or regenerate other domains.
+      const manifest = JSON.parse(readText(manifestPath));
+      writeJson("manifest.json", updatedQbankManifest(manifest, qbank.questions.length, new Date().toISOString()));
+    }
+    console.log(JSON.stringify({ questions: qbank.questions.length, specialties: qbank.specialties.length, staleFilesPreserved: true }));
+  } else if (process.argv.includes("--skills-only")) {
     ensureDir(DATA_ROOT);
     const skills = buildSkills();
     writeJson("skills.json", skills);

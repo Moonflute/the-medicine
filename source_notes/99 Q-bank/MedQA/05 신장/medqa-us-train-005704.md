@@ -18,15 +18,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: prognosis
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "문맥고혈압을 신정맥 압박으로 설명한 오류를 선천 간섬유화로 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,20 @@ D. 자해
 
 ## 해설
 
-
-다낭성 신장질환은 신장 낭종이 커지면서 신정맥을 압박해 문맥 고혈압을 유발한다. 이는 가장 위험한 합병증이다.
+출생 전 양수과소증·폐저형성과 크게 커진 고에코 다낭성 신장은 ARPKD를 시사한다. ARPKD에는 담관판 발달 이상·선천 간섬유화가 동반될 수 있어 문맥고혈압이 중요한 합병증이다. 신장 낭종이 신정맥을 눌러 문맥고혈압이 생긴다는 기전은 잘못이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005704
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 문맥고혈압을 신정맥 압박으로 설명한 오류를 선천 간섬유화로 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK1326/

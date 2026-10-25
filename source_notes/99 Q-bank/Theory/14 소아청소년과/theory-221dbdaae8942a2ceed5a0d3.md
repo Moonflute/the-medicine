@@ -12,36 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JiB7JWEIOq4ieyCrCDspp3tm4TqtbAgKFN1ZGRlbiBJbmZhbnQgRGVhdGggU3luZHJvbWUpLm1k"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: D
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "SIDS 목표에 잘못 연결된 연골무형성증을 영아 안전 수면 핵심으로 교체."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-연골 무형성증 X‑ray에서 특징이 아닌 것은?
+영아의 수면 관련 사망 위험을 줄이는 기본 원칙은?
 
 ## 선택지
 
-A. 긴 뼈의 단축 및 골간단 확장
-B. 샴페인 잔 모양 골반
-C. 척추체 후방 함몰
-D. 골밀도 증가
+A. 바로 눕혀 단단하고 평평한 별도 수면 공간에서 재우고 느슨한 침구를 두지 않는다
+B. 옆으로 고정하면 바로 눕히기보다 항상 안전하다
+C. 부드러운 베개·쿠션으로 몸 주변을 감싼다
+D. 성인 침대 공유가 별도 수면 공간보다 안전하다
 
 ## 해설
 
-X‑ray 소견은 긴 뼈 단축·골간단 확장, 샴페인 잔 모양 골반, 척추체 후방 함몰 등이 특징이며 골밀도 증가는 언급되지 않는다.
+같은 방의 별도 수면 공간을 사용하고 엎드림·경사면·소파 수면과 과열 등을 피한다. 안전 수면은 위험을 낮추는 원칙이며 모든 SIDS를 완전히 예방한다고 단정하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 영아 급사 증후군 (Sudden Infant Death Syndrome)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/영아 급사 증후군 (Sudden Infant Death Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 만 1세 미만의 영아가 갑자기 사망하고, 철저한 조사(임상 기록 검토, 사망 현장 조사, 부검 등) 후에도 명확한 사망 원인이 밝혀지지 않는 경우 - **원인**: 불명. 현재는 '삼중 위험 모델(Triple-risk model)'이 가장 널리 받아들여짐: (1) 영아의 내재적 취약성(뇌간 세로토닌 신호 전달 이상 등), (2) 결정적 발달 시기(생후 1~4개월), (3) 외부적 유발 요인(엎드려 재우기, 부드러운 침구, 과열 등)의 상호작용 - **기전**: 수면 중 호흡 조절, 각성 반응, 자율신경계 반응의 부…
+- 학습 목표: 영아 돌연사 위험 감소를 위한 안전 수면
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- https://doi.org/10.1542/peds.2022-057990

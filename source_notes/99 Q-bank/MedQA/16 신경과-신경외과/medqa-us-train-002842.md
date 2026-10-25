@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 비강 내 리도카인
 
 ## 해설
 
+반복되는 심한 일측 안와주위 통증, 동측 눈물·결막충혈·콧물 및 군집성 시간 양상은 군발두통에 합당하다. 급성 발작에는 고유량 100% 산소(B)를 비재호흡 마스크로 투여할 수 있다. 이는 저산소 치료가 아니라 고농도 산소 치료다. NICE는 최소 12 L/분을 권고한다. 수마트립탄도 일반적으로 급성기 선택지이나 이 환자는 관상동맥질환·협심증이 있어 적합하지 않다.
 
-환자는 밤에 발생하고 눈물·결막충혈·콧물 동반되는 일측성, 급성, 심한 통증의 두통을 보이며 이는 군집두통의 전형적인 발작 양상이다. 군집두통은 저산소 치료가 급성 발작 중단에 가장 효과적이며, 트립탄은 심근허혈 위험이 있어 금기이다. 따라서 100% 고유량 산소가 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고유량 산소를 저산소 치료라고 뒤집은 해설 오류를 교정했다. 관상동맥질환 환자의 군발두통 급성기 B를 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

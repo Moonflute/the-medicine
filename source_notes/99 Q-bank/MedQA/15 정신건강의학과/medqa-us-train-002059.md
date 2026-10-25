@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 주요우울장애
 
 ## 해설
 
+배우자 사망 한 달 후 상실에 초점을 둔 슬픔·불면과 간헐적 고인의 목소리 경험이 있지만 가족·친구와 교류와 교회 활동을 유지하여 정상 애도(B)가 가장 적합하다. 단지 6개월 미만이라는 이유로 정상과 병적 반응을 나누는 것은 틀리다. 애도 중에도 주요우울삽화가 생길 수 있으므로 전반적 무가치감, 지속적인 무쾌감·기능 저하와 자살위험을 평가한다.
 
-배우자 사망 후 1개월간 슬픔, 수면장애, 체중 감소가 있으나 일상 기능 유지와 자살 생각이 없으며, 증상이 6개월 미만이다. 이는 정상적인 애도 반응이며, 병리적 진단이 필요하지 않다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 6개월미만이면무조건정상애도라는잘못된시간기준제거. 유지기능/상실에초점둔B.
+
 
 ## 출처
 

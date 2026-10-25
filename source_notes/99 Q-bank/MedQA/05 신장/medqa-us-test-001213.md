@@ -19,13 +19,15 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 크랜베리 주스로 소변 산성화
 
 ## 해설
 
+정답은 B이다. 칼슘옥살산 결석에서 나트륨 섭취 감소는 요중 칼슘 배설을 줄이는 데 도움이 된다. 식이 칼슘을 과도하게 제한하면 장내 옥살산 흡수가 증가할 수 있어 일반적으로 정상 섭취를 유지한다. 견과·씨앗의 과량 섭취는 옥살산 부하를 늘릴 수 있다. 충분한 수분 섭취도 중요하며 B는 제시된 선택지 중 적절한 예방법이다.
 
-칼슘 옥살산 결석은 나트륨 섭취 증가로 소변에 칼슘과 옥살산이 배출돼 형성된다. 나트륨 섭취를 감소시키면 소변 칼슘 배설이 감소해 재발 위험이 가장 크게 낮아진다. 따라서 나트륨 섭취 감소가 최선의 예방책이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 나트륨이 소변 칼슘 배설을 높이는 기전과 식이 칼슘 정상 섭취를 구별.
+- https://uroweb.org/guidelines/urolithiasis/chapter/guidelines
 
 ## 출처
 

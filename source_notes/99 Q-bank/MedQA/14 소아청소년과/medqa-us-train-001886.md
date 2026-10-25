@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 광범위 항생제
 
 ## 해설
 
+초음파로 확인된 장중첩에서 안정되고 복막염·천공 소견이 없으면 공기 관장 정복(B)이 적절하다. 쇼크·천공·복막염 또는 비수술 정복 실패 시에는 수술 평가가 필요하므로 수술이 항상 불필요한 것은 아니다.
 
-복부 초음파로 장중첩(intussusception)이 확인되면 치료는 공기 조영 관장이 표준이다. 이는 비침습적이며 성공률이 높다. 수술이나 항생제는 필요하지 않으며, 단순 지지요법만으로는 해결되지 않는다. 따라서 다음 단계는 공기 조영 관장이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 안정된 장중첩의 공기 관장 B 유지. 수술은 결코 필요하지 않다는 설명 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/intussusception_guideline/
 
 ## 출처
 

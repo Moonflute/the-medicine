@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 펜터민과 토피라메이트 치료 후 3개월 뒤 추적
 ## 해설
 
 
-BMI 42 kg/m²인 환자는 병적 비만이며, 약물·행동 요법으로 체중 감소가 이루어지지 않았다. 비만대사수술(바리어트릭)은 BMI ≥ 40 kg/m²에서 권장되는 치료이다. 따라서 다음 적절한 처치는 비만대사수술이다.
+정답 B. BMI 42kg/m²이고 1년의 감독하 식이·운동에도 감량이 없으므로 비만대사수술 평가가 적절하다. 현행 ASMBS/IFSO는 BMI ≥35에서 동반질환 유무와 무관하게 수술을 권고하며 이는 전문 다학제 적합성·위험/이득·선호 평가를 거친다. 본문에는 비만 약물치료 실패가 없으므로 있었다고 쓰지 않는다. 약물 선택지도 존재하지만 수술 적합성을 평가할 근거가 충분하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007704 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 생활중재 실패는 제시됐지만 약물 실패는 없으므로 제거; BMI42에서 현행 수술 기준과 다학제 평가 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://asmbs.org/app/uploads/2022/10/ASMBS-IFSO-Guidelines-2022-PIIS1550728922006414.pdf
 
 ## 출처
 

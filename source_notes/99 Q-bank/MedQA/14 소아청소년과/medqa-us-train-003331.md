@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 염전이 동반된 장회전이상
 
 ## 해설
 
+간헐적 산통·무릎 당기기와 초음파 동심원 고리는 장중첩증을 시사한다. 6세의 비교적 높은 연령과 재발 경과에서는 구조적 선두점을 고려하며, 보기 중 메켈게실(B)이 적절하다. 어린 영아 장중첩증의 상당수는 특발성이므로 모든 소아에서 메켈게실이 가장 흔한 원인이라고 일반화할 수 없다.
 
-간헐적 복통과 무릎을 가슴쪽으로 당기는 행동은 장중첩(intussusception)에서 흔히 보이는 증상이다. 초음파에서 장의 동심원 고리(target sign)는 장중첩을 시사한다. 메켈 게실은 장중첩의 가장 흔한 선행 병인으로, 이 경우가 가장 가능성 높은 기저 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모든 소아 장중첩증의 가장 흔한 원인이 메켈게실이라는 잘못된 일반화를 연령·재발 시 선두점 감별로 한정했다.
+
 
 ## 출처
 

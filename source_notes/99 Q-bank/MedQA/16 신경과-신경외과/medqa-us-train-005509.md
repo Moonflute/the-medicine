@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 릴루졸
 
 ## 해설
 
+양측 상위운동신경원 하지위약·감각수준·요폐와 과거 다른 신경증상은 급성 염증성 탈수초성 척수염을 시사한다. 적절한 영상 등으로 압박성 병변·감염 등 다른 원인을 신속히 배제하며 주어진 치료 선택지에서는 고용량 정맥 메틸프레드니솔론(B)이 적절한 급성기 치료다. 혈장교환은 중증 스테로이드 불응성 탈수초 악화에서 구제치료가 될 수 있어 효과가 없다고 하지 않는다. 인터페론 베타는 장기 질환조절제로 급성 마비를 신속히 치료하는 대안이 아니다.
 
-다발성 경화증 급성 악화(재발) 시 급성 척수염 증상이 나타나며, 고용량 정맥 메틸프레드니솔론이 염증을 억제한다. 다른 치료는 급성 악화에 즉시 효과가 없다. 따라서 가장 적절한 처치는 정맥 메틸프레드니솔론이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성 염증성 척수증상에서 B를 유지하며 혈장교환이 급성기에 효과 없다는 오류를 스테로이드 불응 시 구제치료로 교정했다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng220/chapter/Recommendations
 
 ## 출처
 

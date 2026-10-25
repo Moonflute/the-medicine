@@ -16,32 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "EFW만 제시하고 미만·이하를 혼용한 정의를 SMFM의 EFW 또는 AC 10백분위 미만으로 명확화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-태아 성장 지연을 정의하는 초음파 기준은?
+SMFM의 실용적 FGR 초음파 정의에 해당하는 것은?
 
 ## 선택지
 
-A. 추정 체중이 10백분위수 미만
-B. 추정 체중이 20백분위수 미만
-C. 추정 체중이 5백분위수 미만
-D. 추정 체중이 2500 g 미만
+A. 재태연령별 EFW 또는 AC가 10백분위 미만
+B. EFW가 20백분위면 모두 FGR
+C. 출생체중이 2500g 미만이면 주수와 무관하게 모두 FGR
+D. 초음파에서 머리 크기가 정상이면 FGR는 불가능
 
 ## 해설
 
-FGR은 임신 주수별 추정 체중이 10번째 백분위수 이하일 때 진단한다.
+SMFM은 재태연령별 추정체중(EFW) 또는 복부둘레(AC) 10백분위 미만을 FGR의 실용적 초음파 정의로 사용한다. 작은 태아의 원인·혈류·성장 추이를 함께 평가하며 저출생체중과 혼동하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 태아 성장 지연 (Fetal Growth Restriction)
 - 원본 경로: `source_notes/02 Diseases/12 산과/태아 성장 지연 (Fetal Growth Restriction).md`
-- 학습 목표: 원문 핵심: - **정의**: 임신 주수별 태아 추정 체중(EFW)이 10백분위수 미만인 경우. 태아의 유전적 성장 잠재력을 달성하지 못한 병리학적 상태를 의미함. - **원인** - 태아 요인: 염색체 이상(삼염색체증 등), 선천성 기형, 자궁 내 감염(TORCH 등) - 태반 요인: 태반 기능 부전, 태반 박리, 제대 이상(단일 제대 동맥 등) - 모체 요인: 만성 고혈압, 당뇨, 자가면역질환, 영양 결핍, 약물 남용(흡연, 알코올 등) - **기전** - 주로 태반 기능 부전으로 인한 영양 및 산소 공급 저하 - 자궁 나선 동맥의 재형성…
+- 학습 목표: FGR의 주수별 생체계측
+
+## 오답 포인트
+
+- **20백분위:** 제시한 정의와 다르다.
+- **2500g만:** 절대 출생체중과 주수별 성장 크기는 다르다.
+- **정상 머리면 배제:** 비대칭적 성장 제한도 가능하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: EFW만 제시하고 미만·이하를 혼용한 정의를 SMFM의 EFW 또는 AC 10백분위 미만으로 명확화.
+- 근거: https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/

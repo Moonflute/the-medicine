@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,15 @@ D. 메토트렉세이트
 ## 해설
 
 
-섬유근육통은 광범위 통증과 피로가 특징이며, 1차 치료 약물은 신경통 완화와 수면 개선을 위한 삼환계 항우울제인 아미트립틸린이다. 따라서 가장 적절한 치료는 아미트틸린이다.
+정상 근력·반사·염증수치에 만성 광범위 통증·피로·수면장애가 있어 섬유근육통을 의심한다. 선택지 중 아미트립틸린(C)은 통증·수면 증상에 고려할 수 있다. 교육과 개인별 운동·수면·심리 관리가 기본이며 약물은 이득과 부작용을 평가해 선택한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-001117` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 섬유근육통과 선택지 C 유지. 아미트립틸린을 모든 환자의 필수 1차 치료로 단정하지 않고 운동·수면관리와 병행하는 선택약으로 제한.
+- 범위: evidence-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng193/chapter/recommendations
+- https://ard.bmj.com/content/76/2/318.long
 
 ## 출처
 

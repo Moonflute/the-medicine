@@ -19,15 +19,17 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. CT에서 폐 간질 내 낭성 공기 공간
 
 ## 해설
 
+간질성 폐섬유화에서는 섬유화된 폐의 구조가 파괴되어 벌집모양 낭성 공기 공간이 CT에 나타날 수 있으므로 D가 적합하다. 이는 일반적인 가역성 기도폐쇄와 다르다. 다만 항암치료력이 있으므로 약물성 등 이차 원인을 평가해야 하며, 이 소견만으로 특발성 폐섬유증을 확진하지 않는다.
 
-특발성 폐섬유증에서 CT는 폐 실질 내 미세한 기포성(벌집) 공기 공간을 보여준다. 이는 진행성 섬유화와 연관된 특징적인 소견이다. 따라서 예상되는 추가 소견은 CT에서 폐 간질 내 낭성 공기 공간이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 항암치료력을 무시하고 IPF를 확진하는 오용을 막고 벌집모양 D의 구조를 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

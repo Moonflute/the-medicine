@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 왼쪽 후대뇌동맥
 
 ## 해설
 
+좌측 얼굴과 우측 몸의 통각·온도각 소실, 좌측 Horner 증후군·실조 및 구역반사 저하는 좌측 외측 연수 증후군이다. 보기 중 좌측 PICA(B) 폐색이 가장 적합하며 척추동맥 병변도 이 영역 허혈을 일으킬 수 있다. 얼굴의 통각·온도각 소실은 삼차신경 척수핵/로 손상 때문이지 안면신경 운동마비를 뜻하지 않는다.
 
-얼굴 마비·복측 감각소실, 반대쪽 몸통·사지의 통각·온도소실은 외측 연수 증후군(왈렌베르크 증후군)이다. 이 증후군은 좌측 후하소뇌동맥(좌 PICA) 폐색으로 발생한다. 따라서 좌측 후하소뇌동맥이 가장 가능성 높은 원인 동맥이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 외측 연수 증후군을 얼굴 운동마비로 설명한 오류 교정.
 
 ## 출처
 

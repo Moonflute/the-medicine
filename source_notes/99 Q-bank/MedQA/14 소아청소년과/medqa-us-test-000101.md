@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 항-B 항체
 
 ## 해설
 
+O형 산모의 IgG 항-B 항체가 태반을 통과해 B형 영아 적혈구를 용혈시키는 ABO 부적합이 가장 적합하므로 D이다. 빈혈, 망상적혈구 증가와 간접 고빌리루빈혈증이 용혈을 뒷받침한다. 모체의 항-Rh 항체가 양성이어도 영아가 Rh(D) 음성이면 항-D가 표적으로 삼는 D항원이 없어 이 사례의 원인으로 적합하지 않다. 신생아기는 HbF 비율이 높아 겸상화가 이 시기 증상의 일반적인 설명이 아니며, 담도 기형의 담즙정체와도 빌리루빈 양상이 다르다.
 
-신생아는 모체의 Rh‑음성 혈액에 대한 항‑B 항체가 없으며, 혈액형 B와 Rh‑음성인 경우 항‑B IgG가 태반을 통과해 용혈을 일으킬 수 있다. 직접 빌리루빈이 거의 없고 총 빌리루빈이 11 mg/dL인 점은 항‑B 매개 용혈성 황달을 시사한다. 따라서 가장 가능성 높은 원인은 항‑B 항체이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 모체Rh음성과 항B항체 관계를 혼동한 해설 수정. O형모체 IgG항B가 B형영아 용혈 D 유발; 영아Rh음성이라 항D 설명안됨.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4317097/
+- https://www.ncbi.nlm.nih.gov/books/NBK2267/?report=classic
 
 ## 출처
 

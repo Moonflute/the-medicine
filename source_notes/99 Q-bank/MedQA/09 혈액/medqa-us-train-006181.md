@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 결핵
 ## 해설
 
 
-만성 골수성 백혈병은 고령 남성에서 백혈구 수가 크게 증가하고, 혈청 알칼리성 인산분해효소가 정상 또는 약간 감소하는 특징이 있다. 따라서 가장 가능성 높은 진단은 만성 골수성 백혈병이다.
+극심한 백혈구증가·전신증상과 비장비대 의심은 선택지 중 CML C를 고려하게 한다. 여기서 LAP는 백혈구 alkaline phosphatase 점수이지 혈청 간/뼈 ALP가 아니다. 제시25는 원문 정상20–100 범위 안이며 명백한 감소라고 바꾸지 않는다. CML에서 낮은 LAP가 전형적이지만 단독 결정검사는 아니고 감별계수·도말 및 BCR::ABL1 검사로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006181 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: LAP를 혈청 ALP로 혼동하고 정상범위25를 감소로 해석한 오류 교정; CML C는 추정이며 분자확인 필요.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

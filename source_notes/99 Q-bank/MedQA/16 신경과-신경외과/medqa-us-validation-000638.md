@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 이부프로펜
 
 ## 해설
 
+양측 조이는 양상, 중등 이하 강도와 편두통 동반증상 부재는 긴장형 두통에 맞는다. 급성 통증에는 ibuprofen(D) 같은 NSAID를 고려한다. 다만 격일로 수개월 지속되는 빈도이므로 두통일지와 약물과용 위험, 예방 치료 필요성도 평가해야 하며 무제한 반복 진통제 사용을 권하는 것은 아니다. 위험징후 없이 안정적인 긴장형 두통에서 영상검사를 일률적으로 시행하지 않는다.
 
-양측성 압박성 두통은 긴장형 두통이며, 특별한 이상 소견이 없으므로 비스테로이드성 소염제(이부프로펜)와 같은 진통제로 증상을 완화한다. 아미트립틸린은 예방적 약물이며, 영상검사나 안과 검사는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 긴장형 두통 급성 진통 D 유지. 빈번한 두통의 예방/약물과용 평가 필요성을 보완.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

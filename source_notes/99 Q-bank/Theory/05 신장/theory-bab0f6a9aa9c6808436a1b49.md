@@ -12,36 +12,49 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "모든 저나트륨혈증을 저삼투성으로 간주하지 않도록 분류 원칙을 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-저나트륨혈증 진단 시 혈장 삼투압을 측정하는 이유는?
+혈청 나트륨이 낮을 때 혈장 삼투질농도를 확인하는 주된 이유는?
 
 ## 선택지
 
-A. 혈장 삼투압 < 275 mOsm/kg이면 진성 저나트륨혈증을 의심한다
-B. 혈장 삼투압이 높을수록 저나트륨혈증이 심각하다
-C. 혈장 삼투압은 신장 기능을 직접 평가한다
-D. 혈장 삼투압은 전해질 농도와 무관하다
+A. 저삼투성 저나트륨혈증과 고혈당 등에 의한 비저삼투성 상태를 구분하기 위해
+B. 혈청 나트륨만으로 원인이 항상 확정되기 때문에
+C. 모든 경우에서 총 체내 나트륨이 부족함을 증명하기 위해
+D. 소변 검사나 체액 상태 평가는 전혀 필요 없기 때문에
 
 ## 해설
 
-혈장 삼투압이 275 mOsm/kg 미만이면 수분 과다에 의한 진성 저나트륨혈증을 시사한다. 이를 통해 가성 저나트륨혈증과 구분한다.
+저나트륨혈증을 확인하면 삼투질농도와 혈당 등을 검토한다. 저삼투성이라면 소변 삼투질농도·나트륨과 임상 상태를 이용해 원인을 좁힌다.
 
 ## 출처
 
 - 내부 학습 노트: 저나트륨혈증 (Hyponatremia)
 - 원본 경로: `source_notes/02 Diseases/05 신장/저나트륨혈증 (Hyponatremia).md`
-- 학습 목표: 원문 핵심: - 혈청 및 소변 전해질, 삼투압 측정 - 혈장 삼투압 < 275 mOsm/kg 시 진성 저나트륨혈증 의심 - 고혈당, 고지혈증 등 가성 저나트륨혈증 감별 - 간경변 환자의 경우: 식이 및 약물력(이뇨제, 하제) 조사, 신기능 평가, 위장관 출혈 확인, 감염 여부 확인(진단적 복수 천자 포함), 갑상선 및 부신 기능 평가
+- 학습 목표: 저나트륨혈증의 혈장 삼투질농도 확인
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- https://www.kjim.org/journal/view.php?number=170730

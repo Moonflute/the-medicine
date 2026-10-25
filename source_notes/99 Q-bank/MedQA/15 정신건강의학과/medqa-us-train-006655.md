@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 성적 가학증
 
 ## 해설
 
+자신이 고통·굴욕을 받는 행위와 성적 흥분이 연결된다는 점은 원문 C의 성적 피학적 관심을 설명한다. 타인에게 고통을 가하는 데서 흥분하는 성적 가학과는 다르다. APA는 합의된 비전형적 성적 관심 자체를 정신장애로 동일시하지 않으며 고통·기능 손상·위해 등을 별도로 평가하도록 구분한다. 본문의 멍·화상과 목 압박은 손상 위험과 동의/안전 평가가 필요한 단서이지 특정 행위의 안전성을 보장하는 예가 아니다.
 
-성적 피학증은 성적 활동에 대한 강박적 욕구와 타인에게 고통을 주는 행동을 포함한다. 환자는 성적 활동을 통해 흥분을 얻고자 하는 피학적 성향을 보인다. 의존성·회피성 인격장애와 성적 가학증은 동기와 행동 양상이 다르다. 따라서 가장 가능성 높은 진단은 성적 피학증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 피학증을 남에게 고통을 주는 행위로 뒤집은 해설을 고통을 받는 데서 흥분하는 특성으로 교정하고 성적 관심과 장애 진단을 구분했다.
+- https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM-5-Paraphilic-Disorders.pdf
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 산립종
 
 ## 해설
 
+모낭 부위를 포함한 급성 통증성 눈꺼풀 종괴, 발적과 농 배출은 A, 외다래끼(hordeolum)에 합당하다. 보통 속눈썹 모낭과 인접 샘의 세균성 감염으로 설명되며 안구 진균증을 뜻하지 않는다. 무통성·만성 마이봄샘 결절인 산립종과 구별된다.
 
-눈꺼풀에 고름이 동반된 통증성 부위는 모낭 감염인 다래끼(안구 마이코시스)와 일치한다. 다른 선택지는 통증이 없거나 다른 병변을 의미한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 다래끼를 안구 마이코시스(진균증)로 잘못 표시한 해설 교정.
 
 ## 출처
 

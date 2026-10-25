@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,9 +51,16 @@ D. 페넬진
 ## 해설
 
 
-미르타자핀은 α2‑항히스타민 효과와 H1 차단으로 식욕을 증가시키고 체중 증가를 유발한다. 또한 우울증 치료에 효과적이며, 환자는 저체중과 식욕 부진을 호소한다. 따라서 기분장애와 체중 증가 욕구를 동시에 해결할 가능성이 가장 높은 약물은 미르타자핀이다.
+미르타자핀은 α2 아드레날린 수용체 길항 작용을 가지며, H1 수용체 차단 등으로 식욕을 증가시키고 체중 증가를 유발한다. 또한 우울증 치료에 효과적이며, 환자는 저체중과 식욕 부진을 호소한다. 따라서 기분장애와 체중 증가 욕구를 동시에 해결할 가능성이 가장 높은 약물은 미르타자핀이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003198
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 미르타자핀의 'α2-항히스타민'이라는 수용체 분류 오류를 α2 길항과 H1 차단으로 정정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.cancer.gov/publications/dictionaries/cancer-drug/def/mirtazapine

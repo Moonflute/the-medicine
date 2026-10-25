@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 손을 자주 씻기
 
 
 환자는 열대 지방 여행 후 고열·근육통·발진·혈소판 감소를 보이며 뎅기열에 걸렸을 가능성이 높다. 뎅기열은 모기에 물려 전파되므로 가장 효과적인 예방은 모기 기피제 사용이다. 따라서 정답은 모기 기피제이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009343 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 여행 후 후안와통·발진·백혈구/혈소판감소의 뎅기 예방에서 모기 기피제 B 유지. 미국 성인 여행자에게 일률 뎅기 백신을 권하는 선지와 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/dengue.html
 
 ## 출처
 

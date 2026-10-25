@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -32,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-75세 남성이 운동 시 호흡곤란과 피로로 진료를 받으러 왔다. 결막이 창백하고 혈색소 8.5 g/dL, MCV 105 μm³이며 말초도말에서 큰 저과립 혈소판과 저분절 또는 고리 모양 핵의 호중구가 보인다. 골수는 과세포성이고 고리철적아구와 이형성이 있다. 가장 잘 설명하는 진단은?
+75세 남성이 운동 시 호흡곤란과 피로로 진료를 받으러 왔다. 결막이 창백하고 혈색소 8.5 g/dL, MCV 105 μm³이며 말초도말에서 큰 저과립 혈소판과 저분절 또는 고리 모양 핵의 호중구가 보인다. 골수는 과세포성이고 고리철적아구와 이형성이 있고 골수모세포는 4%이다. 가장 잘 설명하는 진단은?
 
 ## 선택지
 
@@ -44,7 +46,13 @@ D. 원발성 골수섬유증
 ## 해설
 
 
-거대핵성 골수이형성증후군은 거대핵성 호중구와 저과립 혈소판, 거대적혈구(MCV↑)를 보이며, 골수는 과세포성이다. 이는 급성 백혈병이나 재생불량과 구별되는 특징이다. 따라서 가장 잘 설명하는 진단은 골수이형성증후군이다.
+거대적혈구성 빈혈, 저과립 혈소판과 저분절 호중구(pseudo-Pelger-Huët 양상), 과세포성 골수의 다계열 이형성은 골수이형성증후군(C)에 부합한다. 원문의 골수모세포는 4%이며, 저분절을 거대핵성 호중구라고 부르는 것은 부정확하다. 고리철적아구는 보조 단서이며 분자·염색체 검사를 포함한 정식 분류가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000872 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고령의 cytopenia·여러 계열 이형성·고리철적아구는 MDS C. 거대핵성 호중구라는 오기와 blast 정보 누락 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

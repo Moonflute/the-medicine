@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -37,14 +39,17 @@ explanation_prompt_version: explanation-ko-v1
 ## 선택지
 
 A. 편도 탈출
-B. 구상 돌출
+B. 갈고리탈출(uncal herniation)
 C. 대뇌겸하 탈출
 D. 두개외 탈출
 
 ## 해설
 
+좌측의 종괴효과로 대상회가 대뇌겸 아래로 밀리면 전대뇌동맥 영역이 압박되어 우측 하지 우세 약화가 나타날 수 있다. 보기 중 대뇌겸하 탈출(C)이 이 양상에 가장 잘 맞는다. 갈고리탈출은 동측 제3뇌신경 압박에 의한 동공 이상과 연결되고, 편도탈출은 연수 압박을 초래할 수 있다. 영상 없이 실제 탈출을 확진했다는 뜻은 아니다.
 
-두부 외상 후 급성 악화된 두통·오심·편측 하반신 마비는 대뇌 겸하 탈출(뇌압 상승)과 일치한다. 편도 탈출·구상 돌출은 뇌실 내 압력 변화와 다르게 나타난다. 따라서 대뇌 겸하 탈출이 정답이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 대뇌겸하 탈출 C 유지. 전대뇌동맥 압박과 반대측 하지 우세 결손이라는 해부 근거를 보완하고 uncal 번역 수정.
 
 ## 출처
 

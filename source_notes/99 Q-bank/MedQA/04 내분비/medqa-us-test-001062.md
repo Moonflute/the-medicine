@@ -19,17 +19,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 프로프라놀롤
 
 ## 해설
 
+정답은 D이다. 항갑상샘약 중단과 감염 뒤 고열·심한 빈맥·의식변화가 나타나 갑상샘폭풍이 의심된다. 제시된 약 중 β차단제 propranolol이 교감신경 증상 완화에 해당한다. 그러나 이것만 투여하고 끝내는 응급질환이 아니며 항갑상샘약, 그 뒤 요오드, glucocorticoid와 지지요법·유발 원인 치료가 함께 필요하다. 저혈압이나 저심박출 심부전이 있으면 β차단으로 악화될 수 있어 혈역학적 평가와 집중 감시하에 신중히 선택한다.
 
-고열, 빈맥, 불안, 땀, 손떨림 등 갑상선 폭풍의 전형적인 증상이 나타난다. 급성 증상 완화를 위해 베타 차단제인 프로프라놀롤을 먼저 투여한다. 따라서 정답은 프로프라놀롤이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 갑상샘폭풍에 propranolol 단독이면 충분하다는 인상을 없애고 저혈압 시 위험과 복합치료를 명시.
+- https://doi.org/10.1089/thy.2016.0229
 
 ## 출처
 

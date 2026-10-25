@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,14 @@ D. 소변 항원검사
 ## 해설
 
 
-레지오넬라 폐렴은 저나트륨혈증을 동반할 수 있으며, 진단에 가장 유용한 검사는 소변에서 레지오넬라 항원 검출이다. 따라서 정답은 소변 항원검사이다.
+폐렴·설사·혼돈·저나트륨혈증은 Legionella를 의심하게 하며 선지 중 소변항원검사(D)가 신속한 원인 확인에 유용하다. 주로 L. pneumophila 혈청군 1을 검출하므로 음성이라고 모두 배제할 수 없고 하기도 검체 배양/분자검사를 함께 확보하는 것이 권고된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000373 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Legionella 의심에서 소변항원 D 유지. 모든 균종·혈청형을 배제 가능한 단독 최상검사라는 일반화 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html
 
 ## 출처
 

@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "우울기분/흥미상실을 포함한 5개·2주 기준은 중요한 쉬운 복습. 이 문항은 최소 증상 수만 묻고 전체 확진을 대신하지 않음."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 6개
 
 - 내부 학습 노트: 주요 우울 장애 (Major Depressive Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/주요 우울 장애 (Major Depressive Disorder).md`
-- 학습 목표: 원문 핵심: - DSM-5 기준: 우울한 기분 또는 흥미 상실을 포함하여 5개 이상의 증상이 2주 이상 지속되어야 함. - 주요 증상: 우울감, 무쾌감증, 죄책감, 무가치감, 에너지 부족, 집중력 저하, 식욕/수면 변화, 정신운동성 초조 또는 지체, 자살 사고. - 소아/청소년: 과민한 기분으로 나타날 수 있음.
+- 학습 목표: 주요우울삽화의 최소 증상 수와 필수 핵심 증상을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 우울기분/흥미상실을 포함한 5개·2주 기준은 중요한 쉬운 복습. 이 문항은 최소 증상 수만 묻고 전체 확진을 대신하지 않음.

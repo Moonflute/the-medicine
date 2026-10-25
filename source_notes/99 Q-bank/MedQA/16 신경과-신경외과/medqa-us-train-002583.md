@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 뇌파검사
 
 ## 해설
 
+첫전신발작과 낙상후 두통·지속혼란이 있어 급성구조병변/출혈을 평가할 두부CT(C)가 적절하다. 본문환자는 사람·장소만인지하므로 완전히회복해 정상이라고 설명하면 안 된다. 발작이이미멈춘상태에서 lorazepam을 일률적으로추가하지 않으며, 이후원인검사/EEG도 필요하다.
 
-첫 발작 후 1시간 이내에 의식이 회복되었고 신경학적 검사가 정상인 경우, 뇌 손상을 배제하기 위해 머리 CT를 시행한다. CT는 급성 출혈이나 골절을 빠르게 확인한다. 따라서 머리 CT가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 여전히혼란/불완전지남력인데 의식완전회복/정상진찰로 설명한 오류교정. C CT 유지.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng232/chapter/Recommendations
 
 ## 출처
 

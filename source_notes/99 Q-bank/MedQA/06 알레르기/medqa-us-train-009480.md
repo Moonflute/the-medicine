@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,6 +53,14 @@ D. 기관내 삽관
 
 아나필락시스는 급성 호흡곤란, 저혈압, 두드러기, 입술 부종을 동반한다. 에피네프린 근육주사는 1차 치료로 생명을 구한다. 따라서 에피네프린 근육주사가 가장 적절한 처치이다.
 다른 약물은 1차 치료가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-009480`와 직접 대조했다.
+- 판정: 음식 노출 후 저혈압·천명·두드러기는 아나필락시스이고 IM 에피네프린 A가 최우선. 원문과 치료근거 확인.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
+- https://www.resus.org.uk/professional-library/faqs/faqs-anaphylaxis
 
 ## 출처
 

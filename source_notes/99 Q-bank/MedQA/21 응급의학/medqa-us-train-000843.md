@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 화농성 콧물 및 우측 뺨의 압통
 
 ## 해설
 
+안구운동 시 통증과 운동제한(C), 안구돌출·복시·발열은 단순 격막앞 눈꺼풀 감염보다 안와 봉와직염(격막뒤 감염)을 시사한다. 시력 상실·두개내 파급 위험이 있어 입원, 정맥 항생제와 긴급 안과·이비인후과 평가가 필요하다. 안와농양은 동반 합병증으로 영상 등으로 확인하는 것이며 봉와직염과 같은 말이 아니다. 백혈구 증가나 부비동염 소견만보다 안구운동 통증이 안와 침범의 직접적 단서다.
 
-안구 통증, 안구 운동 시 통증, 안와 부종, 고열은 안와농양(orbital cellulitis)으로, 이는 안와 조직 감염을 의미한다. 정맥 항생제 투여는 감염을 억제하는 가장 강력한 근거이다. 따라서 항생제 투여 근거는 안구 운동 시 통증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. orbital cellulitis를 안와농양과 동의어로 쓴 오류를 교정했다. 안구운동 통증 C는 격막뒤 감염을 시사하는 정맥 항생제 적응증이다.
+- 공식/학회 근거: https://www.rch.org.au/clinicalguide/guideline_index/Periorbital_and_orbital_cellulitis/
 
 ## 출처
 

@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 흡입 테오필린
 
 ## 해설
 
+산소와 함께 반복/집중 흡입 albuterol A를 신속 시행한다. 가정에서 한번 흡입했어도 적절한 용량·전달 방식의 응급 SABA를 생략하지 않는다. 중증에서는 ipratropium·조기 전신 steroid도 병행하지만 steroid가 즉각 기관지확장제를 대신하지 않는다. 산소화·환기·피로를 감시한다.
 
-중증 천식 악화에서 흡입제만으로 호전되지 않을 경우, 전신 스테로이드(정맥 코르티코스테로이드)가 급속히 염증을 억제한다. 따라서 정맥 코르티코스테로이드 투여가 다음 단계로 가장 적절하다. 흡입 알부테롤은 이미 사용 중이며 추가 흡입제만으로는 효과가 제한적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A와 B를 정답으로 쓴 해설 불일치를 중증악화의 반복 SABA로 교정.
+- https://ginasthma.org/reports/
 
 ## 출처
 

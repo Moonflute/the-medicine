@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,11 @@ D. 우측 시야 결손
 
 ## 해설
 
+급성 현훈·구토·균형 및 보행장애는 소뇌 병변을 시사한다. 사지 근력과 이해력 등이 보존되어 있어 제시된 추가 소견 중 빠른 교대운동을 수행하지 못하는 소뇌성 운동교대장애(B)가 가장 적절하다. 현재 CT 이미지는 제공되지 않아 출혈 여부나 뇌간 침범을 단정할 수 없으며, 실제 진료에서는 긴급 뇌졸중 평가가 필요하다.
 
-뇌 CT에서 소뇌와 뇌간을 포함한 후두부 출혈성 병변이 보이면, 소뇌와 뇌간을 담당하는 교대 운동을 수행하지 못하는 것이 전형적인 신경학적 결손이다. 따라서 반복적인 교대 운동 수행 불능이 예상된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 보이지 않는 CT의 후두부/뇌간 출혈을 확정한 해설 제거. 급성 현훈·보행실조·구토로 소뇌 국소화하여 교대운동장애 B 판단 가능.
 
 ## 출처
 

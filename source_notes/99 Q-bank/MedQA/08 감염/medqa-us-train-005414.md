@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 안저검사를 포함한 신경학적 진찰
 ## 해설
 
 
-CD4 65인 환자는 중증 면역결핍 상태이며, 급성 의식 변화 시 가장 먼저 해야 할 일은 신경학적 평가와 안저검사를 포함한 전신 검진이다. 이는 뇌압 상승이나 감염을 빠르게 파악한다. 따라서 가장 적절한 초기 처치는 안저검사를 포함한 신경학적 진찰이다.
+급성 의식장애에서는 기도·호흡·순환·혈당 평가와 함께 신속한 신경진찰/안저평가 D로 국소결손·뇌압 관련 단서를 확인한다. 이 환자의 심한 면역저하와 의식저하는 요추천자 전 영상 평가를 고려할 중요한 조건이며 정상 안저가 모든 압력 위험을 배제하지 않는다. 수막염/뇌염이 의심되면 필요한 배양·경험적 치료를 CT나 LP 때문에 지연하지 않는다. CD4 재검 자체가 우선 응급 대응은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005414 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 초기 신경진찰 D 유지; 정상 안저로 두개내압 상승을 배제하거나 영상/감염치료를 지연할 수 없음을 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

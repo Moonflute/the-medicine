@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. ETEC에 의한 여행자 설사
 ## 해설
 
 
-HIV 환자에서 CD4 88/mm³, 물 설사, 체중 감소는 크립토스포리디움 감염을 강하게 시사한다. 따라서 가장 가능성 높은 진단은 크립토스포리디움증이다.
+CD4 88/µL와 지속적인 물설사·복통은 선택지 중 cryptosporidiosis A에 가장 부합한다. 진행 면역저하에서는 담도 침범으로 우상복부 증상이 생길 수도 있다. 다만 현재 체중감소는 본문에 없고 병원체 검사도 대기 중이므로 임의 추가하거나 확진되었다고 하지 않는다. 대변의 적절한 항원/분자/염색 검사로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007634 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문 없는 체중감소를 추가한 해설 교정; advanced HIV watery diarrhea/RUQ의 Crypto A 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

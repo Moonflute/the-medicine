@@ -21,11 +21,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,15 @@ D. 페닐에프린
 ## 해설
 
 
-벤자틴 페니실린 투여 후 2시간 내에 나타난 두통, 근육통, 오한은 Jarisch‑Herxheimer 반응이며, 증상 완화를 위해 비스테로이드성 소염진통제(NSAID)가 권장된다. 이부프로펜은 이러한 반응의 증상 완화에 가장 적절한 약물이다. 세프트리악손은 항생제가 아니며, 에피네프린·페닐에프린은 알레르기 반응 치료에 사용된다.
+매독 치료 후 2시간 내 발열·오한·두통·근육통은 Jarisch–Herxheimer 반응에 합당하고 해열진통제인 ibuprofen B로 증상을 완화할 수 있다. 이는 penicillin 알레르기와 구별한다. 새 두드러기·기도/호흡 증상·순환 허탈이 생기면 아나필락시스 등을 재평가해야 한다. Ceftriaxone은 cephalosporin 항생제이나 이 반응 완화를 위한 추가 항생제가 아니다. Epinephrine은 아나필락시스의 일차약이며 phenylephrine을 대체 일차약으로 보아서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002239 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Jarisch–Herxheimer 반응의 해열 진통 B 유지. Ceftriaxone이 항생제가 아니라는 오류와 phenylephrine을 아나필락시스 치료로 보는 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/std/treatment-guidelines/syphilis.htm
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
 
 ## 출처
 

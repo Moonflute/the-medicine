@@ -23,15 +23,17 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 만성 기관지염
 
 ## 해설
 
+야간과 운동 시 악화되는 발작성 마른기침·호흡곤란과 천명, 폐쇄성 폐기능 소견은 보기 중 천식(C)에 가장 합당하다. FEV1/FVC 감소만으로 천식의 가역성이 입증된 것은 아니며, 필요하면 기관지확장제 반응 등 변동성 기류제한을 확인한다. 만성기관지염/COPD도 폐쇄성 패턴을 보일 수 있지만 이 사례의 짧은 발작적 경과와 야간 증상이 천식을 더 지지한다.
 
-반복적인 기침·천명·FEV1/FVC 65%는 기류 제한을 나타내며, 가역성 폐기능 저하가 특징인 천식이다. 폐렴·GERD·만성 기관지염은 다른 폐기능 패턴을 보인다. 따라서 천식이 가장 가능성 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 가역성이 측정된 것처럼 쓰고 만성기관지염이 다른 폐기능 패턴이라고 한 과장 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

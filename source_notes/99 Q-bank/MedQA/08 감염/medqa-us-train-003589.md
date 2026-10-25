@@ -21,11 +21,13 @@ question_type: association
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 말초혈액도말의 하인츠 소체
 ## 해설
 
 
-Mycoplasma 폐렴에서는 면역 복합체가 보체를 소모해 혈청 보체 수치가 감소한다. 따라서 흔히 동반되는 검사 소견은 보체 수치 감소이다.
+젊은 성인의 아급성 비정형 폐렴과 창백은 Mycoplasma와 관련된 한랭항체 용혈을 의심하게 한다. 한랭반응 IgM이 적혈구 항원에 결합하여 보체를 활성화하므로 보체 수치가 낮아지는 A가 가능하다. 이는 표적 세포에 대한 항체 매개 기전이지 단순 제III형 면역복합체 침착으로 설명할 현상이 아니다. 누락된 X선의 구체적 소견을 관찰했다고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003589 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Mycoplasma 관련 한랭항체 용혈의 보체 소비를 면역복합체 반응으로 설명한 오류 교정; A 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

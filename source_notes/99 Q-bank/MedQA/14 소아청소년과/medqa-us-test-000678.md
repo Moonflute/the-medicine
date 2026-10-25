@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 의학적 질환을 배제한다
 
 ## 해설
 
+스스로 이동하지 못하는 생후 2개월 영아의 흉부·등 다발 멍과 결막하 출혈은 설명된 낙상 외에 학대성 손상도 의심하게 한다. 빈맥과 빈호흡이 있으므로 먼저 기도·호흡·순환을 평가하고 안정화하면서 손상 평가를 진행한다. 제시된 선택지 중 초기 두부 손상 평가에는 비조영 두부 CT(A)가 적합하다. 영아의 두개내 손상은 뚜렷한 신경학적 징후 없이도 있을 수 있다. 아동보호·사회복지 개입과 다른 손상 및 출혈성 질환 평가는 함께 필요하지만, 이를 위해 급성 의학적 평가를 지연해서는 안 된다.
 
-심한 외상 후 의식 저하 없이 두부 외상 증상이 있을 때는 두부 손상의 가능성을 배제하기 위해 두부 CT를 즉시 시행한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 막연한 심한 외상/의식저하 없음 설명을 비이동성 영아의 다발 멍·결막출혈/학대성 두부손상 평가 근거로 교체. ABC 안정화가 선행함을 명시하고 A 유지.
+- https://gravitas.acr.org/ACPortal/GetDataForOneTopic?topicId=101
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11914366/
 
 ## 출처
 

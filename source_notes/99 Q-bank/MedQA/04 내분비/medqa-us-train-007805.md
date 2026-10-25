@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 17α-수산화효소 결핍
 ## 해설
 
 
-무월경, 털이 없는 질, 고혈압, 저칼륨혈증은 17α-수산화효소 결핍에서 나타나는 46,XX 여성의 특징이다. 이 효소 결핍은 부신에서 알도스테론 전구체를 생성하지만 성호르몬 합성을 차단해 저칼륨성 고혈압을 일으킨다. 따라서 정답은 D이다.
+정답 D. 성호르몬 부족에 의한 사춘기 발달 지연/무월경과 저칼륨성 고혈압은 17α-hydroxylase/17,20-lyase 결핍에 부합한다. DOC 등 mineralocorticoid 작용을 가진 전구체가 증가하고 renin/aldosterone은 억제될 수 있다. 자궁경부가 촉지되지 않는다고 46,XX로 확정하면 안 되며, 46,XY에서도 여성형 외부생식기와 자궁 부재로 발현할 수 있어 핵형·호르몬·영상 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007805 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경부 부재를 46XX로 확정한 오류 제거. CYP17A1 결핍은 DOC/corticosterone 증가로 저칼륨성 고혈압, 성호르몬 부족.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://medlineplus.gov/genetics/condition/17-alpha-hydroxylase-17-20-lyase-deficiency/
 
 ## 출처
 

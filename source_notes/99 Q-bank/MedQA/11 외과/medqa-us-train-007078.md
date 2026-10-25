@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,6 +46,13 @@ D. 환자 신원 확인
 
 
 수술 부위 오류를 방지하는 가장 효과적인 전략은 수술 전 ‘타임아웃’ 절차로, 모든 팀원이 환자, 수술 부위, 절차를 확인한다. 체크리스트와 신원 확인도 중요하지만, 타임아웃이 직접적인 부위 확인을 보장한다. 따라서 수술 전 타임아웃 시행이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007078 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 잘못된 수술부위의 재발 방지를 위한 절개 전 팀 전체 time-out A가 Universal Protocol과 일치한다. 체크리스트·신원 확인은 함께 필요하지만 이 문제의 직접적 예방 단계와 구분했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001458
 
 ## 출처
 

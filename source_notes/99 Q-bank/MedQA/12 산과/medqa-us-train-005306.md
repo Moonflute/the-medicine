@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 사지 기형
 
 ## 해설
 
+발프로산의 임신 초기 노출은 신경관 결손, 특히 척추갈림증 위험을 높이므로 선택지 중 B가 적절하다. 신경관은 임신 초기에 닫히며 36주 복용 때문에 그때 새로 결손이 생긴다는 뜻은 아니다. 모든 노출 태아가 결손을 갖는 것도 아니고 약물을 갑자기 중단해서도 안 되며 전문 진료가 필요하다.
 
-발프로산은 태아의 신경관 폐쇄 위험을 크게 증가시킨다. 임신 36주에 복용 중인 경우, 신경관 결손(예: 척추이분증)이 가장 흔한 선천적 이상이다. 따라서 정답은 B, 신경관 결손이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 36주에 새로 신경관이 닫히는 것이 아닌 임신 초기 약물 노출 위험임을 교정.
+- https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cef3e335-5891-412f-89c4-79fcd2f145b7
 
 ## 출처
 

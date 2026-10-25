@@ -29,6 +29,10 @@ explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+curation_status: "retained"
+curation_reason: "이식 2개월 뒤 tubulitis·arteritis·단핵구 침윤, DSA/C4d 음성의 세포매개 거부반응과 methylprednisolone 초기 치료가 원문과 일치."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
 ---
 
 # MedQA US 임상문제
@@ -53,3 +57,9 @@ D. 혈장교환
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001169
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 이식 2개월 뒤 tubulitis·arteritis·단핵구 침윤, DSA/C4d 음성의 세포매개 거부반응과 methylprednisolone 초기 치료가 원문과 일치.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

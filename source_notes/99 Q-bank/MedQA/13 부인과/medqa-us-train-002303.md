@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,12 +42,17 @@ explanation_prompt_version: explanation-ko-v1
 A. NSAID
 B. 류프로라이드
 C. 양측 난관난소절제술을 포함한 전자궁적출술
-D. 복강경검사와 병변 절제
+D. 복강경검사와 병변 소작
 
 ## 해설
 
+주기 골반통·성교통·불임은 자궁내막증을 시사한다. 임신을 원하는 환자에서는 선택지 중 자궁을 보존하는 복강경 병변 소작·제거(D)를 고려한다. 병기·난소예비력·다른 불임 원인에 따라 수술의 이득은 달라 완치나 임신을 보장하지 않는다. GnRH 억제는 복용 중 임신을 촉진하는 방법이 아니다.
 
-불임을 동반한 자궁내막증은 복강경 검사를 통해 병변을 확인하고 절제하는 것이 가장 확실한 치료이다. 이는 통증 완화와 임신 성공률을 높인다. 따라서 복강경 검사와 병변 절제가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문의ablation을절제로바꾼번역복원 및 불임수술효과의개별화.
+- https://academic.oup.com/hropen/article/2022/2/hoac009/6537540
 
 ## 출처
 

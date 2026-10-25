@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 소변 단백 수치
 ## 해설
 
 
-고칼슘혈증, 빈혈, 신장 기능 저하, 골통은 다발골수종을 시사한다. 확진을 위해 골수 내 악성 플라즈마세포 확인이 필요하므로 골수생검이 가장 정확한 검사이다. 다른 선택지는 진단에 직접적이지 않다.
+빈혈·신손상·골통과 고칼슘혈증은 MM을 의심하게 하며 선택지 중 골수검사 A로 클론성 형질세포를 확인하는 것이 가장 확진에 가깝다. 실제 진단은 단클론단백/유리경쇄·영상 및 골수 소견을 통합한다. 한편 고칼슘혈증에서는 PTH가 억제되어야 하므로 원문의 정상범위 PTH를 곧 비PTH성 확진이라고 해석하면 안 되며 정확한 수치·동반 원인도 재평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004773 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CRAB 조합의 골수검사 A 유지하되 정상 PTH는 고칼슘 상황에서 부적절하게 비억제된 값일 수 있음을 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

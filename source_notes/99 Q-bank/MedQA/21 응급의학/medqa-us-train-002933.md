@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 반결장 절제술
 
 ## 해설
 
+복부 수술·소생술 후 팽팽한 복부와 저혈압·핍뇨·장기기능 악화는 복부 구획증후군을 강하게 시사한다. 복강내압을 평가하며 명백한 ACS에서는 감압 개복과 임시 복부 폐쇄(A)가 필요하다. 상승한 복강내압은 정맥 환류를 방해하면서 측정 CVP를 높일 수 있으므로 높은 CVP만으로 적절한 전부하를 보장하지 못한다.
 
-복부 팽창, 저출량, 높은 CVP는 복부 구획 증후군을 시사한다. 손상된 복부를 개방하고 플라스틱 시트로 임시 폐쇄하는 손상 제어 복부술이 권장된다. 따라서 복부를 다시 열고 플라스틱으로 덮는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 복부 구획증후군의 감압 A 확인. 높은 CVP 자체가 순환혈량 충분의 증거가 아님을 보완.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC3680657/
 
 ## 출처
 

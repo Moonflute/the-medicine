@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 정맥 내 알테플라제 치료
 
 ## 해설
 
+완전히 소실된 일과성 편측 증상은 TIA에 합당하며 출혈이 배제되고 심방세동이 확인되지 않은 상황에서 항혈소판 치료(C)를 신속히 시작하는 것이 적절하다. 좌측 경동맥45%는 내막절제술 적응증이 아니다. 그러나 모든70% 미만 협착에 수술이 배제되는 것은 아니며 증상성50–69%의 선별 환자도 수술 이득을 평가할 수 있다. 고위험 TIA에서는 출혈 위험·금기 등을 확인하여 단기 이중항혈소판 후 단독요법을 고려하고 스타틴·혈압·금연도 함께 관리한다.
 
-경동맥 협착이 70% 미만인 경우 급성 일과성 허혈발작(TIA) 예방에 항혈소판제가 1차 치료로 권장된다. 외과적 중재는 중증(>70%) 협착에 제한된다. 따라서 다음 단계는 항혈소판 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경동맥 수술을70% 초과로만 제한한 해설을 수정했다. 이 환자는45% 협착으로 재혈관화보다 항혈소판 C가 적절하다.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/management-of-extracranial-carotid-disease-and-intracranial-atherosclerosis
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/anti-platelet-therapy-in-ischemic-stroke-and-tia
 
 ## 출처
 

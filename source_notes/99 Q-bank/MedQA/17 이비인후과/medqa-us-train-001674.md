@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 조영증강 머리 CT
 
 ## 해설
 
+청소년 남성의 반복 코피, 편측 코막힘, 접촉 시 출혈하는 종괴는 청소년 비인두 혈관섬유종(juvenile nasopharyngeal angiofibroma)을 시사한다. 이는 혈관이 풍부한 양성 종양으로 혈관육종이 아니다. 제시된 선택지 중 D, 조영증강 CT로 병변 범위와 혈관성 특징을 평가하는 것이 적절하다. 혈관성 종양이 의심될 때 외래 펀치생검을 먼저 하면 심한 출혈을 일으킬 수 있다.
 
-청소년 비인두 혈관육종은 코 안쪽에 출혈성 덩어리로 나타나며, 출혈을 유발한다. 진단을 위해 조영증강 CT가 혈관성 종양을 확인하는 가장 정확한 영상이다. 따라서 조영증강 머리 CT가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 청소년 남성의 출혈성 비강 종괴를 혈관육종으로 잘못 명명한 해설을 비인두 혈관섬유종으로 교정. 조영 CT D와 무분별한 생검의 출혈위험을 대조.
+- 공식/학회 근거: https://medicine.uiowa.edu/iowaprotocols/juvenile-nasopharyngeal-angiofibroma
 
 ## 출처
 

@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 독시사이클린(Doxycycline) 치료
 
 ## 해설
 
+발열·비체중부하·심한 수동운동 통증·염증수치 상승은 급성 세균성 고관절염을 시사한다. 관절액 채취·배액과 즉각적인 항포도알균 치료가 필요하여 B가 보기 중 적절하다. 세파졸린은 MSSA에 유효하나 지역 MRSA 유행·중증도와 배양에 맞춰 조정한다. 아픈 아이에서 항생제를 배액 완료까지 지연하지 않는다.
 
-고관절 통증·열·염증성 혈구 증가와 X‑ray에서 관절강 확대는 세균성 관절염(Septic arthritis)을 시사한다. 급성 골수염보다 관절액 배액이 우선이며, 세파졸린은 MSSA에 대한 1차 치료제이다. 따라서 관절액 배액술 후 세파졸린 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 급성 세균성 고관절염의 배액+항생제 B 유지. 배액과 항생제를 불필요하게 순차화하거나 MRSA 위험을 배제하지 않도록 보완.
+- https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/
 
 ## 출처
 

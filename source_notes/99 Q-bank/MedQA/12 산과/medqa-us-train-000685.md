@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 경막외 마취
 
 ## 해설
 
+완전 개대 후는 분만 2기이며 초산부의 연장된 2기는 일반적으로 3시간 넘는 힘주기로 정의한다. 태아 상태가 양호한 2시간 시점에서는 C의 추가 관찰이 가능하나, -1 station에서 하강이 없으므로 태위·회전·힘주기·폐쇄 가능성을 재평가해야 한다. 충분한 수축과 힘주기에도 회전·하강이 없으면 더 이른 정지 진단도 가능하다. 무조건 3시간을 기다려야 한다는 의미는 아니며 높은 station에서 진공분만은 부적절하다.
 
-분만 1기에서 자궁경부가 완전히 확장되고 태아가 -1 station에 머무는 것은 2시간 이상 진행이 정체된 2단계 진전 지연을 의미한다. 태아 심박수는 정상이며 양측 수축도 적절하므로 비상 조치는 필요하지 않다. 따라서 추가 1시간 관찰을 통해 자연 진행을 기대한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 완전 개대 후 분만 2기임을 바로잡고 무진행 시 개별 평가 명시.
+- https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management
 
 ## 출처
 

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 다른 질환과 관련 없음
 
 ## 해설
 
+원치 않는 반복적인 화재 걱정과 확인 행동으로 기능이 손상된 상태는 강박장애에 부합한다. 질문은 이 진단명이 아니라 가장 관련된 다른 정신과 질환을 묻는다. 강박장애는 틱장애·투렛증후군과 동반될 수 있어 A가 적절하다. A 선지는 강박장애가 아니라 투렛증후군이며 강박성 성격장애와도 구분한다.
 
-반복적인 확인 행동과 불합리한 두려움은 강박장애(OCD)의 핵심 증상이다. 강박장애는 강박사고와 이를 중화하기 위한 강박행동으로 나타난다. 따라서 정답은 투렛증후군이 아닌 강박장애인 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 진단이 아닌 동반 질환을 묻는데 투렛증후군을 부정하고 A를 강박장애로 이름 바꾼 해설을 교정했다.
+
 
 ## 출처
 

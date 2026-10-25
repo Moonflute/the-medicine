@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 경한 피질 위축을 동반한 뇌실 확장
 
 ## 해설
 
+조기 반복 낙상, 아래쪽 수직주시 제한, 서동·경직 및 무감동은 진행성 핵상마비(PSP)를 시사한다. MRI에서 교뇌는 비교적 보존되면서 중뇌가 위축되는 B가 특징적일 수 있으며 시상면의 벌새모양 소견으로 표현된다. 중뇌가 보존되고 교뇌가 위축된다는 기존 설명은 정답과 반대다. 이러한 영상소견 하나만으로 모든 PSP가 확진되는 것은 아니다.
 
-환자는 수직주시마비와 안구운동 제한을 동반한 진행성 핵상마비(PCA) 증상을 보이며, MRI에서 중뇌 위축이 특징적이다. 중뇌는 보존되고 교뇌가 위축된 모습이 가장 흔히 관찰된다. 따라서 가장 가능성 높은 소견은 교뇌는 보존된 중뇌 위축이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 진행성 핵상마비 약어를 PCA로 오기하고 중뇌·교뇌 위축 관계를 반대로 설명한 오류를 수정했다. B를 유지한다.
 
 ## 출처
 

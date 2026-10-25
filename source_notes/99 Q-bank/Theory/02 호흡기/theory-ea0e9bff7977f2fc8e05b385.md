@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "SUV 2.5 숫자만으로 악성을 확정하는 오해를 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-단일 폐결절(SPN)에서 PET 검사의 SUV가 2.5를 초과하면 의미하는 바는?
+폐결절 FDG PET 결과의 올바른 해석은?
 
 ## 선택지
 
-A. 악성 가능성이 중간 이상으로 높다
-B. 양성 종양(양성 결절) 가능성이 높다
-C. 감염성 병변일 가능성이 크다
-D. 추가 영상 검사가 필요 없으며 관찰만 하면 된다
+A. 감염·염증도 섭취가 높을 수 있고 작은 결절·일부 암은 낮을 수 있다
+B. SUV >2.5면 조직형과 관계없이 암이 확진된다
+C. 섭취가 낮으면 모든 폐암을 배제한다
+D. 결절 크기와 사전 악성 위험은 중요하지 않다
 
 ## 해설
 
-SUV >2.5는 대사활동이 높은 조직을 시사하며, 악성 종양 가능성을 높인다.
+PET는 위험도 평가의 한 부분이다. CT 형태·크기·성장과 환자 위험을 통합하며 단일 절단값을 확진 기준으로 쓰지 않는다.
 
 ## 오답 포인트
 
-- **B. 양성 종양(양성 결절) 가능성이 높다:** 양성 결절은 보통 SUV가 낮다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 단일 폐결절 (SPN) (Solitary Pulmonary Nodule)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/단일 폐결절 (SPN) (Solitary Pulmonary Nodule).md`
-- 학습 목표: 원문 핵심: * **영상 검사:** 흉부 X-선 및 CT를 통해 결절의 크기, 모양, 경계, 석회화 패턴, 성장 속도를 평가. * **PET:** 악성 가능성이 중간 이상인 경우 유용하며, SUV > 2.5는 악성을 시사함. * **조직 검사:** CT 유도하 세침 흡인술, 기관지 내시경, 수술적 생검 등을 고려.
+- 학습 목표: 폐결절 PET의 위양성·위음성
+
+## 검수 근거
+
+- https://doi.org/10.1136/thoraxjnl-2015-207168

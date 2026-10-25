@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 결손을 경피적 카테터로 폐쇄한다
 
 ## 해설
 
+큰 막성 VSD, Qp:Qs 2.8:1, 약물치료에도 성장불량·수유 곤란·간비대가 있어 외과적 폐쇄(C)가 적절하다. 자연 폐쇄만 기다리면 심부전과 폐혈관 손상이 지속될 수 있다. 단락비 한 숫자만으로 모든 연령·형태의 VSD 수술을 일률 결정하지 않는다.
 
-큰 VSD는 좌우 단락을 초래해 Qp:Qs 비율이 2:1 이상이면 외과적 폐쇄가 필요하다. 약물 치료만으로는 폐쇄되지 않으며, 심부전 위험이 있다. 따라서 가장 적절한 치료는 외과적 폐쇄이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: VSD 수술 적응증을 Qp:Qs 숫자 단독이 아니라 지속 심부전·성장불량과 통합.
+- https://www.heart.org/en/health-topics/congenital-heart-defects/about-congenital-heart-defects/ventricular-septal-defect-vsd
 
 ## 출처
 

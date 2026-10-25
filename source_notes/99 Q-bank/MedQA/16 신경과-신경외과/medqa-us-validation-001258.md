@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 뇌 MRI 시행
 
 ## 해설
 
+외상 후 일시적 각성에 이어 의식이 악화하고 동측 동공이 커지는 양상은 팽창하는 외상성 혈종과 갈고리탈출을 우려하게 한다. 기도를 확보한 환자에서 긴급 신경외과적 혈종 제거/개두술(C)이 적절하다. 누락된 CT의 모양을 확인했다고 할 수는 없지만 급속 악화가 강한 응급 단서이다. 핵심은 단순 동맥압 상승이 아니라 두개내 종괴효과와 뇌간/제3뇌신경 압박이며 MRI를 기다리느라 처치를 늦추지 않는다.
 
-두개내 혈종이 진행되어 동맥압이 상승하고 신경학적 악화가 나타나면 외과적 혈종 제거(개두술)가 즉각적인 치료이다. 따라서 개두술이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 외상후 악화와 단측 산동의 두개내압/탈출 기전을 교정. 누락 CT보다 임상 악화로 C 유지.
+- 공식/학회 근거: https://ww2.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf
 
 ## 출처
 

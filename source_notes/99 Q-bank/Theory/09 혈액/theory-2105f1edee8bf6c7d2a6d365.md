@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "통증 없는 림프절 비대는 Hodgkin 림프종의 의미 있는 기본 인지 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmltjzdu95bmdpmknxq0rychj6dgxjvhnvb1vns0vodlphzhjhvzrnvehsdgnhahziv0vwtg0xa3xkaxnlyxnlltaylxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -45,3 +50,8 @@ D. 야간 발한
 - 내부 학습 노트: 호지킨 림프종 (Hodgkin Lymphoma)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/호지킨 림프종 (Hodgkin Lymphoma).md`
 - 학습 목표: 원문 핵심: * **CC**: 통증 없는 림프절 비대(주로 경부)가 가장 흔함. B 증상 (발열, 체중 감소, 야간 발한) 동반 시 예후 및 병기 설정에 중요. * **P/E**: 림프계 내에 국한되어 인접 부위로 순차적으로 퍼지는 경향. 펠-엡스타인 열 (Pel-Ebstein fever)이 드물게 나타날 수 있음. 음주 후 병변 부위의 통증이 나타나는 경우도 있음.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 통증 없는 림프절 비대는 Hodgkin 림프종의 의미 있는 기본 인지 복습으로 유지한다.

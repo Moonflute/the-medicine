@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "64uk64eo"
 theory_objective_id: cc-02-discrimination
 question_type: discrimination
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
 answer: C
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "고삼투 혈청에도 묽은 소변이라는 수분조절 장애의 핵심 관계를 직접 확인."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 요로감염
 
 ## 오답 포인트
 
-- **A. 당뇨병:** 당뇨병은 고혈당에 의한 삼투성 이뇨를 동반한다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

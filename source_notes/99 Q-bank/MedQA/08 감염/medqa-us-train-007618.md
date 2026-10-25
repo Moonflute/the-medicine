@@ -26,7 +26,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -48,6 +50,12 @@ D. 대장균
 
 
 급성 방광염의 가장 흔한 원인은 대장균이며, 아질산염 양성도 대장균 감염을 지지한다. 따라서 가장 가능성 높은 원인균은 대장균이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007618 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 배뇨통·농뇨·nitrite 양성의 급성 방광염에서 E.coli D가 가장 가능함을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

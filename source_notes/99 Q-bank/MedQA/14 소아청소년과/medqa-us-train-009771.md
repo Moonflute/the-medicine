@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 22q11.2 미세결실
 
 ## 해설
 
+심한 언어 지연, 소두증·발작, 실조성 자세와 빈번한 웃음은 엔젤만증후군을 시사한다. 신경계에서 모계 UBE3A 기능이 소실되는 기전 중 하나가 모계 15q11-q13 미세결실(A)이다. 같은 영역의 부계 유전자 발현 소실과 관련된 프라더-윌리증후군과는 다르다.
 
-엔젤만 증후군은 모계 유전인 15q11‑q13 미세결실(프라다 증후군)로 인해 발달 지연, 발작, 특징적인 얼굴 표정이 나타난다. 환자의 임상양상은 이 유전적 결손과 일치한다. 따라서 가장 가능성 높은 원인은 모계 15q11‑q13 미세결실이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 엔젤만증후군의 모계 15q11-q13 결실을 프라더-윌리와 혼동한 명칭을 교정했다.
+
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 혈청 FSH 측정
 
 ## 해설
 
+16세에 유방 발달과 초경이 없으면 지연 사춘기·원발무월경 평가가 필요하다. FSH(D) 등으로 난소성 고성선자극호르몬성 기능저하와 중추성 원인을 구분한다. 이 환자의 FSH가 이미 높다는 뜻은 아니며 프로게스테론 부하만으로 초기 평가를 대체하지 않는다.
 
-성선자극호르몬 방출호르몬 검사는 뇌하수체 기능을 평가하지만, 원발성 무월경에서 고 FSH는 원발성 난소 부전(고곤다트성)임을 시사한다. 따라서 혈청 FSH 측정이 가장 직접적인 검증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 측정하지않은 고FSH를 확정하지 않고 원발/중추성 감별검사로 설명.
+
 
 ## 출처
 

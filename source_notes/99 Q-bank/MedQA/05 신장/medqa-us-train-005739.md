@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,16 @@ D. 혈액요소질소(BUN):혈청 크레아티닌(SCr) 비율
 
 ## 해설
 
+사타구니로 방사되는 옆구리 통증과 혈뇨는 요로결석을 시사한다. 신장 초음파(A)는 수신증과 일부 결석을 방사선 노출 없이 평가할 수 있어 이 문항의 초기 검사 선택으로 적절하다. 경미한 질소혈증과 반복 감염력이 있어 폐색 여부를 평가하는 것도 중요하다.
 
-신우통 증상과 혈뇨가 있을 때 가장 먼저 시행하는 영상검사는 방사선 노출을 최소화하는 신장 초음파이다. 이는 결석 유무를 빠르게 확인한다. 따라서 신장 초음파가 초기 검사의 선택이다.
+초음파 음성만으로 요관결석을 배제할 수 없다. 진단이 불확실하거나 추가 확인이 필요하면 비조영 CT를 고려한다. 선지 B는 '조영' CT로, 결석 확인에 쓰는 비조영 CT와 다르다. 성인의 모든 급성 산통에서 초음파만이 유일한 초기 검사라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. 초음파를 모든 성인 산통에서 유일한 첫 검사로 일반화하지 않고, 제공된 선지와 폐색/수신증 평가 및 비조영 CT 보완을 설명.
+- https://uroweb.org/guidelines/urolithiasis/chapter/guidelines
 
 ## 출처
 

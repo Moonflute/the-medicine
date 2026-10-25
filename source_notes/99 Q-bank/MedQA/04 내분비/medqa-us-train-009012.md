@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 혈청 가스트린
 ## 해설
 
 
-고칼슘혈증과 높은 PTH 수치는 부갑상선 종양보다 멜라노카르시노마와 연관된 부신수질종양을 시사한다. MEN2A 환자에서 수술 전 pheochromocytoma를 확인하지 않으면 수술 중 급성 고혈압 위기가 발생할 수 있다. 따라서 소변 메타네프린 측정이 가장 적절한 다음 단계이다.
+정답 A. 높은 Ca와 억제되지 않은 PTH는 원발성 부갑상선기능항진을 시사한다. RET 이상과 이른 갑상선암 가족력은 수질갑상선암·부갑상선 질환·갈색세포종의 MEN2A를 고려하게 한다. 내분비 수술 전 소변 분획 metanephrine 또는 혈장 유리 metanephrine으로 갈색세포종을 평가해야 예기치 않은 catecholamine 위기를 예방할 수 있다. 고Ca/PTH 자체가 부신수질 종양을 증명하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009012 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고Ca/PTH는 부갑상선 과기능이며 RET+가족력의 MEN2A에서 pheo 수술전 검사 A를 별도로 설명; 멜라노카르시노마 오류 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4490627/
 
 ## 출처
 

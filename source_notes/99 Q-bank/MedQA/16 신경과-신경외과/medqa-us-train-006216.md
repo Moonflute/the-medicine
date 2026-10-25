@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 당뇨병성 케톤산증
 
 ## 해설
 
+상방주시 마비와 빛-근접 반응 해리는 송과체 부위 종괴의 배측 중뇌 압박을 시사한다. 이 부위의 일부 배세포종, 특히 β-hCG 분비 종양은 남아에서 성조숙증(C)을 일으킬 수 있다. hCG가 LH 수용체를 자극하여 성호르몬 생성을 촉진하는 기전이며 성장호르몬 과다가 아니다. 모든 송과체 종양이 호르몬을 분비하거나 성조숙증을 일으키는 것은 아니다.
 
-Parinaud 증후군(상방 주시 제한, 안진, 눈꺼풀 후퇴)은 송과체 종양에 의해 발생하며, 이 종양은 성장 호르몬 분비를 촉진해 성조숙증을 유발한다. 따라서 가장 가능성 높은 후유증은 성조숙증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 송과체 부위 종양 연관 성조숙증을 성장호르몬 과다로 설명한 오류를 hCG 분비 배세포종 기전으로 교정.
+- 공식/학회 근거: https://www.cancer.gov/types/brain/patient/child-cns-germ-cell-treatment-pdq
 
 ## 출처
 

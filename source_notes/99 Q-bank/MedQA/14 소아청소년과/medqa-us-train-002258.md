@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 항생제와 지지요법
 
 ## 해설
 
+운동·울음 뒤 청색증과 쪼그림 호전은 Fallot의 급성 저산소 발작을 시사한다. 무릎가슴 자세·진정·산소·수액과 필요시 베타차단제(B)로 우심실 유출로의 동적 경련과 교감 흥분을 완화한다. 체혈관저항을 낮추는 니트로글리세린은 악화시킬 수 있다.
 
-Tetralogy of Fallot에서 급성 청색증 발작 시 저산소증을 보이며, 베타 차단제가 심장 출구 저항을 감소시켜 증상을 완화한다. 따라서 베타 차단제 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Fallot 청색증 발작의 B 유지. 베타차단제를 단순 출구 저항 감소로 설명한 불명확한 기전 보완.
+- https://www.emchnetwork.nhs.uk/en/guidelines/download/42
 
 ## 출처
 

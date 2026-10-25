@@ -26,11 +26,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,6 +52,13 @@ D. 흉부 X선
 
 
 원발성 담관염(PBC) 환자는 골다공증 위험이 높으며, DEXA 검사가 골밀도 평가에 가장 적절한 방법이다. 따라서 이중에너지 X선 흡수계측법이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: PBC의 간내 소담관 파괴·소양증·sicca에 담즙정체성 골질환 평가 DXA A가 선택지상 적절.
+- https://www.aasld.org/practice-guidelines/primary-biliary-cholangitis
 
 ## 출처
 

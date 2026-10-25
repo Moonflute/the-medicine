@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. 종괴의 수술적 절제
 ## 해설
 
 
-뇌 전이 종양은 외과적 절제가 가장 효과적인 치료이다. 방사선이나 화학요법은 보조적이지만, 단일 종양에 대한 근본적 치료는 수술이다.
+단일 5 cm 종괴와 부종·두통은 큰 증상성 뇌전이를 의심하게 하며 절제 가능하면 수술(D)로 감압·조직진단을 얻는 것이 유리할 수 있다. 모든 뇌전이를 수술하는 것은 아니고 전신 상태·병기·위치와 수술 후 국소 방사선 등을 함께 결정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000533 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 증상성 단일 5cm 뇌전이 의심에서 수술 D 유지. 모든 뇌전이는 수술이 근본치료라는 과장 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/
 
 ## 출처
 

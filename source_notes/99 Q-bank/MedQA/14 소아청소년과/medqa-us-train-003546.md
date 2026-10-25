@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 2주 후 골격 조사 반복
 
 ## 해설
 
+학대가 강하게 의심되는 6개월 영아에서 초기 골격조사가 음성이어도 약 10~14일 뒤 재검하면 치유 반응으로 잠복 골절을 찾을 수 있어 D가 적절하다. AAP 2025 임상보고와 ACR 2025 개정 기준이 이 접근을 지지한다. 베이비그램 한 장은 적절한 다중 영상 골격조사를 대신하지 못한다. 재검 시점은 현재 안전 확보나 급성 손상에 대한 다른 필요한 평가를 그때까지 미루라는 뜻이 아니다.
 
-아동학대 의심 시 가장 민감한 영상검사는 전신 골격조사(skeletal survey)이며, 초기 X선이 정상이라도 2주 후 재검사하여 미세 골절을 확인한다. 따라서 2주 후 골격조사를 반복하는 것이 다음 단계로 선호된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 초기 음성 골격조사 후 강한 학대 의심에서 약 2주 재검을 최신 AAP/ACR 근거로 확인하고 모든 안전 평가를 2주 미뤄도 된다는 오해를 방지했다.
+- https://doi.org/10.1542/peds.2024-070074
+- https://acsearch.acr.org/docs/69443/Narrative
 
 ## 출처
 

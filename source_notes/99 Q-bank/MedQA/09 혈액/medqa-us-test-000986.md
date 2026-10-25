@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 다발성 골수종
 ## 해설
 
 
-고백혈구수와 절대 림프구 증가, CD5+ CD20+ 표면 마커를 가진 성인 B세포 증식은 만성 림프구성 백혈병(CLL)의 전형적인 혈액학적 특징이다. 따라서 CLL이 가장 가능성 높은 진단이다.
+고령 환자의 현저한 절대 림프구증가로 선지 중 CLL(A)이 가장 타당하다. 실제 확진에는 클론성 B세포 수와 면역표현형·지속기간을 확인해야 한다. CD5/CD20 결과는 본문에 제시되지 않았으므로 이미 확인된 것처럼 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000986 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고령의 매우 큰 절대 림프구증에서 CLL A 유지. 본문에 없는 CD5/CD20 결과를 생성한 해설 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

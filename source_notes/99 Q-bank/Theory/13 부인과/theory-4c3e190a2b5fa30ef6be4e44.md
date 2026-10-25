@@ -16,13 +16,18 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ
+curation_status: revised
+curation_reason: "월경과 통증의 시간적 연결은 쉬운 기초 복습 유지. 오답 해설 선택지 문자만 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -44,10 +49,16 @@ D. 폐경 후 골반 통증
 
 ## 오답 포인트
 
-- **B. 배란 전 발생하는 두통과 유방 압통:** 배란 전 증상은 월경통과 구분된다.
+- 월경통은 월경과 연관된 하복부 통증이다. 유방 압통이나 두통만을 월경통 자체의 정의로 삼지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 월경통 (Dysmenorrhea)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/월경통 (Dysmenorrhea).md`
-- 학습 목표: 원문 핵심: - **정의**: 월경 기간 동안 발생하는 통증으로, 하복부 통증이 주증상이며 요통이나 대퇴부 방사통을 동반할 수 있음. - **분류**: - 일차성: 골반 내 구조적 이상 없음. 자궁내막의 프로스타글란딘(PGE2a) 합성 증가로 인한 자궁 과수축 및 허혈성 통증. - 이차성: 자궁내막증, 자궁선근증, 자궁근종, 골반염, 자궁 내 장치(IUD) 등 기저 병변에 의한 통증. - **기전**: 프로스타글란딘 및 바소프레신 증가로 인한 자궁 수축, 자궁 혈류 감소(허혈), 조직 저산소증.
+- 학습 목표: 월경통의 월경 연관 통증
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 월경과 통증의 시간적 연결은 쉬운 기초 복습 유지. 오답 해설 선택지 문자만 제거.

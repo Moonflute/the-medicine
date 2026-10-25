@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 리스페리돈
 
 ## 해설
 
-
-환자는 SSRI와 인지행동치료 8주 후에도 증상이 지속되는 강박장애이며, SSRI 불충분 반응 시 2세대 항정신병제(리스페리돈) 보강이 권장된다. 프로프라놀롤·설트랄린·페넬진은 강박장애 치료에 적합하지 않다.
+침투적 실패 걱정과 반복 확인은 강박장애를 시사한다. 적정 SSRI와 노출 및 반응방지를 포함한 CBT에도 반응이 부족할 때 전문 치료에서 항정신병약 보강을 고려할 수 있어, 제시된 추가 약물 중 리스페리돈이 원문 선택이다. 다만 8주라는 기간만으로 충분한 치료 실패를 확정하지 않으며 용량·순응도와 보통 12주 정도의 충분한 약물 시도 및 다른 근거 기반 선택을 재평가한다. 설트랄린은 강박장애에 사용하는 SSRI이므로 부적절한 치료제라고 설명해서는 안 된다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005810
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 설트랄린을 강박장애에 부적절하다고 한 오류 제거. 8주만으로 무조건 리스페리돈 보강하는 것이 아니라 적정 용량·기간과 ERP 평가 이후 전문적 옵션으로 한정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg31/chapter/Recommendations

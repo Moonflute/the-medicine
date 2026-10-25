@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 완전한 침상 안정
 
 ## 해설
 
+보기 중 아픽사반(B)은 급성 DVT 치료를 시작할 때 별도의 헤파린 선행 치료 없이 사용할 수 있다. 반면 다비가트란은 급성 VTE 치료에서 먼저 비경구 항응고 치료가 필요하다. Wells 점수는 검사 전 확률을 추정하는 도구이지 그 자체로 DVT를 확진하지 않으므로 압박 초음파 등 적절한 진단 절차가 필요하다. 수술 후 출혈 위험과 신기능을 평가하여 치료를 정하며, 반드시 발병 3일 안에만 치료할 수 있다는 제한이나 고령만으로 특정 약을 선택한다는 설명은 잘못이다.
 
-유발성 DVT는 급성 증상 발생 후 3일 이내에 치료가 필요하며, 고령·고위험 환자에게는 직접 구강 항응고제인 아픽사반이 표준 초기 치료이다. 아픽사반은 빠른 항응고 효과와 출혈 위험 감소가 입증되었다. 따라서 경구 아픽사반 단독요법이 가장 적절한 초기 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 아픽사반 B는 유지하되 Wells 점수만으로 DVT 확진, 3일 내 치료라는 가상의 기한을 교정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a454cd24-0c6d-46e8-b1e4-197388606175&version=38
 
 ## 출처
 

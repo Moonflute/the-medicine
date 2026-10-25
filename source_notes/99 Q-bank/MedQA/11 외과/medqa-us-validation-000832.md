@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,6 +46,13 @@ D. 중대 사건
 
 
 수술 전 환자 확인과 부위 확인을 위한 표준 절차는 ‘수술 전 타임아웃’이다. 이는 잘못된 부위 절제를 예방하는 핵심 안전 단계이다. 따라서 정답은 수술 전 타임아웃이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000832 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 환자·수술목적·문서와 병변 위치를 절개 전 팀이 확인해 잘못된 절제부위를 막은 과정은 time-out B와 일치한다. 원문·선지·해설 직접 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001458
 
 ## 출처
 

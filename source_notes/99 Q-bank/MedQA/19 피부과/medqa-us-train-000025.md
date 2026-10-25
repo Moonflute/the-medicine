@@ -16,15 +16,17 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 경구 하이드록시클로로퀸(hydroxychloroquine) 요법 시작
 
 ## 해설
 
+광과민성 수포·미란/흉터·갈색소변과 가족력은 만발피부포르피린증(PCT)을 시사한다. 사혈(C)은 체내 철을 줄여 관해를 유도하는 표준적 방법이며 혈색소와 ferritin을 감시해 과도한 철결핍을 피한다. 저용량 hydroxychloroquine도 효과적인 대안이므로 다른 치료는 모두 효과없다고 해서는 안 된다. 이 환자는 기존 망막질환 병력이 있어 항말라리아제의 안과적 위험평가가 특히 중요하고 사혈을 선택하는 원문 의도를 지지한다. 정상 ferritin이 모든 PCT에서 치료불필요를 뜻하지는 않지만 치료는 전문적으로 개별화한다.
 
-광과민성 수포성 발진, 갈색 소변, 가족력은 포르피리아 컷아네아(PCT)를 시사한다. PCT는 철 과다에 의해 촉발되며, 치료는 정기적인 사혈(phlebotomy)로 체내 철을 감소시켜 증상을 완화한다. 다른 선택지는 PCT 치료에 효과가 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. PCT에서 hydroxychloroquine은 효과없다는 해설 오류 수정. 정상ferritin에도 개별 사혈가능, 기존 망막질환을 약제선택 고려로 설명. 원정답 C 유지.
+- 공식/학회 근거: https://ashpublications.org/hematology/article/2024/1/450/526222/Porphyria-cutanea-tarda-a-unique-iron-related
 
 ## 출처
 

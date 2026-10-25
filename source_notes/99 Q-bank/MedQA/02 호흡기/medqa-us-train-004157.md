@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 지방 섭취 감소, 단백질 섭취 증가
 
 
 탄수화물은 RQ를 높이고 CO₂ 생산을 증가시키므로, 탄수화물 섭취를 줄이고 지방을 늘리는 것이 호흡지수를 낮춘다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 탄수화물RQ1·지방RQ0.7의 기초대사원리상 탄수감소/지방증가 B가 RQ를 낮춤. 모든 COPD에 같은 고지방처방을 뜻하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

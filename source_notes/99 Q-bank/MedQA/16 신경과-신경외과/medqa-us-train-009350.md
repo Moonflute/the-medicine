@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 경막외혈종
 
 ## 해설
 
+측두부 외상 직후 의식소실 뒤 각성한 시기가 있고, 이어 두통·구토·발작과 고혈압/서맥이 나타나 경막외혈종(D)을 우선 의심한다. CT로 즉시 출혈과 종괴효과를 평가해야 한다. 본문에는 골절이 없다는 영상 결과나 정상 CT가 제시되지 않았다. 다른 외상성 두개내출혈도 가능하므로 임상 양상만으로 확진하지 않는다.
 
-두부 외상 후 1시간 이내에 의식 소실, 구토, 경련이 나타났으며, 두개골 골절 없이 국소적인 두통·멍이 있는 경우 경막외혈종이 가장 흔한 원인이다. CT에서 급성 혈종이 보이지 않을 수 있으나 임상 양상이 일치한다. 따라서 정답은 경막외혈종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 외상 후 EDH D 유지. 골절 부재와 정상 CT를 가정한 설명 및 가장 흔한 원인 과장 제거.
 
 ## 출처
 

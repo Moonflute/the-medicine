@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 호산구성 다발혈관염을 동반한 육아종증
 
 
 천식, 호산구 증가, 피부결절, 말초 신경병증, 신장 손상은 호산구성 다발혈관염(Churg‑Strauss)과 연관된다. 이 질환은 혈관염으로 폐, 피부, 신경, 신장을 침범한다. 따라서 가장 가능성 높은 진단은 호산구성 다발혈관염을 동반한 육아종증이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001860 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 성인발병 천식·부비동염·뚜렷한 호산구증가·다발단신경염·피부 및 신장 침범은 EGPA D를 지지한다. 영어 원문, 선지와 해설이 일치한다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

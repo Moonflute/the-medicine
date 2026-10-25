@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 에페드린
 
 ## 해설
 
+노르에피네프린(B)은 강한 알파아드레날린성 혈관수축으로 혈압을 올리고 압수용체 반사에 의해 심박수를 낮출 수 있다. 이 환자의 혈압 상승·빈맥 감소와 말초 청색증은 그 작용에 부합한다. 다만 말단 허혈은 저관류와 다른 승압제에서도 생길 수 있어 약제에 특이적인 소견은 아니다. 출혈성 쇼크의 기본 치료는 신속한 출혈 통제와 적절한 혈액제제 소생이며, 승압제만으로 이를 대체해서는 안 된다.
 
-출혈성 쇼크 치료 후 혈압을 유지하기 위해 사용되는 혈관수축제는 말초 혈관을 주로 수축시키는 노르에피네프린이다. 그러나 말초 조직에 혈류가 감소해 사지 허혈을 일으킬 수 있다. 따라서 노르에피네프린이 원인 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 노르에피네프린 B의 강한 혈관수축과 반사성 심박수 감소라는 단서를 유지하되 출혈성 쇼크의 기본 치료를 승압제로 오인하지 않게 한다.
+- 공식/학회 근거: https://doi.org/10.1186/s13054-023-04327-7
 
 ## 출처
 

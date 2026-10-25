@@ -25,9 +25,11 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 기분 안정제 복용
 
 
 환자는 고나트륨혈증, 높은 ADH, 저농도 소변을 보여 항이뇨호르몬 작용이 억제된 약물(리튬 등) 복용을 시사한다. 따라서 증상은 기분 안정제(리튬) 복용에 의한 것이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 고Na/탈수인데 ADH가 높고 소변이 매우 묽어 AVP저항성 요붕증. bipolar와 손떨림은 lithium D의 맥락이며 두부손상성 ADH결핍과 구별.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

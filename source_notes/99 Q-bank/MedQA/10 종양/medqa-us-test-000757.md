@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 에토포시드
 
 
 시클로포스파미드는 화학요법 중 방광 점막을 손상시켜 출혈성 방광염을 일으킬 수 있다. 환자의 혈뇨와 혈뇨 양성은 이 약물에 의한 부작용을 시사한다. 따라서 시클로포스파미드가 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000757 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 실제 혈뇨 양성은 cyclophosphamide 출혈성방광염 B를 지지. doxorubicin의 비출혈성 붉은 소변과 구별하는 약물이상반응 내용 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

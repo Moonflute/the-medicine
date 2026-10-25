@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 일과성 활막염
 
 
 대칭성 관절통, 미열, 아침 강직이 2주간 지속되었고 증상이 자연스럽게 사라진 경우는 파보바이러스 B19 감염에 의한 일과성 관절염이 가장 흔하다. 바이러스성 관절염은 급성 후 회복한다. 따라서 정답은 파보바이러스 감염이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005199 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 성인 대칭 관절통·바이러스 전구증상과 자연 호전의 B19 A를 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

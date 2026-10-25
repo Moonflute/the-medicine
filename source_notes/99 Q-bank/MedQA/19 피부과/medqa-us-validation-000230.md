@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VwaGFsZXhpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 피하 헤파린 주사
 
 ## 해설
 
+원정답은 B, 정맥 세파졸린이다. 발열·오한과 국소 열감·압통을 동반한 경계가 뚜렷한 홍반은 단독/비화농성 봉와직염을 시사하고, 발가락 사이 피부병변은 침입구가 될 수 있다. 제시된 선택지 중 세파졸린은 연쇄상구균과 MSSA를 표적으로 하는 적절한 정맥 항균제이다. 다만 모든 봉와직염에 정맥 치료가 필요한 것은 아니고, 전신상태·중증도·MRSA 위험에 따라 경로와 범위를 결정한다. 진행성 독성 소견, 불균형하게 심한 통증이나 괴사 등이 있으면 깊은 감염/괴사성 감염을 긴급 평가하며 항균범위를 재검토한다. 시프로플록사신 단독이나 헤파린은 이 피부감염의 적절한 대안이 아니다.
 
-주된 증상이 손가락의 차가운 환경에서 색 변화와 통증을 동반하는 일차성 레이노 현상이며, 혈관 수축을 완화하는 칼슘채널 차단제인 니페디핀이 1차 치료제이다. 다른 약물은 증상 완화에 직접적인 효과가 없다. 따라서 경구 니페디핀이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 레이노/니페디핀 해설 오연결. 발열·오한 동반 비화농성 피부감염의 정맥 cefazolin B 설명. 감염중증도에 따른 치료와 응급 재평가 한계 명시.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

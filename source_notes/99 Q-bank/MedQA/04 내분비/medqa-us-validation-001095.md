@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. TSH 수치
 ## 해설
 
 
-다뇨와 저밀도 소변, 변비, 정신·인지 저하가 동반된 고칼슘혈증은 고칼슘혈증을 시사한다. 고칼슘혈증은 혈청 칼슘 수치 상승을 초래한다. 따라서 가장 비정상일 가능성이 높은 검사는 혈청 칼슘이다.
+정답 A. 고칼슘혈증은 장운동 저하로 변비·식욕저하·복통을 만들고 근력/집중력과 의식에도 영향을 줄 수 있다. 신장의 소변 농축능을 떨어뜨려 많은 묽은 소변과 탈수를 유발할 수 있어 제시 조합을 잘 설명한다. 혈청 Ca를 측정하고 실제 증가 여부를 확인한다. 아직 값이 제시되지 않았으므로 고Ca가 이미 확진된 것처럼 쓰지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001095 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 순환논법 대신 고Ca의 장운동·신경인지·신장농축 장애 기전으로 A 설명.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

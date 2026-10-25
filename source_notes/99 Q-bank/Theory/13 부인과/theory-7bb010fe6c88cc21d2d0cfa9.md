@@ -16,36 +16,48 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "초음파 역할 유지하되 영상 음성으로 내막증을 배제하거나 모든 환자에서 복강경이 필수 확진이라는 오해 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-자궁 내막증 진단에 가장 먼저 시행하는 검사는?
+자궁내막증의 영상 평가에 관한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 골반 초음파
-B. 복강경
-C. MRI
-D. CA‑125 검사
+A. 초음파는 내막종·깊은 병변 평가에 유용하지만 정상 영상으로 모든 내막증을 배제하지 못한다.
+B. 초음파가 정상이면 표재성 내막증까지 완전히 배제한다.
+C. CA-125 하나로 내막증을 확진한다.
+D. 모든 환자는 증상과 관계없이 먼저 진단 복강경을 받아야 한다.
 
 ## 해설
 
-골반 초음파는 비침습적이며 자궁 내막증의 병변을 빠르게 확인할 수 있어 최초 검사로 권장된다.
+초음파·MRI는 병변 평가에 쓰이지만 표재성 복막 병변 등은 보이지 않을 수 있다. 임상 맥락과 반응을 함께 고려하며 진단 복강경을 모든 환자의 의무적인 첫 단계로 요구하지 않는다.
 
 ## 오답 포인트
 
-- **B. 복강경:** 복강경은 확진 검사이지만 최초 검사는 아니다.
+- 영상 음성은 내막증 배제와 동의어가 아니다. 복강경의 필요성은 영상·증상·경험적 치료 등을 고려해 결정한다.
 
 ## 출처
 
 - 내부 학습 노트: 자궁 내막증 (Endometriosis)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁 내막증 (Endometriosis).md`
-- 학습 목표: 원문 핵심: - **진단 접근**: 월경통·만성 골반통·성교통·배변/배뇨 관련 통증과 난임을 병력에서 구조화해 묻고, 골반진찰과 초음파를 우선 사용한다. 깊은 침윤 또는 수술 계획에는 MRI를 선택적으로 추가하며, 정상 영상만으로 질환을 완전히 배제하지 않는다. 복강경은 모든 환자의 첫 진단 검사가 아니라 영상/경험적 치료와 치료 목표를 함께 고려해 결정한다. - 골반 내진 및 초음파 - CA-125 (비특이적 상승 가능) - 진단적 복강경 (확진 및 병기 결정)
+- 학습 목표: 자궁내막증 영상 평가의 한계
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 초음파 역할 유지하되 영상 음성으로 내막증을 배제하거나 모든 환자에서 복강경이 필수 확진이라는 오해 교정.
+- 근거: https://academic.oup.com/hropen/article/2022/2/hoac009/6537540

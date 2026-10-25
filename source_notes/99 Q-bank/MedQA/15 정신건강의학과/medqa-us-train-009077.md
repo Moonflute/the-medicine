@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,9 +50,15 @@ D. 올란자핀
 ## 해설
 
 
-디펜히드라민은 항히스타민제이면서 강한 항콜린성 효과가 있어 급성 혼돈, 배뇨 저항, 위장관 평활근 이완을 일으킨다. 환자의 급성 혼란, 구강 건조, 요폐가 이 약물에 기인한다. 따라서 디펜히드라민이 원인이다.
+디펜히드라민은 항히스타민제이면서 강한 항콜린성 효과가 있어 급성 혼돈, 배뇨 저항, 위장관 평활근 이완을 일으킨다. 환자의 투약 후 악화된 혼란과 현저한 요폐가 이 약물에 기인한다. 따라서 디펜히드라민이 원인이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009077
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 디펜히드라민 항콜린성 섬망·요폐 답 유지. 원문에 없는 구강 건조를 관찰 소견으로 단정하지 않음.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

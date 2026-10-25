@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMyDshoztmZTquLAvTWVzYWxhemluZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,15 +44,18 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 괴저성 농피증(Ecthyma gangrenosum)
+A. 괴저성 농창(Ecthyma gangrenosum)
 B. 괴저성 농피증(Pyoderma gangrenosum)
 C. 분아균증(Blastomycosis)
 D. 기저세포암(Basal cell carcinoma)
 
 ## 해설
 
+염증성 장질환 병력에 작은 외상 뒤 빠르게 커진 심한 통증의 궤양과 자색 불규칙 경계가 있어 괴저성 농피증(pyoderma gangrenosum, B)이 가장 적절하다. 외상에 반응해 악화되는 pathergy가 나타날 수 있다. Ecthyma gangrenosum(A)은 감염성 괴사 병변으로 B와 별개 질환이다.
 
-급속히 진행하는 괴저성 궤양, 경계가 불규칙하고 보라색이며 통증이 심한 경우는 Pyoderma gangrenosum이 특징이다. 이는 연관된 염증성 장질환과도 흔히 동반된다. 따라서 가장 가능성 높은 진단은 Pyoderma gangrenosum이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Crohn병·외상 후 빠른 통증성 자색 궤양의 PG B는 맞으나 A ecthyma gangrenosum도 같은 한국어로 번역한 선지를 구분한다.
 
 ## 출처
 

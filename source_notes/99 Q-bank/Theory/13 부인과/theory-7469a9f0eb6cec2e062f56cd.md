@@ -16,18 +16,23 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "12개월 무월경 기준은 핵심 개념 유지. 다른 원인·호르몬 치료의 영향을 고려하는 자연 폐경으로 명시."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-폐경을 정의하는 기준은?
+다른 생리적·병적 원인이나 호르몬 약제의 영향이 없는 자연 폐경을 후향적으로 판단하는 기준은?
 
 ## 선택지
 
@@ -38,14 +43,20 @@ D. FSH 상승
 
 ## 해설
 
-폐경은 마지막 월경일로부터 12개월 연속 무월경일 때 진단합니다.
+다른 원인 없이 마지막 월경 후 12개월 연속 무월경이면 자연 폐경으로 판단한다. 임신·수유·질환·약제 등의 무월경을 같은 의미로 보지 않는다.
 
 ## 오답 포인트
 
-- **B. 에스트로겐 수치 감소:** 에스트로겐 감소는 폐경에 동반되지만 정의 자체는 아닙니다.
+- 에스트로겐 감소나 FSH 상승 하나만으로 모든 연령·상황의 폐경을 정의하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 폐경 (Menopause)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/폐경 (Menopause).md`
-- 학습 목표: 원문 핵심: - **정의**: 마지막 월경일로부터 12개월간 월경이 없을 때로 정의되는 폐경 이행기 및 폐경 후 상태 - **원인**: 난소 기능 저하로 인한 에스트로겐 결핍 - **기전**: 난소 내 난포 고갈 → 에스트로겐 및 인히빈 감소 → 시상하부-뇌하수체-난소(HPO) 축의 피드백 저하 → FSH 및 LH 상승
+- 학습 목표: 자연 폐경의 12개월 무월경
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 12개월 무월경 기준은 핵심 개념 유지. 다른 원인·호르몬 치료의 영향을 고려하는 자연 폐경으로 명시.

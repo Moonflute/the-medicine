@@ -16,32 +16,42 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "골절의 해부적 불안정 분절과 실제 모순호흡의 임상 소견을 구분하도록 용어 명확화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-동요 가슴(Flail Chest)의 정의는?
+외상성 불안정 흉벽 분절(flail segment)의 전형적 골절 구조는?
 
 ## 선택지
 
-A. 3개 이상의 연속된 늑골이 2개 이상의 부위에서 골절되어 흉벽이 분리되고 호흡 시 모순 호흡을 보이는 상태
-B. 단일 늑골 골절만으로 발생하는 흉통
-C. 흉부 압박에 의한 폐쇄성 기흉
-D. 흉부 외상 후 심장 압박으로 인한 저혈압
+A. 연속된 3개 이상의 늑골이 각각 2곳 이상 골절되어 분리된 흉벽 분절 형성
+B. 늑골 하나의 한 곳 골절만
+C. 기흉만 존재하고 골절은 없음
+D. 심낭 압박만 존재
 
 ## 해설
 
-동요 가슴은 3개 이상 연속된 늑골이 2부위 이상 골절돼 흉벽이 분리되고 흡기 시 안쪽으로 함몰·호기 시 외부로 돌출되는 모순 호흡을 특징으로 한다.
+연속된 여러 늑골의 이중 골절로 흉벽 일부가 연속성을 잃는다. 임상적으로 자발 호흡 때 모순운동이 나타날 수 있으나 영상상의 분절과 관찰되는 호흡 소견을 구분해 이해한다.
 
 ## 출처
 
 - 내부 학습 노트: 동요 가슴 (Flail Chest)
 - 원본 경로: `source_notes/02 Diseases/11 외과/동요 가슴 (Flail Chest).md`
-- 학습 목표: 원문 핵심: - **정의**: 3개 이상의 연속된 늑골이 2개 이상의 부위에서 골절되어 흉벽의 일부가 분리되고, 호흡 시 모순 호흡(paradoxical movement)을 보이는 상태. - **원인**: 주로 둔상(blunt trauma)에 의한 고에너지 손상(교통사고, 추락 등). - **기전**: 흉벽의 연속성 파괴로 인해 흡기 시 흉벽이 안으로 함몰되고 호기 시 밖으로 돌출되는 모순 운동이 발생하며, 이로 인해 환기 효율 저하 및 폐 타박상(pulmonary contusion)이 동반됨.
+- 학습 목표: 불안정 흉벽 분절의 늑골 골절 구조
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 골절의 해부적 불안정 분절과 실제 모순호흡의 임상 소견을 구분하도록 용어 명확화.

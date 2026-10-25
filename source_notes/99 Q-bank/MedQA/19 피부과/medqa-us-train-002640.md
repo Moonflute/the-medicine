@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 피부 생검에서 해면성 피부염
 
 ## 해설
 
+노년기에 심한 가려움 뒤 생긴 팽팽한 수포, 음성 Nikolsky 징후 및 점막 보존은 수포성 유사천포창(bullous pemphigoid)을 지지한다. 표피하 수포가 형성되며 직접면역형광에서 기저막을 따라 선형 IgG와 C3 침착(C)이 보인다. 조직 transglutaminase 항체 및 과립형 IgA 침착을 특징으로 하는 포진상피부염과 구분한다.
 
-가슴·팔 굽힘부에 긴밀한 수포가 생기고 문지르면 수포가 생기지 않으며, 직접 면역형광검사에서 기저막을 따라 선형으로 IgG와 C3가 침착되는 것이 특징인 구진-수포증(Bullous pemphigoid)이다. 다른 선택지는 해당 질환의 면역학적 소견과 일치하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 노인의 소양·팽팽한 수포 및 선형 IgG/C3 C는 맞고 수포성 유사천포창을 구진-수포증으로 잘못 번역한 해설을 수정한다.
 
 ## 출처
 

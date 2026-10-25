@@ -26,12 +26,14 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTGFjdHVsb3NlLm1k
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 단백질 제한 식이
 
 
 TIPS 후 발생한 간성 뇌증 치료에 가장 효과적인 약물은 락툴로스이다. 따라서 적절한 치료는 락툴로스 투여이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: TIPS 이후 간경변 환자의 새 의식변화는 간성뇌증 의심. 저K교정과 함께 lactulose B가 적합하며 단백 제한을 일률 처방하지 않음.
+- https://doi.org/10.14309/ajg.0000000000003899
 
 ## 출처
 

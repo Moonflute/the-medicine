@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 질식 초음파
 
 ## 해설
 
+월경통·성교통과 주기적 흉통, 압통성 부속기 종괴는 골반 및 드물게 흉부 자궁내막증을 고려하게 한다. 선지 중 복강경(C)은 병변을 직접 관찰하고 필요하면 조직으로 확인할 수 있는 방법이다. 다만 현행 진료에서는 증상·영상에 따른 임상진단과 경험적 치료도 가능하며, 모든 환자에게 진단이나 치료 시작 전에 복강경이 필수라는 뜻은 아니다. 정상 영상만으로 자궁내막증을 배제할 수도 없다.
 
-자궁내막 이식증(자궁내막증)의 확진은 병변을 직접 시각화하고 조직검사를 할 수 있는 복강경이 가장 정확한 진단법이다. 비침습적 검사만으로는 확진이 어려우며 복강경을 통해 병변을 확인하고 병리학적 진단을 할 수 있다. 다른 선택지는 진단 확정에 충분하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 자궁내막증진단에항상복강경필수라는일반화교정. 확진방법을묻는선지C유지.
+- https://www.nice.org.uk/guidance/ng73/chapter/Recommendations
 
 ## 출처
 

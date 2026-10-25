@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 바륨 연하검사
 ## 해설
 
 
-비만, 식후·누워 있을 때 악화되는 가슴 작열감과 아침 구취는 위식도역류질환을 시사한다. 진단을 확정하기 위해서는 위내압을 낮추는 약물인 양성자펌프억제제가 1차 치료이다. 따라서 다음 단계는 PPI 투여이다.
+정답 B. 경고 증상 없는 전형적 역류 증상에서는 PPI 경험치료와 체중/식사·취침 관련 생활조절을 시작할 수 있다. PPI는 위벽세포 proton pump를 억제해 산분비를 줄이는 약이지 위내압을 직접 낮추는 약이 아니다. 반응이 있다고 모든 경우 진단이 확정되는 것은 아니며 불응 또는 경고 증상 발생 시 추가 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000873 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PPI는 위내압 감소제가 아닌 산분비 억제제이며 경험치료가 확진 자체는 아님.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/8754510/
 
 ## 출처
 

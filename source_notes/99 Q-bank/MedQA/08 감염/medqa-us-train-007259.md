@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. “무증상이고 이소니아지드와 피리독신 모두 아기에게 해
 ## 해설
 
 
-무증상 잠복결핵 감염에 이소니아지드와 피리독신을 투여해도 모유를 통한 위험은 없으며, 모유 수유를 계속해도 된다. 따라서 모유 수유를 해도 된다고 안내한다.
+활동 질환이 배제된 LTBI 산모는 isoniazid와 pyridoxine을 복용하며 수유할 수 있다. 모유 내 일차 항결핵제 농도는 일반적으로 영아 독성을 일으키기에 낮다. 이것이 모유만으로 영아의 TB 치료/예방이 된다는 뜻은 아니고 영아 자신에게 필요하면 별도 용량을 준다.9개월 INH는 가능한 요법 중 하나이며 현재는 환자/상호작용에 따라 단기 rifamycin 요법도 사용한다. 산모의 간독성 감시와 영양 관리가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007259 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: INH+B6 복용 중 수유 D 유지; 어떤 상황에서도 절대 해가 없다는 일반화 및9개월 유일 요법 오해 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/clinical-care/pregnancy.html
 
 ## 출처
 

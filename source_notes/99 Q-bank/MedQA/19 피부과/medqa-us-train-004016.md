@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVGVyYmluYWZpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 경구 테르비나핀
 
 ## 해설
 
+두피의 가려운 원형 병변·탈모 및 후경부 림프절은 두부백선(tinea capitis)을 지지한다. 모간·모낭 감염에는 전신 항진균제가 필요하여 선지 중 경구 terbinafine(D)이 적절하다. 균종·지역·검사 결과에 따라 약제를 선택·조정한다. 항진균 샴푸는 전파 감소의 보조 요법이며 단독 치료로 충분하지 않다.
 
-두피에 원형 가려운 발진과 탈모가 동반된 경우, 곰팡이 감염인 두부백선(티노아스피라증)이 가장 흔하며, 경구 테르비나핀은 효과적인 항진균제이다. 다른 옵션은 이 상황에 적절치 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 두피 소양성 환상 병변·탈모·후경부 림프절의 두부백선은 본문으로 충분히 지지되어 경구 terbinafine D를 유지하고 질환명 오류와 샴푸 단독치료 혼동을 수정한다.
+- 공식/학회 근거: https://www.bad.org.uk/pils/tinea-capitis
 
 ## 출처
 

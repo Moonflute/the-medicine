@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 옥시토신(oxytocin) 투여
 
 ## 해설
 
+경부는 3 cm에서 6 cm로 개대되고 소실은 50%에서 80%로 진행했다. 진찰로 태아 머리 위치를 확인할 수 없으므로 초음파(A)로 태위·선진부를 확인하는 것이 우선이다. 이미 진행하는 진통에 태위 확인 없이 유도·촉진 약물이나 외회전술을 시행하지 않는다.
 
-진통이 진행 중이며 자궁경부가 50% 개대된 상태에서 태아 위치를 확인하기 위해 초음파 검사가 필요하다. 이는 태아 위치와 진행 상황을 평가하는 표준 단계이다. 따라서 초음파 검사가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 경부 소실 50%를 개대 50%로 잘못 설명한 해설 수정.
+
 
 ## 출처
 

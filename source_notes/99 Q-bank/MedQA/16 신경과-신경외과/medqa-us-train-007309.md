@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 순수 운동 증후군
 
 ## 해설
 
+구음장애와 경미한 안면·손 약화에 비해 손의 정교한 동작장애가 두드러지고 피질성 고위기능·감각은 보존되어 구음장애-서투른 손 증후군(A)에 맞는다. 전형적으로 교뇌 기저부 또는 내포 등의 작은 피질하 경색에서 발생하는 열공성 증후군이다. 초기 비조영 CT가 정상이어도 급성 허혈성 뇌졸중을 배제하지 않는다.
 
-구음장애와 서투른 손 증후군은 대뇌 피질의 운동 영역에 국소 손상이 있을 때 나타난다. 이는 뇌졸중의 일종이며, 다른 선택지는 증상과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 구음장애-서투른 손 증후군을 대뇌피질 병변으로만 국소화한 오류를 교정.
 
 ## 출처
 

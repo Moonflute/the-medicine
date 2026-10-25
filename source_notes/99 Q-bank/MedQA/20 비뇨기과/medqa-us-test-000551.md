@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 요로감염
 
 ## 해설
 
+정답은 A, 방광 종양이다. 고령자의 한 달간 지속되는 무통성 붉은 소변은 방광암을 포함한 요로 악성종양을 배제해야 하는 증상이다. 신세포암도 무통성 혈뇨를 일으킬 수 있으나 제시된 선택지와 임상 양상에서는 방광 종양이 가장 가능성이 높다. 소변색만으로 혈뇨를 확진하지 않고 요검사와 적절한 요로 평가가 필요하다.
 
-무통성 혈뇨가 한 달간 지속되고 연령이 65세인 경우 방광 종양이 가장 흔한 원인이다. 방광암은 혈뇨를 동반하지만 통증이 없으며, 다른 선택지는 급성 증상이나 색소 섭취와 관련이 없다. 따라서 방광 종양이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선택지 중 무통성 육안혈뇨의 방광종양 A는 타당. 모든 고령자 혈뇨의 가장 흔한 원인 또는 RCC는 통증이 있어야 한다는 일반화 제거.
 
 ## 출처
 

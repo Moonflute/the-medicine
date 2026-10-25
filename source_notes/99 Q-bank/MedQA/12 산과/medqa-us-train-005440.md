@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 제왕절개 자궁절제술 고려
 
 ## 해설
 
+1.5 cm는 태반 가장자리와 내자궁구 사이 거리로 저위태반을 뜻한다. 반복 제왕절개와 전방 저위태반, 태반 뒤 공간 소실은 태반유착스펙트럼(PAS)을 의심하게 한다. 전문센터 다학제 분만 계획 및 제왕절개 자궁절제술(D)을 고려한다. 근거는 PAS 위험이지 1.5 cm 이하에서 자궁파열한다는 규칙이 아니다. 태반을 억지로 떼면 대량출혈할 수 있다.
 
-부분 전치태반·태반 뒤 공간 소실은 전치태반 위험을 높이며, 태반과 자궁벽 사이 거리가 1.5 cm 이하이면 자궁 파열 위험이 크다. 이런 경우는 자궁 절제술(전치태반에 대한 절제)으로 출산을 계획한다. 따라서 제왕절개 후 자궁절제술이 적절한 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 1.5cm를 태반–자궁벽 거리·자궁파열 기준으로 오해한 해설 수정.
+- https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2018/12/placenta-accreta-spectrum
 
 ## 출처
 

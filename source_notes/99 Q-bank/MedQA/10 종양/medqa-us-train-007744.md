@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 아버지에게 반드시 알려야 한다고 자녀에게 말한다
 
 
 환자와 가족 사이에 정보 공유에 대한 갈등이 있을 때, 먼저 가족이 왜 결과를 숨기고 싶어 하는지 그 이유를 탐색해야 한다. 이는 환자의 자율성을 존중하면서 문화적·가족적 배경을 이해하고, 적절한 의사소통 전략을 결정하는 데 필수적이다. 따라서 자녀에게 그들의 의도를 물어보는 것이 적절한 반응이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007744 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 가족의 비고지 요청 이유를 먼저 탐색하는 B는 환자의 최종 정보선호·자율성을 존중하기 위한 초기 대화임을 원문 대조 확인. 영구적 비고지 승인 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 콩 분유
 
 ## 해설
 
+HCV 감염 자체는 모유수유의 금기가 아니므로 B가 적절하다. 모유를 통한 HCV 전파는 확인되지 않았다는 것이 근거이며, 모유에 바이러스가 절대 존재하지 않는다는 뜻은 아니다. 유두·유륜이 갈라져 출혈하면 해당 유방 수유를 잠시 중단하고 회복 후 재개한다.
 
-C형 간염은 모유에 바이러스가 존재하지 않으며, 모유수유가 신생아에게 위험을 주지 않는다. 따라서 모유수유가 가장 적절한 영양 공급 방법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HCV가 모유에 존재하지 않는다는 단정을 감염 전파 근거와 유두 출혈 예외로 교정.
+- https://www.cdc.gov/std/treatment-guidelines/hcv.htm
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 털세포 백혈병
 ## 해설
 
 
-BCR‑ABL 융합과 필라델피아 염색체는 만성 골수성 백혈병의 특징이며, 백혈구 수치와 증상도 일치한다. 급성 형태는 이러한 유전자를 보통 갖지 않는다.
+현저한 백혈구증가, LDH·요산·B12 상승 및 Philadelphia/BCR::ABL1은 보기 중 CML C를 가장 지지한다. 다만 BCR::ABL1은 일부 B-ALL과 드문 AML에서도 확인될 수 있어 이 융합만으로 모든 급성 백혈병을 배제하는 것은 아니다. 세포 형태, 계열과 blast 비율을 함께 확인해 분류한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002973 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: BCR::ABL1이 급성 백혈병에는 없다는 오해를 방지하면서 이 사례의 CML 진단 C 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 중재영상의학과에 하대정맥 필터 삽입 의뢰
 ## 해설
 
 
-재발성 DVT와 혈전성 소인 평가를 위해서는 즉시 항응고를 시작해야 하며, 초기에는 헤파린(또는 저분자량 헤파린)과 동시에 구전 와파린을 투여해 INR 목표 2‑3에 도달하도록 한다. 이는 가장 표준적인 초기 관리이다.
+급성 DVT에 금기가 없으면 항응고를 시작한다. 이 선택지에서는 warfarin 단독 초기투여보다 heparin과 함께 시작하는 A가 적절하다. VKA를 선택하면 heparin/LMWH와 최소5일 및 치료 INR 확보까지 중첩한다. 그러나 적격 환자에서는 DOAC가 흔히 선호되며 신기능·임신·APS·약물상호작용 등으로 개별화한다. 금기 없는 환자에게 항응고 대신 하대정맥 필터를 일률 삽입하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004015 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 선택지 A의 heparin-warfarin 중첩은 유효하나 모든 현행 DVT의 유일 표준이라는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/
 
 ## 출처
 

@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "화학적 손상과 감염·방사선 원인을 구별하는 기본 복습 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc15y2hpewvwzxewz0nfcnrvrhnpntbnn0l1zdy0luu3smu4sunorgizsnlim05wzg1vz1jytnzjr2howjjsmgfytxbmbtfrfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 방사선에 의한 식도 손상
 
 ## 오답 포인트
 
-- **A. 칸디다균에 의한 식도 감염:** 칸디다 식도염은 진균 감염으로 정의가 다르다.
+- **칸디다균에 의한 식도 감염:** 칸디다 식도염은 진균 감염으로 정의가 다르다.
 
 ## 출처
 
 - 내부 학습 노트: 부식 식도염 (Corrosive Esophagitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/부식 식도염 (Corrosive Esophagitis).md`
 - 학습 목표: 원문 핵심: * **CC**: 흉통(retrosternal pain), 연하곤란(dysphagia), 연하통(odynophagia). * **P/E**: 구강 내 화상 흔적, 타액 분비 과다, 구토, 심한 경우 복통 및 쇼크 징후.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 화학적 손상과 감염·방사선 원인을 구별하는 기본 복습 유지.

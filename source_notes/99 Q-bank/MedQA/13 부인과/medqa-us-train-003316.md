@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 태아 초음파
 
 ## 해설
 
+20주 이후 새로 발생한 고혈압에서는 전자간증을 평가해야 한다. 제시된 선택지 중 C의 24시간 소변 단백 정량은 단백뇨를 평가하는 방법이다. 다만 현행 기준에서는 단회뇨 단백/크레아티닌 비로도 평가할 수 있으며, 시각 증상 등 장기 손상이 있으면 단백뇨 없이도 전자간증 진단이 가능하다. 두통과 시야 흐림이 있는 이 환자에서 단백뇨 결과만 기다리거나 이를 필수 확진 조건으로 삼아서는 안 된다. 실제 진료에서는 증상을 즉시 재평가하고 혈소판, 신장기능, 간효소 및 태아 상태를 함께 확인한다.
 
-임신 중 새로 발생한 고혈압에 대한 확진은 단백뇨 여부를 확인하는 24시간 소변 단백 검사이다. 이는 자간전증을 진단하는 표준 방법이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://kansaspqc.kdhe.ks.gov/wp-content/uploads/2025/09/ACOG-Gestation-HTN-and-Preeclampsia-Practice-Bulletin.pdf
+- https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy
 
 ## 출처
 

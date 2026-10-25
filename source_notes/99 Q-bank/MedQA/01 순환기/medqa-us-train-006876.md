@@ -19,13 +19,15 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 혈청 독성검사
 
 ## 해설
 
+기립/화장실유발·전구온감·매우짧은실신·빠른명료회복과 정상ECG는 반사성실신을 지지해 제시중 안심/퇴원 A가 합리적이다. 짧은근간대운동은 실신에도 가능하다. 병력·기립혈압·위험평가후 적절한안전교육/재내원기준을 제공하며 모든실신에서 추가평가가 불필요한 것은 아니다.
 
-혈관미주신경성 실신은 짧은 의식소실 후 완전 회복이 특징이며, 추가 검사가 필요 없으므로 안심하고 퇴원한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 저위험상황실신 A는 유지하되 짧은경련이간질확진이라는오해와 모든실신추가검사불요의일반화 방지.
+- https://academic.oup.com/eurheartj/article/39/21/1883/4939241
 
 ## 출처
 

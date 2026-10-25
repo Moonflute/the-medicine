@@ -19,15 +19,17 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 담낭관의 담석
 
 ## 해설
 
+발열·지속RUQ통증·Murphy와 정상담도효소는 담석성 급성담낭염을 시사하며 담낭관폐쇄 D가 기전이다. 초음파에서는 담석·벽비후·주위액체 등을 평가하지만 담낭관결석이 항상 직접 보이는 것은 아니다. 총담관폐쇄/췌장염과 구별한다.
 
-머피 징후와 경미한 염증 수치가 있는 급성 담낭염에서 가장 흔한 원인은 담낭관 결석에 의한 폐쇄이다. 초음파에서 담낭관 내 결석이 보이는 것이 전형적인 소견이다. 따라서 담낭관의 담석이 가장 가능성 높은 영상소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 담낭관결석 D 병인은 유지하되 모든 초음파에서 관내결석을 직접확인할 수 있다는 과장 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

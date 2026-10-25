@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 상완골 과상부 골절
 
 ## 해설
 
+소아의 손을 짚은 낙상, 팔꿈치 위 염발음과 운동제한은 상완골 과상부 골절(D)을 시사한다. 동반 정중신경 또는 그 운동 분지인 전골간신경(AIN) 손상은 긴엄지굽힘근·검지 깊은손가락굽힘근 약화로 끝마디를 굽힌 OK 표시를 어렵게 한다. AIN 자체는 운동신경이므로 엄지 감각저하까지 있으면 정중신경의 감각섬유 침범도 고려해야 한다. 정상 맥박만으로 모든 신경혈관 합병증이 배제되지는 않는다.
 
-팔꿈치 위에서 청진음이 들리고 엄지와 검지의 ‘OK’ 동작이 불가능한 경우는 전방 상완골 과상부 골절에 동반된 전방 전완 신경(전완골 신경) 마비이다. 다른 골절은 해당 신경 증상을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 상완골 과상부 골절의 염발음을 청진음으로, 전골간신경을 존재하지 않는 이름으로 부른 해설을 수정했다. 정중신경 감각과 전골간신경 운동 기능을 구별한다.
 
 ## 출처
 

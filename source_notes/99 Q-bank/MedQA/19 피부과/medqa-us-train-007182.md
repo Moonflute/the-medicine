@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 사람면역결핍바이러스
 
 ## 해설
 
+이식 후 장기 면역억제는 피부 편평세포암 위험을 높여 B가 가장 적절하다. 전층 각질형성세포 이형성과 각화는 편평세포 종양을 지지한다. 전층 이형성은 in situ SCC에서 나타날 수 있고 침윤 여부는 기저막·진피 침범으로 판단하므로 이 짧은 병리 문장만으로 전구 병변 또는 침윤 깊이를 확정하지 않는다.
 
-전층 각질형성세포 이형성과 각질 진주는 면역억제 상태에서 발생하는 편평세포암 전구 병변을 시사한다. 장기이식 후 지속적인 면역억제는 피부암, 특히 편평세포암의 주요 위험인자이다. 따라서 정답은 면역억제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 이식 후 면역억제 B는 맞지만 전층 이형성·keratin pearl을 단순 전구 병변이라고 부른 설명을 수정한다.
 
 ## 출처
 

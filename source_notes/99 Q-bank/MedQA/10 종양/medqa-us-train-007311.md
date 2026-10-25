@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 절제 생검
 
 
 호지킨 림프종 진단을 확정하려면 병변 조직을 직접 확인해야 하며, 절제 생검이 표준이다. 혈액 검사나 영상만으로는 확진할 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007311 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 진행성 무통성 림프절·B증상·종격동 확대로 림프종을 의심할 때 조직구조를 평가하는 절제생검 D가 적절함을 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://oncologypro.esmo.org/content/download/233774/3945164/file/2019-ESMO-ESO-Course-Valencia-Understanding-Treating-Lymphomas-Challenges-Maria-Jose-Terol.pdf
 
 ## 출처
 

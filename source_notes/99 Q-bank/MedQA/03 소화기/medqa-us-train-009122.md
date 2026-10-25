@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. AST, 아밀라아제, 리파아제
 ## 해설
 
 
-급성 췌장염 중증도는 Ranson 기준으로 나이, LDH, AST를 포함한다. 이 세 항목은 입원 48시간 내에 평가되는 주요 예후 인자이다. 따라서 나이·LDH·AST 조합이 중증도 예측에 가장 적합하다.
+정답 B. 전통적 알코올성 급성 췌장염 Ranson 입원 시 기준에는 나이 >55세, LDH >350 U/L, AST >250 U/L, WBC >16,000/µL, 혈당 >200 mg/dL가 포함된다. 이 사례에서 의도된 세 항목은 나이 57세, LDH 500, AST 400이다. AST 단위는 원문에 IU/dL로 기재되어 있어 통상적 IU/L 표기와 불일치함을 유의한다. 입원 후 48시간의 다른 기준을 이 수치만으로 추가하지 않으며, amylase/lipase의 높이 자체는 중증도 점수가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009122 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Ranson 입원 시 기준과 48시간 추적 기준을 구분. AST의 원문 단위 이상은 확인 없이 수치로 보정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

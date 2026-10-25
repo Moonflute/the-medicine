@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 성적 학대
 
 ## 해설
 
+나이에 맞지 않는 침습적 성행동과 행동 변화는 성적 학대(D) 가능성을 포함한 전문 평가가 필요하다. 그러나 특정 행동만으로 학대를 확정할 수 없고 빈곤·주거 형태는 진단 근거가 아니다. 비유도적 면담·안전 평가 및 의심 시 신고·전문 연계를 시행한다.
 
-아동이 성기 관련 행동을 보이고, 가정 환경 변화와 어머니의 과민 반응이 동반된 경우 성적 학대가 가장 우려되는 원인이다. 따라서 가장 가능성 높은 진단은 성적 학대이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 빈곤·이사 자체를 성학대 증거로 쓰고 행동을 곧 확진으로 단정하는 오류를 교정.
+- https://publications.aap.org/pediatrics/article-lookup/doi/10.1542/peds.2013-1741
 
 ## 출처
 

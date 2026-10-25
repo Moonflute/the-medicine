@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 뒤아래 시상하부 심부뇌자극술
 
 ## 해설
 
+밤에 반복되는 일측 안와뒤 찌르는 통증과 동측 눈물·콧물·발한은 군발두통에 합당하다. 고유량 산소 후에도 지속되면 금기를 확인하여 피하 수마트립탄(C)을 사용할 수 있다. 베라파밀은 주로 예방 치료이고 뇌심부자극은 일반적인 급성기 치료가 아니다. 새로 발생한 비전형 두통·신경징후 등이 있으면 이차 원인 영상평가가 필요할 수 있으므로 정상 단순 CT만으로 모든 혈관영상이 항상 불필요하다고 하지 않는다.
 
-군발두통은 일측성 눈 뒤 찌르는 통증과 자율신경 증상(발한·눈물)으로 특징지으며, 급성 발작 시 트립탄계 약물(수마트립탄) 주사가 가장 효과적이다. 베라파밀은 예방, 혈관조영술은 필요없다. 따라서 피하 수마트립탄이 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 군발두통 급성기에 피하 수마트립탄 C를 유지하되 혈관영상은 언제나 불필요하다는 일반화를 제거했다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

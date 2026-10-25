@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 복부 CT
 ## 해설
 
 
-복부 중앙에 1 cm 크기의 가동성 탈장이 보이면 초음파로 확인 후 관찰이 가능하다. 따라서 정답은 B이다
+건강한14개월 영아의 울 때 커지고 누우면 사라지는 작은 무통성·환원성 제대탈장은 안심시키고 관찰하는 B가 적절하다. 작은 제대탈장은 성장하면서 자연 폐쇄될 수 있어 이 시점의 일률적 수술이나 CT가 필요하지 않다. 전형적 진찰 소견이면 관찰 전 초음파가 필수인 것도 아니다. 통증·비환원·구토 등 감돈 징후가 생기거나 성장 후에도 지속되면 재평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007053 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 관찰 전에 초음파가 필수라고 한 정답-해설 불일치를 제거했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.facs.org/for-patients/the-day-of-your-surgery/pediatric-umbilical-hernia/
 
 ## 출처
 

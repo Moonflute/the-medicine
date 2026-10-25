@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,13 @@ D. 저나트륨혈증
 ## 해설
 
 
-코르티코스테로이드 장기 복용 중단으로 2차 부신피질 기능저하가 발생하면 ACTH와 코르티솔이 모두 감소한다. 부신피질 호르몬 결핍은 수분 저류 감소와 항이뇨 호르몬 억제로 저나트륨혈증을 초래한다. 따라서 저나트륨혈증이 추가로 나타날 가능성이 높다.
+정답 D. 장기 prednisolone 복용 후 갑작스러운 중단은 시상하부–뇌하수체–부신 축 억제 상태에서 중추성 부신기능저하를 드러낼 수 있다. Cortisol 결핍은 ADH 억제를 풀고 자유수 배설을 떨어뜨려 저나트륨혈증을 유발한다. ADH가 억제되어 물이 줄어든다는 설명은 반대다. Aldosterone은 상대적으로 보존되어 원발성 부신기능저하처럼 고칼륨이 필수적이지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008806 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: cortisol 결핍의 ADH 증가/자유수 배설 저하를 반대로 설명한 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

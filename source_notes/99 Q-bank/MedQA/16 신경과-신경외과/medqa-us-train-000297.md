@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 강직성 척추염 (Ankylosing spondylitis)
 
 ## 해설
 
+운동 중 갑작스러운 요통과 다리에서 발까지 방사되는 통증, 하지직거상검사(straight-leg raise)로 유발되는 방사통은 추간판 탈출증(A)에 의한 요천추 신경근 자극을 지지한다. 감각이 정상이어도 신경근통이 가능하다. 감염·만성 협착·염증성 요통을 더 지지하는 단서는 제시되지 않았다.
 
-급성 요통에 다리까지 방사되는 통증과 직각 다리 올림 시 통증이 나타나는 것은 좌골신경 압박을 의미한다. 이는 급성 추간판 탈출증에서 흔히 보이는 양상이며, 감염이나 염증 징후가 없으므로 골수염과는 구별된다. 따라서 가장 가능성 높은 진단은 추간판 탈출증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 직각 다리검사라는 오역과 말초 좌골신경 압박 단정 수정. 신경근성 방사통의 디스크 A 유지.
 
 ## 출처
 

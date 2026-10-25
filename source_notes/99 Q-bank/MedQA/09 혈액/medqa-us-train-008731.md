@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 제9인자 감소
 ## 해설
 
 
-vWD는 혈액응고인자 VIII와 vWF 결합에 영향을 주어 PTT를 연장시킨다. PT는 정상이며 출혈시간은 연장된다.
+가족력과 점막성 출혈은 von Willebrand병을 시사한다. vWF는 혈소판 부착뿐 아니라 VIII인자의 안정화에도 관여하므로 VIII가 충분히 감소하면 PTT가 연장될 수 있어 B가 선택지 중 맞다. 경증에서는 PTT가 정상일 수도 있다. 과거 출혈시간 검사는 진단 민감도·특이도가 낮으며 실제 확인에는 vWF 항원·활성 및 VIII 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008731 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: VWD에서 VIII 감소 시 PTT 연장 B가 가능하나 항상 연장되는 것은 아니다. 정상 PTT로 배제하거나 출혈시간을 현대 확진검사처럼 설명하지 않도록 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nhlbi.nih.gov/health-topics/diagnosis-evaluation-and-management-of-von-willebrand-disease/von-willebrand-disease-full-report
 
 ## 출처
 

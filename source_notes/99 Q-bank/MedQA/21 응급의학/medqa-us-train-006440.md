@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 신경이완제 악성 증후군
 
 ## 해설
 
+40.6°C의 고체온과 혼돈은 열탈진보다 열사병(A)을 시사하며, 건설 작업이라는 상황도 이를 지지한다. 운동성 열사병에서는 땀이 많이 날 수 있으므로 피부가 건조하지 않다는 이유로 배제할 수 없다. 다만 실제 주변 온도나 운동 강도가 수치로 제시된 것은 아니다. 할로페리돌 복용은 신경이완제 악성증후군의 감별 단서이므로 근육 강직, 약물 변경과 CK 등을 평가해야 하며, 수개월 전 마취만으로 악성 고열증을 설명하기는 어렵다.
 
-고온 환경에서 격렬한 운동으로 체온이 40°C 이상 상승하고 의식 혼미, 땀 흘림이 동반되는 경우는 운동성 열사병이다. 이는 체온 조절 실패와 탈수에 의한 급성 중증 열사병을 의미한다. 따라서 가장 가능성 높은 진단은 운동으로 인한 열사병이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고체온과 중추신경계 이상이라는 열사병의 핵심을 설명한다. 땀을 흘리므로 배제하거나 원문에 없는 환경·운동 강도를 만들어 단정하지 않는다.
 
 ## 출처
 

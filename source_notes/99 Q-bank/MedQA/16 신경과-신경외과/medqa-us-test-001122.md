@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -36,15 +38,18 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 내측종속의 탈수초화
+A. 내측세로다발(MLF)의 탈수초화
 B. 교뇌 압박 종양
 C. 티아민 결핍에 의한 산화 손상
 D. 뇌간 경색
 
 ## 해설
 
+양쪽 주시에서 내전장애와 반대쪽 외전안진이 생기는 것은 양측 핵간안근마비이다. 내측세로다발(MLF)은 제6뇌신경핵과 반대쪽 제3뇌신경핵의 협동 안구운동을 연결하며, 젊은 환자의 양측 병변은 탈수초질환을 시사한다. 정답은 A이며, MLF는 개별 말초뇌신경이 아니다.
 
-양쪽 눈의 내전 장애와 반대쪽 안진, 시신경유두 충혈은 내측 종속 신경(내측 종속 신경) 탈수초화에 의한 핵간안근마비를 나타낸다. 따라서 가장 가능성 높은 원인은 내측종속의 탈수초화이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. medial longitudinal fasciculus를 내측종속 신경으로 부른 해부학적 오역 수정. 양측 INO의 탈수초화 A 유지.
 
 ## 출처
 

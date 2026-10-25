@@ -20,11 +20,13 @@ question_type: association
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -33,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 남자가 두통, 운동 시 호흡곤란, 두 차례의 구토와 무뇨를 보인다. 2년 전부터 손가락 통증과 뻣뻣함이 점차 진행되었고 고혈압, 부종, 경정맥 팽창이 있다. 피부가 거칠고 두꺼우며 전반적인 과다색소침착과 모낭 주위 저색소침착이 보인다. 손가락 근위지절간관절 구축, 수포음, 흉수, 제3심음이 관찰되고 혈색소는 8.1 g/dL, 크레아티닌은 5.3 mg/dL이다. 다음 중 예상되는 소견은?
+45세 남자가 두통, 운동 시 호흡곤란, 두 차례의 구토와 무뇨를 보인다. 2년 전부터 손가락 통증과 뻣뻣함이 점차 진행되었고 혈압170/100 mmHg, 부종·경정맥 팽창이 있고 호흡수24회/분, 실내 공기 산소포화도91%이다. 피부가 거칠고 두꺼우며 전반적인 과다색소침착과 모낭 주위 저색소침착이 보인다. 손가락 근위지절간관절 구축, 수포음, 흉수, 제3심음이 관찰되고 혈색소는 8.1 g/dL, 크레아티닌은 5.3 mg/dL이다. 다음 중 예상되는 소견은?
 
 ## 선택지
 
@@ -45,7 +47,13 @@ D. 항CCP 항체 증가
 ## 해설
 
 
-전신경화증(경피증) 환자에서 신장 위기와 미세혈관 용혈성 빈혈이 동반될 때, 혈액 내 합토글로빈이 감소한다. 이는 용혈에 의해 적혈구 내 헤모글로빈이 파괴되면서 나타난다. 따라서 합토글로빈 감소가 예상되는 소견이다.
+진행성 피부경화와 새 고혈압·무뇨·신기능 저하, 빈혈은 경피증 신위기를 의심하게 한다. 동반 혈전미세혈관병증의 적혈구 분절·혈관내 용혈이 있으면 유리 hemoglobin과 결합한 haptoglobin이 제거되어 혈중 수치가 낮아진다(B). Hemoglobin 자체가 파괴되어 haptoglobin이 감소한다고 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004859 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Haptoglobin 감소를 hemoglobin 자체 파괴로 설명한 기전을 유리Hb 결합/제거로 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

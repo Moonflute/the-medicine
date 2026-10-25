@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. B형간염 면역글로불린과 B형간염 백신 3회 접종
 ## 해설
 
 
-B형간염 표면항원·항체가 모두 음성인 경우, 이미 면역이 없으므로 노출 후 즉시 B형간염 면역글로불린과 3회 연속 백신 접종이 필요하다. 따라서 면역글로불린과 백신 3회 접종이 적절하다.
+한 차례3회 접종 뒤 면역반응 확인 기록이 없고 현재 anti-HBs가 보호역치 미만이며 노출원이 HBsAg 양성/불명인 상황이면 HBIG1회와 두 번째 접종 시리즈 D가 해당한다. 이후 항체 및 감염 추적을 한다. 과거 적절한 접종 후 anti-HBs≥10mIU/mL가 문서화된 면역정상 반응자는 시간이 지나 항체가 낮아져도 같은 방식으로 비면역이라 단정하지 않는다. 두 시리즈에도 무반응인 경우의 요법도 구별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004371 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 한 번 접종 시리즈 완료 후 반응 미확인·노출시 anti-HBs 음성의 HBIG+재접종 D 유지; 과거 확인 반응자와 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hepatitis-b/hcp/infection-control/index.html
 
 ## 출처
 

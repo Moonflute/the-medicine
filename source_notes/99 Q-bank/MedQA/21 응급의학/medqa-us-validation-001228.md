@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 온단세트론
 
 ## 해설
 
+정답은 A, 100% 산소이다. 화재 연기 노출 후 두통·어지럼·혼돈·구토는 일산화탄소 중독을 의심하게 한다. 일반적인 2파장 맥박산소측정기의 정상 SpO₂는 CO 중독을 배제하지 못하므로 산소 투여를 지연하지 않고 CO-oximetry 등으로 평가한다. 화재에서는 기도 손상과 시안화물 중독이 함께 있을 수 있어 중증 젖산산증·쇼크 등의 소견이 있으면 하이드록소코발라민도 고려한다. 산소가 다른 모든 화재 독성물질을 해독한다는 의미는 아니며, 신경학적 증상이나 중증 소견에 따라 고압산소 적응증도 전문적으로 평가한다.
 
-화재 현장에서 흡입된 일산화탄소 중독은 혈중 CO 농도를 낮추기 위해 즉시 100% 산소를 투여해야 한다. 다른 처치는 일산화탄소 해독에 직접적 효과가 없다. 정답은 100% 산소이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CO 중독의 100% 산소 A 유지. 정상 일반 pulse oximetry로 배제 불가, 화재의 시안화물 동반 중독 가능성 및 전문평가 보완.
+- 공식/학회 근거: https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html
 
 ## 출처
 

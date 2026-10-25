@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 수두-대상포진 항체 역가 측정
 
 ## 해설
 
+MMR은 임신 전 비면역 여성에게 오히려 권고되는 생백신이며 접종 뒤 28일간 임신을 피한다. 이 환자는 예방접종이 최신이고 한 달 내 임신을 계획하므로 추가 MMR(C)을 즉시 반복할 이유가 없다. 임신 전 모든 MMR을 금기라고 설명해서는 안 된다. 수두 면역도 기존 접종 기록으로 확인할 수 있어 모든 접종 완료자에게 항체검사가 필수인 것은 아니다.
 
-MMR 백신은 살아있는 약화 백신으로 임신 중에 투여하면 태아에 위험을 초래한다. 따라서 임신 전 관리 단계에서 MMR 백신 투여는 권장되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 전 MMR 자체 금기라는 오류 수정; 접종 최신·임신 시도 전 간격으로 설명.
+- https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html
 
 ## 출처
 

@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 산전 페니토인(phenytoin) 복용
 
 ## 해설
 
+대동맥이 우심실, 폐동맥이 좌심실에서 나오는 것은 대혈관전위(TGA)이며 체순환·폐순환이 병렬로 이루어진다. 모체의 임신 전 당뇨병은 이런 선천성 심장기형과 연관되고 거대아 소견도 있어 공복 혈당 상승(A)이 가장 적합하다. 정상 대혈관의 교차 배치와 혼동하지 않으며, 태아의 심한 대사성 산증 자체가 전위 발생 원인이라고 단정한 기존 설명은 틀리다.
 
-신생아의 청색증이 산소 투여에도 호전되지 않고, 대동맥과 폐동맥이 서로 교차하는 전위가 확인된 경우, 모체의 당뇨병이 태아에게 심한 대사성 산증을 일으켜 전위와 연관될 수 있다. 따라서 모체의 공복 혈당 상승이 가장 가능성 높은 위험 요인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: TGA를대혈관교차와태아산증원인으로설명한기전오류교정. 모체DM연관A.
+
 
 ## 출처
 

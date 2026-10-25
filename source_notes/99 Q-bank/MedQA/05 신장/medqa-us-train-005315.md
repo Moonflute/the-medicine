@@ -17,15 +17,21 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: mechanism
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+curation_status: "revised"
+curation_reason: "CT는 없지만 제시된 고칼슘뇨와 예방약의 작용 부위를 묻는 독립적 기전 문항으로 판정하여 유지; 실제 예방 적응증과 구분."
+curation_reviewed_at: "2026-10-25"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -43,10 +49,20 @@ D. 헨레고리 하행각
 
 ## 해설
 
+요중 칼슘 배설을 줄이는 thiazide를 의도한 문항으로 작용 부위는 원위곡세뇨관의 Na/Cl 공동수송체다. 24시간 요칼슘 상승이 제시되어 있어 약물 기전을 답하는 데 CT 형태를 창작할 필요는 없다. 실제 예방약 투여는 결석 성분·재발 위험·지속 고칼슘뇨와 식이·수분 관리에 대한 반응을 고려하며 모든 첫 결석에 일률 적용하지 않는다.
 
-재발성 신장결석 예방에 티아지드 이뇨제를 사용하면 Na⁺/Cl⁻ 재흡수를 원위곡세뇨관에서 억제한다. 이 부위에서 칼슘 재흡수가 증가해 요중 칼슘 농도가 감소한다. 따라서 작용 부위는 A, 원위곡세뇨관이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: CT는 없지만 제시된 고칼슘뇨와 예방약의 작용 부위를 묻는 독립적 기전 문항으로 판정하여 유지; 실제 예방 적응증과 구분.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://uroweb.org/guidelines/urolithiasis/chapter/metabolic-evaluation-and-recurrence-prevention
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005315
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

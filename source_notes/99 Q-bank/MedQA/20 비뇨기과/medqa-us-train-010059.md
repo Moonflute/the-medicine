@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 탐스로신
 
 ## 해설
 
+50 g 전립선과 기존 terazosin에 불충분한 반응이 있어 A, finasteride를 추가하여 장기적으로 전립선 크기와 진행 위험을 줄일 수 있다. Tadalafil은 LUTS에 효과가 있을 수 있으나 이 환자는 nitroglycerin을 사용하므로 금기이다. Tamsulosin을 기존 alpha 차단제에 단순 중복 추가하지 않으며 oxybutynin은 잔뇨·배뇨곤란 위험을 고려해야 한다. 다른 약들이 본질적으로 모두 효과가 없는 것은 아니다.
 
-전립선 비대증 증상에 5α환원효소 억제제인 피나스테리드는 전립선 크기를 감소시켜 배뇨곤란을 개선한다. 다른 약물은 증상 완화에 직접적 효과가 없다. 따라서 추가할 가장 적절한 약물은 피나스테리드이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 추가 finasteride A 유지, 다른 약 모두 무효라는 설명을 nitrate-tadalafil 금기·alpha 중복·저류 위험으로 교정.
+- 공식/학회 근거: https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management
 
 ## 출처
 

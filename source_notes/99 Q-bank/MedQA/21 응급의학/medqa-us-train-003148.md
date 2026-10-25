@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 진단적 복강세척
 
 ## 해설
 
+저혈압, 빈맥, 의식 변화로 복부 진찰의 신뢰도가 낮고 FAST도 결론이 나지 않았다. 제시된 선택지에서 D, 진단적 복강세척은 복강 내 출혈을 신속히 확인할 수 있는 선택적 방법이다. 다만 현행 외상 진료에서 DPL의 역할은 제한적이며, 반복 FAST와 출혈원 평가 및 즉각적 수술 필요성을 함께 판단한다. 지속되는 불안정이나 명확한 복막자극징후가 있으면 추가 검사 때문에 필요한 수술을 지연해서는 안 된다. 안정화되지 않은 상태에서 CT실로 보내는 것을 우선하지 않는다.
 
-FAST 검사가 불확실하고 혈압 저하·복부 압통이 있는 경우, 진단적 복강세척은 출혈 여부를 빠르게 확인할 수 있는 방법이다. 복부 CT는 혈역학 불안정 시 지연될 수 있다. 따라서 가장 적절한 단계는 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 불안정 둔상·판독 불확실 FAST에서 DPL이 가능한 선택적 보조임은 유지하되 현행 제한된 역할과 수술 지연 금지를 명시.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC8896237/
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

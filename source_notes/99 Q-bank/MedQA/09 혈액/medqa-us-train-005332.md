@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 단백질 C 결핍
 
 
 가족력과 반복적인 관절내 출혈, 큰 멍이 나타나는 특징은 혈우병 A(제8인자 결핍)와 일치한다. 이는 X-연관 유전 질환으로 남성에게 주로 나타난다. 따라서 가장 가능성 높은 진단은 혈우병 A이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005332 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 남아 관절내출혈 의심·출혈 가족력에서 선택지 중 혈우병 A가 가장 가능함을 원문 대조 유지. 다른 선지는 주로 혈전 성향.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

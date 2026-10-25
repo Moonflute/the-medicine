@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. 골수 생검
 ## 해설
 
 
-환자는 정중성 빈혈(정상 MCV)과 저혈색소를 보이며, 원인 감별을 위해 철 저장 상태를 평가해야 한다. 혈청 페리틴은 철 결핍 여부를 가장 정확히 반영하므로 다음 단계는 혈청 페리틴 측정이다.
+MCV88 fL의 정구성 빈혈에서는 망상적혈구 수(B)로 골수의 적절한 반응이 있는지 평가하는 것이 유용하다. 절대수와 빈혈 정도를 고려한 보정지수로 증가하면 출혈·용혈, 낮거나 부적절하게 정상이라면 생성저하를 우선 고려한다. Ferritin도 감별 과정에서 필요할 수 있지만 이 단계의 원문 정답은 B이다. 제시된 RBC·Hb·MCV·MCH 수치의 산술적 불일치는 원문에도 있어 원인 진단을 특정 수치 조합만으로 확정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001254 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정답 B와 반대로 ferritin A를 결론 내린 해설을 망상적혈구 기반 빈혈 분류로 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://medlineplus.gov/lab-tests/reticulocyte-count/
 
 ## 출처
 

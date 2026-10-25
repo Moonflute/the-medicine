@@ -19,11 +19,11 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xhdGFub3Byb3N0Lm1k
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 레이저 홍채절개술
 
 ## 해설
 
+정상 전방각에 안압 상승, 유두 함몰과 시야 축소가 있어 개방각 녹내장에 합당하다. 약물 선지 중 B, latanoprost가 적절하며 방수의 포도막공막 유출을 늘린다. C timolol은 2도 방실차단에서 금기이다. 실제 초기 치료에는 선택적 레이저 섬유주성형술(SLT)도 고려되지만, 선지 D의 홍채절개술은 SLT가 아니며 주로 동공차단성 폐쇄각에서 사용한다. 모든 녹내장에 점안제가 항상 첫 선택이라는 뜻은 아니다.
 
-개방각 녹내는 안압 상승과 시신경 유두 함몰을 특징으로 하며, 첫 번째 약물 치료는 안압을 낮추는 프로스타글란딘 아날로그인 라타노프로스트이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Latanoprost B의 약물 선택은 유지하고 2도 방실차단에서 timolol 금기 및 SLT와 LPI 차이를 보완.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng81/chapter/Recommendations
+- 공식/학회 근거: https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/020963s015lbl.pdf
 
 ## 출처
 

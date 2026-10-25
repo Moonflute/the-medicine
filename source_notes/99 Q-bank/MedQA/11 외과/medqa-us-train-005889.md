@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,15 @@ D. 우측 발의 외과적 혈관재개통
 ## 해설
 
 
-당뇨병성 신경병증성 궤양은 변연이 불규칙하고 감염 위험이 높아 외과적 변연절제가 초기 치료에 권장된다. 따라서 가장 적절한 초기 관리 단계는 궤양의 예리한 외과적 변연절제이다.
+감각저하와 발바닥 압력 부위의 굳은살을 동반한 궤양은 신경병증성 당뇨발 궤양에 합당하다. 창상 바닥의 슬러프와 가장자리 굳은살을 적절히 제거하는 예리한 변연절제(C)가 기본 창상관리의 일부이다. 혈류·통증·깊이를 평가하고 offloading, 혈당·영양관리도 병행한다. 탐침이 깊은 공간에 닿는다는 점은 심부 침범 평가가 필요하며 정상 X선만으로 초기 골수염을 배제하지 못한다. 다만 임상 감염 증거 없이 예방 목적으로 정맥 항생제를 일률 투여하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005889 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 괴사/슬러프·굳은살 제거의 근거와 offloading·심부손상 평가를 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://iwgdfguidelines.org/wp-content/uploads/2023/07/IWGDF-Guidelines-2023.pdf
+- https://www.idsociety.org/practice-guideline/diabetic-foot-infections/
 
 ## 출처
 

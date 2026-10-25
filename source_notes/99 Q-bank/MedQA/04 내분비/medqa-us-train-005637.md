@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 메트포르민에 티아졸리딘디온 추가
 
 
 공복 혈당과 HbA1c가 지속적으로 상승하고 체중 감소와 다뇨가 나타나는 경우, 인슐린 분비가 충분하지 않은 중증 고혈당이다. 기저‑식사 인슐린 요법이 혈당 조절에 가장 효과적이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 혈당370·A1c11과 체중감소/다뇨의 catabolic 고혈당은 기저-식사 insulin A를 지지.
+- https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment
 
 ## 출처
 

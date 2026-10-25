@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 혈관조영술
 
 ## 해설
 
+객관적 야간 음경팽창·강직도 측정 A는 기질적 요인과 심인성 요인을 구분할 때 선택적으로 사용할 수 있다. 그러나 수면장애·우울증·연령 등은 검사 결과에 영향을 주므로 야간 발기가 없으면 반드시 기질성, 있으면 반드시 심인성이라고 확정할 수 없다. 일반적인 발기부전 초진에 모두 필요한 검사는 아니며 이 문항은 특정 감별 목적의 검사를 묻는다.
 
-야간 발기(음경 팽창) 검사는 수면 중에 자연스럽게 발생하는 발기를 측정해 유기적 원인과 심인성 원인을 구분한다. 유기적 원인은 발기가 없으며, 심인성 원인은 야간에도 발기가 유지된다. 따라서 음경 팽창 검사가 적절한 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선지 A의 선택적 NPTR 역할은 유지하되 정상/비정상을 유기성·심인성에 일대일로 대응한 설명 교정.
+- 공식/학회 근거: https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -32,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-34세 남성이 4일 동안 두통, 발열, 오한, 기침, 호흡곤란, 흉통으로 응급실에 왔다. 하루에 담배 2갑과 맥주 2~3병을 마신다. 계절성 알레르기 외에는 병력이 없고 가끔 디펜히드라민을 복용한다. 체온 40.0°C(104.0°F), 혈압 140/80 mmHg, 심박수 98회/분, 호흡 28회/분이었다. 마르고 위생 상태가 좋지 않아 보였으며 양쪽 팔의 압박 부위에 작은 흉터가 보였다. 양측 폐에서 수포음이 들렸고 심장 청진에서 왼쪽 겨드랑이로 방사되는 수축기 심잡음이 있었다. 경구개와 손바닥에 점상출혈이 보였다. 흉부 X선과 혈액배양을 시행할 예정이다. 증상의 가장 가능성 높은 원인균은?
+34세 남성이 4일 동안 두통, 발열, 오한, 기침, 호흡곤란, 흉통으로 응급실에 왔다. 하루에 담배 2갑과 맥주 2~3병을 마신다. 계절성 알레르기 외에는 병력이 없고 가끔 디펜히드라민을 복용한다. 체온 40.0°C(104.0°F), 혈압 140/80 mmHg, 심박수 98회/분, 호흡 28회/분이었다. 마르고 위생 상태가 좋지 않아 보였으며 양쪽 팔오금 부위에 작은 흉터가 보였다. 양측 폐에서 수포음이 들렸고 심장 청진에서 왼쪽 겨드랑이로 방사되는 수축기 심잡음이 있었다. 경구개와 손바닥에 점상출혈이 보였다. 흉부 X선과 혈액배양을 시행할 예정이다. 증상의 가장 가능성 높은 원인균은?
 
 ## 선택지
 
@@ -44,7 +46,14 @@ D. 표피포도상구균
 ## 해설
 
 
-주사 부위 피부와 점상출혈, 폐렴구균성 폐렴과 폐농양을 동반한 급성 감염성 심내막염에서 가장 흔한 원인균은 황색포도상구균이다. 특히 IV 약물 사용과 피부 손상이 위험인자이며, 혈액배양에서 이 균이 가장 많이 검출된다. 따라서 정답은 황색포도상구균이다.
+급성 고열, 새 심잡음과 점상출혈은 감염성 심내막염을 시사하고 양팔의 주사 흔적은 주사약물 사용 가능성을 뒷받침한다. 선지 중 S. aureus(B)가 가장 타당하다. 폐렴구균성 폐렴·폐농양이나 양성 혈액배양 결과는 아직 제시되지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000454 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 발열·심잡음·점상출혈과 주사 흔적으로 S. aureus IE B 지지. 미제시 폐렴구균 폐렴·폐농양을 생성한 해설 삭제, decubitus arm을 팔오금 맥락으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

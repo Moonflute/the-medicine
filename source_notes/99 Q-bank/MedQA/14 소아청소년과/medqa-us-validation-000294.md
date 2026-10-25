@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 관찰하며 안심시킨다
 
 ## 해설
 
+화가 나서 울고 난 뒤 잠깐 청색증·탈력·의식 소실이 있고 곧 완전히 회복하는 것은 청색증형 호흡정지 발작에 부합한다. 형의 유사 병력도 있다. 전형적이고 현재 정상인 이 경우 안심·관찰(D)이 적절하며, 비전형/빈번한 삽화나 심장 경고 신호가 있으면 ECG·철결핍 등 추가 평가를 고려한다.
 
-짧은 무의식 후 빠른 회복, 가족력 없는 발작, 정상 신경학적 검사는 양성 소아 실신(청색증형 호흡정지 발작)으로, 대부분 경과 관찰만으로 충분하다. 따라서 관찰하며 안심시키는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 전형적 호흡정지 발작을 간질성 발작처럼 쓰거나 가족력이 없다고 한 오류 교정.
+- https://www.rch.org.au/kidsinfo/fact_sheets/Breath_holding/
 
 ## 출처
 

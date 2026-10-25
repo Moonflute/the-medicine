@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 직장 메살라민
 ## 해설
 
 
-Crohn 병의 경미한 회장 궤양에 대해 국소 스테로이드인 부데소니드가 1차 치료제로 권장된다.
+경증 회장·우측대장 Crohn병에서는 경구 회장방출 budesonide(A)로 단기 관해 유도를 할 수 있다. 이를 장기 유지 스테로이드로 계속하는 것은 권고되지 않는다. 항균제나 직장 mesalamine은 이 사례의 표준 관해유도 대안이 아니다. 원문은 내시경생검에 전층 육아종을 기술하지만 통상 점막생검은 장벽 전층을 평가할 수 없다는 점을 유의한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008331 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경증 회맹부/우측대장 Crohn의 관해 유도 budesonide A 유지, 유지요법이 아님을 명시. 점막 내시경생검으로 전층을 볼 수 있다는 원문 한계도 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gut.bmj.com/content/74/Suppl_2/s1
 
 ## 출처
 

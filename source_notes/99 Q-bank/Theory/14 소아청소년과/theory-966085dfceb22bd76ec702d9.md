@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "혈중 아연 하나를 확진의 절대 지표처럼 표현하지 않고 검사 해석의 한계를 묻도록 개선."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-아연 결핍 진단에 가장 핵심적인 검사 지표는?
+아연 결핍 평가에서 혈청 또는 혈장 아연 농도의 해석으로 옳은 것은?
 
 ## 선택지
 
-A. 공복 시 혈중 아연 농도 측정(아연 없는 튜브 사용)
-B. 혈청 알칼리 포스파타제(ALP) 수치 감소 확인
-C. 혈청 철분 농도 측정
-D. 혈청 비타민 D 농도 측정
+A. 평가에 사용되지만 감염·채혈 시각·연령 등에 영향을 받아 임상 위험요인과 함께 해석함
+B. 식이 섭취량과 항상 정확히 비례함
+C. 단 한 번 정상으로 나오면 모든 아연 결핍을 완전히 배제함
+D. 감염이나 전신질환과 무관하여 언제 측정해도 해석이 동일함
 
 ## 해설
 
-아연 결핍 진단의 핵심은 공복 상태에서 아연 없는 진공 튜브로 채취한 혈중 아연 농도 측정이다.
+혈청·혈장 아연 농도는 아연 상태 평가에 사용되지만 감염, 연령, 성별, 채혈 시각 등 여러 요인의 영향을 받는다. 영양섭취·흡수장애 등 위험요인과 성장·증상을 함께 살피며 단회 수치를 절대적인 확진·배제 검사로 취급하지 않는다.
 
 ## 오답 포인트
 
-- **B. 혈청 알칼리 포스파타제(ALP) 수치 감소 확인:** ALP 감소는 보조 지표이지만 아연 농도 측정이 가장 직접적인 진단법이다.
+- **섭취량과 항상 비례:** 혈중 농도는 섭취량과 항상 일치하지 않는다.
+- **정상이면 완전 배제·질환과 무관:** 검사에 영향을 주는 요인을 고려해야 한다.
 
 ## 출처
 
 - 내부 학습 노트: 아연 결핍증 (Zinc Deficiency)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/아연 결핍증 (Zinc Deficiency).md`
-- 학습 목표: 원문 핵심: * **혈중 아연 농도**: 진단의 핵심 지표 (아침 공복 채혈 권장, 아연이 없는 진공 튜브 사용) * **기타**: 혈청 알칼리 인산분해효소(ALP) 수치 저하 확인(아연 의존성 효소) * **조직 검사**: 피부 생검 시 상피세포의 세포질 창백(cytoplasmic pallor), 괴사, 과각화증 등 비특이적 소견 관찰 가능
+- 학습 목표: 혈청/혈장 아연은 상태 평가에 쓰이지만 염증·시간·연령 등으로 변할 수 있음을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 혈중 아연 하나를 확진의 절대 지표처럼 표현하지 않고 검사 해석의 한계를 묻도록 개선.
+- 근거: https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 항전압개폐성 칼슘통로(VGCC) 항체 수치
 
 ## 해설
 
+피로성 안검하수·구근 증상과 AChR 항체 양성, 반복자극 감쇠는 전신형 중증근무력증에 합당하다. 흉부 CT(C)는 관련 흉선종(thymoma)을 평가하는 검사이다. 흉선종과 흉선암(thymic carcinoma)은 같은 병명이 아니다. Physostigmine은 일반적인 MG 경구 유지치료제인 pyridostigmine과 다르며, VGCC 항체는 주로 Lambert-Eaton 증후군과 관련된다.
 
-AChR 항체 양성 및 전신 근력 저하는 중증 중증 근무력증을 시사한다. 흉부 CT는 흉선 종양(흉선암) 여부를 확인하는 표준 검사이며, 치료 계획에 필수적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Thymoma를 흉선암과 동의어로 설명한 오류 및 '중증 중증' 표현 교정. 흉부 CT C의 목적 확인.
+- 공식/학회 근거: https://www.nhs.uk/conditions/myasthenia-gravis/diagnosis/
 
 ## 출처
 

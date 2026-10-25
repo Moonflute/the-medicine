@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 아연
 ## 해설
 
 
-거대 적혈구(MCV 110 fL)와 빈혈을 동반한 경우, 엽산 결핍이 가장 흔한 원인이다.
+신선한 엽산 공급 식품이 부족한 식단과 거대적혈구성 빈혈은 선택지 중 folate A 부족을 의심하게 한다. 하지만 식단과 MCV만으로 확진할 수 없고 B12 부족·MDS·약물 등도 확인한다. Folate만 먼저 보충하여 동반 B12 신경병증을 가리는 일을 피하며 낙상의 원인도 별도로 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007696 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 육류 위주 식단·거대적혈구의 folate A 추론 유지; macrocytosis만으로 가장 흔하다고 확진하는 설명 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

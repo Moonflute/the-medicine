@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 담배 사용
 
 
 재발성 위·십이지장 궤양이 헬리코박터 치료에도 지속되는 경우, 가스트린 분비 종양(가스트린oma)으로 인한 과다 가스트린 분비가 원인일 수 있다. 따라서 가장 가능성 높은 기저 원인은 가스트린 분비 종양이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001130 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 제균 확인 후에도 비전형 부위 십이지장궤양·심한 식도염이 반복되는 사례의 gastrinoma B 병태생리 추론을 유지. 실제 확진 검사 결과를 만들지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

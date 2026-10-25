@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 필그라스팀
 ## 해설
 
 
-CD4 98/mm³, β‑D‑글루칸 상승, 저산소증은 PCP(폐렴)이며, 중증 환자에서는 스테로이드 보조가 사망률을 감소시킨다. 따라서 프레드니손을 추가한다.
+HIV와 낮은 CD4, 심한 저산소증 및 β-D-glucan 상승은 PCP를 강하게 의심하게 한다. 실내 공기 SpO₂ 86%이고 PaO₂도 60mmHg로 낮아 적절한 PCP 항균치료와 함께 보조 prednisone(A)이 적절하다. HIV-PCP에서는 실내 공기 PaO₂ <70mmHg 또는 A–a 산소차 ≥35mmHg가 대표 기준이다. β-D-glucan은 비특이적이며 누락된 흉부사진 자체를 확인한 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009933 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HIV/CD4 98·저산소증의 중등도 이상 PCP 보조 prednisone A 유지. β-D-glucan/누락 X선만으로 확진했다고 주장하지 않고 중증 저산소증 근거를 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis
 
 ## 출처
 

@@ -21,17 +21,19 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 데스모프레신(desmopressin) 치료
 
 ## 해설
 
+정답은 C이다. 고삼투성 고나트륨혈증인데 소변이 묽고 desmopressin에 반응하지 않아 AVP 저항성/신장성 요붕증에 합당하다. HCTZ는 thiazide계 이뇨제로 Na 손실에 따른 근위세뇨관 수분 재흡수 증가와 원위부 수분 전달 감소 등을 통해 역설적으로 다뇨를 줄일 수 있다. 삼투성 이뇨제가 아니며 AVP에 대한 신장 반응을 직접 정상화하는 것은 아니다. 자유수 공급과 전해질 감시도 필요하고 추가 수분 제한은 고나트륨혈증을 악화시킬 수 있다.
 
-다낭성 신장 질환 환자에서 고나트륨 혈증과 저농도 소변은 신장성 요붕증을 의미한다. 삼투성 이뇨제인 하이드로클로로티아자이드는 농축 능력을 회복시켜 소변량을 감소시킨다. 따라서 다음 치료는 하이드로클로로티아자이드이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: HCTZ를 삼투성이뇨제라 한 오류 및 농축능 회복이라는 설명 교정.
+- https://www.nature.com/articles/s41581-024-00897-z.pdf
 
 ## 출처
 

@@ -21,11 +21,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,14 @@ D. 인지 장애
 ## 해설
 
 
-측두동맥 압통은 거대세포성 동맥염(temporal arteritis)의 핵심 징후이며, 시각신경 허혈이 가장 위험한 합병증이다. 조기 스테로이드 치료는 관상동맥염에 의한 시신경 손상을 예방한다. 따라서 신속한 치료는 실명을 예방한다.
+고령의 새 두통·턱 파행과 측두동맥 압통은 GCA를 의심하게 한다. 안동맥 계통, 특히 후섬모체동맥 침범에 의한 동맥염성 전부 허혈시신경병증 등으로 비가역적 시력 소실이 생길 수 있어 신속한 인지·치료가 예방하려는 합병증은 실명(B)이다. 이는 관상동맥염에 의한 시신경 손상이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000257 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: GCA의 시신경허혈을 관상동맥염 때문이라고 한 해부학적 오류를 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

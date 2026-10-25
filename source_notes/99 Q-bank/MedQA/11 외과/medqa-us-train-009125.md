@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 하대정맥 필터 삽입
 ## 해설
 
 
-경골 골절 후 압통·부종·맥박 약화·재충전 지연은 급성 구획증후군을 시사한다. 근막 절개술은 압력을 즉시 감소시켜 조직 손상을 방지한다. 따라서 근막절개술이 정답이다.
+외상 뒤 심한 통증·팽창과 수동 발등굽힘 시 종아리 통증, 지연 모세혈관 재충만은 급성 구획증후군을 강하게 의심하게 한다. 임상적으로 확실하면 즉시 근막절개(C)로 감압해야 하며 애매하면 압력측정 등이 도움이 된다. 맥박이 만져져도 구획증후군을 배제하지 못하고, 이 환자의 약한 맥박은 동반 혈관손상도 평가해야 한다. 제공되지 않은 X선에서 골절을 실제 확인했다고 가정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009125 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 보이지 않는 X선의 경골골절을 확정하지 않고 임상상 급성 구획증후군과 사지허혈 평가를 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.aaos.org/acscpg2025
 
 ## 출처
 

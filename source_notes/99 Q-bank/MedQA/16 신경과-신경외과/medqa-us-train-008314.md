@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -39,15 +41,19 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 신경안과 평가
+A. 신경시각기능 평가(neuro-optometric assessment)
 B. 아세트아미노펜 치료
 C. 뇌 MRI
 D. 아시클로버 치료
 
 ## 해설
 
+반복되는 일측 박동성 두통과 활동 후 발생, 어두운 방에서 수면 후 호전은 소아 편두통을 시사한다. 보기 중 acetaminophen(B)은 급성 통증 완화에 적절한 선택이다. 본문에는 구역이 명시되어 있지 않다. 안저가 평가되지 않았다는 사실을 정상 안저로 간주하지 않으며, 진행성 양상·지속 구토·국소 신경징후 등 경고소견이 있으면 재평가와 영상 필요성을 검토한다.
 
-소아에서 반복적인 구역질 동반 두통은 편두통이 흔하며, 초기 치료는 아세트아미노펜과 같은 진통제로 시작한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 소아 편두통의 acetaminophen B 확인. 본문에 없는 구역질을 실제 증상으로 추가한 해설 교정 및 neuro-optometric 번역 수정.
+- 공식/학회 근거: https://www.aan.com/Guidelines/home/GetGuidelineContent/977
 
 ## 출처
 

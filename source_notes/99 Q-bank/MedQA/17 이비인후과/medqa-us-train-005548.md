@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 혀 뒤쪽 1/3의 미각과 감각 저하
 
 ## 해설
 
+전이하선절제술에서는 이하선을 통과하는 안면신경과 그 말초 가지가 손상될 수 있다. 특히 변연하악가지(marginal mandibular branch, CN VII) 손상은 같은 쪽 하순의 운동 약화/비대칭을 일으켜 C가 가장 적절하다. 이는 하악신경 V3의 감각 손상이 아니다. 귓불에서는 큰귓바퀴신경 손상에 따른 감각 저하가 더 전형적이고, 고삭·등골근신경보다 원위부인 이하선 수술이므로 청각과민이나 혀 뒤 1/3 감각 소실은 덜 적합하다.
 
-하악선 종양 수술 시 하악신경(구강 하부 감각) 손상이 가장 흔히 발생하며, 이는 하악 하부 입술 마비를 초래한다. 따라서 가장 위험이 높은 초기 합병증은 오른쪽 아랫입술 마비이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 이하선 수술 후 하순 마비는 하악신경 V3의 감각 손상이 아니라 안면신경 변연하악가지의 운동 손상임을 교정.
 
 ## 출처
 

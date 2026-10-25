@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 혈장교환
 ## 해설
 
 
-고단백 혈청전기영동에서 IgM 마크로글로불린이 과다하게 나타나는 것이 고점도 증후군을 시사한다. 고점도 증후군은 혈액 점도가 급격히 상승해 장기 혈류 장애를 일으키므로 즉시 혈장교환이 필요하다. 따라서 가장 적절한 처치는 혈장교환이다.
+단클론감마글로불린병 병력이 있는 환자에서 점막출혈, 시야 이상과 의식변화는 증상성 과점도증후군을 시사한다. 선택지 중 즉시 혈장교환술(D)이 적절하다. Waldenström 거대글로불린혈증 등을 의심하되, 누락된 전기영동 그림으로 IgM 농도나 아형을 확정할 수는 없다. 원인 질환의 확진·치료는 별도로 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008733 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 출혈·시야 이상·의식변화의 증상성 과점도에서 응급 혈장교환 D 유지. 누락된 SPEP 그림의 IgM 수치를 보았다고 주장하지 않고 WM은 의심 진단으로 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://ashpublications.org/blood/article/128/10/1321/35293/Treatment-recommendations-from-the-Eighth
 
 ## 출처
 

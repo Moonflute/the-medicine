@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 혈당 항상성 장애
 
 ## 해설
 
-
-환자는 정상 혈당 측정에도 불구하고 지속적인 질병에 대한 과도한 걱정과 검사를 요구한다. 이는 실제 신체적 질병이 없으며, 건강에 대한 과도한 불안이 특징인 질병불안장애에 해당한다. 따라서 가장 가능성 높은 진단은 질병불안장애이다
+경미한 피로·어지럼보다 당뇨병에 대한 지속적인 과도한 걱정, 반복 측정·검색과 기능저하가 2년간 중심이므로 질병불안장애가 가장 적절하다. 의학적 질환이나 가족력이 전혀 없어야 하는 것은 아니고, 위험에 비해 걱정과 행동이 과도한지를 평가한다. 신체 증상 자체가 심하고 그에 대한 과도한 반응이 중심인 신체증상장애와 구별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000262
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 질병불안장애에 실제 신체질환이 없다는 것이 필수라는 오류 제거. 경미한 신체증상보다 질병 집착·과도한 확인이 중심임을 설명.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://extranet.who.int/ncdccs/Data/LBN_D1_PHC%20clinical%20guidelines.pdf

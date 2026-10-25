@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 낭종 절제
 
 ## 해설
 
+정답은 B, 경부 초음파이다. 무통성 정중선 낭성 종괴가 혀를 내밀 때 위로 움직이는 것은 갑상설관낭종에 부합한다. 우선 초음파로 종괴의 성상을 평가하고 정상 위치에 갑상선 조직이 있는지 확인한다. TSH가 정상이어도 정상 위치 갑상선의 존재를 보장하지는 않는다. 확진 후 필요한 경우 낭종과 관 및 설골 중앙부를 포함한 Sistrunk 수술을 계획하며, 단순 낭종만 절제하면 재발 위험이 높다.
 
-갑상선 설관 낭종은 초음파로 확인하는 것이 가장 정확한 진단 방법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정중선 종괴/혀돌출 시 상승은 갑상설관낭종. 초음파를 보편적 최고 정확검사로 단정하지 않고 낭종 확인과 정상 위치 갑상선 확인이라는 수술 전 역할 설명. B 유지.
+- 공식/학회 근거: https://doi.org/10.1308/rcsann.2022.0060
 
 ## 출처
 

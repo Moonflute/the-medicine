@@ -24,11 +24,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,6 +50,13 @@ D. 스테로이드를 투여한다
 
 
 투석 중 혈압이 크게 떨어져 저혈압과 낙상 위험이 증가한다. 차가운 투석액은 말초 혈관을 수축시켜 혈압을 유지하고 어지러움을 감소시킨다. 따라서 투석액을 차갑게 하는 것이 낙상 예방에 가장 효과적이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 투석 후 증상성 혈압 하강에는 냉각 투석액 A가 혈역학적 내성을 개선할 수 있음. 초여과 증가/과식은 악화 가능.
+- https://kdigo.org/wp-content/uploads/2017/05/KDIGO-BP-Volume-in-Dialysis-FINAL.pdf
 
 ## 출처
 

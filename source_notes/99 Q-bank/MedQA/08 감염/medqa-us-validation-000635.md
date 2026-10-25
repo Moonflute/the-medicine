@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,6 +53,13 @@ D. 트리메토프림-설파메톡사졸
 
 
 턱에 고름이 배출되고 현미경에서 황색 과립(‘황 과립’)이 보이는 경우는 방선균(Actinomyces) 감염을 의미한다. 방선균은 베타-락탐계 항생제에 민감하므로 고용량 페니실린이 표준 치료이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000635 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 치성 턱 경결·배농로·sulfur granule은 cervicofacial actinomycosis이며 penicillin C 적응증을 허가정보로 확인.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e58122f-5c75-4905-a774-d3a4dae4ff8c
 
 ## 출처
 

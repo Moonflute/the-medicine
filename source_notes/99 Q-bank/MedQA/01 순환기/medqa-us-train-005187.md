@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. ADAMTS13 유전자 돌연변이
 
 ## 해설
 
+AS 의심 잡음과 새 GI/점막출혈은 후천성 von Willebrand증후군 B를 시사한다. 높은 전단력으로 큰 vWF multimer가 소실되어 혈소판 부착이 저하된다. 정상 vWF는 부착을 돕는 인자이지 억제하는 인자가 아니며 무조건 선천성 결핍도 아니다.
 
-폰 빌레브란트 인자는 혈소판과 혈관벽 사이의 결합을 억제해 출혈을 유발하는 선천성 혈소판 기능 이상(폰 빌레브란트 증후군)과 연관된다. 환자의 점막 출혈, 손톱 출혈, 경미한 호흡곤란은 이 인자 결핍을 시사한다. 따라서 정답은 폰 빌레브란트 인자이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: vWF가 부착을 억제한다는 역기전과 선천성 단정을 AS의 후천성 vWF소실로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

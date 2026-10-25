@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 망막출혈
 ## 해설
 
 
-IV 약물 사용과 폐렴·심내막염 병력이 있는 HIV 환자에서 가장 흔한 합병증은 혈전 형성으로 인한 폐색전증이다. 다른 선택지는 드물다. 따라서 폐색전증이 가장 가능성 높은 후유증이다.
+주사약물 사용·지속 발열과 흡기 시 커지는 전수축기 잡음은 우측 삼첨판 감염성 심내막염을 시사한다. 우심계 감염 식생이 떨어져 폐혈관으로 이동하는 패혈성 폐색전 A가 중요한 합병증이다. 단순 하지 DVT의 비감염성 혈전색전이나 기존 폐렴 병력이 확정된 것처럼 설명하지 않는다. 손끝 결절·Roth 반점 등은 IE에서 가능하지만 이 사례의 우심계 색전 경로와 구별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005467 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 기존 폐렴·심내막염 병력을 만들어낸 설명 제거; 삼첨판 IE의 감염성 폐색전 A 기전 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

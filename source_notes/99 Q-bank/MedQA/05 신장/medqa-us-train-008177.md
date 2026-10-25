@@ -18,15 +18,20 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: investigation
 difficulty: standard
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "조영제는 항상 신장을 손상시킨다는 일반화 없이 비조영 CT의 목적 설명."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,20 @@ D. 앙와위 복부 방사선촬영
 
 ## 해설
 
-
-신장 결석에 의한 급성 신우통은 비조영 복부·골반 CT가 가장 민감하고 특이적인 영상검사이다. 조영 CT는 신장 기능에 영향을 줄 수 있고, 초음파는 작은 결석을 놓칠 수 있다. 따라서 비조영 CT가 적절하다.
+비임신 성인의 급성 신산통과 혈뇨에서 요로결석을 처음 확인하는 검사로 선택지 중 비조영 CT가 적합하다. 결석 위치·크기와 폐색을 볼 수 있고 조영제가 통상 필요하지 않다. 임신·방사선 노출을 줄여야 하는 상황 등에서는 초음파를 우선 고려할 수 있으며 모든 조영 CT가 신독성을 일으킨다는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008177
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 조영제는 항상 신장을 손상시킨다는 일반화 없이 비조영 CT의 목적 설명.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://acsearch.acr.org/docs/69362/narrative/

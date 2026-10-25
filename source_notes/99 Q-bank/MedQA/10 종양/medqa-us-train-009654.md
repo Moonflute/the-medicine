@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 수질암
 ## 해설
 
 
-유두 주변의 발진, 유륜 하 종괴, 림프절 병변, 미세 석회화는 침윤성 관암(침윤성 유관암)과 일치한다. 파제트병은 피부 병변만 보이며 종양은 없고, 침윤성 소엽암은 주로 미세 석회화가 없고, 수질암은 젤라틴성 종양이다. 따라서 정답은 침윤성 관암이다.
+지속되는 편측 유두 습진성 병변은 유방 Paget병을 의심하게 하며 기저 DCIS 또는 침윤성 유방암과 동반될 수 있다. 이 케이스의 유방 종괴와 액와 림프절 소견은 선택지 중 침윤성 관암 B를 더 의심하게 한다. Paget병을 단지 피부에 국한되어 종괴를 만들 수 없는 병이라고 배제하면 안 된다. 자료에 없는 사진·림프절 조직의 확진 소견을 만들어내지는 않으며 실제 조직검사로 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009654 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Paget병은 피부만 침범하여 기저 종괴와 무관하다는 해설 오류를 교정; 종괴·액와 림프절이 있는 침윤암 B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/breast-cancer-types/paget-disease-breast
 
 ## 출처
 

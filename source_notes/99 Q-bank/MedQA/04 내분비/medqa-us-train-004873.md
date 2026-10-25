@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 코신트로핀 투여
 
 
 저나트륨, 고칼륨, 저코르티솔 혈청 결과는 부신피질 기능 저하를 시사한다. 코신트로핀(ACTH) 자극 검사는 부신 반응을 확인하는 진단적 검사이다. 따라서 코신트로핀 투여가 적절한 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 저Na·고K·저cortisol의 안정된 의심 부신부전은 cosyntropin 확진 D에 부합. 위기라면 치료를 검사 때문에 지연하지 않음.
+- https://www.endocrine.org/-/media/endocrine/files/cpg/primary-adrenal-insufficiency-cpg-resource-page-13feb18.pdf
 
 ## 출처
 

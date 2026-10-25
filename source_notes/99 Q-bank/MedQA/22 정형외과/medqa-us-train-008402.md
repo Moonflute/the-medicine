@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 보조기(하네스)로 치료한다
 
 ## 해설
 
+고관절 외전 시 느껴지는 Ortolani 정복 clunk는 탈구된 대퇴골두가 비구로 들어가는 임상적 불안정성 소견이다. 둔위 병력과 이 소견이 있어 소아정형외과 평가 및 Pavlik 하네스 치료(D)가 적절하다. α각 50°만 단독으로 보면 어린 영아의 생리적 미성숙 범주와의 구별이 필요하며 그 수치 하나가 탈구를 확정하는 것은 아니다. 임상적으로 불안정한 고관절을 안정된 경도 초음파 이형성처럼 단순 관찰하지 않는다.
 
-Ortolani 검사에서 양성 반응과 초음파에서 α각 50°는 발달성 고관절 탈구를 의미한다. 초기 치료는 Pavlik 보조기를 착용하는 것이 표준이다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. α각 50도만으로 신생아 탈구를 확정하지 않도록 하고, 실제 Ortolani 정복 clunk와 불안정성이 보장구 D를 지지함을 설명했다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/developmental-dislocation-dysplasia-of-the-hip-ddh/
 
 ## 출처
 

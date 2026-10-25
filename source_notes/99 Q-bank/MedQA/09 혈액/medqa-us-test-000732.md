@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 최초 발현 양상
 ## 해설
 
 
-t(9;22) 필라델피아 염색체는 급성 림프구성 백혈병에서 가장 불량한 세포유전학적 변이로, 치료 저항성과 재발 위험을 크게 높인다. 따라서 세포유전학이 가장 강한 불량 예후 인자이다.
+선지 중 t(9;22)/BCR::ABL1이라는 세포유전학적 소견(B)이 중요한 위험·치료 결정 인자이다. 다만 현대의 TKI 병용 치료로 예후가 개선되어 이를 항상 가장 불량한 변이라고 단정할 수는 없다. Ph+ ALL은 보통 B계열이며 원문의 T계열 기술은 드문 조합이므로 면역표현형·분자검사 확인이 필요하다. 실제 예후는 MRD와 치료 반응도 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000732`와 직접 대조했다.
+- 판정: 세포유전학 B는 유지. Ph+ ALL이 언제나 가장 불량하다는 시대착오적 단정을 TKI 시대의 위험평가·MRD 맥락으로 제한. 원문 T계열 표현은 바꾸지 않고 희귀성/확인 필요 명시.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq
 
 ## 출처
 

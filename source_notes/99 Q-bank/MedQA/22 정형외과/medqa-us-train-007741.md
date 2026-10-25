@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 프라이베르그병
 
 ## 해설
 
+정답은 B, 피로골절이다. 반복적인 달리기 훈련 후 점진적으로 심해진 발 통증·부종과 제5중족골 간부의 국소 압통은 반복 부하에 의한 스트레스 손상을 지지한다. 급성 골수염을 지지하는 발열이나 감염 위험 단서가 없고, 족저근막염의 전형적인 압통은 종골의 발바닥 쪽이다. 프라이베르그병은 흔히 제2중족골두에 발생하므로 제5중족골 간부라는 위치와 맞지 않는다.
 
-진단이 의심되는 백일해는 빠른 확인이 필요하므로 PCR 검사가 가장 민감하고 신속한 진단법이다. 따라서 다음 단계는 Bordetella pertussis PCR 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 백일해 PCR 해설은 다른 케이스. 마라톤 훈련과 제5중족골 국소 압통을 피로골절로 설명. 원정답 B 유지.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/stress-fractures-of-the-foot-and-ankle/
 
 ## 출처
 

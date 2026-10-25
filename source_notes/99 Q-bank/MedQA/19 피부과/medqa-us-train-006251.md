@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 간세포선종
 
 ## 해설
 
+복합 경구피임약은 자궁내막암 위험을 낮추므로 A가 적절하다. Progestin 성분이 estrogen의 내막 증식 작용을 길항하고 내막 증식을 억제하는 것이 핵심이다. Estrogen 단독이 이를 억제하는 것으로 설명하면 안 된다. COC는 혈전 위험을 낮추는 약도 아니며 정맥혈전증 위험은 오히려 증가할 수 있다.
 
-복합 경구피임약은 에스트로겐이 자궁내막 증식을 억제해 자궁내막암 위험을 크게 감소시킨다. 따라서 가장 감소시키는 질환은 자궁내막암이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. COC의 자궁내막암 예방 A를 estrogen 자체가 내막 증식을 억제한다고 반대로 설명한 오류를 교정한다.
+- 공식/학회 근거: https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/oral-contraceptives-fact-sheet
+- 공식/학회 근거: https://www.cancer.gov/types/uterine/hp/endometrial-prevention-pdq
 
 ## 출처
 

@@ -12,36 +12,52 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "초음파 우선 원칙은 유지하되 모든 담석에서 가장 민감하다는 절대적 표현을 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-쓸개돌 진단에 가장 먼저 시행하는 영상 검사는?
+담낭결석이 의심될 때 일반적으로 우선 시행하는 영상 검사는?
 
 ## 선택지
 
 A. 복부 초음파
-B. 복부 CT
-C. MRCP
-D. ERCP
+B. 진단 목적 ERCP
+C. PET-CT
+D. 복부 단순 X선만으로 확진
 
 ## 해설
 
-초음파는 고에코성 병변과 후방 음영을 통해 담석을 가장 민감하게 확인할 수 있는 1차 검사이다.
+초음파는 담낭 내 결석과 후방 음영 등을 확인하는 일반적인 1차 검사다. 총담관결석이나 합병증이 의심되면 결과와 임상 상황에 따라 MRCP·EUS 등 추가 검사를 선택한다.
 
 ## 출처
 
 - 내부 학습 노트: 쓸개돌 (Gallstone)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/쓸개돌 (Gallstone).md`
-- 학습 목표: 원문 핵심: - **혈액 검사**: 담관 폐쇄 시 빌리루빈, ALP 수치 상승 가능. - **단순 영상**: AXR(복부 단순 X선 촬영)에서 방사선 불투과성 담석(radiopaque stone)이 보일 수 있으나, 대부분의 콜레스테롤 담석은 방사선 투과성. - **초음파**: 담석 진단의 1차 검사. 고에코성 병변, 후방 음영(posterior shadowing) 확인. - **기타 영상**: CT, MRCP, ERCP 등 진단에 사용 가능. - **기능 평가**: 방사성 동위원소 스캔(HIDA scan)은 담낭 기능 평가에 유용.
+- 학습 목표: 담낭결석의 초음파 우선 평가
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 초음파 우선 원칙은 유지하되 모든 담석에서 가장 민감하다는 절대적 표현을 수정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.nice.org.uk/guidance/cg188/chapter/Recommendations

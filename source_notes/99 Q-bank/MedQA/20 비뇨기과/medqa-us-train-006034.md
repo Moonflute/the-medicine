@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,11 @@ D. 윌름스 종양
 
 ## 해설
 
+신장 기원 큰 고형 종괴, 혈뇨와 높은 Hb 19.5 g/dL은 B, 신세포암에 합당하다. 일부 RCC는 EPO 생성에 따른 적혈구증가증을 일으킬 수 있어 이 수치가 중요한 부종양 단서이다. 흡연·고혈압도 위험요인이다. 임상과 CT가 RCC를 강하게 시사하지만 최종 조직형 확진과 영상상 가장 유력한 진단은 구별한다.
 
-신세포암은 고혈압·혈뇨·신장 종괴를 동반하며, 혈색소 증가와 같은 적혈구 과다증은 없고, 조직학적으로 명확히 구분된다. 혈관근육지방종·이행세포암·윌름스 종양은 다른 임상양상을 보인다. 따라서 신세포암이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. RCC의 EPO 관련 적혈구증가증을 없다고 설명한 정반대 오류 교정.
 
 ## 출처
 

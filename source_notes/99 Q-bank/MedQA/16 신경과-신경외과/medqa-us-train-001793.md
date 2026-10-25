@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 진드기 마비
 
 ## 해설
 
+하루 말미에 악화되는 피로성 근력저하와 복시는 중증근무력증(C)을 가장 지지한다. 복시(diplopia)는 물체가 두 개로 보이는 증상이며 안구진탕(nystagmus)과 같은 뜻이 아니다. 신경근접합부의 자가면역 이상이 원인이며 대부분 AChR 항체가 관여하지만 MuSK 등 다른 표적도 가능하다.
 
-피로와 근력 저하, 안구진탕(복시) 등은 근육 피로가 특징인 중증근무력증을 시사한다. 이 질환은 자가면역성 AChR 항체에 의해 신경근 접합부가 차단돼 증상이 악화된다. 다른 선택지는 증상 패턴과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 복시를 안구진탕으로 혼동한 해설을 교정한다.
 
 ## 출처
 

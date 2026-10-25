@@ -17,13 +17,15 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 미만성 메산지움 IgA 침착
 
 ## 해설
 
+인후염과 거의 동시에 나타난 육안혈뇨·단백뇨는 IgA 신병증에 합당하며 보기 중 D, 메산지움 IgA 침착이 가장 구체적인 설명이다. IgA를 포함한 면역복합체가 메산지움에 침착해 염증을 일으킨다. 다른 질환의 상피하 침착물을 'ground glass'라고 부르거나, 수주 뒤 나타나는 감염후 사구체신염과 시점을 혼동하지 않는다.
 
-IgA 신병증은 상피하 고밀도 침착물(그라운드글라스)과는 달리 메산지움에 IgA가 침착되는 것이 특징이다. 환자의 혈뇨·단백뇨와 급성 신우통증은 IgA 신병증을 가장 시사한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. 상피하 고밀도 침착을 ground glass로 표현한 오기 제거 및 인후염과 동시 발생 혈뇨의 메산지움 IgA 기전 강조.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

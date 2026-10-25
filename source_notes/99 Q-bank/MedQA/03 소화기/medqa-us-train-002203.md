@@ -22,16 +22,18 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 하인두의 주머니 모양 돌출
 
 ## 해설
 
+식사 중 기침, 소화되지 않은 음식의 역류와 반복 흡인성 폐렴은 하인두의 Zenker 게실 D를 시사한다. 게실에 정체된 음식물이 다시 올라와 기도로 흡인되는 기전이다. 위 내용물의 단순 산 역류나 하부식도괄약근 이완만으로 이 조합을 설명하지 않는다.
 
-진단된 폐렴은 식도에서 위로 역류된 음식물이 기도로 흡입돼 발생한 흡인성 폐렴이며, 이는 하인두 주머니(젠커 탈출)의 존재와 일치한다. 따라서 하인두 주머니가 가장 가능성 높은 설명이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Zenker 게실의 음식 정체·역류에 의한 흡인을 위 내용물 GERD와 혼동한 해설 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

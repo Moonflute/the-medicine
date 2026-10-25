@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 전혈구검사와 총 혈청 IgE
 
 ## 해설
 
+두피 인설성 탈모·후경부 림프절과 발 인설은 피부사상균증을 시사한다. 선지 중 Sabouraud 배양(B)은 진균을 확인하고 균종을 규명하는 확진 검사다. KOH 직접검사는 빠르게 균사를 확인하는 데 유용하며 배양도 검체·선행 치료 등에 따라 위음성이 가능하다. 모든 감염·검체에서 배양이 언제나 가장 민감하다고 일반화하지 않는다.
 
-두피와 발에 비늘성 각질이 보이는 경우, 피부 사상균(특히 트리코피톤) 감염을 확인하려면 사부로 액체배지 배양이 가장 민감하고 정확한 검사이다. KOH 검사도 가능하지만 배양이 확진에 더 우수하다. 따라서 정답은 사부로 액체배지 배양이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 진균 배양 B는 균종 확인에 유용하지만 모든 상황에서 KOH보다 가장 민감하다고 단정한 설명을 제한한다.
+- 공식/학회 근거: https://www.bad.org.uk/pils/tinea-capitis
 
 ## 출처
 

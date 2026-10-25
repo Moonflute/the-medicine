@@ -20,13 +20,15 @@ question_type: adverse_effect
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 고삼투성 고혈당 상태이므로 밤 인슐린을 늘린다
 
 ## 해설
 
+새벽 혈당 49 mg/dL는 임상적으로 중요한 저혈당이며 매우 낮은 HbA1c와 함께 insulin 치료를 재평가해야 한다. 선택지 중 C의 야간 insulin 감량 방향이 적절하고 용량·시간·식사 및 CGM/야간혈당 자료에 맞추어 조정한다. 다만 한 번의 새벽 저혈당과 아침 고혈당만으로 Somogyi 반동 기전이 입증되는 것은 아니다. 저혈당 없이 아침 고혈당이 생기는 dawn phenomenon과 구분하고 단순히 야간 insulin을 늘리지 않는다.
 
-밤 인슐린 과다 투여로 저혈당이 발생하면 반동성 고혈당(소모기 효과)이 나타난다. 현재 환자는 야간 저혈당을 보이고 있으므로 밤 인슐린 용량을 감소시켜야 한다. 인슐린을 늘리면 상황이 악화된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 확인된 야간 저혈당49와 A1c3.9는 인슐린 과잉 위험. C의 감량 방향은 유지하되 Somogyi 반동을 입증했다고 단정하지 않음.
+- https://doi.org/10.2337/dc26-s006
 
 ## 출처
 

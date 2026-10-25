@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,15 @@ D. 레보플록사신 정맥 투여
 ## 해설
 
 
-오메프라졸은 위산 억제로 인한 위장관 점막 손상을 감소시키지만, 이 환자의 종격동염은 인두·식도 천공 후 발생한 것이며, 항생제 투여가 예방에 가장 효과적이다. 따라서 암피실린-설박탐 정맥 투여가 예방에 가장 큰 역할을 한다.
+선행 인후통·목 통증과 개구제한 뒤 종격동 확장·고열·쇼크는 심경부 감염의 하행성 종격동염을 고려하게 한다. 조기에 구강인두의 호기성·혐기성균을 포함해 치료하는 ampicillin-sulbactam(B)이 제시된 선택지 중 합당하다. 내시경 후 식도 천공도 감별해야 하지만 원문에는 천공이 확정되어 있지 않다. 일반적인 진단 상부내시경 전 모든 환자에게 이 항생제를 예방 투여하라는 뜻이 아니다. 이미 발생한 종격동염은 광범위 항생제뿐 아니라 적절한 배농·감염원 제어가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009145 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 모든 내시경에 예방 항생제가 필요하다는 인상을 제거하고 심경부감염/종격동염의 조기 광범위 치료로 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/ejcts/article/51/1/10/2670570
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/
 
 ## 출처
 

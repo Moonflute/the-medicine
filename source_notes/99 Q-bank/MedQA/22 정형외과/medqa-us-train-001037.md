@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,11 @@ D. 손목터널증후군(Carpal tunnel syndrome)
 
 ## 해설
 
+엄지 사용·아기 안기와 관련한 요골 경상돌기 부위 통증, 압통과 Finkelstein 유사 유발검사는 De Quervain 건초염(A)을 지지한다. 손목 제1 신전구획의 장무지외전근(APL)과 단무지신근(EPB) 힘줄·건초가 관여하며 손목 굴곡근 근막염이 아니다. 다른 손가락 관절염·정중신경 감각증상은 제시되지 않았다.
 
-엄지손가락과 요골 경상돌기 부위의 통증·압통, 손목을 잡고 척측으로 견인 시 통증이 유발되는 것이 De Quervain 건초염의 특징적인 Finkelstein 검사 양성 소견이다. 이 부위의 손목 굴곡·요골 장두 근막염이 손목을 움직일 때 통증을 일으키며, 냉찜질로 호전된다. 따라서 가장 가능성 높은 진단은 De Quervain tenosynovitis이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. De Quervain A를 손목 굴곡근·요골 장두 근막염으로 잘못 설명한 해부를 교정한다.
 
 ## 출처
 

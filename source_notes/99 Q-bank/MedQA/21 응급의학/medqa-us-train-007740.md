@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 수혈 없이 수술 진행
 
 ## 해설
 
+환자는 심한 출혈성 쇼크와 복강 내 출혈로 즉각적인 수술·소생이 필요한 상태이다. 본인의 유효한 수혈 거부가 확인되지 않았고 대리인과 연락되지 않는 출제 조건에서는 생명을 구하는 응급 수혈(B)을 시행할 수 있다. 다만 문서가 없다는 이유만으로 거부 의사가 전혀 없다고 단정해서는 안 되며, 친구가 전한 정보의 구체성 및 신뢰성과 환자의 사전 의사를 지체 없이 확인할 수 있는 범위에서 평가한다. 확인을 위한 시도가 응급 출혈 통제를 지연해서는 안 된다.
 
-환자는 급성 출혈성 쇼크 상태이며, 수혈 거부 의사가 없고 응급 상황에서는 환자의 생명을 구하기 위해 혈액제제를 사용할 수 있다. 따라서 농축적혈구 수혈이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 확인된 유효한 수혈 거부 없이 생명 위급한 무의식 성인을 치료하는 B를 유지하되 문서가 없으면 친구의 정보를 무조건 무시해도 된다는 해석을 피한다.
+- 공식/학회 근거: https://www.facs.org/about-acs/statements/recommendations-for-surgeons-caring-for-patients-who-are-jehovah-s-witnesses/
 
 ## 출처
 

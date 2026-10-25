@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 유착 태반
 
 ## 해설
 
+메티오닌 대사산물인 호모시스테인의 상승과 대구성 빈혈은 엽산 결핍 등을 시사하며 B12 결핍도 감별해야 한다. 고호모시스테인혈증은 일부 관찰연구에서 태반조기박리와 연관되어, 제시된 선택지 중 C가 출제 의도에 가장 부합한다. 이는 인과관계나 개인의 절대 위험을 확정하는 결과는 아니며 일부 전향적 연구에서는 박리 연관이 확인되지 않았다. 신경관 결손도 관련되지만 본 문항의 선택지에는 없다.
 
-거대 적혈구와 메티오닌 대사산물 상승은 엽산 결핍성 거대적아구성 빈혈을 의미하며, 임신 시 태아 신경관 결손 위험이 크게 증가한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 선택지에 없는 신경관 결손만 설명한 해설을 원문 C의 고호모시스테인혈증–태반조기박리 연관으로 수정하되 관찰연구의 한계 명시.
+- https://pubmed.ncbi.nlm.nih.gov/8735754/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6381683/
 
 ## 출처
 

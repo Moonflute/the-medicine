@@ -18,15 +18,24 @@ question_type: management
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-ydtOyEneymnSAoQmVuaWduIHBhcm94eXNtYWwgcG9zaXRpb25hbCB2ZXJ0aWdvKS5tZA
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: BPPV의 수평안진 평가와 치료 선택지를 교정"
+curation_status: "revised"
+curation_reason: "BPPV의 수평안진 평가와 치료 선택지를 교정"
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -40,14 +49,24 @@ explanation_prompt_version: explanation-ko-v1
 A. 광범위 항생제
 B. 고용량 스테로이드
 C. 가돌리늄 조영 뇌 MRI
-D. 안심시키고 전정 억제제 투여
+D. 누운 자세 머리회전검사(supine roll test)로 수평반고리관 BPPV를 평가하고 해당 반고리관에 맞는 이석정복술 시행 또는 의뢰
 
 ## 해설
 
+체위 변화로 유발되는 1분 미만의 반복 현훈과 발작 사이 정상 상태는 BPPV를 시사한다. 다만 제시된 안진이 수평성이므로 후반고리관 BPPV로 단정해 Epley 술기를 일률적으로 적용하지 않는다. Supine roll test로 수평반고리관 침범을 평가하고 확인된 유형에 맞는 이석정복술을 시행한다. 전정억제제의 일상적인 사용은 권장되지 않는다. 비전형적 안진이나 중추신경계 소견이 생기면 별도 평가가 필요하지만 현재 문항에는 그런 소견이 제시되지 않았다.
 
-양성 체위성 현훈은 머리 회전 시 증상이 유발되고, 전정 억제제(메클리진 등)로 증상 완화가 가능하다. 항생제·스테로이드·MRI는 필요하지 않다. 따라서 D가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: BPPV의 수평안진 평가와 치료 선택지를 교정
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.entnet.org/resource/aao-hnsf-updated-cpg-bppv-press-release-fact-sheet/
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006488
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

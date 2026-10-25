@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 영양 결핍
 
 ## 해설
 
+감각 수준, 양측 하지 상위운동신경원 징후와 24시간 요폐는 급성 척수병증을 시사한다. 제시된 병태생리 중 척수 염증(B), 즉 횡단척수염이 가장 적합하다. 말초신경 탈수초는 일반적으로 감각 수준과 항진된 반사·Babinski 징후를 설명하지 못한다. 다만 실제 진단에서는 압박성 병변 등 다른 급성 척수병증을 배제해야 한다.
 
-감각 수준 이하에서 급성 요실금과 하반신 마비가 나타나는 것은 척수 염증(횡단척수염)으로 인한 신경인성 방광이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 본문의 요폐를 요실금으로 바꾼 해설 오류 교정.
 
 ## 출처
 

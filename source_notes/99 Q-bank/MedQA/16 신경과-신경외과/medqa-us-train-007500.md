@@ -20,13 +20,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 고관절 굴곡 약화
 
 ## 해설
 
+발등굽힘 약화와 발등·첫째 발가락 사이 감각저하는 총비골신경 손상에 맞는다. 후경골근은 경골신경 지배이므로 발 내번(C)이 보존된다. 발 내번은 발바닥이 안쪽을 향하는 동작으로 발가락 내전과 다르다. 총비골신경의 표재 분지는 외번근을 지배하므로 외번은 약해질 수 있고, 경골신경 관련 발목반사는 대개 보존된다.
 
-총비골신경 마비는 발등 굽힘 약화와 1·2번 사이 감각 감소를 일으키며, 발 내번(발가락 내전) 근육은 보존된다. 따라서 발 내번이 정상인 것이 특징이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 총비골신경병증에서 발 내번과 발가락 내전을 혼동한 해설 교정.
 
 ## 출처
 

@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 외과적 절제
 
 ## 해설
 
+8mm를 넘는 불확정 결절에서는 악성사전확률·CT형태·과거영상에 따라 PET C가 선택 가능한 평가다. 저위험에서는 단기CT추적도 가능하며 제시 선택지에는 없다. PET은 작은병변에서 민감도가 제한되고 염증도 양성일 수 있어 암의 확진/완전배제 검사는 아니다.
 
-작은 고립성 폐결절은 악성 가능성을 배제하기 위해 PET‑CT로 대사활성을 평가한다. 양성 PET 결과는 추가 조직검사를 안내한다. 따라서 다음 단계는 PET 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 8.5mm 결절의 PET C를 위험기반 선택으로 한정하며 모든 작은결절에 의무검사라는 설명 교정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3749714/
 
 ## 출처
 

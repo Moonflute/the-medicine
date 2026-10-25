@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 세팔렉신(Cephalexin) 치료
 ## 해설
 
 
-발진이 입 주위와 몸통에 결절성 발진을 동반하고, 인후통 후 발열이 있었으며, 최근 감염성 단핵구증에 노출된 경우는 급성 사슬알균 감염(갑상선염)보다는 급성 사슬알균성 인두염에 의한 스카렛 열이 의심된다. 치료는 마크로라이드(아지스로마이신)이다. 따라서 다음 단계는 아지스로마이신 투여이다.
+인후편도염, 입 주위 창백과 거친 모래종이 같은 미만성 발진은 A군 연쇄구균 성홍열을 시사한다. 과거 dicloxacillin 반응으로 삽관까지 필요했으므로 즉시형 중증 penicillin 알레르기를 고려한다. 감염이 확인되면 선택지 중 azithromycin(C)이 적절한 대안이며 amoxicillin과 cephalexin은 피한다. 현행 CDC는 RADT·NAAT·배양 등으로 GAS를 확인해 치료하도록 권고하며 macrolide 내성은 지역별로 확인한다. EBV 노출이나 갑상선염이 이 전형적 발진을 설명하는 핵심은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000284 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 갑상선염·결절성 발진 등 잘못 연결된 설명을 성홍열과 중증 즉시형 penicillin 알레르기 맥락으로 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/scarlet-fever.html
 
 ## 출처
 

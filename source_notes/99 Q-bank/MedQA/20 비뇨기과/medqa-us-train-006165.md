@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 후부 요도판막 절제술
 
 ## 해설
 
+남아 신생아의 양수과소증, 팽창 방광과 요로감염은 후부 요도의 판막성 막에 의한 방광출구 폐쇄를 시사한다. 외요도구가 닫혀 있는 상태를 뜻하지 않는다. 원인에 대한 확정 치료는 D, 내시경적 판막 절제/소작이다. 다만 이 아이는 패혈증·혈역학 이상이 의심되므로 항생제와 소생, 방광 배액으로 안정화한 뒤 확정 처치를 진행하며 충분한 배액이 어렵다면 일시 요로전환을 고려한다.
 
-신생아의 후부 요도판막 폐쇄는 요도구가 열리지 않아 방광 배출이 차단된다. 후부 요도판막 절제술이 가장 도움이 되는 중재이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 후부 요도판막을 외요도구가 열리지 않는 병변으로 잘못 설명한 오류 교정, 안정화·방광 배액 선행을 보완.
+- 공식/학회 근거: https://uroweb.org/guidelines/paediatric-urology/chapter/congenital-lower-urinary-tract-obstruction
 
 ## 출처
 

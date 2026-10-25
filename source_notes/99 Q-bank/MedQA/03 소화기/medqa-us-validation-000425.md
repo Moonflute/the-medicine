@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 경정맥 간내 문맥전신 단락술
 ## 해설
 
 
-간경변 환자에서 식도정맥류 출혈을 예방하려면 비선택적 베타 차단제인 프로프라놀롤이 권고된다. 이는 문맥압을 감소시켜 출혈 위험을 낮춘다. 따라서 프로프라놀롤이 다음 관리 단계이다.
+정답 C. 간경변·문맥고혈압과 작은 식도정맥류가 있는 이 환자에서 비선택적 베타차단제 propranolol은 문맥압과 출혈 위험을 낮추는 선택지다. Atenolol은 선택적 β1 차단제로 같은 효과를 기대하기 어렵다. 복수가 있어도 사용할 수 있으나 저혈압이나 간신증후군/급성 신손상 등에서는 감량·중단을 검토하고 혈압·신기능을 추적한다. 출혈이 없다는 이유만으로 TIPS를 우선 시행하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000425 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 작은 정맥류+복수 환자의 propranolol C 유지하되 혈압/신기능과 금기 평가 필요.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/
 
 ## 출처
 

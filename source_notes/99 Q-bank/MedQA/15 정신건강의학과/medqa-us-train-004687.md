@@ -19,16 +19,18 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 반사회성 인격장애
 
 ## 해설
 
+오랜 기간 혼자 살기를 선호하며 관계 욕구와 정서 표현이 적은 양상은 조현성(schizoid, 원문 A) 성격장애에 부합한다. 특이한 지각·마술적 사고·기이한 믿음이 중심인 조현형(schizotypal, B)과 다르다. 거절 두려움으로 관계를 피하는 회피성 성격장애와도 구분한다. 복장 하나로 조현형을 진단해서는 안 된다.
 
-사회적 고립, 감정 표현의 결여, 타인과의 관계 회피는 분열성(조현형) 인격장애와 일치한다. 다른 선택지는 반사회성(법 위반)이나 회피성(불안) 특성을 보인다. 따라서 분열성 인격장애가 가장 가능하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: schizoid를 조현형(schizotypal)과 혼동한 괄호 해설을 조현성 성격 특성으로 교정했다.
+
 
 ## 출처
 

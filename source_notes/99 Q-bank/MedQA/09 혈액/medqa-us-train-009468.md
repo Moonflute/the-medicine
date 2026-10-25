@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,8 +50,14 @@ D. 추가 검사는 필요하지 않음
 ## 해설
 
 
-철 결핍성 빈혈은 저혈색소, 저 MCV, 저 혈청 철, 높은 TIBC, 낮은 페리틴을 보이며, 위장관 출혈이 흔한 원인이다. 따라서 원인 규명을 위해 위내시경 검사가 필요하다.
-다른 검사는 철 결핍 진단에 직접적이지 않다.
+낮은 ferritin과 혈청 철, 높은 TIBC 및 소구성 빈혈로 철결핍이 확인된다. 폐경 후 여성에서 원인 규명을 위한 위장관 내시경(A)이 필요하며, 통상 상부내시경과 대장내시경을 함께 고려한다. NSAID 사용만으로 원인을 확정하거나 위내시경만으로 평가를 끝내지 않는다. 원문의 망상적혈구 9%와 다염성 대적혈구는 단순 미치료 철결핍의 전형적 소견과 달라 추가 확인이 필요하지만 철결핍 자체를 부정하지는 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009468 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 폐경 후 확실한 철결핍에서 GI endoscopy A 유지. 위내시경 하나만으로 한정한 해설을 상·하부 양방향 평가로 수정; 원문의 retic9%와 소구성/다염성 혼재는 임의 보정하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gastro.org/news/aga-recommends-bidirectional-endoscopy-for-most-patients-with-iron-deficiency-anemia/
 
 ## 출처
 

@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 클린다마이신
 
 ## 해설
 
+치과감염·악취가래·발열은 혐기성/혼합구강균 관련 폐감염/농양을 의심해 선택지중 clindamycin D가 가능하다. 영상으로농양/폐색을 확인하고 저산소를평가한다. 현재는 co-amoxiclav 등 beta-lactam/beta-lactamase억제제를 흔히 선호하며 clindamycin은 C.difficile위험 등을 고려한 대안이다. Metronidazole단독은 혼합균을 충분히 포괄하지못한다.
 
-흡인성 폐농양은 구강 혐기성균에 의해 발생하며, 클린다마이신이 1차 치료제로 권장된다. 따라서 클린다마이신 투여가 가장 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Clindamycin D를 모든흡인성폐농양의유일1차로 설명한 과거권고 한정.
+- https://thorax.bmj.com/content/78/Suppl_1/s3
 
 ## 출처
 

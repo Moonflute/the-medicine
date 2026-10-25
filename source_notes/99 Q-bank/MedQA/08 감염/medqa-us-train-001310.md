@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 답손과 트리메토프림 경구 투여
 ## 해설
 
 
-면역억제 환자에서 Pneumocystis jirovecii 폐렴은 트리메토프림-설파메톡사졸(코트리모) 치료가 표준이다. 펜타미딘은 아미바증에, 고용량 스테로이드는 염증성 질환에, 구강 TMP‑SMX는 경증일 때만 사용한다. 따라서 정맥 주입 TMP‑SMX가 적절하다.
+면역억제 이식 환자의 심한 저산소혈증, 간질성 폐침윤과 은염색 소견은 Pneumocystis jirovecii 폐렴에 부합한다. 이 병원체는 과거 원충으로 분류되었으나 현재 진균이며, 중증 질환에서 보기 중 정맥 TMP-SMX B가 적절하다. 정맥 pentamidine은 TMP-SMX를 사용할 수 없을 때의 대체 PCP 치료제이지 아메바증 치료제라고 배제할 약이 아니다. Steroid·기관지확장제만으로 감염을 치료할 수 없다. NIH 인용 지침은 HIV 환자 대상이므로 비-HIV 이식 환자의 보조 steroid 여부까지 동일하게 확정하는 근거로 사용하지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001310 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Pneumocystis는 진균이며 pentamidine은 PCP 대체요법이지 아메바증 약이라는 오설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis
 
 ## 출처
 

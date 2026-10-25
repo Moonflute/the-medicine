@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "AAA가 흔히 무증상으로 발견된다는 인지는 선별의 의미와 연결되는 중요한 쉬운 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11enrldtjnq0ryaklecmo1bnjwnlhycfpnz0tfrmlarzl0yvc1agjdqkjim0owyvdnz1fxnwxkweo1yziwcextmwt8zglzzwfzzs0wmi1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ D. 복부에서 박동성 덩이가 촉지된다
 
 ## 오답 포인트
 
-- **B. 급성 복통과 저혈압이 동반된다:** 급성 복통·저혈압은 파열 시 나타나는 급성 상황이며 일반적인 초기 양상이 아닙니다.
+- **급성 복통과 저혈압이 동반된다:** 급성 복통·저혈압은 파열 시 나타나는 급성 상황이며 일반적인 초기 양상이 아닙니다.
 
 ## 출처
 
 - 내부 학습 노트: 복부 대동맥류 (Abdominal Aortic Aneurysm)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/복부 대동맥류 (Abdominal Aortic Aneurysm).md`
 - 학습 목표: 원문 핵심: * **CC**: 대부분 무증상이며 우연히 발견된다. 증상이 있다면 요천추부의 깊고 둔한 통증이 나타날 수 있다. 파열 시에는 급성 복통 또는 배부 통증, 저혈압, 빈맥이 나타난다. * **P/E**: 복부에서 박동성 덩이(pulsatile mass)가 촉지될 수 있으며, 수축기 잡음이 들릴 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: AAA가 흔히 무증상으로 발견된다는 인지는 선별의 의미와 연결되는 중요한 쉬운 복습으로 유지한다.

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 가수분해 분유로 바꾼다
 
 ## 해설
 
+빈번한 역류에 수유 거부와 성장곡선 하락이 있어 단순 안심만 하지 않는다. 수유량·방법과 성장 상태를 평가하며 농축수유 등 보존관리를 시도할 수 있다(B). 자세 조언은 깨어 있을 때만 적용하고 수면은 등대고 평평한 면에서 한다. 반응이 없으면 우유단백 알레르기 등 다른 원인을 평가한다.
 
-아기의 역류 증상은 자세 교정(상체를 올린 자세)과 분유 농축(두께 높이기)으로 개선된다. 이는 비침습적 1차 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 역류와 수유거부·성장 백분위 하락의 수유농축 B 유지. 위험 수면 자세를 배제하고 추적 필요성 보완.
+- https://www.rch.org.au/clinicalguide/guideline_index/gastrooesophageal_reflux_disease_in_infants/
 
 ## 출처
 

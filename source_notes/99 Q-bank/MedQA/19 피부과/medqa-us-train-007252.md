@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 지루피부염
 
 ## 해설
 
+두피 모발선·얼굴·눈꺼풀의 기름진 노란 인설과 만성 재발성 소양성 발진은 지루피부염(D)에 합당하다. HIV 감염에서 더 심하게 나타날 수 있다. 본문만으로 진단을 지지하며 실제 사진 소견을 관찰했다고 가정하지 않는다.
 
-지루피부염은 기름진 인설과 비듬성 병변이 두피와 안면에 나타나며, HIV 감염에서 흔히 악화된다. 사진과 증상에 가장 부합하는 진단은 지루피부염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 지루피부염 D는 기름진 두피·눈꺼풀 인설로 판단 가능하며 제공되지 않은 사진을 확인했다는 표현을 제거한다.
 
 ## 출처
 

@@ -20,11 +20,11 @@ question_type: mechanism
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 리시노프릴
 
 ## 해설
 
+제시된 보기 중 심바스타틴(B)은 혈청 트랜스아미나제 상승과 관련될 수 있다. 가벼운 무증상 효소 상승이 곧 중증 간독성을 의미하지는 않으며, 실제 평가에서는 동시 복용 페노피브레이트와 다른 간질환 원인, 증상 및 상승 정도도 확인한다. 메트포르민은 신장으로 배설되어 신기능 저하에서 축적될 수 있지만 일반적으로 신장을 직접 손상시키는 약이라는 뜻은 아니다.
 
-심바스타틴은 간에서 CYP3A4에 의해 대사되며, 드물게 트랜스아미네이스(ALT, AST) 상승을 일으킨다. 따라서 간기능 이상에 기여할 수 있는 약물은 심바스타틴이다. 메트포르민은 주로 신장에 영향을 미친다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 B 유지. 스타틴 간효소 상승 가능성과 매우 드문 실제 간독성을 구별하고 메트포르민을 신손상 약물처럼 설명한 오류 제거.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=871251c0-36a1-4a32-9eab-ff6c1e925ca9
 
 ## 출처
 

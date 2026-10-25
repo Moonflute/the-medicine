@@ -19,13 +19,15 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 현재 페닐알라닌 수치는 향후 임신에 위험하지 않다
 
 ## 해설
 
+고페닐알라닌혈증은 태아 소두증·신경발달 장애·심장기형 위험을 높인다. B가 가장 적절하며 임신 전 최소 3개월 동안 페닐알라닌 <6 mg/dL를 달성하고 임신 중 2–6 mg/dL로 관리한다. 임신 1기에 이르러서야 조절을 시작하는 것보다 임신 전 조절이 중요하며 대사 전문팀과 공동 관리한다.
 
-임신 전 3개월부터 저페닐알라닌 식이를 시작해 혈중 농도를 6 mg/dL 이하로 유지해야 태아의 신경발달 위험을 최소화한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 3개월 전 식이 시작만이 아니라 최소 3개월 목표 농도 달성 및 임신 중 범위 명시.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/management-of-women-with-phenylalanine-hydroxylase-deficiency-phenylketonuria
 
 ## 출처
 

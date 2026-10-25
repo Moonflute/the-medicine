@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,10 @@ D. 혈관성 치매
 
 
 다발성 뇌혈관 사건의 병력이 있고 급성 악화된 인지·운동 증상이 뇌혈관성 치매를 시사한다. 혈관성 치매는 뇌혈관 손상에 의해 발생한다. 따라서 가장 가능성 높은 진단은 혈관성 치매이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 뇌혈관 사건과 국소운동징후, 최근 계단식 인지악화는 혈관성 치매 D를 지지. 영어/한글 및 해설 대조. 일시적 단안시력소실은 실제 진료에서 별도 긴급평가가 필요하나 진단선택 문항 의도 유지.
 
 ## 출처
 

@@ -18,13 +18,15 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 우하엽 후분절
 
 ## 해설
 
+정답은 C이다. 누워 있던 중 흡인하면 중력 의존 부위인 하엽 상분절과 상엽 후분절 등이 영향을 받을 수 있으며 제시된 보기에서는 우하엽 상분절 C가 적합하다. 기도 직경이 작아서 모든 이물이 이곳에만 머문다는 뜻은 아니다. 땅콩은 방사선투과성이라 흉부 X선에서 이물 자체가 보이지 않을 수 있고 공기포획·무기폐 같은 간접 소견을 평가한다.
 
-땅콩 흡입은 주로 오른쪽 하엽의 상분절에 폐쇄성 폐쇄물을 일으킨다. 이 부위는 기도 직경이 작아 이물질이 머무르기 쉽다. 따라서 X선에서 관찰될 부위는 우하엽 상분절이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 앙와위 흡인의 중력 의존 분절을 설명하고 땅콩을 방사선불투과성이라고 가정하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

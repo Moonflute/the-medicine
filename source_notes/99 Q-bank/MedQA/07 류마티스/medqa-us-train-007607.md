@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 항Jo-1 항체
 ## 해설
 
 
-다발성 근육염에서 Jo‑1 항체는 항핵항체 중 가장 흔히 발견되며, 피부 발진과 근력 저하와 연관된다. 따라서 가장 가능성 높은 항체는 항Jo‑1이다.
+근위부 근력저하와 눈주위·shawl 분포 발진은 dermatomyositis를 시사한다. 보기 중 inflammatory myopathy와 관련된 anti-Jo-1 D가 가장 부합한다. Jo-1은 histidyl-tRNA synthetase에 대한 항체로 특히 antisynthetase syndrome과 연관되며 모든 피부근염 환자에게 있거나 단순히 가장 흔한 ANA라는 뜻은 아니다. 다른 myositis-specific 항체와 임상·생검 정보를 함께 해석한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007607 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Jo-1을 가장 흔한 ANA·피부근염 보편항체라고 기술한 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

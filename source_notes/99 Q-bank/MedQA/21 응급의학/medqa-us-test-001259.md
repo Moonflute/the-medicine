@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 심장 구조 이상
 
 ## 해설
 
+통증·정서 자극 중 발한·창백 뒤 짧은 의식소실과 즉각적인 지남력 회복은 혈관미주신경성 실신(A)을 지지한다. 교감신경 긴장 저하에 따른 혈관확장과 미주신경 활성에 따른 서맥이 기여해 뇌관류가 잠시 감소한다. 짧은 근간대성 움직임은 실신에서도 가능하여 그 자체만으로 뇌전증을 의미하지 않는다.
 
-문신 시 통증과 스트레스에 의해 혈관성 교감신경 반응이 촉발돼 미주신경성 실신(혈관성 실신)이 발생한다. 짧은 의식 소실과 경련성 움직임, 빠른 회복은 이 유형의 실신과 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Vasovagal A를 유지하고 교감신경 과반응만으로 기술한 자율신경 기전을 교정한다.
 
 ## 출처
 

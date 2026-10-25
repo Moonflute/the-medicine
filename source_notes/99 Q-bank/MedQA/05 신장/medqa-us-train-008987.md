@@ -26,6 +26,10 @@ translated_at: 2026-07-18
 review_status: machine-verified
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "retained"
+curation_reason: "설사·저혈량 소견과 신전성 AKI의 높은 요삼투압·낮은 FENa/요Na 조합이 원문과 일치."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
 ---
 
 # MedQA US 임상문제
@@ -50,3 +54,9 @@ D. 낮은 소변 삼투질농도, 높은 나트륨 분획배설, 낮은 소변 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008987
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 설사·저혈량 소견과 신전성 AKI의 높은 요삼투압·낮은 FENa/요Na 조합이 원문과 일치.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

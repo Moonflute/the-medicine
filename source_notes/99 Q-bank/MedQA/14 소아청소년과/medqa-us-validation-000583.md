@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 신장
 
 ## 해설
 
+거대아·신생아 저혈당·거대설은 Beckwith–Wiedemann 스펙트럼을 시사한다. 신장(D)에서는 Wilms 종양 위험에 따른 감시가 중요하다. 신세포암이 대표적 종양이라는 기존 설명은 틀리며, 실제 사진이 없어 추가 신체 소견은 추정하지 않는다.
 
-베크위드-비데만 증후군은 거대설과 신장 종양(신장 세포암) 위험이 증가한다. 따라서 신장 이상을 선별하는 것이 필요하다. 가장 적절한 장기 선별은 신장이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Beckwith–Wiedemann의 대표 신장 종양을 RCC가 아닌 Wilms로 교정.
+- https://www.chop.edu/conditions-diseases/beckwith-wiedemann-syndrome
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 신증후군
 ## 해설
 
 
-흉수 단백질 농도가 혈청 대비 높고 LDH가 상승한 경우는 악성 림프종과 같은 고단백성 삼출이 특징이다. 림프종은 이러한 흉수 특성을 가장 흔히 만든다. 따라서 림프종이 정답이다.
+흉수/혈청 단백비는 5.8/7.0으로 0.5를 넘어 삼출성 흉수에 해당한다. 선택지 중 림프종(C)이 삼출의 원인이 될 수 있고 나머지는 전형적으로 여출성 원인이다. 이것만으로 림프종 확진이나 가장 흔한 원인이라는 뜻은 아니며 혈청 LDH 정보 없이 LDH비를 계산하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000980 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 흉수/혈청 단백비 0.83의 exudate와 lymphoma C 유지. 혈청 LDH 없이 LDH상승 판정·림프종이 삼출의 최흔원인이라는 과장 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

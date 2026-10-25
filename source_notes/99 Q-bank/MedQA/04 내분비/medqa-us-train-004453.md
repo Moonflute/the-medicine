@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 소변 요오드 수치 감소
 
 ## 해설
 
+성장둔화·상대적 체중증가·피로·목종창·TSH상승은 자가면역갑상샘염을 시사하며 조직학적 lymphocyte침윤 A가 부합한다.10백분위수는 아이의 키이지 결절 크기가 아니다. 실제진단은 기능/항체/영상으로 평가하고 모든소아에게 FNA가 필수라는 뜻은 아니다.
 
-10백분위수에 해당하는 갑상선 결절과 경미한 TSH 상승은 갑상선염을 시사한다. 하시모토 갑상선염에서는 림프구 침윤이 특징이며, 세침흡인검사에서 림프구 침윤이 가장 흔한 소견이다. 따라서 가장 가능성 높은 소견은 세침흡인검사에서 림프구 침윤이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 키10백분위수를 갑상샘결절 크기로 잘못 해석한 해설 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

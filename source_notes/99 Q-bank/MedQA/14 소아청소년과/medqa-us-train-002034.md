@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 발진이 사라진 후 학교에 돌아가도록 설명하고 귀가
 
 ## 해설
 
+감기 유사 전구 후 뺨의 홍반과 입 주위 창백은 전염성 홍반(제5병)에 합당하다. 면역정상 아이는 발진이 나타날 때 대개 전염기가 지나고 현재 열·전신증상이 없으므로 등교(C)가 가능하다. 입술 자체의 홍반이 진단 근거가 아니다.
 
-구순 홍반과 대칭성 반구진 발진은 파보바이러스 B19에 의한 제5질환을 특징으로 한다. 증상이 경미하고 전염성이 낮아지면 일상 복귀가 가능하다. 따라서 환자는 학교에 돌아가도 된다고 설명하고 귀가한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 파보 B19 발진기의 등교 C 유지. 구순 홍반 오역을 뺨 발진으로 교정.
+- https://www.cdc.gov/parvovirus-b19/prevention-treatment/
 
 ## 출처
 

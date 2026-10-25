@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 혈청 칼륨 상승
 
 ## 해설
 
+부메타니드에 따른 염소·칼륨 손실과 유효 순환혈액량 감소는 레닌–안지오텐신–알도스테론계를 활성화하여 A의 알도스테론 상승을 일으킬 수 있다. 약효가 지속되는 동안 소변 염화물은 높을 수 있어 B를 항상 기대하지는 않는다. 원문의 pH, PaCO2, HCO3 조합은 완전히 일치하지 않아 혈액가스 재확인이 필요하지만, 이뇨제의 RAAS 활성화 기전과는 구별된다.
 
-루프 이뇨제 사용 후 대사성 알칼리증이 나타나면 체액량 감소와 레닌-안지오텐신-알도스테론 시스템이 활성화되어 알도스테론 분비가 증가한다. 따라서 혈청 알도스테론 수치가 상승한다는 소견이 예상된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 루프이뇨제의 RAAS 활성화 A를 설명하면서 소변Cl은 투여 시점에 따라 달라짐을 명시.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

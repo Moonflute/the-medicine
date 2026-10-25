@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 모유 황달
 
 ## 해설
 
+직접 빌리루빈이 총 빌리루빈의 대부분을 차지하는 생후 4주 영아에서 지속 황달, 창백변, 간비대가 동반되어 담도 폐쇄증(B)을 가장 의심한다. 담즙이 장으로 배출되지 않아 대변의 색이 옅어진다. 모유 황달과 크리글러-나자르 증후군은 주로 비결합 고빌리루빈혈증이므로 이 소견과 맞지 않는다. 갈락토오스혈증도 담즙정체를 유발할 수 있지만, 제시된 선택지 중 건강해 보이는 영아의 진행성 황달·창백변에 가장 부합하는 것은 B이다. 원문에는 담관 확장이나 영상검사 결과가 없으며 이를 진단 근거로 만들어 넣어서는 안 된다.
 
-직접 빌리루빈 상승, 고 ALP, 담관 확장 및 황달은 선천성 담도 폐쇄증을 나타낸다. 이 질환은 담관 폐쇄로 인한 빌리루빈 배설 장애가 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://www.niddk.nih.gov/health-information/liver-disease/biliary-atresia/symptoms-causes
+- https://publications.aap.org/pediatrics/article/doi/10.1542/peds.2024-070077/201020/Guidance-for-the-Primary-Care-Provider-in
 
 ## 출처
 

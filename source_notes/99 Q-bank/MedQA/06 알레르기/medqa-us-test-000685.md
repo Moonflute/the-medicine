@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 비만세포 활성화
 ## 해설
 
 
-유전성 혈관부종은 C1 억제인자 결핍으로 보체 경로가 과활성화돼 브래디키닌이 과다 생성된다. 보체 억제인자 결핍이 가장 가능성 높은 원인이다.
+반복되는 비소양성 안면 부종, 치과시술·외상에 의한 유발, 복통과 장벽 부종은 C1 억제인자 결핍에 의한 혈관부종을 시사한다. C1 억제인자는 접촉계의 칼리크레인 등을 조절하며, 그 결핍은 브래디키닌 과다를 일으킨다. 따라서 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000685`와 직접 대조했다.
+- 판정: 외상·치과시술 유발 비소양성 반복 부종과 장벽 부종은 C1 억제인자 결핍 지지. 보체 활성화가 직접 브래디키닌을 만든다는 부정확한 연결을 접촉계 조절 장애로 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9023902/
 
 ## 출처
 

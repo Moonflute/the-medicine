@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,15 @@ D. 항혈소판 항체 검사
 ## 해설
 
 
-급성 혈소판 감소증에서 C형 간염 바이러스 감염이 흔한 원인이며, 혈소판 감소와 출혈 증상이 동반될 수 있다. 혈소판 감소 원인을 확인하기 위해 C형 간염 항체 검사가 필요하다. 따라서 가장 적절한 검사는 C형 간염 항체 검사이다
+고립된 심한 혈소판감소와 점막출혈은 ITP를 시사한다. 이차 원인 평가에 HIV와 HCV 검사가 포함되므로 HIV 음성인 이 사례에서는 HCV 항체 검사(C)가 적절하다. 항체 양성이면 RNA로 현재 감염 여부를 확인한다. 항혈소판 항체 검사는 민감도 등 한계로 통상적인 확진 필수검사가 아니며, HCV 감염이 본문에서 이미 확인된 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000250 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고립 혈소판감소의 이차 원인 HCV 항체 C 평가 유지. HCV가 이미 확정되거나 모든 급성 혈소판감소의 흔한 원인이라고 일반화하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/
+- https://www.cdc.gov/hepatitis-c/hcp/diagnosis-testing/
 
 ## 출처
 

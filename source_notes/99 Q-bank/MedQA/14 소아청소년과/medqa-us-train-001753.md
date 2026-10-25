@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 심장 카테터 삽입
 
 ## 해설
 
+작은 VSD는 보통 제한성으로 단락량이 적고 큰 압력차 때문에 잡음이 클 수 있다. 무증상이고 성장·수유가 양호하여 외래 추적(C)이 적절하다. 막성 결손은 대동맥판 등 합병증 감시가 필요하므로 크기가 작다는 이유로 모든 추적을 중단하지 않는다.
 
-작은 막성 VSD는 혈류 제한이 없어 증상이 없으며, 대부분 자연적으로 폐쇄된다. 따라서 외래 추적관찰이 적절한 관리 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 무증상 작은 막성 VSD 외래 추적 C 유지. 작은 VSD를 비제한성으로 둔 병태생리 오류 교정.
+- https://www.acc.org/latest-in-cardiology/articles/2023/05/30/10/47/clinical-practice-algorithm-for-the-follow-up-of-unrepaired-and-repaired-ventricular-septal-defects
 
 ## 출처
 

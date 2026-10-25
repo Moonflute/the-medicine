@@ -20,15 +20,17 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 폐색전증
 
 ## 해설
 
+심근경색 수일 후 갑자기 발생한 무맥박, 경정맥압 상승과 약한 심음은 자유벽 파열에 따른 혈심낭과 심낭압전을 의심하게 하므로 B가 적합하다. 유두근 파열은 주로 급성 중증 승모판 역류와 폐부종을 일으킨다. 자유벽 파열이 모든 심근경색 사망의 가장 흔한 원인이라는 뜻은 아니다. 또한 원문의 12시간 내원만을 이유로 재관류를 일률적으로 미루는 처치를 승인하지 않는다.
 
-STEMI 후 갑작스러운 무맥성, 저혈압, 목맥박 감소, 상승된 중심정맥압은 심장압전과 좌심실 자유벽 파열을 시사한다. 이는 가장 흔한 사망 원인이다. 따라서 가장 가능성 높은 진단은 좌심실 자유벽 파열이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 자유벽 파열 B의 기전을 명확히 하고 이를 전체 MI 사망의 최빈 원인으로 일반화한 오류를 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

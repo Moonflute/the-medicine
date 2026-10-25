@@ -18,16 +18,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 프라미펙솔(pramipexole) 투여 시도
 
 ## 해설
 
+야간·안정 시 다리를 움직이고 싶은 충동이 운동으로 완화되어 하지불안증후군에 합당하다. 고령 남성의 비의도적 체중감소와 창백은 철결핍 및 위장관 질환 평가의 근거가 되어, 원인 병변을 찾는 선지 중 대장내시경(B)이 가장 적절하다. 실제로는 CBC와 ferritin·transferrin saturation 등으로 빈혈과 철 상태를 함께 확인하며, 철결핍빈혈이 확인된 남성에서는 상·하부 위장관 평가를 고려한다. RLS 자체만으로 대장 질환이나 암이 확진되는 것은 아니다.
 
-환자는 다리 움직임 충동과 수면 방해를 동반한 불안정 다리 증후군(RLS) 증상을 보이며, 안구 결막이 약간 창백한 것은 빈혈을 시사한다. RLS는 철 결핍성 빈혈과 연관이 높으며, 특히 노인에서는 위장관 출혈이 원인일 수 있다. 따라서 원인 질환을 찾기 위해 위·대장내시경으로 출혈 원인을 확인하는 것이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. RLS와 체중감소·창백·장기간 미검진에서 원인 병변을 찾는 B를 유지하되 철결핍을 확진 없이 단정하거나 모든 RLS에 즉시 내시경을 권하는 표현을 수정한다.
+- 공식/학회 근거: https://aasm.org/wp-content/uploads/2026/02/quality-measures-restless-legs-RLS-AASM-2025.pdf
+- 공식/학회 근거: https://agau.gastro.org/course/AGA_Clinical_Guidelines_on_Gastrointestinal_Evaluation_of_Iron_Deficiency_Anemia_-_Accompanying_Educational_Presentation/d351c1ce-dc6f-4523-9606-868e04ad4359
 
 ## 출처
 

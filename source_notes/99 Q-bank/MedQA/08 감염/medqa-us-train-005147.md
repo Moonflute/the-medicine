@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -39,7 +41,7 @@ related_drug_slugs:
 
 ## 문제
 
-비호지킨 림프종이 있는 63세 남자가 3일 동안 악화된 발열과 혼돈으로 내원했다. 최근 항암화학요법을 받았고 뇌척수액에서 백혈구 1,200/mm³(호중구 76%), 단백 113 mg/dL, 포도당 21 mg/dL이다. 다음 중 가장 적절한 초기 약물치료는?
+비호지킨 림프종이 있는 63세 남자가 3일 동안 악화된 발열과 혼돈으로 내원했다. 최근 항암화학요법을 받았고, 2주 전 프랑스 시골에서 수제 치즈 등을 먹고 돌아왔으며 3일간 묽은 변도 있었다. 뇌척수액에서 백혈구 1,200/mm³(호중구 76%), 단백 113 mg/dL, 포도당 21 mg/dL이다. 다음 중 가장 적절한 초기 약물치료는?
 
 ## 선택지
 
@@ -51,7 +53,14 @@ D. 반코마이신, 암피실린과 세페핌
 ## 해설
 
 
-면역억제 상태에서 수막염이 의심될 때, 그람음성균, 그람양성균, 그리고 녹농균을 모두 포괄하는 경험적 광범위 항생제가 필요하다. 반코마이신, 암피실린, 세페핌 조합이 이러한 병원균을 커버한다. 따라서 이 조합이 초기 치료에 적절하다.
+고령·최근 항암 환자의 호중구성 저당 CSF는 급성 세균성 수막염으로 신속한 경험적 치료가 필요하다. D의 vancomycin+ampicillin+cefepime은 면역억제 맥락에서 저항성 폐렴구균·Listeria 및 그람음성균을 포함한다. 특히 ampicillin은 Listeria 범위를 위해 중요하다. 원문에는 프랑스 방문과 수제 치즈 등 섭취·설사가 있어 이 위험을 고려하지만 원인균이 확정된 것은 아니다. 배양/감수성에 따라 좁힌다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005147 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고령·면역억제에서 ampicillin의 Listeria 범위와 원문 음식 노출 단서 복원; D 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

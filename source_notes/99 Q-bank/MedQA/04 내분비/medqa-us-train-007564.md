@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 아르기닌 바소프레신 합성 또는 분비 결함
 
 
 환자는 케톤산증을 동반한 1형 당뇨병으로, 베타세포의 면역 매개 파괴가 근본 원인이다. 항GAD 양성은 자가면역 파괴를 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007564 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 검출 불가 C-peptide·anti-GAD 양성과 고혈당/ketosis는 자가면역 β세포 파괴 B에 부합하는 기초 병인 문항.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

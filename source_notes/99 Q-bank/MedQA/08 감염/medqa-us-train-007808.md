@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 간호사가 잘못된 약을 투여했지만 교정되었다고 환자에게
 
 
 환자에게 약물 오류가 발생했음을 투명하게 알리는 것이 의무이며, 신뢰 유지와 법적 책임을 위해 오류를 설명해야 한다. 따라서 가장 적절한 조치는 오류를 환자에게 설명하는 것이다. 정답은 C이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007808 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 의약품 오류를 환자에게 투명하게 설명하고 타직종에 일방 책임전가하지 않는 C의 윤리 판단을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

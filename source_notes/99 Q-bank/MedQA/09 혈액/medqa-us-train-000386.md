@@ -32,11 +32,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -57,7 +59,14 @@ D. 털세포 백혈병(Hairy cell leukemia)
 ## 해설
 
 
-고령 환자에서 진행성 림프절 비대와 비장비대, 체중 감소는 만성 림프구성 백혈병(CLL)과 일치한다. CLL은 성인에서 가장 흔한 림프구성 악성 종양이다.
+고령 환자의 림프절병증·비장비대와 체중 감소는 선택지 중 만성 림프구성 백혈병(C)을 지지한다. 확진에는 혈구검사와 유세포분석으로 클론성 B림프구를 확인한다. CLL을 모든 성인 림프구성 악성종양 중 가장 흔하다고 일반화하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000386`와 직접 대조했다.
+- 판정: 고령의 림프절병증·비장비대에서 CLL C 유지. 성인 전체 림프구성 악성종양 중 가장 흔하다는 잘못된 역학 일반화 제거.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq
 
 ## 출처
 

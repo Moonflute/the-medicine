@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 두부 CT 재검
 
 ## 해설
 
+출제 문맥은 뇌간반사 소실과 양성 무호흡 검사로 뇌사를 정식 판정한 상태를 전제로 하며, 이 전제가 충족되면 보기 C와 같이 인공호흡을 종료할 수 있다. 뇌사 판정에는 원인 확정, 체온과 순환 조건 충족, 진정제·중독 및 대사성 교란 배제와 정해진 무호흡 검사 기준 충족이 필요하다. 다리의 삼중 굴곡과 같은 척수 반사는 뇌사와 양립할 수 있다. 가족이나 사전의료지시가 없다는 사실 자체가 뇌사 또는 치료 종료의 근거가 되는 것은 아니며, 실제 절차는 해당 법규와 기관 정책에 따라 수행해야 한다.
 
-양성 무호흡 검사와 뇌사 판정이 확인된 상황에서 대리인이나 사전 지시서가 없으므로, 인공호흡기 제거가 다음 단계가 된다. (법원 명령은 필요하지 않다)
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 뇌사 확정과 무연고 상태를 혼동하지 않도록 교정한다. 양성 무호흡 검사 및 뇌간반사 소실이라는 출제 조건에서 C를 유지하되 정식 판정의 선행 조건과 척수 반사를 명시한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/
 
 ## 출처
 

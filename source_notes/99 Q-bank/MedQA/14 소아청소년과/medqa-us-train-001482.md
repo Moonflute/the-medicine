@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 장중첩증 병력
 
 ## 해설
 
+장중첩증 병력(D)은 낭성섬유증 여부와 무관하게 로타바이러스 백신 금기다. 경미한 접종 후 발열, 낭성섬유증 자체, 열성경련 병력은 이 접종의 절대 금기가 아니다.
 
-낭성섬유증 환자는 장중첩증(장중첩) 후 로타바이러스 백신이 금기이다. 다른 선택지는 금기사항이 아니다. 따라서 장중첩증 병력이 금기이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 장중첩 병력 D는 로타바이러스 백신 금기. 낭성섬유증에만 적용되는 조건처럼 쓴 설명 수정.
+- https://www.cdc.gov/rotavirus/hcp/vaccine-considerations/index.html
 
 ## 출처
 

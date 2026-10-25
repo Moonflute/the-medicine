@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 진피 내 글리코사미노글리칸 축적
 
 
 다리의 부종·색변화·인설은 정맥 울혈에 의한 정맥정맥판막 기능부전(정맥판막 불능)으로 인한 정맥정체성 피부염을 나타낸다. 이는 정맥압 상승으로 정맥혈이 피부와 연부조직에 고이면서 색변화와 염증을 일으킨다. 따라서 가장 가능성 높은 기전은 정맥 판막 기능부전이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 일과 말에 악화되는 부종·적갈색 인설 피부염과 보존된 동맥 맥박은 정맥 판막 기능부전 B에 부합.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

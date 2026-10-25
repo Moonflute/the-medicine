@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,12 @@ D. 표적세포
 
 
 다발성 골수종 환자에서 고칼슘혈증과 신장 기능 저하가 동반되며, 말초혈액 도말에서 연전(rouleaux) 형성이 흔히 관찰된다. 다른 소견은 해당 질환과 관련이 적다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002974 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고령의 지속 골통·고칼슘혈증·신기능저하가 시사하는 MM에서 rouleaux B가 기대된다는 형태학 문항을 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

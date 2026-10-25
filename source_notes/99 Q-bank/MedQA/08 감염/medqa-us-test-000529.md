@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 약물치료를 하지 않는다
 ## 해설
 
 
-Yersinia pestis에 의한 페스트는 그람음성 구간균과 높은 항-F1 역가가 특징이며, 치료에 가장 효과적인 약물은 스트렙토마이신이다.
+마다가스카르 노출과 압통성 서혜부 bubo, 그람음성 구간균 및 항F1 역가 상승은 페스트를 지지한다. 선택지 중 스트렙토마이신(C)은 적절한 치료제이다. 겐타마이신·일부 fluoroquinolone 등 다른 권고 약제도 있어 유일하거나 항상 최상이라고 일반화하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000529 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: bubo·항F1 상승의 페스트에서 C 유지. 스트렙토마이신이 유일/항상 가장 효과적인 약이라는 과장 제한.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/plague/hcp/clinical-care/index.html
 
 ## 출처
 

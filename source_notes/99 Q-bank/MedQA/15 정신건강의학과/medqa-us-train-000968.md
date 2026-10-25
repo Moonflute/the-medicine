@@ -17,17 +17,19 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 아미트립틸린(Amitriptyline) 치료
 
 ## 해설
 
-
-환자는 무표정, 말속도 저하, 수면 장애 등 주요 우울증 증상을 보이며, 자살 위험이 없고 신체적 원인도 부인된다. 첫 번째 선택 약물은 SSRI 계열인 에스시탈로프람이다. 따라서 에스시탈로프람 치료가 다음 단계이다.
+흥미·활동 감소, 피로, 집중력 저하와 느린 말은 우울 삽화를 시사한다. 제시된 치료 중 SSRI인 에스시탈로프람이 적절하다. 다만 현재 자살사고가 관찰되지 않는다고 위험이 없다는 뜻은 아니고, 정상 신체진찰만으로 의학적 원인이나 물질 요인이 모두 배제되지도 않는다. 실제 진료에서는 진단 기준과 감별, 자살위험을 추가로 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000968
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 신체진찰 정상/자살사고 부인만으로 신체 원인 및 자살 위험이 배제됐다고 한 설명을 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 중심부 바늘 생검
 
 ## 해설
 
+경계가 뚜렷한 무에코성 병변과 후방 음향증강은 단순 유방낭종 소견이다. 통증과 불편이 있어 세침흡인으로 배액하고 증상을 완화할 수 있다(A). 전형적인 단순 낭종 모두에 생검이 필요한 것은 아니다.
 
-초음파에서 무에코성, 후방 음향증강, 경계가 뚜렷한 1.75 cm 낭종은 단순 유방 낭종을 시사한다. 단순 낭종은 비침습적이며, 진단 및 증상 완화를 위해 초음파 유도 하 세침흡인이 가장 적절한 다음 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 초음파상 증상성 단순 낭종의 흡인 A 유지. 낭종을 비침습적이라고 표현한 오류 교정.
+- https://www.nth.nhs.uk/services/breast-screening-services/one-stop-clinic/
 
 ## 출처
 

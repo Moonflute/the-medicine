@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "사강 장액 축적과 혈종·농양의 차이는 독립 수술 기초."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 지방 조직 파열
 
 ## 오답 포인트
 
-- **B. 혈액 고임(혈종):** 혈액 고임은 혈종이며 장액종과 구분된다.
+- **혈액 고임(혈종):** 혈액 고임은 혈종이며 장액종과 구분된다.
 
 ## 출처
 
 - 내부 학습 노트: 장액종 (Seroma)
 - 원본 경로: `source_notes/02 Diseases/11 외과/장액종 (Seroma).md`
-- 학습 목표: 원문 핵심: - **정의**: 수술 후 절개 부위의 사강(dead space)에 장액성 액체(혈장 및 림프액)가 비정상적으로 축적되는 현상. - **원인**: 광범위한 연부 조직 박리로 인한 림프관 및 혈관 손상, 사강 형성, 조직 간 전단력(shearing force) 발생. - **기전**: 수술 후 치유 과정 중 염증성 삼출물과 림프액이 사강에 고이며 발생. 치유 지연 시 만성적인 장액종으로 진행될 수 있음.
+- 학습 목표: 장액종의 사강 액체
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 사강 장액 축적과 혈종·농양의 차이는 독립 수술 기초.

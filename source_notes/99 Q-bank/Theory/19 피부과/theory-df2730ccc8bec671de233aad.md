@@ -12,15 +12,20 @@ target_type: disease
 target_slug: "MTkg7ZS867aA6rO8L-usvOyCrOuniOq3gCAoTW9sbHVzY3VtIENvbnRhZ2lvc3VtKS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "대표 형태를 유지하고 잘못된 parapox 원인 문항을 통합해 정확한 바이러스 계열을 설명."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -38,14 +43,18 @@ D. 고름이 차는 농양
 
 ## 해설
 
-물사마귀는 중앙이 움푹 패인 반구형 구진이 특징이며, 크기는 보통 2~5mm 정도입니다.
+물사마귀는 poxvirus에 의한 표재성 피부 감염으로 작고 매끈한 반구형 구진과 중앙 함몰이 대표적이다. 크기와 분포는 다양하며 면역저하자에서는 더 크거나 많은 병변이 나타날 수 있다.
 
 ## 오답 포인트
 
-- **C. 다수의 작은 수포가 군집된 형태:** 다수의 작은 수포는 수두와 같은 바이러스성 발진에 더 흔합니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 물사마귀 (Molluscum Contagiosum)
 - 원본 경로: `source_notes/02 Diseases/19 피부과/물사마귀 (Molluscum Contagiosum).md`
-- 학습 목표: 원문 핵심: * **CC**: 대부분 무증상이나 경미한 가려움증 동반 가능. * **P/E**: 2~5mm 크기의 피부색, 반구형 구진. 중앙이 움푹 들어간(umbilication) 형태가 특징. * 아토피 피부염 환자에서 흔하며, 긁는 행위로 인한 자가접종(autoinoculation)으로 병변이 확산됨.
+- 학습 목표: 물사마귀의 중앙 함몰 구진
+
+## 검수 근거
+
+- https://www.cdc.gov/molluscum-contagiosum/hcp/clinical-overview/

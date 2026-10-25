@@ -20,13 +20,15 @@ question_type: adverse_effect
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 저칼륨혈증
 
 ## 해설
 
+영양결핍 뒤 재급식으로 insulin이 증가하면 인산·칼륨·마그네슘이 세포 안으로 이동한다. 저인산혈증 A는 재급식증후군의 대표적이고 위험한 이상으로 호흡근 약화·심기능 저하 등을 유발할 수 있다. 저칼륨혈증과 저마그네슘혈증도 초기부터 함께 발생할 수 있으므로 나중에만 나타난다고 해서는 안 된다.
 
-극심한 영양 결핍 후 급속히 영양을 재공급하면 인산이 세포 내로 급격히 이동해 저인산혈증(재급식 증후군)이 가장 흔히 발생한다. 저인산혈증은 호흡부전·심부전 위험이 크다. 다른 전해질 이상은 재급식 초기보다 나중에 나타난다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Refeeding 저P A는 유지. 저K/저Mg가 나중에만 생긴다는 위험한 시간 순서 단정 수정.
+- https://www.nice.org.uk/guidance/cg32/chapter/Recommendations
 
 ## 출처
 

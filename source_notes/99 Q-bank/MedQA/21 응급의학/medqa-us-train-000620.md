@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. Hb 17 g/dL, Hct 20%
 
 ## 해설
 
+급성 출혈 직후에는 적혈구와 혈장이 함께 소실되므로 순환 혈액량이 크게 줄어도 혈색소와 헤마토크릿의 농도는 처음에 정상 범위일 수 있다. 따라서 매우 이른 채혈에서 Hb 15 g/dL, Hct 45%인 B가 가능하며 이 수치로 출혈성 쇼크를 배제해서는 안 된다. 이후 조직액 이동이나 수액 투여로 혈액희석이 생기면 Hb/Hct가 감소한다. 초기 정상 수치의 원인을 이미 발생한 혈액희석이라고 설명하는 것은 반대이다.
 
-심한 저혈압과 빈맥은 저혈량성 쇼크를 의미한다. 초기 출혈성 쇼크에서는 혈액량이 감소해도 혈색소와 헤마토크릿은 정상 범위(헴희석)로 유지된다. 따라서 Hb 15 g/dL, Hct 45%가 가장 흔한 결과이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성 대량출혈 직후 정상 Hb/Hct는 혈액희석 때문이 아니라 적혈구와 혈장이 함께 소실되어 농도가 즉시 변하지 않기 때문으로 교정.
 
 ## 출처
 

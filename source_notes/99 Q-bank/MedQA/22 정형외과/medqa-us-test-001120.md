@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 거위발 윤활낭염
 
 ## 해설
 
+내측 관절선보다 약 6 cm 아래의 전내측 근위 경골 압통은 거위발 윤활낭염(D)을 지지한다. 거위발은 봉공근·박근·반힘줄근 힘줄의 공동 부착부이며 윤활낭은 그 아래에 위치한다. 관절삼출 부재·음성 외반 스트레스는 관절내 병변과 내측측부인대 손상보다 이 진단에 합당하다.
 
-내측 무릎 전방 압통과 활동 시 통증 악화는 거위발(내측 대퇴근막) 윤활낭염이 흔히 나타나는 양상이다. 따라서 가장 가능성 높은 진단은 거위발 윤활낭염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 거위발 윤활낭염 D를 내측 대퇴근막으로 잘못 적은 해부 설명을 교정한다.
 
 ## 출처
 

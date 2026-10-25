@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 흉부 X선
 
 
 고칼슘혈증의 원인을 구분하려면 부갑상선 호르몬(PTH) 수치를 측정해야 한다. PTH는 고칼슘혈증의 주요 조절인자이며, 원발성 부갑상선 기능항진증 여부를 판단한다. 따라서 다음 단계는 혈청 PTH 측정이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000775 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고Ca의 PTH 의존/비의존 분류를 위해 PTH C 우선 측정은 적절. 원문 thiazide·저albumin도 실제 후속 해석에 필요.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/10.1002/jbmr.4677
 
 ## 출처
 

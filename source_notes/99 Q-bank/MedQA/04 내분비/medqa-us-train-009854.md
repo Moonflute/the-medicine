@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 잘 통제된 연구에서 임신 1분기 태아 위험이 입증되지 않�
 ## 해설
 
 
-레보티록신은 임신 중 갑상선기능저하증 치료에 필수이며, 임신 1분기 및 이후에도 태아에 위험을 증가시킨다는 근거가 없다. 따라서 임신 중에도 용량을 조절하며 지속 투여한다는 것이 올바른 설명이다.
+정답 D가 의도한 핵심은 임신 중 적절한 LT4 보충을 중단할 필요가 없다는 점이다. 현행 허가사항은 적정 치료를 받은 임신부의 임상/시판 후 자료에서 주요 기형·유산 증가가 보고되지 않았다고 설명한다. 이는 모든 위험이 0이거나 현대의 충분한 무작위 대조시험으로 무위험이 증명됐다는 뜻은 아니다. 옛 pregnancy category 문구만을 현재 근거 체계로 해석하지 않으며 TSH에 따라 용량을 조절한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009854 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 임신 LT4 지속의 안전성 취지는 D이나 옛 A등급 문구를 현대 허가사항의 임상자료로 설명; 잘통제 연구로 무위험 입증이라 과장하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc
 
 ## 출처
 

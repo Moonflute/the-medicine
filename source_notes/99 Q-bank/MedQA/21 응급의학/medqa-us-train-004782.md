@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 1년 이상 흡연력
 
 ## 해설
 
+제시된 선지 중 최근 수술(C)은 Wells PE 점수에 포함되는 항목이다. 표준 척도는 최근 4주 수술/3일 초과 부동을 사용하므로 문항의 '30일'은 근사 표현이다. 경구피임약은 실제 VTE 위험인자이지만 Wells 항목은 아니며, 단순히 임상적으로 중요하지 않다는 뜻은 아니다. 점수 하나만으로 PE를 확진하지 않는다.
 
-웰스 점수에서 최근 30일 이내 수술력은 폐색전증 위험을 크게 높이는 요인이다. 따라서 최근 수술이 가장 중요한 위험인자이다. 다른 선택지는 위험도에 크게 기여하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Wells 점수에 포함되는 위험인자와 점수 외 실제 VTE 위험을 구별.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 
 ## 출처
 

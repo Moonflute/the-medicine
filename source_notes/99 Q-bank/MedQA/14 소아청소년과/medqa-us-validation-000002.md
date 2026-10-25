@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 위식도 역류질환
 
 ## 해설
 
+반복되는 유사 구토 삽화 사이 건강하게 지내는 양상은 보기 중 주기성 구토 증후군(A)에 부합한다. 그러나 담즙성 구토는 장회전이상·폐쇄 등 다른 원인을 배제해야 하는 경고이며, 정상에 가까운 복부 촉진만으로 안전하다고 단정하지 않는다. 원문에 마른 외모·점막 건조·혈압82/52가 있어 현 탈수 평가도 필요하다.
 
-반복적인 구토와 구역, 정상 복부 촉진, 체중이 정상 범위에 있는 경우 주기성 구토 증후군이 가장 흔한 원인이다. 이는 구토 발작 사이에 증상이 완전히 사라지는 특징을 가진다. 따라서 주기성 구토 증후군이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 주기성 구토의 패턴은 유지하되 담즙성 구토를 단순 정상 진찰로 무시하는 설명을 교정.
+- https://naspghan.org/professional-resources/clinical-guidelines/
 
 ## 출처
 

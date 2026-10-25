@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. PT 감소, PTT 감소, 출혈시간 감소, 섬유소분해산물 감소, D-�
 ## 해설
 
 
-전골수구성 백혈병에서 전트랜스레티노산 치료는 급성 파괴성 혈전증(파종성 혈관내 응고)을 유발해 PT·PTT·출혈시간이 연장되고 섬유소분해산물·D-이합체가 증가하며 피브리노겐과 혈소판이 감소한다. 이러한 실험실 패턴이 정답 C와 일치한다.
+APL 자체는 심한 소비성·과섬유소용해성 응고장애를 일으켜 출혈과 혈전을 함께 유발할 수 있다. 제시된 장간막 허혈·점상출혈에서 예상되는 DIC 패턴은 PT/aPTT 연장, D-dimer·FDP 증가, fibrinogen·혈소판 감소인 C이다. ATRA는 의심 APL에서 조기에 시작해 응고장애를 치료하는 핵심 약제이며 DIC의 일반 원인이라고 설명하지 않는다. 치료 중 혈전이나 다른 합병증은 별도 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000791 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: APL 관련 소비성 응고장애 패턴 C 유지. ATRA가 DIC를 유발한다는 역전 설명을 APL의 응고장애와 ATRA의 조기 치료 역할로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/
 
 ## 출처
 

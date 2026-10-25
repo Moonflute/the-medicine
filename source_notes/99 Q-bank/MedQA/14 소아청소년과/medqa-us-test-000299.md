@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 다골성 섬유성 이형성증
 
 ## 해설
 
+카페오레반점, 매우 이른 유방 발달·질출혈에 골 병변이 동반되어 McCune-Albright 증후군을 시사한다. 이 증후군에는 다골성 섬유성 이형성증(D)이 동반될 수 있다. GNAS의 활성화 체세포 변이와 관련된 모자이크 질환으로 피부·골격·내분비 이상이 함께 나타나는 것이며, 단순 골 병변 자체가 모든 증상의 원인이라는 뜻은 아니다.
 
-다골성 섬유성 이형성증은 골절, 골연화, 피부 과다색소침착, 유방 비대, 조기 사춘 등을 동반한다. 제시된 골 병변·피부·유방 변화는 이 질환에 특이적이다. 따라서 다골성 섬유성 이형성증이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: McCune-Albright증후군의동반골병변D로구조화,단순섬유성이형성증이모든내분비증상을직접유발한다는오해수정.
+
 
 ## 출처
 

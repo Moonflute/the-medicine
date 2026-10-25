@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 화농성 연쇄상구균 감염
 
 ## 해설
 
+발열과 경계가 뚜렷한 압통성 홍반·종창, 사타구니로 향하는 붉은 선은 단독(erysipelas) 및 림프관염을 지지한다. 가장 흔한 원인군은 β용혈성 연쇄상구균이며 선지 중 S. pyogenes(D)가 적절하다. 상행성 결절이 이어지는 sporotrichosis의 만성 양상과 다르며 화농이 반드시 존재하는 것은 아니다.
 
-연쇄상구균에 의한 화농성 피부감염(봉와직염)은 급성 발열·통증·경계가 뚜렷한 홍반을 동반한다. 따라서 화농성 연쇄상구균 감염이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경계 뚜렷한 피부 감염·상행 붉은 선을 단순 화농성 봉와직염으로 묶은 해설을 단독·림프관염으로 구체화한다.
 
 ## 출처
 

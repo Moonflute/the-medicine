@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 결핵
 ## 해설
 
 
-백혈구 알칼리성 인산분해효소가 상승하고 미성숙 호중구가 보이는 경우, 백혈병양 반응이 의심된다. 이는 급성 골수성 백혈병이 아닌 반응성 현상이다.
+주로 성숙/여러 성숙단계 호중구가 증가하고 LAP가 높은 양상은 선택지 중 leukemoid reaction C가 가장 부합한다. 모세포 중심의 급성 백혈병과 다르지만 LAP만으로 CML 등 모든 클론 질환을 배제할 수 없다. 만성 기침·체중감소·폐결절은 감염/악성 원인 평가가 필요하며8mm 결절만으로 특정 종양이나 결핵을 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006838 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 성숙 호중구 계열·LAP 증가의 반응 C 유지; 원인과 확진을 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

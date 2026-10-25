@@ -12,15 +12,20 @@ target_type: disease
 target_slug: "MTkg7ZS867aA6rO8L-yngOujqCDtlLzrtoDsl7wgKFNlYm9ycmhlaWMgRGVybWF0aXRpcykubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "비늘 색과 분포를 독립 문제로 늘리지 않고 한 대표 문항에 통합."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -38,14 +43,14 @@ D. 검은 색 비늘
 
 ## 해설
 
-지루 피부염은 기름진 흰색·노란색 비늘이 특징이며, 건선의 은백색 비늘과 구별된다.
+지루피부염은 두피·눈썹·코입술주름 등 피지가 많은 부위에서 홍반과 기름진 흰색 또는 황색 인설을 보일 수 있다. 건선 등과 겹치는 양상도 있어 색 하나만으로 확진하지 않는다.
 
 ## 오답 포인트
 
-- **B. 은백색 두꺼운 비늘:** 은백색 비늘은 건선에서 주로 보인다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 지루 피부염 (Seborrheic Dermatitis)
 - 원본 경로: `source_notes/02 Diseases/19 피부과/지루 피부염 (Seborrheic Dermatitis).md`
-- 학습 목표: 원문 핵심: * **CC**: 가려움증(특히 두피), 기름진 비늘(greasy scale)과 딱지. * **P/E**: 연어색(salmon-colored)의 구진 및 판, 미세한 흰색 또는 노란색의 기름진 비늘이 특징. * **호발 부위**: 두피, 눈썹, 미간, 비구순 주름(nasolabial fold), 귀 주변, 앞가슴. * **특징**: 성인에서는 재발과 완화를 반복하는 경과를 보임. 건선과 감별이 필요하며, 건선은 경계가 명확하고 은백색의 두꺼운 비늘이 특징임.
+- 학습 목표: 지루피부염의 피지 부위 기름진 인설

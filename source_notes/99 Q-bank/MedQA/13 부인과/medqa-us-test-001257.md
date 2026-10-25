@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 관찰 및 반복 복부진찰
 
 ## 해설
 
+갑작스러운 심한 통증·구토, 부속기 종괴·난소 부종은 염전이 의심된다. 도플러 혈류가 남아 있어도 염전을 배제할 수 없으며 신속한 복강경 평가·복원(A)을 시행한다. 혈류 ‘증가’가 확진 근거인 것은 아니다. 허혈 위험 때문에 MRI나 단순 관찰로 지연하지 않는다.
 
-급성 복통, 난소 주위 자유액, 부종, 혈류 증가는 난소 염전(난소 꼬임) 의심을 강하게 시사한다. 진단을 확정하고 즉시 치료하기 위해서는 최소 침습적 방법인 복강경 검사가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 도플러 혈류 존재를 증가로 바꾼 오류 및 혈류 보존이 염전을 배제하지 않음 명시.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/08/adnexal-torsion-in-adolescents
 
 ## 출처
 

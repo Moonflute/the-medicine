@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVGVyYmluYWZpbmUubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,13 @@ D. 그리세오풀빈
 
 ## 해설
 
+KOH에서 균사가 확인된 조갑진균증에서 선지 중 경구 terbinafine(A)이 적절한 선택이다. 이 약은 allylamine 계열로 squalene epoxidase를 억제하며 triazole이 아니다. Fluconazole도 일부 상황에서 대안이 될 수 있지만 피부사상균성 손발톱감염의 통상 우선 경구제는 terbinafine이다. 치료 전 간질환·상호작용 등 안전성을 평가한다.
 
-손발톱 진균증(조갑진균증) 치료에 가장 효과적인 경구 항진균제는 테르비나핀이며, 이는 트리아졸계열에 속해 효능이 높다. 플루코나졸은 피부 진균증에 주로 쓰이며, 다른 선택지는 효과가 낮다. 따라서 터비나핀 투여가 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 확인된 조갑진균증의 terbinafine A를 유지하고 triazole 계열이라는 약리 오류를 allylamine·squalene epoxidase 억제로 수정한다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294bc1af-50e3-4bff-8d48-321e673033ce
+- 공식/학회 근거: https://www.bad.org.uk/pils/fungal-nail-infections
 
 ## 출처
 

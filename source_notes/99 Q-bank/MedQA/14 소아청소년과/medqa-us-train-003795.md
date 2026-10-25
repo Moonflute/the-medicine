@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 알프로스타딜
 
 ## 해설
 
+좌심방·좌심실 확장 및 심부전 소견은 유의한 좌우 단락의 가능성을 높인다. 심초음파 등으로 혈역학적으로 유의한 PDA를 확인하고 약물 폐쇄를 선택할 경우, 보기 중 indomethacin(A)이 프로스타글란딘 합성을 억제하여 동맥관 수축을 유도한다. 미숙아라는 이유만으로 모든 PDA를 일찍 약물 폐쇄하는 것은 아니다.
 
-조산아의 특발성 동맥관 개존증으로 인한 울혈성 심부전은 인도메타신이 동맥관을 수축시켜 치료한다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미숙아 PDA 약제 기전은 유지하되 모든 PDA의 예방적 조기 폐쇄로 오해하지 않도록 교정.
+- https://publications.aap.org/pediatrics/article/155/5/e2025071425/201674
 
 ## 출처
 

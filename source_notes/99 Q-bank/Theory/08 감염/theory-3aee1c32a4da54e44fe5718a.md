@@ -12,42 +12,51 @@ target_type: drug
 target_slug: "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: B
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+curation_status: "revised"
+curation_reason: "EBV 감염에 항생제를 자동으로 다른 계열로 바꾸게 하는 오류를 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-22세 대학생이 전신성 단핵구증을 진단받고 인두통을 호소합니다. 의사는 아목시실린 투여를 고려하고 있습니다. 가장 적절한 조치는?
+전염성 단핵구증에서 amoxicillin 사용에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 아목시실린을 처방한다.
-B. 마크로라이드 계열 항생제로 교체한다.
-C. 아목시실린을 처방하고 간 기능을 모니터링한다.
-D. 아목시실린을 처방하되 발진 발생 시 관찰한다.
+A. 발진이 흔해 사용을 피하며, 세균감염 적응증 없이 다른 항생제로 자동 교체하지 않는다
+B. 발진 예방을 위해 macrolide로 항상 교체한다
+C. EBV를 직접 제거하므로 항상 처방한다
+D. 발진이 생기면 용량을 늘린다
 
 ## 해설
 
-전신성 단핵구증 환자에게 아목시실린을 투여하면 발진 발생 위험이 높다. 따라서 단핵구증이 의심되는 경우 다른 항생제(예: 마크로라이드)로 교체한다.
+단핵구증에서 amoxicillin은 홍반성 발진과 연관되어 피한다. 바이러스 감염 자체는 항생제 적응증이 아니며, 별도의 세균감염 근거가 없다면 대체 항생제를 일률적으로 투여하지 않는다.
 
 ## 오답 포인트
 
-- **D. 아목시실린을 처방하되 발진 발생 시 관찰한다.:** 단핵구증 환자에서는 발진 위험이 높아 아목시실린 사용을 피해야 한다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: Amoxicillin
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Amoxicillin.md`
-- 학습 목표: 원문 핵심: - 전신성 단핵구증(mononucleosis) 환자에게 투여 시 발진 발생률이 높으므로 사용을 피함. - 설사가 지속될 경우 C. difficile 관련 장염 가능성을 고려하여 평가해야 함. - 간 기능 장애 환자는 정기적인 간 기능 검사가 필요함. - 아스파탐 함유 제형(일부 현탁액 및 씹는 정제)은 페닐케톤뇨증 환자에게 금기. - 장기 투여 시 진균 또는 비감수성 세균의 중복 감염 가능성을 모니터링함.
+- 학습 목표: EBV 단핵구증의 aminopenicillin 발진과 불필요한 항생제 회피
+
+## 검수 근거
+
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53548597-347b-42a9-916c-e88cd27b8dcd

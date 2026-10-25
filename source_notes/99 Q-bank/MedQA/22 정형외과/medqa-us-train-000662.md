@@ -27,13 +27,15 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -53,6 +55,10 @@ D. 가성통풍(Pseudogout)
 
 
 노년 남성의 관절통, 관절 경직, 관절 연골 마모음은 골관절염의 전형적인 임상양상이며, 방사선 소견에서도 관절면 협착이 흔히 보인다. 따라서 골관절염이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 영어 본문·네 선지·원정답 A·한국어 해설 개별 대조. 수년간 활동 시 악화/휴식 시 호전과 염발음은 OA에 부합. 통풍 위험요인은 있으나 급성 염증성 발작을 묘사하지 않음. 의심 플래그는 해설 오연결이 아님.
 
 ## 출처
 

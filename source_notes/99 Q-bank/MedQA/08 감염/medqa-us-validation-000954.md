@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,14 @@ D. 칸디다 알비칸스
 
 
 HIV 환자에서 TMP‑SMX는 PCP 예방뿐 아니라 톡소플라스마 감염도 억제한다. 따라서 지속 투여 시 톡소플라스마 감염을 예방할 수 있다. 정답은 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000954 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HIV-PCP의 TMP-SMX 유지 예방은 toxoplasma 예방 B도 제공. 현재 질환 치료와 이후 이차예방 목적을 구분하여 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/toxoplasmosis
 
 ## 출처
 

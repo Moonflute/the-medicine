@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. EBV, 마이코플라스마, CLL 또는 류마티스 질환에 의해 이차�
 ## 해설
 
 
-겸상적혈구병은 베타글로빈 유전자의 점 돌연변이(히스티딘 → 글루타민)로 인해 적혈구가 겸상 형태로 변하고 용혈성 빈혈을 일으킨다. 이는 열성 베타글로빈 변이에 해당한다. 따라서 가장 적절한 설명은 열성 베타글로빈 돌연변이이다.
+겸상적혈구병은 HBB의 상염색체 열성 유전 질환이다. HbS는 성숙 β-globin 사슬 6번의 glutamate가 valine으로 바뀐 변이(Glu6Val)이며, 탈산소 상태에서 HbS 중합과 적혈구 겸상화·용혈·혈관폐쇄를 유발한다. 따라서 형태 변화를 일으키는 열성 β-globin 변이(B)가 맞다. Histidine이 glutamine으로 바뀌는 변이가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009658 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원정답 B 유지. HbS 변이를 histidine→glutamine이라고 한 명백한 기전 오류를 β6 glutamate→valine으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://medlineplus.gov/genetics/gene/hbb/
 
 ## 출처
 

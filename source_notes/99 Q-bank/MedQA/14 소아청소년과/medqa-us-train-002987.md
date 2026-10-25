@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,15 @@ D. 생후 2개월(생활연령)에 첫 디프테리아·파상풍 톡소이드·
 
 ## 해설
 
+임상적으로 안정된 미숙아는 대부분 교정 연령이 아니라 실제 생후 연령에 맞추어 예방접종한다. 따라서 생후 2개월의 DTaP(D)가 적절하다. 출생체중 2,000 g 미만의 B형간염 접종에는 예외 규칙이 있다. 수두 백신의 통상 첫 접종은 12–15개월이며 인플루엔자 백신은 생후 6개월부터 가능하다.
 
-미숙아는 생후 2개월(생후 연령)부터 DTaP를 시작해야 하며, 다른 백신은 연령에 맞춰 별도로 권고된다. 인플루엔자와 수두는 6개월 이후, Hib는 2개월이지만 질문은 DTaP에 초점이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미숙아 예방접종의 실제 생후 연령 기준과 잘못된 수두 6개월 접종 설명을 교정.
+- https://www.cdc.gov/vaccines/hcp/imz-best-practices/special-situations.html
+- https://www.cdc.gov/chickenpox/hcp/vaccine-considerations/index.html
+- https://www.cdc.gov/flu/hcp/vax-summary/seasonal-influenza-vaccines.html
 
 ## 출처
 

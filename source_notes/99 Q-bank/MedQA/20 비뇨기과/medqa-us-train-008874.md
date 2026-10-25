@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvRmFtb3RpZGluZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 경구 세티리진
 
 ## 해설
 
+콘돔 사용 직후 생긴 융기성 소양성 발진과 이전 풍선 접촉 후 반응은 즉시형 라텍스 접촉두드러기를 지지한다. 이는 보통 지연형 제4형 알레르기접촉피부염과 구별된다. 국소 두드러기만 있고 호흡·순환이 안정적인 이 환자에서는 세티리진(D) 같은 2세대 H1 항히스타민제와 노출 회피가 적절하다. 호흡곤란·저혈압 등 아나필락시스가 생기면 항히스타민제가 아니라 근육주사 에피네프린이 우선이다.
 
-음경에 국소적인 두드러기성 발진은 라텍스 접촉성 두드러기(알레르기성 접촉 피부염)와 일치한다. 항히스타민제인 세티리진이 증상 완화에 가장 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 즉시형 라텍스 접촉두드러기를 지연형 알레르기접촉피부염과 동일시한 오류 수정. cetirizine D 유지.
+- 공식/학회 근거: https://worldallergy.org/component/content/article/contact-dermatitis-fonacier-l-feldman-e?Itemid=101&catid=16
+- 공식/학회 근거: https://worldallergy.org/component/content/article/urticaria-kaplan-ap-updated-2019
 
 ## 출처
 

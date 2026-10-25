@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNCDqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 하지불안증후군
 
 ## 해설
 
+얼음 씹기(pagophagia)와 결막 창백·산후 피로는 철결핍빈혈을 의심하게 한다. 철결핍은 하지불안증후군(D)과 연관되므로 CBC·철 저장량을 평가한다. HIV·메트포르민·HAART 자체가 이 사례의 RLS 원인이라는 근거는 없고 현재 증상만으로 RLS가 이미 있다고 진단하지 않는다. HIV 수유 관리는 바이러스 억제 상태에 따른 별도 상담이 필요하다.
 
-임신·당뇨·HIV 환자에서 메트포르민·HAART 복용 시 철 결핍보다는 레스트리스 레그 증후군(RLS) 위험이 증가한다. 특히 임신 후기에 철분 결핍이 없고 피로·빈혈이 동반될 때 RLS가 흔히 나타난다. 따라서 하지불안증후군 위험이 증가한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 철결핍 부정 및 HAART를 RLS 원인으로 단정한 오류 수정.
+- https://health.nih.gov/health-topics-a-z/restless-leg-syndrome
 
 ## 출처
 

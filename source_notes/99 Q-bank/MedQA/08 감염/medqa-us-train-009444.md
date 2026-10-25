@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 크립토스포리디움 파르붐
 
 
 HIV 환자에서 CD4가 85/mm³인 경우 크립토스포리디움 파르붐 감염이 흔하며, 변에서 난포낭(oocyst)이 관찰된다. 이는 물에서 전파되는 기생충으로, 다른 선택지는 환자의 임상양상과 일치하지 않는다. 따라서 가장 가능성 높은 원인균은 크립토스포리디움 파르붐이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009444 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CD4 저하·물 노출·지속 수양성 설사와 변형 항산성 oocyst는 선택지 중 Cryptosporidium D. Giardia/아메바/CMV와 형태·기전 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

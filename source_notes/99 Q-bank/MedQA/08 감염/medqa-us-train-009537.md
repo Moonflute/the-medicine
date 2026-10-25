@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 경구 플루코나졸
 ## 해설
 
 
-HIV 감염 환자에서 구강·식도 칸디다증은 면역억제에 의한 진균 감염이며, 1차 치료는 경구 플루코나졸이다. 니스타틴 구강 세척액은 구강 위축증에, 아지트로마이신은 거대세포바이러스 감염에, 간시클로버는 헤르페스 바이러스에 사용된다. 따라서 정답은 D이다.
+긁히는 구강 백색 판과 진행성 연하통은 구강·식도 칸디다증을 시사하여 전신 fluconazole(D)이 적절하다. Nystatin 세척액은 경증 구강 칸디다증에 쓰지만 식도 치료로는 부족하다. Azithromycin은 CMV 식도염 치료제가 아니며, ganciclovir는 CMV 치료에 쓰이는 약제이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009537 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 연하통 동반 HIV 식도 칸디다증의 fluconazole D 유지. Nystatin=구강위축증, azithromycin=CMV 등 잘못 연결된 약물 설명 수정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/candidiasis/
 
 ## 출처
 

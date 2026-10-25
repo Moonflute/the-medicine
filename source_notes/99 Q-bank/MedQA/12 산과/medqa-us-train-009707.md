@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 입원 모니터링
 
 ## 해설
 
+지속적 태동 감소로 NST/초음파 평가가 필요하며 초기 감시가 충분히 안심되지 않으면 BPP(C)로 확장 평가한다. BPP는 NST와 태아 호흡운동·큰 몸 움직임·근긴장·양수량을 평가한다. 태동 수만으로 NST를 양성/음성으로 분류하거나 즉시 분만을 결정하지 않는다.
 
-태동 감소 시 비생물학적 프로파일(양성/음성)과 양성인 경우 생물학적 계수를 측정한다. 생물학적 계수는 양수 움직임, 태아 호흡, 근육 긴장, 움직임을 종합해 태아 상태를 평가한다. 따라서 다음 적절한 조치는 생물리학적 계수이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ‘비생물학적 프로파일’ 등 잘못된 검사명·구성 수정.
+- https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being
 
 ## 출처
 

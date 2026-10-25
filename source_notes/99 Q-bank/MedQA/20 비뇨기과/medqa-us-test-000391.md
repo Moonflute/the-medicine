@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 굴곡성 S상결장경검사
 
 ## 해설
 
+정답은 A, PSA이다.58세이며 Black ancestry와 아버지의 전립선암 병력은 선별 논의에서 중요한 위험요인이다. 검사 이득·위양성·과진단/과치료 위험을 설명한 뒤 공동결정으로 PSA 선별을 시행한다. 모든 특정 인종 남성에게45세부터 무조건 검사하라는 뜻은 아니며 검사 간격과 중단도 위험·기대여명·선호에 따라 결정한다.
 
-흑인 남성은 전립선암 위험이 높으며 45세 이상에서는 PSA 검사가 권장되는 선별검사이다. 다른 검사는 연령·위험군에 맞지 않는다. 따라서 A가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 흑인45세 이상 모두 일률PSA라는 과장 수정.58세·1촌전립선암·Black ancestry의 공동결정 선별 A 설명.
+- 공식/학회 근거: https://www.auanet.org/documents/Guidelines/PDF/Early%20Detection%20Prostate%20Cancer/GUI-23-8404%20EDPC%20Flow%20Diagram.pdf
 
 ## 출처
 

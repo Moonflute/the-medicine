@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 폐포 공간의 세균 감염
 
 
 전신마취 후 폐포 허탈(무기폐)은 폐기저부에 공기 흡입이 차단돼 발생한다. 이는 호흡곤란과 저산소증을 일으키며 영상에서 무기폐 소견을 보인다. 따라서 폐포 허탈이 가장 가능성 높은 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 전신마취후 열구이동을 동반한 하엽 용적감소 음영은 무기폐의 폐포허탈 C에 부합.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

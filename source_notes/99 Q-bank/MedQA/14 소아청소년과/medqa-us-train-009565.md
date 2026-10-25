@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 기흉
 
 ## 해설
 
+호흡곤란·주상복부·좌측 호흡음 소실과 우측으로 밀린 심음은 좌측 후외측 횡격막 결손인 Bochdalek 탈장(A)을 시사한다. 전방 흉골뒤의 Morgagni 결손과 구별한다. 실제 X선이 제공되지 않아 흉강 내 장 가스를 보았다고 단정하지 않는다.
 
-신생아의 오른쪽 흉곽에서 심음이 들리고 왼쪽 폐음이 소실된 것은 복측 횡격막 결손으로 장이 좌흉으로 들어가 폐를 압박하는 보흐달렉 탈장을 시사한다. 이 선천성 횡격막 탈장은 호흡곤란, 저산소증, 저혈압을 일으키며 X선에서 장이 폐를 대체한 모습이 보인다. 따라서 가장 가능성 높은 진단은 보흐달렉 탈장이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Bochdalek을 복측 결손으로 오기한 해설과 미제공 X선 창작 교정.
+
 
 ## 출처
 

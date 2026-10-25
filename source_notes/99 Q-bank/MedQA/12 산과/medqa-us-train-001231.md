@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 유청 단백질
 
 ## 해설
 
+출산 4일째의 양측 울혈과 젖물림 곤란은 수유 초기에 생기는 유방울혈을 시사하며 비타민 D 부족이 원인은 아니다. 모유는 대체로 영아에게 적합한 영양을 제공하지만 비타민 D 공급은 충분하지 않다(C). 모유수유 또는 부분 모유수유 영아는 출생 직후부터 일반적으로 비타민 D 400 IU/일 보충이 필요하다.
 
-수유 중 유방 울혈·통증은 모유에 비타민 D가 부족할 때 흔히 나타난다. 비타민 D는 모유에 거의 존재하지 않아 신생아가 결핍되기 쉽다. 따라서 모유는 비타민 D 공급원으로 부족하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 유방울혈을 모유 비타민D 부족 탓으로 연결한 오류 수정.
+- https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-d.html
 
 ## 출처
 

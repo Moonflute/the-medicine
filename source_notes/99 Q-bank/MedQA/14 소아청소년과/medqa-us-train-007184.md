@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvU2FsYnV0YW1vbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 살부타몰 흡입기 사용을 권장
 
 ## 해설
 
+새로 시작한 기침·천명에 사레 병력과 감독 없는 탐색 활동을 함께 고려하면 기도 이물을 의심한다. 이물 의심이 지속될 때 진단·제거를 위한 기관지경(C)이 적절하다. 야간 기침이나 천명만으로 이물이라고 확정하지 않으며 정상 활력징후도 배제 근거는 아니다.
 
-밤에 심한 기침과 천명은 기도 이물에 의한 급성 기도 폐쇄를 의심하게 하며, 진단에 가장 확실한 방법은 기관지경검사이다. 영상검사나 약물 치료는 원인 확인에 부족하다. 따라서 정답은 기관지경검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 야간 기침만으로 이물 확진하는 과잉 단정을 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/
 
 ## 출처
 

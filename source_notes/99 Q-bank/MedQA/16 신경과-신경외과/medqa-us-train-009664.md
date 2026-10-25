@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 발프로산
 
 ## 해설
 
+각성 직후 반복되는 상지 근간대경련, 전신 강직간대발작과 결신 가능성은 청소년 근간대뇌전증을 시사한다. 보기 중 valproate(D)가 여러 전신 발작형을 조절하는 약물이다. Phenytoin은 근간대/결신 발작을 악화시킬 수 있고 ethosuximide는 결신 외 발작을 충분히 치료하지 못한다. 현행 치료에서는 levetiracetam 등 대안과 생식·기타 안전성을 상담한다. 영국에서는 55세 미만 신규 valproate 처방에 두 전문의 판단 등 규제가 있어 무조건적인 일차 처방으로 해석해서는 안 된다.
 
-청소년 근간대성 간질은 전신 강직성 발작 후 전신 근육 경직이 특징이며, 발프로산이 1차 치료제로 권장된다. 디아제팜·에토숙시미드·페니토인은 급성 발작 억제에 쓰이지만 장기 관리에 적합하지 않다. 따라서 정답은 발프로산이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. JME의 임상 정의와 약물 구분 오류 교정. D는 보기 중 적합하나 성별을 포함한 valproate 안전성 규정을 명시.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng217/chapter/5-Treating-epileptic-seizures-in-children-young-people-and-adults
 
 ## 출처
 

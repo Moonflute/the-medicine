@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "66y87KeIIOyYpOuCqOyaqQ"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "사용량 자체와 사용장애의 조절상실·기능 손상을 구분하는 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 가족력
 - 내부 학습 노트: 물질 오남용
 - 원본 경로: `source_notes/01 Chief Complaint/물질 오남용.md`
 - 학습 목표: 원문 핵심: 물질 오남용은 사용량보다 사용 패턴, 조절 상실, 금단·내성, 기능 손상을 확인하고 변화 준비도에 맞춰 개입한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

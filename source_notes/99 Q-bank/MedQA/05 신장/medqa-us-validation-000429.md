@@ -18,17 +18,22 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uwqeq0keyalOq0gOyXreulmCAoVmVzaWNvVXJldGVyYWwgUmVmbHV4KS5tZA
 question_type: investigation
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmaXhpbWUubWQ
+curation_status: "revised"
+curation_reason: "미제시 복통·요관 확장을 제거하고 방광요관역류의 정확한 용어와 시점 설명."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -46,10 +51,20 @@ D. 배뇨방광요도조영술
 
 ## 해설
 
-
-신우신염 후 발열·복통·요관 확장이 관찰될 때, 요관역류가 원인일 수 있다. 요관역류는 방광에서 신장으로 역류가 발생해 재발성 감염을 일으키며, 방광·요도 조영술로 확진한다. 따라서 방광요도조영술이 다음 단계이다.
+영아의 반복 발열성 UTI와 초음파상 수신증은 방광요관역류(VUR) 등 구조적 문제를 평가할 근거다. 급성 감염 치료로 호전된 뒤 선택지 중 배뇨방광요도조영술로 역류·요도를 평가한다. 모든 첫 UTI에 일률적으로 시행한다는 뜻은 아니며 연령·재발·초음파 소견을 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000429
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 미제시 복통·요관 확장을 제거하고 방광요관역류의 정확한 용어와 시점 설명.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.nice.org.uk/guidance/ng224/chapter/Recommendations

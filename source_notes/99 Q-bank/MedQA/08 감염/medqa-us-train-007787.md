@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 2개월간 이소니아지드, 리팜핀, 피라진아미드, 에탐부톨을
 ## 해설
 
 
-활성 폐결핵이 의심되는 환자에서 항균제 감수성 결과를 기다리는 동안 격리와 동시에 RIPE 요법(이소니아지드, 리팜핀, 피라진아미드, 에탐부톨) 2개월을 시작하는 것이 표준 치료이다. 다른 선택지는 진단 지연을 초래한다.
+AFB와 TB PCR 양성인 활동 폐결핵은 격리·신고와 함께 치료를 시작하고 배양을 기다리지 않는다. D의2HRZE/4HR은 약제감수성 폐결핵에 유효한6개월 표준 옵션이다. 신속 분자내성검사/배양 감수성에 따라 조정하고 일부 적격 환자에는4개월 요법도 가능하므로6개월을 유일 최신 요법으로 일반화하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007787 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 활동 TB 치료 D 유지;6개월이 유일 현행 요법은 아니며 신속 내성결과에 따라 조정함을 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 광선치료
 
 ## 해설
 
+폐경 후 심한 가려움과 외음부 백색 판·위축은 경화태선을 시사한다. 암이 배제된 병변은 강력 국소 스테로이드 클로베타솔(A)로 치료한다. 모든 백색판이 같은 병은 아니며 지속되거나 변하는 병변은 재평가한다.
 
-외음부 백색판(리소플라키아)은 염증성 병변으로 고강도 국소 스테로이드(클로베타솔) 치료가 1차 선택이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 외음부 경화태선에 클로베타솔 A 유지. 백색판 자체를 진단명으로 둔 부정확한 설명 교정.
+- https://www.bad.org.uk/pils/lichen-sclerosus-in-females
 
 ## 출처
 

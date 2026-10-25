@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 파보바이러스 B19 추가 혈청검사를 시행한다
 
 ## 해설
 
+과거부터 높은 결합력의 풍진 IgG가 있고 IgM 음성 및 IgG 역가 상승이 없어 최근 일차 풍진 감염을 지지하지 않는다. 망상 발진과 관절통은 파보바이러스 B19 감염을 시사하므로 D의 항체 검사를 고려한다. 이는 풍진 재감염을 검출하는 검사가 아니라 발진의 다른 원인을 평가하는 검사이다.
 
-임산부에서 풍진 IgG가 존재하지만 IgM이 음성인 경우 재감염 가능성을 배제하기 위해 파보바이러스 B19 혈청 검사가 필요하다. 따라서 정답은 파보바이러스 B19 추가 혈청검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 풍진 재감염 배제용으로 B19 검사를 한다는 잘못된 연결 수정.
+- https://www.cdc.gov/rubella/php/laboratories/serology-testing.html
+- https://www.cdc.gov/parvovirus-b19/about/parvovirus-b19-in-pregnancy.html
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. Streptococcus pyogenes
 ## 해설
 
 
-양쪽 심장판막이 이첨판인 경우, 구강 위생이 불량한 경우 Streptococcus sanguinis와 같은 구강 미생물이 혈류로 들어가 감염성 심내막염을 일으킨다. 환자의 증상과 신체 소견은 이를 뒷받침한다. 따라서 정답은 Streptococcus sanguinis이다.
+이첨 대동맥판막이라는 구조적 판막 이상, 아급성 발열과 야간발한, 조갑하 출혈과 압통성 손가락 결절은 감염성 심내막염을 시사한다. 선지 중 구강 viridans streptococci에 속하는 Streptococcus sanguinis(B)가 가장 타당하다. 이첨은 대동맥판의 첨판이 두 개라는 뜻이지 양쪽 심장판막을 의미하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000144`와 직접 대조했다.
+- 판정: 이첨 대동맥판막과 아급성 IE 징후에서 viridans S. sanguinis B 유지. 양쪽 심장판막이라는 해부학 오류 및 근거 없는 구강위생 단정 제거.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

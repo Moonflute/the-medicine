@@ -36,6 +36,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -58,6 +60,13 @@ D. 입원하지 않고 경구 아목시실린만 처방한 뒤 경과 관찰
 
 
 65세 이상이고 호흡수가 분당 30회 이상인 폐렴 환자로, 제시된 보기 중 입원 후 세프트리악손과 아지트로마이신의 병용(B)이 적절하다. 이는 베타락탐과 마크롤라이드의 두 약제 조합이다. 쇼크나 기계환기 필요성이 제시되지 않아 중환자실 입원을 일률적으로 선택하지 않는다. 녹농균 위험인자가 제시되지 않은 상황에서 세페핌·겐타마이신 등으로 광범위하게 확대하는 것도 우선 선택이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 현재 한국어 CAP입원치료 B는 적절하며 ICU/녹농균 확대 근거 없음. 영어 D가 C와 중복된 선지결함도 대조 확인했으나 B 판정에는 영향 없음.
+- https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults
 
 ## 출처
 

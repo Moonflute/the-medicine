@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "괴사 내 가스가 감염을 시사한다는 쉬운 영상 복습으로 유지. 확진이나 필수 조건이 아닌 의심 소견을 묻는다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc1xd2hpdux0t3kzaknfcxnkrhnsn3pzaexfzzdmzu03sjzssu9xmhrpeunyq0fvu1c1bvpxtjbav1fnvudgdvkzsmxzwfjwwxlct1pxtnlim05wy3lrdwjxuxxkaxnlyxnlltazlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -45,3 +50,8 @@ CT에서 괴사 조직 내에 공기 방울이 나타나면 세균 감염이 의
 - 내부 학습 노트: 감염성 췌장 괴사 (Infected Pancreatic Necrosis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/감염성 췌장 괴사 (Infected Pancreatic Necrosis).md`
 - 학습 목표: 원문 핵심: - 혈액 검사에서 백혈구 증가증, CRP 수치 현저한 상승 등 심한 염증 소견이 나타난다. 영상 검사로는 CT가 진단에 가장 중요하며, 괴사 조직 내에 공기 방울(gas bubble)이 나타나는 것이 감염을 시사하는 특징적인 소견이다. 괴사 조직의 범위와 감염 여부를 평가하는 데 유용하다. 세침 흡인 검사(FNA)를 통해 괴사 조직을 흡인하여 그람 염색 및 세균 배양 검사를 시행하여 감염을 확진할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 괴사 내 가스가 감염을 시사한다는 쉬운 영상 복습으로 유지. 확진이나 필수 조건이 아닌 의심 소견을 묻는다.

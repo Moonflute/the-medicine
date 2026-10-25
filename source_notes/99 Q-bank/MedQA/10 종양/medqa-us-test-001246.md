@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 울혈성 심부전
 ## 해설
 
 
-석면 노출과 관련된 악성 중피종은 흉막에 결절성 병변과 고단백, 고LDH의 삼출성 흉수를 일으킨다. 환자의 직업력과 흉수 특성이 중피종을 가장 가능성 있게 만든다. 기관지 선암은 주로 폐 실질에 결절을 형성한다.
+흉막 결절과 흉수는 중피종(B)을 시사하며 오래된 섬유산업 직업력은 석면 노출 가능성을 확인할 단서이다. 그러나 본문만으로 석면 노출을 입증하거나 선암이 흉막 전이를 하지 않는다고 단정하지 않는다. 확진에는 적절한 조직 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-001246 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 흉막 결절·삼출과 장기 섬유산업 노출의 mesothelioma B 유지. 원문에서 석면이 직접 확인된 것처럼 단정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

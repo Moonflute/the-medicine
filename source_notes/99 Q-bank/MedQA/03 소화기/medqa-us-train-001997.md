@@ -23,12 +23,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,6 +50,13 @@ D. 대장내시경
 
 
 중증 궤양성 대장염에서 독성 거대결장을 의심할 때 가장 먼저 복부 X선을 촬영해 장확장 여부를 확인한다. 따라서 정답은 A이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: UC의 발열·쇼크·복부팽만·장음 감소에서 독성거대결장 평가를 위한 복부단순촬영 A; 급성 대장내시경보다 적절.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. Sertraline
 
 ## 해설
 
+원치 않는 침습적 장면 때문에 불안이 생기고 이를 줄이려고 밤마다 반복 확인하는 모습은 강박사고와 강박행동이다. 제시된 약제 중 SSRI인 세르트랄린(D)이 강박장애의 적절한 초기 약물치료에 해당한다. 노출 및 반응방지(ERP)를 포함한 CBT도 주요 근거 기반 치료이며 기능 저하와 선호에 따라 약물과 선택·병합한다. 항정신병약은 이 환자의 초기 단독치료로 선택하지 않는다. 세르트랄린이 모든 SSRI보다 우월하거나 가장 흔히 쓰인다고 단정할 근거는 본문에 없다.
 
-강박장애의 1차 치료는 선택적 세로토닌 재흡수 억제제(SSRI)이며, 세르트랄린이 가장 흔히 사용된다. 따라서 다음 단계는 세르트랄린 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: OCD의 SSRI D 유지하되 가장흔한 약이라는 근거 없는 우위 주장 제거하고 ERP·증상별 치료선택 추가.
+- https://www.nice.org.uk/guidance/cg31/chapter/Recommendations
 
 ## 출처
 

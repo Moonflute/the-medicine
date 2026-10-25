@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. HbA1c 상승
 
 ## 해설
 
+신생아의 산소에 잘 반응하지 않는 중심 청색증·단일 제2심음과 좁은 종격동은 대혈관전위(d-TGA)를 시사한다. 조절되지 않는 모체 당뇨와 d-TGA의 위험 증가가 연관되어 D가 가장 적절하다. 선천 구조 이상은 기관 형성기 노출과 관련되므로 이를 임신 후반에 진단되는 임신성 당뇨만의 영향으로 한정할 수 없다. HbA1c 상승이나 거대아만으로 개별 기형을 확진한다는 뜻도 아니다.
 
-신생아의 청색증, 심장 잡음, 단일 제2심음은 대동맥 전위(대혈관 전위)와 연관된다. 대동맥 전위는 임신성 당뇨(높은 HbA1c)와 강하게 연관되므로 산모에게 HbA1c 상승이 나타날 가능성이 가장 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 선천 심장기형의 모체 당뇨 연관성을 임신 후반에 진단되는 임신성 당뇨 하나로 한정한 설명을 바로잡았다.
+- https://www.heart.org/en/health-topics/congenital-heart-defects/about-congenital-heart-defects/d-transposition-of-the-great-arteries
 
 ## 출처
 

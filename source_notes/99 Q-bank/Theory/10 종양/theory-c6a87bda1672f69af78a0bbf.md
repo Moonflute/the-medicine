@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMCDsooXslpEvTGV0cm96b2xlLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMCDsooXslpEvTGV0cm96b2xlLm1k
+curation_status: "retained"
+curation_reason: "Aromatase 억제와 SERM 수용체 조절의 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Letrozole는 선택적으로 아로마타제를 억제하여 안드로겐이 에
 
 - 내부 학습 노트: Letrozole
 - 원본 경로: `source_notes/04 Pharmacology/10 종양/Letrozole.md`
-- 학습 목표: 원문 핵심: - 아로마타제(Aromatase) 효소를 선택적으로 억제하여 안드로겐이 에스트로겐으로 전환되는 과정을 차단합니다. - 말초 조직에서의 에스트로겐 생성을 효과적으로 감소시켜 에스트로겐 의존성 유방암 세포의 증식을 억제합니다.
+- 학습 목표: Letrozole: 아로마타제를 억제해 말초 조직에서 에스트로겐 합성을 감소시킨다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

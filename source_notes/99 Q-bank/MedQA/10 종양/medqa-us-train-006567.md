@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,13 @@ D. 조혈모세포 이식
 
 
 고환암(비정상피종성 종양)에서 AFP, LDH, hCG 상승과 전이성 간 병변이 확인되면 표준 1차 치료는 BEP(시스플라틴, 에토포사이드, 블레오마이신) 화학요법이다. 방사선은 일차 치료가 아니며 다른 레지멘은 효과가 낮다. 따라서 BEP 요법이 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006567 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: AFP/hCG 상승·간 및 후복막 전이가 있는 비정상피종성 고환 germ-cell tumor에서 cisplatin기반 BEP B가 적절함을 EAU 근거 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management
 
 ## 출처
 

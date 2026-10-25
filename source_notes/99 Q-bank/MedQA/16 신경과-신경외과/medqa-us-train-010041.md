@@ -19,22 +19,24 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-59세 여성이 잠을 잘 수 없어 일차진료의에게 내원했다. 밤에 잠자리에 들면 일어나서 걸어 다니고 싶은 충동이 생긴다. 그렇게 하면 남편을 자주 깨워 남편이 짜증을 낸다. 밤에 계속 불안하고 다리를 움직이고 싶은 느낌이 있으며 일어나 걸으면 호전된다. 낮에는 증상이 없다. 우편배달원으로 일하며 은퇴를 앞두고 있다. 과거력으로 불안, 우울증, 과민성대장증후군, 월경곤란증이 있으나 현재 약물은 복용하지 않는다. 체온 37.5°F(37.5°C), 혈압 157/98 mmHg, 맥박 분당 80회, 호흡수 분당 17회, 산소포화도 98%이다. 상하지 근력 5/5, 반사 2+, 보행 안정, 감각 정상이다. 심폐 및 복부 진찰은 정상이다. 다음 중 가장 적절한 초기 처치는?
+59세 여성이 잠을 잘 수 없어 일차진료의에게 내원했다. 밤에 잠자리에 들면 일어나서 걸어 다니고 싶은 충동이 생긴다. 그렇게 하면 남편을 자주 깨워 남편이 짜증을 낸다. 밤에 계속 불안하고 다리를 움직이고 싶은 느낌이 있으며 일어나 걸으면 호전된다. 낮에는 증상이 없다. 우편배달원으로 일하며 은퇴를 앞두고 있다. 과거력으로 불안, 우울증, 과민성대장증후군, 월경곤란증이 있으나 현재 약물은 복용하지 않는다. 체온 99.5°F(37.5°C), 혈압 157/98 mmHg, 맥박 분당 80회, 호흡수 분당 17회, 산소포화도 98%이다. 상하지 근력 5/5, 반사 2+, 보행 안정, 감각 정상이다. 심폐 및 복부 진찰은 정상이다. 다음 중 가장 적절한 초기 처치는?
 
 ## 선택지
 
@@ -45,8 +47,12 @@ D. 프라미펙솔
 
 ## 해설
 
+야간 휴식 시 다리를 움직이고 싶은 충동이 생기고 움직이면 호전하는 양상은 RLS에 맞는다. 초기에는 철 상태(C), 특히 ferritin과 transferrin saturation을 평가하여 철 보충 필요성을 결정한다. 말초신경병증이나 akathisia 등의 모방 질환도 감별한다. 철 결핍을 확인하지 않고 일률적으로 철분이나 도파민작용제를 시작하지 않는다.
 
-하지불안증후군은 철 결핍과 연관이 있으며, 먼저 혈청 철 및 페리틴 검사를 통해 결핍 여부를 확인해야 한다. 원인 확인 없이 약물을 투여하면 효과가 없을 수 있다. 따라서 초기 조치는 철분 검사를 시행하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 철 검사 C 유지하며 ferritin/TSAT 평가를 명시. 화씨 온도 오역 복원.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/
 
 ## 출처
 

@@ -22,11 +22,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,13 @@ D. p-ANCA
 ## 해설
 
 
-반응성 관절염(성관절염)과 요도염·결막염 삼합은 샤게스 증후군이며 HLA‑B27 양성이 가장 흔한 연관 표지이다.
+요도염·맑은 분비물 뒤 하지 비대칭 관절통과 결막 증상은 반응성 관절염을 시사한다. 선택지 중 HLA-B27(B)이 관련된다. HLA-B27은 필수 진단 조건도 감염 검사도 아니며 양성만으로 확진하지 않는다. 샤게스 증후군이라는 명칭은 이 임상상에 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004151 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 반응성 관절염을 샤게스 증후군·성관절염으로 잘못 명명한 부분을 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

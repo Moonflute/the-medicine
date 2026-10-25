@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 현재 약물을 중단한다
 
 ## 해설
 
+정답은 D이다. 바이러스감염 뒤 일시적인 갑상샘중독 증상 후 TSH가 상승하고 피로가 생긴 경과는 파괴성 갑상샘염의 중독기 뒤 저하기를 시사한다. 새 호르몬 합성이 주기전이 아니므로 PTU를 지속하는 것은 적절하지 않고 빈맥도 사라졌다면 증상용 propranolol도 재평가한다. 중단 자체가 갑상샘저하증을 유발한다는 뜻은 아니다. FT4/TSH를 추적하며 통증이 없으므로 무조건 NSAID를 추가하지 않는다.
 
-프로필티오우라실을 중단하면 갑상선 기능 저하가 급격히 회복되어 갑상선 저하증이 나타난다. 따라서 현재 약물을 중단하는 것이 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: PTU 중단 때문에 저하증이 생긴다는 역인과를 일과성 파괴성 갑상샘염의 경과로 교정.
+- https://doi.org/10.1089/thy.2016.0229
 
 ## 출처
 

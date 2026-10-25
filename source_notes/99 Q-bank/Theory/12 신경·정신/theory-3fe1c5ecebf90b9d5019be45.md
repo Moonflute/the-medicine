@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -24,6 +24,11 @@ review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ
+curation_status: "retained"
+curation_reason: "알츠하이머 증상 치료에서 AChE 억제와 NMDA 길항의 차이."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -47,4 +52,8 @@ Donepezil은 뇌 내 아세틸콜린에스테라제를 가역적으로 억제해
 
 - 내부 학습 노트: Donepezil
 - 원본 경로: `source_notes/04 Pharmacology/12 신경·정신/Donepezil.md`
-- 학습 목표: 원문 핵심: - 뇌 내 아세틸콜린에스테라제(Acetylcholinesterase)를 가역적으로 억제하여 시냅스 간극의 아세틸콜린 농도를 높임으로써 신경 전달을 촉진합니다.
+- 학습 목표: Donepezil: 아세틸콜린에스테라제 가역 억제
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

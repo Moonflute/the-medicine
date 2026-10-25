@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 혈청 페리틴 검사
 
 
 아침에 심한 관절통·강직, 양측성 소관절·무릎·손 관절의 부종·통증은 류마티스 관절염을 시사한다. 진단을 확정하려면 염증성 마커와 특이 자가항체(류마티스인자·항CCP) 검사가 필요하다. 따라서 혈청 ESR과 자가항체 검사가 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-001002` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 만성 아침강직·손목/PIP 활막염으로 염증성 관절염 평가 ESR·자가항체 C가 선지 중 적절. 원문의 축성 증상도 보존, 검사 하나로 확진되었다는 판단은 아님.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

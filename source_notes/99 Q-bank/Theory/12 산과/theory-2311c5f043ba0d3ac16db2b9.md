@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "침습 검체의 염색체 분석과 선별검사의 차이는 중요한 산전 진단 개념."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 삼중 검사
 
 - 내부 학습 노트: 다운증후군 (Down Syndrome)
 - 원본 경로: `source_notes/02 Diseases/12 산과/다운증후군 (Down Syndrome).md`
-- 학습 목표: 원문 핵심: * 산전 선별검사: 제1삼분기(NT 포함) 및 제2삼분기(Triple/Quad) 생화학 검사, 세포유전학적 선별검사(cfDNA)를 포함한 다양한 전략(Integrated, Contingent, Reflex screening) 활용 가능. * 확진: 융모막 융모 채취(CVS) 또는 양수 천자를 통한 핵형 분석. * 신생아기: 심장 초음파(선천성 심장 기형 확인), 갑상선 기능 검사. 출처: Prenatal screening for trisomy 21 (Down syndrome) using first- and second-trimest…
+- 학습 목표: 다운증후군 산전 확진과 선별의 구분
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 침습 검체의 염색체 분석과 선별검사의 차이는 중요한 산전 진단 개념.

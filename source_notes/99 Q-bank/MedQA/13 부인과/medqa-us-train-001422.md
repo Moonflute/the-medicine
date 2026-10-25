@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 심한 여드름
 
 ## 해설
 
+표현형과 원발무월경은 Turner증후군을 시사한다. 성선기능저하로 에스트로겐이 부족하면 골량획득이 저하되어 치료하지 않을 때 병적골절(B) 위험이 증가한다. 현재 골다공증이 이미 확진되었다는 뜻은 아니다. 고혈압·운동시다리통증은 대동맥축착 등 동반심혈관질환 평가도 요구한다.
 
-이 환자는 성장 저하, 고관절 골절 위험이 높은 골다공증을 동반한 턴러 증후군이다. 골다공증은 병적 골절 위험을 가장 크게 증가시킨다. 따라서 병적 골절이 가장 큰 합병증 위험이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 아직제시되지않은 골다공증·고관절골절을 확진한 설명 완화.
+
 
 ## 출처
 

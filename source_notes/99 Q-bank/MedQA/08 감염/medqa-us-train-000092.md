@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 오셀타미비르(Oseltamivir)
 
 
 환자는 인플루엔자 유행 기간에 발열·기침·근육통을 보이며, 고위험군(천식)이다. 증상이 48시간 이내이므로 오셀타미비르와 같은 뉴라미니다제 억제제가 가장 효과적이다. 따라서 가장 적절한 치료는 오셀타미비르이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000092 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 천식 고위험군의 1일째 인플루엔자 의심에서 조기 oseltamivir D 적절. 예방접종·amantadine으로 급성 치료 대체하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/flu/treatment/antiviral-drugs.html
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 조현양상장애
 
 ## 해설
 
-
-환자는 타인에게 사랑받고 결혼하겠다는 고정된 비현실적 믿음(에로토맨)만을 가지고 있으며, 기능은 유지된다. 이는 망상장애(특히 에로토맨형)의 특징이며, 조현성·조현형·조현양상 성격장애는 광범위한 사고·행동 이상을 포함한다.
+6개월간 지속되는 색정형 망상이 있으나 그 외의 정신병 증상이나 전반적 기능 붕괴가 제시되지 않아 망상장애가 가장 적절하다. 조현병형 장애는 성격장애가 아니라 기간이 제한된 정신병적 장애이다. 조현성·조현형 성격장애는 각각 다른 장기적 특성의 패턴이므로 모두 같은 광범위한 사고·행동 이상으로 묶어 설명하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008615
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 망상장애 원정답 유지. 조현병형 장애를 성격장애로 잘못 분류한 비교 해설 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

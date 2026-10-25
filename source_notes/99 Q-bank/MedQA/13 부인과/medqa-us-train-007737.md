@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 펀치 생검 후 결과에 따른 치료
 
 ## 해설
 
+이 환자는 HSIL 세포검사이고 반흔 때문에 병변 경계와 자궁경관 내 확장을 볼 수 없다. 침윤 여부와 병변 범위를 평가할 진단적 절제가 필요하며 보기 중 냉칼 원추절제(C)가 적절하다. 경계가 보이지 않는 병변의 냉동·레이저 소작은 피한다. 불충분 시야만 있으면 모든 환자에게 같은 처치를 한다는 뜻은 아니다.
 
-자궁경부 병변이 콜포스코프에서 시야가 제한되고 조직 검사가 어려운 경우, 병변을 완전하게 절제할 수 있는 냉칼 원추절제술이 표준 치료이다. 따라서 가장 적절한 처치는 냉칼 원추절제술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HSIL/HPV 양성에 병변 상단·변환대가 불완전 관찰되어 진단적 절제 C 유지. 모든 불충분 질확대경에 일괄 냉칼 원추절제를 권한 설명 한정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
 
 ## 출처
 

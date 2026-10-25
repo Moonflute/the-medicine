@@ -17,15 +17,20 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: mechanism
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "당뇨병성 단백뇨와 요당을 단순 여과면적 증가 하나로 설명한 오류 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -43,10 +48,19 @@ D. 간질 위축
 
 ## 해설
 
-
-당뇨병성 신증에서 사구체 내 여과면적이 증가하면 초기 미세알부민뇨와 단백뇨가 나타난다. 이는 사구체 과여과에 의한 병리이다. 따라서 소변의 포도당과 단백질 증가는 사구체 과여과를 설명한다.
+당뇨병의 초기 사구체 과여과·사구체 내압 상승은 장기적인 여과 장벽 손상과 albuminuria에 기여한다. 따라서 선택지 중 A가 의도한 기전이다. 오랜 당뇨와 단백뇨만으로 현재 GFR이 높다고 확정할 수는 없다. 요당은 주로 포도당 재흡수 능력을 넘어선 부하와 관련되며 단백뇨와 같은 기전으로 묶지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000329
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 당뇨병성 단백뇨와 요당을 단순 여과면적 증가 하나로 설명한 오류 교정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

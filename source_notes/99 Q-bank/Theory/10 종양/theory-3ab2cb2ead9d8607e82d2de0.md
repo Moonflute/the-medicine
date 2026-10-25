@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k
+curation_status: "retained"
+curation_reason: "Tamoxifen의 조직별 SERM 작용은 치료와 자궁 부작용을 이해하는 핵심."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Tamoxifen은 선택적 에스트로겐 수용체 조절제로, 유방 조직에�
 
 - 내부 학습 노트: Tamoxifen
 - 원본 경로: `source_notes/04 Pharmacology/10 종양/Tamoxifen.md`
-- 학습 목표: 원문 핵심: - 에스트로겐 수용체에 결합하여 유방 조직에서는 에스트로겐 길항제로 작용하고, 자궁 등 다른 조직에서는 부분적 효능제로 작용하는 선택적 에스트로겐 수용체 조절제(SERM)입니다.
+- 학습 목표: Tamoxifen: 유방에서는 길항제, 자궁 등에서는 부분 효능제로 작용한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

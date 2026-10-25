@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 백혈구 2,400/mm³, 호중구 비율 <20%, 점도 낮음
 
 ## 해설
 
+발열·심한 통증·열감·종창은 감염성 관절염을 의심하게 한다. 선지 중 높은 활액 백혈구와 호중구 우세, 낮은 점도를 보이는 B가 가장 적절하다. 점도 저하는 염증에 따른 hyaluronan의 분해·희석과 관련된다. 50,000/mm³ 미만이라고 감염을 배제하거나 그 이상이라고 단독 확진하지 않으며 그람염색·배양 등과 함께 판단한다.
 
-세균성 관절염에서는 활액에 백혈구 50,000/mm³ 이상, 호중구 비율 >75%이며 점도가 현저히 낮아진다. 이는 급성 염증과 고농도 고형성 물질을 반영한다. 따라서 예상되는 소견은 선택지 B와 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 발열성 급성 단관절염의 B는 맞으나 점도 저하를 고형물질 농도 증가로 설명하고 5만 기준을 필수처럼 제시한 오류를 수정한다.
 
 ## 출처
 

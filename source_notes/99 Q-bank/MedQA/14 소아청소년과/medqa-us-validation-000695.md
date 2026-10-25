@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 진정과 졸림 증가
 
 ## 해설
 
+생후3주 화농성 결막염에서는 Chlamydia 등을 평가한다. 이에 사용하는 경구 erythromycin 또는 azithromycin은 생후6주 미만에서 비대성 유문협착 위험 증가와 관련되어 비담즙성 분출 구토(B)를 감시해야 한다. 단순 위장관 부작용만을 묻는 것이 아니며, macrolide 선택은 페니실린 알레르기 때문만은 아니다.
 
-페니실린 알레르기가 있는 신생아에게 클라미디아 결막염 치료제로 에리트로마이신을 사용하면 구토와 같은 비담즙성 구토가 흔히 발생한다. 이는 약물의 주요 부작용이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Macrolide의 부작용을 단순 흔한 구토가 아닌 영아 비대성 유문협착으로 명확화.
+- https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm
 
 ## 출처
 

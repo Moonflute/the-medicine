@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 췌장염
 
 ## 해설
 
+비만·두통/이명·시각증상과 정상 뇌영상/CSF성분·개방압상승은 IIH를 지지한다. 아세타졸아미드는 탄산탈수효소를 억제해 근위세뇨관 중탄산 재흡수를 감소시키고 중탄산뇨·소변알칼리화를 일으켜 결석 위험(A)을 높일 수 있다. H+배설 증가가 핵심인 약물이 아니며 혈중 중탄산 감소/대사산증과도 연관된다. 사진이 없어도 제공된검사로 약물/부작용을 판단 가능하다.
 
-특발성 두개내 고압증은 뇌척수액 압력 상승이 특징이며, 치료제로 아세타졸아미드(acetazolamide)를 사용한다. 이 약물은 탄산탈수효소 억제로 체액 내 중탄산염을 감소시켜 신장에 대한 H⁺ 배설을 증가시켜 신장결석을 유발한다. 따라서 부작용은 신장 결석이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. acetazolamide가 H+배설을 증가시켜 결석이라는 반대기전 정정. 신장결석 A 유지.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=240ab24b-3124-4805-80c2-36dd1945e3b3
 
 ## 출처
 

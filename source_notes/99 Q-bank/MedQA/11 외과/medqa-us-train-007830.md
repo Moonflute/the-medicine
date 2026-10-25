@@ -19,11 +19,13 @@ question_type: ethics
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. “수술 중 실수가 있었고 환자에게 해를 끼쳤을 수 있습니
 ## 해설
 
 
-반회후두신경 손상은 수술 중 실수이며, 의료 오류는 정직하게 환자에게 알려야 한다. 따라서 정답은 D이다.
+외과의가 수술 중 신경 손상을 의심한다면 알려진 사실과 불확실성, 가능한 위해를 정직하게 설명하는 D가 적절하다. 쉰목소리의 원인·성대운동을 평가하고 치료 및 추적계획도 안내한다. 아직 확인되지 않은 영구 손상을 단정하거나 모든 신경 손상이 곧 부주의/과실이라고 일반화하지 않는다. 반대로 합병증이 없었다거나 해가 전혀 없다고 숨겨서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007830 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 모든 반회후두신경 손상을 곧 과실이라고 일반화하지 않고 이 사례의 의심 오류·가능 위해에 대한 정직한 설명 D를 유지했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://code-medical-ethics.ama-assn.org/ethics-opinions/promoting-patient-safety
 
 ## 출처
 

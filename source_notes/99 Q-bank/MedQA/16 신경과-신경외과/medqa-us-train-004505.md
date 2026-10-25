@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,11 @@ D. 경막하혈종
 
 ## 해설
 
+경미한 두부외상 후 일주일 동안 진행하는 두통·혼란과 편측위약은 경막하혈종(D)을 가장 시사한다. 외삼촌의 출혈질환과 단독 aPTT 연장은 선천 응고인자 이상 가능성을 높여 작은 외상 후 출혈 위험을 뒷받침한다. 두피하출혈은 진행성 국소 신경결손을 설명하기 어렵고 경막외혈종보다 지연 경과가 전형적이다. 실제 CT를 확인할 수 없어 고밀도 층·초승달 모양을 관찰된 사실로 추가하지 않는다. 실제 진료에서는 신속한 영상 및 출혈 평가가 필요하다.
 
-두부 외상 후 증상이 지연되고, CT에서 얇은 고밀도 층이 보이며, 신경학적 결손이 진행성인 경우 경막하혈종이 가장 흔한 원인이다. 다른 선택지는 증상 양상과 영상소견에 부합하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 사진에서 얇은 고밀도 층을 보았다는 추가 사실을 삭제했다. 작은 외상 후 지연 진행과 응고장애로 경막하혈종 D를 가장 시사하므로 그림 부재만으로 보류하지 않는다.
 
 ## 출처
 

@@ -19,13 +19,13 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,11 @@ related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+curation_status: "revised"
+curation_reason: "혈소판 감소를 heparin의 바람직한 약효로 설명한 오류를 4Ts 위험 판단으로 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -51,10 +56,20 @@ D. 항응고 중단
 
 ## 해설
 
-
-혈소판 감소와 aPTT 연장은 UFH 치료에 의한 효과이며, 신장 기능 저하 환자에서도 UFH를 지속하는 것이 안전하다.
+Heparin 시작 2일째 혈소판이 230,000에서 170,000으로 30% 미만 감소했고 새 혈전 없이 호전 중이므로 제시된 정보의 HIT 가능성은 낮다. 최근 heparin 노출 등 빠른 발병 위험도 확인하되 저위험 4Ts에서는 heparin을 지속하며 경과를 볼 수 있다. 혈소판 감소 자체가 치료 목표는 아니다. 신기능이 저하된 환자의 UFH 사용은 조절·감시가 필요하며 warfarin으로 즉시 단독 교체하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008257
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 혈소판 감소를 heparin의 바람직한 약효로 설명한 오류를 4Ts 위험 판단으로 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/

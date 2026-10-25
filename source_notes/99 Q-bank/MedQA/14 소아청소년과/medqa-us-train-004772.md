@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. CT 혈관조영술
 
 ## 해설
 
+단순 비함몰 선상 골절만 있고 완전히 회복한 소아는 안전한 보호·추적 조건하에 퇴원할 수 있다. 다만 이 환자는 사고 후 보챔과 두통이 지속되는 급성기이므로 입원 관찰(A)을 선택할 수 있다. 골절이 있다는 이유만으로 모든 환자에게 입원이나 추가 MRI·혈관조영이 필요한 것은 아니다.
 
-선상 골절은 대개 비침습적이며 출혈이나 뇌손상이 없을 경우 입원 없이 관찰이 가능하다. 신경학적 이상이 없고 CT에서 출혈이 보이지 않으므로 입원 관찰이 적절하다. 다른 선택지는 과잉 검사이므로 A가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 입원 불필요와 입원 정답이 충돌하는 해설을 교정. 골절 자체가 아니라 지속 보챔·두통을 관찰 근거로 명시.
+- https://www.nice.org.uk/guidance/ng232/chapter/Recommendations
 
 ## 출처
 

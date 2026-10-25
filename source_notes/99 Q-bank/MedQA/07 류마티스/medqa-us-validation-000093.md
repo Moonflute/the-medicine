@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 마르팡 증후군
 ## 해설
 
 
-마르팡 증후군은 안구결막의 상측 초상 탈구와 긴 팔다리, 피부 점막의 갈색 모반을 특징으로 한다. 따라서 제시된 소견은 마르팡 증후군에 가장 부합한다.
+키가 크고 마른 체형, arachnodactyly와 수정체의 상측·측두측 아탈구는 Marfan syndrome D를 가장 지지한다. 탈구된 구조는 결막이 아니라 수정체이다. 얼굴의 갈색모반 자체는 Marfan의 특징적 진단소견이 아니므로 이 소견으로 진단을 정당화하지 않는다. 실제 진단은 대동맥·안과·전신 기준과 가족/유전 정보를 종합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000093 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수정체 아탈구를 결막탈구로 부르고 갈색모반을 Marfan 핵심징후라 한 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

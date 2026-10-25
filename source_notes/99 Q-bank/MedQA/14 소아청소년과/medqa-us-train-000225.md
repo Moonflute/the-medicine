@@ -16,13 +16,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,8 +42,13 @@ D. 사회성 발달(Social skills)
 
 ## 해설
 
+한 손을 잡고 걷기, 집게잡기, 손 흔들기와 간단한 말은 제시된 나이에서 다른 영역의 뚜렷한 지연을 지지하지 않는다. 반면 12개월에 키 60cm는 특히 작은 선형 성장 소견이고 체중 증가도 함께 평가해야 하므로 B의 성장이 지연된 영역이다. 12개월에 대소변 가리기가 보통 완성된다는 기존 설명은 틀리다. 단일 평균 체중과의 비교만으로 판단하지 않고 성장곡선과 측정 정확도를 확인한다.
 
-12개월 영아는 정상적으로 체중과 키가 증가하고, 대소변 조절, 보행, 물건 잡기 등 대운동·미세운동이 발달한다. 그러나 이 아이는 12개월에 7.9 kg으로 기대 체중(≈9–10 kg)보다 현저히 낮아 성장 지연을 보인다. 따라서 성장 지연이 가장 지연된 영역이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 12개월에대소변가리기가정상발달이라는오류삭제. 특히키60cm의심한선형성장저하로B.
+
 
 ## 출처
 

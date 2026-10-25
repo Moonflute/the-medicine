@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 국소 코르티코스테로이드
 ## 해설
 
 
-항암 치료 중인 환자에게 구강 칸디다증이 나타나면 국소 항진균제(니스타틴) 치료가 1차 선택이다. 따라서 가장 적절한 처치는 국소 니스타틴이다.
+긁으면 제거되며 출혈하는 백색 플라크는 구강칸디다증에 합당하고, 선택지 중 국소 nystatin B는 경한 구강 국한 질환에서 사용할 수 있다. 모든 항암 환자의 칸디다증에 국소제만 충분하다는 뜻은 아니며 심한 통증/광범위 질환·섭취 장애 또는 식도 침범이 있으면 전신 fluconazole 등으로 평가·치료한다. 비전형/불응 병변은 재평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006259 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 국소 구강칸디다의 nystatin B 유지; 항암 환자 모두에 국소제가 보편 일차라는 과장 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/candidiasis/
 
 ## 출처
 

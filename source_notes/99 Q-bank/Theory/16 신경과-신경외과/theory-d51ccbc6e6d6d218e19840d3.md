@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3stIjsooUgKFNjaHdhbm5vbWEpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "모든 신경초종의 증상을 전정신경초종에 일반화하지 않도록 범위 명시."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-신경초종(Schwannoma)의 전형적인 증상은?
+전정신경초종을 의심하게 하는 대표적인 청각·평형 증상은?
 
 ## 선택지
 
-A. 청력 저하·이명·균형 상실(전정신경초종)
-B. 두통·구토·시야장애
-C. 발열·오한·근육통
-D. 복통·설사·체중 감소
+A. 서서히 진행하는 편측 또는 비대칭 감각신경성 난청과 이명
+B. 항상 양측 전음성 난청만
+C. 외이도의 통증성 수포가 필수
+D. 코막힘과 후각 저하만
 
 ## 해설
 
-전정신경초종에서는 청력 저하, 이명, 균형 상실 등이 흔히 나타나며, 종양 부위에 따라 감각 이상이나 통증도 동반될 수 있다.
+이명·불균형이 동반될 수 있다. 비대칭 청력 저하에서는 다른 원인과 함께 후미로성 병변을 평가한다. 다른 부위 신경초종의 증상은 발생 신경에 따라 다르다.
 
 ## 오답 포인트
 
-- **B. 두통·구토·시야장애:** 두통·구토·시야장애는 주로 뇌압 상승이나 뇌혈관 질환에서 나타난다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 신경초종 (Schwannoma)
 - 원본 경로: `source_notes/02 Diseases/16 신경과-신경외과/신경초종 (Schwannoma).md`
-- 학습 목표: 원문 핵심: * **CC**: 청력 저하, 이명, 균형 상실(전정신경초종 시), 통증, 감각 이상, 종괴 촉지 등 * **P/E**: 종양 부위 압통, 신경 압박에 따른 국소 신경학적 결손(예: 삼차신경 분포 영역의 감각 저하, 안면 마비 등)
+- 학습 목표: 전정신경초종의 비대칭 감각신경성 난청

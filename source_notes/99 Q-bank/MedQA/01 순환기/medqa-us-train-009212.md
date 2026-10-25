@@ -19,11 +19,11 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 암로디핀
 
 ## 해설
 
+기좌호흡과 분홍색 가래 등은 심부전을 시사하며, 수축기 기능저하 심부전에서 ACE억제제인 에날라프릴(A)은 장기 예후 개선 약물이다. 그러나 현재 혈압 85/50 mmHg, 서맥과 의식소실은 먼저 안정화하고 원인을 평가해야 한다. 이 상태에서 바로 투여하라는 뜻은 아니며, EF와 신기능·칼륨·혈역학적 안정성을 확인한 뒤 적절한 기본치료를 구성한다.
 
-심부전 환자에서 ACE 억제제는 사망률과 입원율을 감소시키는 근거가 확립된 치료이다. 환자는 저혈압과 서맥을 보이지만, 장기 예후 개선을 위해 에날라프릴과 같은 ACE 억제제가 가장 적절하다. 따라서 예후를 개선할 약물은 에날라프릴이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 장기 예후 문항의 에날라프릴 A를 저혈압·의식소실 상태에서 즉시 시작하도록 오용하지 않음.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

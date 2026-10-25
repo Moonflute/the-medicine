@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -39,12 +41,17 @@ explanation_prompt_version: explanation-ko-v1
 A. 구개열
 B. 내안각 주름
 C. 소안구증
-D. 돌출된 후두
+D. 돌출된 후두골
 
 ## 해설
 
+태아 성장제한, 겹치는 손가락을 동반한 주먹 쥔 손, 흔들의자발과 심실중격결손은 에드워드 증후군(18번 삼염색체증)에 부합한다. 추가로 돌출된 후두골(D)이 특징적이다. 여기서 후두는 목의 후두(larynx)가 아니라 뒤통수(occiput)이며, 기존의 ‘저출산’은 성장제한·저체중과 혼동한 표현이다.
 
-에드워드 증후군(18번 삼염색체증)은 두개골 돌출, 손가락 겹침, 중간 크기 VSD, 저출산 등 특징을 보이며, 후두 돌출(돌출된 후두)도 흔히 관찰된다. 다른 선택지는 이 증후군의 전형적인 안면·구강 기형과 맞지 않는다. 따라서 가장 높은 가능성은 돌출된 후두이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 에드워드증후군후두돌출D유지. 저출산오류를성장제한/저체중으로교정하고후두골로해부위치명확화.
+
 
 ## 출처
 

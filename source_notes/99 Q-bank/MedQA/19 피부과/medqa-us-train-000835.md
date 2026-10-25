@@ -16,13 +16,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,8 +42,13 @@ D. 매일 저녁 취침 전에 국소 레티노이드를 도포할 것
 
 ## 해설
 
+Isotretinoin은 중대한 태아 위해 위험이 있어 임신 가능 환자는 치료 시작 전 두 번의 음성 임신검사(C)를 확인해야 한다. 미국 iPLEDGE에서 치료 전 검사는 의료환경에서 시행하며, 치료 중·후 검사 장소 완화와 혼동하지 않는다. 검사 기록만으로 충분한 것은 아니며 임신 회피·피임 또는 지속적 금욕과 정기 모니터링을 함께 상담한다.
 
-이소트레티노인 복용 전에는 임신을 배제해야 하며, 두 차례 음성 임신 검사가 필요하다. 이는 태아 기형 위험을 방지한다. 따라서 가장 중요한 상담 단계는 두 번의 음성 임신 검사 결과를 문서화하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원정답 C의 치료 전 2회 임신검사 요건은 유지하고 2026 FDA 변경에도 유지되는 의료환경 검사·임신예방 상담을 명확히 한다.
+- 공식/학회 근거: https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/ipledge-risk-evaluation-and-mitigation-strategy-rems
+- 공식/학회 근거: https://www.medlineplus.gov/druginfo/meds/a681043.html
 
 ## 출처
 

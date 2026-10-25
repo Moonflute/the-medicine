@@ -21,11 +21,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QcmVnYWJhbGluLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,13 @@ D. 프레가발린
 
 ## 해설
 
+원위부 대칭 감각소실·발목반사 소실과 작열통은 당뇨병성 다발신경병증을 시사한다. Pregabalin(D)은 전압개폐성 칼슘통로의 α2δ 소단위에 결합하여 신경병증성 통증을 줄인다. GABA 수용체 직접 작용제가 아니다. Oxycodone 같은 opioid를 일상적인 일차 치료로 사용하지 않는다. 발 궤양은 통증 약물과 별도로 압력 제거, 혈류·감염 평가 및 적절한 상처관리가 필요하다.
 
-당뇨병성 말초신경병증에 의한 신경병증성 통증은 주로 감각 저하와 함께 나타나며, 프레가발린은 신경성 통증 완화에 효과적인 가바-리간제이다. 따라서 이 환자의 통증 치료에 프레가발린이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 통증성 당뇨병 신경병증의 pregabalin D 확인. GABA 리간드라는 불명확한 약리 설명을 α2δ 결합으로 교정.
+- 공식/학회 근거: https://www.neurology.org/doi/10.1212/WNL.0000000000013038
+- 공식/학회 근거: https://diabetesjournals.org/compendia/article/2022/1/1/147001/Diagnosis-and-Treatment-of-Painful-Diabetic
 
 ## 출처
 

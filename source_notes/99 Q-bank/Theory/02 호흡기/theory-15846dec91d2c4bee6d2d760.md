@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-2PkCDtjrjtj4nsg4HtlLzslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: B
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "자주 동반한다는 빈도 과장 없이 중요한 부종양 연관을 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-폐 편평상피암에서 흔히 나타나는 부종양 증후군은?
+폐 편평상피암과 대표적으로 연관되는 PTHrP 매개 부종양 증후군은?
 
 ## 선택지
 
-A. SIADH
-B. 고칼슘혈증
-C. 저칼륨혈증
-D. 갑상선 기능저하증
+A. 고칼슘혈증
+B. SIADH
+C. 갑상선기능저하증
+D. 저인산혈증 없는 단독 고마그네슘혈증
 
 ## 해설
 
-편평상피암은 PTHrP 분비로 고칼슘혈증을 자주 동반한다.
+PTHrP는 고칼슘혈증을 일으킬 수 있다. 편평상피암과의 대표 연관이며 모든 환자에게 생기는 것은 아니다. 소세포암의 SIADH와 구분한다.
 
 ## 오답 포인트
 
-- **A. SIADH:** SIADH는 주로 소세포암에서 발생한다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 폐 편평상피암 (Squamous Cell Carcinoma)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/폐 편평상피암 (Squamous Cell Carcinoma).md`
-- 학습 목표: 원문 핵심: - 흉부 X-ray 및 CT를 통해 중심부 종괴 확인. 객담 세포진 검사나 기관지 내시경을 통한 조직 검사가 진단에 필수적임.
+- 학습 목표: 폐 편평상피암의 PTHrP 매개 고칼슘혈증

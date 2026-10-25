@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. Giardia lamblia
 ## 해설
 
 
-혈성 설사와 혈소판 감소, 용혈성 빈혈, 신장 기능 악화는 용혈성 요독 증후군(HUS)을 일으키는 전증상인 장출혈성 대장균(Shiga toxin‑producing E. coli) 감염과 일치한다. 따라서 원인균은 Escherichia coli이다.
+덜 익힌 소고기 등 노출 뒤 혈성 설사와 용혈성 빈혈·혈소판감소는 Shiga toxin 생성 E. coli C 및 HUS 발생 가능성을 시사한다. 다만 creatinine1.1mg/dL 단일값만으로 명백한 신기능 악화를 확정할 수는 없다. 원문 BUN39·K5.9·HCO₃19도 있어 체액·전해질·신기능 추적이 필요하며 전형적 신장 삼징이 모두 이미 확정되었다고 쓰지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004908 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: STEC 관련 미세혈관성 용혈·혈소판감소 C 유지;Cr1.1만으로 확정 AKI를 만들어낸 설명 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

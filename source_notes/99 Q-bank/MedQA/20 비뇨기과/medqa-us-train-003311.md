@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 수술
 
 ## 해설
 
+절박감을 동반한 소변 누출과 물소리 등의 유발요인, 감염 없는 요검사는 절박성 요실금/과민성 방광에 부합한다. 방광훈련(B)은 권장되는 비침습적 초기 선택이다. 현행 접근은 환자의 불편·목표·선호에 따른 공동결정을 중시하며, 모든 약물이나 신경자극 치료를 정해진 단계 실패 후에만 사용할 수 있는 것은 아니다.
 
-과민성 방광은 행동 요법인 방광 훈련이 1차 치료이며, 약물보다 먼저 시행한다. 다른 선택지는 2차·3차 치료에 해당한다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 방광훈련 B 유지. 약물/신경자극을 반드시 순차적 2·3차로만 적용한다는 고정 단계 해설을 현행 공동결정 원칙으로 수정.
+- 공식/학회 근거: https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/OAB%202024%20Unabridgedv2.pdf
 
 ## 출처
 

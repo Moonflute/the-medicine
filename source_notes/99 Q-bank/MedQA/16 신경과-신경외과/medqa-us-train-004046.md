@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,11 @@ D. 흡연
 
 ## 해설
 
+중증 경동맥 협착을 교정한 직후 심한 두통·혼란·국소 신경결손이 생기고 혈압이 180/110 mmHg이면 뇌 과관류 증후군과 출혈성 합병증을 우선 의심한다. 만성 고혈압(C)은 자가조절 장애 및 이러한 수술후 합병증의 중요한 소인이며 주어진 선지 중 가장 적절하다. 다만 실제 CT를 확인할 수 없어 출혈이 관찰되었다고 단정하지 않는다. 급성 색전성 허혈 등 다른 수술후 신경학적 원인도 실제 영상으로 평가해야 한다.
 
-경동맥 내막절제술 후 고혈압은 뇌 과관류 증후군(고혈압성 뇌출혈)의 가장 강한 위험인자이며, 환자는 수술 후 고혈압이 심해져 증상이 나타났다. 따라서 고혈압이 주요 소인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CEA 직후 두통·고혈압·국소결손은 과관류 합병증을 시사하여 위험인자 C를 유지하되 보이지 않는 CT에서 출혈을 확인한 것처럼 쓰지 않는다.
 
 ## 출처
 

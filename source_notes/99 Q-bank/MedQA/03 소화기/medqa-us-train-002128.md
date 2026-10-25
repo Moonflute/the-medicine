@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 혈중 알코올 농도 검사
 
 ## 해설
 
+특징적 복통과 정상상한의 3배가 넘는 lipase로 급성 췌장염을 진단할 수 있다. 다음 검사인 우상복부 초음파 B는 담낭 담석·담도 확장 등 담석성 원인을 평가한다. 초음파가 췌장 괴사나 모든 합병증에 가장 민감하다는 기존 설명은 잘못이다. 진단이 불명확하거나 호전되지 않는 경우 등에는 CT를 고려한다.
 
-급성 췌장염이 의심되는 경우, 진단을 확정하고 합병증을 평가하기 위해 우상복부 초음파가 가장 빠르고 민감한 초기 영상검사이다. 따라서 우상복부 초음파가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 초음파 B의 목적은 이미 임상·lipase로 진단된 췌장염의 담석 원인 확인이지 합병증에 가장 민감한 검사가 아님.
+- https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf
 
 ## 출처
 

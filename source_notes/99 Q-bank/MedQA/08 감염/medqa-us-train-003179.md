@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 단순포진바이러스
 ## 해설
 
 
-양측 측두엽 고신호와 CSF 림프구 우세, 단백질 상승은 단순포진 바이러스(HSV‑1) 뇌염의 특징이다. 다른 바이러스는 이러한 영상·뇌척수액 양상을 보이지 않는다. 따라서 정답은 D이다.
+급성 행동·의식 변화와 비대칭 양측 측두엽 고신호는 HSV 뇌염에 전형적이어서 D가 가장 가능하다. 림프구 우세와 단백 상승은 바이러스성 뇌염을 뒷받침하지만 HSV만의 전유 소견은 아니며 다른 원인도 감별한다. 캠핑 노출만으로 곤충매개 바이러스를 선택하기보다 병변의 측두엽 분포를 함께 해석한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003179 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 측두엽 우세 뇌염의 HSV D 유지하되 다른 바이러스는 CSF/영상 양상을 보일 수 없다는 절대적 배제 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

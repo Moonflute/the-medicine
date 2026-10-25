@@ -26,13 +26,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 항인지질 항체
 
 ## 해설
 
+정답은 B이다. 심한 단백뇨·지방원주·부종은 신증후군을 시사하며 소변으로 antithrombin 등 항응고 단백이 소실되어 과응고 상태가 될 수 있다. 신정맥 충만 결손과 옆구리 통증·혈뇨는 신정맥 혈전증에 합당하다. 간질환도 응고 균형에 영향을 주지만 이 문항은 신증후군의 항응고 단백 소실을 묻는다.
 
-우측 신장 정맥에 혈전이 존재하는데, 이는 항트롬빈 III 결핍으로 인한 고전증을 가장 흔히 일으킨다. 항트롬빈 III는 자연 항응고 인자로, 결핍 시 정맥 혈전 위험이 증가한다. 따라서 가장 가능성 높은 원인은 항트롬빈 III 소실이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 신증후군에서 antithrombin의 요중 소실을 명확히 연결하고 고전증 오기를 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

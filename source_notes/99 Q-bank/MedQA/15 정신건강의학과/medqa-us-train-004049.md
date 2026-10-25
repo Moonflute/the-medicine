@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 부프로피온 치료
 
 ## 해설
 
-
-산후 10일 차에 지속적인 울음, 불안, 피로, 과잉보호 행동은 산후우울증보다 경미한 산후기분변화이며, 대부분 2주 이내에 호전된다. 주요 관리 원칙은 환자와 배우자를 안심시키고 정상적인 회복 과정을 설명하는 것이다. 따라서 가장 적절한 다음 관리는 ‘안심시키기’이다.
+출산 직후 시작된 눈물·불안·감정 변화가 산후 10일째이고 명백한 망상·조증이나 자타해 사고가 제시되지 않아 원문은 산후우울감에 대한 안심과 지지를 선택한다. 수면·돌봄 지원과 가까운 추적을 함께 제공한다. 다만 2주 이내라는 이유만으로 심한 기능저하나 정신병을 배제하지 않는다. 실제로 아기 울음소리 경험이 확실한 환청인지 확인해야 하고, 양극성 장애 가족력도 있어 망상·환각·조증·혼돈·안전 우려가 드러나면 즉시 응급 평가해야 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004049
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 산후우울감 원정답 유지. 2주 이내면 무조건 안심만 한다는 인상 대신 기능·안전·정신병 경고소견 재평가 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.acog.org/programs/perinatal-mental-health/summary-of-perinatal-mental-health-conditions

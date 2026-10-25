@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 방광질 누공
 
 ## 해설
 
+운동·기침·웃음과 Valsalva 때 누출되는 양상은 복압성 요실금이다. 골반저와 요도 지지조직이 약해져 방광경부·요도가 과도하게 움직이고 복압 상승 때 폐쇄 기능이 유지되지 않는 C, 요도 과운동성이 가장 적절하다. 이는 요도의 과수축이나 방광 출구 저항 증가를 뜻하지 않는다. Lithium 관련 다뇨라면 소변량·비중 등의 맥락이 달라진다.
 
-운동, 기침, 웃음 시에 발생하는 요실금은 복압성 요실금이며, 요도 과운동(요도 과수축)으로 인한 방광 배출 저항이 원인일 수 있다. 환자는 배뇨통이나 감염 증상이 없으며, 요검사도 정상이다. 따라서 가장 가능성 높은 원인은 요도 과운동성이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 요도 과운동성을 과수축/배출저항으로 설명한 오류를 지지조직 약화 및 복압 전달 실패로 교정.
 
 ## 출처
 

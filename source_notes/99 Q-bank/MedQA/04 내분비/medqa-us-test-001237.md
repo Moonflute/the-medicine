@@ -22,16 +22,18 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 신경섬유종증
 
 ## 해설
 
+정답은 B이다. MEN2A의 대표 구성은 갑상샘 수질암, 갈색세포종, 원발성 부갑상샘기능항진증이다. calcitonin 증가·갑상샘 종대, catecholamine/metanephrine 증가·발작성 증상 및 PTH 증가·고칼슘혈증이 각각 이에 대응한다. 비소세포폐암을 MEN2A의 고전적 구성에 넣지 않는다.
 
-다발성 내분비 종양 2A형은 갑상선 수질암, 부갑상선 기능항진증, 비소세포 폐암을 포함하며, 고칼슘혈증·고카테콜라민·고혈당이 동반된다. 따라서 MEN 2A가 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: MEN2A의 비소세포폐암 혼입을 갈색세포종으로 교정.
+- https://www.cancer.gov/publications/pdq/information-summaries/genetics/men2-hp-pdq
 
 ## 출처
 

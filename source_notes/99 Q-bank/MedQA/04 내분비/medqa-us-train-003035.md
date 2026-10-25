@@ -21,16 +21,18 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 경구 프레드니손
 
 ## 해설
 
+야간 정중신경 영역 저림은 손목터널증후군에 맞고, 피로·변비·서맥·반사 감소·부종은 갑상샘기능저하증 가능성을 시사한다. 선택지 중 A의 levothyroxine은 기저 갑상샘저하가 확인될 경우 도움이 된다. BMI35 환자는 저체중이 아니며 증상만으로 확진하여 무조건 호르몬을 시작하지 않고 TSH/유리T4를 확인해야 한다. 무지구 위축이 없는 경한 손목터널증후군을 즉시 수술로만 치료하지 않는다.
 
-손목 저림과 감각 감소는 손목터널증후군을 의미하지만, 전신 피로와 저심박동, 저체중은 갑상선 저하를 시사한다. 갑상선 기능 저하가 신경 압박을 악화시킬 수 있으므로 먼저 갑상선 호르몬 보충이 필요하다. 따라서 L-티록신 투여가 가장 도움이 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: BMI35 환자를 저체중으로 설명한 오류. 증상상 갑상샘저하 의심과 확인 후 levothyroxine A의 취지를 구분.
+- https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism
 
 ## 출처
 

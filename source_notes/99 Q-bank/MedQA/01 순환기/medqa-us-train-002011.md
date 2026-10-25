@@ -19,17 +19,19 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,16 @@ D. Amiodarone
 
 ## 해설
 
+운동 중 실신과 젊은 나이의 급사 가족력에 QTc 470 ms가 동반되어 선천성 긴 QT 증후군을 강하게 의심한다. QTc 수치 하나만으로 모든 환자를 확진하는 것이 아니라 이 임상 맥락을 함께 평가한다. 보기 중 A, 프로프라놀롤이 적절한 초기 약물치료다.
 
-QTc 470 ms는 선천성 장QT 증후군을 의미하며, 운동 중 실신은 위험한 토르사데스 발작을 암시한다. 1차 예방은 베타 차단제(프로프라놀롤) 투여로 심실성 부정맥을 억제한다. 따라서 다음 단계는 프로프라놀롤이다.
+비선택적 베타차단제인 프로프라놀롤이나 나돌롤이 선호되며 QT 연장 약제와 유발요인을 피한다. 현재 토르사드가 진행 중이라는 소견은 없으므로 급성 토르사드 치료용 마그네슘을 예방적 첫 치료로 선택하지 않는다. ICD는 위험도와 약물치료 중 사건 등 별도 적응증으로 판단한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. QTc 470 단독으로 확진한다고 한 설명을 운동실신·급사가족력과 종합하는 설명으로 수정하고 베타차단제 선택 유지.
+- https://academic.oup.com/eurheartj/article/43/40/3997/6675633
 
 ## 출처
 

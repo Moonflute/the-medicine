@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 항생제 투여
 
 ## 해설
 
+외자궁경부구의 작고 노란 무증상 낭종은 나보트낭종(Nabothian cyst), 즉 자궁경부 점액저류낭종에 합당하다. 전형적이면 A처럼 치료 없이 관찰한다. 바르톨린낭종은 질입구 뒤가쪽의 다른 구조이다. 비전형적 성장·출혈·진단 불확실성은 재평가한다.
 
-자궁경부에 발견된 작고 단단한 무통성 낭성 종괴는 나보트(Bartholin) 낭종이 아니라 자궁경부 낭종이며, 대부분 양성이고 증상이 없으므로 추가 처치는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 나보트와 바르톨린을 동일시한 용어 오류 수정.
+
 
 ## 출처
 

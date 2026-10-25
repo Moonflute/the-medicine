@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 이차성 난소기능부전
 
 ## 해설
 
+40세 미만에서 장기간 무월경/월경불순, 높은 FSH와 낮은 에스트라디올은 일차성 난소기능부전(C)을 지지한다. 현재 다학회 지침은 4개월 이상 월경 이상과 FSH >25 IU/L를 핵심으로 하며 불확실하면 재검한다. 이 사례의 FSH 56과 반복된 저에스트로겐 소견은 이에 부합한다. FSH/에스트라디올 비율은 별도 진단 기준이 아니며 비수술성 POI에서는 간헐적 난소 활동이 가능해 모든 난자가 영구 소진됐다고 단정하지 않는다.
 
-FSH 상승·에스트라디올 저하, 고 FSH/에스트라디올 비율은 일차성 난소기능부전을 나타낸다. 이는 조기 난소 고갈을 의미한다. 다른 선택지는 호르몬 패턴과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: FSH/에스트라디올 비율을 진단 기준으로 쓰고 POI를 완전한 영구 난소 고갈로 단정한 설명을 현행 다학회 지침에 맞춰 교정했다.
+- https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-guideline-premature-ovarian-insufficiency--2024/
 
 ## 출처
 

@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -53,6 +55,13 @@ D. 경구 메토트렉세이트
 
 
 급성 단관절염(통풍)과 감염성 관절염을 구분하기 위해 관절천자를 시행해 결정적 결정을 내려야 한다. 급성 통증, 발적, 부종이 있으나 발열과 전신증상도 있어 감염 가능성을 배제해야 하므로 관절천자가 가장 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007536 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 발열 동반 급성 단관절염에서 통풍 위험요인만으로 치료하지 않고 관절천자 B로 감염·결정 평가하는 선택이 적절함을 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 파르보바이러스 백신
 ## 해설
 
 
-겸상적혈구병 어린이에게는 5세까지 페니실린 예방투여가 폐렴구균 감염을 예방한다. 따라서 정답은 B이다.
+어린 SCD 환자는 기능적 무비장에 따른 폐렴구균 감염 예방을 위해 penicillin(B)을 투여한다. 5세 이후 중단 여부는 접종 완료와 침습성 폐렴구균 감염·비장절제 등 위험인자를 확인해 결정한다. 원문의 백혈구 11/mm³는 단위 또는 자릿수 오류 가능성이 있으나 11,000으로 임의 확정하지 않는다. 예방접종과 발열 시 즉시 평가도 중요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009273 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HbS·HbF 증가/HbA 부재의 SCD에서 5세까지 penicillin B 유지하되 5세 무조건 중단하지 않음. 원문의 백혈구 11/mm3 단위/자릿수 오류를 정상값으로 임의 보정하지 않고 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nhlbi.nih.gov/health/sickle-cell-disease/treatment
 
 ## 출처
 

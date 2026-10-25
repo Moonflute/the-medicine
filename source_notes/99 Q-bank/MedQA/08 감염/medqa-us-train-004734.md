@@ -19,13 +19,17 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: A
+original_answer: D
+answer_change_reason: "MRSA 위험인자 없는 입원 CAP에서 ATS/IDSA 권고 β-lactam+macrolide에 해당하는 A가 적절. 원정답D는 비정형균을 빠뜨리고 근거없는vancomycin을 선택한 오류."
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -52,7 +56,14 @@ D. 정맥 반코마이신과 세프트리악손
 ## 해설
 
 
-남아프리카 여행 후 발열·저혈압·저산소증을 동반한 중증 폐렴은 패혈성 쇼크 위험이 높으며, 광범위 항생제 치료가 필요하다. 반코마이신은 MRSA와 같은 그람양성균을, 세프트리악손은 그람음성균을 커버한다. 따라서 정맥 반코마이신과 세프트리악손이 적절한 관리 단계이다.
+저혈압·저산소증·빈호흡을 동반한 지역사회획득폐렴으로 신속한 입원 항균치료와 지지가 필요하다. 제시된 자료에는 과거 호흡기 MRSA 분리나 최근 입원 정주 항생제 등 검증된 MRSA 위험인자가 없다. 선택지 A ceftriaxone+azithromycin은 전형/비정형 병원체를 포함하는 권고 입원 CAP 요법이다. D vancomycin+ceftriaxone은 비정형 범위가 빠지고 여행·중증도만으로 MRSA 범위를 일률 추가할 근거가 되지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004734 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MRSA 위험인자 없는 지역사회획득폐렴에서 원정답 D는 비정형균 범위가 빠지고 vancomycin 근거도 없다. 현행 입원 CAP 요법 A로 변경.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults
 
 ## 출처
 

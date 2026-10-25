@@ -24,12 +24,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 편평세포암
 
 
 연하곤란이 고형식에서 액체까지 진행하고, 밤에 악화되는 기침·작열성 흉통·체중 감소가 동반된 하부 식도 종괴는 식도 선암의 전형적인 증상이다. 선암은 진행성 연하곤란과 역류성 증상을 일으키며, 흉통과 체중 감소는 악성 종양을 시사한다. 따라서 가장 가능성 높은 진단은 선암이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 역류·비만 배경의 진행연하곤란/체중감소와 하부식도종괴는 선암 A에 가장 부합.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

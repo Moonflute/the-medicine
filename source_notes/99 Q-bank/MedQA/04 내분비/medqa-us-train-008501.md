@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 고삼투압성 고혈당 상태
 ## 해설
 
 
-환자는 저혈당 증상(의식 저하, 발한, 떨림)과 저혈압을 보이며 혈당이 낮을 가능성이 크다. 저혈당은 당뇨병 치료 중 가장 흔한 급성 합병증이며, 다른 선택지는 증상과 일치하지 않는다. 따라서 가장 가능성 높은 진단은 저혈당이다.
+정답 D. 제2형 당뇨병 환자에서 요로감염 의심 증상 후 쇠약·오심, 빈맥·저혈압과 건조한 점막은 감염에 의해 유발된 고삼투압성 고혈당 상태를 의심하게 한다. 심한 고혈당은 양안 시야 흐림을 동반할 수 있다. 다만 혈당·삼투질농도·케톤/산염기 검사가 제시되지 않아 HHS가 확진된 것은 아니며 저혈당도 즉시 혈당 측정으로 감별한다. 본문에 없는 발한·떨림·의식저하를 저혈당 증거로 덧붙이지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008501 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원정답 D와 다른 저혈당 해설을 사례에 맞춘 HHS 의심 설명으로 교체; 본문에 없는 저혈당 소견·검사값 추가 금지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/11343900/
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,13 @@ D. ANA 및 항dsDNA 항체 농도
 
 
 환자는 구강 궤양, 신장 기능 저하, 혈액학적 이상 등 전신성 홍반성 루푸스(SLE) 소견을 보이며, 진단 확인을 위해 ANA와 항 dsDNA 항체 검사가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-001159`와 직접 대조했다.
+- 판정: 정신증뿐 아니라 구강궤양·심낭마찰음·신기능 저하·빈혈이 있어 SLE 평가 D의 논리가 연결됨. 오연결 플래그는 실제 오연결로 판단하지 않음.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

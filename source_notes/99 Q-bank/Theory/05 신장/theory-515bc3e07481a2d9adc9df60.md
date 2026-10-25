@@ -12,41 +12,56 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA"
 theory_objective_id: disease-05-next_action
 question_type: next_action
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: B
+answer: "B"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "신증후군 부종 치료는 중요한 독립 목표다. 루프 이뇨제 반응 불량이면 무조건 알부민이라는 처방을 체액·이뇨제 평가와 선택적 병용으로 고친다."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 신증후군 부종 치료는 중요한 독립 목표다. 루프 이뇨제 반응 불량이면 무조건 알부민이라는 처방을 체액·이뇨제 평가와 선택적 병용으로 고친다."
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-성인 환자가 신증후군으로 부종이 지속되고 염분 제한 및 루프 이뇨제에도 호전되지 않을 때 다음에 취해야 할 가장 적절한 조치는?
+신증후군의 이뇨제 저항성 부종에 대한 적절한 원칙은?
 
 ## 선택지
 
-A. ACE 억제제 용량을 추가로 증량한다
-B. IV 알부민 투여 후 이뇨제 병용을 시행한다
-C. 고지혈증 치료를 위해 스타틴을 시작한다
-D. 즉시 혈액투석을 시행한다
+A. 혈관 내 용적과 무관하게 모든 환자에게 알부민을 즉시 투여한다
+B. 체액 상태·나트륨 섭취·이뇨제 용량·투여 경로를 재평가하고 저알부민혈증을 동반한 선택 환자에서 IV 알부민 병용을 고려한다
+C. 부종이 남아 있으면 저혈압·신기능 변화와 무관하게 무제한 증량한다
+D. 루프 이뇨제 반응이 적으면 곧바로 모든 환자에서 투석한다
 
 ## 해설
 
-부종이 염분 제한·루프 이뇨제로 호전되지 않을 경우, IV 알부민을 투여해 혈관내 용적을 늘린 뒤 이뇨제를 병용하면 효과적인 부종 조절이 가능합니다.
+염분 제한과 루프 이뇨제가 기본이며 반응 불량에서는 실제 체액 상태·약제 전달·용량·경로를 점검하고 다른 부위 작용 이뇨제 병용 등을 개별화한다. 심한 저알부민혈증과 IV 이뇨제 저항성이 있는 선택 환자에서 알부민 병용을 고려할 수 있지만 보편적 다음 단계는 아니다. 혈압·신기능·전해질과 과도한 용적 감소 또는 울혈을 감시한다.
 
 ## 오답 포인트
 
-- **A. ACE 억제제 용량을 추가로 증량한다:** ACE 억제제는 이미 사용 중이며 부종 조절에 직접적인 효과는 제한적입니다.
-- **C. 고지혈증 치료를 위해 스타틴을 시작한다:** 스타틴은 고지혈증 관리에 필요하지만 부종 해결에는 직접적이지 않습니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 신증후군 (Nephrotic Syndrome)
 - 원본 경로: `source_notes/02 Diseases/05 신장/신증후군 (Nephrotic Syndrome).md`
-- 학습 목표: 원문 핵심: - **원인 질환 치료**: 각 질환별 면역억제제 및 기저질환 조절. - **단백뇨 조절**: ACEi, ARB 사용(혈압 및 사구체 내압 감소). - **부종 조절**: 염분 제한(<2g/일), Loop diuretics 사용. 반응 없을 시 IV 알부민 투여 후 이뇨제 병용 고려. - **합병증 예방**: 고지혈증 치료(statin), 혈전증 예방(항응고제는 혈전 발생 시 우선 고려), 폐렴구균 백신 접종. - **당뇨병성 신장병증**: 혈압 조절(ACEi/ARB), 혈당 조절(SGLT2i, GLP-1RA 등), 필요 시 Fin…
+- 학습 목표: 신증후군 부종 치료와 저항성 부종에서 알부민의 선택적 역할을 안다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 신증후군 부종 치료는 중요한 독립 목표다. 루프 이뇨제 반응 불량이면 무조건 알부민이라는 처방을 체액·이뇨제 평가와 선택적 병용으로 고친다.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://kdigo.org/wp-content/uploads/2017/02/KDIGO-Glomerular-Diseases-Guideline-2021-English.pdf
+- https://kdigo.org/wp-content/uploads/2017/02/KDIGO-Glomerular-Diseases-Guideline_Speakers-Guide_March-2022.pdf

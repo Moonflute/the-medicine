@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,15 @@ D. 뇌척수액 배양 결과가 나올 때까지 치료를 시작하지 않는�
 ## 해설
 
 
-결핵성 수막염 치료에 사용되는 리팜핀·이소니아지드·피라진 등은 간효소 상승을 일으킬 수 있다. 따라서 치료 중 간효소를 정기적으로 모니터링해야 한다. 다른 선택지는 치료 원칙과 맞지 않는다.
+결핵성 수막염 의심에서 배양을 기다려 치료를 지연하지 않는다. Isoniazid·rifampin·pyrazinamide 등 간독성 약물의 baseline/임상 위험에 따른 간기능 추적 B가 필요하다. 약물명은 피라진아미드이며 치료 반응도 임상·신경학적으로 계속 확인해야 하므로 C 자체가 임상적으로 불필요하다는 의미는 아니다. 신경합병증·수두증과 보조 steroid 등은 별도 지침에 따라 관리한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005276 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 항결핵 약물의 간독성 감시 B 유지; 치료 반응 확인 C도 필요없다는 해설 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

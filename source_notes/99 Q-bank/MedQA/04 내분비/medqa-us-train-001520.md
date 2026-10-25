@@ -20,11 +20,11 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 카비도파-레보도파
 
 ## 해설
 
+정답은 C이다. 임신이 배제된 여성의 무월경·유즙분비는 고prolactin혈증을 시사한다. cabergoline은 도파민 작용제로 prolactin 분비를 억제하는 치료 선택지이다. 실제 치료 전 prolactin, 갑상샘기능·약물 등 원인을 확인하고 필요 시 뇌하수체 평가를 시행한다. 저prolactin 농도가 투여 근거라는 뜻이 아니며 본문에 종양이나 측정된 호르몬 수치가 이미 있다는 설명은 하지 않는다.
 
-비정상적인 유두 분비와 저프로락틴 혈중 농도는 프로락틴 분비 종양이 아닌 경우 카베르골린(도파민 작용제)으로 치료한다. 이는 도파민 수용체를 자극해 프로락틴 억제와 월경 회복을 돕는다. 따라서 카베르골린이 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 저prolactin 및 비prolactinoma에 cabergoline이라는 반대 설명 교정.
+- https://www.nature.com/articles/s41574-023-00886-5
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: risk_factor
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 건선 진단
 ## 해설
 
 
-반응성 관절염은 HLA‑B27 양성인 경우 발생 위험이 크게 증가한다. 인종·HIV·건선도 위험 요인이 될 수 있으나, HLA‑B27이 가장 핵심적인 유전적 연관성이다.
+요도염 뒤 비대칭 무릎관절염과 발바닥·음경 병변은 반응성 관절염의 점막피부 소견을 시사한다. 선택지 중 HLA-B27(B)이 중요한 유전적 연관이다. 이 대립유전자는 필수 진단 조건이 아니며 음성 환자에서도 발생할 수 있다. HIV 동반 시 질환 양상이 달라질 수 있지만 건선 진단을 곧 반응성 관절염의 원인이나 필수 위험인자로 보지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002753 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 반응성 관절염의 HLA-B27 연관은 유지하되 건선 자체를 위험인자로 열거한 혼동을 제거했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

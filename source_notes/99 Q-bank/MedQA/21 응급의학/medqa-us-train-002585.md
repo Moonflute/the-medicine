@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 말초 맥박과 모세혈관 충만 모니터링
 
 ## 해설
 
+통증이 적고 건조한 흰 가죽 같은 환상성 전층 화상은 비탄성 가피를 형성한다. 이후 부종이 증가하면 가피가 조임띠처럼 작용하여 원위 관류를 떨어뜨릴 수 있으므로 말초맥박·모세혈관충만·감각·운동 등을 반복 평가하는 D가 적절하다. 이는 한 시간 만에 성숙한 흉터가 생겼다는 뜻이 아니다. 관류 장애가 나타나면 즉시 전문 평가와 가피절개 등을 시행해야 하며, 단순 관찰로 끝내지 않는다. 예방적 전신 암피실린을 일률 투여하지 않는다.
 
-환자는 원형 전층 화상 부위에 흉터가 형성돼 혈관 압박 위험이 있다. 이러한 경우 말초 맥박과 모세혈관 충만을 지속적으로 확인하여 혈류 장애를 조기에 발견한다. 따라서 다음 단계는 말초 맥박·충만 모니터링이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 화상 한 시간 만에 흉터가 형성되었다는 오류를 비탄성 전층 가피와 진행성 부종으로 교정했다. 신경혈관 감시 D를 유지한다.
+- 공식/학회 근거: https://ameriburn.org/wp-content/uploads/2019/08/2018-abls-providermanual.pdf
 
 ## 출처
 

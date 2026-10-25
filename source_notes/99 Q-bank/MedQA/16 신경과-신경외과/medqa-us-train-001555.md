@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,12 @@ D. 반코마이신, 세프트리악손, 암피실린 및 덱사메타손
 
 ## 해설
 
+고열과 급성인지변화는 뇌염을 포함한 중추신경감염을 고려하게 한다. 의심뇌염에서는 HSV검사 결과를 기다리지 않고 IV아시클로버(A)를 시작할 수 있으며 안전하게 가능하면 CSF/PCR 및 MRI 등 원인평가를 병행한다. 본문에서 정상인 영상은 CT이지 MRI가 아니다. 음성목경직/jolt만으로 세균성수막염을 배제할 수 없고 세균성감염도 의심되면 적절한 경험적항균치료를 함께 고려한다.
 
-고열, 혼란, 경련이 없으며 뇌 MRI가 정상인 상황에서 헤르페스뇌염을 가장 먼저 배제하기 위해 아시클로버를 시작한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CT를 MRI로 잘못 바꾼 해설과 음성수막징후로 감염배제하는 인상 수정. empiric acyclovir A의 의미 명시.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/encephalitis
 
 ## 출처
 

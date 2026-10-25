@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 급성 림프모구성 백혈병
 
 
 다운증후군 환자는 급성 림프모구성 백혈병(ALL)의 발병 위험이 현저히 높다. 따라서 관련 신생물은 급성 림프모구성 백혈병이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-001043 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Down증후군과 ALL 위험 증가 D의 연결이 원문·선지·해설과 일치. 실제 선별검사 일정 권고를 검증한 문항 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

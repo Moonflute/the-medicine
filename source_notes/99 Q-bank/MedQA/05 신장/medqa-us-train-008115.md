@@ -17,17 +17,22 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: management
 difficulty: complex
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+curation_status: "revised"
+curation_reason: "생체 신장이식의 우위를 이식 적합성과 공여자 조건을 갖춘 경우로 한정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -45,10 +50,20 @@ D. 복막투석
 
 ## 해설
 
-
-말기 신부전 환자에게는 생존율과 삶의 질이 가장 높은 생체 공여 신장이식이 최선의 치료이다. 따라서 선택은 생체 공여 신장이식이다.
+이식 적합 환자이고 적절한 생체 공여자가 있다면 생체 신장이식은 대기 시간을 줄이고 장기 예후·삶의 질 측면에서 선호되는 신대체요법이다. 모든 말기 신부전 환자에게 즉시 가능한 것은 아니다. 이 환자의 요독 증상·산증·체액 과다는 즉시 평가하고 이식 준비 중 필요하면 투석 등 안정화 치료를 시행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008115
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 생체 신장이식의 우위를 이식 적합성과 공여자 조건을 갖춘 경우로 한정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://doi.org/10.1097/TP.0000000000003136

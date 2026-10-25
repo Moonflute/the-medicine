@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 관찰만 한다
 
 ## 해설
 
+두정골에 국한된 출생 후 부종은 두혈종에 부합하며 안정적인 이 경우 관찰(D)이 적절하다. 황달·빈혈·크기 변화 등을 추적한다. 단순히 크다는 이유로 절개·배농하거나 감압하지 않으며 감염·다른 출혈 등 합병증은 별도 평가한다.
 
-신생아 두혈종은 대부분 자연적으로 흡수되며, 출혈이 작고 증상이 없을 경우 관찰만으로 충분하다. 절개 배농이나 신경외과적 감압은 출혈이 큰 경우에만 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 두혈종이 크면 절개/신경외과 감압을 한다는 부적절한 일반화를 교정.
+- https://www.seslhd.health.nsw.gov.au/sites/default/files/documents/SESLHDPR%20414%20-%20Observation%20of%20the%20neonate%20following%20instrumental%20delivery.pdf
 
 ## 출처
 

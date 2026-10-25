@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 원발성 부갑상선기능항진증
 ## 해설
 
 
-오랜 침상 안정으로 뼈가 재흡수되고 혈청 칼슘이 상승하지만 PTH는 저하된다. 이는 부동성 고칼슘혈증(뼈 재흡수)으로, 부동이 가장 흔한 원인이다. 정답은 부동이다.
+정답 B. 수주간 중환자실 치료와 부동은 골재흡수를 늘려 PTH가 억제된 고칼슘혈증을 유발할 수 있다. 이는 제시 맥락에 부합하며 원발성 부갑상선기능항진은 낮은 PTH와 맞지 않는다. 부동이 모든 고칼슘혈증의 가장 흔한 원인이라는 뜻은 아니며 악성종양 등도 임상적으로 감별한다. ECG/흉부영상은 제공되지 않았으므로 실제 소견을 판독했다고 주장하지 않으며, 이 문제의 핵심 기전 추론은 장기 부동과 제시 호르몬 수치로 가능하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001210 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 장기 중환자실 부동의 골재흡수–저PTH 고Ca B 유지; 전반적 고Ca의 가장 흔한 원인이라는 과장 제거, 영상 누락 개별평가.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

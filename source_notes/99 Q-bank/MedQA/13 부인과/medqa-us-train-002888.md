@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. HIV ELISA, 신속혈장레긴검사, 혈청 HBsAg
 
 ## 해설
 
+선택지 중 D의 HIV 선별·RPR·HBsAg는 초기 임신에 필요하다. 실제 현행 HIV 초기 검사는 항원·항체 복합검사와 확인 알고리즘을 사용한다. HCV도 매 임신 선별해야 하며 D가 모든 산전 검사를 열거한 목록은 아니다. Western blot을 초기 선별검사로 사용하지 않는다.
 
-임신 초기 산전 검진에서는 HIV, 매독, B형 간염을 포함한 감염 스크리닝이 표준이다. HIV ELISA와 신속 혈장 검사, 그리고 HBsAg 검사는 권장되는 초기 검사이며, 다른 선택지는 과도하거나 비표준이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 기존D는적절한검사묶음이나현행초기선별전체와HIV검사방식보강.
+- https://www.cdc.gov/pregnancy-hiv-std-tb-hepatitis/about/
 
 ## 출처
 

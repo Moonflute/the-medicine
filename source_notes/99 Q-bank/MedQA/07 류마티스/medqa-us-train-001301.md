@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 세프트리악손
 ## 해설
 
 
-설사 후 발생한 관절통은 반응성 관절염을 시사한다. 설사균에 대한 반응으로 살피라민(설파살라진)이 가장 효과적인 1차 치료제이다. 따라서 설파살라진이 가장 유익한 요법이다.
+감염 뒤 지속된 관절염은 반응성관절염을 시사한다. 나프록센에도 증상이 지속되므로 선지 중 말초관절염에 사용하는 DMARD인 설파살라진(B)을 고려할 수 있다. 이는 설사 원인균을 치료하는 항생제가 아니며 모든 반응성관절염의 1차 약물이라는 뜻도 아니다. 치료는 염증의 지속·정도와 감염 상태를 평가해 정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-train-001301` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 감염후 반응성관절염에 NSAID 실패 후 설파살라진 B 고려. 살피라민 오염과 보편적 1차/항균제 설명 제거.
+- 범위: evidence-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/NG65/chapter/Recommendations
 
 ## 출처
 

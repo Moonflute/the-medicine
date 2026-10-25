@@ -21,15 +21,17 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 결절홍반
 
 ## 해설
 
+정답은 B이다. NSAID 노출 뒤 AKI·백혈구 원주와 전신 증상은 약물성 급성 간질성 신염을 시사하며 반구진성 발진이 동반될 수 있다. 대표 기전은 약물 관련 세포매개 과민반응이지 전형적인 면역복합체 사구체 손상이 아니다. NSAID 관련 AIN에서는 발진·발열·호산구증가가 없을 수도 있다. Janeway 병변은 심내막염, 나비형 발진은 SLE와 관련되고 결절홍반은 여러 염증/감염 원인에 동반될 수 있어 RA에만 연결하지 않는다.
 
-NSAID에 의한 급성 간질성 신염은 피부에 미만성 반구진성 발진(두드러기와 유사)으로 나타난다. 이는 면역 복합체 매개 반응이며, Janeway 병변은 감염성 심내막염, 나비형 발진은 루푸스, 결절홍반은 류마티스 관절염에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 약물성 AIN을 면역복합체 반응이라고 한 오류와 결절홍반=RA라는 부정확한 연결 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

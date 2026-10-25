@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 인슐린 저항성
 ## 해설
 
 
-지속적인 고혈당과 비만, 정상 인슐린 분비는 인슐린 저항성에 의한 제2형 당뇨병을 시사한다. 인슐린 생성 감소는 1형 당뇨에서, 스트레스와 ACTH 과다분비는 일시적 상승을 일으키지만 지속적인 고혈당의 주된 원인은 아니다. 따라서 인슐린 저항성이 가장 가능성 높은 기전이다.
+정답 D. 반지가 작아질 정도의 말단 크기 증가와 두통, 뇌하수체 종양 가족력은 말단비대증을 고려하게 한다. GH 과다는 말초 포도당 이용을 줄이고 간 포도당 생성을 늘려 insulin 저항성과 고혈당을 유발한다. 비만도 저항성에 기여할 수 있지만 본문에는 insulin 분비량이 측정되지 않았으므로 정상 분비라고 단정하지 않는다. ACTH/cortisol 과다도 지속 고혈당을 만들 수 있으나 제시 단서에는 GH 병태가 더 부합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008768 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 반지 크기 증가/두통을 무시한 일반 비만T2DM 해설을 GH과다–insulin저항성 D로 사례별 교체; 미측정 insulin정상 주장 삭제.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

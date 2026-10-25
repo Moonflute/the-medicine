@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "죽상경화성 점진 협착과 만성 허혈의 연결은 색전·혈관염과 구별되는 기본 개념으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11ug1ldw5wzxf5dmuywmxpeuvzu0rycdr6c2hmrwc2nc1anjzlbelpmlbrt3leavnbb1fyum9awep2yzjoc1pysnzkr2xqsuvob2ntoxvhv01nuvhkmfpysnbzv3dnvdjoamjivnphvzl1s1m1dfpbfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 정맥 혈전증에 의한 혈류 차단
 
 ## 오답 포인트
 
-- **B. 급성 혈전으로 인한 동맥 폐색:** 급성 혈전으로 인한 폐색은 급성 동맥 폐색이며 정의와 다르다.
+- **급성 혈전으로 인한 동맥 폐색:** 급성 혈전으로 인한 폐색은 급성 동맥 폐색이며 정의와 다르다.
 
 ## 출처
 
 - 내부 학습 노트: 동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion).md`
 - 학습 목표: 원문 핵심: - **정의**: 동맥경화증으로 인해 동맥이 점진적으로 좁아지거나 막혀 만성적인 혈액 공급 부족을 초래하는 질환이다. 말초동맥질환(Peripheral Artery Disease, PAD)의 대표적인 형태 - **원인**: 동맥경화증이 주된 원인이며, 고혈압, 당뇨병, 고지혈증, 흡연, 고령, 만성 신부전 등이 주요 위험인자이다. - **기전**: 동맥 내벽에 동맥경화성 플라크가 축적되어 혈관 내강이 좁아지고, 혈류가 제한되어 조직의 만성적인 허혈 상태를 유발한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 죽상경화성 점진 협착과 만성 허혈의 연결은 색전·혈관염과 구별되는 기본 개념으로 유지한다.

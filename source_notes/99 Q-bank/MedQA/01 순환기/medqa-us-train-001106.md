@@ -20,16 +20,18 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 기관내 삽관을 시행하고 중환자실로 입원시킨다
 
 ## 해설
 
+정답은 C이다. COPD 악화에서 가변 P파와 PR간격을 동반한 불규칙 좁은 QRS 빈맥은 다소성 심방빈맥(MAT)을 의심하게 하며 P파가 없는 AF라고 설명하지 않는다. 세 가지 이상 P파 형태 등 실제 ECG와 전해질을 확인한다. 기저 호흡기 악화와 유발 요인을 치료하고 산소는 COPD의 목표 범위에 맞추어 조절한다. SpO2 90%는 무조건 고농도 산소를 투여하라는 근거가 아니며 심한 호흡곤란·저혈압에 대해 환기/순환을 함께 재평가한다.
 
-COPD 환자에서 불규칙한 P파와 불규칙 PR 간격은 심방세동을 시사한다. 저산소증과 저혈압이 동반된 급성 상황에서는 즉시 산소 공급이 가장 중요한 초기 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: QRS앞 P파/불규칙 PR을 AF라 한 오류를 MAT 의심으로 교정하고 산소를 조절 투여함을 명시.
+- https://goldcopd.org/2026-gold-report-and-pocket-guide/
 
 ## 출처
 

@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 폐혈관은 저산소증에 반응하여 이완한다
 
 ## 해설
 
+고산으로 재상승한 뒤 심한 저산소·수포음·객혈은 재진입 고산폐부종을 시사한다. 저산소성 폐혈관수축의 불균일성과 높은 폐모세혈관 압력이 장벽누출/폐부종을 일으켜 가스교환을 악화시킨다는 점에서 제시 중 B가 적합하다. 폐혈관은 저산소에 확장되는 것이 아니며 교감활성/뇌혈류 변화도 A/C와 다르다. 누락 CXR소견을 임의로 판독하지 않는다.
 
-고산에서 급격히 저산소증이 발생하면 폐혈관 저산소성 수축으로 압력 구배가 크게 증가하고, 이는 조직 저산소증을 초래한다. 다른 선택지는 고도 상승 후 교감 활성 감소, 뇌혈류 감소, 폐혈관 이완과는 반대이다. 따라서 정답은 압력 구배 증가가 조직 저산소증을 일으킨다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 고산재상승의 저산소성 폐혈관수축과 장벽누출을 조직저산소 단일 압력구배보다 명확히 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

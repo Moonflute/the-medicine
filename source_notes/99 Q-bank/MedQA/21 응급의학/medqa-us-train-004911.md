@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 직장 긴장도 평가
 
 ## 해설
 
+의식소실과 저호흡이 있어 영상검사보다 기도·환기 확보가 우선이다. 경추 움직임을 최소화하며 숙련된 팀이 신속연속기관삽관(C, rapid sequence intubation)을 시행한다. 이는 삽관을 여러 번 반복한다는 뜻이 아니라 유도·신경근차단을 사용하는 기도 확보 절차이다.
 
-경추 외상 환자는 기도 보호가 최우선이며, 호흡수 8회·정신 혼미는 저환기 위험을 의미한다. 신속 연속 기관삽관을 통해 기도 확보가 필요하다. 따라서 연속 기관삽관이 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Rapid sequence intubation의 '연속' 오역 교정. 경추보호 하 기도/환기 우선순위를 확인.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

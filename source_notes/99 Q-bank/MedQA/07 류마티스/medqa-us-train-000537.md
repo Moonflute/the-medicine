@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 관절 간격 협소화 및 골 미란
 ## 해설
 
 
-세균성 관절염에서 관절 간격 협소와 골 미란은 감염성 파괴의 전형적인 방사선 소견이다. 다른 선택지는 감염성 파괴와 일치하지 않는다.
+1년간의 대칭성 MCP/PIP 관절염과 1시간의 아침 강직은 기저 류마티스관절염을 시사하며 관절간격 협소와 미란(D)을 설명한다. 현재의 급성 화농성 무릎관절염과 그람음성 쌍구균은 임균 감염을 시사한다. 급성 감염 초기에 반드시 X선 미란이 생긴다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000537`와 직접 대조했다.
+- 판정: 만성 대칭성 MCP/PIP 관절염의 기저 RA와 새 임균성 관절염을 구별. D 유지하되 급성 감염만으로 이미 X선 미란이 필연적이라는 오류 제거.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

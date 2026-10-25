@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "역류 직접 관찰과 등급이라는 VCUG의 독립 역할 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ VCUG는 역류 여부와 등급을 직접 확인할 수 있어 방광요관역�
 
 ## 오답 포인트
 
-- **B. 신장 초음파:** 초음파는 선별 검사이지만 역류 등급을 평가하지 못한다.
+- **신장 초음파:** 초음파는 선별 검사이지만 역류 등급을 평가하지 못한다.
 
 ## 출처
 
 - 내부 학습 노트: 방광요관역류 (VesicoUreteral Reflux)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/방광요관역류 (VesicoUreteral Reflux).md`
-- 학습 목표: 원문 핵심: * **소변:** 요분석(농뇨, 혈뇨, 세균뇨) 및 요배양 검사. * **영상:** - 신장 초음파: 신장 구조, 수신증, 신피질 두께 평가 (초기 선별 검사). - 배뇨방광요도조영술(VCUG): 역류 진단 및 등급(Grade I-V) 판정의 표준(Gold standard). - DMSA 스캔: 신장 흉터 및 기능 평가.
+- 학습 목표: 방광요관역류의 VCUG
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 역류 직접 관찰과 등급이라는 VCUG의 독립 역할 유지.

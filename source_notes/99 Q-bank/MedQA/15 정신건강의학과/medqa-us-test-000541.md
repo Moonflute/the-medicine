@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 클로미프라민
 
 ## 해설
 
+선택지 중 삼환계 항우울제인 클로미프라민(D)은 과량복용 시 심장 전도 이상·부정맥, 저혈압, 경련 및 혼수를 일으킬 수 있다. 공식 허가정보는 특히 QRS 폭·축 변화를 중요한 삼환계 독성 지표로 제시한다. 따라서 D가 출제 의도에 부합하지만 심박수 보정 여부도 없는 QT 450 ms 단독으로 약물을 확정하거나 다른 항우울제 과량복용의 심독성을 배제할 수는 없다. 본문에 없는 저혈압을 이미 관찰된 사실로 추가하지 않는다.
 
-클로미프라민 과다복용은 QT 연장과 심각한 혼수, 저혈압을 초래한다. 환자의 QT 450 ms와 의식 저하가 클로미프라민 중독을 가장 시사한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 삼환계 과량복용의 심장·중추독성 근거를 확인하되 보정되지 않은 QT 450 ms 하나로 다른 약물을 확실히 배제한다는 해석을 피했다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=05efab58-ba3c-4e54-bf18-1e66e1b0e41a
 
 ## 출처
 

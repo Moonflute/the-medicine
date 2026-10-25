@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRXRoYW1idXRvbC5tZA
   - ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k
   - ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 이소니아지드, 리팜핀, 피라진아미드, 에탐부톨
 
 ## 해설
 
+진행하는 국소 요통, 높은 ESR·CRP와 척추 파괴·골수 신호 변화는 척추골수염을 시사한다. 혈역학·신경학적으로 안정하고 혈액배양으로 병원체가 아직 확인되지 않았다면 CT 유도 생검(A)으로 배양 및 병리 검체를 얻는 것이 적절하다. 혈액배양에서 적절한 원인균이 확인되는 일부 경우에는 생검이 필요하지 않을 수 있다. 패혈증이나 진행성 신경학적 손상이 있으면 생검 때문에 항생제·수술을 지연시키지 않는다. 결핵의 확증 없이 항결핵제를 일률적으로 시작하지 않는다.
 
-만성 요통·높은 ESR·CRP·MRI에서 골 파괴와 신생골 형성은 감염성 척추염(척추골수염)을 시사한다. 정확한 병원체 확인을 위해 조직 검사가 필요하므로 CT 유도 생검이 표준 진단 절차이다. 따라서 CT 유도 생검이 가장 적절한 다음 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 안정한 척추골수염 의심 환자의 병원체 미확인 상태에서 CT 유도 생검 A를 유지하되 모든 경우 필수라는 단정을 제한했다.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/
 
 ## 출처
 

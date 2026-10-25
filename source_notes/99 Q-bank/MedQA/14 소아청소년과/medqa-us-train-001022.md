@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 익상경(webbed neck)
 
 ## 해설
 
+상지 고혈압과 촉지되지 않는 발 맥박은 대동맥 축착을 시사한다. 대동맥 축착과 이첨 대동맥판은 터너 증후군과 연관되므로 익상경(D)이 추가 소견일 수 있다. 수축기 클릭은 동반 판막 이상을 고려하게 하지만 본문에 청진 위치는 없으며 ‘좌측 상부’라고 만들어 넣지 않는다. 혈관의 축착과 판막 협착은 구별한다.
 
-고혈압, 약한 하위 맥박, 좌측 상부 클릭음은 대동맥 협착을 시사한다. 이 경우 흔히 동반되는 신체 소견은 목 뒤에 ‘웹드 넥’(목 뒤 피부 주름)이며, 이는 Turner 증후군에서 놓치기 쉬운 징후다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 대동맥축착과판막협착혼동/잡음위치창작교정. Turner익상경D.
+
 
 ## 출처
 

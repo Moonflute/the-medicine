@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 광선치료
 
 ## 해설
 
+39주 생후 64–70시간에 총 빌리루빈이 8.7에서 8.3 mg/dL로 감소하고 수유·배뇨가 양호하므로, 제시된 선택지에서는 관찰(C)이 적절하다. 치료는 생후 시간, 재태주수와 신경독성 위험인자를 반영한 기준으로 결정한다. 8 mg/dL이라는 일률적인 치료 경계가 있는 것은 아니며 퇴원 후 추적을 계획한다.
 
-신생아의 총 빌리루빈이 8 mg/dL 이하이며 24시간 내 감소 추세를 보이면 생리적 황달이며, 치료 없이 관찰이 충분하다. 따라서 관찰이 적절한 관리 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 실제 빌리루빈 8.7→8.3과 불일치하는 8 mg/dL 절대 기준을 삭제하고 시간·재태주수별 판단으로 교정.
+- https://doi.org/10.1542/peds.2022-058859
 
 ## 출처
 

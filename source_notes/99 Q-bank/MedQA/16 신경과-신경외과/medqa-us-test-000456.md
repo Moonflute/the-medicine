@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,10 @@ D. 기저동맥
 
 
 양쪽 시야가 동시에 소실되는 동측성 반맹은 후대뇌피질(시각 피질) 손상에 해당한다. 후대뇌동맥이 이 부위를 공급하므로 폐색이 가장 가능성이 높다. 따라서 후대뇌동맥이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 오른쪽 동명성 반맹과 황반보존은 왼쪽 후두엽/PCA 영역을 지지. CT 음성도 초기 허혈을 배제하지 않음. 혈관 C와 해설 대조 일치.
 
 ## 출처
 

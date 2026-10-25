@@ -19,23 +19,25 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-68세 여성이 의식 변화로 아들과 함께 응급실에 왔다. 최근 오른쪽 무릎관절성형술을 받고 2일 전 퇴원했다. 제2형 당뇨병과 고혈압으로 메트포르민과 히드로클로로티아지드를 복용한다. 1년 전 왼쪽 백내장 수술을 받았다. 체온 36.1°F(36.1°C), 혈압 99/70 mmHg, 맥박 분당 60회, 호흡수 분당 8회이다. 왼쪽 동공은 불규칙한 모양의 동공부등이 있고 오른쪽 동공은 지름 1mm이다. 큰 소리와 통증 자극에 눈을 뜨고 사지를 모두 움츠린다. 손가락 혈당은 79 mg/dL이며 정맥로가 없다. 다음 중 가장 적절한 처치는?
+68세 여성이 의식 변화로 아들과 함께 응급실에 왔다. 최근 오른쪽 무릎관절성형술을 받고 2일 전 퇴원했다. 제2형 당뇨병과 고혈압으로 메트포르민과 히드로클로로티아지드를 복용한다. 1년 전 왼쪽 백내장 수술을 받았다. 체온 97°F(36.1°C), 혈압 99/70 mmHg, 맥박 분당 60회, 호흡수 분당 8회이다. 왼쪽 동공은 불규칙한 모양의 동공부등이 있고 오른쪽 동공은 지름 1mm이다. 큰 소리와 통증 자극에 눈을 뜨고 사지를 모두 움츠린다. 손가락 혈당은 79 mg/dL이며 정맥로가 없다. 다음 중 가장 적절한 처치는?
 
 ## 선택지
 
@@ -46,8 +48,12 @@ D. 기관내 삽관
 
 ## 해설
 
+최근 수술 환자의 의식 저하, 분당 8회의 느린 호흡과 오른쪽 축동은 오피오이드에 의한 호흡 억제를 의심하게 한다. 왼쪽 동공의 불규칙성은 이전 백내장 수술과 관련될 수 있어 양쪽 모양 차이만으로 이 가능성을 배제하지 않는다. 정맥로가 없으므로 비강 내 날록손(C)을 신속하게 투여하면서 기도를 평가하고 필요한 환기를 보조한다. 효과가 불충분하면 반복 투여와 추가 기도 확보가 필요하며, 비강 투여가 모든 상황에서 가장 빠르거나 반드시 즉시 회복시킨다는 뜻은 아니다.
 
-환자는 동공이 불규칙하고 호흡이 저하된 상태이며, 정맥로가 없어 비강 내 날록손(나알록손) 투여는 급성 아편제 과다복용 시 가장 빠른 역효과를 제공한다. 이는 중추 호흡 억제를 즉시 차단한다. 따라서 비강 내 날록손이 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문 체온 97°F를 복원하고 최근 수술 뒤 축동·호흡 저하에서 날록손 C의 근거와 환기 보조를 명확히 한다.
+- 공식/학회 근거: https://www.cdc.gov/stop-overdose/response/
 
 ## 출처
 

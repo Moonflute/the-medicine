@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 상승한 HbA1c
 
 ## 해설
 
+심한 이통, 이루, 골-연골 접합부 육아조직과 안면신경 이상은 괴사성(전통적으로 악성) 외이도염을 시사한다. 당뇨병과 혈당 조절 불량이 중요한 위험요인이므로 D, HbA1c 상승이 가장 관련 있다. 여기서 악성은 종양이라는 뜻이 아니라 침습성 감염을 가리킨다. 단순 만성 외이도염과 같은 상태로 설명해서는 안 된다.
 
-만성 외이도염(악성 외이도염)은 당뇨병 환자에서 흔히 발생하며, 상승한 HbA1c가 위험인자를 제공한다. 따라서 가장 관련 있는 소견은 상승한 HbA1c이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 육아조직·심한 이통·안면마비를 동반한 감염을 단순 만성 외이도염과 혼동하지 않도록 괴사성 외이도염으로 명확히 함.
 
 ## 출처
 

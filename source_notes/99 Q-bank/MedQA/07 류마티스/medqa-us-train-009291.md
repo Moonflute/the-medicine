@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 백혈구파괴성 혈관염
 ## 해설
 
 
-반복적인 복통·구토와 하체 발진·부종, 혈소판 증가, ESR 상승은 IgA 혈관염(히스톤-구스코증)과 일치한다. 이 질환은 소아에서 흔히 발생하며, 백혈구 파괴성 혈관염이 정답이다. 다른 선택지는 발진 양상이 다르다.
+최근 상기도감염 뒤 정상 또는 증가한 혈소판 상태의 비창백성 촉지자반, 발목관절염과 복통·잠혈양성은 IgA vasculitis(Henoch–Schönlein purpura)에 부합한다. 피부의 전형적인 조직소견은 leukocytoclastic vasculitis이므로 보기 D가 맞다. 약물 복용 뒤 생겼다는 시간관계만으로 DRESS를 진단하지 않으며 발진의 혈관염 양상과 동반 증상을 함께 해석한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009291 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 만들어진 질환명 히스톤-구스코증을 IgA vasculitis(Henoch-Schonlein)로 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

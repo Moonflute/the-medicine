@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. HbA1c 재검
 
 ## 해설
 
+당뇨 확진력이 없고 A1c8.5%가 한번 제시되었으며 명백한 고혈당 위기나 고전적 고혈당 증상이 확인되지 않아 D의 반복검사로 진단을 확증한다. 다른 진단검사와 두번째 비정상 결과로도 확증할 수 있다. UTI로 인한 빈뇨를 곧바로 고혈당성 다뇨로 단정하지 않는다.
 
-반복적인 요로감염과 당뇨병이 있는 환자에서 혈당 조절이 불충분하면 HbA1c 재검이 필요하다. 이는 치료 목표 달성 여부를 확인하고 관리 방침을 조정하기 위함이다. 따라서 HbA1c 재검이 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: A1c 재검 D의 목적을 이미 당뇨환자 추적이 아닌 신규진단 확증으로 교정.
+- https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes
 
 ## 출처
 

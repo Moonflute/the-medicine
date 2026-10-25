@@ -20,13 +20,15 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 칼륨과 마그네슘 투여
 
 ## 해설
 
+정답은 A이다. 인슐린 중단 뒤 고혈당·케톤뇨·대사산증과 탈수가 있어 DKA이다. 소아/청소년에서는 초기 정맥 수액으로 순환을 회복시킨 뒤, 통상 수액 시작 최소 1시간 후 칼륨을 확인하면서 인슐린 주입을 시작한다. 인슐린 정맥 bolus는 사용하지 않는다. 초기 K 5.8이라도 총체내 칼륨은 부족할 수 있어 반복 검사에 따라 보충한다. 따라서 수액과 인슐린을 포함한 A가 맞지만 두 치료를 반드시 동시에 시작한다는 뜻은 아니다.
 
-혈당 691 mg/dL, 케톤양성, pH 7.21은 1형 당뇨병성 케톤산증을 나타낸다. 치료는 혈액량을 회복시키는 정맥 수액과 동시에 인슐린을 지속적으로 투여해 혈당과 케톤을 감소시키는 것이 핵심이다. 따라서 정맥 수액과 인슐린 투여가 즉시 필요한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 소아 DKA의 수액과 인슐린을 동시에 시작한다는 해설을 초기 수액 뒤 인슐린 원칙으로 교정.
+- https://cps.ca/en/documents/position/current-recommendations-for-management-of-paediatric-diabetic-ketoacidosis
 
 ## 출처
 

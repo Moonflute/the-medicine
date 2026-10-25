@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 환상 귀두염
 ## 해설
 
 
-반응성 관절염은 관절, 결막, 요도(음경) 등에 염증을 일으키며, 원위지절관절(발목·무릎) 부종은 흔하지만, 귀두염은 드물다. 따라서 가장 낮은 발생 가능성은 원위지절관절 부종이 아니라 귀두염이다. 정답은 C이다.
+장염4주 뒤 하지의 비대칭 oligoarthritis와 결막염은 reactive arthritis에 부합한다. 피부발진·생식기 점막병변 및 circinate balanitis는 알려진 관절외 소견이다. 보기 중 손발가락 끝마디인 DIP 관절의 부종 C가 전형성이 가장 낮다는 출제 의도이다. DIP는 무릎이나 발목을 뜻하지 않으며 circinate balanitis가 전혀 무관해서 정답이라는 기존 해설은 잘못이다. Reactive arthritis에서 dactylitis나 말단관절 증상이 절대 불가능하다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009520 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: DIP를 무릎/발목이라 부르고 해설 결론을 D로 뒤집은 자기모순 교정. 원정답 C 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 헤로인
 
 ## 해설
 
+비루, 오한, 불면, 동공확대, 소름돋음, 위장관 항진과 빈맥의 조합은 오피오이드 금단에 합당하므로 D, heroin이 가장 적절하다. 오피오이드 중독의 축동·호흡억제와는 반대 양상이다. 이 사례에서 제시하지 않은 안진이나 고열을 진단 근거로 만들어 넣을 필요는 없다.
 
-헤로인 금단 시 안구 진동, 근육통, 불안, 발한, 고열, 복통 등 전신 증상이 나타난다. 환자의 증상은 전형적인 헤로인 금단을 반영한다. 따라서 원인 물질은 헤로인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 오피오이드 금단의 원정답 D를 유지하며 본문에 없는 안진·고열을 근거로 추가한 설명을 제거.
 
 ## 출처
 

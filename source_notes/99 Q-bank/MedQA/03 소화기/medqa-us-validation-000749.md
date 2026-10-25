@@ -20,11 +20,13 @@ question_type: etiology
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 당뇨병
 ## 해설
 
 
-HIV 감염자는 항레트로바이러스 치료(특히 protease inhibitor)와 관련된 급성 췌장염 위험이 높다. 환자의 급성 복통과 높은 아밀라아제·리파아제는 췌장염을 시사한다. 따라서 가장 가능성 높은 원인은 후천성면역결핍증 치료이다.
+정답 B. 급성 복통과 췌장효소 상승은 췌장염을 시사하며 선택지 중 HIV/AIDS 치료에 사용되던 didanosine 등은 췌장염과 잘 알려진 연관성이 있다. 일부 약물은 고중성지방혈증을 통해 위험을 높일 수 있으나 protease inhibitor 전체를 가장 직접적인 원인으로 단정하면 안 된다. 본문에는 실제 약제명이 없으므로 약물성 인과관계를 확진하지 않으며 이는 현재 권장 HIV 요법의 일반적 부작용을 뜻하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000749 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 항레트로바이러스 관련 췌장염은 특히 역사적 didanosine 연관성을 구분; 모든 protease inhibitor/현대 HIV 치료에 일괄 귀속하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=829e744d-7bd4-43dc-9b58-ffb016cb8e67&type=pdf
 
 ## 출처
 

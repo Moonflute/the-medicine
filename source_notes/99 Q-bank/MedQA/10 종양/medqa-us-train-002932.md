@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 수술적 절제
 ## 해설
 
 
-다발성 간 전이와 철 결핍성 빈혈을 동반한 체중 감소는 대장암을 의심한다. 대장암 검진의 표준은 대장내시경이다. 따라서 대장내시경이 다음 단계이다.
+철결핍성 소구성 빈혈, 체중 감소와 다발성 간 병변은 대장암 및 간 전이를 의심하게 한다. 선지 중 대장내시경(B)으로 원발 병변을 확인하고 조직진단을 얻는 것이 적절하다. 이는 무증상 인구의 선별검사가 아니라 증상·이상 소견에 대한 진단검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-002932`와 직접 대조했다.
+- 판정: 철결핍성 빈혈·체중감소·간 병변에서 원발 대장암 진단을 위한 B 유지. 증상 환자 진단검사를 무증상 검진이라고 잘못 기술한 표현 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.nice.org.uk/guidance/HTG690/chapter/2-the-diagnostic-tests
 
 ## 출처
 

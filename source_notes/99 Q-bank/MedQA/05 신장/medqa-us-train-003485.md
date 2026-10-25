@@ -22,16 +22,18 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 프레드니솔론
 
 ## 해설
 
+저알부민혈증·고지혈증·단백4+·부종은 소아 신증후군이다. 전형적인 첫 발현 소아에서는 minimal change disease 가능성이 높아 prednisolone D가 초기 치료이다. 병리검사 없이 확진된 MCD라는 뜻은 아니며 혈압은 연령·성별·키에 따른 기준으로 평가한다. Cyclophosphamide를 처음부터 병용하지 않고 albumin 투여도 용적상태/특정 적응증 없이 일률 시행하지 않는다.
 
-소아의 신증후군(미니멀 체인지 병)은 단백뇨와 저알부민혈증, 고지혈증을 동반하며, 스테로이드 치료가 1차 치료이다. 혈압이 정상이고 ACE 억제제보다 스테로이드가 우선이며, 면역억제제는 필요하지 않다. 따라서 초기 치료는 프레드니솔론이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 전형적 첫 소아 신증후군 prednisolone D 유지. BP110/65를 무조건 정상으로 규정하거나 병리 확진 없이 MCD로 단정하는 설명을 한정.
+- https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf
 
 ## 출처
 

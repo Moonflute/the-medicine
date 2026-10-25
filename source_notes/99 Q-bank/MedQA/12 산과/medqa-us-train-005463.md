@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 외회전술 제안
 
 ## 해설
 
+금기가 없는 단태 둔위 임신에서 외회전술(ECV, D)을 제안해 두위 전환을 시도할 수 있다. 태아 감시와 즉시 제왕절개가 가능한 환경에서 위험·성공률을 설명하고 환자 선택을 존중한다. 실패 시 계획 제왕절개 등이 적절할 수 있어 제왕절개를 단순히 최후 수단이라고 하지 않는다.
 
-임신 38주에 지속적인 둔위는 태아 회전이 어려워 외회전술(외부 전신 회전)로 정상두위 전환을 시도한다. 제왕절개는 최후 선택이며, 자연진통 관찰은 위험하다. 따라서 외회전술을 제안한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 외회전술 명칭과 상담·응급수술 가능 조건 및 제왕절개 폄하 수정.
+- https://www.rmf.harvard.edu/Risk-Prevention-and-Education/Guidelines-and-Algorithms-Catalog-Page/Guidelines-Algorithms/2026/OB-Guideline-Files/Guideline20-Mgmnt-of-Breech-Presentations
 
 ## 출처
 

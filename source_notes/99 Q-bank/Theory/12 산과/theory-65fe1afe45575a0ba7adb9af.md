@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "48시간 66% 미만 상승을 자궁외임신 확진처럼 취급한 오류를 임신위치 미상 평가 원칙으로 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-자궁외 임신을 의심할 때 β‑hCG와 초음파 검사에서 기대되는 소견은?
+양성 임신반응인데 질초음파에서 임신 위치가 확인되지 않을 때 hCG 해석 원칙은?
 
 ## 선택지
 
-A. β‑hCG 상승이 48시간에 66% 미만이며, TVUS에서 자궁 내 임신낭이 보이지 않음
-B. β‑hCG 급격히 상승하고 TVUS에서 다태임신 확인
-C. β‑hCG 정상 범위이며 TVUS에서 난소 낭종 발견
-D. β‑hCG 감소와 자궁 내 정상 임신낭 확인
+A. hCG 추이만으로 위치를 확정하지 않고 증상·추적 초음파 등과 함께 평가한다.
+B. 48시간 상승이 66% 미만이면 모든 경우 자궁외임신으로 확진한다.
+C. hCG가 충분히 상승하면 자궁외임신을 항상 배제한다.
+D. 자궁내 임신낭이 안 보이면 추적 평가가 불필요하다.
 
 ## 해설
 
-β‑hCG가 48시간에 66% 미만 상승하거나 비정상적 추이를 보이고, TVUS에서 β‑hCG가 판별역치 이상임에도 자궁 내 임신낭이 보이지 않으면 자궁외 임신을 강력히 의심한다.
+임신위치 미상은 초기 자궁내임신·소실 임신·자궁외임신 등이 가능하다. hCG 단독으로 위치를 결정하지 않으며 임상 증상과 연속 검사·초음파를 종합한다.
 
 ## 오답 포인트
 
-- **B. β‑hCG 급격히 상승하고 TVUS에서 다태임신 확인:** β‑hCG 급격 상승과 다태임신은 자궁외 임신과 무관하다.
+- **고정 상승률로 확진·배제:** 정상·비정상 임신의 추이가 겹칠 수 있다.
+- **추적 불필요:** 위치가 정해질 때까지 자궁외임신 가능성을 평가한다.
 
 ## 출처
 
 - 내부 학습 노트: 자궁외 임신 (Ectopic Pregnancy)
 - 원본 경로: `source_notes/02 Diseases/12 산과/자궁외 임신 (Ectopic Pregnancy).md`
-- 학습 목표: 원문 핵심: - **β-hCG**: 48시간마다 측정 시 66% 미만 상승하거나 비정상적인 추이를 보임. - **초음파(TVUS)**: 자궁 내 임신낭이 확인되지 않으면서 β-hCG가 판별 역치(discriminatory zone, 보통 1,500~3,500 mIU/mL) 이상일 경우 강력히 의심.
+- 학습 목표: 임신위치 미상에서 hCG의 한계
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 48시간 66% 미만 상승을 자궁외임신 확진처럼 취급한 오류를 임신위치 미상 평가 원칙으로 교정.
+- 근거: https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy

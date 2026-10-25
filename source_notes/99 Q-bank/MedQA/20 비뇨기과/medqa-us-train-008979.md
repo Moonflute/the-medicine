@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. Klebsiella pneumoniae
 
 ## 해설
 
+Proteus mirabilis는 urease로 요소(urea)를 분해하여 암모니아를 만들고 소변을 알칼리화할 수 있다. 유치카테터·결석력과 pH 8.2의 감염 소변 맥락에서 A가 가장 적절하다. 요산을 분해하거나 요산성 세균이라는 설명은 맞지 않는다. 알칼리성 소변만으로 균을 확정할 수는 없으나 선지 중 대표적 원인이다.
 
-요도 카테터 사용 환자에서 요산성 세균 감염이 흔하며, Proteus mirabilis는 요산을 분해해 알칼리성 소변을 만든다(소변 pH 8.2). 따라서 가장 가능성 높은 원인균은 Proteus mirabilis이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Proteus가 요산을 분해한다는 오류를 urease에 의한 요소 분해로 교정.
 
 ## 출처
 

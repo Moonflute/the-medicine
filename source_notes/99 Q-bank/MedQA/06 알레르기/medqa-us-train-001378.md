@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 고 IgE 증후군
 ## 해설
 
 
-Wiskott‑Aldrich 증후군은 삼중증(면역결핍, 혈소판 감소, 습진)으로 나타난다. 환자의 광범위한 습진, 반복 감염, 심한 혈소판감소는 이 질환에典型적이다. 따라서 Wiskott‑Aldrich 증후군이 가장 가능성 높은 기저 질환이다.
+습진, 반복 감염, 혈소판감소의 조합은 Wiskott-Aldrich 증후군의 전형적인 단서이다. 따라서 가장 가능성 높은 기저 질환은 A이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001378`와 직접 대조했다.
+- 판정: 습진·반복감염·혈소판감소의 Wiskott-Aldrich 증후군 A 유지. 해설에 섞인 한자 오탈자만 교정.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

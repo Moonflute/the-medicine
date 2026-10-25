@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 철분 보충
 ## 해설
 
 
-베타‑지중해빈혈 보인자는 경미한 소구성 저색소성 빈혈을 일으키며, 대부분 무증상이다. 환자는 심각한 치료가 필요 없으며, 안심시켜 주는 것이 적절한 관리이다. 따라서 안심시키기가 정답이다.
+HbA2 6%·소구성·정상 RDW와 경한 빈혈은 beta-thal trait에 부합하여 자체에는 설명/안심 C가 적절하며 결핍 확인 없이 철을 투여하지 않는다. 유전 상담도 고려한다. 다만 남아공 방문 뒤 발열·오한은 trait가 원인이 아니므로 여행 장소·노출과 지속/재발 증상에 따라 malaria 등 감염을 따로 평가해야 한다. 안심은 보인자 상태에 대한 판단이지 여행 후 발열을 무시하는 지시가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007277 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: beta-thal trait 자체의 안심 C 유지; 귀국 후 발열을 모두 보인자로 설명해 무시하지 않도록 분리.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nhs.uk/conditions/thalassaemia/carriers/
 
 ## 출처
 

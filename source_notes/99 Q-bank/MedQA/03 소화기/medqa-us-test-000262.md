@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. Vibrio cholerae
 
 ## 해설
 
+냉장하지 않은 음식을 먹고 2~3시간 안에 복통과 수양성 설사가 발생한 짧은 잠복기는 음식 안에서 미리 만들어진 황색포도상구균 장독소에 의한 식중독(C)을 지지한다. 구토도 흔한 증상이지만 이 환자에게 실제로 있었다고 제시되지는 않았다. 다른 보기의 균들은 보통 이처럼 짧은 잠복기 양상을 덜 잘 설명한다.
 
-바비큐와 상온에 방치된 음식 섭취 후 2~3시간 내에 구토와 설사, 복통이 나타나는 것은 황색포도상구균이 생성하는 장염 독소에 의한 급성 식중독이다. 따라서 원인은 Staphylococcus aureus이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 본문에 없는 구토를 실제 관찰한 증상처럼 추가한 해설을 수정하고 빠른 잠복기의 미리 형성된 독소 기전 설명.
+- https://www.cdc.gov/staph-food-poisoning/about/
 
 ## 출처
 

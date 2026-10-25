@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 흉부 및 복부 CT
 
 
 하부식도괄약근 이완불능과 진행성 연하곤란은 진행성 식도암과 구별이 필요하다. 내시경은 병변을 직접 시각화하고 조직검사를 통해 악성 여부를 확인할 수 있다. 따라서 치료 전 식도암을 배제하기 위해 위식도 내시경이 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009284 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 연하곤란·체중감소와 LES 이완장애가 텍스트로 제시되어 누락 바륨 영상 없이도 achalasia/가성 achalasia 감별 EGD(A) 판단 가능.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gi.org/guideline/diagnosis-and-management-of-achalasia/
 
 ## 출처
 

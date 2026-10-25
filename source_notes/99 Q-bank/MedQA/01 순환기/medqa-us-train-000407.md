@@ -17,13 +17,15 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 우심도자술
 
 ## 해설
 
+정답은 D이다. 우심부전 징후, 큰 P2 및 중심 폐동맥 확장은 폐고혈압을 시사한다. 심초음파는 비침습 평가에 중요하지만 확진과 분류에는 우심도자술로 폐동맥압·쐐기압·심박출량 및 폐혈관저항을 평가한다. 우심도자가 우심실 비대 자체를 직접 영상 확인하는 검사라는 뜻은 아니다.
 
-우심도자술은 폐동맥 고압과 우심실 비대를 직접 확인하고 폐동맥 압을 측정해 폐고혈압을 확진한다. 다른 영상은 진단 정확도가 낮다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: RHC의 역할을 혈역학적 확진으로 명료화; RV비대를 직접 확인하는 검사라는 설명 교정.
+- https://academic.oup.com/eurheartj/article/43/38/3618/6673929
 
 ## 출처
 

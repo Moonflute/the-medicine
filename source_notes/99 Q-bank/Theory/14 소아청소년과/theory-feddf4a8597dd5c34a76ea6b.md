@@ -12,36 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jyg64u5IOu2iOuCtOymnSAoTGFjdG9zZSBJbnRvbGVyYW5jZSkubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: D
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "발열 제외형을 면역성 우유 알레르기와 소화효소 부족의 구별로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-유당 불내증의 전형적인 증상이 아닌 것은?
+유당불내증의 기본 기전은?
 
 ## 선택지
 
-A. 복부 팽만
-B. 설사
-C. 구역
-D. 발열
+A. Lactase 부족에 따른 유당 소화·흡수 저하와 장내 발효
+B. 우유 단백에 대한 IgE 반응만
+C. 모든 경우 세균 독소에 의한 패혈증
+D. 담도 폐쇄에 의한 지방 흡수 저하만
 
 ## 해설
 
-유당 불내증은 소화기 증상만 나타나며, 발열은 일반적으로 동반되지 않는다.
+복부 팽만·가스·설사 등이 섭취량과 관련해 나타날 수 있다. 우유 단백 알레르기와는 기전이 다르며 불필요한 광범위 식이 제한으로 영양을 해치지 않도록 한다.
 
 ## 출처
 
 - 내부 학습 노트: 유당 불내증 (Lactose Intolerance)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/유당 불내증 (Lactose Intolerance).md`
-- 학습 목표: 원문 핵심: - **정의**: 유당 분해 효소(락타아제) 부족으로 유당 섭취 후 소화기 증상이 발생하는 임상 증후군 - **원인**: 일차성(유전적 락타아제 비지속증), 이차성(장 점막 손상), 발달성(미숙아), 선천성(매우 드묾) - **기전**: 소장에서 분해되지 않은 유당이 대장으로 이동하여 장내 세균에 의해 발효됨. 이로 인해 가스 생성 및 삼투압 증가로 설사, 복통, 복부 팽만 유발
+- 학습 목표: 유당불내증과 우유 단백 알레르기 구분
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

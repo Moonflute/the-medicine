@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 테트라사이클린 연고
 
 ## 해설
 
+수양성 분비물, 여포성 결막 변화와 같은 쪽 귀앞 림프절 비대는 아데노바이러스성 결막염에 합당하다. 각막 병변이 없는 이 증례에서는 B처럼 특정 항균제나 항바이러스제를 일률적으로 투여할 필요가 없다. 다만 손 위생, 수건 공유 금지, 냉찜질·인공눈물 등 증상 관리가 도움이 된다. 심한 통증이나 시력저하가 생기면 재평가해야 하므로 아무 관리나 안내도 필요 없다는 뜻은 아니다.
 
-결막 충혈, 눈물성 분비물, 전구성 결막 변화와 동측 전구림프절 비대는 전형적인 바이러스성 결막염(주로 아데노바이러스) 소견이다. 바이러스성 결막염은 대개 경과가 양호하고 치료 없이도 1~2주 내에 호전된다. 따라서 특별한 약물 치료가 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전구성/전구림프절이라는 오역을 여포성 결막염·귀앞 림프절로 교정하며 B는 특이 항균제 불필요라는 뜻임을 명확히 함.
+- 공식/학회 근거: https://www.aaojournal.org/article/S0161-6420(24)00009-5/fulltext
 
 ## 출처
 

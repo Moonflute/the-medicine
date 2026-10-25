@@ -23,13 +23,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 스티븐스-존슨 증후군(Stevens-Johnson syndrome)
 
 ## 해설
 
+통증성 피부 미란·수포·박리와 구강 점막염의 조합은 선지 중 Stevens–Johnson syndrome(D)을 가장 지지한다. SJS/TEN은 대개 약물과 관련되며 감염 등 다른 연관 원인도 고려한다. 새로운 세제 노출이 없다는 사실이 약물 반응을 배제하지 않는다. 실제 박리 체표면적이 주어지지 않아 SJS/TEN 세부 분류를 면적만으로 확정할 수는 없다. 다형홍반을 항상 손발에만 국한된 질환으로 설명해서도 안 된다.
 
-전신에 퍼진 홍반성 반점·수포·점막 궤양은 피부와 점막을 동시에 침범하는 중증 과민반응이며, 약물·감염에 의한 것이 아니라 급성 전신성 반응이다. 이는 스티븐스-존슨 증후군의 특징이다. 다형홍반은 주로 손발에 국한되고, 단순포진·대상포진은 국소 병변이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 약물·감염과 무관한 전신 반응이라는 SJS 설명을 제거하고 상부 등 병변을 전신 확산으로 바꾸지 않는다.
+- 공식/학회 근거: https://academic.oup.com/bjd/article/174/6/1194/6617016?login=false
 
 ## 출처
 

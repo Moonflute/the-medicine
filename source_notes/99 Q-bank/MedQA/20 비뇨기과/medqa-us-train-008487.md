@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 타크로리무스 국소 도포
 
 ## 해설
 
+위축성 백색 구진과 포피·귀두 병변, 경화된 요도구 협착은 남성 생식기 경화태선을 시사한다. 진단 확인이나 다른 병변/악성 변화 감별을 위해 제시된 선택지 중 생검(C)이 적절하다. 전형적 경화태선은 임상적으로 진단할 수도 있어 모든 환자에 생검이 필수라는 의미는 아니다. 클로베타솔·타크로리무스는 치료제이지 조직학적 진단검사가 아니다.
 
-음경 백색 구진·협착은 리시스 스클레로시스(음경경화증)이며, 확진을 위해 조직생검이 필요하다. 국소 스테로이드나 항진균제는 진단에 도움이 되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경화태선 병명 오역과 모든 병변에 생검 필수라는 단정 완화. 진단검사를 묻는 이 선지에서 C 유지.
+- 공식/학회 근거: https://www.bad.org.uk/pils/lichen-sclerosus-in-males
 
 ## 출처
 

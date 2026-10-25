@@ -20,13 +20,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,12 +42,17 @@ explanation_prompt_version: explanation-ko-v1
 A. 호흡억제
 B. 식욕감소
 C. 동공수축
-D. 반응시간 저하
+D. 반응속도 저하(반응시간 연장)
 
 ## 해설
 
+결막 충혈, 구강 건조, 빈맥과 행동 변화의 조합은 대마초 중독을 시사한다. 추가로 반응속도 저하, 즉 반응시간 연장(D)이 나타날 수 있다. 여기서 impaired reaction time은 더 빨리 반응한다는 뜻이 아니다.
 
-대마초 중독 시 결막 충혈, 구강 건조, 맥박·혈압 상승이 흔히 나타나며 반응시간이 저하되는 신경학적 징후가 동반된다. 다른 선택지는 대마초 중독과 일치하지 않는다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: impaired reaction time을 반응시간이 짧아진다는 뜻으로 읽힐 수 있게 번역한 오류를 반응속도 저하·반응시간 연장으로 명확히 했다.
+
 
 ## 출처
 

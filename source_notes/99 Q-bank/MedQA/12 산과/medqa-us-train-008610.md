@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 혈청 CEA 측정
 
 ## 해설
 
+양측 고형 다결절 난소 종괴와 임신 중 남성화·안드로겐 상승은 임신 황체종(pregnancy luteoma)을 시사한다. 임상·영상상 의심이 높고 합병증이 없다면 C처럼 관찰하며 산후 종괴·안드로겐 감소를 확인할 수 있다. 악성 종양과 감별이 불확실하거나 염전·출혈·압박 증상이 있으면 수술 평가가 필요해 모든 종괴의 절제가 불필요한 것은 아니다.
 
-임신 중에 양측 6 cm 난소 종괴와 안드로겐 증가, 얼굴 다모증은 임신성 난소루테아를 시사한다. 이는 양성 종양이며, 대부분 자연소실되므로 관찰이 권장된다. 진단적 복강경·절제술은 불필요하고 CEA 측정은 암 감시와 관련 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 황체종 용어와 관찰 적응증·추적 필요성 명료화.
+- https://pubmed.ncbi.nlm.nih.gov/37505122/
 
 ## 출처
 

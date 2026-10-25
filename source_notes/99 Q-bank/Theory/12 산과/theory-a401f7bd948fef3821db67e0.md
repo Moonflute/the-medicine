@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "압박 초음파의 역할은 유지하되 임신 중 D-dimer를 일반적 선별용으로 단정하지 않게 제한."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ D. MRI
 
 ## 오답 포인트
 
-- **B. D‑dimer 검사:** D‑dimer는 민감도는 높지만 특이도가 낮아 선별 검사에만 사용한다.
+- **D-dimer:** 혈액검사이지 영상검사가 아니며 임신에서는 생리적 증가 등으로 특이도가 낮아 단독 확진검사가 아니다.
+- **CT·MRI:** 특정 해부·상황에서 고려할 수 있으나 일반적으로 압박 초음파로 근위 심부정맥을 평가한다.
 
 ## 출처
 
 - 내부 학습 노트: 심부정맥혈전증 (Deep Vein Thrombosis)
 - 원본 경로: `source_notes/02 Diseases/12 산과/심부정맥혈전증 (Deep Vein Thrombosis).md`
-- 학습 목표: 원문 핵심: - **D-dimer**: 민감도가 높아 선별 검사로 유용하나 특이도는 낮음. - **초음파(Ultrasound)**: 근위부 심부정맥 혈전 진단을 위한 1차 영상 검사(압박 초음파). - **Wells score**: 임상적 확률 평가를 통해 검사 및 치료 전략 결정.
+- 학습 목표: DVT 평가에서 압박 초음파와 비특이 D-dimer
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 압박 초음파의 역할은 유지하되 임신 중 D-dimer를 일반적 선별용으로 단정하지 않게 제한.

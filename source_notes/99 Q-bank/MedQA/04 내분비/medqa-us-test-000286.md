@@ -17,18 +17,22 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
 question_type: management
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: C
+answer_change_reason: "안정된 외래 의심 사례에는 가능한 경우 ACTH 자극검사로 확인한다는 Endocrine Society 권고에 따라 미확진 상태의 장기 병용 보충치료 C보다 D가 적절."
 ---
 
 # MedQA US 임상문제
@@ -46,8 +50,14 @@ D. ACTH 자극검사 시행
 
 ## 해설
 
+정답은 D이다. 수주간의 쇠약·체중 감소·색소침착과 낮은 혈압은 일차 부신기능저하증을 의심하게 한다. 그러나 의식저하·쇼크·지속 구토 등 부신위기를 시사하는 급성 중증 소견이 제시되지 않았으므로 가능한 상황에서 cortisol/ACTH를 평가하고 ACTH 자극검사로 확진한다. 확진된 일차 부신기능저하증에는 glucocorticoid와 필요 시 mineralocorticoid를 보충한다. 위기가 의심되면 검사 결과를 기다리지 않고 hydrocortisone과 수액을 즉시 투여해야 하며 이 예외를 안정된 외래 사례와 혼동하지 않는다.
 
-청동색 피부와 피로, 저혈압은 부신피질 호르몬 결핍을 시사한다. 급성 애디슨병에서는 코르티솔과 알도스테론이 모두 부족하므로, 코르티솔 대체와 알도스테론 대체(히드로코르티손) 모두가 필요하다. 따라서 두 약물을 동시에 시작하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 위기나 쇼크가 아닌 안정된 외래 부신기능저하 의심 환자이므로 확진 ACTH 자극검사 D로 원정답 C 변경.
+- https://www.endocrine.org/-/media/endocrine/files/cpg/primary-adrenal-insufficiency-cpg-resource-page-13feb18.pdf
 
 ## 출처
 

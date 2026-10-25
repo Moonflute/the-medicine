@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -51,6 +53,13 @@ D. 말초혈액도말
 
 
 소구성 빈혈(MCV 74 fL)과 구각염, 손톱 부서짐은 철결핍성 빈혈을 시사한다. 초기 평가에서는 혈청 철분, 페리틴, 전이단백질 등을 포함한 철분 검사가 가장 먼저 필요하다. 따라서 관리의 첫 단계는 철분 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004456 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 소구성 빈혈의 ferritin/철 대사 검사 A와 임상 단서가 부합함을 원문 대조 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/
 
 ## 출처
 

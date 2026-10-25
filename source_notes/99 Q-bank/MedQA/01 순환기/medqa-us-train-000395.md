@@ -17,13 +17,13 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,15 @@ related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 심근경색 후 심낭염의 약제 선택지·해설 교정."
+curation_status: "revised"
+curation_reason: "심근경색 후 심낭염의 약제 선택지·해설 교정."
+curation_reviewed_at: "2026-10-25"
+wrong_notes_review_status: "reviewed"
+curation_disposition: "selected"
 ---
 
 # MedQA US 임상문제
@@ -41,17 +50,27 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 이부프로펜(Ibuprofen)
-B. 레보플록사신(Levofloxacin)
-C. 프로프라놀롤(Propranolol)
-D. 와파린(Warfarin)
+A. 항염증 용량 아스피린과 콜히친
+B. 레보플록사신
+C. 프로프라놀롤
+D. 와파린
 
 ## 해설
 
+흉막성·체위성 흉통과 광범위 ST 상승은 심근경색 후 심낭염에 부합한다. 재허혈 등도 평가하면서 항염증 용량 aspirin을 우선 고려하며, 금기가 없다면 colchicine을 병용해 재발을 줄인다. 최근 MI 환자에서 ibuprofen을 일률적 첫 약으로 제시하는 대신 aspirin 중심 치료를 제시했다. 항생제·warfarin·propranolol은 심낭염 염증 치료를 대신하지 않는다.
 
-PCI 후 2일 이내에 발생하는 급성 복막염성 심낭염은 급성 관상동맥 증후군 후 발생하는 복합성 심근염이며, NSAID인 이부프로펜이 증상 완화에 사용된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 심근경색 후 심낭염의 약제 선택지·해설 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://academic.oup.com/eurheartj/article/46/40/3952/8234483
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000395
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

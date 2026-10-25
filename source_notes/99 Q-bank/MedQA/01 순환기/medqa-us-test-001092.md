@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0V0YW5lcmNlcHQubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 알리스키렌
 
 ## 해설
 
+정답은 C이다. sacubitril은 neprilysin 억제제로 valsartan과 조합한 ARNI로 사용한다. EF55%의 HFpEF에서는 HFrEF와 같은 보편적 사망률 이득을 전제하지 않으며, 특히 보존 EF 범위의 낮은 쪽에 해당하는 일부 환자에서 입원 감소를 위해 고려할 수 있다. 제시된 선택지 중 이 기전에 해당하는 약은 C이다. 실제 치료에서는 혈압·신기능·칼륨 및 SGLT2 억제제 등 다른 권고 치료를 함께 평가한다.
 
-보존 박출률 심부전 환자에 사쿠비트릴(ARNI) 추가는 혈관 확장과 나트륨 배설을 촉진해 증상 개선에 도움이 된다. 다른 선택지는 해당 상황에 효과가 낮다. 따라서 정답은 사쿠비트릴이다
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: HFpEF에서 ARNI의 선택적 입원 감소 가능성과 보편적 사망률 효과를 구별.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

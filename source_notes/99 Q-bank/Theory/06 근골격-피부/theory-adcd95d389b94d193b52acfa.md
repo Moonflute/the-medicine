@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7IOB7LKY77yP7Jm47IOB"
 theory_objective_id: cc-04-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "고에너지 외상의 생명위협·대량출혈 우선 평가 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 통증 정도 평가
 
 ## 오답 포인트
 
-- **B. 상처 부위 소독:** 소독은 ABCDE 평가 후에 시행한다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

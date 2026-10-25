@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,16 @@ D. 상부 위장관 내시경
 
 ## 해설
 
+장기간 과음과 흡연, 반복되는 식후 상복부 통증 및 지방변·체중감소는 만성췌장염과 췌장 외분비기능부전을 의심하게 한다. 보기 중 A, 복부 CT로 췌장 석회화·위축·췌관 변화와 합병증 등을 평가하는 것이 적절하다. ACG 지침은 만성췌장염의 첫 영상 평가로 CT 또는 MRI를 권고하며, 불확실하면 내시경초음파 등으로 보완한다.
 
-지방변, 체중 감소, 복부 팽만은 췌장 외분비 기능부전(췌장암)과 연관될 수 있다. 진단을 위해 복부 CT가 가장 민감하게 종양과 전이를 확인한다. 따라서 복부 CT가 적절한 다음 단계이다.
+체중감소가 뚜렷하므로 종양도 감별해야 하지만, 현재 소견만으로 췌장암이라고 확진하지 않는다. CT가 모든 상황에서 EUS보다 가장 민감하다는 의미도 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. 과음·흡연/반복 통증·지방변의 만성췌장염 평가를 췌장암 확진처럼 설명한 오류 및 CT 최고민감도 과장을 교정.
+- https://doi.org/10.14309/ajg.0000000000000535
 
 ## 출처
 

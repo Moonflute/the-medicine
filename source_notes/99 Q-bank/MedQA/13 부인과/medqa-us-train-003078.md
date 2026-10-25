@@ -22,15 +22,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 테르부탈린 투여
 
 ## 해설
 
+통증성 출혈·긴장 자궁은 태반조기박리를 시사한다. 산모·태아가 안정적이고 질식분만이 가능하면 감시하 A를 진행할 수 있지만 출혈·경부·태아 상태에 따라 응급수술로 전환한다. 테르부탈린은 수축억제제이고 베타메타손이 폐성숙 약물이다. 필요한 분만을 스테로이드 완료 때문에 미루지 않는다.
 
-태아가 안정적이고 자궁 수축이 규칙적이며 출혈이 제한적인 경우, 질식분만이 가장 빠른 출산 방법이다. 제왕절개는 태아가 위태롭거나 출혈이 심할 때 고려한다. 베타메타손·테르부탈린은 태아 폐 성숙을 위한 약물이며, 현재는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태르부탈린을폐성숙약으로오분류;안정박리의분만방법조건명시.
+- https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/antepartum-haemorrhage-green-top-guideline-no-63/
 
 ## 출처
 

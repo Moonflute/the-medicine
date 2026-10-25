@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 신장암
 
 ## 해설
 
+BPH는 전립선 부위 요도를 통한 방광 출구 저항을 높일 수 있다. 지속되는 고압성 요폐가 상부요로에 영향을 주면 수신증 A가 생길 수 있으므로 가능한 합병증을 묻는 답이다. 모든 BPH에서 발생하거나 가장 흔한 합병증이라는 뜻은 아니며 방광암·신장암으로 직접 진행하는 질환도 아니다.
 
-양성 전립선비대증은 전립관 폐쇄로 방광 배출이 저하돼 요관 역류와 신우확장을 일으킬 수 있다. 장기 방치 시 신우에 물이 차는 수신증이 발생한다. 따라서 가장 흔한 합병증은 수신증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전립관 폐쇄라는 용어와 수신증이 항상 최다 합병증이라는 과장을 교정.
 
 ## 출처
 

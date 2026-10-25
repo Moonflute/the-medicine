@@ -20,15 +20,17 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 정기적인 심초음파
 
 ## 해설
 
+기침할 때만 나타나는 경한 일시적 심방 간 우좌단락은 난원공개존(PFO)에 부합한다. 건강하고 무증상인 소아의 우연한 PFO에는 보통 A처럼 별도 중재가 필요하지 않다. 부드러운 수축기 잡음을 PFO 자체가 반드시 일으킨다고 보지는 않으며, ‘패터슨 샤크’라는 기존 표현은 적절한 질환명이나 기전이 아니다.
 
-소아에서 일시적 우좌단락(패터슨 샤크)과 무증상 잡음은 대부분 자연적으로 폐쇄된다. 치료 없이 관찰하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 일시적 우좌단락을 가공의 명칭으로 설명한 해설을 무증상 난원공개존으로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 외상 후 혈관 연축
 
 ## 해설
 
+외상 후 의식저하와 산대·느린 동공반응, 고혈압·서맥·불규칙 호흡은 두개내압 상승과 쿠싱 반응을 강하게 시사한다. 뇌관류압이 떨어지면 뇌간 허혈을 줄이려 교감신경성 혈관수축과 전신혈압 상승(A)이 생기고, 상승한 혈압에 대한 압수용체 반사로 서맥이 동반된다. 따라서 단순히 교감신경이 서맥을 직접 만든다는 설명이나 뇌압 상승이 없다는 기존 설명은 잘못이다. 뇌간 압박은 임상적 위험 결과일 수 있으나 질문의 고혈압 직접 기전은 교감반응이다.
 
-외상 후 교감신경계가 과활성화되면 심박수 감소와 고혈압(불규칙 맥박·고혈압) 같은 교감성 반응이 나타난다. 이는 뇌압 상승이 없고 흉강 내 압력도 정상인 상황에서 설명된다. 따라서 고혈압의 근본 원인은 교감신경 반응 증가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 쿠싱 반응을 두개내압 상승이 없는 상태라고 설명한 오류를 뇌관류 저하에 대한 교감신경 반사와 압수용체성 서맥으로 교정했다. 고혈압의 직접 기전 A를 유지한다.
 
 ## 출처
 

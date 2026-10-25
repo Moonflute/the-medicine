@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 대근육운동 평가와 검사
 
 ## 해설
 
+MMR 1차는 보통 12–15개월에 시행하므로 A가 적절하다. 12개월에 다른 예방접종도 예정될 수 있어 전체 접종이 완료되었다는 뜻은 아니다. 로타바이러스 접종의 최대 연령은 지났고 아직 혼자 걷지 않는다는 사실만으로 이 사례를 대근육 지연으로 확정하지 않는다.
 
-12개월 영아는 12개월에 MMR 백신을 접종해야 하며, 다른 예방접종은 이미 완료된 상태이다. 따라서 가장 적절한 조치는 MMR 백신 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 12개월 MMR A 유지. 다른 예방접종이 모두 끝났다는 오류 수정.
+- https://www.cdc.gov/measles/hcp/vaccine-considerations/index.html
+- https://www.cdc.gov/rotavirus/hcp/vaccine-considerations/index.html
 
 ## 출처
 

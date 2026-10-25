@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7J2M7KO8IOyDgeuLtA"
 theory_objective_id: cc-02-discrimination
 question_type: discrimination
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "표준잔은 알코올 섭취량을 정량화하기 위한 것이라는 실용적 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 가족력 여부를 판단한다
 - 내부 학습 노트: 음주 상담
 - 원본 경로: `source_notes/01 Chief Complaint/음주 상담.md`
 - 학습 목표: 원문 핵심: : 크게 중요하지는 않음 과음, 폭음, 알코올 사용장애, 알코올 금단
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

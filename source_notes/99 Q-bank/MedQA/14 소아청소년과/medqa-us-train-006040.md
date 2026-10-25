@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 근육 포스포릴라아제 결핍
 
 ## 해설
 
+짧은 운동 후 근육통·경련과 휴식 후 호전되는 second-wind 양상, 적혈구 없이 소변 잠혈 양성인 미오글로빈뇨는 맥아들병을 시사한다. 근육 글리코겐 포스포릴라아제(D)는 글리코겐에서 포도당-1-인산을 떼어내는 효소이며 직접 ATP를 만드는 효소가 아니다. 결핍은 운동 중 에너지 공급을 제한하여 근육 손상을 일으킬 수 있다.
 
-운동 후 급성 근육통, 부종, 적갈색 소변은 운동 유발 횡문근융해증을 시사한다. 이 질환은 근육 포스포릴라아제(근육 내 ATP 생성 효소) 결핍으로 근육세포 내 에너지 고갈이 일어나 근섬유 파괴와 CK 상승을 일으킨다. 따라서 가장 가능성 높은 원인은 근육 포스포릴라제 결핍이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 근육 포스포릴라아제를 직접 ATP 생성 효소로 잘못 정의한 해설을 글리코겐분해 단계로 교정했다.
+
 
 ## 출처
 

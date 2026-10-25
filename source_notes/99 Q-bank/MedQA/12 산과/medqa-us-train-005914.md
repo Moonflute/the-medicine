@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 질식분만
 
 ## 해설
 
+모든 HIV 감염 임신에서 병합 ART(C)를 신속히 시작해 산모 건강과 수직감염 예방을 도모한다. CD4 150 및 높은 바이러스량은 특히 면역억제와 전파 위험을 강조하지만 ART 적응증을 CD4 ≤150으로 제한하지 않는다. 기회감염 예방 필요성을 별도로 평가하고 분만·수유 방식은 이후 바이러스 억제 상태와 지침에 따라 상담한다.
 
-임신 12주에 CD4가 150/mm³ 이하이면 모체와 영아 모두에게 전파 위험이 크다. 임신 중에도 HAART(고강도 항레트로바이러스 치료)를 시작하면 모체 바이러스 부하를 낮추고 수직 감염을 크게 감소시킨다. 따라서 HAART 시작이 적절한 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ART는 CD4와 무관하게 모든 HIV 임신에 적응됨을 명료화.
+- https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care?view=brief
 
 ## 출처
 

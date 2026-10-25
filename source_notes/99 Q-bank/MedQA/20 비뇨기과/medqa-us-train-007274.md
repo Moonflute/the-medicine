@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 3개월 후 PSA 재검사
 
 ## 해설
 
+암을 확정하는 검사는 B, 영상 유도 조직생검이다. 결절성 DRE와 강한 가족력이 있고, 특히 finasteride 복용 중 PSA 5 ng/mL는 무조건 정상이라고 해석할 수 없다. 4Kscore·PHI는 위험 평가 보조이지 조직학적 확진을 대신하지 못한다. 실제 생검 계획은 MRI·감염 위험과 경로 등을 고려하며 이 문항은 확정 진단 수단을 묻는다.
 
-전립선 결절이 촉진되고 PSA가 정상 범위에 있어도 조직학적 확인이 필요하다. 영상 유도 생검은 전립선암을 확진하는 표준 방법이며, 가장 높은 진단 확률을 제공한다. 따라서 영상 유도 침생검이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. PSA 5를 정상 범위라고 설명한 오류를 교정하고 finasteride의 PSA 억제를 고려.
+- 공식/학회 근거: https://uroweb.org/guidelines/prostate-cancer/chapter/diagnostic-evaluation
+- 공식/학회 근거: https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management
 
 ## 출처
 

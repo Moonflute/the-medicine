@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 수혈 관련 급성 폐손상
 
 
 수혈 후 급성 발열, 저혈압, 흉통, 용혈성 소변, LDH와 빌리루빈 상승은 ABO 부적합에 의한 급성 용혈성 수혈 반응을 시사한다. 이는 혈관내 용혈이 특징이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002412 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수혈 도중 발열·저혈압 뒤 혈관내 용혈 검사 소견과 정상 흉부영상은 ABO 급성 용혈반응 A를 지지함을 확인. 원문과 병태생리 문항 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

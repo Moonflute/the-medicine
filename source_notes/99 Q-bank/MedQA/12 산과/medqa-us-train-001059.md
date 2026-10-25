@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 혈청 베타-hCG로 임신을 확인하고, 양성일 경우 임신 3분기�
 
 ## 해설
 
+이미 소변 β-hCG 양성과 임신에 합당한 병력이 있다. 수두 생백신은 임신 중 투여하지 않고 출산 후 접종하므로 선택지 중 C의 핵심 조치가 적절하다. 모든 양성 소변검사를 반드시 혈청검사로 재확인해야 한다는 의미는 아니다. 우발적 접종만으로 임신 중절을 권하지 않는다.
 
-임신 여부를 확인하기 위해 혈청 β‑hCG 검사가 필요하고, 양성일 경우 수두 백신(생백신)은 임신 중에 금기이므로 출산까지 연기한다. 따라서 임신 확인 후 양성 시 백신 투여를 연기한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 양성 소변검사 이후 모든 경우 혈청검사가 필수라는 과도한 설명 수정.
+- https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/
 
 ## 출처
 

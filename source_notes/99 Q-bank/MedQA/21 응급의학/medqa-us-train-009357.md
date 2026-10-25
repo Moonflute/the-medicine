@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 열상 봉합
 
 ## 해설
 
+손의 깊은 고양이 천자상은 Pasteurella를 포함한 감염 위험이 높아 세척 후 아목시실린-클라불라네이트(B) 예방 투여가 적합하다. 이런 천자상은 일반적으로 일률적인 일차 봉합을 피하며, 감염 위험과 깊은 구조 손상을 평가한다. 예방접종이 최신이라는 사실은 교상 항생제의 필요성을 없애지 않는다. 따라서 봉합을 반드시 추가해야 한다는 설명은 부적절하다.
 
-고양이 물림은 Pasteurella multocida 감염 위험이 높으며, 최신 예방접종을 받은 경우에도 항생제 예방이 필요하다. 아목시실린-클라불란산은 이 균에 대한 1차 선택이며, 상처 봉합은 필요하지만 항생제 투여가 핵심이다. 따라서 정답은 아목시실린-클라불란산이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 손의 깊은 고양이 천자상에서 B를 유지하며 반드시 일차 봉합한다는 모순을 제거한다.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
+- 공식/학회 근거: https://www.nice.org.uk/guidance/NG184/chapter/recommendations
 
 ## 출처
 

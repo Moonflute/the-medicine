@@ -22,11 +22,11 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,14 @@ D. Nifedipine
 
 ## 해설
 
+정답은 A이다. 심한 GERD·설사, 손 운동 제한과 반복 Raynaud 유사 통증은 전신경화증을 시사한다. 심한 고혈압·AKI는 경피증 신위기를 의심하게 하며 ACE 억제제 captopril을 신속히 사용하는 특이 적응증이다. ACEI는 K를 낮추는 약이 아니라 오히려 고칼륨혈증을 악화시킬 수 있다. 이미 시행한 응급 고K처치·투석과 함께 K/신기능·혈압을 면밀히 감시하면서 치료한다.
 
-신부전과 고칼륨혈증이 동반된 고혈압 환자에게 ACE 억제제인 카프토프릴은 혈압을 낮추고 혈중 칼륨을 감소시키는 효과가 있다. 따라서 가장 적절한 약물은 카프토프릴이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ACEI가 K를 낮춘다는 위험한 오류를 제거하고 systemic sclerosis renal crisis의 특이 적응증 설명.
+- https://ard.bmj.com/content/annrheumdis/early/2024/10/17/ard-2024-226430.full.pdf?with-ds=yes
 
 ## 출처
 

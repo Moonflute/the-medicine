@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 현재 추가 조치 불필요
 ## 해설
 
 
-PR 간격 연장은 1도 방실 차단이며, 증상이 없으므로 관찰이 적절하다.
+M단백20g/L(<30), 골수 형질세포5%(<10)이며 칼슘/신기능·골격에 MM 관련 이상이 없고 빈혈은 철결핍으로 설명되어 MGUS에 부합한다. 선택지 A의 정기 검사 추적이 적절하다. M단백≥15g/L로 저위험만은 아니므로 보통 초기6개월 재평가 후 안정 시 연1회 등 위험도에 맞춰 추적하며 빈혈 원인검사도 계속한다. 이 케이스에는 PR 간격/방실차단 소견이 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006909 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MGUS 문항에 PR 연장/AV block 해설이 붙은 명백한 오연결 교체.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.myeloma.org/imwg/mgus-smoldering-multiple-myeloma--consensus-risk-factors
 
 ## 출처
 

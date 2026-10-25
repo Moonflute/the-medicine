@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,15 @@ D. 토포테칸 기반 화학요법과 흉부 방사선치료
 ## 해설
 
 
-제한기 소세포폐암 2기에서는 동시 방사선과 화학요법(플루오라보신+에토포시드)으로 국소 조절률과 생존을 향상시킨다. 수술은 비소세포암에 적용된다.
+폐문/폐내 림프절 침범이 있는 제한기 SCLC에서 수행상태가 좋으면 platinum(cisplatin 또는 적절한 경우 carboplatin)+etoposide와 동시 흉부 방사선치료(C)가 적절한 초기 근치 치료이다. Topotecan은 이 상황의 표준 초기 약제가 아니다. 일부 매우 초기 N0 SCLC는 수술 대상이 될 수 있으나 이 환자는 림프절 양성이다. 동시 항암방사선 후 진행이 없다면 현행 FDA 승인에 따른 durvalumab 공고요법도 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004332 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Platinum 약물명 오류와 SCLC에는 수술이 불가능하다는 단정을 고치고 현행 후속 durvalumab을 구분했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/lung/hp/small-cell-lung-treatment-pdq
+- https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-durvalumab-limited-stage-small-cell-lung-cancer
 
 ## 출처
 

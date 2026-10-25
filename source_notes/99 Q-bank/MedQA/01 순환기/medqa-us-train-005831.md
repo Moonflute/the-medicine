@@ -20,17 +20,19 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 혈관연축성 관상동맥질환
 
 ## 해설
 
+Dipyridamole은 정상 관상동맥 저항혈관을 확장하여 이미 최대확장된 협착 의존 영역과의 상대적 관류 차이/steal을 유발할 수 있어 B이다. 단순히 심장 혈류가 전신 말초혈관으로 빠져나가는 기전이 아니다. 급성흉통과 경계 troponin 환자에서 ACS 배제 전 약물부하가 안전하다고 권고하는 문항도 아니다.
 
-디피리다몰은 관상동맥 혈류를 말초 혈관으로 전환시켜 ‘관상동맥 혈류 훔침’(coronary steal) 현상을 일으키고 협착 부위에 가슴통증을 재발시킨다. 다른 선택지는 해당 메커니즘과 무관하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Coronary steal B를 관상동맥에서 전신말초로 혈류이동한다고 설명한 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

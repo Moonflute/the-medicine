@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "6riw7Ja166ClIOyggO2VmA"
 theory_objective_id: cc-04-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "급성 변동과 주의력 저하를 치매 진행으로 치부하지 않고 섬망·약물 원인 평가."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 장기 기억 평가
 
 ## 오답 포인트
 
-- **B. 치매 진행도:** 치매는 서서히 진행하므로 급성 변동과는 관련이 적다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

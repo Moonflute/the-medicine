@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 신경학적 손상
 
 ## 해설
 
+이전에 없던 발기부전이 골반골절 후 발생했으므로 외상성 신경혈관 손상을 우선 고려하며, 주어진 선지에서는 신경학적 손상(D)이 가장 적절하다. 발기는 S2–S4 부교감 신경 및 골반 신경총·해면체신경과 관련되고, 음부신경은 회음부 감각과 체성운동을 담당한다. 음부신경은 좌골신경의 가지가 아니다. 당뇨·죽상경화도 위험인자이지만 급성 외상 후 발생한 시간적 경과를 더 잘 설명하는 것은 외상성 손상이다.
 
-골반 골절 후 발기부전은 좌골신경(특히 음부신경) 손상과 연관된다. 가장 가능성 높은 원인은 골반 골절에 의한 신경 손상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 음부신경을 좌골신경의 한 부분으로 설명한 해부학 오류를 교정했다. 골반골절 직후 새 발기부전과 D의 시간적 연결은 유지한다.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 하시모토 갑상선염
 ## 해설
 
 
-TSH가 저하된 상태에서 말초 갑상선 기능저하 증상이 나타나는 경우는 뇌하수체 전엽의 종양(선종)으로 인한 중추성 갑상선기능저하가 가장 가능하다. 따라서 정답은 B이다.
+정답 B. 성욕/발기 저하와 피로·변비·서맥·건조피부·지연된 반사 이완은 여러 뇌하수체 축 저하를 고려하게 한다. 이런 임상 갑상선기능저하 양상에서 TSH가 낮으면 중추성 기능저하 원인인 뇌하수체 선종이 선택지 중 가장 부합한다. TSH만으로 중추성 저하를 확진하지 말고 free T4와 다른 호르몬 축, 필요 시 뇌하수체 영상을 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000959 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 저TSH+임상저하로 pituitary B 추론은 가능하나 freeT4/다른축 평가 없이 확진하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

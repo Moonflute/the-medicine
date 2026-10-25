@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 경동맥 스텐트 삽입술
 
 ## 해설
 
+반복되는 좌측 경동맥 영역 TIA와 70~89% 좌측 협착이 있어 적절한 수술 위험을 가진 환자는 조기 경동맥내막절제술(C)을 평가한다. 특히 70세 이상에서는 스텐트보다 CEA를 선호하는 근거에 시술 전후 뇌졸중 위험 차이가 포함된다. 최적 항혈소판·지질·혈압 관리도 병행하며 수술이 이를 대신하지 않는다. 완전히 회복된 결손에 혈전용해를 시행하는 상황은 아니다.
 
-경동맥 협착이 70~89%로 중증이며 일과성 허혈발작(TIA) 증상이 나타났으므로, 재발 위험을 낮추기 위해 경동맥 내막절제술이 권장된다. 스텐트 삽입은 경동맥 내막절제술에 비해 장기 재협착 위험이 높다. 따라서 다음 처치는 경동맥 내막절제술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 증상성 중증 경동맥 협착의 CEA C 확인. 단순 장기 재협착 차이로만 스텐트와 비교한 설명 교정.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/management-of-extracranial-carotid-disease-and-intracranial-atherosclerosis
 
 ## 출처
 

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 두부 CT
 
 ## 해설
 
+정답은 D, 두부 CT이다. 갑자기 생긴 편측 안면·상하지 위약과 구음장애는 급성 뇌졸중을 의심하게 한다. 긴급 비조영 CT 등 뇌영상으로 출혈을 신속히 확인/배제한 뒤 재관류 치료 적격성과 추가 혈관영상 필요성을 평가한다. 증상과 위험인자만으로 허혈성인지 출혈성인지 확정할 수 없으며, 경부 잡음이 있어도 경동맥 초음파가 초기 뇌영상보다 우선하지 않는다. CT가 초기에 정상이라고 허혈성 뇌졸중 자체가 배제되는 것도 아니다.
 
-급성 허혈성 뇌졸중 환자는 신경학적 결손과 혈압 상승을 보이며, 신속한 혈관 재관류가 필요하다. 초기 영상 검사는 빠른 치료 결정을 위해 두부 CT가 가장 적절하다. 따라서 두부 CT가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성 편측 결손에 두부CT D 유지. 허혈성으로 확진하고 모든 환자 재관류 필요라고 단정한 해설을 출혈 배제 및 적격성 평가 설명으로 수정.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/acute-stroke-management
 
 ## 출처
 

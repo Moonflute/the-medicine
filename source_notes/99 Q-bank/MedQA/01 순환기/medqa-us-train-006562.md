@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9idXRhbWluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 흡기 양압 감소
 
 ## 해설
 
+양압은 흉강내압을 높여 정맥환류를 줄일 수 있다. BiPAP시작후 심한 저혈압이 악화되어 선택지 D처럼 과도한 흡기압/평균기도압을 낮추는 것을 즉시 검토한다. 이는 정맥환류를 더 줄이는 처치가 아니다. 다만 양압은 LV후부하/폐부종에도 영향을 주므로 산소화·환기·혈압을 감시하며 기도전략, 약물 및 혈압지지를 함께 재평가한다. 설정조정만으로 쇼크치료가 끝나는 것은 아니다.
 
-환자는 심인성 쇼크(저혈압, 저소변, 저산소증) 상태이며, 이미 도부타민과 푸로세미드, BiPAP을 투여했음에도 혈압이 떨어졌다. 양압 환기 설정을 낮추면 정맥 귀환이 감소해 혈압이 더욱 악화될 수 있다. 따라서 양압을 감소시키는 것이 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 양압 감소가 정맥환류를 감소시킨다는 반대 기전을 교정하고 심인성쇼크의 다중 재평가 명시.
+- https://academic.oup.com/eurheartj/article/42/36/3599/6358045
 
 ## 출처
 

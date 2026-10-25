@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 메토트렉세이트와 인플릭시맙
 ## 해설
 
 
-메토트렉세이트와 셀레콕시브에 충분히 반응하지 않는 활동성 류마티스관절염에서는 TNF 억제제인 인플릭시맙을 추가한다.
+Methotrexate는 단순 진통제가 아니라 RA 질병조절제이다. 적절한 용량·기간에도 활막염이 지속된다면 생물학제 등을 추가하는 치료 강화가 필요하며 선택지 D의 methotrexate+infliximab이 적절한 조합이다. 그러나 투여량·순응도·활성도와 감염 등 다른 악화 원인을 먼저 확인한다. TB·HBV 등 감염 위험 평가 후 시작하며 infliximab만이 모든 환자의 유일한 강화약이라는 뜻은 아니다. 장기 steroid 추가만으로 질병조절을 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007428 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MTX를 통증약으로만 표현한 맥락을 질병조절제로 설명하고 생물학제 증량의 조건·안전평가를 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/9273041/
 
 ## 출처
 

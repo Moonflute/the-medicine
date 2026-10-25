@@ -18,18 +18,22 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: D
+answer_change_reason: "CHAP 이후 만성고혈압 치료 기준 140/90 반영; D에서 C로 정답 교정."
 ---
 
 # MedQA US 임상문제
@@ -47,8 +51,13 @@ D. 약물은 필요하지 않다
 
 ## 해설
 
+기존 만성고혈압에서 140/90 mmHg가 지속되면 현행 ACOG는 치료 시작/증량을 권고한다. 따라서 반복 확인 후 선택지 중 라베탈롤(C)이 적절하며 약물이 필요 없다는 D는 구 권고에 근거한 답이다. ACE 억제제 포시노프릴은 피하고 이전 전자간증 병력에 따른 저용량 아스피린 예방 등도 별도 평가한다.
 
-임신 중 만성 고혈압이 있으면 혈압을 140/90 mmHg 이하로 유지해야 하며, 라베탈롤은 태아에 안전하고 급성 고혈압에 효과적이다. 베타 차단제는 태아 성장 억제 위험이 있어 1단계 고혈압에만 권고된다. 따라서 약물은 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: CHAP 이후 만성고혈압 치료 기준 140/90 반영; D에서 C로 정답 교정.
+- https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2022/04/clinical-guidance-for-the-integration-of-the-findings-of-the-chronic-hypertension-and-pregnancy-chap-study
 
 ## 출처
 

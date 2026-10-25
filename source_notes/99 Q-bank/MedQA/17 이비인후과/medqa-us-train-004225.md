@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 경구 아스피린
 
 ## 해설
 
+급성 중이염 뒤 고열, 귀뒤 홍반·압통과 귓바퀴의 가쪽/아래쪽 변위는 급성 유양돌기염 및 골막하 농양 가능성을 시사한다. 제시된 선택지에서는 B, 측두골 CT가 합병증 범위를 평가하는 데 적절하다. 단순한 고막 천공이나 이루만 있다는 이유로 모든 중이염에 CT가 필요한 것은 아니다. 이 상태는 신속한 이비인후과 평가와 정맥 항생제 치료를 필요로 하므로 경구 amoxicillin만으로 외래 치료하는 상황과 다르다.
 
-고막이 팽창하고 고름이 배출되는 급성 중이염은 고막 천공을 동반한 경우가 많으며, 합병증을 평가하기 위해 측두골 CT가 필요하다. CT는 골구조 손상 여부를 확인한다. 따라서 측두골 CT가 적절한 다음 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 측두골 CT B의 근거는 단순 고막 천공이 아니라 유양돌기염의 귀뒤 염증·귓바퀴 변위임을 명확히 함.
+- 공식/학회 근거: https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/
+- 공식/학회 근거: https://www.bsac.org.uk/paediatricpathways/otitis-media-mastoiditis.php
 
 ## 출처
 

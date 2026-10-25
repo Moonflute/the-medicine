@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 말초혈액 도말에서 림프모구 50% 초과
 ## 해설
 
 
-소아 급성 림프모구성 백혈병(ALL)에서는 골수에서 림프모구 비율이 25% 이상으로 증가한다. 이는 진단에 가장 특이적인 소견이며, 골수생검에서 확인된다. 따라서 골수생검에서 림프모구 25% 초과가 예상되는 것이 정답이다.
+소아의 다계열 감소·멍·림프절병증은 ALL을 의심하게 한다. A의 골수 림프모구25%초과는 명백한 골수 침범으로 해당 진단을 지지하고, TdT 양성 하나나 t(9;22) 하나는 모든 ALL의 필수/특이 소견이 아니다. 실제 진단에는 골수 형태와 계열 면역표현형·유전검사를 통합하며 분류에 따라20–25% 경계가 사용되므로 이 선택지의25%를 모든 상황의 유일 절대 기준으로 외우지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005006 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ALL의 골수 림프모구 증가 A 유지;25%가 모든 현행 분류에서 유일 절대 기준이라는 설명 보정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

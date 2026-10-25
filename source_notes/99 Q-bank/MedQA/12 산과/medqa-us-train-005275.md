@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRlbm9sb2wubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 아테놀롤
 
 ## 해설
 
+안구돌출·미만성 갑상선종·체중감소와 빈맥은 Graves 갑상선항진증을 시사한다. 유리 T4/T3와 TRAb 등으로 평가하고, 임신 1기 약물치료가 필요하면 메티마졸 태아병 위험을 고려해 PTU(C)를 선호한다. PTU도 태반을 통과하고 간독성·태아 갑상선억제 위험이 있어 최소 유효 용량으로 감시한다. 베타차단제는 필요한 경우 단기 증상 조절용이며 원인 치료를 대체하지 않는다.
 
-임신 중 갑상선 항진증은 프로필티오우라실이 태반을 통과해 태아에 안전하게 사용할 수 있다. 베타 차단제는 태아 성장 억제 위험이 있어 1단계에서는 피한다. 따라서 프로필티오우라실이 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: PTU가 태반 통과하므로 안전하다는 역논리 수정.
+- https://www.thyroid.org/hyperthyroidism-in-pregnancy/
 
 ## 출처
 

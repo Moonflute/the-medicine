@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 비건락성 육아종
 
 ## 해설
 
+분절성 회장/결장 염증은 Crohn을 시사하며 제시 중 비건락성 육아종 D가 상대적으로 특이적이다. 모든 Crohn에서 보이는 것은 아니고 감염 등에서도 가능하다. Cryptitis나 회장염도 Crohn과 관련되지만 더 비특이적이며 CMV봉입체와 구별한다.
 
-크론병에서 비건락성 육아종은 비특이적이지만, 비건락성 육아종이 존재하면 크론병을 강하게 시사한다. 다른 선택지는 크론병과 직접적인 연관이 적다. 따라서 가장 특이적인 소견은 비건락성 육아종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Crohn의 육아종 D를 절대특이소견으로 과장하지 않고 다른선지도 관련됨을 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

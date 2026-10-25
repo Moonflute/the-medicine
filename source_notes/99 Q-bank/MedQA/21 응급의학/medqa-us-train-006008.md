@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 수액 소생
 
 ## 해설
 
+저혈압과 빈맥이 있는 관통성 복부외상 환자에서 비장 주위 FAST 양성은 복강 내 출혈을 시사한다. 즉각적인 정맥 접근과 소생(D)을 시작하되, 출혈성 쇼크에서는 혈액제제 중심 소생과 응급 출혈 통제를 병행한다. 혈압이 정상화될 때까지 다량의 결정질 수액만 투여하거나 CT를 기다려서는 안 된다. 이 환자는 외상외과의 신속한 개복술 평가가 필요한 상태이다.
 
-복부 팽창·저혈압·빈맥·FAST에서 비장 주위 액체는 복강 내 출혈을 의미하며, 혈역학적 쇼크가 진행 중이다. 가장 급선무는 수액으로 혈액량을 보충하는 것이다. 따라서 수액 소생이 최선 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 쇼크에서 소생을 즉시 시작하는 D를 유지하되 FAST 양성 불안정 환자의 응급 개복술을 수액 반응 대기로 지연하지 않도록 교정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

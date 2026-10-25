@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 요 pH 증가
 
 ## 해설
 
+임신 중 프로게스테론 작용 등으로 요관 평활근 긴장도와 연동운동이 감소하고 요로가 확장되면 소변 배출이 지연되어 요정체와 상행성 감염에 유리해진다. 따라서 A가 적절하다. 옆구리 통증·늑골척추각 압통과 백혈구에스터라제·아질산염 양성은 요로감염을 지지한다. 요관 폐쇄가 완화되기 때문에 감염된다는 설명은 맞지 않는다.
 
-임신 시 프로게스테론에 의해 요관 평활근 긴장이 감소하고 요관이 확장돼 요관 폐쇄가 완화된다. 이는 요관 평활근 긴장도 감소가 요로 감염 위험을 증가시키는 주요 기전이다. 따라서 정답은 요관 평활근 긴장도 감소이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 요관 이완이 폐쇄를 완화해 감염을 유발한다는 잘못된 연결을 요정체·배액 지연으로 교정했다.
+
 
 ## 출처
 

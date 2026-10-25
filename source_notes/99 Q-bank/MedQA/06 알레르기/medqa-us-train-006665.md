@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 아나필락시스와 세포독성 과민반응의 혼합
 
 
 갑작스러운 안면·목 부종·호흡곤란·양쪽 폐에서 큰 협착음은 전신 혈관 확장과 기도 부종을 동반한 급성 전신 알레르기 반응이다. 땅콩 알레르기와 기존 천식 병력이 있어 IgE 매개 즉시형(제1형) 과민반응, 즉 아나필락시스가 가장 가능성 높다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-006665`와 직접 대조했다.
+- 판정: 땅콩 노출 가능성 후 급성 점막·호흡기 침범은 IgE 즉시형 A와 일치. 정상 혈압이어도 아나필락시스 가능; 원문과 대조.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
 
 ## 출처
 

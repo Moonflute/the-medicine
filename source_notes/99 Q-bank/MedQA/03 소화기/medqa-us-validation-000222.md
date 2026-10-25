@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,15 @@ D. 2주 후 요소호기검사를 시행한다
 ## 해설
 
 
-헬리코박터 파일로리 eradication 치료 중 알코올은 위점막 손상을 악화시킬 수 있어 치료 효과를 방해한다. 따라서 치료 기간 동안 음주를 피하는 것이 권장된다. 가장 적절한 권고는 앞으로 2주 동안 음주를 피한다이다.
+정답 A. Amoxicillin 알레르기가 있는 환자에게 흔히 고려하는 bismuth 기반 요법에는 metronidazole이 포함된다. 이를 복용한다면 허가사항상 치료 중 및 종료 후 최소 3일까지 음주를 피해야 한다. 본문은 실제 항생제명을 명시하지 않으므로 반드시 그 약이 처방됐다고 단정하지 않는다. 제균 확인은 항생제 종료 후 최소 4주, PPI 중단 후 2주 이후 시행하므로 단순 2주 뒤 요소호기검사는 이르다. 예방적 steroid는 필요하지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000222 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: amoxicillin 알레르기 사례에서 metronidazole 포함 제균요법의 금주 주의와 제균확인 시점을 구체화; 실제 처방명 없는 부분은 조건부 표현.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=205054e1-8172-47dc-931c-a18a60e7e9f0
+- https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf
 
 ## 출처
 

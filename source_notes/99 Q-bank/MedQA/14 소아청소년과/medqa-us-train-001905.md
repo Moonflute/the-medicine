@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 요도 카테터 삽입
 
 ## 해설
 
+소변량이 적고 팽만이 있어 도뇨(D)로 요량·저류 여부를 평가하고 무균 소변 검체를 얻을 수 있다. 저류가 있으면 감압한다. 다만 이 소견만으로 후부요도판막을 확진할 수 없으며, 10일 신생아의 발열·수유불량·기면은 패혈증 평가와 신속한 항생제 치료도 필요한 응급상황이다.
 
-신생아의 복부팽만, 배뇨 감소, 발열은 요도 폐쇄에 의한 급성 요로폐색을 시사한다. 요도 폐쇄 시 방광에 급성 저류가 발생하므로 즉시 방광 배압을 완화해야 한다. 따라서 요도 카테터 삽입이 최우선 초기 관리이다. 다른 선택지는 진단적 검사이며, 급성 폐색에서는 먼저 카테터 삽입이 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 배뇨 감소·복부팽만의 도뇨 D 유지. 요로폐쇄 확정과 신생아 발열 평가 누락 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/Recognition_of_the_seriously_unwell_neonate_and_young_infant/
+- https://uroweb.org/guidelines/paediatric-urology/chapter/congenital-lower-urinary-tract-obstruction
 
 ## 출처
 

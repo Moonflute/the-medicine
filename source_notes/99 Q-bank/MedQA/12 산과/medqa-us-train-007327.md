@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 산후 MMR 백신과 면역글로불린 접종
 
 ## 해설
 
+이미 비면역이 기록된 환자에게 MMR 생백신은 임신 중 투여하지 않고 산후 접종하므로 A이다. 임신 중 금기는 태아에 대한 이론적 위험에 근거하며, 우발적 접종 자체가 임신중절 사유는 아니다. 이 문항에서 추가 혈청검사를 접종의 전제처럼 요구하거나, 노출 병력이 없는 환자에게 면역글로불린을 일률적으로 투여할 필요는 없다.
 
-임신 중에는 살아있는 백신인 MMR을 투여하면 태아에 위험을 초래한다. 산후에 혈청 검사 후 면역이 없으면 산후에 백신을 맞춘다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: A와C를 혼동한 혈청검사후접종 해설 수정. MMR 임신금기는 이론적위험,비면역확인된 산후접종A.
+- https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html
+- https://www.cdc.gov/vaccines/hcp/imz-best-practices/special-situations.html
 
 ## 출처
 

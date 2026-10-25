@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 정맥주사 트리메토프림-설파메톡사졸
 
 ## 해설
 
+심한 이통과 이루, 외이도 육아조직, 혈당 조절 불량 및 인접 골 파괴는 괴사성 외이도염/두개저 골수염에 합당하다. 녹농균이 중요한 원인으로 선지 중 전신 항녹농균 작용을 갖는 C, 정맥 ciprofloxacin이 적절하다. 실제 치료는 배양과 감수성, 신기능, 중증도 및 약제 안전성을 고려해 ENT/감염내과와 조정하며 국소 항진균제만으로 치료할 상태가 아니다. 모든 유양돌기염이 녹농균성이라는 뜻은 아니다.
 
-외이도 농양·유양돌기염은 Pseudomonas aeruginosa(녹농균) 감염이 흔하며, 중증 환자는 정맥 시프로플록사신으로 광범위한 항균활동을 제공한다. 따라서 정맥주사 시프로플록사신이 가장 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 당뇨·외이도 육아조직·골 파괴의 괴사성 외이도염을 일반 유양돌기염/외이도 농양과 혼동하지 않도록 교정.
+- 공식/학회 근거: https://www.rightdecisions.scot.nhs.uk/antimicrobial-prescribing-nhs-lothian/body-systems/ear-nose-throat-infections/necrotising-otitis-externa/
 
 ## 출처
 

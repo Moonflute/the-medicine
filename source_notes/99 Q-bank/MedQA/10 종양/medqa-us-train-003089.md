@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 구제요법
 
 
 수술 전 방사선 치료는 종양을 축소시켜 수술 가능성을 높이는 유도요법(Neoadjuvant therapy)이다. 환자는 전이성 유방암으로 수술이 예정돼 있으므로 방사선은 유도요법에 해당한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003089 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수술에 선행하는 초기 종양감소 치료를 induction/neoadjuvant B로 분류하는 용어 문항은 원문·해설과 일치한다. 전이성 유방암에서 이 수술/방사선 순서 자체를 일반적 표준으로 승인한 것은 아니다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 증상 발작 사이의 추가 휴식
 ## 해설
 
 
-혈우병 환자는 관절 내 출혈로 인한 hemarthrosis가 반복되며, 관절 손상을 예방하려면 출혈이 없는 기간 동안 충분한 휴식을 취해 관절을 보호해야 한다. 따라서 추가 휴식이 예방적 치료이다.
+가벼운 외상 또는 자발적으로 반복되는 혈관절증과 남성 가족력은 혈우병을 시사한다. 선택지 중 적절한 예방은 정기 응고인자 농축제(C)이며, 관절 손상을 줄이기 위해 출혈 예방 목표에 맞추어 개별화한다. 휴식만으로 응고인자 결핍을 보완할 수 없다. DDAVP는 반응이 확인된 일부 경증 혈우병 A에서 제한적으로 쓰며 모든 혈우병의 장기 관절출혈 예방을 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009385 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원정답 C 응고인자 농축제와 달리 해설이 D 휴식을 정답으로 주장한 명백한 불일치. 반복 관절출혈 예방은 정기 지혈 예방요법이며 휴식 단독이 아님.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www1.wfh.org/publication/files/pdf-1863.pdf
 
 ## 출처
 

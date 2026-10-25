@@ -22,13 +22,15 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 정맥 중탄산나트륨을 투여한다
 
 ## 해설
 
+장시간 압박·근손상, CK 상승, 갈색 혈색소 양성 소변은 횡문근융해에 의한 고칼륨혈증을 시사한다. K 7.1과 ECG 변화에 투여한 calcium은 심근을 안정화하지만 혈중 K를 낮추지 않는다. 다음에는 정맥 insulin과 glucose B로 K를 세포 내 이동시키며 혈당·K를 반복 모니터링한다. 효과는 일시적이므로 지속·반발 고K, 신기능 및 임상 상태에 따라 K 제거와 투석을 병행·고려한다.
 
-중증 고칼륨혈증과 근육 손상(횡격막) 후 인슐린과 포도당 투여는 세포 내 K⁺ 이동을 촉진해 혈중 칼륨을 급속히 낮춘다. 따라서 인슐린‑포도당 치료가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 근육손상 횡격막 오역을 횡문근융해로 수정. Ca 후 K 이동 insulin/glucose B의 의미와 재평가를 명시.
+- https://www.ukkidney.org/health-professionals/guidelines/treatment-acute-hyperkalaemia-adults-0
 
 ## 출처
 

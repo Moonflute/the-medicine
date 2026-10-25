@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 심전도에서 델타파
 
 ## 해설
 
+우심방과 우심실 사이 판막 통로가 막혀 있고 심방·심실 중격 결손으로 혈류가 우회하는 것은 삼첨판 폐쇄증에 부합한다. 저형성 우심실과 상대적 좌심실 우세로 심전도 좌축편위(B)가 흔하다. 이를 완전 방실중격결손의 사례로 바꾸어 설명하지 않는다.
 
-완전 방실중격결손은 좌축편위(EKG 좌축편위)를 흔히 동반한다. 따라서 좌축편위가 가장 높은 가능성의 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 三尖판 폐쇄 사례에 완전 방실중격결손 해설이 연결된 오류를 교체.
+
 
 ## 출처
 

@@ -23,13 +23,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 담낭염(Cholecystitis)
 
 ## 해설
 
+정답은 A이다. 무통성 진행 황달·체중 감소·회색변/진한 소변과 촉지되는 무통성 담낭(Courvoisier 징후)은 췌장두부암 등 악성 원위 담도 폐쇄를 시사한다. 간하부 낭성 구조는 팽창한 담낭일 수 있으며 췌장암 자체가 낭종이라는 뜻은 아니다. 췌장두부 병변은 원위 총담관을 막을 수 있고 비장성 담관이라는 구조를 가정하지 않는다.
 
-복부 초음파에서 간내·외 담관 확장과 낭성 종괴가 관찰된 것은 췌장 선암에 의한 폐쇄성 황달을 시사한다. 췌장암은 비장성 담관을 압박해 관류를 차단한다. 따라서 가장 가능성이 높은 진단은 췌장 선암이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 낭성 종괴는 팽창 담낭의 단서이며 비장성 담관이라는 잘못된 해부 설명 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,15 +19,17 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 당화혈색소 측정
 
 ## 해설
 
+정답은 C이다. 이동성 괴사성 발진, 체중 감소·설사, 고혈당과 glucagon 증가 및 췌장 종괴는 glucagonoma를 시사한다. 간의 다발성 종괴는 전이도 우려하게 한다. octreotide는 glucagon 분비와 관련 증상 조절에 사용할 수 있어 제시된 선택지 중 적합하지만 종양을 완치하는 유일 치료라는 뜻은 아니다. 병기와 수용체 상태·절제 가능성을 별도로 평가한다.
 
-피부의 진행성 괴사성 발진, 체중 감소, 당뇨, 고글루카곤 혈증, 췌장 종양은 글루카곤종(Glucagonoma)과 연관된다. 치료는 옥트레오타이드 투여가 표준이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: octreotide의 호르몬성 증상 조절과 종양의 완치 치료를 구별.
+- https://www.cancer.gov/types/pancreatic/neuroendocrine-tumors/treatment
 
 ## 출처
 

@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,11 @@ D. 시신경염
 
 ## 해설
 
+안구운동통, 색각저하 및 안경으로 교정되지 않는 아급성 단안 시력저하는 D, 시신경염에 합당하다. 과거 반대쪽 눈의 호전된 유사 에피소드도 이를 지지한다. 정상 세극등·두부 CT만으로 시신경염을 배제할 수 없고, 실제 안저가 정상이라고 본문에 제시된 것은 아니다. 다발성경화증과 연관될 수 있으나 이 문항만으로 MS를 확진하지 않는다.
 
-통증을 동반한 급성 시력 저하와 색각 이상, 정상 안저와 CT는 시신경염을 암시한다. 시신경염은 다발성 경화증과 연관이 있다. 따라서 가장 가능성 높은 진단은 시신경염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문에 정상 안저검사가 없고 정상 CT가 시신경염의 양성 근거가 되는 것은 아니므로 설명 정리.
 
 ## 출처
 

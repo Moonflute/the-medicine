@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 시상하부 경색
 
 ## 해설
 
+심한 주산기 출혈과 순환 저하 이후 젖 분비 감소 및 중증 저혈당이 나타나므로 시한증후군의 뇌하수체 허혈(C)이 가장 적절하다. 뇌하수체 손상으로 프로락틴이 감소하면 수유가 저하되고, ACTH 부족에 따른 코르티솔 결핍은 저혈당에 기여할 수 있다. 혈당 36 mg/dL은 발한·떨림·경련·의식 소실을 설명한다. 저혈당이나 입증되지 않은 저인슐린이 먼저 뇌하수체 허혈을 일으켰다는 순서가 아니다.
 
-산후 대량 출혈 후 저혈당과 저인슐린 상태가 발생하면 뇌하수체 혈류가 감소해 허혈이 일어나며, 이는 급성 뇌하수체 기능 저하(시한 증후군)를 초래한다. 갑상선 저하나 선종은 저혈당과 직접 연관되지 않는다. 따라서 뇌하수체 허혈이 가장 가능성 높은 원인이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 저혈당이 뇌하수체 허혈을 일으킨다는 역전된 인과 및 원문에 없는 저인슐린 단정을 교정했다.
+
 
 ## 출처
 

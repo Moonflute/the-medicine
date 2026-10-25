@@ -19,11 +19,13 @@ question_type: other
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 리히터 변환
 ## 해설
 
 
-M 단백 스파이크와 용해성 골병변은 다발성 골수종을 나타낸다. 다발성 골수종은 신장에 단백질 침착을 일으켜 요로감염 위험을 높인다. 따라서 요로감염이 가장 관련된 소견이다.
+M단백·용해성 골병변·빈혈은 MM을 시사한다. 정상 다클론 면역글로불린 기능 저하 등으로 세균 감염 위험이 증가하여 선택지 A의 요로감염과 연관될 수 있다. 이를 단순 신장 단백 침착이 직접 요로감염을 만든다고 설명하면 안 된다. Richter 전환은 CLL의 고등급 림프종 전환을 뜻한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005620 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MM의 감염 위험을 신장 단백 침착만으로 설명한 오류 교정; UTI A 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

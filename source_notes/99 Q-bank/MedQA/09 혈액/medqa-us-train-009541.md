@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 일차성 골수섬유증
 ## 해설
 
 
-JAK2 변이를 동반하고 골수 섬유화가 심하며, 혈액검사에서 빈혈과 백혈구 증가가 보이는 경우 일차성 골수섬유증이 가장 가능성 높다. 호지킨 림프종은 CD15/CD30 양성, 다발골수종은 M‑protein, 진성 적혈구증가증은 적혈구 과다와 JAK2 변이만 있다. 따라서 정답은 D이다.
+빈혈, 눈물방울 적혈구, 유핵적혈구와 미성숙 골수계 세포, 비장비대 및 어려운 골수 흡인은 일차성 골수섬유증(D)에 부합한다. JAK2 양성과 BCR::ABL1 관련 전좌 음성도 선택지 감별을 돕는다. 진성적혈구증가증에서도 백혈구·혈소판이 함께 증가할 수 있으므로 JAK2만으로 두 질환을 구별하지 않으며, 이 사례에서는 빈혈과 섬유화성 소견이 핵심이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009541 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 눈물방울/유핵적혈구·미성숙 골수계·dry tap·JAK2+/BCRABL−는 PMF D. PV는 적혈구만 증가한다는 부정확한 비교 수정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

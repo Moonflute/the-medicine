@@ -16,36 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "비타민 D 부족이 곧 모든 사람의 골질환이라는 정의를 기전·발생 가능성으로 명료화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-비타민 D 결핍증의 정의는 무엇입니까?
+비타민 D 결핍이 골격에 미치는 대표적인 영향은?
 
 ## 선택지
 
-A. 비타민 D 부족으로 인한 골 대사 질환
-B. 비타민 D 과다로 인한 고칼슘혈증
-C. 비타민 K 결핍으로 인한 출혈성 질환
-D. 칼슘 섭취 과다로 인한 신장 결석
+A. 칼슘·인 대사와 골 무기질화에 장애를 일으켜 소아 구루병·성인 골연화증의 원인이 될 수 있음
+B. 비타민 K 의존 응고인자만 선택적으로 감소시킴
+C. 적혈구의 산화손상만 선택적으로 증가시킴
+D. 항상 고칼슘혈증을 일으킴
 
 ## 해설
 
-비타민 D 결핍은 비타민 D가 부족해 골 대사에 장애를 일으키는 질환이며, 소아는 구루병, 성인은 골연화증을 유발한다.
+비타민 D는 칼슘·인 흡수와 뼈의 정상 무기질화에 중요하다. 결핍은 소아에서 구루병, 성인에서 골연화증의 원인이 될 수 있다. 낮은 수치가 측정된 모든 사람이 이미 증상성 골질환을 가진다는 의미는 아니다.
 
 ## 오답 포인트
 
-- **B. 비타민 D 과다로 인한 고칼슘혈증:** 비타민 D 과다는 고칼슘혈증을 초래하지만, 정의와는 반대이다.
+- **비타민 K 의존 응고인자:** 비타민 K의 주요 역할이다.
+- **적혈구 산화손상:** 비타민 E의 항산화 역할과 구분한다.
+- **항상 고칼슘혈증:** 결핍의 대표적 효과가 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 비타민 D 결핍증 (Vitamin D Deficiency)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/비타민 D 결핍증 (Vitamin D Deficiency).md`
-- 학습 목표: 원문 핵심: - **정의**: 비타민 D 부족으로 인한 골 대사 질환. 소아에서는 구루병(rickets), 성인에서는 골연화증(osteomalacia)을 유발함. - **원인**: 불충분한 햇빛 노출(UVB), 식이 섭취 부족, 흡수 장애(셀리악병, 염증성 장질환 등), 간/신장 질환으로 인한 대사 장애. - **기전**: 비타민 D 결핍은 칼슘과 인의 장내 흡수를 저하시켜 저칼슘혈증을 유발하고, 이는 이차성 부갑상선기능항진증을 초래하여 골 미네랄화 장애 및 골질 저하를 일으킴.
+- 학습 목표: 비타민 D 결핍이 칼슘·인 대사와 골 무기질화에 미치는 영향을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 비타민 D 부족이 곧 모든 사람의 골질환이라는 정의를 기전·발생 가능성으로 명료화.
+- 근거: https://ods.od.nih.gov/factsheets/Vitamind-HealthProfessional/

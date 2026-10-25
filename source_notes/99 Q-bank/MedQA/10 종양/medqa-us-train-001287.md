@@ -21,11 +21,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 해결되지 않은 폐렴
 ## 해설
 
 
-반복 감염과 고칼슘혈증, 빈혈, 골병변은 다발성 골수종을 시사한다. 골수종은 면역글로불린 결핍을 초래해 저감마글로불린혈증을 일으키므로, 이것이 감염의 주요 원인이다.
+빈혈·고칼슘혈증·신기능 저하와 뼈 통증은 다발골수종을 의심하게 한다. 이 질환에서는 단클론 면역글로불린이 증가해도 정상 다클론 항체 생성이 억제되는 immunoparesis가 생겨 반복 세균감염 위험이 높아진다. 선택지 B의 저감마글로불린혈증은 이런 기능적 정상 항체 결핍을 뜻한다. 총 감마글로불린이 모든 환자에서 낮다는 의미는 아니며, 제공되지 않은 두개골·골반 X선의 용해성 병변을 실제 관찰했다고 쓰지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001287 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골수종의 총면역글로불린 증가와 정상 다클론 면역억제를 구분하고 누락 영상을 보았다는 설명을 제거했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

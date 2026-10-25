@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -38,14 +40,17 @@ explanation_prompt_version: explanation-ko-v1
 ## 선택지
 
 A. 살모넬라 감염성 관절염
-B. 황색포도알균 감염성 관절염
+B. 포도알균 감염성 관절염
 C. 보렐리아 감염성 관절염
 D. 골관절염
 
 ## 해설
 
+고열·빈맥과 심한 수동 관절운동 통증, 혼탁한 호중구 우세 관절액은 화농성 관절염을 시사한다. 관절액 그람염색의 보라색 포도송이 모양 구균은 그람양성 포도알균에 합당하므로 B가 정답이다. 황색포도알균이 대표적 원인이지만 그람염색만으로 종을 확정하지는 못하며 배양·감수성 확인이 필요하다. 주사 자국 자체에서 균이 관찰된 것은 아니다.
 
-주사 부위에 보라색 포도송이 모양 구균은 황색포도알균이며, 정맥 약물 사용자에서 관절염을 일으키는 가장 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 그람염색이 주사 부위가 아니라 관절액 검체이며 원문 선지 Staphylococcus를 황색포도알균으로 좁힌 번역을 교정했다.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 거위발 윤활낭염
 
 ## 해설
 
+외측 무릎 압통과 옆으로 누운 상태에서 고관절을 신전·외전했다가 내릴 때 내전이 제한되고 불편한 Ober 검사 양상은 장경인대 긴장을 시사한다. 외측 대퇴골 상과 부위의 장경인대 관련 통증인 장경인대 증후군(A)이 주어진 선지 중 가장 합당하다. 이는 슬개골 하부 마찰이나 거위발 부위의 내측 통증과는 다르며, 외측곁인대 손상에서는 내반 스트레스 불안정성을 평가한다.
 
-외측 무릎 통증과 무릎을 펴고 벌릴 때 다리 움직임 제한은 장경인대(IT‑band) 긴장과 슬개골 하부 마찰을 일으키는 장경인대 증후군과 일치한다. 따라서 장경인대 증후군이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Ober 검사를 무릎 외전으로 잘못 설명하고 마찰 위치를 슬개골 하부로 잘못 기재한 해설을 교정했다.
 
 ## 출처
 

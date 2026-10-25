@@ -12,36 +12,45 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "기침이 흔하다는 문항을 지속 경고 변화의 의미로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-폐암 환자에서 가장 흔히 나타나는 증상은?
+폐암을 포함한 원인 평가를 고려하게 하는 호흡기 변화는?
 
 ## 선택지
 
-A. 기침
-B. 복통
-C. 발진
-D. 설사
+A. 지속·변화한 기침, 반복 객혈, 설명되지 않는 체중 감소 등
+B. 증상이 없으면 모든 폐암이 배제된다는 판단
+C. 객혈이 한 번이라도 있으면 폐암으로 즉시 확진
+D. 흡연력이 없으면 원인 평가를 중단
 
 ## 해설
 
-폐암의 주요 증상은 기침이며, 50~75% 환자에게서 나타난다.
+이러한 소견은 비특이적이지만 위험도와 지속성을 고려해 평가해야 한다. 조기 폐암은 무증상일 수 있으며 흡연력이 없어도 발생할 수 있다.
 
 ## 출처
 
 - 내부 학습 노트: 폐암 (Lung Cancer)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/폐암 (Lung Cancer).md`
-- 학습 목표: 원문 핵심: - 증상: 기침(50~75%), 객혈, 흉통, 호흡곤란, 체중 감소. 증상은 종양의 국소 침범이나 원격 전이에 의해 발생. - 합병증/전이 증상: 상부대정맥 증후군(SVC syndrome), Pancoast 증후군(상구부 종양에 의한 어깨 통증, Horner 증후군), 뇌/골 전이 증상. - 상부대정맥 증후군: 안면/상지 부종, 경정맥 확장, 호흡곤란. SCLC에서 흔함. - 신체 검사 소견: 곤봉지, 쇄골상 림프절 촉지, 편측 호흡음 감소, 국소 천명. - 부종양 증후군(Paraneoplastic Syndromes): SCLC에서…
+- 학습 목표: 폐암을 포함한 원인 평가가 필요한 지속 호흡기 경고 변화
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

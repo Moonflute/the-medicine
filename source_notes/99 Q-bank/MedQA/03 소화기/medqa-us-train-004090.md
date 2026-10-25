@@ -19,15 +19,17 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTG9wZXJhbWlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 소장 절제술과 회장루 조성
 
 ## 해설
 
+기존 소장절제력이 있고 떨어진 두 회장 협착이 있어 장길이를 보존하는 strictureplasty B가 선택지 중 적절하다. 이는 단순히 장을 잡아당기는 행위가 아니라 협착 부위를 절개·재봉합해 내강을 넓히는 수술이다. 길이·염증/섬유화·농양/누공·악성 의심 등을 평가해 적합성을 결정한다.
 
-크론병 환자에서 다발성 회장 협착이 존재할 때, 협착 부위마다 스트레칭(협착성형술)으로 장 통과를 회복시키는 것이 장기 보존에 가장 효과적이다. 따라서 각 협착에 대한 ‘협착성형술’이 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Crohn 협착성형술 B를 단순 stretching으로 오역한 해설 교정.
+- https://doi.org/10.14309/ajg.0000000000003465
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 건초염
 
 ## 해설
 
+무통성 손바닥 결절과 피부 당김에 이어 4–5지의 능동·수동 신전이 제한되는 것은 Dupuytren 구축이다. 손바닥 근막의 섬유증과 콜라겐 축적·단축인 손바닥 섬유종증(A)이 기전이다. 손가락이 굽은 자세로 고정되어 펴기 어려운 것이지 굴곡이 제한되는 것이 주된 소견은 아니다. 수동 신전까지 제한되어 척골신경 운동마비만으로 설명하기 어렵다.
 
-손바닥에 섬유성 결절이 형성되고 손가락 굴곡이 제한되는 것은 Dupuytren 수축증이다. 이는 손바닥 섬유종증에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Dupuytren 구축에서 굴곡이 제한된다는 반대 설명을 신전 제한으로 수정했다. 병태는 손바닥 섬유종증 A다.
 
 ## 출처
 

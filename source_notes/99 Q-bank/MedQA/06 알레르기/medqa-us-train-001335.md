@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 알레르기 검사를 시행한다
 ## 해설
 
 
-항생제 복용 중에 발진, 관절통, 발열, 단백뇨가 나타나는 경우 혈청병증(serum sickness‑like reaction)이 의심된다. 원인 약물을 중단하면 증상이 호전된다. 따라서 가장 적절한 조치는 항생제 중단이다.
+항생제 투여 약 1주 뒤 발열, 소양성 발진, 관절통, 부종이 발생해 약물 관련 혈청병 또는 혈청병 유사반응을 의심한다. 단백뇨도 있어 신장 침범 여부 평가가 필요하며, 유사반응이라고 확정할 수는 없다. 선지 중 우선할 조치는 원인 항생제 중단(B)이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001335`와 직접 대조했다.
+- 판정: 약물 중단 B 유지. 단백뇨가 있는 사례를 혈청병 유사반응으로 확정하지 않고 혈청병/유사반응 가능성으로 기술.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_%28SSLRs%29/
 
 ## 출처
 

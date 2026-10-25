@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 안심시킨다
 
 ## 해설
 
+10 mm 고형 결절과 불규칙 경계, 흡연력은 악성 가능성을 평가할 근거가 된다. 제시된 선택지 중 B의 PET가 추가 위험도 평가에 적합하며 단순히 12개월 뒤까지 기다리거나 안심시키지는 않는다. PET의 염증성 위양성과 작은 병변의 위음성이 있어 결과만으로 악성을 확진하지 않고, 사전 위험도에 따라 조직검사나 단기 추적 등을 결정한다.
 
-불규칙하고 톱니 모양의 경계는 악성 가능성을 시사한다. PET 검사는 대사 활성을 평가해 악성 여부를 판단하는 1차 선택이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 10mm 불규칙 결절에서 PET B의 역할을 악성 확진이 아닌 위험도 평가로 한정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3749714/
 
 ## 출처
 

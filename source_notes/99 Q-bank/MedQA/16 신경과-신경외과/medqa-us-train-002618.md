@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 아스피린을 중단하고 와파린을 시작한다
 
 ## 해설
 
+현재 평가에서는 심방세동이나 뚜렷한 심장성 색전원이 확인되지 않아 장기 재발 예방에는 항혈소판 요법이 적절하다. 아스피린과 서방형 디피리다몰 병합은 인정된 선택지이므로 선지 중 A가 가장 적절하다. 단순히 아스피린을 복용 중 재발했다는 이유만으로 이 병합이 언제나 우월하다고 확정할 근거는 부족하며, 순응도·뇌졸중 기전·장시간 심장리듬 감시 필요성과 다른 위험인자를 재평가해야 한다. 항응고 적응증 없이 와파린으로 바꾸지 않는다. 급성 재관류 적격성 평가는 장기 예방 약제 선택과 별개다.
 
-아스피린 단독 요법에 비해 아스피린 + 디피리다몰이 재발성 허혈성 뇌졸중 위험을 더 크게 감소시킨다. 환자는 이미 81 mg 아스피린을 복용 중이므로 추가로 디피리다몰을 투여하는 것이 2차 예방에 적절하다. 따라서 다음 단계는 디피리다몰 추가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 아스피린 복용 중 뇌졸중이면 디피리다몰 추가가 반드시 최선이라는 단정을 제거했다. 비심장성 뇌졸중의 장기 예방 선택지 중 A를 유지하되 재발 원인 재평가와 서방형 제제 조건을 명시했다.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/anti-platelet-therapy-in-ischemic-stroke-and-tia
 
 ## 출처
 

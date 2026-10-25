@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 류마티스관절염
 ## 해설
 
 
-환자는 류마티스 관절염으로 인한 심한 관절 변형과 골절 위험이 높으며, 이는 척추 불안정성을 초래한다. 류마티스 관절염 환자에서 척추 불안정성은 경추 골절 및 척수 압박 위험을 증가시킨다. 따라서 가장 큰 위험 요인은 류마티스 관절염이다.
+대칭성 손관절 변형은 류마티스관절염을 지지하며, 이는 환축추 관절의 인대·관절 손상으로 불안정성과 아탈구를 일으킬 수 있다. 새 경직·과반사·바빈스키 징후는 경수 압박을 시사해 D가 타당하다. 골절이 입증된 것은 아니며 이러한 환자에서 본문에 기술된 유발 조작을 실제로 반복해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-000094` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 대칭성 변형성 손관절염과 경수증의 위험 RA D 유지. 골절로 단정하지 않고 환축추 불안정성·경수 압박의 연결로 교정; 위험한 조작을 권하지 않음.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

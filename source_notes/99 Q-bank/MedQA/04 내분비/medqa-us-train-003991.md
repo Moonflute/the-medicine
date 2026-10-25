@@ -20,13 +20,15 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 뇌하수체 선종
 
 ## 해설
 
+안장위 석회화, 시야결손과 중추성 갑상샘저하의 조합은 선택지 중 두개인두종 A를 지지한다. 정상/낮은 TSH와 낮은 freeT4는 뇌하수체/시상하부 기능저하와 맞는다. 원발성 저하라면 보통 TSH가 상승하며, 모든연령에서 두개인두종이 가장 흔한 안장위종양인 것은 아니다.
 
-양측 시신경유두부종과 시야 결손, 저 TSH와 저 T4는 중추성 갑상선 기능저하를 시사한다. 안장위 석회화는 뇌하수체 혹은 시상하부 종괴를 의미하지만, 두개인두종은 시신경 압박과 시야 결손을 일으키는 가장 흔한 안장위 종양이다. 따라서 두개인두종이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 두개인두종 A의 석회화/시야결손 근거는 맞지만 모든연령 최다안장위종양이라는 단정 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

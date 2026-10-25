@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 지연성 운동이상증
 
 ## 해설
 
+좌측에서 더 심한 안정떨림, 양측 강직, 작은 목소리와 표정 감소는 파킨슨병(B)을 가장 지지한다. 증상이 반드시 한쪽에만 있어야 하는 것은 아니며 비대칭적으로 시작해 양측으로 진행할 수 있다. 본태성 떨림은 보통 동작·자세떨림이 중심이고 진행성 핵상마비의 특징적 안구운동 이상은 제시되지 않았다.
 
-안정 시에 한쪽 손에만 나타나는 휴식 떨림, 목소리 감소, 표정 감소, 운동 시 저항(강직) 및 운동 완만함은 파킨슨병의 전형적인 삼대 증상이다. 따라서 파킨슨병이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문에서 양측이되 좌측 우세인 떨림을 한쪽에만 존재한다고 한 오류와 삼대증상 혼용을 교정한다.
 
 ## 출처
 

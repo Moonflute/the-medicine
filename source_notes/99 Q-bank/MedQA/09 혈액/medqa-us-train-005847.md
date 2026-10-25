@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 교환수혈
 ## 해설
 
 
-급성 두드러기와 전신 부종은 중증 알레르기 반응이며, H1 차단제(세티리진)와 H2 차단제·스테로이드를 병용하는 것이 표준 치료이다. 에피네프린·산소·수액은 아나필락시스에 필요하다.
+반복되는 심한 복부·허벅지 통증과 가족성 SCD를 시사하는 병력에서 장기적으로 통증 위기의 빈도/중증도를 낮추는 선택지는 hydroxyurea B이다. HbF 증가 등을 통해 HbS 중합과 혈관폐쇄를 줄인다. 현재 통증의 즉각적 진통·합병증 평가는 별도로 필요하고 산소·수액·교환수혈은 각각 적응이 있을 때 쓰며 장기 hydroxyurea의 역할을 대신하지 않는다. 이 케이스에는 두드러기·혈관부종·아나필락시스가 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005847 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: SCD 장기 통증발작 예방 문항에 두드러기/H1·H2·steroid 해설이 붙은 명백한 오연결을 교체.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=76957c0d-0f98-4376-bb06-eee651adc09d
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 거대세포바이러스 감염
 ## 해설
 
 
-CD4 80/mm³인 HIV 환자에서 다발성 둥근 표재성 식도 궤양은 HSV(단순 헤르페스 바이러스) 식도염이 가장 흔한 원인이다. HSV는 작은, 깊이 얕은 궤양을 만들며, 치료 없이 진행되면 증상이 지속된다. 따라서 단순 헤르페스 바이러스 감염이 가장 가능성 높은 원인이다.
+내시경의 여러 작고 경계가 뚜렷한 원형 표재성 궤양은 선택지 중 HSV 식도염 A에 더 부합한다. CMV는 상대적으로 크고 깊은 선형 궤양이 전형적이지만 형태가 겹칠 수 있어 필요하면 생검으로 구분한다. HIV/CD4 수치만으로 HSV가 모든 식도염의 가장 흔한 원인이라고 단정하지 않는다. 일시적 LES 이완이나 억제신경 변성은 이 궤양 소견을 설명하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003552 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문의 작은 원형 표재성 식도궤양으로 HSV A 유지; CD4만으로 HSV가 모든 경우 가장 흔하다는 과장 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

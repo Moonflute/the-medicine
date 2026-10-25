@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 24시간 신체 억제 처방
 
 ## 해설
 
+급성 주의력/지남력 변화와 위험한 흥분은 섬망에 맞는다. 즉각적인 안전 확보와 원인 평가·비약물 진정을 시행하고, 자·타해 위험이 크고 진정적 접근이 불가능하거나 효과가 없으면 단기간 항정신병약(A)을 고려한다. QT·신경학적 부작용과 Parkinson/Lewy body 질환 위험을 평가한다. 이는 섬망의 원인 치료나 신속한 골절 치료를 대신하지 않는다.
 
-급성 섬망 환자에서 과활동·공격성이 나타나면 항정신병약(예: 할로페리돌) 투여가 급성 행동 조절에 가장 효과적이다. 수술은 섬망 자체를 치료하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 항정신병약을 모든 과활동 섬망의 최선 치료로 설명한 과장 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg103/chapter/Recommendations
 
 ## 출처
 

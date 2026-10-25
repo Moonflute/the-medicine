@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. BCR-ABL 유전자
 ## 해설
 
 
-CLL에서 혈소판 감소는 골수 침범을 의미하며, 이는 불량 예후와 연관된다. 다른 선택지는 예후와 직접적인 연관이 적다.
+고령·무통성 림프절/비장비대의 CLL 의심 맥락에서 선택지 B 혈소판감소는 진행성 골수부전/불량 병기의 중요한 단서다. 다만 면역성 혈소판감소·약물 등도 가능하여 모든 감소가 곧 골수 침윤이라는 뜻은 아니다. BCR::ABL1은 CML 관련이며 CLL의 예후표지로 대신 쓸 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008030 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CLL 혈소판감소 B의 불량 병기 연관 유지; 원인 구분 없이 항상 골수 침범이라는 단정 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

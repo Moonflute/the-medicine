@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 식도 폐쇄증
 
 ## 해설
 
+출생 직후 중심 청색증, 단일 제2심음, 모체 당뇨 병력은 보기 중 대혈관 전위(B)에 가장 부합한다. 실제 X선이 제공되지 않아 특징적 심장 모양을 보았다고 단정하지 않는다. 확진에는 심초음파가 필요하다.
 
-신생아의 청색증, 단일 제2심음, 그리고 흉부 X‑ray에서 대혈관 전위가 보이면 대혈관 전위가 가장 가능성 높은 진단이다. 동정맥 기형은 잡음이 동반되고, 선천성 횡격막 탈장은 장음 감소와 복부 장기 이동을 보인다. 따라서 대혈관 전위가 정답이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미제공 X선에서 TGA를 관찰했다는 순환 해설을 임상 근거로 교체.
+
 
 ## 출처
 

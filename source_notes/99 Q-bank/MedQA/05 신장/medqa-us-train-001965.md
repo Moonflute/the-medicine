@@ -20,13 +20,15 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,15 @@ D. 절대적 금기 없음
 
 ## 해설
 
+선택지에 제시된 소아기 백혈병의 장기 관해, 급성 신손상, 과거 음주력만으로 모든 장기·조직 기증을 일률적으로 금지할 수 없으므로 D이다. 다만 D는 이 환자의 모든 조직이 적합하다는 보장이 아니다. HIV 양성자의 장기는 HOPE Act 및 OPTN 요건에 따라 HIV 양성 수혜자에게 이식할 수 있고, HCV를 포함한 감염 전파 위험은 장기 종류·수혜자·동의·치료 가능성을 평가한다. 조직·각막의 공여 적합성은 별도 규정을 적용한다. HIV/HCV가 항상 모든 장기 기증의 절대금기라는 기존 설명은 부정확하다.
 
-HIV 감염, C형 간염, 과거 백혈병 이식 등은 장기 기증 시 위험요소이지만 현재 CD4 수치가 양호하고 바이러스량이 검출되지 않아 절대 금기에 해당되지 않는다. 절대 금기는 전염성 질환(예: HIV 양성, 활동성 C형 간염)이나 악성 종양 등에서만 적용된다. 따라서 절대적 금기가 없으므로 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 해설의 HIV/HCV 일괄 절대금기 주장을 제거. 선택지 A–C는 자동 절대금기가 아니나 장기·조직별 감염 규정은 별도.
+- https://www.hrsa.gov/optn/professionals/resources/hope-act
+- https://www.cdc.gov/transplant-safety/hcp/clinical-guidance/index.html
 
 ## 출처
 

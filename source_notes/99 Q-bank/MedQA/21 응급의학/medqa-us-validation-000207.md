@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 엽산 과다
 
 ## 해설
 
+철분이 들어 있는 종합비타민을 권장량보다 많이 복용하면 변비, 구역과 상복부 불편감이 발생할 수 있어 B가 가장 잘 부합한다. 장관 내 철의 자극과 위장관 부작용이 관련되지만, 섭취한 철이 전혀 흡수되지 않는다는 뜻은 아니다. 이 사례의 비교적 만성적인 변비·상복부 통증을 급성 부식성 철 중독이나 전신 철 과부하가 확진된 것으로 확대해서는 안 된다.
 
-종합비타민에 함유된 철분 과다 복용은 변비와 위장관 통증을 유발한다. 철분은 장관에서 흡수되지 않은 채로 대변에 남아 변비를 악화시키며, 위점막을 자극해 상복부 통증을 일으킨다. 따라서 철분 과다가 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 철분 관련 위장관 부작용 B를 유지하고 철분이 전혀 흡수되지 않는 듯한 과도한 기전 표현을 정리한다.
 
 ## 출처
 

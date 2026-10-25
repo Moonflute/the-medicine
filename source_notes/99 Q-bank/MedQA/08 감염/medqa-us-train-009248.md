@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 매독 트레포네마 검사
 ## 해설
 
 
-HIV 환자에서 진행성 매독에 의한 대동맥염(동맥류)은 흉부 X선에서 종격동 확대와 전이완기 잡음으로 나타난다. 매독 트레포네마 검사(혈청 RPR/VDRL)로 매독 감염을 확인하는 것이 가장 도움이 된다. 다른 검사는 해당 병변을 확인하지 못한다.
+대동맥판 역류·종격동 확장과 빛-근접반사 해리, 감각성 실조는 후기 매독의 심혈관·신경 침범을 시사한다. 선택지 중 treponemal 검사(D)가 맞으며 TPPA나 treponemal EIA 등이 해당한다. RPR/VDRL은 비트레포네마 검사로 다른 범주이며 임상상과 두 종류의 검사 및 필요한 신경매독 평가를 함께 해석한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009248 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 대동맥염·빛근접반사 해리·감각성 실조에서 매독 treponemal 검사 D 유지. RPR/VDRL을 treponemal 검사라고 부른 오류 수정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7301a1.htm
 
 ## 출처
 

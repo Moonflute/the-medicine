@@ -19,15 +19,17 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 복부 CT 혈관조영술
 
 ## 해설
 
+심한 저혈압·복통·구토·혼돈과 자가면역 병력에서는 부신위기를 의심해 hydrocortisone A를 검사결과 전에 투여할 수 있다. 이것만으로 확진되는 것은 아니며 수술출혈·패혈증 등 다른 쇼크원인도 즉시 평가한다. 기도/순환 소생과 등장성 수액 등 처치를 병행하고 steroid만 투여해 관찰하지 않는다.
 
-수술 후 급성 부신 위기는 저혈압·복통·혼돈을 동반하며, 고용량 정맥 하이드로코르티손이 즉시 호르몬 결핍을 보충한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 수술후 쇼크의 부신위기 의심 A를 임상확진으로 단정하지 않고 소생·다른 쇼크감별 병행 명시.
+- https://www.endocrine.org/-/media/endocrine/files/cpg/primary-adrenal-insufficiency-cpg-resource-page-13feb18.pdf
 
 ## 출처
 

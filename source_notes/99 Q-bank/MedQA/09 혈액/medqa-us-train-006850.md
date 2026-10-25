@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 골수이형성증후군
 ## 해설
 
 
-메트포르민·글리클라지드 복용자는 비타민 B12 결핍으로 거대적아구성 빈혈이 발생할 수 있다. 이는 적혈구 DNA 합성 장애에 해당한다.
+장기 metformin 사용은 B12 결핍 위험과 연관되고 거대적혈구 빈혈·저망상적혈구와 손발 저림은 그 가능성을 지지한다. B12 관련 엽산 대사 장애로 DNA 합성이 저해되어 A가 맞다. Gliclazide를 동일하게 확립된 B12 결핍 원인으로 묶지 않는다. 도말 그림이 없으므로 과분절 등을 직접 관찰했다고 하지 않고 실제 B12/필요시 MMA 등을 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006850 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: B12 흡수 저하를 gliclazide에도 같은 기전으로 돌린 설명 교정; DNA 합성 장애 A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 요추천자
 
 ## 해설
 
+발열·수막자극징후·의식변화는 수막뇌염을 의심하게 한다. 이 환자에는 새로 발생한 발작과 지속 혼돈이 있어, 보기 중 뇌 CT(A)로 LP 전 종괴효과 등 안전성 문제를 평가하는 것이 적절하다. 모든 수막염 환자가 LP 전에 CT를 받아야 하는 것은 아니다. 혈액배양과 경험적 항균치료는 영상이나 LP를 기다리며 지연해서는 안 되고, 정상 CT만으로 모든 뇌탈출 위험이 사라지는 것도 아니다.
 
-혼란, 발열, 두통, 광과민성, Brudzinski 양성은 급성 수막염을 시사한다. 수막염 진단을 확정하기 위해서는 먼저 뇌 영상으로 출혈이나 종양을 배제해야 하며, CT가 가장 빠른 초기 검사이다. 따라서 가장 적절한 처치는 뇌 CT이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수막염 환자는 모두 CT를 먼저 받아야 한다는 해설 오류 교정. 이 사례의 새 발작/의식변화 때문에 A 선택.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng240/chapter/Recommendations
+- 공식/학회 근거: https://www.journalofinfection.com/article/S0163-4453%2816%2900024-4/fulltext
 
 ## 출처
 

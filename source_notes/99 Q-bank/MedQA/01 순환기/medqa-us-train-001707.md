@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 절단술
 
 
 심각한 말초동맥 폐색으로 발목-상완지수가 0.30인 경우, 조직 손상이 진행 중이므로 혈관 재개통(혈관우회술·혈관성형) 평가가 급선무이다. 항응고만으로는 충분하지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 3개월 허혈성 안정통·dependency호전과 ABI0.3은 CLTI 의심. 운동만 권하기보다 재혈관화 긴급평가 B가 적합.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

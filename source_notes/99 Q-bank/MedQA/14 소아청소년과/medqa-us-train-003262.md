@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,13 @@ D. 반코마이신, 암피실린, 세포탁심
 
 ## 해설
 
+신생아의 호중구성 수막염·저당 소견은 즉시 경험적 정주 항생제가 필요한 상황이다. 제시된 보기 중 ampicillin·gentamicin·cefotaxime(C)은 원인균을 폭넓게 겨냥한다. 주요 원인에는 B군 연쇄상구균, 대장균 등 그람음성균 및 Listeria가 포함된다. 현행 지침에서는 ampicillin 계열과 cefotaxime 병용 등을 사용하며, gentamicin 포함 여부는 감염 상황·기관 프로토콜·배양 결과에 따라 조정하므로 일률적 필수 삼제로 설명하지 않는다.
 
-신생아 수막염에서 가장 흔한 병원체는 GBS와 Listeria이며, 경험적 치료는 광범위한 항생제인 암피실린, 겐타마이신, 세포탁심을 포함한다. 이는 모든 주요 병원체를 커버한다. 따라서 초기 요법은 암피실린·겐타마이신·세포탁심이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신생아 수막염의 원인균 및 경험적 항생제 설명을 교정. 원정답 C를 가능한 요법으로 유지하되 모든 환자의 필수 삼제요법으로 단정하지 않음.
+- https://www.nice.org.uk/guidance/ng195/chapter/Meningitis-babies-with-early-onset-or-late-onset-infection-in-neonatal-units
 
 ## 출처
 

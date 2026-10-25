@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 십이지장 혈종
 
 
 복부 타박에 의한 간 손상은 간 혈종을 일으키며, 저혈압과 복부·흉부 통증이 동반된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008343 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 우측 흉복부 둔상·RUQ/우측 어깨통증과 출혈성 쇼크 양상은 선택지 중 간 손상/혈종 C에 가장 맞는다. 원문·해설 대조; 증상만으로 손상등급을 확정하지 않았다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

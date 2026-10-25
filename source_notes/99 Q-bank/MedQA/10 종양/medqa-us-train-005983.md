@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 죄송하지만 법정 신고 대상 질환이 아니므로 동의 없이는 
 
 
 환자는 배우자의 정보 요구에 대해 비밀보장을 원한다. 의사는 환자의 동의 없이는 정보를 제공할 수 없으며, 먼저 환자와 솔직히 대화하도록 권유해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005983 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 의사결정능력 있는 환자가 배우자에게 정보공유를 원치 않는 케이스의 초기 비밀보장 설명 A와 영어 원문·해설 일치를 확인.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

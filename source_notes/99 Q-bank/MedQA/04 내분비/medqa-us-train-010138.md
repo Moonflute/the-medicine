@@ -18,13 +18,17 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: investigation
 difficulty: complex
-answer: B
+answer: A
+original_answer: B
+answer_change_reason: "ETA2023는 새 결절에서 TSH와 진단 초음파를 우선하고 sonographic risk/size로 FNA 결정; subnormal TSH는 scintigraphy 고려. 현 문항은 이러한 선행 결과가 없으므로 A로 교정. https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +49,14 @@ D. 갑상선 호르몬 대체요법
 ## 해설
 
 
-갑상선 결절이 발견된 경우 초음파는 결절의 크기와 특성을 평가하고, 세침흡인세포검사는 악성 여부를 확인하는 표준 진단 절차이다. 따라서 가장 적절한 다음 단계는 세침흡인 세포검사이다.
+정답 A. 새로 발견된 갑상선 결절은 TSH 측정과 경부 초음파로 크기·구조·림프절 및 악성 위험을 평가한다. 초음파 소견과 크기에 따라 FNA 여부를 정하며 TSH가 낮으면 섭취스캔으로 기능성 결절을 평가한다. 두근거림·체중감소만으로 암을 확진할 수 없고 과거 신경모세포종 치료에 방사선이 사용됐는지도 본문에 없다. 모든 2cm 촉지 결절에서 초음파 전 즉시 FNA를 시행하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010138 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 새 촉지2cm 결절은 TSH·초음파 위험층화가 FNA보다 선행. 방사선 노출조차 제시되지 않은 과거 neuroblastoma만으로 B 강제하지 않고 A로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/
 
 ## 출처
 

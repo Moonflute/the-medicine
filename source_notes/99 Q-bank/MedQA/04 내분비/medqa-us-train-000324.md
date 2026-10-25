@@ -27,16 +27,18 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -54,8 +56,14 @@ D. 양측 측두부 반맹
 
 ## 해설
 
+정답은 C이다. 지속 설사·쉰 목소리와 갑상샘 종괴는 분비성 peptide가 증가할 수 있는 갑상샘 수질암을 의심하게 한다. MEN2 관련 수질암이면 갈색세포종이 동반되어 발작성 고혈압·두통이 나타날 수 있다. 현재 혈압만으로 악성 고혈압이나 시각 이상을 진단한 사례가 아니다. 저칼슘 수치만으로 수질암을 확진할 수는 없으며 종괴와 호르몬 검사가 필요하다.
 
-고혈압·두통·시각 이상을 동반한 급성 고혈압 위기(악성 고혈압)에서 발작성 고혈압과 두통이 흔히 동반되므로 가장 가능성이 높은 추가 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: malignant hypertension의 해설 오연결을 갑상샘 수질암/MEN2-갈색세포종 연결로 교체.
+- https://www.cancer.gov/publications/pdq/information-summaries/genetics/men2-hp-pdq
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 출혈성 맥락막박리
 
 ## 해설
 
+급성 비문증, 섬광과 커튼 같은 시야 가림, 무통성 시력저하 및 최근 백내장 수술력은 B, 망막박리에 가장 합당하다. 열공성 망막박리는 망막 열공을 통해 액체가 망막 아래로 들어가 신경망막이 분리되는 기전으로 설명한다. 안압 변화가 일반적인 핵심 원인이라는 설명은 부정확하다. 심한 통증과 전방 염증이 더 전형적인 수술 후 안내염과 구별된다.
 
-수술 후 급성 시야 손실, 커튼 현상, 번쩍임은 레티날 박리를 특징으로 한다. 급성 박리는 안구 내 압력 변화와 관련이 있으며, 가장 흔한 원인이다. 따라서 가장 가능성 높은 진단은 망막박리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 망막박리의 핵심을 막연한 안압 변화가 아니라 광시증·비문증·커튼 시야 및 수술 위험과 연결.
 
 ## 출처
 

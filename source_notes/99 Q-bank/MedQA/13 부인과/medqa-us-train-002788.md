@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 추적검사
 
 ## 해설
 
+얇고 매끄러운 벽·무격막·내부 혈류가 없는 2 cm 병변은 생리적 난포·단순낭종에 합당하다. D의 보존적 진료가 적절하며 즉시 수술·CA-125·피임약이 필요하지 않다. 고품질 영상에서 확실한 생식연령 ≤3 cm 단순낭종은 정기 초음파 추적도 대개 필요 없다. 불확실하거나 증상·성장이 있으면 재평가한다.
 
-2 cm 이하의 단순 난소 낭종은 대부분 기능성으로, 6~12주 후 초음파 추적 관찰이 권장된다. 즉시 수술이나 추가 검사는 필요하지 않다. 따라서 추적검사가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 생식연령2cm단순낭종에6–12주초음파를일률강제한설명수정.
+- https://pubs.rsna.org/doi/10.1148/radiol.2019191354
 
 ## 출처
 

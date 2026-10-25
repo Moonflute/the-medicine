@@ -15,13 +15,13 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ
 question_type: diagnosis
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -30,6 +30,11 @@ related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
+curation_status: "revised"
+curation_reason: "신성 신장성 이뇨증 용어 오류를 고치고 탈수·고삼투 상태에서 수분 제한 검사를 따라 하지 않도록 한계 명시."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -56,10 +61,20 @@ D. 리튬(Lithium)
 
 ## 해설
 
-
-리튬은 신성 신장성 이뇨증을 일으키는 대표적인 약물로, 혈장 삼투압은 높지만 소변 삼투압이 낮고 DDAVP에 반응하지 않는다. 이는 신성(신장성) DI와 일치한다. 따라서 원인으로 리튬이 가장 가능하다.
+Lithium 노출과 높은 혈장 삼투질농도에도 희석된 소변, DDAVP 후 미미한 농축 반응은 신성 요붕증을 지지한다. 원문 검사값의 해석을 묻는 문항이며 이미 저혈량·고삼투 상태인 환자에게 수분 제한 검사를 새로 진행하라는 뜻이 아니다. 실제 환자는 먼저 체액·Na·신기능 및 lithium 독성을 평가하고 안전하게 교정해야 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009941
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 신성 신장성 이뇨증 용어 오류를 고치고 탈수·고삼투 상태에서 수분 제한 검사를 따라 하지 않도록 한계 명시.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.nbt.nhs.uk/sites/default/files/Water%20Deprivation%20Test%20in%20Adults.pdf

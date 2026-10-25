@@ -21,11 +21,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,15 @@ D. 레플루노마이드
 ## 해설
 
 
-설사 후 발생한 관절염, 요도염, 결막염을 동반한 삼중증후군은 반응성 관절염이며, 인도메타신은 이 질환의 1차 치료제이다. NSAID는 증상 완화에만 사용되며, 알로푸리놀·레플루노마이드는 다른 질환에 쓰인다. 따라서 인도메타신 투여가 적절하다.
+설사 뒤 관절염·요도증상과 눈염증은 reactive arthritis를 시사하며 통증·염증 조절에는 NSAID인 indomethacin C가 보기 중 적절하다. 다만 관절액 WBC51,000/µL만으로 감염성 관절염을 배제할 수 없어 배양·결정 검사를 포함한 평가가 필요하다. 눈통증·시야흐림과 홍채 주위 충혈은 uveitis 가능성이 있어 안과 평가를 지연하지 않는다. Leflunomide 등은 모든 상황에서 무관한 약이 아니라 만성/불응 관절염에서 별도로 고려하는 DMARD이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000034 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ReA NSAID C 유지하되51,000관절액으로 감염배제 못하며 ciliary injection·시야흐림은 단순결막염으로 축소하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/
+- https://www.nice.org.uk/guidance/NG65/chapter/Recommendations
 
 ## 출처
 

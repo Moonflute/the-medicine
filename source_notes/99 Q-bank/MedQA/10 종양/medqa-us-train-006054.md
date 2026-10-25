@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,15 @@ D. 정맥 내 재조합 요산분해효소 라스부리카제
 ## 해설
 
 
-버킷 림프종 치료 후 종양 용해증후군으로 급성 신손상과 고칼륨혈증이 발생했으며, 혈액투석이 전해질 교정과 신기능 회복에 가장 효과적이다.
+Burkitt lymphoma 항암치료 뒤 매우 높은 urate, K6.9와 심한 신손상·소변감소는 임상 TLS를 시사한다. 보기 중 혈액투석 B는 칼륨과 축적 용질을 제거할 수 있어 적절하며 긴급 신장·중환자 평가가 필요하다. 동시에 심전도와 고칼륨 응급약물, 체액상태 및 rasburicase를 포함한 요산 치료를 평가한다. Allopurinol은 이미 생긴 urate를 분해하지 않고 rasburicase만으로 고칼륨·oliguria를 해결하지 못한다. 투석이 신기능 회복을 직접 보장하는 것은 아니다. 원문 발현8일은 전통적 Cairo-Bishop 치료후7일 범위 밖이지만 임상적으로 TLS를 배제하는 이유가 되지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006054 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 중증 TLS의 oliguria·K6.9에서 투석 B 유지하되 rasburicase도 필요할 수 있고 투석이 신회복 자체를 보장하지 않음을 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/10.1111/bjh.70092
+- https://www.ukkidney.org/health-professionals/guidelines/treatment-acute-hyperkalaemia-adults-0
 
 ## 출처
 

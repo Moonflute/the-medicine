@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 말초혈액 도말에서 표적세포
 
 
 만성 림프구성 백혈병 환자에서 자가면역 용혈성 빈혈이 동반될 때 직접 Coombs 검사가 양성이다. 이는 환자의 증상과 연관된 검사 소견이다. 따라서 직접 Coombs 검사가 양성이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004981 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CLL 의심 배경의 황달·빈혈 증상과 AIHA/DAT 양성 C의 연관을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

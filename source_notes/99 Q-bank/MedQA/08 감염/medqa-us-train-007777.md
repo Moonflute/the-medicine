@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 안심시키고 추적 관찰
 ## 해설
 
 
-HBsAg 양성, HBeAg 양성, HBV DNA가 높은 만성 B형 간염은 활동성 복제 단계이며, 1차 치료 목표는 바이러스 억제이다. 텐오포비르는 고효능 핵산유사제이며 신장 기능이 정상인 환자에게 1차 약물로 권장된다. 인터페론은 부작용이 크고 라미부딘은 저항성 경우에 사용되므로 부적절하다.
+HBsAg/HBeAg 양성·IgM anti-HBc 음성과 ALT 상승은 면역활동성 만성 HBV를 의심하게 한다. 선택지 C tenofovir는 높은 효능/높은 내성 장벽의 치료 중 하나다. 실제 HBV DNA·섬유화·다른 ALT 원인과 신/골기능을 평가하여 적응·제형을 정하며 원문에 DNA 고값이나 정상 신기능이 이미 있다는 뜻은 아니다. Lamivudine은 내성이 쉽게 생겨 일반 우선약이 아니고 내성 때문에 선호한다는 설명은 틀리다. SLE 배경에서는 interferon도 주의가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007777 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문 없는 HBV DNA 고값·정상 신기능을 확정한 오류 및 lamivudine 내성 시 사용이라는 반대 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.journal-of-hepatology.eu/article/S0168-8278%2825%2900174-6/fulltext
 
 ## 출처
 

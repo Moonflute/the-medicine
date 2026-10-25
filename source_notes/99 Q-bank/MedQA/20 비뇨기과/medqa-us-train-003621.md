@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 방광경부암
 
 ## 해설
 
+회음부·음낭 통증이 3개월 지속되고 사정통·배뇨통이 있지만 발열이나 배양 양성 세균감염의 근거가 없다. 전립선 분비물 백혈구도 정상 범위여서 C, 만성 골반통증증후군에 합당하다. 만성 세균성 전립선염과 달리 지속 세균감염이 확인된 것은 아니며 경미한 전립선 압통만으로 농양을 진단하지 않는다.
 
-음경·전립선 통증, 음뇨·배뇨통이 있으나 배뇨감염 징후가 없고 소변·전립선 분비물 검사가 정상인 경우, 만성 골반통증 증후군(만성 전립선염)이 가장 흔한 원인이다. 따라서 정답은 만성 골반통증 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 음뇨 등 잘못된 용어를 제거하고 3개월 통증·음성 배양의 CPPS 근거를 명확히 함.
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 국소 보습제
 
 ## 해설
 
+가족의 아토피 소인과 얼굴·사지 폄쪽의 건조한 소양성 습진, 사타구니 보존은 영아 아토피피부염에 합당하다. 선지 중 국소 보습제(D)가 피부장벽 회복을 위한 기본 치료이다. 염증성 악화가 있으면 부위·나이·중증도에 맞는 국소 corticosteroid를 추가할 수 있어 무조건 불필요하다고 해서는 안 된다. 분유 전환만으로 식품알레르기를 확정하지 않는다.
 
-영아 습진은 건조하고 인설이 동반된 가려운 발진이며, 보습제 사용이 1차 치료이다. 스테로이드나 항진균제는 필요하지 않다. 따라서 국소 보습제가 가장 적절한 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 영아 아토피피부염의 보습 D는 맞지만 스테로이드가 필요 없다고 일괄 배제한 오류를 교정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg57/chapter/Recommendations
 
 ## 출처
 

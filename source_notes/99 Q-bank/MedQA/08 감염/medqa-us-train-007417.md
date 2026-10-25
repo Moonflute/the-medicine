@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,15 @@ D. 대장내시경
 ## 해설
 
 
-62세 당뇨·고혈압 환자는 매년 인플루엔자 백신을 맞아 호흡기 감염 위험을 감소시켜야 한다. 폐렴구균 결합백신은 이미 PPSV23을 맞은 후 1년 이내에 추가로 권고되지 않는다.
+호주/뉴질랜드의5월은 남반구 influenza 시즌에 해당하므로 출국 전 적절한 flu 백신 A가 중요하다. 원문 PPSV23은4년 전이지1년 이내가 아니다. 현행 폐렴구균 접종은 과거력/연령·위험에 따라 PCV20/21 또는 적절한 PCV15 등으로 평가하며 PCV13만을 자동 선택하지 않는다. Flu 백신 필요성은 다른 정기 예방접종 검토를 없애지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007417 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 남반구5월 여행의 flu A 유지; PPSV23을1년 이내 접종했다는 원문 오독과 현행 PCV 선택 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/flu/travelersfacts/index.html
+- https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/risk-indications.html
 
 ## 출처
 

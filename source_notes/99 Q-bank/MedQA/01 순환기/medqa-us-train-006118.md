@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 봉와직염
 
 ## 해설
 
+3개월 지속되는 휴식통·운동악화·다리 내리면 완화와 감소맥박은 만성 사지위협허혈 A를 시사한다. 급성동맥폐색과는 시간경과가 다르다. 누락 발 사진의 궤양을 임의 판독하지 않으며 Raynaud도 통증을 동반할 수 있다.
 
-안정 시에도 통증이 지속되고, 운동 시 악화되며, 발을 아래로 늘이면 완화되는 특징은 휴식 시 혈류가 회복되는 급성 말초동맥 혈류 부족을 의미한다. 이는 중증 사지허혈(급성 동맥 폐색)과 일치한다. 레이노 현상은 주로 차가운 환경에서 발생하고 통증이 없으며, 다른 선택지는 부적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 3개월 허혈성 휴식통을 급성동맥폐색으로 오연결한 해설과 Raynaud는 무통이라는 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

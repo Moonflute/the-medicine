@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,11 @@ D. 헤모글로빈: 7 g/dL, 헤마토크릿: 21%, MCV: 75 µm^3
 
 ## 해설
 
+채혈은 수상 직후 수액 투여 전에 이루어졌다. 급성 전혈 소실 직후에는 Hb와 Hct 농도가 아직 정상일 수 있으므로 B의 Hb 15 g/dL, Hct 45%, MCV 90 fL이 가장 적합하다. 이는 심한 출혈을 배제하지 않는다. 이후 수액이나 조직액 이동에 따른 희석으로 농도가 감소할 수 있으며, 해설에서 B를 Hb 10 g/dL로 잘못 인용해서는 안 된다.
 
-환자는 저혈압, 빈맥, FAST에서 복강액을 확인한 급성 출혈성 쇼크 상태이다. 초기 혈액 검사는 저혈색소·저헤마토크리트가 특징이며, 선택지 중 가장 흔한 출혈성 쇼크 수치는 Hb 10 g/dL, Hct 45%이다. 따라서 해당 수치가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정답 B의 Hb 15/Hct 45와 달리 해설이 Hb 10을 인용하고 초기 출혈 Hb 감소를 단정한 오류를 교정.
 
 ## 출처
 

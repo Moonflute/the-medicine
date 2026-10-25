@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jik7Iqk6rW_LeyKkOudvO2EsCDrs5EgKE9zZ29vZC1TY2hsYXR0ZXIgRGlzZWFzZSkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "원인을 성장판 위치와 활동 시 통증에 연결."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-오스굿-슐라터 병의 병리학적 원인은?
+Osgood-Schlatter 병에서 주로 통증이 생기는 부위·기전은?
 
 ## 선택지
 
-A. 대퇴사두근 견인에 의한 경골 결절의 염증
-B. 경골 골단의 골절
-C. 연골연골염에 의한 관절염
-D. 인대 파열에 의한 불안정성
+A. 성장기 경골 결절에 반복적으로 가해지는 슬개건 견인
+B. 대퇴골두 골단의 혈류 차단
+C. 슬관절 내 급성 세균 감염만
+D. 대퇴골 성장판의 후방 미끄러짐
 
 ## 해설
 
-성장기 청소년이 반복적인 대퇴사두근 견인으로 경골 결절에 염증과 미세 골절이 생겨 발생한다.
+달리기·점프 등에서 무릎 앞 경골 결절 부위 통증이 두드러진다. 발열·심한 관절 운동 제한 등은 다른 원인을 평가할 단서이며 모든 청소년 무릎 통증을 이 질환으로 단정하지 않는다.
 
 ## 오답 포인트
 
-- **B. 경골 골단의 골절:** 골절은 외상성 손상이며 Osgood-Schlatter와는 무관하다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 오스굿-슐라터 병 (Osgood-Schlatter Disease)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/오스굿-슐라터 병 (Osgood-Schlatter Disease).md`
-- 학습 목표: 원문 핵심: * **CC**: 무릎 앞쪽의 점진적인 통증 및 부종 * **P/E**: 경골 결절 부위의 국소 압통 및 종창, 무릎 신전 시 통증 악화, 대퇴사두근 및 햄스트링의 유연성 저하 동반 가능
+- 학습 목표: Osgood-Schlatter 병의 경골 결절 견인 손상

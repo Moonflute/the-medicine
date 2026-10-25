@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. TSH 증가, T4 증가, T3 증가
 ## 해설
 
 
-양측 안구돌출, 손 떨림, 빈맥, 체중 감소는 갑상선 기능항진증을 시사한다. 갑상선 항진에서는 TSH가 억제되고 자유 T4·T3가 상승한다. 따라서 TSH 감소, T4·T3 증가가 정답이다.
+정답 A. 안구돌출·발한·빈맥/부정맥과 떨림은 Graves병에 의한 원발성 갑상선기능항진증을 시사한다. 갑상선호르몬 증가가 뇌하수체 TSH를 억제하므로 TSH 감소, T4·T3 증가가 예상된다. 본문에는 체중감소가 제시되지 않아 실제 소견으로 추가하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008679 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문에 없는 체중감소 추가를 제거하고 Graves 항진의 예상패널 A를 설명.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

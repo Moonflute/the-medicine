@@ -19,16 +19,18 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 초음파
 
 ## 해설
 
+황산마그네슘 투여 후 심부건반사 소실, 근력저하, 호흡수 6회는 마그네슘 독성을 강하게 시사한다. 즉시 주입을 중단(B)하면서 기도·환기를 보조하고 정맥 칼슘을 투여하며 Mg·신기능을 확인한다. 주입 중단만 하고 심한 호흡억제를 관찰해서는 안 된다.
 
-마그네슘 설페이트는 중추신경계 억제와 호흡 억제를 일으킬 수 있다. 환자의 저호흡·졸음·반응 저하가 약물 과량에 의한 부작용을 시사한다. 따라서 약물 투여를 즉시 중단하는 것이 최우선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 마그네슘 중독에서 약물 중단 외 필수 호흡지지·칼슘 해독 보강.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/019316s024lbl.pdf
 
 ## 출처
 

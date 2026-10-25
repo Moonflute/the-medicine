@@ -20,15 +20,17 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 장벽 전층의 육아종
 
 ## 해설
 
+빈혈, 혈소판 수와 ESR 상승, 구강 아프타는 염증성 장질환 중 크론병을 시사하므로 D의 전층성 육아종성 염증이 적합하다. 모든 크론병 환자에서 육아종이 확인되는 것은 아니다. 캠핑 후 발생한 감염 가능성은 별도의 검사로 배제해야 한다. 원문의 가려운 고리 모양 피부 병변을 결절홍반이나 관절통으로 바꾸어 해석하지 않는다.
 
-크론병은 장벽 전층에 육아종이 형성되는 전층성 염증성 장질환이며, 구강 궤양·피부 결절·관절통이 동반되는 경우가 많다. 따라서 환자의 기저 상태는 장벽 전층의 육아종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Crohn D를모든환자의전층육아종으로확정하거나원문없는피부결절/관절통을추가한설명 한정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

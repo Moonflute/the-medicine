@@ -16,18 +16,23 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "접촉성 출혈은 중요한 인지 개념 유지. 무증상 조기암을 배제하는 최빈·초기 표현 완화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-자궁경부암의 가장 흔한 증상은?
+자궁경부암을 시사할 수 있는 대표적인 출혈 양상은?
 
 ## 선택지
 
@@ -38,14 +43,20 @@ D. 설사
 
 ## 해설
 
-자궁경부암은 성관계 후 질 출혈이 가장 흔한 초기 증상이며, 종양이 자궁경부에 취약성을 일으키기도 합니다.
+성관계 후 출혈은 자궁경부암에서 나타날 수 있는 중요한 증상이다. 조기 병변은 무증상일 수도 있으며 출혈만으로 원인을 확정하지 않는다.
 
 ## 오답 포인트
 
-- **B. 복통:** 복통은 진행된 경우에 나타날 수 있지만 초기 주요 증상은 아닙니다.
+- 복통·요통 등은 동반될 수 있지만 자궁경부 병변의 접촉성 출혈을 대신하는 특이적 증상은 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 자궁경부암 (Cervical Cancer)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁경부암 (Cervical Cancer).md`
-- 학습 목표: 원문 핵심: * **CC**: 질 출혈(특히 성관계 후), 질 분비물 증가, 무증상인 경우도 많음 * **P/E**: 육안적 병변(궤양, 종괴), 출혈 소견, 자궁경부의 취약성(friability)
+- 학습 목표: 자궁경부암의 접촉성 출혈
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 접촉성 출혈은 중요한 인지 개념 유지. 무증상 조기암을 배제하는 최빈·초기 표현 완화.

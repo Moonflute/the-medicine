@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,16 @@ D. 소변검사
 
 ## 해설
 
+새로 확인된 고혈압에서는 신장질환과 표적장기 손상 여부를 평가해야 한다. 보기 중 D, 소변검사는 혈뇨·단백뇨 등을 확인하는 기본 평가에 포함되며, 알부민뇨는 소변 알부민/크레아티닌 비로 정량 평가한다. 혈청 크레아티닌·전해질과 심전도 등도 임상 상황에 따라 함께 확인한다.
 
-고혈압, 비만, 저녁에 코골이 의심되는 수면 무호흡증 등 2차 고혈압 원인 평가를 위해 소변 단백/알부민 검사가 필요하다.
+비만·피로·굵은 목은 수면무호흡을 의심하게 할 수 있지만 소변검사로 수면무호흡을 진단하는 것은 아니다. 코르티솔이나 신동맥 도플러 등 특정 이차성 고혈압 검사는 관련 임상 단서에 따라 선택한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. 소변검사를 수면무호흡 자체의 진단검사처럼 설명한 오류를 신장질환/고혈압 표적장기 손상 초기 평가로 수정.
+- https://www.nice.org.uk/guidance/ng136/chapter/recommendations
 
 ## 출처
 

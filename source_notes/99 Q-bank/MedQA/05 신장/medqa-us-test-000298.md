@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 수분을 제한한다
 
 ## 해설
 
+정답은 D이다. 저삼투성 저나트륨혈증에서 소변이 부적절하게 농축되어 있고 요중 Na가 높은 결과는 두개내 병변 관련 SIADH에 합당할 수 있다. 다만 최근 hydrochlorothiazide 사용과 체액량 상태를 확인해야 하며 SIADH는 배제 진단이다. 안정된 경도 저나트륨혈증에서 SIADH가 유력하면 원인 약물을 중단하고 수분 제한을 시행한다. 저혈량성 저나트륨혈증이나 뇌성 염분소실에 무조건 수분 제한을 적용해서는 안 된다.
 
-저나트륨혈증이 저삼투성 상태이며, 소변 Na⁺가 45 mEq/L로 배설되고 삼투압이 비교적 높아 부적절 항이뇨 호르몬 분비가 의심되지 않는다. 따라서 수분 제한이 가장 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: SIADH가 의심되지 않는다는 모순을 교정하고 thiazide/체액량이라는 진단 제한을 추가.
+- https://academic.oup.com/ejendo/article/170/3/G1/6668028
 
 ## 출처
 

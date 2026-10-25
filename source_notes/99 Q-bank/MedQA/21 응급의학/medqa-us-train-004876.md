@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 살리실산염 중독
 
 ## 해설
 
+자해 가능성과 약물병, 구토·우상복부 통증 및 현저한 간세포 손상 양상을 종합하면 보기 중 acetaminophen 중독(B)이 가장 적합하다. AST/ALT가 매우 높다는 소견만으로 확진하지는 못하며 허혈성·바이러스성 등 다른 급성 간손상도 감별한다. 섭취 시간·혈중 농도·간기능 및 응고 상태를 평가한다.
 
-AST/ALT가 수천 단위로 급격히 상승한 경우 가장 흔한 원인은 아세트아미노펜 과다복용에 의한 급성 간독성이다. 따라서 아세트아미노펜 중독이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. AST/ALT 수천이면 항상 가장 흔한 원인이 acetaminophen이라는 과장 제거.
 
 ## 출처
 

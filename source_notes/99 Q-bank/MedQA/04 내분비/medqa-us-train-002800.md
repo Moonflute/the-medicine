@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 골의 골아세포성 파괴
 
 ## 해설
 
+국소 골통증, 청력저하, 높은 ALP와 정상 GGT·칼슘, 피질골 비후/굵어진 골소주는 Paget병을 시사한다. 골흡수와 무질서한 골형성이 함께 증가하는 골재형성 증가(A)가 보기 중 합당한 기전이다. 다만 PTH 450 pg/mL는 단순 Paget병의 전형적인 소견이 아니므로 동반 원인이나 원자료 수치를 재평가해야 하며 정상 소견으로 간주하지 않는다.
 
-Paget 병은 골 재형성 속도가 증가해 ALP가 크게 상승하고, 골피질 비후와 골소주가 나타난다. 이는 골량 감소와 미세구조 파괴가 아닌 골 형성·흡수가 동시에 활발히 일어나는 기전이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. Paget 소견의 골재형성 증가를 유지하되 PTH450이 단순 Paget의 전형적 정상 결과가 아니라 별도 평가가 필요한 점 명시.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -21,15 +21,17 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 일과성 허혈발작 병력이 있는 63세 남성
 
 ## 해설
 
+선택지 D의 TIA 병력은 비심인성으로 평가되면 장기 항혈소판 이차예방 대상이고 aspirin은 한 선택이다. 급성 고위험TIA에서는 단기간 병합요법이 필요할 수 있고 AF 등 심인성 원인이면 항응고를 검토한다. 새 DES3일은 aspirin 단독 대상이 아니며 AF의 뇌졸중예방도 aspirin 단독으로 대체하지 않는다. 일차예방을 특정 연령 남성에게 일률적으로 권하는 기존 문장은 삭제한다.
 
-아스피린 단독 1차 예방은 심혈관 위험이 높은 50‑59세 남성에게만 권고된다. 일과성 허혈발작(TIA) 병력이 있는 63세 남성은 2차 예방 대상이며, 아스피린 단독으로 시작한다. 따라서 D가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: TIA의 이차예방 D 유지. 50–59세남성만 aspirin 일차예방이라는 낡은 설명 제거·비심인성 조건 명시.
+- https://doi.org/10.1161/STR.0000000000000375
 
 ## 출처
 

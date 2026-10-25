@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 광선공포
 
 
 의식 혼탁은 뇌염에서 흔히 나타나는 뇌 기능 손상으로, 뇌실질 염증에 의해 의식 수준이 저하된다. 반면 수막염은 주로 두통, 발열, 목 경직 등 뇌막 증상이 주된다. 따라서 의식 혼탁은 뇌염을 시사한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002789 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수막 자극 증상보다 뇌실질 기능장애를 시사하는 혼탁한 의식 A를 원문 대조 유지. 수막염에도 의식장애가 가능하다는 임상 감별의 한계 안에서 해석.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

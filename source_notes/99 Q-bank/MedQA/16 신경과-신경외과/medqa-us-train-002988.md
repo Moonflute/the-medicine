@@ -20,22 +20,24 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-대장암으로 우측 반결장절제술을 받은 다음 날 55세 여성이 허리 통증, 저림, 다리 움직임 곤란을 호소했다. 초기 수술 후 경과는 합병증이 없었고 예방적 피하 헤파린을 사용한다. 체온 37.2°C, 맥박 100회/분, 호흡수 18회/분, 혈압 130/90 mmHg이다. 경막외 카테터 부위는 잘 위치하고 발적이나 부종이 없다. 양측 하지 근력저하, 하지 심부건반사 소실, 회음부 핀prick 감각 감소가 있다. 척추 T2 MRI에서 L2~L5 수준의 척수를 압박하는 15 cm 고신호 경막외 공간점유 병변이 보인다. 다음 중 가장 적절한 치료 단계는?
+대장암으로 우측 반결장절제술을 받은 다음 날 55세 여성이 허리 통증, 저림, 다리 움직임 곤란을 호소했다. 초기 수술 후 경과는 합병증이 없었고 예방적 피하 헤파린을 사용한다. 체온 37.2°C, 맥박 100회/분, 호흡수 18회/분, 혈압 130/90 mmHg이다. 경막외 카테터 부위는 잘 위치하고 발적이나 부종이 없다. 양측 하지 근력저하, 하지 심부건반사 소실, 회음부 핀prick 감각 감소가 있다. 척추 T2 MRI에서 L2~L5 수준의 마미신경을 압박하는 15 cm 고신호 경막외 공간점유 병변이 보인다. 다음 중 가장 적절한 치료 단계는?
 
 ## 선택지
 
@@ -46,8 +48,12 @@ D. 혈액배양
 
 ## 해설
 
+신경축카테터와 항응고노출후 급성하지약화·회음감각저하에 압박성경막외병변이 있어 증상성경막외혈종이우려된다. 신속한전문협진과 수술적감압(A)이필요하다. 성인척수는대개L1–L2부근에서끝나므로 본문의L2–L5병변은주로마미신경압박으로해석한다. MRI소견이문장으로제공되어핵심이미지누락으로보류하지않았다.
 
-수술 후 급성 척수압박을 일으키는 경막외 혈종은 신경학적 손상이 진행될 수 있어 즉시 외과적 감압이 필요하다. 다른 보존적 치료는 효과가 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성신경결손의경막외혈종 수술감압 A 유지. L2–L5에서성인척수압박이라고한원문해부오류를마미신경압박으로수정.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC2869280/
 
 ## 출처
 

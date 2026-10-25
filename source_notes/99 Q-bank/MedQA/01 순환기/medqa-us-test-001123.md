@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 혈관내 중재치료
 
 ## 해설
 
+정답은 A이다. 일정 거리 보행 때 생기고 쉬면 호전되는 종아리 통증은 PAD의 간헐적 파행에 합당하다. cilostazol은 보행거리와 증상 개선에 사용할 수 있어 제시된 선택지 중 적합하다. 구조화된 운동치료·금연·심혈관 위험 관리도 중요하며 약 한 가지가 이를 대신하지 않는다. 심부전 환자에게는 cilostazol을 투여하지 않는다. 생활 제한 증상이 적절한 비침습 치료에도 지속되면 재혈관화 여부를 평가한다.
 
-간헐적 파행은 말초동맥질환의 전형적 증상이며, 증상 완화를 위해 혈관 확장제인 실로스타졸이 1차 치료로 권장된다. 따라서 적절한 치료는 실로스타졸이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: cilostazol을 모든 파행의 유일한 1차 치료라고 한 과장을 교정하고 운동/금연 및 HF 금기 보완.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

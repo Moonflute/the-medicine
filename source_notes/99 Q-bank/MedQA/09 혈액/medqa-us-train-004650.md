@@ -19,11 +19,13 @@ question_type: complication
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 소구성 빈혈
 ## 해설
 
 
-위소매절제 후 비타민 B12 흡수 장애가 발생해 말초신경병증 위험이 증가하므로 장기 합병증으로 가장 흔한 것은 말초신경병증이다.
+위소매절제 후 B12 결핍 가능성이 있는데 엽산만 고용량으로 보충하면 빈혈·MCV는 호전되어도 동반 B12 결핍은 남아 신경병증 B가 진행할 수 있다. 따라서 엽산에 반응했다는 이유로 B12 결핍을 배제하지 않는다. 말초신경병증이 모든 위소매절제 환자의 가장 흔한 장기 합병증이라는 의미는 아니며 영양상태와 B12 등을 평가·교정해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004650 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 엽산만 투여할 때 동반 B12 결핍의 혈액학적 소견은 가려져도 신경 손상은 진행할 수 있다는 실제 출제기전으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations
 
 ## 출처
 

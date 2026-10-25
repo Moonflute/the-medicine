@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 방사선치료와 화학요법
 
 
 임신 중 HER2 양성 침윤성 소엽암은 수술 후 재발 위험이 높아 임신 중에도 안전한 항HER2 치료는 없으므로, 수술 후 임신을 유지하면서 화학요법(예: 안트라사이클린 기반)만 시행한다. 방사선은 태아에 위험하므로 제외한다. 따라서 외과적 절제와 화학요법이 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006738 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 임신20주 유방암에 수술+임신중기 허용 화학요법 B 및 임신 중 방사선/HER2 표적치료 회피 설명을 현행 NCI와 대조 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/hp/pregnancy-breast-treatment-pdq
 
 ## 출처
 

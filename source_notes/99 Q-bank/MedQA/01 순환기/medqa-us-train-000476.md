@@ -17,13 +17,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 우심실 유출로 폐쇄
 
 ## 해설
 
+정답은 B이다. 상지 고혈압·약한 하지맥/차가운 발과 등 부위 잡음은 대동맥축착에 의한 하체 관류 저하를 시사한다. 혈류량 감소로 하지 조직의 산소 전달이 떨어질 수 있다. 양팔 혈압 차이가 없다는 결과는 본문에 없으며 이를 확인했다고 설명하지 않는다. 늑골 패임은 측부혈관이 발달하는 더 큰 연령에서 두드러진다.
 
-좌측 등쪽 청진에서 잡음이 들리고 말초 맥박이 없으며 혈압 차이가 없으므로 대동맥 협착이 의심된다. 대동맥 협착에서는 하체에 혈류가 감소해 조직 산소포화가 낮아진다. 따라서 가장 흔히 나타나는 소견은 하지의 낮은 조직 산소화이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 제시되지 않은 양팔 혈압 동일 소견을 삭제하고 조직 산소화 저하를 관류 감소로 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

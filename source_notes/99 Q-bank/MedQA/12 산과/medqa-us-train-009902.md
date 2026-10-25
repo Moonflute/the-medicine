@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 이 결과의 진단 정확도를 높이려면 혈청 알파태아단백, hCG
 
 ## 해설
 
+1기 결합선별은 NT에 유리 β-hCG·PAPP-A를 결합해 위험도를 산정하므로 선택지 B가 원문의 올바른 설명이다. 다만 NT 3.3mm는 경고 소견이며 확진 검사가 아니므로 유전상담·진단검사 및 정밀초음파를 제안한다. CRL44mm는 표준 NT 측정 범위의 하단보다 작아 주수·측정 적합성을 재확인해야 한다. 비강골이 보인다고 다운증후군이 배제되지는 않는다.
 
-첫 삼분기에는 비강골·목덜미 투명대 등 비특이적 소견이 흔히 나타나며, 다운증후군 선별 정확도를 높이려면 혈청 PAPP‑A와 자유 β‑hCG를 함께 측정한다. 따라서 두 검사를 추가하는 것이 옳다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: NT를 비특이 정상변이로 치부하지 않고 선별·진단 구분 및 CRL 범위 제한 명시.
+- https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2026/01/screening-for-fetal-chromosomal-abnormalities
 
 ## 출처
 

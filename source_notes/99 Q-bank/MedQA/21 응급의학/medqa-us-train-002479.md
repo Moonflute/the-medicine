@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,13 @@ D. 화상센터로 이송
 
 ## 해설
 
+환상성 심한 열화상 뒤 차가운 발가락·부종·원위 맥박 소실은 비탄성 가피가 부은 조직을 조여 관류를 방해하는 응급상황을 시사한다. 우선 가피를 충분히 절개하여 외부 조임을 푸는 가피절개술(B)이 필요하다. 델타압은 이완기혈압−구획압이며25 mmHg처럼 낮을수록 관류가 위험하다는 뜻이지 혈압25 이상이 수술 기준이라는 뜻이 아니다. 가피절개 후 관류·구획압을 재평가하고, 깊은 구획압 상승이 지속되거나 근육층 구획증후군이 확인되면 근막절개술이 추가로 필요하다. 이송만 하며 감압을 지연하지 않는다.
 
-전면성 전부위 화상에서 순환 장애가 발생하면 조직 혈류가 차단되어 압력이 상승한다. 혈압이 25 mmHg 이상이면 혈관 압박을 완화하기 위해 가피절개술(Escharotomy)이 필요하다. 따라서 가장 적절한 조치는 가피절개술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 델타압25를 혈압25 이상이라는 임계값으로 잘못 설명한 오류를 수정했다. 환상 화상의 외부 조임 해소 B와 깊은 구획증후군의 근막절개를 구별한다.
+- 공식/학회 근거: https://ameriburn.org/wp-content/uploads/2019/08/2018-abls-providermanual.pdf
+- 공식/학회 근거: https://www.boa.ac.uk/resource/boast-10-pdf.html
 
 ## 출처
 

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 간내 담도 폐쇄
 
 ## 해설
 
+한 달 영아의 지속 황달·진한 소변과 직접 빌리루빈 3.8 mg/dL는 병적 담즙정체이다. 이 연령에서 담도폐쇄증 등 간외 담도 문제(C)를 우선 배제해야 한다. 그러나 검사 수치만으로 간내 원인을 완전히 구별할 수 없고, 초음파 등 신속한 간담도 평가가 필요하다. 모유황달이나 용혈에 의한 비포합 증가로 설명하지 않는다.
 
-신생아의 직접 빌리루빈 상승과 간 효소 상승은 간외 담도 폐쇄(예: 담관 폐쇄)를 시사한다. 따라서 가장 가능성 높은 진단은 간외 담도 폐쇄이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 직접 빌리루빈만으로 폐쇄 위치를 확정하는 설명을 감별·신속 평가로 보정.
+- https://naspghan.org/files/documents/pdfs/position-papers/Guideline_for_the_Evaluation_of_Cholestatic.23.pdf
 
 ## 출처
 

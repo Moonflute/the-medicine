@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "리파아제와 아밀라아제의 검사 특성을 구별하는 쉬운 기본 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc1xd2hpdux0t3kzaknfcxvjbnnotevnn0xlttdknmw3smu4sunoqlkzvjbau0jrwvc1amntvmhkr2wwyvhncextmwt8zglzzwfzzs0wmy1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ D. γ-글루타밀 전이효소 (GGT)
 
 ## 오답 포인트
 
-- **A. 혈청 아밀라아제:** 아밀라아제도 상승하지만 비특이적이며 다른 복부 질환에서도 증가할 수 있다.
+- **혈청 아밀라아제:** 아밀라아제도 상승하지만 비특이적이며 다른 복부 질환에서도 증가할 수 있다.
 
 ## 출처
 
 - 내부 학습 노트: 급성 췌장염 (Acute Pancreatitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/급성 췌장염 (Acute Pancreatitis).md`
 - 학습 목표: 원문 핵심: - 혈액 검사: 혈청 아밀라아제 및 리파아제 수치 상승(정상 상한치의 3배 이상). 리파아제가 더 특이적임 - 영상 검사: 복부 CT(조영 증강)가 진단 및 괴사 여부 확인에 유용 - CT 소견: 췌장 부종, 췌장 주위 액체 저류, 췌장 괴사 확인
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 리파아제와 아밀라아제의 검사 특성을 구별하는 쉬운 기본 복습으로 유지.

@@ -20,15 +20,17 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 좌심실 이완 이상
 
 ## 해설
 
+정답은 B이다. 경정맥 팽창, 간경정맥 역류, 간비대·복수·말초부종과 좌흉골연 수축기 잡음은 우심부전 및 삼첨판역류에 합당하다. B의 증가한 삼첨판역류 신호는 제시된 선택지 중 이 소견들과 가장 관련된다. TR jet 속도는 우심실-우심방 압력차와 관련되며 그 자체가 역류 중증도와 같은 말은 아니다. 폐고혈압이나 우심실 압력 과부하가 이차성 TR를 유발할 수 있으나 TR가 항상 폐고혈압을 일으킨다고 설명하지 않는다.
 
-심부전 환자에서 삼첨판 역류는 폐동맥 고압을 유발해 말초 부종과 청색증을 초래한다. 초음파에서 삼첨판 역류 최고 속도 증가가 가장 흔한 소견이다. 따라서 B가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 우심부전과 삼첨판역류의 연결은 유지하되 TR가 폐고혈압의 원인이라는 역방향 설명 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

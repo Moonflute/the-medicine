@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 21세 미만 성생활 여성에서는 HPV 검사가 자궁경부 세포검�
 
 ## 해설
 
+평균위험 환자는 현재 18세에 선별검사를 하지 않고, 제시된 USPSTF 전략에서는 21–29세에 세포검사 단독을 3년마다 시행한다(C). 이모의 자궁경부암이나 성생활 시작만으로 더 일찍 매년 검사하지 않는다. 21–29세의 정기 공동검사를 권하지 않는다.
 
-21세가 된 후는 3년마다 자궁경부암 선별검사를 시행한다(HPV 동시 검사는 선택). 환자는 18세이므로 아직 3년 간격이 적용되지 않으며, 연령에 따라 매 3년 검사가 시작된다. 따라서 21세가 된 후 3년마다 선별검사를 받아야 한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 18세 현재 선별 불필요, 21세부터 세포검사 q3y C 유지. 21–29세 HPV 공동검사가 선택이라는 잘못된 보충 삭제.
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening
 
 ## 출처
 

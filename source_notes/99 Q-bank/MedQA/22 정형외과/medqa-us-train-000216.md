@@ -17,20 +17,22 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-25세 여성이 후방 추돌 사고를 당해 응급실로 이송되었다. 환자는 뒤차의 안전벨트를 착용한 운전자였다. 도착 시 의식은 명료하고 활동적이다. 양쪽 무릎의 통증과 오른쪽 사타구니의 심한 통증을 호소한다. 체온은 37°C, 맥박은 116회/분, 호흡수는 19회/분, 혈압은 132/79 mm Hg이다. 신체 검진상 양쪽 무릎뼈(knee cap)에 압통이 있다. 오른쪽 사타구니는 촉진 시 압통이 있다. 오른쪽 다리는 약간 짧아져 있고, 굴곡, 내전, 내회전되어 있다. 나머지 검진 결과는 정상이다. 가장 가능성이 높은 진단은 무엇인가?
+25세 여성이 후방 추돌 사고를 당해 응급실로 이송되었다. 환자는 추돌한 뒤쪽 차량의 안전벨트를 착용한 운전자였다. 도착 시 의식은 명료하고 활동적이다. 양쪽 무릎의 통증과 오른쪽 사타구니의 심한 통증을 호소한다. 체온은 37°C, 맥박은 116회/분, 호흡수는 19회/분, 혈압은 132/79 mm Hg이다. 신체 검진상 양쪽 무릎뼈(knee cap)에 압통이 있다. 오른쪽 사타구니는 촉진 시 압통이 있다. 오른쪽 다리는 약간 짧아져 있고, 굴곡, 내전, 내회전되어 있다. 나머지 검진 결과는 정상이다. 가장 가능성이 높은 진단은 무엇인가?
 
 ## 선택지
 
@@ -41,8 +43,11 @@ D. 후방 고관절 탈구(Posterior hip dislocation)
 
 ## 해설
 
+무릎 전방에 가해진 힘이 굴곡된 대퇴골을 따라 전달되는 dashboard 기전은 후방 고관절탈구를 일으킬 수 있다. 짧아지고 굴곡·내전·내회전된 다리는 후방 탈구(D)에 전형적이다. 안전벨트 착용 자체가 후방 탈구를 결정하는 것은 아니다.
 
-뒤차 안전벨트를 착용한 경우 고관절 탈구는 주로 후방으로 발생한다. 환자는 오른쪽 다리가 짧아지고 굴곡·내전·내회전된 자세를 보여 후방 고관절 탈구를 시사한다. 따라서 가장 가능성 높은 진단은 후방 고관절 탈구이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 후방 고관절탈구 D를 안전벨트 자체가 유발한다고 설명한 기전과 뒤차 안전벨트라는 오역을 교정한다.
 
 ## 출처
 

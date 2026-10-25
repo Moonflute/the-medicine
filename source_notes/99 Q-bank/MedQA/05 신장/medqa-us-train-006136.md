@@ -18,17 +18,22 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+curation_status: "revised"
+curation_reason: "연전 형성을 섬유소로 오역한 오류를 교정하고 AL 아밀로이드의 추론과 확진을 구별."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -46,10 +51,19 @@ D. 흉부 CT에서 기관지확장
 
 ## 해설
 
-
-콩고레드 염색에서 사과녹색 이중굴절은 아밀로이드 침착을 의미한다. 신장 아밀로이드증에서는 말초 혈액 도말에 연전(특정 형태의 섬유소) 형성이 나타난다. 따라서 말초 도말에서 연전 형성이 가장 가능성 높은 소견이다.
+Congo red의 사과녹색 이중굴절은 아밀로이드 침착을 지지한다. 고령·요통·신장 침범 맥락에서 단클론 면역글로불린 관련 AL 아밀로이드증을 고려하며 높은 혈장 단백은 적혈구가 동전처럼 쌓이는 rouleaux를 만들 수 있다. Rouleaux는 섬유소가 아니고 모든 아밀로이드증의 필수 소견도 아니다. 아밀로이드 유형 확인과 혈청/소변 면역고정·유리경쇄 평가가 필요하다. 원문 albumin 1.6 g/L 단위는 비정상적으로 낮아 원자료 확인이 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006136
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 연전 형성을 섬유소로 오역한 오류를 교정하고 AL 아밀로이드의 추론과 확진을 구별.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

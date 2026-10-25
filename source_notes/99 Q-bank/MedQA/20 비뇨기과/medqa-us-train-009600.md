@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 둘록세틴
 
 ## 해설
 
+4개월의 골반통·사정통·배뇨 증상은 원발성 전립선통증증후군/CPPS를 고려하게 하며 요검사만으로 만성 세균성 전립선염이 확정되지는 않는다. EAU는 치료 경험이 없고 증상이 1년 미만인 선택된 환자에서 alpha 차단제와 제한된 초기 항균 치료를 고려하므로 선지 중 B가 부합할 수 있다. 실제로는 배양·이전 치료력·내성과 fluoroquinolone 위해를 확인하고 반응 없이 반복 처방하지 않는다. 모든 CPPS가 세균성이거나 모든 환자에서 이 두 약제가 일률적 표준이라는 뜻은 아니다.
 
-만성 세균성 전립선염(만성 전립선염/만성 골반통) 치료에는 알파 차단제와 항생제 병용이 표준이다. 탐스로신(알파 차단제)과 시프로플록사신(항생제) 조합이 증상 완화와 감염 억제에 효과적이다. 따라서 가장 적절한 치료는 탐스로신과 시프로플록사신이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 배양 확인 없는 4개월 전립선 통증을 만성 세균성 전립선염으로 확정한 오류와 모든 CPPS의 항생제 표준이라는 주장을 교정.
+- 공식/학회 근거: https://uroweb.org/guidelines/chronic-pelvic-pain/chapter/management
 
 ## 출처
 

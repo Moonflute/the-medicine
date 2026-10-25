@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 파보바이러스 B19에 대한 IgM
 ## 해설
 
 
-다발성 혈구 감소와 저혈소판, 저백혈구는 전신성 루푸스(다발성 혈구 감소증)를 시사한다. SLE에서 특이적인 항 dsDNA 항체가 가장 높은 진단적 가치를 가진다. 따라서 항 dsDNA 항체 검사가 가장 가능성 높은 소견이다.
+수개월의 다관절통과 빈혈·백혈구감소·혈소판감소는 SLE를 의심하게 하며 보기 중 anti-dsDNA B가 가장 부합한다. 이 항체는 비교적 특이하지만 SLE 진단에 단독으로 가장 가치가 높거나 반드시 양성이라는 뜻은 아니다. 임상기준, ANA·보체·소변 및 혈구감소의 다른 원인을 함께 평가한다. 서핑 후 일광화상 병력만을 곧바로 루푸스 광과민발진으로 바꾸지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008741 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 항dsDNA B 선택은 유지하되 가장높은진단가치라는 일반화·진단확정 과장과 햇볕노출만으로 광과민 단정 방지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

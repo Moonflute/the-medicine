@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0ZlYnV4b3N0YXQubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 파골세포 기능 결함
 
 ## 해설
 
+낮은 에너지의 실내 낙상 후 생긴 대퇴경부골절은 고령 여성의 골다공증성 취약골절에 합당하다. 노화에 따른 골형성 저하와 골재형성 불균형이 관여하며 선지 중 골모세포 활성 감소(A)가 가장 적절하다. 실제로 낙상 외상이 있었고 환자는 비흡연자이므로 외상 없음·흡연력을 추가해서는 안 된다. 골다공증은 골량이 감소하지만 남은 골기질의 무기질화는 보통 정상이다.
 
-고관절 골절이 외상 없이 발생한 경우 골밀도 감소가 원인일 가능성이 높다. 환자는 고령이며 골다공증 위험인자(흡연, 알코올)도 존재한다. 골모세포 활성 감소는 골다공증의 주요 병리이며, 이는 골절을 초래한다. 따라서 가장 가능성 높은 기저 원인은 골모세포 활성 감소이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고령 취약성 골절의 A를 유지하되 낙상을 외상 없음으로 바꾸고 비흡연 환자에게 흡연 위험을 추가한 오류를 교정한다.
 
 ## 출처
 

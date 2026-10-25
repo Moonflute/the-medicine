@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 즉시 제왕절개 분만 시행
 
 ## 해설
 
+치료받지 않은 HIV 감염 임신에서 즉시 병합 ART를 시작한다. 분만에 가까운 HIV RNA가 >1,000 copies/mL이면 일반적으로 38주 계획 제왕절개와 분만 중 IV 지도부딘을 권고하므로 B가 가장 적절하다. ART 후 바이러스 억제 속도에 따라 전문가와 분만 계획을 재평가하며 신생아 예방치료도 필요하다. <1,000은 정상 또는 미감염 기준이 아니라 분만 방식 결정 기준 중 하나이다.
 
-임신 36주에 HIV 양성이고 바이러스 부하가 높은 경우, 임신 38주에 제왕절개를 계획하며 cART를 시작하는 것이 태아 감염 위험을 최소화한다. 분만 시 zidovudine 단독 투여는 충분하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 높은 HIV RNA에서 계획 제왕절개 조건 및 ART 후 재평가 보강, 1000을 정상값으로 오해 방지.
+- https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care?view=brief
 
 ## 출처
 

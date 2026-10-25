@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 데포 메드록시프로게스테론 아세테이트
 
 ## 해설
 
+혈압 152/98에서 에스트로겐 포함 피임은 불리하며 윌슨병에서는 구리 IUD를 피한다. 리바록사반 사용 맥락도 확인해야 한다. 제시된 LNG(A)를 장기 피임용 프로게스틴 방법으로 해석하면 적절하지만 제형이 명시되지 않아 실제 처방에는 IUD 등 방법을 구체화해야 한다. 응급피임 LNG 한 번 복용으로 지속 피임을 대신하는 의미는 아니다.
 
-고혈압과 윌슨병이 있는 환자는 에스트로겐 함유 피임제 사용 시 혈전 위험이 증가한다. 따라서 에스트로겐이 없는 프로게스틴 단독제인 레보노르게스트렐이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 윌슨병 자체를 혈전 위험으로 묶은 설명 수정 및 LNG 제형 한계 명시.
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm/
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/018680Orig1s074lbl.pdf
 
 ## 출처
 

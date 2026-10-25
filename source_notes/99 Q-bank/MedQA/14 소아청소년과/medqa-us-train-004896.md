@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 배뇨방광요도조영술
 
 ## 해설
 
+22개월의 첫 발열성 UTI에서 신장·방광 초음파(C)는 수신증 등 구조적 이상을 평가하는 적절한 후속 검사이다. 초음파가 신반흔이나 모든 역류를 정확히 검출하는 검사는 아니다. VCUG·DMSA는 재발, 비전형 경과 또는 초음파 이상 등에 따라 선택한다.
 
-소변 검사에서 요로감염을 시사하는 혈액, 백혈구, 세균, 아질산염 양성 및 대장균 배양이 확인되었다. 소아에서 첫 발열성 요로감염 후 신장 손상을 평가하기 위해 신장·방광 초음파가 권장된다. 따라서 신장 및 방광 초음파검사가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 첫 발열성 UTI 후 초음파의 목적을 신실질 흉터 검사와 구별.
+- https://uroweb.org/guidelines/paediatric-urology/chapter/urinary-tract-infections-in-children
 
 ## 출처
 

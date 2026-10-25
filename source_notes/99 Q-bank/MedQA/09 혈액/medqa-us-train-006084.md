@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,15 @@ D. 테스토스테론
 ## 해설
 
 
-환자는 단클론 단백이 검출된 고칼슘혈증과 압박 골절을 동반한 다발성 골수종으로 진단된다. 병적 골절을 예방하기 위해 골흡수를 억제하는 비질산염계 약물이 가장 효과적이며, 파미드로네이트가 대표적인 치료제이다. 따라서 파미드로네이트 투여가 가장 적절하다.
+MM 관련 용해성 골질환/골절 재발 위험에 pamidronate C 같은 bisphosphonate는 골흡수를 억제해 골격 사건을 줄인다. Bisphosphonate는 비질산염이 아니다. 투여 전 신기능·칼슘/영양 상태·치과/턱뼈 위험을 평가한다. 현재 갑작스러운 하반신 위약과 압박골절은 별도로 척수압박 응급평가·MRI 및 전문 치료가 필요하며 pamidronate만으로 해결하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006084 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Bisphosphonate를 비질산염이라 한 오역 교정; 골 사건 예방 pamidronate C 및 급성 척수압박 별도 응급처치 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/myeloma/hp/myeloma-treatment-pdq
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations
 
 ## 출처
 

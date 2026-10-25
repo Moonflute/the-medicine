@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YG065287J247Y6g7YSwIOymne2bhOq1sCAoS2xpbmVmZWx0ZXIgU3luZHJvbWUpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "키·고환 소견을 원발성 성선기능저하와 연결."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-클라인펠터 증후군의 전형적인 임상 특징 조합은?
+Klinefelter 증후군의 대표적인 조합은?
 
 ## 선택지
 
-A. 고신장, 고환 위축(작고 단단함), 여성형 유방
-B. 저신장, 거대 고환, 남성형 유방
-C. 정상 신장, 거대 고환, 정상 유방
-D. 고신장, 정상 고환, 여성형 유방
+A. 작고 단단한 고환과 고성선자극호르몬성 성선기능저하
+B. 큰 고환과 항상 정상 생식 기능
+C. 저성선자극호르몬만을 보이는 모든 시상하부 질환
+D. 여성에서 X 염색체 하나 소실만
 
 ## 해설
 
-클라인펠터 증후군은 고신장, 고환 위축(작고 단단함), 여성형 유방이 동반되는 것이 대표적인 임상 양상이다.
+대표 핵형은 47,XXY이며 키가 크거나 여성형유방·불임 등이 동반될 수 있다. 표현형은 다양하고 모자이크도 있어 외모만으로 확진하지 않는다.
 
 ## 오답 포인트
 
-- **B. 저신장, 거대 고환, 남성형 유방:** 거대 고환은 클라인펠터와 반대되는 소견이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 클라인펠터 증후군 (Klinefelter Syndrome)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/클라인펠터 증후군 (Klinefelter Syndrome).md`
-- 학습 목표: 원문 핵심: * **신체적 특징**: 고신장(긴 팔다리), 고환 위축(작고 단단함), 여성형 유방 * **사춘기**: 불완전한 2차 성징 발현, 안면 및 체모 감소 * **신경인지**: 언어 발달 지연, 학습 장애, 주의력 결핍, 불안 및 우울감 가능성 * **기타**: 불임(무정자증), 골다공증, 대사 증후군, 자가면역 질환 위험 증가
+- 학습 목표: Klinefelter 증후군의 작은 고환과 성선기능저하

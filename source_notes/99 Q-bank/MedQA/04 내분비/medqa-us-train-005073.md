@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 경접형동 뇌하수체 선종절제술
 
 
 뇌하수체 ACTH 분비 선종에 의한 쿠싱병은 수술적 절제가 가장 효과적인 치료이다. 경접형동 뇌하수체 선종절제술이 표준 치료법이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ACTH의존 Cushing·뇌하수체 종양은 경접형동 절제 D의 1차치료에 부합.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12963774/
 
 ## 출처
 

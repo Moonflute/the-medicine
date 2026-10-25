@@ -18,17 +18,22 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+curation_status: "revised"
+curation_reason: "제4형 RTA에서 칼륨 배설이 증가한다는 반대 기전을 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -46,10 +51,19 @@ D. 판코니 증후군
 
 ## 해설
 
-
-제4형 신세뇨관산증은 고칼륨혈증, 대사성 산증, 소변에 높은 Na⁺와 K⁺ 배설이 특징이며, 고혈압과 당뇨병 환자에게 흔히 나타난다. 환자의 전해질 및 혈액 가스 결과가 이를 뒷받침한다.
+고칼륨혈증과 정상 음이온차 대사성 산증은 aldosterone 부족·작용 저하에 따른 제4형 RTA를 시사한다. 당뇨병·ACE 억제제 등이 기여할 수 있고 칼륨과 ammonium 배설이 감소한다. 요 pH가 5.3처럼 낮아질 수 있으므로 산성뇨가 제4형을 배제하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006719
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 제4형 RTA에서 칼륨 배설이 증가한다는 반대 기전을 교정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 경복부 초음파 검사
 
 
 우상복부 통증, 황달, ALP 상승 및 직접 빌리루빈 증가는 담도계 폐쇄를 시사한다. 비침습적이며 빠른 진단법으로 경복부 초음파가 담석, 담관 확장 등을 확인할 수 있다. 따라서 다음 진단 단계는 경복부 초음파 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 안정적 RUQ통증/직접황달·ALP상승의 초기 평가에는 초음파 D. 치료 ERCP나 HIDA보다 먼저 담석/담관확장을 확인하는 맥락.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 핵형검사
 
 ## 해설
 
+13세에 Tanner 1로 유방 발달이 없으면 사춘기 지연을 평가한다. 낮은 FSH/LH는 중추성 억제 또는 체질적 지연 등을 시사하고 두통이 있어 구조적 원인 평가를 고려하므로 보기 중 뇌하수체 MRI(C)가 적절하다. 13세 무월경만으로 질환을 확정하거나 사춘기 전 정상치와 성인 참고치를 단순 비교하지 않는다.
 
-FSH와 LH가 모두 낮고, 13세에 초경이 없으며 자궁이 존재하는 경우는 시상하부-뇌하수체 기능 저하인 hypogonadotropic hypogonadism을 의심한다. 원인 파악을 위해서는 뇌하수체 MRI가 필요하다. 따라서 가장 적절한 조치는 뇌하수체 MRI이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 13세 유방 발달 부재와 낮은 성선자극호르몬·두통에서 중추성 평가 MRI C 유지. 초경 부재만으로 병적이라고 한 설명 보완.
+- https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/
 
 ## 출처
 

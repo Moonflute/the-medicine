@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,11 @@ D. 정세포종성 생식세포 종양
 
 ## 해설
 
+고형 고환 종괴와 AFP·hCG 상승은 비정상피종성 생식세포종양을 지지하며 네 선지 중 A, 배아암이 가장 적절하다. 순수 정상피종은 AFP를 분비하지 않으므로 AFP 상승이 있으면 비정상피종 성분을 고려한다. Leydig 종양은 호르몬 증상을 일으킬 수 있지만 이 표지자 조합을 전형적으로 설명하지 않는다. 표지자만으로 혼합 성분까지 확정할 수는 없다.
 
-고환 종괴가 고형이며 HCG와 AFP가 모두 상승한 경우, 배아암(embryonal carcinoma)이 가장 흔한 비정상 종양이다. 다른 종양은 AFP만 상승하거나 LDH 상승이 특징이다. 따라서 배아암이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. AFP와 hCG 동시 상승의 비정상피종성 종양 근거를 설명하고 다른 종양의 표지자를 잘못 일반화한 부분 교정.
 
 ## 출처
 

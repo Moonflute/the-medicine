@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 레보도파
 
 ## 해설
 
+젊은 환자의 날개짓 양상 저주파 떨림, 구음·연하 관련 침흘림, 운동실조와 행동/정서 변화는 Wilson 병을 시사한다. 보기 중 구리 킬레이트제인 penicillamine(A)이 적합하다. 신경증상 환자는 치료 초기에 악화할 수 있어 전문적으로 약제를 선택하고 추적한다. Kayser-Fleischer 고리는 중요한 안과 소견이지만 이 자료에 누락된 사진에서 실제 고리를 확인했다고 단정할 수 없다. 본문 임상 단서와 선택지 비교만으로 A를 유지한다.
 
-윌슨병은 간·뇌 손상과 함께 파킨슨형 떨림, 저주파 손떨림, 눈의 케르네그라프 반점이 나타난다. 페니실라민은 구리 결합을 촉진해 치료한다. 정답은 A.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 윌슨병의 날개짓 떨림을 임상적으로 대조하여 A 유지. 눈 사진을 본 것처럼 해설한 오류와 Kayser-Fleischer 명칭 교정.
+- 공식/학회 근거: https://onlinelibrary.wiley.com/doi/full/10.1002/hep.32805
 
 ## 출처
 

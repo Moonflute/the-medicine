@@ -19,15 +19,17 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 알도스테론 길항제는 시각장애를 일으킬 수 있다
 
 ## 해설
 
+스피로놀락톤 등 MRA는 적절한 수축기 기능저하 심부전 환자에서 이환율과 사망률을 낮추므로 C가 옳다. 모든 단계나 모든 EF의 심부전에 같은 적응증이 있는 것은 아니다. 실제 사용 전에는 EF, eGFR와 칼륨을 확인하고 투여 후에도 고칼륨혈증과 신기능을 감시해야 한다.
 
-스피로놀락톤은 알도스테론 길항제로, 심부전 환자에서 이환율과 사망률을 감소시키는 효과가 입증되었다. 따라서 알도스테론 길항제는 환자의 예후를 개선한다. 정답은 알도스테론 길항제가 이환율과 사망률을 감소시킨다이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: MRA의 생존효과 C를 HFrEF와 신기능·칼륨 기준에 연결하여 모든 심부전으로 일반화하지 않음.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 버드-키아리 증후군
 ## 해설
 
 
-이 환자는 PNH와 CD55 감소, 혈전성 합병증 위험이 높으며, 간정맥 폐쇄(Budd‑Chiari)와 같은 대정맥 혈전이 가장 치명적이다. 다른 선택지는 출혈·뇌정맥 혈전·고박출성 심부전보다 사망 위험이 낮다. 따라서 가장 위험한 원인은 버드‑키아리 증후군이다.
+CD55 감소, 혈관내 용혈과 혈구감소는 PNH를 시사한다. PNH는 비정상 부위 정맥혈전 위험이 있으며, 우상복부 통증과 간기능 이상을 동반한 이 사례에서 간정맥 혈전으로 인한 Budd-Chiari 증후군(D)이 중요한 치명적 합병증이다. 뇌정맥 혈전도 위험하므로 모든 PNH 환자에서 D만이 가장 흔한 사망원인이라고 일반화하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009514 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PNH의 혈전성 치명 합병증 중 복통·간수치 상승에 맞는 Budd-Chiari D 유지. 현대 치료 여부와 무관하게 모든 환자의 사망원인을 서열화한 표현은 한정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

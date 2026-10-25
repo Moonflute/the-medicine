@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 광견병 백신을 투여한다
 
 ## 해설
 
+미국 MedQA 맥락에서 건강하고 관찰 가능한 이웃집 개의 유발된 물림은 공중보건·수의 당국과 협의하여10일간 격리 관찰(A)할 수 있다. 관찰 중 발병·사망하거나 동물을 관찰할 수 없으면 즉시 재평가한다. 유행지역에서는 관찰만을 이유로 필요한 PEP를 지연하지 않는다. PEP가 필요한 경우 과거 적절한 접종자도 통상0일·3일 추가 백신을 받으며 면역글로불린은 투여하지 않는다. 상처·파상풍·세균감염 위험도 별도로 평가한다.
 
-건강한 개가 10일간 관찰 중 증상이 없으면 광견병 감염 위험이 거의 없으며, 예방접종·IG는 필요하지 않다. 개를 안락사하거나 검사를 하는 것은 과잉치료이며, 백신은 이미 접종되지 않은 경우에만 사후예방으로 사용한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 관찰 가능한 건강한 개의10일 관찰 A는 유지하되, 과거 접종자는 노출 후 백신을 쓰지 않는다는 오류를 수정하고 지역 공중보건 판단 조건을 명시했다.
+- 공식/학회 근거: https://www.cdc.gov/rabies/hcp/veterinarians/
+- 공식/학회 근거: https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html
 
 ## 출처
 

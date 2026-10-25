@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 적혈구증가증
 
 
 고령 남성의 무통성 림프절·비장 비대·백혈구 증가와 함께 말초 혈액에서 스머지 세포가 관찰되는 것이 만성 림프구성 백혈병(CLL)의 전형적인 소견이다. 다른 선택지는 CLL과 일치하지 않는다. 따라서 스머지 세포가 가장 잘 나타난다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006023 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고령의 무통성 림프절병증·비장비대와 CLL 관련 smudge cells C를 원문 대조 유지. 실제 클론성 림프구 수 등 확진을 가정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

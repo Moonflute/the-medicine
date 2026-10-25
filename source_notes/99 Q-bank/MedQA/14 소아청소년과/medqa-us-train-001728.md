@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 일산화질소 치료
 
 ## 해설
 
+제왕절개 후 과팽창·엽간열 액체는 일과성 신생아 빈호흡을 시사한다. 산소·보온·수액/수유 지원 등 지지치료(A)를 하되 저산소증과 함몰이 있어 필요시 CPAP를 사용한다. A를 단순 관찰로 해석해 C의 호흡 지원을 배제하지 않는다. 감염 등 다른 원인도 평가한다.
 
-신생아의 호흡곤란, 저산소증, 흉부 X선에서 폐 용적 증가와 엽간열 내 액체는 출산 직후 폐에 남아 있는 폐포액이 빠르게 흡수되지 않아 발생하는 일과성 신생아 호흡곤란(Transient tachypnea of the newborn)과 일치한다. 이 상태는 보통 지지요법(산소 공급, 온열 유지, 적절한 체위)으로 치료한다. 따라서 가장 적절한 다음 관리 단계는 지지요법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: TTN의 지지치료 A 유지. SpO2 88%·중등도 함몰에서 산소/CPAP 지원 필요성을 명시.
+- https://www.cahs.health.wa.gov.au/~/media/HSPs/CAHS/Documents/Health-Professionals/Neonatology-guidelines/Transient-Tachypnoea-of-the-Newborn.pdf
 
 ## 출처
 

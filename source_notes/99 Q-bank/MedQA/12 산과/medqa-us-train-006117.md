@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 적혈구 수혈
 
 ## 해설
 
+파수 직후 무통성 출혈과 태아 서맥·감속은 전치혈관 파열 등 태아 출혈을 의심하게 하는 응급 상황이다. 산모가 안정해도 태아는 급속 악화할 수 있어 응급 제왕절개(B)가 적절하다. 태아 머리가 만져지지 않는다는 사실은 무자궁이나 태아가 탈출했다는 뜻이 아니다. 진단 확정을 기다려 분만을 지연하지 않는다.
 
-양수 파열과 무자궁(태아 머리 미촉진), 태아 심박동 감속·서맥은 급성 태아 위기(태아 탈출)와 관련된다. 이 경우 즉시 태아를 구출해야 하므로 제왕절개가 가장 빠른 방법이다. 다른 선택지는 태아 회복에 도움이 되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 무자궁·태아탈출이라는 해설 오류를 파수 후 출혈 및 태아 급성 저산소증으로 교체.
+- https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/vasa-praevia-diagnosis-and-management-green-top-guideline-27b/
 
 ## 출처
 

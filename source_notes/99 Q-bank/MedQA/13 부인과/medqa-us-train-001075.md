@@ -17,17 +17,19 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 환자와 파트너를 국소 케토코나졸(ketoconazole)로 치료한다
 
 ## 해설
 
+묽은 분비물·pH>4.5·clue cell≥20%는 BV를 지지한다. 환자의 메트로니다졸(C)이 적절하며 질세척은 피한다. 현행ACOG는 특히재발BV에서 동시파트너치료를 고려하고 첫증상에서도 공동결정을 권고하므로 파트너를 절대 치료하지 않는다고 하지 않는다. B의파트너 metronidazole단독 일괄처방은 최신 권고요법과 같지 않다.
 
-질 분비물의 pH 5.1, 회백색 냄새 없는 분비물, 현미경에서 편모가 없는 작은 구균(가장자리)들이 보이는 것이 세균성 질염의 특징이다. 1차 치료는 메트로니다졸 단일제이다. 따라서 메트로니다졸 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: clue cell·BV진단 근거 수정 및2025파트너치료 갱신 반영.
+- https://www.cdc.gov/std/treatment-guidelines/BV.htm
+- https://www.acog.org/news/news-releases/2025/10/acog-recommends-concurrent-sexual-partner-treatment-recurrent-bacterial-vaginosis-first-time
 
 ## 출처
 

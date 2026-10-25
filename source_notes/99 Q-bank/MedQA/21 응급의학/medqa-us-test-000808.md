@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 진단되지 않은 폐렴
 
 ## 해설
 
+다발성 자상 후 출혈 소생에도 지속되는 심한 저혈압·차가운 사지·낮은 ScvO₂는 심박출량 저하와 산소 전달 부족을 시사한다. 선지 중 심장압전(A)의 폐쇄성 쇼크가 외상 상황에 가장 부합한다. 낮은 ScvO₂ 자체가 압전에 특이적이지 않으며 초음파와 지속 출혈 등 다른 원인 평가가 필요하다. FiO₂ 100%는 고농도 산소 투여이지 고압산소치료가 아니다.
 
-대량 출혈 후에도 혈압이 회복되지 않고 ScvO₂가 39%로 낮으며, 고압 산소에서도 혈압이 유지되지 않는 경우는 심장 압전(심낭혈종)으로 인한 폐쇄성 쇼크가 가장 흔하다. 이는 심장 눌림으로 순환이 차단되는 메커니즘이다. 따라서 가장 가능성 높은 원인은 심장눌림증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 심장압전 A를 유지하되 100% 산소를 고압산소로 오역하고 낮은 ScvO₂만으로 압전을 확진한 설명을 교정한다.
 
 ## 출처
 

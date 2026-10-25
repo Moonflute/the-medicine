@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "낙타 저장소는 다른 코로나바이러스 감염과 구별되는 전파 기본 이론이라 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmlxlra2v1ug1trhrttgp0bmficxvmqwc3s2fkn1p1rtzyv3djq2houlzkvettqw9uv2xrwkd4belfvmhjm1fnvw1wemnhbhlzwfj2y25rz1uzbhvasep2yldvz0tfmuzvbe1ws1m1dfpbfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ MERS-CoV는 낙타가 주요 저장소이며 사람에게 전파됩니다.
 
 ## 오답 포인트
 
-- **B. 박쥐:** 박쥐는 다른 코로나바이러스의 저장소이지만 MERS의 주요 저장소는 아닙니다.
+- **박쥐:** 박쥐는 다른 코로나바이러스의 저장소이지만 MERS의 주요 저장소는 아닙니다.
 
 ## 출처
 
 - 내부 학습 노트: 중동 호흡기 증후군 (MERS) (Middle East Respiratory Syndrome (MERS))
 - 원본 경로: `source_notes/02 Diseases/08 감염/중동 호흡기 증후군 (MERS) (Middle East Respiratory Syndrome (MERS)).md`
 - 학습 목표: 원문 핵심: - **정의**: 중동 호흡기 증후군 코로나바이러스 (MERS-CoV)에 의해 발생하는 급성 호흡기 질환 - **원인**: 중동 호흡기 증후군 코로나바이러스 (MERS-CoV) - **기전**: 낙타가 주요 저장소로 알려져 있으며, 사람 간 전파는 주로 의료기관 내 밀접 접촉, 호흡기 비말 또는 에어로졸을 통해 발생한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 낙타 저장소는 다른 코로나바이러스 감염과 구별되는 전파 기본 이론이라 유지.

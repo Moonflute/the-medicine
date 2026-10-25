@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 종양성 성장
 
 ## 해설
 
+페니토인 장기 사용은 비타민 D 대사 변화와 골 무기질화 장애에 관련될 수 있다. 늑골연 아래의 깊은 홈과 근력저하는 구루병성 대사 이상을 시사하므로 임상 단서만으로도 선택지 C가 가장 적절하다. 원문에서 참조하는 하지 X선은 제공되지 않았으므로 특정 성장판 영상 소견을 실제 관찰한 것처럼 덧붙이지 않는다.
 
-페니토인은 비타민 D 대사를 억제하고 골형성을 방해해 골연화증(구루병)과 유사한 대사성 골질환을 일으킨다. 대사 이상이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 페니토인의 비타민 D 대사 영향을 단순 대사 억제로 설명한 오류를 교정하고 없는 X선 소견을 추정하지 않았다.
+- https://www.schn.health.nsw.gov.au/epilepsy-clinician-handbook/medications/phenytoin
+- https://www.safetyandquality.gov.au/medicine-finder/dbl-phenytoin-injection-bp
 
 ## 출처
 

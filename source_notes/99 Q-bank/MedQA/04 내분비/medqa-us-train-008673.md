@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 뇌하수체 선종
 
 
 다발성 내분비 종양(MEN1)에서는 부갑상선 과다증, 췌장 내분비 종양, 그리고 뇌하수체 선종이 동반된다. 고칼슘혈증과 저인산혈증은 부갑상선 기능항진을 시사하므로, 뇌하수체 선종이 가장 가능성 높은 추가 병변이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008673 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 가족성 난치성 궤양+고Ca/저P의 MEN1 의심에서 추가 pituitary adenoma D 연관성 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,17 @@ D. 벤라팍신
 
 ## 해설
 
-
-삼환계 항우울제는 강한 항콜린성 부작용을 일으켜 요폐, 변비, 구강 건조를 유발한다. 환자는 새 약 복용 직후 이러한 증상이 나타났으며, 소변 검사는 정상이라 요폐는 기능성이다. 따라서 처방받은 약물은 아미트립틸린이 가장 가능성이 높다. (다른 선택지인 페넬진은 항콜린성 효과가 거의 없으며, 우울증 치료에 쓰이지 않는다.)
+새 약물 후의 요폐·변비·구강건조는 항콜린성 부작용 양상이며 제시된 선택지 중 삼환계 항우울제 아미트립틸린이 가장 적절하다. 정상 소변검사만으로 구조적 폐쇄 등 다른 요폐 원인이 배제되거나 기능성으로 확정되지 않는다. 페넬진도 우울증에 사용하는 MAOI이므로 항우울 치료에 쓰이지 않는다는 기존 설명은 잘못이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009221
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 정상 소변검사로 기능성 요폐라 확정하고 페넬진이 항우울제가 아니라고 한 오류 교정. 아미트립틸린 항콜린 정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정하며 최신 지침 전수 검증을 뜻하지 않음).
+- https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7cc62309-cb23-4888-afba-bb774658a748&type=display
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa

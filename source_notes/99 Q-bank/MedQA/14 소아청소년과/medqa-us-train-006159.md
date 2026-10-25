@@ -17,15 +17,19 @@ question_type: prognosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: C
+answer_change_reason: "고도 비만 남아의 가장 타당한 합병증을 성조숙증 C에서 고혈압 B로 변경. 이미 높은 혈압이 있으며 남아 비만을 성조숙증으로 단정할 근거 부족."
 ---
 
 # MedQA US 임상문제
@@ -43,8 +47,13 @@ D. 대퇴골두 골단 분리
 
 ## 해설
 
+고도 소아 비만은 고혈압 위험을 높이며 이 남아의 혈압 122/88 mmHg도 연령·성별·신장 기준으로 재평가가 필요하다. 보기 중 가장 타당한 결과는 고혈압(B)이다. 단일 측정만으로 지속 고혈압을 확진하지 않고 적절한 커프·반복 측정으로 확인한다. 비만 남아에서 성조숙증이 가장 흔한 결과라고 단정하지 않는다.
 
-소아 비만은 성호르몬 분비를 조기에 촉진해 성조숙증 위험을 높인다. 이 환자는 고도 비만이므로 가장 가능성 높은 결과는 성조숙증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 고도 비만 남아의 가장 타당한 합병증을 성조숙증 C에서 고혈압 B로 변경. 이미 높은 혈압이 있으며 남아 비만을 성조숙증으로 단정할 근거 부족.
+- https://doi.org/10.1542/peds.2022-060640
 
 ## 출처
 

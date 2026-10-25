@@ -19,13 +19,15 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 수술적 탐색
 
 ## 해설
 
+무거운 물건을 든 후 발생한 피하기종과 심박동에 맞춘 Hamman 징후는 자발성 종격동기종을 시사한다. 안정적이고 장기 손상이나 동반 기흉이 없는 경우에는 관찰, 진통 등 보존적 치료를 시행하며 필요에 따라 C의 보충 산소를 사용할 수 있다. 종격동기종 자체만으로 흉관을 삽입하지 않는다. 실제로는 누락된 흉부 영상으로 동반 기흉과 이차성 원인을 확인해야 한다.
 
-가슴에서 청진 시 심장 박동마다 딸깍거리는 소리(함만음)는 기흉 또는 기흉성 종격동 공기축적을 시사한다. 보충 산소는 즉각적인 치료가 아니다; 흉관 삽입이 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Hamman 징후를 기흉과 혼동하고 원정답 C와 반대로 흉관 삽입을 주장한 해설을 교체.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10089890/
 
 ## 출처
 

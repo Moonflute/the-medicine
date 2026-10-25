@@ -18,13 +18,15 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 안심시키고 면밀히 추적 관찰
 
 ## 해설
 
+정답은 B이다. 지속 우상복부통·발열·백혈구증가로 급성 담낭염이 의심되지만 초음파가 정상인 상황이다. cholescintigraphy/HIDA는 담낭 충만과 낭성관 개통을 평가하여 진단을 보완할 수 있다. 단순히 간헐적 통증이나 기능성 담석증을 확인하는 검사라고 설명하지 않는다. 다른 복부 원인 가능성에 따라 CT/MR 등도 고려한다.
 
-우상복부 통증이 간헐적으로 완화되고 초음파가 정상인 경우 담석에 의한 일시적 담도 폐쇄가 의심된다. 담도 신티그래피는 담도 흐름을 평가해 기능성 담석증을 확인하는 가장 적절한 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: HIDA를 기능성 담석증 확진이라 한 설명을 초음파 음성 의심 담낭염의 평가로 교정.
+- https://acsearch.acr.org/list/TopicNarrativePdf?topicId=132
 
 ## 출처
 

@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 승모판 탈출증
 
 
 청진에서 좌측 이완기 고음성 감소형 잡음과 우측 상부 중수축기 잡음, S3와 도약맥은 대동맥판 역류를 나타낸다. 대동맥판 역류는 좌심실 부하 증가와 연관된 잡음이다. 따라서 가장 가능성 높은 진단은 대동맥판 역류이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/선지/정답 B/해설 읽음. 초기 이완기 감소형 잡음, 넓은 맥압과 도약맥, Austin Flint에 합당한 심첨부 잡음은 대동맥판 역류와 일치. 처치 지침 검증 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

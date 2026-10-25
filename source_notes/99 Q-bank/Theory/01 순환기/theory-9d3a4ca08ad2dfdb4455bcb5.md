@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "심방에서 심실로의 전도 지연·차단이라는 AV block 정의는 중요한 기본 이론으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11d3fleuxwt3l3cu91thfdqw9rvllnww14dlkyc3bmbtfrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -44,10 +49,15 @@ D. 심실 수축력이 감소하는 현상
 
 ## 오답 포인트
 
-- **B. 심실에서 심방으로 역전도되는 현상:** 역전도는 방실 차단의 정의가 아닙니다.
+- **심실에서 심방으로 역전도되는 현상:** 역전도는 방실 차단의 정의가 아닙니다.
 
 ## 출처
 
 - 내부 학습 노트: 방실차단 (AV block)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/방실차단 (AV block).md`
 - 학습 목표: 원문 핵심: - **정의**: 심방에서 심실로의 전기 신호 전달이 지연되거나 차단되는 상태를 의미하며, 1도, 2도(Mobitz I, Mobitz II), 3도 방실차단으로 분류된다. - **원인**: 노화에 따른 전도계의 퇴행성 변화가 가장 흔하며, 심근경색, 약물(베타차단제, 칼슘채널차단제, 디곡신 등), 전해질 불균형, 갑상샘기능저하증, 심장 수술 등이 원인이 될 수 있다. - **기전**: 방실결절(AV node) 또는 히스-푸르키네계(His-Purkinje system)의 해부학적 또는 기능적 이상으로 발생한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 심방에서 심실로의 전도 지연·차단이라는 AV block 정의는 중요한 기본 이론으로 유지한다.

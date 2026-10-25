@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 외상후스트레스장애
 
 ## 해설
 
+학업·관계·건강 등 여러 영역의 과도한 걱정과 원문의 수면곤란은 보기 중 범불안장애(B)에 가장 부합한다. 다만 정식 진단에는 걱정의 통제 어려움, 지속기간 및 기능 영향을 확인해야 하며 본문에 6개월 이상이라고 명시된 것은 아니다. 큰 식사 뒤 인후 작열감이 모두 불안 때문에 생긴다고 단정하거나 기도라는 행동 하나만으로 강박장애를 확진해서도 안 된다.
 
-음식 섭취 시 목이 타는 느낌, 과도한 걱정, 지속적인 불안, 수면 방해는 전신적인 과도한 불안을 나타낸다. 범불안장애는 다양한 상황에 대한 과도하고 통제되지 않는 걱정이 6개월 이상 지속되는 것이 특징이다. 따라서 가장 가능성 높은 진단은 범불안장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문에 없는 6개월 이상의 경과를 실제로 확인한 것처럼 읽히지 않도록 진단의 근거와 지속기간 확인 필요를 구분했다.
+
 
 ## 출처
 

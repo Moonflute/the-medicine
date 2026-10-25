@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 복강경검사
 
 ## 해설
 
+주기적 골반통·성교통은 자궁내막증을 시사하며 정상 초음파도 표재성 병변을 배제하지 못한다. 이 환자는 경험적 피임약에도 통증이 지속되므로 상담 후 복강경 진단·치료(D)를 고려할 수 있다. 모든 의심 환자에게 수술을 거쳐야만 임상 진단이나 치료가 가능한 것은 아니다.
 
-월경 전 통증과 성교통, 자궁경부 압통은 자궁내막증을 강하게 시사한다. 진단 확정을 위해서는 병변을 직접 시각화할 수 있는 복강경 검사가 가장 정확하다. 따라서 다음 단계는 복강경 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 경험적 복합 피임약에도 지속되는 통증·정상 초음파에서 복강경 D는 합당한 선택. 모든 내막증 확진에 필수라는 단정 교정.
+- https://www.acog.org/news/news-releases/2026/02/acog-publishes-new-endometriosis-clinical-guidance-aiming-shorten-time-diagnosis-improve-access-care
+- https://www.nice.org.uk/guidance/ng73/chapter/recommendations
 
 ## 출처
 

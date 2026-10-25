@@ -20,15 +20,17 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,16 @@ D. 인슐린 결핍
 
 ## 해설
 
+정상 체격의 12세 소아에서 체중감소와 다뇨·야간뇨, 요당 양성이 함께 나타나면 인슐린 결핍에 의한 제1형 당뇨병을 우선 의심한다. 인슐린 부족으로 혈당이 증가하여 포도당이 소변으로 배출되면 삼투성 이뇨가 발생한다. 따라서 보기 중 가장 가능성 높은 원인은 D, 인슐린 결핍이다.
 
-수술 후 급성 알레르기 반응(아나필락시스)에서는 히스타민 매개 Ⅰ형 과민반응이 원인이며, 에피네프린이 가장 효과적인 치료이다. 따라서 정답은 D이다.
+소변 삼투질농도 620 mOsm/kg은 포도당 같은 용질 배설에 의한 이뇨와 양립하며, 요붕증의 전형적인 희석뇨 소견이 아니다. 백혈구 에스터라제 음성이고 감염 단서도 부족하다. 확진에는 혈당과 당뇨병 진단기준에 따른 평가가 필요하며 요당 하나만으로 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 아나필락시스 해설을 소아 제1형 당뇨병/인슐린 결핍에 의한 당뇨와 삼투성 이뇨 설명으로 교체. 원정답 D 유지.
+- https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-1-diabetes
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 16세까지 성인형 치모 분포가 없음
 
 ## 해설
 
+남아의 사춘기 시작은 일반적으로 고환 용적 증가가 첫 단서이며 정상 시작 범위는 대략 9~14세다. 14세까지 고환이 커지지 않은 경우(B)가 지연성 사춘기를 지지한다. 키 급성장·성인형 음모·일시적 여성형유방의 시점은 고환 발달과 같은 지표가 아니다.
 
-사춘기의 최초 징후는 고환 비대로, 일반적으로 12~14세에 시작한다. 14세까지 고환이 커지지 않은 경우는 실제로 고환 비대가 지연된 것을 의미한다. 따라서 이 소견이 지연성 사춘기 진단을 뒷받침한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 남아의 고환 발달 시작을 12~14세로 좁힌 해설을 일반적 9~14세 범위와 14세 지연 기준으로 교정했다.
+
 
 ## 출처
 

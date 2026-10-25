@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 복합 경구 피임약
 
 ## 해설
 
+36세·하루20개비 흡연은 에스트로겐 포함 복합피임약(D)의 금기(MEC4)에 해당한다. 프로게스틴 단독 방법은 별도로 평가한다. 구리 알레르기이면 구리IUD는 금기지만 LNG-IUD까지 모두 금기인 것은 아니다. 라텍스 없는 다이어프램도 있어 제형을 확인한다.
 
-라텍스와 구리 알레르기가 있는 경우, 복합 경구 피임약은 에스트로겐‑프로게스틴 조합으로 혈전 위험을 증가시켜 알레르기와 무관하지만 금기 약물은 아니다. 그러나 IUD는 구리 알레르기와 직접 관련이 있어 금기이다. 따라서 금기인 피임 방법은 복합 경구 피임약이 아니라 자궁내장치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답D와 반대로IUD를 답으로 설명한 오류;35세이상다량흡연기준 반영.
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm/
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/018680Orig1s074lbl.pdf
 
 ## 출처
 

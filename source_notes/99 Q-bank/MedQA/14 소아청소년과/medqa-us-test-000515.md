@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 파종성 결핵
 
 ## 해설
 
+Giardia와 반복 호흡기 감염은 IgA 결핍을 시사한다. 항-IgA 관련 수혈 아나필락시스(A)는 고전적 연관이지만 실제 발생은 드물고 IgA가 낮아도 대부분 경험하지 않는다. 수혈 필요 시 병력에 따라 전문 평가하며 IgA 결핍만으로 모든 수혈을 금지하지 않는다.
 
-Giardia lamblia 감염은 선택적 IgA 결핍과 연관되어 있으며, IgA 결핍 환자는 혈액제공 후 아나필락시스 위험이 증가한다. 따라서 가장 위험이 높은 상태는 수혈 후 아나필락시스이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Giardia·반복 점막감염의 IgA 결핍과 수혈 아나필락시스 A 연관 유지. 높은 절대 위험이라는 인상 교정.
+- https://professionaleducation.blood.ca/en/transfusion/publications/anaphylactic-transfusion-reactions-and-iga-deficiency
 
 ## 출처
 

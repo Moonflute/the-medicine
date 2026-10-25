@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 폐 선암
 
 
 쇼그렌 증후군 환자는 항-Ro/La 양성, 구강·안구 건조가 특징이며, 비호지킨 림프종으로의 진행 위험이 증가한다. 다른 선택지는 해당 질환과 연관성이 낮다. 따라서 가장 높은 위험은 비호지킨 림프종이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-000162` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 안구·구강 건조와 anti-Ro/La 양성의 쇼그렌, 림프종 위험 증가 B의 연결이 원문·해설과 일치. 치료 최신성 평가 아님.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

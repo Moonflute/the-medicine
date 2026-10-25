@@ -17,13 +17,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,12 @@ D. 생리식염수에 적신 거즈에 싸서
 
 ## 해설
 
+성인의 탈락 영구치는 가능한 빨리 재식할수록 치주인대세포 보존에 유리하다. 즉시 재식할 수 없어 운반하는 경우, 제시 선지 중 우유에 담그는 A가 물·건조 또는 거즈 보관보다 적절하다. 우유의 적절한 삼투압과 pH가 세포 생존을 돕고 건조를 막으며, 저산성으로 만들어야 한다는 뜻은 아니다. 치근을 문지르지 말고 치관을 잡아 신속히 치과로 이송한다.
 
-치아 탈구 시 치아 세포를 보존하려면 저온·저산성 환경이 필요하며, 우유는 pH가 적절하고 조직 손상을 최소화한다. 따라서 치아를 우유에 담가 운반하는 것이 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 탈락 치아 보관을 저산성 환경으로 설명한 오류를 치주인대세포의 적절한 삼투압·pH와 건조 방지로 교정했다. 운반 선지 A는 유지한다.
+- 공식/학회 근거: https://costr.ilcor.org/document/storage-of-an-avulsed-permanent-tooth-prior-to-reimplantation-task-force-systematic-review
 
 ## 출처
 

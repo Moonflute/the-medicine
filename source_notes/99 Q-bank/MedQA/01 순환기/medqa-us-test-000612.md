@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 세균 감염
 
 ## 해설
 
+멕시코 거주/방문력과 심부전 징후에 연하곤란·역류가 함께 있어 Trypanosoma cruzi에 의한 샤가스병(C)을 고려한다. 만성 감염은 심근 손상에 의한 확장성 심근병증과 장관 신경계 손상에 의한 식도 운동장애를 일으킬 수 있다. 본문에 없는 복부팽창이나 특정 흉부 X선 소견을 새로 가정하지 않는다.
 
-복부 팽창, 말초 부종, 심장음 S3, 폐 기저부 수포음은 확장성 심근병증을 시사한다. 멕시코 출신으로 샤가스병(트리파노소마 감염)과 연관된 확장성 심근병증이 흔하다. 따라서 가장 적절한 설명은 기생충 감염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 본문에 없는 복부팽창을 제거하고 멕시코 노출·심부전과 식도 증상을 샤가스병 기전으로 연결.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

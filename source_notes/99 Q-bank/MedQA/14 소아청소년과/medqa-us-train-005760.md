@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 미세운동: 정상 | 대근육운동: 정상 | 언어: 지연 | 사회성: 
 
 ## 해설
 
+계단과 세발자전거의 대근육 기능은 보존되고 숟가락 자조 기능이 어렵다는 점은 미세운동/적응 기능 우려를 지지한다. 분리와 자조·또래 상호작용에서 어려움이 함께 있어 보기 중 C가 출제 의도다. 다만 3세의 자기중심성이나 떼쓰기 하나만으로 사회성 지연을 확진할 수 없고, 언어·분리 적응의 개인차와 기능 영향을 추가로 확인해야 한다.
 
-3세 아동은 대근육 발달은 정상(계단 오르내리기)이나 미세운동(손가락 사용)과 사회성(자기중심적, 분리불안)에서 지연을 보인다. 언어는 정상 수준이다. 따라서 미세운동 지연·대근육 정상·언어 정상·사회성 지연이 가장 적절한 평가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 3세의 자기중심성/떼쓰기 자체를 곧 사회성 지연으로 단정한 해설을 기능 단서와 연령별 변이의 구별로 보완했다.
+
 
 ## 출처
 

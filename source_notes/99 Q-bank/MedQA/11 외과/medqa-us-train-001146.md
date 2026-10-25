@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. D-이량체(D-dimer) 측정
 ## 해설
 
 
-구토 후 흉통·청진에서 으드득거리는 소리는 식도 파열(Boerhaave 증후군)과 일치하며, 조영제 식도 조영술이 파열 부위를 가장 정확히 확인한다.
+심한 구토 직후 흉통과 심박동에 동기화된 으드득거리는 소리(Hamman 징후)는 종격동 공기를 시사하여 식도 천공(Boerhaave 증후군)을 의심하게 한다. 제시된 선택지 중 조영 식도조영술(C)로 식도 밖 누출을 확인할 수 있다. 필요하면 CT/CT 식도조영술로 누출과 종격동·흉막 오염을 평가한다. 단순 상부내시경은 처음부터 무조건 시행하지 않으며, 영상 음성이라도 의심이 높으면 추가 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001146 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 조영 식도검사 C는 유지하되 항상 가장 정확하다는 비교 근거 없는 단정을 제거했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/
 
 ## 출처
 

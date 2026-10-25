@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 태아 히단토인 증후군
 
 ## 해설
 
+12주에 두 차례 확인된 고혈압은 임신성 고혈압보다 만성고혈압 범주에 해당한다. 태반 기능 저하와 관련해 임신 주수에 비해 작은 출생아(A) 위험이 증가한다. 라모트리진을 페니토인으로 혼동해 태아 히단토인증후군을 선택하지 않는다.
 
-임신 고혈압은 태반 혈류 감소를 초래해 태아 성장 제한을 일으킨다. 따라서 산모의 고혈압이 가장 흔히 초래하는 신생아는 임신 주수에 비해 작은 출생아이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 20주 전 고혈압은 임신성 고혈압이 아닌 만성고혈압 범주로 교정.
+
 
 ## 출처
 

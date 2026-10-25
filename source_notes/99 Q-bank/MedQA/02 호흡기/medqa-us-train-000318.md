@@ -19,11 +19,11 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 정맥 주사용 시프로플록사신(Intravenous ciprofloxacin)
 
 ## 해설
 
+정답은 D이다. CF 환자의 호기성·비유당발효·oxidase 양성 그람음성 막대균은 Pseudomonas aeruginosa를 시사한다. 제시된 선택지 중 ciprofloxacin이 항녹농균 활성을 갖는다. 녹농균을 전형적 장내세균으로 분류하지 않으며 실제 약제·투여경로·병용 여부는 감수성, 중증도, 과거 배양에 따른다. IV 제형이 모든 CF 악화에서 항상 가장 유익하다는 뜻은 아니다.
 
-낭성 섬유증 환자에서 녹색-황색 그람음성 비발효성 장내균에 대한 감수성은 시프로플록사신에 높으며, 정맥 주사 형태가 가장 효과적인 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 녹농균을 장내균이라고 한 오류와 무조건 IV가 가장 효과적이라는 단정을 교정.
+- https://www.cff.org/medical-professionals/pulmonary-exacerbations-clinical-care-guidelines
 
 ## 출처
 

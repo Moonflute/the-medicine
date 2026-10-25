@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 정맥 면역글로불린
 ## 해설
 
 
-양쪽 상지 근력 저하와 V자형 피부 홍반, 모세혈관확장, 항핵항체 양성, CK 상승은 다발성 근염(다발성 근육염)과 전신성 홍반성 루푸스(SLE) 겹침을 시사한다. 급성 증상과 근육 손상을 빠르게 억제하기 위해 고용량 코르티코스테로이드가 1차 치료로 권장된다.
+근위부 근력저하·CK 상승과 광노출 부위의 V자 홍반/poikiloderma는 피부근염을 지지한다. 가족력이나 ANA 양성만으로 SLE 겹침을 진단하지 않는다. 활동성 근육염 유도치료에서 고용량 glucocorticoid(C)가 적절하며, 조기에 steroid 절감제와 장기침범·악성종양 위험 평가를 함께 계획한다. 제공되지 않은 추가 그림의 세부 소견을 보았다고 가정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004642 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: V-sign/poikiloderma를 보이는 피부근염을 PM-SLE 겹침으로 오연결한 해설을 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9398208/
 
 ## 출처
 

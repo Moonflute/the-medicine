@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 알코올 금단
 
 ## 해설
 
+주간 졸림, 입면·각성기의 꿈 같은 경험과 움직일 수 없는 수면마비는 기면증(C)을 시사한다. 수면마비는 감정 자극에 따른 탈력발작과 다르며, 이 문항에 탈력발작이 제시된 것은 아니다. 실제 진단에는 충분한 수면 여부를 확인하고 수면다원검사와 다중수면잠복기검사 등을 이용한다.
 
-수면 발작, 저녁에 갑작스러운 근육 마비, 그리고 수면 전후 환각은 기면증의 전형적인 삼중 증상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 수면마비를 낮의 탈력발작과 혼동하고 없는 수면발작을 확정한 설명을 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

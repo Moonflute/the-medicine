@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 혈액 투석
 
 ## 해설
 
+고온 작업환경에서 41°C 고체온과 중추신경계 이상·저혈압·장기손상이 나타나 열사병을 시사한다. 신속한 적극 냉각, 가능한 경우 차갑거나 얼음물 침수(C)를 시행한다. 기도·호흡·순환 감시와 수액을 병행하며 일반 해열제나 dantrolene이 냉각을 대신하지 않는다. 원문 CK 86,000 U/mL는 임상에서 통상 사용하는 U/L 표기와 달라 원자료 단위 확인이 필요하지만, 열사병 응급 냉각 판단은 고체온·의식 변화만으로도 충분하다.
 
-고온 환경에서의 열사병은 체온 40°C 이상, 의식 저하, 혈압 저하와 함께 급성 횡문근융해(크레아틴키나아제 86,000 U/mL)와 어두운 소변을 동반한다. 급성 열사병의 치료는 체온을 빠르게 낮추는 것이 핵심이며, 얼음물 침수가 가장 효과적이다. 따라서 다음 단계는 얼음물 침수이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 열사병의 즉시 냉각 C는 적절하며 원문 CK의 비표준 U/mL 단위를 확정적 정상 단위처럼 해석하지 않도록 설명한다.
+- 공식/학회 근거: https://sccm.org/clinical-resources/guidelines/guidelines/guideline-for-the-treatment-of-heat-stroke
 
 ## 출처
 

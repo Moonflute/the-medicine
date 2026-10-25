@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "방사되는 전경부 통증·갑상샘 압통은 통증성 아급성 갑상샘염의 유용한 임상 형태 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc15vmhpctrpzxlfc1necxnkshnnnehzzzvqc2w3d2dlrk4xww1gamryumxjrljvzvhkdmfxunbkr2x6s1m1dfpbfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -45,3 +50,8 @@ D. 고혈압과 부종
 - 내부 학습 노트: 아급성 갑상샘염 (Subacute Thyroiditis)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/아급성 갑상샘염 (Subacute Thyroiditis).md`
 - 학습 목표: 원문 핵심: * **CC**: 전경부 통증(턱이나 귀로 방사될 수 있음), 발열, 전신 쇠약감. * **P/E**: 갑상샘의 비대칭적 비대, 단단함, 압통이 특징적임. 초기에는 갑상샘중독증 증상이 나타날 수 있음.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 방사되는 전경부 통증·갑상샘 압통은 통증성 아급성 갑상샘염의 유용한 임상 형태 복습으로 유지.

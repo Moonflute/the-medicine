@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MjIg7KCV7ZiV7Jm46rO8L-uCtOy4oSDsuKHrtoAg7J2464yAIOyGkOyDgSAoTWVkaWFsIENvbGxhdGVyYWwgTGlnYW1lbnQgSW5qdXJ5KS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "내측 통증과 외반 스트레스 검사는 다른 주요 무릎 인대 손상과 구별되는 핵심."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,10 @@ MCL 손상 시 내측 무릎 통증·부종·불안정성·‘뚝’ 느낌이 �
 
 ## 오답 포인트
 
-- **B. 전방 무릎 통증·부종·무릎 굽힘 제한, Lachman test 양성:** Lachman test는 전방 십자인대 손상에 해당한다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: 내측 측부 인대 손상 (Medial Collateral Ligament Injury)
 - 원본 경로: `source_notes/02 Diseases/22 정형외과/내측 측부 인대 손상 (Medial Collateral Ligament Injury).md`
-- 학습 목표: 원문 핵심: * **CC**: 내측 무릎 통증, 부종, 불안정성, 손상 시 '뚝' 하는 느낌(pop). * **P/E**: - 내측 관절선 압통 확인. - Valgus stress test: 30도 굴곡 상태에서 시행하여 내측 불안정성 평가. 0도 신전 상태에서도 양성일 경우 심한 손상(심부 인대 및 후방 구조물 동반 손상) 의심. - 등급 분류: 1등급(통증, 불안정성 없음), 2등급(부분 파열, 명확한 끝점 있음), 3등급(완전 파열, 끝점 없음).
+- 학습 목표: MCL 손상의 외반 스트레스 불안정성

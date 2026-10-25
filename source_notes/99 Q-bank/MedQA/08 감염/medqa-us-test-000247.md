@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 혈액배양을 반복하지 않는다
 
 
 감염성 심내막염 의심 시 혈액배양을 즉시 반복하여 지속적인 균혈증을 확인해야 한다. 따라서 현재 혈액배양을 바로 반복하는 것이 가장 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000247 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 주사약물·삼첨판 역류 징후와 S. aureus 배양 뒤 추가 혈액배양 A는 적절. 배양 하나가 확진 전부는 아니며 심초음파와 종합해야 함.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

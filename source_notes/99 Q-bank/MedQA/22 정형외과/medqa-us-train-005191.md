@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 어깨관절 탈구
 
 ## 해설
 
+머리 위 동작 후 어깨 통증, 능동 외전 제한과 근력저하에 비해 보존된 수동 운동범위는 회전근개, 특히 극상근 손상을 시사한다. 선지 중 극상근 파열(B)이 가장 합당하다. 다만 20세 과사용 운동선수에서 완전 파열이 흔하다고 일반화할 수 없으며 통증에 의한 힘 억제·건병증과 실제 파열은 추가 평가로 구별한다. 탈구나 관절내 골절을 시사하는 변형·뚜렷한 외상은 없고 감각·반사 보존은 경추 신경근병증보다 어깨 국소 문제를 지지한다.
 
-배구 경기 후 어깨 통증과 활동 시 외전 제한, 수동 외전은 정상 범위에서 통증이 있는 경우는 회전근개 중 극상근 파열이 가장 흔한 원인이다. 이는 과사용성 손상으로 젊은 운동선수에게 흔히 발생한다. 따라서 정답은 극상근 파열이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 젊은 과사용 운동선수에서 극상근 파열이 항상 흔하다는 해설을 제한했다. 제시 선지 중 B가 가장 합당하지만 건병증과 파열을 검사만으로 확진하지 않는다.
 
 ## 출처
 

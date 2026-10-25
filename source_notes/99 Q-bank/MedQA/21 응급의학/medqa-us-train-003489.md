@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 대장내시경
 
 ## 해설
 
+쇼크·심한 복통·압통성 박동 종괴는 파열 AAA를 강하게 시사한다. 보기 중 긴급 출혈 조절 수술(B)을 지체하지 않는 것이 적합하며 혈액제제 소생도 병행한다. 실제 개복 또는 혈관내 치료, 초음파/CTA의 사용은 안정성과 시설·해부학적 조건에 따라 결정하며 불필요한 영상으로 출혈 조절을 지연해서는 안 된다.
 
-복부에 맥동성 종괴와 저혈압, 쇼크는 파열된 복부 대동맥류를 의미한다. 파열된 AAA는 즉시 외과적 개복이 필요하며, 영상 검사는 지연을 초래한다. 따라서 가장 적절한 조치는 응급 개복수술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 파열 AAA의 응급 수술 B 유지하되 모든 환자가 영상 없이 반드시 개복만 한다는 단정 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng156/chapter/recommendations
 
 ## 출처
 

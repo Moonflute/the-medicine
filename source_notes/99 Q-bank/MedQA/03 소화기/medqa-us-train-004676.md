@@ -19,15 +19,17 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 가스트로그라핀 관장
 
 ## 해설
 
+지속 구토와 복부팽만에서는 B의 비위관 감압과 수액·전해질 교정이 초기 보존치료에 해당한다. 저칼륨 관련 마비성 장폐색과 기계적 폐색을 감별해야 하며, 장음 소실이나 빈 직장만으로 기계적 폐색이 확진되지는 않는다. 원본 AXR가 없어 그 영상소견을 만들어 해석하지 않는다. 허혈·교액·복막염 소견은 신속한 외과 평가가 필요하다.
 
-복부 팽창, 장음 소실, 직장 팽대부는 폐쇄성 장폐색을 의미하며, 위장관 압력 감소를 위해 비위관 감압이 가장 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 구토·팽만의 비위관 감압 B는 적절하나 누락 AXR와 장음만으로 기계폐색을 단정하지 않도록 교정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6006983/
 
 ## 출처
 

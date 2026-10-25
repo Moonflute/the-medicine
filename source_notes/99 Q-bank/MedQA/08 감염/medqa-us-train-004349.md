@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 아지트로마이신
 ## 해설
 
 
-거대세포바이러스(가스톤) 폐렴은 골수이식 후 면역억제 환자에서 흔히 발생하며, ganciclovir(간시클로버) 치료가 표준이다. 다른 항생제는 효과가 없다.
+조혈모세포이식3개월 뒤 면역억제 상태에서 간질성 폐렴과 pp65 항원 양성은 CMV 관련 질환을 의심하게 하며 선택지 C ganciclovir가 항CMV 치료에 해당한다. 항원혈증 하나만으로 폐실질 침범이 확진되는 것은 아니므로 하기도 검사와 다른 원인 감별을 함께 한다. Creatinine2.1mg/dL로 신기능에 맞춘 용량과 골수억제 감시가 필요하다. Acyclovir를 같은 항CMV 치료로 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004349 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 가스톤이라는 잘못된 CMV 용어 제거; 이식 후 CMV 의심 ganciclovir C와 확진·신기능 주의 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus
 
 ## 출처
 

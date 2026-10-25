@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. HPV 검사
 
 ## 해설
 
+26세까지 미완료 HPV 예방접종을 보충하므로 A가 적절하다. 성생활 여부와 무관하게 권고하며 백신은 자궁경부암 선별검사를 대체하지 않는다. 13개월 전 정상 세포검사만으로 매년 반복할 필요는 없다.
 
-24세 여성은 HPV 감염 위험이 높으며, 26세 이하 여성에게는 9가 HPV 백신이 권장된다. 현재는 자궁경부암 검진보다 예방접종이 우선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미접종 24세 HPV 백신 A 유지. 예방접종과 선별검사를 경쟁적 우선순위로 둔 설명 수정.
+- https://www.cdc.gov/hpv/hcp/vaccination-considerations/
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening
 
 ## 출처
 

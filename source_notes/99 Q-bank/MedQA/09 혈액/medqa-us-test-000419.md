@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 동종 줄기세포 이식
 ## 해설
 
 
-저색소성 소구성 빈혈은 철분 결핍이 원인인 경우 혈청 철분 보충이 가장 효과적인 초기 치료이다. 환자는 식이에서 철분 섭취가 부족하고 혈액 검사에서 미세소구성 빈혈을 보이므로 철분 보충이 적절하다.
+소구성 빈혈, 높은 RDW, 구각염과 숟가락손발톱은 철결핍을 지지한다. 선지 중 철분 보충(C)이 적절하며 통상 경구 철분과 식이 개선을 고려한다. 원인 평가와 치료 반응 확인도 필요하고, 이 정도의 안정적 빈혈에 정기 수혈을 우선하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000419`와 직접 대조했다.
+- 판정: 소구성 빈혈·높은 RDW·숟가락손발톱으로 철결핍과 C 유지. 혈청 철분 보충이라는 부정확한 표현을 경구 철분으로 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.hematology.org/education/patients/anemia/iron-deficiency
 
 ## 출처
 

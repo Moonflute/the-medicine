@@ -12,42 +12,58 @@ target_type: drug
 target_slug: "ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k"
 theory_objective_id: drug-01-next_action
 question_type: next_action
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
+curation_status: "revised"
+curation_reason: "모든 VT에 대한 절대 표현은 고치되 원인 미상 넓은 QRS 빈맥에서 verapamil을 경험적으로 주지 않는 중요한 안전 원칙은 유지한다."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 모든 VT에 대한 절대 표현은 고치되 원인 미상 넓은 QRS 빈맥에서 verapamil을 경험적으로 주지 않는 중요한 안전 원칙은 유지한다."
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-심실성 빈맥을 동반한 환자에게 베라파밀을 투여하려 한다. 가장 적절한 조치는?
+원인이 확정되지 않은 넓은 QRS 빈맥에서 verapamil 투여 원칙은?
 
 ## 선택지
 
-A. 베라파밀 투여를 피한다
-B. 저용량으로 시작한다
-C. 베타 차단제와 병용한다
-D. 투여 전 혈압을 모니터링한다
+A. 경험적으로 투여하지 않고 VT 가능성과 혈역학적 안정성을 평가한다
+B. SVT로 가정해 저용량부터 투여한다
+C. 혈압만 정상이면 beta 차단제와 함께 즉시 투여한다
+D. 원인 확인 없이 반복 투여해 반응으로 진단한다
 
 ## 해설
 
-베라파밀은 주로 심방성 부정맥에 사용되며 심실성 빈맥에는 효과가 없고 위험할 수 있다.
+원인 미상의 넓은 QRS 빈맥에 verapamil을 경험적으로 투여하면 VT 등에서 심한 저혈압·쇼크를 일으킬 수 있어 피한다. 안정성과 리듬을 평가해 적절한 빈맥 치료 경로를 따른다. 전문적으로 확인된 일부 verapamil-sensitive 특발성 VT의 치료는 이런 미확정 응급 상황과 구분한다.
 
 ## 오답 포인트
 
-- **B. 저용량으로 시작한다:** 저용량 시작은 심실성 빈맥에 대한 효과를 보장하지 못한다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: Verapamil
 - 원본 경로: `source_notes/04 Pharmacology/01 심혈계/Verapamil.md`
-- 학습 목표: 원문 핵심: > [!summary] > - 비디히드로피리딘계 칼슘채널차단제로, 혈관 확장 및 심박수 억제 효과를 통해 고혈압, 협심증, 부정맥 치료에 사용됨. > - 계통: 심혈계 > 혈압·심부전·신 > 칼슘채널차단제 > - 대표 상품명: 이솝틴정 (Verapamil Hydrochloride) > - 대표 용량: 40-80mg 1일 3회 (개별화된 용량 조절 필요)
+- 학습 목표: 원인 미상 넓은 QRS 빈맥에 verapamil을 경험적으로 투여하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 모든 VT에 대한 절대 표현은 고치되 원인 미상 넓은 QRS 빈맥에서 verapamil을 경험적으로 주지 않는 중요한 안전 원칙은 유지한다.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support
+- https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias

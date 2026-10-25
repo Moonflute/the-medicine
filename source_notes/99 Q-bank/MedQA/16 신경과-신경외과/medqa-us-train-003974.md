@@ -20,15 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
-related_drug_slugs:
-  - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
 ---
 
 # MedQA US 임상문제
@@ -46,8 +46,12 @@ D. 전압개폐 칼슘통로 항체
 
 ## 해설
 
+정답은 A, 암피피신(amphiphysin)에 대한 항체이다. 몸통과 사지의 강직, 반복되는 통증성 근육 경련, 요추 과전만 및 안정 시에도 지속되는 근전도 운동단위 활동은 강직인간증후군을 시사한다. 폐암이 동반된 종양딸림 형태에서는 항암피피신 항체가 중요한 연관 항체이다. 일반적인 자가면역 강직인간증후군에서는 항-GAD65 항체도 잘 알려져 있지만 이 선지에는 없으며, 문제는 종양딸림 항체를 묻는다. 전압개폐 칼슘통로 항체와 연관된 Lambert-Eaton 증후군의 주된 양상은 이러한 지속적 강직보다는 근위부 근력저하이다.
 
-와파린 복용 후 피부에 혈액응고 장애가 나타날 때 가장 큰 위험인자는 단백질 C 결핍이다. 이는 와파린 유발 피부괴사의 주요 소인이다. 따라서 정답은 응고인자 V 돌연변이가 아니라 단백질 C 결핍이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문의 본문·선지·정답 및 한국어 해설을 개별 대조하였다. 원정답과 케이스를 유지하고 잘못 연결된 해설을 교체하였다.
+- 공식/학회 근거: https://www.ninds.nih.gov/health-information/disorders/stiff-person-syndrome
 
 ## 출처
 

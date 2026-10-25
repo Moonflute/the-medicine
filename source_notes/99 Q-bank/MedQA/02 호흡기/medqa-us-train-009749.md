@@ -19,11 +19,11 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 칸데사르탄
 
 ## 해설
 
+아미오다론은 약물성 간질성 폐렴과 폐섬유화를 일으키거나 악화할 수 있으므로 A가 적합하다. 다만 벌집모양 변화는 섬유화 소견이며 석회화 육아종이나 림프절이 아미오다론 독성에 특이한 것은 아니다. 실제 약물 노출력과 다른 섬유화 원인을 함께 평가해야 한다.
 
-양측 폐기저부 벌집양성 변과 석회화 육아종은 아미오다론에 의해 유발되는 섬유화성 폐렴의 전형적인 영상소견이다. 아미오다론은 폐세포에 직접 독성을 일으켜 간질성 폐질환과 폐섬유화를 악화시킨다. 따라서 이 환자의 폐질환을 악화시킬 수 있는 약물은 아미오다론이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 아미오다론이 섬유화 악화 약물 A라는 점은 유지하되 석회화 육아종을 특이 영상으로 단정한 오류 제거.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3e631c5-1204-419c-8dbe-fa9b37a77f97
 
 ## 출처
 

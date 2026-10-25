@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 세프트리악손
 ## 해설
 
 
-겸상적혈구병 환자는 비장 기능 저하로 폐렴구균·수막구균·황색포도상구균 등에 대한 감염 위험이 높으며, 예방적 항생제로 세프트리악손을 사용하는 것이 권장된다. 다른 항생제는 내성·스펙트럼이 맞지 않는다. 따라서 가장 적절한 치료는 세프트리악손이다.
+겸상적혈구병의 기능적 무비장은 폐렴구균 등 침습성 피막균 감염 위험을 높인다. 고열과 전신병색이 있는 이 소아에게는 배양 채취 후 ceftriaxone(D) 같은 비경구 경험적 항생제를 신속히 투여한다. 이는 평상시 penicillin 예방요법과 다르며, 중증도·의심 감염원·내성에 따라 추가 치료와 입원 관찰이 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008532 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: SCD 소아의 고열·전신병색에서 ceftriaxone D는 예방약이 아니라 배양 후 신속한 경험적 치료다. S. aureus를 대표 피막균으로 묶은 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nhlbi.nih.gov/sites/default/files/publications/56-364NFULL.pdf
 
 ## 출처
 

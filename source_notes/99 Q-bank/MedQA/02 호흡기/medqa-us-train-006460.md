@@ -19,13 +19,15 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 흉강경적 변연절제술
 
 ## 해설
 
+폐렴 임상과 pH7.1의 삼출은 복잡성 폐렴연관흉수/흉막감염 고위험이다. 초음파로 안전한 접근이 가능하면 항생제와 함께 흉관배액 C가 적절하다. 고름이 확인된 농흉과 모든 저pH흉수를 동일시하지 않으며 DNase단독은 초기배액의 대체가 아니다.
 
-복잡성 부 parapneumonic effusion(농흉)은 pH 7.2 이하, 포도당 감소, 고백혈구를 보이며, 배액을 위해 흉관 삽입이 필요하다. 따라서 다음 단계는 흉관 삽입이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: pH7.1의 복잡성 폐렴연관삼출 C 배액을 명확히 하고 비농성도 농흉이라고 동일시하지 않음.
+- https://www.brit-thoracic.org.uk/clinical-resources/guidelines/pleural-disease-full-guideline/
 
 ## 출처
 

@@ -16,32 +16,44 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "운동·음성 틱이 동시에 있어야 한다는 오류를 제거하고 병력상 둘 모두·발병 연령·기간으로 명료화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-뚜렛 장애 진단에 필요한 최소 기준은?
+DSM-5 계열 뚜렛장애 진단의 틱 병력에 관한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 1년 이상 지속되는 다발성 운동 틱과 최소 한 가지 음성 틱
-B. 6개월 이상 지속되는 운동 틱만 존재
-C. 2년 이상 지속되는 음성 틱만 존재
-D. 1개월 이상 혼합 틱이 나타남
+A. 다수의 운동 틱과 하나 이상의 음성 틱이 병력상 있고 첫 틱 이후 1년 이상이며 둘이 동시에 나타날 필요는 없다.
+B. 운동 틱과 음성 틱이 매 순간 동시에 있어야 한다.
+C. 음성 틱만 1개월 있으면 충분하다.
+D. 성인 이후 첫 발병이어도 나이 기준은 고려하지 않는다.
 
 ## 해설
 
-뚜렛 장애는 1년 이상 지속되는 다발성 운동 틱과 최소 하나 이상의 음성 틱이 동시에 존재해야 진단한다.
+운동·음성 틱의 병력, 첫 틱 이후의 기간, 18세 이전 발병과 약물·다른 질환에 의한 증상 여부 등을 평가한다. 증상의 강도와 빈도는 변동할 수 있다.
 
 ## 출처
 
 - 내부 학습 노트: 뚜렛 장애 (Tourette Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/뚜렛 장애 (Tourette Disorder).md`
-- 학습 목표: 원문 핵심: - 정의: 다발성 운동 틱과 한 가지 이상의 음성 틱이 1년 이상 지속되는 신경발달장애.
+- 학습 목표: Tourette의 운동·음성 틱 병력
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 운동·음성 틱이 동시에 있어야 한다는 오류를 제거하고 병력상 둘 모두·발병 연령·기간으로 명료화.
+- 근거: https://www.cdc.gov/tourette-syndrome/diagnosis/index.html
+- 근거: https://www.medlineplus.gov/ency/article/000733.htm

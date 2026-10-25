@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. Listeria monocytogenes
 
 ## 해설
 
+예방접종을 받지 않은 산모의 비의료기관 분만 후 생후 7일에 수유 불능, 턱 굳음과 전신 근긴장 증가가 나타나 신생아 파상풍을 시사한다. 원인균은 Clostridium tetani(B)이며 독소가 억제성 신경전달을 방해하여 경직을 일으킨다. 본문 체온은 37°C이므로 고열을 진단 근거로 만들어서는 안 된다. 보툴리눔독소증은 보통 근긴장 저하·이완성 마비로 구별한다.
 
-신생아의 전신 경직·턱 굳음·고열·저혈압은 파상풍 독소에 의한 전신 근육 경직을 나타낸다. 가장 가능성 높은 원인균은 Clostridium tetani이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 37°C인데고열·저혈압창작한해설삭제. 신생아파상풍의근긴장·개구장애와C.tetani B.
+
 
 ## 출처
 

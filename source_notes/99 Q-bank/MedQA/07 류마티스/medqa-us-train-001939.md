@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 항 Scl-70 항체
 
 
 레인오와 CREST 증후군에서 항중심체 항체가 가장 특이적이다. 환자는 레이노와 피부 경화, 석회화성 손가락 결절을 보여 CREST와 일치한다. 따라서 항중심체 항체가 가장 가능성 높은 검사이다. 항 Scl‑70는 확산형 전신 경화증에 더 흔하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001939 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Raynaud·손/얼굴 피부경화·석회침착·식도 증상은 제한피부형 전신경화증/CREST와 항중심체항체 C를 지지하며 원문과 해설이 일치한다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

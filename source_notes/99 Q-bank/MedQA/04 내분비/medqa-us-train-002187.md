@@ -20,15 +20,17 @@ question_type: risk_factor
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 직업
 
 ## 해설
 
+이 문항은 제2형 당뇨병 위험을 묻는다. 선택지 중 체질량지수 증가 B는 인슐린 저항성과 관련된 중요한 수정가능 위험인자이다. 이 여성의 BMI는 65/1.6² ≈25.4 kg/m²로 통상적 성인 분류상 과체중이지 BMI ≥30의 비만은 아니다. 연령·활동 부족 등도 함께 고려해야 하며 BMI가 모든 개인에서 유일하거나 항상 가장 큰 위험이라는 뜻은 아니다.
 
-폐경 후 여성에서 고혈압 위험 요인 중 가장 큰 것은 체질량지수(비만)이다. 비만은 인슐린 저항성과 혈압 상승을 촉진한다. 따라서 체질량지수가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 질문은 고혈압이 아니라 제2형 당뇨 위험. BMI 약25.4는 과체중이며 비만으로 단정하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

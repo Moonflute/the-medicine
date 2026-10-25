@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -24,6 +24,11 @@ review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
+curation_status: "retained"
+curation_reason: "항구토 5-HT3 길항제의 대표 기전."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -47,4 +52,8 @@ Ondansetron은 중추와 말초의 5‑HT3 수용체를 차단해 구토 반사�
 
 - 내부 학습 노트: Ondansetron
 - 원본 경로: `source_notes/04 Pharmacology/03 소화기/Ondansetron.md`
-- 학습 목표: 원문 핵심: - 중추 및 말초 신경계의 5-HT3 수용체를 선택적으로 차단하여 구토 반사를 억제한다.
+- 학습 목표: Ondansetron: 중추 및 말초 5‑HT3 수용체 선택적 차단
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

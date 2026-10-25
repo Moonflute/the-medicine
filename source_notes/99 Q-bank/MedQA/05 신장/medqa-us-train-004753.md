@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 신우신염
 
 ## 해설
 
+옆구리에서 서혜부로 방사되는 산통과 혈뇨, 발열·농뇨 부재는 B의 요로결석에 가장 부합한다. 본문에는 초음파 결과가 제시되지 않았으므로 정상 초음파를 진단 근거로 만들어 넣지 않는다. 임신 관련 다른 복통 원인도 임상적으로 감별한다.
 
-임신 중 요관결석은 옆구리 통증·혈뇨·구역질을 동반하며, 초음파에서 신장·방광 정상, 요로 결석이 의심된다. 따라서 신장결석이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 임신 중 산통·혈뇨의 요석 B는 지지되나 원문에 없는 정상 초음파 근거를 삭제.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

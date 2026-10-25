@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "과도한 궤양 크기·50% 숫자 대신 통증성 궤양과 화농 림프절의 핵심 조합 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -31,21 +36,29 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 통증성 1~2 cm 궤양, 기저부 취약·황회색 삼출물, 편측성 서혜부 림프절병증·화농성 부보 동반
-B. 무통성 경화성 궤양, 경계가 뚜렷하고 비후된 가장자리
-C. 다발성 물집성 병변, 통증이 거의 없음
-D. 무통성 경성 하감(매독)과 유사한 궤양
+A. 깊고 통증성인 성기 궤양과 압통성·화농성 서혜부 림프절병증이 동반될 수 있다.
+B. 전형적으로 무통성 경화성 궤양만 나타난다.
+C. 모든 경우 통증 없는 수포만 나타난다.
+D. 피부 병변 없이 전립샘 비대만 나타난다.
 
 ## 해설
 
-연성하감은 1~2 cm 크기의 통증성 궤양으로 기저부가 취약하고 황회색 삼출물을 동반하며, 약 50%에서 편측성 서혜부 림프절병증·화농성 부보가 나타난다.
+통증성 성기 궤양과 압통성 화농 서혜부 림프절병증의 조합은 연성하감을 시사한다. 림프절병증은 모든 사례에 필수는 아니며 매독·HSV 등 다른 궤양성 감염과 감별한다.
 
 ## 오답 포인트
 
-- **B. 무통성 경화성 궤양, 경계가 뚜렷하고 비후된 가장자리:** 무통성 궤양은 매독(경성 하감)의 특징이다.
+- **무통성 경화성 궤양:** 전형적인 매독 하감과 비교되는 표현이다.
+- **무통 수포만·전립샘 비대만:** 연성하감의 궤양 양상을 설명하지 못한다.
 
 ## 출처
 
 - 내부 학습 노트: 연성하감 (Chancroid)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/연성하감 (Chancroid).md`
-- 학습 목표: 원문 핵심: * **CC:** 통증성 궤양 (Soft chancre) * **P/E:** - 1~2cm 크기의 통증성 궤양, 기저부가 취약하고 황회색 삼출물 동반 - 다발성 궤양(kissing ulcers)이 나타날 수 있음 - 약 50%에서 편측성 서혜부 림프절병증이 동반되며, 일부는 화농성 부보(bubo)로 진행
+- 학습 목표: 연성하감의 통증성 궤양
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 과도한 궤양 크기·50% 숫자 대신 통증성 궤양과 화농 림프절의 핵심 조합 유지.
+- 근거: https://www.cdc.gov/std/treatment-guidelines/chancroid.htm

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,6 +52,14 @@ D. 응급 개복술
 
 
 FAST 검사가 불확실하고 수액 투여 후에도 혈압이 회복되지 않아 지속적인 복강 내 출혈이 의심된다. 진단적 복강세척은 빠르게 혈액 유무를 확인하고, 양성일 경우 즉시 개복을 결정할 수 있어 다음 단계로 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008788 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 소생 비반응 쇼크의 복부외상에서 FAST가 불확실하고 출혈 위치가 확정되지 않아 신속 DPL B로 복강출혈을 확인하는 출제 의도와 해설이 일치한다. CT 이동 지연을 피하고 출혈제어를 지연하지 않는 맥락이다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8896237/
+- https://www.east.org/education-resources/practice-management-guidelines/archived/blunt-abdominal-trauma-evaluation-of
 
 ## 출처
 

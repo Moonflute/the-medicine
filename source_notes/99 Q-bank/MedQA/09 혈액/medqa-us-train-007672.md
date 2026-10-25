@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,15 @@ D. 철분 수치가 낮아도 ESA는 효과가 있다
 ## 해설
 
 
-ESA는 헤모글로빈이 10 g/dL 미만일 때만 시작해야 하며, 그 이하일 경우에만 투여가 권장된다.
+미국 darbepoetin 허가사항의 성인 CKD 맥락에서 Hb<10g/dL 조건을 고려하는 C가 선택지 중 맞다. 비투석 CKD는 빈혈 증상·수혈 가능성 및 위험을 개별화하고 먼저 철 등 교정 가능한 원인을 평가한다. <10이면 무조건 투여하거나 Hb를 정상화한다는 뜻이 아니며 혈전·뇌졸중·암 관련 위험을 검토하여 최소 유효용량을 사용한다. 치료 목적이 근치인 항암 환자에게 routine ESA를 권하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007672 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Hb<10 조건 C를 자동 투여/모든 상황의 절대기준으로 일반화한 해설 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0fd36cb9-c4f6-4167-93c9-8530865db3f9&type=display
+- https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf
 
 ## 출처
 

@@ -22,15 +22,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 소변 배양검사 의뢰
 
 ## 해설
 
+임신 중 급성 방광염 증상은 소변 배양(D)으로 원인균과 감수성을 평가해야 한다. 가능하면 항생제 투여 전 검체를 채취하며, 이미 경험적 처방을 했더라도 치료가 끝날 때까지 배양 의뢰를 미루지 않는다. 결과에 따라 약제를 조정한다. 치료 종료 후 확인 배양의 시행 여부는 별도 판단이고, 이유 없이 다른 항생제를 추가하거나 합병증 없는 하부감염에서 신장 초음파를 우선하지 않는다.
 
-임신성 요로감염에서 항생제 치료 후에도 원인균 확인이 필요하므로 소변 배양을 의뢰한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 배양을7일치료완료후에만하듯한시간오해수정. 급성방광염의초기배양D와추후배양구별.
+- https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals
 
 ## 출처
 

@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,11 @@ D. 척수공동증(Syringomyelia)
 
 ## 해설
 
+외상 후 지연 발생한 양측 상지 위약·반사저하·근섬유다발수축과 망토형 온통각 소실은 척수공동증(D)에 합당하다. 척수 중앙의 공동이 전백색교련에서 교차하는 통증·온도 섬유를 손상시키며, 전각 침범은 해당 분절의 하위 운동신경원 징후를 만든다. 후주가 상대적으로 보존되어 진동·위치감각은 유지될 수 있다.
 
-양측 상완 및 손의 통증, 온·통각 소실, 근력 저하, 반사 소실, 그리고 온도·통증 감각이 선택적으로 손실된 것은 척수 전각(central cord) 손상을 의미한다. 이는 척수 내에 물이 고여 신경 섬유를 압박하는 척수공동증에서 흔히 나타난다. 따라서 가장 가능성이 높은 진단은 척수공동증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선택적 온통각 소실을 전각 단독 손상으로 설명한 오류를 전백색교련 및 전각 침범으로 구분한다.
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 좌측 하부 흉골연의 4/6 범수축기 잡음으로 손잡이 쥐기에�
 
 ## 해설
 
+오른쪽 쇄골상부의 낮은 등급 지속성 잡음(C)은 정맥성 잡음(venous hum)이라는 양성 잡음에 부합한다. 다른 보기의 큰 수축기 잡음과 동적 변화는 비후성 심근병증·판막/유출로 병변·VSD 등 병적 잡음을 시사할 수 있다. 따라서 다른 선지가 구조적 질환과 일치하지 않는다는 기존 설명은 거꾸로다. 모든 지속성 잡음이 양성이라는 뜻도 아니다.
 
-우측 쇄골상부에서 들리는 2/6 지속성 잡음은 정상적인 정맥 울음(venous hum)으로, 무해한 양성 심잡음이다. 다른 선택지는 구조적 심장 잡음과 일치하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 나머지 선지들은 구조적 심장질환과 맞지 않는다는 반대 설명을 교정했다.
+
 
 ## 출처
 

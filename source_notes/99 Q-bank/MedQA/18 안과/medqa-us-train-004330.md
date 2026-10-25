@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 다발성경화증
 
 ## 해설
 
+왼쪽 시신경 압박에 의한 창백한 시신경유두/시신경 위축과 RAPD, 반대쪽인 오른쪽 유두부종 및 후각저하는 전두개저 종괴에 의한 Foster Kennedy 증후군에 합당하다. 후각고랑 수막종 같은 병변 C가 가장 적절하다. 빛을 좋은 오른쪽에서 손상된 왼쪽으로 옮길 때 양안 동공이 상대적으로 확장되는 것은 왼쪽 구심성 신호 저하 때문이다. 본문은 양측 유두부종이 아니며 라우리 반응이라는 설명도 적절하지 않다.
 
-양쪽 동공이 빛에 동시 확대되는 라우리 반응과 양측 시신경 유두부종은 시신경을 압박하는 종양, 특히 수막종을 시사한다. 다른 선택지는 이러한 안구소견을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 좌측 시신경 위축·우측 유두부종·후각저하의 Foster Kennedy 양상을 양측 유두부종으로 잘못 설명한 오류 교정.
 
 ## 출처
 

@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7Z2h7JewIOyDgeuLtA"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "니코틴 의존·금연 준비·과거 실패요인을 바탕으로 지원을 설계하는 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 흡연량, 알코올 섭취량, 카페인 섭취량, 운동 습관
 - 내부 학습 노트: 흡연 상담
 - 원본 경로: `source_notes/01 Chief Complaint/흡연 상담.md`
 - 학습 목표: 원문 핵심: 흡연 상담은 니코틴 의존도, 금연 준비도, 과거 시도와 실패 요인을 확인해 행동지원과 약물치료를 함께 설계한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA
+curation_status: "retained"
+curation_reason: "Thiazide 유사 이뇨제의 NCC 억제 대표 문항."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ Metolazone는 신장 원위세뇨관의 Na‑Cl 수송체를 억제해 나트륨
 
 ## 오답 포인트
 
-- **A. Na‑K‑2Cl 공동수송체 억제:** Na‑K‑2Cl 억제는 루프 이뇨제의 기전이다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Metolazone
 - 원본 경로: `source_notes/04 Pharmacology/01 심혈계/Metolazone.md`
-- 학습 목표: 원문 핵심: - 신장 원위세뇨관에서 나트륨-염화물(Na-Cl) 수송체를 억제하여 나트륨과 수분의 배설을 촉진한다.
+- 학습 목표: Metolazone: Na‑Cl 공동수송체 억제

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 현재 월경 중
 ## 해설
 
 
-고열, 전신 발진, 손발 피부 박리, 저혈압은 생리식염수(탐폰) 사용에 의한 독성 쇼크 증후군을 특징으로 한다. 월경 중 탐폰 사용이 가장 흔한 원인이다. 따라서 현재 월경 중이라는 것이 가장 가능성 높은 병력이다.
+고열, 미만성 홍반, 손발의 피부 박리와 다장기 이상은 독성쇼크증후군을 시사한다. 선택지 중 월경 중이라는 병력(D)은 탐폰 사용과 연관된 포도알균 독성쇼크 가능성을 뒷받침한다. 탐폰을 생리식염수라고 설명한 기존 문구는 오류이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000758`와 직접 대조했다.
+- 판정: 월경 관련 독성쇼크를 시사해 D 유지. 생리식염수(탐폰)라는 해설 오류와 원인 빈도 단정을 제거.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.fda.gov/consumers/consumer-updates/facts-tampons-and-tampon-safety
 
 ## 출처
 

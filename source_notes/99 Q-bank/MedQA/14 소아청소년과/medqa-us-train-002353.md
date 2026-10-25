@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 자궁 내 저산소증
 
 ## 해설
 
+헤마토크릿 70%는 신생아 적혈구증가증을 나타낸다. 임신 중 흡연과 저체중 출생은 만성 태내 저산소 노출을 시사하며, 저산소 자극에 따른 적혈구 생성 증가(D)가 보기 중 적절하다. 높은 적혈구량/점도와 동반된 저혈당 등이 떨림·수유곤란에 기여할 수 있다. 70%는 혈색소 농도가 아니라 헤마토크릿이다.
 
-신생아는 혈색소 70%로 고혈구증, 저혈당, 저산소증을 보이며, 모체의 흡연은 태아 내 저산소를 유발해 적혈구 생산을 증가시킨다. 따라서 태아 내 저산소가 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 헤마토크릿 70%를 혈색소 70%라고 잘못 쓴 해설을 교정했다.
+
 
 ## 출처
 

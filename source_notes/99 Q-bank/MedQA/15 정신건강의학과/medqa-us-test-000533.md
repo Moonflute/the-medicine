@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 아토르바스타틴
 
 ## 해설
 
+체온 32°C, 서맥·저호흡·의식 저하 및 옷을 벗으려는 행동은 저체온증에 부합한다. 플루페나진을 포함한 항정신병약은 체온 조절 장애와 저체온에 관여할 수 있어 B가 출제 의도에 가장 적절하며, 한랭 노출과 갑상선저하증도 취약 요인이다. 이를 GABA 억제로 인한 신경이완제 악성증후군이라고 설명해서는 안 된다. 전형적 신경이완제 악성증후군의 고열·경직과 구별되며 본문 혈압 122/80 mmHg도 저혈압이 아니다.
 
-플루페나진은 GABA 작용을 억제해 저체온, 저혈압, 저호흡을 일으키는 신경이완제 악성 증후군을 유발한다. 환자의 저체온·저호흡·저혈압이 이 약물에 의한 부작용을 시사한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 심한 저체온을 고열성 신경이완제 악성증후군 및 GABA 억제라고 설명한 오류를 교정했다.
+- https://pubmed.ncbi.nlm.nih.gov/3804993/
 
 ## 출처
 

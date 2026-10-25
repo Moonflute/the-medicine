@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 국소 퍼메트린
 
 ## 해설
 
+정답은 A, 경구 답손이다. 지방변·복부경련·소구성빈혈 등 글루텐민감성 장질환을 시사하는 소견에 대칭적인 신전부의 심한 가려움과 작열감이 동반되어 포진피부염을 의심한다. 답손은 피부 증상을 빠르게 조절하지만 기저 장질환의 치료는 엄격한 글루텐 제한식이다. 사진은 현재 제공되지 않아 보이지 않는 수포의 형태를 추정하지 않았으며, 본문의 장질환·분포와 제시된 약제들로 원정답을 판단하였다. 확진에는 적절한 피부검사 등을 고려하고, 답손 사용 전후에는 빈혈·용혈과 메트헤모글로빈혈증 위험을 포함한 안전성 평가가 필요하다.
 
-임신 중 심방세동에 대한 베타차단제는 태아에 안전하고 심박수 조절에 효과적이며, 다른 선택지는 임신에 부적절하거나 필요하지 않다. 따라서 베타차단제가 선호된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 임신/AF 해설 오연결. 흡수장애·소구성빈혈 및 대칭 신전부 소양성 발진은 포진피부염을 지지하여 원정답 A 유지. 그림은 없지만 본문과 치료선지로 판단 가능.
+- 공식/학회 근거: https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/digestive-diseases/dermatitis-herpetiformis
 
 ## 출처
 

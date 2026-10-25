@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,9 +47,15 @@ D. 갑상선기능항진증
 ## 해설
 
 
-신경성 식욕부진증(AN)으로 인한 무월경과 저체중은 골밀도 감소를 초래해 골절 위험을 크게 높인다. 골절이 가장 흔한 합병증이다.
+신경성 식욕부진증(AN)으로 인한 무월경과 저체중은 골밀도 감소를 초래해 골절 위험을 크게 높인다. 제시된 선택지 중 골절 위험 증가가 가장 적절하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000705
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 골절을 모든 섭식장애 합병증 중 최빈으로 단정한 문장을 선택지 범위의 위험 증가로 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

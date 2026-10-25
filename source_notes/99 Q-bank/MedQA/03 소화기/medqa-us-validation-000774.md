@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 혈관조영술
 ## 해설
 
 
-위내시경에서 출혈이 없고 흑색 변(멜레나)이 지속되면 하부 위장관, 특히 대장에서 출혈을 의심한다. 대장내시경은 원인을 직접 확인하고 치료할 수 있는 다음 단계이다. 따라서 대장내시경이 적절하다.
+정답 B. 소생 후 EGD에서 출혈원을 찾지 못했으므로 아직 평가하지 않은 대장을 내시경으로 확인하는 것이 제시된 선택지 중 적절하다. 우측 대장이나 소장 출혈도 흑색변을 만들 수 있으므로 EGD 음성만으로 출혈이 반드시 대장에 있다고 확진하지 않는다. 상·하부 평가 후에도 원인이 불명확하면 소장 검사나 재검을 임상 상태에 따라 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000774 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: EGD 음성만으로 대장 출혈 확진하지 않고 미평가 대장의 내시경 B를 선택지상 다음 단계로 설명.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acgcdn.gi.org/acgblog/uploads/2015/09/ajg2015246a.pdf
 
 ## 출처
 

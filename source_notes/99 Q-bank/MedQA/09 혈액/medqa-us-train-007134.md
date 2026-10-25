@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -57,7 +59,13 @@ D. 철적아구성 빈혈
 ## 해설
 
 
-혈청 철과 페리틴이 정상·높고 트랜스페린 포화도가 78%인 경우, 철이 과다하게 축적된 철적아구성 빈혈이 의심된다. 다른 선택지는 철 결핍·만성질환·혈색소침착증과 일치하지 않는다. 따라서 철적아구성 빈혈이 정답이다
+가족성 소구성 빈혈과 높은 iron/ferritin은 헴 합성 장애의 유전성 sideroblastic anemia D를 고려하게 한다. Hemochromatosis도 높은 철포화도를 보이지만 이 소구성 빈혈 자체를 더 잘 설명하는 것은 D다. 골수 철염색/유전 및 후천 원인 검사가 필요하고 수치만으로 확진하지 않는다. 원문210/290 계산 TSAT는 약72%여서 제시78%와 차이가 있음을 원자료에서 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007134 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 철패널과 빈혈의 sideroblastic D 추론 유지; TSAT 계산 불일치 및 확진 필요를 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

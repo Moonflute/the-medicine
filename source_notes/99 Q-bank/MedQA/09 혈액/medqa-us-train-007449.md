@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 제4형 과민반응
 ## 해설
 
 
-ABO 부적합 수혈에 의해 급성 용혈성 반응이 일어나며, 이는 제2형(세포독성) 과민반응에 해당한다.
+발열·오한·heme뇨와 쇼크는 급성 면역성 용혈 반응을 의심하게 하며 적혈구 표적 항원에 대한 항체/보체 매개 제II형 B에 해당한다. O형 음성은 적혈구 제제의 일반적 응급 호환 개념이고 전혈에는 anti-A/anti-B를 포함한 혈장이 있어 모든 수혈자에게 무조건 안전한 만능 제제라는 뜻은 아니다. 실제 원인은 환자/제제 확인·DAT·용혈 및 오염 평가로 구분하며 일률적 자가항체로 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007449 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: O형 음성 전혈을 모두에 완전 안전한 universal donor로 부른 설명 보정; 급성 항체 매개 용혈 II형 B 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

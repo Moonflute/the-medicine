@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 골 전이
 
 ## 해설
 
+정답은 C, 파제트 골질환이다. 정상 GGT와 함께 ALP가 상승하여 골성 ALP 상승을 시사하고, 청력저하·관절 변화·척추 골절을 동반한 점은 파제트 골질환을 지지한다. 이 조합이 확진을 보장하는 '삼중징후'는 아니다. 특히 유방암 병력이 있으므로 골전이를 이러한 소견만으로 배제해서는 안 되며, 실제 진료에서는 특징적인 골 구조 변화의 영상 평가와 필요 시 추가 검사가 필요하다. 이 문항은 골절이 있다는 X선 결과가 본문에 제공되어 있으므로, 별도 핵심 이미지가 누락된 것으로 자동 판단하지 않았다.
 
-알칼리성 인산분해효소 상승, 청력 손실, 병적 골절은 파제트 병의 전형적인 삼중증상이며, 이는 골 전이와 구별된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. ALP/청력저하/골절을 확진 삼중징후로 단정하고 유방암 골전이를 배제한 과도한 해설 완화. 원문 임상 단서상 C 가장 가능하나 실제 감별 필요.
+- 공식/학회 근거: https://www.niams.nih.gov/health-topics/pagets-disease-bone/diagnosis-treatment-and-steps-to-take
+- 공식/학회 근거: https://www.niams.nih.gov/health-topics/pagets-disease-bone
 
 ## 출처
 

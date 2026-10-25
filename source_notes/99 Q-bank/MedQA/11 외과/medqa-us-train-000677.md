@@ -20,7 +20,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -44,6 +46,13 @@ D. 도뇨(catheterization)
 
 
 수술 후 급성 요폐는 방광에 잔량이 남아있으며, 가장 빠른 해결책은 카테터 삽입으로 방광을 비우는 것이다. 따라서 도뇨가 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000677 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수술 후 통증성 방광 팽만과 450mL 잔뇨에서 도뇨 D가 적절하고 원문·해설이 일치한다. bethanechol이나 이뇨제로 급성 배액을 대체하지 않는다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niddk.nih.gov/-/media/Files/Urologic-Diseases/UrinaryRetention_508.pdf
 
 ## 출처
 

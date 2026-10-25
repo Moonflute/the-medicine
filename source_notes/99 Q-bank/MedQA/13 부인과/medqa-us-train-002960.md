@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 외회전술
 
 ## 해설
 
+40주 활동성 진통에서 지속 횡위는 질식분만이 불가능하고 제대탈출·폐쇄분만 위험이 있어 제왕절개(C)가 적절하다. 정상 태아심박 때문이 아니라 태위가 적응증이다. 경부가 정상이라는 정보는 본문에 없다.
 
-태아가 횡위(가로위) 상태이며 정상 심박수와 반응성을 보이므로 경부가 정상인 제왕절개가 필요하다. 자연분만은 위험하고 옆으로 눕히는 것만으로는 교정되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 존재하지않는정상경부소견삭제 및만삭진통횡위의분만위험명시.
+- https://www.rmf.harvard.edu/Risk-Prevention-and-Education/Guidelines-and-Algorithms-Catalog-Page/Guidelines-Algorithms/2026/OB-Guideline-Files/Appendix-E-Breech-Version-or-External-Cephalic-Version
 
 ## 출처
 

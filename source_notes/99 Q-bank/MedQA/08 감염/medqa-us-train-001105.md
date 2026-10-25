@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 인후 배양 검사 시행
 ## 해설
 
 
-그레이드된 회색 삼출물과 인두 발적이 있으나 A군 연쇄상구균 신속검사 음성이고, 증상이 경미해 항생제 치료가 필요하지 않다. 인두 배양은 원인균 확인에 도움이 되지만, 현재는 추가 검사가 가장 적절하다.
+증상이 있는 3세 이상 소아에서는 신속 GAS 항원검사가 음성이어도 민감도가 완전하지 않으므로 인후 배양으로 확인한다. 따라서 D이다. 배양에서 GAS가 확인되면 항생제로 치료한다. 현재 증상이 경미하거나 과거에 자연 호전되었다는 사실만으로 GAS를 배제하거나 항생제가 전혀 필요 없다고 단정할 수 없다. ASO 역가는 급성 인두염 진단 검사가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001105 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 소아 음성 RADT 뒤 배양 확인이 필요하며 경증이라는 이유로 항생제 불필요를 확정할 수 없음을 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html
 
 ## 출처
 

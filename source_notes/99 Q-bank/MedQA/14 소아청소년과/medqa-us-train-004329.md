@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 삼핵산 반복질환
 
 ## 해설
 
+Angelman 증후군은 신경세포에서 모계 유래 UBE3A 기능이 소실되어 발생한다. 부계 단친이염색체성(paternal uniparental disomy, C)은 가능한 원인 중 하나이다. 모계 영역 결실 등 다른 원인도 있으며, 행복한 표정·심한 언어 지연·실조·경련이 제시된 임상상과 부합한다.
 
-엔젤만 증후군은 15번 염색체의 부계에서 유래한 단일 친자 이중체(UPD)로, 발달 지연과 특이한 행동을 초래한다. 다른 선택지는 해당 증상과 연관이 적다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Angelman의 모든 원인을 부계 UPD로 일반화하는 표현과 용어를 보정.
+
 
 ## 출처
 

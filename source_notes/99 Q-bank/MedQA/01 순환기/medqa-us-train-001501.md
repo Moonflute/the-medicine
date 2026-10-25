@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 아토르바스타틴과 실로스타졸
 
 
 간헐적 파행과 발목의 차가운 느낌, 매끈한 피부는 말초동맥질환을 시사한다. 2차 예방을 위해 항혈소판제와 고강도 스타틴을 병용하면 심혈관 사건 위험을 감소시킨다. 따라서 아스피린과 아토르바스타틴 병용이 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 증상성 PAD와 기존 CAD에 antiplatelet+statin B로 이차예방. LDL96이어도 임상 ASCVD 적응증 유지.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

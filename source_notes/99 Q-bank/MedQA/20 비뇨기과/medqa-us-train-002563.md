@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 요관 스텐트 삽입
 
 ## 해설
 
+LUTS와 커진 전립선, 크레아티닌 상승이 있어 폐색성 신병증 가능성을 평가한다. C, 신장 초음파는 수신증 등 상부요로 확장을 확인하는 적절한 초기 영상이다. 단백뇨만으로 폐색 원인이 확정되지는 않고 감염·발열 소견이 없어 신우신염이라고 부를 근거도 없다. 확인 없이 요관 스텐트를 바로 삽입하는 것보다 폐색 여부와 원인을 평가한다.
 
-전립선이 매끈하고 대칭적으로 커진 경우 양성 전립선 비대가 의심되며, 신장 기능 저하와 단백뇨는 후방 요로 폐쇄에 의한 신장 손상을 시사한다. 신장 초음파는 수신성 신우신염 및 수신성 신장 비대 여부를 확인하는 첫 번째 영상검사이다. 따라서 신장 초음파가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 신장 초음파 C의 평가 대상을 존재하지 않는 수신성 신우신염이 아니라 수신증/폐색으로 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg97/chapter/recommendations
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng148/chapter/Recommendations
 
 ## 출처
 

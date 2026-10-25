@@ -20,16 +20,18 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,15 @@ D. 프로프라놀롤
 
 ## 해설
 
-
-할로페리돌에 의한 급성 근긴장이상(사경)은 무증상 부교감 차단제인 벤즈트로핀으로 즉시 역전된다. 단트롤렌은 항콜린성 효과가 없으며, 할로페리돌 자체를 중단하는 것만으로는 급성 증상이 완화되지 않는다. 따라서 벤즈트로핀 투여가 가장 적절하다
+할로페리돌 노출 후 발생한 통증성 사경과 지속적 상방주시(안구운동발작)는 급성 근긴장이상반응에 부합한다. 제시된 약물 중 항콜린제인 벤즈트로핀이 적절하다. 단트롤렌은 이 국소 급성 추체외로 반응의 표준 항콜린 치료가 아니고 프로프라놀롤은 주로 정좌불능에 고려한다. 원인 약물의 중단·감량 검토와 함께 급성 증상을 치료한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007089
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 벤즈트로핀을 '무증상 부교감 차단제'로 설명한 비문 교정. 사경·안구운동발작의 항콜린 치료 답 유지.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 상부위장관 조영술
 ## 해설
 
 
-혼합결합조직병(전신성 경화증) 환자에서 폐동맥 고혈압을 평가하려면 심초음파가 가장 민감하고 비침습적인 검사이다. 따라서 다음 적절한 검사는 심초음파이다.
+MCTD는 전신경화증과 같지 않지만 Raynaud와 sclerodactyly 같은 scleroderma spectrum 특징이 있으면 PAH 위험을 평가한다. 보기 중 transthoracic echocardiography A가 비침습적 평가로 적절하며 PFT/DLCO와 BNP 등도 함께 고려한다. Echo는 폐고혈압 가능성을 추정하는 검사이고 필요 시 우심도자검사로 혈역학적 확진을 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001143 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MCTD=SSc 동일시와 echo가확진·항상최민감이라는 오류 교정. scleroderma spectrum PAH 평가 A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pubmed.ncbi.nlm.nih.gov/24022584/
 
 ## 출처
 

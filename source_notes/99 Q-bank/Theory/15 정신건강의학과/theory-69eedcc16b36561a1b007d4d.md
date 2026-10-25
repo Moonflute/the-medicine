@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "조현양상장애의 1~6개월 미만 기간은 단기 정신병·조현병군을 구분하는 중요한 기본 이론으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,11 @@ D. 1주 이하
 
 - 내부 학습 노트: 조현양상장애 (Schizophreniform disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/조현양상장애 (Schizophreniform disorder).md`
-- 학습 목표: 원문 핵심: - 정의: 조현병과 유사한 증상이 나타나지만, 지속 기간이 1개월 이상 6개월 미만인 정신질환.
+- 학습 목표: 조현양상장애의 1개월 이상 6개월 미만 기간을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 조현양상장애의 1~6개월 미만 기간은 단기 정신병·조현병군을 구분하는 중요한 기본 이론으로 유지.
+- 근거: https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/

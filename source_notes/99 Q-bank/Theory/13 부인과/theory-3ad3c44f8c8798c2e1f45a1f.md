@@ -16,18 +16,23 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "흡연과 유관주위 염증의 연관 개념은 유지. 식이와 유방암 위험을 불필요하게 연결하는 오답 해설 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-비수유기 유방염의 주요 위험인자는?
+비수유기 유방염 중 유관주위 유방염과 특히 연관된 위험인자는?
 
 ## 선택지
 
@@ -42,10 +47,16 @@ D. 고혈압
 
 ## 오답 포인트
 
-- **B. 고지방 식이:** 고지방 식이는 유방암 위험과 연관될 수 있으나, 비수유기 유방염의 직접적인 위험인자는 아닙니다.
+- 고지방 식이·과다 음주·고혈압 중 하나를 유관주위 유방염의 대표 위험인자로 대체할 수는 없다. 여기서는 흡연과의 연관성을 묻는다.
 
 ## 출처
 
 - 내부 학습 노트: 비수유기 유방염 (Non-puerperal Mastitis)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/비수유기 유방염 (Non-puerperal Mastitis).md`
-- 학습 목표: 원문 핵심: - **정의**: 비수유기 여성에서 발생하는 유방의 만성 염증성 질환으로, 유관주위 유방염(Periductal mastitis)과 특발성 육아종성 유방염(Idiopathic granulomatous mastitis) 등이 포함됨. - **원인**: 유관 폐쇄, 세균 감염, 면역 반응 등이 복합적으로 작용. 흡연은 유관주위 유방염의 주요 위험 인자임. - **기전**: 유관 폐쇄 및 파열로 인한 유관 내용물의 유출이 국소적인 염증 반응과 육아종 형성을 유도함.
+- 학습 목표: 비수유기 유관주위 유방염의 흡연 연관성
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 흡연과 유관주위 염증의 연관 개념은 유지. 식이와 유방암 위험을 불필요하게 연결하는 오답 해설 제거.

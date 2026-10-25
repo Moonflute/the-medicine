@@ -21,13 +21,15 @@ question_type: risk_factor
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 간 아래 농양 형성
 
 ## 해설
 
+식사 직후 심와부 통증으로 식사를 줄이는 양상은 위궤양을 시사하며, 소화성 궤양의 주요 합병증인 위장관 출혈 C가 선택지 중 가장 적절하다. 본문에는 NSAID 사용이 제시되지 않았다. 체중감소가 있으므로 실제로는 내시경 등으로 악성 병변도 평가해야 하며 양성 궤양의 악성 전환으로 설명하지 않는다.
 
-위궤양은 식후 급성 상복부 통증을 일으키며, 흡연·음주·NSAID 사용이 출혈 위험을 크게 높인다. 위궤양 환자는 위장관 출혈 위험이 가장 크므로, 해당 위험이 가장 큰 상태는 위장관 출혈이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 식후 즉시 통증의 위궤양에서 출혈 C는 유지. 본문에 없는 NSAID 복용을 사실처럼 추가한 해설 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

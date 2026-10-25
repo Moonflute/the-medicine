@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. TdT 양성 세포
 ## 해설
 
 
-소아 급성 림프모구성 백혈병은 TdT 양성 전구세포가 특징이다. TdT는 전구 림프구에서만 발현되는 효소이며, 진단에 가장 특이적인 소견이다. 따라서 TdT 양성 세포가 가장 가능성 높은 진단을 설명한다.
+소아의 진행성 체중감소·피로와 비장비대 의심은 ALL을 고려하게 하며 선택지 D의 TdT 양성 미성숙 림프계 세포가 관련된다. TdT는 미성숙 림프세포 표지로 B/T 림프모구성 질환 등에 나타나 단독으로 ALL을 확진하는 유일 특이 검사는 아니다. 저혈압·발열은 감염 등 응급 원인 평가도 필요하며 골수/유세포검사로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005735 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: TdT를 ALL만의 절대 특이 효소라고 한 오류 교정; 선택지 D 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

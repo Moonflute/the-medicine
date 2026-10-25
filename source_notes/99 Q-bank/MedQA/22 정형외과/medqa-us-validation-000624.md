@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 유방촬영술에서 국소 고음영
 
 ## 해설
 
+폐경, 류마티스관절염, 전신 스테로이드와 저에너지 골절은 낮은 골밀도·골절 위험 증가를 시사하여 선지 중 DEXA T점수 -2.01(B)이 가장 합당하다. -2.01은 골밀도 수치 분류상 골감소증 범위(-1에서 -2.5 사이)이며 -2.5 이하라는 골다공증 역치를 만족하는 수치가 아니다. 임상적 골절 위험과 치료 필요성은 골밀도 수치만이 아니라 취약골절·스테로이드 등도 종합한다. 이 병력만으로 실제 T점수가 정확히 -2.01일 것이라고 예측할 수는 없다.
 
-스테로이드 장기 복용은 골밀도 감소를 초래한다. 골다공증 진단을 위해 DEXA 검사를 시행하면 T점수가 -2.5 이하인 경우 골다공증으로 판정된다. 따라서 예상되는 결과는 DEXA 검사 T점수 -2.01이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. T점수 -2.01은 골밀도 기준상 골감소증이지 -2.5 이하 골다공증 수치가 아니라는 해설 모순을 교정했다. 선지 B는 낮은 골밀도의 예상 예시로 유지한다.
+- 공식/학회 근거: https://www.niams.nih.gov/health-topics/bone-mineral-density-tests-what-numbers-mean
 
 ## 출처
 

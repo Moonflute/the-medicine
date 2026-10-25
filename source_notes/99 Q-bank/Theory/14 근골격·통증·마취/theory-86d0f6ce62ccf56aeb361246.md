@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ
+curation_status: "retained"
+curation_reason: "비탈분극성 신경근차단과 탈분극성 차단의 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Rocuronium은 신경근 접합부의 니코틴성 아세틸콜린 수용체에 �
 
 - 내부 학습 노트: Rocuronium
 - 원본 경로: `source_notes/04 Pharmacology/14 근골격·통증·마취/Rocuronium.md`
-- 학습 목표: 원문 핵심: - 신경근 접합부의 니코틴성 아세틸콜린 수용체에 경쟁적으로 결합하여 신경근 전달을 차단하는 비탈분극성 근이완제
+- 학습 목표: Rocuronium: 신경근 접합부 니코틴성 ACh 수용체에 경쟁적 결합해 비탈분극성 근이완을 일으킴
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

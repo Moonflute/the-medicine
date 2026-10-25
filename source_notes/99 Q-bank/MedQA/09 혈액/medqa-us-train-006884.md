@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,13 @@ D. 와파린 독성
 ## 해설
 
 
-헤파린 2형은 항체가 PF4와 결합해 혈소판을 파괴하면서 혈전이 동반되는 현상이다. 따라서 제2형 헤파린 유발 혈소판감소증이 가장 가능성 있다.
+Heparin5일 후50%초과 혈소판감소와 새 정맥혈전은 면역성 HIT(기존 II형) C에 부합한다. IgG가 PF4–heparin 복합체에 결합하여 혈소판·단핵구 등을 활성화하고 강한 혈전 성향 및 혈소판 소비를 유발한다. 단순 혈소판 파괴만의 출혈질환이 아니다. 원문도 왼쪽 통증/오른쪽 혈전으로 좌우가 불일치하므로 이를 임의 한쪽으로 합치지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006884 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HIT의 혈소판 파괴만이 아닌 PF4-heparin 항체에 의한 활성화·혈전 기전 교정; C 유지. 원문 좌우 불일치는 보존 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

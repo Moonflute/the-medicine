@@ -19,11 +19,11 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 경구 활성탄 투여
 
 ## 해설
 
+정답은 C이다. 고령·신기능 저하 상태에서 digoxin을 복용하면서 구역/설사·쇠약·시각 이상이 나타나면 digoxin 독성을 의심한다. digoxin은 주로 신장으로 제거되므로 신기능 저하와 탈수는 축적 위험을 높인다. 혈중 digoxin 농도와 ECG·전해질·신기능을 함께 평가하고 농도만으로 독성을 판단하지 않는다. warfarin의 신장 대사 때문이라고 설명하지 않으며 일반적인 digoxin 중독에서 혈액투석은 효과적인 제거 방법이 아니다.
 
-환자는 와파린 복용 중이며 신부전으로 약물 대사 감소가 있다. 디곡신 독성은 혈중 농도 측정으로 확인해야 하므로 혈청 약물 농도 측정이 가장 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: digoxin의 신장 배설과 위장관/시각 독성을 연결하고 warfarin 신장 대사라는 무관한 오류 제거.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=48cad559-c17b-4d41-a154-e664e958c1c0
 
 ## 출처
 

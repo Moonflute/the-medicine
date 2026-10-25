@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "성적 지향·성별 정체성과 임상적으로 유의한 고통을 구분하는 핵심 개념 유지. 오답 문자 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ D. 호르몬 치료에 대한 거부감
 
 ## 오답 포인트
 
-- **B. 성적 지향에 대한 불만:** 성적 지향과는 별개의 개념이다.
+- 성적 지향은 성별 정체성과 다른 개념이다. 성별 비순응이나 특정 치료 희망 자체만으로 정신질환이라고 판단하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 성별불쾌감 (Gender Dysphoria)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/성별불쾌감 (Gender Dysphoria).md`
-- 학습 목표: 원문 핵심: - **정의**: 개인이 경험하거나 표현하는 성별과 출생 시 지정된 성별 간의 현저한 불일치로 인해 발생하는 고통. - **원인**: 명확하지 않으나 생물학적, 심리적, 사회적 요인이 복합적으로 작용하는 것으로 추정됨. 유전적 요인, 태내 호르몬 노출, 신경해부학적 차이 등이 연구되고 있음. - **기전**: 성별 정체성은 다요인적 특성을 가지며, 성별을 이분법적 범주가 아닌 연속선상에서 이해하려는 접근이 필요함.
+- 학습 목표: 성별불쾌감의 임상적 고통과 정체성 구분
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 성적 지향·성별 정체성과 임상적으로 유의한 고통을 구분하는 핵심 개념 유지. 오답 문자 제거.
+- 근거: https://www.psychiatry.org/patients-families/gender-dysphoria/what-is-gender-dysphoria

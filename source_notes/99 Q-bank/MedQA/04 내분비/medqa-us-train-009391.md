@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 일차성 부신기능부전
 ## 해설
 
 
-환자는 고인슐린 혈증(인슐린, C-펩타이드, 프로인슐린 상승)과 저혈당 발작을 보이며, 인슐린 분비 종양인 인슐린종이 가장 흔한 원인이다. 따라서 가장 가능성 높은 원인은 인슐린종이다.
+정답 A. 저혈당 때 억제되지 않은 insulin·C-peptide·proinsulin과 낮은 β-hydroxybutyrate는 내인성 insulin 작용을 지지한다. 공복 증상과 유즙분비/두통의 뇌하수체 병변 가능성을 함께 보면 MEN1 연관 insulinoma를 고려할 수 있다. 하지만 sulfonylurea도 같은 생화학 양상을 만들므로 저혈당 시 약물검사 등으로 배제해야 한다. 간호사라는 직업만으로 약물 남용을 단정하거나 이 수치만으로 종양을 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009391 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고인슐린 저혈당의 insulinoma A 추론은 가능하나 SU screen 없이 확진·가장 흔하다는 주장 제거; 동반 prolactinoma/MEN1 단서 연결.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/jcem/article/94/3/709/2596247
 
 ## 출처
 

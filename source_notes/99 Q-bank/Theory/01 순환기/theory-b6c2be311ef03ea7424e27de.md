@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "운동 시 근육통·휴식 완화라는 간헐적 파행은 PAD의 중요한 기초 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11ug1ldw5wzxf5dmuywmxpeuvzu0rycdr6c2hmrwc2nc1anjzlbelpmlbrt3leavnbb1fyum9awep2yzjoc1pysnzkr2xqsuvob2ntoxvhv01nuvhkmfpysnbzv3dnvdjoamjivnphvzl1s1m1dfpbfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 심근경색
 
 ## 오답 포인트
 
-- **B. 심부전 증상:** 심부전은 심장 기능 저하와 관련된 증상으로 동맥 폐색의 특징이 아니다.
+- **심부전 증상:** 심부전은 심장 기능 저하와 관련된 증상으로 동맥 폐색의 특징이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion).md`
 - 학습 목표: 원문 핵심: * **CC**: 간헐적 파행(intermittent claudication)이 특징적이다. 이는 운동 시 다리 근육에 통증이 발생하고 휴식 시 완화되는 양상을 보이다. 중증의 경우 휴식 시 통증, 궤양, 괴사가 나타날 수 있다. * **P/E**: 하지 맥박의 약화 또는 소실, 피부 온도 저하, 피부색 변화(창백함 또는 청색증), 모세혈관 재충혈 시간 지연 등이 관찰될 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 운동 시 근육통·휴식 완화라는 간헐적 파행은 PAD의 중요한 기초 복습으로 유지한다.

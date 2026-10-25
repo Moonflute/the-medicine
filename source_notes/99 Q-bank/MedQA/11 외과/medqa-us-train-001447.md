@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,14 @@ D. 가족력
 ## 해설
 
 
-복부 대동맥류 파열 위험을 가장 크게 증가시키는 위험인자는 흡연이다. 흡연은 동맥벽의 염증과 효소 활성화를 촉진해 동맥류 성장과 파열을 가속한다. 따라서 가장 큰 위험인자는 담배 흡연이다.
+복부대동맥 확장과 가족력·흡연력이 있는 고령 남성의 임상상은 복부대동맥류를 시사한다. 선택지 중 흡연(C)은 AAA 발생과 성장의 가장 중요한 수정 가능한 위험인자이다. 고령·남성·가족력 등도 관련된다. 이 질문의 답을 단순히 파열 위험만으로 설명하지 않으며, 실제 파열 위험은 최대 직경·성장속도·증상 등도 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001447 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 질문은 AAA 발생 위험인자인데 파열 위험으로만 해설한 범위를 바로잡았다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://esvs.org/wp-content/uploads/2024/02/ESVS-2024-AAA-Guidelines.pdf
 
 ## 출처
 

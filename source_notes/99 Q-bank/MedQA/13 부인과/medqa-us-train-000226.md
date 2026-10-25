@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 소변 베타-HCG 양성 및 자궁 내 일부 임신 산물(products of conc
 
 ## 해설
 
+무월경 8주, 출혈과 편측 부속기 압통은 자궁외임신을 의심하게 한다. 선택지 중 소변 β-hCG 양성이면서 자궁내 임신이 보이지 않는 B가 이에 가장 부합한다. 다만 임신 위치 미확인 상태만으로 자궁외임신을 확진할 수는 없어 hCG와 초음파를 임상 상태와 함께 해석한다. IUD는 전체 임신 위험을 낮추지만 사용 중 임신이 되면 자궁외임신 여부를 주의해 평가한다.
 
-우측 부속기 통증, 월경이 멈춘 시점, IUD 사용은 외부 임신을 배제하지 못한다. 혈중 β‑hCG 양성은 임신을 확인하고, 초음파에서 자궁 내 임신덩어리가 보이지 않으면 자궁외 임신을 의심한다. 따라서 β‑hCG 양성 및 자궁 내 종괴 없음이 가장 관련 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 외부임신용어수정,소변양성인데혈중으로잘못서술한검체혼동제거. B는자궁외임신의심단서이지단독확진아님.
+
 
 ## 출처
 

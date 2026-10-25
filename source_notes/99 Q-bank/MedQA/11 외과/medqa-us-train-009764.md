@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 후두경검사
 
 
 총상 후 혈관 손상이 의심될 때 가장 빠른 비침습적 평가법은 조영제 주입 후 CT 혈관조영술이다. 이는 혈관 손상 여부와 출혈 위치를 정확히 파악한다. 따라서 다음 단계는 CT 혈관조영술이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009764 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 목 관통상에서 안정적이며 활동성 출혈·확장혈종·기도위협 등 명백한 hard sign이 없어 CTA B로 혈관/손상 경로를 평가하는 것이 적절하다. 원문·해설과 ESVS2025 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://esvs.org/wp-content/uploads/2025/01/2025-Vascular-Trauma-Guidelines.pdf
 
 ## 출처
 

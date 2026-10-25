@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,15 @@ D. 클로나제팜 투여
 
 ## 해설
 
-
-공황발작에 급성 불안 증상이 있을 때 빠른 효과가 있는 벤조디아제핀인 클로나제팜이 1차 치료이다. 다른 검사는 진단에 필요하지 않는다.
+스트레스 후 수분 내 발생하고 이전에도 짧게 반복된 자율신경 증상은 공황발작을 시사하며, 원문은 제시된 선택지 중 단기 증상 조절로 클로나제팜을 선택한다. 실제로는 흉통·호흡곤란의 의학적 위험을 우선 평가하고 안정화·안심을 함께 제공해야 한다. 제시된 ECG만으로 모든 심폐 원인이 배제되거나 다른 검사가 언제나 불필요한 것은 아니다. 벤조디아제핀은 의존·진정 위험이 있어 공황장애의 장기 기본 치료로 설명하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007344
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 클로나제팜 원정답 유지하되 모든 급성 흉통에서 공황 확정·검사 불필요·벤조 일률 1차로 설명한 오류 수정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

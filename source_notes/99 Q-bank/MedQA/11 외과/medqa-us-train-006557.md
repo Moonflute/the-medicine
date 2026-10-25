@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 과민성장증후군
 
 
 복부 대동맥류 파열은 급성 복통, 허리·사타구니 방사통, 맥동성 복부 종괴, 저혈압 및 의식 저하를 동반한다. 이는 환자의 임상 양상과 일치한다. 따라서 파열된 복부 대동맥류가 가장 가능성 높은 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006557 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복통·허리/서혜부 방사통·박동성 종괴 뒤 저혈압/의식소실은 파열 AAA B의 임상상으로 원문·해설과 일치한다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

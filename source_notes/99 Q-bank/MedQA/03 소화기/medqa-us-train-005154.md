@@ -19,15 +19,17 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 판토프라졸
 
 ## 해설
 
+간경변 대량 토혈의 정맥류 출혈을 의심해 octreotide B를 조기 시작한다. 이는 기도·순환 소생, 필요 적혈구수혈, 예방항생제·신속 내시경지혈을 대체하지 않는다. 생명을 위협하는 출혈에서 검사 전이라는 이유로 수혈을 늦추지 않는다.
 
-비대상성 간경변 환자의 급성 식도정맥류 출혈에서는 혈압 유지와 혈류량 보충이 우선이며, 혈관수축제 옥트레오타이드가 출혈을 감소시킨다. 혈액제제보다 옥트레오타이드가 출혈 조절에 핵심이다. 따라서 옥트레오타이드 투여가 가장 중요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 조기 octreotide B는 유지하되 소생·필요수혈보다 무조건 우선한다는 설명 교정.
+- https://www.esge.com/assets/downloads/pdfs/guidelines/2022_a-1939-4887.pdf
 
 ## 출처
 

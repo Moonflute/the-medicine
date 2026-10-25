@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 주변에 불규칙한 고음영 경계를 동반한 피질하 저음영 부�
 
 ## 해설
 
+좌측 외전/수평주시 마비와 우측 반신마비는 좌측 교뇌의 안구운동 경로 및 피질척수로 병변을 국소화한다. 급성 출혈이면 비조영 CT에서 좌측 교뇌 고음영(C)이 예상된다. 고혈압·단백뇨·발작은 자간증 응급치료도 요구하지만 모든 자간증의 가장 흔한 합병증이 교뇌출혈인 것은 아니다.
 
-임신 37주에 고혈압, 단백뇨, 뇌증, 국소 신경학적 결손이 동반된 경우는 고혈압성 뇌교출혈이 가장 흔한 합병증이다. 출혈이 교뇌에 발생하면 좌측 교뇌 고음영 병변이 CT에 보인다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 교뇌출혈이 자간증에서 가장 흔하다는 근거 없는 주장 삭제; 교차 신경징후로 국소화.
+
 
 ## 출처
 

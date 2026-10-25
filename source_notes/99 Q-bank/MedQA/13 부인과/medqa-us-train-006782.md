@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 황체 기능 방해
 
 ## 해설
 
+에티닐에스트라디올 100 μg과 레보노르게스트렐 0.50 mg을 복용하고 12시간 뒤 같은 용량을 반복하는 Yuzpe 복합 응급피임법의 주된 작용은 배란 억제 또는 지연(A)이다. 황체 기능 방해를 주된 기전으로 설명하지 않는다. WHO와 CDC에 이 처방이 제시되지만 LNG 단독 또는 UPA는 복합제보다 오심·구토가 적다는 점과 구분한다. 성관계 2일 뒤 음성 hCG만으로 그 성관계에 따른 임신 가능성을 배제할 수는 없다.
 
-에티닐에스트라디올과 레보노르게스트렐을 12시간 간격으로 복용하는 복합 응급피임은 에스트로겐이 황체를 억제하고, 에스트로겐과 프로게스틴이 동시에 배란을 억제하거나 지연시킨다. 따라서 주요 작용은 배란 억제 또는 지연이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Yuzpe 용량과 주된 배란 억제/지연 기전을 WHO·CDC로 확인하고 황체 억제라는 부정확한 설명을 제거했다.
+- https://www.who.int/news-room/fact-sheets/detail/emergency-contraception
+- https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html
 
 ## 출처
 

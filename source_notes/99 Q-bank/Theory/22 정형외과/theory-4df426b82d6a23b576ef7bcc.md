@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MjIg7KCV7ZiV7Jm46rO8L-uwmOyblCDsl7Dqs6jtjJAg7IaQ7IOBIChNZW5pc2N1cyBJbmp1cnkpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "모든 증상·유발검사가 동시에 양성이라는 표현을 제거하고 유용한 기계적 소견을 한정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-반월 연골판 손상의 주요 임상 양상은?
+반월상연골 파열을 의심하게 하는 소견 조합은?
 
 ## 선택지
 
-A. 급성 무릎 통증·관절 잠김·부종·관절면 압통·McMurray·Apley 검사 양성
-B. 무릎 앞쪽 통증·걷기 시 불안정·Lachman test 양성
-C. 무릎 뒤쪽 통증·뒤꿈치에 압통·Posterior drawer test 양성
-D. 무릎 외측 통증·Varus stress test 양성·부종
+A. 관절선 압통과 무릎의 걸림·잠김
+B. 내측 발목 압통과 발바닥 첫걸음 통증
+C. 둔부 통증과 고관절의 고정된 내회전 자세
+D. 허리 굴곡에서 완화되는 양측 다리의 신경성 파행
 
 ## 해설
 
-반월판 손상은 급성 무릎 통증, 관절 잠김, 부종, 관절선 압통을 동반하며 McMurray·Apley 검사가 양성이다.
+관절선 압통, 걸림·잠김, 관절 부종 등이 나타날 수 있다. 모든 소견이 반드시 동반되지는 않으며 McMurray 같은 단일 검사만으로 확진하거나 배제하지 않고 병력과 진찰을 종합한다.
 
 ## 오답 포인트
 
-- **B. 무릎 앞쪽 통증·걷기 시 불안정·Lachman test 양성:** Lachman test는 전방 십자인대 손상에 해당한다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 반월 연골판 손상 (Meniscus Injury)
 - 원본 경로: `source_notes/02 Diseases/22 정형외과/반월 연골판 손상 (Meniscus Injury).md`
-- 학습 목표: 원문 핵심: * **CC**: 급성 무릎 통증, 관절 잠김(locking), 부종, 관절면 압통. * **P/E**: McMurray test, Apley test, Joint line tenderness.
+- 학습 목표: 반월상연골 파열의 관절선 압통과 걸림·잠김

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 신동맥 색전술 후 지연 신절제술
 
 ## 해설
 
+저혈압을 동반한 외상 후 신동맥 단절/혈관 손상과 관류 소실이 의심되어 A, 즉각적 외과 평가·탐색이 적절하다. 혈역학적으로 불안정한 중증 신혈관 손상은 신속한 출혈 통제가 필요하다. 다만 안정화된 일측 신동맥 폐색과 정상 반대 신장의 경우에는 비수술적 관리가 가능한 상황도 있으므로 비조영 신장만으로 무조건 재관류 수술이라고 일반화하지 않는다. 수술 목표·재건 가능성은 출혈, 손상 형태와 허혈 시간에 따라 결정한다.
 
-CT에서 좌측 신동맥이 근위부만 보이고 신장이 조영되지 않은 것은 신동맥 급성 폐쇄를 의미한다. 신장 조직에 혈류가 차단되면 급성 허혈성 신부전이 발생하므로 혈관을 복구하기 위해 즉시 수술적 탐색이 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. A의 근거를 저혈압 동반 중증 혈관손상 평가·출혈 통제로 명확히 하고 일측 비조영 신장이면 반드시 전신 신부전/재건이라는 단정 제거.
+- 공식/학회 근거: https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines
 
 ## 출처
 

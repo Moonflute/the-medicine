@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 로타바이러스 감염
 ## 해설
 
 
-여시니아는 장간막염을 일으키며, 발열·복통·혈성 설사와 함께 림프구 우세 백혈구 증가가 특징이다. 최근 개와 접촉한 병력이 위험요인이며, 다른 선택지는 항생제 관련 설사나 바이러스 감염이므로 가장 가능성 높은 진단은 여시니아증이다.
+발열·혈성 설사와 인후통은 Yersinia 장염에서 나타날 수 있어 선택지 중 A가 가장 부합한다. 검사상 호중구 80%로 호중구 우세이며 림프구 우세가 아니다. 개 접촉은 장내세균 노출의 단서일 수 있으나 Yersinia에만 특이적이지 않으며 Campylobacter 등 다른 원인은 실제 대변검사로 감별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009579 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 주어진 선지 중 혈성 설사·인후통을 일으킬 수 있는 Yersinia A 유지. 실제 감별은 더 넓고 CBC는 림프구가 아닌 호중구 우세임을 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/yersinia/hcp/clinical-overview/
 
 ## 출처
 

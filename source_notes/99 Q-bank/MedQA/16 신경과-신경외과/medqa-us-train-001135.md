@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 두부 CT상 등쪽 선조체(dorsal striatum) 위축
 
 ## 해설
 
+중년에서 진행하는 성격·인지 변화와 얼굴 찡그림 및 불규칙한 불수의운동은 헌팅턴병의 무도증을 시사한다. 미상 가족력은 상염색체우성 유전질환을 배제하지 않는다. 미상핵과 조가비핵을 포함한 등쪽 선조체 위축(D)이 적절한 영상 소견이다. 이를 전측두엽치매의 전형적 선조체 소견이라고 설명하면 안 된다.
 
-전두엽 치매 환자는 무표정·불수의적 움직임을 보이며, 뇌 CT에서 등쪽 선조체 위축이 특징적인 영상소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 헌팅턴병의 무도증·정신행동 변화와 선조체 위축 D를 전측두엽치매로 잘못 연결한 해설을 교체한다.
+- 공식/학회 근거: https://www.ncbi.nlm.nih.gov/books/NBK1305/pdf/Bookshelf_NBK1305.pdf
 
 ## 출처
 

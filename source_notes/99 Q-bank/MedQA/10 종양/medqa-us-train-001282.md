@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 적혈구 침강속도 65 mm/h
 ## 해설
 
 
-다발성 양쪽 겨드랑이 림프절과 B증상(발열, 피로, 가려움)으로 호지킨 림프종이 의심된다. 예후가 나쁜 경우는 염증성 마커가 크게 상승한 경우이며, 특히 적혈구 침강속도(ESR)가 50 mm/h 이상이면 불량 예후와 연관된다. 따라서 ESR 65 mm/h는 불량 예후 소견이다.
+생검의 거대 다핵세포와 임상 소견은 고전적 호지킨림프종을 지지한다. 선택지 중 ESR 65 mm/h(D)는 초기 불량위험 분류에 들어갈 수 있다. B증상은 설명되지 않는 발열·뚜렷한 체중감소·흠뻑 젖는 야간발한이며 피로·가려움 자체는 정식 B증상이 아니다. 실제 위험은 병기와 다른 인자를 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001282 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고전 Hodgkin의 불량위험 ESR D 유지. 피로·가려움을 정식 B증상이라고 한 오류와 ESR 기준의 보편화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq
 
 ## 출처
 

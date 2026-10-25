@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 응급수술을 위해 수술실로 돌아간다
 
 ## 해설
 
+정상 관류·크레아티닌과 방광 내 250mL 잔뇨는 도뇨관 꺾임·폐쇄·위치 이상을 먼저 확인할 근거다(B). 수액이나 이뇨제 투여 전에 배액 문제를 배제한다. 원문의 방광 내 메틸렌블루 역행 주입은 요관 개통성을 단독으로 입증하는 검사가 아니므로 그 문장만으로 요관 손상을 배제하지 않는다.
 
-수술 후 소변량이 적고 잔뇨가 남아 있는 경우 가장 흔한 원인은 카테터 폐쇄이다. 카테터를 확인하고 재삽입하거나 교체하는 것이 우선적인 평가이다. 따라서 다음 단계는 폴리 카테터를 확인하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 잔뇨를 동반한 수술 후 핍뇨의 카테터 점검 B 유지. 방광 역행 주입만으로 요관 개통을 증명한다는 원문 오류를 명시.
+- https://www.exxcellence.org/list-of-pearls/postoperative-urinary-fistulae/
 
 ## 출처
 

@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 배고픈 뼈 증후군
 
 
 수술 후 저칼슘혈증은 부갑상선이 의도치 않게 제거되거나 손상될 때 발생한다. 부갑상선 손실은 급성 PTH 감소와 혈청 Ca²⁺ 저하를 초래해 손발 저림, 테타니, 구강 무감각을 일으킨다. 따라서 원인은 부갑상선 실수 제거이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/4선지/정답 A/해설 읽음. 전갑상샘절제 직후 저칼슘·Trousseau 징후는 수술 관련 부갑상샘 손상/제거와 합당. 기존 정상 병력과 급성 시점에서 다른 보기보다 적합. 실제 저칼슘 치료·용량 검증 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

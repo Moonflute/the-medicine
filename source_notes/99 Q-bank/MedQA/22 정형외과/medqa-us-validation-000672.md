@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 연골육종
 
 ## 해설
 
+56세에서 골반 장골의 점점 심해지는 깊은 통증과 공격적인 혼합 골용해·경화성 병변은 선지 중 연골육종(D)을 가장 시사한다. 연골육종은 주로 40세 이후 성인에서 발생하고 골반·근위 대퇴골·어깨가 흔한 위치다. 10–30세가 대표 연령이라는 기존 설명은 잘못이다. 연골성 기질의 고리·활 모양 석회화가 도움 될 수 있으나 본문에서 확인되었다고 덧붙이지 않으며, 실제 확진에는 전문 영상·병리 평가가 필요하다.
 
-연골육종은 10‑30세에서 흔히 골반에 발생하며, X‑ray에서 경계 불분명한 골용해성 병변, ‘좀먹는’ 파괴와 함께 석회화된 연골성 매트릭스와 반응성 골막반응을 보인다. 제시된 영상소견은 연골육종에 가장 부합한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 연골육종이 10–30세에 흔하다는 연령 오류를 주로 40세 이후 성인으로 바로잡고 본문에 없는 확정 연골성 석회화 모양은 추가하지 않았다.
+- 공식/학회 근거: https://www.cancer.gov/types/bone/bone-fact-sheet
 
 ## 출처
 

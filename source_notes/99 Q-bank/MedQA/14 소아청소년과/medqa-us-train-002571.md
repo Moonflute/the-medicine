@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 요추천자
 
 ## 해설
 
+16일 신생아의 발열·보챔·수유불량은 수막염·패혈증을 배제해야 한다. 상태가 허용하면 요추천자(D)로 뇌척수액을 검사한다. 대천문·목이 정상이어도 수막염을 배제하지 못한다. 검사 때문에 경험적 항생제를 지연하지 않으며 본문은 저혈압·의식저하를 제시하지 않았다.
 
-신생아의 고열, 저혈압, 의식 저하는 세균성 수막염을 의심하게 하며, 진단을 위해 요추천자가 필요하다. 혈액배양과 수액 치료만으로는 충분하지 않다. 따라서 요추천자가 가장 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 생후16일 발열·수유불량의 요추천자 D 유지. 없는 저혈압·의식저하 소견 창작 제거.
+- https://www.nice.org.uk/guidance/ng195/chapter/Meningitis-babies-with-early-onset-or-late-onset-infection-in-neonatal-units
 
 ## 출처
 

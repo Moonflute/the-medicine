@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 흉선절제술
 
 ## 해설
 
+호흡근 약화와 고탄산혈증으로 삽관이 필요한 중증근무력 위기이다. 혈장교환(C)은 빠른 단기 면역치료이며 IVIG도 인정되는 대안이다. 두 치료의 선택은 임상상과 금기·가용성에 따른다. Aminoglycoside인 gentamicin은 신경근 전달을 악화시킬 수 있으므로 감염 치료를 유지하면서 대체 가능성을 검토한다. Edrophonium 검사나 thymectomy는 위기의 즉각적인 호흡부전 치료를 대신하지 않는다.
 
-중증근무력증 위기 시 혈장교환술은 항체를 급속히 제거해 호흡근 기능을 회복시키는 가장 효과적인 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. MG 위기에서 PLEX C 유지. IVIG도 대안이며 gentamicin 악화 가능성을 확인, PLEX의 무조건적 우월성 제거.
+- 공식/학회 근거: https://www.neurology.org/doi/10.1212/wnl.0000000000002790
+- 공식/학회 근거: https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/cautionary-drugs/
 
 ## 출처
 

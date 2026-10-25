@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 울혈성심부전의 급성 비대상성 악화
 
 
 COPD 악화는 고탄산혈증, 저산소혈증을 동반한 저환기성 호흡부전으로, 환자의 흡연력·증상·ABG 소견이 이를 뒷받침한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 본문·4선지·C 정답·해설 및 영어 원문 대조. 흡연, 감염 후 악화, 천명·호흡음 감소와 고탄산성 산증에서 COPD 급성 악화가 보기 중 합당. 어휘 불일치 플래그는 실제 타질환 해설이 아님.
+- https://site.thoracic.org/advocacy-patients/patient-resources/exacerbation-of-copd
 
 ## 출처
 

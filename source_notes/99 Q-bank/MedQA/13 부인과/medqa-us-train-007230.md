@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 비호르몬 피임법으로 변경한다
 
 ## 해설
 
+임신검사와 진찰이 정상이고 다른 내분비 증상은 없다. 체중 변화와 생활·식사·운동을 검토하고 경과를 추적하며 안심시킨다(A). 복합 피임약이 체중 증가를 유발한다는 충분한 근거는 없으므로 약물 부작용으로 단정하거나 무조건 비호르몬법으로 바꾸지 않는다.
 
-복합 경구피임약 복용 후 체중 증가가 흔히 보고되며, 대부분은 약물에 대한 일시적 부작용으로 심각한 원인 검사가 필요하지 않다. 따라서 환자를 안심시키는 것이 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 A 유지. 복합 피임약이 7kg 체중 증가의 입증된 원인이라는 해설을 교정.
+- https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/side-effects/
 
 ## 출처
 

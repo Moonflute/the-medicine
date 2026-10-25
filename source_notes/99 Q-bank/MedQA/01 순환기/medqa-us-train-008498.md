@@ -19,15 +19,17 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 주 5일, 하루 30분 걷기
 
 ## 해설
 
+BMI 30.1 kg/m²인 환자가 체중을 15 kg 줄이면 상당한 혈압 감소를 기대할 수 있어 선택지 중 A가 적합하다. 감소폭은 감량 정도와 개인에 따라 다르며, 음주 감량, DASH 식이와 운동도 함께 권장된다. 이미 반복 측정에서 2기 고혈압 범위이므로 실제 진료에서는 생활습관만으로 약물 평가를 무기한 미루지 않는다.
 
-체중 감량은 혈압에 가장 큰 영향을 주는 생활습관 변화이며, 10 kg 감량 시 평균 5–20 mmHg 정도 수축기 혈압이 감소한다. 다른 선택지는 효과가 작거나 제한적이다. 따라서 가장 큰 혈압 감소는 체중 15 kg 감량이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 실제 비만과 15kg 감량이 제시된 문항의 A는 유지하되 모든 사람의 생활요법 효과 순위를 고정한 표현을 한정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 왼쪽 후방 내낭 경색
 
 ## 해설
 
+두 달에 걸쳐 진행하는 좌측 겨냥이상·의도떨림·교대운동불능과 좌측으로 넘어짐은 좌측 소뇌 병변을 국소화한다. 따라서 주어진 선지에서는 좌측 소뇌 종양(C)이 가장 가능하다. 알코올 관련 소뇌 변성은 주로 소뇌 벌레부를 침범하여 체간·보행실조가 두드러지며, 새로 진행하는 뚜렷한 한쪽 사지 소뇌징후를 단순히 알코올 병력으로 설명하지 않는다. 후방 내낭 경색은 이와 같은 점진적 소뇌 협응장애를 잘 설명하지 못한다.
 
-알코올성 간질환 환자에서 소뇌 위축과 운동실조가 나타나면 알코올성 소뇌 변성(티아민 결핍)보다 좌측 소뇌 종양이 더 가능성 있다. 영상에서 종양이 확인될 가능성이 높다. 따라서 좌측 소뇌 종양이 가장 가능성 높은 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 새로 생긴 소뇌 위축을 본문에서 확인한 듯한 설명을 제거했다. 진행성 좌측 소뇌 국소징후가 종양 C를 지지하는 핵심이다.
 
 ## 출처
 

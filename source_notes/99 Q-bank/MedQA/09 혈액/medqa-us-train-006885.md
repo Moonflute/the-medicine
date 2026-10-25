@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 평균적혈구용적 감소
 
 
 트리메토프림-설파메톡사졸에 의해 용혈성 빈혈이 발생하면 혈청 LDH가 상승한다. 이는 용혈성 빈혈의 전형적인 소견이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006885 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 산화성 용혈의 bite cell/Heinz body와 LDH 상승 C가 원문·기초 기전에 일치함을 직접 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

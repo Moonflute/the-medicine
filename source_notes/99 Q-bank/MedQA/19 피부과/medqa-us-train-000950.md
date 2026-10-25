@@ -22,16 +22,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,11 @@ D. 정상적인 일광 화상 반응
 
 ## 해설
 
+Demeclocycline은 tetracycline 계열 약물로 광독성 반응을 유발할 수 있다. 짧은 햇빛 노출 뒤 긴소매로 가려지지 않은 얼굴·목·손등에 심한 화끈거림과 홍반이 나타난 분포가 약물성 광과민(C)을 지지한다. 전신에 발진이 퍼진 것으로 서술해서는 안 된다. 포르피린증의 피부 취약성·수포와 만성 경과는 제시되지 않았다.
 
-데메클로사이클린은 광범위한 광과민성을 일으켜 햇빛에 노출 시 심한 발진을 유발한다. 환자는 화학요법과 데메클로사이클린 복용 중이며, 일광 노출 후 전신 홍반이 나타난다. 따라서 약물에 의한 광과민성 반응이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Demeclocycline 광과민 C는 맞지만 노출 부위 한정 홍반을 전신 홍반으로 바꾼 설명을 수정한다.
 
 ## 출처
 

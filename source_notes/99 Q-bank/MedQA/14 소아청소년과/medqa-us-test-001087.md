@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 두부 MRI
 
 ## 해설
 
+미숙아에게 생후 초기에 경련, 의식·근긴장 저하, 팽팽한 대천문과 심폐 불안정이 나타나면 뇌실내출혈 등 급성 뇌손상을 평가해야 한다. 기도·호흡·순환 안정화와 경련 처치를 병행하면서 침상에서 경천문 두개 초음파(B)를 시행할 수 있다. 초음파는 방사선 노출이나 불안정한 환자의 이동 없이 뇌실과 출혈을 확인할 수 있다. CT와 MRI 자체가 침습적 검사인 것은 아니며, MRI는 추가 뇌손상 평가에 유용할 수 있지만 이 상황의 첫 영상검사로는 초음파가 적합하다.
 
-미숙아에서 뇌실내 출혈은 두개 초음파로 가장 잘 평가된다. 방사선학적 검사는 침습적이므로 초음파가 우선이다. 따라서 정답은 두개 초음파이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: CT/MRI가 침습적이라 부적절하다는 오류 삭제. 미숙아 뇌실내출혈의 침상 경천문초음파 장점과 안정화 우선 명시. B 유지.
+- https://cps.ca/en/documents/position/routine-imaging-of-preterm-neonatal-brain
 
 ## 출처
 

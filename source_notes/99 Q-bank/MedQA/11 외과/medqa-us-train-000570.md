@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 정맥 코르티코스테로이드 치료
 ## 해설
 
 
-흡입 화상은 기도 부종과 폐 손상을 초래할 수 있어 호흡곤란이 없더라도 조기 기도 확보가 필요하다. 환자는 혼란과 GCS 13으로 기도 보호가 불완전하므로 기관 삽관이 우선이다. 따라서 기관 삽관 및 기계 환기가 적절한 다음 관리 단계이다.
+폐쇄공간 연기 노출, 심한 안면화상과 코·입의 그을음, 의식저하는 기도 손상과 진행성 부종 위험을 높인다. 이 조합에서 조기 기도 확보를 위한 기관삽관(C)이 적절하다. GCS 13만으로 모든 환자에서 자동 삽관한다는 뜻은 아니며 정상에 가까운 산소포화도도 위험을 배제하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000570`와 직접 대조했다.
+- 판정: 폐쇄공간 연기 노출·심한 안면화상·구강 그을음·의식저하로 C 유지. GCS 13 하나만으로 자동 삽관이라는 해석을 제거.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://ameriburn.org/wp-content/uploads/2020/04/1.-guidelines-for-austere-conditions-introduction-to-burn-disaster-airway-and-ventilator-2.pdf
 
 ## 출처
 

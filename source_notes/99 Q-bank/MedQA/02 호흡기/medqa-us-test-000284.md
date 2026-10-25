@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. Haemophilus influenzae
 
 ## 해설
 
+호전되던 호흡기 감염 뒤 다시 고열과 화농성 가래, 백혈구 증가 및 국소 폐침윤이 생겨 이차 세균성 폐렴을 의심한다. 제시된 보기 중 흔한 전형적 세균성 폐렴 원인인 폐렴사슬알균(A)이 가장 합당하다. 녹색 가래나 상엽 침윤만으로 균종을 확정할 수는 없으며, 이 소견이 폐렴구균에만 특이적인 것은 아니다.
 
-녹색 가래와 고열, 폐 염증이 급성 상엽에 국한된 소견은 폐렴사슬알균에 전형적이다. 이 균은 급성 세균성 폐렴을 일으키며, 특히 고령·면역저하가 아닌 청소년에서도 흔히 발생한다. 따라서 가장 가능성 높은 원인은 폐렴사슬알균이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. 녹색 가래/상엽 병변을 폐렴구균 특이소견으로 설명하지 않고 제시 보기 내 급성 세균성 엽성폐렴의 가능성으로 제한.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

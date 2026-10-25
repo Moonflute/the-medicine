@@ -18,15 +18,20 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "수혈 자체가 세뇨관 손상의 입증된 원인이라는 창작을 제거."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,19 @@ D. 급성 신장경색
 
 ## 해설
 
-
-수술 후 저혈량성 쇼크와 수혈로 인한 신장관 손상이 있으면 급성 세뇨관 괴사가 발생하고, 갈색 과립원주가 특징적인 소변검소견이다. 따라서 가장 가능성 높은 원인은 급성 세뇨관 괴사이다.
+중증 외상·출혈과 응급수술 뒤 수액 소생에도 지속되는 핍뇨, creatinine 상승 및 갈색 과립원주는 허혈성 급성 세뇨관 손상(ATN)을 지지한다. 수혈은 출혈 중증도의 맥락이지 수혈 반응이나 독성 손상이 확인되었다는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009398
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 수혈 자체가 세뇨관 손상의 입증된 원인이라는 창작을 제거.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

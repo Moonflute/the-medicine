@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 젠커 게실
 
 
 점진적인 삼킴곤란, 체중 감소, 흡연·음주 병력, 구강 위생 불량, 구취는 식도암, 특히 편평세포암을 시사한다. 식도 편평세포암은 연하곤란과 체중 감소를 동반하며 위험 요인이 일치한다. 다른 선택지는 해당 증상과 부합하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002861 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 진행성 고형식→액체 연하곤란·체중감소와 흡연/음주력은 선택지 중 식도 편평세포암 C를 지지한다. 구취만으로 Zenker로 자동 분류하지 않고 전체 임상과 영어 원문을 대조했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

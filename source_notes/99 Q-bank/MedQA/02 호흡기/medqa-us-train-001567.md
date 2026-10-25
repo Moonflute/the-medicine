@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 고용량 흡입 코르티코스테로이드와 지속성 베타작용제
 
 
 환자는 중등도 지속성 천식(FEV1 73% 예측, 베타 작용제 사용 후 19% 개선)으로, 저용량 흡입 스테로이드와 LABA 조합이 권장된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 매일 증상·주3회 야간각성과 가역적 FEV1저하는 조절제 필요. 보기 중 low-dose ICS/LABA B가 LABA단독보다 적합.
+- https://ginasthma.org/reports/
 
 ## 출처
 

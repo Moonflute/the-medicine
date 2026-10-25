@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 기관내 삽관
 
 ## 해설
 
+눈을 뜨지 않음(E1), 알아들을 수 없는 소리(V2), 통증에 사지를 회피함(M4)이므로 GCS는 7이다. 외상 환자의 중증 의식저하는 기도 보호 실패와 흡인의 위험이 커서 D, 기관삽관을 통한 기도 확보가 적절하다. 경추 보호와 혈역학 관리를 병행한다. 산소포화도 98%라는 한 시점의 측정치만으로 기도 보호 능력이 보장되는 것은 아니며, 본문에서 저산소혈증이 확인되었다고 할 수도 없다.
 
-다발 외상 환자에서 기도 확보가 최우선이며, 저산소증과 무의식 위험 때문에 즉시 기관내 삽관을 시행한다. 산소 공급만으로는 충분하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. GCS E1V2M4=7의 중증 의식저하에 따른 기도 보호가 근거이며, 정상 SpO2에서 실제 저산소혈증이 있다는 설명을 교정.
+- 공식/학회 근거: https://aci.health.nsw.gov.au/networks/trauma/resources/airway
 
 ## 출처
 

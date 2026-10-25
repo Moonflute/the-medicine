@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,13 @@ D. A와 B 모두
 
 
 벌에 쏘인 후 급속히 전신 발진, 얼굴 부종, 호흡곤란, 폐기저부 흡기성 협착음이 나타난 것은 IgE 매개 비만세포 탈과립에 의한 전신 혈관 확장과 기관지 수축을 동반한 아나필락시스이다. 정답은 A이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-007354`와 직접 대조했다.
+- 판정: 벌독 후 발진·부종과 흡기성 협착음은 아나필락시스성 I형 반응 A를 지지. 원문·선지·해설의 연결 유지.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
 
 ## 출처
 

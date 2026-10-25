@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvT3NlbHRhbWl2aXIubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,10 +50,15 @@ D. 오셀타미비르
 
 ## 해설
 
-
-오피오이드 금단은 전신 권태·구토·설사·동공 확대·안구 충혈·땀·불안 등을 동반한다. 클로니딘은 알파2-작용제로 교감신경 과활성을 억제해 금단 증상을 완화한다. 따라서 클로니딘이 적절한 치료이다.
+설사·구토·동공 확대·콧물·눈물·입모와 주사 흔적은 오피오이드 금단을 시사한다. 제시된 선택지 중 알파2 작용제인 클로니딘은 교감신경 과활성에 따른 금단 증상을 완화할 수 있다. 이는 증상 조절에 대한 답이며 오피오이드 사용장애의 장기 치료 전체를 뜻하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000339
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 클로니딘 원정답 유지. 원문에 없는 안구 충혈 대신 실제 콧물·눈물·입모와 교감항진에 근거하도록 해설 최소 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 국소 플루오로우라실
 
 ## 해설
 
+수년간 존재한 stuck-on 사마귀성 병변과 피부경의 면포 유사 개구부·비립종 유사 낭종·뇌회상 패턴은 지루각화증을 지지한다. 진단이 명확하고 증상·의심 소견이 없는 이 상황에서는 안심과 일반 권고(B)가 적절하다. 이 사례는 조직검사 결과가 아니라 피부경검사 소견을 제시한다.
 
-경계가 뚜렷한 어두운 병변이 3~4년간 변하지 않고, 조직검사에서 양성 소견(개방면포, 비립종 낭종, 뇌회상 패턴)이 보이면 악성 가능성이 낮다. 환자를 안심시키고 일반적인 피부 관리 권고를 제공하면 된다. 따라서 정답은 안심시키고 일반적인 권고 제공이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 지루각화증 B의 dermoscopy를 조직검사로 바꿔 쓴 오류를 교정한다.
 
 ## 출처
 

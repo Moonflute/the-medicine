@@ -18,16 +18,18 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 현재 약물치료는 필요하지 않다
 
 ## 해설
 
+35주에는 일반적으로 조산 억제를 위한 테르부탈린·황산마그네슘을 사용하지 않으며 수축이 충분해 옥시토신 촉진도 필요하지 않으므로 제시된 선택지 중 D가 적절하다. 이는 후기 조산 스테로이드나 GBS 예방 등 별도의 적응증까지 모두 부정하는 뜻은 아니다. 실제로 태아·산모 상태와 임박한 분만을 평가한다.
 
-35주에 규칙적인 수축과 자궁경부 개대가 진행 중이지만 양막이 온전하고 수축 강도가 220 MVU인 경우, 아직 약물 억제가 필요하지 않다. 경과 관찰이 권장된다. 따라서 현재 약물치료는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 35주 D는 제시된 수축억제/촉진 약물 불필요라는 뜻; 모든 약물 불필요로 일반화 금지.
+- https://www.acog.org/womens-health/faqs/preterm-labor-and-birth
 
 ## 출처
 

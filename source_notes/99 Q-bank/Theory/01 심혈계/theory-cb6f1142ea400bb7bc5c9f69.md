@@ -12,44 +12,53 @@ target_type: drug
 target_slug: "ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
+curation_status: "revised"
+curation_reason: "ARNI 안전성의 독립적인 병용·전환 금기를 직접 확인."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-Sacubitril/Valsartan 복용 중 환자가 입술과 혀가 부어오르는 증상을 보인다. 가장 먼저 해야 할 조치는?
+ACE 억제제와 sacubitril/valsartan(ARNI) 사이의 전환에 필요한 원칙은?
 
 ## 선택지
 
-A. 약물을 즉시 중단하고 기도 확보를 준비한다
-B. 항히스타민제만 투여한다
-C. 용량을 절반으로 줄인다
-D. ACE 억제제를 추가한다
+A. 혈관부종 위험 때문에 동시 사용하지 않고 최소 36시간 간격을 둔다
+B. ACE 억제제와 같은 시간에 함께 투여한다
+C. 전환 시 ACE 억제제 용량만 절반으로 줄인다
+D. 36시간 간격은 베타차단제를 전환할 때만 필요하다
 
 ## 해설
 
-Sacubitril/Valsartan은 혈관부종을 일으킬 수 있으며, 발생 시 즉시 중단하고 기도 확보 등 응급 조치가 필요하다.
+ACE 억제제와 ARNI의 병용은 혈관부종 위험을 높이므로 금기이다. ACE 억제제에서 ARNI로 또는 그 반대로 바꿀 때 최소 36시간의 간격이 필요하다.
 
 ## 오답 포인트
 
-- **B. 항히스타민제만 투여한다:** 항히스타민제만으로는 혈관부종을 충분히 억제할 수 없다
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: SacubitrilValsartan
 - 원본 경로: `source_notes/04 Pharmacology/01 심혈계/SacubitrilValsartan.md`
-- 학습 목표: 원문 핵심: - 태아 독성: 임신 중 투여 시 태아 손상 위험이 있으므로 임신 확인 시 즉시 중단 - 혈관부종: 발생 시 즉시 투여 중단 및 기도 확보 등 적절한 치료 시행 - 저혈압: 증상성 저혈압 발생 가능, 특히 체액 또는 염분 결핍 환자 주의 - 신기능 저하: RAAS 억제에 따른 신기능 변화 모니터링 필요 - 고칼륨혈증: 혈청 칼륨 수치 주기적 확인 필요 - 혈청 크레아티닌 및 신기능 지표 - 혈청 칼륨 수치 - 혈압 및 저혈압 증상 - 혈관부종 징후
+- 학습 목표: ACE 억제제와 ARNI의 병용 금기 및 36시간 전환 간격
+
+## 검수 근거
+
+- https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?name=ENTRESTO&setid=000dc81d-ab91-450c-8eae-8eb74e72296f

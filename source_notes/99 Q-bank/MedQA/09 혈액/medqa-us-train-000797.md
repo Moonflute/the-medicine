@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 자당 용혈 검사(Sucrose hemolysis test)
 ## 해설
 
 
-이 환자는 용혈성 빈혈, 간정맥 혈전증, 고 LDH, 저 혈색소 등 파보날성 야간 혈색소증(PNH) 소견을 보이며, 확진을 위해 클론성 혈구 표면 항원 분석이 필요하다. 유세포 분석은 CD55·CD59 결핍을 확인한다. 따라서 가장 가능성 높은 검사는 유세포 분석이다.
+반복 혈색소뇨·혈관내 용혈과 간정맥 등 비전형 부위 혈전은 발작성 야간혈색소뇨증(PNH)을 의심하게 한다. 유세포분석(B)으로 GPI 결합 단백질 결핍 클론을 확인한다. 적혈구 CD59/CD55와 과립구·단핵구의 적절한 표지자/FLAER 등을 이용해 여러 세포계열을 평가할 수 있다. 과거 자당용혈검사보다 유세포분석이 진단과 클론 크기 평가에 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000797 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PNH 질환명 오역을 발작성 야간혈색소뇨증으로 바로잡고 flow cytometry B의 목적을 명확히 했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/10.1002/cyto.b.20525
 
 ## 출처
 

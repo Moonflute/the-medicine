@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 단백뇨
 
 ## 해설
 
+임신 후기 고혈압·두통·반사항진에 새 전신 강직간대 발작이 동반되어, 다른 원인을 배제하면서 자간증을 가장 의심한다. 제시된 검사소견 중 단백뇨(D)가 흔히 동반될 수 있다. 발작이 이미 발생했으므로 이 사례를 단순히 중증 전자간증으로만 부르는 것은 부정확하다. 단백뇨가 없더라도 자간증이 배제되는 것은 아니다.
 
-임신 36주에 혈압 160/90 mmHg, 부종, 두통, 반사亢진은 중증 자간전증을 나타낸다. 자간전증에서 가장 흔히 관찰되는 실험실 소견은 단백뇨이다. 따라서 가장 흔한 검사 소견은 단백뇨이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 새전신발작이있으므로단순중증전자간증이아닌자간증으로교정. D유지하며단백뇨필수아님명시.
+
 
 ## 출처
 

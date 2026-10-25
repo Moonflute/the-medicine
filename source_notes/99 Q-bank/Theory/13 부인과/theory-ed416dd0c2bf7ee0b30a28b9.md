@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "질 상피 이형성과 침윤을 구별하는 정의는 유지. 오답 문자 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ VAIN은 HPV 감염에 의해 발생하는 전암성 병변이며, 이형성 변�
 
 ## 오답 포인트
 
-- **B. 악성 종양으로 침윤 및 전이를 동반함:** 악성 종양은 침윤성 암으로, VAIN과는 구분된다.
+- 기질 침윤과 전이가 있는 암은 질 상피내 병변과 구분한다.
 
 ## 출처
 
 - 내부 학습 노트: 질 상피내 종양 (Vaginal Intraepithelial Neoplasia)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/질 상피내 종양 (Vaginal Intraepithelial Neoplasia).md`
-- 학습 목표: 원문 핵심: - **정의**: 질 점막의 전암성 병변으로, 상피세포의 이형성 변화를 특징으로 함. - **원인**: 주로 인유두종 바이러스(HPV) 감염과 관련이 있으며, 특히 고위험군 HPV 유형의 지속적인 감염이 주요 원인임. - **기전**: HPV 감염이 질 상피세포의 유전적 변이를 유도하여 이형성증을 유발하며, 면역 저하 상태나 흡연 등이 병변의 진행 및 지속에 기여함.
+- 학습 목표: VaIN의 비침윤성 질 상피 이형성
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 질 상피 이형성과 침윤을 구별하는 정의는 유지. 오답 문자 제거.

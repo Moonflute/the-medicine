@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -24,6 +24,11 @@ review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQWRlbm9zaW5lLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k
+curation_status: "retained"
+curation_reason: "Allopurinol의 xanthine oxidase 억제와 요산 생성 감소."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -47,4 +52,8 @@ D. 시클로옥시게나제
 
 - 내부 학습 노트: Allopurinol
 - 원본 경로: `source_notes/04 Pharmacology/07 면역·염증·류마티스/Allopurinol.md`
-- 학습 목표: 원문 핵심: - 잔틴 산화효소(xanthine oxidase)를 억제하여 하이포잔틴과 잔틴이 요산으로 전환되는 과정을 차단
+- 학습 목표: Allopurinol: 잔틴 산화효소
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

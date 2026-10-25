@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "PAM의 원인 Naegleria와 코→후각경로는 드물어도 치명적 질환의 구별되는 핵심이므로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmlxlla095y29drhnswvrycvpucnnkuwc2cknrn0ploeldaedjbvzstfv4cgrtbhvaeujcyldwawfxtwdtvzvtwldomgfxoxvluzv0wkf8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ Naegleria fowleri는 따뜻한 민물에서 코를 통해 침투해 후각신경
 
 ## 오답 포인트
 
-- **B. Acanthamoeba spp.:** Acanthamoeba는 주로 각막염을 일으키며 PAM의 주요 원인균이 아니다.
+- **Acanthamoeba spp.:** Acanthamoeba는 주로 각막염을 일으키며 PAM의 주요 원인균이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 자유 아메바 감염 (Free-Living Amebic Infection)
 - 원본 경로: `source_notes/02 Diseases/08 감염/자유 아메바 감염 (Free-Living Amebic Infection).md`
 - 학습 목표: 원문 핵심: - **정의**: 자유 생활 아메바(free-living amebae)에 의해 발생하는 드물지만 치명적인 감염 질환 - **원인**: 네글레리아 파울러리(Naegleria fowleri), 아칸트아메바(Acanthamoeba spp.), 발라무티아 만드릴라리스(Balamuthia mandrillaris), 사피니아 페다타(Sappinia pedata) 등 - **기전** - 네글레리아 파울러리: 따뜻한 민물에서 수영 중 코를 통해 침투하여 후각 신경을 따라 뇌로 이동, 원발성 아메바성 뇌수막뇌염(PAM) 유발 - 아칸트아메바, 발라…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: PAM의 원인 Naegleria와 코→후각경로는 드물어도 치명적 질환의 구별되는 핵심이므로 유지.

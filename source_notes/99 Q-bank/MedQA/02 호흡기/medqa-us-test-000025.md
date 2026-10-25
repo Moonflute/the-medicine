@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 메틸프레드니솔론 추가 투여
 
 ## 해설
 
+정답은 A이다. 기관지확장제와 스테로이드 치료 뒤 소아가 축 늘어지고 기면 상태가 되며 호흡수가 감소하고 천명이 사라진 것은 호전보다 호흡근 피로와 심한 기류 감소를 우려해야 하는 소견이다. 즉시 소아 중환자/기도 전문 인력의 도움을 받아 삽관과 기계환기를 준비한다. 산소포화도나 혈액가스가 제시되지 않았으므로 실제 저산소혈증 수치를 추정하지 않는다. 긴장성 기흉을 지지하는 일측성 소견은 없고 추가 스테로이드만 기다려서는 안 된다.
 
-흡입기 중단으로 급성 중증 천식 악화가 발생했으며, 마그네슘 황산 투여 후에도 호흡근 피로와 저산소증이 진행돼 기계환기가 필요하다. 기관내 삽관은 호흡부전 예방과 가스 교환 회복에 필수적이다. 다른 선택지는 기도압력 감소나 추가 스테로이드 투여로는 급성 저산소증을 즉시 해결하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 처치 후 호흡수 감소를 호전으로 오판하지 않도록 무기력·기류 감소에 따른 호흡부전 위험을 설명; 미측정 저산소혈증을 단정하지 않음.
+- https://ginasthma.org/reports/
 
 ## 출처
 

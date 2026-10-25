@@ -17,15 +17,17 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 폐동맥의 색전
 
 ## 해설
 
+정답은 C이다. 노인의 운동 관련 흉통·실신과 우측 흉골연에서 경동맥으로 방사하는 후기 peak 수축기 잡음은 대동맥판 협착을 시사한다. 이 연령에서는 판막 석회화가 가장 합당한 원인이다. LVH/HCM이나 동방결절 섬유화는 이 청진 양상을 잘 설명하지 못한다.
 
-노년층에서 진행성 수축기 잡음과 좌측 흉골연에서 방사되는 잡음은 대동맥판 협착을 의미한다. 협착은 석회화된 판막에 의해 발생한다. 다른 선택지는 해당 청진소견과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 우흉골연→경동맥 방사를 좌흉골연 방사로 바꾼 해설 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 콕사키바이러스
 
 
 밝은 빛에 눈이 아프고 뇌척수액에 림프구 우위가 있는 급성 무균성 수막염은 콕사키바이러스가 가장 흔한 원인이다. 따라서 콕사키바이러스가 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001256 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 명료의식 수막자극·림프구 우세/정상 glucose CSF는 enteroviral aseptic meningitis와 coxsackie D. HSV1뇌염·TB·신경보렐리아와 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

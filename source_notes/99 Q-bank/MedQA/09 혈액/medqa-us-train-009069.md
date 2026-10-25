@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 두개내 출혈
 
 
 von Willebrand 질환은 점막 출혈(코피, 잇몸 출혈 등)을 동반한다. 발치 후 지속 출혈과 정상 혈액응고검사에서 코피가 흔히 동반되는 증상이다. 따라서 코피가 가장 가능성 높은 동반 증상이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009069 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 발치 후 점막성 출혈과 정상 혈소판/PT/aPTT에서도 VWD 가능. 동반 코피 A는 혈우병의 관절출혈 등 다른 선지보다 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

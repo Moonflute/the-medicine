@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 중증 전자간증
 
 ## 해설
 
+20주 이후 고혈압과 단백뇨에 두통이 있고 수축기 혈압 164mmHg가 중증 범위이므로, 신속히 재확인하면서 중증 소견을 동반한 전자간증(D)을 평가한다. 혈압 기준은 수축기 160 이상 또는 이완기 110 이상이며 둘 다 높아야 하는 것은 아니다. 혈소판 100,500/μL는 100,000/μL 미만 기준에 해당하지 않는다. 발작이 없으므로 이를 ‘중증 자간증’이라고 부르면 안 된다.
 
-혈압 164/104 mmHg, 단백뇨, 혈소판 100 500/µL, 간 효소 정상은 중증 전자간증(중증 자간증)과 일치한다. 이는 임신 20주 이상에서 나타나는 중증 전자간증이다. 따라서 중증 전자간증이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 중증전자간증과자간증혼용교정. 수축기164가중증범위이고혈소판100500은10만미만아님을명시.
+- https://kansaspqc.kdhe.ks.gov/wp-content/uploads/2025/09/ACOG-Gestation-HTN-and-Preeclampsia-Practice-Bulletin.pdf
 
 ## 출처
 

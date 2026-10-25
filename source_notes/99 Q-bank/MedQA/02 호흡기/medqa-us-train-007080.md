@@ -20,15 +20,17 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 무스카린 차단제
 
 ## 해설
 
+Ipratropium 같은 muscarinic길항 D는 기관지확장에 가능하며 보통 SABA와 함께 사용한다. 모든alpha/beta차단제가 COPD의절대금기는 아니다. 비재호흡마스크에서도SpO2 88로 심한호흡부전이 있어 ABG·환기보조·전신steroid·감염평가 등 긴급치료를 병행해야 하며 흡입제하나만으로 마무리하지 않는다.
 
-COPD 급성 악화 시 기관지 평활근 수축을 완화하기 위해 무스카린 길항제(예: 이프라트로피움)가 1차 치료이다. 알파·베타 차단제는 COPD에서 금기이며, 베타‑2 차단제는 기관지 확장 효과가 없고 위험할 수 있다. 따라서 무스카린 차단제가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Muscarinic blocker D는 선택지 중 맞으나 모든α/beta차단제가 COPD금기라는 오류와 중증저산소 단독처치 오용 교정.
+- https://goldcopd.org/2026-gold-report-and-pocket-guide/
 
 ## 출처
 

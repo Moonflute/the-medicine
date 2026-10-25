@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7J247ZuE7Ya177yP7Jew7ZWY6rOk656A"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "침을 삼키지 못함·목소리 변화·경부 부종이라는 기도위험 경고징후."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 가벼운 인후통과 가벼운 기침
 - 내부 학습 노트: 인후통／연하곤란
 - 원본 경로: `source_notes/01 Chief Complaint/인후통／연하곤란.md`
 - 학습 목표: 원문 핵심: 인후통은 흔하지만 침을 삼키지 못함, stridor, 쉰목소리, 경부 부종, 독성 외관이 있으면 상기도 응급을 우선한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

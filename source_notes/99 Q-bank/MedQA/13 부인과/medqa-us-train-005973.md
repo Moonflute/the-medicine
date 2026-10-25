@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,15 @@ D. 지금 자궁경부 세포검사와 HPV 검사를 시행하고 5년마다 반
 
 ## 해설
 
+현재 공동검사를 선택하면 음성 결과 이후 5년 간격으로 추적하는 D가 보기 중 적절하다. 다만 어머니와 이모의 유방암 가족력은 별도로 유전성 위험 평가·상담이 필요하며 위험도에 따라 유방 선별 시기와 방법을 조정한다. 모든 30세 여성에게 공동검사만 가능한 것은 아니다.
 
-30세 여성은 현재 자궁경부 세포검사와 HPV 동시 검사를 시행하고, 5년 간격으로 반복하며, 유방촬영은 40세에 시작한다. 이는 최신 가이드라인에 부합한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 30세 공동검사 5년 D는 유효한 선별 전략이다. 모계 유방암 가족력을 무시한 보편적 40세까지 대기 단정을 교정.
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening
+- https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
 
 ## 출처
 

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. Vibrio cholerae
 
 ## 해설
 
+미접종 4세의 발열·구토·비혈성 수양성 설사와 탈수에서는 보기 중 로타바이러스(C)가 가장 부합한다. 실제 유행·지역·검사에 따라 다른 원인도 가능하며 4세는 영아가 아니다. 모든 소아 설사의 원인을 일률적으로 로타바이러스로 단정하지 않는다.
 
-4세 영아의 급성 설사와 탈수는 로타바이러스가 가장 흔한 원인이다. 로타바이러스 감염은 열, 구토, 혈액이 섞이지 않은 설사를 동반하며, 탈수 위험이 크다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 4세를 영아로 부르고 모든 급성 설사의 최빈 원인을 단정한 설명 보정.
+
 
 ## 출처
 

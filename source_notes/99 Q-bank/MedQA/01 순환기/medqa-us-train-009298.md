@@ -19,15 +19,17 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 관상동맥 죽상경화증
 
 ## 해설
 
+급성 흉통과 호흡곤란에 고혈압, 빈맥, 산동, 초조와 발열이 동반되어 교감신경 항진성 독성 상태를 의심하게 한다. 제시된 선택지 중 코카인 독성(C)이 가장 부합하며 심근허혈, 부정맥과 급성 심부전을 유발할 수 있다. 실제 노출력과 독성·심장 평가로 확인해야 하며, 제시된 소견만으로 급성 폐동맥고혈압이나 새 심실비대를 확진하지 않는다.
 
-코카인 사용은 급성 폐동맥 고혈압, 심실 비대, 양측 정맥 팽창, 저산소증을 일으키며, 환자는 고혈압·심박수 증가·청색증을 보인다. 따라서 코카인 독성이 가장 가능성 높은 원인이다. 다른 선택지는 간·간질성 증상과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 코카인 독성 의심 C를 폐고혈압·심실비대 확진으로 과장한 해설을 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

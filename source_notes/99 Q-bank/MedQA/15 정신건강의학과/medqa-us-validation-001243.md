@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 전신 스테로이드
 
 ## 해설
 
-
-스트레스와 강박 행동이 원인인 발모광은 인지행동치료(CBT)로 근본적인 사고·행동을 교정하면 증상이 호전된다. 따라서 CBT가 가장 적절한 치료이다.
+불규칙한 분포의 탈모와 길이가 다양한 모발, 눈썹·속눈썹 침범은 반복적인 모발 뽑기인 발모광을 시사한다. 제시된 치료 중 습관반전훈련을 포함한 CBT가 적절하다. 스트레스가 악화 요인일 수 있지만 모든 원인이 스트레스나 강박장애로 확정된다는 뜻은 아니며 두피 질환 등도 감별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001243
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 발모광을 스트레스·강박이 확정 원인인 것으로 설명한 문구를 반복 모발 뽑기와 습관반전 행동치료로 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

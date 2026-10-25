@@ -19,13 +19,15 @@ question_type: other
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 검사가 필요하지 않음
 
 ## 해설
 
+임신 중에는 혈장량 증가가 적혈구량 증가보다 커서 혈색소와 헤마토크릿이 낮아질 수 있다. ACOG의 임신 2분기 빈혈 기준은 Hb 10.5 g/dL 미만 또는 Hct 32% 미만이며, 제시된 Hb 11.1 g/dL와 Hct 32%는 이 기준 미만이 아니다. MCV도 정상이고 다른 이상·위험 단서가 없어 선택지 중 D처럼 추가 원인검사 없이 통상 산전 추적을 지속할 수 있다. 망상적혈구 수치 하나만으로 모든 소견이 생리적이라고 단정하지 않으며, 피로가 악화되거나 빈혈·영양결핍이 의심되면 재평가한다.
 
-임신 중 혈색소 11.1 g/dL, MCV 90 fL, 망상적혈구 0.2%는 생리적 빈혈이며, 추가 검사가 필요하지 않다. 따라서 검사가 필요하지 않음이 정답이다. 다른 혈청 검사는 불필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 16주 Hb11.1/Hct32는 ACOG2분기 빈혈기준 미만 아님. 망상적혈구 저하까지 생리적빈혈로 일괄단정한 해설 완화, D는 제시된 상황에 한정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10727057/
 
 ## 출처
 

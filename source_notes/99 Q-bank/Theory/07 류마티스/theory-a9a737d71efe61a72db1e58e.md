@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "제한형 SSc와 anti-centromere의 연관은 항체-표현형의 기본 이론으로 유지. 동일 target의 반복 문항은 보류."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgnnnjzxwty2zuk3wxv3n0lxa0wtewdot3lmb0necxnym3rtwlrzchawz0tgtjvjm1jsyldsaklgtmpir1z5yjnocgn5a3viv1f8zglzzwfzzs0wmy1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ D. Anti‑dsDNA
 
 ## 오답 포인트
 
-- **B. Anti-topoisomerase I (Scl‑70):** Scl‑70은 주로 확산형에 관련된다.
+- **Anti-topoisomerase I (Scl‑70):** Scl‑70은 주로 확산형에 관련된다.
 
 ## 출처
 
 - 내부 학습 노트: 전신 경화증 (Systemic Sclerosis)
 - 원본 경로: `source_notes/02 Diseases/07 류마티스/전신 경화증 (Systemic Sclerosis).md`
 - 학습 목표: 원문 핵심: - 자가항체: ANA 양성(대부분), Anti-centromere(Limited SSc), Anti-topoisomerase I(Scl-70) 및 Anti-RNA polymerase III(Diffuse SSc) - 선별검사: 손톱주름 모세혈관경(Nailfold capillaroscopy)을 통해 이차성 레이노 현상 확인, 폐 기능 검사 및 HRCT, 심초음파를 통한 폐/심장 침범 확인
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 제한형 SSc와 anti-centromere의 연관은 항체-표현형의 기본 이론으로 유지. 동일 target의 반복 문항은 보류.

@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 선행 연쇄상구균 감염으로 유발된 면역매개 심장 염증
 
 
 바이러스 매개 심근염은 최근 감기와 같은 바이러스 감염 후 면역 반응이 활성화되어 심근에 염증을 일으키고, 확장성 심근병증으로 진행될 수 있다. 환자는 감기 후 급성 심부전 증상을 보이므로 바이러스 매개 염증이 가장 가능성 높은 기전이다
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 최근 바이러스성 질환 뒤 전반적 좌심실 운동저하·확장·심근효소 상승은 심근염의 면역 염증 B를 지지.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 클린다마이신 정맥주사
 ## 해설
 
 
-수술 부위 주변에 자주색 변색, 심한 통증, 바스락거리는 소리, 고열·저혈압·백혈구 증가 등은 급성 괴사성 근막염을 시사한다. 이 경우 즉각적인 외과적 변연절제가 생명을 구한다. 따라서 가장 적절한 다음 단계는 외과적 변연절제이다.
+수술 다음 날 고열·쇼크와 절개 주위 자주색 변화, 심한 통증·염발음은 괴사성 연조직 감염 또는 근괴사를 강하게 시사한다. 즉시 수술적 탐색·변연절제(C)로 감염원을 제어해야 하며 영상검사를 기다리며 지연하지 않는다. 동시에 패혈증 소생, 배양과 광범위 정맥 항생제를 시작한다. 클린다마이신은 특정 독소 생성 감염에서 병용할 수 있으나 단독 투여가 수술과 광범위 항생제를 대체하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001445 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 괴사성 수술부위 감염의 긴급 변연절제 C를 유지하고 항생제 단독치료로 오해하지 않도록 병행 처치를 명시했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

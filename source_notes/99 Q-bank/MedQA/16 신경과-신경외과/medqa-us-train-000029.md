@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 측두동맥 생검(Temporal artery biopsy)
 
 ## 해설
 
+복시·안검하수와 확대되고 빛반응이 둔한 동공은 압박성 제3뇌신경마비를 의심하게 한다. 특히 후교통동맥 동맥류 등 혈관성 원인을 신속히 평가하기 위해 선지 중 뇌 MRA(C)가 적절하다. 현재 정면사진은 없지만 동공침범과 안검하수 정보로 검사를 판단할 수 있으며, 안압/안저검사만으로 동맥류를 배제해서는 안 된다.
 
-동공 저하와 안구운동 마비를 동반한 일측성 안구하수체 마비는 동맥류 압박을 의심하게 하며, 뇌혈관 기형을 확인하기 위해 MR 혈관조영술이 가장 적절한 검사이다. 안압 측정이나 안저검사는 이 경우 진단에 도움이 되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 안구하수체마비라는 오역을 동공침범 제3뇌신경마비로 정정. MRA C 유지.
+- 공식/학회 근거: https://www.ninds.nih.gov/health-information/disorders/cerebral-aneurysms
 
 ## 출처
 

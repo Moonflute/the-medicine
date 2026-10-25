@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 백혈구 부착
 ## 해설
 
 
-반복 호흡기 감염, 구강 칸디다증, 성장 지연은 중증 복합 면역결핍을 시사한다. SCID는 T세포 결핍이 핵심이며, B세포는 보조적으로 감소한다. 따라서 T세포 결핍이 가장 가능성 높은 결함이다.
+반복 바이러스·진균 감염, 만성 설사와 성장장애에 특징적인 안면기형이 동반되어 DiGeorge 증후군 같은 흉선 발달장애에 의한 T세포 결핍 B가 가장 부합한다. T세포 기능 저하는 항체 반응에도 영향을 줄 수 있으나 이 사례를 곧바로 B·T 세포 모두의 중증 복합면역결핍이라고 확정하는 것은 적절하지 않다. 칼슘, 심장 기형과 22q11.2 결실 등 추가 평가로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001837 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 특징적 안면기형을 무시하고 SCID를 진단한 해설을 DiGeorge/흉선 저형성에 따른 T세포 결핍으로 교체.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

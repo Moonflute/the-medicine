@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 복부 초음파에서 명치의 올리브 모양 종괴
 
 ## 해설
 
+미숙아의 수유 중 복부 팽만, 담즙성 구토·혈변, 기면·저체온과 대사성 산증은 괴사성 장염을 시사한다. 장벽 내 가스(pneumatosis intestinalis, C)가 특징적 영상 소견이다. 본문 혈압 80/40 mmHg를 근거 없이 저혈압이라고 바꾸거나 장벽 가스의 명칭을 폐쇄성 장관염으로 쓰면 안 된다.
 
-미숙아에서 복부 X선에 장벽 내 가스(폐쇄성 장관염)를 보이는 것이 괴사성 장염(NEC)의 특징이다. 환자는 저체온, 저혈압, 복부 팽만, 혈액성 설사와 대사성 산증을 보여 NEC를 강하게 시사한다. 따라서 장벽 내 가스가 가장 가능성 높은 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: pneumatosis intestinalis를 폐쇄성 장관염이라고 잘못 이름 붙인 오류와 본문에 없는 저혈압을 제거했다.
+
 
 ## 출처
 

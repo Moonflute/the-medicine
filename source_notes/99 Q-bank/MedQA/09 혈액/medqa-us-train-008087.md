@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 혈액투석
 ## 해설
 
 
-HUS는 급성 신부전, 용혈성 빈혈, 혈소판 감소를 동반한다. 혈액투석은 신기능 회복이 불가능할 때 필수적인 치료이다. 따라서 가장 적절한 처치는 혈액투석이다.
+미세혈관성 용혈·혈소판감소·신손상은 HUS에 부합한다. 핍뇨와 pH7.0의 심한 산염기 이상은 신장 전문팀의 긴급 평가와 교정을 필요로 하며 선택지 D의 신대체요법이 가장 적절하다. 투석은 생명위협성/치료 불응 산염기·전해질·체액 문제에 시행하며 신장이 영구 회복 불가능하다는 판정을 기다리는 치료가 아니다. 회복되면 중단할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008087 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: pH7.0·핍뇨 HUS의 투석 D 유지;신기능 회복 불가능할 때만 투석한다는 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf
 
 ## 출처
 

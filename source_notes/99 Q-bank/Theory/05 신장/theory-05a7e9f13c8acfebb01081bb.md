@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-ujqO2RuOyKpCDsvantjKXsl7wgKEx1cHVzIE5lcGhyaXRpcykubWQ"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "루푸스 콩팥염을 이해하는 대표 면역복합체 침착 패턴을 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,10 @@ D. IgM와 C1q만 양성
 
 ## 오답 포인트
 
-- **C. IgA와 C3만 양성:** IgA와 C3만 양성인 패턴은 IgA 신병증에 더 흔하다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: 루푸스 콩팥염 (Lupus Nephritis)
 - 원본 경로: `source_notes/02 Diseases/05 신장/루푸스 콩팥염 (Lupus Nephritis).md`
-- 학습 목표: 원문 핵심: - **진단 검사** - 소변검사(단백뇨, 혈뇨, 원주), 혈청 크레아티닌, eGFR, 항-dsDNA, 보체(C3, C4) 농도 측정. - **조직 검사 (Renal Biopsy) - 확진 및 분류(Class I~VI)를 위해 필수적. - IF: Full house pattern (IgG, IgA, IgM, C3, C1q 양성). - LM/EM: 분류에 따라 메산지움 증식, 내피세포 증식, 기저막 비후, 초승달 형성 등 관찰.
+- 학습 목표: 루푸스 콩팥염의 full-house 면역형광

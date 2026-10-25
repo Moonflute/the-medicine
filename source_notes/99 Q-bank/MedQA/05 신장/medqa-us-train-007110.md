@@ -18,13 +18,13 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA
 question_type: management
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,11 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k
+curation_status: "revised"
+curation_reason: "미제시 저나트륨혈증을 삭제하고 장 세척의 절대 무효라는 오류 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -51,10 +56,20 @@ D. 정맥 단트롤렌
 
 ## 해설
 
-
-리튬 중독은 신경학적 증상과 저나트륨 혈증을 동반하며, 혈액투석이 가장 효과적인 해독 방법이다. 위장관 세척은 리튬 흡수를 막지 못하고, 디아제팜·단트롤렌은 증상을 완화하지 않는다. 따라서 혈액투석이 가장 적절한 치료이다
+Lithium 복용 중 탈수·GI 증상과 거친 떨림·구음장애·의식 저하는 중증 lithium 독성을 의심하게 한다. 의식 저하는 EXTRIP의 체외 제거 적응증이며 선택지 중 혈액투석이 적합하다. Lithium 중단·수액 및 농도/신기능 감시를 병행한다. 장 전체 세척은 일부 급성 서방형 과량 섭취에서 고려할 수 있지만 이미 발생한 만성 독성의 체내 lithium 제거를 대신하지 못한다. 본문에 Na 수치는 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007110
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 미제시 저나트륨혈증을 삭제하고 장 세척의 절대 무효라는 오류 수정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4422246/

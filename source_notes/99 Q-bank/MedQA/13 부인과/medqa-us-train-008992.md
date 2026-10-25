@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 3년 후 자궁경부 세포검사 반복
 
 ## 해설
 
+25세 미만의 LSIL은 1년 후 세포검사로 추적한다(C). 2년 지속되는 저등급 이상이나 고등급 소견이 생기면 질확대경이 필요하다. 모든 연령의 LSIL이 같은 경로인 것은 아니다.
 
-LSIL(저등급 상피내 병변)은 12개월 이내에 자연 회복 가능성이 높아 추적 Pap 검사를 1년 후에 시행한다. 따라서 12개월 후 재검사가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 24세 LSIL 12개월 세포검사 C 유지. 연령별 보존적 경로임을 명시.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
 
 ## 출처
 

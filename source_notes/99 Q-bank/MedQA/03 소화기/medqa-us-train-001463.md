@@ -21,13 +21,15 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,16 @@ D. 비타민 보충
 
 ## 해설
 
+AST가 ALT보다 약 2배 높고 대적혈구증이 있으며 심장·간의 알코올 관련 손상을 의심하게 하는 체액 저류 소견이 있어, 보기 중 원인 교정에 해당하는 A, 금주가 출제 의도에 가장 합당하다.
 
-알코올성 간질환 환자에게는 금주가 간 손상 진행을 멈추고 회복을 촉진하는 가장 중요한 치료이다. 따라서 금주가 적절한 다음 관리 단계이다.
+그러나 이 검사 패턴만으로 음주력을 확정하거나 알코올성 간질환을 단정할 수는 없으므로 실제 음주력과 다른 원인을 확인해야 한다. 심한 운동능력 저하·폐수포음·부종은 심부전 등 급성 울혈 평가와 치료가 필요한 소견이며 금주 상담만으로 응급 처치를 대신하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. AST/ALT 패턴만으로 알코올성 간질환을 확진하고 금주만으로 급성 울혈 치료를 끝내는 듯한 설명을 보완.
+- https://www.aasld.org/practice-guidelines/alcohol-associated-liver-disease
 
 ## 출처
 

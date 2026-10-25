@@ -21,16 +21,18 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 횡문근융해증
 
 ## 해설
 
+선택지 중 아토르바스타틴과 관련된 비교적 흔한 검사 이상은 A의 경미한 간효소 상승이다. 횡문근융해증은 드물고, 홍조와 젖산산증은 전형적인 스타틴 부작용이 아니다. 다만 간효소 상승이 모든 이상반응 중 가장 흔하다거나, 경미한 상승이 곧 중증 간손상이라는 뜻은 아니다. 원문에 제시된 지질 수치 사이의 불일치나 실제 처방 적응증을 이 부작용 문항의 판정으로 승인하지 않는다.
 
-스타틴의 가장 흔한 부작용은 간효소(ALT/AST)의 경미한 상승이며, 이는 약물 복용 초기에서 흔히 관찰된다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 선지 중 간효소 상승 A를 스타틴 부작용 전체의 최빈 현상으로 일반화하지 않음.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65
 
 ## 출처
 

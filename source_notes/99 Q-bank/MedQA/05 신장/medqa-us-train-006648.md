@@ -17,17 +17,22 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: management
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA
+curation_status: "revised"
+curation_reason: "초여과 중단이 핵심이며 혈류량 감소를 일률 필수로 가르치지 않도록 A의 부수 조작을 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -38,17 +43,27 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 초여과를 중단하고 투석기로 들어가는 혈류를 감소
+A. 초여과를 중단하고 혈압·순환 상태를 즉시 재평가
 B. 0.9% 생리식염수 1L 주입
 C. 정맥 칼슘 글루콘산 투여
 D. 농축 적혈구 1단위 수혈
 
 ## 해설
 
-
-투석 중 저혈압은 초여과가 과도하게 진행될 때 발생한다. 혈류를 감소시키고 초여과를 중단하면 혈압이 회복된다. 대량 수액·칼슘·수혈은 과도한 체액 부하나 다른 원인에 해당한다. 따라서 가장 적절한 처치는 초여과 중단 및 혈류 감소이다.
+투석 말기 저혈압에서는 우선 초여과를 중단하고 순환 상태와 원인을 평가한다. 다리 올리기와 상태에 맞는 소량 saline 보충 등이 필요할 수 있으며 일률적인 1L 투여나 수혈은 제시된 자료로 정당화되지 않는다. 혈류량 감소만으로 저혈압이 반드시 회복된다고 설명하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006648
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 초여과 중단이 핵심이며 혈류량 감소를 일률 필수로 가르치지 않도록 A의 부수 조작을 수정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6798406/

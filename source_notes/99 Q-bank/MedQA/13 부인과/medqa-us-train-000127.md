@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 다산(Multiple pregnancies)
 
 ## 해설
 
+보기 중 다산(D)은 유방암의 장기 위험 감소와 관련된다. 임신에 따른 월경 주기 감소와 유방세포 분화 등이 관련되며, 모든 연령·출산 직후 시기의 위험이 일률적으로 낮아진다는 뜻은 아니다. 이 환자는 모두 분유 수유를 했으므로 수유의 별도 보호 효과를 실제 병력으로 부여할 수 없다. 폐경 후 비만이나 분유 수유가 보호 요인은 아니다.
 
-다산은 임신·수유 기간 동안 에스트로겐 노출을 감소시켜 유방암 위험을 낮춘다. 따라서 다산(다중 임신)이 유방암 위험 감소와 연관된다. (비만은 오히려 유방암 위험을 증가시킨다)
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 분유 수유한 환자에게 수유의 보호 효과를 사실상 부여한 설명을 분리하고 다산의 장기 위험 감소 연관성을 명확히 했다.
+- https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/reproductive-history-fact-sheet
 
 ## 출처
 

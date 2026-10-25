@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
   - ZHJ1ZzowOCDqsJDsl7wvSXZlcm1lY3Rpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 디클록사실린
 
 ## 해설
 
+야간 소양증과 손목·손가락 사이의 사행성 굴, 구진·수포는 옴에 합당하다. Permethrin 5% 국소제(A)는 권고되는 일차 치료이며 적절한 전신 도포가 중요하다. 한 번으로 치료될 수 있지만 약 1주 간격의 추가 도포가 필요할 수 있다. 경구 ivermectin도 유효한 대안이므로 무효한 선지로 배제하지 않는다. 접촉자 평가·동시 치료 및 재노출 관리도 필요하다.
 
-밤에 악화되는 전신 가려움과 손목·손가락 사이의 작은 딱지성 병변은 옴(진드기) 감염을 특징짓는다. 퍼메트린이 1회 국소 적용으로 가장 효과적인 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 옴의 permethrin A는 적절하나 단회가 항상 최선·충분이라는 과장을 교정하고 ivermectin도 유효한 대안임을 설명한다.
+- 공식/학회 근거: https://www.cdc.gov/scabies/hcp/clinical-care/index.html
 
 ## 출처
 

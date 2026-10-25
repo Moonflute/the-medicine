@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 로라타딘
 
 ## 해설
 
+정답은 C, 비강 내 스테로이드이다. 수개월 지속되는 콧물·재채기와 일상생활 장애는 알레르기비염을 시사하며, 발열·화농성 분비물·안면 통증 등 세균성 부비동염을 지지하는 소견은 없다. 삶의 질에 영향을 주는 지속 비염에서는 비강 내 스테로이드가 효과적인 초기 치료이다. 생리식염수는 보조적으로 쓸 수 있고 로라타딘 같은 2세대 항히스타민제도 선택지이지만, 제시된 지속적 생활장애를 고려하면 비강 스테로이드가 가장 적절하다. 아목시실린을 경험적으로 투여할 근거는 없다.
 
-건선 환자에서 관절통, 지염, 손톱 오목, 원위지간관절 미란 및 신생골 형성은 건선관절염의 전형적인 특징이다. 따라서 가장 잘 맞는 진단은 건선관절염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 건선관절염 해설은 완전히 다른 증례. 삶의 질을 저해하는 지속 알레르기비염의 비강 스테로이드 치료로 교체. C 유지.
+- 공식/학회 근거: https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/allergic-rhinitis/
 
 ## 출처
 

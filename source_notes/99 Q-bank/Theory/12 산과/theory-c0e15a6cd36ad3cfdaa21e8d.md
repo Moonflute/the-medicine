@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "홍역 3C·Koplik 복습 유지; 백색반점을 구순포진으로 임의 대응한 오답 설명 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ D. 저열, 기침, 인후통과 구강 내 물집
 
 ## 오답 포인트
 
-- **B. 저열, 발진, 림프절 비대와 구강 내 백색 반점:** 구강 내 백색 반점은 구순포진과 혼동될 수 있으나 홍역의 코플릭 반점과는 다름
+- **저열·림프절병증 중심:** 고열·기침·콧물·결막염과 Koplik 반점의 전형적 조합을 설명하지 못한다.
+- **관절통·구강물집 중심:** 홍역의 대표 전구기 조합과 다르며 백색점 하나로 병인을 단정하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 홍역 (Measles)
 - 원본 경로: `source_notes/02 Diseases/12 산과/홍역 (Measles).md`
-- 학습 목표: 원문 핵심: * **CC**: 고열, 기침, 콧물, 결막염(3C 증상). * **P/E**: - 전구기: 3C 증상과 함께 구강 내 코플릭 반점(Koplik spots)이 발진 1~2일 전 나타남. - 발진기: 귀 뒤와 얼굴에서 시작하여 몸통과 사지로 퍼지는 홍반성 구진상 발진.
+- 학습 목표: 홍역의 전구기·Koplik 반점
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 홍역 3C·Koplik 복습 유지; 백색반점을 구순포진으로 임의 대응한 오답 설명 제거.

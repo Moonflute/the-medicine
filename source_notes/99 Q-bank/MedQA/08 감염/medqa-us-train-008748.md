@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 메트로니다졸
 ## 해설
 
 
-대변에서 적혈구를 섭취하는 원생동물은 Entamoeba histolytica이며, 치료에 메트로니다졸이 1차 선택이다. 다른 약제는 효과가 없거나 적절치 않다. 따라서 메트로니다졸이 적절한 처치이다.
+혈성 설사와 적혈구를 포식한 영양형은 E. histolytica에 의한 침습성 장아메바증을 시사한다. 다음 단계는 조직 내 아메바에 작용하는 metronidazole(D)이며, 이후 paromomycin 같은 장내강 약제로 잔여 감염을 제거해야 한다. Paromomycin은 효과 없는 약이 아니라 필요한 후속 약제지만 침습성 장염의 단독 초기 치료로 충분하지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008748 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 적혈구를 포식한 아메바의 침습성 장염에서 metronidazole D 유지. Paromomycin이 효과 없다는 오류를 교정하고 뒤따를 장내강 약제를 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-diarrhea.html
 
 ## 출처
 

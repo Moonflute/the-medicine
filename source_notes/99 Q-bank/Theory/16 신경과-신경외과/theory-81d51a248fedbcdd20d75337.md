@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "편측성·전조를 필수로 과도하게 고정하지 않도록 정리."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-편두통의 전형적인 두통 양상은?
+편두통을 시사하는 전형적인 통증·동반 증상은?
 
 ## 선택지
 
-A. 일측성, 쑤시는, 박동성 두통으로 빛·소리·신체 활동에 악화된다
-B. 양측성, 지속적인 압박성 두통으로 누워 있을 때만 악화된다
-C. 전신성 두통으로 발열과 구역질을 동반한다
-D. 두통이 없고 오직 시각적 전조만 나타난다
+A. 중등도 이상의 발작적 통증이 일상 활동으로 악화하며 오심 또는 빛·소리 과민을 동반
+B. 모든 발작에 전조가 필수
+C. 항상 양측 띠 모양 경한 통증만 존재
+D. 목 통증이 조금이라도 있으면 편두통을 배제
 
 ## 해설
 
-편두통은 일측성, 박동성 두통이며, 빛·소리·신체 활동에 의해 악화되고 약 1/4에서 전조(aura)가 동반된다.
+편측 박동성 통증이 흔하지만 양측성일 수도 있고 전조가 없는 편두통도 많다. 새로운 국소 결손이나 벼락두통 같은 경고 소견은 별도로 평가한다.
 
 ## 오답 포인트
 
-- **B. 양측성, 지속적인 압박성 두통으로 누워 있을 때만 악화된다:** 압박성 두통은 주로 긴장성 두통의 특징이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 편두통 (Migraine)
 - 원본 경로: `source_notes/02 Diseases/16 신경과-신경외과/편두통 (Migraine).md`
-- 학습 목표: 원문 핵심: * **CC**: 일측성, 쑤시는, 박동성 양상의 두통. 악화 요인(빛, 소리, 신체 활동) 존재. 약 1/4의 환자에서 시각, 감각, 언어 장애 등의 전조(aura) 증상이 동반됨. * **P/E**: 신경학적 진찰은 대개 정상이나, 발작 중에는 안구진탕, 운동 실조 등이 관찰될 수 있음. 뇌간 전조를 동반한 편두통의 경우 현훈, 구음장애, 이명 등이 나타날 수 있음.
+- 학습 목표: 편두통의 발작적 통증과 동반 증상
+
+## 검수 근거
+
+- https://ichd-3.org/1-migraine/1-1-migraine-without-aura/

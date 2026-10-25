@@ -20,13 +20,15 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 심인성 원인
 
 ## 해설
 
+최근 운동과 연관 가능하고 촉진·심호흡으로 재현되는 흉벽통은 근골격계 염증 C에 부합한다. 장거리비행 등 위험과 경과도 고려하며 압통이나 정상 산소포화도만으로 PE를 완전히 배제하지 않는다. 이 문항은 원인기전을 묻는 것이므로 치료를 단정하는 대신 임상감별과 연결한다.
 
-운동 시 흉벽을 눌렀을 때 통증이 유발되는 것은 늑연골염(가슴연골염)으로, 비감염성 염증이므로 비스테로이드성 소염제가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 흉벽 압통의 근골격염증 C는 유지하되 촉진만으로 PE배제/치료약 확정하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

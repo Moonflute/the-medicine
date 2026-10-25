@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 태반 조기박리
 
 ## 해설
 
+42주 이상의 과숙임신에서는 태반 기능 저하와 태변 배출·흡인 위험이 증가한다. 태변흡인(C)은 기도 폐쇄, 화학성 폐렴 및 계면활성제 기능 저하로 신생아 호흡곤란을 유발할 수 있다. 흉막염이 주된 기전인 것은 아니다.
 
-과숙임신(≥42주)에서는 태변 흡인 위험이 크게 증가한다. 태변이 양수에 섞이면 신생아에게 흉막염·폐렴을 유발한다. 따라서 태변 흡인이 가장 위험한 합병증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태변흡인의 병태생리를 흉막염으로 설명한 오류 수정.
+
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 폐 격리증
 ## 해설
 
 
-HIV 감염자는 면역억제가 진행돼 폐렴을 일으키는 가장 흔한 원인은 일반적인 지역사회획득 폐렴이며, 흡인성 폐렴은 위·식도 역류 위험이 있는 경우에 주로 발생한다. 환자는 흡인 위험 요인이 없고, 방사선에서 국소 폐렴이 보이므로 지역사회획득 폐렴이 가장 가능성 높다.
+급성/아급성 가래 기침·발열과 국소 폐엽 경화에서 선택지 중 지역사회획득폐렴 B가 가장 부합한다. 지역사회획득은 발생 환경의 분류이지 HIV가 만드는 단일 병원체 이름이 아니다. 본문에는 CD4나 viral load가 없어 면역억제가 진행되었다고 확정하지 않는다. 실제 미생물 원인·기회감염 위험과 흡인 위험을 임상적으로 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004410 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 지역사회 폐엽성 폐렴 B 유지; CD4 불명 상태를 진행 면역억제로 단정한 설명 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

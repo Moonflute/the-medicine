@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 육아종 형성을 동반한 괴사성 혈관염
 
 ## 해설
 
+소세포폐암, 근위부 위약·구강건조·무반사와 반복 활동 후 근력 호전은 Lambert–Eaton 근무력증후군을 시사한다. 시냅스전 P/Q형 전압의존성 칼슘통로에 대한 자가항체가 칼슘 유입과 아세틸콜린 방출을 감소시키는 B가 기전이다. 반복 자극 후 잔류 칼슘이 누적되어 일시적인 근력·반사 호전이 나타날 수 있다. 활동 시 악화가 특징이라는 기존 설명은 중증근무력증의 피로성과 혼동한 것이다.
 
-소세포폐암과 연관된 Lambert‑Eaton myasthenic syndrome은 자가항체가 신경 말단에서 아세틸콜린 방출을 억제한다. 이는 활동 시 근력 악화가 특징이다. 따라서 자가항체에 의한 아세틸콜린 분비 억제가 가장 가능성 높은 기전이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Lambert–Eaton의 활동 후 근력 악화라는 반대 설명을 반복 활동 후 일시적 호전으로 수정했다. presynaptic VGCC 항체와 B를 명확히 연결한다.
 
 ## 출처
 

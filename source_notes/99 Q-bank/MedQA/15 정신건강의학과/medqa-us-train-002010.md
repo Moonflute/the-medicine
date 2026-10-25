@@ -19,23 +19,25 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-10세 아동이 학급 규칙을 따르지 않아 학교심리사에게 의뢰되었다. 8월 개학 이후 계속되었고 숙제를 하라고 하면 교사에게 화를 내며 일부러 수업을 방해하는 소리를 낸다. 아이는 교사와 반 친구들이 잘못했다고 말한다. 다음 중 가장 적절한 치료는 무엇인가?
+10세 아동이 학급 규칙을 따르지 않아 5월에 학교심리사에게 의뢰되었다. 8월 개학 이후 계속되었고 숙제를 하라고 하면 교사에게 화를 내며 일부러 수업을 방해하는 소리를 낸다. 아이는 교사와 반 친구들이 잘못했다고 말한다. 다음 중 가장 적절한 치료는 무엇인가?
 
 ## 선택지
 
@@ -53,3 +55,9 @@ D. 동기강화면담
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002010
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 영문 May 누락 복원해 8월~다음 5월의 반항성 행동 지속기간을 명확화. CBT 원정답 일치.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

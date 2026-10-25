@@ -19,22 +19,24 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQWRlbm9zaW5lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-생후 2개월 영아가 콧물과 기침으로 진료를 받으러 왔다. 반복되는 중이염과 습진성 피부염이 있고 심한 바이러스성 세기관지염으로 두 번 입원한 병력이 있다. 식욕은 좋지만 간헐적인 비혈성 설사가 있으며 체중은 20백분위수이다. 피부에 광범위한 건조·홍반성 반점, 화농성 점액성 콧물과 콧구멍 딱지가 있고 혀에는 쉽게 벗겨지는 두꺼운 흰색 막이 덮여 있다. 가장 가능성 높은 원인은?
+생후 2개월 영아가 콧물과 기침으로 진료를 받으러 왔다. 반복되는 중이염과 습진성 피부염이 있고 심한 바이러스성 세기관지염으로 두 번 입원한 병력이 있다. 식욕은 좋지만 간헐적인 비혈성 설사가 있으며 체중은 20백분위수이다. 피부에 광범위한 건조·홍반성 반점, 화농성 점액성 콧물과 콧구멍 딱지가 있고 혀에는 쉽게 벗겨지는 두꺼운 흰색 막이 덮여 있다. 혈소판은 280,000/mm³, 백혈구는 7,500/mm³이고 그중 림프구는 2,000/mm³이며 혈청 칼슘은 9.2 mg/dL이다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -47,6 +49,12 @@ D. WAS 유전자 돌연변이
 
 
 아데노신 탈아미노효소 결핍은 중증 복합면역결핍을 일으켜 반복적인 바이러스·세균·진균 감염과 피부 건조·발진을 초래한다. 따라서 정답은 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ADA 결핍과 다른 면역결핍을 감별하는 원문 혈구·칼슘 정보가 번역에서 통째로 빠져 핵심 값을 복원했다.
+
 
 ## 출처
 

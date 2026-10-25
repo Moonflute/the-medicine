@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 복부 산통
 ## 해설
 
 
-내인자 항체에 의한 악성빈혈(자기면역성 용혈성 빈혈)은 갑상선 기능저하(갑상선염)와 동반되는 경우가 많다. 따라서 혈청 TSH 상승이 추가 소견으로 가장 흔히 나타난다.
+거대적아구성 빈혈과 내인자 항체는 자가면역 위염에 따른 B12 흡수장애, 즉 악성빈혈을 시사한다. 이는 자가면역 갑상선질환과 동반될 수 있어 선택지 중 TSH 상승(A)이 적절하다. 악성빈혈은 적혈구를 항체로 직접 파괴하는 자가면역 용혈성 빈혈과 동일한 질환이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009872 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 내인자 항체 악성빈혈과 자가면역 갑상선질환/TSH↑ A 연결 유지. 악성빈혈을 자가면역 용혈빈혈과 동일시한 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

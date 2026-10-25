@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 항문 주위를 긁은 후 충란 섭취
 
 
 신경낭충증은 인간 대변에 포함된 알(인간 배설물) 섭취가 원인으로, 감염의 직접 원인은 사람 분변의 충란 섭취이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008274 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 발작·망막하 낭종·고리 병변은 낭미충증이며 사람 분변의 T. solium 충란 섭취 C. 돼지고기 낭미충 섭취에 의한 장내 조충증과 구분해 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

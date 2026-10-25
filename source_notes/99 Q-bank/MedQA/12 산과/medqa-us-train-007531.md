@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 자궁경부 세포검사 반복
 
 ## 해설
 
+HSIL에서 침윤암 배제를 위해 임신 중 질확대경검사 및 필요한 병변 생검(B)을 시행한다. 경험 있는 검사자가 평가하며 임신 중 자궁경부관 소파술은 하지 않는다. 암이 의심되지 않는 한 신속 절제치료/LEEP를 일률 시행하지 않고 추적한다.
 
-임신 8주 차에 고등급 편평상피내병변(HGSIL)이 발견되면 즉시 질확대경 검사를 통해 병변을 시각화하고 조직을 채취해야 한다. 임신 중에도 진단적 생검은 안전하며, 치료 결정에 필수적이다. 따라서 가장 적절한 단계는 지금 질확대경 검사와 생검이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 중 HSIL의 질확대경·적응증별 생검 및 치료 제한 보강.
+- https://www.asccp.org/wp-content/uploads/2025/09/ASCCP_Management-of-Abnormal-Cervical-Cancer-Screening-Tests-in-Pregnancy.pdf
 
 ## 출처
 

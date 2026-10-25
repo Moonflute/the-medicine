@@ -22,13 +22,15 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 관상 선종성 용종
 
 ## 해설
 
+선종의 융모성 성분은 관상 성분보다 악성화 위험이 높으므로 제시된 선택지 중 B가 적합하다. 실제 위험에는 크기, 이형성 등급, 절제 상태도 관련된다. 모든 융모선종이 이미 출혈성 암의 모양을 보인다는 뜻은 아니며, 다른 톱니 병변의 분류와 위험도는 별도로 평가한다.
 
-대장암 위험을 크게 높이는 용종은 융모성 선종성 용종(전암성)이다. 이는 고형성, 불규칙한 경계, 출혈을 동반한 대장암 전구 병변이다. 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Villous adenoma B의악성위험을이미발생한암의모양과혼동한설명교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

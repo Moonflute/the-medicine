@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "내인성 시계·외부 일정 불일치라는 독립 기전으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 수면 단계 전이 이상으로 인한 장애
 
 - 내부 학습 노트: 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder).md`
-- 학습 목표: 원문 핵심: - 정의: 내인성 일주기 리듬과 외부 환경(사회적 요구, 명암 주기) 간의 불일치로 발생하는 수면-각성 장애. - 주요 유형: 지연 수면-각성 위상 장애, 선행 수면-각성 위상 장애, 불규칙적 수면-각성 리듬 장애, 비-24시간 수면-각성 리듬 장애, 교대 근무 장애, 시차 장애. - 핵심 기전: 시교차상핵(SCN)의 기능 이상 및 외부 시간 단서(zeitgebers, 주로 빛)와의 동기화 실패.
+- 학습 목표: 일주기 리듬과 환경 시간의 불일치
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 내인성 시계·외부 일정 불일치라는 독립 기전으로 유지.

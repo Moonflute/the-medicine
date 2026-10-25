@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. TSH 감소와 T4 증가
 
 ## 해설
 
+항TPO 항체 양성은 자가면역 갑상선질환의 위험을 시사하지만, 갑상선 기능이 정상인 사람에서도 나타날 수 있다. 전형적인 기능저하 증상이나 소견이 없으므로 제시된 선택지 중 TSH와 T4가 정상인 B가 합리적이다. 실제 기능은 TSH와 유리 T4로 평가하며, 항체만으로 기능저하증을 확진하지 않는다.
 
-항갑상선 과산화효소 항체 양성은 하시모토 갑상선염을 의미하지만 대부분 무증상이며 TSH와 T4가 정상인 경우가 흔하다. 따라서 TSH 정상·T4 정상이 가장 가능성 높은 검사 결과이다
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 항TPO양성만으로현재갑상선저하/확진Hashimoto라고단정한설명 한정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 태반조기박리
 
 ## 해설
 
+반복 제왕절개 병력, 분리되지 않는 태반, 수동 분리 시 심한 출혈은 유착태반 스펙트럼을 시사한다. 자궁이 단단하므로 자궁이완에 의한 출혈보다 비정상적인 태반 부착이 더 적절하다. 정답 C의 유착태반은 태반이 자궁벽에 비정상적으로 부착된 상태로, 태반이 자궁경부 내구를 덮는 위치 이상인 전치태반과 같은 용어가 아니다.
 
-다음 분만에서 태반이 정상적으로 배출되지 않고 자궁 저부가 단단하며 출혈이 지속되는 경우, 태반이 자궁벽에 부착된 유착태반(전치태반) 가능성이 높다. 이는 이전 제왕절개와 연관된다. 따라서 가장 가능성 높은 진단은 유착태반이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 유착태반과 전치태반을 동의어로 쓴 오류를 교정하고 제왕절개 반흔·태반 분리 곤란·견고한 자궁 단서를 연결했다.
+
 
 ## 출처
 

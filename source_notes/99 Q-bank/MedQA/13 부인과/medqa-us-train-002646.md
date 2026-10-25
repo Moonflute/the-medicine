@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 성염색체 관련 비배수성 위험 증가를 의미한다
 
 ## 해설
 
+AFP와 비포합 에스트리올(uE3)이 낮고 β-hCG와 인히빈 A가 높은 쿼드검사 패턴은 21번 삼염색체증 위험 증가와 관련된다. 산모 연령은 이 위험에 기여하므로 B가 적절하다. 이는 선별검사이지 확진이 아니며 연령 35세에서 위험이 갑자기 이분법적으로 바뀌거나 그 이상에서는 이 패턴이 정상이라는 뜻도 아니다.
 
-쿼드 스크리닝에서 AFP와 비에스트라디올 감소, β‑hCG와 inhibin A 상승은 다운 증후군 위험을 나타내며, 모체의 고령(≥35세)은 위험을 크게 높이는 중요한 요인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 쿼드검사의 비포합 에스트리올을 에스트라디올로 잘못 쓴 해설을 교정했다.
+
 
 ## 출처
 

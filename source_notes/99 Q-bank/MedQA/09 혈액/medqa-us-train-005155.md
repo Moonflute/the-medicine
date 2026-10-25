@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 전신홍반루푸스
 
 
 피로, 기억력 저하, 근육·관절통, 변비와 함께 미세소구성 빈혈(저MCV)과 고혈압이 동반된 경우, 납 등 중금속 노출이 흔한 원인이다. 중금속은 신경·근육 증상을 일으키며 빈혈을 유발한다. 따라서 중금속 노출이 가장 가능성 높은 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005155 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 신경인지·변비·고혈압과 소구성 빈혈의 조합에서 선택지 중 납 등 중금속 노출 B가 가장 합당함을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

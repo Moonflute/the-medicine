@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 심폐소생술
 
 ## 해설
 
+심한 안면·경부 손상과 계속 차오르는 출혈 때문에 직접 후두경으로 기도에 접근하지 못한 상황이다. 기도 소실과 흡인의 위험이 크므로 제시된 선택지 중 응급 전경부 기도 확보인 윤상갑상막절개술(B)이 적절하다. 현재 산소포화도가 97%라는 사실이 계속되는 기도 위협을 없애지는 않는다. 일반적으로 한 번의 삽관 실패만으로 항상 시행하는 술기는 아니며, 이 사례의 해부학적 손상과 지속 출혈을 함께 고려한다.
 
-상기도 손상으로 인한 급성 기도 폐쇄 시, 기관내삽관이 불가능하면 빠른 크루소트미(기관후두절개술)가 표준이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 윤상갑상막절개술의 잘못된 번역명을 교정한다. 계속 차오르는 혈액과 심한 안면·경부 손상으로 경구 기도 접근이 실패한 B의 맥락을 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

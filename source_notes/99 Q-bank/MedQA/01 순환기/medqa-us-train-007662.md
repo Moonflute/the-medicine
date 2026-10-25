@@ -20,11 +20,11 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 대동맥판막 치환술
 
 ## 해설
 
+일과성 신경학적 결손과 심전도로 확인된 심방세동은 심장성 색전을 시사하므로 항응고 치료가 필요하다. 제시된 선택지 중 B의 와파린이 적합하다. 다만 기계판막이나 중등도 이상 류마티스성 승모판 협착 등의 예외가 없는 심방세동에서는 일반적으로 DOAC가 선호되므로, 와파린이 모든 환자의 유일한 우선약이라는 뜻은 아니다.
 
-불규칙 맥박과 P파 소실은 심방세동을 의미하며, 이 경우 혈전 색전증 예방을 위해 와파린을 사용한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: TIA와 심전도로 확인된 AF에는 항응고가 필요하나 모든 환자의 현행 우선약이 와파린인 것은 아님.
+- https://www.jacc.org/doi/10.1016/j.jacc.2023.08.017
 
 ## 출처
 

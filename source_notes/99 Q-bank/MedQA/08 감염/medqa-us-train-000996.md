@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. 혈장교환술(plasmapheresis)
 ## 해설
 
 
-항체와 외래 단백질 복합체가 혈관벽에 침착되어 두드러기·발진·발열을 일으키는 혈청병증은 7–10일 후에 발생한다. 증상이 경미하고 호흡기·심혈관계 이상이 없으므로 항히스타민제와 함께 스테로이드 감량이 적절하다.
+항독소라는 이종 단백 노출 뒤 발열, 전신 발진과 다발관절통이 나타나 혈청병을 의심한다. 40°C 고열과 보행을 제한하는 관절통은 경증으로 볼 수 없으며, 중증 증상에는 항히스타민제와 전신 glucocorticoid를 고려할 수 있어 A가 보기 중 적절하다. 첫 노출 후 전형적 발현은 1–2주로, 본문의 3일은 비전형적으로 빠르며 재노출 여부 및 감염 등 다른 원인도 평가해야 한다. 호흡기·순환기 이상이 없다는 이유만으로 전신 증상의 중증도를 낮추지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000996 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 40°C 고열·보행제한 관절통을 경증으로 설명한 오류 교정; 원문의 3일 발현은 전형적 첫 노출보다 빠름을 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_%28SSLRs%29/
 
 ## 출처
 

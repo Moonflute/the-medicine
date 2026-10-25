@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 칼라민 로션(Calamine lotion)
 
 ## 해설
 
+여러 단계의 가려운 수포·가피가 두피까지 퍼진 양상은 수두에 합당하다. 건강한 소아의 비합병 수두에서는 칼라민 로션(D) 등 가려움 완화가 적절하다. 두피는 점막이 아니며 고위험·중증 감염에서는 항바이러스제 필요성을 따로 평가한다.
 
-전신에 수포와 가피가 동반된 발진, 발열, 두피까지 퍼진 점막은 수두(varicella)의 전형적인 임상양상이다. 수두는 대증 치료가 주가 되며, 가려움 완화를 위해 칼라민 로션을 적용한다. 따라서 다음 단계는 칼라민 로션 사용이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 건강한 6세 수두의 증상 완화 D 유지. 두피를 점막으로 둔 표현 교정.
+- https://www.cdc.gov/chickenpox/treatment/index.html
 
 ## 출처
 

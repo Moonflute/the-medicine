@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -52,6 +54,13 @@ D. 스피로놀락톤
 
 
 급성 관상동맥 증후군 치료 후 이중 항혈소판 요법이 권장되며, 이미 아스피린을 복용하고 있으므로 클로피도그렐을 추가하면 혈전 형성을 억제한다. 따라서 클로피도그렐을 추가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: troponin 양성 ACS의 PCI 후 aspirin에 추가하는 선택지는 C clopidogrel. 보존 EF만으로 spironolactone 적응증이 되지 않음.
+- https://www.ahajournals.org/hyp/doi/pdf/10.1161/CIR.0000000000001309
 
 ## 출처
 

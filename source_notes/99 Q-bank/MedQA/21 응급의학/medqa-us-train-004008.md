@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 요폐
 
 ## 해설
 
+혼돈·산동·빈맥·따뜻하고 붉으며 건조한 피부는 항무스카린성 독성을 시사한다. 방광 배뇨근의 muscarinic 작용 차단으로 요폐(D)가 나타날 수 있다. 장운동 저하에 따른 장폐색/변비는 별개의 효과다. QRS 연장은 일부 TCA 등의 동시 sodium-channel 차단에서 가능하지만 모든 항무스카린 중독에 필수인 소견은 아니다.
 
-환자는 따뜻하고 홍조가 있는 피부, 확동된 동공, 빈맥 등 항콜린성 독성의 전형적인 징후를 보이며, 항콜린성 중독에서는 장관 운동 억제로 요폐가 흔히 발생한다. 따라서 추가로 요폐가 나타날 가능성이 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 항콜린성 요폐의 기전을 장관운동 억제로 설명한 오류 교정.
 
 ## 출처
 

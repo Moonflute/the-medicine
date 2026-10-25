@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 생식능력 저하
 
 ## 해설
 
+사춘기 남아의 볼거리는 고환염과 고환 위축·생식능력 저하(D)를 일으킬 수 있다. 이는 보기 중 관련된 합병증이지만 영구적 불임이 흔하거나 반드시 생긴다는 뜻은 아니다. CDC는 볼거리 고환염 후 불임과의 확정적 연관은 입증되지 않았고 hypofertility 가능성을 구분한다.
 
-유행성 이하선염(볼거리) 후 가장 위험한 합병증은 고환염(Orchitis)으로, 이는 영구적인 불임을 초래할 수 있다. 다른 선택지는 흔히 발생하지 않는다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 볼거리 고환염이 영구 불임을 흔히 초래한다는 과장을 생식능력 감소 가능성으로 교정.
+- https://www.cdc.gov/mumps/hcp/clinical-signs/
 
 ## 출처
 

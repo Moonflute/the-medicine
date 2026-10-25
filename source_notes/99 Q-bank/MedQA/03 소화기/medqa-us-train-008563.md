@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 오메프라졸 시험 치료
 ## 해설
 
 
-연하곤란과 흉통, 체중 감소, 고혈압 및 흡연력은 식도암 위험 요인이며, 진단을 확정하기 위해 내시경 검사가 가장 직접적이다. 바륨 삼킴검사는 식도 협착 확인에, 식도 내압검사는 운동 장애 평가에, 오메프라졸 시험 치료는 GERD에 사용된다.
+진행성 연하곤란과 체중감소는 경고증상이므로 단순 PPI 시험보다 상부내시경(B)으로 협착·종양·점막병변을 평가한다. GERD에 의한 소화성 협착도 가능하고 암은 감별진단이다. 고혈압 자체를 이 사례의 식도암 진단 근거로 삼지 않는다. 내압검사는 기계적·점막 원인 평가 뒤 운동장애가 의심될 때 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008563 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 진행성 연하곤란·체중감소의 EGD B 유지. 고혈압을 식도암 주요 위험인자로 묶거나 암을 이미 확정한 표현 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.asge.org/home/resources/publications/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-diagnosis-and-management-of-gerd--summary-and-recommendations
 
 ## 출처
 

@@ -19,15 +19,17 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9idXRhbWluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 즉시 심장 카테터 삽입
 
 ## 해설
 
+정답은 C이다. MI6일 후 쇼크·실신과 상당한 심낭삼출은 좌심실 자유벽 파열에 의한 혈심낭/압전을 우려하게 해 즉각적인 외과 평가·복구가 필요하다. IABP나 도부타민만으로 파열을 치료할 수 없다. 저음성 잡음이 자유벽 파열의 특징이라는 뜻은 아니며 심첨부 범수축기잡음은 다른 기계적 합병증의 동반 가능성도 함께 평가한다.
 
-STEMI 후 심벽 파열은 급성 심낭삼출·심장압전으로 이어진다. 혈압 저하와 저음성 잡음이 특징이며 초음파에서 심낭삼출이 확인된다. 즉시 수술실로 이송해 외과적 복구가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: MI후 free-wall rupture/hemopericardium에서 저음성잡음이 특징이라는 근거 없는 문장 제거.
+- https://www.ahajournals.org/hyp/doi/pdf/10.1161/CIR.0000000000001309
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 프레드니손(Prednisone)
 ## 해설
 
 
-다혈구증과 혈소판 증가를 동반한 골수 증식성 질환은 본태성 혈소판증이다. 치료에 하이드록시우레아가 가장 효과적인 세포증식 억제제이다. 따라서 다음 치료는 하이드록시우레아이다.
+Hct64%에 백혈구·혈소판증가, 수성 소양증·홍색사지통증과 혈전 병력은 진성적혈구증가증(PV)을 강하게 시사한다. 60세 이상이고 DVT 병력이 있어 혈전 고위험군이며, 제시된 선택지 중 hydroxyurea(B)가 적절한 세포감소 치료이다. 실제 진단은 JAK2·EPO·골수 등으로 확인하며 Hct 조절을 위한 사혈, 항혈전 치료와 출혈위험 평가도 함께 계획한다. 이것을 단순히 본태성혈소판증으로 설명하거나 hydroxyurea만으로 모든 처치가 끝난다고 해석하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000807 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 진성적혈구증가증을 본태성혈소판증으로 오진한 해설을 교체하고 고위험 PV 치료 범위를 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/myeloproliferative/hp/myeloproliferative-neoplasms-treatment
 
 ## 출처
 

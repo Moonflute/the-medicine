@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 대혈관 전위
 
 ## 해설
 
+다운증후군과 십이지장 폐쇄증이 함께 있는 신생아에서 흔히 연관되는 심장 기형은 방실중격결손(AVSD, A)이다. 심내막융기의 형성 이상과 연관되며, 이를 단순 심실중격결손(VSD)과 동일하게 표기하지 않는다.
 
-다운증후군(삼염색체 21)에서 가장 흔한 심장 기형은 방실중격결손(VSD)이다. 환자의 특징적인 안면형태와 손발 특징이 다운증후군을 시사한다. 따라서 관련된 심장 기형은 방실중격결손이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 완전 방실중격결손을 VSD로 표기한 해설 오기 교정.
+
 
 ## 출처
 

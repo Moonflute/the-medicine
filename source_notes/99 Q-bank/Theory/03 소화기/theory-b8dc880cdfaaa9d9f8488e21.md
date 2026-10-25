@@ -12,40 +12,52 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tla3rrLjsp4HsnqUg64aN7JaRIChBbm9yZWN0YWwgQWJzY2VzcykubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "혼합 세균 명칭보다 농양에서 놓치면 안 되는 배농 원칙을 선택."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-항문직장 농양은 주로 어떤 원인에 의해 발생합니까?
+급성 항문직장 농양의 기본 치료는?
 
 ## 선택지
 
-A. 항문샘 감염에 의한 혼합 세균 감염
-B. 대장암 전이
-C. 크론병
-D. 직장암
+A. 신속한 외과적 절개·배농
+B. 모든 환자에서 항생제만 투여하고 배농을 피한다
+C. 통증이 심해도 변비약만 투여한다
+D. 저절로 치루가 생길 때까지 기다린다
 
 ## 해설
 
-항문직장 농양은 항문샘 감염에 의해 혼합 세균이 고름을 형성하면서 발생한다.
+배농이 기본 감염원 조절이다. 항생제는 봉와직염·전신 감염 소견·면역저하 등에서 추가로 고려하며 필요한 배농을 대체하지 않는다. 심부·복잡한 병변은 해부학적 평가와 적절한 수술 접근이 필요하다.
 
 ## 오답 포인트
 
-- **B. 대장암 전이:** 대장암 전이는 항문직장 농양의 원인이 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 항문직장 농양 (Anorectal Abscess)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/항문직장 농양 (Anorectal Abscess).md`
-- 학습 목표: 원문 핵심: - **정의**: 항문샘(anal gland)의 감염으로 인해 항문 주위 공간에 고름이 고이는 질환 - **원인**: 대장균(E. coli), Proteus, Bacteroides, 연쇄상구균, 포도상구균 등 혼합 감염이 흔함 - **기전**: 항문관의 항문소와(anal crypt)에서 시작된 감염이 항문 주위 공간으로 파급됨
+- 학습 목표: 항문직장 농양의 신속한 절개·배농
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 혼합 세균 명칭보다 농양에서 놓치면 안 되는 배농 원칙을 선택.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://fascrs.org/getattachment/Healthcare-Providers/Education/Clinical-Practice-Guidelines/2022-AnorectalAbscess_FistulainAno_RectovaginalFistula-CPG.pdf

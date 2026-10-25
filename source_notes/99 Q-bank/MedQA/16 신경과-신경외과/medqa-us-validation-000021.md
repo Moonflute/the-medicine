@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 비타민 C
 
 ## 해설
 
+혼돈·실조·안근마비와 영양결핍 위험은 Wernicke 뇌병증을 시사하므로 보기 중 비경구 thiamine(C)이 우선적인 특이 치료이다. 원문 혈당 47mg/dL의 저혈당도 즉시 교정해야 하며 thiamine 확보를 기다리느라 포도당 치료를 지연하지 않는다. 가능하면 thiamine을 먼저 또는 함께 투여하고, 마그네슘과 다른 영양결핍도 평가·보충한다. 말초신경 증상이나 피부 출혈 등은 복합 영양결핍을 시사할 수 있다.
 
-알코올 남용과 정맥 약물 사용으로 티아민(비타민 B1) 결핍이 흔히 발생하며, 베르니케·코르사코프 증후군을 초래한다. 저마그네슘혈증·저혈당은 동반될 수 있지만, 급성 치료에 가장 중요한 것은 티아민 보충이다. 따라서 티아민 투여가 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성 Wernicke 치료 thiamine C 확인. 원문 glucose 47 저혈당은 thiamine만으로 교정되지 않아 동시 응급 교정을 명시.
+- 공식/학회 근거: https://www.gov.uk/guidance/clinical-guidelines-for-alcohol-treatment/10-pharmacological-interventions
+- 공식/학회 근거: https://aci.health.nsw.gov.au/ecat/adult/substance-withdrawal
 
 ## 출처
 

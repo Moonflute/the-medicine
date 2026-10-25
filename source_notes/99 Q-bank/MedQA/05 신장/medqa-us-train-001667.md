@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 파열된 폐포 수포
 
 ## 해설
 
+객혈을 시사하는 혈담·호흡곤란과 신기능 저하·혈뇨의 조합은 폐-신장 증후군을 고려하게 한다. 보기 중 C, 항사구체기저막 항체에 의한 폐포/사구체 기저막 손상이 가장 합당하다. 이는 감염성 폐렴이라고 단정하는 것이 아니며, 실제로는 anti-GBM 항체·소변 침사와 다른 폐-신장 질환을 함께 평가한다.
 
-폐·신장 동반 출혈성 폐렴은 항-GBM 항체(기저막 항체)로 인한 면역 매개 손상이 원인이다. 혈뇨와 단백뇨가 동반된 급성 신부전이 특징이다. 따라서 기저막 항체가 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 폐신장증후군을 감염성 출혈성 폐렴처럼 표현한 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

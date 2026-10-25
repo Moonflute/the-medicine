@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 벤라팍신
 
 ## 해설
 
+급성 방광염 치료와 별도로 폐경 후 건조·위축·성교 불편과 재발 UTI에는 저용량 국소 질 에스트로겐(C)이 도움이 된다. 전신 호르몬요법과는 흡수·위험 특성이 다르며 최근 NSTEMI를 포함한 병력을 검토해 제제와 사용 여부를 개별 결정한다. 전신 에스트로겐을 권고하는 문항이 아니다.
 
-폐경 후 질 건조와 위축은 에스트로겐 결핍에 기인하며, 재발성 요로감염 위험을 높인다. 국소 에스트로겐 치료는 질 점막을 회복시켜 감염 예방에 도움이 된다. 따라서 국소 에스트로겐이 추가 관리에 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: GSM·재발 UTI의 국소 에스트로겐 C 유지. 최근 NSTEMI에 전신 에스트로겐을 권한 것으로 오해하지 않도록 한정.
+- https://www.augs.org/wp-content/uploads/2025/12/Practice-Advisory-Removal-of-Black-Box-Warning-Label-from-Topical-Low-Dose-Vaginal-Estrogen-Products.pdf
 
 ## 출처
 

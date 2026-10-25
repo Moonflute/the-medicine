@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 거대세포 성상세포종
 
 ## 해설
 
+Cafe-au-lait 반점, 피부주름 주근깨·신경섬유종과 홍채 Lisch 결절은 NF1을 시사한다. NF1은 시신경경로 교종(A)의 위험을 높인다. 교종은 신경교세포성 종양이며 시신경의 신경섬유종이 자라서 같은 종양이 되는 것은 아니다.
 
-신경섬유종증 1형 환자는 신경섬유종이 시신경에 발생해 시신경교종 위험이 증가한다. 다른 선택지는 해당 질환과 연관이 적다. 따라서 가장 위험이 증가하는 질환은 시신경교종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 시신경 신경섬유종이 교종으로 변한다는 병리 연결 오류를 교정.
+
 
 ## 출처
 

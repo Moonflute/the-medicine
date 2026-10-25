@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 실명
 
 
 소아 특발성 관절염에서 안과 합병증인 포도막염이 흔히 발생하며 시력 손실(실명) 위험을 높인다. 다른 선택지는 해당 질환과 관련이 적다. 따라서 정답은 D이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006472 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ANA 양성·어린 나이·소수관절 JIA에서 무증상 만성 전방포도막염으로 실명 D 위험이 증가한다. 원문·선지·해설의 연관을 직접 대조했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

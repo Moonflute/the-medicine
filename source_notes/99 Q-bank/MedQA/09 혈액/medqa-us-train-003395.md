@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 혈청 베타2 마이크로글로불린 상승
 ## 해설
 
 
-만성 골성 백혈구증가증(CML)에서는 백혈구 알칼리성 인산분해효소(LAP) 점수가 낮게 나타나는 것이 특징이다. 따라서 낮은 LAP 점수가 가장 기대되는 소견이다.
+백혈구·혈소판 증가와 비장비대는 CML(만성골수성백혈병)을 시사한다. 낮은 leukocyte alkaline phosphatase(LAP) 점수 A가 전통적인 보조소견이며, 반응성 leukemoid reaction에서는 대개 높다. 확진은 진행 중인 BCR::ABL1/Philadelphia 염색체 검사로 해야 하며 LAP만으로 확정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003395 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CML 잘못된 한국어 병명을 만성골수성백혈병으로 교정; 낮은 LAP는 보조소견임을 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

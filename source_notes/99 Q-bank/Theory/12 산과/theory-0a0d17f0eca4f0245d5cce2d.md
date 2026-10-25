@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "자궁저부 높이 과다는 태아 크기 평가를 유도하는 쉬운 기초 단서이며 확진으로 단정하지 않음."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 태아 심박수 증가
 
 - 내부 학습 노트: 거대아 (Macrosomia)
 - 원본 경로: `source_notes/02 Diseases/12 산과/거대아 (Macrosomia).md`
-- 학습 목표: 원문 핵심: * **CC**: 임신 후기 자궁저부 높이(fundal height)가 임신 주수에 비해 과도하게 큼. * **P/E**: 레오폴드 수기(Leopold maneuver)를 통한 태아 크기 평가.
+- 학습 목표: 임신주수 대비 자궁 크기와 태아 성장
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 자궁저부 높이 과다는 태아 크기 평가를 유도하는 쉬운 기초 단서이며 확진으로 단정하지 않음.

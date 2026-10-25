@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. ‘진찰 결과는 신체 문제보다 심리적 문제를 시사합니다. 
 
 ## 해설
 
-
-환자는 심한 요통을 호소하지만 신체 검사와 영상 소견이 없으며, 증상이 직장 변화와 일치하지 않는다. 이는 과장된 통증 표현으로, 환자와 직장 변화에 대해 대화를 시도하는 것이 적절하다. 따라서 직장 변화에 대해 이야기하자는 응답이 가장 적절하다.
+환자의 불편감을 인정하면서 직무 변화와 기능에 관해 열린 대화를 하는 것이 제시된 선택지 중 적절하다. 정상 또는 증상과 불일치하는 진찰만으로 통증이 거짓·과장되었거나 심리적 원인이라고 확정하지 않는다. 영상검사 결과는 원문에 없다. 신체적 경고 소견과 실제 업무 수행능력을 평가하며 증상과 스트레스 맥락을 함께 탐색한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006815
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 원문에 없는 영상 결과, 통증 과장·심리 원인 확정 삭제. 공감적 직장 변화 탐색 답 유지.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

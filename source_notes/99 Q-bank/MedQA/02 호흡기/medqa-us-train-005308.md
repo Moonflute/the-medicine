@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 무월경
 
 
 14일간의 프레드니손 단기 복용은 정서 변화, 불안, 과민성을 흔히 일으킨다. 얼굴 지방 축적·쿠싱증후군·무월경은 장기 고용량 스테로이드에서 나타난다. 따라서 짧은 과정에서 나타날 수 있는 부작용은 A, 감정 불안정이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 단기 prednisone의 정서불안정 A를 만성 Cushing성 지방재분포와 구별. 제시 taper를 새 권고로 검증한 것은 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

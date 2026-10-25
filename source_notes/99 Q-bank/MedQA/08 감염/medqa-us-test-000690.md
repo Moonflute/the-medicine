@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 페니실린 1회 주사 후 6개월 후 역가를 확인한다
 ## 해설
 
 
-잠복 매독 치료는 3주 간격으로 3회 페니실린 주사 후 6개월에 역가를 확인한다. 따라서 6개월 후 역가 확인이 적절한 관리이다.
+감염 기간을 알 수 없는 무증상 잠복매독은 벤자틴 페니실린 G를 1주 간격으로 총 3회 투여한다. C처럼 6개월에 첫 혈청 추적을 하고 HIV 동반 잠복매독에서는 12·18·24개월에도 추적한다. 신경·안구·이과 증상/징후가 없으면 CD4 저하나 높은 RPR만으로 일률적 요추천자를 시행하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000690 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 기간 불명 HIV 동반 잠복매독 C 유지. 3주 간격이라는 투여 오류를 매주 3회로 교정, HIV의 추가 추적 일정 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/std/treatment-guidelines/syphilis-hiv.htm
 
 ## 출처
 

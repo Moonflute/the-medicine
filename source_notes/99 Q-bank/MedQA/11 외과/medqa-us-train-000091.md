@@ -27,7 +27,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -54,6 +56,13 @@ D. 소독 드레싱
 
 
 수술 부위에 황록색 분비물과 피부 변색은 감염성 괴사와 연관된 조직 손상을 의미한다. 감염을 제거하고 조직을 정리하기 위해 외과적 변연절제술이 필요하다. 따라서 가장 적절한 관리 단계는 수술적 변연절제술이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000091 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 인공관절 수술 5일 후 괴사 피부·창상 열림·농성 배액은 조기 수술적 변연절제 A를 지지한다. 원문·선지·정답·해설 일치; 심부감염 평가와 배양·항생제 필요성을 배제하는 답은 아니다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.aaos.org/globalassets/quality-and-practice-resources/surgical-site-infections/ssi-companion-consensus-statements_-6.20.2018.pdf
 
 ## 출처
 

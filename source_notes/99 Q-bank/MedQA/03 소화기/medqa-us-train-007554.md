@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 대장내시경
 ## 해설
 
 
-항문열상(치질)으로 인한 통증성 출혈에 국소 니페디핀 연고와 좌욕이 1차 치료이며, 증상이 경미하고 출혈이 제한적이므로 보툴리눔이나 내시경은 과다치료이다.
+배변 시 찢어지는 듯한 심한 통증과 선홍색 출혈은 급성 치열을 시사하며 치핵과 같은 병명이 아니다. 선택지 중 좌욕과 국소 nifedipine(C)이 적절한 비수술 치료이다. 수분·섬유와 opioid 관련 변비 조절도 중요하다. 통증이 경미해서라는 근거는 맞지 않으며, 치료 무반응이나 비전형 병변·지속 출혈이면 다른 원인 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007554 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 치열 C와 치핵을 혼동하고 심한 통증을 경미하다고 한 오류 교정. 좌욕·변조절과 국소 CCB 우선, 지속 증상/경고징후에는 추가 평가.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ascrsu.com/ascrs/view/ASCRS-Evidence-Based-Guidelines-and-Expert-Consensus/3982013/2/Management_of_Anal_Fissures__2023_
 
 ## 출처
 

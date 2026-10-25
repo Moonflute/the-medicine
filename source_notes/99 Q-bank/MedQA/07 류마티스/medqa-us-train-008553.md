@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 폐색전증
 ## 해설
 
 
-베체트병의 주요 합병증 중 하나는 포도막염이며, 구강·생식기 궤양·피부 결절을 동반한 경우 안과적 합병증 위험이 높다. 다른 선택지는 베체트와 직접적인 연관성이 낮다. 따라서 가장 가능성 높은 합병증은 포도막염이다.
+반복 구강 아프타, 흉터를 남기는 생식기궤양과 결절홍반양 병변은 Behçet syndrome을 시사한다. 포도막염 A는 대표적인 중요한 장기침범으로 시력 손상을 일으킬 수 있다. 다만 위장관궤양과 혈관 혈전·폐혈관병도 Behçet의 실제 합병증이며 전혀 무관한 것은 아니다. 관절염은 대개 비미란성으로 심한 변형은 전형적이지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008553 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Behcet의 GI·혈관 합병증을 연관없다고 잘못 배제한 해설 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

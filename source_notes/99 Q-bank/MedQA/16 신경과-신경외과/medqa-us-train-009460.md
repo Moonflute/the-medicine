@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,9 +45,11 @@ D. 뇌척수액의 올리고클론 띠
 
 ## 해설
 
+이전 시신경염을 시사하는 시력저하와 새로운 척수성 상위운동신경원 증상, 열로 악화되는 양상은 MS를 의심하게 한다. CSF에 국한된 oligoclonal band(D)는 진단을 지지할 수 있다. 그러나 감염성·다른 염증성 질환에서도 나타날 수 있어 MS에만 특이하거나 단독 확진검사는 아니다. 영상이 확정적이지 않으면 다른 원인과 진단 기준 충족 여부를 함께 검토한다.
 
-다발성 경화증 환자에서 뇌척수액에 올리고클론 밴드가 가장 특이적인 진단 보조 검사이다. 환자는 감각·운동 증상과 MRI 소견이 불확실하므로 CSF 검사에서 올리고클론 밴드가 가장 가능성 높은 소견이다.
-다른 선택지는 MS 진단에 덜 특이적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. OCB를 MS에 가장 특이적인 검사로 단정한 오류 교정.
 
 ## 출처
 

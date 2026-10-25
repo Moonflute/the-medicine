@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,15 @@ D. 메토트렉세이트
 ## 해설
 
 
-관절염과 발열, 심장 잡음이 동반된 급성 류마티스열에서는 베타-락탐계 항생제에 알레르기가 있으면 대체제로 클라리스로마이신을 사용한다. 이는 연쇄상구균 감염에 대한 효과적인 치료이며, 스테로이드는 필요하지 않다.
+인후염3주 뒤 관절염·발열과 심첨부 범수축기 잡음은 급성 류마티스열과 승모판염 가능성을 시사한다. 과거 dicloxacillin에 호흡곤란·전신발진이 있어 penicillin 즉시형 과민반응을 고려하므로 GAS 제거약으로 선택지 A clarithromycin이 적절한 대안이다. 지역 macrolide 내성을 고려하고 심초음파와 심장염 중증도, 항염증 치료·장기 재발예방을 별도로 계획한다. 항생제만으로 모든 심장염 처치가 끝나거나 steroid가 항상 불필요하다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004816 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Clarithromycin의 GAS 제거 목적은 유지하고 심장염이 있어도 steroid가 절대 필요없다는 단정을 제거했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/scarlet-fever.html
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/diagnosing-acute-rheumatic-fever.html
 
 ## 출처
 

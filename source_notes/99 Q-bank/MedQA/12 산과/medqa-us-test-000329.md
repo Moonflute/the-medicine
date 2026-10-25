@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 대동맥-하대정맥 압박
 
 ## 해설
 
+경막외마취 10분 후 발생한 저혈압은 교감신경 차단(A)으로 인한 혈관 확장과 정맥 환류 감소가 가장 잘 설명한다. 출혈이나 탈수 소견이 제시되지 않아 일차적 저혈량을 지지하지 않는다. 만삭 임부에서 대동맥-하대정맥 압박도 저혈압을 유발할 수 있지만, 이 사례에서는 마취 직후라는 시간적 관계가 핵심이다. 심방중격결손은 제시된 병력에 없다.
 
-임신 중 혈관 저항이 감소하면 기존의 심방중격결손(ASD)으로 인한 좌우 혈류 전이가 증가해 증상이 악화된다. 따라서 전신혈관저항 감소가 증상 변화를 일으킨 주요 요인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://madeforthismoment.asahq.org/pain-management/epidural/
+- https://www.asahq.org/~/media/sites/asahq/files/public/resources/standards-guidelines/guidelines-for-neuraxial-anesthesia-in-obstetrics.pdf
 
 ## 출처
 

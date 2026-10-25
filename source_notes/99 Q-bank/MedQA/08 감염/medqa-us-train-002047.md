@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -54,7 +56,15 @@ D. 환자에게 세프트리악손과 반코마이신을 투여하고 밀접 접
 ## 해설
 
 
-생후 1세에서 급성 발열, 발진, 저혈압, CSF에 다량 호중구, 저포도당, 고단백은 수막구균성 수막염을 나타낸다. 표준 치료는 3세대 세팔로스포린(세프트리악손)과 반코마이신이며, 접촉자에게 리팜핀 예방투여가 권고된다. 따라서 정답은 D이다.
+점상자반·세균성 뇌척수액과 관류 지연이 있어 수막구균 감염을 강하게 의심하며 세균성 수막염·패혈증을 신속히 치료한다. D의 ceftriaxone과 vancomycin은 원인 미확정 세균성 수막염의 경험적 치료 맥락에서 적절하고, 수막구균의 밀접 접촉자는 예방약이 필요하다. 수막구균으로 확정되고 감수성이 확인되면 ceftriaxone 등으로 좁힐 수 있어 vancomycin을 끝까지 일률 병용하는 것은 아니다. Rifampin 예방요법은 1회가 아니라 통상 2일간이며 접촉 범위·금기·지역 내성에 맞춰 결정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002047 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수막구균 의심의 접촉자 rifampin 및 세균성 수막염 경험적 ceftriaxone/vancomycin D 유지; 확정 수막구균에도 vancomycin이 항상 필요하다는 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-8-meningococcal-disease.html
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 비강 전위차 검사
 
 ## 해설
 
+IRT 선별검사 양성은 확진이 아니므로 CF 전문기관에서 땀 염소 검사(A)를 계획한다. 충분한 땀을 얻기 위해 통상 생후 10일 이후부터 4주 내, 적절한 체중·교정 재태연령 조건에서 시행한다. 생후 5일에 곧바로 충분한 검체가 확보된다고 단정하지 않는다. 필요시 CFTR 유전자검사를 함께 해석한다.
 
-낭성섬유증 확진을 위해서는 땀에 포함된 염소 농도를 측정하는 땀 검사가 표준이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신생아 선별 양성 후 땀검사의 시행 가능 시점을 명확화.
+- https://www.cff.org/intro-cf/newborn-screening-cf
+- https://www.cff.org/media/16646/download
 
 ## 출처
 

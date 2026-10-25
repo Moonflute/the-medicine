@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "DKA와 털곰팡이증의 연관은 숙주 위험의 중요한 독립 개념이므로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmltjfdu9xennpmk1vzxlkde95bw5tqw9uwfzqyjnkdgvxtnzjmmx6s1m1dfpbfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 알레르기 비염
 
 ## 오답 포인트
 
-- **B. HIV 감염:** HIV는 다른 opportunistic 감염 위험을 높이지만 Mucormycosis의 대표적 위험인자는 아닙니다.
+- **HIV 감염:** HIV는 다른 opportunistic 감염 위험을 높이지만 Mucormycosis의 대표적 위험인자는 아닙니다.
 
 ## 출처
 
 - 내부 학습 노트: 털곰팡이증 (Mucormycosis)
 - 원본 경로: `source_notes/02 Diseases/08 감염/털곰팡이증 (Mucormycosis).md`
 - 학습 목표: 원문 핵심: - **정의**: Mucorales에 의한 급속 진행성 혈관침습 진균감염이다. 혈전·경색·조직괴사를 일으키므로 진단과 치료가 지연될수록 사망 위험이 높다. - 주요 위험인자는 DKA/조절되지 않는 당뇨, 지속성 호중구감소, 혈액암·조혈모세포/고형장기 이식, 고용량 steroid, 철 과부하와 deferoxamine 사용이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: DKA와 털곰팡이증의 연관은 숙주 위험의 중요한 독립 개념이므로 유지.

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 만성 췌장염
 ## 해설
 
 
-직장성 황달, 높은 직접 빌리루빈, ALP 상승, 담관 및 췌관 확장은 말기 담도 폐쇄를 시사한다. 악성 종양(예: 담관암)으로 인한 폐쇄가 가장 흔한 원인이다. 따라서 가장 가능성 높은 원인은 악성 담도 폐쇄이다.
+정답 A. 직접 bilirubin 상승, 짙은 소변·옅은 변, 담관과 췌관의 동시 확장 및 압통 없는 팽창 담낭은 원위부 담도 폐쇄를 시사한다. 체중감소와 무통성 황달을 함께 고려하면 췌장두부/팽대부 종양 등 악성 폐쇄가 가장 우려된다. 이 소견만으로 담관암의 조직형이나 말기 병기를 확진하지 않는다. 용혈이나 acetaminophen 간손상은 제시된 담관 확장을 잘 설명하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000079 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 직장성 황달/말기 폐쇄라는 오역 제거, double-duct·무통성 담낭 팽창의 악성 폐쇄 A를 진단 추론으로 한정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

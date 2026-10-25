@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 체중부하 제한과 물리치료
 
 ## 해설
 
+5세에서 대퇴골두 골단 축소·내측 관절간격 확대와 활동성 고관절 통증은 초기 Perthes병을 지지한다. 손상이 적은 어린 환자는 고충격 활동·체중부하를 조절하고 관절운동을 유지하는 물리치료(D)와 정형외과 추적이 적절하다. 목적은 통증과 압력을 줄이고 운동범위·골두 형태를 보존하는 것이며, 부하 제한 자체가 직접 재혈관화를 촉진한다고 확정할 수는 없다.
 
-소아의 대퇴골두 혈류 감소로 발생하는 Legg‑Calvé‑Perthes 병은 초기 단계에서 체중부하 제한과 물리치료가 권장된다. 이는 골두 재혈관화를 돕는다. 따라서 체중부하 제한과 물리치료가 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 초기 경증 Perthes D의 보존 관리를 유지하고 부하 제한이 직접 재혈관화를 보장한다는 표현을 수정한다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/perthes-disease
 
 ## 출처
 

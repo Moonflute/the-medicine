@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 심전도
 ## 해설
 
 
-TMJ 장애에 의한 통증은 야간 교합안정장치(스플린트) 사용으로 근육 긴장을 완화하고 증상을 감소시킬 수 있다. 따라서 초기 치료는 야간 교합안정장치 착용이다.
+아침 턱 통증·수면 중 이갈이·턱관절 클릭은 저작근/턱관절장애를 시사한다. 선택지 중 가역적인 야간 bite guard(A)를 고려할 수 있으며 뇌 MRI나 수술을 먼저 시행할 근거는 없다. 장치는 치아 보호에 도움이 될 수 있으나 TMD 통증 개선 근거는 제한적이므로 증상을 악화시키거나 교합을 영구 변화시키는 장치를 피한다. 자가관리·일시적 식이 조절·물리치료 등 보존적 접근과 복용 약물도 함께 검토한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007212 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Bite guard를 일률적 통증 치료 표준으로 단정하지 않고 이갈이의 가역적 보존치료 선택으로 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nidcr.nih.gov/health-info/tmd
 
 ## 출처
 

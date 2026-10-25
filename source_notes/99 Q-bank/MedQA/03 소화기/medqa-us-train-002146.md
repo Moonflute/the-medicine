@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTGFjdHVsb3NlLm1k
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 수술적 장 감압
 
 ## 해설
 
+과거 개복술, 구토·복부팽만·변비와 고음성 장음은 유착성 소장폐색을 시사한다. 제시된 안정적 상태에서 선택지 중 비위관 감압과 금식 C가 초기 접근에 부합하며 수액·전해질 보정과 외과 평가를 병행한다. 복막염·교액·허혈 또는 보존치료 실패 시에는 수술이 필요하다. 실제 제시되지 않은 영상의 공기-액체층을 관찰했다고 서술해서는 안 된다.
 
-복부 X선에서 다중 공기-액체 수준이 보이면 폐쇄성 소장 폐색을 의미한다. 초기 치료는 위장관 탈압과 장 휴식을 위한 비위관 삽입이다. 따라서 비위관 삽입과 장 휴식이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 안정적 유착성 장폐색의 초기 NG 감압·금식 C는 유지하되 보이지 않는 X선 소견을 지어내지 않음.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6006983/
 
 ## 출처
 

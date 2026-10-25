@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 메토프롤롤을 이용한 리듬 조절
 
 ## 해설
 
+장시간 압박·부동 뒤 CK 40,000U/L와 신기능 저하는 횡문근융해와 AKI 위험에 합당하다. 보기 중 정맥 수액(A)을 체액량·소변량·전해질에 맞춰 투여하는 것이 적합하다. '강제 이뇨'를 무제한 수액이나 이뇨제 투여로 해석해서는 안 되며 체액과부하를 피한다. 원문과 번역 모두 우측 약화/우측 MCA 병변이 함께 있어 뇌졸중 좌우 국소화가 일치하지 않지만 이 문항의 CK 기반 수액 판단은 가능하다.
 
-장시간 누워 있던 후 급성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 획득된 근육 손상으로 인한 급성 신손상 예방을 위해 대량 정맥 수액을 통한 강제 이뇨가 최우선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 심한 반복 훼손 해설을 횡문근융해 케이스의 설명으로 교체. 우측 약화/우측 MCA라는 영어 원문의 좌우 모순은 수액 적응증과 구별하여 명시.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC8804685/
 
 ## 출처
 

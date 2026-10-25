@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 베타 지중해빈혈 중증형
 ## 해설
 
 
-베타 지중해빈혈 중증형은 HbA2가 정상이고 HbF가 증가하며, 골수외 혈색소화와 골형성으로 두개골 융기가 나타난다. 환자의 혈액소견과 골형성 소견이 이를 뒷받침한다.
+HbF가 감소하는 영아기 이후 심한 소구성 빈혈·간비장비대·성장부전과 전두/두정골 융기는 beta-thalassemia major D에 부합한다. Beta 사슬 부족에 따른 비효율 조혈·용혈과 보상성 골수 확장/골수외 조혈이 핵심이다. HbF는 증가하지만 HbA2는 유전형·수혈 등 조건에 따라 달라 정상으로 일률 고정할 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006055 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골수외 혈색소화라는 오류를 골수외 조혈·골수 확장으로 교정; beta-thal major D 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

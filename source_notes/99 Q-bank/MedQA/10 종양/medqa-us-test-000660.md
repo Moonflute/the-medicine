@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 두 배가 되는 시간이 1개월 미만
 ## 해설
 
 
-폐 전이성 결절에서 방사상으로 뻗는 미세 선조는 악성 전이를 시사한다. 이러한 방사상 선은 악성 결절의 특징이므로 절제 가능성이 가장 높다.
+방사상 미세 선조가 뻗는 가시모양 경계는 악성 폐결절 가능성을 높여 C가 타당하다. 원발 폐암과 전이는 별도로 평가해야 하며 전립선암 병력만으로 전이라고 확정할 수 없다. 절제 여부는 전체 위험도와 병기·수술 적합성을 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000660 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 가시모양 경계의 악성 위험 C 유지. 전립선암 병력만으로 폐결절을 전이라고 단정한 해설을 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pubs.rsna.org/doi/10.1148/radiol.2017161659
 
 ## 출처
 

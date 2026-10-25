@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 창문기(window period)
 
 
 HBsAg가 음성이고 HBc IgG가 양성이며 HBsAb가 양성인 패턴은 과거에 HBV에 감염된 후 자연 면역이 형성된 상태를 의미한다. 핵심 항체인 HBc IgG는 과거 감염을, 표면 항체인 HBsAb는 면역 획득을 나타낸다. 따라서 가장 가능성 높은 설명은 감염으로 인한 면역 획득이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000341 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HBsAg 음성·anti-HBs 양성·anti-HBc IgG 양성/IgM 음성은 자연감염 후 회복·면역 B이다. 예방접종만으로 core 항체가 생기지 않는다는 원문 취지와 해설 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

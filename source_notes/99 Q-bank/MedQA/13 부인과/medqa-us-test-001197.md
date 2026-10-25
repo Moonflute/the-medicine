@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 류프로라이드 치료
 
 ## 해설
 
+희발월경·고안드로겐 소견은 PCOS성 무배란 불임을 시사한다. 다른 불임 요인을 평가하고 생활습관 관리와 배란 유도를 시행한다. 현행 지침은 레트로졸을 선호하지만 선지에 없으며 클로미펜(C)도 사용 가능한 배란유도 대안이다. IVF는 일반적으로 일차 선택이 아니다.
 
-월경 간격이 길고 비만, 다모증, 여드름이 동반된 경우는 다낭성 난소 증후군(PCOS)으로 인한 무배란이 가장 가능성이 높다. 클로미펜은 배란을 유도하는 선택적 에스트로겐 수용체 조절제로, PCOS 환자에게 1차 치료로 권장된다. 따라서 클로미펜 치료가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 클로미펜을 현행 유일한1차로 기술한 부분 수정.
+- https://integration.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/
 
 ## 출처
 

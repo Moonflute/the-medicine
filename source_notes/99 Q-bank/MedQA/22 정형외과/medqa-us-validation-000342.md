@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 방사선촬영
 
 ## 해설
 
+정답은 D, 고관절 방사선촬영이다. 겸상적혈구병 환자에서 지속·악화하는 고관절 통증, 절뚝거림 및 운동범위 제한이 있으면 대퇴골두 골괴사 등을 고려한다. 초기 구조적 평가로 방사선촬영을 시행할 수 있다. 관절이 뜨겁지 않다는 사실 자체가 골괴사의 특이 진단 소견은 아니다. 초기 골괴사에서는 방사선촬영이 정상일 수 있으므로, 임상 의심이 지속되거나 X선이 불명확하면 MRI가 필요할 수 있다.
 
-격상적혈구병 환자에게 고관절 통증과 차가운 관절, 운동 범위 감소는 대퇴골두 무혈성 괴사를 의심하게 한다. 초기 영상평가로는 가장 간단하고 전형적인 변화를 확인할 수 있는 평판 X-레이가 권장된다. 다른 영상은 X-레이에서 소견이 없을 때 선택한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 겸상적혈구병 오타, 차가운 관절을 무혈성괴사의 특이소견으로 오해시키는 해설 수정. 원정답 D 초기 방사선촬영 유지, 정상 X선이 초기 골괴사 배제하지 않음 보완.
+- 공식/학회 근거: https://acsearch.acr.org/docs/69420/Narrative/
 
 ## 출처
 

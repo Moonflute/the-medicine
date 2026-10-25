@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 뇌종양
 
 ## 해설
 
-
-대인관계 망상, 사고방출 감소, 평탄한 정서와 같은 증상은 양성 망상, 환각, 현저한 사회적 위축을 특징으로 하는 조현병에 부합한다. 우울증이나 물질 사용을 시사하는 증거는 없으며, 이는 가장 타당한 진단이다.
+학업·사회 기능 저하에 비현실적인 감시 믿음과 둔화 정동·말과 자발성 감소가 동반되어 제시된 진단 중 조현병이 가장 가깝다. 원문에 환각이나 사고방출이 명시된 것은 아니다. 실제 진단에서는 전체 기간·활성 증상과 기분·물질·의학적 원인을 확인하며, 당사자가 정신병을 부인한다는 이유만으로 증상이 없다고 판단하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000351
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 원문에 없는 환각·사고방출 감소를 실제 음성증상·피해 믿음·기능 저하로 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

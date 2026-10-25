@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 환기-관류 섬광조영술 의뢰
 
 ## 해설
 
+경구피임약 복용 중 발생한 흉막성 흉통과 저산소혈증은 폐색전증 평가가 필요하다. 먼저 임상 확률을 평가하고 비고위험으로 판단되면 고감도 D-dimer를 측정하여 음성일 때 배제에 활용한다. 보기 B의 섬유소 분해산물 측정은 이 문맥에서 D-dimer 검사를 뜻하는 것으로 해석해야 하며, 모든 비특이 FDP 검사가 같은 검증 성능을 갖는 것은 아니다. 양성은 확진이 아니므로 영상 평가가 필요하고, 고위험 임상 확률이라면 D-dimer보다 직접 영상 검사를 진행한다.
 
-경구피임약은 혈전증 위험을 증가시켜 폐색전증을 유발한다. D‑이합체(D‑dimer) 검사는 혈전 형성 후 분해산물 농도를 측정해 폐색전증의 가능성을 빠르게 평가한다. 따라서 가장 적절한 검사는 D‑dimer 측정이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. B의 취지를 검증된 고감도 D-dimer로 명확히 한다. 사전확률을 생략한 선별이나 비특이 FDP를 모두 같은 검사로 간주하지 않는다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 
 ## 출처
 

@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 왼쪽만 경동맥 내막절제술
 
 ## 해설
 
+오른쪽 팔·다리의 일과성 약화는 왼쪽 경동맥 영역의 증상을 시사하므로 좌측 88% 협착에 대한 D의 내막절제술을 평가한다. 고령에서는 스텐트보다 수술이 선호될 수 있으나, 증상 시점, 기능상태, 기대 수명과 수술 위험을 확인해야 한다. 항혈소판·고강도 스타틴 등 최적 약물치료는 수술 여부와 관계없이 병행하며, 약물치료가 무증상 환자에게만 필요하다는 뜻은 아니다.
 
-증상성 경동맥 협착(우측 52%는 비증상, 좌측 88%는 고위험)에서는 고위험 측면(좌측) 동맥 내막절제술이 권장된다. 스텐트는 고위험 환자에 제한적이며, 약물 증량·추적 초음파는 증상이 없을 때 선택한다. 따라서 가장 적절한 처치는 좌측만 경동맥 내막절제술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 증상성 좌측 중증 협착의 D는 지지하되 고령 환자의 수술위험 평가와 약물치료 병행 조건을 보완.
+- https://doi.org/10.1161/STR.0000000000000375
 
 ## 출처
 

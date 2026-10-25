@@ -22,7 +22,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,6 +52,13 @@ D. 상부위장관 내시경
 
 
 식후 복통, 체중 감소, 비특이적 위장 증상에 혈관성 장 허혈이 의심될 때 가장 확진력 높은 검사는 혈관조영 CT이다. 초음파는 비특이적이며, ERCP와 위내시경은 직접 혈류 평가가 안 된다. 따라서 복부 CT 혈관조영술이 가장 확진에 유리하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 동맥경화 위험·식후통/food fear·체중감소의 만성 장간막허혈 의심에서 복부CTA B로 혈관 협착 평가. ERCP/일반 내시경과 구별.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

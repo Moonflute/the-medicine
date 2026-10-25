@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 강박장애
 
 ## 해설
 
+IQ 65로 지적 기능이 낮고, 6세에 혼자 식사하거나 옷 입기가 어려운 적응 기능의 제한이 함께 제시되어 지적장애(C)가 보기 중 적절하다. 발달기에 나타난 지적·적응 기능의 어려움이 핵심이며 소두증은 가능한 동반 소견이지 지적장애의 정의나 필수 조건이 아니다.
 
-IQ 65, 두개골 둘레 3백분위수 이하, 발달 지연은 지적 장애를 정의한다. 다른 발달 장애와 구별되는 핵심 특징은 전반적인 인지 기능 저하이다. 따라서 가장 가능성 높은 진단은 지적 장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 지적장애를 IQ와 소두증만으로 정의한 오류를 지적 기능과 적응 기능의 동반 제한으로 교정했다.
+
 
 ## 출처
 

@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,14 @@ D. 급성 근긴장이상 (Acute dystonia)
 ## 해설
 
 
-고혈압 위기 치료에 사용되는 질산 나트륨·니트로프루시드 등은 급성 대사성 산증(젖산 상승)과 피부 홍조, 망막 정맥 확장을 일으킬 수 있다. 환자의 저 pH와 젖산 상승은 이러한 치료 부작용을 시사한다. 따라서 정답은 A이다.
+고혈압 응급상황에 사용할 수 있는 sodium nitroprusside의 대사산물 cyanide는 미토콘드리아의 산소 이용을 억제한다. 이로 인해 심한 젖산산증, 의식 변화 및 산소 추출 감소에 따른 밝은 붉은 정맥혈이 생길 수 있어 A가 부합한다. 질산나트륨 일반의 부작용으로 설명하는 것은 잘못이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000928 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 질산나트륨이 아니라 sodium nitroprusside 유래 cyanide의 세포호흡 억제·정맥 고산소혈증 설명으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f02e4ac-5f7c-4003-b9b7-283f489cddb0
 
 ## 출처
 

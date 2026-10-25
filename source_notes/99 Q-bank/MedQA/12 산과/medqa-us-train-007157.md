@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. Rh 부적합
 
 ## 해설
 
+알파글로빈 네 유전자가 모두 소실되면 알파 사슬을 만들지 못해 태아에서 γ4 사량체 Hb Bart가 형성된다. 산소 운반 장애와 심한 빈혈이 태아수종을 초래하므로 A가 적절하다. 철분에 반응하지 않는 모체 소구성 빈혈은 지중해빈혈 보인자 가능성을 뒷받침하지만 모체 소견만으로 태아 유전형을 확진하는 것은 아니다. 모체 Rh 양성·배우자 Rh 음성이라는 본문은 전형적인 항-D Rh 부적합의 조합이 아니며 D를 정답처럼 설명한 기존 해설은 잘못이다.
 
-Rh 부적합에 의한 태아수종은 모체가 Rh 양성·배우자가 Rh 음성인 경우 발생한다. 알파 글로빈 유전자 결실·베타 사슬 장애·피루브산 키나아제 결핍은 다른 혈액학적 질환을 일으킨다. 따라서 Rh 부적합이 가장 가능성 높은 원인이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원정답 A와 반대로 Rh 부적합을 답으로 설명한 해설을 알파글로빈 네 유전자 결실·Hb Bart 태아수종의 기전으로 교체했다.
+- https://medlineplus.gov/genetics/condition/alpha-thalassemia/
 
 ## 출처
 

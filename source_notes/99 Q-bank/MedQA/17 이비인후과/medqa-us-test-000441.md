@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 머리를 높이고 10분간 콧방울을 손으로 압박
 
 ## 해설
 
+활력징후가 안정된 전방 비출혈에서는 앉아서 머리를 세우고 약간 앞으로 숙인 채 코의 부드러운 아랫부분을 연속적으로 압박하는 D가 초기 조치이다. 이는 전방 비중격 출혈 부위에 직접 압력을 가하는 방법이다. 고개를 뒤로 젖히면 피를 삼키거나 기도로 흘릴 수 있으므로 피한다. 충분한 압박으로 조절되지 않으면 국소 혈관수축제와 출혈점 평가 등을 진행한다.
 
-코피가 발생했을 때 머리를 높이고 코를 10분간 압박하면 출혈 부위의 혈압을 낮춰 자연적으로 멈출 수 있다. 이는 가장 기본적인 초기 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원정답 D는 유지하되 지혈 기전을 막연한 혈압 감소가 아니라 출혈 부위의 직접 압박으로 설명하고 머리를 뒤로 젖히지 않도록 명확히 함.
+- 공식/학회 근거: https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599819890327
 
 ## 출처
 

@@ -28,13 +28,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -52,8 +54,11 @@ D. 삼차신경통(Trigeminal neuralgia)
 
 ## 해설
 
+짧게 찌르는 듯한 통증이 먹을 때 발생하고 편도 부위와 귀에 연관되어 나타나는 양상은 설인신경통 C에 가장 가깝다. 설인신경은 편도·인두의 감각과 고실가지를 통한 중이 감각에 관여하여 인두통과 연관통성 이통을 설명한다. 귀 뒤 피부 전체가 설인신경의 지배영역인 것은 아니다. 하악 촉진 압통·관절 클릭이 없어 턱관절 질환은 덜 지지되며, 구역반사가 정상이어도 신경통을 배제하지 않는다.
 
-귀 수술 후 귀 뒤쪽을 두드렸을 때 편도 부위 통증이 나타나는 것은 설인신경(혀인두신경) 경로의 통증을 의미한다. 설인신경은 편도와 귀 뒤쪽을 연결하며, 삼키거나 귀에 압력이 가해질 때 통증을 유발한다. 따라서 설인신경통이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 설인신경통 C는 유지하되 설인신경이 귀 뒤 피부와 편도를 직접 잇는다는 해부학적 과장을 교정.
 
 ## 출처
 

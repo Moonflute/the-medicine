@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 적혈구침강속도 측정과 옥시코돈 투여
 
 ## 해설
 
+최근 수술·입원 뒤 새 호흡곤란·저산소혈증·빈맥은 폐색전증을 우려하게 한다. 현재 이송·영상 평가가 가능한 상태에서 산소를 투여하고 CTPA로 확인하는 B가 적절하다. CT가 모든 환자에서 무조건 최선은 아니며 불안정성·조영제 금기·신기능 등을 고려한다. 상처의 발적·부종도 평가하지만 통증이 없다는 이유만으로 감염을 배제하지 않는다.
 
-절단 후 급성 호흡곤란과 빈맥은 폐색전증을 의심하게 한다. CT 혈관조영술은 폐색전증을 확인하는 가장 정확한 검사이며, 산소 투여와 함께 시행한다. 따라서 다음 단계는 흉부 CT 혈관조영술과 산소 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수술 후 높은 PE 의심의 산소·CTPA B는 유지하고 가장 정확한 검사라는 무조건적 단정을 임상확률 기반으로 수정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/recommendations
 
 ## 출처
 

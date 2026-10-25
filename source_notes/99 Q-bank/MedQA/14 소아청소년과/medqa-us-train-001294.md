@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 괴사된 장 분절의 절제를 포함한 긴급 수술적 정복을 시행
 
 ## 해설
 
+정복 성공 후 증상 회복·수유·재발 가능성을 관찰한다. 선별된 아이는 짧은 관찰 후 퇴원이 가능하지만 이 가족은 병원까지 2시간 걸려 재내원이 어려우므로 24시간 입원 관찰(C)이 합당하다. 무조건 반복 관장이나 응급 장절제를 하지 않는다.
 
-복부 초음파와 바륨 관장으로 장중첩증이 성공적으로 정복된 후, 재발과 장 손상 위험을 감시하기 위해 24시간 입원 관찰이 필요하다. 입원 중에는 복통, 구토, 혈변 및 복부 팽만을 지속적으로 평가한다. 따라서 환자를 24시간 입원시킨다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정복 성공 후 먼 거주지 때문에 입원 관찰 C 유지. 모든 성공 정복에 24시간 입원이 필수라는 설명 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/intussusception_guideline/
 
 ## 출처
 

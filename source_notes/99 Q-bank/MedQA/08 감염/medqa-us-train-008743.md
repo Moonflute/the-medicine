@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 홍역
 ## 해설
 
 
-코피 후 코패킹을 제거했을 때 발생한 고열, 저혈압, 발진, 다발성 장기 부전은 독소 쇼크 증후군(TSS)과 일치한다. Staphylococcus aureus가 독소를 생산해 TSS를 일으킨다. 따라서 가장 가능성 높은 진단은 독성 쇼크 증후군이다.
+5일간 남겨진 비강 패킹을 배경으로 고열, 전신 홍반, 점막 충혈, 위장 증상과 혈소판감소가 나타나 독성 쇼크 증후군(B)에 부합한다. 패킹 부위 S. aureus의 superantigen 독소가 전신 염증을 유발할 수 있다. 증상은 패킹 제거 전부터 있었으므로 제거가 발병 원인이라는 뜻이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008743 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 장기간 남겨진 비강 패킹과 TSS B의 연결은 적절. 제거 후 발병한 것이 아니라 이미 증상이 발생한 뒤 제거한 시간 순서 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

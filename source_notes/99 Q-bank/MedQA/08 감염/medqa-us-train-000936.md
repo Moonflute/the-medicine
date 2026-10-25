@@ -23,11 +23,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -48,7 +50,14 @@ D. 예방접종 없음
 ## 해설
 
 
-HIV 감염자이지만 CD4 수가 480으로 면역이 비교적 보존돼 있어 MMR 백신(생백신)은 안전하게 접종할 수 있다. 다른 백신은 BCG는 금기, 황열은 여행 목적에 따라 필요하지만 면역 상태가 더 중요하다. 따라서 정답은 B이다.
+면역 증거가 없는 HIV 성인은 CD4 ≥200/mm³이고 ART로 HIV가 조절되는 등 생백신 금기 조건이 없으면 MMR 두 회를 최소 28일 간격으로 접종한다. 제시된 ART 복용 및 CD4 480의 환자에서는 B가 보기 중 적절하되, 접종 전 면역 기록과 바이러스 조절 상태를 확인한다. BCG는 HIV에서 권고하지 않으며 황열백신은 실제 노출·입국 요건과 면역 상태를 따져 결정하므로 태국 여행 자체가 접종 적응증은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000936 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HIV에서 MMR의 면역·ART 조건과 태국 여행만으로 황열백신이 필요하지 않음을 명확화.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/sites/default/files/guidelines/documents/adult-adolescent-oi/immunizations-adult-adolescent-oi.pdf
 
 ## 출처
 

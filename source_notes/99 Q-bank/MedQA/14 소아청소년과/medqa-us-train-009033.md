@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 11p15 중복
 
 ## 해설
 
+신장 내 종괴(윌름스종양), 홍채 결여와 잠복고환은 WAGR 스펙트럼을 시사한다. 11p13 영역 결실(B)은 WT1과 PAX6 등을 포함해 신장 종양 위험·비뇨생식기 이상·무홍채증을 설명할 수 있다. 본문은 무릎 결손을 기술하지 않으며 WAGR의 G는 비뇨생식기 이상을 뜻한다.
 
-윌름스 종양, 안구 결손, 무릎 결손을 동반한 복부 종괴는 WAGR 증후군을 나타내며, 이는 11p13 결실에 의해 발생한다. 따라서 11p13 결실이 정답이다. 다른 유전 변이는 이 삼중증후군을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: WAGR의 비뇨생식기 이상을 근거 없는 무릎 결손으로 설명한 오류를 교정했다.
+
 
 ## 출처
 

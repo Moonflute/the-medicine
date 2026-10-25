@@ -21,11 +21,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 비효율적 적혈구생성
 ## 해설
 
 
-환자는 흑인 남성으로 급성 통증 위기와 빈혈, LDH 상승을 보이며 겸상적혈구병(겸상 적혈구빈혈)이 의심된다. 겸상병의 용혈은 혈관 외(비장·간)에서 주로 일어나므로 혈관외 용혈이 가장 적절한 설명이다.
+반복 통증 위기와 빈혈·LDH 상승은 SCD 같은 만성 용혈질환을 의심하게 하며 B의 비장/간 대식세포에 의한 혈관외 용혈이 관련된다. 혈관내 용혈도 함께 발생할 수 있다. 인종이나 통증 치료 약물만으로 확진하지 않고 MCV72fL의 동반 철결핍/thalassemia 등도 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005911 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: SCD 용혈 B 유지; 인종만으로 확진하거나 혈관내 용혈이 없다는 과장 방지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -17,11 +17,11 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -29,6 +29,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. Chlorpromazine
 
 ## 해설
 
+운동틱과 음성틱이 1년 이상 있고 학업·사회기능 장애가 심하여 Tourette 증후군에 맞다. 약물 보기 중 리스페리돈(B)이 틱 감소에 유효하다. 가능하면 CBIT 등 행동치료도 우선 논의하고 약물의 체중·대사·운동계 부작용을 감시한다.
 
-다발성 운동·음성 틱이 1 년 이상 지속되고, 사회적·정서적 고통을 동반한 경우 투렛 증후군으로 진단한다. 첫 번째 선택 약물은 도파민 차단제인 리스페리돈이며, 이는 틱을 감소시킨다. 따라서 초기 치료는 리스페리돈이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 장애가 심한 Tourette 틱의 보기 중 리스페리돈 B 유지. 모든 환자의 유일한 1차 치료라는 단정 수정.
+- https://www.aan.com/Guidelines/home/GetGuidelineContent/960
 
 ## 출처
 

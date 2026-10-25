@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 요추 천자
 
 
 백혈병 환자는 면역억제 상태로 세균성 수막염 위험이 높으며, 목 강직·발열·두통·신경학적 이상이 나타난다. 급성 치료는 즉시 경험적 항생제 투여가 필요하다. 따라서 항생제 치료가 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000245`와 직접 대조했다.
+- 판정: 수막염 의심과 국소 신경학적 결손·면역억제에서 혈액배양 후 항생제 C를 지연하지 않는 WHO 지침 확인. 영상·LP 전후 순서와 부합.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 티로신 키나아제 유전자 돌연변이
 
 ## 해설
 
+생후 수개월 이후 반복되는 세균성 호흡기 감염과 편도·아데노이드 저형성은 B세포 발달 장애를 시사한다. BTK 티로신키나아제 변이에 의한 X연관 무감마글로불린혈증(D)이 가장 적절하다. 예방접종을 제때 받았다는 사실이 보호 항체를 정상적으로 만들었다는 뜻은 아니다. 본문의 항생제 선택이나 반응 시간의 현행 치료지침까지 검수한 것은 아니다.
 
-반복적인 세균성 감염과 정상 백신 이력은 브루톤 무감마글로불린혈증을 시사한다. 이 질환은 BTK 유전자 결함으로 B세포 발달이 저하되어 면역결핍이 발생한다. 따라서 BTK 유전자 돌연변이가 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 예방접종 이력이 정상이라는 사실이 면역반응 정상의 근거인 것처럼 쓴 해설을 편도/아데노이드 저형성과 B세포 결핍 기전으로 교정했다.
+
 
 ## 출처
 

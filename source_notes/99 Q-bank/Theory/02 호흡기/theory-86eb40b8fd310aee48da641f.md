@@ -12,36 +12,49 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-2KueuwnOyEsSDtj5DshKzsnKDspp0gKElQRikgKElkaW9wYXRoaWMgUHVsbW9uYXJ5IEZpYnJvc2lzKS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "특발성 섬유화라는 이름 반복 대신 UIP와 원인 배제의 핵심을 선택."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-특발성 폐섬유증(IPF)의 정의는?
+특발성 폐섬유증(IPF)을 진단할 때 중요한 원칙은?
 
 ## 선택지
 
-A. 원인을 알 수 없는 만성 진행성 폐 섬유화 질환
-B. 흡입성 폐렴에 의한 급성 염증성 질환
-C. 폐결핵에 의한 결절성 폐질환
-D. 폐동맥 고혈압에 따른 심장성 폐부종
+A. UIP에 합당한 영상·병리와 임상상을 종합하고 노출·약물·결합조직질환 등 원인을 배제한다
+B. 폐기저부 수포음만 있으면 확진한다
+C. 모든 간유리 음영을 IPF로 본다
+D. 모든 환자에게 수술 생검이 반드시 필요하다
 
 ## 해설
 
-IPF는 원인을 알 수 없는 만성 진행성 폐 섬유화 질환이며, 특발성 간질성 폐렴 중 가장 흔한 형태이다.
+적절한 임상 맥락의 전형적인 HRCT UIP 패턴에서는 수술 생검 없이 진단할 수 있다. 불확실한 경우는 다학제 평가와 개별 위험을 고려한다.
 
 ## 출처
 
 - 내부 학습 노트: 특발성 폐섬유증 (IPF) (Idiopathic Pulmonary Fibrosis)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/특발성 폐섬유증 (IPF) (Idiopathic Pulmonary Fibrosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 원인을 알 수 없는 만성 진행성 폐 섬유화 질환으로, 특발성 간질성 폐렴 중 가장 흔한 형태. - **원인**: 원인 불명이나 흡연, 유전적 요인(MUC5B 유전자 다형성 등), 환경적 노출 등이 복합적으로 작용하여 폐포 상피세포의 손상과 비정상적인 섬유 증식을 유발함. - **기전**: 폐 간질의 반복적인 손상과 치유 과정의 오류로 인해 섬유화가 진행되며, 조직학적으로는 통상 간질성 폐렴(UIP) 패턴을 보임.
+- 학습 목표: IPF 진단의 UIP 패턴과 다른 원인 배제
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- https://doi.org/10.1164/rccm.202202-0399ST

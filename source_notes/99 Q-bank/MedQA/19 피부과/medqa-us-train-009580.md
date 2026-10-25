@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 육안적 혈뇨
 
 ## 해설
 
+심한 소양성 군집 수포는 포진상피부염을 시사한다. 연관 celiac disease의 흡수장애로 철결핍빈혈(C)이 동반될 수 있어 선지 중 진단을 지지하는 추가 소견으로 가장 적절하다. 철결핍빈혈만으로 피부 진단을 확정할 수는 없으며 병변 분포·직접면역형광·관련 혈청검사 등과 함께 평가한다.
 
-등 상부에 물집성 병변과 주변 부종은 피부염 포진상(dermatitis herpetiformis)과 일치한다. 이 질환은 셀리악병과 연관된 철결핍성 빈혈이 흔히 동반된다. 따라서 진단을 확정하기 위해서는 철결핍성 빈혈 여부를 확인하는 것이 도움이 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. C 철결핍빈혈은 DH/celiac를 지지하는 연관 소견이지 그 자체 확진검사는 아님을 구분한다.
 
 ## 출처
 

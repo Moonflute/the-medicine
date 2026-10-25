@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 연수
 
 ## 해설
 
+오른쪽 안면 통각·온도감각 저하는 동측 척수삼차신경핵/로, 왼쪽 몸 통각·온도감각 저하는 동측 척수시상로, 불안정 보행은 소뇌 연결로, 오른쪽 눈꺼풀처짐은 하행 교감신경 경로 침범을 시사한다. 이들이 함께 위치하는 외측 연수(D), 즉 Wallenberg 증후군이 가장 합당하다. 연하곤란도 의문핵 침범으로 설명할 수 있으나 안면 운동마비가 제시된 것은 아니다.
 
-우측 안면 감각 소실·좌측 몸 감각 소실·보행 불안정·안검하수는 교차 감각 손실과 안면 마비가 동반되는 연수(외측 연수) 병변, 즉 월렌버그 증후군에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 본문에 없는 안면마비를 추가한 해설을 교차 통각온도감각 소실·연수 외측 구조로 교정했다.
 
 ## 출처
 

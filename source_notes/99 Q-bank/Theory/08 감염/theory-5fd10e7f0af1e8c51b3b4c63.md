@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "Aedes와 Culex/진드기의 매개 질환 구별은 전파 이론의 기본이므로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmlxvpagvxnhnpevh0q0fvukdwdvozvmxjrvpszg1weuttnxraqxxkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,10 +47,15 @@ D. 파리
 
 ## 오답 포인트
 
-- **B. Culex 모기:** Culex 모기는 주로 일본뇌염을 매개한다.
+- **Culex 모기:** Culex 모기는 주로 일본뇌염을 매개한다.
 
 ## 출처
 
 - 내부 학습 노트: 뎅기열 (Dengue Fever)
 - 원본 경로: `source_notes/02 Diseases/08 감염/뎅기열 (Dengue Fever).md`
 - 학습 목표: 원문 핵심: - **정의**: 뎅기 바이러스 (Dengue virus)에 의해 발생하는 모기 매개 감염성 질환으로, 전 세계적으로 가장 흔한 절지동물 매개 바이러스 질환임. - **원인**: 뎅기 바이러스 (Dengue virus, DENV-1~4). Flaviviridae 과의 Flavivirus 속. - **기전**: 이집트숲모기 (Aedes aegypti) 또는 흰줄숲모기 (Aedes albopictus)에 물려 전파됨. 바이러스가 혈관 내피세포와 면역 세포를 감염시키며, 특히 2차 감염 시 항체 의존적 면역 증강(ADE) 현상으로 인해…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: Aedes와 Culex/진드기의 매개 질환 구별은 전파 이론의 기본이므로 유지.

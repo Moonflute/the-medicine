@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 배뇨 빈도 증가
 
 ## 해설
 
+저삼투성 저나트륨혈증에 비해 소변이 농축되어 있고 소변 나트륨이 높은 양상에서는 SIAD와 유사한 수분저류 상태를 고려하며, 보기 중 낮은 혈청 요산(B)이 동반될 수 있다. 저요산혈증은 단순 혈액 희석만이 아니라 신장 요산 재흡수 감소와 배설 증가가 관여한다. 다만 HCTZ 자체도 저나트륨혈증을 일으키므로 이 소견만으로 SIAD를 확진할 수 없다. 이뇨제 영향, 체액량, 부신·갑상선 기능 등 다른 원인을 평가해야 한다.
 
-뇌경색 후 발생한 저나트륨혈증은 소변 Na+와 삼투압이 높아지는 SIADH를 시사한다. SIADH에서는 체액량이 정상(또는 약간 증가)하지만 항이뇨호르몬 과다분비로 물이 재흡수돼 혈청 요산이 희석되어 감소한다. 따라서 혈청 요산 감소가 가장 흔히 동반되는 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저삼투성 저나트륨혈증의 저요산혈증 B 유지하되 단순 희석 설명과 HCTZ 복용 중 SIAD 확정 단정 교정.
+- 공식/학회 근거: https://www.ese-hormones.org/publications/directory/ese-clinical-guideline-for-the-management-of-hyponatraemia/
 
 ## 출처
 

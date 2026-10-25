@@ -20,11 +20,11 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9HbGltZXBpcmlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,16 @@ D. 신동맥 협착
 
 ## 해설
 
+리시노프릴 투여 전 정상 신기능이었으나 2주 만에 크레아티닌이 2.1 mg/dL로 상승했고, 여러 항고혈압제에도 고혈압이 지속된다. 이 조합에서는 D, 신동맥 협착을 의심한다. 특히 양측성 또는 단일 기능 신장의 협착에서는 사구체 여과 유지에 필요한 안지오텐신 II 작용을 차단하면 신기능이 악화될 수 있다.
 
-고혈압, 저칼륨, 고 알도스테론/저 레닌 비율은 원발성 알도스테론증을 시사한다. 확진을 위해 생리식염수 주입 검사를 시행한다.
+당뇨병성 신장병의 점진적 경과보다는 약제 시작과 연관된 급격한 변화가 핵심이다. 저칼륨혈증만으로 원발성 알도스테론증을 확진할 수 없으며, 이 문항에는 알도스테론·레닌 결과가 없다. 따라서 생리식염수 부하시험을 정답 해설로 연결해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원발성 알도스테론증/생리식염수 부하 해설을 ACE 억제제 후 급성 신기능 악화와 신동맥협착 설명으로 교체. 원정답 D 유지.
+- https://www.niddk.nih.gov/health-information/kidney-disease/renal-artery-stenosis
 
 ## 출처
 

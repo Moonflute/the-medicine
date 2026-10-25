@@ -20,11 +20,11 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 보충 산소
 
 ## 해설
 
+안정 시 산소포화도 88%는 중증 저산소혈증을 시사하여 D의 보충 산소를 고려할 근거가 된다. 안정기에 지속되는 저산소혈증을 확인한 COPD 환자에서는 하루 15시간 이상의 장기 산소요법이 생존을 개선한다. 일회 측정만으로 평생 처방을 확정하지 않고 혈액가스와 반복 평가로 적응증을 확인하며, 산소 사용 중 흡연은 금지한다.
 
-환자는 휴식 시 산소포화도가 88%인 중증 COPD 환자이다. 휴식 시 PaO₂가 55 mmHg 이하(SpO₂ ≈ 88%)인 경우 장기 저산소증이 심혈관 및 호흡기 합병증을 유발해 사망률을 높인다. 장기 저산소 치료는 폐동맥 고혈압, 심부전, 급성 악화 위험을 감소시켜 사망률을 낮춘다. 따라서 보충 산소가 가장 효과적인 추가 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ‘장기 저산소 치료’를 장기 산소요법으로 바로잡고 안정기 지속 저산소혈증 확인 조건을 명시.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7667898/
 
 ## 출처
 

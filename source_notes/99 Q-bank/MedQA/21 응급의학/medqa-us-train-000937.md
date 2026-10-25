@@ -22,17 +22,19 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FwdG9wcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,12 @@ D. 국소 코르티코스테로이드(Topical corticosteroids)
 
 ## 해설
 
+금속 드릴 작업 후 통증·눈물·시야흐림은 각막 이물/상피 손상뿐 아니라 관통상과 안구내 금속 이물도 의심해야 한다. 주어진 선지 중 플루오레세인(A)은 세극등에서 상피결손과 방수 유출(Seidel)을 평가하는 데 적절하다. 다만 명백한 개방성 안구손상이 의심되면 눈을 누르거나 불필요하게 조작하지 않고 보호대와 긴급 안과 평가를 우선한다. 금속 이물 가능성이 있으면 MRI는 피하고 필요 시 안와 CT를 사용한다. 안압측정·국소 스테로이드를 먼저 시행하지 않는다.
 
-눈에 날카로운 통증과 흐릿한 시야, 눈물 지속은 각막 손상을 시사한다. 각막 손상은 플루오레세인 염색으로 손상 부위를 시각화하여 확인한다. 따라서 초기 관리로 플루오레세인 염색이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 금속 고속 이물에서 단순 각막찰과상만 가정하지 않도록 수정했다. A는 표면·Seidel 평가로 유지하되 안구압박 금지·금속 의심 MRI 금기를 명시했다.
+- 공식/학회 근거: https://eyewiki.aao.org/Intraocular_Foreign_Bodies_%28IOFB%29
 
 ## 출처
 

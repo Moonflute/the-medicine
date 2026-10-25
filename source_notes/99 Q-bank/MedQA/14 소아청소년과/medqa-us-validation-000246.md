@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 유문근절개술
 
 ## 해설
 
+간헐 복통·다리 당김·혈점액변은 장중첩증을 강하게 시사한다. 안정적이며 천공·복막염 금기가 없다면 확인 후 공기관장(A) 정복이 적절하다. 실제 초음파는 제공되지 않아 target sign을 보았다고 단정하지 않으며, 모든 급성 복통·구토에 공기관장을 시행하는 것은 아니다.
 
-소아 장중첩증(장중첩)에서는 비혈성 구토와 혈성 점액변, 복통이 나타나며 초음파에서 ‘target sign’이 보인다. 비혈성 구토와 복통이 급성으로 진행될 경우 공기 관장이 가장 빠른 비수술적 치료법이다. 따라서 가장 적절한 처치는 공기 관장이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미제공 초음파 target sign 창작을 삭제하고 공기관장 정복의 임상 조건 명시.
+- https://www.rch.org.au/clinicalguide/guideline_index/intussusception_guideline/
 
 ## 출처
 

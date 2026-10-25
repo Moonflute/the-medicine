@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. SSRI/SNRI로 증상이 조절되지 않음
 
 ## 해설
 
+혈관운동증상 치료를 위한 전신 폐경 호르몬요법에서는 유방암이 확진되었거나 의심되는 개인력(B)이 중요한 금기이다. 유방암 가족력이나 자궁내막암 가족력만으로 동일한 금기가 되는 것은 아니며 개인별 위험을 평가한다. SSRI/SNRI로 증상이 조절되지 않는다는 사실은 호르몬요법의 금기 자체가 아니다. 이 문항은 안면홍조에 대한 전신 요법을 묻고 있으며, 국소 질에스트로겐의 별도 위험·편익 판단과 혼동하지 않는다. 페니실린 투여 반응에 관한 기존 해설은 무관하다.
 
-베냐딘 페니실린 투여 후 나타나는 두통·오한·근육통은 Jarisch‑Herxheimer 반응이며, 증상 완화에 비스테로이드성 소염제(이부프로펜)가 가장 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://www.acog.org/womens-health/faqs/hormone-therapy-for-menopause
 
 ## 출처
 

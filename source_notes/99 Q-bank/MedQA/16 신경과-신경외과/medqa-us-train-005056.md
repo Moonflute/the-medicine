@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 척수 동정맥 기형
 
 ## 해설
 
+갑작스러운 두통·의식저하·목경직과 뇌기저부 중심의 광범위 출혈은 동맥류성 지주막하출혈을 시사하여 낭상 동맥류 파열(B)이 가장 가능하다. 유리체출혈은 Terson 증후군으로 동반될 수 있다. 이 출혈 분포만으로 후교통동맥이라는 특정 동맥을 확정하지 않으며 실제 위치는 혈관영상으로 확인한다. 감염성 동맥류를 특별히 뒷받침하는 감염 병력은 없다.
 
-뇌기저부 대량 출혈은 주로 후교통동맥의 낭상 동맥류 파열에 의해 발생한다. 따라서 가장 가능성 높은 원인은 낭상 동맥류 파열이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 문자 CT와 SAH 임상으로 낭상 동맥류 B를 유지하되 출혈만으로 후교통동맥 위치를 확정한 해설을 제거했다.
 
 ## 출처
 

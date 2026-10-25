@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 청력 저하
 
 ## 해설
 
+경골 변형, 혼합 골용해·경화와 피질골 비후, 정상 칼슘·인에 비해 높은 ALP는 골 Paget병을 시사한다. 두개골 침범 시 청력장애(D)가 생길 수 있으며 전음성·감각신경성 또는 혼합 양상일 수 있다. 골육종과 고박출성 심부전도 가능하지만 상대적으로 드문 합병증이다. 본문에서 두개골 침범이 이미 확인되었다고 단정하지는 않는다.
 
-파제트 병은 골밀도 증가와 골피질 비후, 다발성 골병변을 동반하며 청력 저하(감각성 난청)가 흔한 합병증이다. 따라서 가장 발생하기 쉬운 합병증은 청력 저하이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Paget병의 청력저하를 감각신경성으로만 한정한 일반화를 교정했다. 다른 제시 합병증보다 청력장애 D가 전형적임을 유지한다.
 
 ## 출처
 

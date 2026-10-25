@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "분만 전 부착 태반 분리라는 해부 기전은 임상 양상과 독립 개념."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 태아가 자궁 내에서 뒤쪽으로 위치하는 현상
 
 - 내부 학습 노트: 태반조기박리 (Placental Abruption)
 - 원본 경로: `source_notes/02 Diseases/12 산과/태반조기박리 (Placental Abruption).md`
-- 학습 목표: 원문 핵심: - **정의**: 분만 전 태반이 자궁벽에서 조기에 분리되는 것 - **원인**: 고혈압, 흡연, 코카인 사용, 고령(35세 이상), 이전 임신 시 태반조기박리 과거력, 다태임신, 양수과다증, 자궁 내 감압, 복부 외상 - **기전**: 태반과 자궁벽 사이의 혈관 구조가 파열되어 혈종이 형성되고, 이로 인해 태반이 자궁벽에서 분리됨. 태반의 산소 및 영양 공급 기능이 차단되어 태아 가사 및 사망을 초래할 수 있음
+- 학습 목표: 태반조기박리의 조기 분리
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 분만 전 부착 태반 분리라는 해부 기전은 임상 양상과 독립 개념.

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -36,15 +38,20 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 태아 선진부 하강 소실
+A. 태아 선진부의 상승(기존 하강 위치 소실)
 B. 혈역학적 불안정
 C. 태아 곤란
 D. 복부 압통
 
 ## 해설
 
+선진부가 0 station에서 -3 station으로 위로 물러난 것은 단순히 하강이 멈춘 것이 아니라 이미 내려왔던 위치를 잃은 소견이다. 이전 제왕절개 흉터, 갑작스러운 통증·출혈, 수축 소실과 함께 자궁 파열을 강하게 시사하며 A가 가장 특이적이다. 쇼크·태아곤란·복부압통은 다른 응급상황에서도 나타날 수 있다.
 
-분만 중 자궁 수축이 사라지고 자궁경부가 완전히 확장된 상태에서 태아 선진부가 하강을 멈춘 것은 자궁 파열에 따른 태아 선진부 하강 소실을 의미한다. 이는 가장 특이적인 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: loss of station을단순하강정지로설명한오역수정. 0→-3으로선진부상승A.
+
 
 ## 출처
 

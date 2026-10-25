@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 항히스타민제
 ## 해설
 
 
-JAK2 변이를 동반한 진성 적혈구증가는 요산 생성 증가와 고요산혈증을 초래한다. 고요산혈증은 요산 결석 위험을 높이므로 알로푸리놀로 요산을 감소시키면 결석 재발을 예방할 수 있다. 따라서 알로푸리놀이 정답이다.
+진성적혈구증가증은 세포 회전율 증가로 요산 부하가 늘어날 수 있어, 고요산뇨성 요산 결석이라는 출제 맥락에서는 allopurinol A가 재발 예방에 도움이 된다. 그러나 아직 분석 중인 결석이 실제 요산 결석이라고 확정되지는 않았다. 성분·소변pH·요산 배설을 확인하여 선택하며 요산 결석의 기본 예방은 충분한 수분과 소변 알칼리화이고 allopurinol을 모든 요산 결석의 보편적 단독 일차약으로 쓰는 것은 아니다. PV 자체의 혈전 예방 치료와 결석 재발 예방 목적도 구별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003739 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PV의 높은 세포 회전율에 따른 요산 관련 결석 예방 A의 조건을 명시; 결석 분석·요산배설 확인 및 요알칼리화 필요성을 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://uroweb.org/guidelines/urolithiasis/chapter/metabolic-evaluation-and-recurrence-prevention
 
 ## 출처
 

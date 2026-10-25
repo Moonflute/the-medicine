@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 덱스라족산
 ## 해설
 
 
-시클로포스파마이드는 대사산물인 아세트알데히드가 방광에 축적돼 출혈성 방광염을 일으킨다. 메스나는 이 독성 대사산물을 중화해 방광 손상을 예방한다. 따라서 메스나 투여가 예방에 가장 효과적이다.
+시클로포스파마이드의 요로 독성 대사산물인 아크롤레인은 출혈성 방광염을 일으킬 수 있다. 메스나(B)는 아크롤레인 등 요로 독성 대사산물을 결합·불활성화해 방광 손상을 줄인다. 아세트알데히드라고 설명한 기존 해설은 잘못이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001418`와 직접 대조했다.
+- 판정: 출혈성 방광염 예방 메스나 B 유지. 독성 대사산물을 아세트알데히드에서 아크롤레인으로 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.cancer.gov/publications/dictionaries/cancer-drug/def/mesna
 
 ## 출처
 

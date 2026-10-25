@@ -19,17 +19,19 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RheGltZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 메트로니다졸
 
 ## 해설
 
+복수 PMN은1196×0.85로 약1017/μL여서 SBP를 지지한다. C의 cefotaxime은 제시 선택지 중 적절한 3세대 cephalosporin이며 ceftriaxone과는 다른 약이다. 지역 내성·의료관련 감염 여부·배양과 반응에 따라 항생제와 기간을 정한다. 모든 환자에서 반드시 1주일 이상이라는 설명은 부정확하며 albumin 병용 적응증도 평가한다.
 
-간경변 환자에서 복수에 세균 감염이 발생하면 세포탁심(ceftriaxone)과 같은 3세대 세팔로스포린이 1주일 이상 투여되는 것이 표준 치료이다. 다른 선택지는 복수량 조절이나 외과적 치료에 해당한다. 따라서 가장 적절한 치료는 세포탁심이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: PMN약1017의 SBP에서 cefotaxime C는 적절하나 ceftriaxone과 약명동일시·일률1주이상 치료 설명을 교정.
+- https://aasldpubs.onlinelibrary.wiley.com/doi/full/10.1002/hep.31884
 
 ## 출처
 

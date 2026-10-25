@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 일과성 허혈발작
 
 ## 해설
 
+약 25분 지속되는 반복 현훈과 이명, 변동하는 오른쪽 청력 저하는 메니에르병 B에 가장 부합한다. Rinne에서 공기전도가 골전도보다 크고 Weber가 왼쪽으로 편위되는 것은 오른쪽 감각신경성 난청을 지지한다. 원래 해설의 오른쪽 청각 우세는 본문과 반대이다. 수십 초의 자세 유발 BPPV나 전음성 난청 양상이 아니다.
 
-25분 정도 지속되는 회전성 현훈, 오른쪽 귀의 청각 감소, 웨버 검사에서 오른쪽 청각 우세는 변동성 감각신경성 난청을 동반한 메니에르병을 나타낸다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 해설의 Weber 오른쪽 우세를 본문의 왼쪽 우세로 교정하고 오른쪽 감각신경성 난청과 연결.
 
 ## 출처
 

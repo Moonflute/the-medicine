@@ -16,36 +16,51 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "사회적 평가 공포는 다른 불안장애와 독립된 중요 개념이며 자명한 무관심·적대감 대신 공포 초점을 비교."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-사회 불안 장애의 정의에 가장 부합하는 설명은?
+사회불안장애의 핵심 공포 초점은?
 
 ## 선택지
 
-A. 타인에게 부정적 평가에 대한 과도한 두려움
-B. 공포증에 대한 일반적 두려움
-C. 사회적 상황에서의 무관심
-D. 타인에 대한 적대감
+A. 타인에게 관찰되거나 평가받는 상황에서 부정적인 평가를 받을 것이라는 두려움
+B. 증상이 생겨도 대피하거나 도움을 받지 못할 것이라는 두려움
+C. 특정 동물이나 자연환경의 위험만을 과도하게 두려워함
+D. 여러 일상 영역의 문제에 대한 통제하기 어려운 걱정이 주가 됨
 
 ## 해설
 
-사회 불안 장애는 타인에게 부정적인 평가를 받을 수 있는 사회·수행 상황에 대해 과도한 두려움과 불안을 느끼는 것이 핵심 정의이다.
+사회불안장애에서는 타인에게 관찰되거나 평가받을 수 있는 사회·수행 상황에서 부정적인 평가를 받을 것이라는 공포가 핵심이다. 장소 자체보다 공포의 초점을 비교한다.
 
 ## 오답 포인트
 
-- **B. 공포증에 대한 일반적 두려움:** 일반적인 공포증은 사회적 평가와 직접적인 연관이 없다.
+- **탈출·도움 곤란:** 광장공포증의 초점과 구분한다.
+- **특정 대상 위험:** 특정공포증의 개념과 구분한다.
+- **다양한 일상 걱정:** 범불안장애의 걱정 양상과 구분한다.
 
 ## 출처
 
 - 내부 학습 노트: 사회 불안 장애 (Social Anxiety Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/사회 불안 장애 (Social Anxiety Disorder).md`
-- 학습 목표: 원문 핵심: - 정의: 타인에게 부정적인 평가를 받을 수 있는 사회적 상황이나 수행 상황에 대해 과도한 두려움과 불안을 느끼는 질환. - 특징: 사회적 상황을 회피하거나 극심한 불안 속에서 견뎌내며, 이로 인해 일상생활 및 사회적 기능에 현저한 지장이 발생함.
+- 학습 목표: 사회불안장애의 타인에게 관찰·평가받는 상황에서의 부정적 평가 두려움을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 사회적 평가 공포는 다른 불안장애와 독립된 중요 개념이며 자명한 무관심·적대감 대신 공포 초점을 비교.
+- 근거: https://www.nimh.nih.gov/health/publications/phobias-and-phobia-related-disorders
+- 근거: https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad

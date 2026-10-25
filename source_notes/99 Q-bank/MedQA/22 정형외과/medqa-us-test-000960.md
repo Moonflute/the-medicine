@@ -19,17 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
 ---
 
 # MedQA US 임상문제
@@ -47,8 +48,12 @@ D. 견봉하 점액낭염
 
 ## 해설
 
+정답은 B, 유착성 관절낭염이다. 당뇨병은 위험인자이며, 어깨의 능동 운동뿐 아니라 검사자가 움직이는 수동 운동범위까지 함께 감소하는 것이 핵심 단서이다. 회전근개 충돌이나 견봉하 윤활낭염에서는 통증 때문에 능동 운동이 제한될 수 있지만, 이러한 전반적인 수동 운동제한은 덜 전형적이다. 견관절 골관절염도 운동제한을 일으킬 수 있으나, 이 케이스의 당뇨병과 뚜렷한 관절 강직은 유착성 관절낭염을 가장 지지한다.
 
-고혈압 환자에서 β1 선택적 차단제인 메토프롤롤 숙시네이트는 심근경색 후 사망률을 가장 크게 감소시킨다. 이는 대규모 임상시험에서 입증된 2차 예방 약물이다. 다른 베타 차단제는 선택성이 낮아 효과가 상대적으로 적다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문의 본문·선지·정답 및 한국어 해설을 개별 대조하였다. 원정답과 케이스를 유지하고 잘못 연결된 해설을 교체하였다.
+- 공식/학회 근거: https://www.orthopt.org/uploads/content_files/ICF/Updated_Guidelines/Shoulder_Guidelines_AdhesiveCapsulitis_JOSPT_May_2013.pdf
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 좌측 유방 MRI
 ## 해설
 
 
-유두-유륜 병변은 유두 파제드병(Paget disease)으로, 조직학적 확인이 필요하다. 가장 정확한 진단을 위해 유두 부위 펀치 생검을 시행하고, 동시에 양측 유방촬영술으로 전이 여부를 평가한다. 따라서 정답은 B이다.
+지속·진행하는 일측 유두-유륜의 습진양 병변은 mammary Paget disease를 의심해야 한다. 보기 중 유두 병변의 punch biopsy와 bilateral mammography B가 적절하다. 피부 조직으로 Paget cell을 확인하고 영상은 동반 DCIS/침윤성 유방병변 등을 찾기 위한 것이지 유방촬영만으로 전신전이를 평가하는 검사는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008375 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Paget진단 B유지; bilateral mammography는전이검사가아니라 동반유방병변 평가라는오류교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/breast-cancer-types/paget-disease-breast
 
 ## 출처
 

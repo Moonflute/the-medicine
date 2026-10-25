@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 로감 투여
 
 ## 해설
 
+비감작 RhD 음성 산모에서 ECV는 태아모체출혈을 유발할 수 있어 시술과 관련해 RhIG(D)를 투여한다. 통상 시술 후 예방하며 기관 프로토콜에 따라 항체 상태·출혈량을 확인한다. 이전 정기 예방 투여가 있었다고 시술 관련 필요성을 자동 배제하지 않는다.
 
-외부 두정위 교정술 전에는 Rh 음성 임산부에게 Rh 면역글로불린(Rho(D) Ig) 투여가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ECV 관련 태아모체출혈 예방의 조건 및 투여 시점 명료화.
+- https://www.rmf.harvard.edu/Risk-Prevention-and-Education/Guidelines-and-Algorithms-Catalog-Page/Guidelines-Algorithms/2026/OB-Guideline-Files/Appendix-E-Breech-Version-or-External-Cephalic-Version
 
 ## 출처
 

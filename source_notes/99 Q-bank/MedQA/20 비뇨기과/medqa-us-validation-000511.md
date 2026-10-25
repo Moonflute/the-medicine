@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 과거 클라미디아 감염이 재발한 것이다
 
 ## 해설
 
+여성의 짧은 요도는 회음부의 장내 세균이 요도를 거쳐 방광으로 올라가기 쉽게 하는 해부학적 요인이므로 C가 적절하다. 일반적인 재발성 방광염이 남편의 무증상 STI 보균이나 과거 클라미디아 재발 때문이라고 단정할 수는 없다. 질분비물 등 비전형 증상이 있으면 다른 원인도 평가하지만 이 문항은 성별 감수성 차이의 기본 기전을 묻는다.
 
-여성은 남성보다 요도가 짧아 방광으로부터 세균이 쉽게 상승하여 요로감염이 재발한다. 이는 남성 파트너가 무증상 보균자이거나 이전 치료와는 무관하게 여성의 해부학적 특성이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 세균이 방광으로부터 상승한다는 역방향 해부 설명을 회음부에서 방광으로의 상행 감염으로 교정.
 
 ## 출처
 

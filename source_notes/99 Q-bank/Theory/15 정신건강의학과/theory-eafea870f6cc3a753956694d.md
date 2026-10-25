@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: D
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "면담상 정신상태와 실험실 검사의 자료 유형을 구분하는 쉬운 복습으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ MSE는 사고·감정·인지·병식 등 정신적 상태를 평가하며, 혈�
 
 - 내부 학습 노트: 정신사회적 치료 (Psychosocial Therapies)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/정신사회적 치료 (Psychosocial Therapies).md`
-- 학습 목표: 원문 핵심: * **CC**: 우울, 불안, 대인관계 문제, 부적응적 행동, 신체화 증상 등. * **P/E**: 정신상태검사(MSE)를 통해 사고, 감정, 인지 기능 및 병식 평가.
+- 학습 목표: 정신상태검사의 사고·정서·인지 영역
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 면담상 정신상태와 실험실 검사의 자료 유형을 구분하는 쉬운 복습으로 유지.

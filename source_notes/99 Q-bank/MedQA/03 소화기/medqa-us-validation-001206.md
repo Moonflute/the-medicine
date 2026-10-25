@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 항미토콘드리아 항체 측정
 ## 해설
 
 
-알칼리성 인산분해효소 상승은 담도계 이상을 시사한다. 감마글루타밀전이효소(GGT)는 담도 폐쇄나 담관 손상을 특이적으로 반영하므로 다음 검사로 적절하다. 정답은 감마글루타밀전이효소 측정이다.
+정답 C. ALP는 간담도계뿐 아니라 뼈 등에서도 유래하므로 고립 상승 시 간 기원인지 먼저 확인한다. GGT를 함께 측정하거나 검사 재확인을 하는 것이 적절하다. GGT 동반 상승은 간담도 기원을 지지하지만 담도폐쇄나 담관 손상에만 특이적인 것은 아니다. 영어 원문은 ALP 정상범위 20–70 U/L를 제시하므로 130은 이 검사실에서 상승이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001206 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고립 ALP 상승은 간/뼈 등 원인 구분이 필요하며 GGT를 담도폐쇄 특이 검사라고 한 과장 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gi.org/guideline/evaluation-of-abnormal-liver-chemistries/
 
 ## 출처
 

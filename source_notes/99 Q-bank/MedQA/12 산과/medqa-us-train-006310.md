@@ -18,15 +18,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 수유관 발달 실패
 
 ## 해설
 
+직장 복귀 후 직접 수유와 유즙 제거가 줄어든 직후 일시적 울혈에 이어 모유량이 감소했으므로 C가 가장 적절하다. 유즙 생산은 수요와 공급에 맞추어 조절되고, 유즙 제거·유두 자극 감소와 유방 내 국소 되먹임이 생산 감소에 기여한다. 정상 수유가 이미 가능했던 경과는 선천 유선·유관 발달 실패보다 이 설명에 부합한다. 남아 있는 젖이 곧바로 전신 프로락틴을 억제한다는 단일 기전으로 설명하지 않는다.
 
-모유량 감소의 가장 흔한 원인은 유방에 남아 있는 젖이 충분히 배출되지 않아 프로락틴 억제가 일어나는 ‘불충분한 유방 비우기’이다. 환자는 직장 복귀 후 수유 시간이 줄어들고, 유방이 충분히 비워지지 않아 젖 생산이 감소했다. 따라서 원인은 유방을 충분히 비우지 못함이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 젖이 남아 직접 프로락틴을 억제한다고 단순화한 설명을 수유 자극 감소와 국소 분비 조절로 바로잡았다.
+- https://womenshealth.gov/breastfeeding/learning-breastfeed/making-breastmilk
+- https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html
 
 ## 출처
 

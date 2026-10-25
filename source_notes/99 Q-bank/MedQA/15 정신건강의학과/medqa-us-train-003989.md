@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. BMI, HbA1c, 지질 수치, 프로락틴 수치 검사
 
 ## 해설
 
-
-조증 삽화와 정신증상이 나타난 환자에게는 조증과 우울증을 구분하기 위한 기본 검사로 갑상선 기능 검사가 필요하다. 따라서 가장 적절한 초기 단계는 TSH, β‑hCG, 혈청 크레아티닌 검사를 포함한 기본 혈액 검사이다.
+조증 양상과 발프로산 간독성 병력이 있어 대안으로 리튬 등을 고려하기 전 신기능·갑상선기능·임신 여부를 확인하는 선택이 적절하다. TSH는 갑상선 질환의 감별과 리튬 투여 전 기준치 평가에 필요하며 조증과 우울증을 단독으로 구별하는 검사가 아니다. 혈청 크레아티닌은 신기능, β-hCG는 임신 여부 평가 목적이다. 실제 안전성 평가는 이 세 검사만으로 모두 완료되는 것은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003989
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. TSH 검사를 조증-우울증 구분 검사로 잘못 설명한 해설 수정. 가임기·발프로산 간독성 병력에서 리튬 고려 전 기본검사 맥락 명시.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

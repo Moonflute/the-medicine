@@ -25,11 +25,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -56,7 +58,14 @@ D. 바이러스 감염
 ## 해설
 
 
-환자는 fluoxetine, selegiline, clonazepam, oxycodone 등 다수의 중추신경계 작용 약물을 복용했으며, 최근 약물 공급이 중단돼 급성 금단 및 약물 상호작용이 발생할 수 있다. 혼란, 고열, 고혈압, 고심박, 근육 경련·클로누스는 세로토닌 증후군이나 약물 과다복용에 흔히 나타난다. 가장 가능성 높은 원인은 약물 합병증이다.
+SSRI인 fluoxetine을 복용하던 환자에게 MAO-B 억제제 selegiline이 추가된 뒤 발열, 발한, 초조·혼란, 과반사와 clonus가 발생한 것은 세로토닌증후군에 부합한다. 따라서 C이다. 약이 떨어진 시점보다 앞서 증상이 시작되었고 과반사·clonus는 단순 진정제 금단보다 세로토닌 독성을 더 강하게 뒷받침한다. 실제 혈압은 111/78 mmHg로 고혈압 소견이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000906 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: fluoxetine에 selegiline 추가 후 세로토닌증후군이 핵심이며 전날 금단이나 실제 없는 고혈압을 주원인으로 제시한 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed-beta.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0&type=display
 
 ## 출처
 

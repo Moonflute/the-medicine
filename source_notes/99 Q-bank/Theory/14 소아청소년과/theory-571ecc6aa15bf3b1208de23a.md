@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "염색체 숫자만이 아니라 성장·난소 기능을 연결."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-터너 증후군(Turner Syndrome)의 정의는?
+Turner 증후군을 시사하는 대표적인 조합은?
 
 ## 선택지
 
-A. X 염색체의 부분적 또는 완전한 결실로 발생하는 여성의 염색체 이상 질환(주로 45,X)
-B. 남성에게 2개 이상의 X 염색체가 존재하는(47,XXY) 염색체 이상 질환
-C. 21번 염색체 삼염색체가 존재하는 여성의 염색체 이상 질환
-D. Y 염색체 결실로 인한 남성의 성선 기능 저하 질환
+A. 여아의 저신장과 난소 기능 저하에 따른 사춘기 지연
+B. 항상 큰 고환과 정자 과다
+C. 모든 경우 정상 키와 조기 폐경만
+D. 남아의 SMN1 결핍과 하위운동신경 약화
 
 ## 해설
 
-터너 증후군은 X 염색체가 하나 없거나 부분 결실된(주로 45,X) 여성에게 나타나는 염색체 이상이다.
+X 염색체의 전체 또는 일부 소실·모자이크와 관련된다. 심장·신장·청력 등 동반 문제도 평가하며 전형적인 익상경이 없다고 배제하지 않는다.
 
 ## 오답 포인트
 
-- **B. 남성에게 2개 이상의 X 염색체가 존재하는(47,XXY) 염색체 이상 질환:** 클라인펠터 증후군은 남성에게 추가 X 염색체가 있는 경우이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 터너 증후군 (Turner Syndrome)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/터너 증후군 (Turner Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: X 염색체의 부분적 또는 완전한 결실로 인해 발생하는 여성의 염색체 이상 질환 (주로 45,X) - **원인**: 감수분열 시 비분리 현상 또는 X 염색체의 구조적 이상으로 발생하며, 대부분 산발적으로 나타남 - **기전**: X 염색체 유전자 용량 부족(haploinsufficiency)으로 인한 성장 지연 및 성선 발달 부전
+- 학습 목표: Turner 증후군의 저신장·난소 기능 저하

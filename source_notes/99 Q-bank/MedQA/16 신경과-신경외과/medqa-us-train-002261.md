@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 왼쪽 중대뇌동맥 하부분지
 
 ## 해설
 
+상지·얼굴에 비해 왼쪽 하지의 근력저하가 두드러지고 말수 감소·무감동이 있어 우측 내측 전두엽과 하지 운동영역을 공급하는 오른쪽 전대뇌동맥(A) 영역이 가장 합당하다. 중대뇌동맥 병변은 대체로 얼굴·상지 우세 결손 또는 언어·시야 등 피질 증상을 보인다. 다만 원문에 함께 적힌 오른쪽 다리 촉각저하와 하지를 포함한 드리프트 없음은 다른 검사 결과와 완전히 일관되지 않으며, 이들을 우측 ACA의 전형적 소견이라고 설명해서는 안 된다. 주된 운동 분포와 무감동을 기준으로 한 최선답이다.
 
-전대뇌동맥 폐색은 대뇌 전두엽 및 다리 부위의 감각·운동 결손을 일으키며, 환자의 증상과 일치한다. 따라서 오른쪽 전대뇌동맥이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 좌측 하지 우세 운동결손·무감동으로 우측 ACA A가 가장 타당하나 우측 다리 감각저하라는 원문의 불일치는 숨기지 않는다. 병변 측과 다리 우세 분포를 명시했다.
 
 ## 출처
 

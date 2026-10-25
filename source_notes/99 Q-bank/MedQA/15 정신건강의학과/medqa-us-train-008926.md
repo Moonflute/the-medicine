@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,16 @@ D. 근육통
 
 ## 해설
 
-
-양귀비 씨앗을 섭취하면 모르핀과 유사한 알칼로이드가 소변 검사에서 양성으로 나타날 수 있다. 이러한 알칼로이드는 동공 수축(miosis)을 일으키는 특징이 있다. 따라서 오피오이드 양성 반응과 연관된 신체 소견은 동공축소이다.
+양귀비씨 음식 섭취는 검사 조건에 따라 오피에이트 양성 해석에 영향을 줄 수 있다. 질문은 이 환자가 실제로 그 약물군을 남용·중독한 경우의 소견을 가정하므로, 제시된 선택지 중 오피오이드 중독의 동공축소가 적절하다. 음식 섭취 후 검사 양성만으로 이 환자의 남용이나 임상적 동공축소를 확정하는 것은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008926
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 양귀비씨 섭취 후 양성이 곧 임상 중독·동공축소를 뜻하는 듯한 설명을 원문의 가정적 오피오이드 중독 소견 질문으로 교정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.fda.gov/medical-devices/drugs-abuse-tests/drugs-abuse-home-use-test

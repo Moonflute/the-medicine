@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,14 @@ D. 반코마이신(vancomycin) 및 젠타마이신(gentamicin)
 
 
 MRSA 감염이 확인된 경우, 감염성 심내막염을 의심하고 경식도 초음파로 판막 손상을 평가해야 한다. 이는 치료 방향을 결정하는 핵심 검사이다. 따라서 다음 단계는 경식도 심장초음파이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000805 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 주사 약물 사용·심잡음·MRSA 감염과 치료 반응 불량에서 TEE로 심내막염 및 합병증을 평가하는 C를 원문과 대조해 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

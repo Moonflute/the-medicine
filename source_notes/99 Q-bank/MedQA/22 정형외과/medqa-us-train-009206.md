@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 대퇴골두 골괴사
 
 ## 해설
 
+고관절 외측 통증, 해당 쪽으로 눕기·계단에서 악화, 대전자 주변 압통과 저항성 외전 통증은 대전자 통증 증후군(GTPS, A)을 시사한다. 둔근 힘줄병증과 주변 윤활낭 등 여러 구조가 관련될 수 있어 단순히 대전자 건염 하나와 동의어는 아니다. 통증은 2개월 전 시작되어 2주 전 프레드니손보다 먼저였으므로 복용 후 생겼다고 설명하지 않는다. 골괴사는 보통 깊은 서혜부 통증·관절 회전 통증이 단서이며 정상 X선만으로 완전히 배제되지는 않는다.
 
-외전 시 통증과 압통, 그리고 X선에서 이상이 없으며 프레드니손 복용 후 발생한 증상은 대전자 통증 증후군(대전자 건염)과 일치한다. 이는 보존적 치료와 물리치료가 우선이며, 진단적 확인을 위해서는 특별한 영상이 필요하지 않다. 따라서 가장 가능성 높은 진단은 대전자 통증 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 통증이 2개월 전 시작되어 프레드니손보다 앞선다는 시간관계를 복원하고 GTPS를 반드시 건염 하나로만 설명하지 않도록 교정했다.
 
 ## 출처
 

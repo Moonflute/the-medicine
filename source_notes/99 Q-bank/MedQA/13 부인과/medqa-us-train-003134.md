@@ -19,16 +19,18 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 즉시 메토트렉세이트 투여
 
 ## 해설
 
+현재는 hCG 805만 있고 초음파를 이미 시행했다는 정보가 없다. 안정적이며 경고 증상이 없다면 선택지 중 수일 후 질식 초음파(B)로 위치·생존을 평가하는 것이 적절하다. 필요시 48시간 hCG 추적을 병행하고 단일 차별역값만으로 치료하지 않는다. 통증·출혈·실신이 생기면 예약일까지 기다리지 말고 즉시 재평가한다.
 
-β‑hCG 805 mIU/mL은 임신 초기이지만 초음파에서 임신이 확인되지 않는 ‘임신 위치 미확인’ 상태이며, 차별 구역(1500 mIU/mL) 이하이므로 48시간 후 경질 초음파(질식 초음파)를 반복해 위치를 확인한다. 이는 가장 적절한 다음 단계이며, 즉시 미소프로스톨 투여는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 시행되지않은초음파결과창작삭제 및원선지4일과해설48시간불일치수정.
+- https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
 
 ## 출처
 

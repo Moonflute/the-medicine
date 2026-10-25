@@ -25,12 +25,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,6 +52,13 @@ D. 우심도자술 의뢰
 
 
 WPW 증후군에서 전기생리검사로 부정맥 회로를 확인하고, 재발 방지를 위해 경피적 전도 차단술(절제술) 의뢰가 표준 치료이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: WPW와 증상성 preexcited tachyarrhythmia 재발예방은 EP평가/부전도로 절제 C. ECG누락이어도 기왕WPW·불안정AF 명시로 적응증 판단 가능.
+- https://academic.oup.com/eurheartj/article/41/5/655/5556821
 
 ## 출처
 

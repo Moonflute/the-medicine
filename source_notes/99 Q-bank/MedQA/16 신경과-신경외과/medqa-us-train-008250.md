@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 강직간대발작
 
 ## 해설
 
+반복적 감각 증상과 후각 현상이 생기지만 의식소실이나 혼돈이 없어 국소 인식보존 발작(A, 기존 명칭 단순 부분발작)에 가장 가깝다. 인식장애를 동반하면 복합 부분발작에 해당하는 국소 인식장애 발작을 고려한다. 정상 구조 MRI만으로 발작을 배제하지 않으며 EEG와 임상 경과를 함께 평가한다.
 
-후각 오라(우유 냄새)와 의식 저하가 동반된 발작은 단순 부분발작(의식 유지)으로 가장 흔히 나타난다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 의식저하가 있다고 한 해설을 본문에 맞게 의식 보존으로 교정.
 
 ## 출처
 

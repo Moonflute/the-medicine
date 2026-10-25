@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 반복적 사혈
 ## 해설
 
 
-급성 근력 저하와 두정엽 저음영 병변, 혈소판·적혈구 증가, 적혈구생성인자 감소는 진성 적혈구증가증(Polycythemia vera)과 연관된 혈전성 합병증을 예방하기 위해 반복적 사혈이 권장된다. 따라서 정답은 반복적 사혈이다.
+다계열 증가·낮은 EPO·홍조와 소양증은 PV를 시사하며 사혈 D는 hematocrit을 낮춰 혈전 위험을 줄이는 핵심 치료다. 실제3시간 전 시작된 신경결손은 별도의 급성 뇌졸중 응급평가가 우선/병행되어야 하고 사혈만으로 급성 뇌졸중 진료를 대체하지 않는다. PV는 일반적으로 Hct<45% 목표 및 금기 없는 저용량 aspirin을 고려하며 혈전 병력이 있으면 세포감소요법도 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004195 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PV의 합병증 예방 사혈 D 유지; 실제 급성 뇌졸중 평가와 고위험군의 추가 치료를 누락하지 않도록 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/myeloproliferative/hp/myeloproliferative-neoplasms-treatment
 
 ## 출처
 

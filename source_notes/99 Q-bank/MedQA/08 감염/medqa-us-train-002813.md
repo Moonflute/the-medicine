@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 약물치료를 하지 않는다
 ## 해설
 
 
-고양이 물림에 의한 Bartonella henselae 감염은 보통 자가 제한적이며, 면역정상이면 항생제 없이 관찰이 적절하다. 다른 항생제는 증상이 심하거나 면역억제된 경우에만 고려된다.
+새끼 고양이에게 긁힌 부위의 구진과 같은 쪽 국소 림프절염은 Bartonella henselae 고양이긁힘병에 합당하다. 면역정상에서 전신 합병증 없는 국소 질환은 흔히 자연 호전되므로 D의 항균 약물 없이 관찰·증상 관리가 가능하다. 다만 azithromycin은 림프절 크기 감소를 앞당길 수 있어 증상 정도·환자 선호에 따라 고려하며 면역저하나 파종 질환이면 항균치료가 필요하다. 단순 물림으로만 전파된다고 설명하거나 A가 어떤 경증에서도 금기라고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002813 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 단순 고양이긁힘병의 관찰 D는 가능한 선택이나 항생제가 중증·면역저하에만 가능하다는 과도한 배제와 물림 오역 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/bartonella/hcp/clinical-overview/cat-scratch-disease.html
 
 ## 출처
 

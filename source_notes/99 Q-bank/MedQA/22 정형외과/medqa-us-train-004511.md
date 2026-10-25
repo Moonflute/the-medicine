@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 혈청 칼슘 증가
 
 ## 해설
 
+정답은 B, 혈청 알칼리성 인산분해효소(ALP) 증가이다. 모자가 맞지 않을 정도의 두개골 변화, 청력저하 및 두개골·골반·대퇴골의 골스캔 섭취 증가는 파제트 골질환을 시사한다. 비정상적으로 증가한 골재형성과 골형성 활동 때문에 ALP가 상승하며, 합병증이 없는 경우 혈청 칼슘은 보통 정상이다. 골스캔 소견은 본문에 서술되어 있어 별도 이미지가 없어도 답을 판단할 수 있다.
 
-Streptococcus bovis 균혈증은 대장암과 강하게 연관된다. 따라서 원발 종양을 찾기 위해 대장내시경 검사가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. S. bovis/대장내시경 해설은 다른 케이스. 두개골 크기 증가·청력저하·골스캔 섭취를 파제트 골질환과 ALP 상승으로 설명. 원정답 B 유지.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/pagets-disease-of-bone/
 
 ## 출처
 

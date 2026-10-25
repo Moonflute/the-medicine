@@ -17,13 +17,15 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 제III형 및 제IV형-혼합 면역 복합체 및 세포 매개 과민 반�
 
 ## 해설
 
+양측 폐문 림프절병증과 ACE 상승은 사르코이드증을 시사한다. 활성화된 T세포와 대식세포의 세포매개 면역반응에 의한 비건락성 육아종 형성이 특징이며, 보기 중 제IV형 지연성 과민반응(C)에 해당한다. ACE 상승만으로 확진되는 것은 아니며 감염성 육아종 등은 임상 상황에 따라 감별한다.
 
-양측 폐문 림프절 비대와 ACE 상승은 육아종증(sarcoidosis)의 특징이며, 이는 제IV형(세포 매개, 지연형) 과민반응에 의해 비육아종성 육아종이 형성되는 과정이다. 따라서 원인은 제IV형 세포 매개 반응이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 비육아종성 육아종이라는 모순을 비건락성 육아종으로 정정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

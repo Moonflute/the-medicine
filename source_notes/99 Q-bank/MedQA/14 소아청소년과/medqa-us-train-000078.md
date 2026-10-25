@@ -15,15 +15,17 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 초음파 유도 하 팔꿈치 앞 정맥 도관 삽입
 
 ## 해설
 
+쇼크 상태에서 말초 정맥 접근이 지연되면 골수내 접근(C)으로 신속히 수액·응급 약물을 투여할 수 있다. 이는 특정 양의 혈액을 확보하기 위한 시술이 아니다. 소생·감염 평가 등을 함께 진행하고 금기나 위치는 소아 소생 지침에 따른다.
 
-신생아의 저혈압과 말초 정맥 접근 실패 시 골수 내 접근은 빠른 혈액 공급을 제공한다. 골수 내 카테터 삽입은 최소 1 mL/kg의 혈액을 즉시 확보할 수 있다. 따라서 가장 적절한 다음 단계는 골수 내 도관 삽입이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 쇼크에서 반복 정맥 확보 실패 후 골수 접근 C 유지. 혈액 1 mL/kg 확보라는 근거 없는 설명 제거.
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support
 
 ## 출처
 

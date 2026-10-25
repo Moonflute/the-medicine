@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "정의 반복을 증상 완화를 위한 치료 핵심으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-크룹(Croup)의 정의는?
+소아 croup 치료의 일반적인 원칙은?
 
 ## 선택지
 
-A. 후두·기관·기관지를 침범하는 급성 호흡기 질환으로, 후두부 부종 및 협착을 일으킨다
-B. 폐포에 염증이 생겨 호흡곤란과 기침을 유발하는 질환
-C. 상기도에 세균 감염으로 인한 고열과 인후통이 주된 증상인 질환
-D. 기관지에 알레르기성 염증이 생겨 천식 발작을 일으키는 질환
+A. Corticosteroid를 사용하고 중등도·중증에서는 흡입 epinephrine과 관찰을 고려한다
+B. 모든 경증 환자에게 즉시 기관삽관
+C. 항생제가 모든 croup의 기본 치료
+D. Epinephrine 후 잠시 좋아지면 관찰 없이 항상 귀가
 
 ## 해설
 
-크룹은 후두와 기관을 침범해 후두부 부종·협착을 일으키는 급성 호흡기 질환이다.
+Dexamethasone은 중증도 전반에서 유용하다. 흡입 epinephrine의 효과는 일시적이므로 투여 후 재악화 여부를 관찰하며 기도 위험에 따라 대응한다.
 
 ## 오답 포인트
 
-- **B. 폐포에 염증이 생겨 호흡곤란과 기침을 유발하는 질환:** 폐포 염증은 폐렴과 관련된다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 크룹 (Croup)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/크룹 (Croup).md`
-- 학습 목표: 원문 핵심: - **정의**: 후두, 기관, 기관지를 침범하는 급성 호흡기 질환 - **원인**: 파라인플루엔자 바이러스(PIV)가 가장 흔함. 그 외 인플루엔자, 아데노바이러스, RSV 등 - **기전**: 상기도 염증으로 인한 후두부 부종 및 협착으로 들숨 시 그렁거림(stridor)과 컹컹거리는 기침 유발
+- 학습 목표: Croup의 steroid와 중등도 이상 nebulized epinephrine
+
+## 검수 근거
+
+- https://cps.ca/en/documents/position/acute-management-of-croup

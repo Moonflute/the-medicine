@@ -17,13 +17,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 반사회성 인격장애
 
 ## 해설
 
+고등학교 진학 뒤 4개월의 성적 변화와 부모와의 갈등만으로 반항장애나 품행장애를 진단할 수 없으며, 제시된 선택지에서는 정상 사춘기 행동(B)이 가장 적합하다. 반항장애는 법 위반이 없어도 진단될 수 있어 ‘사회적·법적 위반이 없으므로 병적이지 않다’는 해설은 틀리다. 지속 기간·여러 관계에서의 행동 양상과 기능 저하, 기분·물질사용·학습 문제를 평가해야 한다.
 
-청소년기의 반항적 행동은 발달상의 정상 범위이며 학업·가정 스트레스와 연관될 수 있다. 증상이 사회적·법적 위반을 초과하지 않으므로 병리적 행동장애가 아니다. 따라서 정상 행동이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 법적위반없으면행동장애아니라는틀린기준삭제.4개월새학교적응과ODD지속양상미충족으로B.
+
 
 ## 출처
 

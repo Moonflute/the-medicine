@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 침상 안정
 ## 해설
 
 
-젊은 남성의 요통, 아침에 악화, 양측 천장관절염은 강직성 척추염을 특징짓는다. 첫 번째 치료는 비스테로이드성 항염제와 함께 TNF‑α 억제제인 인도메타신(인플릭시맵)이다. 따라서 가장 적절한 치료는 인도메타신이다.
+염증성 요통, 양측 천장관절염과 눈 통증·시야흐림 병력은 axial spondyloarthritis를 시사한다. 초기 통증·강직 조절에는 운동·물리치료와 NSAID를 사용하므로 보기 중 indomethacin A가 적절하다. Indomethacin은 cyclooxygenase 억제 NSAID이며 infliximab이나 TNF inhibitor가 아니다. 생물학적 치료는 적절한 기존 치료에도 활동성이 지속될 때 별도 기준으로 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009203 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: indomethacin을 infliximab/TNF억제제로 혼동한 위험 약리오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/NG65/chapter/Recommendations
 
 ## 출처
 

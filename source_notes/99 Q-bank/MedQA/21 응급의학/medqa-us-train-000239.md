@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 지지 요법 및 모니터링
 
 ## 해설
 
+Benzodiazepine 복용 중단 뒤 불안·빈맥·발한·떨림과 진행하는 혼돈은 금단을 시사한다. 장시간 작용하는 diazepam(A) 등 적절한 benzodiazepine으로 안정화하고 감시하에 점진 감량을 계획한다. Diazepam은 반감기가 짧은 약이 아니며 활성 대사산물도 있다. 중증 금단은 발작·섬망 위험이 있어 단순 안심·관찰만으로 끝내지 않는다.
 
-벤조디아제핀을 장기간 복용하던 환이가 급성 금단 증상을 보이면, 빠른 효과와 짧은 반감기를 가진 디아제팜이 금단 완화에 가장 적합하다. 따라서 디아제팜을 투여한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Diazepam A를 짧은 반감기라고 적은 약동학 오류를 교정한다.
+- 공식/학회 근거: https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering
 
 ## 출처
 

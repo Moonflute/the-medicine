@@ -12,15 +12,20 @@ target_type: disease
 target_slug: "MjIg7KCV7ZiV7Jm46rO8L-uMgO2HtOqzqOuRkCDrrLTtmIjshLEg6rS07IKs7KadIChPc3Rlb25lY3Jvc2lzIG9mIHRoZSBGZW1vcmFsIEhlYWQpLm1k"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "일반 MRI가 혈액 공급을 직접 측정한다는 부정확한 설명을 초기 골 변화 검출로 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -38,14 +43,18 @@ D. 초음파
 
 ## 해설
 
-MRI는 골수 내 혈액 공급 감소를 조기에 감지해 초기 대퇴골두 무혈성 괴사증 진단에 가장 민감한 검사이다.
+MRI는 단순 X-ray에 아직 보이지 않는 초기 골·골수 변화를 확인하고 병변 범위를 평가하는 데 유용하다. X-ray가 정상이어도 임상적으로 골괴사가 의심되면 추가 평가를 고려한다.
 
 ## 오답 포인트
 
-- **B. X-ray:** X-ray는 병변이 진행된 후에만 변화가 나타난다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 대퇴골두 무혈성 괴사증 (Osteonecrosis of the Femoral Head)
 - 원본 경로: `source_notes/02 Diseases/22 정형외과/대퇴골두 무혈성 괴사증 (Osteonecrosis of the Femoral Head).md`
-- 학습 목표: 원문 핵심: - **영상 검사 원칙**: 정확한 병기(staging) 결정이 치료 방침 결정의 핵심임. - **MRI**: 초기 진단 및 병변 범위 평가에 가장 민감한 표준 검사. - **X-ray**: 진행 단계에서 경화, 낭종, 대퇴골두 함몰 및 관절 간격 감소 확인.
+- 학습 목표: 대퇴골두 골괴사의 초기 MRI 평가
+
+## 검수 근거
+
+- https://www.orthoinfo.org/diseases--conditions/osteonecrosis-of-the-hip/

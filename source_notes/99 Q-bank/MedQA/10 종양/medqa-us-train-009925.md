@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 수술적 감압 및 수술 후 방사선치료
 ## 해설
 
 
-척수 압박이 있는 경우, 기대 수명이 1년 이상이면 외과적 감압을 통해 신경기능을 회복하고, 이후 방사선치료로 종양을 제어한다. 보존적 방사선이나 화학요법만으로는 급성 신경 손상을 방지할 수 없다. 따라서 수술적 감압 및 수술 후 방사선치료가 적절하다.
+새 양측 하지 위약·과반사와 MRI의 척수압박 및 T12 추체 파괴는 종양성 척수압박 응급상황이다. 신속한 전문팀 평가와 신경 증상에 대한 dexamethasone 등을 시행하고 안정성·전신 상태·종양 특성을 고려한다. 이 케이스는 예상 생존이 길고 파괴성 병변과 신경 손상이 있어 감압/안정화 수술 후 방사선 D가 적절한 선택이다. 예상 생존 1년만으로 수술을 일률 결정하지 않으며 수술이 부적합한 환자에서는 방사선도 중요한 치료다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009925 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 신경학적 척수압박·추체 파괴와 양호한 예후에서 감압 후 방사선 D 유지; 생존 1년만으로 일률 수술하는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations
 
 ## 출처
 

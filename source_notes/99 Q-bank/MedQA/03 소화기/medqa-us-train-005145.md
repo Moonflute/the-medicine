@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 메토클로프라미드 치료
 
 ## 해설
 
+젊고 명확한 경고소견이 없는 미조사 소화불량에서는 C의 비침습 H.pylori 대변항원 검사와 양성시 제균 접근이 적절하다. 3주 증상만으로 기능성 소화불량을 확진하지 않으며 검사에 영향 주는 PPI·항생제 복용도 확인한다.
 
-식사 후 악화되는 상부 복통과 조기 포만감은 기능성 소화불량을 시사한다. 헬리코박터 파일로리 감염 여부를 비침습적으로 확인할 수 있는 대변 항원 검사가 가장 효율적인 초기 접근이다. 따라서 대변 항원 검사가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 3주 증상만으로 기능성 소화불량 확진하지 않고 미조사 소화불량 H.pylori검사 C로 정리.
+- https://gi.org/guideline/management-of-dyspepsia/
 
 ## 출처
 

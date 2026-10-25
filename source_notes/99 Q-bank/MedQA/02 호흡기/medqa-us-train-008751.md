@@ -19,17 +19,19 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. A-a 산소분압 차이 증가
 
 ## 해설
 
+좌하엽 폐렴으로 환기가 저하된 왼쪽 폐를 아래로 두면 중력에 의해 그쪽 관류가 증가하여 낮은 V/Q와 단락 효과가 커질 수 있다. 따라서 D처럼 A–a 산소분압 차이가 증가하고 산소화가 악화될 수 있다. 이는 단순히 병변 폐의 환기만 더 줄기 때문이라는 설명과 다르다. 원문의 pH, PaCO2, HCO3 조합은 서로 완전히 맞지 않아 혈액가스 수치는 별도 확인이 필요하지만, 이 체위 변화의 생리적 원리는 구별할 수 있다.
 
-좌하엽 폐렴으로 인한 V/Q 불균형은 폐의 환기가 감소하면서 A‑a 산소분압 차이가 증가한다. 환자를 측와위로 눕히면 병변 쪽 환기가 더 감소해 A‑a 차이가 더욱 커진다. 따라서 A‑a 차이 증가가 가장 잘 나타난다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 병변 폐를 아래로 둘 때 산소화 악화의 주된 기전을 환기 감소보다 관류 증가로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

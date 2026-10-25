@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 삼염기 반복 돌연변이
 
 ## 해설
 
+인후염 수주 후 나타난 무도운동, 정서 불안정, 근긴장 저하와 지속적으로 힘을 유지하지 못하는 우유 짜는 손잡기 양상은 시덴함무도병을 시사한다. 연쇄상구균 항원에 대한 면역반응이 신경 조직과 교차반응하는 기전(C)이 적절하다. 이는 류마티스열의 신경학적 표현이며 관절염 자체가 이 운동을 만든다는 뜻은 아니다.
 
-최근 인후통 후 발병한 사춘기 아이의 움직임 이상은 연쇄상구균 감염 후 면역 매개성 관절염(리우마티스열)에서 항체가 신경 조직을 교차반응해 발생한다. 항체 교차반응이 가장 가능성 높은 기전이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 시덴함무도병을 면역성 관절염 자체로 잘못 설명하고 9세를 사춘기로 단정한 표현을 교정했다.
+
 
 ## 출처
 

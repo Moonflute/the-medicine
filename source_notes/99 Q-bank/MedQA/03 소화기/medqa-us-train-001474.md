@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,15 @@ D. 담도 HIDA 스캔
 
 ## 해설
 
+정답은 B이다. 안정된 우상복부 통증·직접황달과 담즙정체성 검사 이상에서 경복부 초음파로 담낭결석과 담관 확장을 우선 평가한다. 비침습적인 초기 검사라는 의미이며 모든 총담관결석에 가장 민감한 검사는 아니다. 결과와 임상 위험에 따라 MRCP/EUS 또는 치료 ERCP를 선택한다.
 
-우상복부 통증과 경미한 황달, 비정상적인 간 효소와 ALP 상승은 담석에 의한 담도 폐쇄를 시사한다. 초음파는 담석과 담관 확장을 가장 민감하게 확인한다. 따라서 경복부 초음파가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 초음파는 초기 담도검사지만 모든 담관결석에 가장 민감하다는 과장 제거.
+- https://acsearch.acr.org/list/TopicNarrativePdf?topicId=132
+- https://www.asge.org/docs/default-source/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis-2019-june-gie.pdf
 
 ## 출처
 

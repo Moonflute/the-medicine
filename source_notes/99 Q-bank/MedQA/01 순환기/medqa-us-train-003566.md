@@ -20,17 +20,19 @@ question_type: prevention
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 전신 항생제
 
 ## 해설
 
+전형적 체위성 흉통과 심낭 마찰음은 급성 심낭염에 부합한다. Colchicine B는 aspirin/NSAID 등 항염증 치료에 병용하여 재발 위험을 줄인다. 미세소관과 염증세포 기능 및 inflammasome 신호 등에 작용하며 단순한 섬유증 억제제로 설명하지 않는다.
 
-급성 심낭염의 재발을 예방하는 1차 약물은 콜히친이다. 콜히친은 염증 매개체인 대식세포 활성과 섬유증을 억제해 재발 위험을 낮춘다. 따라서 재발 예방에 가장 적절한 약물은 콜히친이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 재발예방 colchicine B를 유지. 섬유증 억제를 주기전처럼 한 설명을 염증/미세소관 작용으로 교정.
+- https://academic.oup.com/eurheartj/article/46/40/3952/8234483
 
 ## 출처
 

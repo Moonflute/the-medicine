@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 임균
 
 ## 해설
 
+우상복부 통증과 간 주위의 바이올린 줄 같은 유착은 골반염 관련 간주위염인 Fitz-Hugh-Curtis 증후군을 시사한다. 임균 Neisseria gonorrhoeae(D)와 Chlamydia trachomatis가 관련될 수 있으며 보기에는 임균이 있다. 클라미디아를 임균의 학명이라고 쓰면 안 된다.
 
-간 주위 섬유성 흉터와 오른쪽 상복부 통증은 Fitz‑Hugh‑Curtis 증후군을 시사한다. 이 증후군은 임균(Chlamydia trachomatis) 감염에 의해 발생한다. 따라서 가장 가능성 높은 원인균은 임균이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임균의 학명을 Chlamydia trachomatis로 잘못 쓴 해설을 Neisseria gonorrhoeae로 교정했다.
+
 
 ## 출처
 

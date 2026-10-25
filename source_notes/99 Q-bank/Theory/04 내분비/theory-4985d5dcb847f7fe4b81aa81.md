@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "피로·기립 저혈압·소화기 증상과 색소침착의 전형 조합은 원발성 부신기능저하의 유용한 기본 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc15ymtpdxdut3lfc1necnrvrhnpnkfnnnjpdzy0cww3s0nbn1pxwtdlywrlrkj5yvcxagnua2drv1j5wlc1agjdqkpibk4xwm1acfkybgxibu41s1m1dfpbfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 갑상선 기능항진에 따른 체중 감소·불안·심계항진
 
 ## 오답 포인트
 
-- **B. 고혈압·다뇨·저칼륨혈증·근육 경련:** 고혈압·저칼륨은 원발성 알도스테론증의 특징이다.
+- **고혈압·다뇨·저칼륨혈증·근육 경련:** 고혈압·저칼륨은 원발성 알도스테론증의 특징이다.
 
 ## 출처
 
 - 내부 학습 노트: 원발성 부신 기능저하증(Primary Adrenal Insufficiency)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/원발성 부신 기능저하증(Primary Adrenal Insufficiency).md`
 - 학습 목표: 원문 핵심: * **CC**: 쇠약감, 피로, 기립성 저혈압, 식욕 부진, 오심, 구토, 설사. * **P/E**: 피부 및 점막의 과색소 침착(특히 압박 부위, 피부 주름, 흉터), 저혈압, 체중 감소, 탈수 징후.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 피로·기립 저혈압·소화기 증상과 색소침착의 전형 조합은 원발성 부신기능저하의 유용한 기본 복습으로 유지.

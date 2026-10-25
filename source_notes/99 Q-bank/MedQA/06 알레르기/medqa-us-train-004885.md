@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. IV형 과민반응
 ## 해설
 
 
-땀, 호흡곤란, 혈압 저하, 입술 부종, 천명성 협착음은 급성 IgE 매개 반응을 특징으로 하며, 이는 I형 과민반응(아나필락시스)이다. 따라서 I형 과민반응이 정답이다.
+땅콩 노출 직후 홍조·가려움·입술 부종과 협착음이 발생한 것은 IgE 매개 비만세포 활성화에 의한 I형 과민반응(A)을 지지한다. 아나필락시스는 저혈압 없이도 발생할 수 있으며 본문에 없는 발한을 근거로 삼지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-004885`와 직접 대조했다.
+- 판정: 땅콩 노출 직후 점막·기도 침범은 I형 반응. 7세에서 94/62를 저혈압이라고 단정하고 발한을 추가한 해설을 교정; A 유지.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
 
 ## 출처
 

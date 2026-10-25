@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "전형적 질 분비물의 기초 인지는 유지. 색만으로 원인을 확정하지 않도록 오답 제한."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 무색 투명
 
 ## 오답 포인트
 
-- **B. 황록색 거품성:** 황록색 거품성 분비물은 트리코모나스 감염의 특징입니다.
+- 황록색 거품성 분비물은 트리코모나스에서 나타날 수 있지만 분비물 색·모양만으로 감염을 확진하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 칸디다 (Vulvovaginal Candidiasis)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/칸디다 (Vulvovaginal Candidiasis).md`
-- 학습 목표: 원문 핵심: * **CC**: 외음부 가려움증, 작열감, 통증. * **P/E**: 외음부 및 질 점막의 홍반, 부종, 찰과상. 특징적인 치즈 덩어리 같은(thick, clumpy) 백색 질 분비물(분비물이 없을 수도 있음).
+- 학습 목표: 칸디다증의 전형적 응고성 백색 분비물
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 전형적 질 분비물의 기초 인지는 유지. 색만으로 원인을 확정하지 않도록 오답 제한.

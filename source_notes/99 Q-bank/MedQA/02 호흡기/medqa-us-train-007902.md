@@ -20,11 +20,11 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,14 @@ D. 세프트리악손으로 입원 치료
 
 ## 해설
 
+발열, 화농성 가래, 국소 수포음은 지역사회획득 폐렴을 의심하게 한다. 고령과 호흡수 33회/분으로 입원 평가가 타당하며, 제시된 선택지 중 C의 세포탁심과 아지스로마이신은 입원 환자의 표준 병용요법이다. 이 조합이 MRSA나 녹농균까지 보편적으로 치료한다는 뜻은 아니다. 누락된 X선의 구체적인 영상 소견이나 중증 CAP 기준 충족 여부를 임의로 만들지 않는다.
 
-고령 환자에서 고열, 악액감, 녹황색 가래, 폐렴 소견은 중증 커뮤니티 획득 폐렴을 시사한다. 입원 치료가 필요하며, 아지스로마이신과 세포탁심(β‑락탐제) 조합은 내성균 포함 광범위 치료에 권장된다. 따라서 정답은 아지스로마이신과 세포탁심이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 입원 CAP의 표준 병용 C를 내성균 전반을 포괄하는 치료나 확정 중증 CAP로 과장한 설명을 교정.
+- https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults
 
 ## 출처
 

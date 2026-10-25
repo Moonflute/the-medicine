@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 내림프수종
 
 ## 해설
 
+오랜 기간 진행한 양측 청력 저하, 특히 소음 속 말소리 분별의 어려움과 양성 Rinne·편위 없는 Weber는 노인성 감각신경성 난청에 합당하다. 원인으로 C, 달팽이관 유모세포 퇴행이 가장 적절하며 전음성 난청을 일으키는 진주종·이경화증과 구별된다. 다만 영어 원문과 번역에 모두 맥박 14회/분이라고 기재되어 있어 이 수치는 별도 원자료 확인이 필요하다. 이를 정상 활력징후로 해석하거나 임의로 다른 맥박으로 고치지 않았다.
 
-노년기에 청력 감소와 이명, 특히 배경 소음에서 말소리 이해가 어려운 경우는 감각신경성 난청인 노인성 난청이다. 이는 달팽이관 내 청각 유모세포의 퇴행이 주요 병인이다. 따라서 가장 가능성 높은 원인은 달팽이관 유모세포 퇴행이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 노인성 난청의 유모세포 퇴행 C는 타당하다. 원문과 번역 모두 맥박 14/분이므로 임의의 정상 수치로 바꾸지 않고 원문 이상치를 별도 지적.
 
 ## 출처
 

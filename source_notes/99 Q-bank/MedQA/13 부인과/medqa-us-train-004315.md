@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 췌장의 급성 염증
 
 ## 해설
 
+빈혈·LDH 상승, 간효소 상승 및 혈소판 감소는 HELLP를 시사한다. 간 내 미세혈관 손상과 부종·출혈 등으로 Glisson 피막이 늘어나 상복부 통증을 일으킬 수 있으므로 C가 맞다. 정상에 가까운 혈압만으로 HELLP를 배제하지 않는다.
 
-임신 30주에 혈소판 감소, 혈청 빌리루빈 상승, AST·LDH 상승, 단백뇨가 동반된 경우 HELLP 증후군을 의심한다. HELLP의 병리학적 특징은 간 피막(간 피막) 신장이다. 따라서 정답은 간 피막의 신장이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HELLP와 연관된 상복부 통증의 간 피막 신장 C 유지. 피막 신장을 HELLP 자체의 병리 정의로 둔 오류 교정.
+
 
 ## 출처
 

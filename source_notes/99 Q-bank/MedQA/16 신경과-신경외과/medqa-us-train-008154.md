@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 뇌파검사 시행
 
 ## 해설
 
+CT에 기술된 15mm 초승달 모양 혈종은 우측 경막하혈종이다. 진행성 의식변화와 좌측 신경학적 결손이 동반되어 긴급 신경외과적 혈종 제거(C)가 적절하다. 이를 경증 출혈로 표현해서는 안 된다. 급성 경막하혈종의 경우 두께 10mm 초과는 대표적인 수술 평가 기준이다. 관찰이 모든 혈종을 키운다는 뜻은 아니지만 이 환자의 크기와 악화 양상에서는 단순 관찰이 적절하지 않다.
 
-만성 또는 급성 경증 두개하 출혈(잠복성 경막하혈종)은 증상이 진행될 경우 외과적 배액이 필요하다. 관찰이나 약물 투여는 혈종이 커질 위험을 증가시킨다. 따라서 수술적 배액이 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 15mm 증상성 경막하혈종을 경증/잠복성 출혈로 표현한 오류 교정 및 수술 기준 확인.
+- 공식/학회 근거: https://ww2.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf
 
 ## 출처
 

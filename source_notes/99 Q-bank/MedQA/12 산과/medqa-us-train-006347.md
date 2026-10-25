@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 수두-대상포진 면역글로불린
 
 ## 해설
 
+수두 면역이 없는 임산부가 의미 있는 노출을 겪었으므로 VariZIG(D)를 가능한 빨리, 노출 후 10일 이내 투여하는 것이 미국 CDC 권고이다. 수두 발생을 예방하거나 중증도를 낮추기 위한 것이며 태아 감염 예방을 보장하지 않는다. 임신 중 생백신은 금기이고 출산 후 접종을 계획한다.
 
-임산부가 수두에 노출되었으나 면역이 없으며 임신 3분기에는 수두 감염이 태아에게 위험하다. 치료는 수두-대상포진 면역글로불린을 즉시 투여해 태아 감염 위험을 감소시킨다. 따라서 면역글로불린 투여가 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: VZIG 목적은 산모 감염 예방/완화이며 태아 감염 감소를 보장하지 않음.
+- https://www.cdc.gov/chickenpox/hcp/clinical-guidance/index.html
 
 ## 출처
 

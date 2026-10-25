@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 에틸렌글리콜
 
 ## 해설
 
+음이온차 증가 대사성 산증, 급성 신장 손상, 저칼슘혈증과 소변의 옥살산칼슘 결정은 에틸렌글리콜(D) 중독에 부합한다. 제시된 값으로 계산한 삼투압차는 측정값 320에서 계산값 약 294를 뺀 약 26 mOsm/kg이다. 에틸렌글리콜 대사산물은 산증을 일으키고 옥살산은 칼슘과 결합하여 신장 손상에 기여한다. 소변의 결정은 결석 자체와 같은 뜻이 아니다. 메탄올 중독의 시각 손상이나 이소프로판올의 산증 없는 케톤증과 구별한다.
 
-혈청 삼투압과 계산된 삼투압 차이(30 mOsm/kg)와 저칼슘, 옥살산칼슘 결석은 에틸렌글리콜 대사산물인 옥살산이 축적된 것을 시사한다. 에틸렌글리콜 중독은 대사성 산증과 신부전을 동반한다. 따라서 가장 가능성 높은 물질은 에틸렌글리콜이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 에틸렌글리콜 중독 D는 유지한다. 삼투압차를 제시값에 따라 약 26으로 교정하고 소변 옥살산칼슘 결정을 결석과 구별한다.
 
 ## 출처
 

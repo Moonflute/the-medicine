@@ -21,11 +21,11 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 당뇨병성 케톤산증
 
 ## 해설
 
+정답은 C이다. 항응고하지 않는 AF와 혈관질환 병력에서 심한 급성 복통은 장간막 동맥 색전/허혈을 우려하게 한다. 증가한 음이온차(138−101−12=25)는 허혈 관련 젖산산증 가능성을 지지하지만 lactate를 직접 측정한 것은 아니다. amylase 상승은 장허혈에서도 발생할 수 있어 췌장염만을 뜻하지 않는다. 고암모니아혈증은 본문에 없으며 진단 근거로 만들지 않는다.
 
-심방세동 환자에서 장간막 혈전 색전이 발생하면 급성 장간막 허혈이 일어나 복통, 젖산산증, 고암모니아혈증, 경미한 발열이 나타난다. 따라서 급성 장간막 허혈이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 고암모니아혈증이라는 없는 소견을 제거하고 AF 색전 위험/산증·amylase 해석을 명료화.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

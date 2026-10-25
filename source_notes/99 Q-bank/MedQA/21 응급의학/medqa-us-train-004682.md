@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 비후성 폐쇄성 심근병증
 
 ## 해설
 
+면도·넥타이 등 목 자극과 관련된 실신은 보기 중 경동맥동 과민성(C)을 시사한다. 과도한 압력수용체 반사로 부교감 심장 억제와 교감신경 감소에 따른 혈관확장이 생길 수 있다. 단순 기립성 저혈압이나 교감신경 과다반응과 같은 뜻은 아니다. 40세 미만에서는 드물므로 실제로는 병력과 다른 실신 원인 평가가 필요하고 임의 경동맥 마사지를 권하지 않는다.
 
-옷을 입을 때 발생하는 실신은 자세성 실신(경동맥동 과민성)과 일치한다. 이는 교감신경 과다반응으로 혈압이 급격히 떨어져 어지러움이 발생한다. 따라서 경동맥 과민성 증후군이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경동맥동 반사를 교감신경 과다·자세성 실신으로 설명한 오류 교정.
+- 공식/학회 근거: https://academic.oup.com/eurheartj/article/39/21/1883/4939241
 
 ## 출처
 

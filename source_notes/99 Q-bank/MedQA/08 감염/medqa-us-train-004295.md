@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 뢰플러 배지에서 균 성장
 ## 해설
 
 
-인후통과 전신 피로, 경부 림프절 비대가 동반된 전염성 단핵구증에서 특이적인 양성 단핵구증 반점검사(heterophile antibody test)가 양성으로 나타난다. 따라서 가장 특이적인 검사는 양성 단핵구증 반점검사이다.
+인후통·심한 피로·후경부 림프절병증은 전염성 단핵구증을 시사하여 선택지 중 heterophile antibody 기반 Monospot A가 가장 관련된다. 다만 위양성/위음성이 가능하고 특히 이른 시기나 어린 소아에서 음성일 수 있어 EBV 자체를 확진하는 유일 검사는 아니다. 필요한 경우 EBV 특이 VCA/EBNA 항체로 평가한다. 사진이 없으므로 관찰되지 않은 인두 형태를 추가하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004295 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Monospot A는 해당 선택지에서 유용하나 EBV 확진/모든 연령 최민감 검사로 과장하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/epstein-barr/php/laboratories/
 
 ## 출처
 

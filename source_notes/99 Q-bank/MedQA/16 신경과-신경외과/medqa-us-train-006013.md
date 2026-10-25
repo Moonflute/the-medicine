@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 약물과용두통
 
 ## 해설
 
+주기적인 야간 발작, 심한 일측 안와·전두부 통증, 같은 쪽 눈물·콧물·축동·안검하수와 안절부절못함은 군발두통(B)에 합당하다. Indomethacin에 반응하지 않는 점도 발작성 편측두통과 구별에 도움이 된다. 편두통도 흔히 일측성이며 구역·빛공포를 동반할 수 있다. 거대세포동맥염은 대개 50세 이후에 발생하고, 발열이나 시력저하가 항상 있어야 하는 것은 아니다.
 
-한쪽 눈의 자율신경 증상(눈물·충혈·동공 불균등)과 일측성 두통·눈꺼풀 처짐은 군발두통(클러스터두통)의 특징이다. 편두통은 양측성·구역감이 없으며 거대세포동맥염은 고열·시력저하를 동반한다. 따라서 군발두통이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 군발두통 B 유지. 편두통은 양측성이고 구역이 없다는 감별 오류 및 GCA 필수증상 단정 제거.
 
 ## 출처
 

@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,11 @@ D. 부목 고정
 
 
 수근관증후군은 손목을 중립위치에 고정하면 증상이 완화된다. 초기 치료로는 손목 부목(스플린트) 착용이 권장된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정중신경 감각분포·야간 증상·Tinel 유발, 본문·선지·답 D·해설 영어 대조. 초기 중립 손목 부목 설명이 학회 자료와 일치. 해설 오연결 아님.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/carpal-tunnel-syndrome/
 
 ## 출처
 

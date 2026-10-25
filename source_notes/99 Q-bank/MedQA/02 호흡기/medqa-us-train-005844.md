@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 폐첨부 폐포수포 파열
 
 
 갑작스러운 일측성 흉통·청진음 감소·타진에서 과공명음은 폐첨부의 파열성 폐포수포(자발성 기흉)와 일치한다. 종양 압박·대동맥 박리·심근 산소 요구증가는 해당 소견을 설명하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/선지/정답 D/해설 읽음. COPD 환자의 급성 편측 흉통·호흡음/진탕 감소·과공명은 수포 파열에 의한 이차성 자발기흉 기전과 일치. 치료지침 검증 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

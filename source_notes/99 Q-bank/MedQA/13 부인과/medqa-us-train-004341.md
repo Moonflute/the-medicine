@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 외래에서 니페디핀 치료
 
 ## 해설
 
+31주에 새로 발견된 145/90 mmHg는 중증 범위가 아니며 현재 증상과 단백뇨가 없어, 반복 측정과 장기 손상 평가로 비중증 임신성 고혈압이 확인되고 추적이 보장된다면 USMLE/ACOG 맥락에서 외래 관찰(C)이 가능하다. 관찰은 무처치가 아니라 빈번한 혈압·증상·검사 및 태아 상태 평가를 포함한다. 단백뇨가 없다고 전자간증이 항상 배제되지는 않으며, 단백뇨 자체가 항고혈압제 시작의 단독 기준도 아니다. 중증 혈압이나 장기 손상, 모체·태아 상태 악화가 있으면 입원·치료를 재평가한다. 만성 고혈압의 약물 시작 기준이나 다른 국가 지침을 이 사례에 그대로 혼용하지 않는다.
 
-임신성 고혈압(단백뇨 없는)에서는 경과 관찰이 권장되며, 약물 치료는 단백뇨나 중증 고혈압이 있을 때 시작한다. 입원이나 약물은 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://kansaspqc.kdhe.ks.gov/wp-content/uploads/2025/09/ACOG-Gestation-HTN-and-Preeclampsia-Practice-Bulletin.pdf
+- https://www.ahajournals.org/doi/10.1161/HYP.0000000000000249
 
 ## 출처
 

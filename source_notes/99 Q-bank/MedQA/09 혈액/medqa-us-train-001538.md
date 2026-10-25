@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 헤모글로빈 전기영동
 ## 해설
 
 
-환자는 미세빈혈(헤마토크릿 24.5%, MCV 정상)과 급성 감염 증상이 있어 철 결핍성 빈혈을 의심한다. 철 결핍을 평가하려면 망상적혈구 수(망상적혈구 비율)를 측정한다.
+MCV82 fL의 빈혈에서 망상적혈구 수(A)는 골수의 생성 반응을 평가해 생성저하와 용혈/출혈을 구분하는 데 도움이 된다. 이것은 ferritin처럼 철 저장량을 직접 측정하는 검사가 아니다. 급성 바이러스 유사 증상과 만성 피로만으로 철결핍이나 parvovirus 골수억제를 확진하지 않는다. 원문 Hb11.0 g/dL와 Hct24.5%는 서로 비례하지 않으므로 CBC를 재확인하고 망상적혈구는 빈혈 정도를 고려해 해석한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001538 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정구성 빈혈을 철결핍으로 확정하고 retic을 철저장검사로 설명한 오류를 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://medlineplus.gov/lab-tests/reticulocyte-count/
 
 ## 출처
 

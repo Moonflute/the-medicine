@@ -17,17 +17,26 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jik7Iqk6rW_LeyKkOudvO2EsCDrs5EgKE9zZ29vZC1TY2hsYXR0ZXIgRGlzZWFzZSkubWQ
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 소아 Osgood–Schlatter 보존 치료 선택지를 교정"
+curation_status: "revised"
+curation_reason: "소아 Osgood–Schlatter 보존 치료 선택지를 교정"
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -38,17 +47,27 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 경구 케토롤락 투여
+A. 통증에 맞춘 활동 조정, 얼음찜질·스트레칭 및 필요시 연령에 적절한 진통제
 B. 관절 천자
 C. 결절 개방 정복
 D. 하퇴 석고붕대 적용
 
 ## 해설
 
+성장기 운동선수의 경골결절 압통과 신전 저항 시 통증, 경골결절의 분절은 Osgood–Schlatter 병에 합당하다. 대개 통증을 유발하는 활동을 조절하고 얼음찜질, 대퇴사두근·햄스트링 스트레칭, 필요시 적절한 진통제로 치료한다. 경구 케토롤락을 소아의 통상적 초기 치료로 선택하지 않는다. 관절 천자나 수술이 필요한 관절 감염·전위 골절을 시사하는 상황도 아니다.
 
-급성 무릎 통증과 경골결절 부위 압통, X‑ray에서 결절 분절과 연부 조직 부종은 오스굿‑슐라터병(경골결절 골연골증)과 일치한다. 초기 치료는 비스테로이드성 소염제이다. 따라서 경구 케토롤락이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 소아 Osgood–Schlatter 보존 치료 선택지를 교정
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.orthoinfo.org/diseases--conditions/osgood-schlatter-disease-knee-pain/
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000571
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

@@ -19,11 +19,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 방사성 요오드
 ## 해설
 
 
-그레이브스병 치료 후 방사성 요오드 요법을 받으면 갑상선 조직이 파괴되어 갑상선 안병증이 악화될 수 있다. 안구 돌출 악화는 방사성 요오드 치료 후 흔히 나타나는 부작용이다. 따라서 가장 가능성 높은 치료는 방사성 요오드이다.
+정답 D. 방사성요오드 치료는 Graves 안병증을 새로 유발하거나 악화시킬 수 있으며 선택지 중 이 합병증과 가장 관련된다. 흡연·높은 TRAb·활동성 안병증 등은 위험을 높인다. 모든 환자에게 흔히 또는 반드시 생긴다는 뜻은 아니며 안병증의 활동도/중증도에 따라 RAI 회피나 예방요법을 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009876 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: RAI D 후 안병증 악화 가능성 유지하되 흔히 필연 발생이라는 과장·치료 적절성 일반화 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pubmed.ncbi.nlm.nih.gov/34297684/
 
 ## 출처
 

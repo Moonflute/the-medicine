@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 수포성 유천포창
 
 ## 해설
 
+어린아이의 발열·급성 광범위 홍반, 쉽게 터지는 표재성 수포 및 양성 Nikolsky 징후는 포도알균성 열상피부증후군(SSSS, A)에 합당하다. 황색포도알균의 표피박리독소가 desmoglein-1을 절단해 얕은 표피 분리를 유발한다. 구강 점막이 보존되는 점은 점막 침범이 흔한 심상성 천포창·SJS/TEN과 구분하는 중요한 단서이다.
 
-전신에 물집이 생기고 Nikolsky sign이 양성인 급성 수포성 피부염은 포도상구균성 열상 피부 증후군(스칼드드 스킨 증후군)과 일치한다. 다른 선택지는 임상 양상이 다르다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 소아의 급성 이완수포·Nikolsky 양성과 점막 보존의 SSSS A를 유지하고 독소성 표피 분리 기전을 설명한다.
 
 ## 출처
 

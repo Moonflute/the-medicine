@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 나프록센과 콜히친 투여
 
 ## 해설
 
+열·심한 관절통과 호중구 우세 관절액 61,000/μL는 화농성 관절염을 강하게 의심하게 한다. 그람염색 음성이어도 배제되지 않으므로 배양 검체 후 정맥 항생제와 신속한 관절 배액이 필요하여 선지 B가 가장 적절하다. 반복 천자는 고름·염증성 액체를 배액하는 역할이 있으며 단순 확인검사만을 위한 것이 아니다. 무릎 같은 큰 관절에서는 관절경적 세척·변연절제도 흔히 필요하므로 반응·배양·전문 평가에 따라 결정한다. 배양을 기다리며 항염증제만 투여하지 않는다.
 
-관절천자에서 고농도 백혈구와 화농성 삼출액이 나오면 급성 화농성 관절염(패혈성 관절염) 가능성이 높으며, 즉시 정맥주사 항생제로 치료하고, 감염 확인을 위해 관절천자를 반복한다. 따라서 정답은 정맥주사 항생제 투여 및 관절천자 반복이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 관절천자 반복의 목적을 단순 감염 확인이 아니라 배액·감염 조절로 교정하고 큰 관절의 수술적 세척 필요성도 명시했다. 주어진 선지 B를 유지한다.
+- 공식/학회 근거: https://jbji.copernicus.org/articles/8/29/2023/
 
 ## 출처
 

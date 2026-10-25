@@ -24,12 +24,14 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 내시경 역행 담췌관 조영술(ERCP)
 
 
 환자는 급성 담관염(Charcot triad)으로 급성 악화가 진행 중이며, 담관 폐쇄를 즉시 해소해야 한다. ERCP를 통한 담관 배액 및 스텐트 삽입이 가장 신속한 치료이다. 따라서 다음 단계는 ERCP이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 담관염에서 수액·항생제에도 발열/의식변화로 악화되어 즉시 담도 배액 ERCP D가 적합. 앞서 본 유사 test문항과 ID/선지별 정답을 따로 확인.
+- https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-management-of-cholangitis
 
 ## 출처
 

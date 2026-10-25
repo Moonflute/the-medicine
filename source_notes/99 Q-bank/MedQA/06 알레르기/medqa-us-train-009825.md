@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. IV형(세포매개 지연형) 과민반응
 
 
 뱀독 항혈청에 대한 반응은 면역복합체가 형성되어 혈관벽에 침착되는 III형 과민반응이다. 따라서 III형 과민반응이 기전이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-009825`와 직접 대조했다.
+- 판정: 이종 Fab 항독소 6일 뒤 발열·발진·관절통은 혈청병의 III형 반응 C 지지. 즉시형 아나필락시스와 시간경과를 구별.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

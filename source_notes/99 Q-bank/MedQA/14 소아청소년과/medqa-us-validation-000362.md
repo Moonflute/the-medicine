@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 즉시 수술
 
 ## 해설
 
+작고 부드럽게 환원되는 무증상 1cm 배꼽탈장은 자연 폐쇄 가능성이 높아 기대요법(A)이 적절하다. 많은 경우 4–5세까지 관찰하며, 통증·환원 불가·구토 등 감돈 의심이면 즉시 평가한다. 큰 결손의 경과까지 동일하게 단정하지 않는다.
 
-배꼽 탈장은 대부분 2~3 cm 정도의 작은, 쉽게 환원 가능한 병변이며 증상이 없으면 4~5세까지 관찰한다. 즉시 수술보다는 기대요법이 권장된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 1cm 환자 사례를 2–3cm 작은 탈장으로 일반화한 설명 교정.
+- https://www.facs.org/for-patients/the-day-of-your-surgery/pediatric-umbilical-hernia/
 
 ## 출처
 

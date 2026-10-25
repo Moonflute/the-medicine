@@ -19,16 +19,18 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 원발성 중추신경계 림프종
 
 ## 해설
 
+심한 세포성 면역저하 환자의 비대칭성·비조영증강 백질 병변, 탈수초 및 비정형 성상세포는 JC 바이러스(C)에 의한 진행성 다초점 백질뇌병증(progressive multifocal leukoencephalopathy, PML)을 시사한다. JC 바이러스가 희소돌기아교세포를 감염시켜 탈수초를 일으킨다. HIV 관련 인지장애나 원발성 중추신경계 림프종보다 제시된 영상·조직 소견에 합당하다.
 
-CD4 75 이하, 비조영 고신호 병변, 비정형 세포는 JC 바이러스에 의한 진행성 다핵성 백질증(PML)을 특징으로 한다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. JC 바이러스에 의한 PML의 한국어 병명이 잘못되어 진행성 다초점 백질뇌병증으로 교정했다. 면역저하·비대칭 비조영 백질 병변·탈수초 소견과 C가 일치한다.
 
 ## 출처
 

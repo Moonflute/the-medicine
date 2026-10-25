@@ -16,15 +16,24 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-ywveyDgSDrsI8g7Je07IOBIChXb3VuZHMgYW5kIExhY2VyYXRpb25zKS5tZA
 question_type: management
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: "manual-reviewed"
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 비장절제 후 접종을 고정 PCV13에서 접종력 기반 현행 백신으로 교정."
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "비장절제 후 접종을 고정 PCV13에서 접종력 기반 현행 백신으로 교정."
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -35,17 +44,27 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 13가 폐렴구균 결합 백신(13-valent pneumococcal conjugate vaccine)
+A. 이전 접종력을 확인해 위험군 일정에 맞는 폐렴구균 백신을 접종한다(예: 미접종 성인은 PCV20/21 또는 PCV15 후 PPSV23)
 B. 불활성화(근육주사) 인플루엔자 백신
 C. 홍역-볼거리-풍진(MMR) 백신
 D. 파상풍 추가 접종 백신
 
 ## 해설
 
+무비증은 침습성 폐렴구균 감염의 위험인자이므로 이전 접종력을 확인하여 현재의 위험군 접종 일정을 보완한다. PCV 미접종 성인은 PCV20/21 단독 또는 PCV15 후 PPSV23 등의 경로가 가능하다. 과거 PCV를 받은 경우에는 해당 접종력별 일정이 달라진다. 수막구균·Hib 및 매년 인플루엔자 예방도 함께 점검하지만, 6월이라는 이유로 불필요한 MMR·파상풍 재접종을 하는 것은 아니다.
 
-비장절제 환자는 폐렴구균 감염 위험이 크게 증가한다. 13가 폐렴구균 결합 백신은 비장절제 후 2개월 이내에 접종이 권고된다. 따라서 가장 필요한 예방접종은 13가 폐렴구균 결합 백신이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 비장절제 후 접종을 고정 PCV13에서 접종력 기반 현행 백신으로 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.cdc.gov/pneumococcal/vaccines/adults.html
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000742
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

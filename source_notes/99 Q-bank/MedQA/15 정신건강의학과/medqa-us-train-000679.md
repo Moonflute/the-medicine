@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 파록세틴에서 리튬(lithium) 치료로 변경한다
 
 ## 해설
 
-
-우울증 치료 후 6개월 이상 지속적인 증상 호전이 확인되면 최소 2년간 항우울제 유지가 권고된다. 따라서 파록세틴을 2년간 지속하는 것이 적절하다.
+최근 삽화 외에도 작년에 두 차례의 우울 삽화와 기능저하가 있어 재발 위험이 높다. 제시된 선택지 중 파록세틴을 2년간 유지하는 장기 재발 예방 전략이 적절하다. 모든 환자가 호전 6개월 후 일률적으로 2년 치료해야 한다는 뜻은 아니며, 삽화 횟수·중증도·선호·부작용을 고려해 지속 기간을 정기적으로 재평가한다. 정상 수면과 기능 회복을 새 조증으로 해석해 리튬으로 바꿀 근거도 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000679
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 유지 2년 정답 유지. '6개월 호전이면 모두 2년' 오류 대신 반복 삽화와 기능저하에 따른 재발 위험을 근거로 설명.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/ng222/chapter/Recommendations

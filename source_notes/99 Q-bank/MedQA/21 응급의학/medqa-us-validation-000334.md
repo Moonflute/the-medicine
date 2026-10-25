@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 이부프로펜과 아세트아미노펜
 
 ## 해설
 
+자동차 작업 중 반복되는 두통·어지럼·구역은 일산화탄소 노출을 의심하게 한다. 즉시 노출을 중단하고 100% 산소(A)를 공급하며 COHb와 임상 상태를 평가한다. 일반 맥박산소측정치가 정상이어도 일산화탄소 중독을 배제할 수 없다. 이 산소 치료가 반드시 고압산소 치료를 뜻하는 것은 아니며, 고압산소는 신경·심장 증상, 중증 산증, 임신 등 중증도와 적응증에 따라 별도로 결정한다.
 
-자동차 배기가스에 포함된 일산화탄소는 혈중 헤모글로빈과 결합해 조직산소 공급을 방해한다. 치료는 100% 고압산소 흡입으로 헤모글로빈의 CO를 빠르게 제거한다. 따라서 가장 적절한 다음 처치는 100% 산소이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 일산화탄소 중독의 100% 산소 A를 유지하되 모든 환자에게 고압산소가 필수라는 오류를 교정한다.
+- 공식/학회 근거: https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html
 
 ## 출처
 

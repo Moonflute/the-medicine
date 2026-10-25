@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 폐혈관 저항 감소
 
 ## 해설
 
+출생 후 수주에 걸쳐 폐혈관 저항이 생리적으로 감소하면 좌심실에서 우심실로의 VSD 단락이 늘어날 수 있다. 그에 따른 폐혈류·폐정맥 환류 증가는 좌심방·좌심실 용적 부하와 수유 시 심부전 증상을 설명하므로 D가 적절하다. VSD가 먼저 폐혈관 저항을 낮춘다는 뜻이 아니며 장기간 과도한 폐혈류는 오히려 폐혈관 질환으로 이어질 수 있다.
 
-심실중격결손(VSD)으로 좌우 단락이 발생하면 폐혈관 저항이 감소해 폐혈류가 증가한다. 이는 좌심방·좌심실 확장과 폐혈관 음영 증가를 초래한다. 따라서 폐혈관 저항 감소가 혈류 방향을 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: VSD 때문에 폐혈관 저항이 감소한다는 역전된 인과를 출생 후 저항 감소가 좌우 단락을 증가시키는 순서로 교정했다.
+
 
 ## 출처
 

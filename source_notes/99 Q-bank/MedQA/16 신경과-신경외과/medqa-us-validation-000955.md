@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. L2/L3 추간판 탈출
 
 ## 해설
 
+족하수와 엄지폄 약화, 발 내번 약화 및 외측 하퇴/발등 감각저하는 L5 신경근병증에 맞으며 L4~L5 추간판 돌출(A)이 가장 적합하다. 하지직거상검사 양성은 신경근 자극을 지지한다. 발 내번이 약한 점은 비골신경 단독 손상과 구별에 도움이 된다. 원문의 일부 통증·반사 분포는 완전히 전형적이지 않지만 주된 운동 국소화는 L5이다.
 
-허리에서 다리로 전이되는 전기적 통증과 L5 신경근 분포의 근력·감각 저하, 그리고 허리 굴곡 시 악화는 L4‑L5 추간판 탈출이 L5 신경근을 압박함을 의미한다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. L5 신경근 분포 A 유지. 본문에 없는 허리 굴곡 악화와 실제 하지직거상 유발을 구별.
 
 ## 출처
 

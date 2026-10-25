@@ -24,12 +24,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 닫힌 기도에 대항해 강제로 숨을 내쉬려는 시도
 
 
 좌심실 비대와 비대칭 중격 비후는 비대성 폐쇄성 심근병증(HOCM)을 시사한다. 이 질환에서 대동맥‑좌심실 압력 차를 감소시키는 주요 방법은 베타 차단제로 심박수를 낮추고 수축력을 감소시켜 LVOT 협착을 완화하는 것이다. 따라서 메토프롤롤이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 비대칭 중격 비후를 동반한 동적 유출로 폐쇄에서 메토프롤롤 C의 수축력·심박수 감소가 압력차를 낮춤.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. p53 종양억제유전자의 불활성화 변이
 ## 해설
 
 
-갑상선에 큰 고정된 무통성 종괴와 양측 경부 림프절 전이가 있으면 전이성 갑상선암보다 전이성 갑상선암이 아닌 전이성 갑상선암이 의심된다. 전이성 갑상선암 중 가장 흔한 형태는 전이성 갑상선암이며, 이는 p53 종양억제유전자의 불활성화와 강하게 연관된다. 따라서 가장 가능성 높은 유전자 변이는 p53 불활성화이다.
+정답 D. 고령에서 수주 사이 빠르게 커지는 고정된 갑상선 종괴와 쉰 목소리·연하곤란은 미분화(역형성) 갑상선암을 우려하게 한다. TP53 종양억제 기능 소실은 이 암의 대표적 분자 이상 중 하나다. RET는 유전성 수질암/MEN2와 더 연관된다. 촉지 림프절만으로 조직학적 전이를 확진하지 않으며 실제 확진은 조직검사가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007847 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 전이성 갑상선암이라는 무의미 반복을 제거하고 급속 성장 고정 종괴의 미분화암–TP53 D 병리 연결.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.thyroid.org/wp-content/uploads/2021/06/ATC-Diagnosis.pdf
 
 ## 출처
 

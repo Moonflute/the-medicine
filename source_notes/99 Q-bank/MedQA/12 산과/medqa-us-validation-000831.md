@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-임신 32주인 29세 여성(임신 2회, 출산 1회)이 과거 전자간증과 35주 제왕절개 분만의 병력이 있다. 현재 혈압 140/80 mmHg, 단백뇨 2+, 24시간 단백 배설 1 g/L이다. 다음으로 평가해야 할 검사실 수치는?
+임신 32주인 29세 여성(임신 2회, 출산 1회)이 4년 전 진단된 만성고혈압으로 현재 메틸도파를 복용하며, 과거 전자간증과 35주 제왕절개 분만의 병력이 있다. 현재 혈압 140/80 mmHg, 단백뇨 2+, 24시간 단백 배설 1 g/L이다. 다음으로 평가해야 할 검사실 수치는?
 
 ## 선택지
 
@@ -44,8 +46,13 @@ D. 소변검사
 
 ## 해설
 
+기존 만성고혈압에서 새 단백뇨가 나타나 중첩 전자간증을 평가해야 한다. 선택지 B의 AST/ALT는 간 침범 평가에 필요하며 혈소판·크레아티닌 등도 함께 확인한다. 원문의 ‘24시간 배설1g/L’는 농도 단위로 총24시간 배설량과 다르므로 임의로1g/일로 확정하지 않는다.
 
-전증(전자간증) 환자에서 간 기능 악화를 평가하기 위해 간 효소(ALT/AST)를 측정한다. 따라서 다음으로 평가해야 할 검사실 수치는 간 트랜스아미나제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 만성고혈압·새 단백뇨의 중첩 전자간증 평가 맥락 복원 및 소변 단위 한계 표시.
+- https://www.nice.org.uk/guidance/ng133/chapter/Recommendations
 
 ## 출처
 

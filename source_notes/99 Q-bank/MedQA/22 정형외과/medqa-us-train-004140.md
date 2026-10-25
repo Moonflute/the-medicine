@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 무혈성 괴사
 
 ## 해설
 
+반복적인 심한 골·관절통으로 입원한 과거력은 겸상적혈구병의 혈관폐쇄성 통증을 시사한다. 이 질환에서는 대퇴골두 미세혈관 폐쇄로 무혈성 괴사(D)가 발생할 수 있으며, 지속되는 서혜부 통증과 고관절 내회전 통증을 설명한다. 인종만으로 겸상적혈구병을 확진하는 것은 아니지만 과거력과 합쳐 출제 단서가 된다. 급성 감염을 시사하는 발열·백혈구 증가·열감은 제시되지 않았다.
 
-반복적인 관절통·발목·고관절 통증이 있는 소아에서 무혈성 괴사는 혈액 공급 차단에 의한 비감염성 골괴사이며, 고관절 통증의 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 소아의 모든 반복 관절통에서 무혈성 괴사가 흔하다는 일반화를 제거하고 겸상적혈구병을 시사하는 반복 입원 병력과 골두 혈류장애를 설명했다.
 
 ## 출처
 

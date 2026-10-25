@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 뇌하수체 선종
 
 ## 해설
 
+정답은 B이다. 성장 정지와 낮은 IGF-1, 낮은 T4에 비해 부적절하게 낮은 TSH, 시야장애 의심 행동 및 다뇨·다갈은 시상하부-뇌하수체 주변 병변을 시사한다. 소아에서는 두개인두종이 제시된 선택지 중 가장 합당하다. 원문에 영상 결과는 없으므로 종양이 이미 보였다고 설명하지 않으며 영상과 내분비 평가로 확인해야 한다.
 
-성장 호르몬 결핍을 동반한 두개인두종은 저 TSH, 저 T4, 저 IGF-1, 단신, 빈뇨, 두통을 초래한다. 영상학적으로 뇌하수체 근위부에 종양이 보인다. 따라서 두개인두종이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 제시되지 않은 영상 소견을 관찰했다고 한 설명 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

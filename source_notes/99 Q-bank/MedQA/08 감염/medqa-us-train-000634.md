@@ -21,11 +21,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 약물의 낮은 생체이용률
 ## 해설
 
 
-중증 천식 악화 환자에서 폐렴이 발생했을 때, 베타‑락탐계 항생제는 폐 조직 내 베타‑락타마제에 의해 분해될 수 있다. 이는 약물이 목표 조직에서 비활성화되는 메커니즘으로 치료 실패를 초래한다.
+Daptomycin은 폐 계면활성제와 상호작용하여 항균 활성이 억제되므로 폐렴 치료에 적합하지 않다. 따라서 정맥 투여했어도 폐 감염의 표적 조직에서 약물이 불활성화되는 C가 핵심이다. Cefepime이 폐 조직의 β-lactamase에 의해 일반적으로 분해된다는 설명이 아니다. 정맥 투여 약물의 흡수율 저하가 이 사례의 핵심 원인도 아니다. 폐렴 원인균과 배양·감수성을 재평가하여 적절한 폐렴 항생제를 선택해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000634 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: β-lactamase 때문이라는 해설을 daptomycin의 폐 계면활성제 불활성화로 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/021572Orig1s008.pdf
 
 ## 출처
 

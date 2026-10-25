@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 복부 초음파; 연장된 유문관과 근육 비대
 
 ## 해설
 
+수유 후 진행하는 격렬한 구토, 계속 먹으려는 모습, 우상복부 종괴는 영아 비후성 유문협착을 시사한다. 유문은 위에서 십이지장으로 이어지는 출구이며 구강-식도 이음부가 아니다. 초음파에서 유문근의 비후와 유문관의 연장이 관찰되는 D가 적절하다. 원문에 없는 모유와 분유에 대한 반응 차이는 진단 근거로 추가하지 않는다.
 
-구토가 주로 모유 섭취 후 발생하고, 분유는 견디는 것으로 보아 구강‑식도 이음부 협착(유문 협착)이 의심된다. 초음파에서 연장된 유문관과 근육 비대가 특징적인 소견이다. 따라서 진단을 확인하는 최적 검사는 복부 초음파이며, 연장된 유문관과 근육 비대를 보인다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 유문을 구강-식도 이음부로 설명한 해부학 오류 및 원문에 없는 수유 종류별 반응을 교정했다.
+
 
 ## 출처
 

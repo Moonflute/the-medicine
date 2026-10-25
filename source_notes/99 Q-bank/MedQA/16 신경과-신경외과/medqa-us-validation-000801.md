@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 감염
 
 ## 해설
 
+수막염 치료 후 새로 진행하는 아침 두통·구토와 유두부종 의심 소견은 두개내압 상승을 우려하게 한다. 보기 중 감염 후 뇌척수액 순환/흡수 장애에 의한 수두증(B)이 가장 가능성 높다. 실제 뇌실확장이나 원인이 아직 영상으로 확인된 것은 아니므로 뇌영상을 포함한 신속한 평가가 필요하다. 가족성 편두통만으로 유두부종 의심 소견을 설명해서는 안 된다.
 
-수두증은 뇌실 확대와 시신경유두 부종을 일으켜 아침에 두통·구토·구역을 악화시킨다. 환자는 이전 수막염 후 뇌실계 손상이 있었으므로 가장 가능성 높은 원인은 수두증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수막염 후 수두증 B의 임상적 개연성을 유지하되 이미 뇌실 손상이 확인되었다는 서술 제거.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 이하선 생검
 ## 해설
 
 
-구강·안구 건조와 양측 이하선 비대, 점막 건조는 쇼그렌 증후군을 시사한다. 진단을 확정하기 위해서는 항-Ro/La 항체와 무타르 검사(시어머 검사)가 필요하다. 따라서 첫 단계는 시어머 검사와 항-Ro/La 항체 측정이다.
+만성 구강·안구 건조와 이하선비대는 Sjögren disease를 의심하게 한다. 보기 중 tear production을 측정하는 Schirmer test와 anti-Ro/La 평가 C가 적절한 초기 평가이다. 핵심 항체는 anti-SSA/Ro이며 anti-La 단독양성이나 건조 증상만으로 확진하지 않는다. 상황에 따라 ocular staining, salivary flow 및 소타액선생검 등 객관 검사를 조합하며 항체음성 사례도 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000315 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 깨진 검사명을 Schirmer로 복구; anti-La·Schirmer가 모두필수/단독확정은 아님을 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5650478/
 
 ## 출처
 

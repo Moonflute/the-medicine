@@ -19,11 +19,11 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,13 +31,15 @@ related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-16세 여성이 급성 구토와 복통으로 응급실에 왔다. 3시간 전 잠든 중 시작되었다. 과거력은 없고 외할머니에게 갑상선기능저하증과 당뇨병이 있다. 과일 냄새 호흡, 피부긴장도 저하, 피로와 약간의 의식변화가 있다. 혈당 691 mg/dL, 나트륨 125 mg/dL, 혈청 케톤 상승이다. 다음 중 최선의 다음 관리 단계는 무엇인가?
+16세 여성이 급성 구토와 복통으로 응급실에 왔다. 3시간 전 잠든 중 시작되었다. 과거력은 없고 외할머니에게 갑상선기능저하증과 당뇨병이 있다. 과일 냄새 호흡, 피부긴장도 저하, 피로와 약간의 의식변화가 있다. 혈당 691 mg/dL, 나트륨 125 mEq/L, 혈청 케톤 상승이다. 다음 중 최선의 다음 관리 단계는 무엇인가?
 
 ## 선택지
 
@@ -48,8 +50,14 @@ D. sitagliptin을 중단하고 기저-식사 인슐린을 시작한다
 
 ## 해설
 
+정답은 A이다. 심한 고혈당·케톤증·과일냄새 호흡과 탈수/의식변화는 DKA를 의심하게 하며 혈액가스·전해질을 신속히 평가한다. 등장성 수액으로 초기 순환을 회복하고 통상1시간 뒤 K확인하에 insulin주입을 시작한다. 정맥 insulin bolus나 혈당의 무리한 급속 정상화를 뜻하지 않으며 신경학적 상태를 감시한다. sodium125의 단위는 mg/dL가 아니라 mEq/L이다.
 
-환자는 혈당 691 mg/dL와 케톤증, 저나트륨 혈증을 동반한 DKA 상태이며, 초기 치료는 혈액량 보충을 위한 정맥 수액과 인슐린 투여가 필수이다. 따라서 정맥 수액과 인슐린 투여가 최선의 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Na단위 mg/dL 오기를 mEq/L로 교정하고 소아 DKA 수액 후 insulin 순서 명시.
+- https://cps.ca/en/documents/position/current-recommendations-for-management-of-paediatric-diabetic-ketoacidosis
 
 ## 출처
 

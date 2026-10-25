@@ -28,6 +28,10 @@ explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
+curation_status: "retained"
+curation_reason: "원문 대조: 진행한 CKD의 주요 사망 원인으로 선택지 중 심혈관질환 D가 일치하며 해설이 사례와 어긋나지 않음."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
 ---
 
 # MedQA US 임상문제
@@ -52,3 +56,9 @@ D. 심혈관질환
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005842
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 원문 대조: 진행한 CKD의 주요 사망 원인으로 선택지 중 심혈관질환 D가 일치하며 해설이 사례와 어긋나지 않음.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

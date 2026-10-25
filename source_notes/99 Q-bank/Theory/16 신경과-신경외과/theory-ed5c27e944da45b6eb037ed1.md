@@ -12,36 +12,45 @@ target_type: disease
 target_slug: "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpTqs6jrj5nrp6Ut6riw7KCA64-Z66elIOqyveyDiSAoVmVydGVicmFsIGFydGVyeSAtIEJhc2lsYXIgYXJ0ZXJ5IGluZmFyY3Rpb24pLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: D
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "발열 제외 대신 후순환 신경학적 조합과 어지럼 단독 해석의 한계를 강조."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-추골동맥‑기저동맥 경색에서 흔히 나타나지 않는 증상은?
+추골·기저동맥 영역 뇌졸중을 경계하게 하는 대표적인 조합은?
 
 ## 선택지
 
-A. 현훈
-B. 구음 장애
-C. 복시
-D. 발열
+A. 갑작스러운 복시·구음장애·실조 또는 다른 뇌간 징후
+B. 모든 회전성 어지럼은 반드시 후순환 경색
+C. 얼굴·언어가 정상이라면 후순환 경색은 불가능
+D. 청력이 정상이면 뇌간 손상을 배제
 
 ## 해설
 
-추골동맥‑기저동맥 경색은 뇌간·소뇌 허혈 증상(현훈, 구음 장애, 복시 등)이 주로 나타나며, 발열은 일반적인 증상이 아니다.
+후순환 경색은 다양한 뇌간·소뇌 징후를 보이며 어지럼으로 발현할 수도 있다. 어지럼만으로 확진하거나, 전형적 전순환 징후가 없다고 배제하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)
 - 원본 경로: `source_notes/02 Diseases/16 신경과-신경외과/추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction).md`
-- 학습 목표: 원문 핵심: * **주요 증상**: 의식 저하, 현훈, 구음 장애, 복시, 연하 곤란, 운동 마비(편마비 또는 사지마비), 실조 * **특이 증후군** - 중뇌 경색 (Weber syndrome): 동측 CN III 마비, 반대측 운동 마비 - 교뇌 경색 (Pontine syndrome): 반대측 운동 마비, 구음 장애, 실조, 수평 주시 장애 - 외측 연수 경색 (Wallenberg syndrome): 동측 안면 감각 이상, Horner 증후군, 현훈, 삼킴 곤란 - 내측 연수 경색 (Medial medullary syndrome): 반대측…
+- 학습 목표: 후순환 뇌졸중의 복시·구음장애·실조
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

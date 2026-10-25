@@ -23,13 +23,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 지루 피부염
 
 ## 해설
 
+정답은 D, 지루피부염이다. 생후 수개월 영아에서 두피·이마·헤어라인에 생긴 홍반성 반점과 기름진 노란 인설은 영아 지루피부염(cradle cap)에 전형적이다. 아토피피부염은 보통 가려움과 건조한 습진이 더 두드러지며, 지루각화증은 이 연령의 전형적인 질환이 아니다. 아버지의 건선 병력만으로 이 임상 양상을 건선으로 판단하지 않는다.
 
-갑작스러운 회전성 현훈, 안진, 청력 저하가 동반된 경우는 전정신경염이 가장 흔한 원인이다. 머리 위치 변화에 증상이 유발되지 않는 점은 BPPV와 구별한다. 따라서 진단은 전정신경염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 현훈/전정신경염 해설 오연결. 영아 두피의 기름진 황색 인설인 지루피부염 해설 교체. D 유지.
+- 공식/학회 근거: https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-symptoms
 
 ## 출처
 

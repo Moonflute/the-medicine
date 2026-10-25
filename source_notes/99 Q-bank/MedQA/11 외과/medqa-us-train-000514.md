@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 실질 섬유화를 동반한 간질 세포 침윤, 폐쇄성 동맥염(oblit
 ## 해설
 
 
-이식된 간으로의 혈류 감소와 진행성 황달, 고효소혈증은 만성 거부반응을 시사한다. 만성 거부는 혈관 내막에 폐쇄성 동맥염과 간 실질 섬유화, 간세포 침윤이 특징이다. 따라서 조직학적 소견은 실질 섬유화와 폐쇄성 동맥염이 가장 가능하다.
+이식 7년 뒤 반복된 황달과 심한 간기능 이상·이식간 혈류 저하는 만성 거부반응과 만성 혈관 손상 가능성을 시사한다. 선택지 중 D의 폐쇄성 동맥병증과 실질 섬유화가 가장 부합한다. 만성 간이식 거부의 특징에는 작은 담관의 소실(ductopenia)과 내막 비후를 동반한 폐쇄성 동맥병증이 있다. 간질의 염증세포 침윤을 간세포 침윤이라고 부르지 않는다. 도플러 혈류 감소만으로 거부반응을 확정할 수는 없으며 혈관 폐색 등도 감별해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000514 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 만성 이식거부의 혈관병증과 섬유화는 유지하고 간세포 침윤이라는 세포 구분 오류를 고쳤다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

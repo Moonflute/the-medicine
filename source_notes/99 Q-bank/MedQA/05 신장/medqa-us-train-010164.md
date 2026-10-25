@@ -18,15 +18,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-uvuOyEuOuzgO2ZlOuzkSAoTWluaW1hbCBDaGFuZ2UgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "지방 원주와 oval fat body를 같은 구조로 설명한 부정확한 문구 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,19 @@ D. 왁스 원주
 
 ## 해설
 
-
-신증후군에서 중증 저알부민혈증과 고지혈증, 고단백뇨가 동반되며, 소변에 지방 원주(뇨 지방 구) 가 특징적으로 나타난다. 이는 여과된 단백질에 의해 지방이 소변에 섞여 보이는 현상이다. 따라서 가장 잘 보일 원주는 지방 원주이다.
+심한 단백뇨·저알부민혈증·고지혈증·부종은 신증후군을 지지한다. 여과된 지질·지단백이 세뇨관 세포에 흡수되고 지질 방울이나 지질을 포함한 세포가 원주 기질에 포획되어 지방 원주가 나타날 수 있다. Oval fat body는 지질을 포함한 세포이고 지방 원주 자체와 동일한 구조는 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010164
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 지방 원주와 oval fat body를 같은 구조로 설명한 부정확한 문구 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 텐실론 검사
 
 ## 해설
 
+반복 사용 후 안검·연하/저작·목과 근위부 근력의 피로성 저하, 정상 반사·감각은 중증근무력증을 시사한다. 선지 중 단일근섬유 근전도검사(C)는 신경근전달 장애에 민감하며 같은 운동단위의 근섬유 사이 발화시간 변동(jitter) 증가와 전달 차단을 평가한다. '재발성 전위'가 진단표지라는 뜻이 아니다. 이상 jitter는 다른 신경근 질환에서도 가능하므로 임상·항체 및 다른 전기생리 결과를 종합한다. 흉부 CT는 흉선종 평가에 쓰이지만 신경근전달 장애를 직접 진단하는 검사는 아니다.
 
-근육 피로와 반복적 근력 저하가 특징인 중증근무력증은 단일 근섬유 전기생리검사에서 재발성 전위가 보이는 것이 진단적 표지이다. 따라서 단일 근섬유 근전도검사가 가장 적절한 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. SFEMG의 이상 소견을 재발성 전위로 잘못 설명한 것을 jitter 증가·차단으로 교정했다. 주어진 진단검사 중 C를 유지하며 민감도와 특이도를 구별한다.
+- 공식/학회 근거: https://www.aanem.org/docs/default-source/documents/aanem/practice/guidelines/myastheniagravis_reaffirmed.pdf?sfvrsn%3D178424ec_3=
+- 공식/학회 근거: https://www.neurology.org/doi/10.1212/WNL.29.1.68
 
 ## 출처
 

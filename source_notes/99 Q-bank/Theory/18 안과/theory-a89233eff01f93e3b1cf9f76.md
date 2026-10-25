@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "알레르기라는 넓은 항목과 렌즈 원인을 같은 축으로 비교하지 않고 기계 자극 중심으로 명료화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-거대유두결막염의 주요 원인은?
+거대유두결막염에서 중요한 유발 기전은?
 
 ## 선택지
 
-A. 콘택트렌즈 착용
-B. 바이러스 감염
-C. 알레르기 반응
-D. 건조증
+A. 렌즈·의안·노출된 봉합사 등에 의한 반복적인 눈꺼풀결막 자극
+B. 아데노바이러스가 항상 직접 감염함
+C. 모든 경우가 IgE 즉시형 반응만으로 설명됨
+D. 안압상승이 직접 눈꺼풀 유두를 형성함
 
 ## 해설
 
-콘택트렌즈(특히 소프트렌즈)는 기계적 자극과 단백질·항원 침착에 의한 면역반응을 일으켜 거대유두결막염을 유발한다.
+거대유두결막염은 콘택트렌즈·의안·봉합사 등이 눈꺼풀 안쪽을 반복 자극하는 상황과 관련된다. 단순한 바이러스 감염이나 안압상승으로 정의하지 않고 접촉 자극·염증 반응의 맥락에서 본다.
 
 ## 오답 포인트
 
-- **B. 바이러스 감염:** 바이러스 감염은 일반 결막염의 원인이지 거대유두결막염의 주된 원인은 아니다.
+- **항상 바이러스·IgE만:** 다양한 접촉 자극과 염증의 기전을 한 원인으로 제한한다.
+- **안압상승:** 눈꺼풀 안쪽의 접촉 자극과 다른 기전이다.
 
 ## 출처
 
 - 내부 학습 노트: 거대유두결막염 (giant papillary conjunctivitis)
 - 원본 경로: `source_notes/02 Diseases/18 안과/거대유두결막염 (giant papillary conjunctivitis).md`
-- 학습 목표: 원문 핵심: - **정의**: 결막의 만성 염증으로, 주로 콘택트렌즈나 봉합사 등 안구 이물질에 의한 미세 외상 및 면역 반응으로 유발됨 - **원인**: 콘택트렌즈(특히 소프트렌즈), 눈 수술 후 노출된 봉합사, 의안, 기타 안구 표면 이물질 - **기전**: 이물질에 의한 기계적 자극과 이물질 표면에 침착된 단백질/항원에 의한 제1형 및 제4형 과민반응이 복합적으로 작용함
+- 학습 목표: GPC의 렌즈·봉합사 등 반복 접촉 자극을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 알레르기라는 넓은 항목과 렌즈 원인을 같은 축으로 비교하지 않고 기계 자극 중심으로 명료화.
+- 근거: https://www.aao.org/eye-health/diseases/what-is-giant-papillary-conjunctivitis

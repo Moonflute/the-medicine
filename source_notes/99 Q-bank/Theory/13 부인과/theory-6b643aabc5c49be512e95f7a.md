@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "46XY 성선 발육부전과 수용체 저항성 구분의 기초 정의로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 46,XX 핵형을 가진 개체에서 여성 내부 생식기가 발달하지 �
 
 - 내부 학습 노트: 스와이어 증후군 (Swyer Syndrome)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/스와이어 증후군 (Swyer Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 46,XY 핵형을 가진 개체에서 성선 발달 부전으로 인해 여성 외부 생식기를 가지게 되는 성분화 이상 질환. - **원인**: SRY 유전자 결실 또는 돌연변이 등 성결정 과정의 유전적 이상. - **기전**: SRY 유전자의 기능 상실로 인해 미분화 생식샘이 고환으로 발달하지 못하고, 결과적으로 안드로겐과 항뮬러관 호르몬(AMH)이 생성되지 않아 여성 내부 및 외부 생식기가 발달함.
+- 학습 목표: Swyer의 46XY 성선 발육부전
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 46XY 성선 발육부전과 수용체 저항성 구분의 기초 정의로 유지.

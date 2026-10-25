@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 천골 질고정술
 
 ## 해설
 
+최대 힘주기에서 경부가 처녀막 평면에 도달하므로 POP-Q상 대체로2기에 해당하며 과거1도 분류와 혼용하지 않는다. 증상이 있고 성생활을 유지하는 환자에게 지지 페서리(A)는 합리적인 비수술 선택이다. 골반저근 훈련·선호·추적 관리도 상담하고 수술을 일괄 강제하지 않는다.
 
-질 내 이물감이 서 있을 때 악화되고 자궁경부가 질 입구까지 내려온 것은 1도 골반장기탈출증이다. 초기 단계에서는 지지 페서리로 질벽을 복원하는 것이 가장 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 처녀막 평면까지 내려오는 탈출을1도로 확정한 오류 수정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13387979/
 
 ## 출처
 

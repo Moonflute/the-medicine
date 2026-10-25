@@ -17,16 +17,18 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 음식 섭취가 증상을 완화함
 
 ## 해설
 
+정답은 D이다. 십이지장 궤양은 공복·야간 통증이 음식이나 제산제로 일시 호전되는 양상이 전형적이므로 D가 가장 적합하다. PPI 반응은 위궤양 등에서도 나타나 덜 구별적이다. 조기포만·비담즙성 구토·팽만은 유문부 폐쇄 같은 합병증도 평가해야 하며 이것만을 단순 산성 통증의 진단 기준으로 삼지 않는다.
 
-식후 4시간 내 복통·구역·구토와 고음 복부 타진은 위산에 의한 십이지장 궤양을 시사한다. 음식 섭취가 증상을 악화시키는 것이 특징이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: D 음식 후 통증 완화와 반대로 악화가 특징이라 한 해설 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

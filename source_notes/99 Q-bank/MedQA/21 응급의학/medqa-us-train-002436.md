@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,13 +32,15 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-48세 여성이 증상이 있는 자궁근종으로 계획된 전자궁적출술을 받았다. 수술 전 예방적 항생제를 투여했고 수술 후 1일째 요도 카테터를 제거했다. 수술 후 4일째 복통, 입원 중 3~4회의 묽은 변, 발열이 발생했다. 수술 상처에 새로 홍반과 어두운 반점, 다량의 혼탁한 분비물이 있고 상처 주변 감각이 감소했다. 폐는 깨끗하고 복부는 부드러우며 요검사는 정상이나 소변배양에서 대장균이 100,000 CFU/mL 이상 자랐다. 다음 중 가장 적절한 치료의 다음 단계는?
+48세 여성이 증상이 있는 자궁근종으로 계획된 전자궁적출술을 받았다. 수술 전 예방적 항생제를 투여했고 수술 후 1일째 요도 카테터를 제거했다. 제2형 당뇨병 등이 있으며 수술 후 4일째 복통, 입원 중 3~4회의 묽은 변과 발열이 발생했다. 체온 38.3°C, 혈압 97/59 mmHg, 맥박 106회/분이었다. 수술 상처에 새로 홍반과 어두운 반점, 다량의 혼탁한 분비물이 있고 상처 주변 감각이 감소했다. 폐는 깨끗하고 복부는 부드러우며 요검사는 정상이나 소변배양에서 대장균이 100,000 CFU/mL 이상 자랐다. 다음 중 가장 적절한 치료의 다음 단계는?
 
 ## 선택지
 
@@ -49,8 +51,12 @@ D. 반코마이신/피페라실린-타조박탐/클린다마이신을 투여하�
 
 ## 해설
 
+수술 상처의 새 어두운 반점·다량 분비물·감각저하와 전신독성은 괴사성 연조직감염을 강하게 시사한다. 정맥 광범위 항생제와 즉시 수술 탐색·변연절제(D)가 필요하며 관찰만 하며 지연하지 않는다. 반코마이신과 피페라실린-타조박탐은 광범위 경험적 범위를 제공하고 독소 매개 감염이 의심되면 클린다마이신을 포함할 수 있으며 배양으로 조정한다. 소변의 E.coli는 별개 검체로서 상처 원인균이 확정되었다는 뜻이 아니다.
 
-수술 부위에 급성 염증, 고름, 조직 괴사와 대장균 감염이 확인되면 괴사성 연부 조직 감염(괴사성 근막염)으로 간주된다. 즉시 광범위 항생제와 외과적 절제(절개·변연절제)가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 소변 E.coli 배양을 수술 상처 원인균으로 오연결한 오류를 교정하고 원문 당뇨·저혈압·빈맥을 복원했다. 괴사성 감염의 즉시 항생제+절제 D를 유지한다.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

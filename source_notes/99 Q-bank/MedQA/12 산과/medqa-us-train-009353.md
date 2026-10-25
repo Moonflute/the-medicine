@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTWlub2N5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 항히스톤 항체 양성
 
 ## 해설
 
+반복 임신 소실, 혈전증과 연장된 aPTT는 항인지질증후군을 의심하게 한다. 항카디오리핀 등과 관련해 비트레포네마 검사인 VDRL에서 생물학적 가양성이 생길 수 있으므로 C가 연관 소견이다. 하지만 본문에는 항인지질항체 검사 결과가 없어 양성이라고 만들어 넣으면 안 된다. VDRL 양성이 항상 가양성이거나 APS 확진을 뜻하지 않으며 매독 확인검사와 적절한 항체 평가가 필요하다.
 
-반복 유산·혈전증·양성 항인지질 항체는 항인지질증후군을 시사한다. 항인지질증후군은 VDRL 검사에서 가양성 반응을 보이므로 VDRL 양성이 가장 관련된 소견이다. 다른 선택지는 해당 증후군과 연관이 없다. 따라서 정답은 VDRL 양성이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 측정되지않은항인지질항체양성창작삭제. 혈전/반복유산·aPTT와VDRL가양성연관C,APS확진아님.
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7301a1.htm
+- https://www.cdc.gov/std/treatment-guidelines/syphilis.htm
 
 ## 출처
 

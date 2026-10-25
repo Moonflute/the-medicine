@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -56,8 +58,11 @@ D. 교모세포종
 
 ## 해설
 
+CD4 90/μL인 HIV 환자에서 뇌량을 침범하는 큰 단일 조영증강 병변과 CSF EBV DNA는 원발성 중추신경계 림프종(B)을 강하게 시사한다. AIDS 관련 림프종은 괴사로 고리조영을 보일 수 있다. PML은 대개 백질 탈수초 병변으로 뚜렷한 종괴성 고리조영과 다르고, 교모세포종도 뇌량을 침범할 수 있지만 면역저하와 EBV 단서가 B를 지지한다. PCR 양성 하나가 모든 상황에서 확진을 뜻하지는 않는다.
 
-CD4 수가 90/μL인 면역억제 상태에서 뇌 MRI에 고리 조영증강 병변이 나타나고 CSF에서 EBV DNA가 검출되면 원발성 중추신경계 림프종이 가장 흔한 원인이다. 따라서 가장 가능성 높은 진단은 중추신경계 림프종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. EBV 양성 CSF와 면역저하의 단일 뇌량 병변은 PCNSL B를 강하게 지지하나 모든 고리병변의 가장 흔한 원인 또는 PCR만으로 확진이라고 일반화하지 않는다.
 
 ## 출처
 

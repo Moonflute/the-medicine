@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 생리적 ADH(바소프레신) 분비
 
 ## 해설
 
+출혈성 저혈량은 삼투질농도와 별개로 ADH 분비를 자극해 유효 순환량을 보존한다. 따라서 보기 중 생리적 ADH 분비(D)가 맞고 이를 곧바로 SIADH라 부르지 않는다. 실제 저나트륨혈증의 정도는 기존 상태와 섭취/수액 및 배설의 균형도 고려해야 하며 ADH만으로 모든 수치를 설명했다고 단정할 수 없다.
 
-대량 출혈과 저혈량성 쇼크는 체액 손실에 대한 생리적 ADH 분비를 증가시켜 물 재흡수를 촉진한다. 이는 저나트륨혈증의 가장 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 출혈성 저혈량에서 ADH D는 적절한 비삼투 자극이며 모든 저나트륨혈증의 가장 흔한 원인이라고 한 과장 제거.
 
 ## 출처
 

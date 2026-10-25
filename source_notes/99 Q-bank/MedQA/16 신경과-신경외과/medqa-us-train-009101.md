@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 전정신경염
 
 ## 해설
 
+수일간 지속되는 현훈/불균형감과 수평안진, 청력 증상 부재는 전정신경염(D)에 합당하다. 체위 변화로 수초간만 유발되는 BPPV와는 시간 양상이 다르다. 다만 정상 일반 뇌신경검사나 수평안진만으로 후순환 뇌졸중을 배제하지 못한다. 급성 전정증후군은 숙련된 진찰자가 안구운동·보행 등을 평가하고 중추성 또는 불명확한 소견이면 추가 검사를 해야 한다. 본문은 구역 유무를 명시하지 않았다.
 
-수평 안진과 구역질 없는 급성 어지럼은 전정신경염에서 흔히 나타난다. Dix-Hallpike 검사에서 증상이 유발되지 않는 점도 전정신경염을 시사한다. 따라서 전정신경염이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전정신경염 D의 임상적 개연성은 유지. 구역이 없다는 invented 소견 및 수평안진만으로 중추성 배제 오류 교정.
+- 공식/학회 근거: https://www.saem.org/publications/grace/grace-3
 
 ## 출처
 

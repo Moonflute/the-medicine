@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -32,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-52세 여성이 얼굴과 몸통의 발진, 야간 발한, 미열, 설사, 의도하지 않은 체중 감소로 내원했다. 노숙 중이며 정맥주사 약물 사용과 여러 성 파트너와의 무방비 성관계가 있다. 얼굴과 등에 경계가 뚜렷한 자주색 판과 구진이 보인다. 흉부 X선에서 미세한 망상 및 간질성 변화, CD4+ 수 50/mm³, HIV에 대한 RPR 양성이 확인되었다. 피부 병변의 가장 가능성 높은 원인은?
+52세 여성이 얼굴과 몸통의 발진, 야간 발한, 미열, 설사, 의도하지 않은 체중 감소로 내원했다. 노숙 중이며 정맥주사 약물 사용과 여러 성 파트너와의 무방비 성관계가 있다. 얼굴과 등에 경계가 뚜렷한 자주색 판과 구진이 보인다. 흉부 X선에서 미세한 망상 및 간질성 변화, CD4+ 수 50/mm³, 원문에 'HIV에 대한 RPR 양성'으로 기재되어 있으나 RPR은 HIV 진단검사가 아니다. 피부 병변의 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -44,7 +46,15 @@ D. HHV-6 감염
 ## 해설
 
 
-HIV 감염 환자에서 피부에 보이는 자주색 판과 결절은 HHV‑8에 의한 카포시 육종이 가장 흔한 원인이다. 다른 HHV 감염은 주로 다른 임상양상을 보인다. 따라서 HHV‑8 감염이 정답이다.
+자주색 경계 뚜렷한 판/구진과 면역저하 맥락은 Kaposi육종을 시사하여 HHV8 B가 가장 관련된다. 실제 피부 진단은 조직검사로 평가한다. 원문 ‘positive RPR for HIV’는 검사 오류 표현이다. RPR은 매독 관련 비트레포네마 검사이지 HIV 검사 또는 viral load가 아니므로 적절한 HIV Ag/Ab·확인 알고리즘을 적용해야 한다. 이 잘못된 표기를 사실인 HIV 확진 근거로 사용하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008168 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문에도 있는 HIV용 RPR이라는 잘못된 검사명을 임의 HIV항체로 바꾸지 않고 오류를 명시; Kaposi-HHV8 B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/std/treatment-guidelines/hiv.htm
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7301a1.htm
 
 ## 출처
 

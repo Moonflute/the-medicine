@@ -21,11 +21,11 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,16 @@ D. 아세틸콜린 수용체 항체
 
 ## 해설
 
+어두운 곳에서 더 뚜렷한 좌측 축동과 좌측 안검하수, 아프라클로니딘 후 동공부등의 역전은 좌측 Horner 증후군을 지지한다. 심한 흡연력과 같은 쪽 어깨·팔 통증은 폐첨부 종양에 의한 교감신경 경로 침범을 의심하게 하므로, 보기 중 C, 흉부 CT로 폐첨부와 인접 구조를 평가하는 것이 적절하다.
 
-동공 불균형, 안구하수, 안구하수는 호른 증후군을 나타내며, 이는 폐 상엽 종양(Pancoast tumor)과 연관된다. 진단을 확정하려면 종양의 존재를 확인하는 흉부 CT가 필요하다. 따라서 흉부 CT가 정답이다.
+중증근무력증은 일반적으로 동공 이상을 일으키지 않으며, 안압검사나 매독 선별검사는 이 증상 조합의 원인을 가장 직접적으로 평가하지 못한다. 흉부 CT는 의심 원인을 찾기 위한 검사이며 현재 정보만으로 종양이 확진된 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Horner 해설의 반복 오기와 불명확한 병변 국소화를 수정. 원정답 C 유지; 축동/안검하수·아프라클로니딘 역전 및 어깨통증에서 폐첨부 평가 설명.
+- https://www.cancer.org/cancer/types/lung-cancer/detection-diagnosis-staging/signs-symptoms.html
 
 ## 출처
 

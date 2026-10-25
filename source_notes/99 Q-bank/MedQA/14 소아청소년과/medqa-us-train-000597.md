@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 경구 페니실린 V(penicillin V)
 
 ## 해설
 
+기침·콧물·결막염 후 얼굴에서 퍼지는 발진·고열과 혈청 확진은 홍역에 맞는다. 비타민 A(B)는 임상의 감독하 보조치료로 사용하며 수분·영양 및 합병증 평가를 병행한다. 홍역과 볼거리는 다른 질환이고 본문 아프타성 궤양을 Koplik 반점으로 바꾸지 않는다.
 
-고열·발진·구강 궤양·전신 림프절병증은 홍역(볼거리) 전형이며, 혈청 항체 검사로 확진된다. 항바이러스제는 필요 없고, 비타민 A는 합병증 예방에 필수이다. 따라서 비타민 A 보충이 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 홍역 치료의 비타민 A B 유지. 홍역을 볼거리로 오역하고 아프타를 Koplik으로 단정할 여지를 교정.
+- https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html
 
 ## 출처
 

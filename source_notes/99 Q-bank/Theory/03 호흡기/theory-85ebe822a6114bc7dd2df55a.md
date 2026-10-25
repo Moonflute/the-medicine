@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7Zi47Z2h6rOk656A"
 theory_objective_id: cc-05-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: D
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "생명위협 호흡기 응급처치를 검사 때문에 지연하지 않는 중요한 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 검사는 모두 지연 없이 진행하되, 응급 처치는 먼저 시행�
 
 ## 오답 포인트
 
-- **B. 초음파로 폐슬라이딩 확인 후 치료:** 초음파는 유용하지만, 즉각적인 기흉 감압 등 응급 처치를 지연시켜서는 안 된다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: D
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "침습 증상과 회피의 구분은 독립된 이론 개념으로 유지하고 선지 문자 의존을 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,18 @@ D. 회피 행동
 
 ## 오답 포인트
 
-- **A. 악몽:** 악몽은 침습적 증상의 전형적인 예이다.
+- **악몽·플래시백·반복되는 고통스러운 기억:** 외상 사건을 재경험하는 침습 증상이다.
+- **회피 행동:** 외상 관련 내적·외적 단서를 피하는 별도 증상군이다.
 
 ## 출처
 
 - 내부 학습 노트: 외상 후 스트레스 장애 (PTSD)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/외상 후 스트레스 장애 (PTSD).md`
-- 학습 목표: 원문 핵심: - 침습(Intrusion): 외상 사건에 대한 반복적이고 고통스러운 기억, 악몽, 플래시백(flashback), 외상 관련 자극에 대한 생리적 반응. - 회피(Avoidance): 외상과 관련된 기억, 감정, 생각, 장소, 사람 등을 회피하려는 지속적인 노력. - 인지 및 기분 변화: 사건의 일부를 기억하지 못함(해리성 기억상실), 자신이나 타인에 대한 부정적 신념, 과도한 자책, 흥미 저하, 감정적 소외, 긍정적 감정 경험의 어려움. - 각성 및 반응성 변화: 수면 장애, 과민성, 분노 폭발, 집중력 저하, 과각성(hypervi…
+- 학습 목표: PTSD의 침습 증상군과 회피 증상군을 구분한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 침습 증상과 회피의 구분은 독립된 이론 개념으로 유지하고 선지 문자 의존을 제거.
+- 근거: https://healthquality.va.gov/HEALTHQUALITY/guidelines/MH/ptsd/PTSD-pocket-card-508.pdf

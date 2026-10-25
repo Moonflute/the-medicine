@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 난소낭종 파열
 
 ## 해설
 
+운동 중 갑자기 발생한 편측 골반통과 직장자궁오목의 액체는 난소낭종 파열(D)에 부합한다. 다만 클라미디아 병력은 낭종 파열의 근거가 아니라 난관 손상과 자궁외임신 위험의 단서이다. 피임 없이 성생활 중이므로 임신 여부를 확인해야 하며 복강 내 액체만으로 파열 낭종을 확진하거나 자궁외임신을 배제할 수 없다.
 
-갑작스러운 복통, 복강 내 액체, 부속기 압통 및 클라미디아 병력은 난소낭종 파열을 시사한다. 초음파에서 액체가 보이며, 파열된 낭종이 가장 흔한 원인이다. 따라서 난소낭종 파열이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 클라미디아를낭종파열근거로쓴오류제거. 운동중갑작스런통증·복강액으로D유지하되자궁외임신감별필요.
+
 
 ## 출처
 

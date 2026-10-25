@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -55,6 +57,13 @@ D. 치료하지 않는다
 
 
 노인에서 무증상 세균뇨는 치료가 필요하지 않으며, 항생제 사용은 내성 위험을 높인다. 따라서 치료 없이 관찰한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-001009`와 직접 대조했다.
+- 판정: 국소 요로증상·전신 감염징후 없이 배양/농뇨만 있어 무증상 세균뇨 D 유지. 인지저하만으로 치료하지 않는 IDSA 권고 확인.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/
 
 ## 출처
 

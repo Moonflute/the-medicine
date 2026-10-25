@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "내시경의 직접 점막 관찰이라는 독립 검사 개념 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc15y2hpewvwzxewz0nfcna1rhjvwnpychf3ddy3q1u3sjiwn0lxa0lpew1uztjiae9xmxndqw9uvmnnvtnsdvpisnziv1vwsunotllxehnim0o1tfzkbgfytnpjrk41ym1sewiymwxjq2hovnlcvgvxnwtjbtl0wlnrcextmwt8zglzzwfzzs0wmy1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ EGD를 통해 위식도 접합부에 longitudinal한 점막 열상이 직접 관
 
 ## 오답 포인트
 
-- **B. 복부 초음파:** 복부 초음파는 점막 열상을 확인할 수 없습니다.
+- **복부 초음파:** 복부 초음파는 점막 열상을 확인할 수 없습니다.
 
 ## 출처
 
 - 내부 학습 노트: 말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome)).md`
 - 학습 목표: 원문 핵심: - **상부위장관 내시경(EGD)**: 위식도 접합부에 종축(longitudinal)으로 찢어진 점막 열상 확인
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 내시경의 직접 점막 관찰이라는 독립 검사 개념 유지.

@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,6 +48,13 @@ D. 해당 관절 MRI
 
 
 겸상적혈구빈혈 환자의 급성 손 부종과 통증은 급성 통증 위기이며, 통증 완화를 위해 모르핀 정맥주사가 가장 적절한 초기 관리이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001549 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: NSAID에도 지속되는 영아 SCD의 심한 dactylitis/통증 위기에서 신속한 IV morphine A가 적절하다. 원문·해설 일치; 연령별 투여량·호흡 및 진정 모니터링을 별도 임상 절차로 남겼다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1182/bloodadvances.2020001851
 
 ## 출처
 

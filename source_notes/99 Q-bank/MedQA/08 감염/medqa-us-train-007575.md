@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 여학생의 HIV 혈청검사를 채취하고 즉시 3제 항레트로바이�
 ## 해설
 
 
-직업적 HIV 노출 후 2시간 이내에 즉시 3제 항레트로바이러스 사후예방(PEP)을 시작해야 하며, 혈청 검사는 6주 후에 시행한다. 따라서 혈청검사를 채취하고 즉시 PEP를 시작한다.
+노출자의 baseline HIV 검사 등을 채취하면서 결과를 기다리지 않고 즉시3제 PEP D를 시작한다.2025 직업 노출 지침은 가능한 빨리, 통상72시간 이내 시작하여28일간 투여하며 늦은 고위험 노출은 전문가와 상의한다.2시간은 절대 배제 cutoff가 아니다. Baseline 검사는 지금 시행하고 후속 검사는 현행 검사법/노출·복약상황에 맞춰 추적한다. Source genotype 결과 때문에 초기 투약을 지연하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007575 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 직업적 HIV PEP D 유지;2시간이 지나면 무효/혈청검사는6주에만이라는 잘못된 시간표 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://stacks.cdc.gov/view/cdc/258795/cdc_258795_DS1.pdf
 
 ## 출처
 

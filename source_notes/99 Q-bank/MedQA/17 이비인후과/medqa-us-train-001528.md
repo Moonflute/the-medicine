@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 접형구개동맥
 
 ## 해설
 
+소아·청소년의 자연 발생 비출혈은 대부분 전하방 비중격의 Little 영역에 있는 키셀바흐 혈관얼기에서 발생하므로 C가 가장 가능성이 높다. 접형구개동맥 관련 후방 출혈은 다른 연령·상황에서 더 고려한다. 압박으로 멎지 않았다는 사실만으로 특정 혈관을 확정할 수는 없지만, 이 문항의 연령과 다른 단서에서는 전방 출혈이 가장 흔하다.
 
-전방 비출혈의 가장 흔한 원천은 코전두부 점막에 위치한 키셀바흐 혈관구이다. 코를 압박해도 출혈이 멈추지 않는 경우 이 부위의 파열이 원인이다. 따라서 키셀바흐 혈관얼기가 가장 가능성 높은 출혈 부위이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 키셀바흐 혈관얼기의 해부학적 위치를 코전두부가 아니라 전하방 비중격으로 교정; 압박 실패만으로 출혈점을 확정한다는 설명을 완화.
 
 ## 출처
 

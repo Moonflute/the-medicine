@@ -18,17 +18,22 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+curation_status: "revised"
+curation_reason: "모든 중증 고K에 자동 투석이라는 일반화를 제거하고 제시된 선택지의 칼륨 제거 의미를 설명."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -46,10 +51,19 @@ D. 농축 적혈구 수혈
 
 ## 해설
 
-
-중증 고칼륨혈증은 생명을 위협하므로 응급 혈액투석이 확정 치료이다.
+K6.5와 ECG 변화가 있어 calcium으로 심근을 안정화한 뒤에도 칼륨을 낮추는 처치가 필요하다. 제시된 선택지 중 혈액투석은 체내 칼륨을 신속히 제거하는 방법이다. 투석 준비 중 insulin·glucose 등 이동 치료와 원인 교정을 병행할 수 있으며 실제 투석 필요성은 신기능·재발·치료 반응을 함께 판단한다. Calcium 자체는 칼륨을 제거하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006904
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 모든 중증 고K에 자동 투석이라는 일반화를 제거하고 제시된 선택지의 칼륨 제거 의미를 설명.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

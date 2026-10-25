@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,17 @@ D. 광선치료
 
 ## 해설
 
-
-잠들기와 수면 유지에 어려움을 겪는 노인에서 수면 위생 교육 후 약물 치료가 필요하면 비벤조디아제핀인 졸피뎀을 1차 선택한다. 졸피뎀은 수면 구조를 크게 변형시키지 않으며, 노인에게 비교적 안전한 프로파일을 가진다. 따라서 다음 단계는 졸피뎀 투여이다.
+7개월간 지속된 수면 유지 불면에 대해 제시된 약물 중 원문은 졸피뎀을 선택한다. 그러나 만성 불면의 초기 치료는 수면위생 교육만이 아니라 CBT-I이며, 그것이 선택지에 누락되어 있다. 약물치료를 고려한다면 단기간의 이득·위험을 상담해야 하고 졸피뎀을 고령층에 무조건 안전한 일차 약으로 설명하지 않는다. 낙상·다음날 기능 저하와 수면 중 운전 등 복합 수면행동 위험이 있으며, 이런 행동의 과거력이 있으면 사용하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006737
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 졸피뎀을 노인에게 비교적 안전한 보편적 1차라 한 해설 교정. 만성 불면의 CBT-I 우선과 약물 사용 위험을 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://doi.org/10.7326/M15-2175
+- https://www.fda.gov/consumers/consumer-updates/taking-z-drugs-insomnia-know-risks

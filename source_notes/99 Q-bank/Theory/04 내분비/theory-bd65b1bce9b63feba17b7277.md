@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "비부신 조직이라는 정의는 뇌하수체도 포함하므로 뇌하수체 밖 분비로 교정."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc11vxrpcxpzeurydg9ec2k2rhfzb25zcdrqc25wrhf0n250buxqcnbivhjxcxdnn0thzddaduu2cld3sunorlkzunzjr2xqsuvgrfzfz2dvm2x1wkhkdmjxvxbmbtfrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -14,34 +19,47 @@ theory_objective_id: disease-01-recognition
 question_type: recognition
 question_mode: direct_recall
 difficulty: standard
-answer: B
+answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-비부신 조직에서 ACTH가 과다 분비되어 쿠싱 증후군을 일으키는 상태를 무엇이라고 하는가?
+이소성 ACTH 증후군을 정의하는 분비원은?
 
 ## 선택지
 
-A. 뇌하수체 쿠싱병
-B. 이소성 ACTH 증후군
-C. 부신 피질 adenoma
-D. 알도스테론증
+A. 뇌하수체 밖 종양에서 분비되는 ACTH
+B. 뇌하수체 corticotroph 종양에서 분비되는 ACTH
+C. 부신피질 선종에서 ACTH와 무관하게 분비되는 코르티솔
+D. 투여된 외인성 글루코코르티코이드
 
 ## 해설
 
-이소성 ACTH 증후군은 폐소세포암 등 비부신 종양이 ACTH를 과다 분비해 쿠싱 증후군을 유발한다.
+이소성 ACTH 증후군은 뇌하수체 밖의 종양 등이 ACTH를 분비해 코르티솔 과다를 유발하는 ACTH 의존성 쿠싱 증후군이다. 비부신이라는 말만으로는 뇌하수체 원인을 제외하지 못하므로 정의가 불충분하다.
+
+## 오답 포인트
+
+- 뇌하수체 ACTH 종양: 쿠싱병이다.
+- 부신피질 코르티솔 선종: ACTH 비의존성 원인이다.
+- 외인성 약제: 내인성 이소성 ACTH 분비가 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 딴곳 부신겉질자극호르몬 증후군 (Ectopic ACTH Syndrome)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/딴곳 부신겉질자극호르몬 증후군 (Ectopic ACTH Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 부신 이외의 조직(주로 신경내분비종양)에서 부신겉질자극호르몬(ACTH)이 과도하게 분비되어 부신겉질을 자극함으로써 쿠싱증후군을 유발하는 질환. - **원인**: 가장 흔한 원인은 폐 소세포암종(small cell lung cancer)이며, 그 외 기관지 유암종(bronchial carcinoid), 흉선 유암종, 췌장 신경내분비종양, 갈색세포종 등이 있다. - **기전**: 종양에서 분비된 ACTH가 부신을 지속적으로 자극하여 코르티솔(cortisol)의 과다 분비를 초래한다. 뇌하수체 쿠싱병과 달리 음성 되먹임…
+- 학습 목표: 이소성 ACTH 증후군의 분비원 정의
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 비부신 조직이라는 정의는 뇌하수체도 포함하므로 뇌하수체 밖 분비로 교정.
+- https://www.endocrine.org/clinical-practice-guidelines/diagnosis-of-cushing-syndrome
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/

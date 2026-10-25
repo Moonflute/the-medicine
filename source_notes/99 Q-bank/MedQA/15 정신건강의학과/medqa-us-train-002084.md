@@ -20,15 +20,19 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCsO2bhCDsoJXsi6Drs5EgKFBvc3RwYXJ0dW0gcHN5Y2hvc2lzKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: A
+answer_change_reason: "APA의 분열정동장애 설명상 주요 기분삽화가 전체 활동기 질병 기간 대부분에 있어야 한다. 본문은 정신병적 증상이 9개월 지속되고 우울 증상은 4주로 제한되어 조현병 C가 가장 적합하다."
 ---
 
 # MedQA US 임상문제
@@ -46,8 +50,14 @@ D. 망상장애
 
 ## 해설
 
+9개월간 망상·환청, 기이하고 위험한 행동 및 동기·위생 저하가 지속된 반면 우울 증상은 4주간 제시되어 조현병(C)이 가장 적합하다. 분열정동장애는 정신병 증상과 주요 기분삽화가 함께 있으면서 기분삽화가 질병 전체 기간의 대부분을 차지해야 하는데 본문은 이를 충족하지 않는다. 기존 해설도 조현병을 말하면서 A를 정답으로 연결했다. 자살 충동은 직접 제시되지 않았으며 명령환청에 따른 자신·타인 위해 위험은 별도로 즉시 평가해야 한다.
 
-환자는 급성 정신병, 환각, 우울증, 자살 충동을 동반한 9개월 이상의 진행성 증상이 있다. 조현병이 가장 일관된 진단이며, 다른 선택지는 기분 장애나 일시적 정신병과 맞지 않는다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정신병9개월중기분삽화4주는대부분기간요건미충족. APA기준에따라원답분열정동A→조현병C;해설/답오연결교정.
+- https://www.psychiatry.org/patients-families/schizophrenia/what-is-schizophrenia
+- https://library.samhsa.gov/sites/default/files/SAMHSA_Digital_Download/PEP20-02-01-004_Final_508.pdf
 
 ## 출처
 

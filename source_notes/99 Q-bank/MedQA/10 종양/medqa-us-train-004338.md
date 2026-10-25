@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 독소루비신은 폐독성 위험 때문에 평생 최대 용량이 있다
 
 
 독소루비신은 누적 용량에 따라 심근독성을 일으키며, 평생 최대 용량 제한이 있다. 피부 발진이나 혈전 위험은 주요 부작용이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004338 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Doxorubicin의 누적 심장독성 때문에 평생 누적 투여량을 제한한다는 C가 허가문구와 일치한다. 단일 보편적 최대치나 폐독성 제한으로 바꾸지 않고 원문·해설 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1fd148fb-0fbc-4b6f-b790-23546fb46a71
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 갑상선자극호르몬 수치
 ## 해설
 
 
-양측 유두 분비물과 시야 결손은 시상하부 종양(프로락틴 분비 선종)에서 흔히 나타난다. 혈청 프로락틴 수치를 측정하면 진단에 가장 도움이 된다.
+정답 B. 유즙분비·무월경과 양귀쪽 시야 결손은 뇌하수체 prolactinoma 등 시신경교차 압박 병변을 시사한다. Prolactinoma는 시상하부가 아니라 뇌하수체 선종이다. 혈청 prolactin이 가장 직접적인 생화학 검사이며 임신 가능성 배제와 TSH/약물 평가, 적응증에 따른 뇌하수체 MRI도 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008879 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: prolactinoma의 위치를 시상하부 아닌 뇌하수체로 교정; 임신검사도 임상 평가에 필요.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

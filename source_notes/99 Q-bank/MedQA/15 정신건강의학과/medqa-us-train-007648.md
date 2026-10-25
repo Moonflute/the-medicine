@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 간헐적 폭발장애
 
 ## 해설
 
-
-반복적인 격렬한 분노 발작과 지속적인 과민성을 보이는 소아는 파괴적 기분조절곤란장애(DMDD)와 일치한다; 이는 발작이 3개월 이상 지속되고 일상 기능에 영향을 주지만 양극성 장애나 간헐적 폭발장애와는 구별된다.
+일주일에 여러 차례 심한 분노 폭발과 그 사이에도 지속되는 과민성이 1년 넘게 나타나고 학교·가정 기능에 영향을 주어 파괴적 기분조절곤란장애(DMDD)에 부합한다. 증상은 적어도 12개월 지속되어야 하며 이 기간에 3개월 이상 연속으로 증상이 없어서는 안 된다. 3개월만 지속되면 진단된다는 기존 설명은 잘못이다. 삽화성 조증이나 폭발 사이의 지속 과민성이 필수적이지 않은 간헐적 폭발장애와 구별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007648
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. DMDD 지속기간을 3개월 이상으로 잘못 설명한 오류를 12개월 이상으로 교정. 발작 사이 지속 과민과 반복 폭발의 구별 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nimh.nih.gov/health/publications/disruptive-mood-dysregulation-disorder

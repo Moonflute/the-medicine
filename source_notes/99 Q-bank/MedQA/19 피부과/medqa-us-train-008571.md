@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 국소 퍼메트린
 
 ## 해설
 
+소아의 소양성 두피 병변·진행성 탈모·후두 림프절병증은 두부백선을 지지하여 경구 griseofulvin(C)이 선지 중 적절하다. 두피 진균증은 국소제만으로 충분하지 않으며 균종·지역에 따라 다른 전신 항진균제를 선택할 수도 있다. 실제 사진이나 진균 배양이 없어 원형 결절 모양이나 T. tonsurans 감염을 확정해서는 안 된다.
 
-두피에 원형 결절성 발진과 탈모, 전형적인 경계가 있는 원형 병변은 T. tonsurans에 의한 두피 백선(tinea capitis)이다. 경구 그리세오풀빈은 첫 번째 선택 치료제이다. 아연 피리치온 함유 샴푸는 보조제, 국소 무피로신은 비진균성 염증에, 국소 퍼메트린은 이충에 사용된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 두부백선 C는 탈모·소양·후두 림프절로 지지되지만 보지 못한 결절·원형 경계와 특정 균종을 창작한 설명을 수정한다.
+- 공식/학회 근거: https://www.bad.org.uk/pils/tinea-capitis
 
 ## 출처
 

@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 조직의 산소 이용 능력 감소
 
 ## 해설
 
+밀폐된 차고의 엔진 노출은 CO 중독을 시사한다. CO-Hb 형성으로 유효 산소 운반량이 줄고 산소 해리가 방해되어 조직 저산소증·젖산산증이 생기므로 B가 핵심 기전이다. 일반 pulse oximetry나 계산 포화도가 정상처럼 보여도 유효 산소화가 정상인 것은 아니다. CO는 세포 수준 산소 이용도 방해할 수 있어 B만이 유일한 독성 경로라는 뜻은 아니며, co-oximetry로 평가한다.
 
-일산화탄소 중독은 조직에 산소 전달이 감소하지만 혈중 산소 포화도는 정상이다. 결과적으로 대사성 산증(젖산증)이 발생한다. 따라서 조직으로의 산소 전달 감소가 산-염기 이상 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CO 중독에서 산소포화도가 실제 정상이라는 오해 교정.
+- 공식/학회 근거: https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html
 
 ## 출처
 

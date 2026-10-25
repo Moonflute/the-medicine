@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 혈청 비타민 B12
 
 
 만성 신부전에서 2차성 부갑상선 기능항진이 흔히 발생하며, 혈청 온전 부갑상선 호르몬(PTH) 검사가 이를 선별한다. 따라서 신성 골이영양증 검사는 혈청 온전 PTH 측정이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: CKD4에서 CKD-MBD/이차성 부갑상샘항진 평가에는 보기 중 intact PTH C가 적합. 염증표지자나 B12는 해당 골대사 평가를 대신하지 못함.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

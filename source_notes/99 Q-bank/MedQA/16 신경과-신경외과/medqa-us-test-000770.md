@@ -23,13 +23,15 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhdmFzdGF0aW4ubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,11 @@ D. 트리헥시페니딜
 
 
 고주파 양측 손 떨림은 본태성(활동) 떨림을 시사한다. 비선택적 β‑차단제인 프로프라놀롤은 떨림의 진폭을 감소시켜 일차 치료제로 권장된다. 따라서 시작해야 할 약물은 프로프라놀롤이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 양측 고주파 동작떨림과 정상 나머지 신경진찰은 본태떨림, 고혈압 동반에서 propranolol C는 합리적 초기 선택. primidone도 효과적 대안이지만 이 케이스에서 C를 유지.
+- 공식/학회 근거: https://www.ninds.nih.gov/sites/default/files/2025-05/Tremor.pdf
 
 ## 출처
 

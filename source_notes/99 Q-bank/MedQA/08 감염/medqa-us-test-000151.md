@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -52,7 +54,14 @@ D. 리팜핀
 ## 해설
 
 
-레지오넬라 폐렴은 물에 오염된 에어컨 등에서 발생하며, 고열·설사·양측 폐 침윤이 동반될 때 레보플록사신이 1차 치료제이다.
+폐렴에 설사·저나트륨혈증이 동반되어 Legionella를 고려한다. 선지 중 세포내 병원체에 활성이 있는 호흡기 fluoroquinolone인 레보플록사신(A)이 적절하다. 감염된 물의 에어로졸 노출과 연관되며 모든 에어컨이 감염원인 것은 아니다. 병원체 검사가 필요하더라도 적절한 항생제를 지연하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000151 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 폐렴+설사+저나트륨혈증에서 Legionella 치료 선지 A 유지. 가정용 에어컨 일반화와 유일한 1차 약제라는 표현을 제한.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 방사선치료
 ## 해설
 
 
-국소적 신세포암은 종양이 신장에 국한된 경우 외과적 절제가 치료 표준이다. 신절제술은 완전 절제와 장기 생존율을 높이며, 전이 소견이 없으므로 가장 적절한 치료법이다. 따라서 신절제술이 정답이다.
+원격전이 없는6cm 신장 국한 RCC에서는 외과적 종양절제 C가 적절하다. T1 종양에서는 기술적으로 가능하고 종양학적으로 안전하면 부분신절제를 우선 고려하여 신기능을 보존하며, 종양 위치·복잡도에 따라 근치 신절제술을 선택한다. 이 보기의 nephrectomy를 모든 경우에 전신장을 제거해야 한다는 의미로 해석하지 않는다. IFN/IL-2나 방사선은 이 수술가능 국소 종양의 우선 선택이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007759 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 국소6cm RCC의 외과치료 C 유지하되 항상 전신장 절제가 필요하다는 오해를 줄이고 부분신절제 가능성 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management
 
 ## 출처
 

@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL01vbWV0YXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 모메타손 흡입기와 경구 자피를루카스트
 
 ## 해설
 
+이 정도의 증상 빈도를 보이는 성인에서 A의 저용량 부데소니드/포르모테롤을 필요할 때 항염증 완화제로 사용하는 것은 GINA가 선호하는 초기 전략이다. 경증 천식이라도 SABA 단독이 아니라 ICS를 포함한 치료가 필요하다. 모든 환자에게 정기적인 고용량 ICS/LABA가 필수라는 뜻은 아니며, 진단과 흡입기 사용법, 치료 반응을 확인한다.
 
-경증 지속성 천식에 대한 1차 치료는 흡입 스테로이드(부데소니드)와 장기 작용 베타2 작용제(포르모테롤) 조합이다. 환자는 증상이 가벼워 이 조합이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 경증천식A를정기LABA병용만의보편1차가아닌필요시저용량ICS/formoterol로명료화.
+- https://ginasthma.org/reports/
 
 ## 출처
 

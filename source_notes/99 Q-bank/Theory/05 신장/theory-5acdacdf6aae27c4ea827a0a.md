@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k"
 theory_objective_id: disease-05-next_action
 question_type: next_action
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "ACEi/ARB를 최대 용량으로 시작한다는 위험한 표현을 적정·감시 원칙으로 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-CKD 환자(알부민뇨 A3, 당뇨병 비동반)에게 가장 적절한 다음 조치는?
+ACE 억제제 또는 ARB가 적응되는 알부민뇨 CKD에서 올바른 투여 원칙은?
 
 ## 선택지
 
-A. ACE 억제제 시작
-B. 이뇨제 용량 증량
-C. 칼슘 보충제 투여
-D. 신장 대체 요법(투석) 준비
+A. 적절한 용량으로 시작해 내약 범위로 조절하고 혈압·크레아티닌·칼륨을 확인한다
+B. 첫 투약부터 모든 환자에게 최대 허용 용량을 투여한다
+C. ACE 억제제와 ARB를 항상 병용한다
+D. 시작 후 신기능·칼륨 검사는 필요 없다
 
 ## 해설
 
-A3 알부민뇨가 있으면 당뇨 여부와 관계없이 ACE 억제제 또는 ARB 사용이 권고된다. 최대 내약 용량으로 시작하고 2–4주 내에 혈압·크레아티닌·칼륨을 재평가한다.
+입증된 신장 보호 효과를 위해 내약 가능한 허가 용량까지 적정한다. 시작·증량 후 보통 2–4주 내 혈압·크레아티닌·칼륨을 확인하며 환자 위험에 맞춰 조절한다.
 
 ## 오답 포인트
 
-- **B. 이뇨제 용량 증량:** 이뇨제 증량은 알부민뇨 감소에 직접적인 효과가 없다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))
 - 원본 경로: `source_notes/02 Diseases/05 신장/만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD)).md`
-- 학습 목표: 원문 핵심: - 원인질환 치료, 혈압·당뇨병·심혈관 위험인자 관리, 금연, 운동, 체중·염분 관리, 신독성 약물 회피를 함께 시행한다. NSAID, 한약/보충제, 조영제 및 감염·탈수 시 복용약은 개별적으로 재검토한다. - 당뇨병 유무와 관계없이 A3 알부민뇨가 있으면 ACE 억제제 또는 ARB를 권고하며, 당뇨병이 있는 A2 알부민뇨에도 권고한다. 내약 가능한 최대 용량을 사용하되 ACE 억제제와 ARB의 병용은 피한다. - RAS 억제제를 시작하거나 증량한 뒤 혈압·크레아티닌·칼륨을 2–4주 안에 확인한다. 고칼륨혈증은 식이·병용약·이뇨제·…
+- 학습 목표: 알부민뇨 CKD의 RAS 억제와 안전한 용량 적정
+
+## 검수 근거
+
+- https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf

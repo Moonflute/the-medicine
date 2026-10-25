@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 나이아신 결핍
 ## 해설
 
 
-니아신 결핍(펠라그라)은 설사, 피부염, 치매 삼합증을 일으키며, 저단백 식이와 알코올 남용이 위험인자이다. 환자는 장기간 저단백 식이를 하고 있어 나이아신 결핍이 발생할 수 있다. 따라서 정답은 D이다.
+정답 D. 만성 설사와 폐동맥판 협착을 시사하는 새 심잡음은 carcinoid syndrome 및 우심장 판막병을 고려하게 한다. 종양의 serotonin 생성에 tryptophan이 많이 사용되면 niacin 합성이 감소하여 pellagra 위험이 높아질 수 있다. 이 문항은 이 기전을 묻는다. 생식 식단만으로 niacin 결핍을 확진하는 것은 아니며, carcinoid의 확진 검사 결과도 본문에 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009272 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 폐동맥판 병변과 만성 설사를 carcinoid syndrome의 tryptophan 소모–niacin 결핍에 연결; 생식 식단만의 결핍으로 오해한 해설 교체.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9539661/
 
 ## 출처
 

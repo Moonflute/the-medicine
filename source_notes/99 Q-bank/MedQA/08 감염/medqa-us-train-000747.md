@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 혈소판 농축액 수혈
 ## 해설
 
 
-수술 후 헤파린 투여 중 혈소판 감소와 4T 점수에 해당하면 heparin‑induced thrombocytopenia가 의심된다. 비단백성 항응고제인 argatroban으로 전환하는 것이 표준 치료이다. 따라서 가장 적절한 조치는 argatroban 전환이다.
+헤파린 노출5일 뒤 혈소판감소, 의심 정맥혈전과 피부괴사는 HIT를 강하게 의심하게 한다. 4Ts 등으로 임상 가능성을 평가하고 모든 heparin을 중단하면서 비헤파린 항응고제인 직접 thrombin 억제제 argatroban으로 전환하는 B가 적절하다. 면역검사·기능검사를 의뢰하되 고위험에서는 결과를 기다리며 처치를 미루지 않는다. 혈소판 회복 전 warfarin을 시작하면 피부괴사·사지괴사 위험이 있어 피한다. 활동성 출혈 등 특별한 사유 없이 혈소판을 일률적으로 수혈하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000747 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: argatroban의 분류를 비헤파린 직접 thrombin 억제제로 고치고 급성 HIT에서 warfarin 조기 전환 위험을 명시했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 대변 독소 검사(Stool toxin assay)
 ## 해설
 
 
-고용량 오메프라졸은 위산 억제로 장내 정상 세균군을 억제하고 클로스트리디움 디피실 감염 위험을 높인다. 설사와 복부 팽만이 급성으로 나타나며, 항생제 사용 이력이 없더라도 위산 억제제 사용이 위험 요인이다. 따라서 가장 적절한 초기 검사는 대변 독소 검사이다.
+급성 수양성 설사·발열·복부팽만에서 선택지 중 C. difficile 독소를 평가하는 대변검사(D)가 가장 적절하다. PPI 사용은 CDI와 역학적 연관이 있지만 그것만으로 감염을 확진하거나 직접적인 정상균총 억제로 단순화하지 않는다. 설명되지 않는 하루3회 이상의 무형성변 등 검사 적응증을 확인하고, 기관의 검체선별 기준에 따라 GDH/독소 및 NAAT를 조합한 알고리즘을 사용한다. 독소 EIA 단독은 민감도가 낮아 음성만으로 배제하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000488 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PPI가 정상균총을 직접 억제한다고 단정한 기전을 제거하고 C. difficile 진단 알고리즘을 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/clostridium-difficile/
 
 ## 출처
 

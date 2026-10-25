@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 왼쪽 하부 흉골연에서 가장 잘 들리는 크고 거친 전수축기
 
 ## 해설
 
+저신장·익상경·넓은 흉곽·림프부종은 Turner 증후군에 부합한다. 연관되는 대동맥 축착은 좌측 흉골연에서 등/견갑하 부위로 방사되는 수축기 잡음(A)을 보일 수 있다. 대동맥판 협착과 동일한 용어가 아니다. 미제공 핵형 그림의 세부 결과를 보았다고 단정하지 않는다.
 
-터너 증후군에서 대동맥 협착이 흔히 발생하며, 좌측 흉골연 3~4늑간에서 짧게 들리는 수축기 잡음이 특징이다. 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 대동맥판 협착으로 혼동할 수 있는 대동맥 협착 표현을 축착으로 명확화.
+
 
 ## 출처
 

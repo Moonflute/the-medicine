@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 국소 병변에서는 국소 코르티코스테로이드를 사용하면 안
 
 ## 해설
 
+백반증은 지속·진행·안정·자연 재색소화 등 다양한 경과를 보일 수 있고 재색소화는 흔히 불완전하다. 선지 중 A가 가장 가깝지만 15%는 고정된 보편적 예후 수치가 아니라 전통적 추정으로 이해해야 한다. 관찰 연구마다 비율과 정도가 다르다. 완전 색소회복을 반복하는 질환도, 켈로이드가 정의적 특징인 질환도 아니며 국한 병변에 국소 corticosteroid가 항상 부적절한 것은 아니다. Wood등만으로 모든 진균성 병인을 배제할 수는 없다.
 
-백반증은 서서히 진행되며 약 15%의 환자에서 자연적인 재색소화가 일어난다. 이는 질환의 일반적인 경과를 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선지 중 A를 유지하되 자연 재색소화를 모든 환자에서 고정 15%로 단정하지 않고 경과 다양성과 근거 한계를 설명한다.
+- 공식/학회 근거: https://academic.oup.com/bjd/article/186/1/18/6593593
+- 공식/학회 근거: https://ijdvl.com/a-cross-sectional-study-of-spontaneous-repigmentation-in-vitiligo/
 
 ## 출처
 

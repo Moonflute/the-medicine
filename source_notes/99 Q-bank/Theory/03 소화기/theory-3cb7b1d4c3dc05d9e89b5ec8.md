@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "간경변을 언제나 비가역·필연 진행으로 단정하지 않도록 구조 정의와 원인 치료 후 변화를 구별."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc1xd2hpdux0t3kzaknfcxnjvhfzcjnyczrec3bwmgdlrxhwzg1weulftnbjbkpvyjnocgn5a3viv1f8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -16,36 +21,43 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-간경변증의 정의는 무엇입니까?
+간경변의 구조적 특징과 경과에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 만성 간 손상으로 섬유화와 재생 결절이 형성되는 비가역적 진행성 질환
-B. 간에 종양이 생기는 양성 질환
-C. 간에 급성 염증이 있는 상태
-D. 간에 지방이 축적된 상태
+A. 섬유화와 재생 결절·구조 왜곡이 핵심이며 원인 조절 후 일부 퇴행·재보상이 가능해도 위험이 즉시 모두 사라지는 것은 아니다
+B. 지방 축적만 있으면 섬유화와 무관하게 간경변이다
+C. 모든 간경변은 어떤 원인 치료에도 반드시 같은 속도로 악화한다
+D. 간수치가 정상화되면 문맥고혈압·HCC 위험 추적은 모두 불필요하다
 
 ## 해설
 
-간경변은 지속적인 손상·염증으로 섬유화가 진행되고 재생 결절이 형성되는 비가역적 질환이다.
+간경변의 핵심은 만성 손상에 따른 섬유성 격막·재생 결절과 구조 변화다. 바이러스 억제/제거·금주 등 원인 조절로 일부 환자에서 퇴행·재보상이 가능하다. 그러나 기존 문맥고혈압과 암 위험은 별도로 평가·추적한다.
 
 ## 오답 포인트
 
-- **B. 간에 종양이 생기는 양성 질환:** 양성 종양은 혈관종 등과 구분되며, 간경변은 섬유화가 핵심입니다.
+- 지방만으로 간경변: 지방증과 간경변은 다른 단계·구조 개념이다.
+- 정상 간수치로 모든 위험 종료: 기능·문맥압·암 위험이 완전히 같은 축은 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 간경변증 (Liver Cirrhosis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 만성 간 손상으로 간 조직이 광범위하게 섬유화되고, 정상 간 구조가 파괴되어 재생 결절(regenerative nodules)이 형성되는 비가역적 진행성 간 질환 - **의의**: 간 기능 부전과 문맥 고혈압을 초래 - **원인**: 가장 흔한 원인: 만성 B형 간염, 만성 C형 간염, 알코올성 간 질환 기타: 비알코올성 지방간염(NASH), 자가면역 간염, 원발성 담즙성 담관염(PBC), 원발성 경화성 담관염(PSC), 윌슨병, 혈색소증, 약물 유발성 간 손상 - **기전**: 만성적인 간 손상과 염증이 지속되면…
+- 학습 목표: 간경변의 섬유화·재생 결절과 원인 치료 후 위험
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 간경변을 언제나 비가역·필연 진행으로 단정하지 않도록 구조 정의와 원인 치료 후 변화를 구별.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/

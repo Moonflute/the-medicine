@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 시신경염
 
 ## 해설
 
+현저하게 증가한 양측 시신경유두 함몰비와 점진적 시력저하는 선지 중 C, 개방각 녹내장에 가장 부합한다. 실제 진단은 안압·전방각·시야·시신경 구조검사를 종합하며 정상 안압에서도 녹내장성 손상이 가능하다. 이 문항에는 시야검사 결과가 제시되지 않았으므로 특정 시야 결손을 관찰한 것처럼 쓰지 않는다. 창백이 함몰에 비해 지나치면 다른 시신경병증도 평가해야 한다.
 
-양측 시신경유두 함몰과 시야 결손이 동반된 경우 개방각 녹내장이 가장 흔한 원인이다. 안압은 정상일 수 있으나 유두 함몰이 진행된다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 유두 함몰에 근거한 C는 유지하되 본문에 없는 시야 결손을 만들어 넣지 않고 함몰비만으로 확진하지 않음을 명시.
 
 ## 출처
 

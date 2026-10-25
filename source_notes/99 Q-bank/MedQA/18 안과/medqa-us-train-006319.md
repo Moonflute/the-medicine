@@ -19,11 +19,11 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 국소 간시클로버
 
 ## 해설
 
+콘택트렌즈 사용, 각막 침윤과 전방 하부의 흰 삼출물(축농)은 세균성 각막염을 지지한다. 선지 중 B, 국소 ofloxacin 같은 항균제가 적절하며 steroid 단독이나 단순 진통 점안으로 대체하지 않는다. 긴급 안과 평가가 필요하고, 중심부·큰 궤양이나 심한 전방 염증에서는 배양 후 강화 항생제 등 중증도에 맞는 치료를 선택할 수 있다. 단순히 비전형 세균만의 위험이라고 한정하지 않는다.
 
-콘택트렌즈 착용자는 비전형적인 세균성 각막염 위험이 높으며, 각막 침윤과 흰색 삼출물은 감염을 시사한다. 감염성 각막염의 1차 치료는 광범위 항생제인 플루오로퀸론계 국소제이다. 따라서 가장 적절한 약물은 국소 오플록사신이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 콘택트렌즈 관련 세균성 각막염의 ofloxacin B 유지, 전방 축농에서 중증도별 배양·긴급 안과 치료 필요성 보완.
+- 공식/학회 근거: https://www.aaojournal.org/article/S0161-6420(24)00007-1/fulltext
 
 ## 출처
 

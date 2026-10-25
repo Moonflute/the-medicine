@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 발레리안
 
 ## 해설
 
-
-일반화 불안장애에 1차 치료제로는 불안 완화에 효과적인 부스피론이 권장된다. 베타 차단제는 신체적 증상 완화에 쓰이지만 1차 선택은 아니다. 따라서 정답은 A이다.
+9개월간 여러 생활 영역의 과도한 걱정·긴장·집중력 저하·불면이 있어 범불안장애를 시사한다. 제시된 약물 중 부스피론이 적절하다. 기존 성기능 문제와 과거 과음 병력도 약물 선택에 고려한다. 이것이 SSRI나 CBT보다 언제나 우월한 보편적 1차라는 뜻은 아니며 로라제팜을 장기 기본 치료로 삼지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002097
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 부스피론 원정답 유지. 선택지 한정 및 성기능·과거 과음 맥락을 설명하고 선지 문자 참조 제거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg113/chapter/Recommendations

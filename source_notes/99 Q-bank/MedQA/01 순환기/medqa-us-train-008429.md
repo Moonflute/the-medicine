@@ -20,13 +20,15 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -37,15 +39,21 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 경구 베타차단제 투여—첫 1시간 동안 평균동맥압을 25% 이하로 낮춘다
+A. 경구 베타차단제 투여—첫 1시간 동안 평균동맥압 감소폭이 초기값의 25%를 넘지 않게 한다
 B. 정맥 라베탈롤 투여—혈압이 정상 범위가 될 때까지 반복 투여한다
-C. 정맥 라베탈롤 투여—첫 1시간 동안 평균동맥압을 50% 이하로 낮춘다
-D. 정맥 라베탈롤 투여—첫 1시간 동안 평균동맥압을 25% 이하로 낮춘다
+C. 정맥 라베탈롤 투여—첫 1시간 동안 평균동맥압 감소폭이 초기값의 50%를 넘지 않게 한다
+D. 정맥 라베탈롤 투여—첫 1시간 동안 평균동맥압 감소폭이 초기값의 25%를 넘지 않게 한다
 
 ## 해설
 
+흉통과 허혈성 ECG 변화가 동반된 고혈압은 급성 장기손상을 평가하며 감시하에 정맥 약제로 치료한다. D의 목표는 첫 1시간에 평균동맥압을 초기값에서 25%를 넘지 않게 감소시키는 것이지, 초기값의 25% 이하까지 떨어뜨리는 것이 아니다. 급격한 정상화는 장기 저관류를 일으킬 수 있다. 실제 목표와 약제는 ACS 등 동반 상태에 맞춰 조절한다.
 
-고혈압 위기에서 목표는 평균동맥압(MAP)을 25% 이하로 급격히 낮추는 것이며, 라베탈롤은 베타·알파 차단제로 정맥 투여 시 MAP을 25% 이하로 감소시키는 것이 권장된다. 따라서 라베탈롤을 정맥 투여해 MAP을 25% 이하로 낮춘다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ‘no more than 25% 감소’를 ‘25% 이하까지 낮춤’으로 오독하는 번역을 선지와 해설에서 교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
 
 ## 출처
 

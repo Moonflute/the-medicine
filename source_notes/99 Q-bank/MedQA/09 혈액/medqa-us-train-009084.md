@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 구루병
 ## 해설
 
 
-판코니 빈혈은 골수 부전으로 전혈구 감소, 색소성 반점, 성장 지연, 거대 적혈구와 저칼륨혈증을 동반한다. 환자의 혈액소견과 신체소견이 이에 부합한다. 따라서 판코니 빈혈이 가장 가능성 높은 진단이다.
+선천성 엄지 이상, 색소 변화, 성장저하와 거대적혈구성 빈혈·혈소판감소는 Fanconi 빈혈(B)을 시사한다. 이는 DNA 복구 이상에 따른 유전성 골수부전 질환이다. 포도당뇨·저인산혈증·산증 등은 별도로 근위세뇨관 기능장애를 시사하지만, 같은 이름의 Fanconi 증후군과 Fanconi 빈혈은 동일 질환이 아니며 모든 Fanconi 빈혈 환자에게 이런 세뇨관 소견이 나타나는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009084 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 색소 이상·엄지 이상·성장저하·거대적혈구성 빈혈과 혈소판감소는 Fanconi 빈혈 B. 동반 근위세뇨관 장애를 Fanconi 빈혈의 정의나 보편 소견으로 혼동하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK1401/
 
 ## 출처
 

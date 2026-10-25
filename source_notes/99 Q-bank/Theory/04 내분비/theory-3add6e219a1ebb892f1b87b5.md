@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "표준 지질패널의 구성은 이후 LDL/TG 위험·치료 개념을 읽는 데 필요한 의미 있는 기초 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc15zhrpeurnzxluz095bmlpmllpt3ltblnbb1jibhpir2x3yvdsbgjxbghluzv0wkf8zglzzwfzzs0wnc1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -45,3 +50,8 @@ D. 총콜레스테롤, LDL‑C, HDL‑C, 혈당
 - 내부 학습 노트: 이상지질혈증 (Dyslipidemia)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/이상지질혈증 (Dyslipidemia).md`
 - 학습 목표: 원문 핵심: - 국내 지침상 LDL-C ≥190 mg/dL, TG ≥500 mg/dL은 각각 매우 높은 LDL-C 및 매우 높은 TG 범주이다. 단, 한 번의 수치만으로 원발성 질환을 단정하지 말고 이차 원인과 재검 필요성을 함께 판단한다. - LDL-C 목표는 위험도에 따라 정한다. 국내 5판 지침 기준으로 관상동맥질환은 LDL-C <55 mg/dL 및 기저치 대비 ≥50% 감소, 죽상경화성 뇌졸중/TIA·경동맥질환·말초동맥질환·복부대동맥류는 <70 mg/dL 및 ≥50% 감소를 목표로 한다. - 당뇨병은 유병기간, 주요 위험인자 및 표적장기…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 표준 지질패널의 구성은 이후 LDL/TG 위험·치료 개념을 읽는 데 필요한 의미 있는 기초 복습으로 유지.

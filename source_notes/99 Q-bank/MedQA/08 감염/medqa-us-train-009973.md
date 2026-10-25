@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,15 @@ D. 적절한 예방접종 실패
 ## 해설
 
 
-캠필로박터는 가축 및 애완동물에 서식하며, 집단성 장염을 일으킨다. 아이와 유치원 친구들의 동시 발병은 식품이 아닌 전파성 세균 감염을 시사한다. 따라서 학교에서 세균에 노출된 것이 가장 가능하다.
+유치원에서 비슷한 혈성 설사 환자들이 발생한 역학은 학교에서의 세균 노출(C)을 지지한다. Shigella 등은 소량으로도 분변-경구 전파되어 보육시설 집단 발생을 일으킬 수 있다. Campylobacter는 개·오염 음식·물로 전파되지만 사람 간 전파는 흔하지 않다. 배양 없이 특정 균을 확정하거나 공동 음식 노출을 배제할 수는 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009973 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 유치원 유사 증상 집단 발생은 학교 세균 노출 C를 지지. Campylobacter의 흔한 사람 간 전파라고 잘못 설명하지 않고 Shigella 등 분변경구 집단감염을 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/shigella/prevention/preventing-shigella-infection-among-young-children.html
+- https://www.cdc.gov/campylobacter/hcp/clinical-overview/index.html
 
 ## 출처
 

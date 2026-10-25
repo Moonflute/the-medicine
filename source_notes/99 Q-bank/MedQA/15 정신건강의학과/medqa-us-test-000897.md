@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 조현병
 
 ## 해설
 
+7개월에 걸친 사회 기능 저하에 감시·사고탈취 망상, 사고 흐름의 와해와 정동 둔마가 있어 조현병(D)이 가장 적합하다. 이 사례에는 환각이 직접 제시되지 않았으므로 환각이 있다고 해설에 추가하지 않는다. 망상장애만으로는 뚜렷한 사고 와해와 음성 증상을 충분히 설명하지 못하고, 기분장애 삽화도 제시되지 않았다.
 
-환자는 환각, 사회적 위축, 음성 증상(감정 둔화)과 망상(감시) 등을 보여 조현병의 전형적인 양성·음성 증상이 모두 존재한다. 따라서 가장 가능성 높은 진단은 조현병이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 환각이없는본문에환각을창작한부분삭제. 망상·사고와해·정동둔마/7개월기능저하의조현병D.
+
 
 ## 출처
 

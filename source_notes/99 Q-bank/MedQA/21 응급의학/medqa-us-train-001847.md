@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 침범 사지를 따뜻한 물에 담근다
 
 ## 해설
 
+차갑고 단단하며 왁스 같은 손끝 피부와 감각저하는 동상을 시사한다. 재동결되지 않을 안전한 환경을 확보하고 조절된 따뜻한 물 약37–39°C에 담가 빠르게 재가열하는 D가 적절하다. 문지르거나 직접 뜨거운 열원을 대지 않으며 진통과 중심체온 평가를 병행한다. 재가열 전 소견만으로 깊은 4도 동상을 확정할 수 없다. 심한 저체온이 있으면 중심부 소생을 우선하고, 중증 동상에서 재관류 치료 여부는 재가열 후 전문 평가한다.
 
-환자는 4도 동상(깊은 조직 손상)으로 조직이 경직되고 청색증을 보이며, 재가열은 온수(40‑42 °C) 침수로 시행한다. 이는 조직 손상을 최소화하고 회복을 촉진한다. 따라서 따뜻한 물에 담그는 것이 적절한 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 재가열 전 손모양만으로 4도 동상을 확정하고 40–42도 물침수를 권한 오류를 수정했다. 재동결 위험이 없는 환경에서 37–39도 물로 재가열하는 D를 유지한다.
+- 공식/학회 근거: https://journals.sagepub.com/doi/10.1177/10806032231222359
 
 ## 출처
 

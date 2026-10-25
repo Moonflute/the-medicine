@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 면역성 혈소판감소성 자반증
 
 ## 해설
 
+고열·기침·콧물·결막염과 Koplik 반점은 홍역을 시사한다. 수년 후 생길 수 있는 아급성 경화성 범뇌염(C)은 중추신경계의 지속적 홍역바이러스 감염과 연관된 진행성 신경질환이다. 감염 후 급성 면역매개 뇌염과 동일한 기전으로 설명하지 않는다.
 
-홍역 감염 후 아급성 경화성 범뇌염은 면역 매개 합병증으로, 특히 어린이에서 위험이 높다. 따라서 이 환자에게 가장 위험이 증가하는 합병증은 아급성 경화성 범뇌염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: SSPE를 면역매개 합병증으로만 설명한 오류를 지속 홍역바이러스 감염으로 교정.
+- https://www.cdc.gov/mmwr/volumes/65/wr/mm6501a3.htm
 
 ## 출처
 

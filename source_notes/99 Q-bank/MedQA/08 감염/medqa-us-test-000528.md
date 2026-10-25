@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 복부 초음파
 
 
 말라리아 감염을 확진하려면 말라리아 원충이 포함된 혈액 도말을 두께와 얇은 두께 모두에서 관찰해야 한다. 두 종류 도말이 가장 유용한 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000528 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 유행지 여행후 발열·빈혈·황달·비장비대의 말라리아 확인에 thick/thin smear A 적절. 예방약 복용도 감염을 배제하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/malaria/hcp/clinical-guidance/evaluation-and-diagnosis.html
 
 ## 출처
 

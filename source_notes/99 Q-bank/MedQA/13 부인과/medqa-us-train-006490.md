@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 경구피임약 권고
 
 ## 해설
 
+청소년의 선호와 필요를 확인하고 모든 효과적인 피임 선택지 및 STI 예방을 비밀보장 범위와 함께 상담한다(B). 피임 상담과 처방의 법적 동의 요건은 다르며 처방·정보공유에는 지역 법률과 비밀보장 제한을 확인한다. 부모 동의 전에는 상담도 불가하다는 C는 부적절하다.
 
-청소년에게는 피임 방법에 대한 포괄적 상담이 우선이며, 부모 동의는 법적으로 필요하지 않다. HIV 검사·피임 처방 자체는 상담 후 결정할 수 있다. 따라서 가장 적절한 단계는 모든 피임 방법에 대한 상담이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 포괄적 피임상담 B 유지. 부모 동의가 어디서나 법적으로 불필요하다는 단정 삭제.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/confidentiality-in-adolescent-health-care
 
 ## 출처
 

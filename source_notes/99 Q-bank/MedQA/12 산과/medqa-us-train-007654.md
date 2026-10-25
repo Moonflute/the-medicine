@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 히드랄라진 치료
 
 ## 해설
 
+수축기 163 mmHg는 중증 범위로 신속 재확인 후 지속되면 즉시 치료한다. 선택지 중 히드랄라진(D)은 직접 혈관확장제로 급성 중증 고혈압 치료에 사용한다. Mg는 경련 예방/치료이며 혈압강하제를 대체하지 않는다. 단백뇨가 없어도 중증 임신성 고혈압의 위험 평가가 필요하다.
 
-임신 28주에 혈압 163/105 mmHg는 중증 임신성 고혈압(또는 전자간전증)이며, 급성 혈압 조절을 위해 빠른 작용의 베타 차단제인 히드랄라진이 권장된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 히드랄라진은 베타차단제가 아니라 직접 혈관확장제.
+- https://www.nice.org.uk/guidance/ng133/chapter/Recommendations
 
 ## 출처
 

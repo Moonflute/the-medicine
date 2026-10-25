@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 갑상샘 역형성암
 
 
 갑상선 초음파에서 고에코성 점상 부위와 혈류 증가가 보이는 단일 결절은 갑상선 유두암의 전형적인 영상소견이다. 따라서 정답은 갑상선 유두암이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/4선지/정답 C/해설 읽음. 젊은 성인에서 불규칙 갑상샘 결절, 경부 림프절 및 점상 고에코 부위는 보기 중 유두암에 합당. 영상만 확진한 것이 아닌 가장 가능성 높은 진단 비교이며 치료 검증 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

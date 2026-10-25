@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. BNP 감소, ADH 감소, 나트륨 정상, 칼륨 정상
 
 ## 해설
 
+호흡곤란·S3를 시사하는 추가 심음·폐수포음·말초부종은 울혈성 심부전을 지지한다. 심실벽 신장으로 BNP가 증가하고 유효 동맥혈량 감소에 대한 비삼투성 ADH 분비가 수분저류와 희석성 저나트륨혈증을 일으킬 수 있어 보기 중 C가 가장 합당하다. RAAS 활성화는 칼륨 배설을 증가시킬 수 있지만 혈중 칼륨은 신기능과 약물 등에 따라 달라진다. 현재 약을 복용하지 않는 환자에게 이뇨제 사용을 사실로 가정하지 않는다.
 
-울혈성 심부전에서는 BNP 상승, ADH 상승, 저나트륨혈증(신장 보존성 나트륨 재흡수) 및 저칼륨혈증(이뇨제 사용 또는 RAAS 활성화) 이 나타난다. 제시된 조합이 이를 가장 잘 반영한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 저Na 기전을 Na 재흡수 그 자체가 아닌 ADH 매개 수분저류로 교정하고 미복용 이뇨제를 가정하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

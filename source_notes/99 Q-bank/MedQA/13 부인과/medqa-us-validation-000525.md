@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 1년 후 HPV 검사와 Pap 검사를 시행한다
 
 ## 해설
 
+검체는 평가 가능하고 세포검사 결과가 NILM이다. 21–29세에서 변환대 성분이 없다는 이유만으로 즉시 재채취·HPV 검사를 하지 않고 통상 3년 선별 간격을 따른다(A). 변환대 부재 자체가 병변이 없음을 확정하는 것은 아니다.
 
-Pap 검사에서 변환대 성분이 없을 경우, 이는 표본 채취가 충분했으나 병변이 없음을 의미하므로 3년 후 일반 선별 일정에 따라 재검사한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 23세 NILM·검체 적절·변환대 성분 부재에서 3년 재검 A 유지. 변환대 부재 자체가 무병변을 증명한다는 논리 교정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
 
 ## 출처
 

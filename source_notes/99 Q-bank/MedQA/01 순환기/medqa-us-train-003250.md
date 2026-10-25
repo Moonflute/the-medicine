@@ -21,13 +21,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 구획압 측정
 
 ## 해설
 
+기존 운동성 파행에 안정 시 급성 통증·냉감·맥박 감소가 더해져 급성-on-만성 동맥폐색을 의심한다. DSA B는 폐색의 해부학적 위치를 직접 확인하고 중재와 연계할 수 있어 확진에 유용하다. 그러나 임상적 사지 생존도 평가·응급 항응고/재관류를 지연해서는 안 되며, 모든 PAD에서 DSA를 첫 검사로 시행한다는 뜻은 아니다. 상태와 가용성에 따라 duplex/CTA 등도 사용한다.
 
-급성/만성 말초동맥 폐색에서 혈관의 해부학적 병변을 확인하려면 디지털 감산 혈관조영술(DSA)이 골든 스탠다드이며, 혈류 재건 계획에 가장 정확한 정보를 제공한다. 다른 검사는 기능적 평가에 국한된다. 따라서 확진에 가장 도움이 되는 검사는 DSA이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 급성-on-만성 사지허혈의 DSA B는 확진·재관류 계획에 유용하나 모든 PAD에서 반드시 첫 검사라는 뜻은 아님.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

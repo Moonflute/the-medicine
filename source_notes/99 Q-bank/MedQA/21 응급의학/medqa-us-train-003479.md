@@ -18,22 +18,26 @@ question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: B
+answer_change_reason: "원문에서도 정상 기도·산소화·대칭 호흡음으로 즉시 삽관 적응증이 제시되지 않았다. 현행 안정 관통 흉부외상 영상 권고에 따라 B에서 D로 교정."
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-29세 남성이 오른쪽 가슴을 칼에 찔린 뒤 20분 후 응급실에 왔다. 환자는 의식이 명료하고 산소포화도는 97%였다. 오른쪽 4번째 늑간의 전액와선에 칼이 박혀 있고 상처에서 피가 배어 나왔지만 공기방울은 없었다. 양쪽 호흡음은 같았고 흉부 X선에서 칼이 오른쪽 흉곽 안으로 뻗어 있는 것이 보였다. 다음 중 가장 적절한 다음 처치는?
+29세 남성이 오른쪽 가슴을 칼에 찔린 뒤 20분 후 응급실에 왔다. 환자는 의식이 명료하고 산소포화도는 97%였다. 혈압은 112/70 mmHg, 호흡수는 분당 16회였다. 오른쪽 4번째 늑간의 전액와선에 칼이 박혀 있고 상처에서 피가 배어 나왔지만 공기방울은 없었다. 양쪽 호흡음은 같았고 흉부 X선에서 칼이 오른쪽 흉곽 안으로 뻗어 있는 것이 보였다. 다음 중 가장 적절한 다음 처치는?
 
 ## 선택지
 
@@ -44,8 +48,12 @@ D. 흉부 CT
 
 ## 해설
 
+의식·환기·산소화와 혈압이 유지되어 즉각적인 기도 확보나 긴장성 기흉 감압을 뒷받침하지 않는다. 박힌 칼은 고정한 채 임의로 제거하지 않고 외상외과와 평가하며, 안정된 관통 흉부외상의 손상 범위·경로를 파악하는 흉부 CT(D)가 보기 중 적합하다. 수술/마취가 필요할 수 있다는 사실이 현재 응급실에서 무조건 삽관해야 한다는 뜻은 아니다.
 
-칼이 흉강에 남아 있어 기도 손상이 없고 호흡음도 대칭이며 공기 누출 징후가 없으므로 즉시 기도 확보가 필요하지 않다. 환자는 의식이 명료하고 산소포화도도 정상이므로 가장 중요한 조치는 호흡기 합병증을 예방하기 위한 기관내 삽관이 아니라, 필요 시를 대비한 준비이다. 따라서 정답은 기관내 삽관이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문에서도 정상 기도·산소화·대칭 호흡음으로 즉시 삽관 적응증이 제시되지 않았다. 현행 안정 관통 흉부외상 영상 권고에 따라 B에서 D로 교정.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

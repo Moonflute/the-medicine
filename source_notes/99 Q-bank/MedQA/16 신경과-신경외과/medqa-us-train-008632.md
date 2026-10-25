@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUmFiZXByYXpvbGUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 소변 카테콜아민 증가
 
 ## 해설
 
+전종격동 종괴와 전신 쇠약의 조합은 흉선종에 동반된 중증근무력증을 고려하게 하므로 AChR 항체(B)가 가장 가능성 높은 소견이다. 흉선종은 운동신경원 질환인 ALS가 아니라 자가면역 신경근접합부 질환인 중증근무력증과 관련된다. AChR 항체가 흉선종 자체의 확진검사인 것은 아니다.
 
-흉종(흉선종)은 근위축성 무력증과 강하게 연관되며, 진단을 위해서는 아세틸콜린 수용체 항체 검사가 가장 유용하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 흉선종 연관 질환을 '근위축성 무력증'으로 잘못 명명한 해설 교정.
 
 ## 출처
 

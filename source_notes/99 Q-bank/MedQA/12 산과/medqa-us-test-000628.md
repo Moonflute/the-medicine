@@ -20,15 +20,17 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 적혈구 수혈
 
 ## 해설
 
+태반에 붙은 붉은 종괴가 질 밖으로 나오고 급속 출혈·저혈압이 발생한 것은 급성 자궁내번을 시사한다. 도움을 요청하고 소생하면서 즉시 손으로 내번된 자궁을 위로 밀어 정상 위치로 복원한다. C는 그 복원 조작을 나타내는 선택지이다. 복원 전 옥시토신으로 자궁을 수축시키면 복원이 어려워질 수 있으며, 복원 후 자궁수축제를 사용한다.
 
-태반이 질을 통해 돌출된 후 대량 출혈이 발생한 경우는 태반 만출이다. 초기 처치는 자궁을 위쪽으로 들어올려 자궁내압을 높이는 것이 가장 효과적이다. 따라서 정답은 후방개를 위로 올리는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태반 만출이 아니라 급성 자궁내번이며 즉시 복원해야 함.
+- https://www.mkuh.nhs.uk/wp-content/uploads/2022/10/Uterine-Inversion-Guideline.pdf
 
 ## 출처
 

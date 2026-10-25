@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 혈청 TSH 증가
 ## 해설
 
 
-환자는 서서히 진행되는 기억력 저하와 피로, 저혈압(심박 54)와 함께 주의·집중력 저하가 나타난다. 갑상선 기능 저하증은 TSH 상승, 인지 저하, 피로를 일으키며 혈압 저하와 서맥을 동반한다. 따라서 가장 가능성 높은 소견은 혈청 TSH 증가이다.
+정답 D. 체중증가·피로·서맥과 아급성 인지/집중력 저하는 갑상선기능저하증을 고려하게 한다. 원발성 갑상선기능저하증이면 TSH 상승이 예상되며 free T4 등으로 평가한다. 맥박 54회/분은 서맥이지 저혈압이 아니고 혈압 122/80은 정상이다. 다른 인지장애 원인도 감별해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007591 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혈압 122/80은 저혈압이 아니고 맥박 54는 서맥. 인지저하·피로·체중증가와 TSH D 연결 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

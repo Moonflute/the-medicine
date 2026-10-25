@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 복부 X선에서 삼중 기포 징후
 
 ## 해설
 
+생후 6주 비담즙성 구토와 명치의 올리브 모양 종괴는 비후성 유문협착증을 시사한다. 초음파에서 길고 두꺼워진 유문(C)이 예상된다. Down 병력만으로 십이지장 폐쇄를 고르지 않으며 초기에는 대사성 알칼리증이 아직 없을 수 있다.
 
-다운증후군 영아에서 비후성 유문협착증이 흔히 나타나며, 초음파에서 유문이 길고 두꺼워진 모습이 관찰된다. 이는 비담즙성 구토와 연관된 특징이다. 따라서 복부 초음파에서 유문이 길고 두꺼워짐이 예상 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비담즙성 구토·올리브 종괴의 유문협착 초음파 C 유지. Down에서 흔하다는 불필요한 단정 제거.
+
 
 ## 출처
 

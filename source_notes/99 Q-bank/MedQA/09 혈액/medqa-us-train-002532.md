@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 크레아티닌 수치
 ## 해설
 
 
-비분획 헤파린의 항응고 효과는 aPTT 연장으로 모니터링한다. aPTT는 헤파린 농도와 직접적인 상관관계가 있어 용량 조절에 가장 적합한 검사이다.
+정맥 비분획 heparin의 용량은 기관별로 검증한 aPTT 목표에 따라 조절할 수 있으므로 B가 맞다. aPTT는 시약, 응고인자와 lupus anticoagulant 등의 영향을 받으므로 혈중 heparin 농도와 항상 완벽하게 일치하지는 않는다. 실제로는 anti-Xa 측정을 사용하는 프로토콜도 있다. PT/INR은 주로 warfarin 모니터에 이용하며 creatinine 자체로 UFH의 항응고 강도를 조절하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002532 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: aPTT와 헤파린 농도의 완벽한 직접비례·유일한 모니터라는 과장을 줄임. 보기 B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1c634e53-44d6-cdcd-e063-6294a90a92e9
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 인터페론 알파
 
 ## 해설
 
+청색증·떨림·경련 등 증상과 Hct 72%는 신생아 다혈구혈증/과점도증을 시사한다. 정맥 헤마토크릿으로 확인하고 저혈당 등 다른 원인도 즉시 교정하면서 전문 신생아 관리하에 부분교환수혈과 수액(A)을 고려한다. 무증상 또는 모세혈관 수치만 높은 모든 신생아에게 교환을 시행한다는 의미는 아니다.
 
-신생아의 혈액 점도 증가(헤마토크릿 72%)와 저혈당은 신생아 적혈구증가증(증상성 고점도 증후군)에서 흔히 나타난다. 치료는 혈액 점도를 낮추기 위해 부분 교환수혈과 수액을 동시에 시행하는 것이 가장 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 증상 동반 높은 헤마토크릿의 부분교환 적응증과 정맥 검체 확인·저혈당 동시 처치를 명확화.
+- https://medconnection.ucsfbenioffchildrens.org/polycythemia-guidelines
 
 ## 출처
 

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 치료: 체중 감량, 동반질환: 인슐린 저항성과 지질 이상
 
 ## 해설
 
+PCOS에서는 생활습관·체중관리와 당대사·지질 평가가 중요하여 D가 선택지 중 적절하다. 인슐린저항성을 혈중 인슐린 검사만으로 일상 선별하기보다 OGTT 등으로 혈당 상태를 평가한다. 희발월경의 내막 보호와 고안드로겐 증상에는 복합피임약 등 추가 치료도 상담한다.
 
-다모증, 무월경, 비만, 인슐린 저항성은 다낭성 난소증후군을 시사한다. 초기 치료는 체중 감량이며, 인슐린 저항성과 지질 이상은 흔히 동반되는 대사 합병증이다. 따라서 체중 감량과 인슐린 저항성·지질 이상 검사가 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: PCOS체중관리만으로모든증상치료를대체하지않고 당대사검사방식정리.
+- https://integration.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/
 
 ## 출처
 

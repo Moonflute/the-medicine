@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 생리적 고빌리루빈혈증
 
 ## 해설
 
+생후 3일의 불량한 젖물림, 불확실한 섭취량과 긴 야간 공복은 불충분 섭취와 관련된 초기 모유수유 황달(B)을 시사한다. 섭취 부족으로 대변 배출이 줄고 빌리루빈 장간순환이 증가할 수 있다. 이는 충분히 먹고 자라는 영아에서 더 늦게 지속되는 모유 황달과 구별한다. 생후 3일이라는 시점만으로 원인을 확정하지 않으며 수분·체중·수유 및 빌리루빈 평가가 필요하다.
 
-생후 3일에 나타나는 황달은 모유수유 시 빌리루빈 재흡수가 증가해 발생하는 모유수유 황달이 가장 흔하다. 모유 섭취량이 충분하지 않아 빌리루빈이 감소되지 않아 황달이 지속된다. 따라서 모유수유 황달이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모든3일황달이수유황달이라는일반화제거. 불충분섭취/장간순환기전으로B유지.
+
 
 ## 출처
 

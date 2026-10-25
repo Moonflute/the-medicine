@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 간 생검을 시행한다
 
 ## 해설
 
+HAV 항체가 음성이므로 A형간염에 면역이 없다. 만성 HCV 감염은 HAV 중증화 위험이 있어 A형간염 백신(A)을 임신 중에도 권고할 수 있다. HBV 표면항체 단독 양성은 보통 접종 면역 패턴이며 리바비린은 임신 중 사용하지 않는다.
 
-임산부가 A형 간염 항체 양성인 경우, A형 간염에 대한 면역이 없으므로 예방접종이 권장된다. 다른 선택지는 현재 상황에서 필요하지 않다. 따라서 A형 간염 예방접종이 가장 적절한 권고이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HAV 항체 음성을 양성으로 바꿔 설명한 오류 수정.
+- https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-9-hepatitis-a.html
 
 ## 출처
 

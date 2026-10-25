@@ -21,13 +21,15 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 소변 독성검사 양성
 
 ## 해설
 
+정답은 A이다. 피로·체중 증가·변비·서맥·느린 말과 운동 및 심부건반사 이완 지연은 일차 갑상샘기능저하증을 시사하며 TSH 상승이 가장 합당하다. 앞선 두근거림·떨림은 갑상샘염의 일시적 중독기 등과 연결될 수 있으나 원인을 확정할 자료는 없다. 제시된 37.2°C는 저체온이 아니다.
 
-피로·체중 증가·느린 반응·심박수 감소·저체온은 갑상선 기능 저하를 나타낸다. 혈액검사에서 TSH 상승이 가장 특징적인 결과이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 37.2°C를 저체온이라고 한 해설 오류 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

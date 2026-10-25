@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 실데나필 복용
 
 
 통증성 발기는 겸상적혈구병에서 혈관 내 겸상 적혈구가 막힘을 일으켜 발생한다. 헤로인 남용·비호지킨 림프종·실데나필 복용은 다른 메커니즘을 가진다. 따라서 가장 가능성 높은 원인은 겸상적혈구병이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009662 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 반복 관절통·빈혈성 잡음과 통증성 발기의 기저질환은 SCD A. 인종만이 아닌 동반 임상 단서와 혈관폐쇄 기전을 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

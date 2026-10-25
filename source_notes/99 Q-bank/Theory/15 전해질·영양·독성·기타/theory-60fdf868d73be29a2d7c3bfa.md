@@ -12,38 +12,51 @@ target_type: drug
 target_slug: "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: B
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ
+curation_status: "revised"
+curation_reason: "실제 간 glycogen 분해 선택지를 두고 범용 해독 설명을 정답 처리한 오류 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-Glucagon의 약리학적 작용 기전은 무엇인가?
+Glucagon이 혈당을 높이는 주된 기전은?
 
 ## 선택지
 
-A. 혈당 상승을 위한 글리코겐 분해 촉진
-B. 해독·흡착·보충·길항 등 목적에 맞는 다중 기전
-C. 혈압 상승을 위한 혈관 수축
-D. 칼슘 이온 공급
+A. 간의 glycogen 분해와 포도당 생성을 촉진한다
+B. 장내 포도당을 물리적으로 흡착한다
+C. 인슐린 수용체를 직접 차단한다
+D. 신장 SGLT2를 억제한다
 
 ## 해설
 
-Glucagon은 해독, 흡착, 보충, 길항 등 다양한 상황에 맞춰 작용하는 다중 기전을 가진 약물이다.
+Glucagon은 간의 glucagon 수용체를 통해 glycogen 분해 및 포도당 생성을 촉진한다. 저혈당에서 사용되지만 작용을 일반적인 해독·흡착으로 설명하면 안 된다.
 
 ## 출처
 
 - 내부 학습 노트: Glucagon
 - 원본 경로: `source_notes/04 Pharmacology/15 전해질·영양·독성·기타/Glucagon.md`
-- 학습 목표: 원문 핵심: - 해독, 흡착, 보충, 길항 등 목적에 맞는 기전으로 작용한다.
+- 학습 목표: Glucagon의 간 glycogen 분해·포도당 생성 촉진
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/201849Orig1s024lbl.pdf

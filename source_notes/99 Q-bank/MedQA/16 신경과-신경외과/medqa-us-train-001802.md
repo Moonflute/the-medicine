@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 전정신경초종
 
 ## 해설
 
+출생 직후 수술한 요부 주머니 모양 돌출은 척수수막류를 시사하며 이는 Chiari II 기형(C)과 강하게 연관된다. 소뇌·뇌간 하방 전위와 CSF 흐름 장애로 수두증 및 두개내압 상승이 발생할 수 있다. 뇌실내출혈은 Chiari II의 필수 동반 소견이 아니다. 실제 MRI는 제공되지 않았지만 출생 병력과 임상 소견이 선지 중 C를 가장 지지한다.
 
-Chiari II 기형은 수두증, 뇌실내 출혈, 그리고 두개내 구조 이상을 동반하며, 두통·목통증·청각 이상과 시신경부종이 나타날 수 있다. MRI 소견이 이를 뒷받침하므로 가장 가능성 높은 원인이다. 다른 선택지는 해당 증상과 부합하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 척수수막류 병력과 후두개와 증상의 Chiari II C는 본문으로 지지되며 뇌실내출혈 동반과 보지 못한 MRI 확인 문구를 제거한다.
+- 공식/학회 근거: https://www.ninds.nih.gov/sites/default/files/2025-05/chiari-malformation.pdf
 
 ## 출처
 

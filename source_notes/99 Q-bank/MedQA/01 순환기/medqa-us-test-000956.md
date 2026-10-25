@@ -19,13 +19,15 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. NYHA IV
 
 ## 해설
 
+정답은 C이다. 휴식하면 편하지만 평소보다 적은 활동인 아침 준비와 짧은 보행에도 증상이 생겨 신체활동이 현저히 제한되므로 NYHA III에 해당한다. NYHA II는 통상 활동에서 증상이 생기는 경도 제한, IV는 휴식 시에도 증상이 있는 상태이다. 표준 NYHA 기능분류는 I–IV이며 선지의 IIa/IIb를 표준 하위 단계로 가르치지 않는다.
 
-NYHA 분류는 일상 활동 시 증상이 나타나는 정도를 기준으로 한다. 환자는 일상적인 가벼운 활동(예: 옷 입기)에서도 증상이 나타나므로 NYHA III에 해당한다. NYHA IIb는 약간의 증상이 있을 때이며, NYHA IV는 휴식 시에도 증상이 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 정답 III 유지. 비표준 NYHA IIa/IIb를 실제 기능분류인 것처럼 설명한 문장 제거.
+- https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure
 
 ## 출처
 

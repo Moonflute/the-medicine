@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 안심시키고 대증치료
 ## 해설
 
 
-미열·피로·손톱 밑 반점·새로운 심잡음은 감염성 심내막염을 시사한다. 진단을 확정하기 위해서는 먼저 혈액배양을 시행해 미생물을 확인한다. 심초음파는 배양 후에 시행한다.
+지속 발열, 손끝 압통성 병변·손발톱하 출혈과 새 잡음은 감염성 심내막염을 의심하게 한다. 항생제 전 여러 세트 혈액배양(C)을 신속히 채취해 원인균을 확인한다. 심초음파도 가능한 한 빨리 병행하며 배양 결과가 나올 때까지 기다리는 검사가 아니다. 혈역학적으로 불안정하면 불필요하게 항균치료를 지연하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000659 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: IE 의심 시 항생제 전 blood cultures C 유지. 심초음파가 배양 결과 뒤에만 가능하다는 잘못된 순서 강제 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107?searchresult=1
 
 ## 출처
 

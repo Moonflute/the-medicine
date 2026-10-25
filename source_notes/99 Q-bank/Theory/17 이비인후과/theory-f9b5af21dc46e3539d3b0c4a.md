@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "외이도 연골부 모낭의 포도상구균 감염 정의 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 외이도에 물이 고여 발생하는 외이도염
 
 - 내부 학습 노트: 이절 (Localized external otitis)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/이절 (Localized external otitis).md`
-- 학습 목표: 원문 핵심: - **정의**: 외이도 연골부의 모낭에 발생하는 포도상구균 감염으로 인한 국소적 급성 화농성 염증(이절, Furuncle). - **원인**: 주로 Staphylococcus aureus에 의해 발생. - **기전**: 귀이개, 면봉 사용 등 외이도 피부의 물리적 손상이나 습한 환경으로 인해 모낭이 감염되어 발생.
+- 학습 목표: 이절의 모낭염과 병원체
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 외이도 연골부 모낭의 포도상구균 감염 정의 유지.

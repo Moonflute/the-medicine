@@ -20,15 +20,17 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 항이뇨호르몬 생성 부족
 
 ## 해설
 
+HbA1c 10.5%는 지속적인 고혈당을 시사하며, 포도당의 요중 배설이 늘면 삼투성 이뇨와 수분 소실이 생겨 탈수·고나트륨혈증을 일으킬 수 있다. 보기 중 B가 가장 합당하다. 소변 삼투질농도 400 mOsm/kg은 혈청 354보다 높으며, 용질이 많은 소변에서도 순수 수분 손실이 클 수 있다. 이 현상에 반드시 혈당 300 mg/dL 이상이라는 고정 역치가 적용되는 것은 아니다.
 
-고혈당에 의한 삼투성 이뇨는 혈당이 300 mg/dL 이상일 때 발생하며, 혈청 삼투압이 상승하고 소변 삼투압이 혈청보다 낮아진다. 환자는 HbA1c 10.5%로 조절되지 않은 당뇨, 고나트륨혈증, 저농도 소변 삼투압을 보여 삼투성 이뇨가 가장 가능성 높은 설명이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 B 유지. 소변 400은 혈청354보다 높은데 더 낮다고 한 수치오독 및 고혈당성 이뇨의 고정 300mg/dL 역치 주장 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

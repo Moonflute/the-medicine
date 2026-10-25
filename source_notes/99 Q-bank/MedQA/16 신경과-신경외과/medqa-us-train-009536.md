@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 뇌실복강 단락술
 
 ## 해설
 
+보행장애·인지저하·요실금과 CSF 제거 후 일시적 보행 개선은 정상압수두증에서 션트 반응 가능성을 지지한다. 보기 중 뇌실복강 단락술(D)을 평가하는 것이 적절하다. 경막외 혈액봉합술은 주로 뇌척수액 누출에 의한 저압성 두통 치료이며 출혈성 수두증 치료가 아니다. Acetazolamide는 IIH 등에서 쓰이지만 NPH의 장기 확정치료를 대신하지 않는다. 누락된 CT의 구체적 모양을 관찰했다고 단정하지 않는다.
 
-보행 개선이 일시적으로 나타난 뒤에도 증상이 지속되는 정상압수두증은 뇌실-복강 단락술(VP shunt)이 표준 치료이다. 내시경적 제3뇌실개창술은 선택적이며, 혈액봉합술은 출혈성 수두증에, 아세타졸아미드는 혈관성 두통에 사용된다. 따라서 가장 적절한 처치는 뇌실복강 단락술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. NPH 션트 D 유지. 혈액봉합술을 출혈성 수두증 치료로 설명한 오류와 acetazolamide 적응증 오류 교정.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC7905302/
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 넷째 및 여섯째 인두궁
 
 ## 해설
 
+성대를 확인할 수 없는 선천 후두 발달 이상이라는 출제 의도에서 후두 연골·근육과 관련된 제4·제6인두궁(D)이 적절하다. 호흡기 상피와 기관식도의 앞창자 내배엽 기원은 이 인두궁 유래 구조와 구별해야 한다. 식도 개구로 삽관 후 산소화가 좋아졌다는 본문만으로 특정 기관식도 연결 형태가 영상으로 확진됐다고 추가하지 않는다.
 
-기관이 아닌 식도에 해당하는 단일 구멍은 제4·제6인두궁(기관과 식도 전구부) 발달 결함으로, 기관이상(기관 폐쇄)과 연관된다. 따라서 제4·제6인두궁 발달 실패가 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 제4·6인두궁을 기관/식도 전구부라고 설명한 발생학 오류를 후두 구조 발달과 앞창자 내배엽의 구분으로 교정했다.
+
 
 ## 출처
 

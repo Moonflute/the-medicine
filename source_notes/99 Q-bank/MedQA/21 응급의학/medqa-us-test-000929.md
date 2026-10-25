@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 노르에피네프린
 
 ## 해설
 
+Labetalol 복용은 아나필락시스에서 epinephrine 반응을 약화시킬 수 있다. 저혈압이 충분한 epinephrine·수액 치료에도 지속되면 β수용체와 독립적으로 심근 cAMP를 높이는 glucagon(B)을 보조적으로 고려한다. 실제로는 IM epinephrine 반복 및 전문가 감독하 IV 주입을 포함한 소생을 지속하며 glucagon이 이를 대체하지 않는다. 구토 등 부작용을 감시한다.
 
-베타 차단제 복용 환자에게 아나필락시스가 발생하면 에피네프린 효과가 감소한다. 글루카곤은 베타 차단제에 의해 억제된 심장 수축을 보강해 혈압을 회복시킨다. 따라서 다음 단계는 글루카곤 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. β차단제 관련 refractory anaphylaxis의 glucagon B를 유지하되 epinephrine 반복·주입을 대체하는 자동 다음 단계로 가르치지 않는다.
+- 공식/학회 근거: https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions
 
 ## 출처
 

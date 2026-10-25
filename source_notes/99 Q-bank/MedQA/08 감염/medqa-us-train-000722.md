@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 하웰-졸리 소체(Howell-Jolly bodies)
 ## 해설
 
 
-만성 알코올 남용은 비타민 B12와 엽산 결핍을 초래해 적혈구의 평균 적혈구용적(MCV)이 증가한다. 환자는 반복된 급성 알코올 중독과 저혈당을 보이며, 혈액검사에서 거대적혈구증이 가장 흔히 동반된다. 따라서 MCV >100 fL인 거대적혈구증이 가장 가능성 높은 결과이다.
+반복적인 과음은 대적혈구증(MCV>100fL, C)과 관련된다. 알코올의 직접적인 골수/적혈구 생성 영향으로 영양결핍 없이도 비거대적아구성 대적혈구증이 생길 수 있으며, 엽산결핍이나 간질환 등이 동반될 수도 있다. 따라서 모든 경우를 B12·엽산 결핍으로 단정하거나 과분엽 호중구가 반드시 있다고 가정하지 않는다. 본문의 저혈당은 즉시 교정해야 하는 별도의 응급문제이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000722 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 알코올성 대적혈구증을 반드시 B12/엽산 결핍 때문이라고 단순화한 기전을 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

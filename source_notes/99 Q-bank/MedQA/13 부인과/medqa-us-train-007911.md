@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 자궁내막의 염증
 
 ## 해설
 
+과다월경·월경통과 균일하게 커진 물렁하고 압통 있는 자궁은 자궁선근증(adenomyosis)을 시사한다. 자궁근층 내 자궁내막 샘·기질(B)이 핵심 병리다. 자궁강 밖 내막 유사 조직인 자궁내막증이나 자궁내막 증식증과는 다른 개념이며 결절성·비대칭 자궁근종과 구분된다.
 
-월경량·기간 증가와 하복부 통증, 자궁이 부드럽고 확대된 소견은 자궁내막 조직이 자궁벽 내에 존재하는 자궁내막증(자궁내막 조직의 비정상적 증식)을 시사한다. 이는 월경통과 과다 출혈을 일으킨다. 따라서 정답은 자궁벽 내 자궁내막 조직이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 자궁선근증을 자궁내막증·자궁내막 증식으로 혼용한 해설을 정확한 자궁근층 내 내막 조직으로 교정했다.
+
 
 ## 출처
 

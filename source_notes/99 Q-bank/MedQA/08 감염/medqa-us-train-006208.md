@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 발라시클로버
 ## 해설
 
 
-호중구 감소증이 있는 급성 골수성 백혈병 환자에서 발열 시, 광범위 그람음성균(특히 녹농균) 감염 위험이 높다. 이미 분절호중구가 40%이므로, 항녹농균제인 이미페넴이 가장 적절한 선택이다.
+WBC800/µL×호중구40%=ANC320/µL이며 AML 유도항암 후 발열은 고위험 발열성 호중구감소증이다. 신속한 입원 경험적 항녹농균 정주 치료가 필요하고 선택지 C imipenem은 실제 임상에서 cilastatin과 결합해 사용하는 적절한 약제 중 하나다. 단순40%라는 백분율만으로 위험을 판단하지 않으며 배양·신기능·내성 위험에 따라 치료를 조정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006208 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 40%를 정상 호중구로 오해하지 않도록 ANC320 계산 및 imipenem-cilastatin 조합 맥락 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/neutropenic-patients-with-cancer/
 
 ## 출처
 

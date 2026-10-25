@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 양극성장애
 
 ## 해설
 
+실직이라는 스트레스 이후 나타난 우울·기능 저하가 다른 제시된 만성 기분장애나 조증, 물질사용장애의 기준을 뚜렷하게 충족하지 않아 보기 중 적응장애(A)가 가장 적절하다. DSM 기준에서 증상은 스트레스 시작 후 3개월 이내 발생하고, 스트레스/결과가 끝난 후 추가 6개월을 넘겨 지속되지 않는다는 조건을 구분한다. 증상이 경미해야 하거나 자살 위험이 없다는 진단은 아니며 별도 평가가 필요하다.
 
-정신적 스트레스(직업 상실) 후 일시적 우울·불안, 기능 저하가 6개월 이내에 나타나는 경우는 적응장애에 해당한다. 증상이 경미하고 자살 위험이 없으며, 다른 정신질환 기준을 충족하지 않는다. 따라서 정답은 적응장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 적응장애의 발생 시기를 6개월 이내라고 잘못 설명하고 자살 위험이 없다고 일반화한 해설을 교정했다.
+- https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t19/
 
 ## 출처
 

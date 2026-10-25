@@ -21,17 +21,19 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,15 +44,21 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 정맥 울혈 감소
+A. 말초 정맥 내 혈액 저류(venous pooling) 감소
 B. 관상동맥 혈관 확장
 C. 죽상경화반 안정성 증가
 D. 이완기말 압력 감소
 
 ## 해설
 
+안정형 운동유발 협심증에서 니트로글리세린은 주로 정맥 용량혈관을 확장하여 말초 정맥 내 혈액 저류를 늘리고 정맥환류를 줄인다. 이로써 좌심실 이완기말 압력/전부하(D)와 벽장력이 감소하여 심근 산소 요구량이 줄어든다. 관상동맥 확장도 가능하지만 이 사례의 주된 완화 기전은 전부하 감소다. 선지 A는 말초 정맥 혈액 저류의 '감소'이므로 실제 작용과 반대다.
 
-니트로글리세린은 관상동맥을 확장시켜 협심증성 흉통을 완화한다. 환자의 흉통이 니트로글리세린에 반응한다는 점은 혈관 확장이 통증 완화의 주된 메커니즘임을 보여준다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. B 관상동맥확장만 설명한 해설을 정맥 용량혈관 확장→전부하/LVEDP 감소로 교체. A venous pooling을 울혈로 오역하여 의미가 바뀐 선지도 원뜻으로 교정.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa789d65-9407-4965-bd06-4457444b42be&version=10
 
 ## 출처
 

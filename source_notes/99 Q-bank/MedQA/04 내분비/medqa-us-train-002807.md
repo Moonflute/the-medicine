@@ -21,13 +21,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 인위적 갑상샘기능항진증
 
 ## 해설
 
+갑상샘 통증·압통, ESR 상승과 일시적 갑상샘중독증, 방사성요오드 섭취율 감소는 아급성 갑상샘염 A에 부합한다. 파괴된 여포에서 저장 호르몬이 유출되므로 호르몬 수치는 높아도 새 합성과 섭취율은 낮다. 낮은 요오드 섭취 식이가 이 증상을 유발한다는 뜻이 아니다.
 
-아급성 갑상선염은 바이러스성/자극성 염증으로 갑상선 통증, 저요오드 섭취, ESR 상승, 저요오드 방사성 요오드 섭취가 특징이며, 갑상선 기능 항진이 일시적으로 나타난다. 다른 선택지는 해당 임상양상과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 통증성 갑상샘·ESR상승·낮은 RAIU는 아급성 thyroiditis A. 낮은 식이 요오드가 원인이라는 혼동 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

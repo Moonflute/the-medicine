@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. D-이합체 검사
 
 ## 해설
 
+D-dimer(D)는 민감도가 높지만 특이도가 낮아 임상 확률이 낮은 폐색전증 의심 환자에서 배제 목적으로 사용한다. 음성 결과는 적절한 임상 확률 조건에서 배제에 도움이 되지만, 양성만으로 확진할 수는 없다. 감염·염증 등에서도 상승할 수 있다. 매우 낮은 위험에서는 PERC 등으로 검사 자체가 불필요한지도 먼저 평가할 수 있으며, 모든 저위험 흉통 환자에게 D-dimer를 주문한다는 뜻은 아니다. 문항이 요구한 민감하지만 비특이적인 검사는 D이다.
 
-저위험 환자에서 폐색전증을 배제하기 위해 D‑이합체 검사는 높은 민감도와 특이도를 가진 비특이적 혈액검사이다. CT·V/Q 스캔은 고위험 환자에 우선이며, 흉부 X‑ray는 민감도가 낮다. 따라서 D‑이합체 검사가 적절한 검사이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. D-dimer가 고특이도라는 오류를 저특이도로 교정한다. 낮은 임상 확률에서 배제를 위한 검사라는 D의 맥락을 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 
 ## 출처
 

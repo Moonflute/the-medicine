@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,6 +52,13 @@ D. 동기화 심율동전환
 
 
 환자는 급성 호흡정지 후 맥박이 없고 심전도에 전기활동은 있으나 혈류가 없는 PEA 상태이다. PEA에서는 심폐소생술의 첫 단계가 가슴 압박이다. 따라서 가장 적절한 처치는 흉부 압박이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 무맥박인데 조직화 전기활동이 남은 PEA에서는 즉시 흉부압박 B가 우선이며 동기화 전환은 적응증 아님.
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support
 
 ## 출처
 

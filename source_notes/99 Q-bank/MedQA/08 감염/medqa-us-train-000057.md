@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,13 @@ D. 콕시디오이데스(Coccidioides)
 ## 해설
 
 
-HIV 환자에서 중심이 움푹한 피부색 구진은 전형적인 두창(바이러스성 사마귀)이며, 이는 Poxvirus에 의해 발생한다. 다른 미생물은 병변 형태와 일치하지 않는다.
+중심이 움푹한 피부색 구진은 전염성 연속종(molluscum contagiosum)을 시사하며 원인 바이러스는 Poxviridae에 속해 C가 맞다. 두창이나 HPV에 의한 사마귀와 동일한 질환은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000057 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 중심 제대형 구진의 Poxvirus C 유지. 전염성 연속종을 두창/사마귀로 부른 진단명 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

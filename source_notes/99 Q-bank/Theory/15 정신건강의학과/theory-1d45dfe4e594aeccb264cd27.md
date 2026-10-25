@@ -16,32 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "수면으로 회복된다는 근거 없는 대비를 제거하고 일상 건망증과 자서전적 기억상실을 구분."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-해리성 기억 상실의 특징이 아닌 것은?
+해리성 기억상실의 핵심 특징은?
 
 ## 선택지
 
-A. 외상 후 중요한 자서전적 기억 상실
-B. 단순한 건망증보다 범위와 기능장애가 크다
-C. 기억 상실이 일시적이며 수면 중에 회복된다
-D. 기억 상실은 의도적인 회피와 무관하다
+A. 새로운 정보를 기억하지 못하는 진행성 신경퇴행이 필수임
+B. 수면 중에만 기억 공백이 생김
+C. 일반적인 건망증으로 설명하기 어려운 중요한 자서전적 기억 공백이 나타남
+D. 기억 공백은 항상 의도적으로 꾸며 낸 것임
 
 ## 해설
 
-해리성 기억 상실은 외상과 연관된 광범위한 기억 상실이며, 수면에 의해 회복되지 않는다.
+해리성 기억상실은 중요한 자서전적 정보를 회상하지 못하는 상태로, 일반적인 건망증으로 설명하기 어렵고 외상·스트레스 사건과 관련되는 경우가 많다. 특정 사건·기간에 국한되거나 선택적으로 나타날 수 있으며 모든 경우가 광범위한 전생애 기억상실인 것은 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 해리성 기억 상실 (Dissociative Amnesia)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/해리성 기억 상실 (Dissociative Amnesia).md`
-- 학습 목표: 원문 핵심: - 외상 또는 심한 스트레스와 연관되어 중요한 자서전적 기억을 회상하지 못하는 상태로, 단순한 건망증보다 범위와 기능장애가 크다.
+- 학습 목표: 해리성 기억상실은 일반적인 건망증으로 설명하기 어려운 자서전적 기억 공백임을 설명한다.
+
+## 오답 포인트
+
+- **진행성 신경퇴행 필수:** 해리성 기억상실의 정의가 아니다.
+- **수면 중에만 발생:** 수면 시점으로 정의되는 장애가 아니다.
+- **의도적 조작:** 해리성 기억상실을 꾀병과 동일시하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 수면으로 회복된다는 근거 없는 대비를 제거하고 일상 건망증과 자서전적 기억상실을 구분.
+- 근거: https://www.psychiatry.org/patients-families/dissociative-disorders/what-are-dissociative-disorders

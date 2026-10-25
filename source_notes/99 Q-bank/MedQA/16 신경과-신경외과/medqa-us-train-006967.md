@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 감각성 실어증
 
 ## 해설
 
+급성 현훈·구토·안진에 좌측 반복길항운동장애가 동반되어 소뇌 기능장애를 시사한다. 같은 쪽 표적을 지나치는 겨냥이상(past-pointing, C)이 추가로 나타날 수 있다. 이는 단독으로 특정 질환을 확진하는 징후는 아니다. 무거운 물건을 든 뒤 갑작스러운 경부통과 국소 소뇌징후가 생긴 맥락에서는 척추동맥 박리 등 후순환 혈관 원인을 고려해야 한다.
 
-소뇌성 뇌졸중에서 흔히 나타나는 안구진탕과 회전성 감각은 지시점 과오증을 동반한다. 이는 소뇌 손상에 특이적이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 소뇌 조정장애에서 past-pointing C 유지. 단독 특이징후라는 과장 제거하고 급성 경부통·중추성 현훈 맥락을 반영.
 
 ## 출처
 

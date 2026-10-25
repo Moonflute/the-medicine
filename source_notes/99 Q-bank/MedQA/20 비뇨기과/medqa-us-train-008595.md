@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 현재는 치료하지 않는다
 
 ## 해설
 
+촉지되는 임상적 정계정맥류에 난임과 비정상 정액 소견이 있어 C, 미세수술적 정계정맥류 교정을 고려할 수 있다. 여성 파트너의 현재 가임력도 함께 평가한다. ICSI는 특히 심한 남성요인 난임 등에 사용할 수 있으므로 정자 수가 충분할 때만 하는 시술이라는 설명은 틀리다. 질돌기 결찰은 수종·서혜탈장과 관련된 수술이지 비수술적 정계정맥류 치료가 아니다.
 
-왼쪽 고환정맥류(정맥류)와 비정상 정자 파라미터는 정계정맥류가 원인임을 시사한다. 현존하는 증상과 불임을 개선하기 위해서는 미세수술적 정맥류 절제술이 표준 치료이다. 정자 주입술은 정자 수가 충분할 때, 결찰술은 비수술적 옵션이지만 효과가 낮다, 관찰은 비추천이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정계정맥류 수술 C는 유지하되 ICSI와 질돌기 결찰술을 잘못 설명한 오답 근거 교정.
+- 공식/학회 근거: https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/male-infertility
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 피부건조증
 ## 해설
 
 
-터너 증후군에서는 피부에 색소침착이 정상이며, 흔히 양성 모반(점)의 수가 증가한다. 다른 선택지는 해당 증후군에서 흔히 보이지 않는다. 따라서 가장 가능성 높은 소견은 양성 모반 수 증가이다.
+정답 C. 사춘기 유방발달 지연, 넓은 유두 간격·외반주·짧은 중수골·낮은 헤어라인과 반복 중이염은 Turner 증후군을 시사한다. 피부에서 다수의 양성 색소모반이 관찰될 수 있다. 모든 피부색소가 정상이라는 일반화는 부적절하며 확진에는 핵형 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009289 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Turner–다수 양성모반 C 연관성 유지, 피부색소 정상이라는 무의미 일반화 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

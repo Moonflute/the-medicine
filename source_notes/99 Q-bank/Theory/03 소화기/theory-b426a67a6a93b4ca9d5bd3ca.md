@@ -12,36 +12,52 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "무의미한 검사 제외 문제를 삼투성·분비성 기전 구분으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-다음 중 설사 평가에 포함되지 않는 검사는?
+금식으로 뚜렷하게 줄고 대변 삼투차가 높은 수양성 설사에 더 부합하는 기전은?
 
 ## 선택지
 
-A. 혈청 IgE 검사
-B. 대변 배양 및 PCR
-C. 대변 내 칼프로텍틴 검사
-D. 복부 CT 촬영
+A. 흡수되지 않은 용질에 의한 삼투성 설사
+B. 식이와 무관하게 지속되는 순수 분비성 설사
+C. 식도 폐쇄로 인한 음식 역류
+D. 직장 출혈 자체가 만드는 설사
 
 ## 해설
 
-설사 평가에선 대변 검사·CT·내시경 등이 사용되며, 혈청 IgE는 일반적으로 포함되지 않는다.
+삼투성 설사는 흡수되지 않은 용질의 부하와 관련되어 이를 끊으면 호전하는 경향이 있다. 분비성은 공복에도 지속될 수 있다. 실제로는 혼합 기전도 있어 단일 수치나 금식 반응만으로 원인을 확진하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 설사 (Diarrhea)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/설사 (Diarrhea).md`
-- 학습 목표: 원문 핵심: - 대변 검사: 잠혈, 백혈구, 락토페린, 칼프로텍틴, 배양검사, PCR, 기생충 검사 - 혈액 검사: 전해질, BUN/Cr(탈수 평가), CBC - 영상 및 내시경: CT(비감염성 원인 및 합병증 확인), 내시경(호전 없는 경우, PMC 의심 시) - 만성 설사 평가: Stool osmotic gap(290 - 2 × [대변 Na+ + 대변 K+]) - 분비성: 50 mEq/L 이하 - 삼투성: 50 mEq/L 초과
+- 학습 목표: 삼투성 설사와 분비성 설사의 구분
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 무의미한 검사 제외 문제를 삼투성·분비성 기전 구분으로 개선.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://doi.org/10.1111/jgh.12392

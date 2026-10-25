@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 추가 평가 없이 임상 관찰
 
 
 운동 시 호흡곤란과 밤에 기침이 나타나는 경우 운동 유발 기관지수축을 의심한다. 메타콜린 유발검사는 기관지 과민성을 확인하는 표준 검사이다. 따라서 메타콜린 유발검사가 다음 관리로 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 천식의심이나 정상spirometry에서 기관지과민성 유발검사 A로 객관화.
+- https://ginasthma.org/reports/
 
 ## 출처
 

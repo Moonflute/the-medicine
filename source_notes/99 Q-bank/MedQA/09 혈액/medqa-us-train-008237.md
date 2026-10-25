@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 흉부 방사선촬영
 
 
 빈혈, 백혈구 감소, 혈소판 감소와 말초혈액에서 골수세포가 보이는 것은 급성 백혈병을 의심하게 한다. 확진을 위해서는 골수 조직을 직접 평가해야 하므로 골수 생검이 가장 적절한 다음 단계이다. 따라서 정답은 골수 생검이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008237 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 다계열 감소와 말초 myeloblast의 급성 백혈병 평가 골수검사 C를 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

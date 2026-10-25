@@ -20,15 +20,17 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 대량 복수천자 시행
 
 ## 해설
 
+팽팽한 대량복수는 치료적 대량천자 D로 완화한다. 배액량이 크면 albumin 보충을 포함한 순환장애 예방을 적용하고 신기능/혈압을 감시한다. HE 촉발요인과 복수감염도 평가한다. 기존 HFrEF·HE는 TIPS 위험요인이며 이식평가 등 장기관리가 단지 불필요하거나 더 침습적이라 배제되는 것은 아니다.
 
-대량 복수천자는 급성 복수 악화 시 즉각적인 증상 완화와 신장 기능 보존에 가장 효과적이며, 다른 중재는 더 침습적이거나 장기적 관리에 해당한다. 환자는 대량 복수가 지속되고 증상이 악화된 상태이므로, 다음 단계는 대량 복수천자 시행이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 긴장성 복수 D를 albumin과 합병증평가에 연결하고 HFrEF/HE의 TIPS위험을 명시.
+- https://aasldpubs.onlinelibrary.wiley.com/doi/full/10.1002/hep.31884
 
 ## 출처
 

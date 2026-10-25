@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 알코올 금단(Alcohol withdrawal)
 
 ## 해설
 
+실제로 존재하는 구름을 동물 모양으로 해석하는 것은 외부 자극을 잘못 지각·해석하는 착각(B)에 해당한다. 환각은 해당 외부 자극 없이 지각 경험이 나타나는 경우이다. 코카인·알코올 검사 양성은 따로 평가할 정보지만 제시된 구름 형태 지각을 자극 없는 환각으로 바꾸지는 않는다.
 
-환자는 실제 외부 자극 없이 비현실적인 형상을 보며, 이는 감각 입력이 없는 착각(illusion)이다. 환각은 실제 감각이 없고, 착각은 실제 자극이 왜곡된 인식이다. 따라서 가장 적절한 진단은 착각이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 외부자극없는착각이라는정반대정의교정. 실제구름의동물형태인식B.
+
 
 ## 출처
 

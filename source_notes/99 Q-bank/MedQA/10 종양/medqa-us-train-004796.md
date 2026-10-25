@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,14 @@ D. 치료
 ## 해설
 
 
-BI‑RADS 3 병변은 6개월 후 단층촬영으로 추적 관찰하는 것이 권장된다. 1년은 과도하고 즉시 생검은 필요하지 않다. 따라서 6개월 추적이 정답이다.
+BI-RADS 3는 악성 가능성이 낮은 probably benign 소견으로 통상 6개월 뒤 단기 추적 유방촬영을 권고하므로 B이다. 이를 CT 같은 단층촬영으로 바꾸어 설명하면 안 된다. 영상·임상 소견이 새롭게 의심스럽거나 변하면 생검 등으로 재평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004796 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: BI-RADS3의 6개월 유방촬영 추적 B 유지; 단층촬영으로 바꾼 검사명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/screening/mammograms
 
 ## 출처
 

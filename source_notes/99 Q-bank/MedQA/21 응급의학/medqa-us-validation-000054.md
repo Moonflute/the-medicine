@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 호흡억제
 
 ## 해설
 
+대화상 뒤에는 근육의 접합부 외 니코틴성 아세틸콜린 수용체가 증가하여 숙시닐콜린 투여 시 칼륨 유출이 커지고 치명적인 부정맥이나 심정지가 발생할 수 있다. 따라서 이 문항은 C의 고칼륨혈증성 심장 부정맥을 묻는다. 위험은 손상 후 시간에 따라 증가하며 정확한 시작과 지속 기간은 일정하지 않아, 24시간 전후를 절대적인 안전 경계로 삼아서는 안 된다. 급성기 이후 대화상은 약품 허가사항상 금기에 해당하며 다른 근이완제를 선택해야 한다. 악성 고열증도 가능한 부작용이지만 여기서 화상 병력이 강조하는 위험과는 다르다.
 
-숙시닐콜린은 고칼륨혈증을 유발해 심근세포 탈분극을 방해, 심장 부정맥을 일으킬 위험이 크다. 근력 저하와 호흡 억제는 다른 부작용이며, 악성 고열은 드물다. 따라서 심장 부정맥이 가장 가능성 높은 합병증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 대화상 뒤 숙시닐콜린의 고칼륨혈증성 부정맥 C를 유지하되 24시간이라는 절대 경계나 단순 탈분극 방해로 설명하지 않는다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b990f84-9515-44bd-a97d-a97bbead065c
 
 ## 출처
 

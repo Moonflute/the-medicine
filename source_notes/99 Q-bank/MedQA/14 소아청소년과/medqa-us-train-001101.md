@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 현재 약물 치료 불필요
 
 ## 해설
 
+갑자기 반응이 사라졌다 바로 회복하고 과호흡 시 3 Hz 극서파가 나타나는 것은 전형 결신발작이다. 의식/인지가 잠깐 저하되지만 자세는 유지될 수 있다. 다른 전신발작이 없는 결신발작에는 에토수시미드(A)가 1차 선택이다.
 
-발작이 수초간 지속되고 의식 소실 없이 급격히 회복되는 전형적인 결석발작이며, EEG에서 3Hz 스파이크-슬로우 파형이 관찰된다. 결석발작 1차 치료제로는 발작 전위 억제제인 에토수시미드가 가장 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 전형 결신발작의 에토수시미드 A 유지. 의식소실이 없다는 오류와 결석발작 오역 교정.
+- https://www.nice.org.uk/guidance/ng217/chapter/5-Treating-epileptic-seizures-in-children-young-people-and-adults
 
 ## 출처
 

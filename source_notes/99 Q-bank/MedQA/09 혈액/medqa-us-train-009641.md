@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 비타민 B12 결핍
 ## 해설
 
 
-빈혈과 동반된 혈청 호모시스테인 상승, 정상 메틸말론산, 그리고 골수에서 과분엽 호중구는 엽산 결핍성 거대적아구성 빈혈을 시사한다. 비타민 B12 결핍은 메틸말론산 상승을 동반한다. 따라서 가장 가능성 높은 원인은 엽산 결핍이다.
+거대적아구성 빈혈을 시사하는 말초혈액도말의 과분엽 호중구, homocysteine 증가와 정상 methylmalonic acid는 엽산 결핍(A)에 맞는다. B12 결핍에서는 보통 methylmalonic acid도 증가한다. 혼란·안진·보행실조는 음주 관련 thiamine 결핍을 별도로 의심하게 하지만, 질문은 빈혈의 원인을 묻고 있으므로 이 신경증상을 엽산 결핍 하나로 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009641 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: homocysteine↑/MMA 정상/과분엽 호중구는 엽산결핍 A. 말초도말을 골수라고 한 위치 오류 수정하고 신경 삼징은 동반 thiamine 결핍 가능성과 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

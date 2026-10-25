@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 장출혈성 대장균
 
 
 재가열된 밥에서 독소를 생성하는 Bacillus cereus는 구토형 식중독을 일으키며, 증상이 급성 구토와 연관된다. 따라서 가장 가능성 높은 원인은 Bacillus cereus이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007581 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 남은 쌀 요리 후 수시간내 주로 구토의 B.cereus A를 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

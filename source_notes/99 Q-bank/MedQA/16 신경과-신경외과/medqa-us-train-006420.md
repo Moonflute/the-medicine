@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 메만틴
 
 ## 해설
 
+임상적으로 경도~중등도 알츠하이머병에 해당하는 환자에서 acetylcholinesterase 억제제인 rivastigmine(C)을 고려한다. Memantine은 중증 또는 중등도에서 AChE 억제제를 사용할 수 없는 경우 등에서 사용한다. Bromocriptine과 pramipexole은 도파민 작용제로 파킨슨병 등에 쓰이며 알츠하이머병 중증 단계 치료제가 아니다.
 
-경증에서 중등도의 알츠하이머병 초기에 콜린에스터라제 억제제인 리바스티그민이 인지기능 저하를 완화한다. 다른 약물은 중증 단계에 주로 사용된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Rivastigmine C는 유지. Bromocriptine·pramipexole을 중증 AD 약물로 묶은 오류 제거.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng97/chapter/Recommendations
 
 ## 출처
 

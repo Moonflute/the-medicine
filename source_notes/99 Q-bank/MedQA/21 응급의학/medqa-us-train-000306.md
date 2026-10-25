@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 티아민(Thiamine)
 
 ## 해설
 
+정상 초기 CT 뒤 수일간 두통·집중곤란·어지러움·수면 변화가 지속되는 것은 뇌진탕의 초기 회복기에 나타날 수 있다. 선지 중 회복 교육과 일차진료 추적(C)이 적절하다. 보통 처음 1~2일 상대적 휴식 후 증상 허용 범위에서 가벼운 신체·인지 활동을 점진 재개하며 장기간 완전 휴식을 권하지 않는다. 새 신경결손·의식 악화·심해지는 두통 등 위험신호는 재평가해야 한다.
 
-경미한 두통·집중력 저하·현기증이 외상 후 3일 이내에 지속되는 것은 경미한 외상성 뇌손상(뇌진탕) 후 증후군이며, 신경학적 검사가 정상인 경우 추가 영상 없이 휴식과 추적 관찰이 권장된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 3일째 뇌진탕 증상을 장기 post-concussive syndrome으로 확정하거나 무기한 완전 휴식으로 오해하지 않도록 C를 현행 회복지침에 맞게 설명한다.
+- 공식/학회 근거: https://www.cdc.gov/traumatic-brain-injury/response/index.html
 
 ## 출처
 

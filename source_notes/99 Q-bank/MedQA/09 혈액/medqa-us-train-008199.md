@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 골격계 전수검사
 
 
 고칼슘혈증, 용해성 골병변, 빈혈, 신장 기능 저하가 동반된 경우 다발성 골수종이 의심된다. 확진을 위해 골수 조직을 직접 검사하는 골수생검이 가장 확실한 검사이다. 따라서 정답은 골수 생검이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008199 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 용해성 병변·고칼슘·빈혈/신손상의 MM 의심에서 골수검사 C가 확진 평가라는 원문·해설 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

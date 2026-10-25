@@ -20,13 +20,15 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 운동하는 날 인슐린 용량을 늘린다
 
 ## 해설
 
+운동을 금지하거나 T1D의 인슐린을 metformin으로 바꾸지 않는다. 선택지 중 B는 운동 관련 저혈당을 예방하기 위한 인슐린 조절을 뜻한다. 실제 감량 대상·시점·정도는 운동 종류와 시간, 식사 및 활동 중인 인슐린, 혈당/CGM 추세에 맞추고 필요하면 탄수화물을 보충한다. 축구 같은 혼합·고강도 운동은 혈당을 올릴 수도 있어 운동일 총량을 무조건 줄이는 규칙은 아니다. 기저 인슐린을 완전히 생략해서는 안 된다.
 
-제1형 당뇨병 환자는 운동 시 인슐린 요구량이 감소한다. 운동 전후 혈당 저하 위험을 줄이기 위해 운동하는 날에는 인슐린 용량을 줄이는 것이 권장된다. 따라서 가장 적절한 권고는 운동하는 날 인슐린 용량을 감소시키는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 운동일 모든 인슐린을 일률 감량한다는 해설을 운동종류·혈당에 따른 개별 조절로 한정.
+- https://www.ispad.org/asset/D31ED1DE-6566-4F33-BB13588B0ED74597/
 
 ## 출처
 

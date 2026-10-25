@@ -17,15 +17,20 @@ related_diseases:
 related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "골수 억제만으로 azathioprine과 구별하지 않고 뚜렷한 설사 단서를 함께 설명."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -43,10 +48,19 @@ D. 아자티오프린
 
 ## 해설
 
-
-미코페놀레이트 모페틸은 골수 억제 부작용이 있어 빈혈·백혈구·혈소판 감소를 일으킨다. 따라서 증상의 원인은 미코페놀레이트 모페틸이다.
+이식 후 면역억제제 중 mycophenolate mofetil은 설사·구토 등의 GI 독성과 골수 억제를 함께 유발할 수 있어 선택지 중 가장 적합하다. Azathioprine도 골수 억제를 일으키므로 혈구 감소만으로 두 약을 구별하지 않는다. 실제로는 복용약 확인과 감염·다른 독성 원인 평가가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001190
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 골수 억제만으로 azathioprine과 구별하지 않고 뚜렷한 설사 단서를 함께 설명.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

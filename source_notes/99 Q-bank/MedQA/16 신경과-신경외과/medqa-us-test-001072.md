@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 가바펜틴
 
 ## 해설
 
+감염 후 급성 양측 위약·무반사와 뇌척수액 단백질 상승/세포수 정상은 Guillain-Barré 증후군에 부합한다. 보행이 불가능한 이 환자에서는 IVIG(A)가 적절하며 혈장교환도 효과적인 대안이다. IVIG가 혈장교환보다 항상 우월한 것은 아니고 스테로이드는 효과적인 단독치료가 아니다. 호흡근 기능과 심박·혈압 등 자율신경 불안정을 면밀히 감시한다.
 
-급성 염증성 탈수초 다발신경병증(길랭-바레 증후군)에서는 면역 매개 치료가 필요하며, IVIG가 가장 효과적인 1차 치료이다. 스테로이드보다 효과가 높다. 따라서 정답은 정맥 면역글로불린이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. IVIG가 유일하게 가장 효과적이라는 과장 수정. 보행불가 GBS에서 IVIG A 유지, 동등한 혈장교환 및 호흡·자율신경 감시 보완.
+- 공식/학회 근거: https://www.ninds.nih.gov/health-information/disorders/guillain-barre-syndrome
 
 ## 출처
 

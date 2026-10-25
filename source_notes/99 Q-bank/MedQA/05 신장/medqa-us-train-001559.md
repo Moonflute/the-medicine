@@ -18,19 +18,23 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: management
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: A
+answer_change_reason: "원정답 A는 의식소실 및 지속 졸림/혼돈을 동반한 중증 증상성 저나트륨혈증의 초기 응급치료를 놓친다. ESE/ESICM/ERA 지침과 Society for Endocrinology 응급 지침에 따라 모니터링하 정량 3% 고장성 식염수 볼루스에 해당하는 B를 선택한다. 급속 정상화/과교정을 의미하지 않는다."
 ---
 
 # MedQA US 임상문제
@@ -48,8 +52,17 @@ D. 톨밥탄
 
 ## 해설
 
+저삼투압성 저나트륨혈증(Na 120 mEq/L, 혈청 삼투질농도 250 mOsm/kg)에 의식소실 병력과 지속되는 졸림·지남력 저하가 동반되어 중증 증상성 저나트륨혈증을 우선 다뤄야 한다. 보기 중 B, 고장성 식염수의 신속한 초기 투여가 적절하다. 수분 제한은 안정된 SIADH 등의 후속 치료일 수 있으나 이 환자의 응급 신경학적 증상에 대한 단독 초기 치료로는 부족하다.
 
-저나트륨 혈증이 저용량 수분 제한을 필요로 하며, 탈수성 저나트륨혈증이 아닌 경우 수분 제한이 가장 적절한 관리이다.
+선지 B는 모니터링하면서 정량의 3% 식염수 소량 볼루스로 초기 증상을 완화한다는 의미이지, 혈청 나트륨을 급속히 정상화하거나 대량으로 주입한다는 뜻이 아니다. 혈청 나트륨과 소변량을 반복 확인하고 지침의 교정 상한을 지켜 삼투성 탈수초화를 예방한다. 카바마제핀 등 원인 약물과 다른 원인을 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 의식소실 후 지속되는 졸림·지남력 저하와 Na 120의 중증 증상성 저삼투압성 저나트륨혈증에서 수분 제한 단독은 초기 처치로 부적절. 공식 응급 지침에 따라 A에서 B로 변경하고 과도한 급속 교정 금지 명시.
+- https://academic.oup.com/ejendo/article/170/3/G1/6668028
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5314809/
 
 ## 출처
 

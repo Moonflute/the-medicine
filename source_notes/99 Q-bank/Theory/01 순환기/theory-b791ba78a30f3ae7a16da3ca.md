@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "짧은 PR·델타파·조기흥분은 부전도로 기전과 연결되는 중요한 ECG 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc15yxvpmlvoqzn0akl6dgdxannpcwd0n1ptvtdkmja3wxe0su95bw5lmmjot3exc0nbb1yxqlhjrk41ym1sewiymwxluzv0wkf8zglzzwfzzs0wmy1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ WPW의 전형적인 ECG는 PR 간격이 0.12초 미만으로 짧고, QRS가 넓�
 
 ## 오답 포인트
 
-- **B. ST 상승이 나타난다:** ST 상승은 급성 심근경색에서 주로 보인다.
+- **ST 상승이 나타난다:** ST 상승은 급성 심근경색에서 주로 보인다.
 
 ## 출처
 
 - 내부 학습 노트: 울프-파킨슨-화이트 증후군 (WPW Syndrome)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/울프-파킨슨-화이트 증후군 (WPW Syndrome).md`
 - 학습 목표: 원문 핵심: - 심전도(EKG)에서 짧은 PR 간격(< 0.12초), 넓은 QRS파(≥ 0.12초), QRS파 시작 부위의 완만한 상승(델타파, delta wave)이 특징적이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 짧은 PR·델타파·조기흥분은 부전도로 기전과 연결되는 중요한 ECG 복습으로 유지한다.

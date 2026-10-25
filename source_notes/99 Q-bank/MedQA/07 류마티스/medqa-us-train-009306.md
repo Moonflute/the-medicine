@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 전신홍반루푸스
 ## 해설
 
 
-플루오로퀴놀론은 건(힘줄) 손상을 유발하며, 특히 아킬레스건염이 흔하다. 환자는 복용 후 발목 통증·압통이 나타났으므로 약물 이상반응이 원인이다. 다른 선택지는 증상 기전을 설명하지 못한다.
+Raynaud 현상, 팽팽한 피부와 입술변화, ANA 및 anti-Scl-70은 systemic sclerosis를 지지한다. Anti-Scl-70은 diffuse cutaneous SSc와 더 연관되어 보기 중 B가 출제 의도에 부합한다. 다만 실제 limited/diffuse 구분은 손·얼굴 외 근위부 및 몸통의 피부경화 범위로 정하므로 항체 하나만으로 아형을 확정할 수 없다. Hydralazine 병력만으로 약물루푸스로 바꾸지 않는다. 기존 fluoroquinolone·발목 건통 설명은 무관하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009306 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 전신경화증 질문에 fluoroquinolone 건병증 해설이 붙은 오류 교체. Scl70만으로 피부범위아형 확정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

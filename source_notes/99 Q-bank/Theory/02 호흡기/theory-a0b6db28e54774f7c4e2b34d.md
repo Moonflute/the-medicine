@@ -12,40 +12,55 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-yVheyEsSDtnYnsiJggKE1hbGlnbmFudCBQbGV1cmFsIEVmZnVzaW9uKS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "모든 암의 악성흉수를 M1a로 일반화한 오류를 폐암의 TNM 적용으로 좁혀 중요한 병기 개념을 살린다."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 모든 암의 악성흉수를 M1a로 일반화한 오류를 폐암의 TNM 적용으로 좁혀 중요한 병기 개념을 살린다."
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-악성 흉수의 정의는 무엇입니까?
+비소세포폐암에서 해당 폐암에 의한 악성 흉수가 확인되면 TNM의 M 범주에서 어떻게 분류하는가?
 
 ## 선택지
 
-A. 악성 종양 세포가 흉막에 침윤하여 발생하는 흉수이며 전신 암 전이이며 TNM 병기 M1a에 해당한다.
-B. 흉막에 염증이 생겨 발생하는 삼출액이다.
-C. 폐렴에 동반되는 삼출액이다.
-D. 심부전으로 인한 삼출액이다.
+A. M1a
+B. M0
+C. T 범주만 높아지고 M 범주는 바뀌지 않는다
+D. 세포검사가 양성이어도 병기에 영향을 주지 않는다
 
 ## 해설
 
-악성 흉수는 악성 종양 세포가 흉막에 침윤해 발생하는 삼출액으로 전신 전이를 의미하고 TNM 병기 M1a에 해당한다.
+폐암의 TNM 체계에서 해당 폐암에 의한 악성 흉수는 M1a에 해당한다. 이는 원발암이 다른 모든 악성 흉수에 공통 적용하는 분류가 아니다. 폐암 환자의 흉수라도 비악성 원인일 수 있으므로 흉수가 있다는 사실만으로 악성 흉수나 M1a를 확정하지 않는다.
 
 ## 오답 포인트
 
-- **B. 흉막에 염증이 생겨 발생하는 삼출액이다.:** 염증성 흉수는 비악성이며 정의와 다르다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 악성 흉수 (Malignant Pleural Effusion)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/악성 흉수 (Malignant Pleural Effusion).md`
-- 학습 목표: 원문 핵심: - **정의**: 악성 종양 세포가 흉막에 침윤하여 발생하는 흉수. 전신적인 암 전이를 의미하며, TNM 병기상 M1a에 해당함. - **원인**: 폐암, 유방암, 림프종 등이 가장 흔함. 흉막으로의 직접 침윤, 림프관 폐쇄, 또는 혈행성 전이에 의해 발생. - **기전**: 흉막의 미세혈관 투과성 증가, 림프관 배액 장애, 종양 세포의 흉막 침윤으로 인한 삼출액(exudate) 생성.
+- 학습 목표: 폐암에 의한 악성 흉수의 M1a 분류와 원발암별 병기체계의 차이를 안다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 모든 암의 악성흉수를 M1a로 일반화한 오류를 폐암의 TNM 적용으로 좁혀 중요한 병기 개념을 살린다.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq

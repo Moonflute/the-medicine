@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 비스코트-올드리치 증후군
 ## 해설
 
 
-혈소판 감소증, 고 IgE, 습진성 피부병변은 Wiskott‑Aldrich 증후군의 전형적인 삼대 삼인이다. 이 질환은 X‑연관 면역결핍으로 가장 가능성이 높다.
+남아의 반복 감염·습진·혈소판감소는 Wiskott–Aldrich D의 고전 삼징이다. 고IgE는 동반 면역 이상을 지지하지만 삼징에서 반복 감염을 대신하는 항목은 아니다. 작은 혈소판·기능/유전검사 등을 실제 평가하여 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007944 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: WAS의 고IgE를 고전 삼징 자체로 부른 오류 교정; D 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

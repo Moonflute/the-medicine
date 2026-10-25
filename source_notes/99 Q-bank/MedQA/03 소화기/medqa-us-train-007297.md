@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 복부와 골반 CT
 
 
 Streptococcus gallolyticus 감염성 심내막염은 대장암과 강한 연관성이 있다. 치료 후에도 대장암 검사가 필요하다. 따라서 대장내시경이 적절한 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 확인된S.gallolyticus IE는대장종양평가용대장내시경 C를지지. 이판정이원문2주치료를모든IE에승인하는뜻은아님.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,6 +52,13 @@ D. Rifampin
 
 
 Ehrlichia chaffeensis 감염은 doxycycline에 가장 잘 반응하며, 초기 치료로 권장된다. 다른 항생제는 효과가 부족하거나 1차 선택이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001805 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 진드기 노출 뒤 발열·백혈구감소·혈소판감소·간효소상승·morulae에서 doxycycline B를 직접 확인. 원문 88,000/mm³와 괄호95×10^9/L의 수치 불일치는 임상값을 추정하지 않고 남김.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/ehrlichiosis/treatment/index.html
 
 ## 출처
 

@@ -20,16 +20,18 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 삽관하고 기계환기를 시작한다
 
 ## 해설
 
+두 차례 albuterol 후 발화와 호흡수가 호전되어 선택지 중 B로 기관지확장 치료를 지속한다. 전신 steroid는 이미 투여 중이므로 다른 전신 steroid를 중복 추가하지 않으며, ipratropium은 필요 시 병용하지 albuterol의 단순 대체가 아니다. 여전히 RR32이며 심한 발작에서 정상화된 PCO2는 피로/환기부전의 경고일 수 있어 의식·호흡노력·가스 추세를 면밀히 재평가한다. 악화·피로·환기부전이면 삽관을 지연하지 않는다.
 
-중증 천식 발작 후 호흡이 안정되고 알부테롤이 지속적으로 효과를 보이면 추가 치료 없이 알부테롤 투여를 계속한다. 스테로이드 추가, 베타2 작용제 교체, 기계환기는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 호전 중인 천식에서 albuterol B는 유지하되 정상범위 PCO2·잔여 빈호흡을 안전하다고 단정하거나 추가관리 불필요라 하지 않음.
+- https://ginasthma.org/reports/
 
 ## 출처
 

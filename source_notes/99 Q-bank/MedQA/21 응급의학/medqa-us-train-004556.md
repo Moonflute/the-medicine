@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 부위 마취
 
 ## 해설
 
+보기 중 항불안 목적의 약물만 사용한다는 의도는 최소진정(A)에 가깝다. 정확한 정의는 언어 명령에 정상적으로 반응하고 기도반사·환기·심혈관 기능이 보존되는 상태이다. 같은 경구/정맥 약물도 용량과 환자 반응에 따라 더 깊은 진정을 만들 수 있다. 진정은 치과 시술 부위의 국소 진통/마취와 별개의 개념이다.
 
-구강 시술 시 불안이 있을 때 최소 진정(진정제만 사용)으로 진통제와 국소 마취만을 병행한다. 이는 마취 형태가 최소 진정에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Minimal sedation A 유지. 진정 수준을 약물 경로/단일 약제만으로 정의한 오류 교정.
+- 공식/학회 근거: https://www.asahq.org/standards-and-practice-parameters/statement-on-continuum-of-depth-of-sedation-definition-of-general-anesthesia-and-levels-of-sedation-analgesia
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 사이클로스포린 치료
 ## 해설
 
 
-대장내시경에서 직장을 시작으로 연속적인 출혈성 염증이 보이고 조직검사에서 궤양성 대장염 소견이 확인되었다면, 이는 궤양성 대장염이다. 1차 치료는 장내·직장 국소 또는 전신 5‑ASA 제제인 메살라민이다. 글루텐 제한 식이는 셀리악병에 해당한다.
+정답 C. 직장에서 연속적으로 이어지는 접촉 출혈성 점막과 생검은 궤양성 대장염에 부합한다. 비교적 경증의 원위부 질환에서 mesalamine(5-ASA)이 적절하며 범위에 따라 직장 투여 또는 경구·직장 병용을 선택한다. 이 문항에는 급성 중증 대장염이나 구조 약물 실패가 없어 cyclosporine 또는 즉시 대장직장절제를 선택할 근거가 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000637 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경증 원위부 UC mesalamine C 유지, 전신이라는 모호 표현 대신 경구/직장 경로 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gut.bmj.com/content/74/Suppl_2/s1
 
 ## 출처
 

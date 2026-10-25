@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 페니실린
 ## 해설
 
 
-환자는 외국인이며 통역이 필요하고, 가족이 정보를 숨기려는 의사를 보인다. 먼저 자녀가 숨기려는 이유를 탐색해 환자의 의사결정에 영향을 미치는 문화·심리적 요인을 파악해야 한다.
+발작기침 뒤 흡기 헐떡임과 림프구증가는 백일해를 강하게 의심하게 한다. 의심이 높으면 검체 PCR을 시행하되 치료를 지연하지 않고 선택지 A azithromycin을 시작하는 것이 적절하다. 과거 접종은 감염을 완전히 배제하지 않는다. 기침 기간·접촉자/고위험 영아 노출을 확인하여 현행 치료/격리·PEP를 계획한다. 이 사례에는 통역 필요나 가족의 진단 비공개 요청이 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007742 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 백일해 문항에 통역/가족 비공개 윤리 해설이 붙은 명백한 오연결을 교체.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/pertussis/hcp/clinical-care/index.html
 
 ## 출처
 

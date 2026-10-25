@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 정상 MCV, 정상 RDW, 증가한 페리틴, 증가한 트랜스페린 포화
 ## 해설
 
 
-EPO 치료를 받는 만성 신부전 환자에서 빈혈이 지속되면 기능적 철 결핍이 흔히 발생한다. 기능적 결핍은 정상 페리틴이 감소하고 트랜스페린 포화도가 낮아지는 저철혈증을 동반한다. 따라서 낮은 MCV, 증가된 RDW, 감소된 페리틴 및 트랜스페린 포화도가 관찰된다.
+ESA 뒤 조혈 수요 증가와 투석 관련 철 손실로 저장철 부족이 드러날 수 있어 선택지 B의 낮은 ferritin·TSAT와 소구성/높은 RDW가 출제의도에 부합한다. 이는 systemic/기존 absolute iron deficiency 패턴이다. Iron-restricted erythropoiesis(기존 functional)는 TSAT가 낮아도 ferritin이 정상/높을 수 있다. ESA 반응이 적다는 사실만으로 현재 철 상태를 확정하지 않으며 실제 ferritin/TSAT·출혈·염증 등을 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005707 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 낮은 ferritin/TSAT의 B를 기능적 결핍이라고 부른 오류 교정; 검사 전 예측과 확인을 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf
 
 ## 출처
 

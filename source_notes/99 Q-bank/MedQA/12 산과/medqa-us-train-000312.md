@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 고체온
 
 ## 해설
 
+태반에 붙은 매끄러운 종괴가 질 밖으로 나오는 소견은 자궁내번을 시사한다. 치료하지 않으면 심한 출혈과 쇼크(B)가 발생할 수 있다. 응급 소생과 신속한 수동 복원이 필요하며 자궁수축제는 복원 후 사용한다. 단순 잔류태반으로 보고 먼저 수축제를 주는 설명은 적절하지 않다.
 
-잔류된 태반 조직이 배출되지 않으면 출혈성 쇼크가 가장 흔한 합병증이며, 즉시 자궁 수축제 투여와 수술적 제거가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 잔류태반과 혼동한 해설 및 복원 전 자궁수축제 권고 삭제.
+- https://www.mkuh.nhs.uk/wp-content/uploads/2022/10/Uterine-Inversion-Guideline.pdf
 
 ## 출처
 

@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 알코올과 함께 복용하면 디설피람 유사 반응을 일으킬 수 
 
 
 마크롤라이드 항생제는 QT 간격 연장을 일으킬 수 있다. 이는 심실 재분극을 지연시켜 토르삭드 위험을 높이는 메커니즘이다. 따라서 정답은 QT 연장 가능성을 언급한 A이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005561 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 백일해에 쓰이는 macrolide의 QT 연장 A를 현재 CDC 치료·안전성 권고와 원문 대조 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/pertussis/hcp/clinical-care/index.html
 
 ## 출처
 

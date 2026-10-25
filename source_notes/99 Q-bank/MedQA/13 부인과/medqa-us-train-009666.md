@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 질식 초음파
 
 ## 해설
 
+골반 수술 후 지속 누출과 질 내 소변 고임은 요로질 누공을 의심하게 한다. 방광 내 염료 주입 후 질로 푸른 염료가 나오면 방광질 누공을 지지한다(B). 음성이어도 요관질 누공 등은 별도 평가가 필요하다. 요도와 방광의 정상 연결을 검사하는 것이 아니다.
 
-수술 후 요실금의 원인을 확인하려면 방광 내 메틸렌블루 주입으로 요도-방광 연결 여부(요도-방광 누공)를 평가한다. 방광경검사·잔뇨량 측정·질식 초음파는 다른 단계에 해당한다. 따라서 정답은 방광 내 메틸렌블루 주입이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 수술 후 질 내 소변 고임의 메틸렌블루 B 유지. 요도-방광 누공 오역을 방광질 누공으로 교정.
+- https://www.exxcellence.org/list-of-pearls/postoperative-urinary-fistulae/
 
 ## 출처
 

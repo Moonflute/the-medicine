@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -35,7 +37,7 @@ related_drug_slugs:
 
 ## 문제
 
-65세 남성이 브라질에서 돌아오는 비행기 후 혼란, 불안, 호흡곤란, 흉통으로 왔다. CT 혈관조영술, 심초음파, 트로포닌은 정상이고 흉통은 디아제팜으로 호전되었다. 요추천자 후 아시클로버를 시작했다. 다음으로 가장 적절한 처치는?
+65세 남성이 브라질에서 돌아오는 비행기 후 혼란, 불안, 호흡곤란, 흉통으로 왔다. 당뇨병과 만성 신장질환 병력이 있고 크레아티닌 1.8mg/dL, 칼륨 5.3mEq/L이다. CT 혈관조영술, 심초음파, 트로포닌은 정상이고 흉통은 디아제팜으로 호전되었다. 요추천자 후 아시클로버를 시작했다. 다음으로 가장 적절한 처치는?
 
 ## 선택지
 
@@ -47,7 +49,14 @@ D. 추가 처치 불필요
 ## 해설
 
 
-아시클로버 투여 후 뇌수막염 환자는 탈수 위험이 높으며, 혈압 유지와 전해질 보정을 위해 일시적인 정맥 수액이 필요하다. 다른 선택지는 해당 상황에 직접적인 필요가 없다. 따라서 정맥 수액 일시주입이 가장 적절한 처치이다.
+IV acyclovir는 세뇨관 내 결정 침전으로 신손상을 일으킬 수 있어 적절한 수분 공급(A)이 필요하다. 특히 원문의 CKD·Cr 1.8mg/dL에서는 체액 상태에 맞춰 수액량을 정하고 신기능에 따른 용량/간격을 조절한다. 약물 자체는 최소 1시간에 걸쳐 주입하며 빠른 IV bolus로 투여하지 않는다. 수액 목적은 고혈압 환자의 혈압을 올리는 것이 아니고, 과부하가 있으면 무조건 대량 급속주입하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000842 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: IV acyclovir 관련 결정성 신손상 예방 수액 A 유지. 누락 CKD·Cr1.8을 복원하고 혈압 유지 목적이나 무조건 대량 bolus로 설명하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b1bb347d-74f4-4976-8450-a375a271718f
 
 ## 출처
 

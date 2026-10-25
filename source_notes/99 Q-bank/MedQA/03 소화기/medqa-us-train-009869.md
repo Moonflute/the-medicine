@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 산성 내성 염색에서 난포낭
 ## 해설
 
 
-셀리악병은 IgA 조직 트랜스글루타미나제 항체가 특이적으로 상승한다. 환자의 복통, 설사, 피부 발진, 구각염은 셀리악병의 전형적인 삼중징후이며, 항체 검사가 가장 확진에 도움이 된다. 따라서 정답은 IgA 조직 트랜스글루타미나제 항체이다.
+정답 C. 만성 설사·흡수장애와 소양성 신전부 발진은 셀리악병 및 포진상피부염을 시사한다. IgA-tTG는 적절한 혈청검사이며 gluten 섭취 중 total IgA와 함께 해석한다. IgA 결핍이면 IgG 기반 검사로 평가해야 한다. 증상 조합 자체나 항체 하나만으로 모든 환자에서 확진된다고 보지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009869 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 설사·흡수장애·포진상피부염에서 IgA-tTG C 취지 유지; 검사 조건과 IgA 결핍 한계 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pubmed.ncbi.nlm.nih.gov/36602836/
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 프로락틴 증가
 
 ## 해설
 
+양측 난소절제술 후 난소 유래 안드로겐 공급이 감소하면 성욕 저하에 기여할 수 있어 선택지 C가 출제 의도에 부합한다. 다만 원문은 마지막 월경이 2년 전이고 수술은 1년 전이므로 수술이 처음 폐경을 일으켰다고 단정할 수 없다. 성욕은 관계 갈등·수면·기분·음주 등 여러 요인의 영향을 받으므로 이들이 실제 평가에서 무관하다는 뜻도 아니다.
 
-양측 난소절제술 후 수술성 폐경이 발생해 안드로겐(테스토스테론) 수치가 감소하고 성욕 저하를 일으킨다. 알코올, 우울증, 프로락틴 상승은 해당 증상과 덜 직접적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 이미 마지막 월경 2년 후인 환자를 난소절제술로 처음 폐경한 것으로 설명한 시간 오류를 교정했다.
+
 
 ## 출처
 

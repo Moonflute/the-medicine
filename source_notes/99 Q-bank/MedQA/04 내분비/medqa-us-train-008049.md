@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 범불안장애
 ## 해설
 
 
-외인성 갑상선기능항진증은 외부에서 갑상선 호르몬을 섭취해 발생하며, 체중 감소와 심박수 증가가 특징이다. 다른 선택지는 증상과 맞지 않는다.
+정답 C. 체중감량제 시작 후 심계항진·발한·떨림·항진된 반사와 체중감소는 외인성 갑상선호르몬 노출에 의한 갑상선중독증을 의심하게 한다. 실제 성분과 TSH/free T4·T3 등을 확인해야 하며 모든 한방 감량제가 갑상선호르몬을 포함한다고 일반화하지 않는다. 장기간 변함없는 커피 섭취나 불안만으로 전형적 신체 소견을 모두 설명하기는 어렵다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008049 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 한방 감량제 이후 갑상선중독 증상은 외인성 호르몬 C 의심이나 제품 성분과 검사 없이 확정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

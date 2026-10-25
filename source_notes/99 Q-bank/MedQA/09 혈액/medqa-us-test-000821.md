@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 비호지킨 림프종
 
 
 고농도 IgM 단클론과 고점도 증후군은 발덴스트룀 거대글로불린혈증을 의미한다. 이 질환은 IgM 과잉이 혈액 점도를 높여 증상을 일으킨다. 따라서 가장 가능성 높은 진단은 C이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000821 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 단클론 IgM 고농도와 고점도 증상·빈혈은 Waldenstrom C와 일치. MGUS와 구별하는 증상 및 농도 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

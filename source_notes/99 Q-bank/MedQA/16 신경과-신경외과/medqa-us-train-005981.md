@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 혈관 내 혈전용해술
 
 ## 해설
 
+뇌정맥동혈전증에서 급성기 비경구 항응고가 기본 치료이며, 보기 중 저분자량헤파린인 dalteparin(A)이 적절하다. Dalteparin은 항트롬빈 작용을 증강하여 주로 Xa 인자를 간접 억제한다. 직접 트롬빈 억제제가 아니다. 정맥동 내 혈전용해나 기계적 치료는 모든 환자의 일차 치료가 아니라 항응고에도 악화하는 일부 중증 환자에서 별도로 검토한다.
 
-경구피임제 사용과 눈 주위 신경마비, MR에서 가로정맥동 혈전이 보이면 뇌정맥동혈전증이 의심된다. 초기 치료는 직접 작용 트롬빈 억제제인 달테파린이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CVT 항응고 선택 A는 유지. Dalteparin을 직접 트롬빈 억제제로 분류한 약리 오류 교정.
+- 공식/학회 근거: https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000456
 
 ## 출처
 

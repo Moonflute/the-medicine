@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 100% 산소
 
 ## 해설
 
+군발두통의 급성 치료에는 100% 산소(D)를 비재호흡 마스크로 충분한 유량으로 투여하는 방법이 적합하다. Sumatriptan도 군발두통 급성 치료제이지만, 이 환자는 심근경색과 잔여 협심증이 있어 혈관수축성 triptan/ergot 사용이 부적절하다. Verapamil은 군발두통 예방약이지 현재 발작을 즉시 중단하는 치료가 아니다.
 
-군발두통 발작 시 급성 치료는 100% 고농도 산소 흡입이 가장 효과적이며, 약물 치료보다 먼저 시행한다. 에르고타민·수마트립탄·베라파밀은 각각 다른 두통에 쓰인다. 따라서 정답은 100% 산소이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 허혈성 심질환에서 산소 D 선택 근거를 보완. Sumatriptan이 군발두통에 쓰이지 않는다는 오류 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

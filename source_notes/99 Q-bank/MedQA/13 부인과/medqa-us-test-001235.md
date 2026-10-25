@@ -19,16 +19,18 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 트리메토프림-설파메톡사졸
 
 ## 해설
 
+압통·발적·발열을 동반한 질입구 안쪽 종괴는 바르톨린농양을 시사하며 선택지 중 배농(B)이 적절하다. 실제로는 Word카테터 등으로 배액로를 유지하거나 조대술을 고려해 재발을 줄인다. 전신증상·주위 봉와직염이 있으면 항생제도 평가하므로 항생제가 언제나 불필요한 것은 아니다.
 
-소음순에 급성 통증성 종괴와 발열이 있으면 바르톨린선 농양이 의심되며, 절개 및 배농이 표준 치료이다. 항생제만으로는 농양을 제거할 수 없으며, 냉동치료는 적절하지 않다. 따라서 절개 및 배농이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단순 절개배농의 재발 문제 및 배액로 유지 보강.
+- https://www-preview.rcog.org.uk/for-the-public/browse-our-patient-information/bartholin-s-cyst-and-abscess/
 
 ## 출처
 

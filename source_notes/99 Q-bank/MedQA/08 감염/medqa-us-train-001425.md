@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. Streptococcus pyogenes
 ## 해설
 
 
-인공 판막 감염은 주로 피부에 서식하는 코그릴루스 에피더미디스가 원인이며, 이 균은 생체재료에 부착해 바이오필름을 형성한다. 따라서 Staphylococcus epidermidis가 가장 가능성 높은 원인균이다.
+판막치환 5주 뒤 발열, 새 역류성 잡음과 염증 소견은 조기 인공판막 심내막염을 의심하게 한다. 표피포도알균(Staphylococcus epidermidis)은 보철물에 부착하여 biofilm을 형성하는 대표적 원인으로 보기 중 B가 가장 부합한다. 모든 인공판막 감염이 이 균에 의한 것은 아니며 원인 확인에는 혈액배양 등이 필요하다. 제공되지 않은 손가락 사진의 병변 종류는 추정하여 덧붙이지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001425 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 가공된 균명과 모든 인공판막 감염 원인 일반화를 교정. 사진 없이도 조기 인공판막 심내막염의 보기 선택 가능.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

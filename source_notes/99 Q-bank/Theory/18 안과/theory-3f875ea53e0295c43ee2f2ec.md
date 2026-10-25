@@ -16,32 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: B
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "특정 안압 범위만으로 급성 폐쇄각을 배제하는 위험한 문항을 방수유출 기전으로 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-급성 폐쇄각 녹내장의 특징이 아닌 것은?
+폐쇄각 녹내장에서 안압이 급상승할 수 있는 주된 기전은?
 
 ## 선택지
 
-A. 심한 안통과 구역·구토 동반
-B. 안압이 20~30 mmHg 수준
-C. 세극등 검사에서 각막 부종 관찰
-D. 달무리 현상(halo) 발생
+A. 망막정맥의 혈전만으로 방수 생산이 중단됨
+B. 홍채 주변부가 배출각을 막아 방수 유출이 방해됨
+C. 수정체 혼탁이 망막을 직접 압박함
+D. 눈물 분비 증가가 각막 바깥 압력을 높임
 
 ## 해설
 
-급성 폐쇄각 녹내장은 안압이 급격히 상승해 50~80 mmHg까지 올라가며, 20~30 mmHg는 비정상적이다.
+폐쇄각 녹내장에서는 홍채 주변부가 앞방의 배출각을 막아 방수 유출을 방해할 수 있다. 급성으로 발생하면 안압이 빠르게 상승할 수 있으며 특정 숫자 하나만으로 임상상황을 확진·배제하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 녹내장 (glaucoma)
 - 원본 경로: `source_notes/02 Diseases/18 안과/녹내장 (glaucoma).md`
-- 학습 목표: 원문 핵심: * **CC** - **개방각 녹내장:** 말기까지 자각 증상 없음. - **폐쇄각 녹내장 (급성 발작):** 급격한 안압 상승으로 인한 심한 안통, 두통, 오심, 구토, 시력 저하, 달무리 현상, 각막 혼탁, 충혈. * **P/E** - 세극등 검사: 각막 부종, 전방 깊이 확인. - 안압 측정: 급성기 시 50~80 mmHg까지 상승 가능. - 전방각경 검사: 전방각 폐쇄 여부 확인.
+- 학습 목표: 폐쇄각 녹내장에서 홍채가 배출각을 막아 방수 유출이 감소함을 설명한다.
+
+## 오답 포인트
+
+- **망막정맥 혈전:** 방수 배출각 폐쇄와 다른 병태이다.
+- **수정체 혼탁·눈물 증가:** 제시한 방수유출 차단 기전이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 특정 안압 범위만으로 급성 폐쇄각을 배제하는 위험한 문항을 방수유출 기전으로 교정.
+- 근거: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-and-eye-pressure

@@ -25,11 +25,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 총비경구영양
 
 
 경미한 혈변과 직장 부위의 미만성 염증, 선와 구조 왜곡은 경증 궤양성 대장염을 시사한다. 1차 치료제로 장내 국소 스테로이드가 아닌 5‑ASA 제제(메살라민)가 권장된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 직장부터 연속된 경증 UC/직장S상결장염의 mesalamine B는 적절한 5-ASA 치료.
+- https://doi.org/10.14309/ajg.0000000000003463
 
 ## 출처
 

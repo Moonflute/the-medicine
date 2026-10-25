@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 심혈관 위험인자를 조절하고 12개월 후 초음파 추적검사
 ## 해설
 
 
-복부 대동맥류가 5 cm 이상으로 성장했으며, 주머니 모양이므로 파열 위험이 높다. 현재 크기와 형태는 혈관 내 복구술(EVAR) 적응 기준에 해당한다. 따라서 계획된 혈관 내 동맥류 복원술이 다음 단계이다.
+동맥류가1년 사이3.8cm에서4.9cm로1.1cm 커졌고 낭상 형태여서 단순 직경만으로 장기 관찰하기보다 신속한 혈관외과 평가와 계획적 복구를 고려한다. 선택지 중 B가 복구 치료를 뜻한다. 현재 직경은5cm 이상이 아니라4.9cm이다. 초음파 측정오차와 성장률은 재확인하고 CTA 등으로 원인·해부학적 EVAR 적합성을 평가한다. 모든4.9cm AAA가 자동으로 EVAR 대상이거나 개방술을 절대 할 수 없다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005727 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 4.9cm를5cm 이상이라고 바꾼 오류를 제거하고 빠른 성장·낭상 형태 및 수술 전 해부평가를 근거로 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://esvs.org/wp-content/uploads/2024/02/ESVS-2024-AAA-Guidelines.pdf
 
 ## 출처
 

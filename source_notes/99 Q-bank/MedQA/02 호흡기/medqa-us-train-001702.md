@@ -19,13 +19,15 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 기대 여명
 
 ## 해설
 
+정답은 D이다. 미국 Medicare hospice 급여에서는 질환이 통상 경과를 따를 때 기대여명6개월 이하라는 의사의 인증이 필요하다. 문항의 개인 예후를1년으로 전제하면 D가 그 조건에 맞지 않는다. 다만 중피종 전체의 평균생존1년이 모든 환자의 개별 hospice 부적격을 자동 뜻하지는 않는다. 의사결정능력이 있는 환자의 치료 선택을 대리인 아들의 반대만으로 뒤집지 않는다.
 
-호스피스 이용 자격은 기대 여명이 6개월 이하인 말기 환자에게 적용된다. 기대 여명이 1년으로 예상되는 악성 중피종 환자는 호스피스 이용을 제한하는 요소가 아니다; 다른 선택지는 제한 요인이 아니다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 기대여명1년이 제한요인이 아니라는 해설의 자기모순을 교정하고 개별 예후 인증 기준 명시.
+- https://www.cms.gov/medicare/payment/fee-for-service-providers/hospice
 
 ## 출처
 

@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,13 @@ D. 항바이러스제 경험적 치료
 
 
 급성 인두통, 편도 비대, 전경부 림프절병증이 있을 때 가장 먼저 시행해야 하는 검사는 A군 연쇄상구균 신속검사이며, 이는 항생제 필요성을 판단한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001127 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 바이러스성 상기도 증상 없이 급성 인후통·편도비대·전경부 림프절병증이 있는 청소년의 GAS 신속검사 A와 해설을 원문 대조 후 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html
 
 ## 출처
 

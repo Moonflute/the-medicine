@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 젖산 링거액
 
 ## 해설
 
+저혈압과 빈맥이 있어 즉각적인 체액 소생과 원인 평가가 필요하며, 감염원일 수 있는 농양도 확인해야 한다. 보기 D의 젖산 링거액은 균형 결정질로, 다량의 0.9% 생리식염수에 비해 고염소성 산증 부담을 줄일 수 있다. 포함된 젖산염은 대사되어 완충 효과에 기여하는 것이지 젖산산증 환자에게 젖산을 보충하려는 목적이 아니다. 낮은 HCO3와 쇼크만으로 혈중 젖산이 실제 상승했다고 확정할 수 없으며, 젖산 측정과 관류 재평가 및 필요한 감염 치료를 병행한다.
 
-저혈압과 대사성 산증(저 HCO₃⁻)은 조직 저산소와 젖산 축적을 시사한다. 젖산 링거액은 젖산을 포함해 산-염기 균형을 교정하고 혈압을 유지하는 데 가장 적합하다. 다른 용액은 젖산을 보충하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 균형 결정질 D의 근거를 젖산 보충 때문이라고 한 오류를 교정한다. HCO3 감소만으로 측정하지 않은 젖산 증가를 확정하지 않는다.
+- 공식/학회 근거: https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026
 
 ## 출처
 

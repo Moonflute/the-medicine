@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 급성 췌장염
 ## 해설
 
 
-SLE 환자에서 장관 혈관염으로 인한 장 허혈이 발생하면 급성 복통·설사·체중 감소가 나타난다. 혈압이 낮고 복부 압통이 경미하므로 장 허혈성 질환이 가장 가능성 높다.
+식후 악화되는 통증과 체중감소, 새 혈변 및 진찰 소견보다 심한 통증은 장허혈(A)에 부합한다. SLE에서는 혈관염이나 혈전 등 혈류장애가 관련될 수 있지만 원문만으로 기전을 확정하지는 못한다. BP100/70 자체를 쇼크로 단정하지 않으며 급성 악화에는 신속한 추가 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008431 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 식후통·체중감소·혈변과 진찰보다 심한 통증은 장허혈 A. BP100/70을 쇼크라고 하거나 SLE혈관염을 입증된 원인으로 확정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

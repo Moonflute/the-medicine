@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 동맥 도플러 초음파
 
 ## 해설
 
+야간 손 저림이 손을 털면 완화되고 당뇨가 있는 병력은 정중신경 압박에 의한 손목터널증후군을 시사한다. 주어진 선지 중에서는 신경전도검사(B)가 압박성 말초신경병증을 확인하고 중증도를 평가하는 데 적절하다. 다만 모든 환자에게 전기진단검사가 필수인 것은 아니며 AAOS 2024 지침은 임상도구 CTS-6를 일상적인 전기진단검사 대신 사용할 수 있다고 한다. 경추 CT·두부 MRI·동맥 도플러를 일률적으로 우선할 근거는 없다.
 
-손목의 저림·통증·밤에 악화되는 증상은 손목터널증후군을 시사하고, 확진을 위해 신경전도검사가 가장 민감하고 특이하다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 손목터널증후군에서 주어진 검사 중 신경전도검사 B가 적절하지만 이를 항상 필수 또는 최고 민감도·특이도라고 단정한 해설을 현행 AAOS 권고에 맞게 제한했다.
+- 공식/학회 근거: https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/carpal-tunnel-2024/cts-cpg.pdf
 
 ## 출처
 

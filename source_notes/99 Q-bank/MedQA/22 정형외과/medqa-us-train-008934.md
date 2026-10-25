@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 드퀘르벵 건초염
 
 ## 해설
 
+손을 짚고 넘어진 뒤 긴엄지벌림근·짧은엄지폄근과 긴엄지폄근 힘줄 사이의 해부학적 코담배갑(anatomical snuffbox)에 압통이 있으면 주상골 골절(C)을 의심한다. 이 영역은 손목 노쪽의 주상골 표면에 해당한다. 초기 X선이 정상이어도 잠복골절이 가능하므로 통증이 지속되면 추가 영상이나 추적 평가가 필요하다. '스냅백'이라는 해부구조를 뜻하지 않는다.
 
-손목 부위의 해부학적 스냅백(해부학적 스냅백) 압통은 주상골 골절을 강하게 시사한다. 주상골 골절은 손목 외상 후 통증과 제한된 움직임을 일으키며, 정확한 진단을 위해 방사선 검사가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 해부학적 snuffbox를 스냅백으로 오역한 해설을 해부학적 코담배갑으로 수정했다.
 
 ## 출처
 

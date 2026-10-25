@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,11 @@ D. 대퇴골 무혈성 괴사
 
 ## 해설
 
+넘어지며 뚝 소리와 급성 무릎 부종이 생기고 능동적으로 무릎을 펴지 못하는 것은 신전기전 손상을 시사한다. 비만·당뇨 및 전신 스테로이드 노출은 힘줄 손상의 위험 배경이며 선지 중 대퇴사두근건 파열(C)이 가장 합당하다. 최근 단기간 스테로이드 노출만으로 위험 크기를 확정하지는 않는다. 대퇴사두근건의 핵심 기능은 무릎 신전이며 본문의 고관절 굴곡 불가는 심한 통증의 영향도 평가해야 한다.
 
-무릎을 급격히 굽히며 ‘뚝’ 소리가 난 뒤 즉시 무릎을 펴지 못하고 통증이 심한 것은 대퇴사두근건 파열을 나타낸다. 최근 전신 스테로이드 투여는 힘줄 파열 위험을 크게 증가시킨다. (반월상연골 파열은 관절 내 소리와 움직임 제한이 주된 특징이다)
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 능동 무릎 신전 소실이라는 핵심을 유지하면서 일주일 스테로이드만으로 위험을 크게 정량 단정한 표현과 고관절 굴곡에 대한 인대 기능 혼동을 제한했다.
 
 ## 출처
 

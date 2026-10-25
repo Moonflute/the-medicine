@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. t(15;17)
 
 
 만성 골수성 백혈병(CML)에서는 백혈구가 크게 증가하고 호중구가 주를 이루며, 필라델피아 염색체인 t(9;22)로 BCR‑ABL 융합 유전자가 형성된다. 이 전위가 CML의 특징적인 분자소인이다. 따라서 가장 가능성 높은 염색체 전좌는 t(9;22)이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000381 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 현저 호중구증가·낮은 LAP·비장비대는 CML의 BCR::ABL1 t(9;22) B. 각 전좌 선지와 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

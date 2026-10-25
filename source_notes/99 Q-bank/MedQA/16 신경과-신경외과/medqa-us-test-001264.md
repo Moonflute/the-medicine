@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 도네페질
 
 ## 해설
 
+보행장애·인지저하·요실금의 조합은 정상압수두증을 의심하게 한다. 적절한 뇌영상과 임상/배액반응 평가 등으로 치료 대상자를 선정한 뒤 뇌실 단락술(A)로 뇌척수액을 다른 체강으로 우회 배액하여 증상을 완화할 수 있다. 단락술의 목적은 배액을 줄이는 것이 아니라 추가 배액 경로를 제공하는 것이다.
 
-넓은 보폭의 느리고 짧은 보행, 시간 지남력 및 주의력 저하, 기억력 감소는 정상압 수두증을 시사한다. 정상압 수두증은 뇌실-피질 사이의 CSF 흐름 장애로 인해 서서히 진행되는 보행장애, 인지장애, 요실금 삼중증상이 나타난다. 치료는 뇌실-복강 단락술(뇌실 단락술)로 CSF 배액을 감소시켜 증상을 개선한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 단락술이 CSF 배액을 감소시킨다는 반대 방향 오류 수정. NPH 임상삼징 및 선택된 환자에서 우회배액 A 설명.
+- 공식/학회 근거: https://www.ninds.nih.gov/health-information/disorders/dementias
 
 ## 출처
 

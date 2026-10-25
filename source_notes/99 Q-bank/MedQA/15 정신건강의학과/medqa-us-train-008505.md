@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,9 +47,15 @@ D. 인지행동치료
 ## 해설
 
 
-환자는 외모에 대한 과도한 집착과 부정적인 사고가 특징인 신체이형성장애이며, 인지행동치료(CBT)가 1차 치료로 가장 효과적이다. 다른 선택지는 중증도에 맞지 않거나 비침습적 치료가 아니다. 따라서 다음 적절한 처치는 인지행동치료이다.
+환자는 외모에 대한 과도한 집착과 부정적인 사고가 특징인 신체이형성장애이며, 인지행동치료(CBT)가 1차 치료로 가장 효과적이다. 체중이 정상이고 문제의 중심은 경미한 외모 결함에 대한 과도한 집착·확인·회피와 기능장애이므로, 제시된 선택지 중 이에 초점을 둔 CBT가 적절하다. 따라서 다음 적절한 처치는 인지행동치료이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008505
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. BDD의 CBT 답 유지. DBT·영양재활 등을 침습적 치료처럼 분류한 오류 삭제.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

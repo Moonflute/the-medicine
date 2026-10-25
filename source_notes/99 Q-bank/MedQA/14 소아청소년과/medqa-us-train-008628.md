@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 모노스팟 검사
 
 ## 해설
 
+인후염·경부 림프절병증·비장비대의 청소년에서는 전염성 단핵구증을 의심하며 보기의 Monospot(D)은 이종친화항체를 검출해 전형적 사례를 뒷받침할 수 있다. 그러나 EBV 특이 확진이나 가장 민감한 검사는 아니고 위양성·위음성이 있어, 의심이 지속되거나 확진이 필요하면 VCA IgM/IgG·EBNA 등 EBV 특이 혈청검사를 해석한다. CDC는 Monospot의 일반적 사용을 권하지 않는다.
 
-전형적인 비인두 편평상피세포증(전염성 단핵구증)에서는 비인두 흰색 막과 이질성 림프절 비대가 나타난다. 이 질환을 진단하는 가장 민감한 검사는 이질성 항체(모노스팟) 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 전염성 단핵구증 명칭·heterophile 용어 및 Monospot 최고 민감도 주장을 교정.
+- https://www.cdc.gov/epstein-barr/php/laboratories/
 
 ## 출처
 

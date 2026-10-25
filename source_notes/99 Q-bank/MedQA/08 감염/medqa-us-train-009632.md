@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 장염비브리오 감염
 ## 해설
 
 
-생굴 섭취 후 24시간 이내에 발생하는 급성 설사는 Vibrio parahaemolyticus 감염이 가장 흔하다. 이 균은 해산물에 서식하며, 복통·구토·설사와 저열을 동반한다. 따라서 장염비브리오 감염이 가장 가능성 높은 진단이다.
+생굴 섭취와 급성 설사·복통·구토의 조합은 선택지 중 장염비브리오(V. parahaemolyticus) 감염(D)에 가장 부합한다. 원문은 식사와 증상이 약 3일 전이라고만 서술하므로 정확히 24시간 이내 발병했다고 덧붙이지 않는다. 혈성 설사는 다른 침습성 장내 감염도 감별해야 하지만 노출과 제시 선지가 D를 지지한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009632 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 생굴 후 장염에서 V. parahaemolyticus D 유지. 원문에 없는 24시간 이내 발병을 단정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

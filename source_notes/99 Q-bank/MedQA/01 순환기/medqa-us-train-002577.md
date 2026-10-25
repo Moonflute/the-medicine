@@ -19,11 +19,11 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhc3VncmVsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 딜티아젬
 
 ## 해설
 
+이 사례는 급성 cocaine 관련 관상동맥 허혈을 의심한다. 급성 교감신경 항진·혈관수축 상황에서 순수 비선택적 β차단제 propranolol A는 α매개 혈관수축을 악화시킬 우려가 있어 피한다. 이는 소변 양성이나 과거 cocaine 사용력만으로 모든 β차단제를 평생 금기시한다는 뜻이 아니며, 중독 징후·심혈관 상태 및 혈관확장제 투여 등을 함께 판단한다.
 
-코카인 관련 급성 관상동맥 증후군에서는 베타 차단제가 관상동맥 혈관 수축을 악화시켜 금기이다. 베타 차단제는 코카인에 의해 유도된 혈관 수축을 차단하지 못하고 심근산소 공급을 감소시킨다. 따라서 프로프라놀롤이 금기 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 급성 cocaine 관련 허혈에서 순수 비선택 β차단제 propranolol A를 피하는 취지로 한정; 과거사용만으로 모든 β차단제 영구금기 아님.
+- https://doi.org/10.1097/adm.0000000000001299
 
 ## 출처
 

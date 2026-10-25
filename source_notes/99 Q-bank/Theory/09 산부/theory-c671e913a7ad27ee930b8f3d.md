@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "6rOo67CY7Ya1"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "골반통에서 임신 가능성과 혈역학적 안정성 확인이라는 중요 분기 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 복부 초음파
 - 내부 학습 노트: 골반통
 - 원본 경로: `source_notes/01 Chief Complaint/골반통.md`
 - 학습 목표: 원문 핵심: 골반통은 임신 가능성과 혈역학적 안정성을 확인한 뒤 산부인과 원인과 비뇨기·소화기 원인을 함께 구분한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

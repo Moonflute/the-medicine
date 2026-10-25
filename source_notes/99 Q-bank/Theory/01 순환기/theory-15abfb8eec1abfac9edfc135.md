@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "심부정맥의 혈전이라는 이름 풀이와 부정확한 PE/MI 오답 구분을 정맥혈전 발생의 독립 중요 기전으로 개선했다."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc15thjpdtjnq0rzb0pycna2vwc3wmljn0tdrtdlywrjq2hfwldwd0lgwmxhvzrnvkdoewiymwlim05wy3lrdwjxuxxkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -16,38 +21,44 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-심부 정맥 혈전증(DVT)의 정의는?
+DVT의 병태생리를 설명하는 고전적인 Virchow 세 축은?
 
 ## 선택지
 
-A. 주로 하지 심부 정맥에 혈전이 형성되어 혈류를 방해하는 질환
-B. 동맥에 혈전이 생겨 혈류를 차단하는 질환
-C. 폐동맥에 혈전이 형성되는 질환
-D. 심근에 혈전이 생겨 심근경색을 일으키는 질환
+A. 정맥 혈류 정체·혈관벽 손상·과응고 상태
+B. 심방 확장·승모판협착·좌심방 혈전
+C. 죽상경화반 파열·혈소판 활성화·동맥 혈전
+D. PF4-헤파린 항체·혈소판 활성화·면역성 혈전
 
 ## 해설
 
-심부 정맥 혈전증은 주로 하지 심부 정맥에 혈전이 형성되어 혈류를 방해하는 질환으로, 정맥 혈전색전증의 한 형태이다.
+정맥혈전은 혈류 정체, 혈관 손상 및 과응고의 조합과 관련된다. 부동·수술/외상·암·호르몬 등 위험을 이 기전으로 연결하며 증상만으로 확진하지 않는다.
 
 ## 오답 포인트
 
-- **B. 동맥에 혈전이 생겨 혈류를 차단하는 질환:** 동맥 혈전증은 동맥계 질환이며 DVT와는 구분된다.
-- **C. 폐동맥에 혈전이 형성되는 질환:** 폐동맥 혈전증은 PE이며 DVT의 합병증이다.
-- **D. 심근에 혈전이 생겨 심근경색을 일으키는 질환:** 심근경색은 관상동맥 폐색에 의한 것이며 DVT와 무관하다.
+- 심방 확장·좌심방 혈전: 심장성 색전과 관련된 기전이며 Virchow의 세 범주 자체와 구분한다.
+- 죽상경화반 파열·동맥 혈전: 죽상혈전성 동맥 질환을 설명하는 연결이다.
+- PF4 항체·면역성 혈전: HIT의 구체적 기전이다. DVT를 일으킬 수 있지만 질문의 고전적인 세 범주와 동일한 목록은 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 심부 정맥 혈전증 (Deep Vein Thrombosis)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/심부 정맥 혈전증 (Deep Vein Thrombosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 주로 하지의 심부 정맥 내에 혈전이 형성되어 혈류를 방해하는 질환이다. 정맥 혈전색전증(VTE)의 일환으로, 폐색전증(PE)의 주요 원인이 된다. - **원인**: 혈액 응고 항진 상태(hypercoagulability), 정맥 혈류 정체(venous stasis), 혈관 내피 손상(endothelial injury)의 세 가지 요인(Virchow's triad)이 복합적으로 작용한다. - **기전**: 정맥 내 혈류 정체 및 내피 손상으로 인해 혈전이 형성되며, 주로 하지의 원위부 정맥에서 시작하여 근위부로 진행…
+- 학습 목표: 정맥혈전의 정체·혈관 손상·과응고라는 병태생리 축을 이해한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 심부정맥의 혈전이라는 이름 풀이와 부정확한 PE/MI 오답 구분을 정맥혈전 발생의 독립 중요 기전으로 개선했다.
+- https://www.cdc.gov/blood-clots/about/

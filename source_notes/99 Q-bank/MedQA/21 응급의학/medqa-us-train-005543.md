@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 할로페리돌
 
 ## 해설
 
+언어적 재지시에도 불응하며 치료기구를 뽑고 폭력적인 섬망은 안전을 위해 단기 haloperidol(D)을 고려할 상황이다. 동시에 통증·약물·감염·저산소증 등 원인을 교정한다. Haloperidol은 부작용이 적은 약이 아니며 QT 연장과 추체외로계 위험, Parkinson/Lewy body 질환 여부 등을 확인하고 최소 필요 용량·기간으로 사용한다.
 
-수술 후 섬망 환자에게는 항정신병 약물 중 부작용이 적은 할로페리돌이 선호된다. 따라서 가장 적절한 처치는 할로페리돌 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Haloperidol의 부작용이 적다는 오류 제거. 비약물 접근 불응의 위험한 섬망에서 단기간 선택 D로 한정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg103/chapter/Recommendations
 
 ## 출처
 

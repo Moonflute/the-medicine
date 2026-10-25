@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 검사실 검사 시행
 
 ## 해설
 
+단단한 무통성 고환 내 종괴가 의심되므로 먼저 음낭 초음파(B)로 고환 내/외 위치와 고형성 등을 평가한다. 악성 고환종양이 의심될 때는 통상 경음낭 바늘생검을 하지 않는다. 이것이 조직학적 확인 자체가 불필요하다는 뜻은 아니며 종양표지자 평가와 서혜부 접근 수술 등으로 진단·치료를 계획한다.
 
-고환 종괴의 정확한 평가를 위해서는 먼저 초음파 검사가 필요하다. 초음파는 종양의 위치, 크기, 혈류 등을 비침습적으로 확인할 수 있다; 조직검사는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고환 초음파 B 유지, 조직검사가 전혀 필요없다는 해설을 경음낭 바늘생검 회피와 수술병리의 역할로 구분.
+- 공식/학회 근거: https://uroweb.org/guidelines/testicular-cancer/chapter/diagnostic-evaluation
 
 ## 출처
 

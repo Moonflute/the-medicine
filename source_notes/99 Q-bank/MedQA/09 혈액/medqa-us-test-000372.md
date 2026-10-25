@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 탈리도마이드
 
 
 CD25 양성 세포와 골수 억제가 특징인 털세포백혈병은 클라드리빈이 표준 치료이며, 가장 효과적인 약물이다. 따라서 정답은 클라드리빈이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000372 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 돌기 림프구·비장비대·범혈구감소·dry tap·CD25의 털세포백혈병과 cladribine A가 부합. 현행 NCI의 표준 선택 중 하나임 확인.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/leukemia/hp/hairy-cell-treatment-pdq
 
 ## 출처
 

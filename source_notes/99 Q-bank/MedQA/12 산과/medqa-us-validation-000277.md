@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 지속적 심전도 태아감시
 
 ## 해설
 
+37주에 새 고혈압과 단백뇨는 전자간증에 합당하다. 주어진 혈압·부종·단백뇨만으로 중증 소견이나 고혈압 위기라고 부르지 않는다. 중증 소견이 없어도37주에는 분만을 권고하므로 A가 적절하며 산모·태아 평가를 병행한다.
 
-임신 37주에 혈압 145/95 mmHg, 단백뇨 3+, 부종이 나타난 중증 전자간증은 산전 고혈압 위기이며, 태아와 산모 모두 위험하므로 즉시 분만 유도가 필요하다. 따라서 분만 유도가 가장 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단백뇨3+·부종만으로 중증/고혈압위기로 분류한 오류 수정.
+- https://www.nice.org.uk/guidance/ng133/chapter/Recommendations
 
 ## 출처
 

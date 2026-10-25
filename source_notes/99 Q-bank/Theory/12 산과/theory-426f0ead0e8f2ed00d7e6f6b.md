@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "전형적 자궁외임신 삼징후는 유지하되 고열을 정상 임신 초기 증상으로 부른 오류 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ D. 두통, 시야장애, 고혈압
 
 ## 오답 포인트
 
-- **B. 고열, 오심, 구토:** 고열·오심·구토는 일반적인 임신 초기 증상이며 특이적이지 않다.
+- **고열·오심·구토:** 고열을 정상 임신 초기 증상으로 보지 않는다. 통증·무월경·출혈의 전형적 조합과 다르며 감염 등도 평가한다.
+- **요통·빈혈·두통만:** 비특이적이며 자궁외 착상을 확정하거나 배제하지 못한다.
 
 ## 출처
 
 - 내부 학습 노트: 자궁외 임신 (Ectopic Pregnancy)
 - 원본 경로: `source_notes/02 Diseases/12 산과/자궁외 임신 (Ectopic Pregnancy).md`
-- 학습 목표: 원문 핵심: * **CC**: 통증(하복부/골반통), 무월경, 질 출혈 (삼대 증상). - 파열 시: 어지러움, 실신, 어깨 통증, 심한 복통 등 복강 내 출혈 징후. * **P/E**: 복부 압통, 반발통, 자궁 부속기 압통, 자궁 경부 이동통.
+- 학습 목표: 자궁외임신의 통증·무월경·출혈
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 전형적 자궁외임신 삼징후는 유지하되 고열을 정상 임신 초기 증상으로 부른 오류 교정.

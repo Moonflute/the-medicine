@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 뇌혈관 경련
 
 ## 해설
 
+코카인은 교감신경 작용을 증강하여 뇌혈관 수축과 고혈압을 일으킬 수 있다. 보기 중 뇌혈관연축(D)이 국소 허혈성 증상과 발작의 기전으로 가장 적합하다. 그러나 지속하는 편측 약화를 일과성 허혈발작이라고 확정할 수는 없다. 허혈성/출혈성 뇌졸중과 발작 후 마비 등도 감별해야 하며, 약물 증량에 따른 발작 역치 저하 가능성도 별도로 고려한다.
 
-코카인 사용은 혈관 수축과 혈압 상승을 유발하지만, 급성 고혈압에 의한 뇌혈관 수축으로 경련이 발생해 일과성 신경학적 결손을 일으킨다. 환자의 급성 의식 소실·편측 마비·경련은 뇌혈관 경련에 의한 일과성 허혈성 발작을 가장 잘 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 코카인 관련 뇌혈관연축 D의 기전은 유지하되 지속 결손을 이미 소실된 TIA로 단정한 오류 제거.
 
 ## 출처
 

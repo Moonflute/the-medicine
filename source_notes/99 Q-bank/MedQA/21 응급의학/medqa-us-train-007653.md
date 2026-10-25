@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 하지 초음파
 
 ## 해설
 
+흉막성 흉통, 빈맥, 경구피임약 복용과 최근 여행은 폐색전증의 평가가 필요한 단서이다. 이 환자는 쇼크가 없고 DVT 진찰 소견도 없어 임상 확률을 산정한 뒤 비고위험으로 판단되면 D-dimer(C)로 배제 여부를 평가한다. 빈맥과 에스트로겐 사용 때문에 PERC만으로 배제할 수는 없다. D-dimer가 양성이면 적절한 영상 검사가 필요하며 양성 자체가 확진은 아니다. 본문은 심부전증이 확인된 사례가 아니다.
 
-심부전증이 의심되는 환자에서 폐색전증을 선별하기 위해 먼저 D‑dimer 검사를 시행한다; 양성일 경우 CT 혈관조영술이 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 폐색전증 의심 사례를 심부전증으로 잘못 연결한 해설을 교체한다. 낮은/비고위험 임상 확률에서 D-dimer C를 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 
 ## 출처
 

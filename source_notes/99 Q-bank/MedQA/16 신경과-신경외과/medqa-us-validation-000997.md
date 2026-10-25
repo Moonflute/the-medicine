@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 사지의 고유수용감각 정상
 
 ## 해설
 
+대동맥 수술과 지속 저혈압 후 급성 양하지 마비는 전척수 영역 허혈을 시사한다. 후주가 상대적으로 보존되므로 고유수용감각(D)은 유지될 수 있지만 통각·온도각까지 모두 보존되는 것은 아니다. 초기 척수쇼크에서는 반사가 소실될 수 있어 즉시 반사항진이나 Babinski 양성이 반드시 나타나는 것은 아니다.
 
-복부 대동맥류 수술 후 척수 전방동맥 증후군으로 인한 허혈성 마비는 운동은 없고 감각은 보존되는 특징이 있다. 고유수용감각이 정상인 것이 전형적인 소견이다. 따라서 고유수용감각 정상은 가장 가능성 높은 평가 결과이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전척수 허혈에서 모든 감각이 보존된다는 오류 교정.
 
 ## 출처
 

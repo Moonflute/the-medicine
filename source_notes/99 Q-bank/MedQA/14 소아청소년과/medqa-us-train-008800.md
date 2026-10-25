@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 태아알코올증후군
 
 ## 해설
 
+33주 미숙아·모체 당뇨와 출생 직후 심한 호흡곤란은 계면활성제 결핍 RDS(B)에 부합한다. 심한 저산소혈증·고탄산혈증과 산혈증은 응급 환기 지지가 필요한 상황을 나타낸다. 원문의 pH 6.91/PaCO₂ 97과 양의 base excess 15.5는 내부적으로 맞지 않아 부호를 임의로 추정하지 않고 이 수치의 해석에는 제한이 있음을 명시한다.
 
-조산(33주)과 모체의 당뇨병으로 인해 신생아는 폐 표면활성제 결핍이 흔히 발생한다. 저산소혈증·고CO₂혈증·저PaO₂는 신생아 호흡곤란증후군(NRDS)을 나타낸다. 따라서 진단은 신생아 호흡곤란증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: RDS 판단은 유지하되 원문 혈액가스의 염기과잉 부호 불일치를 정상값처럼 해석하지 않음.
+
 
 ## 출처
 

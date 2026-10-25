@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. T세포 매개 면역반응
 
 
 재발성 안면 부종과 구강 점막 홍반은 C1 억제제 결핍에 의한 브래디키닌 매개 혈관부종을 나타낸다. 보체 억제인자 결핍이 원인이다. 따라서 보체 억제인자 결핍이 가장 가능성 높은 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-009002`와 직접 대조했다.
+- 판정: 외상·치과시술 후 반복 비소양성 부종과 복통은 C1 억제인자 결핍 지지. B 유지; 진단 기전 검토.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9023902/
 
 ## 출처
 

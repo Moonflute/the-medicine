@@ -17,19 +17,24 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+curation_status: "revised"
+curation_reason: "ESA 부작용은 유지하되 철 평가 없이 모든 CKD 빈혈에 즉시 투여한다는 인상을 방지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -47,10 +52,20 @@ D. 시야에 무지개 달무리
 
 ## 해설
 
-
-만성 신부전 환자에게 에리트로포이에틴 투여 시 혈압 상승이 흔한 부작용이다. 고칼륨혈증, 저칼륨혈증, 시야 현상은 에리트로포이에틴과 직접 관련이 없다. 따라서 A가 정답이다.
+투석 환자의 증상성 빈혈에서 고려하는 erythropoiesis-stimulating agent(ESA)는 혈압 상승을 유발·악화시킬 수 있어 A가 적합하다. 실제 시작 전에는 철 상태와 교정 가능한 다른 빈혈 원인을 평가하고 혈압·Hb 상승 속도를 감시한다. ESA로 Hb를 정상 범위까지 무리하게 올리는 것은 목표가 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006475
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: ESA 부작용은 유지하되 철 평가 없이 모든 CKD 빈혈에 즉시 투여한다는 인상을 방지.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://kdigo.org/wp-content/uploads/2026/01/KDIGO-2026-Anemia-in-CKD-Guideline.pdf

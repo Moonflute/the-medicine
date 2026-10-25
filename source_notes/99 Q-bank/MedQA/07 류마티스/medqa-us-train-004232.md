@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 저보체혈증
 ## 해설
 
 
-만성 피로와 관절통, 혈소판 감소, 저보체혈증은 C형간염과 연관된 저보체혈증을 시사한다. 저보체혈증은 보체 C3 감소와 연관된다. 따라서 저보체혈증이 가장 가능성 높은 소견이다.
+만성 HCV, 피로·관절통과 촉지성 자반은 혼합 한랭글로불린혈관염을 시사한다. 면역복합체에 의한 보체 활성화/소비로 저보체혈증(D), 특히 낮은 C4가 흔하다. 혈소판160,000/mm³를 감소라고 단정하지 않는다. 단순히 저보체혈증이 저보체혈증을 뜻한다는 순환 설명이나 C3만 감소한다고 한정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004232 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혈소판감소를 만들어낸 설명을 제거하고 HCV 혼합 한랭글로불린혈관염과 주로 C4 소비를 설명했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

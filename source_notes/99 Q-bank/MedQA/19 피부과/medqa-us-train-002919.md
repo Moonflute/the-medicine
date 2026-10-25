@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 병변과 주변 조직의 쐐기 생검
 
 ## 해설
 
+농부의 햇빛 노출 부위에 생긴 말린 경계와 중앙 궤양의 결절은 기저세포암(BCC)을 의심하게 한다. 5 mm의 작은 병변에서 전체 절제생검(B)은 진단과 조직 평가를 위한 합리적 선택이다. BCC의 생검은 형태·깊이·위치에 따라 shave·punch·절제생검 중 선택하며 항상 전체 절제만 가능한 것은 아니다. A처럼 궤양 중심만 채취하면 비진단적 조직만 얻을 수 있어 적절한 병변 부위와 깊이를 확보해야 한다.
 
-경계가 말려 있고 중앙에 궤양이 있는 5 mm 결절은 베이셀 세포암을 시사한다. 베이셀 세포암은 절제 생검으로 진단이 확정된다. 따라서 전체 절제 생검이 가장 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 작은 의심 BCC의 절제생검 B는 합리적이나 BCC에 항상 전체 절제생검만 필요한 것처럼 적은 해설과 베이셀 용어를 수정한다.
+- 공식/학회 근거: https://www.aad.org/member/clinical-quality/guidelines/bcc
+- 공식/학회 근거: https://academic.oup.com/bjd/article/185/5/899/6599942
 
 ## 출처
 

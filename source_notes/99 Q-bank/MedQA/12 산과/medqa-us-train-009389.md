@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvSXZlcm1lY3Rpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvUHJhemlxdWFudGVsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 지지요법
 
 ## 해설
 
+테이프 충란과 항문 가려움은 요충 감염이다. 25주 경미 증상이면 위생 관리·손씻기·침구/속옷 세탁 등 보존적 관리(D)를 우선할 수 있다. 비임신 환자의 표준 치료는 구충제이며 임신 중 심한 불면·체중감소 등 영향이 크면 이득/위험을 평가해 임신 후기 약물치료를 고려한다. 단순 물리적 제거만으로 모든 감염이 해결된다고 단정하지 않는다.
 
-Enterobius vermicularis 감염은 항문 주위 가려움증을 일으키며, 치료는 물리적 제거와 위생 관리(지지요법)만으로 충분하다. 약물 치료는 필요하지 않다. 따라서 가장 적절한 처치는 지지요법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 중 경한 요충 감염의 보존적 관리이지 모든 요충에 약물 불필요한 것은 아님.
+- https://www.cdc.gov/pinworm/hcp/clinical-overview/index.html
 
 ## 출처
 

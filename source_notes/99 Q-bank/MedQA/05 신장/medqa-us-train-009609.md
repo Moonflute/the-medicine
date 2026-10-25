@@ -17,18 +17,23 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: prevention
 difficulty: standard
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+curation_status: "revised"
+curation_reason: "고단백의 요중 oxalate 상승을 일률적 기전으로 단정하지 않고 정상 식이 칼슘 유지 원칙 보완."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -46,10 +51,20 @@ D. 단백질 섭취 감소
 
 ## 해설
 
-
-칼슘 옥살산염 결석은 고단백 식이에서 증가된 칼슘과 옥살산 배출이 원인이다. 단백질 섭취를 감소시키면 요중 칼슘과 옥살산 농도가 낮아져 재발 위험이 감소한다. 따라서 단백질 섭취 감소가 결석 예방에 가장 효과적이다.
+과도한 비유제품 동물성 단백 섭취를 줄이는 것이 이 사례의 선택지 중 적합하다. 산 부하·낮은 citrate·높은 uric acid 배설 등이 결석 위험에 기여할 수 있다. 식사 칼슘을 무조건 끊으면 장에서 oxalate 흡수가 늘 수 있어 정상적인 식이 칼슘은 유지한다. 충분한 수분과 염분 조절도 중요하며 단백 제한 하나가 모든 결석의 최선이라는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009609
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 고단백의 요중 oxalate 상승을 일률적 기전으로 단정하지 않고 정상 식이 칼슘 유지 원칙 보완.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://uroweb.org/guidelines/urolithiasis/chapter/metabolic-evaluation-and-recurrence-prevention

@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-18세 남자가 여러 차례 자상을 입고 응급실에 왔다. 기도와 산소화는 유지되지만 대량수혈 중 저혈압과 빈맥이 악화되고 심정지 후 소생에 실패했다. 과거 천식과 반복 상기도감염이 있다. 다음 중 소생 중 악화와 관련된 상태는?
+18세 남자가 여러 차례 자상을 입고 응급실에 왔다. 기도와 산소화는 유지되지만 대량수혈 중 저혈압과 빈맥이 악화되고 심정지 후 소생에 실패했다. 과거 심부전과 반복 상기도감염이 있다. 수혈 중 새로 호흡곤란과 양측 천명이 발생했다. 다음 중 소생 중 악화와 관련된 상태는?
 
 ## 선택지
 
@@ -43,8 +45,12 @@ D. 지속적인 복강 내 출혈
 
 ## 해설
 
+수혈 중 새 호흡곤란·양측 천명과 급격한 순환 악화는 아나필락시스성 수혈반응을 우려하게 한다. 심한 IgA 결핍과 anti-IgA 항체가 있는 일부 환자에서 관련될 수 있어 보기 C가 적합한 연관 상태이다. 대부분의 IgA 결핍 환자가 이런 반응을 겪는 것은 아니며, 출혈·다른 수혈반응도 긴급 평가해야 한다.
 
-대량수혈 시 IgA 결핍 환자는 수혈 관련 아나필락시스 위험이 증가한다. 따라서 악화와 관련된 상태는 IgA 결핍이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문에 없는 천식 병력을 반복 호흡기 감염/심부전 병력과 구별하고 새 천명 단서 복원. IgA 결핍 모두가 아나필락시스라는 일반화 방지.
+- 공식/학회 근거: https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/severe-allergic-reactions
 
 ## 출처
 

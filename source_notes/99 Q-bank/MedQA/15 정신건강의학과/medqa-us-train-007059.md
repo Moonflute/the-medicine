@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,15 @@ D. 증상이 심해 보입니다. 괜찮은지 확인하기 위해 간단히 진
 
 ## 해설
 
-
-환자는 비응급 상황이며, 현재 진료실에 없고 예약이 필요하다는 점을 명확히 해야 한다. 급박한 의료적 위협이 없으므로 즉시 진료를 제공할 의무가 없으며, 예약을 잡아 차후에 평가하는 것이 적절하다. 따라서 "진료실에 방문할 예약을 잡아 주세요"가 올바른 답변이다.
+제시된 정보에서는 기존과 같은 만성 편두통 양상이며 의사의 사적 공간에서 예정 없는 진료를 요구하고 있다. 제시된 응답 중 정중하게 진료 경계를 설명하고 진료실 예약으로 연결하는 것이 적절하다. 다만 갑작스러운 최악의 두통·새 신경학적 이상 등 응급 경고 소견이 있다면 즉각 적절한 평가로 안내해야 한다. 의사의 집에 왔다는 이유만으로 모든 상황의 진료·안전 책임이 없다고 단정하는 설명은 피한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007059
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 비응급 만성 두통의 진료 경계 설정 답 유지. 집 방문이면 법적으로 진료 의무가 없다는 일반화 제거 및 응급 경고소견 별도 확인.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

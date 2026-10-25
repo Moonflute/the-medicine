@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 약물 유발 면역성 범혈구감소증
 
 
 저혈구, 저백혈구, 저혈소판을 동반한 저형성 골수는 재생불량성 빈혈을 시사한다. 다른 선택지는 특정 세포 증식이나 약물 관련 원인과 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003129 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 범혈구감소·낮은 reticulocyte·비정상 클론 없는 저세포 골수는 aplastic anemia A를 지지하여 진단·해설 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -21,15 +21,17 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 투시 바륨 연하 검사(fluoroscopic barium swallow)
 
 ## 해설
 
+정답은 B이다. 식후 불편감과 아침 기침은 역류 관련 증상일 수 있어 경고 증상이 없다면 식사/체위 등 생활요인을 평가·교정할 수 있다. 취침 직전 식사를 피하고 필요 시 상체를 높이는 등의 조치이며 지속적인 금식이 치료라는 뜻은 아니다. 증상이 지속되면 GERD 외 원인과 약물치료/검사 필요성을 재평가하고 기침을 역류만으로 확진하지 않는다.
 
-상복부 불편감과 마른 기침은 위산 역류와 연관될 수 있으며, 생활 습관 교정(식사량 감소, 금식, 체위 변화)이 1차 치료이다. 따라서 다음 단계는 생활 습관 교정이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: GERD 생활교정에 금식을 권고한 부적절 표현을 늦은 식사 회피 등으로 교정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 흉관 삽입술
 
 ## 해설
 
+바늘 흉강감압 후 혈압과 맥박이 호전된 것은 긴장성 기흉에 의한 폐쇄성 쇼크를 지지한다. 바늘은 막히거나 빠질 수 있는 임시 처치이므로 확실한 흉막강 배액을 위해 흉관 삽입(D)이 필요하다. 현재도 반드시 긴장 상태가 지속된다고 가정할 필요는 없지만 재발·지속 누출 위험 때문에 영상 촬영만으로 후속 배액을 대신해서는 안 된다.
 
-바늘 감압으로 혈역학이 개선된 후에도 긴장성 기흉이 남아 있다. 지속적인 공기 배출과 폐 재팽창을 위해 흉관 삽입술이 다음 단계로 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 바늘 감압에 반응한 긴장성 기흉의 후속 흉관 D를 유지한다. 감압 뒤에도 반드시 긴장 상태가 남아 있다는 단정을 피한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

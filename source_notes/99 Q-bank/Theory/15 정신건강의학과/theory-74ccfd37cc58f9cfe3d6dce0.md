@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "심리사회적 개입과 약물 용량 조절의 역할 구분은 기초 복습으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 정서적 지지 및 대처 기술 향상
 
 - 내부 학습 노트: 정신사회적 치료 (Psychosocial Therapies)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/정신사회적 치료 (Psychosocial Therapies).md`
-- 학습 목표: 원문 핵심: - **정의**: 환자의 심리적, 사회적 요인이 질환의 발생, 경과, 치료에 영향을 미친다는 전제하에, 대화와 관계를 통해 증상을 완화하고 적응을 돕는 치료적 접근. - **원인**: 생물학적 취약성, 심리적 갈등, 사회적 스트레스 요인의 상호작용. - **기전**: 통찰(insight) 증진, 인지적 재구조화, 행동 수정, 정서적 지지 및 대처 기술 향상.
+- 학습 목표: 정신사회적 치료와 약물 조절의 구분
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 심리사회적 개입과 약물 용량 조절의 역할 구분은 기초 복습으로 유지.

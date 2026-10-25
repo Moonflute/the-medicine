@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 두 단어 조합
 
 ## 해설
 
+독립 앉기·손으로 음식 집기 등은 대략 생후 중후반 영아기에 맞고 반복 자음 옹알이(A)가 기대된다. 옹알이는 일반적으로 첫돌보다 먼저 나타나며 CDC 9개월 이정표에도 포함된다. 단어 4개나 두 단어 문장은 더 뒤 단계다.
 
-12개월 정도에 아이는 옹알이(babbling)를 시작한다. 이는 언어 발달의 초기 단계이며, 질문에 제시된 연령과 발달 상황에 가장 부합한다. 따라서 옹알이가 가장 가능성 높은 언어 발달 이정표이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 발달 단계에 맞는 옹알이 A 유지. 옹알이 시작을 12개월로 둔 오류 교정.
+- https://www.cdc.gov/act-early/milestones/9-months.html
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 항혈전 상태
 ## 해설
 
 
-거대적아구성 빈혈에서 비타민 B12 결핍은 내인자(내인자 항체) 결핍에 의해 발생한다. 환자의 빈혈, 거대 적혈구, 신경학적 증상은 내인자 항체에 의한 B12 결핍을 가장 시사한다.
+하시모토 갑상선염 병력과 거대적아구성 빈혈·후주 감각저하는 자가면역성 악성빈혈에 의한 B12 결핍을 시사한다. 이 경우 항내인자항체(B)가 나타날 수 있다. 모든 B12 결핍이 항내인자항체 때문인 것은 아니며 메틸말론산은 보통 증가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000974`와 직접 대조했다.
+- 판정: 자가면역질환·거대적아구·후주 감각저하로 악성빈혈과 B 유지. 모든 B12 결핍이 내인자항체 때문이라는 일반화 제거.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

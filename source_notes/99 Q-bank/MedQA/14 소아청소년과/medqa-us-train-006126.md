@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 갑상선자극호르몬 검사
 
 ## 해설
 
+언어 지연이 있는 아동은 이름에 반응하더라도 청각 손상이 완전히 배제되지 않으므로 청력검사(A)가 필요하다. 언어·발달 평가와 조기 중재 의뢰는 청력 평가와 병행할 수 있다. 검사 결과를 기다리며 언어치료를 일률적으로 늦추지 않는다.
 
-언어 발달 지연의 가장 흔한 원인 중 하나는 청각 손실이며, 이를 배제하기 위해 청력 검사가 우선이다. 정신과 평가나 언어치료는 청력 검사가 정상일 때 고려한다. 갑상선 자극호르몬 검사는 해당 증상과 직접적 연관이 적다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 청력검사 정상 확인 전에는 언어중재를 못 한다는 불필요한 순차 제한을 교정.
+- https://www.asha.org/practice-portal/Clinical-Topics/Spoken-Language-Disorders/
 
 ## 출처
 

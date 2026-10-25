@@ -17,15 +17,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "양성 폐-신장 증후군 및 미제시 폐결절을 창작한 해설 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -43,10 +48,19 @@ D. 육아종증 다발혈관염
 
 ## 해설
 
-
-폐와 신장을 동시에 침범하는 양성 폐‑신장 증후군은 육아종증 다발혈관염(Granulomatosis with polyangiitis)과 일치한다. 상기도 출혈, 폐 결절, 급성 신염이 특징이다.
+객혈과 혈뇨의 폐-신장 침범에 코피라는 상기도 단서가 더해져 선택지 중 GPA가 가장 적합하다. 실제 진단에는 ANCA·요검사·영상·필요 생검 등 원인 평가가 필요하다. 본문에는 호전 중인 폐 음영이 제시되어 있으며 폐결절이 확인되었다고 단정하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006421
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 양성 폐-신장 증후군 및 미제시 폐결절을 창작한 해설 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 임신 18주에 질식 초음파
 
 ## 해설
 
+선택지 중 18주 질식 초음파(D)가 중기 경부 길이를 평가하는 적절한 방법이다. 일반적으로 16–24주 평가 범위를 사용하므로 반드시 18주 이후에만 가능하다는 뜻은 아니다. LEEP 병력만으로 경부무력증을 진단하거나 모든 환자에게 봉축술을 시행하지 않는다.
 
-자궁경부 무력증은 임신 18주 이후 질식 초음파로 자궁경부 길이를 측정해 평가한다. 초기 초음파는 자궁경부 길이 변화를 충분히 반영하지 못한다. 따라서 정답은 임신 18주에 질식 초음파이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 중기 질식 경부 길이 평가와 경부무력증 진단 구분.
+- https://med.uc.edu/docs/default-source/obstetrics-and-gynecology-docs/ob-mfm-protocols/q-z/short-cervix-protocol-2022.pdf?sfvrsn=27a7db17_2
 
 ## 출처
 

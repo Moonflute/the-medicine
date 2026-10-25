@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "혈청군 D가 존재하지 않는다는 과도한 설명과 나열형을 중요한 캡슐 병독성 기전으로 전환."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmlxljbu91bmllevzqt3ezb0nbb1rxvnvhvzvuyjjodlkytjfjewt1yldrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -14,38 +19,45 @@ theory_objective_id: disease-01-recognition
 question_type: recognition
 question_mode: direct_recall
 difficulty: standard
-answer: C
+answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-수막알균 감염의 주요 혈청군에 포함되지 않는 것은?
+수막알균의 다당류 캡슐이 침습성 감염에 기여하는 기전은?
 
 ## 선택지
 
-A. A군
-B. B군
-C. D군
-D. Y군
+A. 포식과 보체 매개 방어에 대한 저항을 돕는다.
+B. 숙주 세포의 TSH 수용체를 자극한다.
+C. 장내 선충 유충을 만든다.
+D. 항상 세균을 비병원성으로 만든다.
 
 ## 해설
 
-수막알균은 A, B, C, W, X, Y 혈청군이 주요 원인이며 D군은 존재하지 않는다.
+다당류 캡슐은 수막알균의 중요한 병독성 인자이며 포식·보체 매개 제거를 회피하는 데 기여한다.
 
 ## 오답 포인트
 
-- **A. A군:** A군은 실제로 주요 혈청군 중 하나이다.
+- TSH 자극·선충 생성·항상 비병원성: 캡슐의 병독성 역할과 다르다.
 
 ## 출처
 
 - 내부 학습 노트: 수막알균 (Meningococcus)
 - 원본 경로: `source_notes/02 Diseases/08 감염/수막알균 (Meningococcus).md`
-- 학습 목표: 원문 핵심: - **정의**: 수막알균 (Neisseria meningitidis)에 의해 발생하는 감염으로, 주로 뇌수막염이나 패혈증 형태로 나타난다. - **원인**: 수막알균 (Neisseria meningitidis): 그람 음성 쌍구균으로 13개의 혈청군이 존재하며, A, B, C, W, X, Y군이 주요 원인이다. - **기전**: 비말을 통해 전파되어 비인두에 정착한 후 혈류를 통해 중추신경계나 전신으로 퍼져 감염을 일으킨다. 내독소(Lipooligosaccharide)가 염증 반응과 혈관 내 응고를 유발하여 패혈증성 쇼크를 일으킬…
+- 학습 목표: 수막알균 다당류 캡슐은 포식·보체 방어 회피에 기여함을 안다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 혈청군 D가 존재하지 않는다는 과도한 설명과 나열형을 중요한 캡슐 병독성 기전으로 전환.
+- https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-14-meningococcal-disease.html
+- https://stacks.cdc.gov/view/cdc/253001/cdc_253001_DS1.pdf

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 종괴 광범위 절제
 ## 해설
 
 
-유방에 거품세포와 다핵 거대세포가 보이는 경우는 지방괴사(유방 지방괴사)와 연관된다. 이는 외상이나 방사선 후에 발생하며, 관찰보다는 조직 절제가 필요하다. 따라서 가장 적절한 처치는 종괴 광범위 절제이다.
+기름낭종과 거품세포·다핵거대세포는 유방 지방괴사에 합당하다. 영상·진찰과 코어 생검 결과가 일치하는 양성 지방괴사라면 설명과 안심 B가 적절하며 일률적인 광범위 절제나 항암치료는 필요하지 않다. 다만 병리-영상 불일치, 증가하는 종괴, 지속되는 통증 등은 재평가 또는 절제의 이유가 된다. 악성을 흉내 낼 수 있다는 사실만으로 양성 일치 생검 후에도 반드시 절제하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009252 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 병리로 지방괴사가 확인된 정답 B와 달리 D 절제를 권하던 해설 오연결 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.org/cancer/types/breast-cancer/non-cancerous-breast-conditions/fat-necrosis-and-oil-cysts-in-the-breast.html
 
 ## 출처
 

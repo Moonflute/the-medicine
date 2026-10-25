@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 폐 특정 부위의 호흡음 증가
 
 ## 해설
 
+제시 소견 중 객혈 C는 PE 가능성을 높인다. 그러나 이 환자는 이미 최근 수술/부동·빈맥·종창한 하지·흉막성 통증으로 PE의 사전확률을 평가해야 하며 객혈이 없어도 PE-likely이면 CTPA 등 신속평가가 필요하다. 최근 기침만으로 단순 흉막염에 고정하지 않는다.
 
-폐색전증의 가장 특징적인 증상은 객혈, 호흡곤란 및 흉통이다. 객혈이 동반될 경우 CT 폐혈관조영술(CTPA)으로 폐동맥 폐색을 확인하는 것이 핵심이다. 따라서 객혈이 추가 평가를 요한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 객혈 C는 PE 단서이나 객혈을 기다려야 CTPA한다는 위험한 전제 교정.
+- https://www.nice.org.uk/guidance/ng158/chapter/recommendations
 
 ## 출처
 

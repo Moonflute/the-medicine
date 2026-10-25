@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 메토트렉세이트
 ## 해설
 
 
-거대세포동맥염 환자는 고용량 프레드니솔론으로 염증을 억제해야 하며, 시야 결손이 있기에 즉시 스테로이드 치료가 필요하다. 따라서 프레드니솔론이 가장 유익한 약물이다.
+새 측두부 두통·턱 파행·염증수치 상승과 시야 결손은 GCA에 의한 시각허혈을 강하게 의심하게 한다. 제시된 약물군 중 glucocorticoid인 prednisolone(C)이 가장 적절하며 즉시 치료가 필요하다. 다만 시력 상실 위협이 있는 경우 현행 지침은 정맥 pulse glucocorticoid를 우선 고려하므로 경구 prednisolone만이 최선의 전체 처치라는 뜻은 아니다. 즉시 안과 평가·적절한 steroid 경로 선택과 확진 평가를 병행한다. 저분자량 heparin이나 methotrexate가 초기 고용량 steroid를 대체하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004117 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 실제 시야 결손이 있는 GCA에서 경구 prednisolone만으로 치료를 종결하는 오해를 막고 pulse 정맥 steroid 평가를 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

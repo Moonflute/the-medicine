@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 수막염
 
 ## 해설
 
+대퇴경부 골절과 고관절 수술 뒤 저산소혈증, 의식 변화와 흉부 점상출혈이 함께 나타나 지방색전증후군(A)을 시사한다. 골수 지방의 미세혈관 색전과 염증 반응이 폐와 전신 손상에 기여한다. 이 조합을 설명하는 데 가장 적절하다는 뜻이지 모든 고관절 수술에서 가장 흔한 합병증이라는 뜻은 아니다. 제시된 다른 선지는 이 특징적인 소견의 조합을 덜 잘 설명한다.
 
-대퇴경부 골절 후 고관절 수술 시 지방이 혈관을 통해 폐동맥으로 이동해 급성 호흡곤란, 청색증, 점상출혈을 일으키는 지방색전증이 가장 흔한 합병증이다. 다른 선택지는 해당 증상군과 부합하지 않는다. 따라서 정답은 지방색전증(A)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 지방색전증 A의 호흡·신경·점상출혈 조합은 유지하되 고관절 수술의 가장 흔한 합병증이라는 근거 없는 주장을 삭제한다.
 
 ## 출처
 

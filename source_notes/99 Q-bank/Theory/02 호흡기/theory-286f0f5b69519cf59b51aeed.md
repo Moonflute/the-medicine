@@ -12,36 +12,49 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: D
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "천식에 고열이 흔하지 않다는 문제를 치료 조정 전 확인 사항으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-천식의 주요 증상에 포함되지 않는 것은?
+천식이 잘 조절되지 않아 치료 단계를 높이기 전에 확인할 것은?
 
 ## 선택지
 
-A. 천명(쌕쌕거림)
-B. 숨참
-C. 야간 또는 새벽 기침
-D. 고열과 오한
+A. 흡입기 사용법·복약 순응도·지속 노출과 동반 질환
+B. 사용법 확인 없이 약제 용량만 자동 증량
+C. 흡입제를 모두 중단해 증상이 심해지는지 확인
+D. 정상 진찰만으로 천식 진단을 즉시 취소
 
 ## 해설
 
-천식은 천명, 숨참, 야간·새벽 기침이 반복·변동하지만 고열·오한은 일반적이지 않다.
+잘못된 사용법과 불규칙한 치료는 조절 실패의 흔한 원인이다. 진단의 타당성과 교정 가능한 원인을 검토한 뒤 치료를 조정한다.
 
 ## 출처
 
 - 내부 학습 노트: 천식
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/천식.md`
-- 학습 목표: 원문 핵심: - 천명, 숨참, 흉부 답답함, 야간 또는 새벽 기침이 반복·변동하는 양상이다. 증상 없는 진찰이 천식을 배제하지는 않는다. - 말하기 어려움, 보조호흡근 사용, 청색증, 졸림·혼돈, silent chest, PEF 현저 저하는 중증 악화 소견으로 즉시 응급 처치가 필요하다. - COPD, 심부전, 상기도기침증후군, GERD, 성대기능장애 및 폐색전증은 증상 양상에 따라 감별한다.
+- 학습 목표: 천식 조절 불량에서 흡입기·순응도 확인
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf

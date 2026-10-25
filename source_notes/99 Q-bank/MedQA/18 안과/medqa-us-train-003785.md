@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 국소 프레드니솔론
 
 ## 해설
 
+심한 안통·오심, 단단한 안구, 각막 혼탁과 고정된 산동은 급성 폐쇄각 발작에 합당하다. 선지 중 A, 정맥 acetazolamide는 방수 생성을 억제하여 초기 안압 하강에 사용할 수 있다. 실제 초기 치료는 금기와 중증도에 따라 국소 안압 하강제 등을 병용하고, 이후 원인에 맞는 주변홍채절개술 등의 확정 치료를 진행한다. 망막 광응고나 국소 steroid 단독으로 안압 응급을 해결할 수는 없다.
 
-급성 폐쇄각 녹내장은 안압 상승을 급격히 일으키며, 초기 치료는 정맥 아세타졸아미드로 안압을 낮추는 것이 가장 효과적이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Acetazolamide A를 초기 약제로 유지하면서 단독 최효과 약이라는 과장을 교정하고 확정 치료와 구분.
+- 공식/학회 근거: https://www.aao.org/education/preferred-practice-pattern/primary-angle-closure-disease-ppp
 
 ## 출처
 

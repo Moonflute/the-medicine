@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 덜 익힌 해산물 피하기
 
 ## 해설
 
+발열·설사와 결막염·귀앞 림프절병증은 adenovirus 감염에 부합한다. 어린이집의 손·오염 물체 접촉 전파를 줄이는 손씻기(B)가 적절하다. 일반 소아 대상 adenovirus 정기 백신은 없지만 모든 adenovirus 백신이 존재하지 않는다는 뜻은 아니다.
 
-아데노바이러스·노로바이러스 등은 손-입 접촉을 통해 전파되므로 손 씻기 개선이 가장 효과적인 예방책이다. 예방접종은 해당 질환에 적용되지 않는다. 따라서 정답은 손 씻기 개선(B)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 설사·결막염·귀앞 림프절의 adenovirus 연결과 소아 예방의 범위 명확화.
+- https://www.cdc.gov/adenovirus/index.html
 
 ## 출처
 

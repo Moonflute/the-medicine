@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. 항연쇄상구균 혈청 검사 양성
 ## 해설
 
 
-급성 류마티스열 진단에 필수적인 기준은 연쇄상구균 감염에 대한 혈청 항체 양성으로, 이는 Jones 기준 중 필수 항목이다.
+인후통 약3주 후 이동성 큰관절염과 고리형 피부병변은 급성 류마티스열을 의심하게 한다. Jones 기준에 맞는 임상 소견과 함께 선행 GAS 감염 증거를 확인하며, 제시된 선택지에서는 항연쇄구균 혈청검사 양성(D)이 이를 제공한다. ESR 상승·발열·PR 연장 등은 보조 소견이지 감염 증거를 대신하지 못한다. 선행 감염 증거는 양성 인후배양/신속검사나 상승하는 항체가 등으로도 확인할 수 있고, 지연성 무도병·잠행성 심장염에는 예외가 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000327 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 선행 GAS 감염 증거와 Jones 기준을 구분하고 혈청항체만이 항상 필수라는 일반화를 수정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/diagnosing-acute-rheumatic-fever.html
 
 ## 출처
 

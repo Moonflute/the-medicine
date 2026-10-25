@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "등으로 방사되는 지속 상복부 통증은 급성 췌장염의 의미 있는 쉬운 증상 복습."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc1xd2hpdux0t3kzaknfcxvjbnnotevnn0xlttdknmw3smu4sunoqlkzvjbau0jrwvc1amntvmhkr2wwyvhncextmwt8zglzzwfzzs0wmi1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ D. 무증상으로 발견되는 경우
 
 ## 오답 포인트
 
-- **B. 황달과 간비대가 동반되는 경우:** 황달은 주된 증상이 아니며, 간비대는 흔히 동반되지 않는다.
+- **황달과 간비대가 동반되는 경우:** 황달은 주된 증상이 아니며, 간비대는 흔히 동반되지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 급성 췌장염 (Acute Pancreatitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/급성 췌장염 (Acute Pancreatitis).md`
 - 학습 목표: 원문 핵심: - 주된 증상: 상복부의 지속적이고 심한 통증(등으로 방사되는 경우가 많음). 앉아서 몸을 앞으로 숙이면 완화되기도 함 - 기타 증상: 오심, 구토, 발열, 빈맥, 빈호흡 - 신체 검진: 상복부 압통, 장음 감소, 복부 팽만. 드물게 Grey Turner 징후(옆구리 반상출혈)나 Cullen 징후(배꼽 주위 반상출혈)가 나타날 수 있으며 이는 예후 불량의 지표임
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 등으로 방사되는 지속 상복부 통증은 급성 췌장염의 의미 있는 쉬운 증상 복습.

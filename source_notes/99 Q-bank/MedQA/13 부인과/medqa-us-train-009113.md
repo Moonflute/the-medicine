@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 인유두종바이러스(HPV) 검사
 
 ## 해설
 
+25세 미만 ASC-US는 보통 1년 후 세포검사로 추적한다. 반사 HPV 검사를 시행하는 경우 음성이면 3년 후 세포검사가 가능하므로 제시된 보기 중 D가 가능한 평가다. 양성 또는 미검사이면 1년 세포검사 경로이며 성인 위험표를 적용해 즉시 질확대경으로 연결하지 않는다.
 
-ASC-US 결과는 인유두종바이러스(HPV) 감염 여부를 확인하는 것이 다음 단계이다. HPV 양성은 추가 검사를 결정하고, HPV 음성은 관찰을 권한다. 따라서 HPV 검사가 가장 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 24세 ASC-US의 반사 HPV 검사 D는 가능한 보기다. 양성이면 즉시 질확대경이라는 연령 무시 해석을 방지.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
 
 ## 출처
 

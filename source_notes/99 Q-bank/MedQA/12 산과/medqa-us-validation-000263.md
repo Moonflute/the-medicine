@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 고양이 배설물 피하기
 
 ## 해설
 
+거대아·신생아 저혈당은 모체 당뇨와 태아 고인슐린혈증을 시사하고, 견인 후 어깨 내전·내회전은 상완신경총 손상을 의심하게 한다. 산모 당뇨의 적절한 혈당 조절, 필요시 인슐린(B)은 거대아·난산 위험을 줄일 수 있다. 모든 손상을 완전히 예방하는 것은 아니며 신생아 저혈당에 인슐린을 주는 뜻이 아니다.
 
-Erb 파라리시스는 분만 시 어깨가 견인될 때 발생하며, 어머니가 당뇨병이 있으면 거대아 위험이 높아진다. 거대아는 어깨 난산을 유발해 Erb 마비를 예방하기 위해 산전 인슐린 치료가 필요하다. 따라서 예방에 가장 효과적인 조치는 인슐린 투여이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 인슐린을 신생아 마비 치료로 오해하지 않도록 산모 혈당 관리의 예방 효과 설명.
+- https://doi.org/10.2337/dc26-s002
 
 ## 출처
 

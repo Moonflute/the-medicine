@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 칼슘통로차단제
 
 ## 해설
 
+일측 박동성 두통·광선공포와 반복 구토는 편두통에 합당하다. 주어진 선지 중 클로르프로마진(C)은 도파민 수용체 차단을 통해 구역·구토를 억제하는 약으로 적절하다. 프로프라놀롤과 일부 칼슘통로차단제는 예방 목적으로 쓰일 수 있으나 현재 구토를 치료하는 선택이 아니다. 모든 편두통 구토에 가장 효과적이라는 보편적 우열을 뜻하지 않으며, 실제 투여 시 저혈압·진정·추체외로계 부작용 등을 고려한다.
 
-편두통에 동반되는 구역질·구토는 트립탄이나 NSAID만으로는 충분히 억제되지 않을 수 있다. 클로르프로마진은 도파민 차단 작용으로 구역질을 완화시키는 항구토제로 급성 편두통 구토에 가장 효과적이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 클로르프로마진을 급성 편두통 구토에 언제나 가장 효과적인 약이라고 단정한 표현을 제한했다. 주어진 선지 중 항구토 역할에 맞는 C를 유지한다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=35a743a1-5354-2c50-e063-6394a90a15f9&type=display
 
 ## 출처
 

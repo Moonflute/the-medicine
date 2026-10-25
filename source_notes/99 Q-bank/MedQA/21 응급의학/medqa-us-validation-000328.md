@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 당신은 의료 대리인이 아니므로 말할 수 없다
 
 ## 해설
 
+음이온차는 138−90−20=28 mEq/L로 증가되어 있고, pH 감소와 빈호흡은 산증에 대한 호흡 반응을 시사한다. 과음·구토와 높은 BUN은 수분 부족 가능성을 뒷받침하여 보기 B의 수액 필요성을 설명할 수 있다. 다만 호흡수만으로 깊은 Kussmaul 호흡을 확정하거나 케톤 측정 없이 알코올성 케톤산증을 확진할 수는 없다. 기도·혈당·전해질과 다른 중독 원인도 평가한다. 의사결정능력이 저하된 환자를 돌보는 동반자에게 임상적으로 필요한 정보를 설명하는 것이 정식 의료 대리인이 아니라는 이유만으로 항상 금지되는 것은 아니다.
 
-환자는 혈중 중탄산염이 감소하고 pH가 낮아 대사성 산증을 보이며, 호흡수가 증가한 것은 보상성 과호흡(Kussmaul 호흡)이다. 이는 탈수와 알코올성 케톤산증 등으로 인한 산-염기 불균형을 보완하려는 반응이며, 체액 보충이 가장 우선적인 치료이다. 따라서 호흡은 수액이 필요함을 시사한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 산증과 수분 부족 가능성에서 B를 유지하되 단순 빈호흡만으로 Kussmaul 호흡이나 알코올성 케톤산증을 확진하지 않는다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg174/chapter/Recommendations
+- 공식/학회 근거: https://www.hhs.gov/hipaa/for-individuals/family-members-friends/index.html
 
 ## 출처
 

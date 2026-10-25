@@ -17,15 +17,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 question_type: investigation
 difficulty: standard
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "아직 확인되지 않은 단백 변동을 창작하지 않고 기립성·운동성 단백뇨를 구별."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -43,10 +48,19 @@ D. 소변 전해질과 크레아티닌
 
 ## 해설
 
-
-소변 단백이 변동하고 혈압·체액 상태가 정상인 점에서 기립성(운동성) 단백뇨가 의심된다. 이를 확인하려면 아침·오후에 각각 소변 단백검사를 반복해 변화를 관찰한다. 기본 대사 패널 등은 진단에 직접적이지 않다.
+무증상 청소년의 반복 단백뇨에서는 밤새 누워 있다가 얻은 첫 아침 소변과 활동 후 검체를 비교해 기립성 단백뇨를 평가할 수 있다. 현재 자료로 변동이 확인된 것은 아니다. 기립성은 자세와 관련되며 운동성 단백뇨와 같은 말이 아니다. 아침에도 지속되거나 다른 이상이 있으면 단백 정량과 신기능 평가가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005811
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 아직 확인되지 않은 단백 변동을 창작하지 않고 기립성·운동성 단백뇨를 구별.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

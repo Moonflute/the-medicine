@@ -17,25 +17,30 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTGFjdHVsb3NlLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+curation_status: "revised"
+curation_reason: "누락된 SLE 병력을 복원하고 숫자만이 아닌 요독성 뇌병증을 투석 근거로 설명."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-44세 여성이 공원에서 혼잣말을 하며 발견되어 응급실에 왔다. 2주간 쇠약, 메스꺼움, 구토가 있었고 현재 혼란, 전신 쇠약, 경정맥 팽창, 하지 부종, 나트륨 137, 칼륨 5.5, 중탄산염 15, BUN 94, 크레아티닌 5.5 mg/dL이다. 가장 적절한 다음 처치는?
+44세 여성이 공원에서 혼잣말을 하며 발견되어 응급실에 왔다. 전신홍반루푸스가 있으나 수년 전 methotrexate 복용을 중단했다. 2주간 쇠약, 메스꺼움, 구토가 있었고 현재 혼란, 전신 쇠약, 경정맥 팽창, 하지 부종, 나트륨 137, 칼륨 5.5, 중탄산염 15, BUN 94, 크레아티닌 5.5 mg/dL이다. 가장 적절한 다음 처치는?
 
 ## 선택지
 
@@ -46,10 +51,19 @@ D. 수분 제한
 
 ## 해설
 
-
-중증 급성 신손상으로 전해질 및 대사 이상이 심하고 의식 저하가 동반될 때 혈액투석이 가장 빠른 독소 제거와 전해질 교정 방법이다. 따라서 혈액투석이 적절한 다음 처치이다.
+중증 신기능 저하에 혼돈·지남력 장애, 체액 과다와 산증이 동반되어 요독성 뇌병증을 포함한 긴급 투석 적응증을 고려한다. 선택지 중 혈액투석이 적합하며 Cr 수치 하나만으로 결정하는 것은 아니다. SLE 관련 신장 손상 등 원인 평가와 다른 의식 장애 원인 확인·안정화를 함께 시행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000863
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 누락된 SLE 병력을 복원하고 숫자만이 아닌 요독성 뇌병증을 투석 근거로 설명.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 우르소데옥시콜산
 ## 해설
 
 
-원발성 담즙성 담관염에서 담즙 정체와 가려움이 나타나며, 우르소데옥시콜산이 담즙 흐름을 개선하고 가려움을 완화한다. 간 생검은 진단에 필요하지만 치료가 우선이다. 따라서 우르소데옥시콜산이 적절한 다음 처치이다.
+정답 D. 담즙정체성 검사와 AMA 양성은 PBC를 지지하며 UDCA가 일차 질병조절 치료다. 전형적인 항체와 검사 양상이면 간생검이 반드시 필요한 것은 아니다. UDCA를 소양증에 대한 직접 치료로 설명하지 않는다. 소양증은 별도의 단계적 증상치료를 검토하며 단순 담낭 슬러지가 이 자가면역 담관병의 진단을 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000041 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PBC의 UDCA D 질병조절과 소양증 치료를 구분. AMA+담즙정체에서 간생검 필수라는 오류 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.aasld.org/aasld-and-aga-offer-first-medication-focused-guideline-treating-pbc
 
 ## 출처
 

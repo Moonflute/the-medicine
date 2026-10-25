@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "첫 노출의 일반 시기만 고정한 문항을 최근 노출에 따른 빠른 발현과 구별."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmltjyce8ytwppdw1zq0rzbktecnnkd2c3wmljn0lhttdzeve2cknrn0lhttdlywrjq2hjwlhcagntbhvmvwx1wkhwalpxuwdwr2h5yjixawiytjvkrzl3wlc1cfltd2dtrwxvs1m1dfpbfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -16,11 +21,11 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
 ---
@@ -29,21 +34,31 @@ related_drug_slugs:
 
 ## 문제
 
-헤파린 유발 혈소판감소증(HIT)의 혈소판 감소가 보통 발생하는 시기는?
+면역성 HIT의 발생 시기에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 헤파린 투여 시작 후 5~10일
-B. 투여 첫 24시간 내
-C. 투여 3개월 이후
-D. 헤파린 중단 후 2주 뒤
+A. 보통 시작 5–10일 뒤이며 최근 헤파린 노출로 감작된 경우 더 빨리 나타날 수 있다.
+B. 모든 경우 시작 첫날에만 발생한다.
+C. 최근 헤파린 노출은 발현 시기에 영향을 주지 않는다.
+D. 헤파린 중단 뒤에는 절대로 발생하지 않는다.
 
 ## 해설
 
-HIT는 헤파린 투여 5~10일 후 혈소판이 50% 이상 급격히 감소하는 것이 특징이다.
+시기는 혈소판 감소 정도·혈전·다른 원인과 함께 4Ts 평가에 반영한다. 시간 하나만으로 확진·배제하지 않는다.
+
+## 오답 포인트
+
+- 첫날만·최근 노출 무관·중단 뒤 불가: HIT의 시간적 다양성을 잘못 한정한다.
 
 ## 출처
 
 - 내부 학습 노트: 헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT).md`
-- 학습 목표: 원문 핵심: * **CC**: 헤파린 투여 5-10일 후 발생하는 혈소판 감소증 (기저 혈소판 수의 50% 이상 감소). 재노출 시에는 즉시 발생 가능. * **P/E**: 새로운 혈전 발생 (동맥 또는 정맥 혈전증), 헤파린 주사 부위 피부 괴사, 전신 증상 (오한, 발열, 빈맥 등).
+- 학습 목표: 면역성 HIT의 전형적 5–10일 발현과 최근 헤파린 노출 시 조기 발현을 안다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 첫 노출의 일반 시기만 고정한 문항을 최근 노출에 따른 빠른 발현과 구별.
+- https://www.hematology.org/-/media/hematology/files/education/clinicians/guidelines-quality/documents/watermarked-pocket-guides/watermark-ash_vte_hit_pocketguide.pdf

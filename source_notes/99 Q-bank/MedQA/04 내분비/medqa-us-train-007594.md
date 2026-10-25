@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 혈청 혈액검사
 ## 해설
 
 
-키가 크고 마른 체형, 고요족 특징, 비대칭 하지와 관절통은 호모시스틴뇨증을 시사한다. 진단을 위해서는 혈청 호모시스테인 측정이 필요하다. 따라서 다음 단계는 혈청 혈액검사이다.
+정답 D. 큰 키·marfanoid 체형과 지적장애, 젊은 나이의 혈전 의심은 homocystinuria를 시사한다. 기저 질환 평가에는 혈장 total homocysteine 등 혈액검사가 필요하다. 다리 비대칭과 급성 흉통·저산소혈증은 DVT/폐색전증을 우려하게 하므로 단순 관절통으로 설명하지 않는다. 기저 대사질환 검사와 별개로 급성 혈전색전증의 신속한 평가를 지연하면 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007594 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 관절통으로 오해한 다리 종창/혈전 위험을 homocystinuria D에 연결; 기저질환 검사가 급성 PE 평가 대체하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.medlineplus.gov/genetics/condition/homocystinuria/
 
 ## 출처
 

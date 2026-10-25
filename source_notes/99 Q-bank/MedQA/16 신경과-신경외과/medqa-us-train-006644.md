@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 측두엽
 
 ## 해설
 
+유창하지만 의미가 맞지 않는 발화와 이해력 저하는 우성반구의 후방 언어 연결망 손상을 시사하며, 보기 중 측두엽(D)이 가장 적합하다. 반복이 보존되면 고전적 Wernicke 실어증보다 초피질감각 실어증 양상을 고려한다. 다만 한 단어 반복만으로 세부 실어증 유형을 확정하지는 않는다. 정상 굴곡성 족저반사는 이러한 언어 병변의 위치를 결정하는 소견이 아니다.
 
-환자는 말이 어눌하고 ‘선풍기’라는 단어만 반복하는 실어증을 보이며, 발바닥 반사에서 엄지 굴곡은 ‘우측 측두엽’ 손상(베르니케 실어증)과 일치한다. 미상핵·쐐기이랑·브로카 영역은 각각 다른 언어·운동 결함을 일으킨다. 따라서 정답은 측두엽이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 유창성·이해저하·반복보존을 대조. 우측 Wernicke 영역 및 정상 족저반사로 국소화한 해설 오류 교정.
 
 ## 출처
 

@@ -19,17 +19,19 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 소변검사
 
 ## 해설
 
+Loop이뇨제 재개 시 BMP A로 K와 신기능을 확인하는 것이 중요하며 digoxin 독성위험과 Mg도 고려한다. 검사 때문에 응급소생을 지연하는 의미는 아니다. 본문 처방은 과거 케이스로 routine morphine이나 비저산소 환자의 산소를 일률 표준으로 권하는 것은 아니다.
 
-심부전 악화 시 이뇨제 투여 전에는 신기능을 확인해야 한다. 신기능 저하가 있으면 약물 선택과 용량을 조절해야 하므로 기본 대사 패널(특히 크레아티닌, BUN) 검사가 필요하다. 따라서 기초 대사 패널을 확인한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: BMP A의 K/Mg·digoxin독성 평가를 보완하고 routine morphine/산소를 현행 표준으로 승인하지 않음.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

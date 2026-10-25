@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 풍진(Rubella)
 
 ## 해설
 
+고열과 짧은 열성경련 후 해열되면서 몸통에서 시작해 퍼지는 발진이 생긴 경과는 돌발진(C)에 부합한다. 본문의 최고 체온은 40.5°C이지 40~50°C 범위가 아니다. 돌발진은 HHV-6/7과 관련된다. 참조 발진 사진은 현재 없지만 본문이 발진의 분포·압박 시 창백 및 발열과의 시간 관계를 기술하므로 그 정보에 한해 정답을 유지하며 실제 사진 소견을 검수했다고 주장하지 않는다.
 
-40~50 °C의 고열 후 급성 발진, 뒤쪽 귀 림프절 비대, 그리고 발진이 부드러운 촉진 시 창백해지는 점은 로제올라(Roseola infantum, HHV‑6/7)와 일치한다. 따라서 가장 가능성 높은 진단은 돌발진이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 40~50°C고열이라는명백한수치오류수정. 해열뒤몸통발진경과로C유지,사진은미검수.
+
 
 ## 출처
 

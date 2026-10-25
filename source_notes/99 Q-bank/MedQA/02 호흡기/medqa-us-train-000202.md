@@ -24,12 +24,14 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 폐 모세혈관 투과성 증가
 
 
 낭성 섬유증 환자에서 급성 호흡곤란과 흉통, 흉부 확대, 한쪽 폐음 감소는 폐의 말단 부위에 발생한 폐첨부 흉막하 낭종(공기 함유) 파열에 의한 기흉을 시사한다. 다른 선택지는 증상과 부합하지 않는다. 따라서 폐첨부 흉막하 낭종이 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: CF에서 갑작스러운 흉막성 통증과 우측 흉곽운동/진동/호흡음 감소는 bleb 파열 기흉. 기전 C가 일치.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

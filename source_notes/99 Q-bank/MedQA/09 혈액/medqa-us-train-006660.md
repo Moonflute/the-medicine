@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 분선충증에 의한 호산구증가
 
 
 호산구 52%로 현저히 증가하고, 심근 제한성 병변·심내 혈전·비장비대·복수가 동반된 전신성 혈관·심장 손상이 관찰된다. 이는 호산구가 조직에 침윤해 염증과 섬유화를 일으키는 과호산구증후군의 특징이다. 따라서 과호산구증후군이 가장 적절한 설명이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006660 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 현저 호산구증가·심내막 섬유화/혈전·전신장기 침범의 과호산구증후군 C를 원문 대조 유지. 이차 원인 배제가 실제 평가에 필요.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

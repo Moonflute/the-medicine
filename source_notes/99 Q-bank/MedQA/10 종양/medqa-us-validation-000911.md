@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,13 @@ D. 알파-1 항트립신 보충요법
 
 
 만성 B형 간염은 간세포암의 주요 위험인자이며, B형 간염 예방접종은 감염을 차단해 간암을 예방한다. 따라서 B형 간염 예방접종이 가장 효과적인 예방책이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000911 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HBV 백신이 HBV 감염 및 그에 따른 HCC의 일부를 예방한다는 B 유지. 모든 HCC 예방 또는 HCV 백신으로 확대하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/
 
 ## 출처
 

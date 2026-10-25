@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,7 +36,7 @@ related_drug_slugs:
 
 ## 문제
 
-9개월 여아가 정기검진을 위해 내원했다. 지난 4~5개월간 중이염이 여러 번 있었고 2개월 전 상기도감염으로 입원했다. 현재는 건강하며 혼자 일어서 걷기 시작했다. 습진과 알레르기비염 병력이 있고 면역결핍 가족력은 없다. 검사에서 IgG만 낮고 IgA, IgE, IgM은 정상이다. 다음 중 가장 가능성 높은 원인은 무엇인가?
+9개월 여아가 정기검진을 위해 내원했다. 지난 4~5개월간 중이염이 여러 번 있었고 2개월 전 상기도감염으로 입원했다. 현재는 건강하며 잡고 몸을 일으켜 서기 시작했다. 습진과 알레르기비염 병력이 있고 면역결핍 가족력은 없다. 검사에서 IgG만 낮고 IgA, IgE, IgM은 정상이다. 다음 중 가장 가능성 높은 원인은 무엇인가?
 
 ## 선택지
 
@@ -46,7 +48,13 @@ D. B세포 분화 실패
 ## 해설
 
 
-IgG만 선택적으로 낮고 다른 면역글로불린은 정상인 경우는 영아기의 일시적 저감, 즉 일과성 저감 면역글로불린증이 가장 흔하다. 이는 정상 IgA·IgM·IgE가 유지되는 특징이다. 따라서 가장 가능성 높은 원인은 정상 면역글로불린의 발현 지연이다.
+모체 IgG가 감소한 영아기에 자체 IgG 생성이 늦어지면 영아기 일과성 저감마글로불린혈증이 의심된다. 다른 면역글로불린이 비교적 보존된 이 사례에서는 C가 가장 적절하다. 영구적인 B세포 분화장애나 ADA 결핍으로 바로 진단하지 않으며, IgG가 이후 정상화되는지 추적해야 일과성인지 확인할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001970 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 발달 문장 오역과 일과성 저감마글로불린혈증 용어·추적 확인 필요성을 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "사용 조절과 기능영향이라는 중요한 질환 정의 유지. 오답 문자 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ AUD는 알코올 섭취 조절 상실이 지속되어 신체·정신·사회 기
 
 ## 오답 포인트
 
-- **B. 알코올 섭취에 대한 내성이 증가하여 동일량으로는 효과가 감소하는 현상:** 내성은 AUD의 한 요소이지만 정의 자체는 아니다.
+- 내성은 평가 항목이지만 내성 하나가 알코올 사용장애의 전체 정의는 아니다. 급성 중독과도 구분한다.
 
 ## 출처
 
 - 내부 학습 노트: 알코올 사용 장애 (Alcohol Use Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/알코올 사용 장애 (Alcohol Use Disorder).md`
-- 학습 목표: 원문 핵심: - 알코올 사용 장애(AUD)는 알코올 섭취에 대한 조절 능력을 상실하고, 이로 인해 신체적, 정신적, 사회적 기능에 부정적인 영향을 미치는 만성 질환임. - 진단: DSM-5 진단 기준에 따라 경도, 중등도, 고도로 분류. - 치료: 동기 강화 상담, 약물 치료, 재활 및 재발 방지 프로그램의 통합적 접근.
+- 학습 목표: AUD의 사용 조절 실패와 기능영향
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 사용 조절과 기능영향이라는 중요한 질환 정의 유지. 오답 문자 제거.

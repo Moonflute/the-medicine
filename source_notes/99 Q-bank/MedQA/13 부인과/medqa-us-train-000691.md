@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 아로마타제 결핍증(Aromatase deficiency)
 
 ## 해설
 
+태아기 외성기 남성화와 임신 중 산모의 남성화, 유방 발달 부재, 큰 키·취약골절과 낭성 난소는 아로마타제 결핍(D)에 부합한다. 안드로겐을 에스트로겐으로 전환하지 못해 안드로겐이 축적되고 에스트로겐 부족으로 골 성숙·골량과 사춘기 발달에 문제가 생긴다. 본문에 측정되지 않은 ‘고키톤’ 소견을 추가하지 않는다.
 
-선천성 음순 유합·음핵 비대·여드름·고키톤 혈중 안드로겐 과다와 난소 낭종은 에스트로겐 합성 결핍(아로마타제 결핍)에서 나타난다. 다른 선택지는 호르몬 패턴이나 임상 양상이 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 무의미한고키톤표현제거. 모체/태아남성화·유방미발달·골취약의아로마타제결핍D기전.
+
 
 ## 출처
 

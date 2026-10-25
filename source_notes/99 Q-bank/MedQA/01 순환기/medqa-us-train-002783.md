@@ -21,17 +21,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRlbm9sb2wubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 프로카인아미드 투여
 
 ## 해설
 
+서술된 리듬은 규칙적이고 넓은 단형 QRS 빈맥이므로 불규칙한 pre-excited AF로 부르면 안 된다. WPW 관련 antidromic AVRT 등 부전도로를 이용한 빈맥을 의심할 수 있으며, 안정적인 넓은 QRS 빈맥에서 선택지 중 procainamide D가 적절하다. AV nodal blocker인 verapamil·atenolol은 진단 불확실한 pre-excited 빈맥에서 피한다. 실제 기전 확정에는 누락된 이전 ECG 및 전체 리듬 기록이 필요하다.
 
-전도성 심방세동에서 넓은 QRS와 빠른 심박수는 WPW 증후군을 의미한다. 프로카인아미드는 전도 차단을 통해 전도 경로를 억제한다. 따라서 프로카인아미드 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 본문은 규칙적 넓은 단형 빈맥인데 해설이 AF로 오연결. 안정적 preexcitation 의심 wide tachycardia의 procainamide D 취지로 수정.
+- https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Supraventricular-Tachycardia
 
 ## 출처
 

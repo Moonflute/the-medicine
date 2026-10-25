@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,11 @@ D. 체중 증가와 모발 색 변화
 
 
 소아 결신발작 1차 치료제는 에토숙시미드이며, 가장 흔한 부작용은 위장관 불편감(구역, 구토, 복통)이다. 따라서 부모에게 알려야 할 주요 부작용은 위장관 불편이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정상발달의 멍함/3Hz 극서파는 결신발작이고 ethosuximide의 흔한 위장관 부작용 B 적절. EEG 소견이 본문에 명시되어 별도 이미지 없어도 판단 가능.
+- 공식/학회 근거: https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/080258Orig1s031.pdf
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 바늘 감압술
 
 ## 해설
 
+외상 후 일측 호흡음 감소·과공명, 저산소혈증·저혈압 및 경정맥 팽창은 긴장성기흉을 강하게 시사한다. 영상검사를 기다리지 않는 즉각 감압이 필요하며 선지 중 바늘 감압(D)이 해당한다. 이후 흉관 등 확실한 흉강 배액으로 연결한다. 숙련도·환경에 따라 finger/open thoracostomy를 사용할 수 있으며 emergency thoracotomy와는 다른 시술이다.
 
-왼쪽 흉부에 호흡음 감소와 타진 시 과공명음이 나타난 것은 공기 축적을 의미하며, 경정맥 팽창과 저혈압은 텐션성 기흉을 시사한다. 텐션성 기흉은 즉시 흉강 내 압력을 감소시켜야 하므로 바늘 감압술이 가장 빠른 치료법이다. 다른 선택지는 영상 확인이나 수술이 필요하지만, 응급 상황에서는 바늘 감압이 우선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 불안정 긴장성기흉 D를 유지하되 needle을 항상 최종·유일 치료처럼 설명하지 않는다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. 올-트랜스 레티노산(All-trans retinoic acid)
 ## 해설
 
 
-만성 골수성 백혈병(CML) 진단 후 표준 치료는 표적 치료 전 세포유전학적 검사를 통해 BCR‑ABL 전위 여부를 확인하는 것이 필요하다.
+백혈구증가와 다양한 성숙 단계의 과립구, 호염기구증가·혈소판증가·비장비대는 CML을 의심하게 한다. 세포유전학적 검사(C)로 Philadelphia 염색체 t(9;22) 등과 동반 이상을 평가하고 BCR::ABL1 융합을 RT-PCR/FISH 등으로 확인한다. 임상상과 과형성 골수만으로 확진한 뒤 치료하는 순서가 아니다. Cytarabine/daunorubicin이나 ATRA를 이 소견만으로 곧바로 시작하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000457 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CML이 이미 확진됐다는 표현을 BCR::ABL1 확인을 위한 진단검사로 수정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12310532/
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -44,7 +46,14 @@ D. 추가 조치는 필요하지 않다
 ## 해설
 
 
-깨끗한 열상은 파열 위험이 없으며, 환아는 예방접종 기록이 불확실하다. 파상풍 예방을 위해 Tdap(파상풍·디프테리아·백일해)만을 추가 투여하면 된다. 다른 항생제나 추가 조치는 필요하지 않다.
+깨끗하고 작은 열상이지만 파상풍 기초접종력이 불명확하므로 연령에 맞는 Tdap(C)을 투여한다. 14세에게 영유아용 DTaP를 사용하지 않는다. 깨끗한 경미한 상처에는 TIG가 필요하지 않고 파상풍 예방 목적의 항생제도 권장되지 않는다. 다만 Tdap 1회로 미완료 기초접종이 모두 완성되는 것은 아니므로 기록 확인 후 필요한 후속 catch-up 접종을 계획한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000515 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 깨끗한 상처에 파열 위험이 없다는 무관한 설명을 제거하고 Tdap 1회 뒤 추가 접종계획 필요성을 명시했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html
 
 ## 출처
 

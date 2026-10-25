@@ -18,17 +18,19 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUGl0YXZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
   - ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 심낭의 섬유화성 비후
 
 ## 해설
 
+흡기·누운 자세에서 악화되는 날카로운 흉통, 심낭 마찰음과 여러 유도에 걸친 ST 상승은 급성 심낭염을 지지한다. 최근 흉부 방사선치료 뒤 발생한 급성 염증에서 보기 중 B, 심낭의 호중구 침윤이 합당하다. 섬유화성 심낭 비후나 관상동맥 섬유화는 이런 급성 경과보다 만성·지연성 방사선 손상과 더 관련된다.
 
-가슴통증, 흉막 마찰음, ST 상승은 급성 심낭염을 나타낸다. 방사선 치료 후 심낭에 호중구가 침윤해 염증이 발생할 수 있다. 따라서 방사선에 의한 심낭의 호중구 침윤이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 B 유지. 심장 진찰의 마찰음을 흉막 마찰음으로 잘못 쓴 부분을 심낭 마찰음으로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 일반 분유로 모유수유 보충
 
 ## 해설
 
+출생체중 대비 감소는 약 6%이고 소변·변 횟수 및 수유 상태가 양호하여 보기 중 현재 모유수유 지속(A)이 적절하다. 체중과 섭취 상태를 추적하되 일률적인 분유 보충은 필요하지 않다. 유방이 완전히 비워져야 하는 것은 아니며 남은 젖을 매번 추가 유축하면 과다 분비를 유발할 수 있어 수유 요구에 맞춰 조정한다.
 
-신생아가 체중 감소가 정상 범위(10% 이내)이며 충분히 수유되고 있다면 모유수유 방식을 지속하는 것이 가장 적절하다. 추가 조치는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 추가 보충 불필요 판단과 매번 유방을 비우려 유축하는 행동의 권장을 구별.
+- https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf
 
 ## 출처
 

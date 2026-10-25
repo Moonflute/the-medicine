@@ -20,11 +20,11 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -38,6 +38,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRXJ0YXBlbmVtLm1k
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
   - ZHJ1ZzoxMCDsooXslpEvT3hhbGlwbGF0aW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -55,8 +57,14 @@ D. 세페핌과 레보플록사신
 
 ## 해설
 
+정답은 D이다. 저혈압·저산소혈증을 동반한 중증 폐렴이며 COPD, 반복 항생제 치료와 항암치료 병력이 있고 그람음성 막대균이 관찰되었다. 제시된 선택지에서는 녹농균까지 포괄하는 cefepime과 levofloxacin 조합이 의도된 경험적 치료이다. 병원에 온 시점의 폐렴을 단순히 병원획득폐렴이라고 부르지 않는다. 실제 항녹농균 치료 필요성은 과거 균 분리·최근 입원/정맥 항생제·지역 위험요인으로 평가하고 배양 결과에 따라 축소해야 하며, 녹색 객담만으로 녹농균을 확진하지 않는다.
 
-중증 호흡부전과 그람음성 막대균이 확인된 병원획득 폐렴에서는 광범위한 베타-락탐제와 플루오로퀴놀론을 포함한 조합이 필요하다. 세페핌과 레보플록사신은 그람음성균에 대한 적절한 경험적 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 입원 후 발생 자료가 없는 사례를 병원획득폐렴으로 단정한 오류 제거; 중증 폐렴과 항녹농균 범위의 문항 맥락 설명.
+- https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults
 
 ## 출처
 

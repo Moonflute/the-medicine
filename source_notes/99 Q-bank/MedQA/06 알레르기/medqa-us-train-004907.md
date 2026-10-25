@@ -17,13 +17,17 @@ related_diseases:
 related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
-answer: D
+answer: A
+original_answer: D
+answer_change_reason: "무의식·구토물 노출 직후 천명은 흡인을 지지하며 환경항원 노출 단서가 없다. 정상 초기 흉부사진으로 흡인을 배제한 원정답 D를 A로 변경. 임상 추론과 BTS 근거를 기록."
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +48,14 @@ D. 환경 항원에 의한 기도 과민반응
 ## 해설
 
 
-환자는 급성 중독 후 천명음과 호흡곤란을 보이며 AST/ALT 상승이 있다. 환경 항원(예: 흡입)으로 인한 기관지 과민반응이 천명을 일으키는 주요 메커니즘이다. 따라서 환경 항원에 의한 기도 과민반응이 가장 적절한 설명이다.
+급성 중독으로 의식을 잃고 구토물에 뒤덮여 발견된 점은 위 내용물 흡인의 강한 단서이다. 흡인에 의한 기도 자극·기관지경련은 천명으로 나타날 수 있으며 초기 흉부사진이 정상이라고 흡인을 배제할 수 없다. 특정 환경항원 노출이나 천식 병력이 제시되지 않아 D보다 흡인 사건(A)이 타당하다. 이는 제시된 임상 정보에 대한 검수 판단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-004907`와 직접 대조했다.
+- 판정: 무의식·구토물 노출 직후 천명은 흡인을 지지하며 환경항원 노출 단서가 없다. 정상 초기 흉부사진으로 흡인을 배제한 원정답 D를 A로 변경. 임상 추론과 BTS 근거를 기록.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://thorax.bmj.com/content/78/Suppl_1/s3
 
 ## 출처
 

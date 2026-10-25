@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 척수성 근위축증
 
 ## 해설
 
+Becker 근디스트로피는 부분 기능을 가진 디스트로핀의 감소 또는 구조 이상과 관련된다. Duchenne에서는 보통 기능적 디스트로핀이 거의 없다. CK 증가·Gowers 징후·종아리 가성비대는 디스트로핀병을 시사하며 보기 중 A가 부합하지만, CK나 Gowers 징후만으로 Becker와 Duchenne를 구별하지 않는다.
 
-근육 비대·상지 사용·CK 상승·디스트로핀 결함은 베커 근이영양증(디스트로핀 결핍형)과 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Becker와 Duchenne를 구별하지 못하는 단순 디스트로핀 결핍 표현을 보정.
+
 
 ## 출처
 

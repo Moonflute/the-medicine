@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 9번 염색체의 삼핵산(GAA) 반복 확장
 
 ## 해설
 
+소아기에 진행하는 보행실조·구음장애와 대칭적 하지 위약·감각저하의 조합은 프리드라이히 운동실조증을 시사한다. 가장 흔한 원인은 9번 염색체 FXN 유전자의 GAA 반복 확장(D)이다. 상염색체열성 유전이므로 가족력이 없어도 가능하다. 문항은 신체진찰 사진을 언급했을 뿐 MRI를 제시하지 않았으며, 보지 못한 영상의 뇌 변화를 근거로 삼지 않는다.
 
-보행 불안정, 광범위 근력 저하, 감각 저하와 함께 MRI에서 특이적인 뇌변화가 보이면 프리드리히 운동실조증이 의심된다. 이 질환은 9번 염색체에 GAA 삼핵산 반복이 확대된 것이 원인이다. 따라서 9번 염색체 GAA 반복 확대가 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 신체 사진 A·B를 MRI 소견으로 만들어낸 설명을 제거한다. 소아 진행성 실조·구음장애·감각저하와 제시된 유전 선지상 Friedreich D는 본문으로 판단 가능하다.
 
 ## 출처
 

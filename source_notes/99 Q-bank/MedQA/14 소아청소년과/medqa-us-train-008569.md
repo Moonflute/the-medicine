@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 품행장애
 
 ## 해설
 
+직접 음성 지시에 반응하지 못하고 발음·언어가 지연되나 눈맞춤·사회적 관심이 보존된 것은 청각 장애(B)를 시사한다. 청력 평가가 필요하다. 선택적 함구증은 특정 상황에서 말하기 어려운 불안 관련 상태이지 아이가 일부러 말을 거부하는 것으로 단정할 수 없다.
 
-아이의 반응이 없고, 언어 발달이 지연되었으며, 소리와 말에 대한 반응이 부족한 점은 청력 손실을 시사한다. 청력 검사는 진단에 필수이며, 선택적 함구증은 의도적 말 억제, 학습장애는 인지·학습 문제, 품행장애는 행동 위반이 주된 특징이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 선택적 함구증을 의도적 말 억제로 설명한 오류 교정.
+
 
 ## 출처
 

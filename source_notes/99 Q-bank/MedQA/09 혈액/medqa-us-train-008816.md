@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 흉부 X선의 양측 폐 침윤
 ## 해설
 
 
-레보도파와 함께 투여된 카르비도파는 레보도파의 말단 대사를 차단해 중추에서 도파민 전구체 농도를 증가시킨다. 이는 파킨슨병 치료에서 두 번째 약물로 사용된다. 따라서 카르비도파는 DOPA 탈탄산효소 억제제이다.
+수혈 직후 발열, 저혈압, 옆구리 통증과 갈색뇨는 급성 용혈성 수혈반응을 강하게 시사한다. 면역성 용혈이면 적혈구에 결합한 항체 또는 보체를 검출하는 직접 항글로불린검사(DAT)가 양성일 수 있어 C가 적절하다. 반복 수혈에 따른 동종면역이나 ABO 부적합 등을 평가해야 한다. 산소포화도가 보존되고 용혈 소견이 있는 상황은 주로 저산소성 폐부종을 보이는 TRALI와 다르다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008816 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수혈 직후 발열·저혈압·옆구리 통증·갈색뇨의 급성 면역용혈에서 DAT C의 의도 유지. 전혀 다른 carbidopa/파킨슨병 해설을 해당 수혈반응 기전으로 교체.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

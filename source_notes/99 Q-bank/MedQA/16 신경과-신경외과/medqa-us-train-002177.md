@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 아미트립틸린
 
 ## 해설
 
+반복되는 일측성 중증 두통과 광선·소리 회피, 구토는 편두통을 시사한다. 발작이 생활에 미치는 영향과 환자 선호에 따라 예방치료를 논의할 수 있으며, 주어진 선지 중 삼환계 항우울제 아미트립틸린(D)이 적절한 예방약이다. 수마트립탄은 급성기 약이고 가바펜틴은 편두통 예방에 권장되지 않는다. 아미트립틸린은 체중 증가·진정 등 부작용을 고려하여 선택해야 하며 비만 환자에게 무조건 최선이라는 뜻은 아니다. 피임약 복용만으로 예방약 선택이 결정되지는 않는다.
 
-에스트로겐 함유 경구피임제는 편두통 악화를 유발할 수 있다. 예방적으로 삼두계 항우울제인 아미트립틸린이 선택된다. 따라서 아미트립틸린이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 아미트립틸린의 약물 분류 오기와 피임약만으로 예방약을 정하는 설명을 교정했다. 예방치료의 개별 이득·부작용을 고려하면서 선지 D를 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

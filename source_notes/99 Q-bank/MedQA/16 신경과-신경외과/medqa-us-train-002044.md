@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 요추천자
 
 ## 해설
 
+휴식·야간에 심해지고 움직이면 완화되는 다리 불쾌감과 움직이고 싶은 충동은 하지불안증후군을 시사한다. 철결핍 및 철결핍빈혈과 연관되므로 주어진 선지 중 CBC(A)에서 빈혈이 발견될 수 있다. CBC가 혈청 철을 직접 측정하는 검사는 아니며 정상 CBC도 철결핍을 배제하지 않는다. 실제 평가에서는 혈청 페리틴과 트랜스페린 포화도를 확인한다. HbA1c·간기능·요추천자는 이 임상양상에서 우선적으로 이상을 예상하는 검사가 아니다.
 
-불안정 다리 증후군은 철 결핍성 빈혈과 연관이 높으며, 전혈구검사에서 빈혈이나 저철혈증이 발견될 수 있다. 다른 검사들은 직접적인 연관이 적다. 따라서 가장 이상할 가능성이 높은 검사 결과는 전혈구검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 하지불안증후군에서 CBC로 저철혈증을 직접 검출한다는 오류를 교정했다. 선지 A는 동반 철결핍빈혈을 찾는 검사지만 실제 철 평가는 페리틴·트랜스페린 포화도가 필요하다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/
 
 ## 출처
 

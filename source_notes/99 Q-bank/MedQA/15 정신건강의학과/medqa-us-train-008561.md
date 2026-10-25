@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,17 @@ D. 리튬 치료
 
 ## 해설
 
-
-임신 중에 치료 저항성 조현증 환자는 클로자핀이 유일하게 임신 안전성이 입증된 약물이며, 다른 항정신병제는 태아 기형 위험이 있다. 따라서 클로자핀 치료가 가장 적절하다. 전기경련요법은 급성 상황에만 사용되며, 클로미프라민·리튬은 기형 위험이 높다.
+적정 항정신병약 치료에도 정신병적 증상이 지속된다면 진단·용량·기간·복약을 확인한 뒤 치료저항성에 대한 클로자핀을 고려할 수 있어 제시된 원문 선택은 클로자핀이다. 그러나 임신 중 유일하게 안전성이 입증된 약이라는 주장은 잘못이며, 모체·태아 위험과 대안, 혈액·대사 모니터링을 전문적으로 평가해야 한다. 전기경련치료도 임신 중 필요한 상황에서 고려할 수 있고 급성 상황에만 한정된 치료가 아니다. 임신 여부 하나로 모든 다른 치료를 배제하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008561
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 클로자핀만 임신 안전성이 입증됐다는 허위 주장과 ECT는 급성 상황에만 사용된다는 오류 교정. 치료저항성 확인 후 클로자핀 고려로 원정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/Guidance/CG178/chapter/recommendations
+- https://www.nice.org.uk/guidance/cg192/chapter/Recommendations

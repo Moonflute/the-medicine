@@ -19,17 +19,19 @@ question_type: adverse_effect
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 폐쇄각 녹내장
 
 ## 해설
 
+장기간 amiodarone의 중요한 독성 중 선택지 C의 만성 간질성 폐렴이 있다. 이는 선택지 중 인정되는 이상반응이지 모든 amiodarone 이상반응 가운데 가장 흔하다는 뜻은 아니다. Amiodarone은 QT를 단축시키는 약으로 설명하지 않는다.
 
-아미오다론은 장기간 사용 시 만성 간질성 폐렴이 가장 흔한 부작용이다. 간세포 선종·QT 간격 단축·녹내장은 드물다. 따라서 C가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Amiodarone의 간질성 폐렴 C를 전체 이상반응 중 최다라는 과장 없이 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

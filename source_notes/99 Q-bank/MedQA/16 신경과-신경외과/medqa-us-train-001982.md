@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. Nortriptyline
 
 ## 해설
 
+당뇨를 배경으로 한 대칭원위 감각저하·반사감소와 작열통은 통증성말초신경병을 시사한다. 선지중 노르트립틸린(D) 같은TCA는 근거가 있는 선택이다. SNRI/가바펜티노이드 등 다른초기약제도 있고 오피오이드(트라마돌포함)는 통상선택하지 않는다. TCA의 항콜린·기립저혈압·심장전도/낙상위험을 평가하며 혈당조절과 B12결핍 등 다른신경병원인도 확인한다.
 
-당뇨병성 말초신경병증의 신경병성 통증은 삼환계 항우울제인 노르트립틸린이 1차 선택이며, 다른 옵션은 통증 조절에 효과가 떨어진다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Nortriptyline의 보편적우월성 표현을 선지내적절성/안전성으로 수정. D 유지.
+- 공식/학회 근거: https://diabetesjournals.org/care/article-lookup/doi/10.2337/dc26-S012
 
 ## 출처
 

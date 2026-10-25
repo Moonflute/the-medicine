@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 상처 감염
 
 
 수술 직후 발열은 조직 손상에 대한 염증성 사이토카인 방출이 원인인 경우가 많다. 따라서 가장 가능성 높은 원인은 수술에 의한 염증 자극이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007971 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수술1일째 국소 감염 근거 없는 발열에서 수술 조직손상에 따른 염증자극 B가 가장 가능성 높다. 무기폐가 발열 원인이라는 오해로 바꾸지 않았고 실제 감염 가능성을 영구 배제한 검수는 아니다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

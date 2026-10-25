@@ -20,20 +20,22 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-28세 남성이 흉통으로 응급실에 왔다. 한 시간 전 집 계단을 오르다 갑자기 극심한 흉통이 생겼고 찢어지는 듯하며 등으로 방사되었다. 추적 관찰 중인 심잡음 과거력이 있고 약물은 복용하지 않는다. 체온 99.4°F(37.4°F), 혈압 94/56 mmHg, 맥박 121회/분, 호흡 14회/분이었다. 중등도 고통스러워 보였고 키가 크며 관절 과운동성이 있었다. 양측 호흡음은 정상이고 말초 맥박은 약했다. 다음 중 가장 가능성 높은 소견은?
+28세 남성이 흉통으로 응급실에 왔다. 한 시간 전 집 계단을 오르다 갑자기 극심한 흉통이 생겼고 찢어지는 듯하며 등으로 방사되었다. 추적 관찰 중인 심잡음 과거력이 있고 약물은 복용하지 않는다. 체온 99.4°F(37.4°C), 혈압 94/56 mmHg, 맥박 121회/분, 호흡 14회/분이었다. 중등도 고통스러워 보였고 키가 크며 관절 과운동성이 있었다. 양측 호흡음은 정상이고 말초 맥박은 약했다. 다음 중 가장 가능성 높은 소견은?
 
 ## 선택지
 
@@ -44,8 +46,14 @@ D. 오른쪽 제2늑간의 수축기 박출성 잡음
 
 ## 해설
 
+정답은 B이다. 키가 크고 관절 과운동성이 있는 젊은 환자의 찢어지는 흉통·등 방사·저혈압은 Marfan 증후군 관련 대동맥 박리를 우려하게 한다. Marfan에서는 승모판 탈출증도 동반될 수 있고, 그 소견이 심첨부 중간수축기 클릭과 후기 수축기 잡음인 B이다. 이 잡음 자체가 대동맥 박리의 전형적 청진 소견은 아니다. 박리로 대동맥판 역류가 생기면 이완기 잡음이 들릴 수 있으며 본 사례의 급성 증상과 기존 판막 이상을 구별한다.
 
-갑작스러운 흉통, 저혈압, 빈맥, 고음성 후기 수축기 잡음과 중간수축기 클릭은 대동맥 박리의 전형적인 청진소견이다. 마르팡 증후군(결합조직 이상) 환자는 대동맥 박리 위험이 높다. 따라서 심첨부의 후기 수축기 크레센도 잡음과 중간수축기 클릭이 가장 가능성 높은 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: MVP의 클릭/후기수축기잡음을 대동맥 박리의 전형적 잡음이라고 한 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

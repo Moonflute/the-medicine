@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 간헐적 도뇨의 불충분
 
 ## 해설
 
+분만 직후, 장시간 진통·경막외 진통 병력, 팽만된 복부와 요의 없이 간헐적으로 새는 소변은 방광 배출 장애와 과팽창에 의한 일류성 요실금을 시사한다. 선택지 D는 방광이 충분히 비워지지 않았다는 출제 의도를 나타낸다. 다만 본문은 실제 간헐적 도뇨를 시행했다고 명시하지 않으므로 이미 시행한 도뇨가 실패했다는 사실을 창작하지 않는다. 기침·재채기로 악화되는 복압성 요실금과 구분된다.
 
-산후에 간헐적 도뇨를 시행했지만 방광이 충분히 비워지지 않아 방광 과팽창이 발생한다. 과팽창된 방광은 요압이 상승해 요실금이 간헐적으로 나타난다. 따라서 가장 가능성 높은 원인은 간헐적 도뇨의 불충분이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문에 없는 도뇨 시행 사실을 만들어 낸 해설을 제거하고 산후 요정체에 의한 일류성 요실금과 선택지의 관계를 명확히 했다.
+
 
 ## 출처
 

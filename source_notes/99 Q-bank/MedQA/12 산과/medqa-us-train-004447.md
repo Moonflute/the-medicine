@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 안심시키고 기대요법
 
 ## 해설
 
+태아 호흡과 반응성 NST는 각 2점이지만 양수 DVP 1 cm, 30분간 몸 움직임 1회, 정상 긴장 운동 미관찰은 비정상 항목으로 BPP 4/10에 해당한다는 출제 의도이다. 이는 태아 저산소증 우려로 분만(C)을 고려할 상황이지 조산을 예방하기 위한 분만이 아니다. 실제 긴장도는 신전 뒤 굴곡 복귀 등으로 판정하며 주수·반복 평가·경부 상태에 따라 분만 방식을 정한다.
 
-양수과소증(양수 깊이 1 cm)과 태아 움직임 감소는 태아 스트레스와 조산 위험을 의미한다. 전신홍반루푸스 환자에서 이러한 소견은 조산을 예방하기 위해 분만 유도가 권장된다. 따라서 관리 단계는 분만 유도이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 분만 유도의 이유는 조산 예방이 아니라 비정상 BPP·양수과소증임.
+- https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 근치적 자궁경부절제술을 시행한다
 
 ## 해설
 
+생검에서 기질침윤2mm가 확인되어 침윤 범위·절제연·림프혈관침범을 평가할 진단적 원추절제(A)를 전문 부인종양팀에서 고려한다. 보이는 병변2cm가 모두침윤암이라는 뜻도, 원추절제가 항상 완치한다는 뜻도 아니다. 임신 중에는 출혈·유산/조산 위험과 치료시기를 개별 상담한다.
 
-임신 중에 미세침습성 자궁경부암(2 cm, 깊이 2 mm) 진단 시, 임산부와 태아를 보존하면서 종양을 완전히 제거할 수 있는 원추절제술이 권장된다. 따라서 적절한 관리 전략은 진단적 원추절제술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 생검깊이만으로 완전절제·병기를 확정한 해설 교정.
+- https://www.asccp.org/wp-content/uploads/2025/09/ASCCP_Management-of-Abnormal-Cervical-Cancer-Screening-Tests-in-Pregnancy.pdf
 
 ## 출처
 

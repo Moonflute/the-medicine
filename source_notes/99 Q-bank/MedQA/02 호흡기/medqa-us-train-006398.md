@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 조영제를 사용한 흉부 CT
 
 ## 해설
 
+급성호흡곤란·기침에서 CXR C로 폐렴·기흉·울혈 등 대안을 평가한다. 본문에서 정상인 것은 CBC/CMP와D-dimer이지 동맥혈가스가 아니다. PE배제에 D-dimer를 이용할지는 임상 사전확률도 고려하며 고위험 환자에서 정상값 하나로 배제하지 않는다.
 
-급성 호흡곤란과 경미한 양쪽 폐 잡음은 폐렴을 의심하게 하지만, 환자는 혈액 가스와 대사 검사가 정상이며 흉부 청진 외에 특이 소견이 없다. 폐렴을 배제하기 위해 가장 먼저 시행해야 할 영상 검사는 흉부 방사선 촬영이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 미시행 혈액가스가 정상이라고 만든 해설을 제거하고 급성호흡곤란 CXR C로 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

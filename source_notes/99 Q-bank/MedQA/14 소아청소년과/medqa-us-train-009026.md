@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 손에서 손으로 물건 옮기기
 
 ## 해설
 
+전통적 발달 표에서 엎드린 자세에서 바로 눕는 뒤집기는 약 4–6개월 사이 나타날 수 있어 보기 중 B가 가장 가깝다. 집게 잡기와 손 사이 물건 전달은 더 늦게 발달한다. 모든 4개월 영아가 의도적으로 뒤집어야 한다는 뜻은 아니며 현행 CDC에서는 배에서 등으로 뒤집기를 6개월 이정표로 제시한다.
 
-생후 4개월 영아는 의도적으로 뒤집어(복부에서 등을) 할 수 있는 시기로, 이는 대근육 발달의 중요한 이정표이다. 다른 선택지는 이 연령에 아직 나타나지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 뒤집기 발생 연령의 변이를 명확화하고 4개월 미달을 곧 지연으로 만들지 않음.
+- https://www.cdc.gov/act-early/milestones/6-months.html
 
 ## 출처
 

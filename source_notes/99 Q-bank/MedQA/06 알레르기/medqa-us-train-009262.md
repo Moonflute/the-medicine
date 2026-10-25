@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 디클록사실린 치료
 ## 해설
 
 
-광범위한 화농성 봉와직염은 MRSA에 의해 발생할 수 있으며, 초기 경험적 치료는 반코마이신이 가장 효과적이다. 따라서 정답은 반코마이신 치료인 C이다.
+화농성 배액에 발열과 빈맥이 동반되어 MRSA를 포함한 중증 피부연조직감염에 대한 경험적 치료가 필요하다. 선택지 중 반코마이신(C)이 적절하다. 파동이 없어 배농할 농양이 명확하지 않으며, 모든 봉와직염에 반코마이신이 필요한 것은 아니다. 배양과 임상 경과에 따라 좁은 범위로 조정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-009262`와 직접 대조했다.
+- 판정: 화농성 감염과 발열·빈맥에서 MRSA 포함 경험적 치료 C 적절. 반코마이신이 모든 봉와직염의 최선이라는 일반화 제거. 불일치 플래그는 오연결 아님.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 세프트리악손 단독요법과 관절흡인
 ## 해설
 
 
-그람음성 쌍구균 감염성 관절염은 세프트리악손 단독 요법과 관절흡인이 표준 치료이다. 따라서 선택 치료는 세프트리악손 단독요법과 관절흡인이다.
+임균성 관절염은 선택지 D의 ceftriaxone과 관절 배액/흡인이 기본이다. 다만 chlamydia가 배제되지 않았다면 doxycycline 등 적절한 동반 치료를 추가하고 노출 부위 검사·성파트너 관리·다른 STI/HIV 평가를 시행한다. D의 단독이라는 말이 이 동반감염 평가를 생략한다는 뜻은 아니다. 배양·감수성 및 임상 반응에 따라 치료를 조정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007606 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 임균 관절염의 ceftriaxone/배액 D 유지; chlamydia 미배제 시 추가 치료 필요성 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm
 
 ## 출처
 

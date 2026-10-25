@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,10 @@ D. 베르니케 뇌병증
 
 
 만성 알코올 섭취와 영양 결핍은 소뇌 위축을 일으켜 보행 불안정, 손 떨림, 빠른 교대운동 장애를 초래한다. 환자의 장기간 음주와 운동 실조 소견이 소뇌 변성을 가장 시사한다. 코르사코프 증후군은 기억 상실, 메탄올 중독은 시각 장애와 대사산성, 베르니케는 혼동과 안구운동 이상을 보인다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 만성 과음·보행 및 사지 소뇌성 실조·보존된 감각/정신상태는 알코올 관련 소뇌변성 C를 지지. 비타민결핍 동반 가능성을 배제하는 문항은 아님.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 단순 복부 방사선촬영
 
 ## 해설
 
+혈중 납 72 μg/dL에 복통·변비, 소구성 빈혈과 손목처짐이 있어 중증 납 노출을 의심한다. ATSDR 지침은 소아에서 70 μg/dL 초과 또는 뇌병증이 있으면 입원하여 디메르카프롤과 칼슘 디나트륨 EDTA(C)를 사용하는 치료를 제시한다. 현재 신기능 저하도 있어 독성학 전문의와 킬레이트제 선택·수분 상태·신장 기능을 면밀히 평가해야 한다. WHO는 고농도 소아에서 반복 신경학적 평가와 개별화된 킬레이트 치료를 강조하므로 단순 수치만으로 모든 조건에서 한 조합이 유일하게 최효과라고 일반화하지 않는다. 노출원 제거와 재노출 방지도 필수이다.
 
-중증 납중독에서는 혈청 납 농도 >70 µg/dL와 빈혈, 신장 기능 저하가 동반되며, 디메르카프롤과 EDTA 병용 킬레이트가 가장 효과적인 치료법이다. 따라서 두 약물 병용 킬레이트가 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 혈중 납 72 μg/dL인 소아의 입원·전문 킬레이트 치료 C를 확인하되 혈청 납 표현과 일률적 최효과 단정을 교정하고 신기능 감시를 명시한다.
+- 공식/학회 근거: https://wwwn.cdc.gov/tsp/MMG/MMGDetails.aspx?mmgid=1203&toxid=22
+- 공식/학회 근거: https://www.ncbi.nlm.nih.gov/books/NBK575289/?report=reader
 
 ## 출처
 

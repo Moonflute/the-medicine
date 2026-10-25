@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 모유 수유에 일반 분유를 보충한다
 
 ## 해설
 
+생후 15일에도 출생체중에 도달하지 않았고 수유 후 유방이 비워지지 않는 느낌이 있어, 수유 장면을 직접 관찰해 자세·젖물림·삼킴과 모유 전달을 평가하는 A가 가장 적합하다. 체중 변화, 수분 상태와 배뇨·배변도 함께 확인하고 가까운 시일 내 체중을 재평가한다. 엄마 식단 변경이나 분유 보충을 일률적으로 시작하기 전에 실제 섭취 문제를 확인하되, 탈수·질환 또는 불충분 섭취가 확인되면 추가 검사와 보충 계획을 지체하지 않는다. 단순히 ‘대부분 추가검사가 필요 없다’고 안심시키는 해설은 적절하지 않다.
 
-수유 자세와 젖물림을 직접 관찰하면 모유 공급량과 아기의 흡입 효율을 평가할 수 있다. 대부분의 경우 추가 검사는 필요하지 않다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 수유 관찰 A 유지하되 생후15일 출생체중 미회복과 섭취평가 필요를 명시. 대부분 추가평가 불필요라는 무조건적 안심 제거.
+- https://www.healthychildren.org/English/ages-stages/baby/Pages/First-Month-Physical-Appearance-and-Growth.aspx
 
 ## 출처
 

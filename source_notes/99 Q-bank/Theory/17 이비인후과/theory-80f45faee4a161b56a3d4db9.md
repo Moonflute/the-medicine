@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "돌발 감각신경성 난청의 시간·연속 주파수·역치 개념은 응급 인지에 중요한 기초."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 1개월 이내 전체 주파수에서 10dB 이상 청력 손실
 
 ## 오답 포인트
 
-- **B. 1주 이내 1개 주파수에서 20dB 이상 청력 손실:** 1주 이내 1개 주파수 20dB는 정의에 포함되지 않는다.
+- **1주 이내 1개 주파수에서 20dB 이상 청력 손실:** 1주 이내 1개 주파수 20dB는 정의에 포함되지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 돌발성 난청 (Sudden sensorineural hearing loss)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/돌발성 난청 (Sudden sensorineural hearing loss).md`
-- 학습 목표: 원문 핵심: - **순음 청력 검사 (PTA)**: 진단 기준 (3일 이내 3개 연속 주파수에서 30dB 이상 손실) - **영상 검사**: 뇌 MRI (내이도 포함) - 후와우성 병변(종양 등) 배제 목적 - **기타**: 필요시 혈액 검사(자가면역/혈관염 평가), 청성뇌간반응검사(ABR)
+- 학습 목표: 돌발 감각신경성 난청의 정의
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 돌발 감각신경성 난청의 시간·연속 주파수·역치 개념은 응급 인지에 중요한 기초.

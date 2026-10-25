@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 신세포암
 
 ## 해설
 
+혈뇨에 두통·시야흐림·얼굴 홍조가 동반되어 EPO 관련 적혈구증가증 같은 부종양 현상을 고려하게 하는 출제 맥락이다. 신세포암 D는 비만·흡연·고혈압과 연관되어 이 조합에 가장 적절하다. 다만 Hb/Hct가 제시되지 않아 적혈구증가증이 실제 확인되었다고 할 수는 없다. RCC가 모든 비뇨기계 악성종양 가운데 가장 흔하다는 설명은 틀리며, 무통성 혈뇨에서는 방광암 등도 실제 감별해야 한다.
 
-흡연과 고혈압, 혈뇨·혈압 상승은 신세포암을 강하게 시사한다. 신세포암은 비뇨기계 악성 종양 중 가장 흔하며, 혈뇨와 연관된다. 신장결석·이행세포 방광암·호산성 종양은 특징이 다르다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. RCC를 모든 비뇨기 악성종양 중 최다로 잘못 설명한 오류와 본문에 없는 적혈구증가증 확정 주장을 피하도록 교정.
 
 ## 출처
 

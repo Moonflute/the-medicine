@@ -23,15 +23,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,11 @@ D. 세로토닌 증후군
 
 ## 해설
 
+정답은 C, 루이소체 치매이다. 수개월간의 인지·주의 변동, 빈 의자에 말을 거는 행동으로 시사되는 환시 및 떨림·근긴장 증가·서동은 이 진단을 지지한다. 본문은 주간 졸림을 기술하며 청각환각이나 급성 섬망을 확정한 정보는 없다.
 
-환자는 급성 혼동, 시각·청각 환각, 파킨슨증상(떨림, 근긴장도 증가), 일과성 저녁 졸음 등 루이소체 치매의 특징적인 변동성 인지·운동 증상을 보인다. 루이소체 치매는 파킨슨증상과 함께 급성 혼동·환각이 나타나는 것이 핵심이다. 따라서 가장 가능성 있는 진단은 루이소체 치매이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수개월 만성 증상을 급성 혼동, 주간졸음을 저녁졸음으로 바꾸고 청각환각을 창작한 해설 정정.
 
 ## 출처
 

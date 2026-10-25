@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 비건 식단
 
 
 항암화학요법은 골수세포에 직접 손상을 주어 골수이형성증후군을 유발한다. 이는 환자의 현재 혈액학적 이상과 가장 연관된 위험 요인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005694 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 다계열 이형성·4% 모세포의 MDS와 이전 세포독성 항암 노출 A 위험을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

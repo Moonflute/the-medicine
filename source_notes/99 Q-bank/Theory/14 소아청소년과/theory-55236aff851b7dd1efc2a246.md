@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "LGS의 필수 강직발작은 독립된 중요 분류 개념이며 오답 문자 의존 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -38,14 +43,21 @@ D. 무긴장성 발작
 
 ## 해설
 
-강직성 발작은 Lennox‑Gastaut 증후군의 필수 진단 기준입니다.
+LGS의 진단에는 강직발작과 하나 이상의 다른 발작형을 포함한 특징적인 임상 경과 및 EEG가 필요하다. 강직발작 한 종류만으로 증후군이 확정된다는 뜻은 아니다.
 
 ## 오답 포인트
 
-- **D. 무긴장성 발작:** 무긴장성 발작도 흔히 보이지만 필수 기준은 아닙니다.
+- **무긴장성·근간대성 발작:** 동반될 수 있지만 필수 강직발작을 대신하지 못한다.
 
 ## 출처
 
 - 내부 학습 노트: Lennox-Gastaut 증후군 (Lennox-Gastaut Syndrome)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/Lennox-Gastaut 증후군 (Lennox-Gastaut Syndrome).md`
-- 학습 목표: 원문 핵심: * **주요 발작**: 강직성 발작(Tonic seizure, 필수 진단 기준), 비정형 결신 발작, 무긴장성 발작(Drop attacks) * **기타**: 근간대성 발작, 초점성 발작, 비경련성 뇌전증 지속상태(Nonconvulsive status epilepticus) * **동반 증상**: 지능 발달 지연, 행동 문제(과잉행동, 공격성, 자폐 스펙트럼), 수면 장애
+- 학습 목표: LGS에서 강직발작이 필수이며 추가 다른 발작형도 필요함을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: LGS의 필수 강직발작은 독립된 중요 분류 개념이며 오답 문자 의존 제거.
+- 근거: https://epilepsydiagnosis.org/syndrome/lgs-diagcriteria.html

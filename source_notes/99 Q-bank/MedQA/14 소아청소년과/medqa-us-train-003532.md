@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 폐렴사슬알균
 
 ## 해설
 
+β글로빈 점변이와 빈혈은 겸상적혈구병의 출제 맥락을 시사한다. 비장 기능 저하가 생기면 피막세균, 특히 폐렴구균 감염에 취약해져 발열·저혈압 사례에서 D가 보기 중 적절하다. 다른 피막세균과 살모넬라도 감염을 일으킬 수 있으며 실제 최빈균은 예방접종·지역·감염 부위 등에 영향을 받는다. 본문에서 균이 배양된 것은 아니다.
 
-격막성 겸상 적혈구증 환자는 비장 기능 저하(기능성 무비장)로 폐렴구균에 대한 감수성이 크게 증가한다. 급성 발열·패혈증과 빈혈이 동반된 경우 가장 흔한 원인균은 Streptococcus pneumoniae이다. 따라서 폐렴사슬알균이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비표준 격막성 겸상적혈구증 명칭을 교정하고 폐렴구균 위험을 모든 현재 감염의 확정적 최빈균으로 과장하지 않도록 정리했다.
+- https://www.cdc.gov/sickle-cell/complications/complications-of-scd-infection.html
 
 ## 출처
 

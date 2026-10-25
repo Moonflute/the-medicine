@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 표피양 낭종
 
 ## 해설
 
+분만 후 두정골 위 부종이 봉합선을 넘지 않는 것은 골막하 출혈인 두혈종(B)에 부합한다. 혈액은 두개골과 골막 사이에 고이며 골막의 봉합선 부착으로 범위가 제한된다. 봉합선을 넘을 수 있는 모상건막하 출혈과 구분한다.
 
-진공분만 후 두정골 위에 부드럽고 맥박 없는 부종이 봉합선을 넘지 않으면 두혈종이 가장 흔한 원인이다. 두혈종은 뼈와 봉합선 사이에 혈액이 고이는 출혈이다. 따라서 B가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 두혈종이 뼈와 봉합선 사이에 생긴다는 해부학 오류를 골막하 출혈로 교정했다.
+
 
 ## 출처
 

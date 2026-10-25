@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,7 +46,13 @@ D. 태아 도플러 초음파
 ## 해설
 
 
-높은 β‑hCG와 자궁 비대, 양측 난소 낭종은 수두양성 임신을 시사한다. 진단을 확정하고 관리하기 위해 질식 초음파가 가장 적절한 다음 단계이다.
+높은 β‑hCG와 자궁 비대, 양측 난소 낭종은 포상기태을 시사한다. 진단을 확정하고 관리하기 위해 질식 초음파가 가장 적절한 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문·선지·A대조. hydatidiform mole의 수두양성임신 오역을 포상기태로 교정.
+
 
 ## 출처
 

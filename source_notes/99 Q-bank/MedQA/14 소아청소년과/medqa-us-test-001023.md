@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 포도당 주입
 
 ## 해설
 
+코데인 노출 뒤 고음 울음·발한·과반사·떨림과 수유 저하는 신생아 오피오이드 금단을 시사한다. 비약물적 진정·수유 지원에도 기능 저하가 지속되는 중증 증상에는 평가에 따라 경구 모르핀(A)을 사용할 수 있다. 다른 원인도 확인하며 노출 사실만으로 모든 아기에게 약물을 주는 것은 아니다.
 
-신생아가 코데인에 노출돼 금단 증상(과민·떨림·자극 과다)을 보이면 아편계 진통제 금단 치료가 필요하다. 경구 모르핀은 금단 증상을 완화한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 중증 신생아 오피오이드 금단의 경구 모르핀 A 유지. 모든 노출아 즉시 약물이라는 해석을 방지.
+- https://cps.ca/en/documents/position/nas-nows
 
 ## 출처
 

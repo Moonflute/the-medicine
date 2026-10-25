@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,12 @@ D. 정맥주사 약물 사용
 
 
 무릎 관절염, 요도염, 결막염이 동시 발생한 삼중염증 삼합은 반응성 관절염의 전형적인 삼합이며 HLA‑B27 양성률이 높다. 따라서 가장 높은 발견 가능성은 HLA‑B27 양성이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000317 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 관절염·요도염·결막염의 reactive arthritis에 HLA-B27 A 연관이 맞는 기초기전 문항으로 확인. HLA-B27이 필수진단조건은 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

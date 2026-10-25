@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 단백뇨
 ## 해설
 
 
-고등급 편평상피내 병변은 자궁경부암 전암으로, 혈액응고와는 무관하다. 가장 가능성 높은 원인은 제9응고인자(혈우병 B) 결핍으로, 남성에게서 X염색체 연관 유전이며 지속적인 코피를 일으킨다. 따라서 정답은 제9응고인자 결핍이다.
+유아기부터의 반복 출혈과 남성 친족의 출혈력은 유전성 출혈질환을 시사한다. 선택지 중 IX인자 결핍인 혈우병 B(A)가 가장 부합하며 X연관 유전 양상과 연결된다. 다만 코피는 VWD나 혈소판 기능장애에서도 흔하므로 실제 확진에는 응고검사와 인자활성 평가가 필요하다. 자궁경부 상피내병변은 이 사례와 무관하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009847 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 선천성 출혈 가족력에서 IX 결핍 A 의도 유지. 완전히 무관한 자궁경부 HSIL 첫 문장 제거하고 코피만으로 혈우병 확진하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

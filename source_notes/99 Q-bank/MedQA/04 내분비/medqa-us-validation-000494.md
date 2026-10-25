@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 흡연력
 ## 해설
 
 
-고용량 덱사메타손 억제에도 코르티솔이 억제되지 않고, 부신 CT가 정상인 경우 이소성 ACTH 증후군을 의심한다. 가장 흔한 원인은 흡연력과 연관된 폐소세포암이다. 따라서 흡연력이 중요한 단서이다.
+정답 D. 고코르티솔 표현형과 고용량 dexamethasone에도 억제되지 않는 cortisol은 이소성 ACTH를 감별하게 하며 흡연 관련 소세포폐암이 그 원인 중 하나다. 그러나 ACTH가 제시되지 않았고 고용량 억제검사의 판별능도 완전하지 않아 이소성/폐암을 확진할 수는 없다. 정상 복부 CT 하나로 모든 부신 원인을 배제하지도 않는다. 본 문항은 선택지 중 연관성을 묻는 범위로 해석한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000494 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ACTH 미측정·고용량 검사만으로 이소성 확진 불가; 선택지 중 흡연 D 연관성의 제한 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.endocrine.org/clinical-practice-guidelines/diagnosis-of-cushing-syndrome
 
 ## 출처
 

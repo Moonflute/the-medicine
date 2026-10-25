@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. RET 원암유전자 돌연변이
 
 ## 해설
 
+큰 키·긴 팔·척추측만과 상방 수정체 아탈구는 마르팡 증후군을 지지한다. FBN1은 15번 염색체에 있으며 fibrillin-1(피브릴린-1)을 암호화하므로 B가 적절하다. 수정체는 안구 내 정상 위치에서 상방/상외측으로 아탈구하는 것이지 위눈꺼풀 바깥으로 이동하는 것이 아니다. Methionine 대사 이상과 COL5A1/2, RET 관련 질환은 이 조합과 다르다.
 
-마르팡 증후군은 15번 염색체(프루다틴) 돌연변이와 연관되며, 상부 눈꺼풀 위쪽으로 수정체가 탈구되는 특징이 있다. 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 마르팡의 유전자/단백질 오기와 수정체가 눈꺼풀 위로 탈구된다는 해부학 오류 교정.
 
 ## 출처
 

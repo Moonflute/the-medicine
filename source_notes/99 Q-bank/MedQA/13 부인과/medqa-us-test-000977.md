@@ -18,16 +18,18 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 경구 미페프리스톤 + 미소프로스톨
 
 ## 해설
 
+미페프리스톤은 프로게스테론 수용체를 차단하고 미소프로스톨은 PGE1 유사체로 경부 연화·자궁수축을 유도한다. 초기 자궁내 임신에서 D는 적절한 약물중절 방법이다. 진공흡인도 유효한 대안으로 선호·주수·금기를 상담하며 D만 모든 환자에게 유일한 최선이라고 하지 않는다. 자궁외임신은 이 약물로 치료되지 않는다.
 
-임신 초기 6~9주 사이에 약물에 의한 임신중절은 미페프리스톤(프로게스틴 수용체 길항제)과 미소프로스톨(프로스타글란딘 합성 억제제) 병용이 표준이다. 따라서 약물 요법이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미소프로스톨은 합성 억제제가 아니라 PGE1 유사체; 초기 약물중절·흡인 선택권 구분.
+- https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/questions-and-answers-mifepristone-medical-termination-pregnancy-through-ten-weeks-gestation
 
 ## 출처
 

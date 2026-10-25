@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 요도 슬링 수술
 
 ## 해설
 
+기립·보행 때 절박감 없이 누출되고 지도하 골반저근 훈련과 요실금 페서리에도 호전되지 않아 복압성 요실금의 수술 치료를 고려할 수 있다. 제시된 선지 중 D, 요도 슬링이 적절한 선택이다. 실제 수술 전에는 진단·잔뇨 등 평가와 위험·이득 상담이 필요하며 슬링이 모든 여성의 유일한 2차 치료는 아니다. 자가조직 슬링·다른 수술 및 mesh 관련 장단점을 설명하고 선호에 따라 결정한다.
 
-골반저근 강화 운동과 케겔운동이 효과가 없을 경우, 복압성 요실금의 표준 2차 치료는 요도 슬링 수술이다. 이는 요도의 지지력을 증가시켜 기립 시 요실금을 감소시킨다. 따라서 다음 단계로 가장 적절한 선택은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 보존치료 실패 SUI에서 sling D는 유지하되 수술 전 확인·공동결정과 다른 수술 선택 가능성을 보완.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng123/chapter/recommendations
 
 ## 출처
 

@@ -21,11 +21,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -36,7 +38,7 @@ related_drug_slugs:
 
 ## 문제
 
-소세포폐암으로 항암화학요법을 받는 70세 남자가 일주일 동안 기면과 혼돈이 악화되어 내원했다. 혈청 나트륨 120 mEq/L, 혈청 삼투압 250 mOsm/kg, 소변 나트륨 70 mEq/L, 소변 삼투압 195 mOsm/kg이다. 다음 중 상태의 가장 가능성 높은 원인은?
+소세포폐암으로 항암화학요법을 받고 lithium과 bupropion으로 양극성장애를 치료 중인 70세 남자가 일주일 동안 기면과 혼돈이 악화되어 내원했다. 혈압 130/70 mmHg, 맥박 100회/분, 호흡수 17회/분, 체온 36.5°C이다. 다른 약물은 metoprolol, valsartan, metformin, insulin이며 진찰상 기면·지남력 저하 외 특이소견은 없다. 혈당 110 mg/dL, 크레아티닌 0.8 mg/dL, 혈청 나트륨 120 mEq/L, 혈청 삼투압 250 mOsm/kg, 소변 나트륨 70 mEq/L, 소변 삼투압 195 mOsm/kg이다. 다음 중 상태의 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -48,7 +50,13 @@ D. 리튬
 ## 해설
 
 
-소세포폐암은 항이뇨호르몬(ADH) 과다 분비를 유발해 SIADH를 일으키며, 저나트륨혈증(120 mEq/L)과 저삼투압(250 mOsm/kg) 및 높은 소변 Na⁺와 삼투압을 보인다. 약물이나 감염이 아닌 암 자체가 원인이다. 따라서 정답은 A, 암종이다.
+저삼투압성 저나트륨혈증에 비해 소변이 충분히 희석되지 않고 urine Na가 높아 SIADH에 부합한다. 소세포폐암의 이소성 ADH 분비 A가 보기 중 가장 가능성이 높다. Lithium은 보통 신성 요붕증과 다뇨를 일으키므로 이 패턴과 반대이지만, 모든 약물 관련 저나트륨혈증을 검사 없이 배제할 수는 없다. 실제 SIADH 진단은 체액 상태, 부신·갑상샘 기능과 약물 등을 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005316 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 감별 약물 lithium/bupropion 등 원문 복약·신기능·정상 glucose가 번역에서 누락되어 복구. SCLC-SIADH 기전 A 유지하되 약물 전면배제 단정 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

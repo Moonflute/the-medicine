@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -52,7 +54,15 @@ D. 보리코나졸
 ## 해설
 
 
-중성구 감소증 환자에서 침습성 폐아스페르길루스증이 의심되며, 1차 치료는 베타-디아민오레이트 항진균제인 보리코나졸이다.
+ANC약476/µL의 항암 환자에서 객혈·galactomannan 양성은 침습성 aspergillosis를 의심하게 하며 D voriconazole은 권고 초기 항진균제 중 하나인 triazole이다. 베타-디아민오레이트라는 계열은 잘못이다. Galactomannan만으로 확진하지 않고 CT·적절한 검체를 평가한다. SpO₂83%의 호흡부전과 발열성 호중구감소증은 긴급 지지/경험적 항세균 치료도 필요하여 D 단독만으로 전체 초기 진료가 충분하다는 뜻은 아니다. 신기능·제형·상호작용/TDM을 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007446 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Voriconazole을 베타-디아민오레이트라고 부른 오류 교정; IPA 표적 D 유지하되 FN/저산소의 전체 처치와 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/aspergillosis/
+- https://www.idsociety.org/practice-guideline/neutropenic-patients-with-cancer/
 
 ## 출처
 

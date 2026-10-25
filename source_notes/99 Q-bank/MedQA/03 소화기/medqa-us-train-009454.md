@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,8 +48,15 @@ D. 정맥 글루코코르티코이드
 ## 해설
 
 
-급성 간부전에서 N‑아세틸시스테인은 글루타티온 재생을 촉진해 산화 손상을 감소시켜 생존율을 높인다. 환자는 급성 B형 간염으로 급성 간부전이며, NAC는 표준 치료이다. 따라서 N‑아세틸시스테인이 가장 적절한 처치이다.
-다른 선택지는 급성 간부전 치료에 효과가 없다.
+정답 C. 급성 중증 간손상과 응고장애에 의식 변화가 동반되어 급성간부전으로 신속히 평가해야 한다. NAC는 acetaminophen 관련 간부전 치료이며 비acetaminophen 급성간부전에서도 특히 초기 뇌병증에서 고려할 수 있다. 낮은 약물 농도 하나로 과거 노출을 완전히 배제하지 않는다. HBsAg 양성만으로 급성 HBV 감염이 확진되는 것은 아니다. NAC와 원인치료는 긴급 간이식센터 평가를 대체하지 않으며, 간이식이 효과 없다는 설명은 틀리다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009454 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: NAC C의 보조치료 취지 유지하되 간이식이 효과 없다는 위험한 배제를 삭제하고 급성 HBV 확진 조건·간성뇌병증 범위 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.aasld.org/sites/default/files/2022-07/AcuteLiverFailureUpdate201journalformat1.pdf
+- https://www.dgvs.de/new-leitlinien/chapter_69dd0a7e0a788/chapter_69dd0a7e0e86a/
 
 ## 출처
 

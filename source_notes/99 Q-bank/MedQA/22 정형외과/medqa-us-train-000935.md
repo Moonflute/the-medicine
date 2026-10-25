@@ -17,13 +17,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,12 @@ D. 조기 가동(Mobilization)
 
 ## 해설
 
+비전위 중간 쇄골골절에는 비수술적 보호 고정이 적절하다. 제시된 선지 중 C는 보존적 고정 방법이며 즉시 활동 재개나 불필요한 내고정보다 의도에 부합한다. 그러나 현행 AAOS는 대부분의 급성 쇄골골절 고정에서 편안함 등을 고려해 8자 보조기보다 단순 sling을 선호하며, 8자 붕대가 유일한 표준 치료라는 뜻은 아니다.
 
-비전위 중간 빗장뼈 골절은 보통 보존적으로 치료한다. 8자 붕대 고정은 골절 부위를 안정시켜 통증을 감소시키는 표준 방법이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 비전위 쇄골골절의 비수술 고정 C를 선지 내 선택으로 유지하지만 8자 붕대가 현대 표준·선호라고 가르치지 않는다.
+- 공식/학회 근거: https://www.aaos.org/aaos-home/newsroom/press-releases/fact-sheet-cpg-for-the-treatment-of-clavicle-fractures/
 
 ## 출처
 

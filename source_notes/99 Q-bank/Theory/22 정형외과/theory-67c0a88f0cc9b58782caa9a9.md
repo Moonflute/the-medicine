@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "전기진단검사를 모든 수근관증후군의 필수 확진검사로 가르치는 내용을 최신 지침에 맞게 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-수근관 증후군 진단에 표준으로 사용되는 검사는?
+전형적인 수근관증후군의 진단 접근에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 신경 전도 검사(NCS) 및 근전도(EMG)
-B. X-ray 단순 촬영
-C. 혈액 검사(염증표지자)
-D. 초음파만으로 진단
+A. 임상 평가 도구인 CTS-6를 활용할 수 있으며 모든 환자에게 전기진단검사가 필수인 것은 아니다
+B. 모든 환자는 MRI로만 확진해야 한다
+C. 신경전도검사와 근전도를 모두 시행하지 않으면 진단할 수 없다
+D. 정중신경 분포와 관계없이 손목 통증만으로 확진한다
 
 ## 해설
 
-수근관 증후군은 신경 전도 검사와 근전도가 진단 표준이며, 전도 속도 감소와 근전도 변화로 확진한다.
+AAOS 2024 지침은 CTS-6를 일률적인 초음파·신경전도검사·근전도검사 대신 진단에 사용할 수 있다고 한다. 진단이 불확실하거나 다른 신경병증의 감별 등이 필요한 경우 추가 검사를 선택하며 검사를 무조건 불필요하다고 해석하지 않는다.
 
 ## 오답 포인트
 
-- **B. X-ray 단순 촬영:** X-ray는 골성 병변 배제에 쓰일 뿐 진단 기준이 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 수근관 증후군 (Carpal Tunnel Syndrome)
 - 원본 경로: `source_notes/02 Diseases/22 정형외과/수근관 증후군 (Carpal Tunnel Syndrome).md`
-- 학습 목표: 원문 핵심: - 신경 전도 검사(NCS) 및 근전도(EMG)가 진단의 표준. 필요 시 초음파나 MRI를 통해 구조적 이상(종양, 낭종 등) 확인.
+- 학습 목표: 수근관증후군의 임상 진단과 선택적 전기진단검사
+
+## 검수 근거
+
+- https://www.aaos.org/aaos-home/newsroom/press-releases/carpal-tunnel-syndrome-aaos-updates-clinical-practice-guideline/

@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,10 +50,16 @@ D. 페니토인
 
 ## 해설
 
-
-조현병 치료제인 클로르프로마진 사용 후 고열, 근육 강직, 자가면역성 근육분해(콜라색 소변) 등이 나타나는 것은 신경이완성 악성 증후군(NMS)이다. 다른 약물은 NMS와 연관성이 낮다. 따라서 클로르프로마진이 원인이다.
+항정신병약 시작 후 발열·근강직·의식 변화·발한과 콜라색 소변은 신경이완제 악성증후군과 횡문근융해를 시사한다. 제시된 노출 약물 중 클로르프로마진이 적절하다. 이를 자가면역성 근육분해라고 부르지 않으며 CK·신기능·전해질 등을 평가하고 원인 약물 중단과 응급 지지치료가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008780
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. NMS 횡문근융해를 자가면역성 근육분해로 설명한 오류 교정. 클로르프로마진 정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc22941e-d2e7-4165-91ea-7239c8b9882d

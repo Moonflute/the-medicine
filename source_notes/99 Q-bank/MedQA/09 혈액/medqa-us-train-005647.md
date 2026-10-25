@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 급성 골수성 백혈병
 
 
 백혈구 80,000/mm³, 혈소판 34,000/mm³, Auer 소체가 보이는 골수증식성 변화는 급성 골수성 백혈병을 특징짓는다. 다른 선택지는 혈구수와 형태가 일치하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005647 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 모세포의 Auer rod와 혈구감소가 AML D를 지지함을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

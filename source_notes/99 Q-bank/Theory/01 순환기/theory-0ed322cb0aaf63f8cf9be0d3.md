@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "P파 소실과 불규칙 RR 간격은 AF의 중요한 기초 심전도 복습으로 하나만 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc15thjpdxdxu0rzb2jecmo1a3q3svm0njqtwkldaejksepwwvd3z1jtedfksfjsy2kxr2fxsnlhv3hzwvhscgiynhbmbtfrfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ AF는 P파가 사라지고 R‑R 간격이 불규칙하게 나타나는 것이 �
 
 ## 오답 포인트
 
-- **B. 규칙적인 saw‑tooth 파형:** saw‑tooth 파형은 주로 심방조동(AFL)에서 보인다.
+- **규칙적인 saw‑tooth 파형:** saw‑tooth 파형은 주로 심방조동(AFL)에서 보인다.
 
 ## 출처
 
 - 내부 학습 노트: 심방 조동-세동 (Atrial Flutter-Fibrillation)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/심방 조동-세동 (Atrial Flutter-Fibrillation).md`
 - 학습 목표: 원문 핵심: - 두근거림, 불규칙한 맥, 운동 시 호흡곤란·피로, 흉부 불편감, 어지러움 또는 실신으로 나타나며 무증상인 경우도 흔하다. - 빈맥성 AF/AFL은 저혈압, 급성 폐부종, 허혈성 흉통, 쇼크, 의식 변화와 동반될 수 있다. 이러한 혈역학적 불안정은 즉시 동기화 심율동전환을 포함한 응급 처치가 필요한 상황이다. - 발열·패혈증, 갑상선기능항진증, 음주, 수술 후 상태, 폐질환, 전해질 이상, 급성 관상동맥 증후군 및 심부전 악화는 촉발 또는 동반 상태로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: P파 소실과 불규칙 RR 간격은 AF의 중요한 기초 심전도 복습으로 하나만 유지한다.

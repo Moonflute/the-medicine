@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 두부 CT
 ## 해설
 
 
-중추성 요붕증이 의심될 때 탈수 제한 검사에서 소변량이 변하지 않으면 ADH 결핍이 원인이다. 데스모프레신은 합성 ADH로, 결핍을 보충해 수분 재흡수를 회복시킨다. 따라서 데스모프레신 투여가 적절하다.
+정답 B. 고Na와 매우 묽은 소변이 수분제한에도 지속되면 요붕증을 고려한다. 다음 desmopressin 투여 후 소변 삼투질농도/양의 반응을 비교해 중추성 ADH 결핍과 신성 저항성을 구분할 수 있다. 수분제한 무반응만으로 중추성이라고 확진하면 안 되며 실제 다뇨량과 혈장/소변 삼투질농도도 확인한다. 필요 수분 보충과 Na 추적을 병행하고 진단 없이 장기 고정 처방하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010174 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수분제한 무반응만으로 중추성 DI 확진 불가. Desmopressin B는 감별 반응 관찰 단계로 설명, 신성 DI와 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niddk.nih.gov/health-information/kidney-disease/diabetes-insipidus
 
 ## 출처
 

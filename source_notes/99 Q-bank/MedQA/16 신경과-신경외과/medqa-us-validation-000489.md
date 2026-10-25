@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 발프로산나트륨
 
 ## 해설
 
+동작/자세 시 심해지고 안정 시 소실되는 양측 손 떨림은 본태성 떨림에 맞는다. Primidone(B)과 propranolol은 모두 효과가 입증된 약물이지만, 이 환자는 최근 입원이 필요했던 천식으로 비선택적 베타차단제의 위험이 있어 primidone이 적합하다. Primidone은 항경련제로 phenobarbital 등으로 대사되며 GABA-B 수용체 작용제가 아니다. GABA-B 작용제는 baclofen이다.
 
-본태성 떨림은 활동성(동작 시) 떨림이며, 프리미돈은 GABA‑B 수용체 작용제로 가장 효과적인 1차 치료제이다. 베타 차단제는 진전 억제에 제한적이며, 다른 약물은 적절치 않다. 따라서 프리미돈이 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Primidone을 GABA-B 작용제라고 한 오류 교정. Propranolol은 효과가 제한적이라서가 아니라 천식 위험 때문에 피함.
+- 공식/학회 근거: https://www.aan.com/Guidelines/home/GetGuidelineContent/493
 
 ## 출처
 

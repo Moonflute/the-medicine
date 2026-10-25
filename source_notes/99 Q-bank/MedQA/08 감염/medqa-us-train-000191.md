@@ -21,7 +21,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,6 +45,13 @@ D. 장기 경구 항생제 치료
 
 
 급성 위장관 감염으로 인한 구토·설사·발열은 탈수와 전해질 손실을 초래한다. 혈역학적 불안정이 없더라도 수액 보충이 첫 번째 치료이다. 항생제는 일반적으로 필요하지 않다. 따라서 수액 및 전해질 보충이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000191`와 직접 대조했다.
+- 판정: 설사·구토 후 수분·전해질 보충 B가 선지 중 우선. 항생제는 모든 설사에서 불필요하다는 일반화로 확대하지 않고 이 사례의 단순 지지요법 선택만 확인.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.idsociety.org/practice-guideline/infectious-diarrhea/
 
 ## 출처
 

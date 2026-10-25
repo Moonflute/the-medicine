@@ -31,7 +31,9 @@ explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -53,6 +55,12 @@ D. 혈청 철 및 트랜스페린 감소, 페리틴 감소, 혈청 트랜스페�
 
 
 만성 질환 빈혈에서는 혈청 철 감소, 트랜스페린 감소, 페리틴 증가, 트랜스페린 수용체는 정상 범위인 패턴이 보인다. 이는 다른 선택지와 구별되는 특징이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000117 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 염증성/만성질환 빈혈의 낮은 혈청철·transferrin, 높은 ferritin, 정상 soluble transferrin receptor라는 A 패턴이 원문·해설과 일치한다. 철결핍 동반 가능성까지 배제한 판정은 아니다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

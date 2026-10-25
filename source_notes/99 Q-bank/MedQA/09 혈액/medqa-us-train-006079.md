@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 혈관의 갑작스러운 파열
 ## 해설
 
 
-수혈 후 급성 용혈반응은 면역 매개로 적혈구 파괴를 일으키며, 반복적인 감염 병력이 흔히 동반된다. 따라서 반복적인 위·호흡기 감염 병력이 함께 나타날 가능성이 높다.
+수혈 수분 내 저혈압·빈맥·호흡곤란은 아나필락시스 가능성을 시사하며 선택지 A의 반복 위장관/호흡기 감염은 IgA 결핍 연관 단서가 될 수 있다. IgA 결핍의 일부 환자에서 anti-IgA 관련 중증 수혈반응이 발생하지만 이 병력/기전이 모든 반응의 원인은 아니다. 급성 용혈성 반응·세균오염·TRALI 등을 신속히 감별하고 수혈을 중단하여 대응한다. 이를 적혈구 자가면역 용혈과 동일시하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006079 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 즉시 저혈압·호흡곤란 반응을 급성 용혈로 설명하면서 IgA 감염 병력을 연결한 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://professionaleducation.blood.ca/en/transfusion/publications/anaphylactic-transfusion-reactions-and-iga-deficiency
 
 ## 출처
 

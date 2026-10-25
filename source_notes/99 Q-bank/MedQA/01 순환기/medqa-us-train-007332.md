@@ -21,17 +21,19 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 전압개폐성 심장 나트륨 통로
 
 ## 해설
 
+갑작스러운 사지 허혈과 심계항진 병력은 심방세동 관련 색전을 의심하게 한다. C의 비타민 K 의존 응고인자 합성 억제는 와파린의 항응고 기전이다. 이는 선택지의 약물 기전을 묻는 문항이지, 현재 모든 심방세동 환자에서 와파린이 DOAC보다 우월하다는 뜻은 아니다. 실제 급성 사지 허혈에는 즉각적인 혈관 평가와 치료가 필요하다.
 
-심방세동 환자에서 혈전이 형성될 때 비타민 K 의존성 응고인자 합성을 억제하는 와파린이 색전 예방에 가장 효과적이다. 다른 옵션은 해당 메커니즘과 무관하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Warfarin기전 C는유지하되모든AF에서유일/최강예방약으로오용하지않음.
+- https://www.jacc.org/doi/10.1016/j.jacc.2023.08.017
 
 ## 출처
 

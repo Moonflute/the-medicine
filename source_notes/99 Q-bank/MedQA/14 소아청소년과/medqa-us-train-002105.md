@@ -21,20 +21,22 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-체중 2,500 g인 남아 신생아가 임신 35주에 25세 초임부에게서 태어났다. 임신은 양수과소증으로 합병되었다. 실온 공기에서 산소포화도는 78%이다. 분만실 검사에서 피부가 파랗고 울음이 약하며 호흡이 불규칙하고 헐떡인다. 코는 납작하고 양측에 내안각 주름이 있다. 귀는 낮게 위치하고 귓바퀴가 넓다. 아래턱은 비정상적으로 뒤로 밀려 있다. 오른쪽 하지가 왼쪽보다 짧아 보이고 오른쪽 엄지발가락이 어긋나 있다. 양쪽 호흡음이 감소되어 있다. 신장 초음파에서 양측 신우와 요관이 확장되어 있다. 다음 중 이 환자 상태의 기저 원인을 확인하는 데 가장 도움이 되는 검사는?
+체중 2,500 g인 남아 신생아가 임신 35주에 25세 여성(임신 2회·분만 1회)에게서 태어났다. 임신은 양수과소증으로 합병되었다. 실온 공기에서 산소포화도는 78%이다. 분만실 검사에서 피부가 파랗고 울음이 약하며 호흡이 불규칙하고 헐떡인다. 코는 납작하고 양측에 내안각 주름이 있다. 귀는 낮게 위치하고 귓바퀴가 넓다. 아래턱은 비정상적으로 뒤로 밀려 있다. 오른쪽 하지가 왼쪽보다 짧아 보이고 오른쪽 엄지발가락이 어긋나 있다. 양쪽 호흡음이 감소되어 있다. 신장 초음파에서 양측 신우와 요관이 확장되어 있다. 다음 중 이 환자 상태의 기저 원인을 확인하는 데 가장 도움이 되는 검사는?
 
 ## 선택지
 
@@ -45,8 +47,13 @@ D. 혈액배양
 
 ## 해설
 
+남아의 양측 신우·요관 확장과 양수과소증은 후부요도판막 등 하부요로 폐쇄를 시사한다. 양수 감소는 폐형성저하와 압박 변형을 유발할 수 있다. 배뇨성 방광요도조영술(A)로 방광·후부요도와 역류를 평가한다. 외형만으로 18번 삼염색체를 확정하지 않는다.
 
-다발성 선천적 기형(얼굴, 손, 발, 신장)과 양수과소증은 Edwards 증후군(18번 삼염색체 삼체)과 연관된다. 이 염색체 이상을 확인하려면 핵형검사가 가장 확실한 방법이다. 따라서 핵형검사가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 양측 요로확장·양수과소 Potter 연쇄의 VCUG A 유지. Edwards·핵형검사로 잘못 연결한 해설 교체.
+- https://uroweb.org/guidelines/paediatric-urology/chapter/congenital-lower-urinary-tract-obstruction
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 뇌 MRI
 
 ## 해설
 
+사춘기 때 늦게 자란 아버지, 전반적 건강과 지연된 골연령은 체질성 성장·사춘기 지연을 지지한다. 안심시키며 성장속도·사춘기 진행을 추적한다(C). 골연령 지연은 내분비·만성 질환에서도 나타나므로 단독으로 정상 변이를 확정하지 않는다.
 
-골연령이 실제 연령보다 현저히 뒤처진 경우, 성장 지연이 대부분 정상 변이이며, 추가 검사 없이 안심하고 추적 관찰한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 가족력·건강한 상태·지연 골연령의 체질성 성장지연 C 유지. 골연령 지연이면 모두 정상이라는 일반화 수정.
+- https://pedsendo.org/patient-resource/constitutional-growth-delay/
 
 ## 출처
 

@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J2465GQ7ZuE67aAIOuGjeyWkSAoUmV0cm9waGFyeW5nZWFsIEFic2Nlc3MpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "비특이 증상 나열을 심부 경부 감염의 위험 신호로 정리."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-인두후부 농양의 주요 증상은?
+소아 후인두농양을 의심하게 하는 중요한 조합은?
 
 ## 선택지
 
-A. 고열·연하 곤란·목 통증·호흡 곤란
-B. 발열·두통·구토·복통
-C. 발진·가려움·두드러기
-D. 설사·복통·구토
+A. 발열·연하곤란·침 흘림과 경부 움직임 제한 또는 호흡 이상
+B. 국소 증상 없는 단순 투명 콧물만
+C. 항상 무통성 목 종괴만 수년간 지속
+D. 목 운동 제한이 있으면 감염은 완전히 배제
 
 ## 해설
 
-인두후부 농양은 고열, 연하 곤란, 목 통증, 호흡 곤란을 동반한다.
+심부 경부 감염은 기도에 영향을 줄 수 있다. 심한 호흡 이상에서는 불필요한 자극을 줄이고 기도 전문팀 평가를 우선하며 안정화와 필요한 영상·배농을 계획한다.
 
 ## 오답 포인트
 
-- **B. 발열·두통·구토·복통:** 이 증상은 일반적인 상기도 감염과 혼동될 수 있으나 농양 특유의 연하 곤란·호흡 곤란이 없다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 인두후부 농양 (Retropharyngeal Abscess)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/인두후부 농양 (Retropharyngeal Abscess).md`
-- 학습 목표: 원문 핵심: * **CC**: 고열, 연하 곤란, 목 통증, 호흡 곤란 * **P/E**: 목 경직(neck stiffness), 고개 과신전 거부(목을 굴곡 상태로 유지하려 함), 인두 후부 팽윤, 쉰 목소리, 개구 장애
+- 학습 목표: 후인두농양의 연하곤란·경부 제한과 기도 위험
+
+## 검수 근거
+
+- https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/

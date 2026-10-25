@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 혈청 인슐린 10 μU/mL
 
 ## 해설
 
+OGTT2시간209mg/dL는 당뇨 기준≥200에 해당해 C다. 제시 FPG123과A1c5.9는 전당뇨 범위다. 다른 수치라면 FPG≥126 또는A1c≥6.5도 진단기준이 될 수 있고 명백한 고혈당이 아니면 확증검사가 필요하다.
 
-경구 포도당 부하 검사에서 2시간 후 혈당이 209 mg/dL(>200)인 경우 제2형 당뇨병 진단 기준에 해당한다. 공복 혈당만으로는 진단이 되지 않으며 HbA1c도 경계값이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: OGTT C 기준은 유지하되 공복혈당으로 DM진단이 안 된다는 오류 교정.
+- https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes
 
 ## 출처
 

@@ -18,15 +18,17 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 메토트렉세이트
 
 ## 해설
 
+장기이식 후 다모증과 치은비대는 cyclosporine B의 특징적인 이상반응 조합이다. Tacrolimus보다 이 조합이 cyclosporine을 지지한다. 색소침착이 털을 자라게 한다는 기전을 만들어 설명할 필요는 없다.
 
-사이클로스포린은 섬유증 및 색소 침착을 유발해 다모증과 치은비대를 일으킨다. 다클리주맙·타크로리무스·메토트렉세이트는 이러한 부작용을 흔히 보이지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Cyclosporine B의 다모·치은비대는 맞으나 색소침착이 다모 원인이라는 허구 기전을 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

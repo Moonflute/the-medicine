@@ -16,15 +16,19 @@ related_diseases:
 question_type: prevention
 related_disease_slugs: []
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: D
+answer_change_reason: "8세 catch-up Tdap 후 11–12세 추가접종이 필요하므로 구식 D를 A로 변경."
 ---
 
 # MedQA US 임상문제
@@ -42,8 +46,14 @@ D. 18세에 Td 1회
 
 ## 해설
 
+7–9세에 Tdap 따라잡기 접종을 받은 아동은 11–12세에 통상 청소년 Tdap을 추가로 접종한다. 따라서 현재 11세인 이 환자는 Tdap 1회(A)가 적절하다. 8세 접종 후 18세까지 기다리라는 기존 설명은 현행 CDC 일정과 맞지 않는다.
 
-8세에 첫 번째 Tdap를 맞은 경우, 이후 10년 간격(보통 10~12년)으로 Td(디프테리아·파상풍) 부스터를 시행한다. 11세에 추가 Tdap를 맞을 필요가 없으며, 18세에 Td 1회를 주는 것이 CDC 권고에 부합한다. 따라서 18세에 Td 1회를 선택한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 8세 catch-up Tdap 후 11–12세 추가접종이 필요하므로 구식 D를 A로 변경.
+- https://www.cdc.gov/vaccines/schedules/downloads/child/0-18yrs-child-combined-schedule.pdf
+- https://www.cdc.gov/tetanus/hcp/vaccine-recommendations/index.html
 
 ## 출처
 

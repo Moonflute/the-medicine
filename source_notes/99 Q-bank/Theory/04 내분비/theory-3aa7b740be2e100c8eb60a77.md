@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "추위 불내성·변비·건조 피부와 서맥/저체온 경향은 항진증과 구별하는 의미 있는 기본 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc1xd2tleurnzxlebunecxvmrhjpcvhzb0ledgxaannwcdbns0vonwnhotbhsgx5yjjsa2fytnrluzv0wkf8zglzzwfzzs0wmi1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -45,3 +50,8 @@ D. 빈맥과 체온 상승
 - 내부 학습 노트: 갑상샘 기능저하증 (Hypothyroidism)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/갑상샘 기능저하증 (Hypothyroidism).md`
 - 학습 목표: 원문 핵심: - 증상: 피로, 추위 불내성, 체중 증가(수분 저류 및 대사 저하), 변비, 기억력 저하, 우울감, 월경 이상 - 징후: 건조하고 거친 피부, 안면 부종(특히 안와 주위), 탈모, 건반사 지연, 서맥, 이완기 고혈압, 점액수종(myxedema)
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 추위 불내성·변비·건조 피부와 서맥/저체온 경향은 항진증과 구별하는 의미 있는 기본 복습으로 유지.

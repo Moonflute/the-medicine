@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 복부 및 골반 CT
 
 ## 해설
 
+와파린을 복용하는 환자의 비외상성 옆구리 통증·반상출혈과 쇼크는 자발성 후복막 출혈을 의심하게 한다. 초기 소생 후 혈압과 맥박이 호전된 상태에서는 복부·골반 CT(D)가 진단과 혈종 범위 평가에 유용하며 조영 검사는 활동성 출혈도 평가할 수 있다. 후복막 출혈은 복강 내 출혈과 해부학적으로 다르다. 영상 검사와 함께 혈색소·응고 상태를 평가하고 필요한 항응고 역전·수혈 및 출혈 통제를 진행하며, 불안정성이 지속되면 검사가 이를 지연해서는 안 된다.
 
-와파린 복용 환자에서 복부·옆구리 통증과 저혈압은 복강내 출혈을 의심하게 하고, 출혈 원인과 범위 파악을 위해 복부·골반 CT가 가장 민감하고 빠른 영상이다. 따라서 CT가 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 와파린 복용자의 자발성 후복막 출혈 가능성을 복강 내 출혈과 구별한다. 소생 반응 후 CT D를 유지하되 불안정 환자에서 무조건 영상 우선으로 일반화하지 않는다.
+- 공식/학회 근거: https://gravitas.acr.org/ACPortal/GetDataForOneTopic?topicId=302
+- 공식/학회 근거: https://www.jacc.org/doi/10.1016/j.jacc.2020.04.053
 
 ## 출처
 

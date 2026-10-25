@@ -19,15 +19,17 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 3개월 전 뇌졸중 병력
 
 ## 해설
 
+최근 뇌졸중 병력(D)은 STEMI 혈전용해 치료 전에 반드시 확인할 중요한 금기 요인이다. 과거 두개내출혈은 시점에 관계없이 절대 금기이며, 허혈성 뇌졸중은 통상 3개월 이내가 절대 금기에 해당한다. 문항의 ‘3개월 전’은 실제 진료에서 정확한 날짜와 뇌졸중 유형을 확인해야 하며, 적절한 재관류 방법을 별도로 결정한다.
 
-혈전용해제는 최근 3개월 이내에 뇌졸중(특히 출혈성) 병력이 있으면 출혈 위험이 크게 증가한다. 따라서 3개월 전 뇌졸중 병력은 절대 금기이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 출혈성 뇌졸중은 시점과 무관한 금기이고 허혈성은 3개월 경계 확인이 필요하다는 구분을 보완.
+- https://www.ahajournals.org/hyp/doi/pdf/10.1161/CIR.0000000000001309
 
 ## 출처
 

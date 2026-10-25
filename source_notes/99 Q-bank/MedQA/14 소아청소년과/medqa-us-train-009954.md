@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 약독화 백신 균주의 복제
 
 ## 해설
 
+약독화 생수두백신 후 백신 균주가 제한적으로 복제되면서 소수의 수두 유사 피부 병변이 발생할 수 있어 D가 가장 적절하다. CDC는 전신성 발진이 대체로 접종 후 3주 이내에 생길 수 있다고 설명하므로 접종 18일째 내원·2일 전 발진이라는 경과와 맞는다. 피부 소견과 시점만으로 실제 균주를 검사로 확정한 것은 아니다.
 
-수두 백신은 약독화된 살아있는 바이러스이며, 접종 후 1~2주 내에 발진이 나타날 수 있다. 이는 백신 균주의 복제에 의한 반응이다. 다른 선택지는 발진 메커니즘과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 접종 16일 후 발생한 발진에 맞추어 수두백신 발진 시기를 공식 CDC의 대체로 3주 이내로 교정했다.
+- https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-22-varicella.html
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. 뼈 스캔(Bone scan)
 ## 해설
 
 
-HER2 양성, 호르몬 수용체 음성의 6.5 mm 미만 종양은 림프절 전이 위험이 낮아 유방 보존술(광범위 절제)과 동시에 감시 림프절 생검으로 충분히 관리한다. 이는 표준 초기 치료 단계이다.
+6.5 mm의 국소 침윤 유방암에서 선지 중 유방보존치료와 감시림프절 생검(A)이 적절한 초기 접근이다. 수술·병기 후 방사선과 HER2 표적/전신치료의 필요성을 추가 평가하며 작은 크기만으로 모든 치료가 끝난다고 단정하지 않는다. 병변은 6.5 mm 미만이 아니라 6.5 mm이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001158 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 작은 침윤 유방암의 초기 국소치료 A 유지. 6.5mm 미만이라는 수치 오독 및 lumpectomy/SLNB만으로 충분하다는 해설 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
 
 ## 출처
 

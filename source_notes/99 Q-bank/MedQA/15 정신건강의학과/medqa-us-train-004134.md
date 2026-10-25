@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 벤라팍신
 
 ## 해설
 
-
-주간 과다졸림, 수면 마비, 입면 환각은 기면증을 특징짓는다. 모다피닐은 각성제이며 기면증 1차 치료제로 권장된다.
+과도한 주간졸림·입면 환각·수면마비와 웃을 때의 일시적 머리·턱 근력 저하는 탈력발작을 동반한 기면증을 시사한다. 제시된 약물 중 모다피닐이 주간졸림을 줄이는 원문 선택이다. AASM에서 소아청소년 기면증의 모다피닐은 조건부 권고이며, 실제로는 전문적 진단 확인과 연령별 허가·발진 등 안전성 검토가 필요하다. 모다피닐이 탈력발작 자체의 치료를 보장하는 것은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004134
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 16세 기면증에서 모다피닐을 성인과 동일한 일률 1차로 설명하지 않도록 소아청소년 조건부 근거·탈력발작 표적을 구별.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://aasm.org/wp-content/uploads/2022/03/Treatment_Central_Disorders_Hypersomnolence_Guideline_at_a_Glance.pdf

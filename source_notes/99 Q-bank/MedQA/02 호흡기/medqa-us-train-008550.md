@@ -21,13 +21,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 우심실 전부하 증가
 
 ## 해설
 
+호르몬요법, 종아리 부종과 압통, 급성 호흡곤란은 정맥혈전색전증을 시사한다. 폐색전증에서는 관류 장애에 따른 V/Q 불균형과 생리적 사강 증가가 발생하며 A–a 산소분압 차이는 보통 증가한다. 과환기가 흔히 동반되어 PaCO2가 감소할 수 있으므로 제시된 선택지 중 C가 적합하다. 과환기 때문에 A–a 차이가 감소하는 것이 주된 병태생리는 아니다.
 
-폐색전증은 폐동맥 폐쇄로 인해 폐포 과환기가 발생하고, 이로 인해 폐포‑동맥 산소분압 차이가 감소한다. 다른 선택지는 혈관 확장·우심실 전부하 증가와 관련이 있다. 따라서 가장 기여한 기전은 폐포 과환기이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 폐색전증에서 A–a 차이가 감소한다는 역방향 기전을 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 레트 증후군
 
 ## 해설
 
-
-아동이 특정 상황(학교)에서만 말을 하지 않고, 다른 사람 앞에서는 정상적으로 말하는 패턴은 선택적 함구증을 특징으로 한다. 이는 사회적 불안보다 말하기 자체에 대한 선택적 억제이다. 따라서 가장 가능성 높은 진단은 선택적 함구증이다.
+학교나 진료실처럼 말이 기대되는 특정 상황에서 지속적으로 말하지 못하지만 어머니에게 속삭여 전달할 수 있고 학업에 영향이 있어 선택적 함구증이 가장 적절하다. 의도적으로 말을 거부하거나 선택해 억제한다는 의미가 아니며 불안과 밀접하고 사회불안이 동반될 수 있다. 언어능력·발달·청각 문제와 다른 의사소통 원인도 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009207
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 선택적 함구증을 의도적으로 말하기를 억제하는 행동 또는 사회불안과 무관한 상태처럼 설명한 오류 수정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nhs.uk/mental-health/conditions/selective-mutism/

@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 항핵항체 검사
 ## 해설
 
 
-70세 여성의 근위부 근육통·아침 강직·피로는 다발성 근육통증후군을 시사한다. 진단을 확정하기 위해서는 염증표지인 ESR(또는 CRP) 측정이 가장 먼저 필요하다. 근전도는 근위축성 측면을 평가할 때 사용된다.
+고령의 근육통·아침 경직·피로에 비해 실제 근력이 보존된 양상은 PMR을 의심하게 한다. 선택지 중 ESR(B), 그리고 CRP 등 염증수치 평가가 적절하다. ESR 상승만으로 확진하지 않으며 감염·악성종양·내분비/근질환 등 유사 질환과 GCA 증상을 평가한다. EMG는 근병증/신경근질환 감별에 쓰지만 전형적 PMR의 첫 검사는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006512 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ESR 단독으로 PMR을 확진한다는 표현과 EMG 역할의 잘못된 제한을 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

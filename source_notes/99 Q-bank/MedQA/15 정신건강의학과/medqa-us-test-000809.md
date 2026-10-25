@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,17 @@ D. 설피리드
 
 ## 해설
 
-
-경도 인지장애와 MoCA 18점은 알츠하이머병 초기 단계에 해당한다. 콜린에스터레이스 억제제인 도네페질은 기억력 개선에 효과가 있어 사용 적응증이 있다. 따라서 처방 가능한 약물은 도네페질이다.
+최근 기억 저하와 반복되는 길 잃음으로 안전한 독립 외출이 어려워진 양상은 단순 경도인지장애보다 치매, 특히 알츠하이머병을 시사한다. MoCA 점수만으로 원인이나 병기를 확정하지는 않는다. 제시된 약물 중 도네페질은 알츠하이머 치매의 증상 치료에 사용하는 콜린에스터레이스 억제제이다. 이 답을 경도인지장애 전반에 도네페질이 적응증이라는 의미로 해석하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000809
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. MoCA 18점만으로 MCI=초기 알츠하이머라 확정한 오류 수정. 독립성 저하 임상 맥락과 증상 치료 적응증을 구분.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/ng97/chapter/Recommendations
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5772157

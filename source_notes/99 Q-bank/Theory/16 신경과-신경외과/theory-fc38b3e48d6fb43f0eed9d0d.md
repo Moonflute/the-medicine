@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLjrnpEt67CU66CIIOymne2bhOq1sCAoR3VpbGxhaW4tQmFycsOpIHN5bmRyb21lKS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "상행성 약화 중복을 치료 효과가 있는 면역치료의 핵심으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-길랑-바레 증후군(GBS)의 전형적인 초기 증상은?
+치료 적응이 있는 GBS의 면역치료에 대한 올바른 설명은?
 
 ## 선택지
 
-A. 하지에서 시작해 상행성으로 진행하는 대칭적 근력 약화와 감각 이상
-B. 일측성 두통과 구토가 동반되는 급성 증상
-C. 급성 시야 결손과 안구운동 장애
-D. 발열과 목통증이 주된 증상
+A. IVIG 또는 혈장교환을 사용하며 스테로이드 단독은 표준 유효 치료가 아니다
+B. 경구 스테로이드만이 일차 치료다
+C. IVIG와 혈장교환을 모든 환자에서 항상 연속 병용한다
+D. 호흡 약화가 있으면 면역치료와 감시는 필요 없다
 
 ## 해설
 
-GBS는 하지에서 시작해 상행성으로 진행하는 대칭적 근력 약화와 감각 저림이 초기 특징이다.
+보행 능력·진행 속도·호흡 및 구근 기능과 발병 시점을 고려해 IVIG 또는 혈장교환을 선택한다. 호흡·자율신경·혈전 예방 등 지지 치료도 중요하다.
 
 ## 오답 포인트
 
-- **D. 발열과 목통증이 주된 증상:** 발열·목통증은 감염성 질환에서 흔히 보인다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 길랑-바레 증후군 (Guillain-Barré syndrome)
 - 원본 경로: `source_notes/02 Diseases/16 신경과-신경외과/길랑-바레 증후군 (Guillain-Barré syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 급성 염증성 탈수초성 다발신경병증(AIDP)을 포함하는 면역 매개성 말초신경 질환으로, 급성 이완성 마비의 가장 흔한 원인임. - **원인**: 선행 감염(Campylobacter jejuni, CMV, EBV 등) 후 분자 모방(molecular mimicry) 기전에 의한 자가면역 반응. - **기전**: 항신경절 항체(anti-ganglioside Ab)가 보체 활성화를 유도하여 신경근 및 말초신경의 수초 또는 축삭을 손상시킴.
+- 학습 목표: GBS의 IVIG·혈장교환과 스테로이드 한계
+
+## 검수 근거
+
+- https://www.ean.org/fileadmin/user_upload/ean/ean/research/EAN_Guidelines/Infographic_Guidelines_2025_Online_version.pdf

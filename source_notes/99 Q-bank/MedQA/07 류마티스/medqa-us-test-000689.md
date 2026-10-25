@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 고퓨린 식이
 ## 해설
 
 
-통풍에서 요산 배설이 감소하면 요산이 신장에서 재흡수되는데, 이는 유기산이 요산과 경쟁해 재흡수를 억제하기 때문이다. 따라서 유기산이 요산과 재흡수를 경쟁함이 원인이다.
+급성 첫 중족지관절염과 바늘 모양 결정은 통풍을 지지한다. 폭음으로 증가한 젖산 등 유기산은 요산과 세뇨관 분비를 경쟁해 요산 배설을 줄일 수 있어 A가 적절하다. 요산 재흡수를 억제해 통풍이 생긴다는 기존 해설은 방향이 잘못되었다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-000689` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 podagra·결정·폭음 맥락 A 유지. 유기산이 재흡수를 억제한다는 정반대 기전 설명을 요산 세뇨관 분비 경쟁으로 교정.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

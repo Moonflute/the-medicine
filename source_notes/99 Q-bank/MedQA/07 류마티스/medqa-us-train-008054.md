@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -33,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-41세 여성이 새로 발생한 발진으로 응급진료를 받으러 왔다. 양쪽 발목 통증 외에는 다른 국소 증상이 없다. 신체검사에서 양쪽 정강이 위에 수많은 붉은 피하 결절이 보인다. 전혈구검사는 정상이고 흉부 방사선에서 폐는 깨끗하지만 양측 폐문 림프절병증이 있다. 가장 가능성 높은 진단은?
+41세 여성이 새로 발생한 발진으로 응급진료를 받으러 왔다. 양쪽 발목 통증 외에는 다른 국소 증상이 없다. 신체검사에서 양쪽 정강이 위에 수많은 붉은 피하 결절이 보인다. 전혈구검사에서 백혈구7,300/µL, Hct46.2%, Hb18.1 g/dL, MCV88 fL, 혈소판209(원문 단위 미표기)이며 흉부 방사선에서 폐는 깨끗하지만 양측 폐문 림프절병증이 있다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -45,7 +47,13 @@ D. 히스토플라스마증
 ## 해설
 
 
-다발성 결절성 피부염(erythema nodosum)과 양측 폐문 림프절 비대는 전형적인 사르코이드증의 소견이다. 다른 질환은 이 조합을 잘 설명하지 못한다.
+양측 발목관절통, 결절홍반(erythema nodosum)과 양측 폐문림프절병증의 조합은 sarcoidosis의 급성 표현인 Löfgren syndrome을 지지하여 B이다. 결절홍반은 압통성 피하 결절을 보이는 panniculitis이며 여러 질환에서 생길 수 있다. 이 조합이 다른 감염을 절대 배제한다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008054 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: erythema nodosum을결절성피부염이라 부른 용어 교정; 원문CBC값을 일괄 정상이라고 바꾼 부분 복구.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

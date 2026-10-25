@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 자궁외임신
 
 ## 해설
 
+임신 22주에 반복 초음파로 태아 심장활동이 관찰되지 않는다는 소견은 자궁 내 태아 사망을 지지한다. 본문은 첫 검사와 1시간 후 재검 모두 심장활동과 움직임이 없다고 명시한다. 따라서 정답은 B이다. 해설의 '전혀 보이고'는 '전혀 보이지 않고'의 오류였다.
 
-초음파에서 태아 심장 활동과 움직임이 전혀 보이고 1시간 간격으로 재검사에서도 동일하게 나타난 경우, 태아 사망(자궁 내 사망)이 확정된다. 계류유산·불완전 유산·자궁외임신은 초음파에서 다른 소견을 보인다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 반복 초음파에서 태아 심박동·움직임이 없다는 핵심을 해설에서 반대로 쓴 부정 누락을 교정했다.
+
 
 ## 출처
 

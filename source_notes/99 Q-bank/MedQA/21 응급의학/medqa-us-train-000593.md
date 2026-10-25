@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 석시닐콜린(Succinylcholine)
 
 ## 해설
 
+양측 하지의 심한 압궤·혈관 손상과 장시간 압박은 횡문근 손상 및 고칼륨혈증 위험을 높인다. 탈분극성 근이완제 석시닐콜린(D)은 혈중 칼륨을 더 높일 수 있어 이 상황에서 피할 약으로 선택한다. 천식 자체가 석시닐콜린의 보편적 금기이거나 악성고열 소인을 의미하지는 않는다. 외상 후 탈신경·수용체 증가에 따른 별도의 금기는 급성기 이후 시간경과에 따라 발생하므로 몇 시간 된 손상을 그 기전과 곧바로 동일시하지 않는다. 실제로는 칼륨·근육손상과 대체 근이완제를 신속히 평가한다.
 
-천식 환자는 히스타민 및 부교감성 자극에 민감해 근육 이완제인 석시닐콜린이 악성 고칼륨혈증 및 악성 고열을 유발한다. 따라서 석시닐콜린은 금기이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 석시닐콜린 위험을 천식·히스타민·악성고열로 혼동한 해설을 광범위 압궤 손상과 고칼륨 위험으로 교정했다. 손상 후 수시간만으로 만성 탈신경 과민이 이미 생겼다고 단정하지 않는다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b990f84-9515-44bd-a97d-a97bbead065c
 
 ## 출처
 

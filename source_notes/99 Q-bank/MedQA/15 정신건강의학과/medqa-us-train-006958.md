@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 혼돈
 
 ## 해설
 
-
-급성 알코올성 뇌병증(베르니케‑코르사코프 증후군)에서 티아민 보충이 기억력, 안구운동, 협응을 회복시키지만 전향성 기억상실은 지속된다. 따라서 호전되지 않을 증상은 전향성 기억상실이다. 정답은 A이다.
+만성 알코올 사용·영양실조와 작화증은 코르사코프 기억장애를 시사한다. 제시된 증상 중 전향성 기억상실은 티아민 치료 뒤에도 특히 지속되기 쉬워 원문 정답이다. 베르니케뇌병증의 안구운동 이상·혼돈·보행장애는 치료로 호전될 수 있으나 회복 정도와 속도는 다르다. 모든 기억장애가 반드시 회복되거나 전향성 기억상실이 어느 환자에서도 전혀 호전되지 않는다는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006958
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 티아민이 기억력을 회복시킨다면서 전향성 기억상실은 절대 호전 안 된다는 모순과 선지 문자 참조 제거. 코르사코프 기억장애의 상대적 지속성으로 설명.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

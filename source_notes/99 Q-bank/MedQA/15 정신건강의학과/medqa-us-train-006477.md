@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 설트랄린
 
 ## 해설
 
-
-조증 삽화 후 급성 우울·자살 생각이 나타난 경우, 세로토닌 재흡수 억제제인 설트랄린이 가장 흔히 시작된다. 리튬·올란자핀·쿠에티아핀은 조증·양극성 치료에 쓰이지만 급성 우울 삽화 후 첫 선택은 아니다. 따라서 D가 정답이다.
+이미 조증 양상이 있었던 환자에게 새 약을 투여한 뒤 다시 과대성·목표지향 활동 증가가 나타났으므로, 제시된 약물 중 항우울제 설트랄린에 의한 조증 전환을 추론하는 문제이다. 설트랄린이 양극성 우울의 적절한 단독 일차 처방이라는 뜻은 아니다. 조증이나 혼재 양상이 있으면 항우울제를 재평가하고 적절한 기분조절 치료를 선택해야 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006477
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 유발 약물 추론을 양극성 우울의 권장 처방으로 반대로 설명한 위험한 해설 교정. 설트랄린 유발 조증 전환으로 답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg185/chapter/recommendations

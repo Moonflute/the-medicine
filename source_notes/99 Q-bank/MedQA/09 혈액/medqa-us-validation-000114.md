@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 항연쇄구균 항체
 ## 해설
 
 
-고칼슘혈증과 신장 기능 악화, 단백·혈뇨가 없으며 혈청 단백 전기영동에서 경쇄가 나타나는 다발성 골수종이 가장 설득력 있다. 따라서 가장 가능성 높은 원인은 면역글로불린 경쇄이다.
+빈혈, 뼈 통증, 고칼슘혈증과 신기능 저하는 다발골수종을 의심하게 한다. 면역글로불린 경쇄(B)에 의한 cast nephropathy가 가장 부합한다. 일반 요시험지의 protein 검사는 albumin에 민감하므로 경쇄 단백이 있어도 음성일 수 있다. 원문에 단백전기영동 결과는 없으므로 확인된 결과로 덧붙이지 않는다. 칼슘·탈수·NSAID도 신손상에 기여할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000114 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CRAB 단서의 myeloma light chain B 유지. 시행되지 않은 SPEP 결과를 만들어낸 설명 제거하고 dipstick은 주로 albumin 검출임을 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

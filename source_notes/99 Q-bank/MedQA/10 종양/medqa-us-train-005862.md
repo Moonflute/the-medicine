@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 골 거대세포종
 ## 해설
 
 
-소아에서 두개골에 단일 골용해성 병변과 통증성 종괴가 나타나면 랑게르한스 세포 조직구증이 가장 흔한 원인이다. 이는 양성 염증성 골병변으로, 다른 선택지는 연령·영상 소견과 맞지 않는다.
+어린 소아의 통증성 두개골 종괴와 단일 골용해 병변은 보기 중 Langerhans cell histiocytosis B에 가장 부합한다. LCH는 골수계 유래 수지상세포 계열의 clonal 질환으로 MAPK 경로 변이 등이 관여할 수 있어 단순 양성 염증성 병변으로만 부르는 것은 부정확하다. 국소 골병변부터 다기관 질환까지 다양하며 조직·면역표현형과 범위 평가로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005862 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: LCH를 단순 양성 염증성 골병변이라고 부른 오류를 clonal myeloid-derived dendritic cell 질환으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/langerhans/hp/langerhans-treatment-pdq
 
 ## 출처
 

@@ -18,18 +18,23 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlsdGlhemVtLm1k
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
+curation_status: "revised"
+curation_reason: "가장 빠른 치료라는 표현을 생검상 급성 세포성 거부의 초기 치료로 정밀화."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -47,10 +52,20 @@ D. 정맥 내 스테로이드 시작
 
 ## 해설
 
-
-급성 세포매개 이식거부가 의심될 때, 가장 빠른 치료는 정맥 내 스테로이드 투여이다. 다른 옵션은 거부 반응을 억제하지 못한다. 따라서 정맥 내 스테로이드 시작이 적절하다.
+이식 두 달 뒤 이식신 기능 악화와 생검의 림프구 침윤·내막 변화는 급성 세포매개 거부반응을 지지한다. 선택지 중 정맥 corticosteroid가 초기 치료에 해당한다. 거부 유형·중증도·치료 반응에 따라 추가 치료가 달라지며 감염·폐색·약물 독성도 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006214
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 가장 빠른 치료라는 표현을 생검상 급성 세포성 거부의 초기 치료로 정밀화.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://kdigo.org/wp-content/uploads/2022/09/KDIGO-2009-Transplant-Recipient-Guideline-English.pdf

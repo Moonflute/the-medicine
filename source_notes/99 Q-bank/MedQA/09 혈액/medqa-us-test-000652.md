@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 철결합능 정상
 ## 해설
 
 
-만성 염증성 질환(류마티스 관절염)에서 빈혈은 철결합능 감소와 함께 저페리틴을 보인다. 염증 억제제로 인해 철이 저장 형태로 전환되지 못해 결합능이 낮아진다. 따라서 철결합능 감소가 예상된다.
+만성 염증에서는 hepcidin 증가로 철의 이용이 제한되고 transferrin/TIBC가 감소할 수 있어 C가 맞다. Ferritin은 보통 정상 또는 증가하며 저장철이 아예 없다는 뜻은 아니다. 철결핍이 동반되면 양상이 달라질 수 있어 실제 철검사와 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000652 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 염증성 빈혈의 TIBC 감소 C 유지. low ferritin·철저장 실패라는 반대 설명을 정상/증가 ferritin과 철격리로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niddk.nih.gov/health-information/blood-diseases/anemia-inflammation-chronic-disease
 
 ## 출처
 

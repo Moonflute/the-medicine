@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,15 @@ D. 탐스로신 투여
 ## 해설
 
 
-수술 후 소변량이 20 mL로 매우 적은 것은 저혈량에 의한 전신성 신전성 급성 신손상의 전형적인 징후이며, 가장 먼저 해야 할 조치는 정맥 수액으로 혈액량을 회복하는 것이다. 다른 선택지는 원인 교정 없이 증상만 다루는 것이므로 부적절하다.
+큰 복부수술 직후20mL/3시간의 저뇨는 원인 평가가 필요하다. 도뇨관은 열려 있으므로 관 폐색보다는 수술 중 손실·저혈량 등 신관류 저하를 우선 검토한다. 선택지 중 정맥 수액(B)이 적절할 수 있으나 먼저 체액상태·출혈·혈역학을 평가하고 필요한 경우 결정질 수액을 투여하며 반응을 재평가한다. 저뇨만으로 AKI의 원인이나 진단을 확정하지 않고 비반응 시 반복 수액을 무조건 주지 않는다. 체액 과부하가 없는데 furosemide를 투여하거나 tamsulosin으로 해결할 상황은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009016 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 3시간 저뇨만으로 신전성 AKI를 확진한 설명을 체액·출혈 평가 후 수액 반응 확인으로 수정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng148/chapter/Recommendations
+- https://www.nice.org.uk/guidance/cg174/chapter/Recommendations
 
 ## 출처
 

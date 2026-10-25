@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIOyEuOq4sOq0gOyngOyXvCAoQWN1dGUgQnJvbmNoaW9saXRpcykubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "세기관지 염증이라는 이름 반복을 실제 치료 원칙으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-급성 세기관지염의 정의는 무엇입니까?
+전형적인 영아 급성 세기관지염의 기본 치료는?
 
 ## 선택지
 
-A. 세기관지의 급성 염증으로, 주로 2세 미만 영아에서 발생한다.
-B. 기관지 천식의 급성 악화로, 주로 5세 이상 아동에게 나타난다.
-C. 폐렴구균에 의한 폐렴으로, 모든 연령대에서 발생한다.
-D. 기관지 확장증의 만성 염증으로, 장기간 지속된다.
+A. 호흡 상태·산소화·수분 섭취를 평가하고 필요한 지지 치료를 제공한다
+B. 모든 영아에게 salbutamol과 스테로이드를 정기 투여한다
+C. 모든 경우 항생제가 필수다
+D. 흉부 X-ray가 정상일 때만 수분을 공급한다
 
 ## 해설
 
-급성 세기관지는 세기관지의 급성 염증이며, 주로 2세 미만 영아에게 발생하는 질환이다.
+산소·수유/수액 지원 등이 핵심이다. 단순 세기관지염에서 기관지확장제·스테로이드·항생제를 일률 사용하지 않으며 세균 감염 등 별도 적응은 구분한다.
 
 ## 오답 포인트
 
-- **B. 기관지 천식의 급성 악화로, 주로 5세 이상 아동에게 나타난다.:** 천식은 만성 염증이며 연령대와 병태가 다르다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 급성 세기관지염 (Acute Bronchiolitis)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/급성 세기관지염 (Acute Bronchiolitis).md`
-- 학습 목표: 원문 핵심: - **정의**: 세기관지의 급성 염증으로, 주로 2세 미만 영아에서 발생 - **원인**: 호흡기 세포융합 바이러스 (RSV)가 가장 흔하며, 파라인플루엔자 바이러스, 리노바이러스 등도 원인 - **기전**: 바이러스 감염으로 인한 세기관지 상피세포 괴사, 부종 및 점액 과다 분비로 인한 기도 폐쇄 및 공기 포획(air trapping)
+- 학습 목표: 영아 세기관지염의 산소·수분 중심 지지 치료
+
+## 검수 근거
+
+- https://www.nice.org.uk/guidance/ng9/chapter/Recommendations

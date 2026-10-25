@@ -20,13 +20,15 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 부모 유전자검사 동의 획득
 
 ## 해설
 
+사산 후에는 원인 규명을 위해 태아 부검을 제안하므로 B가 적합하다. 부검은 외관상 정상이어도 구조 이상과 감염 등의 정보를 제공할 수 있다. 동시에 태반·제대·태막의 육안 및 조직학적 평가와 태아 유전평가도 사산 평가의 핵심이다. 따라서 ‘핵형검사 등은 1차 평가에 사용되지 않는다’는 기존 문장은 틀리다. 분만 전 양수 유전검사가 유용할 수 있으나 이 사례는 이미 출산한 뒤이며, 부모 유전검사만으로 태아 부검을 대신할 수 없다. 부검을 원치 않는 경우 대체 영상·검사 옵션을 논의한다.
 
-사산 후 원인 규명을 위해 영아 부검이 가장 직접적인 정보를 제공한다. 부검을 통해 구조적·감염성 원인을 확인할 수 있다. 핵형검사 등은 사산 원인 평가에 1차로 사용되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 문항 실제 검토. 사산 평가에서 유전검사가 1차가 아니라고 한 오류 삭제. B 유지하며 부검·태반병리·유전평가의 병행 명시.
+- https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2020/03/management-of-stillbirth
 
 ## 출처
 

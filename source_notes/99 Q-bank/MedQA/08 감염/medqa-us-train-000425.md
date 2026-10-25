@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,14 @@ D. 흡연
 ## 해설
 
 
-천식 환자에서 호산구 증가와 단백뇨·혈뇨가 동반될 경우 알레르기성 혈관염인 Churg‑Strauss(현재 eosinophilic granulomatosis with polyangiitis)와 연관된 p‑ANCA 양성이 흔히 나타난다. 따라서 p‑ANCA 검사가 가장 관련 있다.
+천식 악화, 호산구증가와 사구체 손상을 시사하는 혈뇨·단백뇨는 EGPA 가능성을 제기한다. 선택지 중 p-ANCA(C), 특히 MPO-ANCA가 관련될 수 있다. EGPA에서 검출 가능한 ANCA는 약40%에 불과하므로 항체가 음성이어도 배제하지 않으며 양성만으로 확진하지 않는다. 흡연만으로 호산구증가와 신장 침범을 모두 설명하기 어렵다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000425 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: EGPA에서 p-ANCA가 흔히 반드시 양성인 것처럼 보이는 설명을 항체의 제한적 검출률로 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.vasculitisfoundation.org/wp-content/uploads/2024/01/2021-ACR-VF-Guideline-for-Management-of-ANCA-Associated-Vasculitis.pdf
 
 ## 출처
 

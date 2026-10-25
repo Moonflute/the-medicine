@@ -21,16 +21,18 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 프라조신
 
 ## 해설
 
+빈번한 편두통의 예방치료가 필요하고 고혈압도 있어 선택지 중 propranolol C는 두 문제에 모두 도움이 된다. 다만 β차단제가 모든 단순 고혈압에서 일차약인 것은 아니다. 임신 가능성·기도질환·서맥 등 금기와 환자 선호를 함께 검토하며, 피임이 불확실한 환자에게 ACE 억제제를 무조건 선택해서는 안 된다.
 
-편두통과 고혈압을 동시에 가진 환자에서 베타 차단제는 두 질환 모두에 1차 예방 효과가 있다. 프로프라놀롤은 편두통 예방과 혈압 강하에 모두 유효하며, 다른 선택지는 편두통에 효과가 떨어진다. 따라서 프로프라놀롤이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Propranolol C는 편두통 예방과 동반 혈압 치료의 선택지상 이점; β차단제가 모든 단순 HTN의 1차약이라는 설명은 수정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
 
 ## 출처
 

@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,13 @@ D. 다카야수 동맥염
 ## 해설
 
 
-젊은 여성에서 맥박 약화, 발목 결절, 고 ESR/CRP, 전신 피로는 대혈관염인 다카야수 동맥염(대동맥 및 주요 가지 침범)과 일치한다. 다른 선택지는 이러한 전형적 증상을 설명하지 못한다. 따라서 정답은 D이다.
+젊은 여성에서 전신 염증 증상과 요골·발 맥박 약화가 함께 나타나면 대동맥과 주요 분지를 침범하는 Takayasu 동맥염을 우선 고려한다(D). 다리의 홍반성 결절은 동반 염증성 소견일 수 있으나 단독 확진 소견은 아니다. 고령에서 호발하는 거대세포동맥염, 중간혈관 중심의 결절성 다발동맥염, 주로 흡연 관련 말단혈관을 침범하는 폐쇄성 혈전혈관염보다 전체 맥락이 잘 맞는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003295 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Takayasu 진단 근거를 유지하고 본문에 없는 발목 한정 결절 표현을 수정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

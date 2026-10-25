@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 인두식도 게실
 
 ## 해설
 
+과음과 현재 취한 상태, 심한 역류 증상은 흡인 위험을 높인다. 악취 나는 가래와 우하엽의 의존부 침윤은 B의 흡인성 폐렴을 지지한다. 원문에 없는 구토나 확정된 의식소실을 만들지 않으며, HIV 환자에서 다른 감염 가능성도 함께 평가한다.
 
-의식 저하·구토·흡연·음주·노숙자에서 폐렴이 발생하면 흡인성 폐렴이 흔히 원인이다. 따라서 가장 가능성 높은 원인은 흡인성 폐렴이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 노숙·흡연만으로 흡인을 일반화하지 않고 실제 알코올 중독·역류·악취가래·의존부 침윤으로 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

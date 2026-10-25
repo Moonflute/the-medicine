@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 풍진
 
 ## 해설
 
+심한 가려움과 함께 반점·구진·수포·딱지가 동시에 관찰되는 전신 발진은 수두(C)에 전형적이다. 수두는 수두-대상포진바이러스 감염으로 발생하며 수포 병변과 호흡기 전파 등을 통해 사람 간 퍼질 수 있다. 어린이집은 노출 환경이 될 수 있지만 캠핑 자체가 특정 전파 경로를 증명하지는 않는다. 홍역·풍진의 전형적 발진은 이런 여러 단계의 수포성 병변 조합과 다르고, 우루시올 접촉피부염은 보통 노출 부위의 접촉 양상과 관련된다.
 
-수두는 전신에 물집이 동반된 발진과 고열, 두통, 근육통을 동반하며, 전염성이 높은 어린이집 환경과 캠핑 후 접촉이 흔한 전파 경로이다. 물집이 액체로 차 있는 수포 형태이며, 전신에 퍼진 점·구진·딱지와 함께 가려움이 심한 것이 수두의 특징이다. 따라서 가장 가능성 높은 진단은 수두이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 캠핑 자체를 수두 전파경로라고 한 창작 설명 삭제. 여러 단계 발진 동시존재로 C 유지.
+- https://www.cdc.gov/chickenpox/about/index.html
+- https://www.cdc.gov/chickenpox/downloads/Fact-sheet-Varicella-diagnosis-508.pdf
 
 ## 출처
 

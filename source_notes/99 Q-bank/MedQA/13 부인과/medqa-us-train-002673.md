@@ -20,22 +20,24 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-29세 G3P2 여성이 쌍둥이를 합병증 없이 질식분만했다. 두 태반은 곧 분만되었지만 이후 1시간 동안 예상 실혈량 1,150 mL의 질출혈이 지속된다. 활력징후는 정상이고 자궁은 커져 있으며 부드럽다. 다음 중 가장 적절한 치료의 다음 단계는?
+27세 G3P2 여성이 쌍둥이를 합병증 없이 질식분만했다. 두 태반은 곧 분만되었지만 이후 1시간 동안 예상 실혈량 1,150 mL의 질출혈이 지속된다. 활력징후는 정상이고 자궁은 커져 있으며 부드럽다. 다음 중 가장 적절한 치료의 다음 단계는?
 
 ## 선택지
 
@@ -46,8 +48,13 @@ D. 양손 자궁 마사지
 
 ## 해설
 
+부드럽고 큰 자궁과 실혈 1,150 mL는 자궁이완성 산후출혈이다. 양손 마사지(D)를 즉시 시행하되 자궁수축제·TXA·수액·원인 평가를 함께 진행한다. 마사지 효과를 기다린 뒤에만 약물을 고려하는 것은 부적절하며 정상 활력징후도 대량출혈을 배제하지 않는다.
 
-출산 직후 자궁이 확대된 상태에서 지속적인 출혈은 자궁 수축 부전(자궁 이완)이다. 가장 먼저 시행해야 할 조치는 양손 자궁 마사지를 통한 자궁 수축 촉진이다. 다른 약물은 마사지를 시행한 후에 고려한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문나이27을29로오역;마사지후에만약물을주라는지연설명수정.
+- https://www.who.int/news/item/05-10-2025-global-health-agencies-issue-new-recommendations-to-help-end-deaths-from-postpartum-haemorrhage
 
 ## 출처
 

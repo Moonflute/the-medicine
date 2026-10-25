@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k
+curation_status: "retained"
+curation_reason: "Dabigatran의 직접 IIa 억제와 간접 항응고 기전을 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Dabigatran은 직접 트롬빈(Factor IIa)을 가역적으로 억제하여 혈�
 
 - 내부 학습 노트: Dabigatran
 - 원본 경로: `source_notes/04 Pharmacology/09 혈액·응고/Dabigatran.md`
-- 학습 목표: 원문 핵심: - 직접 트롬빈(Factor IIa)을 가역적으로 억제하여 혈액 응고 과정을 차단합니다.
+- 학습 목표: Dabigatran: 직접 트롬빈(Factor IIa) 억제
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

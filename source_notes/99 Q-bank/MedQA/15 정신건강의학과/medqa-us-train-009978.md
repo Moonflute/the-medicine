@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,15 @@ D. 세르트랄린 지속
 
 ## 해설
 
-
-세르트랄린은 SSRI로 4~6주 후 효과가 나타나며, 현재 4주 차에 약간 호전된 상태이므로 용량 유지와 지속 투여가 적절하다. 추가 약물이나 교체는 조기 반응이 부족할 때 고려한다. 따라서 정답은 D이다.
+설트랄린 4주 치료 후 일부 호전이 있으므로 제시된 선택지 중 현재 치료를 지속하면서 반응·복약·부작용과 적정 용량을 재평가하는 것이 적절하다. 모든 효과가 정확히 4~6주에만 시작된다는 뜻은 아니며, 이 정보만으로 즉시 증강이나 교체를 해야 하는 것은 아니다. 자살위험과 기능도 계속 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009978
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 부분반응에서 설트랄린 지속 답 유지. 반응 시점을 일률 고정하지 않고 선지 문자 제거.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 두드러기
 
 ## 해설
 
+발열·피부 압통, 광범위한 표재성 이완 수포와 점막 보존은 포도상구균 열상피부증후군(SSSS, A)에 부합한다. 병변은 입 주위를 침범하지만 구강 점막은 보존되어 TEN과 구별된다. 독소에 의한 표피 표층의 분리이며 열에 의한 화상을 뜻하지 않는다.
 
-전신 발열, 60% 이상을 덮는 포도상구균 독소에 의한 수포성 발진, 입 주위 침범 없이 점막 보존은 포도상구균 열상피부 증후군을 특징으로 한다. 따라서 정답은 포도상구균 열상피부 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 입 주위 병변이 없다는 본문과 반대인 해설 및 질환명 오역을 교정.
+
 
 ## 출처
 

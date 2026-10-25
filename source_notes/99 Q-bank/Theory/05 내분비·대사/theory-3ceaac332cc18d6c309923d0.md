@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k
+curation_status: "retained"
+curation_reason: "SGLT2 억제제의 근위세뇨관 포도당 재흡수 억제라는 핵심."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Dapagliflozin은 근위세뇨관 SGLT2를 선택적으로 억제해 포도당과
 
 - 내부 학습 노트: Dapagliflozin
 - 원본 경로: `source_notes/04 Pharmacology/05 내분비·대사/Dapagliflozin.md`
-- 학습 목표: 원문 핵심: - 근위세뇨관의 SGLT2(Sodium-Glucose Cotransporter 2)를 선택적으로 억제하여 포도당과 나트륨의 재흡수를 감소시킨다. - 소변으로 포도당을 배출(당뇨)시켜 혈당을 낮추고, 삼투성 이뇨 및 나트륨 배설을 통해 심혈관 및 신장 보호 효과를 나타낸다.
+- 학습 목표: Dapagliflozin: 근위세뇨관 SGLT2 선택적 억제로 포도당 재흡수 감소
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

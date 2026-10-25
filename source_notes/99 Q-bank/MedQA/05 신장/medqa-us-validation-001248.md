@@ -17,24 +17,29 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: management
 difficulty: standard
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
+curation_status: "revised"
+curation_reason: "Opioid 조합을 신산통 보편적 일차 치료로 가르치지 않고 선택지 내 진통의 우선순위를 설명."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-41세 여성이 6시간 동안 지속된 심한 파동성 오른쪽 옆구리 통증과 구역·구토로 응급실에 왔다. 소변검사에서 육안적 혈뇨가 있고 비조영 CT에서 오른쪽 요관신우이행부를 막는 4 mm 방사선불투과성 결석이 보인다. 적극적인 정맥 수액과 온단세트론을 투여했다. 가장 적절한 다음 처치는?
+41세 여성이 6시간 동안 지속된 심한 파동성 오른쪽 옆구리 통증과 구역·구토로 응급실에 왔다. 소변검사에서 육안적 혈뇨가 있고 비조영 CT에서 오른쪽 요관신우이행부를 막는 4 mm 방사선불투과성 결석이 보인다. 정맥 수액과 온단세트론을 투여했다. 가장 적절한 다음 처치는?
 
 ## 선택지
 
@@ -45,10 +50,20 @@ D. 하이드로코돈/아세트아미노펜
 
 ## 해설
 
-
-요관결석 통증 완화와 진통을 위해 비마약성 진통제(아세트아미노펜)와 오피오이드(하이드로코돈) 병용이 권장된다. 따라서 진통제 조합이 정답이다.
+현재 심한 통증이 조절되지 않았으므로 제시된 보기 중 진통제 투여 D가 우선이다. 실제 신산통에서는 금기가 없으면 NSAID가 일반적인 일차 약제이며 필요하면 다른 진통제를 추가한다. Hydrocodone/acetaminophen이 모든 환자의 일차 표준이라는 뜻은 아니다. 수액은 체액 상태에 맞춰 사용하며 강제 과수액으로 결석 배출을 촉진하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001248
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: Opioid 조합을 신산통 보편적 일차 치료로 가르치지 않고 선택지 내 진통의 우선순위를 설명.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://uroweb.org/guidelines/urolithiasis/chapter/guidelines

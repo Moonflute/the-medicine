@@ -19,13 +19,15 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 판막 치환술
 
 ## 해설
 
+임신 혈류증가가 MS의 좌심방/폐정맥압을 높여 울혈을 악화시킨다. 제시 B loop 이뇨제는 울혈완화에 가능하다. 실제 전략은 심박수·중증도에 따른 beta1차단과 필요시 조심스러운 이뇨를 포함해 과도한 혈량감소를 피한다. 약물불응시 판막형태에 따른 경피 교련절개 등을 평가한다.
 
-임신 중 승모판 협착은 혈류 감소를 초래하므로, 혈액량 증가에 대비해 이뇨제로 좌심방 압력을 낮추는 루프 이뇨제가 1차 치료이다. 수술은 증상이 중증이거나 약물에 반응하지 않을 때 고려한다. 따라서 루프 이뇨제가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 임신 MS의 울혈완화 B는 유지하되 전체 초기전략을 이뇨제 단독으로 일반화하지 않음.
+- https://academic.oup.com/eurheartj/article/46/43/4462/8234487
 
 ## 출처
 

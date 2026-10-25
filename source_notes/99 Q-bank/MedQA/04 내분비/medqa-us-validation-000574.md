@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 생리식염수와 정맥 덱사메타손
 ## 해설
 
 
-저혈당, 저혈압, 고칼륨혈증이 동반된 급성 부신 위기는 부신피질 호르몬 결핍으로 인한 것이다. 즉시 부신피질 호르몬(스테로이드)과 혈액량 보충이 필요하다. 따라서 생리식염수와 정맥 덱사메타손 투여가 가장 적절한 처치이다.
+정답 D. 과다색소침착·저혈압·저혈당·저Na/고K는 원발성 부신기능저하의 위기를 강하게 시사한다. 필요한 검체를 지연 없이 채취할 수 있다면 채취하되 검사 때문에 치료를 미루지 말고 등장성 수액과 정맥 glucocorticoid를 투여한다. 현행 일차약은 hydrocortisone이며 dexamethasone은 다른 약을 사용할 수 없을 때의 덜 선호되는 대안이다. 제시 선택지 중 D가 즉각적인 수액·steroid 치료를 제공한다. 저혈당·고K도 추적/치료한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000574 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수액+steroid D는 선택지상 적절하지만 hydrocortisone이 현행 우선약이며 dexamethasone이 일반 1차라는 오해 방지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency
 
 ## 출처
 

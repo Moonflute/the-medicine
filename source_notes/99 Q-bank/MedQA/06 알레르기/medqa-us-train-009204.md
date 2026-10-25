@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 제1형과 제3형이 혼합된 과민반응
 
 
 벌에 쏘인 후 급성 전신 증상(저혈압, 두근거림, 호흡곤란, 혈관성 부종)은 IgE 매개 반응으로 인한 아나필락시스이며, 이는 제1형 과민반응이다. 따라서 환자는 제1형 과민반응을 겪고 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-009204`와 직접 대조했다.
+- 판정: 급성 벌독 노출 후 피부·점막·기도 침범으로 I형 과민반응 A와 일치. 원문 대조; 저혈압 여부와 무관하게 기도징후 중요.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
 
 ## 출처
 

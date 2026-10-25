@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 고요산혈증, 고칼륨혈증, 고인산혈증, 젖산산증, 수산염 �
 ## 해설
 
 
-종양용해증후군에서는 급격한 세포 파괴로 요산, 칼륨, 인, 젖산이 상승하고 요산이 소변에 결정으로 나타난다. 고요산혈증·고칼륨·고인산·젖산산증과 요산결정이 특징적인 소견이다. 따라서 정답은 B이다.
+높은 종양부하를 가진 ALL에서 항암 후 5일 내 핍뇨·부종이 생겨 종양용해증후군을 의심한다. 세포 파괴로 요산·칼륨·인산이 증가하고 이차적 저칼슘혈증과 급성 신손상이 발생할 수 있다. B의 요산 결정과 핵심 전해질 조합이 가장 부합한다. 산증은 신손상 등과 동반될 수 있으나 젖산산증 자체가 모든 TLS의 필수 검사 소견은 아니다. 극심한 CK 상승은 횡문근융해, 요중 단클론단백은 형질세포 질환 쪽 단서이며 옥살산 결정은 전형적인 TLS 요산 결정과 다르다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009259 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: TLS의 고요산·고칼륨·고인산혈증과 요산 결정으로 B 유지하되 젖산산증을 필수 진단 소견처럼 설명한 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/10.1111/bjh.70092
 
 ## 출처
 

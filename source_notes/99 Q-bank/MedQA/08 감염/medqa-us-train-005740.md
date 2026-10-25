@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. HIV 항체 선별검사
 ## 해설
 
 
-좁은 기저부 출아로 증식하는 효모는 Histoplasma capsulatum를 시사한다. 조직이나 배설물에서 Histoplasma 항원을 검출하면 진단 민감도가 높아 확진에 도움이 된다. 따라서 소변 히스토플라스마 항원 검사가 정답이다. 다른 선택지는 진균 감염을 확인하지 못한다.
+만성 폐질환 배경의 상엽 공동과 효모 소견은 Histoplasma를 고려하게 하며 선택지 A 소변항원 검사가 진단에 도움된다. 항원은 다른 진균, 특히 Blastomyces와 교차반응할 수 있고 임상 형태에 따라 민감도가 달라 항체·배양·조직과 결합한다. 좁은 기저 출아만이 유일 특이 소견은 아니며 음성 PPD/객담 AFB 하나로 활동 TB를 완전히 배제하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005740 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Histo 소변항원 A 유지; 항원 교차반응과 TB 배제검사 한계 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/histoplasmosis/hcp/algorithm/index.html
 
 ## 출처
 

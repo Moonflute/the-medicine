@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,15 @@ D. 광장공포증
 
 ## 해설
 
-
-반복성 요로감염과 방광에 대한 불안·회피가 사회적 상황에 대한 두려움으로 이어진 경우, 사회불안장애가 의심된다. 이는 회피 행동과 과도한 불안이 핵심 특징이다. 따라서 가장 가능성 높은 진단은 사회불안장애이다.
+학교 화장실 사용이 또래의 조롱·부정적 평가로 이어질까 두려워 피하는 양상은 사회불안장애에 가장 가깝다. 화장실 자체의 물리적 위험보다 다른 사람의 평가에 대한 두려움이 핵심이다. 소변을 오래 참는 행동과 반복 요로감염은 함께 다루어야 하지만 요로감염이 사회불안의 확정 원인이라는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010127
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 사회불안 때문에 화장실을 피하는 사례의 인과 방향을 복통/방광 불안이 사회공포를 만든 것으로 뒤집은 설명 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

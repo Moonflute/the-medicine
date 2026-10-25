@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. 멕시코에서 캠핑했다
 ## 해설
 
 
-갑상선 기능 항진증은 부정맥(특히 심방세동)과 빈맥을 유발할 수 있다. 초기 평가에서 갑상선 자극 호르몬(TSH) 검사는 갑상선 기능을 빠르게 확인하는 가장 적절한 검사이다.
+캠핑 뒤 발생한 심한 가스와 기름지고 악취 나는 비혈성 설사는 Giardia 감염을 시사한다. 오염된 미처리 개울물의 낭포를 섭취하는 것이 대표적 노출이므로 A가 가장 타당하다. 갑상선기능·TSH 검사는 이 문항의 설명과 관련이 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001281`와 직접 대조했다.
+- 판정: 캠핑 후 지방변·가스의 Giardia 사례에 TSH 해설이 붙은 명백한 오연결. 미처리 개울물 A 유지 및 원인·전파 해설로 교체.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.cdc.gov/giardia/about/
 
 ## 출처
 

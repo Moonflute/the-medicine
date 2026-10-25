@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 세팔렉신
 ## 해설
 
 
-악티노미코시스는 그람양성 사상균에 의해 발생하며, 치료 1차 선택은 독시사이클린이다. 외과적 절제는 급성 감염에 비효율적이며 다른 항생제는 내성 위험이 크다. 따라서 B가 옳다.
+발치 후 만성 턱 종괴·배농 누공과 그람양성 사상 막대균은 경안면 actinomycosis에 부합한다. 일반 우선약은 penicillin 계열이지만 이 문항은 amoxicillin 관련 전신발진 병력이 있어 알레르기 평가와 함께 선택지 B doxycycline을 대안으로 고려하는 맥락이다. Actinomyces는 세균이며 진균이 아니다. 농양 배액/괴사조직 처치가 필요할 수 있어 외과치료가 언제나 무효라고 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006474 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Actinomyces를 진균처럼 부르거나 doxycycline을 모든 환자의 일차로 설명한 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b8486639-7eb9-4610-9cd4-0e922045d592
 
 ## 출처
 

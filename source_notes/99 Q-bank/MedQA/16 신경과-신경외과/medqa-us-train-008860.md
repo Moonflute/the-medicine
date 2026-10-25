@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 리툭시맙
 
 ## 해설
 
+발열·두통 후 급성 행동변화/혼돈과 림프구성 뇌척수액은 감염성 뇌염을 의심하게 한다. HSV 뇌염이 배제되지 않은 환자에서는 PCR 등 원인 검사를 진행하면서 정맥 acyclovir(A)를 지체 없이 시작한다. 이 뇌척수액 양상이 HSV에만 특이한 것은 아니며, 누락된 MRI에서 측두엽 병변을 확인했다고 단정할 수 없다. 면역치료만 먼저 시행할 근거는 없다.
 
-CSF에서 림프구 우세, 단백 경미 상승, 포도당 정상은 HSV 뇌염과 일치한다. MRI 소견과 급성 혼란, 동공 반응 지연은 HSV 감염을 시사한다. 치료는 즉시 정맥 아시클로버 투여가 표준이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 누락 MRI 소견을 본 것으로 단정하지 않고, 임상적 뇌염에서 경험적 acyclovir A를 선택하는 근거로 교정.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/encephalitis
 
 ## 출처
 

@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "6re866Cl77yP6rCQ6rCB7J207IOB"
 theory_objective_id: cc-05-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "급성 척수압박 의심 시 MRI의 역할은 놓치면 안 되는 검사 선택 이론."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 초음파
 
 ## 오답 포인트
 
-- **A. 비조영 CT:** CT는 골절 확인에 유용하지만 압박 확인에 MRI가 우선이다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

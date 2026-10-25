@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 산소 보충
 
 ## 해설
 
+호흡에 따라 공기/혈액이 드나드는 흉부 상처는 개방성 기흉을 시사한다. 보기 중 공기 유입을 막고 배출이 가능하도록 하는 드레싱(A)이 적합하다. 현대 전투외상 지침은 vented chest seal을 우선 사용하고 긴장성 기흉 발생을 감시한다. 상처 지름 2cm가 보편적 진단 기준은 아니며, 드레싱 후에도 호흡·순환을 재평가해야 한다.
 
-폐에 공기가 지속적으로 유입되는 개방성(흡입) 기흉은 흉부 외상 시 2 cm 이상의 구멍이 있으면 발생한다. 공기와 혈액이 동시에 나오는 거품성 출혈은 폐포 파열을 의미한다. 즉시 삼면 폐쇄(three‑sided occlusive dressing)로 공기 유입을 차단해야 한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 개방성 기흉의 2cm 절대 기준 및 삼면드레싱만 표준이라는 오류 교정.
+- 공식/학회 근거: https://jts.health.mil/assets/docs/cpgs/US_Army_Aeromedical_Evacuation_Standard_Medical_Operating_Guidelines_26NOV2025.pdf
 
 ## 출처
 

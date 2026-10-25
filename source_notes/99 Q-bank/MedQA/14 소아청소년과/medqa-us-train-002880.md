@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 심실중격결손
 
 ## 해설
 
+심한 신생아 청색증, 단일 제2심음과 좁은 종격동은 대혈관전위(d-TGA)를 시사한다. 대동맥과 폐동맥이 정상처럼 교차하지 않고 주로 평행하게 주행해 두 순환이 분리된다. VSD(D)는 동반될 수 있고 혈액 혼합 통로가 될 수 있다. 이는 보이지 않는 혈관 연결을 X선만으로 직접 관찰했다거나 VSD가 반드시 있다는 뜻은 아니다.
 
-신생아의 중증 청색증, 단일 제2심음, 심장 음영 확대, 대동맥과 폐동맥이 서로 교차하는 구조는 대동맥 전위(TGA)를 나타낸다. TGA와 동반되는 가장 흔한 심장 결손은 심실중격결손(VSD)이다. 따라서 VSD가 연관된 결손이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 대혈관전위에서 대동맥/폐동맥이 교차한다는 해설을 평행 주행·분리된 순환과 VSD의 혼합 역할로 교정했다.
+
 
 ## 출처
 

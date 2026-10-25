@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 흉선 이식
 
 ## 해설
 
+재발 세균감염, B세포 결핍과 보존된 T세포는 X연관 무감마글로불린혈증을 시사한다. 원인 면역결핍의 장기 관리로 정맥 면역글로불린(A)을 보충한다. 현재 폐렴·저혈압에는 즉각적인 감염 평가, 항생제와 순환 지지가 병행되어야 하며 IVIG만으로 급성 감염을 치료하는 것은 아니다.
 
-B세포가 결핍된 X‑연관 무감마글로불린혈증에서는 감염 예방을 위해 정맥 면역글로불린(IVIG) 보충이 1차 치료이다. 다른 옵션은 근본적인 면역 결핍을 해결하지 못한다. 따라서 가장 적절한 처치는 정맥 면역글로불린이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: XLA 면역글로불린 보충과 현재 중증 감염 처치가 별개임을 명확화.
+- https://www.fda.gov/media/83304/download
 
 ## 출처
 

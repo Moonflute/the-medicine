@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 정상 잔뇨량, 불수의적 배뇨근 수축 없음
 
 ## 해설
 
+기침·재채기 때 누출되고 Q-tip 검사가 양성이므로 요도 과이동성과 관련된 복압성 요실금이 가장 적합하다. 방광내압검사에서 정상 잔뇨량과 불수의적 배뇨근 수축이 없는 D가 예상된다. Q-tip은 요도 이동성을 평가하는 것이지 질벽 손상 자체를 확인하는 검사는 아니다. 전질벽 팽윤은 골반지지 결함이 함께 있음을 시사한다.
 
-스트레스 요실금에서 방광내압은 정상이며, 기침 시 압력 상승에 의해 비자발적 배뇨근 수축이 일어나지 않는다. Q‑tip 검사가 양성인 경우는 질벽 손상(전질벽 팽윤)과 연관된다. 따라서 방광내압검사에서 기대되는 소견은 정상 잔뇨량과 배뇨근 수축이 없는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Q-tip양성을질벽손상검사처럼서술한오류교정. 요도과이동성과복압성요실금D.
+
 
 ## 출처
 

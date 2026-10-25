@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 점상 출혈을 동반한 쉽게 출혈하는 점막
 ## 해설
 
 
-크론병은 비연속성 궤양과 육아종이 동반되는 국소성 병변을 특징으로 하며, 항문 열상이 흔히 동반된다. 내시경에서 육아종을 동반한 국소 궤양이 가장 흔히 관찰된다. 따라서 육아종을 동반한 국소 궤양이 가장 가능성 높은 소견이다.
+정답 C. 젊은 환자의 체중감소·설사·항문주위 병변은 Crohn병을 시사한다. 장의 비연속적 침범과 국소 궤양이 특징적이며 조직검사에서 비건락성 육아종이 보이면 진단을 지지한다. 육아종은 육안 내시경 소견이 아니고 일부 환자에서만 관찰되므로 없다고 Crohn병이 배제되지는 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009997 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Crohn C의 skip ulcer·육아종 연관성 유지하되 육아종은 육안 내시경 소견 아닌 조직 소견이고 모든 사례에서 관찰되지 않음을 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 라트케 주머니(Rathke's pouch)의 잔재
 
 ## 해설
 
+정답은 D, 라트케 주머니의 잔재이다. 아침 두통·구토와 시야 협착은 소아의 안장/안장위 병변인 두개인두종을 고려하게 한다. 두개인두종은 라트케 주머니/두개인두관의 잔여 상피와 연관된 상피성 종양이며, 단순히 뇌하수체 전엽에 생기는 선천성 낭종 또는 라트케열낭종과 같은 질환은 아니다.
 
-뇌하수체 전엽에서 발생하는 선천성 낭종인 라트케 주머니 잔재는 크라토피리암(크라토피리암)으로, 시야 협착을 일으킬 수 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 두개인두종 명칭 오역과 이를 뇌하수체 전엽의 선천성 낭종으로 단정한 오류 교정. 발생기원 D 유지.
 
 ## 출처
 

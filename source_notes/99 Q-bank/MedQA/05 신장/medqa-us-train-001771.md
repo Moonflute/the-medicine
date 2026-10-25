@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k
   - ZHJ1ZzowOCDqsJDsl7wvUHlyYXppbmFtaWRlLm1k
   - ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 신장 생검을 시행한다
 
 
 Rifampin은 급성 간질성 신염(AIN)의 흔한 원인 약물이며, 발진과 발열, 소변에 호산구와 백혈구가 동반된 경우가 특징이다. 환자의 발진, 발열, 신기능 악화, 소변 검사 소견이 AIN을 시사하므로 원인 약물인 rifampin을 중단한다. 다른 선택지는 AIN 치료에 비핵심이며, rifampin 중단이 가장 적절한 조치이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 새 rifampin2주 뒤 발진·발열·AKI/무균성WBC원주는 AIN 의심. 제시 약 중 원인약 중단 C가 적합.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

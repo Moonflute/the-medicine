@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 흉부 CT
 
 
 원인 미확인 비생산성 기침에 대해 먼저 폐기능검사를 시행해 천식·COPD 등 폐역학적 이상을 평가한다. 이는 다음 단계 진단에 필수적이다. 따라서 폐기능검사가 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 만성기침·정상CXR·항히스타민 반응 없음에서 spirometry 포함 PFT B로 천식 등 평가.
+- https://publications.ersnet.org/lookup/pmid/31515408
 
 ## 출처
 

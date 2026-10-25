@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 후두기관염
 
 ## 해설
 
+흡기성 협착음이 바로 누우면 심하고 자세에 따라 완화되는 경과는 후두연화증(C)에 부합한다. 흡기 시 성문상부의 연한 조직이 안쪽으로 무너져 내리는 기전이다. 다만 깨어 있을 때 자세에 따라 소리가 줄어든다는 사실과 안전한 수면 자세는 별개다. AAP의 일반 원칙은 매 수면 때 평평하고 단단한 면에 바로 눕혀 재우는 것이며 본문의 부모가 택한 엎드린 수면을 치료 권고로 받아들여서는 안 된다. 수면 중 호흡 어려움은 별도 진료로 평가해야 한다.
 
-신생아에서 엎드리면 호전되고 바로 누우면 악화되는 흡기성 천명은 후두연화증(후두연화)과 일치한다. 후두연화는 연부 연골이 약해져 흡기 시 supraglottic 구조가 붕괴되는 것이 원인이다. 따라서 가장 가능성 높은 원인은 후두연화증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 자세에 따른 후두연화증 단서를 유지하되 사례의 엎드려 재우기를 안전한 수면 처방으로 오해하지 않도록 AAP 권고를 명시했다.
+- https://publications.aap.org/pediatrics/article/150/1/e2022057990/188304/Sleep-Related-Infant-Deaths-Updated-2022-Recommendations-for-Reducing-Infant-Deaths-in-the-Sleep-Environment
 
 ## 출처
 

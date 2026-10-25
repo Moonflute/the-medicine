@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 추가 검사는 필요하지 않다
 
 ## 해설
 
+성생활을 하는25세 미만 여성은 임질·클라미디아 정기 선별(A) 대상이다. 단일 파트너·무증상이어도 해당하며25세 이상은 위험인자에 따라 평가한다. 정상 세포검사2년 후 즉시 반복Pap을 해야 한다는 뜻은 아니다.
 
-임균과 클라미디아 감염은 대부분 무증상이지만, 성관계가 있는 여성에게는 정기적인 선별검사가 권장된다. 환자는 24세이며, 최근 임신 가능성은 낮지만 성병 위험을 배제하기 위해 검사가 필요하다. 따라서 가장 적절한 권고는 임균과 클라미디아 선별검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모든 성생활 여성에게 일률 STI선별이 아니라25세 미만 연령 기준 명료화.
+- https://www.cdc.gov/std/treatment-guidelines/screening-recommendations.htm
 
 ## 출처
 

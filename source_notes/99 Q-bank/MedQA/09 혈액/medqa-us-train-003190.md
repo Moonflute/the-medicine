@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 글란즈만 혈소판무력증
 ## 해설
 
 
-TTP는 혈소판 감소, 미세혈전성 용혈성 빈혈, 신경학적 증상, 신장 손상, 발진(5징후)으로 나타난다. 환자는 혈소판 25 000, 혈뇨·단백뇨, 신경학적 혼란, 혈청 빌리루빈 상승을 보이며 TTP가 가장 가능성 높다. 따라서 정답은 C이다.
+혈소판감소와 schistocyte를 동반한 미세혈관병성 용혈, 의식변화 및 발열에 응고검사가 비교적 보존된 양상은 TTP C를 가장 지지한다. 고전적 5징후는 혈소판감소, 미세혈관병성 용혈성 빈혈, 신경증상, 신장기능 이상과 발열이며 발진이 아니다. 실제로 다섯 소견이 모두 있어야 진단하는 것은 아니고 ADAMTS13 결핍 평가와 긴급 처치가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003190 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: TTP 고전 5징후의 발열을 발진으로 잘못 적은 부분과 미세혈관병성 용혈 용어를 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13470878/
 
 ## 출처
 

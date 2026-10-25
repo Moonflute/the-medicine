@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 촉진 시 압통
 
 ## 해설
 
+색소성 병변 안의 불균일한 색조(A)는 흑색종을 의심하는 ABCDE 소견 중 색조 다양성에 해당한다. 비대칭, 불규칙 경계, 크기·형태·색 변화도 함께 평가한다. 대칭적 모양과 매끄러운 경계는 상대적으로 양성에 더 합당하지만 절대적 배제 소견은 아니다. 압통만으로 양성 또는 악성을 확정하지 않는다.
 
-악성 색소성 병변은 색소가 불규칙하게 분포하고 경계가 불분명하며 색이 다양하게 변한다. 전체에 걸쳐 다른 색소 침착이 보이면 악성을 시사한다. 다른 선택지는 양성 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 색조 다양성 A는 맞고 압통 D까지 양성 소견으로 단정한 해설을 교정한다.
 
 ## 출처
 

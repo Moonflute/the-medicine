@@ -21,13 +21,15 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 경피적 신장절석술
 
 ## 해설
 
+비억제/상승 PTH를 동반한 반복 고칼슘혈증·저인산혈증·고칼슘뇨는 원발성 부갑상샘기능항진증이다. 신결석이 있고 46세로 50세 미만이므로 정상 골밀도와 무관하게 부갑상샘절제술 평가 A가 적절하다. Cinacalcet 등은 수술이 불가능/원치 않는 상황의 대안일 수 있지만 이 환자의 근치 수술 평가를 대신하지 않는다.
 
-칼슘 11.2 mg/dL, PTH 890 pg/mL, 24시간 칼슘 배설 증가, 신장 결석은 원발성 부갑상선 기능항진증을 나타낸다. 증상이 경미하지만 수술(부갑상선 절제)은 치료적 선택이며 약물 치료는 효과가 제한적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: PHPT의 수술 A를 단순 선택사항이 아닌 신결석·50세미만 적응증으로 설명.
+- https://asbmr.onlinelibrary.wiley.com/doi/full/10.1002/jbmr.4677
 
 ## 출처
 

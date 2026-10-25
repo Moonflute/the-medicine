@@ -19,11 +19,11 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 복부 대동맥류
 
 ## 해설
 
+정답은 C이다. 심한 명치통증의 등방사와 lipase상승 맥락은 급성췌장염을 가장 지지한다. 높은 TG는 관련 원인일 수 있지만 TG942 한 값으로 원인을 확정하거나 모든 진단기준을 충족했다고 단정하지 않는다. 효소의 정상상한과 필요 시 영상을 확인하고 약물·다른 원인도 평가한다. BUN178과 Cr1.0이라는 이례적 원문 수치는 임의 재설정하지 않는다.
 
-심한 복통·방사통·트리글리세리드 942 mg/dL는 고중성지방혈증에 의한 급성 췌장염을 시사한다. 트리글리세리드가 1000 mg/dL 이상이면 췌장염 위험이 높으며, 이 경우 진단이 가장 가능성 높다. 다른 선택지는 증상과 부합하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: TG942만으로 고중성지방성 췌장염을 확진하는 설명 완화.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

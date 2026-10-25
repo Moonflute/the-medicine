@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 신생아에게 B형간염 백신과 B형간염 면역글로불린을 투여�
 
 ## 해설
 
+anti-HBs 양성, anti-HBc·HBsAg 음성은 보통 B형간염 예방접종 면역 패턴이다. HCV RNA 양성인 만성 HCV 환자가 HAV 비면역이면 임신 중에도 A형간염 백신(B)을 권고할 수 있다. HBsAg 음성 산모의 신생아에게 단지 산모 anti-HBs 양성이라는 이유로 HBIG를 투여하지 않는다.
 
-환자는 B형 간염 표면항체만 양성이고 핵항체·항원은 음성으로 과거 감염 후 면역이 형성된 상태이다. 임신 중 B형 간염 면역이 있으면 신생아에게 B형 간염 예방접종과 동시에 면역글로불린을 투여해야 한다. 따라서 신생아에게 B형 간염 백신·HBIG를 계획한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원정답 B와 반대로 HBIG를 권한 해설 및 HBV혈청 해석 수정.
+- https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-9-hepatitis-a.html
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 가스트로그라핀을 이용한 조영 식도조영술
 ## 해설
 
 
-식도 천공이 의심될 때 조영제(가스트로그라핀)를 이용한 식도조영술이 천공 부위와 누출을 직접 확인할 수 있는 가장 정확한 검사이다. 따라서 진단을 위해서는 가스트로그라핀 식도조영술이 필요하다.
+정답 D. 최근 내시경 후 통증과 종격동 기종/Hamman 징후는 의인성 식도천공을 의심하게 한다. 선택지 중 수용성 조영제 식도조영은 누출 확인에 적절하며 대동맥만 평가하는 CT는 목적이 다르다. 현행 응급 지침에서는 조영증강 CT/CT 식도조영을 우선적 영상으로 권고하므로 식도조영이 모든 상황에서 가장 정확한 유일 검사라는 뜻은 아니다. 진단과 치료를 지연시키지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009781 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 내시경 후 종격동 기종에서 수용성 식도조영 D는 주어진 선택지상 적절하나 현행 CT 식도조영보다 보편적 최선이라는 과장 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/
 
 ## 출처
 

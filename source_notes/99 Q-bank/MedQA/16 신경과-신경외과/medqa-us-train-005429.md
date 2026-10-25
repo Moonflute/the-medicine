@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 초기 발작 횟수
 
 ## 해설
 
+초기 증상이 시신경염이나 감각 증상인 MS는 초기 운동·소뇌·괄약근 증상보다 상대적으로 완만한 장애 경과와 연관될 수 있어 C가 정답이다. 그러나 이는 집단적 연관이지 개인의 양성 경과를 보장하지 않으며 'benign MS'도 장기 인지·시각·장애 부담이 없다는 뜻은 아니다. 발병 연령과 초기 재발 빈도도 예후에 관련되고, 본문의 많은 초기 재발·요폐는 불리한 요소일 수 있다. 현재의 복시를 시신경염 자체와 동일시하지 않는다.
 
-다발성경화증에서 초기 시신경염(복시·시력저하) 발생은 재발·악화가 적고 장기적인 장애가 적은 양성 경과와 연관된다. 발병 연령·인종·발작 횟수는 예후와 크게 관련되지 않는다. 따라서 초기 발현 증상이 양성 경과와 연관된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 초기 시신경염이 상대적 양호 예후와 연관될 수 있다는 C는 유지하되 연령·초기 재발수는 예후와 무관하다는 오류를 제거했다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC2440583/
+- 공식/학회 근거: https://pubmed.ncbi.nlm.nih.gov/22269944/
 
 ## 출처
 

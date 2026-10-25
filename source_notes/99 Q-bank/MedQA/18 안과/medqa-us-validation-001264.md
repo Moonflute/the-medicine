@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 왼쪽 상·하지 근력약화
 
 ## 해설
 
+두통·구역·박동성 이명·일과성 시야 흐림과 복시는 두개내압 상승을 의심하게 하며 B, 양측 시신경유두부종이 예상된다. 비만은 관련 위험요인이고 isotretinoin은 두개내고혈압과 연관된 약물이므로 약물 관련 이차성 원인을 평가해야 한다. 원인이 되는 약물 노출을 확인하지 않은 채 단순히 특발성으로 확정해서는 안 된다. 안압 상승과 두개내압 상승은 서로 다르다.
 
-이소트레티노인 복용 시 특발성 두개내 고혈압이 발생할 수 있으며, 이때는 양측 시신경유두부종이 나타난다. 따라서 시신경유두부종이 예상 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 약물 관련 두개내압 상승을 무조건 특발성으로 명명하지 않도록 교정; 원정답 B 유지.
+- 공식/학회 근거: https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021951s013lbl.pdf
 
 ## 출처
 

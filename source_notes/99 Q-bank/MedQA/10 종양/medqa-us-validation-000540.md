@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 추가 치료 없이 관찰
 
 
 전립선암 골전이 환자에게 통증 완화와 국소 종양 조절을 위해 골전이 부위에 외부 방사선 치료가 표준 치료이다. 따라서 요추에 외부 방사선 치료가 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000540 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고환절제 후 통증성 전립선암 골전이에 국소 외부 방사선 A가 적절한 완화라는 원문·해설 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations
 
 ## 출처
 

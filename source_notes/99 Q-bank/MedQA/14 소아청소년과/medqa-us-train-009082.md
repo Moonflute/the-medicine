@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 쇄골 MRI
 
 ## 해설
 
+출산 관련 쇄골 골절로 통증 때문에 팔을 덜 움직이지만 손목·파악 기능은 보존되어 있다. 대부분 보존적으로 치유되며 불편감이 있으면 소매를 셔츠에 고정해 부드럽게 지지(B)할 수 있다. 별도 단단한 팔 부목이 반드시 필요한 것은 아니다.
 
-신생아의 쇄골 골절은 출산 시 압박에 의해 발생하며, 부목 고정이 필요하지만 부목보다 팔을 고정하는 것이 일반적이다. 부목을 셔츠에 고정하면 움직임을 제한하고 골절 부위가 안정된다. 따라서 소매를 셔츠에 고정하는 것이 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단순 셔츠 소매 고정과 별도 팔 부목을 혼동한 설명 교정.
+- https://medlineplus.gov/ency/article/001588.htm
+- https://www.rch.org.au/clinicalguide/guideline_index/fractures/Clavicle_fractures_Emergency_Department/
 
 ## 출처
 

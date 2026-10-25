@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. “생명유지장치를 끊어야 사망하게 됩니다.”
 
 ## 해설
 
+뇌사는 뇌간을 포함한 뇌 전체 기능의 영구적 소실을 정해진 절차로 확인한 상태이며, 유효하게 판정되면 미국 출제 맥락에서 법적 사망에 해당하므로 B가 적절하다. 인공호흡과 순환이 유지되어 몸이 따뜻하고 심장이 뛸 수 있어도 이 판정과 모순되지 않는다. 다만 GCS 3만으로 뇌사를 판정할 수 없으며 원인·회복 불가능성, 교란 요인 배제, 뇌간반사와 무호흡 검사 등 정식 요건을 충족해야 한다. 문항은 전문의의 적절한 판정이 완료되었다는 전제의 가족 설명을 묻는다.
 
-뇌사는 뇌 기능이 영구히 정지한 상태이며, 심장이 자발적으로 박동하더라도 법적으로 사망으로 간주된다. 따라서 뇌사는 법적 사망이라는 설명이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 법적으로 유효한 정식 뇌사 판정을 전제로 한 설명 B를 유지한다. GCS 3이나 따뜻한 몸·심박만으로 사망 여부를 정하지 않는다는 점을 명확히 한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/
 
 ## 출처
 

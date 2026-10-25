@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "TST/IGRA만으로 잠복·활동성을 구별한다는 오해를 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-잠복 결핵(성인) 진단에 사용되는 검사는?
+TST 또는 IGRA 양성 결과의 의미로 옳은 것은?
 
 ## 선택지
 
-A. TST와 IGRA
-B. 흉부 X-선 검사
-C. 가래 배양 검사
-D. 혈청 항체 검사
+A. 결핵 감염을 지지하지만 그것만으로 잠복 감염과 활동성 질환을 구분하지 못한다
+B. 활동성 폐결핵을 단독 확진한다
+C. 항결핵제 감수성을 모두 알려준다
+D. 흉부 평가가 언제나 불필요함을 뜻한다
 
 ## 해설
 
-잠복 결핵은 면역학적 검사인 투베르쿨린 피부반응(TST)과 인터페론 감마 방출 검사(IGRA)로 진단한다.
+검사 결과를 노출·증상·영상과 필요한 미생물 검사에 연결한다. 면역저하나 최근 감염에서는 음성 결과만으로 감염·질환을 배제하지 않는다.
 
 ## 오답 포인트
 
-- **B. 흉부 X-선 검사:** 흉부 X-선은 활동성 병변 여부를 확인하지만 잠복 결핵 진단에 직접적인 검사는 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/잠복 결핵 (성인) (Latent Tuberculosis (Adult)).md`
-- 학습 목표: 원문 핵심: * TST (투베르쿨린 피부 반응 검사): 결핵균 항원에 대한 지연형 과민반응 확인. * IGRA (인터페론 감마 분비 검사): 결핵균 특이 항원에 대한 T세포의 반응을 혈액으로 측정.
+- 학습 목표: TST·IGRA의 결핵 감염 평가와 활동성 구분 한계
+
+## 검수 근거
+
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/clinical-and-laboratory-diagnosis.html

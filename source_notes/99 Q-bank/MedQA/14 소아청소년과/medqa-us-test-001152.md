@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-체중 1,900 g의 남아가 임신 36주 초임부에게 만삭으로 태어났다. 임신은 양수과다증으로 합병되었고 아프가 점수는 1분과 5분 모두 7점이었다. 머리둘레는 2백분위수, 키는 15백분위수였고 뒷머리가 두드러지며 귀가 낮고 턱이 작고 뒤로 물러나 있었다. 주먹을 쥐고 둘째·셋째 손가락이 겹쳤으며 발바닥이 볼록하고 배꼽탈장이 있었다. 추가 평가에서 가장 가능성 높은 소견은?
+체중 1,900 g의 남아가 36세 초임부에게 만삭으로 태어났다. 임신은 양수과다증으로 합병되었고 아프가 점수는 1분과 5분 모두 7점이었다. 머리둘레는 2백분위수, 키는 15백분위수였고 뒷머리가 두드러지며 귀가 낮고 턱이 작고 뒤로 물러나 있었다. 주먹을 쥐고 둘째·셋째 손가락이 겹쳤으며 발바닥이 볼록하고 제대탈장(omphalocele)이 있었다. 추가 평가에서 가장 가능성 높은 소견은?
 
 ## 선택지
 
@@ -45,7 +47,13 @@ D. 전전뇌증
 ## 해설
 
 
-소두증, 저귀, 작은 턱, 겹친 손가락, 발바닥 볼록함, 배꼽 탈장은 에드워드 증후군(18번 삼염색체증)의 특징이며, 이 증후군에서 가장 흔한 심장 결함은 심실중격결손이다.
+소두증, 저귀, 작은 턱, 겹친 손가락, 발바닥 볼록함, 제대탈장(omphalocele)은 에드워드 증후군(18번 삼염색체증)의 특징이며, 이 증후군에서 가장 흔한 심장 결함은 심실중격결손이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 36-year-old를임신36주로오역한부분복원. 제대탈장omphalocele표기명확화. Edwards/VSD A유지.
+
 
 ## 출처
 

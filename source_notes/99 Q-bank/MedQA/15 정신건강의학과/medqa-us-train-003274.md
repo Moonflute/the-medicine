@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 신체증상장애
 
 ## 해설
 
+복통과 실제 탈장이 있더라도, 신체 증상에 대해 과도하고 지속적인 걱정·불안 및 행동이 동반되면 신체증상장애(D)가 가능하다. 진단에 신체질환 부재나 모든 검사 정상이라는 조건은 필요하지 않다. 꾀병이나 허위성장애처럼 의도적으로 증상을 만들어낸다는 근거도 본문에 없다. 다른 원인의 평가를 생략하라는 뜻은 아니다.
 
-반복적인 탈장에 대한 과도한 걱정과 실제 증상 부재는 신체증상장애의 특징이다. 전환장애는 신경학적 결손을 모방하고, 꾀병은 의도적 증상 과장이다. 따라서 가장 적절한 진단은 신체증상장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신체증상장애는 실제 신체질환이 없어야 한다는 잘못된 전제를 교정했다.
+
 
 ## 출처
 

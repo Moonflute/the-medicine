@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "PSVT의 절대 심박수 범위와 넓은 QRS를 WPW로 단정하는 설명을 전형적 패턴과 변전도 예외로 교정했다."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11d25pewvrzxlfc1nec2c0shnpnnpzatzuc2hmrwc2n21jnjzlbeldaffzwep2zuhsemjxrnnjrk4xy0hkagrtvnvksepwwtnwc1lyswdwr0zqyuhsallysmthv0vns0zcvfzsuxbmbtfrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -16,36 +21,45 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-PSVT의 특징적인 심전도 소견은?
+PSVT의 ECG 표현에 대한 설명으로 가장 적절한 것은?
 
 ## 선택지
 
-A. 규칙적인 120-250회/분의 좁은 QRS 파
-B. 넓은 QRS와 비정상 PR 간격
-C. ST 절전 및 T 파 상승
-D. 완전 방실 차단
+A. 대개 갑자기 시작·종료되는 규칙적 좁은 QRS 빈맥이지만 변전도·회로에 따라 넓은 QRS도 가능하다.
+B. PSVT는 언제나 QRS가 넓고 불규칙하다.
+C. WPW 관련 AVRT이면 반드시 넓은 QRS로만 나타난다.
+D. QRS가 좁으면 모든 빈맥은 정상 동성빈맥이다.
 
 ## 해설
 
-PSVT는 갑자기 시작·끝나는 규칙적인 빈맥으로, 보통 QRS가 좁으며 심박수가 120~250회/분 범위에 있습니다.
+AVNRT·정방향 AVRT 등 PSVT는 전형적으로 규칙적 좁은 빈맥이다. 기존 각차단·변전도 또는 역방향 회로 등에서는 넓을 수 있어 폭 하나로 회로를 확정하지 않는다. 넓은 빈맥은 VT 등의 감별과 안정성 평가가 우선이다.
 
 ## 오답 포인트
 
-- **B. 넓은 QRS와 비정상 PR 간격:** 넓은 QRS는 부전도성 회로(예: WPW)에서 나타날 수 있지만 PSVT의 일반적 소견은 아닙니다.
+- 언제나 넓고 불규칙: 전형적인 PSVT 표현과 다르다.
+- WPW AVRT는 반드시 넓음: 정방향 AVRT는 정상 His-Purkinje 순행 전도로 좁을 수 있다.
+- 좁으면 동성: AVNRT/AVRT·심방빈맥·조동 등도 가능하다.
 
 ## 출처
 
 - 내부 학습 노트: 발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT).md`
-- 학습 목표: 원문 핵심: - **정의**: 갑자기 시작하고 갑자기 끝나는 상실성 빈맥. 히스다발 분기점 상부의 회귀 회로를 포함하며, 주로 규칙적이고 좁은 QRS파를 보이는 빈맥(regular narrow QRS tachycardia)을 지칭함. - **분류 및 병태생리** - **방실결절 회귀성 빈맥(AVNRT)**: PSVT의 가장 흔한 원인(50-60%). 방실결절 내의 이중 전도로(fast/slow pathway)를 통해 회귀 회로가 형성됨. - **방실 회귀성 빈맥(AVRT)**: 두 번째로 흔한 원인(20-30%). 심방과 심실을 연결하는 부전도…
+- 학습 목표: PSVT의 규칙적 발작성 빈맥과 좁은/넓은 QRS의 맥락을 이해한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: PSVT의 절대 심박수 범위와 넓은 QRS를 WPW로 단정하는 설명을 전형적 패턴과 변전도 예외로 교정했다.
+- https://doi.org/10.1093/eurheartj/ehz467
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support

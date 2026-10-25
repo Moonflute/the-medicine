@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 환자와 부모를 가족치료에 의뢰
 
 ## 해설
 
+아동의 진술을 이혼에 따른 꾸며낸 이야기로 일축하지 않는다. 안전을 확인하고 의심 단계에서 해당 관할의 신고 의무를 이행하며 전문 성학대 평가기관(C)에 연계한다. 전문 평가에는 외상에 민감한 면담·진찰 및 필요시 감염검사가 포함된다. 학대의 확정을 기다리거나 필요한 응급 진료를 뒤로 미룬다는 뜻은 아니다.
 
-아동이 성적 학대를 의심받는 상황에서는 전문적인 성학대 평가기관에 의뢰하여 객관적인 조사와 진단을 받아야 한다. 이는 법적·윤리적 의무이며, 다른 검사는 사후에 필요할 수 있지만 최초 단계는 전문기관 평가이다. 따라서 가장 적절한 다음 단계는 성적 학대 확인을 위한 전문기관 의뢰이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 학대 확정 후에만 신고·진료한다는 오해를 막고 안전·전문 평가의 병행을 명확화.
+- https://publications.aap.org/pediatrics/article-lookup/doi/10.1542/peds.2013-1741
+- https://www.cdc.gov/std/treatment-guidelines/table-8.htm
 
 ## 출처
 

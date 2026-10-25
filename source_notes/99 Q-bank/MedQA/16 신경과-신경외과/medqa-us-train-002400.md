@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 삼염기 반복서열
 
 ## 해설
 
+정답은 A, 비정상 디스트로핀이다. 비교적늦은발병의 근위약화·종아리가성비대와 심장침범은 Becker 근이영양증을 시사한다. 흔히 읽는틀이 보존되는 in-frame변이로 일부기능을 가진 비정상/감소 디스트로핀이 만들어진다. frameshift로 사실상디스트로핀소실을 일으키는 전형적Duchenne양상과 구분한다.
 
-베커 근이영양증은 디스트로핀 유전자의 비정상(프레임이동) 변이가 원인이며, 진행성 근력 약화와 심장 전도 이상(1도 방실 차단)을 동반한다. 따라서 비정상 디스트로핀이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Becker를 frameshift변이라고 한 reading-frame 오류수정. 비정상dystrophin A 유지.
 
 ## 출처
 

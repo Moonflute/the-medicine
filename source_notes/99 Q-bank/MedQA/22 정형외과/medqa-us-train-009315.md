@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvTWVzYWxhemluZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 세균의 관절 파종
 
 ## 해설
 
+시프로플록사신 시작 후 후방 발목 통증과 아킬레스건 부위 압통·부종은 플루오로퀴놀론 관련 힘줄 손상을 시사한다(A). 종아리를 쥐어도 족저굴곡이 일어나지 않는 양성 Thompson 검사는 단순 건염을 넘어 아킬레스건 파열을 의심하게 한다. 일부 발목 능동운동이 가능해도 다른 근육에 의해 움직일 수 있어 파열이 배제되지는 않는다. 의심되면 약물을 중단하고 체중부하·운동을 제한하여 신속히 힘줄 평가를 받아야 한다. 실제 약제 대체는 원래 감염과 감수성을 고려한다.
 
-플루오로퀴놀론은 건 섬유를 손상시켜 아킬레스건염을 일으키며, 통증이 운동·밤에 악화된다. 환자는 해당 약물을 복용 중이므로 약물 이상반응이 원인이다. 다른 선택지는 증상과 부합하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 양성 Thompson 검사(종아리 압박 시 족저굴곡 없음)를 단순 건염으로 놓친 해설을 아킬레스건 파열 의심으로 교정했다. fluoroquinolone 이상반응 A는 유지한다.
+- 공식/학회 근거: https://www.fda.gov/media/119537/download
 
 ## 출처
 

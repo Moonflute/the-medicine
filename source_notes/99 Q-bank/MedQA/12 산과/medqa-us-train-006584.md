@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 예방적 아지트로마이신 투여
 
 ## 해설
 
+31주에서 파수·경부 개대와 잦은 수축으로 조산이 임박할 수 있어 황산마그네슘(C)을 태아 신경보호 목적으로 투여한다. 이는 수축억제제를 추가하는 의미가 아니다. PPROM 잠복기 항생제도 별도로 필요할 수 있으며 아지트로마이신 단독 선택지와 혼동하지 않는다. 분만 임박성·산모 금기를 평가한다.
 
-조기 양막 파수와 자궁수축이 진행 중이며 태아는 정상 심박수를 보인다. 태아 뇌 보호를 위해 황산마그네슘을 투여하는 것이 권장된다. 따라서 황산마그네슘 투여가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 31주 임박 분만의 Mg 신경보호와 PPROM 항생제의 독립 적응증 구분.
+- https://www.acog.org/womens-health/faqs/preterm-labor-and-birth
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/when-your-waters-break-prematurely/
 
 ## 출처
 

@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RheGltZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 경구 리팜핀(rifampin) 투여 시작
 
 ## 해설
 
+뇌척수액 저당·호중구 증가와 그람음성 간균은 세균성 수막염이다. 정주 세포탁심(C)이 적절한 중추신경계 치료 약제이며 배양·감수성과 병원 내 내성 위험에 따라 조정한다. NICE는 그람음성 수막염 확인 시 세포탁심 단독을 제시하므로 아미노글리코사이드 병용이 항상 필수인 것은 아니다.
 
-신생아 수막염에서 그람 음성 간균이 확인되면 3세대 세팔로스포린(cefotaxime)과 아미노글리코사이드 조합이 표준 치료이다. 따라서 즉시 정맥 내 cefotaxime 투여를 시작한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 그람음성 신생아 수막염 세포탁심 C 유지. 아미노글리코사이드 병용이 항상 표준이라는 단정 수정.
+- https://www.nice.org.uk/guidance/ng195/chapter/Meningitis-babies-with-early-onset-or-late-onset-infection-in-neonatal-units
 
 ## 출처
 

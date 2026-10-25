@@ -17,15 +17,17 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 폐쇄성 황달(Obstructive jaundice)
 
 ## 해설
 
+정답은 A이다. 골통과 ALP 상승, 정상 간 aminotransferase 및 대체로 정상 칼슘은 Paget 골병을 시사한다. 두개골이 침범되면 청력 저하가 발생할 수 있어 A가 가장 합당하다. 골밀도 증가나 특정 방사선 소견은 본문에 제시되지 않았으므로 관찰했다고 단정하지 않는다. 실제로 골성 ALP와 영상 등을 확인한다.
 
-알칼리성 포스파타제 상승과 골통, 골밀도 증가는 Paget 병의 특징이며, Paget 병은 청력 손실을 동반할 수 있다. 따라서 환자의 상태와 관련된 것은 난청이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 제시되지 않은 골밀도 증가를 근거로 한 설명 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

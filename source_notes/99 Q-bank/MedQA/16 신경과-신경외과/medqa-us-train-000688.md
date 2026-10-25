@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. Levetiracetam
 
 ## 해설
 
+18세 이전 시작한 여러 운동틱과 음성틱이 1년 넘게 증감하므로 투렛증후군에 합당하다. 선지 중 haloperidol(C)은 틱을 억제하는 효과가 있는 도파민 수용체 차단제이다. 그러나 보편적 첫 치료로 단정하지 않는다. 기능 영향·선호를 평가하고 가능하면 CBIT를 우선 제안하며, 약물이 필요하면 효과와 운동·대사·진정 부작용을 고려해 선택한다. Clonidine도 틱 감소 효과가 있어 무효한 약으로 취급하지 않는다.
 
-반복적인 비자발적 운동(눈 깜빡임, 기침, 그루팅)과 스트레스 유발 악화는 틱 장애(투렛 증후군)와 일치한다. 투렛 증후군의 1차 치료는 도파민 차단제인 할로페리돌이다. 따라서 할로페리돌이 가장 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 투렛증후군의 항틱 약물 C는 유효하지만 할로페리돌을 모든 환자의 일차 치료로 규정한 오류를 교정한다.
+- 공식/학회 근거: https://www.aan.com/Guidelines/home/GetGuidelineContent/960
 
 ## 출처
 

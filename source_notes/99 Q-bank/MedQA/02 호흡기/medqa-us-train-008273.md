@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 글루탐산 탈탄산효소 항체
 
 
 낭성 섬유증 환자는 지방소화 효소 결핍으로 비타민 K 흡수가 감소해 PT 연장이 나타난다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 본문·4선지·정답 A·해설 및 영어 원문 읽음. 태변성 장폐색, 반복 호흡기감염, 비강용종과 지방변은 낭성섬유증을 지지하며 췌장 외분비부전→지용성 비타민 K 흡수장애→PT 연장 기전이 일치. 치료·최신지침 검증 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 갑상샘중독증
 
 ## 해설
 
+비점막 손상·출혈, 초조와 과대적 사고, 고혈압·빈맥은 선택지 중 코카인 중독(A)을 가장 시사한다. 그러나 급성 코카인 교감신경흥분에서 전형적인 동공 반응은 산대이지 축소가 아니다. 원문에 2mm 동공이 기재된 것은 비전형적이며 동반 물질이나 다른 원인도 확인해야 한다. 원수치를 임의로 바꾸거나 동공 축소가 코카인의 전형이라고 합리화하지 않는다.
 
-극심한 불안, 고혈압, 빈맥, 동공 축소, 환각 및 과대망상은 코카인 중독의 전형적인 급성 증상이다. 다른 약물은 이러한 교감신경 과다활성 패턴을 보이지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 코카인의전형적동공소견을축소라고역전설명한안전오류수정. 원문2mm보존하여비전형적단서명시, A유지.
+- https://medlineplus.gov/ency/article/000946.htm
+- https://nida.nih.gov/sites/default/files/1141-cocaine.pdf?8YXog=VzkF6gmouU
 
 ## 출처
 

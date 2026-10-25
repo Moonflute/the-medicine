@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 긴장성 기흉
 ## 해설
 
 
-고속 충돌 후 종격동이 확대되고 좌측 주기관지 함몰이 보이며, 급성 저산소증과 저혈압이 동반된 경우 대동맥이 종격동 내에서 파열된 것이 가장 흔한 원인이다. 대동맥 파열은 즉시 치명적이며, 다른 선택지는 증상과 영상소견을 설명하지 못한다. 따라서 가장 가능성 높은 진단은 흉부 대동맥 파열이다.
+고속 충돌 뒤 종격동 확장, 왼쪽 주기관지의 하방 편위와 비위관의 오른쪽 편위는 외상성 흉부 대동맥 손상과 종격동 혈종을 강하게 시사한다. 왼쪽 폐기저부 둔탁음은 동반 혈흉 가능성을 뒷받침한다. 선택지에서는 C가 가장 적절하다. 단순 흉부 X선만으로 파열의 범위나 형태를 확정할 수 없으며, 생존하여 내원하는 봉쇄성 손상도 있어 모든 대동맥 파열이 즉시 사망한다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000089 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고에너지 감속손상과 종격동 소견의 진단 추론을 유지하고 최빈 원인·즉시 치명적이라는 과도한 단정을 수정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

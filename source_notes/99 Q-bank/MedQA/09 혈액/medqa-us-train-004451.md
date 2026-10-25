@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 혈소판 응집검사 시행
 ## 해설
 
 
-정상 혈소판 수와 경미한 빈혈이 있는 경우, 점막·피부 출혈은 혈소판 기능 이상을 의심하게 한다. 가장 중요한 초기 검사는 혈소판 응집 검사를 시행하여 기능 장애를 확인하는 것이다.
+정상 혈소판 수에도 점막출혈·과다월경이 반복되어 혈소판/vWF 관련 일차지혈 장애를 의심한다. 선택지 중 혈소판 응집검사 D는 이런 기능 이상 평가에 가장 관련된다. 실제로는 vWF 항원·활성·VIII 및 출혈 병력 등과 단계적으로 평가하고 응집검사 하나만을 모든 환자의 가장 민감한 첫 검사나 vWD 배제법으로 보지 않는다. 원인 확정 없이 ITP 치료용 steroid/IVIG 또는 골수생검부터 하는 선택은 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004451 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정상 혈소판 수의 점막출혈에서 기능 평가 D를 유지하되 이것이 vWD 포함 모든 경우의 단독 첫 확진검사라는 과장 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7805326/
 
 ## 출처
 

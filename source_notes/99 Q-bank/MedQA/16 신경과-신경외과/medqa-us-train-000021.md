@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 가장 가능성 있는 진단은 원추 증후군(conus medullaris syndrome)
 
 ## 해설
 
+전이성 전립선암 환자의 새 요통·양측 비대칭 하지약화·저반사·안장감각 소실은 악성 종양에 의한 마미/척수 압박을 의심하게 한다. 이 맥락에서는 신속히 덱사메타손을 시작하면서 긴급 MRI와 전문 협진을 진행하는 A가 적절하다. 배뇨배변 실금이 없다고 압박을 배제하지 않는다. 추간판성 마미증후군을 포함한 모든 원인에 스테로이드를 자동 적용하라는 의미는 아니고, 영상으로 원인·범위를 확인하여 감압수술이나 방사선 등 치료를 결정한다.
 
-허리 통증, 안장 마취, 하반신 약화, 저반사 등은 cauda equina syndrome을 나타낸다. 이 응급 상황에서는 MRI 촬영 전에 스테로이드 치료를 시작해 신경 손상을 최소화한다. 따라서 가장 가능성 있는 진단은 cauda equina syndrome이며, MRI 전에 스테로이드를 시작한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 스테로이드 선행을 모든 마미증후군에 일반화한 해설 수정. 전립선암 전이성 압박의 맥락에서 dexamethasone과 긴급MRI A 유지.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng234/chapter/Recommendations
 
 ## 출처
 

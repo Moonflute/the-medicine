@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 수술
 ## 해설
 
 
-불안정한 복부 대동맥류 파열은 급성 저혈압·쇼크·복부 통증을 동반하며, 즉시 외과적 개복 수술이 생명을 구한다. 영상 검사는 시간 지연을 초래하므로 응급 수술이 최선이다. 따라서 가장 적절한 치료는 수술이다.
+알려진 AAA 환자의 갑작스러운 복통·등 방사통과 쇼크·의식 악화는 파열을 강하게 의심하게 하므로 즉시 혈관외과 수술/혈관내 복구를 위한 대응(D)이 필요하다. 혈액제제 소생과 신속 출혈제어를 준비한다. 실제 복구 방식은 EVAR 가능 해부학과 자원에 따라 정하며 무조건 개방술만 뜻하지 않는다. CTA는 신속히 시행 가능하고 처치를 지연하지 않는다면 복구 계획에 중요하지만, 악화하는 환자의 생명구제 처치를 기다리게 해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010045 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 파열 AAA의 응급 복구 D는 유지하고 모든 경우 개방술/CT 금지로 단정한 설명을 수정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://esvs.org/wp-content/uploads/2024/02/ESVS-2024-AAA-Guidelines.pdf
 
 ## 출처
 

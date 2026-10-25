@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 임신 15주 차에 사중 표지자 검사(quadruple test) 예약
 
 ## 해설
 
+hCG 상승과 PAPP-A 저하는 21번 삼염색체 위험 증가를 시사하는 선별 소견이다. 11주에는 상담 후 CVS로 진단 검사를 시행할 수 있어 C가 가장 직접적인 확진 선택지이다. 선별만으로 다운증후군이 확진된 것은 아니며 초음파 및 위험 산정, 검사의 장단점을 설명하고 환자 선택을 존중한다.
 
-베타‑hCG 상승·PAPP‑A 저하가 비정상인 1학기 스크리닝은 다운증후군 위험을 시사한다. 확진을 위해 융모막 채취 후 염색체 분석을 권한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 1학기 오역과 선별/확진 구분 및 선택권 설명.
+- https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2026/01/screening-for-fetal-chromosomal-abnormalities
 
 ## 출처
 

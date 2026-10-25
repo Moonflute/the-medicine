@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. HBeAg
 
 
 HBsAb는 과거 감염 회복이나 백신에 의한 면역을 나타내는 항체이며, 양성일 경우 B형 간염에 대한 면역을 의미한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003828 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HBsAb가 회복/백신 관련 면역을 나타내는 선택지 B와 기본 혈청학 설명을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

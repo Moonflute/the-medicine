@@ -18,17 +18,19 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRXJ5dGhyb215Y2luLm1k
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 에리스로마이신(Erythromycin)
 
 ## 해설
 
+발열·편도 삼출·압통성 림프절과 기침 부재로 GAS 인두염을 의심한다. 배양 등으로 확인하고 아목시실린 뒤 안면부종·발진 병력을 고려한다. 보기 중 에리스로마이신(D)은 페니실린 알레르기에서 가능한 대안이다. 내성·위장관 부작용을 고려하며 모든 인두염의 1차약이라는 뜻은 아니다.
 
-페니실린 알레르기가 있는 경우, 급성 연쇄상구균 인두염 치료에 에리스로마이신이 1차 선택이다. 따라서 다음 단계는 에리스로마이신 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 페니실린 즉시형 알레르기 의심 환자의 마크롤리드 대안 D 유지. 보편적 1차약 단정 삭제.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7108032/
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html
 
 ## 출처
 

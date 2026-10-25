@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,13 @@ D. 트리메토프림-설파메톡사졸
 
 ## 해설
 
+급성 방광염에 배양·감수성 검사를 하고, 제시된 약제 중 아목시실린/클라불란산(A)을 사용할 수 있다. 이는 아미노페니실린/베타락타마제 억제제 조합이며 ‘1세대’ 분류는 부적절하다. TMP-SMX는 임신 초기 다른 적절한 대안이 없을 때 고려할 수 있어 모든 상황의 절대금기라고 하지 않는다.
 
-임신 10주인 환자에게 급성 방광염이 의심되며, 임신 중 1세대 β‑락탐계 항생제인 아목시실린‑클라불란산이 안전하고 효과적이다. 다른 옵션은 임신에 금기이거나 내성 위험이 있다. 따라서 아목시실린‑클라불란산이 가장 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 아목시실린을 1세대 약물로 오분류하고 TMP-SMX 절대금기로 일반화한 설명 수정.
+- https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals
 
 ## 출처
 

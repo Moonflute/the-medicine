@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,12 @@ D. 백인 인종
 
 ## 해설
 
+자궁경부 내구를 덮는 태반과 통증 없는 임신 후기 출혈은 전치태반에 부합한다. 제시된 요인 중 흡연(C)은 전치태반의 위험인자이다. 경구피임약 과거 복용, 미산부, 백인 인종보다 흡연이 이 문항의 위험인자에 해당한다. 경추 외상이나 척수 MRI에 관한 기존 해설은 이 사례와 무관하다.
 
-경추 외상 후 상지 운동·감각 저하와 심부건 반사 소실은 중앙척수증후군(central cord syndrome)이며, MRI는 골절·탈구 없이 연부 조직 손상을 가장 잘 평가한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/placenta-praevia-placenta-accreta-and-vasa-praevia
 
 ## 출처
 

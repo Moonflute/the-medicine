@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 정맥 세프트리악손
 
 ## 해설
 
+고유판 대식세포의 PAS 양성 소견과 이동성 관절염, 흡수장애는 휘플병을 강하게 시사하며, D의 정맥 세프트리악손은 초기 치료 선택지이다. PCR, 다른 염색 검사 및 임상 소견으로 확인하고 중추신경계와 심장 침범을 평가한다. 초기 주사 치료 후에도 전문 지침에 따른 지속 항균요법과 재발 추적이 필요하다. PAS 염색이 모든 경우에 절대적으로 특이하거나, 단기간의 주사 치료만으로 완치된다는 뜻은 아니다.
 
-소장 생검에서 PAS 양성 대식세포는 휘플병(트로페리마 휘플리) 특이소견이며, 이 질환은 중증 염증성 관절염과 심장판막 손상을 동반한다. 급성 중증 휘플병에서는 장기 손상을 방지하기 위해 즉시 정맥 세프트리악손을 투여한다. 따라서 정답은 정맥 세프트리악손이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Whipple D의초기IV치료는유지하고PAS절대특이/단기치료로끝나는듯한설명 한정.
+- https://www.orpha.net/pdfs/data/patho/Cpg/de/Whipple_Krankheit_DE_de_CPG_ORPHA3452.pdf
 
 ## 출처
 

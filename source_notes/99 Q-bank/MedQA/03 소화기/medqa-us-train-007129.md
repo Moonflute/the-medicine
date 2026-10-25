@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,15 @@ D. 양성자펌프억제제
 
 ## 해설
 
+경고 소견이 없는 젊은 환자의 미조사 소화불량에서는 A의 요소호기검사로 활동성 H. pylori 감염을 확인한다. 세균의 요소분해효소가 표지 요소를 분해하여 생성한 CO2를 측정하는 검사이며, 위산 분비량을 측정하는 검사가 아니다. 양성이면 제균 치료를 시행한다. 혈청 IgG 검사와 달리 현재 감염의 확인과 제균 판정에 활용할 수 있다.
 
-소화불량·위통에 대한 진단적 접근으로는 위산 분비를 확인하는 요소 호기검사가 가장 민감하고 비침습적이다. 헬리코박터 제균요법은 감염이 확인된 경우에 시행한다. 따라서 요소 호기검사가 가장 적절한 초기 검사이다
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 요소호기 A는위산분비검사가아닌H.pylori urease검사라는기전교정.
+- https://gi.org/guideline/management-of-dyspepsia/
+- https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf
 
 ## 출처
 

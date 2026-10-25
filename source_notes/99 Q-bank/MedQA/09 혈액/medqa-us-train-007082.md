@@ -22,11 +22,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,13 @@ D. CD4+ T 림프구 수 감소
 ## 해설
 
 
-피카증(위장관 이식증)은 비정상적인 식물성 물질(흙·점토) 섭취와 관련되며, 대변 잠혈검사 양성은 위장관 출혈을 시사한다. 갑상선 기능 저하나 납 중독은 해당 증상과 연관이 적다. 따라서 대변 잠혈검사 양성이 가장 가능성 높은 소견이다.
+흙/점토 같은 비식품을 먹고 싶은 이식증(pica)은 철결핍의 단서가 될 수 있다. 고령·피로·체중감소가 함께 있어 위장관 출혈/종양을 평가하는 맥락에서 대변 잠혈 양성 A가 가장 부합한다. 흙은 식물성 식품이 아니며 이식은 장기 이식을 뜻하지 않는다. 흙 섭취에 따른 납 노출도 가능하므로 C가 절대로 무관한 것은 아니지만 본문 출제 초점은 철결핍의 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007082 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Pica를 위장관 이식증/식물성 물질 섭취라고 한 오역과 iron deficiency 연결 누락 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

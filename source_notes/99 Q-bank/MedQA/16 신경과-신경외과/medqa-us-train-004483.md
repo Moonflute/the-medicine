@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 기저 편두통
 
 ## 해설
 
+웃기·말하기·식사로 유발되는 일측 전기충격성·찌르는 안면통은 삼차신경통(C)을 강하게 시사한다. 보통 발작은 수초에서2분 이내지만 일부는 더 길 수 있어 본문의3분을 임의로 줄이지 않는다. 일반 신경검사에서 감각이 정상인 경우가 많으며 무감각이 필수 특징은 아니다. 원문은 통증이 오른쪽인데 감각검사는 왼쪽 정상이라고만 적었으므로 아픈 쪽의 감각이 정상이라고 확인된 것으로 확대하지 않는다. 지속 감각결손이나 비전형 소견은 이차 원인 평가가 필요하다.
 
-얼굴에 전기 같은 급성 통증이 음식·말·웃음에 유발되는 삼차신경통은 짧은 발작과 무감각을 동반한다. 신경학적 검사가 정상인 점도 특징이다. 따라서 가장 가능성 높은 진단은 삼차신경통이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 삼차신경통이 무감각을 동반하는 것이 전형이라는 해설 오류를 교정했다. 자극유발 전기충격성 통증과 C를 유지하며 원문 검사 측성 한계를 숨기지 않는다.
+- 공식/학회 근거: https://ichd-3.org/13-painful-cranial-neuropathies-and-other-facial-pains/13-1-trigeminal-neuralgia/
 
 ## 출처
 

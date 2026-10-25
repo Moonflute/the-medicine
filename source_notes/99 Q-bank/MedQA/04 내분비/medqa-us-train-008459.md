@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 인슐린 수치 감소
 ## 해설
 
 
-아크로메갈리와 두꺼워진 턱, 손가락이 맞지 않는 증상은 성장호르몬 과다분비인 말단비대증을 나타낸다. 혈청 IGF‑1과 GH가 상승하면 진단이 확정된다.
+정답 C. 턱·눈썹융기 변화, 반지 크기 증가와 다한증은 말단비대증을 시사하며 GH 과다와 연령 보정 IGF-1 상승이 예상된다. GH는 박동성으로 분비되므로 무작위 GH가 높다는 사실만으로 확진하지 않는다. 전형적 임상상과 충분히 높은 IGF-1이 진단을 지지하며 애매한 경우 OGTT 후 GH 억제 여부 등을 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008459 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: IGF1/GH C가 예상되나 무작위GH 단독 확진이라는 오해를 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/
 
 ## 출처
 

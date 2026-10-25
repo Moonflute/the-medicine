@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 각막반사 검사
 
 ## 해설
 
+명확한 치명적 뇌손상 뒤에도 저체온·진정제·대사 이상 등 교란을 배제하고 의식·뇌간반사·무호흡 평가를 체계적으로 해야 한다. 선지 중 각막반사 검사(D)는 뇌간 기능 평가에 해당한다. 각막반사 소실 하나만으로 뇌사를 확진할 수 없다. 경추 손상은 일부 검사·호흡 평가 해석을 제한할 수 있어 안전한 검사 범위와 필요한 보조검사를 전문가가 판단한다. 2023 AAN 지침은 EEG나 MRA를 표준 보조검사로 권고하지 않는다.
 
-뇌사 판정에 필요한 최소한의 반사는 각막반사이며, 이는 뇌간 기능을 확인하는 가장 간단한 검사이다. 따라서 다음 단계는 각막반사 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 각막반사 D는 검사 구성요소이나 최소 반사 한 가지만으로 뇌사를 판정한다는 해설을 교정한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/
 
 ## 출처
 

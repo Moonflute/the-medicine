@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 식이 조절로 호전
 
 ## 해설
 
+간헐적 통증과 원통형 복부 종괴는 장중첩증을 시사한다. 통증에 앞선 출혈은 이소성 위점막을 포함한 메켈게실 같은 선두점의 가능성을 높이며, 보기 중 C의 양성 99mTc-pertechnetate 스캔이 출제 의도다. 이 검사는 메켈게실 내 기능성 이소성 위점막을 찾는 검사이지 모든 장중첩증이 양성이거나 급성 장중첩 진단/처치의 첫 단계가 되어야 한다는 뜻은 아니다. 음성 스캔도 위점막 없는 게실을 배제하지 못한다.
 
-간헐적 복통, 무릎을 가슴에 끌어안으면 호전, 혈변, 오른쪽 상복부 종괴는 회장돌출증(장중첩증)을 시사한다. Technetium‑99m 스캔은 메켈 게스트리션을 확인하는 표준 검사이다. 따라서 Technetium‑99m 스캔 양성이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 장중첩·메켈게실 관련 검사를 잘못 이름 붙이고 장중첩 자체의 표준검사처럼 설명한 오류를 교정했다.
+- https://tech.snmjournals.org/content/42/3/163
 
 ## 출처
 

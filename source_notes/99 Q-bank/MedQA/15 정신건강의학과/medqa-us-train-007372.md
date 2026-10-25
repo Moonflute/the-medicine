@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 혈압 상승
 
 ## 해설
 
+학교와 가정에서 지속되는 부주의·충동성으로 ADHD가 의심되며, 학령기 일차 약물치료로 사용하는 자극제는 혈압과 맥박을 상승시킬 수 있어 D가 맞다. 이는 대부분에게 임상적 고혈압이 생긴다거나 모든 부작용 중 가장 흔하다는 뜻은 아니다. 치료 전후 혈압·맥박, 성장·체중 및 식욕 등을 추적한다. 자극제는 식욕 감소와 체중 증가 둔화를 유발할 수 있어 BMI 증가가 대표 반응은 아니다.
 
-ADHD 치료에 사용되는 자극제는 혈압 상승 위험을 증가시킨다. 따라서 가장 높은 위험은 고혈압이다. 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ADHD 자극제의 혈압상승 D는 맞으나 가장높은위험은 고혈압이라는 불필요한 빈도 단정 제거. 부작용 감시 범위 설명.
+- https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1a88218c-5b18-4220-8f56-526de1a276cd&type=display
 
 ## 출처
 

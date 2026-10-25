@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "감염 위험 임계값의 쉬운 핵심은 유지하고 중첩 구간 선지를 중증 분류 역치로 명확히 함."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmltjzdu95a2tlctfyt3f3a095r2ppew1uu0fvvg1wmwrisnzjr1z1yvdfcextmwt8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -16,36 +21,42 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-호중구감소증에서 감염 위험이 급격히 증가하는 절대 호중구 수는 얼마입니까?
+심각한 감염 위험과 연관되는 중증 호중구감소증의 대표적인 ANC 분류 역치는?
 
 ## 선택지
 
-A. <500/µL
-B. <1500/µL
-C. <2000/µL
-D. <1000/µL
+A. 500/µL 미만
+B. 5,000/µL 미만
+C. 10,000/µL 미만
+D. 20,000/µL 미만
 
 ## 해설
 
-절대 호중구 수가 500/µL 미만이면 심각한 감염 위험이 크게 증가합니다.
+ANC 500/µL 미만은 중증 호중구감소증의 대표 역치다. 실제 위험은 감소 기간·원인·장벽 손상 등에도 좌우된다.
 
 ## 오답 포인트
 
-- **B. <1500/µL:** 1500/µL 미만은 일반적인 호중구감소증 기준이지만, 위험 급증은 500/µL 미만에서 나타납니다.
+- 5,000·10,000·20,000/µL: 중증 호중구감소증 분류 역치가 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 호중구감소증 (Neutropenia)
 - 원본 경로: `source_notes/02 Diseases/08 감염/호중구감소증 (Neutropenia).md`
-- 학습 목표: 원문 핵심: - **정의**: 호중구 수 감소(일반적으로 절대 호중구 수 < 1,500/µL)로 인해 면역 기능이 저하된 상태에서 발생하는 감염. 호중구 수가 500/µL 미만일 때 감염 위험이 급격히 증가함. - **원인** - 내인성 미생물총(구강, 장관 등)에 의한 감염이 흔함. - 주요 원인균: - 그람 양성균: 응고효소 음성 포도알균, 황색포도알균(S. aureus) - 그람 음성균: 녹농균(P. aeruginosa), 대장균(E. coli), 폐렴막대균(Klebsiella) - 진균: 칸디다(Candida), 아스페르길루스(Asper…
+- 학습 목표: 중증 호중구감소증의 ANC<500/µL 역치를 안다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 감염 위험 임계값의 쉬운 핵심은 유지하고 중첩 구간 선지를 중증 분류 역치로 명확히 함.
+- https://www.fda.gov/media/167933/download

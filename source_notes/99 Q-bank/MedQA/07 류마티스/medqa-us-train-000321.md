@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 메스나(Mesna)
 ## 해설
 
 
-메토트렉세이트 복용 시 골수 억제로 혈소판 감소가 발생할 수 있으며, 류마티스 관절염 환자에게 류코보린(레보포린) 보충이 이러한 독성을 예방한다.
+류마티스관절염에 새로 시작한 메토트렉세이트로 인한 골수억제를 의심한다. 빈혈·백혈구감소·혈소판감소가 함께 나타났으며, 류코보린(folinic acid)은 엽산 길항작용에 따른 독성 감소에 쓰여 C가 적절하다. 이는 정기적 혈구·간·신장기능 감시를 대신하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000321`와 직접 대조했다.
+- 판정: RA 약물 변경 뒤 범혈구감소는 MTX 독성 가능성. C 유지; 혈소판만이 아닌 범혈구감소와 folinic acid 명칭·보충 취지 명료화.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/9273041/
 
 ## 출처
 

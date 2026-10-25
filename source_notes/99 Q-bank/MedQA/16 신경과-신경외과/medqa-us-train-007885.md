@@ -17,17 +17,26 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsp4Ttg5UgKENvbmN1c3Npb24pLm1k
 difficulty: standard
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 뇌진탕 후 고정 기간 제한을 증상 기반 단계적 복귀로 교정"
+curation_status: "revised"
+curation_reason: "뇌진탕 후 고정 기간 제한을 증상 기반 단계적 복귀로 교정"
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -41,14 +50,25 @@ related_drug_slugs:
 A. 활동 제한 없이 퇴원
 B. 예방적 페니토인 투여 후 24시간 관찰
 C. 퇴원시키고 1주일간 모든 신체활동 금지
-D. 응급실에서 6시간 관찰하고 1주일간 접촉 스포츠 금지
+D. 위험도에 따라 관찰·재평가하고 보호자에게 악화 신호를 교육한 뒤, 24–48시간 상대적 휴식과 단계적 학업·운동 복귀 계획을 제공
 
 ## 해설
 
+일시적인 혼란·두통·어지럼은 의식소실 없이도 발생하는 뇌진탕에 합당하다. 임상 위험도에 따라 관찰과 영상검사 필요성을 판단하며 모든 환자에게 고정 6시간 관찰이나 CT를 요구하지 않는다. 초기 1–2일은 상대적으로 쉬고, 증상을 크게 악화시키지 않는 범위에서 일상·학업 활동을 점차 늘린다. 당일 경기 복귀는 금지하며 접촉 스포츠는 운동 시에도 증상이 없고 단계적 복귀를 거쳐 의료진의 허가를 받은 뒤 재개한다. 단순히 1주가 지났다고 복귀시키거나 모든 활동을 장기간 금지하는 것은 부적절하다.
 
-경미한 두부 외상 후 6시간 관찰하고 1주일간 접촉 스포츠 금지는 경미한 외상성 뇌손상(뇌진탕) 관리 지침에 부합한다. 따라서 해당 관찰 및 제한이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 뇌진탕 후 고정 기간 제한을 증상 기반 단계적 복귀로 교정
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.cdc.gov/traumatic-brain-injury/hcp/clinical-guidance/pediatric-mtbi.html
+- https://www.cdc.gov/heads-up/hcp/clinical-guidance/index.html
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007885
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

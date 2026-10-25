@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "독소에 의한 전해질·수분 과분비는 질환 이름 대응을 넘어서는 핵심 기전이라 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmlxk5bk91z2lpdwr2q0fvutjodmjhvnlzu2t1yldrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -45,3 +50,8 @@ D. 장내 세균 증식 억제
 - 내부 학습 노트: 콜레라 (Cholera)
 - 원본 경로: `source_notes/02 Diseases/08 감염/콜레라 (Cholera).md`
 - 학습 목표: 원문 핵심: - **정의**: 비브리오 콜레라균 (Vibrio cholerae) O1 또는 O139 혈청군에 의한 급성 소장 감염병 - **원인**: 균에 오염된 물, 해산물, 음식물 섭취 - **기전**: 장 상피세포에 정착한 균이 콜레라 독소(cholera toxin)를 분비하여 장 점막에서 전해질과 수분의 과도한 분비를 유발
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 독소에 의한 전해질·수분 과분비는 질환 이름 대응을 넘어서는 핵심 기전이라 유지.

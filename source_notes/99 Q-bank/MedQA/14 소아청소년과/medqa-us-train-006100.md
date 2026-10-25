@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 강박장애
 
 ## 해설
 
+사회적 상호성·눈맞춤과 대화의 실용적 사용이 어렵고, 돌을 배열하는 제한적 반복 관심이 있어 ASD(A)가 가장 적절하다. 문법·어휘의 구조적 언어 발달이 정상이어도 ASD가 가능하다. 본문에 없는 언어 발달 지연을 필수 진단 기준으로 추가하지 않는다.
 
-사회적 상호작용 결함, 제한적·반복적 행동(돌 수집), 언어 발달 지연은 자폐 스펙트럼 장애의 핵심 진단 기준이다. 다른 선택지는 주의력결핍·과잉행동, 틱, 강박증과는 증상 양상이 다르다. 따라서 가장 가능성 높은 진단은 자폐 스펙트럼 장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 문법·어휘가 정상인 본문에 언어 발달 지연을 만들어 ASD의 필수 기준처럼 설명한 오류를 교정했다.
+
 
 ## 출처
 

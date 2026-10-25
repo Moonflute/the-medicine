@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "안정 시·한밤중/새벽 발현은 관상동맥 연축의 의미 있는 기초 인지 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11emdpewr0tzjzbfnedg1kshnpnnpzchawz0tgwmhjbwxoym5rz1fxnw5hvzvos1m1dfpbfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 휴식 시점과 무관하게 언제든 발생한다
 
 ## 오답 포인트
 
-- **B. 운동 중에 발생한다:** 운동 중에 발생하는 흉통은 전형적인 안정 협심증에 해당합니다.
+- **운동 중에 발생한다:** 운동 중에 발생하는 흉통은 전형적인 안정 협심증에 해당합니다.
 
 ## 출처
 
 - 내부 학습 노트: 변이형 협심증 (Variant Angina)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/변이형 협심증 (Variant Angina).md`
 - 학습 목표: 원문 핵심: * **CC**: 안정 시 발생하는 흉통이 특징이며, 특히 한밤중이나 새벽에 빈번한다. 운동이나 신체 활동과는 무관하게 발생하며, 통증은 수 분간 지속될 수 있다. * **P/E**: 특이 소견 없음
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 안정 시·한밤중/새벽 발현은 관상동맥 연축의 의미 있는 기초 인지 복습으로 유지한다.

@@ -19,11 +19,13 @@ question_type: association
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 사구체신염
 ## 해설
 
 
-EBV 감염(전염성 단핵구증)은 비인두암 위험을 증가시킨다. 환자의 증상과 EBV 항체 양성은 비인두암 발생 가능성을 시사한다.
+이종친화항체 양성의 단핵구증을 일으키는 EBV는 비인두암 B 등 특정 종양과 인과적으로 연관된다. 그러나 급성 EBV 감염의 인후통·림프절비대가 현재 비인두암이 발생했다는 뜻은 아니며 대부분의 감염자가 암으로 진행하는 것도 아니다. Kaposi육종은 주로 HHV8과 연관된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004534 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: EBV와 비인두암 연관 B 유지; 현재 단핵구증이 곧 암 발생을 시사한다는 설명 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

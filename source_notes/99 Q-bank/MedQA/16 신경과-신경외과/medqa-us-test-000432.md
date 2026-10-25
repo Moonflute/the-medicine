@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 가정폭력 선별 및 생활 스트레스 탐색
 
 ## 해설
 
+좌측 주시에서 왼눈은 외전하지만 오른눈이 내전하지 못하는 것은 오른쪽 핵간안근마비를 시사한다. 이전 시각·언어 증상, 삼차신경통 양상 및 배뇨장애와 함께 다발성 탈수초질환을 고려하므로 제시된 검사 중 뇌 MRI(B)가 적절하다. MRI만으로 MS를 확진하는 것은 아니며 병력·진찰·검사와 진단기준을 함께 적용한다. 성폭력 진술에 대한 안전평가와 지원도 신경학적 평가와 병행해야 한다.
 
-환자는 배뇨곤란, 말하기 어려움, 시야 변화, 안면통증 및 한쪽 눈만 움직이는 안구운동 이상(외전 마비) 등 중추신경계 다발성 증상을 보이며, 이러한 증상은 다발성경화증과 같은 뇌간 병변을 시사한다. 뇌간 병변을 정확히 확인하고 병변의 위치와 활동성을 평가하기 위해서는 연부조직 대비가 뛰어난 뇌 MRI가 가장 민감한 초기 검사이다. 따라서 초기 검사는 두부 MRI가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 좌측 주시 시 우안 내전장애를 외전마비로 한 해설 오류 수정. 다발성 중추 증상의 MRI B 유지.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng220/chapter/Recommendations
 
 ## 출처
 

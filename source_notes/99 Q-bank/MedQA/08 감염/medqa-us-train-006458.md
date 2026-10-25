@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 황색포도알균
 ## 해설
 
 
-악취와 심한 통증, 조직 부패가 동반된 괴사성 근막염은 클로스트리디움 퍼프린젠스에 의해 흔히 발생한다. 따라서 가장 가능성 높은 원인균은 클로스트리디움 퍼프린젠스이다.
+토양 오염 가능 깊은 외상 뒤 급격한 심한 통증·수포·변색·염발음은 clostridial myonecrosis/gas gangrene을 의심하게 하며 A가 가장 부합한다. C.perfringens는 가스괴저의 대표 원인이지 모든 괴사성 근막염의 보편적 단일 원인은 아니다. 다른 균/혼합감염도 가스를 만들 수 있으며 실제로 즉각적 외과 평가·변연절제와 적절한 항균치료가 필요한 응급상황이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006458 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Gas gangrene의 C.perfringens A 유지; 모든 괴사근막염의 흔한 단일균이라는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 경험적 정맥 항생제 치료를 위해 신생아집중치료실에 입�
 
 ## 해설
 
+출생 3.6 kg에서 3.3 kg으로 약 8.3% 감소했으나 전신 상태·수유·소변이 양호하여 보기 중 안심(A)이 타당하다. 다만 생후 7일이므로 수유 효과와 체중 회복 추세를 확인하고 가까운 추적을 계획한다. 탈수·섭취 부족·지속 감소가 생기면 보충 등 추가 조치를 평가하며 모든 신생아 체중 감소를 생리적이라고 단정하지 않는다.
 
-신생아의 체중 감소는 생리적이며, 모유 수유가 정상적으로 이루어지고 있다면 별도 조치가 필요 없다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 8.3% 체중 감소를 무조건 추가 조치 불필요로 일반화하지 않고 수유·체중 추적 명확화.
+- https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/newborn-visit/
 
 ## 출처
 

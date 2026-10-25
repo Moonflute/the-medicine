@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 신장 낭종
 
 ## 해설
 
+심한 자궁탈출은 요관을 당기거나 꺾어 소변 유출을 방해할 수 있고 양측 수신증(B)을 유발할 수 있다. 수신증은 신우·신배 확장이며 요관확장(hydroureter)과 같은 말은 아니다. 배뇨곤란·반복 감염 맥락에서 폐쇄와 신기능을 평가한다.
 
-자궁경부가 질 입구까지 내려오고 발살바 시 완전 탈출이 일어나는 점에서 골반 장기 탈출 중 수신증(요관 확장)이 가장 가능성 높은 병리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 수신증과 요관확장을 동의어로 쓴 오류 및 기전 보강.
+
 
 ## 출처
 

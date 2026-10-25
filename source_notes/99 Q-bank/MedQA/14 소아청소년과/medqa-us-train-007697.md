@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 염색체 분석
 
 ## 해설
 
+신생아의 대칭적 비압통 유방 비대와 소량 유즙은 모체 호르몬 영향에 따른 일시적 생리 반응에 부합한다. 다른 이상이 없어 안심·관찰(A)이 적절하며 유방을 짜거나 자극하지 않는다. 발적·열감·통증·발열이 있으면 감염 평가가 필요하다.
 
-신생아의 양쪽 유방이 대칭적으로 확대되고 유두 함몰, 소량의 흰 액체 분비는 출생 후 모유선 자극에 의한 생리적 유방 비대와 유즙 분비이다. 이는 모유선 조직의 일시적 성장으로, 병리적 원인이 없으므로 특별한 치료가 필요하지 않다. 따라서 가장 적절한 조치는 안심시키고 경과 관찰하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모유선이라는 부정확한 용어와 자극 기전을 모체 호르몬 관련 유선 반응으로 교정.
+
 
 ## 출처
 

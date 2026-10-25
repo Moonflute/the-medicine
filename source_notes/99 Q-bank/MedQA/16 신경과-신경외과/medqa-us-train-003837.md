@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-73세 남성이 갑자기 발생한 심한 어지럼증, 연하곤란, 구음장애와 보행불안정으로 내원했다. 증상은 10분 후 거의 사라졌고 이후 미세한 안진과 운동실조만 남았다. 다음 중 상태의 가장 가능성 높은 원인은?
+73세 남성이 갑자기 발생한 심한 어지럼증, 연하곤란, 구음장애와 보행불안정으로 내원했다. 증상은 10분 뒤 호전되기 시작했고 발생 35분 뒤에는 미세한 안진과 운동실조만 남았으며, 이후 45분이 지나 완전히 회복되었다. 다음 중 상태의 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -44,8 +46,11 @@ D. 렌티큘로선조체동맥 폐색
 
 ## 해설
 
+급성 어지럼증·연하곤란·구음장애와 안진·실조는 척추뇌기저동맥계의 뇌간·소뇌 허혈을 시사하여 척추동맥 폐색(A)이 가장 합당하다. 증상은 진료 중 완전히 회복되는 경과로 기술되어 있다. '후두동맥'은 척추동맥의 동의어가 아니며 다른 대뇌혈관 영역의 허혈도 일시적 증상으로 나타날 수 있다. TIA와 소경색의 최종 구분은 조직영상 등을 함께 평가한다.
 
-갑작스러운 어지럼증, 연하곤란, 구음장애, 보행불안정이 10분 내에 사라지고 미세 안진·운동실조만 남은 것은 후천성 후두동맥(척추동맥) 공급 영역의 일과성 허혈, 즉 척추동맥 폐색에 의한 일과성 허혈 발작(TIA)이다. 다른 대뇌동맥 폐색은 일반적으로 지속적인 신경결손을 남긴다. 따라서 가장 가능성 높은 원인은 척추동맥 폐색이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 척추동맥을 후두동맥이라 부른 용어 오류와 다른 혈관 TIA는 지속 결손을 남긴다는 잘못된 일반화를 수정하고 영문 최종 완전회복 시점을 복원했다.
 
 ## 출처
 

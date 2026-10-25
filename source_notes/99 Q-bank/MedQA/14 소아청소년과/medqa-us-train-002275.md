@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 심근 허혈
 
 ## 해설
 
+큰 VSD를 치료하지 않으면 과도한 폐혈류와 폐혈관 재형성으로 폐고혈압이 진행할 수 있다. 이후 우좌 단락/아이젠멩거 생리가 발생해 만성 저산소혈증이 생기면 이차성 적혈구증가증(A)이 나타날 수 있다. 단순한 초기 좌우 단락이나 좌심부전 자체가 곧 청색증을 만든다는 뜻이 아니며 이 합병증이 모든 환자에게 가장 흔하다고 단정하지 않는다.
 
-선천성 심실중격결손(VSD)으로 장기간 좌심부전이 있으면 저산소증에 대한 보상으로 적혈구 생산이 증가해 2차성 적혈구증가증이 발생한다. 따라서 적혈구증가증이 가장 흔한 합병증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단순 VSD의 좌심부전 자체가 만성 저산소증/적혈구증가증을 일으킨다는 설명에 필요한 폐혈관 질환·단락 역전 단계를 복원했다.
+
 
 ## 출처
 

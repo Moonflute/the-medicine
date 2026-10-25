@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 정중신경 수장측 가지의 신경병증 변화
 
 ## 해설
 
+야간 저림·손 털기 호전·손목 Tinel 양상은 손목터널증후군을 시사한다. 전기진단검사 중 신경전도검사에서 손목터널을 지나는 정중신경의 국소 전도 지연(C)이 예상된다. 정중신경 손바닥피부가지는 터널에 들어가기 전에 갈라져 굽힘근지지띠 바깥을 지나므로 엄지두덩 피부감각은 보존되는 것이 단서다. 질문의 EMG는 넓은 전기진단 평가를 뜻하며 전도속도는 침근전도 자체가 아닌 신경전도검사에서 측정한다.
 
-손목을 두드리면 손바닥에 저림이 나타나는 Tinel sign은 정중신경 압박을 의미한다. 전도검사에서 정중신경 전도속도 감소가 가장 흔한 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전기진단 선지 C를 유지하며 엄지두덩 감각 보존의 해부학적 이유와 EMG/NCS 용어를 구별했다.
 
 ## 출처
 

@@ -23,13 +23,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 풍진 감염
 
 ## 해설
 
+머리·몸통·사지가 비례적으로 작아진 대칭성 태아 성장제한은 초기 태아 발달에 영향을 준 선천감염이나 염색체 이상을 고려하게 한다. 제시된 선택지 중 풍진 감염(D)이 이러한 양상을 설명할 수 있다. 자간전증 등 태반부전은 흔히 비대칭 성장제한과 연관되고 임신성 당뇨는 보통 과성장을 우려한다. 다만 이 소견만으로 풍진이 확진되거나 모든 선천감염 중 가장 흔한 원인이라는 뜻은 아니며 다른 원인도 평가해야 한다.
 
-임신 30주에 태아 성장 제한과 자궁저부 높이 저하가 보이며, 산모는 경미한 피로와 요절박만 있다. 이는 태아 감염 중 풍진에 의한 성장 제한이 가장 흔히 나타난다. 따라서 가장 가능성 높은 원인은 풍진 감염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 대칭성성장제한에서D선지추정은유지하되풍진이전체태아감염성성장제한의가장흔한원인이라는오류삭제.
+
 
 ## 출처
 

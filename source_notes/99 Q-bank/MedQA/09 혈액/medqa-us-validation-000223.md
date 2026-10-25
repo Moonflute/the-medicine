@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 철분 보충
 ## 해설
 
 
-혈청 페리틴이 낮고 철결핍성 빈혈이 의심될 때, 위·대장 출혈을 평가하기 위해 대장내시경이 우선한다. 다른 선택지는 원인 평가에 직접적인 도움이 되지 않는다. 따라서 다음 단계는 대장내시경이다.
+낮은 ferritin과 빈혈은 철결핍을 시사한다. 노년 남성에서는 위장관 출혈·악성종양을 평가해야 하며 선택지 A의 대장내시경이 적절한 평가에 포함된다. 현재 원인불명 철결핍은 보통 상부내시경과 대장내시경의 양방향 평가를 권고하므로 상부내시경이 불필요하다는 뜻은 아니다. 철분 보충도 병행하되 원인 평가를 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000223 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 노년 남성 철결핍의 colonoscopy A는 적절한 원인평가 일부. 상부내시경은 쓸모없고 무조건 대장만 우선이라는 해설을 양방향 평가로 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gastro.org/news/aga-recommends-bidirectional-endoscopy-for-most-patients-with-iron-deficiency-anemia/
 
 ## 출처
 

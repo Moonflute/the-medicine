@@ -17,15 +17,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "요산 축적이 요독성 출혈 원인이라는 해설을 교정하고 GI 출혈 안정화를 생략하지 않음."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -43,10 +48,19 @@ D. 농축적혈구 수혈
 
 ## 해설
 
-
-투석을 건너뛰어 혈액에 요산이 축적되고 위장관 출혈이 발생했으므로, 급성 요독성 출혈을 제어하기 위해 혈액투석이 필요하다.
+투석을 빠진 말기 신부전 환자의 asterixis·의식 변화 및 출혈 경향에서는 요독성 합병증을 고려하며 선택지 중 혈액투석이 적합하다. 요독성 독소에 의한 혈소판 기능 장애를 단순 요산 축적으로 설명하지 않는다. 저혈압과 토혈은 별도로 즉시 소생·출혈 평가가 필요하고 투석이 위장관 출혈의 평가·지혈을 대신하지는 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007977
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 요산 축적이 요독성 출혈 원인이라는 해설을 교정하고 GI 출혈 안정화를 생략하지 않음.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

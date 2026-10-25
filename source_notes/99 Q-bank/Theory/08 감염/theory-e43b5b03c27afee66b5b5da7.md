@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+curation_status: "retained"
+curation_reason: "Fluoroquinolone의 DNA gyrase·topoisomerase IV 억제."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ Ciprofloxacin은 플루오로퀴놀론계 항생제로 DNA gyrase와 topoisomera
 
 ## 오답 포인트
 
-- **B. β‑lactamase:** β‑lactamase 억제는 베타‑락타마제 억제제의 작용이며, Ciprofloxacin과는 무관합니다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Ciprofloxacin
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Ciprofloxacin.md`
-- 학습 목표: 원문 핵심: - 세균의 DNA gyrase 및 topoisomerase IV 효소를 억제하여 DNA 복제 및 세포 분열을 차단함.
+- 학습 목표: Ciprofloxacin: DNA gyrase 및 topoisomerase IV

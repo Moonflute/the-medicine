@@ -23,13 +23,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 자궁경 검사 및 표적 생검
 
 ## 해설
 
+폐경후 지속출혈·비만·당뇨·PCOS는 자궁내막암 위험 평가가 필요하며 이미TVUS6mm이므로 자궁내막 생검(B)을 시행한다. 2026 ACOG는 대부분 폐경후출혈에서 TVUS와 조직검사를 함께 초기 평가에 포함한다. 지속출혈은 얇은 내막에서도 재평가해야 하며≤5mm를 보편 정상 기준으로 쓰지 않는다.
 
-폐경 후 비정상 출혈이 지속되고 자궁내막 두께가 정상(≤5 mm)보다 약간 두꺼운 경우, 자궁내막암을 배제하기 위해 조직학적 검사가 필요하다. 자궁내막 생검이 가장 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 폐경후출혈을5mm 이하이면 정상이라고 일반화하지 않고2026 ACOG 평가 반영.
+- https://www.acog.org/news/news-releases/2026/04/acog-publishes-updated-guidance-evaluation-postmenopausal-bleeding
 
 ## 출처
 

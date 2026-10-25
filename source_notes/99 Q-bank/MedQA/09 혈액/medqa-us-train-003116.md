@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 메틸말론산 수치
 ## 해설
 
 
-혈청 비타민 B12가 경계선(210 pg/mL)일 때, 결핍 여부를 확인하려면 메틸말론산 수치를 측정한다. 이는 B12 결핍에 특이적인 상승을 보인다.
+B12 210 pg/mL는 불확정 범위이며 대구성 빈혈, 감각 증상과 낙상이 있어 기능적 결핍 평가로 serum MMA D가 적절하다. MMA는 신기능 등 다른 요인의 영향을 받을 수 있어 맥락에 따라 해석한다. 신경학적 증상이나 빈혈의 악화 위험이 있으면 검사 검체를 확보하면서 B12 보충을 시작할 수 있고 결과만을 기다려 치료를 미루지 않는다. 엽산만 보충하면 B12 신경손상 평가·치료를 놓칠 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003116 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경계 B12에서 MMA 검사 D 유지, 신경증상 때문에 치료를 검사결과까지 지연하지 않도록 한계 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations
 
 ## 출처
 

@@ -17,19 +17,24 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+curation_status: "revised"
+curation_reason: "미제시 단백뇨를 추가하지 않고 원인 약물 중단과 AIN 진단의 확률을 구별."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -47,10 +52,19 @@ D. 보존적 투석
 
 ## 해설
 
-
-페녹시메틸페니실린에 의해 급성 간질성 신염이 발생했으며, 혈뇨·단백뇨와 호산구 증가가 특징이다. 가장 중요한 초기 조치는 원인 약물 중단이다.
+새 항생제 노출 뒤 발열·발진·AKI와 무균 농뇨는 약물 유발 AIN을 지지한다. 초기 조치는 유발 의심 약물을 중단하고 신기능과 전해질을 추적하는 것이다. PPI 등 다른 원인 약물도 검토한다. 호산구뇨가 단독 확진은 아니며 회복하지 않거나 진단이 불명확하면 생검·추가 치료를 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010013
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 미제시 단백뇨를 추가하지 않고 원인 약물 중단과 AIN 진단의 확률을 구별.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

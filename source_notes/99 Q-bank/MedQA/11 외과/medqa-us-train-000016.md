@@ -27,11 +27,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -55,7 +57,14 @@ D. 조직 플라스미노겐 활성제
 ## 해설
 
 
-갑작스러운 다리 통증, 차가움, 감각 및 운동 저하 등은 급성 동맥 폐색을 시사한다. 급성 폐색에서는 혈전 용해를 위해 즉시 헤파린 점적 주입이 필요하다. 수술적 혈전 제거술은 보존적 치료 후에도 효과가 없을 때 고려한다.
+갑작스러운 통증·창백·차가움과 뚜렷한 감각저하·근력 1/5는 급성 하지허혈, 특히 즉시 위협받는 사지 가능성을 시사한다. 금기가 없으면 진단 즉시 정맥 비분획 헤파린으로 혈전 진행과 추가 색전을 억제한다(B). 헤파린 자체는 혈전을 녹이는 약이 아니다. 동시에 혈관외과 응급 평가와 신속한 재관류를 진행해야 하며, 운동장애가 있는 사지에서 헤파린의 효과를 기다리며 수술을 미뤄서는 안 된다. 색전제거술 등 재관류 방식은 사지 생존가능성·해부학·시간·전문인력에 따라 결정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000016 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 헤파린을 혈전용해제로 설명하고 재관류 수술을 보존치료 실패 뒤로 미룬 위험한 해설을 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

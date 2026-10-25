@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 무증상 다발골수종
 
 
 말초혈액도말에서 92%의 작은 정상 크기 림프구가 보이는 림프구증가증은 만성 림프구성 백혈병(CLL)의 특징이다. CLL는 흔히 무증상으로 진행되며 고령 남성에게서 전신 림프절병증과 빈혈을 동반한다. 따라서 가장 가능성 높은 진단은 CLL이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000313 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 성숙 소림프구92%·현저 림프구증가·전신림프절·빈혈은 CLL C. 골수계 급성/만성 질환 및 myeloma와 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

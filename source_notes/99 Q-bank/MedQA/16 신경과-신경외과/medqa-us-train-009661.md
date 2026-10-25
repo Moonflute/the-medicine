@@ -18,17 +18,26 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugiOu5hCDshozssrQg7LmY66ekIChEZW1lbnRpYSB3aXRoIExld3kgQm9kaWVzKS5tZA
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: DLB의 선조체 DAT 감소와 후두엽 저대사를 혼동한 선택지 교정"
+curation_status: "revised"
+curation_reason: "DLB의 선조체 DAT 감소와 후두엽 저대사를 혼동한 선택지 교정"
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -39,17 +48,27 @@ related_drug_slugs:
 
 ## 선택지
 
-A. PET에서 후두엽 관류 및 도파민 활성 감소
+A. 도파민운반체(DAT) SPECT에서 선조체 섭취 감소
 B. MRI에서 다발성 열공경색
 C. SPECT에서 전두엽 저관류 및 저대사
 D. MRI에서 교뇌 ‘뜨거운 십자빵’ 징후
 
 ## 해설
 
+인지기능 변동, 구체적인 반복 환시, 파킨슨증과 자율신경계 증상은 Lewy 소체 치매를 시사한다. DAT 영상에서 기저핵·선조체 섭취 감소는 진단을 뒷받침하는 바이오마커이다. FDG-PET의 후두엽 저대사와 DAT 영상의 선조체 섭취 감소는 서로 다른 소견이므로 후두엽 도파민 활성 감소로 합쳐 표현하지 않는다. 다발성 열공경색이나 교뇌 hot-cross-bun 징후는 이 사례의 가장 적절한 영상 소견이 아니다.
 
-루이소체 치매는 후두엽 저관류와 도파민 활성 감소가 특징이며, PET에서 이러한 소견이 관찰된다. MRI·SPECT는 다른 패턴을 보인다. 따라서 가장 가능성 높은 영상 소견은 PET에서 후두엽 저관류 및 도파민 활성 감소이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: DLB의 선조체 DAT 감소와 후두엽 저대사를 혼동한 선택지 교정
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://pubmed.ncbi.nlm.nih.gov/28592453/
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009661
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

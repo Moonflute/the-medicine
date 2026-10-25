@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-이전에 건강했던 8세 남아가 지난 2개월 동안 시력 저하와 청력 및 말하기 능력 악화가 증가해 내원했다. 그동안 걷기, 계단 오르기, 스스로 먹기가 어려워졌고 교사는 집중력 저하를 알아차렸다. 성적이 떨어지고 글씨를 알아보기 어렵게 되었다. 외삼촌의 아들도 비슷한 증상이 있어 6세에 사망했다. 활력징후는 정상이다. 피부와 손발톱의 과색소침착, 운동실조성 보행, 구음장애가 있다. 신경학적 검사에서 모든 사지의 경직과 근력 저하, 양측 4+ 심부건반사, 양측 발바닥의 신전 반응, 하지 감각 저하가 보인다. 안저검사에서 시신경 위축과 양측 감각신경성 난청이 있다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+이전에 건강했던 8세 남아가 지난 2개월 동안 시력 저하와 청력 및 말하기 능력 악화가 증가해 내원했다. 그동안 걷기, 계단 오르기, 스스로 먹기가 어려워졌고 교사는 집중력 저하를 알아차렸다. 성적이 떨어지고 글씨를 알아보기 어렵게 되었다. 외가 쪽 남자 사촌도 비슷한 증상이 있어 6세에 사망했다. 활력징후는 정상이다. 피부와 손발톱의 과색소침착, 운동실조성 보행, 구음장애가 있다. 신경학적 검사에서 모든 사지의 경직과 근력 저하, 양측 4+ 심부건반사, 양측 발바닥의 신전 반응, 하지 감각 저하가 보인다. 안저검사에서 시신경 위축과 양측 감각신경성 난청이 있다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -43,8 +45,11 @@ D. α-갈락토시다제 A 결핍
 
 ## 해설
 
+아동기의 진행성 백질 신경증상과 부신기능저하를 시사하는 과색소침착은 X연관 부신백질이영양증에 맞는다. ABCD1 유전자가 암호화하는 peroxisomal ATP-binding cassette 수송체의 기능 이상(B)으로 초장쇄지방산 대사가 장애를 받아 축적과 탈수초가 발생한다. 수송체가 유전자를 암호화하는 것이 아니다. Maternal male cousin은 외가 쪽 남자 사촌이라는 뜻이지 반드시 외삼촌의 아들이라는 뜻은 아니다.
 
-X연관 부신백질이영양증은 ABCD1 유전자를 암호화하는 ATP 결합 카세트 수송체(ABCD1)의 기능 손실이 원인이며, 이는 백질에 과다 축적된 VLCFA로 인한 탈수초와 신경퇴행을 일으킨다. 환자의 진행성 시청·청각·운동 저하와 가족력은 이 메커니즘과 일치한다. 따라서 가장 가능성 높은 원인은 ATP 결합 카세트 수송체 기능장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. ABCD1 유전자/단백질의 주객 전도와 X연관 가족력 번역 오류 교정.
 
 ## 출처
 

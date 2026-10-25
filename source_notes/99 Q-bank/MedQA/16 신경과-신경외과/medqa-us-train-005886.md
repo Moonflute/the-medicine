@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 뇌 MRI
 
 ## 해설
 
+통증에만 개안하고 비정상 굴곡을 보이는 혼수와 함몰골절은 중증 외상성 뇌손상을 시사한다. 제시된 선택지 중 뇌실내 카테터(B)는 두개내압을 직접 측정하고 필요하면 뇌척수액을 배액할 수 있어 추가 관리에 도움이 된다. 누락된 CT에서 수두증이나 특정 출혈을 확인했다고 해석해서는 안 된다. ICP 감시는 기도·순환 안정화 및 신경외과의 수술 필요성 평가를 대신하지 않는다. 요추천자는 두개내 종괴효과가 의심되는 상황에서 적절하지 않다.
 
-두부 CT에서 뇌실내 압력 상승이 의심될 경우 뇌실내 카테터(외부 배액) 삽입이 필요하다. 따라서 추가 관리에 필요한 처치는 뇌실내 카테터 삽입이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 중증 외상성 뇌손상의 ICP 감시 적응증으로 B를 유지하되, 누락된 CT의 뇌실압 상승을 관찰했다고 단정한 해설을 교정.
+- 공식/학회 근거: https://ww2.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf
 
 ## 출처
 

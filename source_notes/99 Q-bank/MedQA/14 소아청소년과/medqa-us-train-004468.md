@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 관찰 및 모니터링
 
 ## 해설
 
+현재 산소포화도 95%이고 놀 수 있는 영아에서 보기 중 면밀한 경과 관찰(D)이 적절하다. 호흡·수유·수분 상태를 평가하고 낮게 측정된 혈압은 재측정하여 관류 이상 여부를 확인한다. 불필요한 항생제·검사를 일률적으로 시행하지 않되 악화나 쇼크가 확인되면 즉시 대응한다.
 
-맑은 콧물 후 급성 호흡곤란, 호흡수 40회, 산소포화도 95%로 저산소증이 없으며, 아이가 활발히 놀고 있어 호흡부전 징후가 없으므로 경증 급성 세기관지염(브론키올리티스)이다. 경증인 경우 산소 보충 없이 관찰·모니터링이 1차 치료이며, 항생제나 흉부 X‑ray, 기도삽관은 필요하지 않다. 따라서 가장 적절한 단계는 관찰 및 모니터링이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 경증 세기관지염의 관찰 정답은 유지하되 낮은 혈압을 무시한 안심 설명을 보정.
+- https://www.nice.org.uk/guidance/ng9/chapter/Recommendations
 
 ## 출처
 

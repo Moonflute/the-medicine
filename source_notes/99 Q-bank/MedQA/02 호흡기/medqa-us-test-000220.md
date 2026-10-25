@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 림프구 활성 저하
 
 ## 해설
 
+반복 폐렴과 화농성 기침, 비강용종에 지방변·성장부진이 동반되어 낭성섬유증을 시사한다. CFTR(낭성섬유증 막전도 조절인자)의 기능 이상(A)으로 상피 이온·수분 이동이 달라져 점액이 끈끈해지고, 기도 감염과 췌장 외분비기능부전이 생길 수 있다. 섬모운동장애도 반복 호흡기감염을 일으킬 수 있지만 췌장성 흡수장애까지 함께 설명하는 점에서 CFTR 이상이 더 합당하다.
 
-반복 폐렴, 농성 기침, 비강 폴립, 성장 부진은 CFTR 유전자의 기능 이상(낭관통 조절인자)으로 인한 낭성섬유증의 전형적인 임상양상이다. 다른 선택지는 해당 증상과 연관이 없다. 따라서 A가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. CFTR 용어 오기를 교정하고 감염/지방흡수장애를 연결하는 기본 기전 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

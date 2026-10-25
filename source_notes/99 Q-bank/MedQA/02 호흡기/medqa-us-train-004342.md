@@ -20,13 +20,15 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 운동성 정자 결핍
 
 ## 해설
 
+반복 부비동염·기관지확장성 증상과 좌측에서 심음이 들리지 않는 dextrocardia 단서는 PCD/Kartagener를 시사한다. 섬모/편모 운동장애로 정자운동 저하 D가 동반될 수 있다. CF의 땀염소상승 C를 정답처럼 설명한 기존 해설은 이 조합을 반영하지 못한다.
 
-반복적인 부비동염과 폐렴을 동반한 청소년에서 가장 흔한 원인은 낭성섬유증이며, 이는 땀 염소 농도 상승을 초래한다. 다른 선택지는 해당 증상과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원답 D인데 해설이 CF/sweat chloride C로 오연결. PCD의 situs/정자운동 기전으로 교체.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

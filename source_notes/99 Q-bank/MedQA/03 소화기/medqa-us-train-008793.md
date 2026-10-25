@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 야간 복통
 ## 해설
 
 
-IBS는 복통이 배변 후 완화되는 특징이 있다. 환자는 복통·팽만·변비·설사 증상이 변동하고, 배변 후 통증이 감소한다는 점이 가장 일치한다. 따라서 배변 후 복통 완화가 가장 가능성 높은 소견이다.
+오랜 기간 반복되는 복통·팽만과 묽은 변, 스트레스 관련 악화 및 경고 소견 부재는 IBS에 부합한다. 추가로 기대하는 소견은 배변 후 통증 완화(C)이다. 본문에서 이미 확인한 사실로 덧붙이거나 없는 변비를 만들어 넣지 않는다. IBS 통증은 배변과 관련되어 호전하거나 때로 악화할 수도 있어 완화가 모든 환자의 필수조건은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008793 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: IBS의 배변 관련 통증 완화 C 유지. 본문에 없는 변비와 이미 확인된 배변 후 호전을 추가한 설명 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

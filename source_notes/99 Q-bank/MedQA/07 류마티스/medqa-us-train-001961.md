@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -39,7 +41,7 @@ related_drug_slugs:
 
 ## 문제
 
-45세 남성이 갑자기 발생한 발 통증으로 응급실에 왔다. 잠에서 깬 뒤 오른쪽 엄지발가락에 심한 통증이 생겼다. 당뇨병, 비만과 고혈압이 있으며 insulin, metformin, lisinopril 및 ibuprofen을 복용한다. 현재 흡연자이고 매일 위스키 3잔을 마신다. 정맥 수액과 corticosteroid를 투여해 증상이 호전되었다. 향후 재발을 피하는 방법을 묻는다. 다음 중 이 상태의 재발을 예방하는 가장 좋은 초기 중재는 무엇인가?
+45세 남성이 갑자기 발생한 발 통증으로 응급실에 왔다. 잠에서 깬 뒤 오른쪽 엄지발가락에 심한 통증이 생겼다. 당뇨병, 비만과 고혈압이 있으며 insulin, metformin, lisinopril 및 ibuprofen을 복용한다. 하루 담배 2갑을 피우며 매일 밤 위스키 3잔을 마신다. 정맥 수액과 corticosteroid를 투여해 증상이 호전되었다. 진료 종료 시 혈압은 175/95 mmHg이며, 향후 재발을 피하는 방법을 묻는다. 다음 중 이 상태의 재발을 예방하는 가장 좋은 초기 중재는 무엇인가?
 
 ## 선택지
 
@@ -51,7 +53,14 @@ D. Probenecid
 ## 해설
 
 
-급성 통풍 발작 후 재발을 예방하는 가장 효과적인 초기 중재는 생활습관 교정(저퓨린 식이, 체중 감량, 알코올 제한)이다. 약물(알로퓨리놀 등)은 급성기 이후에 고려한다. 따라서 생활습관 조치가 최선이다.
+첫 통풍 발작 후 명백한 요산저하제 적응증이 제시되지 않은 이 환자에게는 체중 조절, 음주 제한과 식이 상담(C)을 우선 시행할 수 있다. 흡연과 고혈압 등 전반적 건강위험도 함께 관리한다. 생활습관 변화의 요산 감소 효과는 제한적이므로 반복 발작·통풍결절·방사선 손상 등 적응증이 있으면 약물 요산저하 치료를 대체하지 못한다. 필요한 경우 항염증 예방요법과 함께 발작 중에도 요산저하제를 시작할 수 있다. Hydrochlorothiazide는 요산을 올릴 수 있어 재발 예방약이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001961 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 생활습관 조절을 요산저하제보다 항상 효과적이라고 설명하거나 급성기에는 요산저하제를 시작할 수 없다는 인상을 주지 않도록 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/
 
 ## 출처
 

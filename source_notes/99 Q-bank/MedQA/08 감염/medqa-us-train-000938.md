@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 포도당 30 mg/dL
 ## 해설
 
 
-구역성 흉수는 일반적으로 저포도당, 고LDH, 고단백을 보이며, 감염성 흉수는 포도당이 60 mg/dL 이하로 감소한다. 환자는 알코올 중독과 구강 위생 불량으로 구강 무균성 흉수 가능성이 높으며, 저포도당이 가장 특징적인 소견이다. 따라서 포도당 30 mg/dL가 가장 가능성 높은 결과이다.
+발열·폐경화와 함께 국소화된 흉수가 있어 복잡성 폐렴연관 흉수 또는 흉막감염이 의심된다. 세균과 염증세포의 포도당 소비 및 흉막 수송 장애로 포도당이 낮아질 수 있어 D의 30 mg/dL가 부합한다. LDH와 단백도 대개 높다. 음주 후 의식 소실과 불량한 치아는 흡인 관련 감염 위험이며 이를 무균성 흉수라고 설명하면 안 된다. 모든 감염성 흉수가 반드시 저포도당인 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000938 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 무균성 흉수라는 역전 표현을 복잡성 폐렴연관 흉수/흉막감염으로 교정; 모든 감염성 흉수가 저포도당인 것은 아님.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.brit-thoracic.org.uk/clinical-resources/guidelines/pleural-disease-full-guideline/
 
 ## 출처
 

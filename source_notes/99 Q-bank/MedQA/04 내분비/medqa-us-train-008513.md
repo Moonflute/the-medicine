@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. NPH 인슐린과 속효성 인슐린
 ## 해설
 
 
-식사 직후 혈당 급등을 억제하려면 빠른 작용 인슐린이 필요하며, 인슐린 리스프로는 초속효성 인슐린으로 15분 내에 작용을 시작한다. NPH는 작용이 늦고 글라진은 초속효성·중간형 혼합제이므로 가장 적절한 선택은 인슐린 리스프로이다.
+정답 B. Lispro는 빠르게 작용하는 insulin 유사체로 식사 관련 혈당 상승을 조절한다. 허가사항상 식전 15분 이내 또는 식사 직후 투여할 수 있다. NPH는 중간형, glargine은 장시간 작용 기저 인슐린이지 초속효성·중간형 혼합제가 아니다. 제1형 당뇨병에서는 식사 인슐린과 기저 인슐린을 적절히 조합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008513 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: glargine을 혼합제로 설명한 오류 교정; lispro 식사 시 사용 B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8ecbd7a-0e22-4fc7-a503-faa58c1b6f3f
 
 ## 출처
 

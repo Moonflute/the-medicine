@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvV2lza290dC1BbGRyaWNoIOymne2bhOq1sCAoV2lza290dC1BbGRyaWNoIFN5bmRyb21lKS5tZA"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "작은 혈소판을 임상 조합과 연결해 희귀 면역결핍 한 핵심으로 통합."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-Wiskott‑Aldrich 증후군에서 가장 특징적인 혈액검사 소견은?
+Wiskott-Aldrich 증후군을 시사하는 대표적인 조합은?
 
 ## 선택지
 
-A. 혈소판 감소 및 혈소판 크기 감소(마이크로트롬보사이토페니아)
-B. 혈소판 증가
-C. 적혈구 용혈성 빈혈
-D. 백혈구 감소
+A. 작은 혈소판을 동반한 혈소판 감소·습진·반복 감염
+B. 혈소판 증가와 항상 정상 면역
+C. 빈혈 없이 단독 고칼슘혈증만
+D. 모든 소아 습진이 곧 이 증후군을 의미
 
 ## 해설
 
-Wiskott‑Aldrich 증후군은 혈소판 감소와 혈소판 크기 감소가 특징적인 마이크로트롬보사이토페니아를 보인다.
+출혈과 면역 기능 이상을 함께 평가한다. 전형적인 작은 혈소판이 단서지만 검사 소견 하나만으로 확진·배제를 단정하지 않는다.
 
 ## 오답 포인트
 
-- **B. 혈소판 증가:** 혈소판이 감소하므로 틀린 선택이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: Wiskott-Aldrich 증후군 (Wiskott-Aldrich Syndrome)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/Wiskott-Aldrich 증후군 (Wiskott-Aldrich Syndrome).md`
-- 학습 목표: 원문 핵심: * **혈액 검사**: 혈소판 감소 및 혈소판 크기 감소(microthrombocytopenia)가 특징적 * **면역 검사**: IgA/IgE 상승, IgM 감소, IgG 정상 또는 감소, T 세포 수 및 기능 저하 * **진단 검사**: 유전자 검사(WAS 유전자 돌연변이 확인) 및 유세포 분석을 통한 WASp 발현 결핍 확인
+- 학습 목표: Wiskott-Aldrich의 혈소판 감소·습진·감염

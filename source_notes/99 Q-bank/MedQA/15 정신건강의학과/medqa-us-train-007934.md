@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 단기 정신병적 장애
 
 ## 해설
 
-
-스트레스성 사건 후 1주일 이내에 일시적인 정신병적 증상이 나타나며 1개월 미만 지속되는 경우는 단기 정신병적 장애에 해당한다. 증상은 현실 검증 손상 없이 급성 정동 변화가 특징이다. 따라서 정답은 단기 정신병적 장애이다.
+과대망상적 믿음과 급성 이상행동이 나타났다가 빠르게 회복된 경과는 제시된 선택지 중 단기 정신병적 장애에 가장 가깝다. 이 장애는 정신병적 증상이 1일 이상 1개월 미만 지속되고 이전 기능으로 회복하는 경과를 확인하며, 현실검증이 항상 보존되는 장애가 아니다. 스트레스 후 1주 이내 발병은 필수 기준이 아니다. 원문의 '이상행동 3일 전/배우자 사망 2일 전' 시점은 상충하므로 사망이 반드시 먼저였다고 바꾸거나 그것만을 진단 근거로 삼지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007934
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 단기 정신병에 현실검증 손상이 없다는 오류와 필수 아닌 스트레스 후 1주 기준 삭제. 원문 사망/이상행동 시점 모순을 감추지 않음.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

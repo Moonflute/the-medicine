@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 환자와 상담하고 같은 오피오이드 용량을 유지
 
 
 완화 치료 중인 말기 암 환자에게는 통증 조절이 최우선이며, 현재 진통제 용량이 충분치 않다. 호흡 억제 위험은 용량을 서서히 증가시키며 모니터링하면 관리 가능하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008949 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 말기암의 조절되지 않는 통증에 환자 반응을 관찰하며 opioid를 증량하는 A를 유지. 호흡억제 우려만으로 필요한 완화를 중단하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/about-cancer/treatment/side-effects/pain/pain-hp-pdq
 
 ## 출처
 

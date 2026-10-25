@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 전 결장직장절제술
 ## 해설
 
 
-광범위한 대장 점막 염증, 가성용종, 그리고 재발성 출혈은 난치성 궤양성 대장염을 시사한다. 이 경우 약물 치료만으로는 충분하지 않으며, 확정적 치료는 전 결장직장절제술이다. 다른 선택지는 보존적 치료에 불과하다.
+정답 D. 대장과 직장을 제거하는 proctocolectomy는 궤양성 대장염의 대장 병변을 근본적으로 제거하는 방법이다. 이는 수술의 근치적 성격을 묻는 답이지 이 환자가 지금 반드시 수술받아야 한다는 뜻이 아니다. 본문에는 약물치료 불응이 제시되지 않았으며 질환 범위·중증도와 치료 반응에 따라 약물치료와 수술 적응증을 판단한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009943 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 대장직장절제 D는 UC의 근본적 장병변 제거라는 질문 맥락; 진단 3개월만으로 약물불응/즉시 수술 필요를 만들어낸 해설 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gut.bmj.com/content/74/Suppl_2/s1
 
 ## 출처
 

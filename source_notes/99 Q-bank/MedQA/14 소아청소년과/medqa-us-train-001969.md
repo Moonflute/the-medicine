@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 노란 점액농성 분비물
 
 ## 해설
 
+사춘기 전 아동의 노란 점액농성 분비물(D), 배뇨통·행동 변화는 감염 및 안전 문제 평가를 정당화한다. 분비물 자체가 임질이나 성학대를 확진하지는 않는다. 숙련자가 외상을 최소화하여 검체를 채취하고 확진검사·보호 절차를 진행한다.
 
-성적 학대 시 질에서 흔히 보이는 소견은 농성, 노란색 점액성 분비물(농양성 질 분비물)이며, 이는 성병 감염을 시사한다. 다른 선택지는 피부 병변에 해당한다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 점액농성 분비물 D는 STI 평가 근거지만 성학대 확진 소견이라는 과장 수정.
+- https://www.cdc.gov/std/treatment-guidelines/sexual-assault-children.htm
 
 ## 출처
 

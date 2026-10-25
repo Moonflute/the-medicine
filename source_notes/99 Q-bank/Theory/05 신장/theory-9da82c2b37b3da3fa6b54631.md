@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-yngO2FlOunjCDspp3tm4TqtbAgKEdpdGVsbWFuIFN5bmRyb21lKS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "지텔만의 부위·운반체·전해질을 따로 반복하지 않고 하나의 생리 개념으로 통합."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-지텔만 증후군은 어느 부위의 어떤 운반체 기능 이상으로 발생하는가?
+지텔만 증후군의 기본 운반체 이상은?
 
 ## 선택지
 
-A. 원위세뇨관 NaCl 공동수송체(NCCT) 기능 저하
-B. 근위세뇨관 SGLT2 기능 저하
-C. 원위세뇨관 ENaC 기능 저하
-D. 집합관 AQP2 기능 저하
+A. 원위곡세뇨관 Na-Cl 공동수송체(NCC) 기능 저하
+B. 집합관 ENaC 기능 증가
+C. 근위세뇨관 SGLT2 기능 증가
+D. 집합관 AQP2 기능 증가
 
 ## 해설
 
-지텔만 증후군은 원위세뇨관의 NaCl 공동수송체(NCCT) 기능이 감소하면서 발생한다.
+티아지드 유사 염분 소실로 저칼륨성 대사성 알칼리증을 보이며 저마그네슘혈증·저칼슘뇨가 특징적 단서이다. 바터 증후군과 구분하되 전형적인 모든 소견을 필수 조건으로 삼지 않는다.
 
 ## 오답 포인트
 
-- **B. 근위세뇨관 SGLT2 기능 저하:** SGLT2는 근위세뇨관에서 포도당 재흡수를 담당한다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 지텔만 증후군 (Gitelman Syndrome)
 - 원본 경로: `source_notes/02 Diseases/05 신장/지텔만 증후군 (Gitelman Syndrome).md`
-- 학습 목표: 원문 핵심: * **CC** - 무증상인 경우가 많으나, 근육 경련, 쇠약감, 피로감, 다뇨, 다갈증 등이 나타날 수 있음. * **P/E** - 정상 혈압 또는 저혈압 - 저칼륨혈증 (hypokalemia) - 대사성 알칼리증 (metabolic alkalosis) - 이차성 알도스테론증 (hyperaldosteronism) - 저마그네슘혈증 (hypomagnesemia) - 저칼슘뇨증 (hypocalciuria)
+- 학습 목표: Gitelman의 NCC 기능 저하와 thiazide 유사 효과

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 2시간 후 자궁경부가 10 cm, 태아 머리가 +1 station이고 자궁�
 
 ## 해설
 
+파수 상태에서 ≥6 cm 개대 후 충분한 자궁수축에도 4시간 동안 경부 변화가 없으면 활동기 정지를 고려하므로 C가 의도된 답이다. C에서는 선진부가 -1에서 0으로 내려왔지만 개대는 7 cm로 유지된다. 단순 수축 간격만으로 충분한 수축력을 확정하지 않으며 실제로 강도·촉진 치료를 평가한다. 불충분 수축에서는 일반적으로 더 긴 관찰/옥시토신 기준을 적용한다.
 
-활동기 진통이 2분마다 발생하고 자궁경부가 7 cm에 머물며 태아 머리 위치가 변하지 않으면 진행성 진통 저하가 있다. 이는 제왕절개 적응증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 하강이 전혀 없다는 오류 및 활동기 정지의 수축 강도 요건 수정.
+- https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management
 
 ## 출처
 

@@ -16,36 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "피부·점막 긴 나열과 치아우식=괴혈병 단정을 제거하고 중요한 아연 결핍의 성장·설사·탈모 개념을 남김."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-아연 결핍증에서 흔히 나타나는 피부·점막 증상은?
+소아 아연 결핍에서 함께 나타날 수 있는 대표적인 소견 조합은?
 
 ## 선택지
 
-A. 구주위염, 습진성 인설성 판, 수포성·농포성 발진, 탈모, 손발톱 이상 등 다양한 피부·점막 증상이 나타난다
-B. 치아 우식과 잇몸 출혈이 주된 증상이다
-C. 뼈 연화와 근육 약화가 특징이다
-D. 피부에 건조한 비늘 모양의 판이 나타난다
+A. 성장저하·설사·탈모
+B. 야맹증·비토반점만
+C. 구루병·골연화증만
+D. 비타민 K 의존 응고인자 이상만
 
 ## 해설
 
-아연 결핍은 구주위염, 습진성 인설성 판, 수포·농포성 발진, 탈모, 손발톱 변화 등 다발성 피부·점막 이상을 보인다.
+아연은 성장과 여러 조직의 기능에 관여한다. 소아에서 아연 결핍은 성장저하, 설사, 탈모 및 면역기능 저하 등 다양한 소견과 관련될 수 있으며 나이와 원인에 따라 양상이 다르다.
 
 ## 오답 포인트
 
-- **B. 치아 우식과 잇몸 출혈이 주된 증상이다:** 치아 우식·잇몸 출혈은 비타민 C 결핍(괴혈병)과 관련 있다.
+- **야맹증·비토반점:** 비타민 A 결핍의 주요 안과 개념과 구분한다.
+- **구루병·골연화증:** 비타민 D·칼슘 대사 이상과 관련된다.
+- **비타민 K 의존 응고인자:** 아연의 대표적 결핍 소견을 설명하지 못한다.
 
 ## 출처
 
 - 내부 학습 노트: 아연 결핍증 (Zinc Deficiency)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/아연 결핍증 (Zinc Deficiency).md`
-- 학습 목표: 원문 핵심: * **피부 및 점막**: 구주위염(angular cheilitis), 습진성 인설성 판, 수포성/농포성 발진, 탈모, 손발톱 이상(paronychia, Beau lines) * **전신 증상**: 성장 지연, 성적 성숙 지연, 면역 저하(감염 취약성), 설사, 미각 및 후각 저하, 정서 불안, 야맹증 * **특징**: 마찰 부위(관절 부위 등)에 병변이 잘 발생하며, 유전성인 경우 모유 수유 중단 후 4~6주경 증상 발현
+- 학습 목표: 소아 아연 결핍의 성장저하·설사·탈모를 연결한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 피부·점막 긴 나열과 치아우식=괴혈병 단정을 제거하고 중요한 아연 결핍의 성장·설사·탈모 개념을 남김.
+- 근거: https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/

@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 니타족사나이드
 ## 해설
 
 
-CD4 98/mm³인 HIV 환자에게 혈관 증식성 병변과 Warthin‑Starry 양성균이 보이면 바르토넬라 감염(베르트병)이다. 치료에 가장 효과적인 항생제는 에리트로마이신이다. 따라서 에리트로마이신이 적절한 약물이다.
+혈관 증식과 Warthin–Starry 양성 세균이 있는 HIV 환자의 피부 구진은 Bartonella 관련 세균성 혈관종증(bacillary angiomatosis)이다. 선택지 C의 erythromycin은 권고 치료 중 하나이고 doxycycline도 유효하다. HIV 감염에서는 일반적으로 충분한 장기 치료와 ART를 병행하며 다발성 중증·전신 침범이면 rifamycin 병용/정주 치료 등을 검토한다. HHV8 관련 Kaposi육종과 달리 세균성 병원체가 관찰되는 맥락이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004104 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 베르트병이라는 잘못된 진단명을 세균성 혈관종증으로 교정; erythromycin C 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/bartonellosis
 
 ## 출처
 

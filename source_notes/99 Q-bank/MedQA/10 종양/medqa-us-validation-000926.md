@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 암항원 125(CA-125)
 ## 해설
 
 
-대장암 수술 후 재발 감시는 혈청 암배아항원(CEA) 수치를 측정하는 것이 표준이다. CEA는 재발 조기 발견에 민감도가 높다. 따라서 CEA 검사가 정답이다.
+대장암 근치치료 뒤 CEA A는 추적관찰에 사용하는 종양표지자다. 일련의 CEA 추이와 CT·대장내시경 등을 함께 사용하며, CEA가 모든 재발에서 상승하는 것은 아니고 상승만으로 재발을 확진할 수도 없다. CA-125는 이 상황의 표준 표지자가 아니며 골반 MRI·경직장 초음파를 모든 결장암 환자의 단독 추적법으로 적용하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000926 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 대장암 절제 후 CEA A 유지하되 재발을 항상 민감하게 진단하는 단독검사라는 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng151/chapter/Recommendations
 
 ## 출처
 

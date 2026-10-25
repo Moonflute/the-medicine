@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 전신홍반루푸스
 
 
 양성 한랭글로불린과 류마티스인자 양성은 혼합형 한랭글로불린혈증을 특징으로 하며, 이는 C형 간염 감염과 연관된다. 따라서 기저질환은 C형 간염이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005044 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혼합형 한랭글로불린혈증·RF·자반의 HCV B 연관을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

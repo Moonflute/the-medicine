@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,15 @@ D. 보존적 치료 및 증상 지속 시 시프로플록사신(Ciprofloxacin) �
 ## 해설
 
 
-IV 약물 남용 환자에서 급성 복통·설사·혈변은 장내 MRSA 감염을 의심하게 하며, 중증 감염 시 반코마이신이 1차 선택제이다. 메트로니다졸·클린다마이신은 혐기성균에, 시프로플록사신은 2차 옵션이다. 따라서 반코마이신 투여가 적절하다.
+최근 패혈증 입원 뒤 심한 수양성 설사와 복통은 항생제 관련 C. difficile 감염을 의심하게 한다. 정맥주사 약물사용력만으로 장내 MRSA라고 진단하지 않는다. 설사 빈도·중증도와 다른 원인을 확인하고 적절한 대변검사를 시행한다. CDI로 판단해 치료한다면 선택지 중 vancomycin(B)이 적절하며 반드시 장내에 도달하는 경구 경로를 뜻한다. 현행 지침은 초기 CDI에서 fidaxomicin을 조건부 선호하고 경구 vancomycin을 유효한 대안으로 인정한다. 안정된 환자에서 검사 없이 모든 설사에 경험적 vancomycin을 쓰라는 의미는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000587 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 장내 MRSA라는 잘못 연결된 설명을 최근 입원 후 C. difficile 의심과 경구 vancomycin의 역할로 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/clostridium-difficile/
+- https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/
 
 ## 출처
 

@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,10 @@ D. 감각 소실
 
 
 동공 반응이 비동등하고 시신경유두부종, 색 인지 감소는 구심성 동공운동장애와 시신경염을 나타내며, 이는 다발성 경화증에서 흔히 나타난다. 다발성 경화증은 감각 소실을 동반할 수 있으므로 감각 소실 여부를 추가로 확인해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 안구운동통·색각저하·상대구심동공장애는 시신경염, 감각소실 병력은 탈수초질환의 다발 증상 단서. 원정답 D/해설의 핵심 일치.
 
 ## 출처
 

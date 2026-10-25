@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 흉선 이식
 
 ## 해설
 
+생후 초기에 반복 감염·설사·성장부진·칸디다와 흉선 음영 부재는 SCID를 시사한다. 보기 중 조혈모세포이식(A)이 근본적인 면역 회복 치료다. 유전형에 따라 유전자치료 등도 가능하므로 모든 SCID에서 유일한 치료라고 단정하지 않는다.
 
-중증 복합면역결핍증(디아고노시스) 환자는 흉선이 소실되고 심각한 감염 위험이 있다. 근본적인 면역 회복을 위해서는 조혈모세포 이식이 유일한 확실한 치료법이다. 따라서 A가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: SCID의 조혈모세포이식 A 유지. 무의미한 음역과 유일한 확정치료라는 단정 교정.
+- https://www.genome.gov/Genetic-Disorders/Severe-Combined-Immunodeficiency
 
 ## 출처
 

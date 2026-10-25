@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 정맥 세프트리악손 및 아지트로마이신 치료
 ## 해설
 
 
-척수 압박 증상(통증, 약화, 배뇨·배변 장애)과 전이성 폐암 병변이 동반된 경우, 급성 염증을 억제하고 부종을 감소시키는 고용량 정맥 덱사메타손이 가장 효과적이다. 따라서 정맥 덱사메타손 치료가 적절하다.
+통증·진행성 하지 약화·감각수준·괄약근 증상은 악성 척수압박을 강하게 의심하게 한다. 신속한 덱사메타손(B)과 함께 응급 척추 MRI 및 전문의 평가로 수술·방사선치료를 계획한다. 스테로이드 단독이 최종 치료이거나 무제한 고용량을 쓰라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000280 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 신경징후 동반 악성 척수압박 의심에서 B 유지. 무제한 고용량 단독치료라는 해설을 신속 dex+MRI/최종치료로 제한.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations
 
 ## 출처
 

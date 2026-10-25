@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,13 @@ D. 신체적 학대
 ## 해설
 
 
-PT 연장과 정상 PTT·BT는 외부 비타민 K 의존 응고인자 결핍을 시사한다. 비타민 K는 장내 세균에 의해 합성되며, 장내 세균 감소(항생제 사용)와 영양 결핍이 원인이다. 따라서 비타민 K 결핍이 가장 가능성 있는 원인이다.
+섭취 제한과 반복 항생제 노출 뒤 출혈, 단독 PT 연장은 비타민 K 결핍(A)을 지지한다. 비타민 K는 II·VII·IX·X 및 protein C/S의 γ-carboxylation에 필요하다. 반감기가 짧은 VII 인자가 먼저 감소하면 초기에는 aPTT가 정상이어도 PT가 연장될 수 있다. 영양 공급 부족과 장내 세균 변화가 함께 기여할 수 있으며, 정상 혈소판과 출혈시간은 혈소판 수·기능 장애보다 응고인자 문제를 지지한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000572 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 비타민 K 의존인자를 외인성 경로에만 한정하는 표현을 초기 VII 인자 감소에 따른 PT 연장으로 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

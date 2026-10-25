@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvUm9mbHVtaWxhc3QubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 치료에 카르보시스테인 추가
 
 ## 해설
 
+지속 증상이 있는 COPD에서 B의 티오트로피움은 장기작용 무스카린 길항제로 적합한 유지치료 선택지이다. 실제 약제 조합은 증상 부담과 악화력에 따라 정하며 FEV1 60%만으로 모든 단계를 결정하지 않는다. 로플루밀라스트는 경구 PDE4 억제제이지 LABA/ICS 복합제가 아니며, ICS도 모든 환자에게 자동으로 추가하지 않는다.
 
-FEV1이 60%인 환자는 중등도 COPD이며, 증상이 악화된 경우 흡입제에 장기 작용제(티오트로피움) 추가가 1단계 치료이다. 로플루밀라스트는 LABA/ICS 복합제이며, 이 단계에서는 필요하지 않다. 따라서 티오트로피움 추가가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 로플루밀라스트를 LABA/ICS로 분류한 오류와 FEV1만으로 유지치료를 정하는 설명을 교정.
+- https://goldcopd.org/2026-gold-report-and-pocket-guide/
 
 ## 출처
 

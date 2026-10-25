@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 수돗물로 세척한다
 
 ## 해설
 
+화학물질이 눈에 튀면 즉시 풍부한 깨끗한 물로 세척하여 노출 시간을 줄이는 것이 우선이며 D가 적절하다. 생리식염수 등 적절한 관류액이 바로 없더라도 수돗물을 이용하고 진료 연락 때문에 관류를 늦추지 않는다. 산성 노출에 알칼리 용액을, 알칼리 노출에 산성 용액을 넣어 중화하려 하면 추가 손상을 일으킬 수 있으므로 피한다. 세척 후 안과 평가와 안정된 안구표면 pH 확인이 필요하다.
 
-염산은 강산성 물질로, 화학적 안구 손상의 1차 치료는 즉시 풍부한 물(수돗물)로 눈을 씻어 산을 희석하고 중화시키는 것이다. 알칼리 용액은 알칼리성 화학물질에만 사용되며, 산성 물질에는 오히려 손상을 악화시킬 수 있다. 따라서 가장 적절한 초기 처치는 수돗물로 세척하는 것이 맞다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 알칼리 화상에는 알칼리 용액을 쓴다는 잘못된 설명을 교정. 산·알칼리를 서로 반응시켜 중화하지 않고 즉각 관류한다.
+- 공식/학회 근거: https://eyewiki.aao.org/Chemical_%28Alkali_and_Acid%29_Injury_of_the_Conjunctiva_and_Cornea
 
 ## 출처
 

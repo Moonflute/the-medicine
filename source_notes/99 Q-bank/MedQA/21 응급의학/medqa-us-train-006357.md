@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 초음파
 
 ## 해설
 
+갑작스러운 심한 두통, 구토와 경부 증상은 지주막하출혈을 의심하게 한다. 증상 시작 약 6시간이 경과했고 정신 상태도 평소보다 저하되어 있으므로 음성 비조영 CT만으로 이를 안전하게 배제할 수 없다. 이런 상황에서 요추천자(B)로 추가 평가하는 것이 적절하다. 발병 6시간 이내의 고품질 CT가 정상이고 신경학적 진찰도 정상인 선택된 환자에게 적용하는 배제 전략을 이 사례에 그대로 적용해서는 안 된다.
 
-두통과 구토가 급성 발병했으며 CT가 정상인 경우 출혈을 의심해 뇌척수액을 통한 혈액 검사가 필요하다. 요추천자는 지주막하출혈을 진단하는 표준 검사이다. 따라서 요추천자를 시행하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 증상 6시간 경과 및 정상 신경 상태가 아닌 환자의 음성 CT 뒤 지주막하출혈 추가 검사 B는 유지하되 모든 음성 CT에 LP가 필요한 것으로 일반화하지 않는다.
+- 공식/학회 근거: https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000436
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 내부 고정술
 
 ## 해설
 
+안정된 산소화와 전위 없는 4·5번 두 갈비뼈 골절에는 적절한 진통·폐위생·호흡 관찰을 포함하는 보존적 치료(C)가 적합하다. 통증, 기저질환과 호흡기능 악화에 따라 입원 수준을 조정한다. 이 본문만으로 CPAP나 내부 고정을 우선할 근거는 없다.
 
-단일 갈비뼈 골절은 보존적 치료와 충분한 진통이 표준이다. 환자는 혈역학적으로 안정하고 호흡곤란도 경미하므로 ICU 입원이나 수술은 필요하지 않다. 따라서 가장 적절한 관리 단계는 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 두 개 갈비뼈 골절을 단일 골절이라 한 오류와 ICU/수술 절대 불필요 단정 교정.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

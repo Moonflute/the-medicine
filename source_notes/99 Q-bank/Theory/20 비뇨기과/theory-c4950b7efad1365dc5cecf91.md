@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "역류하는 것은 압력이 아니라 소변이며 정상 소변 흐름을 역류라고 부른 해설 오류 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -31,21 +36,29 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 배뇨 중 소변이 요관을 통해 상부 요로로 역류하는 현상
-B. 소변이 방광으로 역류하는 현상
+A. 방광의 소변이 요관을 통해 상부 요로로 거꾸로 흐르는 현상
+B. 신장에서 만들어진 소변이 요관을 통해 방광으로 내려가는 정상 흐름
 C. 요관이 방광벽을 통과하지 못하는 선천적 폐쇄
-D. 고환으로 소변이 역류하는 현상
+D. 고유초막에 장액이 축적되는 현상
 
 ## 해설
 
-방광요관역류는 배뇨 시 방광압이 요관을 거쳐 상부 요로로 역류하는 병리 현상이다.
+방광 내 소변이 요관, 경우에 따라 신우까지 역행하는 상태다. 정상적인 신장→요관→방광 흐름과 구분한다.
 
 ## 오답 포인트
 
-- **B. 소변이 방광으로 역류하는 현상:** 소변이 방광으로 역류하는 것은 정상적인 배뇨 과정이다.
+- **신장에서 방광으로 내려감:** 정상적인 순방향 소변 운반이다.
+- **선천적 폐쇄:** 역류와 다른 구조적 문제다.
+- **고유초막 장액:** 물음낭증이다.
 
 ## 출처
 
 - 내부 학습 노트: 방광요관역류 (VesicoUreteral Reflux)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/방광요관역류 (VesicoUreteral Reflux).md`
-- 학습 목표: 원문 핵심: - **정의:** 방광 내 소변이 배뇨 중 요관을 통해 상부 요로로 역류하는 현상. - **원인:** 요관 방광 이음부(ureterovesical junction)의 해부학적 결함(짧은 요관 내벽 등)이 주원인. 선천성 요인 외에도 방광 내압 상승(신경인성 방광, 후부 요도 판막 등)이나 방광/장 기능 장애(BBD)와 연관됨. - **기전:** 요관이 방광벽을 통과하는 터널링이 짧아 배뇨 시 방광 내압을 견디지 못하고 역류 발생. 반복적인 요로 감염(UTI) 및 역류성 신병증으로 인한 신장 흉터(scarring) 유발 가능.
+- 학습 목표: 방광요관역류의 소변 흐름 방향
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 역류하는 것은 압력이 아니라 소변이며 정상 소변 흐름을 역류라고 부른 해설 오류 교정.

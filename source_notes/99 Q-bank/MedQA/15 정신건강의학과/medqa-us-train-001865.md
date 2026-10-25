@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 신경성 폭식증
 
 ## 해설
 
+손가락 관절 굳은살(Russell 징후), 저칼륨·저염소혈증과 대사성 알칼리증은 반복 자가유발 구토를 시사한다. 저체중이 현저하지 않은 이 환자에서는 선지 중 신경성 폭식증(D)이 가장 적합하다. 다만 확진에는 폭식과 조절 상실, 보상행동 및 체중·체형 인지를 확인해야 하며 제거장애 등도 감별한다. 이뇨제 사용은 본문에 없고, 신경성 식욕부진증의 제거형에서도 전해질 이상이 생길 수 있어 이를 배제 기준으로 삼지 않는다.
 
-극심한 체중 감소, 저칼륨혈증, 대사성 알칼리증, 저칼슘은 신경성 폭식증에서 구토와 이뇨제 남용으로 나타난다. 반면 신경성 식욕부진은 저칼륨·저칼슘보다 저체중과 저혈압이 주된 특징이다. 따라서 가장 가능성 높은 진단은 신경성 폭식증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: BMI19에서극심한체중감소라는과장·이뇨제남용창작삭제. Russell징후/구토성알칼리증과D,폭식력추가확인필요.
+
 
 ## 출처
 

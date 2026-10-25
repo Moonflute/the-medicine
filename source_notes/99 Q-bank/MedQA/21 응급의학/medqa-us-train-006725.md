@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,11 @@ D. 음성예측도 감소
 
 ## 해설
 
+검사 자체의 민감도와 특이도가 같다면 질병 사전확률이 높아질수록 양성예측도는 높아지고 음성예측도는 낮아진다. 두 번째 환자의 위험 병력이 더 높다는 출제 조건에서는 음성 결과가 비감염을 보장하는 정도가 낮으므로 D가 적절하다. 이는 민감도나 특이도가 자동으로 달라진다는 뜻이 아니다. 실제 HIV 평가에서는 노출 시점과 검사 창기간도 함께 고려해야 하며, 제시된 양성 검출 비율 하나만으로 개별 환자의 감염 여부를 확정할 수 없다.
 
-두 번째 검사에서 양성 예측도가 감소하면 음성 예측도가 증가한다. 첫 검사의 민감도가 91%이므로 재검사 시 양성 결과가 적을수록 음성예측도가 낮아진다. 따라서 음성예측도가 감소한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 동일 검사에서 사전확률 증가 시 음성예측도가 낮아지는 D를 유지하고 해설의 PPV·NPV 증감 모순을 바로잡는다.
 
 ## 출처
 

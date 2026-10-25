@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 혈청 아밀로이드 A 생성 증가
 
 
 만성 류마티스 관절염 환자에서 단백뇨와 저알부민혈증, 부종이 나타나면 AA(급성기 반응) 아밀로이드가 신장에 침착되어 신증후군을 일으킨다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-001177` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 장기간 RA 염증→serum amyloid A 증가→AA 신장 침착의 D가 AL 선지와 구별되어 맞음. source에 없는 아밀로이드 생검 확진을 주장하지 않음.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

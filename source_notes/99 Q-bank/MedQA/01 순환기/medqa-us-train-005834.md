@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 정맥조영술
 
 ## 해설
 
+PV의 혈전위험·RUQ통증·고SAAG복수는 간정맥유출로 폐쇄를 의심하게 한다. B의 초음파는 숙련된 Doppler검사로 간정맥/IVC 흐름을 평가한다. 불명확하면 CT/MR로 확인하며 모든 MRI/CT가 언제나 불필요한 것은 아니다.
 
-우상복부 통증·복수·다발성 혈전증 위험이 있는 진성 적혈구증가증 환자에서 간정맥 혈전증(버드‑키아리 증후군)을 의심한다. 초음파는 비침습적 1차 검사로 혈전 여부를 확인한다. 심초음파·MRI·정맥조영술은 2차 검사가 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: PV의 Budd-Chiari 초기 초음파 B를 Doppler 혈류평가로 명료화.
+- https://aasldpubs.onlinelibrary.wiley.com/doi/10.1002/hep.31646
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 갑상선기능저하증
 
 
 갑상선저하증은 TRH 상승을 통해 프로락틴을 증가시켜 유두 분비를 일으킨다. 따라서 가장 가능성 높은 원인은 갑상선기능저하증이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007952 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 중단된 LT4와 TSH16.3에서 TRH 증가–prolactin 상승–유즙분비의 원발성 갑상선기능저하 D 기전은 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

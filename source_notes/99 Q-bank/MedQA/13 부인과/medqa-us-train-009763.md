@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 복합 경구피임약
 
 ## 해설
 
+희발월경과 고안드로겐 소견의 PCOS에서 임신을 원하지 않으면 복합 피임약(D)으로 월경과 안드로겐 증상을 조절할 수 있다. 혈당 190 mg/dL은 별도의 당대사 평가가 필요하며 수시 손끝 혈당 한 번만으로 당뇨를 확진하지 않는다. 필요시 대사 치료·생활관리도 병행한다.
 
-다낭성 난소 증후군은 고안드로겐혈증과 비만, 불규칙 월경을 동반한다. 복합 경구피임약은 배란을 억제해 월경 주기를 규칙적으로 만들고 안드로겐을 감소시켜 증상을 개선한다. 따라서 가장 적절한 약물은 복합 경구피임약이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: PCOS 월경·다모증·피임 목적의 복합 피임약 D 유지. 혈당 190을 정상으로 간과하지 않도록 보완.
+- https://integration.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/
 
 ## 출처
 

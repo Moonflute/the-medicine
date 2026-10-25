@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 혈관성 파행
 
 
 고관절·엉덩이 통증과 발기부전, 대퇴동맥 맥박 약화는 대동맥-장골동맥 협착(레리셰 증후군) 때문이며, 이는 혈관 폐색이 가장 특이적인 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/선지/정답 B/해설 읽음. 엉덩이·고관절 파행, 발기부전, 대퇴맥 감소의 Leriche 양상에서 가장 특이적 원인은 대동맥-장골동맥 죽상경화증이며 D는 비특이적 증상 범주. 내용 일치.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

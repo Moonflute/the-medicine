@@ -22,13 +22,15 @@ question_type: complication
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 급성 림프모구성 백혈병
 
 ## 해설
 
+저신장·낮은 헤어라인·넓은 유두간격·손의 림프부종은 Turner 증후군을 시사한다. 이첨대동맥판과 대동맥축착 등 좌심계 기형 위험이 증가하며 이첨판은 역류/협착을 유발할 수 있어 선택지 C가 부합한다. 대동맥판 기능부전 자체가 Turner에서 항상 가장 흔한 합병증이라는 뜻은 아니다.
 
-터너 증후군은 대동맥 판막 이형성(이첨판) 및 대동맥 협착 위험을 증가시킨다. 따라서 가장 흔한 합병증은 대동맥판막 기능부전이다. 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Turner의 이첨대동맥판/축착과 선택지 AR C를 연결하되 AR가 가장 흔한 합병증이라는 단정 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

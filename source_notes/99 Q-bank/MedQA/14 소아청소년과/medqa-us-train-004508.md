@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNCDqsITri7Tst4wvU29mb3NidXZpci5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. B형간염 백신
 
 ## 해설
 
+HBV 노출 신생아에게는 B형간염 백신과 B형간염 면역글로불린(HBIG)을 출생 12시간 이내 서로 다른 부위에 투여하므로 C가 적절하다. 출생체중 2,200 g은 이 예방 조치를 늦출 이유가 아니다. HBIG는 일반 면역글로불린과 다르며 HCV 예방 백신을 의미하지 않는다.
 
-신생아는 모체가 HBsAg 양성인 경우 즉시 HBIG와 동시에 B형 간염 백신을 투여해야 수동·능동 면역을 동시에 제공한다. 항바이러스제는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HBsAg 양성 산모 신생아의 HBIG와 백신 투여 시점을 명확화.
+- https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/index.html
 
 ## 출처
 

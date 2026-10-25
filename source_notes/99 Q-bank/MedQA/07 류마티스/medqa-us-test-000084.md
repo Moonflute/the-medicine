@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 은백색 인설을 동반한 분홍색 판
 ## 해설
 
 
-환자는 목이 뻣뻣하고 어깨 압통, 고 ESR·CRP를 보이며 50대 이상에서 급성 두통이 없고 턱 움직임에 제한이 있다면 거대세포동맥염을 의심한다. 거대세포동맥염에서 턱 파행(턱관절 통증·운동 제한)은 중요한 선별 증상이다. 따라서 선별검사가 필요한 증상은 턱 파행이다.
+정상 근력에 아침 어깨·목 통증과 높은 염증수치가 있어 류마티스성 다발근통을 의심한다. 거대세포동맥염이 동반될 수 있으므로 씹을 때 턱 근육의 허혈성 통증인 턱 파행(A), 새 두통·시각 증상을 확인한다. 턱 파행은 단순 턱관절 운동제한과 다르다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-000084` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 보존된 근력·어깨 강직과 높은 염증수치는 PMR, 동반 GCA 증상 확인 A. 해설에 없던 턱 운동제한을 생성한 부분 교정.
+- 범위: evidence-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

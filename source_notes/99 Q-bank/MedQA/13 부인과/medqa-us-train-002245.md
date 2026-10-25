@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 개복술
 
 ## 해설
 
+양성 임신검사·무월경·급성 통증과 저혈압·빈맥·복막 자극은 파열 자궁외임신에 의한 복강내 출혈(혈복강)을 강하게 시사한다. 소생·혈액 준비와 응급수술(D)이 필요하다. 혈흉은 흉강 내 출혈로 다른 상태이며 난관결찰력도 자궁외임신을 배제하지 않는다.
 
-복부 반동통과 저혈압, 빈혈은 대량 복강내 출혈을 시사한다. 양성 베타‑hCG와 급성 혈역학 불안정은 파열된 자궁외임신에 의한 혈흉을 의미한다. 즉시 혈액을 제거하고 출혈을 차단하기 위해 개복술이 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: hemoperitoneum을혈흉으로오역한오류수정.
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/ectopic-pregnancy/
 
 ## 출처
 

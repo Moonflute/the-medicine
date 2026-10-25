@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 유착태반
 
 ## 해설
 
+갑작스러운 복통, 단단하고 압통 있는 자궁, 모체 쇼크 소견과 태아 서맥은 태반조기박리(C)를 가장 시사한다. 출혈이 자궁 내에 가려지면 외부 질출혈이 뚜렷하지 않을 수도 있다. 본문은 태아 혈압이 아니라 태아 심박수를 제시했으며, 비출혈성 구토는 박리의 특징적 진단 근거가 아니다.
 
-태아와 산모의 혈압 저하, 자궁 경직, 비출혈성 구토는 태반조기박리를 특징으로 한다. 이는 가장 위험한 산과 응급 상황이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태아혈압을측정한것처럼쓴오류·비출혈성구토가특징이라는오류삭제. 단단한압통자궁/모체쇼크/태아서맥으로C.
+
 
 ## 출처
 

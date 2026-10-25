@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 약물의 이상반응
 ## 해설
 
 
-SLE 환자에서 장기 스테로이드 사용 시 근위축성 근육 약화(스테로이드성 근위축증)가 흔히 발생한다. 이는 약물 부작용에 해당한다.
+치료 시작8개월 뒤 정상 CK와 보존된 반사에 근위부 근력저하가 생겨 보기 중 약물이상반응 D가 가장 부합한다. Glucocorticoid를 사용했다면 steroid myopathy가 전형적이지만 본문에 실제 약명이 없어 사용 사실을 만들어 넣어서는 안 된다. Hydroxychloroquine 등도 근병증을 일으킬 수 있으므로 약명·용량·기간을 확인한다. 정상 CK만으로 모든 염증성 또는 약물성 근병증을 완전히 구분하지는 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008642 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 미명시 SLE 치료를 자동으로 장기 steroid라 확정하지 않고 약물성 근병증 D의 조건부 설명으로 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

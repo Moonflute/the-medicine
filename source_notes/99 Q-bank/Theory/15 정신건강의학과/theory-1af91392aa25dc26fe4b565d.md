@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "Conners를 진단 기준이라고 쓴 선지와 단독 진단 선지가 둘 다 틀린 복수정답 문제를 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -31,10 +36,10 @@ ADHD 진단 시 평정 척도에 대한 설명으로 옳지 않은 것은?
 
 ## 선택지
 
-A. Vanderbilt 척도는 보조적 수단이다
-B. Conners 척도는 진단 기준으로 사용된다
-C. 평정 척도만으로 단독 진단이 가능하다
-D. 지속수행검사는 보조적 평가에 포함된다
+A. Vanderbilt 척도는 종합 평가를 보조한다.
+B. Conners 척도도 임상 정보와 함께 해석하는 보조 도구이다.
+C. 평정척도 점수 하나만으로 ADHD를 단독 확진한다.
+D. 지속수행검사는 상황에 따라 보조적으로 활용할 수 있다.
 
 ## 해설
 
@@ -42,10 +47,17 @@ ADHD 평정 척도는 진단 보조 도구이며, 단독으로 진단을 내릴 
 
 ## 오답 포인트
 
-- **B. Conners 척도는 진단 기준으로 사용된다:** Conners 역시 보조적 도구이며 진단 기준이 아니다.
+- Vanderbilt·Conners 등 척도는 평가를 보조하지만 증상·기능 영향·여러 환경의 정보를 대신하는 단독 확진검사는 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 주의력 결핍 과다 행동 장애 (ADHD)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/주의력 결핍 과다 행동 장애 (ADHD).md`
-- 학습 목표: 원문 핵심: - 임상적 평가: 포괄적인 의학적, 발달적, 교육적, 심리적 평가. - 도구: ADHD 특화 평정 척도(Vanderbilt, Conners, ADHD Rating Scale-5 등), 지능검사, 지속수행검사(CPT). - 주의: 평정 척도는 보조적 수단이며 단독으로 진단하지 않음.
+- 학습 목표: ADHD 평정척도의 진단 보조 역할
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: Conners를 진단 기준이라고 쓴 선지와 단독 진단 선지가 둘 다 틀린 복수정답 문제를 교정.
+- 근거: https://www.cdc.gov/adhd/diagnosis/

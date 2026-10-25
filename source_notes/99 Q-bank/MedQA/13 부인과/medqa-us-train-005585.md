@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 월경전 불쾌 장애
 
 ## 해설
 
+초경 후 6개월에는 성선축 성숙 과정의 무배란으로 월경 간격·양이 변동할 수 있어 제시된 선지 중 정상 사춘기 발달(A)이 가장 적합하다. 비만만으로 PCOS를 진단할 수 없다. 다만 매우 잦거나 심한 출혈, 빈혈·어지럼 또는 지속적 기능 저하가 있다면 정상 발달이라고 일괄 치부하지 않고 출혈 정도와 다른 원인을 평가한다.
 
-초경 후 월경 간격과 양상이 변동하는 것은 정상 사춘기 발달이며, 다른 병리적 징후가 없으므로 정상 발달이 가장 가능성 높다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 초경후변동A유지하되매우짧은주기·심한출혈까지무조건정상이라는안심오류방지.
+
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 유육종증
 ## 해설
 
 
-부비동염, 관절통, 혈뇨·단백뇨가 동반된 경우 다발혈관염을 동반한 육아종증(웨그너 육아종증)이 의심된다. 이는 ANCA 음성 다발혈관염을 특징으로 한다. 따라서 다발혈관염을 동반한 육아종증이 정답이다.
+지속적 혈성/화농성 부비동 증상에 혈뇨·단백뇨와 전신 관절통이 더해져 GPA(B)를 의심한다. GPA는 ANCA 연관 혈관염으로 특히 PR3-ANCA와 관련되지만 일부 환자는 ANCA 음성일 수 있다. 음성을 특징이나 필수조건으로 정의하지 않는다. IgA 신병증 단독으로 파괴성 상기도 병변 전체를 설명하기 어렵다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004257 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: GPA를 ANCA 음성 혈관염으로 정의한 오류를 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

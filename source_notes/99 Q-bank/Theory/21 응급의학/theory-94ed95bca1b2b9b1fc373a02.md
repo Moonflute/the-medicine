@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "열사병과 단순 열탈진을 구별하는 중추신경 이상 개념 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 발진
 
 - 내부 학습 노트: 열질환 (Heat Illness)
 - 원본 경로: `source_notes/02 Diseases/21 응급의학/열질환 (Heat Illness).md`
-- 학습 목표: 원문 핵심: - 열경련은 운동 중 통증성 근수축, 열실신은 더운 환경의 일시적 의식소실, 열탈진은 탈수·무력감·두통·오심·운동중단으로 나타난다. - 혼돈, 초조, 실조, 경련 또는 혼수는 열사병을 시사한다. 피부가 건조하지 않고 땀이 나더라도 열사병이 가능하다. - 저혈압, DIC, 간·신손상, rhabdomyolysis, 저혈당, 폐부종과 심실부정맥은 중증 소견이다.
+- 학습 목표: 열사병의 중추신경 기능장애
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 열사병과 단순 열탈진을 구별하는 중추신경 이상 개념 유지.

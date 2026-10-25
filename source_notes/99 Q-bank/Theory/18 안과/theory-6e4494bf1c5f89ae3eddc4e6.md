@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "노안의 수정체 유연성·조절력 감소는 백내장 혼탁과 독립된 기본 이론으로 유지하고 기전 정돈."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -38,14 +43,22 @@ D. 망막 혈관 변형으로 중심 시력이 저하되는 현상
 
 ## 해설
 
-노안은 수정체 경화·탄력성 감소와 모양체근 전달 효율 저하로 조절능력이 감소해 근거리 시력이 저하되는 현상이다.
+나이가 들면서 수정체가 단단해지고 유연성이 줄어 근거리에 초점을 맞추는 조절능력이 감소하는 것이 노안의 핵심이다. 수정체 혼탁으로 빛 투과가 감소하는 백내장과 구분한다.
 
 ## 오답 포인트
 
-- **B. 수정체 혼탁으로 시야가 흐려지는 현상:** 백내장은 수정체 혼탁에 의한 시력 저하이다.
+- **수정체 혼탁:** 백내장의 병태이다.
+- **시신경 손상·망막 혈관 변화:** 노안의 조절력 감소와 다른 해부학적 기전이다.
 
 ## 출처
 
 - 내부 학습 노트: 노안 (presbyopia)
 - 원본 경로: `source_notes/02 Diseases/18 안과/노안 (presbyopia).md`
-- 학습 목표: 원문 핵심: - **정의**: 나이가 들면서 수정체의 조절 능력이 감소하여 근거리 시력이 저하되는 노화 현상 - **원인**: 수정체 단백질의 당화 및 산화로 인한 경화(rigidity) 및 탄력성 감소, 모양체근의 조절력 전달 효율 저하 - **기전**: 수정체의 조절력(amplitude of accommodation)이 감소하여 근거리 초점이 망막 뒤에 맺힘
+- 학습 목표: 노안에서 수정체 경화·유연성 저하로 근거리 조절능력이 감소함을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 노안의 수정체 유연성·조절력 감소는 백내장 혼탁과 독립된 기본 이론으로 유지하고 기전 정돈.
+- 근거: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/presbyopia

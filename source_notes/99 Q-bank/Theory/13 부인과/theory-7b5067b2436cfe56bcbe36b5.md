@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "양성 유관 내 증식과 관상피내암 구분은 쉬우나 중요한 개념으로 유지. 오답 해설의 선택지 문자만 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 유관 내에 형성되는 낭성 병변이다.
 
 ## 오답 포인트
 
-- **B. 유관 내에서 발생하는 악성 암성 병변이다.:** 악성 병변은 관상피내암으로 구분되며, 유두종은 양성이다.
+- 유관 내 악성 병변인 DCIS와 양성 유두종은 같은 질환이 아니다. 유관 내 위치 자체가 악성을 뜻하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 관내 유두종 (Intraductal Papilloma)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/관내 유두종 (Intraductal Papilloma).md`
-- 학습 목표: 원문 핵심: - **정의**: 유방의 유관 상피세포가 비정상적으로 증식하여 발생하는 양성 종양. - **원인**: 명확하지 않으나 호르몬(에스트로겐) 노출, 피임약 사용, 호르몬 대체 요법, 가족력 등이 위험 인자로 알려짐. - **기전**: 중심성 유두종은 유두 하부의 큰 유관에서 발생하며 주로 단일성임. 말초성 유두종은 말초 유관에서 발생하며 다발성인 경우가 많음.
+- 학습 목표: 관내 유두종의 양성 유관 병변 개념
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 양성 유관 내 증식과 관상피내암 구분은 쉬우나 중요한 개념으로 유지. 오답 해설의 선택지 문자만 제거.

@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 지지요법
 
 ## 해설
 
+이명, 발한, 빈호흡과 음이온차 증가 대사성 산증에 과도한 호흡성 보상이 동반된 소견은 살리실산염 중독을 시사한다. 초기에는 기도·호흡·순환과 체액·전해질을 평가하고 지지 치료(D)를 시작한다. 혈중 살리실산 농도와 산염기 상태를 반복 확인하고, 독성 정도에 따라 정맥 중탄산에 의한 혈청·소변 알칼리화 및 투석 필요성을 판단한다. pH가 정상에 가깝다고 독성이 경미한 것은 아니다. 섭취 12시간 뒤 모든 환자에게 위장관 제독이나 다회 활성탄을 우선한다는 원칙은 없으며, 흡수 지연 가능성과 기도 안전성을 개별 평가해야 한다.
 
-Salicylate 중독은 혼합성 호흡성 알칼리증·대사성 산증을 일으키며, 초기 치료는 호흡기 및 순환기 지지(수액, 전해질 교정 등)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 살리실산 중독의 초기 지지요법 D를 유지하되 정상에 가까운 pH가 경증을 보장하거나 수액만으로 충분하다는 오해를 피한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC4371029/
 
 ## 출처
 

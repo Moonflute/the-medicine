@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 서서 촬영한 흉부 및 복부 방사선촬영
 ## 해설
 
 
-급성 췌장염 의심 시 가장 먼저 시행하는 영상 검사는 복부 초음파이며, 담석 유무와 췌장 부종을 빠르게 확인할 수 있다. CT는 진단 후 합병증 평가에 사용한다. 따라서 다음 평가 단계는 복부 초음파이다.
+정답 C. 특징적 통증과 정상 상한의 3배를 넘는 lipase는 급성 췌장염을 지지한다. 반복 식후 통증과 높은 ALT 등을 고려해 초음파로 담낭결석 및 담도 확장 등 원인을 평가하는 것이 적절하다. 초음파가 췌장 전체나 부종을 항상 잘 보여주는 것은 아니다. CT는 진단 불확실, 임상 악화 또는 합병증 평가 등에서 선택한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000487 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: US C는 주로 담석/담도 원인 평가이지 췌장 부종을 가장 잘 보는 보편적 영상이 아님.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13221274/
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 전향성 기억상실
 
 ## 해설
 
-
-주요우울삽화 진단에는 2주 이상 지속되는 우울 기분·흥미·쾌감 상실 외에 5가지 이상의 동반 증상이 필요하다. 그 중 집중력 저하는 핵심 증상이며, 다른 선택지는 진단 기준에 포함되지 않는다. 따라서 집중력 저하가 반드시 있어야 한다.
+주요우울삽화는 같은 2주에 총 다섯 개 이상의 해당 증상이 있어야 하며 우울감 또는 흥미·즐거움 상실 중 하나를 포함한다. 이 사례에는 우울감·흥미 상실·식욕 저하·불면이라는 네 범주가 제시되어, 선택지 중 집중력 저하가 별도 다섯 번째 증상 범주를 더한다. 체중 감소와 식욕 변화는 같은 기준 범주이므로 따로 두 개로 세지 않는다. 집중력 저하가 모든 주요우울삽화에 반드시 필요한 단일 증상이라는 뜻은 아니며 빈도·기능장애·물질/의학적 감별도 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008785
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. MDE에 핵심 두 증상 외 5개가 더 필요하다는 오류 및 집중력 저하가 모든 우울삽화에 필수라는 오류 교정. 같은 범주인 체중·식욕을 중복 계산하지 않아 원정답 B 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.ncbi.nlm.nih.gov/books/NBK498652/table/depress-diab.T.dsm5__major_depressive_ep/?report=objectonly

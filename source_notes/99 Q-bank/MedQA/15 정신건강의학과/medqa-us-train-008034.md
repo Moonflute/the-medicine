@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 리스페리돈
 
 ## 해설
 
-
-강박장애의 1차 치료는 인지행동치료(CBT)이며, 약물보다 먼저 시행한다. 약물은 2차 옵션이다.
+억제하기 어려운 반복적 생각과 벽을 만지는 의례, 학교 기능장애는 강박장애를 시사한다. 제시된 선택지 중 노출 및 반응방지를 포함한 CBT가 적절한 초기 접근이며 가족 참여도 고려한다. 실제 약물 병합 여부는 연령·중증도·반응에 따라 판단하므로 모든 강박장애에서 약물이 언제나 단순 2차라고 일반화하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008034
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 청소년 강박 증상에 CBT 원정답 유지. 약물은 모든 상황에서 단순 2차라는 일반화를 사례별 중증도와 ERP를 포함한 CBT로 한정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg31/chapter/Recommendations

@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 점막하 치핵절제술
 ## 해설
 
 
-HIV 감염자에서 항문암은 진행이 빠르고 전이 위험이 크므로 방사선화학요법이 가장 효과적인 치료법이다. 따라서 방사선화학요법이 정답이다.
+항문연에서 0.5 cm 위의 항문관 종괴가 편평상피암으로 진단된 상황에서 선택지 A의 항암방사선치료는 표준적인 근치 접근이다. 원문의 CD4는 95/µL이고 dolutegravir·tenofovir·emtricitabine을 복용 중이다. HIV 감염만으로 곧바로 광범위 절제나 다른 암 치료를 선택하지 않으며 항레트로바이러스 치료·감염 예방과 혈액학적/피부 독성 감시를 병행한다. 면역저하 정도는 내약성에 영향을 주므로 개별화가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000928 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 항문관 SCC의 항암방사선 A 유지. HIV 자체가 무조건 치료를 바꾼다는 일반화 교정; 원문 CD4·ART는 해설에 복원.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/anal/hp/anal-treatment-pdq
 
 ## 출처
 

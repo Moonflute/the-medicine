@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,15 @@ D. 대변으로 상처를 스스로 오염시킴
 
 ## 해설
 
-
-환자는 상처를 고의로 대변으로 오염시켜 재발성 감염을 유도하는 자가유발 행동(병적 거짓증)으로 보인다. 이는 치료 후에도 재발 위험이 높으며 실제 감염원은 대변이다. 따라서 가장 가능성 높은 원인은 대변으로 상처를 스스로 오염시키는 것이다.
+관찰된 체온계 조작은 질병 징후를 의도적으로 만들어 보이는 행동의 근거이며, 반복 상처 감염에서 혼합 장내세균이 자란 점을 함께 보면 제시된 선택지 중 대변으로 상처를 스스로 오염시켰을 가능성을 추론한다. 실제로 상처에 대변을 넣는 장면이 확인됐다는 뜻은 아니다. 인위성 장애 가능성을 비난 없이 평가하되 감염 자체는 실제일 수 있으므로 적절히 치료하고 다른 감염 원인도 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010031
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 관찰된 체온 조작과 장내세균 배양으로 자가오염을 추론하는 답 유지. 실제 대변 오염이 직접 증명됐다는 과장과 병적거짓증 동일시 제거.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

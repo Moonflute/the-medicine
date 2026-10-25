@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 응급 시험적 개복술
 
 ## 해설
 
+성관계 직후 통증, 난소 낭성 구조 주위 에코성 액체, 저혈압·빈맥은 출혈성 난소낭종 파열과 복강내 출혈을 시사한다. 소생·혈액 준비 및 응급 수술 평가가 필요하여 보기 중 D가 적절하다. 원정답을 위해 자궁외임신으로 단정하지 않는다. 실제 수술 접근은 불안정 정도와 자원에 따라 결정한다.
 
-성관계 후 급성 하복부 통증, 복막 자극, 혈액성 난소 낭종은 파열된 자궁외 임신을 강하게 시사한다. 혈역학적 불안정과 혈액성 복수는 즉각적인 외과적 개복이 필요하다. 따라서 응급 시험적 개복이 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 혈역학적 불안정과 출혈성 난소낭종 파열의 긴급 수술 D 유지. 음성 hCG를 무시하고 파열 자궁외임신으로 단정한 오류 교정.
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/ovarian-cysts-before-the-menopause/
 
 ## 출처
 

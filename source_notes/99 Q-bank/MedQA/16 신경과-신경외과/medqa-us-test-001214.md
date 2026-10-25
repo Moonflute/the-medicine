@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 프로프라놀롤
 
 ## 해설
 
+가족력, 자세·동작 시 양측 떨림과 정상 근력·근긴장은 본태성 떨림을 지지한다. 제시된 선택지 중 프로프라놀롤(D)이 적절한 초기 약물이다. 프리미돈 등 다른 효과적인 약물도 있으며, 모든 환자에서 프로프라놀롤이 가장 효과적이라는 의미는 아니다. 침습적 치료는 약물 반응과 기능장애 등을 고려해 결정한다.
 
-양팔에 진행성 저진폭 떨림이 나타나는 경우는 본태성 떨림이며, 베타 차단제인 프로프라놀롤이 증상을 가장 효과적으로 감소시킨다. 따라서 프로프라놀롤 투여가 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. propranolol을 보편적으로 가장 효과적인 치료라고 단정한 과장 수정. 제시된 초기 약물 답 D 유지.
+- 공식/학회 근거: https://www.ninds.nih.gov/sites/default/files/2025-05/Tremor.pdf
 
 ## 출처
 

@@ -18,11 +18,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -30,6 +30,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 니트로푸란토인
 
 ## 해설
 
+22주 임신에서 배뇨통이 있으나 발열·옆구리 압통이 없어 급성 방광염이 의심된다. 배양을 채취하고 감수성에 맞춰 치료하며, 선택지 중 니트로푸란토인(D)은 하부 요로감염의 합리적 선택이다. 암피실린의 경험적 사용을 피하는 주된 이유는 E. coli 내성이지 임신 초기 기형 위험이 아니다. 니트로푸란토인은 신우신염에는 부적절하며 G6PD 결핍 등 주의가 필요하다.
 
-임신 중 요로감염은 일반적으로 안전한 약물인 니트로푸란토인( nitrofurantoin )이 1기 임신에 사용 가능하다. 암피실린과 세프트리악손은 임신 1기에서 태아에 위험을 줄 수 있으며, 독시사이클린은 태아 골 형성에 영향을 미친다. 따라서 가장 적절한 치료는 니트로푸란토인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 페니실린·세팔로스포린이 임신 1기에 위험하다는 잘못된 약물 안전성 설명 수정.
+- https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 갈락토키나아제 결핍
 
 ## 해설
 
+마르판형 체형, 발달지연과 아래쪽 수정체 탈구는 cystathionine β-synthase 결핍의 호모시스틴뇨증(C)을 시사한다. 눈동자 자체의 탈구가 아니며, Marfan의 fibrillin-1 이상과 달리 발달 문제와 수정체 탈구 방향이 감별에 도움이 된다.
 
-동공 탈구, 고긴장성 관절, 마르판형 체형은 시스타티오닌 베타-합성효소 결핍(동형 고시스테인뇨증)과 일치한다. 따라서 시스타티오닌 합성효소 결핍이 원인이다. 다른 효소 결핍은 이러한 안구·골격 소견을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 수정체 탈구를 동공 탈구로, 제시되지 않은 관절 소견을 고긴장성으로 쓴 오류 교정.
+
 
 ## 출처
 

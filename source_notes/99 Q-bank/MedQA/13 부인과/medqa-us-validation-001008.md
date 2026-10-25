@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 구리 자궁내장치를 권고한다
 
 ## 해설
 
+구리 IUD(D)는 5일 이내 응급피임과 장기 피임을 동시에 제공하고 혈전 위험을 높이지 않는다. 혈전 병력에서 특히 에스트로겐 함유 피임은 주의·회피 대상이나 모든 프로게스틴 단독법이나 경구 응급피임약까지 금기라는 뜻은 아니다. 에토노게스트렐 임플란트는 이미 발생한 관계의 응급피임을 대신하지 않는다.
 
-경구피임제는 혈전 위험이 있어 금기이며, 콘돔 파열 후 임신을 예방하려면 비호르몬 장치가 필요하다. 구리 IUD는 즉시 삽입 가능하고 혈전 위험을 증가시키지 않는다. 따라서 구리 자궁내장치를 권고한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 전날 관계의 응급피임·지속피임에 구리 IUD D 유지. 모든 경구·호르몬 피임을 혈전 병력으로 금기화한 설명 수정.
+- https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm/
 
 ## 출처
 

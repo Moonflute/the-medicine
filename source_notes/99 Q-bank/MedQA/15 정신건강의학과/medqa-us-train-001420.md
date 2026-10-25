@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,15 @@ D. 빌라조돈
 
 ## 해설
 
-
-플루옥세틴은 SSRI로 성기능 장애(특히 발기부전)와 관련이 있으며, 기존 발기부전 병력이 있는 환자에게는 피해야 한다. 따라서 플루옥세틴이 금기 약물이다.
+제시된 약물 중 플루옥세틴은 SSRI 관련 성기능 저하가 흔히 문제되어 기존 발기부전이 있는 환자에서 상대적으로 피할 약물로 선택된다. 발기부전 자체가 플루옥세틴의 절대금기라는 의미는 아니다. 다른 세로토닌성 항우울제도 성기능 부작용 가능성이 있으며 부프로피온은 그 위험이 상대적으로 낮다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001420
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 성기능 부작용 우려로 피하는 선택을 플루옥세틴 절대금기로 잘못 확대한 해설 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

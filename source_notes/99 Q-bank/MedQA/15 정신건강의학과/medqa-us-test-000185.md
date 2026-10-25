@@ -18,11 +18,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -30,6 +30,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 메만틴
 
 ## 해설
 
+수주간의 인지 저하에 무쾌감, 사회적 위축, 수면장애와 정신운동 지연이 동반되고 자신의 기억 문제를 매우 걱정하여 우울증과 연관된 인지 증상을 우선 고려한다. 선택지 중 항우울제인 플루옥세틴(A)이 그 치료 방향에 해당한다. 기존의 ‘우울증이 동반되지 않은 인지 저하에 SSRI가 도움이 된다’는 설명은 잘못이며, SSRI를 치매 자체의 치료로 사용하는 것은 아니다. 인지질환과 우울증이 공존할 수 있으므로 치료 반응과 인지 기능을 추적하고 기능·안전·자살위험을 평가한다. 실제 고령자 약제 선택은 부작용과 상호작용에 따라 개별화한다.
 
-경미한 인지 저하와 기억력·집중력 감소가 주된 증상이며, 우울증이 동반되지 않은 경우 선택적 세로토닌 재흡수 억제제인 플루옥세틴이 증상 개선에 도움이 된다. 다른 선택지는 치매 치료에 직접적인 효과가 없거나 부작용이 크다. 따라서 가장 적절한 치료는 플루옥세틴이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 우울증 없는 인지저하에 fluoxetine쓴다는 반대설명 교정. 무쾌감·고립·수면장애·정신운동지연으로 우울관련인지장애, A 유지.
+- https://www.nia.nih.gov/depression
 
 ## 출처
 

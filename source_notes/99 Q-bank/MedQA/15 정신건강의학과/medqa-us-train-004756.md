@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 프라조신 치료
 
 ## 해설
 
-
-외상후 스트레스 장애에서 악몽·수면 장애가 지속될 경우 1차 SSRI 치료에 반응이 없으면 Prazosin이 야간 악몽을 감소시키는 2차 약물로 권장된다. 따라서 프라조신이 다음 단계 치료이다.
+외상 재경험·회피·수면장애가 1개월 이상 지속되어 PTSD를 시사한다. 설트랄린 치료에도 지속되는 외상 관련 악몽에 대해 제시된 선택지 중 프라조신을 고려할 수 있다. VA/DoD 2023은 PTSD 관련 악몽에 약하게 권고하지만 전반적인 PTSD 증상의 표준 단독치료라는 뜻은 아니다. 기립저혈압 등 부작용을 고려하며, 벤조디아제핀을 PTSD의 기본 치료로 선택하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004756
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. PTSD 악몽에 프라조신 원정답 유지. 전반적 PTSD에 대한 보편적 2차와 악몽 표적의 약한 권고를 구분.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp

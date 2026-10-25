@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 투석으로 제거
 
 ## 해설
 
+시각 장애와 음이온차 증가 대사성 산증은 메탄올 중독을 시사한다. 포메피졸 등으로 알코올 탈수소효소를 억제하는 B를 즉시 시작하여 독성 대사산물의 추가 생성을 줄인다. 그러나 이미 발생한 시력 장애와 음이온차 25 mEq/L는 EXTRIP의 체외 제거 적응증에 해당하므로 긴급 혈액투석 평가·시행도 병행해야 한다. B를 먼저 시작할 수 있다는 사실이 D가 불필요하거나 해독제 반응을 기다린 뒤에만 투석한다는 뜻은 아니다.
 
-메탄올 중독 시 알코올 탈수소효소(ADH) 억제제(예: fomepizole)가 메탄올을 포름알데히드로 전환되는 것을 차단해 독성을 감소시킨다. 초기 치료로 가장 적절한 선택이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 메탄올 의심에서 즉시 ADH 억제 B를 유지하되 시력 장애와 음이온차 25가 있어 투석도 시급하다는 현행 기준을 추가한다.
+- 공식/학회 근거: https://www.extrip-workgroup.org/methanol
 
 ## 출처
 

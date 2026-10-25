@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "전형적 여포성 림프종의 t(14;18)-BCL2 과발현은 독립된 중요한 기전 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmlxlyck8yuhjpeuvzu0rychj6dgxjvhnvb1vns0vadmjhehbzm1zzwvhjz1ribhrjr2h2yldfcextmwt8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ D. BCR-ABL 융합 유전자
 
 ## 오답 포인트
 
-- **B. t(8;14) 전위에 의한 MYC 재배열:** t(8;14)는 주로 Burkitt 림프종에서 나타난다.
+- **t(8;14) 전위에 의한 MYC 재배열:** t(8;14)는 주로 Burkitt 림프종에서 나타난다.
 
 ## 출처
 
 - 내부 학습 노트: 여포성 림프종 (Follicular Lymphoma)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/여포성 림프종 (Follicular Lymphoma).md`
 - 학습 목표: 원문 핵심: - 저등급 B세포 림프종으로, 여포 구조를 형성하며 서서히 진행하는 임상 양상을 보이다. - t(14;18) 전좌에 의한 BCL2 과발현이 특징적이며, 이는 세포 사멸을 억제하여 종양 증식을 유도한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 전형적 여포성 림프종의 t(14;18)-BCL2 과발현은 독립된 중요한 기전 복습으로 유지한다.

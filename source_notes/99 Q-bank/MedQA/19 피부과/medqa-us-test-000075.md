@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 피부 생검
 
 ## 해설
 
+상체와 어깨의 저색소성 발진과 가려움은 Malassezia 효모에 의한 어루러기를 시사한다. KOH로 피부 인설 검체를 관찰하면 짧은 균사와 효모를 확인할 수 있어 C가 적절하다. Malassezia는 원인 미생물의 이름이며 그 자체가 다른 곰팡이에 의해 발생하는 질환은 아니다. 사진은 없지만 본문의 분포·색소변화와 선지로 검사 선택을 판단할 수 있다.
 
-해변에서 햇빛에 노출된 뒤 발생한 가려움과 저색소성 판은 말라세지아(피부 곰팡이 감염)와 일치한다. 말라세지아는 케라틴을 분해하는 곰팡이에 의해 발생하며, KOH 현미경 검사가 곰팡이 포자를 확인하는 가장 민감한 검사이다. 따라서 진단을 확인할 가능성이 가장 높은 검사는 KOH 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 말라세지아를 다른 곰팡이로 인해 발생하는 질환처럼 설명한 오류/검사민감도 과장 수정. KOH C 유지.
+- 공식/학회 근거: https://www.aad.org/public/diseases/a-z/tinea-versicolor-treatment
 
 ## 출처
 

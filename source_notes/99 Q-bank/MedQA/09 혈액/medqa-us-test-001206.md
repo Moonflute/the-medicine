@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -33,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-78세 남성이 6개월간 점점 심해지는 피로와 두통, 간헐적 복통으로 진료를 받으러 왔다. 체중 변화는 없었고 식사는 주로 감자와 살코기였다. 결막과 점막이 창백했으며 말초혈액도말에서 중앙 창백 증가와 적혈구 크기 변이가 보였다. 증상의 가장 가능성 높은 원인은?
+78세 남성이 6개월간 점점 심해지는 피로와 두통, 간헐적 복통으로 진료를 받으러 왔다. 체중 변화는 없었고 식사는 주로 감자와 살코기였다. 고혈압·제2형 당뇨병·만성 어깨통증이 있고 hydrochlorothiazide, metformin, ibuprofen을 매일 복용한다. 결막과 점막이 창백했으며 말초혈액도말에서 중앙 창백 증가와 적혈구 크기 변이가 보였다. 증상의 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -45,7 +47,13 @@ D. 철 결핍
 ## 해설
 
 
-중앙 창백이 증가하고 적혈구 크기 변이가 있는 경우는 철 결핍성 빈혈을 시사한다. 철 결핍은 미량 영양소 결핍 중 가장 흔하며, 환자의 식이와 증상과 일치한다. 따라서 철 결핍이 가장 가능성 높은 원인이다.
+중앙 창백 증가와 적혈구 크기 차이는 철결핍(D)을 지지한다. 고령 남성에서 식사만을 원인으로 단정하지 않고 만성 위장관 출혈 등도 평가해야 한다. 특히 원문에는 매일 ibuprofen 복용이 있어 출혈 위험 평가와 관련된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-001206 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 저색소·anisocytosis의 철결핍 D 유지. 원문 NSAID 복용 누락 복구, 고령남성 빈혈을 식이만으로 설명한 해설 제한.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

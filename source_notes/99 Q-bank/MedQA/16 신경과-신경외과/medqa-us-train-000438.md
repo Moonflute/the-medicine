@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,11 @@ D. 지방유리질변성(Lipohyalinosis)
 
 ## 해설
 
+정답은 D, 지방유리질변성이다. 오래된 고혈압·당뇨를 배경으로 한 국소 팔 위약과 미세동작/협응장애는 관통동맥 소혈관 병변의 열공성 뇌졸중을 시사한다. 다만 이는 제시된 선택지 중 가장 적절한 기전 추론이며, 본문에 영상 결과가 없으므로 출혈·외상성 병변을 배제했다거나 혈관 변화가 없다고 기술하면 안 된다. 실제로는 긴급 영상평가가 필요하다.
 
-고혈압과 급성 신경학적 결손(편측 약화)으로 혈압이 매우 높고 뇌혈관 변화가 없으며, 고혈압성 뇌병증은 보통 전반적 증상과 혼돈을 보인다. 그러나 이 경우 국소 신경학적 결손이 있어 고혈압성 뇌병증보다 지방유리질변성(소혈관 병변)이 더 가능하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 영상검사가 없는데 뇌혈관 변화가 없다고 한 해설 창작 제거. 고혈압성 소혈관병 추론과 영상 필요 구분.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 전체혈구검사
 ## 해설
 
 
-신생아의 고열, 설사, 백혈구 73,000/mm³, 골수에서 과분엽 호중구는 백혈구 부착 결핍(Leukocyte Adhesion Deficiency) 의심을 높인다. 확진을 위해서는 백혈구 표면 항원 패턴을 분석하는 유세포분석이 가장 유용하다. 따라서 정확한 진단에 가장 도움이 되는 검사는 유세포분석이다.
+제대 분리 지연과 제대염, 현저한 호중구증가는 백혈구 부착결핍(LAD)을 의심하게 하며 유세포분석(B)으로 CD18/CD11 등 표면 발현을 평가할 수 있다. 과분엽/독성과립은 원문의 말초도말 소견이지 골수검사 결과가 아니다. LAD에서는 전형적으로 고름 형성이 적은데 이 원문은 화농성 분비물도 기술하므로 그 비전형성을 인지하고 표현형·기능검사를 종합해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000882 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 제대분리지연·심한 호중구증가·제대염은 LAD/flow B. 과분엽 호중구를 골수소견이라고 하고 purulence를 무시한 과도한 단정 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://rupress.org/jhi/article/1/1/e20250003/277390
 
 ## 출처
 

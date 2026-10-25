@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "대표 외형 소견은 기초 인지로 유지하되 특정 소견이 반드시 존재하거나 다른 이상이 불가능한 듯한 오답 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 거대심장
 
 ## 오답 포인트
 
-- **B. 고관절 탈구:** 고관절 탈구는 선천성 고관절 탈구와 관련 있다.
+- 익상경·넓은 흉곽·넓게 떨어진 유두는 대표 소견이지만 모든 환자에 필수는 아니다. 다른 선천 이상이 동반될 수 없다는 뜻이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 터너 증후군 (Turner Syndrome)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/터너 증후군 (Turner Syndrome).md`
-- 학습 목표: 원문 핵심: * **CC**: 저신장, 사춘기 지연, 원발성 무월경. * **P/E**: 익상경(webbed neck), 낮은 뒷머리 머리카락선, 넓은 가슴과 넓게 벌어진 유두, 주상골 변형(Madelung deformity), 손발의 림프부종.
+- 학습 목표: Turner의 익상경·넓은 흉곽
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 대표 외형 소견은 기초 인지로 유지하되 특정 소견이 반드시 존재하거나 다른 이상이 불가능한 듯한 오답 제거.

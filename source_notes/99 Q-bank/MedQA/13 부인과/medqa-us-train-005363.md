@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 프로락틴 수치 측정
 
 ## 해설
 
+PCOS에 의한 만성 무배란이 의심된다. 프로게스테론 투여 후 철회출혈이 생기면 에스트로겐 작용과 유출로 개방성이 보존되어 있어 무배란을 지지한다(B). 무출혈은 저에스트로겐 외에도 유착·유출로 문제 등에서 가능하여 단독으로 확진하지 못한다. TSH·프로락틴 등 원인 배제 검사도 초기 평가에 포함한다.
 
-월경불순이 무배란에 의한 경우, 프로게스테론을 투여 후 철회시 출혈이 없으면 에스트로겐 결핍을 의미한다. 프로게스테론 철회검사는 배란 여부를 직접 확인하는 가장 직접적인 검사이다. 따라서 월경불순 원인 판단에 가장 도움이 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 프로게스테론 철회검사 B 유지. 무출혈=에스트로겐 결핍 단정 및 배란 직접검사라는 오류를 교정.
+- https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/
+- https://integration.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 천식 위험은 일반 인구보다 낮다
 
 ## 해설
 
+입원할 정도의 영아 RSV 세기관지염은 이후 반복 천명·천식과 연관된다. 한 장기 코호트는 18세 천식/반복 천명 39%를 보고해 보기 중 C의 위험 증가 방향을 지지한다. 수치는 집단·진단 정의·추적기간에 따라 달라 개인의 확정 확률이나 RSV의 단독 인과효과로 설명하지 않는다.
 
-중증 RSV 기관지염을 겪은 영아는 이후 천식 발생 위험이 일반 인구보다 약 20% 이상 높다. 여러 역학 연구에서 RSV 감염 후 천식 발생률이 20~30%에 이른다. 따라서 천식이 생길 확률은 20%보다 높다는 설명이 가장 정확하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 중증 RSV 이후 천명/천식 위험 증가 C의 취지 유지. 상대위험 20% 증가와 절대확률 혼동 및 모든 아이의 확률 단정 수정.
+- https://pubmed.ncbi.nlm.nih.gov/20581410/
 
 ## 출처
 

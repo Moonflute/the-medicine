@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "낮은 코르티솔·증가한 ACTH라는 원발성 음성 되먹임 패턴은 핵심 쉬운 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc11mmdpeuxvq0rxduxecmlxwhnvsur0bfpqc3bwmgdlruzry21wdvlxd2dtvzv6zfdabwfxtnbavzvqzvnrdwjxuxxkaxnlyxnlltazlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,10 +47,15 @@ D. 코르티솔 증가, ACTH 감소
 
 ## 오답 포인트
 
-- **B. 코르티솔 저하, ACTH 감소:** ACTH 감소와 코르티솔 저하는 이차성 부신 기능저하증에서 나타난다.
+- **코르티솔 저하, ACTH 감소:** ACTH 감소와 코르티솔 저하는 이차성 부신 기능저하증에서 나타난다.
 
 ## 출처
 
 - 내부 학습 노트: 부신 기능저하증 (Adrenal Insufficiency)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/부신 기능저하증 (Adrenal Insufficiency).md`
 - 학습 목표: 원문 핵심: - **혈액 검사**: 아침 혈중 코르티솔 및 ACTH 측정. - 일차성: 코르티솔 저하, ACTH 증가(≥50 pg/mL). - 이차성: 코르티솔 저하, ACTH 저하(<5 pg/mL). - **ACTH 자극 검사(Gold standard)**: 합성 ACTH(cosyntropin 250 μg) 투여 후 30분, 60분에 혈중 코르티솔 측정. - 18 μg/dL 미만 시 진단(검사법에 따라 차이 있음). - **주의사항**: 이차성 초기에는 부신 위축이 없어 정상 반응을 보일 수 있음. 글루코코르티코이드 유도성 부신 기능저하증 의…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 낮은 코르티솔·증가한 ACTH라는 원발성 음성 되먹임 패턴은 핵심 쉬운 복습으로 유지.

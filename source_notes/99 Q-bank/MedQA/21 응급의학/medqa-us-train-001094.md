@@ -21,11 +21,13 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,8 +47,12 @@ D. 전정신경염(Vestibular neuritis)
 
 ## 해설
 
+정답은 B, 미로염이다. 상기도감염 후 시작된 지속적인 현훈·안진에 청력저하가 동반된 점이 핵심이다. 미로는 평형기능과 청각에 관여하므로 미로염에서는 두 기능이 함께 영향을 받을 수 있고, 전정신경염은 일반적으로 청력저하를 일으키지 않는다. 양성 돌발성 체위성 현훈은 보통 특정 머리 움직임에 따른 짧은 반복 발작이어서 본문의 지속적 증상과 덜 맞는다. 체위유발검사가 음성이라는 이유만으로 BPPV나 중추성 원인을 완전히 배제할 수는 없다. 이 문항의 감염 선행력과 청각 증상을 종합하면 미로염이 가장 적절하지만, 실제 급성 지속 현훈에서는 중추 신경학적 징후와 보행 상태 등을 별도로 평가해야 한다.
 
-불면증·다리 불편감·철 결핍성 빈혈이 동반될 때 가장 흔한 원인은 철분 결핍이다. 철 결핍 여부를 확인하기 위해 대장내시경으로 출혈 원인을 찾는 것이 첫 번째 검사이다. 따라서 대장내시경이 가장 가능성 높은 검査이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문의 본문·선지·정답 및 한국어 해설을 개별 대조하였다. 원정답과 케이스를 유지하고 잘못 연결된 해설을 교체하였다.
+- 공식/학회 근거: https://www.nhs.uk/conditions/labyrinthitis/
 
 ## 출처
 

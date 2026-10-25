@@ -23,15 +23,17 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMCDsooXslpEvQ2lzcGxhdGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. (E)
 
 ## 해설
 
+SCLC와 저나트륨혈증은 SIADH를 시사한다. 저혈청 삼투압에도 소변이 충분히 희석되지 않아 Uosm>100 mOsm/kg이고 정상 용적·적절한 염분섭취에서는 소변 Na가 보통>30 mEq/L이다. 따라서 혈청269/소변269/소변Na82인 (B)행, 즉 선택지 A가 부합한다. 소변 삼투압이 혈청보다 반드시 높아야 하는 것은 아니며 소변 Na≤10은 이 패턴이 아니다. 실제로는 부신/갑상샘·신기능 및 약물·체액상태 등 다른 원인을 배제한다.
 
-소세포폐암 환자에서 SIADH는 저나트륨혈증과 저삼투혈증을 보이며, 소변 삼투는 혈액보다 높고 소변 Na는 10 mEq/L 이하인 제한성 패턴이다. 선택지 B는 이와 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: SIADH의 소변Na는 낮은≤10이 아니라 적절한섭취 시 보통>30. 선택지 A=(B) 269/269/82를 정확히 연결.
+- https://academic.oup.com/ejendo/article/170/3/G1/6668028
 
 ## 출처
 

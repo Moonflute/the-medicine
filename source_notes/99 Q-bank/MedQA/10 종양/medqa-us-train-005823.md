@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 감시 림프절 생검을 동반한 유방종괴절제술 후 방사선 및 
 ## 해설
 
 
-ER+, HER2‑, 1 cm 이하 종괴와 음성 림프절은 유방 보존술(종괴 절제) 후 신경절 절제와 방사선, 호르몬 치료가 표준이다. 전이 없음·림프절 음성은 전신 절제나 방사선만으로는 충분하지 않다.
+1 cm 저등급 ER양성/HER2음성 침윤암이며 임상적으로 액와림프절이 촉지되지 않아, 보기 중 유방보존 종괴절제와 감시림프절생검 후 방사선·내분비치료 D가 적절하다. 감시림프절은 신경절이 아니며 임상 촉진음성만으로 병리적 림프절음성을 미리 확정하지 않는다. 47세의 이 환자에게 방사선을 일률적으로 생략하는 B보다 D가 부합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005823 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 감시림프절생검을 신경절 절제로 잘못 설명하고 촉진음성을 병리음성으로 둔갑한 오류 교정. D 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
 
 ## 출처
 

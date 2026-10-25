@@ -20,11 +20,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 두부 MRI
 ## 해설
 
 
-부비동염 후 세균성 수막염은 가장 흔히 폐렴구균·뇌수막염균·녹농균이며, 경험적 치료는 3세대 세팔로스포린과 반코마이신을 병용한다. 따라서 두 약물 병용이 적절하다.
+고열, 혼란, 광선공포증과 발작은 세균성 수막염을 의심하게 한다. 선택지 중 ceftriaxone과 vancomycin(B)이 폐렴구균과 내성 가능성을 고려한 적절한 경험적 조합이다. 면역억제·고령 등 Listeria 위험이 있으면 ampicillin을 추가하나 이 사례에는 그런 단서가 없다. Pseudomonas를 통상적인 지역사회 수막염의 주요 원인으로 간주하지 않는다. 항생제를 영상검사 때문에 지연하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009907 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 45세 지역사회 세균성 수막염의 ceftriaxone+vancomycin B 유지. Pseudomonas가 통상 주요 원인이라는 오설명 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

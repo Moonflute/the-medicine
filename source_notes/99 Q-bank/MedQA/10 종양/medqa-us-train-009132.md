@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 선암
 ## 해설
 
 
-폐 선암은 비흡연자에서도 발생하며, 말초 결절·혈흔·체중 감소와 같은 비특이적 증상과 연관된다. 영상에서 동전 모양 결절이 보이며 조직학적으로 선암이 가장 흔한 원인이다. 따라서 선암이 정답이다.
+비흡연 여성에서 말초 폐결절과 객혈·체중감소가 나타나 선택지 중 폐선암 D가 가장 가능하다. 편평상피암은 상대적으로 중심부 및 흡연과 더 연관되고 중피종은 주로 흉막 종양이다. 다만 병리 이미지가 자료에 없어 선구조나 점액 생성이 관찰되었다고 단정할 수 없으며, 실제 확진은 조직 병리와 적절한 면역염색에 의존한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009132 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 누락된 병리 그림의 소견을 만들어내지 않고 비흡연 여성·말초 결절로 선암 D가 가장 가능하다는 추론만 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

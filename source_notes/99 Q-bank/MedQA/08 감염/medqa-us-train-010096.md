@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 퀀티페론 검사
 ## 해설
 
 
-미국에서는 고위험군(예: 해외 출신, 흡연, 저소득, 수감 경력)에게 결핵 감염 선별을 권고한다. 퀀티페론 검사는 잠복결핵 감염을 빠르게 확인한다. 따라서 정답은 D이다.
+결핵 유병률이 높은 국가 출생과 노숙시설·교정시설 거주력은 TB 감염 선별 대상에 해당하여 IGRA인 QuantiFERON(D)이 적절하다. 흡연이나 저소득 자체만을 단독 기준으로 삼는 것은 아니다. 양성이면 증상·흉부영상 등으로 활동성 결핵을 배제한 뒤 잠복결핵 여부를 판단하며 IGRA만으로 둘을 구분하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010096 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 인도 출생·노숙시설·수감 노출에서 LTBI IGRA D 유지. 흡연·저소득만을 단독 선별 적응증처럼 제시한 오류와 양성 IGRA=잠복 확정 단정 수정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/latent-tuberculosis-infection-screening
 
 ## 출처
 

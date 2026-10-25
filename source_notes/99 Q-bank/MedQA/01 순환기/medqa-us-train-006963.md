@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 근전도검사
 
 ## 해설
 
+증상과ABI0.8/0.6은 PAD이며 clopidogrel C는 항혈소판 작용으로 심근경색·뇌졸중 등 심혈관사건 위험을 줄인다. 이것이 파행의 직접치료나 모든동맥협착 진행을 멈추는 약이라는 뜻은 아니다. 운동·금연·statin·혈압관리와 복약순응도 개선도 필요하다.
 
-발목‑상완 지수가 감소하고 피부가 차가운 경우는 말초동맥질환(간헐적 파행)이다. 항혈소판제인 클로피도그렐이 혈전 형성을 억제해 진행을 늦춘다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Clopidogrel C를 PAD진행 자체 억제보다 심혈관사건 예방으로 정확히 설명.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

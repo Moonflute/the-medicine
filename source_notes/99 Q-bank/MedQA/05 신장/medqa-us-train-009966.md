@@ -18,13 +18,13 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: management
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,11 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ
+curation_status: "revised"
+curation_reason: "비교 약물의 혈압 효과가 일률적으로 열등하다는 설명을 제거하고 RAS차단의 조건·감시 명시."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -49,10 +54,20 @@ D. 딜티아젬
 
 ## 해설
 
-
-당뇨병성 신장병증 환자에게는 단백뇨와 고혈압을 감소시키는 ACE 억제제인 페린도프릴이 1차 치료이다. 이는 신장 보호 효과가 있다. 다른 약물은 혈압 조절에 덜 효과적이다.
+당뇨병과 고혈압을 동반한 CKD에서 선택지 중 ACE억제제 perindopril이 합리적이며 특히 albuminuria가 있으면 신장 보호 근거가 강하다. 현재 자료에는 요 albumin 값이 없어 확인해야 한다. 시작 전후 칼륨·creatinine과 체액 상태를 감시하며 부종·혈압에 따라 다른 약제를 병용한다. 다른 선택지가 본질적으로 혈압을 덜 낮춘다는 의미는 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009966
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 비교 약물의 혈압 효과가 일률적으로 열등하다는 설명을 제거하고 RAS차단의 조건·감시 명시.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf

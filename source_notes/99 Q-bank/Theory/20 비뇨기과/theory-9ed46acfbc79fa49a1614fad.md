@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "요산석의 일반 X선 투과성은 중요한 영상 원리; CT에서도 안 보인다는 뜻은 아님."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 초음파에만 보인다
 
 - 내부 학습 노트: 요석 (Urinary tract stone)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/요석 (Urinary tract stone).md`
-- 학습 목표: 원문 핵심: * **소변검사:** 혈뇨, 농뇨, 결정뇨(crystals). * **영상검사:** 비조영 CT(표준 진단법), KUB, 초음파(임산부 등 방사선 노출 제한 시). * **참고:** 요산석(uric acid stone)은 방사선 투과성(radiolucent)으로 단순 촬영에서 보이지 않을 수 있음.
+- 학습 목표: 요산석의 단순 X선 투과성
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 요산석의 일반 X선 투과성은 중요한 영상 원리; CT에서도 안 보인다는 뜻은 아님.

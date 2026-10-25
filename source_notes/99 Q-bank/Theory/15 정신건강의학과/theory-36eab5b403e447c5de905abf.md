@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "금단의 과각성 개념은 유지하며 중증 발작·섬망 가능성을 보완."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -38,14 +43,21 @@ D. 체중 증가
 
 ## 해설
 
-벤조디아제핀 금단은 과각성 상태를 일으키며, 불안·초조, 손 떨림, 불면 등이 대표적이다.
+벤조디아제핀 금단은 불안·초조·불면·떨림 등을 일으킬 수 있다. 갑작스러운 중단·급감은 발작·섬망 등 중증 금단 위험이 있어 중독 상태의 진정과 구분한다.
 
 ## 오답 포인트
 
-- **B. 저혈압:** 저혈압은 금단 증상의 주요 특징이 아니다.
+- 저혈압은 전형적 금단의 과각성 징후를 대표하지 않는다. 금단을 단순 불편감으로만 보아 갑자기 중단하는 것은 안전하지 않다.
 
 ## 출처
 
 - 내부 학습 노트: 진정제, 수면제 (Sedatives, Hypnotics)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/진정제, 수면제 (Sedatives, Hypnotics).md`
-- 학습 목표: 원문 핵심: - 진정제 및 수면제(벤조디아제핀, 비벤조디아제핀계, 바비튜레이트 등)는 중추신경계(CNS) 억제제로, 오남용 시 호흡 억제, 의식 저하, 혼수 및 사망을 초래할 수 있음. - 금단 증상: 불안, 초조, 과민성, 손 떨림, 불면, 오심, 구토 등 과각성 상태가 나타남.
+- 학습 목표: 벤조디아제핀 금단의 과각성과 중증 위험
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 금단의 과각성 개념은 유지하며 중증 발작·섬망 가능성을 보완.
+- 근거: https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class

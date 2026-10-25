@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k
+curation_status: "retained"
+curation_reason: "Isoniazid의 mycolic acid 합성 억제라는 항결핵 기전."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ Isoniazid는 Mycobacterium의 세포벽 구성 성분인 mycolic acid 합성을 
 
 ## 오답 포인트
 
-- **B. DNA gyrase를 억제한다.:** DNA gyrase 억제는 fluoroquinolone 계열의 작용 기전입니다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Isoniazid
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Isoniazid.md`
-- 학습 목표: 원문 핵심: - Mycobacterium의 세포벽 합성 또는 대사 경로를 약제별로 억제한다.
+- 학습 목표: Isoniazid: Mycobacterium의 mycolic acid 합성을 억제한다.

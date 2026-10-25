@@ -20,16 +20,18 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTGFuc29wcmF6b2xlLm1k
   - ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 라니티딘
 
 ## 해설
 
+식후·누운 자세에서 악화되고 목으로 올라오는 통증과 구취는 GERD에 부합한다. 경고소견이 없는 전형적 증상에서 선택지 중 PPI인 lansoprazole B의 시험치료가 적절하다. 정상 ECG 하나만으로 모든 심장성 흉통이 배제되는 것은 아니며 비전형적/급성 양상은 별도 평가한다. 심장성 역류성 식도염이라는 기존 표현은 올바른 진단명이 아니다.
 
-심장성 역류성 식도염이 의심되는 환자에게는 증상 완화를 위해 위산 억제가 가장 효과적이다. 란소프라졸은 PPI로, 증상 완화와 점막 치유에 가장 적절한 1차 치료이다. 다른 선택지는 진단적 검사이거나 증상 완화 효과가 약하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 심장성 역류성 식도염이라는 잘못된 용어를 GERD로 교정. 경고소견 없는 PPI B 시험치료.
+- https://doi.org/10.14309/ajg.0000000000001538
 
 ## 출처
 

@@ -19,15 +19,17 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 모세혈관 누출
 
 ## 해설
 
+급성 췌장염의 염증성 매개체는 혈관 투과성을 높여 혈장 성분을 간질·복강 등 제3공간으로 이동시키고 유효 순환혈액량을 감소시킬 수 있다. 따라서 저혈압과 빈맥의 기전으로 D, 모세혈관 누출이 합당하다. 실제 혈청 삼투질농도가 제시되지 않았으므로 삼투압 저하를 확인된 사실로 추가하지 않는다.
 
-급성 췌장염에서 혈관 투과성 증가와 삼투성 삼투압 저하가 전신 혈관 내액을 제3공간으로 이동시켜 저혈압을 일으킨다. 따라서 모세혈관 누출이 혈역학적 불안정의 주요 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. 삼투성 삼투압 저하라는 무의미한 설명을 염증성 모세혈관 누출과 혈관내 용적 감소로 정정. 유사 문항도 케이스 보존.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

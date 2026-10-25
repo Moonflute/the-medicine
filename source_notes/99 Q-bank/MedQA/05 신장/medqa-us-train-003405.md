@@ -21,13 +21,15 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 사구체 기저막 분열
 
 ## 해설
 
+고혈당·말초감각 저하와 거품뇨·부종·Cr 상승은 당뇨병성 신장병을 시사한다. 선택지 중 Kimmelstiel-Wilson 결절성 사구체경화 C가 특징적 병리이다. 발생 시점과 진행은 다양하고 T2D의 실제 유병기간이 알려지지 않을 수 있으므로 반드시 10–12년 후에 생긴다고 단정하지 않는다.
 
-당뇨병성 신증에서 10~12년 후에 나타나는 결절성 사구체경화증(Kimmelstiel‑Wilson 결절)이 단백뇨와 신기능 저하와 가장 연관된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: DKD의 결절성경화 C를 반드시10–12년후 나타난다고 한 고정 시간표 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,15 +19,17 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 소변 질산염
 
 ## 해설
 
+정답은 C이다. furosemide는 요중 Na 배설을 늘려 요중 Na나 FENa의 해석을 어렵게 할 수 있으므로 선택지 중 FEUrea가 상대적으로 유용하다. FEUrea 역시 패혈증·중증 질환 등의 영향을 받아 단독으로 신전성/신실질성 AKI를 확진하지 못하며 병력·체액량·요침사와 함께 해석한다. sulfosalicylic acid 검사는 소변 단백을 침전 검출하는 검사이지 알레르기 검사가 아니다.
 
-신전성 신질환(전신성 저혈압)과 신성 신질환을 구분하려면 사구체 여과율 대비 요분배율을 평가하는 FEUrea가 가장 신뢰할 수 있다. 소변 나트륨 농도는 이뇨제 사용에 민감하고 설포살리실산은 알레르기 검사에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: FEUrea의 상대적 유용성을 절대 확진검사처럼 설명하지 않고 sulfosalicylic acid의 단백 검출 용도를 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

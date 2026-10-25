@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: B
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "AFP·hCG·LDH는 고환 종양 평가의 핵심 표지 조합."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ AFP, hCG, LDH는 고환암의 진단·병기·치료 반응 평가에 필수적�
 
 ## 오답 포인트
 
-- **A. CA‑125, PSA, CEA:** 이 표지자들은 주로 다른 암에 사용된다.
+- **CA‑125, PSA, CEA:** 이 표지자들은 주로 다른 암에 사용된다.
 
 ## 출처
 
 - 내부 학습 노트: 고환 종양 (Testicular cancer)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/고환 종양 (Testicular cancer).md`
-- 학습 목표: 원문 핵심: * **종양 표지자:** aFP, hCG, LDH 측정 (진단 및 병기 결정, 치료 반응 평가에 필수). * **영상:** 음낭 초음파(1차 진단 도구), 흉부/복부/골반 CT(병기 결정).
+- 학습 목표: 고환 생식세포종양 표지자
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: AFP·hCG·LDH는 고환 종양 평가의 핵심 표지 조합.

@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-15세 남아가 자전거에서 넘어져 오른쪽 어깨의 심한 통증과 쇄골 부종으로 응급실에 왔다. 쇄골 위 피부는 온전하고 요골맥박과 감각은 정상이었다. 흉부 X선에서 쇄골 골절이 보였다. 가장 적절한 처치는?
+15세 남아가 자전거에서 넘어져 오른쪽 어깨의 심한 통증과 쇄골 부종으로 응급실에 왔다. 쇄골 위 피부는 온전하고 요골맥박과 감각은 정상이었다. 흉부 X선이 제시되어 있다. 가장 적절한 처치는?
 
 ## 선택지
 
@@ -43,8 +45,12 @@ D. 동맥조영술
 
 ## 해설
 
+쇄골 부위 외상·국소 통증과 종창이 있고 피부가 온전하며 신경혈관 이상이 없어 선지 중 단순 sling(B)이 합리적인 초기 안정화이다. 실제 X선이 이 텍스트에 포함되지 않았으므로 전위·단축·정확한 골절 위치를 확인했다고 주장하지 않는다. 영상 분류 및 피부·신경혈관 상태에 따라 최종 치료가 달라질 수 있다. 본문에 없는 골절 형태를 만들어 넣지 않는다.
 
-소아의 단순 쇄골 골절은 대부분 비위험 부위이며, 피부 손상이나 혈관·신경 손상이 없을 경우 보존적 치료가 권장된다. 간단한 어깨걸이(스링)로 골절 부위를 고정하면 충분히 치유된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 폐쇄성 쇄골 외상에 sling B가 적절한 초기 안정화이나 원문에 없는 X선 판독을 한국어가 만들어낸 부분을 되돌리고 모든 형태가 단순 골절이라고 단정하지 않는다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/clavicle-fracture-broken-collarbone/
 
 ## 출처
 

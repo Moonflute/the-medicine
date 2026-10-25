@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 괴사성 장염
 
 ## 해설
 
+미숙아의 수유 불내성, 복부 경직·팽만, 잠혈 양성 및 혈소판감소는 괴사성 장염(D)을 시사한다. 원문에 X선이 언급되지만 실제 영상이 제공되지 않아 장벽 내 공기나 공기액체층을 관찰했다고 단정하지 않는다. 제시된 임상 소견을 근거로 답을 판단한다.
 
-미숙아에서 전신성 혈소판 감소와 복부 방어, 장음 소실, 혈변, 복부 X‑ray에서 공기‑액체 수준이 보이면 괴사성 장염이 의심된다. 이는 급성 복막염과 장천공 위험이 높은 중증 질환이다. 따라서 가장 가능성 높은 진단은 ‘괴사성 장염’이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: NEC의 임상 단서는 충분하나 제공되지 않은 X선의 공기액체층을 창작한 해설을 교체.
+
 
 ## 출처
 

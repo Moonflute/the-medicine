@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 릴루졸
 
 
 식품 매개 보툴리눔 중독은 신경근 차단을 일으키며, 항독소(보툴리눔 항혈청)를 조기에 투여하는 것이 치료의 핵심이다. 다른 옵션은 효과가 없거나 보조적이다. 따라서 가장 적절한 치료는 항독소이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000805`와 직접 대조했다.
+- 판정: 자가 통조림 섭취 가능성과 뇌신경 증상으로 시작한 하행 마비는 보툴리눔 중독. 항독소 A를 CDC 지침으로 확인; 불일치 플래그는 오연결 아님.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.cdc.gov/mmwr/volumes/70/rr/rr7002a1.htm
 
 ## 출처
 

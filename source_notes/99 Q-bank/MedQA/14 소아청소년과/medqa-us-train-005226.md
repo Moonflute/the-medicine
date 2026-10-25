@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. FSH 수치를 보기 위해 GnRH 검사
 
 ## 해설
 
+진행한 유방 발달이 있지만 GnRH 자극 LH가 낮은 여아에서도 중추성 성조숙증을 완전히 배제할 수 없다. Leuprolide 자극 후 지연 estradiol 반응(C)은 전체 시상하부–뇌하수체–성선 축 활성의 보조 평가에 쓰일 수 있다. 단일 LH 경계값은 검사법·채혈 시점의 영향을 받는다. Estradiol 상승만으로 말초성, 정상만으로 중추성이라고 분류하지 않는다.
 
-GnRH 자극검사에서 LH 반응이 낮게 나타난 경우 말초성 성조숙증을 의심하고, 에스트라디올 수치를 측정해 에스트로겐 의존성 자극 여부를 확인한다. 에스트라디올이 상승하면 말초성 원인, 정상이면 중추성 원인 가능성이 있다. 따라서 에스트라디올 수치를 보기 위한 류프로라이드 검사가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Leuprolide 후 estradiol 측정은 중추성 축 활성의 보조 확인이지 상승=말초성이라는 기존 설명이 아님을 교정.
+- https://pubmed.ncbi.nlm.nih.gov/26094907/
+- https://www.endocrine.org/clinical-practice-guidelines/central-precocious-puberty
 
 ## 출처
 

@@ -19,20 +19,22 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-48세 남성이 4개월간 흰 가래를 동반한 지속적인 기침과 운동 시 호흡곤란으로 진료를 받으러 왔다. 30년간 하루 한 갑을 피웠고 진찰에서 모든 폐야에 호기 말 천명음이 들렸다. 가장 가능성 높은 진단은?
+48세 남성이 4개월간 흰 가래를 동반한 지속적인 기침과 운동 시 호흡곤란으로 진료를 받으러 왔다. 작년에도 같은 증상이 약 6개월 지속되었다. 30년간 하루 한 갑을 피웠고 진찰에서 모든 폐야에 호기 말 천명음이 들렸다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -43,8 +45,14 @@ D. 만성 기관지염
 
 ## 해설
 
+현재 4개월간의 가래 기침뿐 아니라 작년에도 6개월 지속된 같은 증상과 장기 흡연력이 있어 만성기관지염(D)에 부합한다. 만성 가래 기침이 연속 2년간 각 3개월 이상 지속되는 임상 양상을 평가하며, COPD의 기류제한 여부는 폐활량검사로 확인한다.
 
-30년 흡연력과 지속적 기침·운동 시 호흡곤란, 전 폐에 천명음이 있는 경우는 만성 기관지염(만성 폐쇄성 폐질환)이다. 천식은 가변성 폐쇄, 석면폐증·과민성 폐렴은 다른 방사선·노출 이력이 필요하다. 따라서 정답은 만성 기관지염(D)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 만성기관지염의 2년 기준을 지지하는 영어 원문의 전년6개월 증상 이력을 복원.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -32,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-46세 여자가 4개월 동안 기면과 15년간의 관절통으로 내원했다. 양쪽 팔꿈치에 압통 없는 피하결절, 손가락의 백조목 변형, 간비대와 비장비대가 있다. 백혈구 1,800/mm³, 혈소판 130,000/mm³이며 다음 중 이 상태에 가장 특이적인 항체는?
+46세 여자가 4개월 동안 기면과 15년간의 관절통으로 내원했다. 양쪽 팔꿈치에 압통 없는 피하결절, 손가락의 백조목 변형, 간 span은6cm이고 비장 끝이 왼쪽 늑골 아래4cm에서 만져진다. 백혈구 1,800/mm³, 혈소판 130,000/mm³이며 다음 중 이 상태에 가장 특이적인 항체는?
 
 ## 선택지
 
@@ -44,7 +46,13 @@ D. 항U1-RNP 항체
 ## 해설
 
 
-관절통, 피하결절, 백조목 변형, 혈액학적 이상은 류마티스 관절염을 나타내며, 이 질환에서 가장 특이적인 항체는 항시트룰린화 펩타이드(항CCP) 항체이다. 따라서 정답은 항CCP 항체이다.
+오래된 관절염·류마티스결절·백조목변형은 RA를 지지하며 선택지 중 anti-CCP(A)가 가장 특이적이다. 비장비대와 ANC 약630/mm³는 Felty 증후군도 고려하게 한다. 간 span6cm는 간비대라고 번역하지 않으며 항체 양성만으로 Felty나 다른 혈액질환 감별을 종결하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005426 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문의 간 span6cm를 간비대로 잘못 번역한 부분을 바로잡고 Felty 가능성을 구분했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

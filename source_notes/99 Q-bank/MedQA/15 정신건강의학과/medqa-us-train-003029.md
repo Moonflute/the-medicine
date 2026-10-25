@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 피소스티그민
 
 ## 해설
 
-
-고열, 근긴장도 증가, 자율신경 불안정, CK 상승은 신경 차단제 사용에 의한 악성 신경 차단 증후군(NMS)을 나타낸다. NMS 치료에 근육 이완제인 단트롤렌이 1차 선택이다. 따라서 단트롤렌 투여가 가장 적절한 초기 약물치료이다.
+항정신병약 노출 후 고열·강직·의식 변화·자율신경 불안정과 CK 상승은 신경이완제 악성증후군을 시사한다. 우선 원인 약물을 중단하고 체온·수액·전해질·장기 기능에 대한 응급 지지치료가 필요하다. 제시된 약물 중 단트롤렌은 골격근의 칼슘 방출을 줄여 강직·고체온 조절에 고려하는 선택이다. 도파민 길항제를 추가하는 치료가 아니며 모든 사례의 단독 1차라는 뜻도 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003029
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. NMS와 단트롤렌 원정답 유지. 가장 먼저 필요한 원인약 중단·지지치료를 생략한 채 단트롤렌이 보편적 1차라고 설명하지 않도록 보완.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698

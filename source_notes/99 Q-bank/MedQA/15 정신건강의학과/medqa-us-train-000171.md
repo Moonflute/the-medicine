@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 역설적 의도(Paradoxical intention)
 
 ## 해설
 
+이 사례는 노화에 따른 수면의 분절화와 이른 각성을 경험하지만, 입면·재입면에 약 20분이 걸리고 현저한 주간 기능 저하는 제시되지 않았다. 선택지 중에서는 수면 변화에 대한 설명과 안심(C), 수면 습관 평가가 적절하다. 그렇다고 모든 고령자에게 5~6시간 수면이 충분하다는 뜻은 아니며 고령자도 일반적으로 충분한 수면이 필요하다. 지속적인 피로·기능 저하, 우울증, 약물·의학적 원인이 있으면 재평가한다. 만성 불면장애가 확인되면 CBT-I 등 치료를 고려하지만, 이 문항에서 수면제한을 곧바로 정답으로 바꾸는 근거는 없다. 장시간 작용 벤조디아제핀인 플루라제팜을 일률적으로 쓰지 않는다.
 
-불면증의 초기 치료는 수면 제한을 통한 행동 요법이 1차 권고이다. 약물보다는 비약물적 접근이 우선한다. 따라서 정답은 수면 제한이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 C와 다르게 수면제한 A를 정답이라 한 해설 교체. 노화 관련 변화에 대한 평가·교육을 설명하되 노인은5~6시간이면 충분하다는 오해 방지.
+- https://www.nia.nih.gov/health/sleep/sleep-and-older-adults?c=Homepage&pid=Web&shortlink=dc203038&source_caller=ui
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/
 
 ## 출처
 

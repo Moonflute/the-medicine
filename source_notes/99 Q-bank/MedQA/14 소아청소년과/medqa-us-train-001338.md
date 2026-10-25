@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 승모판 역류
 
 ## 해설
 
+발달지연·긴 얼굴·돌출 귀와 엄지를 팔뚝까지 굽힐 수 있는 관절 과유연성은 취약 X 증후군을 시사한다. 결합조직 관련 승모판탈출과 역류(D)가 가능하다. 본문에는 손발톱 이상이 없다.
 
-프래자일 X 증후군은 결합 조직 약화와 함께 승모판 탈출(MVP) 위험이 증가한다. 환자의 특징적인 얼굴과 손발톱 소견이 이를 시사한다. 따라서 향후 발생 위험은 승모판 역류이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 취약 X의 승모판 역류 D 연관 유지. 손발톱 소견 창작을 관절 과유연성으로 교정.
+
 
 ## 출처
 

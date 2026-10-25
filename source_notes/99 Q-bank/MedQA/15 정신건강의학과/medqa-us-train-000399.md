@@ -18,17 +18,19 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. α2 수용체 길항
 
 ## 해설
 
-
-Haloperidol에 의해 발생한 akathisia는 5‑HT2A 수용체 차단제(예: clozapine, olanzapine)로 교체하면 증상이 개선된다. 다른 수용체 차단은 akathisia에 효과가 적다.
+할로페리돌 투여 뒤 발생한 지속적인 안절부절못함과 서성거림은 정좌불능증을 시사한다. 제시된 기전 중 5-HT2A 수용체 길항은 일부 2세대 항정신병약의 특징이며 고역가 1세대 약물보다 추체외로 부작용 위험이 낮은 약물을 고르는 근거가 된다. 이것이 순수 5-HT2A 길항제만으로 정신병을 치료하거나 클로자핀으로 반드시 교체한다는 뜻은 아니며, 실제 약제별 정좌불능 위험은 다르다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000399
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 5-HT2A 원정답 유지. 선택지의 기전 비교를 순수 5-HT2A 차단제나 클로자핀으로 반드시 교체하라는 처방으로 확대하지 않도록 수정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

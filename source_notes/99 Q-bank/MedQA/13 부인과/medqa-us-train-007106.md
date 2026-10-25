@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. TSH 수치 증가
 
 ## 해설
 
+무월경, 저에스트로겐 증상, 프로게스틴 소퇴성 출혈이 없다는 소견과 과거 항암치료 병력은 난소기능저하를 시사한다. 난소의 에스트로겐·인히빈에 의한 음성 되먹임이 감소하면 성선자극호르몬이 상승하며 FSH가 두드러져 선택지 C의 FSH/LH 비 증가가 적절하다. LH/FSH 비 증가로 뒤집어 설명해서는 안 되며, 이 비율만으로 진단하는 것도 아니다.
 
-조기 난소부전은 골반내 FSH가 상승하고 LH/FSH 비율이 증가한다. GnRH 및 LH 감소는 시상하부·뇌하수체 문제를 시사한다. 따라서 FSH/LH 비 증가가 가장 가능성 높은 소견이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: FSH/LH를 LH/FSH로 뒤집은 해설과 골반 내 FSH라는 표현을 교정했다.
+
 
 ## 출처
 

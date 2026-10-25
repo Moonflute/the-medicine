@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWEIOq4sOq0gOyngCDsspzsi50gKFBlZGlhdHJpYyBBc3RobWEpLm1k"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "소아라는 이름을 붙인 정의 반복을 학령기 항염증 치료 핵심으로 변경."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-소아 기관지 천식의 정의는?
+6–11세 천식의 장기 관리에서 기본 약물 원칙은?
 
 ## 선택지
 
-A. 만성 염증성 기도 질환으로 가변적 기도 폐쇄와 과민성을 특징으로 함
-B. 급성 바이러스성 기도 감염
-C. 폐포 내 염증에 의한 폐렴
-D. 기관지 확장증에 의한 영구적 기도 확장
+A. 증상·위험에 맞는 ICS 포함 치료를 사용하며 SABA 단독에 의존하지 않는다
+B. 모든 경증 천식은 SABA만 지속하는 것이 최선이다
+C. 흡입 방법과 순응도는 치료 조절과 무관하다
+D. 5세 이하와 6–11세 치료 근거는 항상 동일하다
 
 ## 해설
 
-소아 천식은 만성 염증과 기도 과민성으로 발작성 가변 기도 폐쇄가 나타나는 질환이다.
+GINA 2026은 이 연령에서도 항염증 치료를 포함한다. 단계별 처방·기기와 국내 허가를 확인하고 조절 불량 시 흡입법·순응도를 점검한다. 5세 이하에는 별도 연령별 접근이 필요하다.
 
 ## 오답 포인트
 
-- **B. 급성 바이러스성 기도 감염:** 급성 감염은 일시적 증상이며 천식의 만성·과민성 특성을 설명하지 않는다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 소아 기관지 천식 (Pediatric Asthma)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/소아 기관지 천식 (Pediatric Asthma).md`
-- 학습 목표: 원문 핵심: - **정의**: 소아에서 발생하는 만성 염증성 기도 질환으로, 가변적인 호기성 기도 폐쇄와 기도 과민성을 특징으로 함 - **원인**: 유전적 소인과 환경적 요인(알레르겐, 바이러스 감염, 대기 오염, 간접흡연 등)의 복합적 상호작용 - **기전**: Th2 세포 매개 염증 반응, 기도 평활근 수축, 점액 분비 증가, 기도 재형성(airway remodeling)
+- 학습 목표: 6–11세 천식의 ICS 포함 치료
+
+## 검수 근거
+
+- https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf

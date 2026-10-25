@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 무배란
 
 ## 해설
 
+초경 후 초기의 불규칙한 주기와 무월경, 임신검사 음성은 무배란(D)을 가장 시사한다. 배란이 없으면 황체가 형성되지 않아 황체기 프로게스테론 상승이 나타나지 않을 수 있지만 단일 수치의 해석에는 채혈 시점이 필요하다. 본문에 에스트로겐은 측정되지 않아 결핍을 단정해서는 안 된다. 프로락틴은 정상 범위여서 리스페리돈 복용만으로 고프로락틴혈증을 진단할 수 없다.
 
-프로게스테론이 거의 없고 에스트로겐 결핍으로 배란이 되지 않아 무배란성 무월경이 발생한다. 따라서 가장 가능성 높은 원인은 무배란이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 측정되지않은에스트로겐결핍창작삭제. 초경직후불규칙주기의무배란D와정상프로락틴구별.
+
 
 ## 출처
 

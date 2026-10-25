@@ -1,5 +1,31 @@
 # Theory QBank Development Plan
 
+## 작업 종료 상태 — 2026-10-25 (최신 사용자 지시)
+
+- 추가 복구 전수검수는 사용자 지시로 종료하고 현재 선별본으로 마무리한다. 아래의 전수 재검수 의무보다 이 종료 지시가 우선한다.
+- 후속 대상 2,477개 중 700개를 직접 재검수했다. 66개는 수정·복구하고 634개는 제외를 유지했다.
+- 나머지 1,777개(이론 1,123개·임상 654개)는 이번 후속 작업에서 새로 내용 검수하지 않았다. 기존 출제 제외 상태와 원본을 유지하며 추가 검수 대기열로 두지 않는다. 전수 재검수 완료로 표시하지 않는다.
+- 최종 출제 대상은 이론 2,030개·임상 4,768개, 합계 6,798개다. 정리 전 출제 대상 9,257개보다 2,459개 적다. 원본 기록 9,258개는 모두 보존한다(정리 전에도 1개는 출제 제외 상태였다).
+- 실전 문제는 작업 범위 밖이며 새 문제 생성·원본 삭제·커밋·배포는 하지 않는다. 명세는 이 문서 옆의 `theory_manifest.json`, 실제 후속 검수 범위와 종료 상태는 `reports/qbank-quality-review/direct-salvage/progress.json`에 기록한다.
+- 작업 종료·출제 대상 확정과 의학 내용의 전수 검증 완료는 구분한다. 구조·내보내기 검증만으로 전체 문항을 최신 가이드라인 검증 완료로 간주하지 않는다.
+
+## Current revision policy — user clarification, 2026-10-25
+
+This section supersedes conflicting examples or numerical ranges below.
+
+- Keep the two banks distinct. Theory tests important theoretical knowledge directly; MedQA keeps its existing clinical cases and original testing intent. Practice questions are outside this work.
+- Inspect every candidate, but do not turn every document into questions. Select topics by educational importance, then select independently important concepts within each topic. Document length, heading count and a document's mere existence are not reasons to allocate questions.
+- Counts are not quotas or minimums. Hypertension may warrant several distinct concepts; anaphylaxis needs only the essential first-line IM epinephrine principle unless another objective is separately justified. Do not create variants to increase the count.
+- Retain useful basic recall. Do not force theory into patient vignettes. Retire meaningless, trivial or duplicate items; revise important concepts with defective wording/options. Preserve source files and stable IDs when withholding an item; do not delete records or learning history.
+- Maintain the manifest beside this plan at repository root (`theory_manifest.json`). Record selected versus excluded items; keep exclusion labels brief and place correction references on retained items. Separate automated screening, curriculum review and medical/guideline verification; never mark a whole bank medically verified from structural checks.
+- Clinical review checks source fidelity, translation, answer/explanation consistency and relevant current guidance. Preserve original answer/provenance when documenting a correction. Uncertain or guideline-conflicting items need an explicit review disposition, not a fabricated rationale for the supplied answer.
+- Prefer targeted corrections to mass regeneration. No new clinical cases, automatic per-disease expansion, deployment or source-file deletion is part of this revision.
+- In this existing-item revision, `planned_question_count` means the selected published item count, not a generation quota. Withheld objectives stay in the manifest for provenance, so the historical requirement that this count equal every stored objective does not apply. Targets without existing questions are not automatically approved for generation.
+- For the withheld-item follow-up, the user requires direct main-agent review without subagents. Do not call an external model API. Preserve the previous decisions and record restoration, final curriculum exclusion, and unresolved source defects separately.
+- Follow-up clarification: do not keep unusable questions in a restoration waiting queue. Exclude items with missing essential data or unresolved ambiguity; retain only usable items, correcting clear defects where practical. Keep exclusion labels brief. Exclusion is not medical clearance, and historical source records remain recoverable outside the published pool.
+- Report progress every 50 processed items as `processed / total`, explicitly distinguishing fresh content rechecks from final selection based on completed prior reviews.
+- Corrective follow-up: the 2,477 selection-only exclusions require fresh main-agent content review. Repair usable existing items, including defective wording, options, explanations and correctable guideline conflicts. Do not equate a previous hold with irreparable missing evidence. Track this work separately as `freshly reviewed / 2,477`; keep it incomplete until every item has actually been read and decided.
+
 ## 1. Goal
 
 Add an internal **theory-question bank** alongside the existing MedQA clinical-vignette QBank.

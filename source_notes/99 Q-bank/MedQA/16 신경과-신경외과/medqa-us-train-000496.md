@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 정상압수두증(Normal pressure hydrocephalus)
 
 ## 해설
 
+요실금과 기립성 혈압 저하에 강직·떨림 및 반복 교대운동 장애가 동반되어 다계통위축증(A)이 가장 적절하다. MSA는 자율신경계 이상과 파킨슨증 및/또는 소뇌성 운동실조가 결합하는 질환이다. 시간 지남력 저하만으로 전두엽 병변을 확정하지 않는다. 정상압수두증도 감별하지만 이 사례의 자율신경·추체외로·소뇌 징후 조합이 A를 지지한다.
 
-다계통위축증은 자율신경 기능 저하(기립성 저혈압), 요실금, 운동 실조, 인지 장애를 동반한다. 환자는 기립성 저혈압, 요실금, 운동 제한을 보이며, 전두엽·소뇌·소뇌계통이 동시에 침범된 형태이다. 따라서 가장 가능성 높은 진단은 다계통위축증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 자율신경장애·파킨슨증·소뇌 징후의 MSA A를 유지하되 전두엽 침범과 인지장애를 필수·전형 소견으로 단정한 설명을 좁힌다.
 
 ## 출처
 

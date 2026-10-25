@@ -24,11 +24,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -49,7 +51,14 @@ D. 환자의 의료 대리인(POA)에게 연락하여 동의를 구한다
 ## 해설
 
 
-환자는 급성 담낭염으로 진단되어 수술 동의가 있었으며, 추가 수술에 대한 동의는 의료 대리인(POA)에게 받아야 한다. 따라서 가장 적절한 조치는 POA에게 연락해 동의를 구하는 것이다.
+마취 중 발견한 장괴사와 장간막 동맥 폐색은 지연하면 추가 장손상과 생명 위험이 생기는 응급상황이다. 환자가 동의할 수 없고 지정 대리인에게 즉시 동의를 받을 수 없어 처치가 지연된다면 필요한 추가 수술을 시행할 수 있으므로 B가 적절하다. 가능하면 치료를 지연시키지 않는 범위에서 아내에게 연락하되 연락 성공을 기다리며 괴사 장 치료를 미루지 않는다. 응급성·판단과 연락 시도를 기록하고 수술 후 환자와 대리인에게 설명한다. 단순히 마취 중이라는 이유로 비응급 추가 수술을 임의 시행할 수 있다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000776 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정답 B와 반대로 POA 동의 D를 권한 해설을 응급 수술 동의 예외로 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://code-medical-ethics.ama-assn.org/sites/default/files/2022-08/2.1.1.pdf
 
 ## 출처
 

@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7ISx7Y-t66Cl"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "피해자의 선택과 통제감을 보장하는 트라우마 인지 진료의 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 감염 예방 교육을 실시한다
 
 ## 오답 포인트
 
-- **C. 시간에 민감한 증거를 바로 채취한다:** 증거 채취는 중요하지만, 환자의 선택과 통제감 확보가 선행되어야 한다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

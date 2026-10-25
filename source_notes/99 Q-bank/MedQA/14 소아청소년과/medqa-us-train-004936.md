@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 감량한 DTaP 접종
 
 ## 해설
 
+이전 단기 전신 열성경련은 당시 MMR 등 접종 후 발생했으며 DTaP 투여 후 뇌병증으로 제시되지 않았다. 현재 회복하여 신경학적 이상이 없으므로 예정대로 DTaP(C)를 접종할 수 있다. MMR 후에는 열성경련 위험이 일시 증가할 수 있으므로 백신과 전혀 무관하다고 단정하지 않는다. 아스피린 예방투여나 감량은 권하지 않는다.
 
-DTaP 접종 후 3주 이내에 발생한 발열성 경련은 백신과 직접적인 연관성이 없으며, 예방접종을 연기할 근거가 없다. 따라서 예정대로 DTaP 접종을 진행하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 기왕 접종에 DTaP가 없는데 DTaP 후 경련으로 연결한 오류를 교정.
+- https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html
+- https://www.cdc.gov/vaccine-safety/about/febrile-seizures.html
 
 ## 출처
 

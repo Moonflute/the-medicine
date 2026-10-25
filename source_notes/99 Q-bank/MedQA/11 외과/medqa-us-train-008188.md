@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 후복막 초음파
 
 
 골반 골절과 요도 출혈이 동반된 경우 요도 손상의 여부를 확인해야 한다. 요도 손상 진단에 표준 검사는 역행성 요도조영술이며, 이는 요도 손상의 위치와 정도를 평가한다. 따라서 역행성 요도조영술이 적절한 다음 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008188 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골반골절·요도구 출혈·배뇨불능은 도뇨관 맹목 삽입 전 역행성 요도조영술 A를 지지하고 AUA 지침과 일치한다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.auanet.org/documents/education/clinical-guidance/Urotrauma.pdf
 
 ## 출처
 

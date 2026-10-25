@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 8세에 신장이식을 받은 병력
 
 ## 해설
 
+낭상 두개내동맥류와 상염색체우성 다낭신장병(ADPKD)은 알려진 연관이 있어, 제시 선지 중 양측 신장 다발 낭종(C)이 가장 관련 깊다. ADPKD에서는 혈관벽 이상으로 두개내동맥류 위험이 증가한다. 그러나 모든 낭상 동맥류 또는 대부분의 지주막하출혈이 ADPKD에서 발생한다는 뜻은 아니다. 신세포암이나 나비모양 교모세포종, 어린 나이 신장이식 병력만은 이 연관을 직접 설명하지 못한다.
 
-전교통동맥 동맥류 파열에 의한 지주막하 출혈은 다낭신증(다낭성 신장)과 연관된 경우가 많다. 따라서 양측 신장에 다수의 낭종이 보이는 초음파가 가장 강하게 연관된 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. ADPKD가 낭상 동맥류 위험을 높인다는 연관을 유지하되 동맥류성 SAH가 대부분 다낭신증과 연결된다는 과도한 일반화를 제한했다.
 
 ## 출처
 

@@ -18,16 +18,18 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 관찰
 
 ## 해설
 
+출산 14시간의 붉은 오로(lochia rubra), 수유 중 후진통과 유방울혈은 생리적일 수 있다. 단단하고 압통 없는 자궁·안정된 활력징후·감염 국소 소견 부재는 D의 관찰을 지지한다. 오로는 산후 자궁 분비물이지 양수가 아니다. 지속 과다출혈·발열·자궁 압통·악취가 생기면 즉시 재평가한다.
 
-출산 후 14시간 경과한 정상적인 악액(양수)과 자궁 수축은 자궁 수축에 따른 정상적인 자궁 수축 및 출혈이며, 출혈은 선홍색이며 통증은 없고 자궁이 단단하다. 이러한 경우 특별한 치료 없이 관찰이 적절하다. 따라서 다음 단계는 관찰이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 오로를악액·양수로오역한오류 및 정상산후경과구분.
+
 
 ## 출처
 

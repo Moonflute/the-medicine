@@ -22,11 +22,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,14 @@ D. 류마티스인자
 ## 해설
 
 
-SLE 환자에서 신장 침범(신염)의 활동성을 가장 잘 반영하는 검사는 항 dsDNA 항체이다. 항 dsDNA 수치는 질병 악화와 밀접히 연관된다. 따라서 진행을 모니터링하는 데 적절한 검사는 항 dsDNA 항체이다.
+젊은 여성의 염증성 다관절 증상, 발진, 빈혈과 신기능 이상에서 SLE가 의심된다. 보기 중 anti-dsDNA B는 확진된 SLE의 활동성을 추적하는 데 도움을 줄 수 있다. 다만 발진 형태·소변·보체 등 정보 없이 SLE 신염을 확정할 수 없고 항체 수치만으로 악화나 치료 반응을 결정하지 않는다. 실제 추적에는 임상 증상, CBC, creatinine/eGFR, 소변 단백·침사와 보체를 함께 본다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007470 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: anti-dsDNA B는 SLE 활동성 추적의 일부이며 신염 진행을 단독으로 가장 잘 반영·확정한다는 과장 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1093/rheumatology/keag223
 
 ## 출처
 

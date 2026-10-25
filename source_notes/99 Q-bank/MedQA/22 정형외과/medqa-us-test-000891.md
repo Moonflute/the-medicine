@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA
   - ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 타목시펜
 
 ## 해설
 
+정답은 A, 알렌드로네이트이다. 고관절 T점수 -3.2는 골다공증 범위이며 기존 손목 골절력도 골절 위험 평가에 중요하다. 알렌드로네이트 자체가 비스포스포네이트이며, 적절한 환자에서 골절 위험을 줄이는 초기 치료 선택지이다. 70세 이상에서만 사용하거나 비스포스포네이트 금기 이후에 쓰는 약물이 아니다. 매우 높은 골절 위험에서는 골형성제 등 다른 전략을 고려할 수 있지만, 제시된 선지 중에는 알렌드로네이트가 가장 적절하다. 실제 처방 시 폐경 여부, 신장기능, 식도질환 등 금기를 확인한다.
 
-고관절 T점수가 -3.2로 심한 골다공증을 나타내며, 70세 이상의 여성에게는 비스포스포네이트가 1차 치료이다. 알렌드로네이트는 비스포스포네이트에 내성이 있거나 금기인 경우 2차 옵션이므로, 다음 단계 약물은 알렌드로네이트이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 51세 문항에 70세 이상 기준을 덧붙이고 알렌드로네이트를 비스포스포네이트 금기 후 2차제로 기술한 오류 수정. 원정답 A 유지.
+- 공식/학회 근거: https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women
 
 ## 출처
 

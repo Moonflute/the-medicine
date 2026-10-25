@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "CXR만이 언제나 첫 검사라는 단정을 기본 영상과 대안으로 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-폐렴 진단 시 새 침윤을 확인하기 위해 가장 먼저 시행하는 영상 검사는?
+폐렴이 의심될 때 새 폐침윤을 확인하는 일반적인 기본 영상은?
 
 ## 선택지
 
 A. 흉부 X선
-B. 흉부 초음파
-C. 흉부 MRI
-D. PET 스캔
+B. PET만
+C. 뇌 MRI
+D. 복부 단순촬영만
 
 ## 해설
 
-흉부 X선은 새 폐 침윤을 확인하는 기본 영상 검사이며 가장 먼저 시행됩니다.
+흉부 X선이 널리 쓰이며 임상상과 함께 해석한다. 적절한 전문성이 있는 환경에서는 폐초음파도 사용할 수 있고 불확실한 경우 추가 영상을 고려한다.
 
 ## 오답 포인트
 
-- **B. 흉부 초음파:** 초음파는 폐렴 진단에 일반적으로 사용되지 않습니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 폐렴
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/폐렴.md`
-- 학습 목표: 원문 핵심: - 흉부 X선 또는 적절한 흉부 영상으로 새 침윤을 확인한다. 임상 의심이 높지만 X선이 음성이면 CT를 고려할 수 있다. - 활력징후·산소포화도, CBC, 신기능·전해질, 간기능을 중증도와 항생제 안전성 평가에 사용한다. 중증 CAP·입원 환자는 혈액배양·객담검사·바이러스 검사를 상황에 따라 시행하되, 외래 경증 환자에게 일률적 광범위 미생물 검사를 하지 않는다. - PSI 또는 CURB-65는 입원 판단을 보조하지만, 저산소증, 경구복용 가능 여부, 사회적 지원, 치료 실패 가능성 같은 임상 판단을 대체하지 않는다.
+- 학습 목표: 폐렴의 새 폐침윤 영상 확인
+
+## 검수 근거
+
+- https://www.nice.org.uk/guidance/ng250/chapter/Recommendations

@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "비길항 에스트로겐 기전과 연결되는 비정상 출혈은 기본 인지 복습으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 무월경
 
 - 내부 학습 노트: 자궁 내막 증식증 (Endometrial Hyperplasia)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁 내막 증식증 (Endometrial Hyperplasia).md`
-- 학습 목표: 원문 핵심: - **경질 초음파 (TVUS)**: 자궁내막 두께 측정 (폐경 후 출혈 시 4mm 이하일 경우 암 가능성 낮음) - **자궁내막 생검 (Endometrial Biopsy)**: 확진을 위한 필수 검사 (Pipelle 등을 이용한 조직 검사) - **기타**: 필요 시 자궁경 검사 및 조직 검사(D&C) 시행
+- 학습 목표: 자궁내막 증식증의 비정상 출혈
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 비길항 에스트로겐 기전과 연결되는 비정상 출혈은 기본 인지 복습으로 유지.

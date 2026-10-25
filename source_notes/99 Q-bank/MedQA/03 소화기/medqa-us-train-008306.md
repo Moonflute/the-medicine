@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 경정맥 간내 문맥전신 단락술(TIPS)
 ## 해설
 
 
-간경변 환자에서 식도정맥류 출혈 시 혈관수축제(예: 옥시모르폰)와 내시경적 경동맥 결찰을 동시에 시행하는 것이 표준 초기 치료이다.
+간경변 환자의 토혈·저혈압은 급성 정맥류 출혈을 의심하게 한다. 기도 보호와 순환 소생을 우선·병행하면서 octreotide·somatostatin·terlipressin 같은 혈관작용제를 신속히 시작하고 안정화 후 조기 내시경적 식도정맥류 결찰술(B)을 시행한다. 항균 예방도 병행한다. Oxymorphone은 opioid 진통제이지 이 혈관작용제가 아니고 경동맥을 결찰하는 시술도 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008306 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정맥류 출혈 B 유지. Oxymorphone을 혈관수축제로, 식도정맥류 결찰을 경동맥 결찰로 적은 중대 해설오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/
 
 ## 출처
 

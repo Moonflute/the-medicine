@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 하지 초음파
 ## 해설
 
 
-복부 통증, 체중 감소, 비만, 당뇨, 고혈압, 그리고 하지에 선형 압통성 종괴(암성 혈전증)는 췌장암과 연관된 migratory thrombophlebitis를 시사한다. 진단을 확정하기 위해서는 복부 CT가 가장 민감하고 구체적인 영상 검사이다. 따라서 복부 CT가 적절한 다음 조치이다.
+양측 다리의 반복적 선형 압통성 정맥줄에 복통·체중감소가 동반되어 악성종양 연관 이동성 혈전정맥염을 의심한다. 복부 CT B는 이 환자의 복부·췌장 원인을 평가하는 선택지 중 적절하다. 모든 혈전 환자에서 임상 단서 없이 CT 암 선별을 실시한다는 의미가 아니며 CT만으로 조직학적 확진을 내릴 수도 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009723 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복부증상·체중감소를 동반한 이동성 혈전정맥염의 표적 CT B 유지; 모든 혈전에 광범위 암검사를 적용하는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng158/chapter/recommendations
 
 ## 출처
 

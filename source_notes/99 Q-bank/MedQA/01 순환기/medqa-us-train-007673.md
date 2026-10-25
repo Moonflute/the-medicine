@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,16 @@ D. 관상동맥 폐색
 
 ## 해설
 
+심방세동과 빈맥, 좌심실 확장 및 박출률 저하는 보기 중 C, 만성 빈맥에 의한 부정맥 유발 심근병증과 합당하다. 아밀로이드 침착은 보통 심실벽 비후와 제한성 양상을 보이며, 급성 스트레스나 관상동맥 폐색을 직접 뒷받침하는 단서는 제시되지 않았다.
 
-지속적인 빈맥(심박수 124/min)으로 인한 심근 과부하가 확장성 심근병증을 일으키는 주요 메커니즘이다.
+다만 이번 진찰의 심박수 124회/분만으로 빈맥의 만성성이나 인과관계가 증명되지는 않는다. 실제 진료에서는 과거 항암제·방사선 치료 등 다른 심근병증 원인을 평가하고, 부정맥 조절 후 좌심실 기능이 회복되는지 확인하여 진단을 뒷받침한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. AF/좌심실 확장에서 빈맥유발 심근병증을 선택할 수 있으나 단일 빈맥 측정만으로 원인을 확진할 수 없고 과거 항암/방사선도 고려함을 보완.
+- https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/06/03/17/33/arrhythmia-induced-cardiomyopathy
 
 ## 출처
 

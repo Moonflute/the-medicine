@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-yVlOyjveqwgOyKtOymnSAoQ2h5bG90aG9yYXgpLm1k"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "110과200 모두 기준 이상이 되는 모호한 선택지를 진단 물질 확인으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-흉수에서 중성지방 농도가 진단에 가장 의미 있는 기준은?
+암죽흉을 뒷받침하는 흉수 소견은?
 
 ## 선택지
 
-A. 110 mg/dL 초과
-B. 50 mg/dL 초과
-C. 200 mg/dL 초과
-D. 50 mg/dL 미만
+A. 중성지방 증가와 chylomicron 확인
+B. 흉수의 붉은 색만
+C. LDH 감소만
+D. 호중구 증가만
 
 ## 해설
 
-흉수 중성지방이 110 mg/dL 이상이면 암죽가슴증을 강하게 시사한다.
+중성지방 >110 mg/dL는 강한 단서이며 애매한 경우 chylomicron 확인이 도움이 된다. 영양 상태 등에 따라 전형적인 유백색이 아닐 수 있어 색만으로 배제하지 않는다.
 
 ## 오답 포인트
 
-- **B. 50 mg/dL 초과:** 50 mg/dL 초과는 가능성을 낮출 뿐 진단 기준이 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 암죽가슴증 (Chylothorax)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/암죽가슴증 (Chylothorax).md`
-- 학습 목표: 원문 핵심: * **흉강 천자 (thoracentesis):** 우윳빛깔(milky)의 액체 확인. (단, 금식 중인 환자에서는 투명할 수 있음) * **흉수 검사:** 중성지방 (TG, triglyceride) > 110 mg/dL 진단적 가치가 높음. (TG < 50 mg/dL이면 가능성 낮음) * **영상 검사:** 흉부 X-ray 및 CT를 통해 흉수 확인 및 원인 질환(종양 등) 평가.
+- 학습 목표: 암죽흉의 중성지방·chylomicron

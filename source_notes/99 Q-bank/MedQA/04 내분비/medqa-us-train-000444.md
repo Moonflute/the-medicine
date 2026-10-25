@@ -22,15 +22,17 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. MEN1
 
 ## 해설
 
+정답은 D이다. 고PTH성 고칼슘혈증과 결석은 부갑상샘 병변을, 난치성 궤양·설사는 gastrinoma를, bromocriptine으로 호전된 불임은 prolactinoma를 시사한다. 부갑상샘·췌장/십이지장 신경내분비·뇌하수체 병변의 조합은 MEN1 유전자 관련 증후군에 합당하다. 고칼슘혈증 하나만으로 MEN1과 MEN2를 구별하는 것은 아니다.
 
-고칼슘혈증, 고 PTH, 다발성 신장 결석은 MEN1 증후군과 연관된다. MEN1은 RET 유전자 변이가 아닌 MEN1 유전자 돌연변이와 관련이 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: MEN1 판단 근거에 gastrinoma/prolactinoma 병력을 연결.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

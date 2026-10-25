@@ -18,16 +18,18 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 확장 및 소파술을 시행한다
 
 ## 해설
 
+임신 주수는 26주이며 자궁 크기만 24주에 해당한다. 태아 사망 확인 후 산모 상태와 선호를 고려해 분만을 계획하며, 선택지에서는 옥시토신 유도(B)가 가능하다. 28주 전에는 미소프로스톨이 효율적인 유도 방법이지만 고용량 옥시토신도 허용되는 대안이다. 단순히 경부 3 cm라는 이유만으로 옥시토신이 유일한 치료인 것은 아니며 태아 적응증의 제왕절개는 피한다.
 
-임신 24주에 태아 사망이 확인되면 자궁경부가 충분히 개대된 경우(3 cm)에는 자연 유산을 유도하기 위해 옥시토신을 투여한다. 제왕절개는 필요하지 않으며, 다른 약물은 적절치 않다. 따라서 옥시토신 투여가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 26주를 24주로 바꾼 해설 수정 및 유도분만 선택의 범위 명시.
+- https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2020/03/management-of-stillbirth
 
 ## 출처
 

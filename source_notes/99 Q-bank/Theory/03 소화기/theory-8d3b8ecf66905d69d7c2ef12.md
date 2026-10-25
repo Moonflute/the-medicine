@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_slYzsubzrpqwg7Jet66WYIOymne2bhOq1sCAoQWxrYWxpbmUgUmVmbHV4IFN5bmRyb21lKS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "위 수술 후 담즙·십이지장 내용물 역류 기전은 산 역류와 구별할 수 있는 핵심으로 한 문항 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,4 +49,14 @@ D. 식도 역류 질환
 
 - 내부 학습 노트: 알칼리 역류 증후군 (Alkaline Reflux Syndrome)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/알칼리 역류 증후군 (Alkaline Reflux Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 위 절제술(특히 Billroth II 문합술) 후 담즙과 췌장액이 위 내로 역류하여 위 점막에 염증을 일으키는 상태 - **원인**: 위 절제술 후 유문부 기능 상실 및 십이지장-위 역류 방지 기전의 붕괴 - **기전**: 담즙산과 췌장 효소가 위 점막을 화학적으로 손상시켜 위염 및 궤양 유발
+- 학습 목표: 위 수술 후 알칼리성 담즙 역류
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 위 수술 후 담즙·십이지장 내용물 역류 기전은 산 역류와 구별할 수 있는 핵심으로 한 문항 유지.
+- 검수 범위: curriculum-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

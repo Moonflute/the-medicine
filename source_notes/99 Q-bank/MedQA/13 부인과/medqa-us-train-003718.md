@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 경구 메트로니다졸
 
 ## 해설
 
+폐경이행기의 저에스트로겐성 질 위축은 건조감·성교통을 일으킨다. 보기 중 국소 에스트로겐 C가 이에 맞는 치료다. 8개월 무월경만으로 폐경을 확정하지 않는다. 반복 점상출혈을 위축 탓으로 단정하지 말고 자궁경부·자궁내막 등 출혈 원인을 평가한다.
 
-폐경 후 질 건조와 통증은 위축성 질염(폐경기 질증후군)이며, 국소 에스트로겐 크림이 직접적인 호르몬 보충으로 점막을 회복시킨다. 따라서 가장 적절한 치료는 국소 에스트로겐 크림이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 국소 에스트로겐 C 유지. 마지막 월경 8개월은 확정 폐경이 아니고 동반 출혈 평가 누락을 보완.
+- https://www.acog.org/womens-health/faqs/hormone-therapy-for-menopause
 
 ## 출처
 

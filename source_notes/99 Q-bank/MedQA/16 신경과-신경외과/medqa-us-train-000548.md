@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 혈장 교환술
 
 ## 해설
 
+과거 시신경염 의심 삽화와 감각 증상에 새로운 소뇌·뇌간 증상이 더해져 다발성경화증의 재발을 시사한다. 기능 장애가 큰 급성 재발에는 감염 등 다른 원인을 배제한 뒤 고용량 코르티코스테로이드(C)를 사용한다. 혈장교환은 스테로이드에 충분히 반응하지 않는 중증 탈수초성 재발에서 고려할 수 있으므로 단순히 무관한 치료는 아니다.
 
-고용량 코르티코스테로이드는 급성 다발성 경화증 악화(재발) 시 가장 효과적인 치료이다. 항바이러스제, 고용량 포도당, 혈장 교환은 각각 다른 적응증에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 일상 기능을 크게 떨어뜨린 MS 재발에는 C가 맞으며 혈장교환을 전혀 다른 적응증으로 배제한 오류를 교정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng220/chapter/Recommendations
 
 ## 출처
 

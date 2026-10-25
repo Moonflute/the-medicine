@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 메토트렉세이트 치료
 
 ## 해설
 
+자궁 크기 증가, 높은 hCG, 구토·고혈압과 낭성 공간을 포함한 자궁내 종괴는 포상기태를 시사한다. 임신검사가 10주 전에 양성이었다는 정보는 현재 임신 10주라는 뜻이 아니다. 흡인 소파술(C)로 제거하고 병리 및 연속 hCG 추적으로 지속 영양막질환을 감시한다. hCG 추적만 하거나 초기 포상기태에 메토트렉세이트를 일률 투여하지 않는다.
 
-임신 10주 차에 고 hCG와 초음파에서 무수정 태아가 보이지 않는 경우 완전 포상기태가 의심된다. 치료는 자궁내 흡인 소파술로 비정상 조직을 제거한다. 따라서 흡인 소파술이 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 양성 임신검사 10주 전을 임신10주로 혼동한 오류 수정.
+- https://www.cancer.gov/types/gestational-trophoblastic/patient/gtd-treatment-pdq
 
 ## 출처
 

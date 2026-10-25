@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 페니실린 치료 투여
 ## 해설
 
 
-카르바마제핀 복용 후 발진, 발열, 림프절병증이 동반된 전신 증상은 DRESS(약물 유발 과민성 반응)이며, 가장 중요한 조치는 원인 약물 중단이다. 다른 검사는 진단에 필요하지 않다. 따라서 카르바마제핀을 중단한다.
+카르바마제핀 시작 6주 뒤 발열·발진·안면부종·림프절병증은 DRESS를 포함한 중증 약물 과민반응을 의심하게 한다. 원인 약물 중단(A)이 우선이다. 진단과 장기침범 평가를 위한 혈구분획, 간·신장기능 검사 등은 필요하며 다른 검사가 불필요하다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-006750`와 직접 대조했다.
+- 판정: 카르바마제핀 6주 후 DRESS 의심에 A 유지. 다른 검사 불필요라는 위험한 단정 제거하고 장기침범 평가 명시.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f0a254c5-bd33-4b14-b9f0-830b3438f5c6&type=display
 
 ## 출처
 

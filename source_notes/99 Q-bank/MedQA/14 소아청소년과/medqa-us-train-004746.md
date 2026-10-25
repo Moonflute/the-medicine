@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 피리도스티그민
 
 ## 해설
 
+꿀 노출 후 변비·하행성 이완 마비·안검하수는 영아 보툴리눔증에 부합한다. 보기 A의 인간 면역글로불린은 영아 보툴리눔증 특이 항독소인 BabyBIG(anti-botulinum toxin A/B human immune globulin)를 뜻한다. 일반 IVIG와 혼동하지 않으며 호흡·영양 지지와 함께 신속히 전문 치료를 진행한다.
 
-6개월 영아에서 전형적인 보툴리눔 중독 증상(전신 근육 약화·안면 마비·구강 근육 저하)이 나타났으며, 꿀 섭취는 보툴리눔 포자를 제공한다. 초기 치료는 인간 면역글로불린(HIG)으로 독소 중화가 가장 효과적이다. 따라서 사람 유래 면역글로불린이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 영아 보툴리눔증의 human immunoglobulin을 일반 IVIG가 아닌 특이 항독소로 명확화.
+- https://www.fda.gov/media/150406/download
 
 ## 출처
 

@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,11 @@ D. 티아민 결핍
 
 ## 해설
 
+인지 기능의 변동, 반복되는 생생한 환시와 파킨슨증이 함께 나타나므로 루이소체 질환이 가장 의심된다. 신경세포 내 비정상 α-시누클레인 응집체인 루이소체 침착(A)이 병리적 원인이다. 파킨슨증과 인지저하가 1년 이내에 나타나는 경과는 임상적으로 루이소체치매 쪽을 지지한다. 실제로는 레보도파 등 약물이나 섬망의 영향도 평가해야 하며 파킨슨 환자의 모든 환각을 루이소체치매로 확정하지 않는다.
 
-파킨슨병 환자에서 시각 환각, 의식 저하, 파킨슨증상이 동반되는 경우는 루이소체 침착 치매가 가장 흔한 원인이다. 혈관성 뇌경색이나 전두측두엽 위축은 다른 임상 양상을 보인다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 파킨슨증 발병 10개월 이내의 인지저하·인지 변동·환시는 루이소체 질환 A를 지지한다. 모든 파킨슨 환자의 환각을 동일 원인으로 단정한 해설을 수정했다.
 
 ## 출처
 

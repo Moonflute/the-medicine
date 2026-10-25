@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 정상 노화
 
 ## 해설
 
+저녁 6시 이후 깨어 있기 어렵고 본래 수면 시간대에는 편안히 자고 개운하게 깨지만 원하는 저녁 활동과 맞지 않아 기능상 문제가 생기는 것은 수면 위상 전진 장애(B)에 부합한다. 내인성 수면 시점과 각성 시점이 앞당겨지는 것이지 수면 시작이 지연되거나 저녁에 잠들기 어려운 것이 아니다. 단순 정상 노화와 구별하는 단서는 생활 기능과 부부 활동의 지장이다.
 
-오후 6시 이후에 잠들기 어려워지는 것이 전형적인 수면 위상 전진(일주기 리듬 수면장애)이다. 이 경우 내인성 생체시계가 앞당겨져 조기 각성·수면 시작 지연이 나타난다. 따라서 가장 가능성 높은 진단은 수면 위상 전진 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 일찍졸리는위상전진을입면곤란/수면시작지연으로반대로설명한오류교정. B유지.
+
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 갑상선기능저하증
 
 
 말단 회장의 협착, 비혈성 설사, 복통, 저림·작열감, 거대 적혈구성 빈혈, 저혈소판증, 과분엽 호중구는 크론병에 동반되는 비타민 B12 결핍을 시사한다. 따라서 가장 가능성 높은 진단은 크론병이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001025 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 텍스트에 명시된 말단회장 string sign과 B12 결핍성 거대적아구 소견을 Crohn B에 연결. 추가 영상이 없어도 해당 명시 소견으로 질문 판단 가능.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

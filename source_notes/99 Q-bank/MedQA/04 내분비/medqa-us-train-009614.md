@@ -19,11 +19,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 하이드랄라진
 ## 해설
 
 
-갈색세포종 치료 시 먼저 알파 차단제로 혈압과 혈관 수축을 억제해야 한다. 알파 차단 후에 베타 차단제를 사용하면 반사성 혈압 상승을 방지할 수 있다. 따라서 알파 차단제 후 베타 차단제가 첫 단계 치료이다.
+정답 B. 갈색세포종에서는 먼저 α-adrenergic 차단으로 혈관수축을 조절한 뒤 빈맥/부정맥 등 필요 시 β차단을 추가한다. β차단을 먼저 하면 unopposed α작용으로 고혈압 위기가 악화될 수 있다. 이 환자의 유두부종·심한 혈압상승은 즉각적인 감시하 응급치료가 필요한 상황이며 안정화 후 충분한 수술 전 준비를 거쳐 종양을 제거한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009614 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: α차단 후 필요시 β차단 B는 unopposed α 위기 예방 원칙; 현재 고혈압응급 안정화와 수술전 준비 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/
 
 ## 출처
 

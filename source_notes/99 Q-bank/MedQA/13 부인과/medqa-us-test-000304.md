@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 정상 발달
 
 ## 해설
 
+16세의 원발성 무월경에서 정상 이차성징과 자궁·난소가 확인되어 유출로 이상을 고려한다. 확인된 질 입구 쪽은 정상이지만 전체 질 검사를 마치지 못했으므로 더 안쪽의 질중격(C)이 제시된 선택지 중 적합하다. 다만 정상 FSH·에스트로겐만으로 구조적 폐쇄가 확정되는 것은 아니며 추가 진찰·영상으로 확인해야 한다. 질중격을 원발성 무월경의 가장 흔한 원인이라고 일반화해서는 안 된다.
 
-월경이 없고 2차 성징은 정상이며, 혈청 FSH와 에스트로겐이 정상 범위에 있다면 생식기 구조적 폐쇄가 원인이다. 질중격은 월경 흐름을 차단해 무월경을 일으키는 가장 흔한 원인이다. 따라서 질중격이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 질중격을무월경의가장흔한원인이라고한오류제거. 정상호르몬만으로구조폐쇄확정하지않고C의원문추정근거기술.
+
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 즉시 분만 유도
 
 ## 해설
 
+자궁내 태아사망 후 부검을 원하고 태아가 온전하게 나오기를 바라는 환자에게 유도분만(D)이 적절하다. D&E는 수술적 배출로 유도분만과 다른 방법이며 부검의 완전성을 제한할 수 있다. 산모 안정화와 검사·정서적 지지 및 환자 선호에 따른 시기·방법 상담이 필요하다.
 
-임신 2분기 이상에서 태아 사망 시 자궁경부 확장·흡인술(임신 24주 이상)로 자연분만을 유도한다. 이는 태아 사망 후 가장 안전하고 효과적인 방법이다. 따라서 즉시 분만 유도가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 유도분만과 D&E를 혼동한 해설 수정.
+- https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2020/03/management-of-stillbirth
 
 ## 출처
 

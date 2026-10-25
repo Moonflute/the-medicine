@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 윤상갑상막절개술
 
 ## 해설
 
+삽관에 실패한 뒤 마스크 환기로도 산소화를 유지하지 못하고 산소포화도가 계속 저하되는 상황은 삽관 불가·산소화 불가 상태에 해당할 수 있다. 이때 구조 전경부 기도 확보인 윤상갑상막 절개술(D)이 필요하다. 이는 비침습적 처치가 아니라 침습적 응급 기도 술기이다. 단 한 번의 삽관 실패만으로 항상 시행하는 것은 아니며, 산소화가 가능한지와 대체 기도 전략을 함께 판단해야 한다. 가족이 없다는 이유로 생명을 구할 응급 기도 처치를 미뤄서는 안 된다.
 
-중증 외상에서 기관삽관 실패 후 산소포화도가 떨어지면 즉시 기도 확보가 필요하다. 윤상갑상막절개술은 비침습적 기도 확보 방법으로 가장 빠른 선택이다. 따라서 윤상갑상막절개술을 시행한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 윤상갑상막 절개술을 비침습적 처치로 기술한 오류를 교정한다. 삽관과 산소화 실패가 함께 지속되는 구조 상황에서 D를 유지한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

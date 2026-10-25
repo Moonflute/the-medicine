@@ -19,16 +19,18 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 대발작
 
 ## 해설
 
+심첨부의 종양성 개방음(tumor plop)과 이완기 잡음은 좌심방 점액종(A)을 시사하며, 이동성 종양의 간헐적 승모판 유입 폐쇄가 체위 관련 증상을 일으킬 수 있다. 심초음파로 확인해야 한다. 실제 기립 혈압 저하도 있고 탐스로신과 음주가 기여할 수 있으므로, 약물 유발 저혈압을 모든 면에서 배제하는 설명은 부적절하다.
 
-심방 점액종은 좌심방에 종양성 덩어리를 형성하고, 심첨부 저음과 ‘툭’ 소리를 동반한다. 이는 기립성 저혈압·대동맥판 협착과 구별된다. 따라서 가장 가능성 높은 진단은 심장 점액종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 종양성 개방음 단서의 A는 유지하되 실제 기립성 저혈압과 탐스로신 기여를 무조건 배제하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

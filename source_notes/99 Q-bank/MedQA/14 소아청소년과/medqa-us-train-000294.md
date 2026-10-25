@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 에리스로포이에틴(erythropoietin) 생성 장애
 
 ## 해설
 
+미숙아의 생후 수주 저망상적혈구성 빈혈은 상대적으로 부족한 에리스로포이에틴(EPO) 생성 및 저산소에 대한 EPO 반응과 관련되어 D가 가장 적절하다. 짧은 적혈구 수명·빠른 성장·채혈 손실 등도 기여할 수 있다. 낮은 망상적혈구 수와 정상 빌리루빈은 활발한 용혈보다 생성 감소를 지지한다. 이는 신부전을 진단하는 문항이 아니다.
 
-조산아는 신생아기에 신장 기능이 미숙해 적절한 에리트로포이에틴(EPO) 생산이 감소한다. EPO 결핍은 적혈구 생성 저하를 일으켜 저혈색소와 낮은 망상적혈구 수를 초래한다. 따라서 이 환아의 빈혈은 EPO 생성 장애가 가장 가능성 높은 기전이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미숙아 빈혈을 미성숙 신장 기능 하나로만 설명한 해설을 상대적 EPO 생성·저산소 반응 부족과 적혈구 생성 감소로 명확히 했다.
+
 
 ## 출처
 

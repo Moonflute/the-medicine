@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 금연
 
 ## 해설
 
+발열과 국소 홍반 안의 압통성 파동 종괴는 수유성 유방농양이다. 흡인 배액·배양과 적절한 항생제 치료(C)가 적절하며 필요시 반복 배액 또는 배액관을 고려한다. 고형 종괴가 아니며 수유는 대개 지속할 수 있다.
 
-수유 중 유방에 통증·홍반·압통성 고형 종괴가 나타난 경우는 수유성 유방염·농양이 가장 흔하다. 초기 치료는 바늘 흡인으로 농양을 배액하고, 경구 β‑락탐제(디클록사실린)로 감염을 억제한다. 따라서 바늘 흡인과 경구 디클록사실린이 적절한 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 파동성 2 cm 농양의 바늘 흡인·항생제 C 유지. 고형 종괴 오표현을 교정.
+- https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf
 
 ## 출처
 

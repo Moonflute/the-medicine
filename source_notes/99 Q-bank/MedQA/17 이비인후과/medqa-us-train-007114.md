@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 전하소뇌동맥 폐색
 
 ## 해설
 
+수 시간 반복되는 현훈과 오른쪽 이명·충만감·청력저하는 메니에르병에 합당하다. Rinne 양성, Weber 왼쪽 편위는 오른쪽 감각신경성 난청에 부합한다. 전통적으로 내림프수종 및 내림프 흡수 장애와 연관되므로 B가 가장 적절하다. 저주파 난청과 안진을 혼동해서는 안 되며, 정상 사지·소뇌검사가 전정신경초종을 절대 배제하는 것도 아니다.
 
-내림프 재흡수 감소는 메니에르병에서 내이의 과다액이 축적돼 발생하며, 이로 인해 회전성 현기증과 저음 안진이 나타난다. 혈관 폐색은 뇌졸중 증상을, 종양은 진행성 신경학적 결손을 일으킨다. 따라서 내림프 재흡수 감소가 가장 가능성 높은 원인이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저음 안진이라는 부정확한 용어와 종양이면 반드시 다른 진행성 신경결손이 있다는 과도한 배제 설명을 교정.
 
 ## 출처
 

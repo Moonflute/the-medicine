@@ -18,15 +18,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 일주일 후 혈압 재측정
 
 ## 해설
 
+Isotretinoin을 시작하기 전 임신 가능 환자는 성생활을 하지 않는다고 보고해도 요구되는 임신검사를 확인해야 하므로 A가 적절하다. 미국 iPLEDGE의 치료 전 검사와 임신예방 조건을 충족하기 전 복용하지 않는다. 한 번의 hCG만으로 전체 요구조건이 끝나는 것은 아니며 월경·정신건강 등도 별도로 평가한다.
 
-이소트레티노인은 임신 시 기형을 유발하므로 복용 전 반드시 임신 여부를 확인해야 한다. 따라서 hCG 검사가 가장 중요한 사전 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Isotretinoin 전 hCG A는 맞고 처방을 받았다고 바로 복용 가능한 것처럼 오해하지 않도록 안전 조건을 명확히 한다.
+- 공식/학회 근거: https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/ipledge-risk-evaluation-and-mitigation-strategy-rems
 
 ## 출처
 

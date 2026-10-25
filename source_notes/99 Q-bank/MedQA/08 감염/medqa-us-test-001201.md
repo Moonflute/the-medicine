@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. CT 폐혈관조영술
 ## 해설
 
 
-정맥 주사 약물 사용자는 Staphylococcus aureus에 의한 삼첨판 감염(우측 심내막염)이 흔하며, 반코마이신은 MRSA 포함 모든 포도상구균에 효과적인 1차 치료제이다. 따라서 정맥 반코마이신 치료가 가장 적절하다.
+주사약물 사용과 삼첨판 식생·발열은 감염성 심내막염을 지지한다. 배양을 채취한 뒤 선지 중 MRSA를 포함하는 경험적 반코마이신(B)이 적절하다. 균종·감수성이 확인되면 조정하며 MSSA에는 적절한 항포도알균 베타락탐이 일반적으로 더 선호된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-001201 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혈액배양 후 주사약물 관련 IE 경험적 B 유지. MSSA까지 언제나 vancomycin 1차라는 해설 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

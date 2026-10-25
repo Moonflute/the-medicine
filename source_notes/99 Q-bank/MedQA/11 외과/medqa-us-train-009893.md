@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,13 @@ D. 대장직장암
 ## 해설
 
 
-복부 팽만, 고창음, 전반적 복강 압통 및 반발통, 장음 소실은 복막염을 시사하며, 급성 복통과 저혈압이 동반된 경우 장천공이 가장 흔한 원인이다. 따라서 천공이 정답이다.
+갑작스러운 전반 복통, 움직임 회피·경직·반발통·장음소실과 발열/쇼크는 복막염을 동반한 위장관 천공(C)을 강하게 시사한다. Ibuprofen·흡연력은 소화성 궤양 천공 가능성을 높인다. 단순 장폐색이나 대장암만으로 전체 급성 양상을 설명하기 어렵다. 다만 가임 여성의 불규칙한 피임 상황에서는 신속 β-hCG 등으로 자궁외임신도 평가하며 최근 월경만으로 임신을 완전히 배제하지 않는다. '급성복통·저혈압의 가장 흔한 원인은 언제나 장천공'이라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009893 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 쇼크·복막염을 모든 환자의 최빈 장천공으로 일반화하지 않고 NSAID 등 실제 사례 근거로 설명했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

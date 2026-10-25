@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 벤조디아제핀 중독
 
 ## 해설
 
+졸음·구음장애·운동실조·반사저하와 비교적 보존된 활력·동공 반응은 진정수면제 중독에 합당하다. 혈중 ethanol 0.04%에 비해 뚜렷한 의식·운동 억제가 있어 선지 중 benzodiazepine 중독(D)을 우선 고려한다. Ethanol도 운동실조와 반사 억제를 일으킬 수 있으므로 증상 자체만으로 배제하지 않으며 동시 섭취 가능성도 있다. 실제 평가에서는 혈당·외상·다른 원인도 확인해야 한다.
 
-벤조디아제핀은 중추신경 억제 작용으로 졸음, 운동실조, 반사 저하를 일으키며 혈중 농도가 낮아도 증상이 나타난다. 알코올이나 대마는 반사 저하와 운동실조를 일으키지 않으며 저혈당은 의식 저하와 땀, 떨림을 동반한다. 따라서 가장 가능성 높은 원인은 벤조디아제핀 중독이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. BZD 중독 D의 출제 의도는 유지하되 ethanol이 운동실조·반사저하를 유발하지 않는다는 잘못된 배제와 측정되지 않은 BZD 농도 주장을 제거한다.
+- 공식/학회 근거: https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/understanding-dangers-of-alcohol-overdose
 
 ## 출처
 

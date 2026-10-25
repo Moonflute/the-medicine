@@ -21,13 +21,15 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,16 @@ D. 체중 감량
 
 ## 해설
 
+심한 비만, 주간 졸림과 아침 두통은 폐쇄성 수면무호흡을 의심하게 하며, 제시된 선택지 중 D, 체중 감량이 중요한 장기 관리다. 저녁 음주를 피하는 것도 도움이 될 수 있지만 비만에 대한 치료를 대체하지 못한다.
 
-고혈압·비만·주간 피로는 비만성 수면 무호흡증을 시사한다. 체중 감량은 증상 개선에 가장 효과적인 첫 번째 조치이다. 따라서 가장 적절한 처치는 체중 감량이다.
+체중감량만을 기다리면서 진단과 치료를 미뤄서는 안 된다. 실제로는 수면검사 등을 통한 확인과 적응증에 따른 양압기 치료를 고려한다. 혈압 180/110 mmHg는 별도로 재측정하고 급성 장기손상 여부와 치료를 평가해야 한다. 체중감량이 모든 OSA에서 PAP보다 효과적인 유일한 초기치료라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. 체중감량이 OSA의 가장 효과적인 단독 초기치료라는 과장을 교정하고 수면검사/PAP와 매우 높은 혈압 평가의 필요성 분리.
+- https://site.thoracic.org/advocacy-patients/patient-resources/positive-airway-pressure-cpap-and-bpap-for-adults-with-obstructive-sleep-apnea
 
 ## 출처
 

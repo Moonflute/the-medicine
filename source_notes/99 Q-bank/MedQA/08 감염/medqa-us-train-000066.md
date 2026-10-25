@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,6 +48,12 @@ D. Sentinel event
 
 
 구두 전달 오류는 의사-간 커뮤니케이션 실패에서 비롯된다. 폐쇄형 커뮤니케이션(closed-loop communication)은 확인과 피드백을 포함해 지시를 명확히 하여 동일한 오류를 방지한다. 따라서 위험 최소화를 위한 최적 관리법은 폐쇄형 커뮤니케이션이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000066 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 구두 처방의 되읽기·확인으로 closed-loop communication A가 오류 최소화에 직접 대응. 실제 위해 발생 사건을 near miss로 바꾸지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

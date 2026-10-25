@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 하대정맥 파열
 ## 해설
 
 
-복부 외상 후 복강 내 자유액이 보이고 구토가 시작되면 비장 파열이 의심된다. 비장은 복부에서 가장 흔히 손상되는 장기이며, 출혈이 급격히 진행한다. 따라서 가장 가능성 높은 진단은 비장 열상이다.
+둔상 후 FAST의 복강내 자유액은 출혈성 복부 장기손상을 의심하게 한다. 선택지 중 비장 열상(B)이 가장 가능한 원인이며 내부 손상이 없다는 C는 맞지 않는다. 그러나 Morrison 주머니의 액체는 혈액의 저류 위치이지 비장 손상의 직접 증거가 아니며 구토도 장기를 특정하지 못한다. 실제 손상 위치·정도는 혈역학에 따른 추가 영상 또는 수술에서 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008107 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: FAST 자유액과 구토만으로 출혈장기를 확정한다는 표현을 선택지 내 가장 가능한 비장 열상으로 제한했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

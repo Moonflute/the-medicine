@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,10 +50,16 @@ D. 수마트립탄
 
 ## 해설
 
-
-환자는 과도한 건강염려와 검사 요구로 일상 기능이 크게 제한된 불안장애(건강불안) 증상을 보이며, 1차 치료에 선택되는 약물이 선택적 세로토닌 재흡수 억제제인 플루옥세틴이다. 다른 약물은 불안에 대한 1차 선택이 아니다.
+건강뿐 아니라 직장·성생활·가족 관계까지 여러 영역의 과도한 걱정이 1년간 지속되어 범불안장애 양상을 시사한다. 제시된 약물 중 SSRI인 플루옥세틴이 원문 선택이다. 부스피론도 범불안장애에 사용할 수 있으므로 불안에 부적절한 약으로 설명하지 않는다. 클로나제팜은 장기 기본 치료로 삼지 않으며 현재 두통만을 대상으로 수마트립탄을 선택할 상황은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008555
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 건강염려만을 진단 근거로 삼고 부스피론도 불안에 부적절하다고 배제한 설명 교정. 다영역 걱정의 범불안 맥락과 SSRI 답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg113/chapter/Recommendations

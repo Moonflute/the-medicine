@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,15 @@ D. 하이드로코돈과 이부프로펜을 4시간마다 복용하도록 허용
 ## 해설
 
 
-진행성 암성 통증에서 오피오이드 내성이 흔히 나타나며, 하이드로코돈을 더 강력한 μ-수용체 작용제인 하이드로모르폰으로 교체하면 내성을 극복할 수 있다. 이는 동일 용량 대비 더 높은 진통 효과를 제공한다. 따라서 하이드로코돈을 하이드로모르폰으로 변경하는 것이 적절하다.
+현재 hydrocodone/ibuprofen 복합제를 증량해도 암성통증이 조절되지 않아 더 유연하게 적정 가능한 강한 opioid로 전환하는 B가 선택지 중 적절하다. 전환 시 기존 총 일일 opioid량을 계산하고 등가진통용량과 불완전 교차내성을 고려하여 시작 용량을 보수적으로 조정한 뒤 통증·진정·호흡·장기기능을 추적하며 적정한다. Hydromorphone과 hydrocodone은 mg 대 mg로 교환할 수 없고 효력이 높다는 사실 자체가 내성을 자동 극복하지 않는다. 진통 부족·종양 진행·부작용을 재평가하고 수면제 추가나 NSAID 복합제 무작정 증량으로 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000988 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 암성통증 조절 실패에서 hydromorphone B로의 opioid rotation 유지하되 고효능 약이면 무조건 내성 극복·동일 mg 투여라는 위험 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/about-cancer/treatment/side-effects/pain/pain-hp-pdq
+- https://ascopubs.org/doi/10.1200/JCO.22.02198
 
 ## 출처
 

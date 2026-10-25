@@ -26,7 +26,7 @@ sources_ref: "openFDA drug label API (US)"
 > 용량: `-`
 
 ## 기전
-- 장내에서 C. difficile에 선택적으로 작용해 균 증식을 억제한다.
+- 세균 RNA polymerase를 억제해 전사 개시를 방해한다. 경구 투여 후 주로 장내에서 작용하며 C. difficile 감염에 사용한다.
 
 ## 임상 정보
 - 초발 CDI와 재발 CDI에서 약제 선택이 달라지며, severity와 recurrence risk를 같이 본다.
@@ -67,3 +67,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- FDA 임상약리 검토 및 RNA polymerase 기전: https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/201699Orig1s000ClinPharmR.pdf

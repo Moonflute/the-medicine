@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 신생아 뇌병증
 
 ## 해설
 
+모체 고혈당으로 태아에 포도당 공급이 많아지면 태아 췌장 베타세포가 자극되어 과형성과 고인슐린혈증이 생길 수 있다. 출생 후 모체 포도당 공급은 끊어지지만 높은 인슐린 작용이 남으면 저혈당이 발생하여 떨림·수유 저하·경련과 기면을 설명하므로 A가 가장 적절하다. 실제 저혈당 확인 없이 다른 신생아 중증 질환을 배제한다는 뜻은 아니다.
 
-당뇨병 어머니의 대형아는 고인슐린 혈증으로 태아 췌장 베타세포가 과형성돼 출생 후 급성 저혈당을 일으킨다. 저혈당은 신생아가 보채고 떨며 무기력해지는 전형적인 증상이다. 따라서 베타세포 과형성이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 고인슐린혈증이 베타세포 과형성을 먼저 일으킨다는 역방향 기전을 바로잡았다.
+
 
 ## 출처
 

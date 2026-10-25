@@ -17,26 +17,35 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOyLpCDruYjrp6UgKFZlbnRyaWN1bGFyIFRhY2h5Y2FyZGlhKS5tZA
 question_type: management
 difficulty: simple
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvU290YWxvbC5tZA
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 무맥성 VT에서 동기화 충격·다형성 예방이라는 원문 처치 오류 교정."
+curation_status: "revised"
+curation_reason: "무맥성 VT에서 동기화 충격·다형성 예방이라는 원문 처치 오류 교정."
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-70세 남성이 낙상 후 의식이 없는 상태로 응급실에 이송되었다. 창백하고 맥박이 없다. 12유도 심전도에서 넓고 단형이며 톱니 모양의 QRS 복합체가 보인다. 전기적 동기화 심율동전환을 전압을 높여 세 번 시행했으나 효과가 없었다. 에피네프린을 투여했지만 효과는 미미했다. 다음 중 다형성 심실빈맥 발생 위험을 줄이는 약물은?
+70세 남성이 낙상 후 무의식·무맥 상태로 응급실에 왔다. 심전도에는 넓은 단형성 QRS의 심실빈맥이 보인다. 고품질 CPR과 반복 비동기 제세동, 에피네프린에도 무맥성 심실빈맥이 지속된다. 다음 중 추가로 고려할 항부정맥제는?
 
 ## 선택지
 
@@ -47,10 +56,20 @@ D. 프로카인아미드
 
 ## 해설
 
+맥박이 없는 심실빈맥은 심정지 알고리즘에 따라 CPR과 비동기 제세동으로 치료한다. 반복 제세동에도 지속되는 VF/pVT에서는 amiodarone 또는 lidocaine을 고려할 수 있다. 이 선택지 중에서는 amiodarone이 해당한다. 맥박 있는 불안정 빈맥의 동기화 심율동전환과 구분하며, QT 연장성 torsades 예방약을 묻는 문제가 아니다.
 
-넓고 단형, 톱니 모양 QRS는 무맥성 전기활동을 나타내는 무맥성 전기활동(VT)이며, 재분극 억제제로 아미오다론이 재발성 다형성 VT 위험을 감소시킨다. 따라서 아미오다론이 적절한 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 무맥성 VT에서 동기화 충격·다형성 예방이라는 원문 처치 오류 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006547
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

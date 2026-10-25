@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 니스타틴
 ## 해설
 
 
-CD4 90/mm³인 HIV 환자에서 삼키는 통증과 구강통증은 식도 칸디다증이 가장 흔한 원인이다. 1차 치료는 경구 플루코나졸이다.
+CD4 90/mm³의 HIV 환자에서 연하통은 식도 칸디다증을 의심하게 하며, 구강 아구창이 없어도 배제되지 않는다. 내시경 전 전신 fluconazole(B) 치료를 시도할 수 있다. 국소 nystatin은 식도 감염 치료로 충분하지 않다. 적절한 치료 후에도 호전이 없으면 CMV·HSV 등 다른 원인을 위한 내시경·생검 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008878 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CD4 90에서 연하통은 식도 칸디다증 경험적 fluconazole B가 적절. 본문에 없는 구강통/아구창을 만들지 않고 반응 없을 때 내시경 필요를 설명.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/candidiasis/
 
 ## 출처
 

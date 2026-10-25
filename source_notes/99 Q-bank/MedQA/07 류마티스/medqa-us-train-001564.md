@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,13 @@ D. 항-환형 시트룰린화 펩티드
 ## 해설
 
 
-양쪽 손목의 관절염과 비대칭성 증상은 류마티스 관절염을 시사하며, 항-CCP 항체가 가장 특이적인 진단 마커이다.
+양쪽 손목과 중수지관절의 대칭성 염증성 관절염과 뚜렷한 아침 경직은 류마티스관절염을 시사한다. 선택지 중 항환형 시트룰린화 펩티드(anti-CCP, D)는 류마티스인자보다 특이도가 높다. 항체는 임상 소견과 함께 해석하며 음성이라고 RA를 완전히 배제하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001564 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 양측 손목·MCP 관절염을 비대칭성으로 잘못 설명한 부분을 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

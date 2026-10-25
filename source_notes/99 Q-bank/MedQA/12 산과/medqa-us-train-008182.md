@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 영양막질환
 
 ## 해설
 
+임신 2기 쿼드검사의 AFP·비결합 에스트리올 감소와 hCG·인히빈 A 증가는 21번 삼염색체증(A) 위험 상승 패턴이다. PAPP-A는 이 쿼드검사 항목이 아니며 선별 양성이 확진을 뜻하지 않는다.
 
-쿼드스크린에서 AFP와 비결합 에스트라디올이 낮고 β‑hCG와 PAPP‑A가 높은 패턴은 다운증후군(21번 삼염색체)과 일치한다. 이러한 바이오마커 조합은 태아의 염색체 이상을 시사한다. 따라서 21번 염색체 삼염색체증이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: estriol을 estradiol, inhibin A를 PAPP-A로 바꾼 해설 오류 수정.
+
 
 ## 출처
 

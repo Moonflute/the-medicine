@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-55세 남성이 아침에 발생한 오른쪽 얼굴 절반의 마비로 응급실에 왔다. 오른쪽 얼굴 전체를 움직일 수 없지만 다른 신경학적 진찰은 정상이다. 가장 가능성 높은 진단의 다음 처치는?
+55세 남성이 아침에 발생한 오른쪽 얼굴 절반의 마비로 응급실에 왔다. 당뇨병과 고혈압이 있으나 현재 치료약을 복용하지 않고 혈압은 177/118 mmHg이다. 오른쪽 얼굴 전체를 움직일 수 없지만 다른 신경학적 진찰은 정상이다. 가장 가능성 높은 진단의 다음 처치는?
 
 ## 선택지
 
@@ -43,8 +45,12 @@ D. 국소 윤활제를 사용하고 퇴원
 
 ## 해설
 
+이마를 포함한 일측 안면 전체 마비와 다른 신경학적 결손 부재는 말초성 안면신경마비를 시사한다. 눈이 완전히 감기지 않으면 윤활제·안구보호(D)가 필요하다. 그러나 이를 윤활제만 사용하고 다른 평가 없이 퇴원한다는 뜻으로 해석해서는 안 된다. Bell 마비로 판단한 성인은 발병 72시간 이내 경구 steroid를 고려하고, 당뇨와 고혈압을 감안하여 혈당·혈압 및 금기를 평가한다. 비전형적 소견이나 다른 신경징후가 생기면 원인을 재평가한다.
 
-벨마비는 말초 안면신경 마비로 눈물·눈물막 보호가 필요하다. 안구 건조를 방지하기 위해 국소 윤활제(인공눈물·연고)를 사용하고, 대부분 입원 없이 퇴원한다. 따라서 다음 처치는 국소 윤활제 사용이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 안구보호 D는 필요한 조치지만 단순 윤활제 퇴원이 모든 치료라는 오해를 교정. 동반 고혈압/당뇨 위험도 복원.
+- 공식/학회 근거: https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599813506835
 
 ## 출처
 

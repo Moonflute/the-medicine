@@ -23,13 +23,15 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -55,6 +57,13 @@ D. 복부 MRI
 
 
 좌하복부 통증, 혈변, 백혈구 감소는 대장 게실염·게실증을 의심하게 한다. 진단적 영상으로 복부 CT가 가장 민감하게 염증 부위와 합병증을 확인한다. 따라서 CT 검사가 적절한 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 발열성LLQ통증·혈변/빈혈의 원인과 합병증을 확인하는 복부CT C; 영상없이경험적약만선택하지 않음.
+- https://acsearch.acr.org/list/TopicNarrativePdf?topicId=20
 
 ## 출처
 

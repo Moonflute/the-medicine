@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 생후 12개월
 
 ## 해설
 
+보기 중 머리 들기 시작에 가장 가까운 연령은 생후 2개월(A)이다. 머리 조절 능력은 이후에도 지속적으로 발달한다. 6개월 이후에는 이 행동이 사라진다는 뜻이 아니며, 원문의 관찰을 완전한 머리 가누기나 당겨 앉히기 검사로 바꾸어 해석하지 않는다.
 
-생후 2개월에 영아는 머리를 들어 올려 시선을 맞추는 것이 정상 발달 마일스톤이다. 이후의 연령은 이 행동이 나타나지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 머리 들기가 이후 연령에는 나타나지 않는다는 발달 설명 오류를 교정.
+
 
 ## 출처
 

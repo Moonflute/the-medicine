@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 결손의 경피적 폐쇄술
 
 
 근육성 VSD는 작은 결손으로 폐고혈압이 없으며, 대부분 자연 폐쇄가 이루어진다. 증상이 없고 심잡음만 들리므로 특별한 치료 없이 정기 추적관찰이 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 무증상·정상성장·폐고혈압 없는 muscularVSD는 안심/추적 A. 일률 digoxin·폐쇄·IE예방항생제 불필요.
+- https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Latest-in-Cardiology/Articles/2023/ACPC-Birnbaum-EA.pdf
 
 ## 출처
 

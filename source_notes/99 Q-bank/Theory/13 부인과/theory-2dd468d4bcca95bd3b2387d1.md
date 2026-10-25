@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "기저층 손상 후 자궁강 유착은 중요한 구조적 무월경 개념 유지. 근종과 손상이 절대 무관이라는 오답 단정 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ Asherman syndrome은 자궁내막 기저층 손상 후 섬유성 유착이 형�
 
 ## 오답 포인트
 
-- **B. 자궁근종으로 인한 비정상 출혈:** 근종은 유착을 일으키는 원인과는 무관한 별개의 질환이다.
+- 자궁근종이라는 종괴 자체와 자궁강 유착은 다른 병변이다. 다만 자궁 수술 등 내막 손상 맥락과의 관련 가능성까지 부정하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 자궁내막유착증 (Asherman Syndrome)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁내막유착증 (Asherman Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 자궁내막의 기저층 손상으로 인해 자궁강 내에 유착(synechiae)이 형성되어 자궁강이 부분적 또는 완전히 폐쇄되는 질환. - **원인**: 임신 관련 소파술(D&C)이 가장 흔하며, 제왕절개 후 태반 잔류 제거, 자궁근종 절제술 등 자궁 내 수술, 드물게 결핵이나 주혈흡충증 등 감염. - **기전**: 자궁내막 기저층의 손상 후 염증 반응이 치유되는 과정에서 섬유성 유착 밴드가 형성됨.
+- 학습 목표: Asherman의 기저층 손상 후 자궁강 유착
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 기저층 손상 후 자궁강 유착은 중요한 구조적 무월경 개념 유지. 근종과 손상이 절대 무관이라는 오답 단정 제거.

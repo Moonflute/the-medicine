@@ -18,18 +18,24 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: "content-reviewed"
+medical_reviewed_at: 2026-10-25
+curation_status: "revised"
+curation_reason: "원문에 없는 warfarin 복용을 삭제하고 미측정 albumin을 측정된 값처럼 설명하지 않음."
+curation_reviewed_at: "2026-10-25"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -47,10 +53,19 @@ D. 신증후군
 
 ## 해설
 
+전신 부종과 심부정맥혈전증을 함께 설명하는 선택지는 신증후군이다. 단백 소실·저알부민혈증과 항응고 단백 소실 등으로 부종·혈전 위험이 증가할 수 있고 총칼슘이 낮게 측정될 수 있다. 다만 이 사례에는 albumin·요단백 정량·이온화칼슘이 제시되지 않아 추가 확인이 필요하다. 투여된 약물은 heparin이며 warfarin 복용은 본문에 없다.
 
-와파린 복용 중 저칼슘혈증, 저알부민혈증, 전신 부종은 신증후군을 시사한다. 신증후군은 혈전증 위험을 증가시킨다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 원문에 없는 warfarin 복용을 삭제하고 미측정 albumin을 측정된 값처럼 설명하지 않음.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005101
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

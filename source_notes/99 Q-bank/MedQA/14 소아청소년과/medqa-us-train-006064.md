@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 심방중격결손
 
 ## 해설
 
+좌측 흉골연의 큰 범수축기 잡음과 전율은 VSD(C)에 부합한다. 수축기 압력차에 따라 심실중격 결손을 통과하는 혈류의 난류가 잡음을 만든다. 이를 전신적 혈액 혼합음이라고 부르지 않는다. PDA의 지속성 잡음이나 ASD의 폐동맥 박출성 잡음/고정 분열과 구분한다.
 
-범수축기 잡음과 좌측 흉골연 전율은 심실중격결손(VSD)에서 흔히 나타나는 전신적 혈류 혼합음이다. 다른 선천성 심장 결함보다 VSD가 가장 가능성이 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: VSD 잡음을 전신적 혈류 혼합음이라고 잘못 설명한 해설을 중격을 가로지르는 난류로 교정했다.
+
 
 ## 출처
 

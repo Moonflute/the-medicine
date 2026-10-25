@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 레보티록신 용량을 매주 5%씩 최대 50%까지 늘린다
 ## 해설
 
 
-임신 초기 갑상선 호르몬 요구량은 약 30~50% 증가한다. 현재 레보티록신 용량이 유지된 상태이므로 용량을 20~30% 늘려야 한다.
+정답 C. 무월경·오심과 자궁 변화는 임신을 시사하므로 확인한다. 기존 갑상선기능저하로 LT4를 복용하는 환자는 임신 확인 시 대개 초기 약25%(20–30%) 증량을 고려한다. 임신 전 TSH와 용량에 따라 개별화하고 약4주 간격 검사로 추가 조정한다. 임신 중 약을 중단하거나 매주 고정 비율로 계속 올리는 방식은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009162 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 임신 의심 확인과 2026 ATA의 약25% LT4 초기 증량 C, 반복 TSH기반 조절 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://journals.sagepub.com/doi/pdf/10.1177/10507256261445624?download=true
 
 ## 출처
 

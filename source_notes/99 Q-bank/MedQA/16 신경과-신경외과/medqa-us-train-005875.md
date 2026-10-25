@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 좌측 후대뇌동맥 경색
 
 ## 해설
 
+좌안 비측·우안 이측 시야 소실은 우측 동명반맹이며 황반 보존은 좌측 후두엽 병변을 지지한다. 읽지 못하지만 받아쓰기는 가능한 실서증 없는 실독증은 우성 좌측 후두엽 및 뇌량 팽대부 연결 손상으로 생길 수 있다. 기억장애·우측 감각장애도 관련 후대뇌동맥 영역 침범과 함께 설명할 수 있어 좌측 후대뇌동맥(PCA) 경색(D)이 가장 합당하다. PCA는 후교통동맥(PCOM)과 다른 혈관이며 언어 이해 자체가 반드시 손상된다는 뜻은 아니다.
 
-양측 시야 결손, 언어 이해 장애, 단기 기억 손상은 좌측 후대뇌동맥(PCOM) 영역의 뇌경색을 나타낸다. 따라서 가장 가능성 높은 원인은 좌측 후대뇌동맥 경색이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. PCA를 PCOM으로 잘못 부르고 alexia without agraphia를 언어 이해 장애로 뭉뚱그린 해설을 우측 동명반맹·좌측 PCA의 국소화로 수정했다.
 
 ## 출처
 

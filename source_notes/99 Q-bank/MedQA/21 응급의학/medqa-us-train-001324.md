@@ -21,11 +21,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,11 @@ D. 실혈(Blood loss)
 
 ## 해설
 
+항응고제·아스피린을 복용하는 고령 환자가 낙상 후 고관절 부위 부종·통증과 급격한 저혈압·빈맥·차고 축축한 피부를 보여 골절 관련 연조직·후복막 등의 실혈(D)을 우선 의심한다. 아직 고관절 골절이나 출혈 위치가 영상으로 확인된 것은 아니므로 신속히 평가한다. 모르핀의 혈압 영향도 고려하되 출혈을 놓치지 않아야 한다. 폐색전증도 쇼크를 일으킬 수 있지만 현재 외상 직후의 임상맥락에서는 실혈이 더 합당하며, '이런 활력징후가 PE와 일치하지 않는다'고 배제할 수는 없다.
 
-좌측 고관절 골절로 인한 대량 출혈이 급성 저혈량성 쇼크를 일으켜 혈압 저하와 빈맥, 차가운 땀을 유발한다. 출혈성 쇼크는 혈액량 감소로 조직 관류가 급격히 감소하는 병태생리이며, 환자의 저혈압과 빈맥, 창백함이 이를 뒷받침한다. 따라서 가장 가능성 높은 근본 기전은 실혈이다. 폐색전증은 호흡곤란과 저산소증을 주로 보이며, 현재의 저혈압·빈맥·차가운 피부와는 일치하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고관절 골절을 확진된 사실로 단정하지 않고 항응고 복용 외상 후 출혈성 쇼크 가능성으로 D를 지지했다. 폐색전증도 저혈압·빈맥·차가운 피부를 만들 수 있다는 점을 바로잡았다.
 
 ## 출처
 

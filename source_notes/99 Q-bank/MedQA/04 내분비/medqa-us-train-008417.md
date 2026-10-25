@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -60,7 +62,14 @@ D. 생리식염수, 인슐린, 칼륨
 ## 해설
 
 
-DKA 환자는 중증 저칼륨혈증이 동반될 수 있으므로, 먼저 정맥 수액으로 혈액량을 회복하고, 이후 인슐린을 투여한다. 따라서 정답은 C이다.
+정답 C. 심한 고혈당·고음이온차 산증과 의식 변화는 DKA를 시사한다. K 2.9mEq/L로 인슐린을 먼저 투여하면 치명적 저칼륨혈증이 악화될 수 있다. 초기 등장성 수액과 칼륨 보충을 시작하고 K가 >3.5mmol/L로 회복된 뒤 인슐린을 시작한다. 신기능·소변량과 심전도/전해질을 추적한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008417 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: K2.9 DKA에서 수액만 먼저가 아니라 K 보충 후 인슐린이라는 핵심 C 근거 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/
 
 ## 출처
 

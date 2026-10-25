@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 요로상피 신생물
 
 ## 해설
 
+상기도 감염과 거의 동시에 발생한 혈뇨와 단백뇨는 사구체성 손상 C, 특히 IgA신병증을 시사한다. Dipstick 양성만으로 적혈구 형태나 원주가 확인된 것은 아니므로 현미경검사와 단백뇨 정량 등이 필요하다. IgA신병증을 단순 일시적·항상 자연소실 질환으로 단정하지 않는다.
 
-상기도 감염 후 5일 내에 혈뇨와 단백뇨가 나타났으며 혈압·전해질이 거의 정상인 경우 일시적 사구체 손상(IgA 신병증) 가능성이 높다. 현미경적 혈뇨와 단백뇨는 사구체 손상을 반영한다. 따라서 신장 사구체 손상이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 동시인두염성 혈뇨의 IgA 가능성을 일시적 병변으로 단정한 설명 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

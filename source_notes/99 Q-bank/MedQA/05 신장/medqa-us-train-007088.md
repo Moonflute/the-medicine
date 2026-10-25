@@ -18,19 +18,24 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: mechanism
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9BbGZ1em9zaW4ubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+curation_status: "revised"
+curation_reason: "신독성과 HUS에는 반드시 혈뇨가 있다는 잘못된 배제 논리 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -52,10 +57,19 @@ D. 용혈성 요독 증후군
 
 ## 해설
 
-
-설사와 구토 후 탈수로 인한 저혈량성 급성 신손상이 혈청 크레아티닌 상승과 BUN/Cr 비율 증가를 일으킨다. 직접 신독성이나 용혈성 요독은 혈뇨·혈색소뇨가 동반된다. 따라서 저혈량이 가장 가능성 높은 원인이다
+구토·설사와 섭취 부족 뒤 빈맥·저혈압·건조 점막, 높은 BUN/Cr 비는 저혈량성 신장 저관류를 가장 잘 지지한다. NSAID가 신혈류 감소에 기여할 수 있지만 본문에서 주된 맥락은 용적 감소이다. HUS를 지지할 빈혈·혈소판 감소가 없으며 단순히 소변 혈액이 없다는 이유만으로 모든 내인성 신손상을 배제하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007088
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 신독성과 HUS에는 반드시 혈뇨가 있다는 잘못된 배제 논리 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

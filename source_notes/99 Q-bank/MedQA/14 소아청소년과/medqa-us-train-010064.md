@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 플루코나졸 치료
 
 ## 해설
 
+모체 호르몬 영향의 유방싹·신생아 여드름과 소량 질 분비/철회성 출혈은 이 시기에 가능해 보기 중 안심(A)이 적절하다. 평평한 회청색 등·엉덩이 병변은 선천성 진피 멜라닌세포증을 시사하며 멍으로 단정하지 않는다. 실제 사진은 없어 추가 모양을 추정하지 않으며, 출혈이 지속·증가하거나 악취·발열 등 이상이 있으면 다시 평가한다.
 
-신생아의 질 출혈은 모체 에스트로겐에 의한 생리적 현상이며, 특별한 치료가 필요하지 않다. 부모를 안심시키는 것이 적절한 관리이다. 따라서 가장 적절한 조치는 안심시키기이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신생아 출혈·진피 멜라닌세포증의 생리적 소견과 지속 출혈의 재평가 조건을 구별.
+
 
 ## 출처
 

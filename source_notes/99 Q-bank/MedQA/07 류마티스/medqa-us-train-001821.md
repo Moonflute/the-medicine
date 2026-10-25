@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 대변 배양
 ## 해설
 
 
-다리의 통증성 결절과 ESR 상승은 erythema nodosum를 시사한다. 이 질환은 전신성 질환(예: sarcoidosis)과 연관될 수 있으므로 흉부 X선으로 폐양성 결절이나 림프절 비대를 확인해야 한다. 따라서 흉부 X선 촬영이 적절한 다음 단계이다.
+양쪽 정강이의 압통성 홍반성 결절이 멍처럼 변하고 관절통이 동반되는 양상은 결절홍반에 합당하다. 제공되지 않은 사진을 보았다고 가정할 필요 없이 서술된 형태가 진단을 지지한다. 기저 원인으로 사르코이드증·결핵 등을 평가하기 위해 흉부 X선(C)으로 양측 폐문 림프절비대나 폐병변을 확인할 수 있다. 정상 ASO만으로 모든 연쇄구균 연관을 배제하지 않으며, 감염 근거 없이 amoxicillin이나 isoniazid를 곧바로 투여하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001821 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 결절홍반의 임상 단서와 흉부 X선 목적을 보존하고 폐양성 결절이라는 부정확한 표현을 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.bad.org.uk/pils/erythema-nodosum
 
 ## 출처
 

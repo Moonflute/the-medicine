@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "말초신경병증을 E 결핍과 무관하게 설명한 오류 및 과도한 증상 나열을 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-비타민 E 결핍증의 주요 임상 양상으로 옳은 것은?
+비타민 E 결핍에서 나타날 수 있는 대표적 소견 조합은?
 
 ## 선택지
 
-A. 운동실조, 상방 주시 장애, 심부건 반사 저하, 근력 약화, 용혈성 빈혈
-B. 말초 신경병증, 심부건 반사 저하, 빈혈, 골연화
-C. 근육 경련, 고혈압, 심부건 반사 저하, 골절
-D. 시력 저하, 인지 기능 저하, 심부정맥 혈전증, 심부건 반사 저하
+A. 말초신경병증·운동실조·근병증 및 빈혈
+B. 구루병과 뼈 무기질화 장애만
+C. 비타민 K 의존 응고인자의 활성 저하만
+D. 갑상선호르몬 과다에 의한 빈맥만
 
 ## 해설
 
-비타민 E는 항산화제로 적혈구 막을 보호하고 신경세포 유지에 필요해 결핍 시 운동실조, 상방 주시 장애, 반사 저하·근력 약화와 함께 용혈성 빈혈이 나타난다.
+비타민 E 결핍에서는 말초신경병증, 운동실조, 골격근병증, 망막병증 및 빈혈이 나타날 수 있다. 특히 지방흡수장애나 매우 작은 미숙아 등 위험군의 맥락을 고려한다. 말초신경병증을 비타민 E 결핍에서 제외하면 안 된다.
 
 ## 오답 포인트
 
-- **B. 말초 신경병증, 심부건 반사 저하, 빈혈, 골연화:** 말초 신경병증·골연화는 비타민 B12·D 결핍과 관련된 특징으로 비타민 E 결핍과는 차이가 있다.
+- **구루병:** 비타민 D·칼슘 대사와 관련된 골 무기질화 장애와 구분한다.
+- **비타민 K 의존 응고인자 저하:** 비타민 K 결핍의 주요 개념이다.
 
 ## 출처
 
 - 내부 학습 노트: 비타민 E 결핍증 (Vitamin E Deficiency)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/비타민 E 결핍증 (Vitamin E Deficiency).md`
-- 학습 목표: 원문 핵심: * **신경계**: 운동실조(ataxia), 상방 주시 장애, 심부건 반사 저하(hyporeflexia), 근력 약화 * **혈액계**: 적혈구 수명 단축으로 인한 용혈성 빈혈 * **기타**: 진행 시 시력 저하, 인지 기능 저하, 심부정맥 발생 가능
+- 학습 목표: 비타민 E 결핍에서 말초신경병증·운동실조·근병증·빈혈을 연결한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 말초신경병증을 E 결핍과 무관하게 설명한 오류 및 과도한 증상 나열을 교정.
+- 근거: https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/

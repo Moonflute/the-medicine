@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 안와 CT
 
 ## 해설
 
+렌즈 제거 후 이물감·눈물·눈부심이 생기고 국소마취제로 통증이 감소하여 각막 표면의 상피 손상을 의심한다. A, fluorescein 염색은 상피 결손을 시각화하여 진단에 도움이 된다. 렌즈 착용자의 감염성 각막염도 감별해야 하므로 염색 하나만으로 원인이나 감염 유무까지 확정하는 것은 아니다. 초음파·CT·전방각경검사는 이 표면 손상 평가의 우선 검사가 아니다.
 
-콘택트렌즈 착용 후 각막에 손상이 있으면 플루오레세인이 손상 부위에 색소를 남겨 병변을 시각화한다. 각막 찰과상 진단에 가장 민감하고 특이적인 검사는 플루오레세인 염색이다. 따라서 정답은 플루오레세인 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Fluorescein A는 유지하되 모든 각막 찰과상에 대한 최민감·최특이 검사라는 근거 없는 과장을 제거.
 
 ## 출처
 

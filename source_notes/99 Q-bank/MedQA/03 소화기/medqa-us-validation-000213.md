@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 대변 삼투성 간격 측정
 ## 해설
 
 
-프로즌 요구르트 섭취 후 증상이 나타난 점과 유제품에 대한 전형적인 복부 팽만·설사는 유당불내증을 시사한다. 유당불내증은 락타아제 결핍으로 유당을 소화하지 못해 발생하므로, 유당 제한식이 가장 효과적인 관리법이다. 따라서 유당 제한식이 적절한 처치이다.
+정답 B. 유제품 후 복부팽만·가스·수양성 설사는 유당불내증을 시사한다. 우선 유당을 줄이거나 제한해 증상 변화를 보는 것이 적절하다. 허용량에는 개인차가 있으며 저유당/무유당 제품이나 lactase 보충을 이용할 수 있어 모든 유제품을 평생 완전히 금지해야 하는 것은 아니다. 칼슘·비타민 D 등 영양 섭취도 유지한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000213 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 유당 제한 B 취지 유지하되 모든 유제품 평생 완전 금지가 항상 필요하다는 과장 완화.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition
 
 ## 출처
 

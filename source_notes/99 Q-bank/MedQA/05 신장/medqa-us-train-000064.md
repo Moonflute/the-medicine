@@ -22,16 +22,18 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -66,8 +68,14 @@ D. 프레드니손(Prednisone) 치료
 
 ## 해설
 
+정답은 D이다. 4세에서 심한 단백뇨·지방원주·저알부민혈증·부종이 있고 혈뇨와 보체 감소가 없어 전형적인 소아 특발성 신증후군, 흔히 미세변화병에 합당하다. 초기 prednisone 치료가 적합하며 모든 원인의 신증후군에 같은 면역억제 치료를 적용하는 것은 아니다. 부종에 이뇨제를 무조건 먼저 주기보다 유효순환혈량을 평가한다.
 
-소변 단백/크레아티닌 비율이 6.8로 심각한 단백뇨를 보이며, 알부민 저하와 저혈압은 신증후군을 시사한다. 급성 신증후군에서는 스테로이드 치료가 면역 매개 손상을 억제한다. 따라서 가장 적절한 다음 단계는 프레드니손 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 모든 급성 신증후군이 아니라 전형적 소아 MCD/스테로이드 민감 신증후군의 경험적 치료임을 명시.
+- https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf
 
 ## 출처
 

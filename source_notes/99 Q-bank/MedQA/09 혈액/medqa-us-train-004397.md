@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 신세포암
 
 
 높은 헤모글로빈·혈소판·적혈구 전구세포와 낮은 EPO는 JAK2 변이를 동반한 진성 적혈구증가증을 시사한다. 따라서 변이된 JAK2 유전자가 가장 가능성 높은 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004397 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 다계열 증가·홍조·비장비대·낮은 EPO와 JAK2 변이 A의 기전 연관을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

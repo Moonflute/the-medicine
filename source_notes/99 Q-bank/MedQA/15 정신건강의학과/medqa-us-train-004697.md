@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-26세 초임부 여성이 지속적으로 불규칙한 행동을 보여 배우자와 함께 응급실에 왔다. 배우자는 환자가 밤에 1시간 이상 잠을 자지 않고 때로 혼잣말하는 것 같다고 한다. 아기 옷을 사느라 신용카드를 한도까지 사용했다. 이런 행동이 한 달 넘게 지속되었다. 처음 진료를 받은 후 여러 1세대 및 2세대 항정신병약을 처방받았지만 호전되지 않았다. 진찰에서 빠르게 말하고 가끔 방을 서성인다. '정말 대단하다', '아기가 태어나면 최고의 엄마가 될 것 같아 너무 신난다'고 말한다. 불법 약물, 환청이나 자살사고는 부인한다. 담당 정신과 의사는 아직 시도하지 않은 계열의 약물을 처방한다. 이 새 약물과 관련하여 신생아에게 가장 위험한 것은 무엇인가?
+26세 초임부 여성이 지속적으로 불규칙한 행동을 보여 배우자와 함께 응급실에 왔다. 배우자는 환자가 밤에 1시간 넘게 잔다고 하며(원문: > 1 hour) 때로 혼잣말하는 것 같다고 한다. 아기 옷을 사느라 신용카드를 한도까지 사용했다. 이런 행동이 한 달 넘게 지속되었다. 처음 진료를 받은 후 여러 1세대 및 2세대 항정신병약을 처방받았지만 호전되지 않았다. 진찰에서 빠르게 말하고 가끔 방을 서성인다. '정말 대단하다', '아기가 태어나면 최고의 엄마가 될 것 같아 너무 신난다'고 말한다. 불법 약물, 환청이나 자살사고는 부인한다. 담당 정신과 의사는 아직 시도하지 않은 계열의 약물을 처방한다. 이 새 약물과 관련하여 신생아에게 가장 위험한 것은 무엇인가?
 
 ## 선택지
 
@@ -44,10 +46,17 @@ D. 우심실의 우심방화
 
 ## 해설
 
-
-리튬은 임신 중 태아에게 심장 전도계 이상(우심실·우심방 비대)을 일으킬 수 있다. 따라서 신생아에게 가장 위험한 부작용은 우심실·우심방 비대이다.
+여러 항정신병약으로 호전되지 않는 임신 중 조증에서 새 약물 계열로 원문이 의도한 것은 리튬이다. 제시된 선택지 중 리튬 임신 초기 노출과 관련해 전통적으로 우려하는 구조적 심장기형은 Ebstein 기형이다. 삼첨판의 심첨부 방향 변위로 우심실 일부가 기능적으로 우심방에 포함되는 우심실의 우심방화를 뜻하며, 단순 우심실·우심방 비대나 심장 전도계 이상과 같은 말이 아니다. 실제 임신 중 리튬은 모체 재발 위험과 태아 위험을 개별 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004697
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 원문 >1 hour를 ≤1시간으로 반대로 옮긴 수면량 표현 복원. Ebstein 기형의 우심실 우심방화를 전도계 이상/심방·심실 비대로 오해한 해설 교정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec
+- https://academic.oup.com/eurheartj/article/42/6/563/5898606

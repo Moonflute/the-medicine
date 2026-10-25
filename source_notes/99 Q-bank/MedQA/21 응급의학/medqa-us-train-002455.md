@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 에피네프린
 
 ## 해설
 
+급성 전신 두드러기와 저혈압·천명은 아나필락시스다. 즉시 허벅지 앞가쪽 근육주사 에피네프린(D)을 투여하고 필요 시 반복하며 자세·산소·정맥 수액 등 소생을 병행한다. 항히스타민제나 흡입 알부테롤은 보조 조치일 뿐 쇼크를 치료하는 에피네프린을 대체하지 않는다. 초기 치료를 감시 없는 정맥 에피네프린 볼루스로 해석하지 않는다.
 
-저혈압, 빈맥, 천명음, 전신 두드러기는 전형적인 아나필락시스 증상이며, 급성 치료는 즉시 에피네프린 투여가 필요하다. 에피네프린은 혈관 수축과 기관지 확장을 통해 혈역학적 불안정을 바로잡는다. 따라서 다음 단계는 에피네프린 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 아나필락시스의 에피네프린 D를 유지하고 초기 경로를 근육주사로 명시하여 정맥 볼루스와 혼동을 막았다.
+- 공식/학회 근거: https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions
 
 ## 출처
 

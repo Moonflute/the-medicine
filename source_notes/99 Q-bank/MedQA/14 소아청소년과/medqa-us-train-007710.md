@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,13 @@ D. 조현양상장애
 ## 해설
 
 
-5세 아동이 보이는 ‘보이지 않는 친구와 놀기’는 정상적인 가상 놀이이며, 발달 단계에서 흔히 나타난다. 이는 병적 현상이 아니므로 정상 발달로 판단한다.
+4세 아동이 보이는 ‘보이지 않는 친구와 놀기’는 정상적인 가상 놀이이며, 발달 단계에서 흔히 나타난다. 이는 병적 현상이 아니므로 정상 발달로 판단한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 해설의 나이 5세를 본문·영어 원문의 4세로 교정. 상상친구 놀이의 정상 발달 B 유지.
+
 
 ## 출처
 

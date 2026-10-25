@@ -24,12 +24,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,11 @@ D. 골주사
 
 
 IV 약물 사용과 척추 통증·MRI에서 염증 소견은 감염성 척추 골수염을 시사한다. 초기 경험적 치료는 광범위한 그람양성·음성 균을 커버하는 시프로플록사신과 반코마이신이 권장된다. 따라서 정맥 시프로플록사신과 반코마이신이 가장 적절한 처치이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 발열·정맥약물·경추 통증/염증·생검 확진의 척추골수염. vancomycin+ciprofloxacin B는 IDSA에 논의된 경험적 조합. 배양 결과에 따른 표적화와 신경학적 평가 필요, 다른 선택지보다 적절.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/
 
 ## 출처
 

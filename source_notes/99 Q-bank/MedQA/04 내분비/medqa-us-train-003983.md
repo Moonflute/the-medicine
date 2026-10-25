@@ -22,16 +22,18 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBsZXJlbm9uZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 에플레레논 치료
 
 ## 해설
 
+양측 원발성 알도스테론증에서 선택지 D의 eplerenone은 mineralocorticoid receptor를 차단하여 aldosterone의 신장작용을 억제한다. 합성 억제제가 아니며 부신위기의 치료도 아니다. K·신기능·혈압을 추적하고 약제/용량을 조절한다.
 
-양측 부신 증식과 억제되지 않는 알도스테론 분비는 양측 원발성 알도스테론증을 의미한다. 에플레레논은 알도스테론 합성을 억제하는 약물로, 양측 부신 위기 치료에 사용된다. 따라서 가장 적절한 관리 단계는 에플레레논 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Eplerenone을 aldosterone 합성 억제제로 잘못 설명; 양측 PA의 MR차단 D.
+- https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2
 
 ## 출처
 

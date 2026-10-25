@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "잡음이 크면 결손도 크다는 흔한 오해를 방지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-심실 중격 결손(VSD)의 특징적인 심잡음은?
+심실중격결손(VSD)의 잡음에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 좌흉골하부에서 들리는 범수축기(holosystolic) 잡음
-B. 좌흉상부에서 들리는 수축기 기립성 잡음
-C. 우측 흉부에서 들리는 연속성 잡음
-D. 심방 수축기 말기에 들리는 이완기 잡음
+A. 작은 제한성 결손에서도 큰 압력 차이로 거친 전수축기 잡음이 들릴 수 있다
+B. 잡음이 클수록 결손은 언제나 더 크다
+C. 큰 결손은 항상 폐고혈압·심부전 위험이 없다
+D. 모든 VSD의 잡음은 순수 이완기이다
 
 ## 해설
 
-VSD에서는 좌흉골하부에서 범수축기 잡음이 들리며, 결손이 클수록 잡음이 약해질 수 있다.
+좌흉골 하연의 전수축기 잡음이 대표적이다. 결손 크기·폐혈관 저항·압력 차이를 함께 보며 잡음 세기만으로 중증도를 판단하지 않는다.
 
 ## 오답 포인트
 
-- **B. 좌흉상부에서 들리는 수축기 기립성 잡음:** 수축기 기립성 잡음은 대동맥 협착 등 다른 심장병에서 주로 나타난다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 심실 중격 결손 (Ventricular Septal Defect)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/심실 중격 결손 (Ventricular Septal Defect).md`
-- 학습 목표: 원문 핵심: * **증상**: 결손 크기에 따라 무증상부터 호흡 곤란, 수유 곤란, 성장 장애, 잦은 호흡기 감염, 심부전 증상까지 다양함 * **진찰**: 좌흉골하부에서 들리는 범수축기 심잡음(holosystolic murmur)이 특징적이며, 결손이 클수록 잡음은 상대적으로 작아질 수 있음
+- 학습 목표: VSD의 잡음 세기와 결손 크기 구분

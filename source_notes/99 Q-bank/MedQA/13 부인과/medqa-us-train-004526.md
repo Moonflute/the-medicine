@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 경구 아시클로버
 
 ## 해설
 
+거친 외음부 구진들이 모여 있는 양상은 HPV 관련 첨형콘딜로마에 합당하다. 선택지 중 냉동요법(B)이 권고 치료다. 아시클로버는 HSV 치료제이며 HPV 사마귀 치료제가 아니다. 아세트산 백색반응만으로 확진하지는 않는다.
 
-외음부에 양성 아세트산 반응을 보이는 병변은 회음부 사마귀(콘딜로마 첨형)이며, 표준 치료는 경구 아시클로버이다. 다른 옵션은 효과가 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 B와 반대로 아시클로버를 권한 명백한 해설 오류를 교정.
+- https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm
 
 ## 출처
 

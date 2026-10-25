@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,14 @@ D. 수마트립탄(Sumatriptan)
 ## 해설
 
 
-환자는 복통, 구역, 말초 신경 증상, 요산 및 포르포빌리노겐 상승으로 급성 간헐성 포르피린증을 시사한다. 이 질환은 헴 전구체 억제제인 프리미돈이 악화시킬 수 있다. 따라서 원인 약물은 프리미돈이다.
+복통·자율신경/말초신경 증상과 소변 ALA·PBG 상승은 급성 간성 포르피린증 발작을 지지한다. Primidone(A)은 phenobarbital 관련 효소 유도와 헴 수요 증가로 발작을 유발할 수 있어 포르피린증에 금기이다. 요산 상승이나 헴 전구체 억제가 기전이라는 기존 설명은 잘못이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000160 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ALA/PBG 상승의 급성 간성 포르피린증과 primidone A 유지. 요산 상승이라는 오연결 및 헴 전구체 억제제라는 정반대 기전 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=e4e493bd-94d7-7e5a-e053-2995a90a2706&type=pdf
 
 ## 출처
 

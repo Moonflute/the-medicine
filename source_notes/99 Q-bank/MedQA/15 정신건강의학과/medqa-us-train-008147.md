@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 정상 임신
 
 ## 해설
 
+시상하부의 결절깔때기 도파민 경로는 뇌하수체 유즙분비세포의 프로락틴 분비를 지속적으로 억제한다. 항정신병약의 D2 수용체 차단으로 이 억제가 감소하면 고프로락틴혈증과 유즙 분비가 생길 수 있어 A가 가장 적절하다. 이는 '유두로 이어지는 신경 경로'가 아니다. 실제 양측 분비물 평가에서 임신·내분비질환 등을 배제하지 않아도 된다는 뜻은 아니다.
 
-항정신병제 사용 시 도파민 억제로 시상하부-뇌하수체-유두경로가 차단되어 프로락틴이 상승, 유두 분비가 발생한다. 이는 결절깔때기(시상하부‑뇌하수체) 경로 변화와 일치한다. 다른 경로는 유두 분비와 관련이 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 존재하지 않는 시상하부-뇌하수체-유두 경로라는 명칭을 결절깔때기 도파민 경로로 교정했다.
+
 
 ## 출처
 

@@ -27,11 +27,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -39,13 +39,15 @@ related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9UYW1zdWxvc2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-개복 담낭절제술(open cholecystectomy)을 받은 지 3일 후, 73세 남성이 발열과 복통을 호소합니다. 환자는 고혈압, 제2형 당뇨병, 만성 폐쇄성 폐질환(COPD), 양성 전립선 비대증(BPH)을 앓고 있습니다. 40년간 매일 담배 한 갑을 피웠으나 1년 전에 금연했습니다. 술은 마시지 않습니다. 입원 전 복용 약물로는 lisinopril, metformin, ipratropium, tamsulosin이 있습니다. 환자는 급성 병색을 보이며 기면 상태입니다. 체온은 39.5°C, 맥박은 분당 108회, 호흡은 분당 18회, 혈압은 110/84 mm Hg입니다. 사람에 대해서만 지남력이 있습니다. 진찰 결과 10cm 크기의 늑골하 절개 부위는 건조하고 발적은 없습니다. 양측 폐 전반에서 산재된 호기성 천명음(expiratory wheezing)이 들립니다. 복부는 팽만되어 있고 하복부 사분면에 압통이 있습니다. 검사실 소견은 다음과 같습니다: 혈색소 10.1 g/dl, 백혈구 수 19,000/mm3, 혈청 포도당 180 mg/dl, 요소질소(BUN) 25 mg/dl, 크레아티닌 1.2 g/dl, 젖산 2.5 mEq/L (정상 0.5-2.2 mEq/L), 소변 단백질 1+, 적혈구 1-2/hpf, 백혈구 32-38/hpf. 이 환자의 현재 상태에 대한 가장 가능성 있는 기전은 무엇입니까?
+개복 담낭절제술(open cholecystectomy)을 받은 지 3일 후, 73세 남성이 발열과 복통을 호소합니다. 환자는 고혈압, 제2형 당뇨병, 만성 폐쇄성 폐질환(COPD), 양성 전립선 비대증(BPH)을 앓고 있습니다. 40년간 매일 담배 한 갑을 피웠으나 1년 전에 금연했습니다. 술은 마시지 않습니다. 입원 전 복용 약물로는 lisinopril, metformin, ipratropium, tamsulosin이 있습니다. 환자는 급성 병색을 보이며 기면 상태입니다. 체온은 39.5°C, 맥박은 분당 108회, 호흡은 분당 18회, 혈압은 110/84 mm Hg입니다. 사람에 대해서만 지남력이 있습니다. 진찰 결과 10cm 크기의 늑골하 절개 부위는 건조하고 발적은 없습니다. 양측 폐 전반에서 산재된 호기성 천명음(expiratory wheezing)이 들립니다. 복부는 팽만되어 있고 하복부 사분면에 압통이 있습니다. 검사실 소견은 다음과 같습니다: 혈색소 10.1 g/dl, 백혈구 수 19,000/mm3, 혈청 포도당 180 mg/dl, 요소질소(BUN) 25 mg/dl, 크레아티닌 1.2 mg/dL, 젖산 2.5 mEq/L (정상 0.5-2.2 mEq/L), 소변 단백질 1+, 적혈구 1-2/hpf, 백혈구 32-38/hpf. 이 환자의 현재 상태에 대한 가장 가능성 있는 기전은 무엇입니까?
 
 ## 선택지
 
@@ -56,8 +58,12 @@ D. 복강 내 농양 형성
 
 ## 해설
 
+정답은 C, 방광 출구 폐쇄이다. BPH 병력, 수술 후 하복부 팽만·압통 및 뚜렷한 농뇨는 배출장애와 요정체가 요로감염에 기여했을 가능성을 지지한다. 고열·빈맥·기면은 전신 감염을 시사하므로 실제로는 신속한 패혈증 평가와 감염원 확인이 필요하다. 본문에 복강농양을 입증하는 영상은 없으며 이를 확정해서 원정답 D처럼 설명하면 안 된다.
 
-복강 내 감염 후 고열, 복부 팽만, 백혈구 증가, 요로 감염 소견이 동반된 경우 복강 내 농양 형성이 가장 흔한 기전이다. 이는 복부 통증과 전신 염증 반응을 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원정답 C와 모순되는 복강농양 D 해설 교체. BPH/수술후 방광출구폐쇄와 요정체의 감염소인 설명. 원문의 creatinine g/dl는 통상 단위 mg/dL로 정정.
+- 공식/학회 근거: https://uroweb.org/guidelines/urological-infections/chapter/the-guideline
 
 ## 출처
 

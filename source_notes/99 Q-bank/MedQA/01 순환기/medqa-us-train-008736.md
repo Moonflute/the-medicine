@@ -19,11 +19,11 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 홍조
 
 ## 해설
 
+아토르바스타틴은 무증상 트랜스아미나제 상승을 일으킬 수 있어 제시된 선택지 중 B가 적합하다. 대부분의 경미한 상승이 임상적 간손상이나 즉시 중단을 뜻하지는 않는다. 이를 모든 스타틴 부작용 중 가장 흔한 것으로 일반화하지 않으며, 근육 증상 등 다른 이상반응과 구별한다.
 
-스타틴 복용 초기에 간 효소(ALT/AST) 상승이 가장 흔한 부작용이며, 대부분 무증상이지만 혈액검사에서 트랜스아미네이스가 증가한다. 다른 선택지는 스타틴과 관련이 적다. 따라서 트랜스아미네이스 상승이 가장 가능성 높은 부작용이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 선지 중 간효소 상승 B는 가능하지만 이를 스타틴 전체의 가장 흔한 부작용으로 단정한 설명을 한정.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65
 
 ## 출처
 

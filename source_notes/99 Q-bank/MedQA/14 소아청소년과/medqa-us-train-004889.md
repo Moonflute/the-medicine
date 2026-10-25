@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 현재 성별 키 대비 체중이 90~95백분위수 사이
 
 ## 해설
 
+이전 체중이 연령별 90백분위수였으므로 현재 50~75백분위수 사이인 B가 제시된 선택지 중 가장 큰 체중 성장 둔화를 보여 준다. A는 더 작은 변화이고, C와 D는 체중 증가 둔화를 직접 뒷받침하지 않는다. 다만 B의 범위만으로 특정 성장부진 진단 기준을 모두 충족한다거나 심리사회적 원인이 확정되는 것은 아니다. 반복 측정과 성장속도, 식사·가족·발달·의학적 평가를 함께 해석해야 한다. 아버지 사망 이후 식욕 저하는 심리사회적 평가의 단서이지 단독 확진 근거가 아니다. 반응성관절염이나 성매개감염 검사는 이 사례와 무관하다.
 
-성관절염과 결막염, 요통을 동반한 반응성 관절염은 클라미디아 감염이 흔한 원인이다. 따라서 C. trachomatis 핵산증폭검사가 가장 적절한 진단검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 반응성관절염 오연결 해설 교체. B가 선택지 중 체중 증가 둔화를 가장 지지하지만 성장곡선만으로 심리사회적 원인 확정하지 않음을 명시.
+- https://publications.aap.org/pediatrics/article/doi/10.1542/peds.2025-075764/206901/Clinical-Practice-Guideline-for-Diagnosis-and?searchresult=1
 
 ## 출처
 

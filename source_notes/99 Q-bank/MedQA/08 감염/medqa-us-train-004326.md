@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. A형 간염 백신
 ## 해설
 
 
-멕시코 여행자는 A형 간염 바이러스에 노출될 위험이 높으며, 예방접종이 권장된다. 말라리아와 광견병은 해당 지역에서 위험도가 낮고, 황열은 멕시코에 존재하지 않는다.
+접종 기록 없는 멕시코 여행자에게 A형간염 백신 D가 권고된다. 멕시코시티만 방문하는 일반 출장에서 malaria 화학예방이나 황열 백신을 일률 적용하지 않는다. 광견병은 여행 전체의 동물노출·체류/의료접근성에 따라 평가하는 문제이므로 멕시코에서 위험이 전혀 없다고 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004326 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 멕시코시티 출장의 HAV 백신 D 유지; 광견병 위험 자체가 없다는 일반화는 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://wwwnc.cdc.gov/travel/destinations/traveler/vfr/mexico
 
 ## 출처
 

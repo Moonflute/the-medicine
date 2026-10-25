@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 입원
 
 ## 해설
 
-
-우울증 증상 지속, 수면 장애, 일상 기능 저하가 보이며 자살 위험은 없고 약물 치료보다 심리치료가 우선이다. 따라서 다음 단계는 인지행동치료 시작이다.
+배우자와의 이별 뒤 우울감·불면·기능저하가 있어 제시된 선택지 중 인지행동치료를 시작하는 것이 적절하다. 진단 기준과 음주 양상을 평가하고 추적한다. 자살사고를 부인한다는 사실만으로 위험이 없다고 단정하지 않으며, 알코올과 벤조디아제핀의 병용 위험을 고려해 알프라졸람을 단순 수면 해결책으로 처방하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005871
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 자살사고 부인으로 위험이 없다고 단정한 설명 교정. 스트레스 이후 기능저하와 음주 증가에서 CBT 원정답 유지.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

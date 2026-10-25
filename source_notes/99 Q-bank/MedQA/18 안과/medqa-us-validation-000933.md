@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 전방각경검사
 
 ## 해설
 
+정답은 A, 뇌 MRI이다. 카페오레반점·신경섬유종·홍채 Lisch 결절과 가족력은 신경섬유종증 1형(NF1)을 지지한다. 이 환자는 왼쪽 시야 흐림과 시력저하가 있으므로 시신경/시각경로 교종 등 원인을 평가하기 위해 시각경로를 포함한 MRI와 전문 안과 평가가 필요하다. NF1 환자 모두에게 증상과 관계없이 뇌 MRI를 반복 선별하라는 의미는 아니다. 홍채 결절 자체가 시력저하의 원인이라고 단정해서도 안 된다.
 
-신경섬유종증 1형은 피부에 카페-오-라떼 반점·신경섬유종·시신경 교종이 동반된다. 뇌 MRI는 교종 유무를 확인하는 가장 민감한 검사이다. 따라서 MRI가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. NF1에서 시력저하 동반 시 MRI A 유지. 모든 무증상 NF1의 일괄 MRI 선별로 오해되지 않도록 증상 기반 시각경로종양 평가 명시.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC9845795/
 
 ## 출처
 

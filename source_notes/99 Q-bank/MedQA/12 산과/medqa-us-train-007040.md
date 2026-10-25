@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 독실아민 추가
 
 ## 해설
 
+이미 복용 중인 비타민 B6(피리독신)에 항히스타민제 독실아민을 추가(D)할 수 있다. 둘은 서로 다른 약물이다. 기립성 이상·소변 이상 없이 경구 섭취가 가능하면 경구 수분 보충과 함께 치료할 수 있다. 정맥혈가스의 산소분압·포화도를 동맥 저산소증으로 해석해 산소를 투여하지 않는다.
 
-임신성 구토(임신 오조)에서 독실아민(비타민 B6) 보충이 표준 치료이며, 산소나 수액은 필요하지 않다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 독실아민과 비타민 B6를 동일 약물로 쓴 오류 수정.
+- https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 피부의 칼슘 침착
 
 
 손가락 피부가 두껍고 왁스처럼 굳으며 말단 혈관 확장이 보이는 것은 경피증(sclerodactyly)이며, 이는 전신경화증의 특징이다. 전신경화증에서 흔히 나타나는 피부 석회 침착(calcinosis cutis)이 추가 평가에서 가장 가능성 높은 소견이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003672 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Raynaud·경지증·모세혈관확장과 위장운동 이상은 전신경화증/CREST를 지지하고 피부 석회침착 D가 관련 소견이다. 원문·선지·해설 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 구개융기
 
 ## 해설
 
+경구개 정중선에서 오랫동안 서서히 자란 매끄럽고 뼈처럼 단단한 무통성 종괴는 구개융기(torus palatinus, D)에 전형적이다. 정상 변이인 양성 골성 돌출/외골증(exostosis)이며 타액선 종양·괴사성 타액화생·연조직 낭종과 다르다.
 
-구개 중앙에 단단하고 무통성인 뼈 같은 결절은 구개융기(구개뼈 돌출)를 특징으로 한다. 이는 양성 골성 외반증이며 악성 변화를 보이지 않는다. 따라서 구개융기가 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경구개 정중선의 골성 무통 종괴는 구개융기 D이며 외반증을 외골증으로 교정한다.
 
 ## 출처
 

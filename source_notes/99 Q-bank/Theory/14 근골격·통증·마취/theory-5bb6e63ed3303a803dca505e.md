@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k
+curation_status: "retained"
+curation_reason: "Propofol의 GABA-A 억제성 전달 강화 기전을 다른 진정제와 비교."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Propofol은 GABA_A 수용체를 활성화해 억제성 신경전달을 강화, �
 
 - 내부 학습 노트: Propofol
 - 원본 경로: `source_notes/04 Pharmacology/14 근골격·통증·마취/Propofol.md`
-- 학습 목표: 원문 핵심: - GABA 증가 등 다양한 기전으로 CNS 억제를 유도한다.
+- 학습 목표: Propofol: GABA_A 수용체 활성화에 의한 억제성 신경전달 강화
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

@@ -19,15 +19,17 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 비타민 D 보충
 
 ## 해설
 
+정답은 C이다. 입 주위 감각이상, 근경련과 혈압 커프에 유발되는 손 경련은 증상성 저칼슘혈증을 시사한다. 혈중 칼슘(이온화 또는 albumin 보정), Mg 및 ECG를 신속히 확인하면서 심한 증상에는 정맥 calcium gluconate를 투여한다. 다만 제시된 PTH 115 pg/mL는 상승값이므로 전형적인 수술 후 PTH 결핍이라고 단정할 수 없다. 위우회술 후 칼슘/비타민 D 흡수 문제 등을 평가해야 하며 경구 비타민 D만으로 즉각적인 테타니 처치를 대신할 수 없다.
 
-수술 후 부갑상선 손상으로 저칼슘혈증이 발생하면 근육 경련과 손 떨림이 나타나며, 혈청 마그네슘은 정상이다. 저칼슘을 즉시 보충해야 하며, 글루콘산칼슘은 빠른 혈청 칼슘 상승을 제공한다. 따라서 초기 처치는 글루콘산칼슘 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 증상성 저칼슘혈증의 응급 칼슘 투여는 유지하되 PTH 115를 부갑상샘기능저하로 잘못 연결한 해설 교체.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8117371/
 
 ## 출처
 

@@ -16,36 +16,48 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "모든 기면증에 탈력발작이 필수라는 오류를 제1형·제2형 차이로 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-다음 중 기면증의 핵심 증상이 모두 포함된 설명은?
+기면증의 탈력발작에 관한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 일상생활 중 참을 수 없는 졸음과 감정적 자극에 의한 근력 약화(탈력발작)
-B. 수면 마비와 입면 환각
-C. 야간 수면 분절과 과다한 식욕
-D. 불면증과 지속적인 두통
+A. 감정으로 유발되는 갑작스러운 근력 약화는 제1형을 시사하며 제2형에서는 보통 없다.
+B. 모든 기면증에서 반드시 탈력발작이 있어야 한다.
+C. 수면 마비와 탈력발작은 완전히 같은 현상이다.
+D. 탈력발작은 반드시 의식 소실을 동반하는 전신 발작이다.
 
 ## 해설
 
-기면증의 핵심 증상은 과도한 주간 졸음과 감정에 의해 유발되는 탈력발작(카타플렉시)이며, 다른 선택지는 부수 증상이나 관련이 없습니다.
+탈력발작은 대개 의식이 보존된 상태에서 감정 자극으로 근력이 떨어지는 현상이다. 과도한 주간 졸음과 함께 제1형의 단서가 되지만 모든 기면증 아형에 필수는 아니다.
 
 ## 오답 포인트
 
-- **B. 수면 마비와 입면 환각:** 수면 마비와 환각은 부수 증상으로 핵심에 포함되지 않습니다.
+- 수면 마비는 입면·각성 전환과 관련된 움직임 불능이며 감정 유발 탈력발작과 구분한다.
 
 ## 출처
 
 - 내부 학습 노트: 기면증 (Narcolepsy)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/기면증 (Narcolepsy).md`
-- 학습 목표: 원문 핵심: - 핵심 증상: 일상생활 중 참을 수 없는 졸음(수면 발작), 감정적 자극에 의한 근력 약화(탈력발작). - 부수 증상: 수면 마비(가위눌림), 입면/출면 환각, 야간 수면 분절. - 소아 특징: 과잉 행동, 주의력 결핍, 비만, 정서적 불안정 등이 흔하며 ADHD나 우울증으로 오인되기도 함.
+- 학습 목표: 기면증 아형과 탈력발작
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 모든 기면증에 탈력발작이 필수라는 오류를 제1형·제2형 차이로 교정.
+- 근거: https://health.nih.gov/health-topics-a-z/narcolepsy

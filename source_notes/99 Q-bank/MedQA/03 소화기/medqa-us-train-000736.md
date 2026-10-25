@@ -17,13 +17,15 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 식도 내압 검사(esophageal manometry)에서 고혈압성 수축이 관�
 
 ## 해설
 
+정답은 A이다. 음식 삼킴과 관련된 흉통, nitrate 반응과 비협응성 식도 연축은 distal/diffuse esophageal spasm의 맥락이며 과거 내압 기술에서는 동시성 다중 peak 수축 A로 표현한다. 고압 수축 자체만으로 진단하는 것은 아니며 현대 고해상도 내압검사는 조기 수축과 이완 상태를 평가해 다른 운동질환과 구별한다.
 
-확산성 식도 경련은 비동기적이고 다중 피크가 동시다발적으로 나타나는 고압성 수축을 보인다. 식도 내압 검사에서 이러한 다중 피크 수축이 특징적인 소견이다. 따라서 가장 가능성 높은 소견은 다중 피크 수축이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 식도경련을 모든 경우 고압 수축으로 동일시한 설명 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,7 @@ explanation_prompt_version: explanation-ko-v1
 ## 선택지
 
 A. 저칼슘혈증
-B. 제대탈출
+B. 배꼽탈장(omphalocele)
 C. 자궁내 성장지연
 D. 고마그네슘혈증
 
@@ -47,6 +49,12 @@ D. 고마그네슘혈증
 
 
 임신성 당뇨에서 혈당 조절이 불충분하면 신생아에게 저칼슘혈증이 흔히 발생한다. 출생 시 저칼슘혈증 위험이 가장 높다. 따라서 정답은 저칼슘혈증이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 오답 선지 omphalocele을 제대탈출로 번역한 해부학적 오역을 배꼽탈장으로 바로잡았다. 신생아 저칼슘혈증 정답 A는 유지한다.
+
 
 ## 출처
 

@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,15 @@ D. 기관내 삽관
 ## 해설
 
 
-종양융해증후군으로 인한 고칼륨혈증·고요산·신부전은 혈액투석이 가장 빠른 교정 방법이다. 따라서 급성 치료는 혈액투석이다.
+항암 후 심한 핍뇨와 신손상, K 6.5mEq/L, 산증 및 증상성 저칼슘혈증은 중증 TLS를 시사한다. 선택지 중 신속한 혈액투석(A)이 필요한 상황이며 지속 신대체요법 등 구체 방법은 상태에 맞춘다. 동시에 심전도 감시와 고칼륨 응급 안정화·일시적 세포내 이동 치료를 진행한다. 소변이 거의 없는 상황에서 수액만 계속 늘리거나 소변 알칼리화로 해결하려 하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001172 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Burkitt 항암 후 심한 핍뇨·K6.5·산증·증상성 저칼슘의 TLS에서 긴급 RRT A 유지. 투석만 기다리며 고칼륨 응급 처치를 생략하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/10.1111/bjh.70092
+- https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf
 
 ## 출처
 

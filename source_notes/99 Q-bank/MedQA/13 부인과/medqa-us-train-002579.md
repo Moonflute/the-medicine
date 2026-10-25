@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 혈청 비타민 B12 측정
 
 ## 해설
 
+간접 항글로불린검사(C)는 모체 혈청의 항적혈구 동종항체를 선별한다. 태아가 RhD 양성인지 직접 확인하는 검사가 아니다. 감작 여부와 태아·신생아 Rh형에 따라 예방 및 감시를 계획한다.
 
-Rh 음성 임산부는 Rh 양성 태아와의 혈액형 불일치 위험이 있다. 이를 확인하기 위해 간접 쿠머스 검사를 시행한다. 따라서 간접 쿠머스 검사가 필요한 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 간접쿰스의목적은태아Rh형이아니라모체동종항체선별.
+- https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy
 
 ## 출처
 

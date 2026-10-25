@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 중증 지속성
 
 ## 해설
 
+전통적 증상·폐기능 분류에서 거의 매일 증상, 매일 밤은 아닌 빈번한 야간 각성 및 FEV1 70%는 중등도 지속성(C)에 부합한다. 다만 GINA의 현행 중증도는 충분한 기간의 최적화 치료 후 조절에 필요한 치료 강도로 후향 평가한다. 한 달의 ICS/LABA 사용만으로 현재 중증도를 영구 확정하지 않으며 조절 상태·흡입법·순응도를 재평가한다.
 
-매일 증상이 나타나고 흡입기 사용이 주 3회 이상이며 야간에 깨는 경우는 지속성 천식에 해당한다. FEV1이 70%로 예측치의 60‑80% 사이이면 중등도 지속성 천식으로 분류한다. 따라서 정답은 중등도 지속성(C)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 과거 증상 기반 분류와 현행 치료반응 기반 중증도 평가를 구별.
+- https://www.nhlbi.nih.gov/sites/default/files/publications/08-5846.pdf
+- https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf
 
 ## 출처
 

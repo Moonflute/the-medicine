@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 피부근염
 
 
 손톱 함요·균열, 관절염, 비늘 모양 피부 병변은 건선성 관절염을 시사한다. 가족력도 일치한다. 따라서 가장 가능성 높은 진단은 건선성 관절염이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-001161` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: DIP 관절염·손톱 함요·피부 병변 및 가족력의 PsA C 일치. 본문·선지·정답·해설을 실제 대조.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

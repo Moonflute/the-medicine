@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 파록세틴 중단
 
 ## 해설
 
-
-아리피프라졸 복용 시 정좌불안(불안·초조)과 같은 부작용이 흔히 나타난다. 베타 차단제인 프로프라놀롤은 이러한 불안 증상을 완화한다. 리튬·용량 증가·파록세틴 중단은 부적절하다.
+새 항정신병약 투여 뒤 가만히 앉지 못하고 서성거리며 주관적 안절부절못함을 호소하는 것은 약물 유발 정좌불능증을 시사한다. 제시된 선택지 중 프로프라놀롤을 증상 치료로 고려하며 아리피프라졸을 증량하지 않는다. 실제로는 원인 약물의 감량·교체도 검토해야 한다. 특히 파록세틴은 강한 CYP2D6 억제제로 아리피프라졸 노출을 높일 수 있으므로 병용 용량을 재평가한다. 파록세틴 병용이 항상 무관하다는 기존 해설은 맞지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004804
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 정좌불능을 일반 불안으로 단순화한 해설 수정. 프로프라놀롤 원정답 유지하면서 파록세틴의 CYP2D6 억제-아리피프라졸 노출 증가도 평가하도록 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=bf3cf835-4c4e-47cb-be9c-bcb7c2e11cbe&type=pdf

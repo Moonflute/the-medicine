@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 약물 유발 발열
 ## 해설
 
 
-수술 후 발열, 호흡곤란, 폐 하부 수포음은 폐렴을 시사한다. 패혈증은 전신 염증 반응과 저혈압을 동반하지만 여기서는 폐렴이 주요 원인이다. 따라서 가장 가능성 높은 진단은 패혈증이다.
+수술 후 폐렴 의심 감염에 새 의식저하·저산소증 등 장기기능장애가 나타나 sepsis C를 의심한다. 현재 정의의 핵심은 감염에 대한 조절장애 숙주반응으로 인한 생명위협성 장기기능장애이며 저혈압이 반드시 있어야 하는 것은 아니다. SIRS만 있으면 모두 sepsis라고 하지 않으며 원인 감염·산소화/순환을 신속히 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007644 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 패혈증을 반드시 저혈압/SIRS로 정의한 구식 해설 교정; C 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines
 
 ## 출처
 

@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,7 @@ related_drug_slugs:
 ## 문제
 
 42세 남성이 3일 동안 지속된 발열과 심한 등 통증으로 응급실에 왔다. 오한이나 몸서림 없이 고열이 지속된다. 등 통증은 심하고 흉추 부위에 국한되며 깊게 숨쉴 때 악화된다. 이부프로펜을 복용했지만 호전이 거의 없었다. 과거력으로 본태성 고혈압, 이상지질혈증, 고요산혈증 및 기관지 천식이 있다. 알로푸리놀, 암로디핀, 아토르바스타틴, 클로피도그렐, 몬테루카스트와 흡입 스테로이드를 복용한다. 25갑년 흡연력이 있고 음주는 사회적으로만 한다. 활력징후는 혈압 152/94 mm Hg, 맥박 분당 101회, 체온 39.5°C (103.1°F)이다. BMI는 36.8 kg/m2이다. 신체검사에서 의식은 명료하고 지남력은 정상이다. 왼쪽 팔오금과 손의 정맥 주변에 여러 주사 자국이 보인다. 목을 굽힐 때 경부는 뻣뻣하지 않다. 흉추 중앙선에 국소 압통이 있다. 운동 및 감각검사는 정상이고 심부건반사도 정상이다. 검사실 결과는 다음과 같다.
-헤모글로빈 14.5 mg/dL
+헤모글로빈 14.5 g/dL
 백혈구 24,500/mm3
 혈소판 480,000/mm3
 BUN 28 mg/dL
@@ -63,6 +65,11 @@ D. 흡연
 
 
 척추 경막외 농양은 정맥주사 약물 사용이 주요 위험인자이며, 환자는 다수의 정맥 주사 흔적이 있다. 따라서 정맥주사 약물 사용이 가장 가능성 높은 위험인자이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. MRI로 기술된 경막외 농양과 IVDU 위험인자 C는 유지한다. 원문의 헤모글로빈14.5 mg/dL 단위 오기는 정상적인 임상 단위 g/dL로 명시 교정했다.
+- 영문 표의 Hemoglobin 14.5 mg/dL는 단위 오기이며 수치14.5는 보존하고 g/dL로 바로잡았다. 다른 핵심 임상수치를 새로 만들지 않았다.
 
 ## 출처
 

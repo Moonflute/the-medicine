@@ -20,16 +20,18 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RheGltZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,17 @@ D. 식이 조절
 
 ## 해설
 
+위절제술 뒤 식후 15~20분에 발생하는 설사, 심계항진, 발한과 쇠약은 조기 덤핑증후군에 합당하다. 음식물이 소장으로 빠르게 유입되어 체액 이동과 혈관운동 증상이 생긴다. 초기 관리는 D, 식이 조절이다.
 
-눈꺼풀 염증과 각질이 주된 증상이며, 온찜질과 눈꺼풀 위생(청결)만으로 대부분 호전된다. 항생제보다 보존적 관리가 우선이다. 따라서 가장 적절한 조치는 눈꺼풀 위생과 온찜질이다.
+한 번에 먹는 양을 줄이고 소량씩 자주 먹으며, 단순당 섭취를 줄이고 수분은 식사와 분리하여 섭취한다. 식이조절에도 증상이 지속되면 약물치료를 고려한다. 최근 항생제 치료나 여행력이 있지만, 식후 일정한 시간에 생기는 혈관운동 증상과 위수술 병력이 더 직접적인 단서이므로 경험적 메트로니다졸이나 옥트레오타이드를 우선하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 안검염 해설을 위절제 후 조기 덤핑증후군 및 우선 식이조절 설명으로 교체. 원정답 D 유지.
+- https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome/treatment
+- https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome/eating-diet-nutrition
 
 ## 출처
 

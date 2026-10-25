@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 비타민 D
 ## 해설
 
 
-갑상선 절제 후 저칼슘혈증이 발생하면 신경계 증상(입 주위 저림)이 나타나며, 급성 저칼슘혈증 치료에 칼슘 글루콘산이 가장 빠른 효과를 보인다. 따라서 가장 적절한 처치는 칼슘 글루콘산이다.
+부갑상선절제술 3일 뒤 입 주위 저림은 수술 후 저칼슘혈증을 의심하게 한다. 일시적 PTH 저하나 hungry bone 현상이 원인이 될 수 있다. 즉시 혈중 이온화/보정 칼슘, 마그네슘과 심전도를 평가하며, 급성 증상성 저칼슘혈증에는 모니터링하에 글루콘산 칼슘을 투여하는 A가 선택지 중 적절하다. 장기 보충은 원인과 정도에 따라 칼슘·활성 비타민 D 등을 조절한다. 본문의 수술은 갑상선절제술이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000786 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 갑상선절제술로 잘못 연결한 수술명을 부갑상선절제술로 교정하고 증상성 저칼슘혈증 평가를 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8117371/
 
 ## 출처
 

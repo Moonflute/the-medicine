@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 과민성 장증후군
 
 ## 해설
 
+정답은 A이다. 한 달간 혈성 설사와 체중 관련 증상에 여러 대장 분절의 반점성 염증·궤양이 있어 제시된 선택지 중 Crohn병이 가장 합당하다. Crohn병은 불연속적인 침범과 전층 염증을 특징으로 하지만 점막 생검만으로 전층 침범을 직접 확인하지는 못한다. 호중구/림프구 침윤은 비특이적이므로 실제 진단에서는 대변 감염검사 등으로 감염성 대장염도 배제한다. IBS는 육안적 궤양·혈변을 설명하지 못한다.
 
-대장 내시경에서 반점성 홍반·궤양이 다 부위에 나타나고 조직에 림프구·호중구 침윤이 보이면 염증성 장질환, 특히 크론병이 의심된다. 크론병은 전장성 병변과 비특이적 염증을 특징으로 한다. 따라서 가장 가능성 높은 진단은 크론병이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 크론병의 분절성 병변과 전층 염증 개념을 명료화하고 비특이 생검만으로 확진하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 녹내장
 
 ## 해설
 
+눈꺼풀·뺨의 혈관성 피부 변색, 발작과 발달·인지 문제가 함께 있어 스터지-웨버 증후군을 가장 시사하며 동반 녹내장(D)이 중요한 연관 소견이다. 대표 병변은 얼굴 모세혈관기형과 연수막 혈관기형으로, 뇌동맥류가 특징인 증후군은 아니다. CT의 구체 소견은 현재 확인되지 않아 연수막 혈관종이나 석회화를 보았다고 단정하지 않는다. 문자로 주어진 임상조합과 선지 관계를 근거로 한 최선답이다.
 
-스테레오타입은 스터지-웨버 증후군으로, 뇌동맥류와 녹내장이 흔히 동반된다. CT에서 연수막 혈관종이 보이므로 향후 녹내장 발생 위험이 가장 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. SWS를 뇌동맥류 증후군으로 설명하고 보이지 않는 CT 혈관종을 확인한 듯한 해설을 교정했다. 얼굴 혈관성 변색·발작/발달력으로 녹내장 D는 유지한다.
+- 공식/학회 근거: https://www.ncbi.nlm.nih.gov/gtr/conditions/C0038505/
 
 ## 출처
 

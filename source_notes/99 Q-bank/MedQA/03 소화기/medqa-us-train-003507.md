@@ -20,13 +20,15 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 내시경적 역행성 담췌관조영술
 
 ## 해설
 
+폐쇄성 황달과 double-duct dilatation은 췌장두부/팽대부 등 폐쇄성 병변을 의심하게 한다. 초음파에서 종괴가 보이지 않아도 pancreatic-protocol 조영 CT B로 병변·절제가능성과 범위를 평가한다. CT만으로 모든 췌장암을 확진하거나 EUS보다 항상 민감하다는 뜻은 아니다. CT가 불명확하면 EUS·조직평가 등을 추가하고 ERCP는 주로 필요한 배액에 사용한다.
 
-췌관과 담관이 동시에 확장된 ‘이중관 확장’은 췌장암에 의한 관류 압박을 시사한다. 진단을 확정하기 위해서는 조영증강 복부 CT가 가장 민감하고 구체적이다. 따라서 가장 적절한 다음 검사는 조영증강 복부 CT이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Double duct의 pancreatic-protocol CT B는 유지. CT가 모든 병변에 가장 민감·확진이라는 주장은 EUS 등과 구분.
+- https://www.nice.org.uk/guidance/NG85/chapter/recommendations
 
 ## 출처
 

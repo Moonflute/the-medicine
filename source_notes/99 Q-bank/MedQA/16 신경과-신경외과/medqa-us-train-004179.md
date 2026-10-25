@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. C5-C6 추간판 탈출증
 
 ## 해설
 
+노쪽 전완·엄지/검지로 방사되는 통증과 손목 신전 약화, 상완요골근 반사 저하는 C6 신경근병증을 시사한다. C5–C6 추간판 탈출(D)이 C6 신경근을 압박할 수 있다. 목을 신전하고 병변 쪽으로 회전한 뒤 아래로 축성 압박을 가해 증상이 재현되는 Spurling 검사 양상도 이를 지지한다. 이는 목을 앞으로 굽히는 검사라는 뜻이 아니다. 손목터널증후군은 목 유발통과 상완요골근 반사저하를 설명하지 못한다.
 
-목·어깨·팔 통증이 C5‑C6 신경근 분포에 해당하고, 목을 회전·전방으로 움직일 때 증상이 유발되는 것은 해당 부위의 추간판 탈출증을 의미한다. 따라서 가장 가능성 높은 진단은 C5‑C6 추간판 탈출증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 목 신전·회전 및 축성 압박의 Spurling 검사를 전방 움직임으로 설명한 오류를 교정하고 C5–6 추간판/C6 신경근을 구별했다.
 
 ## 출처
 

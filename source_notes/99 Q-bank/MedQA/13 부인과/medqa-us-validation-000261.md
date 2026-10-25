@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 골반 초음파
 
 ## 해설
 
+환자는 65세이고 최근 유방 선별 이력이 제시되지 않아 유방촬영(C)이 적절하다. USPSTF는 평균위험 40–74세에 2년마다 유방촬영을 권고한다. 대장암 가족력의 구체적 위험과 이전 검사 간격은 별도로 확인한다.
 
-폐경 후 여성은 유방암 위험이 증가하므로 40세 이상에서는 연 1회 유방촬영술(맘모그램) 검사가 권장된다. 환자는 40세이므로 유방촬영술이 적절한 선별검사이다. 따라서 정답은 유방촬영술이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 65세 유방촬영 C 유지. 환자 나이를 40세로 둔 오류와 일률적 연 1회 권고 교정.
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
 
 ## 출처
 

@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 항평활근 항체
 
 
 높은 ANA와 IgG, 고 AST/ALT 상승은 자가면역성 간염을 시사한다. 이 질환에서 가장 흔히 양성인 항체는 항평활근 항체이다. 따라서 항평활근 항체가 가장 가능성 높은 양성 항체이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009620 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 높은 IgG·ANA와 간세포성 효소 상승의 1형 자가면역간염에서 anti-smooth muscle D 연관성을 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

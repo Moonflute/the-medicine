@@ -23,13 +23,15 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowNCDqsITri7Tst4wvU29mb3NidXZpci5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 베타카로틴 소비 증가
 
 
 직접 빌리루빈 상승과 황달·간색소침착은 듀빈‑존슨 증후군(간의 과다색소침착)을 특징으로 한다. 이는 UDP‑글루쿠론산전이효소 활성이 감소된 경우와 구별된다. 관련 소견은 간의 과다색소침착이므로 C가 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/선지/정답 C/해설 읽음. 직접빌리루빈 우세의 유전성 황달 중 Dubin-Johnson의 흑색 간색소와 연결하는 출제 의도에 합당. UGT 저하는 비포합 황달과 구별되며 실제 간염 배제검사를 완료했다는 판정은 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

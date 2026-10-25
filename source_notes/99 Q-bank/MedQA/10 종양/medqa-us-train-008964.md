@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 발목-상완지수
 ## 해설
 
 
-비정상적인 가슴 피부 병변과 전신 증상은 암에 의한 이동성 정맥 혈전증(Trousseau 증후군)을 시사한다. 원발 암을 찾기 위해 복부 CT가 가장 적절한 검사이다.
+반복되는 이동성 압통성 피하 정맥줄과 식욕저하·설사는 악성종양 연관 혈전정맥염(Trousseau 현상)을 의심하게 한다. 이 환자에서는 복부 증상까지 있어 복부 CT B로 췌장 등 복강 내 원인을 평가하는 것이 선택지 중 적절하다. CT가 모든 암의 확진검사이거나 모든 원인불명 혈전 환자에게 무조건 시행되는 검사는 아니다. 증상·진찰 소견에 근거한 표적 평가이며 필요하면 조직검사로 확진한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008964 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 이동성 표재성 혈전정맥염에 체중·식욕/장관 증상이 동반된 케이스의 표적 복부CT B를 유지; 모든 혈전 환자에 일률적 암 CT라는 일반화는 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng158/chapter/recommendations
 
 ## 출처
 

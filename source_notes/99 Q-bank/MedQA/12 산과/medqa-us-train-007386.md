@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 폐혈전색전증
 
 ## 해설
 
+새 호흡곤란, 양측 폐기저부 수포음과 중증 범위 혈압은 폐부종(A)을 가장 시사한다. 임신성 고혈압 환자에서 이런 장기 증상이 생기면 전자간증의 진행 여부도 평가해야 한다. 과거 심부정맥혈전증 때문에 폐색전증도 감별해야 하지만 제시된 수포음·혈압 조합은 A에 더 부합한다. ‘산소성 폐부종’은 적절한 분류가 아니다.
 
-임신성 고혈압에 의해 혈압이 170/100 mmHg로 급상승하고 폐기저부에 수포음이 들리는 것은 폐부종(산소성 폐부종) 때문이다. 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 산소성폐부종이라는잘못된분류삭제. 중증혈압·양측수포음의폐부종A,과거DVT도별도감별.
+
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 가와사키병
 ## 해설
 
 
-Streptococcus pyogenes 감염이 혈류를 통해 심장 내막에 침착되어 박리성 심내막염을 일으키며, 발진·출혈·신장 손상 등 전신 증상이 동반된다. 따라서 감염성 심내막염이 가장 가능성 높은 진단이다.
+선천 심장병 배경의 지속 발열·혈관/면역 소견·균혈증은 선택지 중 IE A를 가장 의심하게 한다. Streptococcus pyogenes는 흔한 전형 원인균은 아니나 IE를 일으킬 수 있다. TTE에서 식생이나 판막병이 없다는 이유만으로 배제하지 않고 임상 의심에 따라 반복 영상/TEE와 배양 등을 통합한다. 신염·출혈성 병변은 면역/색전 현상으로 해석하며 박리성이라는 질환명을 만들어내지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005664 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 박리성 심내막염이라는 부적절 용어 교정; 음성 TTE만으로 IE 배제할 수 없음을 명시하여 A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "자가면역 베타세포 파괴와 인슐린 결핍은 제2형 저항성과 구별하는 핵심 쉬운 복습으로 유지. 잔여 분비·비전형은 별도 분류 문항으로 보완."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc15z25eshrtslvnnjr1nty0zw82n09ssunovwvyqmxjrevnukdsafltvjbawe1nvfdwc2jhbdbkwe1wtg0xa3xkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -44,10 +49,15 @@ D. 글루카곤 과다분비
 
 ## 오답 포인트
 
-- **B. 인슐린 저항성에 의한 상대적 인슐린 부족:** 인슐린 저항성은 제2형 당뇨의 주요 기전이다.
+- **인슐린 저항성에 의한 상대적 인슐린 부족:** 인슐린 저항성은 제2형 당뇨의 주요 기전이다.
 
 ## 출처
 
 - 내부 학습 노트: 제1형 당뇨병 (Type 1 Diabetes Mellitus)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/제1형 당뇨병 (Type 1 Diabetes Mellitus).md`
 - 학습 목표: 원문 핵심: - 자가면역성 베타세포 파괴에 따른 절대적 인슐린 결핍이며, 진단 시 또는 빠른 진행 중 인슐린이 필요하다. - 기저 인슐린과 식전 인슐린, 혈당측정/CGM, 탄수화물 교육과 저혈당 대응을 함께 설계한다. - 제1형 당뇨병은 면역 매개 또는 원인 불명의 베타세포 소실로 인슐린 분비가 부족해지는 질환이다. - 성인에서 천천히 발병하는 자가면역 당뇨병과 비자가면역성 원인도 있어 임상 경과만으로 제2형과 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 자가면역 베타세포 파괴와 인슐린 결핍은 제2형 저항성과 구별하는 핵심 쉬운 복습으로 유지. 잔여 분비·비전형은 별도 분류 문항으로 보완.

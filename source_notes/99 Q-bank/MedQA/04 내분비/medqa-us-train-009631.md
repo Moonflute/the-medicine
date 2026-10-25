@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,13 @@ D. 하추체동 채혈
 
 
 부신 우연종에서 Cushing syndrome을 의심할 경우 가장 먼저 시행하는 검사는 1 mg 야간 덱사메타손 억제검사이다. 이 검사는 부신 과다코르티솔 분비를 확인하는 표준 스크리닝 검사이다. 따라서 1 mg 야간 덱사메타손 억제검사가 초기 검사로 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009631 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 부신우연종+조절 어려운 당뇨/고혈압에서 1mg overnight DST C는 cortisol 자율분비 초기 선별에 부합.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ese-hormones.org/publications/directory/ese-clinical-practice-guideline-on-the-management-of-adrenal-incidentalomas-in-collaboration-with-the-european-network-for-the-study-of-adrenal-tumors/
 
 ## 출처
 

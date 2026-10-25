@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 요붕증(Diabetes insipidus)
 
 ## 해설
 
+만성 방광 불편감·빈뇨·야간뇨와 성교통이 있고 방광 통증이 배뇨 후 완화된다. 감염 소견이 없고 잔뇨가 적어 B, 간질성 방광염/방광통증증후군에 가장 합당하다. 정상 방광경도 이를 배제하지 않는다. 핵심은 배뇨 자체가 통증을 만든다는 것이 아니라 방광 충만에 따른 불편감이 비우면 줄어드는 양상이다.
 
-방광 점막이 정상이며 소변 검사가 음성인 경우, 골반 통증과 배뇨 시 통증이 특징인 간질성 방광염이 가장 가능성이 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 방광 충만 통증이 배뇨로 완화되는 본문을 배뇨 시 통증으로 반대로 설명한 오류 교정.
 
 ## 출처
 

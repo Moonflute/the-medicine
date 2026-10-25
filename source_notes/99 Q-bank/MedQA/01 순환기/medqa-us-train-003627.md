@@ -22,13 +22,15 @@ question_type: complication
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 우심부전
 
 ## 해설
 
+상하지 혈류 차이를 유발하는 대동맥축착(coarctation)에서는 늑간동맥 측부순환으로 rib notching이 나타날 수 있다. 상체 고혈압과 동반 두개내 동맥류 때문에 두개내 출혈 B 위험이 증가한다. 판막성 대동맥협착과 다른 해부학적 병변이다.
 
-대동맥 협착증은 상행 대동맥 압력 상승으로 두개내 혈압이 증가해 뇌출혈 위험이 높다. 따라서 두개내 출혈이 가장 위험한 합병증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Rib notching의 대동맥축착을 판막 대동맥협착과 구분하고 두개내 출혈 위험 기전 보완.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

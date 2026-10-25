@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -32,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-7세 여아가 지난 6개월 동안 코등과 이마에 홍반과 발진이 생겨 내원했다. 두피와 입 주변에는 수포성 및 홍반성의 비늘과 딱지가 있는 병변도 있다. 부모는 햇빛에 노출되면 증상이 악화되고 관절통과 구강궤양이 동반된다고 한다. 체온은 38.6°C(101.4°F), 맥박 88회/분, 호흡수 20회/분이다. 진찰에서 창백과 경부 림프절병증이 보인다. 피부 진찰에서 전반적인 탈모와 과색소침착성 비늘 병변이 관찰된다. 검사에서 헤모글로빈 7.9 mg/dL, 총 백혈구 6,300/mm³, 혈소판 167,000/mm³, 적혈구침강속도 30 mm/h, ANA 역가 1:520(양성)이다. 다음 중 이 질환의 기전을 가장 잘 설명하는 것은?
+7세 여아가 지난 6개월 동안 코등과 이마에 홍반과 발진이 생겨 내원했다. 두피와 입 주변에는 수포성 및 홍반성의 비늘과 딱지가 있는 병변도 있다. 부모는 햇빛에 노출되면 증상이 악화되고 관절통과 구강궤양이 동반된다고 한다. 체온은 38.6°C(101.4°F), 맥박 88회/분, 호흡수 20회/분이다. 진찰에서 창백과 경부 림프절병증이 보인다. 피부 진찰에서 전반적인 탈모와 과색소침착성 비늘 병변이 관찰된다. 검사에서 헤모글로빈 7.9 g/dL, 총 백혈구 6,300/mm³, 혈소판 167,000/mm³, 적혈구침강속도 30 mm/h, ANA 역가 1:520(양성)이다. 다음 중 이 질환의 기전을 가장 잘 설명하는 것은?
 
 ## 선택지
 
@@ -44,7 +46,13 @@ D. 제4형 과민반응
 ## 해설
 
 
-SLE는 면역복합체가 조직에 침착되는 제3형 과민반응으로, 전신성 증상과 양성 ANA가 특징이다.
+광과민성 발진, 구강궤양·관절통과 ANA 양성은 SLE를 시사한다. 면역복합체가 조직에 침착해 보체와 염증을 활성화하는 제III형 과민반응 C가 대표 기전이다. 자가항체에 의한 혈구 파괴 등 일부 소견에는 제II형 기전도 관여하므로 모든 SLE 현상을 III형 하나로만 설명하지 않는다. Hb 원문 mg/dL는 통상적인 g/dL 단위의 표기 오류로 교정했다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007691 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Hb7.9mg/dL를 통상 Hb 단위 g/dL로 교정하고 SLE에서 III형은 대표 기전이나 모든 증상 단일기전은 아님을 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

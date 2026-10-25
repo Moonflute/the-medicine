@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 아이에게 격리 주의
 
 ## 해설
 
+발진이 있는 사람은 16개월 아들이며 산모는 무증상에 가깝다. 뺨에서 시작해 몸으로 퍼진 발진·미열은 파보바이러스 B19를 시사한다. 임신 중 접촉 후 산모 IgG/IgM 검사(B)로 감염·면역 상태를 평가한다. 급성 감염이 확인되면 태아빈혈·수종 감시를 계획한다. 제공되지 않은 사진의 추가 소견은 가정하지 않는다.
 
-임산부와 신생아 모두 발진을 보이며 파보바이러스 B19 감염이 의심된다. 모체의 급성 감염 여부는 바이러스 특이 IgM과 IgG 혈청검사로 확인한다. 따라서 산모 혈청 IgG/IgM 검사가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 산모·신생아 모두 발진이라는 허위 서술 수정; 그림 없이도 접촉력·뺨 시작 발진으로 판단 가능.
+- https://www.cdc.gov/parvovirus-b19/about/parvovirus-b19-in-pregnancy.html
 
 ## 출처
 

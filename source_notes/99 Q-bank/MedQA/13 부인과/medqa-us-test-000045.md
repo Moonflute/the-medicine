@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 특이한 신체검사 소견 없음
 
 ## 해설
 
+다산부의 심한 월경통, 과다월경과 성교통·골반 압박감은 자궁선근증에 부합하며, 흔한 진찰 소견은 전체적으로 균일하게 커진 구형 자궁(A)이다. 자궁근종은 흔히 불규칙한 결절성 자궁 비대를 보여 C와 구별한다. 본문에 없는 ‘골반 부종’을 근거로 삼지 않는다. 이 문항은 예상 진찰소견을 묻지만, 실제로 45세의 불규칙·월경간 출혈과 비만·당뇨가 있으면 자궁내막 병변도 평가해야 한다.
 
-과다월경과 골반 부종, 비대해진 자궁은 자궁근종에 의한 구형 자궁을 의미한다. 따라서 10주 크기의 구형 자궁이 가장 가능성 높은 소견이다. 다른 선택지는 출혈 원인과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 구형자궁을 근종으로 연결한 질환오류를 자궁선근증으로 교정. A 유지, 불규칙근종 C와 구별.
+- https://www.nhs.uk/conditions/adenomyosis/
+- https://www.nice.org.uk/guidance/ng88/chapter/Recommendations
 
 ## 출처
 

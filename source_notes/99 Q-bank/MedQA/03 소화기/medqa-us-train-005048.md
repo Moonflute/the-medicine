@@ -17,15 +17,19 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
 question_type: investigation
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: B
+answer_change_reason: "WSES2020은 천공 의심 급성복증에서 CT를 권고하고 X선은 CT가 신속히 불가능할 때 권고. CT불가 조건 없어 B→C."
 ---
 
 # MedQA US 임상문제
@@ -43,8 +47,14 @@ D. 12유도 심전도
 
 ## 해설
 
+천공 의심 급성복증에서 즉시 이용 가능하고 촬영 가능한 환자라면 CT C로 자유공기·천공 위치·다른 원인을 평가한다. 흉부/복부 X선은 CT가 신속히 불가능할 때의 대안이다. 소생과 응급 외과평가를 병행하며 불안정 환자의 수술을 검사 때문에 지연하지 않는다.
 
-상복부 급성 통증, 방사통, 복부 반발통, 저혈압은 천공성 궤양에 의한 복막염을 의심하게 한다. 복강 내 자유 공기 확인을 위해 흉부 방사선촬영이 가장 빠른 진단 방법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 천공 의심 급성복증에서 즉시 가능한 CT 우선 권고에 따라 B→C. X선은 신속 CT가 불가능할 때 대안.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6947898/
 
 ## 출처
 

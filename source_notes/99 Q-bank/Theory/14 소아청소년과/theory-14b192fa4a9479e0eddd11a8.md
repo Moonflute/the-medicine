@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "발작 유형과 뇌전증 증후군을 혼용한 용어를 정돈하고 전형적 결신의 짧은 행동정지 개념을 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-소발작의 정의는 무엇입니까?
+전형적 결신발작(typical absence seizure)의 핵심 특징은?
 
 ## 선택지
 
-A. 짧은 시간 동안 의식 소실과 행동 정지가 반복되는 비운동성 뇌전증
-B. 전신 강직과 경련을 동반하는 전신 발작
-C. 의식 저하와 근육 경직이 지속되는 복합 부분 발작
-D. 의식은 유지되지만 근육이 지속적으로 수축되는 근육성 발작
+A. 갑작스럽고 짧은 의식·행동 중단 뒤 빠르게 회복함
+B. 긴 전조 뒤 한쪽 근육 강직만 지속됨
+C. 30분 이상의 혼돈이 항상 이어짐
+D. 항상 전신 강직-간대 경련으로만 나타남
 
 ## 해설
 
-소발작은 짧은 의식 소실과 행동 정지(비운동성)가 특징인 전신성 뇌전증이다.
+전형적 결신발작은 갑자기 시작하고 끝나는 짧은 의식·행동 중단이 핵심이다. 발작 후 오래 지속되는 혼돈은 일반적인 특징이 아니다. 결신발작이라는 발작 유형과 이를 포함하는 뇌전증 증후군은 구분한다.
 
 ## 오답 포인트
 
-- **B. 전신 강직과 경련을 동반하는 전신 발작:** 전신 강직성 발작은 다른 유형이다.
+- **오래 지속되는 혼돈:** 전형적 결신발작의 빠른 회복과 다르다.
+- **전신 강직-간대 경련만 존재:** 결신발작과 다른 발작 형태이다.
 
 ## 출처
 
 - 내부 학습 노트: 소발작 (Absence Seizure)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/소발작 (Absence Seizure).md`
-- 학습 목표: 원문 핵심: - **정의**: 짧은 시간 동안 의식 소실과 행동 정지가 반복되는 전신성 비운동성 뇌전증 - **원인**: 유전적 요인(다인자성/다유전자성), 시상-피질 회로의 이상 - **기전**: 시상-피질 회로의 T-type 칼슘 채널 및 GABA 수용체 이상으로 인한 비정상적 전기적 진동
+- 학습 목표: 전형적 결신발작의 갑작스럽고 짧은 의식·행동 중단과 빠른 회복을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 발작 유형과 뇌전증 증후군을 혼용한 용어를 정돈하고 전형적 결신의 짧은 행동정지 개념을 유지.
+- 근거: https://www.epilepsydiagnosis.org/seizure/absence-typical-overview.html

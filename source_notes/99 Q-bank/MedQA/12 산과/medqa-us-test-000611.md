@@ -19,13 +19,15 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 추가 관리는 필요 없다
 
 ## 해설
 
+항-D 항체가 없는 RhD 음성 산모의 감작 예방이 목적이다. 28주에 항체 선별 후 비감작 상태이면 RhIG를 투여하고, 신생아가 RhD 양성이면 출산 후 72시간 이내 추가 투여한다(A). 이미 항-D 감작된 환자에게 예방용 RhIG로 치료하는 것은 아니다.
 
-Rh‑음성 여성은 Rh‑양성 태아와의 임신 시 28주에 항체 검사를 반복하고, 양성 시 출산 후 신생아가 Rh(D) 양성이면 항‑D 면역글로불린을 투여한다. 이는 Rh 감작을 예방한다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 항체 양성일 때 RhIG를 준다는 오류 및 28주 예방 투여 누락 수정.
+- https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy
 
 ## 출처
 

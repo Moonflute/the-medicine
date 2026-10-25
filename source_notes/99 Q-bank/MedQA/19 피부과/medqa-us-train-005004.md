@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 혈청 포도상구균 표피박리 독소 PCR
 
 ## 해설
 
+약물 노출 후 통증성 홍반·이완수포와 체표면적 40%를 넘는 표피 박리는 독성표피괴사용해증(TEN)에 합당하다. 선지 중 피부 생검·조직병리검사(C)가 표피 괴사와 분리를 확인하고 감별하는 데 적절하다. SJS는 박리 <10%, overlap은 10~30%, TEN은 >30%로 구분하며 생검 결과는 임상 소견과 함께 해석한다.
 
-광범위 피부 박리와 전신 증상은 스티븐스-존슨 증후군을 의심하게 하며, 진단을 위해 피부 생검과 조직병리검사가 필수이다. 이는 약물 유발 독성 표피 괴사의 확진에 가장 직접적인 검사이다. 따라서 피부 생검과 조직병리검사가 적절한 진단검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. >40% 표피 박리는 TEN이며 SJS로 잘못 분류한 설명을 교정한다. 진단 검사 C는 유지한다.
+- 공식/학회 근거: https://academic.oup.com/bjd/article/174/6/1194/6617016?login=false
 
 ## 출처
 

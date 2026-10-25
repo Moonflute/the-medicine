@@ -18,15 +18,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: management
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "Prednisone을 면역억제 효과가 가장 큰 약물이라고 한 오류를 표준 초기 치료 근거로 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,20 @@ D. 치료가 필요하지 않다
 
 ## 해설
 
-
-소아에서 급성 신증후군(미니멀 체인지 병)으로 인한 부종, 저알부민혈증, 단백뇨가 나타나며 혈압 저하와 빈맥이 동반될 수 있다. 일차 치료는 면역억제 효과가 가장 큰 경구 프레드니손이다.
+소아의 부종과 혈뇨 없는 단백뇨는 특발성 신증후군, 흔히 미세변화병을 시사한다. 진단과 체액 상태를 확인한 뒤 선택지 중 경구 prednisone이 표준 초기 치료에 해당한다. 미측정 albumin 수치를 확인된 것처럼 쓰지 않으며 저혈압·빈맥에서는 혈관 내 용적 감소를 먼저 평가한다. 더 강한 면역억제가 필요해서 고르는 약이라는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008927
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: Prednisone을 면역억제 효과가 가장 큰 약물이라고 한 오류를 표준 초기 치료 근거로 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf

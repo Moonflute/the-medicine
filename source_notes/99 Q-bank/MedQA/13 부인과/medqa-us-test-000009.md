@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 간 종양 진단
 
 ## 해설
 
+현재 활동성 골반염증성 질환이 있다면 구리 IUD 삽입 시작은 U.S. MEC 범주 4에 해당하여 B가 가장 적합하다. 다만 과거 PID 또는 재발 병력만 있고 현재 감염이 없는 경우까지 모두 절대금기로 보는 것은 옳지 않다. 과거 감염과 현재 감염을 구별하고 STI 평가를 시행한다. 뇌졸중·정맥혈전색전증, 유방암 또는 간 종양 병력은 호르몬 피임법의 고려사항과 달리 구리 IUD의 동일한 감염성 삽입 금기가 아니다.
 
-활동성 또는 재발성 골반염증성 질환은 구리 IUD 삽입 시 골반 내 감염 위험을 크게 증가시켜 금기이다. 따라서 해당 과거력이 구리 IUD 삽입의 금기이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 현재PID와 과거/재발병력만의 IUD 적격성 구별. B는 현재활동성에 해당할때 정답임 명시, 나머지원문유지.
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1_appendix.htm
+- https://www.cdc.gov/contraception/hcp/usspr/intrauterine-contraception.html
 
 ## 출처
 

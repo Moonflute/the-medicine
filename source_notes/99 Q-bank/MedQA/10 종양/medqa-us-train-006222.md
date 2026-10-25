@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 유관내 유두종
 ## 해설
 
 
-우측 유두 출혈과 초음파에서 확장된 유관을 둘러싼 단일 종괴는 유관내 유두종의 전형적인 소견이다. 유관내 유두종은 혈성 유두 분비와 유관 확장을 동반하며 악성 가능성이 낮다. 따라서 가장 가능성 높은 진단은 유관내 유두종이다.
+일측 혈성 유두분비와 확장된 유관 안의 경계가 좋은 단일 종괴는 유관내 유두종 D가 가장 전형적이다. 종괴가 확장된 유관을 둘러싼다는 뜻은 아니다. 유두종은 대개 양성이지만 이 소견만으로 악성이나 비정형 병변을 완전히 배제할 수 없어 영상·조직 일치성에 맞춰 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006222 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 확장된 유관 안에 종괴가 있는 원문을 반대로 해설한 표현 교정 및 악성 배제 없이 안심시키는 표현 완화.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

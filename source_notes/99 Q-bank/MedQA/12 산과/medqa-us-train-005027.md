@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 혈청 크레아티닌 0.98 mg/dL
 
 ## 해설
 
+중증 범위 혈압은 수축기 160 mmHg 이상 또는 이완기 110 mmHg 이상이다. 따라서 수축기 165 mmHg가 재확인되는 B가 제시된 선지 중 중증 형태를 지지한다. 두 수치가 동시에 기준을 넘어야 하는 것은 아니다. 혈소판 133,000/μL와 크레아티닌 0.98 mg/dL는 각각의 중증 장기손상 기준에 해당하지 않으며, 단백뇨의 양만으로 중증도를 분류하지 않는다. 임상적으로 중증 혈압이 지속되면 4시간을 무조건 기다리지 않고 신속히 재평가·대응한다.
 
-임신 35주에 혈압이 168/95→141/88 mmHg로 저하되었지만 4시간 후 다시 165/90 mmHg로 상승하면 지속적인 고혈압이 존재한다. 중증 자간전증은 혈압 ≥160/110 mmHg을 기준으로 정의된다. 따라서 재측정 혈압 165/90 mmHg가 중증 형태를 분류한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 중증혈압기준이160/110둘다필요한것처럼오해되지않도록OR명시. B유지,단백뇨량단독중증기준아님.
+- https://kansaspqc.kdhe.ks.gov/wp-content/uploads/2025/09/ACOG-Gestation-HTN-and-Preeclampsia-Practice-Bulletin.pdf
 
 ## 출처
 

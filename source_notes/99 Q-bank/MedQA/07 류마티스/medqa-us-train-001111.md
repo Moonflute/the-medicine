@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. Anti-Ro 항체
 
 
 환자는 건조증, 관절염, 양성 ANA·RF와 함께 안구 및 구강 건조가 나타나는 쇼그렌 증후군과 연관된 항 Ro(SSA) 항체가 특징이다. 이는 눈·입술 건조와 관련된 자가면역 표지이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001111`와 직접 대조했다.
+- 판정: 안구·구강 건조, 치아우식, 관절염, ANA/RF 양성은 쇼그렌과 anti-Ro D를 지지. 원문 수치·선지와 설명 연결을 대조; 플래그만으로 교체하지 않음.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

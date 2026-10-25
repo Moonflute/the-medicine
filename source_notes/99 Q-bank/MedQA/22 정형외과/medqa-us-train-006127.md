@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 부목 고정
 
 ## 해설
 
+훈련 증가 후 제2중족골의 국소 압통과 체중부하 통증은 스트레스 손상을 시사하며 초기 X선은 정상일 수 있다. 주어진 선지 중 C의 휴식·통증 조절은 적절한 초기 보존적 조치다. 달리기를 중단하고 통증에 따라 단단한 밑창 신발·부츠·목발 등으로 부하를 줄일 수 있어 '고정이 전혀 필요 없다'는 뜻은 아니다. 이부프로펜은 단기 진통 선택일 뿐 골유합을 촉진하지 않으며 사용은 개별화한다. 진단이 불확실하거나 통증이 지속되면 MRI로 조기 스트레스 손상을 확인할 수 있으므로 MRI를 확진 후에만 한다는 기존 설명은 잘못이다.
 
-제2중족골 압통과 과사용이 원인인 피로 골절은 초기에는 방사선에서 보이지 않으며, 휴식과 NSAID(이부프로펜)로 통증을 관리한다. 고정은 필요 없으며, MRI는 진단이 확정된 경우에만 고려한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 피로골절에서 고정이 필요 없고 MRI는 확진 후에만 한다는 반대 설명을 교정했다. 저위험 제2중족골의 초기 활동 제한·진통 C를 유지한다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/stress-fractures/
 
 ## 출처
 

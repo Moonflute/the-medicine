@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 편평태선
 
 ## 해설
 
+심한 가려움과 흰색 위축성 판, 소음순 위축 및 항문 주위 피부 변화는 경화태선(B)에 부합한다. 이는 만성 염증성·경화성 피부질환이며 단순 에스트로겐 결핍으로 생기는 폐경 관련 점막 위축과 같은 질환이 아니다. 폐경 이후 흔하지만 다른 연령에서도 발생할 수 있다.
 
-외음부에 건조하고 얇은 흰색 판 모양 병변, 소음순 위축, 음핵 후퇴, 항문 주위 피부의 창백하고 주름진 변화는 경화태선의 전형적인 임상 소견이다. 이러한 부위의 섬유화와 위축은 에스트로겐 결핍 후 발생하는 질환으로, 진단은 경화태선이 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 경화태선을단순에스트로겐결핍원인질환으로설명한병태생리오류교정. B유지.
+
 
 ## 출처
 

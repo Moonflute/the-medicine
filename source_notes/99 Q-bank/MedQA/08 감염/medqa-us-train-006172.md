@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 정맥 내 트리메토프림-설파메톡사졸과 경구 프레드니손
 ## 해설
 
 
-환자는 설파제 알레르가 있어 표준 TMP‑SMX 치료를 사용할 수 없으며, 클린다마이신과 프리마퀸 조합이 Pneumocystis jirovecii 폐렴에 효과적이다. 따라서 정맥 내 클린다마이신과 경구 프리마퀸이 적절하다.
+마른기침·면역저하 단서·미만성 간질 침윤으로 PCP를 의심하며 중증 sulfa 알레르기 맥락의 B clindamycin+primaquine은 권고 대안이다. Primaquine 전 G6PD 상태를 확인하고 결핍이면 용혈 위험 때문에 다른 대안을 선택한다. ABG/가스교환 중증도로 보조 steroid 적응을 판단하며 SpO₂94%만으로 필요 여부를 확정하지 않는다. HIV 및 병원체 진단·ART 계획도 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006172 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 설파 중증 알레르기의 PCP 대안 clinda/primaquine B 유지; G6PD 검사·중증도 보조 steroid 판단 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis
 
 ## 출처
 

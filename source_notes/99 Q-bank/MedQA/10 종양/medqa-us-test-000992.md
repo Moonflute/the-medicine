@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 유골 골종
 
 
 다발성 용해성 병변과 ‘양파껍질’ 골막 반응, 청색 세포는 유잉육종의 특징이다. 따라서 유잉육종이 가장 가능성 높은 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000992 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 소아 골간부 병변·양파껍질 골막반응·small round blue cells의 Ewing C가 원문과 일치. 병리 기초 내용 검토.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ
+curation_status: "retained"
+curation_reason: "H1 차단과 H2 차단·류코트리엔·IgE 표적의 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ D. IgE와의 결합을 방해한다.
 
 - 내부 학습 노트: Cetirizine
 - 원본 경로: `source_notes/04 Pharmacology/13 안과·이비인후·피부/Cetirizine.md`
-- 학습 목표: 원문 핵심: - H1 수용체를 선택적으로 차단하여 히스타민 매개 알레르기 반응을 억제함
+- 학습 목표: Cetirizine: 히스타민 H1 수용체를 선택적으로 차단한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

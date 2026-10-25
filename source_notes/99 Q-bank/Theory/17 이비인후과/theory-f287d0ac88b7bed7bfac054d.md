@@ -16,32 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "중복 정의 중 하나를 핵심 임상 정의로 개선해 보존; 내림프 수종을 유일한 확정 원인으로 단정하지 않음."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-메니에르병의 정의로 가장 적절한 것은?
+확정 메니에르병의 대표적인 임상 조합으로 가장 적절한 것은?
 
 ## 선택지
 
-A. 내림프액 축적으로 인한 내이 압력 상승이 현기증·난청·이명·이충만감을 일으키는 질환
-B. 청신경 종양에 의한 진행성 청력 손실과 현기증
-C. 내이 감염으로 인한 급성 청각 손실
-D. 외이도 염증으로 인한 이명과 귀 충만감
+A. 20분–12시간의 반복 자발현훈, 병측 저·중주파 감각신경성 난청과 변동성 이명·이충만감
+B. 머리 자세 변화 때 수초만 지속되는 현훈이며 청각 증상은 없는 상태
+C. 외이도 발적과 국소 압통만 있는 상태
+D. 항상 뇌 종양으로 확인되는 현훈
 
 ## 해설
 
-메니에르병은 내림프 수종이 원인이며, 현기증·감각신경성 난청·이명·이충만감이 특징이다.
+반복 자발현훈과 청력검사로 확인한 병측 저·중주파 감각신경성 난청, 변동성 청각 증상을 함께 평가하고 다른 원인을 배제한다. 내림프 수종과 연관되지만 단순한 압력 상승 하나로 모든 병태를 확정하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 메니에르병 (Meniere's disease)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/메니에르병 (Meniere's disease).md`
-- 학습 목표: 원문 핵심: - **청력 검사**: 필수적, 저주파수 영역의 감각신경성 난청 확인. - **전정 기능 검사**: 전정 기관의 기능 저하 확인. - **영상 검사**: 타 질환(청신경종양 등) 배제를 위해 MRI 시행 고려.
+- 학습 목표: 메니에르병의 반복 자발현훈과 청각 증상
+
+## 오답 포인트
+
+- **수초의 체위 유발 현훈:** BPPV의 전형적 경과와 가깝다.
+- **외이도 국소 염증:** 외이도염 양상이다.
+- **항상 뇌 종양:** 메니에르병의 정의가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 중복 정의 중 하나를 핵심 임상 정의로 개선해 보존; 내림프 수종을 유일한 확정 원인으로 단정하지 않음.
+- 근거: https://www.entnet.org/news/menieres-disease-new-clinical-practice-guideline-to-enhance-diagnostic-accuracy-and-treatment/

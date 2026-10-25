@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 전신홍반루푸스
 ## 해설
 
 
-반복되는 구강·생식기 궤양, 관절통, 발열은 베체트병의 전형적인 삼중군이다. 베체트병은 혈관염을 동반한 전신성 염증성 질환으로 진단에 임상 기준이 사용된다. 따라서 가장 가능성 높은 진단은 베체트병이다.
+반복적인 통증성 구강·생식기궤양, 생식기 흉터와 전신염증 증상은 Behçet disease C를 가장 지지한다. 고전적으로 구강궤양·생식기궤양·안구염증이 삼징으로 알려져 있지만 모든 요소가 동시에 있어야 하는 것은 아니다. 이 환자에게 눈염증이 관찰되었다고 덧붙이지 않고 감염 등 감별을 포함한 임상 기준으로 판단한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009783 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 구강·생식기궤양과 전신증상을 전형삼징이라 부른 부분을 실제 고전삼징(눈염증)과 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

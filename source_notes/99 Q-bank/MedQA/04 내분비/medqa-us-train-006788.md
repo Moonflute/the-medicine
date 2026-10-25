@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,15 @@ D. 벤라팍신
 
 ## 해설
 
+원위대칭 감각소실·정상근력·소실발목반사는 통증성 당뇨다발신경병증을 지지한다. Gabapentin B는 전압의존 Ca통로의α2δ에 결합하며 GABA-B작용제가 아니다. Amitriptyline은 최근MI 등의 심장위험을 고려해 피할 수 있고 venlafaxine도 유효한 계열이나 고혈압/이상반응을 고려한다. 무조건 덜 효과적이라 배제하지 않는다.
 
-당뇨병성 다발신경병증에 나타나는 신경통성 통증은 GABA‑B 수용체 작용제인 가바펜틴이 1차 치료제로 권장된다. 아미트립틸린은 부작용이 많고, 벤라팍신은 신경병증 통증에 덜 효과적이다. 따라서 가바펜틴이 적절한 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Gabapentin B의 GABA-B작용 오류를 α2δ로 교정하고 다른신경통약의 효능을 부정한 설명 교정.
+- https://www.ema.europa.eu/en/documents/referral/neurontin-article-30-referral-annex-i-ii-iii_en.pdf
+- https://doi.org/10.1212/WNL.0000000000013038
 
 ## 출처
 

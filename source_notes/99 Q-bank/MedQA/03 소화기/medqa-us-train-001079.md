@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 만성 용혈
 
 ## 해설
 
+겸상적혈구병과 낮은 합토글로빈, 간접빌리루빈 우세 상승은 만성 용혈을 지지한다. 적혈구 분해로 빌리루빈이 많이 생성되면 흑색 색소담석 형성 위험이 높아지므로 보기 중 D, 만성 용혈이 합당하다. 단순 담낭배출장애가 이 사례에서 핵심 위험기전이라는 설명은 맞지 않는다. 원문에서 언급한 초음파 사진은 제공되지 않아 구체적인 벽 비후나 결석 모양을 확인한 것은 아니며, 판단은 임상·검사와 명시된 선지의 기전에 근거한다.
 
-겸상 적혈구 환자에서 담즙성 결석이 흔히 발생하며, 초음파에서 담낭벽 비대와 결석이 보인다. 이는 담낭 배출 장애(담즙 정체)로 인한 담석 형성이다. 따라서 병태생리는 담낭 배출 장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. B 담낭배출장애를 정답처럼 설명한 해설을 만성용혈→빌리루빈 과다→색소담석으로 교체. 미제공 초음파를 관찰했다고 주장하지 않음.
+- https://www.cdc.gov/sickle-cell/complications/liver-problems.html
 
 ## 출처
 

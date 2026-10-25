@@ -21,11 +21,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 만성 염증
 ## 해설
 
 
-만성 염증 상태에서는 간염성 빈혈이 나타나며, 혈청 페리틴은 상승하고 TIBC는 감소한다. 이는 염증 매개인자에 의해 철이 저장소에 가두어져 이용 가능성이 낮아지는 것이 원인이다. 따라서 비정상 검사 결과의 원인은 만성 염증이다.
+낮은 혈청 철과 TIBC에 비해 ferritin이 높은 조합은 염증성 빈혈에 부합하여 D이다. 염증으로 hepcidin이 증가하면 ferroportin이 억제되어 장의 철흡수와 대식세포의 철 방출이 줄고 조혈에 사용할 철이 감소한다. 간염성 빈혈이라는 별개 진단을 의미하지 않으며 기저 염증원과 동반 철결핍 여부는 추가 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003205 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 간염성 빈혈이라는 잘못된 용어를 염증성 빈혈/hepcidin 기전으로 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

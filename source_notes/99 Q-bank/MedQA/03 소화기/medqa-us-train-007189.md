@@ -20,15 +20,17 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 커피콩 모양의 구불결장 확장
 
 ## 해설
 
+항생제 사용 후 발생한 심한 설사, 발열, 복부 팽만 및 백혈구 증가는 중증 C. difficile 대장염과 독성 거대결장을 시사한다. 예상되는 영상 소견은 A의 결장 확장과 결장팽대주름(haustra) 소실이다. Haustra는 결장의 분절성 팽대와 주름을 뜻하며 지방층이 아니다. 실제 확장 직경과 전신 독성 소견을 함께 평가한다.
 
-클로스트리디움 디피실 감염에 의한 독성 거대결장은 장벽 부전으로 장관 확장과 하스트라(지방층) 소실을 초래한다. 복부 X선에서 이러한 소견이 가장 흔히 보인다. 따라서 정답은 결장 확장과 하스트라 소실이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Haustra를지방층으로오역한설명을결장팽대주름으로교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

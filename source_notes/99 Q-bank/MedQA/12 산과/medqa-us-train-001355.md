@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 자궁저부 마사지
 
 ## 해설
 
+분만 직후 출혈과 부드럽고 커진 자궁저부는 자궁이완을 시사한다. 선택지 중 자궁저부 마사지(D)가 즉시 시행할 조치이다. 옥시토신을 유지하면서 출혈량 평가, 수액·TXA 등 초기 출혈 처치를 함께 시행하고 열상·잔류조직도 확인한다. 마사지가 항상 단독으로 출혈을 멈춘다고 보장하지 않는다.
 
-분만 후 자궁 저하와 출혈이 있을 때 가장 먼저 시행해야 할 조치는 자궁저부를 손으로 마사지하여 수축을 유도하는 것이다. 이는 출혈을 즉시 감소시킨다. 따라서 초기 단계는 자궁저부 마사지이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 자궁이완에 대한 마사지 및 동시 출혈 처치 묶음 설명.
+- https://www.who.int/news/item/05-10-2025-global-health-agencies-issue-new-recommendations-to-help-end-deaths-from-postpartum-haemorrhage
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 계획된 제왕절개 예약
 
 ## 해설
 
+태반이 자궁경부 내경을 덮는 전치태반이므로 질식분만을 계획하지 않는다. 현재 출혈이 멎고 산모·태아가 안정되어 계획 제왕절개 D가 적절하다. 재출혈과 태아 상태에 따라 앞당길 수 있고, 이전 제왕절개 병력이 있어 유착태반 평가도 필요하다. 손가락 내진은 피한다.
 
-전치태반은 무통성 출혈을 일으키며, 이전 제왕절개 이력이 있으면 계획된 제왕절개가 안전하다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 안정된 35주 전치태반의 계획 제왕절개 D 유지. 적응증은 태반의 내경 피복이며 이전 제왕절개 자체가 아니다.
+- https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2018/12/placenta-accreta-spectrum
+- https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/antepartum-haemorrhage-green-top-guideline-no-63/
 
 ## 출처
 

@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 정맥 신우조영술
 
 ## 해설
 
+무배뇨, 압통성 하복부 종괴와 무에코 액체 구조는 급성 요폐로 팽창한 방광에 합당하다. B, 경요도 도뇨로 감압하는 것이 우선이다. BPH에 amitriptyline의 항콜린 작용과 변비가 악화요인일 수 있다. 초음파에서 고형 종양이 확인되었다는 뜻은 아니며 finasteride는 즉시 감압을 대신하지 못한다.
 
-급성 요폐와 방광 저류가 의심되는 상황에서 방광 초음파에 고형 종괴가 보이면 요도 폐쇄가 원인일 가능성이 크다. 경요도 카테터 삽입은 즉각적인 배뇨 회복을 제공한다. 따라서 경요도 카테터 삽입이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 초음파의 무에코 팽창 방광을 고형 종괴라고 잘못 해석한 설명 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg97/chapter/recommendations
 
 ## 출처
 

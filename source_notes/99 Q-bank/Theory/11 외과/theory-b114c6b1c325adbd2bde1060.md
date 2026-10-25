@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "ABO 부적합의 면역용혈 기전은 중요한 복습으로 유지하고 문자 의존을 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ ABO 혈액형 부적합은 면역 매개 용혈을 일으켜 급성 용혈성 �
 
 ## 오답 포인트
 
-- **B. 혈액 제제의 열 손상:** 열 손상은 비면역성 반응으로 드물다.
+- **혈액 제제의 열 손상:** 비면역성 적혈구 손상의 원인이 될 수 있으나 ABO 항원-항체 반응과 다르다.
+- **수혈 속도 과다:** 순환량 부담과 관련된 기전으로 면역용혈과 구분한다.
 
 ## 출처
 
 - 내부 학습 노트: 급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction)
 - 원본 경로: `source_notes/02 Diseases/11 외과/급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction).md`
-- 학습 목표: 원문 핵심: - **정의**: 수혈 후 24시간 이내에 발생하는 용혈 반응으로, 주로 수혈자와 공혈자 혈액 간의 부적합성(특히 ABO 혈액형)으로 인해 면역 매개 용혈이 발생하는 경우를 말한다. - **원인**: - **면역 매개**: ABO 혈액형 부적합성이 가장 흔하며, Duffy, Kell 등 기타 "minor" 항원 부적합성도 발생할 수 있다. 이전 수혈이나 임신 등으로 인한 동종면역(alloimmunization)이 원인이 될 수 있다. - **비면역 매개**: 혈액 제제의 열 손상, 삼투압 손상, 기계적 손상(예: 작은 바늘 사용,…
+- 학습 목표: ABO 부적합 수혈과 급성 면역용혈을 연결한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: ABO 부적합의 면역용혈 기전은 중요한 복습으로 유지하고 문자 의존을 제거.

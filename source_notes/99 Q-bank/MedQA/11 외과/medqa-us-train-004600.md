@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,6 +46,12 @@ D. 중대한 사건
 
 
 수술 부위 오류는 여러 방어 단계가 동시에 실패한 결과이며, 스위스 치즈 모델은 이러한 다중 오류가 겹쳐 사고가 발생한다는 개념을 설명한다. 따라서 정답은 스위스 치즈 모형이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004600 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수술부위 오류에서 다중 방어막·팀·시스템 실패가 겹친다는 Swiss-cheese 모형 C의 설명이 영어 원문·선지·해설과 일치한다. 임상적 중요도에 따른 삭제 없이 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

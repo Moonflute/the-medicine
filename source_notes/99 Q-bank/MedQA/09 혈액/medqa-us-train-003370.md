@@ -20,11 +20,13 @@ question_type: association
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 말초혈액도말의 눈물방울 적혈구
 ## 해설
 
 
-MGUS는 단일 클론성 혈장세포가 3% 미만이며, 골밀도 감소(골다공증)와 연관된 경우가 많다. 환자의 골다공증은 MGUS와 가장 관련이 깊은 소견이다. 따라서 정답은 골다공증이다.
+단클론 IgGκ가 비교적 적고 골수 형질세포가 낮은 비율이며 골용해 병변이 없는 상황은 MGUS 범주의 질환을 시사하며 보기 중 골다공증 C와 연관될 수 있다. MGUS의 골수 clonal plasma cell 기준은 <10%이지 <3%가 아니다. 원문의 5–10%가 실제로 10% 이상이면 무증상 골수종 등 경계 진단을 재평가해야 한다. 골다공증 또는 골감소 자체를 골수종의 골용해성 병변과 동일시하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003370 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MGUS 골수형질세포 역치를3%로 잘못 적은 부분을<10%로 교정하고 5–10% 경계값 및 단순 골다공증과 용해성 병변을 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7020664/
 
 ## 출처
 

@@ -17,19 +17,28 @@ question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 국소 체부백선의 초기 치료 선택지를 교정"
+curation_status: "revised"
+curation_reason: "국소 체부백선의 초기 치료 선택지를 교정"
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -40,17 +49,27 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 이트라코나졸
+A. 국소 테르비나핀 등 항진균제를 사용하고 백선 병변에 대한 스테로이드 단독 사용 중단
 B. 그리세오풀빈
 C. 국소 클린다마이신
 D. 독시사이클린
 
 ## 해설
 
+국한된 고리 모양 판과 KOH 검사의 균사는 체부백선에 합당하다. 단일 2 cm 병변의 초기 치료에는 국소 항진균제가 적절하며 경구 항진균제를 일률적으로 사용할 이유가 없다. 스테로이드 단독 도포는 백선을 악화시키거나 형태를 바꿀 수 있으므로 해당 병변에는 피한다. 광범위·난치성 감염이나 두피·손발톱 침범 등은 별도 평가와 전신 치료가 필요할 수 있다.
 
-복부에 원형 고리 모양의 홍반성 판이 나타나고 KOH 검사에서 곰팡이 균사가 확인되면 체부백선(피부 사상균증)이다. 경구 이트라코나졸은 이 진균에 대한 1차 치료제로 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 국소 체부백선의 초기 치료 선택지를 교정
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.cdc.gov/ringworm/treatment/
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000440
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

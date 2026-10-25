@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 신속 항원 검출검사 시행
 
 ## 해설
 
+발열·인후통·편도 삼출이 있어 GAS를 의심할 때 신속 항원검사(D)가 적절하며 소아에서 음성이면 필요한 인두 배양으로 확인한다. 다만 원문은 기침을 동반증상으로 쓰면서 다음 문장에서 부인하여 모순이 있다. 이를 임의로 정하지 않고 임상 확인이 필요함을 남기며, 뚜렷한 바이러스성 특징이 확인되면 검사 적응증도 재평가한다.
 
-급성 인두염에서 항생제 선택 전에 신속 항원 검사를 시행해 연쇄상구균 감염 여부를 확인한다. 양성 시 페니실린을 투여한다. 따라서 먼저 신속 항원 검사를 시행하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문 자체의 기침 있음/없음 모순을 표시하고 검사 전 항생제 확정 대신 GAS 확인 원칙 유지.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/scarlet-fever.html
 
 ## 출처
 

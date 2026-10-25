@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-22세 남성이 왼쪽 흉부 자상으로 응급실에 왔다. 창백하고 졸리며 땀이 나고 맥박이 약하며 수축기혈압 86 mmHg, 산소포화도 88%, 경정맥 팽창, 양쪽 폐음은 같고 심음은 약했다. 수액을 시작했다. 쇼크 원인이 심인성임을 나타내는 소견은?
+22세 남성이 왼쪽 흉부 자상으로 응급실에 왔다. 창백하고 졸리며 땀이 나고 맥박이 약하며 수축기혈압 86 mmHg, 산소포화도 88%, 경정맥 팽창, 양쪽 폐음은 같고 심음은 약했다. 수액을 시작했다. 저혈량성 쇼크보다 심장 충만 장애에 의한 폐쇄성 쇼크를 시사하는 소견은?
 
 ## 선택지
 
@@ -44,8 +46,12 @@ D. 백혈구 수 4,000/mm³ 미만
 
 ## 해설
 
+저혈압, 경정맥 팽창과 심음 감소는 관통성 외상 후 심장압전을 시사한다. 심낭압 상승으로 심장 충만이 제한되면서 정맥압이 상승할 수 있어 보기 B가 이 기전을 지지한다. 이는 수축 기능 부전으로 정의되는 심인성 쇼크보다는 심장압전에 의한 폐쇄성 쇼크이다. 높은 CVP 자체는 심장압전에 특이적이지 않으며, 크레아티닌 상승이나 대사성 산증도 다른 쇼크에서 나타날 수 있다.
 
-중심정맥압(CVP)이 상승하면 심장의 펌프 기능 부전으로 혈액이 정맥에 정체되는 심인성 쇼크를 시사한다. 다른 선택지는 신장·간 손상이나 대사성 이상을 나타내며, 심인성 쇼크를 직접 가리키지는 않는다. 따라서 높은 CVP가 심인성 쇼크의 특징이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 관통 흉부외상의 압전 소견은 심인성 수축 기능 부전보다 폐쇄성 충만 장애에 해당한다. 높은 CVP B의 출제 의도를 유지하면서 잘못된 쇼크 분류를 최소 교정한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

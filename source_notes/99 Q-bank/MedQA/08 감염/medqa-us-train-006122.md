@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 간 생검
 ## 해설
 
 
-C형 간염 항체 양성은 과거 감염을 의미하지만 현재 감염 여부는 HCV RNA PCR로 확인한다. 따라서 바이러스 RNA PCR이 다음 진단 단계이다. 항체 검사만으로는 활성 감염을 판단할 수 없으며, 간생검은 필요하지 않다.
+Anti-HCV 양성은 과거 또는 현재 감염을 뜻하므로 HCV RNA PCR B로 현재 감염을 확인한다. 항체 양성만으로 활동 감염을 확정할 수 없다. HBsAg 음성·anti-HBs/anti-HBc 양성은 회복 HBV에 부합하며 HCV 평가를 HBV DNA 검사로 대체하지 않는다. 간생검은 모든 환자에서 첫 확진검사로 필요한 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006122 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: anti-HCV 양성을 오직 과거감염으로 설명한 오류 교정; RNA B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hepatitis-c/hcp/diagnosis-testing/
 
 ## 출처
 

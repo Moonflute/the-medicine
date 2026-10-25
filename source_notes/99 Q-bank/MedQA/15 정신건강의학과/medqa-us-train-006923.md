@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 불규칙 수면-각성 주기 장애
 
 ## 해설
 
+원하는 늦은 시간인 새벽 2시~오전 10시에는 중간 각성 없이 충분히 자고 개운하지만 학교 일정의 이른 취침/기상에 맞추기 어려운 점이 지연성 수면-각성 위상장애(A)를 지지한다. 잠드는 데 오래 걸린다는 사실만으로 정하는 것이 아니라 일정한 위상 지연과 원하는 일정에서의 수면 보존을 확인한다.
 
-잠들기까지 시간이 오래 걸리는 경우는 지연성 수면-각성 주기 장애에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단순 입면 지연을 모두 지연성 수면위상으로 분류한 불충분한 해설을 자유 일정에서 정상 수면이라는 핵심 단서로 보완했다.
+
 
 ## 출처
 

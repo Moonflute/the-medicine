@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 발덴스트롬 거대글로불린혈증
 ## 해설
 
 
-AL 아밀로이드증은 심근 이완기 장애와 신증후군을 동반한다.
+신증후군성 단백뇨/저알부민·부종과 두꺼운 심실벽·이완기 장애는 전신 amyloidosis를 의심하게 하여 선택지 A가 가장 부합한다. 하지만 AL 확진에는 단클론단백/유리경쇄 평가와 조직 amyloid 확인·typing이 필요하다. 특히 원문의 다수 RBC cast는 전형적인 단순 amyloid 신증에 비전형적이므로 동반 사구체염 등도 평가한다. 골용해 병변이 없다는 것만으로 모든 형질세포 질환을 배제하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006932 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: AL amyloid A 가능성 유지; 활동성 요침사·단백형 확인 및 조직 typing 필요성 보강.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

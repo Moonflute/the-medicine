@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 광범위 항생제 투여를 시작한다
 ## 해설
 
 
-수혈 후 1시간 이내에 발열과 오한이 나타났으며 혈압·심박동이 안정적인데, 이는 비용혈성 발열 반응으로 가장 흔히 관찰된다. 치료는 증상 완화와 관찰이며, 해열제로 아세트아미노펜을 투여한다. 따라서 환자를 관찰하고 아세트아미노펜을 투여하는 것이 적절하다.
+수혈 시작 90분 뒤 발생한 발열·오한에 비해 혈압·호흡·산소포화도가 안정적이어서 발열성 비용혈성 수혈반응이 의심된다. 수혈 중단 후 환자·혈액제제 확인, 수혈 담당부서 통보와 평가를 시행하고 급성 용혈·세균 오염 등 위험한 반응을 배제한다. 단순 발열성 비용혈반응으로 판단되면 관찰과 아세트아미노펜(A)이 적절하다. 안정된 활력징후만으로 용혈이나 오염이 완전히 배제되는 것은 아니며 평가 없이 수혈을 재개하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000238 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수혈 시작 90분을 1시간 이내로 바꾼 오류를 고치고 발열성 비용혈반응은 중증 원인 배제 후 진단임을 명시했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/management-of-suspected-reactions
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 비디오 보조 흉강경 수술
 ## 해설
 
 
-불안정한 혈역학과 복부·흉부 손상이 의심될 때 가장 먼저 전신 평가를 위해 흉부·복부·골반 CT를 시행한다. CT는 출혈 및 장기 손상을 빠르게 확인한다.
+혈압 79/42 mmHg의 쇼크와 관통 흉복부 손상 가능성이 있어 출혈을 신속하게 조절해야 한다. 불확실한 FAST나 뚜렷한 복막자극징후 부재가 이를 배제하지 않는다. 선지 중 탐색적 개복술(C)이 적절하며 CT를 위해 수술을 지연해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000520`와 직접 대조했다.
+- 판정: 원정답 C와 정반대로 CT A를 권하던 해설을 교정. 쇼크를 동반한 관통 흉복부외상에서는 CT로 수술 지연 금지.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.east.org/mobile/practice-management-guideline/78
 
 ## 출처
 

@@ -21,13 +21,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 히스톤탈아세틸화효소-2 활성화
 
 ## 해설
 
+흡연과 과팽창 등은 폐기종 양상의 COPD를 시사한다. 흡연 관련 폐손상 연구에서 Rtp801/REDD1은 mTOR 신호와 산화스트레스·폐포 구조세포 사멸에 관여하므로 제시된 선택지 중 C가 합당하다. MMP-12는 대표적으로 대식세포 유래 단백분해효소이며 흡연 COPD에서는 HDAC2 기능 저하가 논의된다. RTP801만이 모든 COPD의 유일한 병인이나 임상 진단표지자라는 뜻은 아니다. 원문에서 언급한 CT 사진은 제공되지 않아 영상 소견 자체는 확인하지 않았다.
 
-흡연에 의해 폐세포에서 Rtp801이 유도되어 세포자멸이 촉진되고, 이는 폐포 파괴와 폐기종을 일으킨다. 따라서 Rtp801 매개 세포 사멸이 COPD 병인의 핵심이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 희귀 RTP801 기전을 원저로 확인하되 모든 COPD의 단일 확정 원인처럼 서술하지 않음. 원문 CT 이미지는 없지만 흡연·과팽창과 다른 선지의 세포/효소 차이가 기전 선택을 지지하며 영상 자체를 검증한 것은 아님.
+- https://www.nature.com/articles/nm.2157
 
 ## 출처
 

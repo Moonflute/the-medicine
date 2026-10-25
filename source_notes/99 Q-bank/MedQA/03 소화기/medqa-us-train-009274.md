@@ -20,11 +20,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 우르소데옥시콜산
 ## 해설
 
 
-증상성 담석증(담낭통증)에서는 담낭절제술이 근본적인 치료이며, 통증 재발을 방지한다. 따라서 정답은 A이다.
+정답 A. 반복적인 식후 우상복부 통증과 우측 어깨로의 방사통, 발열이나 지속적 염증 소견의 부재는 담도산통에 부합한다. 증상성 담낭결석이 확인되면 선택지 중 담낭절제술이 근본적 치료다. 첨부 초음파 자체는 제공되지 않았으므로 결석의 실제 영상 형태를 판독했다고 할 수 없다. 본문만으로 급성 담낭염이나 담관염으로 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009274 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 반복 식후 담도산통에서 담낭절제 A 취지 유지; 누락 초음파를 실제 보았다고 주장하지 않고 담석 확인을 전제로 한 관리로 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-Gallstones.pdf
 
 ## 출처
 

@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 항HEV IgG
 
 
 갑작스러운 황달, 고열, AST/ALT 급상승 및 1주일 전 위장증상은 급성 A형 간염과 부합한다. 가장 확진이 유용한 검사는 항HAV IgM 항체이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000379 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 전구증상 뒤 황달·간세포효소 상승의 급성 HAV에서 IgM C. 자가면역 항체/과거 HEV IgG와 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

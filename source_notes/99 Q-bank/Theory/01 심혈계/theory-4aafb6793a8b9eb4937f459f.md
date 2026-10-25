@@ -12,44 +12,53 @@ target_type: drug
 target_slug: "ZHJ1ZzowMSDsi6ztmIjqs4QvVGljYWdyZWxvci5tZA"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: B
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVGljYWdyZWxvci5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+curation_status: "revised"
+curation_reason: "경미한 ticagrelor 호흡곤란도 반드시 중단한다는 과도한 지침을 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-관상동맥 질환 환자에게 티카그렐을 투여 중인 68세 남성이 경미한 호흡곤란을 호소한다. 가장 적절한 조치는?
+Ticagrelor 관련 호흡곤란에 대한 관리 원칙으로 옳은 것은?
 
 ## 선택지
 
-A. 증상이 경미하므로 관찰만 하고 약물을 지속한다
-B. 호흡곤란이 지속될 경우 약물을 중단하고 대체 항혈소판제로 교체한다
-C. 용량을 절반으로 감소시킨다
-D. 간기능 검사를 시행한다
+A. 다른 원인을 평가하고 견딜 수 있는 약물 관련 증상이면 가능하면 치료를 지속한다
+B. 경미한 증상도 모두 즉시 영구 중단한다
+C. 모든 경우 용량을 임의로 절반으로 줄인다
+D. 호흡곤란은 이 약과 관련이 없으므로 평가하지 않는다
 
 ## 해설
 
-티카그렐은 호흡곤란이 흔히 보고되며, 증상이 지속되면 약물 중단이 필요하다.
+Ticagrelor는 호흡곤란을 일으킬 수 있으나 다른 심폐 원인을 먼저 고려한다. 약물 관련 증상이 견딜 만하면 가능하면 지속하고, 견디기 어려워 중단할 때는 대체 항혈소판 치료를 검토한다.
 
 ## 오답 포인트
 
-- **A. 증상이 경미하므로 관찰만 하고 약물을 지속한다:** 경미한 증상이라도 관찰만 하면 출혈·호흡곤란 위험이 증가할 수 있습니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: Ticagrelor
 - 원본 경로: `source_notes/04 Pharmacology/01 심혈계/Ticagrelor.md`
-- 학습 목표: 원문 핵심: - 출혈 위험 증가: 항혈소판 작용으로 인한 출혈 주의 - 호흡곤란: 임상 시험에서 흔히 보고되며, 대개 경미하거나 중등도이나 지속 시 평가 필요 - 서맥성 부정맥: 심실 정지 및 방실 차단 보고 사례 있음 - 중증 간장애: 투여 피할 것(혈중 농도 상승 우려) - 중단 시 위험: 관상동맥 질환 환자에서 임의 중단 시 심근경색, 뇌졸중, 사망 위험 증가 - 검사 간섭: 헤파린 유도 혈소판 감소증(HIT) 기능 검사 시 위음성 가능성 - 출혈 징후 및 증상 - 호흡곤란 발생 여부 - 서맥 등 심전도 변화 - 디곡신 병용 시 혈중 농도
+- 학습 목표: Ticagrelor 호흡곤란과 무조건 중단의 구분
+
+## 검수 근거
+
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f9bd52a-99a7-4606-92b4-456a917aabef

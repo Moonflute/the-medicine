@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 자궁천골인대
 
 ## 해설
 
+질 하부 후벽이 발살바와 서기에서 돌출하고 자궁경부 위치는 정상인 소견은 직장류(rectocele)에 부합한다. 직장과 질 사이를 지지하는 직장질근막(A)의 결손이 기여할 수 있다. 직장질근막은 직장벽 자체와 같지 않으며, 직장류는 직장이 항문 밖으로 나오는 직장탈출증과 구별한다.
 
-질 하부 후벽 돌출와 직장 압박감은 직장질근막(직장벽)의 손상으로 인한 직장 탈출(직장 탈장)과 연관된다. 따라서 직장질근막 손상이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 직장질근막을직장벽,직장류를항문직장탈출과혼동한해부오류교정. A유지.
+
 
 ## 출처
 

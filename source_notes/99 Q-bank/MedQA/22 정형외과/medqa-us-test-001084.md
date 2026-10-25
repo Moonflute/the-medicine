@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 내고정술
 
 ## 해설
 
+훈련 증가 뒤 진행한 앞발 통증과 제3중족골 간부의 가골은 피로골절을 지지한다. 선지 중 충격·통증 유발 활동 중단과 진통(A)이 적절하며 통증에 따라 보호 신발·보조기·목발 등으로 부하를 줄일 수 있다. 골절 위치와 위험도·불유합 등에 따라 치료가 달라지므로 모든 피로골절의 수술 기준을 단순한 진행 여부로 한정하지 않는다.
 
-반복적인 충격으로 발생한 중족골 피로골절은 보존적 치료가 우선이며, 휴식과 진통제로 증상을 관리한다. 수술적 개입은 골절이 진행될 때만 고려한다. 따라서 정답은 휴식과 아세트아미노펜이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 제3중족골 간부 피로골절의 보존치료 A를 유지하고 수술이 진행된 골절에서만 필요하다는 부정확한 일반화를 제거한다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/stress-fractures-of-the-foot-and-ankle
 
 ## 출처
 

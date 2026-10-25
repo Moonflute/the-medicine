@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 신장 초음파
 
 
 새로 진단된 고혈압 환자는 기본적인 심혈관 위험 평가로 심전도(ECG)를 먼저 시행한다. 다른 영상 검사는 증상이 있거나 합병증이 의심될 때 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 현재 본문·4선지·정답 A·해설 및 영어 원문 대조. 반복 진료실/가정 혈압 상승과 정상 기본검사에서 ECG를 포함한 고혈압 표적장기 손상 평가가 적절하며 불일치 플래그는 실제 타질환 해설이 아님.
+- https://www.nice.org.uk/guidance/ng136/chapter/recommendations
 
 ## 출처
 

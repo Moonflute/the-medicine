@@ -20,15 +20,17 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 리팍시민
 
 ## 해설
 
+정답은 B이다. 황달·의식변화·날개치기떨림이 있는 환자에서 치료 후 의식이 호전되고 설사·복부 가스가 발생했다면 lactulose가 가장 적합하다. lactulose는 대장에서 분해되어 장내 pH를 낮추고 NH3를 NH4+ 형태로 포획하며 대변 배출을 통해 질소 부하를 줄인다. 통상 부드러운 변을 하루 2–3회 보도록 조절하며 밤새 11회의 설사는 목표가 아니라 탈수·전해질 이상을 유발할 과다 효과로 평가해야 한다.
 
-간성 뇌증 환자에게 락툴로스는 장내 암모니아 생성균을 억제해 혈중 암모니아를 감소시킨다. 설사와 가스가 발생한 것은 락툴로스 투여 후 흔히 나타나는 부작용이다. 따라서 투여된 약물은 락툴로스이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: lactulose의 장내 암모니아 포획 기전을 설명하고 11회 설사를 치료 목표처럼 해석하지 않도록 수정.
+- https://doi.org/10.14309/ajg.0000000000003899
 
 ## 출처
 

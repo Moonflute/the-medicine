@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -24,6 +24,11 @@ review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
+curation_status: "retained"
+curation_reason: "BBB 통과 가능한 도파민 전구체와 직접 도파민 투여의 차이."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -47,4 +52,8 @@ Levodopa는 혈액‑뇌 장벽을 통과한 뒤 도파민으로 전환되어 �
 
 - 내부 학습 노트: Levodopa
 - 원본 경로: `source_notes/04 Pharmacology/12 신경·정신/Levodopa.md`
-- 학습 목표: 원문 핵심: - 레보도파는 혈액-뇌 장벽(BBB)을 통과하여 도파민으로 전환됨으로써 뇌 내 도파민 농도를 증가시켜 파킨슨 증상을 완화함
+- 학습 목표: Levodopa: BBB를 통과해 도파민으로 전환되어 뇌 내 도파민 농도를 증가시킨다
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

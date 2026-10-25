@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOydvOqzvOyEsSDruYjtmLjtnaEgKFRyYW5zaWVudCBUYWNoeXBuZWEgb2YgdGhlIE5ld2Jvcm4pLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "시간 경과만 보고 다른 신생아 호흡 부전 원인을 기다리며 배제하는 오해 방지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-신생아 일과성 빈호흡의 특징적인 초기 증상은 무엇인가?
+신생아 일과성 빈호흡(TTN)의 기본 기전은?
 
 ## 선택지
 
-A. 생후 2시간 이내 시작되는 빈호흡(>60회/분)
-B. 심한 저산소혈증이 동반된다
-C. 증상이 24시간 이후에 나타난다
-D. 심한 청색증이 동반된다
+A. 태아 폐액의 흡수·제거 지연
+B. 항상 세균성 폐렴에 의한 농양
+C. 폐포 표면활성제의 완전한 선천 결핍만
+D. 출생 후 음식물 흡인만
 
 ## 해설
 
-일과성 빈호흡은 출생 후 2시간 이내에 호흡수가 60회/분 이상으로 급격히 증가하며, 대개 24~72시간 내에 자연 호전됩니다.
+대개 출생 직후 시작해 수일 내 호전하지만 경과만으로 단정하지 않는다. 저산소증·감염 위험·호흡 노력 등을 평가하여 RDS·패혈증·심장 질환 등과 구별한다.
 
 ## 오답 포인트
 
-- **B. 심한 저산소혈증이 동반된다:** 대부분 경미한 저산소혈증이며 심각한 저산소는 드뭅니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 신생아 일과성 빈호흡 (Transient Tachypnea of the Newborn)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/신생아 일과성 빈호흡 (Transient Tachypnea of the Newborn).md`
-- 학습 목표: 원문 핵심: * **증상**: 생후 2시간 이내 시작되는 빈호흡(>60회/분), 경미한 흉부 함몰, 비익 확장, 간헐적인 신음 * **특징**: 일반적으로 저산소혈증은 심하지 않으며, 증상은 대개 24~72시간 내에 자연 호전됨
+- 학습 목표: 신생아 일과성 빈호흡의 폐액 흡수 지연

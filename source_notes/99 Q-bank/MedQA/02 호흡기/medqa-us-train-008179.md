@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 디하이드로로다민 123 검사
 
 
 지속성 기침·천명·아토피 병력은 소아 천식 의심을 높인다. 천식 진단에 가장 중요한 객관적 증거는 폐활량측정(스파이로메트리)으로 폐기능 저하와 가역성을 확인하는 것이다. 따라서 폐활량측정이 가장 적절한 다음 처치이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 6세의 지속 기침·천명과 아토피 배경에서 객관적 가역성 평가를 위한 폐활량측정 A가 적합.
+- https://ginasthma.org/reports/
 
 ## 출처
 

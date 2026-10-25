@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 최근의 위장관 감염
 ## 해설
 
 
-칼슘 피로인산염 침착증(가성통풍)은 고칼슘혈증, 특히 부갑상선기능항진증이 가장 큰 위험인자이다. 따라서 가장 강력한 소인은 부갑상선기능항진증이다.
+마름모꼴의 약한 양성 복굴절 결정은 CPPD를 지지한다. 부갑상선기능항진증은 CPPD와 연관된 대사질환이므로 제시된 선택지 중 C가 가장 강한 소인이다. 전체 CPPD 환자에서 가장 흔한 위험인자가 이것이라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-train-000768` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 마름모꼴 약한 양성 복굴절 CPP 결정과 부갑상선 이상 C 유지. 모든 CPPD의 가장 큰 위험인자가 부갑상선항진이라는 일반화 제거.
+- 범위: evidence-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
+- https://rheumatology.org/I-Am-A/Patient-Caregiver/Diseases-Conditions/Calcium-Pyrophosphate-Deposition-CPPD
 
 ## 출처
 

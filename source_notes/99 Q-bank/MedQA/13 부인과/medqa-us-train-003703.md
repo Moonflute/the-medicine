@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 자궁내막 세포의 핵 이형성
 
 ## 해설
 
+물렁하고 매끈하게 비대된 자궁과 만성 월경성 통증은 자궁선근증을 시사한다. 고전적 병리 소견은 자궁근층 안의 자궁내막선과 기질(B)이다. 자궁 밖의 자궁내막 조직은 자궁내막증과 구별되는 위치이며, ‘선상 조직’이 아니라 기질(stroma)을 함께 확인한다.
 
-자궁근층 내에 내막 조직이 존재하는 자궁근층 내 자궁내막증(자궁근층 내 자궁내막 조직)은 자궁이 물렁하고 매끈하며 확대된 형태를 만든다. 고전적 병리 소견은 자궁근층 내에 내막선과 선상 조직이 존재하는 것이다. 따라서 정답은 자궁근층 내의 자궁내막 조직이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 선근증병리를내막선과기질로정확히수정. 자궁외내막증과구별B유지.
+
 
 ## 출처
 

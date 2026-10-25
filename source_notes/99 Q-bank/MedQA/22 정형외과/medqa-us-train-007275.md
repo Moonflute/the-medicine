@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,11 @@ D. 프레드니손
 
 
 초기 고관절 통증에 염증 표지자(CRP)가 정상이고 방사선이 정상인 경우, 경증의 일과성 활막염이 의심된다. 비스테로이드성 소염제인 이부프로펜이 증상 완화에 첫 번째 선택이다. 따라서 이부프로펜이 적절한 치료이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 상기도감염 후 무열·전신상태 양호·보행 가능·낮은 CRP·정상 방사선은 일과성 활막염을 지지. 본문/선지/정답 B/해설 영어 대조 후 유지. 정상 CRP 하나로 감염을 완전히 배제한 것으로 해석하지 않으며 임상 경과 재평가 필요.
+- 공식/학회 근거: https://www.rch.org.au/clinicalguide/guideline_index/The_limping_or_non-weight_bearing_child/
 
 ## 출처
 

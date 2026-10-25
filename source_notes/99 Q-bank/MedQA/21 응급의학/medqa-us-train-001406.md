@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,11 @@ D. 독성 간 대사산물
 
 ## 해설
 
+장시간 심한 저혈압·쇼크 후 이틀 내 AST/ALT가 1,000 U/L 이상으로 크게 오른 경과는 저관류성/허혈성 간염(C)에 합당하다. 만성 HCV 감염만으로 급성 급상승을 설명하기는 어렵다. 다만 아세트아미노펜 병 옆에서 발견된 노출력도 있어 실제 혈중 농도·섭취 시점·INR·LDH 및 효소 추세를 확인해야 한다. NAC 투여 사실이나 알코올 양성만으로 아세트아미노펜 독성을 배제하지 않으며, 여기서는 심한 선행 쇼크를 근거로 한 가장 가능성 높은 원인 선택이다.
 
-환자는 저혈압과 빈맥을 동반한 쇼크 상태에서 간 효소가 급격히 상승하였다. 저혈압에 의한 간관류 감소가 간세포 허혈을 일으켜 AST/ALT가 급격히 상승하는 ‘쇼크 간’(ischemic hepatitis)이다. 따라서 이전 저혈압이 검사실 이상을 가장 잘 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저관류 후 AST/ALT 급증은 허혈성 간손상 C를 지지하지만 옆에 있던 아세트아미노펜 병력만으로 독성 가능성을 확정 배제할 수 없음을 명시했다.
 
 ## 출처
 

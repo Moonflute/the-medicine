@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 남아와 어머니 모두에게 수혈한다
 
 ## 해설
 
+이 증례는 성인 어머니의 수혈거부 의사가 사전에 기록되고 공식 대리인도 확인하는 상황이므로 그 유효한 본인 의사를 존중한다. 반면12세 미성년자에게 생명구조를 위해 수혈이 긴급히 필요하면 부모의 종교적 거부만으로 이를 배제하지 않는 것이 미국 의료윤리의 원칙으로, 선지 C가 적절하다. 실제로는 출혈·수혈 필요성, 가능한 무수혈 대안, 기록의 유효성과 관할 법·병원 정책을 확인하고 법무·윤리 지원을 병행한다. 단지 여호와의 증인이라는 이유만으로 모든 성인이 같은 제제를 거부한다고 가정하거나, 성인의 명확한 거부를 위급함만으로 무시하지 않는다.
 
-소아는 혈액성형을 거부하는 경우에도 생명을 위협하는 급성 상황에서는 최소한의 수혈이 허용된다. 어머니는 사망 위기에 처했으므로 수혈이 필요하고, 소아에게는 수혈을 제공한다. 따라서 어머니에게는 수혈하지 않고 소아에게는 수혈한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선지 C와 반대로 어머니에게도 수혈이 필요하다고 적은 해설을 성인 본인의 사전거부와 미성년자의 생명구조 처치 구별로 교체했다. 종교명만으로 개인의 동의를 추정하지 않는다.
+- 공식/학회 근거: https://www.facs.org/about-acs/statements/recommendations-for-surgeons-caring-for-patients-who-are-jehovah-s-witnesses/
+- 공식/학회 근거: https://code-medical-ethics.ama-assn.org/ethics-opinions/decisions-adult-patients-who-lack-capacity
 
 ## 출처
 

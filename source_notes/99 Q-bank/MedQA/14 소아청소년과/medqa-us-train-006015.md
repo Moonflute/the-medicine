@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 활액 분석
 
 ## 해설
 
+발열·통증성 종창과 체중부하 거부는 세균성 관절염을 의심한다. 안정적이고 즉시 시행 가능하면 활액 채취·세포 수·배양(D)을 우선 얻고 신속히 항생제와 배농 치료를 시행한다. 중증으로 아파 보이거나 급속 진행·패혈증이면 검체 채취 때문에 경험적 항생제를 지연하지 않는다.
 
-발열·무릎 부종·통증은 급성 화농성 관절염을 시사한다. 진단을 확정하려면 관절액을 채취해 배양·세포학적 분석이 필요하다. 영상 검사는 보조적이며 항생제 투여만으로는 원인 확인이 어렵다. 따라서 활액 분석이 초기 관리 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 관절액 채취가 항생제의 위험한 지연을 정당화하지 않도록 조건을 명확화.
+- https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/
 
 ## 출처
 

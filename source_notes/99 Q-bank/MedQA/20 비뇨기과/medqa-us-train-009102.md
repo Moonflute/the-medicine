@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 국소 베타메타손
 
 ## 해설
 
+뒤로 젖혀진 포피가 귀두 뒤에서 조여 부종과 통증을 일으킨 감돈포경(paraphimosis)이다. B, 적절한 진통과 부종 완화 후 포피를 귀두 앞으로 되돌리는 비외상적 수동 정복을 우선한다. 가위로 잡거나 포피를 더 뒤로 밀라는 뜻이 아니다. 정복 실패나 허혈·괴사 의심이면 즉시 비뇨기과의 응급 수술 평가가 필요하며 퇴원 후까지 미루지 않는다.
 
-포피가 뒤로 젖혀져 귀두가 부종·발적된 상태는 파라히모시스이며, 이는 혈액 순환 차단으로 급성 통증을 유발한다. 즉시 포피를 손가락이나 가위로 잡아 뒤로 밀어 원위부로 복귀시키는 수동 정복이 필요하다. 따라서 다음 적절한 처치는 수동 정복이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수동 정복을 가위로 잡아 뒤로 미는 것으로 설명한 위험한 술기 오류를 교정.
+- 공식/학회 근거: https://www.baus.org.uk/trainees/balanitis_foreskin_conditions.aspx
 
 ## 출처
 

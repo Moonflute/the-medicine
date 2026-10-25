@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv64uk7Jq0IOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "심장 기형 전체의 약 50% 위험을 AVSD 자체 빈도로 잘못 쓴 해설 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-다운 증후군에서 가장 흔히 동반되는 선천성 심장 기형은?
+다운증후군 신생아의 심장 평가에 대한 원칙은?
 
 ## 선택지
 
-A. 방실중격결손
-B. 대동맥 협착
-C. 폐동맥 폐쇄
-D. 심실중격결손
+A. AVSD 등 여러 선천성 심장병 위험 때문에 출생 후 심초음파 평가가 중요하다
+B. 잡음이 없으면 심장 기형을 배제한다
+C. 산전 심초음파가 정상이면 출생 후 평가는 항상 생략한다
+D. 대부분의 심장 기형은 AVSD뿐이므로 다른 구조는 보지 않는다
 
 ## 해설
 
-다운 증후군 환자의 약 40~50%에서 방실중격결손이 가장 흔히 나타나며, 다른 심장 기형은 상대적으로 드물다.
+약 절반에서 선천성 심장병이 동반될 수 있다는 수치이지 AVSD 자체가 절반이라는 뜻은 아니다. AAP는 산전 평가 여부와 무관하게 출생 후 심초음파를 권고한다.
 
 ## 오답 포인트
 
-- **B. 대동맥 협착:** 대동맥 협착은 다른 선천성 심장 질환에서 흔하지만, 다운 증후군에서 주된 기형은 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 다운 증후군 (Down Syndrome)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/다운 증후군 (Down Syndrome).md`
-- 학습 목표: 원문 핵심: * **신경발달**: 지적 장애, 근긴장 저하(Hypotonia), 운동 발달 지연 * **신체 특징**: 특징적인 얼굴 모양(넓은 미간 등), Simian crease * **주요 합병증**: 선천성 심장 기형(방실중격결손 등), 소화기 기형(십이지장 폐쇄, Hirschsprung 병), 백혈병 위험 증가, 갑상선 기능 저하증, 조기 발병 알츠하이머 치매, 수면 무호흡, 셀리악병
+- 학습 목표: 다운증후군의 선천성 심장병 평가
+
+## 검수 근거
+
+- https://publications.aap.org/pediatrics/article/149/5/e2022057010/186778/Health-Supervision-for-Children-and-Adolescents

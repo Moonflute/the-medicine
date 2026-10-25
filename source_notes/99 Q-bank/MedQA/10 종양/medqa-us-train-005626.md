@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 백혈구 수와 감별계수
 
 
 호지킨 림프종의 좋은 예후 인자는 병기의 초기 단계(제1기)이며, 이는 국소화된 림프절 병변만 존재함을 의미한다. 다른 선택지는 예후와 직접적인 연관이 적다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005626 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경부 단일 영역에 국한되고 B증상·다른 영상병변이 없는 Hodgkin의 초기 병기 A가 좋은 예후를 지지함을 직접 확인. 다른 검사도 예후인자일 수 있으나 이 보기 비교 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

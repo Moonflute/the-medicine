@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 차가운 가습 공기와 덱사메타손
 
 ## 해설
 
+경한 크룹에도 dexamethasone을 투여하므로 보기 중 D가 가장 적절하다. Dexamethasone은 통상 경구 단회 투여하고 필요에 따라 다른 경로를 선택한다. 보기의 cool mist는 증상 개선의 확실한 근거가 없으며 핵심 치료 성분이 아니다. 안정 시 협착음이 지속되거나 악화하면 epinephrine 등 추가 처치를 평가한다.
 
-밤에 악화되는 마른 쉰 기침과 흡기성 천명이 특징인 급성 후두기관염(크룹)에서는 기도 부종을 감소시키는 냉습 공기와 염증 억제제인 흡입 스테로이드가 1차 치료이다. 따라서 차가운 가습 공기와 덱사메타손이 가장 적절한 초기 치료가 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 효과 근거가 없는 가습 공기를 유효 치료로, dexamethasone을 흡입제로 단정한 설명 교정.
+- https://cps.ca/en/documents/position/acute-management-of-croup
 
 ## 출처
 

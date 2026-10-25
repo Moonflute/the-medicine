@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 이완 훈련(Relaxation training)
 
 ## 해설
 
-
-일반화불안장애에 1차 치료제로는 세로토닌 재흡수 억제제보다 불안 완화에 특화된 부스피론이 효과적이며, 부작용이 적다. 다른 선택지는 불안에 대한 1차 약물로 적합하지 않다.
+6개월간 지속된 과도한 걱정·과민·불면은 범불안장애를 시사한다. 원문 정답인 부스피론은 이 장애에 사용하는 비벤조디아제핀 항불안제이며, 제시된 약물 중 적절한 선택이다. SSRI보다 보편적으로 효과가 뛰어난 1차 약이라는 뜻은 아니다. 실제로는 CBT/응용 이완 및 SSRI 등 근거 기반 치료를 선호·중증도에 따라 논의하며, 이완훈련도 유효한 비약물 접근이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000709
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 부스피론이 SSRI보다 일반적으로 우월한 1차라는 오류 삭제. 제시된 약물의 선택과 이완훈련의 유용성을 구별.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg113/chapter/Recommendations

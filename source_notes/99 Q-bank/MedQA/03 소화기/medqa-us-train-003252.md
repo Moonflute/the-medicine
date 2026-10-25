@@ -21,13 +21,15 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -38,15 +40,21 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 항내배엽항체 역가
+A. 항근내막항체 역가
 B. 대장내시경
 C. 고섬유질 식단
 D. 갑상샘 초음파
 
 ## 해설
 
+배변과 연관된 반복 복통·교대 변비/설사는 IBS 양상이지만 대장암 1촌 가족력이 있어 이를 확인하고 대장내시경 B를 고려한다. 가족력 선별은 통상 40세 또는 최연소 환자의 진단 나이보다 10년 전 중 이른 시점에 시작한다. 환자는 43세이므로 45세 이상이라는 기존 설명은 잘못이다. 잠혈검사 음성이 대장암을 완전히 배제하지 않는다.
 
-반복되는 복통·배변 변화와 가족력은 대장암 위험을 높이며, 알람 증상이 없더라도 45세 이상에서 10년 전향적 위험이 있다. 따라서 진단적 검사는 대장내시경이다. 다른 선택지는 진단에 직접적 도움이 되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 43세를45세이상으로 설명한 오류. 대장암 1촌 가족력 때문에40세부터 평가하는 근거로 B 유지; EMA 오역도 교정.
+- https://gastro.org/clinical-guidance/risk-stratification-for-colorectal-cancer-screening-and-surveillance/
 
 ## 출처
 

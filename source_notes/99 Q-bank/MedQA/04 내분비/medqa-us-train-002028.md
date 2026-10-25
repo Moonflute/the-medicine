@@ -20,15 +20,17 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 빠르고 깊은 호흡
 
 ## 해설
 
+심한 고혈당·고삼투압과 케톤 음성은 HHS에 부합한다. 고삼투압에 의한 신경학적 증상에는 의식 변화와 발작이 포함될 수 있어 B가 선택지 중 적절하다. 모든 HHS에서 발작이 흔하거나 필수라는 뜻은 아니다. 과일 냄새 호흡·Kussmaul 호흡은 케톤산증과 더 관련된다.
 
-혈당 945 mg/dL와 저나트륨, 고삼투압 상태는 고삼투성 고혈당성 상태(HHS)를 나타내며, 이는 흔히 경련을 동반한다. 다른 선택지는 HHS와 직접적인 연관이 적다. 따라서 가장 가능성 높은 증상은 경련이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: HHS의 고삼투압 신경학적 합병증으로 발작 B가 가능하나 흔히 반드시 나타난다는 표현은 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

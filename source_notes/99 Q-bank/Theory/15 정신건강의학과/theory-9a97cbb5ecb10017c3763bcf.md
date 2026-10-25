@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "외모 집착에 반복 행동·기능 영향을 추가하고 큰 결함이면 일률적으로 다른 질환이라는 해설 단정 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -38,14 +43,23 @@ D. 주된 증상이 신체적 통증이다.
 
 ## 해설
 
-신체이형장애는 실제로는 거의 없거나 사소한 결함을 과도하게 인식하고 집착하는 것이 핵심이다.
+타인에게 관찰되지 않거나 경미한 외모 결함에 집착하고 반복적 거울 확인·비교·과도한 꾸미기 등 행동 또는 정신행위와 임상적 고통·기능 저하가 동반되는 것이 핵심이다.
 
 ## 오답 포인트
 
-- **B. 실제 큰 신체 결함이 존재한다.:** 실제 큰 결함이 있으면 다른 신체 질환 진단이 우선된다.
+- **큰 신체 결함의 존재만 기술:** 경미하거나 관찰되지 않는 결함에 대한 과도한 집착과 반복 행동이라는 핵심을 설명하지 못한다.
+- **불안·집착 없음:** 진단의 중심 양상이 빠졌다.
+- **통증만 있음:** 외모에 대한 집착과 구별된다.
 
 ## 출처
 
 - 내부 학습 노트: 신체이형장애 (Body Dysmorphic Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/신체이형장애 (Body Dysmorphic Disorder).md`
-- 학습 목표: 원문 핵심: - **정의**: 자신의 외모에 실제로는 없거나 미미한 결함이 있다고 믿고, 이에 과도하게 집착하여 일상생활에 심각한 지장을 초래하는 정신질환 (DSM-5-TR 기준 강박 및 관련 장애). - **원인**: 유전적 요인(약 43%), 신경생물학적 요인(전두엽 기능 이상, 시각 정보 처리의 불균형), 심리사회적 요인(어린 시절 학대나 방임 경험 등). - **기전**: 시각 정보 처리 시 전체적인 맥락보다 세부적인 부분에 과도하게 집중하는 경향이 있으며, 전두엽-선조체 회로의 기능 이상이 관찰됨.
+- 학습 목표: 신체이형장애의 외모 집착과 반복 행동
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 외모 집착에 반복 행동·기능 영향을 추가하고 큰 결함이면 일률적으로 다른 질환이라는 해설 단정 제거.
+- 근거: https://www.nhs.uk/mental-health/conditions/body-dysmorphia/

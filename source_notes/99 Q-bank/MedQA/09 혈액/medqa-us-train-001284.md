@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 그람음성 간균
 
 
 환자는 겸상 적혈구 빈혈로 인한 비장 기능 상실(무비장증) 상태이며, 이는 혈액 도말에서 Howell‑Jolly 소체가 나타나는 특징이다. 따라서 Howell‑Jolly 소체가 가장 잘 나타난다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001284 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 반복 통증 위기·빈혈을 보이는 소아 SCD의 기능적 비장저하와 Howell-Jolly 소체 C 연관이 원문·해설과 일치한다. 여행력만으로 malaria로 자동 분류하지 않았다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

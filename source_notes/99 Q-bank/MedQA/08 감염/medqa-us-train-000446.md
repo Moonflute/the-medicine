@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,14 @@ D. 포도당(Glucose)
 ## 해설
 
 
-급성 간헐성 포르피린증은 복통, 신경학적 증상, 소변 색 변화가 특징이며, 발작 시 헤민이 급성 증상 완화에 가장 효과적인 치료이다.
+심한 복통에 비해 복막자극징후가 없고 변비·자율신경 항진·정신증상·운동 및 감각 증상이 동반되어 급성 간성 포르피린증 발작을 의심한다. 음주는 촉발 요인이 될 수 있다. 중증 신경내장성 발작은 입원하여 정맥 hemin(A) 치료가 적절하며 요중 PBG·ALA 등 진단 검체를 확보하고 전해질·호흡 및 신경상태를 감시한다. Glucose만으로 중증 신경학적 발작 치료를 대체하지 않는다. 본문에는 소변 색 변화가 제시되지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000446 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 본문에 없는 소변 색 변화를 진단 근거로 추가하지 않고 중증 신경내장성 포르피린증의 hemin 선택을 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gastro.org/clinical-guidance/diagnosis-and-management-of-acute-hepatic-porphyrias-ahp/
 
 ## 출처
 

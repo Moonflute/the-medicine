@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 소변 우로포르피린 증가
 
 ## 해설
 
+손등·얼굴 등 광노출 부위의 취약성 수포·미란·흉터와 과색소침착은 PCT를 지지한다. Estrogen·음주와 간질환 위험 등이 연관될 수 있고 소변 uroporphyrin 증가(D)가 예상된다. 이는 감염이 아니라 uroporphyrinogen decarboxylase 기능 저하와 연관된 heme 합성 대사질환이다. 가족력만으로 특정 유전형을 확정하지 않는다.
 
-포르피리아 큐타네아 타르다 감염은 소변에서 우로포르피린이 증가하는 특징이 있다. 따라서 소변 우로포르핀 증가가 예상된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. PCT D를 감염이라고 한 오류를 비감염성 heme 합성 대사질환으로 교정한다.
+- 공식/학회 근거: https://www.bad.org.uk/pils/porphyria-cutanea-tarda
 
 ## 출처
 

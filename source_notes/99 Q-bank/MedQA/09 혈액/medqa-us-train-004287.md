@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 프로트롬빈시간(PT)
 ## 해설
 
 
-과다월경과 출혈 경향이 있는 소아에서 혈액응고 이상을 의심하면, 혈소판 기능을 평가하는 부분트롬보플라스틴시간(PTT)이 가장 민감한 검사이다. 따라서 진단적 가치가 가장 높은 검사는 PTT이다.
+초경부터의 과다월경과 발치 후 지속 출혈은 vWD 등 선천 출혈질환을 의심하게 한다. 선택지 중 aPTT B는 vWF 저하에 동반된 VIII 감소 등 내인성 경로 이상을 발견할 수 있어 의미가 있다. 하지만 aPTT는 혈소판 기능검사가 아니고 경한 vWD에서 정상일 수 있어 가장 민감한 확진검사라고 할 수 없다. 실제로 혈소판 수·vWF 항원/활성·VIII 등을 출혈 병력과 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004287 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PTT를 혈소판 기능의 가장 민감한 검사라고 설명한 오류 교정; 선택지 중 B의 보조적 가치만 인정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7805326/
 
 ## 출처
 

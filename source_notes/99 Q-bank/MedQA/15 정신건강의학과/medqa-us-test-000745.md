@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 수면 박탈
 
 ## 해설
 
-
-과도한 졸림과 카타플렉시가 동반된 기면증에서는 각성제보다 모다피닐이 1차 치료제로 권장된다. 모다피닐은 중추각성 작용을 통해 일상 생활 능력을 향상시킨다. 따라서 가장 적절한 치료는 모다피닐이다.
+심한 주간졸림에 감정으로 유발되는 일시적 근력 소실이 동반되어 탈력발작을 동반한 기면증을 시사한다. 제시된 선택지 중 모다피닐은 주간졸림을 줄이는 권고 약물이다. 클로미프라민은 탈력발작 억제에 사용될 수 있지만 주된 주간졸림 치료 선택은 아니며 수면 박탈은 적절하지 않다. 모다피닐이 탈력발작 자체까지 치료한다는 의미는 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000745
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 모다피닐 정답 유지. 각성제와의 절대 우열·탈력발작까지 단일 약으로 치료하는 인상을 제거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://aasm.org/wp-content/uploads/2022/03/Treatment_Central_Disorders_Hypersomnolence_Guideline_at_a_Glance.pdf

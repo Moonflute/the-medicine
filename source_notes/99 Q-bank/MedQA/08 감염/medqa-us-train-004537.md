@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. HSV 2형
 ## 해설
 
 
-음경과 항문 주위의 무통성 평평하고 유두 모양의 병변은 사마귀이며, 5% 아세트산에 하얗게 변하는 것은 HPV 6·11에 특이적이다. 따라서 원인은 HPV 6형 및 11형이다.
+무통성 피부색 유두상 항문생식기 병변은 condyloma acuminatum이며 흔한 원인형은 HPV6·11 A이다. Acetic acid 후 백색화는 비특이적이어서 HPV6/11에 특이적이라고 할 수 없고 일반적인 확진/선별검사로 일률 권장되지 않는다. HIV 환자의 비전형·경결·궤양·출혈 병변은 악성/고등급 병변 감별을 위한 조직검사를 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004537 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HPV6/11 사마귀 A 유지; acetic acid 백색화가 유전자형 특이적 진단이라는 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm
 
 ## 출처
 

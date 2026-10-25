@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 남자친구에게 리팜핀 예방요법
 ## 해설
 
 
-수막구균성 수막염 환자의 밀접 접촉자는 리팜핀 600 mg을 2 회 복용해 2주간 예방한다. 다른 항생제는 이미 치료에 포함돼 있다. 따라서 가장 적절한 다음 단계는 접촉자에게 리팜핀 예방요법이다.
+수막구균 수막염의 동거인/구강 분비물 밀접 접촉자는 예방요법 D가 필요하다. 성인 rifampin은 통상600mg을12시간마다2일(총4회) 투여한다.2회만 복용하거나2주간 투여하는 요법이 아니다. 약물상호작용·임신·지역내성에 따라 ceftriaxone 등 대안을 선택하고 신속히 시행한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006237 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Rifampin2회·2주라는 잘못된 용량/기간 교정; 동거 접촉자 예방 D 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-8-meningococcal-disease.html
 
 ## 출처
 

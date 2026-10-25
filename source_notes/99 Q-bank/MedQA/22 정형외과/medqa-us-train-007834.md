@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 견봉성형술
 
 ## 해설
 
+머리 위 던지기 동작의 통증, 능동 외전 제한에 비해 보존된 수동 범위 및 건 신호 변화는 회전근개 건병증을 시사한다. 초기에는 유발 동작의 부하 조절과 운동·재활을 시행하고 필요하면 단기간 NSAID를 사용하므로 선지 B가 적절하다. 장기간 완전 고정·휴식만 하는 것은 목표가 아니며 NSAID는 신장·위장관·심혈관 위험 및 NSAID 유발 천식 병력 등을 확인해 선택한다. 즉시 수술이나 관절강내 주사가 일률적 초기 치료는 아니다.
 
-회전근개 건염은 통증과 활동 제한을 동반하며 NSAIDs와 휴식·냉찜질이 1차 치료이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 회전근개 건병증 초기 보존적 치료 B를 유지하며 휴식만 지속하는 대신 부하 조절·운동 재활 및 NSAID의 금기를 설명했다.
+- 공식/학회 근거: https://doi.org/10.2519/jospt.2025.13182
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 토피라메이트
 
 ## 해설
 
+페넬진(A)은 비선택적 MAO 억제제로, 음식의 티라민 대사를 줄여 티라민 노출에 따른 노르에피네프린 방출과 심한 혈압 상승을 유발할 수 있다. 본문의 적포도주·살라미 섭취 후 심한 두통·발한과 195/130 mmHg 혈압이 이 상호작용에 부합한다. MAO를 억제하는 것은 페넬진이지 티라민이 아니다. 본문에 없는 치즈 섭취를 실제 병력으로 추가하지 않는다.
 
-MAOI와 티라민이 함유된 와인·치즈를 함께 섭취하면 티라민이 MAO‑A를 차단해 교감신경을 과도하게 자극, 급성 고혈압 위기를 일으킨다. 페넬진이 해당 MAOI이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 티라민이 MAO-A를 차단한다고 한 약물-음식 상호작용의 역전된 설명을 교정했다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa041652-fdde-4794-a8d2-279dd309e075
 
 ## 출처
 

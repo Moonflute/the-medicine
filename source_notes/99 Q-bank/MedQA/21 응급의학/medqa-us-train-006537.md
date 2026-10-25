@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 생리식염수 적신 드레싱
 
 ## 해설
 
+넓은 부위의 화상과 빈맥은 혈장 누출과 저혈량의 위험을 시사한다. 보기 중 생존에 직접적으로 중요한 처치는 적절한 정맥 수액 소생(A)이다. 실제 투여량은 화상 면적과 깊이, 체중, 소변량 및 순환 반응을 평가하여 조절하며, 무제한으로 수액을 주는 것은 아니다. 본문만으로 정확한 화상 깊이나 면적을 만들어 계산해서는 안 된다. 일률적인 예방적 경구 항생제나 국소 처치만으로 화상 쇼크를 예방할 수는 없다.
 
-광범위한 2도·3도 화상은 체액 손실과 화상성 쇼크 위험이 크며, 초기 24시간 내에 충분한 정맥 수액을 제공하는 것이 사망률을 가장 크게 낮춘다. 항생제나 국소 드레싱은 감염 예방에 도움이 되지만, 생존에 결정적인 요인은 아니다. 따라서 가장 효과적인 중재는 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 광범위 화상에서 수액 소생 A를 유지하되 원문에 없는 깊이·정확한 면적을 만들지 않고 예방적 항생제를 기본 치료로 오인하지 않게 한다.
+- 공식/학회 근거: https://academic.oup.com/jbcr/article/45/3/565/7458089
 
 ## 출처
 

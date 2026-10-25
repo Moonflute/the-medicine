@@ -19,16 +19,18 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 벤라팍신 치료
 
 ## 해설
 
+대칭성 원위부 감각저하·작열통·발목반사 감소는 통증성 당뇨신경병증에 부합하여 선택지 D의 venlafaxine이 통증조절에 가능하다. SNRI·gabapentinoid·TCA 등 여러 계열 중 동반질환/이상반응을 고려해 선택한다. 혈당관리·발관리와 metformin 관련 B12결핍 등 다른 원인 평가도 병행한다.
 
-당뇨병성 말초신경병증으로 인한 통증은 신경병성 통증 치료제인 벤라팍신이 1차 선택이다. 따라서 다음 관리로 벤라팍신을 처방한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Venlafaxine D는 SNRI 선택지이나 유일1차약이라는 표현을 교정.
+- https://doi.org/10.1212/WNL.0000000000013038
 
 ## 출처
 

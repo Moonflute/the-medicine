@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 정맥 피페라실린-타조박탐과 경피적 담낭배액술
 ## 해설
 
 
-중증 급성 무결석성 담낭염은 중환자에서 급성 염증과 담낭 부종으로 혈역학적 불안정을 초래할 수 있어, 즉시 항생제와 경피적 담낭배액술이 권고된다. 수술적 담낭절제술은 환자가 안정될 때까지 연기한다. 가장 중요한 오답은 즉시 담낭절제술(C)으로, 불안정 환자에게는 위험하다.
+큰 수술 후 고열·Murphy 징후와 담석 없는 담낭벽 비후·주위 액체는 급성 무결석성 담낭염을 시사한다. 최근 CABG와 동반질환으로 재수술 위험이 큰 상황에서 항균제와 경피적 담낭배액(D)이 적절하다. 본문 혈압은110/60으로 이미 쇼크라고 단정하지 않는다. 실제 수술 적합성에 따라 담낭절제나 내시경 배액 등을 판단하며 고령만으로 모든 수술을 무조건 연기하는 원칙은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009017 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CABG직후 무결석성 담낭염의 항균제+경피배액 D 유지. 실제 BP110/60을 이미 쇼크라고 만들지 않고 최근 심장수술·수술적합성을 근거로 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/10.1002/jhbp.504
 
 ## 출처
 

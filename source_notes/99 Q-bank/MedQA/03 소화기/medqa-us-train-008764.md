@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 식도 정맥류
 
 
 다수의 장관 폴립과 점막 색소침착(입술·손바닥·발바닥)은 Peutz‑Jeghers 증후군과 연관된다. 이 증후군은 췌장암 위험이 크게 증가한다. 따라서 췌장암과 가장 관련이 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008764 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 점막피부 색소와 과오종성 다발용종은 PJS, 췌장암 위험 C. 다른유전증후군/IBD합병증과 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

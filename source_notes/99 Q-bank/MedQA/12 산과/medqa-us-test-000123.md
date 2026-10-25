@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 지카 바이러스
 
 ## 해설
 
+임신 초기 브라질 여행과 모기 노출 후 발열·관절통·가려운 반구진 발진이 있었고 이후 태아 소두증이 확인되어, 제시된 선택지 중 지카 바이러스(D)가 가장 적합하다. 임신 중 지카 감염은 태아 뇌와 눈의 손상 및 소두증을 포함한 선천성 지카증후군을 유발할 수 있다. 이를 모든 태아 소두증의 가장 흔한 원인이라고 일반화하지 않으며, 근거가 제시되지 않은 미세소관 형성 억제라는 단일 기전으로 설명하지 않는다.
 
-임신 초기 발열·발진 후 태아 소두증이 나타난 경우, 모기에 의해 전파되는 지카 바이러스가 가장 흔한 원인이다. 지카 감염은 미세소관 형성을 방해해 뇌 발달을 저해한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 지카가 모든 소두증의 가장흔한 원인이라는 일반화와 미세소관 형성억제 단정 삭제. 브라질노출·발진·태아소두증으로 D 유지.
+- https://www.cdc.gov/zika/hcp/clinical-signs/index.html
+- https://www.who.int/news-room/fact-sheets/detail/zika-virus
 
 ## 출처
 

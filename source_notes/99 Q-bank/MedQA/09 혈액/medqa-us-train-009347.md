@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 자가면역 항체
 ## 해설
 
 
-간경변으로 인한 비장비대는 혈소판 파괴를 증가시켜 혈소판 감소증을 일으킨다(비장기능항진증). 다른 선택지는 골수 침윤·요독증·자가면역 항체와는 임상 양상이 맞지 않는다. 따라서 정답은 비장기능항진증이다.
+만성 과음, 손바닥 홍반, 복부팽만과 간수치·빌리루빈 이상은 진행 간질환을 시사한다. 문맥고혈압에 따른 비장 내 혈소판 격리, 즉 비장기능항진증(C)이 선택지 중 가장 적절하다. 실제 간경변의 혈소판감소에는 thrombopoietin 감소나 알코올의 골수 억제 등도 기여할 수 있다. 요독증은 보통 혈소판 수보다 기능을 저하시킨다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009347 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 간경변 단서와 혈소판감소의 비장기능항진 C 유지. 단순 파괴 증가만이 아닌 문맥고혈압에 의한 비장 격리 및 다른 간질환 기여를 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

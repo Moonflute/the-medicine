@@ -19,16 +19,18 @@ question_type: contraindication
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 암로디핀
 
 ## 해설
 
+짧은 PR·넓은 QRS는 조기흥분을 시사한다. 특히 조기흥분성 심방세동에서는 verapamil B 같은 방실결절 차단제가 부전도로 전도를 상대적으로 우세하게 해 위험한 심실반응/심실세동을 유발할 수 있어 피한다. 단순 방실차단이 악화되기 때문이라는 설명은 틀리다. 저혈압을 동반한 빈맥의 즉각적인 안정화 여부를 우선 평가한다.
 
-짧은 PR 간격과 넓은 QRS는 Wolff‑Parkinson‑White 증후군을 시사한다. 베라파밀은 AV 전도 속도를 감소시켜 전도 차단을 악화시킬 수 있어 금기이다. 따라서 베라파밀을 피해야 한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 조기흥분성 빈맥에서 verapamil 위험을 방실차단 악화가 아닌 부전도로 전도로 교정.
+- https://academic.oup.com/eurheartj/article/41/5/655/5556821
 
 ## 출처
 

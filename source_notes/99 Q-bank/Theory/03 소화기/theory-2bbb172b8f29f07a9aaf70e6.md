@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7J207JmE67aI64ql7KadIChBY2hhbGFzaWEpLm1k"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "LES 이완 장애와 연동운동 소실은 이완불능증을 이해하는 독립 기전으로 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ Achalasia는 식도 연동운동이 사라지고 LES가 완전히 이완되지 �
 
 ## 오답 포인트
 
-- **B. 식도 내강이 물리적으로 좁아지는 구조적 협착:** 협착은 구조적 원인에 해당하며, Achalasia는 기능적 장애이다.
+- **식도 내강이 물리적으로 좁아지는 구조적 협착:** 협착은 구조적 원인에 해당하며, Achalasia는 기능적 장애이다.
 
 ## 출처
 
 - 내부 학습 노트: 식도 이완불능증 (Achalasia)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/식도 이완불능증 (Achalasia).md`
-- 학습 목표: 원문 핵심: - 정의: 식도 평활근의 연동운동 소실과 하부 식도 조임근(LES)의 이완 부전을 특징으로 하는 신경성 식도 운동 질환 - 병태생리: 식도 근층간 신경총(myenteric plexus)의 신경절 세포 소실로 인한 탈신경화(denervation). 바이러스 감염이나 자가면역 기전이 원인으로 추정되며, 하부 식도 조임근의 높은 압력으로 인한 폐쇄 및 이차적인 식도 확장이 발생함
+- 학습 목표: 이완불능증의 LES 이완 장애·연동운동 소실
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: LES 이완 장애와 연동운동 소실은 이완불능증을 이해하는 독립 기전으로 유지.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://gi.org/guideline/diagnosis-and-management-of-achalasia/

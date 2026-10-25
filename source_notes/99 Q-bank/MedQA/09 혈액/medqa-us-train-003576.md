@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,14 @@ D. 트랜스페린 수치
 ## 해설
 
 
-빈혈과 말초 감각 저하·근력 약화가 동반된 경우 악성 빈혈을 의심하고, 진단을 확정하기 위해 항내인성인자(내인성인자) 항체 검사가 필요하다. 따라서 가장 적절한 검사는 항내인성인자 항체 검사이다.
+빈혈에 고유감각 저하·근력 약화가 있어 B12 결핍을 의심하고 자가면역 위염에 의한 흡수장애를 평가하는 선택지 A의 항내인성인자 항체가 적절하다. 원문에는 B12·엽산·철분 등 다종 보충제를 복용한다는 정보가 있어 단순 섭취 부족을 가정하지 않는다. B12 또는 활성 B12와 필요시 MMA 등으로 결핍을 평가하며 anti-IF 양성은 자가면역 원인을 지지하나 음성만으로 배제하지 않는다. 항체 검사 하나가 모든 빈혈이나 B12 결핍을 확진하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003576 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문 다종 보충제 복용을 해설에 복원. 자가면역 위염 확인 anti-IF A와 B12 결핍 진단을 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations
 
 ## 출처
 

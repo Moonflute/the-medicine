@@ -18,15 +18,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "Dipstick 2+만으로 신증후군을 확진하고 인종만으로 병리를 단정하는 과장 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,19 @@ D. 막증식성 사구체신염
 
 ## 해설
 
-
-HIV 감염과 흑인 인종은 국소 분절성 사구체경화증(FSGS)의 위험을 크게 높이며, 단백뇨와 부종이 주요 임상 양상이다. 따라서 환자의 신증후군은 국소 분절성 사구체경화증에 가장 부합한다.
+조절되지 않는 HIV 감염과 비만은 FSGS를 지지하는 배경이며 HIV 관련 신병증은 collapsing 형태를 보일 수 있다. 선택지 중 FSGS가 적합하지만 인종만으로 진단하지 않는다. 단백뇨 2+와 부종만으로 신증후군을 확진할 수 없으므로 단백 정량·albumin·신기능과 필요 생검으로 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007200
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: Dipstick 2+만으로 신증후군을 확진하고 인종만으로 병리를 단정하는 과장 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

@@ -21,11 +21,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 산화제 용혈
 ## 해설
 
 
-MCHC 42%와 망상적혈구는 적혈구막 단백질(스펙트린/ankyrin) 결함을 시사한다. 이는 유전성 적혈구막 이상인 구상적혈구증과 일치한다. 따라서 B가 정답이다.
+높은 MCHC·망상적혈구 증가·비장비대와 DAT 음성은 유전구형적혈구증 같은 적혈구막 이상 B를 지지한다. 적혈구막 구조 단백 결함으로 표면적이 감소하여 비장에서 제거된다. 도말 그림이 제공되지 않아 직접 구형적혈구를 관찰했다고 단정하지 않는다. 특히 MCHC42%는 매우 높아 실제 검체/기기 간섭을 확인하고 필요한 막 관련 검사를 결합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003941 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: DAT 음성·MCHC 증가·비장비대의 유전성 막 이상 B 유지; 누락된 도말을 관찰한 것처럼 확진하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

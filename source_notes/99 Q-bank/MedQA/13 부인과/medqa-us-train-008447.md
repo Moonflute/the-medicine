@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 염색체 핵형검사
 
 ## 해설
 
+정액·호르몬 평가 후 난관 개통성과 자궁강 구조를 확인할 자궁난관조영술(C)이 적절하다. 남성 정관을 검사하는 방법은 아니다. 자궁경검사는 자궁강 병변 평가에 유용하지만 난관 개통성의 기본 검사로 HSG를 대신하지 않는다. 성교 후 검사는 일상적으로 권고하지 않는다.
 
-불임 평가에서 정관·난관의 물리적 폐쇄를 확인하려면 자궁난관조영술이 가장 민감하고 직접적인 검査이다. 성교 후 검사와 자궁경검사는 이 경우 진단에 도움이 되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HSG C 유지. 여성 난관 검사로 남성 정관도 검사한다는 오류와 자궁경검사 무용론 삭제.
+- https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/
 
 ## 출처
 

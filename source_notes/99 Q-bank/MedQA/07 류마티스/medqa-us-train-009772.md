@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 겸상 적혈구를 확인하는 혈액 도말검사
 ## 해설
 
 
-항카디오리핀 항체는 항인지질 증후군의 특이적 검사이며, 이 항체는 반복 유산과 혈전성 증상을 일으킨다. 환자의 임상양상과 병력은 APS와 부합한다. 따라서 진단을 확진하려면 항카디오리핀 항체 검사가 가장 도움이 된다.
+반복 임신중기 유산, livedo와 말단 허혈 소견은 obstetric APS를 의심하게 한다. 보기 중 anticardiolipin 항체 C가 적절한 평가이다. Lupus anticoagulant와 anti-β2GPI도 함께 평가하며, 항체는 일시적 양성이 가능하므로 통상 최소12주 간격의 지속양성을 확인한다. 분류기준을 임상진단과 기계적으로 동일시하지 않으며 단회 저역가 aCL만으로 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009772 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: anticardiolipin 단회로 APS가 확진된다는 오류를 지속양성·임상 맥락 및 검사panel로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://ard.bmj.com/content/82/10/1258
 
 ## 출처
 

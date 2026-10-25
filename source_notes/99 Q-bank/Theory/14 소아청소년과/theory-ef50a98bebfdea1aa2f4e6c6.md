@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6riA66as7L2U6rKQIOyggOyepSDsp4jtmZggKEdseWNvZ2VuIFN0b3JhZ2UgRGlzZWFzZSkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "모든 GSD에서 저혈당이 핵심이라는 일반화를 간형과 근육형으로 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-글리코겐 저장 질환에서 흔히 나타나는 증상은?
+글리코겐 저장질환(GSD)의 임상 양상을 설명한 것은?
 
 ## 선택지
 
-A. 저혈당증
-B. 고혈압
-C. 황달
-D. 백혈구 감소
+A. 간 침범형에서는 공복 저혈당·간비대가, 근육 침범형에서는 근력·운동 문제가 두드러질 수 있다
+B. 모든 아형에서 동일한 중증 저혈당이 필수이다
+C. 모든 아형이 인슐린 과다 분비로 발생한다
+D. 유전자 결과가 나오기 전에는 저혈당을 치료하지 않는다
 
 ## 해설
 
-글리코겐 저장 질환은 간에서 글리코겐 방출이 저하돼 저혈당이 주요 임상 양상이다.
+글리코겐 대사 관련 여러 질환의 묶음이다. 침범 장기·효소에 따라 양상이 다르므로 저혈당 하나로 모든 GSD를 확진·배제하지 않는다.
 
 ## 오답 포인트
 
-- **B. 고혈압:** 고혈압은 일반적인 특징이 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 글리코겐 저장 질환 (Glycogen Storage Disease)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/글리코겐 저장 질환 (Glycogen Storage Disease).md`
-- 학습 목표: 원문 핵심: * **주요 증상**: 저혈당증, 간 비대, 성장 지연, 운동 불내성, 근육 약화, 근육 경련 * **신체 진찰**: 간 비대(간형), 근육 병증(근육형), 심근 병증(심장 침범 시) * **특이 소견**: 유형에 따라 신생아기부터 성인기까지 다양한 시기에 발현 가능
+- 학습 목표: 글리코겐 저장질환의 간형·근육형 차이

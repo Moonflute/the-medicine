@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,13 @@ D. 쇄골하동맥 도혈 증후군
 ## 해설
 
 
-흡연자와 스테로이드 복용자는 폐첨부 종양(폐상부 종양) 발생 위험이 높으며, 종양이 상완 신경총을 압박해 팔의 쇠약과 통증을 일으킨다. 따라서 폐첨부 종양이 가장 가능성 높은 진단이다.
+장기간 흡연과 큰 체중감소, 수주간 진행한 한쪽 팔의 통증·감각저하·근력저하는 폐첨부 종양이 상완신경총을 침범하는 Pancoast 양상을 시사한다(A). 급성 뇌경색보다 진행성 통증성 신경총병증에 더 잘 맞는다. Anabolic steroid 사용을 폐첨부 종양의 확립된 위험인자로 제시하지 않는다. 실제로는 흉부 및 신경학적 평가로 병변을 확인해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001412 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Anabolic steroid가 폐첨부암의 확립된 위험인자라는 근거 없는 주장을 제거했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

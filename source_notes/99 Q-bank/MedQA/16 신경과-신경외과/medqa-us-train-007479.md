@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 수마트립탄
 
 ## 해설
 
+반복되는 일측 박동성 두통, 구역과 시각 전조, 조용하고 어두운 곳에서의 호전은 편두통을 시사한다. 보기 중 급성 발작 치료에는 sumatriptan(D)이 적합하다. 약제는 금기·동반질환과 이전 반응에 따라 선택하며, 모든 환자에서 유일하게 가장 효과적인 약이라는 뜻은 아니다. 산소는 주로 군발두통 급성 치료에, verapamil은 군발두통 예방에 사용한다.
 
-편두통 발작 시 트립탄 계열(수마트립탄)이 혈관 수축과 트리거 물질 억제로 가장 효과적인 급성 치료제이다. 다른 옵션은 편두통에 적합하지 않다. 따라서 수마트립탄이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 편두통 급성 치료 D를 확인하되 모든 환자에서 트립탄이 가장 효과적이라는 과장 제거.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 2/3
 
 
 두 보인자(각각 1개의 돌연변이 대립유전자) 사이에서 자녀는 25% 정상, 50% 보인자, 25% 겸상빈혈이 된다. 따라서 겸상빈혈 없이 태어날 확률은 75%인 3/4이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000847 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HbAS×HbAS의 자녀는 AA25%/AS50%/SS25%, 질환 없는 확률3/4 B. 보인자 아닌 확률과 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

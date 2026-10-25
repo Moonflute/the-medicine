@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 안심시키기
 
 
 직경 4 cm의 복부 대동맥류는 작은(≤5 cm) AAA에 해당하며, 증상이 없을 경우 수술보다 정기 추적관찰이 권장된다. 위험도는 크기에 비례하므로 현재는 관찰이 적절하다. 따라서 추적관찰이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 무증상 남성의 신하부 AAA4cm는 정기 영상추적 B가 적절; 즉시 수술 크기/증상 조건 없음.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106
 
 ## 출처
 

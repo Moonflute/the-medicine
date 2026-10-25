@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 조영제를 사용한 CT 촬영
 
 ## 해설
 
+초기발현·안정상태·국소 contained leak의 식도천공에서 IV ampicillin-sulbactam C는 적절한 광범위항균치료이다. 금식·영양·면밀감시와 전문외과/내시경평가를 병행하고 배액/봉합 필요성을 판단한다. 항생제만으로 모든식도천공이 치료된다는 뜻은 아니다.
 
-구토 후 식도 파열(보어하브 증후군)에서는 종격동으로 누출이 보이며, 감염 예방을 위해 광범위한 그람양성·음성 항생제(암피실린+설박탐)가 필요하다. 따라서 정맥 암피실린과 설박탐 치료가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 초기 contained식도천공의 antibiotics C 유지. 항생제단독이면충분하다는 오독 방지.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/
 
 ## 출처
 

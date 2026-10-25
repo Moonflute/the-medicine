@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 골다공증
 ## 해설
 
 
-타목시펜은 에스트로겐 억제제로 혈전 생성 위험을 증가시켜 심부정맥혈전증(VTE)의 부작용이 흔히 보고된다. 따라서 심부정맥혈전증이 가장 가능성 높은 합병증이다.
+타목시펜은 조직별 에스트로겐 수용체 효과가 다른 선택적 에스트로겐 수용체 조절제(SERM)이다. 혈전색전증 위험을 높일 수 있어 선택지 중 심부정맥혈전증(A)이 맞다. 모든 사용자에게 흔하게 생긴다고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000496 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: tamoxifen의 VTE 위험 A 유지. 단순 에스트로겐 억제제로 부른 기전을 SERM으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/about-cancer/treatment/drugs/tamoxifencitrate
 
 ## 출처
 

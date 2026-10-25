@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 대장내시경
 
 ## 해설
 
+통증 없는 소아 하부위장관 출혈과 빈혈은 메켈게실의 이소성 위점막에서 분비되는 산에 의한 인접 장점막 궤양을 시사한다. 테크네튬-99m 퍼테크네테이트 스캔(A)은 이소성 위점막의 섭취를 이용해 출혈 원인인 메켈게실을 찾는 검사로 이 선택지 중 가장 적합하다. 모든 메켈게실에 이소성 위점막이 있거나 검사가 항상 양성인 것은 아니므로 음성 결과만으로 완전히 배제하지 않는다. 출혈 환자의 순환 상태 평가는 병행한다.
 
-Meckel diverticulum은 이질성 조직이 포함된 선천성 장관 형성으로, 출혈이 있을 때 Tc‑99m pertechnetate 스캔이 가장 민감한 진단 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 메켈게실의 이소성 위점막 검출 기전으로 A 설명. 모든 출혈성메켈에 가장민감하다는 단정 제거.
+- https://tech.snmjournals.org/content/42/3/163
 
 ## 출처
 

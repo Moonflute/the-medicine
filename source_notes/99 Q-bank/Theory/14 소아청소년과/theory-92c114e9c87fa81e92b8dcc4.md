@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "고막 발적만으로 중이염을 확진하는 오해를 방지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-중이염 환자에서 고막 검사 시 가장 흔히 관찰되는 소견은?
+소아 급성 중이염 진단을 뒷받침하는 핵심은?
 
 ## 선택지
 
-A. 고막의 팽윤(부풀어 오름)
-B. 고막의 천공(구멍)
-C. 고막의 위축(얇아짐)
-D. 고막의 색소 침착
+A. 중이 삼출과 고막 팽윤 등 급성 염증 소견
+B. 울고 난 뒤 고막이 붉다는 소견만
+C. 외이도 귀지가 많다는 사실만
+D. 모든 귀 통증은 고막을 보지 않아도 확진
 
 ## 해설
 
-중이염에서는 염증으로 고막이 부어올라 팽윤이 나타나며, 이는 진단의 주요 소견이다.
+고막 팽윤·새로 생긴 이루 등과 임상 증상을 종합한다. 단순 발적만으로는 부족하며 중이 삼출을 확인하지 못한 상태에서 일률적으로 진단하지 않는다.
 
 ## 오답 포인트
 
-- **B. 고막의 천공(구멍):** 천공은 급성 중이염이 진행된 경우에 드물게 나타나지만, 초기 주요 소견은 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 중이염 (Otitis Media)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/중이염 (Otitis Media).md`
-- 학습 목표: 원문 핵심: * **주요 증상**: 귀 통증(이통), 발열, 청력 저하, 귀 먹먹함 * **소아**: 귀를 잡아당기거나 비비는 행동, 보챔, 수면 장애, 식욕 부진 * **이학적 검사**: 고막의 발적, 팽윤(bulging), 운동성 저하
+- 학습 목표: 급성 중이염의 고막 팽윤과 중이 삼출
+
+## 검수 근거
+
+- https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html

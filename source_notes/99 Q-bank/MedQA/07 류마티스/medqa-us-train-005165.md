@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 혈청 C반응단백 상승과 정상 ESR
 
 
 류마티스성 다발근통은 ESR 상승이 특징이며, 근육 효소는 보통 정상이다. 환자는 빈혈을 동반할 수 있다. 따라서 ESR 상승과 정상 CK가 예상되는 검사 결과이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005165 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정상 실제 근력에 통증/강직을 보이는 고령 PMR 양상에서 ESR 상승·정상 CK의 B 패턴이 맞다. 원문·선지·해설 일치; 모든 PMR에서 ESR 상승이 필수라고 확대하지 않는다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

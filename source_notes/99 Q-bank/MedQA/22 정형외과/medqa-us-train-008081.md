@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 우측 상둔신경 손상
 
 ## 해설
 
+오른쪽 다리로 지지할 때 왼쪽 골반이 처지는 것은 오른쪽 고관절 외전근 약화의 Trendelenburg 징후다. 상둔신경은 중둔근·소둔근 등을 지배하여 한발 서기 때 반대쪽 골반을 유지하므로 오른쪽 상둔신경 손상(D)이 가장 직접적인 설명이다. L5 신경근병증도 외전근 약화를 만들 수 있으나 다른 신경근 소견이 없는 이 선지 비교에서는 D가 전형적이다. 백신을 둔부에 주사했다고 본문에 없으므로 접종이 원인이라고 확정하지 않는다.
 
-우측 상둔신경 손상은 골반 기울임(트렌델렌버그 징후)과 골반 골절 없이 보행 시 골반이 하강한다. 이는 해당 신경 손상과 일치한다. 따라서 진단은 우측 상둔신경 손상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Trendelenburg 징후의 지지측과 반대측 골반 하강, 중둔근·소둔근의 상둔신경 지배를 명확히 했다. D를 유지하되 백신 접종 부위 신경손상을 사실처럼 추가하지 않는다.
 
 ## 출처
 

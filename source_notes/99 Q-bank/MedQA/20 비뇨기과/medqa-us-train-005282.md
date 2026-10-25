@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 24시간 소변 화학검사
 
 ## 해설
 
+12 mm 폐쇄성 원위 요관 결석은 자연 배출 가능성이 낮아 적극적 제거가 필요하다. A, 요관경을 이용한 제거가 적절한 우선 선택이다. SWL도 선택된 상황에서 대안일 수 있지만 효과·재시술·적시 배출 가능성을 고려한다. PCNL은 보통 큰 신장 결석이나 선택된 근위 요관 매복 결석 등에 사용하므로 이 원위 결석의 우선 선택이 아니다.
 
-12 mm 크기의 요관방광이행부 폐쇄성 결석은 요관경검사(URS)로 직접 제거가 가장 효과적이다. 체외충격파는 크기가 작고 상행 결석에 적합하고, 경피적 절석술은 더 큰 결석에 사용한다. 따라서 URS가 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 12 mm 원위 요관 결석의 URS A는 유지하되 SWL은 상행 결석에만 적합하다는 잘못된 설명을 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng118/chapter/recommendations
 
 ## 출처
 

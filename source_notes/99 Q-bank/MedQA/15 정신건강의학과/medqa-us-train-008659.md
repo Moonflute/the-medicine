@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 전기경련요법을 예약한다
 
 ## 해설
 
+출산 직후 시작된 눈물·감정 기복과 불안이 산후 1주에 있고 흥미 상실·자살사고·정신병적 증상이 제시되지 않아 산후 블루스가 가장 적합하다. 지지, 휴식·돌봄 지원과 안전 평가를 제공하고 선택지 C처럼 추적관찰한다. 보통 출산 후 1~2주 이내에 호전되어야 하므로 증상이 그 이상 지속되거나 악화되면 예정일을 기다리지 않고 우울증·불안장애 등을 재평가한다. 자해·아기 위해 사고, 망상·환청 또는 현저한 기능 저하는 즉시 평가가 필요하다. 단순히 ‘치료 없이 2주 뒤 방문’만 안내해서는 안 된다.
 
-산후 블루스는 출산 후 2주 이내에 자연스럽게 호전되는 경미한 정서 변화이며, 특별한 치료 없이 2주 후 추적 관찰이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 산후블루스의 지지·안전평가와 조기재내원 조건을 명시. C 유지하되 무조건2주동안 기다리라는 위험한 해석 방지.
+- https://www.acog.org/womens-health/faqs/postpartum-depression
+- https://www.acog.org/programs/perinatal-mental-health/summary-of-perinatal-mental-health-conditions
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 췌장 베타세포의 자가면역 파괴
 
 ## 해설
 
+바이러스 전구증상 뒤 진통제 노출을 시사하는 병력, 구토·의식 변화·유두부종과 간효소 상승은 라이증후군의 출제 의도에 부합한다. 간 미토콘드리아 기능 손상(B)이 지방산 대사와 에너지 대사 장애에 관여하며 뇌부종/뇌병증을 동반할 수 있다. 본문은 약물명을 명시하지 않아 아스피린 복용이 확인된 사실인 것은 아니며, 이를 복합체 I만 억제하는 단일 기전으로 설명하지 않는다.
 
-아스피린을 포함한 살리실산계 진통제는 미토콘드리아 복합체 I을 억제해 간세포의 산화적 인산화를 방해한다. 이로 인해 간 미토콘드리아 손상이 발생하고 급성 간부전, 뇌부종, 대사성 산증이 나타난다. 환자는 어머니가 복용한 진통제로 인해 이러한 미토콘드리아 손상이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 라이증후군의 간 미토콘드리아 손상을 복합체 I의 단일 억제로 단정한 오류를 제거했다.
+- https://www.ncbi.nlm.nih.gov/sites/books/NBK548900/
+- https://pubmed.ncbi.nlm.nih.gov/8819478/
 
 ## 출처
 

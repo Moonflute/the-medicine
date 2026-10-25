@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 식이 염분 섭취 증가
 
 ## 해설
 
+비만·고혈압·당뇨·높은 TG/낮은 HDL 군집에서 인슐린 저항성 C가 핵심 기전이다. 내장지방·염증이 저항성을 촉진하는 등 상호작용하며 모든 소견이 저항성 하나로만 생기는 것은 아니다.
 
-반복적인 고혈압, 비만, 당뇨, 고지혈증은 모두 인슐린 저항성에 의해 발생한다. 인슐린 저항성은 내장지방 축적과 염증을 유발하지만, 대사증후군의 핵심 병인이다. 따라서 이 환자 상태의 가장 중요한 요인은 인슐린 저항성이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 대사증후군 IR C는 유지하되 모든 소견의 단일원인이라는 인과 과장 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

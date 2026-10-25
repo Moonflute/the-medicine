@@ -22,9 +22,11 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,6 +46,13 @@ D. HBeAg
 
 
 HBsAb(항HBs) 양성은 과거 감염 회복 또는 백신에 의한 면역을 의미한다. 따라서 HBsAb가 양성일 때 환자는 B형 간염에 대한 면역력을 가지고 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 면역 표지자는 anti-HBs B로 예방접종/감염 후 회복과 연관. HBsAg/HBeAg의 활성감염 표지와 구별.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

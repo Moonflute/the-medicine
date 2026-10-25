@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 모세혈당 측정
 
 
 환자는 호흡곤란, 깊고 빠른 호흡(Kussmaul)과 탈수 증상이 있어 당뇨병성 케톤산증을 의심한다. 진단을 위해서는 혈당 측정이 가장 빠르고 필수적이다. 따라서 모세혈당 측정이 가장 적절한 조치이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009733 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 탈수·체중감소·갈증·깊은 빠른 호흡/의식 변화에서 즉시 capillary glucose D는 고혈당위기/저혈당 감별에 적절.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/
 
 ## 출처
 

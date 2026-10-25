@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 발열 시작 1시간 이내 발작
 
 ## 해설
 
+향후 간질 위험과 관련된 중요한 열성경련 특성은 국소 발작(B)이다. 복합 열성경련은 국소성, 15분 이상 지속 또는 24시간 내 반복 등으로 구분한다. 발열 후 24시간 안에 생겼다는 사실이나 단순 과거 열성경련 병력만으로 복합이라고 하지 않는다. 이 질문은 위험요인 일반을 묻는 것이며 현 환자가 국소 발작을 했다고 새로 가정하지 않는다.
 
-열성 경련 후 24시간 이내에 발작이 발생하면 복합열성경련으로 간주되며, 이는 향후 국소 발작 및 간질 위험을 높인다. 따라서 가장 강하게 시사하는 요인은 이전 열성 경련 병력이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 B와 다른 C를 지지한 해설 및 발열 시작 24시간 내이면 복합이라는 오류 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/Febrile_seizure/
 
 ## 출처
 

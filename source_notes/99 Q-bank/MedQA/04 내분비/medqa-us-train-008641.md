@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 세포내 수용체
 
 
 부갑상선 호르몬은 Gs 단백질을 통해 adenylate cyclase를 활성화하고 cAMP를 증가시킨다. 저칼슘증 후 결핍된 PTH 신호전달 경로는 고리형 cAMP이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008641 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 갑상선수술 후 PTH저하/저칼슘 신호에서 선택지상 대표Gs–cAMP B 기전 유지. PTH수용체의 다른 경로도 존재하나 이 문항의 비교에 영향 없음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

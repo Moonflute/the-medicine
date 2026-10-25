@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 메틸프레드니솔론
 ## 해설
 
 
-55세 이상에서 두통·시야 결손·측두부 압통은 거대세포동맥염을 의심한다. 초기 치료는 고용량 스테로이드(메틸프레드니솔론)이다. 따라서 메틸프레드니솔론이 초기 관리에 적절하다.
+새 측두부 두통·턱 파행·측두부 압통과 시야 흐림은 GCA 및 시각허혈을 의심하게 한다. 선택지 중 methylprednisolone(D)을 신속히 투여하는 것이 적절하며 생검이나 CT 때문에 치료를 늦추지 않는다. 즉시 안과·류마티스 평가를 하고 시력 상실 위협이 확인되면 정맥 pulse glucocorticoid를 고려한다. 본문은 흐린 시야이지 확정된 시야 결손으로 기술된 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004116 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 시야 흐림이 있는 GCA 의심 환자의 신속한 steroid와 시력위협 평가를 명시했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

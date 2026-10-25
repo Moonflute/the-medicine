@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,11 @@ D. 유충 낭종(larval cysts)
 
 ## 해설
 
+상·하위 운동신경원 징후가 함께 있고 감각이 보존되는 양상은 ALS를 시사한다. 하위 운동신경원 소실로 근섬유가 탈신경되며, 살아남은 운동축삭의 측부 발아로 재신경지배가 일어난다. 따라서 근육 생검 소견은 탈신경과 재신경지배(C)이다. 근섬유군 위축과 섬유형 군집화가 나타날 수 있다.
 
-ALS는 운동 뉴런 손실로 인한 근육 위축, 경련, 과다반사, 강직을 보이며, 근육 생검에서 재신경지배와 재신경화가 나타난다. 이는 근섬유 재지배와 재신경화 소견에 해당한다. 따라서 가장 가능성 높은 소견은 근육의 신경절거 및 재신경지배이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. ALS의 탈신경 및 재신경지배 C는 맞으나 탈신경을 재신경화·신경절거로 잘못 적은 해설을 교정한다.
 
 ## 출처
 

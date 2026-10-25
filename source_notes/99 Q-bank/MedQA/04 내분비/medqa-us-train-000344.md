@@ -22,9 +22,11 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,6 +46,13 @@ D. 정상 갑상선 기능 병증(euthyroid sick syndrome)
 
 
 극심한 영양 재보충 후 인산, 마그네슘, 칼슘 감소와 저칼륨, 저마그네슘, 저인산혈증이 나타나는 재영양 증후군은 인슐린 급증에 의해 세포 내 이동이 촉진돼 발생한다. 따라서 가장 가능성 높은 근본 원인은 인슐린 분비 증가이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/선지/정답 C/해설 읽음. 심한 영양결핍 후 재영양 4일째 K/Mg/P 감소와 부정맥은 인슐린 증가에 의한 세포내 이동과 일치. 영양 처방/용량·교정 치료 전반을 검증한 것은 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

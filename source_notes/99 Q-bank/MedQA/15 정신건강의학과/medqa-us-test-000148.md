@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 인지행동치료
 
 ## 해설
 
-
-도벽은 충동 조절 장애이며, 인지행동치료가 가장 효과적인 1차 치료법이다.
+필요하거나 금전적으로 가치 있는 물건을 얻으려는 목적이 아니라, 훔치기 전 긴장과 훔친 뒤 안도감·죄책감이 반복되는 양상은 도벽에 부합한다. 제시된 선택지 중 인지행동치료로 충동의 유발 상황과 대처 행동을 다루는 것이 적절하다. 치료 근거가 제한적이므로 모든 환자에서 가장 효과적인 단일 치료로 단정하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000148
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 도벽에서 CBT 선택은 유지하되 근거가 제한적인 상황에 '가장 효과적인 1차'로 단정한 해설을 완화.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.mayoclinic.org/diseases-conditions/kleptomania/diagnosis-treatment/drc-20364753?p=1

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -38,15 +40,20 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 복부 CT에서 말발굽콩팥
+A. 복부 CT에서 말발굽 모양 부신(horseshoe adrenal gland)
 B. 활성화 부분 트롬보플라스틴 시간 연장
 C. 유전자검사에서 FBN1 돌연변이
 D. 골반 초음파에서 줄무늬 난소
 
 ## 해설
 
+익상경·저신장·외반주와 상하지 혈압 차/늑골 패임은 터너증후군 및 대동맥축착을 시사한다. 성선 발달부전에 따른 띠모양(줄무늬) 난소(D)가 적절하다. 늑골 패임은 측부혈행과 관련된 뼈 가장자리 변화이지 갈비뼈 골절이 아니다. 문제는 성조숙 부재가 아니라 난소기능 저하와 사춘기 발달 지연이다. 원문 A는 horseshoe adrenal gland(부신)로, 터너증후군과 연관될 수 있는 말발굽콩팥으로 임의 번역하면 안 된다.
 
-짧고 넓은 목, 저위 귀, 팔 각도 증가, 흉부 X선에서 갈비뼈 골절은 Turner 증후군의 특징이다. Turner 환자는 난소 발달 부전(줄무늬 난소)으로 성조숙이 없으며, 골반 초음파에서 난소의 줄무늬 소견이 흔히 나타난다. 따라서 골반 초음파에서 줄무늬 난소가 가장 가능성 높은 추가 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문의 horseshoe adrenal을 말발굽콩팥으로 오역해 선택지를 바꾼 오류를 원문대로 복원하고 늑골 패임/성선발달 해설을 교정했다.
+
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 발모벽
 
 ## 해설
 
+통증·가려움이 있는 홍반성 인설성 두피 판이 흉터와 색소 변화를 남기며 탈모로 진행하여 원반형 홍반성 루푸스(B)를 지지한다. 원형탈모증·발모벽은 보통 비흉터성이다. 광과민성은 DLE와 연관될 수 있으나 이 환자에서 보고된 사실은 아니다. 전신 증상은 동반 전신성 루푸스 여부를 별도로 평가할 이유가 된다.
 
-두피에 홍반성 인설성 판, 흉터성 탈모, 광과민성 발진은 원반형 홍반성 루푸스(디스코이드 루푸스)의 특징이다. 따라서 정답은 원반형 홍반성 루푸스이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 흉터성 인설성 두피 탈모의 DLE B를 유지하고 본문에 없는 광과민성 발진을 관찰된 소견처럼 제시한 설명을 제거한다.
 
 ## 출처
 

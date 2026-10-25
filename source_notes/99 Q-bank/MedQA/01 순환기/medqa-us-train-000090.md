@@ -24,11 +24,11 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -36,6 +36,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -53,8 +55,14 @@ D. 나이아신을 페노피브레이트(fenofibrate)로 변경
 
 ## 해설
 
+정답은 A이다. niacin 복용 중 매일 밤 짧게 발생하는 전신 홍조·가려움은 niacin 유발 flushing에 합당하다. prostaglandin 관련 피부 혈관확장을 aspirin 또는 ibuprofen 같은 NSAID 전처치로 줄일 수 있어 제시된 선택지에서는 A이다. 이는 이미 중단한 statin의 근육통을 치료하는 문항이 아니다. NSAID의 위장관·신장 위험과 niacin 지속 필요성도 개별 평가한다.
 
-환자는 고혈압·고지혈증 치료 중 스타틴 복용 후 근육통이 재발한 것으로, 스타틴 부작용이 의심된다. 통증 완화를 위해 NSAID인 이부프로펜을 단기간 투여할 수 있다. 따라서 가장 적절한 다음 단계는 이부프로펜 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: statin 근육통 해설이 아닌 niacin의 prostaglandin성 홍조에 NSAID가 작용함을 설명.
+- https://www.medlineplus.gov/druginfo/meds/a682518.html
 
 ## 출처
 

@@ -20,15 +20,17 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 고유량 산소를 이용한 경피적 흡인
 
 ## 해설
 
+과거 종격동 방사선 치료, 우심부전 소견, 쿠스마울 징후와 조기 이완기 심낭 타진음은 수축성 심낭염을 시사한다. 지속되는 증상성 만성 수축에서 B의 심낭절제술을 평가한다. 이는 흉막 석회화나 제한성 심근병증을 뜻하지 않으며, 방사선 관련 심근 침범과 수술 위험도 함께 확인해야 한다. 누락된 흉부 X선의 모양을 임의로 기술하지 않았다.
 
-방사선 후 흉막 석회화와 심낭 두꺼워짐이 보이는 경우는 제한성 심낭염이며, 외과적 심낭절제술이 치료에 가장 효과적이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 방사선 후 수축성 심낭염을 흉막질환·제한성 심근질환과 혼동한 설명을 교정.
+- https://academic.oup.com/eurheartj/article/46/40/3952/8234483
 
 ## 출처
 

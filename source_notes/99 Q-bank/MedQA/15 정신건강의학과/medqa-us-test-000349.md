@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 전기경련치료
 
 ## 해설
 
-
-주요우울장애 1차 치료인 SSRI를 4~6주 지속해야 하며, 1주 차에 효과가 없다고 판단한다. 따라서 현재 치료를 계속하는 것이 적절하다. 정답은 현재 치료를 계속한다이다.
+우울증 치료를 시작한 지 1주일 만에 호전이 없다는 사실만으로 치료 실패를 판단하지 않는다. 제시된 선택지 중 현재 치료를 지속하는 것이 적절하며, 복약 순응도·부작용·자살위험과 조증 가능성 등을 재평가하고 추적한다. 항우울제는 통상 수 주에 걸쳐 효과를 평가하므로 이 정보만으로 리튬 추가·변경이나 전기경련치료로 즉시 전환할 근거는 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000349
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. '1주 차에 효과가 없다고 판단한다'는 정답과 반대인 문장을 교정. 치료 지속 및 초기 안전성 추적 구별.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/ng222/chapter/Recommendations

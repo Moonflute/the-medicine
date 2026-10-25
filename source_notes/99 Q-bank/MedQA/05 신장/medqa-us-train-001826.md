@@ -20,16 +20,18 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. sevelamer 추가
 
 ## 해설
 
+정답은 C이다. CKD와 ACEI 복용 중 K5.8은 고칼륨혈증이다. patiromer는 장내 K를 결합해 배출시키는 고칼륨혈증 치료제로 지속적인 K조절을 도울 수 있다. 약물·식이·가성고K 여부 및 ECG/긴급성도 평가한다. 작용발현이 지연되므로 생명위협 급성고K의 응급처치를 대신하지 않는다. 저칼륨혈증 치료제가 아니다.
 
-만성 콩팥병 G3a에서 혈청 칼륨 5.8 mEq/L는 고칼륨혈증을 의미한다. 저칼륨혈증 치료제로서 patiromer는 칼륨 결합제이며, ACE 억제제와 병용해도 혈압 조절에 영향을 주지 않는다. 따라서 patiromer를 추가하는 것이 최선의 관리 전략이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: patiromer를 저칼륨 치료제라고 한 반대 설명 교정.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bf002984-d6c9-46df-aecb-a07733f763c1
 
 ## 출처
 

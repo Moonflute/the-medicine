@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 사람유두종바이러스(HPV) 백신
 
 ## 해설
 
+겸상적혈구병은 기능적 무비장으로 침습성 폐렴구균 감염 위험이 높으므로 연령·기존 접종력에 맞는 폐렴구균 백신(B)이 필요하다. 현재 소아 접종에서는 PCV15/PCV20과 필요한 추가 위험군 접종을 일정에 맞춰 선택하며, PPSV23이 필요한 경우에도 반드시 5세 이후에만 시작하는 것은 아니다. 접종력을 확인해 보완한다.
 
-겸상적혈구병 환자는 폐렴구균 감염 위험이 크게 증가한다. 예방을 위해 5세 이상에서는 폐렴구균 다당체 백신을 접종한다. 따라서 폐렴구균 백신이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 4세에게 5세 이후 다당체 접종만 설명한 오류를 현행 위험군 폐렴구균 접종으로 교정.
+- https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/risk-indications.html
 
 ## 출처
 

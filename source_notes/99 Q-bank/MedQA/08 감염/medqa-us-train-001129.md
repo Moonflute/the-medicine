@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,15 @@ D. MRI
 ## 해설
 
 
-다발성 관절통·발적·부종과 함께 요도 분비물·배뇨통이 있는 경우, 전신성 임질 감염이 의심되며, 관절천자를 통해 관절액 배양이 진단에 필수적이다.
+요도염 증상과 이동성 관절통 뒤 생긴 붉고 부은 손목은 파종 임균감염을 포함한 감염성 관절염을 의심하게 한다. 현재 쇼크가 없는 환자에서는 항생제 전 관절천자로 세포수, Gram 염색·배양과 결정 검사를 시행하는 A가 적절하다. 임균은 관절액에서 검출되지 않을 수도 있어 요도 등 노출 부위 NAAT·배양과 혈액배양도 함께 고려한다. 검사를 이유로 필요한 항생제를 지연하거나 methotrexate를 시작하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001129 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 안정된 급성 관절염에서 관절천자 우선은 적절하나 임균 관절액 배양이 항상 양성·필수 확진이라는 과장을 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/
+- https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm
 
 ## 출처
 

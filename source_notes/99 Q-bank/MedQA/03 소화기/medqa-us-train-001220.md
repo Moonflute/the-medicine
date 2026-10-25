@@ -24,13 +24,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 비알코올성 지방간염
 
 ## 해설
 
+정답은 A이다. 황달·수장홍반·여성형유방·성욕 감소·복수/말초부종은 만성 간경변 맥락이다. 음주가 적고 바이러스 노출 가능 병력이 있어 제시된 선택지 중 만성 바이러스간염이 가장 합당하지만 혈청 검사로 확인해야 한다. 본문에서 hepatojugular reflux는 음성이므로 양성 간정맥충진음이 있다고 설명하지 않는다.
 
-황달·홍반·여성형 유방·복수·부종·간비대·간정맥 충진음은 만성 간경변을 시사한다. 바이러스성 간염이 가장 흔한 원인이며, 환자의 위험 요인(다중 성 파트너)도 이를 뒷받침한다. 따라서 가장 가능성 높은 기저 원인은 만성 바이러스성 간염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 음성 hepatojugular reflux를 양성 간정맥충진음으로 바꾼 오류 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

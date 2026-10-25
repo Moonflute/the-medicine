@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 안심시키고 퇴원
 
 ## 해설
 
+건강하고 활력징후·복부골반 진찰이 정상이며 하루 패드 한 장 정도의 출혈이면 사춘기 월경 시작에 따른 증상일 수 있어 설명·안심(D)과 경과 관찰이 적절하다. 출혈량·초경 이력·빈혈 및 출혈질환 위험을 문진하고 심한 통증, 과다출혈, 어지럼이면 재평가한다. 정상 활력징후만으로 모든 원인을 배제한 것은 아니다.
 
-청소년의 무배란성 출혈은 호르몬 불균형에 기인한 경우가 많으며, 대부분 양성이고 급성 합병증이 없다. 환자는 활력징후가 정상이고 신체검사에서도 이상이 없으므로 추가 검사 없이 안심시키고 퇴원하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 안정된 13세의 경미한 주기성 출혈에 안심 D 유지. 모든 청소년 출혈은 무검사 퇴원이라는 일반화를 삭제.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/09/screening-and-management-of-bleeding-disorders-in-adolescents-with-heavy-menstrual-bleeding
 
 ## 출처
 

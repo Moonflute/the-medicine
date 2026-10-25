@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 산모에게 아목시실린 경구 투여
 
 ## 해설
 
+생후 2일 다량 화농성 결막염은 임균성 안염을 의심한다. 출생 직후 신생아 양안 국소 에리트로마이신(B)은 임균성 안염 예방에 사용된다. 산모 아목시실린(D)은 이를 대신하지 못한다. 이미 발생한 감염은 국소 연고만이 아니라 적절한 전신 치료가 필요하다.
 
-신생아 안구 결막염 예방에 가장 효과적인 방법은 출산 직후 산모에게 아목시실린을 경구 투여해 신생아에게 전달되는 신균을 억제하는 것이다. 이는 임질에 의한 안구염을 예방한다. 따라서 예방에 가장 크게 기여한 조치는 산모에게 아목시실린 경구 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 B와 반대로 산모 아목시실린을 권한 명백한 예방 해설 오류 교정.
+- https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 오른쪽 제3~6번 갈비뼈 외과적 고정
 
 ## 해설
 
+역설적 흉벽 운동은 동요흉을 시사하며 폐좌상이 동반될 수 있다. 이 환자는 고농도 산소를 투여해도 산소포화도가 83%이고 혼돈이 있어 심한 호흡부전 상태이므로 기관삽관과 양압환기(A)가 우선이다. 동요흉은 흉벽 안정성 상실과 폐 손상 때문에 호흡을 방해하지만, 반드시 기도 폐쇄를 의미하지는 않는다. 모든 동요흉 환자에게 예방적으로 삽관하는 것이 아니라 실제 호흡·의식 상태에 따라 결정한다.
 
-흉부 외상 후 흉벽이 흡입 시 안쪽으로 움직이는 역설적 움직임은 대흉강 내 압력 감소를 의미하는 연가양(플라우라) 증상이다. 이는 기도 폐쇄와 저산소증을 초래하므로 즉시 기도 확보와 양압환기를 동반한 기관내 삽관이 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 동요흉이 곧 기도 폐쇄라는 해설을 교정한다. 고농도 산소에도 심한 저산소혈증과 의식 변화가 있어 A가 필요하다는 근거를 명확히 한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

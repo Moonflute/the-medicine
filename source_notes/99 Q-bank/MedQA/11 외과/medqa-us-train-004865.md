@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 응급 개복술
 
 
 외상성 복부 출혈이 의심되는 쇼크 환자에서는 빠른 출혈 평가가 필요하다. FAST 초음파는 비침습적으로 복강 내 자유액을 탐지해 진단을 돕는다. 따라서 FAST 검사가 가장 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-004865`와 직접 대조했다.
+- 판정: 불안정한 둔상 환자의 복강 출혈 신속 평가 FAST A가 선지 중 다음 단계. 원문과 연결 유지하되 대량 수액량의 최신 적절성까지 승인한 것은 아님.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

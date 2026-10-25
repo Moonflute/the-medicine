@@ -17,18 +17,19 @@ related_diseases:
   - "Attention-deficit hyperactivity disorder"
 question_type: diagnosis
 related_disease_slugs:
-  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +47,12 @@ D. 지적장애
 
 ## 해설
 
+학교와 가정 모두에서 지속되는 부주의, 과제 미완료, 잦은 실수, 과도한 말하기와 정리의 어려움이 학업 기능을 떨어뜨리므로 주의력결핍 과잉행동장애(A)가 가장 적합하다. 여러 환경의 증상과 기능 저하를 확인하는 것이 핵심이다. IQ 95는 지적장애를 지지하지 않고, 연령에 맞는 글을 유창하고 정확하게 읽으므로 난독증을 뒷받침하지 않는다. 지속성 우울장애에 필요한 만성 우울 기분도 제시되지 않았다. 야간 발기 검사는 이 사례와 관계없다.
 
-심인성(정신적) 원인과 유기적 원인을 구분하려면 야간 발기(음경 팽창) 검사가 가장 유용하다. 야간 발기가 정상이면 유기적 원인이 배제되고 심인성 원인으로 판단한다. 따라서 정답은 음경 팽창 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://www.cdc.gov/adhd/diagnosis/
 
 ## 출처
 

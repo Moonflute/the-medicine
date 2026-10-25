@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 성상세포종(Astrocytoma)
 
 ## 해설
 
+젊은 환자의 양측 소뇌교각 종양과 양측 청력저하는 양측 전정신경초종을 시사하며 NF2-related schwannomatosis를 강하게 뒷받침한다. 이 질환에서는 수막종 발생 위험도 증가하므로 이후 동반될 종양은 C이다. 현재의 양측 소뇌교각 종양을 수막종이라고 단정한 것은 아니다.
 
-양측 소뇌교각에 큰 종양이 존재하는 경우 신경섬유종증 2형에서 흔히 발생하는 수막종이 가장 흔한 동반 종양이다. 따라서 향후 수막종 발생 위험이 가장 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. NF2의 동반 수막종 C를 유지하되 기존 양측 소뇌교각 종양을 수막종과 혼동하지 않도록 구분한다.
 
 ## 출처
 

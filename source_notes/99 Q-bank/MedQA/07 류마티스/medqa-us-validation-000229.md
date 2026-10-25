@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,6 +53,13 @@ D. 경구 프레드니손
 
 
 추위에 손가락이 하얗게 변하고 통증이 동반되는 일차성 레이노 현상은 혈관 수축이 원인이며, 1차 치료제로 칼슘채널 차단제인 니페디핀이 가장 효과적이다. 아스피린은 혈전 예방에 쓰이며 레이노에 효과가 없다. 따라서 경구 니페디핀이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000229 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 보온에도 반복되는 Raynaud의 약물치료로 dihydropyridine CCB nifedipine B가 적절함을 공식NIAMS 근거와 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niams.nih.gov/health-topics/raynauds-phenomenon/diagnosis-treatment-and-steps-to-take
 
 ## 출처
 

@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlsdGlhemVtLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 응급 전기 심율동전환
 
 ## 해설
 
+27.4°C의 중증 저체온과 서맥·저혈압에서는 조심스럽게 취급하고 기도·순환 지지, 중심부 재가열과 전문 이송을 진행한다. 주어진 선지에서는 차가운 수액으로 열손실을 더하지 않도록 가온한 생리식염수를 투여하는 C가 적절하다. 하지만 가온 수액만으로 가장 효과적으로 재가열된다는 뜻은 아니다. 심한 저혈압·체온30°C 미만 등 불안정 환자는 ECMO/ECLS 가능 센터와 신속한 협의·이송을 고려한다. 저체온성 심방세동은 재가열로 호전될 수 있어 일률적 딜티아젬·즉시 전기율동전환을 우선하지 않으며 사지 직접 가열도 피한다.
 
-심한 저체온증 환자는 재가열 시 체내 온도를 서서히 올려야 하며, 가장 효과적인 방법은 따뜻한 생리식염수를 정맥으로 투여하는 것이다. 이는 중심부 재가열을 촉진한다. 따라서 정맥으로 데운 생리식염수 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 27.4도·저혈압의 중증 저체온에서 가온 수액이 가장 효과적인 단독 재가열이라는 오류를 수정했다. C는 주어진 선지의 적절한 즉시 보조 조치이며 전문 재가열 체계가 필요하다.
+- 공식/학회 근거: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines
 
 ## 출처
 

@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 올란자핀
 
 ## 해설
 
-
-청각 환각·망상·양성 증상이 급성 정신병에 해당한다. 올란자핀은 양성 증상에 높은 효능을 보이며 대사 부작용이 비교적 적어 1차 선택제로 권장된다. 할로페리돌은 EPS 위험이 높다.
+정신병적 증상 호전과 함께 3주 동안 BMI가 22에서 24로 증가한 것이 단서이다. 제시된 약물 중 올란자핀은 체중 증가·혈당 및 지질 이상 등 대사 부작용 부담이 커 이 변화와 잘 맞는다. 대사 부작용이 적어서 선택된 약이라는 기존 설명은 반대이다. 증상 호전 자체는 다른 항정신병약에서도 가능하므로 그것만으로 올란자핀을 구별하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006515
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 올란자핀 대사 부작용이 적다는 역방향 오류 교정. 3주 BMI 상승이 약물 추정의 핵심임을 설명.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.medlineplus.gov/druginfo/meds/a601213.html

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 호흡수를 증가시킨다
 
 ## 해설
 
+FiO₂ 0.5에서 PaO₂ 54 mmHg인 저산소혈증과 양측 수포음은 폐포 허탈·폐내 단락 등을 우려하게 한다. 낮은 PEEP를 적절히 높여 산소화를 개선하는 C가 선지 중 가장 적절하다. 기도·회로·폐 병변 원인과 혈역학을 함께 평가하며 PEEP를 무제한 높이는 것은 아니다. 일회호흡량 1,000 mL를 더 늘리면 안 되고 예측체중에 맞는 폐보호 일회호흡량·기도압으로 재조정해야 한다. 이 정보만으로 ARDS 원인을 확진하지 않는다.
 
-환자는 저산소혈증(pO₂ 54 mmHg)이며, 폐포를 개방하기 위해 양압(PEEP) 증가가 가장 효과적이다. 따라서 PEEP를 증가시키는 것이 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수술 후 저산소혈증과 낮은 PEEP의 C는 적절하나 원문 1000mL 일회호흡량을 안전한 설정으로 묵인하지 않도록 폐보호 환기를 명시한다.
+- 공식/학회 근거: https://www.thoracic.org/statements/resources/cc/ards-guidelines.pdf
 
 ## 출처
 

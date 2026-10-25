@@ -19,11 +19,11 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 리바록사반
 
 ## 해설
 
+반복 유산, SLE 및 반복 정맥혈전색전증은 항인지질증후군(APS)을 강하게 시사한다. aPL의 지속 양성 등 진단 확인이 필요하지만 선택지 중 임신 중 적절한 조합은 저용량 아스피린과 헤파린(A)이다. 혈전성 APS에서는 일반적으로 치료 용량 헤파린/LMWH를 사용하며 산과적 APS만 있는 경우의 예방 용량과 구분한다. 와파린·리바록사반으로 대체하지 않는다.
 
-반복 유산과 항인지질 항체가 있는 환자는 임신 중 혈전 위험이 크다. 저용량 아스피린과 저분자량 헤파린을 병용하면 태아 손실을 감소시킨다. 따라서 선택은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 검사에 없는 aPL 양성을 단정하지 않고 혈전성 APS의 치료 용량 구분.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.41191
 
 ## 출처
 

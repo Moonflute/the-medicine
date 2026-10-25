@@ -21,17 +21,19 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvU3Bpcm9ub2xhY3RvbmUubWQ
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 양측 부신절제술
 
 ## 해설
 
+정답은 C이다. 원발성 알도스테론증이 확인되고 42세에서 수술을 원하므로 AVS로 aldosterone 과분비의 편측성을 확인한다. CT의 우측 종괴가 기능성 원인인지, 양측 분비인지 구별하는 목적이며 양쪽에 종양이 있는지 해부학적으로 확인하는 검사가 아니다. 이 결과에 따라 수술 또는 MRA 치료를 결정한다.
 
-저칼륨, 대사성 알칼리증, 고알도스테론/저레닌 비율은 원발성 알도스테론증을 시사한다. 부신 종양이 확인되었으므로, 부신 종양이 양측인지 확인하기 위해 부신 정맥 채혈이 필요하다. 따라서 부신 정맥 채혈이 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: AVS가 양쪽 종양 존재를 확인하는 검사라는 해설 교정.
+- https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2
 
 ## 출처
 

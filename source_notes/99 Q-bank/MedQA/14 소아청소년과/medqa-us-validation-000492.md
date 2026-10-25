@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 생리적 발달
 
 ## 해설
 
+사춘기 남아의 유륜 바로 아래 작은 단단한 유선 조직은 일시적 호르몬 변화에 의한 여성형유방(D)에 부합하며 한쪽부터 나타나거나 약간 아플 수 있다. 비만의 단순 지방 침착과는 구별한다. 고환 이상·약물·진행성 비전형 소견이 있으면 재평가한다.
 
-사춘기 소년에서 유방 조직이 발달하고 통증이 없는 단단한 1 cm 결절은 생리적 유방 조직 증식(여성형 유방)이다. 다른 선택지는 해당 연령대와 임상양상에 맞지 않는다. 따라서 가장 가능성 높은 원인은 생리적 발달이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문의 약간 압통을 통증 없음으로 뒤집은 설명 교정.
+
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 신경절세포 소실을 보이는 흡인 생검
 
 ## 해설
 
+극소 미숙아의 복부팽만·수유 불내성에서 괴사성 장염을 의심한다. 특징적인 영상 소견은 장벽 내 공기(pneumatosis intestinalis, C)이다. 단순 장폐쇄나 복강 내 유리공기와 다른 소견이며, '폐쇄성 장벽 공기'는 정확한 용어가 아니다.
 
-괴사성 장염의 특징적인 방사선 소견은 장벽 내 공기(폐쇄성 장벽 공기)이며, 이는 복부 X선에서 확인된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Pneumatosis intestinalis를 폐쇄성 장벽 공기로 잘못 명명한 해설 교정.
+
 
 ## 출처
 

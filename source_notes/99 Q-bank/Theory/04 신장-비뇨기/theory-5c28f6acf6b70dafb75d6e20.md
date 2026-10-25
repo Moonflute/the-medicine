@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "64uk64eo"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "횟수 증가와 총량 증가의 구분은 빈뇨·다뇨 평가의 중요한 출발점."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 혈압
 - 내부 학습 노트: 다뇨
 - 원본 경로: `source_notes/01 Chief Complaint/다뇨.md`
 - 학습 목표: 원문 핵심: 다뇨는 실제 소변량 증가와 빈뇨를 먼저 구분하고, 실제 다뇨라면 삼투성 이뇨와 수분 이뇨로 나누어 접근한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

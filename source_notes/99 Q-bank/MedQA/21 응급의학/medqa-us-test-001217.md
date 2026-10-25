@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 폐좌상
 
 ## 해설
 
+큰 흉부 둔상 뒤 새로운 불규칙 빈맥·P파 소실(심방세동 양상)과 심한 쇼크·울혈 소견은 둔상성 심장손상/심장 타박상(A)을 지지한다. 부정맥과 심근 수축기능 저하가 동반될 수 있다. P파 소실은 심방세동 소견이지 심장 타박상에 특이적이지 않으며 음성 FAST도 모든 출혈·대동맥·심장 손상을 배제하지 않는다.
 
-심장 타박상은 무거운 충격 후 심근 손상으로 심전도에 P파 소실, 저혈압, 빈맥을 일으키며 FAST가 음성이다. 다른 선택지는 출혈이나 대동맥 손상과는 임상 양상이 다르다. 따라서 심장 타박상이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 외상성 심장 타박상 A를 유지하되 P파 소실·음성 FAST를 질환 정의나 단독 확진 소견으로 가르치지 않는다.
 
 ## 출처
 

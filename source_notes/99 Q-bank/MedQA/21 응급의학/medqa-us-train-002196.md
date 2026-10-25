@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 수술 상처 감염
 
 ## 해설
 
+복강경 수술 후4일째 절개부 발적과 흰 분비물, 압통은 수술 상처 감염(D)을 직접 시사한다. 수술 후 발열의 원인을 날짜만으로 확정하거나 48–72시간 이내라면 가장 흔히 상처 감염이라고 일반화하지 않는다. 현재는 절개부의 실제 국소 감염징후가 무기폐·요로감염·잔류 담석보다 더 직접적인 근거다.
 
-수술 후 48~72시간 이내에 발열이 나타나면 가장 흔한 원인은 수술 부위 감염이다. 절개 부위의 발적과 고름성 분비물, 국소 압통이 감염을 시사한다. 따라서 수술 상처 감염이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수술 후 4일째의 국소 농성 상처 소견을 48–72시간 발열의 가장 흔한 원인이라는 시간표로 설명한 오류를 수정했다.
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 비장비대
 
 
 CLL 환자에서 급성 빈혈이 나타났으며 총 빌리루빈이 상승하고 직접 빌리루빈은 정상에 가까워 간접 빌리루빈 증가를 시사한다. 이는 자가면역 용혈성 빈혈(AIHA)에서 흔히 보이는 용혈성 패턴이다. 따라서 가장 가능성 높은 원인은 자가면역 용혈성 빈혈이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006087 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CLL 배경의 급성 빈혈·간접 bilirubin/LDH 상승에서 AIHA A가 가장 가능함을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

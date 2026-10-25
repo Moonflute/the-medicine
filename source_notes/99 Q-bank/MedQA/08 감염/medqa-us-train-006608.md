@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 림프육아종성 성병
 ## 해설
 
 
-통증성 화농성 궤양, 림프절병증, 성병 전력이 없는 경우 연성하감(Haemophilus ducreyi)이 가장 흔한 원인이다. 따라서 연성하감이 정답이다.
+통증성 화농성 괴사바닥 궤양과 압통성 서혜부 림프절은 선택지 중 H.ducreyi 연성하감 A에 가장 부합한다. 과거17세 chlamydia 치료력이 실제로 있으므로 성병 전력 없음으로 바꾸지 않는다. HSV 등 다른 원인과 임상 중첩이 가능하여 실제 검사/역학으로 평가하며 이 모양이 현재 모든 지역에서 가장 흔한 성기궤양이라는 의미는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006608 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 실제 과거 chlamydia가 있는데 성병 전력 없다고 한 해설 오류 교정; purulent painful chancroid A 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

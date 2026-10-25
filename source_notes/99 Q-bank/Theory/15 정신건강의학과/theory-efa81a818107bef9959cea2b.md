@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: D
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "읽기·쓰기·수학의 학업 기술과 언어발달 지연의 구분은 독립 기본 개념으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 언어발달지연
 
 - 내부 학습 노트: 특정 학습 장애 (Specific Learning Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/특정 학습 장애 (Specific Learning Disorder).md`
-- 학습 목표: 원문 핵심: - 주요 증상: 학업 부진, 학습 내용 이해 및 기억의 어려움, 낮은 자존감, 또래 관계 문제, 정서적 불안, 행동 문제. - 유형: 난독증(읽기), 난서증(쓰기), 계산장애(수학). - 평가: 발달력 조사, 학업 수행 능력 평가, 정신상태검사(MSE), 동반 질환(ADHD, 불안, 우울 등) 확인.
+- 학습 목표: 특정학습장애의 학업 영역 구분
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 읽기·쓰기·수학의 학업 기술과 언어발달 지연의 구분은 독립 기본 개념으로 유지.

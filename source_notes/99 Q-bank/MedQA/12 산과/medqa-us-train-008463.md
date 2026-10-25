@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. B형간염과 MMR
 
 ## 해설
 
+28주에는 매 임신 27–36주 Tdap과 계절 인플루엔자 주사용 백신(A)이 적절하다. 인플루엔자는 어느 임신 시기에도 투여 가능하다. 수두·MMR 생백신은 임신 중 금기이지만 B형간염 백신은 필요시 임신 중 접종할 수 있어 일괄 비권장이라고 하지 않는다.
 
-임신 중 가장 권장되는 예방접종은 파상풍·디프테리아·백일해(Tdap)와 인플루엔자 백신이며, 둘 다 임신 2분기에 안전하게 투여한다. 수두와 B형간염은 임신 중 권장되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 28주 Tdap은 3분기이며 HBV백신은 임신 금기가 아님.
+- https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/
 
 ## 출처
 

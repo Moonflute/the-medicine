@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 프로테우스 미라빌리스
 ## 해설
 
 
-발열·인후통·양쪽 결막염·흰색 편도 삼출물·혈뇨가 동시 발생하는 급성 감염은 아데노바이러스 인두결막열(피부·인두·결막 삼중증)과 일치한다. 따라서 원인 미생물은 아데노바이러스이다.
+발열·인두염·양측 결막염은 adenovirus의 인두결막열에 부합하고, 혈뇨는 동반 출혈성 방광염으로 설명할 수 있어 B가 가장 적절하다. 인두결막열의 조합은 발열·인두염·결막염이며 피부 소견이 필수인 삼징이 아니다. GAS 감염 후 사구체신염은 보통 인두염과 시간 간격이 있고 이 사례의 결막염·무단백뇨 양상과 덜 맞는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000285 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 인후결막열·출혈성 방광염의 adenovirus B 유지. 피부를 포함한 삼징이라는 오기 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

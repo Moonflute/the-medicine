@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 전조가 있는 편두통
 ## 해설
 
 
-다량의 비타민 A 보충제는 간에서 비타민 A 축적을 초래해 두통, 구토, 시야 흐림 등 고용량 독성을 일으킨다. 증상은 비타민 A 독성에 특이적이다. 따라서 보충제 사용이 가장 가능성 높은 원인이다.
+정답 B. 보충제 시작 이후 악화된 두통·구토·시야흐림과 피부 건조/박탈은 고용량 preformed vitamin A 노출을 고려하게 한다. 증상은 머리 충돌보다 먼저 시작해 외상이 일차 원인일 가능성은 낮다. 이 소견들이 vitamin A 독성에만 특이한 것은 아니며 실제 제품 성분·용량과 다른 두개내압 상승 원인도 확인해야 한다. 보충제 사용이 가장 부합하는 선택지다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008980 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 보충제 후 두통·피부박탈의 vitaminA 독성 의심 B 유지, 특이적/성분확정이라는 과장 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/
 
 ## 출처
 

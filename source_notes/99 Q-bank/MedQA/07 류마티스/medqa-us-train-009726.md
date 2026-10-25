@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 양측 손가락 척측편위
 ## 해설
 
 
-청소년의 요통·목통, 운동 시 호흡곤란, 천장관절 미란·경화, 높은 ESR은 강직성 척추염을 시사한다. 강직성 척추염은 주로 아킬레스건 부착부에 압통을 동반한다. 따라서 아킬레스건 부착부 압통이 가장 가능성 높은 소견이다.
+34세 남성의 운동으로 호전되는 염증성 요통, 천장관절염과 흉곽 확장 감소는 axial spondyloarthritis를 시사한다. Enthesitis가 흔한 연관 소견으로 Achilles tendon 부착부 압통 C가 가장 부합한다. 환자는 청소년이 아니며 손톱병변은 PsA에서 더 전형적이고 척측편위는 오래된 RA와 연관된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009726 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 34세를 청소년이라 부른 연령 오류 교정; Achilles enthesitis C 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

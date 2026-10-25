@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "혈액량 숫자 암기를 적절한 배양·항생제 시점 원칙으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-신생아 패혈증 진단에 가장 핵심적인 검사는?
+신생아 패혈증 의심 시 배양과 치료의 원칙은?
 
 ## 선택지
 
-A. 혈액 배양
-B. 혈청 IgM 검사
-C. 소변 배양
-D. 간 효소 검사
+A. 가능하면 항생제 전 혈액 배양을 채취하되 필요한 항균 치료를 지연하지 않는다
+B. 배양이 양성이 될 때까지 모든 항생제를 기다린다
+C. 음성 배양 하나로 임상 경과와 무관하게 항상 배제한다
+D. 항생제 투여 후에는 검체 시점 기록이 필요 없다
 
 ## 해설
 
-신생아 패혈증 진단의 핵심은 최소 1 mL를 채취하는 혈액 배양이다.
+적절한 양·방법으로 배양을 채취하고 임상 경과와 염증 지표 등을 함께 판단한다. 중증 환자에서 검사를 완결하기 위해 치료를 늦추지 않는다.
 
 ## 오답 포인트
 
-- **B. 혈청 IgM 검사:** IgM은 보조적이며 진단의 핵심이 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 신생아 패혈증 (Neonatal Sepsis)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/신생아 패혈증 (Neonatal Sepsis).md`
-- 학습 목표: 원문 핵심: * **혈액 배양**: 진단의 핵심 (최소 1mL 채취 권장) * **요추 천자**: 혈액 배양 양성, 뇌수막염 의심 증상(경련, 대천문 팽만) 시 시행 * **혈액 검사**: CBC(백혈구 수, 절대 호중구 수), CRP(6-8시간 후 상승, 24시간에 정점), 프로칼시토닌 * **기타**: 흉부 X-ray(호흡기 증상 시), 필요시 소변 배양(LOS 평가 시)
+- 학습 목표: 신생아 패혈증의 배양과 항균 치료 시점
+
+## 검수 근거
+
+- https://www.nice.org.uk/guidance/ng195/chapter/Recommendations

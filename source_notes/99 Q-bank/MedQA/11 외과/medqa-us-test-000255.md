@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 흉골 고정술
 
 
 수술 부위 감염으로 인한 창상 벌어짐은 괴사 조직과 고름이 존재하므로, 감염 조직을 완전히 제거하고 건강한 조직을 남기기 위해 변연절제술이 필요하다. 따라서 수술적 변연절제술이 가장 적절한 처치이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000255 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 괴사·농성 배액을 동반한 흉골 수술창 감염에서 변연절제 A가 맞고 원문·해설이 일치한다. 음압치료나 고정만으로 괴사조직 제거를 대체하지 않는다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.jtcvs.org/article/S0022522316308728/pdf
 
 ## 출처
 

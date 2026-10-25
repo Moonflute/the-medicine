@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 추가 조치를 위해 주치의의 의견을 받아야 합니다.
 
 ## 해설
 
+문서가 유효하고 환자의 현재 상황에 적용되는 치료거부 의사를 반영한다면, 대리인은 자신의 선호보다 환자의 의사를 따라야 하므로 A가 보기 중 맞다. 의사결정능력, 문서의 구체적 조건과 이후 변경 여부를 확인하고 가족에게 설명하며 적절한 완화치료를 제공한다. 단순히 5년 전 작성되었다는 이유로 무효가 되거나, 문서 내용을 확인하지 않고 모든 경우 즉시 환기를 중단한다는 뜻은 아니다. 이견이 지속되면 윤리/법적 지원을 이용한다.
 
-생전유언은 환자의 사전 의사표시이며, 법적으로 환자 스스로 결정한 치료 거부를 존중해야 한다. 따라서 환자의 의사에 따라 기계환기를 중단해야 한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 사전의향의 유효성과 현 상황 적용 여부를 확인하고 환자 의사를 대리인보다 우선하는 A의 근거 보완.
+- 공식/학회 근거: https://code-medical-ethics.ama-assn.org/ethics-opinions/advance-directives
 
 ## 출처
 

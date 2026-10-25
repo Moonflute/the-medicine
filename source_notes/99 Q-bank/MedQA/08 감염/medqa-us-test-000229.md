@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. A형간염
 ## 해설
 
 
-두통, 발진, 관절통, 간 효소 상승, 혈소판 감소와 같은 삼중증을 동반한 발열은 치쿤구니야의 전형적인 삼중증이다. 이 질환은 베트남·캄보디아 여행 후 1~2주 내에 나타나며, 살충제에 의해 매개되는 바이러스 감염이다. 따라서 가장 가능성 높은 진단은 치쿤구니야이다.
+여행 후 고열·발진과 손/손목의 두드러진 관절통은 치쿤구니야(A)를 시사한다. 감염된 Aedes 모기가 매개하며 살충제가 매개하는 것이 아니다. 혈소판감소는 뎅기 등에서도 보이므로 음성 지혈대 검사만으로 뎅기를 배제하지 않고 역학·검사와 함께 판단한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000229 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 관절통이 두드러진 여행후 발열에서 치쿤구니야 A 유지. 살충제 매개라는 명백한 오류를 Aedes 모기 매개로 교정, 음성 지혈대 검사로 뎅기 배제하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/chikungunya/causes-and-spread/index.html
 
 ## 출처
 

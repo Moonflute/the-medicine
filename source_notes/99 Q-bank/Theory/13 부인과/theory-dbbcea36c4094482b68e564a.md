@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "급속한 피부 발적·부종을 보이는 공격적 암의 개념은 감염성 유방염과 구별되는 중요 이론으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 유방 피부에 색소 침착과 가려움만을 일으키는 비암성 질�
 
 - 내부 학습 노트: 염증성 유방암 (Inflammatory Breast Cancer)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/염증성 유방암 (Inflammatory Breast Cancer).md`
-- 학습 목표: 원문 핵심: - **정의**: 유방 피부의 미만성 경화, 부종, 발적(erythema)을 특징으로 하는 국소 진행성 유방암의 희귀하고 공격적인 아형(T4d). - **원인**: 높은 체질량지수(BMI)가 독립적인 위험인자로 알려져 있음. - **기전**: 암세포가 진피 내 림프관을 침범하여 림프관 폐쇄를 유발함으로써 부종과 발적을 일으킴. 혈관신생 및 혈관침습 능력이 강함. - **역학**: 가장 치명적인 유방암 아형 중 하나로, 전체 유방암 사망의 약 7%를 차지함.
+- 학습 목표: 염증성 유방암의 피부·림프관 침범
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 급속한 피부 발적·부종을 보이는 공격적 암의 개념은 감염성 유방염과 구별되는 중요 이론으로 유지.

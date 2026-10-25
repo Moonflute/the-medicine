@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 복부 및 골반 조영 CT
 
 ## 해설
 
+검진을 원하는 55세 남성에서는 PSA 검사의 잠재적 이득, 위양성·과진단 및 후속 생검/치료의 위해를 설명한 뒤 선호에 따라 B, 혈청 PSA를 선택할 수 있다. TRUS나 CT를 일차 선별검사로 쓰지는 않는다. 나이가 55세라는 이유만으로 충분한 설명 없이 모든 남성에게 자동으로 PSA를 시행한다는 뜻은 아니다.
 
-전립선암 검진은 55세 이상 남성에서 PSA 혈청 검사가 권장된다. 환자는 55세이므로 PSA 검사를 시행하는 것이 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 55세 이상 모든 남성에서 PSA가 자동 권장된다는 설명을 이득·위해 설명 후 공동결정으로 교정.
+- 공식/학회 근거: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening
 
 ## 출처
 

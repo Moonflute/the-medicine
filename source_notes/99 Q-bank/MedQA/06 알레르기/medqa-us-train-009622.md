@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 중증 복합 면역결핍
 
 
 IgM은 정상이지만 IgG와 IgA가 감소한 패턴은 클래스 스위칭 결함을 의미한다. 고 IgM 증후군은 CD40L 또는 AID 결함으로 IgM은 정상·증가하고 다른 면역글로불린이 감소한다. 따라서 고 IgM 증후군이 가장 가능성 높은 기저 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-009622`와 직접 대조했다.
+- 판정: 영아기 반복 세균감염과 정상 IgM·낮은 IgG/IgA는 class-switch 결함의 고 IgM 표현형과 부합해 C 유지. 유전자·기능 확진까지 검증한 것은 아님.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

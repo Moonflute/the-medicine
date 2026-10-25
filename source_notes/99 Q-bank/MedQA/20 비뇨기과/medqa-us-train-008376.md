@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 칼만증후군
 
 ## 해설
 
+염증성 여드름, 운동선수 체형과 작은 고환은 A, 외인성 단백동화 안드로겐 사용을 시사한다. 외인성 안드로겐은 LH/FSH 분비를 억제하고 고환 내 testosterone과 정자형성을 감소시켜 고환 위축·난임을 일으킬 수 있다. 정상 사춘기 시작과 현재 virilization은 선천성 GnRH 결핍을 덜 지지한다. 본문에 고지혈증 검사 결과는 없다.
 
-근육량 증가와 고혈압, 고지혈증을 동반한 젊은 남성 운동선수에게서 고용량 단백동화 스테로이드 사용이 흔히 보이며, 이는 고환 위축과 불임을 초래한다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 본문에 없는 고지혈증을 제거하고 anabolic steroid의 시상하부-뇌하수체-성선 축 억제로 불임을 설명.
 
 ## 출처
 

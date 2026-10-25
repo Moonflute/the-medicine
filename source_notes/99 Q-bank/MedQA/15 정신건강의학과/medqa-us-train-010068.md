@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. γ-아미노부티르산 수용체 활성 조절
 
 ## 해설
 
+기능 손상을 동반한 조증 양상에 대한 장기 기분 안정 약물로 리튬이 출제 의도에 부합하며 B가 해당한다. 리튬은 이노시톨 모노포스파테이스(inositol monophosphatase, 탈인산효소) 등 이노시톨 대사 효소를 억제할 수 있다. 이는 단백질 인산화효소(kinase)가 아니다. 이노시톨 재순환 억제는 제안된 관련 기전 중 하나이지 임상 효과 전체를 단일 기전으로 확정한 것은 아니다. NICE에서도 리튬은 양극성장애 장기 약물치료 선택지로 제시된다.
 
-리튬은 이노시톨 단백질 인산화효소(IMPase)와 이노시톨 폴리포스파테이스 1을 억제해 세포내 이노시톨 재합성을 감소시켜 기분 안정에 기여한다. 이는 조증 삽화의 장기 관리에 핵심적인 작용 메커니즘이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: IMPase를 단백질 인산화효소로 잘못 번역한 오류를 탈인산효소로 교정하고 리튬 기전을 유일하게 확정하지 않도록 구분했다.
+- https://pubmed.ncbi.nlm.nih.gov/6253491/
+- https://www.nice.org.uk/guidance/cg185/chapter/recommendations
 
 ## 출처
 

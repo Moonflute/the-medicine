@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 룩솔리티닙
 ## 해설
 
 
-JAK2 변이를 동반한 광범위한 골수 섬유화와 혈소판 감소는 일차성 골수섬유증을 시사한다. 이 질환에서 JAK1/2 억제제인 룩솔리티닙이 질병 진행을 억제하고 증상을 완화한다. 따라서 가장 적절한 치료는 룩솔리티닙이다.
+비장비대·전신증상·골수섬유화와 JAK2 양성은 골수섬유증을 지지한다. 선지 중 룩솔리티닙(D)은 비장과 증상 조절에 사용한다. 빈혈·혈소판감소를 악화시킬 수 있어 혈구수에 따른 용량·보조치료가 필요하며 Hb 6.4 g/dL의 안정화도 별도 평가한다. 이를 완치나 진행억제를 보장하는 약이라고 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000012 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 증상성 JAK2+ 골수섬유증에서 D 유지. 질병진행 억제를 보장한 해설 제거, 심한 빈혈·혈소판 저하에서 별도 안정화·용량 고려 필요.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.fda.gov/media/163792/download
 
 ## 출처
 

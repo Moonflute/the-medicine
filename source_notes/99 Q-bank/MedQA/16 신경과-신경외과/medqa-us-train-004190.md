@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 요실금
 
 ## 해설
 
+수년간 진행한 기억장애와 익숙한 곳에서 길을 잃는 기능저하, 시간 지남력 저하에 비해 정상 보행·근력은 알츠하이머병 양상의 인지장애를 시사한다. 선지 중 전반적 뇌 위축(C)이 가장 예상되는 영상 소견이며 초기에는 내측 측두엽·해마 위축이 두드러질 수 있다. 뇌 위축만으로 알츠하이머병을 확진하지 않으며 혈관성·가역성 등 다른 원인도 평가한다. 일상생활 기능이 완전히 보존되었다고 설명할 수는 없다.
 
-진행성 기억력 저하와 일상생활 기능 유지, 전반적인 인지감소는 알츠하이머병을 시사한다. MRI에서 전반적 뇌 위축이 흔히 관찰된다. 따라서 예상되는 소견은 전반적 뇌 위축이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 길을 잃고 지남력이 저하된 환자를 일상 기능이 유지된다고 한 오류를 제거했다. 진행성 기억 우세 인지저하의 C를 유지하되 뇌위축 자체는 비특이적임을 설명한다.
 
 ## 출처
 

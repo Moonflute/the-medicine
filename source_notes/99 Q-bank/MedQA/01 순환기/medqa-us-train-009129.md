@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. CT 혈관조영술 시행
 
 ## 해설
 
+최근 심근경색 후 발생한 흉막성 흉통, 발열, 심낭 마찰음과 광범위 ST 상승은 심근경색 후 심낭염에 부합한다. 이미 항혈소판 치료를 받는 환자에서는 항염증 용량의 아스피린이 우선이므로 C의 아스피린 증량이 적합하다. 다른 NSAID를 무조건 대체 투여한다는 뜻은 아니며, 출혈 위험과 위장 보호 및 콜히친 병용 여부를 평가한다.
 
-심근경색 후 2주 내에 발생한 흉통, 마찰음, 발열은 드레슬러 증후군(심근경색 후 심낭염)이다. 치료는 비스테로이드성 항염증제(NSAID)로 증상을 완화한다. 따라서 NSAID 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C를 비특이적 NSAID로 바꾸어 설명한 해설을 심근경색 후 심낭염의 아스피린 증량으로 명시.
+- https://www.escardio.org/static-file/Escardio/Guidelines/Products/Slide%20sets/2025/2025%20official%20slides_MyoPeri.pdf
 
 ## 출처
 

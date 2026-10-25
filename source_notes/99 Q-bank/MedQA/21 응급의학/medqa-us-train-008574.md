@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 기관내 삽관
 
 ## 해설
 
+약물 투여 직후 전신 두드러기, 입술 부종, 천명과 저혈압이 나타나 아나필락시스에 해당한다. 대퇴 전외측 근육주사 에피네프린(C)이 우선이며 산소, 정맥 수액과 반복 평가를 병행한다. 항히스타민제는 호흡·순환 장애를 치료하는 에피네프린을 대신하지 못한다. 수술은 아직 시행하지 않았으며 어느 약이 원인인지 이 자료만으로 확정할 수 없다. 기도 부종이 진행하거나 환기를 유지하지 못하면 숙련된 기도 확보를 혈압 회복 때까지 미뤄서는 안 된다.
 
-수술 후 급성 알레르기 반응(전신 두드러기, 혈압 저하, 천명음)은 아나필락시스이며, 1차 치료는 근육 내 에피네프린이다. 디펜히드라민은 보조제이지만 혈역학적 위기에서는 충분히 빠르지 않다. 항생제는 원인균이 아니며 기도 확보는 혈압 회복 후 고려한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수술 전 약물 투여 뒤 발생한 아나필락시스를 수술 후로 설명한 오류를 교정한다. 기도 확보를 혈압 회복 후로 미루라는 위험한 문장을 제거한다.
+- 공식/학회 근거: https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions
 
 ## 출처
 

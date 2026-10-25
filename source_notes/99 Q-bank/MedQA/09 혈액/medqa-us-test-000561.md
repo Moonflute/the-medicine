@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 약물 복용 불이행
 ## 해설
 
 
-완전 채식으로 비타민 K 섭취가 크게 감소하면 와파린의 항응고 효과가 감소해 INR이 낮아진다. 다른 변수는 변하지 않았다. 따라서 식단 변화가 원인이다.
+채식 전환으로 비타민 K가 많은 녹색 채소 섭취가 증가했다면 와파린 효과가 감소해 INR이 낮아질 수 있어 A가 가장 타당하다. 비타민 K 섭취 감소는 오히려 INR을 올리는 방향이다. 모든 채식이 같은 함량인 것은 아니므로 실제 섭취와 복약을 확인하고 비타민 K 섭취를 일정하게 유지한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000561 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 채식 변경 후 INR 저하 A 유지. 비타민K 감소가 와파린 효과를 낮춘다는 정반대 기전 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cuh.nhs.uk/patient-information/oral-anticoagulant-therapy-with-warfarin-phenindione-or-acencoumarol/
 
 ## 출처
 

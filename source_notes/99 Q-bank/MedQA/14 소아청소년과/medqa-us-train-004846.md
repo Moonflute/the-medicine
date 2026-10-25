@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 복부 초음파검사
 
 ## 해설
 
+설사·구토 없이 검붉은 변과 빈혈이 생긴 어린 소아에서는 Meckel 게실의 이소성 위점막에 의한 출혈을 의심한다. Tc-99m pertechnetate 스캔(C)은 이소성 위점막을 검출하는 적절한 검사이다. 모든 장출혈에 보편적으로 가장 민감한 검사인 것은 아니며 음성도 완전 배제를 뜻하지 않는다.
 
-소아 무통성 하부 위장관 출혈에서 메켈 게실을 확인하려면 Tc‑99m 퍼테크네이트 스캔이 가장 민감한 검사이다. 대변 배양·우유 단백 제거·복부 초음파는 진단에 적합하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Meckel 스캔을 모든 소아 출혈의 최고 민감도 검사로 일반화한 설명을 보정.
+- https://tech.snmjournals.org/content/42/3/163
 
 ## 출처
 

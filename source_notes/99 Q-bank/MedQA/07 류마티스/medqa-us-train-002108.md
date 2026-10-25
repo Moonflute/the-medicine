@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 혈청음성 다관절형 소아 특발성 관절염
 
 
 소아 특발성 관절염 중 소수관절형은 4관절 이하에 국한되며, ANA 양성, 전방 포도막염이 동반될 수 있다. 환자는 4관절 이하, ANA 1:320, 전방 포도막염을 보여 소수관절형 소아 특발성 관절염이 가장 가능성 높다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002108 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 첫 6개월 내 양 무릎·오른발목·오른손목 총4관절의 만성 관절염과 ANA 양성 전방포도막염은 소수관절형 JIA B에 부합한다. 5관절 이상으로 잘못 세지 않고 직접 대조했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

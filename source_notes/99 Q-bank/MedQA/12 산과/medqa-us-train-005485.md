@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 입원 후 정맥 수액 재수화
 
 ## 해설
 
+이미 임신으로 알려져 있으나 산전 평가를 받지 않았고 지속 구토·체중감소가 있어 초음파로 주수·태아 수·포상기태 등 원인을 확인하는 B가 출제 의도이다. β-hCG와 영상은 감별 평가의 일부이지 탈수·영양 상태 평가를 대체하지 않는다. 동시에 전해질·수분 상태를 평가하고 필요시 수액·항구토제·티아민을 투여하며 임신오조를 배제한다고 단정하지 않는다.
 
-임신 22주에 구토와 체중 감소가 8주 지속되면 임신성 구토(임신오조)와는 구별하기 위해 임신 여부를 확인하고 태아 상태를 평가해야 한다. β‑hCG 측정과 초음파는 임신 여부와 태아 생존을 확인한다. 따라서 가장 중요하고 우선적인 처치는 β‑hCG 측정과 골반 초음파이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 22주 임신 확인만을 목적으로 한 해설을 다태·포상기태 등 원인 평가와 연결.
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pregnancy-sickness-nausea-and-vomiting-of-pregnancy-and-hyperemesis-gravidarum
 
 ## 출처
 

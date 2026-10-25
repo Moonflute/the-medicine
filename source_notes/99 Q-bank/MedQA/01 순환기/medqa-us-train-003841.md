@@ -20,17 +20,26 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k
 question_type: association
 difficulty: standard
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMCDsooXslpEvRG94b3J1YmljaW4ubWQ
+medical_review_status: "content-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 확장성 심근병증의 잘못된 이완기 기능 선지 교정."
+curation_status: "revised"
+curation_reason: "확장성 심근병증의 잘못된 이완기 기능 선지 교정."
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -41,17 +50,26 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 대동맥-심실 압력차 정상, 이완기 기능 저하, 심실강 정상, 심실벽 두께 정상
-B. 대동맥-심실 압력차 정상, 이완기 기능 정상, 심실강 증가, 심실벽 두께 증가
-C. 대동맥-심실 압력차 정상, 이완기 기능 저하, 심실강 증가, 심실벽 두께 증가
-D. 대동맥-심실 압력차 정상, 이완기 기능 정상, 심실강 증가, 심실벽 두께 감소
+A. 심실강 크기는 정상이고 이완기 기능만 감소한다
+B. 대동맥-좌심실 압력차가 커지고 동심성 심실비대가 나타난다
+C. 심실강이 작아지고 심실중격이 비대칭적으로 두꺼워진다
+D. 심실강이 확장되고 수축기 기능이 저하된다. 이완기 기능장애도 동반될 수 있다
 
 ## 해설
 
+Doxorubicin 노출 뒤 진행하는 호흡곤란·부종과 S3는 심독성에 의한 확장성 심근병증을 시사한다. 전형적 소견은 좌심실 확장과 수축기 기능 저하이며 이완기 기능이 반드시 정상인 것은 아니다. 대동맥판 협착의 압력차 증가나 비대심근병증의 비대칭 중격 비대와 구분한다.
 
-독소루비신은 확장성 심근증을 일으켜 좌심실 용적이 증가하고 심실벽이 얇아지는 확장성 심근병증을 초래한다. 이는 이완기 기능은 정상이나 수축기 기능 저하와는 구별된다. 따라서 심초음파에서 가장 가능성 높은 변화는 대동맥‑심실 압력차 정상, 이완기 기능 정상, 심실강 증가, 심실벽 두께 감소이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 확장성 심근병증의 잘못된 이완기 기능 선지 교정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003841
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

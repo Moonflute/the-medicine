@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 일차 HIV 감염
 
 
 보호되지 않은 성관계와 급성 전신 증상이 동반된 경우, 급성 HIV 감염을 가장 먼저 배제해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007442 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 보호 없는 노출·전신 바이러스 증후군·인두염/림프절의 acute HIV D 배제 필요성을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

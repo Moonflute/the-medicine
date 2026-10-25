@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 비알코올성 지방간염
 
 ## 해설
 
+비만·당뇨·ALT우세의 경미한 상승과 지방축적·풍선변성·염증은 D의 NASH(현행 대사성 용어로 MASH에 해당하는 표현형)를 지지한다. 본문은 맥주1캔/일이며 간헐적 과음으로 임의 변경하면 안 된다. 유의한 섬유화가 없어 간경변 C는 아니다.
 
-간헐적 고알코올 섭취와 비만, 경미한 간 효소 상승, 비특이적 염증세포 침윤은 비알코올성 지방간염(NASH)을 시사한다. 이는 비알코올성 지방간질환에서 염증이 동반된 형태이다. 따라서 정답은 비알코올성 지방간염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 매일 맥주1캔을 간헐적 고알코올섭취로 바꾼 설명을 제거하고 대사성 지방간염 D로 정리.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

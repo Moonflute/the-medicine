@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 비타민 B12 결핍
 ## 해설
 
 
-메틸말론산이 정상보다 크게 상승한 것은 비타민 B12 결핍에서 특이적으로 나타나는 소견이다. B12 결핍은 거대적아구성 빈혈을 일으키며, 혈색소는 경미하게 감소한다. 따라서 가장 가능성 높은 원인은 비타민 B12 결핍이다.
+빈혈과 낙상·균형 이상에 methylmalonic acid 상승이 동반되어 선택지 중 B12 결핍(D)이 가장 부합한다. 엽산 결핍이나 알코올 자체만으로는 보통 MMA가 상승하지 않는다. 다만 MMA는 신기능 저하 등에서도 증가할 수 있으므로 임상상과 B12·신기능을 함께 해석한다. Hb 9g/dL를 모든 상황에서 경미한 감소로 규정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000214 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MMA 증가·빈혈·낙상에서 B12결핍 D 유지. Hb9를 경미 감소로 일률 표현하거나 MMA를 신기능과 무관하게 완전 특이로 단정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

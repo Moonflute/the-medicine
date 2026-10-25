@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 폐동맥 고혈압
 ## 해설
 
 
-거대세포성 동맥염은 대동맥벽 염증으로 인해 흉부 대동맥류 발생 위험이 증가한다. 따라서 가장 위험한 합병증은 흉부 대동맥류이다.
+새 두통, 턱 파행, 전신증상과 일과성 단안 시력소실은 GCA를 강하게 시사한다. 큰 동맥 염증과 벽 약화로 흉부대동맥류 B 위험이 높아진다. 이는 제시한 장기 합병증 비교이며 시력손상보다 덜 중요하거나 현재 시력소실을 기다려도 된다는 뜻은 아니다. 현재 증상은 즉각적인 시력위협 평가·치료 대상이며 대혈관 영상 및 추적은 임상상에 따라 계획한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008658 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: GCA의 대동맥류 위험 B 유지하되 현재 일과성 시력소실의 응급성을 간과하거나 모든 합병증 중 가장위험이라 바꾼 표현 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

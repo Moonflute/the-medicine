@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 설파살라진
 ## 해설
 
 
-강직성 척추염의 초기 증상은 목과 요추의 강직이며, 비스테로이드성 항염증제(NSAIDs)만으로 증상이 완화되지 않을 경우 2차 약물인 인도메타신이 권장된다. 인도메타신은 TNF‑α 억제제로 염증을 감소시켜 초기 증상 개선에 효과적이다. 따라서 초기 치료는 인도메타신이다.
+젊은 나이에 시작한 만성 축성 증상과 후만·척추 운동제한은 ankylosing spondylitis를 시사한다. 초기 증상 조절은 운동과 NSAID이며 indomethacin B는 NSAID의 하나이다. NSAID 실패 뒤 사용하는 별개 TNF 억제제가 아니고, TNF억제제인 infliximab은 다른 약이다. Methotrexate·sulfasalazine은 순수 축성 증상의 표준 초기 치료를 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000244 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: indomethacin을2차약/TNF억제제라고 한 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/NG65/chapter/Recommendations
 
 ## 출처
 

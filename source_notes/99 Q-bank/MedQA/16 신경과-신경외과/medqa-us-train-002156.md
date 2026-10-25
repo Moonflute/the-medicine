@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 지주막하출혈
 
 ## 해설
 
+보행장애·인지저하·요실금, 뇌실 확장과 대량 요추천자 후 호전은 정상압수두증에 합당하다. 지주막하출혈(D) 후 지주막 과립 등에서 뇌척수액 흡수가 저하되면 교통성 수두증 및 이차성 정상압수두증이 생길 수 있다. 이는 주어진 선지 중 가장 직접적인 원인이다. 정상압수두증에는 원인이 확인되지 않는 특발성 경우도 많으므로 지주막하출혈을 모든 경우의 가장 흔한 원인이라고 일반화하지 않는다.
 
-정상압 수두증은 보행장애, 요실금, 인지저하를 동반하며 MRI에서 뇌실 확대와 주변 고신호가 보인다. 가장 흔한 위험 요인은 이전 지주막하출혈로 인한 CSF 재흡수 장애이다. 따라서 지주막하출혈이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 지주막하출혈은 이차성 정상압수두증의 알려진 원인이지 모든 정상압수두증에서 가장 흔한 위험인자는 아니다. 주어진 선지 중 D를 유지하며 재흡수 장애 기전으로 설명했다.
 
 ## 출처
 

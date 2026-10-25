@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,9 +47,15 @@ D. 부모에게 집에서 총기를 치우도록 지시한다
 ## 해설
 
 
-청소년 주요우울증에서 자살 위험이 있을 경우 가장 중요한 안전 조치는 총기 접근 제한이다. 약물 치료와 병행해 부모에게 집에 있는 총기를 치우도록 지시하는 것이 최우선이다. 다른 선택지는 보조적이지만 안전에 직접적인 영향을 주지 않는다.
+청소년 주요우울증에서 자살 위험이 있을 경우 가장 중요한 안전 조치는 총기 접근 제한이다. 약물 치료와 병행해 부모에게 집에 있는 총기를 치우도록 지시하는 것이 최우선이다. 가족 지원과 음주 문제 평가도 중요하지만 치명적 수단 접근 제한을 대체하지 않는다. 계획이 없다는 이유만으로 낮은 위험으로 확정하지 말고 의도·수단·보호 및 추적 가능성을 함께 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007476
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 총기 접근 제한 정답 유지. 가족·음주 중재가 안전에 직접 영향이 없다고 단정한 마지막 문장 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

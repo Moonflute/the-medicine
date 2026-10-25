@@ -20,16 +20,18 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 직접적인 신독성 손상
 
 ## 해설
 
+NSAID의 prostaglandin억제와 sickling은 취약한 신수질/유두의 관류를 떨어뜨려 유두괴사·혈뇨를 유발할 수 있어 C가 부합한다. 신우자체의 허혈과 동일한 구조가 아니다. 흡연/혈뇨에서 종양 등 다른원인도 실제로 평가한다.
 
-만성 NSAID 사용과 겸상 적혈구증은 신우에 혈류 감소를 초래해 신우 허혈(신장 유두 허혈)과 출혈을 일으켜 혈뇨를 유발한다. 이는 가장 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Renal papilla를 renal pelvis(신우)와 혼동한 해설. NSAID·sickletrait의 유두허혈 C.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

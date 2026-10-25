@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
   - ZHJ1ZzoxMCDsooXslpEvRG94b3J1YmljaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 페니실린 V 투여
 
 ## 해설
 
+여러 단계의 새 발진과 가피는 수두를 시사한다. 항암화학요법 중인 면역저하 소아는 중증·파종 위험이 있어 acyclovir(C), 통상 정주 치료가 필요하다. 노출 후 면역글로불린 예방을 이미 발생한 수두의 항바이러스 치료와 혼동하지 않는다.
 
-면역억제 치료를 받은 소아에서 수두(Varicella) 감염 위험이 높으며, 항바이러스제 아시클로버가 표준 치료이다. 따라서 아시클로버 투여가 가장 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 항암 중 수두의 acyclovir 투여 경로와 면역글로불린의 예방 역할을 명확화.
+- https://www.cdc.gov/chickenpox/hcp/clinical-guidance/index.html
 
 ## 출처
 

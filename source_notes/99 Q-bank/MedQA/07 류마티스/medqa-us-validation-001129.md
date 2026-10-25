@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 다발근육염
 ## 해설
 
 
-구강·안구 건조, 양성 ANA·항Ro·항La, 항dsDNA 음성은 원발성 쇼그렌 증후군을 특징짓는다. 따라서 가장 가능성 높은 진단은 원발성 쇼그렌 증후군이다.
+Sicca 증상과 치아우식, anti-Ro/SSA 및 ANA/RF 양성은 primary Sjögren disease C를 가장 지지한다. 이 사례에서는 anti-La 결과가 제시되지 않아 양성이라고 만들어 적으면 안 된다. RF양성만으로 RA를 진단하지 않으며 객관적인 눈물·침샘 기능과 감별을 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001129 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문에 없는 anti-La양성을 확인값으로 창작한 부분 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

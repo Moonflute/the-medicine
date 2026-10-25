@@ -18,15 +18,24 @@ question_type: mechanism
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA
 difficulty: complex
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 영아 보툴리즘의 포자 섭취·장내 독소 생성 기전 교정."
+curation_status: "revised"
+curation_reason: "영아 보툴리즘의 포자 섭취·장내 독소 생성 기전 교정."
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -39,15 +48,25 @@ explanation_prompt_version: explanation-ko-v1
 
 A. 아세틸콜린 수용체에 대한 자가항체
 B. 수막의 세균 감염
-C. 미리 형성된 독소 섭취
+C. 섭취한 Clostridium botulinum 포자가 장내에서 정착해 독소를 생성한다
 D. Haemophilus influenzae 감염
 
 ## 해설
 
+변비, 수유 저하, 안검하수와 이완성 약화는 영아 보툴리즘을 시사한다. 영아에서는 섭취한 C. botulinum 포자가 장내에 정착하고 독소를 생산해 신경근접합부의 acetylcholine 방출을 억제한다. 미리 생성된 독소를 먹는 전형적 식품매개 보툴리즘과 구분한다. 예방접종을 하지 않았다는 사실만으로 Hib 감염을 정답으로 삼지 않는다.
 
-보툴리눔 독소는 섭취 후 전신 근육 마비를 일으키며, 신경근 접합부에서 아세틸콜린 방출을 차단한다. 이는 미리 형성된 독소 섭취에 해당한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 영아 보툴리즘의 포자 섭취·장내 독소 생성 기전 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.cdc.gov/botulism/hcp/clinical-overview/infant-botulism.html
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008308
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

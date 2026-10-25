@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 생리식염수 주입검사
 ## 해설
 
 
-알도스테론이 상승하고 레닌이 정상 이하인 경우 원발성 알도스테론증을 의심한다. 확진을 위해 생리식염수 주입 검사를 시행한다.
+정답 D. Aldosterone 26ng/dL, PRA0.8에서 ARR은 약32.5로 고혈압·저칼륨혈증과 함께 원발성 알도스테론증을 의심한다. 수술적 치료를 고려하며 생화학적 확률이 중간인 경우 saline 억제검사를 사용할 수 있다. 먼저 K 교정과 간섭 약물 영향을 평가해야 하며 이뇨제 중단 1주는 일반적인 충분한 washout이라고 할 수 없다. 보정 재검 여부·혈압·체액부하 금기를 확인하고 검사한다. 억제검사가 모든 양성 선별 환자에게 필수인 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008732 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ARR 약32.5와 낮은 renin의 PA 의심에서 D는 조건부 억제검사; 최근 이뇨제 중단/저K 교정과 수술 의향 등 2025 원칙 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2
 
 ## 출처
 

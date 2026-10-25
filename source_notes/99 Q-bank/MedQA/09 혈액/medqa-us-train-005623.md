@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 진동감각 저하
 ## 해설
 
 
-크론병 환자에서 거대적아구성 빈혈은 비타민 B12 결핍에 의해 발생하며, 이는 말초 신경의 진동감각 저하를 초래한다. 따라서 진동감각 저하가 가장 흔히 나타나는 소견이다.
+Crohn병에서 회장 침범/절제 등에 따른 B12 흡수장애가 가능하고 거대적혈구성 빈혈과 신경증상의 연관으로 선택지 D의 진동감각 저하가 가장 부합한다. 엽산 부족·약물 등 다른 원인도 가능하므로 실제 B12/엽산을 확인한다. 모든 Crohn의 거대적혈구 빈혈이 B12 결핍이라고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005623 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Crohn의 모든 거대적아구성 빈혈이 B12라는 일반화를 교정; 회장성 흡수장애와 진동감각 D 연결 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

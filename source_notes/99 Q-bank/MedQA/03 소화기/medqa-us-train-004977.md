@@ -20,15 +20,17 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,15 @@ D. 글루텐 제한 식이
 
 ## 해설
 
+설사·철결핍성 빈혈·Turner증후군·양성 tTG는 셀리악병을 강하게 시사하고 D의 gluten-free diet가 치료이다. 다만 성인에서 항체 양성만으로 모든 경우 확진되는 것은 아니며 생검 거부 시 진단 불확실성을 설명한다. 식이를 먼저 제한하면 후속 혈청/조직검사 민감도가 낮아질 수 있음을 논의한다.
 
-환자는 셀리악병에 해당하는 IgA 조직 트랜스글루타미나제 항체 양성, 철 결핍성 빈혈, 복통·설사 등을 보이며, 글루텐 제한 식이가 치료에 가장 효과적이다. 따라서 글루텐 제한 식이가 적절한 단계 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 양성 tTG와 생검거부 상황의 GFD D를 진단한계 설명과 연결.
+- https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis
+- https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/treatment
 
 ## 출처
 

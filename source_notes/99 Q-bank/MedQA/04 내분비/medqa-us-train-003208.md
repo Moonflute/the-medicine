@@ -21,13 +21,15 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 목 CT
 
 ## 해설
 
+갑상샘 결절 초기 평가에서 TSH C를 측정한다. TSH가 낮으면 자율기능성 결절 가능성을 평가하기 위해 radionuclide scan을 고려하고, 정상/높은 경우 초음파 위험도와 크기 등을 바탕으로 추가 평가한다. 미세석회화·불규칙 경계는 의심 소견이지만 0.9cm 결절에서 즉시 개방생검을 하는 것은 아니다. 낮은 TSH가 기능항진 가능성을 낮춘다는 기존 문장은 반대이다.
 
-갑상선 결절 평가에서는 먼저 혈청 TSH를 측정하여 갑상선 기능을 확인한다. TSH가 정상 또는 저하이면 결절이 기능항진일 가능성이 낮으며, 초음파 소견만으로는 진단이 확정되지 않는다. 따라서 다음 단계는 갑상선자극호르몬(TSH) 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: TSH 저하이면 기능항진 결절 가능성이 높아 scan을 고려하는데 기존 해설은 반대로 서술.
+- https://doi.org/10.1089/thy.2015.0020
 
 ## 출처
 

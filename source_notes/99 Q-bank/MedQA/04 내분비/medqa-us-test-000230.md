@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 기저 질환 치료
 
 ## 해설
 
+정답은 D이다. 패혈증과 중증 질환 중 TSH가 정상 범위이고 free T3가 낮으며 free T4가 비교적 유지되는 결과는 비갑상샘질환증후군(NTIS, low-T3 syndrome)에 합당하다. 갑상샘 호르몬이 모두 정상이라는 뜻은 아니다. 기존 갑상샘질환을 시사하는 근거가 없다면 감염과 혈역학적 이상 등 기저 중증 질환을 치료하며 NTIS만을 이유로 levothyroxine을 일률적으로 투여하지 않는다.
 
-패혈성 쇼크 후 저혈압이 지속되지만 갑상선 기능 저하증(비갑상샘증후군) 징후가 없으며, 갑상선 호르몬 수치가 정상이다. 따라서 저혈압은 기저 질환(패혈증) 자체에 기인하므로, 추가적인 호르몬 치료가 아니라 원인 질환 관리가 필요하다. 가장 적절한 치료는 기저 질환 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 낮은 free T3를 정상 갑상샘검사라고 한 해설 교체; 패혈증 관련 NTIS의 임상 맥락 설명.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/
 
 ## 출처
 

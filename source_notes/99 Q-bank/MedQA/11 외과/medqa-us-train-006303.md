@@ -17,13 +17,17 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
 question_type: investigation
 difficulty: complex
-answer: A
+answer: B
+original_answer: A
+answer_change_reason: "WSES 천공성 소화성궤양 지침은 CT가 신속히 가능할 때 CT를 권고하며 단순촬영 우선은 CT 즉시 이용 불가에 한정한다. 이 문항에는 CT 이용 제한이나 영상 불가 쇼크가 없어 A→B로 수정. 근거: https://doi.org/10.1186/s13017-019-0283-9"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +51,14 @@ D. 응급 개복술
 ## 해설
 
 
-복부가 단단하고 반발통·감소된 장음이 있는 급성 복통은 복막염을 의심하게 하며, 복부 X‑ray는 자유 공기(천공) 여부를 빠르게 확인할 수 있는 초기 영상검사이다. CT는 더 자세하지만 방사선 촬영이 먼저 시행되는 표준이다. 따라서 다음 단계는 복부 방사선 촬영이다.
+갑작스러운 심한 복통·경직·반발통과 NSAID 사용은 소화성 궤양 천공 등 수술성 급성복증을 의심하게 한다. 소생·금식·신속한 외과 평가와 함께, 혈역학적으로 영상검사가 가능하고 CT 이용 제한이 없는 제시 조건에서는 복부 CT(B)가 천공과 위치·다른 원인 평가에 적절하다. WSES는 의심 천공에서 CT를 권고하며 단순 흉부/복부 X선(A)은 CT를 신속히 시행할 수 없을 때 초기 대안이다. 환자가 불안정하거나 검사 때문에 응급 감염원 제어가 지연될 상황이면 영상검사를 기다리며 수술을 미루지 않는다. 원정답 A와 변경 이유를 보존했다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006303 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원정답 A에서 B로 변경. NSAID 노출·갑작스러운 복통·복막자극징후의 천공 의심 급성복증에서 WSES는 CT가 신속히 가능하면 CT를 권고하고 단순촬영은 CT 즉시 이용 불가 때 대안으로 명시한다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1186/s13017-019-0283-9
 
 ## 출처
 

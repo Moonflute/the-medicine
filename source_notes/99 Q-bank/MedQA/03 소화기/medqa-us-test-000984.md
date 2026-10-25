@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 내시경을 반복한다
 
 
 식도정맥류 출혈 예방에 비선택적 베타 차단제인 나돌롤이 문맥압을 감소시켜 가장 효과적이다. 따라서 나돌롤이 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 작은 정맥류라도 red signs는 출혈 고위험. 제시된 약 중 비선택성 β차단제 nadolol C가 예방 목적에 부합.
+- https://www.esge.com/assets/downloads/pdfs/guidelines/2022_a-1939-4887.pdf
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 부차적 혈액형 부적합
 ## 해설
 
 
-주요 혈액형 부적합은 수혈 후 급성 용혈 반응을 일으켜 발열, 저혈압, 혈색소 급감, 옆구리 통증(신장 출혈) 등을 나타낸다. 환자는 수혈 후 30분 내에 이러한 증상이 급격히 나타났으며, 혈색소와 혈압이 떨어졌다. 따라서 가장 가능성 높은 진단은 주요 혈액형 부적합이다. (부차적 혈액형 부적합은 주로 혈소판 수혈에서 발생하며, IgA 감소는 알레르기 반응을 일으킨다.)
+수혈 직후 발열, 저혈압, 의식변화와 옆구리 통증에 낮은 haptoglobin·빌리루빈 상승이 동반되어 급성 용혈성 수혈반응을 시사한다. 선택지 중 주요 혈액형 부적합(C)이 가장 적절하다. 수혜자 항체가 공여 적혈구를 공격하는 면역용혈로 설명하며, 옆구리 통증 자체가 신장 출혈을 입증하지는 않는다. 산소포화도가 보존된 점과 용혈검사 결과는 TRALI나 단순 알레르기보다 용혈을 지지한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009230 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수혈 직후 발열·저혈압·낮은 haptoglobin·고빌리루빈은 급성 면역용혈/주요 혈액형 부적합 C. 옆구리 통증을 신장 출혈로 단정하거나 Hb 급감을 수치 없이 주장하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

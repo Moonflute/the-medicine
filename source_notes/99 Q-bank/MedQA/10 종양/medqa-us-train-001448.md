@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 요폐
 
 
 한쪽 눈의 ptosis와 miosis는 호른 증후군이며, 교감신경 차단에 의해 안면 땀 감소가 동반된다. 따라서 가장 흔히 동반되는 추가 소견은 반측 안면 발한 소실이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001448`와 직접 대조했다.
+- 판정: 일측 축동·안검하수·상지 증상 및 흡연/체중감소로 Horner 맥락, 반측 안면 무한증 B와 해설 연결 유지. 종양 확진까지 검토한 것은 아님.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

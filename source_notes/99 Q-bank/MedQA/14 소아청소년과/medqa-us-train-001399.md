@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 기관삽관 및 기계환기
 
 ## 해설
 
+좌측 호흡음 소실·우측 심음·오목한 복부와 지속 저산소증은 선천성 횡격막탈장을 시사한다. 기관삽관·조심스러운 기계환기(D)와 위장 감압으로 안정화한다. 마스크환기는 장 팽창을 악화시킬 수 있다. 이미지를 직접 확인하지 않았으므로 특정 X선 소견을 보았다고 단정하지 않는다.
 
-신생아의 좌폐 청진이 없고 흉부 X선에서 장기 탈장이 보이면 선천성 횡격막 탈장이 의심된다. 급성 호흡부전이 있기에 즉시 기관삽관 및 기계환기가 필요하다. 따라서 기관삽관 및 기계환기가 초기 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 선천성 횡격막탈장 의심의 기도 확보 D 유지. 보지 못한 영상 소견 창작 제거와 마스크환기 위험 명시.
+- https://cahs.health.wa.gov.au/~/media/HSPs/CAHS/Documents/Health-Professionals/Neonatology-guidelines/Congenital-Diaphragmatic-Hernia-CDH.pdf?thn=0
 
 ## 출처
 

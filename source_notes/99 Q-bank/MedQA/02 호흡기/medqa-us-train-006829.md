@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 초음파에서 압박되지 않는 대퇴정맥
 
 ## 해설
 
+임신·여행·좌측우세종창과저산소/흉막통은 DVT/PE를 의심하게 한다. D의 압박되지않는 대퇴정맥은 탐촉자로 압박해도 혈전이 있는 내강이 찌그러지지않는다는 뜻이다. 단순정맥압상승이나 평소외부에서 눌리지않는다는 의미가 아니다.
 
-임신 중 대퇴정맥 혈전증은 종종 정맥압 상승으로 인해 정맥이 압박되지 않은 상태로 보인다(압박되지 않은 대퇴정맥). 이는 폐색전증과 연관된 심부정맥혈전증의 특징이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: DVT의 압박불가 D를 단순정맥압상승/외부압박부재와 혼동한 기전 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,15 @@ D. 혈청 5-하이드록시인돌아세트산(5-HIAA) 농도
 ## 해설
 
 
-피부의 자주색 변색과 설사, 심내막 비후는 카르시노이드 증후군을 시사한다; 5‑HIAA는 진단에 필수적인 검사이다. 따라서 정답은 D이다.
+설사·피부염·인지변화는 pellagra를 시사하고, 우심내막 섬유화와 삼첨판병변은 carcinoid syndrome을 뒷받침한다. Serotonin합성으로 tryptophan이 전환되어 niacin결핍이 동반될 수 있다. 보기 중5-HIAA D가 관련 생화학검사이다. 전통적으로24시간 urine5-HIAA를 사용하며 검증된 혈청/혈장 assay도 대안이 될 수 있으나 신기능·식이·약물과 검체별 기준치를 고려한다. 모든환자의필수단독확진검사라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008397 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 설사·광과민피부염·인지변화의 pellagra와carcinoid/5HIAA연관을보완; serum5HIAA는검증assay를전제로가능함을1차연구확인.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9539661/
+- https://pubmed.ncbi.nlm.nih.gov/26438520/
 
 ## 출처
 

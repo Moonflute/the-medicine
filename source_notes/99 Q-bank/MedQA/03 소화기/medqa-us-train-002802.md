@@ -21,11 +21,11 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 개복술
 
 ## 해설
 
+수술 후 심한 대장 확장에 고열·빈맥·방어·반발통이 동반되어 허혈 또는 천공을 의심해야 한다. 따라서 D의 즉각적인 외과 평가·수술 접근이 적절하다. 합병증 없는 가성폐쇄에서 쓰는 보존치료, neostigmine 또는 내시경 감압만으로 지연해서는 안 된다. 맹장 직경만이 아니라 복막자극 소견이 핵심이다.
 
-Ogilvie 증후군은 장폐색이 없으면서 대장 확장이 심한 급성 대장 가성폐쇄이며, 장천공 위험이 높아지므로 즉시 개복술(외과적 감압)이 필요하다. 비위관·직장관 삽입은 보조적이며, 내시경·네오스티그민은 비적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Ogilvie에서 수술 D의 결정적 근거를 단순14cm가 아니라 고열·반발통/방어의 허혈·천공 의심으로 명시.
+- https://www.asge.org/home/resources/publications/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-role-of-endoscopy-in-the-management-of-acute-colonic-pseudo-obstruction-and-colonic-volvulus
 
 ## 출처
 

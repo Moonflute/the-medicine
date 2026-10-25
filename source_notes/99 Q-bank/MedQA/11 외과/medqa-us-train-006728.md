@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 불충분한 기계적 지혈
 ## 해설
 
 
-수술 후 출혈이 지속되는 경우 가장 흔한 원인은 기계적 지혈(압박, 봉합 등)이 충분히 이루어지지 않은 것이다. 혈액응고검사는 정상이며, 혈소판 기능이나 간 기능 이상은 없으므로 불충분한 기계적 지혈이 원인이다.
+수술8시간 뒤 국소 창상과 결장루의 출혈에 혈소판·PT/INR·aPTT가 대체로 보존되어 있어 선택지 중 불충분한 수술적 지혈(D)을 먼저 의심한다. 과거 aspirin은7일 전 중단되었다. 경미한 간효소 상승만으로 응고인자 합성부전을 설명하기 어렵다. 다만 정상 선별검사만으로 경증 혈소판/응고장애나 XIII인자 결핍 등을 모두 배제하지 못하며 가족력이 있어 지속 출혈 시 추가 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006728 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정상 선별응고검사로 모든 출혈질환·혈소판 기능장애를 배제한다는 단정을 제한했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

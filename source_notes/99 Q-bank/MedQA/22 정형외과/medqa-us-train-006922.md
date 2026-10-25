@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,10 @@ D. 무릎 안쪽을 누를 때 통증
 
 
 슬개대퇴 통증 증후군에서 슬개골 압박 시 통증이 특징이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 본문·선지·원정답 C·해설을 영어와 개별 대조. 달리기·계단·쪼그림의 전방 무릎 통증과 슬개골 압박 유발통은 출제 의도에 부합. 짧지만 다른 케이스 해설은 아님. 압박검사 단독 확진을 뜻하지 않음.
 
 ## 출처
 

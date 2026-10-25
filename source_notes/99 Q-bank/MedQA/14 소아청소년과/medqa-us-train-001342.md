@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 기관지
 
 ## 해설
 
+크루프는 개 짖는 듯한 기침, 쉰 목소리, 흡기성 협착음(stridor)이 특징인 후두기관염이다. 성문하부의 부종에 의한 상기도 협착이 핵심이므로 C가 정답이다. 협착음은 하기도의 수포음(crackles)과 다르다.
 
-후두하부(아래 성문) 협착은 밤에 악화되는 끈적한 기침과 흡기성 고음성 호흡음(크레피테)과 일치한다. 이는 흔히 ‘크루프’라 불리는 급성 후두염이다. 따라서 병변 위치는 성문하부 후두이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 크루프의 흡기성 협착음을 수포음과 혼동한 표현을 교정했다.
+
 
 ## 출처
 

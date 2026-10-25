@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
+curation_status: "retained"
+curation_reason: "Benzodiazepine–opioid 병용의 중증 호흡 억제는 필수 안전 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ Diazepam과 Opioid는 모두 중추신경 억제제이므로 병용 시 호흡 �
 
 ## 오답 포인트
 
-- **B. 혈압 상승:** 혈압 상승은 일반적인 부작용이 아닙니다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Diazepam
 - 원본 경로: `source_notes/04 Pharmacology/12 신경·정신/Diazepam.md`
-- 학습 목표: 원문 핵심: - 오피오이드(Opioids)와 병용 시 호흡 억제, 혼수, 사망 위험이 있으므로 병용을 피하고 불가피할 경우 최소 용량으로 단기간 사용. - 남용, 오용 및 의존성 위험이 있으므로 처방 전 환자의 위험도를 평가할 것. - 급격한 중단 시 금단 증상(발작 등)이 나타날 수 있으므로 서서히 감량할 것. - 알코올 및 기타 중추신경계 억제제와 병용 금지. - 임신 후기 사용 시 신생아 진정 및 금단 증상 발생 가능. - 장기 투여 시 정기적인 혈액 검사 및 간 기능 검사 권장. - 남용 및 의존성 징후 관찰. - 고령자 및 소아의 경우…
+- 학습 목표: Diazepam: 호흡 억제

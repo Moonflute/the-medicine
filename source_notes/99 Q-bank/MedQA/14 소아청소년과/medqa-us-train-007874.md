@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 리스페리돈
 
 ## 해설
 
+말이 없고 사회적 상호작용·반복행동 이상이 있는 3세는 청력 평가(B)가 필요하다. 자폐 및 전반 발달 평가·조기 중재를 병행하며 청력검사 결과를 기다려 모든 지원을 늦추지 않는다. Risperidone을 진단 없이 처음부터 투여하지 않는다.
 
-언어 반응이 없고 사회적 상호작용이 현저히 결핍된 영아는 자폐 스펙트럼 장애가 의심된다. 청력 정상 여부는 먼저 확인해야 할 검사이므로 청력검사가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 3세를 영아로 부른 오류와 청력검사 전 발달중재를 미루는 오해 보정.
+- https://www.asha.org/practice-portal/Clinical-Topics/Spoken-Language-Disorders/
 
 ## 출처
 

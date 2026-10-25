@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 헤파린과 와파린을 계속하고 비타민 K를 투여한다
 ## 해설
 
 
-환자는 급성 SVT(심박수 194)이며 카르디오버전으로도 종료되지 않는다. 베라파밀은 칼슘채널 차단제로 급성 SVT에 효과적인 2차 치료제이다. 따라서 베라파밀 투여가 다음 단계이다.
+Heparin 시작6일 뒤 혈소판이 182,000에서 63,000/µL로50% 이상 감소해 HIT를 의심한다. Heparin과 초기 warfarin을 중단하는 C가 제시된 선택지 중 적절하다. 급성 HIT에서 조기 warfarin은 protein C 감소와 정맥성 사지괴사 위험을 높일 수 있으므로 vitamin K로 효과를 되돌리고 argatroban 등 비헤파린 항응고제로 대체해야 한다. 이미 PE/DVT가 있으므로 두 약을 끊은 뒤 항응고 자체를 전부 중단하라는 뜻이 아니다. SVT나 verapamil은 이 문항과 관련 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001383 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HIT 사례에 붙은 SVT·심율동전환·verapamil 해설을 해당 혈전·혈소판감소 사례 설명으로 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/
 
 ## 출처
 

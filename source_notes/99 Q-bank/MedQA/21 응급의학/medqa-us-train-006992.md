@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. CT 촬영
 
 ## 해설
 
+관통성 흉부외상 뒤 한쪽 호흡음 감소와 타진 둔탁은 혈흉을 의심하게 한다. 보기 중 흉관 삽입(A)은 흉막강 혈액을 배액하고 출혈량을 평가하는 초기 처치로 적합하다. 동시에 출혈성 쇼크를 평가하여 소생과 외상외과 협진을 진행한다. 누락된 영상만으로 혈흉의 양을 만들어 단정할 수는 없다. 순환 불안정이나 지속적인 대량 출혈이 있으면 흉관만으로 끝내지 않고 응급 수술을 고려해야 한다.
 
-흉부 X선에서 대량 혈액이 흉강에 고여 있는 소견이 보이면 혈흉(hemothorax)이다. 즉시 흉관 삽입으로 혈액을 배액해야 한다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 일측 타진 둔탁과 호흡음 감소를 혈흉의 임상 단서로 사용하되 누락된 X선에서 대량 혈흉을 보았다고 단정하지 않는다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

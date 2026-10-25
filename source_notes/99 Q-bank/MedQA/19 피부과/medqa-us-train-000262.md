@@ -23,11 +23,11 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -35,6 +35,8 @@ related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -52,8 +54,11 @@ D. 편평세포암종(Squamous cell carcinoma)
 
 ## 해설
 
+피부와 연결되어 그 위 피부가 따로 집히지 않는 단단하고 가동성 있는 무통성 결절은 표피낭종(B)을 지지한다. 낭종은 각질을 담은 편평상피성 벽으로 구성되며 중앙 개구부가 있을 수 있다. 실제 사진에서 개구부를 확인했다고 주장하지 않는다. 거친 각화성 반·작은 진피성 결절·불규칙 궤양성 종양보다 이 사례의 낭종 양상과 일치한다.
 
-목 뒤쪽에 단단하고 움직이는, 피부를 들어올릴 수 없는 2.5 cm 결절은 흔히 움직이는 낭종(표피낭종)이며, 중앙에 케르키오이드 물질이 존재한다. 다른 선택지는 색소 침착이나 경계가 불분명한 반면, 표피낭종이 가장 일치한다. 따라서 가장 가능성 높은 진단은 표피낭종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 움직이는 무통성 목 결절의 표피낭종 B는 본문으로 지지된다. 각질성 내용물을 케르키오이드로 오역하고 다른 병변을 모두 경계 불명확이라 한 설명을 교정한다.
 
 ## 출처
 

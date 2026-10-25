@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 미세혈관 손상
 ## 해설
 
 
-당뇨병성 말초신경병증은 미세혈관 손상으로 인한 신경 허혈이 원인이다. 환자의 감각 저하는 이러한 미세혈관성 신경 손상과 일치한다. 따라서 정답은 미세혈관 손상이다.
+정답 D. 조절불량 당뇨병에서 말초 감각 저하는 대사성 신경손상과 미세혈관 손상에 의한 당뇨신경병증을 고려하게 한다. 미세혈관 허혈이 유일한 기전은 아니다. 원문에 metformin 복용과 엄격한 채식이 있어 B12 결핍도 감별해야 하며 정상 MCV만으로 신경학적 B12 결핍이 배제되지는 않는다. 운동 약화 없는 국소 원위 감각 소견은 급성 전신 탈수초성 마비와는 덜 부합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007941 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 당뇨신경병증의 미세혈관 손상 D는 기전 일부이며 B12 위험·정상MCV의 한계 언급; 원문 약제 누락만으로 정상판정하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://medlineplus.gov/diabeticnerveproblems.html
 
 ## 출처
 

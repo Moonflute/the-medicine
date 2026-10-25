@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: B
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "AFP·난황낭종양 연관은 중요 아형 구분으로 유지. 출처 정체성이 문제인 한국어 명칭의 반복을 줄이고 오답 문자 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 난소 상피성 종양
 
 ## 오답 포인트
 
-- **A. 미분화세포종:** 미분화세포종은 LDH와 PLAP 상승이 주로 관찰됩니다.
+- Dysgerminoma는 LDH 등과 연관되며 난황낭종양의 AFP 연관과 구분한다.
 
 ## 출처
 
 - 내부 학습 노트: 생식 세포 종양 (Germ Cell Tumor)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/생식 세포 종양 (Germ Cell Tumor).md`
-- 학습 목표: 원문 핵심: - **종양 표지자**: - 미분화세포종: LDH, PLAP 상승 가능. - 내배엽동종양: aFP 현저한 상승. - 융모암(Choriocarcinoma): beta-HCG 상승. - **영상**: 초음파, CT, MRI를 통해 종양의 위치, 크기, 석회화 여부 및 전이 범위를 평가.
+- 학습 목표: 난황낭종양의 AFP 연관성
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: AFP·난황낭종양 연관은 중요 아형 구분으로 유지. 출처 정체성이 문제인 한국어 명칭의 반복을 줄이고 오답 문자 제거.

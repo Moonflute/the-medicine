@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 환기-관류 스캔
 
 ## 해설
 
+수술·입원, 과거 VTE, 새로운 호흡곤란과 객혈, 한쪽 다리 부종·압통은 폐색전증의 임상 확률을 높인다. 이런 고확률 환자에서는 D-dimer로 배제를 시도하기보다 조영 CT 폐혈관조영술(C)로 직접 평가하는 것이 적절하다. 기존 폐렴 소견 때문에 V/Q 검사의 해석도 어려울 수 있다. 산소포화도는 본문에 제시되지 않았으며 모든 환경에서 CTPA가 가장 빠르거나 모든 환자에게 적합하다는 뜻은 아니다.
 
-새로운 호흡곤란, 객혈, 저산소증이 나타난 경우 급성 폐색전증을 의심하고, 가장 빠른 확진 방법은 조영증강 흉부 CT(CTPA)이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고확률 PE의 CTPA C는 유지하되 원문에 없는 저산소증과 무조건 가장 빠르다는 표현을 제거한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 
 ## 출처
 

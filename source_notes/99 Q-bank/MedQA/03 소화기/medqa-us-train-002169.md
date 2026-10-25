@@ -20,15 +20,17 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 혈장 글루카곤 수치
 
 ## 해설
 
+금식해도 지속되는 하루 4 L의 수양성 설사, 저칼륨혈증, 홍조와 고혈당은 VIPoma를 시사하므로 혈장 VIP C를 측정한다. VIP는 장 분비를 증가시켜 수양성 설사와 저칼륨혈증을 유발한다. 무수성 설사라는 기존 용어는 잘못이다.
 
-지속적인 무수성 설사는 VIP 과다분비 종양(VIPoma)에서 혈중 VIP가 크게 상승한다. 진단에 가장 유용한 검사는 혈장 VIP 수치 측정이다. 따라서 혈장 혈관활성 장 펩타이드 수치가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 금식에도 지속되는 대량 수양성 설사·저K는 VIPoma C. 해설의 무수성 오역을 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

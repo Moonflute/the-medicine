@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "66mN"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "점막·피부 대 심부 출혈과 일차·이차 지혈의 관계는 중요한 기초 이론."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 피부·점막 출혈은 신경계 손상, 깊은 출혈은 근육 위축과 
 - 내부 학습 노트: 멍
 - 원본 경로: `source_notes/01 Chief Complaint/멍.md`
 - 학습 목표: 원문 핵심: 멍과 출혈은 점막·피부 중심인지 관절·근육의 깊은 출혈인지에 따라 혈소판·혈관 문제와 응고인자 문제를 구분한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

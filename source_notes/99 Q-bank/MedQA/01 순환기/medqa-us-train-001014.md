@@ -17,15 +17,17 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 심실 동맥류(Ventricular aneurysm)
 
 ## 해설
 
+정답은 C이다. 자세·호흡에 따른 흉통, 심낭 마찰음과 미만성 ST상승은 급성 심낭염을 지지한다. 경미한 troponin 상승은 심근 침범 가능성도 시사한다. 심낭액이 증가하면 심장압전이 발생할 수 있어 제시된 합병증 중 C가 적합하다. 본문에 ST상승이 없다고 하거나 마찰음을 ECG 저전압이라고 설명하지 않는다.
 
-흉통이 호흡 시 악화되고 전신성 ST 상승이 없으며, 심전도에서 저전압 마찰음과 경미한 트로포닌 상승은 급성 심낭염을 시사한다. 급성 심낭염의 주요 합병증은 심장 압박(심낭압전)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 본문의 미만성 ST상승을 없다고 뒤집고 저전압 마찰음이라 한 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

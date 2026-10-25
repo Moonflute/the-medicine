@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 약물 치료
 
 ## 해설
 
+당뇨 산모의 태아 고인슐린혈증은 심실중격 비후와 유출로 폐쇄를 유발할 수 있다. 분만 후 심초음파와 혈역학을 평가하며 소아심장 전문 약물·지지치료(D)를 시행한다. 폐쇄성 생리에서는 베타차단제를 고려할 수 있으나 ACE 억제제 같은 혈관확장제는 폐쇄를 악화시킬 수 있어 일률 권고하지 않는다.
 
-비대칭적인 심실중격 비대와 좌심실 유출로 폐쇄는 임신성 당뇨병에 의해 발생한 태아 심근병증을 시사한다. 이러한 구조적 이상은 심부전과 저출혈량을 초래하므로, 초기 치료는 베타 차단제나 ACE 억제제와 같은 약물 요법으로 심기능을 개선한다. 따라서 출산 후 가장 적절한 관리는 약물 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 당뇨 산모 영아의 폐쇄성 비후 심근병증에 약물관리 D 유지. ACE 억제제를 무조건 권한 위험 설명 교정.
+- https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001250
 
 ## 출처
 

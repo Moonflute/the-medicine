@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,12 @@ D. 담낭염
 
 
 구형적혈구증은 비정상적인 적혈구 형태로 용혈을 일으키며, 용혈성 빌리루빈 증가가 색소성 담석 형성을 촉진한다. 따라서 가장 위험한 합병증은 담낭염이다. 정답은 D이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007350 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: DAT 음성·높은 MCHC·신생아 및 반복 용혈의 HS와 색소담석 관련 담낭염 D를 실제 텍스트 근거로 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -21,11 +21,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 세팔렉신
 ## 해설
 
 
-Giardia lamblia는 물에 존재하는 운동성 원충으로, 비처리된 흐르는 물을 마신 후 지방성 설사와 복부 팽만을 일으킨다. 메트로니다졸은 혐기성 및 원충 감염에 효과적인 약물로, Giardia 감염 1차 치료제로 권장된다. 따라서 메트로니다졸을 시작해야 한다.
+비처리 개울물 노출 뒤 복부팽만·기름지고 악취 나는 설사와 대변의 원충 소견은 giardiasis에 부합한다. 선택지 중 metronidazole B는 유효한 치료다. CDC는 tinidazole·nitazoxanide 등 다른 유효 약제도 제시하므로 metronidazole만이 모든 환자의 유일한 일차약이라는 의미는 아니다. 탈수의 교정도 함께 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003522 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 비처리 개울물 후 지방성 설사·원충의 Giardia에서 metronidazole B 유지; 유일한 현행 일차약이라는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/giardia/hcp/clinical-care/index.html
 
 ## 출처
 

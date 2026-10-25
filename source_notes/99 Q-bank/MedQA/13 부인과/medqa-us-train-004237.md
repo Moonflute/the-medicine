@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 자궁경부를 덮는 태반의 이상 위치
 
 ## 해설
 
+무월경 8주에 비해 큰 자궁, 높은 hCG, 낭성 태반 및 비정상 태아 부분은 부분포상기태를 시사한다. 기전은 융모의 수종성 팽창과 영양막 증식(C)이다. 자궁이 13주 크기라는 뜻이지 실제 임신 주수가 13주로 확정된 것은 아니다. 영양막 증식 자체를 악성 변환과 동일시하지 않는다.
 
-임신 13주에 큰 비정형 태반과 다낭성 공간은 융모성 부종(양수성 융모증)을 나타낸다. 이는 융모의 과다 증식과 팽창을 동반한다. 따라서 융모의 팽창을 동반한 영양막 증식이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 포상기태의 융모 부종·영양막 증식 C 유지. 임신 주수 13주 단정 및 양수성 융모증 오역을 삭제.
+
 
 ## 출처
 

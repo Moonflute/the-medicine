@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 대장의 정상 하우스트라 소실
 
 ## 해설
 
+심방세동과 갑작스러운 심한 복통·젖산 상승은 색전성 급성 장간막허혈을 우려하게 한다. SMA 분지의 조영 소실/충만결손(C)이 가장 적합하다. 비조영 중간층을 낀 장벽의 층별 조영양상은 장벽 부종 등에 대한 별도 소견이며 동맥 내 혈류 차단과 동의어가 아니다.
 
-심방세동 환자에서 급성 복통·젖산 상승은 장간막 혈류 차단을 의심한다. 장간막 동맥 혈류가 차단되면 혈관벽 중간층이 비조영되고, 이는 조영증강 CT에서 상장간막동맥 분지의 조영증강 소실로 나타난다. 따라서 가장 가능성 높은 소견은 상장간막동맥 분지의 조영증강 소실이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. SMA 분지 충만결손과 장벽 층별 조영양상(B)을 뒤섞은 해설 오류 교정.
 
 ## 출처
 

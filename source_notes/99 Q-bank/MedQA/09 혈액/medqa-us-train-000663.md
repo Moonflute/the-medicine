@@ -23,11 +23,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,13 @@ D. 비타민 B12 결핍
 ## 해설
 
 
-DMARD 시작 후 거대 적혈구(MCV 110 fL)와 정상 백혈구·혈소판을 동반한 빈혈은 약물(메토트렉세이트 등) 유발 골수 억제성 빈혈이 가장 흔하다. 따라서 약물 부작용이 원인이다.
+RA 질병조절 치료를 시작한 뒤 발생한 MCV110 fL는 methotrexate 같은 엽산 대사 관련 약물의 영향을 의심하게 하므로 C가 출제 의도에 부합한다. 실제 처방 약명과 엽산 보충 여부, B12/엽산·간기능·신기능 등을 확인해야 하며 정상 혈구 수와 Hb12 g/dL만으로 심한 골수억제를 확진할 수 없다. 약물 부작용을 가장 흔한 모든 원인으로 단정하지 않는다. 소량 혈변과 피로의 다른 원인도 별도로 평가해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000663 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Hb12·MCV110만으로 골수억제성 빈혈이 확정됐다고 한 과도한 단정을 약물 관련 대적혈구증의 의심으로 수정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

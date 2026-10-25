@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 제3형과 제4형 혼합 면역복합체 및 세포매개 과민반응
 ## 해설
 
 
-PPD 주사 후 48시간 이내에 발생하는 15 mm 직경의 경결은 T세포 매개 지연형 과민반응(제4형)으로, 결핵균 항원에 대한 면역 반응을 나타낸다. 따라서 반응의 기전은 제4형 세포매개 지연성 과민반응이다.
+PPD 항원에 감작된 T세포가 cytokine을 분비하고 단핵구·대식세포를 유도하여 국소 경결을 만드는 제IV형 지연 과민반응 C이다. 항체 매개 즉시반응이나 면역복합체 반응이 아니다. 본문의 36시간 반응 묘사는 기전을 묻는 단서이며, 결핵 피부검사의 표준 판독은 주사 후 48–72시간에 홍반이 아닌 경결의 크기를 측정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002496 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PPD 반응의 T세포 지연형 IV형 C 유지;36시간 방문을 표준 판독시점으로 오해하지 않게 기전과 검사 판독을 구별.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html
 
 ## 출처
 

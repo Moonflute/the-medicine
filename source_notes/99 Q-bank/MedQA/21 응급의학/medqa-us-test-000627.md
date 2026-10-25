@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 혈청 크레아틴키나아제 증가
 
 ## 해설
 
+코카인·opioid 노출과 의식저하·외상 뒤 차색 소변, dipstick 혈액 양성이면서 현미경 적혈구가 없는 것은 myoglobinuria 및 횡문근융해증을 시사한다. 따라서 혈청 CK 상승(D)이 예상된다. 초기에는 고칼륨·저칼슘 등이 나타날 수 있으나 이 환자에서 측정되었다고 가정하지 않는다. 케톤 양성 자체가 횡문근융해증의 진단 근거는 아니다.
 
-코카인 중독과 심한 근육통, 소변에서 케톤과 전해질 이상이 동반될 때 횡문근융해증이 발생하며 혈청 CK가 상승한다. 따라서 예상되는 소견은 혈청 크레아틴키나아제 증가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CK 상승 D의 근거를 본문에 없는 근육통·전해질 이상·케톤에서 heme 양성/RBC 부재의 myoglobinuria 및 압박·약물 노출로 수정한다.
+- 공식/학회 근거: https://tsaco.bmj.com/content/7/1/e000836
 
 ## 출처
 

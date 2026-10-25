@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "가스트린 과다·위산 과다·신경내분비 종양의 연결은 독립 기본 개념."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc15y2hpewvwzxewz0nfcxnjrhnpcvr0axjqcnbyrhnvb1vns0vkagmzunlhvzv2yldfcextmwt8zglzzwfzzs0wmi1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -45,3 +50,8 @@ D. 세로토닌을 과다 분비하는 신경내분비 종양
 - 내부 학습 노트: 가스트린종 (Gastrinoma)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/가스트린종 (Gastrinoma).md`
 - 학습 목표: 원문 핵심: * **CC**: 난치성 소화성 궤양, 복통, 설사(환자의 25~40%에서 초기 증상으로 나타남) * **P/E**: 일반적인 소화성 궤양 증상 및 합병증(천공, 출혈, 폐쇄) 동반 가능
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 가스트린 과다·위산 과다·신경내분비 종양의 연결은 독립 기본 개념.

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 하지불안 증후군
 ## 해설
 
 
-철결핍성 빈혈 환자는 뇌의 도파민 수용체 기능 저하로 하지불안 증후군이 흔히 동반된다. 철이 신경전달물질 합성에 필수이므로 결핍 시 하지불안이 특이적으로 나타난다. 따라서 정답은 하지불안 증후군이다.
+월경과다, 소구성 빈혈과 낮은 ferritin은 철결핍성 빈혈을 지지한다. 하지불안증후군(D)은 철결핍과 연관되어 선택지 중 가장 적절하다. 다만 철결핍에만 특이적인 증상은 아니며, 모든 철결핍 환자에서 발생하거나 단일 도파민 수용체 이상만으로 설명되는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009258 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 월경과다·저 ferritin의 철결핍과 하지불안 D 연결 유지. 하지불안을 철결핍에만 특이적이라거나 도파민 수용체 기능저하로 단정한 과도한 표현 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

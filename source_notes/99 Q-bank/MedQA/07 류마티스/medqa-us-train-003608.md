@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 항단백분해효소3 항호중구세포질항체
 ## 해설
 
 
-부비동염, 코전증, 폐·신장 동반 출혈은 GPA(전신 혈관염)의 전형적인 삼중증후군이며, PR3‑ANCA(항단백분해효소3 항체)가 가장 흔히 검출된다. 따라서 정답은 항단백분해효소3 항체이다.
+반복 부비동염·혈성 비루·비중격 궤양에 객혈과 이형 적혈구/적혈구 원주를 동반한 사구체신염이 있어 GPA를 강하게 시사한다. 선택지 중 PR3-ANCA(D)가 가장 잘 연관된다. anti-GBM 병은 폐-신장 증후군을 일으킬 수 있으나 육아종성 상기도 병변을 잘 설명하지 못한다. ANCA는 임상상과 함께 해석하며 항체만으로 진단을 확정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003608 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 코전증이라는 오탈자를 바로잡고 폐-신장 증후군과 상기도 병변의 PR3 연관을 명확히 했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

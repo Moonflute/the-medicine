@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. X연관 무감마글로불린혈증
 
 ## 해설
 
+영아기의 반복 바이러스·세균 감염, 만성 설사·성장부진과 구강 칸디다증, 흉선 음영 부재는 중증복합면역결핍(B)을 시사한다. T세포 기능 장애가 핵심 기전이지만 본문은 실제 T세포 수를 측정해 제시하지 않았다. 따라서 '감소한 T세포 수가 확인됨'이라는 사실을 덧붙이지 않는다.
 
-반복 감염, 흉선 위축, 저감된 T세포 수는 중증 복합면역결핍(SCID)과 일치한다. 이는 면역 결핍을 나타내는 가장 특징적인 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 측정되지 않은 T세포 감소를 실제 검사 결과처럼 추가한 해설을 임상/흉선 소견에 근거한 SCID 판단으로 교정했다.
+
 
 ## 출처
 

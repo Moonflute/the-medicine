@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 세파졸린 정맥주사
 ## 해설
 
 
-겸상적혈구병의 급성 골수위축(손발통증증)은 수두증 예방을 위해 하이드록시우레아가 효과적인 예방 약물이다. 따라서 정답은 A이다.
+어린 소아의 양측 손·발의 통증성 부종은 SCD의 혈관폐쇄성 dactylitis를 시사한다. 재발성 혈관폐쇄 합병증 감소를 위한 선택지는 hydroxyurea(A)이다. 이는 급성 골수위축이나 수두증 예방약이라는 뜻이 아니다. 사진이 누락되어 SCD 확진 자체는 보완이 필요하지만, 본문의 양측 dactylitis와 빈혈로 예방 치료의 출제의도를 판단할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009268 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 양손 통증성 dactylitis 재발 예방 hydroxyurea A의 출제의도 유지. 손발통증을 골수위축/수두증 예방으로 설명한 무관한 문구 교체.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nhlbi.nih.gov/sites/default/files/publications/56-364NFULL.pdf
 
 ## 출처
 

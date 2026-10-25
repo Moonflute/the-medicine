@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 급성 췌장염
 ## 해설
 
 
-복부 중앙에 급성 통증이 방사되고 혈청 리파아제 상승, 심전도 변화가 없으며 트로포닌이 상승한 경우는 급성 췌장염이 가장 가능하다. 따라서 정답은 D이다.
+정답 D. 등으로 퍼지는 급성 상복부/하부흉부 통증과 정상 상한의 3배를 넘는 lipase(880, 상한 280)는 급성 췌장염 진단에 부합한다. 본문에는 troponin 결과가 없으므로 상승했다고 추가해서는 안 된다. ECG 동성빈맥만으로 심근경색이 완전히 배제되는 것도 아니며 위험인자가 있으므로 임상적으로 필요한 심장 평가를 병행한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000983 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 본문에 없는 troponin 상승을 삭제; 통증+lipase >3배로 췌장염 D를 설명하되 ECG만으로 MI 배제하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13221274/
 
 ## 출처
 

@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 나트륨 분획배설 0.5%
 
 ## 해설
 
+저관류성 신전성 AKI에서는 신장의 Na 보존으로 FENa가 보통 1% 미만이며, 0.5%인 D가 선택지 중 부합한다. 0.5%가 보편적 진단 절단값이라는 뜻은 아니다. 이뇨제·CKD 등에서는 지표 해석에 한계가 있어 용적상태 및 임상경과와 함께 판단한다.
 
-프리레날성 급성 신손상에서는 소변 나트륨 배설이 억제돼 FENa가 0.5% 이하가 된다. 이는 신전성(혈액량 감소) AKI를 시사한다. 다른 선택지는 FENa 기준에 부합하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: FENa0.5% D는 신전성에 부합하나 임계값을 ≤0.5%로 잘못 정의한 해설 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

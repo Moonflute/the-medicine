@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA
+curation_status: "retained"
+curation_reason: "PDE3 억제의 혈소판·혈관 작용은 다른 항혈소판 약물과 독립된 기전."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Cilostazol은 PDE3를 선택적으로 억제해 세포내 cAMP를 증가시켜 �
 
 - 내부 학습 노트: Cilostazol
 - 원본 경로: `source_notes/04 Pharmacology/01 심혈계/Cilostazol.md`
-- 학습 목표: 원문 핵심: - Phosphodiesterase III(PDE3)를 선택적으로 억제하여 세포 내 cAMP 농도를 증가시킨다. - 혈소판 응집을 가역적으로 억제하고 혈관 평활근을 이완시켜 혈류를 개선한다.
+- 학습 목표: Cilostazol: PDE3 억제로 cAMP 증가·혈소판 억제·혈관 이완
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

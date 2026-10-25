@@ -19,15 +19,17 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 복강경 충수절제술
 
 ## 해설
 
+이동성RLQ통증·발열·WBC상승과 비압박성 충수가 확인되어 선택지 중 laparoscopic appendectomy D가 적절하다. 합병증 없는 선택환자에서는 항생제 비수술치료를 논의할 수 있지만 재발/실패위험과 선별이 필요하다. 모든 보존치료가 무조건 더 위험하다고 일반화하지 않는다.
 
-급성 충수염이 의심될 때 복강경 충수절제술이 가장 확실하고 표준 치료이다. 보존적 치료는 합병증 위험이 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 영상확인 충수염의 복강경 D 유지. 모든 보존치료가 위험하다는 일반화를 제거.
+- https://doi.org/10.1001/jamasurg.2025.6218
 
 ## 출처
 

@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 상기도 수술
 
 
 BMI 37 kg/m², 구인두 협착, 코골이, 무호흡‑저호흡 지수가 8/h인 경우는 경증 비만성 폐쇄성 수면무호흡증이다. 생활습관 교정 후에도 증상이 지속되면 지속적 양압환기(CPAP)가 1차 치료이다. 따라서 정답은 지속적 양압환기이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: AHI8의 경증이라도 심한 주간졸림과 운전위험은 PAP A 권고 근거.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/
 
 ## 출처
 

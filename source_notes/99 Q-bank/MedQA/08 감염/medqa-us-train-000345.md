@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,13 @@ D. 반응성 관절염(Reactive arthritis)
 ## 해설
 
 
-성병(임질) 감염은 관절통, 발열, 다발성 황색 농포성 병변, 손목 부종을 동반한 파종성 임균 감염을 일으킨다. 환자의 성생활 및 파트너의 다이어프램 사용은 임질 위험을 높인다. 따라서 가장 가능성 높은 진단은 파종성 임균 감염이다.
+젊은 성인에서 이동성 관절통 뒤 손목의 급성 관절염과 손발의 소수 무통성 보라색 수포농포는 파종성 임균 감염(C)을 지지한다. Diaphragm은 피임 수단이지 STI 예방용 장벽이 아니므로 사용했다고 임균 감염을 배제할 수 없다. 그러나 사용 자체가 감염을 일으켰다고 단정하지 않는다. Lyme 관절염은 대개 큰관절 중심이고 이러한 농포성 피부병변을 잘 설명하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000345 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 본문의 보라색 농포를 황색으로 바꾼 설명과 diaphragm 자체가 감염 위험을 높인다는 인과 단정을 제거했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

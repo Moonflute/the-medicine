@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 카르시노이드 증후군
 
 
 와인 섭취 후 얼굴 홍조와 물 같은 설사는 세로토닌 분비 종양인 카르시노이드 증후군을 시사한다. 카르시노이드 종양은 5‑HT 과다 생산으로 이러한 증상을 일으킨다. 따라서 카르시노이드 증후군이 가장 가능성 높은 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007276 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 음주 유발 홍조·수양성설사·천명은 carcinoid syndrome D의 전형적 생리 증상 조합임을 직접 확인.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 아세트아미노펜으로 치료한 심한 편두통
 ## 해설
 
 
-간 효소 급상승, PT·PTT 연장, 혈소판 감소는 급성 아세트아미노펜 중독에 의한 간부전의 전형적인 실험실 소견이다. 환자는 진통제로 아세트아미노펜을 복용했을 가능성이 가장 높다. 따라서 아세트아미노펜 독성이 가장 가능성 높은 원인이다.
+정답 D. 선택지 중 acetaminophen은 과량 복용 시 심한 간세포 손상과 응고장애를 일으킬 수 있다. 따라서 편두통에 복용한 약이 이 약일 가능성을 묻는 출제 의도에 부합한다. 다만 복용량·시점·약물 농도가 없어 acetaminophen 중독이 확진된 것은 아니며, 바이러스성 간염 등도 평가해야 한다. PT 연장은 중증 간손상 신호이나 간성뇌병증이 제시되지 않아 이 정보만으로 급성간부전을 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009140 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 약물 선택지에서 acetaminophen이 가능한 간독성 노출이지만 복용량·농도·뇌병증 없이 독성 또는 급성간부전 확진하지 않도록 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.aasld.org/sites/default/files/2022-07/AcuteLiverFailureUpdate201journalformat1.pdf
 
 ## 출처
 

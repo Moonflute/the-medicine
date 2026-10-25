@@ -22,16 +22,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 안면신경(Facial nerve)
 
 ## 해설
 
+안검하수와 안구의 아래·바깥 편위는 동안신경(제3뇌신경) 마비에 해당하므로 B이다. 당뇨·고혈압성 미세혈관허혈이 원인일 수 있지만 후교통동맥류 등 압박성 원인도 감별해야 한다. 이 문항은 동공 반응을 제시하지 않았고 갑작스러운 두통을 동반하므로 시력이 보존된다는 이유로 동맥류를 배제해서는 안 된다.
 
-안검하수와 안구가 아래·바깥쪽으로 편위된 것은 제3뇌신경(동안신경) 마비를 의미한다. 이는 동맥류 파열이나 당뇨성 미세혈관병변과는 무관하며, 가장 흔한 원인은 당뇨와 고혈압이 동반된 혈관성 손상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 동안신경 B는 맞지만 당뇨 미세혈관병 및 동맥류와 무관하다는 모순·위험한 배제 문구를 제거한다.
+- 공식/학회 근거: https://www.aao.org/eyenet/article/acquired-isolated-third-nerve-palsy
 
 ## 출처
 

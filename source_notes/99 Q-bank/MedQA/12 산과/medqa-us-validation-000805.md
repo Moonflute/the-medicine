@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 리토드린 염산염
 
 ## 해설
 
+고열·자궁압통·장시간 파수·태아빈맥은 양막내 감염을 시사한다. 암피실린과 겐타마이신(B)을 즉시 투여하고 분만을 진행하며 신생아팀에 알린다. 완전개대 상태에서 수축억제로 분만을 미루지 않는다. 이는 다균성 감염에 대한 경험치료이지 ‘2세대 감염’이라는 분류가 아니다.
 
-양수 누출 후 발열·자궁경부 개대·태아 심박수 상승은 양막 감염(양수막염)으로, 2세대 세균성 감염에 대한 경험적 치료인 암피실린과 겐타마이신이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ‘2세대 세균성 감염’이라는 비의학적 분류 삭제.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/08/intrapartum-management-of-intraamniotic-infection
 
 ## 출처
 

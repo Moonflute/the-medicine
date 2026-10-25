@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -33,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-6세 남아가 하루 동안 지속된 산통성 복통과 구토로 응급실에 왔다. 2주 전 인후통을 앓았다. 체온 37°C(98.6°F), 맥박 100회/분, 혈압 90/55 mm Hg, 호흡수 28회/분이다. 하지에 눌러도 창백해지지 않는 융기된 홍반성 구진이 보인다. 복부는 부드럽고 압통이 없으며 장음은 고음이다. 양쪽 발목이 붓고 압통이 있으며 통증으로 운동 범위가 제한된다. 대변 잠혈검사는 양성이다. 혈액검사에서 헤모글로빈 13.1 g/dL, 백혈구 9,800/mm³, 혈소판 265,000/mm³이고 항핵항체는 음성이다. 소변에서 포도당과 단백은 음성, 혈액은 2+, 비정형 적혈구 10~12/HPF, 백혈구 0~1/HPF이다. 복부 초음파 횡단면에서 장 일부에 고에코와 저에코 띠가 번갈아 보인다. 다음 중 이러한 소견의 가장 가능성 높은 원인은?
+6세 남아가 하루 동안 지속된 산통성 복통과 구토로 응급실에 왔다. 2주 전 인후통을 앓았다. 체온 37°C(98.6°F), 맥박 100회/분, 혈압 90/55 mm Hg, 호흡수 28회/분이다. 하지에 눌러도 창백해지지 않는 융기된 홍반성 구진이 보인다. 복부는 부드럽고 압통이 없으며 장음은 고음이다. 양쪽 발목이 붓고 압통이 있으며 통증으로 운동 범위가 제한된다. 대변 잠혈검사는 양성이다. 혈액검사에서 헤모글로빈 13.1 g/dL, 백혈구 9,800/mm³, 혈소판 265,000/mm³이고 항핵항체는 음성이다. 소변에서 포도당과 단백은 음성, 혈액은 2+, 이형적혈구 10~12/HPF, 백혈구 0~1/HPF이다. 복부 초음파 횡단면에서 장 일부에 고에코와 저에코 띠가 번갈아 보인다. 다음 중 이러한 소견의 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -45,7 +47,13 @@ D. IgA 면역복합체 침착
 ## 해설
 
 
-발진성 두드러기와 관절부종, 혈변, 장관벽에 고·저에코 띠가 교차하는 초음파 소견은 IgA 면역복합체가 소혈관에 침착해 염증을 일으키는 IgA 혈관염(Henoch‑Schönlein purpura)과 일치한다. IgA 복합체가 혈관벽에 축적되어 출혈과 부종을 유발한다. 따라서 IgA 면역복합체 침착이 가장 가능성 높은 원인이다.
+상기도감염 뒤 정상 혈소판을 유지한 촉지자반, 관절염, 복통·잠혈양성 및 사구체성 혈뇨는 IgA vasculitis를 지지한다. 소혈관의 IgA 면역복합체 침착 D가 염증과 출혈을 유발한다. 발진은 단순 두드러기가 아니며 비정상 형태의 RBC는 dysmorphic RBC(이형적혈구)를 뜻한다. 장벽 출혈·부종은 장중첩을 일으킬 수 있고 초음파의 동심성 띠와 산통·구토는 이 합병증을 의심하게 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007758 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 비창백성 촉지자반을 두드러기라 부른 오류와 dysmorphic RBC 번역 교정; 장중첩과 IgA 기전을 연결.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

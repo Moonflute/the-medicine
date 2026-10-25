@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-3세 남아가 최근 친구와 놀지 않고 눈맞춤을 하지 않으며 흥분하거나 화가 나면 손을 펄럭이고 물건을 일렬로 배열하는 놀이만 좋아해 내원했다. 언어 발달은 나이에 맞다. 가장 가능성 높은 진단은?
+3세 남아가 최근 친구와 놀지 않고 눈맞춤을 하지 않으며 흥분하거나 화가 나면 손을 펄럭이고 물건을 일렬로 배열하는 놀이만 좋아해 내원했다. 단일단어를 사용한다(영어 원문은 이를 연령에 맞는 언어라고 기술하지만 3세 발달 수준과 맞지 않아 주의가 필요하다). 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -43,8 +45,14 @@ D. 달리 분류되지 않은 전반적 발달장애
 
 ## 해설
 
+사회적 상호작용/눈맞춤 감소와 손 펄럭임·경직된 반복 놀이는 ASD(A)를 지지한다. 언어 지연은 ASD의 필수 조건이 아니며 과거 아스퍼거·PDD-NOS는 현재 DSM-5에서 ASD 범주로 통합된다. 따라서 다른 보기들은 정상 언어가 드물다는 기존 감별은 맞지 않는다. 원문의 3세 단일단어 사용은 정상 언어라는 서술과도 모순되며 이를 정상 발달로 가르치지 않는다.
 
-사회적 상호작용 회피, 눈맞춤 회피, 제한된 놀이와 반복 행동은 자폐 스펙트럼 장애의 핵심 진단 기준이다. 다른 선택지는 언어 발달이 정상인 경우가 드물다. 따라서 가장 가능성 높은 진단은 자폐 스펙트럼 장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 3세의 단일단어 사용을 정상 언어로 표시한 원문의 모순을 명시하고 ASD와 옛 아스퍼거/PDD-NOS의 분류 관계를 바로잡았다.
+- https://www.cdc.gov/autism/hcp/diagnosis/index.html
+- https://www.cdc.gov/act-early/milestones/2-years.html
 
 ## 출처
 

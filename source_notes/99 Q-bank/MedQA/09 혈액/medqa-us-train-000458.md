@@ -21,7 +21,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,6 +45,13 @@ D. 필라델피아 염색체
 
 
 주요 특징인 눈물방울형 적혈구와 골수 섬유증은 원발성 골수섬유증을 시사한다. 이 질환에서 가장 흔히 발견되는 돌연변이는 JAK2 변이이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000458`와 직접 대조했다.
+- 판정: 비장비대·눈물방울 적혈구·백적혈모구증·dry tap은 원발골수섬유증을 지지하며 JAK2 C와 일치. 원문 대조; 치료 선택 검증 아님.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

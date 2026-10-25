@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 영아에게 글루코코르티코이드를 치료제로 투여한다
 
 ## 해설
 
+비담즙성 구토·수유 후 배고픔·올리브 종괴는 비후성 유문협착을 시사한다. 관찰 연구에서 병수유보다 완전 모유수유가 낮은 위험과 연관되어 보기 중 B가 맞다. 모유수유가 모든 경우를 예방한다거나 위장운동 기전이 확정되었다고 단정하지 않는다. 분만 중 GBS 예방 페니실린을 생략할 근거는 없다.
 
-모유 수유는 유아의 위장관 운동을 촉진하고 유아 위협성 협착증(유문 협착증) 위험을 감소시킨다. 따라서 모유만 먹이는 것이 위험 감소에 가장 큰 영향을 미친다. 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 유문협착의 모유수유 B 위험감소 연관 유지. 잘못된 질환명과 입증된 기전·예방 보장 단정 교정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3457615/
 
 ## 출처
 

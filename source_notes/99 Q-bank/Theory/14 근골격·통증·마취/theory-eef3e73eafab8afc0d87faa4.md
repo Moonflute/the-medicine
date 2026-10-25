@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA
+curation_status: "retained"
+curation_reason: "Lidocaine의 전압개폐성 Na 통로 차단과 국소마취 기초."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ D. 베타-아드레날린 수용체를 차단한다.
 
 - 내부 학습 노트: Lidocaine
 - 원본 경로: `source_notes/04 Pharmacology/14 근골격·통증·마취/Lidocaine.md`
-- 학습 목표: 원문 핵심: - 전압개폐성 나트륨 통로(voltage-gated sodium channel)를 차단하여 신경 자극의 발생과 전도를 가역적으로 억제합니다. - 심근에서는 class Ib 항부정맥제로 작용하여 심실 이소성 박동을 억제합니다.
+- 학습 목표: Lidocaine: 전압개폐성 나트륨 채널을 차단한다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

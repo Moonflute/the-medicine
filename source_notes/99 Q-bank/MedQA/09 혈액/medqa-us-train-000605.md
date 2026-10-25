@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,13 @@ D. 허혈성 뇌졸중(Ischemic stroke)
 ## 해설
 
 
-HbS 43%와 HbA 55%는 겸상 적혈구 질환이 아닌 겸상 적혈구 보인자(sickle cell trait)를 의미한다. 보인자는 일반적으로 무증상이지만, 저산소 상태에서 적혈구가 겸상화되어 신우피질 괴사(renal papillary necrosis) 위험이 증가한다. 따라서 가장 위험도가 높은 질환은 신유두 괴사이다.
+HbA가 HbS보다 많고 빈혈·망상적혈구증가가 없는 전기영동 양상은 겸상적혈구 보인자(HbAS)를 지지한다. 신수질의 낮은 산소분압·고삼투성·산성 환경은 국소 겸상화를 유발해 농축능 저하와 신유두 괴사(B)를 일으킬 수 있다. 이를 신우피질 괴사라고 부르지 않는다. 일반적 HbSS 환자와 같은 기능적 무비증·뇌졸중 위험을 그대로 적용하지 않으며, 드문 신수질암 연관을 투명세포 신암과 혼동하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000605 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Sickle trait의 신유두 괴사를 신우피질 괴사로 오역한 부분을 교정했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

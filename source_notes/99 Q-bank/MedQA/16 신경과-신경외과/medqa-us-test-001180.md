@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 전환장애
 
 ## 해설
 
+정답은 C, 척수공동증이다. 외상 직후가 아니라 4개월 후 진행한 상지의 심한 근력·감각저하와 상대적으로 보존된 하지 기능은 외상 후 형성된 척수공동을 고려하게 한다. 급성 중앙척수증후군과 같은 뜻이 아니며, 모든 외상 후 상지 약화의 가장 흔한 원인이라고 단정할 수 없다.
 
-교통사고 후 상지만의 운동·감각 저하가 나타난 경우, 척수 중앙부 손상인 척수공동증이 가장 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 외상4개월 뒤 진행 상지결손은 외상후 척수공동증을 지지하나 외상 직후 중앙척수손상과 혼동하거나 가장 흔한 원인이라 단정하지 않도록 정정.
+- 공식/학회 근거: https://www.ninds.nih.gov/health-information/disorders/syringomyelia
 
 ## 출처
 

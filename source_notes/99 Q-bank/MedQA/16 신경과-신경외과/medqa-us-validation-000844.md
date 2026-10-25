@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 전척수동맥
 
 ## 해설
 
+급성 중추성 현훈과 심한 보행실조·겨냥이상은 소뇌/후순환 허혈을 시사한다. 보기 중 척추동맥(C)의 박리가 후순환 혈류를 장애하여 이런 증상을 일으킬 수 있다. 척수동맥과는 다른 혈관이다. 전척수동맥 병변은 주로 척수성 운동마비·통각/온도각 장애를 만들며 본문의 소뇌 국소화를 가장 잘 설명하지 못한다.
 
-척수동맥이 막히면 소뇌에 급성 허혈이 발생해 어지럼증, 균형 장애, 손가락‑코·발뒤꿈치‑무릎 검사 이상이 나타난다. 혈관조영술에서 가장 흔히 손상되는 혈관은 척수동맥이다. 따라서 정답은 척수동맥이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 척추동맥(vertebral)과 척수동맥(spinal)을 혼동한 중대한 해설 오류 교정.
 
 ## 출처
 

@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 피리도스티그민
 
 ## 해설
 
+다운증후군 환자의 진행성 손 기능 저하·보행장애·사지 과다반사와 Babinski 징후·배뇨장애는 경수압박을 의심하게 한다. 환축추 불안정과 척수압박이 확인되는 경우 안정화 유합술(B)이 적절하다. 실제 진료에서는 긴급 척추 평가와 적절한 영상 확인이 선행되며 단순 피로나 말초 근무력증의 약물치료로 대체하지 않는다.
 
-양측 심부건반사와 바빈스키 양성은 상부 운동신경로 손상을 의미하며, 다운증후군 환자에서 경추 불안정성으로 인한 척수 압박이 원인일 수 있다. C1/C2 외과적 유합술은 불안정성을 교정해 신경 압박을 해소하고 증상을 호전시킨다. 다른 선택지는 해당 병변에 직접적인 효과가 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 다운증후군의 증상성 환축추 불안정 B는 맞으며 증상만으로 즉시 무평가 유합한다는 인상을 피한다.
+- 공식/학회 근거: https://posna.org/physician-education/study-guide/down-s-syndrome
 
 ## 출처
 

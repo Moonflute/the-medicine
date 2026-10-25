@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "자가항체와 면역복합체의 전신 조직손상이라는 핵심 면역 이론을 유지. 단순 질환명만으로 저가치로 처리하지 않음."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrflnn0pxtty2q0k2nlcwnnjpd0wtewdot3lmb0nedg1zm3jzsmdnnjzpbzdarzq3sxfrsunovfrfvxbjq2huzvhomfpxmxbzeujnzfhcmwn5qkzjbmwwyudwdflyunzjm1z6sunovfrfvxbluzv0wkf8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -45,3 +50,8 @@ SLE는 자가항체와 면역복합체가 전신 조직을 손상시키는 전�
 - 내부 학습 노트: 전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))
 - 원본 경로: `source_notes/02 Diseases/06 알레르기/전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE)).md`
 - 학습 목표: 원문 핵심: - 정의: 조직에 결합하는 자가항체와 면역복합체가 조직 및 세포 손상을 일으키는 전신성 자가면역질환. - 역학: 90%가 가임기 여성에서 발생. - 병태생리: 유전적 소인, 환경적 요인(자외선, 약물, 감염), 여성호르몬(경구피임제, HRT) 등이 복합적으로 작용. 세포핵 단백질 및 DNA에 대한 자가항체가 생성되어 전신 장기 침범. - 항인지질증후군(APS): SLE와 연관된 자가항체 매개 후천성 응고항진증. - 원인: 일차성(특발성), 이차성(SLE 등). - 병태생리: 세포막 인지질에 대한 자가항체가 내피세포를 공격하여 응고…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 자가항체와 면역복합체의 전신 조직손상이라는 핵심 면역 이론을 유지. 단순 질환명만으로 저가치로 처리하지 않음.

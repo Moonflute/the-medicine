@@ -20,17 +20,19 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 고혈압성 응급
 
 ## 해설
 
+심한 고혈압과 두통, 시야 흐림, 양측 시신경유두 부종은 고혈압성 응급(D)을 의심하게 한다. 다른 두개내 원인도 평가하면서 감시하에 혈압을 조절해야 한다. 급격하게 정상 범위까지 낮추는 것이 목표는 아니며, 동반 장기손상에 맞춰 저관류를 피하도록 단계적으로 치료한다.
 
-심한 고혈압, 두통, 구토, 시신경유두 부종은 고혈압성 응급을 나타낸다. 혈압을 급속히 낮추는 것이 치료의 핵심이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 고혈압성 장기손상 D의 치료를 무조건 급속 정상화로 오용하는 문장을 교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
 
 ## 출처
 

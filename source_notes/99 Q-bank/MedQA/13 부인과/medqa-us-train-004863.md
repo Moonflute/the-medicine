@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 쿰스 검사 시행
 
 ## 해설
 
+RhD 음성 산모가 RhD 양성아를 출산한 뒤 로제트 검사(B)로 모체 혈액의 태아 RhD 양성 적혈구를 선별한다. 양성이면 Kleihauer–Betke 또는 유세포분석으로 출혈량을 정량하여 추가 항-D 용량을 결정한다. 로제트는 간접 쿰스검사가 아니며 수주 뒤 감작 확인을 기다리는 검사가 아니다.
 
-Rh 음성 산모에게 태아‑모 혈액 혼합이 의심될 때, Rh 감작 여부를 확인하기 위해 로제트(간접 항글로불린) 검사를 시행한다. 이는 항-D 면역글로불린 투여 후 2~4주 내에 양성으로 전환된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 로제트 B는 감작 항체검사가 아니라 태아모체출혈 선별검사이다. 2–4주 항체 전환 설명 삭제.
+- https://professionaleducation.blood.ca/en/transfusion/clinical-guide/hemolytic-disease-fetus-and-newborn-and-perinatal-immune
 
 ## 출처
 

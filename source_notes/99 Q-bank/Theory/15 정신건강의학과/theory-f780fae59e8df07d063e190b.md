@@ -16,36 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "PTSD의 네 증상군과 기간을 남기되 다른 진단명을 적은 참인 설명 선택지를 개선."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-외상 후 스트레스 장애(PTSD)의 핵심 특징은 무엇입니까?
+PTSD의 핵심 진단 개념을 가장 잘 설명한 것은?
 
 ## 선택지
 
-A. 외상 사건 후 침습적 기억·회피·인지·기분 변화·과각성 증상이 1개월 이상 지속됨
-B. 급성 스트레스 장애는 외상 후 1개월 이내에 증상이 나타나며 1개월 이내에 사라진다.
-C. 조정 장애는 스트레스 사건에 대한 일반적인 정서적 반응이다.
-D. 범불안장애는 지속적인 과도한 불안을 특징으로 한다.
+A. 외상 후 침습·회피·인지 및 기분의 부정적 변화·각성 증상이 1개월을 초과하여 지속되고 고통이나 기능장애를 일으킴
+B. 외상 후 3일~1개월 동안의 증상만으로 장기 경과와 무관하게 PTSD가 확정됨
+C. 외상이 없어도 어떤 일상적 걱정이든 6개월 지속되면 PTSD임
+D. 외상 후 검사 수치 하나만으로 증상과 무관하게 확진함
 
 ## 해설
 
-PTSD는 외상 후 침습적 기억·회피·인지·기분 변화·과각성 증상이 1개월 이상 지속되는 장애이다.
+PTSD는 외상 노출 후 침습, 회피, 인지·기분의 부정적 변화, 각성·반응성 변화가 나타나고 지속기간이 1개월을 초과하며 고통·기능장애와 관련되는 장애이다. 급성 스트레스 장애의 기간 기준과 구분하고 다른 원인도 평가한다.
 
 ## 오답 포인트
 
-- **B. 급성 스트레스 장애는 외상 후 1개월 이내에 증상이 나타나며 1개월 이내에 사라진다.:** 증상 지속 기간이 1개월 미만인 급성 스트레스 장애와 구분된다.
+- **3일~1개월 지속:** 급성 스트레스 장애의 기간과 구분한다.
+- **일상 걱정만 존재:** PTSD의 외상 및 증상군 요건을 충족하지 못한다.
+- **검사 수치 단독 확진:** PTSD는 병력·증상에 근거해 평가한다.
 
 ## 출처
 
 - 내부 학습 노트: 외상 후 스트레스 장애 (PTSD)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/외상 후 스트레스 장애 (PTSD).md`
-- 학습 목표: 원문 핵심: - 정의: 외상적 사건에 노출된 후 발생하는 장애로, 침습적 기억, 회피, 인지 및 기분 변화, 과각성 증상이 1개월 이상 지속됨. - 특징: 과거 불안 장애로 분류되었으나, 현재는 독립적인 '외상 및 스트레스 관련 장애'로 분류됨.
+- 학습 목표: PTSD의 외상 노출 후 네 증상군과 1개월 초과 지속을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: PTSD의 네 증상군과 기간을 남기되 다른 진단명을 적은 참인 설명 선택지를 개선.
+- 근거: https://healthquality.va.gov/HEALTHQUALITY/guidelines/MH/ptsd/PTSD-pocket-card-508.pdf

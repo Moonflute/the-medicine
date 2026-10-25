@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 정맥 내 세프트리악손(ceftriaxone) 및 반코마이신(vancomycin) �
 ## 해설
 
 
-3도 화상 환자는 감염, 탈수, 전해질 이상보다 화상 부위의 지속적인 관리와 감염 예방이 우선이다. 갑상선 치료나 항생제 투여는 현재 상황에 필요하지 않다.
+심한 화상이라는 중증 질환 중 T3만 낮고 T4가 보존되며 TSH가 뚜렷하게 상승하지 않은 양상은 비갑상선질환증후군(저T3 증후군)에 부합한다. 이 검사치만으로 갑상선호르몬을 보충하지 않고 기저 화상에 대한 지속적 치료를 시행하므로 A가 적절하다. 화상 관리는 창상뿐 아니라 기도·순환·수분전해질·신장기능·영양·감염 평가를 포함한다. 의식저하를 낮은 T3로만 설명하거나 새 감염의 근거 없이 항생제를 시작해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000384 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 해설에서 빠진 핵심 저T3 비갑상선질환증후군을 설명하고 화상 소생·장기평가보다 창상만 우선한다는 오해를 제거했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://journals.sagepub.com/doi/abs/10.1089/thy.2014.0028
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 폐 선암
 ## 해설
 
 
-비흡연자인 흑인 여성에게 주변부, 불규칙 경계의 폐결절이 나타나면 주변부 원발성 폐암, 특히 폐선암이 가장 흔하다. 흡연과 관련이 낮은 선암은 비흡연자·여성·흑인에서 빈도가 높다. 따라서 정답은 D이다.
+비흡연자의 불규칙 경계를 가진 말초 폐결절과 체중 감소·객혈은 폐암을 의심하게 하며 선택지 중 폐선암(D)이 가장 타당하다. 인종만으로 조직형을 결정할 수는 없고 실제 확진은 조직검사가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000813`와 직접 대조했다.
+- 판정: 비흡연자·불규칙 폐결절과 선암 D 연결 유지. 흑인에서 선암 빈도가 높다는 뒷받침 없는 인종 일반화 제거.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.cdc.gov/lung-cancer/nonsmokers/index.html
 
 ## 출처
 

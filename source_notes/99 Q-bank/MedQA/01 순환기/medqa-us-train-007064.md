@@ -25,9 +25,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 요골동맥을 촉진할 때 느껴지는 물망치 맥박
 
 
 심내막염에 의한 대동맥판 역류는 물망치맥박(맥동이 뚜렷하고 강함)과 연관된다. 환자의 발열·오한·심장 박동마다 머리 움직임은 대동맥판 역류에 따른 맥동 전이 현상이다. 따라서 물망치맥박이 가장 가능성 높은 소견이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 박동성머리움직임은 AR의 deMusset와 물망치맥 D를 지지. 누락손사진의병변은 임의판독하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

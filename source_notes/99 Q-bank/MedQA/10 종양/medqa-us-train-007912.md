@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,13 @@ D. 급성 비대상성 심부전
 ## 해설
 
 
-초기 사춘기 지연과 저체중, 원발성 무월경이 의심될 때, 시상하부‑뇌하수체‑성선 축의 기능을 평가하기 위해 FSH와 에스트로겐 수치를 측정한다. 이는 원인 규명에 가장 직접적인 검사이다. 따라서 정답은 FSH와 에스트로겐 수치이다.
+복수 triglyceride360 mg/dL와 림프구 우세는 chylous ascites를 시사한다. SAAG는 혈청3.5−복수2.6=0.9 g/dL로 문맥고혈압성 복수보다 낮은 gradient이다. 악액질을 동반한 비외상성 chylous ascites에서 림프종의 림프 흐름 폐쇄가 보기 중 가장 부합하여 B이다. 간염·음주 병력만으로 간경변성 복수를 확정하지 않으며 최근 단순 서혜부 수술보다 전신 악성 원인을 우선 평가한다. 배양·cytology 및 영상으로 원인을 확인한다. 기존 무월경 설명은 이 사례와 무관하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007912 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복수 문항에 무월경 FSH/estrogen 해설이 연결된 오류를 low-SAAG chylous ascites와 lymphoma 기전으로 교체.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

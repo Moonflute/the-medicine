@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 항인지질 증후군
 
 
 헤파린 투여 후 aPTT가 충분히 연장되지 않고 혈전이 지속되는 경우 항트롬빈 III 결핍이 원인일 수 있다. 이는 헤파린 저항성을 일으켜 혈전 형성을 지속시킨다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000868 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 젊은 가족성 혈전·UFH 반응 저하의 항트롬빈 의존 기전 A 유지. 실제 헤파린 투여량·anti-Xa 등 없이 확진이라는 의미는 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

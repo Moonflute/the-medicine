@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 유관내 유두종
 
 
 피가 섞인 유두 분비물과 유관 내 종양성 병변은 유관내 유두종(ductal papilloma)과 일치한다. 이는 악성 변형 위험이 낮은 양성 종양이다. 따라서 정답은 유관내 유두종이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004631 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 젊은 여성의 한쪽 무통성 혈성 유두분비와 촉지 종괴 부재는 선택지 중 유관내 유두종 D에 부합한다. 실제 일측 혈성 분비의 영상/병리평가 필요성과 별개로 원문·해설 진단 연관을 확인했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

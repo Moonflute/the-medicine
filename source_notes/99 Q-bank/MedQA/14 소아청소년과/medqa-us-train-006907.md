@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 지능검사
 
 ## 해설
 
+4세는 야간 배뇨 조절이 아직 성숙 중일 수 있으며 3개월 건조 후의 간헐적 실수만으로 병적 이차 야뇨를 진단하지 않는다. 주간 증상·배뇨통·진찰 이상이 없으므로 안심과 생활 지도(C)가 적절하다. 야뇨를 주로 심리 문제나 아이의 잘못으로 설명하지 않는다.
 
-야뇨는 주로 심리적 원인이며, 안심시켜 관찰하는 것이 첫 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 4세 야간 실수를 주로 심리적 원인으로 단정한 오류 교정.
+- https://cps.ca/en/documents/position/evaluation-and-management-of-enuresis-in-the-general-paediatric-setting
 
 ## 출처
 

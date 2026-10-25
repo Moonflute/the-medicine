@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 무통성 갑상샘염
 
 ## 해설
 
+돌처럼 단단한 갑상샘 종대와 압박에 의한 연하곤란, 갑상샘기능저하 소견은 보기 중 리델 갑상샘염(C)에 합당하다. 핵심 병리는 치밀한 섬유화가 갑상샘 실질을 대체하고 주변 조직으로 뻗어갈 수 있다는 점이다. 압통이나 낮은 방사성 요오드 섭취만으로 특이적으로 확진하지 않으며, 단단한 종괴는 악성질환과의 감별도 필요하다.
 
-갑상선이 단단하고 통증이 있으며 TSH 상승, 저요오드 섭취 결절은 리델 갑상선염의 특징이다. 이는 섬유증과 저요오드 결절을 동반한다. 따라서 리델 갑상선염이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 리델 갑상샘염의 침윤성 섬유화/압박을 설명하고 압통·저섭취가 특이소견이라는 오해 완화.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

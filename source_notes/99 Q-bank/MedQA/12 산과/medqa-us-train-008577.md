@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 안심시키고 관찰한다
 
 ## 해설
 
+정상 혈압·맑은 폐·대칭성 하지부종과 경한 호흡곤란은 임신의 혈액량 증가·정맥압 변화와 관련될 수 있고 S3도 임신 중 생리적으로 들릴 수 있다. 제시된 선택지에서는 D의 관찰이 의도된 답이다. 그러나 안정 시/진행성 호흡곤란·기좌호흡·흉통·저산소증·빈맥이 생기면 심부전/PE 등을 즉시 평가해야 하며 임신이라는 이유로 모든 호흡곤란을 정상으로 돌리지 않는다.
 
-임신 후기의 하지 부종과 경미한 호흡곤란은 생리적 현상이며, 별다른 이상 소견이 없다. 따라서 추가 검사 없이 관찰하고 안심시키는 것이 적절하다. 소변검사나 도플러 초음파는 병리적 부종을 의심할 때 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 생리 변화 가능성과 호흡곤란의 재평가 조건 구분.
+
 
 ## 출처
 

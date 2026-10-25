@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 유세포 분석(Flow cytometry)
 ## 해설
 
 
-환자는 전형적인 전염성 단핵구증(EBV) 증상(발열·인후통·림프절 비대·비장비대·발진)과 최근 항생제 복용 후 발진이 나타났다. 이 경우 이질성 항체 검사(heterophile agglutination test)가 가장 빠른 진단법이다.
+발열·삼출성 인두염·림프절병증·비장비대와 amoxicillin 뒤 홍역양 발진은 EBV 감염단핵구증을 지지한다. 제시된 검사 중 heterophile 응집검사(C)가 이 임상 의심을 뒷받침할 수 있다. 다만 위양성·위음성이 있고 CDC는 일반적 사용을 권장하지 않으므로 양성만으로 EBV를 확진하거나 음성으로 배제하지 않는다. 필요하면 VCA IgM/IgG와 EBNA 등 EBV 특이 혈청검사를 사용한다. 성접촉 위험에 따른 HIV 검사도 별도로 고려해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000385 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: heterophile 검사를 무조건 가장 빠른 확진법이라고 한 단정을 제한하고 현행 CDC의 검사 한계를 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/epstein-barr/php/laboratories/
 
 ## 출처
 

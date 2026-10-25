@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 검사 결과와 관계없이 RhoGam은 필요 없다
 
 ## 해설
 
+비감작 RhD 음성 산모는 통상28주에 RhIG 예방(A)을 받는다. 이미 면역성 항-D가 형성된 경우 RhIG 예방으로 감작을 되돌릴 수 없고 태아빈혈 위험을 따로 관리한다. 출생 후 신생아 RhD 상태 및 감작 사건에 따른 추가 예방도 필요할 수 있다.
 
-Rh‑음성 임산부가 Rh‑양성 파트너와 임신 중이며 항‑D 선별검사가 음성일 경우, 28주에 RhoGam을 투여해 태아 적혈구에 대한 면역화를 예방한다. 양성 결과가 있으면 이미 감작이 진행된 것이므로 투여 시기가 달라진다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 항-D 감작이 있으면 단지 투여 시기를 바꾸는 것이 아님.
+- https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy
 
 ## 출처
 

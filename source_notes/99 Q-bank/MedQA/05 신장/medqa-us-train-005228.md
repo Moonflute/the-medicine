@@ -18,13 +18,13 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ
 question_type: mechanism
 difficulty: simple
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,12 @@ related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTmFmY2lsbGluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ
+medical_review_status: "content-reviewed"
+medical_reviewed_at: 2026-10-25
+curation_status: "revised"
+curation_reason: "집광관 오역과 ADH 분비 억제라는 중추성 기전 혼동 수정."
+curation_reviewed_at: "2026-10-25"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -49,10 +55,19 @@ D. 리튬
 
 ## 해설
 
+Desmopressin에 소변 농축 반응이 없는 것은 신장의 vasopressin 반응 저하를 시사한다. 선택지 중 lithium은 집합관의 물 재흡수 반응을 방해해 신성 요붕증을 일으킬 수 있다. 핵심은 ADH 분비 저하가 아니라 신장 반응의 문제다.
 
-리튬은 신장에서 집광관에서 ADH(바소프레신) 작용을 차단하거나 ADH 분비를 억제해 요붕증을 유발한다. 따라서 디스모프레신(바소프레신) 투여에도 소변량·삼투압이 변하지 않는 경우 리튬이 원인 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 집광관 오역과 ADH 분비 억제라는 중추성 기전 혼동 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005228
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

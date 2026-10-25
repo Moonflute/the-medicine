@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 기관내 삽관
 
 ## 해설
 
+발열·기면·수유 저하·호흡곤란과 관류 저하는 신생아 패혈증을 의심하게 한다. 보기 중 ampicillin과 gentamicin(C)의 즉각적 경험적 항생제 치료가 적절하다. 가능하면 신속히 배양을 얻되 영상이나 검사 결과를 기다려 항생제를 지연하지 않고 호흡·순환 지지를 병행한다. 수막염 가능성과 지역 내성에 따라 요법을 조정한다.
 
-조산아에서 조기 양막 파수와 저체중, 발열, 호흡곤란은 신생아 패혈증을 의심한다. 경험적 항생제로 그람음성균과 그람양성균을 동시에 커버하는 암피실린과 겐타마이신이 표준 치료이다. 따라서 두 항생제 투여가 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신생아 패혈증의 항생제를 검사 예약 때문에 지연하지 않으며 안정화도 병행하도록 명확화.
+- https://www.rch.org.au/clinicalguide/guideline_index/Recognition_of_the_seriously_unwell_neonate_and_young_infant/
+- https://www.nice.org.uk/guidance/ng195/chapter/Meningitis-babies-with-early-onset-or-late-onset-infection-in-neonatal-units
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -52,7 +54,13 @@ D. 말초혈액도말
 ## 해설
 
 
-유전구형적혈구증은 적혈구 막 단백질(Eosin-5-maleimide) 결합이 감소하는 특이적 검사로 확진한다. 따라서 가장 확진에 좋은 검사는 Eosin-5-maleimide 결합검사이다.
+가족성 빈혈·황달·비장비대와 MCHC 증가가 유전구형적혈구증을 시사한다. Eosin-5-maleimide(EMA)는 band3 등 막 단백에 결합하는 형광염료로, 유세포분석에서 결합 형광이 감소하면 진단을 지지하여 B가 적절하다. EMA를 적혈구막 단백의 이름이라고 설명하면 안 된다. 일부 다른 막질환에서도 감소할 수 있어 임상 및 다른 용혈 검사와 결합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004621 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: EMA는 적혈구막 단백 자체가 아니라 결합하는 형광염료임을 교정; HS 확인 B 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

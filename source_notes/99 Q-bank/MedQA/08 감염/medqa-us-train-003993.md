@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 정맥 항생제 치료를 위해 입원
 ## 해설
 
 
-당뇨병 환자에서 발열·오한·요통·우측 측복부 압통은 복합성 요로감염(신우신염)으로, 급성 신우신염은 입원 후 정맥 항생제 치료가 표준이다. 영상검사나 경피적 배액은 필요하지 않으며, 즉시 항생제 투여가 가장 적절한 처치이다.
+고열·오한·오심과 CVA 압통·농뇨는 신우신염을 시사한다. 이 환자는 전신증상이 뚜렷하고 당뇨·재발 병력이 있어 D의 입원/정주 항균치료가 선택지 중 적절하다. 배양·내성 및 신기능에 맞춰 조정하고 안정 후 경구 전환을 평가한다. 모든 신우신염이 입원을 필요로 하는 것은 아니며 폐쇄·농양·기종성 감염 또는 반응 불량이 의심되면 영상과 원인 배액이 필요할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003993 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고열·전신증상의 신우신염 입원 IV 치료 D 유지; 모든 신우신염 입원 및 영상/배액 영구 불필요라는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/
 
 ## 출처
 

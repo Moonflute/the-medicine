@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7J207IOB7KeA7KeI7ZiI7Kad"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "수치 하나가 아닌 심혈관 위험과 이차 원인에 따른 치료 강도 결정 원칙은 중요."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 트리글리세리드 수치만
 
 ## 오답 포인트
 
-- **B. LDL 수치만:** LDL 수치만으로는 전체 위험을 평가할 수 없습니다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

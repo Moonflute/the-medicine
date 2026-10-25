@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 정맥 내 하이드록시코발라민(hydroxycobalamin) 투여
 
 ## 해설
 
+밀폐 공간 화재 후 의식 소실 병력·초조와 대사성 산증은 시안화물 노출을 고려하게 한다. 시안화물 중독을 임상적으로 의심하면 선지 D의 하이드록소코발라민을 선택할 수 있으며 산소·기도·순환 지지가 병행된다. 이 약은 시안 이온을 결합하여 시아노코발라민으로 만들어 배설시키는 해독제이지 이미 시안과 결합된 약이라는 뜻이 아니다. 현재 젖산 수치는 제시되지 않았으므로 심한 젖산산증을 관찰 사실로 만들지 않는다. 모든 화재 노출 환자에게 일률적으로 투여하는 것이 아니라 노출력·정신상태·저혈압·젖산 등을 종합해 판단한다.
 
-연기 흡입 후 두통·현기증·저산소혈증이 나타났으며, 혈액 가스에서 대사성 산증과 저산소혈증이 보인다. 화재 현장에서는 시안화물 중독이 흔히 동반되며, 치료에 혈중 시안이 결합된 형태인 하이드록시코발라민이 가장 효과적이다. 따라서 정맥 내 하이드록시코발라민 투여가 적절한 다음 관리 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 하이드록소코발라민을 이미 시안이 결합된 형태로 설명한 기전을 교정했다. 밀폐 화재 후 신경증상·산증에서 의심 시안화물 중독의 D를 설명하되 모든 연기 노출에 일률 투여하지 않는다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b
 
 ## 출처
 

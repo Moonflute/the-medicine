@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 비기관삽관
 
 ## 해설
 
+고열·침흘림·삼각대 자세와 공기 유입 감소는 후두개염에 의한 기도 폐쇄 위험을 시사한다. 우선 숙련된 마취·이비인후과 팀이 통제된 환경에서 기도를 확보해야 하므로 보기 중 D가 기도 확보에 해당한다. 비기관삽관은 비강 경로이며 경구 삽관과 같은 용어가 아니다. 맹목적 비강 삽관이나 일반 진찰실에서 인두를 자극하는 검사를 권하는 뜻은 아니다.
 
-급성 후두개염은 급격한 기도 폐쇄와 호흡곤란을 일으키며, 입을 벌리고 전방으로 기울인 자세가 특징이다. 기도 확보가 최우선이며, 비기관삽관(경구 기도 삽관)으로 즉시 기도를 열어야 한다. 따라서 가장 적절한 처치는 비기관삽관이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비기관삽관을 경구 삽관으로 동일시한 오역을 삭제하고 숙련팀의 통제된 기도 확보를 강조.
+- https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/
 
 ## 출처
 

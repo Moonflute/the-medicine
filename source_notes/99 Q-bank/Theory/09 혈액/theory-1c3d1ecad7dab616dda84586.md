@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "MYC 재배열은 Burkitt 림프종의 중요한 독립 병태생리 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmlxv5ae8yq3r5rhjwcnp0beluc29vvwdlruoxy210cgriuw5jeujnzvcxd2fhoxrzu2t1yldrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. TP53 돌연변이
 
 ## 오답 포인트
 
-- **B. BCR::ABL1 융합 유전자:** BCR::ABL1은 주로 만성 골수성 백혈병(CML)에서 발견된다.
+- **BCR::ABL1 융합 유전자:** BCR::ABL1은 주로 만성 골수성 백혈병(CML)에서 발견된다.
 
 ## 출처
 
 - 내부 학습 노트: 버킷 림프종 (Burkitt's Lymphoma)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/버킷 림프종 (Burkitt's Lymphoma).md`
 - 학습 목표: 원문 핵심: - 매우 공격적인 B세포 림프종으로, 빠른 종괴 성장을 특징으로 한다. - MYC 유전자 재배열(대표적으로 t(8;14))과 연관된다. - WHO 분류에 따라 풍토병성(endemic), 산발성(sporadic), 면역결핍 연관성(immunodeficiency-related)의 3가지 임상 아형으로 나뉩니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: MYC 재배열은 Burkitt 림프종의 중요한 독립 병태생리 복습으로 유지한다.

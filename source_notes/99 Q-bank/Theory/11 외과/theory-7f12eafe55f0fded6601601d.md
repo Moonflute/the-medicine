@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "내장통에서 국소 복막통으로의 통증 이동은 독립 충수염 인지 개념."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 등쪽 요추 부위 통증
 
 - 내부 학습 노트: 급성 충수염 (Acute Appendicitis)
 - 원본 경로: `source_notes/02 Diseases/11 외과/급성 충수염 (Acute Appendicitis).md`
-- 학습 목표: 원문 핵심: * **CC**: 초기에는 모호한 상복부 또는 배꼽 주위 통증(visceral pain)으로 시작하여, 점차 우하복부(RLQ)로 국소화되는 통증(somatic pain). * **P/E**: 우하복부 압통(McBurney's point tenderness), 반동 압통(rebound tenderness), 근육 방어(guarding). 발열, 오심, 구토가 동반될 수 있음.
+- 학습 목표: 충수염의 전형적 통증 이동
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 내장통에서 국소 복막통으로의 통증 이동은 독립 충수염 인지 개념.

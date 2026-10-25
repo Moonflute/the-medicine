@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 배뇨근 수축력 저하
 
 ## 해설
 
+MS의 중추 신경경로 손상은 배뇨근이 수축하는 동안 외요도괄약근이 적절히 이완하지 못하는 배뇨근-괄약근 부조화 C를 일으킬 수 있다. 이로 인해 간헐적 요류, 불완전 배뇨와 잔뇨 증가·요 누출이 생긴다. 단순히 신경학적 탈위축이라고 부르거나 괄약근 자체의 구조적 결함으로 설명하는 것은 맞지 않는다.
 
-다발성 경화증 환자에서 배뇨근과 괄약근이 비동기적으로 수축되는 배뇨근‑괄약근 부조화가 요실금과 잔뇨 증가를 일으킨다. 이는 신경학적 탈위축에 의한 기능적 장애이며, 다른 선택지는 구조적 결손이나 인지 저하와 관련이 없다. 따라서 가장 가능성 높은 원인은 배뇨근‑괄약근 부조화이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 배뇨근-괄약근 부조화를 신경학적 탈위축이라고 설명한 비표준 기전을 교정.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 측두동맥 생검 단독
 ## 해설
 
 
-거대세포동맥염은 고령에서 턱 통증, 체중 감소, 빈혈, ESR 상승을 보이며, 진단을 위해 골반 초음파보다 경구 프레드니손을 시작하고 동시에 측두동맥 생검을 시행한다. 따라서 가장 적절한 조치는 ‘경구 프레드니손과 측두동맥 생검’이다.
+고령의 새 두통·턱 파행, 체중감소·빈혈·혈소판증가와 ESR 상승은 GCA를 의심하게 한다. 시력 위협 소견이 제시되지 않아 고용량 경구 prednisone을 신속히 시작하고 측두동맥 생검으로 확인하는 C가 적절하다. 생검 결과를 기다리며 치료를 미루지 않는다. 시력 상실이 위협되는 경우에는 정맥 pulse glucocorticoid를 고려하는 등 처치가 달라질 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004083 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 무관한 골반 초음파 설명을 제거하고 시각허혈 없는 GCA의 경구 steroid와 생검 C를 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

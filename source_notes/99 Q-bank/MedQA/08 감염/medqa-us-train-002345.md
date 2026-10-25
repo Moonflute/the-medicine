@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 대상포진 예방접종
 
 
 환자는 의료 종사자로서 혈액 매개 감염 위험이 높으며, B형 간염은 예방접종으로 효과적으로 차단된다. 다른 선택지는 현재 상황과 연관성이 낮다. 따라서 B형 간염 예방접종이 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002345 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 39세 미접종 기록·혈액노출 직업에서 HepB vaccine A 유지. 19–59세 성인 접종 및 직업 위험을 공식 권고 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hepatitis-b/hcp/vaccine-administration/
 
 ## 출처
 

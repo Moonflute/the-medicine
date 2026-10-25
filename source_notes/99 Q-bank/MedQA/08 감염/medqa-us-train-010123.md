@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 두드러기
 ## 해설
 
 
-인두염 후 1~2일 내에 발진이 나타나고, 입안에 딸기혀와 고운 비늘 모양의 발진이 특징인 질환은 성홍열이다. 이는 연쇄상구균 감염에 의한 면역 반응이다. 따라서 가장 가능성 높은 진단은 성홍열이다.
+인후염 뒤 생긴 전신의 거친 사포 같은 발진은 성홍열(C)을 시사한다. A군 연쇄상구균의 발열성 외독소와 관련된 질환이다. 발진이 생긴 뒤 amoxicillin을 한 번 투여했으므로 이를 항생제 유발 EBV 발진의 근거로 삼지 않는다. 딸기혀는 가능한 소견이지만 누락된 그림에서 확인한 사실로 덧붙일 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010123 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 발진은 amoxicillin 투여 전 시작했고 인후염 후 거친 발진은 scarlet fever C 지지. 누락 그림의 딸기혀를 실제 보았다고 주장하지 않고 독소 기전 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/scarlet-fever.html
 
 ## 출처
 

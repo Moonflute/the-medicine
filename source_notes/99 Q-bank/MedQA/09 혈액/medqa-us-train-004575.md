@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -51,7 +53,14 @@ D. 관찰
 ## 해설
 
 
-소아 ITP는 혈소판 <30 000/µL에서 출혈이 경미하면 관찰만으로도 자연 회복이 가능하다. 따라서 관찰이 적절한 관리 단계이다.
+감염 후 단독 혈소판감소45,000/µL, 양호한 전신 상태와 경미하고 짧게 자가 소실된 코피는 소아 ITP에 합당하다. 현재 심한/지속 점막출혈이 없으므로 관찰 D와 출혈 교육·신속한 추적이 적절하다. 치료 여부는 혈소판 수 하나뿐 아니라 출혈·삶의 질·추적 가능성을 고려한다. 원문 수치를30,000미만이라고 바꾸지 않으며 romiplostim·비장절제술을 초기에 일률 시행하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004575 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 실제 혈소판45,000을30,000미만으로 바꾼 해설 교정; 출혈이 경미한 소아 ITP 관찰 D 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/
 
 ## 출처
 

@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 적혈구침강속도
 
 ## 해설
 
+팔꿈치·무릎의 황갈색 구진은 황색종, 눈꺼풀의 부드러운 황색 병변은 황색판종을 시사한다. 진피의 지질을 함유한 대식세포 축적이며 지방세포 종양인 지방종과 다르다. 조기 심혈관질환 가족력도 있어 지질 패널 C로 이상지질혈증을 평가한다.
 
-팔꿈치·무릎의 황색 결절과 안와의 황색 반점은 고콜레스테롤혈증에서 나타나는 지방종(지질증)이며, 혈중 지질 프로파일 검사가 진단에 필수적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 황색종/황색판종을 지방종으로 잘못 명명. 지질검사 C 유지.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

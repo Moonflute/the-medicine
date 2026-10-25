@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,12 @@ D. 경부 초음파
 
 
 인후통과 발열이 있으며 편도·인두에 발적이 없고 경부 림프절만 부은 경우, 급성 연쇄상구균 인두염을 배제하기 위해 신속 연쇄상구균 검사가 필요하다. 따라서 가장 적절한 단계는 신속 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고열·기침/콧물 없음·전경부 림프절 종대에서 GAS 검사 선택 B는 적절. 영어 원문·선지·해설 일치. 바이러스 증상이 없는 경우 임상 소견만으로 감별 불가하므로 검사로 확인하며 편도삼출 부재가 GAS를 배제하지 않음. 플래그는 오연결 아님.
+- 공식/학회 근거: https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis2/
 
 ## 출처
 

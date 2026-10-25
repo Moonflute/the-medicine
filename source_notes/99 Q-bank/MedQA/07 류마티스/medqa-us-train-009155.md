@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 제4형—세포 매개(지연형) 과민반응
 ## 해설
 
 
-결절다발동맥염은 면역복합체가 혈관벽에 침착해 염증을 일으키는 제3형 과민반응이다. 따라서 기전은 면역복합체 매개 과민반응이다.
+보기 C는 특히 HBV 관련 PAN에서 항원-항체 면역복합체가 혈관벽에 침착하는 고전적 제III형 기전을 가리킨다. 그러나 모든 특발성 PAN의 병인이 이 기전으로 확정된 것은 아니다. HCV·자반·신경병증이 있는 이 환자에서는 cryoglobulinemic vasculitis 등도 감별해야 하며 원문은 PAN이 의심된다고 기술했을 뿐 확진자료를 제시하지 않았다. 따라서 C를 PAN의 보편적·확정 병인으로 일반화하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009155 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PAN의 모든아형을 면역복합체로 단정하지 않고 고전적 C 기전의 적용범위 및 HCV cryoglobulin 감별을 명확화.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://jcp.bmj.com/content/27/11/863
 
 ## 출처
 

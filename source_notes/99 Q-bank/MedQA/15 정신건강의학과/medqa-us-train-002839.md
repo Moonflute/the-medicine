@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,9 +47,15 @@ D. 외래 정신치료 시작
 ## 해설
 
 
-청소년이 자살 계획을 명확히 밝히고 위험한 수단(총)을 가지고 있다면, 즉시 보호를 위해 부모에게 알리고 비자 입원을 시행해야 한다. 이는 자살 위험이 높은 경우의 표준 절차이다.
+청소년이 자살 계획을 명확히 밝히고 위험한 수단(총)을 가지고 있다면, 즉시 보호를 위해 부모에게 알리고 비자의 입원을 시행해야 한다. 이는 자살 위험이 높은 경우의 표준 절차이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002839
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 구체적 자살 계획·총기 접근·치료 거부에 보호 입원 원정답 유지. 비자의 입원 오기 수정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

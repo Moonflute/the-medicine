@@ -25,13 +25,15 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 7 미만
 
 
 출혈성 쇼크에서 적혈구 수혈은 Hb 7 g/dL 이하, 혹은 활력징후가 불안정하고 지속적인 출혈이 있을 때 시행한다. 환자는 저혈압·빈맥으로 혈역학적 불안정이 있으므로 역치가 적용되지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 수액후에도 지속되는 출혈성 관류저하에서는 Hb 숫자만 기다리지 않고 임상상으로 수혈 A를 판단.
+- https://www.esge.com/assets/downloads/pdfs/guidelines/2026_a-2863-8314.pdf
 
 ## 출처
 

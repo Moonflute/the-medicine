@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. 플루옥세틴
 
 ## 해설
 
-
-반복적인 급성 작열성 흉통, 심계항진, 회피 행동은 공황발작을 나타낸다. 장기 관리의 1차 치료는 발작에 대한 인지·행동 패턴을 교정하는 인지행동치료(CBT)이다. 따라서 정답은 인지행동치료이다.
+반복되는 예기치 않은 발작과 다음 발작에 대한 걱정은 공황장애를 시사한다. 약물 부작용과 복약에 대한 우려가 있어 제시된 장기 관리 선택지 중 인지행동치료가 적절하다. 원문에 실제 장소 회피 행동이 기술된 것은 아니다. 현재 흉통의 의학적 원인은 별도로 평가해야 하며 초기 트로포닌 한 번이 음성이라는 사실만으로 급성 관상동맥증후군을 배제하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005867
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 약물 부작용·불순응 선호에서 CBT 정답 유지. 원문에 없는 회피행동 제거 및 초기 트로포닌 단회 음성만으로 심장 원인 배제 아님을 명시.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

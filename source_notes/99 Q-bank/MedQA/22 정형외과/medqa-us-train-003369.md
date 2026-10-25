@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 물리치료만 시행
 
 ## 해설
 
+반복 슬개골 탈구와 관절내 골연골 조각이 있어 단순 물리치료만 하기보다 정복과 골연골 손상의 전문 평가가 필요하다. 주어진 선지에서는 관절경(A)이 조각과 관절면을 평가·치료하는 적절한 선택이다. 복원 가능한 큰 골연골 조각은 고정·복원을 고려하며 모든 조각을 일률적으로 제거하지 않는다. 반복 불안정성의 안정화 수술 필요성도 해부학적 위험인자와 연관 손상에 따라 평가한다.
 
-반복적인 무릎 탈구와 관절 내 골연골 파편은 관절경을 통해 파편을 제거하고 인대 재건을 평가할 수 있다. 관절경은 최소 침습적이며 진단 및 치료를 동시에 제공한다. 따라서 가장 적절한 치료는 관절경검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 반복 슬개골 탈구의 관절내 골연골 조각을 무조건 제거한다고 설명하지 않고 복원·고정 가능성을 먼저 평가하도록 교정했다. 선지 A의 수술적 관절경 평가를 유지한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12684363/
+- 공식/학회 근거: https://www.boa.ac.uk/resource/boast-assessment-and-management-of-first-time-lateral-patellar-dislocation.html
 
 ## 출처
 

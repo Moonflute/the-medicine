@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 세크레틴
 
 
 담낭 수축을 유도하고 통증을 일으키는 호르몬은 십이지장에서 지방에 반응해 분비되는 콜레시스토키닌이다. 따라서 정답은 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000981 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 식후 담낭 수축을 일으키는 CCK B와 담도산통의 기초 생리 연결을 원문 대조하여 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

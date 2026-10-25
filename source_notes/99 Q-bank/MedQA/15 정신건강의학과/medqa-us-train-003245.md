@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,10 +51,16 @@ D. 이미프라민
 
 ## 해설
 
-
-메틸페니데이트는 식욕 억제가 흔한 부작용이며, 약물 교체가 필요할 때는 비자극성 비정신과 약물인 아토목세틴을 선택한다. 이는 선택적 노르에피네프린 재흡수 억제로 식욕 감소가 적다. 따라서 다음 약물은 아토목세틴이다.
+메틸페니데이트 투여 후 현저한 식욕 저하와 체중 감소가 있어 제시된 선택지 중 비자극성 ADHD 치료제인 아토목세틴을 고려한다. 선택적 노르에피네프린 재흡수 억제제이며 '비정신과 약물'이라는 분류는 맞지 않는다. 아토목세틴도 식욕 저하·체중 감소를 일으킬 수 있으므로 영양과 키·체중, 증상 및 부작용을 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003245
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 아토목세틴을 비정신과 약으로 부른 오류와 식욕 부작용이 없는 듯한 설명 교정. 자극제 불내약 시 비자극성 선택 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/ng87/chapter/recommendations

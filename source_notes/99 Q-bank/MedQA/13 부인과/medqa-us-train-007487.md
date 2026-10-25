@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 환자에게 경구 플루코나졸
 
 ## 해설
 
+정상 pH, 두꺼운 무취 분비물과 위균사는 칸디다 외음질염이다. 비임신 환자는 경구 플루코나졸(D) 또는 국소 아졸제로 치료하며 증상 없는 파트너는 통상 치료하지 않는다. 심한 홍반·부종이면 더 긴 국소 치료 또는 반복 경구 투여가 필요할 수 있다.
 
-정상 질 pH와 백색, 무취 분비물, 현미경에서 위균사가 보이는 경우는 칸디다 외음질염이다. 치료는 국소 또는 경구 플루코나졸이며, 파트너에게 치료는 필요하지 않다. 따라서 환자에게만 플루코나졸을 처방한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비임신 칸디다 질염의 환자 경구 플루코나졸 D 유지. 국소 플루코나졸 표현을 국소 아졸제로 교정.
+- https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm
 
 ## 출처
 

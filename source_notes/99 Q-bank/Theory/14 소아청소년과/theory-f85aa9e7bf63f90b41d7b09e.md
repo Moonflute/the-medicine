@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "시기 자체는 CDC 자료와 일치함을 확인. 생후 1주~6개월 범위를 유지하면서 가장 흔한 시기와 선지 문자 없는 설명을 보강."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -38,14 +43,22 @@ D. 출생 직후
 
 ## 해설
 
-지연형 VKDB는 생후 1주에서 6개월 사이에 발생하며, 모유 수유아에서 흔히 나타난다.
+CDC는 지연형 비타민 K 결핍 출혈을 생후 1주~6개월, 가장 흔하게는 2~8주에 발생하는 것으로 분류한다. 출생 시 비타민 K 예방을 받지 않은 완전 모유수유아 등에서 위험이 높다.
 
 ## 오답 포인트
 
-- **C. 생후 1주 이내:** 고전형은 생후 1주 이내에 발생하지만 지연형은 그 이후이다.
+- **생후 24시간 이내:** 조기형의 시기이다.
+- **생후 2일~1주:** 고전형에 해당하는 시기이다. 지연형 위험이 첫 주에만 한정되는 것은 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 비타민 K 결핍증 (Vitamin K Deficiency)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/비타민 K 결핍증 (Vitamin K Deficiency).md`
-- 학습 목표: 원문 핵심: * **신생아 출혈성 질환 (VKDB)**: * 조기형(생후 24시간 이내): 모체 약물 복용과 관련 * 고전형(생후 1주 이내): 제대 출혈, 위장관 출혈 등 * 지연형(생후 1주~6개월): 두개내 출혈 등 심각한 출혈 위험(모유 수유아에서 빈번) * **일반적 증상**: 점상 출혈, 반상 출혈, 주사 부위 출혈, 점막 출혈
+- 학습 목표: 지연형 VKDB는 생후 1주~6개월, 특히 2~8주에 발생할 수 있음을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 시기 자체는 CDC 자료와 일치함을 확인. 생후 1주~6개월 범위를 유지하면서 가장 흔한 시기와 선지 문자 없는 설명을 보강.
+- 근거: https://www.cdc.gov/vitamin-k-deficiency/about/

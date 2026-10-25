@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. N95 마스크 사용
 ## 해설
 
 
-필로바이러스 감염에 의한 출혈성 열성 질환은 급성 혈액량 감소와 다발성 장기 손상을 초래한다. 초기 치료는 수액 및 전해질 보충으로 혈역학적 안정성을 유지하는 것이 가장 중요하다. 따라서 정답은 정맥 수액과 전해질이다.
+구토·설사·출혈과 기립 혈압저하는 체액 손실을 시사하므로 B의 정주 수액·전해질을 임상 반응에 맞춰 보충한다. Filovirus 의심/확진 환자는 동시에 적절한 격리·전신 PPE·공중보건 대응이 필요하고 N95 하나만으로 전체 보호조치를 대체하지 않는다. 바이러스 종에 따라 승인된 특정 치료 가능성도 확인하며 지지요법이 유일하다고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007932 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Filovirus 감염의 수액/전해질 B 유지; 격리·PPE와 동시 시행하며 모든 종에 특정치료 없다는 해석 방지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.who.int/publications/i/item/9789241515894
 
 ## 출처
 

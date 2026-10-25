@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 펀치 생검
 
 ## 해설
 
+정답은 D, 펀치 생검이다. 정맥류·부종·과색소침착은 만성 정맥질환을 지지하지만, 오래 지속된 궤양에 융기되고 딱딱한 가장자리와 괴사성 바닥이 있으면 편평세포암 등 악성 병변을 배제해야 한다. 의심 부위의 적절한 깊이와 위치에서 조직을 채취하며 병변에 따라 여러 표본이나 다른 생검 방식이 필요할 수 있다. 펀치 생검이 모든 만성 궤양에서 가장 정확하거나 한 번의 음성 결과가 악성을 완전히 배제한다는 의미는 아니다.
 
-만성 정맥성 궤양이 오래되면 악성 변이를 의심할 수 있으며, 진단을 위해서는 조직검사가 필요하다. 펀치 생검이 가장 간편하고 정확한 방법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 융기·경화 가장자리의 만성 정맥궤양에서 악성변화 배제 위한 생검 D 유지. punch가 항상 가장 정확하다는 과장 삭제.
+- 공식/학회 근거: https://www.bad.org.uk/pils/squamous-cell-carcinoma
 
 ## 출처
 

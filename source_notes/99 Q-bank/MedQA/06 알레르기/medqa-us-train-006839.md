@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 검영법
 ## 해설
 
 
-건성각결막염(시와 눈물막 건조)에서 쉬르머검사가 양성이고, 안구 자극과 충혈이 지속된다. 인공눈물로 증상을 완화하는 것이 1차 치료이다.
+비정상 Schirmer 검사와 지속적인 안구 자극은 눈물 분비 저하에 의한 건성각결막염을 지지한다. 다발성 치아우식과 ANA 양성은 쇼그렌 증후군 가능성도 시사한다. 선지 중 증상 완화를 위한 인공눈물(A)이 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-006839`와 직접 대조했다.
+- 판정: 비정상 Schirmer 검사·우식증·자가항체로 건조증 지지, A 유지. 해설의 시와 눈물막 건조 오염 문구 정리.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://academic.oup.com/rheumatology/article/56/10/e24/3895127
 
 ## 출처
 

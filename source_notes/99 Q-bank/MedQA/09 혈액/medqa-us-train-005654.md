@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 적혈구의 CD55 및 CD59 감소
 ## 해설
 
 
-스펙트린 결함은 적혈구막의 구조적 불안정성을 초래해 원형 적혈구와 용혈을 일으키며, 이는 적혈구 용적 증가와 고RDW를 동반한다. 환자의 용혈성 빈혈과 비장 비대는 스펙트린 결함에 부합한다. 따라서 적혈구막 스펙트린 결함이 가장 가능성 높은 원인이다.
+황달·비장비대·간접 bilirubin 증가와 MCHC 증가, 아버지의 비장절제 병력은 HS를 시사한다. Spectrin 같은 막 구조 결함 B로 표면적이 감소한 구형 적혈구가 비장에서 제거된다. MCV는 반드시 증가하지 않고 정상/감소일 수 있으며 높은 RDW·MCHC가 단서다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005654 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HS를 적혈구 용적 증가로 설명한 오류 교정; 높은 MCHC와 막 결함 B 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

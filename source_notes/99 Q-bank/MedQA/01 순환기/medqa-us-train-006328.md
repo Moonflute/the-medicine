@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 긴장성 기흉
 
 ## 해설
 
+외상 후 심낭내 혈액 등으로 심장이 압박되면 심실충만이 제한되고 이완기압이 평준화될 수 있어 C의 압전이 적합하다. 이는 폐쇄성쇼크의 저박출·저혈압 기전이지 '저출혈'이 특징이라는 뜻은 아니다.
 
-심장 도관술에서 모든 심방·심실 이완기 압력이 동일해지는 것은 심장압전(심낭에 혈액/가스 축적) 특성이다. 이는 급성 저혈압과 저출혈을 동반한다. 따라서 가장 가능성 높은 진단은 심장압전이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 외상성 압전 C의 정맥압/저박출 기전을 잘못된 저출혈 표현 대신 정확히 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

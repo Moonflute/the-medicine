@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 티아지드 이뇨제 치료
 
 ## 해설
 
+정답은 A, 요관경을 이용한 결석 제거이다. 원위 요관의 12 mm 결석은 자연배출 가능성이 낮아 관찰만 지속하기보다 적극적 제거가 적절하다. 제시된 선지에서는 요관경 치료가 적합하며 비만도 치료방식 선택에 고려한다. 스텐트는 필요한 경우 감압에 쓰지만 그 자체가 항상 근본적 결석제거는 아니다. 발열·감염을 동반한 폐쇄가 있으면 우선 긴급 감압과 항균치료가 필요하나 이 문항에는 감염 소견이 없다.
 
-12mm 크기의 요관 결석이 요관을 부분적으로 막아 통증과 혈뇨를 일으키지만 신기능은 유지된다. 크기가 5‑10mm 사이이면 보존적 치료 후 자연 배출을 기대하므로 관찰이 적절하다. 따라서 다음 단계는 관찰이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 12mm 결석을5–10mm로 바꾸고 관찰 B라고 결론낸 명백한 정답모순 해설 교체. A 요관경 치료 유지.
+- 공식/학회 근거: https://uroweb.org/guidelines/urolithiasis/chapter/guidelines
 
 ## 출처
 

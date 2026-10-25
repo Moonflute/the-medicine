@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 굴곡성 구불결장경검사
 
 ## 해설
 
+생후3주의 담즙성 구토와 십이지장 원위 가스 부족은 장회전이상/중장염전 등 폐쇄를 긴급 평가해야 한다. 현재 복막자극·명백한 불안정이 제시되지 않아 소아외과와 협의하며 신속한 상부 위장관 조영검사(B)가 적절하다. 쇼크·천공·장허혈이 의심되면 검사를 기다리며 수술을 지연하지 않는다.
 
-신생아에서 구토와 복부 팽만, 위장관 가스 패턴이 비정상적이면 상부 위장관 조영검사(바륨/요오드)로 장회전 이상을 평가한다. 이는 비수술적 진단에 가장 적합하다. 따라서 가장 적절한 처치는 상부 위장관 조영검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 담즙성 구토의 긴급도와 안정 상태의 UGI 검사 역할을 명확화.
+- https://acsearch.acr.org/list/TopicNarrativePdf?topicId=103
 
 ## 출처
 

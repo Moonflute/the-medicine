@@ -19,11 +19,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 정맥 메틸프레드니솔론을 시작한다
 ## 해설
 
 
-고령 환자의 두통·발열·높은 ESR와 골격근통은 거대세포동맥염과 연관된 다발성 근육통(Polymyalgia rheumatica)이다. 경구 프레드니손이 1차 치료이며, 정맥 스테로이드는 급성 합병증에만 사용한다.
+고령의 새로운 지속 두통·두피압통과 높은 ESR, PMR형 증상은 GCA를 강하게 의심하게 한다. 시각허혈이 없는 제시 상황에서는 즉시 고용량 경구 prednisone C를 시작하고 동맥 평가·생검 등을 신속히 진행한다. 생검을 기다리며 치료를 미루지 않는다. 이는 PMR 단독의 저용량 치료와 다르다. 정맥 pulse steroid는 특히 시력위협 등 허혈성 합병증에서 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008453 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: GCA 의심에서 PMR용 저용량과 혼동하지 않고 시각허혈 없으면 고용량 경구 steroid 즉시 C, 확진검사 지연 금지로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

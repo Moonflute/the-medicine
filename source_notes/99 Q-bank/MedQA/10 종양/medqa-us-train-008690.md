@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 카르시노이드 종양
 
 
 복통, 설사, 체중 감소, 간 효소 상승, 피부 혈관확장, 천명음은 카르시노이드 증후군을 시사한다. 카르시노이드 종양이 가장 가능성 높은 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008690 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수양설사·발작성홍조/천명·체중감소의carcinoid tumor D연관이본문·선지·해설과일치함을직접확인.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

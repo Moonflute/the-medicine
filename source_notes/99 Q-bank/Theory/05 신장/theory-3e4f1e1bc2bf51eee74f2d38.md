@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-qzoOuCmO2KuOulqO2YiOymnSAoSHlwZXJuYXRyZW1pYSkubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "나트륨 수치만이 아니라 상대적 수분 부족이라는 기본 생리를 함께 물어 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,10 @@ D. 혈청 칼륨 농도 > 5.5 mEq/L인 고칼륨혈증
 
 ## 오답 포인트
 
-- **B. 혈청 나트륨 농도 < 135 mEq/L인 저나트륨혈증:** 혈청 나트륨이 낮은 경우는 저나트륨혈증이다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: 고나트륨혈증 (Hypernatremia)
 - 원본 경로: `source_notes/02 Diseases/05 신장/고나트륨혈증 (Hypernatremia).md`
-- 학습 목표: 원문 핵심: - **정의** - 혈청 나트륨 농도 > 145 mEq/L - 체내 총 수분량(TBW)이 총 나트륨량에 비해 상대적으로 부족한 상태 - **원인** - 수분 섭취 부족(갈증 기전 장애, 수분 접근 제한) - 수분 소실 과다(위장관, 피부, 신장성 소실) - 나트륨 과다 섭취(드묾) - **기전** - 세포외액 삼투압 상승으로 인한 세포 내 수분의 세포외 이동(세포 탈수) - 중추신경계 기능 장애 유발
+- 학습 목표: 고나트륨혈증의 상대적 수분 부족

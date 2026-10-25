@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-32세 미혼 여성이 2주 동안 성교 후 통증과 피가 섞인 질 분비물로 내원했다. 3개월 동안 한 남성 파트너와 성관계를 했고 콘돔은 사용하지 않는다. 유일한 약물은 2년 동안 복용한 복합 경구피임약이며 한 달에 2~3일은 복용을 잊을 수 있다. 1년 전 자궁경부 세포검사는 정상이었고 HPV 백신은 받지 않았다. 양손 진찰에서 자궁경부를 움직일 때 압통이 있고 질경검사에서 면봉으로 자궁경부를 건드리면 출혈한다. 다음 중 가장 가능성 높은 진단은?
+임신력이 없는 32세 여성이 2주 동안 성교 후 통증과 피가 섞인 질 분비물로 내원했다. 3개월 동안 한 남성 파트너와 성관계를 했고 콘돔은 사용하지 않는다. 유일한 약물은 2년 동안 복용한 복합 경구피임약이며 한 달에 2~3일은 복용을 잊을 수 있다. 1년 전 자궁경부 세포검사는 정상이었고 HPV 백신은 받지 않았다. 양손 진찰에서 자궁경부를 움직일 때 압통이 있고 질경검사에서 면봉으로 자궁경부를 건드리면 출혈한다. 다음 중 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -45,6 +47,12 @@ D. 클라미디아 감염
 
 
 클라미디아 감염은 자궁경부 운동통과 출혈을 일으키며, 가장 흔한 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: nulligravid를 미혼으로 번역한 오류를 임신력 없음으로 교정했다. 감염 진단 정답은 유지한다.
+
 
 ## 출처
 

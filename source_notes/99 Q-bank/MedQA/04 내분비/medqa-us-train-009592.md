@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 정기적 사혈
 ## 해설
 
 
-유전성 혈색소침착증은 철 과다 축적으로 심근증, 간경변, 당뇨 등을 초래한다. 정기적인 사혈(정맥혈액제거)은 체내 철을 감소시켜 심근증 진행을 예방한다. 금연·양압치료·판막 수술은 해당 질환 예방에 직접적 효과가 없으므로 가장 적절한 예방은 정기적 사혈이다.
+정답 D. 피부색소침착·당뇨·장기간 관절병과 확장성 심근증은 혈색소침착증의 철과다 장기손상을 시사한다. 조기 규칙적 사혈은 철 부담을 낮춰 장기 합병증을 예방할 수 있다. 이미 진행한 심근증의 모든 변화가 완전히 회복된다는 뜻은 아니며 실제 철검사와 원인 평가가 필요하다. 금연과 일반 심부전 관리의 이점까지 부정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009592 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 철과다 심근증 예방 사혈 D 유지; 금연/다른 심부전 관리가 무효라는 일반화 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://easl.eu/wp-content/uploads/2022/06/PIIS01688278220021121.pdf
 
 ## 출처
 

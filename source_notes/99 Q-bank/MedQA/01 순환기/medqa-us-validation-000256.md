@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 좌심실 및/또는 우심실 확장과 낮은 박출률
 
 ## 해설
 
+저혈압, 빈맥, 기이맥, 경정맥압 상승과 약한 심음은 심낭압전을 시사한다. 심낭 내 압력 상승이 이완기 충만을 제한하고 호흡에 따른 심실 상호작용을 증가시켜 B의 소견이 예상된다. 누락된 흉부 X선에서 실제 심장 음영 확대를 확인했다고 단정하지 않는다.
 
-심낭삼출(심장압전)에서는 흉부 X선에 심장 실루엣이 확대되고, 심초음파에서 초기·후기 이완기 충만이 모두 감소하고 호흡에 따라 충만 변동이 관찰된다. 이는 제한된 심낭 공간으로 인한 충만 저하를 의미한다. 따라서 가장 잘 보이는 소견은 초기·후기 이완기 충만이 모두 저하되고 호흡에 따른 변동이다
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 임상 심낭압전 B는 지지하지만 누락 X선의 심장 음영을 실제 판독한 듯한 표현을 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

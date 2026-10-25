@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "대표 조직형은 중요한 기초 복습 유지. 오답 문자 의존을 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 육종
 
 ## 오답 포인트
 
-- **B. 악성 흑색종:** 악성 흑색종은 외음부암에서 드물다.
+- 악성 흑색종도 외음부에 생길 수 있지만 외음부암의 가장 흔한 조직형은 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 외음부암 (Vulvar Cancer)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/외음부암 (Vulvar Cancer).md`
-- 학습 목표: 원문 핵심: - **정의**: 외음부에 발생하는 악성 종양으로, 주로 편평상피세포암(SCC)임 - **원인**: 고위험군 HPV 감염, 흡연, 만성 염증성 질환(태선경화증 등), 면역결핍 - **기전**: HPV 관련 경로(p53, RB 불활성화)와 HPV 비관련 경로(만성 염증으로 인한 p53 변이 등)로 구분
+- 학습 목표: 외음부암의 대표 편평상피 조직형
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 대표 조직형은 중요한 기초 복습 유지. 오답 문자 의존을 제거.

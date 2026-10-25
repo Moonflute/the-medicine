@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 항체 선별검사
 ## 해설
 
 
-다발성 근육통과 상승된 ESR/CRP가 있는 고령 환자에게는 저용량 프레드니손(10‑20 mg)으로 증상을 빠르게 완화시키는 것이 표준 치료이다. 근육생검이나 항체 검사 등은 먼저 스테로이드를 시작한 후 필요에 따라 고려한다.
+양측 어깨·골반대 통증과 아침강직, 정상 실제 근력 및 염증수치 상승은 PMR에 부합해 B가 적절하다. 치료 전 또는 동시에 GCA 증상, 감염·암·약물성/염증성 근병증 등 감별을 평가해야 하며 모든 검사를 steroid 이후로 미루는 것은 아니다. 2026 BSR의 초기 prednisolone12.5–15 mg/day 등 최소 유효용량을 개별화하고 반응·독성을 모니터한다. 비전형 경과나 불충분한 반응은 진단 재평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007800 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PMR 저용량 prednisone B 유지, 감별 평가를 모두 steroid 후로 미루라는 부정확한 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13661133/
 
 ## 출처
 

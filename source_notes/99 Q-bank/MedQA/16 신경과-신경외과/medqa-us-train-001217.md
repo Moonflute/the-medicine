@@ -17,17 +17,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 흑질(substantia nigra)의 퇴행
 
 ## 해설
 
+5개월간 진행한 비대칭 안정떨림, 수동운동 저항 증가(강직), 세밀 동작의 어려움은 파킨슨증을 시사한다. 선지 중 흑질 도파민성 신경세포 퇴행(D)이 가장 적절하다. 파킨슨병 진단에 5년 이상의 경과가 필요한 것은 아니며 단순한 근력저하가 정의적 소견도 아니다.
 
-점진적이고 양측성 저주파 진전·운동 저항 증가·근력 저하가 5 년 이상 지속된 경우 파킨슨병을 시사한다. 파킨슨병은 흑질의 도파민성 신경세포 퇴행으로 발생한다. 따라서 가장 가능성 높은 원인은 흑질 퇴행이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문 5개월을 5년 이상으로 바꾸고 근력저하를 진단 핵심으로 적은 해설을 교정한다.
 
 ## 출처
 

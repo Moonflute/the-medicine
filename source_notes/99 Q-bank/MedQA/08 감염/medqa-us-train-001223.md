@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. 96시간 및 14mm 직경
 ## 해설
 
 
-PPD 검사는 48–72 시간 후에 읽으며, 양성 판정은 16 mm 이상의 경결이다. 이는 면역 반응이 충분히 발달한 시점과 기준에 부합한다. 따라서 정답은 72시간 및 16 mm이다.
+TST는 주사 후 48–72시간에 발적이 아니라 경결의 가로 지름을 판독한다. 알려진 위험요인이 없는 사람의 양성 역치는 ≥15 mm이다. 따라서 보기의 72시간 및 16 mm는 양성에 해당하여 C가 맞지만, 역치 자체가 16 mm인 것은 아니다. 노출 및 임상 위험군에 따라 ≥5 또는 ≥10 mm를 적용할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001223 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 양성 역치를 16 mm로 잘못 외삽한 설명을 무위험군 ≥15 mm, 판독48–72시간으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html
 
 ## 출처
 

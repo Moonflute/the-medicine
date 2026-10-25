@@ -19,18 +19,19 @@ question_type: other
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
-  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +49,16 @@ D. 칼슘과 비타민 D로 치료 중인 골다공증
 
 ## 해설
 
+최근 입원과 항생제 노출 뒤 발생한 설사, 복통 및 혐기성 그람양성 간균이라는 단서는 Clostridioides difficile 감염을 시사한다. 고령과 최근 항생제 사용이 중요한 위험요인이며, 보기 중 추가로 관련된 요인은 B, 에스오메프라졸을 이용한 위산 억제 치료이다.
 
-고령 여성의 두통·머리통증·시야 변화와 높은 ESR은 거대세포동맥염을 시사한다. 급성 증상 완화를 위해 고용량 경구 프레드니손을 시작한다. 정맥 메틸프레드니솔론은 중증 합병증에만 사용한다.
+PPI 치료와 C. difficile 관련 설사의 위험 증가는 관찰연구에서 연관성이 보고되어 허가사항에 경고되어 있다. 소화성 궤양질환 자체를 원인으로 단정하거나 PPI가 개별 환자에서 감염의 확정 원인이라고 해석하지 않는다. 진료에서는 PPI 적응증과 최소 필요 사용을 재평가하며, 대변에서 균이 검출되었다는 사실만이 아니라 증상과 적절한 검사 결과를 함께 판단한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: GCA/스테로이드 해설을 항생제 노출 후 C. difficile 설사 및 PPI 연관 위험 설명으로 교체. 원정답 B 유지, PPI 인과 확정과 불필요한 약제 중단 일반화 방지 및 프레드니솔론 오연결 제거.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/021153s059%2C021957s026%2C022101s023lbl.pdf
 
 ## 출처
 

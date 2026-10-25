@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 헤모글로빈 S
 ## 해설
 
 
-β‑지중해빈혈 중증형에서는 헤모글로빈 F가 보상적으로 증가한다. 골수 확장과 빈혈 소견이 이에 해당한다. 다른 헤모글로빈은 주된 형태가 아니다.
+영아기 이후 성장부전·간비장비대·소구성 용혈성 빈혈은 beta-thalassemia major를 의심하게 하며 이 경우 주된 hemoglobin은 HbF B다. 다만 두개골 이미지가 누락되어 hair-on-end 등을 직접 확인했다고 할 수 없고 실제 Hb 분획/유전검사로 진단한다. Alpha-thal major의 HbBart는 대개 태아기 중증 빈혈과 연결된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007334 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 영아기 thal major의 HbF B 추론 유지; 누락된 두개골 그림에서 골수확장을 보았다고 단정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

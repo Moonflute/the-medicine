@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 파보바이러스 B19
 
 ## 해설
 
+손발·구강 병변은 수족구병에 부합하고 보기 중 원인군은 Coxsackievirus(A)이다. Coxsackie A16/A6와 EV-A71은 모두 원인이 될 수 있으나 서로 같은 바이러스 명칭이 아니다. 실제 하지 근력저하는 단순 수족구병의 흔한 정상 소견이 아니며 신경학적 합병증을 신속히 평가해야 한다.
 
-발열, 구강 내 출혈성 반점, 손발의 수포성 발진, 심한 다리 통증은 손‑발‑입 병증의 전형적인 임상양상이며, 이는 콕사키바이러스(Enterovirus 71) 감염에 의해 발생한다. 바이러스가 구강·피부·손발에 병변을 일으키는 메커니즘이 해당 증상을 설명한다. 따라서 콕사키바이러스가 가장 가능성 높은 원인균이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Coxsackievirus와 EV-A71을 동의어로 쓴 오류 교정 및 근력저하 경고 명시.
+- https://www.cdc.gov/hand-foot-mouth/causes/
+- https://www.paho.org/sites/default/files/2025-03/2025-mar-26-phe-epidemiological-alert-hand-foot-mouth-disease.pdf
 
 ## 출처
 

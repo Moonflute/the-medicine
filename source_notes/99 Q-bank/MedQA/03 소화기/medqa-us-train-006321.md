@@ -20,15 +20,17 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,14 @@ D. 췌장암
 
 ## 해설
 
+피부색소·DM·MCP관절병·성선저하/간비대 조합은 혈색소침착증을 의심하게 한다. 관련된 중대한 합병증은 HCC B이며 특히 진행섬유화/간경변에서 위험이 높다. Ferritin250만으로 남성의 명확한 철과부하를 확진할 수 없고 transferrin saturation·유전/간평가가 필요하다.
 
-혈청 페리틴이 정상 이상이며 간 효소가 상승하고, 당뇨와 고혈압이 동반된 경우 유전성 혈색소침착증(헴크로마토시스)으로 인한 간철분 축적이 의심된다. 철 과부하 환자에서 가장 흔한 합병증은 간세포암이다. 따라서 가장 높은 위험은 간세포암이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Ferritin250을 남성에서 명백히 높다고 한 수치해석과 HCC가 모든철과부하의 최다합병증이라는 과장 교정.
+- https://easl.eu/wp-content/uploads/2022/06/PIIS01688278220021121.pdf
 
 ## 출처
 

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 혈액투석
 
 ## 해설
 
+서맥, PR 연장, 저혈압과 저혈당은 베타차단제 중독을 시사한다. 초기 수액·포도당·아트로핀 뒤에도 문제가 지속되면 보기 중 글루카곤(A)을 보조 치료로 고려할 수 있다. 글루카곤은 베타아드레날린 수용체를 직접 자극하지 않고 별도 수용체를 통해 심근 cAMP를 증가시킬 수 있다. 효과가 일시적이거나 불충분할 수 있어 독성학 자문과 혈역학 감시가 필요하며, 중증 중독에서는 고용량 인슐린-포도당 및 승압제 등 다른 치료를 병행한다. 기도 확보와 저혈당 교정도 계속 평가해야 한다.
 
-베타차단제 과다 복용 시 서맥과 저혈당이 나타나며, 글루카곤은 심장 β-수용체를 자극해 심박수를 증가시키는 해독제이다. 따라서 다음에 투여할 약은 글루카곤이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 글루카곤이 심장 베타수용체를 자극한다는 오류를 별도 수용체를 통한 cAMP 증가로 교정한다. A는 보기 중 보조 치료로 유지하며 고용량 인슐린 등 현행 중증 치료와 구별한다.
+- 공식/학회 근거: https://atlanticcanadapoisoncentre.ca/glucagon-adult.html
+- 공식/학회 근거: https://www.vumc.org/poison-control/toxicology-question-week/march-27-2019-why-do-we-give-glucagon-beta-blocker-overdose
 
 ## 출처
 

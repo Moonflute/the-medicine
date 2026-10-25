@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 혈청 암모니아 증가
 
 
 거미혈관종은 간경변에서 에스트로겐 대사 감소와 에스트로겐 수치 상승으로 발생한다. 호르몬 불균형, 특히 에스트로겐 증가가 혈관 확장을 유발한다. 따라서 정답은 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000188 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 한국어 본문에 명시된 거미혈관종의 기전은 간경변의 호르몬 불균형 B에 부합. 누락 사진을 실제 판독했다고 주장하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

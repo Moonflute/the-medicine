@@ -18,11 +18,11 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 반코마이신, 세프트리악손 및 암피실린 정맥주사
 
 ## 해설
 
+혈압 202/128 mmHg와 급성 두통·혼란은 고혈압성 응급상황, 특히 고혈압뇌증/PRES를 의심하게 하므로 조절 가능한 정맥 니카르디핀(B)이 적절하다. MRI 사진을 확인할 수 없어 특정 T2 병변을 관찰했다고 단정하지 않으며 시각증상도 본문에 없다. 일반적으로 면밀한 감시하에 첫 시간 평균동맥압을 약 20–25% 이내로 낮추고 이후 단계적으로 조절하며 즉시 정상 혈압까지 급격히 내리지 않는다. 실제로 다른 급성 뇌질환도 함께 평가한다.
 
-고혈압 위기와 두통, 시각 변화, MRI에서 T2 고강도 병변이 보이는 경우는 고혈압성 뇌증(PRES)이다. 혈압을 급속히 낮추는 것이 핵심이며, 니카르디핀은 정맥주사로 빠른 혈압 강하에 효과적이다. 따라서 니카르디핀 정맥주사가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고혈압뇌증 의심에서 니카르디핀 B를 유지하되 사진 없이 PRES 영상과 시력변화를 보았다고 쓰지 않고 통제된 감압을 설명했다.
+- 공식/학회 근거: https://doi.org/10.1161/CIR.0000000000001356
 
 ## 출처
 

@@ -18,17 +18,19 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 골반염 배제를 위한 복부 초음파
 
 ## 해설
 
+최근 성파트너는 검사·평가와 임질 추정치료를 받아야 하며 클라미디아가 배제되지 않았다면 동시 치료한다(B). 양쪽 치료 후 권고 기간 성관계를 피하고 환자는3개월 재검을 계획한다. 양성 결과만으로 외도를 단정하거나 무조건 매독 치료를 추가하지 않는다.
 
-임질은 클라미디아와 동시 감염될 확률이 높으며, 파트너도 동시에 치료하지 않으면 재감염 위험이 크다. 따라서 파트너에게도 임질 및 클라미디아 치료를 제공하는 것이 권장된다. 다른 선택지는 파트너 관리와 직접 관련이 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 파트너의 임질·클라미디아 치료 범위 및 재검 조건 명시.
+- https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm
 
 ## 출처
 

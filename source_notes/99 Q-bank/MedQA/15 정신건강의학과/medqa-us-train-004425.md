@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. 정신치료
 
 ## 해설
 
-
-청각 환각과 피험자 망상은 급성 정신병(조현병)에서 흔히 보이며, 1세대 항정신병제인 리스페리돈은 급성 증상 완화에 효과적이다. 설트랄린은 항우울제, 클로르프로마진은 장기 항정신병제이므로 리스페리돈이 가장 적절하다.
+환청과 피해망상은 급성 정신병적 증상이며 제시된 선택지 중 2세대 항정신병약인 리스페리돈이 원문 선택이다. 48시간 경과만으로 조현병을 확정하지 않으며, 약물 선별검사 음성도 모든 물질 원인을 완전히 배제하지 않는다. 클로르프로마진은 1세대 항정신병약으로 급성 정신병에도 효과가 있지만 진정·기립저혈압 등 부작용을 고려한다. 장기에만 효과가 있어 배제한다는 기존 설명은 잘못이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004425
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 리스페리돈 1세대 오분류, 클로르프로마진은 장기만 효과라는 오류, 48시간 증상으로 조현병 확정 및 피해망상 오기 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

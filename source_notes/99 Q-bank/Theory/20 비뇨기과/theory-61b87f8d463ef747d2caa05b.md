@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "골 전이는 전립샘암의 중요한 전이 양상."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 뇌
 
 - 내부 학습 노트: 전립샘암 (Prostate cancer)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/전립샘암 (Prostate cancer).md`
-- 학습 목표: 원문 핵심: * **초기:** 대부분 무증상. * **진행 시:** 하부요로증상(LUTS: 빈뇨, 배뇨곤란, 세뇨 등), 혈뇨, 정액 내 혈액. * **전이:** 뼈 전이가 가장 흔하며, 척추 전이 시 통증이나 마비가 발생할 수 있음. * **P/E:** 직장수지검사(DRE)를 통해 결절이나 비대칭적 경화 확인 가능.
+- 학습 목표: 전립샘암의 골 전이
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 골 전이는 전립샘암의 중요한 전이 양상.

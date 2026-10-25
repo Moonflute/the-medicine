@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 혈청 엽산 수치
 ## 해설
 
 
-다리 저림·반사 저하·구강 백색설(혀가 매끈하고 붉음) 등은 비타민 B12 결핍을 시사한다. 혈청 코발라민(비타민 B12) 수치를 측정하면 진단을 확정할 수 있다. 따라서 가장 도움이 되는 검사는 혈청 코발라민 수치이다.
+정신인지 증상에 하지 감각 이상과 상위·하위운동신경 징후, beefy-red 매끈한 혀는 B12 결핍 가능성을 시사하여 cobalamin B가 적절하다. 혀는 붉은 설염이지 백색설이 아니다. 결과가 경계/임상 불일치면 MMA 등 추가 평가가 필요하며 한 수치만으로 모든 경우를 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005491 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 붉고 매끈한 혀를 백색설이라 부른 오류 교정; B12 평가 B 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 환자 1 – CA-125 검사. 환자 2 – BRCA 검사
 
 ## 해설
 
+환자 1은 일차가족의 조기 유방·난소암 때문에 유전상담과 BRCA 관련 검사를 검토한다. 가능하면 질환이 있는 가족부터 검사한다. 환자 2는 30세 미만의 촉지 종괴이므로 초음파로 평가한다. 단순 선별이나 이미 양성으로 확정된 종괴가 아니며 두 환자를 함께 다룬 A가 맞다.
 
-가족력이 강하고 젊은 여성인 경우 BRCA 유전자 검사가 1차 선별에 적합하다. 환자 2는 양성 종괴가 있어 초음파가 필요하지만, 질문은 두 환자에 대한 가장 적절한 다음 단계이므로 환자 1에 대한 BRCA 검사가 핵심이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 강한 유방/난소암 가족력의 유전평가와 27세 유방종괴 초음파 A 유지. 유전상담 선행 및 두 번째 환자 진단 평가를 명확히 함.
+- https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing
+- https://www.acr.org/-/media/ACR/Files/Practice-Parameters/Breast-US.pdf
 
 ## 출처
 

@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 졸피뎀(Zolpidem)
 
 ## 해설
 
+알람 직전까지 잠들지 못하는 양상은 지연성 수면-각성위상장애를 고려하게 한다. 선지 중 밝은 빛 치료(B)는 일주기 위상조정을 위해 사용될 수 있지만, 성인에서 확립된 지침상 유일한1차치료로 단정해서는 안 된다. AASM2015는 성인 DSWPD의 빛치료에 근거부족으로 별도권고를 내리지 않았고 적절한 시각의 멜라토닌을 약하게 권고하였다. 수면일지/일정·노출시각을 평가해 개별화해야 한다. 졸림이 해결되기 전 위험기계 조작은 피하고, 기면증 등 다른원인도 필요시 감별한다.
 
-환자는 수면 위상 지연(Delayed Sleep Phase Syndrome)으로 보이며, 초기 치료는 일주기 리듬을 조절하는 밝은 빛 치료이다. 따라서 가장 적절한 초기 관리 단계는 밝은 빛 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 성인DSWPD에 밝은빛이 확고한1차지침치료라는 단정 수정. B의 제한된근거/적용맥락과 안전상담 명시.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC4582061/
 
 ## 출처
 

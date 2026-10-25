@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 디클로페낙 단독
 ## 해설
 
 
-첫 번째 발가락 관절의 급성 통증, 발적, 부종은 통풍(통풍성 관절염)과 일치한다. 급성 통풍 치료는 NSAID인 디클로페낙 단독 투여가 1차 선택이다. 따라서 디클로페낙이 가장 적절한 약물이다.
+전형적인 제1중족지관절 급성 단관절염과 thiazide·식이 요인은 통풍을 시사한다. 관절액 결정과 감염 여부를 평가하면서, 금기가 없다면 NSAID 단독 치료인 diclofenac(D)이 적절하다. 현재 지침에서 NSAID·저용량 colchicine·glucocorticoid는 모두 환자 조건에 따라 선택 가능한 1차 항염증 치료이다. 이 정도의 단관절 발작에서 처음부터 NSAID와 전신 steroid를 병용할 필요는 없으며 probenecid는 급성 통증 치료제가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001423 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 통풍의 여러 1차 항염증 치료 중 diclofenac 단독이 적합함을 설명하고 특정 NSAID만 유일한 1차약이라는 표현을 수정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/
 
 ## 출처
 

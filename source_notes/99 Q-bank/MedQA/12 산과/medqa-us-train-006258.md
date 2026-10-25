@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 프로구아닐
 
 ## 해설
 
+임신 중 말라리아 유행지역 여행은 가능한 연기한다. 불가피한 모잠비크 여행에서는 지역 내성·개인 금기를 확인하고 메플로퀸(B)을 예방약으로 사용할 수 있으며 임신 1기에도 사용 가능하다. 모기 회피를 병행한다. 독시사이클린·프리마퀸은 임신 중 부적절하고 프로구아닐 단독은 권장 예방요법이 아니다.
 
-임신 중 말라리아 예방에 메플로퀸은 임신 2분기 이후에 안전하게 사용할 수 있다. 따라서 모잠비크 여행 전 예방요법으로 가장 적절한 약물은 메플로퀸이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 메플로퀸의 임신 사용을 2기 이후로 한정한 오류 수정.
+- https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html
+- https://wwwnc.cdc.gov/travel/destinations/traveler/none/mozambique
 
 ## 출처
 

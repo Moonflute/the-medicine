@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "저칼륨혈증도 ectopic ACTH에서 가능해 기존 선택지의 모호함을 제거."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-폐 소세포암에서 흔히 동반되는 부종양 증후군은?
+폐 소세포암에서 이소성 항이뇨호르몬 작용과 관련된 대표 증후군은?
 
 ## 선택지
 
-A. 부적절한 항이뇨호르몬 분비증후군(SIADH)
-B. 고칼슘혈증
-C. 갑상선 기능항진증
-D. 저칼륨혈증
+A. SIADH에 의한 저나트륨혈증
+B. PTHrP에 의한 고칼슘혈증만
+C. 인슐린 결핍성 케톤산증
+D. 부갑상선 기능저하성 저칼슘혈증
 
 ## 해설
 
-폐 소세포암은 신경내분비 특성으로 SIADH를 자주 동반한다.
+소세포암은 SIADH·이소성 ACTH 등 신경내분비 관련 부종양 증후군과 연관된다. 이 질문은 항이뇨호르몬 작용에 해당하는 SIADH를 묻는다.
 
 ## 오답 포인트
 
-- **B. 고칼슘혈증:** 고칼슘혈증은 주로 편평상피암에서 나타난다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 폐 소세포암 (Small Cell Carcinoma)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/폐 소세포암 (Small Cell Carcinoma).md`
-- 학습 목표: 원문 핵심: * **CC**: 기침, 호흡곤란, 흉통, 객혈 등 폐암의 일반적인 증상. * **부종양 증후군 (Paraneoplastic syndromes):** 부적절한 항이뇨호르몬 분비 증후군 (SIADH)으로 인한 저나트륨혈증, 쿠싱 증후군 (ACTH 분비) 등이 흔하게 동반된다. * **P/E**: 상대정맥 증후군 (SVC syndrome) 징후, 림프절 종대 등.
+- 학습 목표: 폐 소세포암의 SIADH 연관

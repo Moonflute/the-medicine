@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 즉시 수술을 위해 신생아를 이송한다
 
 ## 해설
 
+우측 복벽을 통해 막 없이 나온 장은 복벽갈림증(gastroschisis)에 합당하다. 우선 장을 멸균 장주머니로 감싸 열·수분 손실과 손상을 줄인다(A). 체온관리·수액·감압·소아외과 평가를 병행하며 폐쇄 방법과 시기는 장 상태에 따라 결정한다.
 
-신생아 복벽 결손(장외장)은 장을 멸균된 장주머니에 넣어 보호하고 복부를 닫는 것이 즉각적인 처치이다. 이는 감염과 손상을 최소화한다. 따라서 A가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 복벽갈림증 장 보호 A 유지. 즉각 복부를 닫으라는 부정확한 설명 교정.
+- https://www.cahs.health.wa.gov.au/-/media/HSPs/CAHS/Documents/Health-Professionals/Neonatology-guidelines/Gastroschisis.pdf
 
 ## 출처
 

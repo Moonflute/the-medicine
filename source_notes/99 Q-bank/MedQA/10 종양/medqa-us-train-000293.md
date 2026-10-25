@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 자궁내막 생검
 
 
 HER2 양성 유방암 환자에게는 HER2 표적 치료(트라스투주맙 등)가 필요하며, 이를 시작하기 전에 심장 기능을 평가해야 한다. 트라스투주맙은 좌심실 기능 저하 위험이 있으므로 심초음파 검사가 필수이다. 따라서 다음 관리 단계는 심장초음파 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000293 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HER2 표적치료 계획 전 심기능 평가 echo A가 FDA trastuzumab baseline LVEF 권고와 부합.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2
 
 ## 출처
 

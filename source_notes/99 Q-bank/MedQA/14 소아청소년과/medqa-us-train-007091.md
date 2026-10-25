@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 모유 수유를 중단하고 콩 기반 분유로 바꾼다
 
 ## 해설
 
+건강하고 성장하는 영아의 소량 혈액·점액변은 음식단백 유발 알레르기성 직결장염을 시사한다. 보기 중 모유수유를 유지하며 원인 단백을 모체 식이에서 제한하는 B가 적절하다. 대개 우유 단백 제거를 우선 평가하고, 지속 또는 병력상 필요에 따라 콩도 제한한다. 제한식은 반응 확인·재도입 계획 및 산모 영양 지원과 함께 시행하며 모든 영아 혈변에 무기한 우유·콩 제한을 적용하지 않는다.
 
-신생아의 혈변과 대변에 점액이 섞여 있는 경우, 모유 수유를 지속하고 어머니에게 우유와 콩 제품을 피하도록 권고하면 대부분 호전된다. IgA‑tTG 검사는 셀리악병을 의심할 때, 대변 항원 검사는 감염, 그리고 모유 중단은 불필요하다. 따라서 모유 수유를 계속하고 어머니에게 유제품·콩 제품을 피하도록 권고하는 것이 적절하다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 혈변 일반화 대신 건강한 영아 FPIAP의 제한적 제거식·추적 원칙으로 교정.
+- https://cps.ca/en/documents/position/cows-milk-protein-allergy
+- https://www.allergy.org.au/patients/food-other-adverse-reactions/proctocolitis-fpiap
 
 ## 출처
 

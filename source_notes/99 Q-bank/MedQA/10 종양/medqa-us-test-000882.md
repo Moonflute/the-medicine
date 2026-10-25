@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 이포스파마이드
 ## 해설
 
 
-블레오마이신은 고환암 화학요법에 사용되며, 폐섬유증과 미세 흡기 수포음, 손가락 곤봉지(디지털 클럽) 등을 일으키는 특성이 있다. 환자의 방사선소견과 폐기능 검사 결과는 제한성 폐질환을 시사한다. 따라서 증상의 원인은 블레오마이신이다.
+블레오마이신은 폐렴/폐섬유화 등의 폐독성을 일으킬 수 있다. 고환암 화학요법 뒤 기침·호흡곤란·미세 수포음과 제한성으로 의심되는 폐기능 양상은 선지 중 A를 지지한다. CT 그림이 실제로 없어 특정 방사선 형태를 확인했다고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000882 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고환암 약물·제한성 양상에서 bleomycin A 유지. 누락 CT 소견을 실제 본 것처럼 기술하지 않도록 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/respiratory/1792-pulmonary-toxicity-associated-with-anti-cance
 
 ## 출처
 

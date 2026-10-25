@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,13 @@ D. 전신홍반루푸스
 ## 해설
 
 
-무릎 뒤쪽에 압통 없는 종괴가 관절을 움직일 때 더 뚜렷해지는 것은 베이커(골낭) 낭종의 특징이며, 전신 증상과 함께 관절염을 동반할 수 있는 류마티스관절염이 가장 가능성이 높다.
+오금의 종괴가 무릎 신전에서 뚜렷해지는 것은 Baker 낭종(오금낭종)을 시사한다. 이는 관절삼출과 연결되며 OA뿐 아니라 RA 등 염증성 관절염에도 동반될 수 있다. 이 환자의 양손/손목 통증·피로·미열을 함께 고려하면 선택지 C가 가장 가능성이 높다. 낭종만으로 RA를 확진하는 것은 아니며 신체검사·항체·영상으로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007210 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Baker를 골낭으로 오역한 부분을 오금낭종으로 수정하고 RA 연관과 확진 한계를 설명했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

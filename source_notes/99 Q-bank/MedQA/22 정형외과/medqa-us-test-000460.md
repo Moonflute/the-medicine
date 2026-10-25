@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 오른쪽 고관절 수술적 핀 고정
 
 ## 해설
 
+성장기 비만 환자의 외회전된 다리와 방사선상 대퇴골두의 후하방 상대 전위는 SCFE에 합당하다. 추가 전위를 막기 위한 수술적 고정(D)이 필요하다. 안정성은 통증만이 아니라 목발 사용 여부와 관계없이 체중부하가 가능한지로 구분하며, 이 본문만으로 모든 SCFE가 불안정하다고 설명해서는 안 된다.
 
-청소년 대퇴골두 골단분리는 대퇴골두가 대퇴경부에서 뒤쪽·아래쪽으로 전위되는 것이 특징이며, 비만과 성장판 약화가 위험인자이다. 골단분리는 불안정하므로 수술적 핀 고정이 표준 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 명시된 골단 전위의 수술 고정 D는 적절하지만 SCFE를 모두 불안정형으로 단정한 설명을 교정한다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/slipped-capital-femoral-epiphysis-scfe
 
 ## 출처
 

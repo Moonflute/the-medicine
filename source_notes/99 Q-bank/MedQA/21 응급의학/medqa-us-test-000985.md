@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 기관내 삽관
 
 ## 해설
 
+농약 노출 가능성과 침·눈물 과다·의식 변화는 유기인계 cholinergic 독성을 시사한다. Pralidoxime(2-PAM, C)은 aging 전 인산화된 acetylcholinesterase를 재활성화하는 약이다. Atropine과는 별개이며 atropine은 muscarinic 수용체를 차단해 분비·기관지 증상 등을 조절한다. 보호구·오염 제거·기도와 호흡 평가 및 atropine 등을 함께 시행하며 pralidoxime만을 단독 소생 치료로 보아서는 안 된다.
 
-유기인계 살충제 중독은 콜린성 위기로 프랄리독심(아트로핀) 투여가 급성 항콜린성 효과를 차단한다. 따라서 프랄리독심이 가장 적절한 초기 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Pralidoxime C를 atropine과 같은 약으로 적고 항콜린성 독성을 차단한다는 역전 설명을 교정한다.
+- 공식/학회 근거: https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=523&toxid=93
 
 ## 출처
 

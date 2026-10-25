@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 엡스타인-바 바이러스
 
 
 HIV 감염 환자에서 CD4 450/mm³이면서 피부에 다발성 결절성 병변과 방추형 세포, 백혈구 침윤이 보이면 카포시 육종이 의심된다. 카포시 육종은 인간 헤르페스바이러스 8형(HHV‑8) 감염에 의해 발생한다. 따라서 가장 가능성 높은 병원체는 HHV‑8이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001142 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 방추세포성 혈관 종양과 면역저하에서 Kaposi육종-HHV8 B의 기전 연결을 원문 대조하여 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

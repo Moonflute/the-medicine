@@ -23,12 +23,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,6 +50,13 @@ D. 경피적 담낭배액술
 
 
 중증 급성 담관염에서 담관 폐쇄와 감염이 진행되면 급속히 악화되며, ERCP를 통해 담관 배액 및 스텐트 삽입이 치료의 핵심이다. 따라서 가장 적절한 처치는 ERCP이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 담관확장·황달·발열에 항생제 후 의식변화/악화가 생긴 담관염으로 긴급 배액 ERCP A가 적합. MRCP로 치료 지연할 상황이 아님.
+- https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-management-of-cholangitis
 
 ## 출처
 

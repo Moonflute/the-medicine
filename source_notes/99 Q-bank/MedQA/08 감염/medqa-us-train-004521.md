@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 노인학대에 대한 사회복지 상담
 ## 해설
 
 
-Streptococcus bovis 균혈증은 대장암 위험을 높인다. 혈액배양 후 항생제 치료가 끝난 뒤 대장내시경을 시행해 잠재적 종양을 평가해야 한다.
+S. bovis군, 특히 S. gallolyticus 균혈증은 동반 대장 종양/선종과 연관되어 대장내시경 B로 병변을 평가한다. 이 균혈증이 곧 대장암을 새로 일으켰다는 의미는 아니다. 급성 상태 안정성과 진료 상황에 맞춰 검사하며 모든 항생제 과정이 끝나야만 가능한 것은 아니다. TEE 음성은 대장 병변 평가의 필요성을 없애지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004521 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: S. bovis/gallolyticus와 대장 병변의 연관 B 유지; 균혈증이 암을 일으킨다거나 항생제 완료까지 반드시 기다린다는 오해 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

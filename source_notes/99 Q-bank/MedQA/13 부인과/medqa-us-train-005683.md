@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 결합 에스트로겐 치료
 
 ## 해설
 
+초경 초기에는 시상하부-뇌하수체-난소 축 미성숙에 따른 무배란으로 자궁내막이 불안정해져 과다출혈이 생길 수 있다. 지속되는 급성 출혈에서 에스트로겐(D)은 내막 안정화를 위한 내과 치료 선택이다. 트라넥삼산도 사용할 수 있으므로 절대 부적절한 약으로 배제하지 않는다. 출혈질환·철결핍도 평가하고 수술은 일반적인 첫 단계가 아니다.
 
-청소년의 과다월경은 에스트로겐 결핍에 기인하며, 결합 에스트로겐 투여가 월경을 조절하는 표준 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 청소년 급성 과다출혈의 에스트로겐 D는 가능한 내과 치료다. 원인을 에스트로겐 결핍으로 단정한 오류를 무배란·프로게스테론 결핍 중심으로 교정.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/09/screening-and-management-of-bleeding-disorders-in-adolescents-with-heavy-menstrual-bleeding
 
 ## 출처
 

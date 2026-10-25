@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 헤로인
 
 ## 해설
 
+호흡수 4회/분의 심한 저환기와 무반응은 opioid 과다복용을 강하게 의심하게 하며 보기 중 heroin(D)이 가장 적합하다. 누락된 사진에서 동공이나 주사 흔적을 확인했다고 할 수 없다. 확진을 기다리며 기도·환기 지지와 경험적 naloxone을 지연해서는 안 된다. Alcohol 등 혼합 중독도 평가한다.
 
-환자는 호흡 억제로 호흡수가 4회/분이며, 의식 저하와 동공 변화가 없는 점에서 오피오이드 과다복용이 의심된다. 헤로인 과다복용은 호흡 억제와 동공 축소를 특징으로 한다. 따라서 가장 가능성 높은 약물은 헤로인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 누락 사진의 동공 변화를 정상이라고 가정한 해설 제거. 심한 호흡억제와 의식저하를 근거로 D 유지.
+- 공식/학회 근거: https://www.cdc.gov/stop-overdose/response/
 
 ## 출처
 

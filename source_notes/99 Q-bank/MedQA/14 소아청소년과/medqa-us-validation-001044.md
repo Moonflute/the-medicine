@@ -17,18 +17,22 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: B
+answer_change_reason: "혈압57/38의 쇼크 상태에서 요추천자 B를 우선 시행하는 원정답 오류를 즉각적 경험적 항생제 C로 변경."
 ---
 
 # MedQA US 임상문제
@@ -46,8 +50,15 @@ D. 반코마이신, 세프트리악손과 프레드니손
 
 ## 해설
 
+1세의 심한 저혈압·빈맥과 수막자극 소견은 수막염 동반 패혈성 쇼크를 의심한다. 호흡·순환을 즉시 안정화하고 가능하면 신속히 혈액배양을 얻되 항생제를 지연하지 않는다. 보기 중 vancomycin·ceftriaxone(C)이 적절한 경험적 요법이며 지역 내성에 맞춰 조정한다. 쇼크는 LP의 상대적 금기이므로 안정화 전 요추천자를 우선하지 않는다. 정상 안저검사도 쇼크 상태의 LP 안전성을 보장하지 않는다.
 
-고열, 저혈압, 경련성 자극통을 동반한 영아의 케르니히 징후는 세균성 수막염을 강력히 시사한다. 확진을 위해 요추천자를 시행해야 한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 혈압57/38의 쇼크 상태에서 요추천자 B를 우선 시행하는 원정답 오류를 즉각적 경험적 항생제 C로 변경.
+- https://www.rch.org.au/clinicalguide/guideline_index/Lumbar_puncture/
+- https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/
+- https://www.nice.org.uk/guidance/ng240/chapter/Recommendations
 
 ## 출처
 

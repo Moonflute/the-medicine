@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 베르니케 실어증
 
 ## 해설
 
-
-환자는 급성 혼돈, 주의력 변동, 수면-각성 주기 교란, 그리고 원인 질환(투석)과 함께 급성 신경학적 변화를 보이며, 이는 섬망의 전형적인 특징이다. 반면 치매는 서서히 진행하고, 베르니케 실어증은 언어 이해 장애가 주된 증상이다. 따라서 가장 가능성 높은 진단은 섬망이다.
+수일 내 발생한 혼돈·주의/인지 변화가 시간에 따라 크게 변동하고 지각 이상이 동반되어 섬망이 가장 적절하다. 치매보다 급성·변동성 경과가 핵심이다. 발열과 투석/신질환 병력이 있으므로 감염·대사 이상·약물 등 원인을 평가해야 하며 투석 자체가 확정 원인이라는 뜻은 아니다. 원문에 수면-각성 주기 변화가 명시되지는 않았다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009431
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 급성 변동성 섬망 답 유지. 원문에 없는 수면주기 교란과 투석 자체가 확정 원인이라는 해설 삭제.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

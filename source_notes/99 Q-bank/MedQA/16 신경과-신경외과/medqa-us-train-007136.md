@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 신경전도검사
 
 ## 해설
 
+감염 후 진행하는 대칭성 근력저하와 건반사 소실은 Guillain-Barré 증후군에 합당하다. 보기 중 신경전도검사(D)가 다발신경병증을 확인하여 진단을 지지한다. 탈수초형에서는 전도속도 감소, 원위잠복기 연장 또는 전도차단 등이 보일 수 있지만 축삭형도 있다. 발병 초기에는 신경전도검사가 정상일 수 있어 음성 결과만으로 배제하지 않으며 임상 경과와 뇌척수액 검사 등을 함께 판단한다.
 
-길랭‑바레 증후군은 급성 진행성 근력 저하와 감각 이상이 특징이며, 신경전도검사에서 탈분극된 전도 속도가 감소한다. 혈청 CK는 보통 정상이며, MRI는 비특이적이다. 따라서 신경전도검사가 진단을 확정하는 가장 좋은 검사이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. GBS에서 신경전도검사 D는 지지 검사. 탈분극/탈수초 용어 오류 및 초기에 반드시 확진한다는 단정 교정.
+- 공식/학회 근거: https://onlinelibrary.wiley.com/doi/10.1111/ene.16073
 
 ## 출처
 

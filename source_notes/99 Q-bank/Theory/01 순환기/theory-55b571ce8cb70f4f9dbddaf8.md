@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "심실 기원의 연속 3박 이상 빈맥은 다른 빈맥과 구별되는 중요한 기본 정의 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc15thjpeuxwq0rydvlqcna2vwdlrlpsym5sewfxtjfir0z5suzsafkyadvzmkz5wkdsaettnxraqxxkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,12 +47,17 @@ D. Tricuspid annulus 주변 매크로 재진입 회로에 의한 빈맥
 
 ## 오답 포인트
 
-- **B. 분당 100회 이상으로 심방에서 기원한 빈맥:** 심방에서 기원한 빈맥은 심방 빈맥이며 VT와 구분된다.
-- **C. 불규칙한 RR 간격과 P파 부재가 특징인 부정맥:** 불규칙 RR 간격과 P파 부재는 AF의 특징이다.
-- **D. Tricuspid annulus 주변 매크로 재진입 회로에 의한 빈맥:** Tricuspid annulus 주변 재진입 회로는 AFL와 관련된다.
+- **분당 100회 이상으로 심방에서 기원한 빈맥:** 심방에서 기원한 빈맥은 심방 빈맥이며 VT와 구분된다.
+- **불규칙한 RR 간격과 P파 부재가 특징인 부정맥:** 불규칙 RR 간격과 P파 부재는 AF의 특징이다.
+- **Tricuspid annulus 주변 매크로 재진입 회로에 의한 빈맥:** Tricuspid annulus 주변 재진입 회로는 AFL와 관련된다.
 
 ## 출처
 
 - 내부 학습 노트: 심실 빈맥 (Ventricular Tachycardia)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/심실 빈맥 (Ventricular Tachycardia).md`
 - 학습 목표: 원문 핵심: - 정의: 분당 100회 이상의 속도로 심실에서 기원한 빈맥, 심실조기박동(PVC)이 3개 이상 연속 발생 - 병태생리: 심실 자체의 enhanced automaticity, triggered activity, reentry - 지속기간에 따른 분류 - 비지속성(nonsustained) VT: 30초 이내에 스스로 종결 - 지속성(sustained) VT: 30초 이상 지속 또는 혈액역학적 불안정으로 30초 이내 종결 필요 - QRS 형태에 따른 분류 - 단형(monomorphic) VT: QRS 모양이 일정, 하나의 기원, 구조적…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 심실 기원의 연속 3박 이상 빈맥은 다른 빈맥과 구별되는 중요한 기본 정의 복습으로 유지한다.

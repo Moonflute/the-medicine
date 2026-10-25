@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "좌상복부 손상과 좌측 어깨 연관통이라는 해부 연결 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 복부 전체 통증·설사·저혈압·빈맥
 
 ## 오답 포인트
 
-- **B. 우상복부 통증·우측 어깨 통증·복부 압통·저혈압·빈맥:** 우상복부 통증은 주로 간 손상에서 나타나는 증상이다.
+- **우상복부 통증·우측 어깨 통증·복부 압통·저혈압·빈맥:** 우상복부 통증은 주로 간 손상에서 나타나는 증상이다.
 
 ## 출처
 
 - 내부 학습 노트: 비장 손상 (Splenic Injury)
 - 원본 경로: `source_notes/02 Diseases/11 외과/비장 손상 (Splenic Injury).md`
-- 학습 목표: 원문 핵심: * **CC**: 좌상복부 통증, 좌측 어깨 통증(Kehr 징후: 횡격막 자극에 의한 연관통). * **P/E**: 복부 압통, 반발통, 복부 팽만, 저혈압 및 빈맥(쇼크 징후).
+- 학습 목표: 비장 손상의 Kehr 징후
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 좌상복부 손상과 좌측 어깨 연관통이라는 해부 연결 유지.

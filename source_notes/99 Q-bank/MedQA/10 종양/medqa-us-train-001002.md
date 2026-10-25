@@ -19,11 +19,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,15 @@ D. 혈액투석(Hemodialysis)
 ## 해설
 
 
-전이성 전립선암에 의한 고칼슘혈증은 PTH‑관련 단백질 분비와 골 파괴가 주 원인이다. 가장 빠른 혈중 칼슘 감소를 위해 정맥생리식염수(IV NS)로 혈액량을 확대하고 신장을 희석시키는 것이 1차 치료이다.
+중증 고칼슘혈증에 탈수·의식 변화가 있어 먼저 상태에 맞는 IV 생리식염수(B)로 순환량과 신관류를 회복한다. 심장·신장 상태에 따라 수액을 조절하며 calcitonin과 항골흡수제 등도 신속히 평가한다. 전립선암 병력만으로 PTHrP 분비를 원인으로 확정하거나 신장을 희석하는 치료라고 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001002 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 탈수 동반 중증 고칼슘혈증 초기 NS B 유지. 전립선암이면 PTHrP가 주원인이라는 단정·신장을 희석한다는 오류 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.endocrinology.org/media/4277/emergency-guidance_acute-hypercalcaemia-in-adults.pdf
+- https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -37,14 +39,17 @@ explanation_prompt_version: explanation-ko-v1
 ## 선택지
 
 A. 마미 압박
-B. 원추수질 압박
+B. 척수원추 압박
 C. 척수 국소 탈수초
 D. 천장관절염과 부착부염
 
 ## 해설
 
+비대칭 방사통과 하지 근력저하, 회음부 감각저하 및 무릎·발목 반사 소실은 마미 신경근 압박(A)에 합당하다. 척수원추 병변보다 비대칭 하위운동신경원 소견이 두드러진다. 본문에 없는 외성기 관찰 소견을 추가할 근거는 없다.
 
-우측 하지의 감각소실이 회음부와 대음순(마미) 부위에 국한되고, 반사소실이 동반된 경우 마미 신경 압박이 의심된다. MRI에서 마미 신경 압박 소견이 가장 가능성 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 남성 환자의 대음순 소견을 만들어낸 해설 제거, conus medullaris 번역을 척수원추로 교정.
 
 ## 출처
 

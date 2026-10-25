@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -33,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-62세 남성이 최근 대변에 많은 피가 섞여 나온 것을 걱정해 응급실에 내원했다. 집에서 많은 양의 선홍색 혈액이 변에 있는 것을 보았다고 한다. 통증은 없고 그 외에는 건강하다. 과거력으로 당뇨병과 비만이 있다. 체온 37.2°F(37.2°C), 혈압 147/88 mmHg, 맥박 분당 90회, 호흡수 분당 13회, 실내 공기 산소포화도 98%이다. 고통스러워 보이지 않고 복부는 압통이 없으며 장음은 정상이다. 대변 구아이악 검사는 양성이다. 정맥 수액을 시작하고 금식시켰다. 4시간 후 다음 배변은 육안상 정상이다. 다음 중 향후 합병증을 줄일 가능성이 가장 높은 중재는?
+62세 남성이 최근 대변에 많은 피가 섞여 나온 것을 걱정해 응급실에 내원했다. 집에서 많은 양의 선홍색 혈액이 변에 있는 것을 보았다고 한다. 통증은 없고 그 외에는 건강하다. 과거력으로 당뇨병과 비만이 있다. 체온 98.9°F(37.2°C), 혈압 147/88 mmHg, 맥박 분당 90회, 호흡수 분당 13회, 실내 공기 산소포화도 98%이다. 고통스러워 보이지 않고 복부는 압통이 없으며 장음은 정상이다. 대변 구아이악 검사는 양성이다. 정맥 수액을 시작하고 금식시켰다. 4시간 후 다음 배변은 육안상 정상이다. 다음 중 향후 합병증을 줄일 가능성이 가장 높은 중재는?
 
 ## 선택지
 
@@ -45,7 +47,14 @@ D. 좌욕
 ## 해설
 
 
-섬유질과 충분한 수분 섭취는 대변량을 늘리고 연하게 하여 게실 출혈 재발 위험을 감소시킨다. 식이 변화가 가장 효과적인 1차 예방책이다. 따라서 정답은 A이다.
+정답 A. 고령자의 통증 없는 일시적 다량 혈변은 게실출혈을 시사하며 많은 경우 자연 지혈된다. 출혈 원인 평가와 추적은 별도로 필요하고 증상만으로 확진하지 않는다. 선택지 중 섬유질·수분 섭취 증가는 변비/게실질환의 장기적 식이 관리에 부합한다. 다만 이것이 게실 재출혈을 확실히 막는 가장 효과적인 치료로 입증되었다고 과장하지 않는다. 대량 출혈이 멎었다고 즉시 구불결장을 절제하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010081 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 통증 없는 일시적 대량 혈변은 게실출혈 가능성. 섬유·수분 A의 일반 관리 취지 유지하되 재출혈 감소의 가장 효과적인 확립 치료라는 과장 교정, 체온 오역 정정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/eating-diet-nutrition
 
 ## 출처
 

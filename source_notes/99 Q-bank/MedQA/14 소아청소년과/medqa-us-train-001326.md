@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 뜨거운 숟가락으로 인한 학대성 화상
 
 ## 해설
 
+손목에서 뚜렷하게 끝나는 화상 경계와 손등 화상에 비해 손바닥이 보존된 양상은 단순히 뜨거운 숟가락을 잡았다는 병력으로 충분히 설명되지 않는다. 주먹을 쥔 손의 강제 침수를 포함한 손상 기전을 의심하므로 선택지 A가 출제 의도에 가장 부합한다. 강제 침수 화상은 균일한 깊이·뚜렷한 상한선·피부주름 보존 등을 보일 수 있다. 다만 패턴 하나만으로 고의성을 확정하지 않으며 전체 병력·발달 단계·다른 손상을 함께 평가해야 한다.
 
-화상이 손등 전체에 국소적으로 국한되고 손바닥은 보존된 경우는 뜨거운 물에 강제로 담근 2도 화상의 특징이다. 학대성 화상은 불규칙한 경계와 손바닥 손상이 흔하다. 따라서 뜨거운 물에 강제로 담근 것이 가장 가능성 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 강제 침수 화상의 경계가 불규칙하다고 한 역방향 설명을 교정하고 패턴만으로 학대를 확정하지 않도록 명시했다.
+- https://childprotection.rcpch.ac.uk/child-protection-evidence/burns-systematic-review/
+- https://childprotection.rcpch.ac.uk/wp-content/uploads/sites/6/2020/05/child_protection_evidence_-_burns.pdf
 
 ## 출처
 

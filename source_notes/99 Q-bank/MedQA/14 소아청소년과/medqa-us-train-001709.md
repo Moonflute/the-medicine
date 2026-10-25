@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 전지 내시경 제거
 
 ## 해설
 
+식도에 걸린 단추전지는 증상이 없어도 빠르게 심한 손상을 일으키므로 즉시 내시경 제거한다(D). 2시간을 넘겼다고 관찰로 바뀌지 않으며, 금식 시간을 맞추려고 제거를 지연하지 않는다.
 
-버튼형 전지는 식도에 부착되면 급속히 조직 손상을 일으키므로 2시간 이내라면 즉시 내시경으로 제거해야 한다. 관찰이나 약물 치료는 위험하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 식도 단추전지 즉시 제거 D 유지. 2시간 이내에서만 응급이라는 잘못된 조건 교정.
+- https://www.poison.org/battery/guideline
 
 ## 출처
 

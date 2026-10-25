@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -52,6 +54,13 @@ D. 시타글립틴
 
 BMI가 높고 체중 감소가 미미한 경우 GLP‑1 수용체 작용제인 엑세나타이드는 체중 감량과 혈당 강하에 효과적이다. 따라서 두 번째 약제로 엑세나타이드를 선택한다.
 다른 옵션들은 체중 감소 효과가 상대적으로 적다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009458 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 체중감량 희망과 metformin 후 HbA1c7.6의 선택지 비교에서 GLP1RA exenatide A가 체중/혈당 측면에 부합. 최신 더 강력한 약제가 선택지 밖에 있어도 A의 상대 적절성은 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://diabetesjournals.org/docm-care/article-pdf/doi/10.2337/doc26-a008/860546/docm26a008.pdf
 
 ## 출처
 

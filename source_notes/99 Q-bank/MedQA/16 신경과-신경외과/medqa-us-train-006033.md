@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 뇌실복강 단락술
 
 ## 해설
 
+비만 환자의 두통·유두부종/시각 증상 및 높은 뇌척수액 개방압은 특발성 두개내고혈압을 시사한다. 보기 중 acetazolamide(B)는 뇌척수액 생성을 줄이는 약물이며 체중 감량과 함께 사용한다. 시야와 시신경 상태를 추적해야 하고, 시기능이 급속히 악화하면 약물만 지속하지 말고 긴급 수술적 시력보존 치료를 평가한다. 확진 전에는 뇌정맥동혈전증 등 이차 원인을 배제해야 한다.
 
-특발성 두개내 고혈압은 시신경유두부종과 시야 결손을 동반하며, 약물 치료 1차 선택은 CSF 생산을 억제하는 아세타졸아미드이다. 푸로세미드는 이뇨제, 시신경초 천공술·뇌실복강 단락술은 수술적 옵션이다. 따라서 아세타졸아미드가 다음 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. IIH acetazolamide B는 유지하되 체중 관리와 시야 추적, 급속 시력악화 시 수술 필요성을 명시.
+- 공식/학회 근거: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/idiopathic-intracranial-hypertension
+- 공식/학회 근거: https://pubmed.ncbi.nlm.nih.gov/24756514/
 
 ## 출처
 

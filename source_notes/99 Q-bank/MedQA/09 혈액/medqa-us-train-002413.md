@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 혈관외 용혈
 ## 해설
 
 
-아프리카계 미국인 소아에서 급성 복통, 비장 비대, 비정상적인 비포합 빌리루빈 상승은 겸상 적혈구병의 혈관외 용혈(비장 파괴)과 일치한다. 따라서 혈관외 용혈이 가장 가능성 높은 설명이다.
+정상 haptoglobin, 간접 bilirubin 상승, 망상적혈구 증가와 비장비대는 보기 중 혈관외 용혈 D를 가장 잘 지지한다. 비장 대식세포가 적혈구를 제거할 때 bilirubin이 증가한다. 급격한 통증성 비장비대와 빈혈에서는 비장 격리도 고려하지만 이 자료만으로 겸상적혈구병이 확진되는 것은 아니다. 재생불량 위기라면 망상적혈구 감소가 예상된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002413 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혈관외 용혈 D를 유지하면서 민족·비장비대만으로 SCD를 확정하지 않고 급성 비장 격리 가능성을 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

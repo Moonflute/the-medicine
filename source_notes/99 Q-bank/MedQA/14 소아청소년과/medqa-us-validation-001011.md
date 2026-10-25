@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 조절되지 않는 발작 장애
 
 ## 해설
 
+조절되지 않는 발작/진행성 신경질환(D)은 DTaP 접종을 신경학적 상태가 명확해지고 안정될 때까지 유예할 수 있는 주의사항이다. 모든 생백신을 일률 금기화하는 이유가 아니다. 경한 URI, 이전38.7°C 발열 또는 달걀 알레르기만으로 정기 백신 전체를 중단하지 않는다.
 
-조절되지 않는 발작 장애는 급성 발작 위험을 높이며, 일부 백신(특히 살아 백신) 투여 시 발작을 악화시킬 수 있다. 따라서 조절되지 않는 발작 장애는 백신 접종의 상대적 금기이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 조절 안 되는 경련의 예방접종 주의사항을 생백신 일반이 아닌 DTaP 신경학적 precaution으로 교정.
+- https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html
 
 ## 출처
 

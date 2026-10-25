@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. IgM 정상, IgG 정상, IgA 정상
 ## 해설
 
 
-반복성 호흡기 감염과 정상 IgM·IgG·IgA 패턴은 선택적 IgA 결핍이 아니라 IgA 결핍 자체가 없음을 의미한다. 따라서 IgM 정상, IgG 정상, IgA 낮음이 예상된다.
+반복 점막 호흡기·위장관 감염의 출제 맥락은 선택적 IgA 결핍으로, C의 IgM·IgG 정상/IgA 저하가 해당한다. IgA는 점막 방어에 중요하므로 감소 시 이런 감염이 나타날 수 있다. IgG까지 낮다면 CVID 등 다른 항체결핍을 고려하며 모든 면역글로불린이 정상인 D는 선택적 IgA 결핍의 검사 패턴이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004719 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정상 IgA라면서 낮은 IgA 정답을 택한 자기모순 해설 교정; 선택적 IgA 결핍 C 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

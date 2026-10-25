@@ -23,24 +23,26 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-47세 남자가 두통으로 일차진료의를 찾아왔다. 보통 아침에 두통이 있고 하루가 지나면 호전된다. 집중이 어렵고 주간 피로도 있다. 매일 술 2~3잔을 마시고 하루 담배 1~2개비를 피운다. 당뇨병, 고혈압, 고지혈증이 있으며 인슐린, 메트포르롤, 아스피린, 아토르바스타틴을 복용한다. 체온은 98.7°F(37.1°C), 혈압 157/98 mmHg, 맥박 90회/분, 호흡수 15회/분, 산소포화도 99%이다. BMI 37kg/m²의 피곤해 보이는 비만 남자이다. 다음 중 가장 적절한 초기 치료 단계는 무엇인가?
+47세 남자가 두통으로 일차진료의를 찾아왔다. 보통 아침에 두통이 있고 하루가 지나면 호전된다. 집중이 어렵고 주간 피로도 있다. 매일 술 2~3잔을 마시고 하루 담배 1~2개비를 피운다. 당뇨병, 고혈압, 고지혈증이 있으며 인슐린, 메트포르민, 메토프롤롤, 아스피린, 아토르바스타틴을 복용한다. 체온은 98.7°F(37.1°C), 혈압 157/98 mmHg, 맥박 90회/분, 호흡수 15회/분, 산소포화도 99%이다. BMI 37kg/m²의 피곤해 보이는 비만 남자이다. 다음 중 가장 적절한 초기 치료 단계는 무엇인가?
 
 ## 선택지
 
@@ -51,8 +53,14 @@ D. 체중 감량
 
 ## 해설
 
+비만과 아침 두통, 주간 피로는 폐쇄성 수면무호흡을 의심하게 한다. D의 체중 감량은 비만 환자의 초기 관리에 포함된다. 다만 증상만으로 수면무호흡을 확진하거나 체중 감량만이 가장 효과적이라고 단정할 수는 없다. 수면검사 등으로 진단과 중증도를 평가하고, 필요하면 양압기 치료를 함께 시행한다.
 
-비만과 주간 졸림을 동반한 아침 두통은 폐쇄성 수면무호흡증을 시사한다. 체중 감량은 증상 개선에 가장 효과적인 초기 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 메트포르민 누락·메토프롤롤 약물명 오역을 복원하고 체중감량을 OSA의 보편적 단독 최선치료로 단정하지 않음.
+- https://www.aasm.org/resources/qualitymeasures/qualitymeasuresforthecareofadultpatientswithobstructivesleepapnea.pdf
 
 ## 출처
 

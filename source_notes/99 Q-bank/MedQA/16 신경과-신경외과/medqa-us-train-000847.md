@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,12 @@ D. 폐기능 검사
 
 ## 해설
 
+요통에 양측 다리 위약·감각 변화, 배뇨·배변 장애와 항문괄약근 긴장도 저하가 동반되어 마미증후군(cauda equina syndrome)을 의심한다. 성인 요천추관의 마미 신경근 압박을 확인하기 위한 응급 MRI(C)가 필요하다. 확인된 압박은 지체 없는 척추수술 평가로 연결한다. 이는 꼬리뼈 자체의 질환을 뜻하지 않는다.
 
-양측 다리 감각 저하, 배뇨·배변 장애, 항문 괄약근 저하가 동반된 급성 요통은 척수 말단(꼬리뼈) 증후군을 강력히 시사한다. 신경학적 압박을 확인하려면 MRI가 가장 민감한 영상검사이며, 조기 수술 결정을 위해 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 마미신경 압박 의심 시 MRI C는 맞으나 척수말단·꼬리뼈 증후군으로 혼동한 해부 용어를 교정한다.
+- 공식/학회 근거: https://acsearch.acr.org/list/TopicNarrativePdf?topicId=141
 
 ## 출처
 

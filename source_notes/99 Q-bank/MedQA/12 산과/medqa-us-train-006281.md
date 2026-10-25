@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 난관개구술
 
 ## 해설
 
+hCG 1,110과 자궁내 임신 미확인은 임신 위치 미상(PUL)이며 이 수치 하나로 자궁외임신을 확진할 수 없다. 안정되고 신뢰할 추적이 가능하면 48시간 뒤 hCG와 추적 초음파(B)가 적절하다. 그러나 맥박 127·구토·심한 빈혈 병력이 있어 탈수·출혈을 즉시 평가하고 안정화를 확인해야 한다. 증상 악화 시 수치를 기다리지 않고 재평가한다.
 
-β‑hCG가 1,110 mIU/mL 수준이며 초음파에서 자궁내 임신이 보이지 않는 상황은 임신 위치가 불명인 의심을 제기한다. 48시간 후 hCG 재검사로 상승 패턴을 확인하는 것이 표준 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: PUL 추적은 안정 상태 확인 후 가능하며 빈맥127을 무시하지 않도록 보강.
+- https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
 
 ## 출처
 

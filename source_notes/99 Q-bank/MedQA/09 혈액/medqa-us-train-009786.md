@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 비장기능항진증 관련 빈혈
 
 
 골수 검사가 저세포성, 지방이 풍부한 모습을 보이는 경우는 조혈모세포가 손상된 재생불량성 빈혈을 의미한다. 이는 전혈구감소증과 심각한 빈혈을 동반한다. 따라서 가장 가능성 높은 진단은 재생불량성 빈혈이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009786 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 전혈구감소와 지방성 저세포 골수가 재생불량빈혈 A를 직접 지지. 가족 혈액질환/바이러스 단서만으로 B19 순수 적혈구 무형성으로 재설계하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

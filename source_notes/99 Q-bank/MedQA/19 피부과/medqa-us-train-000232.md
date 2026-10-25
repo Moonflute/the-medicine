@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 매독균(Treponema pallidum) 감염
 
 ## 해설
 
+몸통에 생긴 만성 저색소 반점이 햇빛 노출 후 주변 피부처럼 짙어지지 않는 것은 어루러기(pityriasis/tinea versicolor)에 합당하다. 원인은 Malassezia 효모의 과증식(A)이며 멜라닌 형성과 색소 분포 변화가 나타날 수 있다. 햇빛에 노출되지 않았기 때문에 생긴 탈색이라는 뜻은 아니다.
 
-햇빛에 노출되지 않은 부위가 색소가 감소하고, 가슴·복부에 다수의 저색소 반점이 나타나는 것은 말라세지아(피부 곰팡이) 감염인 티아네스 베르시컬러의 전형적인 모습이다. 따라서 말라세지아 효모가 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 어루러기 A를 유지하고 햇빛 비노출이 원인인 것처럼 적은 설명과 질환명 오역을 교정한다.
 
 ## 출처
 

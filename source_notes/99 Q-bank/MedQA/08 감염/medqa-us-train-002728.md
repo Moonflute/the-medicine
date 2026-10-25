@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 덱사메타손 투여
 ## 해설
 
 
-암포테리신 B와 5‑플루오로시티신 조합은 HIV 감염자에서 크립토코쿠스 뇌수막염의 표준 1차 치료이다. 환자는 CD4 57/µL, 양성 인디아 잉크, 고압성 뇌수막염을 보이며 즉시 항진균 치료가 필요하다. 플루코나졸 단독은 효과가 부족하다.
+CD4 57/µL·아급성 수막 증상과 India ink 양성은 크립토코쿠스 수막염에 부합한다. 선택지 B의 amphotericin B와 flucytosine은 적절한 유도치료이며 제형·기간·다른 병용약은 자원환경과 공식 요법에 맞춘다. Fluconazole 단독은 통상 우선 유도요법을 대체하지 않는다. 개방압 210mmH₂O는21cmH₂O로서 압력 수치·증상 및 뇌실확장을 함께 평가하며 반복 압력 측정·필요시 치료적 CSF 배액을 고려한다. 해당 수치만으로 극심한 압력 상승이라 단정하거나 corticosteroid를 일률 추가하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002728 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 크립토코쿠스 수막염의 유도요법 B 유지;21cmH₂O를 무조건 중증 두개내고혈압이라 단정한 설명과 자원별 요법 구분 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/cryptococcosis/treatment/index.html
 
 ## 출처
 

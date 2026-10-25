@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 심인성 증상
 
 ## 해설
 
+정답은 C, 약물 반응이다. 수마트립탄을 복용한 뒤 디히드로에르고타민을 투여하면 혈관수축 효과가 중첩되어 혈관연축·허혈 위험이 증가한다. 두 약은 서로 24시간 이내 병용이 금기이다. 핵심은 수마트립탄–에르고트 상호작용이며, 나프록센을 같은 기전의 혈관수축제로 설명해서는 안 된다. 새로 생긴 국소 신경결손은 실제 뇌졸중 응급 평가가 필요하고, 약물 반응이라는 추정만으로 영상이나 치료를 지연해서는 안 된다.
 
-수마트립탄과 나프록센은 혈관 수축을 유발할 수 있는 약물이며, 특히 수마트립탄은 혈관성 두통 치료 후 혈관 수축성 부작용을 일으킬 수 있다. 환자는 약물 복용 후 급성 국소 신경학적 결손(언어 장애, 안면 마비, 사지 약화)이 나타났다. 이는 약물 유발 혈관 경련에 의한 뇌허혈성 변화로 해석된다. 따라서 가장 가능성 높은 원인은 약물 반응이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 나프록센을 triptan 같은 혈관수축제로 분류한 오류 수정. 수마트립탄 직후 dihydroergotamine 병용 금기와 혈관연축 위험을 실제 원인으로 설명. C 유지.
+- 공식/학회 근거: https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/020148s026lbl.pdf
 
 ## 출처
 

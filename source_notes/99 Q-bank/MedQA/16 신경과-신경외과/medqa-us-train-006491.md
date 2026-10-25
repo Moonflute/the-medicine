@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 와파린
 
 ## 해설
 
+보행장애·인지저하·요절박의 조합은 정상압수두증을 시사한다. 뇌영상으로 뇌실확장과 감별진단을 평가한 뒤 시행하는 대량 요추천자(B)는 보행 등의 일시적 개선을 보이고 션트 반응을 예측하는 데 도움이 될 수 있다. 요추천자 자체가 장기적인 확정치료는 아니며, 적절한 환자에서 뇌척수액 션트술을 검토한다.
 
-정상압 수두증은 뇌실 확대와 보행 장애를 일으키며, 요추천자를 통해 CSF 배액을 하면 증상이 개선된다. 메만틴·도파민제·와파린은 해당 증상에 효과가 없다. 따라서 B가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. NPH에서 LP B의 일시적 개선·션트 반응 예측 역할을 장기 확정치료와 구별.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC7905302/
 
 ## 출처
 

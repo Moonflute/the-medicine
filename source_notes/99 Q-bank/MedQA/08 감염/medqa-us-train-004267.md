@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 크립토스포리디움 파르붐
 ## 해설
 
 
-CD4 수가 44/mm³인 HIV 환자에서 거대세포바이러스(HSV) 대장염은 얕은 궤양과 점막 보존이 특징이며, 조직검사에서 다형핵 거대세포와 괴사가 보인다. 따라서 가장 가능성 높은 원인은 거대세포바이러스이다.
+CD4 44/µL의 HIV 환자에서 혈성 설사·대장 궤양은 선택지 중 CMV 대장염 A를 가장 의심하게 한다. CMV는 cytomegalovirus이며 HSV와 다른 바이러스다. 다만 그림이 누락되어 특정 봉입체를 관찰했다고 단정하지 않고, 실제 확진에는 적합한 내시경 병변과 조직의 바이러스 세포병리/면역염색 등이 필요하다. 혈액 검출이나 CD4 수치만으로 장기침범을 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004267 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CMV를 HSV라고 부르고 없는 조직 소견을 만들어낸 해설 교정; 진행 HIV 혈성 궤양성 대장염 A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus
 
 ## 출처
 

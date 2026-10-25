@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 종괴가 빠르게 자라 5 cm를 초과하면 방사선치료와 화학요�
 ## 해설
 
 
-청소년기에 월경 직전 통증을 동반한 움직이는, 통증성 유방 결절은 섬유선종이다. 대부분 시간이 지나면서 자연스럽게 크기가 감소하거나 소실된다. 따라서 가장 가능성 높은 경과는 C이다.
+청소년의 둥글고 가동성인 유방 종괴는 섬유선종을 시사한다. 경과 관찰 중 크기가 감소하거나 사라질 수 있어 선지 중 C가 가장 타당하다. 모든 병변의 소실을 보장하는 것은 아니며 성장·증상·영상 소견에 따라 추가 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000826 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 청소년 가동성 유방종괴의 fibroadenoma와 C 유지. 모두 대부분 자연 소실한다는 과도한 빈도 표현을 퇴축 가능성으로 제한.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/childhood
 
 ## 출처
 

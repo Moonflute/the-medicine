@@ -20,16 +20,18 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 완전 침상안정
 
 ## 해설
 
+심박동 없는 4cm 배아는 임신 소실에 부합하며, 열린 자궁경부와 출혈·통증은 진행 중인 유산을 시사한다. 조직 배출 여부가 제시되지 않아 불완전유산과 계류유산을 동의어처럼 붙여서는 안 된다. 이 환자는 혈압 89/65 mmHg와 빈맥으로 혈역학적 불안정이 있어, 즉시 순환 평가·소생과 함께 신속한 수술적 자궁내용물 제거(C)가 필요하다. 안정적인 초기 임신 소실에서는 기대·약물·수술 치료를 상황과 선호에 따라 선택할 수 있지만 이 사례에 그대로 적용하지 않는다. 메토트렉세이트나 침상안정으로 처치를 지연하지 않는다.
 
-임신 초기에 자궁경부가 열리고 태아 심장 활동이 없으며 출혈이 지속되는 경우 불완전 유산(계류유산)이다. 치료는 자궁경관을 확장하고 소파술을 시행해 잔여 조직을 제거하는 것이 표준이다. 따라서 자궁경관 확장 및 소파술인 C가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 미표시 실제 검수. 불완전유산=계류유산 혼동 수정, 저혈압·빈맥에서 소생과 신속 자궁내용물 제거 C의 이유 명시.
+- https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss
 
 ## 출처
 

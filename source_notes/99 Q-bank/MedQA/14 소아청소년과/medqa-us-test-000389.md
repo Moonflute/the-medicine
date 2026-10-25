@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 어머니의 식단 변경 권고
 
 ## 해설
 
+정상 성장·진찰과 수유량 조절 반응은 생리적 영아 역류에 맞아 안심과 수유 상담(C)이 적절하다. 깨어 있을 때 수유 후 안아 줄 수 있으나 잠잘 때는 등을 대고 단단하고 평평한 면에 눕힌다. 침대 머리 올리기·경사 수면기구·엎드려 재우기를 권하지 않는다.
 
-생리적 위식도 역류는 대부분 무해하며 성장에 영향을 주지 않는다. 검사는 필요 없으며, 부모를 안심시키고 자세(머리 올리기)와 수유 방법을 조언하는 것이 최선이다. 따라서 C가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정상 성장의 생리적 역류 C 유지. 수면 중 머리 올리기라는 위험한 조언을 교정.
+- https://www.healthychildren.org/English/tips-tools/ask-the-pediatrician/Pages/What-is-the-safest-sleep-solution-for-my-baby-with-reflux.aspx
 
 ## 출처
 

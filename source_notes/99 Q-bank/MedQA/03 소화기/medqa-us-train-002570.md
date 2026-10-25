@@ -20,16 +20,18 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 수술적 절제
 
 ## 해설
 
+난치성 다발성·원위부 십이지장 궤양과 상승한 gastrin, 국소화된 단일 십이지장 병변은 gastrinoma를 시사한다. 선택지 중 D의 수술적 절제를 검토하며 산분비 억제도 유지한다. PPI 자체도 gastrin을 올리므로 산도·검사 맥락을 확인하고 MEN1 및 전이·절제가능성을 평가해야 한다. 뇌하수체 MRI 정상만으로 MEN1을 배제하거나 모든 전이성 gastrinoma에 근치절제가 가능하다고 단정하지 않는다.
 
-다발성 궤양과 고가의 가스트린, 십이지장 종괴는 위십이지장 신경내분비 종양(가스트리노마)을 시사한다. 가스트리노마는 수술적 절제가 근본적인 치료이다. 따라서 수술적 절제가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 국소 gastrinoma 절제 D는 유지. 고가의 가스트린 오역·모든 gastrinoma 수술 일반화를 교정.
+- https://www.cancer.gov/types/pancreatic/hp/pnet-treatment-pdq
 
 ## 출처
 

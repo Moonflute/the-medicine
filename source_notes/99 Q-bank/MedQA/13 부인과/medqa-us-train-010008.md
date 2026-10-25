@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 방광류
 
 ## 해설
 
+기침·운동·웃음 때 새고 절박감이 없는 소변 누출은 복압성 요실금을 시사한다. 다산·비만·만성 기침은 골반저/요도 지지 장애와 관련되며 전질벽 방광류(D)가 동반될 수 있어 보기 중 가장 적절하다. 모든 복압성 요실금에 방광류가 있거나 방광류만이 원인이라는 뜻은 아니다.
 
-운동·기침 시 요실금은 복압 증가에 의한 방광 하부 탈출(방광류)에서 가장 흔히 나타난다. 골반 검진에서 방광류 소견이 가장 가능성이 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 복압성 요실금을 방광류에서만 또는 가장 흔하게 나타나는 현상으로 단정한 해설을 공통 골반저 지지 장애로 교정했다.
+
 
 ## 출처
 

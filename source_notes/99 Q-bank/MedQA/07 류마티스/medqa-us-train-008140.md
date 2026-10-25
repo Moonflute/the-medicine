@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -37,7 +39,7 @@ related_drug_slugs:
 
 ## 문제
 
-55세 남자가 심한 무릎 통증으로 응급실에 왔다. 어제 시작된 통증이 점점 악화되었다. 무릎 골관절염 병력이 있고 이전에는 이부프로펜에 반응했다. 3일 동안 약을 복용하지 않다가 오늘 히드로클로로티아지드 3회분을 복용했다. 최근 바비큐에서 소고기와 술을 먹었고 봉와직염 치료도 최근에 받았다. 체온 101°F(38.3°C), 혈압 157/98 mmHg, 맥박 95회/분이다. 좌측 무릎이 따뜻하고 홍반이 있으며 압통과 통증으로 운동 범위가 제한된다. 가장 적절한 다음 처치는?
+55세 남자가 심한 무릎 통증으로 응급실에 왔다. 어제 시작된 통증이 점점 악화되었다. 비만, 당뇨와 무릎 골관절염 병력이 있고 이전에는 이부프로펜에 반응했다. 3일 동안 약을 복용하지 않다가 오늘 히드로클로로티아지드 3회분을 복용했다. 최근 바비큐에서 소고기와 술을 먹었고 봉와직염 치료도 최근에 받았다. 체온 101°F(38.3°C), 혈압 157/98 mmHg, 맥박 95회/분이다. 좌측 무릎이 따뜻하고 홍반이 있으며 압통과 통증으로 운동 범위가 제한된다. 가장 적절한 다음 처치는?
 
 ## 선택지
 
@@ -49,7 +51,14 @@ D. 나프록센
 ## 해설
 
 
-급성 무릎 부위의 발적·통증·열감은 관절내 삼출액을 분석해 감염 여부를 확인해야 하는 의심되는 골관절염이다. 관절천자는 진단적·치료적 필수 절차이며, 영상검사나 진통제만으로는 충분하지 않다. 따라서 관절천자가 가장 적절한 다음 조치이다.
+급성의 뜨겁고 붓고 아픈 관절에 발열이 있어 septic arthritis를 먼저 평가해야 한다. 음주·육류·thiazide는 통풍 위험이지만 감염성 관절염을 배제하지 못하며 최근 cellulitis와 당뇨는 감염 우려를 높인다. 관절천자 A로 세포수·Gram 염색·배양과 결정 검사를 시행한다. 단순 골관절염 악화로 간주하거나 영상·NSAID만으로 평가를 끝내면 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008140 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 발열성 급성 단관절염을 의심 골관절염이라 부른 오류 교정. 감염 배제 관절천자 A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/
 
 ## 출처
 

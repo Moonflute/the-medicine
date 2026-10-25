@@ -18,13 +18,15 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 승모판 섬유소성 괴사(Mitral valve fibrinoid necrosis)
 
 ## 해설
 
+정답은 C이다. 운동 중 실신·젊은 나이의 부친 급사와 LVH형 ECG는 유전성 비대심근병증을 의심하게 한다. 추가 영상에서 비대칭 중격 비대가 관찰될 수 있다. ECG 전압만으로 전벽 또는 중격의 해부학적 비대를 직접 확정하는 것은 아니며 누락된 심장 진찰 그림의 소견을 새로 만들지 않는다.
 
-좌심실 전벽 비대와 깊은 S파, 큰 R파는 비대칭 중격 비대를 의미한다. 이는 유전성 비대성 심근증(비대성 심근증)과 연관되며, 갑작스러운 심정지 위험이 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ECG의 LVH만으로 비대칭 중격을 확정한다는 인상을 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

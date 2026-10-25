@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "단일 원인균 감염이 아닌 질내 균총 불균형은 중요 개념 유지. 오답 문자 제거와 칸디다 명칭 오류 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -31,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 락토바실러스 감소와 가드넬라 등 혐기성 세균 과증식으로 인한 질 내 정상균총 불균형 상태
-B. 트리코모나스 원충에 의한 질염으로 회음부 가려움과 회색-녹색 분비물이 특징
-C. 칸디다 알균에 의한 질염으로 점액성 흰색 분비물과 가려움이 주된 증상
-D. 에스트로겐 감소에 따른 질 점막 위축으로 pH 상승이 주요 원인인 질염
+A. 락토바실러스 감소와 혐기성 세균 증가에 따른 질내 미생물 불균형
+B. 트리코모나스 원충 감염에 의한 질염
+C. 칸디다 효모의 과증식에 의한 외음질염
+D. 저에스트로겐 상태에 따른 질 상피 위축
 
 ## 해설
 
@@ -42,10 +47,16 @@ D. 에스트로겐 감소에 따른 질 점막 위축으로 pH 상승이 주요 
 
 ## 오답 포인트
 
-- **B. 트리코모나스 원충에 의한 질염으로 회음부 가려움과 회색-녹색 분비물이 특징:** 트리코모날 질염은 원충 감염이며 세균성 질염과 구분된다.
+- 트리코모나스는 원충이며 칸디다는 효모이다. 세균성 질염의 미생물 불균형과 구별한다.
 
 ## 출처
 
 - 내부 학습 노트: 세균성 질염 (Bacterial Vaginosis)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/세균성 질염 (Bacterial Vaginosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 질 내 정상 세균총의 불균형으로 인해 락토바실러스(Lactobacillus) 균주가 감소하고 가드넬라(Gardnerella vaginalis)를 포함한 혐기성 세균이 과증식하는 상태. - **원인**: 질 내 미생물 생태계의 변화. 성매개감염병(STI)은 아니나 성생활과 관련이 있을 수 있음. - **기전**: 락토바실러스 감소로 인한 질 내 pH 상승(>4.5) 및 혐기성 세균의 바이오필름 형성.
+- 학습 목표: 세균성 질염의 미생물 불균형
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 단일 원인균 감염이 아닌 질내 균총 불균형은 중요 개념 유지. 오답 문자 제거와 칸디다 명칭 오류 교정.

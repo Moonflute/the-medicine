@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 급성 소장 출혈
 
 ## 해설
 
+정상 적혈구용적의 심한 빈혈과 망상적혈구 증가, 반복 정맥천자 흔적, 의료 접근성과 침습검사 요구는 자가채혈 등으로 질병을 의도적으로 유발하는 허위성 장애(A)를 시사한다. 그러나 빈혈은 실제 신체질환이며 ‘질병 증거가 없다’는 설명은 틀리다. 의도적 유발·기만을 확인하고 출혈·용혈 등 의학적 원인도 평가해야 하며, 단순히 검사 음성이나 의료인이라는 이유만으로 확진해서는 안 된다.
 
-환자는 의도적인 증상 과장과 자해성 빈혈을 보이며, 실제 질병 증거가 없으므로 허위성 장애가 가장 가능하다. 따라서 정답은 허위성 장애이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Hb7.5실제빈혈이있는데질병증거없다고한오류삭제. 의도적자가유발을시사하는단서와단정한계구별.
+
 
 ## 출처
 

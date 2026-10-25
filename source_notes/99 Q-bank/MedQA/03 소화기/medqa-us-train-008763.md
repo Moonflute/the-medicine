@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 철분 보충
 ## 해설
 
 
-빈혈이 미세소관성(MCV 72)이며 비타민 D 결핍이 동반된 경우 대장암 검진보다 철분 보충이 우선이다. 그러나 환자는 경미한 피로와 저혈색소만 있어 철 결핍 보충이 필요하다. 따라서 철분 보충이 가장 적절한 처치이다.
+노년 남성의 새 소구성 빈혈과 체중감소는 철결핍 및 위장관 출혈·악성종양 평가가 필요하다. 선택지 중 대장내시경(A)이 적절한 원인 평가에 포함된다. Ferritin 등으로 철 상태를 확인하고, 원인불명 철결핍이면 통상 상·하부 내시경을 고려한다. 철분 보충만으로 원인 평가를 대신하거나 비타민D 결핍 때문에 내시경을 미루지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008763 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원정답 colonoscopy A인데 해설이 철분 D를 정답으로 주장한 불일치 교정. 노년 남성 소구성빈혈+체중감소의 GI 원인 평가를 단순 screening과 구분.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gastro.org/news/aga-recommends-bidirectional-endoscopy-for-most-patients-with-iron-deficiency-anemia/
 
 ## 출처
 

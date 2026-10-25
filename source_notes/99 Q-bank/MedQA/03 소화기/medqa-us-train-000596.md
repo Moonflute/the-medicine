@@ -22,15 +22,17 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 알코올성 간염
 
 ## 해설
 
+정답은 C이다. HBsAg·anti-HBc IgG·HBeAg 양성과 높은 ALT는 복제/염증 활성이 있는 만성 HBV 감염의 맥락에 가장 합당하다. 실제 만성성은 HBsAg 지속 기간 등으로 확인하고 HBV DNA로 활성을 평가한다. 급성 감염은 anti-HBc IgM이 중요하지만 만성 악화에서도 나타날 수 있다. HBeAg 음성 만성 간염도 존재하므로 HBeAg 음성만으로 비활동성이라고 단정하지 않는다.
 
-HBsAg·HBc IgG·HBeAg 양성은 B형 간염의 활동성 만성 감염을 의미한다. 급성 감염은 IgM·HBc가 양성이며, 비활성은 HBeAg 음성이다. 따라서 활동성 만성 B형 간염이 가장 가능하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: HBeAg음성은 모두 비활동성이라는 잘못된 일반화 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

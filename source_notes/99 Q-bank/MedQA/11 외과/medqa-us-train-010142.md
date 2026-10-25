@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 환자가 의식을 잃을 때까지 기다린 후 수술
 
 
 환자는 의식이 명료하고 자율적인 결정을 내릴 수 있는 성인이다. 수술을 거부하는 경우 환자 자율성을 존중해야 하며, 동의서 서명 후에도 거부는 유효하다. 따라서 가장 적절한 조치는 수술을 취소하는 것이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010142 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 결정능력이 있는 성인은 위험을 이해한 뒤 기존 동의를 철회할 수 있어 수술 취소 A가 맞다. 의식 상실을 기다려 유효한 거부를 우회해서는 안 된다는 원문·해설을 AMA 윤리기준과 대조했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://code-medical-ethics.ama-assn.org/ethics-opinions/withholding-or-withdrawing-life-sustaining-treatment
 
 ## 출처
 

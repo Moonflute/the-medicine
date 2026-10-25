@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 간모세포종
 
 ## 해설
 
+부신 기원 종괴, 안와 주위 반상출혈과 골통·혈구감소는 신경모세포종(C)의 원발 및 전이 소견에 부합한다. 부신은 흔한 원발 부위이며 안와·골수 침범이 증상을 설명한다. 호산구 증가가 제시된 것은 아니다. 원문도 호염기구 55%로 기재해 분획 합계가 맞지 않으므로 이 수치를 정상 검사값처럼 해석하거나 임의로 다른 수치로 고치지 않는다.
 
-소아에서 눈 주위 반상출혈·멍·부신 종괴는 신경모세포종(NB)과 연관된다. NB는 교감신경계 기원으로 눈 주변 출혈과 부신 전이, 호산구 증가를 동반한다. 따라서 신경모세포종이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신경모세포종의 부신 원발·골/안와 전이 기전으로 교정. 원문 백혈구 분획 합계 오류는 임의 수치 수정 없이 명시.
+
 
 ## 출처
 

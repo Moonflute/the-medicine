@@ -17,15 +17,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 종괴 절제술 + 정기적인 선별 검사
 
 ## 해설
 
+고전형 LCIS가 영상소견과 일치하고 다른 절제 적응증이 없으면 B의 고위험 감시·정기 유방촬영과 위험감소 상담이 적절하다. LCIS는 비침윤성 병변이지만 향후 양측 유방암 위험을 높인다. 다형성/광범위형 또는 영상–병리 불일치이면 절제가 필요할 수 있어 모든LCIS에 수술 불필요라고 일반화하지 않는다.
 
-LCIS는 유방암 위험을 증가시키지만 직접적인 암이 아니므로, 정기적인 유방 촬영과 임상 검진을 통한 관찰이 권장된다. 가장 중요한 오답인 전절제술은 과도한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 고전형 LCIS의 영상병리 일치와 비고전형/불일치 예외 명시.
+- https://jamanetwork.com/journals/jamasurgery/fullarticle/2853197?guestAccessKey=69c0eca9-a7dc-4719-a7db-9f5f9d121b63
 
 ## 출처
 

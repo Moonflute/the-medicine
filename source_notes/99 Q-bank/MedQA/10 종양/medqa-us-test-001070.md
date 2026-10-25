@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 침윤성 소엽암
 ## 해설
 
 
-다엽성, 매끈한 종괴와 섬유성 간질 내 유두상 돌기가 특징인 엽상종양은 양성 종양이다. 다른 선택지는 섬유선종(단결절성)이나 악성 종양이 아니다. 따라서 정답은 엽상종양이다.
+빠른 성장과 잎모양 상피-간질 구조는 엽상종양(A)을 지지한다. 엽상종양은 양성·경계성·악성으로 나뉘므로 이 명칭만으로 양성이라 단정하지 않는다. 정확한 등급은 간질 세포성·비정형·유사분열·경계 등 병리 기준으로 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-001070 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 빠른 성장·leaflike 상피/간질의 phyllodes A 유지. 모든 엽상종양이 양성이라는 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/publications/dictionaries/cancer-terms/def/phyllodes-tumor
 
 ## 출처
 

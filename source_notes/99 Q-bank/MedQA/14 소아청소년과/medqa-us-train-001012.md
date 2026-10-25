@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 적혈구 막 결함
 
 ## 해설
 
+미숙아에서 생후 수주 동안 상대적으로 낮은 EPO 생성과 저산소 자극에 대한 불충분한 반응이 적혈구 생성을 제한할 수 있다. 빈혈에 비해 낮은 망상적혈구 수와 뚜렷한 용혈 소견 부재가 이를 지지하므로 B가 가장 적절하다. 저산소증 그 자체가 정상적인 EPO 생성을 억제한다는 설명은 맞지 않는다.
 
-조산아는 신생아 신장 혈류 감소와 저산소증으로 에리트로포이에틴 생성이 저하되어 빈혈이 발생한다. 혈액검사에서 적혈구 용적은 정상·정상 범위이며, 적혈구 파괴 소견이 없으므로 에리트로포이에틴 결핍이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 저산소증 자체가 EPO를 감소시킨다는 역방향 설명을 교정했다.
+
 
 ## 출처
 

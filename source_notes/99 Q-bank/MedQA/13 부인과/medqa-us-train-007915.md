@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. FSH와 에스트로겐 수치
 
 ## 해설
 
+16세 원발무월경에서 FSH와 에스트로겐(D)은 성선 기능부전의 고성선자극호르몬성 양상과 시상하부·뇌하수체성 저하를 구별하는 데 유용하다. 저체중·운동은 기능성 시상하부 억제 가능성을 높이지만 확정하지 못한다. 피로·변비·추위 증상 때문에 TSH 등 갑상선 평가도 필요하다.
 
-주요 특징은 저체중, 피로, 변비, 추위 감각, 1년 전 두통, 2차 성징(유방·음모) 발달이 진행된 점이다. 이는 원발성 무월경을 동반한 원발성 골형성저하증(갑상선기능저하)보다, 시상하부‑뇌하수체‑성선 축 저하를 시사한다. 따라서 정답은 갑상선기능저하증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 검사를 묻는 문항에 갑상선기능저하증을 정답으로 둔 연결 오류 교정. D 유지.
+- https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 습식 도말검사
 
 ## 해설
 
+성생활이 있는 가임기 환자의 복부·골반 통증에서는 임신과 자궁외임신 가능성을 우선 확인하므로 소변 hCG C가 적절하다. 악취와 묽은 분비물은 질염을 시사할 수 있으나 이 정보만으로 PID를 확정할 수 없다. 임신 평가와 함께 질염·STI 검사를 진행한다.
 
-복부·골반 통증과 질 분비물, 악취는 골반염증성 질환을 시사한다. 임신 가능성을 배제하기 위해 먼저 소변 hCG 검사를 시행해야 한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 가임기 복통의 초기 임신검사 C 유지. 악취·백색 분비물만으로 PID를 확정한 해설을 교정.
+- https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
+- https://www.cdc.gov/std/treatment-guidelines/pid.htm
 
 ## 출처
 

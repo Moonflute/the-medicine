@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 혈소판 투여
 
 ## 해설
 
+활동성 대량출혈과 쇼크에서 와파린 효과를 신속히 역전하려면 응고인자 보충이 필요하다. 제시 선지 중 FFP(B)가 즉시 인자를 제공하며 비타민 K 단독은 작용이 늦다. 실제 현행 우선 요법은 4인자 PCC와 정맥 비타민 K 병합이며 PCC가 없으면 FFP를 사용한다. 현재 INR을 재측정해야 하고 이틀 전 INR 2.6을 지금의 수치로 단정하지 않는다. 출혈원 통제·혈액제제 소생도 병행한다.
 
-와파린 복용 환자의 INR 2.6에서 출혈을 억제하려면 응고인자를 즉시 보충해야 한다. 신선동결혈장은 모든 응고인자를 포함하므로 급성 출혈 시 1단계 치료로 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. FFP를 모든 와파린 대량출혈의 현행 1차로 단정한 오류를 PCC 우선·비타민 K 병행 권고로 제한했다. 즉시 인자 보충이라는 선지 비교에서는 B가 타당하다.
+- 공식/학회 근거: https://www.jacc.org/doi/10.1016/j.jacc.2020.04.053
 
 ## 출처
 

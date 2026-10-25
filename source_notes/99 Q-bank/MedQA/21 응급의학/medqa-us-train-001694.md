@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 머리 내리기, 진정, 고장성 식염수, 저환기
 
 ## 해설
 
+고혈압·서맥·불규칙 호흡은 외상 후 위험한 두개내압 상승과 뇌탈출 가능성을 시사한다. 주어진 선지 중 머리 올리기·적절한 진정·고삼투압 치료와 과호흡을 포함한 B가 구조치료 조합에 가장 가깝다. 기도·산소화·혈압을 확보하고 신경외과적 원인 치료를 긴급히 진행한다. 과호흡은 뇌혈류를 줄여 허혈을 악화시킬 수 있으므로 뇌탈출 임박 또는 급성 악화 때 잠시 사용하는 교량조치이며, 모든 TBI에 예방적으로 오래 시행하는 치료가 아니다. 혈압·혈량을 확인하며 만니톨을 사용한다.
 
-불규칙 호흡·고혈압·서맥은 뇌압 상승에 따른 쿠싱 삼위증을 나타낸다. 뇌압을 낮추기 위해 머리를 30도 올리고, 진정제로 대사율을 감소시키며, 삼투성 이뇨제(만니톨)와 과호흡을 통해 CO₂를 감소시키는 것이 가장 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 쿠싱 삼징을 동반한 급성 악화에서 B의 일시적 뇌압 구조조치를 유지하되 예방적·지속적 과호흡을 보편적 치료로 권하지 않도록 수정했다.
+- 공식/학회 근거: https://ww2.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf
 
 ## 출처
 

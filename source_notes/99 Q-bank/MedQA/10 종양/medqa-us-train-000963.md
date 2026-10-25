@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 어떠한 예방 조치도 효과가 없었을 것이다
 ## 해설
 
 
-고칼륨혈증, 고요산혈증, 저칼슘, 대사성 산증은 종양 용해 증후군(TLS)의 전형적인 실험실 소견이다. TLS는 급성 세포 파괴 시 요산과 인이 급증하고, 이를 예방하기 위해 알로퓨리놀을 사전 투여한다. 따라서 알로퓨리놀 투여가 예방에 가장 효과적이었다.
+선지 중 allopurinol(A)은 새 요산 생성을 줄여 TLS 예방에 도움된다. 다만 Burkitt 림프종은 고위험이므로 적절한 수액·감시와 rasburicase 등 위험도별 예방이 중요하며 allopurinol만으로 모든 TLS를 막는 것은 아니다. 이미 형성된 요산을 직접 분해하지도 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000963 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: TLS 예방 allopurinol A는 선지상 타당. 고위험 Burkitt에서 수액·rasburicase까지 고려한다는 현행 맥락 추가, allopurinol 단독 보장 금지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 핵산증폭검사
 
 ## 해설
 
+점액농성 분비물과 쉽게 출혈하는 자궁경부는 자궁경부염을 시사하며 임질·클라미디아 NAAT(D)를 시행한다. 질·자궁경부·소변 검체를 사용할 수 있다. 정상 습윤도말은 이 감염들을 배제하지 않으며 소견만으로 임질 확진은 불가하다.
 
-성교 후 비정상 질 분비물과 출혈, 자궁경부 출혈이 쉽게 일어나는 경우는 임질(Neisseria gonorrhoeae) 감염이 흔하다. 확진을 위해서는 핵산증폭검사(NAAT)가 가장 민감하고 특이도가 높다. 따라서 가장 적절한 진단검사는 NAAT이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 자궁경부염을 임질만으로 단정하지 않고 임질·클라미디아 NAAT 설명.
+- https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm
 
 ## 출처
 

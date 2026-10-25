@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 설트랄린
 
 ## 해설
 
-
-주요우울장애의 1차 치료는 항우울제와 심리치료이며, 전기경련치료는 약물·심리치료에 반응하지 않을 때 사용하는 2차 옵션이다. 따라서 1차 치료로 부적절한 선택은 전기경련치료이다.
+이 사례에는 즉각적인 생명위험이나 빠른 반응이 필요한 심한 우울증의 특징이 제시되지 않아, 제시된 선택지 중 전기경련치료는 통상적인 초기 선택이 아니다. 심리치료나 SSRI를 고려한다. 다만 전기경련치료가 언제나 약물·심리치료 실패 후에만 가능한 것은 아니며, 심각한 자살위험·생명위협적인 섭취 거부 등 빠른 반응이 필요한 상황에서는 초기에도 고려할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001693
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 이 사례에서 ECT가 초기 선택이 아닌 것은 유지. 모든 상황에서 약물 실패 후 2차만 가능하다는 오류 교정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/ng222/chapter/Recommendations

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 다형성 교모세포종
 
 ## 해설
 
+목 통증과 오른팔→오른다리→왼다리→왼팔 순서의 진행성 위약, 사지 상위운동신경원 징후 및 감각수준은 대공(foramen magnum) 부위 압박 병변을 지지한다. 흉쇄유돌근·승모근 위축은 부신경 경로 침범과 부합하고 연하·구음 장애도 동반될 수 있다. 선지 중 대공 수막종(A)이 가장 적절하다.
 
-전신성 상하운동신경 손상, 양측 상하위 운동신경 징후, 그리고 C5 이하 감각 저하는 대공경(포어멘 마그눔) 수막종에 의한 척수압박을 시사한다. 이 종양은 상하운동신경 증상을 동시에 나타낸다. 따라서 가장 가능성 높은 원인은 대공경 수막종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 대공경 수막종 A를 유지하고 불명확한 전신 상하위 운동신경 설명을 경수압박·부신경 침범으로 구체화한다.
 
 ## 출처
 

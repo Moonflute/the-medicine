@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 내시경 초음파(EUS)
 ## 해설
 
 
-위 전정부 선암은 전이 여부와 국소 진행을 평가하기 위해 복부·골반 CT가 필요하다. 따라서 다음 단계는 복부 및 골반 CT이다.
+내시경생검으로 위 선암이 확인되면 절제 가능성 및 원격전이를 평가하기 위한 CT가 필요하여 보기 중 A가 적절하다. 실제 병기평가는 흉부도 포함하는 CT 등으로 시행하고 잠재적 근치 대상은 staging laparoscopy를 고려한다. EUS는 국소 병기를 알아야 치료 결정이 달라지는 경우에 보완적으로 사용하며 전신 전이평가를 대신하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006170 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 위암 CT 병기평가 A 유지하되 복부골반 CT가 모든 병기평가를 완결한다는 오해를 방지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng83/chapter/Recommendations
 
 ## 출처
 

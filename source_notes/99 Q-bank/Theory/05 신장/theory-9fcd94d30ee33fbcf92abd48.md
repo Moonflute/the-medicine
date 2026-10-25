@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-umrOuTpCDspp3tm4TqtbAgKExpZGRsZSBTeW5kcm9tZSkubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "리들의 기전·검사 결과 세 문항을 한 개로 통합."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-리들 증후군의 주요 병리기전은 무엇인가?
+리들 증후군에서 저칼륨성 고혈압을 일으키는 주된 기전은?
 
 ## 선택지
 
-A. ENaC(상피세포 나트륨 통로)의 항상 활성화
-B. NKCC2(나트륨‑칼륨‑2염소공수송체) 기능 손실
-C. Na⁺/K⁺‑ATPase 억제로 인한 나트륨 재흡수 감소
-D. AQP2(수분 채널) 발현 감소
+A. ENaC 활성 증가에 따른 나트륨 재흡수 증가
+B. 알도스테론 분비 종양의 필수 동반
+C. NCC 기능 저하에 따른 염분 소실
+D. NKCC2 기능 저하에 따른 염분 소실
 
 ## 해설
 
-ENaC가 지속적으로 활성화돼 나트륨 재흡수가 증가하고, 그 결과 저칼륨혈증·고혈압이 나타난다.
+ENaC 활성 증가가 나트륨 저류와 칼륨·수소이온 배설을 유도한다. 체액 팽창으로 레닌과 알도스테론은 억제되므로 원발성 알도스테론증과 구분한다.
 
 ## 오답 포인트
 
-- **B. NKCC2(나트륨‑칼륨‑2염소공수송체) 기능 손실:** NKCC2 결손은 바터 증후군과 관련된다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 리들 증후군 (Liddle Syndrome)
 - 원본 경로: `source_notes/02 Diseases/05 신장/리들 증후군 (Liddle Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 상염색체 우성으로 유전되는 희귀 질환으로, 신장 집합관의 상피세포 나트륨 통로(ENaC)의 활성 증가로 인해 나트륨 재흡수와 칼륨 배설이 과도하게 일어나는 질환. - **원인**: ENaC 유전자 돌연변이로 인한 통로의 항상 활성화. - **기전**: 집합관에서 나트륨의 과도한 재흡수 및 수분 저류로 인한 고혈압 발생, 이와 동시에 칼륨과 수소 이온의 과도한 배설로 저칼륨혈증 및 대사성 알칼리증 유발.
+- 학습 목표: Liddle의 ENaC 활성 증가와 저레닌·저알도스테론

@@ -17,15 +17,24 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: management
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
+medical_review_status: "evidence-reviewed"
+medical_reviewed_at: 2026-10-25
+publication_status: "published"
+publication_reason: "직접 재검수 후 복구: 음이온차 단독 대신 DKA 해소 기준 교정."
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "음이온차 단독 대신 DKA 해소 기준 교정."
+curation_reviewed_at: "2026-10-25"
+curation_disposition: "selected"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -36,17 +45,27 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 음이온차 <10
+A. 혈중 beta-hydroxybutyrate <0.6 mmol/L이고, 정맥 pH ≥7.3 또는 HCO3 ≥18 mmol/L
 B. 중탄산염 <10 mEq/L
 C. 혈액요소질소 증가
 D. 혈청 아세톤 소실
 
 ## 해설
 
+인슐린 중단, 심한 고혈당, 탈수와 깊은 호흡은 DKA를 시사하며 ketone과 산염기 상태 확인이 필요하다. DKA의 해소 기준은 혈중 beta-hydroxybutyrate <0.6 mmol/L와 산증의 회복(pH ≥7.3 또는 HCO3 ≥18 mmol/L)이다. 수액 후 고염소성 산증이 남을 수 있어 음이온차만으로 판단하지 않는다. 소변·혈청 아세톤 검사 음성만으로 회복을 확정하지 않는다.
 
-당뇨성 케톤산증 치료 종료 기준은 혈중 음이온 차가 <12 mEq/L(보통 <10)로 정상에 가까워지는 것이다. 따라서 음이온 차 <10이 호전 기준이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 음이온차 단독 대신 DKA 해소 기준 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010023
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

@@ -19,13 +19,15 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 담낭절개술
 
 ## 해설
 
+정답은 C이다. 발열·우상복부 통증, 염증 반응, 담즙정체성 검사 이상과 총담관 확장은 급성 담관염을 지지한다. 초음파에 결석이 보이지 않아도 담도 폐쇄를 배제할 수 없으며, 소생·항생제와 함께 ERCP를 통한 신속한 배액을 고려한다. ERCP에서 폐쇄 원인을 확인해 결석 제거 또는 배액을 시행할 수 있지만 본문만으로 결석이 이미 관찰되었다고 설명하지 않는다.
 
-총담관 확장과 급성 발열·복통은 총담관 결석에 의한 급성 담관염을 의미한다. 결석을 제거하기 위해 역행성 담췌관조영술(ERCP)로 스텐트 삽입 및 결석 제거가 급히 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: CBD 결석이 직접 보였다고 단정하지 않고 담관염에 필요한 배액으로 ERCP 근거를 설명.
+- https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-management-of-cholangitis
 
 ## 출처
 

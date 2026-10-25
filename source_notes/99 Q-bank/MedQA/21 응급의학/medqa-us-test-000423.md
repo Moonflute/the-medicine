@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 기관지 폐쇄로 인한 환기/관류 비 감소
 
 ## 해설
 
+최근 수술 후 발생한 저산소혈증·빈호흡과 호흡알칼리증은 폐색전증을 의심하게 한다. 폐혈관이 막힌 부위의 폐포는 환기가 유지되지만 관류가 감소하여 높은 V/Q와 폐포 사강 증가(A)가 생긴다. 폐포나 기관지가 공기에 막힌 것이 아니다. 전체 저산소혈증은 이와 동반되는 V/Q 불균형 등 복합 기전으로 발생한다.
 
-폐색전증은 폐포 일부가 폐색되어 관류가 차단되고 환기와 대비해 V/Q 불일치를 일으켜 폐포 사강이 증가한다. 이는 저산소성 호흡부전과 저산소혈증을 초래한다. 따라서 호흡부전 원인은 관류 소실에 의한 폐포 사강 증가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. PE의 높은 V/Q·사강 A를 유지하되 폐포 자체가 막힌다는 기전 오류를 폐혈관 관류 차단으로 교정한다.
 
 ## 출처
 

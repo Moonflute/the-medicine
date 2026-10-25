@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 거위발 점액낭염(Pes anserine bursitis)
 
 ## 해설
 
+정답은 D, 거위발 윤활낭염이다. 비만과 새로 시작한 반복 운동 후 생긴 통증, 슬개골 아래의 경골 안쪽에 국한된 압통은 거위발 부위의 과사용성 병변을 지지한다. 내측 반월상연골 손상은 관절선 압통이나 잠김 등 기계적 증상이, 내측 측부인대 손상은 외반 외상과 불안정성이 더 전형적이다. 슬개대퇴 통증증후군은 주로 슬개골 주변이나 뒤쪽의 통증으로 나타나므로 제시된 압통 위치와 다르다.
 
-다산은 임신 중 에스트로겐 노출을 늘려 유방암 위험을 감소시키는 보호 요인이다. 비만은 위험을 증가시킨다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 유방암 위험 해설은 다른 증례. 비만·운동 후 내측 근위 경골 압통을 거위발 윤활낭염으로 설명. 원정답 D 유지.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/pes-anserine-knee-tendon-bursitis/
 
 ## 출처
 

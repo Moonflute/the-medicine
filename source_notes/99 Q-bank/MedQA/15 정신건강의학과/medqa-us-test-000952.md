@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,17 @@ D. 동기강화 면담
 
 ## 해설
 
-
-바레니클린은 니코틴 수용체 차단제로 금연 성공률을 크게 높이며, 금연 의지가 강한 중증 흡연자에게 1차 치료제로 권장된다. 니코틴 패치는 금연 부작용이 심하고 디아제팜은 불안 치료에만 해당한다. 동기강화 면담은 보조적이지만 약물 치료가 우선이다.
+바레니클린은 니코틴성 아세틸콜린 수용체 부분 작용제로 금연을 돕는다. 금연 의지가 있고 니코틴 사탕을 견디지 못한 이 환자에서 제시된 선택지 중 적절하다. 니코틴 패치도 유효한 금연 방법이며 사탕의 부작용만으로 모든 니코틴 대체요법이 금기는 아니다. 행동적 지원은 약물과 함께 제공할 수 있다. 폭식증 병력이 있으므로 선택지에는 없지만 부프로피온은 발작 위험 때문에 금기이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000952
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 바레니클린을 단순 니코틴 수용체 차단제로 설명하고 패치를 일반적으로 배제한 오류 교정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f86bb7b-c6a6-4915-8ba1-17251540971c
+- https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2563ea9f-6e29-2747-e054-00144ff88e88&type=display

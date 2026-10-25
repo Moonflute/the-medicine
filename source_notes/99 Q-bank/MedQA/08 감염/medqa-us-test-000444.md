@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. Leishmania major
 
 
 아프리카 여행 후 발열, 관절통, 반구진성 발진이 동반된 경우 치쿤구니야 바이러스 감염이 흔히 나타난다. 이는 바이러스성 관절염을 일으키는 주요 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000444 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 여행후 고열에 이어 지속 다관절 통증·발진은 치쿤구니야 B와 일치. 원문 수치·병원체 선지 대조; 치료 문항 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

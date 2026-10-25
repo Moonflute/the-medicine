@@ -19,17 +19,19 @@ question_type: adverse_effect
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 나프록센
 
 ## 해설
 
+오피오이드 복용 후 발생하고 완하제 반응이 불충분한 변비에서 C의 naloxegol은 말초 μ-opioid 수용체를 차단해 오피오이드의 장운동 억제 효과를 줄인다. 장수축을 억제하는 약이 아니다. 장폐색이 의심되면 금기이며, 약명도 불명확한 하루 10정 복용의 용량·적응증·안전성과 감량 가능성도 함께 평가해야 한다.
 
-오피오이드 진통제 장기 복용으로 변비가 발생하고, 완하제와 중단을 거부할 경우 장관 평활근 수축을 억제하는 μ‑수용체 길항제인 날록세골이 변비 완화에 효과적이다. 따라서 날록세골이 적절한 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Naloxegol이 장수축을 억제한다는 역방향 기전을 말초 μ길항으로 교정.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=300a6474-ebcd-4404-8040-48fdcfcc1635
 
 ## 출처
 

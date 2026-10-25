@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 삼각근
 
 ## 해설
 
+낙하팔 징후와 심한 외전 약화는 극상근을 포함한 회전근개 파열을 지지하여 선지 중 A가 가장 적절하다. 극상근은 외전 시작과 골두 안정화에 기여한다. 외회전은 주로 극하근·소원근의 기능이므로 외회전 약화 자체만을 극상근의 고유 기능 소실로 설명해서는 안 된다. 큰 회전근개 파열에서 여러 기능 이상이 함께 나타날 수 있다.
 
-외회전이 현저히 약하고 외전 근력이 1/5인 점은 회전근개 중 가장 큰 힘을 내는 극상근 손상을 시사한다. 극상근 파열 시 ‘낙하팔’ 징후가 나타나며, 외전이 크게 감소한다. 따라서 정답은 극상근이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 낙하팔·외전 약화의 극상근 A를 유지하되 외회전 담당 및 가장 큰 힘이라는 잘못된 해부 설명을 수정한다.
 
 ## 출처
 

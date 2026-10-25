@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "6rWs7Yag"
 theory_objective_id: cc-04-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "탈수·쇼크·흡인 위험이라는 중요한 구토 초기 평가 원칙을 직접 복습."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,9 +47,7 @@ D. 혈청 아밀라아제 측정
 
 ## 오답 포인트
 
-- **B. 복부 초음파 시행:** 복부 초음파는 진단 단계이지만 즉시 평가 항목은 아니다.
-- **C. 위내시경 예약:** 위내시경은 치료·진단에 사용되며 초기 안정화와는 무관하다.
-- **D. 혈청 아밀라아제 측정:** 혈청 아밀라아제는 췌장염 평가에 필요하지만 구토 초기 평가와는 관계가 적다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

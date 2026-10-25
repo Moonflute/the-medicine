@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "SVC target에 오연결된 고칼슘혈증 우선 항암치료 문항을 상체 정맥 환류 장애 기전으로 복원. 기존 급성 고칼슘혈증 치료를 지연시키는 설명 제거."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnvefnn0tlrjdkyvjmlxlez2v1twdpewdszxvucfnec3bwm3rtnfrxdgjbz0tgtjfjr1z5yvc5eulgwmxibuvnutjgmlltqlrlvzvry205dfpta3viv1f8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -16,36 +21,43 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-악성 종양에 의한 고칼슘혈증 환자에게 가장 먼저 시행해야 할 치료는?
+상대정맥 증후군에서 안면·목·상지 부종과 흉벽 측부정맥 확장이 생기는 기전은?
 
 ## 선택지
 
-A. 기저 암에 대한 표준 항암치료를 우선 시행
-B. 수액·비스포스포네이트·코르티코스테로이드만 투여
-C. SIADH 치료를 먼저 시행
-D. 전해질 모니터링만 지속
+A. 상대정맥 폐쇄로 상체 정맥압이 높아지고 측부순환이 발달한다.
+B. 하지 동맥 폐쇄로 상체 동맥압이 직접 감소한다.
+C. 신동맥 협착으로 상체의 림프 생성이 멈춘다.
+D. 폐포 환기가 증가해 상체 정맥압이 낮아진다.
 
 ## 해설
 
-부종양 증후군은 근본 원인인 암을 치료하면 증상이 근본적으로 개선되므로 항암치료가 우선이다.
+상대정맥의 압박·혈전·협착 등은 머리·목·상지의 정맥 환류를 방해해 울혈과 측부정맥 확장을 유발한다.
 
 ## 오답 포인트
 
-- **B. 수액·비스포스포네이트·코르티코스테로이드만 투여:** 지원 요법은 보조적이며 근본 치료가 먼저이다.
+- 하지 동맥·신동맥·환기 변화: 상체 정맥 환류 장애의 직접 기전이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 상대정맥 증후군 (Superior Vena Cava Syndrome)
 - 원본 경로: `source_notes/02 Diseases/10 종양/상대정맥 증후군 (Superior Vena Cava Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의** * 상대정맥(Superior Vena Cava, SVC)이 종양, 혈전 등에 의해 부분적 또는 완전히 폐쇄되어 발생하는 임상 증후군. - **원인** * 종양에 의한 외부 압박(폐암, 림프종 등)이 가장 흔함. * 최근 중심정맥관, 심박동기 전극 등 기구 삽입에 의한 혈전 형성 및 협착 사례가 증가하는 추세. - **기전** * 상대정맥 혈류 장애로 인해 머리, 목, 상지에서 심장으로의 정맥 환류가 저해되어 상체 정맥압 상승 및 울혈 발생.
+- 학습 목표: SVC 폐쇄가 상체 정맥 환류 장애와 울혈을 일으키는 기전을 안다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: SVC target에 오연결된 고칼슘혈증 우선 항암치료 문항을 상체 정맥 환류 장애 기전으로 복원. 기존 급성 고칼슘혈증 치료를 지연시키는 설명 제거.
+- https://gravitas.acr.org/ACPortal/GetDataForOneTopic?topicId=356
+- https://www.cancer.gov/about-cancer/treatment/side-effects/cardiopulmonary-syndromes-pdq

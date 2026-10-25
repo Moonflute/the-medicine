@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "PF4/헤파린 IgG가 혈소판을 활성화해 혈전과 감소를 일으키는 기전은 독립 핵심으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmltjyce8ytwppdw1zq0rzbktecnnkd2c3wmljn0lhttdzeve2cknrn0lhttdlywrjq2hjwlhcagntbhvmvwx1wkhwalpxuwdwr2h5yjixawiytjvkrzl3wlc1cfltd2dtrwxvs1m1dfpbfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -44,10 +49,15 @@ HIT는 헤파린‑PF4 복합체에 대한 IgG 항체가 혈소판을 활성화�
 
 ## 오답 포인트
 
-- **B. 헤파린에 의한 직접 혈소판 파괴:** 헤파린은 직접 혈소판을 파괴하지 않는다.
+- **헤파린에 의한 직접 혈소판 파괴:** 헤파린은 직접 혈소판을 파괴하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT).md`
 - 학습 목표: 원문 핵심: - **정의**: 헤파린 투여 후 발생하는 혈소판 감소증과 혈전증을 특징으로 하는 면역 매개성 합병증. - **원인**: 헤파린 투여 (미분획 헤파린 (UFH)에서 더 흔하며, 저분자량 헤파린 (LMWH)에서도 발생 가능). - **기전**: 헤파린-혈소판 제4인자 (PF4) 복합체에 대한 자가항체 (IgG) 생성 → 항체-복합체 결합 → 혈소판 활성화 및 응집 → 혈소판 감소증 및 혈전증 유발.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: PF4/헤파린 IgG가 혈소판을 활성화해 혈전과 감소를 일으키는 기전은 독립 핵심으로 유지.

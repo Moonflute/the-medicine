@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 푸로세미드 치료
 
 ## 해설
 
+비만, 유두부종, 일시적 시각 소실과 높은 뇌척수액 개방압은 두개내고혈압을 시사한다. 이차 원인을 배제한 IIH에서는 체중 관리와 acetazolamide(A)를 고려하여 시기능을 보호한다. 시야를 추적하고 급속 시력악화가 있으면 수술을 신속히 평가한다. 정상 뇌 MRI만으로 정맥동혈전증 등 모든 이차 원인이 배제되는 것은 아니다.
 
-두통, 구역, 시신경유두부종, 정상 MRI와 높은 개방압은 특발성 두개내 고압증을 의미한다. 첫 번째 치료는 뇌척수액 생산을 억제하는 아세타졸아미드이며, 이는 증상 완화에 가장 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경한 시야손실 IIH의 acetazolamide A 확인. 약물이 모든 증상에 가장 효과적이라는 단정 제거하고 체중·시야 추적 보완.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC6166610/
 
 ## 출처
 

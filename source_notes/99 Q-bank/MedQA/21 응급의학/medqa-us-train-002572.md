@@ -21,20 +21,22 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-24세 남성이 암벽등반 중 약 10피트 높이에서 떨어진 지 5시간 후 왼쪽 어깨 통증으로 응급실에 왔다. 통증은 점점 심해졌고 왼쪽 어깨의 능동·수동 운동범위는 정상이다. 왼쪽 상복부에 7/10 압통과 자발성 경직이 있고 혈액검사와 전해질은 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
+24세 남성이 암벽등반 중 약 10피트 높이에서 떨어진 지 5시간 후 왼쪽 어깨 통증으로 응급실에 왔다. 통증은 점점 심해졌고 왼쪽 어깨의 능동·수동 운동범위는 정상이다. 맥박 95회/분, 호흡수 16회/분, 혈압 114/70 mmHg이다. 왼쪽 상복부에 7/10 압통과 자발성 경직이 있고 혈액검사와 전해질은 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
 
 ## 선택지
 
@@ -45,8 +47,12 @@ D. 왼쪽 어깨 MRI
 
 ## 해설
 
+낙상 후 왼어깨 자체 운동은 정상이지만 왼쪽 상복부 압통·방어가 있어 비장 손상에 의한 횡격막 자극과 연관 어깨통증(Kehr 징후)을 의심한다. 제시된 활력징후가 안정하여 복부 조영 CT(B)로 손상과 출혈을 평가하는 것이 적절하다. 정상 초기 혈색소만으로 급성 출혈이 배제되지는 않는다. 혈역학적으로 불안정하거나 명백한 복막염이 있으면 CT 때문에 소생·출혈 통제를 지연하지 않는다.
 
-복부 외상 후 좌측 상복부 압통과 자발성 경직은 비장 손상을 시사한다. 비장 파열 여부를 확인하기 위해 복부 CT가 가장 민감한 영상검사이다. 따라서 복부 CT가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 복부 CT를 선택할 수 있는 안정한 활력징후가 번역에서 생략되어 복원했다. 비장 손상의 Kehr 연관통과 B를 설명하고 모든 외상에서 CT가 우선이라는 일반화를 피했다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

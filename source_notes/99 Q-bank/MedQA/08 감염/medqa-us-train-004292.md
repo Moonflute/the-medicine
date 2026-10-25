@@ -19,11 +19,13 @@ question_type: 임상증례 객관식
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 푸소박테리움
 ## 해설
 
 
-개 물림 상처는 파스퇴렐라 멀토시다 감염 위험이 높으며, 특히 인간에게 흔히 전파되는 그람음성 구균이다. 따라서 감염 시 가장 가능성 높은 원인균은 파스퇴렐라 멀토시다이다.
+개·고양이 구강세균인 Pasteurella multocida는 짧은 그람음성 구간균(coccobacillus)이며 동물 물림 감염의 중요한 원인이므로 B가 가장 적절하다. 실제 물림 감염은 여러 호기성·혐기성 균이 함께 관여할 수 있으며 개가 예방접종을 받았다고 일반 세균 감염 위험이 없어지는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004292 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Pasteurella를 그람음성 구균이라 한 형태 오류 교정; 개물림의 B 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

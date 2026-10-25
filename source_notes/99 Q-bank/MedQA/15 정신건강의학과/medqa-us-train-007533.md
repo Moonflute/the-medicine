@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 인지행동치료
 
 ## 해설
 
-
-환자는 전투 후 외상후 스트레스 장애(PTSD) 증상(악몽, 회상, 회피)만을 보이며 자살 위험은 없다. 초기 치료로는 증상 인지와 재구성을 목표로 하는 인지행동치료(CBT)가 1차 선택이며, 약물은 보조적이다. 따라서 가장 적절한 초기 치료는 인지행동치료이다.
+전투 외상 후 재경험·회피/과각성과 기능장애가 지속되어 PTSD를 시사한다. 제시된 선택지 중 외상 중심 인지행동치료가 적절한 초기 선택이다. CPT·지속노출 등 근거 기반 외상 중심 치료를 고려한다. 벤라팍신도 근거가 있는 약물이며 환자 선호·접근성에 따라 논의할 수 있고 프라조신은 악몽 표적 치료이다. 현재 자살사고가 관찰되지 않는다고 위험이 없다는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007533
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 자살사고 부인으로 위험이 없다는 단정 삭제. 초기 CBT를 외상 중심 치료로 명확히 하고 벤라팍신의 유효성도 인정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp

@@ -18,17 +18,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 소변검사
 
 ## 해설
 
+NSAID에 충분히 반응하지 않는 월경통에서 금기 없으면 경구피임약(C)으로 호르몬 억제를 시도할 수 있다. 정상골반검사만으로 자궁내막증이 배제되지 않으며 적절한NSAID·호르몬치료에도 지속되면 이차성원인 평가·전문진료가 필요하다. 임신·STI위험과 복약방법도 상담한다.
 
-월경 전 2–3일 지속되는 심한 하복부 통증은 원발성 월경통이며, NSAID에 반응이 감소한 경우 호르몬성 억제가 첫 번째 치료이다. 경구피임약은 월경통을 완화하고 규칙적인 월경을 유지한다. 따라서 경구피임약을 시작하는 것이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: NSAID불응 월경통을 원발성으로 확진하지 않고 호르몬치료 후재평가 설명.
+- https://www.acog.org/womens-health/faqs/dysmenorrhea-painful-periods
 
 ## 출처
 

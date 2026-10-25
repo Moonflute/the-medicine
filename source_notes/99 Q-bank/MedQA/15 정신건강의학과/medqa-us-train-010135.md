@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 로피니롤
 
 ## 해설
 
-
-잠들기 어려움은 수면 위생 불량이 가장 흔한 원인이다. 카페인 섭취 시점, 전자기기 사용 제한, 규칙적인 취침 시간 등 수면 위생 개선이 1차 치료이다. 따라서 초기 처치는 적절한 수면 위생이다.
+늦은 카페인 섭취와 취침 중 반복적인 휴대전화 시계 확인은 조정할 수 있는 요인이다. 제시된 선택지 중 적절한 수면 습관을 논의하는 것이 타당하며, 기면증·수면무호흡·하지불안증후군 치료 약물을 바로 선택할 근거는 없다. 다만 4개월의 만성 불면에서는 수면위생 교육만으로 충분하다고 일반화하지 않고 CBT-I와 다른 원인 평가를 함께 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010135
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 불면의 가장 흔한 원인이 수면위생 불량이라는 단정 제거. 선택지 내 습관 조정과 만성 불면의 CBT-I 우선 원칙 구별.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://doi.org/10.7326/M15-2175

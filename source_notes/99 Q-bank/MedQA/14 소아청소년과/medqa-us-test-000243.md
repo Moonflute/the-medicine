@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 터키안장 종괴
 
 ## 해설
 
+저신장, 낮은 뒤머리선과 넓은 흉곽은 터너 증후군을 시사한다. 전형적인 45,X에서는 불활성화할 두 번째 X염색체가 없으므로 협부 도말에서 바소체(Barr body)가 보이지 않는다(A). 바소체는 불활성화된 X염색체의 성염색질이며 혈관이나 골격 발달 저하로 생기는 구조가 아니다. 모자이크형의 경우 소견이 다를 수 있다.
 
-터너 증후군(45,X)에서는 골격 발달이 저해되어 협부에서 혈관이 보이지 않는 바소체가 결여된다. 따라서 협부 도말에서 바소체가 보이지 않는 것이 가장 흔한 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Barrbody를혈관으로오해한기전오류교정. 45X불활성X부재로A유지.
+
 
 ## 출처
 

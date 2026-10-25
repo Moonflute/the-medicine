@@ -20,13 +20,15 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 백일해 백신
 
 ## 해설
 
+COPD 환자에게 인플루엔자 예방접종은 매년 권고되므로 제시된 제한 자원 상황에서 C가 적합하다. 다만 폐렴구균, 백일해 등도 연령과 접종력에 따라 필요하여 다른 백신이 중요하지 않다는 뜻은 아니다. 실제 진료에서는 현재 권고되는 백신 종류와 공적 지원을 확인하여 필요한 접종을 함께 계획한다.
 
-만성폐쇄성폐질환(COPD) 환자는 인플루엔자 감염 시 급성 악화를 겪을 위험이 크다. 인플루엔자 백신은 매년 접종이 권장되며, 다른 백신보다 COPD 환자에게 가장 중요한 예방조치이다. 따라서 인플루엔자 백신을 권고한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 제한 자원 문항의 인플루엔자 C를 유지하되 다른 권고 백신보다 항상 우선이라는 보편 순위를 제거.
+- https://goldcopd.org/2026-gold-report-and-pocket-guide/
 
 ## 출처
 

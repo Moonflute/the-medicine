@@ -25,13 +25,15 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,11 @@ D. 피부사상균 감염
 
 ## 해설
 
+심한 구강 미란과 쉽게 터지는 이완성 수포, 양성 Nikolsky 징후는 심상성 천포창(pemphigus vulgaris)을 시사한다. Desmoglein-3에 대한 자가항체(C)가 각질형성세포 사이의 접착을 방해해 가시세포해리와 표피내 수포를 유발한다. 피부 침범이 동반되는 경우 desmoglein-1 항체도 함께 관여할 수 있다.
 
-다발성 수포와 양성 니콜스키 징후는 천포창(펜리히)과 연관된 항-데스모글레인-3(anti‑desmoglein‑3) 항체에 의해 매개되는 자가면역 수포성 피부질환을 나타낸다. 이는 천포창의 병리학적 기전이다. 따라서 원인을 가장 잘 나타내는 것은 항‑데스모글레인‑3 항체이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 심한 점막 미란·이완성 수포와 Dsg3 항체 C의 연결은 맞고 펜리히라는 잘못된 질환명만 교정·구체화한다.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 5-HT3 길항제
 ## 해설
 
 
-화학요법 후 오심·구토에 5‑HT3 길항제(예: 온단세트론)가 가장 효과적이며 변비를 동반할 수 있다. 두통과 변비가 나타난 환자는 5‑HT3 길항제 사용을 시사한다. 따라서 해당 약물은 5‑HT3 길항제이다.
+항암치료 관련 구역·구토에 쓰는 5-HT3 antagonist(예: ondansetron)는 두통과 변비를 일으킬 수 있어 D가 가장 부합한다. 이 약제군이 모든 항암요법에서 단독으로 가장 효과적이라는 뜻은 아니다. 실제 구토 예방은 항암제의 emetogenic risk에 따라 NK1 antagonist, dexamethasone, olanzapine 등과 병합한다. 본 문항은 치료 후 부작용으로 약제군을 추론하는 문제이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007245 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 5-HT3 길항제 두통·변비 D는 맞으나 항암 구토 전반에서 단독 최효과라는 과장 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/about-cancer/treatment/side-effects/nausea/nausea-hp-pdq
 
 ## 출처
 

@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 침 흉강절개술
 
 ## 해설
 
+관통 흉부손상 후 급격한 심한 호흡곤란·초조는 전투현장에서 긴장성 기흉을 우려하게 한다. 보기 중 즉각 바늘 흉강감압(D)을 시행하는 것이 적합하다. 바늘감압은 흉관삽입과 다른 술기이며 이후 재평가와 확정 배액이 필요할 수 있다. 본문에 없는 호흡음이나 타진 소견을 실제로 관찰한 것처럼 추가해서는 안 된다.
 
-총탄이 흉벽을 관통해 입구와 출구가 존재하고, 호흡곤란과 흉부 청진에서 맹청음이 들리면 관통성 기흉이 의심된다. 즉시 침 흉강절개술(튜브 흉강 삽입)이 치료에 필요하다. 따라서 정답은 침 흉강절개술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Needle thoracostomy와 흉관 삽입을 같은 술기로 설명한 오류 및 없는 청진 소견 제거.
+- 공식/학회 근거: https://jts.health.mil/assets/docs/cpgs/US_Army_Aeromedical_Evacuation_Standard_Medical_Operating_Guidelines_26NOV2025.pdf
 
 ## 출처
 

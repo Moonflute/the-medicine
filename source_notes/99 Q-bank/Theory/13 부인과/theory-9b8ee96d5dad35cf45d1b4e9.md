@@ -16,18 +16,23 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "수유기 주요 원인균 복습은 유지하되 모든 유방 농양으로 일반화하지 않음. 오답 문자 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-유방 농양의 가장 흔한 원인균은?
+수유기 유방 농양에서 주요 원인균으로 알려진 것은?
 
 ## 선택지
 
@@ -42,10 +47,16 @@ D. Mycobacterium tuberculosis
 
 ## 오답 포인트
 
-- **B. Escherichia coli:** E. coli는 유방 농양에서 흔하지 않다.
+- Escherichia coli 등 다른 균도 가능하지만 수유기 농양에서 대표적으로 연관되는 균은 Staphylococcus aureus이다.
 
 ## 출처
 
 - 내부 학습 노트: 유방 농양 (Breast Abscess)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/유방 농양 (Breast Abscess).md`
-- 학습 목표: 원문 핵심: - **정의**: 유방 조직 내에 고름이 고인 상태로, 주로 수유기 여성에서 발생하나 비수유기에도 발생 가능함. - **원인**: 수유 중 유두의 미세 손상을 통한 세균 침입(주로 *Staphylococcus aureus*, *Streptococcal* 종)이 흔함. 비수유기에는 유관 폐쇄나 유관 확장증과 관련될 수 있음. - **기전**: 유관의 상피화 및 폐쇄로 인한 저류, 유두 균열을 통한 세균 감염 및 염증 반응으로 농양 형성.
+- 학습 목표: 수유기 유방 농양의 주요 원인균
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 수유기 주요 원인균 복습은 유지하되 모든 유방 농양으로 일반화하지 않음. 오답 문자 제거.

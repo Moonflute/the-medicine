@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,15 @@ D. 혈관성 치매
 
 ## 해설
 
-
-우울증 환자는 기억력 저하와 주의력 감소를 보이며, 검사에서 단기 기억이 손상된 것이 우울성 인지장애(우울성 가성치매)와 일치한다. 신경학적 검사는 정상이며 다른 치매 유형은 진행성 증상과 연령대가 다르다. 따라서 가장 가능성 높은 진단은 우울증이다.
+배우자 사망 후 2개월의 기분저하·납마비 같은 신체감각과 함께 인지 문제가 시작되어 제시된 진단 중 우울증 관련 인지저하가 가장 가깝다. 나이나 정상 신경학적 검사만으로 알츠하이머병·혈관성 치매를 배제하지 않으며, 우울증과 인지장애는 함께 존재할 수 있다. 갑상선 등 의학적 원인과 경과를 평가하고 치료 후에도 인지·기능 변화를 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008504
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 우울증 답 유지. 67세/정상 신경검사만으로 치매를 배제하거나 가성치매를 확정한 해설 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

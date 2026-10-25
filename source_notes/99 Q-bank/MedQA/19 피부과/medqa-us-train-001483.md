@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 심상성 천포창
 
 ## 해설
 
+구강·외음부 점막 미란에 이완성 수포와 양성 Nikolsky 징후가 동반되어 심상성 천포창(D)을 지지한다. 수포성 유사천포창은 보통 팽팽한 수포와 상대적 점막 보존을 보인다. 본문은 침범 면적을 10%로 제시하며, 이 면적 자체는 심상성 천포창을 정의하는 기준이 아니다.
 
-피부와 점막에 물집이 동반되고 문지르면 표피가 쉽게 떨어지는 니콜스키 징후는 천포창을 특징으로 한다. 물집이 10% 미만이므로 심상성 천포창이 가장 가능성 높다. 따라서 심상성 천포창이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 점막 침범·이완성 수포의 PV D는 맞지만 본문 10%를 10% 미만으로 바꾸고 면적을 PV 진단 기준으로 사용한 오류를 수정한다.
 
 ## 출처
 

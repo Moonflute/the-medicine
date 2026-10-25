@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 생활 습관 변화, 이완 요법, 마사지 치료 권장
 
 ## 해설
 
+양측 압박·조임 통증, 경부·후두부 압통, 오심·구토 및 국소 신경학적 이상 부재는 긴장형 두통을 지지한다. 다만 박동성은 전형적 긴장형 두통의 특성은 아니므로 반복 시 두통 양상을 재평가한다. 제시된 선지에서는 생활습관 조정과 이완·마사지(D)가 합리적이다. 급성 통증에는 환자 특성과 금기를 고려해 단순 진통제 또는 NSAID도 사용할 수 있다. C의 고유량 산소·피하 sumatriptan 병합은 이 사례의 통상 치료가 아니다.
 
-양측 후두부 압통과 광선공포증을 동반한 중등도 맥박성 두통은 긴장성 두통에 해당한다. 일차 치료는 생활 습관 교정·이완 요법 등 비약물적 관리이다. 따라서 D가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선지 중 D는 적절하나 박동성을 긴장형 두통의 전형으로 가르치고 비약물요법만 일차 치료라고 단정한 설명을 수정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

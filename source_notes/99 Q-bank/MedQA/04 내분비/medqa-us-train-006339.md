@@ -24,12 +24,14 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA
   - ZHJ1ZzoxMCDsooXslpEvTGV0cm96b2xlLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 열량 제한
 
 
 키가 크고 골연령이 정상이며 혈당 상승이 있는 경우 성장호르몬 과다 분비를 일으키는 뇌하수체 선종이 의심된다. 선종 절제는 과다 성장과 대사 합병증을 예방한다. 따라서 가장 예방 효과가 큰 조치는 경접형동 뇌하수체선종 절제술이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 성장판 폐쇄 전 GH과다 의심의 과성장은 원인 뇌하수체종양 절제 A로 예방/조절 가능. 실제 수술 전 생화학·MRI 확인은 별도.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

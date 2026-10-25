@@ -17,13 +17,15 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 국소적 수포음(Localized rales)
 
 ## 해설
 
+CT의 분절 폐동맥 충만결손은 폐색전증을 지지한다. 폐색전증에서 국소 수포음(D)이 들릴 수 있으며, 흉막 마찰음이나 천명 등도 가능하다. 수포음은 폐색전증에 특이적이지 않고 청진이 정상일 수도 있다. 폐실질이 단순히 '무혈관성'으로 바뀌어 수포음을 낸다는 설명은 적절하지 않으며, 정상 산소포화도도 폐색전증을 배제하지 않는다.
 
-폐색전증 환자는 폐동맥 폐색 부위에 해당하는 폐실질이 무혈관성으로 변하면서 해당 부위에 국소적인 수포음(폐실질에서의 작은 맹울음)이 들린다. 이는 폐색전증 특이적인 청진소견이다. 따라서 의사는 국소적 수포음을 관찰했을 가능성이 가장 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. 수포음이 PE 특이소견이거나 폐실질이 단순히 무혈관화되어 생긴다는 오류 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

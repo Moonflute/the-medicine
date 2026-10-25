@@ -12,7 +12,7 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_suZjsl7QgKEFuYWwgRmlzc3VyZSkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "배변 관련 심한 통증과 선홍색 출혈은 치루·치핵과 구분하는 유용한 핵심 양상으로 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 복부 팽만감과 설사
 
 ## 오답 포인트
 
-- **B. 항문 주위 지속적인 농성 분비물과 가려움증:** 농성 분비물과 가려움증은 치루의 특징입니다.
+- **항문 주위 지속적인 농성 분비물과 가려움증:** 농성 분비물과 가려움증은 치루의 특징입니다.
 
 ## 출처
 
 - 내부 학습 노트: 치열 (Anal Fissure)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/치열 (Anal Fissure).md`
-- 학습 목표: 원문 핵심: * **CC**: 배변 시 또는 배변 직후 발생하는 심한 통증, 출혈(선홍색) * **P/E** - 주로 후방 정중선(posterior midline)에 호발 - 정중선 외 발생 시 크론병 등 다른 원인 감별 필요 - Sentinel pile(피부 꼬리), 비대 유두(hypertrophic papilla) 동반 가능 - DRE 시 주의 깊은 시진 필요
+- 학습 목표: 치열의 배변 관련 통증·출혈
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 배변 관련 심한 통증과 선홍색 출혈은 치루·치핵과 구분하는 유용한 핵심 양상으로 유지.
+- 검수 범위: curriculum-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

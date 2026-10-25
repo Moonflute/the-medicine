@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. 발프로산
 
 ## 해설
 
-
-환자는 주간 졸림, 입면 환각, 기면증 발작을 호소한다. 이러한 삼중 증상은 기면증의 전형적인 삼중증후군이며, 첫 번째 치료제로 각성제인 모다피닐이 권장된다. 따라서 모다피닐이 가장 도움이 되는 약물이다.
+충분한 야간 수면에도 지속되는 주간 수면발작과 입면·각성 시 환각은 기면증을 시사한다. 의식이 보존된 채 쓰러진 사건은 탈력발작 가능성을 평가해야 하며 이 설명만으로 발작 원인을 확정하지 않는다. 제시된 약물 중 모다피닐은 기면증의 주간졸림 치료 선택이다. 수면과 연결된 환각을 조현병으로 단정해 할로페리돌을 시작하지 않으며 실제 진단에는 수면평가와 객관적 검사가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005936
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 비표준 '전형적 삼중증후군'과 낙하 사건 확정 표현 제거. 수면 관련 환각·주간졸림의 기면증 의심과 모다피닐 선택으로 한정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

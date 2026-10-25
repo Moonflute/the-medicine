@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 안과 의뢰
 
 ## 해설
 
+내전장애·반대눈 외전안진과 보존된 눈모음은 양측 핵간안근마비를 시사한다. 젊은 환자에서 MLF탈수초화를 고려하여 뇌 MRI(C)로 병변을 평가한다. 실제MS진단은 병력·진찰·검사 및 진단기준을 통합하며 MRI검사 하나만으로 항상 확진되는 것은 아니다.
 
-양쪽 눈의 내전 불능과 반대쪽 눈의 외전 진전은 내핵성 안구마비를 나타내며, 이는 다발성 경화증에서 흔히 보이는 병변이다. 진단을 확정하기 위해 뇌 MRI가 가장 민감한 영상검사이므로 MRI를 시행한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 핵간안근마비 명칭 교정, 외전진전이 아닌 외전안진. MRI C는 적절하나 단독MS확진은 아님.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng220/chapter/Recommendations
 
 ## 출처
 

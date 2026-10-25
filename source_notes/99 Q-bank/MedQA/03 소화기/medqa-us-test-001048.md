@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 카이저-플라이셔 고리
 
 ## 해설
 
+정답은 B이다. 중년 여성의 소양증·담즙정체성 간검사·황달과 건조 증상은 원발성 담즙성 담관염(PBC)에 합당하다. 만성 담즙정체와 지질 이상에서는 피부에 지질이 침착한 황색종이 생길 수 있다. PBC는 원발성 경화성 담관염(PSC)과 다른 질환이며 황색종을 단순 피부 색소침착으로 설명하지 않는다.
 
-원발성 담즙성 담관염(PSC)과 연관된 피부 소견으로는 황색종(증상성 피부색소 침착)이 흔히 나타난다. 가장 가능성 높은 추가 소견은 피부 황색종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원발성 담즙성 담관염의 약어를 PBC로 바로잡고 황색종을 색소침착이라고 한 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

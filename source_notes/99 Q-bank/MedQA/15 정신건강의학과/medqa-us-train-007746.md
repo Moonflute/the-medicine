@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,9 +48,15 @@ D. 미오글로빈뇨
 ## 해설
 
 
-올란자핀은 대사 부작용이 흔하며, 특히 중성지방 및 콜레스테롤 상승(이상지질혈증)이 가장 흔히 보고되는 부작용이다. 따라서 가장 발생하기 쉬운 부작용은 이상지질혈증이다.
+올란자핀은 대사 부작용이 흔하며, 제시된 선택지 중 중성지방 및 콜레스테롤 상승(이상지질혈증)이 상대적으로 흔한 대사 이상반응이다. 따라서 가장 발생하기 쉬운 부작용은 이상지질혈증이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007746
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 올란자핀 이상지질혈증 답 유지. 모든 부작용 중 최빈이라고 일반화하지 않고 제시 선택지 중 상대적으로 흔한 대사 이상으로 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

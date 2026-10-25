@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 진단적 절제술
 
 ## 해설
 
+임신 중 CIN2/3이고 침윤암이 의심되지 않으면 절제치료를 미루고 감시한다. 산후 질확대경은 최소 4주 이후 시행하므로 6주 재평가 A가 보기 중 적절하다. 임신 중 추적 간격은 개별화하며 병변 악화·암 의심 시 생검한다. 자궁경관내 소파술은 금기이고 절제술은 암 의심 때만 고려한다.
 
-임신 초기에는 CIN II‑III에 대한 즉각적인 절제술보다 출산 후 재평가가 안전하다. 자궁경부 조직이 호르몬 변화에 민감하고 시술 위험이 높아 임신 중에는 보존적 관찰이 권장된다. 따라서 출산 6주 후 재검사가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 CIN2/3의 산후 재평가 A 유지. 침윤 의심 없는 경우에 한하며 임신 중 감시를 보완.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
 
 ## 출처
 

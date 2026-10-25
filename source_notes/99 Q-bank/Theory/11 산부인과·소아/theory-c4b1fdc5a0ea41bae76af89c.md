@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k
+curation_status: "retained"
+curation_reason: "에스트로겐의 HPO축 음성 되먹임과 배란 억제 기초."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Ethinylestradiol은 에스트로겐 수용체에 작용해 시상하부‑뇌하
 
 - 내부 학습 노트: Ethinylestradiol
 - 원본 경로: `source_notes/04 Pharmacology/11 산부인과·소아/Ethinylestradiol.md`
-- 학습 목표: 원문 핵심: - 난포호르몬(에스트로겐) 수용체에 작용하여 시상하부-뇌하수체-난소 축을 억제함으로써 배란을 방지하고 자궁내막 변화를 유도합니다.
+- 학습 목표: Ethinylestradiol: 시상하부‑뇌하수체‑난소 축을 억제한다
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

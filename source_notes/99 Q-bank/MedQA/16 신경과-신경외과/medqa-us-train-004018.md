@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 뇌실주위 백질 반점
 
 ## 해설
 
+레보도파에 반응이 나쁜 파킨슨증, 균형장애와 심한 기립성 저혈압·요실금·발기부전은 다계통위축증(MSA)을 시사한다. 특징적 병리는 주로 희소돌기아교세포의 α-시누클레인 함유 신경교세포질 봉입체(B)다. 전형적 파킨슨병의 루이소체는 주로 신경세포 내 봉입체로, MSA의 신경교세포질 봉입체와 같은 말이 아니다. 타우 응집체나 다발성경화증의 백질 반점도 이 경과를 설명하지 못한다.
 
-파킨슨병 환자의 뇌 조직에서 특징적으로 보이는 병리소견은 신경교 세포질에 있는 루이소체(Lewy bodies)이다. 이는 신경교 세포질 봉입체와 동일한 의미이며, 다른 선택지는 파킨슨병과 관련이 없다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 레보도파 반응이 나쁜 파킨슨증과 뚜렷한 자율신경장애는 MSA인데 이를 전형적 파킨슨병으로 잘못 설명했다. 신경교세포질 봉입체 B와 신경세포 루이소체를 구별하는 해설로 교체했다.
+- 공식/학회 근거: https://www.medlineplus.gov/genetics/condition/multiple-system-atrophy/
+- 공식/학회 근거: https://pubmed.ncbi.nlm.nih.gov/12490094/
 
 ## 출처
 

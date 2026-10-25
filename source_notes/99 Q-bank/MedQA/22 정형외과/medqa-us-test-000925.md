@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,11 @@ D. 초음파에서 액체로 찬 주머니
 
 ## 해설
 
+활동 시 악화되는 무릎 통증, 10~15분의 아침강직, 염발음과 관절선 압통은 골관절염에 합당하다. 영상에서 예상되는 소견은 골극과 관절간격 협소화(A)이다. 이 문항은 실제 영상을 제시하지 않았으므로 영상이 이미 이를 뒷받침한다고 설명해서는 안 된다. 혈중 요산 상승만으로 급성 통풍을 진단하지 않는다.
 
-퇴행성 골관절염에서는 관절 간극이 좁아지고 골극(osteophytes)이 형성된다. 환자의 증상과 영상 소견이 이를 뒷받침한다. 따라서 가장 가능성 높은 소견은 관절 공간 협소화와 골극이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 기계적 통증과 짧은 아침강직의 OA 예상 영상 A를 유지하고 아직 제시되지 않은 영상 소견을 이미 확인했다고 쓴 표현을 수정한다.
 
 ## 출처
 

@@ -21,11 +21,13 @@ question_type: association
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 비타민 B12 결핍
 ## 해설
 
 
-빈혈과 망상적혈구, 저산소증 상황에서 파보바이러스 B19 감염은 적혈구 전구세포를 억제해 재생불량성 빈혈을 일으킨다. 따라서 파보바이러스 B19 감염이 가장 가능성 높다.
+이전 반복 통증 위기로 SCD 같은 만성 용혈질환을 추정하는 맥락에서, 심한 빈혈에 망상적혈구0.4%는 평소 용혈의 보상 반응과 달라 일시적인 적혈구 생성 억제를 시사한다. Parvovirus B19 C는 적혈구 전구세포를 감염시켜 일시적 aplastic crisis를 유발할 수 있다. 백혈구·혈소판은 보존되어 전 골수 재생불량성빈혈과 구분한다. SCD가 본문에 확진되었다거나 원문 SpO₂99%를 저산소증이라고 쓰지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005106 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문 SpO₂99%인데 저산소증을 추가하고 일시 적혈구계 무형성을 범혈구 재생불량성빈혈로 설명한 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

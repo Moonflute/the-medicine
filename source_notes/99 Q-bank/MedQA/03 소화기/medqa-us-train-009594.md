@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 저혈당
 ## 해설
 
 
-카르시노이드 증후군에 대한 1차 치료제로 옥트레오타이드 사용 시 가장 흔한 부작용은 담낭의 운동 저하로 인한 담석증이다. 혈전색전증·췌장염·저혈당은 드물다. 따라서 가장 가능성 높은 부작용은 담석증이다.
+정답 C. 홍조·기관지 수축·설사와 우심장 판막병은 carcinoid syndrome을 시사하며 octreotide 같은 somatostatin 유사체로 증상을 조절할 수 있다. 이 약은 담낭 수축과 담즙 배출을 억제해 담니·담석 위험을 높인다. 혈당 조절 이상(저혈당 또는 고혈당)도 생길 수 있으므로 다른 선택지의 모든 대사 부작용을 일괄 부정하지 않는다. 누락 청진 음원 없이도 텍스트의 전형적 증후군으로 약물군을 추론할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009594 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: carcinoid 치료 somatostatin 유사체의 담낭 운동 억제–담석 C를 정확히 설명; 저혈당 가능성까지 부정하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=ad30bb58-5e16-43c4-8fdc-5cef8261eb8f&type=pdf
 
 ## 출처
 

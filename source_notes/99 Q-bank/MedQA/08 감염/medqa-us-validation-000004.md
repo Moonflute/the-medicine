@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 치료가 필요하지 않다
 ## 해설
 
 
-급성 신우신염이 의심될 때 가장 먼저 소변 분석과 배양을 통해 감염 여부와 병원균을 확인한다. 이는 항생제 선택과 치료 방향을 결정한다. 따라서 요검사와 소변배양이 적절한 초기 조치이다.
+급성 신우신염이 의심되므로 항생제 전 가능하면 요검사와 소변배양(B)을 신속히 채취한다. 이후 중증도·내성 위험·알레르기에 맞는 경험적 항균치료를 시작하며 배양 결과가 나올 때까지 치료를 미루지 않는다. 당뇨와 임상 경과에 따라 폐쇄·농양 등 합병증을 위한 영상 평가도 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000004 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고열·배뇨통·CVA 압통의 신우신염에서 UA/배양 B 유지. 검체 채취가 배양 결과까지 항균치료를 기다리라는 뜻이 아님을 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng111/chapter/Recommendations
 
 ## 출처
 

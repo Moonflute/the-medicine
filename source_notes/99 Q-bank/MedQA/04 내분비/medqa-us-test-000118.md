@@ -20,17 +20,19 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,16 @@ D. 메토프롤롤
 
 ## 해설
 
+음이온차는 141−(99+11)=31 mEq/L로 증가해 있다. 신기능 저하가 있는 환자에서 메트포르민을 복용한다면 신장 배설 감소로 약물이 축적되어 젖산산증 위험이 높아지므로 보기 중 C가 출제 의도에 합당하다. 메트포르민은 주로 신장으로 배설되며 '메트포르민 대사가 축적된다'는 표현은 부정확하다.
 
-환자는 신부전과 메트포르민 복용이 있으며, 혈중 HCO₃⁻ 11 mEq/L와 고혈당은 메트포르민에 의한 젖산산증을 나타낸다. 신기능 저하 시 메트포르민 대사가 축적돼 대사성 산증을 일으킨다.
+다만 실제 복용 여부와 젖산·혈액가스·케톤 등의 확인이 필요하다. 고혈당 자체만으로 메트포르민 관련 젖산산증이 확진되는 것은 아니며, 조영제 노출 사실만으로 인과관계를 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. 고음이온차 산증/신기능 저하에서 MALA 가능성을 설명하되 복용/젖산 미측정을 구별하고 대사 축적이 아닌 신장 청소율 감소로 교정.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/204353s045%2C205879s022lbl.pdf
 
 ## 출처
 

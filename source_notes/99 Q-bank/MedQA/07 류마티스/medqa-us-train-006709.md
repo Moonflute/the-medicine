@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 육아종증 다발혈관염
 
 
 B형간염과 연관된 중간 크기 동맥에 염증이 생겨 결절성 다발동맥염(Polyarteritis nodosa)이 발생한다. 다발성 궤양, 고혈압, 신장 기능 이상이 동반된다. 따라서 가장 가능성 높은 진단은 결절성 다발동맥염이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006709 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HBV·전신 염증·하지궤양·고혈압과 ANCA 음성의 중간동맥 혈관염은 PAN C를 지지한다. 원문·해설 직접 대조; PAN의 신장침범을 사구체신염으로 일반화하지 않는다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

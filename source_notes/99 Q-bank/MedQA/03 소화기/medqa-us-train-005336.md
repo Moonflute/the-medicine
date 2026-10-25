@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 라니티딘
 
 
 증상은 위식도역류질환(GERD)으로, 경험적 치료로 PPI를 먼저 투여한다. 오메프라졸은 1차 치료제로 효과가 높으며, 추가 검사는 증상이 지속될 때 고려한다. 따라서 가장 적절한 다음 단계는 오메프라졸 투여이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 경고증상 없는 전형 GERD의 경험 PPI omeprazole B가 합리적이며 제균요법과 구별.
+- https://doi.org/10.14309/ajg.0000000000001538
 
 ## 출처
 

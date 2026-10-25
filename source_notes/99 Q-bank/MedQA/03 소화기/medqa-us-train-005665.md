@@ -19,17 +19,19 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 수산화마그네슘
 
 ## 해설
 
+흉골뒤 통증과 입안의 역류 맛은 GERD 가능성이 있어 선택지 A의 PPI가 합리적이다. 다만 증상만으로 식도점막 손상이 확진되는 것은 아니며 흉통의 위험도에 따라 심장 등 다른 원인을 평가한다.
 
-흉골 뒤 통증과 식도 역류 증상은 위산에 의한 식도 점막 손상으로, 프로톤펌프억제제인 오메프라졸이 가장 효과적인 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 역류 의심 omeprazole A는 유지하되 흉통만으로 식도손상 확정·심장원인 배제하지 않음.
+- https://doi.org/10.14309/ajg.0000000000001538
 
 ## 출처
 

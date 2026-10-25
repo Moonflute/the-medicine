@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 만성 C형간염 감염
 
 
 우엽에 저에코 종괴와 AFP 상승은 간세포암을 시사한다. 만성 C형간염은 간세포암 발생의 주요 위험인자이며, 질문에 제시된 위험인자 중 가장 일치한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000343 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 만성 HCV가 제시된 간세포암 위험인자 D라는 정답·병태기전 해설을 원문 대조하여 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

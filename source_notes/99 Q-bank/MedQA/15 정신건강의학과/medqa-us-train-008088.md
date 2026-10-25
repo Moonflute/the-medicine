@@ -19,16 +19,18 @@ related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BY2FtcHJvc2F0ZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9OYWx0cmV4b25lLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 정신치료
 
 ## 해설
 
-
-코카인 등 각성제 급성 중독 후 급성 불안, 초조, 수면 장애가 나타날 수 있다. 급성 단계에서는 비약물적 정신치료와 상담이 1차 치료이다. 따라서 적절한 처치는 정신치료이다.
+교감신경 항진과 과다활동 뒤 다음날의 위축·우울 양상은 각성제 사용과 중독 후 상태를 시사한다. 질문 시점에는 안정되고 도움을 원하므로 제시된 선택지 중 정신치료·행동중재로 치료에 연계하는 것이 적절하다. 각성제 사용장애에서는 강화관리(CM)와 CBT 등 근거 기반 심리사회 치료를 고려한다. 이를 전날의 위험한 급성 초조에서도 상담만으로 충분하다는 뜻으로 해석하지 않으며, 중독·금단의 의학적 상태와 자살위험을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008088
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 급성 각성제 중독의 위험한 초조에 정신치료만 일차로 쓴다는 해설 오류 교정. 안정 후 치료 연계의 정답으로 설명.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://downloads.asam.org/sitefinity-production-blobs/docs/default-source/quality-science/stud_guideline_document_final.pdf

@@ -18,13 +18,15 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 양두정골 길이
 
 ## 해설
 
+임신 1기 초음파의 머리–엉덩이 길이(crown–rump length, CRL)가 재태연령 추정에 가장 정확하다(C). 대퇴골 길이·양두정경 등은 주로 임신 중기 이후 생체계측에 사용한다.
 
-임신 초기에는 초음파를 통한 머리-엉덩이 길이(HR) 측정이 태아의 재태연령을 가장 정확하게 추정한다. 이는 다른 신체 측정보다 일관된 성장 지표이다. 따라서 HR 길이가 가장 정확한 지표이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: CRL을 HR로 잘못 표기한 해설 수정.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date
 
 ## 출처
 

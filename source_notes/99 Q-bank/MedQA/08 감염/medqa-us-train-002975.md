@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 황색포도상구균 림프절염
 
 
 고양이와 접촉 후 목 부위에 통증성 림프절과 긁힌 상처가 나타나는 것은 바르토넬라 헨셀라(고양이 긁힘병) 감염을 시사한다. 결핵, 톡소플라스마, 황색포도상구균은 전형적 증상이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002975 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고양이 노출·긁힘과 같은 배액 영역 경부 림프절염의 Bartonella C를 실제 텍스트 소견으로 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

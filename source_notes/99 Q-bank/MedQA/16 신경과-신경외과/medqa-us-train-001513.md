@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 측두엽 콜린성 신경세포의 퇴행
 
 ## 해설
 
+보행시작장애와 넓고 끄는보행, 인지저하·요실금은 정상압수두증을 강하게 시사한다. 기전선지 중 뇌척수액 흡수감소(B)가 가장 적절하다. 현재MRI이미지는 없어 뇌실확대를 직접관찰했다고 서술하지 않았으며 실제확인은 영상/임상평가가 필요하다.
 
-노인에서 보행 저하, 기억력 감퇴, 요실금이 동반되고 MRI에서 뇌실 확대가 보이면 정상압력 수두증(NPH)이 가장 흔한 원인이다. 이는 뇌척수액 흡수가 감소해 발생한다. 따라서 뇌척수액 흡수 감소가 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 제공되지 않은 MRI뇌실확대를 관찰했다고 쓰지 않도록 수정. NPH기전 B 유지.
 
 ## 출처
 

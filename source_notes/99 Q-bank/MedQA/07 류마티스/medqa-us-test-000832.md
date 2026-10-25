@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 대장내시경
 ## 해설
 
 
-인후통 후 1~2주에 나타나는 홍반성 결절은 연쇄구균 인두염에 대한 면역 반응이다. 원인균을 확인하기 위해 인후편Unit 배양이 가장 직접적인 검증 방법이다. 따라서 선택은 A이다.
+최근 인후통 뒤 양쪽 정강이에 생긴 압통성 홍반 결절은 결절홍반을 시사한다. 가능한 유발 원인인 연쇄구균 인두감염을 평가하는 인후 배양(A)이 선지 중 적절하다. 음성 배양만으로 과거 감염을 배제하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000832`와 직접 대조했다.
+- 판정: 인후염 뒤 결절홍반과 원인 평가 A 유지. 인후편Unit이라는 오염 문자열을 인후 배양으로 교정.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

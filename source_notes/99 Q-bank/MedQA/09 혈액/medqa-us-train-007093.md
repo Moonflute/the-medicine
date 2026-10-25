@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 혈우병 A
 ## 해설
 
 
-가족성 혈전증을 의심할 때 가장 흔한 원인은 인자 V Leiden 변이이며, 이는 비정상적인 혈전 형성을 촉진한다. 폰 빌레브란트병은 프로테인 C 저하, 비타민 K 결핍·혈우병은 출혈 경향을 보인다. 따라서 인자 V Leiden이 가장 가능성 높은 원인이다
+젊은 환자의 DVT 의심과 이른 가족 PE 병력에서는 선택지 중 Factor V Leiden A의 유전 혈전성 소인을 고려한다. 이는 activated protein C에 대한 저항성을 일으킨다. vWD는 vWF의 양적/기능적 이상으로 출혈질환이며 protein C 결핍을 뜻하지 않는다. Homan 징후와 가족력만으로 유전자나 DVT가 확진되는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007093 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: vWD를 protein C 저하라고 한 기전 오류 교정; thrombophilia A 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

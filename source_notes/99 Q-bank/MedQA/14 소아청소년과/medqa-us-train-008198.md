@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 신속 연쇄상구균 항원검사
 
 ## 해설
 
+발열·인후통·경부 림프절·선홍색 혀와 발진은 성홍열 가능성이 있어 신속 항원검사(D)가 적절하다. 3세 초과 소아에서 신속 항원이 음성이어도 의심되면 인두 배양으로 확인한다. 원문은 선홍색 혀만 명시하며 실제 사진이 없어 발진 촉감이나 흰 반점을 창작하지 않는다.
 
-발열·인후통 후 3일간의 사과색 발진, 혀의 흰반점, 편도 홍반은 연쇄상구균 인두염 후 성홍열을 시사한다. 진단은 신속 연쇄상구균 항원검사로 확인한다. 따라서 정답은 신속 연쇄상구균 항원검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문에 없는 사과색 발진·혀 흰반점을 삭제하고 현행 연쇄상구균 검사 절차로 보정.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/scarlet-fever.html
 
 ## 출처
 

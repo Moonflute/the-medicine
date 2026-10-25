@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 형질세포 질환
 
 
 고칼슘혈증, 빈혈, 신장 기능 저하, 골통·체중 감소는 다발성 골수종을 시사한다. 다발성 골수종은 형질세포 질환이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008245 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골통·체중감소·빈혈·신기능/칼슘 이상에서 plasma cell dyscrasia D가 기계적 통증보다 부합함을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

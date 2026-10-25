@@ -19,17 +19,19 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 실로스타졸
 
 ## 해설
 
+ABI 감소와 보행 시 재현되는 통증은 증상성 PAD에 부합하며, 심부전이 없는 경우 cilostazol D가 보행증상 개선에 가능하다. 심부전 환자에게는 사용하지 않는다. 구조화 운동·금연·항혈소판제·고강도 statin 등 심혈관 위험 감소 치료를 대신하는 약은 아니다.
 
-간헐적 파행과 발목상완지수 0.80은 말초동맥질환을 시사한다. 실로스타졸은 혈소판 억제제와 병용해 증상을 완화시키는 1차 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 파행의 cilostazol D는 HF 금기를 포함한 증상개선 치료로 한정.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

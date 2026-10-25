@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 오른쪽 편마비
 
 ## 해설
 
+심한 우측 경막하혈종과 뇌간 압박은 뇌탈출을 시사한다. 일반적으로 우측 상천막 병변은 좌측 마비를 만들지만, 반대쪽인 좌측 대뇌각이 천막 가장자리에 눌리는 Kernohan-Woltman 절흔 현상에서는 혈종과 같은 쪽인 우측 편마비(D)가 나타날 수 있다. 이는 피라미드 교차 위에서 좌측 피질척수로가 압박되는 거짓 국소화 징후이다. 단순히 우측 대뇌반구가 눌려 우측이 마비된다고 설명할 수는 없다.
 
-경막하혈종이 한쪽에 크게 형성되고 중격 이동이 있으면 같은 측면(동측) 뇌반구가 압박되어 반대쪽(동측) 편마비가 나타난다. 따라서 오른쪽 혈종은 오른쪽 편마비를 초래한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 우측 경막하혈종과 같은 쪽 편마비 D의 근거를 Kernohan 절흔에 의한 반대쪽 대뇌각 압박으로 교정. 우반구 병변이 직접 우측 약화를 만든다는 오류 제거.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC3895529/
 
 ## 출처
 

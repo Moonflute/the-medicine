@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 터콧 증후군
 
 ## 해설
 
+가족성 조기 대장암·다발성 대장선종에 하악골 골종과 복벽 desmoid 종양이 동반되어 Gardner 증후군 A를 시사한다. 이는 APC 관련 가족성 선종성 용종증의 장외 소견이다. 골종을 골수의 종양으로 설명해서는 안 된다.
 
-다수의 장내 폴립과 골수에 경질 골종양이 동반되는 경우는 가드너 증후군(선천성 대장용종증)과 일치한다. 다른 증후군은 대장암 위험과 연관은 있지만 골종양을 포함하지 않는다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 다발 대장선종+하악골종+복벽 desmoid는 Gardner A; 골수 종양으로 서술한 오역 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

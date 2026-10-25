@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 푸로세미드 투여
 
 ## 해설
 
+정답은 B, 침상 방광 스캔이다. 수술·마취 및 코데인 같은 약물 후 배뇨가 없으면 방광에 소변이 고인 요정체와 신장에서 소변이 적게 만들어지는 상태를 구분해야 한다. 방광 스캔으로 방광 내 소변량을 비침습적으로 확인한다. 요폐는 소변이 차지 않는다는 뜻이 아니라 충분히 배출되지 않는 상태이며, 감압 필요성을 판단하기 전에 푸로세미드를 경험적으로 주는 것은 적절하지 않다.
 
-갑상선 전절제술 후 급성 요폐는 방광에 소변이 차지 못해 발생한다. 초음파로 방광 잔량을 확인하는 방광 스캔이 비침습적이며 진단에 가장 유용하다. 따라서 방광 스캔 시행이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 요폐를 방광에 소변이 차지 못함으로 설명한 반대기전 오류 수정. B 스캔으로 요정체/저생성 구분.
+- 공식/학회 근거: https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/diagnosis
 
 ## 출처
 

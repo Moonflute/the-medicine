@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,13 @@ D. 감염의 인접 부위 전파
 ## 해설
 
 
-Shigella 감염에 의한 장내 출혈과 발열, 그리고 신생물성 심내막염에서 나타나는 Roth 반점(점상출혈)과 새로운 심잡음은 패혈성 색전이 원인임을 시사한다. 패혈성 색전은 감염성 심내막염의 전형적인 합병증이다. 따라서 가장 가능성 높은 원인은 패혈성 색전이다.
+지속 발열·새 심잡음·Janeway 의심 손바닥 병변과 중심이 흰 망막출혈(Roth 반점)은 감염성 심내막염을 시사한다. 갑작스러운 국소 신경결손은 좌심계 식생에서 떨어진 패혈성 색전 C로 설명할 수 있다. Roth 반점은 망막 소견이고 단순 피부 점상출혈의 이름이 아니다. 이 본문에는 Shigella 장염이나 비감염성 신생물성 심내막염을 뒷받침하는 내용이 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005613 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 실제 IE·뇌 색전 케이스에 Shigella 장출혈/신생물성 IE를 삽입한 오연결 해설 교체.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

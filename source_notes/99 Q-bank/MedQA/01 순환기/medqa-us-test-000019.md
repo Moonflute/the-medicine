@@ -23,13 +23,15 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,6 +51,13 @@ D. 심낭절제술
 
 
 흉통이 누울 때 악화되고 전방 굴곡 시 마찰음이 들리는 것은 급성 심낭염(심낭염)이다. 초기 치료는 비스테로이드성 소염제와 콜히친을 병용하면 증상이 빠르게 완화된다. 따라서 최적의 치료는 이부프로펜 + 콜히친이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 흉통의 자세·호흡 연관성과 심낭 마찰음이 심낭염을 지지하며 B NSAID+colchicine이 적합. 누락 ECG에 없는 소견을 추가하지 않음.
+- https://academic.oup.com/eurheartj/article/46/40/3952/8234483
 
 ## 출처
 

@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 심근염
 
 ## 해설
 
+운동 후 CK 상승과 짙은 소변, dipstick heme 양성이지만 적혈구가 없는 소견은 횡문근융해의 myoglobinuria에 맞는다. 근육손상은 체액 소실·신장 혈관수축·색소 독성 및 세뇨관 폐쇄 등을 통해 AKI(A) 위험을 높인다. 이를 적혈구성 혈뇨로 표현해서는 안 된다. 구획증후군 등 다른 합병증도 임상적으로 감시한다.
 
-격렬한 운동 후 CK 22,000 U/L와 혈뇨(적혈구 없음)는 근육 파괴와 미오글로빈 배출을 의미한다. 미오글로빈은 신장에서 직접 신독성을 일으켜 급성 신손상의 위험을 크게 증가시킨다. 따라서 정답은 급성 신손상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Dipstick blood 양성이지만 RBC 음성인 것을 진성 혈뇨로 명명한 오류 교정.
 
 ## 출처
 

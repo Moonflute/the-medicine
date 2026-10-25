@@ -20,15 +20,17 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 디지털 감산 혈관조영술
 
 ## 해설
 
+급작스러운 통증, 맥박 감소, 냉감과 신경학적 이상은 급성 사지 허혈을 시사한다. 불규칙 맥박을 동반하므로 심방세동 관련 심장성 색전이 의심되며, A의 심초음파가 심장 내 색전 원천 평가에 도움이 된다. 다만 사지 생존이 위협받을 수 있으므로 항응고와 긴급 혈관외과 평가·재관류를 심초음파 때문에 지연해서는 안 된다.
 
-급성 하지 허혈의 원인은 종종 심장 내 혈전(예: 심방세동)에서 유래한 색전이다. 색전의 원천을 확인하려면 심초음파(특히 트랜스식도)로 심내 혈전 여부를 평가하는 것이 가장 유용하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 색전 원천 확인용 심초음파 A와 즉시 필요한 급성 사지허혈 치료를 구별.
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

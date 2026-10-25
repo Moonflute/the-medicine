@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 바이러스성 위장염
 
 ## 해설
 
+반복 구토와 뜨거운 샤워로의 호전은 cannabinoid hyperemesis syndrome을 시사하며 관련 요인은 marijuana 사용(B)이다. 일반적인 cyclic vomiting syndrome과 완전히 같은 병명은 아니다. 실제 진단에서는 장기간 대마 사용과 중단 후 경과를 확인하고 다른 급성 구토 원인도 배제한다.
 
-대마초(마리화나) 사용은 구토와 온수 샤워 시 증상 완화가 특징인 사이클릭 구토 증후군을 유발한다. 따라서 가장 가능성 높은 진단과 관련된 요인은 ‘마리화나 사용’이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CHS와 일반 cyclic vomiting syndrome을 동의어로 설명한 오류 교정.
 
 ## 출처
 

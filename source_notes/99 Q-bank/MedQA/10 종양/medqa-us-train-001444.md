@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 고장성 식염수
 ## 해설
 
 
-심한 저나트륨혈증(115 mEq/L)으로 의식 저하와 경련이 나타난 경우, 혈청 삼투압을 빠르게 올려야 한다. 고장성 식염수(3% NaCl) 정맥주입이 가장 급성 치료이다. 따라서 고장성 식염수 투여가 우선이다.
+경련을 동반한 심한 저나트륨혈증은 고장성 식염수(D)를 이용한 응급 교정이 필요하다. 목표는 즉시 정상화가 아니라 우선 위험한 뇌부종을 줄이는 제한적 상승이며 혈청 나트륨을 자주 확인해 과교정과 삼투성 탈수초를 피한다. 안정화 후 SIADH 등 원인을 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001444`와 직접 대조했다.
+- 판정: 경련을 동반한 심한 저나트륨혈증에서 D 유지. 무제한으로 빠르게 정상화하는 해석을 막고 증상 개선까지 부분 교정·과교정 방지 명시.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.endocrinology.org/media/xhrhxhxm/emergency-management-of-severe-and-moderately-severely-symptomatic-hyponatraemia-in-adult-patients-2022.pdf
 
 ## 출처
 

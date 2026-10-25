@@ -21,15 +21,17 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 날록손 투여 후 의식 호전
 
 ## 해설
 
+수술 후 저혈압·차갑고 축축한 피부·JVD·폐수포음·새 심첨부 잡음은 급성 심장성 쇼크/허혈과 급성 MR 가능성을 시사한다. 선택지 중 새 LBBB A가 이에 동반될 수 있다. 그러나 LBBB가 급성 MI의 필수적이거나 가장 흔한 ECG 소견은 아니고 단독으로 STEMI를 확진하지도 않는다. 실제로 ECG·연속 troponin·심초음파로 평가하며 축동만으로 opioid 호흡억제를 단정하지 않는다.
 
-수술 후 저혈압, 저산소증, 청색증, 새로운 심음은 급성 심근경색을 의심하게 하며, ECG에서 좌측 전도 차단이 흔히 나타난다. 따라서 새로운 좌각 차단이 가장 가능성 높은 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 쇼크·폐울혈·새 MR 잡음은 심장성 원인; new LBBB A가 선택지상 가능하나 흔함/단독 MI 확진으로 설명하지 않음.
+- https://www.ahajournals.org/hyp/doi/pdf/10.1161/CIR.0000000000001309
 
 ## 출처
 

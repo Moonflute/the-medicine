@@ -19,19 +19,24 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
 question_type: mechanism
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
+curation_status: "revised"
+curation_reason: "109,000인 혈소판을 정상이라고 바꾼 해설을 실제 수치에 맞춰 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -49,10 +54,19 @@ D. 트롬보포이에틴 생성 장애
 
 ## 해설
 
-
-만성 신부전 환자에서 혈소판 수는 정상이나 출혈 경향이 있는 원인은 혈소판 응집 기능 장애(uremic platelet dysfunction)이다. 이는 혈소판 수치와 PT/aPTT는 정상인 경우와 일치한다. 따라서 혈소판 응집 기능 장애가 가장 가능성 높은 원인이다.
+진행한 신부전과 요독 증상에서 혈소판 부착·응집 기능 장애가 출혈 경향을 설명한다. 이 환자의 혈소판은 109,000/mm³로 정상은 아니지만 응고 시간은 뚜렷하게 연장되지 않았다. 요독성 기능 장애와 수적 감소를 구분하며 흑색변 자체의 출혈 원인·중증도 평가도 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006010
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 109,000인 혈소판을 정상이라고 바꾼 해설을 실제 수치에 맞춰 교정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

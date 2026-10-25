@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 환기-관류 스캔
 
 ## 해설
 
+장거리 이동 후 급성 호흡곤란·빈맥과 저산소증은 PE를 의심하게 한다. AKI로 조영제 위험을 검토해야 하고 흉부 X선이 정상인 점에서 V/Q scan(D)이 적절한 대안이다. 항상 CTPA보다 빠르거나 민감하다는 뜻은 아니다. 신기능·임상 사전확률·검사 가용성과 결과의 진단 가능성을 종합하며 비진단적 결과는 추가 평가가 필요하다.
 
-급성 호흡곤란, 심박수 증가, 신장 기능 악화는 폐색전증을 의심하게 하며, 확진을 위해 폐환기‑관류(V/Q) 스캔이 가장 민감하고 신속한 검사이다. 따라서 V/Q 스캔이 적절한 검사가 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 신장기능 악화에서 V/Q D 선택 근거를 보완하고 항상 가장 민감/신속하다는 과장 제거.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 
 ## 출처
 

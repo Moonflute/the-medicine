@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 뇌 MRI(MRI brain)
 
 ## 해설
 
+갑작스러운 구음장애·편측 위약과 안면 비대칭은 급성 뇌졸중을 의심하게 한다. 먼저 비조영 두부 CT(B)로 두개내출혈 등을 평가하고 재관류치료 적격성을 판단한다. 초기 허혈성 뇌졸중은 CT가 정상일 수 있으므로 정상 CT만으로 뇌졸중을 배제하지 않는다. 대혈관폐색 의심 시 CTA 등 혈관영상이 추가되며 출혈 확인 전 aspirin을 먼저 투여하지 않는다.
 
-급성 신경학적 증상(발음 장애, 안면 비대칭, 편측 약화)이 나타난 경우, 뇌혈관 사고를 배제하기 위해 즉시 비대조 CT가 필요하다. CT는 빠른 영상으로 출혈이나 급성 경색을 확인한다. 따라서 뇌 CT가 가장 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 비조영 CT B를 뇌혈관사고 배제 검사라고 한 표현과 초기 CT가 급성 경색을 항상 확인한다는 과장을 교정한다.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/acute-stroke-management/triage-and-initial-diagnostic-evaluation-of-transient-ischemic-attack-and-non-disabling-stroke
 
 ## 출처
 

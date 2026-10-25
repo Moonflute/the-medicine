@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 인종(Ancestry)
 ## 해설
 
 
-흡연은 골밀도 감소와 골절 위험을 크게 높이는 가장 강력한 위험인자이다.
+이미 척추 취약골절이 있는 환자에서 제시된 병력 중 흡연(C)이 골소실·골절 위험을 높이는 요인이다. 55세 폐경은 조기폐경이 아니고 체중부하 운동은 보통 골건강에 유익하며 나머지 선지보다 흡연력이 적절하다. 흡연이 고령·기존 골절 등 모든 위험인자보다 항상 가장 강하다는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006938 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 흡연이 제시된 선지 중 위험인자라는 범위를 모든 골절 위험인자 중 최강이라는 일반화와 구분했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

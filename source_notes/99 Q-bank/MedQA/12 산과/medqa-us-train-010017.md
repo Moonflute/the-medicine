@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 경구 포도당부하검사
 
 ## 해설
 
+비만·고령·거대아 출산력은 임신 전부터 있던 미진단 당뇨의 조기 평가 필요성을 높인다. 선택지 중 포도당 검사(D)가 적절하나 임신5주에 통상24–28주 GDM 기준을 그대로 적용하는 의미는 아니다. 표준 당뇨 진단 검사로 조기 평가하고 음성이어도24–28주 다시 선별한다. 임신1–2주라는 특정 창은 근거가 없다.
 
-임신 초기에 비만·거대아 출산력은 임신성 당뇨 위험을 높인다. 조기 포도당 선별 검사는 24–28주에 시행하지만 고위험인 경우 1‑2주에 조기 검사가 필요하다. 따라서 경구 포도당부하검사가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신1–2주 검사라는 창작 삭제 및 초기 미진단 당뇨 평가와 통상 GDM선별 구분.
+- https://doi.org/10.2337/dc26-s002
 
 ## 출처
 

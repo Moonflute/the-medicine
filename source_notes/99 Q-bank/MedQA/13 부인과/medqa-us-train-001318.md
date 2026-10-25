@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 장액성 낭선종
 
 ## 해설
 
+청소년의 고형 난소 종괴에 AFP와 β-hCG가 함께 상승한 소견은 악성 생식세포종양을 지지하며, 제시된 선택지에서는 배아암종(B)이 가장 적합하다. 난소 생식세포종양에서는 이 표지자들을 평가한다. 황체 낭종이나 장액성 낭선종은 이러한 두 표지자의 종양성 동시 상승을 설명하지 못하고, Krukenberg 종양은 보통 위장관 원발암의 난소 전이이다. 두부 외상이나 폐색전증에 관한 기존 해설은 이 사례와 무관하다.
 
-두부 외상 후 급성 저혈압, 저산소증, 심전도에서 P파 소실은 심방세동 환자에서 대량 혈액 손실(실혈)보다 폐색전증이 더 흔다. 실혈은 외상 부위에서 출혈이 명확히 보이며, 뇌탈출은 신경학적 악화가 동반된다. 따라서 폐색전증이 가장 가능성 높은 기전이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq
+- https://www.cancer.gov/types/ovarian/patient/ovarian-germ-cell-treatment-pdq
 
 ## 출처
 

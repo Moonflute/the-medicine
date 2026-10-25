@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. HbA2 상승
 ## 해설
 
 
-α‑글로빈 유전자 3개 결실은 Hb Barts(γ₄) 양이 증가하는 Hb H 질환을 일으키며, 이는 혈액 검사에서 Hb Barts 농도 상승으로 확인된다.
+α-globin 유전자 3개 결실은 HbH 질환을 일으킨다. 태아·신생아기에는 남는 γ사슬이 γ4 tetramer인 Hb Bart를 만들어 C처럼 증가할 수 있다. 출생 후 γ에서 β 사슬 생성으로 전환되면 β4 tetramer인 HbH가 특징적으로 나타난다. 모든 시기의 HbH 질환을 단지 Hb Bart 증가로만 설명하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003430 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 3개 α-globin 유전자 결실의 신생아 Hb Bart와 이후 HbH를 연령에 맞게 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

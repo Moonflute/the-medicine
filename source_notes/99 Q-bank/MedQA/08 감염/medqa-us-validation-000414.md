@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 바실루스 세레우스
 
 
 갑작스러운 물 같은 설사와 구토가 1~2일간 지속된 경우, 성인에서 가장 흔한 원인은 노로바이러스 감염이다. 노로바이러스는 식품 매개·집단 감염을 일으키며 자가 제한적 경과를 보인다. 따라서 노로바이러스가 가장 가능성 높은 원인균이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000414 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 성인 급성 구토·수양성 설사와 외식 후 약48시간의 경과는 norovirus B가 선택지 중 가장 부합. 즉시 독소성 B.cereus 및 해산물 V.vulnificus와 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

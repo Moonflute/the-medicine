@@ -16,36 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "정상호흡·무호흡의 고정 초 단위 나열 대신 호흡조절 미숙으로 인한 짧은 휴지기 반복을 설명."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-미숙아 주기성 호흡의 정의는?
+미숙아의 주기성 호흡(periodic breathing)을 설명하는 것은?
 
 ## 선택지
 
-A. 5~10초 정상 호흡 후 10~15초 호흡 정지 반복
-B. 지속적인 저호흡과 저산소증
-C. 30초 이상 무호흡이 반복되는 형태
-D. 호흡수 급증과 호흡곤란 동반
+A. 짧은 호흡 휴지기와 자발 호흡이 반복되는 불규칙한 패턴
+B. 모든 호흡 휴지기는 반드시 20초 이상 지속됨
+C. 지속적인 호흡 노력 없이 호흡이 완전히 멈춘 상태만 뜻함
+D. 호흡 패턴과 무관하게 모든 청색증을 뜻함
 
 ## 해설
 
-주기성 호흡은 정상 호흡 5~10초 뒤 10~15초 정도의 짧은 무호흡(또는 빈호흡)이 주기적으로 반복되는 패턴이다.
+주기성 호흡은 미숙한 호흡조절과 관련하여 짧은 호흡 휴지기와 자발 호흡이 반복되는 패턴이다. 20초 이상 호흡 정지 또는 더 짧더라도 서맥·저산소증 등 유의한 변화가 동반되는 무호흡과 구분하여 평가한다. 산소화 변화를 전혀 동반할 수 없다는 뜻은 아니다.
 
 ## 오답 포인트
 
-- **B. 지속적인 저호흡과 저산소증:** 지속적인 저호흡은 주기성 호흡이 아니라 호흡 부전이다.
+- **반드시 20초 이상:** 주기성 호흡의 짧은 휴지기와 임상적으로 유의한 무호흡을 혼동한 것이다.
+- **지속적인 호흡 정지·모든 청색증:** 반복되는 호흡 패턴의 정의가 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 미숙아 주기성 호흡 (Periodic Breathing of Prematurity)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/미숙아 주기성 호흡 (Periodic Breathing of Prematurity).md`
-- 학습 목표: 원문 핵심: - **정의**: 미숙아에서 나타나는 불규칙한 호흡 패턴으로, 5~10초간의 정상 호흡 후 10~15초간의 짧은 호흡 정지(또는 빈호흡)가 반복되는 양상을 보임 - **원인**: 미숙한 호흡 중추 조절 기능 및 호흡기계의 미성숙 - **기전**: 호흡 중추의 미성숙으로 인해 호흡 리듬 조절이 불안정하여 발생
+- 학습 목표: 주기성 호흡의 짧은 호흡 휴지기 반복과 유의한 무호흡을 구분한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 정상호흡·무호흡의 고정 초 단위 나열 대신 호흡조절 미숙으로 인한 짧은 휴지기 반복을 설명.
+- 근거: https://publications.aap.org/pediatrics/article/137/1/e20153757/52845/Apnea-of-Prematurity

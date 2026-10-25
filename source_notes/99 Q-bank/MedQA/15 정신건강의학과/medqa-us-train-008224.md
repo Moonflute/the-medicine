@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 반사회성 인격장애
 
 ## 해설
 
-
-반사회적 행동(동물 학대, 절도, 방화)과 지속적인 규칙 위반이 12개월 이상 나타난 경우 품행장애로 진단한다. 이는 반사회성 인격장애보다 연령이 낮은 아동기에 해당한다. 따라서 정답은 품행장애이다.
+동물 학대·절도·방화 등 타인의 권리와 중대한 규범을 침해하는 행동은 품행장애에 부합한다. 진단은 지난 12개월 동안 적어도 세 기준, 그중 적어도 한 기준이 지난 6개월에 존재하는지 등을 확인하며, 모든 행동이 12개월 내내 지속돼야 한다는 뜻은 아니다. 15세이므로 성인 반사회성 인격장애로 진단하지 않고, 단순한 언쟁·반항보다 심각한 권리 침해 행동이 핵심이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008224
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 품행장애 증상이 반드시 12개월 이상 계속돼야 한다는 오류를 지난12개월의3기준·지난6개월1기준으로 교정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://publications.aap.org/pediatrics/article/155/6/e2024069880/201805/Reconsidering-the-Diagnosis-of-Conduct-Disorder-to

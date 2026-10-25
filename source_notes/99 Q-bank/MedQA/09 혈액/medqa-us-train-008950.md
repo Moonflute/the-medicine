@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 약물 이상반응
 ## 해설
 
 
-겸상 적혈구병 환자의 급성 빈혈은 파보바이러스 B19 감염에 의한 적혈구 파괴가 원인이다. 바이러스 감염이 가장 흔한 원인이다.
+바이러스 전구증상 후 갑자기 악화된 빈혈과 매우 낮은 망상적혈구 수는 parvovirus B19에 의한 일시적 무형성 위기(C)를 시사한다. B19가 적혈구 전구세포를 감염시켜 적혈구 생산을 억제하는 것이 핵심이다. 평소 용혈 때문에 적혈구 수명이 짧은 SCD 환자에서는 생산 중단만으로도 심한 빈혈이 생긴다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008950 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: SCD에서 급격한 빈혈과 망상적혈구 0.2%는 B19 일시적 무형성 위기 C. 적혈구 파괴가 주기전이라는 설명을 생산 억제로 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

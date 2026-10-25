@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "연골막과 연골 사이 혈종이라는 독립 해부 개념 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 고막이 파열되는 것
 
 - 내부 학습 노트: 이개혈종 (Otohematoma)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/이개혈종 (Otohematoma).md`
-- 학습 목표: 원문 핵심: - **정의**: 외상으로 인해 귓바퀴(auricle)의 연골과 연골막 사이에 혈종이 고이는 것 - **원인**: 운동 (복싱, 레슬링, 럭비 등), 둔상 - **기전**: 외상으로 연골막이 연골로부터 분리되면서 혈관이 손상되어 혈종 형성. 연골막이 연골에 재부착되지 않으면 연골 괴사 및 변형(꽃양배추 귀, cauliflower ear) 발생
+- 학습 목표: 이개혈종의 해부학적 위치
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 연골막과 연골 사이 혈종이라는 독립 해부 개념 유지.

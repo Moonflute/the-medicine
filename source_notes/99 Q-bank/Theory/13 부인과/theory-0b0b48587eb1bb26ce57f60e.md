@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "자궁근종군에서 기본 골반 초음파의 역할을 설명하는 쉬운 독립 복습을 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 복부 X‑ray
 
 - 내부 학습 노트: 자궁 근종 (Uterine Leiomyoma)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁 근종 (Uterine Leiomyoma).md`
-- 학습 목표: 원문 핵심: - Pelvic US: 일차적 진단 도구. 경계가 명확한 저에코성(hypoechoic) 종괴 및 음향 음영(acoustic shadowing) 관찰 - Saline infusion sonohysterography (SIS): 자궁강 내 병변(점막하 근종 등) 평가에 유용 - MRI: 수술 전 위치 및 크기 평가, 병변의 범위 확인 시 시행 - 자궁경: 자궁강 내 돌출된 근종의 진단 및 치료
+- 학습 목표: 자궁근종의 크기와 위치 평가에 골반 초음파를 이용함을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 자궁근종군에서 기본 골반 초음파의 역할을 설명하는 쉬운 독립 복습을 유지.

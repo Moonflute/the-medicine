@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 흡연력
 ## 해설
 
 
-트랜스아미나제 상승은 간 손상을 시사하므로 알코올, 약물, 바이러스 등 모든 위험 요인을 확인해야 한다. 흡연은 간 효소에 직접적인 영향을 주지 않으므로 제외하고, 나머지 항목(정맥 약물, 해외 여행, 성생활)은 모두 간 질환 위험 요인이 될 수 있다. 따라서 흡연력만 제외하면 된다.
+정맥 약물·국제여행·성접촉은 바이러스성 간염 노출을 평가하는 직접적인 단서여서 선택지 중 상대적으로 관련성이 낮은 것은 흡연력(D)이다. 그렇다고 흡연이 간질환에 아무 영향도 없거나 일반 건강평가에서 흡연 병력을 생략한다는 뜻은 아니다. 음주·약물·대사질환 등 간효소 상승의 다른 원인도 확인해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008492 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 간염 노출력 중심 선택지에서 상대적으로 직접성이 낮은 smoking D 유지. 흡연이 간효소에 전혀 영향 없고 병력을 생략해도 된다는 과도한 단정 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

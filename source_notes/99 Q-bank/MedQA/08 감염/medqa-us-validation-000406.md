@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 혈청검사
 ## 해설
 
 
-보츠와나 여행 후 발열, 황달, 빈혈·혈소판감소증, 급성 신부전이 동반된 용혈성 마라리아 감염이 의심된다. 혈액 도말검사는 말라리아 감염을 1시간 이내에 확인할 수 있는 가장 빠른 검사이다. 따라서 혈액도말검사가 다음 단계이다.
+보츠와나 여행 후 발열·빈혈·혈소판감소와 혈색소뇨를 시사하는 소변 blood 양성/적혈구 부족은 말라리아를 의심하게 한다. 즉시 후층·박층 혈액도말(C)을 시행하여 기생충·종·기생충혈증을 확인한다. 더 빠르게 가능하면 신속검사를 병행하되 도말도 필요하다. 원문 크레아티닌은 0.9mg/dL로 급성 신부전이 입증된 것은 아니다. 초기 도말 음성이라도 의심이 높으면 반복 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000406 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 여행 후 발열·혈관내 용혈에서 말라리아 긴급 후·박층 도말 C 유지. 원문 Cr0.9인데 신부전이라고 덧붙인 오류와 1시간 보장/무조건 가장 빠른 검사 단정 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/malaria/hcp/clinical-guidance/evaluation-and-diagnosis.html
 
 ## 출처
 

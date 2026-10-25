@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 복부 및 골반 CT
 
 ## 해설
 
+고형 전립선 결절과 PSA 상승은 전립선암의 조직학적 평가를 고려할 근거여서 네 선지 중 C가 가장 적절하다. PSA만 추적하며 1년 기다리거나 방광경·복부 CT로 확진하려는 것은 맞지 않는다. 다만 실제 진료에서는 생검 전 전립선 MRI와 위험도 평가를 시행하고 표적·체계적 채취 및 경회음부/경직장 경로를 계획한다. EAU는 장기 내 국한 의심에서 MRI 선행을 권고하며 AUA는 초기 생검 전 MRI를 선택적으로 사용할 수 있고 두 생검 경로를 허용하므로, 이 선지는 모든 진료 환경의 전체 검사 순서를 뜻하지 않는다.
 
-PSA가 6.5 ng/mL이고 직장수지검사에서 고형 결절이 촉진되면 전립선암을 의심하고, 정확한 조직 진단을 위해 경직장 초음파 유도 전립선 생검을 시행한다. 방광경검사는 방광 병변, PSA 재검은 추적, CT는 1차 진단이 아니다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 조직진단 C는 유지하되 MRI 전 평가와 생검 경로 선택의 현행 차이를 명시하여 무조건 즉시 TRUS만 해야 한다는 설명을 정리.
+- 공식/학회 근거: https://uroweb.org/guidelines/prostate-cancer/chapter/diagnostic-evaluation
+- 공식/학회 근거: https://www.auanet.org/documents/Guidelines/PDF/Early%20Detection%20Prostate%20Cancer/EDPC%20Unabridged%20FINAL.pdf
 
 ## 출처
 

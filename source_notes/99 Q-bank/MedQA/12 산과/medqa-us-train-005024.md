@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 비타민 K
 
 ## 해설
 
+반복 초기 유산, 생물학적 위양성 VDRL 및 연장된 aPTT는 항인지질증후군을 시사한다. 지속 aPL 양성 등 확인이 필요하며 선택지 중 LMWH(B)가 적절하다. 산과적 APS로 확인되면 일반적으로 저용량 아스피린과 예방 용량 헤파린을 병용한다. VDRL 양성만으로 매독 치료하거나 aPTT 연장을 출혈성 결핍으로 단정하지 않는다.
 
-반복 유산과 양성 항인지질 항체, 연장된 aPTT는 항인지질 증후군을 시사한다. 임신 중에는 혈전 예방을 위해 저분자량 헤파린이 권장된다. 따라서 저분자량 헤파린 투여가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: aPL 직접검사 양성은 본문에 없으며 APS 의심과 병합치료 범위를 구분.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.41191
 
 ## 출처
 

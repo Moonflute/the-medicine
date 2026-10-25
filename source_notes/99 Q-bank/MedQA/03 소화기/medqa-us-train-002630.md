@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 혈청 IgE 수치
 
 ## 해설
 
+유제품 섭취 뒤 복통·가스·수양성 설사는 유당불내증을 시사한다. 선택지 중 C의 유당 수소호흡검사는 흡수되지 않은 유당의 장내 발효를 이용해 흡수장애를 평가하며 검사 중 증상도 함께 해석한다. IgE 알레르기 검사와 다르다. 식이 제한 후 호전 여부도 진단에 도움이 되며 모든 상황에서 가장 민감·특이한 검사라고 일반화하지 않는다.
 
-유당 섭취 후 1~2시간 내에 발생하는 복통과 비혈성 설사는 유당불내증을 시사한다. 유당불내증은 장내 유당을 분해하는 락타아제 결핍으로 인해 발생하며, 진단에 수소 호흡검사가 가장 민감하고 특이하다. 따라서 다음 단계는 수소 호흡검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 유당 관련 증상의 수소호흡검사 C는 유지하되 가장 민감·특이하다는 과도한 단정 제거.
+- https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/diagnosis
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 안심시키고 관찰
 
 ## 해설
 
+무증상·정상 성장, 작은 수축기 잡음이 기립 시 줄어드는 것은 무해성 잡음을 지지해 안심·관찰(D)이 적절하다. 이완기·지속성·거친 큰 잡음, 증상, 비정상 맥박 등 경고 소견이 있으면 전문 평가가 필요하다. 모든 소아 잡음이 검사 없이 사라진다는 의미는 아니다.
 
-대부분의 소아 심잡음은 무해하며, 성장과 함께 사라진다. 추가 검사는 필요 없으며 안심시키고 관찰한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모든 소아 잡음의 검사 불필요가 아니라 이 사례의 양성 특징에 한정.
+- https://www.heart.org/en/health-topics/heart-murmurs
 
 ## 출처
 

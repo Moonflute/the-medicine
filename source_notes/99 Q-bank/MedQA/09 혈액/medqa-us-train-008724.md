@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,12 @@ D. 비타민 B12 결핍
 
 
 유전구형적혈구증은 적혈구가 구형으로 변하고 비장비대와 황달을 동반한다. 삼투 취약성 검사 상승은 구형 적혈구의 세포막 결함을 반영한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008724 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 가족력·MCHC 증가·DAT 음성 용혈은 유전구형적혈구증이며 삼투취약성 증가 A와 일치. 사진 없이도 본문에 핵심 진단 단서가 명시되어 있다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

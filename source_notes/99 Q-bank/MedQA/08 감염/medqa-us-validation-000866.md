@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 베르니케 뇌병증
 ## 해설
 
 
-손목을 펴려 할 때 날개짓 떨림은 비타민 B1 결핍에 의한 베르니케 증후군의 특징적인 안구진동이다. 포도당 투여 후 급성 위성신경증(시각장애·수평 안진·보행 불안정)이 나타나는 것은 티아민 결핍이 악화된 결과이다. 따라서 가장 가능성 높은 진단은 베르니케 뇌병증이다.
+혼란에 새 안진·보행실조가 동반되어 Wernicke 뇌병증(D)을 시사한다. 영양결핍 위험 환자에서는 포도당 공급으로 thiamine 요구량이 증가하며 기존 결핍이 드러나거나 악화될 수 있다. 손목의 asterixis는 안진이 아니고 간성뇌증 등 대사성 질환에서도 나타나는 비특이 소견이다. 두 뇌병증이 함께 있을 수도 있지만 새 안구·보행 증상을 설명하는 정답은 D이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000866 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 포도당 뒤 안진·보행실조·혼란의 Wernicke D 유지. Asterixis를 안구진동/특이 B1 결핍 소견으로 잘못 설명한 부분 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

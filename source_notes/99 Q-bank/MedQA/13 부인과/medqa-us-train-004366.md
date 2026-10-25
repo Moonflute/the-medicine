@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 세프트리악손
 
 ## 해설
 
+제왕절개 후 발열·자궁 압통·화농성 오로는 산후 자궁내막염을 시사한다. 클린다마이신과 겐타마이신 정주 병합(C)은 혐기성균과 호기성 그람음성균을 포함한 다균성 감염을 치료한다. 소변 증상도 평가하되 자궁내막염 치료를 지연하지 않는다.
 
-제왕절개 후 화농성 질환과 고열, 자궁 압통은 자궁내막 감염을 의미한다. 광범위 그람음성균에 효과적인 클린다마이신·겐타마이신 조합이 1차 치료로 권장된다. 따라서 클린다마이신과 겐타마이신이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 제왕절개 후 자궁내막염의 클린다마이신·겐타마이신 C 유지. 조합의 혐기성균·다균성 범위를 명시.
+- https://www.ncbi.nlm.nih.gov/books/NBK615643/table/part2.tab65/
 
 ## 출처
 

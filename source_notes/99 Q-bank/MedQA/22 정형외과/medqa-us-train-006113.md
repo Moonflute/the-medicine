@@ -20,22 +20,24 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTmFmY2lsbGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-6세 남아가 2주 동안 지속된 발열과 우측 허벅지 통증으로 내원했으며 절뚝거린다. 축구 연습 중 다쳤을 가능성이 있다고 어머니는 생각한다. 발진이나 관절통은 없고 누나는 전신홍반루푸스가 있다. 예방접종은 최신 상태이다. 체온은 39°C(102.2°F), 맥박은 분당 100회, 호흡수는 분당 18회, 혈압은 110/70 mmHg이다. 우측 상부 허벅지에 부종, 압통, 열감 및 경한 발적이 있고 통증으로 운동범위가 제한된다. 우측으로 절뚝거리며 백혈구 12,300/mm³, ESR 40mm/h이다. 고관절과 하지 X선은 정상이나 우측 하지 MRI에서 대퇴골의 T2 고신호, T1 저신호, 골막 거상, 대퇴골 간부의 다발성 골용해 병변 및 골수부종이 보인다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+6세 남아가 2주 동안 지속된 발열과 우측 허벅지 통증으로 내원했으며 절뚝거린다. 축구 연습 중 다쳤을 가능성이 있다고 어머니는 생각한다. 발진이나 관절통은 없고 누나는 전신홍반루푸스가 있다. 예방접종은 최신 상태이다. 체온은 39°C(102.2°F), 맥박은 분당 100회, 호흡수는 분당 18회, 혈압은 110/70 mmHg이다. 우측 상부 허벅지에 부종, 압통, 열감 및 경한 발적이 있고 통증으로 운동범위가 제한된다. 우측으로 절뚝거리며 백혈구 12,300/mm³, ESR 40mm/h이다. 고관절과 하지 X선은 정상이나 우측 하지 MRI에서 대퇴골의 T2 고신호, T1 저신호, 골막 거상, 대퇴골 골간단의 다발성 골용해 병변 및 골수부종이 보인다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
 
 ## 선택지
 
@@ -46,8 +48,12 @@ D. 우측 대퇴골 골생검
 
 ## 해설
 
+발열, 국소 열감·압통, 염증수치 상승 및 MRI의 골간단 골수부종·골막 거상은 급성 혈행성 골수염을 시사한다. 생검 또는 흡인으로 배양·조직 검체를 얻는 D는 원인 확인을 위한 적절한 선택이다. 항생제 전 혈액배양도 필요하다. 다만 전신상태가 나쁘거나 빠르게 진행하면 검체 채취 때문에 항생제를 지연하지 않아야 한다. 안정하여 검체를 먼저 얻는 경우에도 면밀히 관찰하며 제한적으로만 지연한다. 정상 초기 X선은 골수염을 배제하지 않는다.
 
-MRI에서 다발성 골용해 병변과 골수부종이 보이는 경우, 골수염을 확진하기 위해 골생검이 필요하다. 핵의학 스캔은 감염 여부를 추정하지만 조직학적 확인이 가장 확실하다. 따라서 골생검이 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 영문 metaphysis를 간부로 옮긴 위치 오류를 골간단으로 교정하고 골생검은 모든 환자에서 치료보다 먼저 필수라는 해설을 제한했다.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/bone-and-joint-infections---osteomyelitis/
 
 ## 출처
 

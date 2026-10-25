@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. Rh-D 면역글로불린
 
 ## 해설
 
+임신 중 인플루엔자 예방에는 불활성화 또는 재조합 주사용 백신(A)을 임신 어느 시기에도 투여할 수 있다. 비강 생약독화 인플루엔자 백신은 임신 중 금기이다. MMR은 출산 후 접종하며 RhIG 정기 예방은 통상 28주에 시행하고 별도 감작 사건이 있으면 추가 고려한다.
 
-임신 중 인플루엔자 감염은 태아와 산모 모두에 위험하므로, 살아있는 바이러스 백신인 인플루엔자 예방접종이 권장된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 중 권장 인플루엔자 백신을 생백신으로 설명한 안전성 오류 수정.
+- https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/
 
 ## 출처
 

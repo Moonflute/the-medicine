@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 급성 장간막 허혈
 ## 해설
 
 
-복부 외상 후 복부 내 출혈이 복강이 아닌 후복막에 고정되면 복부 팽만 없이 혈압 저하와 급성 빈혈이 나타난다. 복부 X‑ray에서 장 가스는 보존되며, 이는 후복막 출혈을 시사한다. 따라서 가장 가능성 있는 설명은 후복막 출혈이다.
+복부 외상 후 옆구리 통증·반상출혈과 빈혈, 오른쪽 요근 음영 소실은 후복막 혈종을 지지한다(C). 후복막 자극에 따른 마비성 장폐색은 장음 소실, 소장·대장·직장 전체의 균일한 가스와 팽만·구토를 설명한다. 장가스가 남아 있다는 사실만으로 후복막 출혈을 확진하는 것은 아니며, 본문에는 복부 팽만이 실제로 있으므로 없다고 설명해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000627 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문에 있는 복부 팽만을 부정하던 오류를 제거하고 후복막 출혈·마비성 장폐색의 실제 단서를 연결했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

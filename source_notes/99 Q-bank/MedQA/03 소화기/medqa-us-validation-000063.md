@@ -19,11 +19,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 겐타마이신
 ## 해설
 
 
-자발성 세균성 복막염에서는 즉시 경험적 항생제가 필요하며, 세포탁심은 광범위 그람음성균에 효과적인 1차 치료제이다. 다른 약물은 해당 상황에 적합하지 않다. 따라서 세포탁심 투여가 가장 적절하다.
+정답 B. 간경변 환자의 발열·복통·의식 변화와 복수 PMN 280/mm³는 SBP 치료 기준인 250/mm³ 이상에 해당한다. 배양 결과를 기다리지 않고 경험적 항생제를 투여한다. 선택지 중 cefotaxime이 적절하지만 원내/의료관련 감염과 내성 위험이면 지역 자료에 따라 더 넓은 요법을 선택할 수 있다. SAAG만으로 SBP를 진단하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000063 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복수 PMN 280≥250이므로 배양 결과 전 SBP 경험치료 B; 지역 내성/원내 감염 위험에 따른 선택 한계 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://aasldpubs.onlinelibrary.wiley.com/doi/full/10.1002/hep.31884
 
 ## 출처
 

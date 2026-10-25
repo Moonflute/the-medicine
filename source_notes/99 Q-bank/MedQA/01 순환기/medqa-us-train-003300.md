@@ -25,13 +25,15 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 정맥 레보플록사신 투여와 흉부 X선
 
 
 수술 후 급성 흉통과 땀, 불안이 나타났을 때 가장 위험한 합병증은 급성 관상동맥 증후군이며, 이를 확인하기 위해 ECG와 트로포닌 검사가 첫 번째 단계이다. 따라서 정답은 A이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: CAD/T1D 위험의 수술후 급성흉통·발한은 ACS 우선 배제; ECG+troponin A를 시행.
+- https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053
 
 ## 출처
 

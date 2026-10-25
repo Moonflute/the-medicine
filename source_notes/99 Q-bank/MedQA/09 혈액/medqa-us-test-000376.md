@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 와파린
 ## 해설
 
 
-겸상적혈구병 환자에서 급성 뇌혈관 사건이 발생하면 혈액 점도가 급격히 증가해 뇌허혈이 일어나기 쉽다. 교환수혈은 헤모글로빈을 빠르게 낮추고 점도를 감소시켜 허혈성 뇌졸중을 예방한다. 따라서 가장 적절한 치료는 교환수혈이다.
+SCD에서 급성 국소 신경결손이 생기면 응급 수혈을 시행하며 교환수혈(B)은 HbS 분율을 낮추면서 산소 운반과 점도를 조절한다. 총 헤모글로빈을 무조건 낮추는 치료가 아니다. 성인 뇌졸중의 혈전용해 적응증은 별도로 검토하되 수혈을 지연하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000376 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 교환수혈 B 유지. 총Hb를 낮추는 치료라는 오류를 HbS 분율 감소와 산소운반 개선으로 교정, 성인 tPA의 일률 배제 방지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7189278/
 
 ## 출처
 

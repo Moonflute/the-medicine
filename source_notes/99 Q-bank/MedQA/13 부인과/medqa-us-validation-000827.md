@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 페니실린 치료
 
 ## 해설
 
+다발성 통증성 얕은 외음부 궤양·발열·압통성 림프절은 생식기 헤르페스를 시사한다. 아시클로버(A)가 적절하며 병변 NAAT 등으로 확인하고 형을 구별할 수 있다. 임상 양상만으로 HSV-1과 HSV-2를 확정하지 않는다.
 
-다발성 외음부 궤양, 통증, 림프절 압통은 HSV‑2에 의한 생식기 포진의 전형적인 임상양상이다. 1차 치료는 항바이러스제인 아시클로버이다. 따라서 아시클로버 치료가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 초발 생식기 HSV의 아시클로버 A 유지. 임상 소견만으로 HSV2형을 확정한 단정 수정.
+- https://www.cdc.gov/std/treatment-guidelines/herpes.htm
 
 ## 출처
 

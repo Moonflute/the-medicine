@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 완전 유산
 
 ## 해설
 
+임신 15주에 질출혈이 있지만 자궁경부가 닫혀 있고 초음파에서 태아 심장활동이 확인되므로 선택지 중 절박유산(C)이 가장 적절하다. 진행 중인 불가피유산이나 이미 태아가 사망한 경우와 구분한다. 출혈이 곧 태아 사망을 뜻하지는 않는다. 원문의 침상 안정·활동 및 성관계 제한은 사례 서술이며, 일률적 침상 안정이 유산을 예방한다는 근거는 없으므로 이를 예방 효과가 입증된 표준 치료로 해석하지 않는다.
 
-임신 15주에 경미한 질 출혈과 자궁경부가 닫힌 상태에서 살아있는 태아가 존재하면, 출혈이 진행될 경우 태아 사망 위험이 높아 절박 유산으로 간주한다. 따라서 절박 유산이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 폐쇄된 자궁경부와 생존 태아가 있는 출혈의 절박유산 진단을 유지하고, 원문에 서술된 일률적 안정 처방을 유산 예방 근거로 오인하지 않도록 구분했다.
+- https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period
 
 ## 출처
 

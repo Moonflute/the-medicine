@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 5% 포도당 수액 정맥 투여
 
 ## 해설
 
+기면·탈수·재충만 지연은 유효순환혈액량 감소를 시사하여 초기 IV 0.9% saline(A)이 적절하다. 혈압 90/58만으로 저혈압을 확정하지 않는다. 순환 회복 후에는 나트륨과 수분 결핍을 반복 측정하며 서서히 교정한다. 저긴장성 수액이나 포도당수로 초기에 빠르게 나트륨을 낮추는 것은 뇌부종 위험이 있다. 원문 BUN의 mEq/L 표기는 통상 검사 단위와 맞지 않아 수치 해석에 주의한다.
 
-심한 탈수와 고나트륨혈증(Na⁺ 151)으로 혈관내 용적이 크게 감소했으며, 혈압이 낮고 모세혈관 재충전 시간이 3초로 연장돼 저혈량성 쇼크가 의심된다. 저혈량을 빠르게 보충하려면 등삼투성 수액인 0.9% 생리식염수가 가장 적절하다. 다른 저농도나 포도당 수액은 혈중 나트륨을 더 낮추어 악화시킬 수 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 저혈압을 단정하지 않고 관류 저하의 초기 등장액과 후속 고나트륨 교정 속도를 구별.
+- https://www.rch.org.au/clinicalguide/guideline_index/Hypernatraemia/
 
 ## 출처
 

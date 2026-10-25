@@ -17,18 +17,23 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA
+curation_status: "revised"
+curation_reason: "호산구성 요로염 오역과 호산구뇨를 흔한 확진 소견으로 과장한 해설 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -46,10 +51,20 @@ D. 반월체 모양 사구체외 세포 증식
 
 ## 해설
 
-
-PPIs와 라니티딘에 반응하지 않는 위식도역류 후 급성 신부전, 발진, 혈뇨가 동반된 경우 약물 유발 급성 알레르기성 간질관염을 의심한다. 이 경우 호산구성 요로염이 흔히 나타나며 소변에서 호산구 증가가 관찰된다. 따라서 가장 높은 확률의 소견은 소변 호산구 증가이다.
+Pantoprazole 시작 뒤 신기능 악화·발진은 약물 유발 급성 간질신염을 의심하게 한다. 선택지 중 호산구뇨가 연관될 수 있는 소견이지만 실제 민감도와 특이도는 낮고 PPI 관련 AIN에서 반드시 나타나지도 않는다. 소변 호산구만으로 진단하거나 음성이라고 배제하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006826
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 호산구성 요로염 오역과 호산구뇨를 흔한 확진 소견으로 과장한 해설 수정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://pubmed.ncbi.nlm.nih.gov/24052222/

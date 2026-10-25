@@ -21,11 +21,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,12 @@ D. 경동맥 이중초음파
 
 ## 해설
 
+일과성 단안 시력소실, 과거 반대쪽 안면마비/구음장애, 망막 색전 의심 소견과 경동맥 잡음은 경동맥 기원 허혈을 강하게 시사한다. 네 선지 중 D, 경동맥 이중초음파가 원인 협착을 평가하는 데 가장 적절하다. 다만 실제 TIA 평가에서는 긴급 뇌 영상과 두경부 혈관 영상, 심장 평가 등도 필요하며 CTA/MRA가 상황에 따라 우선될 수 있다. 시력이 돌아왔다는 이유로 단순 안심·정기 추적만 해서는 안 된다.
 
-안저에 보이는 창백한 반점은 망막 혈전 색전으로, 경동맥 협착이 원인일 가능성이 크다. 경동맥 이중초음파는 협착 정도와 플라크 특성을 비침습적으로 평가하는 최우선 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경동맥 duplex D는 유지하며 일과성 망막 허혈의 응급 뇌·혈관 평가를 해당 검사 하나로 축소하지 않도록 보완.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/acute-stroke-management/triage-and-initial-diagnostic-evaluation-of-transient-ischemic-attack-and-non-disabling-stroke
 
 ## 출처
 

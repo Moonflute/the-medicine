@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. II형과 III형이 혼합된 세포독성·면역복합체 과민반응
 ## 해설
 
 
-환자는 급성 용혈성 빈혈과 강한 혈색소 결합 항체에 의한 적혈구 파괴가 나타나며, 이는 항체가 적혈구 표면에 결합해 세포독성을 일으키는 II형 과민반응이다. 따라서 해당 상태는 세포독성(II형) 과민반응이다.
+빈혈·황달·비장비대와 감염 후 발생이라는 맥락에서 자가면역 용혈빈혈을 가정하면 적혈구 표면 항원에 대한 항체와 보체/대식세포 매개 제거는 II형 과민반응(B)에 해당한다. 항체가 혈색소 자체에 강하게 결합하는 기전이 아니다. 다만 본문에는 망상적혈구·haptoglobin·직접항글로불린검사 결과가 없으므로 실제 자가면역 용혈 확진이나 warm/cold 유형까지 결정하지 않는다. 심한 저산소혈증은 빈혈만으로 단순 설명하지 말고 별도 원인을 평가해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001639 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혈색소 결합 항체라는 잘못된 표적을 적혈구 표면 항원으로 교정하고 검사 미제시의 한계를 명시했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

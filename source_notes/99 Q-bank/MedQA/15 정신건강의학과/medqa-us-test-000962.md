@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,16 @@ D. 임신에 가장 안전한 발프로산으로 바꾼다
 
 ## 해설
 
-
-리튬은 임신 초기에 태아 심장관 형성에 위험을 주는 약물로, 용량을 낮추거나 중단이 필요하지만 급성 조증 재발을 방지하기 위해 완전 중단은 바람직하지 않다. 임신 중 리튬 용량을 최소 유지하면서 혈중 농도를 모니터링하면 태아 위험을 최소화할 수 있다. 따라서 임신 기간 동안 약물 용량을 조절하는 것이 가장 도움이 된다.
+중단 직후 조증이 재발한 병력이 있어 임신 계획 시 산과·정신과에서 태아 위험과 모체 재발 위험을 함께 평가해야 한다. 리튬을 계속 사용한다면 혈중농도·신기능·수분 상태와 임신/산후의 약동학 변화를 모니터링하여 치료 범위를 유지하도록 용량을 조절한다. 임신 내내 일률적으로 감량하거나 임의 중단한다는 뜻은 아니다. 제시된 선택지 중 임신 기간에 걸친 용량 조절이 적절하며 발프로산을 가장 안전한 약으로 바꾸거나 불필요한 병합요법을 선호하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000962
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 리튬을 임신 내내 무조건 감량한다는 인상을 교정. 재발 위험과 치료 범위 혈중농도·임신 중 약동학 변화에 따른 개별 조절로 설명.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg192/chapter/Recommendations

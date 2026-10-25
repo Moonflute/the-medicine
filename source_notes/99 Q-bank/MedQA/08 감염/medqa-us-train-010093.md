@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 노로바이러스에 의한 여행자 설사
 ## 해설
 
 
-운동성 원충과 난자 결여, 혈액·고름세포 부재는 Giardia lamblia 감염을 특징짓는다. 이는 오염된 물을 섭취한 후 발생하는 지방변·복부 팽만을 일으킨다. 따라서 정답은 A이다.
+처리하지 않은 개울물 노출, 악취 나는 지방변과 복부팽만은 Giardia 감염(A)을 지지한다. 현미경에서 운동성 영양형이 확인될 수 있다. Giardia는 원충이므로 연충의 알(ova)을 만들지 않지만, 알이 없다는 소견만으로 Giardia를 확진하거나 포낭이 없다고 결론내리지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010093 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 처리 안 된 물·지방변·팽만과 운동성 원충은 Giardia A. Ova 음성 자체를 Giardia의 특이 진단 근거로 오해하지 않도록 수정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

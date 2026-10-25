@@ -21,16 +21,18 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 금식, 정맥 수액, 혈청 리파아제 측정
 
 ## 해설
 
+갑작스러운 등방사 흉통과 고혈압·빈맥은 박리를 의심하게 하므로 선택지 B의 IV labetalol로 감시하에 anti-impulse 치료를 고려하고 신속한 영상/외과평가를 병행한다. 심박수 조절 전 nitroprusside 단독투여는 반사빈맥을 악화시킬 수 있다. 이 정보만으로 박리가 확진된 것은 아니며 관류를 유지하면서 조절한다.
 
-환자는 급성 대동맥 박리(특히 고혈압 위기)와 동반된 흉통을 보이며, 혈압이 매우 높고 S4음이 들린다. 베타 차단제는 혈압을 급격히 낮추어 박리 진행을 억제하고 심장 부하를 감소시킨다. 따라서 다음에 투여할 약물은 ‘라베타롤’이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Aortic dissection 의심의 labetalol B는 유지하되 진단확정/급격한무제한강하 주장을 교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106
 
 ## 출처
 

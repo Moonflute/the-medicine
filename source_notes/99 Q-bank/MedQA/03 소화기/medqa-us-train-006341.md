@@ -21,16 +21,18 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 크로모그라닌
 
 ## 해설
 
+피부색소·DM·관절병·울혈은 철과부하 가능성을 시사한다. 혈색소침착증의 진행간질환에서 HCC위험이 증가하며 제시 관련 종양표지자는 AFP A다. AFP는 모든 HCC에서 상승하지 않고 이 표지자 하나로 HCC를 확진하거나 철과부하를 진단하지 않는다.
 
-유전성 혈색소침착증은 간세포암 위험을 높이며, 알파태아단백은 간세포암에서 상승하는 종양표지자이다. 따라서 가장 관련이 높은 표지자는 알파태아단백이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 의심 철과부하-HCC-AFP A는 연결하되 AFP단독 진단·선별로 오용하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

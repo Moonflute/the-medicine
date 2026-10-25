@@ -19,13 +19,15 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 혈액형 검사 및 항체 선별
 
 ## 해설
 
+현재 활력징후가 안정되고 출혈이 멎었지만 상당한 빈혈이 있어 type and screen D로 수혈을 준비한다. 이후 Hb·증상·출혈/관류상태에 따라 수혈과 출혈원 평가를 시행한다. 생명을 위협하는 불안정 출혈에서는 교차시험 완료를 기다리지 않고 응급출고 혈액을 사용할 수 있으므로 검사가 모든 응급수혈의 선행조건이라는 뜻은 아니다.
 
-대량 혈변 후 급성 출혈성 빈혈이 발생했으며, 혈액형·항체 검사는 수혈 전 필수이다. 혈액형·항체 확인 없이 수혈하면 용혈성 반응 위험이 크다. 따라서 다음 단계는 혈액형 검사 및 항체 선별이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 안정화된 대량혈변/Hb7.1의 type&screen D 준비는 적절하나 응급수혈을 검사때문에 무조건 지연시키는 해설을 한정.
+- https://www.esge.com/assets/downloads/pdfs/guidelines/2026_a-2863-8314.pdf
 
 ## 출처
 

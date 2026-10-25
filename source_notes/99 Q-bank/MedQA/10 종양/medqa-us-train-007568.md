@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,6 +49,13 @@ D. 호르몬 수용체 상태
 
 
 유방암 예후에 가장 큰 영향을 미치는 요인은 림프절 전이 여부이다. 림프절 전이는 재발 위험과 생존율에 직접적인 영향을 미친다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007568 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 생검 확인된 액와림프절 미세전이는 제시 비교 중 주요 예후요인 B임을 현행 NCI와 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
 
 ## 출처
 

@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "여포암은 피막 또는 혈관 침범으로 악성을 판단한다는 핵심 병리 개념으로 유지. 두 침범이 모두 필수라는 중복 문항은 보류."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc1xd2tleurnzxlebunec2w2enrqnnpzbfprz0tgum9lwep2yvdrz1jtoxnir2xqzfd4agnpqkrzwepqyvc1dmjxrxbmbtfrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 갑상선 미세석회화
 
 ## 오답 포인트
 
-- **B. 림프절 전이:** 림프절 전이는 진단 기준이 아니라 전이 양상이다.
+- **림프절 전이:** 림프절 전이는 진단 기준이 아니라 전이 양상이다.
 
 ## 출처
 
 - 내부 학습 노트: 갑상샘 여포암 (Thyroid Follicular Carcinoma)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/갑상샘 여포암 (Thyroid Follicular Carcinoma).md`
 - 학습 목표: 원문 핵심: - **정의**: 갑상샘 여포 세포에서 기원하는 분화 갑상샘암의 일종으로, 피막 침범(capsular invasion) 또는 혈관 침범(vascular invasion)을 특징으로 하는 악성 종양 - **원인**: 방사선 노출, 요오드 섭취 불균형(결핍 또는 과잉), 하시모토 갑상샘염, 유전적 요인 등이 관련되어 있다. RAS 점 돌연변이 또는 PAX8-PPAR-gamma 재배열이 흔히 관찰된다. - **기전**: 여포 세포의 비정상적인 증식으로 발생하며, 유두암과 달리 림프절 전이보다는 혈행성 전이(폐, 뼈 등)가 더 흔하게 나타…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 여포암은 피막 또는 혈관 침범으로 악성을 판단한다는 핵심 병리 개념으로 유지. 두 침범이 모두 필수라는 중복 문항은 보류.

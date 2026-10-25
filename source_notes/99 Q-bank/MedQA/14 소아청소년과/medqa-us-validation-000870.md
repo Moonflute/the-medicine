@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 대동맥판 협착증
 
 ## 해설
 
+정맥성 잡음(B)은 경부 정맥의 생리적 혈류에 따른 연속성 잡음으로 자세·목 움직임이나 경정맥 압박에 따라 사라질 수 있다. 이 사례처럼 건강한 아동의 자세 의존 소견은 이를 지지하며 정맥류나 심장 기형을 의미하지 않는다.
 
-목을 굽히면 사라지는 저음 잡음은 정맥성 잡음으로, 흉골 상연에서 청진되는 경우 대정맥·상부 정맥류가 원인이다. 다른 선택지는 청진 소리와 위치가 일치하지 않는다. 따라서 가장 가능성 높은 진단은 정맥성 잡음이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정맥성 잡음을 정맥류의 병적 혈관 변화로 설명한 오류 교정.
+
 
 ## 출처
 

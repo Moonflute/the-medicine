@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 정맥 수액 시작
 
 ## 해설
 
+정답은 D, 정맥 수액 시작이다. 장시간 압궤, 매우 높은 CK, 짙은 소변 및 급성 크레아티닌 상승은 횡문근융해증에 의한 급성 신손상을 시사한다. 탈수와 신장 저관류를 교정하기 위해 결정질 수액을 시작하되, 이미 하루 소변량이 200 mL로 적으므로 관류·소변량·폐부종 등 수액과다 징후에 따라 투여량을 조절한다. 무뇨가 지속되는데 수액만 계속 증량하면 위험하다. 칼륨·심전도·산염기 상태를 확인하고 필요한 경우 신장 전문 평가와 신대체요법을 고려한다.
 
-장시간 압박에 의해 골격근이 파괴되어 CK가 급격히 상승하고, 근육에서 방출된 미오글로빈이 신장을 손상시켜 급성 신손상을 일으킨다(횡문근융해증). 초기 치료는 충분한 수액을 투여해 신장 관류를 유지하고 미오글로빈을 희석하는 것이 핵심이다. 따라서 정맥 수액 시작이 가장 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 압궤성 횡문근융해증의 IV 수액 D 유지. 이미 핍뇨성 AKI인 환자에 무조건 대량 수액이 아니라 목표지향 소생/수액과다·고칼륨 감시 필요 보완.
+- 공식/학회 근거: https://tsaco.bmj.com/content/7/1/e000836
 
 ## 출처
 

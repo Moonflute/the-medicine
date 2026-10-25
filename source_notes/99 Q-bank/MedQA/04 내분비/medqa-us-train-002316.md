@@ -20,16 +20,18 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 부갑상샘호르몬 유사체
 
 ## 해설
 
+안면홍조를 동반할 수 있는 raloxifene은 선택적 estrogen 수용체 조절제(SERM)이다. 뼈에서는 estrogen 유사 작용으로 골흡수를 줄이고, 자궁에서는 estrogen 길항 작용을 나타내므로 B이다. 자궁에서 estrogen을 차단하기 때문에 골밀도가 좋아진다는 기존 인과 설명은 잘못이다. 이 문항의 약물기전 판단과 실제 골감소증 환자의 치료 적응증·암 병력·혈전 위험 평가는 구분해야 한다.
 
-라록시펜은 선택적 에스트로겐 수용체 길항제로, 자궁에서 에스트로겐 작용을 차단해 골밀도 개선에 도움을 준다. 따라서 새로 시작한 약물은 에스트로겐 수용체 길항제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Raloxifene의 골밀도 개선은 뼈의 estrogen 작용제 효과이며 자궁 길항 효과 때문이 아님. B의 조직별 작용을 구분.
+- https://www.cancer.gov/about-cancer/treatment/drugs/raloxifenehydrochloride
 
 ## 출처
 

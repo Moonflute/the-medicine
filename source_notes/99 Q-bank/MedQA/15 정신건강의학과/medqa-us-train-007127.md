@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,15 @@ D. 플루옥세틴
 
 ## 해설
 
-
-월경 전 불쾌감 장애는 월경 전 1‑2주에 우울·과민·식욕 변화가 나타나며, SSRI인 플루옥세틴이 1차 치료이다. 인지행동치료는 보조적이며, 니코틴 회피·나프록센은 증상에 직접적 효과가 없다. 따라서 플루옥세틴이 가장 적절한 치료이다
+월경 전 시기에 반복되는 과민·집중 저하·식욕 변화와 기능장애는 월경전불쾌장애를 시사한다. 제시된 약물 중 SSRI인 플루옥세틴이 핵심 정서 증상을 치료하는 선택이다. 실제 진단은 전향적 증상 기록으로 월경주기 연관성과 다른 질환의 악화를 확인한다. CBT와 생활습관 관리도 도움이 될 수 있고 나프록센은 통증 등 신체 증상에 사용할 수 있으므로 모두 무효라고 설명하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007127
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 플루옥세틴 답 유지. CBT·금연·나프록센이 전혀 효과가 없다고 과도하게 배제한 해설 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

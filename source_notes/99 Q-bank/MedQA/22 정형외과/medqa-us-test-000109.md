@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 대퇴골두 수술적 핀 고정
 
 ## 해설
 
+비만 청소년의 고관절·서혜부·무릎 통증과 고관절 운동 제한은 대퇴골두 골단분리증(SCFE)을 강하게 시사한다. 체중부하가 불가능하면 불안정 SCFE를 의심하며 즉시 체중부하를 금하고 정형외과적 고정(D)을 시행할 평가가 필요하다. 병변은 성장판에서 골단과 골간단의 관계가 어긋나는 것으로, 골두가 골반에서 떨어져 나오는 탈구가 아니다. 혈류 손상과 무혈성 괴사는 가능한 합병증이다.
 
-청소년에서 급성 고관절 통증과 움직임 제한은 대퇴골두 골단분리(슬립)와 일치한다. 이 병변은 혈액 공급 차단으로 골두가 골반에서 분리될 위험이 있어, 조기에 고정이 필요하다. 따라서 가장 적절한 치료는 대퇴골두 수술적 핀 고정이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 비만 청소년의 체중부하 불가능 SCFE는 D를 유지하되 골두가 골반에서 분리된다는 잘못된 기전을 교정한다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/slipped-capital-femoral-epiphysis-scfe
 
 ## 출처
 

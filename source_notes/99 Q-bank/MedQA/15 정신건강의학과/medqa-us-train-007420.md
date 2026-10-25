@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 지속성 복합 애도장애
 
 ## 해설
 
+3년간 자주 지속되는 우울 증상과 최대 한 달의 무증상 간격은 지속성우울장애(A)를 지지한다. 반드시 경미한 증상만 있어야 하는 것은 아니며 만성 우울 경과에 더 심한 삽화가 겹칠 수도 있다. 어머니 사망보다 훨씬 전부터 이어진 경과이므로 단순 사별 반응으로 모두 설명하지 않는다.
 
-2년 이상 지속되는 경미한 우울 기분이 간헐적으로 나타나는 양상은 지속성 우울장애(기분저하증)와 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 지속성우울장애를 반드시 경미한 우울의 간헐 반복이라고 정의한 해설을 만성 경과와 짧은 무증상 간격으로 교정했다.
+
 
 ## 출처
 

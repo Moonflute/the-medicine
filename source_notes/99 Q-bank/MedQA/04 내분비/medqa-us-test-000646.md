@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 오르판 애니 핵
 
 
 수술 중 정맥 침범이 관찰된 갑상선 종양은 갑상선 여포암에서 혈관 침범이 흔히 나타난다. 혈관 침범은 종양의 진행성을 의미하므로 병리소견으로 가장 가능성 높은 것은 ‘피막 침범’이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 여포성 갑상샘 종양에서 혈관 침범과 피막 침범은 암의 핵심 병리 기준. B를 선택하고 유두암/림프종의 조직학과 구별.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

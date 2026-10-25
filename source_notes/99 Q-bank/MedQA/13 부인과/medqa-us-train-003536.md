@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 골반 초음파를 시행한다
 
 ## 해설
 
+저혈압·빈맥·창백과 무월경·부속기 압통은 파열 자궁외임신 등 복강내 출혈을 시사한다. 정맥로 확보와 등장성 수액 소생(A)을 시작하면서 임신검사, 긴급 산부인과 수술 평가 및 혈액 준비를 병행한다. 초기 정상 혈색소도 급성 출혈을 배제하지 않으며 수액 반응과 출혈 정도에 따라 조기 수혈이 필요하다.
 
-불안정한 혈역학(저혈압·빈맥·냉감)과 복부·골반 압통이 동반된 경우, 급성 복강 내 출혈이 의심된다. 이때 가장 먼저 해야 할 조치는 혈액량 보충으로, 정맥생리식염수(크리스탈로이드) 투여가 초기 치료의 핵심이다. 따라서 정맥생리식염수 수액을 투여하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 출혈성 쇼크 초기 정맥 수액 A 유지. 파열 자궁외임신 의심 시 수액만으로 치료가 끝난다는 인상을 교정.
+- https://www.nice.org.uk/guidance/cg174/chapter/Recommendations
+- https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
 
 ## 출처
 

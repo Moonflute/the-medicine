@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 불완전 격막이 있는 난관 팽창
 
 ## 해설
 
+갑작스러운 일측 통증·구토·부속기 압통은 난소/부속기 염전을 의심하게 한다. 선택지 중 도플러 혈류 감소(B)가 해당 병태를 지지한다. 다만 혈류가 보존되어도 염전을 배제하지 못하며, 출혈성 낭종 파열 등 다른 급성 원인과 감별해야 한다.
 
-난소 비전형성 낭종(난소 꼬임)에서는 혈류가 급격히 감소해 도플러 초음파에서 난소 혈류 감소가 관찰된다. 이는 가장 흔한 영상소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ‘난소 비전형성 낭종’이라는 잘못된 병명 삭제 및 도플러 한계 설명.
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/08/adnexal-torsion-in-adolescents
 
 ## 출처
 

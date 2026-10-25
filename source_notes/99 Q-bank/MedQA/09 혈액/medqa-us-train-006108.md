@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 철분 검사
 ## 해설
 
 
-Salmonella 골수염이 겸상 적혈구병(지중해 빈혈) 환자에서 흔히 발생하므로, 겸상 적혈구병을 확인하기 위해 혈색소 전기영동이 가장 유용한 검사이다. 말초 혈액 도말은 감염 확인에, 전혈구검사와 철분 검사는 진단에 직접적이지 않다.
+Salmonella 골수염은 SCD와 잘 알려진 연관이 있어 기저 혈색소 이상 확인에 hemoglobin electrophoresis B가 가장 적절하다. SCD와 thalassemia는 구별되는 혈색소병이며 복합 유전형은 가능하다. 말초도말은 보조 단서를 줄 수 있지만 세균성 감염을 확진하는 검사는 아니며 이 감염은 이미 배양/MRI로 평가된 상태다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006108 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: SCD와 thalassemia를 같은 질환이라고 한 오류 교정; Salmonella 골수염 배경 혈색소 평가 B 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 크로이츠펠트-야코프병
 
 ## 해설
 
+진행하는 넓고 짧은 보행, 인지저하와 요실금의 조합은 정상압수두증(C)을 가장 시사한다. 정상압은 전신 동맥혈압이 정상이라는 뜻이 아니라 통상 측정되는 뇌척수액 압력과 관련된 명칭이다. 정상 기본 혈액검사가 이를 확진하는 것도 아니다. 실제로 뇌실확장 영상과 다른 질환 감별, 필요 시 CSF 배액 반응 평가 등을 종합한다.
 
-보행 장애·요실금·인지 저하가 동반된 77세 환자에서 정상 혈압·정상 실험실 검사와 진행성 증상은 정상압 수두증을 시사한다. 뇌실 확대가 요실금과 보행 장애를 일으키며, 다른 치매와 구별된다. 따라서 정상압 수두증이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정상압수두증의 정상압을 정상 전신혈압으로 혼동한 설명을 제거했다. 임상 삼징과 C의 연결은 유지한다.
 
 ## 출처
 

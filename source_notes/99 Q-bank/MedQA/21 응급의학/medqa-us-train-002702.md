@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 관절경적 활막절제술
 
 ## 해설
 
+갑작스러운 통증·감각저하·차갑고 창백한 다리와 감소한 맥박, AF 항응고 불순응은 급성 색전성 사지허혈을 시사한다. 즉시 혈관 전문팀이 사지 생존 가능성과 재혈관화/절단 필요성을 평가하는 B가 적절하며, 금기가 없으면 정맥 미분획 헤파린으로 혈전 확장을 억제한다. 감각·운동결손과 도플러 소견 등으로 긴급도를 정하며 모든 환자에게 똑같이 6시간을 기다리거나 그 이후에는 무조건 절단한다는 뜻은 아니다.
 
-급성 사지 허혈은 조직 손상을 방지하기 위해 즉시 혈관 재개통 또는 절단 평가가 필요하다. 재관류 시술(혈전제거·혈전용해·외과적 재개통)이 6시간 이내에 시행돼야 한다. 따라서 가장 적절한 초기 처치는 절단 또는 혈관재개통술의 긴급 평가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성 사지허혈을 반드시 6시간이라는 단일 역치로 설명한 일반화를 제거했다. 생존 가능성에 따른 긴급 평가 B와 즉시 헤파린 원칙을 설명한다.
+- 공식/학회 근거: https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

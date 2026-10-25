@@ -18,17 +18,19 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. 토피라메이트(Topiramate)
 
 ## 해설
 
-
-1차 비니코틴 약물(니코틴 대체제, 바레니클린) 실패 후 2차 옵션으로는 교감신경 억제제인 클로니딘이 금연 보조에 사용된다. 따라서 클로니딘이 가장 가능성 높은 약물이다.
+원문은 니코틴 대체요법, 바레니클린과 항우울제 등 선행 치료에 실패한 뒤의 2차 약제를 묻는다. 제시된 약물 중 클로니딘이 비니코틴성 금연 보조의 2차 선택에 해당한다. 니코틴 대체요법 자체를 비니코틴 약물이라고 분류하지 않는다. 클로니딘은 저혈압·진정 등 부작용을 고려해야 하는 약물이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000647
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 니코틴 대체제를 '비니코틴 약물'로 묶은 분류 오류 제거. 원문 2차 클로니딘 정답 유지.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

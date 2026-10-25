@@ -17,15 +17,19 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
+original_answer: C
+answer_change_reason: "ERC2025는 K<3.0에서 12유도ECG와 심장리듬 감시를 권고. K2.2의 중증저K에서 ECG평가가 필요하며 원답 C의 생리식염수만으로 K를 신속교정한다는 근거는 없어 A로 수정."
 ---
 
 # MedQA US 임상문제
@@ -43,8 +47,14 @@ D. 소변 나트륨과 크레아티닌 측정
 
 ## 해설
 
+중증 저칼륨혈증(K2.2)은 부정맥 위험이 있으므로 선택지 중 먼저 ECG를 얻고 심전도 감시를 준비하는 A가 적절하다. KCl 보충·신기능/반복K·Mg 및 원인약 평가를 병행한다. 저Cl성 용적수축이 있으면 saline도 필요할 수 있지만 K를 함유하지 않은 식염수만으로 가장 빠르게 K를 교정할 수는 없다. 대사성 알칼리증에서 potassium bicarbonate 선택도 부적절하다.
 
-심각한 저칼륨혈증과 대사성 알칼리증이 동반된 경우, 먼저 혈액량을 보충해 세포외액을 확장하고 칼륨 재분배를 촉진해야 한다. 등량성 식염수 1 L 투여가 가장 빠른 교정 방법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: K2.2의 중증저K에서 ECG/감시 A가 즉시 필요. 식염수1L가 가장 빠른K교정이라는 C 해설은 잘못.
+- https://www.erc.edu/media/wwufbysp/gl2025-06-spec-circ-e.pdf
 
 ## 출처
 

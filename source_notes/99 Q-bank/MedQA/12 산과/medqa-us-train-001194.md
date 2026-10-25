@@ -15,13 +15,15 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -39,8 +41,13 @@ D. 임신 전 2kg 체중 증량
 
 ## 해설
 
+건강한 임신 계획 여성에게 신경관 결손 예방을 위한 엽산 400 μg/일을 임신 전부터 권고하므로 A가 적절하다. 균형 잡힌 식사를 해도 엽산 보충이 권장된다. B12·철 등 다른 보충제 필요성은 식사·빈혈·위험인자에 따라 별도로 평가하며 무조건 불필요하다고 단정하지 않는다.
 
-임신 전 모든 여성에게 엽산 400 µg을 시작하도록 권고한다. 엽산은 신경관 결손 예방에 필수적이며, 다른 보충제는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 엽산 권고는 유지하되 다른 보충제는 필요 없다는 일괄 단정 삭제.
+- https://www.cdc.gov/folic-acid/about/
 
 ## 출처
 

@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 암피실린-설박탐
 
 ## 해설
 
+고양이 교상 후 발열·국소 감염과 골수염이 있어 Pasteurella 및 피부·구강의 호기성/혐기성 균을 고려한다. 보기 중 IV ampicillin–sulbactam(D)이 적절한 경험적 범위를 제공한다. 배양·필요 배농과 소아 감염/정형외과 평가를 병행하며 골수염의 기간·요법은 결과에 따라 조정한다. 균 확인 없이 내성이 없다고 단정하지 않는다.
 
-고양이 물림에 의한 파스퇴렐라 골수염은 베타‑락탐계 항생제인 암피실린‑설박탐이 1차 선택이며, 내성 위험이 낮다. 따라서 암피실린‑설박탐이 가장 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 고양이 교상 골수염의 균을 확정하지 않고 다균성 범위·배양/전문 치료 명확화.
+- https://idmp.ucsf.edu/content/bite-wound
+- https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

@@ -12,36 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOyngOyGjeyEsSDtj5Dqs6DtmIjslZXspp0gKFBlcnNpc3RlbnQgUHVsbW9uYXJ5IEh5cGVydGVuc2lvbiBvZiB0aGUgTmV3Ym9ybikubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "고저항과 단락 방향을 직접 연결하는 병태 문항으로 정리."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-신생아 지속성 폐고혈압증(PPHN)의 정의는?
+신생아 지속 폐고혈압(PPHN)의 핵심 병태는?
 
 ## 선택지
 
-A. 폐혈관 저항 감소가 이루어지지 않아 태아 순환이 지속되는 상태
-B. 폐동맥 협착에 의한 고혈압
-C. 폐렴에 의한 저산소증
-D. 폐기능 저하에 따른 호흡 부전
+A. 출생 후에도 높은 폐혈관 저항이 남아 동맥관·심방 수준의 우좌 단락과 저산소증을 유발
+B. 폐혈관 저항이 항상 과도하게 낮아지는 상태
+C. 모든 경우 구조적 심장 기형만으로 정의
+D. 폐혈류와 무관한 빈혈만
 
 ## 해설
 
-PPHN은 출생 후 폐혈관 저항이 정상적으로 감소하지 않아 태아 순환이 지속되고, 난치성 저산소증을 초래합니다.
+심초음파로 혈역학과 구조적 심장병을 평가한다. 동맥관 전후 산소포화도 차이가 단서일 수 있지만 그 차이가 없다고 모든 PPHN을 배제하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 신생아 지속성 폐고혈압증 (Persistent Pulmonary Hypertension of the Newborn)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/신생아 지속성 폐고혈압증 (Persistent Pulmonary Hypertension of the Newborn).md`
-- 학습 목표: 원문 핵심: - **정의**: 출생 후 정상적인 폐 혈관 저항(PVR) 감소가 이루어지지 않아 태아 순환 상태가 지속되는 질환 - **기전**: 폐 혈관 저항이 체혈관 저항보다 높게 유지되어 우심실에서 좌심실로의 단락(R to L shunt)이 발생하고, 이로 인해 난치성 저산소증이 유발됨
+- 학습 목표: 신생아 지속 폐고혈압의 우좌 단락
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

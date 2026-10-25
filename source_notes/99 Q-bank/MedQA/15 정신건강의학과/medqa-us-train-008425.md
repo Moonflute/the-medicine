@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,10 +51,16 @@ D. 5% 포도당을 1/2 생리식염수에 투여
 
 ## 해설
 
-
-술을 끊은 후 6‑12시간 내에 나타나는 떨림, 불안, 혈압·심박수 상승, 환각 등은 알코올 금단 증후군이며, 중증(진전·발작)에서는 벤조디아제핀이 1차 치료이다. 로라제팜은 정맥으로 투여 가능한 벤조디아제핀으로 급성 알코올 금단에 가장 적절하다.
+과음 병력과 입원 후의 떨림·발한·불안·빈맥·고혈압, 지각 이상은 알코올 금단을 시사한다. 증상의 시작과 악화 시점은 다양하여 모든 금단 증상을 중단 후 6~12시간으로 고정하지 않는다. 제시된 선택지 중 정맥 로라제팜이 적절하며, 의식·호흡과 금단 중증도를 관찰하고 티아민·수분/전해질 등 지지치료도 평가한다. 지남력이 유지되어 있다는 점에서 자동으로 진전섬망이라고 부르지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008425
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 입원3일 경과를 6~12시간 금단으로만 설명한 과도한 시간 고정 교정. 로라제팜 정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline

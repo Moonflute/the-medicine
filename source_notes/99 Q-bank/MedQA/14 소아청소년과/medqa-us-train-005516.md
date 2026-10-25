@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 선천성 부신과형성
 
 ## 해설
 
+반복 골절과 불규칙한 카페오레 반점, 조기 유방/성적 발달은 맥쿤-올브라이트증후군(B)을 시사한다. 체세포 GNAS 활성화 변이의 모자이크로 뼈의 다골성 섬유성 이형성 및 자율적 내분비 과기능이 생길 수 있다. 선천부신과형성이나 일차적인 ACTH 과다로 설명하는 질환이 아니다.
 
-음모가 비대하고 검은 털이 음순을 따라 분포하며, 유방 발달이 Tanner 3단계인 점은 말초성 성조숙증을 시사한다. 맥쿤-올브라이트 증후군은 선천성 부신과형성으로 ACTH 과다와 성조숙증을 동반한다. 따라서 가장 가능성 높은 진단은 맥쿤-올브라이트 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 맥쿤-올브라이트를 ACTH 과다 선천부신과형성으로 설명한 다른 질환의 기전을 교체했다.
+- https://medlineplus.gov/genetics/condition/mccune-albright-syndrome/
 
 ## 출처
 

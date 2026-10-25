@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 산모의 알코올 섭취
 
 ## 해설
 
+임신 중 페니토인 노출과 손가락·손발톱 저형성, 구순구개열 및 특징적 얼굴 소견의 조합은 태아 히단토인 증후군(페니토인 태아병증)에 부합한다. 따라서 A가 적절하다. 페니토인은 항경련제이며 이 상태를 항균제 증후군이라고 부르는 것은 잘못이다.
 
-산모가 페니토인(항경련제) 치료를 받으면 태아에 항균제 증후군이 발생한다. 페니토인 배아증후군은 저형성 골격, 얼굴의 저형성, 털 과다, 구개열 등과 일치한다. 따라서 신생아의 소견은 산모의 페니토인 치료에 의해 설명된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 페니토인 태아병증을 항균제 증후군으로 잘못 이름 붙인 해설을 교정했다.
+
 
 ## 출처
 

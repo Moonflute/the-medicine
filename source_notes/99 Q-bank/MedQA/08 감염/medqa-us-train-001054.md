@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. Erythromycin
 ## 해설
 
 
-Nocardia는 약산성 염색에서 약하게 항산성으로 보이며, 가지 모양의 그람 양성 막대균이다. 면역억제 환자에서 폐 감염 후 뇌 전이성 병변이 링 강화 형태로 나타난다. 치료 1차 선택은 trimethoprim‑sulfamethoxazole이다.
+이식 후 면역억제 상태에서 폐 병변, 피부 궤양과 뇌농양이 생기고 약한 항산성을 보이는 가지 모양 그람양성 세균이 확인되어 파종 nocardiosis가 시사된다. TMP-SMX는 핵심 약제로 보기 중 C가 적절하다. 다만 CNS 침범 또는 중증 파종감염의 실제 초기 치료는 감수성 평가와 함께 적어도 두 가지 활성 약제의 병합을 권고하므로 TMP-SMX 단독으로 충분하다고 해석하면 안 된다. 뇌 병변은 악성종양의 전이가 아니라 혈행성 감염이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001054 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CNS 침범 파종 Nocardia에 TMP-SMX 단독이 완결 치료라는 오해를 방지; 항산 염색·전이 표현 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/abs/10.1111/ctr.13509
 
 ## 출처
 

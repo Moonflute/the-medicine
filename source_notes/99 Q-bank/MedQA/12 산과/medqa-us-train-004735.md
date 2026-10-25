@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQ2VwaGFsZXhpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 근육 내 세프트리악손 후 세팔렉신
 
 ## 해설
 
+둔한 전반적 복통이 국소화되고 발열·구토가 동반된 점은 급성 충수염을 의심하게 한다. 임신 중 해부학적 위치가 달라 전형적 우하복부 통증이 아닐 수 있다. 출제 의도의 확정 치료는 충수절제술(A)이며 임신만으로 필요한 수술을 미루지 않는다. 다만 우상복부 압통·경한 농뇨만으로 확진하지 말고 초음파/필요시 MRI 등으로 담낭·요로질환도 평가한다.
 
-임신 30주에 오른쪽 상복부 국소 압통, 발열, 백혈구 증가가 급성 충수염을 시사한다. 임신 중에도 충수절제술이 확정 치료이며, 수술이 태아와 모성 모두의 위험을 최소화한다. 따라서 충수절제술이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임신 후기 우상복부 충수염 가능성 및 확진 전 평가 한계 보강.
+- https://www.sages.org/publications/guidelines/guidelines-for-diagnosis-treatment-and-use-of-laparoscopy-for-surgical-problems-during-pregnancy/
 
 ## 출처
 

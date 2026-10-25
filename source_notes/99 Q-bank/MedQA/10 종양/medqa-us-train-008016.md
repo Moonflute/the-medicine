@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 골용해성 병변과 골막반응을 보이는 뼈 X선
 ## 해설
 
 
-소변에서 바닐릴만델산(VMA) 상승은 교감신경성 카테콜아민 대사산물로, 신경아세포성 종양인 신경아세포종(신경아세포종) 진단에 필수적인 생화학적 소견이다.
+영아의 부신 종괴와 small round blue cells는 neuroblastoma를 의심하게 한다. Catecholamine 대사산물 VMA/HVA의 소변 상승 B가 이 조직·위치와 함께 진단을 강하게 지지한다. VMA가 모든 환자에서 반드시 상승하거나 단독양성만으로 확진하는 것은 아니며 면역조직·분자 및 병리평가와 결합한다. 신장 내부기원은 Wilms tumor 등 다른 감별을 시사한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008016 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: VMA가모든neuroblastoma진단에필수라고단정한오류 교정. 제공된조직·부신위치와 결합한B유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq
 
 ## 출처
 

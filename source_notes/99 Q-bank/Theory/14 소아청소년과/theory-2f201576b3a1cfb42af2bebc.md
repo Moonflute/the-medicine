@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Zek64W47Z2QLeyJlOudvOyduCDsnpDrsJjspp0gKEhlbm9jaC1TY2hvbmxlaW4gUHVycHVyYSkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "모든 증상이 동시에 있어야 한다는 인상을 없앰."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-헤노흐-쉔라인 자반증(HSP)의 가장 흔한 초기 피부 소견은?
+소아 IgA 혈관염의 대표적인 임상 조합은?
 
 ## 선택지
 
-A. 촉지성 자반
-B. 수포성 발진
-C. 비타민 결핍성 출혈
-D. 고리 모양 발진
+A. 주로 하지·둔부의 촉지성 자반과 관절통·복통·신장 침범
+B. 혈소판 감소만으로 생기는 출혈이 필수
+C. 항상 피부 병변만 있고 다른 장기 침범은 없음
+D. 네 가지 소견이 같은 날 모두 있어야 의심
 
 ## 해설
 
-HSP는 하지와 둔부에 주로 나타나는 촉지성 자반이 가장 흔한 초기 증상이다.
+과거 HSP라고 불렀으며 소견은 순서와 시기가 다를 수 있다. 심한 복통은 장중첩 등 합병증도 평가하며 단순 피부 자반으로만 취급하지 않는다.
 
 ## 오답 포인트
 
-- **B. 수포성 발진:** 수포성 발진은 HSP의 특징이 아니며, 다른 혈관염에서 드물다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 헤노흐-쉔라인 자반증 (Henoch-Schonlein Purpura)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/헤노흐-쉔라인 자반증 (Henoch-Schonlein Purpura).md`
-- 학습 목표: 원문 핵심: * **주요 증상**: 촉지성 자반(palpable purpura), 관절통/관절염, 복통, 신장 침범 * **피부**: 하지 및 둔부에 주로 발생하는 촉지성 자반 및 점상 출혈 (가장 흔한 초기 증상) * **위장관**: 복통, 구토, 혈변 (장중첩증 등 합병증 주의) * **관절**: 무릎, 발목 등 하지 관절의 통증 및 부종 (비파괴성) * **신장**: 혈뇨, 단백뇨 (신염 발생 시 만성 신부전 위험)
+- 학습 목표: IgA 혈관염의 자반·관절·복부·신장 소견
+
+## 검수 근거
+
+- https://www.rch.org.au/clinicalguide/guideline_index/henochSchonlein_Purpura/

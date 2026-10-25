@@ -29,6 +29,10 @@ explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
+curation_status: "retained"
+curation_reason: "영문·한글·해설 대조: 투석 전 제한식에서 혈액투석 시작 뒤 단백 요구량 증가를 묻는 문항으로 정답 C 및 설명 유지."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
 ---
 
 # MedQA US 임상문제
@@ -53,3 +57,9 @@ D. 식이섬유 섭취
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007922
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 영문·한글·해설 대조: 투석 전 제한식에서 혈액투석 시작 뒤 단백 요구량 증가를 묻는 문항으로 정답 C 및 설명 유지.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

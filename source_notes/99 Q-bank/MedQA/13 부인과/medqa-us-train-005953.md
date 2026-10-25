@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 외음부 파제트병
 
 ## 해설
 
+장기간의 외음부 경화태선 병력에 새로 생긴 궤양성 결절은 외음부 편평세포암을 의심하게 하므로 C가 가장 적절하다. 경화태선의 백색 위축성 변화 자체와 새 악성 의심 결절은 구분해야 한다. 원문에 없는 바르톨린샘 질환 병력을 만들어 진단 근거로 삼지 않는다.
 
-편평세포암은 외음부에 궤양성 결절과 흰색 병변을 동반하며, 바르톨린샘 병력과는 무관하다. 따라서 가장 가능성 높은 진단은 편평세포암이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 새 외음부 궤양성 결절과 기존 경화태선의 관련성을 설명하고 근거 없는 바르톨린 병변 해설을 제거했다.
+
 
 ## 출처
 

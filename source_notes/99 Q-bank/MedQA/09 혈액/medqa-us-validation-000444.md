@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 연전형성
 
 
 TTP/HUS와 같은 미세혈관성 용혈성 빈혈·혈소판 감소증에서는 파편적 적혈구(분열적혈구)가 말초혈액 도말에 나타난다. 이는 혈소판 감소와 함께 흔히 관찰된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000444 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정상 PT/aPTT의 혈소판감소·신경/신장 이상·DAT음성 용혈은 TMA이며 schistocytes C. TTP/HUS 세부확진 이전에도 도말 정답은 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

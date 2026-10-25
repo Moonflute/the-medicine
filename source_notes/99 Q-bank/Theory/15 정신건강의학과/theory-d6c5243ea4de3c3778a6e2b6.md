@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: D
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "기억의 부호화·저장·인출은 치매 질환명 풀이와 별개의 기본 인지 이론으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 감각 입력 손실
 
 - 내부 학습 노트: 기억의 장애 (Disorders of Memory)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/기억의 장애 (Disorders of Memory).md`
-- 학습 목표: 원문 핵심: - **정의**: 정보를 부호화(encoding), 저장(storage), 인출(retrieval)하는 인지 과정의 결함으로, 일상생활 및 사회적 기능에 지장을 초래하는 상태. - **원인**: 신경퇴행성 질환(치매), 뇌 손상, 알코올 관련 장애, 심리적 외상, 해리성 장애, 대사성 질환 등. - **기전**: 해마(hippocampus) 및 측두엽을 포함한 기억 회로의 구조적 손상 또는 신경전달물질의 불균형, 심리적 방어기제에 의한 억압.
+- 학습 목표: 기억 기능의 부호화·저장·인출과 일차 감각 입력을 구분한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 기억의 부호화·저장·인출은 치매 질환명 풀이와 별개의 기본 인지 이론으로 유지.

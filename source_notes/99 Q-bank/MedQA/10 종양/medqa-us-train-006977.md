@@ -20,11 +20,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 프로메타진
 ## 해설
 
 
-카르시노이드 종양에서 과도한 세로토닌 분비가 5‑HT 수용체를 자극해 장관 평활근을 수축, 설사와 플러싱을 일으킨다. 옥트레오타이드는 세로토닌 수용체 길항제로 증상을 완화한다. 따라서 정답은 A이다.
+홍조, 수양성 설사, 삼첨판 역류와 urine5-HIAA 상승은 carcinoid syndrome에 부합한다. Octreotide A는 somatostatin analogue로 신경내분비종양의 호르몬 분비를 억제하여 설사·홍조를 조절한다. Serotonin 수용체 길항제는 아니다. 이는 증상 조절 약제 선택이며 종양의 위치·병기와 심장병변에 대한 추가 치료를 대체하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006977 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: octreotide를 serotonin 길항제라 부른 기전 오류를 somatostatin analogue로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=ad30bb58-5e16-43c4-8fdc-5cef8261eb8f&type=pdf
 
 ## 출처
 

@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 바소체의 존재
 
 ## 해설
 
+키 큰 남성의 작은 고환·여성형 유방·높은 LH/FSH·무정자증은 47,XXY Klinefelter 증후군을 시사한다. 추가 X의 비활성화로 Barr body가 관찰될 수 있어 D가 이를 가리킨다. 불임은 고환 기능저하·정세관 손상에 따른 것이며 Barr body 자체가 고환을 손상시키는 원인은 아니다.
 
-고환 미발달, 여성형 유방, 고 FSH/LH, 무정자증은 고환 이형성증(바소체)과 연관된 Klinefelter 증후군을 나타낸다. 따라서 원인은 바소체(XXY) 존재이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Klinefelter의 Barr body는 추가X 비활성화 표지이지 그 자체가 불임 기전은 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

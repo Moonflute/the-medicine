@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DYXJiYW1hemVwaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 산소요법
 
 ## 해설
 
+30~45분의 심한 일측 두통이 하루 여러 번 발생하고 안절부절못함, 동측 충혈·눈물이 동반되어 군발두통이다. 급성 치료로 보기 중 100% 산소요법(D)을 비재호흡 마스크와 적절한 유량으로 시행하는 것이 맞다. Carbamazepine은 주로 삼차신경통에 쓰이고 opioid는 군발두통의 일상적 급성 치료로 적합하지 않다. 산소의 효과를 단순한 한 가지 혈관수축 기전으로 확정할 필요는 없다.
 
-군발두통은 급성 발작 시 100% 산소 흡입으로 통증이 빠르게 완화된다. 산소는 삼차신경-혈관 복합체의 혈관 수축을 유도해 통증을 감소시킨다. 따라서 급성 완화에 가장 효과적인 치료는 산소요법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 군발두통 산소 D 유지. 산소의 작용을 확정적인 단순 혈관수축으로 환원한 해설 교정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg150/chapter/Recommendations
 
 ## 출처
 

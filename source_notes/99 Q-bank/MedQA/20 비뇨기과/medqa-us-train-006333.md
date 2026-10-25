@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,15 +43,19 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 정맥 세프트리악손과 경구 독시사이클린
+A. 근육주사 세프트리악손과 경구 독시사이클린
 B. 환자와 성 파트너에게 경구 메트로니다졸
 C. 근치적 고환절제술
 D. 수술적 탐색
 
 ## 해설
 
+점진적인 음낭 통증, 부고환 부위 압통, 배뇨 증상과 증가한 혈류는 급성 부고환염에 합당하다. 성매개 원인이 의심되는 안정된 외래 환자의 CDC 권고는 ceftriaxone 근육주사와 경구 doxycycline 조합이므로 A의 경로를 IM으로 교정하였다. 원문에는 IV라고 되어 있었으나 이를 표준 외래 경로라고 그대로 설명하지 않았다. 원인균 NAAT와 배양, 파트너 평가 및 추적이 필요하며 Prehn 징후 하나만으로 염전을 배제해서는 안 된다.
 
-급성 부고환염은 성병에 의해 발생하며, 경구 독시사이클린과 정맥 세프트리악손이 1차 치료이다. 이는 감염을 억제하고 증상을 완화한다. 따라서 가장 적절한 처치는 정맥 세프트리악손과 경구 독시사이클린이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원문 A도 IV이나 안정된 외래 STI 의심 급성 부고환염의 CDC 표준 투여경로는 ceftriaxone IM이므로 약물 조합·정답 A를 유지하며 경로만 교정.
+- 공식/학회 근거: https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 원발성 경화성 담관염
 ## 해설
 
 
-담낭벽에 공기가 보이고 급성 복통·발열·저혈압이 동반된 경우 기종성(폐쇄성) 담낭염이 가장 가능성 높다.
+정답 B. 발열·급성 우상복부 통증과 담낭벽 내 공기는 가스 생성 균에 의한 기종성 담낭염을 시사한다. 담석이 없어도 발생하며 특히 당뇨병 환자에서 중요하다. 기종성은 공기/가스가 있다는 뜻이지 폐쇄성과 동의어가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001052 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: emphysematous를 폐쇄성과 동일시한 번역 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

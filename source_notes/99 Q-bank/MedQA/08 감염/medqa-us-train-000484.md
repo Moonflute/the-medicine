@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,14 @@ D. 톡소포자충(Toxoplasma gondii)
 ## 해설
 
 
-고양이와의 접촉 후 발열, 인후통, 림프절 비대, 비특이적 단핵구 증가, 그리고 혈청에 대한 적혈구 응집은 EBV 감염을 시사한다. EBV는 전형적인 전염성 단핵구증을 일으키며, 헤테로시그마 항원에 대한 양성 반응이 관찰된다. 따라서 가장 가능성 높은 병원체는 EBV이다.
+후경부 림프절병증·인두염·발열과 말 적혈구를 응집시키는 heterophile(이종) 항체는 EBV 감염단핵구증(A)을 지지한다. 검사에서 상대적 림프구증가가 있으며 단핵구 증가가 핵심인 것은 아니다. 고양이 노출은 Toxoplasma 등 감별을 떠올리게 하지만 EBV의 감염 경로나 진단 근거가 아니다. Heterophile 검사는 비특이적이고 위양성·위음성이 가능하므로 필요시 EBV 특이 혈청검사로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000484 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 헤테로시그마라는 잘못된 용어와 단핵구 증가·고양이 노출 중심의 오연결을 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/epstein-barr/php/laboratories/
 
 ## 출처
 

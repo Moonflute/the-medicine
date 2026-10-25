@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,16 @@ D. 정신병적 특징을 동반한 기분장애
 
 ## 해설
 
-
-활력이 넘치고 수면이 필요 없으며 환청과 망상까지 동반된 1주일간의 고양된 기분은 조증 에피소드이며, 조증과 정신병적 증상이 동반된 경우는 분열정동장애(조증)로 진단한다. 단순한 기분장애는 환각을 포함하지 않는다.
+현재 조증 양상과 정신병적 증상이 함께 있고, 간헐적 조증 시기와 별개로 수개월간 망상·환청이 지속된 경과는 제시된 선택지 중 조현정동장애를 시사한다. 다만 실제 진단에서는 기분삽화가 전체 활성·잔류기 경과의 대부분을 차지하는지와 기분삽화 없이 적어도 2주 정신병이 지속된 시기를 종적으로 확인해야 한다. 정신병적 특징을 동반한 기분장애에도 환각이 있을 수 있으므로 환각 존재만으로 구별하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000655
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 정신병 동반 기분장애에는 환각이 없다는 오류와 조증+정신병이면 무조건 조현정동이라는 오류 교정. 현재 동시증상·기분삽화 밖의 정신병 경과와 종적 확인으로 답 제한.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.camh.ca/en/professionals/treating-conditions-and-disorders/psychosis/psychosis---diagnosis

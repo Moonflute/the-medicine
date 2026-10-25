@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "면역복합체 제3형 과민반응이라는 혈청병 핵심 이론을 유지. 보체 변화와는 독립된 분류 복습."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrflnn0pxtty2q0k2nlcwnnjpd0wtmllpt3l5cmv1emttqw9vmlz5zfcwz1uybgphmjvsyznncextmwt8zglzzwfzzs0wmi1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -45,3 +50,8 @@ D. 제4형 과민반응
 - 내부 학습 노트: 혈청병 (Serum Sickness)
 - 원본 경로: `source_notes/02 Diseases/06 알레르기/혈청병 (Serum Sickness).md`
 - 학습 목표: 원문 핵심: * **CC**: 항원 노출 후 1~2주 뒤에 증상이 나타나며, 재노출 시에는 수 일 내에 발생할 수 있다. * **P/E**: 발열, 관절통(또는 관절염), 두드러기 및 발진이 주된 증상이다. 그 외 림프절 비대, 부종, 드물게 신장 침범이나 신경병증이 동반될 수 있다. 점막 침범은 대개 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 면역복합체 제3형 과민반응이라는 혈청병 핵심 이론을 유지. 보체 변화와는 독립된 분류 복습.

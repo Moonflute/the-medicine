@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,11 @@ D. 흡연
 
 ## 해설
 
+박동성 복부 종괴, 급성 복통과 저혈압은 파열성 복부대동맥류를 시사한다. 제시된 소인 가운데 D, 흡연은 복부대동맥류 형성의 가장 중요한 수정 가능한 위험요인이다. 이는 흡연이 모든 환자에서 동맥류 크기 등보다 파열 위험을 더 잘 예측한다는 뜻은 아니다. 문항은 이 환자의 동맥류 발생 소인을 묻는다.
 
-복부 대동맥 파열은 흡연이 가장 강력한 위험인자이며, 연령·성별·고혈압보다 흡연이 파열 위험을 크게 증가시킨다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 흡연은 선택지 중 AAA의 가장 중요한 가역적 소인이지만 파열 자체의 최강 예측인자로 일반화한 설명을 교정.
 
 ## 출처
 

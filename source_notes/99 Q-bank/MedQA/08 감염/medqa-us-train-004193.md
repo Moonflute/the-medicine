@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 혈소판 응집검사
 ## 해설
 
 
-과거 헤로인 사용력과 현재 혈소판 감소, INR 상승은 간 기능 저하를 암시한다. C형 간염은 혈액 매개 전파가 흔하고, 혈소판 감소와 INR 상승을 동반한다. 따라서 다음 단계는 C형 간염 항체 검사이다.
+주사약물 병력과 혈소판감소·INR 상승은 만성 간질환/문맥고혈압 가능성을 시사한다. 선택지 B의 anti-HCV로 평가하되 양성이면 reflex HCV RNA로 현재 감염을 확인한다. 항체만으로 활동성 감염을 확정하지 않으며 간 기능·섬유화·다른 바이러스 등도 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004193 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HCV antibody B는 선별이며 현재 감염 확진은 RNA가 필요함을 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hepatitis-c/hcp/diagnosis-testing/
 
 ## 출처
 

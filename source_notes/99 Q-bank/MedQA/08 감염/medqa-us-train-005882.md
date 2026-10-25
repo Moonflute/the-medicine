@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 두부 CT
 ## 해설
 
 
-고령자에서 발열, 의식 저하, 목통증은 세균성 수막염을 의심하게 하며, 경험적 항생제와 함께 스테로이드를 투여한다. 따라서 다음 단계는 세프트리악손·반코마이신·암피실린·스테로이드 투여이다.
+고열·수막자극과 의식저하로 세균성 수막염을 의심하여 배양 후 지체 없이 ceftriaxone+vancomycin과 Listeria 범위 ampicillin을 시작한다. Dexamethasone은 가능하면 첫 항생제 직전/동시에 투여하는 맥락이므로 C가 적절하다. 기도·순환 지지와 LP 전 영상 적응 평가를 병행하며 CT나 LP 때문에 치료를 늦추지 않는다. 원인균·CSF 결과에 따라 보조 steroid와 항균제를 재평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005882 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고령 수막염의 경험적 C 유지; steroid의 첫 항생제 전/동시 투여와 영상으로 지연금지 맥락 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
 
 ## 출처
 

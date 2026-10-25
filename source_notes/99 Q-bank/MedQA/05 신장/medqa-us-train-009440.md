@@ -18,19 +18,24 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-ydtOywqOyEsSDslYzrj4TsiqTthYzroaDspp0gKFNlY29uZGFyeSBBbGRvc3Rlcm9uaXNtKS5tZA
 question_type: investigation
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ
+curation_status: "revised"
+curation_reason: "BMI32를 저체중이라 한 오류와 이소성 aldosterone이라는 잘못된 용어 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -48,10 +53,19 @@ D. 레닌 수치 상승
 
 ## 해설
 
-
-고혈압, 저체중, 복부 청진에서 잡음이 들리는 점은 신동맥 협착에 의한 이소성 알도스테론증을 시사한다. 신동맥 협착 시 레닌이 상승하고, 부갑상선 선종이나 코르티솔 과다증은 해당 증상을 설명하지 못한다. 따라서 가장 가능성 높은 추가 검사는 레닌 수치 상승이다.
+젊은 여성의 심한 고혈압·복부 및 경부 혈관 잡음·박동성 이명은 여러 혈관을 침범한 섬유근형성이상(FMD)을 시사한다. 신동맥 저관류는 renin 분비를 자극해 이차성 고알도스테론증을 유발할 수 있다. 이 환자는 저체중이 아니라 비만이며 renin 상승만으로 FMD를 확진하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009440
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: BMI32를 저체중이라 한 오류와 이소성 aldosterone이라는 잘못된 용어 교정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

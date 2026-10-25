@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,10 +51,16 @@ D. 발프로산을 시작하고 리튬을 중단한다
 
 ## 해설
 
-
-리튬은 신장에 축적되어 만성 신부전과 전해질 이상을 일으키며, 혈청 리튬 농도와 신기능 악화 시 대체가 필요하다. 발프로산은 리튬과 교차작용이 없으며, 신장 보호에 도움이 된다. 따라서 리튬 중단 후 발프로산 시작이 적절하다.
+신기능 저하와 ACE 억제제 병용은 리튬 축적·독성 위험을 높이므로 혈중농도·신기능·수분 상태를 평가하고 리튬을 중단하거나 재조정할 필요가 있다. 제시된 선택지 중 리튬 대신 발프로산으로 기분조절 치료를 변경하는 방안이 적절하다. 발프로산은 신장보호제가 아니고 리튬과 상호작용이 전혀 없는 무위험 약도 아니므로 간기능·혈액검사 등 자체 안전성 평가가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003260
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 신기능 저하에서 리튬 중단·대안 선택 답 유지. 발프로산을 신장보호제로 설명한 허위 이득 제거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec

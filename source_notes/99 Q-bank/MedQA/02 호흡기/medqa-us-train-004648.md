@@ -19,15 +19,17 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 윤상갑상막절개술
 
 ## 해설
 
+진행성 종양성 상기도 폐쇄와 저산소증이 있으나 아직 의식과 자발호흡이 유지되어, 숙련된 기도팀이 자발호흡을 보존하며 시행하는 기관절개 B가 선택지 중 적절하다. 해부학적 폐쇄 위치와 삽관/환기 가능성을 즉시 평가한다. 모든 기도응급에서 기관절개가 우선이라는 뜻은 아니며 환기 불가능 시 응급 전경부 기도확보 전략이 필요하다.
 
-후두암으로 인한 상기도 급성 폐쇄는 기도 확보가 최우선이며, 급성 호흡곤란 시 기관절개술이 가장 적절한 응급 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 후두암 진행성 폐쇄에서 기관절개 B를 지지하되 모든 기도응급의 획일적 처치로 확대하지 않도록 한정.
+- https://doi.org/10.1097/ALN.0000000000004002
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 만니톨
 ## 해설
 
 
-환자는 루프 이뇨제(푸로세미드) 사용 후 저칼륨성 대사성 알칼리증을 보이며, 이는 심실성 빈맥을 유발할 수 있다. 다른 약물들은 이러한 전해질 이상을 일으키지 않는다. 따라서 푸로세미드가 원인이다.
+정답 B. 복수 치료 후 저칼륨·저마그네슘혈증과 대사성 알칼리증, 급성 신기능 악화는 과도한 이뇨에 부합하며 선택지 중 furosemide가 임상 맥락에 가장 적합하다. 전해질 소실은 심실성 부정맥에 기여할 수 있다. Hydrochlorothiazide도 저칼륨성 알칼리증을 유발할 수 있으므로 다른 모든 약물에서 이런 이상이 불가능하다고 설명하지 않는다. 실제 처방과 체액 상태를 확인해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008807 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복수 치료 loop 이뇨제 B의 K/Mg 소실 기전 유지; thiazide도 저K 알칼리증을 만들 수 없다는 잘못된 배제 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=341e29d9-a6f1-4c77-ae44-9b2c423ea6b4
 
 ## 출처
 

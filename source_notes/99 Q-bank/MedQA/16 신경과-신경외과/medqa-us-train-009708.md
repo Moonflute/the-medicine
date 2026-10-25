@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 뇌척수액 흡수 감소
 
 ## 해설
 
+수개월 내 진행하는 치매와 근간대경련 양상은 CJD를 시사한다. 선택지 A는 병적인 프리온 축적을 의도한다. 정확한 기전은 정상 프리온 단백질이 비정상 구조로 접혀 축적하고 다른 단백질의 구조변화를 유도하는 것으로, 모든 CJD가 PRNP 유전자 돌연변이 때문인 것은 아니다. 본문에 없는 실신을 추가할 수 없다.
 
-점진적인 기억력 저하와 인지 기능 감소, 진행성 실신성 행동은 프리온 질환인 크루츠펠트‑야코프병을 시사한다. 이 질환은 프리온 단백질의 변형 축적으로 신경세포 사멸을 일으킨다. 따라서 가장 가능성 높은 기저 원인은 프리온 축적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CJD A의 오접힌 단백질 기전을 교정하고 원문 mutant를 모든 산발성 질환의 유전자 돌연변이로 일반화하지 않음.
 
 ## 출처
 

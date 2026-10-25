@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 담즙산 투여
 ## 해설
 
 
-환자는 급성 담관염(앵싱 콜란지티스)으로 고열·황달·ALP 상승을 보이며 항생제로 일시 호전되었다. 담관 폐쇄가 지속될 경우 황달이 악화되므로 ERCP를 통한 담관 배액 및 결석 제거가 필요하다. 따라서 ERCP가 가장 적절한 다음 처치이다.
+발열·RUQ통증·황달과 담즙정체 검사는 급성 담관염을 시사한다. 항균제·수액에 해열되어도 원인 담도 폐쇄의 배액이 필요할 수 있어 ERCP(C)가 적절하다. 중증도에 따라 신속히 시행하며 대체로48시간 이내 배액을 권고한다. 안정적이면 결석 제거 등을 병행하고 불안정하면 우선 감압한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008787 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 담관염 후 항생제로 해열되어도 담도 source control ERCP C 유지. 급성 담관염 용어오역과 항균제 반응=치료완료 혼동 정리.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-management-of-cholangitis
 
 ## 출처
 

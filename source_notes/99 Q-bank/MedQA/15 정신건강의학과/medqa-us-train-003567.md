@@ -20,22 +20,24 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-16년간 과음하던 42세 남성이 술을 끊은 지 4일 후 고양이가 방에서 달리는 것을 본다고 말하며 심하게 초조해졌다. 체온은 38.4°C, 맥박은 116회/분, 혈압은 160/94 mmHg였고 발한과 떨림이 있었다. 다음 중 이 상태의 병태생리를 가장 잘 설명하는 것은?
+16년간 과음하던 42세 남성이 술을 끊은 지 4일 후 고양이가 방에서 달리는 것을 본다고 말하며 심하게 초조해졌다. 체온은 38.4°C, 맥박은 116회/분, 혈압은 160/94 mmHg였고 발한과 떨림이 있었고 자신의 이름·시간·장소에 대한 지남력이 없었다. 다음 중 이 상태의 병태생리를 가장 잘 설명하는 것은?
 
 ## 선택지
 
@@ -48,6 +50,12 @@ D. 글루타메이트 억제 증가
 
 
 알코올 금단 시 NMDA 수용체가 과다 활성화되고 GABA 억제가 감소해 교감신경 과흥분, 발한·떨림·불안이 나타난다. 따라서 NMDA 수용체 활성 증가가 병태생리를 가장 잘 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 진전섬망의 핵심인 지남력 소실이 번역에서 빠져 원문대로 복원했다.
+
 
 ## 출처
 

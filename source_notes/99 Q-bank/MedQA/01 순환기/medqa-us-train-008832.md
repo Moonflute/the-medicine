@@ -20,16 +20,18 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 예상보다 낮은 쐐기압
 
 ## 해설
 
+좌측 흉골연에서 S2 뒤에 들리는 잡음은 대동맥판 역류를 의심하게 하며, 큰 맥압에 따른 대퇴동맥 잡음이 나타날 수 있어 A가 적합하다. 대동맥판 협착이나 폐쇄가 반드시 원인이라는 뜻은 아니다. 심한 역류에서는 심첨부의 Austin Flint 잡음도 가능하므로 C가 대동맥판 역류와 전혀 무관하다고 배제하지 않는다.
 
-대동맥 협착·폐쇄에 의한 대동맥 역류는 말초 동맥(대퇴동맥)에서 잡음이 들릴 수 있다. 다른 선택지는 대동맥 역류와 직접 연관되지 않는다. 따라서 대퇴동맥 잡음이 동반될 수 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: AR를 대동맥 협착·폐쇄가 원인이라고 단정하고 Austin Flint 잡음도 배제한 해설을 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

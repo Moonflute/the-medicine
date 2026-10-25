@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 중합효소연쇄반응
 ## 해설
 
 
-클린다마이신 사용 후 설사와 발열이 나타났을 때 가장 흔한 원인은 클로스트리디움 디피실 감염이며, 이를 확인하기 위해 PCR(중합효소연쇄반응)이 가장 민감하고 빠른 진단법이다. 정답은 PCR이다.
+Clindamycin 노출 뒤 새 물설사·발열·복통은 CDI를 의심하게 한다. 적절한 무형성 설사 검체에서 독소 유전자 NAAT/PCR(D)을 사용한다. 기관이 검체 제출 기준을 관리하면 NAAT 단독 또는 다단계 검사를 쓰고, 기준이 없으면 toxin 검사를 포함한 알고리즘을 권고한다. 양성 유전자 검사만으로 무증상 집락화와 활동성 감염을 자동 구분하지는 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001201 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 항균제 후 의심 CDI의 NAAT/PCR D 유지. 독소 유전자 검출은 집락화도 가능해 무조건 가장좋은 단독 확진이라고 단정하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/clostridium-difficile/
 
 ## 출처
 

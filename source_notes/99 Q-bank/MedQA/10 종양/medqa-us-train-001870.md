@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 복부 초음파에서 딸낭종이 보통 관찰된다
 ## 해설
 
 
-만성 B형 간염과 간경변에서 AFP가 크게 상승하고 불규칙한 저에코 종괴가 보이면 간세포암(HCC)이 가장 흔한 원인이다. 담관암은 AFP가 보통 상승하지 않으며 초음파에서 관찰되는 특징도 다르다. 따라서 진단은 간세포에서 발생한다이다.
+만성 HBV·간경변 환자의 간 종괴와 높은 AFP는 간세포암(HCC)을 강하게 의심하게 한다. HCC는 간세포에서 발생하므로 C가 적절하다. 담관상피에서 발생하는 담관암이나 딸낭종을 보이는 포충낭종과 다르다. 본문은 거칠고 불규칙한 내부 에코를 기술할 뿐 저에코라고 명시하지 않았으며 초음파·AFP만으로 모든 HCC를 확진할 수 있다는 뜻도 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001870 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 초음파에 없는 저에코 소견을 추가하지 않고 HCC의 세포기원을 묻는 정답 C에 맞췄다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

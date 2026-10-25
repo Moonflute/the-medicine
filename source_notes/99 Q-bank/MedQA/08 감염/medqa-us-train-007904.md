@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,13 @@ D. 토브라마이신
 ## 해설
 
 
-신생아 급성 신우신염 치료 후 크레아티닌 상승, FeNa 3%와 백혈구 원주가 없으며 E. coli가 검출된 경우, 신독성은 아미노글리코사이드(토브라마이신) 사용과 연관된다. 토브라마이신은 신독성을 일으켜 급성 신세뇨관 괴사를 초래한다. 따라서 정답은 토브라마이신이다.
+상피세포 원주·FeNa3%·creatinine 상승은 신세뇨관 손상을 시사하며 선택지 D aminoglycoside tobramycin의 신독성과 부합한다. 환자는44세이고 신생아가 아니다. Epithelial cast는 백혈구 원주와 구별하며 약물 투여와의 시간·기저 신기능·감염/다른 원인도 실제로 확인한다. Romano–Ward는 QT 연장 위험이므로 levofloxacin의 부정맥 위험과도 구별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007904 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 44세를 신생아로 바꾸고 epithelial cast를 WBC cast와 혼동한 해설 교정; tobramycin D 독성 연관 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

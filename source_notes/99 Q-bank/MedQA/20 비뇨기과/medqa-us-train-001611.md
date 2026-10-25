@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 소변 종양표지자
 
 ## 해설
 
+고령 남성의 무통성 혈뇨와 많은 흡연력은 요로 악성종양 고위험 소견이다. 네 선지 중 B, 조영증강 CT/CT urography가 상부요로 평가에 적절하다. 방광 평가에는 방광경도 필요하므로 CT 한 검사로 전체 평가를 대체하는 뜻은 아니다. 미세혈뇨가 있으면 누구나 CT를 해야 하거나 CT가 모든 요로 종양의 가장 민감한 검사라는 설명은 부정확하다.
 
-현미경적 혈뇨가 지속되는 경우, 비뇨기계 종양을 평가하기 위해 조영증강 CT(CT urography)가 가장 민감한 영상검사이다. 이는 요로 상피암을 조기에 발견할 수 있다. 따라서 다음 검사로는 조영증강 CT가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고위험 혈뇨에서 CT B의 역할을 상부요로 평가로 명확히 하고 방광경도 필요함을 보완.
+- 공식/학회 근거: https://www.auanet.org/documents/Guidelines/PDF/2025%20Guidelines/MH%20Unabridged%2002.2025FINAL3-1.pdf
 
 ## 출처
 

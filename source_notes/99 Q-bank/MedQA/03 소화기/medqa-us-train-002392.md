@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -52,6 +54,13 @@ D. 암로디핀을 중단한다
 
 
 알렌드로네이트는 경구 복용 시 식도에 직접 접촉해 점막 손상을 일으킬 수 있다. 위식도 접합부에 단일 원형 궤양이 발견된 것은 알렌드로네이트에 의한 식도염(약물성 식도염)과 일치한다. 따라서 약물을 중단하는 것이 가장 적절한 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Alendronate 복용 중 연하통·국소 식도궤양은 약물성 식도손상 의심; 중단 B. 제공되지 않은 생검 결과는 가정하지 않음.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14e931fd-2c5f-4d90-b7db-5980706f4a56
 
 ## 출처
 

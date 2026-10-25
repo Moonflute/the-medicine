@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 옥시토신 투여 후 질식분만
 
 ## 해설
 
+심한 지속 통증·긴장된 자궁·출혈·저혈압과 태아 빈맥170/감속은 중증 태반조기박리를 시사한다. 소생·혈액 준비와 함께 이 사례에서는 응급 제왕절개(A)가 적절하다. 안정된 경증 박리나 태아 사망 등 다른 상황의 분만 방식과 구분한다.
 
-태반조기박리는 급성 질출혈·복통·태아 심박수 감소와 저혈압을 동반하며, 산모와 태아의 생명을 위협하므로 즉시 응급 제왕절개가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태아는 빈맥170이며 감속 동반; 모든 박리에 제왕절개라고 일반화하지 않음.
+- https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/antepartum-haemorrhage-green-top-guideline-no-63/
 
 ## 출처
 

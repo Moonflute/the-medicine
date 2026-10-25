@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 뇌 MRI
 
 ## 해설
 
+페닐알라닌 대사 장애는 혈중 페닐알라닌 증가와 신경독성을 일으키며, 특유의 냄새·저색소·경련 등이 나타날 수 있다. 보기 중 페닐알라닌 제한 식이(C)가 적절하다. 저페닐알라닌혈증이 아니라 고페닐알라닌혈증이며, 영양 결핍을 피하도록 대사 전문 관리와 혈중 농도 모니터링을 병행한다.
 
-신생아의 구토와 피부색이 밝고, 저페닐알라닌 혈증이 의심되는 경우 식이 제한(페닐알라닌 제한)이 가장 중요한 초기 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: PKU를 저페닐알라닌혈증으로 기술한 반대 의미 오류를 교정.
+- https://www.nichd.nih.gov/health/topics/pku/conditioninfo/treatments
 
 ## 출처
 

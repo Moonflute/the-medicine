@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 무스카린 길항제를 시작한다
 
 ## 해설
 
+절박감과 불수의 배뇨근 수축·적은 잔뇨는 절박성 요실금에 합당하여 선지 중 D, 항무스카린제를 고려할 수 있다. 방광 훈련 등 행동관리와 함께 목표·부작용을 논의하고 필요에 따라 beta3 작용제 같은 대안도 있다. 인지기능·변비·구강건조·요폐 위험을 확인하며, 침습적 방광 확대술은 단순 초기 치료가 아니다. 제시된 약제가 모든 환자의 유일한 필수 1차 치료라는 뜻은 아니다.
 
-방광내압검사에서 비자발적 방광수축이 관찰된 것은 배뇨근 과활동성(절박성 요실금)이며, 항무스카린제(항콜린성 약물)가 1차 치료제이다. 다른 선택지는 증상 개선에 직접적 효과가 없다. 따라서 무스카린 길항제 시작이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 항무스카린제 D는 가능한 약물 선택으로 유지하되 행동치료·beta3 작용제 및 부작용 상담을 배제한 단정 수정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng123/chapter/recommendations
 
 ## 출처
 

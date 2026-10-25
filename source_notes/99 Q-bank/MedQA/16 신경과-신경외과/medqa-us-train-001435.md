@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 진행성 핵상마비
 
 ## 해설
 
+느리고 넓은 보폭의 자석보행에 요실금과 인지저하가 동반되어 정상압수두증(B)이 선지 중 가장 적절하다. CT가 언급되지만 제공된 텍스트에는 실제 영상 소견이 없으므로 뇌실확대를 관찰했다고 주장할 수 없다. 확진 및 치료 계획에는 영상으로 다른 원인을 배제하고 뇌실·지주막하 공간 형태와 임상 경과를 함께 평가한다.
 
-진행성 기억력 저하와 보행 장애, 요실금 삼중증은 정상압 수두증을 특징으로 하며, CT에서 뇌실 확대가 보인다. 따라서 정상압 수두증이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 자석보행·요실금·인지저하만으로 NPH B가 가장 적절하므로 사진 누락만으로 보류하지 않되 보지 못한 CT의 뇌실확대를 확인했다고 서술하지 않는다.
 
 ## 출처
 

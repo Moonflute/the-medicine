@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 안심시키고 추적 관찰
 
 ## 해설
 
+분만 전 1주에 모체 HIV RNA가 678 copies/mL이면 고위험 노출로 평가한다. 출생 직후 가능한 빨리, 보통 6시간 이내에 지도부딘을 포함한 3제 추정치료를 시작한다. A는 구성 약제의 투여로 해석하며 ZDV 단독 1회 요법을 뜻하지 않는다. 출생 NAT를 치료 전 또는 직후 채취하되 치료를 지연하지 않는다. 용량·기간은 재태연령·체중·위험도에 맞춘다.
 
-HIV에 노출된 신생아는 출생 직후 6시간 이내에 2 mg/kg의 지대(지도부딘)를 한 번 투여해 감염 위험을 크게 감소시킨다. 이는 표준 예방 프로토콜이며, 다른 검사는 추후에 시행한다. 따라서 지대 투여인 A가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HIV 노출아에서 ZDV 시작 A 유지하되 678 copies/mL 고위험 노출은 단독 1회 요법으로 불충분하므로 3제·검사 병행을 명시.
+- https://clinicalinfo.hiv.gov/en/news/update-guidelines-use-antiretroviral-agents-pediatric-hiv-infection-2
+- https://clinicalinfo.hiv.gov/en/guidelines/pediatric-arv/diagnosis-hiv-infection-infants-and-children?view=full
 
 ## 출처
 

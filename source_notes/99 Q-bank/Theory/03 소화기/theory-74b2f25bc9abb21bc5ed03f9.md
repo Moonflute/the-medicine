@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "간염이 바이러스에만 국한되지 않고 약물·알코올·자가면역 등 다양한 원인의 염증이라는 상위 기본 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc1xd2hpdux0t3kzaknfcxnjvhnsn3dns0vobgnhrjbhwfjwy3lrdwjxuxxkaxnlyxnlltazlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,10 +47,15 @@ D. 간 기능 저하만을 의미하는 질환
 
 ## 오답 포인트
 
-- **B. 간세포 암이 진행된 상태:** 간암은 악성 종양이며 간염과는 구분된다.
+- **간세포 암이 진행된 상태:** 간암은 악성 종양이며 간염과는 구분된다.
 
 ## 출처
 
 - 내부 학습 노트: 간염 (Hepatitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/간염 (Hepatitis).md`
 - 학습 목표: 원문 핵심: - AST/ALT, bilirubin, ALP, albumin, PT/INR를 확인하고 원인에 따라 HAV·HBV·HCV 등 혈청검사, 약물·음주력, 자가항체 및 초음파를 선택한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 간염이 바이러스에만 국한되지 않고 약물·알코올·자가면역 등 다양한 원인의 염증이라는 상위 기본 복습으로 유지.

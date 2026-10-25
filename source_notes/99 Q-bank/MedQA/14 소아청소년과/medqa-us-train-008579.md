@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 신속 항원 검출검사
 
 ## 해설
 
+고열·기침·콧물 뒤 얼굴에서 퍼진 융합성 발진은 홍역을 의심하게 한다. 보기 중 홍역 특이 IgM(C)이 맞으며, 현행 확인에서는 호흡기 검체 RT-PCR과 혈청 검사를 함께 계획한다. RPR은 매독의 비트레포네마 검사이며 Tzanck 도말은 일부 헤르페스바이러스성 세포 변화에 쓰인다. 격리·공중보건 신고도 중요하고 IgM 하나가 언제나 가장 정확하다는 뜻은 아니다.
 
-고열, 전신 발진, Koplik 반점이 없더라도 메스꺼운 발진은 홍역을 의심하게 하며, 급성 감염 시 혈청에서 홍역 특이 IgM 항체가 가장 확진에 정확하다. 신속 혈장 리아진은 독감, 차크 도말은 결핵, 항원 검사는 코로나 등에 사용된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: RPR=독감, Tzanck=결핵 등 전혀 다른 검사 연결과 IgM 최고 정확도 주장을 교체.
+- https://www.cdc.gov/measles/hcp/clinical-overview/index.html
 
 ## 출처
 

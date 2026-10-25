@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "출혈결막염의 결막하 출혈은 의미 있는 쉬운 소견 복습이며 각막궤양 원인에 대한 불필요한 단정을 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ D. 안구 내압 상승
 
 ## 오답 포인트
 
-- **B. 각막 궤양:** 각막 궤양은 다른 원인(예: 헤르페스)에서 주로 나타난다.
+- **각막 궤양:** 이 문항의 특징적인 결막하 출혈과는 다른 조직 소견이다.
+- **안구돌출·안압상승:** 급성 출혈결막염을 특징짓는 기본 소견이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 급성출혈결막염 (acute hemorrhagic conjunctivitis)
 - 원본 경로: `source_notes/02 Diseases/18 안과/급성출혈결막염 (acute hemorrhagic conjunctivitis).md`
-- 학습 목표: 원문 핵심: * **CC**: 이물감, 통증, 눈물 흘림, 결막 충혈, 안검 부종, 전신 증상(발열, 권태감 등) 동반 가능 * **P/E**: 결막하 출혈(가장 특징적), 여포성 결막염, 안검 부종 - **특징**: 매우 짧은 잠복기(약 1일), 짧은 유병 기간, 높은 전염성으로 수영장 등에서 집단 유행
+- 학습 목표: 급성 출혈결막염의 결막하 출혈을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 출혈결막염의 결막하 출혈은 의미 있는 쉬운 소견 복습이며 각막궤양 원인에 대한 불필요한 단정을 제거.

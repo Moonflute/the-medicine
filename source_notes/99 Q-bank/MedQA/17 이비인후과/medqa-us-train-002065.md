@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,11 @@ D. 메니에르병
 
 ## 해설
 
+양측에서 공기전도가 골전도보다 좋은 Rinne 소견이 있으며, Weber는 오른쪽으로 편위되어 있다. 왼쪽 청력이 점진적으로 감소하는 이 사례에서는 왼쪽 감각신경성 난청을 시사한다. 편측 진행성 감각신경성 난청과 이명의 조합은 B, 전정신경초종(청신경종)에 가장 합당하다. 더 잘 들리는 쪽은 오른쪽이며, 원래 해설의 왼쪽 표기는 반대이다. 노인성 난청은 보통 양측성이고 귀지 폐색은 전음성 소견을 보인다.
 
-청신경종(청신경 종양)은 Weber 검사에서 소리를 머리 중앙에 대면 청력이 더 좋은 쪽(왼쪽)에서 크게 들리는 특징이 있다. 다른 선택지는 검사 소견과 일치하지 않는다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 왼쪽 감각신경성 난청에서는 Weber가 좋은 오른쪽으로 편위됨에도 해설이 좋은 귀를 왼쪽으로 잘못 표시한 오류 교정.
 
 ## 출처
 

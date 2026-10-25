@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,15 @@ D. 재발 단계
 
 ## 해설
 
-
-흡연자는 금연 후 재시작 시 재발 단계에 해당한다. 행동변화 모델에서 재발은 금연을 다시 시작한 상태를 의미한다. 따라서 재발 단계가 정답이다.
+1년간 금연을 유지하다가 흡연을 다시 시작했으므로 제시된 행동변화 단계 중 재발에 해당한다. 재발은 금연을 다시 시작했다는 뜻이 아니라 중단했던 흡연 행동이 다시 나타났다는 뜻이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000975
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 재발을 '금연을 다시 시작한 상태'로 잘못 설명한 반대 의미의 문장 수정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

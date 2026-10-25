@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 사산
 
 ## 해설
 
+과거에는 단백뇨만 있었지만 현재 혈압은 150/90이며 단백뇨·크레아티닌 상승이 동반되어 전자간증 평가가 필요하다. 태반 혈류 저하가 태아 성장제한(A)과 연관된다. 양막파수 자체나 고혈압이 없다는 설명으로 성장제한을 정당화하지 않는다. 임상적으로 혈압 재측정과 중증도 평가를 병행한다.
 
-양수 파열 후 단백뇨와 고혈압이 없으며, 태아 성장 제한이 흔히 동반된다. 조산과 태변 흡인, 소두증은 각각 다른 위험 요인과 연관된다. 따라서 성장 지연이 가장 가능성 높은 신생아 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 현재 고혈압이 없다는 해설은 150/90과 모순되므로 전자간증·태반 기능 저하 기전으로 교정.
+
 
 ## 출처
 

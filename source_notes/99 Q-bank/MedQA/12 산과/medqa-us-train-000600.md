@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 니페디핀(nifedipine) 치료 시작
 
 ## 해설
 
+융합된 시상, 정중 구순열, 심한 전뇌 구조 이상은 중증 전전뇌증을 시사한다. 이미 경부 5 cm로 조기진통이 진행하고 양막파수도 의심된다. 원문은 예후가 매우 불량한 태아에서 불필요한 제왕절개 대신 질식분만(B)을 허용하는 의도이다. 실제로는 산모·태아 전문팀이 예후와 치료 목표를 상담하고 이전 하부 횡절개 흉터에 맞게 감시한다. 모든 태아 기형을 이유로 일괄 수축억제 또는 치료 중단하지 않는다.
 
-진통제와 양수과다, 태아 기형은 자궁수축을 억제해야 하는 상황이다. 니페디핀은 칼슘채널 차단제로 자궁수축을 완화한다. 제왕절개는 아직 필요하지 않으며, 질식 분만은 위험하다. 따라서 니페디핀 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 B와 반대로 니페디핀을 권한 해설을 중증 전전뇌증 사례 설명으로 교체.
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/when-your-waters-break-prematurely/
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/09/perinatal-palliative-care
 
 ## 출처
 

@@ -21,7 +21,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,6 +47,12 @@ D. 종양 세포의 증식
 
 
 다발성 골수종은 골 파괴와 병변성 골절을 일으키며, 혈청 칼슘 상승과 빈혈, 신기능 저하가 동반된다. 골절은 종양 세포 증식에 의한 골소실이 원인이다. 따라서 가장 가능성 높은 기전은 종양 세포의 증식이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000358 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골통·빈혈·고칼슘·신손상과 척추 병적골절은 MM 종양 관련 골파괴 D를 지지. 단순 압력·조골 증가와 구별. 응급 척수 치료를 묻는 문항 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

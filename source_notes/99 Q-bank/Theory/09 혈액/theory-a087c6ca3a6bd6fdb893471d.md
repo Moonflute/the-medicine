@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "빈혈의 산소 운반 감소와 운동 시 호흡곤란·피로의 연결은 기초 hub에서 의미 있는 쉬운 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmlxu1au8ywwldqw9rvzvsyldsaettnxraqxxkaxnlyxnlltaylxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,10 +47,15 @@ D. 황달
 
 ## 오답 포인트
 
-- **D. 황달:** 황달은 주로 간질환이나 용혈성 빈혈에서 나타난다.
+- **황달:** 황달은 주로 간질환이나 용혈성 빈혈에서 나타난다.
 
 ## 출처
 
 - 내부 학습 노트: 빈혈 (Anemia)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/빈혈 (Anemia).md`
 - 학습 목표: 원문 핵심: - 피로, 운동 시 호흡곤란, 어지러움, 두근거림, 창백이 흔하다. 흉통·실신·안정 시 호흡곤란, 급성 출혈 또는 혈역학적 불안정은 즉시 중증도를 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 빈혈의 산소 운반 감소와 운동 시 호흡곤란·피로의 연결은 기초 hub에서 의미 있는 쉬운 복습으로 유지한다.

@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 폐쇄성 수면무호흡
 
 ## 해설
 
+비만과 큰 목둘레, 수면 분절 및 심한 주간 졸림은 폐쇄성 수면무호흡(D)을 가장 의심하게 한다. 원문에 실제 무호흡이 관찰되었다고 제시된 것은 아니므로 확진으로 단정하지 않는다. 수면검사 등으로 확인하고 다른 졸림 원인도 평가한다.
 
-비만, 낮 시간 졸림, 수면 중 무호흡이 동반된 경우 폐쇄성 수면무호흡증이 가장 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 무호흡이 관찰되었다고 원문에 없는 소견을 추가한 해설을 의심 진단으로 한정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

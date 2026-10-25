@@ -24,11 +24,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,6 +50,13 @@ D. 상부위장관내시경
 
 
 흑색변(멜라)과 저혈압·빈맥은 상부 위장관 출혈을 시사한다. 급성 출혈에서 원인 확인을 위해서는 위·십이지장 병변을 직접 보는 상부 위장관내시경이 가장 적절한 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 흑색변·NSAID·불안정혈역학의 UGIB에서 소생과 함께 EGD D로 원인/지혈; 대장검사가 우선 아님.
+- https://www.esge.com/assets/downloads/pdfs/guidelines/2026_a-2863-8314.pdf
 
 ## 출처
 

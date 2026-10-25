@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 제8인자 결핍
 ## 해설
 
 
-반코마이신·겐타마이신 치료와 수술 후 장기간 항생제 사용은 장내 정상균총을 억제하고 비타민 K 생산을 감소시켜 PT·aPTT 연장과 출혈을 초래한다. 따라서 항생제 치료가 원인이다.
+영양불량 상태에서 PT와 aPTT가 연장되고 D-dimer가 낮으며 혈소판이 비교적 보존된 출혈은 vitamin K 의존 인자 부족 등을 의심하게 한다. 선택지 A는 항균치료가 영양섭취·균총 등에 영향을 줄 수 있다는 출제 맥락이다. 다만 정주 vancomycin/gentamicin5일만으로 장내 vitaminK 생산이 반드시 소실된다고 단정할 수 없고 영양·간기능·소모/약물 등 원인을 평가한다. VIII 결핍은 보통 PT를 연장하지 않으며 DIC는 이 검사 조합과 덜 부합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008072 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 영양부족/항생제 관련 vitaminK 의존 응고인자 감소 A 의도 유지;정주vanc/genta만으로 장내균 소실을 확정한 과장 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

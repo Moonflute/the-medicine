@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 오른쪽 손목 X-선 촬영
 
 ## 해설
 
+지붕 낙상과 머리·늑골·손목 손상은 위험한 외상 및 주의분산 손상으로, 정중선 압통·국소 신경결손이 없다는 것만으로 경추를 임상적으로 해제할 수 없다. 성인의 의심 경추 골절·탈구 평가에는 CT(B)가 단순 X선보다 적절하다. CT는 골성 손상에 강하지만 지속 신경학적 이상이나 인대·척수 손상 의심이 있으면 MRI 등 추가 평가가 필요하며 모든 연부조직 손상을 CT만으로 배제하지 않는다.
 
-고에너지 낙상으로 경추 손상의 위험이 존재하지만 신경학적 이상이 없고 중간선 압통도 없으므로, 경추 골절·탈구를 배제하기 위해 고감도 영상인 CT가 필요하다. CT는 X‑ray보다 미세 골절과 연부 조직 손상을 더 정확히 확인한다. 따라서 다음 단계는 경추 CT 촬영이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 경추 CT B의 근거를 위험 낙상과 주의분산 손상으로 명확히 하고 CT가 척수·인대 등 모든 연부조직 손상을 배제한다는 해석을 제한했다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng41/chapter/Recommendations
 
 ## 출처
 

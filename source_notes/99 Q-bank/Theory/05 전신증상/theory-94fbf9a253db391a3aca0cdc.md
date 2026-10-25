@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "67Cc7Je0"
 theory_objective_id: cc-05-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "배양을 먼저 하되 항균제 치료를 지연하지 않는 중요한 검사·치료 원칙."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 백혈구 수가 정상 범위일 때만
 
 ## 오답 포인트
 
-- **B. 항균제 투여 후 2시간 이후에:** 항균제 투여 후에는 세균 성장 억제로 양성률이 낮아진다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

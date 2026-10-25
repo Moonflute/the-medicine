@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 기관내 삽관과 기계환기
 
 ## 해설
 
+초기 보온·건조 후 심박수 70회/분과 불규칙한 약한 호흡이 있어 즉시 양압환기(B)를 시행한다. 심박수와 흉곽 움직임으로 환기 효과를 신속히 재평가하며 5분 Apgar 기록을 기다려 처치를 지연하지 않는다. 비강 산소만으로는 환기를 대체하지 못한다. 효과적 환기 후에도 심박수 60회/분 미만이면 흉부압박을 고려한다.
 
-신생아의 호흡이 불규칙하고 저산소증이 의심될 때는 비강 캐뉼라를 통한 산소 보충이 첫 번째 단계이며, 5분 후 아프가 점수를 재평가한다. 따라서 가장 적절한 처치는 비강 캐뉼라 산소 보충이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 B와 다른 비강 산소 C를 지지한 오연결 해설을 PPV로 교체.
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -44,7 +46,14 @@ D. 세극등 검사(slit-lamp examination)
 ## 해설
 
 
-청년 남성의 아침에 심해지는 요통, 활동 시 호전, NSAIDs에 반응하는 양상은 강직성 척추염을 시사한다. 진단을 확정하기 위해서는 천장관절 MRI가 가장 민감한 영상검사이다.
+염증성 요통과 흉곽·척추 운동 제한으로 축성 척추관절염을 의심한다. 골격이 성숙한 이 성인의 초기 영상은 천장관절 방사선촬영(C)이다. 사진이 진단적이지 않거나 염증성 병변을 더 평가해야 하면 MRI를 시행한다. MRI의 민감도가 높다는 사실이 이 문항의 초기 검사 답을 B로 바꾸지는 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-train-001178` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원답 C와 달리 MRI B만 설명한 해설 교정. 성인 의심 axSpA에서 SI 방사선 우선, 음성/불충분하면 MRI 순서를 NICE로 확인.
+- 범위: evidence-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/NG65/chapter/Recommendations
 
 ## 출처
 

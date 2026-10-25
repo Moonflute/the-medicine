@@ -20,20 +20,22 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-생후 3일 된 남아가 태변 배출 지연으로 신생아실에서 평가받고 있다. 35주에 태어났고 복부가 팽창되어 있으며 장음이 없고 중등도의 호흡곤란이 있다. 산모는 모유를 만들기 시작했고 아이는 2시간마다 잘 먹고 하루 8회 이상 소변을 본다. 아슈케나지 유대인 계통이며 산전 유전검사는 받지 않았다. 다음 중 가장 적절한 초기 처치는?
+생후 3일 된 남아가 태변 배출 지연으로 신생아실에서 평가받고 있다. 35주에 태어났고 복부가 팽창되어 있으며 장음이 없고 중등도로 힘들어 보인다. 산모는 모유를 만들기 시작했고 아이는 2시간마다 잘 먹고 하루 8회 이상 소변을 본다. 아슈케나지 유대인 계통이며 산전 유전검사는 받지 않았다. 다음 중 가장 적절한 초기 처치는?
 
 ## 선택지
 
@@ -44,8 +46,13 @@ D. 땀 염소 검사
 
 ## 해설
 
+태변 지연·복부팽만·장음 소실은 신생아 장폐색을 의심하게 한다. 복부 단순촬영(A)으로 가스 분포를 평가한 뒤 폐색 위치·원인에 따라 조영검사 등을 선택한다. 이 단계에서 낭성섬유증만으로 확정하지 않는다.
 
-신생아의 장폐색(특히 낭성섬유증) 의심 시 가장 먼저 복부 X선을 촬영해 공기-액체 수준을 확인한다. 따라서 초기 검사는 복부 방사선촬영이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태변 지연과 팽만의 초기 복부 X선 A 유지. moderate distress를 호흡곤란으로 바꾼 번역 교정.
+
 
 ## 출처
 

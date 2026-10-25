@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 경피적 간 생검
 ## 해설
 
 
-환자는 급성 간염 증상과 직접 빌리루빈 상승, ALT 상승, PT 연장으로 급성 A형 간염이 의심된다. A형 간염을 진단하는 가장 민감한 검사는 혈청 항 HAV IgM 항체이다. 따라서 가장 유용한 검사는 혈청 항 HAV IgM이다.
+정답 A. 급성 간염이 의심되는 이 환자에서 IgM anti-HAV 양성은 최근/급성 HAV 감염을 뒷받침한다. IgG anti-HAV 또는 total anti-HAV만으로는 과거 면역과 급성 감염을 구분할 수 없다. 임상 증상만으로 다른 바이러스성 간염과 확정적으로 구분하지 않으며, PT 연장 등 중증도 소견은 별도로 추적해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009386 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 HAV 확인은 IgM anti-HAV A; 임상 양상만의 확진과 가장 민감하다는 무조건 표현 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hepatitis-a/hcp/diagnosis-testing/
 
 ## 출처
 

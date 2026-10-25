@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "정의 반복을 영유아에서 실제 예방·교정 가능한 식이 요인으로 변경."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-철 결핍성 빈혈의 정의는 무엇인가?
+영유아 철결핍 위험을 높이는 대표적인 식이 양상은?
 
 ## 선택지
 
-A. 체내 철분 부족으로 헤모글로빈 합성이 저하되어 소형·저색소성 빈혈이 발생하는 상태
-B. 적혈구가 비정상적으로 커지고 혈색소 농도가 높은 거대적아구성 빈혈
-C. 헤모글로빈 구조 이상으로 적혈구가 파괴되는 지중해 빈혈
-D. 골수의 전반적인 혈구 생성이 감소하는 재생불량성 빈혈
+A. 철이 풍부한 이유식·식품이 부족하고 우유가 식사를 과도하게 대체함
+B. 체중이 잘 늘면 철 섭취 부족은 불가능함
+C. 우유만 충분하면 모든 미량영양소가 자동 충족됨
+D. 빈혈이 생긴 뒤에만 식이를 평가하면 됨
 
 ## 해설
 
-철분이 부족하면 헤모글로빈 합성이 감소해 적혈구가 작아지고 색소가 옅어지며 빈혈이 나타난다.
+성장기에 필요한 철 섭취를 확인하고 과도한 우유 섭취로 철 식품이 밀려나지 않도록 한다. 철결핍이 확인되면 식이 교정과 필요한 보충을 함께 계획한다.
 
 ## 오답 포인트
 
-- **B. 적혈구가 비정상적으로 커지고 혈색소 농도가 높은 거대적아구성 빈혈:** 거대적아구성 빈혈은 비타민 B12·엽산 결핍이 원인이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 철 결핍성 빈혈 (Iron Deficiency Anemia)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/철 결핍성 빈혈 (Iron Deficiency Anemia).md`
-- 학습 목표: 원문 핵심: - **정의**: 체내 철분 부족으로 인해 헤모글로빈 합성이 저하되어 발생하는 빈혈 - **원인**: 철분 섭취 부족(이유식 지연, 편식 등), 흡수 장애(위장관 질환 등), 만성 출혈(위장관 출혈, 월경 과다 등) - **기전**: 철분 결핍으로 헤모글로빈 합성이 감소하여 적혈구의 크기가 작아지고 색소가 옅어짐
+- 학습 목표: 영유아 철결핍과 과도한 우유·불충분한 철 섭취
+
+## 검수 근거
+
+- https://www.rch.org.au/clinicalguide/guideline_index/Iron_deficiency/

@@ -25,15 +25,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -58,8 +60,11 @@ D. 신경이완제 악성 증후군
 
 ## 해설
 
+Haloperidol 노출 후 고열·의식 변화·전신 강직·발한·빈맥 및 현저한 CK 상승이 있어 신경이완제 악성증후군(D)이 가장 적절하다. 이 반응은 저용량에서도 가능하며, clonus·과다반사보다 강직이 두드러지는 점도 부합한다. CSF와 MRI는 중추신경계 감염이나 염증을 적극 지지하지 않는다.
 
-고용량 근육경련, 고열, 의식 변화, 근육 경직, 정상 CSF와 급격히 상승한 CK는 신경이완제 악성 증후군(NMS)을 특징짓는다. 다른 선택지는 감염성 뇌염·수막염·파종성 뇌척수염과 일치하지 않는다. 따라서 NMS가 가장 가능성 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저용량 haloperidol에서도 발생 가능한 NMS D를 유지하고 존재하지 않는 고용량·근육경련 문구를 제거한다.
 
 ## 출처
 

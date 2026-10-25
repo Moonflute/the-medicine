@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 핵산증폭검사
 
 ## 해설
 
+쉽게 출혈하는 자궁경부와 점액농성 분비물은 자궁경부염 소견이다. 질·자궁경부 또는 소변 검체 NAAT로 클라미디아와 임질을 평가한다(D). 분비물과 pH만으로 특정 병원체를 확진하지 않으며 필요시 BV·트리코모나스도 평가한다.
 
-임신 중 비정상 질 분비물·자궁경부 염증·악취는 클라미디아 감염을 시사한다. 핵산증폭검사(NAA)로 빠르게 진단할 수 있다. 습윤도말검사·아민 검사·소변배양은 민감도가 낮다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 점액농성 자궁경부염의 GC/CT NAAT D 유지. 클라미디아 확정으로 단정한 해설 수정.
+- https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm
 
 ## 출처
 

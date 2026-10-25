@@ -20,16 +20,18 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 알약 유발 식도염
 
 ## 해설
 
+Alendronate 복용과 중부 식도 병변·급성 흉통은 D의 알약 유발 식도손상에 부합한다. 식도 증상이 발생하면 복용을 중단하고 평가한다. 충분한 물과 함께 복용하고 적어도 30분 및 첫 음식 섭취 때까지 눕지 않는 등 투여법이 중요하다. Naloxegol은 이 식도손상의 치료약이 아니다.
 
-SLE 환자에서 장기 복용하는 알렌드로네이트와 칼슘제는 식도 점막 손상을 일으켜 알약 유발 식도염을 초래한다. 증상 완화를 위해 μ‑수용체 길항제인 날록세골이 효과적이다. 따라서 날록세골이 적절한 약물이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Alendronate 복용 식도염 D 해설의 무관한 naloxegol 연결을 제거.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14e931fd-2c5f-4d90-b7db-5980706f4a56
 
 ## 출처
 

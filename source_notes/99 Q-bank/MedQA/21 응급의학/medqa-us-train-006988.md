@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. CREST 증후군
 
 ## 해설
 
+갑작스러운 다리 통증, 차가움, 맥박 소실과 근력 저하는 급성 하지 허혈(C)을 시사한다. 불규칙한 맥박은 심방세동과 심장성 색전 가능성을 높이지만 심전도 확인 없이 확진한 것은 아니다. 색전은 사지 동맥을 폐색할 수 있으며 반드시 대동맥에 걸려야 하는 것은 아니다. 신경학적 이상은 위협받는 사지의 단서이므로 신속한 혈관 평가가 필요하다.
 
-심방세동 환자에서 혈전이 대동맥으로 이동해 급성 사지 허혈을 일으키며, 맥박 소실과 차가운 팔다리가 특징이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성 하지 허혈 C는 유지한다. 불규칙 맥박만으로 심방세동을 확진하고 색전이 반드시 대동맥에 걸린다고 설명한 오류를 제거한다.
 
 ## 출처
 

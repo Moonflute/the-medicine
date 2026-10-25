@@ -22,16 +22,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,13 @@ D. 가바펜틴(Gabapentin)
 
 ## 해설
 
+혈관운동증상과 질건조가 있고 자궁절제술을 받았으므로 금기 없으면 전신 에스트로겐 단독(A)이 적절하다. 자궁내막 보호 목적의 프로게스틴이 필요하지 않다는 점이 B와의 차이다. 투여 경로·용량·기간은 개인 위험과 선호에 따라 정하고 정기 재평가한다.
 
-폐경 후 안면 홍조·수면 장애·질 건조는 에스트로겐 결핍이 원인이다. 단기 증상 완화를 위해 에스트로겐 단독 호르몬 대체 요법이 가장 효과적이다. 따라서 정답은 에스트로겐 단독 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 자궁절제 후 프로게스틴 불필요라는 선택 근거와 위험 개별화 보강.
+- https://www.acog.org/womens-health/faqs/hormone-therapy-for-menopause
 
 ## 출처
 

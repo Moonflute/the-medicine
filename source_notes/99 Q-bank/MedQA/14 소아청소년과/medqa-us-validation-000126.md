@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. A형간염
 
 ## 해설
 
+생후4일의 긴 야간 수유 간격과 매우 적은 배변은 섭취 부족 관련 고빌리루빈혈증, 과거 명칭 모유수유 황달(A)을 시사한다. 섭취·배출 감소로 장간순환이 증가하는 기전이며 모유 성분만의 억제로 설명하지 않는다. 수유 효과·체중·배뇨·시간별 빌리루빈을 평가하고 지원한다. 충분히 먹는 상태에서 더 오래 지속되는 모유황달과 구별한다.
 
-생후 4일에 모유만 먹고 황달이 나타나는 경우는 모유수유 황달(모유에 있는 물질이 빌리루빈 대사를 억제)이다. 모유 자체의 황달은 출생 후 2‑3일에 나타나는 생리적 황달과 구분된다. 따라서 정답은 모유수유 황달(A)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모유수유 황달과 모유황달의 발생 기전을 뒤바꾼 오류 교정.
+- https://doi.org/10.1542/peds.2022-058859
 
 ## 출처
 

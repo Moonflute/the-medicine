@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 류마티스인자 검사
 
 
 MCP 관절에 압통과 색소 침착은 혈색소증(철과다증)에서 흔히 나타난다. 진단을 위해서는 철분 검사(혈청 ferritin, transferrin saturation)가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008960 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 2·3 MCP 관절병·색소침착·당뇨에서 철과다 의심 iron studies C는 초기 진단 접근상 일치.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://easl.eu/wp-content/uploads/2022/06/PIIS01688278220021121.pdf
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 교뇌 경색
 
 ## 해설
 
+양측 어깨·상완의 통각/온도각만 감소하고 진동감각과 하지 감각이 보존되는 해리성 감각소실은 척수 중심부를 교차하는 통각·온도각 섬유 손상에 맞는다. 보기 중 중심 척수 증후군(B)이 가장 적합하다. 전형적인 외상성 중심척수 증후군의 상지 우세 근력저하가 이 본문에는 없으므로 실제로 관찰된 운동마비나 척수공동을 추가해서는 안 된다.
 
-목표 부위가 상완과 어깨에 국한되고 진동감각이 보존된 반면 온·통각이 감소한 것은 중앙척수증후군(central cord syndrome)과 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 중심부 척수 병변 B의 해부 근거를 보완하고 운동 정상임을 존중.
 
 ## 출처
 

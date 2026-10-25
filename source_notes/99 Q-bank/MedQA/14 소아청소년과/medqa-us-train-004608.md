@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 헤모글로빈 알파 사슬 결함
 
 ## 해설
 
+생후 4일에 약 10.9% 체중 감소, 적은 소변과 함몰된 대천문은 유효 수유량 부족을 지지한다. 낮은 섭취에 따른 장간순환 증가로 비결합 빌리루빈이 상승할 수 있어 C가 적절하며 AAP는 이를 suboptimal intake hyperbilirubinemia로 구분한다. 3시간마다 수유한다는 빈도만으로 양이 충분하거나 부족하다고 결정할 수 없다. 탈수와 TSB 20 mg/dL를 무해한 생리적 황달로 단정하지 않으며 치료 역치는 정확한 생후 시간·재태연령·위험요인에 따라 판단한다.
 
-신생아 황달이 2일 차에 나타나고 직접 빌리루빈이 거의 정상이며 체중 감소와 수유 빈도가 낮은 경우는 모유수유 부족에 의한 생리적 황달이다. 따라서 원인은 불충분한 모유수유이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 10% 넘는 체중 감소·탈수와 TSB 20을 단순 생리적 황달로 설명하고 3시간 간격 수유를 무조건 낮은 빈도로 본 오류를 교정했다.
+- https://publications.aap.org/pediatrics/article/150/3/e2022058859/188726/Clinical-Practice-Guideline-Revision-Management-of
 
 ## 출처
 

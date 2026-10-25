@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 대장내시경
 
 ## 해설
 
+우하복부 압통과 좌측 깊은 촉진 시 우측 통증은 충수염을 시사하는 Rovsing 징후 맥락이다. 임신 양성이므로 자궁외임신 등 산과 원인도 함께 평가하고 초음파(C)를 먼저 사용한다. 비진단적이면 임신 중 MRI 등을 고려하며 수술 평가를 지연하지 않는다.
 
-임신 중 복통과 양쪽 복부 압통, 특히 반대쪽 반발통은 자궁외임신을 의심하게 한다. 초음파는 비침습적으로 임신낭 위치와 이소성 임신을 확인할 수 있는 1차 검사이다. 따라서 초음파가 가장 적절한 다음 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 충수염 징후를 자궁외임신으로만 연결한 오류 수정.
+- https://www.idsociety.org/practice-guideline/intra-abdominal-infections/
 
 ## 출처
 

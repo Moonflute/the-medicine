@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,11 @@ D. MRI에서 대뇌피질의 심한 위축
 
 ## 해설
 
+인지저하·요실금·짧고 느린 보행이 함께 나타나 정상압수두증을 의심하며, 가장 예상되는 영상 소견은 MRI에서의 뇌실 확장(B)이다. 대뇌피질 위축만으로 이 삼징을 설명한 기존 해설은 정답과 연결되지 않는다. 뇌실 확장은 전반적 피질 위축에 비해 불균형한 정도인지 등을 평가하며, 실제 진단에는 다른 인지·보행장애 원인과 뇌척수액 평가를 종합한다.
 
-보행 장애와 인지 저하가 있으나 뇌실 확대는 없고, 경미한 대뇌피질 위축이 보이는 것이 정상압 수두증보다 흔한 연령 관련 위축이다. 따라서 가장 가능성 높은 소견은 MRI에서 대뇌피질의 경미한 위축이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정답 B 뇌실 확장과 반대로 대뇌피질 위축을 정답처럼 설명한 해설을 정상압수두증의 임상 삼징과 영상 소견으로 교체했다.
 
 ## 출처
 

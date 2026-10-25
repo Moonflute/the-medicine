@@ -22,9 +22,11 @@ explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,6 +46,13 @@ D. 혈청 가스트린 수치 측정
 
 
 급성 복통과 복부 반발통은 복막염을 의심하게 하며, 진단을 위해서는 복부·골반 CT가 가장 민감하고 빠른 영상법이다. 따라서 응급 복부 및 골반 CT 촬영이 최선의 조치이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: PUD 뒤 급성 복막자극 소견에서 천공 평가를 위한 응급 CT B가 선택지 중 적합. H.pylori/gastrin 확인 때문에 급성 평가 지연하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

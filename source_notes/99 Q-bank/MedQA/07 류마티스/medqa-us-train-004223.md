@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,6 +52,13 @@ D. 보존적 치료
 
 
 급성 관절통과 발적, 부종이 급성 화농성 관절염을 의심하게 하며, 원인 파악을 위해 관절액을 직접 채취해 분석해야 한다. 관절액 흡인은 진단과 동시에 치료 방향을 결정한다. 따라서 관절액 흡인이 가장 적절한 초기 처치이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004223 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 면역억제 상태의 급성 열성 단관절염은 신속한 관절천자 C로 감염을 평가해야 한다. 쇼크가 명확하지 않아 가능하면 항생제 전 검체 확보라는 SANJO 권고와 일치하며 실제 패혈증에서는 항생제를 지연하지 않는다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/
 
 ## 출처
 

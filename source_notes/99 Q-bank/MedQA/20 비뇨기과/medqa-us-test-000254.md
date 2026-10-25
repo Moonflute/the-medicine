@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 질막의 체액 분비와 흡수 불균형
 
 ## 해설
 
+빛이 투과하는 낭성 음낭 종괴가 기침·자세변화로 줄어들지 않고 종괴 위쪽을 만질 수 있어 비통신성 음낭수종을 시사한다. 질막(tunica vaginalis)의 체액 분비와 흡수 불균형(D)이 가장 적절한 기전이다. 덩굴정맥얼기 확장이나 정삭 꼬임을 설명하는 소견은 아니다.
 
-음낭에 부드럽고 낭성인 무통성 종괴가 빛을 투과하고 고환이 정상인 경우, 질막(스케르톤)의 체액 분비와 흡수 불균형으로 발생하는 음낭수종이 가장 흔한 원인이다. 따라서 질막의 체액 분비와 흡수 불균형이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 질막에 스케르톤이라는 무관 명칭을 붙인 오역 제거. 비통신성 수종의 분비/흡수불균형 D 유지.
 
 ## 출처
 

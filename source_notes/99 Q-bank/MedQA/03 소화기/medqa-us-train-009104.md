@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 자기공명 담췌관 조영술(MRCP)
 
 
 직접 빌리루빈 상승, 알칼리성 포스파타제 상승, 간 초음파 정상은 원발 담즙성 담관염을 시사한다. 진단에 특이적인 항미토콘드리아 항체(AMA) 검사가 가장 먼저 시행되어야 한다. 따라서 AMA 검사가 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009104 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 소양증·담즙정체·정상 담관 초음파와 자가면역 동반질환에서 AMA(B) 확인이라는 원문·해설의 진단 논리를 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.aasld.org/practice-guidelines/primary-biliary-cholangitis
 
 ## 출처
 

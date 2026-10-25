@@ -21,11 +21,11 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,14 @@ D. 로사르탄을 리시노프릴로 변경
 
 ## 해설
 
+메토프롤롤 추가 후 발생한 발기부전과 맥박 58회/분은 약물 기여를 검토할 근거가 되어 C가 선택지 중 적합하다. 다만 성기능장애는 다인성이며 이뇨제 등 다른 요인도 확인한다. 심부전에서 베타차단제의 이득을 고려해 제형, 용량, 증상과 심기능을 평가하며 감량 여부를 결정하고 갑자기 중단하지 않는다.
 
-베타 차단제인 메토프롤롤은 발기부전의 흔한 원인이다. 용량을 감소시키면 성기능이 개선될 수 있으므로 용량 감소가 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 약물 관련 발기부전의 C를 유지하되 심부전 예후약을 임의 중단하는 오용을 제한.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

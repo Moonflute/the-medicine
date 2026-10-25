@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 뇌하수체 코르티코트로핀 활성 억제
 
 ## 해설
 
+저Na·고K·수장선과색소와 낮은cortisol/불충분 cosyntropin반응은 원발성부신부전이다. 원형탈모 등 자가면역배경은 부신자가면역파괴 C를 지지한다. ACTH자체가 반응하지 않는다는 뜻이 아니라 부신이 외부ACTH자극에 cortisol을 올리지 못한다는 뜻이다. 과거국소steroid만으로 뇌하수체억제를 확정하지 않는다.
 
-자가면역 부신 파괴가 코르티솔 저하와 ACTH 비반응을 일으켜 애디슨병을 유발한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 자가면역 원발성부신부전 C에서 ACTH분비와 cosyntropin반응을 혼동한 표현 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

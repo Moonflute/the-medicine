@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 탈리도마이드
 
 ## 해설
 
+다리로 방사되는 요통, 양성 하지직거상검사와 MRI의 추간판 탈출은 요추 신경근성 통증을 지지하므로, 제시된 선지에서는 이 통증에 대한 운동·물리치료(B)가 적절하다. 정상 혈색소·칼슘·신장기능과 단순 골격조사 음성만으로 혈액질환 평가가 끝난 것은 아니다. M단백 40 g/L와 골수 형질세포 20%는 무증상 골수종(smoldering myeloma) 범주의 가능성이 있어 유리경쇄·적절한 전신 영상·위험도 평가가 필요하다. 고위험 smoldering myeloma에는 2025년 미국에서 승인된 치료도 있으므로 모든 경우에 무조건 관찰만 한다고 일반화하지 않는다. 제시된 통증을 근거 없이 골수종성 골병변으로 단정하여 덱사메타손·탈리도마이드를 시작하지 않는다.
 
-환자는 무증상 다발 골수종(단클론 IgG)과 요추 디스크 탈출이 동반된 상태이며, 증상이 경미하고 신경학적 결손이 없으므로 먼저 보존적 치료인 물리치료를 시행한다. 이는 골수종 자체가 통증을 유발하지 않으며 디스크 증상에 대한 1차 관리가 물리치료임을 의미한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 물리치료 B는 방사통과 확인된 추간판 탈출에 대한 선택으로 유지하되 단클론 단백·형질세포 이상은 따로 혈액학적 위험평가가 필요함을 명시했다. 무증상 골수종이면 무조건 무치료라는 해석을 막았다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng59/chapter/Recommendations
+- 공식/학회 근거: https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daratumumab-and-hyaluronidase-fihj-high-risk-smoldering-multiple-myeloma
 
 ## 출처
 

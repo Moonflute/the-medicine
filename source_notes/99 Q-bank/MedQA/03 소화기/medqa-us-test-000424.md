@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 단백질 침착
 
 ## 해설
 
+오랜 반복성 혈성 설사와 복통은 만성 염증성 장질환을 고려하게 한다. 만성 염증에 이차적인 AA 아밀로이드가 신장에 침착하면 단백뇨와 신기능 저하가 생길 수 있어 보기 중 D, 단백질 침착이 출제 의도에 합당하다. 혈청 알부민은 제시되지 않았으므로 감소했다고 단정하지 않는다. 실제로는 탈수, 약물/코카인 관련 손상, 감염후 사구체질환 등도 평가하며 이 정보만으로 아밀로이드증을 확진하지 않는다.
 
-소변에서 단백질이 검출되고 혈청 알부민이 감소한 경우, 전신성 아밀로이드 침착이 신장에 단백질 침착을 일으켜 단백뇨를 유발한다. 환자의 간 효소 상승과 알코올 농도는 아밀로이드증과는 무관하므로 가장 잘 설명하는 것은 단백질 침착이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 D 유지. 측정되지 않은 저알부민을 가정한 설명을 제거하고 만성 장 염증 가능성과 AA 아밀로이드 신장 침착의 추론 한계 명시.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 뇌간 반사 평가
 
 ## 해설
 
+제시된 다음 평가로 뇌간반사를 포함한 신경학적 진찰(D)이 적절하다. 그러나 GCS3 또는 장기기증등록 자체는 뇌사의 증거가 아니다. 뇌사판정은 알려진 파괴적 뇌손상의 영구성, 약물·체온·대사교란 배제 등 전제가 충족되어야 하며, 이 사고1시간후 정보만으로 뇌사판정 준비가 완료되었다고 단정할 수 없다. 무호흡검사나 보조검사도 적응/안전전제를 충족한 뒤 시행한다.
 
-뇌사 판정에 필수적인 단계는 뇌간 반사(동공, 안구 움직임, 반사) 평가이다. 이는 다른 검사보다 먼저 수행된다. 따라서 다음 평가는 뇌간 반사 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. GCS3/사고1시간/기증등록만으로 뇌사평가를 자동시작하는 해설 완화. 임상신경평가 D와 뇌사전제 구분.
+- 공식/학회 근거: https://www.neurology.org/doi/10.1212/WNL.0000000000207740
 
 ## 출처
 

@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 자궁경부 확장 및 소파술
 
 ## 해설
 
+경부가 열리고 심박동이 없는 임신낭이 하강하며 출혈·저혈압·빈맥이 있어 진행 중 유산이 의심된다. 수액·혈액 준비 등 소생과 함께 긴급 자궁 내용물 제거가 필요하므로 D가 가장 적절하다. 항생제만으로 출혈 원인을 해결할 수 없고, 감염이 의심되면 항생제도 병행한다. 반복 초음파를 위해 불안정 환자 처치를 지연해서는 안 된다.
 
-임신 13주에 불완전 유산이 의심될 때는 자궁경부 확장 및 소파술을 시행해 조직을 배출하고 출혈을 조절한다. 따라서 다음 단계는 자궁경부 확장 및 소파술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 조직 배출 전이므로 불완전 유산 단정 대신 진행 중 유산 및 출혈성 불안정에 따른 긴급 배출 설명.
+- https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss
 
 ## 출처
 

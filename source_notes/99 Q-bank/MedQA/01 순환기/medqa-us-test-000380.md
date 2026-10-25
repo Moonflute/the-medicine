@@ -19,17 +19,19 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 심낭의 섬유성 비후
 
 ## 해설
 
+정답은 C이다. 심낭염을 시사하는 흉통 뒤 호흡곤란·경정맥 팽창이 발생하고 흡기 때 수축기혈압이 107에서 86 mmHg로 21 mmHg 떨어진다. 이는 과도한 흡기 수축기혈압 감소인 기이맥으로 심낭액 축적에 의한 심장압전을 시사한다. 수축기와 이완기 혈압의 차이인 맥압을 뜻하지 않으며 본문에 제시되지 않은 심음 소견을 만들어 설명하지 않는다.
 
-심정맥압 상승, 경정맥 팽창, 저혈압 차이(맥박압 감소)와 심낭 삼출음은 심낭에 액체가 축적된 심낭삼출을 나타낸다. 이는 심낭 공간에 체액이 모여 심장 압박을 일으키는 상태이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 흡기 수축기혈압 21 mmHg 감소를 맥압 변화로 오해한 설명 및 존재하지 않는 청진 소견 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

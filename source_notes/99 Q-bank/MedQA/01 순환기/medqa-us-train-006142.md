@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 대동맥판 협착에서 잡음 증가
 
 ## 해설
 
+쪼그려 앉으면 정맥환류와 전신혈관저항이 증가하여 좌심실 충만/크기가 커지고 동적 유출로폐쇄가 줄어 HOCM 잡음 A가 감소한다. 좌심실 용적이 줄어서 잡음이 약해지는 것이 아니다.
 
-운동 중 실신 시 쪼그려 앉으면 비후성 폐쇄성 심근병증에서 잡음이 감소한다. 이는 좌심실 부피 감소와 관련된 특징이다. 승모판 협착은 자세 변화에 따라 잡음이 증가하거나 감소하지만, 이 경우와는 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Squat의 HOCM잡음 감소 A를 좌심실 용적감소라는 반대 기전에서 증가로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

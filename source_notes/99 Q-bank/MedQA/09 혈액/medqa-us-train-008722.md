@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 골수의 콜라겐과 섬유조직 침윤
 ## 해설
 
 
-골수검사에서 저세포성 지방 충만 골막은 저형성 빈혈을 특징짓는다. 이는 골수 전구세포가 감소한 상태를 의미한다.
+장기비대 없이 범혈구감소와 심한 망상적혈구 감소가 있어 재생불량빈혈이 의심된다. 골수검사에서는 조혈세포가 감소하고 지방으로 대체된 저세포성 골수(B)가 예상된다. 골막의 이상을 뜻하는 것이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008722 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 범혈구감소·망상적혈구 저하에서 재생불량빈혈의 지방성 저세포 골수 B를 유지. 골수를 골막으로 기술한 오류를 정리.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

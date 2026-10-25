@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 선천성 수두 감염(Congenital varicella infection)
 
 ## 해설
 
+선천성 톡소플라스마증(A)의 고전적 삼징후는 맥락막망막염, 수두증과 두개내 석회화이다. 이 사례의 후포도막염, 큰 머리둘레·뇌실 확장과 여러 뇌 부위 고에코성 병변이 이를 지지한다. 황달·자반과 청력 이상도 동반될 수 있으나 각각을 고전적 삼징후 구성요소라고 부르면 안 된다.
 
-신생아의 황달, 망막염, 청력 이상, 뇌실 확장 및 고에코 병변은 선천성 톡소플라스마증의 전형적인 삼중 징후이다. 따라서 톡소플라스마 감염이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 톡소삼징후를황달/난청등까지나열한오류교정. 맥락막망막염·수두증·두개내석회화A.
+
 
 ## 출처
 

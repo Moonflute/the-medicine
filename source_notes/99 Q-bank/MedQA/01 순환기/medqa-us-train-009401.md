@@ -20,13 +20,15 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 고박출성 심부전
 
 ## 해설
 
+큰 S1과 심첨부의 저음성 이완기 잡음은 승모판 협착을 시사한다. 좌심방 압력 상승과 확장은 심방세동 위험을 높이므로 C의 심장 부정맥이 적합하다. 심실세동을 승모판 협착의 대표적 직접 합병증으로 함께 묶는 것은 부정확하다.
 
-승모판 협착은 좌심방 압력 상승으로 심방 비대와 전도계 변화를 일으켜 심방세동·심실세동 등 부정맥 위험을 크게 높인다. 환자는 승모판 협착에 따른 심잡음과 호흡곤란을 보이며, 가장 흔한 합병증은 심장 부정맥이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 승모판 협착의 대표 부정맥인 심방세동을 심실세동과 동급으로 설명한 과장을 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

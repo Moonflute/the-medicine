@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 면밀한 관찰
 
 ## 해설
 
+인공호흡 중 갑자기 기도 압력이 상승하고 한쪽 호흡음이 감소하면 기흉을 의심한다. 누운 자세 흉부 X선에서 깊어진 늑골횡격막각인 deep sulcus sign은 흉막강 공기를 시사한다. 양압환기 중인 환자의 기흉은 악화될 수 있으므로 흉관 배액(B)이 적절하다. 현재 활력징후만으로 반드시 긴장성 기흉이라고 단정할 필요는 없으며, 순환 장애가 진행하면 즉시 감압해야 한다.
 
-기계환기 중 급성 호흡곤란과 흉부 X선에서 흉막 공간이 확대된 것은 기계환기 관련 긴장성 기흉을 시사한다. 즉시 흉관 삽입으로 공기 배출이 필요하다. 따라서 가장 적절한 처치는 흉관 삽입이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 누운 환자의 깊은 늑골횡격막각과 일측 호흡음 감소는 기흉을 지지한다. 긴장성 기흉을 무조건 단정하지 않고 양압환기 중 흉관 배액 B의 근거를 설명한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

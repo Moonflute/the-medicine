@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. B형간염 감염
 ## 해설
 
 
-비결합성 빌리루빈이 경미하게 상승하고 간 효소는 정상이며, 간염 바이러스 항체는 음성인 경우 선천성 비결합성 고빌리루빈혈증인 길버트 증후군이 의심된다. 이는 UGT1A1 효소 활성이 감소해 발생한다. 따라서 길버트 증후군이 정답이다.
+가벼운 간접 bilirubin 상승에 정상 간효소·정상 망상적혈구/도말은 Gilbert 증후군(A)을 지지한다. UGT1A1 활성이 감소하여 금식·질병 뒤 황달이 두드러질 수 있다. Anti-HAV IgG와 anti-HBs는 실제로 양성이며 면역의 단서이지 모두 음성이 아니다. Rotor·Dubin–Johnson은 주로 직접 bilirubin 상승과 관련된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008760 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정상 간효소·비용혈성 간접 고bilirubin은 Gilbert A. 원문 양성 antiHAV IgG·antiHBs를 음성이라 기술한 명백 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

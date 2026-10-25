@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 계면활성제 치료
 
 ## 해설
 
+미숙아의 조기 호흡곤란과 저용적 망상과립 음영은 계면활성제 결핍 RDS에 부합한다. 자발호흡이 있는 이 경우 초기 비침습적 CPAP(B)가 적절하다. CPAP에도 산소 요구·호흡곤란이 증가하면 구제 계면활성제를 투여할 수 있으므로 CPAP가 모든 상황에서 단독으로 가장 효과적이라는 의미는 아니다.
 
-미숙아에서 호흡곤란, 저산소증, 흉부 X선상의 미만성 그레이 패턴은 신생아 호흡곤란 증후군을 의미하며, 치료는 지속적 양압기 환기가 가장 효과적이다. 스테로이드는 예방에 사용되지만 이미 증상이 나타난 경우는 CPAP가 1차 치료다. 따라서 지속적 양압기 환기가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: RDS 초기 CPAP와 필요한 구제 surfactant를 상호배타적 치료로 단정하지 않도록 교정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13038240/
 
 ## 출처
 

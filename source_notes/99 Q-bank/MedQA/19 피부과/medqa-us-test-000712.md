@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 어루러기
 
 ## 해설
 
+영아기부터 지속되는 건조·미세인설, 굴곡부 보존, 모낭각화와 뚜렷한 손발바닥 주름은 심상성 어린선(C)을 지지한다. 필라그린은 피부장벽 형성에 관여하는 단백질이며 비타민A가 아니다. 손발 주름의 변화도 단순 색소침착만으로 설명하지 않는다. 본문 형태가 충분해 별도 그림 없이 판단 가능하다.
 
-생후 6개월부터 건조하고 비늘 같은 피부, 손발 주름의 과다 색소침착, 모낭 기저부에 구진이 있는 모습은 필라그린(비타민 A) 결핍에 의한 심상성 어린선의 전형적인 특징이다. 이는 건조피부와 구진을 동반한다. 따라서 가장 가능성 높은 진단은 심상성 어린선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 필라그린을 비타민A로 동일시한 기초병리 오류 수정. 심상성어린선 C 유지.
 
 ## 출처
 

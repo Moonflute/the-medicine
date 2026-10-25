@@ -21,13 +21,15 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,16 @@ D. 24시간 소변 코르티솔 측정
 
 ## 해설
 
+말단·안면의 비대, 다한증, 두통과 고혈압은 성장호르몬 과다에 의한 말단비대증을 의심하게 한다. 혈당 260 mg/dL는 고혈당이며 인슐린 수치가 측정된 것은 아니다. 보기 중 초기 생화학적 평가로 가장 적절한 검사는 A, 연령을 고려한 혈청 IGF-1 측정이다.
 
-두통, 고혈압, 말단 비대, 고인슐린혈증은 성장호르몬 과다를 시사한다. 성장호르몬 과다증은 IGF‑1 상승을 동반한다. 따라서 혈청 IGF‑1 측정이 진단 단계에서 가장 적절하다.
+IGF-1이 높거나 경계값이면 임상 상황과 검사 특성에 따라 경구 포도당 투여 후 성장호르몬 억제 여부 등을 평가한다. 프로락틴이나 코르티솔은 이 사례의 전형적인 말단 비대 소견에 대한 첫 검사로 더 적절하지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. 실제 측정은 고혈당인데 고인슐린혈증이라고 한 오류를 수정하고 IGF-1 우선 검사/필요 시 GH 억제 확인 순서를 설명.
+- https://academic.oup.com/jcem/article/99/11/3933/2836347
 
 ## 출처
 

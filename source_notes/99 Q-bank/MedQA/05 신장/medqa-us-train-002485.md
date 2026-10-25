@@ -19,15 +19,17 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 보체 비의존성 반응
 
 ## 해설
 
+인후감염 수주 후 나타난 부종·고혈압·차색뇨와 변형 적혈구는 감염 후 사구체신염을 시사한다. 연쇄상구균 감염 후 사구체신염은 면역복합체에 의한 염증과 보체 활성화가 기전이므로 B가 가장 적절하다. 감염과 거의 동시에 발생하는 IgA 신병증과 구분한다.
 
-최근 인후통 후 2주 이내에 나타난 혈뇨와 단백뇨, 변형 적혈구는 면역복합체가 사구체에 침착되는 사후연쇄상구균성 사구체신염을 시사한다. 이 질환은 면역복합체 매개 반응이다. 따라서 가장 잘 맞는 기전은 면역복합체 침착이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원문 수주 후 발병을 해설이 2주 이내라고 좁힌 오류 교정. PSGN 면역복합체 B 유지.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

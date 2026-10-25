@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 특발성(Idiopathic)
 
 ## 해설
 
+간헐적 산통, 무릎을 가슴으로 당기는 행동, 혈액·점액변과 소시지 모양 복부종괴는 장중첩증에 부합한다. 소아 장중첩증은 특발성(D)이 가장 흔하다. 메켈게실 같은 병적 선행부나 IgA혈관염도 장중첩증을 유발할 수 있으므로 같은 임상상을 보이지 않는다고 배제해서는 안 된다.
 
-복통, 무릎을 가슴으로 끌어당기는 행동, 혈변, 우상복부에 소시지 모양 덩어리는 소아에서 가장 흔한 원인인 특발성 장중첩(intussusception)이다. 다른 원인들은 이 전형적인 삼각형 증상과 일치하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Meckel/HSP도같은장중첩증을일으킬수있는데양상과안맞다고배제한오류교정. 가장흔한특발성D유지.
+
 
 ## 출처
 

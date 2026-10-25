@@ -18,11 +18,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. Vancomycin 및 cefepime
 
 ## 해설
 
+입원 중 화농성 화상 부위와 고열·빈맥은 감염을 시사한다. 보기 중 반코마이신과 세페핌(D)은 MRSA 및 녹농균 포함 호기성 그람음성균을 겨냥하는 경험적 조합이다. 배양·감염원 제거와 지역 내성을 반영한다. 세페핌을 신뢰할 만한 혐기성균 단독 치료제로 설명하지 않는다.
 
-2세 화상 환자는 화상 부위에 화농성 분비물이 있어 2차 감염 위험이 있다. 화상 감염 초기에 광범위 그람양성균을 커버하는 반코마이신과 그람음성·혐기성균을 커버하는 세페핌을 함께 사용하는 것이 가장 적절한 초기 항생제 조합이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 고열·화농성 화상감염의 MRSA+그람음성 경험치료 D 유지. 세페핌을 혐기성균 치료제로 설명한 오류 수정.
+- https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

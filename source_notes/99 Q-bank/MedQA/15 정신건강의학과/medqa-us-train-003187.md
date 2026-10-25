@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 펜시클리딘 염산염(PCP)
 
 ## 해설
 
+격렬한 행동 변화와 회전성 안진은 PCP의 해리성 중독을 시사하므로 D가 가장 적절하다. PCP 노출에서 안진이 중요한 감별 단서가 된다. '돌연변이된 PCP'라는 별도 약물 형태를 가정할 필요가 없고, 이 소견 하나가 실제 노출 물질을 확정하거나 다른 약물 가능성을 절대 배제하는 것도 아니다.
 
-돌연변이된 PCP(Phencyclidine) 중독은 급성 공격성, 회전성 안진, 안면 홍조를 일으킨다. 다른 약물은 이러한 증상을 동반하지 않는다. 따라서 가장 가능성 높은 검출 물질은 PCP이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 근거 없는 돌연변이 PCP 표현과 다른 약물에서 해당 징후가 절대 없다는 단정을 제거했다.
+
 
 ## 출처
 

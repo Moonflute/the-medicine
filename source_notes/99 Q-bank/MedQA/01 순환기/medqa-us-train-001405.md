@@ -20,11 +20,11 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,15 @@ D. 메토프롤롤을 중단하고 프로프라놀롤을 시작
 
 ## 해설
 
+정답은 C이다. 이 환자는 PAD라는 임상 ASCVD와 DM이 있어 LDL85라도 statin 치료 적응증이 있다. 기본적으로 가능한 충분한 강도의 statin으로 이차예방 위험을 줄이고 내약성·목표 LDL을 평가한다. LDL40mg/dL 이상이면 치료한다거나 10년 이하 위험이라는 기준은 없다.
 
-당뇨·고혈압·말초혈관질환 환자는 10년 이하의 위험도에서도 40 mg/dL 이상의 LDL에 대해 스타틴 치료가 권고된다. LDL 85 mg/dL이므로 스타틴 시작이 적절하다. 다른 선택지는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: LDL40 이상이라는 가공 기준을 제거하고 기존PAD/DM의 statin 적응증으로 설명.
+- https://diabetesjournals.org/care/article/49/Supplement_1/S216/163933/10-Cardiovascular-Disease-and-Risk-Management
+- https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251
 
 ## 출처
 

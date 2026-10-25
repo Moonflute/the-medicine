@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,15 @@ D. 이소니아지드 중단
 ## 해설
 
 
-이소니아지드 복용은 비타민 B6(피리독신) 결핍을 초래해 거대적아구성 빈혈을 일으킨다. 환자의 미세소관성 빈혈과 신경학적 증상이 이를 시사하므로 피리독신 보충이 필요하다.
+Isoniazid는 pyridoxine 대사를 방해하여 말초신경병증과 드물게 철적모구빈혈을 일으킬 수 있다. B6 의존 ALA synthase를 통한 heme 합성이 저하되면 소구성 빈혈에 철·ferritin 상승이 동반될 수 있다. 이 환자는 MCV77 fL이므로 거대적아구성 빈혈이 아니다. 선택지 중 pyridoxine(B) 보충이 적절하며 간효소 변화와 다른 원인도 추적한다. 무증상 경도 간효소 상승만으로 isoniazid를 일률 중단하지 않으며 증상·상승 정도에 따른 약물성 간손상 기준을 적용한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001268 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Isoniazid/B6 결핍을 거대적아구성 빈혈이라 한 오류를 철적모구성 소구성 빈혈로 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b46d1d-2300-457d-a7bd-a88a3f8d2235
+- https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/
 
 ## 출처
 

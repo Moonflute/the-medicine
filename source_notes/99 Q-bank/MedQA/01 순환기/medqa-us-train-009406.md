@@ -23,7 +23,7 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 니트로글리세린
 
 
 고혈압·관상동맥질환 병력이 있는 노인에서 급성 비보상성 심부전(폐부종) 증상이 나타나면, 체액 저류를 감소시켜 폐울혈을 완화하는 이뇨제가 1차 치료이다. 푸로세미드는 루프 이뇨제로 폐부종을 빠르게 개선한다. 따라서 초기 치료 약물은 푸로세미드이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 따뜻한 사지와 울혈·S3·부종을 동반한 급성 심부전의 초기 울혈 해소에는 푸로세미드 C가 적합.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

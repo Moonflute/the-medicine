@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 완전 방실중격결손
 
 ## 해설
 
+상향 안검열·저위 귀·다섯째 손가락 저형성과 고령 산모는 다운증후군을 시사한다. 보기 중 대표적 동반 심장 기형은 완전 방실중격결손(D)이다. 원문에 청각검사나 '저음성 청각' 소견은 제시되어 있지 않다.
 
-다운증후군(트리소미 21) 신생아는 저음성 청각, 저위치 귀, 눈꺼풀 틈 상승, 저형성 5번째 손가락 등 특징을 보이며, 완전 방실중격결손이 흔히 동반된다. 따라서 가장 높은 발견 가능성은 완전 방실중격결손이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문에 없는 저음성 청각이라는 비의학적 표현을 삭제.
+
 
 ## 출처
 

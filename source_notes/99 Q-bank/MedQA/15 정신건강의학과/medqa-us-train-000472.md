@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 항콜린성 독성
 
 ## 해설
 
+새 벤라팍신 투여 후 고열·발한·혼돈·떨림과 항진된 반사는 과도한 세로토닌성 활성(B)에 의한 세로토닌증후군을 시사한다. 최근 중단한 시탈로프람이 남아 있을 가능성과 새 SNRI의 작용이 관련될 수 있다. SSRI 중단 자체가 세로토닌 재흡수 억제를 증가시킨다는 뜻은 아니다. 공식 허가정보도 SNRI/SSRI 단독 또는 다른 세로토닌성 약물과 함께 사용할 때 이 증후군을 경고한다.
 
-벤라팍신과 기존 SSRI 중단 후 세로토닌 재흡수 억제가 급격히 증가하면 중추신경계의 세로토닌 활성이 과도해진다. 이는 근육 경련, 고열, 정신 혼미 등 세로토닌 증후군의 전형적인 증상을 일으킨다. 따라서 원인은 중추신경계 세로토닌 활성 증가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: SSRI 중단 자체가 재흡수 억제를 증가시킨다는 해설을 잔존 약물과 새 SNRI의 세로토닌성 작용으로 교정했다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b23e4bd-b6ab-42f2-b389-0be0b7e11b92
 
 ## 출처
 

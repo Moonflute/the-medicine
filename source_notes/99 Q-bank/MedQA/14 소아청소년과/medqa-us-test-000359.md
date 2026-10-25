@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 회외 후 최대로 신전
 
 ## 해설
 
+견인 뒤 회내 자세로 팔을 쓰지 않는 전형적 pulled elbow는 요골두 아탈구를 시사한다. 과회내(B)로 정복할 수 있고 회외-굴곡도 대안이다. 회외 후 최대 신전(D)은 표준 정복법이 아니다. 정복 후 팔 사용 회복을 확인하고 비전형적 소견이나 실패 시 골절 등을 평가한다.
 
-소아의 요골두 탈구는 회외 제한과 통증이 특징이며, 적절한 치료는 회외 후 최대 신전(재위치)이다. 따라서 정답은 회외 후 최대로 신전이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 B와 반대로 회외·최대 신전을 권한 명백한 오류 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/Pulled_Elbow/
 
 ## 출처
 

@@ -18,15 +18,17 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 총 REM 수면 증가
 
 ## 해설
 
+음주의 급성 효과로 수면 초반 REM이 억제될 수 있어 원정답 C의 의도에 부합한다. 그러나 혈중 알코올이 감소하는 후반부에는 REM 반동과 각성이 증가해 수면이 분절될 수 있다. 따라서 특히 후반부 REM이 감소하며 다른 선택지는 모두 불가능하다는 기존 설명은 부정확하다. 효과는 음주량과 시기 등에 따라 달라지며 음주를 수면 개선법으로 권장하는 문항이 아니다.
 
-알코올은 REM 수면을 억제하고, 특히 수면 후반부의 REM 비율을 감소시킨다. 따라서 밤에 술을 마시는 것이 REM 억제를 초래한다. 다른 선택지는 알코올의 실제 효과와 맞지 않는다. 따라서 정답은 REM 억제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: REM 억제가 특히 후반부라는 잘못된 시간 설명을 초기 억제와 후반부 반동/분절로 바로잡았다.
+- https://arcr.niaaa.nih.gov/media/1911/download?inline=
 
 ## 출처
 

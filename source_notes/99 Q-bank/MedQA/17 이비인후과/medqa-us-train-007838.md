@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzoxMCDsooXslpEvQ2lzcGxhdGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 푸로세미드
 
 ## 해설
 
+푸로세미드는 루프 이뇨제로 이명과 가역적 또는 드물게 비가역적 이독성이 보고된다. 신기능 저하, 과량 투여 및 다른 이독성 약물 병용은 위험을 높일 수 있다. 약물 관리 혼동과 신기능 악화가 있고 청력이 크게 회복된 이 사례에서는 D가 출제 의도에 가장 부합한다. Cisplatin 이독성은 보통 지속적인 고주파 감각신경성 손상과 연관된다. 아스피린도 용량에 따라 가역적 이독성을 일으킬 수 있으므로 회복만으로 단일 약물이 확정된다고 설명하지 않는다.
 
-루프스(푸로세미드)는 급성 신독성 및 귀에 대한 가역적 신경성 난청을 일으킬 수 있다. 환자의 청력 저하가 약물 투여 후 발생했으며 2주 뒤 회복된 점이 푸로세미드에 의한 독성임을 시사한다. 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 푸로세미드를 루프스라고 오기하고 신손상을 직접 독성의 필수 단계로 설명한 오류를 교정.
+- 공식/학회 근거: https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/016273s068lbl.pdf
 
 ## 출처
 

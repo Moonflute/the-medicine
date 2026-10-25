@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 괴사성 장염
 
 ## 해설
 
+말단 회장의 농축 태변과 microcolon은 태변성 장폐색이며 CF를 의심한다. CF 남아는 선천적 양측 정관 결손 등으로 폐쇄성 무정자증·불임(A) 위험이 높다. 태변 마개가 장 염증을 거쳐 직접 불임을 일으키는 기전은 아니다.
 
-신생아 장폐색에서 태변 플러그가 형성되면 장관 손상과 염증이 진행돼 장기적으로 불임 위험이 증가한다. 알츠하이머·천식·괴사성 장염은 관련이 없다. 따라서 정답은 불임(A)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태변 장폐색이 장 손상으로 불임을 만든다는 잘못된 인과를 CF의 정관 형성 이상으로 교체.
+
 
 ## 출처
 

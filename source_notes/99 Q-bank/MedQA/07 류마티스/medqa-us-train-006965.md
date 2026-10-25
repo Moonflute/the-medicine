@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -55,7 +57,13 @@ D. T세포 대과립 림프구 백혈병
 ## 해설
 
 
-환자는 류마티스관절염 치료에 사용되는 MTX·시클로스포린 등으로 골수억제가 일어나며, 호중구 감소와 비장비대가 동반된 펠티 증후군을 보인다. 이는 면역 억제제에 대한 부작용이다. 따라서 정답은 B이다.
+오래된 변형성 RA·비장비대·호중구감소(ANC 약700/mm³)는 Felty 증후군(B)을 지지한다. Felty는 RA의 전신 합병증으로 면역매개 기전·비장 저류 등이 관여하며 단순히 MTX/cyclosporine 부작용과 동일하지 않다. 실제 복용약이 원문에 명시되지도 않았다. 약물성 골수억제·감염과 T-LGL 백혈병 등은 감별해야 하고, 발열·호중구감소는 신속 감염 평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006965 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Felty를 MTX/면역억제제 부작용 자체로 정의한 오류를 RA 관련 호중구감소·비장비대 증후군으로 교체했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

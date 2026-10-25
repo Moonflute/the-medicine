@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 만성 화농성 중이염
 
 ## 해설
 
+만성 이루, 후상방 고막의 백색 각질성 잔해와 고막 천공은 B, 진주종을 강하게 지지한다. 진주종은 각화 편평상피와 각질 잔해가 축적되어 주변 뼈를 침식할 수 있는 병변이지 콜레노이드라는 종양이 아니다. 이차 감염이 퍼지면 시그모이드정맥동 혈전증 같은 두개내 합병증이 생길 수 있다. 필요한 영상 소견이 본문에 서술되어 있어 MRI 그림 자체가 없어도 문항 판단이 가능하다.
 
-반복적인 중이 감염과 고막 천공, 육아조직 및 고신호 병변은 진주종(콜레노이드 종양)과 연관된다. 진주종은 주변 정맥(시그모이드정맥) 혈전증을 유발할 수 있다. 따라서 가장 가능성 높은 원인은 진주종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 진주종을 콜레노이드 종양으로 잘못 표현한 해설을 각화 편평상피와 각질 축적의 병변으로 교정.
 
 ## 출처
 

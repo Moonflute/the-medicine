@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 엽산 수치 측정
 
 ## 해설
 
+낮은 페리틴·철, 높은 TIBC와 소구성 저색소 빈혈은 철결핍이다. 철분이 적은 식사를 대체하는 과도한 우유 섭취를 줄이는 C가 보기 중 맞지만 이것만으로 치료하지 않는다. Hb 6.4 g/dL의 중증 빈혈은 긴급 임상평가, 철 보충과 면밀한 추적이 필요하며 순환·심부전 증상에 따라 입원·수혈 여부를 판단한다.
 
-1세 이하 영아의 철 결핍성 빈혈은 우유 과다 섭취가 철 흡수를 방해한다. 철 결핍을 교정하기 위해서는 우유 섭취를 제한하고 철 보충이 필요하지만, 우선 원인인 우유 섭취 제한이 가장 중요하다. 따라서 정답은 우유 섭취 제한이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 영양성 철결핍의 우유 제한 C 유지. Hb6.4의 중증 빈혈에서 식이조절만 우선이라는 위험한 해석 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/Iron_deficiency/
 
 ## 출처
 

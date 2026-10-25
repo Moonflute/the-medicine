@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "담도 산통과 구별되는 지속 통증·염증 양상과 고령 비전형성을 남기는 쉬운 복습."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc1xd2hpdux0t3kzaknfcxvjbnnotevnn0ppndzyq2m3smu4sunoqlkzvjbau0jeyuc5c1pxtjvjm1jwzedsekttnxraqxxkaxnlyxnlltaylxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,10 +47,15 @@ D. 설사와 복통이 주된 증상이다.
 
 ## 오답 포인트
 
-- **B. 황달과 가려움증이 주된 증상이다.:** 황달과 가려움은 주로 담관 폐쇄와 관련된 증상이다.
+- **황달과 가려움증이 주된 증상이다.:** 황달과 가려움은 주로 담관 폐쇄와 관련된 증상이다.
 
 ## 출처
 
 - 내부 학습 노트: 급성 쓸개염 (Acute Cholecystitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/급성 쓸개염 (Acute Cholecystitis).md`
 - 학습 목표: 원문 핵심: * **CC**: 우상복부 통증이 주된 증상으로, 담도 산통과 유사하나 더 심하고 지속적(6시간 이상)이다. 어깨나 등으로 방사될 수 있으며, 오심, 구토, 발열이 흔히 동반된다. 고령 환자에서는 식욕 부진, 쇠약감 등 비특이적 증상만 나타날 수 있다. * **P/E**: 우상복부 압통 및 머피 징후(Murphy's sign) 양성이 특징적이다. 우상복부 근육의 반발통이나 방어 긴장(guarding)이 나타날 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 담도 산통과 구별되는 지속 통증·염증 양상과 고령 비전형성을 남기는 쉬운 복습.

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 비강 내 코르티코스테로이드
 
 
 계절성 알레르기 비염의 1차 치료는 염증 억제를 위한 비강 스테로이드제이다. 이는 증상 완화와 장기 관리에 가장 효과적이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001192`와 직접 대조했다.
+- 판정: 계절성 비염의 코막힘·재채기와 선택지 D의 비강 스테로이드가 일치. 원문과 답을 보존하고 비염 약물 선택 근거 확인.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Rhinitis-2020-A-practice-parameter-update.pdf
 
 ## 출처
 

@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-uwlO2EsCDspp3tm4TqtbAgKEJhcnR0ZXIgU3luZHJvbWUpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "희귀 세뇨관 질환의 여러 검사 암기를 한 가지 생리적 비교로 통합."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-바터 증후군의 주요 병리적 기전은?
+바터 증후군의 기본 생리 이상과 가장 유사한 이뇨제 효과는?
 
 ## 선택지
 
-A. 헨레 고리 두꺼운 오름부분에서 NaCl 재흡수 장애
-B. ENaC의 지속적 활성화
-C. 알도스테론 과다 분비에 의한 직접 효과
-D. AQP2 발현 감소에 따른 물 재흡수 저하
+A. 헨레고리 굵은 상행각의 염분 재흡수를 억제하는 루프 이뇨제 효과
+B. 원위세뇨관 NCC를 억제하는 티아지드 효과
+C. 집합관 ENaC 활성 증가
+D. 집합관 수분 재흡수의 선택적 증가
 
 ## 해설
 
-헨레 고리 두꺼운 오름부분(NKCC2 등)의 NaCl 재흡수 실패가 저혈량을 유발해 RAAS가 활성화된다.
+바터 증후군은 굵은 상행각의 염분 재흡수 장애로 염분 소실·저칼륨성 대사성 알칼리증과 이차성 레닌·알도스테론 증가를 보인다. 모든 아형을 단일 유전자나 동일한 칼슘뇨 수치로 단정하지 않는다.
 
 ## 오답 포인트
 
-- **B. ENaC의 지속적 활성화:** ENaC 활성 증가는 리들 증후군과 연관된다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 바터 증후군 (Bartter Syndrome)
 - 원본 경로: `source_notes/02 Diseases/05 신장/바터 증후군 (Bartter Syndrome).md`
-- 학습 목표: 원문 핵심: * **CC** - 다뇨, 다음, 염분 갈망, 성장 지연, 근육 약화 및 경련. * **P/E** - 정상 또는 낮은 혈압 (저혈량증). - 저칼륨혈증, 대사성 알칼리증. - 이차성 고알도스테론혈증. - 고칼슘뇨증 (신석회화 동반 가능).
+- 학습 목표: Bartter의 굵은 상행각 염분 소실과 loop 유사 효과

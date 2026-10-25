@@ -12,42 +12,51 @@ target_type: drug
 target_slug: "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ"
 theory_objective_id: drug-02-safety
 question_type: safety
-question_mode: clinical_application
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+curation_status: "revised"
+curation_reason: "비특이적 피로·복통을 젖산산증으로 단정하는 사례를 중요한 신기능 금기로 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-메트포르민 복용 중 전신 피로, 근육통, 복통, 호흡곤란이 나타났다. 가장 적절한 조치는?
+Metformin 사용이 금기인 신기능 수준은?
 
 ## 선택지
 
-A. 즉시 메트포르민을 중단하고 의료진에 상담한다
-B. 혈당을 측정하고 인슐린을 추가한다
-C. 비타민 B12 보충을 시작한다
-D. 신기능(eGFR) 검사를 다시 시행한다
+A. eGFR 30 mL/min/1.73 m² 미만
+B. eGFR 90 mL/min/1.73 m² 미만이면 모두
+C. 알부민뇨가 조금이라도 있는 모든 경우
+D. 신기능에 관계없이 혈당이 정상이면 항상
 
 ## 해설
 
-위 증상은 메트포르민 관련 젖산산증을 의심하게 하며, 위험하므로 즉시 약물을 중단하고 즉각적인 의료 평가가 필요하다.
+중증 신장기능 저하는 metformin 축적과 젖산산증 위험을 높인다. FDA 허가사항에서 eGFR 30 미만은 금기이다. 급성 신손상·저산소 상태 등에서는 수치 하나뿐 아니라 임상 상황을 함께 평가한다.
 
 ## 오답 포인트
 
-- **D. 신기능(eGFR) 검사를 다시 시행한다:** 신기능 검사는 필요하지만, 가장 먼저 해야 할 일은 약물 중단이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: Metformin
 - 원본 경로: `source_notes/04 Pharmacology/05 내분비·대사/Metformin.md`
-- 학습 목표: 원문 핵심: - 젖산산증(Lactic Acidosis): 전신 권태, 근육통, 복통, 호흡곤란 발생 시 즉시 중단 및 의료진 상담 - 비타민 B12 결핍: 장기 복용 시 수치 감소 가능성 - 저혈당: 인슐린 또는 인슐린 분비 촉진제와 병용 시 위험 증가 - 췌장염 및 심부전: 관련 증상 발생 시 주의 관찰 - 신기능(eGFR): 투여 전 및 연 1회 이상 정기 평가 - 비타민 B12: 2~3년 간격 측정 - 혈액학적 지표: 연 1회 측정
+- 학습 목표: Metformin의 중증 신기능 저하 금기와 젖산산증 위험
+
+## 검수 근거
+
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=498ac5fc-14be-d36a-e063-6394a90a3012&type=display

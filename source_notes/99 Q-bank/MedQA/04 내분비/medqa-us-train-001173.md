@@ -25,9 +25,11 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 생리식염수 및 칼륨
 
 
 환자는 고혈당성 고삼투성 비케톤성 탈수( hyperosmolar hyperglycemic state)로 탈수와 저칼륨혈증을 보인다. 인슐린 투여는 혈당을 낮추지만, 저칼륨 상태에서 급히 투여하면 심각한 부정맥을 유발할 수 있다. 따라서 먼저 정맥으로 생리식염수로 수액 재수화하고, 칼륨을 보충하여 혈중 K⁺를 3.5 mEq/L 이상으로 교정한 뒤 인슐린을 시작한다. 초기 치료는 생리식염수와 칼륨 보충이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: HHS 의심의 탈수와 K3.0에서는 먼저 수액/K D, 저K 교정 전 insulin 지연이 적합. 해설의 3.5 기준이 현행 합의와 일치.
+- https://diabetesjournals.org/care/article/47/8/1257/156811/Hyperglycemic-Crises-in-Adults-With-Diabetes-A
 
 ## 출처
 

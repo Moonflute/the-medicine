@@ -16,36 +16,48 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "고막천공 내용이 급성 부비동염 target에 섞였음을 교정. 원래 증상·이중 악화 목표를 되살리고 부적합 편도염 target에서 다루던 개념을 적합한 ID의 목표에 맞춰 정렬."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-고막천공의 정의는?
+급성 비부비동염에서 이중 악화(double worsening)가 의미하는 것은?
 
 ## 선택지
 
-A. 고막의 물리적 결손으로 외이도와 중이가 직접 연결된 상태
-B. 중이강 내 고름 축적
-C. 외이도 피부염
-D. 고막의 석회화
+A. 초기 호전 뒤 다시 증상이 악화되는 경과
+B. 호전 없이 오래 지속되는 경과만을 뜻함
+C. 양쪽 부비동이 동시에 아픈 것
+D. 하루 중 코막힘이 두 번 발생하는 것
 
 ## 해설
 
-고막천공은 고막에 물리적 결손이 생겨 외이도와 중이가 직접 연결된 상태를 말한다.
+이중 악화는 상기도 증상이 처음 좋아졌다가 다시 악화되는 경과이다. 호전 없이 10일 이상 지속되는 양상과는 구별되는 세균성 비부비동염 의심 단서이다.
 
 ## 오답 포인트
 
-- **C. 외이도 피부염:** 외이도 피부염은 고막 결손과 무관하다.
+- 지속성 증상과 호전 뒤 재악화는 서로 다른 시간 경과이다. 양측성이나 하루 중 횟수를 뜻하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 급성 부비동염 (Acute sinusitis)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/급성 부비동염 (Acute sinusitis).md`
-- 학습 목표: 원문 핵심: * **주요 증상**: 화농성 비루, 비폐색, 안면 통증/압박감/충만감. * **특징**: 10일 이상 지속되거나, 초기 호전 후 다시 악화되는 '이중 악화(double worsening)' 양상을 보일 경우 세균성 감염 의심.
+- 학습 목표: 급성 비부비동염의 이중 악화 경과
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트와 원래 목표의 교차 검수; 아래 근거에 한정한 사실 확인.
+- 결정: 고막천공 내용이 급성 부비동염 target에 섞였음을 교정. 원래 증상·이중 악화 목표를 되살리고 부적합 편도염 target에서 다루던 개념을 적합한 ID의 목표에 맞춰 정렬.
+- 근거: https://www.entnet.org/wp-content/uploads/2025/07/CPG_ASU_SummaryGuide_V3.pdf

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 지연성 운동이상증
 ## 해설
 
 
-페니토인은 갑상선 기능을 억제해 저혈압·저체온·피부 건조·탈모 등을 일으키며, 기억력 저하가 흔한 부작용이다. 따라서 예상되는 추가 소견은 기억력 저하이다. 다른 선택지는 페니토인과 직접 연관되지 않는다.
+정답 C. 피로·체중증가·변비·추위 불내성, 건조한 피부와 부서지는 모발은 갑상선기능저하를 의심하게 하며 기억력 저하가 동반될 수 있다. 체온37°C는 저체온이 아니다. Phenytoin은 갑상선검사 결과와 호르몬 대사에 영향을 줄 수 있으나 투약 사실만으로 임상 갑상선기능저하의 원인으로 확진하지 않는다. TSH 등과 전체 약물/신경학적 상태를 함께 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009564 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: phenytoin 복용만으로 갑상선억제/저체온을 확정한 설명 대신 제시된 hypothyroid 표현형의 기억력 저하 C 설명.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 운동 및 알코올 섭취 감소
 
 ## 해설
 
+현재 가능한 위험감소 조치는 신체활동과 음주 감소/중단(D)이다. 모유수유도 위험감소와 연관되지만 임신·출산하지 않은 현재 시작할 수 있는 처방은 아니다. 모친90세 발병 정보만으로BRCA검사를 자동 시행하지 않고 자세한 가족력으로 위험 평가한다. 자가검진은 암 발생 자체를 줄이지 않는다.
 
-운동과 알코올 섭취 감소는 체중 조절과 에스트로겐 대사 개선을 통해 유방암 위험을 낮춘다. 유전적 검사나 모유 수유는 위험 감소 효과가 제한적이며, 자가 검진만으로는 위험을 크게 줄이지 못한다. 따라서 생활 습관 개선이 최선의 권고이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 모유수유 예방 효과를 폄하한 설명 대신 현재 가능한 위험감소 선택 설명.
+- https://www.cancer.gov/types/breast/causes-risk-factors/prevention
 
 ## 출처
 

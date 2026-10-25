@@ -19,17 +19,19 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQWRlbm9zaW5lLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,15 @@ D. 약물 부하 심장검사
 
 ## 해설
 
+운동이 제한된 수술 후 환자에서 급성 관상동맥증후군을 배제하고 안정 상태라면 D의 약물부하 검사가 허혈 평가에 가능하다. 단 한 차례 정상 ECG/troponin만으로 진행 중 ACS가 배제되지는 않는다. 약물부하는 dobutamine 또는 적절한 혈관확장제를 이용하며 dopamine을 표준 약물부하 약제로 설명한 것은 오류다.
 
-수술 후 새로운 호흡곤란과 흉통은 심근허혈을 의심하게 하며, 약물 부하 검사(예: 도파민, 아데노신)로 허혈성 변화 여부를 평가한다. 따라서 약물 부하 심장검사가 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 약물부하검사의 dopamine 오역을 dobutamine으로 교정하고 급성허혈 배제 전 검사로 오용되지 않도록 명시.
+- https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053
+- https://www.journalofnuclearcardiology.org/article/S1071-3581%2826%2900351-X/fulltext
 
 ## 출처
 

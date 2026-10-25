@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 염소 증가, 칼륨 감소, 중탄산염 감소
 
 ## 해설
 
+손등 관절 굳은살과 치아 법랑질 침식은 반복적인 자기 유발 구토를 시사한다. 위산/염소 소실과 체액 감소에 따른 신장 반응은 저염소·저칼륨 대사성 알칼리증, 즉 B의 패턴을 만들 수 있다. 본문에는 식욕부진이 없고, 신경성폭식증의 확진에는 폭식·보상행동 등을 추가 확인해야 하지만 이 문항의 전해질 기전 판단은 가능하다.
 
-구토와 식욕 부진으로 인한 저염소성 대사성 알칼리증은 혈중 Cl⁻ 감소, K⁺ 감소, HCO₃⁻ 증가를 보인다. 환자의 신체소견(손가락 굳은살, 치아 침식)은 신경성 폭식증을 시사한다. 따라서 해당 전해질 패턴이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 본문에 없는 식욕부진을 제거하고 구토 관련 전해질 기전과 폭식증 확진을 구별했다.
+
 
 ## 출처
 

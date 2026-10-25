@@ -21,11 +21,11 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
   - ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,8 +53,14 @@ D. 니트로글리세린(Nitroglycerin)
 
 ## 해설
 
+정답은 A이다. MI 병력과 울혈 증상, EF33%는 HFrEF에 합당하다. 제시된 선택지에서는 ACE 억제제 captopril이 RAS 차단·후부하 감소 등을 통해 유익하다. 현대 HFrEF 치료에서는 ARNI/ACEI/ARB 선택과 함께 근거 기반 β차단제·MRA·SGLT2 억제제 등 전체 치료를 평가한다. 신장 혈류를 감소시키는 것 자체를 치료 목표로 설명하지 않고 신기능/K를 감시한다.
 
-좌심실 EF 33%와 호흡곤란, 발작성 저산소증은 심부전 증상이며, ACE 억제제인 캡토프릴이 사구체 혈류와 후부하를 감소시켜 증상을 개선한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ACEI의 근거를 사구체혈류 감소가 아니라 HFrEF의 RAS차단/예후 개선으로 교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

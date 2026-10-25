@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 공기 관장
 
 ## 해설
 
+간헐적인 심한 보챔과 무릎을 가슴으로 끌어당기는 자세, 혈액·점액변, 우상복부 소시지 모양 종괴는 회맹부 장중첩증을 강하게 시사한다. 제시된 선택지 중 공기 관장(D)은 적합한 환자에서 진단과 비수술적 정복에 사용할 수 있다. 수액 소생과 통증 조절을 포함한 초기 평가, 소아외과·영상의학 협력 및 천공·복막염·쇼크 여부 확인이 선행한다. 실제 진료에서 초음파가 주요 진단검사이며 다른 검사가 모두 불필요하다는 뜻은 아니다. 천공·복막염 또는 불안정 상태라면 관장 정복은 부적절하고 수술적 접근이 필요할 수 있다.
 
-소장 중첩(장중첩증)은 공기 관장이 비침습적이며 진단과 치료를 동시에 제공한다. 다른 검사는 불필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 다른 검사 불필요라는 과도한 일반화 제거. 전형적 회맹부 장중첩에서 안정화/금기 확인 후 공기관장 D의 역할 설명.
+- https://www.rch.org.au/clinicalguide/guideline_index/intussusception_guideline/
+- https://resources.schn.health.nsw.gov.au/policies/policies/pdf/2014-5002.pdf
 
 ## 출처
 

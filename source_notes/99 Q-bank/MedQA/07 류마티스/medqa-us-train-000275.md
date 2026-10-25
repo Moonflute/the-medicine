@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 관절 내 피로인산칼슘 이수화물(calcium pyrophosphate dihydrate) �
 
 
 손가락의 진행성 통증과 뻣뻣함, Heberden 결절(원위지절관절 위 딱딱한 부종)은 퇴행성 관절염(골관절증)의 전형적인 특징이다. 이는 연골 마모와 골극 형성으로 인한 기전이다. 따라서 가장 가능성 있는 기전은 관절의 퇴행성 질환이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-train-000275` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 사용 후 악화·DIP 골성 결절은 퇴행성 OA 기전 C 지지. 원문 MCP 표현은 임의 CMC로 바꾸지 않고 유지.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 아동 학대
 ## 해설
 
 
-반복적인 관절 출혈과 잇몸 출혈은 혈우병 A(제8인자 결핍)와 일치한다. 가장 확진적인 검사는 혈액 응고 검사와 제8인자 활성 측정이다. 따라서 정답은 A이다.
+자발적 반복 혈관절증·심부 출혈은 혈우병을 시사하고 A형이 B형보다 흔해 선택지 A가 가장 가능하다. 그러나 임상적으로 A/B형을 신뢰성 있게 구분할 수는 없어 aPTT·혼합검사 및 VIII/IX 활성 등으로 확인한다. 빈도에 따른 가장 가능성 높은 선택과 확진을 구분한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007008 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 임상 출혈 양상만으로 A/B형을 확진하는 해설 보정; 가장 흔한 유형 A 추론 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

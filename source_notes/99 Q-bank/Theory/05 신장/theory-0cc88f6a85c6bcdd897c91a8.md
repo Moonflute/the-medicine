@@ -12,42 +12,47 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-y9qe2MpeyEsSDquInshLEg7L2p7YylIOyGkOyDgSAoSW50cmluc2ljIFJlbmFsIEFjdXRlIEtpZG5leSBJbmp1cnkpLm1k"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ
+curation_status: "revised"
+curation_reason: "모든 내인성 AKI의 소견으로 일반화하지 않고 세뇨관 손상에 범위를 한정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-내인성 급성 신장 손상 시 소변검사에서 가장 흔히 관찰되는 소견은?
+진흙색 과립원주(muddy brown granular cast)가 특히 시사하는 AKI 원인은?
 
 ## 선택지
 
-A. Muddy brown casts(세뇨관 상피 세포 캐스트)
-B. RBC casts
-C. WBC casts
-D. Hyaline casts만
+A. 급성 세뇨관 손상
+B. 단독 콩팥전 저관류
+C. 단순 방광염
+D. 기립성 단백뇨
 
 ## 해설
 
-급성 세뇨관 괴사(ATN)에서는 세뇨관 상피 세포가 섞인 muddy brown casts가 특징적으로 보인다.
+세뇨관 상피세포와 진흙색 과립원주는 급성 세뇨관 손상을 지지한다. 내인성 AKI에는 사구체염·간질염·혈관질환도 포함되므로 모두 같은 요침사 소견을 보이지 않는다.
 
 ## 오답 포인트
 
-- **B. RBC casts:** RBC casts는 사구체 신염을 시사한다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 콩팥성 급성 콩팥 손상 (Intrinsic Renal Acute Kidney Injury)
 - 원본 경로: `source_notes/02 Diseases/05 신장/콩팥성 급성 콩팥 손상 (Intrinsic Renal Acute Kidney Injury).md`
-- 학습 목표: 원문 핵심: - 소변검사: 단백뇨, 혈뇨, 세뇨관 세포/원주(muddy brown cast - ATN), 백혈구 원주(AIN) - 혈액검사: BUN/Cr 상승, 전해질 불균형 - 신장초음파: 신장 크기 확인(급성 시 정상/비대, 만성 시 위축) - 기타: PBS(미세혈관병증 확인), 필요 시 신생검 - 바이오마커: 혈청 크레아티닌 및 소변량 외에 추가적인 바이오마커의 일일 평가가 중환자 관리에서 권고됨 - 신생검 전 주의사항: 혈중 요소질소(BUN) 수치가 현저히 높은 환자에서 신생검 시행 전 데스모프레신(Desmopressin) 투여가 전문가…
+- 학습 목표: 급성 세뇨관 손상의 진흙색 과립원주

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 고환 외상
 
 ## 해설
 
+정답은 A, 라이디히세포 종양이다. 고환의 단단한 비투과성 종괴와 점진적인 여성형유방은 에스트로겐 등을 분비하는 성삭-기질 종양을 고려하게 한다. 비만도 여성형유방에 기여할 수 있지만 고환 내 종괴라는 핵심 단서를 설명하지 못한다. 외상은 종괴 발견을 계기로 작용했을 수 있으나 여성형유방은 외상보다 훨씬 먼저 시작되어 이를 원인으로 보기는 어렵다.
 
-비만은 지방 조직에서 에스트로겐을 전환시켜 여성형유방을 유발하고, 고환 종양(라이디히세포)보다 훨씬 흔한 원인이다. 환자의 BMI와 전신 비만이 주요 단서이다. 따라서 비만이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 원정답 A를 무시하고 비만 B라고 결론낸 해설 교체. 고환종괴와 여성형유방을 에스트로겐 분비 Leydig종양으로 연결.
 
 ## 출처
 

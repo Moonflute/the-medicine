@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 혈액-뇌 장벽(blood-brain barrier)의 파괴
 
 ## 해설
 
+안구운동 이상, 실조와 혼돈 및 기억 장애는 알코올 관련 티아민 결핍의 베르니케-코르사코프 양상을 시사한다. 티아민 이인산은 α-케토글루타르산 탈수소효소 등의 보조인자다. 성상교세포 티아민 결핍 실험에서는 해당 효소 활성 감소가 더 늦은 글루타메이트 운반 장애 등에 앞서 관찰되어 A가 출제 의도에 부합한다. 알코올이 직접 해당 효소를 억제한다고 단순화하거나 모든 환자에서 세포 변화의 시간 순서가 동일하게 측정됐다고 해석하지 않는다.
 
-만성 알코올 섭취는 α-케토글루타르산 탈수소효소 활성을 감소시켜 시트르산 회로 흐름을 저해하고, 이는 Wernicke 뇌병증에서 가장 먼저 나타나는 대사 변화이다. 다른 선택지는 2차적 혹은 비특이적 변화이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 알코올이 직접 해당 효소만 억제한다는 인상을 피하고 티아민 결핍을 매개로 한 초기 에너지 대사 장애를 일차 실험 근거와 연결했다.
+- https://pubmed.ncbi.nlm.nih.gov/12838509/
+- https://pubmed.ncbi.nlm.nih.gov/9489735/
 
 ## 출처
 

@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 목 초음파
 
 ## 해설
 
+정답은 B이다. 무통성 좌측 쇄골상 림프절(Virchow node) 비대는 위암 등 복부 악성종양 전이와 연관될 수 있어 조직검사와 함께 위내시경으로 위 원발병변을 평가할 수 있다. 제시된 선택지에서 B가 가장 적합하지만 흉부 악성질환 등 다른 원인도 가능하며 흉부영상이 아무 도움이 없다는 의미는 아니다.
 
-쇄골상 림프절 비대는 위암 전이와 연관이 높으며, 위내시경을 통해 원발 종양을 직접 확인할 수 있다. 흉부 X선이나 뇌 MRI는 진단에 도움이 되지 않는다. 따라서 상부위장관 내시경이 적절한 추가 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Virchow node의 위암 연관은 유지하되 흉부영상 등은 전혀 도움이 없다는 단정 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

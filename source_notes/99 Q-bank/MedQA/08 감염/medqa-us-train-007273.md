@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 소변 항원검사
 ## 해설
 
 
-폐렴 환자에서 물 설사와 저나트륨혈증, 군집 발생은 레지오넬라 감염을 시사한다. 레지오넬라 폐렴은 물을 매개로 전파되며, 진단에 특이적인 소변 항원 검사가 가장 빠르고 민감하다. 따라서 소변 항원검사가 적절한 다음 단계이다.
+호텔 연관 군집 폐렴과 설사·저나트륨혈증은 Legionella를 의심하게 한다. D의 소변항원은 신속하며 주로 L.pneumophila serogroup1을 검출한다. CDC는 하기도 검체 배양 또는 분자검사를 함께 권고하므로 PCR B가 무가치하거나 UAT가 모든 Legionella의 절대 최민감 검사라는 의미는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007273 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Legionella UAT D 유지; 모든 종을 가장 민감하게 검출하는 단독검사라는 오류 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/legionella/php/laboratories/index.html
 
 ## 출처
 

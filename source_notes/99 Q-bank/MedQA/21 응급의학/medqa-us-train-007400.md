@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 중재영상의학과에 하대정맥 필터 삽입을 의뢰한다
 
 ## 해설
 
+혈역학적으로 안정된 확진 폐색전증에는 항응고 치료가 필요하다. 제시된 선택지 중 헤파린과 와파린을 중첩하여 시작하는 B가 적절하며, 와파린 단독 시작은 초기 치료로 부적절하다. 와파린을 선택하면 비경구 항응고제를 적어도 5일간 함께 사용하고 INR이 치료 범위에 도달했는지 확인한 뒤 중단한다. 현재는 적합한 환자에서 DOAC도 널리 사용하지만 보기에는 없다. 불안정성이 없는 이 사례에서 일률적인 혈전용해나 하대정맥 필터를 우선하지 않는다.
 
-분절성 폐색전증 환자는 혈역학적으로 안정하므로 정맥 헤파린을 시작하고, 이후 경구 와파린으로 전환한다. 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 안정된 PE에서 보기 B를 유지하되 헤파린을 단순히 중단하고 와파린으로 바꾸는 것으로 오해하지 않게 중첩 치료를 명시한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 
 ## 출처
 

@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 역행성 방광조영술
 
 
 골반 골절 후 혈뇨가 나타난 경우 방광 파열을 의심한다. 역행성 방광조영술은 방광 내 누출을 확인하는 표준 검사이다. 따라서 역행성 방광조영술이 가장 적절한 다음 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008995 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골반골절과 도뇨 후 육안혈뇨는 방광손상 평가를 위한 역행성 방광조영술 D를 지지하며 AUA 권고와 일치한다. FAST 음성으로 방광손상이 배제되지 않는다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.auanet.org/documents/education/clinical-guidance/Urotrauma.pdf
 
 ## 출처
 

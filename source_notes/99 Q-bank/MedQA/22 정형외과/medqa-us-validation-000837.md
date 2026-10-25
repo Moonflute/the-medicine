@@ -19,20 +19,22 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-55세 남성이 2개월간 악화되는 요통으로 진료를 받으러 왔다. 아침에 심하고 활동하면 호전되며, 무거운 물건을 든 뒤 시작되었다. 가장 가능성 높은 소견은?
+55세 남성이 2개월간 악화되는 요통으로 진료를 받으러 왔다. 아침에 심하며 일부 활동에서는 호전된다. 자전거를 탈 때는 아프지 않지만 서거나 걸으면 통증이 생긴다. 2개월 전 무거운 상자와 가구를 옮긴 적이 있다. 가장 가능성 높은 소견은?
 
 ## 선택지
 
@@ -43,8 +45,11 @@ D. MRI에서 요추 척추관 협착
 
 ## 해설
 
+자전거를 타는 굴곡 자세에서는 통증이 없고 서거나 걸을 때 통증이 생기는 자세 의존성 양상은 요추 척추관협착증에 합당하여 MRI의 척추관 협소(D)가 가장 예상된다. 단순히 모든 활동에서 호전된다는 뜻이 아니며, 아침 강직만으로 강직성 척추염을 확정하지 않는다. 무거운 물건을 옮긴 과거력이나 휴업 소견서 요청만으로 근육 염좌·꾀병을 정답으로 삼지 않는다.
 
-요통이 활동 후 악화되고, 아침에 호전되는 경우는 기계적 요통이 아니라 척추관 협착에 의한 신경근 압박이 의심된다. MRI는 협착을 확인하는 가장 정확한 영상이다. 따라서 MRI에서 요추 척추관 협착이 가장 가능성 높은 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 번역에서 생략된 자전거 타기 무통·서기/걷기 악화라는 척추관협착증의 핵심 단서를 복원하고 악화·완화 방향이 뒤집힌 해설을 교체했다.
 
 ## 출처
 

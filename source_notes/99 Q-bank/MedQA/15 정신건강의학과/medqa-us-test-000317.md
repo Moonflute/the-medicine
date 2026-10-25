@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 트라조돈
 
 ## 해설
 
+과거 반복적인 폭식과 구토·제거행동은 신경성 폭식증 병력을 시사한다. 부프로피온(A)은 경련 위험 때문에 현재 또는 과거 신경성 폭식증·신경성 식욕부진증 진단이 있는 환자에게 금기이다. 현재 섭식 증상이 줄었더라도 과거 병력을 확인해야 하며, 다른 항우울제의 선택은 우울증과 안전성 평가에 따라 결정한다. EBV 관련 중추신경계 림프종이나 조직검사에 대한 내용은 이 사례와 무관하다.
 
-EBV는 면역억제 환자에서 중추신경계 림프종(특히 원발성 CNS 림프종)과 연관된다. 조직에서 혈관 주위 림프구 집락이 보이는 것은 EBV 관련 림프증식성 질환을 시사한다. 따라서 EBV가 가장 관련 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: EBV/CNS림프종 오연결을 폭식·제거행동 병력과 부프로피온 경련 금기로 교체. A 유지.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b0e10a21-0ae3-4a8b-bd3e-7a48b30f8418&type=display
 
 ## 출처
 

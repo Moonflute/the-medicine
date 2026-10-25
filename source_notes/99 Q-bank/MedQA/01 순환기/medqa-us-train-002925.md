@@ -22,13 +22,15 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 리노바이러스 감염
 
 ## 해설
 
+선행 호흡기 감염 후 호흡곤란·S3·JVD·부종·심비대가 나타나 심근염에 의한 심부전을 의심한다. 선택지 중 고전적 원인인 Coxsackie virus C가 가장 부합한다. 그러나 이 증례만으로 특정 바이러스가 확진된 것은 아니며, 실제 심근염 원인 분포는 지역·연령과 검사방법에 따라 달라진다.
 
-청소년에서 급성 심근염을 일으키는 가장 흔한 원인은 코크사키 바이러스이며, 심부전 증상과 심음 변화가 동반된다. 따라서 코크사키 바이러스 감염이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 심부전 양상과 선행 URI에서 선택지 C는 가능하나 Coxsackie가 현재 모든 청소년 심근염 최다 원인이라는 단정은 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

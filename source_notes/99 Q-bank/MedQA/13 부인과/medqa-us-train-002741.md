@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 경막외 혈액 주입술을 시행한다
 
 ## 해설
 
+경막외 시술 후 체위성 두통·오심·목통증은 경막천자 후 두통을 시사한다. 악화되어 일상생활이 어려우므로 마취과 평가 후 경막외 혈액패치(D)를 고려한다. 발열·신경결손·비전형적 양상에서는 감염·혈전증·출혈 등을 재평가하고 항응고·응고 상태도 확인한다. 모든 환자에게 검사가 불필요하다는 뜻은 아니다.
 
-경막외 시술 후 두통은 두개내압 감소와 뇌척수액 누출이 원인이며, 혈액을 경막외 공간에 주입해 누출을 차단하는 경막외 혈액 주입술이 치료에 가장 효과적이다. 응고검사·CSF 분석은 필요 없으며, 단순 안위는 충분치 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: PDPH혈액패치적응증과다른산후두통·응고안전성평가보강.
+- https://rapm.bmj.com/content/49/7/471.full
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 모체 에스트로겐 중단
 
 ## 해설
 
+생후 수일의 건강한 여아에서 소량의 질출혈, 백색 분비물과 일시적 유방·외음부 비대는 태내 모체 호르몬 노출 후 소퇴 현상에 부합한다. 모체 에스트로겐 공급이 출생 후 감소하며 자궁내막의 소퇴성 출혈이 나타날 수 있어 D가 가장 적절하다. 지속적·다량 출혈이나 전신 이상까지 생리적 현상으로 일반화하지 않는다.
 
-신생아의 질 출혈은 출생 직후 모체 에스트로겐이 급격히 감소하면서 자궁경부와 질 점막이 퇴행해 발생하는 생리적 출혈이 가장 흔하다. 다른 선택지는 출혈 원인과 일치하지 않는다. 따라서 원인은 모체 에스트로겐 중단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신생아 호르몬 소퇴 출혈의 출혈 부위를 자궁경부·질 점막 퇴행으로 잘못 설명한 것을 자궁내막 소퇴로 교정했다.
+
 
 ## 출처
 

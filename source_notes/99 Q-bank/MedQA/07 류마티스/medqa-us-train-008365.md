@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -39,13 +41,19 @@ explanation_prompt_version: explanation-ko-v1
 
 A. 항사구체기저막 항체
 B. 혈청 크라이오글로불린 증가
-C. 골수세포형질소항호중구세포질항체
+C. 항미엘로과산화효소 항호중구세포질항체(MPO-ANCA)
 D. B형간염 표면항원
 
 ## 해설
 
 
-폐·신장 증상이 동반된 미세다공성 혈관염에서는 MPO‑ANCA(항미오페린 항체) 양성이 가장 흔히 발견된다.
+폐출혈 의심 증상과 사구체신염, 촉지자반 및 육아종 없는 소혈관 염증은 microscopic polyangiitis(현미경다발혈관염)를 시사한다. 보기 중 myeloperoxidase에 대한 ANCA(MPO-ANCA) C가 연관된다. ANCA 결과만으로 진단을 확정하지 않고 임상·조직을 함께 판단한다. MPO는 myeloperoxidase를 뜻하며 항미오페린이라는 항체는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008365 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 미세다공성 혈관염/항미오페린과 깨진 C선지를 microscopic polyangiitis·MPO-ANCA로 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

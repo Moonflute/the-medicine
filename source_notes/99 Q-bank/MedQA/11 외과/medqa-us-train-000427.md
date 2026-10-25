@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 수술적 교정 계획
 ## 해설
 
 
-초음파에서 동맥과 연결된 에코가 없는 주머니와 박동성 혈류는 가성동맥류(pseudoaneurysm)를 나타낸다. 가성동맥류는 혈전 주입(트롬빈)으로 즉시 폐쇄가 가능하므로 초음파 유도하 트롬빈 주입술이 최선의 관리이다.
+혈관 시술 후 발생한 박동성 종괴·잡음과 동맥에 연결된 주머니 내 혈류는 대퇴동맥 가성동맥류에 합당하다. 통증을 동반한 3cm 병변은 단순 관찰보다 중재가 적절하며, 감염·피부괴사·급속 팽창 등이 없고 초음파에서 주입에 적합한 목 구조가 확인되면 초음파 유도 트롬빈 주입(A)이 적절하다. 주입 뒤 혈전 형성과 원위부 혈류를 확인한다. 모든 가성동맥류가 즉시 성공적으로 폐쇄되는 것은 아니며, 넓은 목이나 감염 등에서는 다른 치료를 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000427 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 대퇴동맥 천자 후 증상성 3cm 가성동맥류의 트롬빈 주입 선택 근거와 적용 조건을 보완했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2019/06/04/10/26/postcatheterization-femoral-pseudoaneurysms
 
 ## 출처
 

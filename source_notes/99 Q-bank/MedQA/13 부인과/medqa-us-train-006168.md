@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 자궁난관조영술 시행
 
 ## 해설
 
+규칙적 월경과 정상 정액검사 후 여성 불임 평가에는 자궁 구조와 난관 개통성 확인이 필요하므로 자궁난관조영술(D)이 적절하다. 이는 배란을 직접 측정하는 검사가 아니다. 35세 이상은 6개월 이상 임신이 되지 않으면 평가하며 1년 더 기다리지 않는다.
 
-배란이 정상인지 확인하기 위해 난관 개통성을 평가해야 한다. 자궁난관조영술은 난관 폐쇄 여부를 가장 정확히 확인한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: HSG D 유지. 난관 개통성 검사를 배란 검사로 설명한 오류를 교정.
+- https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/
 
 ## 출처
 

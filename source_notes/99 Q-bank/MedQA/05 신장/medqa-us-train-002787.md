@@ -22,13 +22,15 @@ question_type: risk_factor
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 단클론성 단백질 첨탑
 
 ## 해설
 
+신증후군과 spike-and-dome의 상피하 면역침착은 막성신증을 시사한다. B형간염 C는 이차성 막성신증의 관련 원인 중 하나이다. 침착 위치는 사구체기저막의 상피하 측이지 하위피질이라는 해부학적 부위가 아니다.
 
-막성 신증은 B형간염 바이러스와 연관된 면역복합체가 하위피질에 침착한다. 이는 전자현미경에서 돔 모양의 침착물로 나타난다. 따라서 B형간염 감염이 관련 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 막성신증 침착 위치는 하위피질이 아니라 사구체기저막 상피하. HBV 연관 C 유지.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

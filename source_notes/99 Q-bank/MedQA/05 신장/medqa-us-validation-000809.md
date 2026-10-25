@@ -26,6 +26,10 @@ translated_at: 2026-07-18
 review_status: machine-verified
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "retained"
+curation_reason: "반복 신산통·cyanide nitroprusside 양성과 cystinuria 육각형 결정의 연결이 원문·한글·해설에서 일치."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
 ---
 
 # MedQA US 임상문제
@@ -50,3 +54,9 @@ D. 소변검사에서 육각형 결정
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000809
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 반복 신산통·cyanide nitroprusside 양성과 cystinuria 육각형 결정의 연결이 원문·한글·해설에서 일치.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

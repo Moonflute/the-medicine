@@ -20,11 +20,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 아나스트로졸
 ## 해설
 
 
-중추성 성조숙증에서는 GnRH 펌프에 의해 LH가 상승하고, 뇌하수체에서의 성선자극을 억제하기 위해 GnRH 아날로그인 류프로라이드를 지속 투여한다. 이는 사춘기 진행을 멈추게 한다. 따라서 류프로라이드가 가장 적절한 치료이다.
+정답 A. GnRH 자극 후 LH 반응과 이른 유방발달은 중추성 성조숙증을 지지한다. 치료가 필요한 진행성 CPP에서는 지속 작용 GnRH agonist leuprolide가 수용체 탈감작을 통해 LH/FSH를 억제한다. 이는 생식축을 자극하는 박동성 GnRH pump와 다르다. 특히 7세의 서서히 진행하는 경우 이득이 제한될 수 있어 성장속도·골연령·예상성인키·선호를 평가해 치료 여부를 개별화한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001005 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 지속GnRH agonist의 수용체 탈감작 기전으로 펌프 혼동 교정, 7세 CPP 모두 의무치료라는 과장 방지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.endocrine.org/clinical-practice-guidelines/central-precocious-puberty
 
 ## 출처
 

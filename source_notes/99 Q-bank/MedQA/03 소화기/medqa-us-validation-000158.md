@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 점막 손상
 ## 해설
 
 
-셀리악병 병력이 있는 환자에게 복통, 설사, 체중 감소, 구강 궤양, 대변 잠혈이 동반되면 크론병이 의심된다. 크론병에서 흔히 보이는 항체가 ASCA(항 Saccharomyces cerevisiae 항체)이다. 따라서 가장 가능성 높은 진단을 설명하는 소견은 ASCA 양성이다.
+정답 B. 구강 아프타, 복통·설사와 체중감소/잠혈은 Crohn병을 고려하게 하며 ASCA 양성은 이 질환과 연관된 소견이다. 다만 ASCA의 민감도·특이도가 충분하지 않아 단독 확진검사가 아니며 4일의 급성 설사만으로 만성 염증성 장질환을 확정할 수 없다. 본 문항은 선택지 중 Crohn병과의 전형적 연관성을 묻는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000158 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 급성 4일 증상만으로 Crohn 확진/ASCA를 확진 검사로 오해하지 않도록 항체 연관성 B 범위를 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

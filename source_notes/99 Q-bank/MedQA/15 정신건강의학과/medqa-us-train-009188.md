@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,10 +52,16 @@ D. 메토클로프라미드
 
 ## 해설
 
-
-구강·혀 움직임의 지연성 운동이상은 도파민 길항제인 메토클로프라미드의 장기 사용과 연관된다. 메토클로프라미드는 흔히 지연성 운동이상을 유발한다. 따라서 이 부작용을 일으킨 가능성이 가장 큰 약물은 메토클로프라미드이다.
+입술 오므리기와 혀의 불수의운동은 지연성 운동이상증을 시사한다. 제시된 약물 중 도파민 수용체 길항제 메토클로프라미드가 원인일 가능성이 높으며 장기 사용과 누적 용량이 위험을 높인다. 심각하고 지속될 수 있는 부작용이므로 통상 12주를 넘는 사용을 피하도록 경고된다. 이 환자의 당뇨병·신기능 저하와 복용 기간을 포함해 안전성을 재평가해야 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009188
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 메토클로프라미드의 TD 위험을 단순히 흔하다고 과장하지 않고 누적 노출·장기 사용과 연결; 장기투여 경고 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/017854s062lbl.pdf?ref=1b3p6k

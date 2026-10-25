@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 왼쪽 고관절 발달성 이형성
 
 ## 해설
 
+비만한 청소년의 서혜부·무릎 연관통, 외회전된 하지와 통증성 내회전 제한, 갑상선 질환 병력은 대퇴골두 골단분리증(SCFE, B)을 시사한다. 이는 근위 대퇴골 성장판에서 골단과 골간단이 상대적으로 전위하는 질환으로 골막이 분리되는 병이 아니다. 심한 선행 외상이 없어도 발생할 수 있다. 대퇴골두가 대퇴경부에 대해 뒤아래쪽으로 전위하는 관계로 이해하며 외상 후 골절만으로 설명하지 않는다.
 
-청소년에서 골절 전후에 골두와 대퇴골 경부 사이에 골막이 분리되는 대퇴골두 골단 분리는 골절 후 통증과 제한된 회전 움직임을 일으킨다. 임상 양상과 신체검사 소견이 이 질환과 일치한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. SCFE를 골막 분리나 반드시 골절 후 발생하는 병으로 설명한 오류를 성장판 전위로 교정했다.
 
 ## 출처
 

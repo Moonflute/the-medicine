@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 동결침전제
 
 ## 해설
 
+적혈구만 13단위 투여한 뒤에는 혈소판과 응고인자 부족이 출혈을 악화시킬 수 있어 혈장과 혈소판을 포함한 균형 소생(A)이 필요하다. 동결침전제는 주로 피브리노겐을 보충하는 제제이며 혈소판을 제공하는 제제가 아니다. 실제로는 혈소판 수, 피브리노겐과 응고 상태에 따라 성분을 조절하고 저체온·저칼슘혈증도 교정한다. 열상된 대퇴동맥의 기계적 출혈은 혈액제제만으로 해결되지 않으므로 지혈대 등 적절한 임시 출혈 통제와 응급 혈관 수술을 병행해야 한다.
 
-대량 수혈 후 혈소판과 응고인자가 희석되어 출혈이 지속될 수 있다. 신선동결혈장(FFP)과 혈소판을 동시에 투여하면 응고인자와 혈소판을 보충해 출혈을 멈출 가능성이 가장 높다. 포도당·생리식염수는 출혈에 영향을 주지 않으며, 동결침전제는 혈소판만 제공한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 동결침전제가 혈소판만 제공한다는 오류를 피브리노겐 보충으로 교정한다. 대량 수혈 중 A와 동시에 동맥 출혈 통제가 필요함을 명시한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
+- 공식/학회 근거: https://doi.org/10.1186/s13054-023-04327-7
 
 ## 출처
 

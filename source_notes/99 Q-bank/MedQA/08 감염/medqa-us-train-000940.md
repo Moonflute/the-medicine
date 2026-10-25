@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. 면역글로불린 및 백신 투여
 ## 해설
 
 
-동물 물림 후 증상(불안, 침 흘림, 근긴장도 증가)은 광견병을 나타낸다. 사후 예방은 노출 직후 광견병 면역글로불린과 동시에 백신을 투여하는 것이 가장 효과적이다. 따라서 면역글로불린 및 백신 투여가 예방에 가장 큰 역할을 한다.
+동굴 탐험 뒤 나타난 흥분·혼란, 액체를 삼키기 꺼리는 양상, 침 흘림과 근긴장 증가가 광견병을 시사한다. 박쥐 노출은 뚜렷한 물림을 기억하지 못할 수도 있다. 이전 광견병 예방접종을 받지 않은 사람이 적절한 노출 후 예방을 증상 발생 전에 받았다면 상처 세척, 면역글로불린 및 백신으로 예방할 수 있어 D이다. 일반 예방접종이 최신이라는 말은 광견병 접종력을 뜻하지 않으며 이미 임상 광견병이 발현한 뒤의 치료를 묻는 문제는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000940 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 확인되지 않은 동물 물림을 기정사실화하지 않고 동굴·박쥐 노출 및 증상 전 예방으로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html
 
 ## 출처
 

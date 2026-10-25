@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 만성 염증
 
 
 SLE 환자에서 직접 Coombs 검사 양성, 저혈색소증, 구형 적혈구는 IgG가 적혈구 표면에 결합해 파괴되는 온난형 자가면역 용혈성 빈혈을 의미한다. 따라서 원인은 IgG 매개 용혈이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006411 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: SLE·용혈·DAT 양성·구형적혈구에서 온난 IgG AIHA B 기전을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

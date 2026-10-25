@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 레지오넬라병
 ## 해설
 
 
-폐와 림프절에 고전형 결절성 병변이 동반된 급성 폐렴과 림프절 부종은 페스트(흑사병)에서 흔히 나타난다. 특히 서부 미국에서 야외 활동 후 발진·림프절 부종이 동반될 경우 페스트가 의심된다. 따라서 페스트가 정답이다.
+미국 남서부 야외 노출 후 같은 쪽의 심한 서혜부 림프절 종창에 이어 객혈·호흡곤란과 패혈증 소견이 생겨 페스트(C)를 시사한다. CT 그림은 실제로 없어 특정 결절 모양을 관찰했다고 단정하지 않는다. 제시된 다른 감염은 이 bubo-폐증상 조합과 덜 맞는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000558 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 서남부 노출 후 bubo와 폐증상으로 이차 폐페스트 C 유지. 누락 CT에서 결절을 보았다고 꾸민 해설 제거; 텍스트만으로 선지 비교 가능.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "비장 대식세포 제거와 비장 비대는 혈관 내 용혈과 대비되는 기초 소견으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgtnn1ppstdkv2hmltjzau9xmgddrhntymdnn0pxcddaauljq2hgzuhsevlywmhjmk4xykdgeulfagxivzlzzvhocgn5a3viv1f8zglzzwfzzs0wmi1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ D. 고칼슘혈증
 
 ## 오답 포인트
 
-- **B. 혈색소뇨:** 혈색소뇨는 혈관 내 용혈에서 주로 나타난다.
+- **혈색소뇨:** 혈색소뇨는 혈관 내 용혈에서 주로 나타난다.
 
 ## 출처
 
 - 내부 학습 노트: 혈관 외 용혈 (Extravascular Hemolysis)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/혈관 외 용혈 (Extravascular Hemolysis).md`
 - 학습 목표: 원문 핵심: * **CC**: 빈혈 증상. * **P/E**: 비장 비대 (splenomegaly), 황달.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 비장 대식세포 제거와 비장 비대는 혈관 내 용혈과 대비되는 기초 소견으로 유지한다.

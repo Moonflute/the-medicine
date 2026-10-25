@@ -20,23 +20,25 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-54세 남성이 집에서 만든 보드카를 마신 뒤 한 시간 전부터 구강 점막의 작열통, 흉통, 호흡곤란, 연하 시 악화되는 통증으로 내원했다. 구강과 후두개 부위에 침이 많이 고이고 경한 홍반이 있었다. 다음 중 중독을 일으킨 물질은?
+54세 남성이 평소 집에서 만든 보드카를 매일 마시는 병력이 있고, 한 시간 전부터 구강 점막의 작열통, 흉통, 호흡곤란, 연하 시 악화되는 통증으로 내원했다. 구강과 후두개 부위에 침이 많이 고이고 경한 홍반이 있었다. 다음 중 중독을 일으킨 물질은?
 
 ## 선택지
 
@@ -47,8 +49,11 @@ D. 아미트립틸린
 
 ## 해설
 
+구강 작열통·흉통·삼킴통증과 다량 침분비는 부식성 물질 섭취를 시사하여 보기 중 강알칼리 potassium hydroxide(A)가 맞는다. 원문은 homemade vodka를 매일 마신다는 병력만 제시하고, 실제 원인물이 그 술에 섞였다는 증거는 없다. 유기인산제의 전신 콜린성 징후나 opioid/TCA 독성보다 직접 부식성 손상 양상이 강하다.
 
-가정에서 만든 보드카에 수산화칼륨(강 알칼리성 가성) 같은 부식성 물질이 섞이면 구강·인두 화학 화상을 일으킨다. 따라서 원인 물질은 수산화칼륨이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 일상 homemade vodka 섭취력을 발병 직전 섭취/가성물질 혼입으로 바꾼 근거 없는 서술 교정.
 
 ## 출처
 

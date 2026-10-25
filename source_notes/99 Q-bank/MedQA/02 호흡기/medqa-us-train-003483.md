@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 심한 기관지수축
 
 ## 해설
 
+오랜 흡연력과 갑작스러운 호흡곤란·편측 호흡음 감소는 폐기종성 bleb/bulla 파열에 의한 이차성 자발기흉 C를 시사한다. 파열로 흉막강에 공기가 들어가 폐가 허탈한다. 화학물질 관련 methemoglobinemia는 산소반응 저하를 설명할 수 있지만 국소 편측 호흡음 감소를 더 잘 설명하지 않는다. 실제 산소 장치의 FiO2와 영상은 확인해야 한다.
 
-흡연자에서 갑작스러운 호흡곤란과 저산소증, 그리고 한쪽 폐 상부에서 호흡음 감소는 폐기종성 폐포(벌브) 파열에 의한 기흉을 시사한다. 기흉은 급성 저산소증을 일으키며, 흡입된 공기가 폐 외부에 고이게 된다. 따라서 정답은 폐기종성 수포의 파열이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 흡연자의 편측 호흡음 감소는 bleb 파열 C. 벌브·폐외부 공기라는 부정확한 표현 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

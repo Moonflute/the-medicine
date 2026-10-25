@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 설트랄린
 
 ## 해설
 
-
-급성 조증 발작에서는 빠른 진정이 필요하며, 비정형 항정신병제인 할로페리돌이 가장 효과적이다. 리튬은 발작 억제에 적합하지 않다.
+수면 욕구 감소·과소비·과대성과 심한 초조·비협조가 있는 급성 조증 양상이다. 제시된 초기 약물 중 1세대(전형적) 항정신병약 할로페리돌로 빠른 증상 조절을 고려한다. 리튬도 조증과 장기 유지에 사용하는 약이지만 즉각적인 초조 조절과 효과 발현 시점은 구별한다. 할로페리돌을 비정형 항정신병약으로 분류하거나 리튬이 조증에 효과 없다고 설명하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008027
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 할로페리돌 비정형 오분류와 리튬은 조증에 효과 없다는 식의 해설 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

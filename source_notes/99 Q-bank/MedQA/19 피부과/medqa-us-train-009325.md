@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 베체트병
 
 ## 해설
 
+1년간 진행한 구강 미란 후 피부 이완수포·미란과 양성 Nikolsky는 심상성 천포창(B)을 지지한다. TEN도 점막 침범과 표피 박리를 보일 수 있으나 보통 급성 약물 관련 경과로 이 장기간 경과와 다르다. Nikolsky 징후 하나만이 질환에 특이적인 것은 아니다.
 
-심상성 천포창은 표피가 쉽게 벗겨지는 Nikolsky sign과 함께 물집·궤양이 나타난다. 환자의 피부·구강 병변과 이 징후가 일치한다. 다른 선택지는 이러한 특징을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 만성 PV B를 유지하되 TEN도 Nikolsky 양성·점막 침범이 가능하다는 감별점을 보완한다.
 
 ## 출처
 

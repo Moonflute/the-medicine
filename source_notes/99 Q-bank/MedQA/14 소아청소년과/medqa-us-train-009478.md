@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,9 +45,13 @@ D. 비리단스 연쇄구균
 
 ## 해설
 
+고열·침흘림·삼각대 자세는 후두개염을 의심한다. Hib 접종 완료 소아에서도 다른 균에 의한 질환이 가능하며 보기 중 폐렴구균(C)이 타당하다. 다만 Hib와 다른 연쇄상구균도 원인이 될 수 있어 백신 시대의 모든 환자에서 폐렴구균이 최빈이라고 단정하지 않는다. 인두를 억지로 진찰하지 않고 숙련팀의 기도 평가가 우선이다.
 
-소아 후두개염은 급성 고열, 호흡곤란, 침 흘림, 전형적인 전신 독성 증상을 보이며, 가장 흔한 원인균은 폐렴구균이다. 따라서 폐렴구균 감염이 가장 가능성 높다.
-다른 미생물은 후두개염과 연관성이 낮다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 예방접종 시대의 후두개염 원인을 폐렴구균만으로 일반화한 설명 보정.
+- https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/
 
 ## 출처
 

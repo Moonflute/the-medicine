@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 날록손
 
 ## 해설
 
+저긴장, 반사 저하와 중추신경 억제는 진정제 중독에 부합하며, 보기 중 벤조디아제핀의 진정 효과를 역전하는 약은 플루마제닐(A)이다. 플루마제닐은 GABAA 수용체의 벤조디아제핀 결합 부위에 경쟁적으로 길항하며 수용체를 직접 활성화하지 않는다. 벤조디아제핀 중독이 본질적으로 저혈당을 일으킨다는 설명도 부정확하다. 다만 이 사례의 여러 빈 약병과 우울증 병력은 혼합 중독 가능성을 남기므로, 실제로는 만성 벤조디아제핀 의존이나 삼환계 항우울제 동시 중독에 따른 발작 위험 등을 평가해야 한다. A가 약리학적으로 역전제라는 사실이 원인 미상의 혼수에 경험적으로 투여하라는 뜻은 아니며, 기도·환기 보조가 우선이다.
 
-벤조디아제핀 과다복용은 호흡 억제와 저혈당을 일으키며, 플루마제닐은 GABA‑A 수용체를 직접 활성화해 신속히 호흡을 회복시킨다. 중탄산나트륨은 산증 교정, 포도당은 저혈당, 날록손은 마취제 해독에 해당하지 않는다. 따라서 플루마제닐 투여가 가장 적절하다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 벤조디아제핀 효과를 역전하는 A의 약리학적 정답은 유지하되 GABAA 직접 활성화·저혈당이라는 오류를 교정한다. 여러 약병과 항우울제 병력 때문에 실제 혼합 중독에서 일률적으로 투여해서는 안 됨을 명시한다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=93b8ae30-aafb-4808-879e-dffe5194fdf6&type=display
 
 ## 출처
 

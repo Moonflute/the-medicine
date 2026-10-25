@@ -24,20 +24,22 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-24세 여성이 임신 40주에 활동기 분만으로 분만실에 내원했습니다. 분만 과정이 지연되었으나 결국 11파운드(약 5kg)의 남아를 질식 분만했습니다. 수술 후 2일째, 자궁 압통과 장음 감소가 관찰되었습니다. 환자는 소변을 더 자주 본다고 말합니다. 체온은 102°F(38.9°C), 혈압은 118/78 mmHg, 맥박은 111회/분, 호흡수는 17회/분이며, 실내 공기에서 산소 포화도는 98%입니다. 신체 검진상 복부 팽만은 없으며 자궁에 압통이 있습니다. 폐 검진에서는 양측 폐 기저부에서 경미한 수포음(crackles)이 들립니다. 초기 검사실 검사와 소변 검사는 진행 중입니다. 다음 중 가장 가능성이 높은 진단은 무엇입니까?
+24세 여성이 임신 40주에 활동기 분만으로 분만실에 내원했습니다. 분만 과정이 지연되었으나 결국 11파운드(약 5kg)의 남아를 질식 분만했습니다. 분만 후 2일째(원문은 'post operative day 2'로 쓰였으나 앞에 질식분만으로 기재되어 있음), 자궁 압통과 장음 감소가 관찰되었습니다. 환자는 소변을 더 자주 본다고 말합니다. 체온은 102°F(38.9°C), 혈압은 118/78 mmHg, 맥박은 111회/분, 호흡수는 17회/분이며, 실내 공기에서 산소 포화도는 98%입니다. 신체 검진상 복부 팽만은 없으며 자궁에 압통이 있습니다. 폐 검진에서는 양측 폐 기저부에서 경미한 수포음(crackles)이 들립니다. 초기 검사실 검사와 소변 검사는 진행 중입니다. 다음 중 가장 가능성이 높은 진단은 무엇입니까?
 
 ## 선택지
 
@@ -48,8 +50,13 @@ D. 자궁내막염(Endometritis)
 
 ## 해설
 
+장시간 분만 후 산후 2일에 고열과 자궁 압통이 나타나 산후 자궁내막염(D)이 가장 적합하다. 본문은 질식분만을 기재하므로 제왕절개를 했다고 해설에서 바꾸어서는 안 된다. 악취 나는 분비물도 본문에 제시되지 않았다. 융모양막염은 일반적으로 분만 전·중의 감염 맥락이며 이 사례의 산후 자궁 압통에는 D가 더 적합하다.
 
-제왕절개 후 2일째 고열·자궁 압통·악취 나는 분비물은 산후 자궁내막염을 특징짓는다. 이는 감염성 염증으로 가장 흔한 원인이다. 따라서 정답은 자궁내막염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 질식분만인데제왕절개라고한해설및악취분비물창작삭제. 원문postoperative불일치는분만후로주석교정.
+
 
 ## 출처
 

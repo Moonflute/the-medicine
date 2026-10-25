@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 인자 VIII
 
 
 와파린 사용 중 피부 괴사는 단백질 C 결핍과 관련이 있다. 단백질 C는 항응고 단백으로, 결핍 시 피부 혈전과 괴사가 발생한다. 다른 선택지는 해당 메커니즘과 무관하다. 따라서 정답은 단백질 C(C)이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000145 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Warfarin 시작6일 뒤 통증성 피부괴사는 protein C 결핍 C와 일치. 그림 없이도 시간 경과·검게 괴사한 병변이 본문에 기술됨.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

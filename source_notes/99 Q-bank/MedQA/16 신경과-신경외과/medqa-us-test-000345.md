@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,10 @@ D. 시상하핵 뇌졸중
 
 
 목표지향적 저주파 의도떨림은 소뇌와 소뇌-뇌간 연결의 탈수초화(다발성 경화증)와 연관된다. 환자의 다른 신경학적 소견도 이를 뒷받침한다. 따라서 정답은 소뇌 탈수초화이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 행동/자세 떨림 구분, 목표 지나침과 저주파 의도떨림 및 양측 상위운동신경징후는 소뇌 탈수초화 A를 지지. 본문·선지·해설·영어 원문 대조 후 유지.
 
 ## 출처
 

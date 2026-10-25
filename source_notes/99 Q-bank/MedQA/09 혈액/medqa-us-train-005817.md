@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 엽산 결핍
 ## 해설
 
 
-MCV 56 fL, 혈청 철 170 µg/dL, TIBC 상승, 포화도 60%는 철이 과다함을 의미한다. 적혈구 수는 정상·정상형이며 말초혈액도표에서 목표세포와 적혈구 변형이 보이므로 지중해빈혈(베타‑지중해빈혈)이 가장 적합하다. 비타민 B12·엽산 결핍은 거대적혈구성을 만든다.
+매우 낮은 MCV에 비해 RBC5.85×10⁶/µL가 상대적으로 높고 RDW가 증가하지 않으며 가족성 빈혈은 thalassemia A를 지지한다. B12/엽산 결핍은 보통 거대적혈구성이다. 다만 원문의 iron170/TIBC458로 계산한 TSAT는 약37%로 제시60%와 불일치하고 일부 RBC 지수도 서로 일치하지 않아 원수치 확인이 필요하다. 누락된 도말에서 표적세포를 직접 관찰했다거나 철과다 및 beta형을 확진했다고 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005817 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 상대적으로 높은 RBC를 정상형이라 하고 없는 도말을 관찰한 오류 및 철패널 산술 불일치 명시; thalassemia A 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

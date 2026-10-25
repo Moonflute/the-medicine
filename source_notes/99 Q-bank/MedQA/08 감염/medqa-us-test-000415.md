@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 장독소생성 대장균
 ## 해설
 
 
-여행 후 급성 설사와 복통, 설사에 혈액이 섞인 경우 장독소생성 대장균(ETEC) 감염이 흔히 원인이다. 이 균은 장내 독소를 생산해 수양성 설사를 일으키며, 항생제 치료 없이 수분 보충이 주된 관리이다. 따라서 가장 가능성 높은 병원체는 장독소생성 대장균이다.
+인도 여행 후 급성 수양성 설사는 장독소생성 대장균(ETEC, D)을 시사한다. 장독소가 분비성 설사를 유발하며 혈변은 본문에 제시되지 않았다. 기내식 직후 발생했다고 해서 그 식사가 반드시 감염원인 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000415 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 여행자 수양성 설사의 ETEC D 유지. 미제시 혈변을 덧붙인 오류와 모든 경우 항생제 불필요라는 불필요한 치료 단정 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

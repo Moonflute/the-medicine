@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 전층 열상
 ## 해설
 
 
-구토 후 식도 파열은 전층(전벽·점막·근층) 파열을 일으키며, 흉부 청진 시 크런치(공기와 혈액 섞인 소리)가 나타난다. 이는 전층 열상에 해당한다.
+심한 구토 뒤 갑작스러운 흉통과 심박동에 맞춘 마찰성 소리는 식도 전층 파열(Boerhaave 증후군)과 종격동 기종을 시사한다. 따라서 D이다. 이 소리를 혈액과 공기가 섞여 생기는 현상으로 설명하는 것은 부정확하며 점막에 국한된 Mallory-Weiss 열상과 구별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000719`와 직접 대조했다.
+- 판정: 구토 후 흉통·Hamman 소리와 Boerhaave 전층 파열 D 유지. 소리를 공기와 혈액이 섞인 결과로 잘못 설명한 부분 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/
 
 ## 출처
 

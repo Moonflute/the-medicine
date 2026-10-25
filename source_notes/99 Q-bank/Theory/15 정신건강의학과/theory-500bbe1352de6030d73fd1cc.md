@@ -16,38 +16,52 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+curation_status: revised
+curation_reason: "답을 그대로 알려주는 줄기를 바꾸고 핵심을 정신증으로 부른 표현과 구토의 배타적 오답 해설을 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-신경성식욕부진증에서 체중 증가에 대한 극심한 공포와 신체 이미지 왜곡을 특징짓는 주요 정신증적 요소는?
+신경성식욕부진증의 핵심 정신병리로 가장 적절한 것은?
 
 ## 선택지
 
-A. 체중 증가에 대한 공포
-B. 과식 후 구토
-C. 체중 감소에 대한 무관심
-D. 식사 회피 없이 정상 섭취
+A. 유의한 저체중에도 체중 증가를 두려워하거나 체중 증가를 방해하는 지속적 행동
+B. 체중과 무관하게 폭식 뒤 구토만 있으면 항상 진단
+C. 정상 체중을 유지하면 체중·체형 집착이 전혀 없음
+D. 체중 감소를 객관적으로 정확히 인식하고 아무런 섭취 제한도 없음
 
 ## 해설
 
-신경성식욕부진증의 핵심은 체중 증가에 대한 강렬한 두려움과 신체 이미지에 대한 왜곡된 인식입니다.
+섭취 제한에 따른 유의한 저체중, 체중 증가에 대한 강한 두려움 또는 이를 방해하는 행동, 체중·체형 인식의 문제가 핵심이다. 폭식·제거행동형도 있으므로 구토가 있다는 이유만으로 신경성식욕부진증을 배제하지 않는다.
 
 ## 오답 포인트
 
-- **B. 과식 후 구토:** 구토는 주로 신경성폭식증에서 나타나는 보상 행동입니다.
+- **구토만으로 항상 진단:** 체중, 섭취 제한, 인지·행동 양상을 함께 평가해야 한다.
+- **정상 체중이면 집착 없음:** 다른 섭식장애에서도 체중·체형 집착이 가능하다.
+- **섭취 제한이 없음:** 이 질환의 핵심 양상과 맞지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 신경성식욕부진증 (Anorexia Nervosa)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/신경성식욕부진증 (Anorexia Nervosa).md`
-- 학습 목표: 원문 핵심: - **정의**: 영양 섭취 제한으로 인해 체중이 현저히 낮음에도 불구하고, 체중 증가에 대한 극심한 공포와 신체 이미지 왜곡을 보이는 섭식 장애. - **원인**: 유전적 요인, 신경전달물질(도파민, 세로토닌) 불균형, 완벽주의적 성격, 사회적 압박(날씬함에 대한 선망), 가족 내 체중 관련 갈등 등 생물학적·환경적 요인의 복합적 작용. - **기전**: 시상하부-뇌하수체 축의 기능 이상, 전두선조체 회로의 활동 저하, 기아 상태에 따른 대사 및 호르몬 변화.
+- 학습 목표: 신경성식욕부진증의 저체중과 체중 증가 공포
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 답을 그대로 알려주는 줄기를 바꾸고 핵심을 정신증으로 부른 표현과 구토의 배타적 오답 해설을 교정.
+- 근거: https://www.nimh.nih.gov/health/publications/eating-disorders

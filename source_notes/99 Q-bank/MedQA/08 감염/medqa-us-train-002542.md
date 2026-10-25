@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,14 @@ D. 지카 바이러스 감염
 ## 해설
 
 
-Zika 바이러스 감염은 발열·두통·관절통·결막충혈·비대칭 말단성 발진을 동반하며, 혈액 검사에서 특이적인 혈구 병원체는 보이지 않는다. 환자의 여행력과 증상 조합이 Zika 감염을 가장 시사한다.
+브라질 방문 뒤 3–14일 잠복기에 부합하는 발열·관절통·결막충혈과 몸통/근위부 반구진 발진은 선택지 중 Zika D가 가장 잘 맞는다. 발진은 본문대로 기술하며 비대칭 말단 발진으로 바꾸지 않는다. 혈정액이나 청력 변화만으로 확진할 수 없고 덩기열·치쿤구니야 등 여행 관련 감염도 감별한다. 혈액도말 음성 하나만으로 모든 말라리아를 배제하는 것도 아니며 확진에는 적절한 바이러스 검사가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002542 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 몸통·근위부 발진을 비대칭 말단 발진이라고 바꾼 해설 오류 교정; 여행·발열·관절통·결막충혈의 Zika D 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/zika/hcp/clinical-signs/index.html
 
 ## 출처
 

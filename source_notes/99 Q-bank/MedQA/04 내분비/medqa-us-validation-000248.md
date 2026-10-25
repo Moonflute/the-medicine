@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,13 @@ D. 측두동맥 생검
 ## 해설
 
 
-갑상선 기능 저하증은 근육통, 근력 약화, CK 상승을 일으키며, 특히 저칼륨성 근병증이 동반될 수 있다. 진단을 위해서는 갑상선 자극 호르몬(TSH) 검사가 가장 먼저 시행되는 검사이다. 따라서 다음 단계는 혈청 TSH 측정이다
+정답 A. 체중증가·변비·건조피부, 근위부 약화와 CK 상승, 지연된 건반사 이완은 갑상선기능저하성 근병증을 시사한다. 근육의 mounding 현상도 동반될 수 있다. TSH를 측정하고 필요 시 free T4로 확인한다. 본문에 저칼륨혈증이 없으므로 저칼륨성 근병증이 동반됐다고 추가하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000248 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: hypothyroid myopathy를 저칼륨성 근병증으로 설명한 오연결 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

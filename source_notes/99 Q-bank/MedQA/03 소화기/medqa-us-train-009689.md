@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 수소 호기검사
 ## 해설
 
 
-지루성 피부병변과 장증상이 동반된 경우 셀리악병이 의심된다. 진단에 가장 민감하고 특이한 검사는 조직 트랜스글루타미나제(tTG) IgA 항체이며, 이는 혈청에서 쉽게 측정된다. 따라서 가장 유용한 검사는 항조직 트랜스글루타미나제 항체이다.
+정답 A. 만성 흡수장애와 취약골절, 군집성의 가려운 구진수포 발진은 셀리악병과 포진상피부염을 시사한다. 이는 지루성피부염이 아니다. gluten을 섭취하는 동안 IgA-tTG와 total IgA를 확인하며, IgA 결핍이면 IgG 기반 검사를 이용한다. 항체만의 진단 가능 여부는 수치·연령·지침 조건에 달려 있고, 일반적으로 조직 확인도 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009689 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골흡수장애·군집성 소양성 구진수포 발진은 포진상피부염이며 지루성피부염이라는 오연결 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pubmed.ncbi.nlm.nih.gov/36602836/
 
 ## 출처
 

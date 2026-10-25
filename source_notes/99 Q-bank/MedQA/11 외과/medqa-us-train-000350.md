@@ -21,7 +21,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,6 +45,12 @@ D. 횡격막 파열
 
 
 양쪽 팔 혈압 차이와 한쪽 다리 맥박 소실, 종격동 확대는 외상성 대동맥 박리를 시사한다. 대동맥 박리는 급성 생명을 위협하므로 가장 가능성 높은 진단이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000350 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고속 감속손상 후 찢어지는 흉통·사지 혈압/맥박 비대칭·종격동 확장은 선택지 중 외상성 대동맥 박리 B를 지지한다. 원문 정답 및 설명 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -22,13 +22,15 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 복부 선조
 
 ## 해설
 
+Macroadenoma 크기의 뇌하수체 종괴가 시신경교차를 압박하여 양측 주변시야 저하를 설명한다. 정상 뇌하수체 압박에 따른 gonadotropin 결핍 또는 PRL 증가로 남성의 발기부전 C가 나타날 수 있다. 다만 MRI 크기·외형만으로 비기능성 adenoma를 확정할 수 없으므로 PRL과 전반적 뇌하수체 기능을 평가한다.
 
-시상하부-뇌하수체 종양이 비기능성일 경우 호르몬 과다분비가 없으며, 매크로아데노마는 시야 결손(주변시야 저하)과 무증상 성장을 일으킨다. 가장 흔한 비기능성 합병증은 성기능 저하(발기부전)이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 뇌하수체종괴의 ED C는 기능저하/고PRL에서 가능하나 MRI만으로 비기능성 종양 확정하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

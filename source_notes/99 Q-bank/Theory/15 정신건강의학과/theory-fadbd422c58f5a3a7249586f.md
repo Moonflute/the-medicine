@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "RBD와 파킨슨·루이소체 질환의 연관은 정상 근긴장 기전과 다른 중요 개념으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ REM 수면 행동 장애는 파킨슨병, 루이소체 치매 등 신경퇴행�
 
 - 내부 학습 노트: 렘수면 행동 장애 (REM Sleep Behavior Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/렘수면 행동 장애 (REM Sleep Behavior Disorder).md`
-- 학습 목표: 원문 핵심: - 증상: 꿈을 꾸며 소리를 지르거나, 팔다리를 휘두르는 등 복잡한 행동 표출. 환자 본인이나 동침자의 부상 위험. - 특징: 주로 수면 후반부에 발생, 환자는 꿈 내용을 비교적 생생하게 기억함. - 동반 질환: 파킨슨병, 루이소체 치매, 다계통 위축증 등 신경퇴행성 질환의 전구 증상일 가능성 높음.
+- 학습 목표: RBD의 신경퇴행성 질환 연관
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: RBD와 파킨슨·루이소체 질환의 연관은 정상 근긴장 기전과 다른 중요 개념으로 유지.

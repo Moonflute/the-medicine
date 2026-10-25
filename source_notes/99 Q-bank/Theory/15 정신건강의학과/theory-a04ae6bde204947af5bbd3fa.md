@@ -16,38 +16,50 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+curation_status: revised
+curation_reason: "모든 약물이 D2 차단을 공유한다는 오류를 D2 부분작용·무스카린 기전 등 다양성으로 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-항정신병제의 정의는?
+정신병적 증상 치료 약물의 작용 기전에 관한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 조현병 및 기타 정신병적 장애 치료에 사용되는 약물군으로 도파민 D2 수용체 차단 기전을 공유한다.
-B. 우울증 치료에 사용되는 약물군으로 세로토닌 재흡수 억제 작용을 가진다.
-C. 불안장애 치료에 쓰이는 벤조디아제핀 계열 약물이다.
-D. 알츠하이머병 치료에 쓰이는 콜린에스터라제 억제제이다.
+A. D2 차단 약물이 많지만 부분작용·무스카린 기전 등도 있어 모두 동일한 직접 D2 차단으로 정의하지 않는다.
+B. 모든 약물은 반드시 같은 직접 D2 길항 기전만 갖는다.
+C. 모든 약물은 벤조디아제핀과 같은 GABA-A 작용만 한다.
+D. 모든 약물은 콜린에스터라제 억제만으로 작용한다.
 
 ## 해설
 
-항정신병제는 조현병·기타 정신병 치료에 쓰이며, 도파민 D2 수용체 차단 작용을 공유한다.
+전통적 약물 다수는 도파민 D2 경로에 작용하지만 약물마다 기전이 다르다. 무스카린 계열을 활용한 성인 조현병 치료제도 승인되어 치료 약물 전체를 직접 D2 차단으로만 묶을 수 없다.
 
 ## 오답 포인트
 
-- **B. 우울증 치료에 사용되는 약물군으로 세로토닌 재흡수 억제 작용을 가진다.:** 우울증 치료는 항우울제이며, 항정신병제와는 기전이 다르다.
+- SSRI·벤조디아제핀·콜린에스터라제 억제제를 각각 구분하되 약물 이름만으로 모든 적응이 하나라고 단정하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 항정신병제 (Antipsychotics)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/항정신병제 (Antipsychotics).md`
-- 학습 목표: 원문 핵심: - **정의**: 조현병 및 기타 정신병적 장애 치료에 사용되는 약물군으로, 도파민 D2 수용체 차단 기전을 공유함. - **분류**: - 1세대 항정신병제(FGA, 전형적): 도파민 D2 수용체 차단 위주. - 2세대 항정신병제(SGA, 비전형적): 도파민 및 세로토닌 수용체 차단, 추체외로 부작용(EPS) 위험이 상대적으로 낮음.
+- 학습 목표: 항정신병 치료 약물의 기전 다양성
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 모든 약물이 D2 차단을 공유한다는 오류를 D2 부분작용·무스카린 기전 등 다양성으로 교정.
+- 근거: https://www.fda.gov/news-events/press-announcements/fda-approves-drug-new-mechanism-action-treatment-schizophrenia

@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA
   - ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 트라넥삼산 투여
 
 ## 해설
 
+물렁하고 커진 자궁은 자궁이완성 산후출혈을 시사한다. 트라넥삼산은 섬유소용해를 억제하여 출혈을 줄이며 D가 적절하다. 자궁 마사지·자궁수축제·수액·출혈원 평가 등과 조기에 병행하고 투여를 불필요하게 늦추지 않는다. 천식에서는 카보프로스트로 기관지연축이 악화될 수 있다.
 
-산후 출혈이 자궁 이완으로 인한 경우 트라넥삼산은 혈전 형성을 억제해 출혈을 감소시킨다. 카보프로스트는 천식 환자에서 기관지 수축을 유발하므로 금기이다. 따라서 정답은 트라넥삼산 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 트라넥삼산은 혈전 형성 억제가 아니라 섬유소용해 억제 약물이다. 정답 D 유지.
+- https://www.who.int/news/item/05-10-2025-global-health-agencies-issue-new-recommendations-to-help-end-deaths-from-postpartum-haemorrhage
+- https://www.who.int/publications/i/item/9789241550154
 
 ## 출처
 

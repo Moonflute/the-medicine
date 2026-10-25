@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 요추천자
 
 ## 해설
 
+비만·두통·일시적 복시·주변 시야저하와 empty sella는 두개내고혈압을 의심하게 하지만 확진 소견은 아니다. 누락된 안저사진에서 유두부종을 실제로 확인했다고 할 수는 없다. 종괴·폐쇄성 수두증과 정맥동혈전증 등을 적절한 영상으로 배제한 뒤 요추천자(D)로 개방압과 CSF 성상을 평가한다. 안압이 높다는 뜻은 아니며, vitamin A 관련 이차 두개내고혈압 가능성도 검토해야 한다. 반복 LP를 장기 확정치료로 삼지는 않는다.
 
-두통, 시야 감소, 비정상 안압, MRI에서 빈 안장 소견은 특발성 두개내 고압증(의사성 두개내 고혈압)을 나타낸다. 진단 및 치료를 위해 요추천자를 시행한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 안압과 두개내압 혼동 및 비타민 A 복용 중 특발성 확정 오류 교정. LP D는 영상 안전성 확인 후 진단적 개방압 측정 목적.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC6166610/
 
 ## 출처
 

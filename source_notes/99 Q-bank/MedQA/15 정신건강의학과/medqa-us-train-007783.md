@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,10 +51,15 @@ D. 니페디핀
 
 ## 해설
 
-
-공황 발작의 급성 치료는 빠른 불안 완화를 위해 벤조디아제핀(클로나제팜)이 가장 효과적이다. 다른 약물은 장기 관리에 사용되며 급성 발작에는 부적절하다.
+제시된 약물 중 클로나제팜은 공황발작의 단기 증상 완화에 사용할 수 있다. 부프로피온·메토프롤롤·니페디핀을 공황장애의 표준 장기치료제로 묶는 설명은 맞지 않는다. 급성 안정화와 위험 평가를 병행하고 벤조디아제핀의 진정·의존·알코올 병용 위험을 고려하며, 장기 관리에는 CBT나 근거 기반 항우울제 등을 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007783
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 클로나제팜 급성 선택 유지. 다른 선택지가 공황장애 장기 약이라는 오류 제거.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,10 +50,15 @@ D. 입원 완화의료
 
 ## 해설
 
-
-말기 알츠하이머 환자의 영양실조와 진행된 질환 단계에서는 가정 호스피스 돌봄이 환자와 가족의 목표에 부합하며, 연명 치료보다 삶의 질을 중시한다. 따라서 가장 적절한 단계는 가정 호스피스 돌봄이다.
+진행성 치매와 일상생활 전반의 의존, 심한 체중 감소·연하 문제·반복 흡인성 폐렴이 있고 환자가 이전에 연명치료를 원하지 않았다는 가치가 중요하다. 제시된 선택지 중 가정 호스피스 돌봄을 평가·연계하며 가족의 부담과 돌봄 지원을 논의하는 것이 적절하다. MMSE 점수만으로 말기나 호스피스 적격을 자동 판정하지 않고 예후·기능·목표를 함께 확인한다. 모든 영양 지원을 중단한다는 의미도 아니며 편안함을 위한 손수 먹이기와 구강 관리 등을 포함한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007228
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 가정 호스피스 원정답 유지. MMSE/섭취 저하만으로 자동 말기·급여 적격 확정 대신 환자 목표와 예후 평가에 따른 가정 완화·호스피스 연계로 한정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 특발성
 ## 해설
 
 
-글리피지드(글루쿠라곤 유사체)는 G6PD 결핍 환자에서 급성 용혈을 유발할 수 있다. 환자는 G6PD 결핍 가능성이 높으며, 용혈성 위기와 급성 신부전이 약물 유발 용혈에 부합한다. 세균 감염이나 음식은 용혈성 위기와 일치하지 않는다.
+출생 이후 반복된 용혈 의심 증상과 새 glipizide 복용 뒤 짙은 소변은 G6PD 결핍의 약물 유발 용혈(C)을 시사한다. Glipizide는 설포닐우레아제이고 GLP 계열 약물이 아니다. 음식·감염도 용혈을 유발할 수 있지만 이 사례의 시간관계는 약물과 맞는다. 급성 신부전은 본문에 제시되지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000939 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: glipizide 후 G6PD 용혈 C 유지. 글루카곤 유사체라는 약물군 오류, 미제시 신부전, 감염/음식은 유발 불가라는 오류 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=17d1f383-170e-4e5e-a97e-d346ee026166
 
 ## 출처
 

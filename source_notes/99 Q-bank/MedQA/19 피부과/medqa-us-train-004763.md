@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 족부백선
 
 ## 해설
 
+발의 백선(tinea pedis, D), 특히 발가락 사이의 짓무름·균열은 피부장벽을 손상시키고 세균의 침입구가 되어 하지 봉와직염 위험을 높인다. 발톱 진균증(onychomycosis)과 발 피부 백선은 같은 용어가 아니다. 이 사례의 국소 발적·열감·압통과 발열은 봉와직염에 부합하지만 그 자체가 혈류감염이 확인되었다는 뜻은 아니다.
 
-광범위 봉와직염은 피부 손상 위험 요인으로 발톱무좀(족부백선) 등 피부 감염이 전신 감염을 촉진한다. 따라서 족부백선이 가장 강한 소인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 봉와직염의 위험인자 tinea pedis D를 유지하고 이를 발톱무좀과 동일시한 해설을 교정한다.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
 
 ## 출처
 

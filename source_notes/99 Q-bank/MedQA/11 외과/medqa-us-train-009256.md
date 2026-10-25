@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 상처 변연절제와 세척
 ## 해설
 
 
-췌장 절제 후 발생한 녹색 고단백 배액은 췌장 누공을 의미한다. 영양 공급을 위해 장관을 우회하는 전신 영양(TPN)과 누공 관리가 필요하며, 장루는 필요하지 않다. 외과적 재탐색은 보통 필요하지 않다.
+수술12일 뒤 상처로 짙은 녹색 장내용물 양상의 액체가 나오면 장피부누공이나 문합부 누출을 의심한다. 전췌장절제 후라는 사실만으로 췌장액 누공이라고 부르지 않는다. 안정적이며 복막염·패혈증이 뚜렷하지 않다면 수분·전해질, 배액량·해부학과 영양을 평가하고 피부를 보호하며 보존치료를 계획한다. 경구 섭취가 어려운 현재 선택지에서는 정맥영양과 누공 배액을 받는 ostomy pouch(C)가 적절하다. 이 주머니는 새 장루를 수술로 만드는 뜻이 아니다. 저배액 누공에서 경구/경장영양이 가능하면 TPN이 항상 필수는 아니며 복막염·농양 등이 있으면 배농/수술 판단이 달라진다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009256 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 전췌장절제 후 배액을 췌장누공으로 단정한 오류를 장피부누공/장내용물 누출로 교체하고 ostomy pouch 의미를 바로잡았다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://aspenjournals.onlinelibrary.wiley.com/doi/full/10.1177/0148607116680792
 
 ## 출처
 

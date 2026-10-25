@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,7 +52,14 @@ D. 유전자검사
 ## 해설
 
 
-철 과다와 높은 트랜스페린 포화도는 유전성 혈색소침착증을 시사한다. 확진을 위해 HFE 유전자 검사가 필요하다. 영상 검사는 보조적이며 간 생검은 필요하지 않다.
+정답 D. TSAT 83%와 ferritin 상승, 피부색 변화·당뇨·간효소 이상은 철과다를 시사하여 HFE 등 유전성 혈색소침착증 평가를 고려한다. 적합한 유전자형과 철과다 표현형이 함께 있으면 진단을 뒷받침한다. 생검이 모든 환자에서 필요하진 않지만 비전형 유전자형이나 다른 간질환·섬유화 평가에서는 MRI나 생검이 추가될 수 있으므로 절대 불필요하다고 하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007493 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 높은 TSAT/철과 ferritin에서 HFE D 취지 유지; 간생검이 어떤 상황에도 필요 없다는 단정 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://easl.eu/wp-content/uploads/2022/06/PIIS01688278220021121.pdf
 
 ## 출처
 

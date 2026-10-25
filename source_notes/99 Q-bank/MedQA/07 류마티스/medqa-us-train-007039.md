@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -52,7 +54,15 @@ D. 리툭시맙
 ## 해설
 
 
-강직성 척추염은 염증성 척추관절염으로, 에타너셉트는 IL‑17 억제제로 관절 가동성을 가장 크게 개선한다. 따라서 정답은 B이다.
+만성 염증성 요통·척추굴곡 제한·천장관절 압통은 축성 척추관절염을 시사한다. NSAID 반응이 부족하고 활동성 질환이 확인되면 선택지 중 TNF 차단제 etanercept(B)가 적절한 치료 옵션이다. Etanercept는 IL-17 억제제가 아니다. 투여 전 진단·충분한 기존 치료·객관적 염증과 TB/감염 위험 등을 평가하며 제공되지 않은 X선 형태를 실제 확인했다고 쓰지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007039 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Etanercept를 IL-17 억제제라고 한 오류를 TNF 차단제로 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/103795s5605lbl.pdf
+- https://www.nice.org.uk/guidance/NG65/chapter/Recommendations
 
 ## 출처
 

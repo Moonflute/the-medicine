@@ -17,13 +17,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 심방중격결손(Atrial septal defect)
 
 ## 해설
 
+정답은 B이다. 청색증 발작·쪼그려앉기와 좌흉골연 박출성 잡음은 Fallot 사징에 합당하다. 구성은 심실중격결손, 우심실유출로/폐동맥 협착, 대동맥 기승(overriding aorta), 우심실 비대이다. 우심실 비대에 따른 올라간 심첨 등으로 장화 모양 심장 음영이 나타날 수 있으며 대동맥우회술을 받은 상태를 뜻하지 않는다.
 
-Tetralogy of Fallot는 심실중격결손, 폐동맥 협착, 대동맥우회, 오른심실 비대가 특징이며, X‑ray에서 ‘부츠‑shaped heart’가 전형적인 소견이다. 따라서 가장 가능성 있는 방사선 소견은 부츠‑shaped heart이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: TOF의 overriding aorta를 대동맥우회로 잘못 표기한 해설 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

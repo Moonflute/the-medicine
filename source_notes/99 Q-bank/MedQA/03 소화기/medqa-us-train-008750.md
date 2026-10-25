@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 혈청 리파아제 측정
 ## 해설
 
 
-우상복부 통증, 발열, 방어 반응은 급성 담낭염을 강하게 시사한다. 진단 확인을 위해 가장 민감하고 비침습적인 검사는 초음파이다. 따라서 담낭 초음파가 적절한 다음 검사이다.
+반복 식후 RUQ 통증에 고열·백혈구증가와 압통이 동반되어 담낭염 등 담도질환을 의심하며 초기 영상으로 담낭 초음파(B)가 적절하다. HIDA 등보다 항상 가장 민감해서가 아니라 접근성·결석/담도 평가 장점 때문에 우선한다. 등으로 방사되는 통증은 췌장염도 감별해야 하므로 lipase 등 검사를 병행할 수 있고, 반발통·빈맥이 있어 합병증 평가를 지연하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008750 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 담낭염 의심의 초기 초음파 B 유지. 초음파를 모든 검사 중 가장 민감하다고 한 오류 교정하고 복막자극·빈맥은 신속평가 필요.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://gravitas.acr.org/ACPortal/GetDataForOneTopic?topicId=132
 
 ## 출처
 

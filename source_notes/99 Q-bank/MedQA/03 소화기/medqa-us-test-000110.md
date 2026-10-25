@@ -20,13 +20,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 정상 장점막
 
 ## 해설
 
+정답은 B이다. 지속되는 점액성 설사, 체중 감소, 빈혈, 혈소판 증가 및 결절홍반을 시사하는 병력은 염증성 장질환에 합당하다. 장 점막 염증에서는 대변 백혈구가 관찰될 수 있어 제시된 선택지 중 B가 가장 적합하다. 다만 대변 백혈구는 민감도와 특이도가 제한적이며 음성이라고 IBD를 배제하거나 양성만으로 확진하지 않는다. VIP 증가는 분비성 설사, melanosis coli는 주로 안트라퀴논계 완하제 사용, 정상 점막은 기능성 질환과 더 관련된다.
 
-만성 설사와 점액성 점액, 빈혈 경향, 혈소판 증가가 동반된 경우 염증성 장질환이 의심된다. 대변 백혈구는 염증성 장질환에서 흔히 양성으로 나타나며, 진단적 민감도가 높다. 따라서 가장 관련이 높은 소견은 대변 백혈구이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: IBD를 지지하는 임상 단서와 대변 백혈구의 비특이성을 구분; 고감도 확진검사라는 해설 과장 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

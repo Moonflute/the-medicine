@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 바이러스 유전자 중합효소연쇄반응
 
 ## 해설
 
+성장부진·만성 설사·구강 칸디다·폐렴은 HIV 등 면역결핍을 의심하게 한다. 18개월 미만은 모체 항체 영향을 피하기 위해 HIV RNA/DNA NAT(D)를 사용한다. 양성이면 별도 검체로 신속히 재확인하며 수직감염의 정확한 시점을 이 본문만으로 확정하지 않는다.
 
-구강 칸디다증, 폐렴, 림프절병변, 발열은 면역결핍을 시사한다. 선천성 HIV 감염을 확인하려면 HIV 유전자를 증폭하는 PCR 검사가 가장 민감하고 빠른 확진법이다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 면역결핍 징후 영아의 HIV NAT D 유지. 단일 검사 확진·선천성 감염 단정 한정.
+- https://clinicalinfo.hiv.gov/en/guidelines/pediatric-arv/diagnosis-hiv-infection-infants-and-children?view=full
 
 ## 출처
 

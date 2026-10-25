@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,15 @@ D. 개복 담낭절제술
 ## 해설
 
 
-복부 초음파에서 담낭벽 비후와 액체가 보이며, 환자는 복수와 저알부민 혈증을 동반한 간경변 환자이다. 복수와 복부 압통이 있는 경우 가장 위험한 합병증은 자연 발생성 복막염이며, 진단을 위해 복수 천자가 필요하다. 따라서 다음 단계는 복수 천자이다.
+정답 B. 간경변·복수 환자가 발열과 복통으로 내원하면 조기에 진단적 복수천자를 시행해 PMN 수와 배양 등을 평가해야 한다. 그러나 이 환자는 Murphy 징후와 담낭벽 비후·주위 염증 등 담낭염 소견도 있으므로 담낭 감염원 평가와 적절한 항생제·외과 진료를 병행해야 한다. 복수천자를 기다리며 필요한 치료를 지연하지 않는다. 본문만으로 SBP를 확진하거나 다른 복강 내 감염을 제외할 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009435 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복수+감염 증상의 진단적 복수천자 B 유지하되 영상상 담낭염을 무시하거나 SBP 확진이라고 단정한 부분 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://aasldpubs.onlinelibrary.wiley.com/doi/full/10.1002/hep.31884
+- https://pmc.ncbi.nlm.nih.gov/articles/7643471/
 
 ## 출처
 

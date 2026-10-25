@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 수근관
 
 ## 해설
 
+새끼손가락 및 척측 손의 손바닥/손등 감각저하와 집기 약화는 척골신경 손상이다. 척골신경의 등쪽 피부가지는 손목보다 근위부에서 갈라지므로 손등 감각까지 저하되면 Guyon관보다 근위부인 주관절터널(A) 압박이 적합하다. 수근관은 정중신경 압박 부위로 이 감각 분포와 다르며, 본문에는 손목 굴곡근 약화가 관찰되었다는 내용이 없다.
 
-새끼손가락과 안쪽 손등의 감각 저하, 그리고 손목 굴곡근 힘 감소는 주관절(카팔 터널)에서 정중신경이 압박될 때 나타나는 전형적인 증상이다. 따라서 주관절 터널이 가장 가능하다. 다른 부위는 해당 분포와 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 주관절터널의 척골신경을 수근관 정중신경으로 설명한 중대한 오연결 해설 교정.
 
 ## 출처
 

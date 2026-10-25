@@ -18,11 +18,13 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. 선행 화학요법을 시행하기 위한 법원 명령을 신청한다
 ## 해설
 
 
-소아 암 치료는 법적 보호를 받으며, 부모가 치료를 거부할 경우 의사는 법원에 치료 명령을 신청해 생명을 구해야 한다. 이는 미성년자의 최선 이익을 위한 의료법적 절차이다. 따라서 가장 적절한 조치는 법원 명령을 신청하는 것이다.
+미국 소아윤리 맥락에서 효과가 기대되는 치료를 거부해 아동에게 중대한 위해가 예상되고 충분한 설명·합의 시도가 실패한 경우 법원 등 보호체계 개입을 요청할 수 있어 D가 적절하다. 모든 치료 거부에 자동 적용되는 규칙은 아니며 임상·윤리·법률 자문과 관할 절차를 따른다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000186 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 효과적인 소아 구명치료 거부에서 법적 보호 D 유지. 부모의 모든 암치료 거부를 자동 법원 명령으로 일반화하지 않도록 미국 소아윤리 맥락 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://publications.aap.org/pediatrics/article/doi/10.1542/peds.2023-061832/193281/Pediatric-Decision-Making-Consensus
 
 ## 출처
 

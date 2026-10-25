@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 윌리엄스-보이렌 증후군
 
 ## 해설
 
+엄지 결손/저형성 같은 요골측 상지 기형과 ASD를 시사하는 고정된 제2심음 분열은 심장-손 증후군인 홀트-오람증후군(B)에 부합한다. TBX5 병적 변이와 관련된다. 요골측(radial) 기형은 방사선(radiation) 기형이라는 뜻이 아니다.
 
-엄지 결손과 방사선 기형, 그리고 선천성 심장 결함(ASD 등)은 Holt‑Oram 증후군의 특징이다. 이 증후군은 TBX5 유전자 변이로 발생한다. 따라서 가장 가능성 높은 유전증후군은 Holt‑Oram 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: radial 기형을 방사선 기형으로 잘못 쓴 해설을 요골측 상지 기형으로 교정했다.
+
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 호지킨 림프종
 ## 해설
 
 
-다발성 근염(특히 피부근염/다발성 근염)은 악성 종양, 특히 유방암과 연관된 부전형 암 연관성(paraneoplastic) 위험이 높다. 따라서 가장 흔히 연관되는 질환은 유방암이다.
+피부발진과 inflammatory myopathy의 연관 질환 중 보기에서는 유방암 A가 적절하다. 성인 dermatomyositis 등은 암과 연관될 수 있지만 특정 암종이 모든 지역·연령·근염 아형에서 최다라는 뜻은 아니다. Anti-Jo-1/antisynthetase 표현형은 다른 IIM군에 비해 상대적으로 낮은 암위험 인자로 분류되며, 연령·임상경과·다른 항체와 함께 위험을 층화해 검진한다. 이 문항만으로 현재 유방암이 있다고 진단하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008620 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 피부근염과 유방암 A의 보기 연관을 유지하되 anti-Jo1의 암위험이 상대적으로 낮다는 현행위험층화와 암종 보편최다 주장 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nature.com/articles/s41584-023-01045-w
 
 ## 출처
 

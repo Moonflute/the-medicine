@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 아세타졸아미드
 
 ## 해설
 
+의식 악화·단측 고정산동과 외상 병력은 두개내압 상승/탈출을 우려하게 하므로 보기 중 mannitol(A)을 임시 고삼투 치료로 고려한다. 기도·순환을 유지하고 긴급 신경외과적 원인 제거를 지연하지 않는다. 과호흡은 ICP를 낮출 수 있지만 PaCO2 24를 일상적으로 유지하면 뇌허혈 위험이 있어 장기 표준 치료가 아니다. 누락 CT의 모양을 실제 관찰한 것으로 단정하지 않는다.
 
-두개내압 상승이 의심되는 외상성 뇌출혈에서 만니톨은 삼투성 이뇨제로 뇌부종을 감소시켜 압력을 낮춘다. 다른 선택지는 압력 조절에 직접적인 효과가 없으므로, 가장 적절한 약물은 만니톨이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 탈출 위험에서 mannitol A를 수술 전 임시조치로 설명. 다른 선택지가 ICP에 전혀 효과 없다는 오류 제거.
+- 공식/학회 근거: https://ww2.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf
 
 ## 출처
 

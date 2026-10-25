@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 동정맥기형의 파열
 
 ## 해설
 
+심한 고혈압과 급성 국소 신경학적 결손, CT의 뇌실질 내 고밀도 병변은 뇌내출혈에 맞는다. 제시된 선택지 중 만성 고혈압과 관련된 작은 관통동맥 파열(A)이 가장 가능성이 높다. 가교정맥 파열은 경막하출혈, 낭성 동맥류 파열은 주로 지주막하출혈과 연결된다. 모든 반구 출혈이 고혈압 때문인 것은 아니므로 비전형적 위치나 임상상에서는 혈관병변 등 다른 원인을 평가한다.
 
-고혈압과 고혈당 환자에서 급성 두통, 구토, 의식 혼미와 CT에서 고음영 병변이 주변 저음영 부종으로 둘러싸인 경우는 작은 관통동맥(리틀 브레인) 파열에 의한 뇌내출혈이다. 이는 고혈압성 뇌내출혈의 전형적인 병태이다. 따라서 원인은 작은 관통동맥 파열이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고혈압성 뇌실질출혈 A 유지. 본문에 없는 고혈당 및 비의학적 '리틀 브레인' 표현 제거.
 
 ## 출처
 

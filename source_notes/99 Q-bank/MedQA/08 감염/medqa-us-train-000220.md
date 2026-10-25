@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -44,7 +46,14 @@ D. 복부 CT 스캔
 ## 해설
 
 
-항생제 사용 후 급성 설사와 발열, 복부 불편감은 C. difficile 감염이 흔히 나타난다. 확진을 위해서는 대변에서 독소를 검출하는 것이 가장 민감하고 특이도 높은 검사이다. 따라서 대변 내 C. difficile 독소 확인이 정답이다.
+최근 항생제 사용 뒤 수양성 설사·발열·백혈구증가가 발생해 C. difficile 감염을 의심한다. 선택지 중 대변에서 독소를 확인하는 A가 진단에 적절하다. 다만 독소 EIA 단독이 가장 민감한 검사는 아니며, 실제로는 검사 전 기준에 따라 GDH/독소/NAAT를 조합한 다단계 검사 또는 적절한 NAAT 전략을 사용한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000220`와 직접 대조했다.
+- 판정: CDI 대변검사 A 유지. 단독 독소 EIA가 가장 민감·특이하다는 잘못된 최상급 제거, 증상 환자의 검사 알고리즘 명시.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.idsociety.org/practice-guideline/clostridium-difficile/
 
 ## 출처
 

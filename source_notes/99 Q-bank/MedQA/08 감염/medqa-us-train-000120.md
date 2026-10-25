@@ -32,11 +32,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -62,7 +64,13 @@ D. Enterococcus faecalis 감염
 ## 해설
 
 
-최근 요로감염과 대장암 수술 후 새로운 전수축기 잡음, 색전성 증상은 장기성 엔도카르디티스의 원인으로 요로 감염에 흔히 연관된 Enterococcus faecalis가 가장 가능성 높다. Streptococcus sanguinis는 구강 출처이다.
+새 심잡음, 발열과 Osler 결절·Roth 반점은 감염성 심내막염을 지지한다. 최근 중증 요로감염과 장 수술 병력이 있어 선지 중 Enterococcus faecalis(D)가 가장 타당하다. 실제 원인 확인에는 혈액배양과 심초음파를 종합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000120 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 최근 요로감염·장 수술 뒤 IE와 E. faecalis D 연결 유지. 장기성 엔도카르디티스라는 비표준 용어 정리.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

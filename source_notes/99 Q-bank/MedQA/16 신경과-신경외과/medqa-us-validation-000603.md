@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. C5, C6, C7, C8, T1
 
 ## 해설
 
+수근관증후군은 손목의 정중신경 압박이다. 이 신경 자체에 기여할 수 있는 가장 포괄적인 척수신경근 조합을 묻는 선택지에서는 C5~T1(D)이 맞다. 이것이 환자에게 C5~T1의 모든 신경근병증이 있다는 뜻은 아니다. 무지구 약화와 정중신경 감각분포 증상은 손목 부위 말초신경 병변으로 설명한다.
 
-수근관증후군은 정중신경이 C5‑T1의 모든 신경근을 포함한다. 손가락 저림·위축·엄지 외전 약화는 이 범위의 신경근 손상을 의미한다. 따라서 가장 포괄적인 조합은 C5, C6, C7, C8, T1이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정중신경의 전체 기여 신경근과 수근관증후군의 병변 위치를 혼동한 설명 교정.
 
 ## 출처
 

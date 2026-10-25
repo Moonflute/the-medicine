@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -51,7 +53,13 @@ D. 급성 골수성 백혈병
 ## 해설
 
 
-거대적혈구성 골수이형성증후군에서 고리철적모세포가 관찰되며, 이는 급성 골수성 백혈병으로 진행할 위험이 가장 높다. 따라서 가장 발생 가능성이 높은 질환은 급성 골수성 백혈병이다.
+고령의 저망상적혈구성 거대적혈구 빈혈과 ring sideroblasts는 MDS를 의심하게 한다. 나열된 후속 질환 중 AML D로의 진행이 관련된다. 다만 ring sideroblasts는 다른 후천/가역 원인에서도 가능하고 MDS의 실제 진행 위험은 모세포 비율·핵형·분자변이 등으로 평가한다. 이 소견만으로 모든 환자가 고위험이거나 반드시 AML로 진행한다고 할 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004493 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: MDS 관련 AML 진행 위험 D 유지; ring sideroblasts가 곧 모든 환자에서 최고위험이라는 일반화 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

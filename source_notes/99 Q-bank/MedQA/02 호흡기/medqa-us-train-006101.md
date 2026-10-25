@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 폐쇄성 수면무호흡을 동반한 중추성 저환기 증후군
 
 ## 해설
 
+BMI49와 주간 PaCO2 50은 다른 저환기 원인을 배제할 때 OHS B를 지지한다. AHI2로 OSA가 없어도 OHS는 가능하다. 중추성 저환기가 반드시 구조적 뇌손상을 동반하는 것은 아니며 신경근·약물·흉벽 등 감별을 함께 한다.
 
-BMI 49kg/m²인 비만 환자에서 낮은 무호흡‑저호흡 지수와 REM 중 고탄산혈증은 비만 저환기 증후군을 의미한다. 폐쇄성 수면무호흡은 AHI가 높아야 하며 중앙성 저환기는 뇌 손상이 동반된다. 따라서 비만 저환기 증후군이 가장 잘 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: OHS B는 낮은 AHI가 아니라 비만+깨어있을 때 고탄산으로 설명하고 중추성저환기는 반드시 뇌손상이라는 단정 제거.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6680300/
 
 ## 출처
 

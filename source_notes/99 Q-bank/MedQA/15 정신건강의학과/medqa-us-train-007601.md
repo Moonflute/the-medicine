@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 망상장애
 
 ## 해설
 
-
-3개월 이상 지속된 사회적·직업적 기능 저하, 망상·환각 부재, 사고 흐름 파괴와 비정상적 사고는 조현병형 장애에 해당한다. 따라서 가장 가능성 높은 진단은 조현병형 장애이다.
+FBI가 감시하고 마음을 조종한다는 망상과 와해된 말·행동, 사회·직업 기능 저하가 약 3개월 지속되어 제시된 진단 중 조현병형 장애가 적절하다. 조현병형 장애는 전체 경과가 1개월 이상 6개월 미만인 정신병적 장애이며 망상 부재가 특징이 아니다. 뚜렷한 기분삽화가 없어 조현정동장애를 지지하지 않고, 와해 증상과 현저한 기능저하는 고립된 망상장애 설명보다 넓다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007601
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 망상이 본문에 있는데 '망상·환각 부재'라고 한 해설 오류 교정. 조현병형 장애의 기간은 1~6개월로 명시.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

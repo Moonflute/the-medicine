@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 정상 방광 기능
 
 ## 해설
 
+전방 척수증후군에서는 피질척수로와 척수시상로가 침범되어 운동·통각·온도감각이 저하되고, 뒤기둥의 진동·위치·미세촉각은 상대적으로 보존되므로 A가 적절하다. 급성 척수쇼크에서는 이완성 마비·무반사가 나타날 수 있고, 이후 병변 아래 상위운동신경징후가 나타날 수 있다. 반사항진이 단순히 뒤기둥 손상의 소견인 것은 아니다.
 
-전방 척수증후군에서는 전통핵·피라미드 경로가 손상돼 통증·온도와 운동이 상실되고, 후방 척수(미세 촉각·진동) 기능은 보존된다. 따라서 환자는 미세 촉각이 유지될 것이다. 정답은 미세 촉각 보존이다. (반사 항진은 후방 손상에서 나타난다)
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전통핵이라는 오역 및 반사항진은 후방손상에서 발생한다는 오류 교정. anterior cord의 dorsal column 보존 A 유지.
 
 ## 출처
 

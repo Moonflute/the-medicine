@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 골내 접근로를 확보한다
 
 ## 해설
 
+출혈성 쇼크에서 말초 정맥로 확보가 반복 실패하면 골내 접근(D)으로 신속하게 소생용 수액·혈액제제 투여 경로를 확보할 수 있다. 접근로 자체가 혈액을 만들어 주는 것은 아니다. 원문은 above-elbow와 proximal forearm 절단을 모두 기술해 높이가 일치하지 않지만, 이 모순이 추가 순환 접근로 선택을 바꾸지는 않는다.
 
-말초 정맥 접근이 반복적으로 실패할 경우, 가장 빠르고 신뢰할 수 있는 혈관 접근법은 골내 접근이다. 골내 접근은 즉각적인 혈액 공급을 제공해 저혈압성 쇼크를 교정한다. 따라서 골내 접근을 확보하는 것이 적절한 다음 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. IO D 확인. 접근로 자체가 혈액을 공급한다는 모호한 설명과 절단 높이의 원문 모순을 구별.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

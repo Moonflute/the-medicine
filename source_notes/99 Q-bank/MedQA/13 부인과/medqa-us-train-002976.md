@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 유방 초음파
 
 ## 해설
 
+대량 산후출혈 후 수유 실패는 Sheehan증후군 등 뇌하수체 기능저하를 의심하게 하며 시야 증상과 함께 뇌하수체 MRI(B)로 평가한다. 산후 PRL은 수유 자극·시점에 따라 달라 100 ng/mL를 모든 산모의 정상값으로 단정하지 않는다. 코르티솔·갑상선 등 호르몬축도 평가하고 부신부전 응급치료를 검사 때문에 지연하지 않는다.
 
-산후 대량 출혈 후 뇌하수체 손상(셰한 증후군)으로 시야 장애와 무수유가 나타날 수 있다. 진단을 위해 뇌 MRI가 가장 민감하다. CT는 초기 출혈 확인에 좋지만 뇌하수체 손상은 MRI가 필요하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 산후PRL정상100은고정기준아님;Sheehan외뇌하수체질환·부신축평가보강.
+- https://www.ajnr.org/content/ajnr/early/2008/02/22/ajnr.A1016.full.pdf
 
 ## 출처
 

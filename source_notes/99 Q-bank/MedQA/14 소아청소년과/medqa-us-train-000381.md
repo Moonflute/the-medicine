@@ -17,13 +17,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 복부 초음파
 
 ## 해설
 
+출생체중 대비 약 14% 감소, 하루 젖은 기저귀 2개·마른 점막·빈맥은 섭취 부족과 탈수를 시사한다. 수유 횟수·젖 전달을 늘리고 평가하는 C가 보기 중 맞지만 즉시 수분·전해질 상태를 확인하고 필요시 보충수유/수액을 병행한다. 섭취 부족은 대변 배출 감소와 장간순환 증가로 간접 빌리루빈을 높이며 모유 속 배설 감소 때문이 아니다.
 
-모유 수유 빈도가 낮아 유즙 내 빌리루빈 배설이 감소하면 생리적 신생아 황달이 악화된다. 빌리루빈 수치와 정상 간 효소를 고려할 때, 모유 수유 빈도 증가가 가장 적절한 조치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 섭취부족 황달의 수유 지원 C 유지. 빌리루빈이 모유로 배설된다는 오류와 14% 체중감소·탈수 누락을 교정.
+- https://www.healthychildren.org/English/ages-stages/baby/Pages/jaundice.aspx
+- https://www.rch.org.au/clinicalguide/guideline_index/Hypernatraemia/
 
 ## 출처
 

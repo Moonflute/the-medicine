@@ -19,17 +19,19 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 모르핀
 
 ## 해설
 
-
-클로자핀에 의한 급성 근긴장이상 반응(악성 증후군)에서는 항히스타민제인 디펜히드라민이 즉시 증상 완화에 사용된다.
+안구의 강직성 편위·개구장애·사경은 약물 유발 급성 근긴장이상반응을 시사한다. 의식과 체온이 보존되어 있으며 이를 신경이완제 악성증후군과 동일시하지 않는다. 제시된 약물 중 항콜린성 작용이 있는 디펜히드라민이 적절하다. 클로자핀은 추체외로 부작용 위험이 상대적으로 낮지만 약물 노출과 다른 원인을 함께 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006074
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 급성 근긴장이상과 NMS를 동일시한 반복 오류 교정. 디펜히드라민의 항콜린성 작용과 국소 근수축 소견에 근거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.health.ny.gov/diseases/conditions/mimds/diagnosis.htm

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 척추 골절
 
 ## 해설
 
+원래 아침에 심하고 활동으로 완화되는 요통과 척추 운동제한은 축성 척추관절염 같은 기저 염증성·강직성 척추질환 가능성을 시사한다. 강직된 척추는 비교적 낮은 에너지 외상에서도 골절될 수 있으므로, 사고 후 새로운 심한 척추 통증·정중선 압통이 있으면 척추 골절(D)을 우선 의심해야 한다. 시속 11마일 추돌을 고에너지 충격으로 바꾸어 설명하지 않는다. 시험 면제 요청이 있다는 이유로 꾀병으로 단정해서도 안 된다. 실제 골절과 기저 질환은 영상 평가로 확인한다.
 
-교통사고 후 급성 요통과 압통, 운동범위 감소는 외상성 척추 골절을 시사한다. 젊은 환자라도 고에너지 충격이 있으면 압축 골절이 발생할 수 있으며, 통증이 심하고 신경학적 이상이 없더라도 영상평가가 필요하다. 따라서 가장 가능성 높은 진단은 척추 골절이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 시속 11마일 추돌을 고에너지 외상으로 바꾼 해설을 삭제하고 기존 염증성 요통에 의한 강직 척추 가능성과 골절 위험을 설명했다.
 
 ## 출처
 

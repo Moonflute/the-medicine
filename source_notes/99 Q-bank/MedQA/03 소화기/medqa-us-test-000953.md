@@ -20,13 +20,15 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 대두 제품을 제한한다
 
 ## 해설
 
+정답은 A이다. 활동성 celiac병의 소장 융모 손상으로 일시적인 lactase 결핍과 유당불내증이 동반될 수 있어, 심한 설사·복부팽만이 있을 때 일시적으로 유당을 제한하는 A가 제시된 선택지 중 적합하다. 장 점막이 회복되면 허용량을 재평가하며 평생 모든 유제품을 금지하는 뜻은 아니다. diphenoxylate는 효소 보충제가 아니라 장운동을 억제하는 지사제이고, 글루텐 제한식을 대신하지 못한다.
 
-셀리악병 환자는 글루텐 제한 외에 2차적으로 유당불내증이 흔히 나타나며, 설사와 복부팽만을 완화하려면 유제품을 피하는 것이 가장 효과적이다. 디페녹실레이트는 장내 효소 보충제이지만 유당불내증에 직접적인 해결책이 아니다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: diphenoxylate를 장내 효소 보충제라고 한 오류를 지사제로 교정. 일시적인 유당불내증과 평생 유제품 금지를 구별.
+- https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/treatment
 
 ## 출처
 

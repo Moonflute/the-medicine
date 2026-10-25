@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 시상 병변
 
 ## 해설
 
+양팔을 앞으로 뻗고 손바닥을 위로 한 자세에서 한쪽 손이 회내되는 pronator drift는 반대측 피질척수계 상위운동신경원 병변(C)을 시사한다. 본문은 안구운동 이상을 기술하지 않는다. 회내는 손바닥이 아래로 돌아가는 동작으로 단순 내전과는 다르다.
 
-상위운동신경세포 병변은 일과성 안구운동 이상과 손바닥 회내(내전) 같은 비대칭 운동소견을 일으킨다. 이는 정답 C와 부합한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 본문에 없는 안구운동 이상을 제거하고 pronator drift의 피질척수로 근거로 교정.
 
 ## 출처
 

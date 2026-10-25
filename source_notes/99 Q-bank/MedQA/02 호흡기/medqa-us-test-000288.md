@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,15 @@ D. 현재는 항생제가 적절하지 않다
 
 ## 해설
 
+정답은 A이다. 호흡곤란 증가와 다량의 농성 객담·발열을 동반한 COPD 악화에서는 항생제를 고려한다. doxycycline은 제시된 선택지 중 적합한 경험적 선택이 될 수 있으며 실제 선택은 최근 항생제·배양·내성·중증도에 따른다. 녹색 객담만으로 녹농균 감염을 진단할 수 없고 doxycycline을 녹농균 치료제로 설명해서는 안 된다. 고열과 수포음이 있어 동반 폐렴도 평가한다.
 
-COPD 급성 악화 시 녹색 가래와 발열은 흔히 녹색균(예: 독시사이클린에 민감한) 감염을 의미한다. 독시사이클린은 호기성 그람음성균과 비정형균에 효과적이며, 급성 악화에 1차 선택약물이다. 따라서 독시사이클린을 추가한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 농성 객담을 녹농균의 증거로 설명한 오류를 교정하고 COPD 악화의 항생제 적응증을 명시.
+- https://goldcopd.org/2026-gold-report-and-pocket-guide/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10066569/
 
 ## 출처
 

@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 탐색적 개복술
 
 
 복부 전면에 다수의 관통 상처와 저혈압·빈맥이 있는 경우, 복부 내 장기 손상과 출혈이 의심되어 가장 신속하고 포괄적인 수술적 평가가 필요하다. 따라서 탐색적 개복술이 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007898 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 복부 다발 관통상과 심한 출혈성 쇼크는 소생과 동시 즉시 개복술 D를 지지한다. CT·DPL로 출혈제어를 지연하지 않는 원문·해설 일치.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.east.org/mobile/practice-management-guideline/78
 
 ## 출처
 

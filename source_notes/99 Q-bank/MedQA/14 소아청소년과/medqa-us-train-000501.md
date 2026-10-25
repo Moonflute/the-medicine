@@ -24,13 +24,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 태변 장폐색(Meconium ileus)
 
 ## 해설
 
+다운증후군을 시사하는 외형과 출생 직후 담즙성 구토, 상복부 팽만·오목한 하복부는 십이지장 폐쇄(B)에 부합한다. 전형적인 이중기포(double-bubble) 징후는 위와 근위 십이지장에 찬 공기이며 양쪽 장벽을 뜻하지 않는다. 현재 참조 X선은 포함되어 있지 않아 실제 영상 소견은 검수하지 않았고 서술된 증상·외형과 진단 연관성에 한해 정답을 유지한다.
 
-X‑ray에서 양쪽 장벽이 ‘더블‑볼’ 형태로 보이는 것은 듀오덴탈 폐쇄를 의미한다. 이 선천성 기형은 구토와 위장 팽만을 일으키며, 상복부 팽만과 하복부 오목이 특징이다. 따라서 가장 가능성 높은 진단은 십이지장 폐쇄이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 양장벽더블볼이라는해부/영상기전오류교정. 영상은없지만Down/출생직후담즙구토/근위폐색으로B판단가능범위명시.
+
 
 ## 출처
 

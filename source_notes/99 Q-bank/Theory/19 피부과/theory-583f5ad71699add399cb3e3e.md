@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTkg7ZS867aA6rO8L-q0keyEoCDqsIHtmZTspp0gKEFjdGluaWMgS2VyYXRvc2lzKS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "막연한 전암 병변이라는 정의를 실제 위험 암종과 연결."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-광선 각화증은 무엇인가?
+광선각화증을 인지하고 평가해야 하는 중요한 이유는?
 
 ## 선택지
 
-A. 일광에 만성적 노출 시 발생하는 전암 병변
-B. 자외선에 의한 급성 화상
-C. 피부에 바이러스 감염으로 인한 양성 종양
-D. 피부의 진균 감염에 의한 염증성 병변
+A. 일부가 피부 편평세포암으로 진행할 수 있기 때문이다
+B. 모든 병변이 며칠 내 흑색종으로 진행하기 때문이다
+C. 피부 진균 감염의 확진 소견이기 때문이다
+D. 모든 병변이 전이성 내장암이기 때문이다
 
 ## 해설
 
-광선 각화증은 일광에 장기간 노출된 부위에서 나타나는 전암성 상피내 종양으로, 조기 발견이 중요합니다.
+자외선 손상 부위의 거친 각화성 병변인 광선각화증은 피부 편평세포암과 관련된 전암 병변이다. 모두 암으로 진행하는 것은 아니지만 위험과 상태를 평가하여 관리한다.
 
 ## 오답 포인트
 
-- **B. 자외선에 의한 급성 화상:** 급성 화상은 일시적인 손상이며 전암 병변이 아닙니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 광선 각화증 (Actinic Keratosis)
 - 원본 경로: `source_notes/02 Diseases/19 피부과/광선 각화증 (Actinic Keratosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 일광에 만성적 노출 시 발생하는 피부의 전암 병변(intra-epithelial neoplasm). - **역학**: 중년이나 노인에서 호발하며, 피부의 암 전구증 중 가장 흔함. 남성, 피부 타입 I/II, 적도 인접 지역, 면역억제 환자에서 유병률이 높음. - **원인**: 자외선(UV) 노출에 의한 누적된 손상. - **기전**: 자외선 노출이 표피 각질세포의 DNA 손상 및 p53 유전자 변이를 유발하여 세포 분화 및 증식 조절 장애를 초래함.
+- 학습 목표: 광선각화증의 피부 편평세포암 진행 가능성
+
+## 검수 근거
+
+- https://www.aad.org/public/diseases/skin-cancer/actinic-keratosis-overview

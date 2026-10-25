@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 중탄산나트륨
 
 ## 해설
 
+생후 초기 소량의 붉은 기저귀 자국은 농축뇨의 요산염 결정으로 생길 수 있다. 다른 이상이 없는 이 사례의 보기 중 추가 검사 없이 관찰(C)이 적절하다. 이는 결석이 확인되었다는 뜻이 아니다. 수유·수분 상태를 살피고 지속되거나 혈뇨·탈수 소견이 있으면 재평가한다.
 
-신생아 기저귀에 보이는 작은 붉은 얼룩은 정상적인 요산 결정(요산 결석)이며, 혈청 요산이 정상이다. 치료가 필요하지 않다. 따라서 C가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신생아 요산염 결정 침착을 요로결석으로 오역한 설명을 교정.
+
 
 ## 출처
 

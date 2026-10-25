@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 티아민
 
 ## 해설
 
+원정답은 B, 저염식이다. 반복되는 현훈과 청력저하는 메니에르병을 시사하며, 이 답은 증상 재발을 줄이기 위한 초기 식이·생활교육의 맥락으로 이해한다. 저염식이 급성 발작을 즉시 완화하는 가장 효과적인 치료라고 단정할 수는 없다. 급성 심한 현훈에서는 메클리진 같은 전정억제제를 짧게 사용할 수 있다. 실제 메니에르병 진단에는 발작 지속시간과 청력검사 결과를 확인해야 하고, 비대칭 청력저하의 다른 원인도 평가해야 한다. 본문의 정보만으로 확진 기준을 모두 충족했다고 주장하지 않는다.
 
-메니에르병의 급성 악화는 저염식이 증상 완화에 가장 효과적이다. 저염식은 내이의 과도한 체액 축적을 감소시켜 현기증과 구역을 줄인다. 따라서 저염식이 일차 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저염식을 급성 발작의 가장 효과적인 완화치료로 단정한 해설 수정. 원정답 B의 장기 생활관리 의도와 단기 전정억제제를 구분하고 청력검사/감별 필요 명시.
+- 공식/학회 근거: https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/abs/10.1177/0194599820909438
 
 ## 출처
 

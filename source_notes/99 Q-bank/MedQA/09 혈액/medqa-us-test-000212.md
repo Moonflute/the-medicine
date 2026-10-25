@@ -21,11 +21,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,14 @@ D. 주석산 저항성 산성 인산분해효소(TRAP) 검사
 ## 해설
 
 
-환자는 HIV 감염, B 증상, 전신 림프절 비대와 빈혈·혈소판 감소를 보이며 조직검사에서 림프종이 의심된다. HIV 환자에서 가장 흔한 비호지킨 림프종은 B세포 기원이며, C형 간염은 관련이 없고 JAK2 돌연변이는 골수증식성 질환에, TRAP는 헤지킨 림프종에 해당한다. 따라서 C형 간염 항체 검사가 가장 적절한 다음 검사이다.
+전신 림프절병증·B증상·높은 LDH로 림프종을 고려하며 생검 진단 뒤 동반 HCV 감염을 검사하는 B가 적절하다. HCV는 일부 B세포 림프종과 연관되고 치료계획에도 영향을 줄 수 있다. TRAP는 전통적으로 털세포백혈병과 관련하며 호지킨림프종 표지가 아니다. 구체적 조직형은 본문에 기술되지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000212 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 림프종/HIV의 동반감염 평가 HCV B 유지. HCV는 무관·TRAP는 Hodgkin이라는 정반대 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://oncologypro.esmo.org/content/download/233774/3945164/file/2019-ESMO-ESO-Course-Valencia-Understanding-Treating-Lymphomas-Challenges-Maria-Jose-Terol.pdf
 
 ## 출처
 

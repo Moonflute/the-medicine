@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,17 @@ D. 스티븐스-존슨 증후군
 
 ## 해설
 
-
-양극성 조증 치료에 리튬을 사용하면 태아 심장에 심방형성(atrialization)이라는 특이한 심실 구조 변화를 일으킬 수 있다. 이는 리튬의 태아 독성 중 가장 흔한 형태이다. 따라서 정답은 태아 우심실의 심방화이다.
+조증과 과거 우울·자살위험의 양극성 장애 맥락에서 원문이 추론하게 하는 약물은 리튬이다. 임신 초기 리튬 노출과 관련해 우려하는 태아 심장기형 중 Ebstein 기형은 삼첨판의 심첨부 변위와 우심실 일부의 우심방화를 특징으로 한다. 이를 단순 심방형성이라고 부르거나 가장 흔한 태아 독성이라고 단정하지 않는다. 실제 임신 중 처방은 절대 위험과 모체 재발·자살 위험, 대안을 전문적으로 함께 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009365
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. Ebstein 우심실 우심방화를 단순 심방형성/가장 흔한 태아 독성으로 설명한 오류 교정. 리튬 추론과 원정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=049902a9-3af1-4863-994e-15f36e7a9793&type=display
+- https://academic.oup.com/eurheartj/article/42/6/563/5898606

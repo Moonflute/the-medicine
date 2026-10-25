@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 전두측두엽 치매
 ## 해설
 
 
-HIV 감염은 면역결핍으로 위장관 칸디다증(흰색 플라크)과 진행성 인지·운동 장애를 일으키며, HIV 관련 뇌병증이 가장 흔한 원인이다. 따라서 정답은 HIV 관련 뇌병증이다.
+구강/식도 칸디다증을 시사하는 병변과 수개월의 인지·정신운동/운동 저하는 선택지 중 HIV 관련 뇌병증 C를 의심하게 한다. 그러나 HIV 검사·면역 상태 및 신경 영상/필요한 CSF 검사를 통해 감염·대사·약물·우울 및 다른 신경질환을 배제해야 한다. 우울한 기분이 있다고 곧 가성치매로 환원하거나 칸디다 소견만으로 HIV성 뇌병증을 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004640 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 아급성 인지·운동 저하와 면역저하 단서의 HIV 뇌병증 C 유지; 가장 흔하다고 무조건 확진하는 일반화 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

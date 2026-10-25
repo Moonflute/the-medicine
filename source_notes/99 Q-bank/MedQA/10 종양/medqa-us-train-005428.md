@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. HER2/neu 양성
 ## 해설
 
 
-유방암에서 액와 림프절 전이는 전이 범위가 넓어져 생존율을 크게 낮추는 가장 강력한 불량 예후 인자이다. 고령·호르몬 수용체 양성은 예후에 영향을 주지만 림프절 전이보다 약하다. 따라서 액와 림프절병증이 최악의 예후 지표이다.
+액와림프절의 종양 침범 정도는 유방암의 주요 예후인자로, 보기 중 A가 가장 중요하다. 촉지되는 림프절병증은 전이를 의심하게 하지만 병리로 확인하여 병기를 정해야 한다. ER/PR, HER2, 종양 크기·등급 및 전신 전이도 예후와 치료에 중요하며 HER2 표적치료 시대에는 수용체 상태를 단순히 무시할 수 없다. 제공되지 않은 조직 사진의 세부 형태는 추정하지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005428 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 선택지상 액와림프절 침범 A의 중요성 유지하되 촉진 림프절만으로 전이를 확정하거나 다른 예후요인을 무시하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
 
 ## 출처
 

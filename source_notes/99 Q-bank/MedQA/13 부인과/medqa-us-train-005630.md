@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 절개 및 배농
 
 ## 해설
 
+산후 3일 양측 유방 충만·부종·통증은 유즙분비 증가에 따른 울혈에 합당하다. 냉찜질과 진통제(A), 적절한 젖물림과 정상적 수유를 돕는다. 과도한 유축·깊은 마사지는 피한다. 일측 국소 발적·고열·파동성 농양 소견은 없다.
 
-산후 유방 울혈은 모유수유 시작 전 유선에 정체된 혈액과 림프가 축적돼 통증과 부종을 일으킨다. 보존적 치료인 냉찜질과 진통제 사용이 1차 관리이다. 다른 선택지는 불필요하거나 과도한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 산후 3일 양측 유방 울혈의 냉찜질·진통 A 유지. 수유 시작 전 혈림프 정체로만 설명한 오류 보완.
+- https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf
 
 ## 출처
 

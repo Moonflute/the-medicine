@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 한 가지 어두운 색
 
 ## 해설
 
+흑색종을 의심하는 특징에는 비대칭·불규칙 경계·색조 다양성·변화가 있다. 제시 선지 중 한 가지 색조(D)가 상대적으로 덜 의심스럽지만 단일 색의 흑색종도 가능하다. 이 환자는 기존 점의 빠른 성장을 보고했으므로 D만으로 양성 모반이라 확정하거나 평가를 중단해서는 안 된다.
 
-흑색종을 의심하게 하는 특징은 불규칙한 경계, 비대칭, 색상 변화 등이다. 반면에 단일 색조(한 가지 어두운 색)만을 가진 점은 일반적으로 양성 색소성 모반에 해당한다. 따라서 안심할 수 있는 특징은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선지 중 단일 색조 D가 상대적으로 덜 의심스러운 특징이나 급격히 커지는 병변을 양성이라고 안심시킨 설명을 수정한다.
 
 ## 출처
 

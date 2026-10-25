@@ -16,36 +16,47 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "유두·유륜의 습진성 변화라는 중요한 독립 인지 목표 유지. 경계 명확성을 필수화하지 않음."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-파제트병(유방 파제트병)의 주요 임상 양상은?
+유방 파제트병을 시사하는 대표적인 피부 병변은?
 
 ## 선택지
 
-A. 유두·유륜 경계가 명확한 홍반성 판
-B. 유방 전체의 결절성 종괴
-C. 유두 함몰
-D. 유방 피부의 색소 침착
+A. 유두·유륜의 지속적인 홍반·인설·가피 등 습진성 변화
+B. 유방 전체의 결절성 종괴만 나타남
+C. 피부 변화 없이 유두 함몰만 나타남
+D. 유방 전체의 대칭적 색소침착만 나타남
 
 ## 해설
 
-파제트병은 유두·유륜에 경계가 뚜렷한 홍반·인설·가피성 판이 특징입니다.
+유방 파제트병은 유두에서 유륜으로 이어질 수 있는 지속적 습진성 변화를 보인다. 피부 병변만 보이더라도 유방 병변의 평가가 필요하다.
 
 ## 오답 포인트
 
-- **B. 유방 전체의 결절성 종괴:** 결절성 종괴는 일반적인 유방암에서 흔히 보입니다.
+- 종괴가 반드시 동반되어야 하는 것은 아니며 유두·유륜의 지속적 변화가 중요한 단서이다.
 
 ## 출처
 
 - 내부 학습 노트: 파제트병 (Paget's Disease)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/파제트병 (Paget's Disease).md`
-- 학습 목표: 원문 핵심: * **CC**: 유두 및 유륜의 만성 습진성 병변, 가려움증, 작열감, 유두 분비물, 궤양. * **P/E**: 유두와 유륜의 경계가 명확한 홍반성, 인설성, 가피성 판(plaque). 습진과 유사하여 진단이 지연되는 경우가 많음. 약 50%에서 유방 내 종괴가 촉진됨.
+- 학습 목표: 유방 파제트병의 유두 습진성 병변
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 유두·유륜의 습진성 변화라는 중요한 독립 인지 목표 유지. 경계 명확성을 필수화하지 않음.

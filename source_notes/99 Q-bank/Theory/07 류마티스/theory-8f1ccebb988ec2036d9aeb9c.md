@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "외분비샘 기능저하로 눈·입 건조가 생긴다는 기본 기전을 유지. 안구만 다시 묻는 중복은 통합."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgnnnjzxwty2zuk3wxv3n0lxa0wteuh2t3ezdu91z2pdrhnwcdn0btrucxriqwdlrk5xdzdabmntvnvkm01nvtnsdvpisnziv1vwtg0xa3xkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,10 +47,15 @@ D. 근육 약화
 
 ## 오답 포인트
 
-- **B. 관절통 및 부종:** 관절통은 흔하지만 핵심 증상은 아니다.
+- **관절통 및 부종:** 관절통은 흔하지만 핵심 증상은 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 쇼그렌 증후군 (Sjögren's Syndrome)
 - 원본 경로: `source_notes/02 Diseases/07 류마티스/쇼그렌 증후군 (Sjögren's Syndrome).md`
 - 학습 목표: 원문 핵심: - **정의**: 주로 안구 및 구강 건조 증상을 특징으로 하는 만성 자가면역질환이다. 외분비샘의 림프구 침윤으로 인해 분비 기능이 저하된다. - **원인**: 원인은 불명이나 유전적 소인, 환경적 요인, 호르몬 등이 복합적으로 작용하는 것으로 알려져 있다. - **기전**: 외분비샘(눈물샘, 침샘 등)에 림프구가 침윤하여 조직 손상을 일으키고, 이로 인해 눈물과 침 분비가 감소한다. 자가항체(Anti-Ro/SSA, Anti-La/SSB) 생성이 흔히 동반된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 외분비샘 기능저하로 눈·입 건조가 생긴다는 기본 기전을 유지. 안구만 다시 묻는 중복은 통합.

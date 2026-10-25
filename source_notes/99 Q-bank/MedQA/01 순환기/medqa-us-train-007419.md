@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. D-이합체
 
 ## 해설
 
+상행대동맥의 내막판은 A형 대동맥박리를 뜻하므로 즉각적인 심장혈관외과 및 응급수술 평가가 필요하다. 동시에 A의 정맥 메토프롤롤 등으로 심박수와 전단력을 낮추는 항충격력(anti-impulse) 치료를 시행한다. 관류를 보존하도록 감시하면서 용량을 조절하고, 추가 혈관확장제는 베타차단 후 검토한다. 약물만 투여하면서 수술을 미루지 않는다.
 
-상행 대동맥 박리(Stanford A형)에서는 심박출량과 혈압을 급속히 낮추어 대동맥벽에 가해지는 전단응력을 감소시켜야 한다. 베타 차단제인 메토프롤롤은 심박수를 가장 먼저 감소시켜 전단응력을 최소화하므로 수술 전 초기 치료에 가장 적합하다. 히드랄라진은 혈관을 직접 확장시켜 반동성 심박수 증가와 전단응력 악화를 초래할 수 있다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: TypeA박리의초기IV beta차단 A를응급수술의대체가아닌병행조치로명시.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106
 
 ## 출처
 

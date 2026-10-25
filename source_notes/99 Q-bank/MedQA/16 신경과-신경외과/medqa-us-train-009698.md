@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 경피적 내시경 위루관을 통한 경장영양
 
 ## 해설
 
+기계환기 중이며 경구섭취가 불가능하지만 장 기능을 사용할 수 있다면 조기 경장영양(C)을 우선 고려한다. 비위관은 초기 단기 접근으로 적합하고, 장기 필요성이 확정되지 않은 입원 3일째에 바로 PEG를 선택할 근거는 부족하다. 정맥영양은 경장영양이 불가능하거나 충분하지 않은 상황에서 평가하며 '전신 영양'이라는 별도 치료가 아니다. 투여 경로는 흡인 위험과 두개저 손상 여부 등도 고려한다.
 
-중증 외상성 뇌손상 환자는 위장관 기능이 유지되는 경우 위관을 통한 경장영양이 가장 안전하고 장기 영양을 제공한다. 경구 섭취는 의식 저하와 기계적 환기 때문에 금지되고, 전신 영양은 감염 위험이 크다. 따라서 다음 단계는 비위관을 통한 경장영양이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 초기 비위관 경장영양 C 확인. 비위관을 장기 영양용으로 단정하고 정맥영양을 '전신 영양'으로 번역한 해설 교정.
+- 공식/학회 근거: https://ww2.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf
 
 ## 출처
 

@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "샘근육증의 근층 내 내막 조직 개념은 중요하며 오답 포인트의 문자 의존을 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 자궁 내막의 악성 종양
 
 ## 오답 포인트
 
-- **B. 자궁 근층에 발생하는 섬유성 종양:** 근층 섬유성 종양은 자궁 근종이다.
+- **근층에 발생하는 평활근 양성 종양:** 자궁근종의 개념이다. 자궁샘근육증은 근층 내 자궁내막 조직을 특징으로 한다.
 
 ## 출처
 
 - 내부 학습 노트: 자궁 샘근육증 (Uterine Adenomyosis)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁 샘근육증 (Uterine Adenomyosis).md`
-- 학습 목표: 원문 핵심: - **정의**: 자궁 내막 조직(샘 및 기질)이 자궁 근층 내에 침윤하여 증식하는 양성 질환 - **원인**: 명확하지 않으나, 자궁 내막 기저층과 근층 사이의 경계면 손상(제왕절개, 소파술 등) 및 에스트로겐 노출과 관련 - **기전**: 이소성 내막 조직의 증식으로 인한 근층 비대 및 혈관 신생, 프로스타글란딘 생성 증가
+- 학습 목표: 자궁샘근육증과 자궁근종의 병리적 차이를 구분한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 샘근육증의 근층 내 내막 조직 개념은 중요하며 오답 포인트의 문자 의존을 제거.

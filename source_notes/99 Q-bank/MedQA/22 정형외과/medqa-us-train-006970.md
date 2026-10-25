@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 슬개골을 압박할 때 심한 통증
 
 ## 해설
 
+외반 스트레스에서 이완되는 것은 내측곁인대(MCL) 손상을 시사한다. 내측 반월상연골은 MCL 및 관절낭과 연결되어 있어 동반 손상이 생길 수 있으며, 수동 굴곡·신전과 회전에서 만져지는 클릭(A)은 반월상연골 손상을 뒷받침한다. 클릭 자체가 ACL 파열의 전형적 소견인 것은 아니다. ACL 동반 손상도 가능하지만 그때의 대표 검사는 Lachman·전방서랍검사의 경골 전방 전위(B)이다. 정상 활액만으로 인대·연골 손상을 배제하지 않으며 동반 손상은 실제 진찰로 확인한다.
 
-전방 십자인대 손상 시 무릎을 수동적으로 움직일 때 ‘클릭’ 소리가 발생한다. 이는 전방 십자인대 파열에 따른 관절 불안정성의 전형적인 소견이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 외반 불안정성의 MCL 손상과 동반 가능한 내측 반월상연골 손상을 설명해야 하는데 ACL 파열의 전형적 클릭으로 잘못 연결한 해설을 교체했다. A는 동반 손상의 예상 소견으로 유지한다.
 
 ## 출처
 

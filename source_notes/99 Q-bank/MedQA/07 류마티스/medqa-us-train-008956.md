@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 티록신
 ## 해설
 
 
-다발성 근육통과 압통, ESR 상승은 다발성 근육통증후군(PMR)과 일치한다. 일차 치료는 글루코코르티코이드이다.
+50세 이후 아침강직·근육통, 보존된 근력과 ESR 상승에서 PMR를 의심하여 보기 중 glucocorticoid B가 부합한다. 다만 실제 PMR 진단에는 어깨·골반대 분포와 기간 등 추가 확인 및 감염·암·내분비·약물성 유사질환 배제가 필요하다. 저용량 시작을 개별화하며 당뇨·고혈압이 있어 혈당과 혈압, 골 위험을 함께 관리한다. ESR 상승만으로 무조건 steroid를 투여하는 일반 규칙은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008956 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 모호한 광범위 근육통만으로 PMR 확진하지 않고 정상근력·아침강직·ESR의 출제의도와 당뇨 steroid위험을 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13661133/
 
 ## 출처
 

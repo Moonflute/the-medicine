@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 혈청 단백 전기영동
 ## 해설
 
 
-백혈구 50,000/mm³, 혈소판 20,000/mm³, 빈혈을 동반한 급성 전신 증상은 급성 골수성 백혈병을 강하게 시사한다. 골수 생검을 통해 비정상적인 골수세포와 백혈구 전구체를 확인함으로써 확진할 수 있다. 따라서 골수 생검이 가장 도움이 되는 검사이다.
+빈혈, 심한 혈소판감소, 백혈구증가와 뼈 통증·림프절병증은 급성 백혈병을 의심하게 한다. Down 증후군에서는 ALL과 AML 위험이 모두 증가한다. 선택지 중 골수검사(C)가 진단에 가장 도움이 되며, 형태·유세포검사·유전학으로 계열을 분류해야 한다. 현재 CBC만으로 AML을 확정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010104 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Down 소아 급성 백혈병 의심에서 골수 C 유지. 계열 정보 없이 AML이라고 확정한 설명 수정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq
 
 ## 출처
 

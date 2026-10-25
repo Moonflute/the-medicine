@@ -22,11 +22,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -47,7 +49,14 @@ D. 비타민 B12 평가
 ## 해설
 
 
-위 절제 후 발생한 잔여 위암은 전이·진단을 위해 복부·골반 CT가 필요하다. CT는 종양의 범위와 전이 여부를 평가한다. 따라서 C가 다음 단계다.
+내시경 생검으로 위선암이 확인되었으므로 다음은 범위와 전이를 평가하는 병기 검사이다. 선지 중 복부·골반 CT(C)가 적절하며 실제 초기 병기 평가에는 조영증강 흉부 CT도 포함한다. 절제 가능성에 따라 이후 복강경·복막세포검사를 고려한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-002780`와 직접 대조했다.
+- 판정: 위암 생검 후 병기 CT C 유지. CT를 조직진단 검사와 혼동하지 않도록 병기 목적·흉부 포함 평가 명시.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://doi.org/10.1016/j.esmoop.2023.102226
 
 ## 출처
 

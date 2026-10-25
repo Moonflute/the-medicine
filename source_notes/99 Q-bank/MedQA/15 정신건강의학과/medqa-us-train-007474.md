@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 구안파신
 
 ## 해설
 
-
-5세 아동의 전형적인 ADHD 증상(과잉활동, 충동성, 부주의)에는 자극제인 메틸페니데이트가 1차 치료제로 권장된다. 다른 선택지는 비자극제이거나 비약물 치료이다. 따라서 정답은 메틸페니데이트이다.
+가정과 학교에서 6개월간 지속되는 부주의·과잉활동·충동성과 기능장애는 ADHD에 부합한다. 질문은 약물 선택을 묻고 있어 제시된 약물 중 메틸페니데이트가 원문 정답이다. 다만 5세 학령전 아동의 전체 초기 치료는 부모훈련·교실 행동중재가 우선이며, 충분한 행동중재에도 유의한 기능장애가 지속될 때 전문적으로 메틸페니데이트를 고려한다. 아토목세틴·클로니딘·구안파신도 약물이며 비약물 치료라고 분류하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007474
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 5세 ADHD에서 전체 치료의 일률적 자극제 우선으로 읽히는 설명 및 다른 선지를 비약물로 분류한 오류 교정. 약물이 필요할 때 메틸페니데이트 답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.cdc.gov/adhd/treatment/index.html

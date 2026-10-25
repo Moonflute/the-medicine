@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 시상의 복측후외측핵
 
 ## 해설
 
+진행성 위축·근섬유다발수축은 하위운동신경원 손상을, 반사 항진·경직은 상위운동신경원 손상을 시사하여 ALS에 맞는다. 보기 중 척수 복측각(C)은 하위운동신경원 세포체가 있는 부위로 위축과 근섬유다발수축을 설명한다. 반사 항진까지 복측각 단독 병변으로 설명하는 것은 부정확하며, ALS에서는 피질척수계도 함께 손상된다.
 
-근위축성 측삭경화증은 전신 근육 위축과 상부 운동신경원 병변으로 복측각(ventral horn) 손상이 일어난다. 환자의 증상(근력 약화, 위축, 반사 증가)은 복측각 병변을 시사한다. 다른 선택지는 해당 신경학적 소견을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 복측각을 상위운동신경원 부위라고 한 해설 오류 교정.
 
 ## 출처
 

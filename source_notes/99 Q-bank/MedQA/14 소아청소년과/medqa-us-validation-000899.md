@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 장 두 부분이 서로 망원경처럼 겹침
 
 ## 해설
 
+태변 배출 지연, 복부 팽만과 직장수지검사 후 가스·변 분출은 히르슈스프룽병을 시사한다. 신경능선 세포의 이동·발달 실패(C)로 원위 장관에 신경절 세포가 없으면 해당 구간이 이완하지 못해 기능적 폐쇄를 일으킨다. 장이 해부학적으로 두 부분으로 나뉘는 상태라는 뜻이 아니다.
 
-히르슈스프룽병은 신경능선 세포가 장으로 이동하지 못해 장이 두 부분으로 나뉘는 선천성 기형이다. 이는 배아 발생 중 신경능선 세포 이동 실패가 원인이다. 따라서 기전은 신경능선 세포 이동 실패이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 히르슈스프룽병을 장이 두 부분으로 나뉘는 기형이라고 설명한 오류를 무신경절 구간의 기능적 폐쇄로 교정했다.
+
 
 ## 출처
 

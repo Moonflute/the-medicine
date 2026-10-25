@@ -18,13 +18,15 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 시냅스 세로토닌 저하
 
 ## 해설
 
+비만과 코골이, 아침에 심한 두통·집중력 저하 및 고혈압은 폐쇄성 수면무호흡을 의심하게 한다. 야간 상기도 폐색(B)이 반복되는 저산소증과 각성을 통해 교감신경 활성화를 높이고 고혈압에 기여할 수 있다. 증상만으로 확진하지 않으며 실제 평가에서는 수면 관련 검사를 고려한다.
 
-비만, 고혈압, 주간 졸림증을 동반한 간헐적 두통은 폐쇄성 수면 무호흡(OSA)에서 흔히 나타난다. 상기도 폐쇄가 주요 원인이므로, 야간 상기도 폐쇄가 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 B 유지. 본문에 없는 주간졸림을 사실로 추가하지 않고 코골이·아침두통·집중저하의 OSA 및 교감신경 기전 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

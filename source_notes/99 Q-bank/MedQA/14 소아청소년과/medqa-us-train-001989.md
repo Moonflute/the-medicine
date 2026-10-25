@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. Escherichia coli
 
 ## 해설
 
+정상적으로 지내던 신생아가 생후 10일에 빨기 어려움과 전신 경직·연축을 보이면 신생아 파상풍을 시사하며 원인균은 Clostridium tetani(B)이다. WHO도 생후 3~28일에 수유 능력이 떨어지고 경직/연축이 생기는 양상을 기술한다. 보툴리즘은 주로 이완성 하행 마비를 일으키므로 꿀 노출 가능성만으로 경직성 소견을 무시해서는 안 된다. 모체 예방접종 부재는 파상풍 보호 항체 부족의 위험 맥락이다.
 
-신생아 보챔, 전신 근육 경직, 연축은 보툴리눔 독소에 의한 영아 보툴리즘이 가장 흔하며, 꿀 섭취가 위험 요인이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 경직성 연축의 신생아 파상풍 정답 B에 보툴리즘 해설을 연결한 오류를 교체했다.
+- https://www.who.int/news-room/fact-sheets/detail/tetanus
+- https://www.cdc.gov/tetanus/hcp/clinical-overview/
 
 ## 출처
 

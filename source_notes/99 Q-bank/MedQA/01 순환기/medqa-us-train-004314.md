@@ -18,13 +18,15 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 이 사람에게 정보를 공유해도 되는지 환자에게 확인
 
 ## 해설
 
+환자는 사촌을 포함한 가족에게 정보공개를 명시적으로 허용했다. 확인된 사촌에게 허용범위의 치료경과/예후를 설명하는 B가 가능하며 HIPAA가 이를 일률적으로 금지하지 않는다. 공개된 복도에서는 조용하고 사적인 장소로 옮겨 필요한 정보만 공유하는 등 합리적 보호조치를 취한다.
 
-환자는 사촌이 예후를 물었을 때 환자 본인의 동의 없이 정보를 제공하면 HIPAA 위반이 된다. 환자에게 직접 물어보게 하거나 정보를 제공하기 전에 환자에게 확인을 받아야 한다. 가장 적절한 단계는 환자에게 직접 물어보라고 안내하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 이미 허용한 가족정보공유를 동의없음으로 읽은 해설오류. B 유지.
+- https://www.hhs.gov/hipaa/for-professionals/faq/does-hipaa-allow-a-health-care-provider-to-communicate-with-a-patients-family-friends-or-other-persons-who-are-involved-in-the-patient-care.html
 
 ## 출처
 

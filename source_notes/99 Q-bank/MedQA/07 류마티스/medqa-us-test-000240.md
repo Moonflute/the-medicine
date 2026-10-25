@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 피부 생검
 ## 해설
 
 
-근육 약화, 호흡곤란, 피부 발진, 폐 섬유화는 다발성 근염(다발성 근육염)과 연관된다. 확진을 위해 근육 조직의 염증성 변화와 근섬유 괴사를 확인하는 근육 생검이 가장 유용하다. 따라서 근육 생검이 정답이다.
+대칭적 근위부 근력저하와 눈 주위·팔꿈치·대퇴 외측의 발진은 피부근염을 시사한다. 선택지 중 근육 생검(A)은 염증성 근병증을 뒷받침하는 검사이다. 피부 소견이 없는 다발근염으로 단정한 기존 해설은 부정확하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000240`와 직접 대조했다.
+- 판정: 근위부 근력저하와 특징적 피부 발진은 다발근염보다 피부근염을 지지. A 유지하되 피부 병변을 무시한 해설 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.niehs.nih.gov/sites/default/files/research/resources/imacs/classificationcriteria/classification_criteria_study_form2018_508.pdf
 
 ## 출처
 

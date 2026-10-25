@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -36,7 +38,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 유착태반
+A. 관통태반(placenta percreta)
 B. 전치태반
 C. 태반조기박리
 D. 자궁파열
@@ -45,6 +47,12 @@ D. 자궁파열
 
 
 임신 3기 무통성 질출혈은 전치태반이 가장 흔한 원인이다. 자궁경부가 닫혀 있고 통증이 없으므로 정답은 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정답 전치태반은 유지하고 오답 선지 placenta percreta를 단순 유착태반으로 번역한 오류를 관통태반으로 바로잡았다.
+
 
 ## 출처
 

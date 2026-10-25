@@ -19,11 +19,11 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. MUC1 유전자 돌연변이
 
 ## 해설
 
+나프록센·아스피린 등 진통제 사용에 불규칙하고 위축된 신장·유두 석회화·무균성 농뇨가 동반되어 진통제 신병증을 시사한다. COX 억제로 프로스타사이클린 등 혈관확장성 프로스타글란딘 생성이 감소하면 신혈관, 특히 수입세동맥의 확장성 보호가 줄고 허혈성 손상에 기여할 수 있다(A). 새로 형성된 신생혈관이 수축한다는 뜻은 아니다.
 
-NSAID와 같은 진통제는 프로스타글란딘 합성을 억제해 신생혈관 수축과 혈류 감소를 일으켜 신세뇨관 허혈성 손상을 초래한다. 환자의 NSAID 사용과 신부전, 신장 위축, 유두 석회화는 이 메커니즘에 부합한다. 따라서 원인은 프로스타사이클린(프로스타글란딘) 생성 억제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 A 유지. 신생혈관 수축 오기를 수입세동맥/신혈관 수축으로 바로잡고 진통제 신병증 기전 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

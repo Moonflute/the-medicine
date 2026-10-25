@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 양수주입술(amnioinfusion)
 
 ## 해설
 
+EFW <10백분위수와 양수 감소는 성장제한 및 태반 기능 저하 가능성을 시사한다. 선택지 중 반복 NST(B)가 태아 안녕 평가에 적절하다. 실제 관리에는 제대동맥 도플러, 성장 추적 및 양수량 평가가 포함되고 결과에 따라 검사 빈도·분만 시점을 정한다. 주마다 체중을 재는 것만으로 대체하거나 일상적 양수주입으로 치료하지 않는다.
 
-양수량 감소와 성장 제한이 동반된 태아는 태아 스트레스 위험이 높아 비자극 검사(NST)를 통해 태아 상태를 모니터링해야 한다. 따라서 다음 단계는 연속적인 무자극 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: FGR 감시의 NST 및 제대동맥 도플러 역할 구분.
+- https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/
 
 ## 출처
 

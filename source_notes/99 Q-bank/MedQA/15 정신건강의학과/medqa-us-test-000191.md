@@ -18,15 +18,17 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,16 @@ D. 쿠에티아핀
 
 ## 해설
 
-
-공황장애는 발작 시 가슴 압박감, 호흡곤란, 심계항진, 발한, 떨림을 동반하며, 회피 행동이 나타난다. 장기 관리에 1세대 SSRI인 시탈로프람이 가장 효과적이며, 재발 방지에 표준 치료이다. 따라서 가장 적절한 약물은 시탈로프람이다.
+반복되는 공황발작과 이후의 예기불안·외출 회피는 공황장애에 부합한다. 장기 약물치료에는 SSRI 등이 사용되며, 제시된 약물 중 시탈로프람이 적절하다. 리튬과 쿠에티아핀은 통상적인 공황장애 장기치료제가 아니고 프로프라놀롤은 이 장애의 핵심 증상과 재발을 다루는 표준 장기치료가 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000191
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 시탈로프람 정답 유지. '1세대 SSRI', 특정 SSRI의 최상위 효과 단정을 제거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg113/chapter/Recommendations

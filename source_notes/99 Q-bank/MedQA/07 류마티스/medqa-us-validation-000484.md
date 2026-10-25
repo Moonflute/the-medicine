@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,6 +52,13 @@ D. 트리메토프림/설파메톡사졸
 
 
 다발혈관염을 동반한 육아종증 환자는 스테로이드와 사이클로포스파미드 치료 시 폐포자충(Pneumocystis jirovecii) 감염 위험이 높다. 따라서 예방을 위해 트리메토프림/설파메톡사졸을 추가한다. 다른 약물은 예방 효과가 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000484 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: GPA의 cyclophosphamide·glucocorticoid 치료 중 PJP 예방 TMP-SMX D가 적절함을 ACR/VF 공식근거로 확인.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12344527/
 
 ## 출처
 

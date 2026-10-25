@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 강박장애
 
 ## 해설
 
-
-사회적 상호작용 부족, 제한된 관심사(돌 수집), 언어 발달은 정상이나 약간의 언어 지연을 보이며, 눈맞춤 회피가 특징인 경우는 자폐 스펙트럼 장애 1단계(고기능 자폐)와 일치한다. 다른 선택지는 강박·틱·심각한 지적 장애와 맞지 않는다. 따라서 자폐스펙트럼장애 1단계가 가장 가능성 높은 진단이다.
+사회적 상호작용의 어려움과 제한된 관심·행동 양상은 자폐스펙트럼장애를 시사하며, 제시된 수준 중 원문은 지원이 필요한 level 1을 선택한다. 정상 문법·어휘가 있다는 사실만으로 지원 수준을 확정하지 않으며 원문에 언어발달 지연이 명시된 것도 아니다. Level 3은 매우 상당한 지원 필요를 뜻하고 지적장애와 동의어가 아니다. 실제로는 발달력과 사회적 의사소통·반복행동 각 영역의 기능 및 지원 필요를 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009638
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. ASD level1=고기능/level3=심각한 지적장애라는 오류와 원문에 없는 언어 지연을 교정. 지원 필요 정도로 수준 판단하는 한계 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.cdc.gov/autism/hcp/diagnosis/index.html

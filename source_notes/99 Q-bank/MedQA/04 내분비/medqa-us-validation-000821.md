@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 갑상선중독증
 ## 해설
 
 
-부갑상선 호르몬 상승, 고칼슘혈증, 저인, 고요소칼슘 배설은 원발성 부갑상선 선종을 시사한다. 따라서 정답은 C이다.
+정답 C. 높은 Ca와 PTH, 낮은 인 및 높은 소변 Ca는 원발성 부갑상선기능항진을 지지한다. 가장 흔한 원인은 단일 부갑상선 선종이다. 가족성 저칼슘뇨성 고칼슘혈증은 대개 소변 Ca가 낮아 덜 부합하며 vitaminD 과다나 갑상선중독증이면 PTH가 억제된다. 실제 선종 위치/개수는 별도로 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000821 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고요소칼슘 오역을 고칼슘뇨로 교정; PHPT 가장 흔한 단일선종 C는 추정이지 국소화 확진 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

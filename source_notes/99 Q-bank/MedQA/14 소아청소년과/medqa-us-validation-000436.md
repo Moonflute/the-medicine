@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 경험적 항생제 치료
 
 ## 해설
 
+배변이3일 없고 다른 급성 감염/폐쇄 단서가 부족한 5세에서는 변비를 고려하며 보기 중 polyethylene glycol(A)이 적절하다. 경고 증상·진찰과 배변 양상을 함께 평가한다. 생후3일 신생아의 태변 미배출을 다루는 문항은 아니며, 그 상황을 기능성 변비로 안심시키면 안 된다.
 
-3일 된 영아의 변비는 기능성 변비가 흔하며, 복부 팽만과 장음 증가가 나타난다. 비침습적이며 효과적인 첫 번째 치료는 장내 수분을 늘려 변을 부드럽게 하는 폴리에틸렌글리콜 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 5세 환자를 생후3일 영아로 바꾼 해설 오류 교정.
+- https://www.rch.org.au/clinicalguide/guideline_index/constipation_guideline/
 
 ## 출처
 

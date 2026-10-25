@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 고IgD 증후군
 
 ## 해설
 
+IVIG 후 급성 피부·호흡기·혈압 이상은 아나필락시스에 부합한다. 일부 IgA 결핍 환자에서 항IgA 항체가 제품에 포함된 IgA와 반응할 수 있어 선택지 B가 가능한 기저 상태다. 그러나 IgA 결핍이 있으면 이런 반응이 흔히 생긴다는 뜻은 아니다. IVIG 허가정보는 특히 항IgA 항체와 과민반응 병력이 있는 경우를 경고하며, Canadian Blood Services도 낮은 IgA·항IgA가 있어도 중증 반응의 절대 위험은 낮다고 명시한다.
 
-IVIG 투여 후 발생한 전형적인 아나필락시스는 IgA 결핍 환자에서 흔히 나타난다. IgA가 결핍된 경우 IgA 함유 혈액제제에 대한 항체가 형성돼 급성 과민반응을 일으킨다. 따라서 기저 상태는 IgA 결핍이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: IgA 결핍 환자에서 아나필락시스가 흔하다고 과장한 해설을 일부 항IgA 관련 위험으로 한정했다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=50fc5ffc-49aa-51f2-e063-6294a90a59cf&version=1
+- https://professionaleducation.blood.ca/en/transfusion/publications/anaphylactic-transfusion-reactions-and-iga-deficiency
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. MRI
 
 ## 해설
 
+일과성 편측 위약·구음장애는 TIA를 의심하게 하며, 호전되었다고 평가를 종료해서는 안 된다. 초기 비조영 CT가 시행된 뒤 두경부 동맥의 협착·폐색을 신속히 확인하기 위한 CTA(A)가 제시된 다음 단계 중 적절하다. MRI 확산영상이나 심장 평가도 상황에 따라 필요하며 CTA가 모든 목적에서 MRI보다 정확하다는 뜻은 아니다.
 
-환자는 일과성 허혈발작(TIA) 증상을 보였으며, 증상이 완전히 사라진 후에도 재발 위험이 높다. TIA 후에는 뇌혈관의 협착이나 색전 위험을 평가하기 위해 신속한 혈관영상이 필요하고, CT 혈관조영술이 가장 빠르고 정확한 정보를 제공한다. 따라서 CT 혈관조영술이 최선의 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. TIA 후 신속 CTA A는 적절하지만 항상 가장 빠르고 정확하다는 과장 제거.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/acute-stroke-management
 
 ## 출처
 

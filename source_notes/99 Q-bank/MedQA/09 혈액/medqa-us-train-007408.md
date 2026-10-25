@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 예방접종 후 비장절제술과 1년간 페니실린
 ## 해설
 
 
-환자는 비정상적인 적혈구 파괴와 비장 비대가 특징인 유전구형적혈구증을 가지고 있다. 비장은 파괴된 적혈구를 제거하므로 비장절제술이 근본 치료이며, 감염 예방을 위해 백신 후 1년간 페니실린을 투여한다.
+수혈이 반복되는 중증 HS 의심에서8세의 비장절제는 용혈을 줄일 수 있고 접종·항균 예방을 동반하는 D가 선택지 중 적절하다. 수술이 막 유전결함을 교정하는 것은 아니며 평생 감염 위험이 남는다. BSH는 수술 직후와1–3년 예방, 고위험에는 장기/평생 요법을 권고하므로 D의1년을 모든 환자의 강제 종료 시점으로 해석하지 않는다. 백신·응급 항생제·발열 시 신속 진료 교육과 개인별 기간 재평가가 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007408 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수혈 의존 HS의 비장절제·예방 D 유지;수술이 유전결함의 근본 교정이며1년 후 반드시 예방 종료라는 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://onlinelibrary.wiley.com/doi/full/10.1111/bjh.19361
 
 ## 출처
 

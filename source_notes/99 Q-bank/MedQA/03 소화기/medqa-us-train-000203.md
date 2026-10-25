@@ -23,13 +23,15 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 십이지장 소화성 궤양(Duodenal peptic ulcer)
 
 ## 해설
 
+정답은 C이다. 식후 악화하며 등으로 방사하는 반복 복통·오심/구토는 췌장염을 지지하고 고중성지방혈증과 조절 불량 당뇨는 관련 대사 배경이다. 다만 지난달 TG675 수치만으로 고중성지방성 췌장염을 확진하지 못하며 현재 lipase·영상 등으로 평가한다. 겨드랑이 과색소침착은 인슐린 저항성 단서일 수 있지만 그 자체가 급성 췌장염의 진단 기준은 아니다.
 
-복통이 식후 악화되고, 고중성지방혈증, 비만, 당뇨, 겨드랑이 색소침착은 급성 췌장염의 전형적인 위험 인자이다. 다른 선택지는 증상 양상과 실험실 결과가 맞지 않는다. 따라서 췌장염이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 겨드랑이 색소침착 자체를 췌장염 위험인자로 단정한 과장 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

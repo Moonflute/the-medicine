@@ -21,15 +21,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 전립선 생검
 
 ## 해설
 
+누워도 사라지지 않는 왼쪽 정계정맥류, 혈뇨와 옆구리 통증, 고칼슘혈증은 신장 종괴와 신정맥 배출 장애를 의심하게 한다. A, 복부 CT로 신세포암 등 신장 병변과 정맥 침범 여부를 평가하는 것이 적절하다. 단순히 신장이 후복막에 있다는 이유로 CT를 선택하는 것은 아니며 임상·검사 단서가 함께 중요하다.
 
-왼쪽 정계정맥류와 고칼슘혈증, 혈뇨는 신장암(신세포암)에서 흔히 나타나는 비특이적 증상이다. 신장암은 복부 후복막에 위치하므로 진단을 위해 복부 CT가 가장 민감한 영상검사이다. 따라서 다음 단계는 복부 CT 시행이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 비환원성 새 정계정맥류의 신정맥/하대정맥 배출 장애와 신장 종괴 평가 A를 연결.
+- 공식/학회 근거: https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/diagnostic-evaluation
 
 ## 출처
 

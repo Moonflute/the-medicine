@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,12 @@ D. 긴장성 기흉
 
 
 구토와 흉골 뒤 통증이 급작히 나타난 뒤 목과 쇄골 위에 피하기종이 만져지는 경우, 구토로 인한 식도 내압 급증이 식도 파열(보어하베 증후군)을 일으킨다. 이는 급성 흉통, 연하곤란, 기흉과 구별된다. 따라서 가장 가능성 높은 진단은 식도 파열이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009711 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 격한 구토 후 급성 흉통·연하곤란·경부 피하기종이 식도파열 A를 지지함을 원문과 대조. 추가 영상이 없어도 제시 진단 질문 판단 가능.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 반복적인 구토
 ## 해설
 
 
-DKA에서 혈청 K⁺는 정상·고칼륨이지만 실제는 세포외 이동으로 인한 것이며, 인슐린 투여 시 급격히 감소한다. 따라서 현재 고칼륨은 세포외 이동에 의한 것이다.
+정답 C. 인슐린 결핍과 고삼투성 상태는 칼륨의 세포외 이동을 일으켜 혈청 K가 높게 보일 수 있다. 동시에 삼투성 이뇨와 구토로 총체내 칼륨은 고갈되는 경우가 흔하다. 따라서 K5.3이 체내 칼륨 과잉을 의미하지 않으며 인슐린/수액 치료 때 빠르게 감소할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008706 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혈청 K상승과 총체내 K결핍의 차이를 insulin결핍/고삼투성 세포외 이동으로 명확화.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

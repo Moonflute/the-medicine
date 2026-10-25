@@ -20,15 +20,17 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 프로스타글란딘 E1 주입
 
 ## 해설
 
+심첨부의 opening snap 뒤 저음 이완기 rumble은 승모판 협착의 소견이다. 류마티스성 판막병 예방에는 적절한 A군 연쇄상구균 인두염의 penicillin 치료 A가 관련되며, 류마티스열 재발 예방에도 penicillin을 쓴다. 이 잡음은 수축기와 이완기 내내 지속되는 연속성 잡음이 아니다.
 
-연속성 심장음과 개방성음은 류마티스성 승모판 협착을 시사한다. 류마티스열의 1차 예방은 급성기 베타-용혈성 연쇄상구균 감염에 대한 페니실린 투여이며, 2차 예방(재발 방지)에도 페니실린이 사용된다. 따라서 이 상태를 예방하기 위해 사용한 약물은 페니실린이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 승모판협착의 opening snap+이완기 rumble을 연속성 잡음이라 한 해설 수정.
+- https://www.who.int/publications/b/59223
 
 ## 출처
 

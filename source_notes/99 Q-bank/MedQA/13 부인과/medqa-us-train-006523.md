@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 자궁경부 세포검사
 
 ## 해설
 
+65세 여성은 DXA를 통한 골다공증 선별 대상이므로 A가 적절하다. 다만 자궁경부 선별 중단은 충분한 최근 음성 이력을 확인해야 하며 마지막 검사 시점이 불확실한 이 환자에서 연령만으로 중단하지 않는다.
 
-폐경 후 여성은 65세에 골밀도 감소 위험이 높으며, 12갑년 흡연력은 골다공증 위험을 추가한다. DEXA는 골다공증을 선별하는 표준 검사이며, 다른 옵션들은 이미 최근에 시행되었거나 필요하지 않다. 따라서 골밀도 검사가 가장 적절한 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 65세 골밀도 선별 A 유지. 불명확한 자궁경부 선별 이력만으로 추가 검사가 모두 불필요하다는 설명 수정.
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening%20
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening
 
 ## 출처
 

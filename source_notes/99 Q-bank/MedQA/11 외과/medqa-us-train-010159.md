@@ -20,11 +20,13 @@ question_type: prognosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 패혈증
 ## 해설
 
 
-중증 복부 외상 후 대량 수혈과 장기 손상, 중환자실에 장기간 인공호흡을 유지한 환자는 감염 위험이 크게 증가한다. 총정맥영양은 장내 미생물 전이를 촉진하고 패혈증 발생률을 높인다. 따라서 가장 흔한 합병증은 패혈증이다.
+장 손상을 동반한 중증 외상·수술과 중심정맥관을 통한 TPN은 감염·패혈증 위험을 높이므로 선택지 중 D가 가장 관련된다. 특히 카테터 관련 혈류감염, 장 손상/복강 감염 등 실제 감염원을 평가해야 한다. TPN이 반드시 장내세균 전이를 일으킨다고 단정하지 않으며, 본문은 다음 날까지의 경과여서 이미 장기간 인공호흡을 했다고 쓰지 않는다. 영양 적응증·가능한 장관 사용과 라인 감염 예방을 함께 검토한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010159 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 중심정맥관 관련 감염 위험을 TPN의 확정적 장내세균 전이·장기간 인공호흡으로 설명한 과장을 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/clabsi/about/index.html
 
 ## 출처
 

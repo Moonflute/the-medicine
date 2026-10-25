@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 손발톱백선
 
 ## 해설
 
+정답은 B, 완선(tinea cruris)이다. 완선은 사타구니 백선과 같은 질환명이며 피부사상균 감염이다. 사타구니/허벅지의 경계 뚜렷한 소양성 발진과 음낭 보존이 지지하고 사마귀 질환이 아니다.
 
-음낭을 제외한 사타구니와 회음부에 경계가 뚜렷한 홍반성 반점은 완선(전신성 홍반성 사마귀)으로, 사타구니 백선과 구별된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 완선을 전신성홍반성사마귀로 부르고 사타구니백선과 다르다고 한 해설 오류 수정.
 
 ## 출처
 

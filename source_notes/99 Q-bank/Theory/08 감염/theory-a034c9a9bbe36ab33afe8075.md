@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "GAS와 폐렴구균을 구분하는 인두염의 대표 원인 복습은 흔한 감염의 기본으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmlxldck95s3jpevzqt3ezb0nec25ianjrwkrzbdd3z0tgtjbjbvz3zec5amiytmpzv3dnvudoagnubhvammwwyvhncextmwt8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ A군 베타용혈성 사슬알균인 Streptococcus pyogenes가 인두와 편도�
 
 ## 오답 포인트
 
-- **B. Streptococcus pneumoniae:** S. pneumoniae는 주로 폐렴을 일으킨다.
+- **Streptococcus pneumoniae:** S. pneumoniae는 주로 폐렴을 일으킨다.
 
 ## 출처
 
 - 내부 학습 노트: 사슬알균 인두염 (Streptococcal Pharyngitis)
 - 원본 경로: `source_notes/02 Diseases/08 감염/사슬알균 인두염 (Streptococcal Pharyngitis).md`
 - 학습 목표: 원문 핵심: - **정의**: A군 베타 용혈성 사슬알균 (Group A β-hemolytic streptococcus, GABHS)에 의해 발생하는 인두 및 편도선 감염 - **원인**: Streptococcus pyogenes (A군 사슬알균) - **기전**: 세균이 인두 점막에 부착하여 염증을 유발하며, 주로 5~15세 소아에서 호발함.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: GAS와 폐렴구균을 구분하는 인두염의 대표 원인 복습은 흔한 감염의 기본으로 유지.

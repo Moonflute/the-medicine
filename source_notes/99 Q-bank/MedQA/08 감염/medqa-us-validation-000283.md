@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. B형간염 면역글로불린과 백신을 투여한다
 ## 해설
 
 
-채혈 중 혈액이 눈에 튀었을 때는 HIV 노출 위험이 있으며, 72 시간 이내에 랄테그라비르·테노포비르·엠트리시타빈 3제 병용 PEP가 권장된다. 따라서 가장 적절한 단계는 해당 3제 항레트로바이러스제 시작이다.
+혈액이 눈 점막에 튄 직업 노출은 즉시 평가하여 필요 시 PEP를 가능한 한 빨리 시작하며, 원칙적으로 72시간 이내 시작해 28일 투여한다. 선택지 중 raltegravir+tenofovir+emtricitabine(A)은 유효한 3제 조합이다. 2025 지침은 bictegravir 또는 dolutegravir 기반 조합을 선호하지만, raltegravir 조합은 이들 권고 조합을 처방할 수 없을 때 여전히 효과적인 선택이다. 노출원 신속 검사와 본인 baseline 검사·HBV 접종반응 확인을 병행하며 불필요하게 첫 투여를 지연하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000283 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 점막 혈액 노출의 3제 PEP A 유지. Raltegravir 조합은 효능 부정이 아니라 pill burden 때문에 현재 우선 권고에서 빠진 대체 가능 옵션임을 2025 직업노출 지침으로 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://stacks.cdc.gov/view/cdc/258795/cdc_258795_DS1.pdf
 
 ## 출처
 

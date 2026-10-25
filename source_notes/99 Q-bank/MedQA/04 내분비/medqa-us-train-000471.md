@@ -25,13 +25,15 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,6 +53,13 @@ D. 속효성 인슐린(Regular insulin) 및 칼륨
 
 
 혈당 1400 mg/dL와 삼투성 탈수, 저나트륨혈증은 고삼투성 고혈당성 상태(HHS)를 나타낸다. HHS에서는 혈액량이 크게 감소하므로 먼저 혈관내액을 보충해야 하며, 젖산 링거액이 등삼투성 용액으로 적절하다. 따라서 초기 치료는 젖산 링거액 투여이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 혈당1400·정상 bicarbonate/케톤음성·쇼크성 탈수는 HHS. 초기 balanced crystalloid LR B로 순환을 우선 회복하는 선택 적합.
+- https://diabetesjournals.org/care/article/47/8/1257/156811/Hyperglycemic-Crises-in-Adults-With-Diabetes-A
 
 ## 출처
 

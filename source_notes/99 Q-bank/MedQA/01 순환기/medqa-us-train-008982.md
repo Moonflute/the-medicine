@@ -20,16 +20,18 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQWRlbm9zaW5lLm1k
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 일시적 또는 영구적 심박동기
 
 ## 해설
 
+과거 심근경색과 심한 좌심실 기능저하가 있고, 무맥박 심정지에서 제세동 후 회복되었다. 가역적 원인이 확인되지 않으면 생명을 위협한 심실성 부정맥의 이차 예방을 위해 B의 ICD를 평가한다. 누락된 ECG로 심실세동과 무맥박 심실빈맥을 구별했다고 단정하지 않으며, 실제 삽입 전 원인과 기대 생존을 확인한다.
 
-심근경색 후 좌심실 기능부전으로 심실세동이 발생했으며, 전기적 재발 위험이 높다. 재발 방지를 위해 삽입형 제세동기(ICD)가 권장된다. 따라서 삽입형 제세동기가 적절한 다음 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 소생된 제세동 가능 심정지의 이차 예방 B를 설명하되 누락 ECG에서 VF 형태를 확정하지 않음.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 비강 내 플루티카손
 ## 해설
 
 
-양측 비갑개 부종과 물 같은 콧물, 눈 가려움·재채기 등 계절성 알레르기 비염의 전형적인 증상이 있다. 국소 코 스테로이드가 염증을 억제해 증상을 가장 효과적으로 완화한다. 따라서 비강 내 플루티카손이 치료에 적합하다.
+수개월간 지속된 맑은 콧물, 재채기, 눈 가려움과 부종성 비갑개는 지속성 알레르기비염을 시사한다. 비강 내 플루티카손(D)은 적절한 치료이다. 계절성이 확인된 것은 아니며 세균감염을 뒷받침하는 소견도 부족하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-005994`와 직접 대조했다.
+- 판정: 수개월 매일 증상의 지속성 알레르기비염이며 계절성이라고 단정할 정보가 없다. D 유지 및 해설 범위 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Rhinitis-2020-A-practice-parameter-update.pdf
 
 ## 출처
 

@@ -21,11 +21,13 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,13 @@ D. 진피 및 피하 조직의 감염
 
 
 왼쪽 종아리의 부종, 통증, 피부 발적, 표재정맥 확장, 압박되지 않는 정맥 초음파 소견은 깊은 정맥 혈전증(DVT)을 시사한다. DVT는 정맥 내 혈류 정체와 혈전 형성으로 인해 발생한다. 따라서 정답은 정맥 혈류 장애이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/4선지/정답 A/해설 읽음. 장거리 비행 후 편측 종창과 압박되지 않는 정맥은 DVT로 정맥 혈류장애/정체 기전과 일치. 치료·검사지침 검증 아닌 기초 내용 검토.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

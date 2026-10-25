@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 바이러스 배양 검사
 
 ## 해설
 
+콧물 뒤 기침, 천명·수포음과 함몰이 생긴 영아는 임상적으로 세기관지염을 진단할 수 있어 전형적 경과라면 선택지 A처럼 원인 바이러스 확인 PCR·배양을 일률적으로 시행하지 않는다. 검사하지 않았으므로 RSV가 원인이라고 확진할 수는 없다. 미숙아 병력, 산소포화도·호흡 노력과 수분 상태를 평가하고, 악화·비전형 경과나 다른 질환 의심이 있으면 추가 검사를 한다. ‘검사 불필요’는 필요한 관찰·지지치료까지 불필요하다는 뜻이 아니다.
 
-3개월 영아의 저산소 호흡곤란, 호흡음, 전신 호흡기 증상은 RSV에 의한 세기관지염(bronchiolitis)과 일치한다. 진단은 임상소견만으로 충분하며, 추가 검사는 필요하지 않다. 따라서 가장 적절한 검사는 추가 검사 불필요이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 임상세기관지염A의무검사원칙을비전형·악화시평가와구별. 바이러스미검사상태에서RSV확진하지않음.
+- https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/
+- https://cps.ca/en/documents/position/bronchiolitis
 
 ## 출처
 

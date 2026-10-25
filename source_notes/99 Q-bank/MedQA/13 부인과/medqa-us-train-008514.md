@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 골반 초음파
 
 ## 해설
 
+폐경 후 고정된 부속기 종괴와 팽만은 악성 위험 평가가 필요하다. 골반, 특히 질식 초음파(D)로 구조를 확인하고 CA125를 함께 평가해 위험도를 산정한다. 영상 평가 없이 바로 종양감축술을 선택하지 않는다.
 
-골반에 고정된 고형 종괴가 촉진되면 먼저 비침습적 영상검사인 골반 초음파를 시행해 종양의 성격·위치를 평가한다. MRI·CA‑125·수술은 초음파 후 필요에 따라 진행한다. 따라서 다음 단계는 골반 초음파이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 부속기 종괴의 골반 초음파 D 유지. 폐경 후 종괴에서 CA125를 반드시 초음파 이후로만 미룬다는 설명 수정.
+- https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/ovarian-cysts-in-postmenopausal-women-green-top-guideline-no-34/
 
 ## 출처
 

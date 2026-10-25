@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 경피적 핀 고정술
 
 ## 해설
 
+손을 짚고 넘어진 뒤 해부학적 코담배갑 압통이 있어 초기 X선이 정상이더라도 주상골골절을 의심한다. 선지 중 엄지 스피카 고정 후 1~2주 재평가·방사선 재촬영(B)이 적절하다. 재촬영은 완전 치유가 아니라 초기 잠복골절을 발견하기 위한 목적이며 통증이 지속되면 MRI 등 추가 검사를 고려한다.
 
-손목 부위 통증·부종·운동 제한과 정상 X‑ray은 미세 골절을 의심하게 한다. 엄지 스피카를 석고 고정하면 골절 부위가 안정화되고 통증이 감소한다. 2주 후 재촬영으로 치유 여부를 확인한다. 따라서 스피카 석고 고정이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 잠복 주상골골절 의심 시 고정·추적 B는 맞고 2주 재촬영 목적을 치유 확인만으로 한정한 오류를 교정한다.
+- 공식/학회 근거: https://www.rch.org.au/clinicalguide/guideline_index/fractures/Scaphoid_Fractures_%E2%80%93_Emergency_Management/
 
 ## 출처
 

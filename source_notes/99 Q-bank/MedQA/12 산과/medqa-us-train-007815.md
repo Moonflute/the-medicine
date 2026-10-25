@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 관찰을 위해 산과 병동에 입원
 
 ## 해설
 
+수축 강도·빈도가 진행하지 않고 경부 개대가 없으며 산모·태아 상태가 양호해 가진통이 의심된다. B의 안심·수분 보충·자세 변화/보행이 적절하나 증상 변화·양수 누출·출혈·태동 감소 시 재평가한다. 단 한 번 닫힌 경부만으로 이후 진통 가능성을 배제하지 않는다.
 
-자궁경부가 개대되지 않은 경우는 가짜 진통(브랙스턴 힉스)이며, 안정, 수분 공급, 보행이 권장된다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 경부 미개대만으로 모든 진통을 가진통으로 단정한 표현 한정.
+- https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins
 
 ## 출처
 

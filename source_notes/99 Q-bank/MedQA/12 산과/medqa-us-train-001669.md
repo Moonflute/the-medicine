@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 페니실린 정맥주사
 
 ## 해설
 
+34주에는 태아가 자발적으로 두위로 바뀔 여지가 있어 증상 없는 둔위만으로 즉시 제왕절개나 외회전을 시행하지 않고 관찰(C)한다. 36~37주 무렵에도 둔위가 지속되면 외회전과 분만 방법을 논의한다. 본문에 양수량은 제시되지 않았고 35주 자연조산 병력이 있어 ‘조산 위험이 없다’고 단정해서는 안 된다.
 
-임신 34주에 둔위(둔위 자세)만 발견되고 양수량·태아 상태가 양호하면 즉시 개입 없이 관찰이 권장된다. 자연 분만 가능성이 낮지 않으며, 조산 위험도 없다. 따라서 관찰이 적절한 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 과거조산에도 조산위험없다/양수정상창작 삭제. 34주둔위 C관찰,36~37주재평가.
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/breech-baby-at-the-end-of-pregnancy
 
 ## 출처
 

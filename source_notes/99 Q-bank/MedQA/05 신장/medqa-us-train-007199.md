@@ -19,15 +19,20 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: prognosis
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "UPJ 결석을 하부 요관으로 잘못 읽은 해설을 교정하고 수질 해면신 단서를 연결."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -45,10 +50,19 @@ D. 악성 고혈압
 
 ## 해설
 
-
-요관 결석이 요관 하부에 위치하고 급성 옆구리 통증을 유발하며, 결석에 의해 점막이 손상돼 혈뇨가 흔히 동반된다. 따라서 이 환자에게서 추가로 기대되는 소견은 혈뇨이다.
+수질·유두부 집합관의 작은 낭성 확장과 양측 수질 석회화는 수질 해면신을 시사한다. 결석·혈뇨·요로감염이 동반될 수 있어 혈뇨가 가장 적합하다. 본문 결석 위치는 신우요관이행부(UPJ)이며 하부 요관이라고 바꾸지 않는다. 이 소견이 신세포암이나 악성 고혈압을 뜻하지는 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007199
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: UPJ 결석을 하부 요관으로 잘못 읽은 해설을 교정하고 수질 해면신 단서를 연결.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

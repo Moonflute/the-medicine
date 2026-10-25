@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 항-Ro/SSA 및 항-La/SSB 항체
 ## 해설
 
 
-간헐적 작열성 흉통, 체중 감소, 피부 경화 및 미세 수포음은 전신 경피증(전신성 경피증)과 연관된다. 전신성 경피증에서 가장 특이적인 혈청 항체는 토포이소머레이스 I(anti‑Scl‑70)이다. 따라서 정답은 항 토포이소머레이스 항체이다.
+손가락 피부경화와 만성 손끝 궤양, 식도 관련 증상 및 양측 폐기저부 미세 수포음은 전신경화증과 간질성 폐질환 가능성을 시사한다. 선택지 중 anti-topoisomerase I(anti-Scl-70, B)가 이 진단과 관련되고 특히 간질성 폐질환과 연관된다. 전신경화증의 항체에는 항중심체·항RNA polymerase III 등도 있어 Scl-70만이 유일한 특이 항체라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002681 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 전신경화증의 단일 최특이 항체라는 단정 대신 anti-topoisomerase I와 폐 침범의 연관으로 정답을 설명했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

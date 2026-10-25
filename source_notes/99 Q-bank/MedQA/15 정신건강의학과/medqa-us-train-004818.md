@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,16 @@ D. 과도한 발한
 
 ## 해설
 
-
-PCP(펜시클리딘) 중독 시 흔히 나타나는 안진은 약물의 NMDA 수용체 차단 효과와 관련된 안구 운동 이상이다. 다른 부작용은 이 경우와 일치하지 않는다.
+해리감·지각 변화와 고혈압·운동실조·구음장애의 양상은 PCP 중독을 시사하며, 제시된 소견 중 안진이 특징적이다. PCP에서는 통증 반응이 감소할 수 있고 근긴장도 증가가 나타날 수 있다. 발한 같은 자율신경 증상도 가능하므로 다른 선지의 증상이 모두 절대로 나타나지 않는다고 해석하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004818
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. PCP의 안진 정답 유지. 발한도 생길 수 있는데 다른 부작용은 일치하지 않는다고 한 배타적 설명 제거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.samhsa.gov/substance-use/learn/hallucinogens

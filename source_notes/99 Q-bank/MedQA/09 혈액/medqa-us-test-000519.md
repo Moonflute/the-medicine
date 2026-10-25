@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 자가면역 용혈성 빈혈
 ## 해설
 
 
-임신 중 혈소판 감소와 미세혈관성 용혈, 신장 손상이 동반된 경우 혈전성 혈소판감소성 자반증(TTP)이 가장 흔한 원인이다. ADAMTS13 활성이 감소해 혈소판 응집이 일어난다.
+임신 12주에 Coombs 음성 용혈 소견·심한 혈소판감소가 있고 응고검사와 간효소가 정상이어서 선지 중 TTP(B)를 우선 의심한다. 신기능 저하는 두드러지지 않아 HUS보다 부합하고 HELLP의 전형적 시기·간효소 이상과도 다르다. 임신 TMA가 모두 TTP이거나 TTP가 가장 흔하다는 뜻은 아니며 ADAMTS13 확인이 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000519 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 임신 초기 용혈·심한 혈소판감소·정상 응고/간효소에서 TTP B 지지. 임신 TMA의 가장 흔한 원인이라고 일반화한 해설 교정. 도말 그림 없어도 본문 검사로 선지 비교 가능.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

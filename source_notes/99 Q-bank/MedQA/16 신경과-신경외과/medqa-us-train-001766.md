@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 조니사미드
 
 ## 해설
 
+짧고 반복되는 의식 단절, 과호흡에 의한 유발, 발작 후 혼란 부재 및 3-Hz 전반 극파-서파는 소아 결신발작(absence seizure)에 전형적이다. 다른 발작 유형이 제시되지 않은 이 사례에서는 ethosuximide(A)가 일차 치료이다. 전신 강직간대발작·근간대발작이 동반되는 경우에는 이 약 단독으로 충분하지 않다.
 
-소아의 결석성 결핍 발작은 3 Hz 스파이크-웨이브 복합체가 특징이며, 1차 치료제로는 에토세미드가 가장 효과적이다. 따라서 에토세미드가 적절한 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 소아 결신발작 A를 결석성 결핍으로 오역하고 약물명을 잘못 적은 해설을 교정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng217/chapter/5-Treating-epileptic-seizures-in-children-young-people-and-adults
 
 ## 출처
 

@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -52,6 +54,12 @@ D. 갑상선 림프종
 
 
 Hashimoto 갑상선염은 갑상선 림프종(비호지킨 림프종) 위험을 증가시킨다. 환자는 갑상선 기능저하와 항갑상선 항체 양성으로 이 질환에 해당한다. 유두상 갑상선암은 갑상선 결절과 관련되고, 부갑상선 선종은 칼슘 대사와 연관된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008570 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 항체 양성 원발성 갑상선기능저하의 Hashimoto–갑상선 림프종 D 병리 연관성 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 세포에서 빌리루빈 방출 증가
 
 ## 해설
 
+반복되는 경한 결합형 고빌리루빈혈증에 간효소·ALP 정상이고 감염성 간염 근거가 없어 유전성 빌리루빈 처리 장애를 시사한다. 선택지 C의 간내 저장/처리 장애는 Rotor 증후군의 간세포 유입·재섭취 수송 결함에 부합한다. Dubin-Johnson 증후군은 결합 빌리루빈의 담즙 배설 장애로 기전이 다르므로 기존처럼 저장 장애와 같은 것으로 설명하지 않는다. 임상양상만으로 두 질환을 확정 구분하는 데에는 한계가 있다.
 
-간 효소가 정상이고 직접 빌리루빈이 상승한 비정상적 황달은 결합형 빌리루빈 저장 장애를 의미한다. Dubin‑Johnson 증후군은 간세포 내 빌리루빈 수송 결함으로 직접 빌리루빈이 축적되며, 간 효소는 보통 정상이다. 따라서 빌리루빈 저장 장애가 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 정상효소의 반복 결합형 황달과 hepatic storage C는 Rotor 수송/재섭취 장애에 연결해야 하며 Dubin-Johnson의 담즙 배설 장애와 구분.
+- https://medlineplus.gov/genetics/condition/rotor-syndrome/
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 100%
 ## 해설
 
 
-Ranson 기준에서 입원 시 4점(연령>55, WBC>16, 혈당>200, AST>250)을 충족하면 사망 위험은 약 15~20% 수준이다. 따라서 전체 사망 위험은 20%에 가장 가깝다.
+정답 A. 전통적 알코올성 급성 췌장염 Ranson 입원 기준으로 나이 59세(>55), 혈당 241 mg/dL(>200), AST 321(통상 U/L 기준 >250), WBC 21,200(통상 /µL 기준 >16,000)이 의도된 네 항목이다. 나머지 요인이 음성이라는 전제에서 3–4점의 역사적 사망률 약 15%에 가장 가까운 선택지는 20%다. 원문 AST IU/dL와 WBC /mL는 통상 단위와 불일치하므로 그대로 문자적으로 점수를 확정할 수 없다는 한계가 있다. 개인 예후를 정밀하게 예측하는 확률로 해석하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000237 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Ranson의 나이 문턱은 >55이며 환자는 59세로 해당, 역사적 3–4점 위험에 가장 가까운 A 유지; 원문 검사단위 오류 한정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

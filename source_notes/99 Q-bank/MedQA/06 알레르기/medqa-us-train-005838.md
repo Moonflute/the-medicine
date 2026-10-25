@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,15 @@ D. 근육 내 에피네프린
 ## 해설
 
 
-음식 알레르기에 의한 급성 두드러기는 히스타민 매개이며, 2세대 H1 차단제인 세티리진이 증상 완화에 가장 효과적이다. 국소 스테로이드·프레드니손·에피네프린은 중증 전신 반응에 사용된다.
+가려운 팽진만 있고 호흡곤란·후두 부종·순환장애가 없어 피부에 국한된 급성 두드러기에 합당하다. 선택지 중 2세대 H1 항히스타민제인 세티리진(B)이 적절하다. 국소 스테로이드는 두드러기의 표준 치료가 아니며, 에피네프린은 아나필락시스가 의심될 때 우선한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-005838`와 직접 대조했다.
+- 판정: 피부에 국한된 급성 두드러기에서 B 유지. 국소 스테로이드가 중증 전신반응 치료라는 오류 제거. 원문의 이미지 언급은 있지만 텍스트의 팽진·기도 정상 소견만으로 선택 가능.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://doi.org/10.1111/all.70210
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
 
 ## 출처
 

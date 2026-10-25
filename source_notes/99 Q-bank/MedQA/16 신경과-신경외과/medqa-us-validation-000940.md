@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 이상 소견 없음
 
 ## 해설
 
+안정 시 떨림·경직·표정 감소는 파킨슨병을 시사한다. 빠른 반복 발 두드리기에서 동작의 속도/진폭이 감소하는 소견(A)은 서동증에 해당한다. 꿈을 꾸며 발로 차고 주먹을 휘두르는 병력은 REM 수면행동장애를 시사하며 파킨슨병에 선행할 수 있지만, 진찰 중 foot-tapping 감소의 직접 기전은 아니다.
 
-파킨슨병 환자는 수면 중 근육 이완이 없어 발 두드리기(무의식적 움직임)의 진폭이 감소한다. 이는 레무수면 행동장애와 구별되는 특징이다. 따라서 발 두드리기 진폭 감소가 가장 가능성 높은 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Foot tapping 감소를 수면 중 근육이완 소실로 설명한 해설 교정.
 
 ## 출처
 

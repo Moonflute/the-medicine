@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 백혈구 2/mm³, 단백 142 mg/dL, 포도당 70 mg/dL
 
 
 세균성 수막염에서는 CSF에 호중구가 현저히 증가하고 단백이 크게 상승하며 포도당이 현저히 감소한다. 제시된 선택지 중 이 패턴에 가장 부합하는 것은 백혈구 8,500/mm³(호중구 우세), 단백 112 mg/dL, 포도당 15 mg/dL이다. 따라서 정답은 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005511 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수막구균 의심 급성 수막염에서 호중구성 저당·고단백 CSF B의 기본 검사 패턴을 원문 대조 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

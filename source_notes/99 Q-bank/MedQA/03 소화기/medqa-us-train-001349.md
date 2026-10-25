@@ -18,13 +18,15 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 식도 열상
 
 ## 해설
 
+정답은 D이다. 폭음 뒤 반복적인 헛구역질/구토로 위식도접합부 점막이 찢어지는 Mallory–Weiss 열상이 생겨 토혈할 수 있다. 압력 상승에 의한 점막 열상이며 식도 전층 천공(Boerhaave)이나 만성 화생과 구별한다. 기립성 혈압 감소가 있어 출혈·탈수의 중증도 평가가 필요하다.
 
-구토 후 구토와 구토 후 구토가 반복되면 식도 점막이 급성 열상(몰리-와이스 파열)으로 손상된다. 이는 급성 상부 위장관 출혈의 원인이다. 따라서 관련 소견은 식도 열상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 반복 구토 해설의 무의미한 반복 문장과 병명 오기를 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

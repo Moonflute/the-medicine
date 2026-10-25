@@ -26,9 +26,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,6 +50,13 @@ D. 쿠싱병
 
 
 Thiazide 이뇨제는 나트륨 재흡수를 억제하면서 원위세뇨관에서 칼륨과 수소 이온 배설을 증가시킨다. 고알도스테론증이 있으면 알도스테론이 과다 분비돼 Na⁺ 재흡수와 K⁺/H⁺ 배설이 더욱 촉진돼 심각한 저칼륨혈증을 일으킨다. 따라서 이 환자의 저칼륨혈증은 고알도스테론증이 가장 큰 기여 요인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/선지/정답 C/해설 읽음. HCTZ 후 현저한 저K에서 알도스테론 과다의 원위 Na흡수/K배설 증가가 악화를 설명하는 기전으로 일치. K2.1은 실제 진료상 즉각 평가 대상이나 교정 용량/치료 검증은 수행하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 고리 겸자로 병변 제거
 
 ## 해설
 
+월경 사이 출혈과 자궁경관 내 유경성 종괴는 자궁경부 폴립에 합당하다. 적절히 접근 가능한 폴립은 고리 겸자로 잡아 비틀어 제거(D)하고 조직검사를 한다. 고리 겸자는 전기고리 절제술(LEEP)과 다른 기구·시술이다.
 
-자궁경부 깊은 유경성 종괴는 고리 겸자(LEEP)로 완전 절제할 수 있다. 이는 최소 침습적이며 진단·치료에 적합하므로 정답 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 증상성 자궁경부 폴립의 ring forceps D 유지. 고리 겸자를 LEEP로 오인한 오류 교정.
+- https://screening.iarc.fr/atlascolpodetail.php?Index=37
 
 ## 출처
 

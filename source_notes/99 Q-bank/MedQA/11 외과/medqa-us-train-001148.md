@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,14 @@ D. 치질절제술(Hemorrhoidectomy)
 ## 해설
 
 
-혈변과 항문 주위 확장된 푸른 정맥, 탈출성 치질은 1도 내외의 경미한 치질을 시사한다. 1도 치질은 변비와 배변 시 통증이 없으며, 보존적 치료가 우선이다. 변을 부드럽게 하고 배변을 용이하게 하는 완하제인 도큐세이트가 가장 적절한 다음 단계이다.
+치상선 위 내치핵이 힘줄 때 탈출했다가 저절로 환원되므로 2도 내치핵이다. 초기에는 섬유질·수분 섭취와 배변 습관 개선 등 보존적 치료가 우선이며, 선택지 중 변을 부드럽게 하는 A가 이에 가장 가깝다. 도큐세이트가 섬유질 치료보다 우월하거나 모든 환자에게 필수라는 뜻은 아니다. 딜티아젬은 주로 치열에 사용하고, 보존치료 전 곧바로 치핵절제술을 시행할 근거는 부족하다. 대장암 가족력과 철분 복용의 이유를 별도로 평가하며 혈변을 무조건 치핵 탓으로 종결하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001148 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 자연 환원 탈출을 1도로 분류한 오류를 2도로 교정하고 보존치료·대장암 위험평가를 분리했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://fascrs.org/ascrs/media/files/2024-Hemorrhoids-CPG.pdf
 
 ## 출처
 

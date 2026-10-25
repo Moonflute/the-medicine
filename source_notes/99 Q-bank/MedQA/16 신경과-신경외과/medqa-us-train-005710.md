@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 알테플라제
 
 ## 해설
 
+운동 후 새 편측 두경부 통증, 동측 Horner 징후와 일과성 망막·반구 허혈은 좌측 경부 내경동맥 박리를 강하게 의심하게 한다. 출혈과 금기를 평가한 뒤 항혈전 치료를 하며 주어진 선지 중 헤파린(C)이 가능한 선택이다. 현재 권고는 박리의 임상·영상 및 출혈 위험에 따라 항혈소판제 또는 항응고제를 개별 선택하여 보통3–6개월 치료하는 것으로, 모든 급성 경동맥 폐색에 헤파린이 보편적1차라는 뜻은 아니다. CTA/MRA 등으로 병변과 범위를 확인한다. 현재 증상이 완전히 소실된 상황을 지속 장애성 뇌졸중과 동일하게 다루지 않는다.
 
-경부 초음파에서 좌측 내경동맥 흐름이 보이지 않는 것은 급성 내경동맥 폐색을 시사한다. 급성 폐색에 대한 1차 치료는 혈전 용해가 아닌 항응고제 투여이며, 헤파린이 가장 적절한 선택이다. 따라서 헤파린 투여가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 두경부 통증·Horner와 일과성 동측 단안 시력소실/반대측 위약을 경동맥 박리로 연결하고 모든 급성 경동맥 폐색에 헤파린이1차라는 오류를 수정했다.
+- 공식/학회 근거: https://www.ahajournals.org/doi/epdf/10.1161/STR.0000000000000457
 
 ## 출처
 

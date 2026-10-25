@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "분노 폭발 사이의 지속 과민성은 양극성 삽화와 구별하는 중요 개념 유지. 오답 문자 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ DMDD는 상황에 비해 과도한 분노 발작과 그 사이의 지속적인 �
 
 ## 오답 포인트
 
-- **B. 지속적인 우울감과 무기력:** 우울감은 주요 특징이 아니다.
+- 지속적인 우울감 하나로 정의하지 않는다. 폭발 사이에도 지속되는 과민성과 발달·빈도·기능 영향을 함께 평가한다.
 
 ## 출처
 
 - 내부 학습 노트: 파괴적 기분 조절 부전 장애 (Disruptive Mood Dysregulation Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/파괴적 기분 조절 부전 장애 (Disruptive Mood Dysregulation Disorder).md`
-- 학습 목표: 원문 핵심: - 소아 및 청소년에서 상황에 비해 과도하게 빈번한 분노 발작과 발작 사이의 지속적인 과민성 및 분노를 특징으로 하는 질환.
+- 학습 목표: DMDD의 지속 과민성과 반복 폭발
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 분노 폭발 사이의 지속 과민성은 양극성 삽화와 구별하는 중요 개념 유지. 오답 문자 제거.

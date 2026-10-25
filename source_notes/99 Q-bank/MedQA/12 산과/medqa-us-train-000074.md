@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 베타메타손, 암피실린을 투여하고 분만 유도를 진행한다
 
 ## 해설
 
+32주 PPROM에서 감염·태아곤란 등 즉시 분만 적응증이 없으므로 선택지 중 베타메타손과 암피실린(C)이 적절하다. 스테로이드는 미숙아 합병증 감소를 위해, 항생제는 감염 감소 및 잠복기 연장을 위해 투여한다. 실제 잠복기 항생제는 병원 프로토콜의 병합·순차 요법을 적용하며 암피실린 단독 전체 치료로 해석하지 않는다. 지속 감시 및 분만 시점 재평가가 필요하다.
 
-조기 양막 파열 시 양수 감염 위험을 줄이기 위해 베타메타손으로 태아 폐 성숙을 촉진하고, 감염 예방을 위해 항생제(암피실린)를 투여한다. 양수 주입술은 필요하지 않으며, 제왕절개는 아직 필요하지 않다. 따라서 베타메타손과 암피실린 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 스테로이드가 감염 예방 약물이라는 혼동 수정 및 기대요법 조건 보강.
+- https://www.rcog.org.uk/for-the-public/browse-our-patient-information/when-your-waters-break-prematurely/
 
 ## 출처
 

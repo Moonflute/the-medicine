@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "교감신경 항진의 전형적 징후를 구분하는 기초 복습 유지. 일반적이지 않음과 절대 불가능을 구분한 해설임."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 불면증
 
 - 내부 학습 노트: 자극제 (Stimulants)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/자극제 (Stimulants).md`
-- 학습 목표: 원문 핵심: - 중독: 고양감, 자신감 증가, 전능감, 공격성, 심계항진, 빈맥, 고혈압. - 신체 징후: 동공 산대, 발한, 체중 감소, 불면, 진전. - 심각한 부작용: 흉통, 부정맥(QT 연장, 심실빈맥), 발작, 정신병(망상, 환각), 뇌혈관 사고, 급사. - 만성 사용: 비강 손상(코카인 흡입 시), 심혈관 질환 위험 증가.
+- 학습 목표: 자극제의 교감신경 항진 소견
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 교감신경 항진의 전형적 징후를 구분하는 기초 복습 유지. 일반적이지 않음과 절대 불가능을 구분한 해설임.

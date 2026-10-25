@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 구획 내 압력 측정
 
 ## 해설
 
+심한 통증과 수동 신장 시 통증, 감각저하·창백·차가운 피부 및 약한 맥박은 외상 후 심각한 허혈을 동반한 급성 구획증후군을 강하게 시사하므로 즉각적인 수술적 감압(C)이 적절하다. 동반 동맥 손상도 신속히 평가해야 한다. 임상적으로 진단이 분명할 때 구획압 측정 때문에 감압을 지연하지 않는다. 반면 술에 취해 평가가 불가능하거나 진단이 불확실한 경우에는 연속 임상 평가와 구획압 측정이 도움이 된다. 맥박이 정상이어도 구획증후군은 배제되지 않는다.
 
-심한 통증, 감각 저하, 차가운 팔다리, 약한 맥박은 급성 구획증후군을 시사한다. 초기 치료는 근육 압박을 완화하기 위한 근막절개술이다. 따라서 정답은 근막절개술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 명확한 임상적 구획증후군에서는 압력 측정 때문에 감압을 지연하지 않는다는 점과 혈관 손상 평가도 필요함을 보완했다. 중독 자체만으로 측정이 수술보다 우선은 아니다.
+- 공식/학회 근거: https://www.boa.ac.uk/resource/boast-10-pdf.html
 
 ## 출처
 

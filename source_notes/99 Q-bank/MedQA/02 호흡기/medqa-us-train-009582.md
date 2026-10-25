@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 좌심방 압력 증가
 
 ## 해설
 
+수술 후 발열과 저혈압에 동반된 심한 저산소혈증, 양측 수포음과 보존된 좌심실 수축은 비심인성 폐손상을 의심하게 한다. ARDS의 병태생리는 C의 미만성 염증성 폐포 손상이다. 수혈이 수술 중이었고 증상은 4일 뒤이므로, 통상 수혈 중 또는 6시간 이내 발생하는 TRALI로 자동 연결하지 않는다. 누락된 영상과 임상 경과로 폐부종의 원인을 확인해야 한다.
 
-수혈 후 급성 호흡곤란 증후군(TRALI)은 수혈된 혈액 내 항체가 수용체와 결합해 폐 모세혈관 내 염증을 일으키며, 저산소증, 호흡곤란, 양쪽 폐에 수포음이 나타난다. 심초음파에서 정상 LV 기능과 비정상적인 폐음이 TRALI를 시사한다. 따라서 가장 가능성 높은 원인은 미만성 염증성 폐포 손상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 수술 중 수혈 4일 뒤의 호흡부전을 TRALI로 단정한 시간적 오류를 ARDS 병리로 교정.
+- https://onlinelibrary.wiley.com/doi/10.1111/trf.15311
 
 ## 출처
 

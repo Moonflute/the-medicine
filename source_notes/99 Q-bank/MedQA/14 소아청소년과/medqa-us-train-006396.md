@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 췌장 가성낭종
 
 ## 해설
 
+2세의 황달·옅은 변·소양감과 직접 빌리루빈 상승은 담즙정체를 시사한다. 초음파에 명시된 간외 담관의 방추형 확장은 총담관 낭종(A)에 특징적이며, 담도폐쇄증과 같은 의미가 아니다. 이 환자는 신생아가 아니다.
 
-신생아에서 직접 빌리루빈이 크게 상승하고 γ‑GT가 증가한 것은 담관 폐쇄를 시사한다. 초음파에서 간외 담관이 확장된 것은 총담관 낭종(Choledochal cyst)과 일치한다. 따라서 가장 가능성 높은 진단은 총담관 낭종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 2세 환자를 신생아로 부른 설명 오류 교정.
+
 
 ## 출처
 

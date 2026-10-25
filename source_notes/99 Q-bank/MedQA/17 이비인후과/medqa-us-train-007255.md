@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 근육 내 덱사메타손
 
 ## 해설
 
+현훈 발작, 변동성 청각 증상, 저주파 감각신경성 난청은 메니에르병에 합당하다. 급성 발작 억제제와 달리 유지·예방 치료로 선택할 수 있는 것은 C, hydrochlorothiazide 같은 이뇨제이다. AAO-HNS 지침은 이뇨제와/또는 betahistine을 고려할 수 있는 선택사항으로 두며, 이뇨제가 확실히 가장 효과적이라고 단정하지 않는다. Diazepam을 장기 매일 유지하는 것과 급성 발작기에 제한적으로 사용하는 것은 구분한다.
 
-메니에르병의 급성 발작 예방에 가장 효과적인 약물은 저용량 이뇨제인 히드로클로로티아지드이다. 따라서 초기 예방 치료는 경구 히드로클로로티아지드이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. HCTZ를 예방에 가장 효과적인 약으로 단정한 설명을 지침의 선택적 유지요법 수준으로 교정.
+- 공식/학회 근거: https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599820909438
 
 ## 출처
 

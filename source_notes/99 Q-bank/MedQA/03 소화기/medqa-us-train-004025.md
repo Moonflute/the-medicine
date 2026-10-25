@@ -19,13 +19,15 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 3도 외치핵
 
 ## 해설
 
+치상선 위의 혈관 확장과 배변 시 탈출했다가 저절로 환원되는 종괴는 2도 내치핵 C이다. 1도는 탈출 없고 3도는 수동환원이 필요하다. 외치핵은 특히 혈전성일 때 통증이 심하지만 모든 외치핵이 아픈 것은 아니다. 출혈의 다른 원인 평가는 별도이다.
 
-직장 출혈이 변과 섞이지 않고, 배변 시 통증 없이 나타나는 경우는 내치핵(2도)이다. 외치핵은 피부 밖으로 돌출되며 통증이 동반된다. 따라서 2도 내치핵이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 2도 내치핵 C의 결정근거는 자발환원 탈출. 모든 외치핵 통증이라는 오설명 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 지루각화증
 
 ## 해설
 
+고령의 흡연자에서 만성 자외선 노출 부위인 아랫입술에 3개월 동안 커지는 무통성 궤양, 외번된 가장자리 및 접촉 출혈이 있어 편평세포암(A)이 가장 의심된다. 당뇨 병력 자체를 이 병변의 결정적 원인으로 삼지 않는다. 일시적 아프타성 궤양, 건선 또는 지루각화증보다 악성 궤양의 형태와 경과에 합당하다.
 
-편평세포암은 흡연, 햇빛 노출, 당뇨병 등 위험인자를 가진 환자에서 구강 점막에 외번된 궤양으로 나타난다. 따라서 가장 가능성 높은 진단은 편평세포암이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 지속적으로 커지고 출혈하는 외번성 입술 궤양은 편평세포암 A를 지지한다. 당뇨를 이 병변의 확립된 주요 위험인자처럼 나열한 해설을 제거했다.
 
 ## 출처
 

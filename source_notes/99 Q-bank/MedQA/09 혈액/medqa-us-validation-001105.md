@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 거대 혈소판
 
 
 용혈성 요독 증후군에서는 파괴된 적혈구가 비정상적인 형태인 분절 적혈구(schistocytes)를 보인다. 이는 미세혈관 내에서 기계적 파괴에 의한 특징적인 소견이다. 따라서 말초혈액도말에서 분절 적혈구가 예상된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001105 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 설사 후 AKI·혈소판감소·정상응고는 HUS의 MAHA와 fragmented RBC B. 응고이상 DIC 및 rouleaux 등과 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

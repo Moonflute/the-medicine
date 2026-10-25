@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 내치핵
 
 ## 해설
 
+힘주기·변비와 다른 통증 없는 선홍색 출혈은 제시 중 내치핵 D에 부합한다. 치열은 보통 배변통이 동반된다. 다만 체중감소가 없다고 대장암이 배제되는 것은 아니며 지속/재발 출혈이나 경고소견에 따라 추가 평가가 필요하다.
 
-혈변과 변비, 직장수지검사에서 선홍색 혈액이 보이는 것은 내치핵(내부 치질)과 일치한다. 대장암은 종양성 출혈과 체중 감소를 동반하나, 변비와 직장수지검사 소견이 치질을 더 시사한다. 따라서 내치핵이 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 내치핵 D는 지지하되 체중감소가 없으면 대장암이 아니라는 배타적 설명 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

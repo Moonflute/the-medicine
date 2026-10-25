@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 다수의 질식분만
 
 ## 해설
 
+심한 통증 뒤 수축 소실, 급성 태아 서맥과 선진부 상승은 자궁파열을 시사한다. 자궁저부/상부 수축성 자궁체부를 침범하는 과거 절개(C)가 위험을 높인다. 고전적 절개는 상부 수직절개를 뜻하며, 자궁 하부 횡절개와 같은 말이 아니다. 기존 해설의 '횡문절제술'이나 '하부 절제' 표현은 잘못이다.
 
-전통적인 횡문절제술(전통적 제왕절개) 후 자궁 하부 절제는 자궁 파열 위험을 크게 높인다. 이는 급성 태아 심박수 감소와 고정 상실을 초래한다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 상부 자궁 반흔의 위험을 하부 횡절개로 뒤집어 쓴 해설을 원문 자궁저부 제왕절개에 맞게 교정했다.
+- https://www.acog.org/womens-health/faqs/vaginal-birth-after-cesarean-delivery
 
 ## 출처
 

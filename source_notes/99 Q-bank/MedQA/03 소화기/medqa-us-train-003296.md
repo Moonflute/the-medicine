@@ -20,13 +20,15 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. Dieulafoy 병변
 
 ## 해설
 
+반복 구토 뒤 토혈이 있고 내시경에서 원위 식도의 세로 방향 점막 열상이 확인되어 Mallory-Weiss tear B이다. 이는 점막 열상이며 전층 파열인 Boerhaave와 다르다. 가로 방향이라는 기존 해설은 원문·본문과 반대이다.
 
-반복적인 구토 후 식도에 가로 방향 점막 열상이 나타나는 경우는 말로리‑바이스 열상(Mallory‑Weiss tear)이다. 이는 급성 위장관 출혈의 흔한 원인이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원문 longitudinal tear를 해설이 가로 방향이라고 반대로 표현. Mallory-Weiss B 유지.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

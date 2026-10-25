@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -39,12 +41,15 @@ explanation_prompt_version: explanation-ko-v1
 A. 치유된 오른쪽 견갑골 골절
 B. 장골 피질의 간유리 모양
 C. 장골 골간단의 확장과 컵 모양 변화
-D. 두개골의 벌집뼈
+D. 두개골의 봉합뼈(Wormian bones)
 
 ## 해설
 
+청색 공막과 경미한 외상 후 반복 골절은 골형성부전증을 시사한다. 두개골 봉합 사이에 생기는 추가 골편인 봉합뼈 또는 봉합사이뼈(Wormian bones, D)가 나타날 수 있다. 이는 '벌집뼈'라는 골조직 모양을 뜻하지 않으며 이 소견 자체가 골형성부전증에만 특이한 것도 아니다. 골간단의 컵 모양 변화는 구루병, 간유리 모양은 다른 골질환의 단서다.
 
-청색 공막과 정상 성장은 골형성부전증(오스테오지네시스 imperfecta)에서 흔히 보이며, 이 질환의 특징적인 방사선소견은 두개골에 보이는 ‘벌집뼈’(wormian bones)이다. 따라서 가장 가능성 높은 소견은 두개골의 벌집뼈이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Wormian bones를 벌집뼈로 오역한 선지와 해설을 봉합뼈(봉합사이뼈)로 교정했다. 정답 D와 원래 해부학적 의미는 유지한다.
 
 ## 출처
 

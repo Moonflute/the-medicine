@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. 연령 관련 수정체 단백질의 변성
 
 ## 해설
 
+한쪽 눈의 관통 외상/수술 수개월 후 양쪽 눈에 통증, 눈부심, 시력저하와 전방 염증세포가 발생하여 교감성 안염(sympathetic ophthalmia)을 의심한다. 외상으로 노출된 면역특권성 안구 항원에 대한 자가면역 반응이 양안 포도막염을 일으킬 수 있어 B가 가장 적절하다. 단순 망막염이나 자극성 결막염을 의미하지 않으며 수정체 노화나 방수 배출 장애로 이 경과를 설명하지 않는다.
 
-양안 백혈구 침윤과 전방 염증은 자가면역성 망막염(자극성 안구염)보다 안구 내 항원에 대한 면역 반응인 자가면역성 포도막염이 더 가능하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 관통상 후 양안 포도막염의 교감성 안염을 자극성 안구염과 뒤섞은 설명을 교정.
+- 공식/학회 근거: https://eyewiki.aao.org/Sympathetic_Ophthalmia
 
 ## 출처
 

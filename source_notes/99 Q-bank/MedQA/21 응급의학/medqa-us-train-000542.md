@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 대장암 선별을 위한 대장내시경 검사
 
 ## 해설
 
+평균위험 성인은 45~75세에 대장암 선별검사가 권고되므로 50세의 이 환자에게 선지 중 대장내시경(D)이 적절하다. 정상 결과의 고품질 대장내시경은 보통 10년 간격인 여러 선별 전략 중 하나이며 FIT 등 다른 선택지도 있다. 흡연 10년 여부가 선별 시작의 필수 조건은 아니다. CEA는 평균위험 무증상자의 대장암 선별검사가 아니다.
 
-50세 남성은 10년간 흡연 경력이 있어 대장암 선별이 권고된다. USPSTF는 45세 이상에서 대장내시경을 10년마다 시행하도록 권고한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CRC 선별 D는 맞지만 10년 흡연 때문에 권고된다는 인과와 대장내시경만을 유일 권고검사로 설명한 오류를 수정한다.
+- 공식/학회 근거: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening
 
 ## 출처
 

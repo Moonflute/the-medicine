@@ -20,17 +20,19 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 목시플록사신을 투여하고 일반병실에 입원시킨다
 
 ## 해설
 
+정답은 D이다. 발열·기침·수포음과 새 혼돈이 있어 폐렴을 의심하며 입원 평가가 필요하다. 제시된 자료에서 기계환기나 혈관수축제 필요 등 ICU의 주요 기준은 없고, 비중증 입원 CAP의 한 선택지인 호흡기 fluoroquinolone 단독요법 moxifloxacin과 일반병실 입원 D가 가장 적합하다. 누락된 검사·중증도 평가를 보완해야 하므로 일반병실이 반드시 충분하다고 단정하지 않는다. 요양원 거주 자체만으로 광범위 HCAP 요법을 적용하지 않으며 macrolide와 fluoroquinolone을 무조건 중복하지 않는다.
 
-66세 환자의 고열·저혈압·패혈증 징후와 폐음 소견은 중등도 중증도 폐렴을 나타낸다. 호흡기 플루오로퀴놀론(목시플록사신)은 광범위한 경구 항생제로 적절하며, 중증이 아니므로 일반 병실 입원이 충분하다. 따라서 D가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 폐렴의 중증도를 단정하지 않고 입원 비중증 CAP 치료로 D를 설명; 요양원 거주만으로 HCAP 분류하지 않음.
+- https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults
 
 ## 출처
 

@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 적혈구의 겸상화(Sickling of erythrocytes)
 
 
 HbF와 HbA2 상승은 베타 지중해 빈혈(베타 지중해 빈혈)과 일치하며, 이는 미세구성 저색소성 빈혈을 초래한다. 말초 혈액 도말에서 가장 흔히 보이는 소견은 소구성 및 저색소성 적혈구이다. 따라서 정답은 소구성·저색소성이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000273 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 영아기 간비종대·전두골돌출과 HbF/HbA2 상승은 β-thalassemia를 지지하여 소구성·저색소성 적혈구 B가 적절하다. 납노출 유인에도 전기영동과 전체 맥락을 직접 대조했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

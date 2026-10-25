@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,13 @@ D. 발덴스트롬 거대글로불린혈증
 ## 해설
 
 
-다발성 골수종은 저밀도(lytic) 병변, 빈혈, 고칼슘, 신부전, 단백뇨(CRAB)와 일치한다. 전이성 전립선암은 보통 골밀도 증가성 병변을 만든다. 따라서 가장 가능성 높은 진단은 다발골수종이다.
+빈혈, 고칼슘혈증, 신기능저하와 CT에 기술된 다발성 골용해 병변은 다발골수종 B를 강하게 시사한다. CRAB는 hyperCalcemia, Renal impairment, Anemia, Bone lesions를 뜻하며 단백뇨는 이 약어의 별도 구성요소가 아니다. 이 문항에는 단백뇨 결과도 제시되지 않았다. 전립선암의 전형적 골전이는 골형성성이고 Waldenstrom에서는 이런 골용해 병변이 비전형적이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003001 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CRAB에 단백뇨를 포함한 오류와 실제 제공되지 않은 단백뇨 소견을 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

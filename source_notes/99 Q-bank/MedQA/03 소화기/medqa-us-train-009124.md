@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 결장 분절 절제술
 ## 해설
 
 
-CT에서 보이는 5.5 cm 저음영 농양은 복잡성 게실염의 합병증이며, 경피적 배액이 표준 치료이다. 외과적 절제는 농양이 크거나 파열 위험이 있을 때 고려한다. 따라서 CT 유도 경피적 배액이 가장 적절하다.
+정답 C. CT에서 확인된 5.5cm 게실염성 골반 농양은 항생제에 더해 접근 가능하면 영상유도 경피 배액을 고려하는 큰 농양이다. 안정적인 이 환자에게 CT 유도 배액이 적절한 다음 단계다. 배액 불가능, 치료 실패, 악화 또는 복막염이면 수술을 검토한다. 이미 투여 중인 항생제의 구체적 적절성은 지역 내성과 환자 상태에 따라 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009124 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 5.5cm 골반 농양은 크기 자체만으로 즉시 수술이 아니라 가능한 영상유도 배액+항생제 대상임을 명확화.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1186/s13017-020-00313-4
 
 ## 출처
 

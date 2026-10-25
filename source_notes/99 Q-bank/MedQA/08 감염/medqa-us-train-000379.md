@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. Staphylococcus aureus
 ## 해설
 
 
-삼첨판에 큰 진동성 증식물과 다수의 작은 증식물, 급성 전신 증상은 정맥 카테터나 정맥 주사와 관련된 감염에서 흔히 보이는 Staphylococcus aureus 감염성 심내막염을 시사한다. 다른 균은 삼첨판 감염과 잘 맞지 않는다.
+삼첨판의 증식물과 역류는 우심계 감염성 심내막염을 지지한다. 선택지 중 우심계 IE의 흔한 원인인 S. aureus(D)가 가장 가능성이 높다. 정맥주사 약물사용이나 혈관내 기구는 관련 위험요인이지만 이 문항에는 실제로 제시되지 않았다. 다른 균도 삼첨판 IE를 일으킬 수 있으므로 최종 원인균은 혈액배양으로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000379 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 삼첨판 IE의 S. aureus 연관은 유지하되 원문에 없는 급성 전신증상·정맥주사력을 환자 사실로 추가하지 않았다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

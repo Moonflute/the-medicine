@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 17번 염색체 장완의 종양억제유전자 돌연변이
 
 ## 해설
 
+과성장, 거대설, 배꼽 부위 돌출, 장기 비대와 저혈당은 베크위트-비데만 스펙트럼을 시사한다. 관련 영역은 11번 염색체 단완 11p15.5의 각인·성장조절 유전자들이다. 일부에서는 성장 억제 기능을 가진 CDKN1C의 병적 변이가 원인이므로 선택지 중 A가 부합한다. 다수는 각인 메틸화 이상 등 다른 기전이며 모든 사례를 단일 종양억제유전자 변이로 일반화할 수 없다. WT1이나 11번 염색체 장완으로 설명한 기존 해설은 틀렸다.
 
-베크위드-비데만 증후군은 11번 염색체 장완에 있는 WT1 종양억제유전자 돌연변이로 발생한다. 이는 거대설, 저혈당, 간비대 등을 설명한다. 따라서 11번 염색체 장완의 돌연변이가 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 베크위트-비데만 증후군을 WT1·11번 장완으로 설명한 오류를 11p15.5 각인/성장조절 영역 및 CDKN1C로 교정했다.
+- https://medlineplus.gov/genetics/condition/beckwith-wiedemann-syndrome/
+- https://medlineplus.gov/genetics/gene/cdkn1c/
 
 ## 출처
 

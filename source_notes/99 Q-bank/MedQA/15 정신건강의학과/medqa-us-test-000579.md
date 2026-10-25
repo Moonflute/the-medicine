@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 메틸페니데이트
 
 ## 해설
 
+가치가 거의 없는 물건도 버리기 어렵고 거주 공간의 사용이 방해되며 고통이 있는 모습은 저장장애에 부합한다. 저장장애에 맞춘 인지행동치료가 핵심이며, 약물 효과에 관한 연구는 작고 개방형인 경우가 많아 확립된 약물 표준치료로 단정할 수 없다. 이 문항처럼 CBT 후에도 고통과 우울·불안이 지속되어 제시된 약물 중 선택할 때에는 SSRI인 플루옥세틴(A)을 고려할 수 있다. 이는 CBT 비반응이면 반드시 플루옥세틴을 투여한다거나 저장장애에 승인된 확정적 치료라는 뜻이 아니다. 실제로는 CBT의 적절성, 동반질환과 안전을 재평가한다. 디곡신 해설은 이 사례와 무관하다.
 
-그레이브스병 환자의 심방세동에서 디곡신 농도는 심박수와 직접적인 양의 상관관계를 가진다. 다른 선택지는 연관성이 없다. 따라서 디곡신 혈중 농도가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 그레이브스/디곡신 오연결 교체. 저장장애의 CBT가 기본이고 약물 근거는 제한적임을 명시한 후 선택지 중 플루옥세틴 A를 고려 가능 약제로 한정.
+- https://www.psychiatry.org/patients-families/hoarding-disorder/what-is-hoarding-disorder
 
 ## 출처
 

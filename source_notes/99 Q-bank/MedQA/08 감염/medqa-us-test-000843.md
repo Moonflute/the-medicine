@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 노로바이러스 감염
 ## 해설
 
 
-데워 먹은 밥에서 발생하는 급성 구토와 설사는 Bacillus cereus가 생성한 구토 독소에 의한다. 증상 발현이 식후 1시간 이내이며 복통보다 구토가 주된 특징이다. 따라서 가장 가능성 높은 진단은 C이다.
+재가열한 음식을 먹고 약 1시간 뒤 급성 구토·복통이 생긴 것은 미리 형성된 내열성 독소에 의한 B. cereus 구토형 식중독(C)과 맞는다. 밥이 대표적 매개 음식이지만 본문에 음식 종류는 명시되지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-test-000843 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 재가열 음식 후 1시간의 구토형 B. cereus C 유지. 원문에 없는 쌀밥을 반드시 먹었다고 단정한 해설 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

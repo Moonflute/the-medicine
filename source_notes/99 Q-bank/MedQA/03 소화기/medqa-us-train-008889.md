@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 경경정맥 간내 문맥전신 단락술
 ## 해설
 
 
-식도 정맥류는 문맥 고혈압의 합병증이며, 베타 차단제인 나돌롤이 압력을 감소시켜 출혈 위험을 낮춘다. 따라서 나돌롤 치료가 가장 적절하다.
+작은 식도정맥류라도 red signs가 있어 출혈예방을 고려해야 한다. 선택지 중 비선택적 β차단제 nadolol(B)이 적절하며 혈압·신기능과 내약성에 맞춰 조절한다. 현대 지침에서 carvedilol을 선호하는 상황도 있으나 nadolol이 무효인 것은 아니다. Sildenafil과 nitrate 병용은 심한 저혈압 위험이 있어 isosorbide mononitrate(C)를 선택하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008889 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 작은 정맥류라도 red signs가 있어 NSBB nadolol B 가능. 현대 carvedilol 선호 상황과 구분, sildenafil에 nitrate C 금기 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/
 
 ## 출처
 

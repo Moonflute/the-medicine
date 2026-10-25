@@ -20,17 +20,19 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 수분 제한 검사
 
 ## 해설
 
+공복성 저혈당 의심 증상이 반복되나 현재 glucose88은 정상이다. 자연발작 때 혈장glucose와 insulin/Cpeptide 등 검체로 Whipple삼징후를 확인하는 것이 중요하며 포착이 어려우면 C의 감시하 최대72시간 공복으로 재현할 수 있다. 검사중 저혈당이면 정해진 중단/채혈기준을 적용하며 무조건72시간 굶기는 것은 아니다.
 
-반복적인 저혈당 증상이 의심되는 인슐린종은 72시간 공복검사로 확인한다. 이는 장시간 금식 후 혈당 저하를 평가한다. 따라서 72시간 공복검사가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 72시간 공복 C는 감시하 저혈당 재현검사이며 증상만으로 insulinoma확진한 설명 한정.
+- https://academic.oup.com/jcem/article/94/3/709/2596247
 
 ## 출처
 

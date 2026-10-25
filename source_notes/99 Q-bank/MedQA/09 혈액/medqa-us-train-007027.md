@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -57,7 +59,14 @@ D. 플루다라빈, 사이클로포스파미드, 리툭시맙
 ## 해설
 
 
-무증상 초기 CLL에서는 경과 관찰이 권장된다. 치료는 증상이 나타날 때 시작한다. 따라서 정답은 C이다.
+무증상이며 빈혈·혈소판감소·큰 장기비대 등 활동성 질환 기준이 없는 CLL은 관찰/추적 C가 적절하다. 백혈구 수치만으로 항암을 시작하지 않는다. 치료는 B증상뿐 아니라 진행성 골수부전, 진행성/증상성 림프절·비장비대, 조절 안 되는 자가면역성 혈구감소 등 객관적 기준으로 결정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007027 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 무증상 CLL의 관찰 C 유지; 치료 개시는 증상뿐 아니라 진행성 골수부전 등도 포함함을 보강.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-acalabrutinib-venetoclax-chronic-lymphocytic-leukemia-or-small-lymphocytic-lymphoma
 
 ## 출처
 

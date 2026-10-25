@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 일과성 활막염
 ## 해설
 
 
-파르보바이러스 B19 감염은 급성 발열·인후통 후 대칭성 다발 관절통을 일으키며, 특히 젊은 여성에게 흔하고 증상이 1~2주 내 호전된다. 따라서 파르보바이러스 B19 감염이 가장 가능성 높은 진단이다.
+젊은 여성의 급성 대칭성 MCP·PIP·손목 관절통, 학교 노출과 수 주 내 자연호전은 parvovirus B19(B)에 부합한다. 성인에서는 전형적 소아 발진이 없을 수 있고 관절 증상은 수 주 이상 지속될 수도 있다. 만성 지속 관절염의 류마티스관절염이나 주로 단관절 화농성 양상인 임균성 관절염보다 이 경과가 맞는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000295 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 교사 노출·급성 대칭 소관절통과 자연호전은 B19 B. 본문에 없는 인후통을 덧붙이지 않고 호전 기간을 1–2주로 고정하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

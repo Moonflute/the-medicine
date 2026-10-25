@@ -20,13 +20,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 소변 나트륨 소실이 자유수 소실보다 많음
 
 ## 해설
 
+인슐린결핍/고삼투 상태에서는 K가 세포밖으로 이동해 혈청K가 높아도 삼투성 이뇨·구토로 전신 K저장량은 고갈되어 C가 맞다. 치료 중 insulin과 수액으로 혈청K가 떨어질 수 있어 반복측정과 적절한 보충이 필요하다. 혈청K상승이 전신K과잉을 뜻하지 않는다.
 
-당뇨병성 케톤산증에서 인슐린 결핍으로 인해 체액이 세포외로 이동해 고칼륨혈증이 나타나며, 전신 칼륨 고갈은 드물다. 따라서 가장 가능성 높은 소견은 전신 칼륨 고갈이 아니다; 실제 정답은 전신 칼륨 고갈이 아니라 고칼륨혈증이지만 제시된 선택지 중 C가 가장 맞다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: DKA의 전신K고갈 C를 부정하고 혈청고K와 혼동한 정답불일치 해설 교정.
+- https://diabetesjournals.org/care/article/47/8/1257/156811/Hyperglycemic-Crises-in-Adults-With-Diabetes-A
 
 ## 출처
 

@@ -19,15 +19,17 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 혈청 지질 농도 측정
 
 ## 해설
 
+황색 병변 군집과 췌장염 의심 복통은 심한 고중성지방혈증/발진성 황색종을 시사해 D의 혈청지질검사가 적절하다. 황색판을 급성췌장염에 의한 지방변성이라고만 설명하거나 지질검사가 아니라 영상이 정답이라고 뒤집지 않는다. 췌장효소와 임상에 필요한 영상으로 진단도 함께 평가한다.
 
-환자는 급성 췌장염을 시사하는 복부 팽만, 심와부 통증, 구토, 저칼슘 혈청을 보이며, 황색판은 급성 췌장염과 관련된 지방변성일 수 있다. 따라서 다음 단계는 혈청 지질 농도 측정이 아니라 복부 영상이 필요하지만 제시된 선택지 중 가장 적절한 것은 혈청 지질 농도 측정이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 황색판-고TG췌장염의 지질검사 D 근거를 해설의 자기모순 없이 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 지지요법과 추가 신체검사
 
 ## 해설
 
+원정답은 B, 관절천자이다. 급성 무릎 발적·열감·부종, 수동 운동 시 심한 통증 및 체중부하 거부는 외상력만으로 설명하고 넘기지 말고 세균성 관절염을 평가해야 하는 소견이다. 임상적으로 안정적이라면 관절액을 채취하여 백혈구 수·분획, 그람염색 및 배양을 시행하고 치료를 결정한다. 그러나 전신상태가 나쁘거나 감염이 급속히 진행하거나 패혈증이 의심되면, 가능한 혈액배양 후 즉시 경험적 항생제를 시작하며 관절천자 때문에 투여를 지연하지 않는다. 실제 평가에는 골절·혈관절증 등 외상성 원인도 포함한다.
 
-무릎에 발적·통증·부종이 있으며 움직일 때 통증이 심하고 열감이 있는 경우, 감염성 관절염(농양성 관절염)을 의심한다. 진단을 확정하려면 관절천자를 통해 배액을 분석하고 배양해야 한다. 따라서 초기 적절한 조치는 관절천자이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 급성 관절염 의심에서 관절천자 B 유지. 패혈증/급속진행 환자에게 항생제를 천자까지 지연해선 안 된다는 최신 PIDS/IDSA 예외 보완.
+- 공식/학회 근거: https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/
 
 ## 출처
 

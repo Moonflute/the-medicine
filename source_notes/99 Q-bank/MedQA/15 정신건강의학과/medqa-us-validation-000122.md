@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,10 +44,16 @@ D. 자해
 
 ## 해설
 
-
-바르비투르산염 금단 시 교감신경 과다활동으로 심혈관 허탈(심박동 감소·저혈압·심정지)이 가장 위험한 합병증이다. 호흡억제는 억제제 과다복용 시, 내부 출혈·자해는 다른 상황에 해당한다. 따라서 정답은 심혈관 허탈(C)이다.
+바르비투르산염 금단은 생명을 위협할 수 있으며 경련·섬망과 심한 자율신경/심혈관 불안정이 발생할 수 있다. 제시된 합병증 중 심혈관 허탈이 원문 정답이다. 호흡억제는 주로 중독·과량복용 때의 문제이며 금단의 대표 억제성 기전으로 설명하지 않는다. 이 환자는 일일 사용 후 중단 상황이므로 면밀한 의료적 관찰과 통제된 금단 관리가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000122
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 심혈관 허탈 원정답 유지. 교감항진을 곧 서맥·저혈압으로 설명한 잘못된 연결 및 선지 문자 제거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정하며 최신 지침 전수 검증을 뜻하지 않음).
+- https://www.euda.europa.eu/publications/drug-profiles/barbiturates_en

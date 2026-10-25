@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 숙주 항원에 대한 이식편 T 세포
 
 
 조혈모세포 이식 후 발생하는 이식편 대 숙주 질환(GVHD)은 숙주 조직에 대한 이식편 T세포의 공격으로 발생한다. 따라서 숙주 항원에 대한 이식편 T세포가 병태생리의 핵심이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000625 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 공여자 조혈모세포 이식2개월 후 피부·장·간 침범은 급성 GVHD이며 공여자 T세포가 숙주항원을 공격하는 D가 맞다. 원문·선지·해설 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 활성화 단백질 C로 분해되지 않는 응고인자 V의 유전 돌연�
 ## 해설
 
 
-하이킹 후 선상으로 배열된 수포와 홍반성 구진은 독성 아이비에 의한 알레르기성 접촉피부염이다. 1차 치료로는 강력한 국소 스테로이드인 클로베타솔이 가장 효과적이다.
+비분획 heparin을 시작한 지 5일 뒤 혈소판이 195,000에서 83,000/µL로 50% 넘게 감소하고 혈전이 새로 생기거나 확장되었다. 이는 면역성 heparin 유발 혈소판감소증(HIT)에 부합한다. PF4-heparin 복합체에 대한 항체(B)가 혈소판과 응고계를 활성화하여 혈소판 감소에도 불구하고 혈전을 일으킨다. 접촉피부염이나 국소 스테로이드 해설은 해당하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000354 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Heparin5일 뒤 혈소판 >50% 감소와 혈전확장은 면역 HIT B. 전혀 무관한 poison ivy/clobetasol 해설을 PF4-heparin 항체 기전으로 교체.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

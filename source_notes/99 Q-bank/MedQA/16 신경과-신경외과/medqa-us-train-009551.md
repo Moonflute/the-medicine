@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 후척수동맥 증후군
 
 ## 해설
 
+대량 출혈과 저혈압 후 양측 하지 운동마비·통각/온도각 소실에 비해 진동감각이 보존되어 전척수동맥 증후군(A)에 맞는다. 전방 척수의 피질척수로와 척수시상로 손상, 상대적으로 보존된 후주 기능의 조합이다. 급성기에는 척수쇼크로 건반사가 소실될 수 있다. 진동·위치감각을 전달하는 부위는 후주이며 후각이 아니다.
 
-허리 이하 감각·운동 상실, 무통증 진동감각 보존, 하부 반사 소실은 전척수동맥(Anterior spinal artery) 증후군을 나타낸다. 이는 전방 척수 혈류 차단으로 운동·통각이 손상되고, 후각(진동·위치감각)은 보존된다. 다른 선택지는 증상 분포가 다르다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전척수동맥 증후군 A 유지. 진동/위치감각 보존 부위를 후각이 아닌 후주로 교정.
 
 ## 출처
 

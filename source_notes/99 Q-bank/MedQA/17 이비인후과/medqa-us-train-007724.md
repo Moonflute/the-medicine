@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 슈도에페드린 투여 후 1주일 뒤 추적
 
 ## 해설
 
+증상은 하루 전 시작했고 발열이나 전신 독성이 없어 아직 세균성 부비동염의 지속/악화 기준을 충족하지 않는다. 콧물 색만으로 항생제나 CT, 항진균제·수술을 선택하지 않으며, 제시된 선택지 중 D의 증상관리와 추적이 가장 가깝다. 다만 경구 pseudoephedrine은 급성 부비동염에서 효과 근거가 제한적이며 모든 환자에게 필수인 표준 약은 아니다. 당뇨 등 기저질환과 부작용 위험을 고려하고 급격한 악화나 합병증 소견이 있으면 예정 추적을 기다리지 않고 재평가한다.
 
-급성 부비동염이 10일 이상 지속되고 전형적인 전두동 압통이 있으면 세균성 부비동염을 의심한다. 증상이 1주일 이상 지속된 후 증상 악화 시 슈도에페드린(충혈완화제)으로 증상을 완화하고 1주일 뒤 추적한다가 초기 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 하루 된 경증 증례를 10일 이상 세균성 부비동염처럼 설명한 오류를 교정; D의 핵심을 항생제 없는 증상관리·추적으로 한정.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng79/chapter/recommendations
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng79/chapter/Summary-of-the-evidence
 
 ## 출처
 

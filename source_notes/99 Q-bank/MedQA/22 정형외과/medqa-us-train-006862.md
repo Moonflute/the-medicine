@@ -15,16 +15,17 @@ related_diseases:
   - "비만 관련 과사용"
   - "Pes anserine bursitis"
 question_type: diagnosis
-related_disease_slugs:
-  - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,8 +45,13 @@ D. 슬개전 윤활낭염
 
 ## 해설
 
+정답은 C, 거위발 윤활낭염이다. 거위발 윤활낭은 근위 경골 안쪽의 봉공근·박근·반힘줄근 힘줄 부근에 위치한다. 비만과 반복되는 계단 오르내리기는 위험 요인이며, 무릎 관절선보다 아래쪽의 앞안쪽 경골에 국한된 압통이 진단을 지지한다. 반월상연골 파열은 관절선 압통이나 기계적 증상 및 맥머리검사 소견이 더 뒷받침되지만, 음성 검사 하나만으로 완전히 배제되지는 않는다. 슬개전 윤활낭염의 압통·부종은 무릎 앞쪽 슬개골 표면에 나타나므로 이 위치와 다르다.
 
-코로나바이러스 감염 후 심근염은 C형 바이러스에 의한 심근 손상으로, 혈청 LDH 상승이 흔히 관찰된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문의 본문·선지·정답 및 한국어 해설을 개별 대조하였다. 원정답과 케이스를 유지하고 잘못 연결된 해설을 교체하였다.
+- 영어 원문도 주호소를 hip pain으로 적었으나 진찰상 통증은 경골 앞안쪽으로 국소화한다. 원래 케이스를 다른 증례로 바꾸지 않고 이 국소화 단서에 따라 판단하였다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/pes-anserine-knee-tendon-bursitis/
 
 ## 출처
 

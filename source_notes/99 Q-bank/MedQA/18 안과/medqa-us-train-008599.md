@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -36,15 +38,18 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 선택지
 
-A. 각결막염
+A. 눈구석결막염(angular conjunctivitis)
 B. 급성 출혈성 결막염
 C. 임균성 결막염
 D. 트라코마 결막염
 
 ## 해설
 
+유행지역 출신 소아의 상안검 결막·윤부 여포와 상부 각막의 혼탁·신생혈관(pannus)은 D, C. trachomatis 관련 트라코마를 지지한다. 여포를 포도상 결절이나 포도막염으로 설명하는 것은 맞지 않는다. A의 angular conjunctivitis는 눈구석 부위의 결막염을 뜻하며 일반적인 각결막염(keratoconjunctivitis)과는 다른 용어이다.
 
-눈에 결막 융모와 포도상 결절, 각막 혈관 신생은 트라코마(Chlamydia trachomatis) 감염의 전형적인 소견이다. 다른 결막염은 포도막 염증이나 출혈이 없으며, 트라코마는 눈꺼풀 결절과 림프절 비대를 동반한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 선지 A angular conjunctivitis를 각결막염으로 오역한 부분을 눈구석결막염으로 복원; 트라코마 여포·상부 pannus 설명 교정.
 
 ## 출처
 

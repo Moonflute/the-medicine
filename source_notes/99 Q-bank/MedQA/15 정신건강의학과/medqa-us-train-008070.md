@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,16 @@ D. 대인관계 정신치료
 
 ## 해설
 
-
-피부를 반복적으로 뜯는 충동 조절 장애는 강박 스펙트럼에 속하며, SSRI가 1차 치료제로 효과적이다. 플루옥세틴은 충동 억제와 불안 감소에 도움이 된다. 따라서 초기 약물 치료로 플루옥세틴을 선택한다.
+반복 피부뜯기와 이를 멈추려는 시도의 어려움, 피부 손상은 피부뜯기장애를 시사한다. 원문은 플루옥세틴을 선택하지만 피부뜯기의 확립된 보편적 일차 약이라고 단정하지 않는다. 실제 치료에서는 유발 요인과 피부질환을 평가하고 습관반전훈련을 포함한 CBT를 우선 고려하며, 약물은 동반 질환과 제한적인 근거를 바탕으로 전문적으로 논의할 수 있다. 근거 기반 습관반전/CBT가 선택지에 빠져 있다는 문항의 한계가 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008070
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 피부뜯기에서 SSRI를 확립된 일차로 단정한 해설 교정. 원문 플루옥세틴은 제한된 선지의 약물 선택으로 보존하며 HRT/CBT 누락 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nhs.uk/mental-health/conditions/skin-picking-disorder/

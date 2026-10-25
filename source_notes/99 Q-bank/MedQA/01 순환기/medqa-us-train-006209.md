@@ -19,17 +19,19 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRlbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 운동을 중단하고 약물 스트레스 검사 시행
 
 ## 해설
 
+운동으로 흉통이 악화되고 수축기압이 떨어져 검사를 중단하고 고위험 허혈을 평가하는 C가 적절하다. ECG의 허혈변화가 없다는 이유만으로 안전하지 않다. 초기 입원 ECG 그림은 누락되어 있지만 현재 부하검사 중단 판단은 제공된 증상/혈압으로 가능하다.
 
-운동 중 흉통이 악화되고 혈압이 떨어졌으며 허혈 변화가 없을 경우, 심근 허혈이 의심되므로 관상동맥조영술을 통해 혈관 상태를 확인해야 한다. 다른 선택지는 추가 검사가 필요하지 않은 상황이다. 따라서 다음 단계는 관상동맥조영술 시행이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 운동 중 흉통+수축기혈압 하강의 고위험 C를 ECG음성으로 무시하지 않도록 정리.
+- https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053
 
 ## 출처
 

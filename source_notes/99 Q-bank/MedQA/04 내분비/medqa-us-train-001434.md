@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 코르티솔 분비와 작용 과다
 
 
 이 환자는 비만, 고혈압, 고중성지방, 낮은 HDL 등 대사증후군을 보이며, 인슐린 저항성이 핵심 병인이다. 인슐린 수용체에 대한 저항이 혈당 및 지질 이상을 초래한다. 따라서 인슐린 수용체 저항성이 기전이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 한·영 본문/선지/정답 B/해설 읽음. 중심비만·공복혈당장애·고TG/저HDL·고혈압의 대사증후군에서 인슐린 저항성 기전이 일치. 약제·진료지침 검증 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

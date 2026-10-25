@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 자궁경부 배양
 
 ## 해설
 
+점액농성 자궁경부염에서 임질 NAAT는 음성이고 클라미디아 평가·치료가 필요하다. 현재 비임신 성인의 우선 요법은 독시사이클린 7일이며 아지스로마이신은 대체요법이다. 보기 중 A가 유효한 선택이다. 임질 음성만으로 클라미디아를 확진하지 않으며 파트너 평가도 필요하다.
 
-노란색 점액성 자궁경부 분비물은 무농양성 자궁경부염을 시사하며, Neisseria 검사가 음성인 경우 가장 흔한 원인인 Chlamydia trachomatis 감염을 의심한다. 치료는 단일제제 1회 경구 아지스로마이신이 권장된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 아지스로마이신 A는 현재 대체요법으로 유효하여 유지. 일률적 1차약 표현을 교정.
+- https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm
+- https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm
 
 ## 출처
 

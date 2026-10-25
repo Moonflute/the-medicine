@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,7 +48,13 @@ D. 편모 원충
 ## 해설
 
 
-흰색 거품성 황록색 분비물과 pH 5.8은 트리코모나스 질염을 시사하며, 진단에 특이한 검사는 편모 원충(Trichomonas vaginalis) 현미경 검토이다. 따라서 예상되는 소견은 편모 원충이다.
+거품성 황록색 분비물과 pH 5.8은 트리코모나스 질염을 시사하며, 진단에 특이한 검사는 편모 원충(Trichomonas vaginalis) 현미경 검토이다. 따라서 예상되는 소견은 편모 원충이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 원문과상이한흰색분비물표현삭제. 황록거품성분비물·높은pH로트리코모나스D유지.
+
 
 ## 출처
 

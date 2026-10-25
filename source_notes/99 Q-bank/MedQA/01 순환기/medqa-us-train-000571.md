@@ -21,13 +21,15 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 스타틴(Statin) 요법
 
 ## 해설
 
+정답은 D이다. 40–75세 당뇨병 환자이고 LDL130 및 HTN·흡연 등 추가 위험요인이 있어 statin 치료가 적합하다. 이 정보만으로 정확한 10년 ASCVD 위험률이 10% 이상이라고 계산해 제시하지 않는다. 유방암/대장암 검진도 나이와 기존 검진력에 따라 별도로 제공해야 하며 statin이 검진을 대체하지 않는다.
 
-고혈압·당뇨·비만·LDL 130 mg/dL인 10‑년 ASCVD 위험이 10 % 이상으로 중등도 위험군에 해당한다. 40세 이상에서 10 % 이상이면 스타틴 치료가 권고된다. 따라서 스타틴 요법이 적절한 다음 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 총콜레스테롤 등 없이 계산한 10년 위험률 단정을 제거하고 DM/연령에 따른 statin 근거로 교체.
+- https://diabetesjournals.org/care/article/49/Supplement_1/S216/163933/10-Cardiovascular-Disease-and-Risk-Management
 
 ## 출처
 

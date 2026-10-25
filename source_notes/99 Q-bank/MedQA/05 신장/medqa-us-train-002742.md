@@ -21,13 +21,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 신장 생검
 
 ## 해설
 
+객혈·혈뇨·단백뇨·신기능 저하는 폐신장증후군을 시사하므로 anti-GBM(제IV형 collagen) 항체 B를 신속히 검사한다. ANCA 혈관염도 감별해야 하며 상황에 따라 ANCA 검사와 신장생검을 병행한다. 양성 항체만을 기다리며 중증 환자 평가를 지연해서는 안 된다. Azithromycin은 이 폐신장증후군의 치료가 아니며 기존 해설처럼 결핵의 표준 치료제라고 설명한 것은 잘못이다.
 
-혈뇨·폐출혈·신기능 저하가 동반된 경우 항-GBM 항체 검사가 Goodpasture 증후군을 확인하는 가장 특이적인 검사이다. 아지트로마이신은 결핵 치료제이며, p‑ANCA는 다른 혈관염을 의심하게 한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 폐신장증후군 anti-GBM B는 유지. Azithromycin을 결핵 치료제라 한 잘못을 제거.
+- https://kdigo.org/wp-content/uploads/2017/02/KDIGO-Glomerular-Diseases-Guideline-2021-English.pdf
 
 ## 출처
 

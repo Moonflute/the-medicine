@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 질 프로게스테론
 
 ## 해설
 
+22주의 경부 20 mm와 중기 임신 소실·조기진통력은 고위험으로 봉축술(A)을 고려한다. 감염·파수·수축 및 과거 분만 양상을 평가한다. NICE는 이 범주에서 질 프로게스테론 또는 봉축 선택을 권고하므로 D가 모든 상황에서 무효하거나 봉축이 유일한 대안이라고 일반화하지 않는다.
 
-초음파에서 자궁경부 길이가 20 mm(≤25 mm)이며 이전에 조기진통·유산 병력이 있으면 자궁경부 무력증 위험이 높다. 예방적 자궁경부 봉합술이 조기 출산을 감소시키는 표준 치료이다. 경부 페사리는 비수술적 옵션이지만 봉합술보다 효과가 낮다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 이전중기손실+짧은경부에서봉축유효하나모든지침에서유일대안이라고하지않음.
+- https://www.nice.org.uk/guidance/ng25/chapter/recommendations
 
 ## 출처
 

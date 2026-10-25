@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 안심시키고 관찰
 ## 해설
 
 
-젊은 여성의 단단하고 움직이는 2 cm 유방 결절은 섬유선종이 가장 흔한 원인이다. 섬유선종은 초음파에서 양성 특징을 보이며, 영상학적 확인이 진단에 필수적이다. 따라서 다음 단계는 유방 초음파이다.
+28세의 새로 만져지는 유방 종괴는 표적 초음파 A로 우선 평가한다. 최근 교통사고와 국소 멍이 있어 혈종·지방괴사도 중요한 감별이며 단단하다는 이유만으로 암이나 섬유선종을 확정하지 않는다. 원문에는 종괴의 이동성이 제시되지 않았다. 영상·임상 소견이 의심스럽거나 불일치하면 추가 영상 또는 조직검사를 고려하고, 확인 없이 단순 안심이나 유방절제술을 시행하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009214 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문의 압통 없는 종괴·최근 안전벨트 외상을 무시하고 이동성 섬유선종으로 단정한 해설 교정;28세 첫 영상 US A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.radiologyinfo.org/en/info/acs-palpable-breast-masses
 
 ## 출처
 

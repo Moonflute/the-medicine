@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 가정에서 심폐 모니터링
 
 ## 해설
 
+모든 수면에서 바로 눕혀 재우기(B)가 핵심이다. 단단하고 평평한 별도 수면 공간을 사용하고 같은 방에서 지내되 침대를 공유하지 않으며, 담배 연기와 부드러운 침구를 피한다. 가정 심폐 모니터가 SIDS 예방을 대체하지 않는다. 특정 기전 하나로 예방 효과를 단정하지 않는다.
 
-영아돌연사증후군(SIDS) 예방에 가장 중요한 것은 영아를 바로 눕힌 자세로 재우는 것이다. 이는 기도 폐쇄 위험을 최소화하고 자율신경 반응을 안정시킨다. 따라서 바로 누운 자세로 재우는 것이 핵심 권고이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: SIDS 감소 권고를 보존하고 기전의 과잉 확정 대신 안전 수면 원칙으로 교정.
+- https://doi.org/10.1542/peds.2022-057991
 
 ## 출처
 

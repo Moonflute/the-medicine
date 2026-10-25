@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 두부 MRI 시행
 
 ## 해설
 
+갑작스러운 심한 두통과 6일 전 선행 두통은 지주막하출혈에 대한 의심을 남긴다. 제시된 선택지 중 요추천자(A)는 CT가 음성이어도 의심이 남을 때 출혈 또는 감염 평가에 도움이 된다. 다만 신경학적으로 정상인 환자가 발병 6시간 이내 고품질 CT를 적절한 전문 판독으로 받은 경우에는 급성 지주막하출혈을 배제할 수 있어, CT 음성이라는 이유만으로 모두 요추천자를 시행하지는 않는다. 이 문항에는 그런 CT 조건이 명시되어 있지 않다.
 
-갑작스러운 심한 두통과 구토, CT 음성은 지주막하출혈을 의심하게 하며, 확진을 위해 요추천자를 시행한다. 따라서 요추천자가 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. CT 음성인 모든 두통에서 LP가 필수라는 과잉 일반화를 제거. 선행 경고두통과 발열 및 CT 판독조건 미상으로 추가평가 A 유지.
+- 공식/학회 근거: https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000436
+- 공식/학회 근거: https://www.nice.org.uk/guidance/NG228/chapter/recommendations
 
 ## 출처
 

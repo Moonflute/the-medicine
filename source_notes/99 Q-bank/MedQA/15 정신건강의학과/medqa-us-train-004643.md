@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 신경성 식욕부진증
 
 ## 해설
 
+이별 후 3주 동안 정서적 고통과 학업 기능 저하가 있고 다른 선택지에 맞는 사별·외상성 사건·체중 증가 공포가 없어 우울 기분을 동반한 적응장애(B)가 가장 적절하다. 스트레스 시작 후 3개월 이내 발생이라는 조건과 스트레스/그 결과가 끝난 뒤 추가 6개월 넘게 지속하지 않는 조건을 구별한다. 단순히 전체 증상이 6개월 미만이라는 사실만으로 정하는 것은 아니며 스트레스 후에도 주요우울장애 등의 기준을 충족하면 별도로 감별해야 한다.
 
-3주간 지속된 우울 기분, 체중 감소, 기능 저하가 명확한 스트레스 사건(연인 이별)에 대한 반응이며, 증상이 6개월 미만이므로 적응장애(우울 기분 동반)로 가장 가능성이 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 스트레스 이후 6개월 미만이면 곧 적응장애라는 잘못된 해설을 발생 시점·다른 장애 감별을 포함한 정의로 교정했다.
+- https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t19/
 
 ## 출처
 

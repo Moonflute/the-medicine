@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 고콜레스테롤혈증
 
 
 만성 췌장염은 알코올 남용이 가장 흔한 원인이다. 환자는 장기간 알코올 사용 및 관련 위험 요인을 가지고 있어 알코올성 췌장염이 가장 타당한 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007733 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 장기 과음·반복 췌장통·지방변·낮은 대변 elastase와 당대사 이상은 알코올 관련 만성 췌장염 A. 중성지방145와 총콜레스테롤250을 고중성지방 췌장염으로 혼동하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

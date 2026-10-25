@@ -19,17 +19,19 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VwaGFsZXhpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 세팔렉신으로 변경
 
 ## 해설
 
+선택지 중 엽산 보충(B)은 신경관 결손 예방에 중요하며 항경련제 복용 임신에서는 전문가와 용량·약물 안전성을 상담한다. 임신 중 음주는 감소가 아니라 중단을 권고한다. 라모트리진을 임의로 바꾸거나 중단하면 발작 위험이 있으므로 약물 변경은 전문 판단이 필요하다. 엽산을 9주에 시작해도 이미 발생한 결손을 되돌리는 것은 아니다.
 
-임신 초기에는 신경관 결손 위험을 감소시키기 위해 엽산 보충이 권장된다. 다른 선택지는 직접적인 선천성 기형 예방 효과가 없으며, 약물 교체는 임신 유지와는 무관하다. 따라서 엽산 보충이 가장 도움이 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 음주 감소가 기형 예방 효과가 없다는 위험한 표현 삭제.
+- https://www.cdc.gov/folic-acid/about/
 
 ## 출처
 

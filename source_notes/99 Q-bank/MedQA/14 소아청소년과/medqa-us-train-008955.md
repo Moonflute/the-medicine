@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 표적적혈구
 
 ## 해설
 
+생후 수개월에 나타난 심한 거대적혈구빈혈과 두개안면·경추·심장 선천기형은 Diamond-Blackfan 빈혈(DBA) 증후군을 시사한다. 백혈구와 혈소판이 비교적 보존된 빈혈이라는 점도 범혈구감소성 골수부전보다는 DBA에 부합한다. DBA에는 세 지절 엄지(C) 같은 엄지 기형이 동반될 수 있다. Fanconi 빈혈의 요골 계열 기형과 혼동해서는 안 되며, 본문에 요골 골절은 없다. 구형적혈구나 표적적혈구는 이 조합의 대표적인 동반 소견이 아니다.
 
-Fanconi 빈혈은 방사형 골절과 함께 삼지창(세 지절) 엄지를 특징으로 한다. 이는 골격계 기형 중 하나이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Fanconi 빈혈·방사형 골절로 잘못 연결한 해설 교체. 영아기 단독 거대적혈구빈혈과 선천기형은 Diamond-Blackfan 증후군에 부합, 세지절엄지 C 유지.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12424227/
+- https://ashpublications.org/blood/article/136/11/1262/461552/Diamond-Blackfan-anemia
 
 ## 출처
 

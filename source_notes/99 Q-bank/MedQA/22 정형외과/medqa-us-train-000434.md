@@ -17,13 +17,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,12 @@ D. 유착성 관절낭염(Adhesive capsulitis)
 
 ## 해설
 
+5세에서 낙상 후 팔꿈치 종창·운동 제한은 상완골 과상부골절을 우선 의심하게 한다. 전위된 원위상완골 골편이 상완동맥을 손상·포착하거나 꺾이게 하면 원위 요골맥박이 소실될 수 있어 선지 중 B가 가장 적절하다. 실제 X선이 제공되지 않았으므로 골절 형태·전위 정도를 확인했다고 단정하지 않는다. 이는 상완골두의 근위 골절이나 요골동맥 자체 손상을 뜻하지 않으며 모든 골절에서 가장 흔한 합병증이라고 일반화하지 않는다.
 
-상완골 외상성 골절(특히 상완골 상부 골절) 후 요골 맥박이 사라지는 것은 혈관 손상(요골 동맥 손상) 위험이 가장 높다. 따라서 요골 맥박 소실이 가장 흔한 합병증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 전형 소아 팔꿈치 골절의 혈관 합병증 B는 지지되지만 손상 부위를 상완골 상부, 혈관을 요골동맥으로 잘못 적은 설명을 원위상완골·상완동맥으로 교정한다.
+- 공식/학회 근거: https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/patient-examination
 
 ## 출처
 

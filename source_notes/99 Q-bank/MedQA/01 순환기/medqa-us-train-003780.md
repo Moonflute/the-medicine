@@ -20,16 +20,18 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 헤파린 시작 후 와파린으로 브리징
 
 ## 해설
 
+급성 DVT에서 warfarin을 선택한다면 빠르게 작용하는 UFH/LMWH로 시작하고 warfarin과 최소5일 중첩하며 치료범위 INR 달성을 확인하므로 D가 선택지 중 적절하다. Warfarin 단독으로 즉시 시작하지 않는다. 현행에서는 적합한 환자에게 DOAC도 흔히 우선 선택하며 치료기간은 유발인자·출혈위험 등에 맞춘다.
 
-급성 심부정맥혈전증 치료는 초기 저분자량 헤파린(또는 비프린) 투여 후 경구 와파린으로 전환하는 브리징 요법이 표준이다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Heparin→warfarin D는 유효하나 모든 DVT의 유일 표준 아님. VKA 선택 시 초기 중첩·INR 조건 명시.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/
 
 ## 출처
 

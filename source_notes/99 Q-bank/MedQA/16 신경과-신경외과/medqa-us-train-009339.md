@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 일과성 허혈발작
 
 ## 해설
 
+갑자기 발생한 국소 운동결손이 완전히 회복된 임상 경과는 보기 중 TIA(D)에 가장 가깝다. 다만 현행 조직 기반 정의에서는 급성 경색이 없어야 하므로, 증상 지속시간이 짧거나 회복되었다는 사실만으로 뇌경색을 배제하지 못한다. 누락된 CT가 정상이라고 단정할 수 없고 정상 CT도 작은 급성 경색을 배제하지 않는다. 신속한 뇌/혈관 평가와 이차예방이 필요하다.
 
-갑작스러운 일측성 다리 힘 빠짐이 3시간 지속 후 완전 회복된 것은 일과성 허혈발작(TIA)과 일치한다. 뇌 CT는 정상이며 다른 급성 뇌혈관 사건의 증거가 없으므로 TIA가 가장 가능성 높은 진단이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 임상적으로 D가 가장 가능하나 보이지 않는 CT가 정상이라고 한 허위 관찰과 시간만으로 TIA 확정 오류 제거.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/anti-platelet-therapy-in-ischemic-stroke-and-tia
 
 ## 출처
 

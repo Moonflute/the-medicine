@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 상황성 실신
 
 ## 해설
 
+배뇨와 밀접하게 연관되어 반복되는 일시적 의식 소실은 상황성 반사 실신(D)에 부합한다. 반사 실신에서는 교감신경 긴장 저하에 따른 혈관 확장과 미주신경 활성 증가에 따른 서맥이 단독 또는 함께 나타날 수 있다. 심박수 증가가 필수적인 기전은 아니다. 다만 경동맥으로 방사되는 우상흉골연 수축기 잡음은 대동맥판막 협착 가능성을 시사하므로, 배뇨라는 유발 상황만으로 구조적 심장 원인을 배제해서는 안 된다.
 
-상황성 실신은 급격한 혈압 저하와 심박수 증가로 일시적 의식 상실을 일으키며, 배뇨 시 혈압이 급격히 떨어지는 특징이 있다. 환자의 증상이 이를 가장 잘 설명한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 배뇨 관련 상황성 실신 D는 유지한다. 미주신경 반응을 빈맥 증가로 설명한 오류를 바로잡고 대동맥판막 협착을 시사하는 잡음을 무시하지 않는다.
+- 공식/학회 근거: https://academic.oup.com/eurheartj/article/39/21/1883/4939241
 
 ## 출처
 

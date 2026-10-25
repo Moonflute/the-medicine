@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 이 아이의 발달은 정상이다
 
 ## 해설
 
+두 단계를 이해해 수행하고 평행놀이·운동 기능은 연령에 부합하지만, 표현 어휘가 10~25개이고 한 단어만 사용하는 점이 표현언어(B)의 우려다. CDC의 2세 이정표에는 적어도 두 단어를 연결해 말하기가 포함된다. 모든 2세에게 정확히 50~100개 단어·3단어 문장을 필수 진단 역치로 강제하거나 이정표 체크리스트만으로 확진해서는 안 된다.
 
-2세 아동은 50~100개의 단어를 사용하고 2~3단어 문장을 구사해야 하는데, 이 환아는 10~25개의 단어만 사용한다. 이는 표현 언어 발달 지연을 의미한다. 다른 영역은 연령에 맞게 발달했으므로 표현 언어가 결핍된 영역이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 2세에서 반드시 50~100단어/2~3단어 문장을 사용해야 한다는 단일 숫자 기준 대신 CDC의 두 단어 연결 이정표로 표현언어 지연 근거를 명확히 했다.
+- https://www.cdc.gov/act-early/milestones/2-years.html
 
 ## 출처
 

@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. S1Q3T3 양상
 
 
 전기적 교대는 큰 심낭액에 의해 심장이 움직일 때 전압이 교대로 변하는 현상으로, SLE와 심낭삼출에서 나타난다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008269 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: SLE를 시사하는 소견과 심음 감소에서 큰 심낭삼출의 electrical alternans C 기전이 일치함을 확인. 누락X선의 구체 소견은 해설에 만들어 넣지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

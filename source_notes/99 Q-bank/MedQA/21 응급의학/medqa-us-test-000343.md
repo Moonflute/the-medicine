@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,13 +42,17 @@ HIV 감염 병력이 있는 55세 여성이 4일 동안 진행된 호흡곤란, 
 
 A. 항생제를 중단한다
 B. 동맥혈가스분석을 시행한다
-C. 바늘 흉강천자술을 시행한다
+C. 바늘 흉강감압술을 시행한다
 D. 즉시 흉부 X선을 촬영한다
 
 ## 해설
 
+급작스러운 심한 호흡곤란·저혈압과 우측 무호흡음, 좌측 기관 편위·경정맥 팽창은 우측 긴장성기흉을 지지한다. 영상이나 혈액가스 검사로 지연하지 않고 즉각 흉강 감압(C)이 필요하다. Needle thoracostomy는 기흉의 공기 배출을 위한 바늘 감압이며 이후 확실한 흉관 배액 등으로 연결한다. 기저 폐감염은 원인 평가 대상이지만 항생제 중단만으로 해결되지 않는다.
 
-환자는 급성 호흡곤란과 저혈압, 일측 무음이 동반된 긴장성 기흉을 보이며, 즉시 흉강에 바늘을 삽입해 공기를 배출해야 한다. 이는 생명을 구하는 치료이다. 따라서 정답은 바늘 흉강천자술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 긴장성기흉의 needle thoracostomy C를 흉수 천자와 혼동하지 않도록 바늘 흉강감압으로 명확히 한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
 
 ## 출처
 

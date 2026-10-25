@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,11 @@ D. 중추 도파민 수용체 차단
 
 ## 해설
 
+여름 야외 노출 후 41.5°C 고체온과 의식 장애는 고전적 비운동성 열사병에 부합한다. 보기 A는 환경의 열 부하에 비해 열조절·열 방출 반응이 충분하지 못한 상태를 뜻한다. 이것이 반드시 시상하부의 구조적 파괴를 의미하지는 않으며, 모든 열사병 환자에서 땀이 완전히 없어야 하는 것도 아니다. 제시된 혈당과 노출 상황은 케톤산증보다 열질환을 지지한다.
 
-고열(41.5℃), 건조하고 뜨거운 피부, 의식 저하는 고전적 열사병을 나타낸다. 열사병의 병태는 땀분비와 혈관 확장을 담당하는 시상하부의 열조절 기능 손실이다. 따라서 시상하부 반응 부족이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고전적 열사병에서 열 방출 실패라는 A를 유지하되 시상하부 파괴나 땀 분비 완전 소실이 모든 열사병의 필수 조건인 듯한 단정을 정리한다.
 
 ## 출처
 

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,17 @@ D. 광선치료
 
 ## 해설
 
-
-미르타자핀은 수면 위생과 광선치료보다 불면증 치료에 더 직접적인 효과가 있다.
+불면뿐 아니라 흥미 상실·집중 저하·피로·과민 등 우울 증상도 함께 평가해야 한다. 제시된 선택지 중 미르타자핀은 항우울 효과와 진정 작용을 함께 고려할 수 있어 원문 정답이다. 이미 복용 중이라는 정보는 없으므로 임의로 현재 용량이 부족하다고 단정하지 않는다. 단순 만성 불면의 보편적 일차 약으로 해석하거나 CBT-I보다 항상 우월하다고 설명하지 않으며, 주간 졸림·체중 증가 등은 상담한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006903
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 단순 불면증에서 미르타자핀이 수면위생·광선치료보다 우월하다는 근거 없는 해설 교정. 동반 우울 양상과 항우울 치료의 선택 맥락 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.cancer.gov/publications/dictionaries/cancer-drug/def/mirtazapine
+- https://doi.org/10.7326/M15-2175

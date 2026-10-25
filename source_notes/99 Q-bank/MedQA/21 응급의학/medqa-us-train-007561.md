@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 알부테롤 네뷸라이저
 
 ## 해설
 
+급성 호흡곤란에 저혈압, 저산소혈증, 오른쪽 호흡음 감소와 왼쪽 기관 편위가 동반되어 긴장성 기흉을 강하게 의심한다. 경정맥 팽창이 없더라도 이를 배제할 수 없다. 이런 불안정 상태에서는 X선을 기다리지 않고 응급 감압(B)을 시행한다. 바늘 감압은 압력을 해소하기 위한 임시 구조 처치로 실패할 수 있으며, 이후 확실한 흉막강 배액과 지속 평가가 필요하다.
 
-환자는 급성 호흡곤란, 저혈압, 한쪽 폐의 호흡음 감소와 흉부 편위가 있어 긴장성(폐포 파열) 기흉이 의심된다. 응급 바늘 감압이 즉시 폐를 재팽창시켜 혈역학적 악화를 방지한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저혈압·저산소혈증·일측 호흡음 감소·반대쪽 기관 편위가 있어 즉시 감압 B를 유지한다. 바늘 감압의 한계와 후속 배액을 명시한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

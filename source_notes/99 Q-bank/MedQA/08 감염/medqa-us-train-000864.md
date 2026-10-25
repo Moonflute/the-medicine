@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 매일 경구 트리메토프림-설파메톡사졸(trimethoprim-sulfamethoxa
 ## 해설
 
 
-반복성 방광염을 예방하려면 지속적인 항균 효과가 있는 트리메토프림-설파메톡사졸 복용이 가장 효과적이다. 이는 성관계 후 단회 항생제보다 재발을 감소시킨다.
+연 3회 이상 재발한 방광염에서 급성 감염을 치료하고 소변배양으로 재발을 확인한 뒤, 위험과 이득을 상의하여 저용량 지속 항생제 예방요법을 고려할 수 있다. 보기 중 D가 이에 해당한다. 성교 연관 재발에서는 적절한 약제를 이용한 성교 후 단회 예방도 효과가 있어 지속요법이 항상 더 우월한 것은 아니다. 약제는 배양 감수성·알레르기·내성·부작용에 따라 정하며 C의 amoxicillin-clavulanate는 표준 성교 후 예방 선택이 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000864 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 지속 예방요법이 성교 후 예방보다 일률적으로 우월하다는 오류를 제거; 배양·내성·부작용을 고려한 TMP-SMX 선택으로 한정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.auanet.org/documents/Guidelines/PDF/2025%20Guidelines/rUTI%20Update/rUTI%202025%20Unabridged%20Final.pdf
 
 ## 출처
 

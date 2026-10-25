@@ -20,15 +20,17 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 하추체정맥동 채혈
 
 ## 해설
 
+정답은 A이다. 고코르티솔혈증과 억제된 ACTH는 ACTH 비의존성, 즉 부신 원인을 시사하므로 제시된 선택지에서는 부신 MRI가 적합하다. 실제 임상에서 부신 국소화 영상은 CT 또는 MRI를 상황에 맞추어 선택하며 MRI만이 필수인 것은 아니다. 고용량 dexamethasone 비억제만으로 부신 원인을 단정하는 것이 아니라 낮은 ACTH를 함께 해석한다. 하추체정맥동 채혈은 ACTH 의존성 원인의 감별에 사용한다.
 
-ACTH가 낮고 코르티솔이 고인 상황에서 고용량 덱사메타손 억제에 반응하지 않으면 부신 종양에 의한 ACTH 비의존성 쿠싱이 의심된다. 부신 MRI가 진단에 필수이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 낮은 ACTH가 부신성 고코르티솔혈증의 국소화 방향을 결정함을 설명; MRI만 필수라는 표현 제거.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

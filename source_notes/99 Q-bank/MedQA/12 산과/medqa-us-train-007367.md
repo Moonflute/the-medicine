@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 양수검사
 
 ## 해설
 
+높은 NT·낮은 PAPP-A·높은 hCG는 21번 삼염색체 위험을 높이는 선별 소견이다. 현재 13주에 진단 검사를 원한다면 CVS(A)를 시행할 수 있다. 양수검사도 진단 검사지만 보통 15주 이후이며, cfDNA·쿼드검사는 확진 검사가 아니다.
 
-목덜미 투명대 증가와 혈청 PAPP‑A 감소, hCG 상승은 다운증후군을 시사한다. 확진을 위해 융모막융모검사가 가장 정확하다. 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: CVS가 모든 확진법보다 정확하다는 과장 대신 13주 시점 적합성을 설명.
+- https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2026/01/screening-for-fetal-chromosomal-abnormalities
 
 ## 출처
 

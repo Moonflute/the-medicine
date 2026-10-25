@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 직장 체온 측정
 ## 해설
 
 
-프로필티오우라실은 무과립구증을 일으켜 백혈구 감소와 구강 궤양을 유발한다. 임신 중에도 약물 중단이 가장 안전한 조치이며, 증상 개선을 기대할 수 있다. 따라서 적절한 처치는 프로필티오우라실 중단이다.
+정답 B. 백혈구2500/mm³의 호중구5%는 ANC 약125/mm³로 심한 무과립구증이며 발열·구강궤양이 동반된다. PTU를 즉시 중단하고 발열성 호중구감소에 대한 긴급 입원 평가·경험적 항균치료 등 전문관리를 시행해야 한다. 임신 중이라도 단순 약 중단 후 기다리지 않으며 다른 thionamide로 임의 교체하지 않는다. 직장 체온 측정은 점막손상 위험 때문에 피한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000890 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: ANC 약125의 발열성 무과립구증에서 PTU 중단 B는 필수이나 중단 후 단순 호전 대기 아닌 긴급 감염치료/전문관리 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a032648a-a6e4-4356-a483-8eee03779030
 
 ## 출처
 

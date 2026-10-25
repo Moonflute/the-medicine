@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 클라드리빈
 ## 해설
 
 
-트라트레이트 저항성 산성인산분해효소 활성이 있는 말라리세포성 백혈병은 클라드리빈에 민감한 질환이다. 클라드리빈은 퓨린 유사체로 세포주기 비의존성 DNA 합성을 억제해 골수 억제를 회복시킨다. 따라서 초기 치료로 클라드리빈이 가장 적절하다.
+TRAP 양성, 범혈구감소와 비장비대는 털세포백혈병을 시사한다. 증상성 빈혈·혈소판감소가 있어 선택지 중 cladribine(D)이 적절하다. Cladribine은 퓨린 유사체로 백혈병 세포를 억제하지만 초기 골수억제와 감염 위험도 있으므로 혈구 수와 감염을 감시한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008485 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: TRAP 양성 범혈구감소·비장비대의 털세포백혈병과 cladribine D는 일치한다. 질환명 오역과 약물이 골수억제를 즉시 회복시킨다는 잘못된 설명을 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/leukemia/hp/hairy-cell-treatment-pdq
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 항갑상선 과산화효소 항체
 ## 해설
 
 
-환자는 경미한 갑상선 기능 저하(TSH 5.3)와 건조한 피부, 탈모 등 갑상선염 증상이 있다. 하시모토 갑상선염에서는 항갑상선 과산화효소(TPO) 항체가 가장 흔히 양성이다. 따라서 항갑상선 과산화효소 항체가 가장 가능성 높은 비정상 검사 결과이다.
+정답 D. 피로·체중증가·건조한 피부·거친 모발과 TSH의 경도 상승은 자가면역 갑상선염 가능성을 고려하게 하며 anti-TPO가 양성일 수 있다. Free T4 없이 명백/불현성 기능저하를 확정하지 않으며 본문에는 탈모가 명시되지 않았다. 갑상선 평가만으로 우울증과 자살사고를 설명하거나 그 안전 평가를 지연해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009719 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경도 TSH상승만으로 명백저하 확진하지 않고 TPO D 연관성 설명; 본문 탈모 추가 제거, 자살사고는 별도 긴급 평가 필요.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

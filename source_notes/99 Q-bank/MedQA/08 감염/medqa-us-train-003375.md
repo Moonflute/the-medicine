@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -37,7 +39,7 @@ related_drug_slugs:
 
 ## 문제
 
-25세 남성이 3일간 지속된 설사, 복부팽만, 오심, 구토로 내원했다. 변은 부드럽고 거품이 있으며 기름져 보였고 혈변은 없었다. 지난주 등산 중 개울의 생물을 마셨고, 3개월 전에는 2주간 브라질을 여행하며 전통 음식을 많이 먹었다. 당시에도 3일간 물설사와 복부 경련이 있었다. 환자는 탈수되어 있고 대변 현미경검사에서 낭종이 관찰되었다. 다음 중 가장 적절한 치료는?
+25세 남성이 3일간 지속된 설사, 복부팽만, 오심, 구토로 내원했다. 변은 부드럽고 거품이 있으며 기름져 보였고 혈변은 없었다. 지난주 등산 중 개울의 생수를 마셨고, 3개월 전에는 2주간 브라질을 여행하며 전통 음식을 많이 먹었다. 당시에도 3일간 물설사와 복부 경련이 있었다. 환자는 탈수되어 있고 대변 현미경검사에서 낭종이 관찰되었다. 다음 중 가장 적절한 치료는?
 
 ## 선택지
 
@@ -49,7 +51,14 @@ D. 지지요법만 시행
 ## 해설
 
 
-설사와 지방변, 물에 서식하는 기생충(낭포) 노출은 Giardia lamblia 감염을 시사한다. 치료에 1차 선택 약물은 메트로니다졸이다. 따라서 가장 적절한 치료는 메트로니다졸이다.
+비처리 개울물 노출 뒤 복부팽만·기름지고 악취 나는 설사와 대변의 원충 소견은 giardiasis에 부합한다. 선택지 중 metronidazole B는 유효한 치료다. CDC는 tinidazole·nitazoxanide 등 다른 유효 약제도 제시하므로 metronidazole만이 모든 환자의 유일한 일차약이라는 의미는 아니다. 탈수의 교정도 함께 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003375 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 비처리 개울물 후 지방성 설사·원충의 Giardia에서 metronidazole B 유지; 유일한 현행 일차약이라는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/giardia/hcp/clinical-care/index.html
 
 ## 출처
 

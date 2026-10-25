@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,12 @@ D. 지지요법, 티아민, 포도당
 
 ## 해설
 
+의식저하와 느린 호흡은 opioid를 포함한 중독성 환기저하를 우려하게 한다. 기도·환기를 즉시 지지하면서 naloxone(C)을 투여해 호흡 회복을 평가할 수 있다. 동공 무반응 자체가 opioid에 특이한 것은 아니고 혼합 중독일 수도 있다. 만성 benzodiazepine 사용이나 발작 유발 동시섭취 가능성을 모르는 상태에서 flumazenil을 일률적으로 투여하지 않는다.
 
-호흡 억제와 동공 무반응은 아편제 과다복용을 시사한다. 아편제 과다복용 시 가장 효과적인 해독제는 날록손이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 동공 무반응만으로 opioid를 확진하는 오류 제거. 혼합 중독의 호흡억제에서 경험적 naloxone C 근거 보완.
+- 공식/학회 근거: https://www.cdc.gov/stop-overdose/response/
 
 ## 출처
 

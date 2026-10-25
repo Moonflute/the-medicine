@@ -19,16 +19,18 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 폐경색
 
 ## 해설
 
+타진 둔탁음, 촉각진탕 증가, 기관지 호흡음과 속삭임 음성증강은 공기 대신 삼출물 등으로 채워진 폐실질 경화(A)에 부합한다. 발열과 급성 기침은 폐렴을 시사한다. Consolidation은 폐섬유증과 같은 말이 아니며, 흉막액은 보통 촉각진탕을 감소시킨다.
 
-폐실질 경화(폐섬유증)는 흉막에 대한 통증, 타진 탁음, 촉각 진탕음 증가, 그리고 기관지 호흡음과 속삭임음 증강을 일으킨다. 이는 환자의 청진 소견과 일치한다. 다른 선택지는 해당 청진 소견을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 폐실질 경화를 폐섬유증과 동의어로 쓴 오역을 폐렴성 consolidation으로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

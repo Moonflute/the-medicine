@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL-ydtOywqOyEsSDquLDtnYkgKFNlY29uZGFyeSBTcG9udGFuZW91cyBQbmV1bW90aG9yYXgpLm1k"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "정의만 반복하지 않고 기저 폐질환과 낮은 예비력의 의미를 연결."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-이차성 기흉의 정의는?
+이차성 자연기흉을 원발성과 구분할 때 중요한 점은?
 
 ## 선택지
 
-A. COPD·낭성 섬유증·간질성 폐 질환 등 기저 폐 질환이 있는 환자에게 발생하는 기흉
-B. 건강한 젊은 남성에게서 발생하는 일차성 기흉
-C. 외상에 의해 흉강으로 공기가 유입되는 외상성 기흉
-D. 의료 시술 중 발생하는 의료인위성 기흉
+A. 기저 폐질환이 있고 같은 정도의 기흉에서도 호흡 영향을 더 크게 받을 수 있다
+B. 모든 이차성 기흉은 외상으로만 생긴다
+C. 기흉 크기만 같으면 위험도도 항상 같다
+D. COPD가 있으면 자연기흉이 생길 수 없다
 
 ## 해설
 
-이차성 기흉은 기저 폐 질환이 존재하는 환자에서 발생하는 것이 정의이다.
+COPD·간질성 폐질환 등에서 생기는 자연기흉이다. 기저 기능과 생리적 불안정성을 고려하며 크기만으로 치료를 결정하지 않는다.
 
 ## 오답 포인트
 
-- **B. 건강한 젊은 남성에게서 발생하는 일차성 기흉:** 이는 일차성(원발성) 기흉에 해당한다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 이차성 기흉 (Secondary Spontaneous Pneumothorax)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/이차성 기흉 (Secondary Spontaneous Pneumothorax).md`
-- 학습 목표: 원문 핵심: - **정의**: COPD, 낭성 섬유증, 간질성 폐 질환 등 기저 폐 질환이 있는 환자에게서 발생하는 기흉. - **원인**: COPD가 가장 흔하며, 그 외 낭성 섬유증, 간질성 폐 질환, 폐암, 폐결핵, 폐농양 등이 원인이 될 수 있다. - **기전**: 기저 폐 질환으로 인한 폐 구조의 변형, 폐포벽의 얇아짐 및 괴사로 인해 폐포-흉막 경계면이 손상되어 발생한다. 기침이나 발살바 조작 등으로 폐포 내 압력이 상승할 때 폐포가 파열되면서 공기가 흉막강으로 유출된다.
+- 학습 목표: 이차성 자연기흉의 기저 폐질환·호흡 예비력
+
+## 검수 근거
+
+- https://thorax.bmj.com/content/early/2023/08/08/thorax-2023-220304

@@ -21,13 +21,15 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 난원공 개존
 
 ## 해설
 
+정맥혈전 위험인자와 일측 하퇴부종에 급성 국소 뇌신경결손이 동반되어 역설적 색전을 의심한다. PFO D를 통한 일시적 우좌단락으로 정맥 혈전이 동맥순환에 들어갈 수 있다. 환자에게 심부전이 제시된 것은 아니며 실제로 뇌영상·정맥/심장 평가로 확인한다.
 
-심부전 환자에서 장거리 여행 후 경구피임약 복용은 혈전 위험을 높이며, 오른쪽 하퇴의 부종·통증은 심부정맥 혈전증을 시사한다. 난원공 개존은 혈전이 뇌로 이동해 발생하는 패러독설 embolism의 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 본문에 없는 심부전 가정 제거. DVT와 뇌색전의 우좌단락 PFO D를 연결.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

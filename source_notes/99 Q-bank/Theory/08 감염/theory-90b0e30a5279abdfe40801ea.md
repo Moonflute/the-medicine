@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "C. tetani와 C. perfringens의 독소성 질환을 구별하는 기본 연결은 의미 있어 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmltjnak95rgdlmlnqu0fvvkdwmflxntfjewt1yldrfgrpc2vhc2utmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. Staphylococcus aureus
 
 ## 오답 포인트
 
-- **B. Clostridium perfringens:** Clostridium perfringens는 가스괴저를 일으키며 파상풍과는 관련이 없습니다.
+- **Clostridium perfringens:** Clostridium perfringens는 가스괴저를 일으키며 파상풍과는 관련이 없습니다.
 
 ## 출처
 
 - 내부 학습 노트: 파상풍 (Tetanus)
 - 원본 경로: `source_notes/02 Diseases/08 감염/파상풍 (Tetanus).md`
 - 학습 목표: 원문 핵심: - **정의**: 클로스트리디움 테타니 (Clostridium tetani) 균이 생성하는 신경독소(tetanospasmin)에 의해 발생하는 급성 신경근육 질환 - **원인**: 토양, 동물의 분변 등에 존재하는 C. tetani 포자가 상처(자상, 화상, 수술창 등)를 통해 침투하여 발생한다. - **기전**: 독소가 신경 말단에 비가역적으로 결합하여 중추신경계로 이동한 뒤, 억제성 신경전달물질의 방출을 차단하여 전신적인 근육 강직과 경련을 유발한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: C. tetani와 C. perfringens의 독소성 질환을 구별하는 기본 연결은 의미 있어 유지.

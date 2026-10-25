@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 장중첩증
 
 ## 해설
 
+서로 비슷한 심한 구토 삽화와 삽화 사이 완전한 회복, 편두통 가족력은 주기성 구토 증후군(B)에 부합한다. 이는 장–뇌 상호작용 및 편두통 관련 양상과 연관되며 단순히 심리성 구토라고 단정하지 않는다. 경고 증상이나 비전형 경과가 있으면 대사·구조·신경학적 원인을 추가 평가한다.
 
-구토가 매번 이른 아침에 비담즙성으로 8~12회 발생하고 에피소드 사이에 정상 활동이 회복되는 것이 특징이다. 이러한 주기적, 구역성 구토는 위장관 구조적 이상이 없으며 신경성 원인인 주기성 구토 증후군과 일치한다. 따라서 가장 가능성 높은 진단은 주기성 구토 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 주기성 구토를 신경성/심리성으로 단정한 설명을 임상 패턴·감별 중심으로 교정.
+
 
 ## 출처
 

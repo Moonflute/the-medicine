@@ -12,41 +12,51 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "췌장암 문서에 낭성 종양 질문이 붙은 오류를 바로잡고 CT의 목적을 명확히 함."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-췌장 낭성 종양 진단에 가장 핵심이 되는 영상 검사는?
+췌장암에서 췌장 프로토콜 조영 CT의 주요 역할은?
 
 ## 선택지
 
-A. 복부 CT(췌장 프로토콜)
-B. MRI/MRCP
-C. 내시경 초음파(EUS)
-D. 복부 X‑ray
+A. 원발 병변·혈관 침범·전이를 평가해 병기와 절제 가능성을 판단한다
+B. 혈청 CA 19-9를 대신 측정한다
+C. 모든 환자에서 조직학적 진단과 완전히 동일한 정보를 준다
+D. 췌장암의 모든 치료를 영상 촬영 자체로 끝낸다
 
 ## 해설
 
-복부 CT는 낭종의 크기·위치·벽 두께·괴사 여부를 평가해 진단 및 병기 설정에 가장 중요한 검사이다.
+췌장 프로토콜 CT는 종양과 주변 혈관·전이 관계를 평가한다. MRI·EUS 등을 목적에 맞게 보완하며 조직 확인의 필요성은 계획된 치료와 상황에 따라 판단한다.
 
 ## 오답 포인트
 
-- **B. MRI/MRCP:** MRI/MRCP는 췌관 연결성 확인에 유용하지만 CT보다 1차 선택은 아니다.
-- **C. 내시경 초음파(EUS):** EUS는 낭액 분석·배액에 주로 사용된다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 췌장암 (Pancreatic Cancer)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/췌장암 (Pancreatic Cancer).md`
-- 학습 목표: 원문 핵심: - **주요 증상**: 복통, 체중 감소, 황달. - **복통**: 지속적이고 상복부에서 등 쪽으로 방사되는 통증이 흔함. - **황달**: 췌장 머리 암에서 80~90% 빈도로 발생하며, 담관 폐쇄로 인한 가려움증 동반 가능. - **기타 증상 및 징후**: - 췌장 외분비 기능 부전: 소화 흡수 장애, 지방변, 복부 팽만. - 당뇨병: 새로 발병하거나 악화된 당뇨병이 흔함. - 췌장 체부/미부 암: 비장 정맥 폐쇄로 인한 비장 비대, 위/식도 정맥류 및 위장관 출혈 가능. - 쿨부아지에 징후(Courvoisier's sign):…
+- 학습 목표: 췌장암의 병기·절제 가능성 영상 평가
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 췌장암 문서에 낭성 종양 질문이 붙은 오류를 바로잡고 CT의 목적을 명확히 함.
+- 검수 범위: curriculum-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

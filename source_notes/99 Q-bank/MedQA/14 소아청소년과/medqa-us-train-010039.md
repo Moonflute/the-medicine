@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -37,14 +39,19 @@ explanation_prompt_version: explanation-ko-v1
 ## 선택지
 
 A. 아동보호서비스에 신고
-B. 수술 치료安排
+B. 수술 치료 준비
 C. 제1형 콜라겐 결함 선별
 D. 추가 평가를 위해 입원
 
 ## 해설
 
+설명되지 않은 치유 중 갈비뼈 골절과 새 상완골 골절, 늦은 진료는 학대 의심 평가가 필요하다. 아동보호서비스 신고(A), 안전 확보 및 골절 진료를 병행한다. 나선형 골절 하나만으로 학대를 확진하는 것은 아니다.
 
-다발성 골절과 비정상적인 부상 양상이 어린이 학대를 시사한다. 의료진은 의무적으로 아동보호서비스에 신고해야 한다. 따라서 가장 적절한 조치는 아동보호서비스에 신고하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 선지 B의 중국어 잔재만 원문 뜻으로 수정. 서로 다른 시기 골절의 학대 의심·신고 A 유지.
+- https://publications.aap.org/pediatrics/article-lookup/doi/10.1542/peds.2015-0356
 
 ## 출처
 

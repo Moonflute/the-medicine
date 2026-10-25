@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 객담 현미경검사에서 항산균 관찰
 ## 해설
 
 
-후종격동에 N‑myc 과발현을 가진 신경모세포종이 흔히 발생하며, 연령과 증상과 일치한다. 따라서 N‑myc 과발현이 가장 가능성 높은 소견이다.
+소아의 후종격동 종괴와 안와 전이 의심 소견은 교감신경계 유래 신경모세포종을 시사한다. 선택지 A의 N-myc(MYCN) 과발현/증폭은 이 종양의 중요한 분자 연관이며 증폭은 불량 예후와 관련된다. 모든 신경모세포종이 MYCN 증폭을 보이는 것은 아니고 비증폭만으로 진단을 배제하지 않는다. 림프모구·B세포 림프종이나 결핵균은 이 임상 조합 및 분자적 연관과 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009804 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 신경모세포종과 MYCN의 연관 A 유지하되 모든 종양에서 MYCN 증폭이 필수라는 일반화 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

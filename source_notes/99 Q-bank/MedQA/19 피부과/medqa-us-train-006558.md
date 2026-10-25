@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 수두-대상포진 바이러스 재활성화
 
 ## 해설
 
+교정 와이어 삽입 뒤 발생한 가려운 구강 부종·홍반·소수포는 치과 재료(예: nickel)에 대한 알레르기 접촉구내염을 시사해 C가 가장 적절하다. 원인 재료·접촉력과 필요 시 첩포검사로 확인한다. Ibuprofen 복용이나 vegan 식단 자체가 nickel 감작을 유발했다고 단정할 근거는 없다.
 
-와이어 삽입 후 이부프로펜 복용과 비건 식단은 금속(니켈) 알레르기를 유발할 수 있다. 구강 점막에 홍반·부종·수포·궤양이 나타나는 것은 알레르기성 접촉구내염의 전형적인 모습이다. 따라서 금속 알레르기에 의한 알레르기성 접촉피부염이 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 교정 와이어 접촉 뒤 구내염 C는 맞지만 vegan 식단·ibuprofen이 금속 알레르기를 유발했다는 잘못된 인과를 제거한다.
 
 ## 출처
 

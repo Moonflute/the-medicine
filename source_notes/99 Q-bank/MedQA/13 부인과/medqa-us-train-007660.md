@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. Candida albicans
 
 ## 해설
 
+가려움 없이 악취 나는 회색 분비물과 높은 pH는 세균성 질증을 시사하며 보기 중 Gardnerella vaginalis(C)가 관련된다. Gardnerella는 바이러스가 아니라 세균이며, 질증은 여러 세균이 관련된 질 미생물 불균형이다. 원문의 현미경 사진은 제공되지 않았으므로 clue cell을 실제 관찰했다고 단정하지 않았다. 임상 묘사로 보기 내 판단은 가능하지만 모든 Amsel 진단 기준이 확인된 것은 아니다.
 
-그레이드드 질 분비물(pH 5.0, 회색, 악취)과 현미경에서 clue cells가 보이는 경우는 가드너렐라 바이오러스에 의한 세균성 질염이 가장 흔한 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Gardnerella를 바이러스라고 한 오류 및 없는 현미경의 clue cell을 관찰했다고 쓴 해설을 교정했다.
+- https://www.cdc.gov/std/treatment-guidelines/BV.htm
 
 ## 출처
 

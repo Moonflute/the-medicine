@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "좌심방-좌심실 유입 제한이라는 MS의 기초 혈역학 개념은 의미 있는 쉬운 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc15s3vldxfxtzjna091bmltrhrtskhzc0trz0tfmxbksepoykncvgrhvnvim05wy3lrdwjxuxxkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,11 +47,16 @@ D. 심방 중격에 구멍이 생긴 상태
 
 ## 오답 포인트
 
-- **B. 우심실과 폐동맥 사이 판막이 파열된 상태:** 우심실‑폐동맥 판막 파열은 폐동맥판막 질환이다.
-- **C. 대동맥판막이 과도하게 개방된 상태:** 대동맥판막 개방 과다와는 무관하다.
+- **우심실과 폐동맥 사이 판막이 파열된 상태:** 우심실‑폐동맥 판막 파열은 폐동맥판막 질환이다.
+- **대동맥판막이 과도하게 개방된 상태:** 대동맥판막 개방 과다와는 무관하다.
 
 ## 출처
 
 - 내부 학습 노트: 승모판막 협착 (Mitral Stenosis)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/승모판막 협착 (Mitral Stenosis).md`
 - 학습 목표: 원문 핵심: - **정의**: 좌심방과 좌심실 사이의 승모판막이 좁아져 좌심방에서 좌심실로의 혈액 흐름이 방해받는 판막 질환 - **원인**: 가장 흔한 원인: 류마티스열(rheumatic fever) 판막 교련부 유착(commissural fusion), 판막엽 비후, 석회화가 주요 병태 고령에서는 승모판륜 석회화(mitral annular calcification)도 원인 가능 - **기전**: 승모판 협착으로 좌심방 압력이 상승 좌심방 압력 상승이 폐정맥 및 폐모세혈관 압력 상승으로 이어져 호흡곤란, 객혈 유발 좌심방 확장으로 심방세동 위…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 좌심방-좌심실 유입 제한이라는 MS의 기초 혈역학 개념은 의미 있는 쉬운 복습으로 유지한다.

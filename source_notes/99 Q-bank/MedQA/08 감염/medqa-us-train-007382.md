@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,15 @@ D. 클라미디아와 임균 PCR
 ## 해설
 
 
-2차 매독(콘딜로마 라타)은 광범위한 피부 병변, 양성 RPR·FTA‑ABS, 그리고 동시 매독 검사 필요성을 나타낸다. 따라서 클라미디아·임균 PCR 검사가 다음 단계이다. 정답은 D.
+피부·점막/condylomata lata와 혈청검사는 이차매독에 부합한다. 치료와 함께 선택지 D의 gonorrhea/chlamydia NAAT 등 동반 STI를 평가하고 HIV 검사도 시행한다. 신경/안과/이과 증상 없는 모든 이차매독에 LP를 일률 시행하지 않는다. 검사는 노출 부위·위험에 따라 정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007382 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 이미 매독이 확인된 환자에서 동시 매독검사가 필요하다는 순환 설명을 다른 STI 동반 검사로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/std/treatment-guidelines/syphilis.htm
+- https://www.cdc.gov/std/treatment-guidelines/hiv.htm
 
 ## 출처
 

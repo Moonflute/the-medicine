@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 리튬
 
 ## 해설
 
+CT의 폐동맥 충만결손은 폐색전증을 나타낸다. 클로르프로마진(B) 같은 페노티아진계 항정신병약은 정맥혈전색전증과의 연관성이 보고되어 원정답의 의도에 부합한다. 다만 위험은 한 약물에만 고유하지 않고 활동 저하·환자 요인 등의 교란도 있어, 본문만으로 특정 약물의 인과를 확정할 수 없다. 저역가(low potency)는 저용량이라는 뜻이 아니며 5-HT2/알파1 차단으로 혈관수축이 입증됐다고 단정하지 않는다.
 
-우측 폐동맥 폐색을 동반한 폐색전증은 항정신병제 특히 저용량 클로르프로마진에서 혈소판 응집과 혈관 수축을 유도해 혈전 위험을 증가시킨다. 이 약물은 5‑HT2 차단과 알파‑1 차단으로 혈류역학 변화를 일으켜 혈전 형성을 촉진한다. 따라서 클로르프로마진이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 저역가와 저용량을 혼동한 표현 및 입증되지 않은 혈관수축/수용체 기전을 확정한 설명을 제거했다.
+- https://www.gov.uk/drug-safety-update/antipsychotics-risk-of-venous-thromboembolic-events
 
 ## 출처
 

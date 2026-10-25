@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 기관지폐포암
 ## 해설
 
 
-만성 발열, 체중 감소, 전신 림프절 비대, 폐 전반에 미만성 흉부음, 눈의 노란색 병변은 전신 결핵(폐·림프절·안구 결핵)과 일치한다. 따라서 결핵이 가장 가능성 높은 진단이다.
+교정시설 체류력, 장기 발열·야간발한·체중감소와 간비대·전신 림프절병증, 안저의 작은 황색 병변은 파종성 결핵과 맥락막 결핵결절을 시사하여 C가 가장 부합한다. 중증·파종 결핵에서는 TST가 음성일 수 있으므로 음성 결과가 배제 근거가 되지 않는다. 흉부영상은 실제 제공되지 않아 그 영상에 속립성 음영이 있다고 단정하지 않았으며, 진단은 미생물 검사를 포함해 확인해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001428 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 누락 흉부영상 소견은 꾸미지 않고 문장으로 제공된 맥락·맥락막 병변과 음성TST 한계를 설명.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 파종성 혈관내 응고
 ## 해설
 
 
-수술 후 혈소판 감소와 혈전 생성이 동시에 나타나는 경우, 헤파린 유도 혈소판 감소증(HIT)으로 인한 동맥 혈전이 가장 가능성 높다. 따라서 HIT가 원인이다.
+수술 후 약 6일째 발생한 혈소판감소와 새로운 동맥혈전은 수술 전후 heparin이 투여되었다면 HIT에 의한 약물 부작용(B)을 강하게 의심하게 한다. HIT 항체는 PF4-heparin 복합체와 관련되어 혈소판 활성화와 혈전을 유발한다. 다만 원문에 실제 heparin 투여 이력이 명시되어 있지 않으므로 노출·혈소판 감소 추이·다른 원인을 확인하지 않고 확진으로 단정할 수 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008905 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수술 후 6일째 혈소판감소와 동맥혈전은 HIT B를 의심하게 하나 본문에 heparin 노출이 명시되지 않았으므로 확인된 사실로 만들지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

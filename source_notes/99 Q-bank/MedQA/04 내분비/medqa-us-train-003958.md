@@ -22,17 +22,19 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,14 @@ D. 프레드니손 사용 중단에 따른 금단
 
 ## 해설
 
+과색소침착·저Na·고K·불응성저혈압은 일차성 부신부전 C의 위기에 부합한다. 즉시 stress-dose hydrocortisone과 적절한 수액 등 응급치료를 한다. 고용량 hydrocortisone에는 mineralocorticoid 작용이 있어 이 시기에 fludrocortisone이 반드시 추가되는 것은 아니며 감량/유지단계에서 필요성을 평가한다.
 
-저나트륨, 고칼륨, 저혈압이 동반된 급성 부신 위기는 부신피질 호르몬 결핍으로 발생한다. 일차성 부신기능저하증이 가장 흔한 원인이며, 급성 위기에서는 즉시 코르티코스테로이드와 미네랄코르티코이드(플루드로코르티손) 보충이 필요하다. 따라서 가장 가능성 높은 진단은 일차성 부신기능저하증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: PAI C는 맞지만 급성위기에서 fludrocortisone 즉시필수라는 설명 수정.
+- https://www.endocrine.org/-/media/endocrine/files/cpg/primary-adrenal-insufficiency-cpg-resource-page-13feb18.pdf
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 조기 발현 B군 연쇄상구균 패혈증
 
 ## 해설
 
+출생 직후 자반성 발진과 PDA를 시사하는 기계음 잡음의 조합은 선천성 풍진(C)을 지지한다. 실제 사진이 없어 발진의 세부 모양은 판단하지 않는다. 다른 선천감염도 발진을 일으킬 수 있고 매독이 반드시 수주 뒤에만 나타나는 것은 아니다. 임상적으로는 원인 감염 검사가 필요하다.
 
-생후 1일에 점상 출혈성 발진과 심장 잡음이 동반된 경우, 풍진 감염이 전형적이며, 풍진은 출생 직후 발진과 함께 혈관염을 일으킨다. 매독은 보통 2~3주 후에 나타나며, GBS는 피부 발진을 일으키지 않는다. 따라서 풍진이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 풍진 판단을 임상 PDA·자반 단서에 한정하고 매독·GBS의 발진 시기를 배제한 오류를 삭제.
+
 
 ## 출처
 

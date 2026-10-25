@@ -21,16 +21,18 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. PAS 염색 소장 생검
 
 ## 해설
 
+열대 지역 체류 후 발생한 지방변과 거대적혈구성 빈혈, 정상 IgA, 음성 tTG 및 정상 엘라스타제는 소장 흡수장애와 열대 스프루를 의심하게 한다. 제시된 선택지 중 C의 소장 내시경과 조직 평가가 적합하다. 실제 알부민 수치는 제시되지 않았으며, 휘플병을 확인하는 PAS 염색만으로 모든 흡수장애를 진단하지는 않는다.
 
-지속적 설사와 지방변, 저알부민, 비타민 결핍은 열대성 스프루(소장흡수장애)를 시사한다. 진단을 위해 소장내시경으로 병변을 직접 확인하고 조직검사를 시행한다. 따라서 소장내시경이 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 열대흡수장애의소장내시경 C는유지하되미측정저albumin을만든설명교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 암시야 현미경검사
 ## 해설
 
 
-무통성 단일 궤양성 병변과 무통성 서혜부 림프절 비대는 일차 매독을 시사한다. 매독 감염을 확인하는 가장 민감한 검사인 암시야 현미경 검사가 진단에 적합하다. 따라서 암시야 현미경 검사가 가장 적절하다.
+4일 된 무통성 경성 음경궤양은 초기 매독에 부합한다. 숙련 검사자가 신선한 병변 삼출물에서 암시야 현미경 D로 운동성 병원체를 직접 확인하면 조기 진단에 유용하며 이 시기에 혈청검사가 아직 음성일 수 있다. 다만 검체·시간·숙련도와 병기에 따라 민감도가 달라 모든 매독 검사의 절대 최민감 검사라고 할 수 없다. Nontreponemal/treponemal 혈청검사를 병행하고 추적한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005156 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 초기 매독의 암시야 D는 유효하나 모든 단계에서 가장 민감하다는 과장 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7301a1.htm
 
 ## 출처
 

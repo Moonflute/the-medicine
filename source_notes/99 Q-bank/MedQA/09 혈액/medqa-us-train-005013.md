@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. t(15;17) 전좌
 ## 해설
 
 
-급성 전골수구성 백혈병에서 t(15;17) 전좌는 급성 전골수구성 백혈병(APL)으로, 치료 반응이 좋고 예후가 가장 우수한 유전적 표지이다. 따라서 t(15;17) 전좌가 좋은 예후를 시사한다.
+나열된 소견 중 t(15;17), PML::RARA는 APL을 지지하며 적절한 분화/표적치료에 좋은 반응을 보여 상대적으로 양호한 예후 인자 D이다. 이는 초기 DIC·출혈 위험이 낮다는 뜻은 아니며 의심 APL은 응급 평가·치료가 필요하다. 기존 MDS·세포독성 치료나 극심한 백혈구증가는 일반적으로 유리한 예후 인자가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005013 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PML::RARA t(15;17) D의 표적치료 반응 및 상대적 양호 예후 유지; 초기 치명적 응고병증 위험과 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

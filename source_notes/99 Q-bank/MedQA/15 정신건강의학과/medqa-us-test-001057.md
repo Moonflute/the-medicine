@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,10 +48,16 @@ D. 전혈구검사
 
 ## 해설
 
-
-클로자핀은 무과립구증(호중구 감소증) 위험이 있어 정기적인 전혈구검사가 필요하다. 혈액학적 부작용을 조기에 발견하기 위해 전혈구검사를 시행한다. 따라서 정답은 전혈구검사이다.
+클로자핀은 중증 호중구감소증 위험이 있어 절대호중구수(ANC)를 포함한 혈액검사 모니터링이 필요하다. 투여 2주째인 이 환자에서 제시된 검사 중 전혈구검사(백혈구 감별계산/ANC 포함)가 적절하다. 미국 FDA의 클로자핀 REMS 프로그램은 2025년 폐지됐지만, 이는 ANC 임상 모니터링 권고의 폐지를 뜻하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001057
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 전혈구검사 정답 유지. ANC 포함과 2025 FDA REMS 폐지 후에도 임상 모니터링 권고가 유지됨을 구분.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.fda.gov/drugs/drug-safety-and-availability/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine

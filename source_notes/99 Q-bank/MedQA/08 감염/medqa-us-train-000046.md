@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. 동굴 탐험
 ## 해설
 
 
-광견병은 야생동물(동굴)과의 접촉이 주요 위험인자이며, 환자의 증상은 급성 수두증을 시사한다. 다른 선택지는 해당 감염 경로와 맞지 않는다.
+발열 뒤 급격한 초조·혼돈, 다량 침 분비와 기류 자극에 대한 공포는 광견병 뇌염을 의심하게 한다. 동굴 탐험(D)은 박쥐와의 접촉 위험을 높일 수 있다. 단순한 동굴 공기 흡입이 일반적 감염경로라는 뜻은 아니며 실제 동물 노출을 확인해야 한다. 급성 수두증으로 설명한 기존 해설은 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000046`와 직접 대조했다.
+- 판정: 동굴 박쥐 노출 위험 D 유지. 급성 수두증이라는 다른 질환 오류를 광견병 뇌염·기류 자극 과민으로 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.cdc.gov/rabies/hcp/clinical-overview/
 
 ## 출처
 

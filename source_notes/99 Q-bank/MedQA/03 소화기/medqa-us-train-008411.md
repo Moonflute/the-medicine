@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 위벽의 전층 미란
 ## 해설
 
 
-구토와 혈변이 급성 위식도 접합부 점막 파열(몰리-와이스)과 일치하며, 이는 구토 후 발생한다. 따라서 정답은 B이다.
+구토와 연관된 선홍색 토혈은 Mallory–Weiss 점막열상, 즉 위식도 접합부의 점막 손상(B)을 시사한다. 혈변이나 식도 전층 파열과는 다르다. 다만 NSAID 노출로 미란성 위염·궤양 출혈도 감별해야 한다. 원문에 적힌 AKI·ibuprofen 사용 상황의 ketorolac 투여는 안전한 표준 조치로 권장할 수 없고, 현재 위장관 출혈에서는 추가 투여를 피해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008411 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 토혈을 혈변으로 잘못 부른 오류 교정; GEJ 점막열상 B 의도는 유지. 기존 NSAID+새 ketorolac·AKI·출혈 위험을 권장 진료로 받아들이지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04df9620-6dcb-494a-83e2-6d28036be974
 
 ## 출처
 

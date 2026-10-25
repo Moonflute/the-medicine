@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "발열·두통·목 경직·의식 저하·발작을 모두 필수처럼 묶은 오류를 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-뇌수막염의 전형적인 임상 양상은?
+세균성 수막염 의심 시 증상에 대한 올바른 해석은?
 
 ## 선택지
 
-A. 발열, 두통, 구토, 목뻣함, 의식 저하 및 발작이 동반된다
-B. 발열·두통·구토만 나타난다
-C. 구토·복통·설사와 같은 위장관 증상이 주된 특징이다
-D. 두통·시각장애·청력손실이 주요 증상이다
+A. 발열·두통·목 경직·의식 변화가 단서지만 모두 있어야만 의심하는 것은 아니다
+B. 목 경직이 없으면 항상 배제한다
+C. 발작이 있어야만 수막염으로 판단한다
+D. 고령자도 항상 전형적 삼징후가 모두 나타난다
 
 ## 해설
 
-뇌수막염은 발열, 두통, 구토, 목뻣함, 의식 저하 및 발작을 동반하는 전형적인 증상이다.
+고령자·면역저하자 등에서는 양상이 비전형적일 수 있다. 위험 증후를 종합하여 신속히 평가하고 치료하며 전형적인 징후의 부재를 안전의 근거로 삼지 않는다.
 
 ## 오답 포인트
 
-- **C. 구토·복통·설사와 같은 위장관 증상이 주된 특징이다:** 위장관 증상은 뇌수막염의 주요 특징이 아니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 뇌수막염 (Meningoencephalitis)
 - 원본 경로: `source_notes/02 Diseases/16 신경과-신경외과/뇌수막염 (Meningoencephalitis).md`
-- 학습 목표: 원문 핵심: * **CC**: 발열, 두통, 구토, 수막 자극 징후(목 뻣뻣함), 의식 저하, 발작. Petechiae는 N.meningitidis 시사. * **P/E**: 수막 자극 징후(Kernig, Brudzinski sign). HSV 뇌염 시 측두엽 침범으로 인한 인격 변화, 기억력 장애, 발작 등이 동반될 수 있음.
+- 학습 목표: 수막염에서 전형적 징후 부재만으로 배제하지 않기
+
+## 검수 근거
+
+- https://www.nice.org.uk/guidance/ng240/chapter/Recommendations

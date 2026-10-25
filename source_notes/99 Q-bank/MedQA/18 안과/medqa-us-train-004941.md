@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 단순포진 바이러스
 
 ## 해설
 
+붉은 바탕에 모여 있는 눈꺼풀 수포, 결막 충혈·수양성 분비물과 눈부심은 D, HSV 안검결막염에 합당하다. 아데노바이러스는 여포성 결막염이 전형적이며, 전염성 연속종의 피부 병변은 보통 중심 함몰 구진으로 이 수포 양상과 다르다. 시력이 현재 정상이어도 각막 침범이 동반되는지 평가할 필요가 있다.
 
-눈꺼풀에 수포와 결막염을 동반한 급성 안구 증상은 단순포진(HSV) 감염이 특징이다. HSV는 재발성 수포성 결막염을 일으키며, 다른 바이러스는 보통 결막염만을 일으킨다. 따라서 단순포진 바이러스가 가장 가능성 높다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. HSV D는 유지하고 다른 바이러스는 눈꺼풀 병변이 없다는 부정확한 비교를 정리.
 
 ## 출처
 

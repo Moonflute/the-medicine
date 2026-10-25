@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,13 @@ D. 제왕절개술을 시행한다
 
 ## 해설
 
+짧고 드문 수축의 강도·기간이 늘지 않고 관찰 후에도 경부 소실·개대가 없으며 태아 상태가 양호하므로 가진통이 가장 적절하다. C처럼 설명 후 귀가가 가능하되 양수 누출, 출혈, 태동 감소 또는 수축 악화 시 즉시 재내원하도록 안내한다. 초음파 양수량 정상은 본문에 없으므로 임의로 추가하지 않는다.
 
-진통이 규칙적이고 짧으며 자궁경부 변화가 없고 양수도 정상인 경우, 이는 가짜 진통(가짜 진통)이다. 자궁경부가 확장되지 않아 진통이 진행되지 않으므로 관찰만으로 충분하다. 따라서 가장 적절한 조치는 안심시키고 귀가시키는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 가진통 판단 근거 및 귀가 후 재평가 조건 명료화.
+- https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins
 
 ## 출처
 

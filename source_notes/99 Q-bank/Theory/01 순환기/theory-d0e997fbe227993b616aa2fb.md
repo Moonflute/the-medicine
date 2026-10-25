@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "심내막/판막의 미생물 감염이라는 IE의 기본 병태생리는 의미 있는 쉬운 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc1xd2tpevh2q0rzatz6cmdyvhjwng5zbdd3z0tfbhvabvzqzedsmlptqkzibvj2wtjgevphbdbhwe1wtg0xa3xkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -45,3 +50,8 @@ D. 심근에 혈전이 형성되는 질환
 - 내부 학습 노트: 감염 심내막염 (Infective Endocarditis)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/감염 심내막염 (Infective Endocarditis).md`
 - 학습 목표: 원문 핵심: - **정의**: 혈액 내 세균이나 진균이 심장 판막이나 심내막 조직에 부착하여 염증을 일으키는 질환 - **특징**: 주로 좌측 심장 판막(승모판, 대동맥판)의 감염이 흔하다. - **원인**: - 자연 판막 IE: 황색포도알균(S. aureus)과 연쇄상구균(Streptococci)이 가장 흔하다. - 인공 판막 IE: 응고효소 음성 포도알균(Coagulase (-) Staphylococci)과 연쇄상구균이 흔하다. - S. aureus: 가장 흔한 원인균. IV drug abuser에서 급성으로 잘 발생하며, 우측 심장 판막을…
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 심내막/판막의 미생물 감염이라는 IE의 기본 병태생리는 의미 있는 쉬운 복습으로 유지한다.

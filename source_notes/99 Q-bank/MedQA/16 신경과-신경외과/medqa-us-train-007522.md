@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,11 @@ D. 중심척수 증후군
 
 ## 해설
 
+자상 이후 같은 쪽 운동·진동감각 저하와 반대쪽 통각·온도각 저하는 척수 반절단인 Brown-Séquard 증후군(B)에 특징적이다. 후주와 피질척수로는 척수 병변 아래에서 동측 결손을, 척수에서 교차한 척수시상로는 반대측 결손을 만든다. 원문에는 급성 이완성 마비와 4+ 반사, 음성 Babinski가 함께 기술되어 전형적 시간경과와 완전히 일치하지 않는 부분이 있지만, 이 반사 기술이 교차된 감각 경로의 국소화 근거를 바꾸지는 않는다.
 
-열상 아래에 나타나는 감각 차이는 브라운-세카르 증후군(척수 반절단)과 일치한다. 이는 같은 측면의 통각·진동감각 손실과 반대측의 온·통각 손실을 보인다. 따라서 정답은 브라운-세카르 증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 교차 감각소실 B 유지. 같은 쪽 통각 소실이라는 해설 오류 교정하고 원문 반사/근긴장 불일치를 명시.
 
 ## 출처
 

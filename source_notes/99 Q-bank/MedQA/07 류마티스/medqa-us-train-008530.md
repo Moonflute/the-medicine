@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 반응성 관절염
 ## 해설
 
 
-관절액에서 음성 배양·노란색·고백구·바늘 모양 단핵결정은 모노소듐 우레이트 결정으로 급성 통풍을 시사한다. 급성 통풍은 급성 관절염 중 가장 흔한 원인이며, 다른 선택지는 증상과 일치하지 않는다. 따라서 가장 가능성 높은 진단은 급성 통풍이다.
+첫 급성 단관절 발작과 관절액의 음성 복굴절 바늘모양 monosodium urate 결정은 급성 통풍 C를 지지한다. 배양이 음성이지만 임상적으로 감염이 우려되면 별도로 평가하며 결정의 존재가 동시 감염을 절대 배제하는 것은 아니다. 이 케이스의 진단은 제공된 결정 결과에 근거하며 급성 관절염 전체에서 통풍이 항상 가장 흔하다는 주장에 근거하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008530 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 요산결정을 단핵결정이라 부르고 모든 급성 관절염에서 통풍이 최다라는 과장 제거. 실제 결정 형태가 본문에 있어 사진 없이C 선택 가능.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

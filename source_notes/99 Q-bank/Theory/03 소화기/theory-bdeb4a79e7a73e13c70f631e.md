@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "장간막 축을 중심으로 한 구불창자의 회전과 폐쇄라는 기본 기전 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc15y2hpewvwzxewz0nfcxrhenj0b2pzc0wzc25wqwc2cnlzn0o2ruldafrhv2r0yjjsa0lgwnzisfoxykhwekttnxraqxxkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -42,10 +47,15 @@ D. 대장에 발생한 염증성 궤양으로 인한 출혈
 
 ## 오답 포인트
 
-- **C. 소장의 회전으로 인한 장중첩증:** 소장 회전은 소장 꼬임이며, 구불창자 꼬임이 아니다.
+- **소장의 회전으로 인한 장중첩증:** 소장 회전은 소장 꼬임이며, 구불창자 꼬임이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 구불창자 꼬임 (Sigmoid Volvulus)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/구불창자 꼬임 (Sigmoid Volvulus).md`
 - 학습 목표: 원문 핵심: - **정의**: 구불창자(S상결장)가 장간막을 축으로 꼬이면서 발생하는 폐쇄성 대장 질환. - **원인**: 만성 변비, 고령, 거동이 불편한 환자, 장간막 기저부가 좁은 해부학적 구조, 구불창자의 과도한 연장(redundant loop). - **기전**: 폐쇄 루프(closed loop) 폐쇄를 유발하여 장내 가스 축적 및 팽창을 일으킴. 정맥 환류 장애로 인한 허혈, 세균 전위, 괴사 및 천공으로 진행 가능.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 장간막 축을 중심으로 한 구불창자의 회전과 폐쇄라는 기본 기전 유지.

@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IOB7JmE7JmA67aAIOuCreyihSAoQnJhY2hpYWwgQ2xlZnQgQ3lzdCkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "Branchial을 brachial·상완으로 옮긴 해부학적 오역 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-상완와부 낭종의 특징적인 임상 양상은 무엇입니까?
+새열낭종(branchial cleft cyst)의 전형적인 위치는?
 
 ## 선택지
 
-A. 목의 측면(흉쇄유돌근 앞쪽)에 발생하며 무통성이고, 부드럽고 유동적인 종괴가 만져진다.
-B. 목 중앙에 위치하고 삼키기 시 통증을 동반하는 고형 결절이다.
-C. 혀 밑에 위치하고 움직일 때 통증이 있는 낭종이다.
-D. 경부 전면에 다발성 혈관종이 나타나는 경우이다.
+A. 흉쇄유돌근 앞쪽을 따라 보이는 측경부 종괴
+B. 항상 목 정중선에서 혀 움직임을 따라 이동
+C. 상완 근육 내부에만 위치
+D. 반드시 갑상선 내부에만 발생
 
 ## 해설
 
-상완와부 낭종은 목의 측면, 주로 흉쇄유돌근 앞쪽에 발생하는 무통성 부드럽고 유동적인 낭성 종괴이며, 감염 시에만 발적·통증·부종이 동반될 수 있다.
+새열 유래 이상은 측경부 낭종·누공으로 나타날 수 있다. 정중선 갑상설관낭종과 위치로 구별하는 것이 핵심이며 모든 측경부 종괴가 새열낭종인 것은 아니다.
 
 ## 오답 포인트
 
-- **B. 목 중앙에 위치하고 삼키기 시 통증을 동반하는 고형 결절이다.:** 목 중앙에 위치하고 삼키기 통증을 동반하는 것은 갑상선 결절이나 갑상선염의 특징이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 상완와부 낭종 (Brachial Cleft Cyst)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/상완와부 낭종 (Brachial Cleft Cyst).md`
-- 학습 목표: 원문 핵심: * **CC**: 목의 측면(주로 흉쇄유돌근 앞쪽)에 발생하는 무통성 종괴 * **P/E**: 목의 편측에 만져지는 부드럽고 유동적인 낭종, 감염 시 발적, 통증, 부종 동반
+- 학습 목표: 새열낭종의 측경부 위치

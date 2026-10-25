@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 자궁수축억제제 투여
 
 ## 해설
 
+최저점까지 30초 미만이고 수축과 상대 시점이 다른 감속은 변이감속이다. 기저선 145, 가속과 보존된 변이도, 비반복적 감속은 즉시 제왕절개보다 계속 평가·감시(A)가 적절하다는 의도이다. 다만 감속 깊이·기간 및 변이도의 상한이 없어 모든 패턴을 정상으로 단정하지 않고, 반복·지연 회복 등 우려 소견이면 체위 변경과 원인 교정 등을 시행한다.
 
-태아 심박동 변이도가 15회/분 이상이지만 가속과 변동이 정상 범위이며 감속이 자궁수축과 시점이 맞지 않아 비변동성 감속으로 간주된다. 이는 태아가 현재는 양호한 상태임을 의미하므로 특별한 중재 없이 일상적인 모니터링을 지속하면 된다. 따라서 일상적 모니터링이 가장 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 급속·가변 시점 감속은 비변동성이 아니라 변이감속임.
+- https://obgyn.onlinelibrary.wiley.com/doi/full/10.1016/j.ijgo.2015.06.020
 
 ## 출처
 

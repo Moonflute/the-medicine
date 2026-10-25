@@ -25,7 +25,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,6 +51,12 @@ D. 변형성 골염
 
 
 류마티스 관절염은 골밀도 감소와 골절 위험을 크게 높이며, 특히 여성에서 골다공증 발생률이 높다. 천장관절염·폐쇄성 폐질환·변형성 골염은 RA와 직접적인 연관성이 낮다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002747 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 대칭성 미란성 RA는 전신·관절주위 골소실 및 골절 위험과 관련되어 골다공증 A가 적절하다. 다른 선지와의 상대적 연관을 묻는 원문 취지와 해설 일치.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

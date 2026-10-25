@@ -19,11 +19,11 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXNtb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 정맥 에스몰롤
 
 ## 해설
 
+하행대동맥 박리의 초기 치료는 감시하 IV β차단제로 HR/수축력과 대동맥벽 충격을 줄이는 것이며 esmolol D가 적절하다. 필요하면 β차단 뒤 혈관확장제를 추가한다. Esmolol이 직접 혈관평활근을 이완시키기 때문이라는 기존 기전은 잘못이다.
 
-하행 대동맥 박리에서 혈압 차와 급성 통증이 나타나며, 베타 차단제와 혈관확장제만으로는 혈압 조절이 충분치 않다. 에스몰롤은 직접 혈관 평활근을 이완시켜 급성 혈압을 빠르게 낮추고 박리 진행을 억제한다. 따라서 정맥 에스몰롤이 가장 적절한 다음 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Esmolol은 직접혈관확장제가 아닌 β1차단제. 급성typeB anti-impulse D 기전 교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106
 
 ## 출처
 

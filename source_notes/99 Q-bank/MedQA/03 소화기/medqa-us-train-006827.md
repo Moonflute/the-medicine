@@ -19,16 +19,18 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 결정질 수액 주입
 
 ## 해설
 
+췌장염의 탈수/혈액농축과AKI가 의심돼 D의 등장성결정질로 관류를 회복한다. 보통LR을 선호하며 혈압·소변량·BUN/Hct·호흡상태로 반복평가해 적정한다. 무제한공격수액은 과부하 위험이 있고 저K/증상성저Ca는 별도교정이 필요하다. 수액만으로 모든전해질장애가 해결되는 것은 아니다.
 
-급성 알코올성 췌장염은 초기 치료에 충분한 수액 보충이 핵심이며, 특히 저칼슘·저칼륨·저나트륨 상태에서 결정성(결정질) 수액을 사용하면 혈액량을 회복하고 조직 손상을 최소화한다. 따라서 가장 적절한 처치는 결정질 수액 주입이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 췌장염 D 수액을 무제한보충이 아닌 신기능/과부하 감시하 등장성결정질로 한정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13221274/
 
 ## 출처
 

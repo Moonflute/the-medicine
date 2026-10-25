@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 무작위 단백질/크레아티닌 비율
 
 ## 해설
 
+33주 새 고혈압·부종은 전자간증 평가가 필요하므로 spot 소변 단백/크레아티닌비(D)가 신속한 정량 평가에 적절하다. 혈압 반복 확인과 혈소판·크레아티닌·간효소 등도 평가한다. 24시간 소변도 상황에 따라 유효하며 단지 모든 대안이 과도한 검사라서 D인 것은 아니다.
 
-임신 33주에 혈압 상승과 전신 부종이 있으면 임신성 고혈압을 의심하고, 단백/크레아티닌 비율을 무작위로 측정해 단백뇨 여부를 빠르게 평가한다. 24시간 단백 검사보다 간편하고 신속히 결과를 제공한다. 다른 선택지는 과도한 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단백/크레아티닌비는 전자간증 평가의 일부이며 다른 검사 모두 과잉이라는 표현 삭제.
+- https://www.nice.org.uk/guidance/ng133/chapter/Recommendations
 
 ## 출처
 

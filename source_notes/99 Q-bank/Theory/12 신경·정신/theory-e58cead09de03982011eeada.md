@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+curation_status: "retained"
+curation_reason: "Phenytoin의 나트륨통로 작용과 고빈도 반복 발화 억제 대표 기전."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ Phenytoin은 전압개폐성 나트륨 채널을 안정화시켜 신경세포의
 
 ## 오답 포인트
 
-- **B. GABA 작용 강화:** GABA 작용 강화는 벤조디아제핀 계열의 주요 기전입니다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Phenytoin
 - 원본 경로: `source_notes/04 Pharmacology/12 신경·정신/Phenytoin.md`
-- 학습 목표: 원문 핵심: - 전압개폐성 나트륨 채널을 안정화하여 신경 세포의 고빈도 반복 발화를 억제함
+- 학습 목표: Phenytoin: 전압개폐성 나트륨 채널 안정화

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 대장내시경
 
 ## 해설
 
+태변 미배출, 담즙성 구토, microcolon과 우하복부의 태변·가스 혼합은 태변성 장폐색(meconium ileus)에 부합한다. 수액과 위 감압 후 합병증이 없는 경우 전문팀이 희석 수용성 조영제 관장(B)을 진단·치료 목적으로 시행할 수 있다. 고삼투 조영제에 따른 체액 이동을 감시하고 천공·복막염 또는 실패 시 수술을 고려한다.
 
-신생아의 장폐색(특히 메가돌린)에서는 장내 가스와 대변 혼합이 보이며, 가스트로그라핀 관장은 장관을 확장시켜 치료에 효과적이다. 따라서 가스트로그라핀 관장이 적절한 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태변성 장폐색을 메가돌린으로 오역한 해설을 교체.
+- https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=181
+- https://www.rch.org.au/uploadedfiles/main/content/respmed/handbook.pdf
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. IgG 매개 자가면역 용혈성 빈혈
 ## 해설
 
 
-6세 이하에서 급성 용혈성 위기 시 혈색소 5.9 g/dL, 망상적혈구 15%, 하인즈 소체는 G6PD 결핍을 시사한다. 다른 용혈성 질환은 해당 소견을 보이지 않는다. 따라서 포도당‑6‑인산탈수소효소 결핍이 가장 가능성 높은 진단이다.
+감염 시 반복 용혈·신생아 황달·DAT 음성·Heinz body는 선택지 중 G6PD 결핍 B에 합당하다. 환자는8세이고 Heinz body는 산화 변성 hemoglobin으로 다른 산화성 용혈에서도 가능하다. 원문의 haptoglobin28g/dL는 생리적으로 부적절한 단위라 원자료 확인이 필요하며 이를 낮은mg/dL로 임의 변환해 확진 근거로 사용하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006561 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 8세를6세이하로 바꾸고 Heinz body를 절대 특이적이라 한 오류 교정; 원문 haptoglobin 단위 불일치 표시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

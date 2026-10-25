@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 글리코겐 탈분지효소
 
 ## 해설
 
+영아의 심비대·심부전 소견, 거대설과 심한 근력저하에 정상 혈당이 동반되어 폼페병(제II형 글리코겐축적병)을 시사한다. 리소좀 산성 α-글루코시다아제, 즉 산성 말타아제 결핍(C)으로 심근과 골격근 등에 글리코겐이 축적된다. 이 사례의 두드러진 심장 침범을 단순한 골격근 위축형으로 한정해서는 안 된다.
 
-혀가 돌출되고 근육 약화, 간비대, 심비대가 동반된 골격근 위축형 폼페병은 리소좀 산성 말타아제 결핍이 원인이다. 따라서 가장 가능성 높은 효소는 리소좀 산성 말타아제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 심부전과 심비대가 뚜렷한 영아 폼페병을 골격근 위축형으로 한정한 부정확한 표현을 교정했다.
+
 
 ## 출처
 

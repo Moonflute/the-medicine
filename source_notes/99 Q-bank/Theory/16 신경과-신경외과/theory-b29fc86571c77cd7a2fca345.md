@@ -12,36 +12,49 @@ target_type: disease
 target_slug: "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zrgrQg7Lac7ZiIIChJbnRyYWNlcmVicmFsIGhlbW9ycmhhZ2UpLm1k"
 theory_objective_id: disease-03-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "비특정 CT 표현을 비조영 응급 영상의 역할로 명확화."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-뇌내 출혈의 1차 진단에 가장 적합한 영상 검사는?
+급성 뇌내출혈을 신속하게 확인하는 대표적인 응급 영상은?
 
 ## 선택지
 
-A. 뇌 CT
-B. 뇌 MRI
-C. 혈관조영술
-D. 초음파
+A. 비조영 뇌 CT
+B. 조영제 없는 두개골 단순 X선
+C. 뇌파만 시행
+D. 뇌 PET를 예약해 수일 후 확인
 
 ## 해설
 
-뇌 CT는 급성 출혈을 고음영으로 보여 1차 진단에 가장 적합한 영상 검사이다.
+비조영 CT는 급성 출혈과 혈종 범위·뇌실 침범 등을 신속히 평가한다. 원인과 추가 치료 판단에 따라 혈관 영상·MRI 등을 추가한다.
 
 ## 출처
 
 - 내부 학습 노트: 뇌내 출혈 (Intracerebral hemorrhage)
 - 원본 경로: `source_notes/02 Diseases/16 신경과-신경외과/뇌내 출혈 (Intracerebral hemorrhage).md`
-- 학습 목표: 원문 핵심: - **Brain CT:** 1차 진단 도구. 급성기 출혈은 고음영으로 관찰됨. - **Brain MRI:** 혈종의 시기 판별 및 기저 질환(종양, 혈관 기형 등) 감별에 유용. - **기타:** 혈액 응고 검사, 혈압 모니터링.
+- 학습 목표: 급성 뇌내출혈의 비조영 CT 평가
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- https://www.ahajournals.org/doi/10.1161/STR.0000000000000407

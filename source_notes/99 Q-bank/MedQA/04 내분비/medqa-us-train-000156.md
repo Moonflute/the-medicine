@@ -22,11 +22,13 @@ explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 칼슘 보충 (Calcium replacement)
 
 
 갑상선 전절제 후 저칼슘혈증이 흔히 발생하며, 손가락·입술 주위 저림, 손과 팔 근육 경련은 저칼슘 증상이다. 즉시 칼슘 보충이 필요하다. 따라서 정답은 칼슘 보충이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 갑상샘절제 직후 입주위/손끝 저림과 Trousseau 징후는 증상성 저칼슘혈증. 제시된 처치 중 칼슘 D가 맞고 PTU/albumin과 구별.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

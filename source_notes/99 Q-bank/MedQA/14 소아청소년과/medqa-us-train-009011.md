@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 시프로플록사신
 
 ## 해설
 
+급성 중이염이 확인되고 항생제를 선택하는 경우, 최근 amoxicillin 사용·화농성 결막염·페니실린 알레르기 등이 없다면 보기 중 amoxicillin(A)이 일차 선택이다. 고막 발적만으로 진단하지 않고 중이 삼출·고막 팽륜 등 소견을 함께 확인한다. 경증 일부는 관찰이 가능하지만 이 사례는 이통이 3일 지속되었다.
 
-급성 중이염의 1차 병원체는 폐렴구균이며, 첫 번째 선택 약물은 광범위한 효과와 안전성으로 아목시실린이다. 따라서 아목시실린이 가장 적절한 치료제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 급성 중이염 약물 선택과 진단기준·관찰 대상을 구별.
+- https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html
 
 ## 출처
 

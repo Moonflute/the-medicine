@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: B
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "평탄 B형만이 삼출성 중이염에 가장 특이적이라는 단정을 이경·외이도 용적과의 통합 해석으로 교정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -32,20 +37,28 @@ review_status: machine-generated
 ## 선택지
 
 A. 청력 검사
-B. 고막 운동성 계측(티프노메트리)
+B. 고실도검사(tympanometry)
 C. CT 촬영
 D. MRI 촬영
 
 ## 해설
 
-고막 운동성 계측에서 평탄형(flat) 곡선이 삼출성중이염을 가장 특이적으로 나타냅니다.
+고실도검사는 이경 소견과 함께 중이 기능 평가를 보조한다. 평탄한 B형은 삼출액을 시사할 수 있으나 외이도 용적이 크면 천공·개방 환기관 등도 고려하므로 단독 확진 표지로 쓰지 않는다.
 
 ## 오답 포인트
 
-- **A. 청력 검사:** 청력 검사는 난청 여부는 확인하지만 삼출성중이염 특이 진단은 아닙니다.
+- **청력 검사:** 난청의 정도를 평가하지만 삼출액의 존재를 직접 확정하지 않는다.
+- **CT·MRI:** 단순 삼출성 중이염에서 고막 운동성 평가를 대체하는 일률적 우선 검사가 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 삼출성중이염 (Otitis media with effusion)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/삼출성중이염 (Otitis media with effusion).md`
-- 학습 목표: 원문 핵심: - **통기 이경 검사**: 고막의 운동성 저하 확인. - **청력 검사 및 고막 운동성 계측(Tympanometry)**: 진단에 가장 유용하며, '평탄형(flat)' 고막 운동성 곡선이 특징적.
+- 학습 목표: 삼출성 중이염의 고실도 보조진단
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 평탄 B형만이 삼출성 중이염에 가장 특이적이라는 단정을 이경·외이도 용적과의 통합 해석으로 교정.
+- 근거: https://www.asha.org/practice-portal/clinical-topics/hearing-loss

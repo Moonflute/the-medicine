@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -42,7 +44,14 @@ D. 인터페론-감마 방출 분석(IGRA) 시행
 ## 해설
 
 
-만성 기침, 체중 감소, 폐 결절·음영이 보이는 경우 결핵을 의심하고, 진단을 위해 가래에서 AFB 도말·배양·PCR 검사가 가장 적절한 다음 단계이다.
+한 달간 기침·발열·체중감소와 이주 병력은 활동성 폐결핵을 의심하게 하므로 객담 AFB 도말·배양·NAAT를 확보하는 B가 적절하다. 제공되지 않은 흉부 X선의 결절·공동 형태를 확인했다고 가정하지 않는다. IGRA는 결핵 감염을 평가하지만 활동성 여부를 확진하거나 배제하는 검사가 아니며 미생물검사를 대신하지 못한다. 의심 정도에 맞는 공기주의 등 감염관리도 병행한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000665 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 누락된 흉부 사진에 폐 결절이 보인다고 만들어낸 설명을 제거하고 텍스트상 TB 의심의 미생물검사 B를 설명했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/clinical-and-laboratory-diagnosis.html
 
 ## 출처
 

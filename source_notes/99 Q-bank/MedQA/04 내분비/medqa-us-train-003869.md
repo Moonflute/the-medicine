@@ -20,15 +20,17 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,14 @@ D. 머리 MRI
 
 ## 해설
 
+중심성 비만·복부선조·근위축·고혈당은 Cushing syndrome을 의심하게 하므로 선택지 A의 저용량 dexamethasone suppression test는 초기 선별법이다. 외인성 steroid 노출을 확인하고 적절한 cortisol 검사를 선택한다. 고혈압/고혈당 관리도 병행하며 원인검사가 혈압치료를 무조건 뒤로 미루라는 뜻은 아니다. Metformin은 항고혈압제가 아니다.
 
-고혈압, 비만, 복부 선조, 근육 위축, 고혈당이 동반된 심한 고혈압은 쿠싱 증후군을 의심하게 한다. 초기 평가는 저용량 디에소메타손 억제검사로 시작한다. 다른 선택지는 직접적인 혈압 치료이지만 원인 검사가 우선이다. 따라서 가장 적절한 초기 처치는 디에소메타손 억제검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Cushing 선별 A 유지. 원인검사 때문에 중증HTN 치료를 미루거나 metformin을 혈압약으로 부른 오류 수정.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12963774/
 
 ## 출처
 

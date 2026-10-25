@@ -18,16 +18,18 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 복합 경구피임약
 
 ## 해설
 
+산후3주 수유 여성에서는 프로게스틴 단독 피임약(C)이 적절하다. 초기 산후의 에스트로겐 복합피임은 혈전 위험과 수유 영향을 함께 평가하며 시기·위험인자에 따라 제한된다. 수유 중 어느 시기에도 절대금기라는 뜻은 아니다. 수유와 피임 선택은 개인 선호·복용 순응도를 함께 고려한다.
 
-수유 중에는 에스트로겐을 포함한 복합 경구피임약이 모유 생산을 억제하므로 금기이며, 프로게스틴 단독 피임은 모유에 영향을 주지 않는다. 따라서 가장 적절한 권고는 프로게스틴 단독 피임이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 수유중 복합피임약을 모든시기의 절대금기로 일반화하지 않고 산후VTE조건 반영.
+- https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm/
 
 ## 출처
 

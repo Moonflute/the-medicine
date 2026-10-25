@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 객담 배양검사로 진단을 확인한다
 
 
 결핵은 국가·지방 보건당국에 의무 신고 대상 전염병이다. 환자가 비밀을 요구하더라도 공중보건을 위해 즉시 보건당국에 신고해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004869 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 활동성 폐결핵의 공중보건 당국 신고 A를 미국 문항 맥락의 공식 의무와 원문 대조 유지. 일반인/고용주 무차별 공개를 허용하는 뜻은 아님.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/index.html
 
 ## 출처
 

@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 낯선 사람 불안
 
 ## 해설
 
+낯가림(D)은 흔히 생후 후반기, 약 6–9개월 무렵 나타나기 시작한다. 제시된 보기 중 이 발달 단계에 가장 가까우나 개인차가 있으며 6개월에 없다고 곧 지연은 아니다. 분리불안과 다른 사회성 이정표의 시작 시기도 겹칠 수 있다.
 
-6개월 영아는 낯선 사람에 대한 불안(낯선 사람 불안)이 발현되는 시기이다. 이는 정상 발달 단계이며, 다른 선택지는 이 연령대에 아직 나타나지 않는다. 따라서 낯선 사람 불안이 기대되는 발달 이정표이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 6개월 발달을 모든 아동의 필수 일률적 낯가림 발현 시기로 단정하지 않도록 교정.
+
 
 ## 출처
 

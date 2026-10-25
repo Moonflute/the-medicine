@@ -20,16 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
-related_drug_slugs:
-  - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
-  - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
 ---
 
 # MedQA US 임상문제
@@ -47,8 +46,12 @@ D. 외반 스트레스 검사
 
 ## 해설
 
+정답은 D, 외반 스트레스 검사이다. 발이 지면에 고정된 상태에서 무릎 외측을 타격받으면 외반력이 가해져 내측 측부인대(MCL)가 손상될 수 있다. 내측 무릎 압통과 손상 기전이 이에 부합하며, 외반 스트레스로 내측 관절 간격의 벌어짐과 이완을 평가한다. 전방 서랍검사, 라크만 검사 및 피벗 시프트 검사는 주로 전방십자인대의 안정성을 평가한다. 동반 인대·반월상연골 손상 가능성도 있으므로 실제 진료에서는 전체 무릎을 함께 평가한다.
 
-Pneumocystis jirovecii 폐렴의 1차 치료는 트리메토프림‑설파메톡사졸이다. 따라서 선호 항생제 치료는 트리메토프림‑설파메톡사졸이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문의 본문·선지·정답 및 한국어 해설을 개별 대조하였다. 원정답과 케이스를 유지하고 잘못 연결된 해설을 교체하였다.
+- 공식/학회 근거: https://now.aapmr.org/medial-and-lateral-collateral-ligament-injuries/
 
 ## 출처
 

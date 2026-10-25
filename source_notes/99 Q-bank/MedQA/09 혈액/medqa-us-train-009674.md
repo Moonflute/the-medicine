@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 비타민 B12 결핍
 ## 해설
 
 
-미세소관 적혈구가 작고 표적세포가 보이며 철제 보충에 반응이 없을 때는 베타 지중해빈혈이 의심된다. 베타‑글로빈 유전자에 돌연변이가 있으면 β‑사슬 생산이 감소해 HbA가 감소하고 HbA2와 HbF가 증가한다. 따라서 가장 가능성 높은 원인은 베타글로빈 유전자 돌연변이이다.
+경미한 빈혈에 비해 뚜렷한 소구성(MCV 62), 표적세포와 철제 무반응은 β 지중해빈혈을 시사한다. β-globin 유전자 변이(B)로 β 사슬 합성이 감소한다. 보인자에서는 HbA₂가 흔히 증가하고 HbF 증가 정도는 다양하며, 철결핍 동반 여부는 별도로 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009674 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 심한 소구성·표적세포·경미 빈혈·철제 무반응은 β-thalassemia B. 미세소관이라는 세포 용어 오기와 HbF가 항상 증가한다는 단정 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

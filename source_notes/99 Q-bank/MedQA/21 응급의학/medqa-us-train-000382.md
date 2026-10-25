@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 피리독신(비타민 B6)
 
 ## 해설
 
+밀폐 공간 화재 후 의식 변화와 얼굴의 그을음은 흡입 손상 및 일산화탄소 중독 위험을 시사한다. 일반 맥박산소측정기에서 99%여도 CO 중독을 배제할 수 없으므로 제시된 선택지 중 C, 100% 산소가 적절하다. 동시에 기도 손상과 동반 독성 노출을 평가한다. 화재 연기에는 시안화물도 포함될 수 있으므로 모든 증상을 CO 단독으로 확정하지 않는다. Sodium nitrite는 메트헤모글로빈을 유발하므로 이 상황의 산소 공급을 대체하는 보편적 초기 치료가 아니다.
 
-화재 흡입 사고 시 일산화탄소 중독이 가장 위험하며, 100% 고농도 산소를 즉시 투여해 혈중 COHb를 감소시켜야 한다. 다른 약물은 급성 치료에 해당되지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 화재 후 정상 SpO2가 CO 중독을 배제한다는 오해를 막고 산소 치료·기도 평가와 동시 시안화물 가능성을 구분.
+- 공식/학회 근거: https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html
 
 ## 출처
 

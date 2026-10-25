@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 배설강막 중복
 
 ## 해설
 
+뮐러관의 불완전 융합(B)은 두 자궁각/자궁강이 남는 쌍각자궁과 연결된다. 자궁경부가 하나인 형태도 가능하다. 이중자궁(uterus didelphys)은 보통 더 완전한 융합 실패로 두 자궁체와 두 경부를 갖는 점에서 구분된다. 자궁 외부 윤곽 등이 없으므로 이 사례에서 세부 기형 분류를 확진하거나 중격 흡수 장애와의 모든 감별이 끝났다고 볼 수는 없다.
 
-두 자궁강이 완전히 분리된 상태에서 하나의 자궁경부만 존재하는 경우는 Müller관의 불완전 융합(중복)으로, 이는 자궁 중복(이중자궁)의 원인이다. 다른 선택지는 해부학적 설명과 맞지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 하나의 자궁경부를 가진 두 자궁강을 곧바로 이중자궁이라고 한 분류 혼동을 교정했다.
+
 
 ## 출처
 

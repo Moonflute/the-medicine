@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 쇄석술
 
 ## 해설
 
+감염이나 신기능 악화가 없는 작은 요관 결석에서는 우선 통증을 조절하며 자연 배출 가능성을 관찰할 수 있다. 제시된 B의 indomethacin 같은 NSAID가 우선 진통제이며, opioid는 금기·불충분한 효과 등에서 추가적으로 고려한다. 필요한 수분 상태를 교정하되 수액을 많이 밀어 넣어 결석을 강제 배출하는 것은 목적이 아니다. 통증이 조절되지 않거나 감염·신기능 저하가 생기면 적극적 배액/제거가 필요할 수 있다.
 
-요관 결석이 4 mm 크기로 요관에 위치하고 통증·혈뇨가 있으면 보존적 치료가 우선이다. 통증 조절과 수액 보충 후, 결석이 자연 배출될 가능성이 높으므로 비침습적 관리가 적절하다. 따라서 다음 단계는 하이드로코돈·인도메타신 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 4 mm 무감염 결석의 진통 관리 B를 유지하며 NSAID 우선·opioid 구제 및 수액 강제 배출 오해를 정리.
+- 공식/학회 근거: https://uroweb.org/guidelines/urolithiasis/chapter/guidelines
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 염화칼륨
 ## 해설
 
 
-혈당 565 mg/dL와 케톤증, 경미한 대사성 산증은 당뇨병성 케톤산증을 나타낸다. 치료에 가장 중요한 약물은 즉시 혈중 글루코스를 낮추는 속효성 인슐린이다.
+정답 C. 심한 고혈당·ketonuria·탈수와 의식 변화에서 인슐린 결핍성 고혈당 위기를 우려한다. 정맥으로 투여할 인슐린은 선택지 중 regular insulin이다. 소아에서는 수액 치료를 먼저 시작하고 보통 1시간 후 적절한 인슐린 주입을 시작하며 bolus를 피한다. K5.8이어도 총체내 K는 부족할 수 있어 추적해야 한다. pH7.30·HCO3 19는 전형적 DKA 산증 기준의 경계/외부이므로 제시값만으로 산증을 과장하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008939 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 경계 산염기 수치에서 확진을 과장하지 않고 IV regular C 및 소아 수액 선행/K 추적 원칙 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.ispad.org/static/6dd62eae-c8cb-4b4a-84e1efc768505746/Ch11PediatricDiabetes.pdf
 
 ## 출처
 

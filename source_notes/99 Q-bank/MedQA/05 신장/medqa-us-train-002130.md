@@ -19,13 +19,15 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 겸상적혈구병
 
 ## 해설
 
+신유두괴사와 만성 세뇨관간질성 염증은 진통제 신병증 A의 전형적 병리 조합이다. 만성 두통은 반복 진통제 사용 가능성을 시사하지만, 실제 약물 종류·용량·누적 노출은 확인해야 한다. 이를 결절성 신염이라고 부르는 기존 해설은 부정확하다.
 
-진통제(특히 NSAID) 남용은 신장 피라미드 괴사와 결절성 신염을 초래한다. 환자의 신장 조직학적 소견은 진통제 신병증에 일치한다. 따라서 진통제 신병증이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 유두괴사와 만성 간질성 손상을 결절성 신염으로 잘못 설명. 진통제 신병증 A의 병리로 연결.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

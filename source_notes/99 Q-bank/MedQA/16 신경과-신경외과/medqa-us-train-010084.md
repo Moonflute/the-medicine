@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 틴엘 검사
 
 ## 해설
 
+야간 정중신경 영역 증상과 손목 굴곡 유발은 수근관증후군에 맞는다. 신경전도검사(B)는 손목 부위 정중신경 전도 이상을 확인하고 중증도·다른 신경병증을 평가할 수 있다. 다만 현행 AAOS 지침은 전형적 사례에서 CTS-6 등 임상적 평가를 활용할 수 있어 모든 환자에게 일률적으로 NCS를 요구하지는 않는다. Tinel 검사는 보조 유발징후이고 MRI나 신경생검은 통상적인 확인검사가 아니다.
 
-손목을 굽히는 동작에서 증상이 나타나는 경우 정중신경 압박을 의심한다. 신경전도검사는 전도 속도와 잠복기를 측정해 손목터널증후군을 확진하는 표준 검사이다. 따라서 정답은 B이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. NCS B는 필요한 경우 확인검사지만 모든 전형적 CTS에 필수라는 단정 교정.
+- 공식/학회 근거: https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/carpal-tunnel-2024/cts-cpg.pdf
 
 ## 출처
 

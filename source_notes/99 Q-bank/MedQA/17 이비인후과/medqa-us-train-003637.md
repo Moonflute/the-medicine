@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,12 @@ D. 두개골 천공 배액
 
 ## 해설
 
+정답은 C, 뇌 MRI이다. 화농성 중이염에 두통·구토와 같은 쪽 외전신경마비가 동반되면 단순 중이염을 넘어 추체첨부염, 두개내 농양 또는 정맥동 혈전증 등 합병증을 평가해야 한다. 추체첨부염은 Gradenigo 증후군과 연관되지만, 이 문항에는 전형적인 삼차신경 영역 통증까지 모두 기술되어 있지는 않다. 제시된 선택지 중 뇌 MRI로 두개내 병변의 위치·범위를 확인하는 것이 적절하다. 세균성 합병증이 의심되면 이비인후과·감염 전문 평가와 항균치료도 신속히 진행하며, 전신상태가 나쁜 환자에서 영상 때문에 응급치료를 지연하는 의미는 아니다.
 
-중이염 합병증인 그라데니고 증후군은 고막염·농양으로 인한 외전신경 마비가 나타나며, 진단을 위해 뇌 MRI가 필요하다. 따라서 뇌 MRI 시행이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 중이염·두통·외전신경마비의 두개내 합병증 평가 필요. Gradenigo를 고막염/농양으로 단정한 해설 수정, 뇌 MRI C 유지하며 불안정 환자의 치료 지연 경고.
+- 공식/학회 근거: https://acsearch.acr.org/docs/3195157/Narrative/
 
 ## 출처
 

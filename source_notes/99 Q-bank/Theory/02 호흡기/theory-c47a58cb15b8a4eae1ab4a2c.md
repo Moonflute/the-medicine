@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: B
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "모든 악화가 입원·항생제를 필요로 한다는 인상을 바로잡고 감별 진단을 포함."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-COPD 급성 악화의 정의는?
+COPD 급성 악화를 평가할 때 올바른 설명은?
 
 ## 선택지
 
-A. 폐기능이 영구적으로 감소하는 상태
-B. 호흡기 증상이 급격히 악화되어 추가 치료가 필요한 상태
-C. 흉통만 동반하는 경우
-D. 폐렴과 동일한 질환
+A. 호흡곤란·기침·가래 악화를 평가하면서 폐렴·심부전·폐색전증 등도 감별한다
+B. 기존 COPD가 있으면 급성 호흡곤란의 다른 원인은 배제된다
+C. 모든 악화는 폐렴과 같은 진단이다
+D. 가래가 화농성이 아니면 악화는 불가능하다
 
 ## 해설
 
-COPD 급성 악화는 기존 증상이 급격히 악화되어 입원·산소·항생제 등 추가 치료가 필요해지는 상황을 의미한다.
+기존 호흡기 증상의 급성 악화가 핵심이다. 유발 원인과 동반 질환을 확인하고 중증도에 맞춰 기관지확장제·전신 스테로이드·선별적 항생제 등을 판단한다.
 
 ## 오답 포인트
 
-- **A. 폐기능이 영구적으로 감소하는 상태:** COPD 악화는 급성 변화이며 영구적 감소와는 구분된다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: COPD의 급성 악화 (Acute Exacerbation of COPD)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/COPD의 급성 악화 (Acute Exacerbation of COPD).md`
-- 학습 목표: 원문 핵심: - **정의**: COPD 환자의 호흡기 증상이 급격히 악화되어 추가적인 치료가 필요한 상태. - **원인**: 주로 호흡기 감염(바이러스 또는 세균). 흡연, 대기 오염, 자극성 물질 흡입 등도 기여함. - **기전 감염 및 염증 반응으로 인한 기도 폐쇄의 심화, 점액 과다 분비, 가스 교환 장애(V/Q mismatch) 및 호흡 부전 발생.
+- 학습 목표: COPD 급성 악화와 유사 질환 감별
+
+## 검수 근거
+
+- https://goldcopd.org/wp-content/uploads/2025/11/GOLD-REPORT-2026-v1.2-20Nov2025_WMV.pdf

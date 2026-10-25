@@ -17,19 +17,24 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: management
 difficulty: complex
-answer: C
+answer: "C"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k
+curation_status: "revised"
+curation_reason: "FMD 치료를 모든 환자에게 고정된 ramipril+시술 처방으로 일반화하지 않음."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -47,10 +52,20 @@ D. 에날라프릴과 정맥 이식편을 이용한 대동맥-신동맥 우회�
 
 ## 해설
 
-
-신동맥 섬유근이형성증으로 인한 협착·확장은 재발성 고혈압을 일으키며, 경피적 혈관성형술이 치료법이다. 라미프릴(ACE‑I)과 스텐트 없이 시행하는 경피적 혈관성형술이 표준이다. 따라서 가장 적절한 처치는 라미프릴과 스텐트 없이 경피적 혈관성형술이다.
+젊은 환자의 원위 신동맥 협착·확장 교대 소견은 FMD에 합당하다. 현재 혈압을 조절하면서 혈역학적으로 의미 있는 병변의 풍선혈관성형을 고려하는 C가 이 문항의 의도에 맞는다. 통상 stent는 합병증 등 특별한 경우가 아니면 필요하지 않다. ACE억제제와 ARB 병용은 피하고 신기능·칼륨을 감시한다. 시술 후 약물 필요성은 혈압 반응에 따라 달라진다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000335
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: FMD 치료를 모든 환자에게 고정된 ramipril+시술 처방으로 일반화하지 않음.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.ahajournals.org/doi/10.1161/HYP.0000000000000217

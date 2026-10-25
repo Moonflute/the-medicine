@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -63,6 +65,13 @@ D. 이마티닙 치료
 
 
 BCR‑ABL 양성 만성 골수성 백혈병에 대한 표준 치료는 티로신키나제 억제제 이마티닙이다. 따라서 이마티닙 치료가 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004568 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 분자확인 BCR::ABL1 양성 만성기 CML에서 선택지 D imatinib의 유효성을 현행 ELN과 대조 유지. 다른 초기 TKI 선택 가능성도 있음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12310532/
 
 ## 출처
 

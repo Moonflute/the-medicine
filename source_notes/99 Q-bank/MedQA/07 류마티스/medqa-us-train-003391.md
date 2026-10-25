@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,13 @@ D. 투베르쿨린 피부검사
 
 
 류마티스 관절염 환자는 경추(특히 C1‑C2) 불안정이 흔히 발생하므로, 신경학적 합병증을 예방하기 위해 먼저 경추 X‑ray를 시행한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003391 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: RA 양상의 말초관절염에 새 경부통이 동반되어 선택지 중 경추 X선 A로 경추 침범·불안정을 평가하는 것이 적절하다. 무증상 RA 전원 선별검사라는 의미로 확대하지 않았다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.radiologyinfo.org/en/info/acs-cervical-neck-pain-radiculopathy
 
 ## 출처
 

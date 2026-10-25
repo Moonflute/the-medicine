@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "외상 후 고환 윤곽 식별 곤란이라는 파열 단서 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 정소가 비대해지고 압통이 있음
 
 ## 오답 포인트
 
-- **B. 고환이 위쪽으로 회전함:** 고환이 위쪽으로 회전하는 것은 고환 꼬임(비틀림)의 특징이다.
+- **고환이 위쪽으로 회전함:** 고환이 위쪽으로 회전하는 것은 고환 꼬임(비틀림)의 특징이다.
 
 ## 출처
 
 - 내부 학습 노트: 고환 파열 (Testicular rupture)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/고환 파열 (Testicular rupture).md`
-- 학습 목표: 원문 핵심: * **CC:** 극심한 음낭 통증, 부종, 혈종. * **P/E:** 음낭의 종창, 압통, 피부 변색(ecchymosis). 고환의 윤곽이 불분명해질 수 있음.
+- 학습 목표: 고환 파열의 신체검진 단서
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 외상 후 고환 윤곽 식별 곤란이라는 파열 단서 유지.

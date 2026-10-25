@@ -19,15 +19,17 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,16 @@ D. 복부와 골반 비조영 CT
 
 ## 해설
 
+급성 편측 옆구리 통증과 늑골척추각 압통, 결석 과거력은 요로결석을 의심하게 한다. 소변검사에 혈뇨가 없더라도 결석이 배제되지는 않는다. 제시된 보기 중 결석의 유무·위치·크기와 폐색 여부를 평가할 수 있는 검사는 D, 복부·골반 비조영 CT이다.
 
-플루오로퀴놀론 관련 건병증은 아킬레스건에 통증·압통을 일으키며, 약물 복용 후 발생한다. 환자의 증상과 약물 힌트('D' 시작)와 일치한다. 다른 선택지는 요관 결석 치료와 무관하다.
+영상검사와 별개로 적절한 진통도 병행해야 한다. 특정 진통제를 요구한다는 사실만으로 꾀병이나 약물추구로 단정해서는 안 되며, 확인 없이 오피오이드만 처방하고 수개월 뒤 추적하는 것도 적절하지 않다. 플루오로퀴놀론 건병증은 이 사례의 옆구리 통증을 설명하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 플루오로퀴놀론 건병증 해설을 급성 옆구리 통증의 요로결석 진단 영상으로 교체. 원정답 D 유지; 약물요구만으로 진단을 단정하거나 진통을 배제하지 않도록 수정.
+- https://uroweb.org/guidelines/urolithiasis/chapter/guidelines
 
 ## 출처
 

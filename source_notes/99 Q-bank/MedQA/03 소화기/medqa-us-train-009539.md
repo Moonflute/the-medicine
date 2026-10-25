@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. MALT 림프종
 ## 해설
 
 
-바렛 식도는 장기적으로 식도 선암(선암, 즉 선형상 선암)으로 진행될 위험이 가장 높다. 이는 장기적인 위산 노출에 의해 비정상적인 선상 세포가 암으로 변하는 과정이다. 다른 선택지는 바렛 식도와 연관성이 낮다.
+정답 A. Barrett 식도는 식도 편평상피가 장상피화생으로 대체된 상태로 식도 선암 위험 증가와 연관된다. 모든 환자가 암으로 진행하는 것은 아니며 이형성 정도 등에 따라 위험이 다르다. PPI로 증상이 조절되어도 Barrett 관련 위험이 사라졌다고 해석하지 않는다. 이 문항은 식도 선암과의 연관성을 묻는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009539 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Barrett 식도의 장상피화생–식도선암 위험을 설명하고 오역 및 필연적 진행처럼 보이는 표현 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

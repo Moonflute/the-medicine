@@ -19,23 +19,25 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-16세 남아가 수일 동안 권태감, 피로, 인후통, 발열로 소아과에 왔다. 체온 39.1°C, 심박수 82회/분, 혈압 122/76 mmHg, 호흡 14회/분, 산소포화도 99%였다. 비장비대, 편도 삼출물, 후이개 림프절병증이 있었으나 편도는 크게 커지지 않았다. 림프구 수가 증가하고 말초혈액도말에서 비정형 림프구가 보였으며 이형 림프구 항체검사가 양성이었다. 가장 적절한 치료는?
+16세 남아가 수일 동안 권태감, 피로, 인후통, 발열로 소아과에 왔다. 체온 39.1°C, 심박수 82회/분, 혈압 122/76 mmHg, 호흡 14회/분, 산소포화도 99%였다. 비장비대, 편도 삼출물, 후이개 림프절병증이 있었으나 편도는 크게 커지지 않았다. 림프구 수가 증가하고 말초혈액도말에서 비정형 림프구가 보였으며 이종친화항체(heterophile antibody) 검사가 양성이었다. 가장 적절한 치료는?
 
 ## 선택지
 
@@ -46,8 +48,13 @@ D. 프레드니손
 
 ## 해설
 
+발열·인후통·비장비대·비정형 림프구와 이종친화항체 양성은 EBV 단핵구증에 맞다. 수분·휴식 등 지지요법과 비장 손상 위험의 접촉 스포츠 제한(A)이 적절하다. 기도폐쇄 등 중증 합병증이 없으면 일상적 스테로이드·항바이러스제를 사용하지 않는다.
 
-발열, 인후통, 비장비대, 비정형 림프구와 양성 이형 림프구 항체는 전염성 단핵구증(EBV 감염)을 시사한다. 이 질환은 대부분 자가 제한적이며, 특별한 항바이러스제 치료는 필요하지 않다. 따라서 가장 적절한 치료는 침상안정과 활동 제한이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비합병 EBV의 지지요법·활동 제한 A 유지. heterophile 항체를 이형 림프구 항체로 오역한 부분 교정.
+- https://www.cdc.gov/epstein-barr/about/mononucleosis.html
 
 ## 출처
 

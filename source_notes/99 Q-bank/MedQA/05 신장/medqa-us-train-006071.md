@@ -18,15 +18,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: mechanism
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "바이러스가 세뇨관을 막는다는 잘못된 기전을 치료 관련 acyclovir 결정 신병증으로 교정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +49,20 @@ D. 신세뇨관 폐쇄
 
 ## 해설
 
-
-대량 대상포진에 동반된 급성 신세뇨관 폐쇄는 바이러스 감염에 의한 세뇨관 손상으로 크레아티닌 상승과 급성 신부전을 일으킨다.
+파종성 대상포진 입원 치료 뒤 빠른 creatinine 상승·옆구리 통증은 acyclovir 결정 침착에 의한 세뇨관 폐쇄를 의도한 사례다. 원문에 투여 약물은 직접 명시되지 않아 이는 표준 치료에서 추론한 전제이다. 실제로는 투여 이력·수액 상태·소변과 다른 AKI 원인을 확인한다. 바이러스 감염 자체가 결정처럼 세뇨관을 막는다는 설명은 잘못이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006071
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 바이러스가 세뇨관을 막는다는 잘못된 기전을 치료 관련 acyclovir 결정 신병증으로 교정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23a7cf9e-f21b-06c2-e063-6394a90aa623

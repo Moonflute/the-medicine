@@ -17,13 +17,13 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: "D"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,11 @@ related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
+curation_status: "revised"
+curation_reason: "없는 ACE억제제 복용을 삭제하고 모든 약물 무차별 중단이라는 위험한 선지를 원인 약물 재평가로 한정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,14 +49,24 @@ related_drug_slugs:
 A. 칼륨
 B. 중탄산염
 C. 인슐린과 칼륨
-D. 환자의 기존 복용약 중단
+D. NSAID를 중단하고 metformin을 보류하는 등 기존 약물을 재평가
 
 ## 해설
 
-
-환자는 NSAID와 ACE 억제제 복용 중이며 급성 신손상(크레아티닌 2.7 mg/dL)과 대사성 산증(HCO₃⁻ 16 mEq/L)이 나타난다. 원인 약물 중단이 급성 신손상의 첫 번째 치료이며, 다른 처치는 혈압·전해질 교정 후에 고려한다. 따라서 기존 복용약 중단이 가장 적절한 다음 단계이다.
+중복 NSAID 노출과 신기능 저하가 있으므로 NSAID를 중단하고, 산증이 동반된 동안 metformin도 보류하며 약물을 재평가한다. 제시된 약물에 ACE억제제는 없다. GCS11·수포음·음이온차 산증은 즉각적인 안정화와 lactate·ketone 등 원인 평가가 필요한 소견이며 약 중단만으로 충분하지 않다. Insulin 등 모든 필요한 약을 일률적으로 중단한다는 뜻이 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009429
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 없는 ACE억제제 복용을 삭제하고 모든 약물 무차별 중단이라는 위험한 선지를 원인 약물 재평가로 한정.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b8004451-7b26-425b-b5ea-cbb1b08e30e3

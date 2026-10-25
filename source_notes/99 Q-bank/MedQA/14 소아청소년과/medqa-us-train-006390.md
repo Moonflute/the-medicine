@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 태반 아로마타제 결핍
 
 ## 해설
 
+21-수산화효소 결핍(A)은 코르티솔·알도스테론 합성을 저하시켜 염분 소실, 저나트륨혈증·고칼륨혈증·쇼크를 일으킬 수 있다. 전구물질이 안드로겐 합성으로 전환되어 안드로겐은 증가하며 46,XX 영아의 음핵 비대·음순 융합 등 남성화가 생긴다. 현저한 17-hydroxyprogesterone 상승도 이 진단에 부합한다.
 
-소음순이 붙어 있고 음핵이 비대해진 외음부는 여성화된 외생식기를 의미한다. 21‑수산화효소 결핍은 부신피질에서 알도스테론 합성이 차단돼 나트륨 손실, 저혈압, 고칼륨혈증을 일으키며, 동시에 안드로겐 감소로 외음부가 여성화된다. 혈청 17‑하이드록시프로게스테론이 현저히 상승하는 것은 이 효소 결핍의 특징이다. 따라서 가장 가능성 높은 원인은 21‑수산화효소 결핍이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 21-hydroxylase 결핍에서 안드로겐 감소·여성화라는 반대 기전 오류를 교정.
+
 
 ## 출처
 

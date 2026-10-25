@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 리슈만편모충증
 ## 해설
 
 
-바베시아는 진드기 매개 감염으로 급성 용혈성 빈혈, 황달, 간비장비대, 점상출혈을 일으킨다. 환자의 실험실 소견과 임상 양상이 가장 일치한다.
+여행 없는 뉴저지 거주자의 여름 고열과 용혈성 빈혈·혈소판감소는 Babesia A에 가장 부합한다. 현지 진드기 노출을 기억하지 못해도 가능하며 malaria는 해외/수혈 노출 등 추가 역학이 필요하다. 도말 그림이 누락되어 Maltese cross 등 특정 형태를 실제 보았다고 단정하지 않고 적절한 도말 수기판독/PCR로 확인한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004335 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 뉴저지 여름·용혈/혈소판감소의 Babesia A 가능성 유지; 없는 도말의 형태를 확정하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.idsociety.org/practice-guideline/babesiosis/
 
 ## 출처
 

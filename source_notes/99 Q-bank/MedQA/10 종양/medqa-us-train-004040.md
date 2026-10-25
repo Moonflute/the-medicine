@@ -20,11 +20,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 선암
 ## 해설
 
 
-환자는 저나트륨혈증과 폐암에서 비정상적인 ADH 분비(SIADH) 증후군을 동반한 경우이며, 소세포폐암이 가장 흔히 부적절한 ADH 분비를 일으킨다. 따라서 소세포폐암이 가장 가능성 높은 진단이다.
+흡연자의 만성 기침·체중감소에 저나트륨혈증이 동반되면 소세포폐암의 이소성 ADH 분비에 의한 SIADH를 고려한다. 선택지 중 A가 이 연관을 가장 잘 설명한다. 다만 Na127만으로 SIADH를 확진하지 않으며 혈청/요삼투압·요Na·체액상태·갑상선/부신기능과 음주 관련 저용질 섭취 등을 평가한다. 제공되지 않은 흉부 X선에서 특정 종괴 모양을 보았다고 가정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004040 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 저나트륨혈증만으로 SIADH 확진을 전제하지 않고 소세포폐암과의 전형적 연관을 설명했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

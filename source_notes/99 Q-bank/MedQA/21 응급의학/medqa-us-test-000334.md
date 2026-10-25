@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 기관삽관 및 기계환기
 
 ## 해설
 
+통증에 눈뜨기 E2, 신음 V2, 통증 회피 M4로 GCS는 8점이다. 다발성 외상과 의식저하에서 기도 보호가 어렵고 환기 저하 위험이 있어 기관삽관·기계환기(D)를 우선한다. 산소포화도·혈액가스가 없어 이미 저산소증이 확인되었다고 주장해서는 안 된다. 경추를 보호하면서 기도를 확보하고 다른 흉부·출혈 손상도 동시에 평가한다.
 
-환자는 다발성 외상과 저산소·저환기 상태로 의식 저하와 저산소증이 있다. 기도 확보와 호흡 지원이 가장 시급하므로 기관삽관·기계환기가 최우선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 삽관 D의 근거를 관찰되지 않은 저산소증이 아니라 GCS 8과 기도 보호 실패 위험으로 수정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
+- 공식/학회 근거: https://www.glasgowcomascale.org/downloads/GCS-Assessment-Aid.pdf
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 반발통과 기침으로 악화되는 통증
 
 ## 해설
 
+본문에 폐색 위치가 요관신우이행부(UPJ)라고 명시되어 있어 신우 팽창에 따른 옆구리 중심 통증 B가 출제 의도에 가장 부합한다. 더 원위부 요관 병변에서 전형적인 사타구니 방향 방사통과 구별하는 문항이다. 다만 통증 양상은 겹칠 수 있어 위치를 통증만으로 확정하지 않는다. 반발통·기침 악화는 복막 자극을 더 시사하고 정상 반대쪽 신장이 있으면 일측 폐색만으로 부종·무뇨가 일반적이지 않다. 초음파의 핵심 위치가 본문에 서술되어 그림 자체는 필수 아님.
 
-요관신우이행부 폐색은 급성 신우통을 일으키며, 통증이 옆구리에서 사타구리(사타구니)로 방사되는 것이 특징이다. 반면 옆구리 통증이 사타구리로 방사되지 않거나 무통성은 비특이적이다. 따라서 사타구니로 방사되지 않는 옆구리 통증은 가장 잘 나타나지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정답 B와 반대로 사타구니 방사통을 주장하고 질문을 '가장 안 나타나는' 것으로 바꾼 해설 교정.
 
 ## 출처
 

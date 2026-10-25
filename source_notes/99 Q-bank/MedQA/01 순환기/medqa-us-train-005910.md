@@ -21,11 +21,11 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,15 @@ D. 하이드랄라진
 
 ## 해설
 
+허혈성 ECG/troponin과230/130은 ACS 동반 고혈압응급이다. 선택지 A의 IV nitroglycerin과 적절한 beta차단은 심근산소요구·혈압을 낮출 수 있다. 쇼크·급성저박출성 HF·서맥/전도장애 등 금기를 확인하고 모니터링하에 적정한다. 무조건 최대속도로 정상혈압을 만들거나 관상동맥관류를 해칠 정도로 낮추지 않는다.
 
-고혈압 위기·응급에서 급성 심근경색을 동반한 경우, 혈압을 빠르게 낮추기 위해 베타 차단제(에스몰롤)와 혈관 확장제(IV 니트로글리세린)를 병용한다. 이는 심장 부담을 감소시키고 혈압을 목표 범위로 조절한다. 따라서 두 약물 조합이 1차 항고혈압제이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ACS 고혈압응급 A를 무제한 신속정상화가 아닌 적정·금기확인하 조절로 한정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356
+- https://www.ahajournals.org/hyp/doi/pdf/10.1161/CIR.0000000000001309
 
 ## 출처
 

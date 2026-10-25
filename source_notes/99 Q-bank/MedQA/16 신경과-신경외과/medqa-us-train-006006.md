@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 나트륨 통로 길항제
 
 ## 해설
 
+안정 시 떨림과 경직은 파킨슨병을 시사한다. 비교적 젊고 인지기능이 보존된 떨림 우세 환자에서 항콜린제(A)를 선별적으로 고려할 수 있다. 이는 파킨슨병 전체에 가장 효과적이거나 보편적인 일차 치료라는 뜻은 아니다. 운동 증상 전반에는 levodopa가 더 효과적이며, 치료는 기능 영향과 부작용 위험에 맞춘다. 항콜린제는 혼동·기억력 저하·환각·변비·요폐 등의 위험 때문에 특히 고령자나 인지장애 환자에서 피한다.
 
-안정 시 손 떨림, 손가락-코 검사 시 호전, 정상 인지·보행은 파킨슨병 초기형을 시사한다. 파킨슨병 1차 치료는 항콜린제가 가장 효과적이다. 따라서 항콜린제 계열을 시작한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 떨림 우세·인지 정상 환자의 보기 중 A 유지. 항콜린제를 파킨슨병 전반의 가장 효과적인 일차약으로 설명한 오류 교정.
+- 공식/학회 근거: https://www.ninds.nih.gov/current-research/focus-disorders/parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng71/chapter/Recommendations
 
 ## 출처
 

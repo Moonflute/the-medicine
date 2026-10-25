@@ -21,13 +21,15 @@ question_type: risk_factor
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 간 지방증
 
 ## 해설
 
+MCP 관절병증·갈고리 모양 골극, 당뇨와 높은 transferrin saturation/ferritin은 혈색소증을 시사한다. 뇌하수체·성선의 철 축적으로 성선기능저하증 A가 생길 수 있다. 간경변·간세포암 및 확장성/제한성 심근병증도 알려져 있으나 선택지의 간선종이나 비후성 심근병증과 동일시해서는 안 된다.
 
-유전성 혈색소증은 철 과다 축적으로 성선기능저하증(성선 저하) 위험을 증가시킨다. 간선종·비후성 심근병증·간 지방증은 다른 합병증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 혈색소증의 hypogonadism A는 유지. 오답 병변들을 실제 합병증이라고 나열한 해설 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 수용성 요오드 조영제를 이용한 단일 조영 식도조영술
 ## 해설
 
 
-구강 백색 플라크와 식도 증상은 구강·식도 칸디다증을 나타내며, 이는 CD4 수가 200/mm³ 이하인 HIV 감염에서 흔히 발생한다. 따라서 면역 상태 평가를 위해 CD4 세포 수 측정이 다음 단계이다.
+구강 백색 플라크에 연하통이 동반되면 구강/식도 칸디다증 및 면역저하를 평가한다. 선택지 중 CD4 C가 면역상태 평가에 가장 관련되지만 HIV는 별도의 항원/항체 및 필요시 핵산 검사로 진단해야 한다. 나이·보조생활시설 거주만으로 성생활이나 HIV 감염을 가정하지 않으며 다른 면역저하·약물 원인도 확인한다. 이 검사가 식도 진료/항진균 치료를 대신하는 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-004439 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 면역결핍 평가 CD4 C 유지하되 구강 백색병변만으로 HIV 확진 및 CD4 검사를 HIV 진단검사로 혼동한 설명 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

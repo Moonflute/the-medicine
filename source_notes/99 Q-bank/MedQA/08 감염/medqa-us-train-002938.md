@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 인터페론-감마 방출검사
 ## 해설
 
 
-BCG 접종 이력이 있는 환자에서 결핵 감염을 평가할 때는 인터페론‑γ 방출 검사가 BCG에 영향을 받지 않는다. 따라서 인터페론‑γ 방출 검사가 가장 적절한 다음 단계이다.
+취업 전 결핵 감염 선별의 맥락에서 BCG 영향을 받지 않는 IGRA D가 TST보다 적절한 선택이다. 다만 환자는 만성 기침이 있어 흡연 관련 기도질환 외에도 활동성 결핵을 임상적으로 평가해야 한다. IGRA는 감염 여부를 뒷받침할 뿐 잠복과 활동성 결핵을 구분하거나 활동성 질환을 배제하는 검사는 아니다. 증상·진찰에 따라 흉부 영상과 객담 분자검사/배양이 필요할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002938 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: BCG 접종자의 감염 선별 IGRA D 유지; 만성 기침에서 활동성 TB를 IGRA 하나로 배제할 수 없다는 한계 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/clinical-and-laboratory-diagnosis.html
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 혈청 가스트린 수치
 ## 해설
 
 
-복부 팽만, 전반적 복통, 반발통, 저혈압·빈맥은 천공성 궤양에 의한 복막염을 의심하게 한다. 복막염의 진단과 천공 위치 확인을 위해 가장 신뢰할 수 있는 검사는 복부·골반 CT이다. 따라서 다음 단계는 복부 및 골반 CT이다.
+정답 B. 궤양 환자의 갑작스러운 복통과 반발통은 천공성 궤양을 의심하게 한다. 선택지 중 복부·골반 CT는 천공과 자유공기/누출 범위를 평가하는 민감한 검사다. 그러나 혈압 96/54와 빈맥이 있으므로 소생·정맥 항생제·긴급 외과 평가를 병행하며, 불안정하거나 명백한 복막염에서 CT를 기다려 필요한 수술을 지연해서는 안 된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000601 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 천공 의심 CT B 유지하되 저혈압·복막자극에서 소생·항생제·외과 평가를 지연하는 검사 우선주의 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6947898/
 
 ## 출처
 

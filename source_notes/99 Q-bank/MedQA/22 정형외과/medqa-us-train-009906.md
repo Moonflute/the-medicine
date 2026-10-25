@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 과사용 손상
 
 ## 해설
 
+청소년의 과신전·부하 운동, 요천추 극돌기에서 만져지는 계단 변형과 만성 통증은 척추전방전위증(A)을 시사한다. 청소년 운동선수에서는 관절간부(pars interarticularis)의 피로손상·척추분리증과 연관되어 상위 척추가 아래 척추에 대해 앞으로 전위할 수 있다. 이는 단순 성장판 연골 약화나 극돌기 비대만의 문제가 아니다. 방사통은 동반 신경근 자극을 시사할 수 있다.
 
-청소년에서 요추부 극돌기 비대와 인접한 두 척추가 어긋나는 소견은 척추전방전위증(전방 전위)이며, 이는 성장판 연골의 약화와 연관된다. 따라서 가장 가능성 높은 진단은 척추전방전위증이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 성장판 연골 약화가 직접 기전이라는 해설을 청소년의 pars 피로손상과 전위로 교정했다.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/spondylolysis-and-spondylolisthesis/
 
 ## 출처
 

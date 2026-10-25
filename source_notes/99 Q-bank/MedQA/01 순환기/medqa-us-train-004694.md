@@ -19,15 +19,17 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 밀리논
 
 ## 해설
 
+혈압과 관류가 유지되는 급성 울혈성 악화에서는 A의 bumetanide로 체액과부하를 줄인다. Bumetanide는 헨레고리 굵은상행각 NKCC2를 억제하는 loop 이뇨제이지 ARNI가 아니다. 신기능·전해질·이뇨반응을 감시하며 저관류가 없는 환자에게 dopamine/milrinone을 일률적으로 투여하지 않는다.
 
-급성 비대상성 심부전에서 체액 저류와 저산소증을 개선하기 위해 부메타니드(ARNI)가 1차 치료제로 권장된다. 다른 약물은 혈압·심박수에 더 큰 영향을 미친다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Bumetanide를 ARNI로 분류한 오류를 loop 이뇨제로 교정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063
 
 ## 출처
 

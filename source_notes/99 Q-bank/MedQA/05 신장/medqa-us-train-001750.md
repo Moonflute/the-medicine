@@ -20,17 +20,19 @@ question_type: adverse_effect
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 하이드로클로로티아지드
 
 ## 해설
 
+정답은 C이다. 양측 신동맥협착에서는 사구체여과를 유지하는 데 angiotensinII의 수출세동맥 수축이 중요하다. captopril로 이를 차단하면 여과압과 GFR이 감소하여 creatinine이 급증할 수 있다. 신장 전체 혈류가 반드시 급감한다는 설명과 구별한다. 다른 약보다 새 ACEI 노출의 시간관계와 영상이 가장 합당하다.
 
-ACE 억제제(캅토프릴)는 양측 신동맥 협착이 있는 환자에서 레닌-안지오텐신 시스템 차단으로 신혈류가 급격히 감소해 급성 신부전이 발생한다. 따라서 급성 신부전을 일으킨 약물은 캅토프릴이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ACEI 유발 AKI를 신혈류 감소가 아니라 수출세동맥 확장/사구체여과압 감소로 설명.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

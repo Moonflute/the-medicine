@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 경식도 심초음파
 
 ## 해설
 
+이 62세 여성은 저체중·흡연·과음 등 골절 위험인자가 있어 선지 중 골밀도 평가를 위한 DXA(B)가 가장 적절하다. 65세 미만 폐경 여성은 먼저 위험인자를 확인하고 임상 골절위험평가로 검사 필요성을 판단한다. 본문에 폐경 상태가 직접 명시되지는 않았으므로 실제 진료에서는 함께 확인한다.
 
-저체중(BMI 18)인 62세 여성은 골다공증 위험이 높으며, 골밀도 검사를 위한 표준 방법은 이중에너지 X선 흡수계측(DEXA)이다. 따라서 가장 적절한 처치는 이중에너지 X선 흡수계측이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 위험인자 있는 65세 미만 여성의 DXA B를 유지하되 저체중 하나만으로 일괄 검사가 아니라 폐경 및 임상 위험평가를 반영한다.
+- 공식/학회 근거: https://www.uspreventiveservicestaskforce.org/uspstf/index.php/recommendation/osteoporosis-screening
 
 ## 출처
 

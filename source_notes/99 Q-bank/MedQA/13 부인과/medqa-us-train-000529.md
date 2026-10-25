@@ -18,13 +18,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 과도한 안드로겐 생성
 
 ## 해설
 
+초경 후 초기에는 시상하부-뇌하수체-난소 축의 성숙과 성선자극호르몬 분비 조절이 완전하지 않아 무배란 주기가 흔하다. 황체기 프로게스테론의 규칙적 작용이 없어 불규칙하고 오래 지속되는 출혈이 생길 수 있으므로 B가 가장 적합하다. 이는 성선자극호르몬 과다분비에 의한 ‘기능성 난소 과다증’이라는 뜻이 아니다. 과다·장기 출혈에서는 빈혈과 출혈질환 등 다른 원인도 고려해야 하며 20백분위수 체중만으로 저체중을 단정하지 않는다.
 
-월경 과다와 연장된 기간, 저체중, 정상 검진은 원시성 성선자극호르몬(gonadotropin) 과다 분비에 의한 기능성 난소 과다증을 가장 잘 설명한다. 자궁내막 용종이나 혈소판 질환은 출혈 양상과 연관이 적다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 부적절한성선자극호르몬생성을과다분비/난소과다증으로뒤집은해설오류교체. B유지.
+
 
 ## 출처
 

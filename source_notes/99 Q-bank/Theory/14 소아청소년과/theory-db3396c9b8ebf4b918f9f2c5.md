@@ -16,32 +16,49 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "중첩된 절단값 선택지를 제거하고 NASEM의 결핍 위험 범위로 출처·맥락을 한정."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-혈청 25-(OH) 비타민 D 농도가 어느 정도 이하이면 결핍으로 정의되는가?
+NASEM의 골건강 관련 해석에서 비타민 D 결핍 위험과 연관되는 혈청 25(OH)D 범위는?
 
 ## 선택지
 
-A. <12 ng/mL
-B. 12-30 ng/mL
-C. <30 ng/mL
-D. <5 ng/mL
+A. 12 ng/mL 미만
+B. 12 이상 20 ng/mL 미만
+C. 20 이상 50 ng/mL 이하
+D. 50 ng/mL 초과
 
 ## 해설
 
-25-(OH) 비타민 D 농도가 12 ng/mL 미만이면 비타민 D 결핍으로 진단한다.
+NIH ODS가 요약한 NASEM 기준에서는 혈청 25(OH)D 12 ng/mL 미만이 결핍 위험과 연관된다. 수치의 임상 해석은 대상·검사법·맥락에 따라 다르며 모든 학회가 동일한 보편 절단값을 제시하는 것은 아니다. 정상인 전원에 정기검사를 하라는 의미도 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 비타민 D 결핍증 (Vitamin D Deficiency)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/비타민 D 결핍증 (Vitamin D Deficiency).md`
-- 학습 목표: 원문 핵심: * **혈액 검사**: 25-(OH) Vit D 저하, 저칼슘혈증, 저인산혈증, 알칼리성인산분해효소(ALP) 상승, 부갑상선호르몬(PTH) 상승. * **손목 X-ray**: 골단판의 확장, 컵 모양 변형(cupping), 주변부 확산(spreading), 골밀도 감소. * **진단 기준**: 혈청 25-(OH) Vit D < 12 ng/mL는 결핍, 12-30 ng/mL는 부족으로 분류.
+- 학습 목표: 25(OH)D가 상태 평가 지표이며 NASEM에서 <12 ng/mL를 결핍 위험 범위로 보는 맥락을 이해한다.
+
+## 오답 포인트
+
+- **12 이상 20 ng/mL 미만:** NASEM에서는 대체로 불충분 가능성을 고려하는 범위이다.
+- **20 ng/mL 이상:** 대부분의 건강한 사람에서 적정하다고 보는 범위와 비교해야 한다. 매우 높은 수치는 과잉 위험과 관련될 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 중첩된 절단값 선택지를 제거하고 NASEM의 결핍 위험 범위로 출처·맥락을 한정.
+- 근거: https://ods.od.nih.gov/factsheets/Vitamind-HealthProfessional/

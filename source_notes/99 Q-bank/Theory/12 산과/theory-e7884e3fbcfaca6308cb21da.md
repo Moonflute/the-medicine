@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "임상 증후군 인지를 보존하고 단일 검사·동일 순서로 확정한다는 오인을 예방."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -38,14 +43,23 @@ D. 태아 심박수 감소
 
 ## 해설
 
-양수색전증은 분만 중·직후에 급성 호흡곤란, 저혈압, 의식 변화, 대량 출혈·DIC가 나타난다.
+분만 전후 갑작스러운 저산소·순환허탈과 응고장애는 양수색전증을 우려할 중요한 조합이다. 임상적으로 감별하며 모든 사례가 동일 순서로 진행하거나 단일 검사로 확진되는 것은 아니다.
 
 ## 오답 포인트
 
-- **B. 고혈압·단백뇨·부종:** 고혈압·단백뇨는 임신성 고혈압과 관련된 증상이다.
+- **고혈압·단백뇨:** 고혈압성 임신질환을 고려한다.
+- **양수과다·태아 심박 변화만:** 모체 급성 호흡·순환·응고장애를 설명하지 못한다.
 
 ## 출처
 
 - 내부 학습 노트: 양수색전증 (Amniotic Fluid Embolism)
 - 원본 경로: `source_notes/02 Diseases/12 산과/양수색전증 (Amniotic Fluid Embolism).md`
-- 학습 목표: 원문 핵심: * **CC**: 분만 중 혹은 직후 갑작스러운 호흡 곤란, 저혈압, 의식 변화, 경련, 심정지, 대량 출혈(DIC). * **P/E**: 청색증, 빈호흡, 삼첨판 역류에 의한 심잡음, 자궁 이완에 의한 출혈.
+- 학습 목표: 양수색전증의 호흡·순환·응고장애
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 임상 증후군 인지를 보존하고 단일 검사·동일 순서로 확정한다는 오인을 예방.
+- 근거: https://publications.smfm.org/publications/581-society-for-maternal-fetal-medicine-clinical-guidelines-9/
+- 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC13565333/

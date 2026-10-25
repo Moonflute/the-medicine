@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 쿠스마울 호흡
 
 ## 해설
 
+설사·구토 후 차가운 사지·모세혈관 재충만 지연은 탈수·관류 저하를 시사한다. 열린 대천문이 함몰될 수 있어 C가 부합한다. 전두엽이 함몰된다는 의미가 아니며, 혈압 90/50만으로 저혈압을 확정하지 않는다. 발작 원인과 전해질·혈당도 별도 평가한다.
 
-심한 탈수와 저혈압으로 인한 저혈량성 쇼크에서는 전두엽 함몰이 나타난다. 함몰된 대천문은 중증 탈수의 신체적 징후이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 함몰된 대천문을 전두엽 함몰로 오역하고 정상 혈압을 저혈압으로 단정한 설명 교정.
+
 
 ## 출처
 

@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "체위 유발의 짧은 반복 회전현훈은 BPPV 핵심 감별."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 두통과 구토가 지속적으로 나타남
 
 - 내부 학습 노트: 이석증 (Benign paroxysmal positional vertigo)
 - 원본 경로: `source_notes/02 Diseases/17 이비인후과/이석증 (Benign paroxysmal positional vertigo).md`
-- 학습 목표: 원문 핵심: - **이석증** - 주호소: 머리 위치 변화 시 발생하는 수 초~1분 이내의 짧고 반복적인 회전성 어지럼증. 고령층에서는 전형적인 현훈 대신 어지러움(unsteadiness)이나 낙상으로 나타날 수 있음. - 특징: 아침에 심한 경향, 오심/구토 동반 가능, 증상 사이에는 무증상인 경우가 많음. - 신체검사: - 후반고리관 BPPV: Dix-Hallpike 검사 시 상향 및 회전성 안진. - 수평반고리관 BPPV: Head-roll 검사 시 수평 안진(apogeotropic 또는 geotropic). - 전반고리관 BPPV: Di…
+- 학습 목표: BPPV의 체위 유발과 지속 시간
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 체위 유발의 짧은 반복 회전현훈은 BPPV 핵심 감별.

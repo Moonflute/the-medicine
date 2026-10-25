@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. I형 콜라겐 합성 결함
 
 ## 해설
 
+기면·융기된 대천문·양측 망막출혈과 치유 중 갈비뼈 골절은 학대성 두부손상을 강하게 의심하게 한다. 보기 중 미만성 축삭 손상(C)이 관련될 수 있다. 망막은 안구 내부 구조이며 이 사례에서 두개골 골절이 제시된 것은 아니다. 축삭 손상이 모든 학대 사례에 반드시 있는 것은 아니며 긴급 신경영상·안전 평가가 필요하다.
 
-구토와 무력증, 눈 주변 출혈, 두개골 골절은 반복적인 머리 외상에 의한 미만성 축삭 손상(학대성 두부 외상)을 시사한다. 이는 비정상적인 행동과 신경학적 저하와 일치한다. 다른 선택지는 해당 증상을 설명하지 못한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 갈비뼈 골절을 두개골 골절로, 망막출혈을 눈 주변 출혈로 바꾼 설명 교정.
+- https://publications.aap.org/pediatrics/article-lookup/doi/10.1542/peds.2015-0356
 
 ## 출처
 

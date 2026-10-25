@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 대변 충란 및 기생충 검사
 ## 해설
 
 
-지속적인 명치 통증과 지방변·악취 설사는 만성 췌장염에 의한 외분비 기능부전을 시사한다. 만성 췌장염의 초기 평가에서는 췌장의 구조적 변화를 확인할 수 있는 복부 CT가 가장 민감하고 빠른 진단법이다. 따라서 CT 촬영이 최적의 초기 검사이다. 리파아제는 급성 췌장염에서 상승하지만 만성 경우 정상일 수 있어 초기 진단에 충분치 않다.
+정답 A. 반복 복통·장기 음주력·지방변은 만성 췌장염과 췌장 외분비부전을 의심하게 한다. 초기 진단에는 CT 또는 MRI로 구조 변화를 평가하며 선택지 중 CT가 적절하다. CT가 초기 미세 질환에서 항상 가장 민감한 검사는 아니며 불확실하면 EUS나 기능검사 등을 추가할 수 있다. 만성 췌장염에서는 lipase가 정상일 수도 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001219 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: CT A의 만성 췌장염 초기 구조평가 취지 유지; 가장 민감하다는 일률적 표현 제거.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.14309/AJG.0000000000000535
 
 ## 출처
 

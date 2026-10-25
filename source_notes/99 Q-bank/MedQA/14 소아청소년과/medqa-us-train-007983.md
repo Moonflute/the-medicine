@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 기관식도루
 
 ## 해설
 
+30주 미숙아가 출생 직후 끙끙거림·함몰·높은 산소 요구를 보이면 계면활성제 결핍에 의한 RDS(A)가 가장 타당하다. 저혈압은 진단에 필수적이지 않으며 이 사례에서 확정되지 않았다. 감염 등 동반 원인도 임상적으로 평가한다.
 
-조산아는 폐 표면활성제 결핍으로 호흡곤란증후군이 발생하며, 저산소증과 저혈압이 동반된다. 따라서 가장 가능성 높은 진단은 호흡곤란증후군이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: RDS에서 저혈압을 필수 소견처럼 쓴 설명 교정.
+
 
 ## 출처
 

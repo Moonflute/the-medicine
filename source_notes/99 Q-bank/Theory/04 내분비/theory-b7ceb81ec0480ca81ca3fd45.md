@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "글루코코르티코이드 만성 과다 노출이라는 상위 정의는 내인성 코르티솔 과다와 외인성 원인을 함께 이해하는 의미 있는 쉬운 복습으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrffnnjrlmdy3yuu2n21ftc15x29peuxzu0rzchazdg00vhf0ykfns0vomwmyahbibwnuy3lcvgvxnwtjbtl0wlnrdwjxuxxkaxnlyxnlltaxlxjly29nbml0aw9ufgrpcmvjdf9yzwnhbgw
@@ -45,3 +50,8 @@ D. 성장호르몬 과다에 의한 거대증과 당뇨
 - 내부 학습 노트: 쿠싱 증후군 (Cushing's Syndrome)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/쿠싱 증후군 (Cushing's Syndrome).md`
 - 학습 목표: 원문 핵심: - **정의**: 당질코르티코이드(glucocorticoid)의 만성적 과다 노출로 인한 임상 양상이 종합적으로 나타나는 질환. - **원인**: - **ACTH 비의존성**: 의인성(스테로이드 과투여, 가장 흔함), 부신피질샘종(adrenocortical adenoma), 부신피질암(adrenocortical carcinoma), 양측성 부신피질 증식증. - **ACTH 의존성**: 뇌하수체샘종(쿠싱병, 의인성 제외 시 가장 흔함), 이소성(ectopic) ACTH 과분비(폐, 흉선, 췌장 등의 카르시노이드 종양).
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 글루코코르티코이드 만성 과다 노출이라는 상위 정의는 내인성 코르티솔 과다와 외인성 원인을 함께 이해하는 의미 있는 쉬운 복습으로 유지.

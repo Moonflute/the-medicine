@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 철결핍성 빈혈
 
 ## 해설
 
+점막하 근종은 자궁내막과 자궁강을 변형하여 월경과다와 만성 출혈을 일으킬 수 있어 철결핍성 빈혈(D)이 대표적 합병증이다. 점막하 근종은 착상·임신에도 영향을 줄 수 있으므로 불임 위험을 전혀 높이지 않는다는 설명은 부정확하다.
 
-점막하 자궁근종은 월경과다와 장기간 출혈을 일으켜 철소모성 빈혈 위험을 높인다. 빈혈은 근종의 가장 흔한 합병증이며, 다른 선택지는 해당 환자에서 직접적인 위험을 증가시키지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 점막하 근종의 출혈성 철결핍 빈혈 D 유지. 근종이 불임 위험을 높이지 않는다는 잘못된 배제 설명 수정.
+
 
 ## 출처
 

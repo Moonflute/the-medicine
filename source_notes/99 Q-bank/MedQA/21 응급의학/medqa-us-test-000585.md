@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,12 +42,15 @@ explanation_prompt_version: explanation-ko-v1
 A. 부적절한 흉관 위치
 B. 자발성 기흉
 C. 긴장성 기흉
-D. 기관지 파열
+D. 기관기관지 파열
 
 ## 해설
 
+큰 외상과 피하기종에 적절히 놓인 흉관에도 재발하는 기흉은 지속적인 기관·기관지 공기 누출을 의심하게 한다. 선지 중 기관기관지 파열(D)이 가장 적절하다. 실제로는 흉관의 개방성·연결·위치도 재확인하며 기도 손상 평가가 필요하다.
 
-흉관이 정상 위치에 있음에도 반복 기흉이 발생하면 기관지 파열이 의심된다. 기관지 손상이 지속적인 공기 누출을 일으켜 재발 기흉을 만든다. 따라서 기관지 파열이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 적절한 흉관에도 재발하는 기흉 D를 유지하고 원문 tracheobronchial을 기관지로만 좁힌 선지를 복원한다.
 
 ## 출처
 

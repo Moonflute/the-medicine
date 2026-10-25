@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 혈색소 전기영동
 ## 해설
 
 
-MCV가 74 fL이고 페리틴이 정상인 미세적혈구성 빈혈은 지중해 빈혈(베타‑지중해빈혈) 가능성을 시사한다. 확진을 위해 혈색소 전기영동이 필요하다. 따라서 다음 적절한 검사는 혈색소 전기영동이다.
+임신 중 소구성 빈혈과 보존된 ferritin은 thalassemia 등 혈색소병 평가를 필요로 하여 선택지 D가 적절하다. Beta-thal에서는 HbA2 등 분획이 도움이 되지만 alpha-thal trait는 전기영동이 정상일 수 있어 필요한 경우 유전검사를 추가한다. 인종만으로 beta형을 확정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008197 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 소구성·저장철 보존에서 Hb분획 D 유지; 모든 thalassemia가 전기영동만으로 확진된다는 설명 보정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

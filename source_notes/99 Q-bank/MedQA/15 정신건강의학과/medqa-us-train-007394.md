@@ -22,11 +22,11 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -34,6 +34,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -51,10 +53,16 @@ D. 신동맥 초음파
 
 ## 해설
 
-
-리튬은 혈압을 낮추고 부정맥을 유발할 수 있다. 서맥·떨림·빈뇨가 나타난 경우, 리튬 농도 조절을 위해 이뇨제(예: 티아지드) 교체가 필요하다. 정답은 A.
+조증 후의 장기 치료약으로 리튬을 추론하는 문항이며, 클로르탈리돈 같은 티아지드계 이뇨제는 리튬 청소율을 낮춰 독성 위험을 높일 수 있다. 따라서 제시된 선택지 중 이뇨제 변경을 고려한다. 카프토프릴과 이부프로펜도 리튬 상호작용을 평가해야 한다. 맥박 47회/분과 떨림·빈뇨가 있어 실제로는 리튬 농도·신기능·전해질 및 ECG를 신속히 확인하고 필요 시 리튬도 보류한다. 리튬을 혈압을 낮추기 위해 쓰는 약으로 설명하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007394
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 리튬을 혈압강하제로 설명한 오류 삭제. 티아지드·ACE억제제·NSAID의 축적 위험과 서맥의 긴급 평가를 명시; 선지 문자 제거.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec

@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,13 @@ D. 병원에서 혈액제제를 비위생적으로 보관함
 ## 해설
 
 
-수혈 후 급성 전신 반응(두드러기, 천명, 저혈압)은 IgA 결핍 환자에서 IgA 함유 혈액에 대한 IgA 항체 매개 아나필락시스와 일치한다. 환자는 반복적인 부비동·폐 감염 병력이 있어 IgA 결핍 가능성이 높다. 따라서 해당 상황은 IgA 결핍과 연관된 수혈 반응이다.
+두드러기·천명·저혈압을 동반한 수혈 아나필락시스에서 선택지 C의 반복 부비동폐 감염 병력은 IgA 결핍/anti-IgA 연관성을 뒷받침할 수 있다. 본문에 실제 그런 병력이 제시된 것은 아니며 문항이 묻는 가능한 연관 상황이다. IgA 결핍은 전체 수혈 아나필락시스의 일부 원인이므로 검사·혈액은행 평가가 필요하고 발열이 있어 오염/용혈 감별도 병행한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006439 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 반복 부비동폐 감염은 주어진 사실이 아닌 선택지 가정임을 교정; 수혈 아나필락시스의 IgA 연관 C 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

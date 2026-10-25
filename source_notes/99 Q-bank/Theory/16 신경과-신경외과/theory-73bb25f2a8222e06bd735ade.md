@@ -12,40 +12,45 @@ target_type: disease
 target_slug: "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsJDquIjspp3tm4TqtbAgKExvY2tlZC1pbiBzeW5kcm9tZSkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "자발 호흡도 남을 수 있어 복수 정답이 되던 선택지를 의식·운동 조합으로 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-감금증후군 환자에서 보존되는 기능은?
+전형적인 감금증후군에서 가장 중요한 특징은?
 
 ## 선택지
 
-A. 의식과 수직 안구 운동·눈 깜빡임
-B. 언어 구사 능력
-C. 사지 움직임
-D. 자발적 호흡
+A. 의식은 보존되지만 사지마비·말하기 장애가 있고 수직 안구운동이나 눈 깜빡임으로 소통할 수 있다
+B. 각성만 있고 모든 인식 기능이 소실된다
+C. 뇌간 반사와 자발 호흡 소실이 정의상 필수
+D. 운동 기능은 정상이고 기억만 소실된다
 
 ## 해설
 
-복측 교뇌 손상으로 사지와 구음이 마비되지만, 의식과 수직 안구 운동·눈 깜빡임은 유지된다.
+주로 복측 교뇌 손상으로 운동 출력이 심하게 제한된다. 무반응처럼 보여도 의식이 남아 있을 수 있어 눈 움직임 등 의사소통 통로를 확인한다.
 
 ## 오답 포인트
 
-- **B. 언어 구사 능력:** 구음장애가 있어 언어 구사는 불가능하다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 감금증후군 (Locked-in syndrome)
 - 원본 경로: `source_notes/02 Diseases/16 신경과-신경외과/감금증후군 (Locked-in syndrome).md`
-- 학습 목표: 원문 핵심: * **CC**: 전신 마비 상태에서 의사소통이 가능한 유일한 수단인 수직 안구 운동 및 눈 깜빡임. * **P/E**: 의식은 명료함. 사지마비, 구음장애(anarthria), 연하곤란. 수직 안구 운동과 눈 깜빡임은 보존되나 수평 안구 운동은 소실될 수 있음.
+- 학습 목표: 감금증후군의 의식 보존과 눈을 통한 의사소통

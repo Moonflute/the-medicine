@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 복부 MRI에서 신장 혈관근지방종
 
 ## 해설
 
+무증상의 경계 뚜렷한 탈색, 정상 감각과 Wood등의 청백색 강조는 백반증에 합당하다. 백반증은 멜라닌세포 소실·파괴와 연관되며 정상 멜라닌세포 수를 특징으로 하지 않는다. 자가면역 갑상선질환과 연관되어 anti-TPO 증가(C)가 동반될 수 있다. Anti-TPO가 모든 백반증 환자에서 양성이거나 이 검사만으로 피부 질환이 확진되는 것은 아니다.
 
-백반증은 멜라닌세포 수는 정상이나 멜라닌 합성이 감소한다는 특징이 있다. 따라서 색소 감소는 멜라닌세포 수는 정상인 채 발생한다는 것이 가장 관련된 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 정답 anti-TPO C에 반대 선지 B(멜라닌세포 정상)를 정답으로 설명한 해설을 교체한다.
+- 공식/학회 근거: https://bpg.org.uk/wp-content/uploads/2024/01/Br-J-Dermatol-2021-Eleftheriadou-British-Association-of-Dermatologists-guidelines-for-the-management-of-people-with-vitiligo.pdf
 
 ## 출처
 

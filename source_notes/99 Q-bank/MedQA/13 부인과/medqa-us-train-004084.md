@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 혈소판, 피브리노겐, PT, PTT 측정
 
 ## 해설
 
+태동 감소와 출혈이 있으므로 먼저 태아 심박동을 확인한다(A). 도플러로 확인되지 않으면 초음파로 생존 여부를 확인하며, 심박동이 있어도 태동 감소와 출혈 원인에 대한 태아 감시·산과 평가를 계속한다. 생존 확인 전에 미소프로스톨로 분만을 유도하지 않는다.
 
-임신 28주에 태아 움직임 감소와 질 출혈이 있을 때 가장 먼저 해야 할 검사는 태아 심박동을 확인하는 도플러 초음파이다. 이는 태아 생존 여부를 즉시 판단한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태아 심박동 우선 확인 A 유지. 도플러만으로 모든 태아 안녕을 판단한다는 해석을 방지.
+- https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being
 
 ## 출처
 

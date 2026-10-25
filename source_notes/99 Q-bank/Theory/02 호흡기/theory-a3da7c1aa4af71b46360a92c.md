@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA
+curation_status: "retained"
+curation_reason: "흡입 항무스카린제의 M3 차단 기전을 대표로 선택."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -44,10 +49,10 @@ D. CysLT1 수용체
 
 ## 오답 포인트
 
-- **B. β1-아드레날린 수용체:** β1 수용체는 주로 심장에 작용한다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 
 - 내부 학습 노트: Tiotropium
 - 원본 경로: `source_notes/04 Pharmacology/02 호흡기/Tiotropium.md`
-- 학습 목표: 원문 핵심: - 기도의 M3 무스카린 수용체를 차단하여 평활근 이완을 유도하고 기관지 수축을 억제합니다.
+- 학습 목표: Tiotropium: M3 무스카린 수용체

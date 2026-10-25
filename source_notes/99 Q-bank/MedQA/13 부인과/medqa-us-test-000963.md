@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -33,6 +33,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -50,8 +52,13 @@ D. 메토트렉세이트 후 외래 추적
 
 ## 해설
 
+PID와 TOA가 의심되고 반복 구토로 경구 치료가 어렵기 때문에 입원 IV 세포테탄+독시사이클린(B)이 적절하다. 초음파 및 임신검사로 농양·자궁외임신 등을 평가한다. 호전 후에도 총14일 치료를 완수하며 TOA에서는 충분한 혐기성 범위를 포함하도록 한다.
 
-환자는 고열·복부 압통·자궁경부 이동통·부속기 종괴를 동반한 골반염증성 질환, 즉 난관난소농양(TOA)으로 판단된다. TOA는 중증 골반 감염으로 입원 후 정맥 항생제(세포테탄·독시사이클린) 치료가 표준이며, 경구 치료는 충분히 효과적이지 않다. 따라서 정맥 세포테탄과 독시사이클린을 투여하며 입원 치료가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: TOA 의심의 입원·항생제와 임신 확인, 후속 혐기성 치료 보강.
+- https://www.cdc.gov/std/treatment-guidelines/pid.htm
 
 ## 출처
 

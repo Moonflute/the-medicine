@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 아세타졸아미드 치료
 
 ## 해설
 
+증상성 수두증과 두개내압 상승 소견이 있어 뇌척수액 우회 치료가 필요하다. 보기 중 뇌실복강 단락술(B, ventriculoperitoneal shunt)은 뇌실의 뇌척수액을 복강으로 배액한다. ETV는 내시경적 제3뇌실조루술로 서로 다른 수술이다. 네 뇌실의 확장만으로 모든 폐쇄 원인을 배제할 수는 없으며, 구체적인 수술 선택은 수두증 원인과 해부에 따른다. 이뇨제만으로 확정적인 수술 치료를 대체하지 않는다.
 
-뇌실이 대칭적으로 확대된 교통성 수두증은 뇌실복강 단락술(ETV)로 CSF 흐름을 복원하는 것이 치료의 표준이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. VP shunt를 ETV로 표기한 오류 교정. 4개 뇌실확장만으로 교통성 원인을 확정하지 않음.
+- 공식/학회 근거: https://www.cns.org/guidelines/pediatric-hydrocephalus/4-cerebrospinal-fluid-shunt-endoscopic-third-ventr
 
 ## 출처
 

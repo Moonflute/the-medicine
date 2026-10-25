@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 100%
 ## 해설
 
 
-입원 시 5점(Ranson) 이상이 2점(연령>55, 혈당>200, LDH>350, AST>250, WBC>16)이고 48시간 후 2점(칼슘<8, PaO2<60, 베이스엑시드>4, 혈액량 감소>10%)을 더하면 총 4점이 된다. 4점에 해당하는 사망률은 약 15%이다. 따라서 전체 사망 위험은 15%이다.
+입원 시 확인 가능한 Ranson 항목은 나이 >55세, glucose >200mg/dL, AST >250의 3가지다. 백혈구 21,200을 통상 /µL 값으로 의도했다면 1점이 더해져 4점이지만 원문의 /mL 단위는 확인이 필요하다. 다른 항목은 모두 음성이라고 했으므로 LDH나 48시간 칼슘·산소·BUN 등을 임의 가산하지 않는다. 역사적인 Ranson 3–4점 범주의 사망률 약15%(A)를 묻는 문항이며 현 환자의 확정 예후로 해석하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007770 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 원문은 다른 위험인자 모두 음성인데 없는 48시간 항목을 더한 계산 오류 교정. Ranson3–4점의 역사적 약15% A 유지; 원문 WBC/mL·AST 단위 불명확성 명시.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

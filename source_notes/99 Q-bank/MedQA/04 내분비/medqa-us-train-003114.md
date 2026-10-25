@@ -21,13 +21,15 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 방사성핵종 갑상샘 스캔
 
 ## 해설
 
+촉지되는 갑상샘 결절의 구조적 평가는 초음파 B가 적절하다. 초기 평가에는 TSH도 필요하고 추위·변비 등 저하 증상은 유리T4와 함께 확인한다. 혈청 T3는 저하증 초기 선별검사 대체가 아니며 calcitonin을 모든 결절에서 일률적으로 뒤따라 시행하는 것도 아니다. Radionuclide scan은 주로 TSH가 낮을 때 기능성 결절 평가에 사용한다.
 
-무통성 갑상선 결절의 초기 평가에는 초음파가 가장 민감하고 비침습적이다. 혈청 T3·칼시토닌 등은 결절 특성 평가에 뒤따라 시행한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 촉지 결절 US B는 선택지상 적절. TSH 동시평가 누락 및 T3/calcitonin 모두 일률 후속검사라는 오해를 교정.
+- https://doi.org/10.1089/thy.2015.0020
 
 ## 출처
 

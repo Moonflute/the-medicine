@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: D
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "유착을 직접 시각화하는 검사 역할은 유지하고 HSG를 단순 민감도 순위로 배척한 설명을 구체화."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 자궁경검사(Hysteroscopy)
 
 ## 오답 포인트
 
-- **A. 자궁난관조영술(HSG):** HSG는 민감도가 낮아 자궁경보다 정확도가 떨어진다.
+- 자궁난관조영술과 식염수 주입 초음파는 자궁강 이상을 보여 줄 수 있으나 자궁경처럼 유착을 직접 관찰하는 검사는 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 자궁내막유착증 (Asherman Syndrome)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁내막유착증 (Asherman Syndrome).md`
-- 학습 목표: 원문 핵심: - 자궁경검사(Hysteroscopy): 진단 및 치료의 표준(Gold standard). - 자궁난관조영술(HSG) 또는 식염수 주입 초음파(SIS): 유착 의심 시 시행하나 민감도는 자궁경보다 낮음. - MRI: 자궁강이 완전히 폐쇄된 경우 유용.
+- 학습 목표: 자궁내 유착의 직접 시각화
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 유착을 직접 시각화하는 검사 역할은 유지하고 HSG를 단순 민감도 순위로 배척한 설명을 구체화.

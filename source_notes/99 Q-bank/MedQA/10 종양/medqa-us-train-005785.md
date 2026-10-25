@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 골주사검사
 
 
 요통과 T12 압통, 알칼리성 인산분해효소 상승은 골전이를 시사한다. 골전이 여부와 신경압박 위험을 평가하려면 연부조직과 골수 병변을 가장 잘 보는 영상인 척추 MRI가 필요하다. 따라서 다음 단계는 척추 MRI이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005785 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 유방암 병력의 심한 새 국소 척추통·압통에서 척추 MRI C가 적절함을 현행 지침과 대조.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations
 
 ## 출처
 

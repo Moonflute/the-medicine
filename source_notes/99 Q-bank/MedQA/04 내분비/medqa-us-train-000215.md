@@ -17,13 +17,15 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 티아민 결핍(Thiamine deficiency)
 
 ## 해설
 
+정답은 C이다. 심한 영양결핍 후 재영양하면 인슐린 분비와 동화작용이 증가하여 phosphate·K·Mg가 세포 안으로 이동한다. 저인산혈증에 따른 ATP 고갈은 근쇠약·혼돈·횡문근융해와 갈색 소변을 유발할 수 있다. 인산염을 급격히 투여해서 혈중 phosphate가 감소하는 것이 아니다. thiamine 결핍 등도 함께 평가해야 하지만 제시된 소견 조합은 C가 가장 합당하다.
 
-재영양 시 급격한 인산염 투여로 혈청 인산염이 급격히 감소하면 저인산혈증이 발생하고, 이는 근육 약화·혼란·갈색 소변(근육 분해)으로 나타난다. 다른 선택지는 해당 증상과 연관이 적다. 따라서 저인산혈증이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 재영양 때 인산염 투여 때문에 감소한다는 역기전을 인슐린 유발 세포내 이동으로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

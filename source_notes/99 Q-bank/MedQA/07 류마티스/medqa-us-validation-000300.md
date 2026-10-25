@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -38,13 +40,21 @@ explanation_prompt_version: explanation-ko-v1
 
 A. 망막병증
 B. 동맥성 고혈압
-C. 폐렴
+C. 비감염성 폐장염(pneumonitis)
 D. 잠복결핵 재활성화
 
 ## 해설
 
 
-신증후군 의심 시 단백뇨·부종·고혈압이 동반되며, 원인 질환(예: 사구체 신염) 확인을 위해 방광경검사가 가장 유용한 진단 검사이다. 따라서 방광경검사가 다음 단계가 된다.
+대칭 손·손목 활막염과 anti-CCP 상승은 RA를 지지한다. Methotrexate는 대표적인 초기 DMARD이며 드물지만 급성·아급성 비감염성 pneumonitis를 일으킬 수 있어 C가 맞다. 호흡기 증상이 생기면 약물폐장염, 감염 및 RA 관련 폐질환을 감별해야 한다. Retinopathy는 hydroxychloroquine, 고혈압은 leflunomide 등, 잠복결핵 재활성화는 TNF 억제제와 더 대표적으로 연관된다. 기존 신증후군/방광경 설명은 무관하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000300 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: RA 약제 부작용 문항에 신증후군·방광경 해설이 연결된 오연결 교체; C Pneumonitis를 폐렴이 아닌 비감염성 폐장염으로 복구.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085s072lbl.pdf
+- https://doi.org/10.1016/j.ard.2026.01.023
 
 ## 출처
 

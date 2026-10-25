@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -45,7 +47,14 @@ D. 측두동맥 생검(Temporal artery biopsy)
 ## 해설
 
 
-젊은 여성의 전신성 관절통·두통·상지 맥박 불균등·CRP·ESR 상승은 혈관염을 시사한다. Takayasu 동맥염은 대동맥 및 주요 가지에 염증을 일으키며 스테로이드가 1차 치료이다. 따라서 프레드니손 투여가 적절하다.
+전신 염증과 상지 맥박 차이는 타카야수동맥염을 의심하게 한다. 선택지 중 활동성 염증을 신속하게 억제하는 프레드니손(C)이 적절하다. 실제 진료에서는 혈관 영상으로 범위를 평가하고 비글루코코르티코이드 면역억제제 병용 등을 전문의가 결정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-train-000574` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 젊은 여성의 맥박 차이·전신 염증에서 Takayasu 초기 스테로이드 C 유지. 장기 단독 스테로이드가 완결치료라는 오해 방지.
+- 범위: evidence-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632
 
 ## 출처
 

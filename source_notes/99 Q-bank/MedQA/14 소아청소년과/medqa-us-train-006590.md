@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,13 @@ D. 날록손 투여
 
 ## 해설
 
+거대아·대설증·귀 주름·편측 과성장·배꼽탈장은 Beckwith–Wiedemann 스펙트럼을 시사하며 과인슐린혈증성 저혈당 위험이 있다. 발한·떨림·기면에서 즉시 혈당을 확인하고 포도당(B)으로 교정한다. 채혈 때문에 증상성 저혈당 치료를 지연하지 않는다. 모체 약물 병력만으로 금단이나 날록손을 선택하지 않는다.
 
-신생아는 저혈당으로 인해 저혈압, 저체온, 저활동성을 보이며, 모체의 약물 사용이 위험 요인이다. 즉시 포도당을 투여해 혈당을 교정해야 한다. 따라서 포도당 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 저혈당의 핵심 원인을 모체 약물 사용으로 오연결한 해설을 Beckwith–Wiedemann 과인슐린혈증으로 교정.
+- https://www.safercare.vic.gov.au/best-practice-improvement/clinical-guidance/neonatal/hypoglycaemia-in-neonates
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 중간 거리를 걸은 후 종아리 통증
 
 ## 해설
 
+흡연·당뇨병 병력이 있고 아픈 창백한 발가락에 육아조직이 없는 상처가 있어 말초동맥질환에 의한 허혈을 의심한다. 이 경우 걸을 때 종아리 통증이 발생하고 쉬면 호전되는 간헐적 파행(D)이 동반될 수 있다. 다만 핀 감각 저하는 동반 당뇨병성 신경병증에서도 나타나므로 감각 저하만으로 혈류 감소를 확진하는 것은 아니다. 부종이나 반사 증가는 이런 허혈성 상처의 전형적 추가 소견이 아니다.
 
-당뇨병성 말초동맥질환은 운동 시 종아리 통증(간헐적 파행)으로 나타난다. 환자는 양쪽 발가락에 창백한 궤양과 감각 저하가 있으며, 이는 말초동맥 혈류 감소를 시사한다. 따라서 가장 가능성 높은 소견은 간헐적 파행이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 허혈성 발가락 상처와 위험인자의 PAD D를 유지하며 핀 감각 저하를 동맥질환만의 소견으로 단정하지 않는다.
 
 ## 출처
 

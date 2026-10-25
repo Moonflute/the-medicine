@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 길랭-바레 증후군
 ## 해설
 
 
-혈성 설사는 장내 용혈성 대장균(Shiga toxin) 감염을 의미하며, 용혈성 요독 증후군(HUS)이 주요 합병증이다. 특히 신장 기능 악화와 혈소판 감소가 특징이다. 따라서 용혈성 요독 증후군이 가장 우려되는 합병증이다.
+집단 식중독의 무열성 혈성 설사와 신기능 이상은 STEC 및 HUS B를 우려하게 한다. HUS는 미세혈관성 용혈·혈소판감소·신손상의 조합으로 평가하지만 여기에는 혈소판 결과가 없어 이미 모두 확인되었다고 쓸 수 없다. 대변 Shiga toxin/배양·용혈/혈소판·신기능을 추적하며 혈변만으로 원인균을 확진하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006814 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 혈성 설사가 곧 STEC 확진이라는 설명 교정; 급성 신손상 후 HUS B 위험 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

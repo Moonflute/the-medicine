@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ
+curation_status: "retained"
+curation_reason: "안압 하강의 방수 생성 억제를 전신 베타차단과 연결하는 독립적 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ D. 알파‑아드레날린 작용 강화
 
 - 내부 학습 노트: Timolol
 - 원본 경로: `source_notes/04 Pharmacology/13 안과·이비인후·피부/Timolol.md`
-- 학습 목표: 원문 핵심: - 비선택적 베타-아드레날린 수용체 차단제(beta-adrenergic receptor blocking agent)로, 모양체 상피에서 방수 생성을 감소시켜 안압을 낮춘다.
+- 학습 목표: Timolol: 비선택적 베타 차단으로 방수 생성 감소
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

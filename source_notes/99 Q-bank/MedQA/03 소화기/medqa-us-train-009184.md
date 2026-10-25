@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 대변 수단 흑색 염색
 ## 해설
 
 
-만성 복통, 체중 감소, 설사, 간비대와 신경학적 불안정은 췌장암 등 복부 종괴를 의심하게 하며, 영상학적 확인이 우선이다. 복부 CT는 종양, 췌장 구조 변화 및 전이 여부를 가장 정확히 평가한다. 따라서 가장 적절한 초기 진단검사는 복부 CT이다.
+정답 A. 고령, 심한 체중감소, 식후 복통과 설사는 만성 췌장염의 외분비부전뿐 아니라 췌장 종양 등 기질적 질환을 평가해야 하는 소견이다. 선택지 중 복부 CT는 췌장의 석회화·구조 변화·종괴를 살피는 적절한 초기 단면영상이다. 음주력이나 신경학적 이상만으로 췌장암을 확진하지 않으며 CT가 모든 췌장 질환에서 가장 정확한 검사라는 뜻도 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009184 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 체중감소·식후 통증·설사에서 CT로 만성 췌장염과 악성종양을 평가하는 취지 유지; 보행 이상만으로 암 확진하지 않음.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.14309/AJG.0000000000000535
 
 ## 출처
 

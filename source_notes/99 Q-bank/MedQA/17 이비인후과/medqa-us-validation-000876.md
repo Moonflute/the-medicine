@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 사골동 세균감염
 
 ## 해설
 
+비부비동 증상 뒤 안구돌출, 시력저하와 심한 안구운동통이 나타나 안와 봉와직염을 시사한다. 사골동과 안와 사이의 얇은 지판(lamina papyracea) 및 혈관 경로를 통해 감염이 퍼질 수 있어 D가 가장 적절하다. 이는 눈꺼풀 앞쪽에 국한된 봉와직염이나 위축성 질환이 아니다. 이 사례의 증상은 실제 안와 침범을 시사한다.
 
-2주 전 상기도 감염 후 안와통증·안구돌출·안구운동통은 사골동(위축성 안와염) 감염을 시사한다. 사골동은 인접한 부비동 감염이 전이된 경우가 많으며, 가장 흔한 원인은 부비동의 세균성 감염이다. 따라서 가장 가능성 높은 원인은 사골동 세균감염이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 사골동 인접 감염의 안와 봉와직염을 위축성 안와염이라고 잘못 명명한 해설 교정.
 
 ## 출처
 

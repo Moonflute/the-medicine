@@ -21,13 +21,15 @@ question_type: risk_factor
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. X연관 우성
 
 ## 해설
 
+Calcitonin 양성 갑상샘 수질암과 metanephrine 상승의 pheochromocytoma 조합은 RET 관련 MEN2를 시사하며 상염색체우성 A로 유전된다. MEN2A에서는 부갑상샘질환, MEN2B에서는 점막신경종 등 아형별 소견이 다르다. 누락된 외형 사진 없이 아형을 확정하지 않아도 공통 유전양식 A는 결정할 수 있다.
 
-MEN 2A는 갑상선 수질암, 부갑상선 과다, 그리고 교감신경절 종양(페오크로모사이트)으로 구성되며, 상염색체 우성 유전이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 핵심 이미지 없어도 MTC+pheo의 MEN2 상염색체우성 A는 판단 가능; 아형2A를 이미지 없이 강제한 설명 수정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

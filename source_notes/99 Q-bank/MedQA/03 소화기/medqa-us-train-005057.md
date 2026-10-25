@@ -19,13 +19,15 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 췌장 질환
 
 ## 해설
 
+문맥고혈압은 간 굴모세혈관(sinusoid)의 정수압을 높여 복수 C에 기여한다. 내장혈관 확장·Na수분저류도 관련된다. PMN10은 SBP 진단 범위가 아니다.
 
-간경변에서 문맥압이 상승하면 간문맥과 체순환 사이의 압력 차이가 커져 복수가 형성된다. 이는 높은 굴포세혈관 압력에 의한 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 간경변 sinusoidal hydrostatic pressure C를 정확한 용어로 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

@@ -20,17 +20,19 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 두부 CT 혈관조영술
 
 ## 해설
 
+정답은 A이다. 반복되는 왼손 약화·감각저하와 우측 경동맥 잡음은 우측 경동맥 질환에 의한 일과성 뇌허혈을 의심하게 한다. 경부 경동맥 duplex 초음파로 협착을 평가하는 것이 제시된 선택지 중 적합하다. 단순히 모든 무증상 잡음에 검진 초음파를 권고한다는 의미가 아니다. 신경증상의 양상·시점도 신속하게 평가해야 하며 warfarin을 원인 확인 없이 시작하지 않는다.
 
-경동맥 잡음이 청진될 때 가장 먼저 해야 할 검사는 경동맥 협착 여부를 확인하기 위한 목 초음파이다. 초음파는 비침습적으로 협착 정도를 평가한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 경동맥 잡음만의 무증상 선별이 아니라 좌측 일과성 신경증상이 있는 증상성 경동맥 평가임을 명시.
+- https://esvs.org/wp-content/uploads/2023/03/ESVS-2023-Carotid-guidelines.pdf
 
 ## 출처
 

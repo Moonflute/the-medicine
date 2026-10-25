@@ -23,13 +23,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 신생아 사망
 
 ## 해설
 
+태국 출신 부모의 경한 빈혈 병력과 태아의 흉수·복수·피하부종은 Hb Bart 태아수종 증후군(알파글로빈 4개 유전자 기능 소실)을 시사한다. 심한 빈혈로 인한 태아수종(hydrops fetalis)이며 수두증(hydrocephalus)이 아니다. 치료하지 않으면 자궁내 태아 사망(C)이 예상된다. 전문 태아 치료로 생존하는 경우도 있어 필연적 사망으로 단정하지 않는다.
 
-다발성 부종, 양수과다증, 흉수·복수는 태아의 심각한 부종(수두증)과 연관되며, 이는 대개 자궁 내 태아 사망으로 진행한다. 따라서 가장 가능성 높은 임상 경과는 자궁 내 태아 사망이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 태아수종을 수두증으로 오역하고 중증 알파지중해빈혈 맥락 누락.
+
 
 ## 출처
 

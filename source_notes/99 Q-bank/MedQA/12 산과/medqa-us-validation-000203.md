@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 자궁내압 카테터 삽입
 
 ## 해설
 
+파수 후 ≥6cm에서 충분한 자궁수축에도 4시간 경부 변화가 없으면 활동기 정지로 제왕절개(A)를 고려한다. 이 문항은 강한 수축 4회/10분을 충분한 수축으로 제시한 의도이다. 실제 외부 모니터는 수축력을 정량화하지 못하므로 적절성이 불확실하면 IUPC·옥시토신 최적화 등을 평가하며 시간 경과만으로 즉시 수술을 강제하지 않는다.
 
-진행 정지된 활발한 진통과 양막 파수 상황에서는 태아와 산모의 위험이 커져 즉시 제왕절개가 필요하다. 다른 보조 방법은 효과가 없으며 지연을 초래한다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 활동기 정지의 요건과 자궁내압 평가 가능성을 명시.
+- https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management
 
 ## 출처
 

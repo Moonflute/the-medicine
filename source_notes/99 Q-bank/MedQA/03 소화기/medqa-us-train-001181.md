@@ -17,13 +17,15 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,14 @@ D. 간세포암종(Hepatocellular carcinoma)
 
 ## 해설
 
+정답은 D이다. 청동색 피부, DM·심근병증·관절통과 간질환은 철 과다 축적에 의한 혈색소침착증을 시사한다. 침착되는 것은 혈색소 자체가 아니라 과다한 철이며 간섬유화/간경변이 발생하면 간세포암 위험이 높아진다. 제시된 장기 합병증 중 D가 적합하고 모든 환자에서 특정 연수 뒤 반드시 암이 생기는 뜻은 아니다.
 
-이 환자는 혈색소 침착으로 인한 혈색소증을 가지고 있으며, 간경변과 간암 위험이 크게 증가한다. 장기적으로 가장 위험도가 높은 합병증은 간세포암종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: hemochromatosis를 혈색소 자체 침착이라고 한 기전 오류 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

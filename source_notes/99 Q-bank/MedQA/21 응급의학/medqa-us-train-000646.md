@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 프로타민 황산염(protamine sulfate) 및 하이드록시에틸 전분(hy
 
 ## 해설
 
+와파린 시작 후 새 복통·요통과 CT의 후복막 종괴 및 주변 경계 흐림은 항응고 관련 후복막 출혈을 의심하게 한다. 후복막은 중요 장기 공간이므로 중대한 출혈에서는 와파린 중단과 정맥 비타민 K(피토나디온)+4인자 PCC(C)로 신속히 역전한다. PCC는 즉시 필요한 응고인자를, 비타민 K는 지속적 회복을 제공한다. 현재 INR을 측정해 추적해야 하며 본문에는 실제 INR 수치가 없다. PCC가 없을 때 혈장을 대안으로 사용할 수 있다.
 
-와파린 복용으로 INR이 상승해 후복막 출혈이 발생했으며, 급성 출혈 시에는 비타민 K(피토나디온)와 빠른 INR 감소를 위한 프로트롬빈 복합 농축액이 가장 효과적이다. 따라서 비타민 K와 PCC를 투여한다가 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 와파린 관련 후복막 대량출혈 의심에서 비타민 K+4인자 PCC C를 유지하되 측정되지 않은 INR 상승을 관찰 사실처럼 단정하지 않는다.
+- 공식/학회 근거: https://www.jacc.org/doi/10.1016/j.jacc.2020.04.053
 
 ## 출처
 

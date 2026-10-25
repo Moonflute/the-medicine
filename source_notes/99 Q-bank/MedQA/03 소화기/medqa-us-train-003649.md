@@ -25,9 +25,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. AST 455, ALT 410, GGT 115
 
 
 알코올성 간염에서는 AST가 ALT보다 약 2배 정도 높으며, GGT도 상승한다. 제시된 수치 중 AST 255, ALT 130, GGT 114가 이러한 패턴을 가장 잘 반영한다. 다른 선택지는 AST와 ALT이 거의 동일하거나 ALT가 더 높은 패턴을 보여 알코올성 간염과 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 알코올 관련 간손상에서 선택지 B의 AST우세 약2:1·GGT상승 조합이 가장 부합; 이 수치만으로 간염 확진 아님.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

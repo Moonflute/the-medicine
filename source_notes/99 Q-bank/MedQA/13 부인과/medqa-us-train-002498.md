@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 사람 융모성 성선자극호르몬
 
 ## 해설
 
+과도한 운동·스트레스와 저정상 LH/FSH·질건조는 기능성 시상하부 무월경을 시사한다. BMI 19 자체는 저체중이 아니지만 에너지 부족은 가능하다. 영양·운동 조정과 불임 평가 후 임신을 원하면 박동성 GnRH(C)로 배란 유도를 고려한다. 다른 원인과 지속 에너지 부족을 먼저 평가한다.
 
-월경이 3개월 이상 중단되고 저체중·과도한 운동으로 에스트로겐 결핍이 나타난 기능성 시상하부 무월경은 저성선성 저하증을 일으킨다. 저 FSH·LH 수치는 시상하부에서의 GnRH 분비 감소를 의미하므로, 펄스성 GnRH 투여가 시상하부-뇌하수체 축을 재활성화해 배란을 유도한다. 따라서 가장 적절한 치료는 펄스성 GnRH이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: BMI19를저체중으로단정하지않고에너지결핍과가임치료조건명시.
+- https://www.endocrine.org/clinical-practice-guidelines/hypothalamic-amenorrhea
 
 ## 출처
 

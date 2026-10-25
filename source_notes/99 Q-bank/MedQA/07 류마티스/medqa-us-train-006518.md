@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 알로푸리놀
 ## 해설
 
 
-재발성 통풍 발작을 예방하려면 요산 저하제가 필요하다. 알로푸리놀은 요산 생성 억제제로 장기 예방에 1차 선택이며, 프로베네시드·페글로티케이스는 부작용이 크고 아스피린은 급성 발작에만 효과적이다.
+1년간4차례 발작이 있어 장기 요산저하 치료 적응증이며 선택지 D allopurinol이 적절한 우선 약제이다. 낮은 용량으로 시작해 혈청요산 목표에 맞춰 증량하고 초기 항염증 예방요법을 병행한다. Probenecid는 조건에 따라 대안이며 pegloticase는 통상 난치성 중증 통풍에 남긴다. Aspirin은 급성 통풍 치료제로 선택하지 않고 저용량은 요산 배설을 낮출 수 있다. 다른 적응증으로 필요한 aspirin을 임의 중단하라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006518 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Aspirin을 통풍 급성기 약으로 권하고 대안 요산저하제를 모두 부작용 약으로 취급한 설명을 교정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/
 
 ## 출처
 

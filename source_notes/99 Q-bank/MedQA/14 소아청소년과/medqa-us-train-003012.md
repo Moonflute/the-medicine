@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 가돌리늄 조영 복부 MRI
 
 ## 해설
 
+소아의 충수염 의심에서 제시된 영상 중 복부 초음파(C)가 적절한 초기 검사이다. 초음파가 비진단적이면서 의심이 지속되면 MRI 또는 CT 등 추가 평가가 필요할 수 있다. CT가 어떤 상황에서도 불필요하다는 의미는 아니다.
 
-소아에서 오른쪽 하복부 통증과 발열이 있을 때 초음파는 방사선 노출을 최소화하면서 충수염을 진단하는 1차 검사이다. CT는 필요하지 않다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 소아 충수염에서 초음파 우선과 비진단적 검사 후 추가 영상의 조건을 구분.
+- https://academic.oup.com/cid/article/79/Supplement_3/S94/7706132
 
 ## 출처
 

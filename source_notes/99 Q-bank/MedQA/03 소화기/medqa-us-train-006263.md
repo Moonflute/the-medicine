@@ -19,13 +19,15 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 대장내시경
 
 ## 해설
 
+체중감소와 짙어진 변은 출혈 등 상부GI 경고소견 평가를 요구해 제시 C의 상부내시경이 적절하다. 짙은변만으로 확인된 흑색변은 아니며 만성기침으로 특정 식도암을 확진할 수 없다. 단순 기침약만 주며 경고소견 평가를 미루지 않는다.
 
-체중 감소와 흑색변, 밤에 악화되는 만성 기침은 상부 위장관 병변, 특히 식도암을 의심하게 한다. 진단을 확정하기 위해서는 상부위장관 내시경이 가장 적절한 검사이다. (헬리코박터 대변 항원검사는 위궤양·위염에 주로 사용된다)
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 경고소견의 EGD C는 유지하되 짙은변만으로 흑색변·식도암 확정하지 않음.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

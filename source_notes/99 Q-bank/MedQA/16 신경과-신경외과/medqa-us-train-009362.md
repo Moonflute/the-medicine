@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,12 @@ D. ATM 단백질 결함
 
 ## 해설
 
+소아의 진행성 실조, 발 변형과 고혈당의 조합은 Friedreich 운동실조를 시사한다. 흔한 원인은 FXN 유전자의 GAA 반복 확장(A)으로 인한 frataxin 발현 감소이며 미토콘드리아 철-황 군집 대사 이상과 연결된다. Frataxin을 하나의 미토콘드리아 효소와 동의어로 설명하는 것은 부정확하다.
 
-발이 안쪽으로 뒤집히고 망치발가락, 보행 불안정, 고혈당은 프리드라이히 운동실조를 시사한다. 이 질환은 GAA 삼염기 반복 확장으로 인한 미토콘드리아 효소 결핍이 원인이다. 따라서 정답은 GAA 삼염기 반복 확장이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Friedreich 실조 A 유지. Frataxin을 단순 미토콘드리아 효소라고 한 설명 교정.
+- 공식/학회 근거: https://medlineplus.gov/download/genetics/condition/friedreich-ataxia.pdf
 
 ## 출처
 

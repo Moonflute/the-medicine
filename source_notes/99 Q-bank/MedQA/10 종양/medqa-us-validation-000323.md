@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -39,12 +41,19 @@ explanation_prompt_version: explanation-ko-v1
 A. 칼슘과 비타민 D 보충
 B. 외부 방사선 치료
 C. 플루타미드
-D. 척추성형술
+D. 풍선척추성형술
 
 ## 해설
 
 
-전이성 전립선암 골전이는 통증을 유발하며, 방사선 치료는 통증 완화와 국소 종양 조절에 효과적이다. 외과적 절제나 화학요법보다 국소 방사선이 우선 선택된다. 따라서 외부 방사선 치료가 가장 적절하다.
+척추 전이로 국소 통증이 있지만 골절이나 척수압박이 제시되지 않아 해당 부위 외부 방사선치료 B가 통증 완화에 적절하다. 새로운 전신 진행 여부는 별도로 평가하지만 이미 시행한 호르몬 차단을 단순 반복하는 선택지는 당장의 국소 통증 치료를 대체하지 못한다. Kyphoplasty는 풍선척추성형술이며 이 케이스처럼 골절이 없는 상황에서 무조건 시행하는 치료가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000323 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 압박·골절 없는 통증성 척추전이의 국소 방사선 B 유지; D의 kyphoplasty 번역을 풍선척추성형술로 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations
 
 ## 출처
 

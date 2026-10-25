@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 설파살라진
 ## 해설
 
 
-급성 관절염에서 NSAID와 스테로이드가 금기(위궤양)인 경우, 급성 악화에 대한 빠른 효과를 위해 프레드니솔론 같은 고용량 경구 스테로이드를 사용한다. 이는 염증을 신속히 억제한다.
+대칭성 손목·MCP 활막염, 장시간 아침강직과 피하결절은 RA를 시사한다. 현재 심한 염증 증상에는 보기 중 prednisolone B를 단기간 사용할 수 있다. 소화성궤양 병력으로 NSAID의 위험을 고려하되 steroid도 위해가 없는 것은 아니므로 최소 유효용량·최단기간으로 정한다. 무조건 고용량을 쓰거나 장기간 단독 유지하는 치료가 아니고 조기에 DMARD 기반 조절을 계획해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007556 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: steroid 금기라고 하면서 고용량 steroid를 권하는 자기모순 교정; 단기 최소용량 및 DMARD 필요성.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1016/j.ard.2026.01.023
 
 ## 출처
 

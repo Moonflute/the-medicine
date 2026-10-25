@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,13 @@ D. 에피네프린 1:1000 주사 후 스테로이드와 항히스타민제 투�
 
 ## 해설
 
+조영제 후 두드러기·혈관부종과 호흡/순환 장애는 아나필락시스다. D의 핵심은 즉시 대퇴부 근육주사 epinephrine이며 1:1000은 1mg/mL 농도이다. 성인은 보통 0.5mg IM을 사용하고 반응에 따라 반복하며 기도·산소·정질액 소생을 병행한다. 항히스타민은 안정화 후 피부 증상에 사용할 수 있지만 steroid와 함께 모든 환자에게 의무적으로 후속 투여하는 치료는 아니다. 해산물 알레르기는 조영제와 특이적 교차알레르기를 의미하지 않는다.
 
-조영제에 대한 전신성 알레르기 반응은 아나필락시스로, 에피네프린(아드레날린) 1:1000 주사가 가장 급속히 혈압을 회복시키고, 스테로이드와 항히스타민제로 반응을 억제한다. 따라서 에피네프린 투여가 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 아나필락시스의 IM epinephrine D를 확인. 경로/농도 표기를 명확히 하고 steroid·항히스타민의 일률적 후속투여 주장 교정.
+- 공식/학회 근거: https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions
+- 공식/학회 근거: https://www.acr.org/-/media/ACR/files/clinical-resources/contrast_media.pdf
 
 ## 출처
 

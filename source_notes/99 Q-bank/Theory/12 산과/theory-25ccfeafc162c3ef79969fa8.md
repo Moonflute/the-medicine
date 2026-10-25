@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "둔위에서 자궁저부 머리 촉진은 태아 장축·선진부 관계의 유용한 해부 복습."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. 태아 복부
 
 - 내부 학습 노트: 둔위 (Breech Presentation)
 - 원본 경로: `source_notes/02 Diseases/12 산과/둔위 (Breech Presentation).md`
-- 학습 목표: 원문 핵심: * **CC**: 임신 후기 태동의 위치 변화나 산전 진찰 시 태위 이상 발견. * **P/E**: 레오폴드 수기(Leopold maneuvers) 시 자궁저부에서 단단하고 둥근 태아 머리가 촉지됨. 질 검진 시 태아 둔부나 발이 촉지될 수 있음.
+- 학습 목표: 둔위의 레오폴드 촉진
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 둔위에서 자궁저부 머리 촉진은 태아 장축·선진부 관계의 유용한 해부 복습.

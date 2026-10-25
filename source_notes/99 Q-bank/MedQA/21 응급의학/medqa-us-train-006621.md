@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 저당 총비경구영양 사용
 
 ## 해설
 
+영양결핍 환자에게 영양 공급을 시작한 뒤 저인산혈증, 저칼륨혈증, 저마그네슘혈증과 부종이 생기면 재급식 증후군을 의심한다. 탄수화물 공급에 따른 인슐린 증가로 전해질이 세포 안으로 이동하고 수분·나트륨 저류가 생기는 것이 핵심이며, 인이 많은 음식을 먹어서 생기는 현상이 아니다. 영양 공급 속도를 낮추는 A와 함께 티아민, 전해질과 체액 상태를 평가·교정하고 서서히 증량한다. 이는 정맥영양뿐 아니라 경장영양에서도 발생할 수 있다.
 
-총비경구영양을 시작할 때 급격히 고칼로리·고인산식을 투여하면 인산 재분배가 일어나 저인산혈증과 부종이 발생하는 재급식 증후군이 발생한다. 천천히 시작하면 인산 수요를 점진적으로 맞춰 재급식 증후군을 예방할 수 있다. 따라서 정답은 총비경구영양을 천천히 시작하는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 재급식 증후군에서 인슐린에 따른 세포 내 전해질 이동을 고인산 식품 때문이라고 설명한 오류를 교정한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg32/chapter/Recommendations
 
 ## 출처
 

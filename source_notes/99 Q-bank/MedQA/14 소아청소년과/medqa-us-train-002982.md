@@ -22,13 +22,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,7 +49,13 @@ D. 제1형 척수성 근위축증
 ## 해설
 
 
-신생아의 저근긴장, 큰 혀, 심근 비대는 산성 말타아제 결핍(포메병)과 일치한다. 다른 선택지는 이러한 증상을 설명하지 못한다.
+신생아의 저근긴장, 큰 혀, 심근 비대는 산성 말타아제 결핍(폼페병)과 일치한다. 다른 선택지는 이러한 증상을 설명하지 못한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: acid maltase deficiency의 질환명을 포메병에서 폼페병으로 바로잡았다.
+
 
 ## 출처
 

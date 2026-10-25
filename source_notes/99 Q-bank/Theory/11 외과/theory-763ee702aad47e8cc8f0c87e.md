@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "혈관내 용혈-혈색소뇨 연결은 의미 있는 기본 복습으로 유지하고 문자 의존 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,17 @@ D. 케톤뇨
 
 ## 오답 포인트
 
-- **B. 백혈구뇨:** 백혈구뇨는 감염 시 주로 나타난다.
+- **백혈구뇨:** 혈색소가 소변으로 배출되는 혈관내 용혈의 직접 표지가 아니다.
+- **케톤뇨:** 적혈구 파괴 자체를 나타내는 소견이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction)
 - 원본 경로: `source_notes/02 Diseases/11 외과/급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction).md`
-- 학습 목표: 원문 핵심: * **CC**: 수혈 후 24시간 이내, 주로 첫 1시간 이내 발생. 발열, 오한, 주사 부위 작열감, 흉통/압박감, 두통, 오심, 구토, 호흡곤란, 불안감. * **P/E**: 발열, 피부 홍조/부종, 빈맥, 저혈압, 붉은색 소변(혈색소뇨). 후기 징후로 파종성 혈관 내 응고(DIC)로 인한 광범위 출혈, 신부전으로 인한 소변량 감소가 나타날 수 있다. 마취된 환자에서는 쇼크, 혈색소뇨, 전신 출혈 상태가 첫 증상일 수 있다.
+- 학습 목표: 급성 혈관내 용혈의 혈색소뇨를 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 혈관내 용혈-혈색소뇨 연결은 의미 있는 기본 복습으로 유지하고 문자 의존 제거.

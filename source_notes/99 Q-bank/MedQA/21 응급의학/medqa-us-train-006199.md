@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 헤파린 치료
 
 ## 해설
 
+하반신 마비로 감각과 움직임이 제한된 환자의 발꿈치 부분층 피부 손상은 압박손상에 부합한다. 반복적인 체위 변경과 발꿈치 압박 해소(B)가 지속 압력을 줄이는 핵심 예방법이다. 피부 상태, 지지면과 영양 상태도 함께 평가해야 하며, 흡연을 비롯한 상처 회복 위험 요인이 중요하지 않다는 뜻은 아니다. 감염 근거가 없는 상처에 예방적 국소 항생제를 사용하는 것은 압박 해소를 대신하지 못한다.
 
-압박성 욕창은 지속적인 압력으로 인해 발생하며, 체위 변경을 자주 해주면 압력 부위를 완화시켜 예방할 수 있다. 다른 선택지는 욕창 예방에 직접적인 효과가 없다. 따라서 가장 효과적인 예방은 자주 체위 변경이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 압박손상 예방의 체위 변경 B는 유지하되 흡연·영양 등의 위험 요인이 아무 영향이 없다는 해설의 단정을 제거한다.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/cg179/chapter/Recommendations
 
 ## 출처
 

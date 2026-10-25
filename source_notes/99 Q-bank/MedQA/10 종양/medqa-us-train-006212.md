@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 중심침생검
 
 
 의심되는 유방 종괴에 대해 조직학적 확진이 필요하므로, 가장 적절한 다음 단계는 최소 침습적인 중심침생검이다. 이는 수술보다 먼저 시행되는 표준 진단 절차이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006212 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 영상에서 의심되는2cm 유방종괴의 조직확진으로 core needle biopsy D를 원문 및 현행 진단 원칙과 대조해 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.radiologyinfo.org/en/info/acs-palpable-breast-masses
 
 ## 출처
 

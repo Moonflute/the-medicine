@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: evidence-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "장 게실 전체를 점막만의 돌출로 일반화하지 않도록 흔한 후천성 대장 가성게실에 한정."
+curation_status: revised
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnre1nn0lhttdabvu2cml3tc15y2hpewvwzxewz0nfcxnvennpnlfns0vscgrtvnlkr2xqzfd4mwjta3viv1f8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -16,32 +21,43 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 ---
 
 # 이론 문제
 
 ## 문제
 
-장 점막이 장벽의 약한 부위를 통해 바깥으로 돌출된 구조를 무엇이라고 하는가?
+흔한 후천성 대장 게실의 구조에 관한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 게실
-B. 폴립
-C. 궤양
-D. 협착
+A. 점막과 점막하층이 근육층의 약한 부위로 바깥쪽 돌출하는 가성게실이다
+B. 대장 용종처럼 내강으로 자란 종양만을 뜻한다
+C. 모든 장 게실은 장벽 전층을 포함한다
+D. 대장 점막이 없어져 함몰된 궤양만을 뜻한다
 
 ## 해설
 
-게실은 장 점막이 vasa recta가 통과하는 약한 부위를 통해 장벽 밖으로 돌출된 주머니 형태의 구조이다.
+흔한 후천성 대장 게실은 점막·점막하층이 근육층의 약한 부위를 통과해 돌출한 형태다. 전층을 포함하는 진성 게실과 구별하며 내강 돌출인 용종과도 다르다.
+
+## 오답 포인트
+
+- 진성 게실의 전층 구조를 모든 후천성 대장 게실에 적용하지 않는다.
+- 바깥 돌출 주머니와 내강 종양 또는 궤양은 다른 형태이다.
 
 ## 출처
 
 - 내부 학습 노트: 게실 (Diverticulum)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/게실 (Diverticulum).md`
-- 학습 목표: 원문 핵심: - 정의: 장 점막이 장벽의 약한 부위(vasa recta 관통 부위)를 통해 바깥으로 돌출되어 주머니를 형성한 상태 - 분류: 게실증(게실이 있는 상태), 진성 게실(장벽 전체 돌출), 가성 게실(점막 및 점막하층만 돌출) - 병태생리: 대장 연동운동에 의한 내부 압력 상승으로 장벽이 돌출되며, vasa recta 파열 시 출혈, 염증 발생 시 게실염으로 이행 - 역학: 고령에 호발 - 한국·일본: 우측(특히 우하복부) 호발 - 서양: 좌측(하행 결장, 구불 결장) 호발 - 참고: 메켈 게실(Meckel diverticulum)은…
+- 학습 목표: 후천성 대장 게실의 장벽 밖 돌출 구조를 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 장 게실 전체를 점막만의 돌출로 일반화하지 않도록 흔한 후천성 대장 가성게실에 한정.
+- https://www.worldgastroenterology.org/guidelines/diverticular-disease/diverticular-disease-english

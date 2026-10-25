@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 글로빈 사슬 합성 이상
 ## 해설
 
 
-손발 부종·극심한 통증·거대 적혈구와 같은 증상은 겸상적혈구병을 시사한다. 겸상병은 β‑글로빈 사슬에 점 돌연변이가 있어 사슬 구조 자체가 변형된다. 따라서 원인은 글로빈 사슬 구조 이상이다.
+영아의 손·발 dactylitis, 빈혈과 망상적혈구 증가 양상은 겸상적혈구병을 시사한다. HbS는 β-globin의 아미노산 치환에 따른 구조 이상(C)이다. 지중해빈혈의 사슬 합성량 감소(D)와 구분한다. 누락된 사진에서 거대적혈구를 보았다고 덧붙일 수 없으며 거대적혈구가 SCD의 필수 진단 소견인 것도 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000889 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 유아 dactylitis·빈혈/retic↑의 HbS 구조 이상 C 유지. 본문에 없는 거대적혈구가 진단 단서라는 설명 제거.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

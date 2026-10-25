@@ -26,17 +26,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QYXJhY2V0YW1vbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -54,10 +56,15 @@ D. 리스페리돈을 클로자핀(clozapine)으로 변경
 
 ## 해설
 
-
-리스페리돈에 의한 악성 신경근증후군은 약물 중단이 가장 급선무이며, 즉시 약물을 중단해야 한다. 수액이나 해열제는 보조적이지만 근본적인 조치는 아니다.
+리스페리돈 시작 후 고열·전신 강직·의식 변화·자율신경 증상과 현저한 CK 상승이 발생해 신경이완제 악성증후군을 의심한다. 제시된 선택지 중 원인 항정신병약인 리스페리돈을 즉시 중단하는 것이 우선이다. 실제로는 수액·체온 조절·신기능과 전해질 모니터링 등 응급 지지치료도 동시에 필요하며, 즉시 다른 항정신병약으로 바꾸지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000035
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 원문 NMS의 약물 중단 정답 유지. 비표준 '악성 신경근증후군' 명칭 교정 및 수액 등 동시 응급 지지치료 필요성 명시.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

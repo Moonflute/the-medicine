@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,14 @@ D. 정맥 항생제와 수술 상처 변연절제
 ## 해설
 
 
-흉골 절개 부위에 발적·통증·액체 저류가 보이며, 수술 후 5일 차에 나타나는 전형적인 흉골후 감염(중격염)으로, 항생제와 함께 수술 부위 변연 절제가 필요하다.
+흉골절개 후 발열·흉골 뒤 통증·절개 주변 홍반과 흉골하 액체저류는 심부 흉골창 감염/수술 후 종격동염을 의심하게 한다. 정맥 항생제와 수술적 탐색·변연절제를 병행하는 D가 적절하다. 배양을 확보하고 괴사조직과 감염성 액체를 제거하며 상처 폐쇄 전략을 계획한다. 단순 관찰만으로 치료하거나 식도·대동맥 손상으로 단정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001569 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 흉골하 감염을 중격염으로 오역한 것을 종격동염으로 바로잡았다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.jtcvs.org/article/S0022522316308728/pdf
 
 ## 출처
 

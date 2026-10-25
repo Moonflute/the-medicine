@@ -19,11 +19,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,15 @@ D. 과거 아스피린에 반응한 적이 있는가?
 ## 해설
 
 
-아스피린 과민성 호흡기질환(ASA‑exacerbated respiratory disease)이 있으면 천식·비용종·NSAID 사용 시 중증 반응이 발생한다. 환자는 비용종 병력이 있으므로 아스피린 복용 여부를 먼저 확인해야 한다. 따라서 정답은 D이다.
+천식·만성 부비동염·비용종은 아스피린 악화 호흡기질환의 단서이므로 과거 아스피린/NSAID 반응을 묻는 D가 가장 적절하다. 이는 반응 병력이 없으면 바로 처방하라는 뜻이 아니다. 일차예방 아스피린은 심혈관 위험과 출혈 위험을 따져 개별 결정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-010071`와 직접 대조했다.
+- 판정: 천식·비용종에서 과거 아스피린 반응을 묻는 D 유지. 반응 병력 부재가 일차예방 아스피린의 자동 적응증이라는 오해를 차단.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Drug-Allergy-PP-9-2022.pdf
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication
 
 ## 출처
 

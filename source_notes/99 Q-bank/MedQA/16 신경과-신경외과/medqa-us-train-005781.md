@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 알프라졸람
 
 ## 해설
 
+본태성 떨림 치료 후 새 복통·진한 소변과 근위부 위약의 조합은 급성 간성 포르피린증의 신경내장 발작을 의심하게 한다. 프리미돈(C)은 페노바르비탈로 대사되는 약으로 포르피린증에서 금기이며 감수성 환자의 발작을 유발할 수 있다. 이를 단순한 흔한 위장관 부작용이나 소변색 변화로만 설명해서는 안 된다. 실제로 의심되면 유발 약물을 중단하고 소변 PBG·ALA/크레아티닌 등을 신속히 평가하며 신경·호흡 합병증을 감시한다. 본문만으로 특정 유전자형이 확진된 것은 아니다.
 
-프리미돈은 본태성 떨림 치료에 사용되며, 위장관 부작용(복통, 어두운 소변)과 근력 약화를 일으킬 수 있다. 환자는 이러한 부작용을 호소하므로 투여된 약물은 프리미돈이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 복통·어두운 소변·근위부 위약을 프리미돈의 흔한 일반 부작용으로만 설명한 오류를 약물유발 급성 간성 포르피린증 발작 의심으로 교체했다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=e4e493bd-94d7-7e5a-e053-2995a90a2706&type=pdf
+- 공식/학회 근거: https://gastro.org/clinical-guidance/diagnosis-and-management-of-acute-hepatic-porphyrias-ahp/
+- 공식/학회 근거: https://porphyriafoundation.org/for-healthcare-professionals/emergency-room-guidelines-for-acute-porphyrias/
 
 ## 출처
 

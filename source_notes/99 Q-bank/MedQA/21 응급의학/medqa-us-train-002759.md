@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 파클랜드 공식에 따른 링거 젖산액으로 수액 소생
 
 ## 해설
 
+전층 화상은 재상피화 자원이 파괴되어 화상 전문팀의 조기 절제와 부분층 피부이식(A)이 적절하다. 성인11% TBSA라는 수치만으로 Parkland 공식에 따른 대량수액이 자동으로 필요한 것은 아니며 순환상태·섭취·동반 손상에 맞춰 수액을 정한다. 성인 화상쇼크 소생 지침은 주로20% TBSA 이상의 큰 화상을 다룬다. 약한 원위 맥박은 가피 조임·부종·다른 혈관 문제를 즉시 평가해야 하며 관류 위협이 있으면 감압 등이 우선될 수 있다. 모든 전층 화상은 전문 화상센터 협의 대상이다.
 
-전층 화상(3도)은 피부 전체 두께가 손상되어 조기 절제와 부분층 피부이식이 회복을 촉진한다. 11% TBSA는 대량 수액이 필요하지만, 가장 중요한 초기 치료는 조기 외과적 관리이다. 따라서 조기 절제 및 부분층 피부이식이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 성인11% TBSA면 반드시 대량수액이 필요하다는 오류를 제거했다. 전층 화상 조기 절제·이식 A와 약한 맥박의 별도 관류평가를 명시한다.
+- 공식/학회 근거: https://academic.oup.com/jbcr/article/45/3/565/7458089
+- 공식/학회 근거: https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral
+- 공식/학회 근거: https://ameriburn.org/wp-content/uploads/2019/08/2018-abls-providermanual.pdf
 
 ## 출처
 

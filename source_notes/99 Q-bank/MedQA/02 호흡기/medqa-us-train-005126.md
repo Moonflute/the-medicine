@@ -19,11 +19,11 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 티오트로피움 추가
 
 ## 해설
 
+잦아진 SABA 사용에는 ICS 포함 치료가 필요하며 B의 매일 fluticasone은 합리적인 대안이다. LABA 단독은 피한다. 현행 GINA의 청소년 선호전략인 필요시 저용량 ICS/formoterol 등과 제시 C의 정기 복합요법은 구별하며 B만 유일한 전략이라는 뜻은 아니다.
 
-알부테롤 사용 빈도가 증가한 것은 증상이 조절되지 않음을 의미한다. 흡입 스테로이드(플루티카손) 하루 1회 추가는 기본 치료 강화에 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ICS B 추가는 가능한 전략이나 유일한 현행 천식전략으로 일반화하지 않도록 한정.
+- https://ginasthma.org/reports/
 
 ## 출처
 

@@ -17,13 +17,17 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: prevention
 difficulty: complex
-answer: C
+answer: B
+original_answer: C
+answer_change_reason: "실제49세 환자를40세미만으로 오독한 원정답·해설 오류. USPSTF2024최종권고(2026-10-25검토)는40–74세 biennial mammography를 권고하므로 B로 교정."
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +48,14 @@ D. 초음파
 ## 해설
 
 
-평균 위험 여성(40세 미만, 가족력 없음)에게는 40세부터 연 1회 유방촬영술이 권고된다. 현재는 검진이 필요하지 않으며, 조기 검진은 권장되지 않는다. 따라서 현재는 중재가 필요하지 않다.
+이 환자는49세이며 평균위험군이라도 정기 선별 유방촬영 대상이다. USPSTF는40–74세에2년 간격 mammography를 권고하므로 B가 적절하다. 기존 해설은 환자를40세미만으로 바꾸어 no intervention C를 정당화한 오류였다. 유방 보형물이 있다고 선별을 하지 않는 것은 아니며 촬영기관에 보형물 사실을 알려 적절한 촬영기법을 적용한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008076 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 환자는49세이지40세미만이 아니다. 현행 USPSTF40–74세 선별에 따라 원정답C에서B로 변경; 보형물은검진금기가아님.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
 
 ## 출처
 

@@ -24,11 +24,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -53,7 +55,13 @@ D. 용혈성 수혈 반응
 ## 해설
 
 
-수술 후 1주일 내에 발열·우상복부 통증·황달·간 효소 상승이 나타나면 담낭에 염증이 생긴 무결석 담낭염이 가장 흔하다. 이는 비전형적 복부 증상과 일치한다. 따라서 정답은 무결석 담낭염이다.
+최근 큰 수술과 금식·비경구영양은 담낭 수축 감소, 담즙 정체와 허혈을 통해 급성 무결석 담낭염의 위험을 높인다. 이 맥락에서 발열·빈맥·우상복부 압통과 담즙정체성 검사 이상을 보이므로 A가 가장 의심된다. 정상 아밀라아제와 통증 위치는 췌장염보다 담낭 질환을 지지하고, 수혈 관련 용혈만으로 우상복부 국소 압통을 잘 설명하기 어렵다. 수술 후 발열·황달이 모두 무결석 담낭염이라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000161 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수술·비경구영양 맥락의 무결석 담낭염을 지지하되 수술 후 발열·황달의 최빈 원인으로 일반화하지 않았다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

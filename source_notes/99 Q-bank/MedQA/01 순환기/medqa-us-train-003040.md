@@ -20,13 +20,15 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,14 @@ D. 마르팡증후군
 
 ## 해설
 
+동맥류에 기인한 복부·등·서혜부 통증 A는 증상성 AAA를 시사하여 4cm라도 긴급 혈관외과 평가와 복구를 고려한다. 단순 흡연력이나 느린 성장은 즉시 수술 근거가 아니다. 다만 모든 복통이 동맥류 파열을 뜻하는 것은 아니므로 통증의 원인·영상·혈역학 상태를 함께 판단한다.
 
-복부·허리·서혜부 통증은 복부 대동맥류가 파열 또는 급성 확대를 의미하는 증상이며, 이는 수술적 복구가 필요함을 나타낸다. 따라서 통증이 있으면 수술적 복구가 권장된다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 증상성 AAA A는 크기와 무관한 평가 대상이나 모든 복통=파열이라는 설명을 한정.
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106
 
 ## 출처
 

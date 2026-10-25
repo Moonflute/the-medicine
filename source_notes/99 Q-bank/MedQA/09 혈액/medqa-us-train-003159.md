@@ -26,7 +26,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -50,6 +52,12 @@ D. 단백질 C 결핍
 
 
 반복성 정맥 혈전증과 항응고제 중단 이력이 있으며, 혈액검사에서 APC 저항성이 확인되면 가장 흔한 유전성 혈전증인 Factor V Leiden 변이를 의심한다. 따라서 가장 가능성 높은 소견은 Factor V Leiden 변이이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-003159 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정맥혈전 재발과 activated protein C 저항성에 factor V Leiden B가 부합하는 기초 응고기전 문항으로 확인.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 조현병 잔류기
 
 ## 해설
 
-
-두 사람 사이에 공유된 망상이 나타나는 공유 정신병적 장애(folie à deux)는 문화적 맥락과 관계가 강하며, 환자는 실제 환각이나 기능 손상이 없으며 망상만을 공유한다. 따라서 공유 정신병적 장애가 가장 가능성 높다.
+남편이 먼저 가진 특이한 망상적 믿음을 가까운 관계의 아내가 공유했고 분리 후 더 이상 믿지 않는 경과는 folie à deux, 즉 공유·유도된 망상 현상에 부합한다. 문화 특이적 정신병과 같은 뜻이 아니며, 문화적으로 공유되는 신념인지도 임상적으로 따로 평가한다. 이 명칭은 역사적 용어이고 현재 진단 체계에서는 관련 망상·정신병 범주에서 맥락에 맞게 기술한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010018
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 공유 망상을 문화 특이적 정신병으로 설명한 혼동 제거. 공유·유도 관계와 분리 후 호전이라는 원문 단서에 근거.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

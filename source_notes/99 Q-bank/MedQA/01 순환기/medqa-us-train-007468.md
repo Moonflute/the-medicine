@@ -19,17 +19,19 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 암로디핀
 
 ## 해설
 
+암로디핀은 세동맥을 확장하여 모세혈관의 정수압을 높이고, 발목과 정강이의 의존성 말초부종을 일으킬 수 있다. 약물을 시작한 뒤 양측 정강이에 부종이 생긴 점은 D와 일치한다. 종양의 전이로 생기는 부종이라는 뜻은 아니다.
 
-칼슘통로 차단제인 암로디핀은 말초 혈관 전이성 부종을 흔히 일으킨다. 환자는 고혈압 치료 후 양쪽 정강이 앞에 2+ 부종이 나타났으며, 이는 암로디핀의 부작용과 일치한다. 따라서 가장 가능성 높은 약물은 암로디핀이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 암로디핀의 의존성 말초부종을 ‘전이성’으로 잘못 표현한 해설을 교정.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

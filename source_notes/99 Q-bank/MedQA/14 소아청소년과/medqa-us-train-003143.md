@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 장중첩증
 
 ## 해설
 
+신생아는 비타민 K 저장량이 낮고 모유의 비타민 K도 적다. 출생 시 예방적 근육주사를 받지 않았다면 생후 수주에도 비타민 K 결핍 출혈(A) 위험이 증가할 수 있다. 가정분만과 산전 진료 부재라는 사실만으로 실제 주사 미투여를 확정할 수는 없으므로 투여력을 확인해야 한다. 건강해 보인다는 이유만으로 이 위험이 없어지는 것은 아니다.
 
-신생아는 비타민 K 결핍으로 출혈 위험이 높으며, 특히 가정분만·산전 관리 미비 시 위험이 증가한다. 출생 후 비타민 K 주사 미투여 시 늦은 비타민 K 결핍 출혈이 발생할 수 있다. 가장 높은 위험 합병증은 출혈이며, 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 가정분만 자체를 비타민 K 미투여의 확정 증거로 삼지 않으면서 실제 예방 여부가 출혈 위험 판단의 핵심임을 분리했다.
+- https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-k.html
 
 ## 출처
 

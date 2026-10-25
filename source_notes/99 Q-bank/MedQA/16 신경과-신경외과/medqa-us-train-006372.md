@@ -19,11 +19,13 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,8 +49,13 @@ D. 지주막하출혈
 
 ## 해설
 
+정답은 A, 소뇌 출혈이다. 갑작스러운 심한 후두부 두통과 구토에 안진, 양측 발꿈치-정강이 검사 이상 및 현저한 보행실조가 동반되어 소뇌 병변을 시사한다. 고혈압과 항응고제 복용은 출혈 위험을 높인다. 지주막하출혈도 갑작스러운 심한 두통을 유발하지만, 제시된 뚜렷한 소뇌성 운동실조를 종합하면 선택지 중 소뇌 출혈이 가장 적절하다. 임상 소견만으로 출혈을 확진하거나 허혈성 뇌졸중을 배제할 수는 없으며, 본문처럼 긴급 비조영 두부 CT가 필요하다.
 
-뇌경색 후 저나트륨혈증은 항이뇨호르몬 부적절 분비가 원인이며, 이때는 혈압 상승(정수압 증가)보다는 저나트륨이 특징이다. 따라서 정수압 증가가 가장 흔히 동반된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문의 본문·선지·정답 및 한국어 해설을 개별 대조하였다. 원정답과 케이스를 유지하고 잘못 연결된 해설을 교체하였다.
+- 영어 원문의 '제3뇌신경 검사에서 안진'은 안진을 특정 제3뇌신경 장애로 오해하게 할 수 있는 원문 표현이다. 안진은 안구운동 관찰 소견으로 해석하며, 이 표현 단독이 아니라 소뇌성 실조를 근거로 답을 판단하였다. CT는 대기 중이므로 영상 누락 문항이 아니다.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/management-of-intracerebral-hemorrhage/emergency-management-of-intracerebral-hemorrhage
 
 ## 출처
 

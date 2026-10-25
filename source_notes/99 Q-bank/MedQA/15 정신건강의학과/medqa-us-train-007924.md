@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,15 @@ D. 조현정동장애
 
 ## 해설
 
-
-청각 환각, 사회적 위축, 현실 검증 손상, 6개월 이상 지속된 양성 증상은 조현병의 진단 기준에 부합한다. 다른 선택지는 증상 지속 기간이나 양상이 맞지 않는다. 따라서 정답은 조현병이다.
+8개월에 걸친 장애 경과, 최소 한 달 단위의 환청과 기능저하·음성증상이 있어 제시된 선택지 중 조현병이 적절하다. 6개월은 전체 장애 징후의 기간으로 전구·잔류 증상을 포함할 수 있고, 양성 증상이 내내 6개월 지속돼야 한다는 뜻은 아니다. 뚜렷한 주요 기분삽화가 없어 조현정동장애를 지지하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007924
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 조현병의 6개월 기준을 양성 증상 자체가 6개월 지속해야 하는 것으로 설명한 오류 교정.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

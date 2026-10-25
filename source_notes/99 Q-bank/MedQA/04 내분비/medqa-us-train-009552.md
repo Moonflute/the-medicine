@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 5-α-환원효소
 ## 해설
 
 
-여아의 조기 성징(음모, 여드름, 유방 발달, 저음성)은 21‑하이드록실라제 결핍에 의한 선천성 부신과형성(CAH)에서 가장 흔히 나타난다. 21‑하이드록실라제 결핍은 안드로겐 과다와 코르티솔 결핍을 동시에 일으킨다. 따라서 정답은 C이다.
+정답 C. 다모증·여드름·굵은 목소리는 androgen 과다에 의한 남성화를 시사한다. 고혈압이 없는 이 여아에서 선택지 중 21-hydroxylase 결핍이 가장 부합하며 비고전형 CAH 등을 평가한다. 14세의 초기 유방 발달 자체가 조기사춘기라는 뜻은 아니다. 실제 진단에는 17-hydroxyprogesterone 등 호르몬 평가가 필요하며 11β 결핍의 mineralocorticoid성 고혈압과 구별한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009552 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 14세의 유방 발달을 조기사춘기라고 한 오류 제거. 저혈압성 androgen과다의 21OH C 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 결신발작
 
 ## 해설
 
+짧은 응시와 반응 중단, 눈 깜빡임 후 곧바로 회복하며 EEG에서 초당 3회의 극파-서파 방전이 나타나는 것은 결신발작(D)에 합당하다. 본문에는 지속시간이 30–60초로 제시되어 있으며 이를 10–20초라고 바꾸어 설명하지 않는다. 전형적인 결신발작은 대개 수초에서 수십 초로 짧지만 이 문항의 결정적 단서는 임상양상과 3 Hz 방전이다. 열이나 근간대성 경련·발작후 혼돈은 제시되지 않았다.
 
-10~20초 동안 반응이 없고 눈을 깜빡이며 3 Hz의 극파‑서파 방전이 보이는 발작은 결신발작(absence seizure)의 전형적인 특징이다. 결신발작은 짧게 지속되고 의식 소실이 동반되며 뇌파에서 3 Hz 스파이크‑웨이브가 나타난다. 따라서 정답은 D이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 해설이 본문의 30–60초 지속시간을 10–20초로 바꾸어 설명한 것을 수정했다. 3 Hz 전반 극파-서파와 임상양상에 근거해 D를 유지한다.
 
 ## 출처
 

@@ -23,9 +23,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,6 +47,11 @@ D. 요추천자
 
 
 상지의 진행성 근력저하와 감각이상, 요실금, 복부 반사 소실은 중추신경계 다발성 경화증을 의심하게 한다. 진단을 확정하려면 병변의 위치와 활동성을 확인해야 하므로 뇌와 척추 MRI가 가장 적절한 초기 검사이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 재발/회복, 열에 따른 악화, 다발성 중추 감각·운동·자율신경소견에서 뇌/척수 MRI C 적절. MS 확진은 MRI만이 아닌 병력·진찰·검사 및 기준 통합.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng220/chapter/Recommendations
 
 ## 출처
 

@@ -24,9 +24,11 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,6 +48,13 @@ D. 동맥벽의 자발성 분리
 
 
 키가 크고 마른 체형, 거미손가락, 오목가슴, 대동맥판 역류, 약한 말초맥은 마르판 증후군을 시사한다. 마르판 환자에서 급성 의식 소실은 대동맥벽의 자발적 분리(대동맥 박리) 때문이다. 관상동맥 죽상경화는 연령대와 맞지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: Marfan 체형·급성 흉통·저혈압·AR·맥박 감소는 대동맥벽 분리인 박리 D를 가장 시사.
+- 외부 임상 근거를 확인한 판정이 아님. 영어 원문과 현재 본문·선지·정답·해설의 내용 대조 및 자료 완전성만 검토.
 
 ## 출처
 

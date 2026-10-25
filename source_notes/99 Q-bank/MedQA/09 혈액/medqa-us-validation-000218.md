@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 엽산결핍성 빈혈
 ## 해설
 
 
-흑인 여성에게서 미세구형 빈혈이 철제 복용에도 호전되지 않고 헤모글로빈 전기영동이 정상인 경우, 알파 지중해빈혈 보인자가 가장 흔한 원인이다. 알파 지중해빈혈은 철 결핍과 구분되는 특징이다. 따라서 알파 지중해빈혈 보인자가 정답이다.
+철제에 반응하지 않는 경한 소구성 빈혈과 정상 헤모글로빈 전기영동은 α 지중해빈혈 보인자(C)에 부합한다. α 사슬 합성이 감소하지만 보인자의 성인 전기영동은 정상일 수 있다. RBC수가 빈혈에 비해 보존되고 RDW가 정상인 원문 소견도 지지한다. 구형적혈구를 의미하는 미세구형빈혈과는 다르다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000218 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 철제 무반응·정상 전기영동의 α-thal trait C 유지. 미세구형이라는 잘못된 형태 용어를 소구성으로 정리.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

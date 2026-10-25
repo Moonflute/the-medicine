@@ -17,13 +17,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -41,8 +43,12 @@ D. 아세틸콜린에스테라제(acetylcholinesterase) 재활성화
 
 ## 해설
 
+활동할수록 심해지고 수면 후 좋아지는 근력저하, 안검하수, 정상 감각·반사는 중증근무력증을 지지한다. 아세틸콜린에스테라제 억제(A)는 신경근접합부의 아세틸콜린 작용을 늘려 증상을 완화하며 pyridostigmine이 대표적이다. 본문은 호흡곤란을 부인하고 있으며 천명음 자체는 MG의 진단 근거가 아니다. 혈장교환은 위기·중증 악화 등의 별도 상황에서 고려한다.
 
-근위축성 증상, 안검하수, 호흡곤란, 천명음은 중증 근무력증을 시사한다. 가장 효과적인 치료는 아세틸콜린에스테라제 억제로, 증상을 즉시 완화한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 휴식으로 호전되는 피로성 근력저하의 MG A를 유지하고 본문이 부인한 호흡곤란과 근위축을 만들어낸 해설을 교체한다.
+- 공식/학회 근거: https://www.neurology.org/doi/10.1212/wnl.0000000000002790
 
 ## 출처
 

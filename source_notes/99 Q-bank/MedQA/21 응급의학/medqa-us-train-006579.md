@@ -18,15 +18,17 @@ related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 활성 오류
 
 ## 해설
 
+잘못된 정맥 페니토인 투여 뒤 서맥과 무수축이 발생하여 심폐소생술과 집중치료가 필요했으므로 실제로 중대한 위해가 발생한 사건이다. 환자가 회복 중이더라도 이는 생명 유지 중재가 필요했던 중대한 일시적 위해에 해당하여 센티널 사건(B)으로 분류할 수 있다. 환자에게 위해가 도달하지 않은 near miss와는 다르다. 투약 과정에 능동적 오류가 있었다는 설명과 별개로, 이 문항은 사건 결과의 안전 분류를 묻는다.
 
-페니토인 과다 투여로 인한 부작용은 ‘적신호 사건’(near miss)으로 분류된다. 이는 실제 피해는 없었지만 위험한 상황이 발생했음을 의미한다. 따라서 적신호 사건이 정답이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 심정지 후 소생·집중치료가 필요했던 사건을 무해한 near miss로 설명한 오류를 교정한다. 중대한 일시적 위해가 발생한 sentinel event B를 유지한다.
+- 공식/학회 근거: https://www.jointcommission.org/en-us/knowledge-library/sentinel-events
 
 ## 출처
 

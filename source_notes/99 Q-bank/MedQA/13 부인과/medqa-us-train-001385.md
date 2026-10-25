@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 질식 초음파를 시행할 수 없고 경복부 초음파는 진단 정보
 
 ## 해설
 
+촉진되는 부속기 종괴는 영상평가가 필요하다. 질식 초음파는 골반 장기를 가까이에서 관찰해 높은 해상도를 제공하지만, 환자의 동의와 적합성을 고려해 경복부 초음파로도 우선 평가할 수 있으므로 B가 가장 적합하다. 경복부 검사는 복벽 지방과 장내 가스 등에 영향을 받으므로 질식 검사와 항상 같은 민감도를 보장하지 않는다. 질식 검사를 선택하지 않는다고 경복부 검사가 무가치해지거나 곧바로 MRI가 필수가 되는 것은 아니다. 성경험이나 처녀막 소견만으로 검사 허용 여부를 일률적으로 결정하지 않는다.
 
-대량 수혈 후 시트레이트에 의해 혈청 칼슘이 감소하면 저칼슘혈증이 발생한다. 저칼슘은 신경·근육 과흥분을 일으켜 입 주변 저림과 근육 경련을 유발한다. 티아민은 위장관 증상에 쓰이며 저칼슘 치료에 효과가 없다. 따라서 글루콘산칼슘이 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- https://gravitas.acr.org/ACPortal/GetDataForOneScenario?senarioId=1172
+- https://www.nice.org.uk/guidance/ng88/chapter/Recommendations
 
 ## 출처
 

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 해마와 편도체의 콜린성 활성 감소
 
 ## 해설
 
+우울한 기분·흥미 저하·식욕 및 체중 감소·기능 손상과 조증 병력 부재는 주요우울 삽화를 시사한다. 전통적인 모노아민 가설에서 피질·변연계의 노르에피네프린 신호 감소(C)가 출제 의도다. 그러나 임상 우울증이나 자살 시도만으로 실제 개인 뇌의 노르에피네프린 농도를 측정·확정한 것은 아니며 모든 우울증을 단순 모노아민 결핍으로 환원해서는 안 된다.
 
-주요우울장애와 자살 시도 시 뇌의 피질·변연계에서 노르에피네프린 활성이 감소하는 것이 주요 신경생물학적 특징이다. 따라서 노르에피네프린 감소가 가장 가능성 높은 양상이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 우울증에서 노르에피네프린 감소가 모든 환자에게 확인되는 확정 뇌 소견인 것처럼 단정한 해설을 전통적 모노아민 가설의 범위로 한정했다.
+
 
 ## 출처
 

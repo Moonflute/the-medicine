@@ -19,15 +19,17 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,16 @@ D. 바클로펜
 
 ## 해설
 
-
-할로페리돌에 의한 급성 근긴장이상반응(악성증후군)에는 베노트로핀(베네즈트로핀)과 같은 항콜린성 약물이 가장 효과적이다. 따라서 가장 적절한 치료는 벤즈트로핀이다.
+할로페리돌 투여 직후 발생한 통증성 사경과 국소 목 근육 수축은 급성 근긴장이상반응에 부합한다. 제시된 약물 중 항콜린제인 벤즈트로핀으로 치료한다. 고열·전신 강직·의식 변화 등이 특징인 신경이완제 악성증후군과는 구별해야 하며, 이 사례를 악성증후군이라고 부르지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000616
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 급성 국소 근긴장이상을 신경이완제 악성증후군과 동일시한 중대한 오류와 벤즈트로핀 오기 수정.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.health.ny.gov/diseases/conditions/mimds/diagnosis.htm

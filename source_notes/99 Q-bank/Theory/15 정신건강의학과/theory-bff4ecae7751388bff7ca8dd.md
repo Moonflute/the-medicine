@@ -16,14 +16,18 @@ question_mode: direct_recall
 difficulty: standard
 answer: D
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+curation_status: retained
+curation_reason: "항우울제 전체가 금연 약물은 아니라는 분류 구분은 의미 있는 기본 복습으로 유지."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -47,4 +51,10 @@ D. 플루옥세틴(Fluoxetine)
 
 - 내부 학습 노트: 담배 (Tobacco)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/담배 (Tobacco).md`
-- 학습 목표: 원문 핵심: - 정의: 담배는 연소형(궐련 등)과 비연소형(씹는 담배, 머금는 담배 등)으로 나뉘며, 니코틴 의존성 및 다양한 발암물질 노출을 유발함. - 치료: 니코틴 대체 요법(NRT), Varenicline, Bupropion 등 약물 치료 및 행동 상담.
+- 학습 목표: 금연 치료의 NRT·바레니클린·부프로피온
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 항우울제 전체가 금연 약물은 아니라는 분류 구분은 의미 있는 기본 복습으로 유지.

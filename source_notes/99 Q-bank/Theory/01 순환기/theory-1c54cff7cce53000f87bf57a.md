@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "Brugada에서 발열 등 유발 상황과 실신·VF 위험의 연결은 중요한 안전성 인지 복습으로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11ngppdwpxt3f3z091thbdrhnwcdn0btrucxriqwdlrup5zfdkafphrwdvm2x1wkhkdmjxvxbmbtfrfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -42,10 +47,15 @@ D. 지속적인 흉통
 
 ## 오답 포인트
 
-- **A. 지속적인 고혈압:** 고혈압은 브루가다 증후군의 특징이 아니다.
+- **지속적인 고혈압:** 고혈압은 브루가다 증후군의 특징이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 브루가다 증후군 (Brugada Syndrome)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/브루가다 증후군 (Brugada Syndrome).md`
 - 학습 목표: 원문 핵심: * **CC**: 무증상인 경우도 많으나, 실신이나 급성 심실세동으로 인한 급사가 발생할 수 있다. 증상은 주로 야간이나 휴식 중에 나타나며, 발열, 특정 약물, 과도한 음주 등에 의해 유발될 수 있다. * **P/E**: 대개 구조적 심장 질환은 동반되지 않다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: Brugada에서 발열 등 유발 상황과 실신·VF 위험의 연결은 중요한 안전성 인지 복습으로 유지한다.

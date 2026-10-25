@@ -26,11 +26,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -43,7 +45,7 @@ related_drug_slugs:
 
 ## 문제
 
-37세 여성이 전신 권태감, 쇠약감, 두통, 오심, 구토, 설사를 주소로 응급실에 내원했습니다. 약 이틀 전부터 몸이 좋지 않았다고 합니다. 그녀는 다른 기저 질환이 없으며, 복용하는 약물도 없습니다. 활력 징후는 체온 38.0°C, 심박수 96회/분, 혈압 110/73 mmHg, 실내 공기에서 산소 포화도 96%입니다. 진찰 결과 다소 아파 보이는 여성으로, 졸려 하지만 각성 가능하며 국소 신경학적 결손은 없습니다. 초기 검사 결과 혈액 검사에서 헤마토크릿 26%, 혈소판 80,000/mL, 혈청 크레아티닌 1.5 mg/dL로 나타났습니다. 이 시점에서 가장 적절한 치료는 무엇입니까?
+37세 여성이 전신 권태감, 쇠약감, 두통, 오심, 구토, 설사를 주소로 응급실에 내원했습니다. 약 이틀 전부터 몸이 좋지 않았다고 합니다. 그녀는 다른 기저 질환이 없으며, 복용하는 약물도 없습니다. 활력 징후는 체온 38.0°C, 심박수 96회/분, 혈압 110/73 mmHg, 실내 공기에서 산소 포화도 96%입니다. 진찰 결과 다소 아파 보이는 여성으로, 졸려 하지만 각성 가능하며 국소 신경학적 결손은 없습니다. 초기 검사 결과 혈액 검사에서 헤마토크릿 26%, 혈소판 80,000/μL, 혈청 크레아티닌 1.5 mg/dL로 나타났습니다. 이 시점에서 가장 적절한 치료는 무엇입니까?
 
 ## 선택지
 
@@ -55,7 +57,14 @@ D. 혈장 교환술
 ## 해설
 
 
-환자는 급성 혈소판 감소와 신부전, 빈혈을 동반한 중증 용혈성 요독증후군(TTP)으로 보이며, 혈장 교환이 가장 효과적인 치료이다. 혈장 교환은 ADAMTS13 결핍을 보충하고 미세혈전 형성을 차단한다. 따라서 가장 적절한 치료는 혈장 교환술이다.
+빈혈·혈소판감소에 의식 변화와 신기능 이상이 동반되어 혈전성 미세혈관병증, 특히 TTP를 의심한다. TTP 가능성이 높으면 ADAMTS13 결과를 기다리지 않고 혈장교환(D)을 시작하며 면역억제 등 병행 치료를 평가한다. 다만 본문에는 도말·LDH 등 용혈 증거와 ADAMTS13 결과가 없어 확진은 아니다. TTP(혈전성 혈소판감소성 자반증)와 HUS(용혈성요독증후군)는 동의어가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-000068`와 직접 대조했다.
+- 판정: TTP와 HUS를 혼용한 해설 교정. 급성 빈혈·혈소판감소·신경증상에서 TTP 의심 시 D 지연 금지 확인. 용혈/ADAMTS13 확진은 미제시임을 명시, platelet /mL 오단위도 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13470878/
 
 ## 출처
 

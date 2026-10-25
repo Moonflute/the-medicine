@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,10 +45,15 @@ D. 약물 관련 우울증
 
 ## 해설
 
-
-해고라는 급성 스트레스 사건 직후 6시간 동안 간헐적으로 울고 일어나기 싫어하는 것은 사건 발생 후 1개월 이내에 나타나는 일시적 정서적 반응이다. 환자는 현실 지남력이 보존되고 자살 사고가 없으며 일상 기능이 크게 손상되지 않아 정상적인 스트레스 반응에 해당한다. 따라서 가장 적절한 설명은 ‘정상적인 스트레스 반응’이다. 주요우울장애는 2주 이상 지속되는 핵심 증상이 필요하고, 적응장애는 스트레스에 대한 과도한 정서적·행동적 반응이지만 일상 기능에 현저한 손상이 있다; 이 경우와는 차이가 있다.
+중요한 직장을 잃은 직후 수시간의 슬픔만으로 정신질환을 확정하지 않으며, 제시된 정보에서는 정상적인 스트레스 반응이 가장 가깝다. 정상 반응에 '1개월 이내'라는 필수 진단 규칙은 없다. 적응장애는 스트레스에 비해 현저한 고통 또는 유의한 기능장애 등을 평가하며 두 조건이 항상 모두 필요한 것은 아니다. 증상이 지속·악화되면 우울증·약물 영향과 자살위험을 재평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009850
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 정상 스트레스 반응에 1개월 규칙, 적응장애에 기능손상이 반드시 있어야 한다는 오류 교정. 수시간 반응의 정상 범위 추정 답 유지.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

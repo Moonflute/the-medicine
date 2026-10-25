@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 간세포암
 ## 해설
 
 
-멕시코 여행·동물 접촉·발열·우측 간엽에 단일 저에코 구형 병변은 아메바성 간농양을 가장 잘 설명한다. 간 포충낭종·화농성 농양·간세포암은 임상·영상 양상이 다르다.
+유행지역 거주 뒤 혈성 설사 병력과 수개월 후 발열·우상복부 통증·우엽 단일 병변은 아메바성 간농양 A에 부합한다. Entamoeba histolytica의 주요 경로는 분변-경구이며 단순 애완동물 가게 근무가 핵심 전파 단서는 아니다. 영상만으로 화농성 농양을 완전히 배제할 수 없으므로 임상·혈청/미생물 검사를 통합한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005837 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 아메바성 간농양 A의 주요 단서를 동물 접촉이 아닌 이전 혈성 설사·유행지역으로 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

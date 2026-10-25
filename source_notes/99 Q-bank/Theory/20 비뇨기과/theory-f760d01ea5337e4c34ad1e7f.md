@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "젖혀지지 않는 포경과 뒤로 걸린 감돈포경을 구별하는 쉬운 복습."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 고환 비대
 
 ## 오답 포인트
 
-- **B. 요도 협착:** 요도 협착은 전혀 다른 비뇨기 질환이다.
+- **요도 협착:** 요도 협착은 전혀 다른 비뇨기 질환이다.
 
 ## 출처
 
 - 내부 학습 노트: 포경 (Phimosis)
 - 원본 경로: `source_notes/02 Diseases/20 비뇨기과/포경 (Phimosis).md`
-- 학습 목표: 원문 핵심: - **정의:** 포피(prepuce)가 귀두 뒤로 젖혀지지 않는 상태 - **분류:** - 생리적 포경: 소아에서 흔하며, 성장함에 따라 자연스럽게 포피가 젖혀짐 - 병적 포경: 포피 입구의 반흔성 협착(주로 경화성 태선, BXO)으로 인해 발생
+- 학습 목표: 포경의 정의
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 젖혀지지 않는 포경과 뒤로 걸린 감돈포경을 구별하는 쉬운 복습.

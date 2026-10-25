@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "망상 밖 기능의 상대적 보존은 독립된 감별 개념이며 문자 의존을 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: evidence-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,18 @@ D. 기분 장애가 흔히 동반됨
 
 ## 오답 포인트
 
-- **B. 전반적인 인지 기능 저하가 두드러짐:** 전반적인 인지 저하는 주요 특징이 아니다.
+- **전반적 인지저하가 두드러짐:** 망상장애의 정의적 특징으로 전제하지 않는다.
+- **환각이 항상 존재:** 필수 조건이 아니다.
 
 ## 출처
 
 - 내부 학습 노트: 망상 장애 (Delusional disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/망상 장애 (Delusional disorder).md`
-- 학습 목표: 원문 핵심: - 주요 증상: 피해망상, 관계망상, 질투망상, 색정망상, 신체망상, 과대망상 등 다양한 주제의 망상. - 임상적 특징: 망상과 관련된 주제 외에는 전반적인 인지 기능과 사회적 기능이 비교적 잘 보존됨. - 정신상태검사(MSE): 망상 외의 사고 과정은 체계적일 수 있음. 환청이 동반될 수 있으나 망상과 연관된 경우가 많음. - 병식: 대개 자신의 망상에 대한 병식이 결여되어 있음.
+- 학습 목표: 망상장애에서는 망상과 직접 관련된 영향을 제외하면 기능이 상대적으로 보존될 수 있음을 설명한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수 및 아래 근거에 한정한 사실 확인.
+- 결정: 망상 밖 기능의 상대적 보존은 독립된 감별 개념이며 문자 의존을 제거.
+- 근거: https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/

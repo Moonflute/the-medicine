@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "비-안와-뇌형의 일측성 안면·비강 침범은 중요한 위험 형태의 기본 인식 이론으로 유지."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrgdnnnjdutdkzthmltjfdu9xennpmk1vzxlkde95bw5tqw9uwfzqyjnkdgvxtnzjmmx6s1m1dfpbfgrpc2vhc2utmditcmvjb2duaxrpb258zglyzwn0x3jly2fsba
@@ -45,3 +50,8 @@ D. 구강 궤양
 - 내부 학습 노트: 털곰팡이증 (Mucormycosis)
 - 원본 경로: `source_notes/02 Diseases/08 감염/털곰팡이증 (Mucormycosis).md`
 - 학습 목표: 원문 핵심: - **비-안와-뇌형**: 일측성 안면통·부종, 비폐색, 혈성 분비물, 구개/비갑개 괴사, 안구돌출·복시·시력저하, 두개신경 결손이 빠르게 진행한다. - **폐형**: 지속열, 기침, 흉통, 객혈, 호흡곤란. 혈관침습으로 결절·경결·경색·공동 또는 폐출혈이 생긴다. - 피부형은 외상/수술 부위의 통증성 괴사성 병변, 위장관형은 복통·출혈·천공으로 나타날 수 있으며 파종 시 뇌·피부 등 여러 장기를 침범한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: 비-안와-뇌형의 일측성 안면·비강 침범은 중요한 위험 형태의 기본 인식 이론으로 유지.

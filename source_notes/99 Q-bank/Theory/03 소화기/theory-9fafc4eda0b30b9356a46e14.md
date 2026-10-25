@@ -12,40 +12,52 @@ target_type: disease
 target_slug: "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg64u07KaZ7ISxIOuLtOq0gOyXvCAoUEJDKSAoUHJpbWFyeSBCaWxpYXJ5IENob2xhbmdpdGlzKS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "병명 정의 반복 대신 중요한 1차 약물 치료를 직접 복습하도록 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-원발성 담즙성 담관염(PBC)의 정의는 무엇입니까?
+원발성 담즙성 담관염(PBC)의 기본 1차 약물 치료는?
 
 ## 선택지
 
-A. 간 내 소담관의 진행성 자가면역성 파괴에 의한 만성 담즙정체성 간 질환
-B. 간세포의 지방변성으로 인한 비알코올성 지방간
-C. 담낭 결석에 의한 급성 담관염
-D. 간문맥 고혈압에 의한 간경변증
+A. 우르소데옥시콜산(UDCA)
+B. 모든 환자에서 고용량 전신 스테로이드 단독
+C. 장기 예방적 광범위 항생제
+D. 콜레스트라민만으로 간질환 진행을 치료
 
 ## 해설
 
-PBC는 간 내 소담관이 자가면역 반응으로 파괴되어 진행성 담즙정체와 간 손상이 발생하는 질환이다.
+UDCA가 기본 1차 치료다. 간화학 검사 반응 등을 평가해 불충분 반응이나 불내성 시 추가 치료를 검토한다. 가려움 완화 약물과 질환 진행을 겨냥하는 치료를 구별한다.
 
 ## 오답 포인트
 
-- **B. 간세포의 지방변성으로 인한 비알코올성 지방간:** 비알코올성 지방간은 지방축적이 원인으로 PBC와 무관합니다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 원발성 담즙성 담관염 (PBC) (Primary Biliary Cholangitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/원발성 담즙성 담관염 (PBC) (Primary Biliary Cholangitis).md`
-- 학습 목표: 원문 핵심: - **정의**: 간 내 소담관의 진행성 자가면역성 파괴에 의해 발생하는 만성 담즙정체성 간 질환. 과거에는 원발성 담즙성 간경변증(Primary Biliary Cirrhosis)으로 불렸으나, 간경변증 전 단계에서도 진단 가능하여 담관염으로 명칭 변경. 주로 40~70세 여성에서 호발. - **원인**: 정확한 원인은 불명. 유전적 소인(HLA 대립유전자 등), 환경적 요인(감염, 장내 미생물 등)이 복합적으로 작용하는 자가면역 질환으로 추정. 미토콘드리아 항원(PDC-E2)에 대한 자가면역 반응이 핵심. - **기전**: 자가…
+- 학습 목표: PBC의 1차 치료 UDCA
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 병명 정의 반복 대신 중요한 1차 약물 치료를 직접 복습하도록 개선.
+- 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
+- https://www.aasld.org/aasld-and-aga-offer-first-medication-focused-guideline-treating-pbc

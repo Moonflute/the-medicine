@@ -17,16 +17,18 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvRXJ5dGhyb215Y2luLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,12 @@ D. 경구 에리스로마이신(erythromycin)
 
 ## 해설
 
+짧은 경과의 충혈, 점액농성 분비물과 아침 눈꺼풀 붙음, 보존된 시력과 정상 각막은 급성 세균성 결막염에 합당하다. 약물 선지 중 C, 국소 erythromycin이 적절하며 진균제나 국소 steroid를 먼저 선택하지 않는다. 다만 경증 세균성 결막염도 자연 호전될 수 있어 모든 환자에서 항생제가 필수이거나 erythromycin이 다른 국소 항생제보다 우월하다고 단정할 수는 없다. 과도한 고름·각막 침범·지속성 경과가 나타나면 임균/클라미디아 등 다른 원인과 전신 치료 필요성을 재평가한다.
 
-양쪽 결막 충혈·농양성 분비물·눈꺼풀 부종은 세균성 결막염이며, 임상적으로 가장 흔한 원인균은 포도상구균이다. 국소 에리스로마이신 점안이 1차 치료에 적합하다. 따라서 정답은 국소 에리스로마이신이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 약물 선지 중 topical erythromycin C는 유지하되 모든 경증 결막염에 항생제가 필수/단일 최상이라는 단정을 교정.
+- 공식/학회 근거: https://www.aaojournal.org/article/S0161-6420(24)00009-5/fulltext
 
 ## 출처
 

@@ -26,7 +26,7 @@ sources_ref: "openFDA drug label API (US)"
 > - 대표 용량: 500mg ~ 1000mg (1일 2회)
 
 ## 기전
-- 심근 세포 내 나트륨 의존성 칼슘 통로를 억제하여 세포 내 칼슘 과부하를 감소시킴으로써 심근 이완을 돕고 산소 소비를 줄임
+- 치료 농도에서 심근의 후기 유입 나트륨 전류(late inward Na current)를 억제한다. 칼슘 통로나 Na/Ca 교환체를 직접 억제하는 약으로 설명하지 않는다. 허가사항상 항협심 효과의 정확한 기전은 완전히 규명되지 않았다.
 
 ## 임상 정보
 -
@@ -72,3 +72,4 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- [DailyMed ranolazine 허가사항, 12.1 Mechanism of Action](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71d50258-75b7-4801-b0f4-c34fe883d57d)

@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 신경과 전문의의 2차 의견
 
 ## 해설
 
+현재 소견만으로 뇌사를 선언하거나 환기를 중단할 수 없다. 디아제팜 등 중추신경 억제 약물의 영향을 배제하고 생리적 전제조건을 충족한 뒤 정식 신경학적 검사와 무호흡검사를 시행해야 한다. 따라서 보기 중에는 지지치료를 유지하며 재평가하는 C가 적절하다. '몇 시간 후'가 약물 소실을 보장하는 고정된 판정 간격은 아니다. 약물 반감기와 투여량, 장기기능 등에 따라 더 긴 관찰이 필요하다. 현행 지침에서 EEG는 뇌사 보조검사로 인정되지 않는다.
 
-뇌간 출혈·뇌탈출 후 뇌사 판정은 최소 6시간 이상 관찰 후 재검사한다. 현재는 뇌사 여부를 확정할 수 없으므로 몇 시간 후 재검사가 최선 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 디아제팜 교란이 남은 환자에서 고정된 6시간 관찰만으로 뇌사를 판정한다는 오류를 교정. C는 재평가이며 사망선언이 아님.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/
 
 ## 출처
 

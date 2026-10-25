@@ -19,17 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k
-  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
 ---
 
 # MedQA US 임상문제
@@ -47,8 +48,14 @@ D. 아세트아미노펜을 하루 6,000mg으로 증량
 
 ## 해설
 
+정답은 A, 아세트아미노펜을 멜록시캄으로 변경하는 것이다. 오랜 기간 진행된 고관절 통증이 활동과 하루 경과에 따라 악화되고 아침 강직은 짧아 골관절염을 시사한다. 아세트아미노펜으로 충분히 조절되지 않는 증상성 고관절 골관절염에서는 금기가 없다면 경구 NSAID가 적절한 선택이다. 처방 전 신장기능, 위장관 출혈 및 심혈관 위험을 확인하고, 캅토프릴과 병용할 때의 신장기능·혈압 영향도 고려하며 최소 유효용량을 가능한 짧게 사용한다. 경구 전신 스테로이드나 글루코사민은 이 케이스의 권장 대안이 아니고, 아세트아미노펜 6,000 mg/일은 간독성 위험 때문에 선택하면 안 된다. 멜록시캄이 모든 NSAID보다 우월하다는 의미는 아니다.
 
-황색포도상구균 식중독은 사전 형성된 장내 독소에 의해 구토만 발생한다. 달걀 샐러드와 같은 전분·단백질이 많은 음식이 위험 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문의 본문·선지·정답 및 한국어 해설을 개별 대조하였다. 원정답과 케이스를 유지하고 잘못 연결된 해설을 교체하였다.
+- 영어 원문은 고관절 X선 영상을 언급하지만 현재 자료에는 영상이 없다. 영상 소견을 만들어 기술하지 않았다. 본문의 만성 기계적 통증·짧은 아침 강직·비만 및 제시된 네 치료 선택지만으로 원래 치료 답 A를 판단할 수 있어, 영상 단어만을 이유로 보류하지 않았다.
+- 공식/학회 근거: https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-hip/oah-cpg.pdf
+- 공식/학회 근거: https://www.arthritis.org/getmedia/d57cf9f5-e096-43a2-832d-dbc174065a58/Kolasinski-2020-american-college-of-rheumatology-a.pdf
 
 ## 출처
 

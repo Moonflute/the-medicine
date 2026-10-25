@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 골수 흡인
 
 ## 해설
 
+9개월 영아의 기면·보챔과 광범위한 양측 망막출혈은 두개내 손상과 학대성 두부외상 평가가 필요하다. 급성 출혈·골절을 신속히 확인하기 위한 비조영 두부 CT(C)가 적절하다. 비조영은 조영제를 쓰지 않는다는 뜻이며 CT의 방사선 노출이 없어지는 것은 아니다. 보호·다학제 평가도 병행한다.
 
-신생아의 다발성 망막출혈과 비정상적인 행동은 두부 외상(학대) 가능성을 시사한다. 방사선 피폭을 피하기 위해 조영제 없이 CT가 가장 안전하고 진단에 도움이 된다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 비조영 CT가 방사선 노출을 피한다는 오류와 9개월을 신생아로 부른 표현 교정.
+- https://publications.aap.org/pediatrics/article-lookup/doi/10.1542/peds.2015-0356
 
 ## 출처
 

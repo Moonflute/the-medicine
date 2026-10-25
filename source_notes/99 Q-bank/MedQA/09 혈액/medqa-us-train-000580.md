@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 적혈구 막의 결함이 있는 안키린(ankyrin)
 ## 해설
 
 
-이소니아지드 복용은 비타민 B6(피리독신) 소모를 증가시켜 헤모글로빈 합성을 방해한다. 이는 포도당-6‑인산 탈수소효소 억제로 비정상적인 적혈구 전구체 축적을 일으키며, 환자는 비정상적인 용혈성 빈혈을 보인다. 따라서 환원형 글루타티온 결핍이 원인이다.
+급성 등 통증·황달, 간접 bilirubin 증가·낮은 haptoglobin과 적혈구 수에 비해 강한 요잠혈은 혈관내 용혈을 시사한다. 지중해 지역 출신이라는 맥락에서 선택지 B는 G6PD 결핍에 따른 NADPH 생성 감소와 환원형 glutathione 재생 장애를 뜻한다. 이는 산화손상에 대한 적혈구 방어를 약화시킨다. Isoniazid 관련 B6 결핍은 별도로 철적모구빈혈/신경병증을 일으킬 수 있지만 G6PD를 억제하는 동일 경로가 아니다. Isoniazid 투여 직후라는 시간관계만으로 G6PD 용혈의 원인 약물임을 확정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000580 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Isoniazid/B6/헤모글로빈 합성과 G6PD를 뒤섞은 잘못된 기전을 G6PD-NADPH-glutathione 경로로 교체했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b46d1d-2300-457d-a7bd-a88a3f8d2235
 
 ## 출처
 

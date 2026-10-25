@@ -23,11 +23,13 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9idXRhbWluZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,6 +49,13 @@ D. 도부타민 부하 심초음파
 
 
 15분 미만의 짧은 발작성 흉통이 운동과 무관하고 휴식으로 호전되며 심전도와 검진이 정상인 경우 관상동맥질환 전향 확률이 낮다(저 사전 확률). 저 위험군에서는 추가 검사가 필요하지 않으며, 불필요한 검사보다 관찰이 적절하다. 따라서 추가 검사가 필요하지 않다가 정답이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 39세의 만성 비운동성 비방사 흉통·저사전확률에서 선택지상 추가 CAD 검사 없음 C. 급성 변화 시 재평가는 별도.
+- https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053
 
 ## 출처
 

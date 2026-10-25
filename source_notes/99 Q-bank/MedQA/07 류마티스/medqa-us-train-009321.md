@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 디클로페낙
 ## 해설
 
 
-류마티스 관절염은 손목·근위지절관절의 부종·압통과 X선에서 관절 침식이 보이며, 메토트렉세이트가 1차 DMARD로 권장된다. 다른 선택지는 치료 전략에 부합하지 않는다.
+8개월의 대칭 손목·PIP 통증과 아침강직, 발작 사이에도 남는 활막 부종·압통은 지속 염증성 관절염/RA를 의심하게 한다. 보기 중 methotrexate A가 초기 질병변경 치료에 부합하며 adalimumab을 DMARD-naive 환자의 통상 첫 약으로 사용하지 않는다. NSAID나 steroid 단독은 장기 관절손상 예방 전략이 아니다. 다만 영상은 제공되지 않아 미란이 실제 보인다고 단정하지 않았으며 혈청·임상 및 영상으로 진단과 활동도를 확인한 뒤 치료를 정한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009321 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 제공되지 않은 손X선의 미란을 만들어 넣은 설명 교정; 지속 활막염과 질병변경 치료 의도 A 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1016/j.ard.2026.01.023
 
 ## 출처
 

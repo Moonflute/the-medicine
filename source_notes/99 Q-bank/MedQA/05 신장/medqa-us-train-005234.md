@@ -18,15 +18,21 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: "B"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: "content-reviewed"
+medical_reviewed_at: 2026-10-25
+curation_status: "revised"
+curation_reason: "도뇨관 폐색을 수술 후 AKI 전체의 흔한 확정 원인으로 단정하지 않도록 수정."
+curation_reviewed_at: "2026-10-25"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -44,10 +50,19 @@ D. 응급 혈액투석 시작
 
 ## 해설
 
+유치도뇨관에서 갑자기 소변이 거의 나오지 않으면 먼저 관의 꼬임·막힘·위치와 방광 팽만을 확인한다. 쉽게 교정 가능한 배액 문제를 배제하면서 체액 상태·신기능과 다른 수술 후 AKI 원인을 평가한다. 이것이 모든 수술 후 AKI의 원인이 폐색이라는 뜻은 아니다.
 
-수술 후 급성 신손상의 흔한 원인은 유치도뇨관 폐색이며, 소변량 감소가 즉시 관찰된다. 먼저 도뇨관이 막혔는지 확인하고 교정해야 하며, 이는 다른 치료보다 우선한다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 도뇨관 폐색을 수술 후 AKI 전체의 흔한 확정 원인으로 단정하지 않도록 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005234
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

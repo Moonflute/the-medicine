@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 베게너 육아종증
 ## 해설
 
 
-폐에서 ACTH를 과다 분비하는 소세포 암은 부신피질 자극으로 쿠싱 증후군을 일으키며, 얼굴이 둥글고 지방 패드가 늘어난 외모가 특징이다. 다른 비소세포 암은 호르몬 분비가 드물다. 따라서 가장 가능성 높은 원인은 소세포 폐암이다.
+흡연력과 호흡기 증상에 쉽게 멍듦, 고혈압·새 당뇨, 다혈성 둥근 얼굴과 지방패드가 동반되어 Cushing syndrome을 의심한다. 제시한 폐질환 중 이소성 ACTH 분비와 가장 잘 연관된 소세포폐암 A가 적절하다. 비소세포암이 어떤 호르몬도 분비하지 않는다는 뜻은 아니며 편평세포암은 PTHrP 관련 고칼슘혈증 등을 일으킬 수 있다. 실제 흉부사진의 구체적 종괴 소견은 제공되지 않아 만들어 넣지 않았다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006103 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 이소성 ACTH/SCLC A 유지하되 비소세포암도 다른 종양연관 호르몬을 낼 수 있음을 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

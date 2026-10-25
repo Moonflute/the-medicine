@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 직접 쿰스 검사
 ## 해설
 
 
-급성 용혈성 빈혈에서 직접 코밋스 검사는 적혈구에 결합된 IgG를 검출해 면역 매개 용혈을 확인한다. 환자는 급성 빈혈, 황달, 비장 비대와 저산소증을 보이며 용혈성 빈혈이 의심된다. 직접 코밋스 검사가 진단에 가장 도움이 된다.
+빈혈, 황달, 비장비대는 용혈을 시사한다. 선택지 중 직접 항글로불린검사(DAT, D)가 적혈구에 결합한 IgG 또는 보체를 검출하여 면역성 용혈 감별에 도움이 된다. 정상 DAT가 모든 용혈을 배제하는 것은 아니다. 빈혈만으로 SpO₂ 81%를 설명할 수 없으므로 저산소증의 동반 심폐 원인도 별도 평가해야 한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009754 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 용혈에서 DAT D는 IgG만 아니라 적혈구 결합 보체도 검출. 심한 저산소증을 빈혈 자체로만 설명하지 않음.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

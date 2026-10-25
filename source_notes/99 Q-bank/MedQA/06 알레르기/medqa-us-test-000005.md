@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 플루오로메톨론 점안액
 ## 해설
 
 
-계절성 알레르기성 결막염은 가려움, 눈물, 결막충혈을 동반하며, 히스타민 H1 차단제보다 H1/H2 차단제인 케토티펜이 증상 완화에 더 효과적이다. 따라서 케토티펜 점안액이 가장 적절한 치료법이다.
+계절성 재발, 양측 가려움과 맑은 분비물은 알레르기결막염을 시사한다. 케토티펜은 H1 수용체 길항 및 비만세포 안정화 작용을 하므로 B가 적절하다. H2 차단제로 설명한 기존 해설은 잘못이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-test-000005`와 직접 대조했다.
+- 판정: 알레르기결막염과 정답 B는 일치. 케토티펜을 H1/H2 차단제라고 설명한 약리 오류를 H1 길항·비만세포 안정화로 교정.
+- 검수 범위: 아래 1차 근거로 해당 쟁점을 확인(evidence-reviewed). 모든 가능한 임상 쟁점의 전면 검증을 뜻하지 않는다.
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2001/21066s4lbl.pdf
 
 ## 출처
 

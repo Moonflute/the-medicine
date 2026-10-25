@@ -12,40 +12,49 @@ target_type: disease
 target_slug: "MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ"
 theory_objective_id: disease-02-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "크기·위치와 무관하게 전절제만 가능하다는 단정을 제한하고 진단 생검과 치료 절제를 구분."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-악성 흑색종 진단에 가장 권장되는 조직검사는?
+기술적으로 가능할 때 흑색종이 의심되는 피부 병변의 선호되는 진단 생검은?
 
 ## 선택지
 
-A. 전절제 생검(Excisional biopsy)
-B. 절개 생검(Incisional biopsy)
-C. 세침흡인(Fine needle aspiration)
-D. 펀치 생검(Punch biopsy)
+A. 좁은 임상적 정상 피부 경계를 포함한 전층 완전절제 생검
+B. 병변을 보존하지 않고 바로 냉동 치료
+C. 깊이를 평가할 수 없는 표면 긁기만
+D. 전이 여부와 무관한 혈액검사만
 
 ## 해설
 
-악성 흑색종 진단 시 전절제 생검이 원칙이며, 병기 평가와 치료 계획에 필수적이다.
+ESMO는 가능하면 전층 완전절제로 종양 깊이 등을 평가하도록 권고한다. 큰 병변이나 위치상 완전절제가 곤란한 경우 부분 생검을 선택할 수 있다. 이는 확진 후 병기에 따라 시행하는 광범위 절제와 다르다.
 
 ## 오답 포인트
 
-- **B. 절개 생검(Incisional biopsy):** 절개 생검은 충분한 병변 전체를 확보하지 못할 수 있다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 악성 흑색종 (Malignant Melanoma)
 - 원본 경로: `source_notes/02 Diseases/19 피부과/악성 흑색종 (Malignant Melanoma).md`
-- 학습 목표: 원문 핵심: * **CC**: 무증상이 흔하나 가려움, 출혈, 궤양, 위성 병변 등이 동반될 수 있음. * **P/E (ABCDE 규칙)**: Asymmetry(비대칭), Border irregularity(불규칙한 경계), Color(색조 변화), Diameter > 6mm(직경 증가), Evolving(크기/모양/색의 변화). * **주요 분류**: - 표재확산 흑색종 (Superficial spreading melanoma): 가장 흔한 유형. - 결절 흑색종 (Nodular melanoma): 수직 성장만 하며 예후가 나쁨. - 악성 흑…
+- 학습 목표: 흑색종 의심 병변의 전층 완전절제 진단 생검
+
+## 검수 근거
+
+- https://www.annalsofoncology.org/article/S0923-7534%2824%2904912-3/abstract

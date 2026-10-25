@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -43,7 +45,13 @@ D. 섬유근육통
 ## 해설
 
 
-양측 무릎의 관절음과 확대, 손가락 기저부 압통, 그리고 50분 정도 지속되는 아침 강직은 골관절염의 특징인 골극(Heberden 결절)과 관절염을 나타낸다. 골관절염은 비염증성 퇴행성 관절질환으로, 이러한 임상소견과 일치한다. 다른 선택지는 전형적인 증상(예: 강직성 척추염의 척추 통증)과 맞지 않는다.
+DIP의 단단한 결절, 엄지 기저부 통증과 무릎 염발음·골성 비대는 골관절염(C)을 지지한다. 50분의 아침강직은 골관절염의 전형적 짧은 강직보다 길므로 그것 자체를 전형적 소견으로 가르치지 않는다. 전체 소견과 선지 비교에서 C가 가장 적절하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-000178` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Heberden 결절·엄지기저·무릎 염발음의 OA C 유지. 50분 아침강직을 전형적 OA라고 단정한 해설 교정.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7ZeI66asIO2GteymnQ"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "비특이적 요통과 방사통·감각이상·근력저하의 구분은 실용적 기초 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -45,3 +50,7 @@ D. 관절 부종
 - 내부 학습 노트: 허리 통증
 - 원본 경로: `source_notes/01 Chief Complaint/허리 통증.md`
 - 학습 목표: 원문 핵심: 허리 통증은 비특이적 통증과 신경근 증상을 구분하고 마미증후군, 감염, 골절, 악성질환을 시사하는 징후를 따로 찾는다.
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

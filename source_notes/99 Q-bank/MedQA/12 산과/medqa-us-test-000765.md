@@ -18,13 +18,15 @@ question_type: ethics
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 이송의 의학적 이득이 위험보다 클 때만 이송
 
 ## 해설
 
+출혈·저혈압은 즉각적인 평가와 병원 역량 내 안정화 치료가 필요하다. EMTALA에서 설명을 들은 환자가 서면으로 이송을 요청한 경우 적절한 이송이 가능하므로 C가 가장 적절하다. 서면은 의사의 요청이 아니라 환자의 자발적 요청이며, 수용 병원 동의·적절한 인력/장비·기록 전달 등 요건도 충족해야 한다.
 
-혈압 88/65 mmHg와 빈맥은 저혈량성 쇼크를 시사하여 응급 안정이 필요함을 나타낸다. EMTALA는 환자를 안정시키고 전송 전 책임 있는 의사의 서면 전송 요청을 받아야 한다고 규정한다. 따라서 서면 요청을 받은 후 치료하고 이송하는 것이 가장 적절하다(C). 선택지 D는 위험‑이득만을 강조해 EMTALA의 전송 전 요구조건을 놓친다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 의사의 서면 요청이 아닌 설명을 들은 환자의 서면 이송 요청임을 교정.
+- https://www.cms.hhs.gov/EMTALA/Downloads/CMS-1063-F.pdf
+- https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act
 
 ## 출처
 

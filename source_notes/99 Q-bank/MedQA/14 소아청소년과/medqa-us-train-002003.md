@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 철분 과다복용
 
 ## 해설
 
+심한 구강 통증, 혀의 홍반·부종과 침흘림/삼킴 불가는 부식성 물질 섭취(A)를 시사한다. 산과 알칼리 모두 구강·상부 소화관을 손상할 수 있으며 본문은 실제 물질을 확인하지 않아 강산이라고 확정할 수 없다. 정상 산소포화도만으로 잠재적 상기도 손상이 배제되는 것도 아니다.
 
-구강 내 큰 부종·홍반·침 흘림은 강산성 물질(예: 산) 섭취에 의한 화학적 화상으로, 급성 기도·식도 손상이 우선이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 부식성 물질을 강산에만 한정한 해설을 산·알칼리 화학 손상으로 바로잡았다.
+
 
 ## 출처
 

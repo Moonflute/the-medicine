@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 절개 및 배농
 
 ## 해설
 
+지속 인후통이 급격히 악화되고 개구장애, 침흘림과 먹먹한 목소리가 동반되어 편도주위 등 심부 인두 감염/농양을 강하게 의심한다. 제시된 선택지 중 D, 절개 및 배농이 원인 치료에 부합한다. 기도 안전과 이비인후과 평가, 전신 항생제를 함께 고려한다. 현재 CT 그림 자체는 없으므로 저밀도 병변의 위치·크기를 실제 확인한 것처럼 적지는 않았다. 임상 맥락과 나머지 세 선지의 부적절성으로 선택이 가능하다.
 
-입을 벌릴 수 없고 침 흘림, 목소리 둔화는 편도주위 농양을 시사한다. CT에서 편도주위 액성 저밀도 병변이 확인되면 즉시 절개 및 배농이 필요하다. 따라서 초기 치료는 절개 및 배농이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 누락 CT의 구체적 농양 모양을 임의로 진술하지 않고 개구장애·침흘림·먹먹한 목소리 등 본문의 농양 단서로 D를 설명.
+- 공식/학회 근거: https://www.bsac.org.uk/paediatricpathways/tonsillitis-quinsy.php
 
 ## 출처
 

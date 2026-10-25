@@ -17,22 +17,24 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-7주 된 남아(male)가 구토를 주소로 소아과에 내원하였다. 부모는 3주 전부터 환아가 식후에 구토를 시작했다고 보고하였다. 구토물은 붉은색이나 녹색 줄무늬가 없는 정상적인 위 내용물로 보인다고 한다. 부모는 이미 식사 중 자세를 바꾸어 보았고 우유와 콩을 배제하기 위해 분유를 바꾸어 보았다. 이러한 조정에도 불구하고 구토는 더 빈번하고 분출성(forceful)으로 변하였다. 환아의 어머니는 하루에 약 4회 소변을 보며 소변 색이 짙은 노란색이라고 보고하였다. 환아는 성장 곡선에서 표준편차 1만큼 떨어졌다. 환아의 어머니는 임신 중 3분기에 부비동염(sinusitis) 에피소드가 있었던 것 외에는 합병증이 없었으며, 이에 대해 아지트로마이신(azithromycin)으로 치료받았다고 보고하였다. 진료실에서 환아의 체온은 98.7°F(37.1°C), 혈압은 58/41 mmHg, 맥박은 166회/분, 호흡은 16회/분이다. 신체 검진에서 환아는 나이에 비해 작아 보인다. 복부는 부드럽고 압통이 없으며 팽만되지 않았다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+7주 된 남아(male)가 구토를 주소로 소아과에 내원하였다. 부모는 3주 전부터 환아가 식후에 구토를 시작했다고 보고하였다. 구토물은 붉은색이나 녹색 줄무늬가 없는 정상적인 위 내용물로 보인다고 한다. 부모는 이미 식사 중 자세를 바꾸어 보았고 우유와 콩을 배제하기 위해 분유를 바꾸어 보았다. 이러한 조정에도 불구하고 구토는 더 빈번하고 분출성(forceful)으로 변하였다. 환아의 어머니는 환아가 하루에 약 4회 소변을 보며 소변 색이 짙은 노란색이라고 보고하였다. 환아는 성장 곡선에서 표준편차 1만큼 떨어졌다. 환아의 어머니는 임신 중 3분기에 부비동염(sinusitis) 에피소드가 있었던 것 외에는 합병증이 없었으며, 이에 대해 아지트로마이신(azithromycin)으로 치료받았다고 보고하였다. 진료실에서 환아의 체온은 98.7°F(37.1°C), 혈압은 58/41 mmHg, 맥박은 166회/분, 호흡은 16회/분이다. 신체 검진에서 환아는 나이에 비해 작아 보인다. 복부는 부드럽고 압통이 없으며 팽만되지 않았다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
 
 ## 선택지
 
@@ -45,6 +47,12 @@ D. 수유 농도 걸쭉하게 하기
 
 
 신생아 구토와 탈수, 저혈압이 동반된 경우 급성 탈수와 전해질 불균형이 우선 고려된다. 정맥 수액 공급이 가장 시급한 조치이며, 이후 원인 검사를 진행한다. 따라서 다음 관리 단계는 정맥 수액 공급이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 소변량의 주체를 어머니로 옮긴 오역을 환아로 수정. 원문·선지·B·해설 확인: 저혈압/탈수의 수액 안정화가 검사·유문근절개술보다 선행. 용량 추가 없음.
+
 
 ## 출처
 

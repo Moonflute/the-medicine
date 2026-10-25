@@ -19,13 +19,15 @@ related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 가림-벗김 검사
 
 ## 해설
 
+18개월에 의미 있는 어휘가 'mama'에 그치면 언어 지연을 평가해야 한다. 청각 평가(B)가 필요하며 언어·발달 평가와 조기 중재도 병행한다. 이름에 반응하거나 가리키기가 가능해도 청력 손실을 완전히 배제하지 못한다.
 
-아동의 언어 발달이 정상 범위에 있더라도 청각 결손은 언어 지연의 주요 원인이다. 청력 검사는 비침습적이며 조기에 청각 이상을 발견해 치료를 시작할 수 있다. 따라서 다음 단계는 청각 평가이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 18개월 mama만 말하는 언어 지연을 정상으로 기재한 해설 교정.
+- https://www.asha.org/practice-portal/Clinical-Topics/Spoken-Language-Disorders/
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 당뇨병성 귀병증
 
 ## 해설
 
+정상 고막에 양측 골전도 우세(Rinne 음성)가 있어 양측 전음성 난청을 시사한다. 젊은 성인의 이경화증에서는 등골의 고정으로 이러한 양상이 나타날 수 있으므로 C가 가장 적절하다. 양측 대칭 손상이면 Weber 편위가 없을 수 있다. Carhart notch는 이경화증의 청력검사 단서가 될 수 있지만 이 문항에는 실제 청력도 결과가 제시되지 않았다.
 
-양측 골전도 > 공기전도, Carhart notch가 특징인 전도성 청력 손실은 이경화증에 해당한다. 약물성, 노인성, 당뇨병성 청력 손실은 이러한 청력 검사 결과를 보이지 않는다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 이경화증 C는 유지하되 본문에 없는 Carhart notch를 관찰된 소견처럼 인용하지 않도록 교정.
 
 ## 출처
 

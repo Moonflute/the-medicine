@@ -20,11 +20,11 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvSXNvc29yYmlkZU1vbm9uaXRyYXRlLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,14 @@ D. 스텐트 혈전증
 
 ## 해설
 
+이소소르비드 모노니트레이트와 실데나필을 함께 사용하면 NO–cGMP 경로의 혈관확장이 증폭되어 심한 저혈압과 실신이 발생할 수 있으므로 B가 적합하다. 이 병용은 금기이며 프라조신도 저혈압에 기여할 수 있다. 클로피도그렐이 PDE5 억제제와 같은 방식으로 혈관을 확장하여 생긴다는 기존 설명은 잘못이다.
 
-클로피도그렐(혈소판 억제제)과 실데나필(PDE5 억제제)은 혈관 확장을 촉진해 혈압을 급격히 낮출 수 있다. 두 약물의 병용은 저혈압과 실신을 일으키는 약물 상호작용이 가장 흔한 원인이다. 따라서 정답은 약물 상호작용이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 저혈압 상호작용의 원인 약물을 클로피도그렐이 아닌 질산염-실데나필 병용으로 교정.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1c3a2a2-8cf5-41c3-9c86-54290570d916
 
 ## 출처
 

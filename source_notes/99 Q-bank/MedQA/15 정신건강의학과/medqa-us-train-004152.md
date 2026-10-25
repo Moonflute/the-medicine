@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,15 @@ D. 리스페리돈
 
 ## 해설
 
-
-급성 초조·불안·조현병 악화에 대해 할로페리돌은 전형적인 전형 1형 비정형 항정신병제로 빠른 진정 효과가 있다.
+약물 중단 후 급성으로 악화된 조현병과 심한 초조가 있다. 제시된 선택지 중 고역가 1세대(전형적) 항정신병약인 할로페리돌이 원문 선택이다. 비정형 항정신병약으로 분류하지 않는다. 병적 비만·당뇨병 등 대사 부담을 고려하되 할로페리돌도 정좌불능·급성 근긴장이상·QT 연장 등 위험이 있어 모니터링해야 한다. 급성 안정화 후에는 지속 치료와 복약 순응도 지원 계획을 따로 세운다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004152
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 할로페리돌을 '전형 1형 비정형'으로 혼합 분류한 오류 수정. 급성 선택과 대사·추체외로 위험 및 장기 순응도 계획 구별.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

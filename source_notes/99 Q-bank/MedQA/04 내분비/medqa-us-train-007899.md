@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 갑상선기능저하증
 ## 해설
 
 
-불규칙한 월경, 비만, 고혈압, 고혈당, 얼굴 다모증, 멍, 근력 약화는 고코르티코스테론 혈증을 시사한다. 코르티솔 과다분비는 지방 재분포, 근육 위축, 고혈당, 고혈압을 일으키며 쿠싱증후군을 진단하게 된다. 따라서 정답은 쿠싱증후군이다.
+정답 A. 멍이 잘 듦, 근위부 근력 약화, 월경 변화, 비만·고혈압·고혈당은 cortisol 과다인 Cushing syndrome에 부합한다. 이를 corticosterone 과다라고 바꾸어 부르면 안 된다. 임상 양상으로 가장 가능성 높은 진단을 고르는 문제이며 실제 진단은 적절한 생화학 검사와 외인성 steroid 노출 확인 등을 거친다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-007899 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 고코르티코스테론혈증 오역을 고코르티솔혈증으로 교정, 진단 의심과 생화학 확인 구분.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

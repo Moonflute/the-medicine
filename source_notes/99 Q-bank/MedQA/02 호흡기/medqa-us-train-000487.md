@@ -22,15 +22,17 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,14 @@ D. 데메클로사이클린(demeclocycline) 투여
 
 ## 해설
 
+정답은 C이다. Na115와 심한 혼돈·기면은 증상성 중증 저나트륨혈증으로 고장성 식염수의 신속하고 감시된 투여가 필요하다. 이는 초기 혈장 긴장도를 높여 저삼투성 뇌부종을 줄이기 위한 것이며, 과도한 교정은 삼투성 탈수초 위험을 일으킨다. 높은 요중 Na/삼투압과 중심 폐종괴는 SIADH를 시사한다. ADH는 부신에서 분비되는 호르몬이 아니며 종양의 이소성 분비도 가능하다. 반복 Na검사와 초기 증상 호전 목표 및 일일 교정한도를 지킨다.
 
-중추성 저나트륨혈증은 부신 항이뇨 호르몬(ADH) 과다분비에 의해 발생하며, 폐암 등 부인성 종양이 원인일 수 있다. 고장성 식염수는 혈중 삼투압을 급격히 올려 뇌부종 위험을 증가시킨다. 따라서 저나트륨혈증 교정에 가장 적절한 치료는 고장성 식염수 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: ADH를 부신호르몬으로 설명하고 고장성수액이 뇌부종을 악화시킨다는 역기전을 교정.
+- https://academic.oup.com/ejendo/article/170/3/G1/6668028
 
 ## 출처
 

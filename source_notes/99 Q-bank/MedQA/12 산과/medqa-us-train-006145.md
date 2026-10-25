@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,6 +32,8 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ
   - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,13 @@ D. 지지요법만 시행
 
 ## 해설
 
+산후 첫날의 붉은 오로와 후진통은 생리적일 수 있다. 이 사례는 37.5°C로 발열 기준 미만이고 활력·혈색소·백혈구가 안정적이며 악취·현저한 자궁 압통이 제시되지 않아 D의 지지요법이 적절하다. 다만 ‘많은 분비물’은 출혈량을 실제 평가해야 하며 지속 과다출혈·고열·악취가 생기면 즉시 재평가한다. 정상 활력 하나만으로 감염·출혈을 배제하지 않는다.
 
-산후 출혈이 경미하고 활력징후가 안정적인 경우, 기본적인 자궁 수축 유지와 관찰(지지요법)만으로도 충분하다. 항생제 치료는 감염이 의심될 때 필요하며, 여기서는 필요하지 않다. 따라서 지지요법만 시행하는 것이 최선이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 정상 오로·후진통과 병적 출혈/감염의 구분 근거 보강.
+
 
 ## 출처
 

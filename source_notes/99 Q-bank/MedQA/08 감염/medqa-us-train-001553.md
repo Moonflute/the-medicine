@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,12 @@ D. 뇌 톡소플라스마증
 
 
 HIV 환자에서 CD4⁺ 56/mm³, 비조영성 백질 병변은 JC 바이러스에 의한 진행성 다초점 백질뇌병증(PML)이 가장 흔한 원인이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001553 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 진행성 국소 신경증상·고도면역저하·종괴효과 없는 비조영 백질병변과 JC 바이러스 PML B의 부합을 확인. Toxo IgG 양성만으로 활성뇌염은 아님.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -16,13 +16,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -40,8 +42,12 @@ D. 족저근막의 염증 및 반흔
 
 ## 해설
 
+정답은 C, 원문에서 '양성 신경종'이라고 부르는 Morton 신경종이다. 제3·4발가락 사이 발바닥 통증이 전족부 압박으로 재현되고 클릭이 생기는 소견은 이에 부합한다. 이름과 달리 진정한 신생물성 신경 종양은 아니며, 반복 자극·압박에 따른 지간신경 주변 조직의 비후와 섬유화가 중심이다. 원문 선지의 명칭을 유지하였으나 이를 실제 양성 종양의 증식으로 해석해서는 안 된다.
 
-발가락 사이 통증·클릭 소리는 제3·4족 사이에 발생하는 Morton 신경종이 원인이다. 이는 신경 종양(양성 신경종)으로, 신경이 압박돼 통증과 클릭을 유발한다. 따라서 정답은 양성 신경종이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Morton 신경종을 실제 양성 신경 종양이라고 한 오류 수정. 압박성 신경주위 섬유화임을 설명하되 원문 선지 C 및 정답 유지.
+- 공식/학회 근거: https://www.orthoinfo.org/diseases--conditions/mortons-neuroma
 
 ## 출처
 

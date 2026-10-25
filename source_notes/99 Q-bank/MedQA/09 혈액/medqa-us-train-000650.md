@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -42,13 +44,19 @@ related_drug_slugs:
 
 A. 뇌척수액 내 올리고클론 띠(oligoclonal bands)
 B. 메틸말론산(methylmalonic acid) 수치 상승
-C. 말초혈액 도말검사상 호염기성 점멸(basophilic stippling)
+C. 말초혈액 도말검사상 호염기성 점상(basophilic stippling)
 D. 양성 급속 혈장 재긴(rapid plasma reagin) 검사
 
 ## 해설
 
 
-빈혈, 말초 신경병증, 거대 적혈구와 혈소판 감소는 비타민 B12 결핍을 시사하며, B12 결핍에서는 메틸말론산이 축적된다. 따라서 메틸말론산 상승이 가장 가능성 높은 검사 결과이다.
+위절제 병력·설염·빈혈과 진동/위치감각 소실·감각성 보행실조는 B12 결핍과 아급성 연합변성을 시사한다. B12는 methylmalonyl-CoA mutase의 보조인자이므로 결핍 시 methylmalonic acid(B)가 상승한다. 본문에는 MCV나 거대적혈구 도말 결과가 제시되지 않았으므로 이를 직접 관찰된 사실로 추가하지 않는다. 페인트공이라는 정보는 납중독 감별을 유도하지만 후주 감각 이상과 위절제 병력은 B12 결핍에 더 잘 맞는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000650 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 위절제 후 B12 결핍 기전과 MMA를 유지하고 본문에 없는 거대적혈구를 이미 관찰된 소견으로 쓰지 않았다. Basophilic stippling 선지 오역 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

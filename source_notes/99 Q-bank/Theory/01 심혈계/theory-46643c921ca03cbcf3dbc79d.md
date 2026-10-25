@@ -12,7 +12,7 @@ target_type: drug
 target_slug: "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ"
 theory_objective_id: drug-01-mechanism
 question_type: mechanism
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
@@ -23,6 +23,11 @@ generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ
+curation_status: "retained"
+curation_reason: "Class IC 나트륨통로 차단의 대표 기전으로 선택."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -46,4 +51,8 @@ Propafenone은 나트륨 채널 차단으로 심근 활동전위 상향기 속�
 
 - 내부 학습 노트: Propafenone
 - 원본 경로: `source_notes/04 Pharmacology/01 심혈계/Propafenone.md`
-- 학습 목표: 원문 핵심: - 나트륨 채널을 차단하여 심근의 활동전위 상향기 속도를 감소시키고 전도 속도를 늦춤. - 베타 차단 효과 및 칼슘 채널 차단 효과를 일부 가짐.
+- 학습 목표: Propafenone: Na⁺ 채널을 차단해 활동전위 상향기 속도를 감소시킨다
+
+## 오답 포인트
+
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->

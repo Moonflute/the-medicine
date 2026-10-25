@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,14 @@ D. 방사선 치료만 시행
 ## 해설
 
 
-좌측 주기관지 침범과 동측 림프절 전이(N2)로 국소 진행성 비소세포폐암이며, 수술이 어려운 경우 동시 항암화학방사선요법이 표준 치료이다. 따라서 C.
+사각근 또는 쇄골상 림프절 전이는 동측·반대측 모두 N3에 해당한다. 따라서 이 환자의 병기를 단순히 동측 종격동 N2로만 설명하면 안 된다. 원격전이는 없지만 N3 국소진행성 비소세포폐암에서 전신 상태가 양호하면 선택지 C의 동시 항암방사선치료가 적절한 초기 접근이다. 이후 치료는 진행 여부·분자표적·면역치료 적격성 등에 따라 결정하며 단순 폐엽절제술만으로 치료하는 상황은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000719 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 사각근 림프절은 N2가 아닌 N3. 선택지 C 동시항암방사선의 초기치료 의도는 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq
 
 ## 출처
 

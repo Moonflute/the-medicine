@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTmFmY2lsbGluLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,14 @@ D. 비타민 A
 
 ## 해설
 
+지속 발열과 결막·림프절·발진·사지 변화는 가와사키병에 부합한다. 제시된 약제 중 aspirin(A)은 급성 치료에 쓰이지만, 핵심 치료는 신속한 IVIG와 심장 평가이며 aspirin 단독으로 대체하지 않는다. 고용량 aspirin 자체가 관상동맥류 예방을 보장하는 것은 아니다.
 
-가와사키병은 고열·점막염·수족부 부종·발진을 동반하며, 관상동맥류 예방을 위해 고용량 아스피린을 시작한다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 아스피린 단독이 관상동맥류를 예방한다는 설명을 IVIG 중심 급성 치료로 교정.
+- https://www.heart.org/en/health-topics/kawasaki-disease
+- https://www.ahajournals.org/doi/10.1161/CIR.0000000000001295
 
 ## 출처
 

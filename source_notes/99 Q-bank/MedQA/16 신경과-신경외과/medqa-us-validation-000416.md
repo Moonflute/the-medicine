@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,12 @@ D. 항간질약 시작
 
 ## 해설
 
+고령·당뇨·고혈압과 최근 언어/일측 감각 증상은 조기 뇌졸중 위험이 있는 의심 TIA이다. 보기 중 입원하여 신속하게 뇌·혈관·심장 평가를 진행하는 B가 적절하다. 단순히 약을 하나 추가해 평가 없이 퇴원하거나 재발 때만 돌아오라고 해서는 안 된다. 모든 TIA가 반드시 입원해야 하는 것은 아니며, 즉각적인 전문 평가가 보장되는 외래 경로가 있다면 위험과 자원에 따라 선택할 수 있다.
 
-2시간 전 발생한 언어 장애와 좌측 팔다리 감각 변화가 45분 내에 완전 회복된 것은 일과성 허혈 발작(TIA)이다. TIA 환자는 뇌혈관 위험 평가와 영상 검사를 위해 입원 관찰이 필요하다. 따라서 입원을 선택한다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 고위험 의심 TIA의 입원평가 B는 유지하되 모든 TIA는 반드시 입원해야 한다는 단정 교정.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/triage-and-initial-diagnostic-evaluation-of-transient-ischemic-attack-and-non-disabling-stroke
 
 ## 출처
 

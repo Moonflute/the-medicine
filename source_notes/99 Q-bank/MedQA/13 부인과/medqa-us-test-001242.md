@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 심부정맥혈전증
 
 ## 해설
 
+랄록시펜은 뼈에서 에스트로겐 작용을 통해 골흡수를 억제하고 유방에서는 길항해 침윤성 유방암 위험을 낮춘다. VTE/DVT(D) 위험을 증가시킬 수 있어 과거 VTE 환자에는 금기이다. 모든 조직에서 에스트로겐을 차단하기 때문에 혈전이 생긴다는 설명이나 DVT가 가장 흔한 부작용이라는 표현은 부적절하다.
 
-랄록시펜은 에스트로겐 수용체를 차단하면서 골흡수를 억제해 골다공증을 예방하지만, 에스트로겐 길항 효과로 혈전 형성 위험을 증가시킨다. 따라서 가장 흔히 증가하는 이상반응은 심부정맥혈전증이다. 피부 감염은 랄록시펜과 관련이 적다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: SERM의 조직선택 작용 및 혈전 위험 기전 교정.
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e2967d3c-238c-40cf-b3d8-89482a502928
 
 ## 출처
 

@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 따뜻하게 데운 정맥 생리식염수와 보온 담요
 
 ## 해설
 
+25°C의 심한 저체온은 행동 이상을 동반할 수 있으므로 재가온과 생리적 안정화가 우선이다. 보기 중 가온 정맥수액과 보온(D)이 적합하지만 핵심 체온 확인, 심전도·순환 감시 및 적극 재가온 평가가 필요하다. 불안정하면 ECLS 가능한 센터 치료를 고려한다. 최근 steroid만으로 정신병을 확정하거나 진정제를 우선 투여하지 않는다.
 
-환자는 저체온증(25°C)과 스테로이드 사용 후 정신병 증상을 보인다. 급성 저체온을 교정하기 위해 따뜻한 정맥생리식염수와 보온 담요를 제공하는 것이 가장 중요한 초기 처치이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저체온 교정 D는 적합한 초기 조치이나 25°C를 단순 담요·수액으로만 치료한다고 오해하지 않도록 보완.
+- 공식/학회 근거: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines
 
 ## 출처
 

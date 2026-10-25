@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 산전 모체 혈청 비타민 D가 낮으면 위험이 증가한다
 
 ## 해설
 
+사회적 의사소통 결함과 반복 행동은 자폐스펙트럼장애를 시사한다. 남아에서 더 자주 확인된다는 A가 원문의 역학적 출제 의도다. 다만 '4배'는 고정된 생물학적 상수가 아니다. CDC가 2025년에 발표한 2022년 ADDM 8세 감시자료의 남녀 유병비는 약 3.4였으며 연령·집단·발견 차이에 따라 달라진다. 다른 보기의 산전 요인을 단일한 확정 원인으로 단정하지 않는다.
 
-자폐 스펙트럼 장애는 남아에서 약 4배 더 흔하게 나타난다. 이는 역학적 특징 중 가장 확실히 입증된 차이이다. 따라서 정답은 남아에서 4배 흔하다는 진술이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 남녀 비를 고정된 보편적 4배로 가르치지 않도록 원문의 근사적 역학 문구와 현재 CDC 감시 수치를 구분했다.
+- https://www.cdc.gov/mmwr/volumes/74/ss/ss7402a1.htm
 
 ## 출처
 

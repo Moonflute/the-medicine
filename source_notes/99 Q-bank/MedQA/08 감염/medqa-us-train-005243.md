@@ -20,11 +20,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,15 @@ D. 파상풍 및 감량 디프테리아 톡소이드 추가접종
 ## 해설
 
 
-19세 남성은 26세 이하까지 HPV 백신 접종이 권장된다. HPV 백신은 자궁경부암 및 기타 HPV 관련 암을 예방하는 가장 효과적인 예방접종이다. 따라서 사람유두종바이러스 백신이 가장 적절한 추가 예방접종이다. 파상풍·디프테리아 추가접종은 이미 Tdap를 맞은 상태이므로 필요하지 않다.
+19세 미완료 HPV 백신은26세까지 catch-up 대상이므로 C가 적절하다.12세 Tdap 후7년이라 일반적인10년 Td/Tdap booster 시점이 아직 아니지만 과거 Tdap1회가 평생 파상풍/디프테리아 추가접종을 없애는 것은 아니다. 수막구균 등 전체 접종력 보완도 실제 진료에서 확인하며 이 문항은 주어진 선택지의 비교다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005243 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HPV catch-up C 유지; Tdap 과거 접종이면 평생 추가 불필요하다는 설명 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/hpv/hcp/vaccination-considerations/
+- https://www.cdc.gov/pertussis/hcp/vaccine-recommendations/index.html
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,10 +46,16 @@ D. 혈관성 치매
 
 ## 해설
 
-
-CT에서 보이는 15 mm 초승달형 고밀도 병변은 만성 경막하혈종을 의미한다. 증상이 진행되고 신경학적 결손이 있으면 외과적 배액이 필요하다. 관찰이나 약물 치료는 적절하지 않다.
+기억력 저하보다 먼저 두드러진 탈억제·공감과 정서 반응 감소·과도한 구강 행동은 행동변이 전두측두치매를 시사한다. 제시된 선택지 중 역사적으로 픽병이라 부른 전두측두 변성 범주의 진단이 가장 적절하다. 실제로는 임상·영상과 경과로 평가하고 조직학적 픽병을 증상만으로 확정하는 것은 아니다. 원문에 CT의 초승달형 병변이나 경막하혈종, 외과적 배액 정보는 전혀 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008164
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 인지장애 문항에 전혀 무관한 CT/경막하혈종/배액 해설이 붙은 오류 전면 교정. 픽병 원정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nia.nih.gov/health/frontotemporal-disorders/what-are-frontotemporal-disorders-causes-symptoms-and-treatment

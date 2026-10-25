@@ -20,16 +20,18 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 플루옥세틴을 계속하고 페넬진을 추가한다
 
 ## 해설
 
-
-플루옥세틴은 SSRI이며 MAO 억제제인 페넬진과 병용하면 세로토닌 증후군 위험이 있다. 따라서 페넬진을 추가하는 것은 금기이다. 다른 선택지는 약물 조절이나 안전한 추가제이다.
+플루옥세틴과 MAOI 페넬진을 병용하면 심각한 세로토닌 증후군 위험이 있어 금기이다. 플루옥세틴 중단 후 MAOI 시작 전에는 긴 반감기 때문에 최소 5주 등 충분한 휴약기간이 필요하며 상황에 따라 더 길 수 있다. 다른 선지의 전환·증강도 무조건 안전한 것은 아니며, 특히 플루옥세틴의 CYP2D6 억제로 데시프라민 노출이 증가할 수 있어 용량·전환 계획과 상호작용을 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007481
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. SSRI-MAOI 병용 금기 답 유지. 다른 전환·증강도 자동으로 안전하다는 단정 제거하고 플루옥세틴의 긴 휴약 필요성 명시.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7cc62309-cb23-4888-afba-bb774658a748&type=display

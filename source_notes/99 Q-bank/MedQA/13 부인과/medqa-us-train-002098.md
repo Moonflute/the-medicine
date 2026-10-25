@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 비타민 D
 
 ## 해설
 
+항경련제를 복용하는 임산부에게 엽산(A)을 권고한다. 신경관 결손 예방에는 임신 전·아주 초기 보충이 특히 중요하며 20주에 시작해 이미 생긴 결손을 되돌릴 수는 없다. 반복 발작은 전문팀이 약제의 효과와 태아 위험을 함께 평가해야 하며 임의 중단을 피한다.
 
-카바마제핀은 임신 중 항간질제 중 태아 기형 위험이 높아, 복용 전 엽산 보충이 신경관 결손 예방에 필수적이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 20주 엽산이 이미닫힌 신경관결손을 예방·역전한다고 오해하지 않도록 교정.
+- https://www.cdc.gov/folic-acid/about/
 
 ## 출처
 

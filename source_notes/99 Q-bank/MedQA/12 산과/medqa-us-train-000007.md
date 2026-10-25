@@ -21,13 +21,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 24시간 소변 단백
 
 ## 해설
 
+20주 이후 반복 확인된 고혈압으로 전자간증을 평가해야 하며, 선택지 중 24시간 소변 단백 정량(D)이 단백뇨 여부를 확인한다. 부종과 급격한 체중 증가는 의심 단서지만 진단 기준은 아니며 본문에 단백뇨 결과는 아직 없다. 현행 기준에서는 단회뇨 단백/크레아티닌 비도 사용할 수 있고, 장기 손상이 있으면 단백뇨 없이도 전자간증을 진단할 수 있다. 혈소판·신장·간기능 및 모체·태아 상태도 평가한다.
 
-임신 34주에 고혈압, 부종, 단백뇨는 전자간증을 의심하게 한다. 전자간증을 확인하기 위해서는 24시간 소변 단백 검사가 필요하다. 다른 선택지는 전자간증 진단에 직접적인 정보를 제공하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 단백뇨를 측정전 소견처럼 창작한 해설 수정. D 유지, 부종은비특이·24시간뇨만필수아님.
+- https://kansaspqc.kdhe.ks.gov/wp-content/uploads/2025/09/ACOG-Gestation-HTN-and-Preeclampsia-Practice-Bulletin.pdf
 
 ## 출처
 

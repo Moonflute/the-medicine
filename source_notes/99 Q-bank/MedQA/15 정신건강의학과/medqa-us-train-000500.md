@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,10 +49,16 @@ D. 리튬(Lithium)
 
 ## 해설
 
-
-환자는 임신 중이면서 조증(과다활동, 수면 감소, 과잉성욕) 증상을 보인다. 조증 치료에 금기인 약물은 리튬이며, 임신 중에도 비교적 안전한 항정신병제인 할로페리돌이 선택된다. 따라서 가장 적절한 다음 관리 단계는 할로페리돌 투여이다.
+수면 욕구 감소·과다활동·성욕 증가와 망상적 사고는 급성 조증에 부합하고 소변 hCG는 양성이다. 제시된 선택지 중 할로페리돌은 임신 중 급성 조증을 조절하기 위한 항정신병약 선택이다. 플루옥세틴 단독은 조증 치료가 아니다. 리튬은 태아 위험을 고려해야 하지만 임신 중 모든 상황에서 절대금기라고 단정하지 않으며, 효과·재발 위험과 대안을 전문적으로 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000500
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 임신 중 리튬을 절대금기라고 단정한 해설 교정. 급성 조증의 항정신병약 선택과 재발 위험에 따른 리튬 개별 판단 구별.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://www.nice.org.uk/guidance/cg192/chapter/Recommendations

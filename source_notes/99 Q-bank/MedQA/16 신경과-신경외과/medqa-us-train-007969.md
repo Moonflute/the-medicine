@@ -18,17 +18,19 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
   - ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 척추 MRI
 
 ## 해설
 
+정답은 A, NSAID와 허용되는 범위의 활동 유지이다. 가구를 옮긴 뒤 발생한 급성 요통과 하지 방사통이 있지만, 본문에는 배뇨배변장애나 진행성 신경결손 등 응급 영상검사를 요구하는 소견이 제시되지 않았다. 초기에는 가능한 일상 활동을 유지하고 장기간 침상안정을 피한다. NSAID 사용 시 고령과 리시노프릴 병용 등을 고려하여 신장기능·위장관·심혈관 위험을 평가하며 최소 유효용량을 짧게 사용한다. 신경근통에서 약물 효과의 근거는 제한적이며, 진행성 근력저하·마미증후군 징후가 새로 생기면 즉시 재평가한다.
 
-수술 후 24시간 이내에 발생한 저열은 조직 손상에 대한 염증성 반응으로 인한 것이며, 감염보다는 수술에 의한 염증 자극이 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 수술 후 저열 해설은 다른 케이스. 급성 요통/방사통의 활동 유지 및 위험을 고려한 단기간 NSAID로 교체. A 유지.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng59/chapter/recommendations
 
 ## 출처
 

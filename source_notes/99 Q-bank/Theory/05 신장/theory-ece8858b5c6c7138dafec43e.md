@@ -12,40 +12,50 @@ target_type: disease
 target_slug: "MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "기존 선택지 두 개가 AKI 정의를 충족하므로 전체 기준을 하나의 정답으로 정리."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-KDIGO 기준에 따른 급성 콩팥 손상(AKI)의 정의에 포함되는 항목은?
+KDIGO 2012에서 AKI를 정의하는 기준으로 옳은 것은?
 
 ## 선택지
 
-A. 48시간 내 혈청 크레아티닌이 0.3 mg/dL 이상 상승
-B. 24시간 내 혈청 크레아티닌이 1.0 mg/dL 상승
-C. 12시간 동안 소변량이 1.0 mL/kg/hr 이하
-D. 혈청 BUN이 2배 이상 상승
+A. 48시간 내 Cr ≥0.3 mg/dL 상승, 7일 내 기저치의 ≥1.5배 상승, 또는 소변량 <0.5 mL/kg/h가 6시간 지속 중 하나
+B. 혈청 Cr이 반드시 3 mg/dL를 넘어야 한다
+C. 소변량 감소만 있고 Cr이 정상이면 AKI가 될 수 없다
+D. eGFR 저하가 3개월 이상 지속되어야만 한다
 
 ## 해설
 
-KDIGO는 48시간 내 혈청 크레아티닌 0.3 mg/dL 이상 상승, 7일 이내 1.5배 상승, 혹은 6시간 이상 소변량 <0.5 mL/kg/hr를 AKI 정의에 포함한다.
+크레아티닌 변화나 소변량 중 하나로도 기준을 충족할 수 있다. 절대 크레아티닌 수치가 정상 범위여도 기저치 대비 변화에 따라 AKI일 수 있으며 원인과 중증도는 별도로 평가한다.
 
 ## 오답 포인트
 
-- **B. 24시간 내 혈청 크레아티닌이 1.0 mg/dL 상승:** KDIGO 기준에 해당하지 않는 과도한 상승값이다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 급성 콩팥 손상 (AKI) (Acute Kidney Injury)
 - 원본 경로: `source_notes/02 Diseases/05 신장/급성 콩팥 손상 (AKI) (Acute Kidney Injury).md`
-- 학습 목표: 원문 핵심: - **정의 (KDIGO 기준)** - 48시간 내 혈청 크레아티닌(sCr) 0.3mg/dL 이상 상승 - 7일 이내 sCr이 기저치 대비 1.5배 이상 상승 - 6시간 이상 지속되는 뇨량 < 0.5mL/kg/hr - **원인** - 신전성(Prerenal): 신장 관류 저하 (저혈량, 심부전, 패혈증 등) - 신성(Intrinsic): 신장 실질 손상 (급성 세뇨관 괴사, 사구체신염, 간질성 신염 등) - 신후성(Postrenal): 요로 폐쇄 (결석, 전립선 비대증, 종양 등) - **기전** - 신장 기능의 급격한 저하로 인한…
+- 학습 목표: AKI의 크레아티닌·소변량 기준
+
+## 검수 근거
+
+- https://kdigo.org/wp-content/uploads/2019/01/KDIGO-2012-AKI-Guideline-English.pdf
+- https://kdigo.org/guidelines/acute-kidney-injury/

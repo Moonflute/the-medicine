@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 보청기
 
 ## 해설
 
+5세 ADHD에서 첫 접근은 근거 기반 부모 행동관리 훈련과 유치원/교실 행동중재(A)이다. 충분한 행동중재에도 중등도 이상 기능 장애가 지속되면 methylphenidate를 고려할 수 있다. 학령기 아동의 약물치료 권고는 다르므로 이 결론을 모든 연령의 ADHD에 일반화하지 않는다.
 
-ADHD는 과잉행동·부주의·충동성을 보이며, 행동치료가 1차 권장 치료이다. 약물은 보조적이며, 현재는 행동치료가 가장 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 5세의 행동중재 우선 권고를 연령별로 제한하고 모든 ADHD에서 약물이 보조에 불과하다는 과잉 일반화를 교정.
+- https://doi.org/10.1542/peds.2019-2528
 
 ## 출처
 

@@ -19,17 +19,19 @@ related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 경막하 출혈
 
 ## 해설
 
+벤조디아제핀 효과를 플루마제닐로 급격히 차단하면 의존 환자에서 금단과 발작이 유발될 수 있어 B가 출제상 가장 잘 부합한다. 환자가 스스로 약을 끊었다는 병력이 제시된 것은 아니며, 해독제 투여가 이 역전을 촉발한 것이다. 혼합 중독에서 플루마제닐을 일률적으로 사용하는 것은 위험하다. 실제로는 혈당·전해질과 다른 금단 원인도 평가하고 관자놀이 혈종이 있어 두부외상·출혈 감별도 필요하다.
 
-벤조디아제핀을 급작히 중단하면 금단 증상으로 경련, 불안, 자율신경 과다반응이 나타난다. 환자는 벤조디아제핀 금단 후 1분간 전신 강직성 발작을 보였으며, 이는 가장 흔한 원인이다. 따라서 벤조디아제핀 금단이 가장 가능성 높은 원인이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 단순 복약 중단이 아니라 플루마제닐이 촉발한 벤조디아제핀 금단·발작 기전 B를 설명한다. 두부외상 등 실제 감별도 배제하지 않는다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=93b8ae30-aafb-4808-879e-dffe5194fdf6&type=display
 
 ## 출처
 

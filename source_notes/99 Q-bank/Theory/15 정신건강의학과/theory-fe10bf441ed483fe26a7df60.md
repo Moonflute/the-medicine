@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "지연형과 선행형의 시간 방향 구분은 유의미한 기본 복습 유지. 오답 문자 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 매일 수면 시간이 점진적으로 밀림
 
 ## 오답 포인트
 
-- **B. 이른 저녁 졸음 및 새벽 기상:** 이른 저녁 졸음은 선행형의 특징이다.
+- 이른 저녁 졸음과 새벽 각성은 선행형의 방향이다. 지연형은 원하는 시각보다 수면 시작과 기상이 늦어지는 양상이다.
 
 ## 출처
 
 - 내부 학습 노트: 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)
 - 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder).md`
-- 학습 목표: 원문 핵심: - 주증상: 불면(입면 또는 유지), 과도한 주간 졸음, 인지 기능 저하, 사회적/직업적 기능 장애. - 유형별 특징: - 지연형: 수면 시작이 원하는 시간보다 늦음(청소년기 호발). - 선행형: 이른 저녁 졸음 및 새벽 기상(고령층 호발). - 불규칙형: 수면이 24시간 동안 여러 번으로 분절됨(치매 등 신경계 질환과 연관). - 비-24시간형: 매일 수면 시간이 점진적으로 밀림(전맹 환자에서 흔함). - P/E: BMI, 구강인두 구조, 신경학적 검사(파킨슨 증상 등), 정신상태 검사(우울증 등 감별).
+- 학습 목표: 지연형·선행형 수면위상 구분
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 지연형과 선행형의 시간 방향 구분은 유의미한 기본 복습 유지. 오답 문자 제거.

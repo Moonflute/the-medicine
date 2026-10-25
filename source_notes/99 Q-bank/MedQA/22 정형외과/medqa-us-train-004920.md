@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,12 @@ D. 식도암 위험 때문에 10년 후 중단해야 한다
 
 ## 해설
 
+경구 알렌드로네이트는 식도 자극·궤양을 줄이기 위해 복용 후 적어도 30분 동안, 그리고 그날 첫 식사를 마칠 때까지 눕지 않고 앉거나 서 있어야 한다(B). 아침에 일어난 뒤 공복에 충분한 맹물과 함께 복용한다. 직립을 피하라는 기존 설명은 반대이므로 잘못이다. 약제 지속기간은 골절 위험과 반응을 재평가해 정하며 식도암 우려만으로 일률적으로 10년째 중단한다는 뜻도 아니다.
 
-구강 비스포스포네이트(알렌드로네이트)는 복용 후 최소 30분 동안 직립을 피해야 위장관 자극을 줄인다. 따라서 복용 후 30분 이상 직립을 피하는 것이 올바른 관리법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 알렌드로네이트 복용 후 직립을 피하라는 해설은 정답 B와 반대인 안전성 오류다. 최소 30분 및 첫 식사 전까지 눕지 않는 허가사항으로 교체했다.
+- 공식/학회 근거: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7e470d6-508e-466e-a78d-060bbbc9745c
 
 ## 출처
 

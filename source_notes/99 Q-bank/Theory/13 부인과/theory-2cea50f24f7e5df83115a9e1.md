@@ -16,11 +16,16 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: revised
+curation_reason: "농양 의심 시 초음파의 목적은 독립 개념 유지. 오답 문자 의존 제거."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
+wrong_notes_review_status: reviewed
 ---
 
 # 이론 문제
@@ -42,10 +47,16 @@ D. 유방 촉진만으로는 충분하므로 초음파는 사용하지 않음
 
 ## 오답 포인트
 
-- **C. 임상 진단만으로 영상 검사는 절대 필요 없음:** 농양이 의심될 때는 영상 검사가 필요하다.
+- 모든 유방염에 MRI가 필수인 것은 아니며, 임상 진단이라는 이유로 농양 의심 시의 영상 평가까지 절대 금지하지 않는다.
 
 ## 출처
 
 - 내부 학습 노트: 수유기 유방염 (Lactational Mastitis)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/수유기 유방염 (Lactational Mastitis).md`
-- 학습 목표: 원문 핵심: - 임상적 진단이 우선, 일반적으로 영상 검사는 불필요함. - 농양 의심 시 유방 초음파(Breast US)를 통해 농양 형성 여부 및 배농 필요성을 평가함.
+- 학습 목표: 수유기 유방염에서 농양 초음파 평가
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: 농양 의심 시 초음파의 목적은 독립 개념 유지. 오답 문자 의존 제거.

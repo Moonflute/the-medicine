@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 뚜렷한 호염기구 우세
 
 
 체모와 눈 색이 밝고, 백색-금발 머리, 반복 감염은 체디악-히가시 증후군을 시사한다. 이 질환은 과립이 큰 호중구가 혈액 도말에서 관찰되는 특징이 있다. 따라서 거대 봉입체를 포함한 다형핵 백혈구가 예상된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 본문·선택지·정답·해설을 영어 원문 `medqa-us-train-001526`와 직접 대조했다.
+- 판정: 반복 감염·부분 백색증·신경학적 증상과 거대 과립 백혈구의 Chediak-Higashi 연결을 원문 대조. C 유지; 치료·용량 검토 아님.
+- 검수 범위: 내용·번역·해설 연결 검토(content-reviewed). 최신 치료·용량의 전면 근거 검증을 뜻하지 않는다.
+
 
 ## 출처
 

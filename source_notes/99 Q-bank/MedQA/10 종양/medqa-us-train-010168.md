@@ -19,11 +19,13 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 딸이 요청한 이유를 명확히 확인
 ## 해설
 
 
-환자는 진단을 알리고 싶어 하지 않는 가족의 요청을 받았다. 의사는 환자의 자율성을 존중해야 하며, 먼저 환자에게 진단을 공개하고 싶은지 직접 물어보는 것이 윤리적으로 올바른 단계이다. 따라서 환자에게 진실을 알고 싶은지 묻는 것이 적절하다.
+먼저 딸이 진단을 알리지 말라고 요청하는 이유와 두려움을 확인하는 D가 이 대화의 적절한 첫 대응이다. 그 뒤 판단능력이 있는 환자 자신의 정보 수령·가족 참여 선호를 확인하여 정직하고 공감적으로 소통한다. 의료대리인 지정만으로 현재 판단능력이 있는 환자의 알 권리가 사라지지 않고, 20년 전 자살시도만으로 일률적인 비공개를 정당화할 수도 없다. 가족에게 영구적 비밀 유지를 약속하는 것과 우선 우려를 탐색하는 것은 다르다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010168 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 정답 D와 달리 A 환자에게 먼저 묻기로 결론 내리던 해설 교정; 가족의 비공개 요청을 탐색한 뒤 환자의 정보 선호·판단능력을 존중.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,11 @@ D. 콧물, 눈물, 안검하수
 
 ## 해설
 
+정답은 A, 뇌실주위 탈수초성 반점이다. 젊은 환자의 양측성 삼차신경통, 얼굴 감각저하와 서로 다른 시기의 사지 근력저하·경직·간대는 이차성 삼차신경통을 일으킨 MS를 시사한다. 단순한 삼차신경통 환자 모두에서 이러한 병변이 흔하다는 의미는 아니다.
 
-삼차신경통 환자는 V2·V3 영역의 감각 저하와 반복적인 전기충격성 얼굴통증을 보이며, MRI에서 뇌실주위 다발성 경화성 병변이 흔히 동반된다. 이는 다발성 경화증의 전형적인 신경학적 소견이다. 다른 선택지는 해당 증상과 부합하지 않는다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 모든 삼차신경통 환자에 뇌실주위 MS병변이 흔하다고 일반화한 해설 수정. 이 환자의 양측감각저하/분리된 운동증상에 한정.
 
 ## 출처
 

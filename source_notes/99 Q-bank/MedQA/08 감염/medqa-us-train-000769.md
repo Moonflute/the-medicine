@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 배양을 위한 객담 검체 채취
 ## 해설
 
 
-PPD 양성 반응 후 결핵 감염 여부를 확인하려면 흉부 X선 촬영이 필요하다. 따라서 초기 관리 단계는 흉부 X선 촬영이다.
+네팔 출생, 보호소 거주 및 당뇨병이 있어 TST 경결 10 mm 이상을 양성으로 판단한다. 13 mm 양성 결과 뒤에는 증상 평가와 흉부 X선으로 활동성 결핵을 평가하므로 B가 적절하다. TST만으로 잠복감염과 활동성 결핵을 구별하지 못한다. 증상·영상에 따라 객담 검사가 추가되며 활동성 질환을 배제하기 전에 잠복결핵 약제를 단독 시작하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-000769 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 13 mm TST는 이민·보호소·당뇨 위험군에서 양성이다. 흉부 X선은 감염 자체 확인이 아니라 활동성 결핵 평가 단계임을 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html
 
 ## 출처
 

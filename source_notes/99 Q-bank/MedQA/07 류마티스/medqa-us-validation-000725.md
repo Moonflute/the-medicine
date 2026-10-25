@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 프레드니손
 ## 해설
 
 
-근위부 근력 저하와 상승된 CK·CRP·알돌라아제는 다발성 근염을 나타내며, 1차 치료는 고용량 프레드니손이다. 따라서 D.
+심한 근위위약과 elevated aldolase·CRP는 inflammatory myopathy를 시사하여 보기 중 prednisone D가 적절한 초기 면역치료이다. 원문에는 CK 결과가 없어 상승이 확인되었다고 적으면 안 된다. 현재 분비물을 삼키고 기도 보호가 되지만 최근 연하곤란·호흡곤란과2/5 근력은 긴급 호흡·연하 기능 평가가 필요한 소견이다. 중증도나 치료반응에 따라 정맥 steroid, 추가 면역억제제 또는 IVIG 등이 필요할 수 있어 경구 단독만으로 항상 충분한 것은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000725 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 미제공 CK상승을 창작한 부분 제거; 연하/호흡 증상의 중증도 평가와 steroid D의 초기치료 한계 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9398208/
 
 ## 출처
 

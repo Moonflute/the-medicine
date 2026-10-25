@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,12 @@ D. 림프종
 
 
 조기 사춘증과 고환 비대, 과다 체모는 남아에서 테스토스테론을 과다 생산하는 레이디히 세포 종양이 원인이다. 혈청 hCG와 AFP가 정상인 점도 이 종양을 지지한다. 따라서 정답은 레이디히세포 종양이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008234 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 조기 virilization과 일측 고환 비대·정상hCG/AFP는 Leydig 종양 A의 androgen 생성에 부합.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

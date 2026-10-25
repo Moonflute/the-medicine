@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 피브릴린-1
 ## 해설
 
 
-거미손가락, 관절 이완, 고전적인 마르팡 증후군은 피브릴린-1 결핍과 연관된다. 피브릴린-1은 혈소판 응집과 혈관벽 결합에 관여한다. 따라서 가장 가능성 높은 결함은 피브릴린-1이다.
+긴 사지·거미손가락·관절이완과 높고 좁은 구개는 Marfan 증후군을 시사하며 FBN1이 만드는 fibrillin-1(D)과 연관된다. Fibrillin-1은 세포외기질 미세섬유 구성과 탄성조직 구조·성장인자 조절에 중요한 단백질이다. 혈소판 응집의 주된 수용체/리간드 단백질로 설명하지 않는다. PDA 병력 자체가 Marfan 확진 소견은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006466 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Fibrillin-1의 역할을 혈소판 응집으로 잘못 연결한 기전을 미세섬유/탄성조직 구조로 교체했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

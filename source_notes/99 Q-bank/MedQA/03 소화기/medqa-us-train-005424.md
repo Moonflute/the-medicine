@@ -19,15 +19,17 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 정맥 온단세트론
 
 ## 해설
 
+전신독성과 현저한 결장확장의 UC 악화는 독성거대결장을 의심해 입원·관찰과 IV hydrocortisone B 등을 시행한다. 정상 혈압으로 배제되지 않는다. 감염평가·수액/전해질관리·조기 외과협진이 필요하며 악화/천공/불응시 수술평가를 늦추지 않는다.
 
-중증 궤양성 대장염에서 독성 거대결장은 혈역학적 불안정과 전신 염증을 동반한다. 급성 악화 시에는 빠른 효과가 필요한 정맥 코르티코스테로이드가 1차 치료이다. 따라서 가장 적절한 처치는 정맥 하이드로코르티손이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 독성거대결장 B IV steroid는 유지하되 쇼크가 필수라는 설명과 단독치료 축소 교정.
+- https://doi.org/10.14309/ajg.0000000000003463
 
 ## 출처
 

@@ -1,4 +1,9 @@
 ---
+wrong_notes_review_status: reviewed
+medical_review_status: curriculum-reviewed
+curation_reviewed_at: 2026-10-25
+curation_reason: "AAA의 지름 ≥3cm 기준은 질환의 중요한 독립 정의로 유지한다."
+curation_status: retained
 type: qbank
 schema_version: 1
 id: theory-zglzzwfzzxxnrevnn0lpyzdabvk2cml3tc11enrldtjnq0ryaklecmo1bnjwnlhycfpnz0tfrmlarzl0yvc1agjdqkjim0owyvdnz1fxnwxkweo1yziwcextmwt8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
@@ -42,10 +47,15 @@ D. 대동맥 내 혈전이 존재하는 경우
 
 ## 오답 포인트
 
-- **B. 복부 대동맥의 길이가 5cm 이상인 경우:** 길이는 정의에 포함되지 않으며, 지름 기준이 핵심입니다.
+- **복부 대동맥의 길이가 5cm 이상인 경우:** 길이는 정의에 포함되지 않으며, 지름 기준이 핵심입니다.
 
 ## 출처
 
 - 내부 학습 노트: 복부 대동맥류 (Abdominal Aortic Aneurysm)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/복부 대동맥류 (Abdominal Aortic Aneurysm).md`
 - 학습 목표: 원문 핵심: - **정의**: 복부 대동맥의 지름이 3cm 이상으로 확장된 상태 - **원인**: 동맥경화증이 가장 흔하며, 퇴행성 변화, 유전적 결합조직 질환(Marfan, Ehlers-Danlos 증후군 등), 감염(mycotic aneurysm), 혈관염 등이 원인이 될 수 있다. - **기전**: 대동맥 벽의 약화로 인해 혈압에 의해 점진적으로 확장된다. 파열 위험은 동맥류의 지름에 비례한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
+- 판정: AAA의 지름 ≥3cm 기준은 질환의 중요한 독립 정의로 유지한다.

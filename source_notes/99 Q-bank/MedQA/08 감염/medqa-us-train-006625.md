@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,13 @@ D. 콕시디오이데스 이미티스
 ## 해설
 
 
-코에 사마귀 모양 병변과 피부 병변에서 백색 균락이 자라며, 사부로 포도당 한천에서 성장하는 특성을 가진 블라스토미세스 더마티티디스가 원인이다. 이는 블라스토미코시스의 흔한 원인균이며, 다른 선택지는 해당 배양특성을 보이지 않는다. 따라서 정답은 블라스토미세스 더마티티디스이다.
+미시시피 유역 노출과 폐 증상·사마귀 모양 피부 병변은 blastomycosis A에 가장 부합한다. 하지만 Sabouraud 배지의 흰 집락 자체는 다른 진균도 보일 수 있어 종 특이 확진 소견이 아니다. 실제 조직/배양 형태·분자검사로 확인하며 누락된 사진에서 broad-based budding 등을 직접 보았다고 하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006625 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Verrucous 피부+폐 병변의 blastomycosis A 유지; Sabouraud 흰 균락을 종 특이적이라고 한 오류 교정.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

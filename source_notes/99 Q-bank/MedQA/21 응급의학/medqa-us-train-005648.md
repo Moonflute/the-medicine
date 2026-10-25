@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 경흉부 심초음파
 
 ## 해설
 
+둔상 후 저혈압, 경정맥 팽창, 심음 감소가 함께 나타나므로 심장압전을 우선 의심한다. 양쪽 호흡음이 유지되는 상황에서 심낭액과 압전 소견을 신속하게 확인할 침상 경흉부 심초음파(D)가 적합하다. 본문에 흉골 골절이 제시된 것은 아니며, 누락된 심전도 그림의 형태를 추정할 필요도 없다. 상태가 악화되면 영상 검사 때문에 외상외과의 응급 감압과 수술을 지연해서는 안 된다.
 
-흉골 골절 위쪽에서 경정맥 맥동이 보이고 심음이 감소한 것은 심장 압착(심낭압전) 가능성을 시사한다. 경흉부 초음파는 심낭삼출 여부를 빠르게 확인할 수 있어 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 저혈압·경정맥 팽창·심음 감소로 심장압전을 의심할 수 있다. 원문에 없는 흉골 골절을 해설에서 삭제하고 침상 심초음파와 응급 처치의 관계를 명확히 한다.
+- 공식/학회 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
 
 ## 출처
 

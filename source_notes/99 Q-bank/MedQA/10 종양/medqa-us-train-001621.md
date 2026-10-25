@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. BRCA1 및 BRCA2 유전자 불활성화
 
 
 다발성 선종은 APC 유전자의 기능 상실로 발생하는 가족성 선종성 폴립증(FAP)의 전형적인 병리이다. APC 돌연변이는 Wnt 신호 억제를 잃게 하여 선종 형성을 촉진한다. 따라서 가장 가능성 높은 기전은 APC 유전자 돌연변이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001621 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 무수한 대장 선종·대장암 가족력과 APC 기능소실/Wnt 경로의 B 연관이 원문·선지·해설과 일치한다. Mismatch-repair 유전자의 Lynch 양상과 구분했다.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

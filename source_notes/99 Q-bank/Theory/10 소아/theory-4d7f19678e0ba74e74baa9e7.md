@@ -12,7 +12,7 @@ target_type: cc
 target_slug: "7ISx7J6lIOyngOyXsA"
 theory_objective_id: cc-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
 answer: D
 translation_status: not-applicable
@@ -21,6 +21,11 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+curation_status: "retained"
+curation_reason: "정상 변이인 가족성 저신장과 병적 원인을 구분하는 기초 개념."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "curriculum-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
@@ -42,7 +47,7 @@ D. 가족성 저신장
 
 ## 오답 포인트
 
-- **C. 성장호르몬 결핍:** 성장호르몬 결핍은 2차 성장지연의 원인에 해당합니다.
+<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
 
 ## 출처
 

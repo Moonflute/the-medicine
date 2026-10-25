@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 수면다원검사
 
 ## 해설
 
+내리막길에서 악화하고 앉거나 전방 굴곡하면 호전하는 하지 통증은 요추관 협착에 의한 신경인성 파행을 시사한다. 지속되는 증상의 해부학적 평가에는 척추 MRI(C)가 척추관과 신경근의 협착/압박을 확인하는 데 유용하다. 골막 압박을 보는 검사가 아니다. 혈관 위험인자도 많으므로 말초동맥질환이 공존할 가능성은 별도로 평가한다.
 
-양쪽 하지 통증이 걷기 시작 시 악화되고 앞쪽으로 숙이면 완화되는 것은 신경인성 파행(신경인성 협착)이다. 정확한 평가를 위해서는 척추 MRI가 골막 및 신경근 압박을 확인하는 가장 중요한 검사이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 척추 MRI를 골막 압박 평가로 설명한 오류 교정.
+- 공식/학회 근거: https://acsearch.acr.org/docs/69483/Narrative/
 
 ## 출처
 

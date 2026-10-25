@@ -16,11 +16,15 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: manual-reviewed
+curation_status: retained
+curation_reason: "VZV의 초감염과 재활성화 구별을 위한 의미 있는 쉬운 복습."
+curation_reviewed_at: 2026-10-25
+medical_review_status: curriculum-reviewed
 ---
 
 # 이론 문제
@@ -44,4 +48,10 @@ D. Influenza virus
 
 - 내부 학습 노트: 수두 (Varicella)
 - 원본 경로: `source_notes/02 Diseases/12 산과/수두 (Varicella).md`
-- 학습 목표: 원문 핵심: - **정의**: 수두-대상포진 바이러스(VZV)에 의한 급성 전신성 발진성 질환. - **원인**: Varicella-zoster virus (VZV), 헤르페스 바이러스과. - **기전**: 호흡기 비말을 통해 전파. 상기도 점막에서 증식 후 1차 및 2차 바이러스혈증을 통해 피부 및 전신 장기로 확산. 이후 감각 신경절에 잠복하며, 추후 대상포진으로 재활성화될 수 있음.
+- 학습 목표: 수두의 VZV 초감염
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
+- 결정: VZV의 초감염과 재활성화 구별을 위한 의미 있는 쉬운 복습.

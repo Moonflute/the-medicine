@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,6 +48,12 @@ D. 헤모글로빈 A2 증가
 
 
 철결핍성 빈혈에서는 혈청 철은 감소하고, 철 결합능(TIBC)이 보상적으로 증가한다. 따라서 가장 가능성 높은 추가 소견은 TIBC 증가이다. 정답은 B이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009265 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 이식증·낮은 ferritin·소구성과 RDW 증가의 철결핍에서 TIBC 증가 B를 전기영동·망상적혈구 등과 대조.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,7 +53,14 @@ D. 정맥 반코마이신, 정맥 세프트리악손 및 정맥 플루코나졸
 ## 해설
 
 
-정맥 약물 사용자는 황색포도알균(Enterococcus)과 그람음성균에 감염될 위험이 높으며, 심내막염 치료에 반코마이신과 세프트리악손을 병용하는 것이 표준이다. 따라서 두 약물을 함께 투여한다.
+주사약물 사용·고열·새 삼첨판 잡음은 IE를 의심하게 하며 특히 S.aureus가 중요하다. S.aureus와 Enterococcus는 다른 균이다. 선택지 B의 vancomycin+ceftriaxone은 배양 전 그람양성 및 추가 균 범위를 확보하는 접근으로 선택하되 모든 IE의 고정 표준은 아니다. 배양을 신속히 채취하고 판막 종류·지역 내성·급성 경과에 따라 조정하며 감수성 확인 후 좁힌다. 인공물 근거 없이 rifampin/gentamicin을 일률 추가하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006711 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: S.aureus를 Enterococcus라 부른 명백한 균명 오류 교정; native IE 경험적 B의 조건 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107?searchresult=1
 
 ## 출처
 

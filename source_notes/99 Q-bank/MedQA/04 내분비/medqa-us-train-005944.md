@@ -19,13 +19,15 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,14 @@ D. 정맥 내 칼슘 글루콘산
 
 ## 해설
 
+갑상선수술후 입주위저림·호흡증상·혈압커프 유발 손경련은 증상성 저Ca를 의심해 IV calcium gluconate D가 적절하다. 기도위험을 즉시 평가하고 ECG감시하에 조심스럽게 투여하며 Ca/Mg/PTH 등 원인을 확인한다. 사진 자체는 누락되어 실제 손모양을 판독한 것은 아니다.
 
-갑상선 수술 후 저칼슘혈증으로 인한 테타니는 정맥 내 칼슘 글루콘산 투여가 급속히 혈청 칼슘을 보충해 증상을 완화한다. 따라서 정맥 칼슘이 가장 적절한 초기 치료이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 수술후 증상성 저Ca D의 IV투여를 ECG·기도평가와 함께 시행하도록 보완.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8117371/
 
 ## 출처
 

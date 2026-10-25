@@ -18,13 +18,15 @@ related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,13 @@ D. 보육교사가 의사에게 신고 권한을 부여하는 서류를 가지�
 
 ## 해설
 
+미국 문맥에서 의사는 아동학대·방임을 합리적으로 의심하면 관할 절차에 따라 신고해야 하므로 A가 적절하다. 입증이나 보호자의 별도 신고 동의를 기다리지 않는다. 더러운 기저귀 한 번만으로 확정하는 것이 아니라 탈수·성장·돌봄 상황을 함께 평가하고 아동의 안전과 필요한 진료를 우선한다.
 
-의사는 아동학대·방임을 발견하면 법적으로 신고 의무가 있다. 이는 가장 결정적인 근거이다. 따라서 정답은 A이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 신고 의무는 학대/방임이 입증된 뒤에만 생기는 것이 아님을 명확화.
+- https://publications.aap.org/pediatrics/article-lookup/doi/10.1542/peds.2015-0356
 
 ## 출처
 

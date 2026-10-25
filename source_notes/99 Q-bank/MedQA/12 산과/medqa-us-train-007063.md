@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 산모는 생리적 빈혈, 태아는 정상 헤모글로빈 수치
 
 ## 해설
 
+Hb 9.5 g/dL와 MCV 75 fL는 단순 생리적 혈액희석보다 소구성 빈혈에 부합하며, 선지 중 모체 철결핍빈혈과 태아 정상 Hb(B)가 가장 적합하다. 태반을 통한 철 전달로 태아의 철 공급이 상대적으로 우선되어 모체 빈혈이 곧 같은 정도의 태아 빈혈을 뜻하지는 않는다. 기존의 ‘태아보다 산모에 철분이 우선 공급된다’는 문장은 반대로 쓴 것이다. 심한 모체 결핍이 태아 철 저장과 결과에 영향을 줄 수 있으므로 항상 안전하다는 뜻은 아니다.
 
-임산부의 혈색소 9.5 g/dL와 MCV 75 fL는 소구성 빈혈을 나타낸다. 임신 중 철분이 태아보다 우선 공급되므로 모체는 철결핍성 빈혈이 흔하고 태아는 정상 헤모글로빈을 유지한다. 따라서 모체는 철결핍성 빈혈, 태아는 정상 헤모글로빈 수치가 가장 가능성 높은 조합이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 철분이모체에우선공급된다는거꾸로쓴해설교정. 태아의상대적철획득우선성B.
+
 
 ## 출처
 

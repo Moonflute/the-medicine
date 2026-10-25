@@ -19,17 +19,19 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMiDtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA
   - ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,12 @@ D. 국소 에리트로마이신
 
 ## 해설
 
+정답은 A, 지지요법이다. 한쪽에서 양쪽으로 번지는 충혈·다량의 눈물, 귀앞 림프절 및 여포성 결막반응은 아데노바이러스 각결막염을 지지한다. 냉찜질, 인공눈물 및 손위생·수건 공유 금지 등 전파 예방을 시행한다. 항생제는 바이러스에 효과가 없고 국소 스테로이드를 일률적으로 사용하지 않는다. 심한 각막 침범이나 시력저하 등이 있으면 안과 평가가 필요하며, 선택적인 스테로이드 사용은 전문의 판단에 따른다.
 
-아데노바이러스 결막염은 보통 자가 제한적이며, 증상 완화를 위해 눈물 흘림과 안구 위생을 유지하는 지지요법이 1차 치료이다. 항생제나 스테로이드는 필요하지 않다. 따라서 가장 적절한 관리 단계는 지지요법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 아데노바이러스 각결막염의 지지요법 답 A 유지. 눈물 흘림을 치료처럼 적은 표현과 스테로이드의 무조건 금지 일반화 수정.
+- 공식/학회 근거: https://aao.org/education/preferred-practice-pattern/conjunctivitis-ppp-2023
 
 ## 출처
 

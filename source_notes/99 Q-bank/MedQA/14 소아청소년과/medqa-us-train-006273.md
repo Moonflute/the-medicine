@@ -19,16 +19,18 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 안심시키며 관찰
 
 ## 해설
 
+감기 전구증상·거친 기침·안정 시 협착음과 함몰은 중등도 이상 크룹을 시사하여 epinephrine 네뷸라이저(B)가 적절하다. Dexamethasone도 투여하고 효과 소실 후 재악화 여부를 관찰한다. 기면과 공기 유입 감소는 중증 신호이므로 정상 산소포화도만으로 안심하지 말고 숙련된 기도팀에 신속히 연계한다. 실제 X선은 제공되지 않아 영상 소견은 근거로 삼지 않는다.
 
-흡입 시 고음의 천명음과 상부 기도 협착을 시사하는 ‘크룹’은 에피네프린 네뷸라이저가 가장 효과적인 치료이다. (비침습적 환기는 중증 호흡부전 시 사용)
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 중등도 이상 크룹의 epinephrine과 steroid·기도 감시 역할을 명확화. 미제공 영상 소견을 창작하지 않음.
+- https://cps.ca/en/documents/position/acute-management-of-croup
 
 ## 출처
 

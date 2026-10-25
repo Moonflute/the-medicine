@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 고관절 X선
 
 ## 해설
 
+정답은 B, 고관절 초음파이다. 둔위 출생력, 다리 길이 차이 및 외전 시의 clunk는 발달성 고관절 이형성/탈구를 의심하게 한다. 생후 4주에는 골화가 충분하지 않은 고관절의 연골과 안정성을 평가하기 위해 초음파가 적절하다. 이상 진찰 소견이 있으므로 6개월까지 기다리지 말고 소아정형외과 평가를 진행한다. 모든 생후 6개월 미만 영아에서 초음파가 항상 최선이라는 뜻은 아니며, 골화가 진행되는 약 4개월 이후에는 골반 방사선촬영도 적절한 선택이 될 수 있다.
 
-신생아에서 고관절 이형성증은 6개월 이내 초음파 검사가 가장 민감한 진단법이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 생후4주·둔위·다리길이차·Ortolani clunk는 DDH. 초음파 B 유지, 6개월 내 모든 영아에 초음파가 가장 민감하다는 일반화 수정 및 조기 전문의뢰 명시.
+- 공식/학회 근거: https://www.aaos.org/quality/quality-programs/pediatric-developmental-dysplasia-of-the-hip/
+- 공식/학회 근거: https://www.radiologyinfo.org/en/info/acs-dysplasia-hip-child
 
 ## 출처
 

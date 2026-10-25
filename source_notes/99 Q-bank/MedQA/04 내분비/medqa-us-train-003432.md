@@ -21,13 +21,15 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,14 @@ D. 혈청 TSH와 유리 T4
 
 ## 해설
 
+무월경·유즙분비·양귀쪽반맹은 PRL 과다와 시신경교차를 압박하는 뇌하수체/안장부 병변을 시사한다. 선택지 중 MRI A가 종괴를 확인하는 데 적절하다. 혈청 PRL, 임신·갑상샘/약물 및 다른 뇌하수체 기능을 함께 평가해야 하며 MRI만으로 prolactinoma와 stalk effect 등 모든 원인을 구분하지는 못한다.
 
-무월경, 유두 분비, 양측 시야 결손은 뇌하수체 매크로아데노마(프로락틴종)에서 흔히 나타나는 증후군이다. 이러한 구조적 병변은 MRI로 시각화가 가능하다. 따라서 진단 확인에 가장 높은 확률을 갖는 검사는 뇌 MRI이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: MRI A는 구조적 sellar 병변 확인에 적절하나 prolactinoma 확정에는 PRL 등 기능검사가 필요.
+- https://www.nature.com/articles/s41574-023-00886-5
 
 ## 출처
 

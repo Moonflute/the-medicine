@@ -20,11 +20,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,7 +47,14 @@ D. 신속 항원 검출검사
 ## 해설
 
 
-인두염 증상과 편도·인두 분비물은 A군 연쇄상구균 감염이 흔하며, 신속 항원 검사가 진단에 가장 효율적이다. 따라서 다음 조치는 신속 항원 검출검사이다.
+발열, 압통성 전경부 림프절과 삼출성 인두염에 기침·콧물이 없어 GAS를 의심하지만 임상 소견만으로 확진할 수 없다. 선택지 중 신속 항원검사(D)가 적절하다. 소아에서 RADT가 음성이면 인후배양으로 확인하고, 양성 확인 시 적절한 항생제를 투여한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-001175 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 소아 GAS 의심 인두염에서 RADT D 유지. 임상만 확진/경험적 penicillin 대신 검사하며 음성RADT의 소아 배양 확인을 보완.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html
 
 ## 출처
 

@@ -20,13 +20,15 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -44,8 +46,13 @@ D. 의사소통 능력 저하
 
 ## 해설
 
+1년간 반복 운동 틱과 발성 틱이 있어 투렛증후군을 시사한다. 투렛증후군은 강박장애 및 ADHD와 흔히 동반되므로 선지 중 반복 손씻기 강박행동(C)이 적합하다. 이를 자폐스펙트럼장애에 특이한 강박행동이라고 설명하는 것은 부정확하다. 눈맞춤이나 진료실 답변만으로 자폐 진단을 추가하지 않는다.
 
-틱과 발성 틱을 동반한 손 흔들기는 투렛 증후군을 시사한다. 투렛은 자폐 스펙트럼 장애와 동반될 수 있으며, 특히 손을 과도하게 씻는 강박 행동은 자폐와 연관된 강박증상이다. 따라서 가장 흔히 동반되는 소견은 손을 과도하게 씻는 것이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Tourette-OCD동반을자폐강박으로잘못연결한해설교정. C유지.
+
 
 ## 출처
 

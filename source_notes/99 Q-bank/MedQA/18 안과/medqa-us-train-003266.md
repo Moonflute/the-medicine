@@ -21,16 +21,18 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. NSAID 점안액
 
 ## 해설
 
+급성 폐쇄각 발작에서는 신속한 안압 하강이 필요하다. 제시된 선택지 중 A, timolol 점안은 방수 생성을 줄여 초기 안압 하강에 사용할 수 있다. 실제로는 안압·금기와 중증도에 따라 다른 약제를 병용하며 이후 원인에 맞는 레이저 주변홍채절개술 등 확정 치료를 신속히 시행한다. C가 불필요하거나 모든 약제보다 항상 timolol 하나가 우월하다는 뜻은 아니다. 점안 beta 차단제도 천식·서맥·방실차단 등의 금기를 확인한다.
 
-급성 폐각 폐쇄성 녹내장은 급격한 안압 상승(>30 mmHg), 중간 확대된 동공, 안구 경직을 동반한다. 첫 번째 응급 치료는 베타 차단제(티몰롤) 점안으로 안압을 빠르게 낮추는 것이다. 다른 약물은 1차 선택이 아니다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. Timolol A의 응급 안압 하강 역할은 유지하되 laser iridotomy가 부적절하다는 오해를 제거.
+- 공식/학회 근거: https://www.aao.org/education/preferred-practice-pattern/primary-angle-closure-disease-ppp
+- 공식/학회 근거: https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/020963s015lbl.pdf
 
 ## 출처
 

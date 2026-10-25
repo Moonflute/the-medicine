@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,14 @@ D. 메토트렉세이트 투여
 ## 해설
 
 
-손가락 관절 부종, 손발톱 하 황백색 판, 다관절 통증은 건선성 관절염을 시사한다. 초기 치료는 염증 억제를 위해 메토트렉세이트와 함께 인도메타신을 병용하는 것이 권장된다. 따라서 인도메타신과 메토트렉세이트 투여가 가장 적절하다.
+여러 손발가락 종창과 손발톱 병변·다관절 증상은 건선성 관절염을 시사한다. 다관절염·손발가락염·손발톱 침범은 조기 csDMARD 치료를 고려할 근거가 된다. 선택지 B는 methotrexate로 질병조절을 시작하고 indomethacin으로 단기 증상을 완화하는 조합이다. NSAID 병용이 모든 환자에게 반드시 필요한 것은 아니며 신장·위장관·심혈관 위험을 확인한다. 실제 건선/손발톱병변 진단과 병형·활성도에 따라 다른 DMARD나 생물학제가 필요할 수 있다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005257 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: PsA의 NSAID+MTX를 모든 환자에 필수 조합으로 제시한 설명을 다관절/손발가락염의 조기 DMARD와 증상치료로 수정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://ard.bmj.com/content/83/6/706
 
 ## 출처
 

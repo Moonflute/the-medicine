@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 시력검사
 
 ## 해설
 
+화학물질의 안구 노출 직후에는 B, 즉각적이고 충분한 세척으로 노출 시간을 줄인다. 적절한 관류액을 구하거나 시력검사·CT를 시행하느라 시작을 늦추지 않는다. 이후 안구표면 pH, 잔류 물질, 각막·결막 손상과 시력 등을 평가하고 안과 처치를 진행해야 하므로 다른 검사가 전혀 필요 없다는 뜻은 아니다.
 
-화학물질이 눈에 튀었을 때 가장 중요한 초기 처치는 즉각적인 눈 세척으로 독성을 최소화하는 것이다. 다른 검사는 필요 없으며, 세척 후 안과 검진을 진행한다. 따라서 적절한 처치는 눈 세척이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 즉시 관류 B는 유지하되 이후 검사가 불필요하다는 위험한 표현을 교정.
+- 공식/학회 근거: https://eyewiki.aao.org/Chemical_%28Alkali_and_Acid%29_Injury_of_the_Conjunctiva_and_Cornea
 
 ## 출처
 

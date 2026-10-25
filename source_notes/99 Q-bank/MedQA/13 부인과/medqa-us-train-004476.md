@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 트라넥삼산
 
 ## 해설
 
+수술이 예정된 큰 근종과 빈혈에서 GnRH 작용제 류프로라이드(B)를 단기간 사용하면 월경 출혈과 근종 크기를 줄여 수술 전 상태를 개선할 수 있다. 철분 보충을 병행한다. 이는 확정적 수술을 대체하는 영구치료가 아니다.
 
-다발성 근층내 자궁근종으로 인한 과다월경과 빈혈이 있는 경우, 근종 크기를 감소시켜 출혈을 줄이는 류프로라이드가 가장 효과적이다. 따라서 다음 단계는 류프로라이드 투여이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 수술 예정인 근종 환자의 류프로라이드 B 유지. 모든 근종의 최선 영구치료가 아니라 수술 전 빈혈·크기 개선 목적임을 명시.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60aad237-e1da-4705-cbbb-b3ca79e89ad8
 
 ## 출처
 

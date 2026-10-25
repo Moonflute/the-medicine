@@ -20,11 +20,11 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -32,13 +32,15 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA
   - ZHJ1ZzowOCDqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
+medical_review_status: content-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
 
 ## 문제
 
-37세 여성이 정부 건물 밖에서 알몸으로 발견되어 경찰과 함께 응급실에 왔다. 남편은 ‘미친’ 생각을 한다고 말한다. 말이 빠르고 주제가 급격히 바뀌며 자신이 대통령이 되고 연말까지 20개 언어를 유창하게 배우겠다고 한다. 지난 1년간 우울 삽화가 2회 이상 있었고 최근 요로감염으로 nitrofurantoin을 복용했다. 급성 통풍 발작으로 indomethacin을 복용 중이다. lithium을 처방받은 후 오심, 구토, 빈뇨, 거친 떨림과 전반적 반사항진이 생겼다. 현재 증상을 일으킨 약물은 무엇인가?
+37세 여성이 정부 건물 밖에서 알몸으로 발견되어 경찰과 함께 응급실에 왔다. 남편은 ‘미친’ 생각을 한다고 말한다. 말이 빠르고 주제가 급격히 바뀌며 자신이 대통령이 되고 연말까지 20개 언어를 유창하게 배우겠다고 한다. 지난 1년간 우울 삽화가 2회 이상 있었고 최근 요로감염으로 nitrofurantoin을 복용했다. 급성 통풍 발작으로 indomethacin을 복용 중이다. 고혈압·고지혈증·만성 편두통 병력이 있으며 다른 복용약은 atorvastatin, allopurinol, metoprolol, acetazolamide이다. lithium을 처방받은 후 오심, 구토, 빈뇨, 거친 떨림과 전반적 반사항진이 생겼다. 현재 증상을 일으킨 약물은 무엇인가?
 
 ## 선택지
 
@@ -56,3 +58,9 @@ D. Metoprolol
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002021
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 리튬-인도메타신 상호작용 정답 유지. 비교 선지인 다른 복용약과 병력이 번역에서 빠져 원문대로 복원.
+- 의학 검수 수준: content-reviewed (최신 지침 전수 검증을 뜻하지 않음).

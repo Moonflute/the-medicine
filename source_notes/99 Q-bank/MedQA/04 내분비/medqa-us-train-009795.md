@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -49,7 +51,14 @@ D. 심바스타틴
 ## 해설
 
 
-만성콩팥병 환자는 LDL < 100 mg/dL 목표가 필요하고, 3단계 CKD에서는 스타틴을 시작하는 것이 권장된다. 심바스타틴은 강력한 고강도 스타틴으로 LDL를 충분히 낮출 수 있다. 따라서 심바스타틴이 가장 적절한 약제이다.
+정답 D. 54세, stage3 CKD와 당뇨·여러 ASCVD 위험인자는 statin 기반 치료의 적응증이다. 선택지 중 simvastatin이 statin이며 ezetimibe 단독·fibrate·fish oil보다 우선되는 약물군이다. Simvastatin은 고강도 statin이 아니며 통상 용량은 중강도다. 실제 치료 강도와 LDL 목표는 심혈관 위험·동반질환·약물 상호작용에 맞추며 모든 CKD 환자의 목표를 LDL<100 하나로 정하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-009795 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: simvastatin은 고강도 아닌 보통 중강도이며 CKD의 일률 LDL100 목표 주장을 교정. 선택지 유일 statin D 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2024-CKD-Guideline.pdf
 
 ## 출처
 

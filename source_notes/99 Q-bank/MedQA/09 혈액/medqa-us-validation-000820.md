@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 이마티닙
 ## 해설
 
 
-t(15;17) 급성 전골수구성 백혈병은 전트랜스레티노산(ATRA) 치료에 가장 잘 반응한다. 따라서 정답은 B이다.
+t(15;17)은 PML::RARA 관련 APL을 지지한다. 의심 즉시 시작할 질환 표적 치료는 ATRA(B)이며 확진 후 위험도에 맞춘 ATO 또는 항백혈병 병합요법을 계획한다. 출혈·낮은 fibrinogen과 혈소판감소가 있으므로 혈액제제 보충과 면밀한 응고감시도 동시에 필요하다. Cryoprecipitate는 보조 지혈치료이지 ATRA를 대체하는 항백혈병 치료가 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000820 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: t(15;17)의 APL에서 즉시 ATRA B 유지하되 단독 완결치료로 과장하지 않고 동반 응고장애 혈액제제 보충도 필요.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/
 
 ## 출처
 

@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 크리글러-나자르 증후군 1형
 
 ## 해설
 
+십이지장 제2부를 둘러싸는 췌장 조직은 복측 췌장싹의 비정상 회전·이동으로 생기는 환상췌장(B)에 부합한다. Double-bubble은 십이지장 폐쇄를 시사하지만 환상췌장에만 특이적인 소견은 아니며 십이지장 폐쇄증 등과 감별한다.
 
-이중 기포와 상부 장폐색은 환상 췌장(췌장관 형성)으로 인한 이중 기포 증후군을 가장 흔히 일으킨다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: Double-bubble의 비특이성과 환상췌장의 발생 기전을 명확화.
+
 
 ## 출처
 

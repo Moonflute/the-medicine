@@ -17,15 +17,20 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 question_type: mechanism
 difficulty: complex
-answer: A
+answer: "A"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: "manual-reviewed"
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+curation_status: "revised"
+curation_reason: "기립성 단백뇨를 사구체 여과압 감소라는 확정 기전으로 설명한 오류 수정."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "content-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # MedQA US 임상문제
@@ -46,10 +51,19 @@ D. 사구체 기저막의 분리
 
 ## 해설
 
-
-장시간 서 있으면 중력에 의해 혈액이 하체에 정체되어 사구체 여과압이 감소하고 단백뇨가 일시적으로 나타난다. 다른 선택지는 면역복합체 침착·전하 소실·기저막 파열과 같은 지속성 단백뇨 메커니즘을 설명하지 않는다. 따라서 가장 가능성 높은 설명은 장시간 서 있기이다.
+건강한 청소년에서 활동 후 단백뇨가 많고 이른 아침에는 줄어드는 양상은 기립성 단백뇨를 시사한다. 확정하려면 첫 아침 소변 단백 정량과 활동 후 검체를 비교한다. 기립성 단백뇨의 기전은 단순한 여과압 감소로 단정할 수 없다. 혈뇨·신기능 저하가 없고 난청에는 소음 노출이라는 별도 설명이 있으나 아침에도 단백뇨가 지속되면 추가 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008510
+
+## 오답 포인트
+
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 판정: 기립성 단백뇨를 사구체 여과압 감소라는 확정 기전으로 설명한 오류 수정.
+- 검수 범위: content-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.

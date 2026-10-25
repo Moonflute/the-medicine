@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -44,7 +46,13 @@ D. 휘르틀세포 변이
 ## 해설
 
 
-갑상선암에서 뼈 전이는 전이성 질환의 가장 나쁜 예후 인자이며, 생존율을 크게 낮춘다. 따라서 뼈 전이가 가장 나쁜 예후 요인이다.
+이 문항은 제시된 요인 중 무엇이 갑상선암의 예후를 더 나쁘게 하는지 묻는다. 골전이 B는 원격전이에 해당하여 나열된 다른 요인보다 불량 예후를 의미한다. 본문의 환자에게 실제 골전이가 확인되었다는 뜻은 아니며, 환자의 최종 병리·연령·전이 범위 등을 통합하여 위험도를 평가한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-validation-000922 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 골전이는 실제 환자에게 확인된 소견이 아니라 가정한 예후인자라는 점을 명확히 하여 B 유지.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

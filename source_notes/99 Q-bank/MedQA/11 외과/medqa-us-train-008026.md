@@ -23,7 +23,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -45,6 +47,13 @@ D. 총정맥영양 시작
 
 
 수술 후 장 마비는 오피오이드 진통제에 의해 악화될 수 있다. 오피오이드 사용을 감소시키면 장 운동이 회복된다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-008026 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 수술4일째 전장관 가스·장음소실·hydromorphone 사용은 수술후 ileus에 부합하고 opioid 감소 B가 적절하다. 장폐색/합병증 평가와 진통 대체를 병행하는 범위에서 원문·해설 일치.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://fascrs.org/ascrs/media/files/Education/2023-Enhanced-Recovery-CPG.pdf
 
 ## 출처
 

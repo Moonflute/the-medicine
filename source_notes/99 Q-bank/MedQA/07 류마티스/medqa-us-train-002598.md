@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,15 @@ D. 관절천자와 활액 분석
 ## 해설
 
 
-SLE에서 질병 활동도는 항이중가닥 DNA 항체 수치 변동으로 가장 민감하게 반영된다. 따라서 다음 단계는 항이중가닥 DNA 항체 검사를 실시하는 것이다.
+선택지 중 anti-dsDNA 항체(B)는 SLE 활성도 추적에 도움이 되며 anti-Smith는 진단 특이도가 높지만 활성도 추적에는 덜 유용하다. 그러나 anti-dsDNA 단독의 민감도·특이도는 제한적이므로 증상·진찰, 보체 C3/C4, 혈구검사, 요단백/요침사와 신기능을 함께 평가한다. 현재 신장 침범 근거 없이 추적을 위해 곧바로 신장 생검을 시행하지 않는다. 정상 크레아티닌만으로 조기 신염을 배제할 수 없으므로 요검사는 계속 필요하다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002598 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: anti-dsDNA가 가장 민감하게 모든 활성도를 반영한다는 단정을 다중 임상·혈청·요검사 평가로 수정했다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://doi.org/10.1093/rheumatology/keag223
+- https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.25528
 
 ## 출처
 

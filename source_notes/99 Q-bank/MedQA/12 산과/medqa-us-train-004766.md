@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 융모막하 낭종
 
 ## 해설
 
+양막파열 뒤 출혈 증가와 태아 서맥/심박 이상이 발생한 양상은 전치혈관 파열을 시사한다. 막성 제대 부착(B)은 보호되지 않는 태아 혈관이 양막을 따라 주행해 내구 부근에 놓일 위험을 높인다. 모든 막성 부착이 전치혈관인 것은 아니다. 원문의 'nitrite-positive'는 아질산염 양성으로, 양막파열 평가의 pH 지시약인 nitrazine(니트라진) 양성과 다른 검사다. 이를 확인된 니트라진 결과로 임의 치환하지 않았으며 본문의 액체 유출·양치상 단서와 출혈 경과로 판단한다.
 
-임신 20주에 초음파에서 막성 제대 부착(velamentous insertion)이 있으면 출산 시 전치혈관이 손상되어 출혈과 태아 심박수 감속을 일으킨다. 따라서 막성 제대 부착이 해당 초음파 소견이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 전치혈관과 막성 제대 부착의 관계는 유지하되 영어 원문의 nitrite를 양막파열의 니트라진 검사와 혼동하지 않도록 명시했다.
+
 
 ## 출처
 

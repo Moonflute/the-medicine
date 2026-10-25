@@ -19,11 +19,11 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -31,6 +31,8 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,13 @@ D. 와파린
 
 ## 해설
 
+압박 불가능한 대퇴정맥과 편측 부종·통증은 DVT이다. 임신 중 치료는 일반적으로 치료 용량 LMWH(C)를 사용한다. 아스피린·디피리다몰은 급성 DVT 치료를 대체하지 않으며 와파린은 이 사례의 임신 중 표준 선택이 아니다.
 
-임신 중 심부정맥혈전증은 임산부에게 안전한 저분자량 헤파린으로 치료한다. 아스피린은 예방에, 디피리다몰·와파린은 임신에 금기이다. 따라서 정답은 C이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 항혈소판제를 DVT 예방 표준으로 보이게 한 해설 수정.
+- https://www.rcog.org.uk/media/wj2lpco5/gtg-37b-1.pdf
 
 ## 출처
 

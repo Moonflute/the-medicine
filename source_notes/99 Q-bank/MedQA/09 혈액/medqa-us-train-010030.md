@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -51,6 +53,12 @@ D. 와파린의 이상반응
 
 
 패혈성 쇼크와 DIC에서 미세혈전이 전신에 형성돼 피부에 파종성 혈관내 응고(피부출혈·멍)를 일으킨다. 환자의 저혈압, 혈소판 감소, PT/PTT 연장, 다발성 장기 부전이 이를 뒷받침한다. 따라서 멍의 가장 적절한 원인은 파종성 혈관내 응고이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-010030 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 감염성 쇼크·AKI·혈소판감소와 PT/aPTT 연장은 소비성 DIC A를 지지. Warfarin 단독 효과는 혈소판감소·전신 장기손상을 설명하지 못함.
+- 범위: content-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

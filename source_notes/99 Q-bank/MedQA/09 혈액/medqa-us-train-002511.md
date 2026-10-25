@@ -20,11 +20,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,7 +50,14 @@ D. 적혈구 수혈
 ## 해설
 
 
-가족력과 점상 출혈·점상 멍은 혈소판 기능 이상을 시사한다. 혈소판 기능 저하와 점상 출혈에 가장 효과적인 치료는 데스모프레신으로 VWF와 혈소판 글리코프로테인을 증가시키고, 트라넥삼산으로 섬유소 용해를 억제한다. 따라서 두 약제 병용이 적절하다.
+어릴 때부터 쉽게 멍이 들고 가족력이 있으며 정상 혈소판 수와 PT에도 점막 수술 출혈이 생겨 von Willebrand disease가 의심된다. Desmopressin은 내피에 저장된 vWF와 factor VIII 방출을 늘리고 tranexamic acid는 섬유소용해를 억제하므로, 반응성 경증 VWD를 전제로 한 보기 중 A가 부합한다. 다만 아형·이전 반응·수술 출혈 정도를 확인해야 하며 2B형, 3형 등에서는 적절하지 않거나 효과가 없다. 중증 수술출혈에는 vWF 농축제 등 전문 치료가 필요할 수 있고 desmopressin이 모든 혈소판 기능장애의 보편적 치료는 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002511 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: vWF 질환에서 desmopressin은 혈소판 glycoprotein을 증가시키는 약이 아님. 아형·반응과 수술중증도에 따른 한계를 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7805326/
 
 ## 출처
 

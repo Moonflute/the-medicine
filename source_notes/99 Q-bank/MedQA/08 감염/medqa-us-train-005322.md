@@ -19,11 +19,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -46,7 +48,14 @@ D. 신속 연쇄상구균 검사
 ## 해설
 
 
-청소년기에 발열·인후통·편도 삼출·경부 림프절·비장비대가 동반되면 전염성 단핵구증을 의심한다. 진단을 위한 1차 검사로는 이질성 항체를 검출하는 모노스팟(heterophile) 검사가 가장 간편하다. 따라서 다음 단계는 B, 모노스팟 검사이다.
+발열·삼출 인두염·후경부 림프절병증·비장비대는 단핵구증에 부합한다. 선택지 B Monospot은 이종친화항체를 검출하는 보조검사다. 음성으로 배제하거나 양성만으로 EBV 특이 확진을 내리지 않으며 필요한 경우 EBV 특이 항체를 평가한다. 진단 전 amoxicillin을 일률 투여하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-005322 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Heterophile을 이질성으로 번역한 오류 교정; Monospot B의 한계 명시.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/epstein-barr/php/laboratories/
 
 ## 출처
 

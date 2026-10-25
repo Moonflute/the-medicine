@@ -22,7 +22,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,6 +49,13 @@ D. 반코마이신과 겐타마이신
 
 
 IV 약물 사용자는 심내막염 위험이 높으며, 지속적인 발열과 새 심잡음은 감염성 심내막염을 시사한다. 혈액배양은 진단에 필수적인 초기 검사이다. 따라서 혈액배양이 가장 적절한 다음 단계이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001424 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 주사 약물 사용·발열·심잡음 환자의 초기 혈액배양 A를 유지. 저혈압이 있어 배양 채취가 소생 및 적절한 경험적 항생제를 지연시키면 안 됨.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107
 
 ## 출처
 

@@ -20,15 +20,17 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -46,8 +48,13 @@ D. 완전 침상 안정
 
 ## 해설
 
+닫힌 경부와 정상 태아심박을 동반한 초기 출혈은 절박유산이다. 현재 출혈이 줄고 안정되어 A의 설명·추적 초음파가 적절하다. 임신이 계속 유지될 수 있고 유산이 필연적이라는 뜻은 아니다. 침상안정은 유산 예방 효과가 입증되지 않았으며 출혈·통증 악화 시 재평가한다.
 
-자궁경부가 닫혀 있고 초음파에서 정상적인 태아 심장 활동이 확인된 경우, 이는 위협성 유산이며 대부분 자연적으로 진행된다. 따라서 안심시키고 추적 초음파를 시행하는 것이 적절하다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: ‘대부분 자연적으로 진행’이 유산 진행으로 오해되지 않도록 절박유산 설명 명료화.
+- https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss
 
 ## 출처
 

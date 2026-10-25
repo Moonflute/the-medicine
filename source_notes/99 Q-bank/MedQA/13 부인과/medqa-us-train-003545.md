@@ -21,17 +21,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -49,8 +51,13 @@ D. 클린다마이신으로 치료하고 호전될 때까지 모유수유를 중
 
 ## 해설
 
+고열·국소 발적·통증·화농성 분비물은 세균성 수유 유방염에 합당하다. 디클록사실린은 일반적인 감수성 포도알균에 대한 1차 약제이며 수유를 지속할 수 있다(A). MRSA에는 효과가 없다. 과도하게 짜내거나 깊은 마사지를 하지 않고 호전이 없으면 배양·농양 평가를 한다.
 
-수유부의 급성 유방염은 주로 Staphylococcus aureus에 의해 발생하며, 베타-락타메이스 저항성 균주에 대해 디클록사실린이 1차 선택약이다. 치료와 동시에 모유수유를 지속하면 유관이 개방되고 증상이 빠르게 호전된다. 따라서 디클록사실린 처방 후 모유수유를 계속하는 것이 올바른 관리이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 세균성 수유 유방염의 디클록사실린·수유 지속 A 유지. 베타락타메이스 저항성 균주라는 잘못된 표현을 제거.
+- https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf
 
 ## 출처
 

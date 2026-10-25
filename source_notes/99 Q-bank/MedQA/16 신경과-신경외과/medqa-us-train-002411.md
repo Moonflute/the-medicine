@@ -20,17 +20,19 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k
   - ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -48,8 +50,12 @@ D. 리시노프릴을 시작한다
 
 ## 해설
 
+오른쪽 위약·구음장애를 동반한 TIA와 좌측 내경동맥 80% 협착은 증상성 중증 경동맥 협착이다. 수술 위험을 평가하여 경동맥 내막절제술(A)을 신속히 계획하는 것이 적절하며, 임상적으로 안정하면 일반적으로 증상 발생 후 14일 이내 시행이 권장된다. 동시에 항혈소판제·스타틴과 혈압 등 위험인자 관리도 필요하다. 따라서 A는 약물치료를 생략한다는 뜻이 아니라 적절한 약물치료만으로 끝내지 않고 재혈관화를 평가한다는 의미다.
 
-경동맥 협착 80%와 일과성 뇌허혈 증상이 있으면 증상이 있는 고위험군으로, 증상이 지속되지 않더라도 외과적 치료가 권장된다. 따라서 경동맥 내막절제술이 적절한 다음 단계이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 증상성 동측 80% 내경동맥 협착에서 내막절제술 A를 유지하되 항혈소판제·스타틴을 대체하는 수술로 오해하지 않도록 시기와 병행 치료를 명시했다.
+- 공식/학회 근거: https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/management-of-extracranial-carotid-disease-and-intracranial-atherosclerosis
 
 ## 출처
 

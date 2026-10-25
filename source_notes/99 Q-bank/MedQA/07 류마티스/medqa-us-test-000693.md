@@ -21,11 +21,13 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 ---
@@ -46,7 +48,13 @@ D. 혈색소침착증
 ## 해설
 
 
-강직성 척추염 환자에서 전방 포도막염이 동반될 경우 대동맥판막 역류가 흔히 관찰된다. 따라서 대동맥판막 역류가 가장 가능성 높은 동반 소견이다.
+염증성 요통, 발뒤꿈치 부착부 통증과 급성 눈 통증·충혈은 축성 척추관절염과 전방포도막염을 시사한다. 선택지 중 대동맥판막 역류(C)는 알려진 관절외 연관 소견이다. 드문 합병증을 흔히 발생한다고 일반화하지 않는다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 `medqa-us-test-000693` 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: 염증성 요통·부착부통·급성 전방포도막염의 AS와 연관 대동맥판 역류 C 유지. 흔히 발생한다는 빈도 과장을 제거.
+- 범위: content-reviewed. 기초 내용 대조와 해당 쟁점의 근거 확인을 구별하며 전수 진료지침 승인으로 해석하지 않는다.
 
 ## 출처
 

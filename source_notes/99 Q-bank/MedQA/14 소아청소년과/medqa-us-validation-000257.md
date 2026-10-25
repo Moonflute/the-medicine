@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,13 @@ D. 가와사키병
 
 ## 해설
 
+5일 고열에 결막·구강·경부 림프절·발진 소견이 있어 보기 중 가와사키병(D)이 가장 부합한다. 관절염도 동반될 수 있다. 이 질환은 단순 삼징으로 진단하지 않으며 손발 부종이 이 환자의 본문에 제시된 것은 아니다. 임상 기준과 심초음파·염증 평가를 통합한다.
 
-가와사키병은 5세 이하에서 고열, 결막충혈, 입·인두·입술 변화, 림프절병증, 손발 부종, 그리고 전신성 혈관염을 동반한다. 이 환자는 전형적인 임상 삼중증을 보이므로 가와사키병이 가장 가능성 높다. 따라서 정답은 가와사키병이다
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 본문·선지·정답과 대조.
+- 검수 판단: 가와사키를 전형적 삼중증으로 부른 오류와 제시되지 않은 손발 부종을 구별.
+- https://www.heart.org/en/health-topics/kawasaki-disease
 
 ## 출처
 

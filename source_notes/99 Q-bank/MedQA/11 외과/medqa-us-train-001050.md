@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,13 @@ D. 폴린산(leucovorin) + 5-플루오로우라실(5-Fluorouracil) + 옥살리�
 
 
 FAP 환자에서 수백 개의 대장 용종이 존재하고 직장에 30개 이상이 보이면 보존적 절제보다는 회장‑항문문합술을 동반한 직장결장절제술이 표준 치료이다. 이는 악성 변환 위험을 크게 감소시킨다. 따라서 다음 단계는 회장항문문합술을 포함한 직장결장절제술이다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-001050 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: FAP에서 수백 개의 결장 선종과 30개 초과 직장 선종은 직장결장절제·회장항문문합 C를 지지한다. 원문·해설 일치; 실제 수술 방식과 시기는 기능·생식·종양 위험을 함께 상의한다.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://fascrs.org/ascrs/media/files/2024-Polyposis-CPG.pdf
 
 ## 출처
 

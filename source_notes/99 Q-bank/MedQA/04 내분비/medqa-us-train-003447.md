@@ -21,15 +21,17 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -47,8 +49,16 @@ D. 초음파와 생검
 
 ## 해설
 
+양측 유즙분비는 고프로락틴혈증을 고려하게 한다. 갑상선기능저하증도 원인이 될 수 있으므로 제시된 선지 중 C, TSH 측정이 적절한 평가에 포함된다. 실제 초기 평가에서는 임신 가능성, 혈청 프로락틴, 복용 약제와 신기능 등도 함께 확인한다.
 
-정신병 약물(특히 도파민 차단제)과 갑상선 기능저하 모두 고프로락틴혈증을 일으켜 유두 분비를 유발한다. 가장 먼저 확인해야 할 원인은 갑상선 기능이므로 TSH 측정이 필요하다. 따라서 정답은 TSH 측정이다.
+최근 처방한 항정신병약이 원인일 수 있지만 정신과 담당의와 상의 없이 임의로 중단해서는 안 된다. 지속적인 두통 등 상황에 따라 뇌하수체 병변 평가도 필요하다. TSH만으로 모든 원인 평가가 끝나거나 TSH가 반드시 다른 모든 검사보다 먼저라는 뜻은 아니다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. TSH가 모든 유즙분비에서 유일한 첫 검사라는 과도한 일반화를 교정하고 임신·프로락틴/약물 평가 및 정신과 약 임의중단 금지 설명.
+- https://academic.oup.com/jcem/article/96/2/273/2709487
 
 ## 출처
 

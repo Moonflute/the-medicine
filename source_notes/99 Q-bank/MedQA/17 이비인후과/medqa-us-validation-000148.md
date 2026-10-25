@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,12 @@ D. 만성 비부비동염
 
 ## 해설
 
+감기 뒤 호전되었다가 악화된 얼굴 압박감과 3주 지속된 증상은 B, 급성 세균성 비부비동염을 지지한다. 진단 단서는 지속기간과 악화 경과의 조합이지 콧물 색 하나가 아니다. 바이러스 감염에서도 화농성·색 있는 콧물이 생길 수 있다. 만성 비부비동염을 진단할 정도의 장기간 경과는 아니다.
 
-3주간 지속된 녹색 농성 콧물과 부비동 부종은 급성 세균성 부비동염을 시사한다. 바이러스성 부비동염은 보통 고름이 없으며 알레르기 비염은 비농성이다. 따라서 정답은 급성 세균성 부비동염(B)이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 농성/녹색 콧물만으로 바이러스와 세균을 구분한다는 설명을 지속기간·이중악화 중심으로 교정.
+- 공식/학회 근거: https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1002/ohn.1342
 
 ## 출처
 

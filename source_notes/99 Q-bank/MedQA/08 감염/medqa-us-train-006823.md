@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -47,7 +49,15 @@ D. 6~8주 후 투베르쿨린 피부검사 반복
 ## 해설
 
 
-CD4 수가 700으로 면역이 보존된 상태이며 투베르쿨린 검사 결과가 음성(3 mm)인 경우, 급성 감염 위험이 낮다. 증상이 경미하고 호흡기 검사가 정상인 상황에서는 추가 검사를 하지 않고 안심시켜 추적 관찰한다가 적절하다.
+HIV에서 TST 양성 기준은5mm 이상이므로3mm는 음성이다. 알려진 최근 노출 없이 경한 단기 상기도 증상의 취업 선별 맥락에서는 B의 설명·경과관찰이 부합한다. 다만 CD4가 높거나 TST 음성이어도 활동성 TB를 배제할 수 없으며 기침 지속/악화·역학 위험·전신증상이 있으면 흉부 영상/미생물 검사를 시행한다. 최근 밀접 노출이 있으면 별도의 창기간 재검·예방 기준을 적용한다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-006823 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: HIV TST3mm 음성의 선별 맥락 B 유지; 면역 보존/음성 TST로 활동 결핵을 배제하는 일반화 교정.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html
+- https://www.cdc.gov/tb/hcp/testing-diagnosis/clinical-and-laboratory-diagnosis.html
 
 ## 출처
 

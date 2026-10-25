@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 성조숙증
 
 ## 해설
 
+고환 종괴에 강한 남성화 소견, 여드름·얼굴 털과 빠른 신체 성장 양상이 동반되어 안드로겐 분비성 Leydig 세포 종양 A가 가장 적절하다. 얼굴 털은 본문 소견이지만 남성형 탈모는 제시되지 않았다. 10세의 사춘기 징후만으로 성조숙증을 확정하는 것이 아니라 고환 종괴와 호르몬성 소견의 원인을 묻는 문항이다.
 
-청소년 남성의 고환 종괴와 남성형 탈모, 여드름은 과도한 안드로겐 생산을 의미한다. 라이디히 세포 종양은 고환에서 안드로겐을 과다 분비해 이러한 증상을 일으킨다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 실제 얼굴 털을 남성형 탈모로 바꾼 오류 교정; 종괴와 안드로겐 과다의 Leydig 종양 A 연결.
 
 ## 출처
 

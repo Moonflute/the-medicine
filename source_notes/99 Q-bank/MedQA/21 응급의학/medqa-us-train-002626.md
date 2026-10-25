@@ -19,13 +19,15 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: content-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -43,8 +45,11 @@ D. 연가양흉
 
 ## 해설
 
+흡기 때 손상된 흉벽 일부가 안쪽으로 들어가는 역설적 운동은 여러 늑골의 다발성 골절로 독립된 흉벽 분절이 생기는 동요흉(flail chest)의 특징이다. 따라서 제시된 진단 중 D가 가장 적절하다. 호흡음 감소와 쇼크는 동반 폐좌상·기흉·혈흉 등도 평가해야 하는 소견이지만, 본문에 없는 X선의 대량 혈흉 소견을 만들어 이 문항의 답으로 설명해서는 안 된다.
 
-흉부 외상 후 흉부 X선에서 대량 혈흉이 의심되고 호흡곤란, 저산소증이 나타난 경우, 가장 효과적인 치료는 흉관 삽입이다. 흉관은 혈액을 배액하고 폐 재팽창을 돕는다. 따라서 다음 단계는 흉관 삽입이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 진단 D 동요흉을 묻는데 흉부 X선의 대량 혈흉과 흉관 처치를 설명한 오연결 해설을 해당 증례의 역설호흡으로 교체.
 
 ## 출처
 

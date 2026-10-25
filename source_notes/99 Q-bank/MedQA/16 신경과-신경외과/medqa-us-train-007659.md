@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,8 +47,13 @@ D. 필요할 때만 지지요법
 
 ## 해설
 
+반복 재발을 경험한 MS에서는 현재 증상이 없더라도 질병조절치료(DMT)를 논의해야 한다. 보기 중 interferon beta(C)는 재발형 MS에 사용하는 DMT이다. Methylprednisolone은 임상적으로 의미 있는 급성 재발 치료이지 장기 재발 예방을 대신하지 않는다. 현행 치료에는 여러 DMT가 있어 interferon이 모든 환자의 유일한 일차 선택은 아니다. 재발 중증도·MRI 활성도·안전성·임신 계획 등을 고려하여 전문적으로 선택한다.
 
-재발완화형 다발성 경화증 환자에게는 질병 변형 치료제로 인터페론 베타가 1차 선택이며, 재발 방지와 진행 억제에 효과적이다.
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문과 한국어 본문·네 선지·정답·해설을 개별 대조하였다. 재발완화형 MS의 DMT C 유지하되 interferon만 일률적 일차라는 단정 제거.
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ng220/chapter/Recommendations
+- 공식/학회 근거: https://www.nice.org.uk/guidance/ta527/
 
 ## 출처
 

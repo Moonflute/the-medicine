@@ -24,7 +24,9 @@ explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
@@ -48,6 +50,13 @@ D. 철분
 
 
 이소니아지드 치료는 비타민 B6(피리독신) 결핍으로 말초신경병증을 일으키므로, 치료 시작 시 피리독신을 보충하면 예방 가능하다. 다른 비타민이나 철분은 이 부작용 예방에 효과가 없다.
+
+## 검수 근거
+
+- 검수일: 2026-10-25. 영어 원문 medqa-us-train-002998 및 본문·선택지·정답·해설을 직접 대조했다.
+- 판정: Isoniazid의 pyridoxine 대사 방해와 B6 보충 C의 말초신경병증 예방을 원문 및 허가사항과 대조 유지.
+- 범위: evidence-reviewed. 전수 진료지침 승인으로 해석하지 않는다.
+- https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b46d1d-2300-457d-a7bd-a88a3f8d2235
 
 ## 출처
 

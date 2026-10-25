@@ -18,13 +18,15 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+medical_review_status: evidence-reviewed
+medical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -42,8 +44,14 @@ D. 헨레고리 상행각 상피세포막의 Na⁺/K⁺/2Cl⁻ 수송체
 
 ## 해설
 
+보기 C는 원위곡세관의 Na⁺/Cl⁻ 공동수송체를 억제하는 티아지드계 이뇨제의 표적이다. 티아지드는 요중 칼슘 배설을 줄여 고칼슘혈증을 유발하거나 숨은 부갑상샘기능항진증을 드러낼 수 있고, 고칼슘혈증은 변비와 피로를 일으킬 수 있다. 따라서 보기 중 C가 합당하다. 이 환자의 칼슘 수치나 실제 약 이름은 제시되지 않았으므로 실제 진료에서는 확인해야 하며 장 평활근 직접 자극이 기전이라는 뜻은 아니다.
 
-티아지드 이뇨제는 원위곡세관 상피세포의 Na⁺/Cl⁻ 공동수송체를 차단해 재흡수를 억제한다. 이 작용이 장관 평활근을 자극해 변비를 유발한다. 따라서 해당 약물의 세포 표적은 원위곡세관 Na⁺/Cl⁻ 공동수송체이다.
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 검수 범위: 현재 한국어 본문·4개 선지·정답·해설을 읽고 eligible.jsonl의 동일 ID 영어 원문·선지·정답과 대조. 휴리스틱 플래그는 판정 근거로 자동 적용하지 않음.
+- 판정: 원정답 C 유지. NaCl 공동수송체 억제가 장 평활근을 자극하여 변비를 일으킨다는 오류를 티아지드의 칼슘 배설 감소/고칼슘혈증 가능성으로 교정.
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=8bc8d5e2-a974-64ed-e053-2a95a90a8340&type=display
 
 ## 출처
 

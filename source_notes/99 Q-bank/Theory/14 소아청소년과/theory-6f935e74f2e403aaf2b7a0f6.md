@@ -12,41 +12,49 @@ target_type: disease
 target_slug: "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66-47IS4IOuzgO2ZlCDrs5EgKE1pbmltYWwgQ2hhbmdlIE5lcGhyb3RpYyBTeW5kcm9tZSkubWQ"
 theory_objective_id: disease-01-recognition
 question_type: recognition
-question_mode: direct_recall
+question_mode: "direct_recall"
 difficulty: standard
-answer: A
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
-review_status: machine-generated
+review_status: "manual-reviewed"
+curation_status: "revised"
+curation_reason: "MCD 병리 정의 반복을 소아에서 불필요한 일률 생검을 피하는 원칙으로 개선."
+curation_reviewed_at: "2026-10-25"
+medical_review_status: "evidence-reviewed"
+wrong_notes_review_status: "reviewed"
 ---
 
 # 이론 문제
 
 ## 문제
 
-미세 변화 병(Minimal Change Nephrotic Syndrome)의 정의는 무엇인가?
+전형적인 소아 특발성 신증후군의 초기 접근으로 옳은 것은?
 
 ## 선택지
 
-A. 광학 현미경에서 사구체 구조가 정상으로 보이는 신증후군
-B. 사구체 경화가 관찰되는 신증후군
-C. 면역복합체가 사구체에 침착되는 신증후군
-D. 사구체 세포 증식이 주된 병변인 신증후군
+A. 임상 양상·연령·비전형 소견을 평가하며 모든 소아에게 치료 전 신장 생검을 일률 시행하지 않는다
+B. 모든 환자는 생검으로 MCD를 확인한 뒤에만 치료한다
+C. 심한 지속 혈뇨·저보체·신기능 저하도 항상 무시한다
+D. 부종만으로 신증후군을 확진한다
 
 ## 해설
 
-미세 변화 병은 소아 신증후군의 가장 흔한 원인으로, 광학 현미경에서 사구체가 정상으로 보이며 전자현미경에서 podocyte 발돌기 소실이 특징이다.
+MCD는 소아에서 흔하지만 임상적으로 추정하는 것과 조직 확진은 다르다. 비전형 소견·스테로이드 반응 등에 따라 생검·유전검사의 필요성을 정한다.
 
 ## 오답 포인트
 
-- **B. 사구체 경화가 관찰되는 신증후군:** 사구체 경화는 사구체 경화증(네프로시스)에서 주로 보인다.
-- **C. 면역복합체가 사구체에 침착되는 신증후군:** 면역복합체 침착은 루푸스 신염 등에서 나타난다.
+<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 출처
 
 - 내부 학습 노트: 미세 변화 병 (Minimal Change Nephrotic Syndrome)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/미세 변화 병 (Minimal Change Nephrotic Syndrome).md`
-- 학습 목표: 원문 핵심: - **정의**: 소아 신증후군의 가장 흔한 원인으로, 광학 현미경 상 정상 소견을 보이는 신증후군 - **원인**: 특발성(대부분)이나 감염, 종양, 약물, 알레르기 등에 의해 이차적으로 발생 가능 - **기전**: 사구체 발세포(podocyte)의 발돌기 소실(foot process effacement) 및 슬릿 다이아프램(slit diaphragm) 기능 이상으로 인한 단백뇨 발생
+- 학습 목표: 전형적 소아 신증후군의 초기 생검 필요성
+
+## 검수 근거
+
+- https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf

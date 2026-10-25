@@ -19,15 +19,17 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
-review_status: machine-verified
+review_status: manual-reviewed
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
+medical_review_status: evidence-reviewed
+clinical_reviewed_at: 2026-10-25
 ---
 
 # MedQA US 임상문제
@@ -45,10 +47,16 @@ D. 밤에 청색광 노출 활동을 피하도록 권고
 
 ## 해설
 
-
-과도한 주간 졸림, 수면 발작, 카타플렉시가 동반된 기면증 치료에 모다피닐(도파민 재흡수 억제제)이 1차 약물이다. 따라서 도파민 재흡수 억제제 시작이 적절하다.
+충분히 자도 지속되는 주간 수면발작과 입면 시 꿈 같은 경험은 기면증을 시사한다. 제시된 약물 기전 중 도파민 재흡수 억제를 통해 각성을 촉진하는 모다피닐에 해당하는 선택을 원문 정답으로 유지한다. 그러나 탈력발작은 본문에 없으므로 있다고 설명하지 않는다. 17세에서는 전문 수면평가와 객관적 검사로 수면 부족·수면무호흡 등을 감별하고, 소아청소년에서의 조건부 근거와 허가·안전성을 따로 검토해야 한다. 이미 졸음운전 사고가 있으므로 운전 등 위험 활동을 피하도록 해야 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001681
+
+## 검수 근거
+
+- 검수일: 2026-10-25
+- 범위: 영문 eligible.jsonl 동일 ID와 한국어 본문·선지·정답·해설 대조. 원문에 없는 탈력발작을 삭제. 기면증 의심·객관적 감별검사·운전 위험 및 소아청소년 약제 판단을 구별하며 도파민 재흡수 억제 원정답 유지.
+- 의학 검수 수준: evidence-reviewed (아래 출처의 명시된 주장에 한정).
+- https://aasm.org/wp-content/uploads/2022/03/Treatment_Central_Disorders_Hypersomnolence_Guideline_at_a_Glance.pdf
