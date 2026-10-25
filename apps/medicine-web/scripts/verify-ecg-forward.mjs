@@ -1,11 +1,12 @@
 import assert from "node:assert/strict";
 import { displayGeometry, edgeCurrent, visibleCurrents, recordingFrame, partSnapshot } from "../src/lib/ecg-forward-display.ts";
-import { DEFAULT_FORWARD_INPUTS, DEFAULT_PLACEMENT, createHeartMesh, simulateForwardEcg, measureForwardTrace, potentialWeights, electrodePosition, electrodeFromPosition, leadPreset, normalizeForwardInputs } from "../src/lib/ecg-forward-model.ts";
+import { DEFAULT_FORWARD_INPUTS, DEFAULT_PLACEMENT, DEFAULT_ELECTRODES, STANDARD_LEADS, FORWARD_SOURCE_GAIN, createHeartMesh, simulateForwardEcg, measureForwardTrace, measureStandardTraces, potentialWeights, electrodePosition, electrodeFromPosition, leadPreset, normalizeForwardInputs, projectScenePosition, pickSceneSurface } from "../src/lib/ecg-forward-model.ts";
 
 const close=(a,b,tolerance=1e-5)=>assert.ok(Math.abs(a-b)<tolerance,`${a} ≠ ${b}`);
 const maxDiff=(a,b)=>a.reduce((max,value,i)=>Math.max(max,Math.abs(value-b[i])),0);
 const normal=simulateForwardEcg(DEFAULT_FORWARD_INPUTS),trace=measureForwardTrace(normal,DEFAULT_PLACEMENT);
-assert.equal(normal.mesh.cells.length,456);
+assert.ok(normal.mesh.cells.length>=500);
+assert.equal(new Set(normal.mesh.cells.filter(c=>c.chamber==="LV"||c.chamber==="RV").map(c=>c.region)).size,9);
 assert.ok(normal.mesh.edges.length>normal.mesh.cells.length);
 assert.equal(normal.activation.ventricularCoverage,1,"Every ventricular region must activate in the reference model");
 assert.ok(normal.activation.atrialStart<normal.activation.ventricularStart);
@@ -57,13 +58,27 @@ assert.ok(uniform.values.every(v=>Math.abs(v)<1e-8));
 for(const electrode of [DEFAULT_PLACEMENT.positive,DEFAULT_PLACEMENT.negative,{longitude:145,latitude:25}]) {
   const roundtrip=electrodeFromPosition(electrodePosition(electrode));close(roundtrip.longitude,electrode.longitude);close(roundtrip.latitude,electrode.latitude);
 }
+for(const yaw of [0,45,90,180])for(const longitude of [-100,-45,0,45,100,180]) {
+  const point=electrodePosition({longitude,latitude:20}),projected=projectScenePosition(point,yaw);
+  if(!projected.front)continue;
+  const hit=pickSceneSurface(projected.x,projected.y,yaw);assert.ok(hit,"Visible surface must remain selectable, including tangencies");
+  const recovered=electrodePosition(hit);
+  assert.ok(Math.hypot(...point.map((v,i)=>v-recovered[i]))<1e-5,"SVG picking and 3-D electrode positions must agree");
+}
 
 // An isolated current-carrying edge has the analytical dipole potential.
 const small=createHeartMesh();small.cells=small.cells.slice(0,2);small.cells[0].position=[-1,0,0];small.cells[1].position=[1,0,0];small.edges=[{a:0,b:1,conductance:.05,source:true}];
 const along=potentialWeights(small,[100,0,0]),perpendicular=potentialWeights(small,[0,100,0]);
-close(along[0],300*.05*2/100**2,1e-12);close(along[1],-along[0],1e-12);close(perpendicular[0],0,1e-12);
+close(along[0],FORWARD_SOURCE_GAIN*.05*2/100**2,1e-12);close(along[1],-along[0],1e-12);close(perpendicular[0],0,1e-12);
 const far=potentialWeights(small,[200,0,0]);close(far[0],along[0]/4,1e-12);
 
+// Relative waveform guardrails, not a clinical QRS-duration measurement.
+const significantSpan=(recording,values)=>{
+  const a=recording.activation,segment=[...values].map((v,i)=>({v,t:i*recording.sampleMs})).filter(p=>p.t>=a.ventricularStart-10&&p.t<=a.ventricularEnd+30);
+  const peak=Math.max(...segment.map(p=>Math.abs(p.v))),active=segment.filter(p=>Math.abs(p.v)>.1*peak);
+  return active.at(-1).t-active[0].t;
+};
+const baselineV6Span=significantSpan(normal,measureStandardTraces(normal).V6.values);
 for(const condition of ["av-slow","rbb-block","lbb-block","rv-pacing"]) {
   const result=simulateForwardEcg({...DEFAULT_FORWARD_INPUTS,condition});
   assert.equal(result.activation.ventricularCoverage,1,`${condition}: remaining tissue paths conduct`);
@@ -72,6 +87,11 @@ for(const condition of ["av-slow","rbb-block","lbb-block","rv-pacing"]) {
   if(condition==="rbb-block")assert.ok(landmark(result,"RV Purkinje")>landmark(result,"LV Purkinje")+10);
   if(condition==="lbb-block")assert.ok(landmark(result,"LV Purkinje")>landmark(result,"RV Purkinje")+10);
   if(condition==="rv-pacing")assert.ok(result.activation.ventricularStart<result.activation.atrialStart);
+  const twelve=measureStandardTraces(result);
+  for(const lead of STANDARD_LEADS)assert.ok(twelve[lead].values.every(Number.isFinite),`${condition}/${lead}: finite measured waveform`);
+  if(condition==="rbb-block"||condition==="lbb-block"||condition==="rv-pacing")assert.ok(result.activation.ventricularEnd-result.activation.ventricularStart>normal.activation.ventricularEnd-normal.activation.ventricularStart+40,"Ventricular activation must broaden with bundle interruption or RV pacing");
+  if(condition==="lbb-block")assert.ok(significantSpan(result,twelve.V6.values)>baselineV6Span+40,"LBB interruption must broaden the measured lateral waveform, not merely delay a narrow peak");
+  if(condition==="rbb-block")assert.ok(twelve.V1.values.some((v,i)=>i*result.sampleMs>result.activation.ventricularStart+80&&i*result.sampleMs<result.activation.ventricularEnd+30&&v>.03),"RBB interruption must produce a delayed right-precordial positive contribution");
 }
 const longRecovery=simulateForwardEcg({...DEFAULT_FORWARD_INPUTS,recovery:135});
 const lv=normal.mesh.cells.findIndex((cell,i)=>cell.chamber==="LV"&&normal.recoveryMs[i]>0);
@@ -83,4 +103,45 @@ for(const rate of [50,110])for(const recovery of [70,135]){
   assert.ok(measureForwardTrace(recording,DEFAULT_PLACEMENT).values.every(Number.isFinite));
 }
 assert.deepEqual(normalizeForwardInputs({rate:NaN,recovery:Infinity,condition:"unknown"}),DEFAULT_FORWARD_INPUTS);
-console.log("Forward ECG passed: tissue propagation, branch/AV changes, recovery, electrode reversal/coincidence, Einthoven identity, dipole direction/distance, fixed source scale and numerical bounds.");
+
+// Every standard lead uses the same cardiac solution. These are electrical
+// identities, including after moving a limb electrode, not visual templates.
+for(const electrodes of [DEFAULT_ELECTRODES,{...DEFAULT_ELECTRODES,RA:{longitude:-110,latitude:25}}]) {
+  const leads=measureStandardTraces(normal,electrodes);
+  assert.equal(Object.keys(leads).length,12);
+  for(let i=0;i<normal.samples;i++) {
+    close(leads.II.values[i],leads.I.values[i]+leads.III.values[i]);
+    close(leads.aVR.values[i],-(leads.I.values[i]+leads.II.values[i])/2);
+    close(leads.aVL.values[i],leads.I.values[i]-leads.II.values[i]/2);
+    close(leads.aVF.values[i],leads.II.values[i]-leads.I.values[i]/2);
+    close(leads.aVR.values[i]+leads.aVL.values[i]+leads.aVF.values[i],0);
+    for(const lead of STANDARD_LEADS) assert.ok(Number.isFinite(leads[lead].values[i]));
+  }
+}
+const leads=measureStandardTraces(normal);
+for(const lead of STANDARD_LEADS){const full=measureForwardTrace(normal,leadPreset(lead));for(let i=0;i<normal.samples;i++)close(leads[lead].values[i],full.values[i],1e-6);}
+const extrema=(values,start,end)=>{
+  const segment=values.subarray(Math.max(0,Math.floor(start/normal.sampleMs)),Math.min(values.length,Math.ceil(end/normal.sampleMs)+1));
+  return {positive:Math.max(0,...segment),negative:Math.abs(Math.min(0,...segment))};
+};
+const a=normal.activation,ventricularRecovery=Math.max(...normal.mesh.cells.flatMap((cell,i)=>cell.chamber==="LV"||cell.chamber==="RV"?[normal.recoveryMs[i]]:[]));
+const quality=Object.fromEntries(STANDARD_LEADS.map(lead=>[lead,{
+  p:extrema(leads[lead].values,a.atrialStart-10,a.ventricularStart-20),
+  qrs:extrema(leads[lead].values,a.ventricularStart-10,a.ventricularEnd+30),
+  t:extrema(leads[lead].values,a.ventricularEnd+80,ventricularRecovery+50),
+}]));
+for(const lead of ["I","II","aVF","V4","V5","V6"]) {
+  assert.ok(quality[lead].qrs.positive>quality[lead].qrs.negative,`${lead}: dominant R in the reference model`);
+  assert.ok(quality[lead].t.positive>quality[lead].t.negative,`${lead}: concordant T in the reference model`);
+}
+assert.ok(quality.II.p.positive>quality.II.p.negative);
+assert.ok(quality.aVR.p.negative>quality.aVR.p.positive);
+assert.ok(quality.aVR.qrs.negative>quality.aVR.qrs.positive);
+assert.ok(quality.V1.qrs.negative>quality.V1.qrs.positive&&quality.V6.qrs.positive>quality.V6.qrs.negative);
+assert.ok(quality.V1.qrs.positive>quality.V1.qrs.negative*.1,"Septal activation must leave a visible initial r, not a pure QS reference waveform");
+for(const lead of ["V2","V3"])assert.ok(quality[lead].t.positive>quality[lead].t.negative,"Anterior recovery must not simply copy the dominant negative QRS direction");
+assert.ok(quality.V1.qrs.positive/quality.V1.qrs.negative<quality.V4.qrs.positive/quality.V4.qrs.negative);
+assert.ok(a.ventricularStart-a.atrialStart>=120&&a.ventricularStart-a.atrialStart<=200,"Reference atrial-to-ventricular activation delay");
+assert.ok(a.ventricularEnd-a.ventricularStart>=40&&a.ventricularEnd-a.ventricularStart<=100,"Reference transmural activation spread");
+assert.ok(quality.II.p.positive<quality.II.qrs.positive*.35,"P must be smaller than the main ventricular deflection");
+console.log("Forward ECG passed: 12-lead identities, reference polarity/R-wave progression/P–QRS–T separation, tissue propagation, BBB/AV changes, recovery, electrode movement and numerical bounds.");

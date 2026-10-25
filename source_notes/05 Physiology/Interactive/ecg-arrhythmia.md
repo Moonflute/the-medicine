@@ -1,6 +1,6 @@
 # ECG and arrhythmias
 검토 기준일: 2026-10-25
-- 기본 화면인 전기생리 모델은 심근 구역의 막전위·회복과 구역 사이 전류를 수치 적분하고, 이동한 전극의 위치에서 전위차를 계산합니다. 상대 전압 a.u.를 사용하며 실제 임상 mV로 보정하지 않았습니다.
+- 기본 화면인 전기생리 모델은 심근 구역의 막전위·회복과 구역 사이 전류를 수치 적분하고, I·II·III·aVR·aVL·aVF·V1–V6를 같은 심장 상태에서 계산합니다. 상대 전압 a.u.를 사용하며 실제 임상 mV로 보정하지 않았습니다.
 - 별도의 리듬 판독 모드는 기존 Lead II 유사 합성 파형입니다. 이 모드의 가로 큰 칸 0.2 s·세로 큰 칸 0.5 mV 표기는 파형 학습용이며, 화면의 물리적 25 mm/s 용지를 의미하지 않습니다. 아래 Sinus rhythm–VT 노트의 고정 PR·QRS 수치는 이 합성 모드에만 해당합니다.
 - 두 모드 모두 진단·치료 판단에 사용할 수 없습니다. ST·QT morphology, 12-lead 진단, Ischemia 진단을 검증한 모델이 아니며 QRS가 있다고 실제 맥박·관류가 보장되지는 않습니다.
 
@@ -11,7 +11,9 @@
 - 화면의 RA·LA·RV·LV, Septum, Apex는 위치를 이해하기 위한 전면 개념 절개도입니다. 뒤쪽의 LA도 펼쳐 그렸으며 환자 영상이나 실제 조직 경계는 아닙니다. 갈색 선은 계산에 쓰인 전도 연결이고, Atrial myocardium에서는 주변 구역 사이의 연결망으로 흥분이 퍼집니다.
 - 초록 화살표는 같은 결합 전류 g·(vi−vj)의 부호와 크기를 표시합니다. 차단된 연결에는 붉은 점선과 ×가 나타나며 전류 화살표는 그리지 않습니다. 깊이가 겹치거나 가까운 심근 연결은 큰 실제 전류를 대표로 골라 최대 40개까지 표시합니다. 혈류·입자 이동 속도·흉곽 전체의 전류 유선을 뜻하지 않습니다.
 - 벽의 색은 같은 전면 좌표로 투영된 구역들의 최대 Vm입니다. 주황은 흥분, 보라는 막전위가 내려가는 회복, 옅은 벽색은 낮은 Vm이며 산소포화도를 뜻하지 않습니다. 구조 이름을 누르면 해당 계산 구역과 첫 활성 시각을 확인할 수 있습니다.
-- 심근은 0.7 cm 간격의 축약 3D 구역으로 구성하고, SA·AV·His·Bundle branches·Purkinje에 대응하는 전도 연결을 추가합니다. 총 456개 구역은 실제 세포 456개가 아니라 각각 많은 세포를 대표하는 계산 단위입니다. 외부에서 주기적으로 주는 SA 자극을 사용하므로 SA node 자동능의 개별 이온 통로는 재현하지 않습니다.
+- 심근은 RA·LA 구역과 9개 Ventricular 구역으로 나눕니다. 각 Ventricular 구역에는 Endocardium에서 Epicardium으로 이어지는 12개 층과 가로 연결이 있고 Purkinje junction이 Endocardial 구역을 자극합니다. Septal·Apical·Lateral·Anterior·Posterior·Basal 구역의 방향과 유효 단면적이 다르며, 구역 경계에서는 단면적이 줄어드는 형태로 근사합니다. 단면적과 층 간격은 Capacitance와 결합도에 함께 반영합니다.
+- 총 1,137개 계산 구역은 각각 많은 세포를 대표합니다. SA·AV·His·Bundle branches·Purkinje에 대응하는 전도 연결을 포함합니다. 외부의 주기적 자극은 짧은 자극 Conductance로 Vm을 1 쪽으로 유도하며 SA node 자동능의 이온 통로는 재현하지 않습니다. RV 자극은 작은 RV Endocardial 구역에 같은 원리로 적용합니다.
+- Epicardial 쪽은 Endocardial 쪽보다 Action potential duration이 짧고, Ventricular 부위별 회복에도 차이를 둡니다. Transmural gradient는 Posterior 구역에서 더 작게 설정해 모든 부위가 같은 방향·시각으로 회복되지 않게 합니다. 이 차이가 Depolarization과 다른 Repolarization의 전위 기울기를 만들며 T wave에 기여합니다. 파형의 높이·부호·폭을 유도마다 별도 함수로 정하지 않습니다.
 - 적분 간격은 0.1 ms, 화면에 저장하는 간격은 2 ms입니다. 시작 상태의 영향을 줄이기 위해 2회 선행 자극 후 2.4초 기록을 만듭니다. 입력을 바꾸면 새 기록을 계산하며 전극만 옮기면 저장된 동일 막전위에서 측정 전위만 다시 구합니다.
 ### 증상·검사 소견
 - 실제 ECG는 하나의 세포 Action potential이 아니라 여러 위치의 전기활동을 멀리서 합성한 신호입니다. 전체 심근이 비슷한 막전위를 유지하는 때에는 많은 구역이 depolarized 상태여도 전위 기울기는 작아질 수 있습니다.
@@ -28,7 +30,8 @@
 ### 기전
 - 심근 연결마다 전류 크기와 연결 방향을 가진 작은 current dipole을 만듭니다. 각 전극에서 구하는 전위는 이 dipole과 전극 방향 벡터의 내적을 거리의 세제곱으로 나눈 기여들을 합한 값입니다. 하나의 평균 벡터만으로 모든 파형을 대체하지 않습니다.
 - Bipolar 측정값은 φ(+)−φ(−)입니다. 같은 두 위치의 극성을 바꾸면 부호가 반전되고, 두 전극을 같은 위치에 두면 전위차는 0입니다. Lead I·II·III 예시는 각각 LA−RA, LL−RA, LL−LA를 사용합니다.
-- Wilson central terminal 모드에서는 이동 가능한 + 전극의 전위에서 고정된 RA·LA·LL 전위의 평균을 뺍니다. 이 기준 전위도 시간에 따라 변하므로 항상 0인 가상 접지로 취급하지 않습니다. V1–V6는 이 기준을 사용하는 위치 예시입니다.
+- Augmented limb lead는 aVR = RA−(LA+LL)/2, aVL = LA−(RA+LL)/2, aVF = LL−(RA+LA)/2로 계산합니다. I·II·III와 같은 세 Limb electrode의 전위를 사용하며 별도 파형을 합성하지 않습니다.
+- V1–V6는 각 Chest electrode 전위에서 Wilson central terminal인 (RA+LA+LL)/3을 뺍니다. 기준 전위도 시간에 따라 변하므로 항상 0인 가상 접지로 취급하지 않습니다. RA·LA·LL을 이동하면 이 전극이 기준에 포함된 다른 유도도 다시 계산합니다. RL 접지의 접촉·장비 회로는 포함하지 않습니다.
 - 흉곽은 전극 위치를 정하기 위한 타원체 표면입니다. 전기장은 균질·무한 volume conductor로 근사하며, 이 타원체의 경계조건을 푼 torso FEM/BEM 해석은 아닙니다. Lung·blood·bone의 서로 다른 전도도, 전극 접촉 저항·잡음·증폭기 회로는 포함하지 않습니다.
 ### 증상·검사 소견
 - 전극 위치가 달라지면 같은 심장에서도 관찰되는 크기와 부호가 달라집니다. 이 모델의 파형 변화는 새로운 질환이 발생했다는 뜻이 아니라 측정 위치가 달라진 결과일 수 있습니다.
@@ -36,18 +39,20 @@
 ### 관찰과 해석
 - 초록 실선은 모든 심근 연결의 기여를 합친 전위차입니다. 주황 점선은 심장 중심의 Lead field와 합성 dipole을 내적한 근사이며, 두 선이 항상 일치해야 하는 것은 아닙니다. 표시되는 각도는 이 중심 근사의 3D 각도입니다.
 - 전압 배율은 모든 위치와 조건에서 고정합니다. 전극 이동 때 파형을 자동으로 같은 높이로 늘리지 않으므로 실제 계산 크기의 변화를 비교할 수 있습니다. 화면 감도만 바꾸면 그림 크기는 바뀌지만 원래 전위차 수치는 유지됩니다.
-- 흉곽을 클릭하거나 전극을 드래그하고, 앞·옆·뒤 보기와 숫자 입력으로 3D 표면을 탐색합니다. 위치 예시는 늑간·Clavicle 등 실제 전극 부착의 해부학적 기준을 표시한 도해가 아니며, 환자의 전극 부착 교육을 대신하지 않습니다.
+- 왼쪽은 확대 심장 절개도와 전극 지도를 합친 화면이고 오른쪽은 같은 시간축·감도의 12유도입니다. 기본 시간축은 한 박동이며 전체 2.4초로 바꿀 수 있습니다. 유도를 선택하고 확대하면 한 파형을 오른쪽 전체 높이로 확인합니다. P·QRS·T 배경은 계산된 활성·회복에 대응하는 관찰 구간이며 임상 자동 판독 결과는 아닙니다.
+- 흉곽을 클릭하거나 전극을 드래그하고, 앞·옆·뒤 보기와 각도 조절로 3D 표면을 탐색합니다. 심장 그림은 구조를 읽기 위해 별도로 확대했으며 계산 좌표의 거리는 바뀌지 않습니다. 전극 위치 예시는 실제 늑간·Clavicle에 따른 부착 도해가 아닙니다. RA↔LA 위치 교환으로 Lead reversal의 영향을 비교할 수 있습니다.
 ### 관련 자료
 - [심근 전기활동 계산](/interactive/ecg-arrhythmia/notes#forward-model)
 
 ## forward-conduction | 전도 연결·자극 위치·Repolarization 비교
 ### 기전
 - AV 전도 저하에서는 AV 연결부의 결합도를 기준의 52%로 낮춥니다. AV 구역의 흥분이 이웃에 전달되는 시간이 달라지며, 심실 활성 시각을 직접 뒤로 옮기는 방식은 아닙니다.
-- RBB 또는 LBB 연결 차단에서는 His에서 해당 branch로 가는 한 연결의 결합도를 0으로 만듭니다. 반대쪽 branch와 남아 있는 심근 연결을 통해 해당 Ventricular 구역이 뒤늦게 활성될 수 있습니다. 차단 아래쪽 branch가 역방향으로 활성되는 것도 가능합니다.
+- RBB 또는 LBB 연결 차단에서는 His에서 해당 branch로 가는 연결의 결합도를 0으로 만들고, 같은 branch의 Distal 결합도는 0.12에서 0.065로 낮춥니다. 단일 Proximal cut만이 아니라 해당 branch의 분산된 전도 저하를 함께 가정한 교육용 조건입니다. 반대쪽 branch와 남은 Septal myocardial 경로로 해당 Ventricular 구역이 늦게 활성되고, 차단 아래쪽 branch도 역방향으로 활성될 수 있습니다. 이를 특정 환자의 병변 위치·중증도와 대응시키지 않습니다.
 - RV 자극은 SA 자극 대신 RV 구역에 전류를 줍니다. 이 모델의 연결은 양방향이므로 Ventricles에서 시작한 활성은 His·AV를 거쳐 Atria로 전달될 수 있습니다. 실제 기기의 pacing spike·전극 접촉·설정 회로는 구현하지 않았습니다.
 - Ventricular 회복 시상수는 회복 gate의 닫힘 속도를 바꿉니다. 구역별 기본 시상수에는 공간적 차이를 두어 repolarization의 전위 기울기가 생기도록 했습니다. 별도 T wave를 더하지 않으므로 repolarization과 다음 자극에 대한 반응이 같은 식의 결과로 연결됩니다.
 ### 증상·검사 소견
 - 실제 전도 장애나 pacing에서는 Ventricular 활성 순서가 달라져 QRS·ST-T가 달라질 수 있습니다. 그러나 이 축약 geometry가 만든 파형에 전형적인 RBBB·LBBB 진단 기준을 적용할 수는 없습니다.
+- 기준 전도에서는 초기 Septal r과 V1–V6의 우세 방향 변화, Anterior T wave를 확인합니다. 차단 조건에서는 지연된 Right precordial 기여와 넓어진 Lateral 파형을 비교하지만 임상적인 Notching·ST-T discordance·절대 전압까지 검증한 것은 아닙니다.
 - 회복이 늦어지는 조건은 repolarization과 자극 반응의 변화를 관찰하기 위한 것입니다. QTc·약물 효과·전해질 농도·Torsades de pointes 위험을 정량적으로 예측하는 기능은 아닙니다.
 ### 관찰과 해석
 - 기준 전도를 비교 저장한 뒤 같은 전극 위치에서 branch를 차단하세요. 활성 지연이 실제로 생긴 구역과 전위차를 함께 비교하고, 단지 파형이 넓어 보인다는 이유로 임상 진단명을 붙이지 않습니다.
@@ -158,6 +163,8 @@
 - [Ventricular tachycardia](disease:심실 빈맥 (Ventricular Tachycardia))
 
 ## 출처
+- [AHA/ACCF/HRS — ECG standardization, Part III: Intraventricular conduction disturbances (2009)](https://pubmed.ncbi.nlm.nih.gov/19281930/)
+- [Whole-heart model — APD gradients and T-wave concordance (2016)](https://pubmed.ncbi.nlm.nih.gov/27034121/)
 - [NHLBI — How the heart beats: cardiac conduction system](https://www.nhlbi.nih.gov/health/heart/heart-beats)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 6: The Heart](https://www.bem.fi/book/06/06.htm)
 - [Mitchell & Schaeffer — A two-current model for the dynamics of cardiac membrane (2003)](https://pubmed.ncbi.nlm.nih.gov/12909250/)

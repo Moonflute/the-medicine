@@ -59,9 +59,9 @@ export function visibleCurrents(recording: ForwardRecording, groups: number[][],
   }).filter(item => Math.abs(item.value) >= .0015)
     .sort((a, b) => Number(a.edge.source) - Number(b.edge.source) || Math.abs(b.value) - Math.abs(a.value))
     .filter(item => {
-      if (!item.edge.source) return true;
       const a = heartPoint(recording.mesh.cells[item.edge.a].position), b = heartPoint(recording.mesh.cells[item.edge.b].position);
-      const tile = `${Math.floor((a.x + b.x) / 64)}:${Math.floor((a.y + b.y) / 64)}`;
+      const spacing=item.edge.source?48:28;
+      const tile = `${item.edge.source?"muscle":"path"}:${Math.floor((a.x + b.x) / spacing)}:${Math.floor((a.y + b.y) / spacing)}`;
       if (occupied.has(tile)) return false;
       occupied.add(tile); return true;
     })
@@ -72,6 +72,7 @@ export function partCellIndices(mesh: HeartMesh, part: HeartPart) {
   const landmark = mesh.landmarks.find(item => item.label === part);
   return landmark ? [landmark.index] : mesh.cells.flatMap((cell, index) => cell.chamber === part ? [index] : []);
 }
+
 
 export function partSnapshot(recording: ForwardRecording, part: HeartPart, frame: number) {
   const indices = partCellIndices(recording.mesh, part), offset = frame * recording.mesh.cells.length;

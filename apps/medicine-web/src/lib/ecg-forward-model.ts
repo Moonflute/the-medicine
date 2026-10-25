@@ -10,7 +10,7 @@ export type Vec3 = readonly [number, number, number];
 export type Chamber = "RA" | "LA" | "RV" | "LV" | "node";
 export type ConductionCondition = "normal" | "av-slow" | "rbb-block" | "lbb-block" | "rv-pacing";
 export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number };
-export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number };
+export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number };
 export type TissueEdge = { a: number; b: number; conductance: number; source: boolean; branch?: "RBB" | "LBB" | "AV" };
 export type HeartMesh = { cells: TissueCell[]; edges: TissueEdge[]; landmarks: { label: string; index: number }[]; sinus: number; pacing: number };
 export type ForwardRecording = {
@@ -20,7 +20,12 @@ export type ForwardRecording = {
   activation: { atrialStart: number | null; ventricularStart: number | null; ventricularEnd: number | null; ventricularCoverage: number };
 };
 export type Electrode = { longitude: number; latitude: number };
-export type LeadPlacement = { positive: Electrode; negative: Electrode; reference: "bipolar" | "wilson" };
+export type LimbElectrodeId = "RA" | "LA" | "LL";
+export type ElectrodeId = LimbElectrodeId | "V1" | "V2" | "V3" | "V4" | "V5" | "V6";
+export type ElectrodeMap = Record<ElectrodeId, Electrode>;
+export type LeadPlacement = { positive: Electrode; negative: Electrode; reference: "bipolar" | "wilson" | "augmented-ra" | "augmented-la" | "augmented-ll"; limbs?: Record<LimbElectrodeId, Electrode> };
+export const STANDARD_LEADS = ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"] as const;
+export type StandardLead = typeof STANDARD_LEADS[number];
 export type ForwardTrace = { values: Float32Array; positive: Float32Array; reference: Float32Array; approximate: Float32Array; peak: number };
 export const DEFAULT_FORWARD_INPUTS: ForwardInputs = { rate: 70, condition: "normal", recovery: 100 };
 export const DEFAULT_PLACEMENT: LeadPlacement = {
@@ -31,21 +36,26 @@ export const TORSO_RADII: Vec3 = [16, 26, 10];
 export const LIMB_ELECTRODES: Record<"RA" | "LA" | "LL", Electrode> = {
   RA: { longitude: -64, latitude: 37 }, LA: { longitude: 64, latitude: 37 }, LL: { longitude: 48, latitude: -42 },
 };
+export const ELECTRODE_IDS: ElectrodeId[] = ["RA", "LA", "LL", "V1", "V2", "V3", "V4", "V5", "V6"];
+export const DEFAULT_ELECTRODES: ElectrodeMap = {
+  ...LIMB_ELECTRODES,
+  V1:{longitude:-9,latitude:16}, V2:{longitude:9,latitude:16}, V3:{longitude:23,latitude:10},
+  V4:{longitude:28,latitude:7}, V5:{longitude:48,latitude:7}, V6:{longitude:75,latitude:7},
+};
 export const FORWARD_CONDITIONS: { id: ConductionCondition; label: string; explanation: string }[] = [
   { id: "normal", label: "기준 전도", explanation: "SA 자극이 Atria → AV 연결부 → His–Purkinje → Ventricles로 퍼집니다. 각 구역의 활성 시각은 계산 결과입니다." },
   { id: "av-slow", label: "AV 전도 저하", explanation: "AV 연결부의 결합도를 낮춥니다. 심실 활성 지연·실패 여부는 조직 계산으로 결정되며, 임상적 AV block 등급을 재현한 프리셋은 아닙니다." },
-  { id: "rbb-block", label: "RBB 연결 차단", explanation: "His에서 RBB로 가는 연결을 끕니다. RV는 남아 있는 심근 연결을 통해 늦게 활성될 수 있습니다. 전형적인 RBBB morphology를 보장하지 않습니다." },
-  { id: "lbb-block", label: "LBB 연결 차단", explanation: "His에서 LBB로 가는 연결을 끕니다. LV의 활성 순서와 전위차가 어떻게 달라지는지 비교합니다. 진단용 LBBB 모델은 아닙니다." },
+  { id: "rbb-block", label: "RBB 연결 차단", explanation: "His–RBB 연결을 끄고 해당 branch의 Distal 결합도도 낮춥니다. 남은 심근 경로를 통한 RV의 지연 활성과 후반 전위차를 비교합니다. 진단용 RBBB 모델은 아닙니다." },
+  { id: "lbb-block", label: "LBB 연결 차단", explanation: "His–LBB 연결을 끄고 해당 branch의 Distal 결합도도 낮춥니다. LV의 활성 분산과 넓어진 Lateral lead 파형을 비교합니다. 진단용 LBBB 모델은 아닙니다." },
   { id: "rv-pacing", label: "RV 자극", explanation: "SA 대신 RV의 작은 구역에 자극 전류를 줍니다. 달라진 시작점에서 실제로 전파를 계산하며, pacing spike나 기기 회로는 포함하지 않습니다." },
 ];
 
-const SPACING = .7;
 const DT_MS = .1;
 const SAMPLE_MS = 2;
 // A single fixed scale for every electrode and scenario; never normalize each lead.
-const SOURCE_GAIN = 300;
+export const FORWARD_SOURCE_GAIN = 1500;
+const SOURCE_GAIN = FORWARD_SOURCE_GAIN;
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v));
-const distance2 = (a: Vec3, b: Vec3) => (a[0]-b[0])**2+(a[1]-b[1])**2+(a[2]-b[2])**2;
 export const dot3 = (a: Vec3, b: Vec3) => a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
 
 export function normalizeForwardInputs(inputs: ForwardInputs): ForwardInputs {
@@ -66,88 +76,127 @@ export function electrodeFromPosition(position: Vec3): Electrode {
   return { longitude: Math.atan2(position[0]/16, position[2]/10)*180/Math.PI, latitude: Math.asin(clamp(position[1]/26,-1,1))*180/Math.PI };
 }
 
-/** Regular voxel adjacency, with no myocardial shortcut across the AV plane. */
+/** Torso coordinates are separate from the enlarged anatomical cutaway. */
+export function projectScenePosition(point:Vec3,yaw:number) {
+  const angle=yaw*Math.PI/180,c=Math.cos(angle),s=Math.sin(angle);
+  return {x:310+14*(point[0]*c+point[2]*s),y:300-8.8*point[1],z:-point[0]*s+point[2]*c,front:-point[0]*s/TORSO_RADII[0]**2+point[2]*c/TORSO_RADII[2]**2>=-1e-10};
+}
+
+export function pickSceneSurface(x:number,y:number,yaw:number):Electrode|null {
+  const screenX=(x-310)/14,worldY=(300-y)/8.8,angle=yaw*Math.PI/180;
+  const c=Math.cos(angle),s=Math.sin(angle),[rx,ry,rz]=TORSO_RADII;
+  const a=s*s/(rx*rx)+c*c/(rz*rz),b=2*screenX*c*s*(1/(rz*rz)-1/(rx*rx));
+  const q=screenX*screenX*(c*c/(rx*rx)+s*s/(rz*rz))+worldY*worldY/(ry*ry)-1;
+  const discriminant=b*b-4*a*q;if(discriminant<-1e-10)return null;
+  const depth=(-b+Math.sqrt(Math.max(0,discriminant)))/(2*a);
+  return electrodeFromPosition([c*screenX-s*depth,worldY,s*screenX+c*depth]);
+}
+
+/** Coarse 3-D myocardial patches. Each ventricular patch has endocardial
+ * Purkinje junctions, twelve transmural layers and lateral tissue connections.
+ * Patch area scales BOTH capacitance and coupling, preserving propagation speed
+ * while representing atrial/ventricular mass. No ECG waveform is prescribed. */
 export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUTS): HeartMesh {
   const inputs = normalizeForwardInputs(rawInputs);
   const cells: TissueCell[] = [], edges: TissueEdge[] = [], landmarks: HeartMesh["landmarks"] = [];
-  const voxels = new Map<string, number>();
-  const shapes: { chamber: Chamber; center: Vec3; radii: Vec3; inner: number }[] = [
-    { chamber: "LV", center: [1.5,-1.3,-.2], radii: [2.4,3.8,2.2], inner: .48 },
-    { chamber: "RV", center: [-1.6,-.7,.8], radii: [2.1,3.1,1.8], inner: .55 },
-    { chamber: "RA", center: [-2.1,3.6,.5], radii: [1.8,1.9,1.5], inner: .4 },
-    { chamber: "LA", center: [1.5,3.7,-.7], radii: [1.9,1.7,1.5], inner: .4 },
-  ];
-  for (let iz=-4; iz<=4; iz++) for (let iy=-8; iy<=8; iy++) for (let ix=-6; ix<=6; ix++) {
-    const local: Vec3 = [ix*SPACING,iy*SPACING,iz*SPACING];
-    const shape = shapes.find(s => {
-      const r2 = local.reduce((sum,v,k) => sum+((v-s.center[k])/s.radii[k])**2,0);
-      return r2 <= 1 && r2 >= s.inner**2;
-    });
-    if (!shape) continue;
-    const atrial = shape.chamber === "RA" || shape.chamber === "LA";
-    // Heterogeneous recovery is part of the membrane equation, not a T-wave template.
-    const relativeRadius = Math.sqrt(local.reduce((sum,v,k) => sum+((v-shape.center[k])/shape.radii[k])**2,0));
-    const tauClose = atrial ? 72 : (132 - 38*relativeRadius + 2*local[1]) * inputs.recovery / 100;
-    voxels.set(`${ix},${iy},${iz}`, cells.length);
-    cells.push({ position: [local[0]+1,local[1]+4,local[2]], chamber: shape.chamber, tauIn: .3, tauOut: 6, tauClose, capacity: 1 });
-  }
-  for (const [key,a] of voxels) {
-    const xyz = key.split(",").map(Number);
-    for (let axis=0;axis<3;axis++) {
-      const neighbour = xyz.slice(); neighbour[axis]++;
-      const b=voxels.get(neighbour.join(","));
-      if (b === undefined) continue;
-      const aAtrial = cells[a].chamber === "RA" || cells[a].chamber === "LA";
-      const bAtrial = cells[b].chamber === "RA" || cells[b].chamber === "LA";
-      if (aAtrial !== bAtrial) continue;
-      // Mild longitudinal anisotropy; illustrative, not a measured fibre field.
-      edges.push({ a,b,conductance: axis===1 ? .045 : .03, source:true });
+  const unit = (v: Vec3): Vec3 => { const length=Math.hypot(...v); return v.map(x=>x/length) as unknown as Vec3; };
+  const cross = (a: Vec3,b: Vec3): Vec3 => [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+  const patches = new Map<string,number[][]>();
+  const patch = (id:string,chamber:Chamber,origin:Vec3,direction:Vec3,depth:number,area:number,apd:number,atrial=false) => {
+    const layers=atrial?17:12,side=atrial?2:3,normal=unit(direction),resolution=(layers-1)/(atrial?8:5);
+    const tangent=unit(cross(normal,Math.abs(normal[2])<.85?[0,0,1]:[0,1,0])),other=cross(normal,tangent);
+    const columns:number[][]=[];
+    for(let row=0;row<side;row++) for(let col=0;col<side;col++) {
+      const column:number[]=[];
+      for(let layer=0;layer<layers;layer++) {
+        const fraction=layer/(layers-1);
+        // Finite myocardial bundles taper at their boundaries. A constant-area
+        // rectangular slab produces an unrealistically flat depolarization pulse.
+        const section=atrial?.45+.55*Math.sin(Math.PI*fraction):.16+.84*Math.sin(Math.PI*fraction)**2;
+        const u=(col-(side-1)/2)*.28*Math.sqrt(section),v=(row-(side-1)/2)*.28*Math.sqrt(section);
+        const position=origin.map((p,d)=>p+normal[d]*depth*fraction+tangent[d]*u+other[d]*v) as unknown as Vec3;
+        const index=cells.length;
+        // Regional transmural APD gradients let recovery have a different
+        // spatial direction from activation, rather than copying QRS polarity.
+        const transmuralGradient=id==="lv-posterior"?20:50;
+        const tauClose=atrial?70:(apd-transmuralGradient*fraction+row*2+col)*inputs.recovery/100;
+        cells.push({position,chamber,tauIn:.3,tauOut:atrial?6:9,tauClose,capacity:area*section/resolution,region:id,transmural:atrial?undefined:fraction});
+        column.push(index);
+        const tissueEdge=(a:number,g:number)=>edges.push({a,b:index,conductance:g*2*cells[a].capacity*cells[index].capacity/(cells[a].capacity+cells[index].capacity),source:true});
+        if(layer)tissueEdge(column[layer-1],(atrial?.035:id==="lv-septal"?.026:.018)*resolution**2);
+        if(col)tissueEdge(columns[columns.length-1][layer],.012);
+        if(row)tissueEdge(columns[columns.length-side][layer],.012);
+      }
+      columns.push(column);
     }
-  }
-  const closest = (point: Vec3, chamber: Chamber, count=1) => cells
-    .map((cell,index) => ({ cell,index }))
-    .filter(({cell}) => cell.chamber===chamber)
-    .sort((a,b) => distance2(a.cell.position,point)-distance2(b.cell.position,point))
-    .slice(0,count).map(({index})=>index);
-  const node = (position: Vec3, label?: string, slow=false) => {
+    patches.set(id,columns); return columns;
+  };
+  const ra=patch("ra-wall","RA",[-2.0,9.0,.9],[.45,-1,-.05],2.4,.28,70,true);
+  const la=patch("la-wall","LA",[.8,8.6,-.5],[.8,-.65,-.65],2.4,.27,70,true);
+  const ventricular = [
+    {id:"lv-septal",chamber:"LV",origin:[.65,3.55,.1],normal:[-.9,-.05,.6],depth:.85,area:1.2,apd:150,level:0},
+    {id:"lv-apical",chamber:"LV",origin:[1.55,.9,-.15],normal:[.55,-.8,.05],depth:1.35,area:1.25,apd:142,level:1},
+    {id:"lv-lateral",chamber:"LV",origin:[2.05,2.7,-.15],normal:[.9,-.4,-.15],depth:1.3,area:1.8,apd:151,level:2},
+    {id:"lv-anterior",chamber:"LV",origin:[1.45,3.15,.6],normal:[.5,-.5,.8],depth:1,area:.7,apd:145,level:2},
+    {id:"lv-posterior",chamber:"LV",origin:[1.75,2.7,-.7],normal:[.5,-.5,-.85],depth:1.15,area:1.1,apd:158,level:2},
+    {id:"lv-basal",chamber:"LV",origin:[1.7,4.2,-.2],normal:[.2,.9,-.2],depth:1,area:.4,apd:160,level:3},
+    {id:"rv-anterior",chamber:"RV",origin:[-.25,3.1,.75],normal:[-.6,-.3,.75],depth:.65,area:.5,apd:142,level:2},
+    {id:"rv-apical",chamber:"RV",origin:[-.5,1.3,.8],normal:[-.6,-.7,.3],depth:.65,area:.4,apd:136,level:1},
+    {id:"rv-basal",chamber:"RV",origin:[-.7,4.1,.8],normal:[-.7,.55,.4],depth:.6,area:.25,apd:151,level:3},
+  ] as const;
+  for(const region of ventricular) patch(region.id,region.chamber,region.origin,region.normal,region.depth,region.area,region.apd);
+  const node = (position: Vec3, label?: string, slow=false, capacity=2, ventricular=false) => {
     const index=cells.length;
-    cells.push({ position, chamber:"node", tauIn:slow?1.2:.15, tauOut:slow?15:6, tauClose:100, capacity:1 });
+    cells.push({ position, chamber:"node", tauIn:slow?1.2:ventricular?.3:.12, tauOut:slow?15:6, tauClose:ventricular?175*inputs.recovery/100:100, capacity:slow?1:capacity,region:"conduction" });
     if(label) landmarks.push({label,index});
     return index;
   };
   const connect = (a:number,b:number,conductance:number,branch?:TissueEdge["branch"]) => edges.push({a,b,conductance,source:false,branch});
-  const sinus = node([-1.7,9.2,1.1],"SA node");
-  for (const target of closest(cells[sinus].position,"RA",3)) connect(sinus,target,.12);
+  const sinus = node([-2.1,9.25,1],"SA node");
+  for (const column of ra) connect(sinus,column[0],.12*cells[column[0]].capacity);
   // Interatrial bridge (Bachmann-bundle analogue).
-  const atrialRight=closest([-1,8,0],"RA")[0], atrialLeft=closest([1,8,-.5],"LA")[0];
+  const atrialRight=ra[1][4], atrialLeft=la[0][0];
   let previous=atrialRight;
   for(let k=1;k<=4;k++) {
     const start=cells[atrialRight].position,end=cells[atrialLeft].position;
     const next=node(start.map((v,d)=>v+(end[d]-v)*k/5) as unknown as Vec3);
-    connect(previous,next,.1);previous=next;
+    connect(previous,next,.3);previous=next;
   }
-  connect(previous,atrialLeft,.1);
-  previous=closest([.2,6,.4],"RA")[0];
+  for(const column of la) connect(previous,column[0],.12*cells[column[0]].capacity);
+  previous=ra[2][10];
   const avFactor=inputs.condition==="av-slow"?.52:1;
-  for(let k=0;k<5;k++) {
-    const next=node([.3+k*.07,6.1-k*.22,.3],k===2?"AV node":undefined,true);
+  for(let k=0;k<6;k++) {
+    const next=node([.3+k*.07,6.1-k*.18,.3],k===3?"AV node":undefined,true);
     connect(previous,next,.032*avFactor,"AV");previous=next;
   }
-  const his=node([.65,4.8,.25],"His"); connect(previous,his,.035);
+  const his=node([.65,4.8,.25],"His",false,2,true); connect(previous,his,.08);
   for(const chamber of ["RV","LV"] as const) {
     const branch=chamber==="RV"?"RBB":"LBB";
     const blocked=inputs.condition===(branch==="RBB"?"rbb-block":"lbb-block");
-    const points:Vec3[]=chamber==="RV" ? [[.15,4.2,.8],[-.3,2.6,1.2],[-.1,1.3,1.1]] : [[1.3,4,-.4],[1.8,2,-.6],[2.4,.1,-.2]];
+    const points:Vec3[]=chamber==="RV" ? [[.1,4.2,.7],[-.2,3.2,1],[-.4,1.5,1],[-.7,4,.7]] : [[1.1,4.1,-.2],[1.6,2.3,-.2],[1.8,1,-.3],[1.5,4.1,-.5]];
+    const trunk:number[]=[];
     previous=his;
     points.forEach((point,k)=>{
-      const next=node(point,k===0?branch:undefined);
-      connect(previous,next,k===0&&blocked?0:k===0?.1:.25,k===0?branch:undefined);
+      const next=node(point,k===0?branch:undefined,false,2,true);
+      // Illustrative distributed branch impairment, not an isolated proximal cut:
+      // retain slower reciprocal distal conduction instead of synchronously
+      // re-exciting the whole affected ventricle through one retrograde terminal.
+      connect(previous,next,k===0&&blocked?0:blocked?.065:.12,k===0?branch:undefined);
+      trunk.push(next);
       previous=next;
-      if(k>0) for(const target of closest(point,chamber,4)) connect(next,target,.1);
     });
-    landmarks.push({label:chamber==="RV"?"RV Purkinje":"LV Purkinje",index:previous});
+    landmarks.push({label:chamber==="RV"?"RV Purkinje":"LV Purkinje",index:trunk[1]});
+    for(const region of ventricular.filter(region=>region.chamber===chamber)) {
+      const columns=patches.get(region.id)!;
+      const terminal=node(region.origin,undefined,false,12,true);
+      connect(trunk[region.level],terminal,.2);
+      for(const column of columns) connect(terminal,column[0],.065*2.2*cells[column[0]].capacity);
+    }
   }
-  const pacing=closest([-.1,1.3,1.1],"RV")[0];
+  // Reciprocal septal myocardial path permits delayed activation during BBB or pacing.
+  const septal=patches.get("lv-septal")!,rv=patches.get("rv-anterior")!;
+  for(let i=0;i<septal.length;i++) edges.push({a:septal[i][septal[i].length-1],b:rv[i][0],conductance:.008,source:true});
+  const pacing=patches.get("rv-apical")![4][0];
   return {cells,edges,landmarks,sinus,pacing};
 }
 
@@ -164,6 +213,7 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
   const {cells,edges}=mesh;
   const tauIn=Float64Array.from(cells,c=>c.tauIn),tauOut=Float64Array.from(cells,c=>c.tauOut),tauClose=Float64Array.from(cells,c=>c.tauClose);
   const edgeA=Int32Array.from(edges,e=>e.a),edgeB=Int32Array.from(edges,e=>e.b),conductance=Float64Array.from(edges,e=>e.conductance);
+  const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0?[index]:[]):[mesh.sinus];
   const sourceWeights=[new Float64Array(n),new Float64Array(n),new Float64Array(n)];
   for(const edge of edges) if(edge.source) for(let d=0;d<3;d++) {
     const factor=SOURCE_GAIN*edge.conductance*(cells[edge.b].position[d]-cells[edge.a].position[d]);
@@ -185,12 +235,14 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
       coupling[a]+=current; coupling[b]-=current;
     }
     const phase=(time-120+period)%period;
-    if(time>=120&&phase<2) coupling[inputs.condition==="rv-pacing"?mesh.pacing:mesh.sinus]+=.6;
+    // A brief stimulus conductance drives Vm toward 1. Its driving force falls
+    // during depolarization, including when a pacing pulse meets refractory tissue.
+    if(time>=120&&phase<2) for(const target of stimulusTargets) coupling[target]+=1.2*cells[target].capacity*(1-vm[target]);
     for(let i=0;i<n;i++) {
       const v=vm[i],h=gate[i];
       const dv=h*v*v*(1-v)/tauIn[i]-v/tauOut[i]+coupling[i]/cells[i].capacity;
       const next=v+DT_MS*dv;
-      if(!Number.isFinite(next)||next < -.02||next>1.2) throw new Error("Membrane integration became unstable");
+      if(!Number.isFinite(next)||next < -.02||next>1.2) throw new Error(`Membrane integration became unstable: ${cells[i].region}, cell ${i}, t=${time.toFixed(1)}, Vm=${next.toFixed(4)}`);
       vm[i]=next;
       gate[i]=h+DT_MS*(v<.13?(1-h)/120:-h/tauClose[i]);
       const relativeTime=time+DT_MS-warmup;
@@ -235,7 +287,13 @@ export function potentialWeights(mesh:HeartMesh,electrode:Vec3):Float64Array {
 }
 
 export function referencePositions(placement:LeadPlacement):Vec3[] {
-  return placement.reference==="wilson"?Object.values(LIMB_ELECTRODES).map(electrodePosition):[electrodePosition(placement.negative)];
+  const limbs=placement.limbs??LIMB_ELECTRODES;
+  if(placement.reference==="wilson") return Object.values(limbs).map(electrodePosition);
+  if(placement.reference.startsWith("augmented-")) {
+    const excluded=placement.reference.slice(10).toUpperCase();
+    return Object.entries(limbs).filter(([name])=>name!==excluded).map(([,value])=>electrodePosition(value));
+  }
+  return [electrodePosition(placement.negative)];
 }
 
 export function leadFieldAtCenter(placement:LeadPlacement):Vec3 {
@@ -263,10 +321,38 @@ export function measureForwardTrace(recording:ForwardRecording,placement:LeadPla
   return {values,positive,reference,approximate,peak};
 }
 
-export function leadPreset(id:string):LeadPlacement {
-  if(id==="I") return {positive:LIMB_ELECTRODES.LA,negative:LIMB_ELECTRODES.RA,reference:"bipolar"};
-  if(id==="III") return {positive:LIMB_ELECTRODES.LL,negative:LIMB_ELECTRODES.LA,reference:"bipolar"};
-  const chest:Record<string,Electrode>={V1:{longitude:-9,latitude:16},V2:{longitude:9,latitude:16},V3:{longitude:18,latitude:12},V4:{longitude:28,latitude:7},V5:{longitude:48,latitude:7},V6:{longitude:75,latitude:7}};
-  if(chest[id]) return {positive:chest[id],negative:LIMB_ELECTRODES.RA,reference:"wilson"};
-  return {positive:LIMB_ELECTRODES.LL,negative:LIMB_ELECTRODES.RA,reference:"bipolar"};
+export function leadPreset(id:string,electrodes:ElectrodeMap=DEFAULT_ELECTRODES):LeadPlacement {
+  const limbs={RA:electrodes.RA,LA:electrodes.LA,LL:electrodes.LL},negative=limbs.RA;
+  if(id==="I") return {positive:limbs.LA,negative,reference:"bipolar",limbs};
+  if(id==="III") return {positive:limbs.LL,negative:limbs.LA,reference:"bipolar",limbs};
+  if(id==="aVR") return {positive:limbs.RA,negative:limbs.LA,reference:"augmented-ra",limbs};
+  if(id==="aVL") return {positive:limbs.LA,negative,reference:"augmented-la",limbs};
+  if(id==="aVF") return {positive:limbs.LL,negative,reference:"augmented-ll",limbs};
+  if(/^V[1-6]$/.test(id)) return {positive:electrodes[id as ElectrodeId],negative,reference:"wilson",limbs};
+  return {positive:limbs.LL,negative,reference:"bipolar",limbs};
+}
+
+const electrodePotentialCache=new WeakMap<ForwardRecording,Map<ElectrodeId,{key:string;values:Float32Array}>>();
+export function measureStandardTraces(recording:ForwardRecording,electrodes:ElectrodeMap=DEFAULT_ELECTRODES):Record<StandardLead,ForwardTrace> {
+  let cache=electrodePotentialCache.get(recording);if(!cache){cache=new Map();electrodePotentialCache.set(recording,cache);}
+  const potentials={} as Record<ElectrodeId,Float32Array>,n=recording.mesh.cells.length;
+  for(const name of ELECTRODE_IDS) {
+    const e=electrodes[name],key=`${e.longitude}:${e.latitude}`,saved=cache.get(name);
+    if(saved?.key===key){potentials[name]=saved.values;continue;}
+    const weights=potentialWeights(recording.mesh,electrodePosition(e)),values=new Float32Array(recording.samples);
+    for(let frame=0;frame<recording.samples;frame++){let value=0;for(let i=0;i<n;i++)value+=recording.voltage[frame*n+i]*weights[i];values[frame]=value;}
+    cache.set(name,{key,values});potentials[name]=values;
+  }
+  return Object.fromEntries(STANDARD_LEADS.map(lead=>{
+    const positiveId:ElectrodeId=lead.startsWith("V")?lead as ElectrodeId:lead==="I"||lead==="aVL"?"LA":lead==="aVR"?"RA":"LL";
+    const refs:ElectrodeId[]=lead==="I"||lead==="II"?["RA"]:lead==="III"?["LA"]:lead==="aVR"?["LA","LL"]:lead==="aVL"?["RA","LL"]:lead==="aVF"?["RA","LA"]:["RA","LA","LL"];
+    const positive=potentials[positiveId],reference=new Float32Array(recording.samples),values=new Float32Array(recording.samples),approximate=new Float32Array(recording.samples),field=leadFieldAtCenter(leadPreset(lead,electrodes));
+    let peak=0;
+    for(let frame=0;frame<recording.samples;frame++) {
+      let r=0;for(const ref of refs)r+=potentials[ref][frame]/refs.length;
+      reference[frame]=r;values[frame]=positive[frame]-r;peak=Math.max(peak,Math.abs(values[frame]));
+      approximate[frame]=recording.dipole[frame*3]*field[0]+recording.dipole[frame*3+1]*field[1]+recording.dipole[frame*3+2]*field[2];
+    }
+    return [lead,{positive,reference,values,approximate,peak}];
+  })) as Record<StandardLead,ForwardTrace>;
 }
