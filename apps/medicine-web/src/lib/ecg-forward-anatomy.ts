@@ -77,32 +77,30 @@ export function createAnatomyLayout(mesh: HeartMesh) {
     const ribbon = RIBBONS[region]; if (!ribbon) continue;
     const layers = ribbon.atrial ? 17 : 12;
     for (let layer = 0; layer < layers; layer++) {
-      const cells = indices.filter((index, ordinal) => ribbon.atrial ? ordinal % layers === layer : Math.round(mesh.cells[index].transmural! * (layers - 1)) === layer);
+      const cells = indices.filter(index => Math.round((ribbon.atrial ? mesh.cells[index].longitudinal! : mesh.cells[index].transmural!) * (layers - 1)) === layer);
       bands.push({ region, cells, path: ribbonBand(ribbon, layer / layers, (layer + 1) / layers) });
-      cells.forEach((index, column) => {
+      cells.forEach(index => {
+        const cell = mesh.cells[index], column = cell.column ?? 4;
         points[index] = ribbon.atrial
-          ? ribbonPoint(ribbon, (layer + .5) / layers, .3 + column / Math.max(1, cells.length - 1) * .4)
-          : ribbonPoint(ribbon, .12 + column / Math.max(1, cells.length - 1) * .76, (layer + .5) / layers);
+          ? ribbonPoint(ribbon, cell.longitudinal!, .3 + column / 3 * .4)
+          : ribbonPoint(ribbon, .12 + column / 8 * .76, cell.transmural!);
       });
     }
   }
   const neighbors: number[][] = mesh.cells.map(() => []);
   mesh.edges.forEach(edge => { if (!edge.source) { neighbors[edge.a].push(edge.b); neighbors[edge.b].push(edge.a); } });
-  const terminals = new Map<number, string>(), interatrial: number[] = [];
+  const terminals = new Map<number, string>();
   mesh.cells.forEach((cell, index) => {
     if (cell.chamber !== "node") return;
     const tissue = neighbors[index].find(other => ["RV", "LV"].includes(mesh.cells[other].chamber));
     if (tissue !== undefined) {
       const region = mesh.cells[tissue].region!;
       points[index] = ribbonPoint(RIBBONS[region], .5, -.16); terminals.set(index, region);
-    } else if (cell.position[1] > 7 && index !== mesh.sinus) interatrial.push(index);
-    else points[index] = p(269 + (6.1 - cell.position[1]) * 19, 184 + (6.1 - cell.position[1]) * 29);
+    } else points[index] = p(269 + (6.1 - cell.position[1]) * 19, 184 + (6.1 - cell.position[1]) * 29);
   });
   const landmark = (name: string) => mesh.landmarks.find(item => item.label === name)!.index;
   points[landmark("SA node")] = p(177, 115);
   points[landmark("His")] = p(295, 230);
-  const bridge = curve([182, 122], [252, 75], [336, 125]);
-  interatrial.forEach((index, ordinal) => { points[index] = at(bridge, (ordinal + 1) / (interatrial.length + 1)); });
   const trunks = new Map<number, string>();
   for (const [branch, positions] of [
     ["RBB", [p(278, 261), p(273, 329), p(290, 408), p(184, 266)]],
@@ -130,6 +128,8 @@ export function createAnatomyLayout(mesh: HeartMesh) {
   const paths: ConductionPath[] = [];
   mesh.edges.forEach((edge, index) => {
     if (edge.source) return;
+    // Atrial coupling is an implicit tissue connection, not an illustrated tract.
+    if (mesh.cells[edge.a].chamber === "RA" && mesh.cells[edge.b].chamber === "LA") return;
     const a = points[edge.a], b = points[edge.b];
     if (Math.hypot(a.x - b.x, a.y - b.y) < .5) return;
     let kind: ConductionPath["kind"] = "nodal";
@@ -166,9 +166,6 @@ export function createAnatomyLayout(mesh: HeartMesh) {
       if (trunks.get(edge.b) === "RBB-3") segments = [[p(231, 375), p(176, 314), b]];
       else if (trunks.get(edge.b) === "LBB-3") segments = [[p(405, 416), p(452, 312), b]];
       else segments = [[p(a.x, a.y + (b.y - a.y) * .45), p(b.x, b.y - (b.y - a.y) * .3), b]];
-    } else if (interatrial.includes(edge.a) || interatrial.includes(edge.b)) {
-      kind = "atrial";
-      if (!interatrial.includes(edge.a)) segments = [[p(174, 128), p(188, 114), b]];
     } else if (edge.a === mesh.sinus) {
       kind = "atrial"; segments = [[p(182, 113), mix(a, b, .65), b]];
     } else if (mesh.cells[edge.a].chamber === "RA" && edge.branch === "AV") {
@@ -176,7 +173,51 @@ export function createAnatomyLayout(mesh: HeartMesh) {
     }
     paths.push({ index, kind, ...route(a, segments) });
   });
-  return { points, bands, paths, interatrial, bridgeLabel: at(bridge, .55) };
+  return { points, bands, paths };
+}
+
+export type AnatomyCurrent = { key: string; region: string; kind: "conduction" | "myocardial"; x: number; y: number; dx: number; dy: number; magnitude: number };
+/** Signed, time-interpolated currents from the SAME coupling as the solver.
+ * One regional myocardial resultant and separated conduction arrows avoid a
+ * forest of sub-pixel arrows. Directions are projected onto the unfolded diagram,
+ * NOT vectors in the torso coordinate system or propagation velocities. */
+export function anatomyCurrents(recording: ForwardRecording, layout: ReturnType<typeof createAnatomyLayout>, timeMs: number): AnatomyCurrent[] {
+  const { mesh } = recording, n = mesh.cells.length;
+  const position = Math.max(0, Math.min(recording.samples - 1, timeMs / recording.sampleMs));
+  const first = Math.floor(position), last = Math.min(recording.samples - 1, first + 1), t = position - first;
+  const voltage = (i: number) => recording.voltage[first * n + i] * (1 - t) + recording.voltage[last * n + i] * t;
+  const current = (a: number, b: number, g: number) => g * (voltage(a) - voltage(b));
+  const regions = new Map<string, { x: number; y: number; dx: number; dy: number; weight: number }>();
+  for (const edge of mesh.edges) {
+    const a = mesh.cells[edge.a], b = mesh.cells[edge.b];
+    if (!edge.source || a.bridge || b.bridge || a.region !== b.region) continue;
+    const start = layout.points[edge.a], end = layout.points[edge.b], dx = end.x - start.x, dy = end.y - start.y;
+    const length = Math.hypot(dx, dy); if (length < .1) continue;
+    const value = current(edge.a, edge.b, edge.conductance), weight = Math.abs(value);
+    const region = a.region!, sum = regions.get(region) ?? { x: 0, y: 0, dx: 0, dy: 0, weight: 0 };
+    sum.x += (start.x + end.x) / 2 * weight; sum.y += (start.y + end.y) / 2 * weight;
+    sum.dx += dx / length * value; sum.dy += dy / length * value; sum.weight += weight;
+    regions.set(region, sum);
+  }
+  const muscle: AnatomyCurrent[] = [...regions].flatMap(([region, sum]) => {
+    const magnitude = Math.hypot(sum.dx, sum.dy);
+    return magnitude > .002 && sum.weight > 0 ? [{ key: region, region, kind: "myocardial" as const, x: sum.x / sum.weight, y: sum.y / sum.weight, dx: sum.dx / magnitude, dy: sum.dy / magnitude, magnitude }] : [];
+  });
+  const nodes: AnatomyCurrent[] = layout.paths.flatMap(path => {
+    if (path.kind === "terminal") return [];
+    const edge = mesh.edges[path.index], value = current(edge.a, edge.b, edge.conductance);
+    if (Math.abs(value) < .002) return [];
+    const a = pointOnRoute(path.points, .35), b = pointOnRoute(path.points, .65), center = pointOnRoute(path.points, .5);
+    const length = Math.hypot(b.x - a.x, b.y - a.y); if (length < 2) return [];
+    const sign = Math.sign(value);
+    return [{ key: `edge-${path.index}`, region: "전도계", kind: "conduction" as const, ...center, dx: (b.x - a.x) / length * sign, dy: (b.y - a.y) / length * sign, magnitude: Math.abs(value) }];
+  }).sort((a, b) => b.magnitude - a.magnitude);
+  const arrows = [...muscle]; let count = 0;
+  for (const arrow of nodes) {
+    if (count >= 5 || arrows.some(other => Math.hypot(arrow.x - other.x, arrow.y - other.y) < 25)) continue;
+    arrows.push(arrow); count++;
+  }
+  return arrows;
 }
 
 export function pointOnRoute(points: DiagramPoint[], fraction: number) {

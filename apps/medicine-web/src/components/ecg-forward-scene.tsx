@@ -2,8 +2,8 @@
 
 import { useId, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from "react";
 import { electrodePosition, ELECTRODE_IDS, HEART_CENTER, leadFieldAtCenter, pickSceneSurface, projectScenePosition, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardRecording, type LeadPlacement, type StandardLead } from "@/lib/ecg-forward-model";
-import { edgeCurrent, HEART_PARTS, recordingFrame, type HeartPart } from "@/lib/ecg-forward-display";
-import { conductionEvents, createAnatomyLayout, HEART_CHAMBERS, pointOnRoute } from "@/lib/ecg-forward-anatomy";
+import { HEART_PARTS, recordingFrame, type HeartPart } from "@/lib/ecg-forward-display";
+import { anatomyCurrents, conductionEvents, createAnatomyLayout, HEART_CHAMBERS, pointOnRoute } from "@/lib/ecg-forward-anatomy";
 import { EcgForwardHeart, EcgForwardHeartDetail } from "@/components/ecg-forward-heart";
 
 type Props = {
@@ -15,7 +15,6 @@ type Props = {
 };
 const LABELS: { part: HeartPart; x: number; y: number; anchor: "start" | "end"; label: string; sub?: string; leader: string }[] = [
   { part: "SA node", x: 127, y: 119, anchor: "end", label: "SA node", leader: "M137 114L168 114" },
-  { part: "Bachmann", x: 473, y: 104, anchor: "start", label: "Bachmann’s", sub: "bundle", leader: "M464 100L440 81Q351 66 267 100" },
   { part: "AV node", x: 127, y: 202, anchor: "end", label: "AV node", leader: "M137 197L232 197L275 201" },
   { part: "His", x: 487, y: 225, anchor: "start", label: "His bundle", leader: "M478 220L404 220L303 230" },
   { part: "RBB", x: 127, y: 268, anchor: "end", label: "RBB", leader: "M137 263L269 261" },
@@ -26,7 +25,7 @@ const LABELS: { part: HeartPart; x: number; y: number; anchor: "start" | "end"; 
 const HINTS: Record<HeartPart, string> = {
   RA: "SVC·IVC에서 혈액을 받는 Right atrium", LA: "Pulmonary veins에서 혈액을 받는 Left atrium",
   RV: "Pulmonary circulation으로 혈액을 보내는 Right ventricle", LV: "두꺼운 Myocardium을 가진 Left ventricle",
-  "SA node": "SVC–RA 접합부의 상외측 벽", Bachmann: "RA → LA · 심방 지붕을 따르는 전도 경로",
+  "SA node": "SVC–RA 접합부의 상외측 벽",
   "AV node": "RA의 하부 Septal 영역 · 전도 지연", His: "Fibrous skeleton을 통과해 Septum으로 연결",
   RBB: "Septum의 오른쪽을 따라 RV로 연결", LBB: "Septum의 왼쪽을 따라 LV로 연결",
   "RV Purkinje": "RV의 Subendocardial 분지 → Myocardium", "LV Purkinje": "LV의 Subendocardial 분지 → Myocardium",
@@ -56,20 +55,9 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
     const event = events.get(path.index)?.find(item => timeMs >= item.start && timeMs <= item.end);
     const progress = event ? (timeMs - event.start) / (event.end - event.start) : null;
     const front = progress === null ? null : event!.forward ? progress : 1 - progress;
-    return { ...path, blocked, event, front, voltage: (voltageAt(edge.a) + voltageAt(edge.b)) / 2, current: edgeCurrent(recording, edge, frame) };
+    return { ...path, blocked, event, front, voltage: (voltageAt(edge.a) + voltageAt(edge.b)) / 2 };
   });
-  // A small set of signed coupling-current arrows, separate from the activation front.
-  const occupied: { x: number; y: number }[] = [];
-  const arrows = showCurrents ? paths.filter(path => path.kind !== "terminal" && Math.abs(path.current) > .0015)
-    .sort((a, b) => Math.abs(b.current) - Math.abs(a.current)).flatMap(path => {
-      const center = pointOnRoute(path.points, .55);
-      if (occupied.length >= 6 || occupied.some(point => Math.hypot(center.x - point.x, center.y - point.y) < 42)) return [];
-      const a = pointOnRoute(path.points, .48), b = pointOnRoute(path.points, .62), length = Math.hypot(b.x - a.x, b.y - a.y);
-      if (length < 2) return [];
-      occupied.push(center);
-      const direction = path.current > 0 ? 1 : -1, dx = (b.x - a.x) / length * direction * 5, dy = (b.y - a.y) / length * direction * 5;
-      return [{ index: path.index, value: path.current, path: `M${center.x - dx} ${center.y - dy}L${center.x + dx} ${center.y + dy}` }];
-    }) : [];
+  const arrows = showCurrents ? anatomyCurrents(recording, layout, timeMs) : [];
   const ventricular = bands.filter(band => band.region.startsWith("lv-") || band.region.startsWith("rv-"));
   const active = ventricular.filter(band => band.voltage > .2), recovering = active.filter(band => band.falling);
   const atrialActive = bands.some(band => band.region.endsWith("-wall") && band.voltage > .2);
@@ -126,7 +114,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
       }}>
       <defs>
         <filter id={`${id}-tissue-soften`} x="-.02" y="-.02" width="1.04" height="1.04" colorInterpolationFilters="sRGB"><feGaussianBlur stdDeviation="1.5" /></filter>
-        <marker id={`${id}-current`} viewBox="0 0 8 8" refX="6" refY="4" markerUnits="userSpaceOnUse" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L7 4L1 7Z" fill="#176c64" /></marker>
+        <marker id={`${id}-current`} viewBox="0 0 12 12" refX="9" refY="6" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M1 1L11 6L1 11L3 6Z" fill="#086bb5" stroke="white" strokeWidth=".7" /></marker>
         {["dipole", "field"].map((key, i) => <marker key={key} id={`${id}-${key}`} viewBox="0 0 8 8" refX="6" refY="4" markerWidth="4" markerHeight="4" orient="auto"><path d="M1 1L7 4L1 7Z" fill={i ? "#176c64" : "#657f93"} /></marker>)}
       </defs>
       {electrodeMode ? <g className="ecg-torso-context">
@@ -160,7 +148,6 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
               {path.blocked ? (() => { const point = pointOnRoute(path.points, .5); return <text x={point.x} y={point.y + 5} className="ecg-block-label" textAnchor="middle">×</text>; })() : null}
             </g>;
           })}
-          {arrows.map(arrow => <path key={arrow.index} data-current-edge={arrow.index} data-current={arrow.value.toFixed(5)} d={arrow.path} stroke="#176c64" strokeWidth="2" markerEnd={`url(#${id}-current)`} pointerEvents="none" />)}
         </g>
         {HEART_CHAMBERS.map(chamber => <g key={chamber.id} {...partInteraction(chamber.id)} className="ecg-anatomy-hit ecg-chamber-hit">
           <rect x={chamber.x - 37} y={chamber.y - 22} width="74" height="46" rx="7" fill="transparent" />
@@ -183,15 +170,27 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
           </g>
         </g>)}</g> : null}
       </g>
-      {showVectors ? <g className="ecg-vector-inset" transform={electrodeMode ? undefined : "translate(26 0)"} pointerEvents="none">
+      <g className="ecg-current-layer" pointerEvents="none" aria-label="계산된 전류 방향">
+        {arrows.map(arrow => {
+          const length = 18 + Math.min(16, Math.sqrt(arrow.magnitude) * 70);
+          const d = `M${arrow.x - arrow.dx * length / 2} ${arrow.y - arrow.dy * length / 2}L${arrow.x + arrow.dx * length / 2} ${arrow.y + arrow.dy * length / 2}`;
+          return <g key={arrow.key} data-current-region={arrow.region} data-current-kind={arrow.kind} data-current={arrow.magnitude.toFixed(6)}>
+            <title>{arrow.region} · {arrow.kind === "myocardial" ? "심근 구역의 투영 합성 전류" : "전도계 결합 전류"} · {arrow.magnitude.toFixed(4)} a.u.</title>
+            <path d={d} fill="none" stroke="white" strokeWidth="6" strokeLinecap="round" />
+            <path d={d} fill="none" stroke="#086bb5" strokeWidth="3.2" strokeLinecap="round" markerEnd={`url(#${id}-current)`} />
+          </g>;
+        })}
+      </g>
+      {showVectors ? <g className="ecg-vector-inset" transform={electrodeMode ? undefined : "translate(441 -323)"} pointerEvents="none">
         <rect x="26" y="415" width="115" height="88" rx="8" fill="white" stroke="#d2dce4" />
-        <text x="38" y="433" className="ecg-vector-title">벡터 방향 · {lead}</text>
+        <text x="38" y="433" className="ecg-vector-title">합성 방향 · {lead}</text>
         {[dipole, field].map((vector, index) => {
           const length = Math.hypot(...vector); if (length < (index ? 1e-8 : .03)) return null;
           const origin = projectScenePosition(HEART_CENTER, yaw);
           const tip = projectScenePosition([HEART_CENTER[0] + vector[0] / length * 3, HEART_CENTER[1] + vector[1] / length * 3, HEART_CENTER[2] + vector[2] / length * 3], yaw);
           return <line key={index} x1="81" y1="466" x2={81 + tip.x - origin.x} y2={466 + tip.y - origin.y} stroke={index ? "#176c64" : "#657f93"} strokeWidth="2.4" strokeDasharray={index ? "4 3" : undefined} markerEnd={`url(#${id}-${index ? "field" : "dipole"})`} />;
         })}
+        <text x="36" y="495" fontSize="9" fill="#526775">실선 p · 점선 Lead field</text>
       </g> : null}
       {electrodeMode ? ELECTRODE_IDS.map(name => {
         const point = projectScenePosition(electrodePosition(electrodes[name]), yaw), active = name === selected, positive = name === positiveId, negative = placement.reference === "bipolar" && name === negativeId;
@@ -205,6 +204,6 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
       }) : null}
     </svg>
     {!electrodeMode && hovered ? <div id={`${id}-hint`} className="ecg-anatomy-tooltip" role="tooltip"><strong>{HEART_PARTS.find(item => item.id === hovered)!.name}</strong><span>{HINTS[hovered]}</span><small>클릭 또는 Enter · 상세 설명</small></div> : null}
-    <div className="ecg-heart-key"><span><i className="ecg-key-conduction" />전도계</span><span><i className="ecg-key-active" />흥분</span><span><i className="ecg-key-recovery" />회복</span>{showCurrents ? <span className="ecg-current-key">→ 전류 방향</span> : null}<strong>{phase}</strong></div>
+    <div className="ecg-heart-key"><span><i className="ecg-key-conduction" />전도계</span><span><i className="ecg-key-active" />흥분</span><span><i className="ecg-key-recovery" />회복</span>{showCurrents ? <span className="ecg-current-key">➜ {arrows.length ? "전류 방향·상대 크기" : "전류 낮음"}</span> : null}<strong>{phase}</strong></div>
   </div>;
 }

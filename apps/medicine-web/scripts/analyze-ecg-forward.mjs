@@ -9,7 +9,7 @@ export function analyzeForwardRecording(recording) {
   const ventricular = recording.mesh.cells.flatMap((cell, i) => ["RV", "LV"].includes(cell.chamber) ? [i] : []);
   const recoveryEnd = Math.max(...ventricular.map(i => recording.recoveryMs[i]));
   const window = (values, start, end) => [...values].map((v, i) => ({ v, t: i * recording.sampleMs })).filter(p => p.t >= start && p.t <= end);
-  const extrema = points => ({ max: Math.max(...points.map(p => p.v)), min: Math.min(...points.map(p => p.v)) });
+  const extrema = points => points.length ? ({ max: Math.max(...points.map(p => p.v)), min: Math.min(...points.map(p => p.v)) }) : ({max:null,min:null});
   const leads = Object.fromEntries(STANDARD_LEADS.map(lead => {
     const values = traces[lead].values;
     const p = window(values, a.atrialStart - 10, a.ventricularStart - 20);
@@ -17,7 +17,11 @@ export function analyzeForwardRecording(recording) {
     const t = window(values, a.ventricularEnd + 60, recoveryEnd + 60);
     const peak = Math.max(...qrs.map(p => Math.abs(p.v))), active = qrs.filter(p => Math.abs(p.v) >= peak * .05);
     const maxima = qrs.filter((p, i) => i > 0 && i < qrs.length - 1 && p.v > qrs[i - 1].v && p.v >= qrs[i + 1].v && p.v > peak * .08);
-    return [lead, { p: extrema(p), qrs: extrema(qrs), t: extrema(t), qrsSpan: active.at(-1).t - active[0].t, peaks: maxima.map(p => ({ t: p.t, v: p.v })) }];
+    const r=qrs.reduce((best,p)=>p.v>best.v?p:best,qrs[0]);
+    const before=qrs.filter(p=>p.t<r.t),after=qrs.filter(p=>p.t>r.t);
+    const average=points=>points.length?points.reduce((sum,p)=>sum+p.v,0)/points.length:null;
+    const tp=average(window(values,20,80)),st=average(window(values,a.ventricularEnd+35,a.ventricularEnd+65));
+    return [lead, { p: extrema(p), qrs: extrema(qrs), t: extrema(t), qrsSpan: active.at(-1).t - active[0].t, peaks: maxima.map(p => ({ t: p.t, v: p.v })), qBeforeR:Math.min(0,...before.map(p=>p.v)),sAfterR:Math.min(0,...after.map(p=>p.v)),tpBaseline:tp,stLevel:st,stRelativeToTp:tp===null||st===null?null:st-tp }];
   }));
   const regions = [...new Set(recording.mesh.cells.filter(c => c.chamber !== "node").map(c => c.region))].map(region => {
     const indices = recording.mesh.cells.flatMap((cell, i) => cell.region === region ? [i] : []);

@@ -9,8 +9,15 @@
 export type Vec3 = readonly [number, number, number];
 export type Chamber = "RA" | "LA" | "RV" | "LV" | "node";
 export type ConductionCondition = "normal" | "av-slow" | "rbb-block" | "lbb-block" | "rv-pacing";
-export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number };
-export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number; bridge?: boolean };
+export const MYOCARDIAL_REGIONS = ["lv-septal", "lv-apical", "lv-lateral", "lv-anterior", "lv-posterior", "lv-basal", "rv-anterior", "rv-apical", "rv-basal"] as const;
+export type MyocardialRegion = typeof MYOCARDIAL_REGIONS[number];
+/** Research extension seam, not an infarction preset. Values are normalized,
+ * NOT mV, ionic concentrations, or a validated mapping from ischemic severity. */
+export type RegionalTissue = { region: MyocardialRegion; from?: number; to?: number; restingPotential?: number; amplitude?: number; excitability?: number; recoveryScale?: number; couplingScale?: number };
+export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number; tissue?: RegionalTissue[] };
+export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number; longitudinal?: number; column?: number; bridge?: boolean; restingPotential?: number; amplitude?: number; excitability?: number };
+export type MeshResolution = { atrialLayers: number; ventricularLayers: number };
+export const DEFAULT_MESH_RESOLUTION: MeshResolution = { atrialLayers: 33, ventricularLayers: 18 };
 export type TissueEdge = { a: number; b: number; conductance: number; source: boolean; branch?: "RBB" | "LBB" | "AV" };
 export type HeartMesh = { cells: TissueCell[]; edges: TissueEdge[]; landmarks: { label: string; index: number }[]; sinus: number; pacing: number };
 export type ForwardRecording = {
@@ -59,10 +66,17 @@ const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v
 export const dot3 = (a: Vec3, b: Vec3) => a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
 
 export function normalizeForwardInputs(inputs: ForwardInputs): ForwardInputs {
+  const finite=(value:number|undefined,fallback:number,min:number,max:number)=>clamp(Number.isFinite(value)?value!:fallback,min,max);
+  const tissue=Array.isArray(inputs.tissue)?inputs.tissue.filter(item=>item&&MYOCARDIAL_REGIONS.includes(item.region)).slice(0,18).map(item=>({
+    region:item.region,from:finite(item.from,0,0,1),to:finite(item.to,1,0,1),
+    restingPotential:finite(item.restingPotential,0,0,.15),amplitude:finite(item.amplitude,1,.5,1.2),
+    excitability:finite(item.excitability,1,.2,1.5),recoveryScale:finite(item.recoveryScale,1,.6,1.4),couplingScale:finite(item.couplingScale,1,.2,1.5),
+  })).filter(item=>item.to>=item.from):[];
   return {
     rate: clamp(Number.isFinite(inputs.rate) ? inputs.rate : 70, 50, 110),
     recovery: clamp(Number.isFinite(inputs.recovery) ? inputs.recovery : 100, 70, 135),
     condition: FORWARD_CONDITIONS.some(c => c.id === inputs.condition) ? inputs.condition : "normal",
+    ...(tissue.length?{tissue}:{}),
   };
 }
 
@@ -93,17 +107,18 @@ export function pickSceneSurface(x:number,y:number,yaw:number):Electrode|null {
 }
 
 /** Coarse 3-D myocardial patches. Each ventricular patch has endocardial
- * Purkinje junctions, twelve transmural layers and lateral tissue connections.
+ * Purkinje junctions, a refinable transmural grid and lateral tissue connections.
  * Patch area scales BOTH capacitance and coupling, preserving propagation speed
  * while representing atrial/ventricular mass. No ECG waveform is prescribed. */
-export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUTS): HeartMesh {
+export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUTS, resolution: MeshResolution = DEFAULT_MESH_RESOLUTION): HeartMesh {
   const inputs = normalizeForwardInputs(rawInputs);
   const cells: TissueCell[] = [], edges: TissueEdge[] = [], landmarks: HeartMesh["landmarks"] = [];
   const unit = (v: Vec3): Vec3 => { const length=Math.hypot(...v); return v.map(x=>x/length) as unknown as Vec3; };
   const cross = (a: Vec3,b: Vec3): Vec3 => [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
   const patches = new Map<string,number[][]>();
   const patch = (id:string,chamber:Chamber,origin:Vec3,direction:Vec3,depth:number,area:number,apd:number,atrial=false) => {
-    const layers=atrial?17:12,side=atrial?2:3,normal=unit(direction),resolution=(layers-1)/(atrial?8:5);
+    const requested=atrial?resolution.atrialLayers:resolution.ventricularLayers;
+    const layers=Math.round(clamp(Number.isFinite(requested)?requested:atrial?33:18,atrial?17:12,atrial?65:36)),side=atrial?2:3,normal=unit(direction),spacing=(layers-1)/(atrial?8:5);
     const tangent=unit(cross(normal,Math.abs(normal[2])<.85?[0,0,1]:[0,1,0])),other=cross(normal,tangent);
     const columns:number[][]=[];
     for(let row=0;row<side;row++) for(let col=0;col<side;col++) {
@@ -112,7 +127,7 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
         const fraction=layer/(layers-1);
         // Finite myocardial bundles taper at their boundaries. A constant-area
         // rectangular slab produces an unrealistically flat depolarization pulse.
-        const section=atrial?.45+.55*Math.sin(Math.PI*fraction):.16+.84*Math.sin(Math.PI*fraction)**2;
+        const section=.16+.84*Math.sin(Math.PI*fraction)**2;
         const u=(col-(side-1)/2)*.28*Math.sqrt(section),v=(row-(side-1)/2)*.28*Math.sqrt(section);
         const position=origin.map((p,d)=>p+normal[d]*depth*fraction+tangent[d]*u+other[d]*v) as unknown as Vec3;
         const index=cells.length;
@@ -120,10 +135,10 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
         // spatial direction from activation, rather than copying QRS polarity.
         const transmuralGradient=id==="lv-posterior"?42:46;
         const tauClose=atrial?70:(apd-transmuralGradient*fraction+row*2+col)*inputs.recovery/100;
-        cells.push({position,chamber,tauIn:.3,tauOut:atrial?6:9,tauClose,capacity:area*section/resolution,region:id,transmural:atrial?undefined:fraction});
+        cells.push({position,chamber,tauIn:.3,tauOut:atrial?6:9,tauClose,capacity:area*section/spacing,region:id,column:row*side+col,transmural:atrial?undefined:fraction,longitudinal:atrial?fraction:undefined});
         column.push(index);
         const tissueEdge=(a:number,g:number)=>edges.push({a,b:index,conductance:g*2*cells[a].capacity*cells[index].capacity/(cells[a].capacity+cells[index].capacity),source:true});
-        if(layer)tissueEdge(column[layer-1],(atrial?.035:id==="lv-septal"?.026:.018)*resolution**2);
+        if(layer)tissueEdge(column[layer-1],(atrial?.018:id==="lv-septal"?.026:.016)*spacing**2);
         if(col)tissueEdge(columns[columns.length-1][layer],.012);
         if(row)tissueEdge(columns[columns.length-side][layer],.012);
       }
@@ -131,15 +146,15 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
     }
     patches.set(id,columns); return columns;
   };
-  const ra=patch("ra-wall","RA",[-2.0,9.0,.9],[.45,-1,-.05],2.4,.28,70,true);
-  const la=patch("la-wall","LA",[.8,8.6,-.5],[.8,-.65,-.65],2.4,.27,70,true);
+  const ra=patch("ra-wall","RA",[-2.0,9.0,.9],[.45,-1,-.05],2.4,.48,70,true);
+  const la=patch("la-wall","LA",[.8,8.6,-.5],[.8,-.65,-.65],2.4,.38,70,true);
   const ventricular = [
     {id:"lv-septal",chamber:"LV",origin:[.65,3.55,.1],normal:[-.65,-.05,.8],depth:.85,area:.72,apd:150,level:0},
     {id:"lv-apical",chamber:"LV",origin:[1.55,.9,-.15],normal:[.55,-.8,.05],depth:1.35,area:1.25,apd:142,level:1},
     {id:"lv-lateral",chamber:"LV",origin:[2.05,2.7,-.15],normal:[.9,-.4,-.15],depth:1.3,area:1.8,apd:151,level:2},
     {id:"lv-anterior",chamber:"LV",origin:[1.45,3.15,.6],normal:[.5,-.5,.8],depth:1,area:1.15,apd:145,level:1},
     {id:"lv-posterior",chamber:"LV",origin:[1.75,2.7,-.7],normal:[.5,-.5,-.85],depth:1.15,area:1.1,apd:158,level:3},
-    {id:"lv-basal",chamber:"LV",origin:[1.7,4.2,-.2],normal:[.2,.9,-.2],depth:1,area:.4,apd:160,level:3},
+    {id:"lv-basal",chamber:"LV",origin:[1.7,4.2,-.2],normal:[-.2,.9,-.35],depth:1,area:.7,apd:160,level:3},
     {id:"rv-anterior",chamber:"RV",origin:[-.25,3.1,.75],normal:[-.6,-.3,.75],depth:.65,area:.5,apd:142,level:2},
     {id:"rv-apical",chamber:"RV",origin:[-.5,1.3,.8],normal:[-.6,-.7,.3],depth:.65,area:.4,apd:136,level:1},
     {id:"rv-basal",chamber:"RV",origin:[-.7,4.1,.8],normal:[-.7,.55,.4],depth:.6,area:.25,apd:151,level:3},
@@ -154,16 +169,13 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
   const connect = (a:number,b:number,conductance:number,branch?:TissueEdge["branch"]) => edges.push({a,b,conductance,source:false,branch});
   const sinus = node([-2.1,9.25,1],"SA node");
   for (const column of ra) connect(sinus,column[0],.12*cells[column[0]].capacity);
-  // Interatrial bridge (Bachmann-bundle analogue).
-  const atrialRight=ra[1][4], atrialLeft=la[0][0];
-  let previous=atrialRight;
-  for(let k=1;k<=4;k++) {
-    const start=cells[atrialRight].position,end=cells[atrialLeft].position;
-    const next=node(start.map((v,d)=>v+(end[d]-v)*k/5) as unknown as Vec3);
-    connect(previous,next,.3);previous=next;
+  // Atrial spread is reduced to distributed myocardial coupling. There is no
+  // separately represented named interatrial tract, node chain, or drawn arch.
+  for(let col=0;col<ra.length;col++) {
+    const a=ra[col][Math.round((ra[col].length-1)*.2)],b=la[col][0];
+    edges.push({a,b,conductance:.045*cells[b].capacity,source:false});
   }
-  for(const column of la) connect(previous,column[0],.12*cells[column[0]].capacity);
-  previous=ra[2][10];
+  let previous=ra[2][Math.round((ra[2].length-1)*.625)];
   const avFactor=inputs.condition==="av-slow"?.52:1;
   for(let k=0;k<6;k++) {
     const next=node([.3+k*.07,6.1-k*.18,.3],k===3?"AV node":undefined,true);
@@ -188,11 +200,13 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
     landmarks.push({label:chamber==="RV"?"RV Purkinje":"LV Purkinje",index:trunk[1]});
     for(const region of ventricular.filter(region=>region.chamber===chamber)) {
       const columns=patches.get(region.id)!;
-      const terminal=node(region.origin,undefined,false,12,true);
+      const terminal=node(region.origin,undefined,false,region.id==="lv-basal"?24:region.id==="rv-basal"?18:12,true);
       connect(trunk[region.level],terminal,.2);
       // Small spatial variation in terminal coupling avoids identical upstrokes
       // in all nine bundles. No lead-specific timing or output filtering.
-      columns.forEach((column,i)=>connect(terminal,column[0],.065*2.2*(.85+.3*(i%3)/2)*cells[column[0]].capacity));
+      // Junction area must not shrink when the first myocardial control volume
+      // becomes thinner. Otherwise refinement accidentally prevents retrograde capture.
+      columns.forEach((column,i)=>connect(terminal,column[0],.065*(column.length-1)/5*(.85+.3*(i%3)/2)*cells[column[0]].capacity));
     }
   }
   // Reciprocal septal myocardial path permits delayed activation during BBB or pacing.
@@ -230,21 +244,34 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
   // now produce a rotating distributed source rather than one scaled lead vector.
   // Dimensions/coupling remain educational parameters, not patient calibration.
   for(const cell of cells) cell.position=[HEART_CENTER[0]+(cell.position[0]-1)*1.4,cell.position[1],HEART_CENTER[2]+cell.position[2]*1.3];
+  // Regional material changes act BEFORE integration. Source recovery uses the
+  // actual membrane potential, preserving resting gradients and DC information.
+  // Never add an ST offset to a lead or independently normalize its baseline.
+  const conductivity=new Float64Array(cells.length).fill(1);
+  cells.forEach((cell,index)=>{
+    if(cell.transmural===undefined||cell.bridge)return;
+    const material=inputs.tissue?.findLast(item=>item.region===cell.region&&cell.transmural!>=item.from!&&cell.transmural!<=item.to!);
+    if(!material)return;
+    cell.restingPotential=material.restingPotential;cell.amplitude=material.amplitude;cell.excitability=material.excitability;
+    cell.tauClose*=material.recoveryScale!;conductivity[index]=material.couplingScale!;
+  });
+  for(const edge of edges)edge.conductance*=2*conductivity[edge.a]*conductivity[edge.b]/(conductivity[edge.a]+conductivity[edge.b]);
   return {cells,edges,landmarks,sinus,pacing};
 }
 
 /** Snapshot integration is run in a Web Worker, never in a React render. */
-export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:number)=>void):ForwardRecording {
-  const inputs=normalizeForwardInputs(rawInputs),mesh=createHeartMesh(inputs),n=mesh.cells.length;
+export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:number)=>void, resolution:MeshResolution=DEFAULT_MESH_RESOLUTION):ForwardRecording {
+  const inputs=normalizeForwardInputs(rawInputs),mesh=createHeartMesh(inputs,resolution),n=mesh.cells.length;
   const period=60000/inputs.rate, warmup=Math.ceil(2*period/SAMPLE_MS)*SAMPLE_MS;
   const durationMs=2400,samples=durationMs/SAMPLE_MS+1;
   const voltage=new Float32Array(samples*n),dipole=new Float32Array(samples*3);
-  const vm=new Float64Array(n),gate=new Float64Array(n).fill(1),coupling=new Float64Array(n);
+  const vm=Float64Array.from(mesh.cells,c=>c.restingPotential??0),gate=new Float64Array(n).fill(1),coupling=new Float64Array(n);
   const activationMs=new Float32Array(n).fill(-1),recoveryMs=new Float32Array(n).fill(-1);
   const totalSteps=Math.round((warmup+durationMs)/DT_MS),warmupSteps=Math.round(warmup/DT_MS);
   const sampleEvery=Math.round(SAMPLE_MS/DT_MS);
   const {cells,edges}=mesh;
   const tauIn=Float64Array.from(cells,c=>c.tauIn),tauOut=Float64Array.from(cells,c=>c.tauOut),tauClose=Float64Array.from(cells,c=>c.tauClose);
+  const rest=Float64Array.from(cells,c=>c.restingPotential??0),amplitude=Float64Array.from(cells,c=>c.amplitude??1),excitability=Float64Array.from(cells,c=>c.excitability??1);
   const edgeA=Int32Array.from(edges,e=>e.a),edgeB=Int32Array.from(edges,e=>e.b),conductance=Float64Array.from(edges,e=>e.conductance);
   const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0&&!cell.bridge?[index]:[]):[mesh.sinus];
   const sourceWeights=[new Float64Array(n),new Float64Array(n),new Float64Array(n)];
@@ -273,15 +300,17 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
     if(time>=120&&phase<2) for(const target of stimulusTargets) coupling[target]+=1.2*cells[target].capacity*(1-vm[target]);
     for(let i=0;i<n;i++) {
       const v=vm[i],h=gate[i];
-      const dv=h*v*v*(1-v)/tauIn[i]-v/tauOut[i]+coupling[i]/cells[i].capacity;
+      const u=(v-rest[i])/amplitude[i];
+      const dv=amplitude[i]*(excitability[i]*h*u*u*(1-u)/tauIn[i]-u/tauOut[i])+coupling[i]/cells[i].capacity;
       const next=v+DT_MS*dv;
-      if(!Number.isFinite(next)||next < -.02||next>1.2) throw new Error(`Membrane integration became unstable: ${cells[i].region}, cell ${i}, t=${time.toFixed(1)}, Vm=${next.toFixed(4)}`);
+      if(!Number.isFinite(next)||next < -.02||next>1.5) throw new Error(`Membrane integration became unstable: ${cells[i].region}, cell ${i}, t=${time.toFixed(1)}, Vm=${next.toFixed(4)}`);
       vm[i]=next;
-      gate[i]=h+DT_MS*(v<.13?(1-h)/120:-h/tauClose[i]);
+      gate[i]=h+DT_MS*(u<.13?(1-h)/120:-h/tauClose[i]);
       const relativeTime=time+DT_MS-warmup;
       if(relativeTime>=0 && relativeTime<Math.min(period+100,durationMs)) {
-        if(v<.5&&next>=.5&&activationMs[i]<0) activationMs[i]=relativeTime;
-        if(v>=.5&&next<.5&&activationMs[i]>=0&&recoveryMs[i]<0) recoveryMs[i]=relativeTime;
+        const nextU=(next-rest[i])/amplitude[i];
+        if(u<.5&&nextU>=.5&&activationMs[i]<0) activationMs[i]=relativeTime;
+        if(u>=.5&&nextU<.5&&activationMs[i]>=0&&recoveryMs[i]<0) recoveryMs[i]=relativeTime;
       }
     }
     if(progress&&step%4000===0) progress(Math.round(step/totalSteps*100));

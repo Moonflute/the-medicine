@@ -21,7 +21,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
   const [part,setPart]=useState<HeartPart>("SA node"),[panel,setPanel]=useState<"structure"|"electrodes"|"model"|null>(null);
   const initialTime=0;
   const [timeMs,setTimeMs]=useState(initialTime),[playing,setPlaying]=useState(false),[speed,setSpeed]=useState(.25);
-  const [yaw,setYaw]=useState(0),[showCurrents,setShowCurrents]=useState(true),[showVectors,setShowVectors]=useState(false);
+  const [yaw,setYaw]=useState(0),[showCurrents,setShowCurrents]=useState(true),[showVectors,setShowVectors]=useState(true);
   const [electrodeMode,setElectrodeMode]=useState(false);
   const [showApproximation,setShowApproximation]=useState(false),[gain,setGain]=useState(1),[display,setDisplay]=useState<"twelve"|"focus">("twelve");
   const [windowMode,setWindowMode]=useState<"beat"|"all">("beat"),[comparison,setComparison]=useState<Comparison|null>(null);
@@ -37,7 +37,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
   const placement=leadPreset(lead,electrodes),trace=traces[lead],frame=recordingFrame(recording,timeMs);
   const snapshot=partSnapshot(recording,part,frame),definition=HEART_PARTS.find(item=>item.id===part)!;
   const field=leadFieldAtCenter(placement),p=recording.dipole.subarray(frame*3,frame*3+3),length=Math.hypot(...p)*Math.hypot(...field);
-  const angle=length>1e-8?Math.acos(Math.max(-1,Math.min(1,dot3([p[0],p[1],p[2]],field)/length)))*180/Math.PI:null;
+  const angle=length>1e-8&&Math.hypot(...p)>.03?Math.acos(Math.max(-1,Math.min(1,dot3([p[0],p[1],p[2]],field)/length)))*180/Math.PI:null;
   const position=electrodePosition(electrodes[selected]);
   const windowMs=windowMode==="beat"?60000/recording.inputs.rate:recording.durationMs;
   const displaced=ELECTRODE_IDS.some(id=>Math.abs(electrodes[id].latitude-DEFAULT_ELECTRODES[id].latitude)>.01||Math.abs(electrodes[id].longitude-DEFAULT_ELECTRODES[id].longitude)>.01);
@@ -57,6 +57,14 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
     document.addEventListener("keydown",close);return()=>document.removeEventListener("keydown",close);
   },[panel]);
   const seek=(time:number)=>{setPlaying(false);clock.current=time;setTimeMs(time);};
+  const jumpPhase=(label:string)=>{
+    const phase=timeline.phases.find(item=>item.label===label);if(!phase)return;
+    let peak=0,index=Math.max(0,Math.floor(phase.start/recording.sampleMs));
+    for(let i=index;i<=Math.min(recording.samples-1,Math.ceil(phase.end/recording.sampleMs));i++) {
+      const amplitude=Math.abs(traces[lead].values[i]);if(amplitude>peak){peak=amplitude;index=i;}
+    }
+    seek(index*recording.sampleMs);
+  };
   const selectElectrode=(value:ElectrodeId)=>{setSelected(value);setElectrodeMode(true);if(value.startsWith("V"))setLead(value as StandardLead);};
   const chooseLead=(value:StandardLead)=>{setLead(value);setSelected(positiveElectrode(value));};
   const move=(id:ElectrodeId,electrode:Electrode)=>setElectrodes(value=>({...value,[id]:electrode}));
@@ -79,6 +87,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
           <button className="simulation-primary" type="button" aria-label={playing?"전기활동 일시정지":"전기활동 재생"} onClick={()=>setPlaying(value=>!value)}>{playing?<Pause size={15}/>:<Play size={15}/>}<span>{playing?"정지":"재생"}</span></button>
           <button className="simulation-button" type="button" onClick={()=>seek(0)} aria-label="계산 기록 처음으로"><RotateCcw size={15}/></button>
           <select aria-label="전기활동 재생 속도" value={speed} onChange={event=>setSpeed(Number(event.target.value))}>{[.1,.25,.5,1].map(value=><option key={value} value={value}>{value}×</option>)}</select>
+          <div className="ecg-phase-jumps" role="group" aria-label="파형 단계 관찰">{["P","QRS","T"].map(label=><button type="button" key={label} aria-label={`${label} wave 관찰`} onClick={()=>jumpPhase(label)}>{label}</button>)}</div>
           <input aria-label="관찰 시각" type="range" min={0} max={recording.durationMs} step={recording.sampleMs} value={timeMs} onChange={event=>seek(Number(event.target.value))}/><output>{Math.round(timeMs)} <small>ms</small></output>
         </div>
       </section>
@@ -88,7 +97,7 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
         <div className="ecg-signal-toolbar">
           <label>선택<select aria-label="관찰할 ECG 유도" value={lead} onChange={event=>chooseLead(event.target.value as StandardLead)}>{STANDARD_LEADS.map(id=><option key={id} value={id}>{id}</option>)}</select></label>
           <label>감도<select aria-label="ECG 화면 감도" value={gain} onChange={event=>setGain(Number(event.target.value))}>{[.25,.5,1,2].map(value=><option key={value} value={value}>{value}×</option>)}</select></label>
-          <label>시간축<select aria-label="ECG 시간 범위" value={windowMode} onChange={event=>setWindowMode(event.target.value as "beat"|"all")}><option value="beat">1박동</option><option value="all">전체 2.4 s</option></select></label><span className="ecg-shared-scale">모든 유도 같은 배율</span>
+          <label>시간축<select aria-label="ECG 시간 범위" value={windowMode} onChange={event=>setWindowMode(event.target.value as "beat"|"all")}><option value="beat">1박동</option><option value="all">전체 2.4 s</option></select></label><span className="ecg-shared-scale">{playing?"기록 중":"재생 → 파형 기록"} · 공통 배율</span>
         </div>
         {display==="twelve"?<div className="ecg-twelve-grid">{LEAD_ORDER.map(id=><section key={id} className="ecg-lead-tile" data-selected={lead===id} data-lead={id} aria-label={`Lead ${id}`}>
           <button type="button" className="ecg-lead-label" aria-pressed={lead===id} aria-label={`Lead ${id} 선택`} onClick={()=>chooseLead(id)}><b>{id}</b><span>{traces[id].values[frame].toFixed(2)}</span></button>
@@ -131,9 +140,11 @@ export function EcgForwardWorkspace({readRecording,inputs,onInputs,busy}:Props) 
 
     <dialog ref={guide} className="ecg-guide-dialog" aria-labelledby="ecg-guide-title"><header><h2 id="ecg-guide-title">심장 전도와 12유도 읽기</h2><button type="button" aria-label="설명 닫기" onClick={()=>guide.current?.close()}><X size={20}/></button></header><div>
       <section><h3>같은 심장, 12개 관찰 방향</h3><p>I = LA−RA, II = LL−RA, III = LL−LA입니다. aVR·aVL·aVF는 각각 RA·LA·LL에서 나머지 두 전극의 평균을 뺍니다. V1–V6는 각 가슴 전극에서 RA·LA·LL 평균을 뺍니다. Limb electrode를 옮기면 이 전극을 기준으로 사용하는 다른 유도도 함께 바뀝니다. RL 접지의 접촉·장비 회로는 계산하지 않습니다.</p><p>12유도 전체는 같은 시간축·감도를 사용합니다. 유도를 선택하고 ‘확대’를 누르면 한 파형을 크게 볼 수 있습니다. 확대 화면의 P·QRS·T 배경은 계산된 Atrial activation, Ventricular activation·recovery 시점에 대응하는 구간이며 임상 자동 판독 결과는 아닙니다.</p></section>
-      <section><h3>전도·회복과 파형</h3><p>각 Myocardial 구역에서 막전위와 회복을 적분합니다. Purkinje 연결이 Endocardial 구역을 자극하고, 여러 층을 거쳐 Epicardial 구역으로 흥분이 퍼집니다. Epicardial 쪽의 짧은 Action potential duration과 부위별 회복 차이가 T wave의 방향과 폭에 기여합니다. ECG 파형을 미리 지정한 P·QRS·T 함수로 그리지 않습니다.</p><p>청록색 선은 계산 모델의 전도 연결입니다. RA와 LA의 지붕을 잇는 경로는 Bachmann’s bundle에 해당하며 혈액이 통하는 관이 아닙니다. His와 Bundle branches는 Septum을 따르고, Purkinje 말단은 Endocardial 경계에서 분지하도록 펼쳐 그렸습니다. 세부 Fascicle이나 실제 환자의 전체 Purkinje network를 재구성한 것은 아닙니다.</p><p>황금색 이동점은 양 끝 구역의 Vm이 0.5를 통과한 실제 기록 시각 사이를 보간합니다. 첫 박동을 반복하는 장식이 아니며, RV 자극에서는 기록에 따라 역방향으로 이동합니다. 이동점의 화면 속도는 실제 조직의 전도 속도가 아닙니다. 붉은 점선·×는 차단이며 이동점을 표시하지 않습니다. 청록 화살표는 g × (Vmₐ−Vmᵦ)로 구한 전류 방향을 최대 6개까지 보여 줍니다. 화살표 길이는 전류 크기가 아니며, 혈류나 흉곽 전류의 유선도 아닙니다.</p></section>
+      <section><h3>전도·회복과 파형</h3><p>각 Myocardial 구역의 막전위·회복과 구역 사이 전류를 적분합니다. Atrial propagation, 빠른 Septal activation, Ventricular wall 및 늦은 Basal activation의 합으로 P·QRS가 만들어집니다. 부위·층별 Action potential duration 차이는 T wave에 기여합니다. 유도별 P·QRS·T 함수를 덧붙이거나 결과를 평활화하지 않습니다.</p><p>청록색 선은 전도계입니다. 심방 사이의 개별 전도 경로는 도해에서 생략하고 계산에서는 Atrial myocardium 사이 결합으로 축약합니다. His와 Bundle branches는 Septum을 따르고, Purkinje 말단은 Endocardial 경계에서 분지하도록 펼쳤습니다. 황금색 이동점은 실제 기록의 활성 시각 사이를 보간하며 화면 속도가 실제 전도 속도를 뜻하지는 않습니다.</p><p>파란 화살표는 계산식 g × (Vmₐ−Vmᵦ)의 부호로 결정됩니다. 심근에서는 구역별로 도해에 투영한 합성 전류를, 전도계에서는 겹치지 않는 최대 5개의 결합 전류를 보여 줍니다. 길이는 가독성 범위 안에서 상대 크기를 나타내며 절대 전류 척도는 아닙니다. 흥분 파면·혈류·흉곽 전류 유선과는 다릅니다. 휴지기의 작은 전류는 표시하지 않으며, 전류가 역전되면 화살표도 반전합니다.</p><p>재생하면 2.4 s 계산 기록의 현재 시각까지 선이 그려집니다. 아직 도달하지 않은 파형은 보이지 않으며 새 시간창에서는 빈 종이부터 시작합니다. 비교 저장한 기록만 회색 점선으로 남습니다. P·QRS·T 버튼은 선택 유도의 해당 구간 최대 진폭 시점으로 이동합니다.</p></section>
+      <section><h3>부위별 Ischemia 확장의 범위</h3><p>내부 계산에는 구역·벽 깊이에 따라 Resting potential, Action potential amplitude, Excitability, Recovery 및 Coupling을 바꾸는 인터페이스를 마련했습니다. 이는 향후 연구용 확장점이며 지금 선택할 수 있는 Infarction 프리셋이나 검증된 ST elevation 모델은 아닙니다. 원 전위의 DC 성분을 보존하며 ST는 TP 기준선과의 차이로 별도 평가합니다. 실제 Ischemia에는 Ionic current·관류·경계 부위와 Torso conductor의 추가 검증이 필요합니다.</p></section>
       <section><h3>그림의 크기와 전극 좌표</h3><p>심장은 구조를 읽기 위해 확대해 그린 전면 개념 절개도입니다. LA와 앞·뒤의 심근 구역을 펼쳐 보여 주며 실제 단면이나 위치 비례를 재현하지는 않습니다. 전극은 별도의 3D 흉곽 타원체 표면 좌표에서 계산하며, 심장 그림의 확대가 계산 거리를 바꾸지 않습니다. ‘전극 위치’에서는 전극과 흉곽을 함께 보여 줍니다. 흉곽 보기를 바꿔도 심장 절개도는 정면으로 유지됩니다. 가슴 전극 위치는 축약 좌표이며 실제 늑간 부착 도해가 아닙니다. 점선 전극은 현재 보기의 반대쪽 표면에 있습니다.</p><p>벽의 옅은 황금색은 흥분, 청회색은 Vm이 감소하는 회복입니다. 각 구역·층의 평균 Vm을 저장 샘플 사이에서 보간하며, Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열합니다. 이름에 마우스를 올리거나 키보드로 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 패널을 엽니다. 설정에서 켜는 작은 벡터 도해의 청회색은 합성 dipole, 청록 점선은 선택 유도의 Lead field입니다. 전압은 고정 배율의 a.u.이고 임상 mV로 보정하지 않았습니다.</p></section>
       <p className="ecg-guide-sources">근거: <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noreferrer">OpenStax · Heart anatomy</a> · <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noreferrer">OpenStax · Conduction system</a> · <a href="https://www.bem.fi/book/06/06.htm" target="_blank" rel="noreferrer">Bioelectromagnetism · 활성과 전류</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27034121/" target="_blank" rel="noreferrer">APD gradient와 T wave 연구</a></p>
+      <p className="ecg-guide-sources">모델 참고: <a href="https://doi.org/10.1161/01.CIR.41.6.899" target="_blank" rel="noreferrer">Durrer · Ventricular activation</a> · <a href="https://opencarp.org/documentation/examples/02_ep_tissue/07_extracellular" target="_blank" rel="noreferrer">openCARP · ECG recovery</a> · <a href="https://doi.org/10.1186/s12576-020-00760-3" target="_blank" rel="noreferrer">Okada · ST elevation 기전</a></p>
     </div></dialog>
   </div>;
 }

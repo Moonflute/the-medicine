@@ -18,7 +18,9 @@ export function EcgForwardTrace({timeline,readSignal,timeMs,gain,showApproximati
   },[]);
   const W=size.width,H=Math.max(64,size.height),LEFT=compact?32:48,RIGHT=compact?8:16,TOP=annotate?29:12,BOTTOM=compact?17:25;
   const span=Math.min(windowMs??timeline.durationMs,timeline.durationMs),period=timeline.periodMs;
-  const start=Math.max(0,Math.min(timeline.durationMs-span,Math.floor(timeMs/period)*period));
+  // Each paper sweep starts blank. Never reveal samples ahead of the shared clock.
+  // A short final sweep stays aligned instead of sliding an already drawn beat.
+  const start=Math.floor(Math.min(timeMs,timeline.durationMs-.001)/span)*span;
   const scale=1.5/gain;
   const y=(value:number)=>TOP+(H-TOP-BOTTOM)/2-value/scale*(H-TOP-BOTTOM)/2;
   const paths=useMemo(()=>{
@@ -27,11 +29,13 @@ export function EcgForwardTrace({timeline,readSignal,timeMs,gain,showApproximati
     return {actual:path(trace.values),approximate:showApproximation?path(trace.approximate):"",baseline:baseline?path(baseline):""};
   },[trace,scale,baseline,showApproximation,W,H,LEFT,RIGHT,TOP,BOTTOM,start,span,timeline.sampleMs,timeline.samples]);
   const x=(time:number)=>LEFT+(time-start)/span*(W-LEFT-RIGHT),ticks=Math.floor(span/40);
-  const frame=Math.min(timeline.samples-1,Math.max(0,Math.round(timeMs/timeline.sampleMs)));
-  return <div ref={host} className="ecg-forward-trace">
+  const sample=Math.min(timeline.samples-1,Math.max(0,timeMs/timeline.sampleMs)),frame=Math.floor(sample);
+  const tip=trace.values[frame]+(trace.values[Math.min(timeline.samples-1,frame+1)]-trace.values[frame])*(sample-frame);
+  const revealed=Math.max(0,Math.min(W-LEFT-RIGHT,x(timeMs)-LEFT));
+  return <div ref={host} className="ecg-forward-trace" data-sweep-start={start} data-revealed-until={timeMs}>
     <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`전극 전위차 파형. 현재 ${(timeMs/1000).toFixed(2)}초, ${trace.values[frame].toFixed(3)} 상대 전압. 파형을 누르면 해당 시각으로 이동합니다.`}
       onClick={event=>{const rect=event.currentTarget.getBoundingClientRect();onSeek(Math.max(0,Math.min(timeline.durationMs,start+((event.clientX-rect.left)/rect.width*W-LEFT)/(W-LEFT-RIGHT)*span)));}}>
-      <defs><clipPath id={clip}><rect x={LEFT} y={TOP} width={W-LEFT-RIGHT} height={H-TOP-BOTTOM}/></clipPath></defs>
+      <defs><clipPath id={clip}><rect x={LEFT} y={TOP} width={W-LEFT-RIGHT} height={H-TOP-BOTTOM}/></clipPath><clipPath id={`${clip}-written`}><rect data-ecg-reveal="true" x={LEFT} y={TOP} width={revealed} height={H-TOP-BOTTOM}/></clipPath></defs>
       <rect width={W} height={H} fill="#fffdfb"/>
       {annotate?Array.from({length:4},(_,cycle)=>timeline.phases.map(p=>{
         const left=Math.max(LEFT,x(p.start+cycle*period)),right=Math.min(W-RIGHT,x(p.end+cycle*period));
@@ -43,10 +47,11 @@ export function EcgForwardTrace({timeline,readSignal,timeMs,gain,showApproximati
       {!compact?<text x="7" y="13" fontSize="11" fill="#526d6a">a.u.</text>:null}
       <g clipPath={`url(#${clip})`}>
         {baseline&&<path d={paths.baseline} fill="none" stroke="#64748b" strokeWidth={1.5} strokeDasharray="3 5"/>}
-        {showApproximation&&<path d={paths.approximate} fill="none" stroke="#d97706" strokeWidth={1.5} strokeDasharray="7 4"/>}
-        <path d={paths.actual} data-ecg-wave="true" fill="none" stroke="#0c4845" strokeWidth={compact?1.6:2.2} strokeLinejoin="round"/>
-        <line x1={x(timeMs)} x2={x(timeMs)} y1={TOP} y2={H-BOTTOM} stroke="#be123c" strokeWidth={1}/>
-        {!compact?<circle cx={x(timeMs)} cy={y(trace.values[frame])} r={3.5} fill="#be123c"/>:null}
+        <g clipPath={`url(#${clip}-written)`}>
+          {showApproximation&&<path d={paths.approximate} fill="none" stroke="#d97706" strokeWidth={1.5} strokeDasharray="7 4"/>}
+          <path d={paths.actual} data-ecg-wave="true" fill="none" stroke="#0c4845" strokeWidth={compact?1.6:2.2} strokeLinejoin="round"/>
+        </g>
+        {revealed>0?<circle data-ecg-writing-tip="true" cx={x(timeMs)} cy={y(tip)} r={compact?2:3} fill="#087f70"/>:null}
       </g>
     </svg>
     {trace.peak>scale&&<p className="ecg-trace-clipped">{compact?"감도 ↓":"파형 일부 잘림 · 감도를 낮추세요"}</p>}

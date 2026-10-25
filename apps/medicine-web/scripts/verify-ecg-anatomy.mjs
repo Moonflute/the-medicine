@@ -1,6 +1,5 @@
 import assert from "node:assert/strict";
-import { createAnatomyLayout, conductionEvents, pointOnRoute } from "../src/lib/ecg-forward-anatomy.ts";
-import { partCellIndices } from "../src/lib/ecg-forward-display.ts";
+import { anatomyCurrents, createAnatomyLayout, conductionEvents, pointOnRoute } from "../src/lib/ecg-forward-anatomy.ts";
 import { DEFAULT_FORWARD_INPUTS, FORWARD_CONDITIONS, simulateForwardEcg } from "../src/lib/ecg-forward-model.ts";
 
 for (const { id: condition } of FORWARD_CONDITIONS) {
@@ -11,12 +10,14 @@ for (const { id: condition } of FORWARD_CONDITIONS) {
   assert.equal(tissue.length, mesh.cells.filter(cell => cell.chamber !== "node").length);
   assert.equal(new Set(tissue).size, tissue.length, "Every myocardial cell is represented exactly once");
   assert.equal(layout.bands.length, 142);
-  assert.equal(layout.interatrial.length, 4);
-  assert.deepEqual(layout.interatrial, partCellIndices(mesh, "Bachmann"));
+  assert.ok(!mesh.cells.some((cell,index)=>cell.chamber==="node"&&cell.position[1]>7&&index!==mesh.sinus), "No separate interatrial node chain");
   assert.ok(layout.paths.filter(path => path.kind === "terminal").length >= 81, "Actual distal junctions form the arbor");
   const pathIds = new Set(layout.paths.map(path => path.index));
   assert.equal(pathIds.size, layout.paths.length);
-  for (const [index, edge] of mesh.edges.entries()) if (!edge.source) assert.ok(pathIds.has(index), `Missing conduction edge ${index}`);
+  for (const [index, edge] of mesh.edges.entries()) if (!edge.source) {
+    if(mesh.cells[edge.a].chamber==="RA"&&mesh.cells[edge.b].chamber==="LA")assert.ok(!pathIds.has(index),"Implicit atrial coupling is not drawn as a tract");
+    else assert.ok(pathIds.has(index), `Missing conduction edge ${index}`);
+  }
   for (const path of layout.paths) {
     const edge = mesh.edges[path.index], actual = events.get(path.index);
     assert.equal(edge.source, false);
@@ -38,6 +39,10 @@ for (const { id: condition } of FORWARD_CONDITIONS) {
   assert.ok(allEvents.some(event => event.start > 60000 / recording.inputs.rate), "Animate later recorded beats, not a first-beat loop");
   if (condition === "rv-pacing") assert.ok(allEvents.some(event => !event.forward), "Reverse conduction follows the recording");
   const quiet = { ...recording, voltage: new Float32Array(recording.voltage.length).fill(.4) };
+  assert.equal(anatomyCurrents(quiet,layout,300).length,0,"Uniform voltage has no fabricated arrows");
+  const arrows=anatomyCurrents(recording,layout,recording.activation.ventricularStart+30);
+  assert.ok(arrows.some(arrow=>arrow.kind==="myocardial"),"Show myocardial current, not only conduction nodes");
+  assert.ok(arrows.every(arrow=>Number.isFinite(arrow.x)&&Number.isFinite(arrow.y)&&Math.abs(Math.hypot(arrow.dx,arrow.dy)-1)<1e-8));
   assert.equal([...conductionEvents(quiet, layout.paths).values()].flat().length, 0, "No fabricated motion at uniform voltage");
   assert.deepEqual(recording.voltage, before, "Drawing does not mutate the electrophysiological solution");
   console.log(`${condition}: ${tissue.length} tissue cells, ${layout.paths.length} conduction paths, ${allEvents.length} recorded propagation intervals ✓`);
