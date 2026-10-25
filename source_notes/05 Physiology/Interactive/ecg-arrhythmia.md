@@ -1,8 +1,58 @@
 # ECG and arrhythmias
-검토 기준일: 2026-10-21
-- 화면은 Lead II 유사 단일 유도의 합성 파형입니다. 가로 큰 칸 0.2 s, 세로 큰 칸 0.5 mV를 사용하지만 화면 확대·디스플레이 크기와 관계없이 물리적 25 mm/s 용지를 의미하지는 않습니다.
-- P onset, QRS onset·폭, RR 간격을 수치로 측정합니다. ST·QT morphology, 12-lead axis, Ischemia 진단은 구현 범위 밖입니다. QRS가 있다고 유효 맥박이 보장되지는 않습니다.
-- 학습 순서는 Rate → Regularity → P/F wave → P–QRS 관계 → PR → QRS width입니다. 실제 급성 흉통·실신·저혈압은 합성 ECG 학습보다 임상 평가가 우선입니다.
+검토 기준일: 2026-10-23
+- 기본 화면인 전기생리 모델은 심근 구역의 막전위·회복과 구역 사이 전류를 수치 적분하고, 이동한 전극의 위치에서 전위차를 계산합니다. 상대 전압 a.u.를 사용하며 실제 임상 mV로 보정하지 않았습니다.
+- 별도의 리듬 판독 모드는 기존 Lead II 유사 합성 파형입니다. 이 모드의 가로 큰 칸 0.2 s·세로 큰 칸 0.5 mV 표기는 파형 학습용이며, 화면의 물리적 25 mm/s 용지를 의미하지 않습니다. 아래 Sinus rhythm–VT 노트의 고정 PR·QRS 수치는 이 합성 모드에만 해당합니다.
+- 두 모드 모두 진단·치료 판단에 사용할 수 없습니다. ST·QT morphology, 12-lead 진단, Ischemia 진단을 검증한 모델이 아니며 QRS가 있다고 실제 맥박·관류가 보장되지는 않습니다.
+
+## forward-model | 심근 전기활동과 ECG 생성
+### 기전
+- 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
+- 구역 i에서 j로 흐르는 결합 전류는 g·(vi−vj)로 계산합니다. 한 구역에서 나가는 전류는 상대 구역에 들어가며, 연결을 끊으면 이 경로의 전류도 0이 됩니다. 막전위 변화는 자극 직후의 흥분뿐 아니라 plateau와 repolarization까지 계속 적분합니다.
+- 심근은 0.7 cm 간격의 축약 3D 구역으로 구성하고, SA·AV·His·Bundle branches·Purkinje에 대응하는 전도 연결을 추가합니다. 총 456개 구역은 실제 세포 456개가 아니라 각각 많은 세포를 대표하는 계산 단위입니다. 외부에서 주기적으로 주는 SA 자극을 사용하므로 SA node 자동능의 개별 이온 통로는 재현하지 않습니다.
+- 적분 간격은 0.1 ms, 화면에 저장하는 간격은 2 ms입니다. 시작 상태의 영향을 줄이기 위해 2회 선행 자극 후 2.4초 기록을 만듭니다. 입력을 바꾸면 새 기록을 계산하며 전극만 옮기면 저장된 동일 막전위에서 측정 전위만 다시 구합니다.
+### 증상·검사 소견
+- 실제 ECG는 하나의 세포 Action potential이 아니라 여러 위치의 전기활동을 멀리서 합성한 신호입니다. 전체 심근이 비슷한 막전위를 유지하는 때에는 많은 구역이 depolarized 상태여도 전위 기울기는 작아질 수 있습니다.
+- 화면의 색은 v=0–1인 상대 막전위입니다. 수축력·심박출량·조직 관류를 계산한 색이 아니며, ECG가 보이는 것만으로 증상이나 혈역학적 안정성을 추정하지 않습니다.
+### 관찰과 해석
+- SA node → AV node → His → 각 Ventricular 구역의 활성 시각을 선택해 실제로 어디가 먼저 흥분하는지 확인합니다. 활성 시각은 v가 0.5를 넘어간 때이며 ECG에서 재는 P onset이나 QRS onset과 동일하지 않습니다.
+- 고정된 전기생리 입력에서 전극을 옮겨도 구역의 색·전도 시간은 바뀌지 않습니다. 반면 AV 결합이나 Bundle branch 연결을 바꾸면 전기생리 계산 자체가 바뀌어 활성 순서와 파형이 함께 달라집니다.
+- 실제 심장 모양·벽 두께·섬유 방향을 반영한 해부학 mesh나 세포별 이온 통로 모델은 아닙니다. Atria·Ventricles·AV 연결부의 시상수와 결합도는 교육용으로 설정했으며 특정 환자나 질환의 ECG를 맞춘 값이 아닙니다.
+### 관련 자료
+- [전극 위치와 전위차](/interactive/ecg-arrhythmia/notes#forward-electrodes)
+- [전도와 회복 조건 비교](/interactive/ecg-arrhythmia/notes#forward-conduction)
+
+## forward-electrodes | 전극 위치·Lead field·전위차
+### 기전
+- 심근 연결마다 전류 크기와 연결 방향을 가진 작은 current dipole을 만듭니다. 각 전극에서 구하는 전위는 이 dipole과 전극 방향 벡터의 내적을 거리의 세제곱으로 나눈 기여들을 합한 값입니다. 하나의 평균 벡터만으로 모든 파형을 대체하지 않습니다.
+- Bipolar 측정값은 φ(+)−φ(−)입니다. 같은 두 위치의 극성을 바꾸면 부호가 반전되고, 두 전극을 같은 위치에 두면 전위차는 0입니다. Lead I·II·III 예시는 각각 LA−RA, LL−RA, LL−LA를 사용합니다.
+- Wilson central terminal 모드에서는 이동 가능한 + 전극의 전위에서 고정된 RA·LA·LL 전위의 평균을 뺍니다. 이 기준 전위도 시간에 따라 변하므로 항상 0인 가상 접지로 취급하지 않습니다. V1–V6는 이 기준을 사용하는 위치 예시입니다.
+- 흉곽은 전극 위치를 정하기 위한 타원체 표면입니다. 전기장은 균질·무한 volume conductor로 근사하며, 이 타원체의 경계조건을 푼 torso FEM/BEM 해석은 아닙니다. Lung·blood·bone의 서로 다른 전도도, 전극 접촉 저항·잡음·증폭기 회로는 포함하지 않습니다.
+### 증상·검사 소견
+- 전극 위치가 달라지면 같은 심장에서도 관찰되는 크기와 부호가 달라집니다. 이 모델의 파형 변화는 새로운 질환이 발생했다는 뜻이 아니라 측정 위치가 달라진 결과일 수 있습니다.
+- 가슴에 가까운 전극은 위치별 전류원과 거리가 서로 크게 달라집니다. 따라서 합성 dipole 하나와 Lead field의 내적으로 근사한 값이 분포 전류원을 각각 계산한 값과 차이 날 수 있습니다.
+### 관찰과 해석
+- 초록 실선은 모든 심근 연결의 기여를 합친 전위차입니다. 주황 점선은 심장 중심의 Lead field와 합성 dipole을 내적한 근사이며, 두 선이 항상 일치해야 하는 것은 아닙니다. 표시되는 각도는 이 중심 근사의 3D 각도입니다.
+- 전압 배율은 모든 위치와 조건에서 고정합니다. 전극 이동 때 파형을 자동으로 같은 높이로 늘리지 않으므로 실제 계산 크기의 변화를 비교할 수 있습니다. 화면 감도만 바꾸면 그림 크기는 바뀌지만 원래 전위차 수치는 유지됩니다.
+- 흉곽을 클릭하거나 전극을 드래그하고, 앞·옆·뒤 보기와 숫자 입력으로 3D 표면을 탐색합니다. 위치 예시는 늑간·Clavicle 등 실제 전극 부착의 해부학적 기준을 표시한 도해가 아니며, 환자의 전극 부착 교육을 대신하지 않습니다.
+### 관련 자료
+- [심근 전기활동 계산](/interactive/ecg-arrhythmia/notes#forward-model)
+
+## forward-conduction | 전도 연결·자극 위치·Repolarization 비교
+### 기전
+- AV 전도 저하에서는 AV 연결부의 결합도를 기준의 52%로 낮춥니다. AV 구역의 흥분이 이웃에 전달되는 시간이 달라지며, 심실 활성 시각을 직접 뒤로 옮기는 방식은 아닙니다.
+- RBB 또는 LBB 연결 차단에서는 His에서 해당 branch로 가는 한 연결의 결합도를 0으로 만듭니다. 반대쪽 branch와 남아 있는 심근 연결을 통해 해당 Ventricular 구역이 뒤늦게 활성될 수 있습니다. 차단 아래쪽 branch가 역방향으로 활성되는 것도 가능합니다.
+- RV 자극은 SA 자극 대신 RV 구역에 전류를 줍니다. 이 모델의 연결은 양방향이므로 Ventricles에서 시작한 활성은 His·AV를 거쳐 Atria로 전달될 수 있습니다. 실제 기기의 pacing spike·전극 접촉·설정 회로는 구현하지 않았습니다.
+- Ventricular 회복 시상수는 회복 gate의 닫힘 속도를 바꿉니다. 구역별 기본 시상수에는 공간적 차이를 두어 repolarization의 전위 기울기가 생기도록 했습니다. 별도 T wave를 더하지 않으므로 repolarization과 다음 자극에 대한 반응이 같은 식의 결과로 연결됩니다.
+### 증상·검사 소견
+- 실제 전도 장애나 pacing에서는 Ventricular 활성 순서가 달라져 QRS·ST-T가 달라질 수 있습니다. 그러나 이 축약 geometry가 만든 파형에 전형적인 RBBB·LBBB 진단 기준을 적용할 수는 없습니다.
+- 회복이 늦어지는 조건은 repolarization과 자극 반응의 변화를 관찰하기 위한 것입니다. QTc·약물 효과·전해질 농도·Torsades de pointes 위험을 정량적으로 예측하는 기능은 아닙니다.
+### 관찰과 해석
+- 기준 전도를 비교 저장한 뒤 같은 전극 위치에서 branch를 차단하세요. 활성 지연이 실제로 생긴 구역과 전위차를 함께 비교하고, 단지 파형이 넓어 보인다는 이유로 임상 진단명을 붙이지 않습니다.
+- Atrial→Ventricular 시작 차이, Ventricular 활성 분산, 활성된 구역 비율은 계산 mesh의 내부 지표입니다. 첫 번째는 PR interval, 두 번째는 QRS duration과 다르며 RV 자극의 역방향 전도에서는 첫 값이 음수가 될 수 있습니다.
+- 심장 활동을 바꾸는 실험과 전극 위치만 바꾸는 실험을 분리하세요. 회색 저장 파형은 같은 시간축과 전압 배율을 유지하지만 Rate를 바꾸면 박동 위치도 달라지므로 피크가 겹치지 않는 것 자체는 오류가 아닙니다.
+### 관련 자료
+- [First-degree AV block · 합성 리듬 판독](/interactive/ecg-arrhythmia/notes#av1)
+- [심장 혈역학](/interactive/cardiac-hemodynamics)
 
 ## sinus | Sinus rhythm
 ### 기전
@@ -105,6 +155,11 @@
 - [Ventricular tachycardia](disease:심실 빈맥 (Ventricular Tachycardia))
 
 ## 출처
+- [Mitchell & Schaeffer — A two-current model for the dynamics of cardiac membrane (2003)](https://pubmed.ncbi.nlm.nih.gov/12909250/)
+- [Physiome Model Repository — Mitchell–Schaeffer model equations and parameters](https://models.physiomeproject.org/exposure/9efc295a6f3360044b4712c28b8314e7/mitchell_schaeffer_2003.cellml/view)
+- [CARPentry — Tissue-scale electrophysiology and extracellular potential recovery](https://grav.medunigraz.at/en/basics/modeling-cardiac-electrophysiology/tissue-scale-ep)
+- [Chaste — Pseudo-ECG calculation from spatial voltage gradients](https://chaste.github.io/doxygen-releases/release_2.1/classPseudoEcgCalculator.html)
+- [WCTECGdb — Measured electrode potentials and Wilson central terminal (2020)](https://pubmed.ncbi.nlm.nih.gov/32521818/)
 - [Merck Manual Professional — Overview of Arrhythmias](https://www.merckmanuals.com/professional/cardiovascular-disorders/overview-of-arrhythmias-and-conduction-disorders/overview-of-arrhythmias)
 - [Merck Manual Professional — Atrioventricular Block](https://www.merckmanuals.com/professional/cardiovascular-disorders/specific-cardiac-arrhythmias/atrioventricular-block)
 - [ACC/AHA/HRS — Bradycardia and conduction delay guideline](https://www.acc.org/Guidelines/Guidelines/2018/11/05/06/18/Bradycardia-and-Cardiac-Conduction-Delay)

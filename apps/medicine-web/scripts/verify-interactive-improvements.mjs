@@ -77,7 +77,7 @@ const catalogs={};
 for(const [kind,file,prefix] of [["disease","diseases","disease"],["drug","drugs","drugs"],["lab","lab-img","lab-img"]]){
  catalogs[kind]=JSON.parse(fs.readFileSync(path.join(root,"_webapp/data",file+".json"),"utf8")).filter(n=>n.documentRole!=="compatibility").map(n=>({...n,href:`/${prefix}/${n.slug}`}));
 }
-const expected={"acid-base-balance":6,"oxygenation-gas-exchange":5,"nephron-electrolyte-handling":14,"cardiac-hemodynamics":5,"ecg-arrhythmia":10,"endocrine-feedback-axes":30};
+const expected={"acid-base-balance":6,"oxygenation-gas-exchange":5,"nephron-electrolyte-handling":14,"cardiac-hemodynamics":5,"ecg-arrhythmia":13,"endocrine-feedback-axes":30};
 const notes=new Map();let questions=0,links=0;
 for(const [slug,count] of Object.entries(expected)){
  const note=parseInteractiveLearning(fs.readFileSync(path.join(root,"source_notes/05 Physiology/Interactive",slug+".md"),"utf8"),slug);notes.set(slug,note);
@@ -93,4 +93,4 @@ for(const note of notes.values())for(const topic of note.topics)for(const link o
  if(match){assert.ok(notes.has(match[1]),"valid interactive destination");if(match[2])assert.ok(notes.get(match[1]).topics.some(t=>t.id===match[2]),"valid note anchor");}
 }
 assert.equal(questions,59);
-console.log(`Six-module regression checks passed; ${notes.size} source notes, 70 topics, ${questions} questions, ${links} resolved links.`);
+console.log(`Six-module regression checks passed; ${notes.size} source notes, ${Object.values(expected).reduce((sum,n)=>sum+n,0)} topics, ${questions} questions, ${links} resolved links.`);

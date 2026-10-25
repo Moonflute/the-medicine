@@ -72,11 +72,11 @@
   },
   {
     "slug": "ecg-arrhythmia",
-    "title": "ECG and Arrhythmia",
-    "shortTitle": "ECG와 부정맥",
+    "title": "ECG: Electrophysiology and Arrhythmia",
+    "shortTitle": "ECG 전기생리·리듬",
     "aliases": ["Electrocardiography", "ECG rhythm", "심전도", "부정맥"],
-    "keywords": ["ECG", "심전도", "부정맥", "AV block", "심방세동", "심실빈맥"],
-    "summary": "리듬별 P파·QRS 사건과 AV 전도, 탈락 박동 및 기계적 맥박의 관계를 확인합니다.",
+    "keywords": ["ECG", "심전도", "전극", "전도계", "Lead field", "부정맥", "AV block", "심방세동", "심실빈맥"],
+    "summary": "심근의 흥분·회복과 전류를 계산하고, 전극을 옮기며 ECG를 측정합니다. 합성 리듬 판독은 별도 모드로 제공합니다.",
     "specialties": ["순환기", "응급의학"],
     "targets": [
       { "type": "disease", "title": "부정맥", "label": "부정맥" }

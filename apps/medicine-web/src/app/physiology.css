@@ -46,3 +46,22 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .physiology-workbench .physiology-card section h3 { color:var(--primary); }
 .physiology-workbench [aria-label="노트 목차"] a { padding:.45rem; }
 @media(prefers-reduced-motion:reduce) { .physiology-workbench * { scroll-behavior:auto; transition:none!important; } }
+
+/* Forward ECG keeps the common workbench controls, with a scientific light canvas. */
+.ecg-forward-layout { display:grid; grid-template-columns:minmax(0,1fr); gap:1rem; align-items:start; }
+.ecg-forward-visual { overflow:hidden; border:1px solid var(--line); border-radius:.8rem; background:var(--surface); }
+.ecg-forward-scene { display:block; width:100%; height:auto; aspect-ratio:760/470; touch-action:none; cursor:crosshair; }
+.ecg-forward-playback { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; padding:.75rem; border-top:1px solid var(--line); }
+.ecg-forward-trace svg { display:block; width:100%; cursor:crosshair; }
+.ecg-forward-readouts { display:flex; flex-wrap:wrap; gap:1.25rem; padding:.75rem; }
+.ecg-forward-readouts>div { flex:1 1 8rem; }
+.ecg-forward-readouts span { display:block; font-size:.68rem; color:var(--muted); }
+.ecg-forward-readouts strong { display:block; margin-top:.35rem; font:600 1rem ui-monospace,monospace; font-variant-numeric:tabular-nums; }
+@media(min-width:1200px) {
+  .ecg-forward-layout { grid-template-columns:minmax(0,1fr) 300px; }
+  .ecg-forward-layout>aside { position:sticky; top:1rem; max-height:88vh; overflow:auto; }
+}
+@media(max-width:600px) {
+  .ecg-forward-visual:has(.ecg-forward-scene) { overflow-x:auto; }
+  .ecg-forward-scene { min-width:600px; }
+}
