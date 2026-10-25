@@ -31,12 +31,12 @@ export default async function InteractiveConceptPage({ params }: { params: Promi
   ));
 
   return (
-    <SimulationWorkbench key={slug}><InteractiveLearningProvider data={learning}><div className="space-y-6">
+    <SimulationWorkbench key={slug}><InteractiveLearningProvider data={learning}><div className={slug === "ecg-arrhythmia" ? "ecg-route" : "space-y-6"}>
       <nav aria-label="관련 분과로 돌아가기" className="flex flex-wrap gap-2">
         {specialtyLinks.map((specialty) => (
-          <Link key={specialty.slug} href={`/specialty/${specialty.slug}`} className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-teal-300 hover:text-teal-800">
+          <Link key={specialty.slug} href={`/specialty/${specialty.slug}`} aria-label={`${specialty.name.replace(/^\d+\s*/, "").trim()}로 돌아가기`} className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-teal-300 hover:text-teal-800">
             <ArrowLeft className="h-4 w-4" />
-            {specialty.name.replace(/^\d+\s*/, "").trim()}로 돌아가기
+            {specialty.name.replace(/^\d+\s*/, "").trim()}{slug === "ecg-arrhythmia" ? "" : "로 돌아가기"}
           </Link>
         ))}
       </nav>
@@ -48,9 +48,7 @@ export default async function InteractiveConceptPage({ params }: { params: Promi
       {slug === "ecg-arrhythmia" ? <EcgInteractiveLab /> : null}
       {slug === "endocrine-feedback-axes" ? <EndocrineFeedbackLab /> : null}
 
-      <LearningSources data={learning}/>
-      {relations.length>0&&<details className="physiology-card"><summary className="cursor-pointer font-semibold">분과 전체 관련 자료 · 자동 연결 포함</summary><div className="mt-4"><RelatedClinicalContent relations={relations} /></div></details>}
-      <ParentPageFab href="/specialties" />
+      {slug === "ecg-arrhythmia" ? <details className="ecg-route-support"><summary>출처 · 관련 자료</summary><div><LearningSources data={learning}/>{relations.length > 0 ? <RelatedClinicalContent relations={relations}/> : null}</div></details> : <><LearningSources data={learning}/>{relations.length>0&&<details className="physiology-card"><summary className="cursor-pointer font-semibold">분과 전체 관련 자료 · 자동 연결 포함</summary><div className="mt-4"><RelatedClinicalContent relations={relations} /></div></details>}<ParentPageFab href="/specialties" /></>}
     </div></InteractiveLearningProvider></SimulationWorkbench>
   );
 }

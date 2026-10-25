@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { displayGeometry, edgeCurrent, visibleCurrents, recordingFrame, partSnapshot } from "../src/lib/ecg-forward-display.ts";
 import { DEFAULT_FORWARD_INPUTS, DEFAULT_PLACEMENT, createHeartMesh, simulateForwardEcg, measureForwardTrace, potentialWeights, electrodePosition, electrodeFromPosition, leadPreset, normalizeForwardInputs } from "../src/lib/ecg-forward-model.ts";
 
 const close=(a,b,tolerance=1e-5)=>assert.ok(Math.abs(a-b)<tolerance,`${a} ≠ ${b}`);
@@ -13,6 +14,22 @@ assert.ok(landmark(normal,"SA node")<landmark(normal,"AV node"));
 assert.ok(landmark(normal,"AV node")<landmark(normal,"His"));
 assert.ok(landmark(normal,"His")<landmark(normal,"LV Purkinje"));
 assert.ok(trace.peak>.01&&trace.peak<10);
+// Display arrows use the integrator's signed current, not a separate animation.
+const geometry=displayGeometry(normal.mesh),displayFrame=recordingFrame(normal,normal.activation.ventricularStart+10);
+assert.equal(recordingFrame(normal,-10),0);
+assert.equal(recordingFrame(normal,Infinity),normal.samples-1);
+const arrows=visibleCurrents(normal,geometry.groups,displayFrame);
+assert.ok(arrows.length>0&&arrows.length<=40);
+for(const arrow of arrows){
+  const offset=displayFrame*normal.mesh.cells.length;
+  close(arrow.value,arrow.edge.conductance*(normal.voltage[offset+arrow.edge.a]-normal.voltage[offset+arrow.edge.b]),1e-12);
+  close(edgeCurrent(normal,{...arrow.edge,a:arrow.edge.b,b:arrow.edge.a},displayFrame),-arrow.value,1e-12);
+  close(edgeCurrent(normal,{...arrow.edge,conductance:0},displayFrame),0,1e-12);
+}
+assert.ok(partSnapshot(normal,"LV",displayFrame).total>1);
+assert.equal(partSnapshot(normal,"His",displayFrame).onset,landmark(normal,"His"));
+const quiet={...normal,voltage:new Float32Array(normal.voltage.length).fill(.4)};
+assert.equal(visibleCurrents(quiet,geometry.groups,displayFrame).length,0);
 for(const value of normal.voltage)assert.ok(Number.isFinite(value)&&value>=0&&value<1.2,"Stable membrane dynamics");
 for(const edge of normal.mesh.edges)if(edge.source){
   const a=normal.mesh.cells[edge.a],b=normal.mesh.cells[edge.b];

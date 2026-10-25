@@ -1,149 +1,167 @@
 "use client";
 
-import { useEffect, useRef, type PointerEvent } from "react";
+import { useId, useMemo, useRef, type KeyboardEvent, type PointerEvent } from "react";
 import { electrodeFromPosition, electrodePosition, HEART_CENTER, leadFieldAtCenter, LIMB_ELECTRODES, TORSO_RADII, type Electrode, type ForwardRecording, type LeadPlacement, type Vec3 } from "@/lib/ecg-forward-model";
+import { displayGeometry, heartPoint, recordingFrame, visibleCurrents, type HeartPart } from "@/lib/ecg-forward-display";
 
 type Props = {
   recording: ForwardRecording; placement: LeadPlacement; timeMs: number; yaw: number;
-  selected: "positive" | "negative"; showCurrents: boolean;
-  onMove: (electrode:Electrode)=>void; onSelect:(selected:"positive"|"negative")=>void;
+  selected: "positive" | "negative"; showCurrents: boolean; part: HeartPart;
+  onPart: (part: HeartPart) => void; onMove: (electrode: Electrode) => void;
+  onSelect: (selected: "positive" | "negative") => void;
 };
-const WIDTH=760,HEIGHT=470,TORSO_X=181,TORSO_Y=236,SCALE=7.7;
-const positiveColor="#be123c",negativeColor="#2563eb";
-const rotate=(p:Vec3,angle:number):Vec3=>[p[0]*Math.cos(angle)+p[2]*Math.sin(angle),p[1],-p[0]*Math.sin(angle)+p[2]*Math.cos(angle)];
-const membraneColor=(voltage:number)=>{
-  const v=Math.max(0,Math.min(1,voltage));
-  return v<.15?`rgb(${29+Math.round(v*170)},${56+Math.round(v*300)},${83+Math.round(v*290)})`:`hsl(${48-(v-.15)*52} 87% ${64-v*16}%)`;
+const CHAMBERS = [
+  { id: "RA", x: 198, y: 133, d: "M179 62 C147 60 131 88 143 129 L156 171 C175 192 213 184 249 169 L253 120 C246 85 197 75 179 62Z", cavity: "M177 91 C159 91 159 122 169 143 Q191 165 225 151 L225 124 Q207 98 177 91Z" },
+  { id: "LA", x: 345, y: 128, d: "M294 73 C329 43 384 62 398 94 C417 131 386 175 348 176 L289 173 Q265 120 294 73Z", cavity: "M309 91 Q346 69 375 99 Q392 127 358 151 L309 147 Q288 122 309 91Z" },
+  { id: "RV", x: 207, y: 258, d: "M160 182 C134 210 143 277 196 326 C223 355 260 382 307 396 C268 339 273 281 278 222 L254 183Z", cavity: "M179 203 Q156 236 192 282 Q220 320 263 348 Q244 286 252 224 L239 204Z" },
+  { id: "LV", x: 350, y: 272, d: "M288 183 C341 166 397 168 419 210 C450 279 406 376 330 410 C304 421 286 392 280 348 L270 228Z", cavity: "M310 211 Q371 190 390 227 C410 279 373 351 331 376 Q305 350 305 296Z" },
+] as const;
+const CALLOUTS: Record<string, { x: number; y: number; anchor: "start" | "end"; label: string }> = {
+  "SA node": { x: 116, y: 68, anchor: "end", label: "SA node" },
+  "AV node": { x: 472, y: 158, anchor: "start", label: "AV node" },
+  His: { x: 472, y: 208, anchor: "start", label: "His bundle" },
+  RBB: { x: 122, y: 240, anchor: "end", label: "RBB" },
+  LBB: { x: 472, y: 262, anchor: "start", label: "LBB" },
+  "RV Purkinje": { x: 123, y: 359, anchor: "end", label: "RV Purkinje" },
+  "LV Purkinje": { x: 472, y: 365, anchor: "start", label: "LV Purkinje" },
 };
+const rotate = (p: Vec3, angle: number): Vec3 => [p[0] * Math.cos(angle) + p[2] * Math.sin(angle), p[1], -p[0] * Math.sin(angle) + p[2] * Math.cos(angle)];
+const surfaceColor = (voltage: number, falling: boolean) => voltage < .08 ? "#dfc4bd" : falling ? `hsl(270 46% ${86 - voltage * 27}%)` : `hsl(${40 - voltage * 18} 92% ${88 - voltage * 35}%)`;
+const keyboardSelect = (event: KeyboardEvent<SVGElement>, action: () => void) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); action(); } };
 
-function arrow(ctx:CanvasRenderingContext2D,x:number,y:number,dx:number,dy:number,color:string,width=2) {
-  if(Math.hypot(dx,dy)<2)return;
-  const angle=Math.atan2(dy,dx),head=Math.min(7,Math.hypot(dx,dy)/3);
-  ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=width;
-  ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+dx,y+dy);ctx.stroke();
-  ctx.beginPath();ctx.moveTo(x+dx,y+dy);ctx.lineTo(x+dx-head*Math.cos(angle-.45),y+dy-head*Math.sin(angle-.45));ctx.lineTo(x+dx-head*Math.cos(angle+.45),y+dy-head*Math.sin(angle+.45));ctx.closePath();ctx.fill();
+function HeartSection({ recording, timeMs, showCurrents, part, onPart }: Pick<Props, "recording" | "timeMs" | "showCurrents" | "part" | "onPart">) {
+  const id = useId().replaceAll(":", "");
+  const geometry = useMemo(() => displayGeometry(recording.mesh), [recording.mesh]);
+  const frame = recordingFrame(recording, timeMs), n = recording.mesh.cells.length;
+  const currents = showCurrents ? visibleCurrents(recording, geometry.groups, frame) : [];
+  const cells = recording.mesh.cells;
+  return <section className="ecg-heart-pane" aria-label="심장 구조와 전류 경로">
+    <header className="ecg-pane-heading"><h2>심장 구조 · 전도 경로</h2><span>전면 개념 절개도</span></header>
+    <div className="ecg-heart-drawing">
+      <svg viewBox="0 0 600 440" role="group" aria-label="RA, LA, RV, LV와 SA node, AV node, His bundle, bundle branches, Purkinje 연결. 부위를 누르면 설명을 볼 수 있습니다.">
+        <defs>
+          {CHAMBERS.map(chamber => <clipPath key={chamber.id} id={`${id}-${chamber.id}`}><path d={chamber.d}/></clipPath>)}
+          <filter id={`${id}-tissue`} x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="2.2"/></filter>
+          <marker id={`${id}-arrow`} viewBox="0 0 8 8" refX="7" refY="4" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#007b77"/></marker>
+        </defs>
+        <text x="146" y="24" className="ecg-anatomy-orientation">환자 오른쪽</text><text x="358" y="24" className="ecg-anatomy-orientation">환자 왼쪽</text>
+        <path d="M169 23L169 84M309 88L307 48Q311 22 333 23L357 25M365 32L365 58" fill="none" stroke="#ceb9b9" strokeWidth="23"/>
+        <path d="M169 23L169 84M309 88L307 48Q311 22 333 23L357 25" fill="none" stroke="#f6e4df" strokeWidth="15"/>
+        {CHAMBERS.map(chamber => <g key={chamber.id}>
+          <path d={chamber.d} fill="#dfc4bd" stroke="#ad7e77" strokeWidth="3"/>
+          <g clipPath={`url(#${id}-${chamber.id})`} filter={`url(#${id}-tissue)`} pointerEvents="none">
+            {geometry.columns.filter(column => column.chamber === chamber.id).map((column, index) => {
+              const voltage = Math.max(...column.cells.map(cell => recording.voltage[frame * n + cell]));
+              const before = Math.max(...column.cells.map(cell => recording.voltage[Math.max(0, frame - 2) * n + cell]));
+              return <rect key={index} x={column.x - 12} y={column.y - 12} width="25" height="25" fill={surfaceColor(voltage, voltage < before - .001)}/>;
+            })}
+          </g>
+          <path d={chamber.cavity} fill="#fffaf7" fillOpacity=".84" stroke="#bd9185" strokeWidth="1.3" pointerEvents="none"/>
+          <path d={chamber.d} fill="transparent" stroke={part === chamber.id ? "#007b77" : "transparent"} strokeWidth="4" className="ecg-anatomy-hit" role="button" tabIndex={0} aria-label={`${chamber.id} 구조 설명`} aria-pressed={part === chamber.id} onClick={() => onPart(chamber.id)} onKeyDown={event => keyboardSelect(event, () => onPart(chamber.id))}/>
+        </g>)}
+        <path d="M274 184Q261 266 286 346Q300 382 324 400" fill="none" stroke="#ab7773" strokeWidth="8" opacity=".65" pointerEvents="none"/>
+        <path d="M153 179L257 181M291 180L407 178" stroke="#faf8f5" strokeWidth="10" pointerEvents="none"/>
+        <path d="M153 179L257 181M291 180L407 178" stroke="#987e79" strokeWidth="2" strokeDasharray="4 4" pointerEvents="none"/>
+        <text x="315" y="327" transform="rotate(-78 315 327)" className="ecg-septum-label">Septum</text>
+        {/* Connections come from the computational graph, not a decorative circuit. */}
+        {recording.mesh.edges.filter(edge => !edge.source).map((edge, index) => {
+          const a = heartPoint(cells[edge.a].position), b = heartPoint(cells[edge.b].position), blocked = edge.conductance === 0;
+          return <g key={index} pointerEvents="none"><line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke="white" strokeWidth="7" strokeLinecap="round"/>
+            <line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke={blocked ? "#b91c1c" : "#9c7234"} strokeWidth="3.5" strokeLinecap="round" strokeDasharray={blocked ? "4 3" : undefined}/>
+            {blocked ? <text x={(a.x + b.x) / 2} y={(a.y + b.y) / 2 + 6} textAnchor="middle" fill="#b91c1c" fontSize="26" fontWeight="800">×</text> : null}
+          </g>;
+        })}
+        {currents.map(({ index, value, edge }) => {
+          const a = heartPoint(cells[value > 0 ? edge.a : edge.b].position), b = heartPoint(cells[value > 0 ? edge.b : edge.a].position);
+          const width = Math.min(3.5, 1.2 + Math.sqrt(Math.abs(value)) * 9);
+          return <g key={index} pointerEvents="none" data-current-edge={index} data-current={value.toFixed(5)}><line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke="white" strokeWidth={width + 2} strokeOpacity=".9"/><line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke="#007b77" strokeWidth={width} markerEnd={`url(#${id}-arrow)`} strokeLinecap="round"/></g>;
+        })}
+        {CHAMBERS.map(chamber => <g key={chamber.id} className="ecg-anatomy-hit" role="button" tabIndex={0} aria-label={`${chamber.id} 구조 설명`} aria-pressed={part === chamber.id} onClick={() => onPart(chamber.id)} onKeyDown={event => keyboardSelect(event, () => onPart(chamber.id))}>
+          <rect x={chamber.x - 26} y={chamber.y - 21} width="52" height="32" rx="8" fill="white" fillOpacity=".95" stroke={part === chamber.id ? "#007b77" : "#d3bab1"}/><text x={chamber.x} y={chamber.y + 2} textAnchor="middle" className="ecg-chamber-label">{chamber.id}</text>
+        </g>)}
+        {recording.mesh.landmarks.map(landmark => {
+          const callout = CALLOUTS[landmark.label]; if (!callout) return null;
+          const p = heartPoint(cells[landmark.index].position), active = recording.voltage[frame * n + landmark.index] > .5;
+          const x = callout.anchor === "end" ? callout.x - 121 : callout.x - 8;
+          return <g key={landmark.label} role="button" tabIndex={0} aria-label={`${landmark.label} 구조 설명`} aria-pressed={part === landmark.label} className="ecg-anatomy-hit" onClick={() => onPart(landmark.label as HeartPart)} onKeyDown={event => keyboardSelect(event, () => onPart(landmark.label as HeartPart))}>
+            <path d={`M${p.x} ${p.y}L${callout.anchor === "end" ? 136 : 457} ${callout.y - 7}L${callout.x} ${callout.y - 7}`} fill="none" stroke="#85959d" strokeWidth="1.3"/>
+            <circle cx={p.x} cy={p.y} r="6" fill={active ? "#f2ac32" : "#9c7234"} stroke="white" strokeWidth="2"/>
+            <rect x={x} y={callout.y - 27} width="128" height="36" rx="6" fill={part === landmark.label ? "#d6f4ee" : "#ffffff"} stroke={part === landmark.label ? "#087f70" : "#dce4e6"}/>
+            <text x={callout.x} y={callout.y - 3} textAnchor={callout.anchor} className="ecg-path-label">{callout.label}</text>
+          </g>;
+        })}
+        <text x="340" y="435" className="ecg-anatomy-orientation">Apex</text>
+      </svg>
+    </div>
+    <div className="ecg-heart-key"><span><i className="ecg-key-conduction"/>전도 연결</span><span><i className="ecg-key-current"/>전류 방향·크기</span><span><i className="ecg-key-active"/>흥분</span><span><i className="ecg-key-recovery"/>회복</span></div>
+  </section>;
 }
 
-/** Orthographic ray / ellipsoid intersection, choosing the visible torso surface. */
-function pickSurface(x:number,y:number,angle:number):Electrode|null {
-  const screenX=(x-TORSO_X)/SCALE,worldY=(TORSO_Y-y)/SCALE;
-  const c=Math.cos(angle),s=Math.sin(angle),[rx,ry,rz]=TORSO_RADII;
-  const a=s*s/(rx*rx)+c*c/(rz*rz);
-  const b=2*screenX*c*s*(1/(rz*rz)-1/(rx*rx));
-  const q=screenX*screenX*(c*c/(rx*rx)+s*s/(rz*rz))+worldY*worldY/(ry*ry)-1;
-  const discriminant=b*b-4*a*q;
-  if(discriminant<0)return null;
-  const depth=(-b+Math.sqrt(discriminant))/(2*a);
-  return electrodeFromPosition([c*screenX-s*depth,worldY,s*screenX+c*depth]);
+const TX = 160, TY = 218, SCALE = 6;
+/** Orthographic ray/ellipsoid intersection of the visible positioning surface. */
+function pickSurface(x: number, y: number, angle: number): Electrode | null {
+  const screenX = (x - TX) / SCALE, worldY = (TY - y) / SCALE;
+  const c = Math.cos(angle), s = Math.sin(angle), [rx, ry, rz] = TORSO_RADII;
+  const a = s * s / (rx * rx) + c * c / (rz * rz), b = 2 * screenX * c * s * (1 / (rz * rz) - 1 / (rx * rx));
+  const q = screenX * screenX * (c * c / (rx * rx) + s * s / (rz * rz)) + worldY * worldY / (ry * ry) - 1;
+  const discriminant = b * b - 4 * a * q; if (discriminant < 0) return null;
+  const depth = (-b + Math.sqrt(discriminant)) / (2 * a);
+  return electrodeFromPosition([c * screenX - s * depth, worldY, s * screenX + c * depth]);
 }
 
-export function EcgForwardScene({recording,placement,timeMs,yaw,selected,showCurrents,onMove,onSelect}:Props) {
-  const canvas=useRef<HTMLCanvasElement>(null),dragging=useRef(false);
-  const angle=yaw*Math.PI/180;
-  useEffect(()=>{
-    const element=canvas.current;if(!element)return;
-    const ctx=element.getContext("2d");if(!ctx)return;
-    const dpr=Math.min(window.devicePixelRatio||1,2);
-    if(element.width!==WIDTH*dpr||element.height!==HEIGHT*dpr){element.width=WIDTH*dpr;element.height=HEIGHT*dpr;}
-    ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,WIDTH,HEIGHT);
-    ctx.fillStyle="#f7fafb";ctx.fillRect(0,0,WIDTH,HEIGHT);
-    ctx.fillStyle="#e9f0f3";ctx.fillRect(355,0,1,HEIGHT);
-    ctx.font="600 14px system-ui";ctx.fillStyle="#213c4b";
-    ctx.fillText("전극 위치 · Torso",24,28);ctx.fillText("심근 확대 · 같은 시각",382,28);
-    ctx.font="11px system-ui";ctx.fillStyle="#64748b";
-    ctx.fillText(yaw===0?"Anterior view · 화면 왼쪽 = 환자 오른쪽":`회전 ${yaw}° · 좌표계는 환자 기준`,24,47);
-    ctx.fillText("3D 구역 모델 · 해부학적 형태는 단순화",382,47);
-    const project=(p:Vec3,zoom=false)=>{
-      const local:Vec3=zoom?[p[0]-HEART_CENTER[0],p[1]-HEART_CENTER[1],p[2]-HEART_CENTER[2]]:p;
-      const rotated=rotate(local,angle),scale=zoom?30:SCALE;
-      return {x:(zoom?548:TORSO_X)+rotated[0]*scale,y:(zoom?253:TORSO_Y)-rotated[1]*scale,z:rotated[2]};
-    };
-    const torsoRadius=Math.hypot(16*Math.cos(angle),10*Math.sin(angle))*SCALE;
-    ctx.fillStyle="#e5eef1";ctx.strokeStyle="#b5c9d1";ctx.lineWidth=1.3;
-    ctx.beginPath();ctx.ellipse(TORSO_X,TORSO_Y,torsoRadius,26*SCALE,0,0,2*Math.PI);ctx.fill();ctx.stroke();
-    ctx.strokeStyle="#cad8df";ctx.lineWidth=.7;
-    for(const latitude of [-60,-30,0,30,60]) {
-      ctx.beginPath();for(let longitude=-180;longitude<=180;longitude+=4){const p=project(electrodePosition({longitude,latitude}));if(longitude===-180)ctx.moveTo(p.x,p.y);else ctx.lineTo(p.x,p.y);}ctx.stroke();
-    }
-    const frame=Math.min(recording.samples-1,Math.max(0,Math.round(timeMs/recording.sampleMs))),n=recording.mesh.cells.length;
-    const ordered=recording.mesh.cells.map((cell,i)=>({cell,i,p:project(cell.position)})).sort((a,b)=>a.p.z-b.p.z);
-    for(const zoom of [false,true]) {
-      if(zoom) {
-        ctx.strokeStyle="#cbd5df";ctx.lineWidth=.65;
-        for(const edge of recording.mesh.edges)if(edge.source){const a=project(recording.mesh.cells[edge.a].position,true),b=project(recording.mesh.cells[edge.b].position,true);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}
-      }
-      for(const {cell,i} of ordered)if(cell.chamber!=="node") {
-        const p=project(cell.position,zoom),v=recording.voltage[frame*n+i];
-        ctx.fillStyle=membraneColor(v);ctx.globalAlpha=zoom?.9:.85;
-        ctx.beginPath();ctx.arc(p.x,p.y,zoom?5.5:1.8,0,2*Math.PI);ctx.fill();
-      }
-      ctx.globalAlpha=1;
-      for(const edge of recording.mesh.edges)if(!edge.source) {
-        const a=project(recording.mesh.cells[edge.a].position,zoom),b=project(recording.mesh.cells[edge.b].position,zoom);
-        const active=recording.voltage[frame*n+edge.a]>.5||recording.voltage[frame*n+edge.b]>.5;
-        ctx.strokeStyle=edge.conductance===0?"#dc2626":active?"#16a34a":"#647b84";ctx.lineWidth=zoom?2:1;
-        ctx.setLineDash(edge.conductance===0?[3,3]:[]);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();ctx.setLineDash([]);
-      }
-    }
-    if(showCurrents) for(const edge of recording.mesh.edges)if(edge.source) {
-      const difference=recording.voltage[frame*n+edge.a]-recording.voltage[frame*n+edge.b];
-      if(Math.abs(difference)<.25)continue;
-      const a=project(recording.mesh.cells[edge.a].position,true),b=project(recording.mesh.cells[edge.b].position,true);
-      const factor=difference*edge.conductance*19;
-      arrow(ctx,(a.x+b.x)/2,(a.y+b.y)/2,(b.x-a.x)*factor,(b.y-a.y)*factor,"#009c8c",1.5);
-    }
-    const labelOffsets:Record<string,[number,number]>={"SA node":[-84,-11],"AV node":[34,-22],His:[48,2],RBB:[-106,14],LBB:[49,22],"RV Purkinje":[-128,38],"LV Purkinje":[21,26]};
-    ctx.font="600 11px system-ui";
-    for(const landmark of recording.mesh.landmarks) {
-      const p=project(recording.mesh.cells[landmark.index].position,true),v=recording.voltage[frame*n+landmark.index];
-      ctx.fillStyle=v>.5?"#16a34a":"#475569";ctx.beginPath();ctx.arc(p.x,p.y,3.5,0,2*Math.PI);ctx.fill();
-      const [dx,dy]=labelOffsets[landmark.label]??[8,0];
-      ctx.strokeStyle="#94a3b8";ctx.lineWidth=.7;ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(p.x+dx*.5,p.y+dy);ctx.stroke();
-      ctx.fillStyle="#243e4d";ctx.fillText(landmark.label,p.x+dx,p.y+dy-3);
-    }
-    const origin=project(HEART_CENTER),p=recording.dipole.subarray(frame*3,frame*3+3);
-    const p3:Vec3=[p[0],p[1],p[2]],pRotated=rotate(p3,angle),pLength=Math.hypot(...p3);
-    const l=leadFieldAtCenter(placement),lRotated=rotate(l,angle),lLength=Math.hypot(...l);
-    if(pLength>.03)arrow(ctx,origin.x,origin.y,pRotated[0]/pLength*45,-pRotated[1]/pLength*45,"#7c3aed",3);
-    if(lLength>1e-8)arrow(ctx,origin.x,origin.y,lRotated[0]/lLength*57,-lRotated[1]/lLength*57,"#059669",2);
-    if(placement.reference==="wilson")for(const [label,electrode] of Object.entries(LIMB_ELECTRODES)) {
-      const p=project(electrodePosition(electrode));ctx.fillStyle="#64748b";ctx.beginPath();ctx.arc(p.x,p.y,6,0,2*Math.PI);ctx.fill();ctx.font="11px system-ui";ctx.fillText(label,p.x+10,p.y+4);
-    }
-    for(const key of ["negative","positive"] as const) {
-      if(key==="negative"&&placement.reference==="wilson")continue;
-      const p=project(electrodePosition(placement[key]));
-      const color=key==="positive"?positiveColor:negativeColor;
-      ctx.globalAlpha=p.z<0?.6:1;ctx.fillStyle="white";ctx.strokeStyle=color;ctx.lineWidth=selected===key?3.5:2;
-      ctx.beginPath();ctx.arc(p.x,p.y,12,0,2*Math.PI);ctx.fill();ctx.stroke();
-      ctx.font="bold 17px system-ui";ctx.fillStyle=color;ctx.textAlign="center";ctx.fillText(key==="positive"?"+":"−",p.x,p.y+6);ctx.textAlign="left";ctx.globalAlpha=1;
-    }
-    ctx.font="11px system-ui";ctx.fillStyle="#7c3aed";ctx.fillText("→ 합성 dipole 방향",20,437);ctx.fillStyle="#059669";ctx.fillText("→ Lead field 방향",181,437);
-    ctx.fillStyle="#64748b";ctx.fillText("화살표 길이는 방향 표시용 · 파형에는 실제 계산 크기 사용",20,456);
-    const gradient=ctx.createLinearGradient(400,0,570,0);gradient.addColorStop(0,membraneColor(0));gradient.addColorStop(.5,membraneColor(.5));gradient.addColorStop(1,membraneColor(1));
-    ctx.fillStyle=gradient;ctx.fillRect(400,430,170,8);ctx.fillStyle="#475569";ctx.fillText("Vm 0 (rest)",400,456);ctx.fillText("1 (depolarized)",568,456);
-  },[recording,placement,timeMs,angle,yaw,selected,showCurrents]);
+function TorsoSection({ recording, placement, timeMs, yaw, selected, onMove, onSelect }: Omit<Props, "part" | "onPart" | "showCurrents">) {
+  const dragging = useRef(false), id = useId().replaceAll(":", "");
+  const angle = yaw * Math.PI / 180;
+  const project = (point: Vec3) => { const p = rotate(point, angle); return { x: TX + p[0] * SCALE, y: TY - p[1] * SCALE, z: p[2] }; };
+  const frame = recordingFrame(recording, timeMs), p = recording.dipole.subarray(frame * 3, frame * 3 + 3);
+  const dipole = rotate([p[0], p[1], p[2]], angle), field = rotate(leadFieldAtCenter(placement), angle), origin = project(HEART_CENTER);
+  const coordinates = (event: PointerEvent<SVGSVGElement>) => {
+    const matrix = event.currentTarget.getScreenCTM();
+    return matrix ? new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse()) : null;
+  };
+  const move = (event: PointerEvent<SVGSVGElement>) => { const point = coordinates(event); if (!point) return; const electrode = pickSurface(point.x, point.y, angle); if (electrode) onMove(electrode); };
+  return <section className="ecg-torso-pane" aria-label="전극 위치 지도">
+    <header className="ecg-pane-heading"><h2>전극 위치</h2><span>{yaw === 0 ? "Anterior" : yaw === 180 ? "Posterior" : yaw === 90 ? "Lateral" : "Oblique"}</span></header>
+    <svg className="ecg-torso-drawing" viewBox="0 0 320 410" role="group" tabIndex={0} aria-label="흉곽 전극 지도. 전극을 끌거나 표면을 누르세요. 방향키로 선택 전극을 움직입니다."
+      onPointerDown={event => {
+        const point = coordinates(event); if (!point) return;
+        for (const key of ["positive", "negative"] as const) {
+          if (key === "negative" && placement.reference === "wilson") continue;
+          const p = project(electrodePosition(placement[key]));
+          if (Math.hypot(point.x - p.x, point.y - p.y) < 24) { onSelect(key); dragging.current = true; event.currentTarget.setPointerCapture(event.pointerId); return; }
+        }
+        if (!pickSurface(point.x, point.y, angle)) return;
+        dragging.current = true; event.currentTarget.setPointerCapture(event.pointerId); move(event);
+      }}
+      onPointerMove={event => { if (dragging.current) move(event); }}
+      onPointerUp={event => { dragging.current = false; if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId); }}
+      onPointerCancel={() => { dragging.current = false; }} onLostPointerCapture={() => { dragging.current = false; }}
+      onKeyDown={event => {
+        if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(event.key)) return;
+        event.preventDefault(); const e = placement[selected], step = event.shiftKey ? 10 : 2;
+        onMove({ longitude: ((e.longitude + (event.key === "ArrowRight" ? step : event.key === "ArrowLeft" ? -step : 0) + 540) % 360) - 180, latitude: Math.max(-80, Math.min(80, e.latitude + (event.key === "ArrowUp" ? step : event.key === "ArrowDown" ? -step : 0))) });
+      }}>
+      <defs>{["dipole", "field"].map((key, index) => <marker key={key} id={`${id}-${key}`} viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill={index === 0 ? "#7c3aed" : "#087f70"}/></marker>)}</defs>
+      <path d="M135 25L132 60Q117 72 80 74Q46 80 34 128L20 281Q27 296 44 283L66 178L69 271L83 389L237 389L251 271L254 178L276 283Q293 296 300 281L286 128Q274 80 240 74Q203 72 188 60L185 25" fill="#f1eae5" stroke="#c5b5ac" strokeWidth="2"/>
+      <ellipse cx={TX} cy={TY} rx={Math.hypot(16 * Math.cos(angle), 10 * Math.sin(angle)) * SCALE} ry={26 * SCALE} fill="#e9f1f3" fillOpacity=".92" stroke="#a6bac4" strokeWidth="1.5"/>
+      {[-60, -30, 0, 30, 60].map(latitude => <path key={latitude} d={Array.from({ length: 91 }, (_, i) => { const p = project(electrodePosition({ longitude: i * 4 - 180, latitude })); return `${i ? "L" : "M"}${p.x.toFixed(1)} ${p.y.toFixed(1)}`; }).join(" ")} fill="none" stroke="#c5d3d8" strokeWidth=".8"/>)}
+      <path d={`M${origin.x - 17} ${origin.y - 15}C${origin.x - 34} ${origin.y - 30} ${origin.x - 36} ${origin.y + 4} ${origin.x + 10} ${origin.y + 28}C${origin.x + 38} ${origin.y + 3} ${origin.x + 27} ${origin.y - 31} ${origin.x - 17} ${origin.y - 15}Z`} fill="#d59a91" stroke="#aa6d66" strokeWidth="1.5"/>
+      {[dipole, field].map((vector, index) => {
+        const length = Math.hypot(...vector); if (length < (index === 0 ? .03 : 1e-8)) return null;
+        return <line key={index} x1={origin.x} y1={origin.y} x2={origin.x + vector[0] / length * 53} y2={origin.y - vector[1] / length * 53} stroke={index === 0 ? "#7c3aed" : "#087f70"} strokeWidth="3" markerEnd={`url(#${id}-${index === 0 ? "dipole" : "field"})`}/>;
+      })}
+      {placement.reference === "wilson" ? Object.entries(LIMB_ELECTRODES).map(([label, electrode]) => { const p = project(electrodePosition(electrode)); return <g key={label}><circle cx={p.x} cy={p.y} r="6" fill="#64748b"/><text x={p.x + 10} y={p.y + 5} fontSize="15" fill="#334155">{label}</text></g>; }) : null}
+      {(["negative", "positive"] as const).map(key => {
+        if (key === "negative" && placement.reference === "wilson") return null;
+        const p = project(electrodePosition(placement[key])), color = key === "positive" ? "#b42342" : "#1d4ed8";
+        return <g key={key} data-electrode={key} aria-label={`${key === "positive" ? "+" : "−"} 전극${p.z < 0 ? " · 반대쪽 표면" : ""}`}><circle cx={p.x} cy={p.y} r="19" fill="white" stroke={color} strokeWidth={selected === key ? 4 : 2} strokeDasharray={p.z < 0 ? "4 3" : undefined}/><text x={p.x} y={p.y + 7} textAnchor="middle" fontSize="25" fontWeight="700" fill={color}>{key === "positive" ? "+" : "−"}</text></g>;
+      })}
+      <text x="47" y="49" fontSize="14" fill="#475569">{yaw === 180 ? "L" : yaw === 90 ? "" : "R"}</text><text x="262" y="49" fontSize="14" fill="#475569">{yaw === 180 ? "R" : yaw === 90 ? "" : "L"}</text>
+    </svg>
+    <div className="ecg-torso-key"><span>보라: 합성 dipole</span><span>초록: Lead field</span><small>길이는 방향 표시용 · 점선 전극은 반대쪽</small></div>
+  </section>;
+}
 
-  const coordinates=(event:PointerEvent<HTMLCanvasElement>)=>{
-    const rect=event.currentTarget.getBoundingClientRect();return {x:(event.clientX-rect.left)/rect.width*WIDTH,y:(event.clientY-rect.top)/rect.height*HEIGHT};
-  };
-  const move=(event:PointerEvent<HTMLCanvasElement>)=>{
-    const {x,y}=coordinates(event);if(x>352)return;
-    const electrode=pickSurface(x,y,angle);if(electrode)onMove(electrode);
-  };
-  return <canvas ref={canvas} className="ecg-forward-scene" role="img" tabIndex={0}
-    aria-label="전극 위치와 심근 막전위. 흉곽을 누르거나 전극을 드래그하세요. 방향키로 선택한 전극을 이동할 수 있으며 아래 숫자 입력도 가능합니다."
-    onPointerDown={event=>{
-      const {x,y}=coordinates(event);if(x>352)return;
-      for(const key of ["positive","negative"] as const){if(key==="negative"&&placement.reference==="wilson")continue;const p=rotate(electrodePosition(placement[key]),angle);if(Math.hypot(x-TORSO_X-p[0]*SCALE,y-TORSO_Y+p[1]*SCALE)<18){onSelect(key);dragging.current=true;event.currentTarget.setPointerCapture(event.pointerId);return;}}
-      dragging.current=true;event.currentTarget.setPointerCapture(event.pointerId);move(event);
-    }}
-    onPointerMove={event=>{if(dragging.current)move(event);}}
-    onPointerUp={event=>{dragging.current=false;if(event.currentTarget.hasPointerCapture(event.pointerId))event.currentTarget.releasePointerCapture(event.pointerId);}}
-    onPointerCancel={()=>{dragging.current=false;}}
-    onKeyDown={event=>{
-      if(!["ArrowLeft","ArrowRight","ArrowUp","ArrowDown"].includes(event.key))return;
-      event.preventDefault();const e=placement[selected],step=event.shiftKey?10:2;
-      onMove({longitude:((e.longitude+(event.key==="ArrowRight"?step:event.key==="ArrowLeft"?-step:0)+540)%360)-180,latitude:Math.max(-80,Math.min(80,e.latitude+(event.key==="ArrowUp"?step:event.key==="ArrowDown"?-step:0)))});
-    }}
-  >전극 조작은 숫자 입력으로도 가능합니다. 색은 계산된 정규화 막전위 0–1입니다.</canvas>;
+export function EcgForwardScene(props: Props) {
+  return <div className="ecg-forward-scene"><HeartSection {...props}/><TorsoSection {...props}/></div>;
 }

@@ -1,5 +1,5 @@
 # ECG and arrhythmias
-검토 기준일: 2026-10-23
+검토 기준일: 2026-10-25
 - 기본 화면인 전기생리 모델은 심근 구역의 막전위·회복과 구역 사이 전류를 수치 적분하고, 이동한 전극의 위치에서 전위차를 계산합니다. 상대 전압 a.u.를 사용하며 실제 임상 mV로 보정하지 않았습니다.
 - 별도의 리듬 판독 모드는 기존 Lead II 유사 합성 파형입니다. 이 모드의 가로 큰 칸 0.2 s·세로 큰 칸 0.5 mV 표기는 파형 학습용이며, 화면의 물리적 25 mm/s 용지를 의미하지 않습니다. 아래 Sinus rhythm–VT 노트의 고정 PR·QRS 수치는 이 합성 모드에만 해당합니다.
 - 두 모드 모두 진단·치료 판단에 사용할 수 없습니다. ST·QT morphology, 12-lead 진단, Ischemia 진단을 검증한 모델이 아니며 QRS가 있다고 실제 맥박·관류가 보장되지는 않습니다.
@@ -8,6 +8,9 @@
 ### 기전
 - 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
 - 구역 i에서 j로 흐르는 결합 전류는 g·(vi−vj)로 계산합니다. 한 구역에서 나가는 전류는 상대 구역에 들어가며, 연결을 끊으면 이 경로의 전류도 0이 됩니다. 막전위 변화는 자극 직후의 흥분뿐 아니라 plateau와 repolarization까지 계속 적분합니다.
+- 화면의 RA·LA·RV·LV, Septum, Apex는 위치를 이해하기 위한 전면 개념 절개도입니다. 뒤쪽의 LA도 펼쳐 그렸으며 환자 영상이나 실제 조직 경계는 아닙니다. 갈색 선은 계산에 쓰인 전도 연결이고, Atrial myocardium에서는 주변 구역 사이의 연결망으로 흥분이 퍼집니다.
+- 초록 화살표는 같은 결합 전류 g·(vi−vj)의 부호와 크기를 표시합니다. 차단된 연결에는 붉은 점선과 ×가 나타나며 전류 화살표는 그리지 않습니다. 깊이가 겹치거나 가까운 심근 연결은 큰 실제 전류를 대표로 골라 최대 40개까지 표시합니다. 혈류·입자 이동 속도·흉곽 전체의 전류 유선을 뜻하지 않습니다.
+- 벽의 색은 같은 전면 좌표로 투영된 구역들의 최대 Vm입니다. 주황은 흥분, 보라는 막전위가 내려가는 회복, 옅은 벽색은 낮은 Vm이며 산소포화도를 뜻하지 않습니다. 구조 이름을 누르면 해당 계산 구역과 첫 활성 시각을 확인할 수 있습니다.
 - 심근은 0.7 cm 간격의 축약 3D 구역으로 구성하고, SA·AV·His·Bundle branches·Purkinje에 대응하는 전도 연결을 추가합니다. 총 456개 구역은 실제 세포 456개가 아니라 각각 많은 세포를 대표하는 계산 단위입니다. 외부에서 주기적으로 주는 SA 자극을 사용하므로 SA node 자동능의 개별 이온 통로는 재현하지 않습니다.
 - 적분 간격은 0.1 ms, 화면에 저장하는 간격은 2 ms입니다. 시작 상태의 영향을 줄이기 위해 2회 선행 자극 후 2.4초 기록을 만듭니다. 입력을 바꾸면 새 기록을 계산하며 전극만 옮기면 저장된 동일 막전위에서 측정 전위만 다시 구합니다.
 ### 증상·검사 소견
@@ -155,6 +158,8 @@
 - [Ventricular tachycardia](disease:심실 빈맥 (Ventricular Tachycardia))
 
 ## 출처
+- [NHLBI — How the heart beats: cardiac conduction system](https://www.nhlbi.nih.gov/health/heart/heart-beats)
+- [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 6: The Heart](https://www.bem.fi/book/06/06.htm)
 - [Mitchell & Schaeffer — A two-current model for the dynamics of cardiac membrane (2003)](https://pubmed.ncbi.nlm.nih.gov/12909250/)
 - [Physiome Model Repository — Mitchell–Schaeffer model equations and parameters](https://models.physiomeproject.org/exposure/9efc295a6f3360044b4712c28b8314e7/mitchell_schaeffer_2003.cellml/view)
 - [CARPentry — Tissue-scale electrophysiology and extracellular potential recovery](https://grav.medunigraz.at/en/basics/modeling-cardiac-electrophysiology/tissue-scale-ep)
