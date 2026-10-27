@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { Pause, Play, RotateCcw, Save, X, Info, SlidersHorizontal, Maximize2, Grid2X2 } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { EcgForwardScene } from "@/components/ecg-forward-scene";
 import { EcgForwardTrace, type EcgTraceSignal, type EcgTraceTimeline } from "@/components/ecg-forward-trace";
 import { EcgIschemiaPanel } from "@/components/ecg-ischemia-panel";
 import {measureSt,sampleMean,stWindow} from "@/lib/ecg-ischemia";
 import { HEART_PARTS, partSnapshot, recordingFrame, type HeartPart } from "@/lib/ecg-forward-display";
+import { wrapAtMatchingBeat } from "@/lib/ecg-forward-mechanics";
 import { DEFAULT_ELECTRODES, ELECTRODE_IDS, STANDARD_LEADS, dot3, electrodePosition, FORWARD_CONDITIONS, leadFieldAtCenter, leadPreset, measureStandardTraces, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardInputs, type ForwardRecording, type StandardLead } from "@/lib/ecg-forward-model";
 
 type Props={readRecording:()=>ForwardRecording;readReference?:()=>ForwardRecording;inputs:ForwardInputs;onInputs:(inputs:ForwardInputs)=>void;busy:boolean};
@@ -15,6 +16,10 @@ type Comparison={inputs:ForwardInputs;electrodes:ElectrodeMap;values:Record<Stan
 const STEPS:HeartPart[]=["SA node","RA","AV node","His","RV Purkinje","LV Purkinje"];
 const LEAD_ORDER:StandardLead[]=["I","II","III","aVR","aVL","aVF","V1","V2","V3","V4","V5","V6"];
 const positiveElectrode=(lead:StandardLead):ElectrodeId=>lead.startsWith("V")?lead as ElectrodeId:lead==="I"||lead==="aVL"?"LA":lead==="aVR"?"RA":"LL";
+const motionPreference = () => window.matchMedia("(prefers-reduced-motion: reduce)");
+const subscribeMotion = (notify: () => void) => { const query = motionPreference(); query.addEventListener("change", notify); return () => query.removeEventListener("change", notify); };
+const prefersReducedMotion = () => motionPreference().matches;
+const serverMotionPreference = () => false;
 
 export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs,busy}:Props) {
   const recording=readRecording();
@@ -26,6 +31,8 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
   const [timeMs,setTimeMs]=useState(initialTime),[playing,setPlaying]=useState(false),[speed,setSpeed]=useState(.25);
   const [yaw,setYaw]=useState(0),[showFields,setShowFields]=useState(true),[showVectors,setShowVectors]=useState(true);
   const [electrodeMode,setElectrodeMode]=useState(false);
+  const reduceMotion=useSyncExternalStore(subscribeMotion,prefersReducedMotion,serverMotionPreference);
+  const [motionOverride,setMotionOverride]=useState<boolean|null>(null),showMotion=motionOverride??!reduceMotion;
   const [showApproximation,setShowApproximation]=useState(false),[gain,setGain]=useState(1),[display,setDisplay]=useState<"twelve"|"focus">("twelve");
   const [windowMode,setWindowMode]=useState<"beat"|"all">("beat"),[comparison,setComparison]=useState<Comparison|null>(null);
   const [showReference,setShowReference]=useState(true),[tpZero,setTpZero]=useState(false);
@@ -58,12 +65,12 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
     if(!playing||busy)return;
     let animation=0,previous=0,lastDraw=0;
     const step=(now:number)=>{
-      if(previous&&!document.hidden)clock.current=(clock.current+Math.min(now-previous,100)*speed)%recording.durationMs;
+      if(previous&&!document.hidden)clock.current=wrapAtMatchingBeat(clock.current+Math.min(now-previous,100)*speed,recording.durationMs,60000/recording.inputs.rate);
       previous=now;if(now-lastDraw>=33){setTimeMs(clock.current);lastDraw=now;}
       animation=requestAnimationFrame(step);
     };
     animation=requestAnimationFrame(step);return()=>cancelAnimationFrame(animation);
-  },[playing,speed,recording.durationMs,busy]);
+  },[playing,speed,recording.durationMs,recording.inputs.rate,busy]);
   useEffect(()=>{
     if(!panel)return;
     const close=(event:globalThis.KeyboardEvent)=>{if(event.key==="Escape"){setPanel(null);settingsButton.current?.focus();}};
@@ -97,7 +104,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
           <button ref={settingsButton} type="button" className="ecg-icon-button" aria-label="구조·전극·모델 설정" aria-expanded={panel!==null} aria-controls="ecg-settings-panel" onClick={()=>setPanel(value=>value?null:"electrodes")}><SlidersHorizontal size={17}/><span>설정</span></button>
           <button type="button" className="ecg-icon-button" aria-label="도해와 계산 설명" onClick={()=>guide.current?.showModal()}><Info size={17}/></button>
         </div>
-        <EcgForwardScene readRecording={readRecording} electrodes={electrodes} placement={placement} lead={lead} timeMs={timeMs} yaw={yaw} selected={selected} showFields={showFields} showVectors={showVectors} electrodeMode={electrodeMode} onElectrodeMode={setElectrodeMode} part={part} onPart={selectPart} onMove={move} onSelect={selectElectrode}/>
+        <EcgForwardScene readRecording={readRecording} electrodes={electrodes} placement={placement} lead={lead} timeMs={timeMs} yaw={yaw} selected={selected} showFields={showFields} showVectors={showVectors} showMotion={showMotion} electrodeMode={electrodeMode} onElectrodeMode={setElectrodeMode} part={part} onPart={selectPart} onMove={move} onSelect={selectElectrode}/>
         <div className="ecg-forward-playback">
           <button className="simulation-primary" type="button" aria-label={playing?"전기활동 일시정지":"전기활동 재생"} onClick={()=>setPlaying(value=>!value)}>{playing?<Pause size={15}/>:<Play size={15}/>}<span>{playing?"정지":"재생"}</span></button>
           <button className="simulation-button" type="button" onClick={()=>seek(0)} aria-label="계산 기록 처음으로"><RotateCcw size={15}/></button>
@@ -144,6 +151,8 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
           <label className="ecg-range-label"><span>{inputs.condition==="rv-pacing"?"RV 자극":"SA 자극"} 빈도 <b>{inputs.rate}/min</b></span><input aria-label="심장 자극 빈도" type="range" min={50} max={110} step={1} value={inputs.rate} onChange={event=>onInputs({...inputs,rate:Number(event.target.value)})}/></label>
           <label className="ecg-range-label"><span>Ventricular 회복 <b>{inputs.recovery}%</b></span><input aria-label="Ventricular 회복 시상수" type="range" min={70} max={135} step={5} value={inputs.recovery} onChange={event=>onInputs({...inputs,recovery:Number(event.target.value)})}/></label>
           <p className="ecg-control-hint">{FORWARD_CONDITIONS.find(item=>item.id===inputs.condition)?.explanation}</p>
+          <label className="ecg-check"><input type="checkbox" checked={showMotion} onChange={event=>setMotionOverride(event.target.checked)}/>심방·심실 수축 표시</label>
+          <p className="ecg-control-hint">각 부위의 Vm 상승 뒤에 수축 반응이 따라옵니다. 내강 축소·벽 두꺼워짐·AV plane 이동을 함께 표시합니다. 실제 Calcium·압력·혈류를 푸는 모델은 아닙니다.{reduceMotion?" 기기의 동작 줄이기 설정으로 기본 표시를 껐습니다.":""}</p>
           <label className="ecg-check"><input type="checkbox" checked={showVectors} onChange={event=>setShowVectors(event.target.checked)}/>Dipole · Lead field 방향 표시</label>
           <label className="ecg-check"><input type="checkbox" checked={showApproximation} onChange={event=>setShowApproximation(event.target.checked)}/>단일 dipole 내적 근사 겹치기</label>
           <section className="ecg-comparison"><h3>12유도 파형 비교</h3>{comparison?<><p>{comparison.label}</p><div><button type="button" onClick={()=>{setElectrodes(structuredClone(comparison.electrodes));chooseLead(comparison.lead);onInputs({...comparison.inputs});}}>조건 복원</button><button type="button" onClick={()=>setComparison(null)}>비교 해제</button></div><p>회색 점선 · 같은 배율 · 현재 화면에서만 보관</p></>:<p>ECG 위 ‘비교 저장’으로 12유도를 저장한 뒤 조건을 바꿔 보세요.</p>}</section>
@@ -163,6 +172,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
       <section><h3>그림의 크기와 전극 좌표</h3><p>심장은 구조를 읽기 위해 확대해 그린 전면 개념 절개도입니다. LA와 앞·뒤의 심근 구역을 펼쳐 보여 주며 실제 단면이나 위치 비례를 재현하지는 않습니다. 전극은 별도의 3D 흉곽 타원체 표면 좌표에서 계산하며, 심장 그림의 확대가 계산 거리를 바꾸지 않습니다. ‘전극 위치’에서는 전극과 흉곽을 함께 보여 줍니다. 흉곽 보기를 바꿔도 심장 절개도는 정면으로 유지됩니다. 가슴 전극 위치는 축약 좌표이며 실제 늑간 부착 도해가 아닙니다. 점선 전극은 현재 보기의 반대쪽 표면에 있습니다.</p><p>벽의 옅은 황금색은 흥분, 청회색은 Vm이 감소하는 회복입니다. 각 구역·층의 평균 Vm을 저장 샘플 사이에서 보간하며, Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열합니다. 이름에 마우스를 올리거나 키보드로 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 패널을 엽니다. 설정에서 켜는 작은 벡터 도해의 청회색은 합성 dipole, 청록 점선은 선택 유도의 Lead field입니다. 전압은 고정 배율의 a.u.이고 임상 mV로 보정하지 않았습니다.</p></section>
       <p className="ecg-guide-sources">근거: <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noreferrer">OpenStax · Heart anatomy</a> · <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noreferrer">OpenStax · Conduction system</a> · <a href="https://www.bem.fi/book/06/06.htm" target="_blank" rel="noreferrer">Bioelectromagnetism · 활성과 전류</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27034121/" target="_blank" rel="noreferrer">APD gradient와 T wave 연구</a></p>
       <p className="ecg-guide-sources">모델 참고: <a href="https://doi.org/10.1161/01.CIR.41.6.899" target="_blank" rel="noreferrer">Durrer · Ventricular activation</a> · <a href="https://opencarp.org/documentation/examples/02_ep_tissue/07_extracellular" target="_blank" rel="noreferrer">openCARP · ECG recovery</a> · <a href="https://doi.org/10.1186/s12576-020-00760-3" target="_blank" rel="noreferrer">Okada · ST elevation 기전</a></p>
+      <section><h3>전기적 활성화와 수축·이완</h3><p>각 조직의 Vm 상승이 짧은 지연 뒤에 수축 반응을 일으키고, 반응이 소멸하며 이완합니다. 심방과 심실의 반응 시간은 다르고, 전도 지연이나 차단은 실제 활성 기록을 통해 움직임에 반영됩니다. 내강은 안쪽으로 좁아지고 Endocardium이 Epicardium보다 더 이동해 벽이 두꺼워지며, AV plane은 Apex 쪽으로 내려옵니다. 심장 전체의 단순 확대·축소가 아닙니다.</p><p>Vm에서 구한 무차원 반응으로 절개도를 변형하는 단방향 교육용 표시입니다. 실제 Calcium transient·Crossbridge·심근 탄성·압력·혈류·Valve 역학을 풀지 않으며 EF나 임상 Strain을 계산하지 않습니다. Ischemia의 수축 반응은 손상 정도에 따라 감소시키고 Scar에는 능동 수축을 주지 않지만, 주변 조직에 끌려 움직일 수 있습니다. 전극·ECG 계산 좌표와 파란 전기장 화살표의 시작점은 고정됩니다. 표시를 꺼도 ECG는 변하지 않습니다.</p><p>‘설정 → 모델 → 심방·심실 수축 표시’로 켜고 끕니다. 기기의 동작 줄이기를 사용하면 기본적으로 꺼집니다. <a href="https://pubmed.ncbi.nlm.nih.gov/28754098/" target="_blank" rel="noreferrer">Asgeirsson · AV plane과 Longitudinal shortening</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/28392437/" target="_blank" rel="noreferrer">Land · Calcium–tension 모델</a>을 참고했으며, 해당 논문의 정량 모델을 구현한 것은 아닙니다.</p></section>
     </div></dialog>
   </div>;
 }

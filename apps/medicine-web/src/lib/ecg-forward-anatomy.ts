@@ -1,4 +1,5 @@
 import type { ForwardRecording, HeartMesh, Vec3 } from "./ecg-forward-model";
+import type { MechanicalFrame } from "./ecg-forward-mechanics";
 
 export type DiagramPoint = { x: number; y: number };
 type Curve = readonly [DiagramPoint, DiagramPoint, DiagramPoint];
@@ -36,6 +37,92 @@ const RIBBONS: Record<string, Ribbon> = {
   "lv-basal": { inner: curve([378, 216], [346, 207], [320, 231]), outer: curve([380, 200], [339, 184], [291, 215]) },
 };
 function ribbonPoint(ribbon: Ribbon, along: number, depth: number) { return mix(at(ribbon.inner, along), at(ribbon.outer, along), depth); }
+
+type Displacement = { region: string; dx: number; dy: number };
+type DeformablePoint = DiagramPoint & { motion: Displacement[] };
+const bounded = (x: number) => Math.max(0, Math.min(1, x));
+const smooth = (from: number, to: number, x: number) => { const t = bounded((x - from) / (to - from)); return t * t * (3 - 2 * t); };
+const ventricularWalls = Object.entries(RIBBONS).filter(([, ribbon]) => !ribbon.atrial).map(([region, ribbon]) => ({
+  region, samples: Array.from({ length: 13 }, (_, i) => ({ inner: at(ribbon.inner, i / 12), outer: at(ribbon.outer, i / 12) })),
+}));
+
+/** A continuous, local displacement field on the educational cutaway. The same
+ * mapping deforms outline, cavities, myocardium, valves and conduction paths.
+ * It is not a volume-conserving mechanics solver or a change to the ECG mesh. */
+function deformablePoint({ x, y }: DiagramPoint): DeformablePoint {
+  const motion: Displacement[] = [];
+  const ventral = smooth(185, 235, y);
+  const longitudinal = y < 210 ? smooth(95, 210, y) : bounded((490 - y) / 280);
+  const walls = ventricularWalls.map(wall => {
+    let weight = 0, inwardX = 0, inwardY = 0;
+    for (const sample of wall.samples) {
+      const middle = mix(sample.inner, sample.outer, .45);
+      const distance = (x - middle.x) ** 2 + (y - middle.y) ** 2;
+      const local = Math.exp(-distance / (2 * 52 ** 2));
+      const { inner, outer } = sample, dx = outer.x - inner.x, dy = outer.y - inner.y, thickness = Math.hypot(dx, dy);
+      const depth = bounded(((x - inner.x) * dx + (y - inner.y) * dy) / (thickness * thickness));
+      weight += local;
+      inwardX -= dx / thickness * (11 + 18 * (1 - depth)) * local;
+      inwardY -= dy / thickness * (4 + 9 * (1 - depth)) * local;
+    }
+    // Endocardium moves further inward than epicardium: the cavity narrows while
+    // the wall thickens. Long-axis shortening draws the AV plane toward the apex.
+    // Blend all wall samples smoothly; nearest-sample switching would introduce
+    // spatial discontinuities and could fold the wall during local contraction.
+    return { region: wall.region, weight, dx: inwardX / Math.max(weight, 1e-12), dy: inwardY / Math.max(weight, 1e-12) };
+  });
+  const total = walls.reduce((sum, wall) => sum + wall.weight, 0);
+  const envelope = smooth(80, 140, x) * (1 - smooth(485, 545, x)) * (1 - smooth(495, 530, y));
+  for (const wall of walls) {
+    const weight = wall.weight / Math.max(total, 1e-9) * envelope;
+    motion.push({ region: wall.region, dx: wall.dx * ventral * weight, dy: (wall.dy * ventral + 27 * longitudinal) * weight });
+  }
+  for (const [region, cx, cy] of [["ra-wall", 221, 157], ["la-wall", 371, 156]] as const) {
+    const radius = Math.hypot((x - cx) / 66, (y - cy) / 50);
+    const locality = Math.exp(-4 * Math.max(0, radius - .8) ** 2) * smooth(60, 100, y) * (1 - smooth(185, 232, y));
+    motion.push({ region, dx: -(x - cx) * .22 * locality, dy: -(y - cy) * .27 * locality });
+  }
+  return { x, y, motion };
+}
+
+type PathPlan = (string | DeformablePoint)[];
+const pathPlans = new Map<string, PathPlan>();
+function planPath(path: string): PathPlan {
+  const cached = pathPlans.get(path); if (cached) return cached;
+  const tokens = path.match(/-?\d*\.?\d+(?:e[-+]?\d+)?|[A-Za-z]/g) ?? [], plan: PathPlan = [];
+  for (let i = 0; i < tokens.length;) {
+    const token = tokens[i++];
+    if (/^[A-Za-z]$/.test(token)) {
+      if (!/^[MLCQZ]$/.test(token)) throw new Error(`Unsupported heart path command: ${token}`);
+      plan.push(token);
+    } else {
+      const x = Number(token), y = Number(tokens[i++]);
+      if (!Number.isFinite(x + y)) throw new Error("Invalid heart path coordinate");
+      plan.push(deformablePoint({ x, y }));
+    }
+  }
+  pathPlans.set(path, plan); return plan;
+}
+
+export type HeartDeformation = { point: (point: DiagramPoint) => DiagramPoint; path: (path: string) => string };
+export function createHeartDeformation(frame: MechanicalFrame): HeartDeformation {
+  if (!Object.values(frame).some(value => value > .00001)) return { point: point => point, path: path => path };
+  const apply = (point: DeformablePoint) => {
+    let { x, y } = point;
+    for (const movement of point.motion) {
+      const amount = frame[movement.region] ?? 0;
+      x += movement.dx * amount; y += movement.dy * amount;
+    }
+    return { x, y };
+  };
+  return {
+    point: point => apply(deformablePoint(point)),
+    path: path => planPath(path).map(item => {
+      if (typeof item === "string") return item;
+      const point = apply(item); return `${point.x.toFixed(2)} ${point.y.toFixed(2)}`;
+    }).join(" "),
+  };
+}
 
 /** Fixed tissue-centroid observation points: two atrial and nine ventricular.
  * The cutaway is unfolded, so its anchors are anatomical locators, NOT torso

@@ -34,6 +34,34 @@
 - [전극 위치와 전위차](/interactive/ecg-arrhythmia/notes#forward-electrodes)
 - [전도와 회복 조건 비교](/interactive/ecg-arrhythmia/notes#forward-conduction)
 
+## forward-mechanics | 전기적 활성화와 심방·심실 수축
+
+### 기전
+
+- 실제 Excitation–contraction coupling에서는 Action potential에 뒤따르는 Calcium transient와 Crossbridge 반응이 수축으로 이어집니다. ECG나 Electric field의 방향이 곧 심근의 수축 방향인 것은 아닙니다. 이 앱의 기존 막전위 모델은 Calcium을 계산하지 않으므로, 실제 수축력 모델을 완성한 것으로 해석하면 안 됩니다.
+- 화면의 수축은 각 Myocardial 구역의 기록된 Vm 상승을 입력으로 받는 단방향 교육용 반응입니다. 전도 조건마다 별도 수축 애니메이션을 재생하거나 ECG의 P·QRS·T 모양을 읽어서 움직이지 않습니다. 구역별 조직량으로 가중한 Upstroke가 짧은 지연 뒤에 반응을 만들고, 두 단계의 감쇠·지연을 거쳐 부드럽게 수축했다가 이완합니다. 일정하게 높은 Resting Vm만으로는 수축하지 않습니다.
+- Atria는 지연 18 ms·반응 감쇠 48 ms·추종 시상수 32 ms, Ventricles는 각각 26·90·52 ms를 사용합니다. 상대 반응은 1−exp(−s)로 제한합니다. 이 값과 그림의 이동 거리는 관찰을 위한 설정이며 환자에서 측정한 수축 시간·Strain·Calcium 농도에 맞춘 매개변수가 아닙니다. 기록 앞의 정상상태를 첫 박동으로 준비하므로 빠른 자극에서도 매번 수축 반응을 0으로 초기화하지 않습니다.
+- 심장 전체를 확대·축소하지 않습니다. Atrial wall은 국소적으로 안쪽으로 움직이고, Ventricular endocardium은 Epicardium보다 더 안쪽으로 이동해 내강이 좁아지며 벽이 두꺼워집니다. Longitudinal shortening은 AV plane이 Apex 쪽으로 내려오는 변형으로 표시합니다. 심장 외곽·내강·벽의 색·전도계·Papillary muscle·Chordae에 같은 변형을 적용합니다. 이름표와 전극, 파란 Electric field 화살표의 시작점은 고정합니다.
+
+### 증상·검사 소견
+
+- 기준 전도에서는 Atrial contraction이 Ventricular contraction보다 먼저 나타납니다. AV 전도가 느려지거나 Bundle branch가 차단되면, 바뀐 활성 기록에 따라 해당 부위의 수축 시점도 달라집니다. 이는 교육용 수축 반응이며 Echocardiography의 임상 Dyssynchrony 지표는 아닙니다.
+- Acute ischemia에서는 계산된 Upstroke의 변화 외에 1−0.7×injury의 상대 수축 반응 감소를 적용합니다. Scar에는 능동 수축을 주지 않습니다. 다만 주변 조직과 이어진 그림이므로 Scar도 수동적으로 끌려 움직일 수 있습니다. 이 감소 계수는 실험용 가정이며 Infarct size·실제 Strain·벽운동 점수에 대한 검증값이 아닙니다.
+
+### 관찰과 해석
+
+- ‘재생’으로 흥분과 뒤따르는 수축을 함께 보거나, 시간 슬라이더를 이동해 같은 시각의 형태를 비교합니다. 부위별 반응은 계산 기록에 저장해 보간하므로 역방향으로 이동하거나 재생 속도를 바꿔도 같은 시각에는 같은 형태가 나옵니다. ‘설정 → 모델 → 심방·심실 수축 표시’에서 끌 수 있으며 기기의 동작 줄이기 설정을 존중합니다.
+- 2.4초 기록 끝에서는 정수 개의 자극 주기만큼 되돌려 같은 박동 위상부터 반복합니다. 수축 도중 갑자기 0 ms의 형태로 돌아가는 것을 피하기 위한 재생 처리이며 Vm이나 ECG 배열을 보정하지 않습니다. 수동 시간 이동은 전체 기록의 원하는 시각으로 그대로 이동합니다.
+- 전기생리 계산과 형태 변형은 분리되어 있습니다. 표시를 켜거나 꺼도 ECG와 전극·Electric field의 계산 좌표는 바뀌지 않습니다. 움직이는 심장에서의 전류원 위치 변화나 Mechanoelectric feedback을 다시 푸는 것은 아닙니다.
+- 2D 절개도의 국소 변형이며 조직 부피 보존, 실제 Fiber 방향·Torsion, Calcium–Crossbridge, 심근 탄성, 압력·Preload·Afterload, 혈류와 Valve 개폐 역학은 포함하지 않습니다. 따라서 EF·Stroke volume·임상 Strain·혈역학적 안정성을 추정할 수 없습니다. 완전한 Electromechanical 모델로 확장하려면 실제 해부학 mesh, Calcium 또는 Active tension, 재료 법칙과 순환계 경계조건이 추가로 필요합니다.
+
+### 관련 자료
+
+- [심근 전기활동 계산](/interactive/ecg-arrhythmia/notes#forward-model)
+- [부위별 Ischemia](/interactive/ecg-arrhythmia/notes#regional-ischemia)
+- [Asgeirsson et al. — Longitudinal shortening·AV plane displacement, 2017](https://pubmed.ncbi.nlm.nih.gov/28754098/)
+- [Land et al. — Human cardiomyocyte contraction model, 2017](https://pubmed.ncbi.nlm.nih.gov/28392437/)
+
 ## forward-electrodes | 전극 위치·Lead field·전위차
 ### 기전
 - 심근 연결마다 전류 크기와 연결 방향을 가진 작은 current dipole을 만듭니다. 각 전극에서 구하는 전위는 이 dipole과 전극 방향 벡터의 내적을 거리의 세제곱으로 나눈 기여들을 합한 값입니다. 하나의 평균 벡터만으로 모든 파형을 대체하지 않습니다.
@@ -240,6 +268,8 @@
 - [Whole-heart model — APD gradients and T-wave concordance (2016)](https://pubmed.ncbi.nlm.nih.gov/27034121/)
 - [NHLBI — How the heart beats: cardiac conduction system](https://www.nhlbi.nih.gov/health/heart/heart-beats)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 6: The Heart](https://www.bem.fi/book/06/06.htm)
+- [Asgeirsson et al. — Longitudinal shortening·AV plane displacement (2017)](https://pubmed.ncbi.nlm.nih.gov/28754098/)
+- [Land et al. — Human cardiomyocyte contraction model (2017)](https://pubmed.ncbi.nlm.nih.gov/28392437/)
 - [Durrer et al. — Total excitation of the isolated human heart (1970)](https://doi.org/10.1161/01.CIR.41.6.899)
 - [openCARP — Extracellular potentials, ECG recovery and bidomain comparison](https://opencarp.org/documentation/examples/02_ep_tissue/07_extracellular)
 - [Okada et al. — Ionic mechanisms of ST segment elevation (2020)](https://doi.org/10.1186/s12576-020-00760-3)

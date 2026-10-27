@@ -3,12 +3,13 @@
 import { useId, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from "react";
 import { electricFieldWeights, sampleElectricField, electrodePosition, ELECTRODE_IDS, HEART_CENTER, leadFieldAtCenter, pickSceneSurface, projectScenePosition, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardRecording, type LeadPlacement, type StandardLead } from "@/lib/ecg-forward-model";
 import { HEART_PARTS, recordingFrame, type HeartPart } from "@/lib/ecg-forward-display";
-import { conductionEvents, createAnatomyLayout, createAnatomyFieldProbes, projectAnatomyField, HEART_CHAMBERS, pointOnRoute } from "@/lib/ecg-forward-anatomy";
+import { conductionEvents, createAnatomyLayout, createAnatomyFieldProbes, createHeartDeformation, projectAnatomyField, HEART_CHAMBERS, pointOnRoute } from "@/lib/ecg-forward-anatomy";
+import { mechanicalRecording, mechanicalFrame, chamberShortening } from "@/lib/ecg-forward-mechanics";
 import { EcgForwardHeart, EcgForwardHeartDetail } from "@/components/ecg-forward-heart";
 
 type Props = {
   readRecording: () => ForwardRecording; electrodes: ElectrodeMap; placement: LeadPlacement; lead: StandardLead;
-  timeMs: number; yaw: number; selected: ElectrodeId; showFields: boolean; showVectors: boolean;
+  timeMs: number; yaw: number; selected: ElectrodeId; showFields: boolean; showVectors: boolean; showMotion: boolean;
   electrodeMode: boolean; onElectrodeMode: (active: boolean) => void;
   part: HeartPart; onPart: (part: HeartPart) => void;
   onMove: (id: ElectrodeId, electrode: Electrode) => void; onSelect: (id: ElectrodeId) => void;
@@ -35,11 +36,17 @@ const activate = (event: KeyboardEvent<SVGElement>, action: () => void) => {
   if (event.key === "Enter" || event.key === " ") { event.preventDefault(); event.stopPropagation(); action(); }
 };
 
-export function EcgForwardScene({ readRecording, electrodes, placement, lead, timeMs, yaw, selected, showFields, showVectors, electrodeMode, onElectrodeMode, part, onPart, onMove, onSelect }: Props) {
+export function EcgForwardScene({ readRecording, electrodes, placement, lead, timeMs, yaw, selected, showFields, showVectors, showMotion, electrodeMode, onElectrodeMode, part, onPart, onMove, onSelect }: Props) {
   const recording = readRecording();
   const id = useId().replaceAll(":", ""), dragging = useRef<ElectrodeId | null>(null);
   const [hovered, setHovered] = useState<HeartPart | null>(null);
   const layout = useMemo(() => createAnatomyLayout(recording.mesh), [recording.mesh]);
+  const mechanics = useMemo(() => mechanicalRecording(recording), [recording]);
+  const shortening = mechanicalFrame(mechanics, timeMs), chambers = chamberShortening(shortening);
+  const previousMotion = chamberShortening(mechanicalFrame(mechanics, timeMs - 8));
+  const deformation = createHeartDeformation(showMotion ? shortening : {});
+  const ventricle = (chambers.RV + chambers.LV) / 2, atrium = (chambers.RA + chambers.LA) / 2;
+  const motionLabel = ventricle > .12 ? ventricle >= (previousMotion.RV + previousMotion.LV) / 2 ? "심실 수축" : "심실 이완" : atrium > .12 ? atrium >= (previousMotion.RA + previousMotion.LA) / 2 ? "심방 수축" : "심방 이완" : "이완기";
   const probes = useMemo(() => createAnatomyFieldProbes(recording.mesh).map(probe => ({ ...probe, weights: electricFieldWeights(recording.mesh, probe.position) })), [recording.mesh]);
   const events = useMemo(() => conductionEvents(recording, layout.paths), [recording, layout.paths]);
   const injuryBands=useMemo(()=>layout.bands.map(band=>({...band,injury:band.cells.reduce((sum,index)=>sum+(recording.mesh.cells[index].injury??0),0)/Math.max(1,band.cells.length),scar:band.cells.some(index=>recording.mesh.cells[index].scar)})).filter(band=>band.injury>0),[layout.bands,recording.mesh]);
@@ -95,7 +102,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
         <button type="button" aria-pressed={!electrodeMode} onClick={() => { setHovered(null); onElectrodeMode(false); }}>전도 경로</button>
         <button type="button" aria-pressed={electrodeMode} onClick={() => { setHovered(null); onElectrodeMode(true); }}>전극 위치</button>
       </div>
-      <span>{electrodeMode ? "전극을 끌어 위치 변경" : "전면 개념 절개도"}</span>
+      <span title="막전위에 따른 교육용 수축 반응 · 실제 압력·혈류 계산 아님">{electrodeMode ? "전극을 끌어 위치 변경" : showMotion ? `${motionLabel} · 전면 절개도` : "수축 표시 끔 · 전면 절개도"}</span>
     </div>
     <svg viewBox={electrodeMode ? "0 20 620 500" : "45 20 550 485"} role="group" tabIndex={0} className="ecg-integrated-drawing"
       aria-label={`심장 전도 경로와 측정 전극. ${electrodeMode ? "전극을 끌거나 흉곽 표면을 누르세요." : "구조에 마우스를 올리거나 이름을 눌러 설명을 확인하세요. 전극 위치 탭에서 전극을 옮깁니다."} 방향키로 선택 전극을 움직입니다.`}
@@ -129,30 +136,31 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
         {[-50, 0, 50].map(latitude => <path key={latitude} d={Array.from({ length: 91 }, (_, i) => { const point = projectScenePosition(electrodePosition({ longitude: i * 4 - 180, latitude }), yaw); return `${i ? "L" : "M"}${point.x.toFixed(1)} ${point.y.toFixed(1)}`; }).join(" ")} fill="none" stroke="#c0d2de" strokeWidth=".8" />)}
       </g> : null}
       <text x={electrodeMode ? 34 : 70} y={electrodeMode ? 79 : 486} className="ecg-scene-orientation">환자 R</text><text x={electrodeMode ? 586 : 570} y={electrodeMode ? 79 : 486} textAnchor="end" className="ecg-scene-orientation">환자 L</text>
-      <g className="ecg-anatomy-layer" opacity={electrodeMode ? .6 : 1} aria-hidden={electrodeMode}>
-        <EcgForwardHeart id={id} />
+      <g className="ecg-anatomy-layer" opacity={electrodeMode ? .6 : 1} aria-hidden={electrodeMode} data-motion-enabled={showMotion} data-mechanical-state={JSON.stringify(chambers)}>
+        <EcgForwardHeart id={id} deformation={deformation} />
         <g mask={`url(#${id}-myocardial-mask)`} pointerEvents="none" aria-hidden="true">
-          {injuryBands.map((band,index)=><path key={`injury-${index}`} data-injury-region={band.region} data-injury-state={band.scar?"scar":"acute"} d={band.path} fill={band.scar?`url(#${id}-scar)`:"#b24762"} fillOpacity={band.scar?.7:.18+band.injury*.4} stroke="#a23e52" strokeWidth=".35"/>)}
+          {injuryBands.map((band,index)=><path key={`injury-${index}`} data-injury-region={band.region} data-injury-state={band.scar?"scar":"acute"} d={deformation.path(band.path)} fill={band.scar?`url(#${id}-scar)`:"#b24762"} fillOpacity={band.scar?.7:.18+band.injury*.4} stroke="#a23e52" strokeWidth=".35"/>)}
           <g filter={`url(#${id}-tissue-soften)`}>
-            {bands.map((band, index) => <path key={index} data-myocardial-region={band.region} d={band.path} fill={band.falling ? "#7b9eac" : "#e5ad55"} fillOpacity={Math.max(0, band.voltage - .08) * .65} />)}
+            {bands.map((band, index) => <path key={index} data-myocardial-region={band.region} d={deformation.path(band.path)} fill={band.falling ? "#7b9eac" : "#e5ad55"} fillOpacity={Math.max(0, band.voltage - .08) * .65} />)}
           </g>
         </g>
-        <EcgForwardHeartDetail />
+        <EcgForwardHeartDetail deformation={deformation} />
         <g className="ecg-conduction-network" fill="none" strokeLinecap="round" strokeLinejoin="round">
           {paths.map(path => {
             const width = WIDTHS[path.kind], front = path.front;
             const start = front === null ? 0 : path.event!.forward ? Math.max(0, front - .22) : front;
             const end = front === null ? 0 : path.event!.forward ? front : Math.min(1, front + .22);
-            const point = front === null ? null : pointOnRoute(path.points, front);
+            const point = front === null ? null : deformation.point(pointOnRoute(path.points, front));
+            const curve = deformation.path(path.path);
             return <g key={path.index} data-conduction-edge={path.index} data-blocked={path.blocked} pointerEvents="none">
-              <path d={path.path} stroke="#fffaf1" strokeWidth={width + 2} strokeOpacity=".8" />
-              <path d={path.path} stroke={path.blocked ? "#b34748" : "#397b71"} strokeWidth={width} strokeOpacity={path.kind === "terminal" ? .7 : .95} strokeDasharray={path.blocked ? "3 5" : undefined} />
-              {!path.blocked && path.voltage > .15 ? <path d={path.path} stroke="#c58a2f" strokeWidth={width} strokeOpacity={Math.min(.85, path.voltage * .9)} /> : null}
+              <path d={curve} stroke="#fffaf1" strokeWidth={width + 2} strokeOpacity=".8" />
+              <path d={curve} stroke={path.blocked ? "#b34748" : "#397b71"} strokeWidth={width} strokeOpacity={path.kind === "terminal" ? .7 : .95} strokeDasharray={path.blocked ? "3 5" : undefined} />
+              {!path.blocked && path.voltage > .15 ? <path d={curve} stroke="#c58a2f" strokeWidth={width} strokeOpacity={Math.min(.85, path.voltage * .9)} /> : null}
               {point ? <g data-wave-direction={path.event!.forward ? "forward" : "reverse"}>
-                <path d={path.path} pathLength="1" stroke="#e3a13e" strokeWidth={width + .6} strokeDasharray={`${end - start} 1`} strokeDashoffset={-start} />
+                <path d={curve} pathLength="1" stroke="#e3a13e" strokeWidth={width + .6} strokeDasharray={`${end - start} 1`} strokeDashoffset={-start} />
                 <circle cx={point.x} cy={point.y} r={path.kind === "terminal" ? 1.4 : 2.3} fill="#fff1c4" stroke="#ce8f31" strokeWidth=".9" />
               </g> : null}
-              {path.blocked ? (() => { const point = pointOnRoute(path.points, .5); return <text x={point.x} y={point.y + 5} className="ecg-block-label" textAnchor="middle">×</text>; })() : null}
+              {path.blocked ? (() => { const point = deformation.point(pointOnRoute(path.points, .5)); return <text x={point.x} y={point.y + 5} className="ecg-block-label" textAnchor="middle">×</text>; })() : null}
             </g>;
           })}
         </g>
@@ -162,14 +170,14 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
           <text x={chamber.x} y={chamber.y + 16} textAnchor="middle" className="ecg-chamber-name">{chamber.id.endsWith("A") ? "Atrium" : "Ventricle"}</text>
         </g>)}
         {["SA node", "AV node"].map(name => {
-          const landmark = recording.mesh.landmarks.find(item => item.label === name)!, point = layout.points[landmark.index];
+          const landmark = recording.mesh.landmarks.find(item => item.label === name)!, point = deformation.point(layout.points[landmark.index]);
           return <g key={name} {...partInteraction(name as HeartPart)} className="ecg-anatomy-hit ecg-node-hit" tabIndex={-1}>
             <ellipse cx={point.x} cy={point.y} rx="10" ry="13" fill="transparent" />
             <ellipse cx={point.x} cy={point.y} rx={name === "SA node" ? 4.5 : 5.2} ry={name === "SA node" ? 9 : 6} transform={`rotate(${name === "SA node" ? 14 : -25} ${point.x} ${point.y})`} fill={voltageAt(landmark.index) > .5 ? "#e3a13e" : "#397b71"} stroke="#fffbef" strokeWidth="1.8" />
           </g>;
         })}
         {!electrodeMode ? <g className="ecg-structure-labels">{LABELS.map(label => <g key={label.part} className="ecg-structure-label" data-highlighted={hovered === label.part}>
-          <path d={label.leader} className="ecg-label-leader" fill="none" pointerEvents="none" />
+          <path d={label.leader.replace(/(-?[\d.]+) (-?[\d.]+)$/, (_match, x, y) => { const point = deformation.point({ x: Number(x), y: Number(y) }); return `${point.x} ${point.y}`; })} className="ecg-label-leader" fill="none" pointerEvents="none" />
           <g {...partInteraction(label.part)} className="ecg-anatomy-hit ecg-landmark-label" data-highlighted={hovered === label.part}>
             <rect x={label.anchor === "end" ? label.x - 98 : label.x - 5} y={label.y - 18} width="103" height={label.sub ? 39 : 29} fill="transparent" />
             <text x={label.x} y={label.y} textAnchor={label.anchor} className="ecg-path-label">{label.label}</text>
