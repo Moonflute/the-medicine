@@ -263,8 +263,10 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
     cell.tauClose*=material.recoveryScale!;conductivity[index]=material.couplingScale!;
   });
   // Lesions change the membrane/coupling equations, never a lead or ST sample.
-  // This phenomenological reduction follows the direction of ischemic changes
-  // (Okada 2020), NOT its ORd ionic equations or a mapping to K+, ATP or minutes.
+  // Modified MS resting/reversal terms follow Alvarez (2012). Outward-current
+  // and transmural sensitivity changes are a phenomenological extension in the
+  // direction described by Shaw/Rudy (1997) and Okada (2020), NOT their ionic
+  // equations or a mapping to K+, ATP or minutes. No target ECG enters the solver.
   const lesion=inputs.ischemia;
   if(lesion&&lesion.depth>0&&(lesion.severity>0||lesion.mode==="scar"))cells.forEach((cell,index)=>{
     if(cell.transmural===undefined||cell.bridge||!lesion.regions.includes(cell.region as MyocardialRegion))return;
@@ -282,8 +284,10 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
     const sensitivity=.4+.6*depth;
     cell.injury=stress;cell.restingPotential=(cell.restingPotential??0)+.12*stress;
     cell.excitability=(cell.excitability??1)*(1-.65*stress*sensitivity);
-    cell.tauOut/=1+1.8*stress*sensitivity;
-    cell.tauClose*=1-.18*stress*sensitivity;
+    // Additional outward conductance represents an ATP-sensitive loss of the
+    // plateau, not an imposed APD/voltage offset. Do not also shorten tauClose:
+    // the inward/outward balance already shortens the computed action potential.
+    cell.tauOut/=1+.6*stress*sensitivity;
     conductivity[index]*=1-.3*stress;
   });
   for(const edge of edges){const a=conductivity[edge.a],b=conductivity[edge.b];edge.conductance*=a+b>0?2*a*b/(a+b):0;}
@@ -332,11 +336,14 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
     for(let i=0;i<n;i++) {
       const v=vm[i],h=gate[i];
       const u=(v-rest[i])/amplitude[i];
-      const dv=amplitude[i]*(excitability[i]*h*u*u*(1-u)/tauIn[i]-u/tauOut[i])+coupling[i]/cells[i].capacity;
+      // Alvarez et al. (2012), Eqs. 10-11: raising resting potential does
+      // not translate the inward-current reversal potential. Keep (1 - Vm)
+      // distinct from (Vm - Vrest), so injury changes the AP, not its offset.
+      const dv=amplitude[i]*(excitability[i]*h*u*u*(1-v/amplitude[i])/tauIn[i]-u/tauOut[i])+coupling[i]/cells[i].capacity;
       const next=v+DT_MS*dv;
       if(!Number.isFinite(next)||next < -.02||next>1.5) throw new Error(`Membrane integration became unstable: ${cells[i].region}, cell ${i}, t=${time.toFixed(1)}, Vm=${next.toFixed(4)}`);
       vm[i]=next;
-      gate[i]=h+DT_MS*(u<.13?(1-h)/120:-h/tauClose[i]);
+      gate[i]=h+DT_MS*(v/amplitude[i]<.13?(1-h)/120:-h/tauClose[i]);
       const relativeTime=time+DT_MS-warmup;
       if(relativeTime>=0 && relativeTime<Math.min(period+100,durationMs)) {
         const nextU=(next-rest[i])/amplitude[i];

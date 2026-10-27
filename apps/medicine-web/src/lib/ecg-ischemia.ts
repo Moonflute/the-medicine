@@ -1,19 +1,47 @@
 import type { ForwardRecording, ForwardTrace, MyocardialRegion } from "./ecg-forward-model";
 
-export type StWindow = { tpStart:number; tpEnd:number; start:number; end:number; valid:boolean; warning:string|null };
+export type StWindow = { tpStart:number; tpEnd:number; start:number; end:number; depolarizationEnd:number; recoveryStart:number|null; plateauGap:number|null; valid:boolean; warning:string|null };
 export type StMeasurement = { tp:number; st:number; shift:number; valid:boolean; warning:string|null };
+const windows=new WeakMap<ForwardRecording,StWindow>();
+/** Tissue-derived boundaries, not a diagnostic J-point detector. The last
+ * upstroke (dU/dt > .015/ms) extends the 50% activation marker. Recovery starts
+ * at the earlier of a cell's AP50 crossing or rapid repolarization in >=2% of
+ * viable myocardial mass (dU/dt < -.005/ms). Injured tissue is NOT excluded.
+ * Thresholds are declared educational phase markers; ECG samples stay intact. */
 export function stWindow(recording:ForwardRecording):StWindow {
+  const cached=windows.get(recording);if(cached)return cached;
   const {ventricularStart,ventricularEnd,atrialStart}=recording.activation;
-  const start=(ventricularEnd??0)+35,end=(ventricularEnd??0)+65;
-  // Early repolarization INSIDE an ischemic zone is part of the injury source,
-  // not by itself a reason to discard ST. Detect overlap with remote recovery.
-  const recovery=recording.mesh.cells.flatMap((cell,i)=>(cell.chamber==="LV"||cell.chamber==="RV")&&!cell.bridge&&!cell.scar&&!(cell.injury&&cell.injury>.01)&&recording.recoveryMs[i]>=0?[recording.recoveryMs[i]]:[]);
-  const earliestRecovery=recovery.length?Math.min(...recovery):Infinity;
+  const {cells}=recording.mesh,n=cells.length,dt=recording.sampleMs;
+  const viable=cells.flatMap((cell,i)=>(cell.chamber==="LV"||cell.chamber==="RV")&&!cell.bridge&&!cell.scar?[i]:[]);
+  let depolarizationEnd=ventricularEnd??0,earliestRecovery=Infinity,mass=0,activeMass=0;
+  for(const i of viable) {
+    const activation=recording.activationMs[i];mass+=cells[i].capacity;
+    if(activation<0)continue;
+    activeMass+=cells[i].capacity;
+    if(recording.recoveryMs[i]>=0)earliestRecovery=Math.min(earliestRecovery,recording.recoveryMs[i]);
+    for(let frame=Math.max(1,Math.ceil(activation/dt));frame<=Math.min(recording.samples-1,Math.floor((activation+30)/dt));frame++) {
+      const du=(recording.voltage[frame*n+i]-recording.voltage[(frame-1)*n+i])/(dt*(cells[i].amplitude??1));
+      if(du>.015)depolarizationEnd=Math.max(depolarizationEnd,frame*dt);
+    }
+  }
+  for(let frame=Math.max(1,Math.floor((ventricularStart??0)/dt));frame*dt<Math.min(earliestRecovery,60000/recording.inputs.rate)&&frame<recording.samples;frame++) {
+    let recoveringMass=0;
+    for(const i of viable) {
+      if(recording.activationMs[i]<0||frame*dt<recording.activationMs[i]+20)continue;
+      const du=(recording.voltage[frame*n+i]-recording.voltage[(frame-1)*n+i])/(dt*(cells[i].amplitude??1));
+      if(du<-.005)recoveringMass+=cells[i].capacity;
+    }
+    if(mass>0&&recoveringMass/mass>=.02){earliestRecovery=frame*dt;break;}
+  }
+  const start=depolarizationEnd+35,end=depolarizationEnd+65;
   const warning=ventricularStart===null||ventricularEnd===null?"Ventricular activation을 확인할 수 없습니다."
-    :ventricularEnd-ventricularStart>140?"활성 분산이 커서 QRS와 ST를 분리해 해석하기 어렵습니다."
-    :end>=earliestRecovery?"비손상 심근의 회복이 측정창과 겹쳐 독립적인 ST 구간으로 해석하기 어렵습니다."
+    :mass===0||activeMass/mass<.98?"일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다."
+    :depolarizationEnd-ventricularStart>140?"활성 분산이 커서 QRS와 ST를 분리해 해석하기 어렵습니다."
+    :end>=earliestRecovery?"손상 조직을 포함한 심근 회복이 측정창과 겹쳐 ST와 T를 분리하기 어렵습니다."
     :end>=60000/recording.inputs.rate||atrialStart===null||atrialStart<=80?"이 조건에서 TP/ST 측정창이 분리되지 않습니다.":null;
-  return {tpStart:20,tpEnd:80,start,end,valid:warning===null,warning};
+  const recoveryStart=Number.isFinite(earliestRecovery)?earliestRecovery:null;
+  const window={tpStart:20,tpEnd:80,start,end,depolarizationEnd,recoveryStart,plateauGap:recoveryStart===null?null:recoveryStart-depolarizationEnd,valid:warning===null,warning};
+  windows.set(recording,window);return window;
 }
 export function sampleMean(values:Float32Array,sampleMs:number,start:number,end:number) {
   let sum=0,count=0;

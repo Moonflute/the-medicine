@@ -1,5 +1,5 @@
 # ECG and arrhythmias
-검토 기준일: 2026-10-26
+검토 기준일: 2026-10-28
 - 기본 화면인 전기생리 모델은 심근 구역의 막전위·회복과 구역 사이 전류를 수치 적분하고, I·II·III·aVR·aVL·aVF·V1–V6를 같은 심장 상태에서 계산합니다. 상대 전압 a.u.를 사용하며 실제 임상 mV로 보정하지 않았습니다.
 - 별도의 리듬 판독 모드는 기존 Lead II 유사 합성 파형입니다. 이 모드의 가로 큰 칸 0.2 s·세로 큰 칸 0.5 mV 표기는 파형 학습용이며, 화면의 물리적 25 mm/s 용지를 의미하지 않습니다. 아래 Sinus rhythm–VT 노트의 고정 PR·QRS 수치는 이 합성 모드에만 해당합니다.
 - 두 모드 모두 진단·치료 판단에 사용할 수 없습니다. ST·QT morphology, 12-lead 진단, Ischemia 진단을 검증한 모델이 아니며 QRS가 있다고 실제 맥박·관류가 보장되지는 않습니다.
@@ -59,6 +59,7 @@
 - Subendocardial 손상과 Transmural 손상은 서로 다른 전위 분포를 만들며, Epicardial 조직의 상대적인 취약성도 영향을 줄 수 있습니다. Okada 등의 모델 연구를 참고했지만 해당 논문의 ORd ionic model·환자 geometry·Bidomain 계산을 재현한 것은 아닙니다.
 
 - 이 앱은 기존 Mitchell–Schaeffer 계열의 축약 식에 조직 특성 변화를 적용합니다. 먼저 조직의 Vm을 다시 적분하고, 동일한 전극 전위 계산식으로 12유도를 생성합니다. 유도별 ST offset, P·QRS·T 템플릿, 특정 유도의 목표 진폭은 입력하지 않습니다.
+- Resting potential을 높이면서 Action potential 전체를 같은 양만큼 올리지 않습니다. Álvarez 등의 수정 식처럼 Inward current의 Driving force는 1−v, Resting potential으로부터의 전압은 v−vrest로 분리합니다. 따라서 휴지기와 Plateau의 변화는 같은 상수 이동이 아니라 막전류의 결과입니다.
 
 ### 증상·검사 소견
 
@@ -71,9 +72,10 @@
 
 - Resting potential: +0.12s. 실제 적분 전압의 휴지기 차이를 만듭니다.
 - Inward current 가용성: ×(1−0.65sq). 흥분성·Upstroke·Plateau가 변합니다.
-- Outward current: ×(1+1.8sq). Plateau 저하·Repolarization 촉진에 기여합니다.
-- Recovery gate 시상수: ×(1−0.18sq). APD·다음 자극 반응이 변합니다.
+- Outward current: ×(1+0.6sq). Plateau 저하·Repolarization 촉진을 축약합니다. ATP-sensitive current의 정밀한 이온식은 아닙니다.
+- Recovery gate 시상수를 허혈 스트레스로 다시 줄이지 않습니다. Inward/Outward current의 변화만으로 APD가 짧아지므로 중복 단축을 제거했습니다. 정상 조직의 식과 기존 부위·층별 회복 특성은 유지합니다.
 - 조직 간 Coupling: ×(1−0.3s). 확산·전도를 바꾸며 양 끝 조직 값의 조화평균을 적용합니다.
+- 기본 Amplitude=1일 때 Inward current는 e·h·(v−vrest)²·(1−v)/τin, Outward current는 −(v−vrest)/τout입니다. h는 실제 정규화 전압 v의 0.13 기준으로 회복·불활성화됩니다. 스트레스 계수는 교육용 범위이며 특정 유도의 ST 크기를 보장하는 보정값이 아닙니다.
 
 - Partial-wall 손상의 깊이 경계는 벽 두께 12% 범위에서 부드럽게 연결합니다. 심방·전도계와 구역 사이의 연결 cable은 직접 손상시키지 않습니다. 기존 구역들은 정밀한 Coronary territory나 AHA 17-segment 모델이 아닙니다. LV inferior는 독립 구역으로 구현하지 않았고 LV apical·basal을 임의로 Inferior infarction이라고 바꾸어 표시하지 않습니다.
 
@@ -89,9 +91,11 @@
 
 ### ST 측정과 한계
 
-- 기본 표시는 원 전위이며 DC 성분을 보존합니다. TP는 첫 박동의 20–80 ms 평균입니다. ST는 계산된 마지막 Ventricular activation 이후 35–65 ms 평균으로, 임상 ECG의 J point 자동 검출과 같지 않습니다.
+- 기본 표시는 원 전위이며 DC 성분을 보존합니다. TP는 첫 박동의 20–80 ms 평균입니다. ST는 조직 Upstroke 종료 이후 35–65 ms 평균으로, 임상 ECG의 J-point 자동 검출과 같지 않습니다. Upstroke 종료는 마지막 50% 활성 시각과 각 심근 활성 후 30 ms 안의 dU/dt > 0.015/ms 구간 끝 중 늦은 값입니다.
+- 회복 시작은 살아 있는 심근의 첫 50% 재분극 또는 심근 질량의 2% 이상에서 dU/dt < −0.005/ms가 확인되는 시점 중 이른 값입니다. 질량은 모델의 Capacitance로 가중합니다. 이 수치는 교육용 조직 단계 구분이며 실제 ECG의 T onset 진단 기준이 아닙니다. 화면의 QRS 종료선·ST 측정창·T 배경은 이 계산 결과에 맞춥니다.
 - ST−TP는 두 원 전위 평균의 차이입니다. ‘TP=0 표시’를 켜면 전체 파형에서 하나의 상수를 빼고, 무손상 비교 기록도 자신의 TP 상수를 뺍니다. ST 구간만 이동하거나 원 데이터에 덮어쓰지 않습니다. 표의 원 전위 수치는 계속 유지합니다.
-- 활성 분산이 140 ms를 넘거나, 비손상 심근의 회복이 측정창과 겹치거나, TP가 불안정하면 ST 수치를 보류합니다. 손상 부위의 이른 회복 자체는 Injury current의 일부이므로 그것만으로 측정을 배제하지 않습니다. 보류 시에도 원 파형은 숨기거나 교정하지 않습니다.
+- 살아 있는 심근 질량의 98% 미만에서 흥분이 확인되거나, 활성 분산이 140 ms를 넘거나, 회복이 측정창과 겹치거나, TP가 불안정하면 ST 수치를 보류합니다. 손상 조직의 이른 회복도 포함합니다. Injury current가 있다는 사실과 QRS·ST·T를 독립적으로 측정할 수 있다는 사실은 다릅니다. 보류 시에도 원 파형은 숨기거나 교정하지 않습니다.
+- 9개 구역의 서로 다른 전류 방향을 비교하되 모든 선택에서 ST elevation이 크게 나오는 것은 아닙니다. 구역 사이 연결은 Endocardial cable로 축약되어 있고 외벽 전체의 연속적인 경계면은 재구성하지 않았습니다. 따라서 Posterior·작은 RV 병변 등에서 변화가 작을 수 있으며 임상적인 Territory별 감도나 Reciprocal change를 검증했다고 해석하지 않습니다.
 - 단위는 a.u.입니다. 1 mm·0.1 mV 등의 임상 ST 기준을 적용할 수 없습니다. 무한 균질 도체에서 전위를 복원하므로 실제 흉곽·폐·혈액의 전도도와 경계 효과를 풀지 않습니다. openCARP의 전위 복원 설명처럼 이 방식은 완전한 Bidomain/Torso 모델과 구분해야 합니다.
 - Hyperkalemia 확장에는 전신적인 Extracellular K⁺ 변화와 이에 따른 Reversal potential·채널 가용성·Repolarization을 따로 모델링해야 합니다. 현재 허혈 스트레스 슬라이더를 혈중 K⁺ 값으로 해석할 수 없으며 Hyperkalemia 모드는 아직 제공하지 않습니다.
 
@@ -99,10 +103,13 @@
 
 - 9개 구역·Partial-wall·Scar·복수 구역을 비교하고, 저장된 Vm에서 전극 전위를 독립적으로 재계산합니다. 손상 라벨만 바꾸어도 파형은 그대로여야 하고, Vm을 모두 0으로 만들면 ECG도 0이어야 합니다.
 - 모든 Vm에 같은 상수를 더해도 전위차는 변하지 않아야 합니다. Einthoven·Augmented lead 항등식, 무손상 복원, 더 촘촘한 격자에서의 ST 차이도 검사합니다. 이는 내부 계산의 일관성 검증이며 환자·실험 측정값에 대한 임상 검증을 대신하지 않습니다.
+- 정상 전도·BBB·RV 자극의 전파를 함께 검사합니다. 허혈 조건에서는 Upstroke 종료부터 회복까지의 간격, ST 창의 회복 중첩, 같은 구간의 변화율을 확인합니다. ST 진폭이 커졌더라도 조기 재분극과 섞이면 개선으로 판정하지 않습니다.
 
 ### 관련 자료
 
 - [Okada · ST elevation 기전 연구](https://doi.org/10.1186/s12576-020-00760-3)
+- [Álvarez · 수정 Mitchell–Schaeffer 허혈 모델](https://tsc.urjc.es/~falonso/papers/MathModelComput2012.pdf)
+- [Shaw & Rudy · Acute ischemia의 막전류 변화](https://pubmed.ncbi.nlm.nih.gov/9349389/)
 - [openCARP · ECG recovery](https://opencarp.org/documentation/examples/02_ep_tissue/07_extracellular)
 - [심근 전기활동과 ECG 생성](/interactive/ecg-arrhythmia/notes#forward-model)
 
