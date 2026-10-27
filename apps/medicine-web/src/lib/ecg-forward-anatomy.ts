@@ -1,4 +1,4 @@
-import type { ForwardRecording, HeartMesh } from "./ecg-forward-model";
+import type { ForwardRecording, HeartMesh, Vec3 } from "./ecg-forward-model";
 
 export type DiagramPoint = { x: number; y: number };
 type Curve = readonly [DiagramPoint, DiagramPoint, DiagramPoint];
@@ -36,6 +36,26 @@ const RIBBONS: Record<string, Ribbon> = {
   "lv-basal": { inner: curve([378, 216], [346, 207], [320, 231]), outer: curve([380, 200], [339, 184], [291, 215]) },
 };
 function ribbonPoint(ribbon: Ribbon, along: number, depth: number) { return mix(at(ribbon.inner, along), at(ribbon.outer, along), depth); }
+
+/** Fixed tissue-centroid observation points: two atrial and nine ventricular.
+ * The cutaway is unfolded, so its anchors are anatomical locators, NOT torso
+ * coordinates. Arrows use a common frontal projection of the 3-D field. */
+export function createAnatomyFieldProbes(mesh: HeartMesh) {
+  return Object.entries(RIBBONS).flatMap(([region, ribbon]) => {
+    const cells = mesh.cells.filter(cell => cell.region === region && !cell.bridge && cell.chamber !== "node");
+    if (!cells.length) return [];
+    const position = [0, 1, 2].map(d => cells.reduce((sum, cell) => sum + cell.position[d], 0) / cells.length) as unknown as Vec3;
+    return [{ region, position, ...ribbonPoint(ribbon, .5, .5) }];
+  });
+}
+
+// Shared, fixed display gain; never rescale each arrow/frame to its own maximum.
+// The bounded length is for legibility, not an absolute V/m calibration.
+export function projectAnatomyField(field: Vec3) {
+  const magnitude = Math.hypot(...field), inPlane = Math.hypot(field[0], field[1]);
+  const length = 32 * Math.tanh(Math.log1p(inPlane / 3) / 3);
+  return { magnitude, inPlane, length, dx: inPlane > 1e-12 ? field[0] / inPlane : 0, dy: inPlane > 1e-12 ? -field[1] / inPlane : 0 };
+}
 function ribbonBand(ribbon: Ribbon, start: number, end: number) {
   const points: DiagramPoint[] = [];
   for (let i = 0; i <= 12; i++) points.push(ribbon.atrial ? ribbonPoint(ribbon, start + (end - start) * i / 12, 0) : ribbonPoint(ribbon, i / 12, start));

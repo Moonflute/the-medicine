@@ -10,8 +10,10 @@
 - 구역 i에서 j로 흐르는 결합 전류는 g·(vi−vj)로 계산합니다. 한 구역에서 나가는 전류는 상대 구역에 들어가며, 연결을 끊으면 이 경로의 전류도 0이 됩니다. 막전위 변화는 자극 직후의 흥분뿐 아니라 plateau와 repolarization까지 계속 적분합니다.
 - 화면은 하나의 Epicardial 외곽선 안에 RA·LA·RV·LV, Septum, AV valves와 Chordae를 배치한 전면 개념 절개도입니다. 뒤쪽의 LA와 앞·뒤 심근 구역을 펼쳐 배치했으며 환자 영상, 실제 단면이나 위치 비례를 재현하지 않습니다. 청록색 전도 경로의 세부 좌표는 계산 좌표와 별개입니다.
 - 심방 사이의 개별 전도 경로·명칭은 도해에서 생략하고, 계산에서는 Atrial myocardium 사이의 분산된 결합으로 축약합니다. SA node는 SVC–RA 접합부, AV node는 RA 하부 Septal 영역에 표시합니다. His·Bundle branches는 Septum을 따르고 Purkinje 말단은 Endocardial 경계에서 분지합니다. 실제 환자의 전체 Network나 세부 Fascicle을 재구성한 것은 아닙니다.
-- 황금색 이동점은 각 연결의 양 끝 구역에서 Vm이 0.5를 통과한 기록 시각 사이를 보간합니다. 매 박동의 실제 기록을 사용하며 RV 자극에서는 역방향 활성도 표시합니다. 연속 조직의 Wavefront 위치나 물리적 전도 속도를 따로 계산하는 것은 아닙니다. 차단된 연결은 붉은 점선과 ×로 표시하고 이동점이나 전류 화살표를 그리지 않습니다.
-- 파란 화살표는 결합 전류 g·(Vmₐ−Vmᵦ)의 부호에서 구합니다. 심근 구역은 도해에 투영된 합성 전류, 전도계는 겹치지 않는 최대 5개의 실제 결합 전류를 표시합니다. 화살표 길이는 가독성 범위로 제한한 상대 크기이며 절대 전류·전도 속도·혈류·흉곽 전류 유선은 아닙니다. 휴지기에는 작은 전류를 표시하지 않고, 전류가 역전되면 방향도 반전합니다.
+- 황금색 이동점은 각 연결의 양 끝 구역에서 Vm이 0.5를 통과한 기록 시각 사이를 보간합니다. 매 박동의 실제 기록을 사용하며 RV 자극에서는 역방향 활성도 표시합니다. 연속 조직의 Wavefront 위치나 물리적 전도 속도를 따로 계산하는 것은 아닙니다. 차단된 연결은 붉은 점선과 ×로 표시하고 이동점을 그리지 않습니다.
+- 파란 화살표는 전극이 아니라 고정 관찰점에서의 Electric field E = −∇φ입니다. RA·LA 각각 1개와 Ventricles 9개 구역의 조직 중심에 관찰점을 두며 시작점은 시간·손상 설정에 따라 이동하지 않습니다. ECG와 동일한 분포 Dipole의 Extracellular potential φ를 관찰 위치에 대해 미분합니다. 따라서 결합 전류 자체나 흥분 파면의 이동 방향과 같다고 해석하면 안 됩니다.
+- 화살표의 시작점은 고정하며 동그라미 등 별도 표식은 그리지 않습니다. 화살표는 전기장의 정면 투영 방향·크기이며 모든 지점·시각에 같은 길이 압축 배율을 사용합니다. 정면 성분이 작으면 화살표를 생략하므로, 표시가 없다고 3D 전기장 전체가 0이라는 뜻은 아닙니다. 관찰 위치는 펼친 절개도에 대응하고 방향은 공통 정면 좌표계입니다. 흉곽 보기를 돌려도 이 절개도는 정면입니다. ECG 원 파형·막전위 계산은 바꾸지 않습니다.
+- 전기장은 기존 Infinite homogeneous conductor와 거리 하한 0.25 model unit을 적용한 전위식에서 계산한 교육용 값입니다. V/m로 보정하지 않았으며 실제 심근의 Intracellular/Extracellular field를 분리한 Bidomain 해가 아닙니다. Lead field는 선택한 유도의 측정 민감도이고, 고정 관찰점의 E와는 다른 양입니다.
 - 심근 벽의 옅은 황금색은 흥분, 청회색은 막전위가 내려가는 회복, 원래 벽색은 낮은 Vm입니다. 구역·층의 평균 Vm을 저장 샘플 사이에서 보간합니다. Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열하며 산소포화도는 아닙니다. 이름에 마우스를 올리거나 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 설명과 첫 활성 시각을 확인합니다.
 - 심근은 RA·LA와 9개 Ventricular 구역으로 나눕니다. Atrial 구역은 전파 방향 33개 계산 층, 각 Ventricular 구역은 Endocardium–Epicardium 방향 18개 계산 층을 가지며 가로 연결도 포함합니다. 구역별 방향·유효 단면적·회복 특성을 다르게 두고 Basal 부위는 상대적으로 늦게 활성되도록 축약합니다. 격자 세분화 시 Capacitance·조직 결합도·Purkinje junction 면적을 함께 고려합니다. 화면의 17개 Atrial·12개 Ventricular 색 띠는 이 계산값을 묶어 표시한 것입니다.
 - 인접한 Ventricular 구역 사이에도 여러 계산 구역으로 이루어진 Myocardial cable을 연결합니다. 이 연결 조직은 자체 막전위와 회복을 계산하며 양방향으로 전류를 전달합니다. 따라서 차단된 쪽의 심근이 역방향 Purkinje 활성만 기다리는 것이 아니라, 남아 있는 심근 경로를 통해 순차적으로 흥분할 수 있습니다. 실제 환자의 섬유 배치를 재구성한 것은 아닙니다.
@@ -243,6 +245,7 @@
 - [Okada et al. — Ionic mechanisms of ST segment elevation (2020)](https://doi.org/10.1186/s12576-020-00760-3)
 - [MacLachlan et al. — Regional ischemia, resting potential and TP shift (2007)](https://pubmed.ncbi.nlm.nih.gov/17544454/)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 11: Distributed sources and Lead vector](https://www.bem.fi/book/11/11.htm)
+- [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 8: Source-field models, E = −∇φ](https://www.bem.fi/book/08/08.htm)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 15: 12-Lead ECG system](https://www.bem.fi/book/15/15.htm)
 - [AHA/ACCF/HRS — ECG standardization, Part I: Technology and multilead measurement (2007)](https://www.jacc.org/doi/10.1016/j.jacc.2007.01.024)
 - [Mitchell & Schaeffer — A two-current model for the dynamics of cardiac membrane (2003)](https://pubmed.ncbi.nlm.nih.gov/12909250/)

@@ -386,6 +386,40 @@ export function potentialWeights(mesh:HeartMesh,electrode:Vec3):Float64Array {
   return weights;
 }
 
+export type ElectricFieldWeights = readonly [Float64Array, Float64Array, Float64Array];
+/** E = -grad(phi), differentiated at the OBSERVATION point, not the source.
+ * Uses exactly the source edges, gain and .25 distance floor of potentialWeights.
+ * Inside that floor phi is linear in r, so its field is -p / .25^3.
+ * This is the existing homogeneous-conductor approximation, not a bidomain field. */
+export function electricFieldWeights(mesh: HeartMesh, point: Vec3): ElectricFieldWeights {
+  const weights: ElectricFieldWeights = [new Float64Array(mesh.cells.length), new Float64Array(mesh.cells.length), new Float64Array(mesh.cells.length)];
+  for (const edge of mesh.edges) if (edge.source) {
+    const a = mesh.cells[edge.a].position, b = mesh.cells[edge.b].position;
+    const r: Vec3 = [point[0] - (a[0] + b[0]) / 2, point[1] - (a[1] + b[1]) / 2, point[2] - (a[2] + b[2]) / 2];
+    const displacement: Vec3 = [b[0] - a[0], b[1] - a[1], b[2] - a[2]];
+    const distance = Math.hypot(...r), radius = Math.max(.25, distance);
+    const radial = distance > .25 ? 3 * dot3(displacement, r) / radius ** 5 : 0;
+    for (let d = 0; d < 3; d++) {
+      const factor = SOURCE_GAIN * edge.conductance * (radial * r[d] - displacement[d] / radius ** 3);
+      weights[d][edge.a] += factor; weights[d][edge.b] -= factor;
+    }
+  }
+  return weights;
+}
+
+/** Linear interpolation of the recorded Vm preserves reversals through zero.
+ * No temporal normalization, selected-lead dependence or modification of Vm. */
+export function sampleElectricField(recording: ForwardRecording, weights: ElectricFieldWeights, timeMs: number): Vec3 {
+  const position = Math.max(0, Math.min(recording.samples - 1, timeMs / recording.sampleMs));
+  const first = Math.floor(position), last = Math.min(recording.samples - 1, first + 1), fraction = position - first;
+  const n = recording.mesh.cells.length, result: [number, number, number] = [0, 0, 0];
+  for (let i = 0; i < n; i++) {
+    const voltage = recording.voltage[first * n + i] * (1 - fraction) + recording.voltage[last * n + i] * fraction;
+    for (let d = 0; d < 3; d++) result[d] += weights[d][i] * voltage;
+  }
+  return result;
+}
+
 export function referencePositions(placement:LeadPlacement):Vec3[] {
   const limbs=placement.limbs??LIMB_ELECTRODES;
   if(placement.reference==="wilson") return Object.values(limbs).map(electrodePosition);
