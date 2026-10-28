@@ -48,25 +48,19 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 @media(prefers-reduced-motion:reduce) { .physiology-workbench * { scroll-behavior:auto; transition:none!important; } }
 
 /* ECG: equally sized heart/electrode and 12-lead panels. */
-.ecg-route { position:relative; display:grid; grid-template-rows:32px minmax(0,1fr); gap:8px; }
-.ecg-route>nav { align-items:center; padding-right:135px; }
-.ecg-route>nav a { padding:4px 10px; font-size:12px; }
-.ecg-route>nav svg { width:14px; height:14px; }
-.ecg-route-support { position:absolute; right:0; top:0; z-index:35; font-size:12px; }
-.ecg-route-support>summary { cursor:pointer; padding:7px 10px; border:1px solid var(--line); border-radius:6px; background:var(--surface); }
-.ecg-route-support>div { position:absolute; right:0; top:38px; width:min(560px,calc(100vw - 32px)); max-height:70dvh; overflow:auto; padding:18px; border:1px solid var(--line); border-radius:10px; background:var(--surface); box-shadow:0 12px 40px #0002; }
-.ecg-interactive { min-height:0; display:grid; grid-template-rows:36px minmax(0,1fr); gap:8px; }
-.ecg-mode-nav { display:flex; gap:6px; align-items:stretch; }
-.physiology-workbench .ecg-mode-nav button { min-height:34px; padding:5px 13px; font-size:12px; }
-.ecg-forward-lab { min-height:0; display:grid; grid-template-rows:44px minmax(0,1fr) 18px; gap:8px; }
-.ecg-lab-header { display:flex; align-items:center; gap:12px; }
-.ecg-lab-header h1 { font-size:19px; font-weight:750; line-height:1.25; letter-spacing:-.04em; }
-.ecg-lab-header>div>span { font-size:12px; color:var(--muted); }
-.ecg-lab-header>label { display:flex; align-items:center; gap:8px; margin-left:auto; font-size:12px; white-space:nowrap; }
+.ecg-route { position:relative; min-width:0; display:grid; grid-template-rows:32px minmax(0,1fr); gap:8px; }
+.ecg-route-header { display:flex; align-items:center; gap:16px; min-width:0; }
+.ecg-route-header h1 { font-size:18px; font-weight:750; line-height:1.25; letter-spacing:-.03em; white-space:nowrap; }
+.ecg-route-header nav { display:flex; align-items:center; flex-wrap:wrap; gap:6px; }
+.ecg-route-header nav a { padding:4px 10px; font-size:12px; }
+.ecg-route-header nav svg { width:14px; height:14px; }
+.ecg-interactive { min-width:0; min-height:0; display:grid; grid-template-rows:minmax(0,1fr); }
+.ecg-forward-lab { min-width:0; min-height:0; display:grid; grid-template-rows:minmax(0,1fr) 18px; gap:8px; }
 .ecg-lab-footnote { font-size:11px; line-height:18px; color:var(--muted); }
-.ecg-recording-slot,.ecg-workspace { position:relative; min-height:0; }
+.ecg-recording-slot,.ecg-workspace { position:relative; min-width:0; min-height:0; }
 .ecg-workspace { height:100%; }
 .ecg-workspace-main { height:100%; min-width:0; min-height:0; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:10px; }
+.ecg-output-slot { min-width:0; min-height:0; container-type:inline-size; }
 .ecg-scene-card,.ecg-signal-card,.ecg-inspector { min-width:0; min-height:0; border:1px solid var(--line); border-radius:10px; background:var(--surface); }
 .ecg-scene-card { display:grid; grid-template-rows:38px minmax(0,1fr) 43px; overflow:hidden; }
 .ecg-scene-toolbar { display:flex; align-items:center; gap:10px; padding:0 9px; border-bottom:1px solid var(--line); font-size:12px; }
@@ -75,13 +69,31 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .physiology-workbench .ecg-injury-launch { min-height:27px; padding:3px 6px; border:1px solid #d9bcc5; border-radius:5px; font-size:11px; color:#913a4b; white-space:nowrap; }
 .physiology-workbench .ecg-injury-launch[data-active="true"] { background:#f9e9ed; color:#873045; }
 .ecg-injury-key i { background:#b24762; }
-.ecg-injury-intro h3,.ecg-injury-result h3,.ecg-tissue-probes h3 { font-size:13px; font-weight:750; }
-.ecg-injury-intro p,.ecg-injury-result p,.ecg-tissue-probes p { margin-top:5px; font-size:11px; line-height:1.55; color:var(--muted); }
-.ecg-injury-regions { border:0; padding:0; min-width:0; }.ecg-injury-regions legend { font-size:12px; margin-bottom:6px; }.ecg-injury-regions>div { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; }
-.physiology-workbench .ecg-injury-regions button { min-height:30px; padding:4px 3px; border:1px solid var(--line); border-radius:5px; font-size:10px; }
-.ecg-injury-actions { display:flex; gap:5px; }.physiology-workbench .ecg-injury-actions button { padding:5px 8px; font-size:11px; min-height:32px; }
-.ecg-injury-result { padding-top:10px; border-top:1px solid var(--line); }.ecg-injury-result dl { margin:8px 0; display:grid; gap:5px; }.ecg-injury-result dl>div { display:flex; justify-content:space-between; font-size:12px; }.ecg-injury-result dd { font:600 13px ui-monospace,monospace; }.ecg-injury-result .ecg-check { margin-top:9px; }.ecg-injury-result .ecg-onset-button { margin-top:8px; }
-.ecg-tissue-probes svg { display:block; width:100%; margin-top:6px; background:#fafbf9; border:1px solid var(--line); border-radius:6px; }.ecg-tissue-probes text { font:9px system-ui,sans-serif; fill:#516a62; }
+.ecg-injury-picker { display:grid; gap:18px; max-width:680px; margin-inline:auto; }
+.ecg-injury-intro h3 { font-size:18px; font-weight:750; }
+.ecg-injury-intro p { margin-top:6px; font-size:13px; line-height:1.65; color:var(--muted); }
+.ecg-injury-regions { border:0; padding:0; min-width:0; }
+.ecg-injury-regions legend { font-size:13px; font-weight:650; margin-bottom:10px; }
+.ecg-injury-regions>div { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+.ecg-injury-region-option { display:flex; align-items:center; gap:7px; min-height:52px; padding:9px; border:1px solid var(--line); border-radius:8px; font-size:12px; cursor:pointer; }
+.ecg-injury-region-option[data-selected="true"] { background:#fff0f4; border-color:#b44a69; color:#812d48; }
+.ecg-injury-region-option:focus-within { outline:2px solid #9c3454; outline-offset:2px; }
+.ecg-injury-region-option input { width:16px; height:16px; margin:0; accent-color:#9c3454; flex-shrink:0; }
+.ecg-region-number { display:inline-flex; align-items:center; justify-content:center; width:21px; height:21px; flex-shrink:0; border:1px solid #cbb6bc; border-radius:50%; color:#75535e; background:#fff; font-size:11px; font-weight:700; }
+.ecg-injury-region-option[data-selected="true"] .ecg-region-number { background:#9c3454; border-color:#9c3454; color:#fff; }
+.ecg-injury-selection-status { color:var(--muted); font-size:12px; }
+.ecg-injury-actions { display:flex; gap:8px; }
+.physiology-workbench .ecg-injury-actions button { padding:8px 16px; font-size:13px; min-height:40px; }
+.ecg-injury-preview-area { fill:none; stroke:#bca5ac; stroke-width:.8; stroke-dasharray:3 3; }
+.ecg-injury-preview-area[data-selected="true"] { fill:#de7898; fill-opacity:.48; stroke:#982e51; stroke-width:2; stroke-dasharray:5 2; }
+.ecg-injury-preview-number circle { fill:#fff; stroke:#b49ca4; stroke-width:1; }
+.ecg-injury-preview-number text { fill:#75535e; font:700 12px system-ui,sans-serif; }
+.ecg-injury-preview-number[data-selected="true"] circle { fill:#9c3454; stroke:#fff; stroke-width:1.5; }
+.ecg-injury-preview-number[data-selected="true"] text { fill:#fff; }
+.ecg-integrated-scene[data-injury-editing="true"] .ecg-conduction-network { opacity:.16; }
+.ecg-integrated-scene[data-injury-editing="true"] .ecg-structure-labels { display:none; }
+.ecg-integrated-scene[data-injury-editing="true"] .ecg-anatomy-hit { pointer-events:none; cursor:default; }
+.ecg-integrated-heading .ecg-region-map-title { padding:5px 9px; border:1px solid #e3bdc8; border-radius:5px; background:#fff4f7; color:#812d48; font-size:12px; font-weight:700; }
 .physiology-workbench .ecg-scene-toolbar select,.physiology-workbench .ecg-signal-toolbar select { padding:3px 5px; border-radius:5px; font-size:12px; }
 .ecg-integrated-scene { position:relative; display:grid; grid-template-rows:minmax(0,1fr) minmax(30px,auto); min-height:0; min-width:0; background:#fbfcfa; color:#203b3b; }
 .ecg-integrated-heading { position:absolute; z-index:1; top:4px; left:0; right:0; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:3px 10px; pointer-events:none; }
@@ -125,12 +137,18 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .ecg-forward-playback input { min-width:30px; flex:1; accent-color:#087f70; }
 .ecg-forward-playback output { min-width:63px; text-align:right; font:600 13px ui-monospace,monospace; }
 .ecg-forward-playback small { font-size:11px; }
-.ecg-phase-jumps { display:flex; gap:2px; }
-.physiology-workbench .ecg-phase-jumps button { min-height:27px; padding:3px 5px; border:1px solid var(--line); border-radius:4px; font-size:10px; }
-.ecg-signal-card { display:grid; grid-template-rows:38px 34px minmax(0,1fr) 44px; overflow:hidden; }
+.ecg-playback-transport { display:flex; align-items:center; gap:3px; flex-shrink:0; }
+.physiology-workbench .ecg-playback-transport .ecg-step-button { width:28px; padding:4px 2px; }
+.physiology-workbench .ecg-forward-playback .ecg-phase-select { width:84px; min-width:0; flex-shrink:0; }
+.ecg-signal-card { height:100%; display:grid; grid-template-rows:38px 34px minmax(0,1fr) 44px; overflow:hidden; }
+.ecg-signal-card[hidden] { display:none; }
 .ecg-signal-header { display:flex; align-items:center; gap:6px; padding:0 9px; border-bottom:1px solid var(--line); }
 .ecg-signal-header h2 { font-size:14px; font-weight:750; margin-right:auto; }
 .ecg-signal-header h2 small { margin-left:5px; font-size:11px; font-weight:450; color:var(--muted); }
+.ecg-conduction-controls { display:flex; align-items:center; gap:4px; flex-shrink:0; }
+.ecg-conduction-controls label { display:flex; align-items:center; gap:5px; font-size:12px; white-space:nowrap; }
+.physiology-workbench .ecg-conduction-controls select { min-width:0; max-width:145px; padding:3px 5px; font-size:12px; }
+.ecg-conduction-controls+.ecg-icon-button { border-left:1px solid var(--line); padding-left:8px; }
 .ecg-signal-toolbar { display:flex; align-items:center; gap:10px; padding:0 9px; font-size:11px; }
 .ecg-signal-toolbar label { display:flex; align-items:center; gap:4px; }
 .ecg-shared-scale { margin-left:auto; color:var(--muted); font-size:10px; white-space:nowrap; }
@@ -148,13 +166,31 @@ html[data-theme] .physiology-workbench button.ecg-lead-label[aria-pressed="true"
 .ecg-signal-values { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:2px 8px; padding:4px 9px; border-top:1px solid var(--line); font-size:11px; }
 .ecg-signal-values b { padding-left:2px; font:600 12px ui-monospace,monospace; }
 .ecg-signal-values>small { color:var(--muted); font-size:10px; }
-.ecg-inspector { position:absolute; left:10px; top:46px; bottom:10px; z-index:20; width:305px; max-width:calc(100% - 20px); display:grid; grid-template-rows:38px minmax(0,1fr) 34px; overflow:hidden; box-shadow:0 12px 38px #102d3433; }
+.ecg-inspector { height:100%; display:grid; grid-template-rows:48px 44px minmax(0,1fr) 38px; overflow:hidden; }
 .ecg-inspector[hidden] { display:none; }
-.ecg-inspector-tabs { display:flex; border-bottom:1px solid var(--line); padding:3px; gap:3px; }
-.physiology-workbench .ecg-inspector-tabs button { flex:1; min-height:29px; border-radius:5px; font-size:12px; font-weight:650; }
-.physiology-workbench .ecg-inspector-tabs button:last-child { flex:0 0 30px; display:grid; place-items:center; }
-.ecg-inspector-content { padding:12px; min-height:0; overflow:auto; scrollbar-width:thin; }
-.ecg-inspector-content>*+* { margin-top:12px; }
+.ecg-inspector-header { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:0 16px; border-bottom:1px solid var(--line); }
+.ecg-inspector-header h2 { margin-right:auto; font-size:15px; font-weight:750; }
+.ecg-inspector-header h2:focus-visible { outline:2px solid var(--primary); outline-offset:3px; }
+.physiology-workbench .ecg-settings-back { display:flex; align-items:center; gap:6px; min-height:34px; padding:5px 8px; font-size:12px; border:1px solid var(--line); border-radius:6px; }
+.ecg-inspector-tabs { display:flex; border-bottom:1px solid var(--line); padding:4px 12px; gap:5px; }
+.physiology-workbench .ecg-inspector-tabs button { flex:1; min-height:34px; border-radius:5px; font-size:13px; font-weight:650; }
+.ecg-inspector-content { padding:18px; min-height:0; overflow:auto; scrollbar-width:thin; overscroll-behavior:contain; }
+.ecg-inspector-content>*+* { margin-top:16px; }
+.ecg-inspector .ecg-control-hint { font-size:12px; line-height:1.7; }
+.ecg-inspector :is(.ecg-field,.ecg-range-label>span,.ecg-check) { font-size:13px; }
+.ecg-inspector .ecg-field select { max-width:100%; min-height:38px; font-size:13px; }
+.ecg-inspector .ecg-onset-button { min-height:36px; font-size:12px; }
+@container (max-width:680px) {
+  .ecg-signal-header h2 small { display:none; }
+}
+@container (max-width:480px) {
+  .ecg-injury-regions>div { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .ecg-signal-header>.ecg-icon-button span,.ecg-conduction-controls label>span { display:none; }
+  .ecg-inspector-header { padding-inline:10px; gap:6px; }
+  .ecg-inspector-header h2 { font-size:13px; }
+  .physiology-workbench .ecg-settings-back { padding-inline:5px; font-size:11px; }
+  .physiology-workbench .ecg-conduction-controls select { max-width:118px; font-size:11px; }
+}
 .ecg-field { display:block; font-size:12px; font-weight:600; }
 .ecg-field select { display:block; width:100%; margin-top:5px; font-size:12px; }
 .ecg-part-code { font-size:11px; letter-spacing:.06em; font-weight:700; color:var(--primary); }
@@ -179,23 +215,22 @@ html[data-theme] .physiology-workbench button.ecg-lead-label[aria-pressed="true"
 .ecg-guide-dialog { position:fixed; inset:0; margin:auto; width:min(720px,calc(100vw - 32px)); max-height:80dvh; overflow:auto; padding:0; border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--foreground); box-shadow:0 18px 60px #0005; }
 .ecg-guide-dialog::backdrop { background:#0f243a66; }.ecg-guide-dialog>header { display:flex; align-items:center; justify-content:space-between; padding:14px 20px; border-bottom:1px solid var(--line); }.ecg-guide-dialog h2 { font-size:18px; font-weight:750; }.ecg-guide-dialog>div { padding:20px; }.ecg-guide-dialog section+section { margin-top:20px; }.ecg-guide-dialog h3 { font-size:14px; font-weight:750; }.ecg-guide-dialog p { font-size:13px; line-height:1.8; margin-top:8px; }.ecg-guide-sources a { text-decoration:underline; text-underline-offset:3px; }
 @media(min-width:1050px) and (min-height:650px) {
-  .app-shell:has(.ecg-interactive[data-mode="forward"]) .app-main { padding:10px 16px!important; }
-  .app-shell:has(.ecg-interactive[data-mode="forward"]) .app-bottom-nav { display:none!important; }
-  .ecg-route:has(.ecg-interactive[data-mode="forward"]) { height:calc(100dvh - var(--app-header-height,64px) - 20px); grid-template-rows:minmax(0,1fr); }
-  .ecg-route:has(.ecg-interactive[data-mode="forward"])>nav { position:absolute; left:0; top:0; height:36px; z-index:2; padding:0; }
-  .ecg-interactive[data-mode="forward"]>.ecg-mode-nav { padding-left:246px; padding-right:137px; }
+  .app-shell:has(.ecg-interactive) .app-main { padding:10px 16px!important; }
+  .app-shell:has(.ecg-interactive) .app-bottom-nav { display:none!important; }
+  .ecg-route:has(.ecg-interactive) { height:calc(100dvh - var(--app-header-height,64px) - 20px); }
 }
 @media(max-width:1049px), (max-height:649px) {
-  .ecg-route,.ecg-interactive { grid-template-rows:auto auto; }
-  .ecg-forward-lab { grid-template-rows:auto auto auto; }
+  .ecg-route { grid-template-rows:auto auto; }
+  .ecg-forward-lab { grid-template-rows:auto auto; }
   .ecg-workspace-main { height:auto; grid-template-columns:minmax(0,1fr); grid-template-rows:560px 640px; }
-  .ecg-inspector { position:fixed; top:15dvh; bottom:8dvh; left:16px; }
   .ecg-calculation-status { min-height:450px; }.ecg-recording-slot:not(:has(.ecg-workspace)) { min-height:450px; }
 }
 @media(max-width:620px) {
-  .ecg-route>nav { gap:4px; }.ecg-route>nav a { font-size:11px; padding:4px 6px; }
-  .ecg-mode-nav button { flex:1; }.physiology-workbench .ecg-mode-nav button { font-size:11px; padding:5px; }
-  .ecg-lab-header { flex-wrap:wrap; gap:5px; }.ecg-lab-header>div { width:100%; }.ecg-lab-header>label { margin-left:0; }.ecg-lab-header h1 { font-size:18px; }.ecg-lab-header>div>span { display:none; }
+  .ecg-scene-card { grid-template-rows:38px minmax(0,1fr) auto; }
+  .ecg-forward-playback { flex-wrap:wrap; gap:4px; padding-inline:5px; }.ecg-forward-playback output { order:1; min-width:55px; font-size:12px; }
+  .ecg-forward-playback input { order:1; flex-basis:calc(100% - 64px); }.ecg-playback-transport .simulation-primary span { display:none; }
+  .physiology-workbench .ecg-forward-playback button { padding-inline:5px; }.physiology-workbench .ecg-forward-playback .ecg-phase-select { width:76px; font-size:11px; }
+  .ecg-route-header { flex-wrap:wrap; gap:5px 12px; }.ecg-route-header h1 { font-size:16px; }.ecg-route-header nav a { font-size:11px; padding:4px 6px; }
   .ecg-workspace-main { grid-template-rows:500px 680px; }
   .ecg-scene-toolbar { gap:5px; padding-inline:6px; font-size:11px; }.ecg-scene-toolbar .ecg-icon-button span { display:none; }
   .ecg-signal-header h2 { font-size:13px; }.ecg-signal-header h2 small { display:none; }.ecg-signal-header .ecg-icon-button span { display:none; }

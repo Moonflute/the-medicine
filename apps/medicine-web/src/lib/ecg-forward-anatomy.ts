@@ -1,4 +1,4 @@
-import type { ForwardRecording, HeartMesh, Vec3 } from "./ecg-forward-model";
+import type { ForwardRecording, HeartMesh, MyocardialRegion, Vec3 } from "./ecg-forward-model";
 import type { MechanicalFrame } from "./ecg-forward-mechanics";
 
 export type DiagramPoint = { x: number; y: number };
@@ -170,6 +170,11 @@ function ribbonBand(ribbon: Ribbon, start: number, end: number) {
   for (let i = 0; i <= 12; i++) points.push(ribbon.atrial ? ribbonPoint(ribbon, start + (end - start) * i / 12, 0) : ribbonPoint(ribbon, i / 12, start));
   for (let i = 12; i >= 0; i--) points.push(ribbon.atrial ? ribbonPoint(ribbon, start + (end - start) * i / 12, 1) : ribbonPoint(ribbon, i / 12, end));
   return points.map((point, i) => `${i ? "L" : "M"}${xy(point)}`).join(" ") + "Z";
+}
+
+/** Selection outlines use the same regional ribbons as the tissue activation map. */
+export function createAnatomyRegionMap(regions: readonly MyocardialRegion[]) {
+  return regions.map((region,index)=>({region,number:index+1,path:ribbonBand(RIBBONS[region],0,1),center:ribbonPoint(RIBBONS[region],.5,.5)}));
 }
 
 /** Arc-length samples keep the moving front on the drawn route, including apical turns. */

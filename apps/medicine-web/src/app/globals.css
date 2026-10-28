@@ -249,7 +249,9 @@ code {
 
 /* Physiology workbench: readable anatomy and cause/effect controls. */
 .immersive-shell > div > aside { display: none; }
-.immersive-shell header button[aria-label="Toggle navigation"], .immersive-shell header > div + div { display: block; }
+/* Keep the menu icon centered when showing the desktop immersive navigation. */
+.immersive-shell header button[aria-label="Toggle navigation"] { display: inline-flex; }
+.immersive-shell header > div + div { display: block; }
 .immersive-shell main > div { max-width: 1440px; }
 .physiology-stage { display: grid; gap: 1.25rem; align-items: start; min-width: 0; }
 .physiology-stage > * { min-width: 0; }

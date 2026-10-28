@@ -9,8 +9,28 @@ import { calculateHemodynamics } from "../src/lib/hemodynamics-model.ts";
 import { calculateEndocrineState } from "../src/lib/endocrine-model.ts";
 import { calculateEcgState, ecgRateControl, ecgSignalAt, measureEcgInterval } from "../src/lib/ecg-model.ts";
 import { parseInteractiveLearning, resolveLearningLink } from "../src/lib/interactive-learning-parser.ts";
+import { createAnatomyRegionMap } from "../src/lib/ecg-forward-anatomy.ts";
+import { MYOCARDIAL_REGIONS } from "../src/lib/ecg-forward-model.ts";
+import { advancePlayback, ECG_STEP_MS, playbackDuration, playbackStart, stepPlayback, traceSweepStart } from "../src/lib/ecg-playback.ts";
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"../../..");
+// Single-cycle playback stops at the pacing period, including fractional endpoints.
+for(const rate of [50,70,90,110]){
+ const end=playbackDuration("beat",rate,2400);assert.equal(end,60000/rate);
+ for(const speed of [.1,.25,.5,1]){
+  let time=0,ticks=0,next;
+  do{next=advancePlayback(time,33*speed,end);time=next.time;assert.ok(++ticks<1000);}while(!next.complete);
+  assert.equal(time,end);assert.equal(traceSweepStart(time,end,2400),0,"completed beat stays visible");
+ }
+ assert.equal(playbackStart(end,end),0);assert.equal(playbackStart(100,end),100,"resume a paused beat");
+ assert.equal(stepPlayback(0,-1,end),0);assert.equal(stepPlayback(end,1,end),end);
+ assert.equal(stepPlayback(0,1,end),ECG_STEP_MS);assert.equal(stepPlayback(30,-1,end),20);
+ assert.equal(stepPlayback(end-3,1,end),end);assert.equal(stepPlayback(end,-1,end),end-ECG_STEP_MS);
+}
+assert.equal(playbackDuration("all",70,2400),2400);
+assert.equal(advancePlayback(2390,40,2400).time,2400);
+assert.equal(traceSweepStart(2400,2400,2400),0);
+assert.equal(traceSweepStart(860,60000/70,2400),60000/70);
 const acidInput={ventilation:55,co2Production:100,bicarbonate:24};
 for(const duration of ["acute","chronic"]){
  const initial=calculateAcidBaseState(acidInput,"respiratory-acidosis",duration);
@@ -72,6 +92,54 @@ const sinus=calculateEcgState("sinus",70),p=sinus.events.find(e=>e.type==="atria
 assert.ok(Math.abs(measureEcgInterval(sinus,p.time,q.time).milliseconds-160)<1e-9);
 assert.ok(calculateEcgState("vt",165).events.some(e=>e.type==="atrial"),"VT AV dissociation must have actual atrial events");
 for(const ratio of [2,3,4])assert.equal(calculateEcgState("flutter",300/ratio).ventricularRate,300/ratio);
+
+// The public ECG entry is model-only. Keep the retired synthetic trainer out
+// of the route's import graph and remove its reserved navigation row.
+const ecgEntry=fs.readFileSync(path.join(root,"apps/medicine-web/src/components/ecg-interactive-lab.tsx"),"utf8");
+assert.match(ecgEntry,/<EcgForwardLab\s*\/>/);
+assert.doesNotMatch(ecgEntry,/EcgArrhythmiaLab|ecg-arrhythmia-lab|next\/dynamic|useState|<nav\b|data-mode/);
+const ecgStyles=fs.readFileSync(path.join(root,"apps/medicine-web/src/app/physiology.css"),"utf8");
+const shellStyles=fs.readFileSync(path.join(root,"apps/medicine-web/src/app/globals.css"),"utf8");
+assert.match(shellStyles,/\.immersive-shell header button\[aria-label="Toggle navigation"\]\s*\{\s*display:\s*inline-flex;\s*\}/,"immersive menu must retain flex centering when overriding xl:hidden");
+assert.match(ecgStyles,/\.ecg-interactive\s*\{[^}]*grid-template-rows:minmax\(0,1fr\)/);
+assert.doesNotMatch(ecgStyles,/ecg-mode-nav|data-mode/);
+const ecgLab=fs.readFileSync(path.join(root,"apps/medicine-web/src/components/ecg-forward-lab.tsx"),"utf8");
+assert.doesNotMatch(ecgLab,/합성 리듬|EcgArrhythmiaLab/);
+assert.doesNotMatch(ecgLab,/ecg-lab-header|<h1/);
+const ecgWorkspace=fs.readFileSync(path.join(root,"apps/medicine-web/src/components/ecg-forward-workspace.tsx"),"utf8");
+assert.doesNotMatch(ecgWorkspace,/흉곽 보기|setYaw/);
+assert.doesNotMatch(ecgWorkspace,/wrapAtMatchingBeat|ecg-phase-jumps/);
+assert.match(ecgWorkspace,/aria-label="관찰할 파형 구간"/);
+assert.match(ecgWorkspace,/aria-keyshortcuts="ArrowLeft"/);assert.match(ecgWorkspace,/aria-keyshortcuts="ArrowRight"/);
+assert.match(ecgWorkspace,/event\.defaultPrevented/);
+assert.match(ecgWorkspace,/yaw=\{0\}/);
+assert.match(ecgWorkspace,/className="ecg-output-slot"[\s\S]*className="ecg-signal-card"[^>]*hidden=\{settingsOpen\}[\s\S]*id="ecg-settings-panel"/);
+assert.match(ecgWorkspace,/ecg-signal-header[\s\S]*\{conductionControls\}/);
+// The injury picker owns no separate draft: the adjacent scene uses the same selection.
+const injuryPanel=fs.readFileSync(path.join(root,"apps/medicine-web/src/components/ecg-ischemia-panel.tsx"),"utf8");
+const ecgScene=fs.readFileSync(path.join(root,"apps/medicine-web/src/components/ecg-forward-scene.tsx"),"utf8");
+assert.match(injuryPanel,/type="checkbox" checked=\{regions.includes\(id\)\}/);
+assert.match(injuryPanel,/허혈 적용/);assert.match(injuryPanel,/허혈 해제/);
+assert.doesNotMatch(injuryPanel,/type="range"|regionVoltage|적용된 계산 결과|Resting potential|ecg-tissue-probes|TP 원 전위|조직 상태/);
+assert.match(ecgWorkspace,/injuryPreview=\{panel==="injury"\?injuryRegions:undefined\}/);
+assert.match(ecgWorkspace,/regions=\{injuryRegions\} onRegions=\{setInjuryRegions\}/);
+assert.match(ecgScene,/data-injury-preview-region=\{region.region\} data-selected=\{injuryPreview.includes\(region.region\)\}/);
+assert.match(ecgScene,/!injuryEditing\?injuryBands.map/);
+const regionMap=createAnatomyRegionMap(MYOCARDIAL_REGIONS);
+assert.deepEqual(regionMap.map(item=>item.region),MYOCARDIAL_REGIONS);
+assert.equal(new Set(regionMap.map(item=>item.number)).size,9);
+assert.equal(new Set(regionMap.map(item=>item.path)).size,9);
+for(const [index,item] of regionMap.entries()){
+ assert.equal(item.number,index+1);assert.match(item.path,/^M/);
+ assert.doesNotMatch(item.path,/NaN|undefined|Infinity/);
+ assert.ok(Number.isFinite(item.center.x)&&Number.isFinite(item.center.y));
+}
+assert.doesNotMatch(ecgStyles,/\.ecg-inspector\s*\{[^}]*(?:position:(?:absolute|fixed)|width:305px)/);
+const ecgRoute=fs.readFileSync(path.join(root,"apps/medicine-web/src/app/interactive/[slug]/page.tsx"),"utf8");
+assert.match(ecgRoute,/ecg-route-header/);assert.match(ecgRoute,/<h1>ECG 전기생리 모델<\/h1>/);
+assert.doesNotMatch(ecgRoute,/ecg-route-support/);
+const ecgConcept=JSON.parse(fs.readFileSync(path.join(root,"apps/medicine-web/data/interactive-concepts.json"),"utf8")).find(concept=>concept.slug==="ecg-arrhythmia");
+assert.doesNotMatch(ecgConcept.summary,/합성|별도 모드/);
 
 const catalogs={};
 for(const [kind,file,prefix] of [["disease","diseases","disease"],["drug","drugs","drugs"],["lab","lab-img","lab-img"]]){

@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { RotateCcw } from "lucide-react";
 import { EcgForwardWorkspace } from "@/components/ecg-forward-workspace";
-import { DEFAULT_FORWARD_INPUTS, FORWARD_CONDITIONS, type ForwardInputs, type ForwardRecording } from "@/lib/ecg-forward-model";
+import { DEFAULT_FORWARD_INPUTS, type ForwardInputs, type ForwardRecording } from "@/lib/ecg-forward-model";
 
 type Calculation = { key:string; recording?:ForwardRecording; reference?:ForwardRecording; progress:number; error?:string };
 
@@ -32,7 +31,7 @@ function useForwardRecording(inputs:ForwardInputs,retry:number) {
         worker.onerror=()=>{if(active)setCalculation({key,progress:0,error:"계산 Worker를 시작하지 못했습니다. 새로고침하거나 지원되는 브라우저에서 다시 시도해 주세요."});};
         worker.postMessage({inputs:requested,needsReference:Boolean(requested.ischemia&&!cached)});
       } catch {
-        if(active)setCalculation({key,progress:0,error:"이 브라우저에서 계산 Worker를 사용할 수 없습니다. 기존 합성 리듬 학습은 계속 이용할 수 있습니다."});
+        if(active)setCalculation({key,progress:0,error:"이 브라우저에서 계산 Worker를 사용할 수 없습니다. 새로고침하거나 지원되는 브라우저에서 다시 시도해 주세요."});
       }
     },180);
     return ()=>{active=false;window.clearTimeout(timer);worker?.terminate();};
@@ -50,11 +49,6 @@ export function EcgForwardLab() {
   const reference=calculation.reference;
   const readReference=useMemo(()=>reference?()=>reference:undefined,[reference]);
   return <div className="ecg-forward-lab">
-    <header className="ecg-lab-header">
-      <div><h1>ECG 전기생리 모델</h1><span>심장 흥분 → 전류 → 전극 전위차</span></div>
-      <label>전도 조건 <select aria-label="전도 조건" value={inputs.condition} onChange={event=>setInputs(value=>({...value,condition:event.target.value as ForwardInputs["condition"]}))}>{FORWARD_CONDITIONS.map(item=><option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
-      <button type="button" className="ecg-icon-button" aria-label="심장 모델 초기화" onClick={()=>setInputs(DEFAULT_FORWARD_INPUTS)}><RotateCcw size={17}/></button>
-    </header>
     <div className="ecg-recording-slot">
       {readRecording ? <EcgForwardWorkspace readRecording={readRecording} readReference={readReference} inputs={inputs} onInputs={setInputs} busy={calculation.busy}/> : null}
       {calculation.busy||calculation.error ? <div className="ecg-calculation-status" role="status" aria-live="polite">

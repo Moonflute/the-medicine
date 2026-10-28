@@ -1,9 +1,9 @@
 "use client";
 
 import { useId, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from "react";
-import { electricFieldWeights, sampleElectricField, sampleNetDipole, electrodePosition, ELECTRODE_IDS, HEART_CENTER, leadFieldAtCenter, pickSceneSurface, projectScenePosition, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardRecording, type LeadPlacement, type StandardLead } from "@/lib/ecg-forward-model";
+import { electricFieldWeights, sampleElectricField, sampleNetDipole, electrodePosition, ELECTRODE_IDS, HEART_CENTER, MYOCARDIAL_LABELS, MYOCARDIAL_REGIONS, leadFieldAtCenter, pickSceneSurface, projectScenePosition, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardRecording, type LeadPlacement, type MyocardialRegion, type StandardLead } from "@/lib/ecg-forward-model";
 import { HEART_PARTS, type HeartPart } from "@/lib/ecg-forward-display";
-import { conductionEvents, createAnatomyLayout, createAnatomyFieldProbes, createHeartDeformation, projectAnatomyField, projectAnatomyDipole, HEART_CHAMBERS, pointOnRoute } from "@/lib/ecg-forward-anatomy";
+import { conductionEvents, createAnatomyLayout, createAnatomyRegionMap, createAnatomyFieldProbes, createHeartDeformation, projectAnatomyField, projectAnatomyDipole, HEART_CHAMBERS, pointOnRoute } from "@/lib/ecg-forward-anatomy";
 import { mechanicalRecording, mechanicalFrame, chamberShortening } from "@/lib/ecg-forward-mechanics";
 import { EcgForwardHeart, EcgForwardHeartDetail } from "@/components/ecg-forward-heart";
 
@@ -13,6 +13,7 @@ type Props = {
   showNetVector: boolean; onNetVector: (visible: boolean) => void;
   electrodeMode: boolean; onElectrodeMode: (active: boolean) => void;
   part: HeartPart; onPart: (part: HeartPart) => void;
+  injuryPreview?: readonly MyocardialRegion[]; injuryPending?: boolean;
   onMove: (id: ElectrodeId, electrode: Electrode) => void; onSelect: (id: ElectrodeId) => void;
 };
 const LABELS: { part: HeartPart; x: number; y: number; anchor: "start" | "end"; label: string; sub?: string; leader: string }[] = [
@@ -33,12 +34,14 @@ const HINTS: Record<HeartPart, string> = {
   "RV Purkinje": "RV의 Subendocardial 분지 → Myocardium", "LV Purkinje": "LV의 Subendocardial 분지 → Myocardium",
 };
 const WIDTHS = { atrial: 2.4, nodal: 3, bundle: 3.1, purkinje: 1.9, terminal: 1.05 };
+const INJURY_REGIONS = createAnatomyRegionMap(MYOCARDIAL_REGIONS);
 const activate = (event: KeyboardEvent<SVGElement>, action: () => void) => {
   if (event.key === "Enter" || event.key === " ") { event.preventDefault(); event.stopPropagation(); action(); }
 };
 
-export function EcgForwardScene({ readRecording, electrodes, placement, lead, timeMs, yaw, selected, showFields, showVectors, showMotion, showNetVector, onNetVector, electrodeMode, onElectrodeMode, part, onPart, onMove, onSelect }: Props) {
+export function EcgForwardScene({ readRecording, electrodes, placement, lead, timeMs, yaw, selected, showFields, showVectors, showMotion, showNetVector, onNetVector, electrodeMode, onElectrodeMode, part, onPart, onMove, onSelect, injuryPreview, injuryPending }: Props) {
   const recording = readRecording();
+  const injuryEditing = injuryPreview !== undefined;
   const id = useId().replaceAll(":", ""), dragging = useRef<ElectrodeId | null>(null);
   const [hovered, setHovered] = useState<HeartPart | null>(null);
   const layout = useMemo(() => createAnatomyLayout(recording.mesh), [recording.mesh]);
@@ -89,7 +92,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
     const next = pickSceneSurface(point.x, point.y, yaw); if (next) onMove(dragging.current, next);
   };
   const partInteraction = (value: HeartPart) => ({
-    "data-heart-part": value, role: "button", tabIndex: electrodeMode ? -1 : 0,
+    "data-heart-part": value, role: "button", tabIndex: electrodeMode || injuryEditing ? -1 : 0, "aria-disabled": injuryEditing,
     "aria-label": `${HEART_PARTS.find(item => item.id === value)!.name} 구조 설명`,
     "aria-pressed": part === value, "aria-describedby": hovered === value ? `${id}-hint` : undefined,
     onClick: () => { setHovered(null); onPart(value); },
@@ -98,16 +101,16 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
     onFocus: () => setHovered(value), onBlur: () => setHovered(null),
   });
 
-  return <div className="ecg-integrated-scene" data-electrode-mode={electrodeMode}>
+  return <div className="ecg-integrated-scene" data-electrode-mode={electrodeMode} data-injury-editing={injuryEditing}>
     <div className="ecg-integrated-heading">
-      <div className="ecg-scene-modes" role="group" aria-label="심장 표시 강조">
+      {injuryEditing?<span className="ecg-region-map-title">허혈 위치 선택</span>:<div className="ecg-scene-modes" role="group" aria-label="심장 표시 강조">
         <button type="button" aria-pressed={!electrodeMode} onClick={() => { setHovered(null); onElectrodeMode(false); }}>전도 경로</button>
         <button type="button" aria-pressed={electrodeMode} onClick={() => { setHovered(null); onElectrodeMode(true); }}>전극 위치</button>
-      </div>
-      <span title="막전위에 따른 교육용 수축 반응 · 실제 압력·혈류 계산 아님">{electrodeMode ? "전극을 끌어 위치 변경" : showMotion ? `${motionLabel} · 전면 절개도` : "수축 표시 끔 · 전면 절개도"}</span>
+      </div>}
+      <span title={injuryEditing?"앞·뒤 심근 구역을 펼친 개념도 · Coronary territory와 일대일 대응하지 않음":"막전위에 따른 교육용 수축 반응 · 실제 압력·혈류 계산 아님"}>{injuryEditing?"번호로 위치 확인 · 펼친 개념도":electrodeMode ? "전극을 끌어 위치 변경" : showMotion ? `${motionLabel} · 전면 절개도` : "수축 표시 끔 · 전면 절개도"}</span>
     </div>
     <svg viewBox={electrodeMode ? "0 20 620 500" : "45 20 550 485"} role="group" tabIndex={0} className="ecg-integrated-drawing"
-      aria-label={`심장 전도 경로와 측정 전극. ${electrodeMode ? "전극을 끌거나 흉곽 표면을 누르세요." : "구조에 마우스를 올리거나 이름을 눌러 설명을 확인하세요. 전극 위치 탭에서 전극을 옮깁니다."} 방향키로 선택 전극을 움직입니다.`}
+      aria-label={injuryEditing?"허혈 위치 지도. 설정에서 체크한 번호의 심근 구역을 강조합니다.":`심장 전도 경로와 측정 전극. ${electrodeMode ? "전극을 끌거나 흉곽 표면을 누르세요. 방향키로 선택 전극을 움직입니다." : "구조에 마우스를 올리거나 이름을 눌러 설명을 확인하세요. 정지 상태의 좌우 방향키로 시간을 이동합니다. 전극 위치 탭에서 전극을 옮깁니다."}`}
       onPointerDown={event => {
         if ((event.target as Element).closest("[data-heart-part]")) return;
         const point = coordinates(event); if (!point) return;
@@ -121,7 +124,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
       onPointerUp={event => { dragging.current = null; if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId); }}
       onPointerCancel={() => { dragging.current = null; }} onLostPointerCapture={() => { dragging.current = null; }}
       onKeyDown={event => {
-        if (event.target !== event.currentTarget || !["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(event.key)) return;
+        if (!electrodeMode || event.target !== event.currentTarget || !["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(event.key)) return;
         event.preventDefault(); const e = electrodes[selected], step = event.shiftKey ? 10 : 2;
         if (!electrodeMode) onElectrodeMode(true);
         onMove(selected, { longitude: ((e.longitude + (event.key === "ArrowRight" ? step : event.key === "ArrowLeft" ? -step : 0) + 540) % 360) - 180, latitude: Math.max(-80, Math.min(80, e.latitude + (event.key === "ArrowUp" ? step : event.key === "ArrowDown" ? -step : 0))) });
@@ -142,7 +145,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
       <g className="ecg-anatomy-layer" opacity={electrodeMode ? .6 : 1} aria-hidden={electrodeMode} data-motion-enabled={showMotion} data-mechanical-state={JSON.stringify(chambers)}>
         <EcgForwardHeart id={id} deformation={deformation} />
         <g mask={`url(#${id}-myocardial-mask)`} pointerEvents="none" aria-hidden="true">
-          {injuryBands.map((band,index)=><path key={`injury-${index}`} data-injury-region={band.region} data-injury-state={band.scar?"scar":"acute"} d={deformation.path(band.path)} fill={band.scar?`url(#${id}-scar)`:"#b24762"} fillOpacity={band.scar?.7:.18+band.injury*.4} stroke="#a23e52" strokeWidth=".35"/>)}
+          {!injuryEditing?injuryBands.map((band,index)=><path key={`injury-${index}`} data-injury-region={band.region} data-injury-state={band.scar?"scar":"acute"} d={deformation.path(band.path)} fill={band.scar?`url(#${id}-scar)`:"#b24762"} fillOpacity={band.scar?.7:.18+band.injury*.4} stroke="#a23e52" strokeWidth=".35"/>):null}
           <g filter={`url(#${id}-tissue-soften)`}>
             {bands.map((band, index) => <path key={index} data-myocardial-region={band.region} d={deformation.path(band.path)} fill={band.falling ? "#7b9eac" : "#e5ad55"} fillOpacity={Math.max(0, band.voltage - .08) * .65} />)}
           </g>
@@ -187,8 +190,12 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
             {label.sub ? <text x={label.x} y={label.y + 16} textAnchor={label.anchor} className="ecg-path-sublabel">{label.sub}</text> : null}
           </g>
         </g>)}</g> : null}
+        {injuryEditing?<g className="ecg-injury-preview" pointerEvents="none" role="img" aria-label={`허혈 위치 선택 표시: ${injuryPreview.length?injuryPreview.map(region=>MYOCARDIAL_LABELS[region]).join(", "):"선택 없음"}`}>
+          <g mask={`url(#${id}-myocardial-mask)`}>{INJURY_REGIONS.map(region=><path key={region.region} data-injury-preview-region={region.region} data-selected={injuryPreview.includes(region.region)} d={deformation.path(region.path)} className="ecg-injury-preview-area"/>)}</g>
+          {INJURY_REGIONS.map(region=>{const center=deformation.point(region.center);return <g key={region.region} transform={`translate(${center.x} ${center.y})`} data-selected={injuryPreview.includes(region.region)} className="ecg-injury-preview-number"><title>{MYOCARDIAL_LABELS[region.region]}</title><circle r="10"/><text textAnchor="middle" y="4">{region.number}</text></g>;})}
+        </g>:null}
       </g>
-      {showFields ? <g className="ecg-local-field-layer" pointerEvents="none" role="img" aria-label={`고정 관찰점 ${probes.length}개의 전기장. 화살표의 시작점은 고정되며 정면 투영 방향과 상대 크기를 나타냅니다.`}>
+      {showFields && !injuryEditing ? <g className="ecg-local-field-layer" pointerEvents="none" role="img" aria-label={`고정 관찰점 ${probes.length}개의 전기장. 화살표의 시작점은 고정되며 정면 투영 방향과 상대 크기를 나타냅니다.`}>
         {arrows.map(arrow => {
           const visible = arrow.length >= 1;
           return <g key={arrow.id} data-field-probe={arrow.id} data-field-region={arrow.region} data-field-origin={`${arrow.x},${arrow.y}`} data-field-magnitude={arrow.magnitude.toFixed(6)} data-field-vector={arrow.field.join(",")}>
@@ -200,7 +207,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
           </g>;
         })}
       </g> : null}
-      {showNetVector ? <g className="ecg-net-dipole-layer" pointerEvents="none" role="img"
+      {showNetVector && !injuryEditing ? <g className="ecg-net-dipole-layer" pointerEvents="none" role="img"
         aria-label={`심장 전체 Net dipole의 정면 투영. 크기 ${netArrow.magnitude.toFixed(2)} a.u.${netArrow.length < 2 ? ", 정면 성분이 작아 화살표 생략" : ""}`}
         data-net-origin={`${netArrow.x},${netArrow.y}`} data-net-vector={dipole.join(",")} data-net-magnitude={netArrow.magnitude} data-net-length={netArrow.length} data-net-limited={netArrow.limited}>
         <title>Net dipole · 전체 전류원의 벡터 합 · |p| {netArrow.magnitude.toFixed(2)} a.u. · 정면 투영 · 고정 배율{netArrow.limited ? " · 표시 길이 상한" : ""} · 특정 위치의 E나 국소 화살표의 합이 아님</title>
@@ -209,7 +216,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
           <line data-net-dipole-arrow="true" x1={netArrow.x} y1={netArrow.y} x2={netArrow.x + netArrow.dx * netArrow.length} y2={netArrow.y + netArrow.dy * netArrow.length} stroke="#111111" strokeWidth={netShaftWidth} strokeLinecap="round" markerEnd={`url(#${id}-net-dipole)`} />
         </> : null}
       </g> : null}
-      {showVectors ? <g className="ecg-vector-inset" transform={electrodeMode ? undefined : "translate(441 -323)"} pointerEvents="none">
+      {showVectors && !injuryEditing ? <g className="ecg-vector-inset" transform={electrodeMode ? undefined : "translate(441 -323)"} pointerEvents="none">
         <rect x="26" y="415" width="115" height="88" rx="8" fill="white" stroke="#d2dce4" />
         <text x="38" y="433" className="ecg-vector-title">합성 방향 · {lead}</text>
         {[dipole, field].map((vector, index) => {
@@ -231,7 +238,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
         </g>;
       }) : null}
     </svg>
-    {!electrodeMode && hovered ? <div id={`${id}-hint`} className="ecg-anatomy-tooltip" role="tooltip"><strong>{HEART_PARTS.find(item => item.id === hovered)!.name}</strong><span>{HINTS[hovered]}</span><small>클릭 또는 Enter · 상세 설명</small></div> : null}
-    <div className="ecg-heart-key"><span><i className="ecg-key-conduction" />전도계</span><span><i className="ecg-key-active" />흥분</span><span><i className="ecg-key-recovery" />회복</span>{injuryBands.length?<span className="ecg-injury-key"><i/>{recording.inputs.ischemia?.mode==="scar"?"Scar":"Ischemia"}</span>:null}{showFields ? <span className="ecg-current-key" title="화살표의 시작점은 고정됩니다. 전기장의 정면 성분만 표시하며, 그 성분이 작으면 화살표를 생략합니다.">→ 전기장 · 정면 투영</span> : null}<label className="ecg-net-vector-toggle" title="검은 화살표: 심장 전체 Net dipole의 정면 투영. 시작점 고정·방향과 길이는 계산값에 따라 변화합니다."><input type="checkbox" checked={showNetVector} onChange={event => onNetVector(event.target.checked)} aria-label="심장 전체 합성 벡터 표시"/>→ 합성 벡터</label><strong>{phase}</strong></div>
+    {!electrodeMode && !injuryEditing && hovered ? <div id={`${id}-hint`} className="ecg-anatomy-tooltip" role="tooltip"><strong>{HEART_PARTS.find(item => item.id === hovered)!.name}</strong><span>{HINTS[hovered]}</span><small>클릭 또는 Enter · 상세 설명</small></div> : null}
+    <div className="ecg-heart-key">{injuryEditing?<><span className="ecg-injury-key"><i/>선택 위치{injuryPreview.length?injuryPending?" · 적용 전":" · 적용됨":" · 선택 없음"}</span><span>1–6 LV · 7–9 RV</span></>:<><span><i className="ecg-key-conduction" />전도계</span><span><i className="ecg-key-active" />흥분</span><span><i className="ecg-key-recovery" />회복</span>{injuryBands.length?<span className="ecg-injury-key"><i/>{recording.inputs.ischemia?.mode==="scar"?"Scar":"Ischemia"}</span>:null}{showFields ? <span className="ecg-current-key" title="화살표의 시작점은 고정됩니다. 전기장의 정면 성분만 표시하며, 그 성분이 작으면 화살표를 생략합니다.">→ 전기장 · 정면 투영</span> : null}<label className="ecg-net-vector-toggle" title="검은 화살표: 심장 전체 Net dipole의 정면 투영. 시작점 고정·방향과 길이는 계산값에 따라 변화합니다."><input type="checkbox" checked={showNetVector} onChange={event => onNetVector(event.target.checked)} aria-label="심장 전체 합성 벡터 표시"/>→ 합성 벡터</label><strong>{phase}</strong></>}</div>
   </div>;
 }

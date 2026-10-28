@@ -95,11 +95,13 @@ close(projectAnatomyDipole([80, -60, 20]).length, net.length * 2, 'Fixed linear 
 assert.equal(projectAnatomyDipole([10000, 0, 0]).length, 135, 'Large source vector stays within the diagram');
 assert.equal(projectAnatomyDipole([10000, 0, 0]).limited, true, 'Length cap is disclosed');
 const scene = await readFile(new URL('../src/components/ecg-forward-scene.tsx', import.meta.url), 'utf8');
-const fieldLayer = scene.slice(scene.indexOf('className="ecg-local-field-layer"'), scene.indexOf('{showVectors ?'));
+const fieldStart = scene.indexOf('className="ecg-local-field-layer"'), netStart = scene.indexOf('className="ecg-net-dipole-layer"'), insetStart = scene.indexOf('className="ecg-vector-inset"');
+assert.ok(fieldStart >= 0 && netStart > fieldStart && insetStart > netStart, 'Locate independent field, net and lead-direction layers');
+const fieldLayer = scene.slice(fieldStart, netStart);
 assert.ok(fieldLayer.includes('data-field-arrow="true"'), 'Render field arrow shafts');
 assert.ok(fieldLayer.includes('x1={arrow.x} y1={arrow.y}'), 'Arrow tails remain at fixed probe coordinates');
 assert.ok(!/<circle\b|<ellipse\b|data-field-anchor|⊙|⊗/.test(fieldLayer), 'No origin circles or depth symbols on field arrows');
-const netLayer = scene.slice(scene.indexOf('{showNetVector ?'), scene.indexOf('{showVectors ?'));
+const netLayer = scene.slice(netStart, insetStart);
 assert.ok(netLayer.includes('stroke="#111111"') && netLayer.includes('data-net-dipole-arrow="true"'), 'Render an independent black net arrow');
 assert.ok(netLayer.includes('x1={netArrow.x} y1={netArrow.y}'), 'Net arrow starts at the fixed central anchor');
 assert.ok(!/deformation|yaw|<circle\b|<ellipse\b/.test(netLayer), 'Net anchor stays fixed during contraction and torso rotation, without an origin circle');

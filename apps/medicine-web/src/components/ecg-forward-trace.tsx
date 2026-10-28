@@ -3,6 +3,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import type { ForwardTrace } from "@/lib/ecg-forward-model";
 import type { StMeasurement, StWindow } from "@/lib/ecg-ischemia";
+import { traceSweepStart } from "@/lib/ecg-playback";
 
 export type EcgTraceTimeline={durationMs:number;sampleMs:number;samples:number;periodMs:number;phases:{label:string;start:number;end:number;color:string}[]};
 export type EcgTraceSignal={trace:ForwardTrace;baseline?:Float32Array;zero?:number;baselineZero?:number;approximateZero?:number;measurement?:StMeasurement;stWindow?:StWindow};
@@ -23,7 +24,7 @@ export function EcgForwardTrace({timeline,readSignal,timeMs,gain,showApproximati
   const span=Math.min(windowMs??timeline.durationMs,timeline.durationMs),period=timeline.periodMs;
   // Each paper sweep starts blank. Never reveal samples ahead of the shared clock.
   // A short final sweep stays aligned instead of sliding an already drawn beat.
-  const start=Math.floor(Math.min(timeMs,timeline.durationMs-.001)/span)*span;
+  const start=traceSweepStart(timeMs,span,timeline.durationMs);
   const scale=1.5/gain;
   const y=(value:number)=>TOP+(H-TOP-BOTTOM)/2-value/scale*(H-TOP-BOTTOM)/2;
   const paths=useMemo(()=>{
