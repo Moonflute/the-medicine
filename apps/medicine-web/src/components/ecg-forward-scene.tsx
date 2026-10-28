@@ -33,7 +33,7 @@ const HINTS: Record<HeartPart, string> = {
   RBB: "Septum의 오른쪽을 따라 RV로 연결", LBB: "Septum의 왼쪽을 따라 LV로 연결",
   "RV Purkinje": "RV의 Subendocardial 분지 → Myocardium", "LV Purkinje": "LV의 Subendocardial 분지 → Myocardium",
 };
-const WIDTHS = { atrial: 2.4, nodal: 3, bundle: 3.1, purkinje: 1.9, terminal: 1.05 };
+const WIDTHS = { atrial: 2.4, nodal: 3, bundle: 3.1, purkinje: 1.9, terminal: 1.05, accessory: 3 };
 const INJURY_REGIONS = createAnatomyRegionMap(MYOCARDIAL_REGIONS);
 const activate = (event: KeyboardEvent<SVGElement>, action: () => void) => {
   if (event.key === "Enter" || event.key === " ") { event.preventDefault(); event.stopPropagation(); action(); }
@@ -160,7 +160,7 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
             const curve = deformation.path(path.path);
             return <g key={path.index} data-conduction-edge={path.index} data-blocked={path.blocked} pointerEvents="none">
               <path d={curve} stroke="#fffaf1" strokeWidth={width + 2} strokeOpacity=".8" />
-              <path d={curve} stroke={path.blocked ? "#b34748" : "#397b71"} strokeWidth={width} strokeOpacity={path.kind === "terminal" ? .7 : .95} strokeDasharray={path.blocked ? "3 5" : undefined} />
+              <path d={curve} stroke={path.blocked ? "#b34748" : path.kind==="accessory"?"#8055a2":"#397b71"} strokeWidth={width} strokeOpacity={path.kind === "terminal" ? .7 : .95} strokeDasharray={path.blocked ? "3 5" : undefined} />
               {!path.blocked && path.voltage > .15 ? <path d={curve} stroke="#c58a2f" strokeWidth={width} strokeOpacity={Math.min(.85, path.voltage * .9)} /> : null}
               {point ? <g data-wave-direction={path.event!.forward ? "forward" : "reverse"}>
                 <path d={curve} pathLength="1" stroke="#e3a13e" strokeWidth={width + .6} strokeDasharray={`${end - start} 1`} strokeDashoffset={-start} />
@@ -170,6 +170,14 @@ export function EcgForwardScene({ readRecording, electrodes, placement, lead, ti
             </g>;
           })}
         </g>
+        {recording.inputs.condition==="wpw"&&!electrodeMode?<text x="450" y="472" textAnchor="end" fontSize="11" fill="#8055a2">보라색 · Accessory pathway</text>:null}
+        {recording.inputs.condition==="pvc"&&!electrodeMode?(()=>{
+          const region=INJURY_REGIONS.find(item=>item.region===(recording.inputs.electrophysiology?.ectopicRegion??"lv-septal"));
+          if(!region)return null;
+          const center=deformation.point(region.center),pulse=recording.stimuli?.find(stimulus=>stimulus.kind==="ectopic");
+          const firing=pulse&&timeMs>=pulse.time&&timeMs<pulse.time+45;
+          return <g aria-label={`조기 자극 위치: ${MYOCARDIAL_LABELS[region.region]}`} pointerEvents="none"><path d={`M${center.x-6} ${center.y-6}l12 12m-12 0l12-12`} stroke={firing?"#dd8e22":"#8055a2"} strokeWidth={firing?4:2}/><text x={center.x+10} y={center.y-7} fontSize="10" fill="#8055a2">PVC 자극</text></g>;
+        })():null}
         {HEART_CHAMBERS.map(chamber => <g key={chamber.id} {...partInteraction(chamber.id)} className="ecg-anatomy-hit ecg-chamber-hit">
           <rect x={chamber.x - 37} y={chamber.y - 22} width="74" height="46" rx="7" fill="transparent" />
           <text x={chamber.x} y={chamber.y} textAnchor="middle" className="ecg-chamber-label">{chamber.id}</text>

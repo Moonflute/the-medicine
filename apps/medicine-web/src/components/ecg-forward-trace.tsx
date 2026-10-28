@@ -33,7 +33,9 @@ export function EcgForwardTrace({timeline,readSignal,timeMs,gain,showApproximati
     const path=(values:Float32Array,offset:number)=>Array.from(values.subarray(first,last+1),(value,i)=>`${i===0?"M":"L"}${(LEFT+((first+i)*timeline.sampleMs-start)/span*(W-LEFT-RIGHT)).toFixed(2)},${(TOP+(H-TOP-BOTTOM)/2-(value-offset)/scale*(H-TOP-BOTTOM)/2).toFixed(2)}`).join(" ");
     return {actual:path(trace.values,zero),approximate:showApproximation?path(trace.approximate,approximateZero):"",baseline:baseline?path(baseline,baselineZero):"",peak:Math.max(...Array.from(trace.values,value=>Math.abs(value-zero)))};
   },[trace,scale,baseline,showApproximation,W,H,LEFT,RIGHT,TOP,BOTTOM,start,span,timeline.sampleMs,timeline.samples,zero,baselineZero,approximateZero]);
-  const x=(time:number)=>LEFT+(time-start)/span*(W-LEFT-RIGHT),ticks=Math.floor(span/40);
+  const x=(time:number)=>LEFT+(time-start)/span*(W-LEFT-RIGHT);
+  const tickStep=[200,500,1000,2000,4000].find(step=>(W-LEFT-RIGHT)*step/span>=(compact?42:62))??4000;
+  const gridStep=40*(W-LEFT-RIGHT)/span<3?200:40,ticks=Math.floor(span/gridStep);
   const sample=Math.min(timeline.samples-1,Math.max(0,timeMs/timeline.sampleMs)),frame=Math.floor(sample);
   const tip=trace.values[frame]+(trace.values[Math.min(timeline.samples-1,frame+1)]-trace.values[frame])*(sample-frame)-zero;
   const revealed=Math.max(0,Math.min(W-LEFT-RIGHT,x(timeMs)-LEFT));
@@ -46,9 +48,9 @@ export function EcgForwardTrace({timeline,readSignal,timeMs,gain,showApproximati
         const left=Math.max(LEFT,x(p.start+cycle*period)),right=Math.min(W-RIGHT,x(p.end+cycle*period));
         return right>left?<g key={cycle+p.label}><rect x={left} y={TOP} width={right-left} height={H-TOP-BOTTOM} fill={p.color} fillOpacity=".46"/><text x={(left+right)/2} y="19" textAnchor="middle" fontSize="13" fontWeight="650" fill="#3c515a">{p.label}</text></g>:null;
       })):null}
-      {Array.from({length:ticks+1},(_,i)=>{const time=Math.ceil(start/40)*40+i*40;return time<=start+span?<line key={i} x1={x(time)} x2={x(time)} y1={TOP} y2={H-BOTTOM} stroke={Math.round(time)%200===0?"#e2b8b8":"#f4dddd"} strokeWidth={Math.round(time)%200===0?1:.5}/>:null;})}
+      {Array.from({length:ticks+1},(_,i)=>{const time=Math.ceil(start/gridStep)*gridStep+i*gridStep;return time<=start+span?<line key={i} x1={x(time)} x2={x(time)} y1={TOP} y2={H-BOTTOM} stroke={Math.round(time)%tickStep===0?"#e2b8b8":"#f4dddd"} strokeWidth={Math.round(time)%tickStep===0?1:.5}/>:null;})}
       {(H<110?[-1,0,1]:[-1,-.5,0,.5,1]).map(t=><g key={t}><line x1={LEFT} x2={W-RIGHT} y1={y(t*scale)} y2={y(t*scale)} stroke={t===0?"#95b4ae":"#dfebe8"}/><text x={LEFT-(compact?5:9)} y={y(t*scale)+4} textAnchor="end" fontSize={compact?10:11} fill="#526d6a">{compact?Number((t*scale).toFixed(2)):(t*scale).toFixed(2)}</text></g>)}
-      {Array.from({length:Math.ceil(span/200)+1},(_,i)=>Math.ceil(start/200)*200+i*200).filter(t=>t<=start+span).map((t,i)=>(!compact||i%2===0)?<text key={t} x={x(t)} y={H-5} textAnchor="middle" fontSize={compact?10:12} fill="#637176">{(t/1000).toFixed(1)}{compact?"":" s"}</text>:null)}
+      {Array.from({length:Math.ceil(span/tickStep)+1},(_,i)=>Math.ceil(start/tickStep)*tickStep+i*tickStep).filter(t=>t<=start+span).map(t=><text key={t} x={x(t)} y={H-5} textAnchor="middle" fontSize={compact?10:12} fill="#637176">{(t/1000).toFixed(tickStep>=1000?0:1)}{compact?"":" s"}</text>)}
       {!compact?<text x="7" y="13" fontSize="11" fill="#526d6a">a.u.</text>:null}
       <g clipPath={`url(#${clip})`}>
         {annotate&&stWindow&&start===0&&timeMs>=stWindow.depolarizationEnd?<g data-depolarization-end="true"><line x1={x(stWindow.depolarizationEnd)} x2={x(stWindow.depolarizationEnd)} y1={TOP} y2={H-BOTTOM} stroke="#087f70" strokeDasharray="3 4"/><text x={x(stWindow.depolarizationEnd)+5} y={H-BOTTOM-7} fontSize="11" fill="#087f70">Upstroke 종료</text></g>:null}

@@ -6,6 +6,8 @@ import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore
 import { EcgForwardScene } from "@/components/ecg-forward-scene";
 import { EcgForwardTrace, type EcgTraceSignal, type EcgTraceTimeline } from "@/components/ecg-forward-trace";
 import { EcgIschemiaPanel } from "@/components/ecg-ischemia-panel";
+import { EcgScenarioControls } from "@/components/ecg-scenario-controls";
+import { isRhythmCondition, isIonicCondition } from "@/lib/ecg-forward-model";
 import {measureSt,stWindow} from "@/lib/ecg-ischemia";
 import { HEART_PARTS, partSnapshot, recordingFrame, type HeartPart } from "@/lib/ecg-forward-display";
 import { advancePlayback, ECG_STEP_MS, playbackDuration, playbackStart, stepPlayback } from "@/lib/ecg-playback";
@@ -46,19 +48,24 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
   const timeMs=Math.min(storedTimeMs,windowMs);
   const settingsOpen=panel!==null;
   const traces=useMemo(()=>measureStandardTraces(recording,electrodes),[recording,electrodes]);
-  const normalTraces=useMemo(()=>reference&&lesion?measureStandardTraces(reference,electrodes):undefined,[reference,lesion,electrodes]);
+  const referenceAvailable=Boolean(lesion)||isIonicCondition(recording.inputs.condition);
+  const normalTraces=useMemo(()=>reference&&referenceAvailable?measureStandardTraces(reference,electrodes):undefined,[reference,referenceAvailable,electrodes]);
   const stInterval=useMemo(()=>stWindow(recording),[recording]);
   const st=useMemo(()=>Object.fromEntries(STANDARD_LEADS.map(id=>[id,measureSt(recording,traces[id],stInterval)])) as Record<StandardLead,ReturnType<typeof measureSt>>,[recording,traces,stInterval]);
   const timeline=useMemo<EcgTraceTimeline>(()=>{
     const times=(chambers:string[],values:Float32Array)=>recording.mesh.cells.flatMap((cell,i)=>chambers.includes(cell.chamber)&&values[i]>=0?[values[i]]:[]);
     const atrial=times(["RA","LA"],recording.activationMs),ventricular=times(["RV","LV"],recording.activationMs),recovery=times(["RV","LV"],recording.recoveryMs);
-    return {durationMs:recording.durationMs,sampleMs:recording.sampleMs,samples:recording.samples,periodMs:60000/recording.inputs.rate,phases:[{label:"P",start:Math.min(...atrial)-5,end:Math.max(...atrial)+8,color:"#dbeafe"},{label:"QRS",start:Math.min(...ventricular)-5,end:stInterval.depolarizationEnd,color:"#d1fae5"},{label:"T",start:stInterval.recoveryStart??Infinity,end:Math.max(...recovery)+30,color:"#ede9fe"}].filter(p=>Number.isFinite(p.start)&&Number.isFinite(p.end))};
+    return {durationMs:recording.durationMs,sampleMs:recording.sampleMs,samples:recording.samples,periodMs:60000/recording.inputs.rate,phases:isRhythmCondition(recording.inputs.condition)?[]:[{label:"P",start:Math.min(...atrial)-5,end:Math.max(...atrial)+8,color:"#dbeafe"},{label:"QRS",start:Math.min(...ventricular)-5,end:stInterval.depolarizationEnd,color:"#d1fae5"},{label:"T",start:stInterval.recoveryStart??Infinity,end:Math.max(...recovery)+30,color:"#ede9fe"}].filter(p=>Number.isFinite(p.start)&&Number.isFinite(p.end))};
   },[recording,stInterval]);
+  const beatEvents=useMemo(()=>{
+    const his=recording.mesh.landmarks.find(item=>item.label==="His")?.index;
+    return (recording.events??[]).filter(event=>event.cell===his);
+  },[recording]);
   // Readers expose only the needed arrays without expanding them in React's dev profiler.
   const signalReaders=useMemo(()=>Object.fromEntries(STANDARD_LEADS.map(id=>{
-    const baseline=lesion&&showReference?normalTraces?.[id].values:comparison?.values[id];
-    return [id,()=>({trace:traces[id],baseline,measurement:lesion?st[id]:undefined,stWindow:stInterval})];
-  })) as Record<StandardLead,()=>EcgTraceSignal>,[traces,comparison,lesion,showReference,normalTraces,st,stInterval]);
+    const baseline=referenceAvailable&&showReference?normalTraces?.[id].values:comparison?.values[id];
+    return [id,()=>({trace:traces[id],baseline,measurement:lesion?st[id]:undefined,stWindow:isRhythmCondition(recording.inputs.condition)?undefined:stInterval})];
+  })) as Record<StandardLead,()=>EcgTraceSignal>,[traces,comparison,lesion,referenceAvailable,showReference,normalTraces,st,stInterval,recording.inputs.condition]);
   const placement=leadPreset(lead,electrodes),trace=traces[lead],frame=recordingFrame(recording,timeMs);
   const snapshot=partSnapshot(recording,part,frame),definition=HEART_PARTS.find(item=>item.id===part)!;
   const field=leadFieldAtCenter(placement),p=recording.dipole.subarray(frame*3,frame*3+3),length=Math.hypot(...p)*Math.hypot(...field);
@@ -118,9 +125,18 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
   const selectPart=(value:HeartPart)=>{setPart(value);setPanel("structure");};
   const jump=(value:HeartPart)=>{setPart(value);const onset=partSnapshot(recording,value,frame).onset;if(onset!==null)seek(Math.round(onset/recording.sampleMs)*recording.sampleMs);};
   const save=()=>{setShowReference(false);setComparison({inputs:structuredClone(inputs),electrodes:structuredClone(electrodes),lead,values:Object.fromEntries(STANDARD_LEADS.map(id=>[id,traces[id].values.slice()])) as Record<StandardLead,Float32Array>,label:`${FORWARD_CONDITIONS.find(item=>item.id===inputs.condition)?.label} · ${inputs.rate}/min · ${inputs.ischemia?.mode??"무손상"} · 12유도`});};
-  const updateInputs=(value:ForwardInputs)=>{seek(0);setInjuryRegions([...(value.ischemia?.regions??[])]);onInputs(value);};
+  const updateInputs=(value:ForwardInputs)=>{seek(0);if(value.condition!==inputs.condition)setWindowMode(isRhythmCondition(value.condition)?"all":"beat");setInjuryRegions([...(value.ischemia?.regions??[])]);onInputs(value);};
+  const chooseCondition=(condition:ForwardInputs["condition"])=>{
+    updateInputs({...inputs,condition,electrophysiology:undefined,rate:condition==="mobitz1"?90:70,...(isIonicCondition(condition)?{ischemia:undefined}:{})});
+    setShowReference(true);setSpeed(isRhythmCondition(condition)?1:.25);
+    // Fixed display zoom only: ionic tissue can exceed the +/-1.5 a.u. viewport.
+    // Every lead and its reference retain the same raw values and common gain.
+    setGain(isIonicCondition(condition)?.5:1);
+    if(isRhythmCondition(condition)){setDisplay("focus");chooseLead("II");}
+    setPanel("model");setElectrodeMode(false);
+  };
   const applyTissue=(value:ForwardInputs)=>{setShowReference(true);updateInputs(value);};
-  const conductionControls=<div className="ecg-conduction-controls"><label><span>전도</span><select aria-label="전도 조건" value={inputs.condition} onChange={event=>updateInputs({...inputs,condition:event.target.value as ForwardInputs["condition"]})}>{FORWARD_CONDITIONS.map(item=><option key={item.id} value={item.id}>{item.label}</option>)}</select></label><button type="button" className="ecg-icon-button" aria-label="심장 모델 초기화" onClick={()=>updateInputs(DEFAULT_FORWARD_INPUTS)}><RotateCcw size={16}/></button></div>;
+  const conductionControls=<div className="ecg-conduction-controls"><label><span>조건</span><select aria-label="전도 조건" value={inputs.condition} onChange={event=>chooseCondition(event.target.value as ForwardInputs["condition"])}>{FORWARD_CONDITIONS.map(item=><option key={item.id} value={item.id}>{item.label}</option>)}</select></label><button type="button" className="ecg-icon-button" aria-label="심장 모델 초기화" onClick={()=>updateInputs(DEFAULT_FORWARD_INPUTS)}><RotateCcw size={16}/></button></div>;
 
   return <div className="ecg-workspace" ref={workspace}>
     <div className="ecg-workspace-main" inert={busy}>
@@ -128,7 +144,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
         <div className="ecg-scene-toolbar">
           <label>전극<select aria-label="이동할 전극" value={selected} disabled={panel==="injury"} onChange={event=>selectElectrode(event.target.value as ElectrodeId)}>{ELECTRODE_IDS.map(id=><option key={id} value={id}>{id}</option>)}</select></label>
           <label><input type="checkbox" checked={showFields} disabled={panel==="injury"} onChange={event=>setShowFields(event.target.checked)}/>전기장</label>
-          <button type="button" className="ecg-injury-launch" aria-label="Infarction 실험 열기" aria-pressed={panel==="injury"} aria-controls="ecg-settings-panel" data-active={Boolean(lesion)} onClick={()=>{if(panel==="injury")closeSettings();else openInjury();}}>Ischemia / MI{lesion?" ●":""}</button>
+          <button type="button" className="ecg-injury-launch" aria-label="Infarction 실험 열기" aria-pressed={panel==="injury"} aria-controls="ecg-settings-panel" data-active={Boolean(lesion)} disabled={isIonicCondition(inputs.condition)} title={isIonicCondition(inputs.condition)?"이온 전류 실험과 Ischemia의 복합 조건은 아직 지원하지 않습니다.":undefined} onClick={()=>{if(panel==="injury")closeSettings();else openInjury();}}>Ischemia / MI{lesion?" ●":""}</button>
           <button ref={settingsButton} type="button" className="ecg-icon-button" aria-label="구조·전극·모델 설정" aria-expanded={settingsOpen} aria-controls="ecg-settings-panel" onClick={()=>{if(settingsOpen)closeSettings();else{setPanel("electrodes");setElectrodeMode(true);}}}><SlidersHorizontal size={17}/><span>설정</span></button>
           <button type="button" className="ecg-icon-button" aria-label="도해와 계산 설명" onClick={()=>guide.current?.showModal()}><Info size={17}/></button>
         </div>
@@ -141,7 +157,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
           </div>
           <button className="simulation-button" type="button" onClick={()=>seek(0)} aria-label="계산 기록 처음으로"><RotateCcw size={15}/></button>
           <select aria-label="전기활동 재생 속도" value={speed} onChange={event=>setSpeed(Number(event.target.value))}>{[.1,.25,.5,1].map(value=><option key={value} value={value}>{value}×</option>)}</select>
-          <select className="ecg-phase-select" aria-label="관찰할 파형 구간" value="" onChange={event=>{const value=event.target.value;if(value==="TP")seek(60);else if(value==="ST")seek(stInterval.end+2);else jumpPhase(value);playButton.current?.focus();}}><option value="" disabled>구간 이동</option>{["P","QRS","T"].map(label=><option key={label} value={label}>{label}</option>)}{lesion?<><option value="TP">TP</option><option value="ST" disabled={!st[lead].valid}>ST</option></>:null}</select>
+          <select className="ecg-phase-select" aria-label="관찰할 파형 구간" value="" onChange={event=>{const value=event.target.value;if(value.startsWith("beat:"))seek(Number(value.slice(5)));else if(value==="TP")seek(60);else if(value==="ST")seek(stInterval.end+2);else jumpPhase(value);playButton.current?.focus();}}><option value="" disabled>구간 이동</option>{isRhythmCondition(recording.inputs.condition)?beatEvents.map((event,i)=><option key={event.time} value={`beat:${event.time}`}>His {i+1} · {(event.time/1000).toFixed(2)} s</option>):["P","QRS","T"].map(label=><option key={label} value={label}>{label}</option>)}{lesion&&!isRhythmCondition(recording.inputs.condition)?<><option value="TP">TP</option><option value="ST" disabled={!st[lead].valid}>ST</option></>:null}</select>
           <input aria-label="관찰 시각" type="range" min={0} max={windowMs} step="any" value={timeMs} onChange={event=>seek(Number(event.target.value))} onKeyDown={event=>{if(!playing&&!event.altKey&&!event.ctrlKey&&!event.metaKey&&!event.shiftKey&&(event.key==="ArrowLeft"||event.key==="ArrowRight")){event.preventDefault();stepTime(event.key==="ArrowLeft"?-1:1);}}}/><output>{Math.round(timeMs)} <small>ms</small></output>
         </div>
       </section>
@@ -152,7 +168,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
         <div className="ecg-signal-toolbar">
           <label>선택<select aria-label="관찰할 ECG 유도" value={lead} onChange={event=>chooseLead(event.target.value as StandardLead)}>{STANDARD_LEADS.map(id=><option key={id} value={id}>{id}</option>)}</select></label>
           <label>감도<select aria-label="ECG 화면 감도" value={gain} onChange={event=>setGain(Number(event.target.value))}>{[.25,.5,1,2].map(value=><option key={value} value={value}>{value}×</option>)}</select></label>
-          <label>시간축<select aria-label="ECG 시간 범위" value={windowMode} onChange={event=>{const mode=event.target.value as "beat"|"all";seek(Math.min(timeMs,playbackDuration(mode,recording.inputs.rate,recording.durationMs)));setWindowMode(mode);}}><option value="beat">1박동</option><option value="all">전체 2.4 s</option></select></label><span className="ecg-shared-scale">{lesion?`원 전위 · ${showReference?"점선: 무손상":"현재 조직"}`:playing?"기록 중":timeMs>=windowMs?"재생 완료":windowMode==="beat"?"한 주기 재생 후 정지":"전체 기록 재생 후 정지"}</span>
+          <label>시간축<select aria-label="ECG 시간 범위" value={windowMode} onChange={event=>{const mode=event.target.value as "beat"|"all";seek(Math.min(timeMs,playbackDuration(mode,recording.inputs.rate,recording.durationMs)));setWindowMode(mode);}}><option value="beat">{isRhythmCondition(recording.inputs.condition)?`짧게 (${(60/recording.inputs.rate).toFixed(2)} s)`:"1박동"}</option><option value="all">전체 {recording.durationMs/1000} s</option></select></label><span className="ecg-shared-scale">{lesion?`원 전위 · ${showReference?"점선: 무손상":"현재 조직"}`:isIonicCondition(recording.inputs.condition)&&showReference?"점선: Ionic 기준":playing?"기록 중":timeMs>=windowMs?"재생 완료":windowMode==="beat"?"시간창 재생 후 정지":"전체 기록 재생 후 정지"}</span>
         </div>
         {display==="twelve"?<div className="ecg-twelve-grid">{LEAD_ORDER.map(id=><section key={id} className="ecg-lead-tile" data-selected={lead===id} data-lead={id} aria-label={`Lead ${id}`}>
           <button type="button" className="ecg-lead-label" aria-pressed={lead===id} aria-label={`Lead ${id} 선택`} onClick={()=>chooseLead(id)}><b>{id}</b><span data-st-lead={id} data-st-value={st[id].valid?st[id].shift:undefined}>{lesion?st[id].valid?`ST ${st[id].shift>=0?"+":""}${st[id].shift.toFixed(3)}`:"ST —":traces[id].values[frame].toFixed(2)}</span></button>
@@ -163,7 +179,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
 
     <aside id="ecg-settings-panel" className="ecg-inspector" aria-labelledby="ecg-settings-title" hidden={!settingsOpen}>
       <header className="ecg-inspector-header"><h2 id="ecg-settings-title" ref={settingsHeading} tabIndex={-1}>심장 모델 설정</h2>{conductionControls}<button type="button" className="ecg-settings-back" aria-label="설정 닫고 ECG로 돌아가기" onClick={closeSettings}>ECG로 돌아가기 <X size={17}/></button></header>
-      <div className="ecg-inspector-tabs" role="group" aria-label="조작 패널 선택">{([['injury','손상'],['structure','부위'],['electrodes','전극'],['model','모델']] as const).map(([value,label])=><button type="button" key={value} aria-pressed={panel===value} onClick={()=>{if(value==="injury"){if(panel!=="injury")openInjury();}else{setPanel(value);if(value==="electrodes")setElectrodeMode(true);}}}>{label}</button>)}</div>
+      <div className="ecg-inspector-tabs" role="group" aria-label="조작 패널 선택">{([['injury','손상'],['structure','부위'],['electrodes','전극'],['model','모델']] as const).map(([value,label])=><button type="button" key={value} disabled={value==="injury"&&isIonicCondition(inputs.condition)} aria-pressed={panel===value} onClick={()=>{if(value==="injury"){if(panel!=="injury")openInjury();}else{setPanel(value);if(value==="electrodes")setElectrodeMode(true);}}}>{label}</button>)}</div>
       <div className="ecg-inspector-content" data-panel={panel}>
         {panel==="injury"?<EcgIschemiaPanel inputs={inputs} onInputs={applyTissue} regions={injuryRegions} onRegions={setInjuryRegions}/>:panel==="structure"?<>
           <label className="ecg-field">선택한 구조<select aria-label="심장 구조 선택" value={part} onChange={event=>setPart(event.target.value as HeartPart)}>{HEART_PARTS.map(item=><option key={item.id} value={item.id}>{item.id} · {item.name}</option>)}</select></label>
@@ -181,11 +197,13 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
           <button className="ecg-onset-button" type="button" onClick={()=>setElectrodes(value=>({...value,RA:value.LA,LA:value.RA}))}>RA ↔ LA 위치 교환</button>
           <button className="ecg-onset-button" type="button" onClick={()=>setElectrodes(structuredClone(DEFAULT_ELECTRODES))}>모든 전극 위치 초기화</button>
         </>:panel==="model"?<>
-          <label className="ecg-range-label"><span>{inputs.condition==="rv-pacing"?"RV 자극":"SA 자극"} 빈도 <b>{inputs.rate}/min</b></span><input aria-label="심장 자극 빈도" type="range" min={50} max={110} step={1} value={inputs.rate} onChange={event=>updateInputs({...inputs,rate:Number(event.target.value)})}/></label>
-          <label className="ecg-range-label"><span>Ventricular 회복 <b>{inputs.recovery}%</b></span><input aria-label="Ventricular 회복 시상수" type="range" min={70} max={135} step={5} value={inputs.recovery} onChange={event=>updateInputs({...inputs,recovery:Number(event.target.value)})}/></label>
+          <EcgScenarioControls inputs={inputs} onChange={updateInputs}/>
+          {referenceAvailable?<label className="ecg-check"><input type="checkbox" checked={showReference} onChange={event=>setShowReference(event.target.checked)}/>기준 조직 파형 겹치기</label>:null}
+          {inputs.condition!=="af"?<label className="ecg-range-label"><span>{inputs.condition==="rv-pacing"?"RV 자극":"SA 자극"} 빈도 <b>{inputs.rate}/min</b></span><input aria-label="심장 자극 빈도" type="range" min={50} max={110} step={1} value={inputs.rate} onChange={event=>updateInputs({...inputs,rate:Number(event.target.value)})}/></label>:null}
+          {!isIonicCondition(inputs.condition)?<label className="ecg-range-label"><span>Ventricular 회복 <b>{inputs.recovery}%</b></span><input aria-label="Ventricular 회복 시상수" type="range" min={70} max={135} step={5} value={inputs.recovery} onChange={event=>updateInputs({...inputs,recovery:Number(event.target.value)})}/></label>:null}
           <p className="ecg-control-hint">{FORWARD_CONDITIONS.find(item=>item.id===inputs.condition)?.explanation}</p>
           <label className="ecg-check"><input type="checkbox" checked={showMotion} onChange={event=>setMotionOverride(event.target.checked)}/>심방·심실 수축 표시</label>
-          <p className="ecg-control-hint">각 부위의 Vm 상승 뒤에 수축 반응이 따라옵니다. 내강 축소·벽 두꺼워짐·AV plane 이동을 함께 표시합니다. 실제 Calcium·압력·혈류를 푸는 모델은 아닙니다.{reduceMotion?" 기기의 동작 줄이기 설정으로 기본 표시를 껐습니다.":""}</p>
+          <p className="ecg-control-hint">각 부위의 Vm 상승 뒤에 수축 반응이 따라옵니다. 내강 축소·벽 두꺼워짐·AV plane 이동을 함께 표시합니다. 수축 표시는 Calcium–force·압력·혈류 계산이 아닙니다.{reduceMotion?" 기기의 동작 줄이기 설정으로 기본 표시를 껐습니다.":""}</p>
           <label className="ecg-check"><input type="checkbox" checked={showVectors} onChange={event=>setShowVectors(event.target.checked)}/>Dipole · Lead field 방향 표시</label>
           <label className="ecg-check"><input type="checkbox" checked={showApproximation} onChange={event=>setShowApproximation(event.target.checked)}/>단일 dipole 내적 근사 겹치기</label>
           <section className="ecg-comparison"><h3>12유도 파형 비교</h3>{comparison?<><p>{comparison.label}</p><div><button type="button" onClick={()=>{setElectrodes(structuredClone(comparison.electrodes));chooseLead(comparison.lead);updateInputs({...comparison.inputs});}}>조건 복원</button><button type="button" onClick={()=>setComparison(null)}>비교 해제</button></div><p>회색 점선 · 같은 배율 · 현재 화면에서만 보관</p></>:<p>ECG 위 ‘비교 저장’으로 12유도를 저장한 뒤 조건을 바꿔 보세요.</p>}</section>
@@ -203,8 +221,9 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
         <p>파란 화살표는 고정 관찰점의 Electric field E = −∇φ입니다. RA·LA와 Ventricles 9개 구역마다 2개씩, 총 22개 관찰점에서 ECG와 같은 분포 Dipole 전위식을 미분합니다. 각 구역을 두 부분으로 나눈 조직 중심에서 각각 계산하며, 같은 화살표를 복제한 것이 아닙니다. 화살표의 시작점은 고정되고 방향·길이만 계산값에 따라 변합니다. 시작점에 별도 표식은 그리지 않습니다. 전극이나 결합 전류·흥분 파면의 방향은 아닙니다.</p>
         <p>큰 검은 화살표는 모든 전류원의 벡터 합인 Net dipole p(t)입니다. 심장 그림 중심에 시작점을 고정하고, 현재 계산값의 정면 성분으로 방향·길이를 표시합니다. 특정 위치의 Electric field E나 파란 화살표들의 합과는 다릅니다. 시간·손상 조건에 같은 배율을 쓰고, 화면을 벗어나는 길이만 제한합니다. 정면 성분이 작으면 생략하며 표시가 없다고 3D 벡터 전체가 0은 아닙니다. 그림 아래 ‘합성 벡터’ 체크로 독립적으로 켜고 끕니다. 표시를 꺼도 전도·전극·ECG 계산은 바뀌지 않습니다. <a href="https://pubmed.ncbi.nlm.nih.gov/19543975/" target="_blank" rel="noreferrer">Babbs · Summed dipole model</a></p>
         <p>방향은 공통 정면 좌표계에 투영하며 모든 지점·시각에 같은 길이 압축 배율을 적용합니다. 정면 성분이 작으면 화살표를 생략하므로, 표시가 없다고 3D 전기장 전체가 0이라는 뜻은 아닙니다. 관찰 위치는 펼친 절개도에 대응하며 실제 위치 비례를 재현하지 않습니다. 기존 Infinite homogeneous conductor·거리 하한 0.25 model unit을 그대로 사용한 교육용 값으로, 임상 V/m나 Bidomain 해가 아닙니다. 선택 유도의 Lead field와도 다른 양입니다.</p>
-        <p>기본 재생은 한 자극 주기(60,000 ÷ 자극 빈도 ms)의 끝에서 자동으로 멈추며 완성된 파형을 유지합니다. 중간에 정지하면 이어서 재생하고, 끝에서 재생하면 처음부터 시작합니다. ‘전체 2.4 s’를 선택하면 전체 기록의 끝에서 멈춥니다. 아직 도달하지 않은 파형은 보이지 않고 비교 기록만 회색 점선으로 남습니다. 정지 상태에서 재생 버튼 양옆의 화살표 또는 ←·→ 키로 10 ms씩 이동합니다. 입력 항목과 전극 위치 지도는 자체 방향키 조작을 유지합니다. ‘구간 이동’ 목록의 P·QRS·T는 선택 유도의 해당 구간 최대 진폭 시점으로 이동합니다.</p></section>
-      <section><h3>부위별 Ischemia / Infarction 실험</h3><p>‘Ischemia / MI’에서 허혈 위치를 체크하면 같은 번호의 심근 구역이 강조됩니다. 여러 부위를 선택한 뒤 ‘허혈 적용’을 누르세요. 적용 전에는 위치만 미리 표시하며, 적용 후 조직 특성을 바꾸어 Vm과 전극 전위를 다시 계산합니다. ST 구간에 값을 더하지 않습니다. ‘허혈 해제’로 무손상 조건으로 돌아갑니다.</p><p>‘ECG로 돌아가기’에서 파형을 확인하고, ‘구간 이동’ 목록의 TP와 ST로 휴지기와 Plateau의 전류 방향을 비교하세요. 회색 점선은 같은 조건에서 손상만 제거한 별도 계산입니다.</p><p>9개 구역은 앞·뒤 심근을 펼친 개념도이며 Coronary territory·AHA segment와 일대일 대응하지 않습니다. LV inferior는 독립 구역이 아닙니다. 작은 RV·Posterior 병변 등에서 변화가 작을 수 있으며 임상 mV·STEMI 진단·환자 예측에 사용할 수 없습니다. Hyperkalemia는 아직 구현하지 않았습니다. 조직 매개변수와 계산식·한계는 <Link href="/interactive/ecg-arrhythmia/notes#regional-ischemia">부위별 Ischemia 노트</Link>에서 확인할 수 있습니다.</p></section>
+        <p>일반 조건은 한 자극 주기 끝에서 멈추고, PVC·AV block·AF는 박동 관계를 볼 수 있도록 전체 8초 기록을 기본 표시합니다. 중간에 정지하면 이어서 재생하고, 끝에서 재생하면 처음부터 시작합니다. 아직 도달하지 않은 파형은 보이지 않고 비교 기록만 회색 점선으로 남습니다. 정지 상태에서 재생 버튼 양옆의 화살표 또는 ←·→ 키로 10 ms씩 이동합니다. 입력 항목과 전극 위치 지도는 자체 방향키 조작을 유지합니다. ‘구간 이동’은 일반 조건에서 P·QRS·T 구간의 최대 진폭 시점, 리듬 조건에서 실제 His 활성 시점으로 이동합니다.</p></section>
+      <section><h3>전도·리듬·Ionic 실험</h3><p>WPW는 Accessory pathway, PVC는 국소 조기 자극을 추가합니다. AV block은 결합·회복·불응기를 바꾸고, Complete AV block은 독립적인 Junctional automaticity를 사용합니다. AF는 국소 자동능과 불균일한 Atrial sheet 전파를 계산합니다. 정해진 RR 목록이나 파형 조각을 붙이지 않습니다.</p><p>Hyperkalemia·QT는 Luo–Rudy I ionic myocardium에서 K⁺ 농도 또는 K⁺ conductance를 바꿉니다. 점선은 같은 Ionic 모델의 기준 조건입니다. Guinea-pig 기반 모델의 축약 확장이며 환자의 혈청 K⁺·QTc·약물 반응을 예측하지 않습니다. Ischemia와 동시 적용하지 않습니다. <Link href="/interactive/ecg-arrhythmia/notes#forward-ionic">Ionic 모델</Link> · <Link href="/interactive/ecg-arrhythmia/notes#forward-rhythm">리듬 모델과 한계</Link></p></section>
+      <section><h3>부위별 Ischemia / Infarction 실험</h3><p>‘Ischemia / MI’에서 허혈 위치를 체크하면 같은 번호의 심근 구역이 강조됩니다. 여러 부위를 선택한 뒤 ‘허혈 적용’을 누르세요. 적용 전에는 위치만 미리 표시하며, 적용 후 조직 특성을 바꾸어 Vm과 전극 전위를 다시 계산합니다. ST 구간에 값을 더하지 않습니다. ‘허혈 해제’로 무손상 조건으로 돌아갑니다.</p><p>‘ECG로 돌아가기’에서 파형을 확인하고, ‘구간 이동’ 목록의 TP와 ST로 휴지기와 Plateau의 전류 방향을 비교하세요. 회색 점선은 같은 조건에서 손상만 제거한 별도 계산입니다.</p><p>9개 구역은 앞·뒤 심근을 펼친 개념도이며 Coronary territory·AHA segment와 일대일 대응하지 않습니다. LV inferior는 독립 구역이 아닙니다. 작은 RV·Posterior 병변 등에서 변화가 작을 수 있으며 임상 mV·STEMI 진단·환자 예측에 사용할 수 없습니다. 조직 매개변수와 계산식·한계는 <Link href="/interactive/ecg-arrhythmia/notes#regional-ischemia">부위별 Ischemia 노트</Link>에서 확인할 수 있습니다.</p></section>
       <section><h3>그림의 크기와 전극 좌표</h3><p>심장은 구조를 읽기 위해 확대해 그린 전면 개념 절개도입니다. LA와 앞·뒤의 심근 구역을 펼쳐 보여 주며 실제 단면이나 위치 비례를 재현하지는 않습니다. 전극은 별도의 3D 흉곽 타원체 표면 좌표에서 계산하며, 심장 그림의 확대가 계산 거리를 바꾸지 않습니다. ‘전극 위치’에서는 전극과 흉곽을 정면으로 함께 보여 줍니다. 가슴 전극 위치는 축약 좌표이며 실제 늑간 부착 도해가 아닙니다. 점선 전극은 뒤쪽 표면에 있습니다. 설정은 ECG 파형 영역에 열리고, ‘ECG로 돌아가기’로 닫으면 기존 유도·시간·전극 설정을 유지한 파형으로 돌아갑니다.</p><p>벽의 옅은 황금색은 흥분, 청회색은 Vm이 감소하는 회복입니다. 각 구역·층의 평균 Vm을 저장 샘플 사이에서 보간하며, Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열합니다. 이름에 마우스를 올리거나 키보드로 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 패널을 엽니다. 설정에서 켜는 작은 벡터 도해의 청회색은 합성 dipole, 청록 점선은 선택 유도의 Lead field입니다. 전압은 고정 배율의 a.u.이고 임상 mV로 보정하지 않았습니다.</p></section>
       <p className="ecg-guide-sources">근거: <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noreferrer">OpenStax · Heart anatomy</a> · <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noreferrer">OpenStax · Conduction system</a> · <a href="https://www.bem.fi/book/06/06.htm" target="_blank" rel="noreferrer">Bioelectromagnetism · 활성과 전류</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27034121/" target="_blank" rel="noreferrer">APD gradient와 T wave 연구</a></p>
       <p className="ecg-guide-sources">모델 참고: <a href="https://doi.org/10.1161/01.CIR.41.6.899" target="_blank" rel="noreferrer">Durrer · Ventricular activation</a> · <a href="https://opencarp.org/documentation/examples/02_ep_tissue/07_extracellular" target="_blank" rel="noreferrer">openCARP · ECG recovery</a> · <a href="https://doi.org/10.1186/s12576-020-00760-3" target="_blank" rel="noreferrer">Okada · ST elevation 기전</a></p>

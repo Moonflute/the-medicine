@@ -1,6 +1,6 @@
 /**
  * Educational forward ECG, independent of ecg-model's synthetic rhythm strips.
- * A coarse 3-D excitable graph integrates Mitchell–Schaeffer membrane dynamics
+ * A coarse 3-D graph integrates Mitchell–Schaeffer or adapted Luo–Rudy I dynamics
  * and reciprocal diffusive coupling. Extracellular potentials are recovered
  * from distributed edge-current dipoles in an infinite homogeneous conductor.
  * Geometry, tissue parameters and gain are illustrative, NOT patient calibrated.
@@ -8,7 +8,8 @@
  */
 export type Vec3 = readonly [number, number, number];
 export type Chamber = "RA" | "LA" | "RV" | "LV" | "node";
-export type ConductionCondition = "normal" | "av-slow" | "rbb-block" | "lbb-block" | "rv-pacing";
+export type ConductionCondition = "normal" | "av-slow" | "rbb-block" | "lbb-block" | "rv-pacing" | "wpw" | "pvc" | "hyperkalemia" | "long-qt" | "short-qt" | "mobitz1" | "mobitz2" | "complete-av" | "af";
+export type ElectrophysiologyInputs = { accessoryRegion?: "lv-lateral" | "lv-septal" | "rv-basal"; ectopicRegion?: MyocardialRegion; couplingMs?: number; potassium?: number; potassiumScale?: number; avCoupling?: number; branchCoupling?: number };
 export const MYOCARDIAL_REGIONS = ["lv-septal", "lv-apical", "lv-lateral", "lv-anterior", "lv-posterior", "lv-basal", "rv-anterior", "rv-apical", "rv-basal"] as const;
 export type MyocardialRegion = typeof MYOCARDIAL_REGIONS[number];
 export const MYOCARDIAL_LABELS: Record<MyocardialRegion,string> = {"lv-septal":"LV septal","lv-apical":"LV apical","lv-lateral":"LV lateral","lv-anterior":"LV anterior","lv-posterior":"LV posterior","lv-basal":"LV basal","rv-anterior":"RV anterior","rv-apical":"RV apical","rv-basal":"RV basal"};
@@ -17,16 +18,18 @@ export const DEFAULT_ISCHEMIA: IschemiaInputs = {regions:["lv-anterior"],mode:"a
 /** Research extension seam, not an infarction preset. Values are normalized,
  * NOT mV, ionic concentrations, or a validated mapping from ischemic severity. */
 export type RegionalTissue = { region: MyocardialRegion; from?: number; to?: number; restingPotential?: number; amplitude?: number; excitability?: number; recoveryScale?: number; couplingScale?: number };
-export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number; tissue?: RegionalTissue[]; ischemia?: IschemiaInputs };
-export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number; longitudinal?: number; column?: number; bridge?: boolean; restingPotential?: number; amplitude?: number; excitability?: number; injury?: number; scar?: boolean };
+export type ForwardInputs = { rate: number; condition: ConductionCondition; recovery: number; tissue?: RegionalTissue[]; ischemia?: IschemiaInputs; electrophysiology?: ElectrophysiologyInputs };
+export type TissueCell = { position: Vec3; chamber: Chamber; tauIn: number; tauOut: number; tauClose: number; capacity: number; region?: string; transmural?: number; longitudinal?: number; column?: number; bridge?: boolean; restingPotential?: number; amplitude?: number; excitability?: number; injury?: number; scar?: boolean; tauOpen?: number; automaticity?: number; refractoryMs?: number; ionic?: boolean };
 export type MeshResolution = { atrialLayers: number; ventricularLayers: number };
 export const DEFAULT_MESH_RESOLUTION: MeshResolution = { atrialLayers: 33, ventricularLayers: 18 };
-export type TissueEdge = { a: number; b: number; conductance: number; source: boolean; branch?: "RBB" | "LBB" | "AV" };
+export type TissueEdge = { a: number; b: number; conductance: number; source: boolean; branch?: "RBB" | "LBB" | "AV" | "AP" };
 export type HeartMesh = { cells: TissueCell[]; edges: TissueEdge[]; landmarks: { label: string; index: number }[]; sinus: number; pacing: number };
 export type ForwardRecording = {
   inputs: ForwardInputs; mesh: HeartMesh; sampleMs: number; durationMs: number;
   samples: number; voltage: Float32Array; dipole: Float32Array;
   activationMs: Float32Array; recoveryMs: Float32Array;
+  events?: { cell: number; time: number }[];
+  stimuli?: { time: number; region: string; kind: "sinus" | "ectopic" | "induction" }[];
   activation: { atrialStart: number | null; ventricularStart: number | null; ventricularEnd: number | null; ventricularCoverage: number };
 };
 export type Electrode = { longitude: number; latitude: number };
@@ -58,9 +61,23 @@ export const FORWARD_CONDITIONS: { id: ConductionCondition; label: string; expla
   { id: "rbb-block", label: "RBB 연결 차단", explanation: "His–RBB 연결을 끄고 해당 branch의 Distal 결합도도 낮춥니다. 남은 심근 경로를 통한 RV의 지연 활성과 후반 전위차를 비교합니다. 진단용 RBBB 모델은 아닙니다." },
   { id: "lbb-block", label: "LBB 연결 차단", explanation: "His–LBB 연결을 끄고 해당 branch의 Distal 결합도도 낮춥니다. LV의 활성 분산과 넓어진 Lateral lead 파형을 비교합니다. 진단용 LBBB 모델은 아닙니다." },
   { id: "rv-pacing", label: "RV 자극", explanation: "SA 대신 RV의 작은 구역에 자극 전류를 줍니다. 달라진 시작점에서 실제로 전파를 계산하며, pacing spike나 기기 회로는 포함하지 않습니다." },
+  { id: "wpw", label: "WPW · Pre-excitation", explanation: "Accessory pathway와 AV–His 경로가 함께 전도합니다. 먼저 흥분한 심근과 뒤따르는 Purkinje 활성의 합으로 파형이 생성됩니다." },
+  { id: "pvc", label: "PVC · 조기 자극", explanation: "선택한 심실 부위에 한 번의 조기 자극을 줍니다. Capture·융합·전도 차단은 그 시점의 조직 불응기로 결정됩니다." },
+  { id: "hyperkalemia", label: "Hyperkalemia", explanation: "Extracellular K⁺를 바꾸어 Ionic membrane model과 조직 전파를 다시 계산합니다." },
+  { id: "long-qt", label: "QT prolongation", explanation: "Repolarizing K⁺ current를 줄여 Action potential과 전체 심실 회복의 변화를 계산합니다." },
+  { id: "short-qt", label: "QT shortening", explanation: "Repolarizing K⁺ current를 늘려 Action potential과 전체 심실 회복의 변화를 계산합니다." },
+  { id: "mobitz1", label: "Mobitz I · AV node", explanation: "AV nodal 회복을 느리게 하여 박동 사이의 회복 부족·전도 지연·비전도를 계산합니다." },
+  { id: "mobitz2", label: "Infranodal block · 2:1", explanation: "His의 Post-repolarization refractoriness를 연장합니다. 기본 조건은 2:1 전도이며, 2:1 ECG만으로 Mobitz II를 확진할 수는 없습니다." },
+  { id: "complete-av", label: "Complete AV block", explanation: "AV–His 연결을 차단하고 Junctional automaticity가 별도로 심실을 흥분시키게 합니다." },
+  { id: "af", label: "AF · 다초점·재진입", explanation: "심방의 국소 자동능·짧은 불응기·불균일한 결합에서 경쟁하는 흥분을 계산합니다. AV node의 회복 상태가 심실 반응을 결정하는 실험용 AF 기전 모델입니다." },
 ];
 
-const DT_MS = .1;
+export const isRhythmCondition = (condition: ConductionCondition) => ["pvc", "mobitz1", "mobitz2", "complete-av", "af"].includes(condition);
+export const isIonicCondition = (condition: ConductionCondition) => ["hyperkalemia", "long-qt", "short-qt"].includes(condition);
+export function referenceForwardInputs(inputs:ForwardInputs):ForwardInputs {
+  return {...inputs,ischemia:undefined,...(isIonicCondition(inputs.condition)?{condition:"hyperkalemia" as const,electrophysiology:{potassium:5.4,potassiumScale:1}}:{})};
+}
+
 const SAMPLE_MS = 2;
 // A single fixed scale for every electrode and scenario; never normalize each lead.
 export const FORWARD_SOURCE_GAIN = 1200;
@@ -78,12 +95,14 @@ export function normalizeForwardInputs(inputs: ForwardInputs): ForwardInputs {
   const lesion=inputs.ischemia;
   const regions=Array.isArray(lesion?.regions)?MYOCARDIAL_REGIONS.filter(id=>lesion.regions.includes(id)):[];
   const ischemia=regions.length&&lesion?{regions,mode:lesion.mode==="scar"?"scar" as const:"acute" as const,depth:finite(lesion.depth,100,0,100),severity:finite(lesion.severity,70,0,100)}:undefined;
+  const ep=inputs.electrophysiology;
   return {
     rate: clamp(Number.isFinite(inputs.rate) ? inputs.rate : 70, 50, 110),
     recovery: clamp(Number.isFinite(inputs.recovery) ? inputs.recovery : 100, 70, 135),
     condition: FORWARD_CONDITIONS.some(c => c.id === inputs.condition) ? inputs.condition : "normal",
     ...(tissue.length?{tissue}:{}),
     ...(ischemia?{ischemia}:{}),
+    ...(ep?{electrophysiology:{accessoryRegion:["lv-lateral","lv-septal","rv-basal"].includes(ep.accessoryRegion??"")?ep.accessoryRegion:"lv-lateral",ectopicRegion:MYOCARDIAL_REGIONS.includes(ep.ectopicRegion as MyocardialRegion)?ep.ectopicRegion:"lv-septal",couplingMs:finite(ep.couplingMs,650,250,750),potassium:finite(ep.potassium,7,4,10),potassiumScale:finite(ep.potassiumScale,inputs.condition==="long-qt"?.45:inputs.condition==="short-qt"?2:1,.3,2.5),avCoupling:finite(ep.avCoupling,.52,.3,1.2),branchCoupling:finite(ep.branchCoupling,0,0,1)}}:{}),
   };
 }
 
@@ -124,6 +143,31 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
   const cross = (a: Vec3,b: Vec3): Vec3 => [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
   const patches = new Map<string,number[][]>();
   const patch = (id:string,chamber:Chamber,origin:Vec3,direction:Vec3,depth:number,area:number,apd:number,atrial=false) => {
+    if(atrial&&inputs.condition==="af") {
+      // Periodic atrial sheet with transverse coupling and a fixed heterogeneous
+      // substrate. Reentrant wavefronts, not an RR sequence, drive the AV input.
+      const columns:number[][]=[],length=48,width=12;
+      for(let y=0;y<width;y++) {
+        const column:number[]=[];
+        for(let x=0;x<length;x++) {
+          const angle=2*Math.PI*x/length,index=cells.length;
+          const heterogeneity=(.8+.4*y/(width-1))*(1+.3*Math.sin(x*.7+y*.4));
+          cells.push({position:[origin[0]+1.1*Math.cos(angle),origin[1]-.14*y,origin[2]+.7*Math.sin(angle)],chamber,region:id,column:y*3/(width-1),longitudinal:x/(length-1),capacity:area/10,tauIn:.3,tauOut:5,tauClose:(chamber==="RA"?27:22)*heterogeneity,tauOpen:65});
+          // Small pulmonary-venous boundary foci add a steady inward membrane
+          // conductance. Their recovery and electrotonic load determine firing;
+          // there is no atrial event list or random/prescribed RR interval.
+          if(chamber==="LA")for(const [row,position,drive] of [[1,4,.024],[4,16,.031],[7,28,.038],[10,40,.028]]) {
+            if(Math.abs(y-row)<=1&&Math.abs(x-position)<=1)cells[index].automaticity=drive;
+          }
+          column.push(index);
+          if(x)edges.push({a:column[x-1],b:index,conductance:(chamber==="RA"?.125:.16)*(.75+.5*y/(width-1))*(1+.15*Math.sin(x*.4))*cells[index].capacity,source:true});
+          if(y)edges.push({a:columns[y-1][x],b:index,conductance:(x>15&&x<28&&y===6?0:.0005)*cells[index].capacity,source:true});
+        }
+        edges.push({a:column[0],b:column[length-1],conductance:(chamber==="RA"?.125:.16)*(.75+.5*y/(width-1))*cells[column[0]].capacity,source:true});
+        columns.push(column);
+      }
+      patches.set(id,columns);return columns;
+    }
     const requested=atrial?resolution.atrialLayers:resolution.ventricularLayers;
     const layers=Math.round(clamp(Number.isFinite(requested)?requested:atrial?33:18,atrial?17:12,atrial?65:36)),side=atrial?2:3,normal=unit(direction),spacing=(layers-1)/(atrial?8:5);
     const tangent=unit(cross(normal,Math.abs(normal[2])<.85?[0,0,1]:[0,1,0])),other=cross(normal,tangent);
@@ -145,7 +189,10 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
         cells.push({position,chamber,tauIn:.3,tauOut:atrial?6:9,tauClose,capacity:area*section/spacing,region:id,column:row*side+col,transmural:atrial?undefined:fraction,longitudinal:atrial?fraction:undefined});
         column.push(index);
         const tissueEdge=(a:number,g:number)=>edges.push({a,b:index,conductance:g*2*cells[a].capacity*cells[index].capacity/(cells[a].capacity+cells[index].capacity),source:true});
-        if(layer)tissueEdge(column[layer-1],(atrial?.018:id==="lv-septal"?.026:.016)*spacing**2);
+        // The fast ionic upstroke needs a resolved propagation safety margin on
+        // this coarse graph. Keep a separate, fixed ionic tissue conductivity;
+        // its healthy reference uses exactly the same mesh and conductance.
+        if(layer)tissueEdge(column[layer-1],(atrial?.018:id==="lv-septal"?.026:.016)*spacing**2*(!atrial&&isIonicCondition(inputs.condition)?2:1));
         if(col)tissueEdge(columns[columns.length-1][layer],.012);
         if(row)tissueEdge(columns[columns.length-side][layer],.012);
       }
@@ -169,26 +216,46 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
   for(const region of ventricular) patch(region.id,region.chamber,region.origin,region.normal,region.depth,region.area,region.apd);
   const node = (position: Vec3, label?: string, slow=false, capacity=2, ventricular=false) => {
     const index=cells.length;
-    cells.push({ position, chamber:"node", tauIn:slow?1.2:ventricular?.3:.12, tauOut:slow?15:6, tauClose:ventricular?160*inputs.recovery/100:65, capacity:slow?1:capacity,region:"conduction" });
+    const ionicVentricle=ventricular&&isIonicCondition(inputs.condition);
+    // Ionic ventricular conduction cells use the same channel equations as
+    // myocardium, with a smaller effective cable volume. This avoids mixing an
+    // unrelated recovery clock into K/QT experiments; it is not a validated
+    // human Purkinje-cell parameterization.
+    cells.push({ position, chamber:"node", tauIn:slow?1.2:ventricular?.3:.12, tauOut:slow?15:6, tauClose:ventricular?160*inputs.recovery/100:65, capacity:slow?1:ionicVentricle?capacity/5:capacity,region:"conduction",...(ionicVentricle?{ionic:true}:{}) });
     if(label) landmarks.push({label,index});
     return index;
   };
   const connect = (a:number,b:number,conductance:number,branch?:TissueEdge["branch"]) => edges.push({a,b,conductance,source:false,branch});
   const sinus = node([-2.1,9.25,1],"SA node");
-  for (const column of ra) connect(sinus,column[0],.12*cells[column[0]].capacity);
+  for (const [i,column] of ra.entries())if(inputs.condition!=="af"||i===0)connect(sinus,column[0],.12*cells[column[0]].capacity);
   // Atrial spread is reduced to distributed myocardial coupling. There is no
   // separately represented named interatrial tract, node chain, or drawn arch.
   for(let col=0;col<ra.length;col++) {
+    if(inputs.condition==="af"&&col!==2&&col!==9)continue;
     const a=ra[col][Math.round((ra[col].length-1)*.2)],b=la[col][0];
-    edges.push({a,b,conductance:.045*cells[b].capacity,source:false});
+    edges.push({a,b,conductance:(isIonicCondition(inputs.condition)?.4:inputs.condition==="af"?.008:.045)*cells[b].capacity,source:false});
   }
   let previous=ra[2][Math.round((ra[2].length-1)*.625)];
-  const avFactor=inputs.condition==="av-slow"?.52:1;
+  const avFactor=inputs.condition==="av-slow"?(inputs.electrophysiology?.avCoupling??.52):1;
   for(let k=0;k<6;k++) {
     const next=node([.3+k*.07,6.1-k*.18,.3],k===3?"AV node":undefined,true);
-    connect(previous,next,.032*avFactor,"AV");previous=next;
+    if(inputs.condition==="mobitz1") { cells[next].tauOpen=400; cells[next].tauClose=95; }
+    if(inputs.condition==="af") { cells[next].capacity=.65;cells[next].excitability=1.4;cells[next].tauOpen=180; }
+    if(isIonicCondition(inputs.condition)){cells[next].excitability=1.6;cells[next].capacity=2;cells[next].tauOpen=400;}
+    if(inputs.condition==="af"&&k===0) {
+      for(const [sheet,row,x] of [[ra,8,30],[ra,10,26],[la,2,31],[la,4,35]] as const)connect(sheet[row][x],next,.012,"AV");
+    }
+    // The ionic atrial upstroke is brief. Spread the atrionodal junction over
+    // its tissue cross-section instead of loading one tiny control volume with
+    // the entire AV node. Junction area and AV recovery belong to this fixed
+    // ionic reference substrate, not to an individual lead or target waveform.
+    if(isIonicCondition(inputs.condition)&&k===0)ra.forEach(column=>connect(column[Math.round((column.length-1)*.625)],next,.08*avFactor/ra.length,"AV"));
+    else connect(previous,next,(isIonicCondition(inputs.condition)?.16:.032)*avFactor,"AV");
+    previous=next;
   }
-  const his=node([.65,4.8,.25],"His",false,2,true); connect(previous,his,.08);
+  const his=node([.65,4.8,.25],"His",false,2,true); connect(previous,his,inputs.condition==="complete-av"?0:isIonicCondition(inputs.condition)?.24:.08);
+  if(inputs.condition==="mobitz2") cells[his].refractoryMs=1150;
+  if(inputs.condition==="complete-av") { cells[his].automaticity=.02;cells[his].tauOpen=1500; }
   for(const chamber of ["RV","LV"] as const) {
     const branch=chamber==="RV"?"RBB":"LBB";
     const blocked=inputs.condition===(branch==="RBB"?"rbb-block":"lbb-block");
@@ -200,15 +267,18 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
       // Illustrative distributed branch impairment, not an isolated proximal cut:
       // retain slower reciprocal distal conduction instead of synchronously
       // re-exciting the whole affected ventricle through one retrograde terminal.
-      connect(previous,next,k===0&&blocked?0:blocked?.03:.085,k===0?branch:undefined);
+      const remaining=inputs.electrophysiology?.branchCoupling??0;
+      connect(previous,next,blocked?(k===0?.085*remaining:.03+.055*remaining):isIonicCondition(inputs.condition)?.4:.085,k===0?branch:undefined);
       trunk.push(next);
       previous=next;
     });
     landmarks.push({label:chamber==="RV"?"RV Purkinje":"LV Purkinje",index:trunk[1]});
     for(const region of ventricular.filter(region=>region.chamber===chamber)) {
       const columns=patches.get(region.id)!;
-      const terminal=node(region.origin,undefined,false,region.id==="lv-basal"?24:region.id==="rv-basal"?18:12,true);
-      connect(trunk[region.level],terminal,.2);
+      // Ionic myocardium changes the junction input resistance. Terminal area
+      // and junction coupling must sustain a resolved upstroke at small dt.
+      const terminal=node(region.origin,undefined,false,isIonicCondition(inputs.condition)?3:region.id==="lv-basal"?24:region.id==="rv-basal"?18:12,true);
+      connect(trunk[region.level],terminal,isIonicCondition(inputs.condition)?.3:.2);
       // Small spatial variation in terminal coupling avoids identical upstrokes
       // in all nine bundles. No lead-specific timing or output filtering.
       // Junction area must not shrink when the first myocardial control volume
@@ -245,12 +315,30 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
     }
   }
   const pacing=patches.get("rv-apical")![4][0];
+  if(inputs.condition==="wpw") {
+    const region=inputs.electrophysiology?.accessoryRegion??"lv-lateral";
+    const origin=(region.startsWith("rv")?ra:la)[2];
+    const a=origin[Math.round((origin.length-1)*.7)], targets=patches.get(region)!;
+    // An excitable atrioventricular cable; its propagation delay is integrated.
+    let previous=a;
+    for(let k=1;k<=4;k++) {
+      const target=targets[4][0], fraction=k/5;
+      const position=cells[a].position.map((x,d)=>x+(cells[target].position[d]-x)*fraction) as unknown as Vec3;
+      const next=node(position,undefined,false,1,true);cells[next].region="accessory";
+      connect(previous,next,.09,"AP");previous=next;
+    }
+    targets.forEach(column=>connect(previous,column[0],.11*cells[column[0]].capacity,"AP"));
+  }
   // Embed the electrical tissue, not the enlarged SVG, in torso coordinates.
   // The former narrow, nearly central cluster and synchronous anterior/posterior
   // recruitment cancelled the V3 QRS. Separate wall locations and Purkinje levels
   // now produce a rotating distributed source rather than one scaled lead vector.
   // Dimensions/coupling remain educational parameters, not patient calibration.
   for(const cell of cells) cell.position=[HEART_CENTER[0]+(cell.position[0]-1)*1.4,cell.position[1],HEART_CENTER[2]+cell.position[2]*1.3];
+  if(isIonicCondition(inputs.condition)) {
+    const ko=inputs.condition==="hyperkalemia"?(inputs.electrophysiology?.potassium??7):5.4;
+    for(const cell of cells)if(cell.chamber==="node"&&!cell.ionic)cell.restingPotential=(8314*310/96485*Math.log(ko/145)+88)/120;
+  }
   // Regional material changes act BEFORE integration. Source recovery uses the
   // actual membrane potential, preserving resting gradients and DC information.
   // Never add an ST offset to a lead or independently normalize its baseline.
@@ -295,13 +383,20 @@ export function createHeartMesh(rawInputs: ForwardInputs = DEFAULT_FORWARD_INPUT
 }
 
 /** Snapshot integration is run in a Web Worker, never in a React render. */
-export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:number)=>void, resolution:MeshResolution=DEFAULT_MESH_RESOLUTION):ForwardRecording {
+export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:number)=>void, resolution:MeshResolution=DEFAULT_MESH_RESOLUTION, numerical:{warmupCycles?:number;durationMs?:number;timeStepMs?:.1|.05|.025}={}):ForwardRecording {
   const inputs=normalizeForwardInputs(rawInputs),mesh=createHeartMesh(inputs,resolution),n=mesh.cells.length;
-  const period=60000/inputs.rate, warmup=Math.ceil(2*period/SAMPLE_MS)*SAMPLE_MS;
-  const durationMs=2400,samples=durationMs/SAMPLE_MS+1;
+  const DT_MS=numerical.timeStepMs??(isIonicCondition(inputs.condition)?.05:.1);
+  const period=60000/inputs.rate, warmup=Math.ceil((numerical.warmupCycles??2)*period/SAMPLE_MS)*SAMPLE_MS;
+  const durationMs=numerical.durationMs??(isRhythmCondition(inputs.condition)?8000:2400),samples=durationMs/SAMPLE_MS+1;
   const voltage=new Float32Array(samples*n),dipole=new Float32Array(samples*3);
-  const vm=Float64Array.from(mesh.cells,c=>c.restingPotential??0),gate=new Float64Array(n).fill(1),coupling=new Float64Array(n);
+  const ionic=isIonicCondition(inputs.condition)?createIonicMembrane(n,inputs.condition==="hyperkalemia"?(inputs.electrophysiology?.potassium??7):5.4,DT_MS):undefined;
+  const ionicKScale=inputs.electrophysiology?.potassiumScale??(inputs.condition==="long-qt"?.45:inputs.condition==="short-qt"?2:1);
+  const vm=Float64Array.from(mesh.cells,c=>ionic&&(c.chamber!=="node"||c.ionic)?ionic.initialVoltage:c.restingPotential??0),gate=new Float64Array(n).fill(1),coupling=new Float64Array(n);
+  const lastActivation=new Float64Array(n).fill(-Infinity),postRepolarization=new Uint8Array(n);
   const activationMs=new Float32Array(n).fill(-1),recoveryMs=new Float32Array(n).fill(-1);
+  const events:NonNullable<ForwardRecording["events"]>=[], stimuli:NonNullable<ForwardRecording["stimuli"]>=[];
+  const eventCells=new Set(mesh.landmarks.map(item=>item.index));
+  for(const chamber of ["RA","LA","LV","RV"]) { const index=cellsIndex(mesh,chamber);if(index>=0)eventCells.add(index); }
   const totalSteps=Math.round((warmup+durationMs)/DT_MS),warmupSteps=Math.round(warmup/DT_MS);
   const sampleEvery=Math.round(SAMPLE_MS/DT_MS);
   const {cells,edges}=mesh;
@@ -309,6 +404,13 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
   const rest=Float64Array.from(cells,c=>c.restingPotential??0),amplitude=Float64Array.from(cells,c=>c.amplitude??1),excitability=Float64Array.from(cells,c=>c.excitability??1);
   const edgeA=Int32Array.from(edges,e=>e.a),edgeB=Int32Array.from(edges,e=>e.b),conductance=Float64Array.from(edges,e=>e.conductance);
   const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0&&!cell.bridge&&!cell.scar?[index]:[]):[mesh.sinus];
+  const ectopicTargets=cells.flatMap((cell,index)=>cell.region===(inputs.electrophysiology?.ectopicRegion??"lv-septal")&&cell.transmural===0&&!cell.bridge&&!cell.scar?[index]:[]);
+  const ectopicTime=warmup+120+period+(inputs.electrophysiology?.couplingMs??650);
+  let nextSinusStimulus=120,sinusPulseUntil=-Infinity;
+  const afS1=cells.flatMap((cell,index)=>cell.chamber==="LA"&&cell.longitudinal===0?[index]:[]);
+  const afS2=cells.flatMap((cell,index)=>cell.chamber==="LA"&&cell.longitudinal!>.18&&cell.longitudinal!<.4&&cell.column!<1.5?[index]:[]);
+  const afRightS1=cells.flatMap((cell,index)=>cell.chamber==="RA"&&cell.longitudinal===0?[index]:[]);
+  const afRightS2=cells.flatMap((cell,index)=>cell.chamber==="RA"&&cell.longitudinal!>.18&&cell.longitudinal!<.4&&cell.column!>1.5?[index]:[]);
   const sourceWeights=[new Float64Array(n),new Float64Array(n),new Float64Array(n)];
   for(const edge of edges) if(edge.source) for(let d=0;d<3;d++) {
     const factor=SOURCE_GAIN*edge.conductance*(cells[edge.b].position[d]-cells[edge.a].position[d]);
@@ -332,23 +434,50 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
     const phase=(time-120+period)%period;
     // A brief stimulus conductance drives Vm toward 1. Its driving force falls
     // during depolarization, including when a pacing pulse meets refractory tissue.
-    if(time>=120&&phase<2) for(const target of stimulusTargets) coupling[target]+=1.2*cells[target].capacity*(1-vm[target]);
+    if(inputs.condition==="pvc"&&time>=nextSinusStimulus) { sinusPulseUntil=time+2;nextSinusStimulus=time+period; }
+    const sinusPulse=inputs.condition==="pvc"?time<sinusPulseUntil:time>=120&&phase<2;
+    if(sinusPulse&&inputs.condition!=="af") {
+      for(const target of stimulusTargets) coupling[target]+=1.2*cells[target].capacity*(1-vm[target]);
+      if(time>=warmup&&(inputs.condition==="pvc"?sinusPulseUntil-time>2-DT_MS:phase<DT_MS))stimuli.push({time:time-warmup,region:inputs.condition==="rv-pacing"?"rv-apical":"SA node",kind:"sinus"});
+    }
+    if(inputs.condition==="af") {
+      const targets=time>=120&&time<122?afS1:time>=240&&time<242?afS2:time>=160&&time<162?afRightS1:time>=300&&time<302?afRightS2:[];
+      for(const target of targets)coupling[target]+=1.2*cells[target].capacity*(1-vm[target]);
+    }
+    if(inputs.condition==="pvc"&&time>=ectopicTime&&time<ectopicTime+2) {
+      for(const target of ectopicTargets)coupling[target]+=1.2*cells[target].capacity*(1-vm[target]);
+      if(time<ectopicTime+DT_MS)stimuli.push({time:time-warmup,region:inputs.electrophysiology?.ectopicRegion??"lv-septal",kind:"ectopic"});
+    }
     for(let i=0;i<n;i++) {
       const v=vm[i],h=gate[i];
       const u=(v-rest[i])/amplitude[i];
       // Alvarez et al. (2012), Eqs. 10-11: raising resting potential does
       // not translate the inward-current reversal potential. Keep (1 - Vm)
       // distinct from (Vm - Vrest), so injury changes the AP, not its offset.
-      const dv=amplitude[i]*(excitability[i]*h*u*u*(1-v/amplitude[i])/tauIn[i]-u/tauOut[i])+coupling[i]/cells[i].capacity;
+      const automatic=cells[i].automaticity??0;
+      const atrialCell=cells[i].chamber==="RA"||cells[i].chamber==="LA";
+      if(cells[i].refractoryMs&&u<.13&&time-lastActivation[i]>10)postRepolarization[i]=1;
+      // Post-repolarization inexcitability belongs to the His membrane. No beat
+      // index, prescribed P:QRS ratio, ECG clipping, or output deletion is used.
+      const available=postRepolarization[i]&&time-lastActivation[i]<(cells[i].refractoryMs??0)?0:h;
+      const diffusion=coupling[i]/cells[i].capacity+automatic*(1-v)*h;
+      const dv=ionic&&(cells[i].chamber!=="node"||cells[i].ionic)?ionic.derivative(i,v,atrialCell,ionicKScale*(atrialCell?1:150/tauClose[i]),1-(cells[i].injury??0)*.5,diffusion):amplitude[i]*(excitability[i]*available*u*u*(1-v/amplitude[i])/tauIn[i]-u/tauOut[i])+diffusion;
       const next=v+DT_MS*dv;
-      if(!Number.isFinite(next)||next < -.02||next>1.5) throw new Error(`Membrane integration became unstable: ${cells[i].region}, cell ${i}, t=${time.toFixed(1)}, Vm=${next.toFixed(4)}`);
+      if(!Number.isFinite(next)||next < (ionic?-.25:-.02)||next>1.5) throw new Error(`Membrane integration became unstable: ${cells[i].region}, cell ${i}, t=${time.toFixed(1)}, Vm=${next.toFixed(4)}`);
       vm[i]=next;
-      gate[i]=h+DT_MS*(v/amplitude[i]<.13?(1-h)/120:-h/tauClose[i]);
+      if(u<.5&&(next-rest[i])/amplitude[i]>=.5){
+        lastActivation[i]=time;postRepolarization[i]=0;
+        // Retrograde capture resets the sinus clock; do not impose a compensatory
+        // pause or continue an unrelated fixed pulse train through a captured SA.
+        if(inputs.condition==="pvc"&&i===mesh.sinus)nextSinusStimulus=time+period;
+      }
+      gate[i]=h+DT_MS*(v/amplitude[i]<.13?(1-h)/(cells[i].tauOpen??120):-h/tauClose[i]);
       const relativeTime=time+DT_MS-warmup;
+      if(relativeTime>=0&&u<.5&&(next-rest[i])/amplitude[i]>=.5&&eventCells.has(i))events.push({cell:i,time:relativeTime});
       if(relativeTime>=0 && relativeTime<Math.min(period+100,durationMs)) {
         const nextU=(next-rest[i])/amplitude[i];
         if(u<.5&&nextU>=.5&&activationMs[i]<0) activationMs[i]=relativeTime;
-        if(u>=.5&&nextU<.5&&activationMs[i]>=0&&recoveryMs[i]<0) recoveryMs[i]=relativeTime;
+        if(u>=.5&&nextU<.5&&activationMs[i]>=0&&recoveryMs[i]<0&&(!ionic||relativeTime-activationMs[i]>40)) recoveryMs[i]=relativeTime;
       }
     }
     if(progress&&step%4000===0) progress(Math.round(step/totalSteps*100));
@@ -359,12 +488,72 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
     if(cell.chamber==="LV"||cell.chamber==="RV") {ventricularCount++;if(activationMs[i]>=0)ventricular.push(activationMs[i]);}
     else if(cell.chamber!=="node"&&activationMs[i]>=0) atrial.push(activationMs[i]);
   });
-  return {inputs,mesh,sampleMs:SAMPLE_MS,durationMs,samples,voltage,dipole,activationMs,recoveryMs,activation:{
+  return {inputs,mesh,sampleMs:SAMPLE_MS,durationMs,samples,voltage,dipole,activationMs,recoveryMs,events,stimuli,activation:{
     atrialStart:atrial.length?Math.min(...atrial):null,
     ventricularStart:ventricular.length?Math.min(...ventricular):null,
     ventricularEnd:ventricular.length?Math.max(...ventricular):null,
     ventricularCoverage:ventricular.length/ventricularCount,
   }};
+}
+
+function cellsIndex(mesh:HeartMesh,chamber:string) { return mesh.cells.findIndex(cell=>cell.chamber===chamber&&(cell.transmural===0||cell.longitudinal===0)&&!cell.bridge); }
+
+/** Luo–Rudy phase I ionic equations (1991), independently transcribed from
+ * doi:10.1161/01.RES.68.6.1501 / Physiome's corrected CellML equations.
+ * This is a guinea-pig ventricular reference, NOT ToR–ORd or a calibrated human
+ * drug model. The atrial short-AP adaptation and regional K conductance are
+ * explicit educational extensions. All currents act on Vm before ECG recovery.
+ * Units here: mV, ms, mM, microA/microF. Graph Vm=(mV+85)/120.
+ */
+export function createIonicMembrane(count:number,potassium:number,dt:number) {
+  const ko=clamp(potassium,4,10), rt=8314*310/96485;
+  const ena=rt*Math.log(140/18), ek1=rt*Math.log(ko/145), ek=rt*Math.log((ko+.01833*140)/(145+.01833*18));
+  const states=new Float64Array(count*7), step=.1, lo=-110, size=1701, stride=16;
+  const table=new Float64Array(size*stride), gk=.282*Math.sqrt(ko/5.4), gk1=.6047*Math.sqrt(ko/5.4);
+  for(let k=0;k<size;k++) {
+    const v=lo+k*step, offset=k*stride;
+    const am=Math.abs(v+47.13)<1e-7?3.2:.32*(v+47.13)/(-Math.expm1(-.1*(v+47.13))),bm=.08*Math.exp(-v/11);
+    const ah=v< -40?.135*Math.exp(-(v+80)/6.8):0;
+    const bh=v< -40?3.56*Math.exp(.079*v)+310000*Math.exp(.35*v):1/(.13*(1+Math.exp(-(v+10.66)/11.1)));
+    const aj=v< -40?(-127140*Math.exp(.2444*v)-.00003474*Math.exp(-.04391*v))*(v+37.78)/(1+Math.exp(.311*(v+79.23))):0;
+    const bj=v< -40?.1212*Math.exp(-.01052*v)/(1+Math.exp(-.1378*(v+40.14))):.3*Math.exp(-.0000002535*v)/(1+Math.exp(-.1*(v+32)));
+    const ad=.095*Math.exp(-.01*(v-5))/(1+Math.exp(-.072*(v-5))),bd=.07*Math.exp(-.017*(v+44))/(1+Math.exp(.05*(v+44)));
+    const af=.012*Math.exp(-.008*(v+28))/(1+Math.exp(.15*(v+28))),bf=.0065*Math.exp(-.02*(v+30))/(1+Math.exp(-.2*(v+30)));
+    const ax=.0005*Math.exp(.083*(v+50))/(1+Math.exp(.057*(v+50))),bx=.0013*Math.exp(-.06*(v+20))/(1+Math.exp(-.04*(v+20)));
+    [am,bm,ah,bh,aj,bj,ad,bd,af,bf,ax,bx].forEach((value,j,all)=>{if(j%2===0){const sum=value+all[j+1];table[offset+j]=value/sum;table[offset+j+1]=Math.exp(-dt*sum);}});
+    const xi=v<=-100?1:Math.abs(v+77)<1e-7?2.837*.04/Math.exp(.04*(v+35)):2.837*Math.expm1(.04*(v+77))/((v+77)*Math.exp(.04*(v+35)));
+    const ak1=1.02/(1+Math.exp(.2385*(v-ek1-59.215)));
+    const bk1=(.49124*Math.exp(.08032*(v-ek1+5.476))+Math.exp(.06175*(v-ek1-594.31)))/(1+Math.exp(-.5143*(v-ek1+4.753)));
+    table[offset+12]=gk*xi*(v-ek);
+    table[offset+13]=gk1*ak1/(ak1+bk1)*(v-ek1)+.0183/(1+Math.exp((7.488-v)/5.98))*(v-ek1)+.03921*(v+59.87);
+    table[offset+14]=gk*xi;
+    table[offset+15]=gk1*ak1/(ak1+bk1)+.0183/(1+Math.exp((7.488-v)/5.98))+.03921;
+  }
+  const initialVoltage=Math.max(-85,ek1+3);
+  const initialIndex=Math.round((initialVoltage-lo)/step)*stride;
+  for(let i=0;i<count;i++){for(let g=0;g<6;g++)states[i*7+g]=table[initialIndex+g*2];states[i*7+6]=.0001;}
+  return {
+    initialVoltage:(initialVoltage+85)/120, states,
+    derivative(i:number,normalizedVoltage:number,atrial:boolean,kScale=1,calciumScale=1,diffusion=0) {
+      const v=normalizedVoltage*120-85,p=clamp((v-lo)/step,0,size-1.000001),left=Math.floor(p),fraction=p-left,offset=left*stride,s=i*7;
+      for(let g=0;g<6;g++) {
+        const j=offset+g*2,inf=table[j]+fraction*(table[j+stride]-table[j]),decay=table[j+1]+fraction*(table[j+stride+1]-table[j+1]);
+        states[s+g]=inf+(states[s+g]-inf)*decay;
+      }
+      const m=states[s],h=states[s+1],j=states[s+2],d=states[s+3],f=states[s+4],x=states[s+5],cai=states[s+6];
+      const gna=23*m*m*m*h*j,gsi=(atrial?.06:.09)*calciumScale*d*f;
+      const ina=gna*(v-ena);
+      const isi=gsi*(v-(7.7-13.0287*Math.log(Math.max(1e-8,cai))));
+      const ik=x*kScale*(atrial?1.7:1)*(table[offset+12]+fraction*(table[offset+stride+12]-table[offset+12]));
+      const other=table[offset+13]+fraction*(table[offset+stride+13]-table[offset+13]);
+      states[s+6]=Math.max(1e-8,cai+dt*(-.0001*isi+.07*(.0001-cai)));
+      const conductance=gna+gsi+x*kScale*(atrial?1.7:1)*(table[offset+14]+fraction*(table[offset+stride+14]-table[offset+14]))+table[offset+15]+fraction*(table[offset+stride+15]-table[offset+15]);
+      // Exact voltage relaxation for conductances frozen during this substep.
+      // This avoids explicit-Euler INa overshoot; no ECG filtering is involved.
+      const z=conductance*dt,relaxation=z>1e-10?-Math.expm1(-z)/z:1;
+      return (-(ina+isi+ik+other)/120+diffusion)*relaxation;
+    },
+  };
 }
 
 /** Electric field kernel, r / |r|^3. Electrodes live on the torso, outside heart. */

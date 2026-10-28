@@ -1,0 +1,102 @@
+{
+  "checks": "PASS: 0.05 vs 0.025 ms; post-warmup capture, activation, APD90, unaligned 12-lead error",
+  "cells": [
+    {
+      "region": "ra-wall",
+      "activationDifferenceMs": 0,
+      "apd90DifferenceMs": 0
+    },
+    {
+      "region": "la-wall",
+      "activationDifferenceMs": 0.100006103515625,
+      "apd90DifferenceMs": 0.100006103515625
+    },
+    {
+      "region": "lv-septal",
+      "activationDifferenceMs": 2.125,
+      "apd90DifferenceMs": 0.125
+    },
+    {
+      "region": "lv-apical",
+      "activationDifferenceMs": 1.125,
+      "apd90DifferenceMs": 1.125
+    },
+    {
+      "region": "lv-lateral",
+      "activationDifferenceMs": 1.0999908447265625,
+      "apd90DifferenceMs": 0.9000091552734375
+    },
+    {
+      "region": "lv-basal",
+      "activationDifferenceMs": 0.8499908447265625,
+      "apd90DifferenceMs": 0.8499908447265625
+    },
+    {
+      "region": "rv-apical",
+      "activationDifferenceMs": 1.875,
+      "apd90DifferenceMs": 0.125
+    }
+  ],
+  "leads": [
+    {
+      "lead": "I",
+      "rmseAu": 0.010413489648615193,
+      "normalizedRmse": 0.013586604695155326
+    },
+    {
+      "lead": "II",
+      "rmseAu": 0.015439148202944418,
+      "normalizedRmse": 0.014108776536326938
+    },
+    {
+      "lead": "III",
+      "rmseAu": 0.006220770531661247,
+      "normalizedRmse": 0.015121294515614442
+    },
+    {
+      "lead": "aVR",
+      "rmseAu": 0.012795684347575572,
+      "normalizedRmse": 0.013793148855678984
+    },
+    {
+      "lead": "aVL",
+      "rmseAu": 0.0037386556071403836,
+      "normalizedRmse": 0.015255099557154147
+    },
+    {
+      "lead": "aVF",
+      "rmseAu": 0.010555683103192576,
+      "normalizedRmse": 0.014788907279352219
+    },
+    {
+      "lead": "V1",
+      "rmseAu": 0.019054430107044183,
+      "normalizedRmse": 0.014113913997886177
+    },
+    {
+      "lead": "V2",
+      "rmseAu": 0.015553135254481985,
+      "normalizedRmse": 0.014687331926932315
+    },
+    {
+      "lead": "V3",
+      "rmseAu": 0.01127946595487901,
+      "normalizedRmse": 0.017547074260171495
+    },
+    {
+      "lead": "V4",
+      "rmseAu": 0.02059327967749492,
+      "normalizedRmse": 0.014889292270157253
+    },
+    {
+      "lead": "V5",
+      "rmseAu": 0.030407569358838926,
+      "normalizedRmse": 0.013982515363216673
+    },
+    {
+      "lead": "V6",
+      "rmseAu": 0.028216200654238372,
+      "normalizedRmse": 0.013742607736665084
+    }
+  ]
+}

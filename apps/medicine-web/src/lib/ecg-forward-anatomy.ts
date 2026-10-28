@@ -4,7 +4,7 @@ import type { MechanicalFrame } from "./ecg-forward-mechanics";
 export type DiagramPoint = { x: number; y: number };
 type Curve = readonly [DiagramPoint, DiagramPoint, DiagramPoint];
 type Ribbon = { inner: Curve; outer: Curve; atrial?: boolean };
-export type ConductionPath = { index: number; kind: "atrial" | "nodal" | "bundle" | "purkinje" | "terminal"; path: string; points: DiagramPoint[] };
+export type ConductionPath = { index: number; kind: "atrial" | "nodal" | "bundle" | "purkinje" | "terminal" | "accessory"; path: string; points: DiagramPoint[] };
 const p = (x: number, y: number): DiagramPoint => ({ x, y });
 const curve = (a: number[], b: number[], c: number[]): Curve => [p(a[0], a[1]), p(b[0], b[1]), p(c[0], c[1])];
 const mix = (a: DiagramPoint, b: DiagramPoint, t: number) => p(a.x + (b.x - a.x) * t, a.y + (b.y - a.y) * t);
@@ -226,12 +226,20 @@ export function createAnatomyLayout(mesh: HeartMesh) {
   const terminals = new Map<number, string>();
   mesh.cells.forEach((cell, index) => {
     if (cell.chamber !== "node") return;
+    if(cell.region==="accessory")return;
     const tissue = neighbors[index].find(other => ["RV", "LV"].includes(mesh.cells[other].chamber));
     if (tissue !== undefined) {
       const region = mesh.cells[tissue].region!;
       points[index] = ribbonPoint(RIBBONS[region], .5, -.16); terminals.set(index, region);
     } else points[index] = p(269 + (6.1 - cell.position[1]) * 19, 184 + (6.1 - cell.position[1]) * 29);
   });
+  const accessory=mesh.cells.flatMap((cell,index)=>cell.region==="accessory"?[index]:[]);
+  if(accessory.length) {
+    const first=accessory[0],last=accessory[accessory.length-1];
+    const atrium=neighbors[first].find(i=>mesh.cells[i].chamber!=="node")!;
+    const ventricle=neighbors[last].find(i=>mesh.cells[i].chamber!=="node")!;
+    accessory.forEach((index,i)=>{points[index]=mix(points[atrium],points[ventricle],(i+1)/(accessory.length+1));});
+  }
   const landmark = (name: string) => mesh.landmarks.find(item => item.label === name)!.index;
   points[landmark("SA node")] = p(177, 115);
   points[landmark("His")] = p(295, 230);
@@ -264,12 +272,17 @@ export function createAnatomyLayout(mesh: HeartMesh) {
     if (edge.source) return;
     // Atrial coupling is an implicit tissue connection, not an illustrated tract.
     if (mesh.cells[edge.a].chamber === "RA" && mesh.cells[edge.b].chamber === "LA") return;
+    // Multiple AF atrionodal inputs are a sheet-to-node boundary condition, not
+    // new macroscopic tracts spanning the atrial cavities in the cutaway.
+    if(edge.branch==="AV"&&["RA","LA"].includes(mesh.cells[edge.a].chamber))return;
     const a = points[edge.a], b = points[edge.b];
     if (Math.hypot(a.x - b.x, a.y - b.y) < .5) return;
     let kind: ConductionPath["kind"] = "nodal";
     let segments: [DiagramPoint, DiagramPoint, DiagramPoint][] = [[mix(a, b, .35), mix(a, b, .7), b]];
     const terminal = terminals.has(edge.a) ? edge.a : terminals.has(edge.b) ? edge.b : undefined;
-    if (terminal !== undefined && mesh.cells[edge.b].chamber !== "node") {
+    if(edge.branch==="AP") {
+      kind="accessory";segments=[[mix(a,b,.33),mix(a,b,.66),b]];
+    } else if (terminal !== undefined && mesh.cells[edge.b].chamber !== "node") {
       kind = "terminal";
       const ribbon = RIBBONS[terminals.get(terminal)!];
       // Shared proximal direction, individually curved distal twigs; every twig

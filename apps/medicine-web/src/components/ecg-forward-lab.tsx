@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { EcgForwardWorkspace } from "@/components/ecg-forward-workspace";
-import { DEFAULT_FORWARD_INPUTS, type ForwardInputs, type ForwardRecording } from "@/lib/ecg-forward-model";
+import { DEFAULT_FORWARD_INPUTS, isIonicCondition, referenceForwardInputs, type ForwardInputs, type ForwardRecording } from "@/lib/ecg-forward-model";
 
 type Calculation = { key:string; recording?:ForwardRecording; reference?:ForwardRecording; progress:number; error?:string };
 
@@ -11,7 +11,8 @@ function useForwardRecording(inputs:ForwardInputs,retry:number) {
   const healthy=useRef<{key:string;recording:ForwardRecording}|null>(null);
   useEffect(()=>{
     let active=true,worker:Worker|undefined;
-    const requested=JSON.parse(key) as ForwardInputs,referenceKey=JSON.stringify({...requested,ischemia:undefined});
+    const requested=JSON.parse(key) as ForwardInputs,referenceKey=JSON.stringify(referenceForwardInputs(requested));
+    const needsReference=Boolean(requested.ischemia)||isIonicCondition(requested.condition);
     const cached=healthy.current?.key===referenceKey?healthy.current.recording:undefined;
     // Debounce numerical controls; cancellation terminates obsolete integrations.
     const timer=window.setTimeout(()=>{
@@ -21,7 +22,7 @@ function useForwardRecording(inputs:ForwardInputs,retry:number) {
           if(!active)return;
           if(event.data.type==="result") {
             const result=event.data.recording as ForwardRecording;
-            const reference=requested.ischemia?(event.data.reference as ForwardRecording|undefined)??cached:result;
+            const reference=needsReference?(event.data.reference as ForwardRecording|undefined)??cached:result;
             if(reference)healthy.current={key:referenceKey,recording:reference};
             setCalculation({key,recording:result,reference,progress:100});
           }
@@ -29,7 +30,7 @@ function useForwardRecording(inputs:ForwardInputs,retry:number) {
           else if(event.data.type==="error")setCalculation({key,progress:0,error:"계산을 완료하지 못했습니다. 입력을 초기화하거나 다시 계산해 주세요."});
         };
         worker.onerror=()=>{if(active)setCalculation({key,progress:0,error:"계산 Worker를 시작하지 못했습니다. 새로고침하거나 지원되는 브라우저에서 다시 시도해 주세요."});};
-        worker.postMessage({inputs:requested,needsReference:Boolean(requested.ischemia&&!cached)});
+        worker.postMessage({inputs:requested,needsReference:needsReference&&!cached});
       } catch {
         if(active)setCalculation({key,progress:0,error:"이 브라우저에서 계산 Worker를 사용할 수 없습니다. 새로고침하거나 지원되는 브라우저에서 다시 시도해 주세요."});
       }
@@ -52,7 +53,7 @@ export function EcgForwardLab() {
     <div className="ecg-recording-slot">
       {readRecording ? <EcgForwardWorkspace readRecording={readRecording} readReference={readReference} inputs={inputs} onInputs={setInputs} busy={calculation.busy}/> : null}
       {calculation.busy||calculation.error ? <div className="ecg-calculation-status" role="status" aria-live="polite">
-        {calculation.error ? <><p>{calculation.error}</p><button type="button" className="simulation-primary" onClick={()=>setRetry(value=>value+1)}>다시 계산</button></> : <><strong>심근 전기활동 계산 중 · {calculation.progress}%</strong><progress max={100} value={calculation.progress} aria-label="전기활동 계산 진행률"/><p>전극 이동에는 심장 재계산이 필요하지 않습니다.</p></>}
+        {calculation.error ? <><p>{calculation.error}</p><button type="button" className="simulation-primary" onClick={()=>setRetry(value=>value+1)}>다시 계산</button></> : <><strong>심근 전기활동 계산 중 · {calculation.progress}%</strong><progress max={100} value={calculation.progress} aria-label="전기활동 계산 진행률"/><p>전극 이동에는 심장 재계산이 필요하지 않습니다.</p><button type="button" className="simulation-button" onClick={()=>{setInputs(DEFAULT_FORWARD_INPUTS);setRetry(value=>value+1);}}>계산 취소 · 기준 전도로</button></>}
       </div> : null}
     </div>
     <footer className="ecg-lab-footnote">교육용 축약 모델 · 임상 진단용 아님 · 부위 이름을 누르면 설명과 활성 시각을 볼 수 있습니다.</footer>

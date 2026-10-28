@@ -6,7 +6,7 @@
 
 ## forward-model | 심근 전기활동과 ECG 생성
 ### 기전
-- 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
+- 기본 전도·허혈·리듬 실험은 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. Hyperkalemia·QT 실험은 별도의 Luo–Rudy I ionic myocardium을 사용합니다. 어느 경우에도 ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
 - 구역 i에서 j로 흐르는 결합 전류는 g·(vi−vj)로 계산합니다. 한 구역에서 나가는 전류는 상대 구역에 들어가며, 연결을 끊으면 이 경로의 전류도 0이 됩니다. 막전위 변화는 자극 직후의 흥분뿐 아니라 plateau와 repolarization까지 계속 적분합니다.
 - 화면은 하나의 Epicardial 외곽선 안에 RA·LA·RV·LV, Septum, AV valves와 Chordae를 배치한 전면 개념 절개도입니다. 뒤쪽의 LA와 앞·뒤 심근 구역을 펼쳐 배치했으며 환자 영상, 실제 단면이나 위치 비례를 재현하지 않습니다. 청록색 전도 경로의 세부 좌표는 계산 좌표와 별개입니다.
 - 심방 사이의 개별 전도 경로·명칭은 도해에서 생략하고, 계산에서는 Atrial myocardium 사이의 분산된 결합으로 축약합니다. SA node는 SVC–RA 접합부, AV node는 RA 하부 Septal 영역에 표시합니다. His·Bundle branches는 Septum을 따르고 Purkinje 말단은 Endocardial 경계에서 분지합니다. 실제 환자의 전체 Network나 세부 Fascicle을 재구성한 것은 아닙니다.
@@ -17,9 +17,9 @@
 - 심근 벽의 옅은 황금색은 흥분, 청회색은 막전위가 내려가는 회복, 원래 벽색은 낮은 Vm입니다. 구역·층의 평균 Vm을 저장 샘플 사이에서 보간합니다. Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열하며 산소포화도는 아닙니다. 이름에 마우스를 올리거나 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 설명과 첫 활성 시각을 확인합니다.
 - 심근은 RA·LA와 9개 Ventricular 구역으로 나눕니다. Atrial 구역은 전파 방향 33개 계산 층, 각 Ventricular 구역은 Endocardium–Epicardium 방향 18개 계산 층을 가지며 가로 연결도 포함합니다. 구역별 방향·유효 단면적·회복 특성을 다르게 두고 Basal 부위는 상대적으로 늦게 활성되도록 축약합니다. 격자 세분화 시 Capacitance·조직 결합도·Purkinje junction 면적을 함께 고려합니다. 화면의 17개 Atrial·12개 Ventricular 색 띠는 이 계산값을 묶어 표시한 것입니다.
 - 인접한 Ventricular 구역 사이에도 여러 계산 구역으로 이루어진 Myocardial cable을 연결합니다. 이 연결 조직은 자체 막전위와 회복을 계산하며 양방향으로 전류를 전달합니다. 따라서 차단된 쪽의 심근이 역방향 Purkinje 활성만 기다리는 것이 아니라, 남아 있는 심근 경로를 통해 순차적으로 흥분할 수 있습니다. 실제 환자의 섬유 배치를 재구성한 것은 아닙니다.
-- 총 1,873개 계산 구역 중 1,848개는 Myocardial 구역, 25개는 SA·AV·His·Bundle branches·Purkinje에 대응합니다. 각 구역은 많은 세포를 대표합니다. 외부 자극은 짧은 Conductance로 Vm을 1 쪽으로 유도하며 SA node 자동능의 이온 통로는 재현하지 않습니다. RV 자극은 작은 Endocardial 구역에 적용합니다.
+- 기본 조건의 총 1,873개 계산 구역 중 1,848개는 Myocardial 구역, 25개는 SA·AV·His·Bundle branches·Purkinje에 대응합니다. WPW는 4개 Accessory 구역을 추가하고, AF는 Atria를 더 넓은 Sheet로 교체합니다. 각 구역은 많은 세포를 대표합니다. 외부 자극은 짧은 Conductance로 Vm을 1 쪽으로 유도하며 SA node 자동능의 이온 통로는 재현하지 않습니다. RV 자극은 작은 Endocardial 구역에 적용합니다.
 - Epicardial 쪽은 Endocardial 쪽보다 Action potential duration이 짧고, Ventricular 부위별 회복에도 차이를 둡니다. Transmural gradient는 Posterior 구역에서 더 작게 설정해 모든 부위가 같은 방향·시각으로 회복되지 않게 합니다. 이 차이가 Depolarization과 다른 Repolarization의 전위 기울기를 만들며 T wave에 기여합니다. 파형의 높이·부호·폭을 유도마다 별도 함수로 정하지 않습니다.
-- 적분 간격은 0.1 ms, 저장 간격은 2 ms입니다. 2회 선행 자극 후 2.4초 기록을 계산하며, 재생할 때 현재 시각까지의 파형만 순차적으로 그립니다. 아직 기록되지 않은 부분은 빈 화면이고 다음 시간창에서는 새로 시작합니다. 입력을 바꾸면 새 기록을 계산하며 전극만 옮기면 동일 막전위에서 측정 전위만 다시 구합니다.
+- 적분 간격은 기본 모델 0.1 ms, Ionic myocardium 0.05 ms이고 저장 간격은 2 ms입니다. Ionic gate는 Rush–Larsen, 막전위는 현재 Conductance를 고정한 Exponential step으로 계산합니다. 두 자극 주기만큼 선행 계산 후 일반 조건은 2.4초, PVC·AV block·AF는 8초를 기록합니다. AF의 초기 유도 자극은 선행 계산에만 적용합니다. 재생할 때 현재 시각까지의 파형만 순차적으로 그리며, 전극만 옮기면 동일 Vm에서 측정 전위만 다시 구합니다.
 - ‘Ischemia / MI’에서는 9개 Ventricular 구역 중 허혈 위치만 복수 선택합니다. 새 손상의 기본 계산 조건은 Acute ischemia·침범 깊이 100%·허혈 스트레스 70%이며, 적용 중인 손상의 위치를 바꾸면 나머지 조직 매개변수는 유지합니다. 깊이·스트레스·Scar의 계산 기능은 모델 내부에 남아 있으나 위치 선택 화면에는 해당 조절기를 표시하지 않습니다. 매개변수는 정규화 실험값이며 실제 mV·K⁺ 농도·괴사율·발병 시간에 대응하지 않습니다.
 - ST shift는 파형 일부를 위로 이동시키는 기능으로 구현하지 않습니다. 조직의 휴지기·Plateau 전위 차이에서 전류가 만들어져야 하며, 원 전위의 DC 성분과 TP 기준선을 보존한 채 ST−TP 차이를 평가해야 합니다. Acute ischemia와 비흥분성 Scar는 다른 상태입니다. 현재의 축약 막전위·무한 균질 도체 모델만으로 임상 ST elevation의 부위·크기를 검증했다고 볼 수 없습니다.
 ### 증상·검사 소견
@@ -28,7 +28,7 @@
 ### 관찰과 해석
 - SA node → AV node → His → 각 Ventricular 구역의 활성 시각을 선택해 실제로 어디가 먼저 흥분하는지 확인합니다. 활성 시각은 v가 0.5를 넘어간 때이며 ECG에서 재는 P onset이나 QRS onset과 동일하지 않습니다.
 - 고정된 전기생리 입력에서 전극을 옮겨도 구역의 색·전도 시간은 바뀌지 않습니다. 반면 AV 결합이나 Bundle branch 연결을 바꾸면 전기생리 계산 자체가 바뀌어 활성 순서와 파형이 함께 달라집니다.
-- 실제 심장 모양·벽 두께·섬유 방향을 반영한 해부학 mesh나 세포별 이온 통로 모델은 아닙니다. Atria·Ventricles·AV 연결부의 시상수와 결합도는 교육용으로 설정했으며 특정 환자나 질환의 ECG를 맞춘 값이 아닙니다.
+- 실제 심장 모양·벽 두께·섬유 방향을 반영한 해부학 mesh는 아닙니다. 기본 조건의 시상수·결합도와 Ionic 실험의 Atrial·Purkinje 접합부 적응은 교육용 설정입니다. Ionic 조건도 전체 심장의 인간 세포별 이온 통로를 재현한 것은 아니며 특정 환자의 ECG에 보정하지 않았습니다.
 - 기준 전극·기준 전도에서는 V1–V2의 S 우세, V3 부근의 R/S 전환, V1에서 V5까지의 R-wave 증가와 V6에서의 감소를 관찰합니다. I·II·V3–V6에서는 QRS보다 작은 T wave와 ST·TP의 기저선 복귀를 비교합니다. 이는 이 모델의 대표 성인형 설정이지 모든 정상 ECG의 필수 모양을 정의하는 것은 아닙니다. 전극을 옮긴 경우에도 이 순서를 강제로 유지하도록 파형을 보정하지 않습니다.
 ### 관련 자료
 - [전극 위치와 전위차](/interactive/ecg-arrhythmia/notes#forward-electrodes)
@@ -38,7 +38,7 @@
 
 ### 기전
 
-- 실제 Excitation–contraction coupling에서는 Action potential에 뒤따르는 Calcium transient와 Crossbridge 반응이 수축으로 이어집니다. ECG나 Electric field의 방향이 곧 심근의 수축 방향인 것은 아닙니다. 이 앱의 기존 막전위 모델은 Calcium을 계산하지 않으므로, 실제 수축력 모델을 완성한 것으로 해석하면 안 됩니다.
+- 실제 Excitation–contraction coupling에서는 Action potential에 뒤따르는 Calcium transient와 Crossbridge 반응이 수축으로 이어집니다. ECG나 Electric field의 방향이 곧 심근의 수축 방향인 것은 아닙니다. Ionic 실험에는 단순화된 Intracellular calcium 계산이 있지만, 화면의 수축은 이를 사용한 Calcium–force 모델이 아니라 아래 Vm 기반 반응입니다.
 - 화면의 수축은 각 Myocardial 구역의 기록된 Vm 상승을 입력으로 받는 단방향 교육용 반응입니다. 전도 조건마다 별도 수축 애니메이션을 재생하거나 ECG의 P·QRS·T 모양을 읽어서 움직이지 않습니다. 구역별 조직량으로 가중한 Upstroke가 짧은 지연 뒤에 반응을 만들고, 두 단계의 감쇠·지연을 거쳐 부드럽게 수축했다가 이완합니다. 일정하게 높은 Resting Vm만으로는 수축하지 않습니다.
 - Atria는 지연 18 ms·반응 감쇠 48 ms·추종 시상수 32 ms, Ventricles는 각각 26·90·52 ms를 사용합니다. 상대 반응은 1−exp(−s)로 제한합니다. 이 값과 그림의 이동 거리는 관찰을 위한 설정이며 환자에서 측정한 수축 시간·Strain·Calcium 농도에 맞춘 매개변수가 아닙니다. 기록 앞의 정상상태를 첫 박동으로 준비하므로 빠른 자극에서도 매번 수축 반응을 0으로 초기화하지 않습니다.
 - 심장 전체를 확대·축소하지 않습니다. Atrial wall은 국소적으로 안쪽으로 움직이고, Ventricular endocardium은 Epicardium보다 더 안쪽으로 이동해 내강이 좁아지며 벽이 두꺼워집니다. Longitudinal shortening은 AV plane이 Apex 쪽으로 내려오는 변형으로 표시합니다. 심장 외곽·내강·벽의 색·전도계·Papillary muscle·Chordae에 같은 변형을 적용합니다. 이름표와 전극, 파란 Electric field 화살표의 시작점은 고정합니다.
@@ -51,7 +51,7 @@
 ### 관찰과 해석
 
 - ‘재생’으로 흥분과 뒤따르는 수축을 함께 보거나, 시간 슬라이더를 이동해 같은 시각의 형태를 비교합니다. 정지 상태에서 재생 버튼 양옆의 화살표 또는 ←·→ 키로 10 ms씩 이동할 수 있습니다. 설정 입력과 전극 위치 지도의 방향키는 해당 항목의 조작에 사용합니다. 부위별 반응은 계산 기록에 저장해 보간하므로 역방향으로 이동하거나 재생 속도를 바꿔도 같은 시각에는 같은 형태가 나옵니다. ‘설정 → 모델 → 심방·심실 수축 표시’에서 끌 수 있으며 기기의 동작 줄이기 설정을 존중합니다.
-- 기본 재생은 한 자극 주기(60,000 ÷ 자극 빈도 ms)의 끝에서 멈추고 완성된 파형을 그대로 남깁니다. 중간에 정지했다면 남은 구간을 이어 재생하고, 끝에서 다시 재생하면 처음으로 돌아갑니다. ‘전체 2.4 s’에서는 전체 기록 끝에서 멈춥니다. 반복 재생하지 않으며 이 조작은 Vm이나 ECG 배열을 변경하지 않습니다.
+- 일반 조건의 기본 재생은 한 자극 주기(60,000 ÷ 자극 빈도 ms)의 끝에서 멈춥니다. PVC·AV block·AF는 박동 사이 관계를 볼 수 있도록 8초 전체 기록을 기본 표시합니다. 중간에 정지했다면 남은 구간을 이어 재생하고, 끝에서 다시 재생하면 처음으로 돌아갑니다. 반복 재생하지 않으며 이 조작은 Vm이나 ECG 배열을 변경하지 않습니다.
 - 전기생리 계산과 형태 변형은 분리되어 있습니다. 표시를 켜거나 꺼도 ECG와 전극·Electric field의 계산 좌표는 바뀌지 않습니다. 움직이는 심장에서의 전류원 위치 변화나 Mechanoelectric feedback을 다시 푸는 것은 아닙니다.
 - 2D 절개도의 국소 변형이며 조직 부피 보존, 실제 Fiber 방향·Torsion, Calcium–Crossbridge, 심근 탄성, 압력·Preload·Afterload, 혈류와 Valve 개폐 역학은 포함하지 않습니다. 따라서 EF·Stroke volume·임상 Strain·혈역학적 안정성을 추정할 수 없습니다. 완전한 Electromechanical 모델로 확장하려면 실제 해부학 mesh, Calcium 또는 Active tension, 재료 법칙과 순환계 경계조건이 추가로 필요합니다.
 
@@ -75,7 +75,7 @@
 ### 관찰과 해석
 - 초록 실선은 모든 심근 연결의 기여를 합친 전위차입니다. 주황 점선은 심장 중심의 Lead field와 합성 dipole을 내적한 근사이며, 두 선이 항상 일치해야 하는 것은 아닙니다. 표시되는 각도는 이 중심 근사의 3D 각도입니다.
 - 전압 배율은 모든 위치와 조건에서 고정합니다. 전극 이동 때 파형을 자동으로 같은 높이로 늘리지 않으므로 실제 계산 크기의 변화를 비교할 수 있습니다. 화면 감도만 바꾸면 그림 크기는 바뀌지만 원래 전위차 수치는 유지됩니다.
-- 왼쪽은 확대 심장 절개도와 전극 지도를 합친 화면이고 오른쪽은 같은 시간축·감도의 12유도입니다. 전도 조건 선택과 모델 초기화는 오른쪽 패널 상단에 있습니다. 기본 시간축은 한 박동이며 전체 2.4초로 바꿀 수 있습니다. 유도를 선택하고 확대하면 한 파형을 오른쪽 전체 높이로 확인합니다. ‘구간 이동’ 목록에서 P·QRS·T를 고르면 선택 유도의 해당 구간 최대 진폭 시점으로 이동합니다. P·QRS·T 배경은 계산된 활성·회복에 대응하는 관찰 구간이며 임상 자동 판독 결과는 아닙니다.
+- 왼쪽은 확대 심장 절개도와 전극 지도를 합친 화면이고 오른쪽은 같은 시간축·감도의 12유도입니다. 전도 조건 선택과 모델 초기화는 오른쪽 패널 상단에 있습니다. 일반 조건은 한 박동 또는 전체 2.4초, 리듬 실험은 전체 8초를 볼 수 있습니다. 유도를 선택하고 확대하면 한 파형을 크게 확인합니다. ‘구간 이동’은 일반 조건에서 P·QRS·T의 최대 진폭 시점, 리듬 조건에서 실제 His 활성 기록으로 이동합니다. 리듬 조건에 고정 P·QRS·T 배경을 반복해 그리지 않습니다.
 - ‘설정’ 또는 ‘Ischemia / MI’를 누르면 심장 그림은 그대로 두고 오른쪽 파형 영역이 넓은 설정 패널로 바뀝니다. ‘ECG로 돌아가기’ 또는 Escape로 닫으면 기존 유도·전극·시간 설정을 유지한 파형으로 돌아갑니다. 허혈 위치를 체크하면 적용 전에도 왼쪽 모델의 같은 번호가 강조됩니다. 적용 후 ‘구간 이동’ 목록의 TP·ST로 관찰 시점을 고릅니다. 출처와 관련 자료는 이론 노트에서 확인합니다.
 - 왼쪽의 ‘전도 경로’에서는 심장 구조와 전도 연결이 강조되고, ‘전극 위치’에서는 흉곽과 9개 측정 전극이 강조됩니다. 정면 보기에서 흉곽을 클릭하거나 전극을 드래그하며, 설정의 둘레·위아래 각도로 3D 표면의 위치를 바꿀 수 있습니다. 뒤쪽 전극은 점선으로 구분합니다. 심장 그림의 확대나 경로 배치가 계산 좌표의 거리를 바꾸지 않습니다. 전극 위치 예시는 실제 늑간·Clavicle에 따른 부착 도해가 아닙니다. RA↔LA 위치 교환으로 Lead reversal의 영향을 비교할 수 있습니다.
 - Dipole·Lead field 방향은 설정에서 켤 수 있으며 작은 별도 도해에 표시합니다. 청회색은 합성 dipole, 청록 점선은 선택한 유도의 Lead field이고, 화살표 길이는 방향을 읽기 위한 고정 배율입니다.
@@ -131,7 +131,7 @@
 - 살아 있는 심근 질량의 98% 미만에서 흥분이 확인되거나, 활성 분산이 140 ms를 넘거나, 회복이 측정창과 겹치거나, TP가 불안정하면 ST 수치를 보류합니다. 손상 조직의 이른 회복도 포함합니다. Injury current가 있다는 사실과 QRS·ST·T를 독립적으로 측정할 수 있다는 사실은 다릅니다. 보류 시에도 원 파형은 숨기거나 교정하지 않습니다.
 - 9개 구역의 서로 다른 전류 방향을 비교하되 모든 선택에서 ST elevation이 크게 나오는 것은 아닙니다. 구역 사이 연결은 Endocardial cable로 축약되어 있고 외벽 전체의 연속적인 경계면은 재구성하지 않았습니다. 따라서 Posterior·작은 RV 병변 등에서 변화가 작을 수 있으며 임상적인 Territory별 감도나 Reciprocal change를 검증했다고 해석하지 않습니다.
 - 단위는 a.u.입니다. 1 mm·0.1 mV 등의 임상 ST 기준을 적용할 수 없습니다. 무한 균질 도체에서 전위를 복원하므로 실제 흉곽·폐·혈액의 전도도와 경계 효과를 풀지 않습니다. openCARP의 전위 복원 설명처럼 이 방식은 완전한 Bidomain/Torso 모델과 구분해야 합니다.
-- Hyperkalemia 확장에는 전신적인 Extracellular K⁺ 변화와 이에 따른 Reversal potential·채널 가용성·Repolarization을 따로 모델링해야 합니다. 허혈 스트레스 매개변수를 혈중 K⁺ 값으로 해석할 수 없으며 Hyperkalemia 모드는 아직 제공하지 않습니다.
+- Hyperkalemia·QT는 아래 별도 Ionic 실험으로 제공합니다. 허혈 스트레스 매개변수를 혈중 K⁺로 해석하지 않습니다. 두 모델의 손상 매개변수를 같은 물리량으로 볼 수 없으므로 Ionic 조건에서는 Ischemia / MI 동시 적용을 지원하지 않습니다.
 
 ### 계산 검증
 
@@ -149,8 +149,8 @@
 
 ## forward-conduction | 전도 연결·자극 위치·Repolarization 비교
 ### 기전
-- AV 전도 저하에서는 AV 연결부의 결합도를 기준의 52%로 낮춥니다. AV 구역의 흥분이 이웃에 전달되는 시간이 달라지며, 심실 활성 시각을 직접 뒤로 옮기는 방식은 아닙니다.
-- RBB 또는 LBB 연결 차단에서는 His에서 해당 branch로 가는 연결의 결합도를 0으로 만들고, 같은 branch의 Distal 결합도는 0.085에서 0.03으로 낮춥니다. 단일 Proximal cut만이 아니라 해당 branch의 분산된 전도 저하를 함께 가정한 교육용 조건입니다. 반대쪽 branch와 남은 Septal·Regional myocardial 경로로 해당 Ventricular 구역이 늦게 활성되고, 차단 아래쪽 branch도 역방향으로 활성될 수 있습니다. 이를 특정 환자의 병변 위치·중증도와 대응시키지 않습니다.
+- AV 전도 저하의 기본 결합도는 기준의 52%이며 설정에서 30–120%로 바꿀 수 있습니다. AV 구역의 흥분이 이웃에 전달되는 시간이 달라지며, 심실 활성 시각을 직접 뒤로 옮기는 방식은 아닙니다.
+- RBB 또는 LBB 차단의 기본 조건은 Proximal 결합도 0, Distal 결합도 0.03입니다. ‘남은 결합도’를 올리면 두 값이 각각 기준 0.085로 돌아갑니다. 단일 Proximal cut과 분산된 Distal 저하를 함께 가정한 교육용 조건입니다. 반대쪽 branch와 남은 심근 경로를 통해 해당 Ventricular 구역이 늦게 활성되며, 차단 아래쪽 branch도 역방향으로 활성될 수 있습니다. 이 비율은 환자의 병변 중증도가 아닙니다.
 - RV 자극은 SA 자극 대신 RV 구역에 전류를 줍니다. 이 모델의 연결은 양방향이므로 Ventricles에서 시작한 활성은 His·AV를 거쳐 Atria로 전달될 수 있습니다. 실제 기기의 pacing spike·전극 접촉·설정 회로는 구현하지 않았습니다.
 - Ventricular 회복 시상수는 회복 gate의 닫힘 속도를 바꿉니다. 구역별 기본 시상수에는 공간적 차이를 두어 repolarization의 전위 기울기가 생기도록 했습니다. 별도 T wave를 더하지 않으므로 repolarization과 다음 자극에 대한 반응이 같은 식의 결과로 연결됩니다.
 ### 증상·검사 소견
@@ -164,6 +164,70 @@
 ### 관련 자료
 - [First-degree AV block · 이론](/interactive/ecg-arrhythmia/notes#av1)
 - [심장 혈역학](/interactive/cardiac-hemodynamics)
+
+## forward-preexcitation | WPW·PVC의 시작점과 전파
+
+### 계산 기전
+
+- WPW에서는 Atrial myocardium과 선택한 Ventricular endocardium 사이에 4개 Excitable 구역으로 된 Accessory pathway를 연결합니다. 위치는 Left lateral·Septal·Right free wall 중 선택하며 그림에 보라색 경로가 나타납니다. AV node를 우회한 활성과 기존 His–Purkinje 활성이 같은 심근에 도달하므로 Pre-excitation과 Fusion이 계산됩니다. PR을 줄이거나 Delta wave를 ECG에 더하지 않습니다.
+- PVC에서는 선택한 심실 구역에 2 ms의 국소 자극 전류를 한 번 줍니다. 위치와 Sinus 자극 뒤의 간격을 바꿀 수 있습니다. 자극 당시의 Vm·회복 상태와 이웃 조직의 부하가 Capture 여부를 결정합니다. Retrograde 전도가 SA node까지 도달하면 실제 SA 활성 시각에 따라 다음 자극 시계가 재설정되며, Compensatory pause를 별도로 지정하지 않습니다.
+
+### 관찰과 해석
+
+- WPW에서 His보다 먼저 활성되는 심근이 있는지, Accessory pathway 위치를 바꾸었을 때 초기 전류 방향과 12유도가 어떻게 달라지는지 비교합니다. 기본 Left lateral 조건에서는 Pre-excitation과 넓어진 활성 분산을 확인했지만, 임상적인 Delta-wave 위치 판독 알고리즘은 아닙니다.
+- PVC 기본값은 LV septal·650 ms입니다. 너무 이른 자극은 불응기로 전파되지 않을 수 있습니다. 일부 위치·간격에서는 한 번의 자극이 반복 활성이나 Retrograde/Re-entry를 유발할 수 있으므로, 모든 설정이 고립된 PVC 한 개만 만든다고 보장하지 않습니다. 이를 감추기 위해 추가 활성이나 ECG를 삭제하지 않습니다.
+- 심근 최초 활성과 His 활성의 순서, 심실 전체 활성에 걸리는 시간, 다음 Sinus 활성의 관계를 함께 봅니다. 초기 극성만으로 실제 환자의 Ectopic focus를 진단할 수 없습니다.
+
+### 관련 자료
+
+- [Accessory pathway 위치와 12-lead ECG의 계산 연구, 2024](https://pubmed.ncbi.nlm.nih.gov/39259657/)
+- [PVC 발생 위치를 바꾼 계산 모델 연구](https://ojs.cvut.cz/ojs/index.php/CTJ/article/view/9524)
+
+## forward-ionic | Hyperkalemia·QT와 Ionic membrane
+
+### 계산 기전
+
+- Myocardium에 Luo–Rudy phase I의 Fast Na⁺ current, Slow inward current, Time-dependent K⁺ current, Inward rectifier K⁺ current, Plateau K⁺ current와 Background current를 계산합니다. Gate와 Intracellular calcium을 시간에 따라 적분하고, 같은 조직 결합 전류와 합해 Vm을 갱신합니다. 저장된 Vm으로 기존과 같은 전극 전위식을 계산합니다.
+- Hyperkalemia는 Extracellular K⁺를 변경합니다. K⁺ reversal potential과 K⁺ conductance가 달라지고, 높아진 Resting Vm에서 Na⁺ gate의 가용성도 바뀝니다. Resting potential 상승·Repolarization 변화·Capture 및 전도 실패는 이 과정의 결과입니다. ‘T wave를 뾰족하게’ 만드는 별도 파형 함수는 없습니다.
+- QT prolongation/shortening은 Delayed rectifier K⁺ conductance를 줄이거나 늘립니다. 기본값은 기준의 45%와 200%입니다. Action potential의 Plateau·종료 시점이 바뀌고 구역 간 회복 차이가 전극에서 합쳐집니다. ECG 시간축을 늘리거나 T wave를 이동하지 않습니다.
+
+### 관찰과 해석
+
+- 점선은 같은 Ionic 모델의 K⁺ 5.4 mmol/L·K⁺ conductance 100% 기준입니다. 5.4는 원 연구의 실험 조건이지 사람의 정상 혈청 K⁺ 기준 상한을 뜻하지 않습니다. 기본 Mitchell–Schaeffer 파형과 Ionic 파형의 차이를 질환 효과로 오인하지 않도록 같은 모델끼리 비교합니다.
+- K⁺ 변화에 대한 전도 속도는 모든 구간에서 단조롭게 느려지는 것이 아닙니다. 충분히 높은 조건에서는 전도 또는 Capture 자체가 실패할 수 있습니다. 실제 환자의 Hyperkalemia는 ECG 반응의 개인차가 크며 이 모델로 농도별 진단 기준이나 안전성을 예측할 수 없습니다.
+- 현재 기본 K⁺ 7 조건에서는 Resting Vm 상승과 APD 단축을 확인했지만, 전형적인 Tall peaked T를 완성한 것으로 볼 수 없습니다. 기준 전극의 Lead II에서는 T peak가 오히려 작아집니다. 해당 파형을 억지로 확대하지 않으며, 인간의 조직별 Ionic current·회복 분포·Torso geometry를 더 보완해야 하는 한계로 남깁니다.
+- 원 Ionic 모델은 Guinea-pig ventricular cell 기반입니다. Atria에는 짧은 AP를 위한 Ca²⁺·K⁺ conductance 적응을 적용합니다. His–Purkinje에도 같은 Ionic 식과 K⁺ 변화를 적용해 심근과 서로 다른 회복 시계가 생기지 않게 했으며, SA·AV node는 축약 모델을 유지합니다. 이는 인간의 조직별 세포 모델을 각각 재현한 것이 아닙니다.
+- Ionic 기준에서는 빠른 Na⁺ upstroke가 조직 격자에서 전파되도록 Ventricular 결합도를 별도로 설정하고, 전도계의 유효 조직량·접합부 부하와 AV recovery를 함께 설정합니다. Atrial–AV 접합은 여러 심방 조직 구역에 분산합니다. 첫 박동만 흥분한 뒤 다음 박동에서 일부 조직이 빠지는 계산을 정상 기준으로 채택하지 않습니다. 이 조정은 막전위·결합 전류 적분에 적용하며 유도별 출력 보정이 아닙니다.
+- 여기의 K⁺ current는 현대 인간 모델의 IKr·IKs를 분리한 약물 모델이 아닙니다. QTc, 특정 약물·유전자 효과, Torsades 위험을 정량적으로 예측하지 않습니다. Ionic 실험과 기존 Ischemia 실험의 동시 적용은 지원하지 않습니다.
+
+### 관련 자료
+
+- [Luo & Rudy — A model of the ventricular cardiac action potential, 1991](https://doi.org/10.1161/01.RES.68.6.1501)
+- [Rudy Lab — Guinea-pig ventricular model의 개발 과정](https://rudylab.wustl.edu/research/basic-mechanisms-of-cardiac-excitation-arrhythmias/models-and-simulations/cardiac-cells/guinea-pig-ventricular-cell-model/history-of-model-development/)
+- [Physiome — Luo–Rudy I 수식](https://models.cellml.org/exposure/2d2ce7737b42a4f72d6bf8b67f6eb5a2/luo_rudy_1991.cellml/source_text)
+- [Extracellular K⁺와 전도·흥분성 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC7940307/)
+
+## forward-rhythm | AV block·Escape·AF의 조직 동역학
+
+### 계산 기전
+
+- Mobitz I는 AV nodal recovery를 느리게 합니다. 다음 Atrial impulse가 덜 회복된 조직에 도착하면 전도가 더 늦어지거나 실패하고, 긴 휴지기 뒤에 회복됩니다. 기본 자극 빈도는 90/min입니다. PR 목록이나 ‘몇 번째 박동을 누락할지’를 입력하지 않습니다.
+- Infranodal block은 His에 Post-repolarization refractoriness를 추가합니다. 막전위가 회복되었어도 일정 시간 Inward current 가용성이 회복되지 않는 축약 조건입니다. 기본 설정에서는 2:1 전도와 일정한 Conducted-beat latency가 나타납니다. **2:1 ECG만으로 Mobitz I/II를 구분할 수 없으므로 화면을 ‘Mobitz II 확진 파형’으로 표시하지 않습니다.** 다양한 임상 Mobitz II 패턴을 모두 재현한 기능은 아닙니다.
+- Complete AV block은 AV–His 연결의 Conductance를 0으로 만들고 His 구역에 약한 지속 Inward conductance와 느린 Recovery를 부여합니다. 자체적인 흥분–회복 반복으로 Escape rhythm이 생성됩니다. Sinus와 Escape의 박동 시각을 따로 나열한 방식이 아닙니다.
+- AF 실험은 RA·LA 각각을 48×12의 주기적 Sheet로 바꾸고 불균일한 결합·짧은 불응기·국소 장벽을 둡니다. LA의 PV 경계에 대응하는 4개 작은 구역에는 지속 Inward conductance를 부여합니다. 초기 S1/S2 자극 뒤에는 국소 자동능과 조직 전파가 경쟁하며, 여러 Atrial 입력을 받는 AV node의 회복 상태가 Ventricular response를 결정합니다. 무작위 RR이나 Fibrillatory-wave 잡음을 ECG에 더하지 않습니다.
+
+### 관찰과 해석
+
+- 8초 기록에서 Atrial activation과 실제 His activation의 관계를 비교합니다. Mobitz I는 지연 증가와 비전도, Complete AV block은 서로 독립적인 Atrial/Junctional rhythm, AF는 지속적인 Atrial activity와 불규칙한 Ventricular response를 확인합니다.
+- AF는 다초점·재진입 기전을 탐색하는 축약 실험입니다. 실제 Atrial 해부학·PV sleeve·Fibrosis·인간 Atrial ionic current·Rotor map을 검증한 모델은 아닙니다. ‘불규칙한 RR이 나왔다’는 것만으로 임상 AF를 완전 재현했다고 해석하지 않습니다.
+- 다른 자극 빈도나 조직 매개변수에서는 전도 비율·Capture·리듬이 달라질 수 있습니다. 결과에 진단명을 맞추기 위해 박동을 추가하거나 제거하지 않습니다. 모든 결과는 a.u.이며 치료·진단용으로 사용할 수 없습니다.
+
+### 계산 검증과 근거
+
+- 기본 조건에서 전도 순서·심실 활성 범위, WPW의 His 이전 활성, PVC의 국소 시작·Retrograde 전도, AV block의 지연/비전도, Escape의 독립성, AF의 지속성과 RR 변동을 검사합니다. Ionic 실험에서는 Resting Vm·APD 변화와 적분 간격을 줄였을 때의 수렴을 확인합니다.
+- 모든 조건에 같은 전위 복원식·Gain을 사용하고 Einthoven 및 Augmented lead 항등식을 검사합니다. 이는 내부의 인과·수치적 일관성 확인이며 환자의 12-lead ECG에 대한 임상 검증을 대신하지 않습니다.
+- [Rabbit AV node의 Recovery·Automaticity 계산 모델, 2023](https://doi.org/10.3389/fphys.2023.1126648) — 관련 기전의 근거이며 이 연구의 보정된 Dual-pathway 모델을 그대로 구현한 것은 아닙니다.
+- [AF의 S1/S2·Re-entry·Wavebreak 계산 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC7514676/) — 실제 연구의 고해상도 Atrial 모델과 본 앱의 축약 Sheet는 구분합니다.
 
 ## sinus | Sinus rhythm
 ### 기전
