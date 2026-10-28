@@ -7,11 +7,11 @@ import { EcgForwardScene } from "@/components/ecg-forward-scene";
 import { EcgForwardTrace, type EcgTraceSignal, type EcgTraceTimeline } from "@/components/ecg-forward-trace";
 import { EcgIschemiaPanel } from "@/components/ecg-ischemia-panel";
 import { EcgScenarioControls } from "@/components/ecg-scenario-controls";
-import { isRhythmCondition, isIonicCondition, usesHumanMembrane, ventricularActivationBursts } from "@/lib/ecg-forward-model";
+import { isRhythmCondition, isIonicCondition, usesHumanMembrane, ventricularActivationBursts, isIschemiaDraftPending } from "@/lib/ecg-forward-model";
 import {measureSt,stWindow} from "@/lib/ecg-ischemia";
 import { HEART_PARTS, partSnapshot, recordingFrame, type HeartPart } from "@/lib/ecg-forward-display";
 import { advancePlayback, ECG_STEP_MS, playbackDuration, playbackStart, stepPlayback } from "@/lib/ecg-playback";
-import { DEFAULT_ELECTRODES, DEFAULT_FORWARD_INPUTS, ELECTRODE_IDS, MYOCARDIAL_REGIONS, STANDARD_LEADS, dot3, electrodePosition, FORWARD_CONDITIONS, leadFieldAtCenter, leadPreset, measureStandardTraces, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardInputs, type ForwardRecording, type MyocardialRegion, type StandardLead } from "@/lib/ecg-forward-model";
+import { DEFAULT_ELECTRODES, DEFAULT_FORWARD_INPUTS, DEFAULT_ISCHEMIA, ELECTRODE_IDS, STANDARD_LEADS, dot3, electrodePosition, FORWARD_CONDITIONS, leadFieldAtCenter, leadPreset, measureStandardTraces, type Electrode, type ElectrodeId, type ElectrodeMap, type ForwardInputs, type ForwardRecording, type MyocardialRegion, type StandardLead } from "@/lib/ecg-forward-model";
 
 type Props={readRecording:()=>ForwardRecording;readReference?:()=>ForwardRecording;inputs:ForwardInputs;onInputs:(inputs:ForwardInputs)=>void;busy:boolean};
 type Comparison={inputs:ForwardInputs;electrodes:ElectrodeMap;values:Record<StandardLead,Float32Array>;lead:StandardLead;label:string};
@@ -30,7 +30,8 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
   const [selected,setSelected]=useState<ElectrodeId>("LL"),[lead,setLead]=useState<StandardLead>("II");
   const [part,setPart]=useState<HeartPart>("SA node"),[panel,setPanel]=useState<"structure"|"electrodes"|"model"|"injury"|null>(null);
   const [injuryRegions,setInjuryRegions]=useState<MyocardialRegion[]>(()=>[...(inputs.ischemia?.regions??[])]);
-  const injuryPending=MYOCARDIAL_REGIONS.some(id=>injuryRegions.includes(id)!==(inputs.ischemia?.regions.includes(id)??false));
+  const [injurySeverity,setInjurySeverity]=useState(()=>inputs.ischemia?.severity??DEFAULT_ISCHEMIA.severity);
+  const injuryPending=isIschemiaDraftPending(inputs.ischemia,injuryRegions,injurySeverity);
   const initialTime=0;
   const [storedTimeMs,setTimeMs]=useState(initialTime);
   const [playing,setPlaying]=useState(false);
@@ -107,7 +108,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
     document.addEventListener("keydown",close);return()=>document.removeEventListener("keydown",close);
   },[settingsOpen]);
   const closeSettings=()=>{setPanel(null);settingsButton.current?.focus();};
-  const openInjury=()=>{seek(clock.current);setInjuryRegions([...(inputs.ischemia?.regions??[])]);setElectrodeMode(false);setPanel("injury");};
+  const openInjury=()=>{seek(clock.current);setInjuryRegions([...(inputs.ischemia?.regions??[])]);setInjurySeverity(inputs.ischemia?.severity??DEFAULT_ISCHEMIA.severity);setElectrodeMode(false);setPanel("injury");};
   const jumpPhase=(label:string)=>{
     const phase=timeline.phases.find(item=>item.label===label);if(!phase)return;
     let peak=0,index=Math.max(0,Math.floor(phase.start/recording.sampleMs));
@@ -122,7 +123,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
   const selectPart=(value:HeartPart)=>{setPart(value);setPanel("structure");};
   const jump=(value:HeartPart)=>{setPart(value);const onset=partSnapshot(recording,value,frame).onset;if(onset!==null)seek(Math.round(onset/recording.sampleMs)*recording.sampleMs);};
   const save=()=>{setShowReference(false);setComparison({inputs:structuredClone(inputs),electrodes:structuredClone(electrodes),lead,values:Object.fromEntries(STANDARD_LEADS.map(id=>[id,traces[id].values.slice()])) as Record<StandardLead,Float32Array>,label:`${FORWARD_CONDITIONS.find(item=>item.id===inputs.condition)?.label} · ${inputs.rate}/min · ${inputs.ischemia?.mode??"무손상"} · 12유도`});};
-  const updateInputs=(value:ForwardInputs)=>{seek(0);if(value.condition!==inputs.condition)setWindowMode(isRhythmCondition(value.condition)?"all":"beat");setInjuryRegions([...(value.ischemia?.regions??[])]);onInputs(value);};
+  const updateInputs=(value:ForwardInputs)=>{seek(0);if(value.condition!==inputs.condition)setWindowMode(isRhythmCondition(value.condition)?"all":"beat");setInjuryRegions([...(value.ischemia?.regions??[])]);setInjurySeverity(value.ischemia?.severity??DEFAULT_ISCHEMIA.severity);onInputs(value);};
   const chooseCondition=(condition:ForwardInputs["condition"])=>{
     updateInputs({...inputs,condition,electrophysiology:undefined,rate:condition==="mobitz1"?90:70,ischemia:undefined,membrane:undefined});
     setShowReference(true);setSpeed(isRhythmCondition(condition)?1:.25);
@@ -178,7 +179,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
       <header className="ecg-inspector-header"><h2 id="ecg-settings-title" ref={settingsHeading} tabIndex={-1}>심장 모델 설정</h2>{conductionControls}<button type="button" className="ecg-settings-back" aria-label="설정 닫고 ECG로 돌아가기" onClick={closeSettings}>ECG로 돌아가기 <X size={17}/></button></header>
       <div className="ecg-inspector-tabs" role="group" aria-label="조작 패널 선택">{([['injury','손상'],['structure','부위'],['electrodes','전극'],['model','모델']] as const).map(([value,label])=><button type="button" key={value} disabled={value==="injury"&&inputs.condition!=="normal"} aria-pressed={panel===value} onClick={()=>{if(value==="injury"){if(panel!=="injury")openInjury();}else{setPanel(value);if(value==="electrodes")setElectrodeMode(true);}}}>{label}</button>)}</div>
       <div className="ecg-inspector-content" data-panel={panel}>
-        {panel==="injury"?<EcgIschemiaPanel inputs={inputs} onInputs={applyTissue} regions={injuryRegions} onRegions={setInjuryRegions}/>:panel==="structure"?<>
+        {panel==="injury"?<EcgIschemiaPanel inputs={inputs} onInputs={applyTissue} regions={injuryRegions} onRegions={setInjuryRegions} severity={injurySeverity} onSeverity={setInjurySeverity}/>:panel==="structure"?<>
           <label className="ecg-field">선택한 구조<select aria-label="심장 구조 선택" value={part} onChange={event=>setPart(event.target.value as HeartPart)}>{HEART_PARTS.map(item=><option key={item.id} value={item.id}>{item.id} · {item.name}</option>)}</select></label>
           <section className="ecg-part-detail"><span className="ecg-part-code">{part}</span><h3>{definition.name}</h3><p>{definition.description}</p></section>
           <div className="ecg-part-values"><div><span>현재 최대 Vm</span><b>{snapshot.peak.toFixed(2)}</b></div><div><span>활성 구역 / 전체</span><b>{snapshot.active} / {snapshot.total}</b></div></div>
@@ -220,7 +221,7 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
         <p>방향은 공통 정면 좌표계에 투영하며 모든 지점·시각에 같은 길이 압축 배율을 적용합니다. 정면 성분이 작으면 화살표를 생략하므로, 표시가 없다고 3D 전기장 전체가 0이라는 뜻은 아닙니다. 관찰 위치는 펼친 절개도에 대응하며 실제 위치 비례를 재현하지 않습니다. 기존 Infinite homogeneous conductor·거리 하한 0.25 model unit을 그대로 사용한 교육용 값으로, 임상 V/m나 Bidomain 해가 아닙니다. 선택 유도의 Lead field와도 다른 양입니다.</p>
         <p>일반 조건은 한 자극 주기 끝에서 멈추고, PVC·AV block·AF는 박동 관계를 볼 수 있도록 전체 8초 기록을 기본 표시합니다. 중간에 정지하면 이어서 재생하고, 끝에서 재생하면 처음부터 시작합니다. 아직 도달하지 않은 파형은 보이지 않고 비교 기록만 회색 점선으로 남습니다. 정지 상태에서 재생 버튼 양옆의 화살표 또는 ←·→ 키로 10 ms씩 이동합니다. 입력 항목과 전극 위치 지도는 자체 방향키 조작을 유지합니다. ‘구간 이동’은 일반 조건에서 P·QRS·T 구간의 최대 진폭 시점, 리듬 조건에서 실제 His 활성 시점으로 이동합니다.</p></section>
       <section><h3>전도·리듬·Ionic 실험</h3><p>WPW는 Accessory pathway, PVC는 국소 조기 자극을 추가합니다. AV block은 결합과 연속적인 회복 상태를 바꾸고, Complete AV block은 독립적인 Junctional automaticity를 사용합니다. AF에서는 국소 자동능과 Atrial recovery를 직접 바꾸어 남은 Re-entry와 AV 전달을 비교합니다. 정해진 RR 목록이나 파형 조각을 붙이지 않습니다.</p><p>Hyperkalemia·QT는 사람 Ventricular cell의 TP06 수식에서 K⁺ 농도 또는 IKr conductance를 바꿉니다. 세포층별 전류와 고정된 IKs 공간 차이도 포함합니다. Atria·SA/AV·His–Purkinje는 축약된 부분이 남아 있으며, 환자의 혈청 K⁺·QTc·약물 반응을 예측하지 않습니다. 점선은 동일 모델의 기준 조건입니다. Ischemia와 동시 적용하지 않습니다. <Link href="/interactive/ecg-arrhythmia/notes#forward-ionic">Ionic 모델</Link> · <Link href="/interactive/ecg-arrhythmia/notes#forward-rhythm">리듬 모델과 한계</Link></p></section>
-      <section><h3>부위별 Ischemia / Infarction 실험</h3><p>‘기준 전도’에서 ‘Ischemia / MI’를 열고 위치를 체크한 뒤 ‘허혈 적용’을 누르세요. 국소 K⁺·ATP·pH 조건이 TP06 기반 막전류와 정상·허혈 경계 전류를 바꾸며 Vm과 전극 전위를 다시 계산합니다. ST 구간에 값을 더하지 않습니다. 다른 질환과의 복합 조건은 아직 지원하지 않습니다.</p><p>‘ECG로 돌아가기’에서 파형을 확인하고, ‘구간 이동’의 TP와 ST로 전류 방향을 비교하세요. 회색 점선과 ‘허혈 해제’는 같은 Ionic 모델에서 국소 손상만 제거한 결과입니다. 초기의 간단한 ‘기준 전도’ 모델과는 구분합니다. ST 시간창은 조직 활성과 Remote myocardium의 회복을 이용한 교육용 표식이며 임상 J-point 판독기가 아닙니다.</p><p>9개 구역은 앞·뒤 심근을 펼친 개념도이며 Coronary territory·AHA segment와 일대일 대응하지 않습니다. LV inferior는 독립 구역이 아닙니다. 작은 RV·Posterior 병변 등에서 변화가 작을 수 있으며 임상 mV·STEMI 진단·환자 예측에 사용할 수 없습니다. 조직 매개변수와 계산식·한계는 <Link href="/interactive/ecg-arrhythmia/notes#regional-ischemia">부위별 Ischemia 노트</Link>에서 확인할 수 있습니다.</p></section>
+      <section><h3>부위별 Ischemia / Infarction 실험</h3><p>‘기준 전도’에서 ‘Ischemia / MI’를 열고 위치와 허혈 강도를 선택한 뒤 ‘허혈 적용’을 누르세요. 강도는 0–100, 기본값은 70이며 선택한 모든 부위에 공통으로 적용합니다. 0은 같은 Ionic 모델의 무손상 조건입니다. 국소 K⁺·ATP·pH와 Coupling이 바뀌며 Vm과 전극 전위를 다시 계산합니다. ST 구간에 값을 더하지 않습니다. 다른 질환과의 복합 조건은 아직 지원하지 않습니다.</p><p>‘ECG로 돌아가기’에서 파형을 확인하고, ‘구간 이동’의 TP와 ST로 전류 방향을 비교하세요. 회색 점선과 ‘허혈 해제’는 같은 Ionic 모델에서 국소 손상만 제거한 결과입니다. 초기의 간단한 ‘기준 전도’ 모델과는 구분합니다. ST 시간창은 조직 활성과 Remote myocardium의 회복을 이용한 교육용 표식이며 임상 J-point 판독기가 아닙니다.</p><p>9개 구역은 앞·뒤 심근을 펼친 개념도이며 Coronary territory·AHA segment와 일대일 대응하지 않습니다. LV inferior는 독립 구역이 아닙니다. 작은 RV·Posterior 병변 등에서 변화가 작을 수 있으며 임상 mV·STEMI 진단·환자 예측에 사용할 수 없습니다. 조직 매개변수와 계산식·한계는 <Link href="/interactive/ecg-arrhythmia/notes#regional-ischemia">부위별 Ischemia 노트</Link>에서 확인할 수 있습니다.</p></section>
       <section><h3>그림의 크기와 전극 좌표</h3><p>심장은 구조를 읽기 위해 확대해 그린 전면 개념 절개도입니다. LA와 앞·뒤의 심근 구역을 펼쳐 보여 주며 실제 단면이나 위치 비례를 재현하지는 않습니다. 전극은 별도의 3D 흉곽 타원체 표면 좌표에서 계산하며, 심장 그림의 확대가 계산 거리를 바꾸지 않습니다. ‘전극 위치’에서는 전극과 흉곽을 정면으로 함께 보여 줍니다. 가슴 전극 위치는 축약 좌표이며 실제 늑간 부착 도해가 아닙니다. 점선 전극은 뒤쪽 표면에 있습니다. 설정은 ECG 파형 영역에 열리고, ‘ECG로 돌아가기’로 닫으면 기존 유도·시간·전극 설정을 유지한 파형으로 돌아갑니다.</p><p>벽의 옅은 황금색은 흥분, 청회색은 Vm이 감소하는 회복입니다. 각 구역·층의 평균 Vm을 저장 샘플 사이에서 보간하며, Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열합니다. 이름에 마우스를 올리거나 키보드로 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 패널을 엽니다. 설정에서 켜는 작은 벡터 도해의 청회색은 합성 dipole, 청록 점선은 선택 유도의 Lead field입니다. 전압은 고정 배율의 a.u.이고 임상 mV로 보정하지 않았습니다.</p></section>
       <p className="ecg-guide-sources">근거: <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noreferrer">OpenStax · Heart anatomy</a> · <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noreferrer">OpenStax · Conduction system</a> · <a href="https://www.bem.fi/book/06/06.htm" target="_blank" rel="noreferrer">Bioelectromagnetism · 활성과 전류</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27034121/" target="_blank" rel="noreferrer">APD gradient와 T wave 연구</a></p>
       <p className="ecg-guide-sources">모델 참고: <a href="https://doi.org/10.1161/01.CIR.41.6.899" target="_blank" rel="noreferrer">Durrer · Ventricular activation</a> · <a href="https://opencarp.org/documentation/examples/02_ep_tissue/07_extracellular" target="_blank" rel="noreferrer">openCARP · ECG recovery</a> · <a href="https://doi.org/10.1186/s12576-020-00760-3" target="_blank" rel="noreferrer">Okada · ST elevation 기전</a></p>

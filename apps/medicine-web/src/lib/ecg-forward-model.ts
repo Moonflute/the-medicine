@@ -80,6 +80,16 @@ export function referenceForwardInputs(inputs:ForwardInputs):ForwardInputs {
   return {...inputs,ischemia:undefined,...(inputs.ischemia?{membrane:"human-ischemia" as const}:{}),...(isIonicCondition(inputs.condition)?{condition:"hyperkalemia" as const,electrophysiology:{potassium:5.4,potassiumScale:1}}:{})};
 }
 
+/** The draft changes neither the running recording nor its cached reference. */
+export function isIschemiaDraftPending(current:IschemiaInputs|undefined,regions:readonly MyocardialRegion[],severity:number) {
+  return severity!==(current?.severity??DEFAULT_ISCHEMIA.severity)
+    ||MYOCARDIAL_REGIONS.some(id=>regions.includes(id)!==(current?.regions.includes(id)??false));
+}
+
+export function applyIschemiaDraft(inputs:ForwardInputs,regions:readonly MyocardialRegion[],severity:number):ForwardInputs {
+  return {...inputs,membrane:"human-ischemia",ischemia:{...(inputs.ischemia??DEFAULT_ISCHEMIA),regions:[...regions],severity}};
+}
+
 /** Fixed metabolic challenge, not infarct age/severity calibration. Anchors are
  * in the ranges studied by Okada 2020: control 5.4 mM K/10 mM ATP/pH 7.4,
  * reference lesion 9/1/6, severe 12/.1/6. Interpolation is an explicit reduced

@@ -69,13 +69,12 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .physiology-workbench .ecg-injury-launch { min-height:27px; padding:3px 6px; border:1px solid #d9bcc5; border-radius:5px; font-size:11px; color:#913a4b; white-space:nowrap; }
 .physiology-workbench .ecg-injury-launch[data-active="true"] { background:#f9e9ed; color:#873045; }
 .ecg-injury-key i { background:#b24762; }
-.ecg-injury-picker { display:grid; gap:18px; max-width:680px; margin-inline:auto; }
-.ecg-injury-intro h3 { font-size:18px; font-weight:750; }
-.ecg-injury-intro p { margin-top:6px; font-size:13px; line-height:1.65; color:var(--muted); }
+.ecg-injury-picker { display:grid; gap:10px; max-width:680px; margin-inline:auto; }
+.ecg-injury-intro p { margin:0; font-size:12px; line-height:1.5; color:var(--muted); }
 .ecg-injury-regions { border:0; padding:0; min-width:0; }
-.ecg-injury-regions legend { font-size:13px; font-weight:650; margin-bottom:10px; }
+.ecg-injury-regions legend { font-size:13px; font-weight:650; margin-bottom:6px; }
 .ecg-injury-regions>div { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
-.ecg-injury-region-option { display:flex; align-items:center; gap:7px; min-height:52px; padding:9px; border:1px solid var(--line); border-radius:8px; font-size:12px; cursor:pointer; }
+.ecg-injury-region-option { display:flex; align-items:center; gap:7px; min-height:44px; padding:8px; border:1px solid var(--line); border-radius:8px; font-size:12px; cursor:pointer; }
 .ecg-injury-region-option[data-selected="true"] { background:#fff0f4; border-color:#b44a69; color:#812d48; }
 .ecg-injury-region-option:focus-within { outline:2px solid #9c3454; outline-offset:2px; }
 .ecg-injury-region-option input { width:16px; height:16px; margin:0; accent-color:#9c3454; flex-shrink:0; }
@@ -83,6 +82,18 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .ecg-injury-region-option[data-selected="true"] .ecg-region-number { background:#9c3454; border-color:#9c3454; color:#fff; }
 .ecg-injury-selection-status { color:var(--muted); font-size:12px; }
 .ecg-injury-actions { display:flex; gap:8px; }
+.ecg-injury-severity { border-top:1px solid var(--line); padding-top:10px; }
+.ecg-injury-severity-heading { display:flex; align-items:center; gap:8px; font-size:13px; }
+.ecg-injury-severity-heading label { margin-right:auto; font-weight:650; }
+.ecg-injury-severity-heading>span { font-variant-numeric:tabular-nums; color:var(--muted); }
+.ecg-injury-severity-heading b { color:var(--foreground); }
+.ecg-injury-severity input { display:block; width:100%; margin:5px 0 0; height:24px; accent-color:#9c3454; }
+.ecg-injury-severity-scale { display:flex; justify-content:space-between; color:var(--muted); font-size:11px; }
+.ecg-injury-help { position:relative; }
+.ecg-injury-help summary { display:flex; align-items:center; justify-content:center; min-width:28px; min-height:28px; cursor:pointer; list-style:none; color:var(--muted); border-radius:4px; }
+.ecg-injury-help summary::-webkit-details-marker { display:none; }
+.ecg-injury-help summary:focus-visible { outline:2px solid var(--primary); outline-offset:2px; }
+.ecg-injury-help p { position:absolute; z-index:5; bottom:calc(100% + 6px); right:0; width:290px; max-width:65vw; padding:10px; border:1px solid var(--line); border-radius:7px; background:var(--surface); color:var(--foreground); box-shadow:0 4px 16px #10203018; font-size:12px; line-height:1.6; }
 .physiology-workbench .ecg-injury-actions button { padding:8px 16px; font-size:13px; min-height:40px; }
 .ecg-injury-preview-area { fill:none; stroke:#bca5ac; stroke-width:.8; stroke-dasharray:3 3; }
 .ecg-injury-preview-area[data-selected="true"] { fill:#de7898; fill-opacity:.48; stroke:#982e51; stroke-width:2; stroke-dasharray:5 2; }

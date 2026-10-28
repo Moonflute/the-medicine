@@ -10,10 +10,29 @@ import { calculateEndocrineState } from "../src/lib/endocrine-model.ts";
 import { calculateEcgState, ecgRateControl, ecgSignalAt, measureEcgInterval } from "../src/lib/ecg-model.ts";
 import { parseInteractiveLearning, resolveLearningLink } from "../src/lib/interactive-learning-parser.ts";
 import { createAnatomyRegionMap } from "../src/lib/ecg-forward-anatomy.ts";
-import { MYOCARDIAL_REGIONS } from "../src/lib/ecg-forward-model.ts";
+import { DEFAULT_FORWARD_INPUTS, DEFAULT_ISCHEMIA, MYOCARDIAL_REGIONS, createHeartMesh, referenceForwardInputs, applyIschemiaDraft, isIschemiaDraftPending } from "../src/lib/ecg-forward-model.ts";
 import { advancePlayback, ECG_STEP_MS, playbackDuration, playbackStart, stepPlayback, traceSweepStart } from "../src/lib/ecg-playback.ts";
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"../../..");
+// A region/intensity draft is inert until Apply; zero must not fall back to 70.
+assert.equal(DEFAULT_ISCHEMIA.severity,70);
+assert.equal(isIschemiaDraftPending(undefined,[],70),false);
+const draftRegions=["lv-anterior","lv-apical"];
+const originalInputs=structuredClone(DEFAULT_FORWARD_INPUTS);
+const injury70=applyIschemiaDraft(originalInputs,draftRegions,70);
+assert.deepEqual(originalInputs,DEFAULT_FORWARD_INPUTS,"Apply does not mutate the preceding inputs");
+assert.notEqual(injury70.ischemia.regions,draftRegions,"The committed selection owns its region array");
+assert.equal(isIschemiaDraftPending(injury70.ischemia,[...draftRegions].reverse(),70),false);
+assert.equal(isIschemiaDraftPending(injury70.ischemia,draftRegions,35),true,"Strength-only edits enable Apply");
+assert.equal(isIschemiaDraftPending(injury70.ischemia,["lv-anterior"],70),true);
+const injury0=applyIschemiaDraft(injury70,draftRegions,0);
+assert.equal(injury0.ischemia.severity,0);
+assert.equal(isIschemiaDraftPending(injury0.ischemia,draftRegions,0),false);
+assert.equal(isIschemiaDraftPending(injury0.ischemia,draftRegions,1),true);
+assert.deepEqual(referenceForwardInputs(injury0),referenceForwardInputs(injury70),"Intensity never changes the matched reference");
+assert.deepEqual(createHeartMesh(injury0),createHeartMesh(referenceForwardInputs(injury0)),"Zero has exactly the healthy ionic tissue and coupling");
+assert.equal(injury70.ischemia.severity,70,"Draft application preserves earlier recordings");
+assert.deepEqual(applyIschemiaDraft({...injury70,ischemia:{...injury70.ischemia,depth:50}},draftRegions,100).ischemia,{...injury70.ischemia,depth:50,severity:100});
 // Single-cycle playback stops at the pacing period, including fractional endpoints.
 for(const rate of [50,70,90,110]){
  const end=playbackDuration("beat",rate,2400);assert.equal(end,60000/rate);
@@ -120,7 +139,11 @@ const injuryPanel=fs.readFileSync(path.join(root,"apps/medicine-web/src/componen
 const ecgScene=fs.readFileSync(path.join(root,"apps/medicine-web/src/components/ecg-forward-scene.tsx"),"utf8");
 assert.match(injuryPanel,/type="checkbox" checked=\{regions.includes\(id\)\}/);
 assert.match(injuryPanel,/허혈 적용/);assert.match(injuryPanel,/허혈 해제/);
-assert.doesNotMatch(injuryPanel,/type="range"|regionVoltage|적용된 계산 결과|Resting potential|ecg-tissue-probes|TP 원 전위|조직 상태/);
+assert.doesNotMatch(injuryPanel,/regionVoltage|적용된 계산 결과|Resting potential|ecg-tissue-probes|TP 원 전위|조직 상태/);
+assert.equal((injuryPanel.match(/type="range"/g)??[]).length,1,"Only the requested ischemia intensity slider is exposed");
+assert.match(injuryPanel,/min=\{0\} max=\{100\} step=\{1\} value=\{severity\}/);
+assert.match(injuryPanel,/onChange=\{event=>onSeverity\(Number\(event.target.value\)\)\}/,"Dragging only updates the draft");
+assert.match(injuryPanel,/onInputs\(applyIschemiaDraft\(inputs,regions,severity\)\)/,"Only Apply commits the draft to the model");
 assert.match(ecgWorkspace,/injuryPreview=\{panel==="injury"\?injuryRegions:undefined\}/);
 assert.match(ecgWorkspace,/regions=\{injuryRegions\} onRegions=\{setInjuryRegions\}/);
 assert.match(ecgScene,/data-injury-preview-region=\{region.region\} data-selected=\{injuryPreview.includes\(region.region\)\}/);
