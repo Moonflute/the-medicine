@@ -1,12 +1,12 @@
 # ECG and arrhythmias
-검토 기준일: 2026-10-28
+검토 기준일: 2026-10-29
 - ECG 화면의 전기생리 모델은 심근 구역의 막전위·회복과 구역 사이 전류를 수치 적분하고, I·II·III·aVR·aVL·aVF·V1–V6를 같은 심장 상태에서 계산합니다. 상대 전압 a.u.를 사용하며 실제 임상 mV로 보정하지 않았습니다.
 - 아래 Sinus rhythm–VT 노트는 리듬을 이해하기 위한 이론 자료입니다. 현재 전기생리 모델에서 이 리듬들을 모두 재현하는 것은 아니며, 노트의 수치 예시를 모델의 고정 PR·QRS·Rate 설정으로 해석하지 않습니다.
 - 진단·치료 판단에 사용할 수 없습니다. ST·QT morphology, 12-lead 진단, Ischemia 진단을 검증한 모델이 아니며 QRS가 있다고 실제 맥박·관류가 보장되지는 않습니다.
 
 ## forward-model | 심근 전기활동과 ECG 생성
 ### 기전
-- 기본 전도·허혈·리듬 실험은 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. Hyperkalemia·QT 실험의 Ventricles에는 사람 세포의 ten Tusscher–Panfilov 2006 (TP06) 수식을 사용합니다. 어느 경우에도 ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
+- 기본 전도·리듬 실험은 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. Hyperkalemia·QT·Ischemia 실험의 Ventricles에는 사람 세포의 ten Tusscher–Panfilov 2006 (TP06) 수식을 사용하며, Ischemia는 KATP·ATP·pH 반응을 확장합니다. 어느 경우에도 ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
 - 구역 i에서 j로 흐르는 결합 전류는 g·(vi−vj)로 계산합니다. 한 구역에서 나가는 전류는 상대 구역에 들어가며, 연결을 끊으면 이 경로의 전류도 0이 됩니다. 막전위 변화는 자극 직후의 흥분뿐 아니라 plateau와 repolarization까지 계속 적분합니다.
 - 화면은 하나의 Epicardial 외곽선 안에 RA·LA·RV·LV, Septum, AV valves와 Chordae를 배치한 전면 개념 절개도입니다. 뒤쪽의 LA와 앞·뒤 심근 구역을 펼쳐 배치했으며 환자 영상, 실제 단면이나 위치 비례를 재현하지 않습니다. 청록색 전도 경로의 세부 좌표는 계산 좌표와 별개입니다.
 - 심방 사이의 개별 전도 경로·명칭은 도해에서 생략하고, 계산에서는 Atrial myocardium 사이의 분산된 결합으로 축약합니다. SA node는 SVC–RA 접합부, AV node는 RA 하부 Septal 영역에 표시합니다. His·Bundle branches는 Septum을 따르고 Purkinje 말단은 Endocardial 경계에서 분지합니다. 실제 환자의 전체 Network나 세부 Fascicle을 재구성한 것은 아닙니다.
@@ -20,7 +20,7 @@
 - 기본 조건의 총 1,873개 계산 구역 중 1,848개는 Myocardial 구역, 25개는 SA·AV·His·Bundle branches·Purkinje에 대응합니다. WPW는 4개 Accessory 구역을 추가하고, AF는 Atria를 더 넓은 Sheet로 교체합니다. 각 구역은 많은 세포를 대표합니다. 외부 자극은 짧은 Conductance로 Vm을 1 쪽으로 유도하며 SA node 자동능의 이온 통로는 재현하지 않습니다. RV 자극은 작은 Endocardial 구역에 적용합니다.
 - Epicardial 쪽은 Endocardial 쪽보다 Action potential duration이 짧고, Ventricular 부위별 회복에도 차이를 둡니다. Transmural gradient는 Posterior 구역에서 더 작게 설정해 모든 부위가 같은 방향·시각으로 회복되지 않게 합니다. 이 차이가 Depolarization과 다른 Repolarization의 전위 기울기를 만들며 T wave에 기여합니다. 파형의 높이·부호·폭을 유도마다 별도 함수로 정하지 않습니다.
 - 적분 간격은 기본 모델 0.1 ms, Ionic myocardium 0.05 ms이고 저장 간격은 2 ms입니다. Ionic gate는 Rush–Larsen, 막전위는 현재 Conductance를 고정한 Exponential step으로 계산합니다. 두 자극 주기만큼 선행 계산 후 일반 조건은 2.4초, PVC·AV block·AF는 8초를 기록합니다. AF의 초기 유도 자극은 선행 계산에만 적용합니다. 재생할 때 현재 시각까지의 파형만 순차적으로 그리며, 전극만 옮기면 동일 Vm에서 측정 전위만 다시 구합니다.
-- ‘Ischemia / MI’에서는 9개 Ventricular 구역 중 허혈 위치만 복수 선택합니다. 새 손상의 기본 계산 조건은 Acute ischemia·침범 깊이 100%·허혈 스트레스 70%이며, 적용 중인 손상의 위치를 바꾸면 나머지 조직 매개변수는 유지합니다. 깊이·스트레스·Scar의 계산 기능은 모델 내부에 남아 있으나 위치 선택 화면에는 해당 조절기를 표시하지 않습니다. 매개변수는 정규화 실험값이며 실제 mV·K⁺ 농도·괴사율·발병 시간에 대응하지 않습니다.
+- ‘Ischemia / MI’에서는 9개 Ventricular 구역 중 허혈 위치만 복수 선택합니다. 새 손상의 기본 계산 조건은 Acute ischemia·침범 깊이 100%·고정 대사 도전 70%이며, 적용 중인 손상의 위치를 바꾸면 나머지 조직 매개변수는 유지합니다. 깊이·스트레스·Scar의 계산 기능은 모델 내부에 남아 있으나 위치 선택 화면에는 해당 조절기를 표시하지 않습니다. 대사 도전은 국소 K⁺·ATP·pH에 대응시키는 명시적 모델 가정이며 실제 허혈 중증도·괴사율·발병 시간 척도가 아닙니다. 대응표와 한계는 부위별 Ischemia 절에 적었습니다.
 - ST shift는 파형 일부를 위로 이동시키는 기능으로 구현하지 않습니다. 조직의 휴지기·Plateau 전위 차이에서 전류가 만들어져야 하며, 원 전위의 DC 성분과 TP 기준선을 보존한 채 ST−TP 차이를 평가해야 합니다. Acute ischemia와 비흥분성 Scar는 다른 상태입니다. 현재의 축약 막전위·무한 균질 도체 모델만으로 임상 ST elevation의 부위·크기를 검증했다고 볼 수 없습니다.
 ### 증상·검사 소견
 - 실제 ECG는 하나의 세포 Action potential이 아니라 여러 위치의 전기활동을 멀리서 합성한 신호입니다. 전체 심근이 비슷한 막전위를 유지하는 때에는 많은 구역이 depolarized 상태여도 전위 기울기는 작아질 수 있습니다.
@@ -92,8 +92,8 @@
 - Acute ischemia에서는 허혈 조직과 주변 조직의 Resting potential·Plateau가 달라져 휴지기와 수축기의 Injury current가 달라질 수 있습니다. 따라서 ST elevation은 ST의 절대 높이만이 아니라 TP와의 차이로 읽어야 합니다.
 - Subendocardial 손상과 Transmural 손상은 서로 다른 전위 분포를 만들며, Epicardial 조직의 상대적인 취약성도 영향을 줄 수 있습니다. Okada 등의 모델 연구를 참고했지만 해당 논문의 ORd ionic model·환자 geometry·Bidomain 계산을 재현한 것은 아닙니다.
 
-- 이 앱은 기존 Mitchell–Schaeffer 계열의 축약 식에 조직 특성 변화를 적용합니다. 먼저 조직의 Vm을 다시 적분하고, 동일한 전극 전위 계산식으로 12유도를 생성합니다. 유도별 ST offset, P·QRS·T 템플릿, 특정 유도의 목표 진폭은 입력하지 않습니다.
-- Resting potential을 높이면서 Action potential 전체를 같은 양만큼 올리지 않습니다. Álvarez 등의 수정 식처럼 Inward current의 Driving force는 1−v, Resting potential으로부터의 전압은 v−vrest로 분리합니다. 따라서 휴지기와 Plateau의 변화는 같은 상수 이동이 아니라 막전류의 결과입니다.
+- 허혈 실험에서는 Human ventricular TP06 model에 국소 대사 조건을 적용합니다. 막전류와 조직 간 전류를 적분해 Vm을 구한 뒤 같은 전극 계산식으로 12유도를 생성합니다. Resting potential·Plateau·APD·ST 높이를 직접 지정하지 않으며, 유도별 ST offset이나 P·QRS·T 템플릿도 사용하지 않습니다.
+- Okada 연구의 KATP·ATP-dependent ICaL·pH-dependent Na availability를 TP06에 옮긴 축약 확장입니다. 원 논문의 ORd/Bidomain 모델을 복제한 것은 아니며, 동물 실험에서 유래한 Endo/Epi 차이를 포함합니다. 임상적으로 검증된 Digital twin이 아닙니다.
 
 ### 증상·검사 소견
 
@@ -102,42 +102,40 @@
 
 ### 실제로 바꾸는 조직 특성
 
-- 깊이 좌표 z는 Endocardium 0 → Epicardium 1입니다. s는 허혈 스트레스 0–1과 Border zone 가중치의 곱, q는 층별 감수성 0.4 + 0.6z입니다. 아래 계수는 방향성 관찰을 위한 교육용 선택값이며 임상 데이터에 보정한 상수가 아닙니다.
-
-- Resting potential: +0.12s. 실제 적분 전압의 휴지기 차이를 만듭니다.
-- Inward current 가용성: ×(1−0.65sq). 흥분성·Upstroke·Plateau가 변합니다.
-- Outward current: ×(1+0.6sq). Plateau 저하·Repolarization 촉진을 축약합니다. ATP-sensitive current의 정밀한 이온식은 아닙니다.
-- Recovery gate 시상수를 허혈 스트레스로 다시 줄이지 않습니다. Inward/Outward current의 변화만으로 APD가 짧아지므로 중복 단축을 제거했습니다. 정상 조직의 식과 기존 부위·층별 회복 특성은 유지합니다.
-- 조직 간 Coupling: ×(1−0.3s). 확산·전도를 바꾸며 양 끝 조직 값의 조화평균을 적용합니다.
-- 기본 Amplitude=1일 때 Inward current는 e·h·(v−vrest)²·(1−v)/τin, Outward current는 −(v−vrest)/τout입니다. h는 실제 정규화 전압 v의 0.13 기준으로 회복·불활성화됩니다. 스트레스 계수는 교육용 범위이며 특정 유도의 ST 크기를 보장하는 보정값이 아닙니다.
-
-- Partial-wall 손상의 깊이 경계는 벽 두께 12% 범위에서 부드럽게 연결합니다. 심방·전도계와 구역 사이의 연결 cable은 직접 손상시키지 않습니다. 기존 구역들은 정밀한 Coronary territory나 AHA 17-segment 모델이 아닙니다. LV inferior는 독립 구역으로 구현하지 않았고 LV apical·basal을 임의로 Inferior infarction이라고 바꾸어 표시하지 않습니다.
+- 깊이는 Endocardium 0 → Epicardium 1입니다. 내부 스트레스 s=0/0.7/1의 대사 조건은 각각 K⁺ 5.4/9/12 mM, ATP 10/1/0.1 mM, pH 7.4/6/6입니다. 중간값은 K⁺·pH를 선형, ATP를 로그 척도로 연결합니다. 문헌의 실험 범위에서 정한 대표 조건이지 발병 시간·혈중 K⁺·괴사율의 환산식이 아닙니다. 위치만 고르는 기본 UI는 s=0.7, 벽 전체 조건을 사용합니다.
+- Local K⁺: 해당 세포의 EK·EKs와 K-sensitive conductance·Na/K pump의 K 의존 항에 들어갑니다. Resting Vm과 Voltage-dependent Na availability는 적분 결과로 달라집니다.
+- ATP depletion: IKATP = 0.05 / (1 + ATP/Kd) × (Ko/5.4)^0.024 × (Vm−EK)를 추가합니다. Kd는 Endo/M/Epi에서 0.02/0.06/0.1 mM입니다. M의 중간값은 보간 가정입니다. ICaL은 1 / (1 + (1.4/ATP)^2.6)에 따라 감소하며, 무손상 ATP 10 mM을 기준으로 정규화합니다.
+- Acidosis: pH 7.4/6.0에서 보고된 NaV1.5 h·j steady-state availability 사이를 보간하고 Na conductance를 최대 0.62배로 줄입니다. Gate time constant는 TP06을 유지하는 하이브리드 근사입니다. Endo/M/Epi Na availability의 전압 이동은 0/4.05/8.1 mV이며 이 차이는 무손상 비교에도 동일하게 적용합니다.
+- Coupling: 양 끝의 ×(1−0.3s) 계수를 조화평균으로 결합합니다. Gap junction 저하를 나타내는 현상론적 가정이며 ATP·pH에서 Connexin kinetics를 직접 계산한 것은 아닙니다.
+- 대사 조건은 공간적으로 고정된 실험 입력입니다. ATP 생산·소모, K⁺ 축적·washout, 산소·관류, ATP/pH-dependent Na/K ATPase kinetics 자체는 풀지 않습니다. ATP가 직접 바꾸는 항은 KATP와 ICaL입니다. 시간에 따른 허혈 진행·재관류를 재현한다고 해석하면 안 됩니다.
+- Partial-wall 경계는 벽 두께 12% 범위에서 부드럽게 연결합니다. 구역 사이의 Myocardial cable은 벽 두께의 여러 층을 연결하며, 양쪽 부위의 대사 조건을 보간해 정상 우회로가 남지 않도록 합니다. 용량은 Cable 길이에 비례하고 Conductance는 길이에 반비례합니다. 흥분 전파와 전극 전위가 같은 연결을 사용합니다.
+- 심방·His–Purkinje는 직접 허혈시키지 않습니다. 이는 Okada의 급성 허혈 실험처럼 Purkinje가 보존된 조건이며, 허혈성 AV block·Bundle branch injury까지 구현한 것은 아닙니다. 구역은 Coronary territory·AHA segment와 일대일 대응하지 않으며 LV inferior는 별도 구현하지 않았습니다.
 
 - Scar에서는 선택 구역의 흥분성과 연결 Conductance를 0으로 둡니다. 이 구역에 RV stimulus를 직접 주지도 않습니다. 이는 비흥분성·절연 조직의 단순화이며 Fibrosis 미세구조, 생존 섬유, 만성 Aneurysm이나 재진입 회로를 재현하지 않습니다. Acute ischemia와 Scar 사이의 진행 시간도 계산하지 않습니다.
 
 ### 관찰과 해석
 
 - ‘Ischemia / MI’에서 허혈 위치를 체크하고 ‘허혈 적용’을 누릅니다. 선택 중에는 같은 번호의 심근 구역을 자주색으로 강조하며 ‘적용 전’과 ‘적용됨’을 구분합니다. 체크만으로는 계산이 바뀌지 않습니다. 위치 지도는 앞·뒤 구역을 펼친 개념도이며 실제 단면이나 Coronary territory를 재현하지 않습니다.
-- 기본 회색 점선은 손상만 제거한 별도 계산입니다. 같은 자극 빈도·전도 조건·회복 설정·전극을 사용합니다. 전극을 옮기면 두 기록의 전위도 같은 위치에서 다시 측정합니다.
+- 기본 회색 점선은 동일한 TP06 확장·Mesh·전극에서 국소 대사 손상만 제거한 별도 계산입니다. 일반 ‘기준 전도’의 Mitchell–Schaeffer 파형과 섞어 비교하지 않습니다. 전극을 옮기면 두 기록의 전위를 같은 위치에서 다시 측정합니다.
 - 적용 후 ‘ECG로 돌아가기’에서 파형을 보고, ‘구간 이동’ 목록의 TP와 ST로 휴지기·Plateau의 전류 방향을 비교합니다. ECG의 실선은 현재 조직, 회색 점선은 무손상 조건이며, 위치 선택 패널에는 전위 수치표나 Vm 그래프를 표시하지 않습니다.
 - 위치 비교에는 같은 기본 조직 조건을 사용합니다. 모든 부위에서 같은 크기·부호의 ST 변화가 나올 것이라고 가정하지 않습니다. 조직 스트레스가 높으면 흥분 실패·전도 지연·ST–T 중첩이 생길 수 있습니다.
-- ‘허혈 해제’는 선택과 적용된 손상 매개변수를 제거하며 전도 조건과 전극 위치는 유지합니다. 모델 내부 검사에서는 깊이 0 또는 Acute 스트레스 0도 동일한 무손상 Vm을 회복해야 합니다.
+- ‘허혈 해제’는 같은 Ionic 모델과 전극에서 무손상 상태로 돌아갑니다. ‘심장 모델 초기화’ 또는 다른 전도 조건 선택은 해당 조건의 기본 모델로 전환합니다. 모델 내부 검사에서는 깊이 0 또는 Acute 스트레스 0도 동일한 Ionic 무손상 Vm을 회복해야 합니다.
 
 ### ST 측정과 한계
 
 - 기본 표시는 원 전위이며 DC 성분을 보존합니다. TP는 첫 박동의 20–80 ms 평균입니다. ST는 조직 Upstroke 종료 이후 35–65 ms 평균으로, 임상 ECG의 J-point 자동 검출과 같지 않습니다. Upstroke 종료는 마지막 50% 활성 시각과 각 심근 활성 후 30 ms 안의 dU/dt > 0.015/ms 구간 끝 중 늦은 값입니다.
-- 회복 시작은 살아 있는 심근의 첫 50% 재분극 또는 심근 질량의 2% 이상에서 dU/dt < −0.005/ms가 확인되는 시점 중 이른 값입니다. 질량은 모델의 Capacitance로 가중합니다. 이 수치는 교육용 조직 단계 구분이며 실제 ECG의 T onset 진단 기준이 아닙니다. 화면의 QRS 종료선·ST 측정창·T 배경은 이 계산 결과에 맞춥니다.
+- 일반 조건의 회복 시작은 첫 50% 재분극 또는 심근 질량의 2% 이상에서 dU/dt < −0.005/ms가 확인되는 시점입니다. 국소 Ionic 허혈에서는 Remote myocardium의 회복으로 전체 T 구간을 추정합니다. 허혈 조직의 이른 AP dome 소실·비흥분은 Injury current를 만드는 기전이므로 그 자체를 전체 T onset이라고 보지 않습니다. 반면 늦은 Upstroke는 손상 조직도 포함해 검사하며, 작은 구역 간 Cable의 활성 시각을 전체 QRS 종료로 간주하지 않습니다.
 - ST−TP는 두 원 전위 평균의 차이입니다. ECG는 원 전위 그대로 표시하며 TP나 ST 구간을 따로 이동하거나 원 데이터에 덮어쓰지 않습니다. 12유도에 표시되는 ST 값은 이 차이의 계산값입니다.
-- 살아 있는 심근 질량의 98% 미만에서 흥분이 확인되거나, 활성 분산이 140 ms를 넘거나, 회복이 측정창과 겹치거나, TP가 불안정하면 ST 수치를 보류합니다. 손상 조직의 이른 회복도 포함합니다. Injury current가 있다는 사실과 QRS·ST·T를 독립적으로 측정할 수 있다는 사실은 다릅니다. 보류 시에도 원 파형은 숨기거나 교정하지 않습니다.
-- 9개 구역의 서로 다른 전류 방향을 비교하되 모든 선택에서 ST elevation이 크게 나오는 것은 아닙니다. 구역 사이 연결은 Endocardial cable로 축약되어 있고 외벽 전체의 연속적인 경계면은 재구성하지 않았습니다. 따라서 Posterior·작은 RV 병변 등에서 변화가 작을 수 있으며 임상적인 Territory별 감도나 Reciprocal change를 검증했다고 해석하지 않습니다.
+- 일반 조건은 살아 있는 심근, 국소 Ionic 허혈은 Remote myocardium의 98% 이상에서 흥분이 확인돼야 합니다. 늦은 Upstroke 때문에 활성 분산이 140 ms를 넘거나 Remote recovery가 측정창과 겹치거나 TP가 불안정하면 수치를 보류합니다. 무손상 기준 조직이 없을 때도 보류합니다. 이 내부 시간창은 임상 J-point/T onset 판독기가 아니며, 보류해도 원 파형은 숨기거나 수정하지 않습니다.
+- 벽 전체의 구역 간 경계 전류를 포함하지만 여전히 희소 Graph입니다. 해부학적으로 닫힌 연속 3-D ventricle 또는 환자별 Fiber geometry를 풀지 않습니다. 모든 부위에서 같은 크기·부호의 ST 변화가 나오는 것이 아니며 임상적인 Territory별 감도나 Reciprocal change를 검증했다고 해석하지 않습니다.
 - 단위는 a.u.입니다. 1 mm·0.1 mV 등의 임상 ST 기준을 적용할 수 없습니다. 무한 균질 도체에서 전위를 복원하므로 실제 흉곽·폐·혈액의 전도도와 경계 효과를 풀지 않습니다. openCARP의 전위 복원 설명처럼 이 방식은 완전한 Bidomain/Torso 모델과 구분해야 합니다.
-- Hyperkalemia·QT는 아래 별도 Ionic 실험으로 제공합니다. 허혈 스트레스 매개변수를 혈중 K⁺로 해석하지 않습니다. 두 모델의 손상 매개변수를 같은 물리량으로 볼 수 없으므로 Ionic 조건에서는 Ischemia / MI 동시 적용을 지원하지 않습니다.
+- Hyperkalemia·QT·Rhythm 실험은 별도로 유지합니다. Ischemia는 ‘기준 전도’에서 적용하며 다른 병태와의 복합 조건은 UI에서 제공하지 않습니다. 두 Ionic 실험의 채널 확장·경계 연결이 다르므로 동일한 모델로 혼동하지 않습니다.
 
 ### 계산 검증
 
-- 9개 구역·Partial-wall·Scar·복수 구역을 비교하고, 저장된 Vm에서 전극 전위를 독립적으로 재계산합니다. 손상 라벨만 바꾸어도 파형은 그대로여야 하고, Vm을 모두 0으로 만들면 ECG도 0이어야 합니다.
-- 모든 Vm에 같은 상수를 더해도 전위차는 변하지 않아야 합니다. Einthoven·Augmented lead 항등식, 무손상 복원, 더 촘촘한 격자에서의 ST 차이도 검사합니다. 이는 내부 계산의 일관성 검증이며 환자·실험 측정값에 대한 임상 검증을 대신하지 않습니다.
-- 정상 전도·BBB·RV 자극의 전파를 함께 검사합니다. 허혈 조건에서는 Upstroke 종료부터 회복까지의 간격, ST 창의 회복 중첩, 같은 구간의 변화율을 확인합니다. ST 진폭이 커졌더라도 조기 재분극과 섞이면 개선으로 판정하지 않습니다.
+- Anterior·Lateral 및 Partial-wall 대표 조건을 비교하고 저장된 Vm에서 전극 전위를 독립적으로 재계산합니다. 손상 라벨만 바꾸어도 파형은 그대로여야 하고, Vm을 모두 0으로 만들면 ECG도 0이어야 합니다. Scar 연결 차단과 깊이·스트레스 0의 무손상 계수 복원도 검사합니다. 모든 부위·조합의 임상 파형을 검증한 것은 아닙니다.
+- 모든 Vm에 같은 상수를 더해도 전위차는 변하지 않아야 합니다. Einthoven·Augmented lead 항등식과 적분 간격 0.05 → 0.025 ms에서의 원 파형 차이도 검사합니다. 이는 내부 계산의 일관성 검증이며 환자·실험 측정값에 대한 임상 검증을 대신하지 않습니다. 공간 격자의 완전한 수렴 검증은 별도 과제입니다.
+- 단일 세포에서 K⁺·ATP·pH를 각각 바꾸는 Ablation으로 Resting Vm·Upstroke·Plateau·APD의 원인을 확인합니다. 심장에서는 같은 배율의 12유도와 조직 전압, 늦은 활성·Remote recovery 중첩, 시간 간격을 줄였을 때의 수치 수렴을 비교합니다. ST 양수 여부만으로 임상 파형 재현을 판정하지 않습니다.
 
 ### 관련 자료
 

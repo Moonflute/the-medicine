@@ -15,7 +15,7 @@ export function EcgIschemiaPanel({inputs,onInputs,regions,onRegions}:Props) {
     </label>)}</div></fieldset>)}
     <div className="ecg-injury-selection-status" role="status">{regions.length?regions.length+"개 부위 선택 · "+(pending?"적용 전":"적용됨"):"허혈 위치를 선택하세요."}</div>
     <div className="ecg-injury-actions">
-      <button type="button" className="simulation-primary" disabled={!regions.length||!pending} onClick={()=>onInputs({...inputs,ischemia:{...(inputs.ischemia??DEFAULT_ISCHEMIA),regions:[...regions]}})}>허혈 적용</button>
+      <button type="button" className="simulation-primary" disabled={!regions.length||!pending} onClick={()=>onInputs({...inputs,membrane:"human-ischemia",ischemia:{...(inputs.ischemia??DEFAULT_ISCHEMIA),regions:[...regions]}})}>허혈 적용</button>
       <button type="button" className="simulation-button" disabled={!inputs.ischemia&&!regions.length} onClick={()=>{if(inputs.ischemia)onInputs({...inputs,ischemia:undefined});else onRegions([]);}}>허혈 해제</button>
     </div>
   </div>;

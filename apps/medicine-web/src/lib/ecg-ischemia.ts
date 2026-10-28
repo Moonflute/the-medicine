@@ -6,27 +6,44 @@ const windows=new WeakMap<ForwardRecording,StWindow>();
 /** Tissue-derived boundaries, not a diagnostic J-point detector. The last
  * upstroke (dU/dt > .015/ms) extends the 50% activation marker. Recovery starts
  * at the earlier of a cell's AP50 crossing or rapid repolarization in >=2% of
- * viable myocardial mass (dU/dt < -.005/ms). Injured tissue is NOT excluded.
+ * viable myocardial mass (dU/dt < -.005/ms). In regional ionic injury, early
+ * loss of the injured AP dome is part of the injury-current mechanism, not
+ * necessarily global T onset: use remote myocardium for recovery/capture.
+ * All myocardium remains included in the depolarization-end check.
  * Thresholds are declared educational phase markers; ECG samples stay intact. */
 export function stWindow(recording:ForwardRecording):StWindow {
   const cached=windows.get(recording);if(cached)return cached;
   const {ventricularStart,ventricularEnd,atrialStart}=recording.activation;
   const {cells}=recording.mesh,n=cells.length,dt=recording.sampleMs;
   const viable=cells.flatMap((cell,i)=>(cell.chamber==="LV"||cell.chamber==="RV")&&!cell.bridge&&!cell.scar?[i]:[]);
-  let depolarizationEnd=ventricularEnd??0,earliestRecovery=Infinity,mass=0,activeMass=0;
+  const regional=recording.inputs.membrane==="human-ischemia"&&Boolean(recording.inputs.ischemia);
+  const recoveryTissue=regional?viable.filter(i=>(cells[i].injury??0)===0):viable;
+  const recoverySet=new Set(recoveryTissue);
+  // Thin inter-patch cables are numerical border volumes, not whole-wall QRS
+  // markers. Their current is still present in every ECG sample.
+  let depolarizationEnd=regional?Math.max(0,...viable.map(i=>recording.activationMs[i])):ventricularEnd??0,earliestRecovery=Infinity,mass=0,activeMass=0;
   for(const i of viable) {
-    const activation=recording.activationMs[i];mass+=cells[i].capacity;
+    const activation=recording.activationMs[i];if(recoverySet.has(i))mass+=cells[i].capacity;
     if(activation<0)continue;
-    activeMass+=cells[i].capacity;
-    if(recording.recoveryMs[i]>=0)earliestRecovery=Math.min(earliestRecovery,recording.recoveryMs[i]);
+    if(recoverySet.has(i)) {
+      activeMass+=cells[i].capacity;
+      if(recording.recoveryMs[i]>=0)earliestRecovery=Math.min(earliestRecovery,recording.recoveryMs[i]);
+    }
     for(let frame=Math.max(1,Math.ceil(activation/dt));frame<=Math.min(recording.samples-1,Math.floor((activation+30)/dt));frame++) {
       const du=(recording.voltage[frame*n+i]-recording.voltage[(frame-1)*n+i])/(dt*(cells[i].amplitude??1));
       if(du>.015)depolarizationEnd=Math.max(depolarizationEnd,frame*dt);
     }
   }
+  if(regional) {
+    // Also catch low-amplitude injured upstrokes that never cross the fixed
+    // 50% marker. Never turn late activation into an apparent ST measurement.
+    for(let frame=Math.max(1,Math.floor((ventricularStart??0)/dt));frame*dt<Math.min(earliestRecovery,60000/recording.inputs.rate)&&frame<recording.samples;frame++) {
+      if(viable.some(i=>(recording.voltage[frame*n+i]-recording.voltage[(frame-1)*n+i])/dt>.015))depolarizationEnd=Math.max(depolarizationEnd,frame*dt);
+    }
+  }
   for(let frame=Math.max(1,Math.floor((ventricularStart??0)/dt));frame*dt<Math.min(earliestRecovery,60000/recording.inputs.rate)&&frame<recording.samples;frame++) {
     let recoveringMass=0;
-    for(const i of viable) {
+    for(const i of recoveryTissue) {
       if(recording.activationMs[i]<0||frame*dt<recording.activationMs[i]+20)continue;
       const du=(recording.voltage[frame*n+i]-recording.voltage[(frame-1)*n+i])/(dt*(cells[i].amplitude??1));
       if(du<-.005)recoveringMass+=cells[i].capacity;
@@ -37,7 +54,7 @@ export function stWindow(recording:ForwardRecording):StWindow {
   const warning=ventricularStart===null||ventricularEnd===null?"Ventricular activation을 확인할 수 없습니다."
     :mass===0||activeMass/mass<.98?"일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다."
     :depolarizationEnd-ventricularStart>140?"활성 분산이 커서 QRS와 ST를 분리해 해석하기 어렵습니다."
-    :end>=earliestRecovery?"손상 조직을 포함한 심근 회복이 측정창과 겹쳐 ST와 T를 분리하기 어렵습니다."
+    :end>=earliestRecovery?"심근 회복이 측정창과 겹쳐 ST와 T를 분리하기 어렵습니다."
     :end>=60000/recording.inputs.rate||atrialStart===null||atrialStart<=80?"이 조건에서 TP/ST 측정창이 분리되지 않습니다.":null;
   const recoveryStart=Number.isFinite(earliestRecovery)?earliestRecovery:null;
   const window={tpStart:20,tpEnd:80,start,end,depolarizationEnd,recoveryStart,plateauGap:recoveryStart===null?null:recoveryStart-depolarizationEnd,valid:warning===null,warning};

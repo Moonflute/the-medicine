@@ -1,0 +1,1250 @@
+{
+  "before": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "ischemia": {
+        "regions": [
+          "lv-anterior"
+        ],
+        "mode": "acute",
+        "depth": 100,
+        "severity": 70
+      }
+    },
+    "activation": {
+      "atrialStart": 122.5,
+      "ventricularStart": 284.3999938964844,
+      "ventricularEnd": 363.8999938964844,
+      "ventricularCoverage": 1
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 403,
+      "end": 433,
+      "depolarizationEnd": 368,
+      "recoveryStart": 457.29998779296875,
+      "plateauGap": 89.29998779296875,
+      "valid": true,
+      "warning": null
+    },
+    "leads": {
+      "I": {
+        "tp": -0.0007241620501923946,
+        "st": 0.005539069309209784,
+        "shift": 0.006263231359402179,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.31903299231142285,
+        "stToR": 0.019631923689222553
+      },
+      "II": {
+        "tp": -0.00009123577511936967,
+        "st": 0.002787941046214352,
+        "shift": 0.0028791768213337217,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.6311610747758213,
+        "stToR": 0.004561714808468442
+      },
+      "III": {
+        "tp": 0.0006329262734300667,
+        "st": -0.0027511283444861573,
+        "shift": -0.003384054617916224,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.33152128810874154,
+        "stToR": -0.010207654046053984
+      },
+      "aVR": {
+        "tp": 0.0004076989115996947,
+        "st": -0.004163505230098963,
+        "shift": -0.004571204141698658,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.09571207745654148,
+        "stToR": -0.04775995112815553
+      },
+      "aVL": {
+        "tp": -0.0006785441599335641,
+        "st": 0.004145098850131035,
+        "shift": 0.004823643010064599,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.04978442680458688,
+        "stToR": 0.09689060052852057
+      },
+      "aVF": {
+        "tp": 0.0002708452520892024,
+        "st": 0.000018406333401799203,
+        "shift": -0.0002524389186874032,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.48049035493750125,
+        "stToR": -0.0005253777023687367
+      },
+      "V1": {
+        "tp": -0.0013225487463416593,
+        "st": 0.010728407030304274,
+        "shift": 0.012050955776645934,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.3577825239889564,
+        "stToR": 0.033682348825449925
+      },
+      "V2": {
+        "tp": -0.0032677125681432025,
+        "st": 0.028242504100004832,
+        "shift": 0.03151021666814804,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.4421121251333745,
+        "stToR": 0.07127200290795502
+      },
+      "V3": {
+        "tp": -0.004900714908275873,
+        "st": 0.04450472046931585,
+        "shift": 0.04940543537759172,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.3768675537449458,
+        "stToR": 0.131094956004167
+      },
+      "V4": {
+        "tp": -0.004561407746927392,
+        "st": 0.043151182929674785,
+        "shift": 0.047712590676602176,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5317987634560033,
+        "stToR": 0.0897192584024305
+      },
+      "V5": {
+        "tp": -0.002378851640969515,
+        "st": 0.021326946591337523,
+        "shift": 0.02370579823230704,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.0824699704535306,
+        "stToR": 0.02189972828749683
+      },
+      "V6": {
+        "tp": -0.0007810969161049973,
+        "st": 0.0060506401428331935,
+        "shift": 0.006831737058938191,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.0825488943861978,
+        "stToR": 0.006310788449709485
+      }
+    }
+  },
+  "reference-v2": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "membrane": "human-ischemia"
+    },
+    "activation": {
+      "atrialStart": 123.75,
+      "ventricularStart": 237,
+      "ventricularEnd": 308.25,
+      "ventricularCoverage": 1
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 343.25,
+      "end": 373.25,
+      "depolarizationEnd": 308.25,
+      "recoveryStart": 484,
+      "plateauGap": 175.75,
+      "valid": true,
+      "warning": null
+    },
+    "leads": {
+      "I": {
+        "tp": 0.000027083743207772534,
+        "st": -0.020654715845982233,
+        "shift": -0.020681799589190007,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7647602325791188,
+        "stToR": -0.02704350815868339
+      },
+      "II": {
+        "tp": 0.000165732626731868,
+        "st": -0.014600978295008341,
+        "shift": -0.014766710921740209,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.3044596593334121,
+        "stToR": -0.011320174461574458
+      },
+      "III": {
+        "tp": 0.00013864888422822038,
+        "st": 0.006053737488885721,
+        "shift": 0.005915088604657501,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5396994267535892,
+        "stToR": 0.010959968292421692
+      },
+      "aVR": {
+        "tp": -0.00009640818508717442,
+        "st": 0.0176278468221426,
+        "shift": 0.017724255007229774,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.030901990365706414,
+        "stToR": 0.573563540648156
+      },
+      "aVL": {
+        "tp": -0.00005578257015816146,
+        "st": -0.013354226760566235,
+        "shift": -0.013298444190408074,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.13223018504551523,
+        "stToR": -0.10057041201167939
+      },
+      "aVF": {
+        "tp": 0.00015219075618416912,
+        "st": -0.004273620418583353,
+        "shift": -0.0044258111747675225,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.9220795430427965,
+        "stToR": -0.004799814948895474
+      },
+      "V1": {
+        "tp": -0.00015522410150527234,
+        "st": 0.01173457441230615,
+        "shift": 0.011889798513811422,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.3691131012606239,
+        "stToR": 0.0322118030305737
+      },
+      "V2": {
+        "tp": -0.00016797363482070186,
+        "st": -0.0033200986431135486,
+        "shift": -0.003152125008292847,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5622027593823488,
+        "stToR": -0.005606740549896726
+      },
+      "V3": {
+        "tp": -0.000020581716853484977,
+        "st": -0.013939759942392509,
+        "shift": -0.013919178225539024,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.8647403898185075,
+        "stToR": -0.01609636648111278
+      },
+      "V4": {
+        "tp": 0.00008868351282979992,
+        "st": -0.011819389276206493,
+        "shift": -0.011908072789036293,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.5438248001068602,
+        "stToR": -0.007713357622064396
+      },
+      "V5": {
+        "tp": 0.00020409228830342932,
+        "st": -0.009304293151944875,
+        "shift": -0.009508385440248304,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 2.3271572530028344,
+        "stToR": -0.004085837099310419
+      },
+      "V6": {
+        "tp": 0.0002122484692071955,
+        "st": -0.009322109601149957,
+        "shift": -0.009534358070357152,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 2.191978875493195,
+        "stToR": -0.004349657826064552
+      }
+    }
+  },
+  "anterior-final": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "ischemia": {
+        "regions": [
+          "lv-anterior"
+        ],
+        "mode": "acute",
+        "depth": 100,
+        "severity": 70
+      },
+      "membrane": "human-ischemia"
+    },
+    "numerical": {
+      "durationMs": 2000,
+      "timeStepMs": 0.05
+    },
+    "activation": {
+      "atrialStart": 123.75,
+      "ventricularStart": 236.60000610351562,
+      "ventricularEnd": 390.95001220703125,
+      "ventricularCoverage": 0.9432216905901116
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 319,
+      "end": 349,
+      "depolarizationEnd": 284,
+      "recoveryStart": 482,
+      "plateauGap": 198,
+      "valid": true,
+      "warning": null
+    },
+    "sourceChecks": {
+      "finite": true,
+      "leadIdentities": true,
+      "independentV4": true,
+      "presetIndependent": true,
+      "zeroSource": true,
+      "gaugeInvariant": true,
+      "measurementReadOnly": true
+    },
+    "leads": {
+      "I": {
+        "tp": -0.004589946459858648,
+        "st": 0.020475483685731887,
+        "shift": 0.025065430145590536,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.6861031963339737,
+        "stToR": 0.036533032172888266
+      },
+      "II": {
+        "tp": -0.0016993298758602431,
+        "st": 0.018677995167672636,
+        "shift": 0.02037732504353288,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.12109744694129,
+        "stToR": 0.018176229995999632
+      },
+      "III": {
+        "tp": 0.0028906165502004086,
+        "st": -0.0017974883317947387,
+        "shift": -0.004688104881995147,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.4714024365999766,
+        "stToR": -0.009945016228190154
+      },
+      "aVR": {
+        "tp": 0.0031446381697371123,
+        "st": -0.01957673958192269,
+        "shift": -0.0227213777516598,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.029900355707673777,
+        "stToR": -0.7599032591384347
+      },
+      "aVL": {
+        "tp": -0.003740281535072192,
+        "st": 0.01113648588458697,
+        "shift": 0.01487676741965916,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.13418315417854296,
+        "stToR": 0.11086911401608775
+      },
+      "aVF": {
+        "tp": 0.000595643354069081,
+        "st": 0.008440253511071204,
+        "shift": 0.007844610157002123,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7962499715560567,
+        "stToR": 0.00985194403419813
+      },
+      "V1": {
+        "tp": -0.023642439935957233,
+        "st": 0.16534147063891094,
+        "shift": 0.18898391057486819,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.39096714982823016,
+        "stToR": 0.48337542081962004
+      },
+      "V2": {
+        "tp": -0.04960335154206522,
+        "st": 0.3530263086160024,
+        "shift": 0.40262966015806767,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5432960774389005,
+        "stToR": 0.7410870000314841
+      },
+      "V3": {
+        "tp": -0.07390341763534854,
+        "st": 0.5639916102091471,
+        "shift": 0.6378950278444957,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7058676243309052,
+        "stToR": 0.9037034790328554
+      },
+      "V4": {
+        "tp": -0.06875455355451952,
+        "st": 0.5353956580162048,
+        "shift": 0.6041502115707243,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7397772667388762,
+        "stToR": 0.8166650135573509
+      },
+      "V5": {
+        "tp": -0.028823457417949554,
+        "st": 0.227269705136617,
+        "shift": 0.25609316255456654,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.7471212965826834,
+        "stToR": 0.14658007034513118
+      },
+      "V6": {
+        "tp": -0.0036334382264965005,
+        "st": 0.038552849739789966,
+        "shift": 0.04218628796628646,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.9905243502824657,
+        "stToR": 0.02119355533646198
+      }
+    }
+  },
+  "anterior-fine": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "ischemia": {
+        "regions": [
+          "lv-anterior"
+        ],
+        "mode": "acute",
+        "depth": 100,
+        "severity": 70
+      },
+      "membrane": "human-ischemia"
+    },
+    "numerical": {
+      "durationMs": 1000,
+      "timeStepMs": 0.025
+    },
+    "activation": {
+      "atrialStart": 123.75,
+      "ventricularStart": 236.10000610351562,
+      "ventricularEnd": 390.92498779296875,
+      "ventricularCoverage": 0.9432216905901116
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 319,
+      "end": 349,
+      "depolarizationEnd": 284,
+      "recoveryStart": 482,
+      "plateauGap": 198,
+      "valid": true,
+      "warning": null
+    },
+    "sourceChecks": {
+      "finite": true,
+      "leadIdentities": true,
+      "independentV4": true,
+      "presetIndependent": true,
+      "zeroSource": true,
+      "gaugeInvariant": true,
+      "measurementReadOnly": true
+    },
+    "leads": {
+      "I": {
+        "tp": -0.004589330029463576,
+        "st": 0.020486406485239663,
+        "shift": 0.02507573651470324,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.6795278895616291,
+        "stToR": 0.03690170322645605
+      },
+      "II": {
+        "tp": -0.0016984819141667217,
+        "st": 0.0187927125642697,
+        "shift": 0.020491194478436423,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.1159738181797307,
+        "stToR": 0.018361716148376752
+      },
+      "III": {
+        "tp": 0.0028908481115415214,
+        "st": -0.0016936941693226496,
+        "shift": -0.004584542280864171,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.4417634079938815,
+        "stToR": -0.010377822603468478
+      },
+      "aVR": {
+        "tp": 0.00314390599246948,
+        "st": -0.019639559648931028,
+        "shift": -0.02278346564140051,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.028692860757150957,
+        "stToR": -0.7940464993795474
+      },
+      "aVL": {
+        "tp": -0.0037400890667472157,
+        "st": 0.0110900504514575,
+        "shift": 0.014830139518204716,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.12896461976361612,
+        "stToR": 0.11499386068355345
+      },
+      "aVF": {
+        "tp": 0.0005961830930544004,
+        "st": 0.008549509073297183,
+        "shift": 0.007953325980242782,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7762098734064268,
+        "stToR": 0.01024636023417134
+      },
+      "V1": {
+        "tp": -0.023643120342204647,
+        "st": 0.16532589594523112,
+        "shift": 0.18896901628743576,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.37677995782465706,
+        "stToR": 0.5015368051380713
+      },
+      "V2": {
+        "tp": -0.049603770937650435,
+        "st": 0.35293559630711874,
+        "shift": 0.4025393672447692,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5448539960047891,
+        "stToR": 0.738802266655728
+      },
+      "V3": {
+        "tp": -0.07390306673703655,
+        "st": 0.5637025316556294,
+        "shift": 0.637605598392666,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.6999469824856327,
+        "stToR": 0.910934134080296
+      },
+      "V4": {
+        "tp": -0.06875379191290948,
+        "st": 0.5350787957509359,
+        "shift": 0.6038325876638453,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7355051170433722,
+        "stToR": 0.8209767324137294
+      },
+      "V5": {
+        "tp": -0.02882210633927776,
+        "st": 0.22710613012313843,
+        "shift": 0.2559282364624162,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.771443170525374,
+        "stToR": 0.14447442668257493
+      },
+      "V6": {
+        "tp": -0.003632033251286034,
+        "st": 0.038562809427579246,
+        "shift": 0.04219484267886528,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.9892793539986615,
+        "stToR": 0.021211119792727547
+      }
+    }
+  },
+  "lateral-final": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "ischemia": {
+        "regions": [
+          "lv-lateral"
+        ],
+        "mode": "acute",
+        "depth": 100,
+        "severity": 70
+      },
+      "membrane": "human-ischemia"
+    },
+    "numerical": {
+      "durationMs": 1000
+    },
+    "activation": {
+      "atrialStart": 123.75,
+      "ventricularStart": 236.6999969482422,
+      "ventricularEnd": 374.75,
+      "ventricularCoverage": 0.9511961722488038
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 319,
+      "end": 349,
+      "depolarizationEnd": 284,
+      "recoveryStart": 482,
+      "plateauGap": 198,
+      "valid": true,
+      "warning": null
+    },
+    "sourceChecks": {
+      "finite": true,
+      "leadIdentities": true,
+      "independentV4": true,
+      "presetIndependent": true,
+      "zeroSource": true,
+      "gaugeInvariant": true,
+      "measurementReadOnly": true
+    },
+    "leads": {
+      "I": {
+        "tp": -0.0152136406470691,
+        "st": 0.11804312616586685,
+        "shift": 0.13325676681293594,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.41575917811884033,
+        "stToR": 0.32051431171255085
+      },
+      "II": {
+        "tp": -0.005057633433851504,
+        "st": 0.05661685839295387,
+        "shift": 0.06167449182680537,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.9000217919688551,
+        "stToR": 0.06852555391118752
+      },
+      "III": {
+        "tp": 0.010156007303345588,
+        "st": -0.06142626951138178,
+        "shift": -0.07158227681472737,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.48803388904179296,
+        "stToR": -0.14667480767631158
+      },
+      "aVR": {
+        "tp": 0.01013563702543897,
+        "st": -0.08732999265193939,
+        "shift": -0.09746562967737836,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.03127906342307406,
+        "stToR": -3.116002175611164
+      },
+      "aVL": {
+        "tp": -0.012684824035292672,
+        "st": 0.08973469932874044,
+        "shift": 0.10241952336403311,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.16555856363547425,
+        "stToR": 0.6186301760236319
+      },
+      "aVF": {
+        "tp": 0.0025491869197257102,
+        "st": -0.0024047054971257846,
+        "shift": -0.004953892416851495,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.6940278256191842,
+        "stToR": -0.0071378873209180455
+      },
+      "V1": {
+        "tp": 0.015576113405967913,
+        "st": -0.15040702223777772,
+        "shift": -0.16598313564374562,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.4146797466842878,
+        "stToR": -0.40026824789713006
+      },
+      "V2": {
+        "tp": 0.008781057572172533,
+        "st": -0.10210014780362447,
+        "shift": -0.11088120537579702,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.62152965667267,
+        "stToR": -0.17840050621139203
+      },
+      "V3": {
+        "tp": -0.007631758798754985,
+        "st": 0.043674871573845545,
+        "shift": 0.051306630372600526,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.8671662012235292,
+        "stToR": 0.059165855749692936
+      },
+      "V4": {
+        "tp": -0.01610768592405704,
+        "st": 0.12343096435070038,
+        "shift": 0.13953865027475743,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.279962904811386,
+        "stToR": 0.10901772992813388
+      },
+      "V5": {
+        "tp": -0.032894031174721255,
+        "st": 0.284452885389328,
+        "shift": 0.31734691656404923,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.355462209351601,
+        "stToR": 0.23412450334255744
+      },
+      "V6": {
+        "tp": -0.029226261581624707,
+        "st": 0.26451517939567565,
+        "shift": 0.29374144097730037,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.1245643677370203,
+        "stToR": 0.2612046490219152
+      }
+    }
+  },
+  "partial-moderate-final": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "ischemia": {
+        "regions": [
+          "lv-anterior"
+        ],
+        "mode": "acute",
+        "depth": 50,
+        "severity": 35
+      },
+      "membrane": "human-ischemia"
+    },
+    "numerical": {
+      "durationMs": 1000
+    },
+    "activation": {
+      "atrialStart": 123.75,
+      "ventricularStart": 236.89999389648438,
+      "ventricularEnd": 309.1000061035156,
+      "ventricularCoverage": 1
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 321,
+      "end": 351,
+      "depolarizationEnd": 286,
+      "recoveryStart": 484,
+      "plateauGap": 198,
+      "valid": true,
+      "warning": null
+    },
+    "sourceChecks": {
+      "finite": true,
+      "leadIdentities": true,
+      "independentV4": true,
+      "presetIndependent": true,
+      "zeroSource": true,
+      "gaugeInvariant": true,
+      "measurementReadOnly": true
+    },
+    "leads": {
+      "I": {
+        "tp": 0.007174828014666995,
+        "st": -0.01680665574967861,
+        "shift": -0.023981483764345606,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7406789279362608,
+        "stToR": -0.03237770491347006
+      },
+      "II": {
+        "tp": 0.014117158408607207,
+        "st": -0.015097593516111374,
+        "shift": -0.02921475192471858,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.2421192755742418,
+        "stToR": -0.023520085791448944
+      },
+      "III": {
+        "tp": 0.006942330423982874,
+        "st": 0.0017090623655046026,
+        "shift": -0.005233268058478272,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5115047110875528,
+        "stToR": -0.010231123868539518
+      },
+      "aVR": {
+        "tp": -0.010645993234169098,
+        "st": 0.015952124694983163,
+        "shift": 0.02659811792915226,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.030753823177468394,
+        "stToR": 0.8648719144824638
+      },
+      "aVL": {
+        "tp": 0.00011624877468772954,
+        "st": -0.009257859208931525,
+        "shift": -0.009374107983619255,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.14848137910350137,
+        "stToR": -0.06313322276650515
+      },
+      "aVF": {
+        "tp": 0.010529744408784373,
+        "st": -0.006694265579183897,
+        "shift": -0.017224009987968268,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.8717798115986009,
+        "stToR": -0.019757293939147595
+      },
+      "V1": {
+        "tp": -0.002689790716695209,
+        "st": 0.0054614746011793615,
+        "shift": 0.00815126531787457,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.3740686595349783,
+        "stToR": 0.021790826657351558
+      },
+      "V2": {
+        "tp": 0.01608353697003857,
+        "st": -0.00923521922280391,
+        "shift": -0.02531875619284248,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5535225287800835,
+        "stToR": -0.045741148510509345
+      },
+      "V3": {
+        "tp": 0.05689254403114319,
+        "st": -0.023036475976308188,
+        "shift": -0.07992902000745138,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.748518317937851,
+        "stToR": -0.10678298458700891
+      },
+      "V4": {
+        "tp": 0.06496635511998207,
+        "st": -0.022746656462550162,
+        "shift": -0.08771301158253222,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.032152737821302,
+        "stToR": -0.0849806509913246
+      },
+      "V5": {
+        "tp": 0.03928921335647183,
+        "st": -0.015306036608914534,
+        "shift": -0.05459524996538636,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 2.0952182043223613,
+        "stToR": -0.026057071217097237
+      },
+      "V6": {
+        "tp": 0.018179882678293412,
+        "st": -0.010870130794743697,
+        "shift": -0.02905001347303711,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 2.143332253781057,
+        "stToR": -0.013553667856110464
+      }
+    }
+  },
+  "transmural-moderate-final": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "ischemia": {
+        "regions": [
+          "lv-anterior"
+        ],
+        "mode": "acute",
+        "depth": 100,
+        "severity": 35
+      },
+      "membrane": "human-ischemia"
+    },
+    "numerical": {
+      "durationMs": 1000
+    },
+    "activation": {
+      "atrialStart": 123.75,
+      "ventricularStart": 236.89999389648438,
+      "ventricularEnd": 326.25,
+      "ventricularCoverage": 1
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 337,
+      "end": 367,
+      "depolarizationEnd": 302,
+      "recoveryStart": 484,
+      "plateauGap": 182,
+      "valid": true,
+      "warning": null
+    },
+    "sourceChecks": {
+      "finite": true,
+      "leadIdentities": true,
+      "independentV4": true,
+      "presetIndependent": true,
+      "zeroSource": true,
+      "gaugeInvariant": true,
+      "measurementReadOnly": true
+    },
+    "leads": {
+      "I": {
+        "tp": -0.00278225100989784,
+        "st": -0.019835861523946126,
+        "shift": -0.017053610514048287,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.7371941462850138,
+        "stToR": -0.0231331333814675
+      },
+      "II": {
+        "tp": -0.0011767607723032274,
+        "st": -0.015402156362930934,
+        "shift": -0.014225395590627707,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.2373376351390635,
+        "stToR": -0.011496777586522634
+      },
+      "III": {
+        "tp": 0.0016054902075519485,
+        "st": 0.004433704943706592,
+        "shift": 0.0028282147361546437,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5105192270280132,
+        "stToR": 0.005539878982852597
+      },
+      "aVR": {
+        "tp": 0.0019795058986111997,
+        "st": 0.01761900888135036,
+        "shift": 0.01563950298273916,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.03081735384259974,
+        "stToR": 0.5074901324305208
+      },
+      "aVL": {
+        "tp": -0.0021938705711715646,
+        "st": -0.012134783218304317,
+        "shift": -0.009940912647132753,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.14593707266143494,
+        "stToR": -0.0681178021858439
+      },
+      "aVF": {
+        "tp": 0.00021436472137969348,
+        "st": -0.005484225787222385,
+        "shift": -0.005698590508602079,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.8687405322055002,
+        "stToR": -0.006559600130702869
+      },
+      "V1": {
+        "tp": -0.014023934310722736,
+        "st": 0.011163605128725369,
+        "shift": 0.025187539439448105,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.37397346348171273,
+        "stToR": 0.06735114092040323
+      },
+      "V2": {
+        "tp": -0.029664140795507738,
+        "st": -0.0027971820595363776,
+        "shift": 0.02686695873597136,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 0.5532840310085204,
+        "stToR": 0.04855907134532429
+      },
+      "V3": {
+        "tp": -0.04458543586154138,
+        "st": -0.013753763306885958,
+        "shift": 0.030831672554655423,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.0603413276614682,
+        "stToR": 0.02907712049916341
+      },
+      "V4": {
+        "tp": -0.04156360787249381,
+        "st": -0.012727623619139195,
+        "shift": 0.028835984253354614,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 1.1901712195286829,
+        "stToR": 0.024228433506209207
+      },
+      "V5": {
+        "tp": -0.01746323506437963,
+        "st": -0.010432118829339743,
+        "shift": 0.007031116235039887,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 2.06880166928374,
+        "stToR": 0.003398641996201694
+      },
+      "V6": {
+        "tp": -0.0023178735958232035,
+        "st": -0.01006554625928402,
+        "shift": -0.007747672663460816,
+        "valid": true,
+        "warning": null,
+        "qrsPeak": 2.126408783553709,
+        "stToR": -0.003643548090745142
+      }
+    }
+  },
+  "subendocardial": {
+    "inputs": {
+      "rate": 70,
+      "recovery": 100,
+      "condition": "normal",
+      "ischemia": {
+        "regions": [
+          "lv-anterior"
+        ],
+        "mode": "acute",
+        "depth": 50,
+        "severity": 70
+      },
+      "membrane": "human-ischemia"
+    },
+    "activation": {
+      "atrialStart": 123.75,
+      "ventricularStart": 236.64999389648438,
+      "ventricularEnd": 423.3500061035156,
+      "ventricularCoverage": 0.9696969696969697
+    },
+    "window": {
+      "tpStart": 20,
+      "tpEnd": 80,
+      "start": 458.3500061035156,
+      "end": 488.3500061035156,
+      "depolarizationEnd": 423.3500061035156,
+      "recoveryStart": 384.6499938964844,
+      "plateauGap": -38.70001220703125,
+      "valid": false,
+      "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다."
+    },
+    "leads": {
+      "I": {
+        "tp": 0.012684652942322915,
+        "st": 0.03220387138426304,
+        "shift": 0.019519218441940125,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.6856625579417713,
+        "stToR": 0.028467674391515718
+      },
+      "II": {
+        "tp": 0.024946225326388113,
+        "st": 0.11619855463504791,
+        "shift": 0.0912523293086598,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 1.1223369711228917,
+        "stToR": 0.08130564318607661
+      },
+      "III": {
+        "tp": 0.012261572414107861,
+        "st": 0.08399468461672464,
+        "shift": 0.07173311220261679,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.47367128438406414,
+        "stToR": 0.1514407027985548
+      },
+      "aVR": {
+        "tp": -0.01881543925452617,
+        "st": -0.07420121307174364,
+        "shift": -0.055385773817217474,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.03814052610147384,
+        "stToR": -1.4521502317472552
+      },
+      "aVL": {
+        "tp": 0.00021154026786286023,
+        "st": -0.02589540642996629,
+        "shift": -0.02610694669782915,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.1351035054465155,
+        "stToR": -0.19323663447181477
+      },
+      "aVF": {
+        "tp": 0.018603899005439975,
+        "st": 0.10009662061929703,
+        "shift": 0.08149272161385705,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.7980041127171247,
+        "stToR": 0.10212067872229685
+      },
+      "V1": {
+        "tp": -0.004666568020418767,
+        "st": 0.00421841440256685,
+        "shift": 0.008884982422985617,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.3891917776857172,
+        "stToR": 0.022829316887985434
+      },
+      "V2": {
+        "tp": 0.02869941246125006,
+        "st": 0.06030825140575568,
+        "shift": 0.03160883894450562,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.540486559752495,
+        "stToR": 0.058482192339769284
+      },
+      "V3": {
+        "tp": 0.10130626636166726,
+        "st": 0.21419437328974406,
+        "shift": 0.1128881069280768,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.7245516709743007,
+        "stToR": 0.1558040805789279
+      },
+      "V4": {
+        "tp": 0.11563316083723499,
+        "st": 0.268574595451355,
+        "shift": 0.15294143461412,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 0.7613945891780238,
+        "stToR": 0.20087013591629335
+      },
+      "V5": {
+        "tp": 0.06968307206707616,
+        "st": 0.22314640283584594,
+        "shift": 0.15346333076876978,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 1.74487722208423,
+        "stToR": 0.08795079036303775
+      },
+      "V6": {
+        "tp": 0.03208689343544745,
+        "st": 0.15517512063185374,
+        "shift": 0.12308822719640629,
+        "valid": false,
+        "warning": "일부 살아 있는 심근의 흥분이 확인되지 않아 ST 해석을 보류합니다.",
+        "qrsPeak": 1.987198785428078,
+        "stToR": 0.06194057086739357
+      }
+    }
+  },
+  "timeStepComparison": {
+    "I": {
+      "rangeNormalizedRmse": 0.0060174650104346545,
+      "stDifference": -0.0000103063691127038
+    },
+    "II": {
+      "rangeNormalizedRmse": 0.0061710514598367116,
+      "stDifference": -0.00011386943490354282
+    },
+    "III": {
+      "rangeNormalizedRmse": 0.008541744277372457,
+      "stDifference": -0.00010356260113097635
+    },
+    "aVR": {
+      "rangeNormalizedRmse": 0.005931734666010807,
+      "stDifference": 0.00006208788974070706
+    },
+    "aVL": {
+      "rangeNormalizedRmse": 0.00916922429871445,
+      "stDifference": 0.00004662790145444455
+    },
+    "aVF": {
+      "rangeNormalizedRmse": 0.006707865424033916,
+      "stDifference": -0.00010871582324065848
+    },
+    "V1": {
+      "rangeNormalizedRmse": 0.006607443117516074,
+      "stDifference": 0.00001489428743242649
+    },
+    "V2": {
+      "rangeNormalizedRmse": 0.006835092155833688,
+      "stDifference": 0.00009029291329848421
+    },
+    "V3": {
+      "rangeNormalizedRmse": 0.007993028085288192,
+      "stDifference": 0.000289429451829748
+    },
+    "V4": {
+      "rangeNormalizedRmse": 0.009247650318545225,
+      "stDifference": 0.00031762390687906095
+    },
+    "V5": {
+      "rangeNormalizedRmse": 0.005462838923902287,
+      "stDifference": 0.0001649260921503526
+    },
+    "V6": {
+      "rangeNormalizedRmse": 0.006009406720157614,
+      "stDifference": -0.000008554712578816293
+    }
+  },
+  "repeatV4": 0.6018864110112191
+}
