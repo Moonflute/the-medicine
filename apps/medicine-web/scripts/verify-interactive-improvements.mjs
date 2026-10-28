@@ -145,7 +145,7 @@ const catalogs={};
 for(const [kind,file,prefix] of [["disease","diseases","disease"],["drug","drugs","drugs"],["lab","lab-img","lab-img"]]){
  catalogs[kind]=JSON.parse(fs.readFileSync(path.join(root,"_webapp/data",file+".json"),"utf8")).filter(n=>n.documentRole!=="compatibility").map(n=>({...n,href:`/${prefix}/${n.slug}`}));
 }
-const expected={"acid-base-balance":9,"oxygenation-gas-exchange":5,"nephron-electrolyte-handling":17,"cardiac-hemodynamics":5,"ecg-arrhythmia":15,"endocrine-feedback-axes":30};
+const expected={"acid-base-balance":9,"oxygenation-gas-exchange":5,"nephron-electrolyte-handling":17,"cardiac-hemodynamics":5,"ecg-arrhythmia":18,"endocrine-feedback-axes":30};
 const notes=new Map();let questions=0,links=0;
 for(const [slug,count] of Object.entries(expected)){
  const note=parseInteractiveLearning(fs.readFileSync(path.join(root,"source_notes/05 Physiology/Interactive",slug+".md"),"utf8"),slug);notes.set(slug,note);
@@ -162,6 +162,12 @@ for(const note of notes.values())for(const topic of note.topics)for(const link o
 }
 const ischemiaNote=notes.get("ecg-arrhythmia").topics.find(topic=>topic.id==="regional-ischemia");
 const mechanicsNote=notes.get("ecg-arrhythmia").topics.find(topic=>topic.id==="forward-mechanics");
+for(const id of ["forward-preexcitation","forward-ionic","forward-rhythm"]){
+ const topic=notes.get("ecg-arrhythmia").topics.find(item=>item.id===id);
+ assert.ok(topic,`ECG model extension note: ${id}`);
+ assert.ok(topic.links.some(link=>link.href.startsWith("https://")),`${id}: primary-source link`);
+ assert.ok(topic.sections.every(section=>section.bullets.every(text=>!text.includes("**"))),`${id}: plain-text renderer`);
+}
 assert.ok(mechanicsNote.links.some(link=>link.href==="https://pubmed.ncbi.nlm.nih.gov/28392437/"));
 assert.ok(mechanicsNote.sections.every(section=>section.bullets.every(text=>!text.includes("**")&&!text.includes("`"))),"Mechanics note uses the plain-text renderer's supported format");
 assert.ok(ischemiaNote?.sections.some(section=>section.title==="실제로 바꾸는 조직 특성"));

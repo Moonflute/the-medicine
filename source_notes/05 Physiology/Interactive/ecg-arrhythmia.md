@@ -167,10 +167,14 @@
 
 ## forward-preexcitation | WPW·PVC의 시작점과 전파
 
-### 계산 기전
+### 기전
 
 - WPW에서는 Atrial myocardium과 선택한 Ventricular endocardium 사이에 4개 Excitable 구역으로 된 Accessory pathway를 연결합니다. 위치는 Left lateral·Septal·Right free wall 중 선택하며 그림에 보라색 경로가 나타납니다. AV node를 우회한 활성과 기존 His–Purkinje 활성이 같은 심근에 도달하므로 Pre-excitation과 Fusion이 계산됩니다. PR을 줄이거나 Delta wave를 ECG에 더하지 않습니다.
 - PVC에서는 선택한 심실 구역에 2 ms의 국소 자극 전류를 한 번 줍니다. 위치와 Sinus 자극 뒤의 간격을 바꿀 수 있습니다. 자극 당시의 Vm·회복 상태와 이웃 조직의 부하가 Capture 여부를 결정합니다. Retrograde 전도가 SA node까지 도달하면 실제 SA 활성 시각에 따라 다음 자극 시계가 재설정되며, Compensatory pause를 별도로 지정하지 않습니다.
+
+### 증상·검사 소견
+
+- 기본 WPW 조건에서는 His 활성보다 먼저 시작되는 국소 Ventricular activation과 두 경로의 Fusion을 확인합니다. 기본 PVC 조건에서는 국소 자극 뒤 넓어진 심실 활성 분산과 뒤따르는 긴 간격이 계산됩니다. 증상이나 실제 환자의 부정맥 위험을 예측하는 기능은 아닙니다.
 
 ### 관찰과 해석
 
@@ -185,11 +189,15 @@
 
 ## forward-ionic | Hyperkalemia·QT와 Ionic membrane
 
-### 계산 기전
+### 기전
 
 - Myocardium에 Luo–Rudy phase I의 Fast Na⁺ current, Slow inward current, Time-dependent K⁺ current, Inward rectifier K⁺ current, Plateau K⁺ current와 Background current를 계산합니다. Gate와 Intracellular calcium을 시간에 따라 적분하고, 같은 조직 결합 전류와 합해 Vm을 갱신합니다. 저장된 Vm으로 기존과 같은 전극 전위식을 계산합니다.
 - Hyperkalemia는 Extracellular K⁺를 변경합니다. K⁺ reversal potential과 K⁺ conductance가 달라지고, 높아진 Resting Vm에서 Na⁺ gate의 가용성도 바뀝니다. Resting potential 상승·Repolarization 변화·Capture 및 전도 실패는 이 과정의 결과입니다. ‘T wave를 뾰족하게’ 만드는 별도 파형 함수는 없습니다.
 - QT prolongation/shortening은 Delayed rectifier K⁺ conductance를 줄이거나 늘립니다. 기본값은 기준의 45%와 200%입니다. Action potential의 Plateau·종료 시점이 바뀌고 구역 간 회복 차이가 전극에서 합쳐집니다. ECG 시간축을 늘리거나 T wave를 이동하지 않습니다.
+
+### 증상·검사 소견
+
+- 기본 K⁺ 7 조건은 같은 Ionic 기준보다 Resting Vm이 높고 APD90가 짧습니다. K⁺ conductance를 줄이면 APD90가 길어지고 늘리면 짧아지지만, 세포의 APD90를 ECG의 QT/QTc와 동일시하지 않습니다. 현재 Lead II의 T peak는 K⁺ 7에서 오히려 작아 Tall peaked T를 재현했다고 볼 수 없습니다.
 
 ### 관찰과 해석
 
@@ -209,12 +217,16 @@
 
 ## forward-rhythm | AV block·Escape·AF의 조직 동역학
 
-### 계산 기전
+### 기전
 
 - Mobitz I는 AV nodal recovery를 느리게 합니다. 다음 Atrial impulse가 덜 회복된 조직에 도착하면 전도가 더 늦어지거나 실패하고, 긴 휴지기 뒤에 회복됩니다. 기본 자극 빈도는 90/min입니다. PR 목록이나 ‘몇 번째 박동을 누락할지’를 입력하지 않습니다.
-- Infranodal block은 His에 Post-repolarization refractoriness를 추가합니다. 막전위가 회복되었어도 일정 시간 Inward current 가용성이 회복되지 않는 축약 조건입니다. 기본 설정에서는 2:1 전도와 일정한 Conducted-beat latency가 나타납니다. **2:1 ECG만으로 Mobitz I/II를 구분할 수 없으므로 화면을 ‘Mobitz II 확진 파형’으로 표시하지 않습니다.** 다양한 임상 Mobitz II 패턴을 모두 재현한 기능은 아닙니다.
+- Infranodal block은 His에 Post-repolarization refractoriness를 추가합니다. 막전위가 회복되었어도 일정 시간 Inward current 가용성이 회복되지 않는 축약 조건입니다. 기본 설정에서는 2:1 전도와 일정한 Conducted-beat latency가 나타납니다. 2:1 ECG만으로 Mobitz I/II를 구분할 수 없으므로 화면을 ‘Mobitz II 확진 파형’으로 표시하지 않습니다. 다양한 임상 Mobitz II 패턴을 모두 재현한 기능은 아닙니다.
 - Complete AV block은 AV–His 연결의 Conductance를 0으로 만들고 His 구역에 약한 지속 Inward conductance와 느린 Recovery를 부여합니다. 자체적인 흥분–회복 반복으로 Escape rhythm이 생성됩니다. Sinus와 Escape의 박동 시각을 따로 나열한 방식이 아닙니다.
 - AF 실험은 RA·LA 각각을 48×12의 주기적 Sheet로 바꾸고 불균일한 결합·짧은 불응기·국소 장벽을 둡니다. LA의 PV 경계에 대응하는 4개 작은 구역에는 지속 Inward conductance를 부여합니다. 초기 S1/S2 자극 뒤에는 국소 자동능과 조직 전파가 경쟁하며, 여러 Atrial 입력을 받는 AV node의 회복 상태가 Ventricular response를 결정합니다. 무작위 RR이나 Fibrillatory-wave 잡음을 ECG에 더하지 않습니다.
+
+### 증상·검사 소견
+
+- 계산 기록에서 Mobitz I는 AV 전달 지연 증가와 비전도, Infranodal block은 2:1 전달, Complete AV block은 Sinus와 독립적인 Junctional escape를 보여줍니다. AF 실험은 지속적인 Atrial activity와 불규칙한 Ventricular response를 관찰하는 모델이며, 실제 증상·관류·혈전 위험은 계산하지 않습니다.
 
 ### 관찰과 해석
 
@@ -226,8 +238,12 @@
 
 - 기본 조건에서 전도 순서·심실 활성 범위, WPW의 His 이전 활성, PVC의 국소 시작·Retrograde 전도, AV block의 지연/비전도, Escape의 독립성, AF의 지속성과 RR 변동을 검사합니다. Ionic 실험에서는 Resting Vm·APD 변화와 적분 간격을 줄였을 때의 수렴을 확인합니다.
 - 모든 조건에 같은 전위 복원식·Gain을 사용하고 Einthoven 및 Augmented lead 항등식을 검사합니다. 이는 내부의 인과·수치적 일관성 확인이며 환자의 12-lead ECG에 대한 임상 검증을 대신하지 않습니다.
-- [Rabbit AV node의 Recovery·Automaticity 계산 모델, 2023](https://doi.org/10.3389/fphys.2023.1126648) — 관련 기전의 근거이며 이 연구의 보정된 Dual-pathway 모델을 그대로 구현한 것은 아닙니다.
-- [AF의 S1/S2·Re-entry·Wavebreak 계산 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC7514676/) — 실제 연구의 고해상도 Atrial 모델과 본 앱의 축약 Sheet는 구분합니다.
+- Rabbit AV node의 Recovery·Automaticity 연구는 관련 기전의 근거이며, 해당 연구의 보정된 Dual-pathway 모델을 그대로 구현한 것은 아닙니다. AF의 S1/S2·Re-entry·Wavebreak 연구 역시 고해상도 Atrial 모델과 본 앱의 축약 Sheet를 구분해서 읽어야 합니다.
+
+### 관련 자료
+
+- [Rabbit AV node의 Recovery·Automaticity 계산 모델, 2023](https://doi.org/10.3389/fphys.2023.1126648)
+- [AF의 S1/S2·Re-entry·Wavebreak 계산 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC7514676/)
 
 ## sinus | Sinus rhythm
 ### 기전
