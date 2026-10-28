@@ -1,19 +1,11 @@
-import { measureStandardTraces, STANDARD_LEADS } from "../src/lib/ecg-forward-model.ts";
+import { measureStandardTraces, STANDARD_LEADS, ventricularActivationBursts } from "../src/lib/ecg-forward-model.ts";
 
 export function pathologyMetrics(recording) {
   const {mesh,voltage,samples,sampleMs,events=[]}=recording,n=mesh.cells.length;
   const ventricular=mesh.cells.flatMap((c,i)=>["LV","RV"].includes(c.chamber)&&!c.bridge?[i]:[]);
   const landmark=label=>events.filter(e=>e.cell===mesh.landmarks.find(l=>l.label===label)?.index).map(e=>e.time);
-  const his=landmark("His"),rr=his.slice(1).map((t,i)=>t-his[i]);
+  const his=landmark("His"),bursts=ventricularActivationBursts(recording),rr=bursts.slice(1).map((burst,i)=>burst.start-bursts[i].start);
   const mean=a=>a.length?a.reduce((s,x)=>s+x,0)/a.length:0;
-  const bursts=[];
-  for(let f=1;f<samples;f++) {
-    const up=ventricular.filter(i=>voltage[(f-1)*n+i]<.5&&voltage[f*n+i]>=.5);
-    if(!up.length)continue;
-    const time=f*sampleMs,previous=bursts.at(-1);
-    if(previous&&time-previous.end<=40){previous.end=time;up.forEach(i=>previous.seen.add(i));previous.cells=previous.seen.size;}
-    else bursts.push({start:time,end:time,cells:up.length,seen:new Set(up),firstRegion:mesh.cells[up[0]].region});
-  }
   const cellular=Object.fromEntries(["ra-wall","la-wall","lv-septal","lv-apical","lv-lateral","lv-basal","rv-apical"].map(region=>{
     const i=mesh.cells.findIndex(c=>c.region===region&&!c.bridge&&(c.column===4||c.column===0)&&(c.transmural===undefined||c.transmural>.45&&c.transmural<.55));
     if(i<0)return[region,null];
@@ -40,5 +32,5 @@ export function pathologyMetrics(recording) {
     einthoven=Math.max(einthoven,Math.abs(traces.II.values[f]-traces.I.values[f]-traces.III.values[f]));
     augmented=Math.max(augmented,Math.abs(traces.aVR.values[f]+traces.aVL.values[f]+traces.aVF.values[f]));
   }
-  return{inputs:recording.inputs,ventricularCells:ventricular.length,coverage:recording.activation.ventricularCoverage,events:{sinus:landmark("SA node"),av:landmark("AV node"),his},rr,rrCV:mean(rr)?Math.sqrt(mean(rr.map(t=>(t-mean(rr))**2)))/mean(rr):0,bursts:bursts.map(({seen,...burst})=>({...burst,cells:seen.size})),cellular,leads,identities:{einthoven,augmented}};
+  return{inputs:recording.inputs,ventricularCells:ventricular.length,coverage:recording.activation.ventricularCoverage,events:{sinus:landmark("SA node"),av:landmark("AV node"),his},rr,rrCV:mean(rr)?Math.sqrt(mean(rr.map(t=>(t-mean(rr))**2)))/mean(rr):0,bursts,cellular,leads,identities:{einthoven,augmented}};
 }

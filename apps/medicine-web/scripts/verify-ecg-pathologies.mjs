@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import {mkdir,readFile,writeFile} from "node:fs/promises";
+import {mkdir,writeFile} from "node:fs/promises";
 import {resolve} from "node:path";
 import {simulateForwardEcg,measureStandardTraces,STANDARD_LEADS,createHeartMesh,DEFAULT_FORWARD_INPUTS} from "../src/lib/ecg-forward-model.ts";
 import {pathologyMetrics} from "./ecg-pathology-metrics.mjs";
@@ -29,11 +29,6 @@ function plot(recording,name) {
   return`<!doctype html><html lang="ko"><meta charset="utf-8"><title>${name} · calculated ECG</title><style>body{font:14px system-ui;background:#eef4f5;color:#173740;margin:18px}h1{font-size:22px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}svg{width:100%;background:white;border:1px solid #cad8dd;border-radius:8px}a{color:inherit}</style><h1>${name} · 12유도 원 계산값</h1><p>같은 gain · a.u. (mV 아님) · 파형 정규화/곡선 추가 없음</p><div class="grid">${panels}</div></html>`;
 }
 for(const [name,input] of cases) {
-  if(out&&args.includes("--reuse-nonionic")&&!['ionic-reference','hyperkalemia','long-qt','short-qt'].includes(name)) {
-    results[name]=JSON.parse(await readFile(resolve(out,name+".json"),"utf8"));
-    console.log(`${name}: retained non-ionic result`);
-    continue;
-  }
   const start=performance.now(),r=simulateForwardEcg({...DEFAULT_FORWARD_INPUTS,...input}),m=pathologyMetrics(r);
   assert.ok(m.identities.einthoven<1e-6&&m.identities.augmented<1e-6,`${name}: lead identities`);
   for(const lead of STANDARD_LEADS)assert.ok(Number.isFinite(m.leads[lead].min)&&Number.isFinite(m.leads[lead].max),`${name}: finite ECG`);
@@ -56,7 +51,7 @@ const wenck=results.mobitz1,delays=pr(wenck);
 assert.ok(wenck.events.his.length<wenck.events.sinus.length,"Wenckebach includes non-conduction");
 assert.ok(delays.some((v,i)=>i>1&&v>delays[i-1]+2&&delays[i-1]>delays[i-2]+2),"Wenckebach progressive conduction delay");
 const infra=results.mobitz2,stable=pr(infra);
-assert.ok(Math.abs(infra.events.sinus.length/infra.events.his.length-2)<.25,"Infranodal post-repolarization block produces 2:1 at this rate");
+assert.ok(Math.abs(infra.events.sinus.length/infra.events.his.length-2)<.25,"Continuous His recovery produces 2:1 at this rate");
 assert.ok(Math.max(...stable)-Math.min(...stable)<3,"Conducted infranodal beats have stable delay");
 const complete=results["complete-av"],phases=pr(complete);
 assert.ok(complete.rr.every(t=>t>1000&&t<1600)&&Math.max(...phases)-Math.min(...phases)>300,"Independent junctional automaticity and AV dissociation");
@@ -66,8 +61,12 @@ assert.equal(ref.coverage,1,"Ionic reference fully captures");
 assert.equal(ref.events.his.length,ref.events.sinus.length,"Ionic reference keeps 1:1 conduction");
 assert.ok(ref.bursts.length>=3&&ref.bursts.every(b=>b.cells===ref.ventricularCells),"Every reference beat, not only the first, captures all ventricular tissue");
 assert.ok(results.hyperkalemia.cellular["lv-lateral"].rest>ref.cellular["lv-lateral"].rest+.02,"K raises resting Vm through ionic equations");
-assert.ok(apd(results.hyperkalemia)<apd(ref)-10,"K changes repolarization");
-assert.ok(apd(results["long-qt"])>apd(ref)+50&&apd(results["short-qt"])<apd(ref)-50,"K conductance changes APD in both directions");
+// TP06 is not LR-I: do not retain the old model's 10/50 ms effect-size targets.
+// Independent isolated-cell tests check TP06 kinetics and dt convergence; here
+// check causal directions in coupled tissue, without imposing clinical cutoffs.
+assert.ok(apd(results.hyperkalemia)<apd(ref)-3,"K accelerates coupled-tissue repolarization");
+assert.ok(apd(results["long-qt"])>apd(ref)+10&&apd(results["short-qt"])<apd(ref)-10,"IKr conductance changes APD in both directions");
+assert.ok(results.hyperkalemia.leads.II.tHalfWidth<ref.leads.II.tHalfWidth,"K narrows the computed T wave in this fixed geometry");
 const restored=createHeartMesh({...DEFAULT_FORWARD_INPUTS,condition:"rbb-block",electrophysiology:{branchCoupling:1}}),normal=createHeartMesh();
 assert.equal(restored.edges.length,normal.edges.length);
 for(let i=0;i<normal.edges.length;i++) {

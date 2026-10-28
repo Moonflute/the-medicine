@@ -6,7 +6,7 @@
 
 ## forward-model | 심근 전기활동과 ECG 생성
 ### 기전
-- 기본 전도·허혈·리듬 실험은 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. Hyperkalemia·QT 실험은 별도의 Luo–Rudy I ionic myocardium을 사용합니다. 어느 경우에도 ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
+- 기본 전도·허혈·리듬 실험은 각 구역에 정규화 막전위 v와 회복 gate h를 둡니다. Mitchell–Schaeffer two-current 식을 기반으로 inward current h·v²·(1−v)/τin, outward current −v/τout, 외부 자극, 인접 구역의 결합 전류를 매 시간 단계 더합니다. Hyperkalemia·QT 실험의 Ventricles에는 사람 세포의 ten Tusscher–Panfilov 2006 (TP06) 수식을 사용합니다. 어느 경우에도 ECG의 P·QRS·T 모양이나 시작 시각을 입력하지 않습니다.
 - 구역 i에서 j로 흐르는 결합 전류는 g·(vi−vj)로 계산합니다. 한 구역에서 나가는 전류는 상대 구역에 들어가며, 연결을 끊으면 이 경로의 전류도 0이 됩니다. 막전위 변화는 자극 직후의 흥분뿐 아니라 plateau와 repolarization까지 계속 적분합니다.
 - 화면은 하나의 Epicardial 외곽선 안에 RA·LA·RV·LV, Septum, AV valves와 Chordae를 배치한 전면 개념 절개도입니다. 뒤쪽의 LA와 앞·뒤 심근 구역을 펼쳐 배치했으며 환자 영상, 실제 단면이나 위치 비례를 재현하지 않습니다. 청록색 전도 경로의 세부 좌표는 계산 좌표와 별개입니다.
 - 심방 사이의 개별 전도 경로·명칭은 도해에서 생략하고, 계산에서는 Atrial myocardium 사이의 분산된 결합으로 축약합니다. SA node는 SVC–RA 접합부, AV node는 RA 하부 Septal 영역에 표시합니다. His·Bundle branches는 Septum을 따르고 Purkinje 말단은 Endocardial 경계에서 분지합니다. 실제 환자의 전체 Network나 세부 Fascicle을 재구성한 것은 아닙니다.
@@ -191,28 +191,32 @@
 
 ### 기전
 
-- Myocardium에 Luo–Rudy phase I의 Fast Na⁺ current, Slow inward current, Time-dependent K⁺ current, Inward rectifier K⁺ current, Plateau K⁺ current와 Background current를 계산합니다. Gate와 Intracellular calcium을 시간에 따라 적분하고, 같은 조직 결합 전류와 합해 Vm을 갱신합니다. 저장된 Vm으로 기존과 같은 전극 전위식을 계산합니다.
-- Hyperkalemia는 Extracellular K⁺를 변경합니다. K⁺ reversal potential과 K⁺ conductance가 달라지고, 높아진 Resting Vm에서 Na⁺ gate의 가용성도 바뀝니다. Resting potential 상승·Repolarization 변화·Capture 및 전도 실패는 이 과정의 결과입니다. ‘T wave를 뾰족하게’ 만드는 별도 파형 함수는 없습니다.
-- QT prolongation/shortening은 Delayed rectifier K⁺ conductance를 줄이거나 늘립니다. 기본값은 기준의 45%와 200%입니다. Action potential의 Plateau·종료 시점이 바뀌고 구역 간 회복 차이가 전극에서 합쳐집니다. ECG 시간축을 늘리거나 T wave를 이동하지 않습니다.
+- Ventricular myocardium에는 사람 세포의 TP06 수식을 적용합니다. INa·ICaL·Ito·IKr·IKs·IK1, Na⁺/K⁺ pump·Na⁺/Ca²⁺ exchanger, Background current를 계산합니다. Gate뿐 아니라 Cytosolic/Subspace/SR Ca²⁺, Intracellular Na⁺·K⁺도 적분하고, 인접 조직의 결합 전류와 합해 Vm을 갱신합니다.
+- Endocardial·M-cell·Epicardial phenotype에 서로 다른 Ito·IKs 특성을 둡니다. 추가로 Base→Apex 및 Endocardium→Epicardium 방향의 IKs를 각각 1→1.5배로 변화시킵니다. 이는 문헌의 모델링 범위를 참고한 고정된 공간 분포이며, K⁺ 조건·유도·목표 T wave에 따라 바뀌지 않습니다. M-cell 층의 위치는 교육용 가정이지 환자별 조직 지도는 아닙니다.
+- Hyperkalemia는 Extracellular K⁺를 변경합니다. Reversal potential과 IKr·IK1 conductance, Na⁺ gate 가용성이 함께 변합니다. Resting Vm·Phase 3·전파의 변화에서 전극 파형이 만들어지며, ‘T wave를 뾰족하게’ 만드는 함수를 출력에 더하지 않습니다.
+- QT prolongation/shortening은 IKr conductance만 줄이거나 늘립니다. 기본값은 45%와 200%입니다. 세포의 Plateau·회복 시각이 바뀌며, ECG 시간축을 늘리거나 T wave를 이동하지 않습니다.
 
 ### 증상·검사 소견
 
-- 기본 K⁺ 7 조건은 같은 Ionic 기준보다 Resting Vm이 높고 APD90가 짧습니다. K⁺ conductance를 줄이면 APD90가 길어지고 늘리면 짧아지지만, 세포의 APD90를 ECG의 QT/QTc와 동일시하지 않습니다. 현재 Lead II의 T peak는 K⁺ 7에서 오히려 작아 Tall peaked T를 재현했다고 볼 수 없습니다.
+- 기준 전극·70/min에서 K⁺ 5.4→7로 바꾸면 LV lateral의 Resting Vm이 높아지고 APD90가 짧아집니다. Lead II의 T peak는 약 0.363→0.373 a.u., Half-height width는 56→46 ms로 변했습니다. 진폭 증가는 작으며, 전형적인 Tall peaked T나 모든 유도의 임상 Hyperkalemia를 완전히 재현했다는 뜻은 아닙니다.
+- IKr를 줄이면 APD90가 길어지고 늘리면 짧아집니다. 세포의 APD90와 전극에서 읽는 QT/QTc는 다른 값이며, 이 도구는 QTc를 자동 진단하지 않습니다.
 
 ### 관찰과 해석
 
-- 점선은 같은 Ionic 모델의 K⁺ 5.4 mmol/L·K⁺ conductance 100% 기준입니다. 5.4는 원 연구의 실험 조건이지 사람의 정상 혈청 K⁺ 기준 상한을 뜻하지 않습니다. 기본 Mitchell–Schaeffer 파형과 Ionic 파형의 차이를 질환 효과로 오인하지 않도록 같은 모델끼리 비교합니다.
+- 점선은 같은 Ionic 모델의 K⁺ 5.4 mmol/L·IKr 100% 기준입니다. 5.4는 모델의 기준값이지 사람의 정상 혈청 K⁺ 기준 상한을 뜻하지 않습니다. 기본 Mitchell–Schaeffer 파형과 Ionic 파형의 차이를 질환 효과로 오인하지 않도록 같은 모델끼리 비교합니다.
 - K⁺ 변화에 대한 전도 속도는 모든 구간에서 단조롭게 느려지는 것이 아닙니다. 충분히 높은 조건에서는 전도 또는 Capture 자체가 실패할 수 있습니다. 실제 환자의 Hyperkalemia는 ECG 반응의 개인차가 크며 이 모델로 농도별 진단 기준이나 안전성을 예측할 수 없습니다.
-- 현재 기본 K⁺ 7 조건에서는 Resting Vm 상승과 APD 단축을 확인했지만, 전형적인 Tall peaked T를 완성한 것으로 볼 수 없습니다. 기준 전극의 Lead II에서는 T peak가 오히려 작아집니다. 해당 파형을 억지로 확대하지 않으며, 인간의 조직별 Ionic current·회복 분포·Torso geometry를 더 보완해야 하는 한계로 남깁니다.
-- 원 Ionic 모델은 Guinea-pig ventricular cell 기반입니다. Atria에는 짧은 AP를 위한 Ca²⁺·K⁺ conductance 적응을 적용합니다. His–Purkinje에도 같은 Ionic 식과 K⁺ 변화를 적용해 심근과 서로 다른 회복 시계가 생기지 않게 했으며, SA·AV node는 축약 모델을 유지합니다. 이는 인간의 조직별 세포 모델을 각각 재현한 것이 아닙니다.
+- T wave는 한 세포의 AP 모양만으로 결정되지 않습니다. 공간적인 회복 차이·전도·관찰 방향이 함께 작용하므로 진폭이 모든 유도에서 같은 비율로 증가하지 않습니다. 심실의 활성 분산과 QRS 폭도 동일한 측정치가 아닙니다. 현재 축약 Geometry의 빠르고 좁은 활성 분산은 추가 보완이 필요한 한계입니다.
+- TP06을 모든 조직의 완전한 인간 모델로 해석하지 않습니다. His–Purkinje에는 같은 Ventricular 수식을 사용하는 근사가 남아 있고, Atria는 짧은 AP로 적응시킨 Luo–Rudy I, SA·AV node는 Mitchell–Schaeffer 기반입니다. 독립된 인간 Atrial·Purkinje·Nodal cell 모델을 검증한 것은 아닙니다.
 - Ionic 기준에서는 빠른 Na⁺ upstroke가 조직 격자에서 전파되도록 Ventricular 결합도를 별도로 설정하고, 전도계의 유효 조직량·접합부 부하와 AV recovery를 함께 설정합니다. Atrial–AV 접합은 여러 심방 조직 구역에 분산합니다. 첫 박동만 흥분한 뒤 다음 박동에서 일부 조직이 빠지는 계산을 정상 기준으로 채택하지 않습니다. 이 조정은 막전위·결합 전류 적분에 적용하며 유도별 출력 보정이 아닙니다.
-- 여기의 K⁺ current는 현대 인간 모델의 IKr·IKs를 분리한 약물 모델이 아닙니다. QTc, 특정 약물·유전자 효과, Torsades 위험을 정량적으로 예측하지 않습니다. Ionic 실험과 기존 Ischemia 실험의 동시 적용은 지원하지 않습니다.
+- 두 주기 Warm-up 뒤 기록하며 장시간의 이온 농도 정상상태까지 보장하지 않습니다. 전위는 균질한 Volume conductor에서 공통 Gain으로 복원한 a.u.입니다. QTc·특정 약물/유전자 효과·Torsades 위험을 정량 예측하지 않으며, Ionic 실험과 Ischemia의 동시 적용은 지원하지 않습니다.
 
 ### 관련 자료
 
-- [Luo & Rudy — A model of the ventricular cardiac action potential, 1991](https://doi.org/10.1161/01.RES.68.6.1501)
-- [Rudy Lab — Guinea-pig ventricular model의 개발 과정](https://rudylab.wustl.edu/research/basic-mechanisms-of-cardiac-excitation-arrhythmias/models-and-simulations/cardiac-cells/guinea-pig-ventricular-cell-model/history-of-model-development/)
-- [Physiome — Luo–Rudy I 수식](https://models.cellml.org/exposure/2d2ce7737b42a4f72d6bf8b67f6eb5a2/luo_rudy_1991.cellml/source_text)
+- [ten Tusscher & Panfilov — Human ventricular model, 2006](https://doi.org/10.1152/ajpheart.00109.2006)
+- [Physiome — TP06 Epicardial 수식](https://models.physiomeproject.org/e/80d/ten_tusscher_model_2006_epi.cellml/view)
+- [Sung et al. — Apicobasal·Transmural repolarization gradients, 2021](https://doi.org/10.3389/fphys.2021.740389)
+- [Corsi et al. — Potassium·T-wave slope와 세포 모델, 2017](https://www.nature.com/articles/srep42492)
+- [Luo & Rudy — Atrial 적응에 사용한 원 수식, 1991](https://doi.org/10.1161/01.RES.68.6.1501)
 - [Extracellular K⁺와 전도·흥분성 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC7940307/)
 
 ## forward-rhythm | AV block·Escape·AF의 조직 동역학
@@ -220,9 +224,11 @@
 ### 기전
 
 - Mobitz I는 AV nodal recovery를 느리게 합니다. 다음 Atrial impulse가 덜 회복된 조직에 도착하면 전도가 더 늦어지거나 실패하고, 긴 휴지기 뒤에 회복됩니다. 기본 자극 빈도는 90/min입니다. PR 목록이나 ‘몇 번째 박동을 누락할지’를 입력하지 않습니다.
-- Infranodal block은 His에 Post-repolarization refractoriness를 추가합니다. 막전위가 회복되었어도 일정 시간 Inward current 가용성이 회복되지 않는 축약 조건입니다. 기본 설정에서는 2:1 전도와 일정한 Conducted-beat latency가 나타납니다. 2:1 ECG만으로 Mobitz I/II를 구분할 수 없으므로 화면을 ‘Mobitz II 확진 파형’으로 표시하지 않습니다. 다양한 임상 Mobitz II 패턴을 모두 재현한 기능은 아닙니다.
+- Infranodal block은 His의 Inward-current availability가 연속적으로 회복되는 Gate를 추가합니다. Vm 상승 때 감소하고 Resting Vm에 가까워지면 선택한 시상수로 회복합니다. 고정된 시간 동안 박동을 삭제하는 Timer가 아니며, Subthreshold 입력도 회복에 영향을 줄 수 있습니다. 이는 축약된 Gate이지 인간 His의 검증된 Na⁺ channel 모델은 아닙니다.
+- 기본 시상수 2,000 ms·70/min에서는 2:1 전도가 나타납니다. 회복을 빠르게 하면 1:1 전도로 바뀌고, 더 느리게 하면 고등급 비전도가 생길 수 있습니다. 2:1 ECG만으로 Mobitz I/II를 구분할 수 없으며 다양한 임상 Mobitz II 패턴을 모두 재현한 기능은 아닙니다.
 - Complete AV block은 AV–His 연결의 Conductance를 0으로 만들고 His 구역에 약한 지속 Inward conductance와 느린 Recovery를 부여합니다. 자체적인 흥분–회복 반복으로 Escape rhythm이 생성됩니다. Sinus와 Escape의 박동 시각을 따로 나열한 방식이 아닙니다.
 - AF 실험은 RA·LA 각각을 48×12의 주기적 Sheet로 바꾸고 불균일한 결합·짧은 불응기·국소 장벽을 둡니다. LA의 PV 경계에 대응하는 4개 작은 구역에는 지속 Inward conductance를 부여합니다. 초기 S1/S2 자극 뒤에는 국소 자동능과 조직 전파가 경쟁하며, 여러 Atrial 입력을 받는 AV node의 회복 상태가 Ventricular response를 결정합니다. 무작위 RR이나 Fibrillatory-wave 잡음을 ECG에 더하지 않습니다.
+- AF의 ‘국소 자동능’과 ‘Atrial 회복 시상수’를 따로 조절할 수 있습니다. 자동능을 꺼도 남은 Re-entry가 바로 없어지는 것은 아닙니다. 현재 기본 Substrate에서 자동능 0%로 계산하면 한동안 활성이 이어진 뒤 소실되며, Sinus node를 다시 켜서 강제로 동율동으로 전환하지 않습니다.
 
 ### 증상·검사 소견
 
@@ -230,8 +236,9 @@
 
 ### 관찰과 해석
 
-- 8초 기록에서 Atrial activation과 실제 His activation의 관계를 비교합니다. Mobitz I는 지연 증가와 비전도, Complete AV block은 서로 독립적인 Atrial/Junctional rhythm, AF는 지속적인 Atrial activity와 불규칙한 Ventricular response를 확인합니다.
+- 8초 기록에서 Atrial activity와 Ventricular activation을 비교합니다. ‘구간 이동’은 저장된 심실 Vm의 실제 상승 구간으로 이동합니다. His 신호가 작아 표시 기준을 넘지 않거나 PVC가 His보다 먼저 시작해도 심실 활성을 누락하지 않습니다. 이 표시용 검출은 계산 파형을 변경하지 않습니다.
 - AF는 다초점·재진입 기전을 탐색하는 축약 실험입니다. 실제 Atrial 해부학·PV sleeve·Fibrosis·인간 Atrial ionic current·Rotor map을 검증한 모델은 아닙니다. ‘불규칙한 RR이 나왔다’는 것만으로 임상 AF를 완전 재현했다고 해석하지 않습니다.
+- AF는 작은 수치 차이에도 장시간의 전파 경로가 달라질 수 있습니다. 브라우저 엔진에 따라 개별 RR과 활성 소실 시각이 달라질 수 있으므로, 정확한 박동 시각을 환자 예측으로 해석하지 않습니다.
 - 다른 자극 빈도나 조직 매개변수에서는 전도 비율·Capture·리듬이 달라질 수 있습니다. 결과에 진단명을 맞추기 위해 박동을 추가하거나 제거하지 않습니다. 모든 결과는 a.u.이며 치료·진단용으로 사용할 수 없습니다.
 
 ### 계산 검증과 근거

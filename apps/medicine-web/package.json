@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.13.123",
+  "version": "0.13.124",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs && node scripts/build-study-flow-index.mjs",
@@ -15,6 +15,8 @@
     "verify:ecg-forward": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-forward.mjs",
     "verify:ecg-pathologies": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-pathologies.mjs",
     "verify:ecg-ionic-convergence": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-ionic-convergence.mjs",
+    "verify:ecg-human-membrane": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-human-membrane.mjs",
+    "verify:ecg-development-controls": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-development-controls.mjs",
     "verify:ecg-refinements": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-refinements.mjs",
     "verify:ecg-ischemia": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-ischemia.mjs",
     "verify:ecg-fields": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-fields.mjs",
