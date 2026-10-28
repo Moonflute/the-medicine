@@ -124,6 +124,7 @@ function segmentModifier(id: NephronSegmentId, solute: NephronSolute, inputs: Ne
   if (id === "thick-ascending" && solute !== "H2O") return 1 - inputs.loopBlock / 100 * 0.94;
   if (id === "distal" && (solute === "Na+" || solute === "Cl-")) return 1 - inputs.thiazideBlock / 100 * 0.92;
   if (id === "distal" && solute === "Ca2+") return 1 + inputs.thiazideBlock / 100 * 0.35;
+  if (id === "distal" && solute === "Mg2+") return 1 - inputs.thiazideBlock / 100 * 0.35;
   if (id === "collecting" && solute === "Na+") return (0.45 + inputs.aldosterone / 100 * 0.9) * (1 - inputs.enacBlock / 100 * 0.95);
   if (id === "collecting" && solute === "K+") {
     const distalFlow = 1 + (inputs.loopBlock + inputs.thiazideBlock) / 250;
@@ -136,7 +137,7 @@ function segmentModifier(id: NephronSegmentId, solute: NephronSolute, inputs: Ne
 
 export function calculateNephronState(raw: NephronInputs): NephronState {
   const inputs: NephronInputs = {
-    gfr: clamp(raw.gfr, 40, 160), adh: clamp(raw.adh, 0, 100), aldosterone: clamp(raw.aldosterone, 0, 100),
+    gfr: clamp(raw.gfr, 15, 160), adh: clamp(raw.adh, 0, 100), aldosterone: clamp(raw.aldosterone, 0, 100),
     loopBlock: clamp(raw.loopBlock, 0, 100), thiazideBlock: clamp(raw.thiazideBlock, 0, 100),
     enacBlock: clamp(raw.enacBlock, 0, 100), carbonicAnhydraseBlock: clamp(raw.carbonicAnhydraseBlock, 0, 100),
   };
@@ -146,6 +147,16 @@ export function calculateNephronState(raw: NephronInputs): NephronState {
     for (const solute of SOLUTES) {
       const base = definition.baseHandling[solute] ?? 0; const modifier = segmentModifier(definition.id, solute, inputs);
       let requested = base * modifier;
+      if (definition.id === "distal" && solute === "Ca2+") {
+        // Leave a small residual calcium load for downstream handling instead of
+        // allowing a thiazide response to imply literal zero calcium excretion.
+        requested = Math.min(requested, Math.max(0, delivered[solute] - 1.3));
+      }
+      if (definition.id === "collecting" && solute === "K+") {
+        // Distal sodium delivery supports ENaC-dependent secretion. A bounded,
+        // qualitative response, not an estimate of serum potassium or CKD adaptation.
+        requested *= clamp(Math.pow(delivered["Na+"] / 5, .2), .4, 1.6);
+      }
       if (definition.id === "collecting" && solute === "H2O") {
         const gradient = 1 - inputs.loopBlock / 100 * 0.65;
         const osmoticRetention = Math.min(.12, Math.max(0, remaining["Na+"] - 1.4) * .002 + Math.max(0, remaining["HCO3-"] - 3) * .0005);
@@ -177,4 +188,28 @@ export function calculateNephronState(raw: NephronInputs): NephronState {
 
 export function getNephronSegment(state: NephronState, id: NephronSegmentId) {
   return state.segments.find((segment) => segment.id === id) ?? state.segments[0];
+}
+
+export const NORMAL_NEPHRON: NephronInputs = { gfr: 100, adh: 50, aldosterone: 50, loopBlock: 0, thiazideBlock: 0, enacBlock: 0, carbonicAnhydraseBlock: 0 };
+
+/** Relative total excretion includes filtration; FE alone cannot show low GFR.
+ * Plasma concentration is held fixed for this comparison. No serum level is inferred.
+ */
+export function nephronExcretionIndex(state: NephronState, solute: NephronSolute) {
+  const normal = calculateNephronState(NORMAL_NEPHRON);
+  return state.excreted[solute] * state.inputs.gfr / Math.max(.01, normal.excreted[solute]);
+}
+
+export function nephronClinicalConnections(state: NephronState) {
+  const i = state.inputs;
+  const connections: Array<{ title: string; mechanism: string }> = [];
+  if (i.gfr < 50) connections.push({ title: "배설 여력 감소", mechanism: "같은 분획 배설률이라도 GFR이 낮으면 총 배설량은 감소합니다. 장기 적응·섭취량은 별도로 고려합니다." });
+  if (i.loopBlock > 35) connections.push({ title: "K⁺·Mg²⁺ 소실 / 알칼리증 연결", mechanism: "NKCC2 차단 → 원위 Na 전달 증가, Ca·Mg 회수와 수질 농축기울기 감소. 염소·체액 소실은 알칼리증을 유지할 수 있습니다." });
+  if (i.thiazideBlock > 35) connections.push({ title: "K⁺·Mg²⁺ 소실 / 소변 Ca²⁺ 감소", mechanism: "NCC 차단으로 NaCl 배설은 늘지만 Ca 회수는 증가합니다. 혈중 Na는 ADH·섭취·수분 균형을 함께 봐야 합니다." });
+  if (i.enacBlock > 35) connections.push({ title: "K⁺ 보존 · 신기능 저하에서 축적 주의", mechanism: "ENaC 차단 → 관강 음전위와 K 분비 감소. 신기능 저하와 겹칠 때 배설 여력이 더 낮아집니다." });
+  if (i.carbonicAnhydraseBlock > 35) connections.push({ title: "HCO₃⁻ 소실 · 대사성 산증 연결", mechanism: "근위 HCO₃⁻ 회수 억제 → bicarbonaturia. 혈중 HCO₃⁻ 감소의 크기는 체내 완충·적응에 따라 달라집니다." });
+  if (i.adh > 80) connections.push({ title: "물 보존 · Na 농도는 수분 수지와 함께", mechanism: "ADH는 집합관 물 재흡수를 증가시킵니다. 소변 농축만으로 저나트륨혈증을 진단하지 않습니다." });
+  if (i.adh < 20) connections.push({ title: "농축 저하 · 수분 소실", mechanism: "AQP2 작용 감소로 묽은 소변이 늘어납니다. 혈중 Na 변화는 물 섭취와 소실의 균형에 달려 있습니다." });
+  if (!connections.length) connections.push({ title: "작용 부위 → 배설 → 임상 연결", mechanism: "약물 차단과 GFR을 따로 조절하고, 분획 배설률과 총 배설 지수의 차이를 비교하세요." });
+  return connections;
 }

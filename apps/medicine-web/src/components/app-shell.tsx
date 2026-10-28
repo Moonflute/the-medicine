@@ -33,7 +33,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
   const atlas = pathname === "/atlas" || pathname === "/atlas/";
-  const immersive = atlas || pathname.startsWith("/interactive/");
+  const hub = pathname === "/maternal-child-hub" || pathname === "/maternal-child-hub/" || pathname === "/nervous-system-hub" || pathname === "/nervous-system-hub/" || /^\/specialty\/[^/]+\/hub\/?$/.test(pathname);
+  const clinical = hub || /^\/interactive\/(?!ecg-arrhythmia(?:\/|$))[^/]+\/?$/.test(pathname);
+  const immersive = atlas || hub || pathname.startsWith("/interactive/");
   const [open, setOpen] = useState(false);
   const { theme } = useSkinTheme();
   const specialTheme = isSpecialTheme(theme);
@@ -89,7 +91,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <AudioReviewProvider>
-    <div className={`app-shell min-h-screen bg-slate-100 text-slate-950 ${immersive ? "immersive-shell" : ""} ${atlas ? "atlas-shell" : ""}`} data-page={isHome ? "home" : "content"} data-view={documentPage ? "document" : "browse"}>
+    <div className={`app-shell min-h-screen bg-slate-100 text-slate-950 ${immersive ? "immersive-shell" : ""} ${atlas ? "atlas-shell" : ""} ${clinical ? "clinical-shell" : ""}`} data-page={isHome ? "home" : "content"} data-view={documentPage ? "document" : "browse"}>
       <LearningSyncProvider />
       <ChatRoomProvider>
       <SkinAppFrame theme={theme} pathname={pathname} headerRef={headerRef} version={version} immersive={immersive}

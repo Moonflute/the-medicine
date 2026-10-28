@@ -1,0 +1,148 @@
+/* Deliberately scoped: the independently developed ECG workspace is unaffected. */
+.clinical-shell .skin-desktop-rail, .clinical-shell .app-sidebar, .clinical-shell .app-bottom-nav { display:none !important; }
+.clinical-shell .skin-frame { grid-template-columns:minmax(0,1fr) !important; max-width:none; }
+.clinical-shell .skin-frame-body { min-width:0; }
+.clinical-shell .app-main { padding:8px 16px !important; }
+.clinical-shell .app-main > div { max-width:none !important; }
+.clinical-route { display:flex; flex-direction:column; gap:6px; min-width:0; }
+.clinical-route-nav { display:flex; align-items:center; gap:8px; min-height:30px; }
+.clinical-route-nav nav { flex:1; }
+.clinical-route-nav nav a { padding:3px 8px; font-size:12px; }
+.clinical-route-nav nav svg { width:12px; height:12px; }
+.clinical-lab { color:var(--foreground); display:flex; flex-direction:column; gap:8px; min-height:0; min-width:0; }
+.lab-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-shrink:0; }
+.lab-heading h1 { font-size:19px; font-weight:750; letter-spacing:-.035em; }
+.lab-toolbar { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.lab-button, .lab-toolbar select, .lab-controls select, .lab-playback select { display:inline-flex; align-items:center; justify-content:center; gap:5px; min-height:32px; padding:5px 9px; border:1px solid var(--line); border-radius:6px; background:var(--surface); color:var(--foreground); font-size:12px; cursor:pointer; max-width:100%; }
+.lab-button:hover { border-color:var(--primary); }
+.lab-button:disabled { opacity:.5; cursor:default; }
+.lab-body { display:grid; grid-template-columns:minmax(0,1fr) 286px; gap:10px; flex:1; min-height:0; }
+.lab-diagram { display:flex; flex-direction:column; min-width:0; min-height:0; background:var(--surface); border:1px solid var(--line); border-radius:10px; }
+.lab-diagram > svg { width:100%; height:100%; min-height:0; flex:1; }
+.lab-controls { min-height:0; min-width:0; border:1px solid var(--line); border-radius:10px; background:var(--surface); padding:12px; overflow:auto; scrollbar-width:thin; }
+.lab-controls h2 { font-size:14px; font-weight:700; margin-bottom:12px; }
+.lab-controls .physiology-control { padding:9px 0; border-bottom:1px solid var(--line); }
+.lab-controls .physiology-control label { font-size:12px; }
+.lab-controls .physiology-control p { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.lab-controls .physiology-control input[type=number] { width:62px; padding:3px 5px; min-height:28px; }
+.lab-controls .physiology-control input[type=range] { height:22px; }
+.lab-controls .physiology-control > div { margin-top:4px; gap:6px; }
+.lab-control-tabs { display:flex; border-bottom:1px solid var(--line); gap:4px; margin-bottom:6px; }
+.lab-control-tabs button { flex:1; padding:7px 5px; font-size:12px; border-radius:5px 5px 0 0; cursor:pointer; }
+.lab-control-tabs button[aria-selected=true] { background:var(--primary-strong); color:white; }
+.lab-control-content { display:flex; flex-direction:column; gap:5px; }
+.lab-control-content > label { font-size:12px; display:flex; flex-direction:column; gap:5px; margin-block:6px; }
+.lab-metrics { display:flex; flex-shrink:0; padding:9px 0; border:1px solid var(--line); border-radius:8px; background:var(--surface); }
+.lab-metrics > div { flex:1; padding:0 12px; }
+.lab-metrics > div > div:nth-child(2) { font-size:17px; white-space:nowrap; }
+.lab-metrics > div > div:last-child { font-size:10px; }
+.lab-metrics > div > div:nth-child(2) { color:var(--foreground); }
+.lab-metrics > div > div:first-child, .lab-metrics > div > div:last-child { color:var(--muted); }
+.lab-finding { flex-shrink:0; min-height:25px; font-size:12px; color:var(--muted); line-height:1.5; }
+.lab-finding strong { color:var(--foreground); }
+.lab-fit { position:relative; flex:1; min-height:0; overflow:hidden; }
+.lab-fit > div { position:absolute; left:50%; top:50%; transform-origin:center; }
+.lab-playback { display:flex; gap:8px; padding:5px 10px; align-items:center; border-top:1px solid var(--line); }
+.lab-playback input { flex:1; min-width:0; accent-color:var(--primary); }
+.lab-diagram-tools { display:flex; align-items:center; gap:4px; padding:6px 10px; border-bottom:1px solid var(--line); flex-wrap:wrap; }
+.lab-diagram-tools button { padding:4px 9px; font-size:12px; border:1px solid var(--line); border-radius:5px; cursor:pointer; }
+.lab-diagram-tools button[aria-pressed=true] { background:var(--primary-strong); color:white; }
+.lab-diagram-tools span { margin-left:auto; color:var(--muted); font-size:11px; }
+.lab-dialog { position:fixed; margin:auto; padding:0; width:min(960px,94vw); max-height:88dvh; border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--foreground); box-shadow:0 20px 80px #0f172a40; }
+.lab-dialog::backdrop { background:#0f172a60; }
+.lab-dialog > header { display:flex; justify-content:space-between; align-items:center; padding:12px 18px; border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--surface); z-index:2; }
+.lab-dialog h2 { font-weight:700; }
+.lab-dialog-body { padding:18px; display:flex; flex-direction:column; gap:18px; }
+.lab-dialog-body :is(.physiology-card,.simulation-comparison,.guided-experiment) { color:var(--foreground); background:var(--surface); }
+.clinical-lab :is(button,input,select,a):focus-visible, .lab-dialog :is(button,input,select,a):focus-visible { outline:2px solid var(--primary); outline-offset:2px; }
+.clinical-svg { font-family:Arial,sans-serif; background:#f7faf9; border-radius:10px; }
+.clinical-svg text { fill:#334155; }
+.clinical-svg .axis-label { fill:#64748b; font-size:12px; }
+.clinical-svg .diagram-title { font-size:17px; font-weight:700; }
+.clinical-svg .diagram-value { font-size:25px; font-weight:700; }
+.clinical-svg [role=button] { cursor:pointer; outline:none; }
+.clinical-svg [role=button]:focus-visible { outline:2px solid #0f766e; }
+.endocrine-board { flex:1; min-height:0; display:flex; flex-direction:column; justify-content:center; padding:20px; gap:16px; }
+.endocrine-stages { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; }
+.endocrine-organ { position:relative; padding:14px; background:var(--surface-subtle); border:1px solid var(--line); border-radius:10px; text-align:center; }
+.clinical-shell .clinical-lab .endocrine-organ[aria-pressed=true] { background:var(--surface-subtle); color:var(--foreground); border-color:var(--primary); }
+.endocrine-organ:not(:last-child)::after { content:'→'; position:absolute; right:-23px; top:42%; font-size:23px; color:var(--primary); }
+.endocrine-organ img { width:90px; height:100px; object-fit:contain; margin:auto; }
+.endocrine-organ h2 { font-size:16px; font-weight:700; }
+.endocrine-organ p { font-size:12px; color:var(--muted); }
+.endocrine-organ output { display:block; font-family:monospace; font-size:24px; font-weight:700; margin-top:10px; }
+.endocrine-feedback { border:1px solid #c4b5fd; border-top:3px solid #8b5cf6; border-radius:8px; color:#6d28d9; padding:10px; font-size:12px; display:flex; justify-content:space-around; gap:12px; background:#f5f3ff; }
+.endocrine-effects { display:flex; gap:12px; justify-content:center; font-size:12px; }
+.nephron-board { flex:1; min-height:0; display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:10px; padding:10px; }
+.nephron-board > svg { width:100%; height:100%; min-height:0; }
+.nephron-board > svg text { font-size:14px; }
+.nephron-inspector { display:flex; flex-direction:column; justify-content:center; gap:12px; min-width:0; padding:10px; }
+.nephron-inspector h2 { font-size:18px; font-weight:700; margin-block:4px; }
+.nephron-inspector p { font-size:12px; line-height:1.6; }
+.nephron-transfer { display:grid; grid-template-columns:1fr 1fr 1fr; align-items:center; gap:8px; text-align:center; font-size:11px; }
+.nephron-route { padding:12px 8px; border:1px solid var(--line); background:var(--surface-subtle); border-radius:8px; }
+.nephron-route p { margin-top:8px; color:var(--muted); }
+.nephron-transfer strong { font-size:20px; }
+.nephron-handling { display:flex; gap:10px; justify-content:space-between; padding-block:10px; border-block:1px solid var(--line); font-size:11px; }
+.nephron-handling b { display:block; font-family:monospace; font-size:17px; }
+.clinical-shell .hub-layout { gap:8px; }
+.hub-compact-title { display:flex; align-items:center; gap:7px; font-size:19px; font-weight:750; margin-right:auto; }
+.clinical-shell .hub-navigation { gap:12px; flex-shrink:0; }
+.clinical-shell .hub-switcher { padding:2px; }
+.clinical-shell .hub-switcher a { min-height:30px; padding:3px 9px; }
+.clinical-shell .hub-tabs { flex-shrink:0; padding:3px; }
+.clinical-shell .hub-tabs > button { min-height:32px; padding:5px 12px; font-size:12px; }
+.clinical-shell .hub-tab-panel { flex:1; min-height:0; gap:8px; overflow:auto; scrollbar-width:thin; }
+.clinical-shell .hub-toolbar { position:sticky; top:0; z-index:20; padding:10px 12px; flex-shrink:0; }
+.clinical-shell .hub-section-heading h2 { font-size:13px; }
+.clinical-shell .hub-toolbar-controls { margin-top:6px; gap:6px; }
+.clinical-shell :is(.hub-select,.hub-button,.hub-search input) { min-height:32px; padding-block:5px; font-size:12px; }
+.clinical-shell .hub-panel { padding:12px; }
+.clinical-shell .hub-card { padding:12px; }
+.clinical-shell .hub-card h3 { margin-top:4px; font-size:14px; }
+.clinical-shell .hub-card-description { font-size:12px; line-height:1.5; }
+.clinical-shell .hub-card-action { padding-top:8px; }
+.maternal-stage-detail > article > span { display:none; }
+.neuro-atlas-workspace { min-height:0; display:flex; flex-direction:column; gap:8px; flex:1; }
+.neuro-path-toolbar { padding:4px 10px; border:1px solid var(--line); border-radius:8px; background:var(--surface); }
+.neuro-path-toolbar .simulation-button,.neuro-path-toolbar .simulation-primary { padding:5px 8px; font-size:11px; min-height:30px; }
+.neuro-path-toolbar label { flex-direction:row; align-items:center; }
+.neuro-path-toolbar label select { flex:1; }
+.neuro-atlas-columns { display:grid; grid-template-columns:minmax(0,1fr) 290px; gap:10px; min-height:0; flex:1; }
+.neuro-atlas-columns > section { min-height:0; display:flex; flex-direction:column; }
+.neuro-atlas-viewport { min-height:0; flex:1; }
+.neuro-atlas-columns > aside { position:static; min-height:0; max-height:100%; overflow:auto; padding:12px; scrollbar-width:thin; }
+.neuro-atlas-columns h2 { font-size:17px; }
+.neuro-atlas-columns p { font-size:12px; }
+@media(min-width:1000px) and (min-height:640px) {
+  .clinical-shell .hub-layout { height:calc(100dvh - var(--app-header-height,64px) - 16px); }
+  .clinical-shell .hub-tab-panel[data-hub-tab=atlas] { overflow:visible; }
+  .clinical-route { height:calc(100dvh - var(--app-header-height,64px) - 16px); }
+  .clinical-route > .clinical-lab { flex:1; }
+}
+@media(max-width:999px), (max-height:639px) {
+  .neuro-atlas-columns { grid-template-columns:minmax(0,1fr); }
+  .neuro-atlas-viewport { min-height:440px; }
+  .lab-body { grid-template-columns:minmax(0,1fr); }
+  .lab-diagram { min-height:450px; }
+  .lab-fit { min-height:390px; }
+  .lab-controls { overflow:visible; }
+  .lab-control-content { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  .lab-heading { flex-wrap:wrap; }
+  .lab-metrics { flex-wrap:wrap; gap:12px; }
+  .lab-metrics > div { flex-basis:28%; }
+}
+@media(max-width:600px) {
+  .nephron-board { grid-template-columns:minmax(0,1fr); }
+  .nephron-board > svg { height:360px; }
+  .clinical-shell .app-main { padding:8px !important; }
+  .lab-heading h1 { font-size:17px; }
+  .lab-control-content { grid-template-columns:minmax(0,1fr); }
+  .endocrine-board { padding:12px; }
+  .endocrine-stages { gap:14px; }
+  .endocrine-organ { padding:8px 4px; }
+  .endocrine-organ img { width:65px; height:80px; }
+  .endocrine-organ:not(:last-child)::after { right:-14px; font-size:16px; }
+  .endocrine-organ h2 { font-size:12px; }
+  .endocrine-organ output { font-size:17px; }
+}

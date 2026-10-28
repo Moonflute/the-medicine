@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "./study-flow.css";
 import "./hubs.css";
+import "./clinical-workspace.css";
 import "./physiology.css";
 import { AppShell } from "@/components/app-shell";
 import { PWARegister } from "@/components/pwa-register";
@@ -40,7 +41,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <head><script id="medicine-theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript + studyFlowButtonInitScript }} /></head>
+      <head><link rel="stylesheet" href={`${basePath}/highlights.css`} /><script id="medicine-theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript + studyFlowButtonInitScript }} /></head>
       <body>
         <PWARegister />
         <ThemeProvider><AppShell>{children}</AppShell></ThemeProvider>

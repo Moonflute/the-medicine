@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, BrainCircuit, Bug, HeartPulse, Search, X, type LucideIcon } from "lucide-react";
 import { useId, useRef, type KeyboardEvent, type ReactNode } from "react";
 import { HubStatusStrip } from "@/components/hub-status-strip";
+import { LabDisclosure } from "@/components/clinical-lab-workspace";
 
 const hubs = [
   { id: "infection", label: "감염", href: "/specialty/MDgg6rCQ7Je8/hub", icon: Bug },
@@ -24,19 +25,14 @@ export function HubLayout({ hub, title, description, date, dateLabel = "자료 �
   return <div className="hub-layout" data-hub={hub}>
     <div className="hub-navigation">
       <Link href="/specialties" className="hub-back"><ArrowLeft size={15} aria-hidden="true" />분과 목록</Link>
+      <h1 className="hub-compact-title"><Icon size={19} aria-hidden="true" />{title}</h1>
       <nav className="hub-switcher" aria-label="Hub 전환">
         {hubs.map((item) => <Link key={item.id} href={item.href} aria-current={hub === item.id ? "page" : undefined}>
           <item.icon size={15} aria-hidden="true" /><span>{item.label}</span>
         </Link>)}
       </nav>
+      <LabDisclosure label="자료 안내"><p>{description}</p><HubStatusStrip reviewedAt={date} dateLabel={dateLabel} items={stats}/></LabDisclosure>
     </div>
-    <header className="hub-header">
-      <div className="hub-heading">
-        <span className="hub-icon"><Icon size={24} aria-hidden="true" /></span>
-        <div className="min-w-0"><h1>{title}</h1><p>{description}</p></div>
-      </div>
-      <HubStatusStrip reviewedAt={date} dateLabel={dateLabel} items={stats} />
-    </header>
     {children}
   </div>;
 }
@@ -70,13 +66,13 @@ export function HubTabs<T extends string>({ label, tabs, value, onChange, childr
         {tab.count !== undefined ? <span className="hub-tab-count">{tab.count}</span> : null}
       </button>)}
     </div>
-    <div id={`${id}-panel`} role="tabpanel" aria-labelledby={`${id}-${value}`} tabIndex={0} className="hub-tab-panel">{children}</div>
+    <div id={`${id}-panel`} role="tabpanel" aria-labelledby={`${id}-${value}`} tabIndex={0} className="hub-tab-panel" data-hub-tab={value}>{children}</div>
   </>;
 }
 
 export function HubToolbar({ title, description, children, count }: { title: string; description?: string; children?: ReactNode; count?: string }) {
   return <section className="hub-toolbar" aria-label={title}>
-    <div className="hub-section-heading"><div><h2>{title}</h2>{description ? <p>{description}</p> : null}</div>{count ? <span className="hub-result-count" aria-live="polite">{count}</span> : null}</div>
+    <div className="hub-section-heading"><div><h2 title={description}>{title}</h2></div>{count ? <span className="hub-result-count" aria-live="polite">{count}</span> : null}</div>
     {children ? <div className="hub-toolbar-controls">{children}</div> : null}
   </section>;
 }

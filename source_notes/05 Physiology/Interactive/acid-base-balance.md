@@ -3,6 +3,7 @@
 - pH는 Henderson–Hasselbalch equation으로, PaCO₂는 CO₂ production/Alveolar ventilation의 비로 계산합니다. 환기 슬라이더는 분당 호흡수가 아니라 유효 Alveolar ventilation 상대값입니다.
 - 보상 공식은 단일 일차 장애의 예상 범위입니다. Mixed disorder, 시간 경과, 임상 맥락을 함께 해석해야 하며 치료량·환기 설정을 정하는 계산기가 아닙니다.
 - Anion gap은 K⁺를 제외합니다. 정상값 12 mEq/L, Albumin 4 g/dL을 교육 기준으로 사용하므로 실제 검사실 범위와 다를 수 있습니다.
+- 호흡성 장애의 예상 보상을 적용하면 단순 비교를 위해 HCO₃⁻ 변화만큼 Cl⁻를 반대 방향으로 조정해 AG를 유지합니다. 실제 환자의 전해질 변화나 보상에 필요한 시간을 예측하는 과정이 아닙니다.
 
 ## normal | 정상 Acid–base equilibrium
 ### 기전
@@ -76,6 +77,31 @@
 - Delta ratio는 시점·신기능·검사실 정상값의 영향을 받는 보조 지표입니다. 숫자 하나로 혼합 장애를 확정하지 않습니다.
 ### 관련 자료
 - [ABGA](lab:Arterial Blood Gas Analysis (ABGA))
+
+## chronic-retention | 만성 CO₂ 저류와 환기 변화
+### 기전
+- 만성 호흡성 산증에서는 신장의 HCO₃⁻ 보유가 증가합니다. 환기만 빠르게 증가해 PaCO₂가 내려가도 이전의 신장 적응이 즉시 사라지지는 않습니다.
+### 증상·검사 소견
+- PaCO₂ 상승과 HCO₃⁻ 상승을 보상 공식과 비교합니다. 경과 시간과 이전 검사를 모르면 단순 장애라고 확정하지 않습니다.
+### 관찰과 해석
+- 만성 CO₂ 저류를 선택한 다음 환기만 정상화하여 HCO₃⁻가 남은 상태의 pH 변화를 비교하세요. 치료 속도나 환기 설정을 결정하는 모델은 아닙니다.
+
+## ketoacidosis | 케톤산 축적
+### 기전
+- 케톤산 축적으로 HCO₃⁻가 감소하고 측정하지 않은 음이온이 증가합니다. 원인 교정과 호흡 보상을 구별합니다.
+### 증상·검사 소견
+- 보정 AG와 예상 PaCO₂를 함께 확인하고 실제 임상에서는 혈당, 혈중 케톤, 체액 상태 등을 함께 평가합니다.
+### 관찰과 해석
+- 설사 프리셋과 비교하면 HCO₃⁻가 낮아도 Cl⁻와 AG의 조합이 다릅니다.
+예측: 같은 대사성 산증이라도 케톤산 축적에서 흔히 높아지는 지표는? | 보정 AG | HCO₃⁻ | 반드시 PaCO₂ | 0
+
+## renal-acidosis | 신부전과 산 축적
+### 기전
+- 신장의 산 배설이 감소할 수 있습니다. 고AG 산증과 염소 증가가 공존할 수 있지만 신부전의 모든 단계에서 같은 양상을 가정하지 않습니다.
+### 증상·검사 소견
+- 신기능, 전해질, AG와 원인 약물 및 다른 대사성 산증 원인을 함께 살핍니다.
+### 관찰과 해석
+- 신장 모델의 GFR·배설 지수와 비교하되 두 화면은 환자의 체내 수지를 공유하는 모델이 아닙니다.
 
 ## 출처
 - [Merck Manual Professional — Acid-base disorders 및 보상 표](https://www.merckmanuals.com/professional/nephrology/acid-base-regulation-and-disorders/acid-base-disorders)

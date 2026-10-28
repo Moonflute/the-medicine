@@ -1,0 +1,7 @@
+/* Served directly: the CSS Highlight API is not yet parsed by this Next.js CSS pipeline. */
+::highlight(medicine-yellow) { background-color: rgb(250 204 21 / 32%); }
+::highlight(medicine-green) { background-color: rgb(52 211 153 / 29%); }
+::highlight(medicine-blue) { background-color: rgb(56 189 248 / 26%); }
+::highlight(medicine-pink) { background-color: rgb(244 114 182 / 28%); }
+::highlight(medicine-purple) { background-color: rgb(167 139 250 / 29%); }
+::highlight(medicine-orange) { background-color: rgb(251 146 60 / 28%); }

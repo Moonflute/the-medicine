@@ -34,6 +34,8 @@ export function MaternalChildHub({ diseases, hub }: { diseases: DiseaseNote[]; h
   const [query, setQuery] = useHubState("maternal-child-hub:query", "");
   const [milestoneQuery, setMilestoneQuery] = useHubState("maternal-child-hub:milestoneQuery", "");
   const [sourceQuery, setSourceQuery] = useHubState("maternal-child-hub:sourceQuery", "");
+  const [stageId, setStageId] = useHubState("maternal-child-hub:stage", "");
+  const [milestoneAge, setMilestoneAge] = useHubState("maternal-child-hub:age", "");
   const deferredQuery = useDeferredValue(query.trim().toLowerCase());
   const deferredMilestoneQuery = useDeferredValue(milestoneQuery.trim().toLowerCase());
   const sourceById = new Map(sources.map((source) => [source.id, source]));
@@ -42,6 +44,8 @@ export function MaternalChildHub({ diseases, hub }: { diseases: DiseaseNote[]; h
     && [stage.time, stage.title, stage.subtitle, ...stage.development, ...stage.assessments, ...stage.clinicalFocus, ...stage.related].join(" ").toLowerCase().includes(deferredQuery));
   const visibleMilestones = pediatricMilestones.filter((item) =>
     [item.age, item.title, ...item.gross, ...item.fine, ...item.language, ...item.social, ...item.visit].join(" ").toLowerCase().includes(deferredMilestoneQuery));
+  const selectedStage = visible.find(s=>s.id===stageId) ?? visible[0];
+  const selectedMilestone = visibleMilestones.find(m=>m.age===milestoneAge) ?? visibleMilestones[0];
   const visibleSources = sources.filter((item) => item.label.toLowerCase().includes(sourceQuery.trim().toLowerCase()));
 
   useEffect(() => {
@@ -52,8 +56,9 @@ export function MaternalChildHub({ diseases, hub }: { diseases: DiseaseNote[]; h
       const requestedTab = params.get("tab");
       if (requestedTab === "timeline" || requestedTab === "milestones" || requestedTab === "sources") setTab(requestedTab);
       else if (window.location.hash) setTab("timeline");
+      if (window.location.hash) setStageId(decodeURIComponent(window.location.hash.slice(1)));
     });
-  }, [setFilter, setTab]);
+  }, [setFilter, setTab, setStageId]);
   const updateUrl = (values: Record<string, string>) => {
     const url = new URL(window.location.href);
     Object.entries(values).forEach(([key, value]) => url.searchParams.set(key, value));
@@ -75,10 +80,11 @@ export function MaternalChildHub({ diseases, hub }: { diseases: DiseaseNote[]; h
               {([{ id: "all", label: "전체" }, { id: "obstetrics", label: "산과" }, { id: "pediatrics", label: "소아" }] as const).map((item) =>
                 <button key={item.id} type="button" className="hub-filter" aria-pressed={filter === item.id} onClick={() => selectFilter(item.id)}>{item.label}</button>)}
             </div>
+            <select className="hub-select" aria-label="진료 단계" value={selectedStage?.id ?? ""} onChange={e=>{setStageId(e.target.value); const url=new URL(window.location.href);url.hash=e.target.value;window.history.replaceState(null,"",url);}}>{visible.map(s=><option value={s.id} key={s.id}>{s.time} · {s.title}</option>)}</select>
           </HubToolbar>
           {visible.length ? <section className="hub-panel" aria-label="임신부터 소아청소년기까지의 타임라인">
-            <div className="relative ml-2 border-l-2 border-slate-200 pl-6 sm:ml-4 sm:pl-9">
-              {visible.map((stage) => {
+            <div className="maternal-stage-detail">
+              {(selectedStage ? [selectedStage] : []).map((stage) => {
                 const links = resolveRelated(diseases, stage.related);
                 const badge = stage.group === "obstetrics" ? "bg-rose-100 text-rose-800" : stage.group === "pediatrics" ? "bg-sky-100 text-sky-800" : "bg-violet-100 text-violet-800";
                 return <article key={stage.id} id={stage.id} className="relative scroll-mt-24 pb-6 last:pb-0">
@@ -99,8 +105,9 @@ export function MaternalChildHub({ diseases, hub }: { diseases: DiseaseNote[]; h
         {tab === "milestones" ? <>
           <HubToolbar title="발달 이정표" description="연령과 발달 영역으로 이정표와 진료·선별 항목을 찾아봅니다." count={`${visibleMilestones.length} / ${pediatricMilestones.length}개`}>
             <HubSearch label="발달 이정표 검색" value={milestoneQuery} onChange={setMilestoneQuery} placeholder="연령, 운동, 언어 또는 발달 항목 검색" />
+            <select className="hub-select" aria-label="발달 연령" value={selectedMilestone?.age ?? ""} onChange={e=>setMilestoneAge(e.target.value)}>{visibleMilestones.map(m=><option key={m.age} value={m.age}>{m.age} · {m.title}</option>)}</select>
           </HubToolbar>
-          {visibleMilestones.length ? <PediatricMilestoneGuide milestones={visibleMilestones} /> : <HubEmptyState onReset={() => setMilestoneQuery("")} />}
+          {visibleMilestones.length ? <PediatricMilestoneGuide milestones={selectedMilestone ? [selectedMilestone] : []} /> : <HubEmptyState onReset={() => setMilestoneQuery("")} />}
         </> : null}
 
         {tab === "sources" ? <>
@@ -122,7 +129,7 @@ function PediatricMilestoneGuide({ milestones }: { milestones: MaternalChildHubD
         <span className="rounded-full border border-sky-200 bg-white px-3 py-1.5 text-xs font-semibold text-sky-800">매 예방진료: 발달 감시</span>
       </div>
       <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm leading-6 text-amber-900"><strong>선별·의뢰:</strong> 표준화 발달선별은 9·18·30개월, ASD 특이 선별은 18·24개월에 시행합니다. 기술 소실(regression), 보호자 우려, 다영역 지연은 시점을 기다리지 말고 청력·시력·신경학적 평가와 조기중재 의뢰를 병행합니다.</div>
-      <div className="mt-5 grid gap-4 xl:grid-cols-2">{milestones.map((milestone) => <PediatricMilestoneCard key={milestone.age} milestone={milestone} />)}</div>
+      <div className="mt-3 grid gap-4">{milestones.map((milestone) => <PediatricMilestoneCard key={milestone.age} milestone={milestone} />)}</div>
     </section>
   );
 }

@@ -50,7 +50,7 @@ function statusFor(level: number): EndocrineStage["status"] { return level < 99 
  */
 export function calculateEndocrineState(axis: EndocrineAxisId, preset: EndocrinePreset, stimulus = 100, feedback = 100, exogenous = 0): EndocrineState {
   stimulus = clamp(stimulus, 30, 170); feedback = clamp(feedback, 30, 170); exogenous = clamp(exogenous, 0, 180);
-  const drive = stimulus / 100, gain = feedback / 100, external = preset === "exogenous" || axis === "adh" ? exogenous / 100 : 0;
+  const drive = stimulus / 100, gain = feedback / 100, external = exogenous / 100;
   let first = 1, second = 1, third = 1;
   const effects: EndocrineState["effects"] = [];
   if (axis === "adh") {

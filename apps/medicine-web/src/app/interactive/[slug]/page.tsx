@@ -10,7 +10,7 @@ import { NephronElectrolyteLab } from "@/components/nephron-electrolyte-lab";
 import { CardiacHemodynamicsLab } from "@/components/cardiac-hemodynamics-lab";
 import { EcgInteractiveLab } from "@/components/ecg-interactive-lab";
 import { EndocrineFeedbackLab } from "@/components/endocrine-feedback-lab";
-import { ParentPageFab } from "@/components/parent-page-fab";
+import { LabDisclosure } from "@/components/clinical-lab-workspace";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { getInteractiveConcept, interactiveConcepts } from "@/lib/interactive-concepts";
 import { getClinicalRelationsFor, getSpecialties } from "@/lib/webdb";
@@ -31,8 +31,8 @@ export default async function InteractiveConceptPage({ params }: { params: Promi
   ));
 
   return (
-    <SimulationWorkbench key={slug}><InteractiveLearningProvider data={learning}><div className={slug === "ecg-arrhythmia" ? "ecg-route" : "space-y-6"}>
-      <div className={slug === "ecg-arrhythmia" ? "ecg-route-header" : undefined}>
+    <SimulationWorkbench key={slug}><InteractiveLearningProvider data={learning}><div className={slug === "ecg-arrhythmia" ? "ecg-route" : "clinical-route"}>
+      <div className={slug === "ecg-arrhythmia" ? "ecg-route-header" : "clinical-route-nav"}>
       {slug === "ecg-arrhythmia" ? <h1>ECG 전기생리 모델</h1> : null}
       <nav aria-label="관련 분과로 돌아가기" className="flex flex-wrap gap-2">
         {specialtyLinks.map((specialty) => (
@@ -42,6 +42,7 @@ export default async function InteractiveConceptPage({ params }: { params: Promi
           </Link>
         ))}
       </nav>
+      {slug !== "ecg-arrhythmia" ? <LabDisclosure label="출처·관련 자료"><LearningSources data={learning}/>{relations.length > 0 ? <RelatedClinicalContent relations={relations}/> : null}</LabDisclosure> : null}
       </div>
 
       {slug === "acid-base-balance" ? <AcidBaseBalanceLab /> : null}
@@ -51,7 +52,6 @@ export default async function InteractiveConceptPage({ params }: { params: Promi
       {slug === "ecg-arrhythmia" ? <EcgInteractiveLab /> : null}
       {slug === "endocrine-feedback-axes" ? <EndocrineFeedbackLab /> : null}
 
-      {slug !== "ecg-arrhythmia" ? <><LearningSources data={learning}/>{relations.length>0&&<details className="physiology-card"><summary className="cursor-pointer font-semibold">분과 전체 관련 자료 · 자동 연결 포함</summary><div className="mt-4"><RelatedClinicalContent relations={relations} /></div></details>}<ParentPageFab href="/specialties" /></> : null}
     </div></InteractiveLearningProvider></SimulationWorkbench>
   );
 }

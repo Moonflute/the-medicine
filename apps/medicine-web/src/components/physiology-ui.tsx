@@ -42,7 +42,7 @@ export function PhysiologyControl({ label, value, min, max, step, displayValue, 
     const next = Math.min(max, Math.max(min, Math.round(parsed / step) * step));
     onChange(next); setDraft(String(Number(next.toFixed(3))));
   };
-  return <div className="physiology-control">
+  return <div className="physiology-control" title={hint}>
     <label htmlFor={id} className="flex items-center justify-between gap-3 text-sm font-bold"><span>{label}</span><span className="font-mono">{displayValue}</span></label>
     <div className="mt-2 flex items-center gap-3">
       <input id={id} type="range" min={min} max={max} step={step} value={value} aria-describedby={id+"-hint"} onChange={e=>onChange(Number(e.target.value))} className="min-w-0 flex-1 accent-teal-700" />

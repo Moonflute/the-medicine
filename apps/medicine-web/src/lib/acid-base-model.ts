@@ -54,3 +54,34 @@ export function calculateAnionGap(sodium: number, chloride: number, bicarbonate:
   const corrected = gap + 2.5 * (4 - albumin);
   return { gap, corrected, deltaRatio: bicarbonate < 24 && corrected > 12 ? (corrected - 12) / (24 - bicarbonate) : null };
 }
+
+/** Interpret the measured secondary component against the selected primary disorder.
+ * A deviation is a clue, not a diagnosis: timing of compensation remains relevant.
+ */
+export function assessCompensation(state: AcidBaseState) {
+  const metabolic = state.primary.startsWith("metabolic");
+  const component = metabolic ? "PaCO₂" : "HCO₃⁻";
+  const actual = metabolic ? state.paCO2 : state.bicarbonate;
+  const tolerance = state.primary === "metabolic-alkalosis" ? 5 : 2;
+  if (state.expected === null) return { component, actual, low: null, high: null, direction: "none" as const, label: "일차 장애를 선택해 보상과 비교" };
+  const low = state.expected - tolerance, high = state.expected + tolerance;
+  const direction = actual < low ? "below" as const : actual > high ? "above" as const : "within" as const;
+  const label = direction === "within" ? "예상 보상 범위 안"
+    : metabolic ? direction === "above" ? "호흡성 산증 동반 또는 보상 미완료" : "호흡성 알칼리증 동반 가능"
+      : direction === "above" ? "대사성 알칼리증 동반 가능" : "대사성 산증 동반 또는 보상 미완료";
+  return { component, actual, low, high, direction, label };
+}
+
+export type AcidBaseCase = { id: string; label: string; primary: AcidBaseDisorder; duration: CompensationDuration; values: AcidBaseInputs; sodium: number; chloride: number; albumin: number; note: string };
+const baseline = { sodium: 140, chloride: 104, albumin: 4, duration: "acute" as const };
+export const ACID_BASE_CASES: AcidBaseCase[] = [
+  { ...baseline, id: "normal", label: "정상", primary: "auto", values: { ventilation: 100, co2Production: 100, bicarbonate: 24 }, note: "환기와 대사 성분을 각각 바꿔 보세요." },
+  { ...baseline, id: "hypoventilation", label: "급성 저환기", primary: "respiratory-acidosis", chloride: 102, values: { ventilation: 4000 / 60, co2Production: 100, bicarbonate: 26 }, note: "PaCO₂ 상승에 대한 급성 완충 반응입니다. 환기 정상화 전후를 비교하세요." },
+  { ...baseline, id: "chronic-retention", label: "만성 CO₂ 저류", primary: "respiratory-acidosis", duration: "chronic", chloride: 97, values: { ventilation: 4000 / 60, co2Production: 100, bicarbonate: 31 }, note: "만성 신장 적응 후 환기만 정상화하면 HCO₃⁻가 남아 알칼리혈증이 나타날 수 있습니다." },
+  { ...baseline, id: "hyperventilation", label: "급성 과환기", primary: "respiratory-alkalosis", chloride: 106.4, values: { ventilation: 4000 / 28, co2Production: 100, bicarbonate: 21.6 }, note: "CO₂ 소실과 HCO₃⁻의 급성 감소를 함께 봅니다." },
+  { ...baseline, id: "bicarbonate-loss", label: "설사 · HCO₃⁻ 소실", primary: "metabolic-acidosis", chloride: 114, values: { ventilation: 4000 / 29, co2Production: 100, bicarbonate: 14 }, note: "Cl⁻ 증가로 AG는 유지됩니다. 환기를 낮추면 호흡성 산증이 추가됩니다." },
+  { ...baseline, id: "ketoacidosis", label: "케톤산 축적", primary: "metabolic-acidosis", values: { ventilation: 4000 / 23, co2Production: 100, bicarbonate: 10 }, note: "HCO₃⁻ 감소와 AG 증가가 함께 나타납니다. 보상 범위와 실제 PaCO₂를 비교하세요." },
+  { ...baseline, id: "renal-acidosis", label: "신부전 · 산 축적", primary: "metabolic-acidosis", chloride: 108, values: { ventilation: 4000 / 26, co2Production: 100, bicarbonate: 12 }, note: "신부전에서 가능한 고AG·고염소 혼합 예시입니다. 모든 신부전의 고정된 양상은 아닙니다." },
+  { ...baseline, id: "bicarbonate-gain", label: "구토 · 염소 소실", primary: "metabolic-alkalosis", chloride: 94, values: { ventilation: 4000 / 47, co2Production: 100, bicarbonate: 34 }, note: "Cl⁻ 감소와 대사성 알칼리증을 연결합니다. 보상은 원인 교정과 구분합니다." },
+  { ...baseline, id: "mixed", label: "젖산 축적 + 과환기", primary: "metabolic-acidosis", values: { ventilation: 200, co2Production: 100, bicarbonate: 12 }, note: "pH가 약 7.40이어도 AG 상승과 예상보다 낮은 PaCO₂가 혼합 장애를 드러냅니다." },
+];
