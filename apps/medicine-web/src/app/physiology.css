@@ -83,7 +83,7 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .ecg-injury-result { padding-top:10px; border-top:1px solid var(--line); }.ecg-injury-result dl { margin:8px 0; display:grid; gap:5px; }.ecg-injury-result dl>div { display:flex; justify-content:space-between; font-size:12px; }.ecg-injury-result dd { font:600 13px ui-monospace,monospace; }.ecg-injury-result .ecg-check { margin-top:9px; }.ecg-injury-result .ecg-onset-button { margin-top:8px; }
 .ecg-tissue-probes svg { display:block; width:100%; margin-top:6px; background:#fafbf9; border:1px solid var(--line); border-radius:6px; }.ecg-tissue-probes text { font:9px system-ui,sans-serif; fill:#516a62; }
 .physiology-workbench .ecg-scene-toolbar select,.physiology-workbench .ecg-signal-toolbar select { padding:3px 5px; border-radius:5px; font-size:12px; }
-.ecg-integrated-scene { position:relative; display:grid; grid-template-rows:minmax(0,1fr) 30px; min-height:0; min-width:0; background:#fbfcfa; color:#203b3b; }
+.ecg-integrated-scene { position:relative; display:grid; grid-template-rows:minmax(0,1fr) minmax(30px,auto); min-height:0; min-width:0; background:#fbfcfa; color:#203b3b; }
 .ecg-integrated-heading { position:absolute; z-index:1; top:4px; left:0; right:0; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:3px 10px; pointer-events:none; }
 .ecg-scene-modes { pointer-events:auto; }
 .ecg-integrated-heading>span { font-size:10px; color:#526775; white-space:nowrap; }
@@ -113,6 +113,8 @@ html[data-theme] .physiology-workbench button[aria-pressed="true"] { background:
 .ecg-integrated-scene[data-electrode-mode="true"] .ecg-conduction-network { opacity:.35; }
 .ecg-heart-key { display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:0 12px; font-size:10px; padding:2px 5px; border-top:1px solid #eaf0ea; }
 .ecg-heart-key span { display:inline-flex; align-items:center; gap:4px; }
+.ecg-heart-key .ecg-net-vector-toggle { display:inline-flex; align-items:center; gap:4px; min-height:24px; margin:0; color:#111; font-size:10px; font-weight:650; white-space:nowrap; cursor:pointer; }
+.ecg-net-vector-toggle input { width:13px; height:13px; margin:0; accent-color:#111; cursor:pointer; }
 .ecg-heart-key strong { font-size:10px; font-weight:600; color:#46665b; border-left:1px solid #d8e4db; padding:2px 0 2px 12px; }
 .ecg-heart-key i { display:inline-block; width:11px; height:6px; border-radius:3px; }
 .ecg-key-conduction { background:#397b71; }.ecg-key-current { background:#086bb5; }.ecg-key-active { background:#e3a13e; }.ecg-key-recovery { background:#7b9eac; }.ecg-current-key { color:#086bb5; font-weight:650; }

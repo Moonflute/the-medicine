@@ -11,7 +11,7 @@
 - 화면은 하나의 Epicardial 외곽선 안에 RA·LA·RV·LV, Septum, AV valves와 Chordae를 배치한 전면 개념 절개도입니다. 뒤쪽의 LA와 앞·뒤 심근 구역을 펼쳐 배치했으며 환자 영상, 실제 단면이나 위치 비례를 재현하지 않습니다. 청록색 전도 경로의 세부 좌표는 계산 좌표와 별개입니다.
 - 심방 사이의 개별 전도 경로·명칭은 도해에서 생략하고, 계산에서는 Atrial myocardium 사이의 분산된 결합으로 축약합니다. SA node는 SVC–RA 접합부, AV node는 RA 하부 Septal 영역에 표시합니다. His·Bundle branches는 Septum을 따르고 Purkinje 말단은 Endocardial 경계에서 분지합니다. 실제 환자의 전체 Network나 세부 Fascicle을 재구성한 것은 아닙니다.
 - 황금색 이동점은 각 연결의 양 끝 구역에서 Vm이 0.5를 통과한 기록 시각 사이를 보간합니다. 매 박동의 실제 기록을 사용하며 RV 자극에서는 역방향 활성도 표시합니다. 연속 조직의 Wavefront 위치나 물리적 전도 속도를 따로 계산하는 것은 아닙니다. 차단된 연결은 붉은 점선과 ×로 표시하고 이동점을 그리지 않습니다.
-- 파란 화살표는 전극이 아니라 고정 관찰점에서의 Electric field E = −∇φ입니다. RA·LA 각각 1개와 Ventricles 9개 구역의 조직 중심에 관찰점을 두며 시작점은 시간·손상 설정에 따라 이동하지 않습니다. ECG와 동일한 분포 Dipole의 Extracellular potential φ를 관찰 위치에 대해 미분합니다. 따라서 결합 전류 자체나 흥분 파면의 이동 방향과 같다고 해석하면 안 됩니다.
+- 파란 화살표는 전극이 아니라 고정 관찰점에서의 Electric field E = −∇φ입니다. RA·LA와 Ventricles 9개 구역마다 2개씩, 총 22개 관찰점을 둡니다. Atria는 전파 방향으로, Ventricles는 절개도의 벽을 따라 펼친 조직 열을 두 부분으로 나누어 각각의 조직 중심에서 계산합니다. 시작점은 시간·손상 설정에 따라 이동하지 않으며 동일 화살표를 복제하지 않습니다. ECG와 동일한 분포 Dipole의 Extracellular potential φ를 관찰 위치에 대해 미분합니다. 따라서 결합 전류 자체나 흥분 파면의 이동 방향과 같다고 해석하면 안 됩니다.
 - 화살표의 시작점은 고정하며 동그라미 등 별도 표식은 그리지 않습니다. 화살표는 전기장의 정면 투영 방향·크기이며 모든 지점·시각에 같은 길이 압축 배율을 사용합니다. 정면 성분이 작으면 화살표를 생략하므로, 표시가 없다고 3D 전기장 전체가 0이라는 뜻은 아닙니다. 관찰 위치는 펼친 절개도에 대응하고 방향은 공통 정면 좌표계입니다. 흉곽 보기를 돌려도 이 절개도는 정면입니다. ECG 원 파형·막전위 계산은 바꾸지 않습니다.
 - 전기장은 기존 Infinite homogeneous conductor와 거리 하한 0.25 model unit을 적용한 전위식에서 계산한 교육용 값입니다. V/m로 보정하지 않았으며 실제 심근의 Intracellular/Extracellular field를 분리한 Bidomain 해가 아닙니다. Lead field는 선택한 유도의 측정 민감도이고, 고정 관찰점의 E와는 다른 양입니다.
 - 심근 벽의 옅은 황금색은 흥분, 청회색은 막전위가 내려가는 회복, 원래 벽색은 낮은 Vm입니다. 구역·층의 평균 Vm을 저장 샘플 사이에서 보간합니다. Atria는 전파 방향으로, Ventricles는 벽 두께 방향으로 배열하며 산소포화도는 아닙니다. 이름에 마우스를 올리거나 초점을 맞추면 짧은 설명이 나오고, 클릭 또는 Enter로 상세 설명과 첫 활성 시각을 확인합니다.
@@ -78,6 +78,9 @@
 - 왼쪽은 확대 심장 절개도와 전극 지도를 합친 화면이고 오른쪽은 같은 시간축·감도의 12유도입니다. 기본 시간축은 한 박동이며 전체 2.4초로 바꿀 수 있습니다. 유도를 선택하고 확대하면 한 파형을 오른쪽 전체 높이로 확인합니다. P·QRS·T 배경은 계산된 활성·회복에 대응하는 관찰 구간이며 임상 자동 판독 결과는 아닙니다.
 - 왼쪽의 ‘전도 경로’에서는 심장 구조와 전도 연결이 강조되고, ‘전극 위치’에서는 흉곽과 9개 측정 전극이 강조됩니다. 전극 위치 보기에서 흉곽을 클릭하거나 전극을 드래그하고, 앞·옆·뒤 보기와 각도 조절로 3D 표면을 탐색합니다. 심장 절개도는 정면을 유지하며 그 확대나 경로 배치가 계산 좌표의 거리를 바꾸지 않습니다. 전극 위치 예시는 실제 늑간·Clavicle에 따른 부착 도해가 아닙니다. RA↔LA 위치 교환으로 Lead reversal의 영향을 비교할 수 있습니다.
 - Dipole·Lead field 방향은 설정에서 켤 수 있으며 작은 별도 도해에 표시합니다. 청회색은 합성 dipole, 청록 점선은 선택한 유도의 Lead field이고, 화살표 길이는 방향을 읽기 위한 고정 배율입니다.
+- 심장 그림의 큰 검은 화살표는 전체 전류원의 벡터 합인 **Net dipole p(t)**입니다. 각 Source edge에서 계산한 `SOURCE_GAIN × conductance × (Vm[a]−Vm[b]) × (position[b]−position[a])`를 합산합니다. 특정 위치의 Electric field E나 서로 다른 관찰점에 있는 파란 화살표들의 합은 아닙니다.
+- 시작점은 절개도 중심에 고정하고, 방향·길이는 Net dipole의 정면 성분으로 표시합니다. 시간·손상 조건마다 바뀌지 않는 선형 배율을 사용하되 화면을 벗어날 정도의 길이만 제한합니다. 정면 성분이 작으면 생략하므로 화살표가 없다고 3D 벡터 전체가 0은 아닙니다. 저장 시점 사이는 벡터 성분을 보간해 상쇄·방향 반전을 표현합니다.
+- 그림 아래 **합성 벡터** 체크로 검은 화살표만 켜고 끕니다. 표시 여부·심장 수축 표시·전극 이동·유도 선택은 이 벡터의 계산값을 바꾸지 않습니다. ECG는 계속 분포 전류원을 각각 측정하며, 이 합성 벡터 하나로 원 파형을 대체하지 않습니다.
 ### 관련 자료
 - [심근 전기활동 계산](/interactive/ecg-arrhythmia/notes#forward-model)
 
@@ -276,6 +279,7 @@
 - [MacLachlan et al. — Regional ischemia, resting potential and TP shift (2007)](https://pubmed.ncbi.nlm.nih.gov/17544454/)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 11: Distributed sources and Lead vector](https://www.bem.fi/book/11/11.htm)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 8: Source-field models, E = −∇φ](https://www.bem.fi/book/08/08.htm)
+- [Babbs — Quantitative prediction of body surface potentials using a summed dipole model](https://pubmed.ncbi.nlm.nih.gov/19543975/)
 - [Malmivuo & Plonsey — Bioelectromagnetism, Chapter 15: 12-Lead ECG system](https://www.bem.fi/book/15/15.htm)
 - [AHA/ACCF/HRS — ECG standardization, Part I: Technology and multilead measurement (2007)](https://www.jacc.org/doi/10.1016/j.jacc.2007.01.024)
 - [Mitchell & Schaeffer — A two-current model for the dynamics of cardiac membrane (2003)](https://pubmed.ncbi.nlm.nih.gov/12909250/)

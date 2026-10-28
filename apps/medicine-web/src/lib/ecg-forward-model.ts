@@ -420,6 +420,17 @@ export function sampleElectricField(recording: ForwardRecording, weights: Electr
   return result;
 }
 
+/** Sum of the model's distributed source dipoles, NOT E at a spatial point.
+ * Interpolate signed components so reversals pass through zero without rotation
+ * artifacts. This only reads the solution; electrodes and display toggles do not
+ * change the source vector or the distributed-source ECG calculation. */
+export function sampleNetDipole(recording: ForwardRecording, timeMs: number): Vec3 {
+  const position = Math.max(0, Math.min(recording.samples - 1, timeMs / recording.sampleMs));
+  const first = Math.floor(position), last = Math.min(recording.samples - 1, first + 1), fraction = position - first;
+  const component = (d: number) => recording.dipole[first * 3 + d] * (1 - fraction) + recording.dipole[last * 3 + d] * fraction;
+  return [component(0), component(1), component(2)];
+}
+
 export function referencePositions(placement:LeadPlacement):Vec3[] {
   const limbs=placement.limbs??LIMB_ELECTRODES;
   if(placement.reference==="wilson") return Object.values(limbs).map(electrodePosition);

@@ -124,25 +124,47 @@ export function createHeartDeformation(frame: MechanicalFrame): HeartDeformation
   };
 }
 
-/** Fixed tissue-centroid observation points: two atrial and nine ventricular.
+/** Two fixed subregion-centroid probes per ribbon: four atrial and eighteen
+ * ventricular. Split atria along propagation and ventricles across the columns
+ * that are spread along each wall in createAnatomyLayout. Each point samples its
+ * own 3-D field, rather than duplicating the former region-center arrow.
  * The cutaway is unfolded, so its anchors are anatomical locators, NOT torso
  * coordinates. Arrows use a common frontal projection of the 3-D field. */
 export function createAnatomyFieldProbes(mesh: HeartMesh) {
   return Object.entries(RIBBONS).flatMap(([region, ribbon]) => {
     const cells = mesh.cells.filter(cell => cell.region === region && !cell.bridge && cell.chamber !== "node");
-    if (!cells.length) return [];
-    const position = [0, 1, 2].map(d => cells.reduce((sum, cell) => sum + cell.position[d], 0) / cells.length) as unknown as Vec3;
-    return [{ region, position, ...ribbonPoint(ribbon, .5, .5) }];
+    const coordinate = (cell: (typeof cells)[number]) => ribbon.atrial ? cell.longitudinal ?? .5 : (cell.column ?? 4) / 8;
+    return [0, 1].flatMap(half => {
+      const local = cells.filter(cell => (coordinate(cell) < .5 ? 0 : 1) === half);
+      if (!local.length) return [];
+      const position = [0, 1, 2].map(d => local.reduce((sum, cell) => sum + cell.position[d], 0) / local.length) as unknown as Vec3;
+      const center = local.reduce((sum, cell) => sum + coordinate(cell), 0) / local.length;
+      const along = ribbon.atrial ? center : .12 + center * .76;
+      return [{ id: `${region}-${half + 1}`, region, position, ...ribbonPoint(ribbon, along, .5) }];
+    });
   });
 }
 
 // Shared, fixed display gain; never rescale each arrow/frame to its own maximum.
+// Half the former display length; the field itself and net dipole are unchanged.
 // The bounded length is for legibility, not an absolute V/m calibration.
 export function projectAnatomyField(field: Vec3) {
   const magnitude = Math.hypot(...field), inPlane = Math.hypot(field[0], field[1]);
-  const length = 32 * Math.tanh(Math.log1p(inPlane / 3) / 3);
+  const length = 16 * Math.tanh(Math.log1p(inPlane / 3) / 3);
   return { magnitude, inPlane, length, dx: inPlane > 1e-12 ? field[0] / inPlane : 0, dy: inPlane > 1e-12 ? -field[1] / inPlane : 0 };
 }
+
+// A fixed diagram anchor, not a moving material point or a field observation site.
+export const NET_DIPOLE_ORIGIN: DiagramPoint = { x: 310, y: 280 };
+export function projectAnatomyDipole(dipole: Vec3) {
+  const magnitude = Math.hypot(...dipole), inPlane = Math.hypot(dipole[0], dipole[1]);
+  // One linear gain across times/conditions; cap only to keep the arrow in view.
+  // Never normalize by the current frame, lead, or recording's largest vector.
+  const rawLength = inPlane * .75, length = Math.min(135, rawLength);
+  return { ...NET_DIPOLE_ORIGIN, magnitude, inPlane, length, limited: rawLength > 135,
+    dx: inPlane > 1e-12 ? dipole[0] / inPlane : 0, dy: inPlane > 1e-12 ? -dipole[1] / inPlane : 0 };
+}
+
 function ribbonBand(ribbon: Ribbon, start: number, end: number) {
   const points: DiagramPoint[] = [];
   for (let i = 0; i <= 12; i++) points.push(ribbon.atrial ? ribbonPoint(ribbon, start + (end - start) * i / 12, 0) : ribbonPoint(ribbon, i / 12, start));
