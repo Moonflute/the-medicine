@@ -1,9 +1,10 @@
 # Acid–base balance
-검토 기준일: 2026-10-21
+검토 기준일: 2026-10-29
 - pH는 Henderson–Hasselbalch equation으로, PaCO₂는 CO₂ production/Alveolar ventilation의 비로 계산합니다. 환기 슬라이더는 분당 호흡수가 아니라 유효 Alveolar ventilation 상대값입니다.
 - 보상 공식은 단일 일차 장애의 예상 범위입니다. Mixed disorder, 시간 경과, 임상 맥락을 함께 해석해야 하며 치료량·환기 설정을 정하는 계산기가 아닙니다.
 - Anion gap은 K⁺를 제외합니다. 정상값 12 mEq/L, Albumin 4 g/dL을 교육 기준으로 사용하므로 실제 검사실 범위와 다를 수 있습니다.
-- 호흡성 장애의 예상 보상을 적용하면 단순 비교를 위해 HCO₃⁻ 변화만큼 Cl⁻를 반대 방향으로 조정해 AG를 유지합니다. 실제 환자의 전해질 변화나 보상에 필요한 시간을 예측하는 과정이 아닙니다.
+- 보상 참고선은 예상 범위를 표시하며 입력값을 바꾸지 않습니다. 기준 고정 뒤에는 처음 ABG와 현재 ABG를 같은 지도에서 비교합니다. 네모는 저장한 기준, 원은 현재 상태이며 청록 띠는 선택한 일차 장애의 예상 보상 범위입니다.
+- 대표 사례의 환기 개입은 같은 시작 조건에서 폐포 환기만 바꾸고 HCO₃⁻·Na·Cl·Albumin은 고정합니다. 환기 100%는 교육 기준이며 환자에게 권장하는 환기 설정이나 치료 목표가 아닙니다. 시간에 따른 신장 적응은 별도로 계산하지 않습니다.
 
 ## normal | 정상 Acid–base equilibrium
 ### 기전
@@ -75,6 +76,7 @@
 ### 관찰과 해석
 - AG = Na⁺−Cl⁻−HCO₃⁻, 보정 AG = AG+2.5×(4−Albumin)입니다. Delta ratio는 (보정 AG−12)/(24−HCO₃⁻)이며, HCO₃⁻가 24 이상이거나 AG가 높지 않으면 이 모델에서는 표시하지 않습니다.
 - Delta ratio는 시점·신기능·검사실 정상값의 영향을 받는 보조 지표입니다. 숫자 하나로 혼합 장애를 확정하지 않습니다.
+- 젖산 축적 + 과환기 사례에서 처음 검사값을 고정한 뒤 폐포 환기를 100%로 가정해 보세요. pH는 낮아지지만 HCO₃⁻와 AG는 유지되어, 처음의 정상 pH가 산 축적의 소실을 의미하지 않았음을 비교할 수 있습니다.
 ### 관련 자료
 - [ABGA](lab:Arterial Blood Gas Analysis (ABGA))
 
@@ -84,7 +86,7 @@
 ### 증상·검사 소견
 - PaCO₂ 상승과 HCO₃⁻ 상승을 보상 공식과 비교합니다. 경과 시간과 이전 검사를 모르면 단순 장애라고 확정하지 않습니다.
 ### 관찰과 해석
-- 만성 CO₂ 저류를 선택한 다음 환기만 정상화하여 HCO₃⁻가 남은 상태의 pH 변화를 비교하세요. 치료 속도나 환기 설정을 결정하는 모델은 아닙니다.
+- 만성 CO₂ 저류를 선택한 다음 환기를 100%로 가정하여 HCO₃⁻가 남은 상태의 pH 변화를 비교하세요. PaCO₂가 초기 호흡성 산증 범위를 벗어나면 초기 가설의 보상 참고선은 표시하지 않습니다. 판독 가설에서 대사성 알칼리증을 선택해 남은 HCO₃⁻ 상승을 따로 평가할 수 있습니다. 치료 속도나 환기 설정을 결정하는 모델은 아닙니다.
 
 ## ketoacidosis | 케톤산 축적
 ### 기전
@@ -93,6 +95,7 @@
 - 보정 AG와 예상 PaCO₂를 함께 확인하고 실제 임상에서는 혈당, 혈중 케톤, 체액 상태 등을 함께 평가합니다.
 ### 관찰과 해석
 - 설사 프리셋과 비교하면 HCO₃⁻가 낮아도 Cl⁻와 AG의 조합이 다릅니다.
+- 케톤산 축적 사례에서 환기를 100%로 가정하면 HCO₃⁻가 낮게 유지된 상태에서 PaCO₂가 올라가 pH가 더 낮아집니다. 산 축적이 남아 있을 때 보상성 과환기의 감소가 갖는 의미를 봅니다.
 예측: 같은 대사성 산증이라도 케톤산 축적에서 흔히 높아지는 지표는? | 보정 AG | HCO₃⁻ | 반드시 PaCO₂ | 0
 
 ## renal-acidosis | 신부전과 산 축적
@@ -104,6 +107,7 @@
 - 신장 모델의 GFR·배설 지수와 비교하되 두 화면은 환자의 체내 수지를 공유하는 모델이 아닙니다.
 
 ## 출처
+- [American Thoracic Society — Interpretation of ABGs](https://site.thoracic.org/assemblies/cc/clinical-education/interpretation-of-abgs)
 - [Merck Manual Professional — Acid-base disorders 및 보상 표](https://www.merckmanuals.com/professional/nephrology/acid-base-regulation-and-disorders/acid-base-disorders)
 - [Merck Manual Professional — Acid-base regulation](https://www.merckmanuals.com/professional/nephrology/acid-base-regulation-and-disorders/acid-base-regulation)
 - [Merck Manual Professional — Respiratory acidosis](https://www.merckmanuals.com/professional/nephrology/acid-base-regulation-and-disorders/respiratory-acidosis)

@@ -85,3 +85,30 @@ export const ACID_BASE_CASES: AcidBaseCase[] = [
   { ...baseline, id: "bicarbonate-gain", label: "구토 · 염소 소실", primary: "metabolic-alkalosis", chloride: 94, values: { ventilation: 4000 / 47, co2Production: 100, bicarbonate: 34 }, note: "Cl⁻ 감소와 대사성 알칼리증을 연결합니다. 보상은 원인 교정과 구분합니다." },
   { ...baseline, id: "mixed", label: "젖산 축적 + 과환기", primary: "metabolic-acidosis", values: { ventilation: 200, co2Production: 100, bicarbonate: 12 }, note: "pH가 약 7.40이어도 AG 상승과 예상보다 낮은 PaCO₂가 혼합 장애를 드러냅니다." },
 ];
+
+export type AcidBaseExperiment = {
+  caseId: string; question: string;
+  actions: { id: string; label: string; ventilation?: number }[];
+};
+export const ACID_BASE_EXPERIMENTS: AcidBaseExperiment[] = [
+  { caseId: "mixed", question: "pH가 7.40에 가까운 이 상태에서 과환기만 사라지면?", actions: [
+    { id: "baseline", label: "처음 검사값" }, { id: "ventilation-normal", label: "폐포 환기 100%로 가정", ventilation: 100 },
+  ] },
+  { caseId: "ketoacidosis", question: "산 축적이 남아 있는데 보상성 과환기가 감소하면?", actions: [
+    { id: "baseline", label: "보상성 과환기" }, { id: "ventilation-normal", label: "폐포 환기 100%로 가정", ventilation: 100 },
+  ] },
+  { caseId: "chronic-retention", question: "만성 CO₂ 저류에서 HCO₃⁻가 유지된 채 환기만 증가하면?", actions: [
+    { id: "baseline", label: "만성 저류 상태" }, { id: "ventilation-normal", label: "폐포 환기 100%로 가정", ventilation: 100 },
+  ] },
+];
+
+/** Ventilation-only counterfactual: chemistry and the history used to choose the
+ * primary disorder remain fixed. This is not a treatment target or time model.
+ */
+export function acidBaseExperimentCase(caseId: string, actionId: string): AcidBaseCase | null {
+  const initial = ACID_BASE_CASES.find(item => item.id === caseId);
+  const experiment = ACID_BASE_EXPERIMENTS.find(item => item.caseId === caseId);
+  const action = experiment?.actions.find(item => item.id === actionId);
+  if (!initial || !action) return null;
+  return { ...initial, values: { ...initial.values, ventilation: action.ventilation ?? initial.values.ventilation } };
+}

@@ -6,6 +6,8 @@ export type NephronInputs = {
   thiazideBlock: number;
   enacBlock: number;
   carbonicAnhydraseBlock: number;
+  rasBlock: number;
+  mrBlock: number;
 };
 
 export type NephronSolute = "Na+" | "K+" | "Cl-" | "HCO3-" | "Ca2+" | "Mg2+" | "H2O";
@@ -119,27 +121,39 @@ const DEFINITIONS: SegmentDefinition[] = [
   },
 ];
 
+/** Separate upstream aldosterone suppression, MR antagonism, and direct ENaC block.
+ * Coefficients describe teaching responses, not drug doses or pharmacokinetics.
+ * GFR is an independent input: RAS blockade does not imply fixed renal damage.
+ */
+export function nephronRegulation(inputs: NephronInputs) {
+  const aldosteroneSignal = inputs.aldosterone * (1 - inputs.rasBlock / 100 * .8);
+  const receptorSignal = aldosteroneSignal * (1 - inputs.mrBlock / 100 * .9);
+  return { aldosteroneSignal, receptorSignal, enacAvailable: 100 - inputs.enacBlock };
+}
+
 function segmentModifier(id: NephronSegmentId, solute: NephronSolute, inputs: NephronInputs) {
+  const aldosterone = nephronRegulation(inputs).receptorSignal;
   if (id === "proximal" && (solute === "HCO3-" || solute === "Na+")) return 1 - inputs.carbonicAnhydraseBlock / 100 * (solute === "HCO3-" ? 0.82 : 0.12);
   if (id === "thick-ascending" && solute !== "H2O") return 1 - inputs.loopBlock / 100 * 0.94;
   if (id === "distal" && (solute === "Na+" || solute === "Cl-")) return 1 - inputs.thiazideBlock / 100 * 0.92;
   if (id === "distal" && solute === "Ca2+") return 1 + inputs.thiazideBlock / 100 * 0.35;
   if (id === "distal" && solute === "Mg2+") return 1 - inputs.thiazideBlock / 100 * 0.35;
-  if (id === "collecting" && solute === "Na+") return (0.45 + inputs.aldosterone / 100 * 0.9) * (1 - inputs.enacBlock / 100 * 0.95);
+  if (id === "collecting" && solute === "Na+") return (0.45 + aldosterone / 100 * 0.9) * (1 - inputs.enacBlock / 100 * 0.95);
   if (id === "collecting" && solute === "K+") {
     const distalFlow = 1 + (inputs.loopBlock + inputs.thiazideBlock) / 250;
-    return (0.35 + inputs.aldosterone / 100 * 1.15) * distalFlow * (1 - inputs.enacBlock / 100 * 0.85);
+    return (0.35 + aldosterone / 100 * 1.15) * distalFlow * (1 - inputs.enacBlock / 100 * 0.85);
   }
   if (id === "descending" && solute === "H2O") return 1 - inputs.loopBlock / 100 * 0.5;
   if (id === "proximal" && solute === "H2O") return 1 - inputs.carbonicAnhydraseBlock / 100 * 0.1;
   return 1;
 }
 
-export function calculateNephronState(raw: NephronInputs): NephronState {
+export function calculateNephronState(raw: Omit<NephronInputs, "rasBlock" | "mrBlock"> & Partial<Pick<NephronInputs, "rasBlock" | "mrBlock">>): NephronState {
   const inputs: NephronInputs = {
     gfr: clamp(raw.gfr, 15, 160), adh: clamp(raw.adh, 0, 100), aldosterone: clamp(raw.aldosterone, 0, 100),
     loopBlock: clamp(raw.loopBlock, 0, 100), thiazideBlock: clamp(raw.thiazideBlock, 0, 100),
     enacBlock: clamp(raw.enacBlock, 0, 100), carbonicAnhydraseBlock: clamp(raw.carbonicAnhydraseBlock, 0, 100),
+    rasBlock: clamp(raw.rasBlock ?? 0, 0, 100), mrBlock: clamp(raw.mrBlock ?? 0, 0, 100),
   };
   const remaining = Object.fromEntries(SOLUTES.map((solute) => [solute, 100])) as Record<NephronSolute, number>;
   const segments = DEFINITIONS.map((definition) => {
@@ -180,6 +194,9 @@ export function calculateNephronState(raw: NephronInputs): NephronState {
   if (inputs.loopBlock > 35) pattern = "NKCC2 억제 · NaCl/Ca/Mg 회수와 수질 농축기울기 감소";
   else if (inputs.thiazideBlock > 35) pattern = "NCC 억제 · NaCl 배설 증가와 Ca2+ 회수 증가";
   else if (inputs.enacBlock > 35) pattern = "ENaC 억제 · Na+ 회수와 K+ 분비 감소";
+  else if (inputs.rasBlock > 35 && inputs.mrBlock > 35) pattern = "RAS·MR 동시 억제 · 알도스테론 신호와 K+ 분비 감소";
+  else if (inputs.mrBlock > 35) pattern = "MR 억제 · 알도스테론 수용체 작용 감소";
+  else if (inputs.rasBlock > 35) pattern = "RAS 억제 · 알도스테론 유래 신호 감소";
   else if (inputs.carbonicAnhydraseBlock > 35) pattern = "근위 HCO3- 회수 억제 · bicarbonaturia";
   else if (inputs.adh < 20) pattern = "AQP2 활성 저하 · 묽은 다뇨";
   else if (inputs.aldosterone > 75) pattern = "ENaC 활성과 원위 K+ 분비 증가";
@@ -190,14 +207,14 @@ export function getNephronSegment(state: NephronState, id: NephronSegmentId) {
   return state.segments.find((segment) => segment.id === id) ?? state.segments[0];
 }
 
-export const NORMAL_NEPHRON: NephronInputs = { gfr: 100, adh: 50, aldosterone: 50, loopBlock: 0, thiazideBlock: 0, enacBlock: 0, carbonicAnhydraseBlock: 0 };
+export const NORMAL_NEPHRON: NephronInputs = { gfr: 100, adh: 50, aldosterone: 50, loopBlock: 0, thiazideBlock: 0, enacBlock: 0, carbonicAnhydraseBlock: 0, rasBlock: 0, mrBlock: 0 };
+const normalExcretion = calculateNephronState(NORMAL_NEPHRON).excreted;
 
 /** Relative total excretion includes filtration; FE alone cannot show low GFR.
  * Plasma concentration is held fixed for this comparison. No serum level is inferred.
  */
 export function nephronExcretionIndex(state: NephronState, solute: NephronSolute) {
-  const normal = calculateNephronState(NORMAL_NEPHRON);
-  return state.excreted[solute] * state.inputs.gfr / Math.max(.01, normal.excreted[solute]);
+  return state.excreted[solute] * state.inputs.gfr / Math.max(.01, normalExcretion[solute]);
 }
 
 export function nephronClinicalConnections(state: NephronState) {
@@ -207,9 +224,41 @@ export function nephronClinicalConnections(state: NephronState) {
   if (i.loopBlock > 35) connections.push({ title: "K⁺·Mg²⁺ 소실 / 알칼리증 연결", mechanism: "NKCC2 차단 → 원위 Na 전달 증가, Ca·Mg 회수와 수질 농축기울기 감소. 염소·체액 소실은 알칼리증을 유지할 수 있습니다." });
   if (i.thiazideBlock > 35) connections.push({ title: "K⁺·Mg²⁺ 소실 / 소변 Ca²⁺ 감소", mechanism: "NCC 차단으로 NaCl 배설은 늘지만 Ca 회수는 증가합니다. 혈중 Na는 ADH·섭취·수분 균형을 함께 봐야 합니다." });
   if (i.enacBlock > 35) connections.push({ title: "K⁺ 보존 · 신기능 저하에서 축적 주의", mechanism: "ENaC 차단 → 관강 음전위와 K 분비 감소. 신기능 저하와 겹칠 때 배설 여력이 더 낮아집니다." });
+  if (i.rasBlock > 35) connections.push({ title: "RAS 억제 · 알도스테론 신호 감소", mechanism: "ACEi/ARB의 알도스테론 경로를 단순화했습니다. K 분비를 지지하는 신호가 줄지만, 약물의 신장·심장 보호 효과나 GFR 변화를 이 모델에서 판정하지 않습니다." });
+  if (i.mrBlock > 35) connections.push({ title: "MR 차단 · 수용체 이후 작용 감소", mechanism: "Spironolactone 등의 MR 차단은 ENaC를 직접 막는 작용과 다릅니다. RAS 억제·신기능 저하와 함께 K 배설 여력을 비교합니다. 실제 알도스테론 농도와 피드백 상승은 계산하지 않습니다." });
   if (i.carbonicAnhydraseBlock > 35) connections.push({ title: "HCO₃⁻ 소실 · 대사성 산증 연결", mechanism: "근위 HCO₃⁻ 회수 억제 → bicarbonaturia. 혈중 HCO₃⁻ 감소의 크기는 체내 완충·적응에 따라 달라집니다." });
   if (i.adh > 80) connections.push({ title: "물 보존 · Na 농도는 수분 수지와 함께", mechanism: "ADH는 집합관 물 재흡수를 증가시킵니다. 소변 농축만으로 저나트륨혈증을 진단하지 않습니다." });
   if (i.adh < 20) connections.push({ title: "농축 저하 · 수분 소실", mechanism: "AQP2 작용 감소로 묽은 소변이 늘어납니다. 혈중 Na 변화는 물 섭취와 소실의 균형에 달려 있습니다." });
   if (!connections.length) connections.push({ title: "작용 부위 → 배설 → 임상 연결", mechanism: "약물 차단과 GFR을 따로 조절하고, 분획 배설률과 총 배설 지수의 차이를 비교하세요." });
   return connections;
+}
+
+export type NephronExperiment = {
+  id: string; label: string; question: string; solute: NephronSolute; segment: NephronSegmentId;
+  values: NephronInputs; actions: { id: string; label: string; values: Partial<NephronInputs> }[];
+};
+export const NEPHRON_EXPERIMENTS: NephronExperiment[] = [
+  { id: "case-loop-combination", label: "개입 · Loop에 Thiazide 추가", question: "이뇨를 더 강화하면 K⁺·Mg²⁺ 배설은 어떻게 바뀔까?", solute: "K+", segment: "collecting",
+    values: { ...NORMAL_NEPHRON, loopBlock: 75, aldosterone: 72 }, actions: [
+      { id: "baseline", label: "Loop 단독", values: {} },
+      { id: "add-thiazide", label: "Thiazide 추가", values: { thiazideBlock: 75 } },
+    ] },
+  { id: "case-ckd-potassium", label: "개입 · 신기능 저하와 K⁺ 보존", question: "같은 GFR에서 작용 경로가 다른 약물을 겹치면 K⁺ 배설 여력은?", solute: "K+", segment: "collecting",
+    values: { ...NORMAL_NEPHRON, gfr: 25 }, actions: [
+      { id: "baseline", label: "차단 없음", values: {} },
+      { id: "mr", label: "MR 차단", values: { mrBlock: 80 } },
+      { id: "ras-mr", label: "MR + RAS 차단", values: { mrBlock: 80, rasBlock: 80 } },
+      { id: "enac", label: "ENaC 차단", values: { enacBlock: 80 } },
+    ] },
+  { id: "case-bicarbonate-loss", label: "개입 · CA 억제와 HCO₃⁻ 소실", question: "근위부 HCO₃⁻ 회수가 줄어들면 하류의 회수만으로 보충될까?", solute: "HCO3-", segment: "proximal",
+    values: { ...NORMAL_NEPHRON }, actions: [
+      { id: "baseline", label: "차단 없음", values: {} },
+      { id: "ca", label: "CA 억제", values: { carbonicAnhydraseBlock: 80 } },
+    ] },
+];
+
+/** Each intervention starts from the same case, so cycling options cannot stack stale drugs. */
+export function nephronExperimentInputs(experiment: NephronExperiment, actionId: string): NephronInputs {
+  const action = experiment.actions.find(item => item.id === actionId);
+  return { ...experiment.values, ...action?.values };
 }

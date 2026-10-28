@@ -1,9 +1,9 @@
 "use client";
-import { LabWorkspace, LabControlTabs, FittedDiagram, LabPlayback } from "@/components/clinical-lab-workspace";
+import { LabWorkspace, LabControlTabs, FittedDiagram, LabPlayback, LabMetric, LabReferenceControls, useLabReference } from "@/components/clinical-lab-workspace";
 import { useMemo, useState } from "react";
 import { useAnimatedModel } from "@/hooks/use-animated-model";
-import { PhysiologyControl, PhysiologyMetric } from "@/components/physiology-ui";
-import { GuidedExperiments, MetricComparison, useSimulationClock } from "@/components/simulation-workbench";
+import { PhysiologyControl } from "@/components/physiology-ui";
+import { GuidedExperiments, useSimulationClock } from "@/components/simulation-workbench";
 import { ClinicalScenarioPanel, useLearningExperiments } from "@/components/interactive-learning";
 import { OxygenationP5Canvas } from "@/components/oxygenation-p5-canvas";
 import { calculateOxygenationState, type OxygenationInputs } from "@/lib/oxygenation-model";
@@ -19,12 +19,15 @@ const PRESETS=[
 export function OxygenationGasExchangeLab(){
   const {inputs,update:change,animateTo,transitioning}=useAnimatedModel(NORMAL);
   const [preset,setPreset]=useState("normal");
-  const state=useMemo(()=>calculateOxygenationState(inputs),[inputs]),normal=calculateOxygenationState(NORMAL);
+  const state=useMemo(()=>calculateOxygenationState(inputs),[inputs]);
+  const {reference,pin,clear}=useLabReference<{inputs:Required<OxygenationInputs>;preset:string}>();
+  const referenceState=useMemo(()=>reference?calculateOxygenationState(reference.value.inputs):undefined,[reference]);
   const experiments=useLearningExperiments(),clock=useSimulationClock();
-  const apply=(id:string)=>{const p=PRESETS.find(p=>p.id===id);if(!p)return;setPreset(id);animateTo(p.values);updateSimulationClock(clock,{seconds:0});};
+  const apply=(id:string)=>{const p=PRESETS.find(p=>p.id===id);if(!p)return;setPreset(id);if(id==="normal")clear();animateTo(p.values);updateSimulationClock(clock,{seconds:0});};
   const update=(key:keyof OxygenationInputs,value:number)=>{setPreset("custom");change(key,value);};
   const condition=`FiO₂ ${(inputs.fio2*100).toFixed(0)}% · RR ${inputs.respiratoryRate.toFixed(0)} · V/Q ${inputs.vqMismatch.toFixed(0)} · Shunt ${(inputs.shuntFraction*100).toFixed(0)}% · Hb ${inputs.hemoglobin.toFixed(1)} · pH ${inputs.pH.toFixed(2)} · CO ${inputs.cardiacOutput.toFixed(1)} · ${inputs.age.toFixed(0)}세`;
   return <LabWorkspace title="산소화 · 가스교환" presets={PRESETS} selected={preset} onPreset={apply} onReset={()=>apply("normal")}
+    comparison={<LabReferenceControls label={reference?.label} busy={transitioning} onPin={()=>pin({inputs:{...inputs},preset},condition)} onRestore={()=>{if(reference){animateTo(reference.value.inputs,0);setPreset(reference.value.preset);}}} onClear={clear}/>}
     controls={<><LabControlTabs tabs={[{id:"lung",label:"폐 · 환기",content:<>
         <PhysiologyControl label="FiO₂" value={inputs.fio2} min={.21} max={1} step={.01} displayValue={(inputs.fio2*100).toFixed(0)+"%"} hint="직접 입력은 0.21–1.00의 분율입니다." onChange={v=>update("fio2",v)}/>
         <PhysiologyControl label="Respiratory rate" value={inputs.respiratoryRate} min={6} max={30} step={1} displayValue={inputs.respiratoryRate.toFixed(0)+"/min"} hint="Tidal volume·Dead space가 고정된 모델의 환기 대리변수입니다." onChange={v=>update("respiratoryRate",v)}/>
@@ -40,17 +43,16 @@ export function OxygenationGasExchangeLab(){
         </>}]} /></>}
     diagram={<><FittedDiagram width={900} height={570}><OxygenationP5Canvas state={state} simulation={{phase:transitioning?"transition":"settled",progress:transitioning?.5:1,cause:state.pattern,timeLabel:"선택한 입력 조건"}}/></FittedDiagram><LabPlayback /></>}
     metrics={<>
-      <PhysiologyMetric label="PaO₂" value={state.paO2.toFixed(0)+" mmHg"} status={"PAO₂ "+state.alveolarPO2.toFixed(0)}/>
-      <PhysiologyMetric label="SaO₂" value={state.saO2.toFixed(1)+"%"} status="Hb 포화율"/>
-      <PhysiologyMetric label="CaO₂" value={state.caO2.toFixed(1)+" mL/dL"} status="혈액당 산소함량"/>
-      <PhysiologyMetric label="DO₂" value={state.oxygenDelivery.toFixed(0)+" mL/min"} status="전신 공급량 추정"/>
-      <PhysiologyMetric label="PaCO₂" value={state.paCO2.toFixed(0)+" mmHg"} status="환기 지표"/>
-      <PhysiologyMetric label="A–a gradient" value={state.aaGradient.toFixed(0)+" mmHg"} status={"입력 조건별 근사 상한 "+state.expectedAaUpper.toFixed(0)}/>
+      <LabMetric label="PaO₂" value={state.paO2} reference={referenceState?.paO2} digits={0} unit="mmHg" status={"PAO₂ "+state.alveolarPO2.toFixed(0)}/>
+      <LabMetric label="SaO₂" value={state.saO2} reference={referenceState?.saO2} unit="%" status="Hb 포화율"/>
+      <LabMetric label="CaO₂" value={state.caO2} reference={referenceState?.caO2} unit="mL/dL" status="혈액당 산소함량"/>
+      <LabMetric label="DO₂" value={state.oxygenDelivery} reference={referenceState?.oxygenDelivery} digits={0} unit="mL/min" status="전신 공급량 추정"/>
+      <LabMetric label="PaCO₂" value={state.paCO2} reference={referenceState?.paCO2} digits={0} unit="mmHg" status="환기 지표"/>
+      <LabMetric label="A–a gradient" value={state.aaGradient} reference={referenceState?.aaGradient} digits={0} unit="mmHg" status={"입력 조건별 근사 상한 "+state.expectedAaUpper.toFixed(0)}/>
     </>} finding={<strong>{state.pattern}</strong>}>
 
 
     <section className="physiology-card space-y-2" aria-live="polite"><h2 className="text-lg font-bold">{state.pattern}</h2><p className="text-sm leading-6">{state.explanation}</p><p className="text-sm leading-6">{state.oxygenResponse}</p><p className="scenario-notice">A–a 비교 상한 = (연령+10)/4 + (FiO₂−0.21)×60. 높은 FiO₂에서의 근사치로 진단 기준이 아닙니다.</p></section>
-    <MetricComparison busy={transitioning} snapshot={{label:condition,inputs:{...inputs,preset}}} onRestore={v=>{animateTo({fio2:Number(v.fio2),respiratoryRate:Number(v.respiratoryRate),vqMismatch:Number(v.vqMismatch),shuntFraction:Number(v.shuntFraction),hemoglobin:Number(v.hemoglobin),pH:Number(v.pH),cardiacOutput:Number(v.cardiacOutput),age:Number(v.age)},0);setPreset(String(v.preset));}} metrics={[{label:"PaO₂",value:state.paO2,normal:normal.paO2,unit:"mmHg"},{label:"SaO₂",value:state.saO2,normal:normal.saO2,unit:"%"},{label:"CaO₂",value:state.caO2,normal:normal.caO2,unit:"mL/dL"},{label:"DO₂",value:state.oxygenDelivery,normal:normal.oxygenDelivery,unit:"mL/min",digits:0}]}/>
     <ClinicalScenarioPanel id={preset}/>
     <GuidedExperiments experiments={experiments} activeScenario={preset} onApply={apply}/>
 
