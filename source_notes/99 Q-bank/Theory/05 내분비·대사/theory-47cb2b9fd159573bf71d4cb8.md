@@ -22,9 +22,7 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
-  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9DYW5hZ2xpZmxvemluLm1k
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA
-  - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ
 curation_status: "retained"
 curation_reason: "DPP-4 억제와 GLP-1 수용체 직접 작용의 차이를 구분."
 curation_reviewed_at: "2026-10-25"

@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-정맥 잡음의 청진 특징은?
+아이의 쇄골 위 연속 잡음이 누우면 사라진다. 가장 알맞은 소견은?
 
 ## 선택지
 
-A. 쇄골 상부에서 연속 잡음이 들리며 자세 변화 시 감소한다
-B. 심실 수축기 잡음으로 청진 시 강화된다
-C. 흉골 중앙에서 잡음이 들리며 호흡에 무관하다
-D. 좌심실 전방에서 잡음이 청진 시 증가한다
+A. 정맥 잡음
+B. 동맥관 개존의 잡음
+C. 폐동맥판막 협착의 잡음
+D. 승모판막 역류의 잡음
 
 ## 해설
 
-정맥 잡음은 쇄골 상부에서 연속적으로 들리며, 목을 돌리거나 자세를 바꾸면 감소하거나 사라진다.
-
-## 오답 포인트
-
-- **심실 수축기 잡음으로 청진 시 강화된다:** 수축기 잡음은 심실 수축과 관련된 소리로 정맥 잡음과 다르다.
+정맥 잡음은 쇄골 위나 목에서 들리는 연속음으로, 누운 자세 등 정맥 흐름이 바뀌는 상황에서 감소하거나 소실될 수 있다. 연속 잡음이라는 이유만으로 동맥관 개존으로 보지 않는다.
 
 ## 출처
 

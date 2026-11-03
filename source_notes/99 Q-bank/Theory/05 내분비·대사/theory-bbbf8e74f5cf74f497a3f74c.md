@@ -22,12 +22,7 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ
-  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Pcmxpc3RhdC5tZA
-  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ
   - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TZW1hZ2x1dGlkZS5tZA
-  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ
-  - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ
 curation_status: "revised"
 curation_reason: "Semaglutide에 testosterone 이식제 문제가 잘못 연결되어 실제 핵심 기전으로 교정."
 curation_reviewed_at: "2026-10-25"

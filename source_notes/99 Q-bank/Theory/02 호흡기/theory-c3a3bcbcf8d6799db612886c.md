@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-영상 확인이 필요한 안정된 성인 폐색전증 의심 환자에서 조영 CT가 적절한 경우 대표 검사는?
+폐색전증 의심 성인에서 조영 CT가 적절할 때 시행하는 검사는?
 
 ## 선택지
 
-A. CT 폐동맥조영술(CTPA)
-B. 복부 단순촬영
-C. 폐활량 검사만
-D. 혈청 CRP만
+A. CT 폐동맥조영술
+B. CT 대동맥조영술
+C. 저선량 비조영 흉부 CT
+D. 관상동맥 CT 혈관조영술
 
 ## 해설
 
-CTPA가 흔히 사용된다. 조영제 금기·임신·검사 여건 등에서는 V/Q 검사 등 다른 경로를 선택할 수 있어 모든 대안을 단순 보조 검사로 보지 않는다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+CT 폐동맥조영술은 폐동맥을 조영해 혈전이 만드는 충만 결손을 확인한다. 조영제 금기 등에서는 환기-관류 검사와 같은 대안을 고려한다.
 
 ## 출처
 

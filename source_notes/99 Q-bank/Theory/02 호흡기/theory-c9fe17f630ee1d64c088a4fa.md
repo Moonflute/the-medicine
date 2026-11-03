@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-폐 아스페르길루스종(aspergilloma)의 대표적인 발생 환경은?
+폐 아스페르길루스종(진균구)이 주로 생기는 위치는?
 
 ## 선택지
 
-A. 이전 결핵 등으로 생긴 기존 폐 공동 안
-B. 정상 폐동맥 안의 혈전만
-C. 흉관 안의 림프액만
-D. 비강 점막에만 국한된 단순 비염
+A. 기존 폐 공동 내부
+B. 침습성 감염이 있는 폐혈관 벽
+C. 비용종이 있는 코 점막
+D. 폐엽의 정상 폐포 내부
 
 ## 해설
 
-기존 공동 안에서 진균 덩어리가 형성되며 객혈을 일으킬 수 있다. ABPA의 과민반응이나 침습성 아스페르길루스증과 구분한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+아스페르길루스종은 결핵 등으로 남은 폐 공동에 균사 덩어리가 형성된 것이다. 혈관 침습을 보이는 침습성 아스페르길루스증과 구분한다.
 
 ## 출처
 

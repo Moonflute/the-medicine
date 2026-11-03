@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,28 +32,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Zenker 게실에서 소화되지 않은 음식의 역류와 구취·흡인이 생기는 이유는?
+젠커 게실에서 시간이 지나 소화되지 않은 음식이 다시 올라오는 이유는?
 
 ## 선택지
 
-A. 인두식도 부위 게실에 음식이 고였다가 다시 올라오기 때문
-B. 하부식도괄약근이 영구 폐쇄되어 위에서 산이 역류하기 때문
-C. 담즙이 폐에서 생성되기 때문
-D. 대장 내압 상승이 구강으로 직접 전달되기 때문
+A. 인두식도 접합부 게실에 음식이 머문다
+B. 하부식도조임근 이완 장애로 원위 식도에 음식이 머문다
+C. 하부식도조임근의 일과성 이완으로 위산이 역류한다
+D. 원위 식도 종양이 음식의 통과를 막는다
 
 ## 해설
 
-Zenker 게실은 인두식도 부위에 생기는 가성 게실로 음식이 정체될 수 있다. 삼킴곤란뿐 아니라 뒤늦은 음식 역류·구취·흡인 위험으로 연결해 기억한다.
+젠커 게실은 인두식도 접합부의 주머니에 음식이 고여 뒤늦게 역류하는 병변이다. 원위 식도에서 음식이 정체되는 식도이완불능증이나 위산 역류와 다르다.
 
 ## 출처
 
 - 내부 학습 노트: 젠커 게실 (Zenker's Diverticulum)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/젠커 게실 (Zenker's Diverticulum).md`
 - 학습 목표: Zenker 게실의 음식 정체와 흡인 위험
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
 
 ## 검수 근거
 

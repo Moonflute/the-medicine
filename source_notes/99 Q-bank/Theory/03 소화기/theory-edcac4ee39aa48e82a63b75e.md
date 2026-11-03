@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-치열 환자에게 가장 흔히 나타나는 증상은?
+배변 중 찢어지는 듯한 통증과 소량의 선홍색 출혈이 있다. 가장 전형적인 병변은?
 
 ## 선택지
 
-A. 배변 시 또는 직후 발생하는 심한 통증과 선홍색 출혈
-B. 항문 주위 지속적인 농성 분비물과 가려움증
-C. 삼킴통증과 흉통
-D. 복부 팽만감과 설사
+A. 치열
+B. 무통성 내치핵
+C. 항문 주위 치루
+D. 항문직장 농양
 
 ## 해설
 
-치열은 배변 시 급성 통증과 선홍색 출혈이 특징이다.
-
-## 오답 포인트
-
-- **항문 주위 지속적인 농성 분비물과 가려움증:** 농성 분비물과 가려움증은 치루의 특징입니다.
+치열은 항문 피부가 찢어진 병변으로 배변 중·직후 통증과 선홍색 출혈이 전형적이다. 치루는 반복되는 농성 배액, 농양은 지속적인 국소 통증과 부종이 단서다.
 
 ## 출처
 

@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -34,22 +34,18 @@ related_drug_slugs:
 
 ## 문제
 
-방실차단을 가장 정확히 정의한 것은?
+PR 간격이 박동마다 점차 길어지다가 P파 뒤 QRS가 한 번 탈락한다. 방실차단 유형은?
 
 ## 선택지
 
-A. 심방에서 심실로 전기신호 전달이 지연·차단되는 상태
-B. 심실에서 심방으로 역전도되는 현상
-C. 심방 전도속도가 증가하는 경우
-D. 심실 수축력이 감소하는 현상
+A. 2도 Mobitz I형
+B. 2도 Mobitz II형
+C. 1도 방실차단
+D. 3도 방실차단
 
 ## 해설
 
-방실차단은 심방에서 심실로 전기신호가 지연되거나 차단되는 전도 장애를 의미하며, 1도·2도·3도 차단으로 구분됩니다.
-
-## 오답 포인트
-
-- **심실에서 심방으로 역전도되는 현상:** 역전도는 방실 차단의 정의가 아닙니다.
+Mobitz I형(Wenckebach)은 PR이 점진적으로 연장되다가 방실 전도가 탈락하는 패턴이다. Mobitz II형에서는 전도된 박동의 PR이 일정한 상태에서 QRS가 갑자기 탈락한다.
 
 ## 출처
 

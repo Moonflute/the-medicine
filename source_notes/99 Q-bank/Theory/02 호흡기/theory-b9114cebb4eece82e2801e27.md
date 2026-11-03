@@ -22,7 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k
 curation_status: "revised"
 curation_reason: "다른 약물로 잘못 연결된 안전성 문제를 테오필린 핵심 독성으로 교정"

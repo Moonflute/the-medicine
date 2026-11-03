@@ -22,8 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
-  - ZHJ1ZzowMiDtmLjtnaHquLAvSW5kYWNhdGVyb2wubWQ
   - ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ
 curation_status: "revised"
 curation_reason: "Montelukast에 indacaterol 용량 문제가 연결된 오류를 중요한 약물 안전 개념으로 교정."

@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -35,22 +35,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-상염색체 우성 다낭성 콩팥병(ADPKD)의 가장 흔한 신장 외 낭성 병변은?
+상염색체 우성 다낭성 콩팥병의 가장 흔한 신장 외 낭종 위치는?
 
 ## 선택지
 
-A. 간 낭종
-B. 폐 섬유증
-C. 갑상샘 기능항진증
-D. 당뇨병
+A. 간
+B. 췌장
+C. 비장
+D. 정낭
 
 ## 해설
 
-간 낭종·다낭성 간질환은 ADPKD의 가장 흔한 신장 외 표현이다. 신장 낭종과 함께 나타날 수 있지만 간 기능부전이 반드시 동반되는 것은 아니다. 신장 유전자·영상 진단과 구별되는 대표 장기 연관성으로 복습한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+간 낭종은 ADPKD의 가장 흔한 신장 외 낭성 소견이다. 간에 낭종이 있다는 사실만으로 간 기능부전이 동반된다고 보지 않는다.
 
 ## 출처
 

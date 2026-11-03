@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-췌장 두부암이 폐쇄성 황달을 일으키는 주요 이유는?
+췌장 두부암의 폐쇄성 황달은 주로 어느 구조가 눌리거나 침범되어 생기는가?
 
 ## 선택지
 
-A. 인접한 원위 총담관을 침범하거나 압박해 담즙 배출을 막기 때문
-B. 적혈구를 직접 모두 용혈시키기 때문
-C. 담낭이 빌리루빈을 새로 만들기 때문
-D. 모든 췌장암이 간부전을 먼저 일으키기 때문
+A. 원위 총담관
+B. 담낭관
+C. 주췌관
+D. 비장정맥
 
 ## 해설
 
-두부 병변은 담도와 가까워 직접 빌리루빈 상승·진한 소변·회색변·소양증을 동반할 수 있다. 무통성 진행성 황달은 악성 담도 폐쇄를 포함해 평가할 경고 소견이지 췌장암만의 확진 소견은 아니다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+췌장 두부에 인접한 원위 총담관이 막히면 담즙 배출이 저해돼 결합형 빌리루빈 상승과 폐쇄성 황달이 나타날 수 있다.
 
 ## 출처
 

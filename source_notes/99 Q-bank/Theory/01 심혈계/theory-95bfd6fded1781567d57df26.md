@@ -22,9 +22,7 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ
-  - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
 curation_status: "revised"
 curation_reason: "일반적인 모니터링 명칭을 넘어 Class Ic의 QRS 확장·전도 장애 감시라는 중요한 안전성 목표로 다듬는다."
 curation_reviewed_at: "2026-10-25"

@@ -22,7 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA
 curation_status: "retained"
 curation_reason: "BBB 통과 가능한 도파민 전구체와 직접 도파민 투여의 차이."

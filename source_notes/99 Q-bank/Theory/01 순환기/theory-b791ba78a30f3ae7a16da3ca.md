@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-울프-파킨슨-화이트 증후군의 심전도에서 특징적인 소견은?
+동율동에서 심실 조기흥분(WPW 패턴)을 시사하는 심전도 조합은?
 
 ## 선택지
 
-A. 짧은 PR 간격과 델타파가 보인다
-B. ST 상승이 나타난다
-C. T 파가 역전된다
-D. PR 간격이 연장된다
+A. 짧은 PR과 QRS 시작부 델타파
+B. 긴 PR과 정상 QRS 시작부
+C. 짧은 PR과 정상 QRS 시작부
+D. 긴 PR과 간헐적인 QRS 탈락
 
 ## 해설
 
-WPW의 전형적인 ECG는 PR 간격이 0.12초 미만으로 짧고, QRS가 넓으며, QRS 시작부에 델타파가 보이는 것이 특징이다.
-
-## 오답 포인트
-
-- **ST 상승이 나타난다:** ST 상승은 급성 심근경색에서 주로 보인다.
+부전도로를 통해 심실 일부가 먼저 활성화되면 PR이 짧아지고 QRS 초기 상행부가 완만해지는 델타파가 나타난다.
 
 ## 출처
 

@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-암죽흉을 뒷받침하는 흉수 소견은?
+유백색 흉수에서 암죽흉을 가장 특이적으로 뒷받침하는 소견은?
 
 ## 선택지
 
-A. 중성지방 증가와 chylomicron 확인
-B. 흉수의 붉은 색만
-C. LDH 감소만
-D. 호중구 증가만
+A. 카일로미크론(chylomicron) 검출
+B. 콜레스테롤 결정 검출
+C. 호중구 우세
+D. LDH 상승
 
 ## 해설
 
-중성지방 >110 mg/dL는 강한 단서이며 애매한 경우 chylomicron 확인이 도움이 된다. 영양 상태 등에 따라 전형적인 유백색이 아닐 수 있어 색만으로 배제하지 않는다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+암죽흉은 흉수에서 카일로미크론을 확인해 진단할 수 있다. 높은 중성지방은 단서지만 유백색이라는 외관만으로 확진하지 않는다. 콜레스테롤 결정은 가성 암죽흉의 단서다.
 
 ## 출처
 

@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,18 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-승모판 협착 환자에서 청진 시 가장 흔히 들리는 소리는?
+승모판막 협착을 시사하는 전형적인 심첨부 청진 조합은?
 
 ## 선택지
 
-A. 큰 제1심음과 개방 스냅(opening snap)
-B. 중기 수축기 클릭(mid‑systolic click)
-C. 제4심음(S4)
-D. 연속성 잡음(cont. murmur)
+A. 개방음 뒤 저음의 이완기 잡음
+B. 중기 수축기 클릭 뒤 후기 수축기 잡음
+C. 겨드랑이로 방사하는 범수축기 잡음
+D. 목으로 방사하는 수축기 박출 잡음
 
 ## 해설
 
-승모판 협착은 큰 제1심음, 개방 스냅, 그리고 저음의 이완기 rumble이 특징적인 청진 소리이다.
+승모판막 협착의 전형적 조합은 개방음(opening snap)과 저음의 이완기 잡음이다. 판막이 심하게 석회화되면 개방음이 뚜렷하지 않을 수 있다.
 
 ## 출처
 

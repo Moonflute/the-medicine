@@ -22,9 +22,7 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k
-  - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k
 curation_status: "revised"
 curation_reason: "Duloxetine에 lithium 범용 설명이 연결된 오류를 실제 SNRI 기전으로 수정."
 curation_reviewed_at: "2026-10-25"

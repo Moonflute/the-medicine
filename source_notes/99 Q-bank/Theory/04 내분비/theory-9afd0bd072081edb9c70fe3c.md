@@ -22,7 +22,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -35,18 +35,18 @@ publication_reason: "직접 재검수 후 복구: 저혈당의 실제 경고 증
 
 ## 문제
 
-저혈당의 자율신경 증상과 신경당결핍 증상을 올바르게 연결한 것은?
+저혈당의 자율신경 경고 증상보다 신경당결핍을 시사하는 소견은?
 
 ## 선택지
 
-A. 자율신경 증상: 식은땀·떨림·두근거림 / 신경당결핍: 혼돈·행동 변화·경련
-B. 자율신경 증상: 혼돈·경련 / 신경당결핍: 식은땀·두근거림
-C. 자율신경 증상: 두드러기·천명 / 신경당결핍: 만성 관절 변형
-D. 자율신경 증상: 황달·복수 / 신경당결핍: 부종·단백뇨
+A. 혼돈
+B. 식은땀
+C. 손 떨림
+D. 두근거림
 
 ## 해설
 
-저혈당에서는 식은땀·떨림·두근거림·허기 같은 자율신경 경고 증상과 뇌의 포도당 부족에 따른 혼돈·행동 변화·경련·의식 저하가 나타날 수 있다. 발한은 교감신경성 콜린성 반응이므로 모든 자율신경 증상을 아드레날린성으로만 부르지 않는다. 무감지증에서는 경고 증상이 없을 수도 있어 증상 부재만으로 저혈당을 배제하지 않는다.
+혼돈·이상행동·경련은 뇌의 포도당 부족에 의한 신경당결핍 증상이다. 발한·떨림·두근거림은 주로 자율신경성 경고 증상이다.
 
 ## 출처
 
@@ -61,7 +61,3 @@ D. 자율신경 증상: 황달·복수 / 신경당결핍: 부종·단백뇨
 - 검수 범위: evidence-reviewed. 근거 링크가 없는 항목을 최신 가이드라인 전면 대조 완료로 간주하지 않는다.
 - https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose/symptoms-treatment
 - https://www.ncbi.nlm.nih.gov/books/NBK355894/table/nondiab_hypoglyc.T.symptoms_of_hypoglyce/
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

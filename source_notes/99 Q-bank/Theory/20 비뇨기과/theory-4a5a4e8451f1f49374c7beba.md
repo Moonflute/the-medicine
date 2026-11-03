@@ -32,22 +32,18 @@ wrong_notes_review_status: reviewed
 
 ## 문제
 
-임균요도염의 원인균은?
+성인 단순 임균 요도염이 확인됐고 클라미디아 동시감염은 배제됐다. CDC 권고 1차 약제와 투여 경로는?
 
 ## 선택지
 
-A. Neisseria gonorrhoeae
-B. Chlamydia trachomatis
-C. Escherichia coli
-D. Staphylococcus aureus
+A. 세프트리악손 근육주사
+B. 독시사이클린 경구 단독
+C. 아지스로마이신 경구 단독
+D. 니트로푸란토인 경구 단독
 
 ## 해설
 
-임균요도염은 그람 음성 쌍구균인 Neisseria gonorrhoeae에 의해 발생한다.
-
-## 오답 포인트
-
-- **Chlamydia trachomatis:** C. trachomatis는 비임균성 요도염을 일으킨다.
+단순 임균 요도염에는 세프트리악손 근육주사가 1차다. 클라미디아 감염을 배제하지 못했다면 그에 대한 치료도 고려한다.
 
 ## 출처
 
@@ -60,3 +56,5 @@ D. Staphylococcus aureus
 - 검수일: 2026-10-25
 - 범위: 본문·선택지·해설·오답 포인트의 교육과정 검수; 임상 사실 전수 검증을 의미하지 않음.
 - 결정: 임균의 병원체와 그람음성 쌍구균 연결은 쉬운 기초 복습.
+
+- https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm

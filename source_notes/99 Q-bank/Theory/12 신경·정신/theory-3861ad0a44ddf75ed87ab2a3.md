@@ -22,8 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ
   - ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k
 curation_status: "revised"
 curation_reason: "항우울 작용과 이온채널 관련 독성을 혼합하지 않도록 해설 정리."

@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,18 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-내치핵의 정의는?
+내치핵과 외치핵을 가르는 치상선을 기준으로 내치핵이 생기는 위치는?
 
 ## 선택지
 
-A. 항문관 내 점막하 혈관 쿠션이 비정상적으로 커져 돌출되는 질환
-B. 대장 폴립에 의한 출혈성 질환
-C. 항문 외부에 발생하는 외치핵
-D. 직장암의 초기 단계
+A. 치상선 위쪽
+B. 치상선 아래쪽
+C. 항문 주위 피부의 바깥쪽
+D. 직장 벽의 근육층 안쪽
 
 ## 해설
 
-내치핵은 항문관 내 점막하 혈관 쿠션이 확대·돌출되어 발생하는 질환이다.
+내치핵은 치상선 위의 항문 혈관 쿠션에서 발생한다. 치상선 아래쪽의 외치핵과 해부학적 위치와 감각 분포가 다르다.
 
 ## 출처
 

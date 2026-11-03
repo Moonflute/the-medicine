@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-발열 환자에서 혈액배양을 채취하는 최적 시점은 언제인가?
+패혈증이 의심돼 혈액배양과 항균제가 모두 필요하다. 배양을 채취하는 시점은?
 
 ## 선택지
 
-A. 가능하면 항균제 투여 전에, 치료를 지연하지 않는 범위 내에서
-B. 항균제 투여 후 2시간 이후에
-C. 체온이 39℃ 이상일 때만
-D. 백혈구 수가 정상 범위일 때만
+A. 항균제 투여를 유의하게 늦추지 않는 범위에서 투여 전에
+B. 항균제 투여를 끝내고 두 시간 이상 지나서
+C. 열이 39°C를 넘는 순간에만
+D. 호중구 수가 확인된 다음에만
 
 ## 해설
 
-혈액배양은 항균제 투여 전 가능한 빨리 채취하되, 치료 지연을 피해야 한다.
-
-## 오답 포인트
-
-<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+항균제 투여 전 채취가 균 검출에 유리하다. 그러나 배양 채취 때문에 시급한 항균제 치료를 의미 있게 지연해서는 안 된다.
 
 ## 출처
 

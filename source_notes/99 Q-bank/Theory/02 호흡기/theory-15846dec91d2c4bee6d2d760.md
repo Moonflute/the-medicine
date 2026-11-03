@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-폐 편평상피암과 대표적으로 연관되는 PTHrP 매개 부종양 증후군은?
+폐 편평상피암에서 PTH가 억제된 부종양성 고칼슘혈증을 일으키는 대표 물질은?
 
 ## 선택지
 
-A. 고칼슘혈증
-B. SIADH
-C. 갑상선기능저하증
-D. 저인산혈증 없는 단독 고마그네슘혈증
+A. PTH 관련 단백(PTHrP)
+B. 부갑상선 호르몬(PTH)
+C. 항이뇨호르몬(ADH)
+D. 부신피질자극호르몬(ACTH)
 
 ## 해설
 
-PTHrP는 고칼슘혈증을 일으킬 수 있다. 편평상피암과의 대표 연관이며 모든 환자에게 생기는 것은 아니다. 소세포암의 SIADH와 구분한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+폐 편평상피암은 PTHrP를 분비해 고칼슘혈증을 일으킬 수 있다. 이때 정상 부갑상선의 PTH는 높은 칼슘에 의해 억제된다.
 
 ## 출처
 

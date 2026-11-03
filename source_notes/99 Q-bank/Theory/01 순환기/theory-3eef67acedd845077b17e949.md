@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-심실세동(VF)에서 심전도에 나타나는 파형은?
+심전도에서 P파와 QRS를 구분할 수 없고 진폭·모양이 제각각인 파형이 계속된다. 이 리듬은?
 
 ## 선택지
 
-A. 규칙적인 QRS 복합체
-B. P파와 QRS가 구분 가능
-C. 다양한 진폭과 형태의 세동파
-D. ST절전 상승
+A. 무수축
+B. 심방세동
+C. 심실세동
+D. 단형 심실빈맥
 
 ## 해설
 
-VF에서는 P파·QRS·T파를 구분할 수 없으며, 무작위 진폭·형태의 세동파가 연속적으로 나타난다.
-
-## 오답 포인트
-
-- **규칙적인 QRS 복합체:** VF는 규칙적인 QRS가 아닌 무질서한 파형을 보인다.
+심실세동에서는 조직화된 QRS가 없이 불규칙한 파형이 이어진다. 심방세동에서는 P파가 뚜렷하지 않아도 심실의 QRS는 구분된다.
 
 ## 출처
 

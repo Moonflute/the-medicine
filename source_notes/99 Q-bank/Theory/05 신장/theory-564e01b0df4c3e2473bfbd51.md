@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,25 +32,21 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-IgA 신병증에서 상기도 감염과 육안적 혈뇨의 전형적인 시간 관계는?
+IgA 신병증의 육안적 혈뇨는 상기도 감염에 대해 전형적으로 언제 나타나는가?
 
 ## 선택지
 
-A. 감염과 거의 동시에 또는 수일 이내 혈뇨가 나타날 수 있다
-B. 반드시 감염 6개월 후에만 나타난다
-C. 혈뇨는 상기도 감염과 절대 연관되지 않는다
-D. 감염 후 무증상 기간이 최소 1년 필요하다
+A. 감염과 거의 동시에 또는 수일 이내
+B. 인후염이 가라앉고 1–3주 뒤
+C. 감염과 무관하게 3개월 뒤에만
+D. 상기도 감염이 시작되기 수주 전에만
 
 ## 해설
 
-감염 동시성(synpharyngitic) 혈뇨가 전형적 단서다. 감염 후 잠복기를 두는 PSGN과 구별에 도움이 되지만 시간 관계만으로 확진하지 않는다.
+IgA 신병증은 상기도 감염과 거의 동시에 혈뇨가 나타날 수 있다. 감염 후 일정한 잠복기가 있는 연쇄상구균 감염 후 사구체신염과의 감별 단서다.
 
 ## 출처
 
 - 내부 학습 노트: IgA 콩팥병증 (IgAN) (IgA Nephropathy)
 - 원본 경로: `source_notes/02 Diseases/05 신장/IgA 콩팥병증 (IgAN) (IgA Nephropathy).md`
 - 학습 목표: IgA 신병증의 감염 동시성 혈뇨
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-활주형 열공탈장과 전형적인 식도옆형(type II) 열공탈장의 차이는?
+전형적인 식도옆형 열공탈장(type II)에서 위식도접합부와 위저부의 위치는?
 
 ## 선택지
 
-A. 활주형은 위식도접합부가 올라가며, 식도옆형은 접합부가 제자리에 있으면서 위 일부가 탈출한다
-B. 활주형은 대장만 탈출하고 식도옆형은 폐가 탈출한다
-C. 두 유형 모두 위식도접합부와 위의 위치가 정상이다
-D. 식도옆형은 식도 점막만 탈출한다
+A. 접합부는 제자리, 위저부는 횡격막 위로 탈출
+B. 접합부는 횡격막 위, 위저부는 제자리
+C. 접합부와 위저부가 함께 횡격막 위로 이동
+D. 접합부와 위저부가 모두 제자리
 
 ## 해설
 
-활주형(type I)은 위식도접합부가 횡격막 위로 이동해 역류와 연관된다. 전형적 type II는 접합부는 유지되면서 위저부 등이 식도 옆으로 탈출한다. 두 특징이 섞인 type III도 있어 모든 식도옆형을 단일 모습으로 단정하지 않는다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+전형적 식도옆형(type II)은 위식도접합부는 제자리에 있고 위 일부가 식도 옆으로 탈출한다. 활주형(type I)은 접합부 자체가 위로 이동한다.
 
 ## 출처
 

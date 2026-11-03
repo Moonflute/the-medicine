@@ -19,9 +19,9 @@ theory_objective_id: disease-01-recognition
 question_type: recognition
 question_mode: direct_recall
 difficulty: standard
-answer: D
+answer: "A"
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,18 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-급성 관상동맥 증후군(ACS)에 포함되는 질환은?
+급성 관상동맥 증후군(ACS)에 해당하는 세 가지는?
 
 ## 선택지
 
-A. ST분절 상승을 동반한 STEMI만
-B. ST분절 상승이 없는 NSTEMI만
-C. 불안정 협심증만
-D. STEMI, NSTEMI, 불안정 협심증 모두
+A. STEMI·NSTEMI·불안정 협심증
+B. STEMI·NSTEMI·안정형 협심증
+C. STEMI·안정형 협심증·불안정 협심증
+D. NSTEMI·안정형 협심증·불안정 협심증
 
 ## 해설
 
-ACS는 급성 심근허혈에 의해 발생하며, STEMI, NSTEMI, 불안정 협심증을 모두 포함한다.
+ACS에는 STEMI, NSTEMI, 불안정 협심증이 포함된다. 안정형 협심증은 이 범주에 속하지 않는다.
 
 ## 출처
 

@@ -22,9 +22,7 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvVGljYWdyZWxvci5tZA
-  - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k
 curation_status: "revised"
 curation_reason: "경미한 ticagrelor 호흡곤란도 반드시 중단한다는 과도한 지침을 교정."
 curation_reviewed_at: "2026-10-25"

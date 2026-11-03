@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-소아 croup 치료의 일반적인 원칙은?
+크룹 소아에게 안정 시 뚜렷한 흡기성 협착음과 흉부 함몰이 있다. 적절한 초기 약물은?
 
 ## 선택지
 
-A. Corticosteroid를 사용하고 중등도·중증에서는 흡입 epinephrine과 관찰을 고려한다
-B. 모든 경증 환자에게 즉시 기관삽관
-C. 항생제가 모든 croup의 기본 치료
-D. Epinephrine 후 잠시 좋아지면 관찰 없이 항상 귀가
+A. 덱사메타손과 분무 에피네프린
+B. 덱사메타손과 분무 살부타몰
+C. 항생제와 분무 살부타몰
+D. 근육 에피네프린과 항히스타민제
 
 ## 해설
 
-Dexamethasone은 중증도 전반에서 유용하다. 흡입 epinephrine의 효과는 일시적이므로 투여 후 재악화 여부를 관찰하며 기도 위험에 따라 대응한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+중등도 이상 크룹에서는 덱사메타손에 분무 에피네프린을 추가한다. 분무 에피네프린 효과가 일시적이므로 호전 후에도 재악화 여부를 관찰한다.
 
 ## 출처
 

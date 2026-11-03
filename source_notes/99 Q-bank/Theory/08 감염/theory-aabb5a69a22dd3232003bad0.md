@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -34,25 +34,25 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-신생아에게 Ceftriaxone을 투여할 때 가장 주의해야 할 부작용은?
+칼슘이 포함된 정맥 영양을 받는 신생아에게 세프트리악손을 피해야 하는 이유는?
 
 ## 선택지
 
-A. 빌리루빈 displacement와 칼슘 침전 위험
-B. 경증 간 효소 상승
-C. 신장 기능 저하
-D. 혈압 상승
+A. 세프트리악손-칼슘 침전이 생길 수 있다.
+B. 칼슘이 세프트리악손의 청력을 보존하는 효과를 막는다.
+C. 세프트리악손이 장내 칼슘 흡수를 차단한다.
+D. 칼슘과 함께 쓰면 항상 심한 저혈당이 생긴다.
 
 ## 해설
 
-Ceftriaxone은 신생아에서 빌리루빈을 displacement시키고, 칼슘과 결합해 침전물을 형성할 수 있어 주의가 필요하다.
-
-## 오답 포인트
-
-<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+정맥 칼슘이 필요하거나 필요할 것으로 예상되는 신생아에서 세프트리악손은 침전 위험으로 금기다. 고빌리루빈혈증 신생아에서도 빌리루빈을 알부민 결합에서 밀어낼 수 있어 피한다.
 
 ## 출처
 
 - 내부 학습 노트: Ceftriaxone
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Ceftriaxone.md`
 - 학습 목표: Ceftriaxone: 빌리루빈 displacement와 칼슘 침전 위험
+
+## 검수 근거
+
+- https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=bd83abef-db50-4176-9e6c-b6653a85f44d&type=display

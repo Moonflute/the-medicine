@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-안정 시 우심도자술로 정의하는 폐고혈압의 평균 폐동맥압(mPAP) 기준은?
+ESC/ERS의 안정 시 폐고혈압 정의에 해당하는 평균 폐동맥압(mPAP) 기준은?
 
 ## 선택지
 
 A. 20 mmHg 초과
-B. 20 mmHg 미만
-C. 수축기 혈압 140 mmHg 이상
-D. 산소포화도 95% 미만
+B. 20 mmHg 이상
+C. 25 mmHg 이상
+D. 15 mmHg 초과
 
 ## 해설
 
-mPAP >20 mmHg가 혈역학적 정의다. 폐동맥고혈압과 다른 군을 구분하려면 폐동맥쐐기압·폐혈관저항과 원인 평가가 필요하다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+안정 시 우심도자술의 mPAP가 20 mmHg를 초과하면 폐고혈압으로 정의한다. 폐동맥고혈압 등 하위 유형 분류에는 쐐기압과 폐혈관저항도 필요하다.
 
 ## 출처
 
@@ -58,3 +54,5 @@ mPAP >20 mmHg가 혈역학적 정의다. 폐동맥고혈압과 다른 군을 구
 ## 검수 근거
 
 - https://publications.ersnet.org/lookup/doi/10.1183/13993003.00879-2022
+
+- https://academic.oup.com/eurheartj/article/43/38/3618/6673929

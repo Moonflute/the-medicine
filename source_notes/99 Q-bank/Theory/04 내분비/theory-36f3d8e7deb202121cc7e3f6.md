@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-갑상샘 여포암을 진단하는 데 필수적인 병리학적 특징은?
+절제 조직에서 갑상샘 여포선종과 여포암을 구분하는 핵심은?
 
 ## 선택지
 
-A. 피막 침범 또는 혈관 침범
-B. 림프절 전이
-C. 갑상선 호르몬 과다분비
-D. 갑상선 미세석회화
+A. 피막 또는 혈관 침범
+B. 아밀로이드가 있는 종양 기질
+C. 핵고랑과 핵내 봉입체
+D. 림프구 침윤과 배중심
 
 ## 해설
 
-여포암은 악성 여부를 판단하기 위해 피막 침범이나 혈관 침범이 조직검사에서 확인되어야 한다.
-
-## 오답 포인트
-
-- **림프절 전이:** 림프절 전이는 진단 기준이 아니라 전이 양상이다.
+여포암은 피막 또는 혈관의 침범으로 여포선종과 구분한다. 세침흡인에서 여포형 세포가 보인다는 사실만으로 침범을 판단하지 못한다.
 
 ## 출처
 

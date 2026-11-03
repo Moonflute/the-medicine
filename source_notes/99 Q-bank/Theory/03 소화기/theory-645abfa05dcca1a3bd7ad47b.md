@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-총담관결석으로 담도 폐쇄가 지속될 때 전형적으로 고려하는 간화학 검사 패턴은?
+총담관결석으로 담도 폐쇄가 지속될 때 전형적인 혈액검사 패턴은?
 
 ## 선택지
 
-A. ALP·GGT 및 직접 빌리루빈 상승을 동반하는 담즙정체성 양상
-B. ALP가 항상 정상이고 비포합 빌리루빈만 상승하는 양상
-C. 간효소와 무관한 혈청 amylase 단독 저하
-D. 혈청 albumin의 즉각적 상승만 나타나는 양상
+A. ALP·GGT와 직접 빌리루빈 상승
+B. AST·ALT의 단독 상승이 지속되고 ALP·GGT는 정상
+C. 비결합 빌리루빈만 상승
+D. 리파아제만 상승
 
 ## 해설
 
-담도 폐쇄는 담즙정체성 검사를 보일 수 있다. 초기 일시적 폐쇄에서는 AST·ALT가 크게 상승할 수도 있고 정상 검사만으로 결석을 완전히 배제하지 않는다. 영상과 임상 상황을 함께 판단한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+지속되는 담도 폐쇄에서는 ALP·GGT와 직접 빌리루빈이 오르는 담즙정체 양상이 흔하다. 초기 일시적 폐쇄는 다른 패턴을 보일 수 있어 영상·경과와 함께 해석한다.
 
 ## 출처
 

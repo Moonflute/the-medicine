@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: B
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,25 +32,25 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-비정상적인 질분비물을 평가할 때 가장 먼저 해야 할 일은?
+균질한 묽은 질분비물, 비린 냄새, 질 pH 4.5 초과와 단서세포(clue cell)가 있다. 가장 잘 맞는 진단은?
 
 ## 선택지
 
-A. 즉시 항생제 투여
-B. 생리주기와 분비물의 양상 파악
-C. 복부 초음파 시행
-D. 혈액 배양 검사
+A. 외음질 칸디다증
+B. 세균성 질증
+C. 트리코모나스 질염
+D. 자궁경관염
 
 ## 해설
 
-질분비물의 생리적 변화와 병적 변화를 구분하기 위해 먼저 월경 주기와 분비물의 색·양상을 확인합니다.
-
-## 오답 포인트
-
-<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+균질한 묽은 분비물, 질 pH 상승, 아민 냄새, 단서세포는 세균성 질증의 Amsel 기준이다. 그중 3개 이상이면 진단을 지지한다.
 
 ## 출처
 
 - 내부 학습 노트: 질분비물
 - 원본 경로: `source_notes/01 Chief Complaint/질분비물.md`
 - 학습 목표: 원문 핵심: 질분비물은 생리적 변화와 질염·자궁경부염을 구분하고 골반통·발열이 동반되면 상부 생식기 감염 가능성을 평가한다.
+
+## 검수 근거
+
+- https://www.cdc.gov/std/treatment-guidelines/BV.htm

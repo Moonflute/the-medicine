@@ -22,7 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowOCDqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ
   - ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ
 curation_status: "revised"
 curation_reason: "Rifampin에 nitrofurantoin 문제가 연결된 오류를 실제 항결핵 기전으로 수정."

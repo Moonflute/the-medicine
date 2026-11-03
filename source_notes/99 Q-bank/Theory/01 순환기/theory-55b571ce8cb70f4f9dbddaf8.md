@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,24 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-심실 빈맥(Ventricular Tachycardia)의 정의는?
+심실빈맥의 박동 기원과 최소 연속 박동 수는?
 
 ## 선택지
 
-A. 분당 100회 이상으로 심실에서 기원한 연속적인 PVC 3개 이상이 나타나는 빈맥
-B. 분당 100회 이상으로 심방에서 기원한 빈맥
-C. 불규칙한 RR 간격과 P파 부재가 특징인 부정맥
-D. Tricuspid annulus 주변 매크로 재진입 회로에 의한 빈맥
+A. 심실 기원, 연속 3박동
+B. 심실 기원, 연속 2박동
+C. 심방 기원, 연속 3박동
+D. 방실접합부 기원, 연속 3박동
 
 ## 해설
 
-심실 빈맥은 분당 100회 이상으로 심실에서 기원한 연속적인 PVC 3개 이상이 나타나는 빈맥을 의미한다.
-
-## 오답 포인트
-
-- **분당 100회 이상으로 심방에서 기원한 빈맥:** 심방에서 기원한 빈맥은 심방 빈맥이며 VT와 구분된다.
-- **불규칙한 RR 간격과 P파 부재가 특징인 부정맥:** 불규칙 RR 간격과 P파 부재는 AF의 특징이다.
-- **Tricuspid annulus 주변 매크로 재진입 회로에 의한 빈맥:** Tricuspid annulus 주변 재진입 회로는 AFL와 관련된다.
+심실빈맥은 빠른 속도로 이어지는 심실 기원 박동이 3개 이상인 리듬이다. 심실 조기박동 두 개가 이어지는 경우는 심실 커플릿이다.
 
 ## 출처
 

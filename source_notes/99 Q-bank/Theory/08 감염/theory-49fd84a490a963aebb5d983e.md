@@ -16,16 +16,13 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ
-  - ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA
   - ZHJ1ZzowOCDqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA
-  - ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA
 curation_status: "revised"
 curation_reason: "Piperacillin/tazobactam의 항녹농균 범위는 PBP 기전과 독립적으로 유용하다. 모든 HAP의 고정 첫 약이라는 단정을 제거한다."
 curation_reviewed_at: "2026-10-25"
@@ -40,22 +37,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-다음 중 녹농균(Pseudomonas aeruginosa)에 대한 활성을 갖는 beta-lactam/beta-lactamase inhibitor 복합제는?
+다음 β-lactam 요법 중 감수성이 있는 녹농균에 일반적으로 활성이 있는 것은?
 
 ## 선택지
 
-A. Piperacillin/tazobactam
-B. Metronidazole
-C. Vancomycin
-D. Amoxicillin/clavulanate
+A. 피페라실린/타조박탐
+B. 아목시실린/클라불란산
+C. 암피실린/설박탐
+D. 세프트리악손
 
 ## 해설
 
-Piperacillin/tazobactam은 녹농균을 포함한 여러 그람음성균에 활성을 갖는 복합제다. 그러나 개별 균주의 감수성은 확인해야 하고 모든 병원폐렴의 단일 필수 처방을 뜻하지 않는다. 경험적 치료는 내성 위험·중증도·지역 감수성과 감염 부위에 따라 정하고 배양 결과로 조정한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+피페라실린/타조박탐은 항녹농균 β-lactam이다. 아목시실린/클라불란산, 암피실린/설박탐, 세프트리악손은 녹농균 치료에 쓰지 않는다. 실제 선택에는 감염 부위와 감수성 결과를 반영한다.
 
 ## 출처
 

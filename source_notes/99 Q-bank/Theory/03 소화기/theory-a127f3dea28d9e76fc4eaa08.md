@@ -22,7 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
   - ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ
 curation_status: "retained"
 curation_reason: "항구토 5-HT3 길항제의 대표 기전."

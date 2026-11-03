@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-내측 측부 인대 손상의 주요 임상 양상은?
+무릎을 30° 굽힌 채 외반력을 가하니 안쪽 관절 간격이 벌어지고 통증이 있다. 손상된 인대는?
 
 ## 선택지
 
-A. 내측 무릎 통증·부종·불안정성·‘뚝’ 느낌, 내측 관절선 압통·30도 굴곡 시 Valgus stress test 양성
-B. 전방 무릎 통증·부종·무릎 굽힘 제한, Lachman test 양성
-C. 후방 무릎 통증·가벼운 부종·Posterior drawer test 양성
-D. 무릎 외측 통증·부종·Varus stress test 양성
+A. 내측측부인대(MCL)
+B. 전방십자인대(ACL)
+C. 후방십자인대(PCL)
+D. 외측측부인대(LCL)
 
 ## 해설
 
-MCL 손상 시 내측 무릎 통증·부종·불안정성·‘뚝’ 느낌이 나타나며, 내측 관절선 압통과 30도 굴곡에서 Valgus stress test가 양성이다.
-
-## 오답 포인트
-
-<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+내측측부인대는 외반력에 저항한다. 30° 굴곡에서 외반 검사 시 내측 이완과 통증은 내측측부인대 손상을 시사한다.
 
 ## 출처
 

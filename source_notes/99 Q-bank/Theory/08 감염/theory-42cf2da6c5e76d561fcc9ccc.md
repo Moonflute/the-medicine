@@ -22,7 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
 related_drug_slugs:
-  - ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA
   - ZHJ1ZzowOCDqsJDsl7wvQXp0cmVvbmFtLm1k
 curation_status: "retained"
 curation_reason: "Monobactam의 그람음성균 표적이라는 항생제 계열 개념."

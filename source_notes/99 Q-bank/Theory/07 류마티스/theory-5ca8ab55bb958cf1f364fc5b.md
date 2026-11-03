@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: D
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,18 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-베체트병의 주요 증상이 아닌 것은?
+반복되는 구강·생식기 궤양에 포도막염이 동반된다. 가장 전형적으로 맞는 질환은?
 
 ## 선택지
 
-A. 반복적인 구강 궤양
-B. 반복적인 생식기 궤양
-C. 양측성 포도막염
-D. 만성 진행성 관절 파괴와 골절
+A. 반응성 관절염
+B. 쇼그렌병
+C. 전신경화증
+D. 베체트병
 
 ## 해설
 
-베체트병은 구강·생식기 궤양, 포도막염 등 점막·피부·눈 병변이 특징이며, 관절 파괴와 골절은 일반적인 주요 증상이 아니다.
+재발성 구강·생식기 궤양과 포도막염은 베체트병을 시사하는 조합이다. 모든 환자에서 세 소견이 동시에 나타나야 하는 것은 아니다.
 
 ## 출처
 

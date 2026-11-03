@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -34,18 +34,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Daptomycin의 항균 작용 기전은 무엇입니까?
+다프토마이신을 일반적인 폐포성 폐렴 치료에 사용하지 않는 이유는?
 
 ## 선택지
 
-A. 세균 세포막에 결합해 탈분극을 유도한다.
-B. (1,3)-β-D-glucan 합성을 억제한다.
-C. 바이러스 DNA polymerase를 억제한다.
-D. DNA gyrase를 억제한다.
+A. 폐 표면활성제가 다프토마이신의 항균 활성을 떨어뜨린다.
+B. 폐에서만 MRSA가 세포막을 잃는다.
+C. 다프토마이신이 폐포에서만 β-lactamase에 분해된다.
+D. 다프토마이신은 정맥으로 투여할 수 없다.
 
 ## 해설
 
-Daptomycin은 세균 세포막에 결합해 탈분극을 일으키고, 단백질·DNA·RNA 합성을 급격히 멈춘다.
+다프토마이신은 세균막을 탈분극시키지만 폐포의 표면활성제에 의해 활성이 억제되므로 폐렴 치료에는 사용하지 않는다.
 
 ## 출처
 
@@ -53,6 +53,6 @@ Daptomycin은 세균 세포막에 결합해 탈분극을 일으키고, 단백질
 - 원본 경로: `source_notes/04 Pharmacology/08 감염/Daptomycin.md`
 - 학습 목표: Daptomycin: 세균 세포막에 결합해 탈분극을 유도한다.
 
-## 오답 포인트
+## 검수 근거
 
-<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1ae55ae0-d20f-4e15-b4dc-7e45c33f3152

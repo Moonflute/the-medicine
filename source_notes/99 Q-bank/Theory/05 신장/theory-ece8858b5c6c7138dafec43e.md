@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-KDIGO 2012에서 AKI를 정의하는 기준으로 옳은 것은?
+혈청 크레아티닌이 36시간 동안 0.8에서 1.2 mg/dL로 올랐다. KDIGO 2012 기준 해석은?
 
 ## 선택지
 
-A. 48시간 내 Cr ≥0.3 mg/dL 상승, 7일 내 기저치의 ≥1.5배 상승, 또는 소변량 <0.5 mL/kg/h가 6시간 지속 중 하나
-B. 혈청 Cr이 반드시 3 mg/dL를 넘어야 한다
-C. 소변량 감소만 있고 Cr이 정상이면 AKI가 될 수 없다
-D. eGFR 저하가 3개월 이상 지속되어야만 한다
+A. 48시간 내 0.3 mg/dL 이상 상승해 AKI에 해당
+B. 현재 크레아티닌이 2 mg/dL 미만이라 AKI 아님
+C. 소변량이 줄어야만 AKI에 해당
+D. 3개월 지속되는지 확인해야 AKI 판정 가능
 
 ## 해설
 
-크레아티닌 변화나 소변량 중 하나로도 기준을 충족할 수 있다. 절대 크레아티닌 수치가 정상 범위여도 기저치 대비 변화에 따라 AKI일 수 있으며 원인과 중증도는 별도로 평가한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+36시간에 0.4 mg/dL 상승했으므로 48시간 내 0.3 mg/dL 이상 상승 기준에 해당한다. 절대값이 높아 보여야 하는 것은 아니며 소변량 기준도 별도로 적용한다.
 
 ## 출처
 

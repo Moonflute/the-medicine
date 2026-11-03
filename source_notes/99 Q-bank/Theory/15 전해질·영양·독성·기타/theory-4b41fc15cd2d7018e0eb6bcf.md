@@ -16,13 +16,12 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA
   - ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA
 curation_status: "revised"
 curation_reason: "독성 징후와 치료를 직접 복습하도록 정리하고 칼슘 준비만으로 끝나지 않도록 보충."
@@ -35,22 +34,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-MgSO₄ 관련 호흡 억제·심부건반사 소실 등 유의한 독성에서의 원칙은?
+황산마그네슘 주입 중 심부건반사가 소실되고 호흡이 억제됐다. 주입 중단과 호흡 지지에 더할 역전 약물은?
 
 ## 선택지
 
-A. 투여를 중단하고 호흡을 지지하며 필요한 정맥 칼슘으로 독성 효과를 길항한다
-B. MgSO₄ 주입을 증량한다
-C. 혈당만 측정하고 관찰한다
-D. 다른 전해질·신기능 평가는 불필요하다
+A. 정맥 글루콘산칼슘
+B. 근육 에피네프린
+C. 정맥 인슐린과 포도당
+D. 정맥 탄산수소나트륨
 
 ## 해설
 
-반사 저하·호흡 억제는 마그네슘 독성의 경고이다. Mg 투여를 중단하고 호흡·순환을 지지하며 정맥 칼슘을 사용해 효과를 길항한다. 신기능과 혈중 Mg 등도 평가한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+심부건반사 소실과 호흡억제는 유의한 마그네슘 독성 신호다. 주입을 중단하고 호흡을 지지하며 정맥 칼슘으로 마그네슘 효과를 길항한다.
 
 ## 출처
 

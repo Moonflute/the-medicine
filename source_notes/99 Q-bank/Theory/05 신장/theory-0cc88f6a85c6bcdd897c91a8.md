@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -34,22 +34,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-진흙색 과립원주(muddy brown granular cast)가 특히 시사하는 AKI 원인은?
+AKI의 요침사에서 진흙색 과립원주가 다수 보인다. 가장 전형적인 원인은?
 
 ## 선택지
 
 A. 급성 세뇨관 손상
-B. 단독 콩팥전 저관류
-C. 단순 방광염
-D. 기립성 단백뇨
+B. 순수 콩팥전 저관류
+C. 급속진행 사구체신염
+D. 요로 폐쇄
 
 ## 해설
 
-세뇨관 상피세포와 진흙색 과립원주는 급성 세뇨관 손상을 지지한다. 내인성 AKI에는 사구체염·간질염·혈관질환도 포함되므로 모두 같은 요침사 소견을 보이지 않는다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+진흙색 과립원주와 세뇨관 상피세포는 급성 세뇨관 손상의 단서다. 적혈구 원주는 사구체 염증의 단서로 구분한다.
 
 ## 출처
 

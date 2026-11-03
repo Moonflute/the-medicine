@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -35,22 +35,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-막성 신병증(membranous nephropathy)의 특징적인 사구체 병리 소견은?
+막성 신병증에서 특징적인 사구체 면역침착의 위치는?
 
 ## 선택지
 
-A. 상피하 면역침착과 이에 따른 모세혈관벽·기저막 비후
-B. 메산지움 IgA 침착만으로 이루어진 병변
-C. 면역침착 없이 광학현미경이 정상인 발돌기 소실만
-D. 요로 폐쇄에 의한 수신증
+A. 상피하
+B. 내피하
+C. 메산지움
+D. 기저막 내부
 
 ## 해설
 
-막성 신병증은 주로 상피하 면역침착을 보이며 면역형광에서 모세혈관벽을 따른 과립성 IgG·C3 등이 관찰된다. 진행 단계에 따라 기저막 비후와 spike 형성이 나타날 수 있어 초기에 두께 증가가 뚜렷하지 않을 수도 있다. anti-PLA2R 항체는 별도의 원인·진단 해석 도구이며 병리적 침착 위치와 구분해 이해한다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+막성 신병증의 면역침착은 상피하, 즉 사구체 기저막과 족세포 사이가 특징이다. 모세혈관벽을 따라 과립성 IgG 침착을 볼 수 있다.
 
 ## 출처
 

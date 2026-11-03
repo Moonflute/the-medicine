@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-과민성 폐장염이 의심될 때 특히 중요한 병력은?
+과민성 폐장염을 의심할 때 가장 먼저 확인할 대표 노출은?
 
 ## 선택지
 
-A. 새·곰팡이 등 흡입 항원에 대한 가정·취미·직업 노출
-B. 단백질 섭취량만
-C. 혈액형만
-D. 관절 통증이 없다는 사실만
+A. 새 항원·곰팡이의 반복 흡입
+B. 결정형 실리카 분진의 흡입
+C. 석면 섬유의 흡입
+D. 석탄 분진의 흡입
 
 ## 해설
 
-반복 흡입 항원에 대한 면역반응이 핵심이다. 노출력과 영상·검사 등을 종합하며 섬유화 여부를 평가한다. 노출 시간을 특정 숫자로 맞추는 것만으로 확진하지 않는다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+새 항원·곰팡이 등 흡입 항원에 반복 노출되면 과민성 폐장염이 발생할 수 있다. 석면·실리카·석탄 분진은 다른 직업성 폐질환의 주요 단서다.
 
 ## 출처
 

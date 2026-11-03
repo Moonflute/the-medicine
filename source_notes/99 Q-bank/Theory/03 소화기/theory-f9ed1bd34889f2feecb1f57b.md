@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-식도 정맥류의 정의는?
+간경변 환자에서 급성 식도 정맥류 출혈이 의심된다. 내시경 전 문맥 유입 혈류를 줄이기 위해 시작할 약은?
 
 ## 선택지
 
-A. 문맥 고혈압으로 인한 식도 하부 점막하 정맥의 확장
-B. 식도 평활근 위축에 의한 협착
-C. 식도 점막의 급성 염증
-D. 식도 종양에 의한 혈관 신생
+A. 옥트레오타이드
+B. 판토프라졸
+C. 트라넥삼산
+D. 경구 프로프라놀롤
 
 ## 해설
 
-문맥 고혈압(주로 간경변)으로 식도 하부 점막하 정맥이 확장·부풀어 오른 상태를 식도 정맥류라 한다.
-
-## 오답 포인트
-
-- **식도 평활근 위축에 의한 협착:** 협착은 구조적 병변이며, 정맥류와는 다른 병태이다.
+정맥류 출혈이 의심되면 옥트레오타이드와 같은 혈관작용제를 가능한 한 빨리 시작한다. 급성기 지혈과 장기 예방에 쓰는 약을 구분하며, 소생·항생제·긴급 내시경도 별도로 진행한다.
 
 ## 출처
 
@@ -59,3 +55,5 @@ D. 식도 종양에 의한 혈관 신생
 
 - 검수일: 2026-10-25. 이 문항의 핵심 개념·정답·오답 설명 범위의 검토이며 질환 전체의 검증이 아니다.
 - 판정: 하부 식도 점막하 정맥 확장과 문맥고혈압의 연결은 중요한 기본 병태 복습으로 유지.
+
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/

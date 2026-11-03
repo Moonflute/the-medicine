@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-간질성 폐질환에서 흔히 평가하는 폐기능 변화는?
+전형적인 간질성 폐질환의 폐기능검사에서 예상되는 변화는?
 
 ## 선택지
 
-A. 제한성 환기장애와 DLCO 감소
-B. 모든 환자에서 심한 가역성 폐쇄만
-C. 신경근 기능이 항상 완전히 소실됨
-D. 폐기능 검사가 질병 경과와 전혀 관계없음
+A. 총폐용량(TLC) 감소 + DLCO 감소
+B. 총폐용량(TLC) 증가 + DLCO 감소
+C. 총폐용량(TLC) 감소 + DLCO 증가
+D. 총폐용량(TLC) 증가 + DLCO 증가
 
 ## 해설
 
-폐용적·확산능과 운동 시 산소화를 평가하여 기능 영향을 파악한다. 초기나 특정 유형에서는 전형적인 제한성 패턴이 없을 수도 있어 정상 검사 하나로 배제하지 않는다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+간질성 폐질환은 폐용적이 줄어드는 제한성 장애와 확산능 감소가 전형적이다. 초기 질환이나 다른 폐질환이 함께 있으면 이 패턴이 뚜렷하지 않을 수 있다.
 
 ## 출처
 

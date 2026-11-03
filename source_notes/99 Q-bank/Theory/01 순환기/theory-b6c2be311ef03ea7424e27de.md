@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-동맥경화성 만성 동맥 폐색의 초기 주요 증상은 무엇인가?
+말초동맥질환에서 보행 중 생긴 종아리 통증이 멈춰 서면 가라앉는다. 이 증상은?
 
 ## 선택지
 
-A. 정맥 울혈
-B. 심부전 증상
+A. 정맥성 파행
+B. 허혈성 안정통
 C. 간헐적 파행
-D. 심근경색
+D. 신경인성 파행
 
 ## 해설
 
-간헐적 파행은 운동 시 다리 근육에 통증이 나타나고 휴식 시 완화되는 특징으로, 동맥폐색의 대표적인 초기 증상이다.
-
-## 오답 포인트
-
-- **심부전 증상:** 심부전은 심장 기능 저하와 관련된 증상으로 동맥 폐색의 특징이 아니다.
+운동 시 근육의 혈류 요구량을 공급이 따라가지 못해 통증이 생기고, 운동을 멈추면 완화되는 양상이 간헐적 파행이다.
 
 ## 출처
 

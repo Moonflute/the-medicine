@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-지루 피부염에서 관찰되는 비늘의 색은?
+두피와 눈썹, 콧방울 옆에 기름진 노란 인설과 홍반이 있다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 기름진 흰색·노란색 비늘
-B. 은백색 두꺼운 비늘
-C. 붉은 색 비늘
-D. 검은 색 비늘
+A. 지루피부염
+B. 판상 건선
+C. 몸백선
+D. 주사(장미증)
 
 ## 해설
 
-지루피부염은 두피·눈썹·코입술주름 등 피지가 많은 부위에서 홍반과 기름진 흰색 또는 황색 인설을 보일 수 있다. 건선 등과 겹치는 양상도 있어 색 하나만으로 확진하지 않는다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+지루피부염은 두피·눈썹·코입술 주름 등 피지샘이 많은 부위의 홍반과 기름진 인설이 특징이다.
 
 ## 출처
 

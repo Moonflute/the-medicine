@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-간질성 폐질환의 형태·분포를 평가하는 핵심 영상은?
+간질성 폐질환에서 폐실질 병변의 형태와 분포를 가장 잘 평가하는 영상은?
 
 ## 선택지
 
-A. 고해상도 흉부 CT(HRCT)
-B. 복부 초음파만
-C. 뇌 MRI만
-D. 심전도만
+A. 고해상도 흉부 CT
+B. 단순 흉부 X선
+C. 흉부 초음파
+D. 폐관류 신티그래피
 
 ## 해설
 
-HRCT 패턴을 노출·약물·결합조직질환과 함께 해석한다. 영상 패턴 하나가 원인을 자동 확정하는 것은 아니다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+고해상도 CT로 간유리음영, 망상음영, 벌집 모양 등 폐실질의 미세한 패턴과 분포를 평가한다. 원인을 결정할 때는 임상상·노출·약물 병력과 함께 본다.
 
 ## 출처
 

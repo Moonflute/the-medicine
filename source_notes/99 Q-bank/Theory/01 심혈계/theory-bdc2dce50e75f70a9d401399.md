@@ -22,7 +22,6 @@ generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: "manual-reviewed"
 related_drug_slugs:
-  - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9idXRhbWluZS5tZA
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k
 curation_status: "revised"
 curation_reason: "Enalapril에 dobutamine 문제가 잘못 연결된 오류를 ACE 억제제 핵심 안전 개념으로 교정."

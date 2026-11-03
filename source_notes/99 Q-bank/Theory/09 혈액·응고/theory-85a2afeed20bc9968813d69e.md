@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -34,25 +34,21 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Enoxaparin이 항응고 효과를 나타내는 주요 메커니즘은?
+저분자량 헤파린인 에녹사파린은 트롬빈(IIa)에 비해 어느 응고인자를 더 강하게 억제하는가?
 
 ## 선택지
 
-A. 항트롬빈 III와 결합해 Factor Xa·IIa 활성을 억제
-B. 직접 트롬빈을 억제
-C. 혈소판 응집을 차단
-D. 플라스미노겐 활성화 촉진
+A. Xa
+B. VIIa
+C. IXa
+D. XIIIa
 
 ## 해설
 
-Enoxaparin은 antithrombin을 매개로 Xa와 IIa 활성을 억제한다. 비분획 heparin과 비교해 anti-Xa 작용이 anti-IIa 작용보다 상대적으로 큰 저분자량 heparin이다.
+에녹사파린은 항트롬빈을 통해 Xa와 IIa를 억제한다. 비분획 헤파린보다 사슬이 짧아 IIa보다 Xa 억제 작용이 상대적으로 크다.
 
 ## 출처
 
 - 내부 학습 노트: Enoxaparin
 - 원본 경로: `source_notes/04 Pharmacology/09 혈액·응고/Enoxaparin.md`
 - 학습 목표: LMWH의 antithrombin 매개 억제와 상대적으로 큰 anti-Xa 작용
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->

@@ -21,7 +21,7 @@ question_mode: direct_recall
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,18 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-진성 적혈구증가증(PV)의 정의는?
+지속적인 적혈구증가가 있고 JAK2 변이와 낮은 혈청 EPO가 확인됐다. 가장 합당한 질환은?
 
 ## 선택지
 
-A. 골수에서 적혈구 계열 세포가 비정상적으로 과증식하여 적혈구 수가 증가하는 만성 골수증식성 질환
-B. 백혈구만 과다하게 증식하는 급성 골수성 백혈병
-C. 혈소판이 과다하게 생산되는 혈소판증가증
-D. 골수 섬유화가 진행되어 적혈구 생산이 억제되는 질환
+A. 진성 적혈구증가증
+B. 만성 저산소증에 의한 이차 적혈구증가
+C. 탈수에 의한 상대적 적혈구증가
+D. EPO 분비 종양에 의한 적혈구증가
 
 ## 해설
 
-PV는 적혈구가 과다하게 생산되는 만성 골수증식성 질환이며, JAK2 변이가 흔히 관찰된다.
+진성 적혈구증가증은 대개 JAK2 이상이 있는 클론성 골수증식종양이다. 낮은 EPO는 원발성 증식을 지지한다. 실제 확진은 해당 진단 기준과 함께 판단한다.
 
 ## 출처
 

@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: A
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,22 +32,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-고나트륨혈증의 정의는?
+혈청 나트륨으로 고나트륨혈증을 정의하는 역치는?
 
 ## 선택지
 
-A. 혈청 나트륨 농도 > 145 mEq/L이며, 체내 총 수분량이 나트륨량에 비해 상대적으로 부족한 상태
-B. 혈청 나트륨 농도 < 135 mEq/L인 저나트륨혈증
-C. 세포내 수분 증가로 인한 저삼투성 상태
-D. 혈청 칼륨 농도 > 5.5 mEq/L인 고칼륨혈증
+A. 145 mmol/L 초과
+B. 140 mmol/L 초과
+C. 150 mmol/L 초과
+D. 155 mmol/L 초과
 
 ## 해설
 
-고나트륨혈증은 혈청 나트륨 농도가 145 mEq/L를 초과하고, 체내 총 수분량이 나트륨량에 비해 상대적으로 부족한 상태를 말한다.
-
-## 오답 포인트
-
-<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+혈청 나트륨이 145 mmol/L를 초과하면 고나트륨혈증이다. 나트륨에 비해 수분이 상대적으로 부족한 상태이며, 순환혈량과 발생 원인은 별도로 평가한다.
 
 ## 출처
 

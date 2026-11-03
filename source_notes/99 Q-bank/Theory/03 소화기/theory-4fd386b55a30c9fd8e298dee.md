@@ -32,24 +32,18 @@ review_status: manual-reviewed
 
 ## 문제
 
-급성/최근 HBV 감염 혈청검사의 해석으로 옳은 것은?
+급성 B형간염 회복 중 HBsAg는 소실됐고 anti-HBs는 아직 나타나지 않았다. 이 창기간의 핵심 표지자는?
 
 ## 선택지
 
-A. IgM anti-HBc는 최근 감염을 뒷받침하지만 HBsAg·과거 결과·임상 경과와 함께 해석한다
-B. HBsAg가 음성이면 어떤 급성 HBV 창기간도 불가능하다
-C. IgM anti-HBc 양성은 만성 HBV의 심한 악화·재활성에서는 절대 나타나지 않는다
-D. anti-HBs 양성만으로 현재 급성 HBV 감염을 확진한다
+A. IgM anti-HBc
+B. anti-HBs
+C. HBsAg
+D. IgM anti-HAV
 
 ## 해설
 
-최근 HBV 감염에서 보통 HBsAg와 IgM anti-HBc가 양성이지만 창기간 등에서는 HBsAg가 음성일 수 있다. IgM anti-HBc는 만성 감염의 중증 flare에서도 양성일 수 있어 새 감염과 재활성을 병력·과거 검사로 구분한다.
-
-## 오답 포인트
-
-- 음성 HBsAg로 모든 창기간 배제: 표면 항원 소실과 표면 항체 출현 사이 간격이 가능하다.
-- IgM은 flare에서 절대 불가: 심한 악화·재활성에서도 관찰될 수 있다.
-- anti-HBs 단독 급성 확진: 대개 예방접종·과거 회복 면역 맥락이다.
+HBsAg가 소실되고 anti-HBs가 생기기 전에는 IgM anti-HBc가 최근 B형간염의 단서다. 새 감염과 만성 감염 악화는 과거 검사와 경과를 함께 본다.
 
 ## 출처
 
@@ -63,3 +57,5 @@ D. anti-HBs 양성만으로 현재 급성 HBV 감염을 확진한다
 - 판정: HBsAg·IgM HBc 동시 양성만이 급성 진단이라는 단정을 창기간·만성 악화의 맥락으로 교정.
 - https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html
 - https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm
+
+- https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html

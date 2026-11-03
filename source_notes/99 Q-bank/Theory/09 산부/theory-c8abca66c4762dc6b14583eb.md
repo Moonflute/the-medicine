@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: C
 translation_status: not-applicable
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -32,25 +32,25 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-유방덩이의 양성·악성을 판단할 때 가장 중요한 평가 요소는?
+유방에 단단하고 고정된 종괴가 계속 만져지지만 유방촬영·초음파는 양성으로 보고됐다. 다음 판단은?
 
 ## 선택지
 
-A. 통증 유무
-B. 환자의 연령
-C. 임상 소견과 영상 검사
-D. 덩이의 크기만
+A. 혈중 CA-125가 정상이면 유방암을 배제한다.
+B. 영상이 양성이므로 촉지 소견과 관계없이 진료를 끝낸다.
+C. 진찰에서 악성이 의심되므로 전문 평가와 조직검사를 진행한다.
+D. 압통이 생길 때만 다시 평가한다.
 
 ## 해설
 
-통증만으로는 양·악성을 구분할 수 없으며, 임상 소견과 초음파·촬영 등 영상검사가 핵심이다.
-
-## 오답 포인트
-
-<!-- Redundant or misleading option-by-option notes removed after review; use the main explanation. -->
+영상과 진찰이 맞지 않으면 영상 소견만으로 안심하지 않는다. 촉지 종괴가 임상적으로 의심스러우면 조직검사가 필요하다.
 
 ## 출처
 
 - 내부 학습 노트: 유방덩이
 - 원본 경로: `source_notes/01 Chief Complaint/유방덩이.md`
 - 학습 목표: 원문 핵심: 유방덩이는 연령과 임상 소견에 맞춰 진찰·영상·필요 시 조직검사를 연결하며, 통증 유무만으로 양성·악성을 판단하지 않는다.
+
+## 검수 근거
+
+- https://acsearch.acr.org/docs/69495/narrative/

@@ -16,7 +16,7 @@ question_mode: "direct_recall"
 difficulty: standard
 answer: "A"
 translation_status: not-applicable
-explanation_status: "manual-reviewed"
+explanation_status: manual-reviewed
 generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
@@ -34,22 +34,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-담도 폐쇄를 동반한 급성 담관염의 치료 원칙으로 옳은 것은?
+담도 폐쇄가 있고 쇼크를 동반한 급성 담관염이다. 소생·항생제와 병행할 감염원 조절은?
 
 ## 선택지
 
-A. 초기 소생·항생제 치료와 함께 중증도에 맞춰 신속히 담도 배액을 시행한다
-B. 항생제만 쓰면 폐쇄가 지속되어도 배액은 필요 없다
-C. 배액 준비가 끝날 때까지 수액과 항생제를 모두 미룬다
-D. 모든 환자에게 개복 담도 수술만 시행한다
+A. 긴급 담도 감압·배액
+B. 항생제를 끝낸 뒤 계획 담낭절제
+C. 진단용 MRCP만 시행하고 배액하지 않음
+D. 비위관을 통한 위 감압
 
 ## 해설
 
-혈역학적 안정화와 항생제를 시작하고 폐쇄된 담도의 감염원 조절을 함께 계획한다. 일반적으로 내시경 배액을 선호하며 쇼크 등 중증 환자는 특히 긴급한 평가·배액이 필요하다. 불안정하면 우선 감압 후 결석 제거를 단계적으로 할 수 있다.
-
-## 오답 포인트
-
-<!-- No separate wrong-option notes: explanation covers the tested distinction. -->
+담도 폐쇄를 동반한 중증 담관염에서는 소생과 항생제를 시작하면서 신속히 담도 배액을 계획한다. 보통 내시경 배액을 선호하며 불안정하면 결석의 완전 제거보다 감압을 먼저 할 수 있다.
 
 ## 출처
 
