@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, Pause, Play, RotateCcw, Save, X, Info, SlidersHorizontal, Maximize2, Grid2X2 } from "lucide-react";
-import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { EcgForwardScene } from "@/components/ecg-forward-scene";
 import { EcgForwardTrace, type EcgTraceSignal, type EcgTraceTimeline } from "@/components/ecg-forward-trace";
 import { EcgIschemiaPanel } from "@/components/ecg-ischemia-panel";
@@ -23,7 +23,8 @@ const subscribeMotion = (notify: () => void) => { const query = motionPreference
 const prefersReducedMotion = () => motionPreference().matches;
 const serverMotionPreference = () => false;
 
-export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs,busy}:Props) {
+// Progress updates belong to the status overlay, not the expensive SVG scene.
+export const EcgForwardWorkspace=memo(function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs,busy}:Props) {
   const recording=readRecording();
   const reference=readReference?.(),lesion=recording.inputs.ischemia;
   const [electrodes,setElectrodes]=useState<ElectrodeMap>(()=>structuredClone(DEFAULT_ELECTRODES));
@@ -228,4 +229,4 @@ export function EcgForwardWorkspace({readRecording,readReference,inputs,onInputs
       <section><h3>전기적 활성화와 수축·이완</h3><p>각 조직의 Vm 상승이 짧은 지연 뒤에 수축 반응을 일으키고, 반응이 소멸하며 이완합니다. 심방과 심실의 반응 시간은 다르고, 전도 지연이나 차단은 실제 활성 기록을 통해 움직임에 반영됩니다. 내강은 안쪽으로 좁아지고 Endocardium이 Epicardium보다 더 이동해 벽이 두꺼워지며, AV plane은 Apex 쪽으로 내려옵니다. 심장 전체의 단순 확대·축소가 아닙니다.</p><p>Vm에서 구한 무차원 반응으로 절개도를 변형하는 단방향 교육용 표시입니다. 실제 Calcium transient·Crossbridge·심근 탄성·압력·혈류·Valve 역학을 풀지 않으며 EF나 임상 Strain을 계산하지 않습니다. Ischemia의 수축 반응은 손상 정도에 따라 감소시키고 Scar에는 능동 수축을 주지 않지만, 주변 조직에 끌려 움직일 수 있습니다. 전극·ECG 계산 좌표와 파란 전기장 화살표의 시작점은 고정됩니다. 표시를 꺼도 ECG는 변하지 않습니다.</p><p>‘설정 → 모델 → 심방·심실 수축 표시’로 켜고 끕니다. 기기의 동작 줄이기를 사용하면 기본적으로 꺼집니다. <a href="https://pubmed.ncbi.nlm.nih.gov/28754098/" target="_blank" rel="noreferrer">Asgeirsson · AV plane과 Longitudinal shortening</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/28392437/" target="_blank" rel="noreferrer">Land · Calcium–tension 모델</a>을 참고했으며, 해당 논문의 정량 모델을 구현한 것은 아닙니다.</p></section>
     </div></dialog>
   </div>;
-}
+});

@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.13.127",
+  "version": "0.13.128",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs && node scripts/build-study-flow-index.mjs",
@@ -13,6 +13,7 @@
     "start": "next start",
     "lint": "eslint",
     "verify:ecg-forward": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-forward.mjs",
+    "verify:ecg-cache": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-recording-cache.mjs",
     "verify:ecg-pathologies": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-pathologies.mjs",
     "verify:ecg-ionic-convergence": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-ionic-convergence.mjs",
     "verify:ecg-human-membrane": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-human-membrane.mjs",
@@ -22,7 +23,7 @@
     "verify:ecg-fields": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-fields.mjs",
     "verify:ecg-mechanics": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-ecg-mechanics.mjs",
     "verify:clinical": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/test-clinical-workspaces.mjs",
-    "verify:physiology": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-interactive-physiology.mjs && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-interactive-improvements.mjs && npm run verify:clinical && npm run verify:ecg-forward && npm run verify:ecg-fields",
+    "verify:physiology": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-interactive-physiology.mjs && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-interactive-improvements.mjs && npm run verify:ecg-cache && npm run verify:clinical && npm run verify:ecg-forward && npm run verify:ecg-fields",
     "audit:microbiology": "node scripts/build-microbiology-relations.mjs && node scripts/audit-microbiology-quality.mjs",
     "audit:hubs": "node scripts/audit-hubs.mjs",
     "test:neuro": "node --test scripts/test-nervous-system-atlas.mjs",

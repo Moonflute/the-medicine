@@ -1,42 +1,53 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { EcgForwardWorkspace } from "@/components/ecg-forward-workspace";
-import { DEFAULT_FORWARD_INPUTS, isIonicCondition, referenceForwardInputs, type ForwardInputs, type ForwardRecording } from "@/lib/ecg-forward-model";
+import { DEFAULT_FORWARD_INPUTS, isIonicCondition, normalizeForwardInputs, referenceForwardInputs, type ForwardInputs, type ForwardRecording } from "@/lib/ecg-forward-model";
+import { createEcgRecordingCache } from "@/lib/ecg-recording-cache";
 
 type Calculation = { key:string; recording?:ForwardRecording; reference?:ForwardRecording; progress:number; error?:string };
 
 function useForwardRecording(inputs:ForwardInputs,retry:number) {
-  const key=JSON.stringify(inputs),[calculation,setCalculation]=useState<Calculation>({key:"",progress:0});
-  const healthy=useRef<{key:string;recording:ForwardRecording}|null>(null);
+  const key=JSON.stringify(normalizeForwardInputs(inputs)),[calculation,setCalculation]=useState<Calculation>({key:"",progress:0});
+  const [cache]=useState(()=>createEcgRecordingCache());
   useEffect(()=>{
     let active=true,worker:Worker|undefined;
-    const requested=JSON.parse(key) as ForwardInputs,referenceKey=JSON.stringify(referenceForwardInputs(requested));
+    const requested=JSON.parse(key) as ForwardInputs,referenceKey=JSON.stringify(normalizeForwardInputs(referenceForwardInputs(requested)));
     const needsReference=Boolean(requested.ischemia)||isIonicCondition(requested.condition);
-    const cached=healthy.current?.key===referenceKey?healthy.current.recording:undefined;
+    const separateReference=needsReference&&referenceKey!==key,cached=cache.get(key);
+    let reference=separateReference?cache.get(referenceKey):cached;
     // Debounce numerical controls; cancellation terminates obsolete integrations.
     const timer=window.setTimeout(()=>{
+      if(cached&&reference){setCalculation({key,recording:cached,reference,progress:100});return;}
       try {
         worker=new Worker(new URL("../workers/ecg-forward.worker.ts",import.meta.url),{type:"module"});
         worker.onmessage=(event:MessageEvent)=>{
           if(!active)return;
-          if(event.data.type==="result") {
-            const result=event.data.recording as ForwardRecording;
-            const reference=needsReference?(event.data.reference as ForwardRecording|undefined)??cached:result;
-            if(reference)healthy.current={key:referenceKey,recording:reference};
-            setCalculation({key,recording:result,reference,progress:100});
+          if(event.data.type==="reference") {
+            // Keep a completed reference even if the subsequent lesion run is
+            // cancelled. Never cache partially integrated tissue.
+            reference=event.data.recording as ForwardRecording;
+            cache.set(referenceKey,reference);
+          } else if(event.data.type==="result") {
+            const result=(event.data.recording as ForwardRecording|undefined)??cached;
+            const matchedReference=separateReference?reference:result;
+            worker?.terminate();
+            if(!result||!matchedReference){setCalculation({key,progress:0,error:"계산 결과가 불완전합니다. 다시 계산해 주세요."});return;}
+            cache.set(key,result);
+            setCalculation({key,recording:result,reference:matchedReference,progress:100});
           }
-          else if(event.data.type==="progress")setCalculation(previous=>({...previous,key,progress:Math.min(99,event.data.percent),error:undefined}));
-          else if(event.data.type==="error")setCalculation({key,progress:0,error:"계산을 완료하지 못했습니다. 입력을 초기화하거나 다시 계산해 주세요."});
+          else if(event.data.type==="progress")setCalculation(previous=>{const progress=Math.min(99,event.data.percent);return previous.key===key&&previous.progress===progress&&!previous.error?previous:{...previous,key,progress,error:undefined};});
+          else if(event.data.type==="error"){worker?.terminate();setCalculation({key,progress:0,error:"계산을 완료하지 못했습니다. 입력을 초기화하거나 다시 계산해 주세요."});}
         };
-        worker.onerror=()=>{if(active)setCalculation({key,progress:0,error:"계산 Worker를 시작하지 못했습니다. 새로고침하거나 지원되는 브라우저에서 다시 시도해 주세요."});};
-        worker.postMessage({inputs:requested,needsReference:needsReference&&!cached});
+        worker.onerror=()=>{worker?.terminate();if(active)setCalculation({key,progress:0,error:"계산 Worker를 시작하지 못했습니다. 새로고침하거나 지원되는 브라우저에서 다시 시도해 주세요."});};
+        worker.postMessage({inputs:requested,needsReference:separateReference&&!reference,needsRecording:!cached});
       } catch {
+        worker?.terminate();
         if(active)setCalculation({key,progress:0,error:"이 브라우저에서 계산 Worker를 사용할 수 없습니다. 새로고침하거나 지원되는 브라우저에서 다시 시도해 주세요."});
       }
-    },180);
+    },cached&&reference?0:180);
     return ()=>{active=false;window.clearTimeout(timer);worker?.terminate();};
-  },[key,retry]);
+  },[key,retry,cache]);
   return {...calculation,progress:calculation.key===key?calculation.progress:0,busy:calculation.key!==key||(!calculation.error&&calculation.progress<100)};
 }
 

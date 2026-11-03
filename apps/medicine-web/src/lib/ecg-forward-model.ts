@@ -436,6 +436,11 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
   const {cells,edges}=mesh;
   const tauIn=Float64Array.from(cells,c=>c.tauIn),tauOut=Float64Array.from(cells,c=>c.tauOut),tauClose=Float64Array.from(cells,c=>c.tauClose);
   const rest=Float64Array.from(cells,c=>c.restingPotential??0),amplitude=Float64Array.from(cells,c=>c.amplitude??1),excitability=Float64Array.from(cells,c=>c.excitability??1);
+  // Fixed topology/coefficients are read once, not through object/string fields
+  // for every cell and substep. The mesh, dt and integration order are unchanged.
+  const membraneKind=Uint8Array.from(cells,c=>c.scar?3:human&&(c.chamber==="LV"||c.chamber==="RV"||c.ionic)?2:ionic&&(c.chamber==="RA"||c.chamber==="LA")?1:0);
+  const capacity=Float64Array.from(cells,c=>c.capacity),automaticity=Float64Array.from(cells,c=>c.automaticity??0),tauOpen=Float64Array.from(cells,c=>c.tauOpen??120);
+  const slowRecovery=Float64Array.from(cells,c=>c.slowRecovery??0),slowDecay=Float64Array.from(cells,c=>c.slowRecovery?Math.exp(-DT_MS/c.slowRecovery):0),inactivationDecay=Math.exp(-DT_MS/30);
   const edgeA=Int32Array.from(edges,e=>e.a),edgeB=Int32Array.from(edges,e=>e.b),conductance=Float64Array.from(edges,e=>e.conductance);
   const stimulusTargets=inputs.condition==="rv-pacing"?cells.flatMap((cell,index)=>cell.region==="rv-apical"&&cell.transmural===0&&!cell.bridge&&!cell.scar?[index]:[]):[mesh.sinus];
   const ectopicTargets=cells.flatMap((cell,index)=>cell.region===(inputs.electrophysiology?.ectopicRegion??"lv-septal")&&cell.transmural===0&&!cell.bridge&&!cell.scar?[index]:[]);
@@ -483,24 +488,22 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
       if(time<ectopicTime+DT_MS)stimuli.push({time:time-warmup,region:inputs.electrophysiology?.ectopicRegion??"lv-septal",kind:"ectopic"});
     }
     for(let i=0;i<n;i++) {
-      if(cells[i].scar)continue;
+      const kind=membraneKind[i];if(kind===3)continue;
       const v=vm[i],h=gate[i];
       const u=(v-rest[i])/amplitude[i];
       // Alvarez et al. (2012), Eqs. 10-11: raising resting potential does
       // not translate the inward-current reversal potential. Keep (1 - Vm)
       // distinct from (Vm - Vrest), so injury changes the AP, not its offset.
-      const automatic=cells[i].automaticity??0;
-      const atrialCell=cells[i].chamber==="RA"||cells[i].chamber==="LA";
       // Continuous slow availability, not a timer that forcibly erases a beat.
       // Voltage-dependent inactivation and recovery also respond to concealed
       // subthreshold input at the His membrane.
-      if(cells[i].slowRecovery) {
-        const inf=u<.13?1:0,tau=u<.13?cells[i].slowRecovery!:30;
-        availability[i]=inf+(availability[i]-inf)*Math.exp(-DT_MS/tau);
+      if(slowRecovery[i]) {
+        const inf=u<.13?1:0;
+        availability[i]=inf+(availability[i]-inf)*(u<.13?slowDecay[i]:inactivationDecay);
       }
       const available=h*availability[i];
-      const diffusion=coupling[i]/cells[i].capacity+automatic*(1-v)*h;
-      const dv=human&&!atrialCell&&(cells[i].chamber!=="node"||cells[i].ionic)?human.derivative(i,v,ionicKScale,diffusion):ionic&&atrialCell?ionic.derivative(i,v,true,1,1,diffusion):amplitude[i]*(excitability[i]*available*u*u*(1-v/amplitude[i])/tauIn[i]-u/tauOut[i])+diffusion;
+      const diffusion=coupling[i]/capacity[i]+automaticity[i]*(1-v)*h;
+      const dv=kind===2?human!.derivative(i,v,ionicKScale,diffusion):kind===1?ionic!.derivative(i,v,true,1,1,diffusion):amplitude[i]*(excitability[i]*available*u*u*(1-v/amplitude[i])/tauIn[i]-u/tauOut[i])+diffusion;
       const next=v+DT_MS*dv;
       if(!Number.isFinite(next)||next < (ionic?-.25:-.02)||next>1.5) throw new Error(`Membrane integration became unstable: ${cells[i].region}, cell ${i}, t=${time.toFixed(1)}, Vm=${next.toFixed(4)}`);
       vm[i]=next;
@@ -509,7 +512,7 @@ export function simulateForwardEcg(rawInputs:ForwardInputs, progress?:(percent:n
         // pause or continue an unrelated fixed pulse train through a captured SA.
         if(inputs.condition==="pvc"&&i===mesh.sinus)nextSinusStimulus=time+period;
       }
-      gate[i]=h+DT_MS*(v/amplitude[i]<.13?(1-h)/(cells[i].tauOpen??120):-h/tauClose[i]);
+      gate[i]=h+DT_MS*(v/amplitude[i]<.13?(1-h)/tauOpen[i]:-h/tauClose[i]);
       const relativeTime=time+DT_MS-warmup;
       if(relativeTime>=0&&u<.5&&(next-rest[i])/amplitude[i]>=.5&&eventCells.has(i))events.push({cell:i,time:relativeTime});
       if(relativeTime>=0 && relativeTime<Math.min(period+100,durationMs)) {
@@ -577,6 +580,15 @@ export function createHumanVentricularMembrane(phenotypes:readonly number[],pota
   const calciumAtp=Float64Array.from(phenotypes,(_,i)=>metabolism?.[i]
     ?(1+(1.4/10)**2.6)/(1+(1.4/metabolism[i].atp)**2.6):1);
   const naShift=Float64Array.from(phenotypes,type=>metabolism?(type===0?0:type===1?4.05:8.1):0);
+  // These coefficients depend on fixed tissue inputs, never on current Vm or
+  // concentrations. Hoisting them preserves the ionic equations exactly.
+  const gk1Base=Float64Array.from(localK,k=>5.405*Math.sqrt(k/5.4));
+  const gkrBase=Float64Array.from(localK,k=>.153*Math.sqrt(k/5.4));
+  const gksBase=Float64Array.from(phenotypes,(type,i)=>(type===1?.098:.392)*(ksScales?.[i]??1));
+  const gtoBase=Float64Array.from(phenotypes,type=>type===0?.073:.294);
+  const gnaBase=Float64Array.from(acid,a=>14.838*(1-.38*a));
+  const gcalBase=Float64Array.from(calciumAtp,a=>.0000398*a);
+  const inakBase=Float64Array.from(localK,k=>2.724*k/(k+1));
   // m,h,j,xr1,xr2,xs,d,f,f2,fCass,r,s,Cai,Cass,CaSR,Rprime,Nai,Ki
   const start=[.00172,.7444,.7045,.00621,.4712,.0095,.00003373,.7888,.9755,.9953,2.42e-8,.999998,.000126,.00036,3.64,.9073,8.604,136.89];
   for(let i=0;i<count;i++)states.set(start,i*18);
@@ -630,35 +642,43 @@ export function createHumanVentricularMembrane(phenotypes:readonly number[],pota
   return {states,initialVoltage:(initialMv+85)/120,initialVoltages,
     derivative(i:number,normalized:number,krScale=1,diffusion=0) {
       const v=normalized*120-85,s=i*18,p=clamp((v-lo)/step,0,size-1.000001),left=Math.floor(p),fraction=p-left,o=left*stride;
-      const at=(j:number)=>table[o+j]+fraction*(table[o+stride+j]-table[o+j]);
-      for(let g=0;g<9;g++){
-        let inf=at(g*2);
-        if(metabolism&&(g===1||g===2)) {
-          const np=clamp((v+naShift[i]-lo)/step,0,size-1.000001),nl=Math.floor(np),nf=np-nl,no=nl*stride;
-          const index=g===1?30:32;
-          const normal=table[no+index]+nf*(table[no+stride+index]-table[no+index]);
-          const acidic=table[no+index+1]+nf*(table[no+stride+index+1]-table[no+index+1]);
-          inf=normal*(1-acid[i])+acidic*acid[i];
-        }
-        states[s+g]=inf+(states[s+g]-inf)*at(g*2+1);
+      let hInf=0,jInf=0;
+      if(metabolism) {
+        const np=clamp((v+naShift[i]-lo)/step,0,size-1.000001),nl=Math.floor(np),nf=np-nl,no=nl*stride;
+        const hNormal=table[no+30]+nf*(table[no+stride+30]-table[no+30]),hAcidic=table[no+31]+nf*(table[no+stride+31]-table[no+31]);
+        const jNormal=table[no+32]+nf*(table[no+stride+32]-table[no+32]),jAcidic=table[no+33]+nf*(table[no+stride+33]-table[no+33]);
+        hInf=hNormal*(1-acid[i])+hAcidic*acid[i];jInf=jNormal*(1-acid[i])+jAcidic*acid[i];
       }
-      for(let state=10;state<12;state++) {const g=state===10?9:phenotypes[i]===0?11:10,inf=at(g*2);states[s+state]=inf+(states[s+state]-inf)*at(g*2+1);}
+      for(let g=0;g<9;g++){
+        const index=o+g*2;
+        const inf=metabolism&&g===1?hInf:metabolism&&g===2?jInf:table[index]+fraction*(table[index+stride]-table[index]);
+        const decay=table[index+1]+fraction*(table[index+stride+1]-table[index+1]);
+        states[s+g]=inf+(states[s+g]-inf)*decay;
+      }
+      for(let state=10;state<12;state++) {
+        const g=state===10?9:phenotypes[i]===0?11:10,index=o+g*2;
+        const inf=table[index]+fraction*(table[index+stride]-table[index]),decay=table[index+1]+fraction*(table[index+stride+1]-table[index+1]);
+        states[s+state]=inf+(states[s+state]-inf)*decay;
+      }
+      const expForward=table[o+24]+fraction*(table[o+stride+24]-table[o+24]),expReverse=table[o+25]+fraction*(table[o+stride+25]-table[o+25]);
+      const nakVoltage=table[o+26]+fraction*(table[o+stride+26]-table[o+26]),pkVoltage=table[o+27]+fraction*(table[o+stride+27]-table[o+27]);
+      const ghkIn=table[o+28]+fraction*(table[o+stride+28]-table[o+28]),ghkOut=table[o+29]+fraction*(table[o+stride+29]-table[o+29]);
       const cai=states[s+12],cass=states[s+13],casr=states[s+14],rp=states[s+15],nai=states[s+16],ki=states[s+17];
       const caGate=1/(1+(cass/.05)**2),fcInf=.6*caGate+.4;
       states[s+9]=fcInf+(states[s+9]-fcInf)*Math.exp(-dt/(80*caGate+2));
       const ko=localK[i],ek=rt*Math.log(ko/ki),ena=rt*Math.log(140/nai),eks=rt*Math.log((ko+.03*140)/(ki+.03*nai)),eca=.5*rt*Math.log(2/cai);
       const rectPosition=clamp((v-ek+60)*10,0,2599.999999),rectLeft=Math.floor(rectPosition),rectFraction=rectPosition-rectLeft;
-      const gk1=5.405*Math.sqrt(ko/5.4)*(rectifier[rectLeft]+rectFraction*(rectifier[rectLeft+1]-rectifier[rectLeft]));
-      const gkr=.153*Math.sqrt(ko/5.4)*states[s+3]*states[s+4]*krScale;
-      const gks=(phenotypes[i]===1?.098:.392)*(ksScales?.[i]??1)*states[s+5]**2;
-      const gto=(phenotypes[i]===0?.073:.294)*states[s+10]*states[s+11];
-      const gna=14.838*(1-.38*acid[i])*states[s]**3*states[s+1]*states[s+2];
+      const gk1=gk1Base[i]*(rectifier[rectLeft]+rectFraction*(rectifier[rectLeft+1]-rectifier[rectLeft]));
+      const gkr=gkrBase[i]*states[s+3]*states[s+4]*krScale;
+      const gks=gksBase[i]*states[s+5]**2;
+      const gto=gtoBase[i]*states[s+10]*states[s+11];
+      const m=states[s],gna=gnaBase[i]*(m*m*m)*states[s+1]*states[s+2];
       const ina=gna*(v-ena),ibna=.00029*(v-ena),ik1=gk1*(v-ek),ikr=gkr*(v-ek),iks=gks*(v-eks),ito=gto*(v-ek);
-      const ical=.0000398*calciumAtp[i]*states[s+6]*states[s+7]*states[s+8]*states[s+9]*(at(28)*cass-at(29));
+      const ical=gcalBase[i]*states[s+6]*states[s+7]*states[s+8]*states[s+9]*(ghkIn*cass-ghkOut);
       const ikatp=katp[i]*(v-ek);
-      const ibca=.000592*(v-eca),ipca=.1238*cai/(cai+.0005),ipk=.0146*at(27)*(v-ek);
-      const inak=2.724*ko/(ko+1)*nai/(nai+40)*at(26);
-      const inaca=1000*(at(24)*nai**3*2-at(25)*140**3*cai*2.5)/((87.5**3+140**3)*3.38*(1+.1*at(25)));
+      const ibca=.000592*(v-eca),ipca=.1238*cai/(cai+.0005),ipk=.0146*pkVoltage*(v-ek);
+      const inak=inakBase[i]*nai/(nai+40)*nakVoltage;
+      const inaca=1000*(expForward*(nai*nai*nai)*2-expReverse*140**3*cai*2.5)/((87.5**3+140**3)*3.38*(1+.1*expReverse));
       const kcasr=2.5-1.5/(1+(1.5/casr)**2),k1=.15/kcasr,k2=.045*kcasr;
       const open=k1*cass*cass*rp/(.06+k1*cass*cass);
       const irel=.102*open*(casr-cass),iup=.006375/(1+(.00025/cai)**2),ileak=.00036*(casr-cai),ixfer=.0038*(cass-cai);
@@ -670,7 +690,7 @@ export function createHumanVentricularMembrane(phenotypes:readonly number[],pota
       states[s+17]-=dt*(ik1+ito+ikr+iks+ipk+ikatp-2*inak)*.185/(.016404*F);
       if(states[s+12]<=0||states[s+13]<=0||states[s+14]<=0||states[s+16]<=0||states[s+17]<=0)throw new Error("TP06 concentration integration failed");
       const current=ina+ibna+ik1+ikr+iks+ito+ical+ibca+ipca+ipk+ikatp+inak+inaca;
-      const z=(gna+.00029+gk1+gkr+gks+gto+katp[i]+.000592+.0146*at(27))*dt;
+      const z=(gna+.00029+gk1+gkr+gks+gto+katp[i]+.000592+.0146*pkVoltage)*dt;
       const relaxation=z>1e-10?-Math.expm1(-z)/z:1;
       return (-current/120+diffusion)*relaxation;
     },
