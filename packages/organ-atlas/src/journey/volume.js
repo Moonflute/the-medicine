@@ -1,10 +1,18 @@
 // The navigation field and visible surface are built from the same source mask.
 export class JourneyVolume{
  constructor(manifest,bytes){
-  this.origin=manifest.origin;this.step=manifest.spacing;this.dimensions=manifest.dimensions;this.unit=manifest.distanceUnit;const [nx,ny,nz]=this.dimensions,n=nx*ny*nz;if(bytes.length!==n*2)throw Error('Invalid navigation field');
+  this.origin=manifest.origin;this.step=manifest.spacing;this.dimensions=manifest.dimensions;this.unit=manifest.distanceUnit;const [nx,ny,nz]=this.dimensions,n=nx*ny*nz;
   // Empty body space is >95% of these grids. Keep only occupied 8³ bricks in RAM;
   // source gzip remains compact on disk and the dense decode is then released.
   this.brickDimensions=this.dimensions.map(v=>Math.ceil(v/8));const [bx,by,bz]=this.brickDimensions;this.brickIndex=new Int32Array(bx*by*bz).fill(-1);this.bricks=[];
+  if(manifest.volumeFormat==='bricks-v1'){
+   if(bytes.byteLength<4)throw Error('Invalid sparse navigation field');const view=new DataView(bytes.buffer,bytes.byteOffset,bytes.byteLength),count=view.getUint32(0,true),offset=4+count*4;
+   if(count>this.brickIndex.length||bytes.byteLength!==offset+count*1024)throw Error('Invalid sparse navigation size');
+   for(let i=0;i<count;i++){const key=view.getUint32(4+i*4,true);if(key>=this.brickIndex.length||this.brickIndex[key]!==-1)throw Error('Invalid navigation brick');this.brickIndex[key]=i;this.bricks.push(bytes.subarray(offset+i*1024,offset+(i+1)*1024));}
+   this.memoryBytes=this.brickIndex.byteLength+bytes.byteLength;return;
+  }
+  if(manifest.volumeFormat&&manifest.volumeFormat!=='dense-v1')throw Error('Unknown navigation format');
+  if(bytes.length!==n*2)throw Error('Invalid navigation field');
   for(let z=0;z<nz;z++)for(let y=0;y<ny;y++)for(let x=0;x<nx;x++){const i=x+nx*(y+ny*z);if(!bytes[i]&&!bytes[n+i])continue;const b=(x>>3)+bx*((y>>3)+by*(z>>3));let id=this.brickIndex[b];if(id<0){id=this.bricks.length;this.brickIndex[b]=id;this.bricks.push(new Uint8Array(1024));}const local=(x&7)+8*((y&7)+8*(z&7));this.bricks[id][local]=bytes[i];this.bricks[id][local+512]=bytes[n+i];}
   this.memoryBytes=this.brickIndex.byteLength+this.bricks.length*1024;
  }
@@ -14,6 +22,13 @@ export class JourneyVolume{
  clearance(point){const q=point.map((v,i)=>(v-this.origin[i])/this.step),base=q.map(Math.floor),t=q.map((v,i)=>v-base[i]);let value=0;for(let z=0;z<2;z++)for(let y=0;y<2;y++)for(let x=0;x<2;x++)value+=this.value(base[0]+x,base[1]+y,base[2]+z)*(x?t[0]:1-t[0])*(y?t[1]:1-t[1])*(z?t[2]:1-t[2]);return value*this.unit;}
  region(point){const q=point.map((v,i)=>Math.round((v-this.origin[i])/this.step));return this.value(...q,true);}
  gradient(point){const s=this.step;return [0,1,2].map(axis=>{const a=[...point],b=[...point];a[axis]+=s;b[axis]-=s;return (this.clearance(a)-this.clearance(b))/(2*s)});}
+}
+
+// Offline packing and test roundtrips share the runtime brick layout. Browsers
+// decode only occupied blocks, without allocating a dense full-body voxel grid.
+export function packJourneyBricks(field){
+ const count=field.bricks.length,offset=4+count*4,bytes=new Uint8Array(offset+count*1024),view=new DataView(bytes.buffer);view.setUint32(0,count,true);
+ for(let key=0;key<field.brickIndex.length;key++){const i=field.brickIndex[key];if(i<0)continue;view.setUint32(4+i*4,key,true);bytes.set(field.bricks[i],offset+i*1024);}return bytes;
 }
 
 // A swept sphere with bounded steps, tangent sliding, and no penetration recovery

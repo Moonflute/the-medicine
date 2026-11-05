@@ -26,6 +26,30 @@ def stamp_capsule(a,b,r,label):
  hit=np.sum((p-a-t[...,None]*d)**2,axis=-1)<=r*r
  sub=labels[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1]; sub[hit&(sub==0)]=label
 
+def stamp_transition(a,b,ra,rb,label):
+ a,b=np.array(a),np.array(b);r=max(ra,rb);lo=np.maximum(0,np.floor((np.minimum(a,b)-r-origin)/step).astype(int));hi=np.minimum([nx-1,ny-1,nz-1],np.ceil((np.maximum(a,b)+r-origin)/step).astype(int))
+ z,y,x=np.mgrid[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1];p=np.stack([x,y,z],axis=-1)*step+origin;d=b-a;t=np.clip(np.sum((p-a)*d,axis=-1)/max(np.dot(d,d),1e-15),0,1);radius=ra+(rb-ra)*t*t*(3-2*t)
+ hit=np.sum((p-a-t[...,None]*d)**2,axis=-1)<=radius*radius;sub=labels[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1];sub[hit&(sub==0)]=label
+
+def in_window(points,window):
+ p=world(points);return np.all((p>=window['min'])&(p<=window['max']),axis=1)
+
+junction_windows=dict(cfg.get('junctionWindows',{}));self_contact_voxels=0;source_overlap_voxels=0
+for route in cfg.get('centerlines',[]):
+ stations=np.array(route['points']);centers=stations[:,:3];radii=stations[:,3];arc=np.r_[0,np.cumsum(np.linalg.norm(np.diff(centers,axis=0),axis=1))]
+ lo=np.maximum(0,np.floor((np.min(centers-radii[:,None],axis=0)-origin)/step).astype(int));hi=np.minimum([nx-1,ny-1,nz-1],np.ceil((np.max(centers+radii[:,None],axis=0)-origin)/step).astype(int))
+ z,y,x=np.mgrid[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1];p=np.stack([x,y,z],axis=-1)*step+origin
+ distance,owner=cKDTree(centers).query(p);hit=distance<=radii[owner];barrier=np.zeros_like(hit)
+ # Preserve the tube's order when neighboring loops approach or overlap. A
+ # nearest-surface union alone would create false bowel-to-bowel shortcuts.
+ for axis in range(3):
+  a=[slice(None)]*3;b=a.copy();a[axis]=slice(0,-1);b[axis]=slice(1,None);aa=tuple(a);bb=tuple(b)
+  touching=hit[aa]&hit[bb]&(np.abs(arc[owner[aa]]-arc[owner[bb]])>.04);barrier[aa]|=touching;barrier[bb]|=touching
+ self_contact_voxels+=int(barrier.sum());hit&=~barrier
+ sub=labels[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1];source_overlap_voxels+=int((hit&(sub>0)).sum());sub[hit]=route['part']
+ for key,point in [('5:10',centers[0]),('10:11',centers[-1])]:junction_windows[key]={'min':(point-.012).tolist(),'max':(point+.012).tolist()}
+ del z,y,x,p,distance,owner,hit,barrier
+
 def stamp_sections(sections,label):
  # Smooth elliptical sections in the original frame. PCHIP avoids overshoot at
  # the esophageal/posterior and laryngeal/anterior junctions.
@@ -45,36 +69,50 @@ if cfg['key']=='upper':
 
 # Remove only subvoxel speckle inside a source part, never fill across organs.
 for part in range(1,len(cfg['parts'])+1):
- mask=labels==part
- if not mask.any():raise ValueError('Empty source region '+str(part))
+ points=np.argwhere(labels==part)
+ if not len(points):raise ValueError('Empty source region '+str(part))
  # Some supplied exterior meshes have tiny open seams (odd ray intersections).
  # Repair only within this one region; do not close across separate organs.
+ if cfg['parts'][part-1].get('sourceSweep'):continue
+ lo=np.maximum(0,points.min(axis=0)-3);hi=np.minimum(labels.shape,points.max(axis=0)+4);slices=tuple(slice(int(a),int(b)) for a,b in zip(lo,hi));sub=labels[slices];mask=sub==part
  filled=ndi.binary_fill_holes(ndi.binary_closing(mask,iterations=2))
- labels[filled&(labels==0)]=part
+ sub[filled&(sub==0)]=part
+
+distance_cache={}
+def region_distance(part):
+ if part not in distance_cache:
+  points=np.argwhere(labels==part);lo=np.maximum(0,points.min(axis=0)-1);hi=np.minimum(labels.shape,points.max(axis=0)+2);slices=tuple(slice(int(a),int(b)) for a,b in zip(lo,hi));d=ndi.distance_transform_edt(labels[slices]==part)*step
+  distance_cache[part]=(points,d[tuple((points-lo).T)],lo,d)
+ return distance_cache[part]
 
 junctions=[]
 for a,b in cfg['bridges']:
  # Join the interiors at the junction, not the nearest exterior edge: edge-only
  # contacts are connected mathematically but cannot admit a finite camera.
- da=ndi.distance_transform_edt(labels==a)*step;db=ndi.distance_transform_edt(labels==b)*step
- threshold=.0022 if a==3 or b==3 else .0032
- aa=np.argwhere((labels==a)&(da>=min(threshold,da.max()*.85)));bb=np.argwhere((labels==b)&(db>=min(threshold,db.max()*.85)))
+ surface_a,va,loa,da=region_distance(a);surface_b,vb,lob,db=region_distance(b)
+ bowel=cfg['key']=='upper' and max(a,b)>=10
+ threshold=.008 if bowel and min(a,b)>=11 else .005 if bowel else .0022 if a==3 or b==3 else .0032
+ aa=surface_a[va>=min(threshold,va.max()*.85)];bb=surface_b[vb>=min(threshold,vb.max()*.85)]
  # Clinical endpoints: GE junction at the lower esophagus, not an adjacent wall.
  if cfg['key']=='upper' and (a,b)==(3,4): aa=aa[world(aa)[:,1]<1.215]
  if cfg['key']=='upper' and (a,b)==(2,3): aa=aa[world(aa)[:,1]<1.49];bb=bb[world(bb)[:,1]>1.46]
+ window=junction_windows.get(f'{a}:{b}')
+ if window:aa=aa[in_window(aa,window)];bb=bb[in_window(bb,window)]
+ if not len(aa) or not len(bb):raise ValueError(f'Missing reviewed junction interior {a}->{b}')
  distances,near=cKDTree(aa).query(bb,k=1); k=int(np.argmin(distances));pa=world(aa[[near[k]]])[0];pb=world(bb[[k]])[0];gap=float(distances[k]*step)
  # Interior endpoints include depth into both source surfaces. Keep a strict
  # separate limit on the actual exterior gap, which was measured before this.
- surface_a=np.argwhere(labels==a);surface_b=np.argwhere(labels==b)
  surface_gap=float(cKDTree(surface_a).query(surface_b,k=1)[0].min()*step)
  if surface_gap>.018 or gap>.035: raise ValueError(f'Unreviewed gap {a}->{b}: {surface_gap}, interior span {gap}')
- radius=float(min(.0035,da[tuple(aa[near[k]])],db[tuple(bb[k])]))
- stamp_capsule(pa,pb,radius,a)
- junctions.append({'from':a,'to':b,'gapMetres':round(surface_gap,6),'interiorSpanMetres':round(gap,6),'radiusMetres':radius,'start':pa.tolist(),'end':pb.tolist(),'kind':'reconstructed-junction'})
+ maximum=.008 if bowel and min(a,b)>=11 else .006 if bowel else .0035
+ ra=float(min(maximum,da[tuple(aa[near[k]]-loa)]));rb=float(min(maximum,db[tuple(bb[k]-lob)]))
+ stamp_transition(pa,pb,ra,rb,a)
+ distance_cache.pop(a,None)
+ junctions.append({'from':a,'to':b,'gapMetres':round(surface_gap,6),'interiorSpanMetres':round(gap,6),'radiusMetres':min(ra,rb),'endRadiiMetres':[ra,rb],'start':pa.tolist(),'end':pb.tolist(),'kind':'reconstructed-junction'})
 
 # The immediate fork belongs to the parent lumen. Separating two daughters at
 # their shared ostium would manufacture a wall through the bifurcation itself.
-forks=[(7,[8,9])] if cfg['key']=='upper' else [(2,[4,5,6]),(4,[7,8])]
+forks=[(7,[8,9])] if cfg['key']=='upper' else [(2,[4,5,6]),(4,[7,8]),(9,[13,14])]
 for parent,children in forks:
  near_parent=ndi.distance_transform_edt(labels!=parent)*step<.004
  for i,a in enumerate(children):
@@ -88,8 +126,12 @@ for axis in range(3):
  s=[slice(None)]*3;t=s.copy();s[axis]=slice(0,-1);t[axis]=slice(1,None);la=labels[tuple(s)];lb=labels[tuple(t)]
  candidates=(la>0)&(lb>0)&(la!=lb)
  for a,b in np.unique(np.stack([la[candidates],lb[candidates]],axis=1),axis=0):
-  if tuple(sorted([int(a),int(b)])) in allowed:continue
-  touch=candidates&(la==a)&(lb==b);remove[tuple(s)]|=touch;remove[tuple(t)]|=touch
+  pair=tuple(sorted([int(a),int(b)]));touch=candidates&(la==a)&(lb==b)
+  if pair in allowed:
+   window=junction_windows.get(f'{pair[0]}:{pair[1]}')
+   if not window:continue
+   where=np.argwhere(touch);keep=in_window(where,window);touch[tuple(where[keep].T)]=False
+  remove[tuple(s)]|=touch;remove[tuple(t)]|=touch
 labels[remove]=0
 labels[obstacles>0]=0
 mask=labels>0
@@ -132,9 +174,21 @@ for number,part in enumerate(cfg['parts'],1):
  else:chosen=points[np.argmax(clear)]
  pos=world(chosen[None,:])[0];parts.append({**part,'id':number,'position':pos.tolist(),'clearance':float(distance[tuple(chosen)]),'center':world(points).mean(axis=0).tolist()})
 
+boundaries=[]
+for part in parts:
+ number=part['id'];neighbors=[b if a==number else a for a,b in cfg['connections'] if a==number or b==number]
+ if len(neighbors)!=1 or (cfg['key']=='upper' and number==1):continue
+ junction=next((j for j in junctions if {j['from'],j['to']}=={number,neighbors[0]}),None)
+ if not junction:continue
+ entry=np.array(junction['start'] if junction['from']==number else junction['end']);points=np.argwhere((labels==number)&(distance>=.0025))
+ if not len(points):points=np.argwhere(labels==number)
+ positions=world(points);farthest=positions[np.argmax(np.sum((positions-entry)**2,axis=1))]
+ continuation='더 작은 기관지는 이 모델에 포함하지 않았어요.' if cfg['key']=='upper' and number in [8,9] else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
+ boundaries.append({'part':number,'position':farthest.tolist(),'returnPoint':entry.tolist(),'range':.026,'name':part['name'],'continuation':continuation})
+
 # Preserve conservative clearance, including the smoothing displacement.
 clearance=np.floor(np.maximum(0,distance-step*.35)/.00025).clip(0,255).astype(np.uint8)
 surface=verts.tobytes()+normals.tobytes()+colors.tobytes()+faces.tobytes()
 volume=clearance.tobytes()+labels.tobytes()
-report={'vertices':len(verts),'triangles':len(faces),'surfaceBytes':len(surface),'distanceUnit':.00025,'parts':parts,'junctions':junctions,'discardedVoxels':discarded,'componentsBeforeCleanup':int(count),'gridBytes':len(volume),'limits':'Navigation cavity reconstructed from exterior source surfaces; not measured lumen or histology.'}
+report={'vertices':len(verts),'triangles':len(faces),'surfaceBytes':len(surface),'distanceUnit':.00025,'parts':parts,'junctions':junctions,'junctionWindows':junction_windows,'boundaries':boundaries,'selfContactBarrierVoxels':self_contact_voxels,'sourceOverlapAdjustedVoxels':source_overlap_voxels,'discardedVoxels':discarded,'componentsBeforeCleanup':int(count),'gridBytes':len(volume),'limits':'Navigation cavity reconstructed from exterior source surfaces; not measured lumen or histology.'}
 sys.stdout.buffer.write((json.dumps(report)+'\n').encode());sys.stdout.buffer.write(surface);sys.stdout.buffer.write(volume)

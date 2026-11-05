@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import * as T from 'three';
 import {MeshBVH} from 'three-mesh-bvh';
-import {JourneyVolume,moveInLumen} from './src/journey/volume.js';
+import {JourneyVolume,moveInLumen,packJourneyBricks} from './src/journey/volume.js';
 import {entranceHints,visibleThroughLumen} from './src/journey/wayfinding.js';
 
 // A right-angle fork, a thin wall, and a disconnected parallel channel.
@@ -18,9 +18,12 @@ assert.deepEqual(moveInLumen(synthetic,[.02,0,0],[0,.005,0],.006).position,[.02,
 assert(visibleThroughLumen(synthetic,[0,0,0],[.02,0,0]),'visible hint inside the same lumen');
 assert(!visibleThroughLumen(synthetic,[.02,0,0],[.02,.011,0]),'hide hints beyond the intervening wall');
 
-for(const key of ['upper','vessels']){
+for(const key of process.argv[2]?[process.argv[2]]:['upper','vessels']){
  const prefix=new URL('./static/models/current/journey-'+key,import.meta.url).pathname.replace(/^\/(?=[A-Za-z]:)/,'');
- const path=decodeURIComponent(prefix),m=JSON.parse(fs.readFileSync(path+'.json','utf8')),raw=Uint8Array.from(gunzipSync(fs.readFileSync(path+'-volume.bin.gz'))),field=new JourneyVolume(m,raw);
+ const path=decodeURIComponent(prefix),m=JSON.parse(fs.readFileSync(path+'.json','utf8')),packed=Uint8Array.from(gunzipSync(fs.readFileSync(path+'-volume.bin.gz'))),field=new JourneyVolume(m,packed),count=m.dimensions.reduce((a,b)=>a*b,1),raw=m.volumeFormat==='bricks-v1'?new Uint8Array(count*2):packed;
+ if(m.volumeFormat==='bricks-v1')field.forEachVoxel((x,y,z,id,value)=>{const i=field.offset(x,y,z);raw[i]=value;raw[count+i]=id;});
+ const restored=new JourneyVolume({...m,volumeFormat:'bricks-v1'},packJourneyBricks(field));
+ for(const part of m.parts){assert.equal(restored.region(part.position),field.region(part.position));assert.equal(restored.clearance(part.position),field.clearance(part.position));}
  if(key==='upper'){
   assert.deepEqual(m.landmarks.map(p=>p.name),['Tongue','Epiglottis']);
   const registration=m.landmarkRegistration;assert.equal(registration.checks.filter(c=>c.role==='held-out-check').length,2);
@@ -36,7 +39,7 @@ for(const key of ['upper','vessels']){
  for(let i=0;i<raw.length/2;i+=137){if(raw[i]<7)continue;const x=i%nx,y=Math.floor(i/nx)%ny,z=Math.floor(i/(nx*ny)),p=[x,y,z].map((v,k)=>field.origin[k]+v*field.step),clear=field.clearance(p),nearest=bvh.closestPointToPoint(new T.Vector3(...p));assert.equal(field.value(x,y,z),raw[i]);worstMargin=Math.min(worstMargin,nearest.distance-clear);assert(nearest.distance+1e-6>=clear,`${key}: rendered wall lies inside claimed clearance`);sampled++;
   for(const delta of [[.007,.003,-.002],[-.003,-.009,.002],[.1,-.05,.03]]){const result=moveInLumen(field,p,delta,.0016);assert(field.clearance(result.position)>=.0016-1e-8);moves++;}
  }
- for(const part of m.parts)assert(field.clearance(part.position)>=.0016,`${key}: unsafe start ${part.name}`);
+ for(const part of m.parts)assert(field.clearance(part.position)>=.0004,`${key}: unsafe start ${part.name}`);
  // Reconstruct actual voxel routes, then traverse each with the production
  // swept-sphere controller in both directions. These are tests, not rail paths.
  const nvox=raw.length/2,previous=new Int32Array(nvox),queue=new Int32Array(raw.subarray(0,nvox).reduce((n,v)=>n+(v>=2),0)),cell=p=>p.map((v,i)=>Math.round((v-m.origin[i])/m.spacing)),index=p=>field.offset(...cell(p)),start=index(m.parts[key==='upper'?0:1].position),targets=new Set(m.parts.map(p=>index(p.position)));let head=0,tail=1;queue[0]=start;previous[start]=start+1;

@@ -11,7 +11,7 @@ export class JourneyMiniMap{
   const frame=[axis,...camera.position.toArray(),...camera.quaternion.toArray()].join(',');if(frame===this.frame)return;this.frame=frame;
   // Zoom the side map around the pharynx while nearby, so the anterior airway
   // and posterior esophagus remain distinguishable on a phone-sized inset.
-  const neck=side&&asset.manifest.key==='upper'&&camera.position.y>1.435,minU=neck?Math.max(0,(-.028-f.origin[u])/f.step):0,maxU=neck?Math.min(image.width,(.105-f.origin[u])/f.step):image.width,minY=neck?(1.435-f.origin[1])/f.step:0,maxY=neck?(1.58-f.origin[1])/f.step:ny;
+  const neck=side&&asset.manifest.key==='upper'&&camera.position.y>1.435,abdomen=asset.manifest.key==='upper'&&camera.position.y<1.24,minU=neck?Math.max(0,(-.028-f.origin[u])/f.step):abdomen?Math.max(0,((side?-.09:-.14)-f.origin[u])/f.step):0,maxU=neck?Math.min(image.width,(.105-f.origin[u])/f.step):abdomen?Math.min(image.width,((side?.11:.14)-f.origin[u])/f.step):image.width,minY=neck?(1.435-f.origin[1])/f.step:abdomen?Math.max(0,(.79-f.origin[1])/f.step):0,maxY=neck?(1.58-f.origin[1])/f.step:abdomen?Math.min(ny,(1.24-f.origin[1])/f.step):ny;
   const sw=maxU-minU,sh=maxY-minY,scale=Math.min((w-28)/sw,(h-30)/sh),ox=(w-sw*scale)/2,oy=(h-sh*scale)/2;
   ctx.clearRect(0,0,w,h);ctx.drawImage(image,minU,ny-maxY,sw,sh,ox,oy,sw*scale,sh*scale);
   const project=p=>[ox+((p[u]-f.origin[u])/f.step-minU)*scale,oy+(maxY-(p[1]-f.origin[1])/f.step)*scale];

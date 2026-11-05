@@ -18,6 +18,11 @@ export function entranceHints(manifest){
   {id:'esophagus',name:'Esophageal inlet',detail:'뒤쪽 · Stomach',point:junction(2,3,'start'),regions:[2,6],range:.060},
   {id:'left-bronchus',name:'Left main bronchus',detail:'좌주기관지',point:junction(7,8),regions:[7,8,9],range:.055},
   {id:'right-bronchus',name:'Right main bronchus',detail:'우주기관지',point:junction(7,9),regions:[7,8,9],range:.055},
+  {id:'pylorus',name:'Pyloric junction',detail:'Duodenum으로',point:junction(4,5),regions:[4,5],range:.07},
+  {id:'duodenojejunal',name:'Duodenojejunal junction',detail:'Jejunum · ileum으로',point:junction(5,10),regions:[5,10],range:.04},
+  {id:'ileocecal',name:'Ileocecal junction',detail:'Cecum으로',point:junction(10,11),regions:[10,11],range:.04},
+  {id:'hepatic-flexure',name:'Right colic flexure',detail:'Transverse colon으로',point:junction(11,12),regions:[11,12],range:.05},
+  {id:'splenic-flexure',name:'Left colic flexure',detail:'Descending colon으로',point:junction(12,13),regions:[12,13],range:.05},
   ...(manifest.landmarks||[]).map(p=>({id:p.name.toLowerCase(),name:p.name,detail:'',point:p.position,regions:p.id===1?[1,2]:[2,6],range:p.id===1?.05:.045,surface:true}))
  ].filter(h=>h.point);
 }
