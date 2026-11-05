@@ -26,14 +26,14 @@ related_drug_slugs:
 
 ## 문제
 
-리툭시맙을 시작하기 전에 B형간염 재활성화 위험을 확인할 선별 검사 조합은?
+리툭시맙 전 현재 또는 과거 B형간염 감염을 확인하는 데 핵심인 두 검사는?
 
 ## 선택지
 
-A. HBeAg와 ALT만
-B. anti-HBs만
-C. 총 빌리루빈과 알부민만
-D. HBsAg와 anti-HBc
+A. HBeAg와 ALT
+B. HBsAg와 anti-HBs
+C. anti-HBs와 ALT
+D. HBsAg와 total anti-HBc
 
 ## 해설
 

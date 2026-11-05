@@ -62,7 +62,7 @@
     "qbank": {
       "count": 6696,
       "source": "99 Q-bank/MedQA + 99 Q-bank/Theory",
-      "generatedAt": "2026-11-05T02:11:39.291Z"
+      "generatedAt": "2026-11-05T02:49:37.162Z"
     },
     "infectionPathways": {
       "count": 43,

@@ -24,14 +24,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-통풍 환자에게 장기 요산저하제를 적정할 때 일반적인 혈청 요산 목표는?
+통풍의 일반적인 요산저하 치료에서 혈청 요산을 몇 mg/dL 미만으로 유지하는가?
 
 ## 선택지
 
-A. 8 mg/dL 미만
-B. 7 mg/dL 미만
-C. 6 mg/dL 미만
-D. 모든 환자에서 3 mg/dL 미만
+A. 8 mg/dL
+B. 7 mg/dL
+C. 6 mg/dL
+D. 5 mg/dL
 
 ## 해설
 

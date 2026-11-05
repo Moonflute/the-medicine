@@ -24,7 +24,7 @@ review_status: manual-reviewed
 
 ## 문제
 
-대사성 산증에서 HCO₃⁻가 12 mmol/L, 실제 PaCO₂가 40 mmHg다. Winter 공식의 예상 PaCO₂는 26±2 mmHg다. 해석은?
+대사성 산증에서 Winter 공식의 예상 PaCO₂는 26±2 mmHg인데 실제 PaCO₂는 40 mmHg다. 해석은?
 
 ## 선택지
 
