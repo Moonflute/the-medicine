@@ -7,7 +7,6 @@ import {
   getChiefComplaints,
   getDrugs,
   getLabImgNotes,
-  getQbankIndex,
   isCompatibilityDisease,
 } from "@/lib/webdb";
 import type { ReviewCatalogItem } from "@/lib/review-store";
@@ -72,7 +71,7 @@ export default function ReviewPage() {
         <RandomPageLearningCard catalog={catalog} />
         <ReviewLaunchAction kind="audio" href="/review/audio" />
       </ReviewLaunchActions>
-      <ReviewPageClient catalog={catalog} questions={getQbankIndex()} />
+      <ReviewPageClient catalog={catalog} />
     </div>
   );
 }

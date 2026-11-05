@@ -26,12 +26,12 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
     return <div className={chat ? "chat-qbank-practice" : undefined}>
       {modes}
       <fieldset className="mt-5"><legend className="font-semibold text-slate-900">모의고사 선택</legend>
-        <div className={chat ? "chat-qbank-choice-list" : "mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4"}>{exams.map((exam) => {
+        <div className="mt-2 grid grid-cols-2 gap-1.5 sm:grid-cols-[repeat(auto-fill,8.25rem)]">{exams.map((exam) => {
           const checked = active === exam;
-          return <label key={exam.label} className={chat ? "chat-qbank-choice" : `flex cursor-pointer items-center gap-3 rounded-xl border p-4 ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`} data-checked={checked}>
-            {chat ? <span className="skin-contact-avatar" aria-hidden="true" /> : null}
-            <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year))} className="accent-teal-600" />
-            <span><span className="block font-semibold">{exam.label}</span><span className="text-xs text-slate-500">{exam.count.toLocaleString()}문항</span></span>
+          return <label key={exam.label} className={`flex min-h-9 min-w-0 cursor-pointer items-center gap-1.5 rounded-md border px-2 py-1 whitespace-nowrap ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`} data-checked={checked}>
+            <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year))} className="h-3.5 w-3.5 shrink-0 accent-teal-600" />
+            <span className="text-xs font-semibold sm:text-sm">{exam.label}</span>
+            <span className="ml-auto text-[11px] tabular-nums text-slate-500">{exam.count.toLocaleString()}문항</span>
           </label>;
         })}</div>
       </fieldset>

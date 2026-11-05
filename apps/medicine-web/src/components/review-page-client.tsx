@@ -6,8 +6,7 @@ import { SkinStatus } from "@/components/skin-status";
 import type { SkinStatusKind } from "@/lib/skin-status";
 import { useEffect, useMemo, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
-import { LearningActivityDashboard } from "@/components/learning-activity-dashboard";
-import type { QbankQuestionIndex } from "@/lib/types";
+import { QbankRangeActivityHeatmap } from "@/components/qbank-activity-heatmap";
 import {
   loadRecentItems,
   loadReviewItems,
@@ -35,7 +34,7 @@ function formatDate(value?: string) {
   return new Intl.DateTimeFormat("ko-KR", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(value));
 }
 
-export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalogItem[]; questions: QbankQuestionIndex[] }) {
+export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) {
   const [items, setItems] = useState<ReviewItem[]>([]);
   const [recent, setRecent] = useState<RecentReviewItem[]>([]);
   const [tab, setTab] = useState<Tab>("activity");
@@ -95,7 +94,7 @@ export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalo
       {message ? <SkinStatus kind={message.kind} fallback={message.text} detail={message.detail} className="rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900" /> : null}
 
       {tab === "activity" ? (
-        <LearningActivityDashboard catalog={catalog} questions={questions} />
+        <QbankRangeActivityHeatmap />
       ) : current.length === 0 ? (
         <SkinStatus kind={tab === "recent" ? "recentEmpty" : "savedEmpty"} stage className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600"
           fallback={tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."} />

@@ -7,7 +7,7 @@ import { SkinStatus } from "@/components/skin-status";
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
+import { ArrowLeft, Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
 import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
@@ -377,13 +377,13 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     if (relatedTarget.type === "disease") sessionParams.set("targets", (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).join(","));
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
-  const selectionTabs = <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
+  const selectionTabs = <div role="tablist" aria-label="문제 종류" className={`grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1 ${chatLayout || relatedTarget ? "mt-5" : ""}`}>
         {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => chooseBank(key)} onKeyDown={(event) => {
           const tabs = ['theory', 'clinical', 'practice'] as const;
           const index = tabs.indexOf(key);
           const next = event.key === 'ArrowRight' ? tabs[(index + 1) % 3] : event.key === 'ArrowLeft' ? tabs[(index + 2) % 3] : event.key === 'Home' ? tabs[0] : event.key === 'End' ? tabs[2] : null;
           if (next) { event.preventDefault(); chooseBank(next); document.getElementById(`tab-${next}`)?.focus(); }
-        }} className={`rounded-md px-2 py-3 text-sm font-semibold ${tab === key ? 'bg-white text-teal-800 shadow-sm' : 'text-slate-600'}`}>{label} <span className="text-xs">{selected > 0 ? `(${selected})` : ''}</span></button>)}
+        }} className={`rounded-md px-2 text-sm font-semibold ${chatLayout || relatedTarget ? "py-3" : "py-2"} ${tab === key ? 'bg-white text-teal-800 shadow-sm' : 'text-slate-600'}`}>{label} <span className="text-xs">{selected > 0 ? `(${selected})` : ''}</span></button>)}
       </div>;
   const selectionPanels = <><div role="tabpanel" id="panel-theory" aria-labelledby="tab-theory" hidden={tab !== "theory"} className="mt-6 space-y-6">
         <div><h3 className="text-base font-semibold text-slate-900">이론 문제 <span className="text-sm font-normal text-slate-500">{theoryGroups.reduce((sum, group) => sum + group.items.reduce((countSum, item) => countSum + item.count, 0), 0).toLocaleString()}문항</span></h3></div>
@@ -426,34 +426,53 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     </ChatQbankLobby>;
   }
 
-  return <div className="space-y-6">
-    {!relatedTarget ? <SkinPanel label="문제풀이 요약" className="flex flex-wrap items-center gap-x-5 gap-y-1 px-1 text-xs sm:text-sm" title="풀이 현황" ordinal={1}>
-      <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">전체 문제</span><span className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</span></div>
-      <div className="flex items-baseline gap-2 whitespace-nowrap"><span className="text-slate-500">풀이 완료</span><span className="font-semibold tabular-nums">{stats.attempted.toLocaleString()}</span></div>
-      <div className="flex items-baseline gap-2 whitespace-nowrap text-rose-700"><span>오답</span><span className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</span></div>
-    </SkinPanel> : null}
+  return <div className={relatedTarget ? "space-y-6" : "space-y-3"}>
+    {!relatedTarget ? <header className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+      <div className="flex min-w-0 flex-wrap items-baseline gap-x-4 gap-y-1">
+        <h1 className="text-lg font-semibold text-slate-950">문제 풀기</h1>
+        <dl aria-label="문제풀이 요약" className="flex min-w-0 flex-wrap items-baseline gap-x-3 gap-y-1 text-xs sm:text-sm">
+          <div className="flex items-baseline gap-1 whitespace-nowrap"><dt className="text-slate-500">전체 문제</dt><dd className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</dd></div>
+          <div className="flex items-baseline gap-1 whitespace-nowrap"><dt className="text-slate-500">풀이 완료</dt><dd className="font-semibold tabular-nums">{stats.attempted.toLocaleString()}</dd></div>
+          <div className="flex items-baseline gap-1 whitespace-nowrap text-rose-700"><dt>오답</dt><dd className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</dd></div>
+        </dl>
+      </div>
+      <nav aria-label="문제 풀기 이동" className="flex flex-wrap items-center gap-2">
+        <Link href="/review" className="secondary-action min-h-8 gap-1.5 px-2.5 py-1 text-xs"><ArrowLeft className="h-3.5 w-3.5" />REVIEW로 돌아가기</Link>
+        <Link href="/review/qbank/stats" className="primary-action min-h-8 px-2.5 py-1 text-xs">학습 통계</Link>
+      </nav>
+    </header> : null}
 
-    {!relatedTarget && (activeSessions.length > 0 || activeSessionSyncError) ? <SkinPanel className="space-y-2" label="진행 중인 문제 세트" title="진행 중인 문제 세트" ordinal={2}>
+    {!relatedTarget && (activeSessions.length > 0 || activeSessionSyncError) ? <SkinPanel className="space-y-1.5" label="진행 중인 문제 세트" title="진행 중인 문제 세트" ordinal={2}>
       {activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900" /> : null}
       {activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="px-1 text-xs text-slate-500" /> : null}
-      {activeSessions.map((activeSession, index) => <article key={activeSession.sessionId} className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-teal-200 bg-teal-50/60 px-4 py-3.5">
-        <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5"><p className="shrink-0 text-sm font-semibold text-teal-950">세트 {index + 1}</p><p className="min-w-0 text-xs leading-5 text-teal-800">{activeSessionDescription(activeSession, questionsById, practiceById, practiceTopicLabels)}</p>{activeSession.context?.kind === "related-theory" ? <span className="rounded-full bg-teal-700 px-2 py-0.5 text-[10px] font-semibold text-white">관련 문제풀이</span> : null}</div>
-          {activeSession.context?.topics?.length ? <div className="mt-1.5 flex flex-wrap gap-1">{activeSession.context.topics.slice(0, 4).map((topic) => <span key={`${topic.type}:${topic.slug}`} className="rounded-full border border-teal-200 bg-white/80 px-2 py-0.5 text-[10px] text-teal-900">{topic.title} {topic.count}</span>)}</div> : null}
-          <p className="mt-1 text-xs text-teal-800">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항</p>
-          {activeSessionError?.sessionId === activeSession.sessionId ? <SkinStatus kind="saveError" fallback={activeSessionError.message} detail={activeSessionError.message} className="mt-1 text-xs text-rose-700" /> : null}
-        </div>
-        <div className="flex shrink-0 gap-1.5">
-          <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="qbank-session-action qbank-session-action--resume">재개</Link>
-          <button type="button" className="qbank-session-action qbank-session-action--end" disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "종료"}</button>
-        </div>
-      </article>)}
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,18rem),1fr))] gap-2">
+        {activeSessions.map((activeSession, index) => {
+          const topics = activeSession.context?.topics?.slice(0, 4).map((topic) => `${topic.title} ${topic.count}`).join(" · ");
+          return <article key={activeSession.sessionId} className="flex min-w-0 items-center gap-2 rounded-lg border border-teal-200 bg-teal-50/60 px-2.5 py-1.5">
+            <div className="min-w-0 flex-1 text-xs leading-4 text-teal-800">
+              <p className="break-words"><strong className="mr-1.5 whitespace-nowrap font-semibold text-teal-950">세트 {index + 1}</strong>{activeSessionDescription(activeSession, questionsById, practiceById, practiceTopicLabels)}</p>
+              <p className="mt-0.5 text-[11px] tabular-nums">{Math.min(activeSession.currentIndex + 1, activeSession.questionIds.length)} / {activeSession.questionIds.length}번 · 제출 {activeSession.answers.length}문항{activeSession.context?.kind === "related-theory" ? " · 관련 문제풀이" : ""}</p>
+              {topics ? <p className="mt-0.5 break-words text-[11px]">{topics}</p> : null}
+              {activeSessionError?.sessionId === activeSession.sessionId ? <SkinStatus kind="saveError" fallback={activeSessionError.message} detail={activeSessionError.message} className="mt-1 text-xs text-rose-700" /> : null}
+            </div>
+            <div className="flex shrink-0 gap-1">
+              <Link href={`/review/qbank/session?session=${encodeURIComponent(activeSession.sessionId)}`} className="qbank-session-action qbank-session-action--resume" aria-label={`세트 ${index + 1} 재개`}>재개</Link>
+              <button type="button" className="qbank-session-action qbank-session-action--end" aria-label={`세트 ${index + 1} 종료`} disabled={Boolean(endingActiveSessionId)} onClick={() => void endActiveSession(activeSession)}>{endingActiveSessionId === activeSession.sessionId ? "종료 중…" : "종료"}</button>
+            </div>
+          </article>;
+        })}
+      </div>
     </SkinPanel> : null}
 
-    <SkinPanel className="surface p-5 sm:p-6" title="문제 세트 구성" ordinal={3}>
+    <SkinPanel className={relatedTarget ? "surface p-5 sm:p-6" : "surface p-3 sm:p-4"} title="문제 세트 구성" ordinal={3}>
       <fieldset disabled={loadedDraft !== draftKey}>
-      <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
-      {selectionTabs}
+      {relatedTarget ? <>
+        <div className="flex flex-wrap items-baseline justify-between gap-3"><h2 className="text-xl font-semibold text-slate-950">{relatedTarget.label} 관련 문제</h2><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
+        {selectionTabs}
+      </> : <div className="flex flex-wrap items-center gap-2">
+        <div className="min-w-0 flex-[1_1_15rem]">{selectionTabs}</div>
+        <span className="pill shrink-0">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span>
+      </div>}
       {selectionPanels}
       {tab !== "practice" && <SkinPanel className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" label="랜덤풀이 시작 설정" title="출제 설정" ordinal={4}>
         <h3 className="font-semibold text-slate-900">랜덤풀이 시작</h3>
