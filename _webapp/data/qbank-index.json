@@ -103427,6 +103427,27 @@
     "targetTitle": "대동맥 박리 (Aortic Dissection)"
   },
   {
+    "id": "theory-acute-asthma-severe-early-systemic-steroid",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6riw7Lmo",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA",
+    "targetTitle": "천식"
+  },
+  {
     "id": "theory-acute-bacterial-prostatitis-no-massage",
     "specialty": "20 비뇨기과",
     "specialtySlug": "MjAg67mE64eo6riw6rO8",
@@ -103821,6 +103842,24 @@
     "targetTitle": "흉관 삽입술 (Chest Tube Insertion)"
   },
   {
+    "id": "theory-convulsive-status-second-line-after-benzodiazepine",
+    "specialty": "14 소아청소년과",
+    "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7KCE7KadIOyngOyGjeymnSAoU3RhdHVzIEVwaWxlcHRpY3VzKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7KCE7KadIOyngOyGjeymnSAoU3RhdHVzIEVwaWxlcHRpY3VzKS5tZA",
+    "targetTitle": "뇌전증 지속증 (Status Epilepticus)"
+  },
+  {
     "id": "theory-copd-exacerbation-first-bronchodilator",
     "specialty": "02 호흡기",
     "specialtySlug": "MDIg7Zi47Z2h6riw",
@@ -103880,6 +103919,27 @@
     "targetType": "drug",
     "targetSlug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k",
     "targetTitle": ""
+  },
+  {
+    "id": "theory-dka-add-dextrose-continue-insulin",
+    "specialty": "04 내분비",
+    "specialtySlug": "MDQg64K067aE67mE",
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ"
+    ],
+    "relatedCcSlugs": [
+      "64uk64eo",
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ",
+    "targetTitle": "당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)"
   },
   {
     "id": "theory-dtga-prostaglandin-ductal-patency",
@@ -104731,6 +104791,24 @@
     "targetTitle": "소아 탈수와 수액 치료 (Pediatric Dehydration and Fluid Therapy)"
   },
   {
+    "id": "theory-placental-abruption-fetal-bradycardia-emergency-cesarean",
+    "specialty": "12 산과",
+    "specialtySlug": "MTIg7IKw6rO8",
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ",
+    "targetTitle": "태반조기박리 (Placental Abruption)"
+  },
+  {
     "id": "theory-positive-fit-diagnostic-colonoscopy",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
@@ -104754,6 +104832,24 @@
   },
   {
     "id": "theory-postpartum-atony-first-uterotonic",
+    "specialty": "12 산과",
+    "specialtySlug": "MTIg7IKw6rO8",
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+    "targetTitle": "산후출혈"
+  },
+  {
+    "id": "theory-postpartum-hemorrhage-early-tranexamic-acid",
     "specialty": "12 산과",
     "specialtySlug": "MTIg7IKw6rO8",
     "relatedDiseaseSlugs": [
@@ -104896,6 +104992,47 @@
     "targetTitle": ""
   },
   {
+    "id": "theory-regular-narrow-svt-adenosine-after-vagal",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "65GQ6re86rGw66a8",
+      "7Zi47Z2h6rOk656A",
+      "7Iuk7Iug",
+      "7ZS866Gc"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k",
+    "targetTitle": "발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)"
+  },
+  {
+    "id": "theory-rhabdomyolysis-early-isotonic-crystalloid",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k",
+    "targetTitle": "횡문근융해증 (Rhabdomyolysis)"
+  },
+  {
     "id": "theory-rituximab-hepatitis-b-screen",
     "specialty": "07 면역·염증·류마티스",
     "specialtySlug": "MDcg66m07Jetwrfsl7zspp3Ct-ulmOuniO2LsOyKpA",
@@ -104950,6 +105087,27 @@
     "targetType": "disease",
     "targetSlug": "MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k",
     "targetTitle": "회전근개파열 (Rotator Cuff Tear)"
+  },
+  {
+    "id": "theory-ruptured-ectopic-unstable-emergency-surgery",
+    "specialty": "12 산과",
+    "specialtySlug": "MTIg7IKw6rO8",
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6rOo67CY7Ya1",
+      "7Iuk7Iug"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA",
+    "targetTitle": "자궁외 임신 (Ectopic Pregnancy)"
   },
   {
     "id": "theory-salicylate-mixed-acid-base",
@@ -105032,6 +105190,28 @@
     "targetType": "disease",
     "targetSlug": "MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA",
     "targetTitle": "저혈당 (Hypoglycemia)"
+  },
+  {
+    "id": "theory-severe-preeclampsia-35w-delivery-after-stabilization",
+    "specialty": "12 산과",
+    "specialtySlug": "MTIg7IKw6rO8",
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1",
+      "6rWs7Yag",
+      "7LK07KSR7Kad6rCA"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA",
+    "targetTitle": "중증 전자간증 (Severe Pre-eclampsia)"
   },
   {
     "id": "theory-smoke-cyanide-hydroxocobalamin",
@@ -105134,6 +105314,44 @@
     "targetType": "disease",
     "targetSlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k",
     "targetTitle": "뇌수막염 (Meningoencephalitis)"
+  },
+  {
+    "id": "theory-suspected-lithium-toxicity-hold-check-level",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA",
+    "targetTitle": "리튬 중독 (Lithium Poisoning)"
+  },
+  {
+    "id": "theory-suspected-wernicke-early-parenteral-thiamine",
+    "specialty": "15 정신건강의학과",
+    "specialtySlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8",
+    "relatedDiseaseSlugs": [
+      "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uyoOultOuLiOy8gC3svZTrpbTsgqzsvZTtlIQg7Kad7ZuE6rWwIChXZXJuaWNrZS1Lb3JzYWtvZmYgU3luZHJvbWUpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uyoOultOuLiOy8gC3svZTrpbTsgqzsvZTtlIQg7Kad7ZuE6rWwIChXZXJuaWNrZS1Lb3JzYWtvZmYgU3luZHJvbWUpLm1k",
+    "targetTitle": "베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)"
   },
   {
     "id": "theory-symptomatic-severe-as-valve-intervention",
@@ -105287,6 +105505,27 @@
     "targetType": "cc",
     "targetSlug": "7ISc66elwrfrsKnsi6TssKjri6g",
     "targetTitle": ""
+  },
+  {
+    "id": "theory-unstable-tamponade-urgent-drainage",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "6rCA7Iq07Ya17Kad"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA",
+    "targetTitle": "심장 눌림증 (Cardiac Tamponade)"
   },
   {
     "id": "theory-vancomycin-serious-mrsa-auc-monitoring",
