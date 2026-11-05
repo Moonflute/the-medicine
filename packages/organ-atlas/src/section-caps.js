@@ -119,7 +119,7 @@ export class SectionCapManager{
   for(const record of this.records.values()){
    const {source,back,front,cap,backMaterial,frontMaterial,capMaterial}=record,material=source.material;
    const actuallyVisible=visibleThrough(source,this.model)&&material.visible!==false&&material.opacity>0;
-   source.geometry.computeBoundingSphere();const sphere=source.geometry.boundingSphere;
+   if(!source.geometry.boundingSphere)source.geometry.computeBoundingSphere();const sphere=source.geometry.boundingSphere;
    let intersects=actuallyVisible&&!!sphere;
    let radius=0;if(intersects){center.copy(sphere.center).applyMatrix4(source.matrixWorld);radius=sphere.radius*source.matrixWorld.getMaxScaleOnAxis();intersects=Math.abs(this.plane.distanceToPoint(center))<=radius;}
    back.visible=front.visible=cap.visible=intersects;if(!intersects)continue;this.visibleCount++;

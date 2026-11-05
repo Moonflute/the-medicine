@@ -1,11 +1,12 @@
 import {Group} from 'three';
+import {scopeLayers} from './body-browse.js';
 import {loadBodySystemDetail} from './body-system-detail.js';
 import {disposeDetailModel,registerDetailController,unregisterDetailController} from './detail-resources.js';
 
 // Owns asynchronously loaded layers in one immutable skeletal display frame.
 // Visibility requests are last-write-wins, including while a download is pending.
 export function createBodyLayerAssembly(manifest,{load=loadBodySystemDetail}={}){
- const root=new Group(),loaded=new Map(),pending=new Map(),desired=new Map();
+ const root=new Group(),loaded=new Map(),pending=new Map(),desired=new Map(),releasePending=new Set();
  const assets=new Map(manifest.assets.map(asset=>[asset.layer,asset]));
  let disposed=false,fasciaVisible=false;
  root.userData.detail={id:'whole-source-body',kind:'source-surface',title:'전신 계통',revision:1,
@@ -21,14 +22,14 @@ export function createBodyLayerAssembly(manifest,{load=loadBodySystemDetail}={})
  async function setVisible(layer,visible){
   if(disposed)throw Error('Body assembly disposed');
   const asset=assets.get(layer);if(!asset)throw Error('Unknown body layer: '+layer);
-  desired.set(layer,!!visible);syncAssets();
+  desired.set(layer,!!visible);if(visible)releasePending.delete(layer);syncAssets();
   if(loaded.has(layer)){loaded.get(layer).visible=!!visible;return loaded.get(layer);}
   if(!visible)return null;
   if(pending.has(layer))return pending.get(layer);
   const request=(async()=>{
    const model=await load({id:'whole-source-'+layer,label:layer,file:asset.file,count:asset.count,
     includeBase:false,unitScale:1,source:manifest.source,displayFrame:manifest.displayFrame},manifest.identities,manifest.status);
-   if(disposed){disposeDetailModel(model);return null;}
+   if(disposed||releasePending.has(layer)){disposeDetailModel(model);releasePending.delete(layer);return null;}
    applyCategories(model);model.visible=desired.get(layer)===true;loaded.set(layer,model);root.add(model);delete root.userData.groupedExplosion;syncAssets();return model;
   })();
   pending.set(layer,request);
@@ -43,12 +44,17 @@ export function createBodyLayerAssembly(manifest,{load=loadBodySystemDetail}={})
   for(const layer of assets.keys())if(!seen.has(layer))await setVisible(layer,false);
   setFasciaVisible(state.fasciaVisible===true);
  }
+ function releaseHidden(){
+  for(const layer of pending.keys())if(desired.get(layer)!==true)releasePending.add(layer);
+  for(const [layer,model]of loaded)if(desired.get(layer)!==true){disposeDetailModel(model);model.removeFromParent();loaded.delete(layer);}
+  delete root.userData.groupedExplosion;syncAssets();
+ }
  function dispose(){
   if(disposed)return;disposed=true;unregisterDetailController(root);
   for(const model of loaded.values()){disposeDetailModel(model);model.removeFromParent();}
-  loaded.clear();desired.clear();syncAssets();
+  loaded.clear();desired.clear();releasePending.clear();syncAssets();
  }
- const controller={root,setVisible,setFasciaVisible,restore,dispose,getState:()=>manifest.assets.map(({layer})=>({layer,
+ const controller={root,setVisible,setFasciaVisible,restore,dispose,releaseHidden,scopeLayers:(mode,value)=>scopeLayers(mode,value,manifest.assets),getState:()=>manifest.assets.map(({layer})=>({layer,
   loaded:loaded.has(layer),loading:pending.has(layer),visible:desired.get(layer)===true}))};
  registerDetailController(root,controller);return controller;
 }

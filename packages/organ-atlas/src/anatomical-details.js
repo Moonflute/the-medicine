@@ -6,10 +6,10 @@ import {detailOptions} from './detail-catalog.js';
 export {detailOptions} from './detail-catalog.js';
 const detailTitles={chordae:'Atrioventricular valve apparatus',conduction:'Cardiac conduction system',nephron:'Nephron','renal-tree':'Renal arterial tree','testis-ducts':'Testis and epididymis','adrenal-zones':'Adrenal cortex and medulla'};
 const refs={'testis-ducts':['https://openstax.org/books/anatomy-and-physiology/pages/27-1-anatomy-and-physiology-of-the-male-reproductive-system'],'adrenal-zones':['https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands'],chordae:['https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy'],conduction:['https://www.nhlbi.nih.gov/health/heart/heart-beats','https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity'],nephron:['https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work','https://openstax.org/books/anatomy-and-physiology/pages/25-4-microscopic-anatomy-of-the-kidney'],'renal-tree':['https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney']};
-export function buildDetailModel(organId,key){
+export function buildDetailModel(organId,key,{bodyScope}={}){
  if(!detailOptions[organId]?.some(([id])=>id===key))throw Error('Unsupported anatomical detail');
  if(key==='spl-abdomen-ct')return import('./spl-abdomen-detail.js').then(m=>m.loadSplAbdomenDetail());
- if(key==='whole-source-body')return import('./z-whole-detail.js').then(m=>m.loadWholeBodyDetail());
+ if(key==='whole-source-body')return import('./z-whole-detail.js').then(m=>m.loadWholeBodyDetail({scope:bodyScope}));
  if(key.startsWith('z-neural-'))return import('./z-neural-detail.js').then(m=>m.loadZNeuralDetail(key));
  if(key.startsWith('combined-'))return import('./body-combined-detail.js').then(m=>m.loadCombinedDetail(key));
  if(key.startsWith('neural-'))return import('./body-nerve-detail.js').then(m=>m.loadNeuralDetail(key));

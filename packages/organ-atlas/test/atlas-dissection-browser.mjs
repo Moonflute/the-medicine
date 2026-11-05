@@ -36,7 +36,7 @@ try{
  assert.equal(await page.locator('#selected-english').textContent(),'2 structures selected');
 
  await page.click('#settings-toggle');
- await page.click('#selection-context');
+ await page.check('input[name=selection-behavior][value=context]');
  await page.waitForFunction(total=>Number(document.querySelector('#viewport')?.dataset.visibleParts)===total,fullVisible);
  const beforeVisible=Number(await page.locator('#viewport').getAttribute('data-visible-parts'));
  await page.click('#selection-fade');
@@ -46,6 +46,16 @@ try{
  assert.equal(faded.selectedPartIds.length,0);
  assert.equal(Number(await page.locator('#viewport').getAttribute('data-visible-parts')),beforeVisible,'fade removed geometry instead of desaturating it');
  assertCameraStable(faded.camera,camera,'fade moved the camera');
+
+ const documentStart=await page.evaluate(()=>performance.timeOrigin);
+ for(const quality of ['original','light']){
+  await page.selectOption('#model-quality',quality);
+  await page.waitForFunction(value=>document.querySelector('#viewport')?.dataset.model==='heart'&&window.organAtlas.exportView().presentation.quality===value,quality);
+  const restored=await page.evaluate(()=>window.organAtlas.exportView());
+  assert.equal(await page.evaluate(()=>performance.timeOrigin),documentStart,'quality change reloaded the page');
+  assert.deepEqual(restored.inspection,faded.inspection,'quality change lost dissection state');
+  assertCameraStable(restored.camera,camera,'quality change moved the camera');
+ }
 
  await page.click('#selection-undo');
  await page.waitForFunction(()=>window.organAtlas.exportView().selectedPartIds.length===2);
@@ -63,7 +73,7 @@ try{
 
  const materialErrors=errors.filter(error=>!error.includes('fonts.googleapis.com')&&error!=='Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED');
  assert.equal(materialErrors.length,0,materialErrors.join('\n'));
- console.log(JSON.stringify({selected:2,fadeOpaque:true,hideUndoRedo:true,cameraStable:true},null,2));
+ console.log(JSON.stringify({selected:2,fadeOpaque:true,hideUndoRedo:true,cameraStable:true,inPlaceQuality:true},null,2));
 }finally{
  await browser.close();
 }

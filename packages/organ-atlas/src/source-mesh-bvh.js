@@ -11,3 +11,15 @@ export function accelerateSourceMesh(mesh){
  }
  mesh.raycast=acceleratedRaycast;
 }
+
+// Copies share immutable geometry and its tree, but Mesh.clone does not copy
+// custom raycast functions. Reattach without rebuilding the spatial index.
+export function attachSourceRaycast(mesh){if(mesh.geometry?.boundsTree)mesh.raycast=acceleratedRaycast;}
+export async function accelerateSourceModel(root){
+ const meshes=[];root.traverse(mesh=>{if(mesh.isMesh)meshes.push(mesh);});
+ let yieldedAt=performance.now();
+ for(const mesh of meshes){
+  accelerateSourceMesh(mesh);
+  if(performance.now()-yieldedAt>8){await new Promise(resolve=>setTimeout(resolve,0));yieldedAt=performance.now();}
+ }
+}

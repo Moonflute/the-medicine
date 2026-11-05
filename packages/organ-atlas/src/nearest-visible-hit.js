@@ -15,7 +15,12 @@ export function nearestVisibleHit(raycaster,meshes){
  let nearest;
  for(const {mesh,distance} of candidates){
   if(nearest&&distance>nearest.distance+1e-8)break;
-  const hit=raycaster.intersectObject(mesh,false).find(h=>!(h.object.material.clippingPlanes||[]).some(p=>p.distanceToPoint(h.point)<0));
+  // A clipped nearest surface can hide a valid farther intersection. Keep all
+  // intersections for cutaway views; otherwise BVH can stop at the first hit.
+  const previous=raycaster.firstHitOnly;let hits;
+  try{raycaster.firstHitOnly=!(mesh.material.clippingPlanes||[]).length;hits=raycaster.intersectObject(mesh,false);}
+  finally{if(previous===undefined)delete raycaster.firstHitOnly;else raycaster.firstHitOnly=previous;}
+  const hit=hits.find(h=>!(h.object.material.clippingPlanes||[]).some(p=>p.distanceToPoint(h.point)<0));
   if(hit&&(!nearest||hit.distance<nearest.distance))nearest=hit;
  }
  return nearest;
