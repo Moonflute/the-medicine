@@ -103406,6 +103406,385 @@
     "targetTitle": ""
   },
   {
+    "id": "theory-acute-aortic-dissection-type-a-repair",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6rCA7Iq07Ya17Kad",
+      "7ZeI66asIO2GteymnQ"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA",
+    "targetTitle": "대동맥 박리 (Aortic Dissection)"
+  },
+  {
+    "id": "theory-acute-bacterial-prostatitis-no-massage",
+    "specialty": "20 비뇨기과",
+    "specialtySlug": "MjAg67mE64eo6riw6rO8",
+    "relatedDiseaseSlugs": [
+      "MjAg67mE64eo6riw6rO8L-yghOumveyDmOyXvCAoUHJvc3RhdGl0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0",
+      "6rOo67CY7Ya1"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjAg67mE64eo6riw6rO8L-yghOumveyDmOyXvCAoUHJvc3RhdGl0aXMpLm1k",
+    "targetTitle": "전립샘염 (Prostatitis)"
+  },
+  {
+    "id": "theory-acute-bronchitis-no-routine-antibiotics",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDqtIDsp4Dsl7wgKEFjdXRlIEJyb25jaGl0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDqtIDsp4Dsl7wgKEFjdXRlIEJyb25jaGl0aXMpLm1k",
+    "targetTitle": "급성 기관지염 (Acute Bronchitis)"
+  },
+  {
+    "id": "theory-acute-hf-congestion-loop-diuretic",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "7ZS866Gc"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k",
+    "targetTitle": "급성 심부전 (Acute Heart Failure)"
+  },
+  {
+    "id": "theory-acute-hiv-early-rna",
+    "specialty": "08 감염",
+    "specialtySlug": "MDgg6rCQ7Je8",
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA",
+    "targetTitle": "급성 HIV 감염 (Acute HIV Infection)"
+  },
+  {
+    "id": "theory-acute-limb-compartment-fasciotomy",
+    "specialty": "22 정형외과",
+    "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-q4ieyEsSDsgqzsp4Ag6rWs7ZqN7Kad7ZuE6rWwIChBY3V0ZSBFeHRyZW1pdHkgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjIg7KCV7ZiV7Jm46rO8L-q4ieyEsSDsgqzsp4Ag6rWs7ZqN7Kad7ZuE6rWwIChBY3V0ZSBFeHRyZW1pdHkgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k",
+    "targetTitle": "급성 사지 구획증후군 (Acute Extremity Compartment Syndrome)"
+  },
+  {
+    "id": "theory-acute-limb-ischemia-initial-heparin",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k",
+    "targetTitle": "급성 동맥 폐색 (Acute Arterial Occlusion)"
+  },
+  {
+    "id": "theory-acute-pancreatitis-early-oral-feeding",
+    "specialty": "03 소화기",
+    "specialtySlug": "MDMg7IaM7ZmU6riw",
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "6rWs7Yag",
+      "67Cc7Je0",
+      "66mN"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k",
+    "targetTitle": "급성 췌장염 (Acute Pancreatitis)"
+  },
+  {
+    "id": "theory-adrenal-crisis-hydrocortisone",
+    "specialty": "04 내분비",
+    "specialtySlug": "MDQg64K067aE67mE",
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7ZS866Gc",
+      "6rWs7Yag",
+      "7ISk7IKs"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA",
+    "targetTitle": "원발성 부신 기능저하증(Primary Adrenal Insufficiency)"
+  },
+  {
+    "id": "theory-af-stroke-prevention-cha2ds2-va",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k"
+    ],
+    "relatedCcSlugs": [
+      "65GQ6re86rGw66a8",
+      "7Zi47Z2h6rOk656A",
+      "7Iuk7Iug"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k",
+    "targetTitle": "심방 조동-세동 (Atrial Flutter-Fibrillation)"
+  },
+  {
+    "id": "theory-allergic-rhinitis-persistent-nasal-steroid",
+    "specialty": "06 알레르기",
+    "specialtySlug": "MDYg7JWM66CI66W06riw",
+    "relatedDiseaseSlugs": [
+      "MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6riw7Lmo",
+      "7ZS866Gc"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA",
+    "targetTitle": "알레르기 비염 (Allergic Rhinitis)"
+  },
+  {
+    "id": "theory-angle-closure-pupillary-block-iridotomy",
+    "specialty": "18 안과",
+    "specialtySlug": "MTgg7JWI6rO8",
+    "relatedDiseaseSlugs": [
+      "MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1",
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k",
+    "targetTitle": "녹내장 (glaucoma)"
+  },
+  {
+    "id": "theory-ards-prone-positioning",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "67aI7JWI"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k",
+    "targetTitle": "급성 호흡곤란 증후군 (ARDS) (Acute Respiratory Distress Syndrome)"
+  },
+  {
+    "id": "theory-asthma-track1-preferred-reliever",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6riw7Lmo",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA",
+    "targetTitle": "천식"
+  },
+  {
+    "id": "theory-bell-palsy-early-oral-steroid",
+    "specialty": "17 이비인후과",
+    "specialtySlug": "MTcg7J2067mE7J247ZuE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTcg7J2067mE7J247ZuE6rO8L-uyqOuniOu5hCAoQmVsbCdzIHBhbHN5KS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTcg7J2067mE7J247ZuE6rO8L-uyqOuniOu5hCAoQmVsbCdzIHBhbHN5KS5tZA",
+    "targetTitle": "벨마비 (Bell's palsy)"
+  },
+  {
+    "id": "theory-bipolar-ii-hypomania-major-depression",
+    "specialty": "15 정신건강의학과",
+    "specialtySlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8",
+    "relatedDiseaseSlugs": [
+      "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "discrimination",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k",
+    "targetTitle": "양극성 장애 (Bipolar Disorder)"
+  },
+  {
+    "id": "theory-botulism-antitoxin-before-confirmation",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA",
+    "targetTitle": "보툴리눔 중독 (Botulism)"
+  },
+  {
+    "id": "theory-bph-alpha1-blocker-rapid-symptom-relief",
+    "specialty": "20 비뇨기과",
+    "specialtySlug": "MjAg67mE64eo6riw6rO8",
+    "relatedDiseaseSlugs": [
+      "MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA",
+    "targetTitle": "양성 전립샘 비대증 (Benign Prostatic Hyperplasia)"
+  },
+  {
+    "id": "theory-brain-abscess-contrast-mri-dwi",
+    "specialty": "16 신경과-신경외과",
+    "specialtySlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
+    "relatedDiseaseSlugs": [
+      "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zrho3slpEgKEJyYWluIEFic2Nlc3MpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zrho3slpEgKEJyYWluIEFic2Nlc3MpLm1k",
+    "targetTitle": "뇌농양 (Brain Abscess)"
+  },
+  {
     "id": "theory-cc805-mrc-grade3",
     "specialty": "08 신경",
     "specialtySlug": "MDgg7Iug6rK9",
@@ -103422,6 +103801,45 @@
     "targetType": "cc",
     "targetSlug": "6re866Cl77yP6rCQ6rCB7J207IOB",
     "targetTitle": ""
+  },
+  {
+    "id": "theory-chest-drain-rib-superior-margin",
+    "specialty": "11 외과",
+    "specialtySlug": "MTEg7Jm46rO8",
+    "relatedDiseaseSlugs": [
+      "MTEg7Jm46rO8L-2dieq0gCDsgr3snoXsiKAgKENoZXN0IFR1YmUgSW5zZXJ0aW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTEg7Jm46rO8L-2dieq0gCDsgr3snoXsiKAgKENoZXN0IFR1YmUgSW5zZXJ0aW9uKS5tZA",
+    "targetTitle": "흉관 삽입술 (Chest Tube Insertion)"
+  },
+  {
+    "id": "theory-copd-exacerbation-first-bronchodilator",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "6riw7Lmo"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k",
+    "targetTitle": "COPD의 급성 악화 (Acute Exacerbation of COPD)"
   },
   {
     "id": "theory-copd-mmrc-grade2",
@@ -103444,6 +103862,1491 @@
     "targetType": "disease",
     "targetSlug": "MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ",
     "targetTitle": "만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)"
+  },
+  {
+    "id": "theory-dabigatran-major-bleed-idarucizumab",
+    "specialty": "09 혈액·응고",
+    "specialtySlug": "MDkg7ZiI7JWhwrfsnZHqs6A",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [
+      "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k"
+    ],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "drug",
+    "targetSlug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-dtga-prostaglandin-ductal-patency",
+    "specialty": "14 소아청소년과",
+    "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7ZiI6rSAIOyghOychCAoVHJhbnNwb3NpdGlvbiBvZiB0aGUgR3JlYXQgQXJ0ZXJpZXMpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7ZiI6rSAIOyghOychCAoVHJhbnNwb3NpdGlvbiBvZiB0aGUgR3JlYXQgQXJ0ZXJpZXMpLm1k",
+    "targetTitle": "대혈관 전위 (Transposition of the Great Arteries)"
+  },
+  {
+    "id": "theory-eczema-herpeticum-painful-monomorphic-lesions",
+    "specialty": "19 피부과",
+    "specialtySlug": "MTkg7ZS867aA6rO8",
+    "relatedDiseaseSlugs": [
+      "MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "recognition",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA",
+    "targetTitle": "습진성피부질환"
+  },
+  {
+    "id": "theory-empagliflozin-hold-before-major-surgery",
+    "specialty": "05 내분비·대사",
+    "specialtySlug": "MDUg64K067aE67mEwrfrjIDsgqw",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [
+      "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k"
+    ],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "drug",
+    "targetSlug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-endocarditis-high-suspicion-negative-tte",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k",
+    "targetTitle": "감염 심내막염 (Infective Endocarditis)"
+  },
+  {
+    "id": "theory-epistaxis-direct-soft-nose-pressure",
+    "specialty": "17 이비인후과",
+    "specialtySlug": "MTcg7J2067mE7J247ZuE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA",
+    "targetTitle": "비출혈 (Epistaxis)"
+  },
+  {
+    "id": "theory-ethylene-glycol-fomepizole",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k",
+    "targetTitle": "에틸렌글리콜 중독 (Ethylene Glycol Poisoning)"
+  },
+  {
+    "id": "theory-febrile-neutropenia-antipseudomonal",
+    "specialty": "08 감염",
+    "specialtySlug": "MDgg6rCQ7Je8",
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k",
+    "targetTitle": "호중구감소증 (Neutropenia)"
+  },
+  {
+    "id": "theory-gerd-dysphagia-endoscopy",
+    "specialty": "03 소화기",
+    "specialtySlug": "MDMg7IaM7ZmU6riw",
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "6riw7Lmo"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k",
+    "targetTitle": "위식도 역류 질환 (GERD) (Gastroesophageal Reflux Disease)"
+  },
+  {
+    "id": "theory-gout-urate-lowering-target",
+    "specialty": "07 류마티스",
+    "specialtySlug": "MDcg66WY66eI7Yuw7Iqk",
+    "relatedDiseaseSlugs": [
+      "MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "recognition",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ",
+    "targetTitle": "통풍 (Gout)"
+  },
+  {
+    "id": "theory-hhs-initial-isotonic-fluid",
+    "specialty": "04 내분비",
+    "specialtySlug": "MDQg64K067aE67mE",
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ"
+    ],
+    "relatedCcSlugs": [
+      "64uk64eo",
+      "7J2Y7Iud7J6l7JWg"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ",
+    "targetTitle": "고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)"
+  },
+  {
+    "id": "theory-high-risk-pe-reperfusion",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "7Iuk7Iug",
+      "6rCd7ZiI"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA",
+    "targetTitle": "폐색전증 (Pulmonary Embolism)"
+  },
+  {
+    "id": "theory-hiv-pcp-hypoxemia-adjunct-steroid",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "6riw7Lmo",
+      "67Cc7Je0",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k",
+    "targetTitle": "폐포자충 폐렴 (Pneumocystis Pneumonia)"
+  },
+  {
+    "id": "theory-hospital-acquired-pneumonia-empiric-resistance-risk",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ"
+    ],
+    "relatedCcSlugs": [
+      "6riw7Lmo",
+      "67Cc7Je0",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ",
+    "targetTitle": "병원획득 폐렴 (Hospital-Acquired Pneumonia)"
+  },
+  {
+    "id": "theory-hyperkalemia-insulin-glucose-shift",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "mechanism",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA",
+    "targetTitle": "고칼륨혈증 (Hyperkalemia)"
+  },
+  {
+    "id": "theory-hypertension-two-class-combination",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6rOg7ZiI7JWV",
+      "65GQ7Ya1"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "discrimination",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA",
+    "targetTitle": "고혈압 (Hypertension)"
+  },
+  {
+    "id": "theory-hypokalemia-refractory-check-magnesium",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k",
+    "targetTitle": "저칼륨혈증 (Hypokalemia)"
+  },
+  {
+    "id": "theory-hyponatremia-overcorrection-ods",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1",
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA",
+    "targetTitle": "저나트륨혈증 (Hyponatremia)"
+  },
+  {
+    "id": "theory-iih-exclude-venous-thrombosis",
+    "specialty": "16 신경과-신경외과",
+    "specialtySlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
+    "relatedDiseaseSlugs": [
+      "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+    "targetTitle": "특발성 두개내 고혈압 (Idiopathic Intracranial Hypertension)"
+  },
+  {
+    "id": "theory-infantile-spasm-hypsarrhythmia",
+    "specialty": "14 소아청소년과",
+    "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JiB7JWEIOyXsOy2lSAoSW5mYW50aWxlIFNwYXNtKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "recognition",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JiB7JWEIOyXsOy2lSAoSW5mYW50aWxlIFNwYXNtKS5tZA",
+    "targetTitle": "영아 연축 (Infantile Spasm)"
+  },
+  {
+    "id": "theory-intradialytic-hypotension-stop-ultrafiltration",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-2IrOyEnSDspJEg7KCA7ZiI7JWVIChJbnRyYWRpYWx5dGljIEh5cG90ZW5zaW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Ja07KeA65-87Kad",
+      "7Iuk7Iug",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-2IrOyEnSDspJEg7KCA7ZiI7JWVIChJbnRyYWRpYWx5dGljIEh5cG90ZW5zaW9uKS5tZA",
+    "targetTitle": "투석 중 저혈압 (Intradialytic Hypotension)"
+  },
+  {
+    "id": "theory-intussusception-first-ultrasound",
+    "specialty": "14 소아청소년과",
+    "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k"
+    ],
+    "relatedCcSlugs": [
+      "6rWs7Yag",
+      "7ZiI67OA"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k",
+    "targetTitle": "장중첩증 (Intussusception)"
+  },
+  {
+    "id": "theory-invasive-aspergillosis-neutropenic-halo",
+    "specialty": "08 감염",
+    "specialtySlug": "MDgg6rCQ7Je8",
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-yVhOyKpO2OmOultOq4uOujqOyKpOymnSAoQXNwZXJnaWxsb3NpcykubWQ"
+    ],
+    "relatedCcSlugs": [
+      "6riw7Lmo",
+      "6rCd7ZiI",
+      "6rCA7Iq07Ya17Kad",
+      "7Zi47Z2h6rOk656A",
+      "67Cc7Je0"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "recognition",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDgg6rCQ7Je8L-yVhOyKpO2OmOultOq4uOujqOyKpOymnSAoQXNwZXJnaWxsb3NpcykubWQ",
+    "targetTitle": "아스페르길루스증 (Aspergillosis)"
+  },
+  {
+    "id": "theory-kidney-allograft-dysfunction-doppler",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-yLoOyepeydtOyLneqzvCDsnbTsi53si6Ag7ZWp67OR7KadIChLaWRuZXkgVHJhbnNwbGFudGF0aW9uIGFuZCBHcmFmdCBDb21wbGljYXRpb25zKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-yLoOyepeydtOyLneqzvCDsnbTsi53si6Ag7ZWp67OR7KadIChLaWRuZXkgVHJhbnNwbGFudGF0aW9uIGFuZCBHcmFmdCBDb21wbGljYXRpb25zKS5tZA",
+    "targetTitle": "신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications)"
+  },
+  {
+    "id": "theory-large-volume-paracentesis-albumin",
+    "specialty": "03 소화기",
+    "specialtySlug": "MDMg7IaM7ZmU6riw",
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOqwhOqyveuzgCkgKEFzY2l0ZXMgKENpcnJob3NpcykpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7LK07KSR7Kad6rCA",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOqwhOqyveuzgCkgKEFzY2l0ZXMgKENpcnJob3NpcykpLm1k",
+    "targetTitle": "복수 (간경변) (Ascites (Cirrhosis))"
+  },
+  {
+    "id": "theory-local-anesthetic-toxicity-lipid-emulsion",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-q1reyGjOuniOy3qOygnCDsoITsi6Drj4XshLEgKExvY2FsIEFuZXN0aGV0aWMgU3lzdGVtaWMgVG94aWNpdHkpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7J2Y7Iud7J6l7JWg"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-q1reyGjOuniOy3qOygnCDsoITsi6Drj4XshLEgKExvY2FsIEFuZXN0aGV0aWMgU3lzdGVtaWMgVG94aWNpdHkpLm1k",
+    "targetTitle": "국소마취제 전신독성 (Local Anesthetic Systemic Toxicity)"
+  },
+  {
+    "id": "theory-low-risk-surgery-no-routine-stress-test",
+    "specialty": "11 외과",
+    "specialtySlug": "MTEg7Jm46rO8",
+    "relatedDiseaseSlugs": [
+      "MTEg7Jm46rO8L-u5hOyLrOyepSDsiJjsiKAg7KCEIOyLrO2YiOq0gCDsnITtl5gg7Y-J6rCAIChQZXJpb3BlcmF0aXZlIENhcmRpb3Zhc2N1bGFyIFJpc2sgQXNzZXNzbWVudCkubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTEg7Jm46rO8L-u5hOyLrOyepSDsiJjsiKAg7KCEIOyLrO2YiOq0gCDsnITtl5gg7Y-J6rCAIChQZXJpb3BlcmF0aXZlIENhcmRpb3Zhc2N1bGFyIFJpc2sgQXNzZXNzbWVudCkubWQ",
+    "targetTitle": "비심장 수술 전 심혈관 위험 평가 (Perioperative Cardiovascular Risk Assessment)"
+  },
+  {
+    "id": "theory-malignancy-hypercalcemia-calcitonin-bridge",
+    "specialty": "04 내분비",
+    "specialtySlug": "MDQg64K067aE67mE",
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ"
+    ],
+    "relatedCcSlugs": [
+      "67OA67mE",
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ",
+    "targetTitle": "고칼슘혈증 (Hypercalcemia)"
+  },
+  {
+    "id": "theory-marfan-aortic-root-surveillance",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ",
+    "targetTitle": "마르팡 증후군 (Marfan Syndrome)"
+  },
+  {
+    "id": "theory-massive-transfusion-fibrinogen-replacement",
+    "specialty": "09 혈액",
+    "specialtySlug": "MDkg7ZiI7JWh",
+    "relatedDiseaseSlugs": [
+      "MDkg7ZiI7JWhL-2YiOyVoeygnOygnCDshKDtg53qs7wg64yA65-J7IiY7ZiIIChCbG9vZCBDb21wb25lbnRzIGFuZCBNYXNzaXZlIFRyYW5zZnVzaW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDkg7ZiI7JWhL-2YiOyVoeygnOygnCDshKDtg53qs7wg64yA65-J7IiY7ZiIIChCbG9vZCBDb21wb25lbnRzIGFuZCBNYXNzaXZlIFRyYW5zZnVzaW9uKS5tZA",
+    "targetTitle": "혈액제제 선택과 대량수혈 (Blood Components and Massive Transfusion)"
+  },
+  {
+    "id": "theory-meningococcus-close-contact-prophylaxis",
+    "specialty": "08 감염",
+    "specialtySlug": "MDgg6rCQ7Je8",
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-yImOunieyVjOq3oCAoTWVuaW5nb2NvY2N1cykubWQ"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0",
+      "65GQ7Ya1"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDgg6rCQ7Je8L-yImOunieyVjOq3oCAoTWVuaW5nb2NvY2N1cykubWQ",
+    "targetTitle": "수막알균 (Meningococcus)"
+  },
+  {
+    "id": "theory-metabolic-acidosis-winter-compensation",
+    "specialty": "05 전신증상",
+    "specialtySlug": "MDUg7KCE7Iug7Kad7IOB",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [
+      "7IKw7Je86riw7J207IOB"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "discrimination",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "cc",
+    "targetSlug": "7IKw7Je86riw7J207IOB",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-methimazole-fever-sore-throat-anc",
+    "specialty": "05 내분비·대사",
+    "specialtySlug": "MDUg64K067aE67mEwrfrjIDsgqw",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [
+      "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA"
+    ],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "drug",
+    "targetSlug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-monoclonal-hyperviscosity-plasma-exchange",
+    "specialty": "09 혈액",
+    "specialtySlug": "MDkg7ZiI7JWh",
+    "relatedDiseaseSlugs": [
+      "MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA",
+    "targetTitle": "고점도 증후군 (Hyperviscosity Syndrome)"
+  },
+  {
+    "id": "theory-mucormycosis-amphotericin-debridement",
+    "specialty": "08 감염",
+    "specialtySlug": "MDgg6rCQ7Je8",
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-2EuOqzsO2MoeydtOymnSAoTXVjb3JteWNvc2lzKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0",
+      "7J2Y7Iud7J6l7JWg",
+      "6riw7Lmo",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDgg6rCQ7Je8L-2EuOqzsO2MoeydtOymnSAoTXVjb3JteWNvc2lzKS5tZA",
+    "targetTitle": "털곰팡이증 (Mucormycosis)"
+  },
+  {
+    "id": "theory-neonatal-hie-early-therapeutic-hypothermia",
+    "specialty": "14 소아청소년과",
+    "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOyggOyCsOyGjO2XiO2YiOuHjOuzkeymnSAoTmVvbmF0YWwgSHlwb3hpYy1Jc2NoZW1pYyBFbmNlcGhhbG9wYXRoeSkubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOyggOyCsOyGjO2XiO2YiOuHjOuzkeymnSAoTmVvbmF0YWwgSHlwb3hpYy1Jc2NoZW1pYyBFbmNlcGhhbG9wYXRoeSkubWQ",
+    "targetTitle": "신생아 저산소허혈뇌병증 (Neonatal Hypoxic-Ischemic Encephalopathy)"
+  },
+  {
+    "id": "theory-nms-rigidity-vs-clonus",
+    "specialty": "15 정신건강의학과",
+    "specialtySlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8",
+    "relatedDiseaseSlugs": [
+      "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "discrimination",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k",
+    "targetTitle": "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)"
+  },
+  {
+    "id": "theory-occupational-hiv-exposure-start-pep",
+    "specialty": "12 상담",
+    "specialtySlug": "MTIg7IOB64u0",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [
+      "7J2Y66OM7KeEIOqwkOyXvOuFuOy2nA"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "cc",
+    "targetSlug": "7J2Y66OM7KeEIOqwkOyXvOuFuOy2nA",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-ongoing-major-hematochezia-cta",
+    "specialty": "03 소화기",
+    "specialtySlug": "MDMg7IaM7ZmU6riw",
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7Lac7ZiILm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7Lac7ZiILm1k",
+    "targetTitle": "위장관 출혈"
+  },
+  {
+    "id": "theory-open-globe-rigid-shield",
+    "specialty": "18 안과",
+    "specialtySlug": "MTgg7JWI6rO8",
+    "relatedDiseaseSlugs": [
+      "MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ",
+    "targetTitle": "안구 외상"
+  },
+  {
+    "id": "theory-organophosphate-bronchorrhea-atropine",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k",
+    "targetTitle": "유기인계 중독 (Organophosphate Poisoning)"
+  },
+  {
+    "id": "theory-overt-hepatic-encephalopathy-lactulose",
+    "specialty": "03 소화기",
+    "specialtySlug": "MDMg7IaM7ZmU6riw",
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7J2Y7Iud7J6l7JWg"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA",
+    "targetTitle": "간성 뇌증 (Hepatic Encephalopathy)"
+  },
+  {
+    "id": "theory-pd-peritonitis-cloudy-effluent-sample",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-uzteunie2IrOyEnSDqtIDroKgg67O166eJ7Je8IChQZXJpdG9uZWFsIERpYWx5c2lzLUFzc29jaWF0ZWQgUGVyaXRvbml0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0",
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-uzteunie2IrOyEnSDqtIDroKgg67O166eJ7Je8IChQZXJpdG9uZWFsIERpYWx5c2lzLUFzc29jaWF0ZWQgUGVyaXRvbml0aXMpLm1k",
+    "targetTitle": "복막투석 관련 복막염 (Peritoneal Dialysis-Associated Peritonitis)"
+  },
+  {
+    "id": "theory-pediatric-dehydration-shock-isotonic-bolus",
+    "specialty": "14 소아청소년과",
+    "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIO2DiOyImOyZgCDsiJjslaEg7LmY66OMIChQZWRpYXRyaWMgRGVoeWRyYXRpb24gYW5kIEZsdWlkIFRoZXJhcHkpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIO2DiOyImOyZgCDsiJjslaEg7LmY66OMIChQZWRpYXRyaWMgRGVoeWRyYXRpb24gYW5kIEZsdWlkIFRoZXJhcHkpLm1k",
+    "targetTitle": "소아 탈수와 수액 치료 (Pediatric Dehydration and Fluid Therapy)"
+  },
+  {
+    "id": "theory-positive-fit-diagnostic-colonoscopy",
+    "specialty": "03 소화기",
+    "specialtySlug": "MDMg7IaM7ZmU6riw",
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7ZiI67OA",
+      "7ZS866Gc",
+      "67OA67mE"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA",
+    "targetTitle": "결장직장암 (Colorectal Cancer)"
+  },
+  {
+    "id": "theory-postpartum-atony-first-uterotonic",
+    "specialty": "12 산과",
+    "specialtySlug": "MTIg7IKw6rO8",
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+    "targetTitle": "산후출혈"
+  },
+  {
+    "id": "theory-pregnancy-persistent-severe-hypertension",
+    "specialty": "12 산과",
+    "specialtySlug": "MTIg7IKw6rO8",
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1",
+      "6rWs7Yag",
+      "7LK07KSR7Kad6rCA"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA",
+    "targetTitle": "중증 전자간증 (Severe Pre-eclampsia)"
+  },
+  {
+    "id": "theory-preterm-labor-antenatal-corticosteroid",
+    "specialty": "12 산과",
+    "specialtySlug": "MTIg7IKw6rO8",
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-yhsOq4sCDsp4TthrUgKFByZXRlcm0gTGFib3IpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7ZeI66asIO2GteymnQ"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTIg7IKw6rO8L-yhsOq4sCDsp4TthrUgKFByZXRlcm0gTGFib3IpLm1k",
+    "targetTitle": "조기 진통 (Preterm Labor)"
+  },
+  {
+    "id": "theory-provoked-pe-initial-anticoagulation-period",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "7Iuk7Iug",
+      "6rCd7ZiI"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA",
+    "targetTitle": "폐색전증 (Pulmonary Embolism)"
+  },
+  {
+    "id": "theory-pulmonary-renal-dah-rpgn",
+    "specialty": "05 신장",
+    "specialtySlug": "MDUg7Iug7J6l",
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ"
+    ],
+    "relatedCcSlugs": [
+      "6rCd7ZiI",
+      "7ZiI64eo"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "recognition",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ",
+    "targetTitle": "폐신장 증후군 (Pulmonary-Renal Syndrome)"
+  },
+  {
+    "id": "theory-ra-initial-methotrexate",
+    "specialty": "07 류마티스",
+    "specialtySlug": "MDcg66WY66eI7Yuw7Iqk",
+    "relatedDiseaseSlugs": [
+      "MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "66mN",
+      "67Cc7Je0",
+      "7ZS866Gc"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA",
+    "targetTitle": "류마티스 관절염 (Rheumatoid Arthritis)"
+  },
+  {
+    "id": "theory-recurrent-postmenopausal-bleeding-sampling",
+    "specialty": "09 산부",
+    "specialtySlug": "MDkg7IKw67aA",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [
+      "7KeI7Lac7ZiI"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "cc",
+    "targetSlug": "7KeI7Lac7ZiI",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-rituximab-hepatitis-b-screen",
+    "specialty": "07 면역·염증·류마티스",
+    "specialtySlug": "MDcg66m07Jetwrfsl7zspp3Ct-ulmOuniO2LsOyKpA",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [
+      "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA"
+    ],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "drug",
+    "targetSlug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-rosc-unresponsive-temperature-control",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-yLrOygleyngCDtm4Qg6rSA66asIChQb3N0LUNhcmRpYWMgQXJyZXN0IENhcmUpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7J2Y7Iud7J6l7JWg"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-yLrOygleyngCDtm4Qg6rSA66asIChQb3N0LUNhcmRpYWMgQXJyZXN0IENhcmUpLm1k",
+    "targetTitle": "심정지 후 관리 (Post-Cardiac Arrest Care)"
+  },
+  {
+    "id": "theory-rotator-cuff-drop-arm-recognition",
+    "specialty": "22 정형외과",
+    "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "recognition",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k",
+    "targetTitle": "회전근개파열 (Rotator Cuff Tear)"
+  },
+  {
+    "id": "theory-salicylate-mixed-acid-base",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "discrimination",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA",
+    "targetTitle": "살리실산 중독 (Salicylate Poisoning)"
+  },
+  {
+    "id": "theory-scleroderma-renal-crisis-acei",
+    "specialty": "07 류마티스",
+    "specialtySlug": "MDcg66WY66eI7Yuw7Iqk",
+    "relatedDiseaseSlugs": [
+      "MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ"
+    ],
+    "relatedCcSlugs": [
+      "6rOg7ZiI7JWV"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ",
+    "targetTitle": "전신 경화증 (Systemic Sclerosis)"
+  },
+  {
+    "id": "theory-septic-shock-norepinephrine",
+    "specialty": "11 외과",
+    "specialtySlug": "MTEg7Jm46rO8",
+    "relatedDiseaseSlugs": [
+      "MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ",
+    "targetTitle": "패혈성 쇼크 (Septic Shock)"
+  },
+  {
+    "id": "theory-severe-hypoglycemia-no-iv",
+    "specialty": "04 내분비",
+    "specialtySlug": "MDQg64K067aE67mE",
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "65GQ6re86rGw66a8",
+      "67aI7JWI",
+      "65GQ7Ya1"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA",
+    "targetTitle": "저혈당 (Hypoglycemia)"
+  },
+  {
+    "id": "theory-smoke-cyanide-hydroxocobalamin",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-yLnOyViO2ZlOusvCDspJHrj4UgKEN5YW5pZGUgUG9pc29uaW5nKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7J2Y7Iud7J6l7JWg",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-yLnOyViO2ZlOusvCDspJHrj4UgKEN5YW5pZGUgUG9pc29uaW5nKS5tZA",
+    "targetTitle": "시안화물 중독 (Cyanide Poisoning)"
+  },
+  {
+    "id": "theory-ssnhl-early-steroid-evaluation",
+    "specialty": "17 이비인후과",
+    "specialtySlug": "MTcg7J2067mE7J247ZuE6rO8",
+    "relatedDiseaseSlugs": [
+      "MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ",
+    "targetTitle": "돌발성 난청 (Sudden sensorineural hearing loss)"
+  },
+  {
+    "id": "theory-stable-pe-oral-anticoagulant-selection",
+    "specialty": "02 호흡기",
+    "specialtySlug": "MDIg7Zi47Z2h6riw",
+    "relatedDiseaseSlugs": [
+      "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "7Iuk7Iug",
+      "6rCd7ZiI"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA",
+    "targetTitle": "폐색전증 (Pulmonary Embolism)"
+  },
+  {
+    "id": "theory-stroke-low-nihss-disabling-aphasia",
+    "specialty": "16 신경과-신경외과",
+    "specialtySlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
+    "relatedDiseaseSlugs": [
+      "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+    "targetTitle": "허혈성 뇌졸중 (Ischemic stroke)"
+  },
+  {
+    "id": "theory-suspected-hsv-encephalitis-acyclovir",
+    "specialty": "16 신경과-신경외과",
+    "specialtySlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
+    "relatedDiseaseSlugs": [
+      "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0",
+      "65GQ7Ya1",
+      "6rWs7Yag",
+      "7J2Y7Iud7J6l7JWg"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k",
+    "targetTitle": "뇌수막염 (Meningoencephalitis)"
+  },
+  {
+    "id": "theory-symptomatic-severe-as-valve-intervention",
+    "specialty": "01 순환기",
+    "specialtySlug": "MDEg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ"
+    ],
+    "relatedCcSlugs": [
+      "7Iuk7Iug",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ",
+    "targetTitle": "대동맥판막 협착 (Aortic Stenosis)"
+  },
+  {
+    "id": "theory-t2d-retina-screening-at-diagnosis",
+    "specialty": "04 내분비",
+    "specialtySlug": "MDQg64K067aE67mE",
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "recognition",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA",
+    "targetTitle": "당뇨병성 망막병증 (Diabetic Retinopathy)"
+  },
+  {
+    "id": "theory-tca-poisoning-wide-qrs-bicarbonate",
+    "specialty": "21 응급의학",
+    "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6rK966CoICjshLHsnbgp",
+      "65GQ6re86rGw66a8"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA",
+    "targetTitle": "삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)"
+  },
+  {
+    "id": "theory-tetanus-dirty-wound-vaccine-tig",
+    "specialty": "08 감염",
+    "specialtySlug": "MDgg6rCQ7Je8",
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ"
+    ],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ",
+    "targetTitle": "파상풍 (Tetanus)"
+  },
+  {
+    "id": "theory-thyroid-nodule-suppressed-tsh-scan",
+    "specialty": "04 내분비",
+    "specialtySlug": "MDQg64K067aE67mE",
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "66qpIO2GteymnQ",
+      "7Zi47Z2h6rOk656A"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA",
+    "targetTitle": "갑상샘 결절 (Thyroid Nodule)"
+  },
+  {
+    "id": "theory-trastuzumab-lvef-monitoring",
+    "specialty": "10 종양",
+    "specialtySlug": "MTAg7KKF7JaR",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [
+      "ZHJ1ZzoxMCDsooXslpEvVHJhc3R1enVtYWIubWQ"
+    ],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "drug",
+    "targetSlug": "ZHJ1ZzoxMCDsooXslpEvVHJhc3R1enVtYWIubWQ",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-type1-diabetes-npo-continue-basal",
+    "specialty": "05 내분비·대사",
+    "specialtySlug": "MDUg64K067aE67mEwrfrjIDsgqw",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [
+      "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k"
+    ],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "drug",
+    "targetSlug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-unstable-bradycardia-transcutaneous-pacing",
+    "specialty": "02 순환기",
+    "specialtySlug": "MDIg7Iic7ZmY6riw",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [
+      "7ISc66elwrfrsKnsi6TssKjri6g"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "cc",
+    "targetSlug": "7ISc66elwrfrsKnsi6TssKjri6g",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-vancomycin-serious-mrsa-auc-monitoring",
+    "specialty": "08 감염",
+    "specialtySlug": "MDgg6rCQ7Je8",
+    "relatedDiseaseSlugs": [],
+    "relatedCcSlugs": [],
+    "relatedDrugSlugs": [
+      "ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA"
+    ],
+    "questionType": "safety",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "drug",
+    "targetSlug": "ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA",
+    "targetTitle": ""
+  },
+  {
+    "id": "theory-variceal-bleed-antibiotic-prophylaxis",
+    "specialty": "03 소화기",
+    "specialtySlug": "MDMg7IaM7ZmU6riw",
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7Yag7ZiI",
+      "7ZiI67OA"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k",
+    "targetTitle": "식도 정맥류 (Esophageal Varices)"
+  },
+  {
+    "id": "theory-warfarin-associated-ich-pcc-vitamin-k",
+    "specialty": "16 신경과-신경외과",
+    "specialtySlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
+    "relatedDiseaseSlugs": [
+      "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "65GQ7Ya1",
+      "6rWs7Yag"
+    ],
+    "relatedDrugSlugs": [],
+    "questionType": "next_action",
+    "difficulty": "standard",
+    "translationStatus": "not-applicable",
+    "explanationStatus": "manual-reviewed",
+    "questionBank": "theory",
+    "targetType": "disease",
+    "targetSlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k",
+    "targetTitle": "출혈성 뇌졸중 (Hemorrhagic Stroke)"
   },
   {
     "id": "theory-y2n8n0l1azdjdwd8y2mtmdetcmvjb2duaxrpb258zglyzwn0x3jly2fsba",

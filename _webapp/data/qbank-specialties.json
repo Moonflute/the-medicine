@@ -7,7 +7,7 @@
   {
     "name": "01 순환기",
     "slug": "MDEg7Iic7ZmY6riw",
-    "count": 478
+    "count": 486
   },
   {
     "name": "01 심혈계",
@@ -17,17 +17,17 @@
   {
     "name": "02 순환기",
     "slug": "MDIg7Iic7ZmY6riw",
-    "count": 7
+    "count": 8
   },
   {
     "name": "02 호흡기",
     "slug": "MDIg7Zi47Z2h6riw",
-    "count": 265
+    "count": 274
   },
   {
     "name": "03 소화기",
     "slug": "MDMg7IaM7ZmU6riw",
-    "count": 566
+    "count": 573
   },
   {
     "name": "03 호흡기",
@@ -42,7 +42,7 @@
   {
     "name": "04 내분비",
     "slug": "MDQg64K067aE67mE",
-    "count": 380
+    "count": 386
   },
   {
     "name": "04 신장/비뇨기",
@@ -52,17 +52,17 @@
   {
     "name": "05 내분비·대사",
     "slug": "MDUg64K067aE67mEwrfrjIDsgqw",
-    "count": 21
+    "count": 24
   },
   {
     "name": "05 신장",
     "slug": "MDUg7Iug7J6l",
-    "count": 233
+    "count": 240
   },
   {
     "name": "05 전신증상",
     "slug": "MDUg7KCE7Iug7Kad7IOB",
-    "count": 6
+    "count": 7
   },
   {
     "name": "06 근골격/피부",
@@ -77,17 +77,17 @@
   {
     "name": "06 알레르기",
     "slug": "MDYg7JWM66CI66W06riw",
-    "count": 65
+    "count": 66
   },
   {
     "name": "07 류마티스",
     "slug": "MDcg66WY66eI7Yuw7Iqk",
-    "count": 189
+    "count": 192
   },
   {
     "name": "07 면역·염증·류마티스",
     "slug": "MDcg66m07Jetwrfsl7zspp3Ct-ulmOuniO2LsOyKpA",
-    "count": 14
+    "count": 15
   },
   {
     "name": "07 정신",
@@ -97,7 +97,7 @@
   {
     "name": "08 감염",
     "slug": "MDgg6rCQ7Je8",
-    "count": 387
+    "count": 394
   },
   {
     "name": "08 신경",
@@ -107,17 +107,17 @@
   {
     "name": "09 산부",
     "slug": "MDkg7IKw67aA",
-    "count": 5
+    "count": 6
   },
   {
     "name": "09 혈액",
     "slug": "MDkg7ZiI7JWh",
-    "count": 340
+    "count": 342
   },
   {
     "name": "09 혈액·응고",
     "slug": "MDkg7ZiI7JWhwrfsnZHqs6A",
-    "count": 15
+    "count": 16
   },
   {
     "name": "10 소아",
@@ -127,7 +127,7 @@
   {
     "name": "10 종양",
     "slug": "MTAg7KKF7JaR",
-    "count": 162
+    "count": 163
   },
   {
     "name": "11 눈/이비인후",
@@ -142,17 +142,17 @@
   {
     "name": "11 외과",
     "slug": "MTEg7Jm46rO8",
-    "count": 149
+    "count": 152
   },
   {
     "name": "12 산과",
     "slug": "MTIg7IKw6rO8",
-    "count": 304
+    "count": 307
   },
   {
     "name": "12 상담",
     "slug": "MTIg7IOB64u0",
-    "count": 12
+    "count": 13
   },
   {
     "name": "12 신경·정신",
@@ -177,7 +177,7 @@
   {
     "name": "14 소아청소년과",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
-    "count": 634
+    "count": 639
   },
   {
     "name": "15 전해질·영양·독성·기타",
@@ -187,41 +187,41 @@
   {
     "name": "15 정신건강의학과",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8",
-    "count": 467
+    "count": 469
   },
   {
     "name": "16 신경과-신경외과",
     "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
-    "count": 397
+    "count": 402
   },
   {
     "name": "17 이비인후과",
     "slug": "MTcg7J2067mE7J247ZuE6rO8",
-    "count": 92
+    "count": 95
   },
   {
     "name": "18 안과",
     "slug": "MTgg7JWI6rO8",
-    "count": 87
+    "count": 89
   },
   {
     "name": "19 피부과",
     "slug": "MTkg7ZS867aA6rO8",
-    "count": 157
+    "count": 158
   },
   {
     "name": "20 비뇨기과",
     "slug": "MjAg67mE64eo6riw6rO8",
-    "count": 141
+    "count": 143
   },
   {
     "name": "21 응급의학",
     "slug": "MjEg7J2R6riJ7J2Y7ZWZ",
-    "count": 301
+    "count": 309
   },
   {
     "name": "22 정형외과",
     "slug": "MjIg7KCV7ZiV7Jm46rO8",
-    "count": 173
+    "count": 175
   }
 ]

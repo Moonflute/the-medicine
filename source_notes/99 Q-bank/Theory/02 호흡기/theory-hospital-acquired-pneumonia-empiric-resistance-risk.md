@@ -1,0 +1,44 @@
+---
+type: qbank
+schema_version: 1
+id: theory-hospital-acquired-pneumonia-empiric-resistance-risk
+source: Internal-Theory
+source_split: theory
+source_meta: repository-notes
+exam: Theory
+language: ko
+specialty: 02 호흡기
+target_type: disease
+target_slug: "MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ"
+theory_objective_id: hospital-acquired-pneumonia-empiric-resistance-risk
+question_type: next_action
+question_mode: direct_recall
+difficulty: standard
+answer: A
+translation_status: not-applicable
+explanation_status: manual-reviewed
+review_status: manual-reviewed
+---
+
+# 이론 문제
+
+## 문제
+
+성인 병원획득 폐렴에서 초기 경험적 항생제 범위를 정하는 핵심은?
+
+## 선택지
+
+A. 최근 정맥 항생제, 이전 배양, 중증도와 병원 내 내성률을 함께 평가
+B. 입원한 날짜만 보고 모든 환자에 동일한 항생제 사용
+C. 과거 HCAP 분류에 해당하면 항상 최대 범위 병합
+D. 가래 색만 보고 MRSA 여부를 확정
+
+## 해설
+
+병원획득 폐렴의 초기 범위는 중증도, MRSA·녹농균 등 내성 위험과 해당 병원의 감수성 자료를 반영한다. 가능한 검체를 얻고 이후 결과와 임상 반응에 따라 범위를 좁힌다.
+
+## 출처
+
+- 내부 학습 노트: 병원획득 폐렴 (Hospital-Acquired Pneumonia)
+- 원본 경로: `source_notes/02 Diseases/02 호흡기/병원획득 폐렴 (Hospital-Acquired Pneumonia).md`
+- ATS/IDSA 병원획득·인공호흡기관련 폐렴 지침: https://www.idsociety.org/practice-guideline/hap_vap/

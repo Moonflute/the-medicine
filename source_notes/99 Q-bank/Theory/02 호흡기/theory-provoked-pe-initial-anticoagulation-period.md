@@ -1,0 +1,44 @@
+---
+type: qbank
+schema_version: 1
+id: theory-provoked-pe-initial-anticoagulation-period
+source: Internal-Theory
+source_split: theory
+source_meta: repository-notes
+exam: Theory
+language: ko
+specialty: 02 호흡기
+target_type: disease
+target_slug: "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA"
+theory_objective_id: provoked-pe-initial-anticoagulation-period
+question_type: next_action
+question_mode: direct_recall
+difficulty: standard
+answer: A
+translation_status: not-applicable
+explanation_status: manual-reviewed
+review_status: manual-reviewed
+---
+
+# 이론 문제
+
+## 문제
+
+큰 수술로 유발된 첫 폐색전증에서 유발 요인이 해소됐다. 보통 항응고 치료를 몇 개월 한 뒤 종료 가능성을 재평가하는가?
+
+## 선택지
+
+A. 3개월
+B. 1주
+C. 1개월
+D. 재평가 없이 모든 환자에서 평생 유지
+
+## 해설
+
+수술 같은 큰 일시적 위험요인으로 생긴 첫 폐색전증은 통상 3개월의 치료를 마친 뒤 중단 여부를 재평가한다. 무유발 또는 지속 위험요인이 있는 경우 연장 치료를 평가한다.
+
+## 출처
+
+- 내부 학습 노트: 폐색전증 (Pulmonary Embolism)
+- 원본 경로: `source_notes/02 Diseases/02 호흡기/폐색전증 (Pulmonary Embolism).md`
+- 2026 AHA/ACC 급성 폐색전증 지침: https://professional.heart.org/en/science-news/2026-guideline-for-the-evaluation-and-management-of-acute-pulmonary-embolism-in-adults

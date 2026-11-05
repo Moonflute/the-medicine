@@ -60,9 +60,9 @@
       "source": "derived from diseases"
     },
     "qbank": {
-      "count": 6588,
+      "count": 6684,
       "source": "99 Q-bank/MedQA + 99 Q-bank/Theory",
-      "generatedAt": "2026-11-03T19:28:39.931Z"
+      "generatedAt": "2026-11-05T01:10:18.630Z"
     },
     "infectionPathways": {
       "count": 43,
