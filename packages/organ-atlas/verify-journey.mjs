@@ -4,6 +4,7 @@ import {gunzipSync} from 'node:zlib';
 import * as T from 'three';
 import {MeshBVH} from 'three-mesh-bvh';
 import {JourneyVolume,moveInLumen} from './src/journey/volume.js';
+import {entranceHints,visibleThroughLumen} from './src/journey/wayfinding.js';
 
 // A right-angle fork, a thin wall, and a disconnected parallel channel.
 const synthetic={step:.001,clearance:([x,y,z])=>Math.max(Math.min(.03-Math.abs(x),.005-Math.abs(y),.005-Math.abs(z)),Math.min(.005-Math.abs(x),.03-Math.abs(y),.005-Math.abs(z)),Math.min(.03-Math.abs(x),.002-Math.abs(y-.011),.005-Math.abs(z)))};
@@ -14,10 +15,22 @@ move=moveInLumen(synthetic,[0,0,0],[0,.025,0],.0016);assert(move.position[1]>.02
 move=moveInLumen(synthetic,[.02,0,0],[0,10,0],.0016);assert(move.position[1]<.0035,'large frame cannot tunnel through to another channel');
 move=moveInLumen(synthetic,[.02,0,0],[.01,.01,0],.0016);assert(synthetic.clearance(move.position)>=.0016&&move.position[0]>.02,'wall sliding');
 assert.deepEqual(moveInLumen(synthetic,[.02,0,0],[0,.005,0],.006).position,[.02,0,0],'no invalid-size teleport');
+assert(visibleThroughLumen(synthetic,[0,0,0],[.02,0,0]),'visible hint inside the same lumen');
+assert(!visibleThroughLumen(synthetic,[.02,0,0],[.02,.011,0]),'hide hints beyond the intervening wall');
 
 for(const key of ['upper','vessels']){
  const prefix=new URL('./static/models/current/journey-'+key,import.meta.url).pathname.replace(/^\/(?=[A-Za-z]:)/,'');
  const path=decodeURIComponent(prefix),m=JSON.parse(fs.readFileSync(path+'.json','utf8')),raw=Uint8Array.from(gunzipSync(fs.readFileSync(path+'-volume.bin.gz'))),field=new JourneyVolume(m,raw);
+ if(key==='upper'){
+  assert.deepEqual(m.landmarks.map(p=>p.name),['Tongue','Epiglottis']);
+  const registration=m.landmarkRegistration;assert.equal(registration.checks.filter(c=>c.role==='held-out-check').length,2);
+  for(const c of registration.checks)assert(c.rmsMetres<.001&&c.p95Metres<.002,'registered laryngeal cartilage tolerance');
+  // Known source tissue positions must remain obstacles after remeshing.
+  for(const [name,p]of [['tongue',[0,1.530,.054]],['epiglottis',[.001,1.500,.020]]])assert.equal(field.clearance(p),0,name+' cannot be traversed');
+  const hints=entranceHints(m),larynx=hints.find(h=>h.id==='laryngeal-inlet'),esophagus=hints.find(h=>h.id==='esophagus');
+  assert(larynx.point[2]>esophagus.point[2],'airway entrance lies anterior to the esophageal entrance');
+  for(const hint of [larynx,esophagus])assert(visibleThroughLumen(field,m.parts[1].position,hint.point),hint.name+' is visible from the pharynx');
+ }
  const surface=Uint8Array.from(gunzipSync(fs.readFileSync(path+'-surface.bin.gz'))),n=m.vertices,g=new T.BufferGeometry();g.setAttribute('position',new T.BufferAttribute(new Float32Array(surface.buffer,0,n*3),3));g.setIndex(new T.BufferAttribute(new Uint32Array(surface.slice(n*27).buffer),1));const bvh=new MeshBVH(g,{indirect:true});
  let sampled=0,moves=0,worstMargin=Infinity;const [nx,ny]=field.dimensions;
  for(let i=0;i<raw.length/2;i+=137){if(raw[i]<7)continue;const x=i%nx,y=Math.floor(i/nx)%ny,z=Math.floor(i/(nx*ny)),p=[x,y,z].map((v,k)=>field.origin[k]+v*field.step),clear=field.clearance(p),nearest=bvh.closestPointToPoint(new T.Vector3(...p));assert.equal(field.value(x,y,z),raw[i]);worstMargin=Math.min(worstMargin,nearest.distance-clear);assert(nearest.distance+1e-6>=clear,`${key}: rendered wall lies inside claimed clearance`);sampled++;

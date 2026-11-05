@@ -8,7 +8,7 @@ export const journeySources={
    {name:'Esophagus',korean:'식도',source:'Oesophagus',hollowShell:true,color:'#cf9691'},
    {name:'Stomach',korean:'위',source:'Stomach',color:'#d99c91'},
    {name:'Duodenum',korean:'십이지장',source:'Duodenum',color:'#d9b39a'},
-   {name:'Laryngeal inlet',korean:'후두 입구',source:null,color:'#d1b1a0'},
+   {name:'Larynx',korean:'후두',source:null,color:'#d1b1a0'},
    {name:'Trachea',korean:'기관',source:'Trachea',color:'#dbc0aa'},
    {name:'Left main bronchus',korean:'좌주기관지',source:'Left main bronchus',color:'#d5b6a1'},
    {name:'Right main bronchus',korean:'우주기관지',source:'Right main bronchus',color:'#d5b6a1'}],

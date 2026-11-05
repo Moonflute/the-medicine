@@ -9,10 +9,12 @@ from scipy import ndimage as ndi
 from scipy.spatial import cKDTree
 from skimage.measure import marching_cubes
 from scipy.sparse import coo_matrix, diags
+from scipy.interpolate import PchipInterpolator
 
 cfg=json.loads(sys.stdin.buffer.readline())
 nx,ny,nz=cfg['dimensions']; step=cfg['spacing']; origin=np.array(cfg['origin'])
-labels=np.frombuffer(sys.stdin.buffer.read(),dtype=np.uint8).reshape((nz,ny,nx)).copy()
+raw=np.frombuffer(sys.stdin.buffer.read(),dtype=np.uint8);n=nx*ny*nz
+labels=raw[:n].reshape((nz,ny,nx)).copy();obstacles=raw[n:].reshape((nz,ny,nx)).copy()
 
 def world(indices): return indices[:,::-1]*step+origin
 def index(point): return np.round((np.array(point)-origin)/step).astype(int)[::-1]
@@ -24,14 +26,22 @@ def stamp_capsule(a,b,r,label):
  hit=np.sum((p-a-t[...,None]*d)**2,axis=-1)<=r*r
  sub=labels[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1]; sub[hit&(sub==0)]=label
 
+def stamp_sections(sections,label):
+ # Smooth elliptical sections in the original frame. PCHIP avoids overshoot at
+ # the esophageal/posterior and laryngeal/anterior junctions.
+ a=np.array(sorted(sections));profile=PchipInterpolator(a[:,0],a[:,1:],axis=0)
+ for y in range(max(0,int(np.ceil((a[0,0]-origin[1])/step))),min(ny,int(np.floor((a[-1,0]-origin[1])/step))+1)):
+  zc,rx,rz=profile(origin[1]+y*step);x0=max(0,int(np.floor((-rx-origin[0])/step)));x1=min(nx-1,int(np.ceil((rx-origin[0])/step)));z0=max(0,int(np.floor((zc-rz-origin[2])/step)));z1=min(nz-1,int(np.ceil((zc+rz-origin[2])/step)))
+  zz,xx=np.mgrid[z0:z1+1,x0:x1+1];hit=((xx*step+origin[0])/rx)**2+((zz*step+origin[2]-zc)/rz)**2<=1
+  sub=labels[z0:z1+1,y,x0:x1+1];sub[hit&(sub==0)]=label
+
 if cfg['key']=='upper':
  # Oral cavity above the existing Z-Anatomy tongue; posterior outlet to pharynx.
- center=np.array([0,1.551,.054]); radius=np.array([.024,.015,.037]); lo=np.maximum(0,index(center+[-.025,-.016,-.038])); hi=np.minimum(np.array(labels.shape)-1,index(center+[.025,.016,.038]))
+ center=np.array([0,1.548,.053]); radius=np.array([.026,.022,.038]); lo=np.maximum(0,index(center-radius-step)); hi=np.minimum(np.array(labels.shape)-1,index(center+radius+step))
  z,y,x=np.mgrid[lo[0]:hi[0]+1,lo[1]:hi[1]+1,lo[2]:hi[2]+1]; p=np.stack([x,y,z],-1)*step+origin
  sub=labels[lo[0]:hi[0]+1,lo[1]:hi[1]+1,lo[2]:hi[2]+1]; sub[np.sum(((p-center)/radius)**2,axis=-1)<1]=1
- points=[[0,1.548,.028],[0,1.536,.009],[0,1.517,0],[0,1.497,-.008],[0,1.480,.002]]
- for a,b in zip(points,points[1:]): stamp_capsule(a,b,.010,2)
- for a,b in zip([[0,1.497,-.008],[0,1.489,.014],[0,1.463,.012]],[[0,1.489,.014],[0,1.463,.012],[0,1.451,.009]]):stamp_capsule(a,b,.0045,6)
+ stamp_sections([[1.553,.024,.015,.010],[1.540,.010,.017,.013],[1.520,.002,.016,.013],[1.507,.001,.016,.013],[1.495,-.003,.014,.010],[1.482,-.002,.009,.006],[1.472,.002,.007,.004]],2)
+ stamp_sections([[1.514,.014,.012,.010],[1.506,.012,.011,.010],[1.496,.014,.010,.009],[1.485,.013,.009,.008],[1.477,.013,.006,.006],[1.466,.012,.007,.006],[1.455,.010,.008,.007]],6)
 
 # Remove only subvoxel speckle inside a source part, never fill across organs.
 for part in range(1,len(cfg['parts'])+1):
@@ -81,12 +91,13 @@ for axis in range(3):
   if tuple(sorted([int(a),int(b)])) in allowed:continue
   touch=candidates&(la==a)&(lb==b);remove[tuple(s)]|=touch;remove[tuple(t)]|=touch
 labels[remove]=0
+labels[obstacles>0]=0
 mask=labels>0
 mask[[0,-1],:,:]=False;mask[:,[0,-1],:]=False;mask[:,:,[0,-1]]=False;labels[~mask]=0
 # One connected traversable space per mode is mandatory.
 components,count=ndi.label(mask);sizes=np.bincount(components.ravel());sizes[0]=0;largest=int(sizes.argmax());discarded=int(mask.sum()-sizes[largest]);mask=components==largest;labels[~mask]=0
 distance=ndi.distance_transform_edt(mask).astype(np.float32)*step-step*.5
-smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.55)
+smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.75 if cfg['key']=='upper' else .55)
 verts,faces,normals,_=marching_cubes(smooth,level=.5,spacing=(step,step,step),allow_degenerate=False)
 verts=(verts[:,::-1]+origin).astype('<f4');normals=normals[:,::-1].astype('<f4');faces=faces.astype('<u4')
 # Remove voxel stair steps without enlarging the uncertainty budget. Taubin
@@ -106,6 +117,10 @@ missing=np.flatnonzero(region==0)
 if len(missing):
  inside=np.argwhere(mask);tree=cKDTree(world(inside));_,near=tree.query(verts[missing]);region[missing]=labels[tuple(inside[near].T)]
 colors=np.array([[int(p['color'][i:i+2],16) for i in [1,3,5]] for p in cfg['parts']],dtype=np.uint8)[region-1]
+for landmark in cfg.get('landmarks',[]):
+ distance_to_source=ndi.distance_transform_edt(obstacles!=landmark['id'])*step
+ near=distance_to_source[locations[:,2],locations[:,1],locations[:,0]]<step*1.6
+ colors[near]=[int(landmark['color'][i:i+2],16) for i in [1,3,5]]
 parts=[]
 for number,part in enumerate(cfg['parts'],1):
  points=np.argwhere(labels==number)

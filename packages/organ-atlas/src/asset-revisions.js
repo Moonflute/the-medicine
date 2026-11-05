@@ -445,16 +445,16 @@ export const assetRevisions={
     "bytes": 1133961
   },
   "./models/current/journey-upper-surface.bin.gz": {
-    "sha256": "ab0dfc1aff90d5c745743195d17ec8758471ab7f8d4eefda518b9a9f29bd713c",
-    "bytes": 1017552
+    "sha256": "b6d30968bdacd0b071980ff7e426cbb7165e71a19a96042518205b57d147b323",
+    "bytes": 1058872
   },
   "./models/current/journey-upper-volume.bin.gz": {
-    "sha256": "59d264a7d0b5bd3b1ccbc8a6d8ed4068b08353b4fae33649ba47592d1ab014a1",
-    "bytes": 423212
+    "sha256": "4d0a4735910c3eb63663f318f26994e6b4a32338d1b04e36701c4e4aafb7faec",
+    "bytes": 449475
   },
   "./models/current/journey-upper.json": {
-    "sha256": "6a79fbc5c876b5f1c42a162491cffaf7fef09544d7350192fb4973d3882cd392",
-    "bytes": 5877
+    "sha256": "c21552bc26950782412241002ad1f120eea8fe904907fca6eb7199d8cb8be937",
+    "bytes": 7754
   },
   "./models/current/journey-vessels-surface.bin.gz": {
     "sha256": "f92651ac699c8c77e9c3251691b060a3840f0290f1e46094f3d0c657839556e3",
