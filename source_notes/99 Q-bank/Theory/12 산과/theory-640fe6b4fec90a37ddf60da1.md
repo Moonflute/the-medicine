@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "검사 순서를 절대화하지 않고 경질 초음파가 안전한 태반 위치 확인 수단임을 보존."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-전치태반의 태반 위치 평가 원칙으로 옳은 것은?
+전치태반이 의심되지만 경복부 초음파에서 태반 하연과 내자궁구의 관계가 불명확하다. 다음 평가는?
 
 ## 선택지
 
-A. 경복부 초음파로 평가하고 필요 시 경질 초음파로 내자궁구와의 관계를 정확히 확인한다.
-B. 전치태반이 의심되면 경질 초음파는 항상 금기다.
-C. 출혈 시 영상 전에 손가락 질 내진으로 태반을 먼저 촉지한다.
-D. 혈청 hCG만으로 태반 위치를 확진한다.
+A. 경질 초음파
+B. 손가락 질 내진
+C. 혈청 hCG 추적
+D. 태아 심박동 감시만 반복
 
 ## 해설
 

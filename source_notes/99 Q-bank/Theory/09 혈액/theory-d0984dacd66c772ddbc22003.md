@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "정상 적혈구 수명 숫자의 기계적 적용과 생성 감소를 재생불량성빈혈 하나로 단정한 설명을 제거했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 적혈구 파괴 속도가 골수의 보상적 생산을 초과하여 빈혈이 생긴다.
-B. 적혈구 생산이 감소하면 원인과 관계없이 모두 용혈성 빈혈이다.
-C. 적혈구 파괴가 증가하기만 하면 보상 능력과 무관하게 항상 빈혈이 생긴다.
-D. 적혈구 파괴는 항상 혈관 안에서만 일어난다.
+A. 적혈구 파괴가 보상적 생산을 초과한다
+B. 생산 감소가 있으면 용혈로 분류한다
+C. 파괴 증가만으로 보상과 무관하게 빈혈이 생긴다
+D. 혈관 안의 파괴만을 용혈로 분류한다
 
 ## 해설
 

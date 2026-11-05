@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "모든 산후갑상샘염이 정해진 월별 이중 단계를 거친다는 단정을 2026 ATA 지침의 다양한 경과로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 출산 후 1년 내 발생할 수 있으며 중독기·저하기를 모두 또는 한 단계만 보일 수 있다
-B. 모든 경우 정확히 같은 시기에 중독기와 저하기를 반드시 모두 거친다
-C. 중독기는 새 호르몬 합성 증가이므로 항갑상샘제가 항상 필요하다
-D. 정상화되면 이후 갑상샘저하 위험이 완전히 사라진다
+A. 중독기·저하기 중 하나만 보일 수도 있다
+B. 두 기능 단계를 정해진 시점에 반드시 모두 거친다
+C. 중독기에는 합성 증가가 주기전이다
+D. 정상화 뒤에는 장기 기능 추적이 필요 없다
 
 ## 해설
 

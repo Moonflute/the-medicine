@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "RA의 대칭성 정의 세 번째 반복을 조기 DMARD와 증상완화제의 역할 구별로 전환."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-류마티스관절염에서 DMARD와 단순 증상완화 치료의 역할 구별로 옳은 것은?
+류마티스관절염에서 활성도와 구조 손상 억제를 목표로 하는 약물군은?
 
 ## 선택지
 
-A. DMARD로 질병 활성·구조 손상을 억제하며 진통제만으로 이를 대체하지 않는다.
-B. 통증만 줄어들면 모든 DMARD는 불필요하다.
-C. NSAID만으로 모든 관절 파괴를 예방한다.
-D. 스테로이드 증량만을 영구 치료 목표로 삼는다.
+A. DMARD
+B. NSAID
+C. Acetaminophen
+D. Tramadol
 
 ## 해설
 

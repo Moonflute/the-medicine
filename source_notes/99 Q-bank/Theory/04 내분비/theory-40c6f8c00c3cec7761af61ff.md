@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "ACTH·코르티솔 증가만으로 이소성을 확정하지 않도록 하고 저칼륨성 알칼리증의 연관을 제한적으로 설명."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 고코르티솔혈증에도 ACTH가 억제되지 않으며 중증에서는 저칼륨성 대사성 알칼리증이 동반될 수 있다
-B. 코르티솔 과다이면 ACTH는 반드시 억제된다
-C. ACTH와 코르티솔이 높으면 뇌하수체 원인은 배제된다
-D. 정상 칼륨이면 이소성 ACTH 분비는 배제된다
+A. ACTH 비억제·저칼륨성 대사성 알칼리증
+B. ACTH 억제·저칼륨성 대사성 알칼리증
+C. ACTH 비억제·고칼륨성 대사성 산증
+D. ACTH 억제·고칼륨성 대사성 산증
 
 ## 해설
 

@@ -38,10 +38,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. DPP‑4 효소를 억제해 인크레틴(GLP‑1·GIP) 분해를 차단한다
-B. SGLT2를 억제해 신장에서 포도당 재흡수를 막는다
-C. GLP‑1 수용체를 직접 활성화한다
-D. 알파‑글루코시다제 활성을 억제한다
+A. DPP-4 억제로 내인성 인크레틴 분해 감소
+B. SGLT2 억제로 포도당 재흡수 감소
+C. GLP-1 수용체의 직접 활성화
+D. α-glucosidase 억제로 탄수화물 분해 지연
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "장 게실 전체를 점막만의 돌출로 일반화하지 않도록 흔한 후천성 대장 가성게실에 한정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 점막과 점막하층이 근육층의 약한 부위로 바깥쪽 돌출하는 가성게실이다
-B. 대장 용종처럼 내강으로 자란 종양만을 뜻한다
-C. 모든 장 게실은 장벽 전층을 포함한다
-D. 대장 점막이 없어져 함몰된 궤양만을 뜻한다
+A. 점막·점막하층이 근육층의 약한 부위로 돌출
+B. 점막·점막하층·근육층·장막이 함께 돌출
+C. 근육층만 내강으로 원형 돌출
+D. 점막 결손이 장벽 안으로 파고드는 함몰
 
 ## 해설
 

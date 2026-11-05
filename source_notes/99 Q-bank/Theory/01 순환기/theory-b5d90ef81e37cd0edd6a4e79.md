@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "수축기 클릭과 후기 수축기 잡음은 MVP의 중요한 기본 청진 복습으로 유지한다."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 중기 수축기 클릭(mid‑systolic click)
-B. 개방 스냅(opening snap)
-C. 제3심음(S3)
-D. 수축기 잡음(ejection murmur)
+A. 중기 수축기 클릭
+B. 개방 스냅
+C. 제3심음
+D. 수축기 박출 잡음
 
 ## 해설
 

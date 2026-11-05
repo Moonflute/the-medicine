@@ -34,14 +34,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Filgrastim의 주된 작용은?
+Filgrastim이 주로 생성을 촉진하는 혈구 계열은?
 
 ## 선택지
 
-A. G-CSF로서 호중구 전구세포의 증식·분화를 촉진한다
-B. Erythropoietin으로서 적혈구 생성만 촉진한다
-C. 비타민 K를 보충한다
-D. 섬유소를 직접 분해한다
+A. 호중구
+B. 적혈구
+C. 혈소판
+D. 성숙 림프구
 
 ## 해설
 

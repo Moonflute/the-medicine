@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "농양 의심 시 초음파의 목적은 독립 개념 유지. 오답 문자 의존 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-수유기 유방염에서 영상 검사가 필요한 경우는?
+농양이 의심되는 수유기 유방염에서 액체 저류와 배농 필요성을 평가할 초기 영상검사는?
 
 ## 선택지
 
-A. 농양이 의심될 때 초음파로 농양 형성 여부와 배농 필요성 평가
-B. 모든 수유기 유방염 환자에게 반드시 MRI 시행
-C. 임상 진단만으로 영상 검사는 절대 필요 없음
-D. 유방 촉진만으로는 충분하므로 초음파는 사용하지 않음
+A. 유방 초음파
+B. 유방촬영술
+C. 유방 MRI
+D. 유방 PET-CT
 
 ## 해설
 

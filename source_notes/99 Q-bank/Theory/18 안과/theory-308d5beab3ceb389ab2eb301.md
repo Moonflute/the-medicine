@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "각막 검체 배양 목적은 병태와 독립된 기본 검사 개념으로 유지하며 모든 궤양에 필수인 것으로 일반화하지 않음."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 그람 염색 및 배양을 통한 세균 확인과 항생제 감수성 검사
-B. 각막 두께 측정
-C. 안압 측정
-D. 시야 검사
+A. 원인균·항균제 감수성 확인
+B. 기질 침윤 깊이 측정
+C. 각막 곡률·굴절력 측정
+D. 상피 결손 면적 측정
 
 ## 해설
 

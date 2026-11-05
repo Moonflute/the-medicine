@@ -38,10 +38,10 @@ Metformin 사용이 금기인 신기능 수준은?
 
 ## 선택지
 
-A. eGFR 30 mL/min/1.73 m² 미만
-B. eGFR 90 mL/min/1.73 m² 미만이면 모두
-C. 알부민뇨가 조금이라도 있는 모든 경우
-D. 신기능에 관계없이 혈당이 정상이면 항상
+A. eGFR <30 mL/min/1.73 m²
+B. eGFR <45 mL/min/1.73 m²
+C. eGFR <60 mL/min/1.73 m²
+D. eGFR <90 mL/min/1.73 m²
 
 ## 해설
 

@@ -38,10 +38,10 @@ Isoniazid의 주요 항결핵 작용 기전은?
 
 ## 선택지
 
-A. Mycobacterium의 mycolic acid 합성을 억제한다.
-B. DNA gyrase를 억제한다.
-C. Folate 대사를 차단한다.
-D. RNA polymerase를 억제한다.
+A. Mycolic acid 합성 억제
+B. DNA gyrase 억제
+C. 엽산 대사 차단
+D. RNA polymerase 억제
 
 ## 해설
 

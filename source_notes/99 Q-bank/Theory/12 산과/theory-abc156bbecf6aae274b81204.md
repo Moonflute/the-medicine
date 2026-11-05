@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "외부감시가 수축 강도를 정확히 측정한다는 오해를 피하고 실제 측정 항목의 기본 개념 유지."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-외부 태아심박동·자궁수축 감시에 대한 설명으로 옳은 것은?
+외부 태아심박동·자궁수축 감시로 정확히 정량하기 어려운 항목은?
 
 ## 선택지
 
-A. FHR과 수축의 빈도·시점을 함께 기록하지만 외부 TOCO로 절대 수축 강도를 정확히 정량하지는 못함
-B. 외부 TOCO는 자궁내압을 mmHg로 직접 측정함
-C. FHR만으로 모체 혈압을 직접 계산함
-D. 외부 감시 기록만으로 모든 감속의 원인을 확진함
+A. 절대 자궁내압과 수축 강도
+B. 수축 시작 시점
+C. 수축 빈도
+D. 수축과 감속의 시간관계
 
 ## 해설
 

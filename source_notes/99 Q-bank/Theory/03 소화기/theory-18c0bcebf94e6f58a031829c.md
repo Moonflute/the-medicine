@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "내시경의 직접 점막 관찰이라는 독립 검사 개념 유지."
@@ -36,10 +36,10 @@ Mallory-Weiss 증후군을 가장 직접적으로 확인할 수 있는 검사는
 
 ## 선택지
 
-A. 상부위장관 내시경(EGD)
-B. 복부 초음파
-C. 대변 검사
-D. 혈액 검사
+A. 상부위장관 내시경
+B. 조영 증강 복부 CT
+C. 식도 조영술
+D. 식도 내압 검사
 
 ## 해설
 

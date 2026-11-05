@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "모든 누출에 ERCP를 가장 먼저 시행하는 과도한 규칙을 누출 규모·담즙종·담도 연속성에 따른 단계적 치료로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 누출의 정도·담즙종·감염·담도 연속성을 평가해 배액, 내시경 감압 또는 전문 수술을 선택한다
-B. 모든 누출은 관찰 없이 즉시 같은 ERCP 처치만 한다
-C. 큰 담즙종과 패혈증도 배액 없이 기다린다
-D. 주담관 완전 절단도 일반적인 소량 누출과 동일하게 관리한다
+A. 누출·담즙종·감염·담도 연속성에 맞춘 단계적 치료
+B. 누출 크기와 무관하게 동일 ERCP 우선
+C. 큰 감염성 담즙종도 배액 없이 관찰
+D. 완전 담관 절단도 소량 누출과 동일하게 관리
 
 ## 해설
 

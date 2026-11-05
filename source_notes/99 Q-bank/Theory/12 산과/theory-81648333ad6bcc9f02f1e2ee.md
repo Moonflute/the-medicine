@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "중요한 특발성/기질성 원인 구분을 보존하되 근거 없는 고정 비율과 성장지연 단정을 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-경증 양수 과다증의 원인에 대한 설명으로 옳은 것은?
+경증 양수과다증에서 원인 평가 후 가장 흔히 남는 분류는?
 
 ## 선택지
 
-A. 특발성이 흔하지만 모체 당뇨와 태아 기형 등 원인을 평가해야 함
-B. 모든 경우가 모체 당뇨에 의해 발생함
-C. 특발성이 흔하므로 태아 기형 평가는 불필요함
-D. 모든 경우가 태아 염색체 이상을 의미함
+A. 특발성
+B. 모체 당뇨병
+C. 태아 식도 폐쇄
+D. 태아 빈혈
 
 ## 해설
 

@@ -36,14 +36,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-ACE 억제제와 sacubitril/valsartan(ARNI) 사이의 전환에 필요한 원칙은?
+ACE 억제제와 sacubitril/valsartan 사이에 전환할 때 필요한 최소 투여 간격은?
 
 ## 선택지
 
-A. 혈관부종 위험 때문에 동시 사용하지 않고 최소 36시간 간격을 둔다
-B. ACE 억제제와 같은 시간에 함께 투여한다
-C. 전환 시 ACE 억제제 용량만 절반으로 줄인다
-D. 36시간 간격은 베타차단제를 전환할 때만 필요하다
+A. 36시간
+B. 12시간
+C. 24시간
+D. 72시간
 
 ## 해설
 

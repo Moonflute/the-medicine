@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "판막 협착과 다른 RV 유출로 병변을 포괄하던 정의를 판막 수준의 폐색과 우심실 압력 과부하로 명확화했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 수축기 우심실 유출 저항과 RV-폐동맥 압력차가 증가하여 우심실 압력 과부하가 생긴다.
-B. 이완기 대동맥에서 좌심실로 역류가 생긴다.
-C. 수축기 좌심실에서 좌심방으로 역류가 생긴다.
-D. 좌심방-좌심실 이완기 유입이 선택적으로 제한된다.
+A. 우심실 유출 저항 증가와 압력 과부하
+B. 우심방 유입 저항 증가와 정맥 울혈
+C. 좌심실 유출 저항 증가와 압력 과부하
+D. 우심실의 이완기 용적 과부하
 
 ## 해설
 

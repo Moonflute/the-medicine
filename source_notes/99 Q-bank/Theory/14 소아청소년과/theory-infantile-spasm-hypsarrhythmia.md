@@ -30,8 +30,8 @@ review_status: manual-reviewed
 
 A. 3 Hz 전반성 극서파
 B. 중심측두부 극파
-C. 고도부정뇌파(hypsarrhythmia)
-D. 측두엽 간헐적 율동성 델타파
+C. 고도부정뇌파
+D. 측두엽 율동성 델타파
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "발작 유형과 뇌전증 증후군을 혼용한 용어를 정돈하고 전형적 결신의 짧은 행동정지 개념을 유지."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 갑작스럽고 짧은 의식·행동 중단 뒤 빠르게 회복함
-B. 긴 전조 뒤 한쪽 근육 강직만 지속됨
-C. 30분 이상의 혼돈이 항상 이어짐
-D. 항상 전신 강직-간대 경련으로만 나타남
+A. 갑작스러운 짧은 행동 중단·빠른 회복
+B. 후각 전조·자동증·발작 후 혼돈
+C. 군집성 몸통 굴곡·신전 연축
+D. 아침에 반복되는 양팔의 근간대 움직임
 
 ## 해설
 

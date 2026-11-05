@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "SLL을 단순히 림프절이 더 크다는 상대적 위치로 고르는 문제에서 CLL/SLL의 클론성 B세포 스펙트럼으로 명확화했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 같은 성숙 B세포 질환 스펙트럼이며 SLL은 조직 침범이 중심이고 통상 혈중 클론성 B세포가 CLL 혈액 기준 미만인 경우이다.
-B. SLL은 미성숙 T세포 질환이고 CLL은 성숙 B세포 질환이다.
-C. 혈중 총 림프구 수가 많다는 사실만으로 SLL과 CLL이 모두 확진된다.
-D. SLL은 림프절 외 장기나 골수를 침범할 수 없다.
+A. 같은 성숙 B세포 질환으로 조직·혈액 침범 중심을 구분
+B. 서로 무관한 미성숙 T세포·성숙 B세포 종양
+C. 총 림프구 수만으로 둘 다 확진하는 질환
+D. 골수 침범 가능성이 없는 국소 림프절 질환
 
 ## 해설
 

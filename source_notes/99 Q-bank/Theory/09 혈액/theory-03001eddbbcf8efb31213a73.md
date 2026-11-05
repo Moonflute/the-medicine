@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "aPTT를 단일 최초·확진 검사처럼 다루는 구성을 전형적 선별 패턴과 정상 aPTT의 경증 배제 한계로 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-혈우병 A/B가 의심될 때 응고 선별검사와 확진 검사에 대한 올바른 설명은?
+혈우병 A/B의 전형적인 기본 응고검사 패턴은?
 
 ## 선택지
 
-A. 전형적으로 PT는 정상·aPTT는 연장되지만 경증은 정상 aPTT도 가능하므로 VIII/IX 인자 활성도를 평가한다.
-B. aPTT가 정상이면 경증 혈우병도 완전히 배제된다.
-C. PT 단독 연장이 혈우병 A/B의 전형적 선별 소견이다.
-D. 혈소판 수가 정상이면 응고인자 활성도 검사는 불필요하다.
+A. PT 정상·aPTT 연장·혈소판 정상
+B. PT 연장·aPTT 정상·혈소판 정상
+C. PT·aPTT 연장·혈소판 감소
+D. PT·aPTT 정상·혈소판 감소
 
 ## 해설
 

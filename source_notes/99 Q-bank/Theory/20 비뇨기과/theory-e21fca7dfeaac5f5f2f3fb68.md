@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "비임균성은 비세균성이 아니며 분비물 모양만으로 원인을 확정할 수 없도록 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 배뇨통, 요도 소양감, 투명하거나 점액성 분비물
-B. 고름성 분비물과 발열
-C. 음낭 통증과 부종
-D. 혈뇨와 복통
+A. 배뇨통·요도 가려움·점액성 분비
+B. 고열·오한·회음부 통증
+C. 음낭 통증·부고환 종창
+D. 빈뇨·절박뇨·치골상부 통증
 
 ## 해설
 

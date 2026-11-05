@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "같은 target의 B 증상 반복을 하나로 통합하고 단순 발열·발한이 아니라 원인 불명 발열·흠뻑 젖는 야간발한·의도치 않은 체중감소로 명확화했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 원인 불명 발열, 흠뻑 젖는 야간발한, 6개월간 10% 초과의 설명되지 않는 체중감소
-B. 가려움증, 피부 발진, 국소 통증만
-C. 쉽게 멍듦, 점상출혈, 잇몸출혈만
-D. 식욕 증가, 체중 증가, 추위 민감성만
+A. 원인 불명 발열·흠뻑 젖는 야간발한·체중 감소
+B. 가려움·피부 발진·국소 통증
+C. 점상출혈·잇몸출혈·쉽게 멍듦
+D. 식욕 증가·체중 증가·추위불내성
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "ADA 상승 사례만으로 즉시 표준 다제요법을 단정한 문항을 순수 확진 검사 한계 이론으로 교정."
@@ -39,10 +39,10 @@ related_drug_slugs:
 
 ## 선택지
 
-A. ADA는 보조 근거이며 복수 NAAT 음성만으로 배제하지 않고 필요시 배양·복막 생검으로 평가한다
-B. ADA 상승 하나만으로 모든 다른 원인을 배제하고 결핵을 확진한다
-C. 복수 NAAT가 음성이면 결핵 복막염 가능성은 없다
-D. 조직·배양 확인은 약제 내성 평가와 무관하다
+A. 음성 NAAT로 배제하지 않고 배양·조직 평가 검토
+B. ADA 상승만으로 대안 원인 평가 종료
+C. 복수 NAAT 음성으로 결핵성 원인 배제
+D. 혈청 결핵 항체로 약제 내성 판정
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "고지혈증만 제외하는 자명한 선지를 항생제-정상균총-집락저항성의 기전으로 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 정상 장내 미생물총을 교란해 집락저항성을 약화시킨다.
-B. 모든 항생제가 C. difficile 독소를 직접 주입한다.
-C. 정상균총을 전혀 바꾸지 않는다.
-D. C. difficile이 반드시 바이러스로 변한다.
+A. 장내 미생물총 교란·집락저항성 감소
+B. 외부에서 생성된 독소의 직접 섭취
+C. 장벽 전층 허혈·일차 괴사
+D. 장 상피세포 직접 침입·세포내 증식
 
 ## 해설
 

@@ -25,7 +25,7 @@ export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: 
     {choices.map((choice, index) => <button key={choice.key} type="button" disabled={disabled} aria-pressed={choice.selected} onClick={() => onSelect(choice.key)} data-selected={choice.selected} data-correct={choice.correct} data-wrong={choice.wrong}
       className={special ? "skin-q-choice" : `flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${choice.correct ? "border-teal-500 bg-teal-50 text-teal-950" : choice.wrong ? "border-rose-400 bg-rose-50 text-rose-950" : choice.selected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"}`}>
       {theme === "sheet" ? <span className="skin-q-choice-label">{index + 2}</span> : null}
-      <span className={special ? "skin-q-choice-label" : "font-semibold"}>{theme === "terminal" ? `[${index + 1}] ${choice.label}.` : theme === "editor" ? `${choice.label}:` : theme === "social" ? choice.label : `${choice.label}.`}</span>
+      <span className={special ? "skin-q-choice-label shrink-0 whitespace-nowrap" : "shrink-0 whitespace-nowrap font-semibold"}>{theme === "terminal" ? `[${index + 1}] ${choice.label}.` : theme === "editor" ? `${choice.label}:` : theme === "social" ? choice.label : `${choice.label}.`}</span>
       <span data-highlight-block={`option:${choice.key}`} className="min-w-0 break-words">{choice.text}</span>
       {special ? <span className="skin-q-choice-state">{choice.correct ? "정답" : choice.wrong ? "오답" : choice.selected ? "✓" : ""}</span> : null}
     </button>)}

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "고정 협착에 의한 지속 통증을 안정 협심증의 정의처럼 설명한 오답을 제거하고 연축의 공급 감소 기전으로 정리했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 가역적 관상동맥 수축으로 혈류 공급이 일시 감소해 허혈이 생기며 고정 협착과 공존할 수도 있다.
-B. 모든 경우 완전한 고정 폐쇄에 의한 지속 괴사만으로 정의된다.
-C. 심근 산소 요구 증가만으로 발생하고 혈관 수축은 무관하다.
-D. 고정 협착이 보이면 연축은 배제된다.
+A. 관상동맥의 가역적 수축에 따른 일시적 허혈
+B. 죽상경화반 파열 후 지속되는 혈전성 폐색
+C. 심방 혈전의 관상동맥 내 색전
+D. 심근 산소 요구 증가와 고정 협착의 불균형
 
 ## 해설
 

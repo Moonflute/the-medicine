@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "원문 오답 설명의 선지 문자 의존을 없애고 AVP 저항 개념을 명시."
@@ -40,10 +40,10 @@ related_drug_slugs:
 
 ## 선택지
 
-A. AVP에 대한 신장 반응 저하로 수분 재흡수와 소변 농축이 손상된다
-B. 시상하부-뇌하수체의 AVP 생성·분비 부족이 유일한 기전이다
-C. 인슐린 결핍으로 소변 포도당 배출이 증가한다
-D. 코르티솔 결핍으로만 정의되는 질환이다
+A. 신장의 AVP 반응 저하
+B. 시상하부의 AVP 분비 부족
+C. 고혈당에 의한 용질 이뇨
+D. 섭취 과다에 따른 AVP 억제
 
 ## 해설
 

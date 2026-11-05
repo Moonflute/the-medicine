@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "DKA와 털곰팡이증의 연관은 숙주 위험의 중요한 독립 개념이므로 유지."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 조절되지 않은 당뇨(DKA)
-B. HIV 감염
-C. 고혈압
-D. 알레르기 비염
+A. 조절되지 않은 당뇨병·DKA
+B. 합병증 없는 고혈압
+C. 안정된 고지혈증
+D. 단순 알레르기비염
 
 ## 해설
 

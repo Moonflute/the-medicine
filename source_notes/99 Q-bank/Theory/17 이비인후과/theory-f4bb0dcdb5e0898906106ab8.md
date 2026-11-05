@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "급성 통증·발열을 곧바로 악성 변화로 해석한 오답 설명을 감별 필요로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 수개월~수년에 걸쳐 서서히 커지는 통증 없는 단단하고 가동성 있는 이하선 종괴
-B. 급성 통증과 발열을 동반한 급성 종괴
-C. 반복적인 코 출혈과 코막힘을 동반하는 증상
-D. 청각 감소와 이명을 동반하는 증상
+A. 서서히 자라는 무통성·가동성 이하선 종괴
+B. 급성 통증·발열·압통성 이하선 종창
+C. 빠른 성장·고정성·안면신경 마비
+D. 양측 이하선의 반복적 통증성 종창
 
 ## 해설
 

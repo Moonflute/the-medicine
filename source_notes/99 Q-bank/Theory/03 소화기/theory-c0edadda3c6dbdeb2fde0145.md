@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "등으로 방사되는 지속 상복부 통증은 급성 췌장염의 의미 있는 쉬운 증상 복습."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 상복부의 지속적이고 심한 통증이 등으로 방사되는 경우
-B. 황달과 간비대가 동반되는 경우
-C. 식후에만 나타나는 경미한 복통
-D. 무증상으로 발견되는 경우
+A. 지속적 심한 상복부 통증·등으로 방사
+B. 반복적 우상복부 산통·우측 견갑부 방사
+C. 급작스러운 하복부 경련·혈변 동반
+D. 배변 후 호전되는 만성 하복부 불편감
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "DSM-IV의 비괴이 망상 필수 조건을 DSM-5 이후 기준으로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ DSM-5 이후 망상장애에서 망상의 괴이성에 대한 설명으로 옳�
 
 ## 선택지
 
-A. 괴이적 망상만 있으면 다른 요건과 무관하게 조현병으로 확정함
-B. 괴이적 내용이 있다는 사실만으로 망상장애를 배제하지는 않음
-C. 망상은 반드시 비괴이적이어야 함
-D. 내용이 괴이하면 기간과 기능 평가가 필요 없음
+A. 괴이적 망상만 있으면 조현병 확진
+B. 괴이성 하나로 망상장애를 배제하지 않음
+C. 비괴이적 망상만 망상장애에 해당
+D. 괴이적 망상이면 기간·기능 평가 불필요
 
 ## 해설
 

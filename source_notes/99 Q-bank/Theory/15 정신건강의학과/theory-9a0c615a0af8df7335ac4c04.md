@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "노년기 신체증상 표현은 의미 있으나 항상 우울감보다 주호소라는 일반화를 완화하고 문자 의존 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-노년기 우울증에서 흔히 나타나는 비우울적 증상은?
+노년기 우울증에서 우울감 호소보다 전면에 나타날 수 있는 증상은?
 
 ## 선택지
 
-A. 신체 증상(통증·소화불량 등)
-B. 과다한 에너지와 활력
-C. 과식 및 체중 증가
-D. 조현병 양상(환각·망상)
+A. 통증·소화불량 등 신체 호소
+B. 에너지 증가·수면 욕구 감소
+C. 피해망상·사고 전파만
+D. 다행감·과대감
 
 ## 해설
 

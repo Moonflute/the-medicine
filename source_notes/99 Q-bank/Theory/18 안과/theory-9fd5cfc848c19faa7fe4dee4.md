@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "허혈성·비허혈성의 예후 차이는 중요한 독립 개념으로 유지하고 문자 의존 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-망막중심정맥폐쇄에서 예후가 가장 불량한 형태는?
+망막중심정맥폐쇄에서 불량한 시력 예후·신생혈관 위험과 특히 연관되는 소견은?
 
 ## 선택지
 
-A. 허혈형
-B. 비허혈형
-C. 급성형
-D. 만성형
+A. 광범위한 망막 모세혈관 비관류
+B. 정상에 가까운 망막 관류
+C. 경미한 시력 저하만
+D. 미미한 상대구심동공장애
 
 ## 해설
 

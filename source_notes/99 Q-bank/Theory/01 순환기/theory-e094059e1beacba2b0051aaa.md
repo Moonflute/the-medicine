@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "증례를 고위험 심근염 치료 원칙의 이론으로 바꾸고 NSAID/colchicine을 모든 심근염에 금기라 한 과도한 일반화를 교정했다."
@@ -34,14 +34,14 @@ related_drug_slugs:
 
 ## 문제
 
-고위험 심근염의 치료 원칙으로 가장 적절한 것은?
+쇼크·위험 부정맥을 동반한 고위험 심근염의 초기 관리로 적절한 것은?
 
 ## 선택지
 
-A. 혈역학·전기적 안정화와 전문팀 평가를 신속히 진행하고 치료가 달라질 원인에는 조기 EMB 등 원인 평가를 병행한다.
-B. 모든 심근염은 합병증 유무와 관계없이 NSAID·colchicine이 절대 금기이다.
-C. 원인·위험도와 관계없이 모든 사례에서 같은 면역억제를 즉시 시행한다.
-D. 쇼크가 있어도 CMR이 확정될 때까지 지지 치료를 보류한다.
+A. 소생·전문팀 평가와 필요한 조기 원인 검사
+B. CMR 확진 후 혈역학 지지 치료 시작
+C. 원인 검사 전 일률적 면역억제 단독 치료
+D. 심기능 회복 후 부정맥 치료 여부 결정
 
 ## 해설
 

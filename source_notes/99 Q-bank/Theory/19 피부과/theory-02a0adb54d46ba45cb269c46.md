@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 첩포시험(patch test)
-B. 피부 생검
-C. IgE 측정
-D. 알레르기 혈청 검사
+A. 첩포시험
+B. 피부단자시험
+C. 피내시험
+D. 혈청 특이 IgE
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "울혈·유방염·농양을 좁은 정의 반복 대신 임상적 양측성 팽창과 국소 고름 구분으로 통합."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 출산 후 2~4일 경 양측성 유방 팽만·단단함·통증·열감
-B. 한쪽 유방에 국소적 발적·통증·발열
-C. 전신 발진·가려움증
-D. 유두 분비물 감소
+A. 산후 초기 양측성 팽창·단단함·통증
+B. 한쪽 국소 발적·발열·오한
+C. 국한된 파동성 종괴·고름 저류
+D. 감염 없는 국소 모유 저류 낭종
 
 ## 해설
 

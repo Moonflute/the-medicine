@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "AFP·hCG·LDH는 고환 종양 평가의 핵심 표지 조합."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. CA‑125, PSA, CEA
-B. AFP, hCG, LDH
-C. ESR, CRP, 혈청 알부민
-D. 혈청 전해질, 혈당, 콜레스테롤
+A. PSA·CEA·CA-125
+B. AFP·hCG·LDH
+C. AFP·CEA·CA 19-9
+D. hCG·PSA·CA 19-9
 
 ## 해설
 

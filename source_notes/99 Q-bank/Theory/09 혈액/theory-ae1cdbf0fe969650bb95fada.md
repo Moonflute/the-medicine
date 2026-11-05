@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "ELISA 민감도만으로 모든 진단을 설명하고 혈소판 추세를 보조에 불과하다고 한 설명을 4Ts 기반 해석으로 교정."
@@ -38,10 +38,10 @@ HIT 진단검사의 해석 원칙으로 옳은 것은?
 
 ## 선택지
 
-A. 4Ts 임상 사전확률과 PF4/헤파린 면역검사를 결합하고 필요 시 기능검사로 평가한다.
-B. 양성 ELISA 하나로 모든 경우 확진한다.
-C. 혈소판 감소의 시간·정도는 진단과 무관하다.
-D. 저확률에서도 항상 무차별 항체검사를 시행한다.
+A. 4Ts·PF4 면역검사와 필요 시 기능검사 통합
+B. ELISA 양성만으로 HIT 확진
+C. 발현 시기·감소 정도를 진단에서 제외
+D. 사전확률과 무관하게 항체검사 일률 시행
 
 ## 해설
 

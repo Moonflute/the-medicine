@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "자가면역 베타세포 파괴와 인슐린 결핍은 제2형 저항성과 구별하는 핵심 쉬운 복습으로 유지. 잔여 분비·비전형은 별도 분류 문항으로 보완."
@@ -38,10 +38,10 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 자가면역성 베타세포 파괴에 따른 절대적 인슐린 결핍
-B. 인슐린 저항성에 의한 상대적 인슐린 부족
-C. 인슐린 과다분비와 저혈당 위험
-D. 글루카곤 과다분비
+A. 자가면역성 베타세포 파괴·절대 인슐린 결핍
+B. 인슐린 저항성·상대적 인슐린 부족
+C. 베타세포 종양·인슐린 과다분비
+D. 알파세포 종양·글루카곤 과다분비
 
 ## 해설
 

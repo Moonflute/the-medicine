@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "비장 대식세포 제거와 비장 비대는 혈관 내 용혈과 대비되는 기초 소견으로 유지한다."
@@ -37,9 +37,9 @@ review_status: machine-generated
 ## 선택지
 
 A. 비장 비대
-B. 혈색소뇨
-C. 혈소판 감소
-D. 고칼슘혈증
+B. 점상출혈
+C. 숟가락손톱
+D. 위치·진동감각 저하
 
 ## 해설
 

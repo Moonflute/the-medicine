@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "스토마 허혈 목표를 일반 장간막 허혈로 대체한 설명을 장루의 관류·조직 생존성으로 구체화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-장루 허혈·괴사의 핵심 병태와 평가 원칙은?
+장루 괴사에서 긴급 수술평가가 특히 중요한 소견은?
 
 ## 선택지
 
-A. 장루로 끌어낸 장의 혈류 장애로 생존성이 손상될 수 있어 점막 색과 괴사 깊이를 평가한다.
-B. 장루가 붓기만 하면 항상 전층 괴사다.
-C. 장루 점막이 검어도 근막 아래 깊이는 평가할 필요 없다.
-D. 정상 CT 한 장이면 장루의 허혈을 항상 배제한다.
+A. 괴사가 근막 아래까지 진행
+B. 장루 가장자리의 소량 표재 탈락
+C. 근막 위 점막에 국한된 얕은 허혈
+D. 생존성 점막을 동반한 일시적 부종
 
 ## 해설
 

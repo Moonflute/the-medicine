@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 48시간 내 0.3 mg/dL 이상 상승해 AKI에 해당
-B. 현재 크레아티닌이 2 mg/dL 미만이라 AKI 아님
-C. 소변량이 줄어야만 AKI에 해당
-D. 3개월 지속되는지 확인해야 AKI 판정 가능
+A. 48시간 내 ≥0.3 mg/dL 상승으로 AKI 해당
+B. 현재 값 <2 mg/dL이므로 AKI 아님
+C. 핍뇨가 없으면 AKI 아님
+D. 3개월 지속 여부로 AKI 여부 결정
 
 ## 해설
 

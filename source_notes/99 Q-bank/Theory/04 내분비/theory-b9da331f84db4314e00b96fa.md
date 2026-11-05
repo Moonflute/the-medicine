@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "급성 신경내장형과 피부형을 완전히 상호 배제한 오답 설명을 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 심한 복통·자율신경/신경정신 증상이 발작으로 나타날 수 있고 일부 형태는 피부 광과민도 동반할 수 있다
-B. 피부 광과민이 있으면 어떤 급성 간성 포르피린증도 배제된다
-C. 급성 간성 포르피린증은 근력 저하를 일으킬 수 없다
-D. 복통만 있으면 생화학 검사 없이 확진한다
+A. 심한 복통·자율신경 이상·운동 신경병증
+B. 노출 피부의 수포·정상 신경학적 상태
+C. 지방변·식후 복통·지용성 비타민 결핍
+D. 발열·황달·우상복부 압통
 
 ## 해설
 

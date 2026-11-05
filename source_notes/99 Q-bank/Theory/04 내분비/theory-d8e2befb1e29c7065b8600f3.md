@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "단순 정의 제외형을 DKA와 HHS의 인슐린 작용 차이라는 순수 이론으로 개선."
@@ -36,10 +36,10 @@ HHS에서 심한 고혈당에도 유의한 케톤산증이 없을 수 있는 기
 
 ## 선택지
 
-A. 잔여 인슐린 작용이 케톤 생성을 억제하지만 고혈당을 막기에는 부족하다.
-B. 인슐린 작용이 완전히 정상이다.
-C. 탈수가 케톤을 모두 소변으로 제거한다.
-D. 모든 HHS에는 반드시 심한 케톤산증이 있다.
+A. 잔여 인슐린이 케톤 생성은 억제하나 고혈당은 못 막는다
+B. 인슐린 작용이 완전히 소실돼 케톤 생성이 억제된다
+C. 글루카곤 과다가 케톤 생성을 직접 차단한다
+D. 소변으로 케톤을 완전히 배출해 혈중 케톤이 남지 않는다
 
 ## 해설
 

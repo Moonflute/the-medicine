@@ -27,21 +27,21 @@ curation_status: revised
 curation_reason: "모든 환자에게 후각구 완전 결손이 필수라는 단정을 제거하고 낮거나 부적절하게 정상인 성선자극호르몬의 의미를 명료화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-Kallmann 증후군의 검사 해석으로 가장 적절한 것은?
+Kallmann 증후군에서 낮은 성호르몬에 동반되는 전형적인 FSH·LH 양상은?
 
 ## 선택지
 
-A. 낮은 성호르몬에 비해 FSH·LH가 낮거나 부적절하게 정상이며 후각구 발달 이상이 보일 수 있다.
-B. FSH·LH가 반드시 매우 높아야 한다.
-C. 성호르몬은 반드시 높고 후각 기능도 정상이어야 한다.
-D. MRI에서 후각구가 완전히 없지 않으면 다른 소견과 관계없이 배제한다.
+A. 둘 다 낮거나 부적절하게 정상
+B. 둘 다 뚜렷하게 상승
+C. FSH 상승·LH 억제
+D. FSH 억제·LH 상승
 
 ## 해설
 

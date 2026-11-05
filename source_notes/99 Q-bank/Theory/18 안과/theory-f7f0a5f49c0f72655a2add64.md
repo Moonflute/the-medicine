@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "연령·상황 무관한 바이러스 50% 이상 빈도 암기 대신 감염성/알레르기성의 전파 개념으로 개선."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 병원체가 묻은 손·분비물·기구 등의 접촉으로 전파될 수 있어 손위생·기구관리가 중요함
-B. 모든 결막염은 원인과 관계없이 반드시 전염됨
-C. 알레르기 결막염도 세균처럼 같은 병원체가 직접 전파되는 질환임
-D. 안과 기구는 전파에 관여할 수 없음
+A. 오염된 손·분비물·기구 접촉으로 전파 가능
+B. 알레르기성도 같은 병원체의 접촉 전파
+C. 안과 기구 소독은 전파 예방과 무관
+D. 증상 완화만 되면 접촉 전파 즉시 소실
 
 ## 해설
 

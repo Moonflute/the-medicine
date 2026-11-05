@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "수면 욕구 감소는 단순 불면과 다른 중요한 조증 개념. '가장 흔함' 나열을 이론적 구별로 개선."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 적게 자도 피로를 거의 느끼지 않고 활동·에너지가 증가할 수 있음
-B. 피곤하고 자고 싶지만 잠들지 못하는 것만을 뜻함
-C. 밤에 잠을 못 자면 원인과 관계없이 항상 조증임
-D. 하루 종일 졸려 활동이 감소하는 것만을 뜻함
+A. 적게 자도 피로가 적고 에너지 증가
+B. 자고 싶고 피곤하지만 입면 곤란
+C. 충분히 자도 주간 졸음 지속
+D. 잠드는 시각이 사회적 시간보다 지연
 
 ## 해설
 

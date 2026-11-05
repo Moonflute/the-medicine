@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "불산에서 고칼륨혈증은 무관하다는 중대한 오류와 복수정답을 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 저칼슘혈증·저마그네슘혈증 및 고칼륨혈증이 가능
-B. 저나트륨혈증만 있고 다른 전해질은 영향 없음
-C. 고칼슘혈증만 발생
-D. 혈당 상승만 발생
+A. 칼슘 감소·마그네슘 감소·칼륨 증가
+B. 칼슘 증가·마그네슘 감소·칼륨 감소
+C. 칼슘 감소·마그네슘 증가·칼륨 감소
+D. 칼슘 증가·마그네슘 증가·칼륨 증가
 
 ## 해설
 

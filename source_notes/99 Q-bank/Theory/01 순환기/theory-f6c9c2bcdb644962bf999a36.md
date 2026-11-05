@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "심막염=심막 염증의 이름 풀이를 단순 급성 심막염의 항염증 치료 원칙으로 개선했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-원인특이 치료가 따로 필요하지 않은 단순 급성 심막염의 초기 항염증 치료 원칙은?
+단순 급성 심막염에서 금기가 없을 때 기본적으로 고려할 항염증 치료 조합은?
 
 ## 선택지
 
-A. 금기·위험을 확인한 aspirin/NSAID와 colchicine 병용을 기본적으로 고려한다.
-B. 모든 사례에 항균제만 투여한다.
-C. Colchicine은 재발 예방에 역할이 없다.
-D. 혈역학적 불안정·큰 삼출 여부와 관계없이 모두 외래 진통제만 처방한다.
+A. 아스피린 또는 NSAID와 콜히친
+B. 고용량 스테로이드와 메토트렉세이트
+C. 항생제와 헤파린
+D. 항바이러스제와 루프 이뇨제
 
 ## 해설
 

@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "임신 중 처음 발견한 모든 고혈당을 GDM으로 부르는 오류를 현성 당뇨와 구분."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-임신 중 처음 확인된 고혈당의 분류 원칙으로 옳은 것은?
+임신 초기 처음 발견한 고혈당이 일반 성인의 당뇨병 진단 기준을 충족한다. 적절한 분류 원칙은?
 
 ## 선택지
 
-A. 기존 당뇨병 진단 수준을 충족하는 현성 당뇨와 GDM을 구별한다.
-B. 처음 발견되면 혈당 수준과 무관하게 모두 GDM이다.
-C. 임신 전 알려진 당뇨도 모두 GDM으로 이름을 바꾼다.
-D. 고혈당은 생리적 현상이라 분류할 필요 없다.
+A. 임신 중 확인된 현성 당뇨로 구별한다.
+B. 처음 발견됐으므로 모두 GDM으로 분류한다.
+C. 임신 생리적 인슐린 저항성으로만 분류한다.
+D. 임신성 신성 당뇨로 분류한다.
 
 ## 해설
 

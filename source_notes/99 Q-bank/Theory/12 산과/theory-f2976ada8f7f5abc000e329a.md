@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "EFW만 제시하고 미만·이하를 혼용한 정의를 SMFM의 EFW 또는 AC 10백분위 미만으로 명확화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ SMFM의 실용적 FGR 초음파 정의에 해당하는 것은?
 
 ## 선택지
 
-A. 재태연령별 EFW 또는 AC가 10백분위 미만
-B. EFW가 20백분위면 모두 FGR
-C. 출생체중이 2500g 미만이면 주수와 무관하게 모두 FGR
-D. 초음파에서 머리 크기가 정상이면 FGR는 불가능
+A. EFW 또는 AC가 10백분위 미만
+B. EFW 또는 AC가 20백분위 미만
+C. 출생체중 2,500 g 미만
+D. 대퇴골 길이만 10백분위 미만
 
 ## 해설
 

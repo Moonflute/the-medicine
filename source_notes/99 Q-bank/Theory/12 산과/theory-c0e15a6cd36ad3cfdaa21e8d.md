@@ -25,25 +25,25 @@ curation_status: revised
 curation_reason: "홍역 3C·Koplik 복습 유지; 백색반점을 구순포진으로 임의 대응한 오답 설명 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-홍역 전구기의 주요 임상 소견은?
+홍역 전구기를 특징짓는 주요 증상 조합은?
 
 ## 선택지
 
-A. 고열, 기침, 콧물, 결막염(3C)과 발진 1~2일 전 구강 내 코플릭 반점
-B. 저열, 발진, 림프절 비대와 구강 내 백색 반점
-C. 고열, 발진, 관절통과 림프절 비대
-D. 저열, 기침, 인후통과 구강 내 물집
+A. 기침·콧물·결막염
+B. 인후통·사포양 발진·딸기혀
+C. 저열·후이개 림프절병증·관절통
+D. 고열·구강 궤양·손발 수포
 
 ## 해설
 
-홍역 전구기에는 3C 증상과 함께 발진 전 1~2일에 코플릭 반점이 나타난다.
+홍역 전구기의 3C는 기침(cough)·콧물(coryza)·결막염(conjunctivitis)이다. 고열이 동반되고 발진 전후 구강 내 코플릭 반점이 보일 수 있다. 성홍열·풍진·수족구병의 전형적 증상과 비교한다.
 
 ## 오답 포인트
 

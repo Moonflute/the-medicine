@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "문제에 없던 CT 고밀도 소견을 해설에 추가하고 EUS가 항상 먼저라는 사례 오류를 이론적 배액 경로 선택으로 수정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 내시경 경벽 배액과 경피 배액 중 위치·연장 범위·전신 상태·전문성에 맞춰 선택한다
-B. 경피 배액은 모든 경우 내시경 실패 후에만 허용된다
-C. 모든 WON은 증상과 관계없이 즉시 개복 절제한다
-D. 내시경 배액이 가능하면 감염·출혈 등 다른 문제 평가는 불필요하다
+A. 해부학·전신 상태에 맞춰 내시경 또는 경피 배액
+B. 내시경 실패가 확인돼야 경피 배액 허용
+C. 증상과 무관하게 개복 괴사제거를 우선
+D. 배액이 가능하면 감염·출혈 평가는 생략
 
 ## 해설
 

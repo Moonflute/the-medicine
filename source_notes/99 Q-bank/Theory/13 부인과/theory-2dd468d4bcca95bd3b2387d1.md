@@ -36,7 +36,7 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 자궁강 내 유착(Asherman 증후군)
+A. 자궁강 내 유착
 B. 자궁샘근육증
 C. 점막하 자궁근종
 D. 자궁내막 폴립

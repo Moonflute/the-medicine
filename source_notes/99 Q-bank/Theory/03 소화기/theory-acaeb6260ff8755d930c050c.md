@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "독성 정의와 알코올 선지의 중첩을 용량 의존·특이체질성 간손상 개념으로 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 아세트아미노펜 같은 용량 의존성 손상과 특이체질성 손상이 있으며 치료 용량도 모든 위험을 배제하지 않는다
-B. 모든 약물성 간손상은 과량 복용에서만 생긴다
-C. 특이체질성 손상은 모든 사람에게 같은 용량·잠복기로 발생한다
-D. 보충제·생약은 약물성 간손상 평가에서 제외한다
+A. 용량 의존성 독성과 특이체질성 손상이 있다
+B. 용량 의존성 손상만 있으므로 과량에서만 발생한다
+C. 특이체질성 손상은 동일 용량·잠복기를 보인다
+D. 보충제·생약은 원인 약제 평가에서 제외한다
 
 ## 해설
 

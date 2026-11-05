@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "입·출구 상처가 항상 있어야 한다는 오인 방지; 작은 피부손상과 깊은 손상 불일치 개념 강화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 피부 손상이 작거나 입·출구가 뚜렷하지 않아도 심부 조직 손상은 클 수 있다.
-B. 피부 병변이 작으면 심부 손상을 항상 배제한다.
-C. 모든 전기 손상에는 명확한 입구·출구가 필수다.
-D. 전기 손상은 피부에만 국한된다.
+A. 작은 피부 병변에도 심부 손상이 클 수 있다.
+B. 피부 화상 면적으로 심부 손상량을 추정한다.
+C. 출구 크기로 부정맥의 중증도를 추정한다.
+D. 피부 손상 깊이로 전류 경로를 결정한다.
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "부정확한 ECG 선지와 반복 정의를 증상 상관·가역 원인 평가에 따른 영구 pacing 결정이라는 중요 이론으로 개선했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-SND에서 영구 심박동기 치료를 결정하는 원칙은?
+가역 원인을 교정한 SND에서 영구 심박동기 필요성을 판단하는 핵심 근거는?
 
 ## 선택지
 
-A. 서맥/정지와 증상의 시간적 연관 및 약물·대사 등 가역 원인을 평가한다.
-B. 심박수가 한 번 낮으면 증상·원인과 무관하게 모두 삽입한다.
-C. 무증상 수면 중 서맥만으로 모든 경우 삽입한다.
-D. 정상 심박수가 한 번 기록되면 간헐적 SND는 배제된다.
+A. 증상과 서맥·동정지의 시간적 일치
+B. 안정 시 심박수 50회/분 미만의 단일 기록
+C. 증상 없는 수면 중 3초 동정지
+D. 무증상 운동선수의 안정 시 동서맥
 
 ## 해설
 

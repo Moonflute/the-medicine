@@ -27,21 +27,21 @@ curation_status: revised
 curation_reason: "모든 약물이 D2 차단을 공유한다는 오류를 D2 부분작용·무스카린 기전 등 다양성으로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-정신병적 증상 치료 약물의 작용 기전에 관한 설명으로 옳은 것은?
+정신병적 증상 치료제의 기전에 대한 옳은 설명은?
 
 ## 선택지
 
-A. D2 차단 약물이 많지만 부분작용·무스카린 기전 등도 있어 모두 동일한 직접 D2 차단으로 정의하지 않는다.
-B. 모든 약물은 반드시 같은 직접 D2 길항 기전만 갖는다.
-C. 모든 약물은 벤조디아제핀과 같은 GABA-A 작용만 한다.
-D. 모든 약물은 콜린에스터라제 억제만으로 작용한다.
+A. D2 차단 외 부분작용·무스카린 기전도 존재
+B. 모든 치료제가 직접 D2 길항만 공유
+C. 모든 치료제가 GABA-A 조절만 공유
+D. 모든 치료제가 콜린에스터라제 억제만 공유
 
 ## 해설
 

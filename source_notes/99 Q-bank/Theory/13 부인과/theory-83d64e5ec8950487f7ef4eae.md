@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "단일 원인균 감염이 아닌 질내 균총 불균형은 중요 개념 유지. 오답 문자 제거와 칸디다 명칭 오류 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 락토바실러스 감소와 혐기성 세균 증가에 따른 질내 미생물 불균형
-B. 트리코모나스 원충 감염에 의한 질염
-C. 칸디다 효모의 과증식에 의한 외음질염
-D. 저에스트로겐 상태에 따른 질 상피 위축
+A. 락토바실러스 감소·혐기성균 증가
+B. 트리코모나스 원충의 질내 감염
+C. 칸디다 효모 과증식
+D. 저에스트로겐의 질 상피 위축
 
 ## 해설
 

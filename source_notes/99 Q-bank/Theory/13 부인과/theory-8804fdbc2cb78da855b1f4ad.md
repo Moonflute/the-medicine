@@ -27,21 +27,21 @@ curation_status: revised
 curation_reason: "모든 PCOS에서 테스토스테론 상승과 LH/FSH 일정 방향을 요구하는 듯한 단정을 제거. 17-OHP를 프레그네놀론으로 잘못 쓴 선지를 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-PCOS에서 생화학적 고안드로겐증을 평가하는 검사에 관한 설명으로 옳은 것은?
+PCOS에서 생화학적 고안드로겐증을 직접 평가하는 대표적 검사는?
 
 ## 선택지
 
-A. 총·유리 테스토스테론을 평가하며 임상적 고안드로겐증과 함께 해석한다.
-B. LH/FSH 비 하나가 정상이라면 PCOS를 배제한다.
-C. 모든 PCOS 환자에서 반드시 테스토스테론이 증가해야 한다.
-D. 17-hydroxyprogesterone은 프레그네놀론과 같은 물질이다.
+A. 총·유리 테스토스테론
+B. LH/FSH 비
+C. 항뮬러관호르몬
+D. 17-hydroxyprogesterone
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "Anti-Ro가 항상 가장 민감하고 특이하다는 과도한 단정과 dsDNA는 전혀 관련 없다는 절대화를 제거."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 중요한 혈청학적 단서이며 분비선·안구 등 객관적 평가와 함께 해석한다.
-B. 양성이면 어떤 증상·검사 없이 항상 쇼그렌병을 확진한다.
-C. 다른 자가면역질환에서는 절대 양성이 될 수 없다.
-D. 음성이면 모든 쇼그렌병을 배제한다.
+A. 분비선·안구 객관적 소견과 통합한다
+B. 항체 양성만으로 쇼그렌병을 확진한다
+C. 음성으로 쇼그렌병을 배제한다
+D. 항체 역가만으로 분비선 기능을 정량한다
 
 ## 해설
 

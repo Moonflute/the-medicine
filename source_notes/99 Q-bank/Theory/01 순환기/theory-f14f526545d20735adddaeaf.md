@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "DCM의 비특이 심부전 증상 목록을 다른 2개 오연결 문항으로 누락된 핵심 확장·수축 장애 개념으로 개선했다."
@@ -36,10 +36,10 @@ DCM의 형태·기능 개념으로 가장 적절한 것은?
 
 ## 선택지
 
-A. 심실 확장과 수축기 기능 저하를 보이며 이를 충분히 설명하는 부하 조건·관상동맥질환 등을 평가한다.
-B. 심실벽 비후만 있고 수축 기능이 정상인 모든 상태이다.
-C. 심방만 확장된 모든 질환을 뜻한다.
-D. 고혈압이나 관상동맥질환이 조금이라도 있으면 유전성 심근병증은 불가능하다.
+A. 심실 확장과 수축기 기능 저하
+B. 심실벽 비후와 동적 유출로 폐쇄
+C. 양심방 확장과 제한적 심실 충만
+D. 우심실 국소 확장과 지방섬유 대치
 
 ## 해설
 

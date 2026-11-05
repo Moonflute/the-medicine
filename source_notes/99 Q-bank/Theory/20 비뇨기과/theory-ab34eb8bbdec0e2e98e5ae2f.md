@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "과도한 궤양 크기·50% 숫자 대신 통증성 궤양과 화농 림프절의 핵심 조합 유지."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 깊고 통증성인 성기 궤양과 압통성·화농성 서혜부 림프절병증이 동반될 수 있다.
-B. 전형적으로 무통성 경화성 궤양만 나타난다.
-C. 모든 경우 통증 없는 수포만 나타난다.
-D. 피부 병변 없이 전립샘 비대만 나타난다.
+A. 통증성 깊은 궤양·압통성 화농 림프절
+B. 무통성 경성 궤양·비압통성 림프절
+C. 군집 수포 뒤 다발성 통증성 얕은 궤양
+D. 잘 출혈하는 무통성 육아종성 궤양
 
 ## 해설
 

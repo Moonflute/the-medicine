@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "광범위 장기 목록만 반복한 정의를 베체트의 중요한 동맥·정맥/다양한 크기 혈관 침범 이론으로 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 다양한 크기의 동맥과 정맥을 침범할 수 있다.
-B. 정맥만 침범하고 동맥은 절대 침범하지 않는다.
-C. 큰 동맥 하나만 침범하는 질환으로 정의한다.
-D. 관절 연골에만 국한된다.
+A. 여러 크기의 동맥과 정맥
+B. 큰 동맥만
+C. 소동맥·모세혈관만
+D. 소정맥·모세혈관만
 
 ## 해설
 

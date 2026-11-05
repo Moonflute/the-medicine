@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "골절 사례의 단일 주사 우선과 모든 bisphosphonate eGFR≥30 안전 일반화를 순수 치료 원칙으로 교정."
@@ -34,14 +34,14 @@ related_drug_slugs:
 
 ## 문제
 
-폐경 후 골다공증의 약물 선택 원칙으로 옳은 것은?
+최근 골절 등으로 매우 높은 골절 위험인 폐경 후 골다공증에서 고려할 순차 치료는?
 
 ## 선택지
 
-A. 골절 위험과 최근 골절·동반 질환을 평가하며 매우 높은 위험에서는 골형성 치료 후 골흡수억제제 등 순차 전략을 고려한다
-B. 모든 최근 골절에서 특정 bisphosphonate 주사만이 유일한 초기 치료다
-C. 모든 bisphosphonate는 신장기능 경계값이 동일하다
-D. 고위험 골다공증도 칼슘·비타민 D 보충만으로 항상 충분하다
+A. 골형성 치료 후 골흡수억제제
+B. 골형성 치료 종료 후 무치료 관찰
+C. Denosumab 중단 후 무치료 관찰
+D. 칼슘·비타민 D만으로 장기 치료
 
 ## 해설
 

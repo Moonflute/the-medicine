@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "SVC target에 오연결된 고칼슘혈증 우선 항암치료 문항을 상체 정맥 환류 장애 기전으로 복원. 기존 급성 고칼슘혈증 치료를 지연시키는 설명 제거."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 상대정맥 폐쇄로 상체 정맥압이 높아지고 측부순환이 발달한다.
-B. 하지 동맥 폐쇄로 상체 동맥압이 직접 감소한다.
-C. 신동맥 협착으로 상체의 림프 생성이 멈춘다.
-D. 폐포 환기가 증가해 상체 정맥압이 낮아진다.
+A. 상체 정맥환류 저하·정맥압 상승
+B. 상체 동맥 폐쇄·말초 동맥압 감소
+C. 일차 림프관 폐쇄·정맥압 정상
+D. 폐동맥 폐쇄·폐정맥압 감소
 
 ## 해설
 

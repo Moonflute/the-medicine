@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "10% 이형성을 모든 MDS의 단독 필수 조건처럼 제시한 오류와 모세포만으로 AML을 일괄 구분한 설명을 교정했다."
@@ -36,10 +36,10 @@ MDS 진단에 대한 가장 적절한 원칙은?
 
 ## 선택지
 
-A. 지속 혈구감소, 형태학적 이형성·모세포·유전학을 통합하고 영양결핍·약물 등 모방 원인을 배제한다.
-B. 혈구계열의 이형성 10%만 보이면 영양 상태·약물·유전학과 무관하게 확진한다.
-C. 모든 MDS는 이형성이 없어도 혈구감소 하나만으로 확진한다.
-D. 골수 섬유화 유무 하나만으로 모든 MDS와 AML을 구분한다.
+A. 혈구감소·형태·유전학과 모방 원인 배제 통합
+B. 이형성 10%만으로 영양·약물과 무관하게 확진
+C. 혈구감소 한 가지로 모든 아형 확진
+D. 골수 섬유화만으로 MDS와 AML 구분
 
 ## 해설
 

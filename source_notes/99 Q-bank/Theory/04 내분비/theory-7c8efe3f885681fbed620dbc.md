@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "남성 성욕감소의 빈도 순위 대신 프로락틴 과다의 성선축 억제 기전으로 교정하여 남녀 증상 목록 반복을 줄임."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 시상하부-뇌하수체 성선축 억제에 따른 저성선자극성 성선기능저하
-B. LH와 FSH의 자율적 과다 분비
-C. 부신 알도스테론 결핍만으로 생기는 현상
-D. AVP 저항에 의한 수분 소실
+A. GnRH 억제 → LH/FSH 저하 → 성선기능저하
+B. GnRH 증가 → LH/FSH 증가 → 성선기능저하
+C. 성선의 일차 손상 → LH/FSH 증가
+D. 알도스테론 결핍 → 성선호르몬 합성 증가
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "간경변을 언제나 비가역·필연 진행으로 단정하지 않도록 구조 정의와 원인 치료 후 변화를 구별."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-간경변의 구조적 특징과 경과에 대한 설명으로 옳은 것은?
+간경변의 핵심적인 조직·구조적 특징은?
 
 ## 선택지
 
-A. 섬유화와 재생 결절·구조 왜곡이 핵심이며 원인 조절 후 일부 퇴행·재보상이 가능해도 위험이 즉시 모두 사라지는 것은 아니다
-B. 지방 축적만 있으면 섬유화와 무관하게 간경변이다
-C. 모든 간경변은 어떤 원인 치료에도 반드시 같은 속도로 악화한다
-D. 간수치가 정상화되면 문맥고혈압·HCC 위험 추적은 모두 불필요하다
+A. 섬유성 격막·재생 결절·소엽 구조 왜곡
+B. 지방 축적·풍선변성·섬유성 격막 부재
+C. 호중구 침윤·담즙전만 있고 재생 결절 부재
+D. 간세포 선종성 증식·정상 주변 소엽 구조
 
 ## 해설
 

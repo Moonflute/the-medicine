@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "발열 여부의 단순 나열에서 PID의 임상적 판단에 필요한 최소 압통 소견으로 목표를 명료화. 발열·영상·균검사 양성을 필수라고 오인하지 않도록 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-골반내 감염(PID)의 임상적 판단에 관한 설명으로 옳은 것은?
+성매개감염 위험이 있고 다른 원인으로 설명되지 않는 골반통에서, PID 경험적 치료의 최소 임상 기준에 해당하는 조합은?
 
 ## 선택지
 
-A. 발열이 없으면 PID를 배제한다.
-B. 영상에서 난관난소농양이 확인되어야만 PID를 의심한다.
-C. 임질 또는 클라미디아 검사 양성이 반드시 필요하다.
-D. 적절한 임상 상황에서 자궁경부 이동통·자궁 압통·부속기 압통 중 하나 이상이 최소 임상 기준에 해당한다.
+A. 발열·백혈구 증가·CRP 상승 모두
+B. 양성 임질·클라미디아 검사 모두
+C. 영상의 난관 비후·농양 모두
+D. 경부 이동통·자궁 압통·부속기 압통 중 하나
 
 ## 해설
 

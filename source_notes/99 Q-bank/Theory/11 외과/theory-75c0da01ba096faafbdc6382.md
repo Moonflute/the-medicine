@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "ABG만으로 CO 중독을 확인한다는 오인 방지를 위해 COHb 직접 측정 구분."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 혈액가스 분석과 혈액 co-oximetry의 COHb 측정
-B. 일반 2파장 맥박산소계만으로 CO 중독 배제
-C. 알부민 수치만 측정
-D. 혈소판 수치만으로 기도 손상 확진
+A. 혈액가스 분석 + co-oximetry
+B. 혈액가스 분석 + 일반 맥박산소계
+C. 일반 맥박산소계 + 흉부 단순촬영
+D. 흉부 단순촬영 + 폐기능검사
 
 ## 해설
 

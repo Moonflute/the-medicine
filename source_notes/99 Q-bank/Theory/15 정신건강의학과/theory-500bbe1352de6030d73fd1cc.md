@@ -27,7 +27,7 @@ curation_status: revised
 curation_reason: "답을 그대로 알려주는 줄기를 바꾸고 핵심을 정신증으로 부른 표현과 구토의 배타적 오답 해설을 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -38,10 +38,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 유의한 저체중에도 체중 증가를 두려워하거나 체중 증가를 방해하는 지속적 행동
-B. 체중과 무관하게 폭식 뒤 구토만 있으면 항상 진단
-C. 정상 체중을 유지하면 체중·체형 집착이 전혀 없음
-D. 체중 감소를 객관적으로 정확히 인식하고 아무런 섭취 제한도 없음
+A. 저체중에도 체중 증가 공포·체중 증가 방해
+B. 정상 체중에서 폭식·정기적 보상행동
+C. 폭식은 있으나 정기적 보상행동 없음
+D. 체형 걱정 없이 감각 혐오로 음식 회피
 
 ## 해설
 

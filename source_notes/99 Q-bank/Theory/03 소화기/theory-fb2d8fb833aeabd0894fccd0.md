@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 선암(adenocarcinoma)
-B. 선종(adenoma)
-C. 육종(sarcoma)
-D. 신경내분비 종양
+A. 선암
+B. 편평상피세포암
+C. 육종
+D. 신경내분비암
 
 ## 해설
 

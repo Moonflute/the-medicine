@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "태아 크기 감소를 진단 기준처럼 제시한 오류를 없애고 단회 조기 초음파의 한계를 묻는다."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 배아 크기와 검사 방법을 확인하고 필요하면 적절한 간격으로 재검한다
-B. 임신 주수에 비해 작으면 한 번의 검사로 유산을 확정한다
-C. 최종 월경일만으로 심박동이 보여야 할 시기를 확정한다
-D. 혈청 β-hCG 한 번의 측정만으로 임신 생존 여부를 확정한다
+A. 배아 크기·검사법을 확인하고 필요 시 재검
+B. 최종 월경일과 예상 주수만으로 판정
+C. 단회 hCG와 판별수치만으로 판정
+D. 임신낭의 위치만으로 생존 여부 판정
 
 ## 해설
 

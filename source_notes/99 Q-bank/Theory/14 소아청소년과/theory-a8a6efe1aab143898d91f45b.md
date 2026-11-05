@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "비타민 D 부족이 곧 모든 사람의 골질환이라는 정의를 기전·발생 가능성으로 명료화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 칼슘·인 대사와 골 무기질화에 장애를 일으켜 소아 구루병·성인 골연화증의 원인이 될 수 있음
-B. 비타민 K 의존 응고인자만 선택적으로 감소시킴
-C. 적혈구의 산화손상만 선택적으로 증가시킴
-D. 항상 고칼슘혈증을 일으킴
+A. 골 무기질화 장애·구루병·골연화증
+B. 골기질 콜라겐 합성 장애·잇몸 출혈
+C. 골흡수 증가·고칼슘혈증·신장결석
+D. 신경근 흥분 저하·고마그네슘혈증
 
 ## 해설
 

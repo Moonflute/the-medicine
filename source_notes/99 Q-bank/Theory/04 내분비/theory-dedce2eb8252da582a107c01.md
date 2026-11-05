@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "이상지질혈증을 망막병증 위험에서 제외한 오류를 2026 ADA 근거로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 유병기간·만성 고혈당·고혈압·신장질환·이상지질혈증 등이 관련되며 임신도 평가 맥락에 중요하다
-B. 이상지질혈증은 망막병증과 관련이 없어 지질 관리는 불필요하다
-C. 현재 시력이 정상이면 유병기간에 관계없이 선별을 중단한다
-D. 혈당만 정상이면 기존 망막병증의 모든 진행 위험이 즉시 사라진다
+A. 유병기간·만성 고혈당·고혈압·이상지질혈증
+B. 높은 안압·근시·장기간 자외선 노출
+C. 낮은 안압·각막 두께·눈물 분비량
+D. 홍채 색·난시 정도·콘택트렌즈 사용
 
 ## 해설
 

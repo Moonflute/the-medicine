@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "혈청군 D가 존재하지 않는다는 과도한 설명과 나열형을 중요한 캡슐 병독성 기전으로 전환."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 포식과 보체 매개 방어에 대한 저항을 돕는다.
-B. 숙주 세포의 TSH 수용체를 자극한다.
-C. 장내 선충 유충을 만든다.
-D. 항상 세균을 비병원성으로 만든다.
+A. 포식·보체 매개 제거 회피
+B. 호흡기 섬모 운동 직접 마비
+C. IgA 단백질의 효소적 분해
+D. 숙주 철의 특이적 흡수
 
 ## 해설
 

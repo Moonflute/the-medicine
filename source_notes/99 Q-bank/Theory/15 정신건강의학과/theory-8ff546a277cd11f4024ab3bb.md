@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "MCI와 구분되지 않던 단순 인지저하 정의에 일상 독립성 저하를 추가하고 기억영역 필수 오해를 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 인지저하 때문에 복잡한 일상활동 등의 독립적 수행에 도움이 필요함
-B. 기억저하가 조금이라도 있으면 기능과 무관하게 치매임
-C. 모든 인지영역이 동시에 저하되어야 함
-D. 급성으로 발생했으면 어떤 경우에도 주요 신경인지장애일 수 없음
+A. 인지저하로 일상활동 독립성이 방해됨
+B. 기능은 보존되나 주관적 건망증만 있음
+C. 정상 기능에서 일시적 스트레스성 산만함
+D. 인지검사 저하 없이 신체장애로만 도움 필요
 
 ## 해설
 

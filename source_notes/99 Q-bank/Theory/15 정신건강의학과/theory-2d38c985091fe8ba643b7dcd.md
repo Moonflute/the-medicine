@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "악몽과 RBD의 행동화 차이는 유의미한 개념 유지. 모든 움직임이 없다는 절대를 전형적 꿈 행동화와 구분."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-악몽과 REM수면 행동장애를 구분하는 가장 중요한 특징은?
+악몽과 달리 REM수면 행동장애를 지지하는 객관적 수면검사 특징은?
 
 ## 선택지
 
-A. 악몽만으로는 RBD처럼 REM 무긴장 소실에 따른 복잡한 꿈 행동화가 특징적이지 않다.
-B. 악몽은 언제나 깨어 있을 때 시각 환각만 보인다.
-C. RBD에서는 꿈을 절대 기억할 수 없다.
-D. 악몽과 RBD는 모두 반드시 같은 호흡 폐쇄로 발생한다.
+A. REM 무긴장 소실과 꿈 행동화
+B. REM 각성 뒤 불쾌한 꿈의 회상만
+C. N3 수면 중 부분 각성과 혼돈
+D. 상기도 폐쇄에 따른 반복적 저산소증
 
 ## 해설
 

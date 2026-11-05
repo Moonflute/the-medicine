@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "파행과 발기부전의 최다 순위를 묻는 문항을 대동맥-장골 유입부 병변의 국소화 개념으로 개선했다."
@@ -36,10 +36,10 @@ AIOD의 근위부 유입 병변을 시사하는 대표적인 허혈 패턴은?
 
 ## 선택지
 
-A. 엉덩이/넓적다리 파행과 넙다리 맥박 감소, 경우에 따라 발기부전
-B. 정맥성 피부 착색과 표재 정맥 돌출만
-C. 기립 시 혈압 감소만 있고 말초 관류는 항상 정상
-D. 손목 관절염과 대칭 손가락 부종만
+A. 둔부·넓적다리 파행과 넙다리 맥박 감소
+B. 정맥성 피부 착색과 표재정맥 확장
+C. 족부 감각 소실과 정상 말초 맥박
+D. 기립 시 저혈압과 전신 발한
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "NASH/MASH 확진에 섬유화가 반드시 필요하다는 중대한 오류를 교정."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-MASH(이전 NASH)의 조직학적 개념으로 옳은 것은?
+MASH의 핵심 조직학적 소견 조합은?
 
 ## 선택지
 
-A. 지방증에 간세포 풍선변성과 소엽 염증이 동반되며 섬유화는 있을 수 있지만 필수 정의 조건은 아니다
-B. 섬유화가 없으면 어떤 지방간염도 진단할 수 없다
-C. 단순 지방증만 있으면 염증 여부와 무관하게 모두 MASH다
-D. ALT가 높으면 조직학적 지방간염이 자동 확정된다
+A. 지방증·간세포 풍선변성·소엽 염증
+B. 지방증만 있고 풍선변성·염증 없음
+C. 섬유성 격막·재생 결절만 존재
+D. 계면간염·담관 소실만 존재
 
 ## 해설
 

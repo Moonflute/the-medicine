@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "정상 IQ를 단독 필수 조건처럼 요구하는 정의를 특정 학업의 지속 어려움과 다른 원인 감별로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 읽기·쓰기·수학의 지속적 학습 어려움을 평가하며 지적장애·감각 문제·교육 기회 등으로 더 잘 설명되는지 구분한다.
-B. IQ가 낮다는 사실 하나만으로 특정학습장애를 확진한다.
-C. 언어 지연이나 사회성 문제 하나만으로 확진한다.
-D. 과잉행동만 있으면 학업 수행 평가가 필요 없다.
+A. 읽기·쓰기·수학의 지속적 학업기술 습득 어려움
+B. 지적·적응 기능의 전반적 발달 제한
+C. 사회적 의사소통·반복 행동의 어려움
+D. 부주의·과잉행동·충동성 중심의 어려움
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "MRI 검사명만의 자명한 선택을 줄이고 해부학적 평가와 기능 평가의 역할을 분리."
@@ -38,10 +38,10 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 병변 크기·범위와 시신경교차 등 주변 구조 관계를 평가하지만 호르몬 기능 검사를 대체하지 않는다
-B. MRI만으로 모든 호르몬 분비 과다·결핍을 확정한다
-C. 미세샘종이면 호르몬 과다 분비는 불가능하다
-D. 거대샘종이면 크기에 관계없이 모든 전엽 기능이 정상이다
+A. 크기·범위·시신경교차 등 주변 관계 평가
+B. 영상만으로 분비 과다·결핍 정량 확정
+C. 작은 병변이라는 이유로 호르몬 검사 생략
+D. 큰 병변이라는 이유로 시야 평가 생략
 
 ## 해설
 

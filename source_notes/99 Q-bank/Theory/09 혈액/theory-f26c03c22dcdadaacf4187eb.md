@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "ITP를 항체에 의한 말초 파괴만으로 한정하던 정의에 혈소판 생산 장애를 포함."
@@ -36,10 +36,10 @@ ITP의 혈소판 감소 기전으로 적절한 것은?
 
 ## 선택지
 
-A. 면역성 혈소판 파괴 증가와 혈소판 생성 장애가 함께 관여할 수 있다.
-B. 혈소판 생산 과다만으로 발생한다.
-C. 비장에 저장되기만 하는 현상으로 모두 설명된다.
-D. 혈소판 수는 반드시 정상이고 기능만 저하된다.
+A. 면역성 파괴 증가·혈소판 생성 장애
+B. 전신 응고 활성화·혈소판 소모
+C. ADAMTS13 결핍·미세혈전 형성
+D. 비장 울혈·혈소판 격리
 
 ## 해설
 

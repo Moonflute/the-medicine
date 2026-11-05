@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "초음파 검사명만 고르는 자명한 문제를 검사 전 확률·D-dimer·압박 초음파의 통합 진단 이론으로 개선했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-의심 DVT의 진단 전략에 대한 올바른 설명은?
+하지 DVT의 검사 전 임상 확률이 높다. 초기 근위부 압박 초음파가 음성이지만 의심이 지속되면?
 
 ## 선택지
 
-A. 검사 전 임상 확률에 맞춰 고감도 D-dimer·압박/duplex 초음파를 사용하고, 높은 의심과 초기 음성 검사의 불일치를 재평가한다.
-B. D-dimer 양성만으로 DVT가 확진된다.
-C. D-dimer 음성이면 검사 전 확률·검사법과 관계없이 모든 DVT를 배제한다.
-D. 초기 근위부 초음파가 음성이면 높은 의심이 남아도 추가/반복 평가가 불필요하다.
+A. 전략에 따라 반복 또는 추가 초음파 평가
+B. 초기 음성을 근거로 DVT 평가 종료
+C. D-dimer 양성이면 영상 없이 DVT 확진
+D. 종아리 압통만으로 DVT 확진
 
 ## 해설
 

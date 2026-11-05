@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "구형적혈구·MCHC 증가를 가장 특이적 확진 소견으로 단정하지 않도록 진단 지지 소견과 한계를 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-유전구형적혈구증의 진단에 대한 올바른 설명은?
+유전구형적혈구증이 의심되지만 진단이 불확실할 때 적혈구막 평가에 사용할 검사는?
 
 ## 선택지
 
-A. 구형적혈구·MCHC 증가가 진단을 지지하나 가족력·용혈 소견과 필요 시 EMA 결합검사 등을 종합한다.
-B. 구형적혈구가 보이면 자가면역 용혈을 포함한 다른 원인은 모두 배제된다.
-C. MCHC가 정상이면 유전구형적혈구증은 절대 없다.
-D. 직접항글로불린검사 양성이 유전구형적혈구증의 필수 확진 조건이다.
+A. EMA 결합검사
+B. 직접항글로불린검사
+C. G6PD 활성도
+D. 혈색소 전기영동
 
 ## 해설
 

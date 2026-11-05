@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "수축 종료 후 30초 이상 최저점 유지라는 잘못된 기준을 제거하고 후기감속의 지연된 시간관계를 묻는다."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 최저점이 자궁수축 정점과 대체로 일치함
-B. 최저점이 수축 시작 전에만 나타남
-C. 심박수 감소·최저점·회복이 수축에 비해 지연되어 최저점이 수축 정점 뒤에 나타남
-D. 수축 종료 후 최저점이 반드시 30초 이상 유지되어야만 정의함
+A. 최저점이 수축 정점과 대체로 일치
+B. 수축과 관계없이 급격한 심박수 감소
+C. 점진적 감소의 최저점이 수축 정점 뒤
+D. 15 bpm 이상 감소가 2분 이상 지속
 
 ## 해설
 

@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "12개월 무월경 기준은 핵심 개념 유지. 다른 원인·호르몬 치료의 영향을 고려하는 자연 폐경으로 명시."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-다른 생리적·병적 원인이나 호르몬 약제의 영향이 없는 자연 폐경을 후향적으로 판단하는 기준은?
+다른 원인·약제 영향이 없는 자연 폐경은 마지막 월경 후 몇 개월의 무월경으로 후향적으로 판단하는가?
 
 ## 선택지
 
-A. 마지막 월경 후 12개월 무월경
-B. 에스트로겐 수치 감소
-C. 난소 고령
-D. FSH 상승
+A. 12개월
+B. 3개월
+C. 6개월
+D. 24개월
 
 ## 해설
 

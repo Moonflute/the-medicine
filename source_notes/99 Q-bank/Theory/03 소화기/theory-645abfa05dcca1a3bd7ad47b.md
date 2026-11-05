@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. ALP·GGT와 직접 빌리루빈 상승
-B. AST·ALT의 단독 상승이 지속되고 ALP·GGT는 정상
-C. 비결합 빌리루빈만 상승
-D. 리파아제만 상승
+A. ALP·GGT·직접 빌리루빈 상승
+B. AST·ALT 단독 상승과 정상 ALP
+C. 비결합 빌리루빈 단독 상승
+D. 리파아제 단독 상승
 
 ## 해설
 

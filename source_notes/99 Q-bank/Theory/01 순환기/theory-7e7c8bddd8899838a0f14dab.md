@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "우심실 수축기 우심방 역류는 TR의 주기·혈류 기전이라는 의미 있는 기초 복습으로 유지한다."
@@ -32,14 +32,14 @@ review_status: machine-generated
 
 ## 문제
 
-삼첨판막 역류의 정의는 무엇인가?
+삼첨판막 역류에서 혈액이 역류하는 시기와 방향은?
 
 ## 선택지
 
-A. 우심실 수축 시 삼첨판이 완전히 닫히지 않아 혈액이 우심방으로 역류하는 상태
-B. 좌심실 수축 시 승모판이 닫히지 않아 혈액이 좌심방으로 역류하는 상태
-C. 폐동맥이 좁아져 혈액이 폐동맥으로 역류하는 상태
-D. 대동맥 판막이 닫히지 않아 혈액이 대동맥으로 역류하는 상태
+A. 수축기: 우심실 → 우심방
+B. 이완기: 우심방 → 우심실
+C. 수축기: 좌심실 → 좌심방
+D. 이완기: 폐동맥 → 우심실
 
 ## 해설
 

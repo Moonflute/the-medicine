@@ -38,10 +38,10 @@ Amoxicillin이 세균을 사멸시키는 기전은?
 
 ## 선택지
 
-A. penicillin‑binding protein에 결합해 세포벽 가교 형성을 방해한다
-B. 30S 리보솜에 결합해 단백질 합성을 억제한다
-C. DNA gyrase를 억제한다
-D. 세포막 투과성을 증가시킨다
+A. PBP 결합·세포벽 교차결합 억제
+B. 30S 결합·단백질 합성 억제
+C. DNA gyrase 억제·DNA 복제 차단
+D. 세균막 결합·막 투과성 교란
 
 ## 해설
 

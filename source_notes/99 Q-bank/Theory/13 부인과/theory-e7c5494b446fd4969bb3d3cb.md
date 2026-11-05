@@ -35,10 +35,10 @@ medical_review_status: curriculum-reviewed
 
 ## 선택지
 
-A. 골반 진찰 및 질경 검사
-B. 복부 CT 스캔
-C. 혈액 일반 검사
-D. 심전도
+A. 골반 진찰과 POP-Q 평가
+B. 골반 CT
+C. 골반 MRI
+D. 요역동학검사
 
 ## 해설
 

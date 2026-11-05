@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "경미 급성 HBV 사례를 이론으로 전환하고 중증·지연 경과에서 항바이러스/전문 평가를 구분."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 합병증 없는 경미한 경우는 지지요법·추적이 기본이며 중증·지연 경과나 간부전에서는 항바이러스제·전문 평가를 고려한다
-B. 모든 급성 HBV에 같은 항바이러스제를 무조건 투여한다
-C. 간기능 저하·뇌증이 생겨도 자연 회복만 기다린다
-D. 모든 경우 고용량 스테로이드가 표준 원인 치료다
+A. 경증은 지지·추적, 중증·간부전은 항바이러스 검토
+B. 경증은 항바이러스, 간부전은 지지요법만 유지
+C. 중증도와 무관하게 고용량 스테로이드 우선
+D. 중증도와 무관하게 장기 interferon 유지
 
 ## 해설
 

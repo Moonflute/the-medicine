@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "VFSS를 모든 경우 가장 권장되는 유일 검사처럼 표현한 설명을 FEES와의 상보적 역할로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. VFSS와 FEES는 주요 검사이며 평가 목표·상태·접근성을 고려해 선택한다
-B. VFSS만 유효하고 FEES는 연하 평가에 쓰지 않는다
-C. 식도내압검사만으로 구인두 흡인 위험을 모두 평가한다
-D. 내시경에서 식도가 정상이면 흡인 위험은 배제된다
+A. VFSS·FEES
+B. 식도 내압·24시간 pH 검사
+C. 위내시경·바륨 식도조영
+D. 일반 후두경·경부 CT
 
 ## 해설
 

@@ -38,10 +38,10 @@ Caspofungin의 항진균 작용 기전은 무엇입니까?
 
 ## 선택지
 
-A. (1,3)-β-D-glucan 합성을 억제한다.
-B. DNA gyrase를 억제한다.
-C. 세포막 탈분극을 유도한다.
-D. 바이러스 thymidine kinase에 의해 인산화된다.
+A. β-1,3-glucan 합성 억제
+B. Lanosterol 14-α-demethylase 억제
+C. Squalene epoxidase 억제
+D. β-tubulin 결합·미세소관 억제
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "가금류와 생우유가 모두 위험 노출인데 모호하게 경쟁시킨 구조를 노출 묶음으로 개선."
@@ -36,10 +36,10 @@ Campylobacter 감염 위험과 관련된 대표적인 식품 노출 조합은?
 
 ## 선택지
 
-A. 덜 익힌 가금류와 비살균 우유
-B. 완전히 익힌 가금류와 적절히 살균한 우유
-C. 멸균 포장수만
-D. 밀봉된 통조림의 바깥 라벨 접촉만
+A. 덜 익힌 가금류·비살균 우유
+B. 날 민물고기·민물 게
+C. 날 바다 생선·오징어
+D. 발효 어류·밀봉 통조림
 
 ## 해설
 

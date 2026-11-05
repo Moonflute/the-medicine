@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "저알부민만의 삼투압 설명에 치우치지 않고 내장 혈관확장·유효 동맥혈량·Na 저류 기전을 명시."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 문맥고혈압과 내장 혈관확장으로 유효 동맥혈량이 감소하고 신장 나트륨·수분 저류가 촉진된다
-B. 총 체액량이 늘면 유효 동맥혈량도 항상 충분해 RAAS가 억제된다
-C. 저알부민만으로 모든 간경변 복수의 발생·중증도를 설명한다
-D. 문맥압은 복수 발생과 무관하다
+A. 유효 동맥혈량 감소 → RAAS 활성화 → Na·수분 저류
+B. 유효 동맥혈량 증가 → RAAS 억제 → Na·수분 저류
+C. 문맥압 감소 → RAAS 활성화 → Na·수분 소실
+D. 문맥압 증가 → RAAS 억제 → Na·수분 소실
 
 ## 해설
 

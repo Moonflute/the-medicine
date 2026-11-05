@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "자궁 기형을 모두 융합 실패로 한정하지 않고 형성·융합·중격 흡수의 여러 발생 단계로 명료화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 뮬러관 형성·융합·중격 흡수 과정의 이상
-B. 성인기 자궁근층의 섬유화만으로 발생
-C. 성인기 에스트로겐 과다만으로 발생
-D. 후천적 골반 감염만으로 발생
+A. 뮬러관 형성·융합·중격 흡수의 이상
+B. 자궁내막 기저층의 후천적 유착
+C. 자궁근층 평활근의 양성 종양성 증식
+D. 자궁내막의 비길항 에스트로겐 자극
 
 ## 해설
 

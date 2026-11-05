@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "산후 출혈과 물렁한 자궁의 연결은 출혈 원인 감별에 중요."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 분만 후 질 출혈과 물렁하고 커진 자궁
-B. 분만 후 고열과 복통
-C. 분만 중 자궁 경련
-D. 분만 후 혈압 상승
+A. 물렁하고 커진 자궁과 출혈
+B. 단단히 수축한 자궁과 열상 출혈
+C. 만져지지 않는 자궁저부와 질 내 종괴
+D. 아픈 긴장성 자궁과 태반 박리
 
 ## 해설
 

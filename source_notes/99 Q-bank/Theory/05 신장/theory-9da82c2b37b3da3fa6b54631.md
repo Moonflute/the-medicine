@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 원위곡세뇨관 Na-Cl 공동수송체(NCC) 기능 저하
+A. 원위곡세뇨관 NCC 기능 저하
 B. 집합관 ENaC 기능 증가
-C. 근위세뇨관 SGLT2 기능 증가
-D. 집합관 AQP2 기능 증가
+C. 굵은 상행각 NKCC2 기능 저하
+D. 집합관 AQP2 기능 저하
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "말초신경병증을 E 결핍과 무관하게 설명한 오류 및 과도한 증상 나열을 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 말초신경병증·운동실조·근병증 및 빈혈
-B. 구루병과 뼈 무기질화 장애만
-C. 비타민 K 의존 응고인자의 활성 저하만
-D. 갑상선호르몬 과다에 의한 빈맥만
+A. 말초신경병증·운동실조·용혈성 빈혈
+B. 구루병·두개골 연화·늑골 염주
+C. 점막 출혈·모낭 주위 출혈·잇몸 변화
+D. 야맹증·결막 건조·비토반점
 
 ## 해설
 

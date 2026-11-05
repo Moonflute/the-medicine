@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "TVUS·CA125를 무증상 평균위험군의 권장 선별로 오인시키는 중요 오류 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-무증상 평균위험군에서 난소암 선별검사에 관한 설명으로 옳은 것은?
+무증상 평균위험군의 난소암 일률 선별에 대한 권고는?
 
 ## 선택지
 
-A. TVUS와 CA-125를 이용한 일률 선별은 난소암 사망 감소가 입증되지 않아 권장되지 않는다.
-B. TVUS를 정기 시행하면 난소암 사망을 확실히 줄인다.
-C. CA-125 정상 결과는 난소암을 완전히 배제한다.
-D. PET-CT를 모든 평균위험군의 일차 선별로 시행한다.
+A. 사망 감소 근거가 없어 권장하지 않음
+B. 매년 CA-125 단독 선별
+C. 매년 경질 초음파 단독 선별
+D. 매년 CA-125·경질 초음파 병합 선별
 
 ## 해설
 

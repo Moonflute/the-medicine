@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "황시증을 자명한 시각 선지와 비교하는 세부 퀴즈를 좁은 치료역·신기능/전해질·농도의 통합 독성 해석으로 개선했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-Digoxin 독성 평가에 대한 올바른 설명은?
+Digoxin 축적 위험과 용량 조절에서 특히 중요한 장기기능은?
 
 ## 선택지
 
-A. 위장관·시각·부정맥 소견과 신기능·전해질·상호작용·채혈 시점/농도를 함께 해석한다.
-B. 혈중 농도가 일반 참고범위 안이면 독성은 완전히 배제된다.
-C. 황시증이 없으면 독성은 없다.
-D. 신기능 저하나 저칼륨/저마그네슘은 독성 감수성과 무관하다.
+A. 신기능
+B. 간기능
+C. 폐기능
+D. 골수기능
 
 ## 해설
 

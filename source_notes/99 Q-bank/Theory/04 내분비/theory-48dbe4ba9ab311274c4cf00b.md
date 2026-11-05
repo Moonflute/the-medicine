@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "여러 증상 목록과 비특이 부종 설명을 신경근·심장 흥분성의 의미 있는 방향 개념으로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 감각 이상·테타니 같은 신경근 과흥분과 QT 연장이 나타날 수 있다
-B. 근육 흥분성이 감소하며 QT는 일관되게 단축된다
-C. 항상 부종·고혈압만 있고 신경근 증상은 없다
-D. 칼슘 변화는 심장 재분극에 영향을 주지 않는다
+A. 감각 이상·테타니·QT 연장
+B. 근긴장 저하·변비·QT 단축
+C. 진전·심계항진·QT 단축
+D. 근위부 위약·자색 선조·정상 칼슘
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "검사 우열의 일반화 대신 생검이 확인하는 중요한 조직학적 개념을 묻도록 개선."
@@ -36,10 +36,10 @@ SJS/TEN에서 피부 생검이 뒷받침할 수 있는 조직학적 소견은?
 
 ## 선택지
 
-A. 광범위한 각질형성세포 사멸과 전층 표피괴사
-B. 진피 내 세균 농양만
-C. 표피 변화 없는 순수 지방 괴사
-D. 적혈구 내 기생충
+A. 각질형성세포 사멸·전층 표피괴사
+B. 각질층 아래의 호중구성 농포
+C. 표피 해면화와 소수포
+D. 기저층 위 가시세포분리
 
 ## 해설
 

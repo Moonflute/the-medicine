@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "담관암 제외의 자명한 단계 퀴즈를 금주·알코올 사용장애 통합 관리 원칙으로 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 간질환 평가와 지속적 금주·알코올 사용장애 치료를 통합하며 영양·동반 질환도 관리한다
-B. 간효소가 정상화되면 음주 재개는 전원 안전하다
-C. 알코올 사용장애는 간 예후와 무관해 제외한다
-D. 진행 간질환이면 금주 이득은 전혀 없다
+A. 지속적 금주·알코올 사용장애 치료와 간질환 관리
+B. 간효소 정상화 뒤 이전 음주량으로 복귀
+C. 금주 없이 비타민 보충만으로 원인 치료
+D. 진행 간질환에서는 금주 상담을 제외
 
 ## 해설
 

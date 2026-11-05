@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "자궁샘근육증을 자궁근종의 동의어로 쓴 오류를 제거하고 의미 있는 신체 소견을 보존."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 자궁이 커지고 압통이 동반된 'boggy' 느낌
-B. 자궁이 작고 경직된 느낌
-C. 난소에 초콜릿 낭종이 동반
-D. 골반 내 압통만 존재
+A. 미만성으로 커지고 압통이 있는 자궁
+B. 불규칙한 결절과 단단한 자궁
+C. 정상 크기이나 후굴 고정된 자궁
+D. 작고 압통이 없는 자궁
 
 ## 해설
 

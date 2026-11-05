@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "echo가 HCM 단독 핵심이고 비대칭 중격/LVOT 폐쇄가 항상 진단 소견이라는 오해를 echo·CMR 역할로 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-HCM의 영상 평가에 대한 올바른 설명은?
+HCM에서 비대 형태가 불명확하거나 심근 흉터를 추가 평가할 때 유용한 보완 영상은?
 
 ## 선택지
 
-A. Echo로 비대 형태·기능·안정/유발 LVOT 구배를 평가하고 CMR은 불명확한 형태·감별·흉터 등 보완 정보를 제공한다.
-B. 모든 HCM은 비대칭 중격 비후와 안정 시 LVOT 폐쇄가 필수이다.
-C. Echo에서 뚜렷하지 않으면 심첨부 등 다른 형태도 완전히 배제된다.
-D. 유전자 음성이면 영상상 HCM도 배제된다.
+A. 심장 MRI
+B. 단순 흉부촬영
+C. 심근 관류 SPECT 단독
+D. 비조영 관상동맥 석회화 CT
 
 ## 해설
 

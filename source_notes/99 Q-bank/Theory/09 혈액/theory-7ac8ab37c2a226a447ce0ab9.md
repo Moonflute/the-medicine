@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "모든 PMF가 이미 뚜렷한 섬유화가 있다는 단순 정의를 pre-fibrotic 단계가 존재하는 클론성 MPN 개념으로 교정했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 클론성 MPN으로 초기 prefibrotic 단계가 있으며 진행된 섬유화 단계에서는 정상 조혈 저하와 골수 외 조혈이 나타날 수 있다.
-B. 진단 시 모든 경우에서 심한 골수 섬유화가 필수이다.
-C. 골수 섬유화는 원인과 관계없이 모두 원발골수섬유증이다.
-D. 적혈구 수 증가만으로 정의되며 거핵세포 이상은 무관하다.
+A. 명백한 섬유화 전 prefibrotic 단계가 있다
+B. 진단 때 심한 섬유화가 필수이다
+C. 원인과 무관한 모든 골수 섬유화를 뜻한다
+D. 거핵세포 이상과 무관한 적혈구 증가만을 뜻한다
 
 ## 해설
 

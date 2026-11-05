@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "모든 HSV 각막염을 상피궤양으로 일반화하지 않도록 상피형에 한정하고 고유 패턴 유지."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ HSV 상피각막염의 대표적인 각막 병변은?
 
 ## 선택지
 
-A. 가지 모양(dendritic) 또는 지도 모양(geographic) 각막 궤양
-B. 백색 반점이 군집된 점상 각막 혼탁
-C. 혈관 신생이 동반된 각막 혼탁
-D. 각막 전반에 걸친 고형 물질 침전
+A. 가지 모양의 각막 상피 궤양
+B. 거친 점상 상피 미란
+C. 주변부 기질 침윤·각막 얇아짐
+D. 고리 모양 기질 침윤
 
 ## 해설
 

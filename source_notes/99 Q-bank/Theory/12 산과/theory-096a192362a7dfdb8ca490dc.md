@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "단태·중기·경질 측정 조건을 명시하고 모든 조산 예측을 단일 길이로 확정하지 않음."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 표준 경질초음파 경부길이 ≤25 mm
-B. 경부길이 ≥35 mm만
-C. 복부촉진만으로 확인한 짧은 경부
-D. 태아 추정체중 2500g 미만
+A. 경질초음파 경부길이 ≤25 mm
+B. 경질초음파 경부길이 ≤15 mm
+C. 복부초음파 경부길이 ≤30 mm
+D. 복부초음파 경부길이 ≤20 mm
 
 ## 해설
 

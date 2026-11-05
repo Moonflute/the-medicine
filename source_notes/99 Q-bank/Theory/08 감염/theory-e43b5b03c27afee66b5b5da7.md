@@ -34,14 +34,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Ciprofloxacin은 세균의 어떤 효소를 억제하여 DNA 복제를 차단합니까?
+Ciprofloxacin이 억제하는 세균 효소의 분류는?
 
 ## 선택지
 
-A. DNA gyrase 및 topoisomerase IV
-B. β‑lactamase
-C. JAK
-D. TNF‑α
+A. II형 topoisomerase
+B. RNA polymerase
+C. Transpeptidase
+D. Folate 환원효소
 
 ## 해설
 

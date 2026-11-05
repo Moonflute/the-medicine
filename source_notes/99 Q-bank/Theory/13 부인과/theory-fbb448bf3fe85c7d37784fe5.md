@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "IVIN 오기를 VaIN으로 수정하고 조직 진단이라는 독립 개념 유지. 혈액형 등 자명한 오답을 관련 검사로 교체."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -37,9 +37,9 @@ wrong_notes_review_status: reviewed
 ## 선택지
 
 A. 질 병변 생검
-B. 혈청 HPV 항체검사
-C. 초음파만으로 상피 이형성 판정
-D. MRI만으로 세포 이형성 확진
+B. 질 세포진
+C. 확대경 관찰
+D. 아세트산 도포 관찰
 
 ## 해설
 

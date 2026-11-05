@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "통증의 흔함만 묻는 자명한 선지를 척수압박의 신경학적 경고 개념으로 전환; 괄약근장애가 항상 늦는다는 암기 방지."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 새 근력저하·보행장애·감각 변화 또는 배뇨·배변장애
-B. 통증 강도가 낮다는 사실만
-C. 압통이 없다는 사실만
-D. 발열이 없다는 사실만
+A. 새 근력저하·보행장애·감각/괄약근 이상
+B. 국소 압통만 있고 신경학적 이상 없음
+C. 만성 통증만 있고 정상 근력·보행
+D. 가벼운 통증만 있고 안정된 감각·배뇨
 
 ## 해설
 

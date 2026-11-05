@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "PTSD의 네 증상군과 기간을 남기되 다른 진단명을 적은 참인 설명 선택지를 개선."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-PTSD의 핵심 진단 개념을 가장 잘 설명한 것은?
+외상 후 침습·회피·인지 및 기분 변화·각성 증상이 있는 PTSD의 지속기간 기준은?
 
 ## 선택지
 
-A. 외상 후 침습·회피·인지 및 기분의 부정적 변화·각성 증상이 1개월을 초과하여 지속되고 고통이나 기능장애를 일으킴
-B. 외상 후 3일~1개월 동안의 증상만으로 장기 경과와 무관하게 PTSD가 확정됨
-C. 외상이 없어도 어떤 일상적 걱정이든 6개월 지속되면 PTSD임
-D. 외상 후 검사 수치 하나만으로 증상과 무관하게 확진함
+A. 1개월 초과
+B. 3일 미만
+C. 3일~1개월
+D. 6개월이 지난 뒤 발병해야 함
 
 ## 해설
 

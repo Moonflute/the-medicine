@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "1–3 mm라는 단일 크기 수치 암기를 체온상승·발한과 관련된 독립 유발성 개념으로 전환."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 운동·뜨거운 목욕 등 체온상승과 발한에 연관된 작은 팽진
-B. 한랭 자극 부위에만 발생
-C. 지속 압박 수시간 뒤 깊은 부종만 발생
-D. 피부를 긁은 선을 따라 생기는 팽진만 발생
+A. 체온 상승·발한 후 작은 팽진
+B. 한랭 자극 부위의 팽진
+C. 지속 압박 수시간 뒤 깊은 부종
+D. 긁은 선을 따라 생기는 팽진
 
 ## 해설
 

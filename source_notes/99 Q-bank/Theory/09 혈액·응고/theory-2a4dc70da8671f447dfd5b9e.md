@@ -39,10 +39,10 @@ Fondaparinux는 어떤 물질에 선택적으로 결합하여 어떤 응고인�
 
 ## 선택지
 
-A. Antithrombin III에 결합, Factor Xa 억제
-B. Heparin에 결합, Thrombin 억제
-C. Protein C에 결합, Factor VII 억제
-D. Platelet GP IIb/IIIa에 결합, ADP 억제
+A. Antithrombin 매개 Xa 억제
+B. Antithrombin 매개 IIa 억제
+C. 직접 Xa 억제
+D. 직접 IIa 억제
 
 ## 해설
 

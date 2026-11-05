@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "음식알레르기 전체의 시간으로 일반화한 질문을 흔한 IgE 즉시형으로 한정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 섭취 후 보통 수분~2시간 이내
-B. 반드시 24~48시간 후
-C. 반드시 1주 후
-D. 섭취 시점과 전혀 무관
+A. 수분–2시간
+B. 6–12시간
+C. 24–48시간
+D. 1–2주
 
 ## 해설
 

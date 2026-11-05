@@ -32,14 +32,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-칸디다 식도염의 치료 원칙은?
+칸디다 식도염의 통상적인 1차 경구 전신 항진균제는?
 
 ## 선택지
 
-A. 일반적으로 fluconazole 등 전신 항진균 치료가 필요하다
-B. 구강 nystatin 가글만으로 모든 식도 병변을 치료한다
-C. PPI만으로 진균을 제거한다
-D. 면역저하가 있으면 항진균제 대신 항바이러스제를 쓴다
+A. Fluconazole
+B. Nystatin
+C. Griseofulvin
+D. Terbinafine
 
 ## 해설
 

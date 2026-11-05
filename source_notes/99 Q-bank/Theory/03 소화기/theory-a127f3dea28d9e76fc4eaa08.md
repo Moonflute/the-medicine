@@ -34,14 +34,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Ondansetron이 구토를 억제하는 기전은 무엇입니까?
+Ondansetron의 항구토 작용을 설명하는 수용체 차단은?
 
 ## 선택지
 
-A. 중추 및 말초 5‑HT3 수용체 선택적 차단
-B. 말초 도파민 수용체 차단
-C. 중추 히스타민 H1 차단
-D. 위장관 평활근 수축 촉진
+A. 5-HT₃ 길항
+B. D₂ 길항
+C. H₁ 길항
+D. M₃ 길항
 
 ## 해설
 

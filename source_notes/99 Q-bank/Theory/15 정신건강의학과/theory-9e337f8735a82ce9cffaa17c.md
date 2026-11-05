@@ -28,7 +28,7 @@ curation_status: revised
 curation_reason: "용량·순응도 정보가 없는 사례에서 다른 계열 교체를 무조건 우선한 오류를 순수 이론의 불충분 반응 평가 원리로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -39,10 +39,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 반응이 없으면 현재 용량과 복약 여부를 확인하지 않고 최대 용량으로 올린다.
-B. 모든 환자는 반드시 같은 계열 약제로만 교체한다.
-C. 복약·용량·기간·진단과 부작용을 재평가한 뒤 조정·교체·병합 등 선택지를 논의한다.
-D. 치료 4주 후면 모든 환자에게 동일한 증강제를 즉시 추가한다.
+A. 복약 확인 없이 최대 용량으로 증량
+B. 반응과 무관하게 같은 계열로만 교체
+C. 진단·복약·용량·기간 재평가 후 치료 조정
+D. 기간과 무관하게 동일 증강제 일률 추가
 
 ## 해설
 

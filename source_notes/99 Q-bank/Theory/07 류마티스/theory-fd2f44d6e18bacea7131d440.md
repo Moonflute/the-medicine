@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "근위부에 하지가 포함되는데 하지가 초기 부위가 아니라 한 오답 설명을 제거."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 대칭성 어깨띠·골반띠 등 근위부
-B. 한쪽 손가락 끝에만 국한
-C. 안검하수·복시만으로 정의
-D. 감각신경 분절을 따라 감각 저하만
+A. 대칭성 어깨띠·골반띠 근위부 약화
+B. 대칭성 발·손의 원위부 약화
+C. 비대칭 손가락 굴곡근·무릎 폄근 약화
+D. 변동성 안검하수·복시·피로성 약화
 
 ## 해설
 

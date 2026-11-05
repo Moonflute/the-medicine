@@ -36,9 +36,9 @@ medical_review_status: curriculum-reviewed
 ## 선택지
 
 A. 골반 초음파
-B. 전산화 단층촬영(CT)
-C. 양전자 방출 단층촬영(PET)
-D. 복부 X‑ray
+B. 골반 MRI
+C. 골반 CT
+D. 자궁경검사
 
 ## 해설
 

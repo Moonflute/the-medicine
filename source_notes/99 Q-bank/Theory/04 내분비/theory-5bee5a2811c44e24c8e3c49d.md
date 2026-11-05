@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "항진증과 갑상샘중독증을 혼용하지 않도록 새 합성 증가와 호르몬 과잉 상태를 구별."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 기능항진증은 갑상샘의 호르몬 생산·분비 증가이며 중독증은 파괴성 방출·외인성 노출 등도 포함하는 과잉 상태다
-B. 모든 갑상샘중독증은 갑상샘의 새 호르몬 합성 증가를 뜻한다
-C. 파괴성 갑상샘염에서는 저장 호르몬 방출로 중독증이 생길 수 없다
-D. 갑상샘중독증은 TSH가 항상 증가하는 상태다
+A. 중독증은 파괴성 방출·외인성 노출도 포함한다
+B. 중독증은 새 호르몬 합성 증가만 뜻한다
+C. 파괴성 갑상샘염은 중독증을 일으키지 않는다
+D. 기능항진증은 TSH 상승이 필수이다
 
 ## 해설
 

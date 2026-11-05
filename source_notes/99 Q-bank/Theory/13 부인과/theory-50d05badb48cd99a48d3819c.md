@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "프로게스틴 단독제까지 일반화하지 않도록 복합 경구피임약으로 범위를 명시하고 혈압·흡연 위험평가와 불필요한 일률 검사를 구분."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-건강한 성인에서 복합 경구피임약 시작 전 안전성 평가에 적절한 것은?
+건강한 성인에서 복합 경구피임약 시작 전 반드시 확인해야 하는 신체 측정 항목은?
 
 ## 선택지
 
-A. 혈압을 측정하고 나이·흡연력 등 심혈관 위험을 확인한다.
-B. 모든 사람에게 혈당과 지질 검사를 필수로 시행한다.
-C. 체중을 측정할 수 없으면 피임약을 사용할 수 없다.
-D. 골반 진찰과 자궁경부 세포검사가 완료되어야 시작할 수 있다.
+A. 혈압
+B. 키
+C. 체중
+D. 허리둘레
 
 ## 해설
 

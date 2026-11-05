@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "과신전인데 턱이 가슴에 근접한다는 해부 모순을 교정하고 촉진 표지와 통합."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 목이 과신전되어 안와·코·입·턱이 선진부에서 확인될 수 있다.
-B. 턱이 가슴에 닿도록 완전 굴곡되어 뒤통수가 선진한다.
-C. 엉덩이가 선진하고 머리는 자궁저부에 있다.
-D. 장축이 모체와 직각이고 어깨가 선진한다.
+A. 목 과신전, 얼굴·턱 선진
+B. 머리 완전 굴곡, 뒤통수 선진
+C. 목 부분 신전, 이마 선진
+D. 머리 가벼운 신전, 큰숫구멍 선진
 
 ## 해설
 

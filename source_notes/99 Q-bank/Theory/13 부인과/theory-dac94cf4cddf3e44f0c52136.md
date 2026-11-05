@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "대표 외형 소견은 기초 인지로 유지하되 특정 소견이 반드시 존재하거나 다른 이상이 불가능한 듯한 오답 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 익상경과 넓은 가슴·유두
-B. 고관절 탈구
-C. 다모증
-D. 거대심장
+A. 익상경·넓은 가슴·벌어진 유두
+B. 장신·긴 사지·관절 이완
+C. 다모증·여드름·음핵 비대
+D. 대두·넓은 손발·거친 얼굴
 
 ## 해설
 

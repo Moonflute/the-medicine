@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "사용 조절과 기능영향이라는 중요한 질환 정의 유지. 오답 문자 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,14 +36,14 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 알코올 섭취에 대한 조절 능력을 상실하고 신체·정신·사회 기능에 부정적 영향을 미치는 만성 질환
-B. 알코올 섭취에 대한 내성이 증가하여 동일량으로는 효과가 감소하는 현상
-C. 알코올 섭취 후 급성 중독으로 의식 혼미와 호흡 억제가 나타나는 상태
-D. 알코올과 무관하게 사회적 스트레스로 인한 우울증
+A. 조절 실패·유해 결과에도 지속 사용
+B. 같은 양의 효과가 감소하는 내성만
+C. 급성 섭취 뒤 의식저하·호흡억제
+D. 감량 뒤 자율신경 항진·경련
 
 ## 해설
 
-AUD는 알코올 섭취 조절 상실이 지속되어 신체·정신·사회 기능에 부정적 영향을 주는 만성 질환이다.
+알코올 사용장애는 문제적인 사용 양상이 고통이나 기능 손상을 일으키는 상태로, 사용 조절 실패·유해한 결과에도 지속되는 사용 등을 종합해 평가한다. 내성·급성 중독·금단 하나와 같은 뜻은 아니다.
 
 ## 오답 포인트
 

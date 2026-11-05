@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. IVIG 또는 혈장교환을 사용하며 스테로이드 단독은 표준 유효 치료가 아니다
-B. 경구 스테로이드만이 일차 치료다
-C. IVIG와 혈장교환을 모든 환자에서 항상 연속 병용한다
-D. 호흡 약화가 있으면 면역치료와 감시는 필요 없다
+A. IVIG 또는 혈장교환
+B. 경구 스테로이드 단독
+C. Rituximab 단독
+D. Cyclophosphamide 단독
 
 ## 해설
 

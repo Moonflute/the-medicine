@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "특정 각도 하나를 정의로 단정하고 위십이지장 협착을 역류 원인으로 연결한 해설을 제거."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 대동맥과 SMA 사이에서 제3십이지장이 압박되어 통과 장애가 생긴다
-B. SMA의 혈전이 모든 환자에서 장 경색을 일으킨다
-C. 위식도접합부의 이완 장애이다
-D. 대장 내 염증이 위산 분비를 억제한다
+A. 대동맥–SMA 사이 제3십이지장 압박
+B. 대동맥–SMA 사이 좌신정맥 압박
+C. 정중궁상인대에 의한 복강동맥 압박
+D. 장골동맥에 의한 좌장골정맥 압박
 
 ## 해설
 

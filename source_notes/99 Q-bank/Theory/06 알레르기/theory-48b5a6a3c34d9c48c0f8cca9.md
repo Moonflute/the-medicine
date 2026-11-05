@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "관절통만 제외하던 목록형을 DRESS의 전신성·장기 침범 개념으로 교정."
@@ -36,10 +36,10 @@ DRESS를 단순한 약물 발진과 구별할 때 중요한 개념은?
 
 ## 선택지
 
-A. 발열·얼굴부종·혈액학적 이상과 간·콩팥 등 내부장기 침범 가능성
-B. 피부 병변만 있고 전신 침범은 절대로 없음
-C. 즉시형 IgE 반응만으로 발생
-D. 발진 범위만으로 중증도를 완전히 판단
+A. 발열·얼굴부종·혈액 이상·내부장기 침범
+B. 일시적 팽진·가려움·즉시 호전
+C. 표재성 비모낭성 농포·호중구 증가
+D. 통증성 수포·전층 표피괴사·점막 미란
 
 ## 해설
 

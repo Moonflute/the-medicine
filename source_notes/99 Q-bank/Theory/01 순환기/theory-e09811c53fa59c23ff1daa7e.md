@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "내막 손상·중막 박리·거짓 내강은 대동맥류와 구별되는 중요한 기초 병태생리로 유지한다."
@@ -32,14 +32,14 @@ review_status: machine-generated
 
 ## 문제
 
-대동맥 박리의 정의는 무엇인가?
+대동맥 박리의 구조적 특징은?
 
 ## 선택지
 
-A. 대동맥 내막 파열로 혈액이 중막으로 유입되어 거짓 내강이 형성되는 질환
-B. 대동맥 판막이 협착되어 혈류가 제한되는 질환
-C. 대동맥 벽 전체가 확장되어 동맥류가 형성되는 질환
-D. 대동맥 판막이 역류하여 심장에 부하가 증가하는 질환
+A. 중막 내 혈액 유입으로 진성·거짓 내강 형성
+B. 동맥벽 전층의 확장으로 단일 내강 유지
+C. 동맥벽 파열 후 주변 조직에 혈액 낭 형성
+D. 동맥 내막의 죽상경화반으로 내강 협착
 
 ## 해설
 

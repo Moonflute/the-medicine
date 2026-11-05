@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "모든 기면증에 탈력발작이 필수라는 오류를 제1형·제2형 차이로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 감정으로 유발되는 갑작스러운 근력 약화는 제1형을 시사하며 제2형에서는 보통 없다.
-B. 모든 기면증에서 반드시 탈력발작이 있어야 한다.
-C. 수면 마비와 탈력발작은 완전히 같은 현상이다.
-D. 탈력발작은 반드시 의식 소실을 동반하는 전신 발작이다.
+A. 감정 유발 근력 약화·대개 의식 보존
+B. 감정 유발 전신 경련·의식 소실
+C. 입면 때 각성 의식·전신 운동 불가
+D. 기상 후 장기간 이어지는 혼돈
 
 ## 해설
 

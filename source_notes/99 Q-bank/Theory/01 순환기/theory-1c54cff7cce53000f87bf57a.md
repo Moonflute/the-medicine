@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "Brugada에서 발열 등 유발 상황과 실신·VF 위험의 연결은 중요한 안전성 인지 복습으로 유지한다."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 지속적인 고혈압
-B. 야간 실신·급성 심실세동·발열 시 증상 유발 가능
-C. 심한 좌심실 비대
-D. 지속적인 흉통
+A. 운동 시 협심통·기좌호흡
+B. 야간 실신·발열 시 심실성 부정맥
+C. 기립 직후 어지럼·혈압 저하
+D. 흉막성 흉통·심막 마찰음
 
 ## 해설
 

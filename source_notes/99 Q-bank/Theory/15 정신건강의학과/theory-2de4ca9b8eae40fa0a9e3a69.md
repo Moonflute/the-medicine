@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "의학적으로 설명되지 않아야 한다거나 의학질환 동반 시 배제된다는 오류를 교정; 포괄 target에서 감별 원칙을 질문."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 의학적 질환이 동반되어도 신체 증상에 대한 과도한 생각·불안·행동을 평가할 수 있다.
-B. 신체 증상의 의학적 원인이 밝혀지면 진단이 항상 배제된다.
-C. 원인을 아직 찾지 못한 신체 증상은 모두 신체증상장애다.
-D. 의도적 증상 위조가 반드시 있어야 한다.
+A. 의학질환 동반 여부와 별개로 과도한 반응 평가
+B. 의학적 원인이 밝혀지면 진단 배제
+C. 검사에서 원인 불명인 증상이면 바로 진단
+D. 의도적 증상 위조를 확인해야 진단
 
 ## 해설
 

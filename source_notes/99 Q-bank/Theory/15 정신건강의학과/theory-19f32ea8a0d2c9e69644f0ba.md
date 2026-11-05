@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "성적 지향·성별 정체성과 임상적으로 유의한 고통을 구분하는 핵심 개념 유지. 오답 문자 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 개인이 경험하는 성별과 출생 시 지정된 성별 간의 현저한 불일치로 인한 고통
-B. 성적 지향에 대한 불만
-C. 성별 전환 수술을 원함
-D. 호르몬 치료에 대한 거부감
+A. 성별 불일치와 관련된 유의한 고통
+B. 고통 없는 성별 비전형적 표현
+C. 같은 성별 사람에 대한 성적 끌림
+D. 성별과 무관한 외모 결함 집착
 
 ## 해설
 

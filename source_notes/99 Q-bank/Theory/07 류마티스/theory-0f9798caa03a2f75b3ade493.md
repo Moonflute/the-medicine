@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "단일 ANA 숫자를 임상 확진으로 혼동하지 않도록 분류기준의 목적과 최소 1회 양성 조건을 명확히 함."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-2019 EULAR/ACR SLE 분류기준의 ANA 진입조건에 대한 설명으로 옳은 것은?
+2019 EULAR/ACR SLE 분류기준의 ANA 진입조건 역치는? (HEp-2 또는 동등 검사에서 한 번 이상)
 
 ## 선택지
 
-A. HEp-2 또는 동등 검사에서 ANA ≥1:80을 한 번 이상 확인하며, 이것만으로 임상 확진하지 않는다.
-B. ANA ≥1:80 하나로 임상 SLE를 확진한다.
-C. 매번 ANA ≥1:320이어야 분류 가능하다.
-D. 이 기준은 모든 임상 진단을 대신한다.
+A. 1:80 이상
+B. 1:40 이상
+C. 1:160 이상
+D. 1:320 이상
 
 ## 해설
 

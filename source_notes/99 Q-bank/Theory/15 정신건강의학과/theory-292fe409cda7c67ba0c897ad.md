@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "위안 추구·반응의 감소라는 핵심 행동 개념 유지. 오답 문자 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 양육자를 자주 찾고 안기려 함
-B. 양육자에게 위안을 구하는 행동이 현저히 적음
-C. 과도한 공격성 행동
-D. 지속적인 과잉 웃음
+A. 낯선 성인에게도 주저 없이 친근하게 접근
+B. 양육자에게 위안을 거의 구하지 않거나 반응 적음
+C. 양육자와 떨어질 때 과도한 불안
+D. 특정 상황에서만 말하기를 지속적으로 회피
 
 ## 해설
 

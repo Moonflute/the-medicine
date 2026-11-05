@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "C3와 C4가 모두 감소할 수 있는데 둘을 경쟁시켜 정답과 해설이 충돌. 보체 소비 조합으로 교정."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-면역복합체 매개 진성 혈청병에서 나타날 수 있는 보체 변화는?
+면역복합체 매개 진성 혈청병에서 보체 소비에 따른 전형적인 변화 방향은?
 
 ## 선택지
 
-A. 보체 소비에 따른 C3·C4 감소
-B. C3·C4의 필수적인 증가
-C. IgE만 감소하고 보체는 반드시 정상
-D. 보체 변화만으로 원인 약물을 확정
+A. C3 감소·C4 감소
+B. C3 증가·C4 증가
+C. C3 증가·C4 감소
+D. C3 감소·C4 증가
 
 ## 해설
 

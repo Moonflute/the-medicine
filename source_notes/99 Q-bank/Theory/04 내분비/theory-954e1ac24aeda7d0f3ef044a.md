@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "산동검사와 촬영을 완전히 같은 것으로 묶고 OCT를 단순 사후 보조로만 둔 설명을 선별·황반 평가 역할로 구분."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-당뇨망막병증 선별·평가에 대한 설명으로 옳은 것은?
+당뇨망막병증에서 황반부종의 망막 단면과 두께 평가에 특히 유용한 검사는?
 
 ## 선택지
 
-A. 적절한 안저 평가나 검증된 망막 촬영 선별 체계를 활용하며 OCT는 황반부종 등 구조 평가에 유용하다
-B. 정상 시력만 확인하면 망막병증은 모두 배제된다
-C. OCT 한 검사만으로 모든 필요한 말초 망막 평가를 대체한다
-D. 망막 촬영에서 판독 불가여도 추가 평가가 필요 없다
+A. 빛간섭단층촬영(OCT)
+B. 자동 시야검사
+C. 각막 지형도
+D. 골드만 압평안압검사
 
 ## 해설
 

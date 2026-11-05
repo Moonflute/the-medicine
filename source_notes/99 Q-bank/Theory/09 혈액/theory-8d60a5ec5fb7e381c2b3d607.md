@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "혈소판 응집을 주로 DIC 소견이라고 잘못 설명한 문항을 가성 혈소판감소 배제 원칙으로 교정."
@@ -36,10 +36,10 @@ ITP 평가 중 말초혈액 도말에 혈소판 응집이 보이면 우선 해�
 
 ## 선택지
 
-A. EDTA 관련 가성 혈소판감소 등 검체 원인을 확인한다.
-B. 혈소판 응집만으로 DIC를 확진한다.
-C. 거대 혈소판이 없으면 모든 ITP를 배제한다.
-D. 자동계수 수치 하나만으로 면역기전을 확진한다.
+A. 검체 내 가성 혈소판감소 확인
+B. 응집만으로 DIC 확진
+C. 거대 혈소판 부재로 ITP 배제
+D. 자동계수만으로 면역성 확진
 
 ## 해설
 

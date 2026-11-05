@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "젖혀지지 않는 포경과 뒤로 걸린 감돈포경을 구별하는 쉬운 복습."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 포피가 귀두 뒤로 젖혀지지 않는 상태
-B. 요도 협착
-C. 음경 굴곡
-D. 고환 비대
+A. 포피를 귀두 뒤로 젖힐 수 없음
+B. 젖힌 포피를 원위치로 돌릴 수 없음
+C. 요도 입구가 음경 배쪽에 위치
+D. 발기 때 음경이 비정상적으로 굽음
 
 ## 해설
 

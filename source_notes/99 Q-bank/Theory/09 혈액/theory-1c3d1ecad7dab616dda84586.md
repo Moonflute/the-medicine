@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "MYC 재배열은 Burkitt 림프종의 중요한 독립 병태생리 복습으로 유지한다."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. MYC 재배열(t(8;14) 등)
-B. BCR::ABL1 융합 유전자
-C. JAK2 V617F 돌연변이
-D. TP53 돌연변이
+A. MYC 재배열
+B. BCR::ABL1 융합
+C. JAK2 V617F 변이
+D. TP53 변이
 
 ## 해설
 

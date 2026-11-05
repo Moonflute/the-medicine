@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "비특이 원위부 증상 목록과 관상동맥 관련성의 절대 배제를 담배 완전 중단이라는 독립 중요 이론으로 개선했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-TAO의 진행 억제에서 가장 핵심적인 생활/노출 관리 원칙은?
+TAO의 진행 억제에서 가장 중요한 노출 관리 목표는?
 
 ## 선택지
 
-A. 모든 담배 제품 사용을 완전히 중단하도록 적극 지원한다.
-B. 흡연량을 절반으로 줄이면 완전 중단과 같은 효과가 보장된다.
-C. 씹는 담배로 바꾸면 혈관질환과의 연관이 사라진다.
-D. 혈관확장제만 복용하면 담배 사용은 계속해도 된다.
+A. 모든 담배 제품의 완전 중단
+B. 흡연량을 현재의 절반으로 감량
+C. 일반 담배를 씹는 담배로 변경
+D. 흡연 유지와 항혈소판제 병용
 
 ## 해설
 

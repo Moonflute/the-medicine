@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "여포세포 기원 종양을 모두 호르몬 과다 분비 여포암으로 설명한 오류를 없애고 C세포 계통 의미로 교정."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-갑상샘 속질암의 세포 기원과 기능에 대한 설명으로 옳은 것은?
+갑상샘 속질암의 세포 기원과 대표 표지자는?
 
 ## 선택지
 
-A. C세포 계통 종양으로 칼시토닌을 표지자로 활용하며 여포세포 분화암처럼 방사성요오드를 이용하지 않는다
-B. 여포세포의 티록신 과다 생산이 정의이며 모든 경우 갑상샘항진증이다
-C. 칼시토닌은 여포세포 분화암만의 표지자다
-D. C세포 계통이므로 호르몬·유전 평가가 필요 없다
+A. C세포 / 칼시토닌
+B. 여포세포 / 티로글로불린
+C. 여포세포 / TSH 수용체 항체
+D. C세포 / 갑상샘과산화효소 항체
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "FSH40 고정 진단값을 현행 다학회 가이드라인의 FSH25 초과·월경 이상으로 교정. 영구 기능 소실처럼 단정하지 않음."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 40세 이전, 최소 4개월의 무월경 또는 불규칙 주기와 FSH >25 IU/L를 평가한다.
-B. 40세 이후 3개월 무월경이면 나머지 검사 없이 POI로 정의한다.
-C. 35세 이전 LH 증가 하나만으로 POI를 확진한다.
-D. FSH가 40 IU/L를 넘지 않으면 POI를 항상 배제한다.
+A. 40세 미만, 월경 이상 ≥4개월, FSH >25 IU/L
+B. 40세 미만, 월경 이상 ≥1개월, FSH >10 IU/L
+C. 45세 미만, 월경 이상 ≥4개월, LH >25 IU/L
+D. 45세 미만, 월경 이상 ≥1개월, AMH 증가
 
 ## 해설
 

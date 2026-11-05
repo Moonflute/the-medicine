@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "면역복합체를 제2형으로 오분류한 선지·오답 설명을 교정하고 제1형 병태 유지."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. IgE 매개 제1형 과민반응과 비만세포 탈과립·히스타민 방출
-B. 면역복합체 침착에 의한 제3형 반응만
-C. 세포독성 T세포의 표적세포 파괴만
-D. 각막에 침입한 세균의 직접 증식만
+A. IgE 매개 비만세포 탈과립
+B. 면역복합체 침착
+C. T세포 매개 지연 반응
+D. 항기저막 항체 매개 손상
 
 ## 해설
 

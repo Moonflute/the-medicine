@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "맥압 확대를 모든 AR의 필수 소견처럼 제시한 문항을 만성 AR의 대표 소견과 급성 중증 예외로 한정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-AR의 맥압에 대한 올바른 해석은?
+대동맥판막 역류의 맥압에 관한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 만성 유의한 AR에서는 넓은 맥압이 대표적이지만 급성 중증 AR에서는 전형적 말초 소견이 뚜렷하지 않을 수 있다.
-B. 모든 급성·만성 AR은 반드시 넓은 맥압을 보인다.
-C. 맥압이 넓지 않으면 급성 중증 AR은 배제된다.
-D. 맥압 하나만으로 AR의 역류량과 수술 필요성을 확정한다.
+A. 만성 유의한 역류에서 넓어질 수 있다
+B. 급성 중증 역류에서 좁으면 진단을 배제한다
+C. 맥압 차이로 역류량을 정량할 수 있다
+D. 수술 적응증은 맥압만으로 결정한다
 
 ## 해설
 

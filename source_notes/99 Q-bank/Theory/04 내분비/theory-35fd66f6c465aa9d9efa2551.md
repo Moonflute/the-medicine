@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "수분제한검사를 일차 다음증의 단일 가장 특이 검사로 단정하지 않고 자극 copeptin과 중첩 해석을 반영."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-일차 다음증과 부분 AVP 결핍을 감별하는 검사에 대한 설명으로 옳은 것은?
+일차 다음증과 부분 AVP 결핍의 감별 정확도를 높이는 데 활용할 수 있는 전문 검사는?
 
 ## 선택지
 
-A. 수분제한검사는 결과가 겹칠 수 있으며 전문 감시하 자극 copeptin 검사가 감별에 활용될 수 있다
-B. 수분제한 후 농축이 조금만 증가하면 모든 부분 AVP 결핍이 배제된다
-C. 24시간 소변량만으로 섭취 과다와 AVP 결핍을 확정 구분한다
-D. 집에서 탈수될 때까지 임의로 수분을 제한하면 확진할 수 있다
+A. 고장성 식염수 자극 copeptin 검사
+B. 24시간 소변량 단독 측정
+C. 일회성 무작위 소변 삼투압만 측정
+D. 수분 섭취 후 혈청 포도당 측정
 
 ## 해설
 

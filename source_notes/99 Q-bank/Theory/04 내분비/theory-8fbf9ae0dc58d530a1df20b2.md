@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "일차 다음증에 저나트륨혈증이 항상 동반되는 듯한 정의를 물 섭취 선행 기전과 위험으로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 수분 섭취 증가가 선행해 AVP가 억제되고 희석뇨가 증가하며 섭취가 배설 능력을 넘으면 저나트륨혈증이 생길 수 있다
-B. AVP 합성 부족이 모든 경우의 최초 원인이다
-C. 신장 AVP 수용체 결함이 진단의 필수 조건이다
-D. 저나트륨혈증이 없으면 일차 다음증을 배제한다
+A. 과도한 수분 섭취 → AVP 억제 → 희석뇨
+B. AVP 합성 부족 → 농축 장애 → 보상성 다음
+C. 신장 AVP 저항 → 농축 장애 → 보상성 다음
+D. 소변 포도당 증가 → 용질 이뇨 → 보상성 다음
 
 ## 해설
 

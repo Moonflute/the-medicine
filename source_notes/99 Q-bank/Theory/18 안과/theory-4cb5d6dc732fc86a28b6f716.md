@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "'옳지 않은 것'을 묻고 전형적 증상을 정답으로 둔 정답-문제 모순을 바로잡는다."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 급성 시력 감퇴, 색각 이상, 대비 감도 저하, 안구 운동 시 악화되는 통증
-B. 서서히 진행되는 시력 저하와 눈물 과다
-C. 눈부심과 눈동자 진동
-D. 시야 결손과 안구 돌출
+A. 급성·아급성 시력 저하·색각 저하·안구운동통
+B. 갑작스러운 무통성 시력 소실·망막 창백
+C. 서서히 진행하는 무통성 흐림·수정체 혼탁
+D. 심한 안통·구역·높은 안압
 
 ## 해설
 

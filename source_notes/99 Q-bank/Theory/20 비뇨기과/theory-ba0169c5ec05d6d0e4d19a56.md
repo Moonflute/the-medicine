@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "침습성 클라미디아 L1–L3와 일반 요도염 감별 유지."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. Chlamydia trachomatis L1‑L3 혈청형
-B. Treponema pallidum
-C. Neisseria gonorrhoeae
-D. Human papillomavirus
+A. C. trachomatis L1-L3
+B. C. trachomatis D-K
+C. C. trachomatis A-C
+D. C. pneumoniae
 
 ## 해설
 

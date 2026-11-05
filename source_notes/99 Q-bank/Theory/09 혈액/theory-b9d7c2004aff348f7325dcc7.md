@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "Ferritin 감소의 의미는 유지하면서 염증이 있는 정상·상승 ferritin만으로 철결핍을 배제하는 오해를 교정했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 낮은 ferritin은 저장 철 부족을 지지하지만 염증에서는 정상·상승 ferritin으로 철결핍을 배제할 수 없다.
-B. Ferritin은 염증의 영향을 받지 않으므로 모든 상황에 동일한 단일 기준을 적용한다.
-C. Ferritin 상승 자체가 철결핍빈혈의 특이적 소견이다.
-D. 혈청 철이 낮기만 하면 ferritin과 임상 배경에 관계없이 절대 철결핍이 확진된다.
+A. 낮으면 저장 철 부족, 염증 때 정상값으로 배제 불가
+B. 염증과 무관하게 같은 단일 기준으로 판정
+C. 상승값을 철결핍빈혈의 특이 소견으로 사용
+D. 낮은 혈청 철만으로 절대 철결핍 확진
 
 ## 해설
 

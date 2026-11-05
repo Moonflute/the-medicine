@@ -34,14 +34,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Cilostazol이 혈관에 미치는 주요 효과는?
+Cilostazol의 항혈소판·혈관 이완 효과를 설명하는 기전은?
 
 ## 선택지
 
-A. PDE3 억제로 cAMP 증가·혈소판 억제·혈관 이완
-B. COX 억제로 혈소판 억제
-C. ACE 억제로 혈관 확장
-D. 베타 차단제로 심박수 감소
+A. PDE3 억제와 cAMP 증가
+B. COX-1 억제와 TXA₂ 감소
+C. P2Y₁₂ 차단과 ADP 반응 감소
+D. GP IIb/IIIa 차단과 피브리노겐 결합 감소
 
 ## 해설
 

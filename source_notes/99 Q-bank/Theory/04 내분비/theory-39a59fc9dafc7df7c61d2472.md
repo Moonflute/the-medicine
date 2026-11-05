@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "PTH·Mg는 최초 평가에 포함되지 않는다는 잘못된 순차 검사 설명을 통합 평가로 교정."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-저칼슘혈증의 원인 평가 원칙으로 옳은 것은?
+낮은 총 칼슘이 진성 저칼슘혈증인지 확인할 때 중요한 접근은?
 
 ## 선택지
 
-A. 총 칼슘의 알부민 영향을 확인하거나 이온화 칼슘으로 평가하고 PTH·Mg·인산·신장기능 등도 맥락에 맞게 함께 확인한다
-B. 낮은 총 칼슘이면 알부민·이온화 칼슘과 무관하게 생리활성 칼슘 결핍이다
-C. PTH와 마그네슘은 초기 평가에서 확인하면 안 된다
-D. 마그네슘 결핍은 PTH 분비·작용과 무관하다
+A. 알부민 영향을 확인하거나 이온화 칼슘 측정
+B. 총 칼슘만으로 활성 칼슘 결핍 확정
+C. 인산 정상값으로 저칼슘혈증 배제
+D. PTH 수치만으로 활성 칼슘 농도 추정
 
 ## 해설
 

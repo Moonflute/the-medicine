@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "TACO를 과거 6시간으로 고정한 기준을 MHRA/국제혈액감시의 12시간 범위·체액과다 기전으로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 수혈 중 또는 종료 후 최대 12시간 이내 새로 생기거나 악화된 호흡장애/폐부종에 체액과다·심혈관 변화 등의 근거가 동반됨
-B. 수혈 후 발열만 있으면 체액상태와 무관하게 TACO임
-C. 수혈 후 5~10일의 면역성 혈소판 감소만 뜻함
-D. 공여자 T세포가 수혜조직을 공격하는 반응임
+A. 수혈 후 12시간 이내 체액 과다성 폐부종
+B. 수혈 후 6시간 이내 비심인성 폐부종
+C. 수혈 약 1주 뒤 면역성 혈소판 감소
+D. 수혈 수일~수주 뒤 공여 T세포 조직 손상
 
 ## 해설
 

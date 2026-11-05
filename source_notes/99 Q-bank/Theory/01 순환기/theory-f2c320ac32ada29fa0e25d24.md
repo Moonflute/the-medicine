@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "STEMI를 모든 경우의 완전 폐쇄와 동의어로 고정한 정의를 급성 허혈·지속 ST 상승의 긴급 임상 경로 개념으로 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-STEMI와 관상동맥 폐쇄에 대한 설명으로 가장 적절한 것은?
+급성 허혈 증상과 지속적 ST 상승이 있지만 초기 troponin은 정상이다. 적절한 해석은?
 
 ## 선택지
 
-A. 급성 허혈 맥락의 지속 ST 상승 또는 동등 소견은 긴급 재관류 경로를 요구하지만 ECG와 혈관의 완전 폐쇄 여부가 항상 일대일 대응하지는 않는다.
-B. 관상동맥이 완전히 막힌 모든 심근경색은 반드시 전형적 ST 상승을 보인다.
-C. 어떤 원인이든 ST 상승이 있으면 모두 심근경색이다.
-D. 초기 troponin이 정상이면 STEMI 긴급 경로를 중단한다.
+A. 초기 정상값이 긴급 재관류 필요성을 배제하지 않는다
+B. 정상 초기값이면 불안정협심증으로 재분류한다
+C. 정상 초기값이면 심막염으로 우선 확진한다
+D. troponin 상승 시점까지 재관류 결정을 미룬다
 
 ## 해설
 

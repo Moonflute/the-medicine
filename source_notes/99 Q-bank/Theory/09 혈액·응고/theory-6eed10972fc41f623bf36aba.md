@@ -34,14 +34,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Heparin 유발 혈소판감소증(HIT)의 임상 사전확률이 중간 이상일 때 초기 관리 원칙은?
+4Ts가 중간 이상인 의심 HIT에서 heparin을 중단한 뒤 사용할 수 있는 비heparin 항응고제는?
 
 ## 선택지
 
-A. Heparin을 중단하고 HIT 검사를 진행하며 출혈 위험에 맞춰 비heparin 항응고제를 사용한다
-B. 검사 확진 전까지 heparin을 계속 증량한다
-C. 혈소판 감소는 출혈성 질환이므로 항응고제를 항상 전부 중단한다
-D. 저분자량 heparin으로 자동 교체한다
+A. Argatroban
+B. Enoxaparin
+C. 비분획 heparin
+D. Dalteparin
 
 ## 해설
 

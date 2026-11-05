@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "항체 민감도 고정 수치보다 anti-TPO의 원인 지표 역할과 기능·치료 필요성의 구별로 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. anti-TPO는 자가면역 원인을 뒷받침하지만 양성만으로 현재 호르몬 결핍이나 치료 필요성을 확정하지 않는다
-B. anti-TPO가 양성이면 free T4와 무관하게 항상 현성 기능저하다
-C. anti-TPO 음성이면 모든 하시모토 갑상샘염을 배제한다
-D. 항체 역가를 정상화하는 것이 레보티록신 용량 조절의 유일한 목표다
+A. 항체와 별개로 TSH·free T4로 기능을 평가한다
+B. 항체 양성만으로 현성 저하증을 확진한다
+C. 항체 음성만으로 하시모토를 배제한다
+D. 항체 역가 정상화만을 투약 목표로 삼는다
 
 ## 해설
 

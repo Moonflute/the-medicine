@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "유두·유륜의 습진성 변화라는 중요한 독립 인지 목표 유지. 경계 명확성을 필수화하지 않음."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 유두·유륜의 지속적인 홍반·인설·가피 등 습진성 변화
-B. 유방 전체의 결절성 종괴만 나타남
-C. 피부 변화 없이 유두 함몰만 나타남
-D. 유방 전체의 대칭적 색소침착만 나타남
+A. 유두·유륜의 지속적 습진성 변화
+B. 유두 아래의 매끈한 가동성 결절
+C. 생리주기에 따른 양측 미만성 압통
+D. 압박 때만 생기는 다유관 유즙 분비
 
 ## 해설
 

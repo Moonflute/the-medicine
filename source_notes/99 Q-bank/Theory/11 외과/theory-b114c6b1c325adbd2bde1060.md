@@ -25,25 +25,25 @@ curation_status: revised
 curation_reason: "ABO 부적합의 면역용혈 기전은 중요한 복습으로 유지하고 문자 의존을 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-급성 용혈성 수혈 반응의 가장 흔한 원인은?
+면역 매개 급성 용혈성 수혈반응의 대표적인 원인은?
 
 ## 선택지
 
-A. ABO 혈액형 부적합
-B. 혈액 제제의 열 손상
-C. 수혈 속도 과다
-D. 수혈 전 항생제 사용
+A. ABO 부적합
+B. RhD 항원 감작 후 지연 반응
+C. Kidd 항체의 기억 면역반응
+D. Kell 항체의 지연성 면역반응
 
 ## 해설
 
-ABO 혈액형 부적합은 면역 매개 용혈을 일으켜 급성 용혈성 수혈 반응의 가장 흔한 원인이다.
+ABO 부적합 수혈은 기존 항체와 보체 활성화에 의한 급성 혈관내 용혈의 대표 원인이다. Rh·Kidd·Kell 등 비ABO 항체도 용혈을 일으킬 수 있으나 기억 면역반응에 따른 지연성 용혈에서 중요하다.
 
 ## 오답 포인트
 

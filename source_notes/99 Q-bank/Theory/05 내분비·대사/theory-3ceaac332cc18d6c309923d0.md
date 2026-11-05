@@ -34,14 +34,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Dapagliflozin이 혈당을 낮추는 주요 기전은 무엇입니까?
+Dapagliflozin이 억제하는 신장 수송체는?
 
 ## 선택지
 
-A. 근위세뇨관 SGLT2 선택적 억제로 포도당 재흡수 감소
-B. 신장 Na/K‑ATPase 억제
-C. 인슐린 분비 촉진
-D. 간 포도당 신생합성 억제
+A. SGLT2
+B. NCC
+C. NKCC2
+D. ENaC
 
 ## 해설
 

@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 상부위장관 내시경(EGD) 및 조직생검
-B. 흉복부 CT
-C. PET-CT
-D. 혈청 CEA 측정
+A. 위내시경과 생검
+B. 조영 흉복부 CT
+C. FDG PET-CT
+D. 혈청 CEA
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "상부 출혈 정의는 유지하되 소장 중간 출혈을 하부 출혈로만 분류한 오답 설명을 현대적 구별로 수정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 트라이츠 인대 근위부의 식도·위·십이지장
-B. 소장 전체
-C. 결장·직장만
-D. 공장·회장만
+A. 트라이츠 인대 근위부
+B. 공장과 회장
+C. 상행·횡행 결장
+D. 하행 결장과 직장
 
 ## 해설
 

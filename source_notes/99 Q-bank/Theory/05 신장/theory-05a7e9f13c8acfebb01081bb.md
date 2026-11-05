@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. IgG, IgA, IgM, C3, C1q 모두 양성인 ‘full house’ 패턴
-B. IgG와 C3만 양성
-C. IgA와 C3만 양성
-D. IgM와 C1q만 양성
+A. IgG·IgA·IgM·C3·C1q
+B. IgG·IgA·IgM·C3만
+C. IgG·IgM·C3·C1q만
+D. IgA·IgM·C3·C1q만
 
 ## 해설
 

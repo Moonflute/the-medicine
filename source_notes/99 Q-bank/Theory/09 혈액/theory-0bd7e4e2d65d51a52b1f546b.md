@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "빈혈·감염·출혈을 정상 조혈 억제와 연결하는 급성백혈병의 기본 개념은 의미 있는 쉬운 복습으로 유지한다."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 피로·창백(빈혈), 발열(감염), 멍·점상 출혈(출혈)
-B. 체중 증가, 고혈압, 부종
-C. 야간 발한, 림프절 비대, 간비장 비대만 존재
-D. 두통, 시야장애, 고혈당
+A. 빈혈성 피로·감염성 발열·멍과 점상출혈
+B. 두통·물 접촉 가려움·안면 홍조
+C. 야간 발한·무통성 림프절 비대·체중 감소
+D. 발작성 혈뇨·혈전·용혈
 
 ## 해설
 

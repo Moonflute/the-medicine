@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "열성경련 전체를 전신성에 한정한 오류와 CNS 감염 제외 누락을 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 주로 6~60개월 소아에서 발열과 함께 발생하며 중추신경계 감염 등 다른 원인으로 설명되지 않는 경련
-B. 모든 열성경련은 반드시 전신성·단회·15분 미만이어야 함
-C. 중추신경계 감염으로 인한 경련도 모두 단순 열성경련으로 분류함
-D. 신생아의 발열성 경련도 연령 평가 없이 같은 범주로 판단함
+A. 6~60개월의 발열 관련 경련, CNS 감염 등 제외
+B. 생후 28일 이내 발열에 동반한 모든 경련
+C. 세균성 수막염에 동반한 발열성 경련
+D. 무열성 경련을 반복한 뇌전증의 모든 발열 시 경련
 
 ## 해설
 

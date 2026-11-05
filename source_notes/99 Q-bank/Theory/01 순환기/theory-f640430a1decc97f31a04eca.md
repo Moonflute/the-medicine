@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "PSVT의 절대 심박수 범위와 넓은 QRS를 WPW로 단정하는 설명을 전형적 패턴과 변전도 예외로 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-PSVT의 ECG 표현에 대한 설명으로 가장 적절한 것은?
+전형적인 PSVT의 발현과 ECG 양상은?
 
 ## 선택지
 
-A. 대개 갑자기 시작·종료되는 규칙적 좁은 QRS 빈맥이지만 변전도·회로에 따라 넓은 QRS도 가능하다.
-B. PSVT는 언제나 QRS가 넓고 불규칙하다.
-C. WPW 관련 AVRT이면 반드시 넓은 QRS로만 나타난다.
-D. QRS가 좁으면 모든 빈맥은 정상 동성빈맥이다.
+A. 갑작스러운 시작·종료와 규칙적 좁은 QRS 빈맥
+B. 점진적 시작·종료와 정상 P파의 동성빈맥
+C. 불규칙 RR 간격과 식별되지 않는 P파
+D. 넓은 QRS와 심방·심실의 독립적 활동
 
 ## 해설
 

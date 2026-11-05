@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "ANA≥1:80 분류 진입조건을 임상 확진 역치처럼 쓰는 혼동을 제거."
@@ -32,18 +32,18 @@ review_status: manual-reviewed
 
 ## 문제
 
-SLE의 자가항체 해석으로 옳은 것은?
+SLE에서 임상상·보체·소변 소견과 함께 질병 활성도 추적에 도움을 줄 수 있는 항체는?
 
 ## 선택지
 
-A. ANA는 민감한 선별 단서이며 anti-dsDNA는 임상상과 함께 활성도 평가에 도움이 될 수 있다.
-B. ANA 양성이면 증상과 무관하게 SLE를 확진한다.
-C. Anti-Sm 수치만으로 모든 악화를 판정한다.
-D. ANA 음성 여부만으로 모든 임상 판단을 대체한다.
+A. Anti-dsDNA
+B. Anti-Sm
+C. Anti-centromere
+D. Anti-CCP
 
 ## 해설
 
-자가항체는 임상 소견과 함께 해석한다. 분류기준의 ANA 진입조건은 그 자체가 임상 확진검사가 아니다.
+Anti-dsDNA의 추세는 임상상과 보체·소변·신기능 등과 함께 활성도 평가에 도움이 된다. 정상이나 양성 결과 하나만으로 신염·악화를 배제하거나 확진하지 않는다.
 
 ## 오답 포인트
 

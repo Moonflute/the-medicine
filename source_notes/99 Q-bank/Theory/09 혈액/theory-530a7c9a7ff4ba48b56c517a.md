@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "B12와 엽산 중 어느 결핍이 보편적으로 가장 흔하다는 근거 없는 순위를 삭제하고 두 영양소 결핍의 공통 DNA 합성 장애 기전으로 바꿨다."
@@ -38,10 +38,10 @@ related_drug_slugs:
 
 ## 선택지
 
-A. DNA 합성 장애로 핵 성숙이 세포질 성숙에 뒤처지는 조혈 이상
-B. Globin 사슬 합성의 유전적 감소
-C. 적혈구막 골격 단백의 유전적 결함
-D. 철 부족에 의한 heme 합성 제한
+A. DNA 합성 장애와 핵 성숙 지연
+B. Globin 사슬 합성 감소
+C. 적혈구막 골격 단백 결함
+D. 철 부족에 따른 heme 합성 제한
 
 ## 해설
 

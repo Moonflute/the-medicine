@@ -38,10 +38,10 @@ Imatinib은 어떤 신호를 억제하여 항암 효과를 나타내는가?
 
 ## 선택지
 
-A. BCR‑ABL 및 c‑KIT 티로신 키나아제
-B. VEGF
-C. DNA 가교 형성
-D. microtubule 중합
+A. BCR–ABL·c-KIT
+B. EGFR·HER2
+C. ALK·ROS1
+D. BRAF·MEK
 
 ## 해설
 

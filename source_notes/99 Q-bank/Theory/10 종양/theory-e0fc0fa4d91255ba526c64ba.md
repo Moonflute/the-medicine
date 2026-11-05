@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "'암과 무관'이라는 오해를 '직접 침윤·전이가 아닌 암의 원격 효과'로 교정하고 중요한 쉬운 정의 복습을 유지."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 직접 침윤·전이가 아니라 종양의 분비물이나 면역반응 등에 의해 생기는 원격 효과
-B. 종양의 직접 압박에 의한 국소 증상
-C. 암 치료 약물의 독성만
-D. 암과 우연히 함께 생긴 감염 모두
+A. 종양 분비물·면역반응의 원격 효과
+B. 원발 종양의 직접 압박
+C. 전이 병변의 직접 조직 파괴
+D. 항암 약물의 직접 독성
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "EUS 최고 민감도 암기를 일차 CT/MRI와 EUS의 선택적 역할로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. CT 또는 MRI를 우선 활용하고 진단이 불확실하면 EUS 등을 추가한다
-B. 모든 환자에서 EUS 소견 하나만으로 확진한다
-C. 단순 X선이 초기 만성 췌장염을 가장 잘 배제한다
-D. 일차 영상이 음성이면 임상 의심도와 관계없이 추가 평가를 금한다
+A. CT 또는 MRI 후 불확실하면 EUS 추가
+B. 단순 복부촬영 음성이면 평가 종료
+C. EUS의 경미한 소견 하나로 확진
+D. ALT 수치로 영상 필요성 결정
 
 ## 해설
 

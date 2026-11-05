@@ -38,10 +38,10 @@ Rifampin의 주된 항균 표적은?
 
 ## 선택지
 
-A. 세균 DNA-dependent RNA polymerase
-B. 세균 30S 리보솜
-C. Mycolic acid 합성효소만
-D. 진균 ergosterol
+A. DNA 의존성 RNA 중합효소
+B. 30S 리보솜
+C. 미콜산 합성
+D. 디하이드로엽산 환원효소
 
 ## 해설
 

@@ -29,9 +29,9 @@ review_status: manual-reviewed
 ## 선택지
 
 A. 조영 뇌 CT
-B. 확산강조영상(DWI)을 포함한 조영 뇌 MRI
-C. 확산강조영상 없는 비조영 뇌 MRI
-D. 뇌 CT 혈관조영술
+B. DWI 포함 조영 뇌 MRI
+C. DWI 없는 비조영 뇌 MRI
+D. 뇌 CT 혈관조영
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "자가면역성 과다 생산을 하시모토로 설명한 오답 오류를 바로잡고 파괴성 중독의 치료 원리를 명시."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-통증성 아급성 갑상샘염의 갑상샘중독기에 대한 설명으로 옳은 것은?
+통증성 아급성 갑상샘염의 갑상샘중독기를 설명하는 기전은?
 
 ## 선택지
 
-A. 여포 손상으로 저장 호르몬이 방출되므로 새 합성을 억제하는 항갑상샘제는 일반적으로 도움이 되지 않는다
-B. TSH 수용체 자극항체에 의한 지속적 합성 증가가 주된 기전이다
-C. 갑상샘중독이 있으면 원인과 무관하게 메티마졸이 필수다
-D. 갑상샘 호르몬이 높으면 항상 방사성요오드 섭취율도 증가한다
+A. 여포 파괴에 따른 저장 호르몬 방출
+B. TSH 수용체 항체에 따른 호르몬 합성 증가
+C. 자율 기능 결절에 따른 호르몬 합성 증가
+D. 뇌하수체 TSH 과다에 따른 호르몬 합성 증가
 
 ## 해설
 

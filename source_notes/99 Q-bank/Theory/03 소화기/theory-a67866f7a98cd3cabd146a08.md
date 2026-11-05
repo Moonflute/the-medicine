@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "고정 운동·추적 간격의 장문 사례를 위험 기반 생활·대사·선택 약물 이론으로 전환."
@@ -36,10 +36,10 @@ MASLD/MASH 관리의 원칙으로 옳은 것은?
 
 ## 선택지
 
-A. 체중·운동·대사 위험 관리를 기본으로 하고 섬유화·간기능·허가 범위에 따라 추가 약물과 추적을 개별화한다
-B. 모든 환자의 FibroScan 간격과 체중 감량 목표는 반드시 동일하다
-C. 지방간이면 식사·운동과 대사 질환 치료가 더 이상 중요하지 않다
-D. 2026년에도 모든 국가에서 질환 관련 승인 약물이 전혀 없다
+A. 체중·운동·심대사 위험 관리와 섬유화 평가
+B. 간수치 정상화만을 목표로 전신 스테로이드 투여
+C. 정상 ALT이면 섬유화 평가 종료
+D. 지방증 확인만으로 같은 약물·검사 간격 적용
 
 ## 해설
 

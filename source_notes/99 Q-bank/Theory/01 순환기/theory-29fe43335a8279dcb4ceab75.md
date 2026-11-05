@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "CMR을 단일 확진 영상처럼 설명하고 echo를 단순 보조로 낮춘 표현을 CMR 조직 특성화와 선택적 EMB의 역할로 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-심근염 평가에서 CMR과 심근내막생검(EMB)의 역할은?
+심근염에서 부종·비허혈성 손상 등 심근 조직 특성을 비침습적으로 평가하는 검사는?
 
 ## 선택지
 
-A. CMR로 부종·비허혈성 손상 등을 평가하고, EMB는 위험도와 원인특이 치료 필요성 등에 따라 선택한다.
-B. 모든 의심 사례에서 EMB가 반드시 첫 검사이다.
-C. CMR이 정상이면 모든 임상 상황에서 심근염을 배제한다.
-D. Echo가 정상이면 CMR·추가 평가의 필요성은 항상 없다.
+A. 심장 MRI
+B. 관상동맥 CT
+C. 경흉부 심초음파
+D. 관상동맥 조영술
 
 ## 해설
 

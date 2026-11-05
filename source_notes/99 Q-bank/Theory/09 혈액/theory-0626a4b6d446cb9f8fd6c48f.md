@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "첫 노출의 일반 시기만 고정한 문항을 최근 노출에 따른 빠른 발현과 구별."
@@ -34,14 +34,14 @@ related_drug_slugs:
 
 ## 문제
 
-면역성 HIT의 발생 시기에 대한 설명으로 옳은 것은?
+최근 헤파린 노출이 없던 환자에서 면역성 HIT의 전형적 발현 시기는?
 
 ## 선택지
 
-A. 보통 시작 5–10일 뒤이며 최근 헤파린 노출로 감작된 경우 더 빨리 나타날 수 있다.
-B. 모든 경우 시작 첫날에만 발생한다.
-C. 최근 헤파린 노출은 발현 시기에 영향을 주지 않는다.
-D. 헤파린 중단 뒤에는 절대로 발생하지 않는다.
+A. 시작 5–10일 뒤
+B. 시작 24시간 이내
+C. 시작 1–2일 뒤
+D. 시작 30일 이후
 
 ## 해설
 

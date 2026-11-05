@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "피로·기립 저혈압·소화기 증상과 색소침착의 전형 조합은 원발성 부신기능저하의 유용한 기본 복습으로 유지."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 쇠약감·피로·기립성 저혈압·식욕 부진·오심·구토·설사·피부 과색소 침착
-B. 고혈압·다뇨·저칼륨혈증·근육 경련
-C. 체중 증가·다모증·다한증·불면증
-D. 갑상선 기능항진에 따른 체중 감소·불안·심계항진
+A. 피로·기립성 저혈압·과색소침착
+B. 고혈압·다뇨·저칼륨혈증
+C. 체중 증가·다모증·자색 선조
+D. 체중 감소·열불내성·심계항진
 
 ## 해설
 

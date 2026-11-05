@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "부드럽고 움직이는 결절을 사실상 양성으로 단정한 설명을 위험 신호와 배제 한계로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 주변 고정·의심 경부 림프절·지속 쉰 목소리는 경고 소견이며 촉진만으로 양성을 확정하지 않는다
-B. 작고 움직이며 통증이 없으면 어떤 암도 배제된다
-C. 기능성 여부와 악성 위험은 항상 완전히 같은 평가다
-D. 목소리 변화는 갑상샘 주변 구조 평가와 무관하다
+A. 고정된 종괴·의심 림프절·지속 쉰 목소리
+B. 작고 부드러우면 악성을 배제하는 촉진
+C. 기능성 여부만으로 악성 여부 결정
+D. 통증이 없으면 주변 침범 평가 생략
 
 ## 해설
 

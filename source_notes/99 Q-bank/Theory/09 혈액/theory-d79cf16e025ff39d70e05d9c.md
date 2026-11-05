@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "Coombs 결과만 고르는 자명하고 겹치는 선택지를 PNH의 flow cytometry 진단 원리로 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-PNH 진단에서 핵심적인 검사 원리는?
+PNH의 GPI 결합 단백 결핍 세포 클론을 검출하는 핵심 검사는?
 
 ## 선택지
 
-A. 유세포분석으로 혈액세포 집단의 GPI 결합 단백질 결핍을 검출한다.
-B. DAT 음성만 확인하면 PNH가 확진된다.
-C. 적혈구에서 PF4 항체가 검출되면 PNH가 확진된다.
-D. 혈색소뇨가 없으면 PNH 검사는 필요하지 않다.
+A. 유세포분석
+B. 직접항글로불린검사
+C. 삼투 취약성 검사
+D. 혈색소 전기영동
 
 ## 해설
 

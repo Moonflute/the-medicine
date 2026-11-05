@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "추가검사 전부가 불필요라는 과도한 일반화 대신 단순 열성경련에서 일률적 EEG 불필요와 감염평가를 구분."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-신경학적으로 건강한 소아의 단순 열성경련 평가에 대한 설명으로 옳은 것은?
+신경학적으로 건강한 소아의 단순 열성경련에서 EEG 원칙은?
 
 ## 선택지
 
-A. 경련만을 이유로 routine EEG를 시행하지 않으며 발열 원인과 중추신경계 감염 단서를 평가함
-B. 발작 후 회복과 관계없이 모든 경우에 MRI가 필수임
-C. 수막자극 징후가 있어도 단순 열성경련으로 가정하고 감염평가를 생략함
-D. EEG가 정상이면 발열의 원인 평가가 불필요함
+A. 경련만을 이유로 일률 시행하지 않음
+B. 모든 첫 열성경련 직후 시행
+C. 정상 EEG이면 발열 원인 평가 생략
+D. EEG 이상 확인 후에만 감염 평가
 
 ## 해설
 

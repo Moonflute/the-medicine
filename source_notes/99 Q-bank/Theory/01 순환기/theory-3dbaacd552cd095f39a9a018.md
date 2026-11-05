@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "VF의 붕괴 인지를 실제 핵심 처치인 신속 CPR·비동기 제세동과 연결해 약물 대기나 동기화 전환과 구분했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 고품질 CPR과 가능한 즉시 비동기 제세동
-B. R파 동기화가 가능할 때까지 전기충격 보류
-C. 항부정맥제 효과를 확인한 뒤에만 첫 제세동
-D. 맥박이 돌아올 때까지 흉부압박 없이 관찰
+A. 고품질 CPR과 신속한 비동기 제세동
+B. 고품질 CPR과 동기화 심율동전환
+C. 고품질 CPR과 아데노신 정맥 투여
+D. 경피 심박동기와 아트로핀 정맥 투여
 
 ## 해설
 

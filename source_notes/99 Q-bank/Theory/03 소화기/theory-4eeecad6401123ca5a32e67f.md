@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "무관한 HCV 항체를 제외하는 목록 퀴즈 대신 만성 HBV 치료 결정의 독립 핵심으로 개선."
@@ -39,10 +39,10 @@ related_drug_slugs:
 
 ## 선택지
 
-A. HBV DNA·ALT·섬유화/간경변과 연령·동반 위험·면역억제 등 상황을 통합한다
-B. HBsAg 양성 여부 하나만으로 모든 환자의 치료·추적 계획이 동일하다
-C. ALT가 한 번 정상이면 섬유화나 다른 위험과 무관하게 치료 검토를 영구 중단한다
-D. 증상이 없으면 간경변이 있어도 치료는 필요 없다
+A. HBV DNA·ALT·섬유화와 임상 위험 통합
+B. HBsAg 양성만으로 약제와 치료 기간 결정
+C. 한 번의 정상 ALT를 근거로 추적 종료
+D. 무증상 간경변이면 바이러스 평가 없이 관찰
 
 ## 해설
 

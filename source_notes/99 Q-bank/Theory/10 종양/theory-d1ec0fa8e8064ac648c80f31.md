@@ -38,10 +38,10 @@ Paclitaxel의 항암 작용 기전은 무엇인가?
 
 ## 선택지
 
-A. microtubule을 안정화·중합시켜 M기 진행을 차단한다
-B. DNA와 가교를 형성한다
-C. VEGF를 차단한다
-D. EGFR 티로신 키나아제를 억제한다
+A. 미세소관 안정화와 탈중합 억제
+B. 미세소관 중합 억제
+C. DNA 가닥 간 교차결합
+D. Topoisomerase II 억제
 
 ## 해설
 

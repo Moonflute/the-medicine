@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "고혈압은 AFLP에서 동반되지 않는다는 오류를 간부전 표현형으로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 고혈압이 절대 없어야 한다.
-B. AST/ALT가 정상이어야 한다.
-C. 황달·저혈당·응고장애 등이 나타날 수 있다.
-D. 혈당·응고기능은 항상 정상이다.
+A. 황달·고혈당·혈소판 증가
+B. 황달·저혈당·정상 응고기능
+C. 황달·저혈당·응고장애
+D. 황달·고혈당·응고시간 단축
 
 ## 해설
 

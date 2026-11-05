@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "비방사선학적 axSpA를 말초 관절만 침범하는 질환이라 한 잘못된 오답 설명 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 단순 X-ray에서 확실한 천장관절 구조 변화가 보이는지 여부
-B. 말초 관절염만 있는지 여부
-C. ANA가 양성인지 여부
-D. 통증이 있는지 여부만
+A. 단순 X선의 확실한 천장관절 구조 변화
+B. MRI에서만 보이는 골수부종 유무
+C. HLA-B27 양성 여부
+D. 현재 통증 VAS 점수
 
 ## 해설
 

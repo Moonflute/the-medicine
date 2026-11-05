@@ -38,10 +38,10 @@ Duloxetine의 주요 약리학적 작용은?
 
 ## 선택지
 
-A. Serotonin과 norepinephrine의 재흡수 억제
-B. GABA-B 수용체 작용
-C. 도파민 D2 수용체 차단만
-D. Acetylcholinesterase 억제
+A. 세로토닌·노르에피네프린 재흡수 억제
+B. 선택적 세로토닌 재흡수 억제
+C. 노르에피네프린·도파민 재흡수 억제
+D. MAO 효소 억제
 
 ## 해설
 

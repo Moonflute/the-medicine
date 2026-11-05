@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "생물막의 내성과 유전적 항생제 내성을 동일시하고 침투 차단만으로 설명한 것을 지속감염 개념으로 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 생물막 상태는 약제에 잘 견디는 지속감염을 돕지만 유전적 내성과 완전히 같은 개념은 아니다.
-B. 생물막이 있으면 모든 항생제의 유전적 내성이 반드시 획득된다.
-C. 생물막은 바이러스 감염이다.
-D. 생물막 형성은 표면 부착과 무관하다.
+A. 유전적 내성 없이도 약제를 잘 견딜 수 있다
+B. 생물막 자체가 유전적 내성 획득과 같은 뜻이다
+C. 생물막은 약물 표적 돌연변이만을 뜻한다
+D. 생물막은 세균의 표면 부착을 차단하는 구조다
 
 ## 해설
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "압박두드러기 전체를 지연형으로 부르던 범위를 정확히 한정하고 핵심 형태 복습 유지."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 지속 압박 부위에 수시간 뒤 깊고 통증성인 부종·팽진이 나타난다.
-B. 반드시 자극 즉시 선상 팽진만 생긴다.
-C. 차가운 자극에만 반응한다.
-D. 접촉 물질과 관계없는 세균 농양이다.
+A. 지속 압박 수시간 뒤 깊은 통증성 부종
+B. 마찰 직후 긁힌 선을 따르는 팽진
+C. 국소 한랭 자극 후 팽진
+D. 체온 상승·발한 후 작은 팽진
 
 ## 해설
 

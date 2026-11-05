@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "BPPV 전부가 아닌 후반고리관 진단으로 한정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. Dix‑Hallpike 검사
-B. Romberg 검사
-C. 청력 검사
-D. 혈액 검사
+A. Dix-Hallpike 검사
+B. Supine roll 검사
+C. 두부충동검사
+D. Romberg 검사
 
 ## 해설
 

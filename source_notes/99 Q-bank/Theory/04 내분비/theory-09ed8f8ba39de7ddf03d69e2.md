@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "구식 HCO3<15 기준을 2024 국제합의의 성인 진단 구성으로 갱신하고 자명한 Na 제외형을 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 당뇨병 병력 또는 혈당 ≥200 mg/dL, 케톤증, 대사성 산증
-B. 혈당 ≥250 mg/dL만
-C. 고나트륨혈증과 탈수만
-D. 케톤증 없이 고삼투압만
+A. 당뇨/혈당 ≥200·케톤증·대사성 산증
+B. 당뇨/혈당 ≥200·케톤증·호흡성 산증
+C. 혈당 ≥600·케톤증 부재·산증 부재
+D. 혈당 ≥200·케톤증 부재·정상 산염기
 
 ## 해설
 

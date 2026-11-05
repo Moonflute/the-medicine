@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "TEE/MRA를 단순 보조로 낮춘 영상 순위를 안정성·접근성과 대동맥 범위에 따른 초기 영상 선택으로 교정했다."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-급성 대동맥증후군이 의심될 때 영상 선택에 대한 올바른 원칙은?
+급성 대동맥증후군이 의심되는 안정된 환자에서 신속한 초기 영상으로 널리 쓰이는 검사는?
 
 ## 선택지
 
-A. CTA를 신속한 초기 영상으로 널리 사용하며 불안정성·조영/이동 제약 등에 따라 TEE·MRI 등 적절한 대안을 선택한다.
-B. CTA가 불가능하면 TEE나 MRI는 초기 진단에 사용할 수 없다.
-C. 정상 TTE 한 번으로 전체 대동맥 박리를 배제한다.
-D. 불안정성에 관계없이 항상 같은 순서로 모든 영상을 시행한다.
+A. CT 혈관조영술
+B. 경흉부 심초음파
+C. 비조영 흉부 CT
+D. 흉부 단순촬영
 
 ## 해설
 

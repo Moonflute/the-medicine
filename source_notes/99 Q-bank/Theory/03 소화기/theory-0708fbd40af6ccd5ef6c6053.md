@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "12세 하나를 주변 연령과 소거하게 한 문항을 최근 권고의 초기 청소년기 감시와 유전·증상 평가로 변경."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-무증상 고전적 FAP 위험군의 대장내시경 감시 시작 원칙으로 가장 적절한 것은?
+고전적 FAP 위험군의 무증상 대장내시경 감시를 시작하는 대략적 연령은? (최근 ACG 권고)
 
 ## 선택지
 
-A. 유전 평가와 함께 초기 청소년기에 시작하며 최근 ACG 권고는 대략 12–15세를 제시한다
-B. 평균 위험 성인과 동일하게 45세까지 기다린다
-C. 혈변이 없으면 유전적 위험과 관계없이 감시하지 않는다
-D. 모든 감시를 30세 이후에 시작한다
+A. 12–15세
+B. 25–30세
+C. 35–40세
+D. 45–50세
 
 ## 해설
 

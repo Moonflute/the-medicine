@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "단순 양성 정의에서 선종의 독립 중요성인 출혈·악성화 위험과 관리 결정인자로 개선."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-간세포 선종이 FNH와 달리 별도 위험 평가를 필요로 하는 주된 이유는?
+간세포 선종에서 FNH와 달리 평가해야 하는 중요한 위험은?
 
 ## 선택지
 
-A. 출혈과 악성화 위험이 있어 크기·성별·분자 아형 등을 고려하여 관리한다
-B. 양성이므로 크기와 관계없이 추적이 전혀 필요 없다
-C. 모든 선종이 이미 간세포암이다
-D. 간세포 선종의 위험은 중심성 반흔 유무만으로 결정된다
+A. 출혈과 악성화
+B. 급성 담낭염과 담석
+C. 비장 경색과 장 허혈
+D. 식도 협착과 위출구 폐쇄
 
 ## 해설
 

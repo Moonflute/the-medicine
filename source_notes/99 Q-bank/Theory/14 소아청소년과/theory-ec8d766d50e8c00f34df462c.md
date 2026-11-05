@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "성인키 정상 보장을 가족 범위의 예상 경과로 완화하고 골연령·사춘기 지연을 비교."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 골연령과 사춘기가 늦고 이후 성장이 이어져 가족의 예상 범위에 가까운 성인키에 도달할 수 있음
-B. 성장호르몬 결핍이 반드시 존재함
-C. 골연령이 항상 실제 나이보다 빠르고 성장판이 조기 폐쇄됨
-D. 모든 경우가 영양실조로 설명됨
+A. 골연령 지연·사춘기 지연·정상 성장속도
+B. 골연령 일치·낮은 가족 목표키·정상 성장속도
+C. 골연령 지연·체중 증가·성장속도 저하
+D. 체중 감소·만성 설사·성장속도 저하
 
 ## 해설
 

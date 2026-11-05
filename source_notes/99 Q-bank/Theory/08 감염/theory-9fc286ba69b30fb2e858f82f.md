@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "지카 target에 자유생활아메바 분류가 오연결. 중요한 태아 선천감염 위험 이론으로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 소두증을 포함한 뇌·눈의 선천 이상
-B. 모든 감염이 태아에게 전파될 가능성이 전혀 없음
-C. 모든 감염이 반드시 같은 정도의 소두증을 초래
-D. 태아 위험은 산모의 고열이 있을 때만 존재
+A. 소두증·뇌 및 눈의 선천 이상
+B. 동맥관개존·백내장·난청
+C. 수두증·맥락망막염·미만성 두개내 석회화
+D. 사지 저형성·피부 흉터
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "양막 파열을 필수 조건으로 잘못 고정한 정의를 수정한다."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 질 출혈·통증과 함께 자궁경부가 열려 있으며 임신 조직은 아직 배출되지 않음
-B. 질 출혈이 있으나 자궁경부가 닫혀 있고 생존 자궁내 임신이 확인됨
-C. 임신 조직이 일부 배출되고 일부는 자궁 내에 잔류함
-D. 임신 조직이 모두 배출되어 자궁 내 잔류물이 없음
+A. 경부 개대, 임신 조직 배출 전
+B. 경부 폐쇄, 생존 임신과 질 출혈
+C. 경부 개대, 임신 조직 일부 잔류
+D. 임신 조직 완전 배출, 잔류물 없음
 
 ## 해설
 

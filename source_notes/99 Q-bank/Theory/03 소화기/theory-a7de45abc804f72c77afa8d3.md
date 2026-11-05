@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "즉시 DAA 사례를 순수 test-and-treat 이론으로 바꾸고 임의 추적 간격 단정을 제거."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 적합한 DAA 치료를 계획하며 자연 소실을 기다리기 위해 일률적으로 치료를 지연하지 않는다
-B. 모든 경우 6개월 관찰 후에만 DAA를 시작한다
-C. 만성 여부를 정하려고 전원 간생검을 먼저 해야 한다
-D. 인터페론 단독 치료가 DAA보다 기본 우선이다
+A. 적합한 DAA를 계획하고 일률적 대기를 하지 않는다
+B. 자연 소실 평가를 위해 6개월간 치료를 보류한다
+C. 간생검 확정 뒤에만 DAA 적격성을 평가한다
+D. 인터페론 단독 치료를 DAA보다 먼저 적용한다
 
 ## 해설
 

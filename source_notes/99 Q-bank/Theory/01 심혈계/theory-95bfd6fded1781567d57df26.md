@@ -37,14 +37,14 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Propafenone 치료 전·중 ECG에서 특히 확인해야 하는 약물 관련 변화는?
+Propafenone의 Na⁺ 통로 차단에 따라 ECG에서 주의해 관찰할 변화는?
 
 ## 선택지
 
-A. QRS가 좁아질수록 심실 전도 차단이 심해진다
-B. QRS 확장과 방실전도 장애·새 부정맥 발생을 확인한다
-C. ST 상승이 나타나야 정상적인 약효로 판단한다
-D. 심박수가 정상 범위이면 전도 간격은 확인할 필요가 없다
+A. QRS 폭 감소
+B. QRS 폭 증가
+C. PR 간격 단축
+D. 새로운 델타파
 
 ## 해설
 

@@ -36,7 +36,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 카일로미크론(chylomicron) 검출
+A. 카일로미크론 검출
 B. 콜레스테롤 결정 검출
 C. 호중구 우세
 D. LDH 상승

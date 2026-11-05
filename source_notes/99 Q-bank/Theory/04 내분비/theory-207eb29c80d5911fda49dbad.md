@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "해설의 무작위 180 mg/dL 오류와 중복 진단문항을 제거하고 무증상 검사상 고혈당의 확진 원칙으로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 같은 검사 반복 또는 다른 진단검사로 비정상 결과를 확인한다.
-B. 한 번의 비정상 검사만으로 항상 확진한다.
-C. 무작위 혈당 180 mg/dL이면 증상과 무관하게 확진한다.
-D. 검사 결과와 관계없이 증상이 생길 때까지 평가하지 않는다.
+A. 반복 검사 또는 다른 진단검사로 확인
+B. 무증상이므로 진단적 재검 없이 관찰
+C. 무작위 180 mg/dL이면 바로 확진
+D. 증상이 생길 때까지 진단검사 보류
 
 ## 해설
 

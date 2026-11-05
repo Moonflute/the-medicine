@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "여러 황색종을 흔한 필수처럼 나열하지 않고 징후 부재의 배제 한계·가족 평가로 개선."
@@ -32,14 +32,14 @@ review_status: manual-reviewed
 
 ## 문제
 
-가족성 고콜레스테롤혈증의 임상 평가에 대한 설명으로 옳은 것은?
+가족성 고콜레스테롤혈증을 특히 시사하는 진찰 소견은?
 
 ## 선택지
 
-A. 건 황색종·조기 ASCVD 가족력은 단서지만 징후가 없어도 배제하지 않으며 확진 가족의 연쇄 평가가 중요하다
-B. 건 황색종이 없으면 모든 연령에서 FH는 배제된다
-C. 황색판종 하나만으로 유전성 FH가 확정된다
-D. 가족 내 발병력이 없다는 진술만으로 유전성 원인을 배제한다
+A. 건 황색종
+B. 눈꺼풀 황색판종
+C. 중심성 비만
+D. 하지 함요부종
 
 ## 해설
 

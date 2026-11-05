@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "임상 증후군 인지를 보존하고 단일 검사·동일 순서로 확정한다는 오인을 예방."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 갑작스러운 호흡곤란·저혈압·의식 변화·DIC
-B. 고혈압·단백뇨·부종
-C. 양수 과다증·복부 팽만
-D. 태아 심박수 감소
+A. 갑작스러운 저산소증·순환허탈·응고장애
+B. 고혈압·단백뇨·시야 이상
+C. 발열·자궁 압통·악취성 양수
+D. 양막파수 뒤 무통성 출혈·태아 서맥
 
 ## 해설
 

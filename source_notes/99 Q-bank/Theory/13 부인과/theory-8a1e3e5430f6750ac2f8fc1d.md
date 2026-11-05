@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "정자 총수 39백만을 mL당 농도로 오기한 중대한 단위 오류를 교정하고 WHO2021 하한이 임신 가능/불가 절대 경계가 아님을 명시."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-WHO 2021 정액검사 참고 하한의 해석으로 옳은 것은?
+WHO 2021 정액검사 참고 하한에서 총 정자 수와 정자 농도의 조합은?
 
 ## 선택지
 
-A. 정자 총수 39×10⁶/사정액과 농도 16×10⁶/mL는 서로 다른 지표이다.
-B. 정자 총수의 단위는 반드시 mL당 정자수이다.
-C. 한 지표가 하한보다 낮으면 자연임신이 불가능하다.
-D. 모든 지표가 하한 이상이면 임신을 보장한다.
+A. 39×10⁶/사정액·16×10⁶/mL
+B. 16×10⁶/사정액·39×10⁶/mL
+C. 20×10⁶/사정액·15×10⁶/mL
+D. 39×10⁶/사정액·20×10⁶/mL
 
 ## 해설
 

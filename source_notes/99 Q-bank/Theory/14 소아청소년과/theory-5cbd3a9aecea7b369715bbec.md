@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "피부·점막 긴 나열과 치아우식=괴혈병 단정을 제거하고 중요한 아연 결핍의 성장·설사·탈모 개념을 남김."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -37,9 +37,9 @@ wrong_notes_review_status: reviewed
 ## 선택지
 
 A. 성장저하·설사·탈모
-B. 야맹증·비토반점만
-C. 구루병·골연화증만
-D. 비타민 K 의존 응고인자 이상만
+B. 야맹증·결막 건조·비토반점
+C. 구루병·골연화·저칼슘 경련
+D. 잇몸 출혈·모낭 주위 출혈·뼈 통증
 
 ## 해설
 

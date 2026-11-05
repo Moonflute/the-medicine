@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "48시간 66% 미만 상승을 자궁외임신 확진처럼 취급한 오류를 임신위치 미상 평가 원칙으로 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. hCG 추이만으로 위치를 확정하지 않고 증상·추적 초음파 등과 함께 평가한다.
-B. 48시간 상승이 66% 미만이면 모든 경우 자궁외임신으로 확진한다.
-C. hCG가 충분히 상승하면 자궁외임신을 항상 배제한다.
-D. 자궁내 임신낭이 안 보이면 추적 평가가 불필요하다.
+A. 증상·연속 hCG·추적 초음파를 종합한다.
+B. 48시간 hCG 상승률이 66% 미만이면 자궁외로 판정한다.
+C. hCG가 2,000을 넘으면 위치 확인 없이 치료한다.
+D. hCG가 정상적으로 증가하면 자궁내 임신으로 판정한다.
 
 ## 해설
 

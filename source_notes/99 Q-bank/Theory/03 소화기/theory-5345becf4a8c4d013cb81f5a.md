@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "HRS target에 간성뇌증 asterixis 문제가 오연결되어 HRS-AKI의 체액·대체 원인 평가 핵심으로 복구."
@@ -36,10 +36,10 @@ HRS-AKI의 평가에서 옳은 원칙은?
 
 ## 선택지
 
-A. 체액 상태에 맞춰 필요한 용적 보충의 반응을 평가하고 다른 주된 AKI 원인을 검토한다
-B. 모든 환자에게 과혈량 여부와 무관하게 48시간 알부민을 의무 투여한다
-C. 기저 크레아티닌 대비 변화 없이 절대 2.5 mg/dL 이상만 기다려야 한다
-D. 간성뇌증의 asterixis만 확인하면 HRS-AKI가 확정된다
+A. 체액 상태에 맞춘 소생 반응과 다른 AKI 원인 평가
+B. 과혈량이어도 진단 전 48시간 알부민 투여
+C. 크레아티닌이 2.5 mg/dL에 도달한 뒤 평가 시작
+D. 간성뇌증의 임상 등급으로 신손상 진단 대체
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "역류 직접 관찰과 등급이라는 VCUG의 독립 역할 유지."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 배뇨방광요도조영술(VCUG)
-B. 신장 초음파
-C. 요분석
-D. CT 요로조영술
+A. 배뇨방광요도조영술
+B. 신장·방광 초음파
+C. DMSA 신장스캔
+D. MAG3 이뇨성 신장스캔
 
 ## 해설
 

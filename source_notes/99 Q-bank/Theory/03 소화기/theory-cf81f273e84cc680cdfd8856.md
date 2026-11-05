@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "의미를 묻고 소견 이름을 답하게 한 어긋남을 반발통·강직의 위험 의미로 정합화."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 장 허혈·천공 등 복막염을 유발하는 합병증
-B. 단순 가스 팽창만 있으므로 평가가 필요 없는 상태
-C. 폐쇄가 완전히 해결되었음을 보장하는 소견
-D. 분변 매복이 없음을 확정하는 소견
+A. 장 허혈·천공에 따른 복막염
+B. 합병증 없는 단순 가스 저류
+C. 염증 없는 기능성 복부팽만
+D. 항문에 국한된 출구 배출장애
 
 ## 해설
 

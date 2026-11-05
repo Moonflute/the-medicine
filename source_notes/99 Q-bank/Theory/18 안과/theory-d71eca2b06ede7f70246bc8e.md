@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "주변각막 궤양을 하나의 면역복합 기전으로 단정하지 않고 중요한 전신 연관성으로 범위를 한정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 전신 자가면역 질환(류마티스 관절염 등)
-B. 백내장 수술 후 합병증
-C. 녹내장 치료제 부작용
-D. 당뇨망막증
+A. 류마티스관절염
+B. 골관절염
+C. CPPD 관절병증
+D. 섬유근통
 
 ## 해설
 

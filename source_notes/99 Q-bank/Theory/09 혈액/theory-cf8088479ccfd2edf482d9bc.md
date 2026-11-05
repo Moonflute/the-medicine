@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "ALL 정의를 순수 이론으로 유지하고 림프종은 국소 침윤이라는 부정확한 선지와 선지문자 참조를 제거했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. B 또는 T계열 미성숙 림프모세포가 증식하여 정상 조혈을 억제하는 급성 백혈병
-B. 상대적으로 성숙한 B세포가 축적되는 CLL
-C. BCR::ABL1 관련 골수계 증식이 특징인 만성기 CML
-D. 클론성 형질세포가 증식하는 다발골수종
+A. 미성숙 B/T 림프모세포 증식
+B. 성숙 B 림프구의 축적
+C. 성숙 골수계 세포의 과다 증식
+D. 형질세포의 클론성 증식
 
 ## 해설
 

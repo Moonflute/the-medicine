@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "50 bpm 이하 급감이면 변동감속이라는 잘못된 해설을 제거하고 초기감속의 수축과의 시간관계에 집중."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 심박수 최저점이 수축 정점보다 늦게 나타나고 수축이 끝난 뒤 회복함
-B. 수축과 무관하게 매번 급작스럽게 깊이·형태가 달라짐
-C. 심박수 감소가 수축과 나란히 나타나며 최저점이 대체로 수축 정점과 일치함
-D. 태아 심박수가 50 bpm 미만이면 그 자체로 초기감속을 확정함
+A. 최저점이 수축 정점 뒤에 나타남
+B. 급격히 감소하며 수축과의 관계가 일정하지 않음
+C. 점진적으로 감소하고 최저점이 수축 정점과 일치함
+D. 15 bpm 이상 감소가 2분 이상 10분 미만 지속됨
 
 ## 해설
 

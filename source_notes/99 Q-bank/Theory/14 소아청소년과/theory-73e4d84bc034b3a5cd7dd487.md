@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "성장속도를 단편 증상 선택 대신 연속 성장곡선의 하향 횡단 개념으로 개선."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-현재 키가 저신장 기준보다 높아도 성장부진 평가가 필요한 이유는?
+현재 키가 저신장 기준보다 높아도 성장부진 평가를 고려할 단서는?
 
 ## 선택지
 
-A. 연속 측정에서 성장속도가 떨어져 이전 성장 백분위선을 지속적으로 하향 횡단할 수 있기 때문
-B. 현재 키가 3백분위수 이상이면 성장속도는 평가하지 않아도 되기 때문
-C. 체중이 정상 범위이면 내분비 원인은 항상 배제되기 때문
-D. 부모 키만 알면 과거 성장곡선을 볼 필요가 없기 때문
+A. 성장속도 저하·성장 백분위선의 지속 하향
+B. 부모 키와 부합하는 안정된 저백분위 성장
+C. 성장속도 정상·자기 백분위선 유지
+D. 사춘기 성장 급증에 따른 일시적 상향 이동
 
 ## 해설
 

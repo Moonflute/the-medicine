@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "AFP 상승을 필수 진단 기준으로 묶고 모든 만성 간질환에 영상 확진을 허용한 오류 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 적절한 고위험 집단에서 병변 크기 등을 반영한 다중시기 CT/MRI 기준을 적용하며 AFP 상승은 필수 조건이 아니다
-B. 모든 만성 간질환에서 AFP 상승만으로 확진한다
-C. 동맥기 조영·피막·washout 및 AFP 상승이 모든 병변에서 동시에 필수이다
-D. 단순 초음파 고에코 결절만으로 확진한다
+A. 적절한 고위험 집단에서 다중시기 CT/MRI 기준 적용
+B. AFP 상승만으로 영상·병리 평가 대체
+C. 단순 초음파의 고에코 결절만으로 확진
+D. AFP 정상값으로 영상 진단 가능성 배제
 
 ## 해설
 

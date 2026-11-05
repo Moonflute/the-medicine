@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "조조강직의 고정 분수보다 운동·휴식 반응을 포함한 염증성 요통 구별을 명확화."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 서서히 시작하고 야간·휴식 시 두드러지며 운동으로 호전되는 경향
-B. 급성 외상 직후 발생하고 휴식만으로 항상 완전 소실
-C. 활동으로만 유발되는 순간 통증 하나로 정의
-D. 통증이 없을 때만 진단 가능
+A. 야간·휴식 시 악화하고 운동으로 호전
+B. 물건 들기 직후 시작하고 쉬면 호전
+C. 다리 피부절을 따라 전기처럼 방사
+D. 보행 시 종아리 통증이 생기고 서면 호전
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "PROM과 PPROM의 진통 전·37주 전 조건을 구분하고 모호한 오답 해설 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 진통 시작 전에 양막이 파수되고 37주 이전에 발생한다.
-B. 진통 시작 후 양막이 파수된다.
-C. 양수량이 감소하면서 발생한다.
-D. 태아 사망과 동반된다.
+A. 37주 미만, 진통 시작 전 파수
+B. 37주 미만, 진통 시작 후 파수
+C. 37주 이상, 진통 시작 전 파수
+D. 37주 이상, 진통 시작 후 파수
 
 ## 해설
 

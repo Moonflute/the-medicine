@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "가축 분비물·분만산물 에어로졸 흡입은 Q열을 구분하는 중요한 노출 경로라 유지."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 감염 동물의 분비물·배설물·태반 흡입
-B. 오염된 물 섭취
-C. 모기 물림
-D. 직접 피부 접촉
+A. 가축 분만물 등 에어로졸 흡입
+B. 오염된 물의 경구 섭취
+C. 감염 모기에 의한 매개
+D. 성접촉에 의한 점막 전파
 
 ## 해설
 

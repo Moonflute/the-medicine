@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "외모 집착에 반복 행동·기능 영향을 추가하고 큰 결함이면 일률적으로 다른 질환이라는 해설 단정 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 실제 결함이 없거나 미미하지만 과도하게 집착하여 일상생활에 지장을 초래한다.
-B. 실제 큰 신체 결함이 존재한다.
-C. 신체 이미지가 정상이며 불안이 없는 경우이다.
-D. 주된 증상이 신체적 통증이다.
+A. 미미한 외모 결함에 집착·반복 확인·기능 손상
+B. 심한 질병 보유에 몰두·건강 확인
+C. 체중 증가를 두려워하며 저체중 유지
+D. 오염 공포를 줄이기 위한 반복 세척
 
 ## 해설
 

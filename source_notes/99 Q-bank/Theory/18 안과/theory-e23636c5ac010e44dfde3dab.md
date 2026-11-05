@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "앵두반점의 상대적 대비 기전을 보존하되 초기에는 없을 수 있음을 덧붙이고 문자 의존 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 황반부의 앵두 반점(cherry‑red spot)
-B. 망막 전반에 걸친 출혈
-C. 동맥의 박리와 혈관 박리
-D. 시신경 부종과 시신경 유두 부종
+A. 창백한 망막·앵두반점
+B. 구불구불한 정맥·광범위 망막출혈
+C. 들뜬 망막·망막하액
+D. 드루젠·망막색소상피 위축
 
 ## 해설
 

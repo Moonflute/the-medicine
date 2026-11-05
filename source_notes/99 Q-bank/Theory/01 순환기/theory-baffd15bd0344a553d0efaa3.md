@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "대동맥과 주요 분지의 대혈관염이라는 Takayasu의 핵심 해부학 복습은 유지한다."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 대동맥 및 주요 분지(쇄골하동맥·경동맥·신동맥)
-B. 관상동맥
-C. 폐동맥
-D. 대정맥
+A. 대동맥과 주요 분지
+B. 두개 내 중소 동맥
+C. 하지 원위부 동맥·정맥
+D. 폐포 모세혈관
 
 ## 해설
 

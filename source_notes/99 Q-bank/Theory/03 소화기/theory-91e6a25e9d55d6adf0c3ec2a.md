@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "화학적 손상과 감염·방사선 원인을 구별하는 기본 복습 유지."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 칸디다균에 의한 식도 감염
-B. 강산·강염기 등 부식성 물질 섭취에 의한 식도 점막 손상
-C. 자가면역성 식도 염증
-D. 방사선에 의한 식도 손상
+A. 칸디다균의 식도 감염
+B. 부식성 물질 섭취에 따른 화학 손상
+C. 면역 매개 식도 호산구 침윤
+D. 방사선 노출에 따른 점막 손상
 
 ## 해설
 

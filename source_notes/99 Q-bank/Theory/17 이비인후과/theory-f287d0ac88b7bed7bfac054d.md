@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "중복 정의 중 하나를 핵심 임상 정의로 개선해 보존; 내림프 수종을 유일한 확정 원인으로 단정하지 않음."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 20분–12시간의 반복 자발현훈, 병측 저·중주파 감각신경성 난청과 변동성 이명·이충만감
-B. 머리 자세 변화 때 수초만 지속되는 현훈이며 청각 증상은 없는 상태
-C. 외이도 발적과 국소 압통만 있는 상태
-D. 항상 뇌 종양으로 확인되는 현훈
+A. 20분~12시간 현훈·변동성 난청·이명
+B. 자세 유발 수초 현훈·청각 정상
+C. 수일 지속 급성 현훈·청각 정상
+D. 수일 지속 급성 현훈·새 청력 저하
 
 ## 해설
 

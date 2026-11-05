@@ -31,7 +31,7 @@ medical_review_status: curriculum-reviewed
 
 ## 문제
 
-중이염의 주요 원인 세균은 무엇입니까?
+소아 급성 중이염의 대표적인 원인 세균 조합은?
 
 ## 선택지
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "가족성 저신장의 핵심은 단순 부모 키가 아니라 정상 성장경과와 가족 목표 키임을 명료화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 정상적인 성장속도로 자기 성장곡선을 따르며 부모 키에 따른 목표키가 낮고 골연령은 대체로 역연령과 비슷함
-B. 성장곡선이 지속적으로 급격히 하강하고 골연령 지연이 반드시 심함
-C. 부모 키와 무관하게 사춘기가 반드시 매우 늦게 시작됨
-D. 갑상선 기능 저하가 반드시 확인됨
+A. 정상 성장속도·낮은 가족 목표키·골연령 일치
+B. 정상 성장속도·정상 목표키·골연령 지연
+C. 성장속도 저하·체중 증가·골연령 지연
+D. 성장속도 저하·체중 감소·만성 전신 증상
 
 ## 해설
 

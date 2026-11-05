@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "Aedes와 Culex/진드기의 매개 질환 구별은 전파 이론의 기본이므로 유지."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 이집트숲모기(Aedes aegypti)
-B. Culex 모기
-C. 진드기
-D. 파리
+A. 이집트숲모기
+B. 빨간집모기
+C. 얼룩날개모기
+D. 모래파리
 
 ## 해설
 

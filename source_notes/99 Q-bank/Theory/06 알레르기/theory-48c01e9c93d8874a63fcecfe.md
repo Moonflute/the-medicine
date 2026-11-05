@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "접촉이라는 이름 반복의 자명한 정의를 알레르기성과 자극성의 구별 이론으로 개선."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 알레르기성은 감작 후 지연 면역반응, 자극성은 직접적인 피부장벽 손상이 중심이다.
-B. 두 질환 모두 즉시형 IgE 반응만으로 발생한다.
-C. 자극성은 반드시 사전 감작이 필요하다.
-D. 알레르기성은 바이러스가 피부에 증식하는 질환이다.
+A. 알레르기성: 지연 면역반응 / 자극성: 직접 장벽 손상
+B. 알레르기성: 직접 장벽 손상 / 자극성: 지연 면역반응
+C. 알레르기성: 즉시 IgE 반응 / 자극성: 면역복합체
+D. 알레르기성: 면역복합체 / 자극성: 즉시 IgE 반응
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "백막 밖 실질 탈출을 피부 밖 노출로 오인하지 않게 용어 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 고환 백막이 파열되어 고환 실질이 백막 밖으로 탈출할 수 있는 외상
-B. 고환 정맥 확장만 있는 상태
-C. 정삭이 꼬여 혈류가 저하되는 상태
-D. 고유초막 내 장액만 고이는 상태
+A. 고환 백막 파열·실질 탈출
+B. 덩굴정맥총의 정맥 확장
+C. 정삭 꼬임·고환 혈류 저하
+D. 고유초막 내 장액 저류
 
 ## 해설
 

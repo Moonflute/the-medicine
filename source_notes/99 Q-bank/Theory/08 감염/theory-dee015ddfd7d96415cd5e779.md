@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "가공육·유제품 등 식품 경로는 Listeria의 독립 노출 개념이라 유지."
@@ -36,10 +36,10 @@ review_status: machine-generated
 
 ## 선택지
 
-A. 오염된 가공육·유제품 섭취
-B. 호흡기 비말 전파
+A. 오염된 가공육·유제품
+B. 호흡기 비말
 C. 성접촉
-D. 물에 의한 감염
+D. 모기 매개
 
 ## 해설
 

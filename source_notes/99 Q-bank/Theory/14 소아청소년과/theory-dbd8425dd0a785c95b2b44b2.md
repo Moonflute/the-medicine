@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 적절한 시기의 IVIG와 aspirin, 관상동맥 평가·추적
-B. 발열이 사라질 때까지 항생제만 유지
-C. 모든 소아 발열에 aspirin을 일률 투여
-D. 첫 치료에 반응하면 관상동맥 추적은 불필요
+A. IVIG와 아스피린
+B. 항생제와 아세트아미노펜
+C. 아스피린 단독
+D. 항응고제 단독
 
 ## 해설
 

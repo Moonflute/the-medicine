@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "'단기 기억'을 최근 사건을 학습·기억하는 에피소드 기억으로 정돈."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 최근 사건·새로운 정보의 학습과 기억 저하
-B. 언어 장애
-C. 시공간 능력 저하
-D. 운동 기능 저하
+A. 최근 사건 기억·새 정보 학습 저하
+B. 단어 찾기·언어 이해 저하 우세
+C. 시공간 인식·길찾기 저하 우세
+D. 보행·운동 속도 저하 우세
 
 ## 해설
 

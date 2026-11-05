@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "고막천공 내용이 급성 부비동염 target에 섞였음을 교정. 원래 증상·이중 악화 목표를 되살리고 부적합 편도염 target에서 다루던 개념을 적합한 ID의 목표에 맞춰 정렬."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 초기 호전 뒤 다시 증상이 악화되는 경과
-B. 호전 없이 오래 지속되는 경과만을 뜻함
-C. 양쪽 부비동이 동시에 아픈 것
-D. 하루 중 코막힘이 두 번 발생하는 것
+A. 초기 호전 뒤 재악화
+B. 호전 없이 10일 넘게 지속
+C. 처음부터 고열·화농성 비루 지속
+D. 양측 안면 압박감만 동시 발생
 
 ## 해설
 

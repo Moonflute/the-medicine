@@ -37,9 +37,9 @@ wrong_notes_review_status: "reviewed"
 ## 선택지
 
 A. 비조영 뇌 CT
-B. 조영제 없는 두개골 단순 X선
-C. 뇌파만 시행
-D. 뇌 PET를 예약해 수일 후 확인
+B. 뇌 MRI 관류영상만
+C. 뇌 PET
+D. 경동맥 초음파
 
 ## 해설
 

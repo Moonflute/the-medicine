@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "공여 T세포가 수혜조직을 인식하지 못한다는 표현을 수혜조직 공격으로 교정하고 면역결핍자에만 국한하지 않음."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 공여자 T 림프구가 수혜자 조직을 공격
-B. 수혜자 B세포 과다 활성화
-C. 혈액 내 세균 감염
-D. 혈액 내 항체 과다
+A. 공여 T세포의 수혜 조직 공격
+B. 수혜 항체의 공여 적혈구 공격
+C. 공여 혈장 항체의 수혜 호중구 활성화
+D. 수혜 항체의 혈소판 파괴
 
 ## 해설
 

@@ -37,9 +37,9 @@ wrong_notes_review_status: "reviewed"
 ## 선택지
 
 A. 흉부 X선
-B. PET만
-C. 뇌 MRI
-D. 복부 단순촬영만
+B. 흉부 PET-CT
+C. 흉부 MRI
+D. 폐 관류 스캔
 
 ## 해설
 

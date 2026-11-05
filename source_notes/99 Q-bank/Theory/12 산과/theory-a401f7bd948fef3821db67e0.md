@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "압박 초음파의 역할은 유지하되 임신 중 D-dimer를 일반적 선별용으로 단정하지 않게 제한."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 압박 초음파(Compression Ultrasound)
-B. D‑dimer 검사
-C. CT 정맥조영술
-D. MRI
+A. 압박 초음파
+B. CT 정맥조영
+C. MR 정맥조영
+D. 침습적 조영 정맥촬영
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "질환명 풀이 대신 HPA 항체에 의한 지연성 혈소판 감소라는 독립 기전을 강화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 혈소판 특이 항원(HPA 등)에 대한 항체와 관련된 지연성 중증 혈소판 감소
-B. ABO 부적합에 의한 적혈구 용혈만
-C. 수혈 속도 과다에 의한 정수압성 폐부종
-D. 생착한 공여자 T세포의 조직 공격
+A. 혈소판 항원에 대한 동종항체 반응
+B. 적혈구 ABO 항체에 의한 보체 활성화
+C. 공여 호중구 항체에 의한 폐혈관 손상
+D. 공여 T세포 증식에 의한 조직 손상
 
 ## 해설
 

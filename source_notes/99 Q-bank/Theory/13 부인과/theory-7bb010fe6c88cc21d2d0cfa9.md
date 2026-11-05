@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "초음파 역할 유지하되 영상 음성으로 내막증을 배제하거나 모든 환자에서 복강경이 필수 확진이라는 오해 교정."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-자궁내막증의 영상 평가에 관한 설명으로 옳은 것은?
+자궁내막증이 의심되지만 골반 초음파가 정상이다. 적절한 해석은?
 
 ## 선택지
 
-A. 초음파는 내막종·깊은 병변 평가에 유용하지만 정상 영상으로 모든 내막증을 배제하지 못한다.
-B. 초음파가 정상이면 표재성 내막증까지 완전히 배제한다.
-C. CA-125 하나로 내막증을 확진한다.
-D. 모든 환자는 증상과 관계없이 먼저 진단 복강경을 받아야 한다.
+A. 표재성 복막 병변까지 배제할 수는 없다.
+B. 모든 형태의 자궁내막증을 배제한다.
+C. 영상이 정상이므로 무증상 병변으로 판정한다.
+D. 영상이 정상이므로 최소 병기로 확정한다.
 
 ## 해설
 

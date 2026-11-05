@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. H. pylori 감염과 NSAID 사용
-B. 혈청 CEA와 AFP 수치
-C. 식도 내압과 대장 통과 시간
-D. 위산 저하와 철분 과다 복용
+A. H. pylori 감염·NSAID 사용
+B. H. pylori 감염·고지방 식사
+C. NSAID 사용·매운 음식 섭취
+D. 음주·매운 음식 섭취
 
 ## 해설
 

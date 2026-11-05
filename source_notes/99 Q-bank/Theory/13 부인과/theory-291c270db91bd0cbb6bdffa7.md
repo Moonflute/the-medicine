@@ -27,25 +27,25 @@ curation_status: revised
 curation_reason: "성삭-기질군의 호르몬 기능 차이는 중요하여 과립막세포종-에스트로겐 연결을 유지하고 문자 의존을 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-Granulosa‑stromal cell tumor에서 흔히 나타나는 임상 증상은?
+난소 과립막세포종의 호르몬 분비로 생길 수 있는 임상 양상은?
 
 ## 선택지
 
-A. 에스트로겐 과다에 의한 자궁내막 증식
-B. 안드로겐 과다에 의한 탈모
-C. 고혈압
-D. 고칼슘혈증
+A. 에스트로겐 과다·자궁내막 증식
+B. 안드로겐 과다·남성화
+C. hCG 과다·임신오조 양상
+D. 세로토닌 과다·홍조·설사
 
 ## 해설
 
-이 종양은 에스트로겐을 과다 분비하여 자궁내막 증식, 질 출혈, 유방 압통 등을 유발합니다.
+난소 과립막세포종은 에스트로겐을 분비해 자궁내막 증식·비정상 출혈을 유발할 수 있다. 안드로겐 분비가 대표적인 세르톨리-라이디히 세포종 등과 구별한다.
 
 ## 오답 포인트
 

@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "막 단백질 결함으로 표면적이 감소하는 HS 기전은 중요한 독립 이론으로 유지한다."
@@ -32,18 +32,18 @@ review_status: machine-generated
 
 ## 문제
 
-유전 구혈적혈구증의 병리학적 특징은?
+유전구형적혈구증의 병리학적 특징은?
 
 ## 선택지
 
-A. 적혈구 막 표면적 감소와 구형 변형
-B. 적혈구 용적 증가와 구형 변형
-C. 혈소판 수 감소
-D. 백혈구 수 증가
+A. 적혈구막 표면적 감소와 구형 변형
+B. Globin 사슬 생성 감소와 표적세포
+C. 산화 손상에 따른 Heinz body 형성
+D. 비정상 혈색소 중합과 겸상 변형
 
 ## 해설
 
-유전 구혈적혈구증은 스펙트린·안키린 등 막 단백질 결함으로 적혈구 표면적이 감소하고 구형으로 변형된다.
+Spectrin·ankyrin 등 막 골격 단백 결함으로 적혈구막 표면적이 감소해 구형 적혈구가 생기고 비장에서 제거되기 쉽다.
 
 ## 오답 포인트
 

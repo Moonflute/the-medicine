@@ -27,7 +27,7 @@ curation_status: revised
 curation_reason: "테스토스테론 정상의 기준 성별·연령이 불명확해 같은 연령 남성 범위로 명시하고 보편적 고정 호르몬 조합을 피함."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -38,10 +38,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 테스토스테론은 같은 연령 남성 범위에 있을 수 있고 LH는 상승할 수 있다.
-B. 항상 테스토스테론과 LH가 모두 매우 낮다.
-C. 테스토스테론 수치가 정상이라면 수용체 기능도 반드시 정상이다.
-D. 테스토스테론은 반드시 같은 연령 여성의 낮은 범위에만 있어야 한다.
+A. 테스토스테론 남성 범위, LH 상승 가능
+B. 테스토스테론 여성 범위, LH 감소
+C. 테스토스테론 남성 범위, LH 억제
+D. 테스토스테론 여성 범위, LH 정상
 
 ## 해설
 

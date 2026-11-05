@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "분노 폭발 사이의 지속 과민성은 양극성 삽화와 구별하는 중요 개념 유지. 오답 문자 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 과도한 분노 발작과 발작 사이의 지속적인 과민성
-B. 지속적인 우울감과 무기력
-C. 반복적인 충동적 행동
-D. 사회적 회피와 고립
+A. 반복적 분노 발작·발작 사이 지속적 과민성
+B. 삽화성 고양감·수면 욕구 감소
+C. 분리 상황에 국한된 불안·울음
+D. 강박사고에 따른 반복 확인 행동
 
 ## 해설
 

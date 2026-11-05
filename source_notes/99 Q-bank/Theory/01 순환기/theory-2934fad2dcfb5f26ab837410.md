@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "심막 비후·석회화가 교착의 필수처럼 보이는 정의를 두께와 독립된 심막 순응도 저하의 생리로 교정했다."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 심막 순응도 저하가 이완기 충만을 제한하며 심실 상호의존·정맥 울혈을 일으킨다.
-B. 심막 두께나 석회화가 정상이면 교착 생리는 불가능하다.
-C. 심실 수축력 저하만으로 정의하며 호흡성 상호작용과 무관하다.
-D. 심낭액이 많다는 사실만으로 모든 교착 심막염이 확진된다.
+A. 경직된 심막에 의한 이완기 심실 충만 제한
+B. 심근 침윤에 의한 심실 자체 순응도 저하
+C. 일차적 수축력 저하에 의한 좌심실 확장
+D. 승모판구 협착에 의한 좌심방압 상승
 
 ## 해설
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "전형적 질 분비물의 기초 인지는 유지. 색만으로 원인을 확정하지 않도록 오답 제한."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 두껍고 치즈덩어리 같은 백색
-B. 황록색 거품성
-C. 혈액성
-D. 무색 투명
+A. 덩어리진 백색 분비물
+B. 황록색 거품성 분비물
+C. 묽고 회백색인 분비물
+D. 혈액 섞인 점액농성 분비물
 
 ## 해설
 

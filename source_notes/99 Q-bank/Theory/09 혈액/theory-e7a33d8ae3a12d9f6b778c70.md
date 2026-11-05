@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: curriculum-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "PF4/헤파린 IgG가 혈소판을 활성화해 혈전과 감소를 일으키는 기전은 독립 핵심으로 유지."
@@ -38,10 +38,10 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 헤파린‑PF4 복합체에 대한 IgG 자가항체 생성
-B. 헤파린에 의한 직접 혈소판 파괴
-C. 헤파린 대사산물의 독성 효과
-D. 헤파린에 의한 혈관 수축
+A. PF4–헤파린 항체에 의한 혈소판 활성화
+B. 혈소판 당단백 항체에 의한 면역성 제거
+C. ADAMTS13 결핍에 의한 vWF 미세혈전
+D. PIGA 변이에 의한 보체 조절 단백 결핍
 
 ## 해설
 

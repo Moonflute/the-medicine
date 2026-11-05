@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "사강 장액 축적과 혈종·농양의 차이는 독립 수술 기초."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 절개 부위 사강에 장액성 액체가 축적
-B. 혈액 고임(혈종)
-C. 감염에 의한 고름 형성
-D. 지방 조직 파열
+A. 사강 내 장액성 액체 축적
+B. 절개부 내 혈액 축적
+C. 절개부 내 고름 축적
+D. 림프관 손상에 따른 유미 유출
 
 ## 해설
 

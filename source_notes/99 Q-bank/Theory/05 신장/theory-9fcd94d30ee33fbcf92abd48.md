@@ -36,10 +36,10 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. ENaC 활성 증가에 따른 나트륨 재흡수 증가
-B. 알도스테론 분비 종양의 필수 동반
-C. NCC 기능 저하에 따른 염분 소실
-D. NKCC2 기능 저하에 따른 염분 소실
+A. ENaC 활성 증가·Na 재흡수 증가
+B. NCC 기능 저하·염분 소실
+C. NKCC2 기능 저하·염분 소실
+D. 알도스테론 결핍·Na 재흡수 감소
 
 ## 해설
 

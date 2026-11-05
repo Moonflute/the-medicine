@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "모든 혈관염을 ANCA·보체 패널로 진단하는 일반화를 ANCA 단독 확진 불가의 중요 이론으로 교정."
@@ -36,10 +36,10 @@ ANCA 검사에 관한 원칙으로 옳은 것은?
 
 ## 선택지
 
-A. 양성이라도 임상상·장기 침범 및 필요 시 조직검사와 함께 해석한다.
-B. 양성이면 감염 등 다른 원인을 배제하지 않아도 된다.
-C. 모든 혈관염에서 반드시 양성이다.
-D. 음성이라면 모든 혈관염을 배제한다.
+A. 임상·장기 침범·필요 시 조직과 통합한다
+B. 양성만으로 감염성 원인을 배제한다
+C. 음성으로 모든 혈관염을 배제한다
+D. 양성으로 혈관염의 침범 장기를 확정한다
 
 ## 해설
 

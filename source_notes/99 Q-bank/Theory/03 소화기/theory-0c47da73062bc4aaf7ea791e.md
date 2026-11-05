@@ -37,9 +37,9 @@ wrong_notes_review_status: "reviewed"
 ## 선택지
 
 A. 복부 초음파
-B. 진단 목적 ERCP
-C. PET-CT
-D. 복부 단순 X선만으로 확진
+B. CT 담관조영술
+C. MRCP
+D. 진단 목적 ERCP
 
 ## 해설
 

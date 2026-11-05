@@ -27,7 +27,7 @@ curation_status: revised
 curation_reason: "반복적 털 뽑기 기초 개념 유지. 단순 행동만으로 진단되지 않도록 저항 시도·고통을 설명하고 오답 문자 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -38,10 +38,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 반복적으로 자신의 털을 뽑아 탈모를 일으키는 행동 장애
-B. 타인의 머리카락을 뽑는 행동
-C. 피부를 긁는 습관
-D. 손톱을 물어뜯는 행동
+A. 반복적 자기 털 뽑기·탈모
+B. 반복적 피부 뜯기·찰과상
+C. 반복적 외모 확인·결함 집착
+D. 반복적 물건 모으기·버리기 곤란
 
 ## 해설
 

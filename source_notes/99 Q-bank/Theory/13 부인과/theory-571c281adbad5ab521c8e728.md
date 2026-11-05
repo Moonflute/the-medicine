@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "샘근육증의 근층 내 내막 조직 개념은 중요하며 오답 포인트의 문자 의존을 제거."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,14 +36,14 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 자궁 내막 조직이 근층 내에 침윤하는 양성 질환
-B. 자궁 근층에 발생하는 섬유성 종양
-C. 자궁 경부 상피의 전암성 병변
-D. 자궁 내막의 악성 종양
+A. 자궁내막샘·기질의 자궁근층 내 존재
+B. 자궁 평활근 세포의 양성 종양
+C. 자궁 바깥의 자궁내막 유사 조직
+D. 자궁강 내 자궁내막의 비정상 증식
 
 ## 해설
 
-샘근육증은 자궁 내막 조직이 근층으로 침윤해 증식하는 양성 질환으로, 골반통·월경통 등을 유발한다.
+자궁샘근육증은 자궁내막샘과 기질이 자궁근층 안에 존재하는 양성 질환이다. 월경과다·월경통과 관련되며 자궁근종·자궁내막증·자궁내막 증식증과 구별한다.
 
 ## 오답 포인트
 

@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "알레르기라는 넓은 항목과 렌즈 원인을 같은 축으로 비교하지 않고 기계 자극 중심으로 명료화."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 렌즈·의안·노출된 봉합사 등에 의한 반복적인 눈꺼풀결막 자극
-B. 아데노바이러스가 항상 직접 감염함
-C. 모든 경우가 IgE 즉시형 반응만으로 설명됨
-D. 안압상승이 직접 눈꺼풀 유두를 형성함
+A. 렌즈·의안·봉합사의 반복 접촉 자극
+B. 아데노바이러스의 결막 상피 감염
+C. 방수 유출 차단에 따른 안압 상승
+D. 각막 내피세포 감소에 따른 부종
 
 ## 해설
 

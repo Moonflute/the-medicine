@@ -25,21 +25,21 @@ curation_status: revised
 curation_reason: "복압 증가에 따라 탈장 돌출이 뚜렷해지는 원리는 유용한 해부 기초."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
 
 ## 문제
 
-배꼽 탈장 환자에서 Valsalva 시 관찰되는 특징은?
+배꼽 탈장의 종괴는 Valsalva 수기에서 일반적으로 어떻게 변하는가?
 
 ## 선택지
 
-A. 탈장낭이 더 돌출됨
-B. 통증이 감소함
-C. 피부 발적이 나타남
-D. 복부 경직이 심해짐
+A. 돌출이 더 뚜렷해진다.
+B. 돌출이 소실된다.
+C. 박동성이 뚜렷해진다.
+D. 피부와 고정되어 움직이지 않는다.
 
 ## 해설
 

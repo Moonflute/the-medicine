@@ -1,5 +1,5 @@
 ---
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 medical_review_status: evidence-reviewed
 curation_reviewed_at: 2026-10-25
 curation_reason: "모든 부갑상샘기능항진을 무증상 고칼슘으로 일반화하지 않도록 일차성의 PTH 의존 고칼슘 해석으로 교정."
@@ -36,10 +36,10 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 반복 확인된 높은 칼슘에 PTH가 증가하거나 부적절하게 정상인 경우
-B. 높은 칼슘에 PTH가 충분히 억제된 경우
-C. 칼슘과 무관하게 한 번 높은 PTH만으로 모든 원발성을 확진
-D. 낮은 칼슘에 보상적으로 PTH가 증가한 경우만
+A. 높은 칼슘·PTH 상승 또는 부적절한 정상
+B. 높은 칼슘·충분히 억제된 PTH
+C. 낮은 칼슘·보상성 PTH 상승
+D. 정상 칼슘·만성콩팥병의 PTH 상승
 
 ## 해설
 

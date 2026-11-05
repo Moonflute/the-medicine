@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "초기 골반 영상의 역할은 유지하되 모든 연령·성경험에서 경질 접근을 필수화하지 않음."
 curation_reviewed_at: 2026-10-25
 medical_review_status: curriculum-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 골반 초음파(상황에 적절한 경복부 또는 경질 접근)
-B. MRI를 모든 경우 유일한 초기 검사로 시행
-C. CT를 모든 경우 유일한 초기 검사로 시행
-D. 골반 X선으로 자궁내막 병변을 확진
+A. 골반 초음파
+B. 골반 MRI
+C. 골반 CT
+D. 자궁난관조영술
 
 ## 해설
 

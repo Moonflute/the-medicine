@@ -25,7 +25,7 @@ curation_status: revised
 curation_reason: "수면으로 회복된다는 근거 없는 대비를 제거하고 일상 건망증과 자서전적 기억상실을 구분."
 curation_reviewed_at: 2026-10-25
 medical_review_status: evidence-reviewed
-wrong_notes_review_status: reviewed
+wrong_notes_review_status: superseded
 ---
 
 # 이론 문제
@@ -36,10 +36,10 @@ wrong_notes_review_status: reviewed
 
 ## 선택지
 
-A. 새로운 정보를 기억하지 못하는 진행성 신경퇴행이 필수임
-B. 수면 중에만 기억 공백이 생김
-C. 일반적인 건망증으로 설명하기 어려운 중요한 자서전적 기억 공백이 나타남
-D. 기억 공백은 항상 의도적으로 꾸며 낸 것임
+A. 진행성 새 정보 저장 장애
+B. 수면 중 사건의 기억 공백
+C. 자서전적 기억의 병적 공백
+D. 외적 이득을 위한 기억상실 위조
 
 ## 해설
 
