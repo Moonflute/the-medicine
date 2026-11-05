@@ -1,8 +1,54 @@
-import {organPalette,tissuePalette,vesselColor} from './anatomy-palette.js';
-// Anatomical vessel classes take precedence over organ tissue substrings.
-export function anatomicalColor(id,name,base){let color=organPalette[id]||base;if(id==='skeleton')color=/cartilage|disk/i.test(name)?'#abc6c1':'#ddd1b7';if(id==='nose')color=/FJ255[4-8]/.test(name)?'#a6bfba':'#ddceb0';if(id==='thyroid')color=/parathyroid/i.test(name)?'#d2b87d':'#bf8d91';if(id==='testes')color=/epididymis/i.test(name)?'#bfa578':'#c6a2a0';if(id==='larynx')color=/cartilage/.test(name)?'#a6bfba':'#c09191';if(id==='pharynx')color=/raphe/i.test(name)?'#d5c9b1':'#c59d9c';
-   if(id==='mouth'){if(/teeth|hard_palate/.test(name))color='#e2d7bd';else if(/gland/.test(name))color='#bda1a7';else if(/tongue|papillae/.test(name))color='#c78f88';else color='#d4aca0';}
-   if(/artery|aort|pulmonary_trunk|celiac_trunk/.test(name))color=tissuePalette.artery;if(/vein|vena|coronary_sinus/.test(name))color=tissuePalette.vein;if(/cartilage|trachea|bronchus|carina/.test(name)&&id==='lungs')color='#d7c7ab';if(/ligament/.test(name))color='#d5bd95';if(id==='brain'&&/cerebell|pons|medulla/.test(name))color='#c6a65e';
-   if(/nerve/i.test(name))color=tissuePalette.nerve;if(/extraocular_muscle/.test(name))color='#bd8d89';if(/(_ducts?(_|$)|gallbladder)/.test(name))color='#9fab79';
-   if(id==='eyes'){if(/sclera|conjunctiva/.test(name))color='#eee8da';if(/iris/.test(name))color='#668c88';if(/pupil/.test(name))color='#293d3b';if(/retina/.test(name))color='#c4998c';if(/choroid/.test(name))color='#927381';if(/ciliary/.test(name))color='#b99786';if(/^VH_M_lens_[LR]$/.test(name))color='#b4c7cb';if(/optic_disc|fovea|macula/.test(name))color='#d3b16e';}
-   if(/artery|aort|pulmonary_trunk|celiac_trunk/.test(name))color=tissuePalette.artery;if(/vein|vena|coronary_sinus/.test(name))color=tissuePalette.vein;return vesselColor(name)||color;}
+import {organPalette,tissuePalette,vesselColor,normalizeStructureName} from './anatomy-palette.js';
+
+// Resolve the represented tissue before applying an organ's default color.
+// In particular, a named duct is not necessarily part of the biliary system.
+export function anatomicalColor(id,name,base){
+ const n=normalizeStructureName(name),vessel=vesselColor(n);if(vessel)return vessel;
+ if(/nerve/.test(n))return tissuePalette.nerve;
+ if(/ligament|tendon|fascia|aponeurosis|retinaculum|raphe|membrane|conus elasticus/.test(n))return tissuePalette.connective;
+ if(/cartilage|meniscus/.test(n)||id==='larynx'&&/epiglottis/.test(n))return tissuePalette.cartilage;
+ if(/teeth|tooth/.test(n))return tissuePalette.tooth;
+ if(/\bbone\b|ossicle|malleus|incus|stapes/.test(n))return tissuePalette.bone;
+ if(/muscle|musculus/.test(n))return tissuePalette.muscle;
+ if(/gallbladder|bile duct|hepatic duct|cystic duct/.test(n))return tissuePalette.bile;
+ // The kidney source also contains the collecting system and ureters. Resolve
+ // those tissues by name so overlapping sources retain the same colors when joined.
+ if(/renal pelvis|calyx|calyces/.test(n))return tissuePalette.duct;
+ if(/ureter/.test(n))return organPalette.ureters;
+ if(/urethra/.test(n))return organPalette.urethra;
+ if(/urinary bladder/.test(n))return organPalette.bladder;
+ if(id==='spinal-cord'&&/vertebra/.test(n))return tissuePalette.bone;
+ const color=organPalette[id]||base||tissuePalette.mucosa;
+ if(id==='skeleton'&&/disk|disc/.test(n))return tissuePalette.cartilage;
+ if(id==='nose'&&/fj255[4-8]/.test(n))return tissuePalette.cartilage;
+ if(id==='thyroid'&&/parathyroid/.test(n))return tissuePalette.fat;
+ if(id==='testes'&&/epididymis/.test(n))return '#bea479';
+ if(/ductus deferens|deferent duct/.test(n))return tissuePalette.duct;
+ if(id==='larynx'||id==='pharynx')return tissuePalette.muscle;
+ if(id==='mouth'){
+  if(/hard palate/.test(n))return tissuePalette.bone;
+  if(/gland/.test(n))return '#d2af83';
+  if(/tongue|papillae/.test(n))return '#b75d58';
+ }
+ if(id==='lungs'&&/trachea|bronchus|bronchi|carina/.test(n))return tissuePalette.cartilage;
+ if(id==='heart'&&/valve|leaflet/.test(n))return tissuePalette.valve;
+ if(id==='heart'&&/chordae/.test(n))return tissuePalette.tendon;
+ if(id==='brain'&&/cerebell|pons|medulla/.test(n))return '#c8ad72';
+ if(id==='kidneys'&&/renal pyramid|renal papilla/.test(n))return '#bd7062';
+ if(id==='ears'){
+  // Inner-ear compartments represent fluid spaces, not exposed nerve tissue.
+  if(/scala|vestibul|semicircular/.test(n))return tissuePalette.fluid;
+  if(/acoustic meatus/.test(n))return tissuePalette.mucosa;
+ }
+ if(id==='eyes'){
+  if(/sclera|conjunctiva/.test(n))return tissuePalette.tooth;
+  if(/iris/.test(n))return '#617f83';
+  if(/pupil/.test(n))return '#252b2c';
+  if(/retina/.test(n))return '#ca8467';
+  if(/choroid/.test(n))return '#704b40';
+  if(/ciliary/.test(n))return '#9b6351';
+  if(/lens|cornea|humor/.test(n))return tissuePalette.fluid;
+  if(/optic disc|fovea|macula/.test(n))return '#d5b167';
+ }
+ return color;
+}

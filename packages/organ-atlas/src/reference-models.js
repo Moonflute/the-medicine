@@ -3,6 +3,7 @@ import {smoothTestisSurface} from './testis-shading.js';
 import {loadCompressedGlb} from './load-glb.js';
 import {lightModels} from './light-model-manifest.js';
 import {anatomicalColor} from './anatomy-colors.js';
+import {organPalette} from './anatomy-palette.js';
 import {smoothVesselSeamNormals} from './vessel-seam-normals.js';
 import {deduplicateContext} from './context-geometry.js';
 import {contextGroupFor} from './context-groups.js';
@@ -34,10 +35,9 @@ export class ModelRepository {
   const o=organs.find(o=>o.id===id);if(!o)throw Error('Unknown organ: '+id);const url=this.quality==="light"&&lightModels[id]?lightModels[id].url:modelSources[id].url;let gltf;
   gltf=await loadCompressedGlb(url,this.loader);
   const raw=gltf.scene;if(id==='testes')raw.userData.shading=smoothTestisSurface(raw);if(id==='brain')raw.scale.x*=-1;if(id==='heart'||id==='vasculature')raw.userData.shadingSeams=smoothVesselSeamNormals(raw);
-  raw.traverse(m=>{if(!m.isMesh)return;const name=m.name;let color=id==='ears'?'#'+m.material.color.getHexString():anatomicalColor(id,name,o.color);
+  raw.traverse(m=>{if(!m.isMesh)return;const name=m.name,color=anatomicalColor(id,name,o.color);
    const earContext=id==='ears'&&/Dural_venous_sinus|Internal_carotid_artery/.test(name),earCanal=id==='ears'&&/External_acoustic_meatus|Tympanic_membrane/.test(name);
    const nasalContext=id==='nose'&&/FJ3269|FJ3375|FJ3273|FJ3379/.test(name);const translucent=nasalContext||earContext||earCanal||(id==='spinal-cord'&&/vertebra|intervertebral/.test(name))||id==='eyes'&&/cornea|conjunctiva|aqueous_humor|vitreous_humor|lens/.test(name)&&!/ligament|junction/.test(name);
-   if(['knees','pelvis'].includes(id)){if(/cartilage|meniscus/.test(name))color='#91aaa6';else if(/ligament/.test(name))color='#bba580';}
    const old=m.material;m.material=new T.MeshStandardMaterial({color,roughness:.85,metalness:0,flatShading:false,transparent:translucent,opacity:nasalContext?.18:earCanal?.22:translucent?.08:1,depthWrite:!translucent});if(Array.isArray(old))old.forEach(m=>m.dispose());else old.dispose();m.userData={organId:id,partId:name,label:labels[name]||name.replace(/^(VH_[MF]_|Allen_|SBU_[MF]_)/,'').replaceAll('_',' '),baseColor:m.material.color.clone(),source:modelSources[id].sources[0].url};m.userData.structureIdentity=getStructureIdentity(id,name);m.userData.label=partLabel(name,m.userData.label);m.userData.contextStructure=earContext||nasalContext;m.userData.restOpacity=m.material.opacity;m.userData.restTransparent=m.material.transparent;m.userData.restDepthWrite=m.material.depthWrite;m.castShadow=!translucent;m.receiveShadow=true;
   });
   raw.updateMatrixWorld(true);this.raws.set(id,raw);return this.normalize(raw);
@@ -52,7 +52,7 @@ export class ModelRepository {
  async loadBody(onProgress){const eligible=organs.filter(o=>o.overview!==false||o.id==='vasculature'),queue=[...eligible];let count=0;await Promise.all(Array.from({length:3},async()=>{while(queue.length){await this.get(queue.shift().id);onProgress(++count,eligible.length)}}));
   const body=new T.Group(),owners=new Map();for(const o of eligible)this.raws.get(o.id).traverse(m=>{if(m.isMesh&&!owners.has(m.name))owners.set(m.name,o.id)});for(const id of ['ureters','urethra','vasculature'])this.raws.get(id)?.traverse(m=>{if(m.isMesh)owners.set(m.name,id)});
   for(const o of eligible){const source=this.copy(this.raws.get(o.id)),wrapper=new T.Group();wrapper.userData={organId:o.id,system:o.system,isShell:o.id==='skin'};const duplicates=[];source.traverse(m=>{if(m.isMesh&&owners.get(m.name)!==o.id)duplicates.push(m)});duplicates.forEach(m=>m.removeFromParent());
-   if(o.id==='skin')source.traverse(m=>{if(m.isMesh){m.material.color.set('#d9d7c9');m.material.transparent=true;m.material.opacity=.22;m.material.depthWrite=false;m.castShadow=false;m.raycast=()=>{};delete m.userData.baseColor;}});
+   if(o.id==='skin')source.traverse(m=>{if(m.isMesh){m.material.color.set(organPalette.skin);m.material.transparent=true;m.material.opacity=.22;m.material.depthWrite=false;m.castShadow=false;m.raycast=()=>{};delete m.userData.baseColor;}});
    wrapper.add(source);wrapper.scale.setScalar(2.5);wrapper.position.y=.09;body.add(wrapper);
   }return body;
  }

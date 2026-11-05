@@ -1,4 +1,5 @@
 import * as T from 'three';
+import {organPalette} from './anatomy-palette.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {loadCompressedGlb} from './load-glb.js';
 // A separate specimen view: never register this donor onto OpenEar ZETA.
@@ -16,6 +17,7 @@ export async function loadAuricleDetail(key){
  // Rotate the lateral surface toward the initial camera, retaining source shape.
  mesh.rotation.y=side==='left'?-Math.PI/2:Math.PI/2;
  const label=(side==='left'?'Left':'Right')+' auricle';
+ mesh.material.color.set(organPalette.ears);
  const references=['https://lifesciencedb.jp/bp3d/','https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception'];
  mesh.name='detail:'+key+':auricle';mesh.userData={organId:'ears',partId:mesh.name,label,baseColor:mesh.material.color.clone(),restOpacity:1,detail:{id:mesh.name,englishLabel:label,label,kind:'source-surface',sourceMesh:'FJ2811',sourceConcept:'FMA:52781',laterality:side,references}};
  const root=new T.Group();root.add(mesh);root.userData.detail={id:key,kind:'source-surface',revision:1,renderingQuality:'original',assets:[{organId:'ears',renderingAsset:'./models/current/auricles.glb.gz',sources:[{url:'https://lifesciencedb.jp/bp3d/',sourceMesh:'FJ2811',version:'4.3'}]}],title:label,references,notice:'BodyParts3D의 귓바퀴 표면 원본입니다. 중이·내이와는 다른 표본이므로 별도로 표시합니다. 이륜·대이륜·이주·귓불은 원본에서 개별 분할되지 않았으며 이관은 포함하지 않습니다.'};return root;

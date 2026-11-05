@@ -1,4 +1,5 @@
 import {anatomicalColor} from './anatomy-colors.js';
+import {anatomyLighting as lighting} from './anatomy-lighting.js';
 import {loadCompressedGlb} from './load-glb.js';
 import * as T from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
@@ -22,8 +23,8 @@ function pause(){cancelAnimationFrame(frame);frame=0}
 window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==parent||e.data?.type!=='atlas:visibility')return;visible=!!e.data.visible;if(visible)start();else pause()});
 document.addEventListener('visibilitychange',()=>document.hidden?pause():start());reduced.addEventListener('change',()=>{pause();start()});
 async function init(){try{
-renderer=new T.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.25));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;host.append(renderer.domElement);
-scene.add(new T.HemisphereLight('#fff5e8','#a4bcb3',2.4));const key=new T.DirectionalLight('#fff4df',3);key.position.set(-3,5,4);scene.add(key);const fill=new T.DirectionalLight('#d9e7f1',1.6);fill.position.set(4,1,-3);scene.add(fill);
+renderer=new T.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.25));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=lighting.exposure;host.append(renderer.domElement);
+scene.add(new T.HemisphereLight(lighting.hemisphere.sky,lighting.hemisphere.ground,lighting.hemisphere.intensity));const key=new T.DirectionalLight(lighting.key.color,lighting.key.intensity);key.position.set(-3,5,4);scene.add(key);const fill=new T.DirectionalLight(lighting.fill.color,lighting.fill.intensity);fill.position.set(4,1,-3);scene.add(fill);
 const stage=new T.Group();for(const [r,h,y]of [[1.32,.1,-1.43],[1.2,.15,-1.32]]){const m=new T.Mesh(new T.CylinderGeometry(r,r,h,48),new T.MeshStandardMaterial({color:'#ddd9c9',roughness:1}));m.position.y=y;stage.add(m)}scene.add(stage);
 observer=new ResizeObserver(()=>{const {width,height}=host.getBoundingClientRect();if(!width||!height)return;camera.aspect=width/height;camera.updateProjectionMatrix();renderer.setSize(width,height,false);render()});observer.observe(host);
 const loader=new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);let gltf;

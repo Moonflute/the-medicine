@@ -1,3 +1,4 @@
+import {tissuePalette} from './anatomy-palette.js';
 // Describes the represented structure, not a histological diagnosis.
 // Scoped to the reviewed Z-Anatomy skeletal collection; do not use on other layers.
 export function skeletalStructureType(name){
@@ -10,4 +11,4 @@ export function skeletalStructureType(name){
  if(/^(Upper|Lower) .*(incisor|canine|premolar|molar tooth)\.[lr]$/.test(name))return 'tooth';
  return 'bone';
 }
-export const skeletalTypeColors={bone:'#d4c6ab',cartilage:'#a6bbb3',ligament:'#bbb4cf',tooth:'#e5ddca','intervertebral-disc':'#a6bbb3','nucleus-pulposus':'#87aeb4',symphysis:'#a6bbb3',cavity:'#a6bbb3'};
+export const skeletalTypeColors={bone:tissuePalette.bone,cartilage:tissuePalette.cartilage,ligament:tissuePalette.connective,tooth:tissuePalette.tooth,'intervertebral-disc':tissuePalette.cartilage,'nucleus-pulposus':'#82acbc',symphysis:tissuePalette.cartilage,cavity:tissuePalette.fluid};
