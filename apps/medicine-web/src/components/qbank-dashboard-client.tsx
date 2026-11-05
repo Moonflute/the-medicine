@@ -1,13 +1,14 @@
 "use client";
 
 import { ChatQbankLobby } from "@/components/chat-qbank-lobby";
+import { QbankStartBar } from "@/components/qbank-start-bar";
 import { useSkinTheme } from "@/components/theme-provider";
 import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
+import { ArrowLeft, Bookmark, CircleAlert, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
 import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
@@ -358,7 +359,6 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const randomPool = randomSources.reduce((sum, source) => sum + source.count, 0);
   const validCount = /^\d+$/.test(count) && Number(count) >= 1 && Number(count) <= 100;
   const drawCount = Math.min(Number(count) || 0, randomPool);
-  const randomLabel = randomSources.map(source => source.label).join(" + ");
   const sessionParams = new URLSearchParams({
     mode: relatedTarget ? "related" : "selection",
     theory: includeTheory ? selectedTheory.join(",") : "",
@@ -377,6 +377,17 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     if (relatedTarget.type === "disease") sessionParams.set("targets", (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).join(","));
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
+  const randomStartEnabled = randomPool > 0 && validCount;
+  const randomStartBar = tab !== "practice" ? <QbankStartBar
+    label="랜덤풀이 시작"
+    summary={`${randomSources.length === 1 ? randomSources[0].label : "선택"} ${randomPool.toLocaleString()}문항`}
+    count={count}
+    max={100}
+    onCountChange={setCount}
+    error={!validCount && randomPool > 0 ? "1~100 사이의 정수를 입력하세요." : undefined}
+    actions={[{ label: randomStartEnabled ? `${drawCount}문항 랜덤 시작` : "랜덤 시작", href: randomStartEnabled ? sessionHref : undefined }]}
+    appearance={chatLayout ? "chat" : "default"}
+  /> : null;
   const selectionTabs = <div role="tablist" aria-label="문제 종류" className={`grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1 ${chatLayout || relatedTarget ? "mt-5" : ""}`}>
         {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => chooseBank(key)} onKeyDown={(event) => {
           const tabs = ['theory', 'clinical', 'practice'] as const;
@@ -396,10 +407,6 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
       </div></>;
   if (chatLayout) {
-    const selectedLabels = [
-      ...theoryGroups.flatMap((group) => group.items).filter((item) => selectedTheory.includes(item.slug)).map((item) => item.name.replace(/^\d+\s*/, "")),
-      ...clinicalSpecialties.filter((item) => selectedClinical.includes(item.slug)).map((item) => item.name.replace(/^\d+\s*/, "")),
-    ];
     return <ChatQbankLobby
       banks={[{ id: "theory", label: "이론", selected: selectedTheoryCount }, { id: "clinical", label: "임상", selected: selectedClinicalCount }, { id: "practice", label: "실전", selected: practiceCount }]}
       bank={tab} onChooseBank={chooseBank} stats={stats} total={questions.length + practice.length} quickCount={count}
@@ -415,13 +422,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         {selectionTabs}
         <div ref={chatPickerContent} className="chat-qbank-picker-content">{selectionPanels}</div>
         <div ref={setChatPracticeFooter} className="chat-qbank-practice-footer" hidden={tab !== "practice"} />
-        {tab !== "practice" ? <section className="chat-qbank-selection-footer" aria-label="선택한 문제 시작">
-          <div className="chat-qbank-start-summary"><div><strong>{randomSources.length ? `${randomLabel} · ${drawCount}문항` : "함께 풀 문제를 선택하세요"}</strong><span>{selectedLabels.length ? compactSessionLabels(selectedLabels) : "분과를 여러 개 선택할 수 있어요"}</span></div>
-            <label>문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} aria-describedby="chat-random-count-help" /></label>
-          </div>
-          {randomPool > 0 && validCount ? <Link href={sessionHref} className="chat-qbank-start">대화 시작</Link> : <button type="button" disabled className="chat-qbank-start">{randomPool ? "문항 수를 확인하세요" : "문제를 선택하세요"}</button>}
-          <p id="chat-random-count-help" className="chat-qbank-count-help" role="status">{!validCount ? "1~100 사이의 정수를 입력하세요." : Number(count) > randomPool && randomPool > 0 ? "선택 범위의 모든 문제를 시작합니다." : ""}</p>
-        </section> : null}
+        {randomStartBar}
       </fieldset>
     </ChatQbankLobby>;
   }
@@ -474,15 +475,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <span className="pill shrink-0">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span>
       </div>}
       {selectionPanels}
-      {tab !== "practice" && <SkinPanel className="mt-6 rounded-xl border border-teal-200 bg-teal-50/50 p-4 sm:p-5" label="랜덤풀이 시작 설정" title="출제 설정" ordinal={4}>
-        <h3 className="font-semibold text-slate-900">랜덤풀이 시작</h3>
-
-        <p className="mt-3 text-sm text-slate-700" role="status">{randomSources.length ? `출제 범위: ${randomSources.map(source => `${source.label} ${source.count.toLocaleString()}문항`).join(" + ")}` : "위에서 풀고 싶은 분과 또는 조건을 선택하세요."}</p>
-
-        <div className="mt-4 flex flex-wrap items-end gap-3"><label className="block text-sm font-medium text-slate-700">이번에 풀 문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={event => setCount(event.target.value)} aria-describedby="random-count-help" className="mt-2 block w-32 rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
-        {randomPool > 0 && validCount ? <Link href={sessionHref} className="primary-action"><Play className="h-4 w-4" />{randomLabel} {drawCount}문항 랜덤으로 시작</Link> : <button disabled className="primary-action opacity-40">{randomPool ? "문항 수를 확인하세요" : "출제 범위를 선택하세요"}</button>}</div>
-        <p id="random-count-help" className="mt-2 text-xs text-slate-500">{!validCount ? "문항 수는 1~100 사이의 정수로 입력하세요." : randomPool > 0 ? `선택 범위에서 ${drawCount}문항을 무작위로 뽑습니다.${Number(count) > randomPool ? " 선택한 문제가 입력 수보다 적어 모두 출제합니다." : ""}` : "선택한 범위에서 입력한 수만큼 무작위로 출제합니다. 최대 100문항입니다."}</p>
-      </SkinPanel>}
+      {randomStartBar}
 
       </fieldset>
     </SkinPanel>

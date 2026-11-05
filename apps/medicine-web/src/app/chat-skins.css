@@ -344,7 +344,7 @@ html:is([data-theme="chat"],[data-theme="messenger"]) .chat-qbank-choice > .skin
 .chat-qbank-modes { display:flex; flex-wrap:wrap; gap:10px 20px; margin:0; padding-bottom:12px; }
 .chat-qbank-modes legend { margin-bottom:9px; }
 .chat-qbank-modes label { color:var(--chat-text); font-size:12px; }
-.chat-qbank-dialog :is(.chat-qbank-modes,.chat-qbank-option,.chat-qbank-unattempted-check) input { accent-color:var(--primary); }
+.chat-qbank-dialog :is(.chat-qbank-modes,.chat-qbank-option,.chat-qbank-selection-footer) input { accent-color:var(--primary); }
 .chat-qbank-option { display:flex; align-items:center; gap:10px; min-height:65px; padding:10px 0; border-bottom:1px solid var(--line); font-size:12px; cursor:pointer; }
 .chat-qbank-option input { flex-shrink:0; }
 .chat-qbank-option span span { color:var(--chat-text); font-size:12px; }
@@ -353,21 +353,13 @@ html:is([data-theme="chat"],[data-theme="messenger"]) .chat-qbank-choice > .skin
 .chat-qbank-topics summary { margin:0; padding:12px 0; color:var(--chat-text); font-size:12px; }
 .chat-qbank-topics summary::marker { color:var(--muted); }
 .chat-qbank-topics > div { margin:0 0 12px; }
-.chat-qbank-selection-footer { flex-shrink:0; margin:0; padding:11px 16px calc(12px + env(safe-area-inset-bottom)); background:var(--chat-chrome); border-top:1px solid var(--line); color:var(--chat-text); }
-.chat-qbank-start-summary { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:9px; }
-.chat-qbank-start-summary > div { display:flex; flex:1; min-width:0; flex-direction:column; gap:4px; }
-.chat-qbank-start-summary strong { font-size:12px; font-weight:600; }
-.chat-qbank-start-summary div > span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--muted); font-size:10px; }
-.chat-qbank-start-summary label { display:flex; flex-shrink:0; align-items:center; gap:6px; font-size:10px; color:var(--muted); }
-.chat-qbank-start-summary input,.chat-qbank-unattempted input { width:62px; min-height:34px; padding:5px 7px; border:1px solid var(--line); border-radius:5px; background:var(--chat-received); color:var(--chat-text); font-size:13px; }
+.chat-qbank-selection-footer { flex-shrink:0; margin:0; padding:8px 16px calc(8px + env(safe-area-inset-bottom)); background:var(--chat-chrome); border-top:1px solid var(--line); color:var(--chat-text); }
+.chat-qbank-selection-footer input[type="number"] { border-color:var(--line); background:var(--chat-received); color:var(--chat-text); }
+.chat-qbank-unattempted input { width:62px; min-height:34px; padding:5px 7px; border:1px solid var(--line); border-radius:5px; background:var(--chat-received); color:var(--chat-text); font-size:13px; }
 .chat-qbank-start { display:flex; align-items:center; justify-content:center; width:100%; min-height:39px; padding:8px 12px; border-radius:6px; background:var(--chat-sent); color:var(--chat-sent-text); font-size:12px; font-weight:600; cursor:pointer; }
 .chat-qbank-start:disabled { opacity:.4; cursor:default; }
-.chat-qbank-start--secondary { background:var(--surface-subtle); color:var(--chat-text); }
-.chat-qbank-start-actions { display:flex; gap:7px; }
-.chat-qbank-unattempted-check { display:flex; align-items:center; gap:7px; margin-bottom:10px; color:var(--muted); font-size:11px; }
-.chat-qbank-unattempted-check > span { margin-left:auto; }
-.chat-qbank-count-help { margin-top:7px; color:var(--muted); font-size:10px; line-height:1.6; }
-.chat-qbank-count-help:empty { display:none; }
+.chat-qbank-selection-footer .chat-qbank-start { width:auto; min-height:36px; padding:4px 10px; }
+.chat-qbank-selection-footer [aria-invalid="true"] { border-color:var(--muted); }
 .chat-qbank-stats { display:flex; gap:20px; margin:0 18px; padding:20px 0; border-bottom:1px solid var(--line); font-size:12px; }
 .chat-qbank-stats dt { margin-bottom:5px; color:var(--muted); font-size:10px; }
 .chat-qbank-stats dd { font-variant-numeric:tabular-nums; }
