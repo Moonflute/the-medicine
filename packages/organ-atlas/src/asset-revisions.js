@@ -444,6 +444,30 @@ export const assetRevisions={
     "sha256": "34b8a7e8a8238831a2a4ba8aa9bb3fa434047824addc8805dfef3c792f959d37",
     "bytes": 1133961
   },
+  "./models/current/journey-upper-surface.bin.gz": {
+    "sha256": "ab0dfc1aff90d5c745743195d17ec8758471ab7f8d4eefda518b9a9f29bd713c",
+    "bytes": 1017552
+  },
+  "./models/current/journey-upper-volume.bin.gz": {
+    "sha256": "59d264a7d0b5bd3b1ccbc8a6d8ed4068b08353b4fae33649ba47592d1ab014a1",
+    "bytes": 423212
+  },
+  "./models/current/journey-upper.json": {
+    "sha256": "6a79fbc5c876b5f1c42a162491cffaf7fef09544d7350192fb4973d3882cd392",
+    "bytes": 5877
+  },
+  "./models/current/journey-vessels-surface.bin.gz": {
+    "sha256": "f92651ac699c8c77e9c3251691b060a3840f0290f1e46094f3d0c657839556e3",
+    "bytes": 1871740
+  },
+  "./models/current/journey-vessels-volume.bin.gz": {
+    "sha256": "feb8aa878dc92cc2d5453e9e1789909aa0d65fc64a2153d69d07d0062a021dbd",
+    "bytes": 144903
+  },
+  "./models/current/journey-vessels.json": {
+    "sha256": "4cd25a98017af9229a6f214d88d869ef1e07a2a08d9b27668b983780af4cd949",
+    "bytes": 5774
+  },
   "./imaging/spl-abdomen/I.nrrd": {
     "sha256": "741e36154074b3834be49c0554e1b49875a9a96d8ed1e466d7614758f2a8f726",
     "bytes": 7120975

@@ -1,0 +1,125 @@
+"""Offline source-derived lumen reconstruction and matching collision field.
+
+Only whitelisted anatomical adjacencies are joined. Original source geometry is
+not modified. Every synthetic junction is recorded with its measured gap.
+"""
+import sys, json, heapq
+import numpy as np
+from scipy import ndimage as ndi
+from scipy.spatial import cKDTree
+from skimage.measure import marching_cubes
+from scipy.sparse import coo_matrix, diags
+
+cfg=json.loads(sys.stdin.buffer.readline())
+nx,ny,nz=cfg['dimensions']; step=cfg['spacing']; origin=np.array(cfg['origin'])
+labels=np.frombuffer(sys.stdin.buffer.read(),dtype=np.uint8).reshape((nz,ny,nx)).copy()
+
+def world(indices): return indices[:,::-1]*step+origin
+def index(point): return np.round((np.array(point)-origin)/step).astype(int)[::-1]
+def stamp_capsule(a,b,r,label):
+ a,b=np.array(a),np.array(b); lo=np.maximum(0,np.floor((np.minimum(a,b)-r-origin)/step).astype(int)); hi=np.minimum([nx-1,ny-1,nz-1],np.ceil((np.maximum(a,b)+r-origin)/step).astype(int))
+ if np.any(lo>hi): return
+ z,y,x=np.mgrid[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1]; p=np.stack([x,y,z],axis=-1)*step+origin
+ d=b-a; t=np.clip(np.sum((p-a)*d,axis=-1)/max(np.dot(d,d),1e-15),0,1)
+ hit=np.sum((p-a-t[...,None]*d)**2,axis=-1)<=r*r
+ sub=labels[lo[2]:hi[2]+1,lo[1]:hi[1]+1,lo[0]:hi[0]+1]; sub[hit&(sub==0)]=label
+
+if cfg['key']=='upper':
+ # Oral cavity above the existing Z-Anatomy tongue; posterior outlet to pharynx.
+ center=np.array([0,1.551,.054]); radius=np.array([.024,.015,.037]); lo=np.maximum(0,index(center+[-.025,-.016,-.038])); hi=np.minimum(np.array(labels.shape)-1,index(center+[.025,.016,.038]))
+ z,y,x=np.mgrid[lo[0]:hi[0]+1,lo[1]:hi[1]+1,lo[2]:hi[2]+1]; p=np.stack([x,y,z],-1)*step+origin
+ sub=labels[lo[0]:hi[0]+1,lo[1]:hi[1]+1,lo[2]:hi[2]+1]; sub[np.sum(((p-center)/radius)**2,axis=-1)<1]=1
+ points=[[0,1.548,.028],[0,1.536,.009],[0,1.517,0],[0,1.497,-.008],[0,1.480,.002]]
+ for a,b in zip(points,points[1:]): stamp_capsule(a,b,.010,2)
+ for a,b in zip([[0,1.497,-.008],[0,1.489,.014],[0,1.463,.012]],[[0,1.489,.014],[0,1.463,.012],[0,1.451,.009]]):stamp_capsule(a,b,.0045,6)
+
+# Remove only subvoxel speckle inside a source part, never fill across organs.
+for part in range(1,len(cfg['parts'])+1):
+ mask=labels==part
+ if not mask.any():raise ValueError('Empty source region '+str(part))
+ # Some supplied exterior meshes have tiny open seams (odd ray intersections).
+ # Repair only within this one region; do not close across separate organs.
+ filled=ndi.binary_fill_holes(ndi.binary_closing(mask,iterations=2))
+ labels[filled&(labels==0)]=part
+
+junctions=[]
+for a,b in cfg['bridges']:
+ # Join the interiors at the junction, not the nearest exterior edge: edge-only
+ # contacts are connected mathematically but cannot admit a finite camera.
+ da=ndi.distance_transform_edt(labels==a)*step;db=ndi.distance_transform_edt(labels==b)*step
+ threshold=.0022 if a==3 or b==3 else .0032
+ aa=np.argwhere((labels==a)&(da>=min(threshold,da.max()*.85)));bb=np.argwhere((labels==b)&(db>=min(threshold,db.max()*.85)))
+ # Clinical endpoints: GE junction at the lower esophagus, not an adjacent wall.
+ if cfg['key']=='upper' and (a,b)==(3,4): aa=aa[world(aa)[:,1]<1.215]
+ if cfg['key']=='upper' and (a,b)==(2,3): aa=aa[world(aa)[:,1]<1.49];bb=bb[world(bb)[:,1]>1.46]
+ distances,near=cKDTree(aa).query(bb,k=1); k=int(np.argmin(distances));pa=world(aa[[near[k]]])[0];pb=world(bb[[k]])[0];gap=float(distances[k]*step)
+ # Interior endpoints include depth into both source surfaces. Keep a strict
+ # separate limit on the actual exterior gap, which was measured before this.
+ surface_a=np.argwhere(labels==a);surface_b=np.argwhere(labels==b)
+ surface_gap=float(cKDTree(surface_a).query(surface_b,k=1)[0].min()*step)
+ if surface_gap>.018 or gap>.035: raise ValueError(f'Unreviewed gap {a}->{b}: {surface_gap}, interior span {gap}')
+ radius=float(min(.0035,da[tuple(aa[near[k]])],db[tuple(bb[k])]))
+ stamp_capsule(pa,pb,radius,a)
+ junctions.append({'from':a,'to':b,'gapMetres':round(surface_gap,6),'interiorSpanMetres':round(gap,6),'radiusMetres':radius,'start':pa.tolist(),'end':pb.tolist(),'kind':'reconstructed-junction'})
+
+# The immediate fork belongs to the parent lumen. Separating two daughters at
+# their shared ostium would manufacture a wall through the bifurcation itself.
+forks=[(7,[8,9])] if cfg['key']=='upper' else [(2,[4,5,6]),(4,[7,8])]
+for parent,children in forks:
+ near_parent=ndi.distance_transform_edt(labels!=parent)*step<.004
+ for i,a in enumerate(children):
+  for b in children[i+1:]:
+   touching=ndi.binary_dilation(labels==a)&ndi.binary_dilation(labels==b)&near_parent
+   labels[touching&((labels==a)|(labels==b))]=parent
+
+# A close exterior contact must NOT create a fistula or a false arterial branch.
+allowed={tuple(sorted(p)) for p in cfg['connections']}; remove=np.zeros_like(labels,dtype=bool)
+for axis in range(3):
+ s=[slice(None)]*3;t=s.copy();s[axis]=slice(0,-1);t[axis]=slice(1,None);la=labels[tuple(s)];lb=labels[tuple(t)]
+ candidates=(la>0)&(lb>0)&(la!=lb)
+ for a,b in np.unique(np.stack([la[candidates],lb[candidates]],axis=1),axis=0):
+  if tuple(sorted([int(a),int(b)])) in allowed:continue
+  touch=candidates&(la==a)&(lb==b);remove[tuple(s)]|=touch;remove[tuple(t)]|=touch
+labels[remove]=0
+mask=labels>0
+mask[[0,-1],:,:]=False;mask[:,[0,-1],:]=False;mask[:,:,[0,-1]]=False;labels[~mask]=0
+# One connected traversable space per mode is mandatory.
+components,count=ndi.label(mask);sizes=np.bincount(components.ravel());sizes[0]=0;largest=int(sizes.argmax());discarded=int(mask.sum()-sizes[largest]);mask=components==largest;labels[~mask]=0
+distance=ndi.distance_transform_edt(mask).astype(np.float32)*step-step*.5
+smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.55)
+verts,faces,normals,_=marching_cubes(smooth,level=.5,spacing=(step,step,step),allow_degenerate=False)
+verts=(verts[:,::-1]+origin).astype('<f4');normals=normals[:,::-1].astype('<f4');faces=faces.astype('<u4')
+# Remove voxel stair steps without enlarging the uncertainty budget. Taubin
+# smoothing is clamped to 0.18 mm; collision clearance reserves at least 0.28 mm
+# for smoothing and 0.12 mm for subsequent mesh simplification.
+edges=np.concatenate([faces[:,[0,1]],faces[:,[1,2]],faces[:,[2,0]]]);edges=np.concatenate([edges,edges[:,::-1]]);edges=np.unique(edges,axis=0)
+adj=coo_matrix((np.ones(len(edges)),(edges[:,0],edges[:,1])),shape=(len(verts),len(verts))).tocsr();adj=diags(1/np.maximum(1,np.asarray(adj.sum(axis=1)).ravel()))@adj
+original=verts.copy()
+for _ in range(5):
+ for factor in [.45,-.47]:
+  verts=verts+factor*(adj@verts-verts);delta=verts-original;length=np.linalg.norm(delta,axis=1);verts=original+delta*np.minimum(1,.00018/np.maximum(length,1e-12))[:,None]
+verts=verts.astype('<f4');normals=np.zeros_like(verts);face_normals=np.cross(verts[faces[:,1]]-verts[faces[:,0]],verts[faces[:,2]]-verts[faces[:,0]])
+for corner in range(3):np.add.at(normals,faces[:,corner],face_normals)
+normals/=np.maximum(np.linalg.norm(normals,axis=1,keepdims=True),1e-12)
+locations=np.clip(np.round((verts-origin)/step).astype(int),[0,0,0],[nx-1,ny-1,nz-1]);region=labels[locations[:,2],locations[:,1],locations[:,0]]
+missing=np.flatnonzero(region==0)
+if len(missing):
+ inside=np.argwhere(mask);tree=cKDTree(world(inside));_,near=tree.query(verts[missing]);region[missing]=labels[tuple(inside[near].T)]
+colors=np.array([[int(p['color'][i:i+2],16) for i in [1,3,5]] for p in cfg['parts']],dtype=np.uint8)[region-1]
+parts=[]
+for number,part in enumerate(cfg['parts'],1):
+ points=np.argwhere(labels==number)
+ if len(points)<4:raise ValueError('Disconnected/missing anatomical part '+part['name'])
+ clear=distance[tuple(points.T)]-step*.35; valid=points[clear>=.0020]
+ if not len(valid):valid=points[clear>=clear.max()*.85]
+ seed=cfg.get('seeds',{}).get(str(number))
+ if seed:chosen=valid[np.argmin(np.sum((world(valid)-np.array(seed))**2,axis=1))]
+ else:chosen=points[np.argmax(clear)]
+ pos=world(chosen[None,:])[0];parts.append({**part,'id':number,'position':pos.tolist(),'clearance':float(distance[tuple(chosen)]),'center':world(points).mean(axis=0).tolist()})
+
+# Preserve conservative clearance, including the smoothing displacement.
+clearance=np.floor(np.maximum(0,distance-step*.35)/.00025).clip(0,255).astype(np.uint8)
+surface=verts.tobytes()+normals.tobytes()+colors.tobytes()+faces.tobytes()
+volume=clearance.tobytes()+labels.tobytes()
+report={'vertices':len(verts),'triangles':len(faces),'surfaceBytes':len(surface),'distanceUnit':.00025,'parts':parts,'junctions':junctions,'discardedVoxels':discarded,'componentsBeforeCleanup':int(count),'gridBytes':len(volume),'limits':'Navigation cavity reconstructed from exterior source surfaces; not measured lumen or histology.'}
+sys.stdout.buffer.write((json.dumps(report)+'\n').encode());sys.stdout.buffer.write(surface);sys.stdout.buffer.write(volume)

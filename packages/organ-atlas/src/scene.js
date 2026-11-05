@@ -38,8 +38,9 @@ export class AtlasScene{
  this.renderer.domElement.addEventListener('pointercancel',e=>{down=null;pointers.delete(e.pointerId);if(!pointers.size)multi=false});
  this.renderer.domElement.addEventListener('pointermove',e=>{if(pointers.size)return;const id=hit(e);if(this.hover!==id||this.hoverPart!==this.lastHit?.partId)this.dirty=true;this.hover=id;this.hoverPart=this.lastHit?.partId;host.style.cursor=id?'pointer':'grab';onHover(id,this.lastHit?.partId?selectionEnglishName({id:this.lastHit.partId,organId:this.lastHit.organId,detail:this.lastHit.detail}):null)});
  this.renderer.domElement.addEventListener('pointerleave',()=>{this.hover=null;this.hoverPart=null;this.dirty=true;onHover(null)});
- this.observer=new ResizeObserver(()=>this.resize());this.observer.observe(host);this.effect={effect:'normal',intensity:.65};this.setView(Object.keys(models)[0]||'heart');this.last=performance.now();this.renderFrame=t=>this.frame(t);this.visibilityHandler=()=>{if(document.hidden)this.renderer.setAnimationLoop(null);else{this.last=performance.now();this.dirty=true;this.renderer.setAnimationLoop(this.renderFrame);}};document.addEventListener('visibilitychange',this.visibilityHandler);this.visibilityHandler();
+ this.observer=new ResizeObserver(()=>this.resize());this.observer.observe(host);this.effect={effect:'normal',intensity:.65};this.setView(Object.keys(models)[0]||'heart');this.last=performance.now();this.renderFrame=t=>this.frame(t);this.visibilityHandler=()=>{if(document.hidden||this.suspended)this.renderer.setAnimationLoop(null);else{this.last=performance.now();this.dirty=true;this.renderer.setAnimationLoop(this.renderFrame);}};document.addEventListener('visibilitychange',this.visibilityHandler);this.visibilityHandler();
  }
+ setSuspended(value){this.suspended=!!value;this.controls.enabled=!this.suspended;this.visibilityHandler();}
  rotateWithKey(key){
  const target=this.controls.target.clone(),position=this.focusTransition?.position||this.camera.position;
  const spherical=new T.Spherical().setFromVector3(position.clone().sub(target)),step=Math.PI/36;

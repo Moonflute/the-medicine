@@ -1,0 +1,52 @@
+# 1인칭 내부 탐험
+
+Atlas 모델 화면의 **내부 탐험**에서 진입한다. 기존 Atlas의 시점·선택·절개 상태를 유지한 채 렌더링을 중단하고, 탐험을 닫으면 그대로 재개한다. 탐험 코드와 해당 영역의 표면·충돌 데이터만 지연 로드한다.
+
+## 범위와 의학적 한계
+
+- 구강 → 구인두·후두인두 → 식도 → 위 → 십이지장.
+- 인두에서 전방의 후두 입구 → 기관 → 좌·우주기관지로 분기.
+- 별도 영역: 상행대동맥 → 대동맥활 → 흉부대동맥, 팔머리동맥·좌총경동맥·좌쇄골하동맥, 우총경동맥·우쇄골하동맥.
+- 소화관과 혈관 사이에 통로를 만들지 않는다. 혈관은 영역 선택으로 전환한다.
+- 십이지장 이후 소장·대장, 세기관지·폐포, 모세혈관·정맥 및 심장 내부 순환은 이번 탐험 범위에 포함하지 않는다. 범위 끝의 폐쇄면은 해부학적 맹단이 아니라 데이터 제공 경계이다.
+
+기존 Z-Anatomy의 원본 공통 좌표를 사용한다(+X 인체 좌측, +Y 위, +Z 앞; m). 식도는 원본의 내·외벽 교차 중 내강을 사용한다. 위·십이지장·기관·기관지·혈관은 원본 표면에서 **탐색용 내부 공간을 재구성**한다. 구강·인두·후두 입구는 기존 혀·식도·기관의 위치를 참고한 모식 보강이다. 다른 좌표계의 HRA/BP3D 장기를 임의 병합하지 않는다.
+
+이는 임상 내시경 영상이나 CT에서 분할한 실제 내강 자료가 아니다. 점막 주름·성대·후두개 개폐·괄약근·벽 두께·팽창 및 생리적 변형은 검증된 재현 범위가 아니다. 내부 표면의 작은 다각형이나 요철을 실제 조직학적 구조로 해석하면 안 된다. 원본의 상대 위치와 연결 방향을 재사용한 탐험 프로토타입이다.
+
+해부학적 연결 참고:
+
+- [OpenStax: Mouth, pharynx and esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus)
+- [OpenStax: Respiratory structures](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system)
+- [OpenStax: Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach)
+- [OpenStax: Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines)
+- [OpenStax: Circulatory pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways)
+
+## 생성 및 검증
+
+`node build-journey.mjs` (Python: numpy, scipy, scikit-image 필요). 브라우저에는 이 빌드 의존성을 추가하지 않는다.
+
+1. 기존 압축 GLB와 원본 mesh identity를 읽고 3방향 내부 교차를 결합한다. 원본 파일은 변경하지 않는다.
+2. 장기별 작은 열린 표면 틈을 보완한다. 허용한 연결부만 내부 중심 사이를 잇는다. 각 연결의 원본 표면 간격·재구성 길이·반경·좌표를 manifest에 기록한다.
+3. 분지 기시부는 부모 관강에 속하도록 처리한다. 그 외 서로 인접한 식도와 기관 등의 벽 접촉은 연결로 취급하지 않는다.
+4. 같은 voxel mask에서 화면 표면과 보수적인 거리 필드를 생성한다. 평활화 이동을 0.18 mm, 표면 단순화 오차를 0.12 mm로 제한한다. 단순화 후 비다양체 모서리가 생기면 원래 표면을 유지한다.
+5. 필요한 영역 하나만 로드한다. 충돌 필드는 빈 공간을 버리는 8³ 블록으로 메모리에 보관한다. WebGL은 한 표면·공유 재질, 그림자와 후처리 없이 변경 때만 그린다.
+
+`python verify-journey.py`: 장기 간 허용 연결, 최소 탐험 크기에서 모든 목적지 연결, 닫힌 표면 검사.
+
+`node verify-journey.mjs`: 실제 거리 필드와 화면 벽 간 여유, 전후 왕복, 분기 이동, 벽을 따라 미끄러짐, 큰 프레임 이동의 관통 방지, 각 목적지까지 실제 격자 경로의 왕복 통과 검사.
+
+검사의 의미는 **구현된 모델의 연결·충돌 정합성**이다. 의학적 내강 모양이나 개인의 해부학을 임상 검증했다는 뜻이 아니다. 큰 탐험 크기는 좁은 구간을 통과하지 못할 수 있다. 그 자리에서 크기를 늘릴 공간이 없으면 위치를 강제로 옮기지 않고 거절한다.
+
+## 입력·수명 주기
+
+- W/A/S/D 이동, Q/E 수직 이동, 드래그·방향키 시선, Shift 가속.
+- 모바일 조이스틱 이동 + 별도 포인터 드래그 시선 + 상하 버튼.
+- 카메라 반경을 고려하는 세분화된 swept sphere와 벽 접선 이동. 레일 이동이나 충돌 시 텔레포트는 없다.
+- 포커스 상실·탭 숨김에서 입력을 비운다. 도움말을 펼치면 움직임을 멈춘다. 크기 변경·위치 지도 토글은 시점을 바꾸지 않는다.
+- 영역 교체·닫기에서 이전 geometry/material/renderer/listener를 해제한다. 로딩이 늦게 끝나도 닫힌 화면에 붙이지 않고 해제한다.
+- 여섯 개 `journey-*` 파일의 해시를 기존 전체 모델 저장 목록에 포함한다. 기존 사용자 선택 기반 로컬 저장 정책을 따른다.
+
+## 자산 저작권
+
+파생 자료: Z-Anatomy / Gauthier Kervyn, Marcin Zielinski 및 기여자; 기반 BodyParts3D / DBCLS, Kousaku Okubo 및 기여자. 원본·별도 권리 표시는 [원본 저장소](https://github.com/Z-Anatomy/Models-of-human-anatomy), 기존 `CREDITS.html`, `z-whole-manifest.json`을 따른다. 이번 탐험 파생 표면·충돌 필드는 CC BY-SA 4.0으로 제공한다. 생성 manifest에 원본 해시와 변경 내용을 기록한다.
