@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import * as T from 'three';
 import {JourneyControls} from './src/journey/controls.js';
 import {JOURNEY_RADIUS,JourneyPerspective,anatomicalHeading} from './src/journey/perspective.js';
+import {compatibleJourneyFrames} from './src/journey/context.js';
 
 // Exercise the production controller without a WebGL context.
 globalThis.window=new EventTarget();globalThis.document=new EventTarget();
@@ -41,5 +42,7 @@ assert.deepEqual([...camera.position.toArray(),...camera.quaternion.toArray()],p
 assert(camera.near<JOURNEY_RADIUS/4,'near clipping stays inside the smaller collision radius');
 lens.setRadius(JOURNEY_RADIUS,{immediate:true});assert.equal(camera.fov,76,'restoring a world restores its size view');
 const reduced=new JourneyPerspective(camera,{reducedMotion:true});reduced.setRadius(JOURNEY_RADIUS/4);assert.equal(camera.fov,96);assert.equal(reduced.update(.05),false,'reduced motion skips the transition');
+assert(compatibleJourneyFrames({key:'upper'},{coordinateFrame:'z-anatomy'}),'existing Z-Anatomy regions retain nearby-coordinate transfer');
+assert(!compatibleJourneyFrames({key:'upper'},{coordinateFrame:'hra-united-male-v1.10'}),'different specimens must not inherit nearby coordinates');
 for(const [axis,label]of [[[1,0,0],'왼쪽 L'],[[-1,0,0],'오른쪽 R'],[[0,1,0],'머리쪽 S'],[[0,-1,0],'발쪽 I'],[[0,0,1],'앞쪽 A'],[[0,0,-1],'뒤쪽 P']])assert.equal(anatomicalHeading(new T.Vector3(...axis)),label);
 console.log(JSON.stringify({screenRelativeDirections:directions,touchBasis:true,sizeSpeed:true,collision:true,visibleScale:true,cameraPreserved:true,reducedMotion:true,anatomicalAxes:true}));

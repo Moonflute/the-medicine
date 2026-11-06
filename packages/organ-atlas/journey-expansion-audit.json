@@ -1,0 +1,906 @@
+{
+  "method": "Original world-space vertices to source triangle surface; no cross-specimen alignment",
+  "modes": {
+    "airways": {
+      "file": "lungs.glb.gz",
+      "sha256": "c5c299bcdad97855778fd11ff7f0c383a557e43d32a30c5d6b803b3809435764",
+      "coordinateFrame": "hra-united-male-v1.10",
+      "parts": 29,
+      "junctions": [
+        {
+          "from": 1,
+          "to": 2,
+          "fromName": "Trachea",
+          "toName": "Left main bronchus",
+          "gapMetres": 0,
+          "source": [
+            -0.002954103983938694,
+            0.535203754901886,
+            -0.006122064311057329
+          ],
+          "target": [
+            -0.002954103983938694,
+            0.535203754901886,
+            -0.006122064311057329
+          ]
+        },
+        {
+          "from": 1,
+          "to": 3,
+          "fromName": "Trachea",
+          "toName": "Right main bronchus",
+          "gapMetres": 0,
+          "source": [
+            -0.007192324381321669,
+            0.5355730056762695,
+            -0.005160791799426079
+          ],
+          "target": [
+            -0.007192324381321669,
+            0.5355730056762695,
+            -0.005160791799426079
+          ]
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "fromName": "Left main bronchus",
+          "toName": "Left superior lobar bronchus",
+          "gapMetres": 0,
+          "source": [
+            0.04736608266830444,
+            0.5093055367469788,
+            -0.015847222879529
+          ],
+          "target": [
+            0.04736608266830444,
+            0.5093055367469788,
+            -0.015847222879529
+          ]
+        },
+        {
+          "from": 2,
+          "to": 5,
+          "fromName": "Left main bronchus",
+          "toName": "Left inferior lobar bronchus",
+          "gapMetres": 0,
+          "source": [
+            0.04736608266830444,
+            0.5093055367469788,
+            -0.015847222879529
+          ],
+          "target": [
+            0.04736608266830444,
+            0.5093055367469788,
+            -0.015847222879529
+          ]
+        },
+        {
+          "from": 3,
+          "to": 6,
+          "fromName": "Right main bronchus",
+          "toName": "Right superior lobar bronchus",
+          "gapMetres": 0,
+          "source": [
+            -0.025004122406244278,
+            0.5324719548225403,
+            -0.004045190755277872
+          ],
+          "target": [
+            -0.025004122406244278,
+            0.5324719548225403,
+            -0.004045190755277872
+          ]
+        },
+        {
+          "from": 3,
+          "to": 7,
+          "fromName": "Right main bronchus",
+          "toName": "Bronchus intermedius",
+          "gapMetres": 0,
+          "source": [
+            -0.022326234728097916,
+            0.5295608043670654,
+            -0.016661813482642174
+          ],
+          "target": [
+            -0.022326234728097916,
+            0.5295608043670654,
+            -0.016661813482642174
+          ]
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "fromName": "Bronchus intermedius",
+          "toName": "Right middle lobar bronchus",
+          "gapMetres": 0,
+          "source": [
+            -0.0396125502884388,
+            0.501512885093689,
+            -0.00666230171918869
+          ],
+          "target": [
+            -0.0396125502884388,
+            0.501512885093689,
+            -0.00666230171918869
+          ]
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "fromName": "Bronchus intermedius",
+          "toName": "Right inferior lobar bronchus",
+          "gapMetres": 0,
+          "source": [
+            -0.0396125502884388,
+            0.501512885093689,
+            -0.00666230171918869
+          ],
+          "target": [
+            -0.0396125502884388,
+            0.501512885093689,
+            -0.00666230171918869
+          ]
+        },
+        {
+          "from": 4,
+          "to": 10,
+          "fromName": "Left superior lobar bronchus",
+          "toName": "Left apical bronchus",
+          "gapMetres": 0,
+          "source": [
+            0.05868838354945183,
+            0.5221492648124695,
+            -0.008011438883841038
+          ],
+          "target": [
+            0.05868838354945183,
+            0.5221492648124695,
+            -0.008011438883841038
+          ]
+        },
+        {
+          "from": 4,
+          "to": 11,
+          "fromName": "Left superior lobar bronchus",
+          "toName": "Left anterior segmental bronchus (B3)",
+          "gapMetres": 0,
+          "source": [
+            0.058658260852098465,
+            0.5199888944625854,
+            -0.0057063838467001915
+          ],
+          "target": [
+            0.058658260852098465,
+            0.5199888944625854,
+            -0.0057063838467001915
+          ]
+        },
+        {
+          "from": 4,
+          "to": 12,
+          "fromName": "Left superior lobar bronchus",
+          "toName": "Left lingular bronchus",
+          "gapMetres": 0,
+          "source": [
+            0.05823400244116783,
+            0.5101955533027649,
+            -0.006437189411371946
+          ],
+          "target": [
+            0.05823400244116783,
+            0.5101955533027649,
+            -0.006437189411371946
+          ]
+        },
+        {
+          "from": 12,
+          "to": 13,
+          "fromName": "Left lingular bronchus",
+          "toName": "Left superior lingular bronchus (B4)",
+          "gapMetres": 0,
+          "source": [
+            0.07296054065227509,
+            0.4909615218639374,
+            0.012559712864458561
+          ],
+          "target": [
+            0.07296054065227509,
+            0.4909615218639374,
+            0.012559712864458561
+          ]
+        },
+        {
+          "from": 12,
+          "to": 14,
+          "fromName": "Left lingular bronchus",
+          "toName": "Left inferior lingular bronchus (B5)",
+          "gapMetres": 0,
+          "source": [
+            0.07124975323677063,
+            0.48837924003601074,
+            0.010433843359351158
+          ],
+          "target": [
+            0.07124975323677063,
+            0.48837924003601074,
+            0.010433843359351158
+          ]
+        },
+        {
+          "from": 5,
+          "to": 15,
+          "fromName": "Left inferior lobar bronchus",
+          "toName": "Left superior segmental bronchus (B6)",
+          "gapMetres": 0,
+          "source": [
+            0.0447966568171978,
+            0.5048131942749023,
+            -0.02824661135673523
+          ],
+          "target": [
+            0.0447966568171978,
+            0.5048131942749023,
+            -0.02824661135673523
+          ]
+        },
+        {
+          "from": 5,
+          "to": 16,
+          "fromName": "Left inferior lobar bronchus",
+          "toName": "Left medial basal bronchus (B7)",
+          "gapMetres": 0,
+          "source": [
+            0.05515597388148308,
+            0.49137935042381287,
+            -0.019905924797058105
+          ],
+          "target": [
+            0.05515597388148308,
+            0.49137935042381287,
+            -0.019905924797058105
+          ]
+        },
+        {
+          "from": 5,
+          "to": 17,
+          "fromName": "Left inferior lobar bronchus",
+          "toName": "Left anterior basal bronchus (B8)",
+          "gapMetres": 0,
+          "source": [
+            0.05580386146903038,
+            0.49313563108444214,
+            -0.02060176245868206
+          ],
+          "target": [
+            0.05580386146903038,
+            0.49313563108444214,
+            -0.02060176245868206
+          ]
+        },
+        {
+          "from": 5,
+          "to": 18,
+          "fromName": "Left inferior lobar bronchus",
+          "toName": "Left lateral basal bronchus (B9)",
+          "gapMetres": 0,
+          "source": [
+            0.05823788046836853,
+            0.4835893213748932,
+            -0.030034560710191727
+          ],
+          "target": [
+            0.05823788046836853,
+            0.4835893213748932,
+            -0.030034560710191727
+          ]
+        },
+        {
+          "from": 5,
+          "to": 19,
+          "fromName": "Left inferior lobar bronchus",
+          "toName": "Left posterior basal bronchus (B10)",
+          "gapMetres": 0,
+          "source": [
+            0.05303243547677994,
+            0.4814411699771881,
+            -0.03704693540930748
+          ],
+          "target": [
+            0.05303243547677994,
+            0.4814411699771881,
+            -0.03704693540930748
+          ]
+        },
+        {
+          "from": 6,
+          "to": 20,
+          "fromName": "Right superior lobar bronchus",
+          "toName": "Right apical segmental bronchus (B1)",
+          "gapMetres": 0,
+          "source": [
+            -0.040573395788669586,
+            0.540684163570404,
+            -0.007817818783223629
+          ],
+          "target": [
+            -0.040573395788669586,
+            0.540684163570404,
+            -0.007817818783223629
+          ]
+        },
+        {
+          "from": 6,
+          "to": 21,
+          "fromName": "Right superior lobar bronchus",
+          "toName": "Right posterior segmental bronchus (B2)",
+          "gapMetres": 0,
+          "source": [
+            -0.042117126286029816,
+            0.5324450135231018,
+            -0.016983866691589355
+          ],
+          "target": [
+            -0.042117126286029816,
+            0.5324450135231018,
+            -0.016983866691589355
+          ]
+        },
+        {
+          "from": 6,
+          "to": 22,
+          "fromName": "Right superior lobar bronchus",
+          "toName": "Right anterior segmental bronchus (B3)",
+          "gapMetres": 0,
+          "source": [
+            -0.0432177297770977,
+            0.528954267501831,
+            -0.006288950331509113
+          ],
+          "target": [
+            -0.0432177297770977,
+            0.528954267501831,
+            -0.006288950331509113
+          ]
+        },
+        {
+          "from": 8,
+          "to": 23,
+          "fromName": "Right middle lobar bronchus",
+          "toName": "Right lateral segmental bronchus (B4)",
+          "gapMetres": 0,
+          "source": [
+            -0.055695515125989914,
+            0.4962669312953949,
+            0.005235312040895224
+          ],
+          "target": [
+            -0.055695515125989914,
+            0.4962669312953949,
+            0.005235312040895224
+          ]
+        },
+        {
+          "from": 8,
+          "to": 24,
+          "fromName": "Right middle lobar bronchus",
+          "toName": "Right medial segmental bronchus (B5)",
+          "gapMetres": 0,
+          "source": [
+            -0.051306504756212234,
+            0.4895751476287842,
+            0.0073819635435938835
+          ],
+          "target": [
+            -0.051306504756212234,
+            0.4895751476287842,
+            0.0073819635435938835
+          ]
+        },
+        {
+          "from": 9,
+          "to": 25,
+          "fromName": "Right inferior lobar bronchus",
+          "toName": "Right superior segmental bronchus (B6)",
+          "gapMetres": 0,
+          "source": [
+            -0.04518190398812294,
+            0.49955040216445923,
+            -0.02594662643969059
+          ],
+          "target": [
+            -0.04518190398812294,
+            0.49955040216445923,
+            -0.02594662643969059
+          ]
+        },
+        {
+          "from": 9,
+          "to": 26,
+          "fromName": "Right inferior lobar bronchus",
+          "toName": "Right medial basal bronchus (B7)",
+          "gapMetres": 0,
+          "source": [
+            -0.03634552285075188,
+            0.48233333230018616,
+            -0.019604716449975967
+          ],
+          "target": [
+            -0.03634552285075188,
+            0.48233333230018616,
+            -0.019604716449975967
+          ]
+        },
+        {
+          "from": 9,
+          "to": 27,
+          "fromName": "Right inferior lobar bronchus",
+          "toName": "Right anterior basal bronchus (B8)",
+          "gapMetres": 0,
+          "source": [
+            -0.050875719636678696,
+            0.49111685156822205,
+            -0.026396416127681732
+          ],
+          "target": [
+            -0.050875719636678696,
+            0.49111685156822205,
+            -0.026396416127681732
+          ]
+        },
+        {
+          "from": 9,
+          "to": 28,
+          "fromName": "Right inferior lobar bronchus",
+          "toName": "Right lateral basal bronchus (B9)",
+          "gapMetres": 2.4268316622852282e-9,
+          "source": [
+            -0.049555253237485886,
+            0.4908875823020935,
+            -0.02837449498474598
+          ],
+          "target": [
+            -0.04955525468025234,
+            0.4908875834459999,
+            -0.028374496565699802
+          ]
+        },
+        {
+          "from": 9,
+          "to": 29,
+          "fromName": "Right inferior lobar bronchus",
+          "toName": "Right posterior basal bronchus (B10)",
+          "gapMetres": 0,
+          "source": [
+            -0.044156692922115326,
+            0.48365694284439087,
+            -0.025535553693771362
+          ],
+          "target": [
+            -0.044156692922115326,
+            0.48365694284439087,
+            -0.025535553693771362
+          ]
+        }
+      ],
+      "junctionAnchors": {
+        "9:28": [
+          -0.049555254,
+          0.490887583,
+          -0.028374496
+        ],
+        "9:29": [
+          -0.044156693,
+          0.483656943,
+          -0.025535554
+        ]
+      },
+      "trachealWall": {
+        "boundaryEdges": 78,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          4,
+          4,
+          4
+        ]
+      },
+      "interpretation": "Trachea has inner/outer crossings: use the inner lumen. Bronchial source surfaces are navigation reconstructions; not measured mucosa."
+    },
+    "thoracic-veins": {
+      "file": "z-whole-veins-optimized.glb.gz",
+      "sha256": "b3138bcc07314a7eed4ea5b669dab6ff0db3906d1a48e4400039dfeea8d98707",
+      "coordinateFrame": "z-anatomy",
+      "parts": 9,
+      "junctions": [
+        {
+          "from": 1,
+          "to": 2,
+          "fromName": "Superior vena cava",
+          "toName": "Left brachiocephalic vein",
+          "gapMetres": 0.0003368846381594581,
+          "source": [
+            -0.01745866984128952,
+            1.3772107362747192,
+            0.013435415923595428
+          ],
+          "target": [
+            -0.017380757920927324,
+            1.3771093866372868,
+            0.013747103656888882
+          ]
+        },
+        {
+          "from": 1,
+          "to": 3,
+          "fromName": "Superior vena cava",
+          "toName": "Right brachiocephalic vein",
+          "gapMetres": 0.00002641866688450745,
+          "source": [
+            -0.01745866984128952,
+            1.3772107362747192,
+            0.013435415923595428
+          ],
+          "target": [
+            -0.017457486265095933,
+            1.3772022982395749,
+            0.013460422816050322
+          ]
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "fromName": "Left brachiocephalic vein",
+          "toName": "Left subclavian vein",
+          "gapMetres": 0.00008017950974533738,
+          "source": [
+            0.029843030497431755,
+            1.409114122390747,
+            0.021088844165205956
+          ],
+          "target": [
+            0.0298626617034695,
+            1.4090578211931228,
+            0.021142449619019756
+          ]
+        },
+        {
+          "from": 3,
+          "to": 5,
+          "fromName": "Right brachiocephalic vein",
+          "toName": "Right subclavian vein",
+          "gapMetres": 0.000027536686309968768,
+          "source": [
+            -0.02920791320502758,
+            1.4092479944229126,
+            0.020312536507844925
+          ],
+          "target": [
+            -0.029211465246005614,
+            1.4092311490790244,
+            0.020291044963295708
+          ]
+        },
+        {
+          "from": 2,
+          "to": 6,
+          "fromName": "Left brachiocephalic vein",
+          "toName": "Left internal jugular vein",
+          "gapMetres": 0.00005744414934543182,
+          "source": [
+            0.020150111988186836,
+            1.4144351482391357,
+            0.01973177306354046
+          ],
+          "target": [
+            0.020093564264479807,
+            1.4144452564702492,
+            0.019731678716677928
+          ]
+        },
+        {
+          "from": 3,
+          "to": 7,
+          "fromName": "Right brachiocephalic vein",
+          "toName": "Right internal jugular vein",
+          "gapMetres": 0.000020061504163955907,
+          "source": [
+            -0.02814388833940029,
+            1.4116135835647583,
+            0.01534575317054987
+          ],
+          "target": [
+            -0.028126713120926957,
+            1.4116162319577037,
+            0.01535577623567589
+          ]
+        },
+        {
+          "from": 4,
+          "to": 8,
+          "fromName": "Left subclavian vein",
+          "toName": "Left axillary vein",
+          "gapMetres": 0.00011741175425021504,
+          "source": [
+            0.09201917052268982,
+            1.3970801830291748,
+            0.002332765609025955
+          ],
+          "target": [
+            0.09206608689601788,
+            1.3971876730786728,
+            0.0023272644083584906
+          ]
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "fromName": "Right subclavian vein",
+          "toName": "Right axillary vein",
+          "gapMetres": 0.00011741210333913923,
+          "source": [
+            -0.09201917052268982,
+            1.3970801830291748,
+            0.002332773059606552
+          ],
+          "target": [
+            -0.09206608703550975,
+            1.3971876733982624,
+            0.002327271842582905
+          ]
+        }
+      ],
+      "junctionAnchors": {}
+    },
+    "vessels": {
+      "file": "z-whole-arteries-optimized.glb.gz",
+      "sha256": "4fee06b4f7b206eff33308d756bc8c9a763188efbdfad75a5bfd349281ac466f",
+      "coordinateFrame": "z-anatomy",
+      "parts": 32,
+      "junctions": [
+        {
+          "from": 1,
+          "to": 30,
+          "fromName": "Ascending aorta",
+          "toName": "Right coronary artery",
+          "gapMetres": 0.001525046864386833,
+          "source": [
+            0.0015185270458459854,
+            1.3307324647903442,
+            0.0422416627407074
+          ],
+          "target": [
+            0.0029407634963917848,
+            1.3311327795535903,
+            0.04186382744902301
+          ]
+        },
+        {
+          "from": 1,
+          "to": 31,
+          "fromName": "Ascending aorta",
+          "toName": "Left coronary artery",
+          "gapMetres": 8.632763789842862e-7,
+          "source": [
+            0.028230220079421997,
+            1.3293955326080322,
+            0.02027183398604393
+          ],
+          "target": [
+            0.028230601048483076,
+            1.3293956495060686,
+            0.020271068190033163
+          ]
+        },
+        {
+          "from": 31,
+          "to": 32,
+          "fromName": "Left coronary artery",
+          "toName": "Anterior interventricular artery (LAD)",
+          "gapMetres": 0.000022928904650911343,
+          "source": [
+            0.03506908938288689,
+            1.3221733570098877,
+            0.025303442031145096
+          ],
+          "target": [
+            0.035077217669615836,
+            1.322194175541529,
+            0.02529831812993174
+          ]
+        }
+      ],
+      "junctionAnchors": {}
+    }
+  },
+  "heart": {
+    "file": "heart.glb.gz",
+    "sha256": "0f402c25fd939cb954b8fdff06ecdfbf6be13ffc5f0023e5caa7fe20eec7ffd4",
+    "coordinateFrame": "hra-united-male-v1.10",
+    "status": "source-available; endocardial cavity and moving-valve collision not yet validated",
+    "parts": [
+      {
+        "name": "left_cardiac_atrium",
+        "sourceId": "VH_M_left_cardiac_atrium",
+        "vertices": 16967,
+        "center": [
+          0.004368528723716736,
+          0.49263429641723633,
+          0.008459103759378195
+        ],
+        "extent": [
+          0.07296187430620193,
+          0.07215559482574463,
+          0.04697164613753557
+        ],
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "right_cardiac_atrium",
+        "sourceId": "VH_M_right_cardiac_atrium",
+        "vertices": 23884,
+        "center": [
+          -0.017376608680933714,
+          0.48090697824954987,
+          0.03437812195625156
+        ],
+        "extent": [
+          0.05214328411966562,
+          0.09579882025718689,
+          0.06281008687801659
+        ],
+        "boundaryEdges": 3,
+        "nonManifoldEdges": 158,
+        "centralAxisCrossingCounts": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "heart_left_ventricle",
+        "sourceId": "VH_M_heart_left_ventricle",
+        "vertices": 4677,
+        "center": [
+          0.042720824712887406,
+          0.46430058777332306,
+          0.041465983260422945
+        ],
+        "extent": [
+          0.0763642187230289,
+          0.07681199908256531,
+          0.09260500874370337
+        ],
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "heart_right_ventricle",
+        "sourceId": "VH_M_heart_right_ventricle",
+        "vertices": 13761,
+        "center": [
+          0.01766073238104582,
+          0.47220833599567413,
+          0.05751666333526373
+        ],
+        "extent": [
+          0.08311894722282887,
+          0.09767434000968933,
+          0.06534370966255665
+        ],
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          2,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "mitral_valve",
+        "sourceId": "VH_M_mitral_valve",
+        "vertices": 3234,
+        "center": [
+          0.022672777296975255,
+          0.4770716577768326,
+          0.011689016129821539
+        ],
+        "extent": [
+          0.03659698134288192,
+          0.04108533263206482,
+          0.030456450767815113
+        ],
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "tricuspid_valve",
+        "sourceId": "VH_M_tricuspid_valve",
+        "vertices": 6245,
+        "center": [
+          -0.005493632983416319,
+          0.4599423408508301,
+          0.04568749759346247
+        ],
+        "extent": [
+          0.0377279045060277,
+          0.046192467212677,
+          0.03760090284049511
+        ],
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "aortic_valve",
+        "sourceId": "VH_M_aortic_valve",
+        "vertices": 1372,
+        "center": [
+          0.006816074019297957,
+          0.49922141432762146,
+          0.028638347052037716
+        ],
+        "extent": [
+          0.024673980195075274,
+          0.025410473346710205,
+          0.021457063034176826
+        ],
+        "boundaryEdges": 72,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          4,
+          2,
+          4
+        ]
+      },
+      {
+        "name": "pulmonary_valve",
+        "sourceId": "VH_M_pulmonary_valve",
+        "vertices": 6644,
+        "center": [
+          0.01722372812218964,
+          0.5084957033395767,
+          0.042280497029423714
+        ],
+        "extent": [
+          0.025717133190482855,
+          0.024220913648605347,
+          0.023022275418043137
+        ],
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "centralAxisCrossingCounts": [
+          8,
+          2,
+          2
+        ]
+      }
+    ],
+    "nextChecks": [
+      "Identify enclosed blood-space separately from myocardium",
+      "Review each AV/outflow ostium and septal separation",
+      "Preserve valve tissue as an obstacle and validate an open-phase passage",
+      "Register to Z-Anatomy only if independent landmarks pass; otherwise retain a separate specimen"
+    ]
+  }
+}

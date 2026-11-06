@@ -7,7 +7,7 @@ from scipy.spatial import cKDTree
 from skimage.graph import MCP_Geometric
 
 base=Path(__file__).parent/'static/models/current'
-for key in ([sys.argv[1]] if len(sys.argv)>1 else ['upper','vessels','veins']):
+for key in ([sys.argv[1]] if len(sys.argv)>1 else ['upper','airways','vessels','veins','thoracic-veins']):
  m=json.loads((base/f'journey-{key}.json').read_text(encoding='utf8'))
  shape=tuple(reversed(m['dimensions']));n=int(np.prod(shape))
  packed=gzip.decompress((base/f'journey-{key}-volume.bin.gz').read_bytes())
@@ -29,8 +29,8 @@ for key in ([sys.argv[1]] if len(sys.argv)>1 else ['upper','vessels','veins']):
   if radius==.0004:assert all(ids),'Start point is outside navigable volume'
   radii[str(radius)]=ids
   if radius==.0004:assert len(set(ids))==1,f'{key}: some anatomical destinations cannot be reached at the smallest size: {ids}'
-  if radius==.0016 and key in ['vessels','veins']:
-   trunks=[1,2,3,9] if key=='vessels' else [1,2]
+  if radius==.0016 and key in ['vessels','veins','airways','thoracic-veins']:
+   trunks=[1,2,3,9] if key=='vessels' else [1,2,3,4,5,6,7,8,9] if key=='airways' else [1,2,3] if key=='thoracic-veins' else [1,2]
    trunk_ids=[ids[i-1] for i in trunks]
    assert all(trunk_ids) and len(set(trunk_ids))==1,f'{key}: source trunk seams create an artificial bottleneck'
  # Contact graph must exactly match the anatomical allowlist, after collapsing

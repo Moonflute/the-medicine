@@ -18,6 +18,19 @@ labels=raw[:n].reshape((nz,ny,nx)).copy();obstacles=raw[n:].reshape((nz,ny,nx)).
 
 def world(indices): return indices[:,::-1]*step+origin
 def index(point): return np.round((np.array(point)-origin)/step).astype(int)[::-1]
+
+def bounded_distance(mask,limit=.065):
+ # Only distances below the field's 63.75 mm storage ceiling matter. Slabs with
+ # a larger halo preserve those exact Euclidean distances without allocating
+ # scipy's full-body 3-axis index/double buffers at coronary resolution.
+ axis=int(np.argmax(mask.shape));halo=int(np.ceil(limit/step))+2;result=np.empty(mask.shape,dtype=np.float32)
+ for begin in range(0,mask.shape[axis],80):
+  end=min(begin+80,mask.shape[axis]);lo=max(0,begin-halo);hi=min(mask.shape[axis],end+halo)
+  source=[slice(None)]*3;source[axis]=slice(lo,hi);core=[slice(None)]*3;core[axis]=slice(begin-lo,end-lo);target=[slice(None)]*3;target[axis]=slice(begin,end)
+  d=ndi.distance_transform_edt(mask[tuple(source)])
+  result[tuple(target)]=np.minimum(d[tuple(core)]*step,limit)
+  del d
+ return result
 def stamp_capsule(a,b,r,label):
  a,b=np.array(a),np.array(b); lo=np.maximum(0,np.floor((np.minimum(a,b)-r-origin)/step).astype(int)); hi=np.minimum([nx-1,ny-1,nz-1],np.ceil((np.maximum(a,b)+r-origin)/step).astype(int))
  if np.any(lo>hi): return
@@ -74,8 +87,9 @@ for part in range(1,len(cfg['parts'])+1):
  # Some supplied exterior meshes have tiny open seams (odd ray intersections).
  # Repair only within this one region; do not close across separate organs.
  if cfg['parts'][part-1].get('sourceSweep'):continue
- lo=np.maximum(0,points.min(axis=0)-3);hi=np.minimum(labels.shape,points.max(axis=0)+4);slices=tuple(slice(int(a),int(b)) for a,b in zip(lo,hi));sub=labels[slices];mask=sub==part
- filled=ndi.binary_fill_holes(ndi.binary_closing(mask,iterations=2))
+ repair_steps=max(1,int(np.ceil(cfg.get('sourceSeamRadius',step*2)/step-1e-9)));padding=repair_steps+1
+ lo=np.maximum(0,points.min(axis=0)-padding);hi=np.minimum(labels.shape,points.max(axis=0)+padding+1);slices=tuple(slice(int(a),int(b)) for a,b in zip(lo,hi));sub=labels[slices];mask=sub==part
+ filled=ndi.binary_fill_holes(ndi.binary_closing(mask,iterations=repair_steps))
  sub[filled&(sub==0)]=part
 
 distance_cache={}
@@ -96,9 +110,17 @@ for a,b in cfg['bridges']:
  if cfg['key']!='upper':
   # Narrow branch origins must be searched locally. A whole-vessel maximum
   # can otherwise choose a distant wider segment and bridge over real bends.
-  near_distance,near_source=cKDTree(surface_a).query(surface_b,k=1);contact=int(np.argmin(near_distance));mid=(surface_a[near_source[contact]]+surface_b[contact])*.5
+  anchor=cfg.get('junctionAnchors',{}).get(f'{a}:{b}')
+  if anchor:mid=(np.array(anchor)-origin)[::-1]/step
+  else:
+   search_window=junction_windows.get(f'{a}:{b}')
+   search_a=surface_a[in_window(surface_a,search_window)] if search_window else surface_a
+   search_b=surface_b[in_window(surface_b,search_window)] if search_window else surface_b
+   if not len(search_a) or not len(search_b):raise ValueError(f'Missing reviewed source contact {a}->{b}')
+   near_distance,near_source=cKDTree(search_a).query(search_b,k=1);contact=int(np.argmin(near_distance));mid=(search_a[near_source[contact]]+search_b[contact])*.5
   local_a=np.linalg.norm((surface_a-mid)*step,axis=1)<.014;local_b=np.linalg.norm((surface_b-mid)*step,axis=1)<.014
-  aa=surface_a[local_a&(va>=min(.0022,va[local_a].max()*.65))];bb=surface_b[local_b&(vb>=min(.0022,vb[local_b].max()*.65))]
+  core_radius=cfg.get('junctionCoreRadius',.0022);core_fraction=cfg.get('junctionCoreFraction',.65)
+  aa=surface_a[local_a&(va>=min(core_radius,va[local_a].max()*core_fraction))];bb=surface_b[local_b&(vb>=min(core_radius,vb[local_b].max()*core_fraction))]
  # Clinical endpoints: GE junction at the lower esophagus, not an adjacent wall.
  if cfg['key']=='upper' and (a,b)==(3,4): aa=aa[world(aa)[:,1]<1.215]
  if cfg['key']=='upper' and (a,b)==(2,3): aa=aa[world(aa)[:,1]<1.49];bb=bb[world(bb)[:,1]>1.46]
@@ -109,7 +131,7 @@ for a,b in cfg['bridges']:
  # Interior endpoints include depth into both source surfaces. Keep a strict
  # separate limit on the actual exterior gap, which was measured before this.
  surface_gap=float(cKDTree(surface_a).query(surface_b,k=1)[0].min()*step)
- if surface_gap>.018 or gap>.035: raise ValueError(f'Unreviewed gap {a}->{b}: {surface_gap}, interior span {gap}')
+ if surface_gap>cfg.get('maxJunctionGap',.018) or gap>.035: raise ValueError(f'Unreviewed gap {a}->{b}: {surface_gap}, interior span {gap}')
  maximum=.008 if bowel and min(a,b)>=11 else .006 if bowel else .0035
  ra=float(min(maximum,da[tuple(aa[near[k]]-loa)]));rb=float(min(maximum,db[tuple(bb[k]-lob)]))
  stamp_transition(pa,pb,ra,rb,a)
@@ -130,11 +152,12 @@ for a,b in cfg['bridges']:
 # their shared ostium would manufacture a wall through the bifurcation itself.
 forks=cfg.get('forks',[(7,[8,9])] if cfg['key']=='upper' else [])
 for parent,children in forks:
- near_parent=ndi.distance_transform_edt(labels!=parent)*step<.004
+ points=np.argwhere(labels==parent);pad=int(np.ceil(.004/step))+2;lo=np.maximum(0,points.min(axis=0)-pad);hi=np.minimum(labels.shape,points.max(axis=0)+pad+1);slices=tuple(slice(int(a),int(b)) for a,b in zip(lo,hi));sub=labels[slices]
+ near_parent=ndi.distance_transform_edt(sub!=parent)*step<.004
  for i,a in enumerate(children):
   for b in children[i+1:]:
-   touching=ndi.binary_dilation(labels==a)&ndi.binary_dilation(labels==b)&near_parent
-   labels[touching&((labels==a)|(labels==b))]=parent
+   touching=ndi.binary_dilation(sub==a)&ndi.binary_dilation(sub==b)&near_parent
+   sub[touching&((sub==a)|(sub==b))]=parent
 
 # A close exterior contact must NOT create a fistula or a false arterial branch.
 allowed={tuple(sorted(p)) for p in cfg['connections']}; remove=np.zeros_like(labels,dtype=bool)
@@ -154,7 +177,8 @@ mask=labels>0
 mask[[0,-1],:,:]=False;mask[:,[0,-1],:]=False;mask[:,:,[0,-1]]=False;labels[~mask]=0
 # One connected traversable space per mode is mandatory.
 components,count=ndi.label(mask);sizes=np.bincount(components.ravel());sizes[0]=0;largest=int(sizes.argmax());discarded=int(mask.sum()-sizes[largest]);mask=components==largest;labels[~mask]=0
-distance=ndi.distance_transform_edt(mask).astype(np.float32)*step-step*.5
+distance_cache.clear();del components,sizes,remove
+distance=bounded_distance(mask)-step*.5
 smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.75 if cfg['key']=='upper' else .55)
 verts,faces,normals,_=marching_cubes(smooth,level=.5,spacing=(step,step,step),allow_degenerate=False)
 verts=(verts[:,::-1]+origin).astype('<f4');normals=normals[:,::-1].astype('<f4');faces=faces.astype('<u4')
@@ -193,13 +217,13 @@ for number,part in enumerate(cfg['parts'],1):
 boundaries=[]
 for part in parts:
  number=part['id'];neighbors=[b if a==number else a for a,b in cfg['connections'] if a==number or b==number]
- if len(neighbors)!=1 or (cfg['key']=='upper' and number==1):continue
+ if (len(neighbors)!=1 and not (cfg.get('kind')=='airway' and number==1)) or (cfg['key']=='upper' and number==1):continue
  junction=next((j for j in junctions if {j['from'],j['to']}=={number,neighbors[0]}),None)
  if not junction:continue
  entry=np.array(junction['start'] if junction['from']==number else junction['end']);points=np.argwhere((labels==number)&(distance>=.0025))
  if not len(points):points=np.argwhere(labels==number)
  positions=world(points);farthest=positions[np.argmax(np.sum((positions-entry)**2,axis=1))]
- continuation='더 작은 기관지는 이 모델에 포함하지 않았어요.' if cfg['key']=='upper' and number in [8,9] else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
+ continuation=('이 기관의 위쪽 후두·인두는 이 표본의 탐험 범위에 포함하지 않았어요.' if number==1 else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.') if cfg.get('kind')=='airway' else '더 작은 기관지는 이 모델에 포함하지 않았어요.' if cfg['key']=='upper' and number in [8,9] else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
  boundaries.append({'part':number,'position':farthest.tolist(),'returnPoint':entry.tolist(),'range':.026,'name':part['name'],'continuation':continuation})
 
 # Preserve conservative clearance, including the smoothing displacement.

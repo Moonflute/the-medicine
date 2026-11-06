@@ -1,4 +1,5 @@
 import * as T from 'three';
+import {journeyKind} from './learning-data.js';
 
 // Annotation rays use the same occupied space as navigation. Never show an
 // entrance through an intervening wall or move the camera to a label.
@@ -11,10 +12,10 @@ export function visibleThroughLumen(field,from,to,{surface=false}={}){
 
 export function entranceHints(manifest){
  if(manifest.key!=='upper')return manifest.junctions.flatMap(j=>{
-  const parent=manifest.parts.find(p=>p.id===j.from),child=manifest.parts.find(p=>p.id===j.to),vein=manifest.key==='veins';
+  const parent=manifest.parts.find(p=>p.id===j.from),child=manifest.parts.find(p=>p.id===j.to),kind=journeyKind(manifest),vein=kind==='vein';
   return [
    {id:`branch-${j.from}-${j.to}`,name:child.name,detail:vein?'유입 정맥':'분지',point:j.end,regions:[j.from],range:.055},
-   {id:`parent-${j.to}-${j.from}`,name:parent.name,detail:vein?'유출 방향':'기시 혈관',point:j.start,regions:[j.to],range:.055}
+   {id:`parent-${j.to}-${j.from}`,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':'기시 혈관',point:j.start,regions:[j.to],range:.055}
   ];
  });
  const junction=(a,b,side='end')=>manifest.junctions.find(j=>j.from===a&&j.to===b)?.[side];

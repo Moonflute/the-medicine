@@ -2,12 +2,16 @@
 // Source mesh IDs stay in the manifest; related notes use the host's search.
 export const journeyModes=[
  {id:'upper',label:'입 · 소화관 · 기도',start:1},
+ {id:'airways',label:'기관 · 엽·분절기관지',start:1},
  {id:'vessels',label:'대동맥 · 주요 동맥',start:2},
- {id:'veins',label:'하대정맥 · 주요 정맥',start:2}
+ {id:'veins',label:'하대정맥 · 주요 정맥',start:2},
+ {id:'thoracic-veins',label:'상대정맥 · 목·상지 정맥',start:1}
 ];
+export const journeyKind=manifest=>manifest.kind||(manifest.key==='upper'?'digestive-airway':manifest.key==='veins'?'vein':'artery');
 export function journeyStartGroups(manifest){
+ if(manifest.parts.every(p=>p.group)){const groups=new Map();for(const p of manifest.parts){if(!groups.has(p.group))groups.set(p.group,[]);groups.get(p.group).push(p);}return [...groups].map(([label,parts])=>({label,parts}));}
  const groups=manifest.key==='upper'?[['입 · 인두',[1,2]],['소화관',[3,4,5,10,11,12,13,14]],['기도',[6,7,8,9]]]
-  :manifest.key==='vessels'?[['대동맥',[1,2,3,9]],['머리 · 상지',[4,7,8,5,6]],['복강 · 장간막',[10,17,18,19,20,21,11,12]],['신장',[15,22,23,16,24,25]],['골반',[13,28,29,14,26,27]]]
+  :manifest.key==='vessels'?[['대동맥',[1,2,3,9]],['관상동맥',[30,31,32]],['머리 · 상지',[4,7,8,5,6]],['복강 · 장간막',[10,17,18,19,20,21,11,12]],['신장',[15,22,23,16,24,25]],['골반',[13,28,29,14,26,27]]]
   :[['하대정맥 · 간정맥',[1,2,11]],['신장',[3,4]],['골반',[5,7,8,6,9,10]]];
  return groups.map(([label,ids])=>({label,parts:ids.map(id=>manifest.parts.find(p=>p.id===id))}));
 }
@@ -31,17 +35,35 @@ const upper={
  14:['골반 중앙의 원위부 대장입니다. 이 자료로 직장·항문관의 정확한 경계를 정하지 않았습니다.','직장',digestion]
 };
 export function structureLesson(manifest,part){
+ if(journeyKind(manifest)==='airway'){
+  const hasBranches=manifest.connections.some(([parent])=>parent===part.id);
+  let description=part.group+'에 공기를 전달하는 기관지입니다. '+(hasBranches?'상위 기관지와 이어지는 입구 및 다음 분지를 살펴보세요.':'상위 기관지로 이어지는 입구를 살펴보세요. 이후의 더 작은 가지는 이 탐험에 포함하지 않았습니다.');
+  if(part.id===1)description='기관은 기관분기부에서 좌·우주기관지로 갈라집니다. 이 영역에서는 같은 원본 표본의 엽기관지와 분절기관지까지 이어집니다.';
+  if(part.id===2)description='좌주기관지는 좌상엽기관지와 좌하엽기관지로 나뉩니다. 이후 원본에 구분된 좌측 가지를 탐험할 수 있습니다.';
+  if(part.id===3)description='우주기관지에서 우상엽기관지가 갈라지며, 중간기관지는 중엽·하엽 방향으로 이어집니다.';
+  if(part.id===7)description='우상엽기관지가 분지한 뒤 이어지는 중간기관지입니다. 우중엽·우하엽기관지로 이어집니다.';
+  if(part.id===10)description='원본이 좌첨기관지로 구분한 가지입니다. 별도 후분절 가지나 보편적인 B1/B2 경계를 임의로 추가하지 않았습니다.';
+  if(part.id===12)description='좌상엽의 설상부로 이어지며 상·하설상기관지로 나뉩니다.';
+  if(part.id===16)description='이 원본에서 따로 구분한 좌하엽 내측기저 가지입니다. 좌측 기저기관지의 분절 구분은 개인에 따라 다를 수 있습니다.';
+  return {description,query:'기관지',reference:airway};
+ }
+ if(manifest.key==='thoracic-veins'){
+  const n=part.name.toLowerCase();
+  const description=n.includes('vena cava')?'머리·목·상지에서 돌아오는 혈액을 우심방으로 전달하는 상대정맥입니다. 이 모델은 심방 연결 이전의 제공 구간까지 포함합니다.':n.includes('brachiocephalic')?'같은 쪽 내경정맥과 쇄골하정맥이 합류하는 팔머리정맥입니다. 좌우 팔머리정맥은 상대정맥으로 합류합니다.':n.includes('jugular')?'머리와 목의 깊은 부위에서 돌아오는 혈액을 운반합니다. 쇄골하정맥과 만나 팔머리정맥으로 이어집니다.':n.includes('subclavian')?'액와정맥에서 이어져 상지의 혈액을 운반하며 내경정맥과 합류합니다.':'상지에서 돌아오는 혈액을 쇄골하정맥으로 전달합니다. 원본의 제공 구간까지만 탐험합니다.';
+  return {description,query:n.includes('vena cava')?'상대정맥 증후군':part.korean,reference:circulation};
+ }
  if(manifest.key==='upper'){
   const [description,query,reference]=upper[part.id];return {description,query,reference};
  }
- const n=part.name.toLowerCase(),vein=manifest.key==='veins';let description,query;
+ const n=part.name.toLowerCase(),vein=journeyKind(manifest)==='vein';let description,query;
  if(vein){
   if(n.includes('vena cava')){description='하체와 복부에서 돌아오는 정맥혈이 심장 방향으로 모이는 큰 정맥입니다. 상부·하부 표시는 원본의 분할 기준입니다.';query='하대정맥';}
   else if(n.includes('renal')){description='신장에서 나온 정맥혈이 하대정맥으로 합류합니다. 동맥 탐험에서 본 신동맥과 별도의 통로입니다.';query='신정맥 혈전증';}
   else if(n.includes('hepatic')){description='간정맥이 하대정맥으로 합류하는 짧은 구간입니다. 간문맥과는 다른 계통이며 간내 세부 분지는 생략되어 있습니다.';query='버드 키아리 증후군';}
   else{description=n.includes('internal')?'골반의 정맥혈이 총장골정맥으로 모입니다.':n.includes('external')?'하지에서 돌아오는 정맥혈이 총장골정맥 방향으로 이어집니다.':'내·외장골정맥이 합류하며, 좌우 총장골정맥은 하대정맥으로 이어집니다.';query='심부 정맥 혈전증';}
  }else{
-  if(n.includes('renal')){description=n.includes('division')?'신동맥에서 나뉜 가지입니다. 신장 내부의 더 작은 분절동맥까지 모두 표현한 것은 아닙니다.':'복부대동맥에서 갈라져 신장으로 혈액을 보냅니다. 앞·뒤 가지로 이어지는 분지를 살펴보세요.';query='신동맥 협착';}
+  if(n.includes('coronary')||n.includes('interventricular')){description=n.includes('interventricular')?'좌관상동맥에서 이어져 앞심실사이고랑을 따라 주행하는 좌전하행동맥입니다. 더 작은 중격·대각분지는 이번 범위에 포함하지 않습니다.':n.includes('right')?'상행대동맥 기시부에서 나와 심장 오른쪽의 방실고랑을 따라 주행하는 우관상동맥입니다.':'상행대동맥에서 기시하는 좌관상동맥 원본 구간입니다. 이 자료의 표면에서 좌주간부와 회선동맥의 경계를 임의로 나누지 않았습니다.';query='관상동맥질환';}
+  else if(n.includes('renal')){description=n.includes('division')?'신동맥에서 나뉜 가지입니다. 신장 내부의 더 작은 분절동맥까지 모두 표현한 것은 아닙니다.':'복부대동맥에서 갈라져 신장으로 혈액을 보냅니다. 앞·뒤 가지로 이어지는 분지를 살펴보세요.';query='신동맥 협착';}
   else if(n.includes('iliac')){description=n.includes('internal')?'골반으로 향하는 총장골동맥의 가지입니다.':n.includes('external')?'하지로 이어지는 총장골동맥의 가지입니다. 제공 범위 이후에는 대퇴동맥으로 이어집니다.':'복부대동맥의 끝에서 좌우로 갈라지며 내·외장골동맥으로 나뉩니다.';query='말초동맥질환';}
   else if(n.includes('hepatic')){description=n.includes('common')?'복강동맥의 가지입니다. 고유간동맥과 위십이지장동맥으로 이어집니다.':'간으로 향하는 동맥입니다. 간내 세부 혈관 전체는 포함하지 않습니다.';query='간동맥';}
   else if(n.includes('splenic')){description='복강동맥에서 갈라져 비장으로 향합니다. 원본의 굽은 주행 경로를 따라갈 수 있습니다.';query='비장';}
@@ -65,8 +87,9 @@ export const clinicalExamples={
  mucus:{id:'mucus',label:'점액 축적',english:'Mucus accumulation',description:'기관지 안에 점액이 쌓여 통로가 줄어드는 형태를 보여 줍니다. 천식의 염증·근육 수축 전체를 나타내지는 않습니다.',query:'천식',reference:'https://www.nhlbi.nih.gov/health/asthma/causes',solid:true}
 };
 export function examplesFor(manifest,part){
- if(manifest.key==='vessels')return [clinicalExamples.plaque];
- if(manifest.key==='veins')return [clinicalExamples.thrombus];
+ if(journeyKind(manifest)==='artery')return [clinicalExamples.plaque];
+ if(journeyKind(manifest)==='vein')return [clinicalExamples.thrombus];
+ if(journeyKind(manifest)==='airway')return [clinicalExamples.mucus];
  if([4,5].includes(part.id))return [clinicalExamples.ulcer];
  if(part.id>=11)return [clinicalExamples.polyp];
  if([7,8,9].includes(part.id))return [clinicalExamples.mucus];
@@ -75,7 +98,7 @@ export function examplesFor(manifest,part){
 export function connectedStructures(manifest,id){
  return manifest.connections.filter(([a,b])=>a===id||b===id).map(([a,b])=>{
   const next=manifest.parts.find(p=>p.id===(a===id?b:a));
-  const label=manifest.key==='veins'?(b===id?'유출':'유입'):manifest.key==='vessels'?(b===id?'기시':'분지'):'연결';
+  const kind=journeyKind(manifest),label=kind==='vein'?(b===id?'유출':'유입'):kind==='artery'?(b===id?'기시':'분지'):kind==='airway'?(b===id?'상위 기관지':'분지'):'연결';
   return {id:next.id,name:next.name,label};
  });
 }
