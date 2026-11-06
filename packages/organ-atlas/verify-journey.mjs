@@ -18,7 +18,7 @@ assert.deepEqual(moveInLumen(synthetic,[.02,0,0],[0,.005,0],.006).position,[.02,
 assert(visibleThroughLumen(synthetic,[0,0,0],[.02,0,0]),'visible hint inside the same lumen');
 assert(!visibleThroughLumen(synthetic,[.02,0,0],[.02,.011,0]),'hide hints beyond the intervening wall');
 
-for(const key of process.argv[2]?[process.argv[2]]:['upper','vessels']){
+for(const key of process.argv[2]?[process.argv[2]]:['upper','vessels','veins']){
  const prefix=new URL('./static/models/current/journey-'+key,import.meta.url).pathname.replace(/^\/(?=[A-Za-z]:)/,'');
  const path=decodeURIComponent(prefix),m=JSON.parse(fs.readFileSync(path+'.json','utf8')),packed=Uint8Array.from(gunzipSync(fs.readFileSync(path+'-volume.bin.gz'))),field=new JourneyVolume(m,packed),count=m.dimensions.reduce((a,b)=>a*b,1),raw=m.volumeFormat==='bricks-v1'?new Uint8Array(count*2):packed;
  if(m.volumeFormat==='bricks-v1')field.forEachVoxel((x,y,z,id,value)=>{const i=field.offset(x,y,z);raw[i]=value;raw[count+i]=id;});

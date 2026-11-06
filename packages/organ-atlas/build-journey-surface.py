@@ -93,6 +93,12 @@ for a,b in cfg['bridges']:
  bowel=cfg['key']=='upper' and max(a,b)>=10
  threshold=.008 if bowel and min(a,b)>=11 else .005 if bowel else .0022 if a==3 or b==3 else .0032
  aa=surface_a[va>=min(threshold,va.max()*.85)];bb=surface_b[vb>=min(threshold,vb.max()*.85)]
+ if cfg['key']!='upper':
+  # Narrow branch origins must be searched locally. A whole-vessel maximum
+  # can otherwise choose a distant wider segment and bridge over real bends.
+  near_distance,near_source=cKDTree(surface_a).query(surface_b,k=1);contact=int(np.argmin(near_distance));mid=(surface_a[near_source[contact]]+surface_b[contact])*.5
+  local_a=np.linalg.norm((surface_a-mid)*step,axis=1)<.014;local_b=np.linalg.norm((surface_b-mid)*step,axis=1)<.014
+  aa=surface_a[local_a&(va>=min(.0022,va[local_a].max()*.65))];bb=surface_b[local_b&(vb>=min(.0022,vb[local_b].max()*.65))]
  # Clinical endpoints: GE junction at the lower esophagus, not an adjacent wall.
  if cfg['key']=='upper' and (a,b)==(3,4): aa=aa[world(aa)[:,1]<1.215]
  if cfg['key']=='upper' and (a,b)==(2,3): aa=aa[world(aa)[:,1]<1.49];bb=bb[world(bb)[:,1]>1.46]
@@ -107,12 +113,22 @@ for a,b in cfg['bridges']:
  maximum=.008 if bowel and min(a,b)>=11 else .006 if bowel else .0035
  ra=float(min(maximum,da[tuple(aa[near[k]]-loa)]));rb=float(min(maximum,db[tuple(bb[k]-lob)]))
  stamp_transition(pa,pb,ra,rb,a)
+ seam_voxels=0
+ if cfg['key']!='upper':
+  # Source segments may have slightly misaligned cut faces. A narrow bridge
+  # alone leaves artificial shutters across a large aortic/caval lumen. Close
+  # only sub-2.4 mm seams simultaneously adjacent to BOTH reviewed parts.
+  seam_mid=(pa+pb)*.5;lo=np.maximum(0,index(seam_mid-.020));hi=np.minimum(labels.shape,index(seam_mid+.020)+1);slices=tuple(slice(int(x),int(y)) for x,y in zip(lo,hi));sub=labels[slices]
+  aa_mask=sub==a;bb_mask=sub==b;union=aa_mask|bb_mask
+  closed=ndi.binary_closing(union,iterations=3)
+  near_a=ndi.distance_transform_edt(~aa_mask)*step<=step*3;near_b=ndi.distance_transform_edt(~bb_mask)*step<=step*3
+  seam=closed&near_a&near_b&(sub==0);seam_voxels=int(seam.sum());sub[seam]=a
  distance_cache.pop(a,None)
- junctions.append({'from':a,'to':b,'gapMetres':round(surface_gap,6),'interiorSpanMetres':round(gap,6),'radiusMetres':min(ra,rb),'endRadiiMetres':[ra,rb],'start':pa.tolist(),'end':pb.tolist(),'kind':'reconstructed-junction'})
+ junctions.append({'from':a,'to':b,'gapMetres':round(surface_gap,6),'interiorSpanMetres':round(gap,6),'radiusMetres':min(ra,rb),'endRadiiMetres':[ra,rb],'start':pa.tolist(),'end':pb.tolist(),'seamRepairVoxels':seam_voxels,'kind':'reconstructed-junction'})
 
 # The immediate fork belongs to the parent lumen. Separating two daughters at
 # their shared ostium would manufacture a wall through the bifurcation itself.
-forks=[(7,[8,9])] if cfg['key']=='upper' else [(2,[4,5,6]),(4,[7,8]),(9,[13,14])]
+forks=cfg.get('forks',[(7,[8,9])] if cfg['key']=='upper' else [])
 for parent,children in forks:
  near_parent=ndi.distance_transform_edt(labels!=parent)*step<.004
  for i,a in enumerate(children):

@@ -456,17 +456,29 @@ export const assetRevisions={
     "sha256": "e1cdf0e52392e49f74a7f259d6c73d4e855eb8ea4b89286921ab392de2802ecc",
     "bytes": 13573
   },
+  "./models/current/journey-veins-surface.bin.gz": {
+    "sha256": "99067aa6059b91b9a3ae46f197dc609d272a54c540b7f972e45d652d539b1b90",
+    "bytes": 486325
+  },
+  "./models/current/journey-veins-volume.bin.gz": {
+    "sha256": "124ccee4aa656c2b48d4c7a16262e0438b926c9f0015aba93f8159b0cbf0f0a8",
+    "bytes": 79964
+  },
+  "./models/current/journey-veins.json": {
+    "sha256": "2caec112897a467e90c238c6c1e481dbb1edad2457e0aa102a475590dcc016c3",
+    "bytes": 11226
+  },
   "./models/current/journey-vessels-surface.bin.gz": {
-    "sha256": "71ebdc72da5fc7c9de38c503d126dcc5aaba5d6869e5c4ed213db924f351ee77",
-    "bytes": 803956
+    "sha256": "a6f5207a19af6fd6c763666afd9eb1d7ab65ad9a32a43c4e309cc927a598ea80",
+    "bytes": 1008614
   },
   "./models/current/journey-vessels-volume.bin.gz": {
-    "sha256": "ed7e24779fe2fb75d390e991c2bd6a3f04576a5d721bc8175a6e46bbc700d9df",
-    "bytes": 164111
+    "sha256": "03a70e28c1b2a0b2d24cd0833029657a0c63126a73448c4fd77dce3de9d0946e",
+    "bytes": 201711
   },
   "./models/current/journey-vessels.json": {
-    "sha256": "677300c6a0d96d2add267d306aece41cbf80b6fc50dbb25e4551f9c5efab88db",
-    "bytes": 13411
+    "sha256": "b53af0715680d7644b4be35058b5f635b61ae53ecb9d3363c65cbe6e10cb5e89",
+    "bytes": 27313
   },
   "./imaging/spl-abdomen/I.nrrd": {
     "sha256": "741e36154074b3834be49c0554e1b49875a9a96d8ed1e466d7614758f2a8f726",

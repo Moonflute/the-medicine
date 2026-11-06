@@ -24,7 +24,8 @@ for(const [key,config]of Object.entries(journeySources)){
  if(config.crop){bounds.min.fromArray(config.crop.min);bounds.max.fromArray(config.crop.max);}
  if(key==='upper')bounds.expandByPoint(new T.Vector3(0,1.58,.105));
  bounds.expandByScalar(.006);const step=config.spacing,origin=bounds.min.toArray().map(v=>Math.floor(v/step)*step),dimensions=bounds.max.toArray().map((v,i)=>Math.ceil((v-origin[i])/step)+1);
- const [nx,ny,nz]=dimensions,labels=new Uint8Array(nx*ny*nz),obstacles=new Uint8Array(labels.length),ray=new T.Ray(new T.Vector3(),new T.Vector3(1,0,0));let oddRays=0,castRays=0;
+ const [nx,ny,nz]=dimensions,labels=new Uint8Array(nx*ny*nz),obstacles=new Uint8Array(labels.length),forkOverlaps=new Uint8Array(labels.length),forkParents=new Map(),ray=new T.Ray(new T.Vector3(),new T.Vector3(1,0,0));let oddRays=0,castRays=0;
+ for(const [parent,children]of config.forks||[])for(let i=0;i<children.length;i++)for(let j=i+1;j<children.length;j++)forkParents.set([children[i],children[j]].sort((a,b)=>a-b).join(':'),parent);
  const anatomy=key==='upper'?await journeyLandmarks(root):null;
  const centerlines=key==='upper'?[sourceBowelPath(meshes.find(m=>m.id===10).geometry)]:[];
  for(const {id,geometry,bvh,obstacle=false}of [...meshes,...(anatomy?.meshes||[]).map(m=>({...m,obstacle:true}))]){
@@ -42,13 +43,16 @@ for(const [key,config]of Object.entries(journeySources)){
    const hollow=!obstacle&&config.parts[id-1].hollowShell,target=obstacle?obstacles:labels;
    // Four crossings form one hollow wall (outer, inner, inner, outer).
    // Do not fill the exterior interval between separate turns of that wall.
-   for(let h=hollow?1:0;h<xs.length-(hollow?2:0);h+=hollow?4:2){const start=Math.max(lo[axis],Math.ceil((xs[h]-origin[axis])/step)),end=Math.min(hi[axis],Math.floor((xs[h+1]-origin[axis])/step));for(let x=start;x<=end;x++){coordinate[axis]=x;const at=coordinate[0]+nx*(coordinate[1]+ny*coordinate[2]);if(votes)votes[at]|=1<<axis;else target[at]=id;}}
+   for(let h=hollow?1:0;h<xs.length-(hollow?2:0);h+=hollow?4:2){const start=Math.max(lo[axis],Math.ceil((xs[h]-origin[axis])/step)),end=Math.min(hi[axis],Math.floor((xs[h+1]-origin[axis])/step));for(let x=start;x<=end;x++){coordinate[axis]=x;const at=coordinate[0]+nx*(coordinate[1]+ny*coordinate[2]);if(votes)votes[at]|=1<<axis;else{if(!obstacle&&target[at]&&target[at]!==id){const parent=forkParents.get([target[at],id].sort((a,b)=>a-b).join(':'));if(parent)forkOverlaps[at]=parent;}target[at]=id;}}}
   }
   }
   if(votes)for(let i=0;i<votes.length;i++)if(votes[i]&&(votes[i]&(votes[i]-1)))labels[i]=id;
   geometry.dispose();
  }
- const header={key,...config,origin,dimensions,castRays,oddRays,sourceSha256:createHash('sha256').update(bytes).digest('hex'),centerlines,landmarks:anatomy?.landmarks||[],landmarkRegistration:anatomy?.registration||null};
+ // Some source daughters duplicate their proximal stem. Its shared volume is
+ // the parent fork, not two adjacent channels with a manufactured divider.
+ let sharedBranchVoxels=0;for(let i=0;i<labels.length;i++)if(forkOverlaps[i]){labels[i]=forkOverlaps[i];sharedBranchVoxels++;}
+ const header={key,...config,origin,dimensions,castRays,oddRays,sharedBranchVoxels,sourceSha256:createHash('sha256').update(bytes).digest('hex'),centerlines,landmarks:anatomy?.landmarks||[],landmarkRegistration:anatomy?.registration||null};
  console.error('Building '+key+': connections, surface and collision field');
  const result=spawnSync('python',['build-journey-surface.py'],{input:Buffer.concat([Buffer.from(JSON.stringify(header)+'\n'),Buffer.from(labels),Buffer.from(obstacles)]),maxBuffer:128*1024*1024});
  if(result.stderr.length)console.error(result.stderr.toString());if(result.status!==0)throw Error('Surface build failed');

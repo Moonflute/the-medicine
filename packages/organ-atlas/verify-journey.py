@@ -7,7 +7,7 @@ from scipy.spatial import cKDTree
 from skimage.graph import MCP_Geometric
 
 base=Path(__file__).parent/'static/models/current'
-for key in ([sys.argv[1]] if len(sys.argv)>1 else ['upper','vessels']):
+for key in ([sys.argv[1]] if len(sys.argv)>1 else ['upper','vessels','veins']):
  m=json.loads((base/f'journey-{key}.json').read_text(encoding='utf8'))
  shape=tuple(reversed(m['dimensions']));n=int(np.prod(shape))
  packed=gzip.decompress((base/f'journey-{key}-volume.bin.gz').read_bytes())
@@ -29,6 +29,10 @@ for key in ([sys.argv[1]] if len(sys.argv)>1 else ['upper','vessels']):
   if radius==.0004:assert all(ids),'Start point is outside navigable volume'
   radii[str(radius)]=ids
   if radius==.0004:assert len(set(ids))==1,f'{key}: some anatomical destinations cannot be reached at the smallest size: {ids}'
+  if radius==.0016 and key in ['vessels','veins']:
+   trunks=[1,2,3,9] if key=='vessels' else [1,2]
+   trunk_ids=[ids[i-1] for i in trunks]
+   assert all(trunk_ids) and len(set(trunk_ids))==1,f'{key}: source trunk seams create an artificial bottleneck'
  # Contact graph must exactly match the anatomical allowlist, after collapsing
  # branch origins into their parent. In particular no esophagotracheal fistula.
  observed=set()

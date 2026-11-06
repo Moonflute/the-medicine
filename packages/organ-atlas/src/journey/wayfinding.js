@@ -10,7 +10,13 @@ export function visibleThroughLumen(field,from,to,{surface=false}={}){
 }
 
 export function entranceHints(manifest){
- if(manifest.key!=='upper')return [];
+ if(manifest.key!=='upper')return manifest.junctions.flatMap(j=>{
+  const parent=manifest.parts.find(p=>p.id===j.from),child=manifest.parts.find(p=>p.id===j.to),vein=manifest.key==='veins';
+  return [
+   {id:`branch-${j.from}-${j.to}`,name:child.name,detail:vein?'유입 정맥':'분지',point:j.end,regions:[j.from],range:.055},
+   {id:`parent-${j.to}-${j.from}`,name:parent.name,detail:vein?'유출 방향':'기시 혈관',point:j.start,regions:[j.to],range:.055}
+  ];
+ });
  const junction=(a,b,side='end')=>manifest.junctions.find(j=>j.from===a&&j.to===b)?.[side];
  return [
   {id:'oropharynx',name:'Oropharynx',detail:'인두로',point:[0,1.537,.012],regions:[1,2],range:.055},
@@ -32,6 +38,14 @@ export class JourneyWayfinding{
   this.host=host;this.asset=asset;this.camera=camera;this.enabled=true;this.vector=new T.Vector3();this.clip=new T.Vector3();this.items=[];
   this.layer=document.createElement('div');this.layer.className='journey-hints';this.layer.setAttribute('aria-hidden','true');host.append(this.layer);
   for(const hint of entranceHints(asset.manifest)){const label=document.createElement('div');label.className='journey-hint';label.dataset.hint=hint.id;const name=document.createElement('b'),detail=document.createElement('span');name.textContent=hint.name;detail.textContent=hint.detail;label.append(name,detail);const anchor=document.createElement('i');anchor.className='journey-hint-anchor';const line=document.createElement('i');line.className='journey-hint-line';this.layer.append(line,anchor,label);this.items.push({hint,label,anchor,line});}
+ }
+ highlight(id){
+  const region=this.asset.field.region(this.camera.position.toArray()),j=this.asset.manifest.junctions.find(j=>(j.from===region&&j.to===id)||(j.to===region&&j.from===id));if(!j)return false;
+  if(this.focus){for(const node of [this.focus.label,this.focus.anchor,this.focus.line])node.remove();this.items=this.items.filter(item=>item!==this.focus);}
+  const hint={id:'selected-connection',name:this.asset.manifest.parts.find(p=>p.id===id).name,detail:'선택한 연결부',point:j.to===id?j.end:j.start,regions:[region],range:.12};
+  const label=document.createElement('div');label.className='journey-hint journey-hint-focus';const name=document.createElement('b'),detail=document.createElement('span');name.textContent=hint.name;detail.textContent=hint.detail;label.append(name,detail);
+  const anchor=document.createElement('i'),line=document.createElement('i');anchor.className='journey-hint-anchor';line.className='journey-hint-line';this.layer.append(line,anchor,label);
+  this.focus={hint,label,anchor,line};this.items.unshift(this.focus);this.frame=null;this.update();return !label.hidden;
  }
  update(){
   this.layer.hidden=!this.enabled;if(!this.enabled)return;

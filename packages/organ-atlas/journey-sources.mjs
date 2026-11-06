@@ -2,7 +2,7 @@
 // This is a source-derived navigation reconstruction, NOT a segmented mucosa.
 export function journeyNotice(key){
  const common='기존 원본의 외형·좌표를 바탕으로 만든 내부 탐색용 재구성입니다. 실제 점막·벽 두께·생리적 개폐를 분할한 자료가 아닙니다. 연결부는 원본 위치와 해부학적 순서를 대조해 보강했으며, 표시된 끝은 모델 제공 범위입니다.';
- return common+(key==='upper'?' 혀는 기존 좌표의 표면을, 후두개는 연골 기준으로 좌표 정합한 기존 BodyParts3D 표면을 재사용했습니다. 원본이 구분하지 않는 장관은 묶음 이름으로 표시합니다.':' 장간막동맥은 근위부만 포함하며, 심장 내부·모세혈관·정맥으로 이어지는 전체 순환은 제공하지 않습니다.');
+ return common+(key==='upper'?' 혀는 기존 좌표의 표면을, 후두개는 연골 기준으로 좌표 정합한 기존 BodyParts3D 표면을 재사용했습니다. 원본이 구분하지 않는 장관은 묶음 이름으로 표시합니다.':key==='veins'?' 하대정맥과 신장·골반의 주요 정맥 및 간정맥 합류부를 포함합니다. 심방·정맥판막·간내 세부 분지는 재현하지 않았습니다.':' 장간막동맥은 근위부만 포함하며, 심장 내부·모세혈관까지 이어지는 전체 순환은 제공하지 않습니다.');
 }
 export const journeySources={
  upper:{title:'입 · 소화관 · 기도',file:'z-whole-organs.glb.gz',spacing:.001,
@@ -42,10 +42,44 @@ export const journeySources={
    {name:'Superior mesenteric artery',korean:'상장간막동맥',source:'Superior mesenteric artery',color:'#d79987',crop:{min:[-.03,1.09,0],max:[.04,1.14,.065]},scopeNote:'Proximal source segment; distal intestinal arcades are outside this exploration scope.'},
    {name:'Inferior mesenteric artery',korean:'하장간막동맥',source:'Inferior mesenteric artery',color:'#d79987',crop:{min:[-.01,1.03,0],max:[.04,1.08,.05]},scopeNote:'Proximal source segment; distal branches are outside this exploration scope.'},
    {name:'Right common iliac artery',korean:'우총장골동맥',source:'Common iliac artery.r',color:'#d1897e'},
-   {name:'Left common iliac artery',korean:'좌총장골동맥',source:'Common iliac artery.l',color:'#d1897e'}],
-  crop:{min:[-.085,.975,-.065],max:[.095,1.47,.085]},
-  connections:[[1,2],[2,3],[2,4],[2,5],[2,6],[4,7],[4,8],[3,9],[9,10],[9,11],[9,12],[9,13],[9,14]],
-  bridges:[[1,2],[2,3],[2,4],[2,5],[2,6],[4,7],[4,8],[3,9],[9,10],[9,11],[9,12],[9,13],[9,14]],
+   {name:'Left common iliac artery',korean:'좌총장골동맥',source:'Common iliac artery.l',color:'#d1897e'},
+   {name:'Left renal artery',korean:'좌신동맥',source:'Left renal artery',color:'#cf8077'},
+   {name:'Right renal artery',korean:'우신동맥',source:'Right renal artery',color:'#cf8077'},
+   {name:'Common hepatic artery',korean:'총간동맥',source:'Common hepatic artery',color:'#d1897e'},
+   {name:'Proper hepatic artery',korean:'고유간동맥',source:'Proper hepatic artery',color:'#d79987',scopeNote:'Source trunk and supplied proximal hepatic branches; not a complete intrahepatic arterial tree.'},
+   {name:'Gastroduodenal artery',korean:'위십이지장동맥',source:'Gastroduodenal artery',color:'#d79987'},
+   {name:'Splenic artery',korean:'비장동맥',source:'Splenic artery',color:'#d1897e'},
+   {name:'Left gastric artery',korean:'좌위동맥',source:'Left gastric artery',color:'#d79987'},
+   {name:'Anterior division of left renal artery',korean:'좌신동맥 앞가지',source:'Anterior branch of renal artery.l',color:'#d79987'},
+   {name:'Posterior division of left renal artery',korean:'좌신동맥 뒤가지',source:'Posterior branch of renal artery.l',color:'#d79987'},
+   {name:'Anterior division of right renal artery',korean:'우신동맥 앞가지',source:'Anterior branch of renal artery.r',color:'#d79987'},
+   {name:'Posterior division of right renal artery',korean:'우신동맥 뒤가지',source:'Posterior branch of renal artery.r',color:'#d79987'},
+   {name:'Left internal iliac artery',korean:'좌내장골동맥',source:'Internal iliac artery.l',color:'#cf8077'},
+   {name:'Left external iliac artery',korean:'좌외장골동맥',source:'External iliac artery.l',color:'#d1897e'},
+   {name:'Right internal iliac artery',korean:'우내장골동맥',source:'Internal iliac artery.r',color:'#cf8077'},
+   {name:'Right external iliac artery',korean:'우외장골동맥',source:'External iliac artery.r',color:'#d1897e'}],
+  crop:{min:[-.12,.88,-.065],max:[.11,1.47,.095]},
+  connections:[[1,2],[2,3],[2,4],[2,5],[2,6],[4,7],[4,8],[3,9],[9,10],[9,11],[9,12],[9,13],[9,14],[9,15],[9,16],[10,17],[17,18],[17,19],[10,20],[10,21],[15,22],[15,23],[16,24],[16,25],[14,26],[14,27],[13,28],[13,29]],
+  forks:[[2,[4,5,6]],[4,[7,8]],[9,[13,14]],[10,[17,20,21]],[17,[18,19]],[15,[22,23]],[16,[24,25]],[14,[26,27]],[13,[28,29]]],
   seeds:{1:[0,1.34,.035],2:[.005,1.39,.01],3:[.02,1.32,-.035]},
+  references:['https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways']},
+ veins:{title:'하대정맥 · 주요 정맥',file:'z-whole-veins-optimized.glb.gz',spacing:.0008,
+  parts:[
+   {name:'Inferior vena cava — upper segment',korean:'하대정맥 상부',source:'Inferior vena cava (thoracic part)',color:'#7e9dbb',scopeNote:'Source upper segment extends below the diaphragm; not an exact thoracic/abdominal boundary.'},
+   {name:'Inferior vena cava — lower segment',korean:'하대정맥 하부',source:'Inferior vena cava (abdominal part)',color:'#7598b8'},
+   {name:'Right renal vein',korean:'우신정맥',source:'Right renal vein',color:'#91adc5'},
+   {name:'Left renal vein',korean:'좌신정맥',source:'Left renal vein',color:'#91adc5'},
+   {name:'Right common iliac vein',korean:'우총장골정맥',source:'Common iliac vein.r',color:'#7e9dbb'},
+   {name:'Left common iliac vein',korean:'좌총장골정맥',source:'Common iliac vein.l',color:'#7e9dbb'},
+   {name:'Right internal iliac vein',korean:'우내장골정맥',source:'Internal iliac vein.r',color:'#91adc5'},
+   {name:'Right external iliac vein',korean:'우외장골정맥',source:'External iliac vein.r',color:'#91adc5'},
+   {name:'Left internal iliac vein',korean:'좌내장골정맥',source:'Internal iliac vein.l',color:'#91adc5'},
+   {name:'Left external iliac vein',korean:'좌외장골정맥',source:'External iliac vein.l',color:'#91adc5'},
+   {name:'Hepatic venous confluence',korean:'간정맥 합류부',source:'Hepatic veins',color:'#91adc5',scopeNote:'Short source confluence only; not separate right/middle/left hepatic veins or a complete intrahepatic venous tree.'}],
+  connections:[[1,2],[2,3],[2,4],[2,5],[2,6],[5,7],[5,8],[6,9],[6,10],[1,11]],
+  forks:[[2,[3,4]],[2,[5,6]],[5,[7,8]],[6,[9,10]]],
+  seeds:{1:[-.012,1.21,.018],2:[-.009,1.12,.02]},
   references:['https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways']}
 };
+// A connection is a reviewed source adjacency, not an arbitrary nearest mesh.
+for(const config of Object.values(journeySources))config.bridges??=config.connections;

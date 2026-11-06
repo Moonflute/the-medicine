@@ -66,6 +66,9 @@ jobs:
       - name: Verify organ atlas contracts
         run: node scripts/test-atlas-contracts.mjs
 
+      - name: Verify internal exploration
+        run: node ../../packages/organ-atlas/verify-journey-clinical.mjs
+
       - name: Verify lab workspace
         run: node --test scripts/test-lab-workbench.mjs
 

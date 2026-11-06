@@ -8,7 +8,7 @@ export function writeAssetRevisions(){
  for(const name of fs.readdirSync(models).filter(name=>name.endsWith('.glb.gz')&&!sourceOnlyModels.includes(name)).sort())add(new URL(name,models),'./models/current/'+name);
  const wholeManifest=new URL('z-whole-manifest.json',models);
  if(fs.existsSync(wholeManifest))add(wholeManifest,'./models/current/z-whole-manifest.json');
- for(const name of fs.readdirSync(models).filter(name=>/^journey-(upper|vessels)(-(surface|volume)\.bin\.gz|\.json)$/.test(name)).sort())add(new URL(name,models),'./models/current/'+name);
+ for(const name of fs.readdirSync(models).filter(name=>/^journey-(upper|vessels|veins)(-(surface|volume)\.bin\.gz|\.json)$/.test(name)).sort())add(new URL(name,models),'./models/current/'+name);
  const imaging=new URL('./static/imaging/',import.meta.url);
  if(fs.existsSync(imaging)){
   const visit=(directory,prefix)=>{for(const entry of fs.readdirSync(directory,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){const url=new URL(entry.name+(entry.isDirectory()?'/':''),directory),key=prefix+entry.name;if(entry.isDirectory())visit(url,key+'/');else if(/\.(?:nrrd|json)$/.test(entry.name)||entry.name.endsWith('.glb.gz'))add(url,'./imaging/'+key);}};
