@@ -22,3 +22,6 @@ dialog.journey[open]{display:grid}.journey::backdrop{background:#f8fafc}.journey
 @media(pointer:fine){.journey-stage>canvas,.journey-stage>canvas:active{cursor:crosshair}}
 .journey-stage>canvas[data-look-mode=locked]{cursor:none}
 .journey-stage>canvas[data-look-mode=free]{cursor:crosshair}
+.journey-heading{position:absolute;left:14px;top:14px;max-width:calc(100% - 174px);color:#f3f7f8dd;font-size:11px;line-height:1.5;text-shadow:0 1px 5px #000;pointer-events:none;z-index:1}
+.journey-heading:empty{display:none}.journey-clinical-badge:not([hidden])~.journey-heading{top:54px}
+@media(max-width:600px){.journey-heading{left:10px;top:10px;max-width:calc(100% - 130px);font-size:10px}.journey-clinical-badge:not([hidden])~.journey-heading{top:50px}}

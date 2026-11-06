@@ -50,7 +50,7 @@ export class JourneyWayfinding{
  update(){
   this.layer.hidden=!this.enabled;if(!this.enabled)return;
   const {camera,asset}=this,position=camera.position.toArray(),region=asset.field.region(position),width=this.host.clientWidth,height=this.host.clientHeight,rectangles=[];
-  const frame=[...position,...camera.quaternion.toArray(),width,height].join(',');if(frame===this.frame)return;this.frame=frame;
+  const frame=[...position,...camera.quaternion.toArray(),camera.fov,camera.near,width,height].join(',');if(frame===this.frame)return;this.frame=frame;
   camera.updateMatrixWorld();
   for(const {hint,label,anchor,line}of this.items){
    label.hidden=anchor.hidden=line.hidden=true;if(!hint.regions.includes(region))continue;
