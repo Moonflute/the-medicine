@@ -18,3 +18,7 @@ dialog.journey[open]{display:grid}.journey::backdrop{background:#f8fafc}.journey
 .journey-learning{height:fit-content;bottom:auto;max-height:min(660px,calc(100% - var(--journey-header-height,76px) - 84px))}
 @media(max-width:600px){.journey-learning{max-height:calc(100% - var(--journey-header-height,84px) - 76px)}}
 @media(max-height:480px){.journey-learning{max-height:calc(100% - var(--journey-header-height,64px) - 62px)}}
+
+@media(pointer:fine){.journey-stage>canvas,.journey-stage>canvas:active{cursor:crosshair}}
+.journey-stage>canvas[data-look-mode=locked]{cursor:none}
+.journey-stage>canvas[data-look-mode=free]{cursor:crosshair}
