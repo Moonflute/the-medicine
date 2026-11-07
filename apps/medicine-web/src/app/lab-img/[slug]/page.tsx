@@ -15,7 +15,7 @@ import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, formatLabImgReference, isLabImgOverviewNote } from "@/lib/lab-img-overview";
-import { getAllDiseases, getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes, getLabImgToc } from "@/lib/webdb";
+import { getDiseaseLookup, getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes, getLabImgToc } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
   return /^(참고문헌|references?|bibliography|출처)$/i.test(title.trim());
@@ -59,7 +59,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
       </div>
       <DocumentToolbar title={note.title}><DocumentEditButton sourcePath={note.sourcePath} title={note.title} /><ReviewSaveButton compact item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} /></DocumentToolbar>
       <DomainNoteCard note={note} />
-      {isEcgHub ? <ECGWorkbench diseases={getAllDiseases()} /> : null}
+      {isEcgHub ? <ECGWorkbench diseases={getDiseaseLookup()} /> : null}
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         {showOverviewTable ? (
           <div className="space-y-5">

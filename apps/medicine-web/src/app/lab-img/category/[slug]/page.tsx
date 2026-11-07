@@ -6,7 +6,7 @@ import { ECGWorkbench } from "@/components/ecg-workbench";
 import { ImagingWorkbench } from "@/components/imaging-workbench";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgBloodPanels, buildLabImgGroups } from "@/lib/lab-img-groups";
-import { getAllDiseases, getLabImgNotes, getLabImgToc, type DomainNote } from "@/lib/webdb";
+import { getDiseaseLookup, getLabImgNotes, getLabImgToc, type DomainNote } from "@/lib/webdb";
 
 const EXTERNAL_RESOURCES: Record<string, ReadonlyArray<readonly [string, string]>> = {
   "03 심전도": [["LITFL ECG Library", "https://litfl.com/ecg-library/"], ["ECGpedia", "https://en.ecgpedia.org/"], ["Dr. Smith's ECG Blog", "https://drsmithsecgblog.com/"]],
@@ -37,7 +37,7 @@ function EcgCategoryPage({ group }: { group: ReturnType<typeof buildLabImgGroups
       <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">기본 판독 순서와 대표 파형을 한 화면에서 확인합니다. 실제 ECG는 증상, lead placement, serial ECG 및 긴급 프로토콜과 함께 해석합니다.</p>
     </header>
     {overview ? <ECGWorkbench
-      diseases={getAllDiseases()}
+      diseases={getDiseaseLookup()}
       theory={<div className="space-y-6">
         <article className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm sm:p-6">
           <div className="eyebrow">ECG overview</div>

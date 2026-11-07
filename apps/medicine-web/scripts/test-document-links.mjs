@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import fs from 'node:fs';
 import {selectDocumentLinks} from '../src/lib/document-links.ts';
 
 const links = [
@@ -21,4 +22,10 @@ test('symptom pages retain plain-text differential links and overlapping aliases
 test('unlinked content and absent metadata do not retain the glossary', () => {
   assert.deepEqual(selectDocumentLinks(links,{sections:['Unrelated text'],familyMeta:null}),[]);
   assert.deepEqual(selectDocumentLinks(links,undefined),[]);
+});
+test('the shared public question index preserves the complete server catalog', () => {
+  const server=JSON.parse(fs.readFileSync(new URL('../../../_webapp/data/qbank-index.json',import.meta.url),'utf8'));
+  const shared=JSON.parse(fs.readFileSync(new URL('../public/generated/qbank/index.json',import.meta.url),'utf8'));
+  assert.ok(server.length>0);
+  assert.deepEqual(shared,server);
 });

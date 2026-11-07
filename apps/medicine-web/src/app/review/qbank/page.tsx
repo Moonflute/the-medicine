@@ -1,8 +1,7 @@
-import { QbankDashboardClient } from "@/components/qbank-dashboard-client";
-import { getQbankIndex } from "@/lib/webdb";
+import { QbankPageLoader } from "@/components/qbank-page-loader";
 
 export default function QbankPage() {
   return <div className="page-stack qbank-page">
-    <QbankDashboardClient questions={getQbankIndex()} />
+    <QbankPageLoader mode="all" />
   </div>;
 }

@@ -122,6 +122,10 @@ export function getAllDiseases(): DiseaseNote[] {
   return readJson("diseases.json");
 }
 
+export function getDiseaseLookup(): Pick<DiseaseNote, "title" | "slug" | "aliases">[] {
+  return getAllDiseases().map(({ title, slug, aliases }) => ({ title, slug, aliases }));
+}
+
 let diseaseBySlug: Map<string, DiseaseNote> | undefined;
 
 export function getDiseaseHierarchy(): DiseaseHierarchy {

@@ -17,7 +17,7 @@ const maternalTabs: HubTab<MaternalTab>[] = [
 
 const normalized = (value: string) => value.replace(/\s*\([^)]*\)\s*$/, "").replace(/\s+/g, "").trim().toLowerCase();
 
-function resolveRelated(diseases: DiseaseNote[], terms: string[]) {
+function resolveRelated(diseases: Pick<DiseaseNote, "title" | "slug" | "aliases">[], terms: string[]) {
   const synonyms: Record<string, string> = { "급성중이염": "중이염", "우울증": "주요우울장애" };
   return terms.map((term) => {
     const target = synonyms[normalized(term)] ?? normalized(term);
@@ -26,7 +26,7 @@ function resolveRelated(diseases: DiseaseNote[], terms: string[]) {
   });
 }
 
-export function MaternalChildHub({ diseases, hub }: { diseases: DiseaseNote[]; hub: MaternalChildHubData }) {
+export function MaternalChildHub({ diseases, hub }: { diseases: Pick<DiseaseNote, "title" | "slug" | "aliases">[]; hub: MaternalChildHubData }) {
   const { stages, pediatricMilestones, sources } = hub;
   useHubScroll();
   const [tab, setTab] = useHubState<MaternalTab>("maternal-child-hub:tab", "timeline");
