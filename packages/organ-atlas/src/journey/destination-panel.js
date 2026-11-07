@@ -3,8 +3,8 @@ import {journeyModes} from './learning-data.js';
 import {destinationSystems,journeyDestinations,filterDestinations} from './destinations.js';
 
 export class JourneyDestinationPanel{
- constructor(dialog,{onToggle,onTravel,onReturn,onGuide}){
-  this.onToggle=onToggle;this.onTravel=onTravel;this.onReturn=onReturn;this.onGuide=onGuide;this.action='travel';this.reachable=new Set();
+ constructor(dialog,{onToggle,onTravel,onReturn,onGuide,onCatalog=()=>{}}){
+  this.onToggle=onToggle;this.onTravel=onTravel;this.onReturn=onReturn;this.onGuide=onGuide;this.onCatalog=onCatalog;this.action='travel';this.reachable=new Set();this.directReachable=new Set();
   this.manifests=new Map();this.entries=[];this.disposed=false;this.pending=false;
   this.element=document.createElement('section');this.element.id='journey-destinations';
   this.element.className='journey-destinations';this.element.hidden=true;
@@ -53,6 +53,7 @@ export class JourneyDestinationPanel{
   if(this.disposed)return;
   results.forEach((result,i)=>{if(result.status==='fulfilled')this.manifests.set(missing[i].id,result.value);});
   this.entries=journeyDestinations(journeyModes.flatMap(mode=>this.manifests.has(mode.id)?[this.manifests.get(mode.id)]:[]));
+  this.onCatalog([...this.manifests.values()]);
   this.pending=false;this.element.removeAttribute('aria-busy');
   this.error.hidden=results.every(result=>result.status==='fulfilled');
   this.error.querySelector('span').textContent=this.entries.length?'일부 영역 목록을 불러오지 못했어요.':'부위 목록을 불러오지 못했어요.';
@@ -64,7 +65,7 @@ export class JourneyDestinationPanel{
    const label=system.label+' · '+part.group;if(!groups.has(label))groups.set(label,[]);groups.get(label).push(part);
   }
   this.results.replaceChildren();
-  const canGuide=part=>part.key===this.current?.key&&part.id!==this.current.id&&this.reachable.has(part.id);
+  const canGuide=part=>!(part.key===this.current?.key&&part.id===this.current.id)&&this.reachable.has(part.key+':'+part.id);
   this.count.textContent=this.pending&&!this.entries.length?'부위 목록을 불러오는 중…':this.action==='guide'?`${matches.filter(canGuide).length}개 안내 가능 · ${matches.length}개 내부 구간`:`${matches.length}개 내부 구간`;
   for(const [label,parts]of groups){
    const group=document.createElement('section'),title=document.createElement('h3');title.textContent=label;group.append(title);
@@ -74,9 +75,9 @@ export class JourneyDestinationPanel{
     if(this.current?.key===part.key&&this.current.id===part.id){button.setAttribute('aria-current','location');detail.textContent+=' · 현재 위치';}
     if(this.action==='guide'&&!canGuide(part)){
      button.disabled=true;
-     if(button.getAttribute('aria-current')!=='location')detail.textContent+=part.key!==this.current?.key?' · 다른 탐험 영역':' · 직접 연결 없음';
+     if(button.getAttribute('aria-current')!=='location')detail.textContent+=' · 연결된 탐험 경로 없음';
     }
-    if(this.action==='guide'&&canGuide(part)&&!this.directReachable.has(part.id))detail.textContent+=' · 미세순환 생략 포함';
+    if(this.action==='guide'&&canGuide(part)&&!this.directReachable.has(part.key+':'+part.id))detail.textContent+=' · 미세순환 생략 포함';
     button.append(name,detail);button.onclick=()=>this.action==='guide'?this.onGuide(part):this.onTravel(part);group.append(button);
    }
    this.results.append(group);

@@ -7,6 +7,7 @@ import {entranceHints,placeEntranceLabel,visibleThroughLumen} from './src/journe
 const directory=new URL('./static/models/current/',import.meta.url),read=key=>JSON.parse(fs.readFileSync(new URL('journey-'+key+'.json',directory)));
 const m=read('circulation'),field=new JourneyVolume(m,Uint8Array.from(gunzipSync(fs.readFileSync(new URL('journey-circulation-volume.bin.gz',directory))))),hints=entranceHints(m);
 for(const h of hints){
+ if(h.surface){const source=m.landmarks.find(l=>l.sourceId===h.id);assert(source&&source.part&&source.representation==='source-coordinate-preserved');assert.deepEqual(h.point,source.position);assert.deepEqual(h.regions,[source.part]);continue;}
  assert(m.connections.some(([a,b])=>a===h.from&&b===h.to||a===h.to&&b===h.from),'annotations only describe an existing anatomical connection');
  const outgoing=m.flowConnections.some(([a,b])=>a===h.from&&b===h.to);
  assert.equal(h.detail,outgoing?'혈류 유출 →':'← 혈류 유입','pulmonary vessels must follow the actual blood direction too');
@@ -30,4 +31,5 @@ for(const [width,height]of [[1280,773],[390,705],[844,270]]){
  }
 }
 assert.equal(placeEntranceLabel(100,100,180,60,390,705,[{left:0,top:0,right:390,bottom:705}]),null,'hide a label when controls leave no room');
-console.log(JSON.stringify({anatomicalConnections:hints.length/2,valveDirections:8,returnEntrances:true,labelViewports:3,wallOcclusion:true}));
+assert.equal(hints.filter(h=>h.surface).length,4,'four reused papillary source landmarks');
+console.log(JSON.stringify({anatomicalConnections:hints.filter(h=>!h.surface).length/2,sourceLandmarks:4,valveDirections:8,returnEntrances:true,labelViewports:3,wallOcclusion:true}));

@@ -9,7 +9,7 @@ export class AnatomicalRoutes{
   this.parts=new Map(manifest.parts.map(part=>[part.id,part]));
   this.neighbors=new Map(manifest.parts.map(part=>[part.id,[]]));
   this.flow=new Set((manifest.flowConnections||[]).map(([a,b])=>`${a}:${b}`));
-  this.flowLabel=manifest.kind==='urinary'?'소변 흐름':'혈류';
+  this.flowLabel=manifest.kind==='urinary'?'소변 흐름':manifest.kind==='csf'?'CSF 흐름':'혈류';
   const hints=entranceHints(manifest);
   for(const [a,b]of manifest.connections){
    if(!this.parts.has(a)||!this.parts.has(b))continue;

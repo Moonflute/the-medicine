@@ -11,7 +11,7 @@ import {MeshBVH} from 'three-mesh-bvh';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {compactJourneySurface} from './journey-surface-compact.mjs';
 import {journeySources,journeyNotice} from './journey-sources.mjs';
-import {journeyLandmarks} from './journey-landmarks.mjs';
+import {journeyLandmarks,cardiacJourneyLandmarks} from './journey-landmarks.mjs';
 import {sourceBowelPath,applySourcePathStarts} from './journey-bowel.mjs';
 import {JourneyVolume,packJourneyBricks} from './src/journey/volume.js';
 import {sampleCardiacBloodSpace} from './journey-cardiac-lumen.mjs';
@@ -38,7 +38,7 @@ for(const [key,config]of Object.entries(journeySources)){
  const meshes=[],bounds=new T.Box3(),roots=[],sourceAssets=[];
  for(const file of new Set([config.file,...config.parts.map(p=>p.sourceFile).filter(Boolean)])){
   const bytes=fs.readFileSync(directory+file),raw=gunzipSync(bytes),root=(await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(raw.buffer.slice(raw.byteOffset,raw.byteOffset+raw.byteLength),'')).scene;
-  root.updateMatrixWorld(true);roots.push(root);sourceAssets.push({file,sha256:createHash('sha256').update(bytes).digest('hex')});
+  if(config.sourceReflectionX)root.scale.x*=-1;root.updateMatrixWorld(true);roots.push(root);sourceAssets.push({file,sha256:createHash('sha256').update(bytes).digest('hex')});
   const grouped=new Map();
   root.traverse(mesh=>{
    if(!mesh.isMesh)return;const sourceName=sourceManifest.identities[mesh.name]?.sourceMesh||mesh.name,index=config.parts.findIndex(p=>(p.source===sourceName||p.sources?.includes(sourceName))&&(p.sourceFile||config.file)===file);if(index<0)return;
@@ -48,7 +48,7 @@ for(const [key,config]of Object.entries(journeySources)){
    const geometry=new T.BufferGeometry();geometry.setAttribute('position',new T.BufferAttribute(position,3));if(mesh.geometry.index)geometry.setIndex(mesh.geometry.index.clone());else geometry.setIndex(Array.from({length:input.count},(_,i)=>i));geometry.applyMatrix4(mesh.matrixWorld);
    if(!grouped.has(index))grouped.set(index,[]);grouped.get(index).push(geometry);config.parts[index].sourceIds??=[];config.parts[index].sourceIds.push(mesh.name);config.parts[index].sourceId??=mesh.name;
   });
-  for(const [index,patches]of grouped){const geometry=patches.length===1?patches[0]:mergeGeometries(patches);if(patches.length>1)patches.forEach(g=>g.dispose());geometry.computeBoundingBox();const box=geometry.boundingBox.clone(),crop=config.parts[index].crop;if(crop)box.intersect(new T.Box3(new T.Vector3(...crop.min),new T.Vector3(...crop.max)));bounds.union(box);meshes.push({id:index+1,name:config.parts[index].name,geometry,bvh:new MeshBVH(geometry,{indirect:true})});}
+  for(const [index,patches]of grouped){if(config.parts[index].sourceUnion){for(const geometry of patches){geometry.computeBoundingBox();bounds.union(geometry.boundingBox);meshes.push({id:index+1,name:config.parts[index].name,geometry,bvh:new MeshBVH(geometry,{indirect:true})});}continue;}const geometry=patches.length===1?patches[0]:mergeGeometries(patches);if(patches.length>1)patches.forEach(g=>g.dispose());geometry.computeBoundingBox();const box=geometry.boundingBox.clone(),crop=config.parts[index].crop;if(crop)box.intersect(new T.Box3(new T.Vector3(...crop.min),new T.Vector3(...crop.max)));bounds.union(box);meshes.push({id:index+1,name:config.parts[index].name,geometry,bvh:new MeshBVH(geometry,{indirect:true})});}
  }
  const root=roots[0];
  const continuity=key==='upper'?JSON.parse(fs.readFileSync('journey-continuity-source-audit.json','utf8')):null;
@@ -62,7 +62,7 @@ for(const [key,config]of Object.entries(journeySources)){
  bounds.expandByScalar(.006);const step=config.spacing,origin=bounds.min.toArray().map(v=>Math.floor(v/step)*step),dimensions=bounds.max.toArray().map((v,i)=>Math.ceil((v-origin[i])/step)+1);
  const [nx,ny,nz]=dimensions,labels=new Uint8Array(nx*ny*nz),obstacles=new Uint8Array(labels.length),forkOverlaps=new Uint8Array(labels.length),forkParents=new Map(),ray=new T.Ray(new T.Vector3(),new T.Vector3(1,0,0));let oddRays=0,castRays=0;
  for(const [parent,children]of config.forks||[])for(let i=0;i<children.length;i++)for(let j=i+1;j<children.length;j++)forkParents.set([children[i],children[j]].sort((a,b)=>a-b).join(':'),parent);
- const anatomy=key==='upper'?await journeyLandmarks(root):null;
+ const anatomy=key==='upper'?await journeyLandmarks(root):key==='circulation'?cardiacJourneyLandmarks(roots[sourceAssets.findIndex(a=>a.file==='z-cardiac-source.glb.gz')],config.parts):null;
  const centerlines=key==='upper'?[sourceBowelPath(meshes.find(m=>m.id===10).geometry)]:[],bloodSpaceAudit=[];
  for(const {id,geometry,bvh,obstacle=false}of [...meshes,...(anatomy?.meshes||[]).map(m=>({...m,obstacle:true}))]){
   if(!obstacle&&config.parts[id-1].sourceSweep){geometry.dispose();continue;}
@@ -93,13 +93,13 @@ for(const [key,config]of Object.entries(journeySources)){
  // The conservative chamber-wall approximation must not erase those actual
  // vessel interiors. Later adjacency barriers still prohibit septal shortcuts.
  let sourceVesselWallOverlapVoxels=0;
- if(config.kind==='circulation')for(let i=0;i<labels.length;i++)if(obstacles[i]&&labels[i]&&!config.parts[labels[i]-1].bloodSpace){obstacles[i]=0;sourceVesselWallOverlapVoxels++;}
+ if(config.kind==='circulation')for(let i=0;i<labels.length;i++)if(obstacles[i]===250&&labels[i]&&!config.parts[labels[i]-1].bloodSpace){obstacles[i]=0;sourceVesselWallOverlapVoxels++;}
  const header={key,...config,origin,dimensions,castRays,oddRays,sharedBranchVoxels,sourceVesselWallOverlapVoxels,sourceSha256:sourceAssets[0].sha256,sourceAssets,...(sourceContinuity?{sourceContinuity}:{}),...(sourceCardiac?{sourceCardiac}:{}),...(bloodSpaceAudit.length?{bloodSpaceAudit}:{}),centerlines,landmarks:anatomy?.landmarks||[],landmarkRegistration:anatomy?.registration||null};
  console.error('Building '+key+': connections, surface and collision field');
  const result=spawnSync('python',['build-journey-surface.py'],{input:Buffer.concat([Buffer.from(JSON.stringify(header)+'\n'),Buffer.from(labels),Buffer.from(obstacles)]),maxBuffer:Math.max(128*1024*1024,labels.length*2+64*1024*1024)});
  if(result.stderr.length)console.error(result.stderr.toString());if(result.status!==0)throw Error('Surface build failed: '+(result.error?.message||result.signal||result.status));
  const separator=result.stdout.indexOf(10),report=JSON.parse(result.stdout.subarray(0,separator)),surface=result.stdout.subarray(separator+1,separator+1+report.surfaceBytes),volume=result.stdout.subarray(separator+1+report.surfaceBytes);
- const optimized=await compactJourneySurface(surface,report);
+ if(config.surfaceError)report.surfaceError=config.surfaceError;const optimized=await compactJourneySurface(surface,report);
  console.error('Building '+key+': compact sparse volume');
  const field=new JourneyVolume({...header,...report},volume);if(config.enforceSurfaceClearance)report.surfaceClearance=constrainSurfaceClearance(field,optimized,report);applySourcePathStarts(report,centerlines,field);const packed=packJourneyBricks(field);
  fs.writeFileSync(directory+'journey-'+key+'-surface.bin.gz',gzipSync(optimized,{level:9}));fs.writeFileSync(directory+'journey-'+key+'-volume.bin.gz',gzipSync(packed,{level:9}));

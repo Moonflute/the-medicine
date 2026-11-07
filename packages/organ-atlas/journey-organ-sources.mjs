@@ -11,7 +11,7 @@ export const organJourneySources={
   parts:[
    urinary('Right renal pelvis','우신우','VH_M_renal_pelvis_R','신배에서 모인 소변이 신우를 거쳐 우요관으로 이어집니다.'),
    urinary('Right ureter','우요관','VH_M_ureter_R','오른쪽 신우와 방광을 잇는 관입니다. 실제 연동운동과 요관방광이음부의 역류 방지는 재현하지 않습니다.'),
-   urinary('Urinary bladder','방광',null,'좌우 요관이 연결되는 소변 저장 공간입니다. 원본 방광벽의 외형을 바탕으로 재구성했으며 실제 점막 두께나 팽창 상태를 측정한 모델은 아닙니다.',{sourceFile:'bladder.glb.gz',sources:['VH_M_urinary_bladder_neck_smooth_muscle','VH_M_fundus_of_urinary_bladder_dome','VH_M_fundus_of_urinary_bladder_base1','VH_M_trigone_of_urinary_bladder'],color:'#d4a19a',endNotice:'방광까지 탐험할 수 있어요. 요도와 외부 개구는 이번 탐험에 포함하지 않았어요.'}),
+   urinary('Urinary bladder','방광',null,'좌우 요관이 연결되는 소변 저장 공간입니다. 원본 방광벽의 외형을 바탕으로 재구성했으며 실제 점막 두께나 팽창 상태를 측정한 모델은 아닙니다.',{sourceFile:'bladder.glb.gz',sources:['VH_M_urinary_bladder_neck_smooth_muscle','VH_M_fundus_of_urinary_bladder_dome','VH_M_fundus_of_urinary_bladder_base1','VH_M_trigone_of_urinary_bladder'],color:'#d4a19a',endNotice:'같은 방광에서 남성 요도로 이어서 탐험할 수 있어요.'}),
    urinary('Left ureter','좌요관','VH_M_ureter_L','왼쪽 신우와 방광을 잇는 관입니다. 좌우 요관은 방광 이전에 서로 연결되지 않습니다.'),
    urinary('Left renal pelvis','좌신우','VH_M_renal_pelvis_L','신배에서 모인 소변이 신우를 거쳐 좌요관으로 이어집니다.')
   ],connections:[[1,2],[2,3],[3,4],[4,5]],flowConnections:[[1,2],[2,3],[5,4],[4,3]],references:[urinaryReference],
@@ -20,7 +20,7 @@ export const organJourneySources={
   junctionAnchors:{'2:3':[-.027281825,.046740459,-.011872711],'3:4':[.020741853,.040153651,-.010322659]},
   junctionWindows:{'2:3':{min:[-.042,.031,-.027],max:[-.012,.062,.003]},'3:4':{min:[.005,.025,-.026],max:[.036,.056,.005]}},
   sourceLandmarks:[{sourceId:'VH_M_ureteral_orifice_R',name:'Right ureteric orifice',part:3,position:[-.027281825,.046740459,-.011872711]},{sourceId:'VH_M_ureteral_orifice_L',name:'Left ureteric orifice',part:3,position:[.020741853,.040153651,-.010322659]},{sourceId:'VH_M_trigone_of_urinary_bladder',name:'Trigone of urinary bladder',part:3,position:[-.003582673,.030371160,-.009430669]}],
-  notice:'HRA 원본의 신우·요관·방광 외형과 상대 좌표로 만든 탐험용 공간입니다. 실제 점막·벽 두께·연동운동을 재현하지 않으며 신장 실질·네프론·요도는 포함하지 않습니다. 다른 표본의 혈관·소화관과는 부위 이동으로 전환합니다.'},
+  notice:'HRA 원본의 신우·요관·방광 외형과 상대 좌표로 만든 탐험용 공간입니다. 실제 점막·벽 두께·연동운동을 재현하지 않으며 신장 실질·네프론은 포함하지 않습니다. 신우에서는 신배, 방광에서는 남성 요도 영역으로 이어집니다. 다른 표본의 혈관·소화관과는 부위 이동으로 전환합니다.'},
  biliary:{...base,title:'담낭 · 담도 · 췌관',kind:'biliary',file:'gallbladder.glb.gz',spacing:.00025,maxClearance:.014,minRadius:.0001,
   parts:[
    biliary('Gallbladder','담낭','VH_M_gallbladder','담즙을 저장하고 농축하는 공간입니다. 담낭관을 통해 간 밖 담도와 이어집니다.'),

@@ -3,7 +3,7 @@ const pulmonaryFile='z-cardiac-source.glb.gz';
 const chamber=(name,korean,circuit)=>({name,korean,source:name,sourceFile:'z-whole-organs.glb.gz',bloodSpace:true,preserveInternalTissue:true,kind:'heart',circuit,group:circuit==='right'?'우심장':'좌심장',color:circuit==='right'?'#a97e85':'#b77672'});
 const pulmonary=(name,korean,kind,circuit)=>({name,korean,source:name.replaceAll(' ','_'),sourceFile:pulmonaryFile,kind,circuit,group:kind==='artery'?'폐동맥':'폐정맥',color:kind==='artery'?'#87a5c0':'#c87570'});
 export const cardiacSource={
- title:'심장 · 대혈관',kind:'circulation',coordinateFrame:'z-anatomy',file:'z-whole-organs.glb.gz',spacing:.0006,sourceSeamRadius:.0006,maxJunctionGap:.012,expectedComponents:2,
+ title:'심장 · 대혈관',kind:'circulation',coordinateFrame:'z-anatomy',file:'z-whole-organs.glb.gz',spacing:.0006,maxClearance:.03,sourceSeamRadius:.0006,maxJunctionGap:.012,expectedComponents:2,
  parts:[
   chamber('Right atrium','우심방','right'),chamber('Right ventricle','우심실','right'),chamber('Left atrium','좌심방','left'),chamber('Left ventricle','좌심실','left'),
   pulmonary('Pulmonary trunk','폐동맥줄기','artery','right'),pulmonary('Right pulmonary artery','우폐동맥','artery','right'),pulmonary('Left pulmonary artery','좌폐동맥','artery','right'),

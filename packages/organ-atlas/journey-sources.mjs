@@ -6,7 +6,11 @@ import {cardiacSource} from './journey-cardiac-sources.mjs';
 import {circulationSource} from './journey-circulation-sources.mjs';
 import {organJourneySources} from './journey-organ-sources.mjs';
 import {limbJourneySources} from './journey-limb-sources.mjs';
+import {extensionJourneySources} from './journey-extension-sources.mjs';
+import {headJourneySources} from './journey-head-sources.mjs';
 export function journeyNotice(key){
+ if(headJourneySources[key])return headJourneySources[key].notice;
+ if(extensionJourneySources[key])return extensionJourneySources[key].notice;
  if(organJourneySources[key])return organJourneySources[key].notice;
  if(limbJourneySources[key])return limbJourneySources[key].notice;
  if(key==='cardiac'||key==='circulation')return '같은 Z-Anatomy 좌표에서 심근과 구별한 4방의 혈액 공간을 대정맥·폐동맥·폐정맥·대동맥에 연결한 탐험용 재구성입니다. 판막 통과부는 탐험을 위해 열어 두었으며 실제 박동·판막 개폐의 생리적 한 시점을 뜻하지 않습니다. 폐·전신 모세혈관망과 관상 미세순환은 생략하며 좌우 중격을 관통하는 통로를 만들지 않습니다.';
@@ -110,5 +114,7 @@ journeySources.vessels.forks.push([1,[2,30,31]]);
 journeySources.circulation=circulationSource(journeySources);
 Object.assign(journeySources,organJourneySources);
 Object.assign(journeySources,limbJourneySources);
+Object.assign(journeySources,extensionJourneySources);
+Object.assign(journeySources,headJourneySources);
 // A connection is a reviewed source adjacency, not an arbitrary nearest mesh.
 for(const [key,config]of Object.entries(journeySources)){config.bridges??=config.connections;config.coordinateFrame??='z-anatomy';config.kind??=key==='upper'?'digestive-airway':key==='veins'?'vein':'artery';}

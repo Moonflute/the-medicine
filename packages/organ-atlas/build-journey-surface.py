@@ -204,7 +204,7 @@ distance_cache.clear()
 # the approximate myocardial mask. Chamber tissue remains impermeable.
 if cfg.get('kind')=='circulation':
  vessel_ids=[i for i,p in enumerate(cfg['parts'],1) if not p.get('bloodSpace')]
- vascular_space=np.isin(labels,vessel_ids);obstacles[vascular_space]=0;del vascular_space
+ vascular_space=np.isin(labels,vessel_ids);obstacles[vascular_space&(obstacles==250)]=0;del vascular_space
 labels[obstacles>0]=0
 mask=labels>0
 mask[[0,-1],:,:]=False;mask[:,[0,-1],:]=False;mask[:,:,[0,-1]]=False;labels[~mask]=0
@@ -238,7 +238,7 @@ if cfg.get('kind')=='circulation' or cfg.get('preserveSeparation'):
  from journey_mesh import build_surface
  verts,faces,normals,colors,locations=build_surface(labels,cfg)
 else:
- smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.75 if cfg['key']=='upper' else .55)
+ smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=cfg.get('surfaceSigma',.75 if cfg['key']=='upper' else .55))
  verts,faces,normals,_=marching_cubes(smooth,level=.5,spacing=(step,step,step),allow_degenerate=False)
  verts=(verts[:,::-1]+origin).astype('<f4');normals=normals[:,::-1].astype('<f4');faces=faces.astype('<u4')
  # Remove voxel stair steps without enlarging the uncertainty budget. Taubin
@@ -249,7 +249,7 @@ else:
  original=verts.copy()
  for _ in range(5):
   for factor in [.45,-.47]:
-   verts=verts+factor*(adj@verts-verts);delta=verts-original;length=np.linalg.norm(delta,axis=1);verts=original+delta*np.minimum(1,.00018/np.maximum(length,1e-12))[:,None]
+   verts=verts+factor*(adj@verts-verts);delta=verts-original;length=np.linalg.norm(delta,axis=1);verts=original+delta*np.minimum(1,cfg.get('surfaceSmoothLimit',.00018)/np.maximum(length,1e-12))[:,None]
  verts=verts.astype('<f4');normals=np.zeros_like(verts);face_normals=np.cross(verts[faces[:,1]]-verts[faces[:,0]],verts[faces[:,2]]-verts[faces[:,0]])
  for corner in range(3):np.add.at(normals,faces[:,corner],face_normals)
  normals/=np.maximum(np.linalg.norm(normals,axis=1,keepdims=True),1e-12)
@@ -259,6 +259,9 @@ else:
   inside=np.argwhere(mask);tree=cKDTree(world(inside));_,near=tree.query(verts[missing]);region[missing]=labels[tuple(inside[near].T)]
  colors=np.array([[int(p['color'][i:i+2],16) for i in [1,3,5]] for p in cfg['parts']],dtype=np.uint8)[region-1]
 for landmark in cfg.get('landmarks',[]):
+ # Cardiac landmarks retain their chamber's existing circuit palette. A
+ # proximity tint must not bleed across a thin wall onto the other circuit.
+ if cfg.get('kind')=='circulation':continue
  distance_to_source=bounded_distance(obstacles!=landmark['id'],step*3)
  near=distance_to_source[locations[:,2],locations[:,1],locations[:,0]]<step*1.6
  colors[near]=[int(landmark['color'][i:i+2],16) for i in [1,3,5]]
@@ -283,9 +286,10 @@ for part in parts:
  if not len(points):points=np.argwhere(labels==number)
  positions=world(points);farthest=positions[np.argmax(np.sum((positions-entry)**2,axis=1))]
  continuation=('이 기관의 위쪽 후두·인두는 이 표본의 탐험 범위에 포함하지 않았어요.' if number==1 else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.') if cfg.get('kind')=='airway' else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.' if part.get('system')=='respiratory' else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
- boundaries.append({'part':number,'position':farthest.tolist(),'returnPoint':entry.tolist(),'range':.026,'name':part['name'],'continuation':continuation})
+ boundaries.append({'part':number,'position':farthest.tolist(),'returnPoint':entry.tolist(),'range':cfg.get('boundaryRange',.026),'name':part['name'],'continuation':continuation})
  if cfg.get('kind') in ('circulation','artery','vein'):boundaries[-1]['continuation']='이후의 더 작은 혈관과 모세혈관망은 포함하지 않았어요. 이 끝에서 동맥과 정맥을 직접 연결하지 않습니다.'
  if cfg.get('kind')=='urinary':boundaries[-1]['continuation']=part.get('endNotice','신우 이전의 신배·집합관·네프론은 이번 탐험에 포함하지 않았어요.')
+ if cfg.get('kind')=='csf':boundaries[-1]['continuation']='뇌실 형상의 끝입니다. 제4뇌실 이후의 정중·가쪽구멍과 거미막밑공간은 이번 탐험에 포함하지 않았어요.' if number==5 else '가쪽뇌실의 뿔 끝입니다. 뇌실사이구멍 쪽으로 돌아갈 수 있어요.'
  if cfg.get('kind')=='biliary':boundaries[-1]['continuation']=part.get('endNotice','원본에 포함된 담도·췌관 구간의 끝입니다. 더 작은 분지는 포함하지 않았어요.')
 
 # Preserve conservative clearance, including the smoothing displacement.

@@ -67,5 +67,17 @@ for(const site of sites)for(let i=0;i<256;i++){
  }
  assert(checked,site.name+': every audit direction must reach a wall');
 }
+// Newly reused papillary muscles must remain SOLID inside the chamber. Check
+// interior points against the unchanged source, not just matching UI labels.
+const papillaryBytes=gunzipSync(read('z-cardiac-source.glb.gz')),papillary=(await new GLTFLoader().parseAsync(papillaryBytes.buffer.slice(papillaryBytes.byteOffset,papillaryBytes.byteOffset+papillaryBytes.length),'')).scene;papillary.updateMatrixWorld(true);let solidPapillarySamples=0;
+for(const landmark of manifest.landmarks.filter(l=>l.part)){
+ const source=papillary.getObjectByName(landmark.sourceId);assert(source,'source muscle must exist');const g=source.geometry.clone().applyMatrix4(source.matrixWorld);g.computeBoundingBox();const bvh=new MeshBVH(g,{indirect:true}),box=g.boundingBox,ray=new T.Ray(new T.Vector3(),new T.Vector3(1,.173,.319).normalize());let samples=0;
+ for(let x=box.min.x+.0007;x<box.max.x;x+=.0012)for(let y=box.min.y+.0007;y<box.max.y;y+=.0012)for(let z=box.min.z+.0007;z<box.max.z;z+=.0012){
+  ray.origin.set(x,y,z);if(bvh.closestPointToPoint(ray.origin).distance<.0007)continue;const hits=bvh.raycast(ray,T.DoubleSide).sort((a,b)=>a.distance-b.distance),distances=[];for(const hit of hits)if(!distances.length||hit.distance-distances.at(-1)>1e-7)distances.push(hit.distance);if(distances.length%2!==1)continue;
+  assert(field.clearance([x,y,z])<.0001,landmark.name+' must block entry into its solid tissue');samples++;
+ }
+ assert(samples>0,landmark.name+' needs actual internal collision samples');solidPapillarySamples+=samples;g.dispose();
+}
+assert(manifest.landmarks.filter(l=>l.part).length===4);papillary.traverse(item=>{item.geometry?.dispose();item.material?.dispose();});
 geometry.dispose();original.dispose();scene.traverse(item=>{item.geometry?.dispose();if(Array.isArray(item.material))item.material.forEach(material=>material.dispose());else item.material?.dispose();});
-console.log(JSON.stringify({separateRenderCircuits:2,atrialWallRegressionRays:directions.length,thinWallRays,chamberAndValveSites:sites.length,chamberAndValveRays,sourceWallErrorMm:errors.map(v=>Math.round(v*1000)/1000),triangles:manifest.triangles}));
+console.log(JSON.stringify({separateRenderCircuits:2,solidPapillarySamples,atrialWallRegressionRays:directions.length,thinWallRays,chamberAndValveSites:sites.length,chamberAndValveRays,sourceWallErrorMm:errors.map(v=>Math.round(v*1000)/1000),triangles:manifest.triangles}));

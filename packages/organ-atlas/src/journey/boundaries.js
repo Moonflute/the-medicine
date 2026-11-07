@@ -19,7 +19,7 @@ export class JourneyBoundaryGuide{
   this.panel.hidden=!boundary;if(!boundary){this.current=0;return false;}
   if(this.current!==boundary.part){
    this.current=boundary.part;const options=this.transfers?.options(region)||[],regions=regionTransitions(this.asset.manifest,region);
-   this.title.textContent=regions.length?(regions[0].type==='capillary'?'미세순환 생략 · '+regions[0].territory:'이어지는 혈관'):options.length?'미세순환 생략 · '+options[0].territory:'탐험 범위 끝';
+   this.title.textContent=regions.length?(regions[0].type==='capillary'?'미세순환 생략 · '+regions[0].territory:'이어지는 영역'):options.length?'미세순환 생략 · '+options[0].territory:'탐험 범위 끝';
    this.defaultDetail=regions.length?(regions[0].type==='capillary'?'말초 분지와 모세혈관을 건너 대응 혈관으로 이동합니다.':'현재 위치와 시선을 유지하며 다음 영역을 불러옵니다.'):options.length?'말초 분지와 모세혈관을 건너 연결 혈관으로 이동합니다.':boundary.continuation;
    this.actions.replaceChildren();this.panel.dataset.transfer=String(!!(options.length||regions.length));
    for(const option of regions){const button=document.createElement('button');button.textContent=option.label+' →';button.dataset.regionTo=option.key;button.onclick=()=>this.onRegion(option);this.actions.append(button);}

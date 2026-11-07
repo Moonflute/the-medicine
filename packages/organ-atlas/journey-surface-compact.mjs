@@ -5,7 +5,7 @@ export async function compactJourneySurface(raw,report){
  const n=report.vertices,buffer=Uint8Array.from(raw),positions=new Float32Array(buffer.buffer,0,n*3),normals=new Float32Array(buffer.buffer,n*12,n*3),colors=buffer.subarray(n*24,n*27),indices=new Uint32Array(buffer.slice(n*27).buffer),locks=new Uint8Array(n);
  let reduced,error,attempt=0,valid=false;
  for(;attempt<6;attempt++){
-  [reduced,error]=MeshoptSimplifier.simplifyWithAttributes(indices,positions,3,normals,3,[0,0,0],locks,Math.floor(indices.length*.24/3)*3,.00012,['ErrorAbsolute','LockBorder']);
+  [reduced,error]=MeshoptSimplifier.simplifyWithAttributes(indices,positions,3,normals,3,[0,0,0],locks,Math.floor(indices.length*.24/3)*3,report.surfaceError??.00012,['ErrorAbsolute','LockBorder']);
   const duplicates=new Map(),cancelled=new Set();
   for(let i=0;i<reduced.length;i+=3){const tri=[reduced[i],reduced[i+1],reduced[i+2]],key=[...tri].sort((a,b)=>a-b).join(',');if(duplicates.has(key)){cancelled.add(i);cancelled.add(duplicates.get(key));}else duplicates.set(key,i);}
   if(cancelled.size)reduced=Uint32Array.from([...reduced].filter((_,i)=>!cancelled.has(i-i%3)));

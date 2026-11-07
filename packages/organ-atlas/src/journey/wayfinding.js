@@ -18,10 +18,10 @@ export function entranceHints(manifest){
    return [{id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:j.valve?.name||child.name,target:j.valve?child.name:'',detail:forward?'혈류 유출 →':'← 혈류 유입',point:j.valve?.center||j.start,nearPoint:j.start,regions:[j.from],range:.09,valve:!!j.valve},{id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:j.valve?.name||parent.name,target:j.valve?parent.name:'',detail:forward?'← 혈류 유입':'혈류 유출 →',point:j.valve?.center||j.end,nearPoint:j.end,regions:[j.to],range:.09,valve:!!j.valve}];
   }
   return [
-   {id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:child.name,detail:vein?'유입 정맥':['urinary','biliary'].includes(kind)?'연결 구간':'분지',point:j.end,regions:[j.from],range:.055},
-   {id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':['urinary','biliary'].includes(kind)?'연결 구간':'기시 혈관',point:j.start,regions:[j.to],range:.055}
+   {id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:child.name,detail:vein?'유입 정맥':['urinary','biliary','csf'].includes(kind)?'연결 구간':'분지',point:j.end,regions:[j.from],range:.055},
+   {id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':['urinary','biliary','csf'].includes(kind)?'연결 구간':'기시 혈관',point:j.start,regions:[j.to],range:.055}
   ];
- }).concat((manifest.sourceLandmarks||[]).map(p=>({id:p.sourceId,name:p.name,detail:'',point:p.position,regions:[p.part],range:.06,surface:true})));
+ }).concat([...(manifest.sourceLandmarks||[]),...(manifest.landmarks||[])].filter(p=>p.part).map(p=>({id:p.sourceId,name:p.name,detail:'',point:p.position,regions:[p.part],range:.06,surface:true})));
  const junction=(a,b,side='end')=>manifest.junctions.find(j=>j.from===a&&j.to===b)?.[side];
  return [
   {id:'oropharynx',from:1,to:2,name:'Oropharynx',detail:'인두로',point:[0,1.537,.012],regions:[1],range:.055},
@@ -29,6 +29,8 @@ export function entranceHints(manifest){
   {id:'esophagus',from:2,to:3,name:'Esophageal inlet',detail:'뒤쪽 · Stomach',point:junction(2,3,'start'),regions:[2,6],range:.060},
   {id:'left-bronchus',from:7,to:8,name:'Left main bronchus',detail:'좌주기관지',point:junction(7,8),regions:[7],range:.055},
   {id:'right-bronchus',from:7,to:9,name:'Right main bronchus',detail:'우주기관지',point:junction(7,9),regions:[7],range:.055},
+  {id:'cardial-opening',from:4,to:3,name:'Gastroesophageal junction',target:'Esophagus',detail:'식도 연결부',point:junction(3,4,'end'),regions:[4],range:.07},
+  {id:'carina',name:'Tracheal bifurcation',detail:'좌·우 주기관지 갈림',point:junction(7,8,'start'),regions:[7],range:.055},
   {id:'pylorus',from:4,to:5,name:'Pyloric junction',target:'Duodenum',detail:'이어지는 구간 →',point:junction(4,5),regions:[4],range:.07},
   {id:'duodenojejunal',from:5,to:10,name:'Duodenojejunal junction',target:'Jejunum and ileum',detail:'이어지는 구간 →',point:junction(5,10),regions:[5],range:.04},
   {id:'ileocecal',from:10,to:11,name:'Ileocecal junction',target:'Cecum',detail:'이어지는 구간 →',point:junction(10,11),regions:[10],range:.04},
@@ -76,7 +78,7 @@ export class JourneyWayfinding{
   this.cue=document.createElement('div');this.cue.className='journey-turn-cue';this.cue.hidden=true;this.layer.append(this.cue);
  }
  highlight(id){
-  const region=this.asset.field.region(this.camera.position.toArray()),hint=connectionHint(this.asset.manifest,this.hints,region,id);if(!hint)return 'unavailable';
+  const region=this.asset.field.region(this.camera.position.toArray()),hint=typeof id==='string'?this.hints.find(h=>h.id===id&&h.regions.includes(region)):connectionHint(this.asset.manifest,this.hints,region,id);if(!hint)return 'unavailable';
   this.focus={...hint,id:'selected-connection'};
   this.frame=null;this.update();return this.focusState;
  }
@@ -85,6 +87,7 @@ export class JourneyWayfinding{
   const hint=boundary?{name:'미세순환 생략 · '+transfer.territory,target:this.asset.manifest.parts.find(p=>p.id===id).name,detail:'혈관 끝에서 전환 선택',point:boundary.position,regions:[region],range:.18,transfer:true}:id===null?null:connectionHint(this.asset.manifest,this.hints,region,id);
   this.route=hint?{...hint,id:'route-connection'}:null;this.frame=null;this.update();
  }
+ setPortal(hint){this.route=hint?{...hint,id:'route-connection',range:.12}:null;this.frame=null;this.update();}
  update(){
   this.layer.hidden=!this.enabled&&!this.route;if(this.layer.hidden)return;
   const {camera,asset}=this,position=camera.position.toArray(),region=asset.field.region(position),width=this.host.clientWidth,height=this.host.clientHeight;

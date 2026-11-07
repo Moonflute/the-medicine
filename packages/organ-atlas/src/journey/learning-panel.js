@@ -32,6 +32,9 @@ export class JourneyLearningPanel{
   for(const next of connectedStructures(manifest,part.id)){
    const button=document.createElement('button');button.textContent=next.label+' · '+next.name;button.title='연결 위치 표시';button.onclick=()=>{this.onToggle(false);this.onHighlight(next.id);};connections.append(button);
   }
+  for(const landmark of [...(manifest.sourceLandmarks||[]),...(manifest.landmarks||[])].filter(l=>l.part===part.id)){
+   const button=document.createElement('button');button.textContent=landmark.name;button.title='구조 위치 표시';button.onclick=()=>{this.onToggle(false);this.onHighlight(landmark.sourceId);};connections.append(button);
+  }
   const examples=examplesFor(manifest,part);this.element.querySelector('.journey-examples').hidden=!examples.length;
   this.select.replaceChildren(new Option('정상',''),...examples.map(e=>new Option(e.label,e.id)));
   const matching=active?.part===part.id?active:null;this.select.value=matching?.id||'';this.slider.value=String(Math.round((matching?.amount??.65)*100));

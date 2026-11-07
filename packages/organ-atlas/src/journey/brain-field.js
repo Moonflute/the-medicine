@@ -24,6 +24,15 @@ export class BrainField{
   // Softly favour radial up on steep sulcal banks; source contact remains exact.
   normal.lerp(direction,.42).normalize();return {point:hit.point.clone(),normal,id:this.owner(hit,layer)};
  }
+ projectNear(position,current){
+  const layer=this.layers.find(l=>l.mesh.userData.layer===this.side),target=new T.Vector3(...position);
+  // Follow the local bank rather than projecting from the hemisphere centre.
+  // A radial projection skips concave sulci and can jump onto an opposite bank.
+  this.ray.origin.copy(target).addScaledVector(current.normal,.003);this.ray.direction.copy(current.normal).negate();
+  const hits=layer.bvh.raycast(this.ray,T.DoubleSide).filter(h=>h.distance<.006&&h.point.distanceTo(current.point)<.0022).sort((a,b)=>a.point.distanceToSquared(target)-b.point.distanceToSquared(target));
+  for(const hit of hits){const normal=this.normal(hit,layer);if(normal.dot(current.normal)<.1)continue;return {point:hit.point.clone(),normal,id:this.owner(hit,layer)};}
+  return null;
+ }
  closest(point){
   this.point.fromArray(point);let best=Infinity,result=null;
   for(const layer of this.layers){if(!layer.mesh.visible)continue;const hit=layer.bvh.closestPointToPoint(this.point,this.target,0,best);if(!hit||hit.distance>=best)continue;best=hit.distance;const normal=this.normal(hit,layer),signed=this.point.clone().sub(hit.point).dot(normal)>=-1e-8?best:-best;result={distance:signed,point:hit.point.clone(),normal,id:this.owner(hit,layer)};}
@@ -45,7 +54,7 @@ export class BrainField{
   for(let i=0;i<count;i++){
    const current=this.walkState?.eye.distanceToSquared(p)<1e-12?this.walkState:this.project(p.toArray());if(!current){blocked=true;break;}
    const tangent=motion.clone().addScaledVector(current.normal,-motion.dot(current.normal));if(tangent.lengthSq()<1e-14)continue;
-   const target=current.point.clone().add(tangent),next=this.project(target.toArray());
+   const target=current.point.clone().add(tangent),next=this.projectNear(target.toArray(),current);
    // Do not jump a missing patch, across a fissure, or across the other hemisphere.
    if(!next||next.point.distanceTo(current.point)>Math.max(.002,tangent.length()*4)){blocked=true;break;}
    const normal=current.normal.clone().lerp(next.normal,.2).normalize(),eye=next.point.clone().addScaledVector(normal,radius*3.5);
@@ -73,6 +82,16 @@ export class BrainField{
    this.ray.origin.copy(eye);this.ray.direction.copy(center).sub(eye).normalize();const deep=this.layers.find(l=>l.mesh.userData.layer==='deep'),hit=deep.bvh.raycastFirst(this.ray,T.DoubleSide);
    if(!hit||this.owner(hit,deep)!==part.id)continue;
    return {key:'brain',id:part.id,name:part.name,position:eye.toArray(),direction:center.sub(eye).normalize().toArray(),radius,mode,side:part.hemisphere};
+  }
+  // Thin or curved deep nuclei need a visible surface target, not their solid
+  // bounding-box centre. Search original vertices without moving other tissue.
+  const deep=this.layers.find(l=>l.mesh.userData.layer==='deep'),normals=this.geometry.attributes.normal;
+  if(normals)for(let i=part.vertexStart;i<part.vertexStart+part.vertexCount;i+=Math.max(1,Math.floor(part.vertexCount/120))){
+   const target=new T.Vector3().fromBufferAttribute(this.position,i),normal=new T.Vector3().fromBufferAttribute(normals,i).normalize();
+   for(const distance of [.006,.012,.025,.003]){const eye=target.clone().addScaledVector(normal,distance);if(this.clearance(eye.toArray())<radius+.0002)continue;
+    this.ray.origin.copy(eye);this.ray.direction.copy(target).sub(eye).normalize();const hit=deep.bvh.raycastFirst(this.ray,T.DoubleSide);if(!hit||this.owner(hit,deep)!==part.id)continue;
+    return {key:'brain',id:part.id,name:part.name,position:eye.toArray(),direction:this.ray.direction.toArray(),radius,mode,side:part.hemisphere};
+   }
   }
   return null;
  }

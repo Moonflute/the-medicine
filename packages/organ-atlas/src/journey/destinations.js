@@ -14,7 +14,7 @@ export const destinationSystems=[
 const normalize=text=>text.normalize('NFKC').toLocaleLowerCase().replace(/[\s·—–+()]/g,'');
 export function journeyDestinations(manifests){
  return manifests.flatMap(manifest=>manifest.parts.filter(part=>part.navigable!==false).map(part=>{
-  const system=part.kind||(['입 · 인두','소화관'].includes(part.group)?'digestive':'airway');
+  const system=part.kind==='csf'?'brain':part.kind||(['입 · 인두','소화관'].includes(part.group)?'digestive':'airway');
   return {key:manifest.key,id:part.id,name:part.name,korean:part.korean,group:part.group,system};
  }));
 }

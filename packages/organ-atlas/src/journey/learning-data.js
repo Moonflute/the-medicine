@@ -3,10 +3,13 @@
 export const journeyModes=[
  {id:'upper',label:'입 · 소화관 · 기관지',start:1},
  {id:'circulation',label:'심장 · 동맥 · 정맥',start:1},
+ {id:'head-artery',label:'머리 · 목 동맥',start:1},
  {id:'urinary',label:'신우 · 요관 · 방광',start:1},
+ ...['renal-right','renal-left','urinary-outlet'].map((id,i)=>({id,label:['우측 신배 · 신우','좌측 신배 · 신우','방광 · 남성 요도'][i],start:1})),
  {id:'biliary',label:'담낭 · 담도 · 췌관',start:1},
  ...['arm-right','arm-left','leg-right-artery','leg-right-vein','leg-left-artery','leg-left-vein'].map(id=>({id,label:(id.includes('right')?'우측 ':'좌측 ')+(id.startsWith('arm')?'상지 혈관':id.endsWith('artery')?'하지 동맥':'하지 정맥'),start:1})),
- {id:'brain',label:'뇌 · 피질 걷기 · 내부 해부',start:1}
+ {id:'brain',label:'뇌 · 피질 걷기 · 내부 해부',start:1},
+ {id:'brain-csf',label:'뇌실 · CSF 경로',start:1}
 ];
 export const journeyKind=manifest=>manifest.kind||(manifest.key==='upper'?'digestive-airway':manifest.key==='veins'?'vein':'artery');
 export function journeyStartGroups(manifest){
@@ -111,7 +114,7 @@ export const clinicalExamples={
  mucus:{id:'mucus',label:'점액 축적',english:'Mucus accumulation',description:'기관지 안에 점액이 쌓여 통로가 줄어드는 형태를 보여 줍니다. 천식의 염증·근육 수축 전체를 나타내지는 않습니다.',query:'천식',reference:'https://www.nhlbi.nih.gov/health/asthma/causes',solid:true}
 };
 export function examplesFor(manifest,part){
- if(['urinary','biliary','brain'].includes(journeyKind(manifest)))return [];
+ if(['urinary','biliary','brain','csf'].includes(journeyKind(manifest)))return [];
  if(journeyKind(manifest)==='circulation'){
   if(part.lessonKey)return examplesFor({key:part.lessonKey,kind:part.kind},{...part,id:part.lessonId});
   return part.name==='Ascending aorta'?[clinicalExamples.plaque]:['Superior vena cava','Inferior vena cava — upper segment'].includes(part.name)?[clinicalExamples.thrombus]:[];

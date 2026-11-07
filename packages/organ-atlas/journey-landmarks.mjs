@@ -12,6 +12,17 @@ async function load(file){const bytes=fs.readFileSync(directory+file),raw=gunzip
 const worldGeometry=mesh=>mesh.geometry.clone().applyMatrix4(mesh.matrixWorld);
 function release(root){root.traverse(mesh=>{mesh.geometry?.dispose();for(const material of Array.isArray(mesh.material)?mesh.material:[mesh.material])material?.dispose();});}
 
+export function cardiacJourneyLandmarks(root,parts){
+ const records=[];
+ for(const [i,name]of ['Inferior papillary muscle of left ventricle','Inferior papillary muscle of right ventricle','Anterior papillary muscle of right ventricle','Septal papillary muscle of right ventricle'].entries()){
+  const sourceId=name.replaceAll(' ','_'),mesh=root.getObjectByName(sourceId)||root.getObjectByName(name);if(!mesh)throw Error('Missing reviewed papillary source '+name);
+  const part=parts.findIndex(p=>p.name===(name.includes('left')?'Left ventricle':'Right ventricle'))+1,geometry=worldGeometry(mesh);geometry.computeBoundingBox();
+  const bvh=new MeshBVH(geometry,{indirect:true}),center=geometry.boundingBox.getCenter(new T.Vector3()),position=bvh.closestPointToPoint(center.clone().add(new T.Vector3(0,.02,.015))).point.toArray();
+  records.push({id:10+i,name,sourceId:mesh.name,sourceFile:'z-cardiac-source.glb.gz',part,color:parts[part-1].color,position,geometry,bvh,representation:'source-coordinate-preserved'});
+ }
+ return {meshes:records,landmarks:records.map(({geometry,bvh,...record})=>record)};
+}
+
 export async function journeyLandmarks(organRoot){
  const skeleton=await load('z-whole-skeleton-optimized.glb.gz'),larynx=await load('larynx-bodyparts-light.glb.gz');
  try{
