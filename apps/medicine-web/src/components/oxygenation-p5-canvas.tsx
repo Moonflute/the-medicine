@@ -359,7 +359,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
         };
 
         p.setup = async () => {
-          lungImage = await p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-lungs.png`).catch(() => null);
+          lungImage = await p.loadImage(`${ASSET_BASE_PATH}/optimized-images/images/physiology/acid-base-lungs.webp`).catch(() => null);
           if (cancelled) return; const canvas = p.createCanvas(canvasWidth, canvasHeight);
           canvas.parent(host);
           p.frameRate(reducedMotion ? 1 : 30);

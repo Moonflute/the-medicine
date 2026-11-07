@@ -8,6 +8,7 @@ import { ParentPageFab } from "@/components/parent-page-fab";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { DocumentEditButton } from "@/components/document-edit-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
+import { selectDocumentLinks } from "@/lib/document-links";
 import { getChiefComplaintByCategoryAndSlug, getChiefComplaints, getClinicalRelationsFor, getDiseaseLinks, getQbankCountForTarget, getWardGroups, WARD_CATEGORY } from "@/lib/webdb";
 
 export function generateStaticParams() {
@@ -23,7 +24,7 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
   if (!note) notFound();
   const canonicalCategorySlug = Buffer.from(note.category, "utf-8").toString("base64url");
   if (params.category !== canonicalCategorySlug) redirect(`/cc/category/${canonicalCategorySlug}/${note.slug}`);
-  const diseaseLinks = getDiseaseLinks();
+  const diseaseLinks = selectDocumentLinks(getDiseaseLinks(), note, true);
   const relations = getClinicalRelationsFor("cc", note.id);
   const relatedQbankCount = getQbankCountForTarget("cc", note.slug);
   const group = note.category === WARD_CATEGORY ? getWardGroups().find((item) => item.name === note.subCategory) : undefined;

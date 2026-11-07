@@ -9,6 +9,7 @@ import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RelatedInteractiveConcepts } from "@/components/related-interactive-concepts";
 import { getAllDiseases, getAntibioticSpectrum, getCanonicalDiseaseSlug, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getQbankCountForTarget, getSpecialties, getSpecialtyToc, isCompatibilityDisease, isSpecialtyIndexDisease } from "@/lib/webdb";
 import { getInfectionPathwaysForDisease } from "@/lib/infection-db";
+import { selectDocumentLinks } from "@/lib/document-links";
 type Disease = NonNullable<ReturnType<typeof getDiseaseBySlug>>;
 const diseaseSequenceBySpecialty = new Map<string, Disease[]>();
 
@@ -57,7 +58,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
   }
 
   const ccLinks = getChiefComplaintLinksForTerms(note.chiefComplaints);
-  const diseaseLinks = getDiseaseLinks(note.specialty);
+  const diseaseLinks = selectDocumentLinks(getDiseaseLinks(note.specialty), note);
   const parentHref = `/specialty/${Buffer.from(note.specialty, "utf-8").toString("base64url")}`;
   const relations = getClinicalRelationsFor("disease", note.id);
   const infectionPathways = getInfectionPathwaysForDisease(note.slug);

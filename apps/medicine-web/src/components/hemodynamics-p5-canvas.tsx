@@ -99,7 +99,7 @@ export function HemodynamicsP5Canvas({ state, reference }: { state: Hemodynamics
         };
 
         p.setup = async () => {
-          heart = await p.loadImage(`${BASE_PATH}/images/physiology/cardiac-cutaway-v2.png`).catch(() => null);
+          heart = await p.loadImage(`${BASE_PATH}/optimized-images/images/physiology/cardiac-cutaway-v2.webp`).catch(() => null);
           if (cancelled) return; const canvas = p.createCanvas(width, height); canvas.parent(host); p.frameRate(reducedMotion ? 1 : 30); p.textFont("Arial, sans-serif");  observer = new ResizeObserver(resize); observer.observe(host); resize(); p.noLoop();
         };
 

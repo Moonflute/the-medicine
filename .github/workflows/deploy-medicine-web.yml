@@ -27,6 +27,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -35,14 +37,17 @@ jobs:
           cache: npm
           cache-dependency-path: apps/medicine-web/package-lock.json
 
+      - name: Resolve dependency cache and verification scope
+        id: inputs
+        run: node scripts/deployment-inputs.mjs
+
       - name: Restore Next.js build cache
         uses: actions/cache@v4
         with:
           path: apps/medicine-web/.next/cache
-          key: ${{ runner.os }}-next-lint-v1-${{ hashFiles('apps/medicine-web/package-lock.json') }}-${{ github.sha }}
+          key: ${{ runner.os }}-next-v2-${{ steps.inputs.outputs.dependency-key }}-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-next-lint-v1-${{ hashFiles('apps/medicine-web/package-lock.json') }}-
-            ${{ runner.os }}-next-${{ hashFiles('apps/medicine-web/package-lock.json') }}-
+            ${{ runner.os }}-next-v2-${{ steps.inputs.outputs.dependency-key }}-
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -97,7 +102,11 @@ jobs:
         run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-qbank-session-results.mjs scripts/test-qbank-active-session.mjs scripts/test-qbank-related-theory.mjs scripts/test-qbank-session-context.mjs scripts/test-qbank-copy.mjs scripts/test-ocr-paragraphs.mjs
 
       - name: Verify interactive physiology
+        if: steps.inputs.outputs.physiology == 'true'
         run: npm run verify:physiology
+
+      - name: Verify deployment optimizations
+        run: node --experimental-strip-types --test scripts/test-document-links.mjs scripts/test-deployment-inputs.mjs
 
       - name: Verify document editing preservation and conflicts
         run: node --experimental-strip-types --test scripts/test-document-edit.mjs scripts/test-document-editor-api.mjs scripts/test-document-tiptap.mjs

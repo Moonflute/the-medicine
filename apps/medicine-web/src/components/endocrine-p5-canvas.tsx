@@ -8,7 +8,7 @@ export function EndocrineP5Canvas({ state, reference }: { state: EndocrineState;
   const [selected, setSelected] = useState(0);
   return <div className="endocrine-board">
     <div className="endocrine-stages">{state.stages.map((stage, index) => <button type="button" key={stage.id} className="endocrine-organ" aria-pressed={selected === index} onClick={() => setSelected(index)} style={{ borderColor: selected === index ? "var(--primary)" : undefined }}>
-      {assets[stage.organ] ? <Image src={base + "/images/physiology/endocrine-" + assets[stage.organ] + "-v2.png"} alt={stage.organLabel} width={90} height={100} unoptimized /> : <div className="flex h-[100px] items-center justify-center text-rose-700">혈액</div>}
+      {assets[stage.organ] ? <Image src={base + "/optimized-images/images/physiology/endocrine-" + assets[stage.organ] + "-v2.webp"} alt={stage.organLabel} width={90} height={100} unoptimized /> : <div className="flex h-[100px] items-center justify-center text-rose-700">혈액</div>}
       <p>{stage.organLabel}</p><h2>{stage.hormone}</h2><output>{stage.value.toFixed(stage.value < 10 ? 2 : 1)}</output><p>{stage.unit === "relative" ? "상대값" : stage.unit}</p>
       {reference?.axis === state.axis ? <p className="lab-reference-label">기준 {reference.stages[index].value.toFixed(stage.value < 10 ? 2 : 1)}</p> : null}
       <p className="mt-2">{stage.status === "high" ? "↑ 정상 모델보다 높음" : stage.status === "low" ? "↓ 정상 모델보다 낮음" : "정상 모델"}</p>

@@ -28,7 +28,7 @@ export function EcgP5Canvas({ state, markers=[0,0], hideDiagnosis=false }: { sta
         let width = 760; let height = 570; let time = 0;  let heart: P5Image | null = null;
         const label = (text: string, x: number, y: number, size = 11, color = "#46595e", align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.CENTER) => { p.noStroke(); p.fill(color); p.textAlign(align, p.CENTER); p.textSize(Math.max(12, size)); p.text(text, x, y); };
         const resize = () => { width = Math.max(320, host.clientWidth); height = width < 620 ? 650 : 570; p.resizeCanvas(width, height); };
-        p.setup = async () => { heart = await p.loadImage(`${BASE_PATH}/images/physiology/cardiac-cutaway-v2.png`).catch(() => null); if (cancelled) return; const canvas = p.createCanvas(width, height); canvas.parent(host); p.frameRate(reducedMotion ? 1 : 30); p.textFont("Arial");  observer = new ResizeObserver(resize); observer.observe(host); resize(); p.noLoop(); };
+        p.setup = async () => { heart = await p.loadImage(`${BASE_PATH}/optimized-images/images/physiology/cardiac-cutaway-v2.webp`).catch(() => null); if (cancelled) return; const canvas = p.createCanvas(width, height); canvas.parent(host); p.frameRate(reducedMotion ? 1 : 30); p.textFont("Arial");  observer = new ResizeObserver(resize); observer.observe(host); resize(); p.noLoop(); };
 
         p.draw = () => {
           const current = stateRef.current; time = clock.current.seconds % current.windowSeconds;

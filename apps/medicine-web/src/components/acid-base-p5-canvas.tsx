@@ -337,8 +337,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
 
         p.setup = async () => {
           [lungImage, kidneyImage] = await Promise.all([
-            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-lungs.png`).catch(() => null),
-            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-kidney.png`).catch(() => null),
+            p.loadImage(`${ASSET_BASE_PATH}/optimized-images/images/physiology/acid-base-lungs.webp`).catch(() => null),
+            p.loadImage(`${ASSET_BASE_PATH}/optimized-images/images/physiology/acid-base-kidney.webp`).catch(() => null),
           ]);
           if (cancelled) return; const canvas = p.createCanvas(canvasWidth, canvasHeight);
           canvas.parent(host);

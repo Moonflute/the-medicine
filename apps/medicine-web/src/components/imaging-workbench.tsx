@@ -75,27 +75,27 @@ const TABS: ImagingTab[] = [
 const ASSET_BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 const ATLASES: Record<string, Atlas> = {
-  xray: { src: "/images/imaging/xray-normal-atlas.png", panels: [
+  xray: { src: "/optimized-images/images/imaging/xray-normal-atlas.webp", panels: [
     { id: "cxr-pa", label: "CXR PA", position: [0, 0] }, { id: "cxr-ap", label: "CXR AP", position: [1, 0] }, { id: "cxr-lateral", label: "CXR lateral", position: [2, 0] },
     { id: "abdomen", label: "Abdomen", position: [0, 1] }, { id: "shoulder", label: "Shoulder AP", position: [1, 1] }, { id: "knee", label: "Knee", position: [2, 1] },
   ] },
-  us: { src: "/images/imaging/us-normal-atlas.png", panels: [
+  us: { src: "/optimized-images/images/imaging/us-normal-atlas.webp", panels: [
     { id: "ruq", label: "RUQ", position: [0, 0] }, { id: "renal", label: "Kidney·bladder", position: [1, 0] }, { id: "pelvis", label: "Pelvis", position: [2, 0] },
     { id: "dvt", label: "DVT compression", position: [0, 1] }, { id: "fast", label: "FAST/eFAST", position: [1, 1] }, { id: "doppler", label: "Carotid·aorta Doppler", position: [2, 1] },
   ] },
-  ct: { src: "/images/imaging/ct-normal-atlas.png", panels: [
+  ct: { src: "/optimized-images/images/imaging/ct-normal-atlas.webp", panels: [
     { id: "brain", label: "Brain NCCT", position: [0, 0] }, { id: "chest-lung", label: "Chest lung", position: [1, 0] }, { id: "chest-mediastinum", label: "Chest mediastinum", position: [2, 0] },
     { id: "arterial", label: "Abdomen arterial", position: [0, 1] }, { id: "portal", label: "Abdomen portal venous", position: [1, 1] }, { id: "kub", label: "KUB", position: [2, 1] },
   ] },
-  mri: { src: "/images/imaging/mri-normal-atlas.png", panels: [
+  mri: { src: "/optimized-images/images/imaging/mri-normal-atlas.webp", panels: [
     { id: "brain-t1", label: "Brain T1", position: [0, 0] }, { id: "brain-t2", label: "Brain T2", position: [1, 0] }, { id: "brain-flair", label: "Brain FLAIR", position: [2, 0] },
     { id: "brain-dwi", label: "Brain DWI/ADC", position: [0, 1] }, { id: "c-spine", label: "C-spine", position: [1, 1] }, { id: "l-spine", label: "L-spine T2", position: [2, 1] },
   ] },
-  angio: { src: "/images/imaging/angio-normal-atlas.png", panels: [
+  angio: { src: "/optimized-images/images/imaging/angio-normal-atlas.webp", panels: [
     { id: "brain", label: "Brain CTA/MRA", position: [0, 0] }, { id: "neck", label: "Neck CTA", position: [1, 0] }, { id: "ctpa", label: "CTPA", position: [2, 0] },
     { id: "aorta", label: "Aorta CTA", position: [0, 1] }, { id: "runoff", label: "Lower-extremity runoff", position: [1, 1] }, { id: "catheter", label: "Catheter angiography", position: [2, 1] },
   ] },
-  echo: { src: "/images/imaging/echo-normal-atlas.png", panels: [
+  echo: { src: "/optimized-images/images/imaging/echo-normal-atlas.webp", panels: [
     { id: "pslax", label: "PSLAX", position: [0, 0] }, { id: "psax", label: "PSAX", position: [1, 0] }, { id: "a4c", label: "Apical 4C", position: [2, 0] },
     { id: "a2c", label: "Apical 2C", position: [0, 1] }, { id: "subcostal", label: "Subcostal·IVC", position: [1, 1] }, { id: "doppler", label: "Doppler", position: [2, 1] },
   ] },

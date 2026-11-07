@@ -5,3 +5,4 @@ dev-server.*.log
 .next-dev.*.log
 
 .next-*
+public/optimized-images/
