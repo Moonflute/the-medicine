@@ -1,22 +1,26 @@
 "use client";
 
 import { useEffect, useEffectEvent, useState } from "react";
-import { formatQbankClock, isRoundTimeUp, remainingRoundSeconds } from "@/lib/qbank-round-timer";
+import { formatQbankClock, isRoundTimeUp, remainingRoundSeconds, type QbankRunningRoundClock } from "@/lib/qbank-round-timer";
 
-export function QbankSessionClock({ deadlineAt, startedAt, finishedAt, onExpire }: {
-  deadlineAt?: number;
+export function QbankSessionClock({ roundClock, startedAt, finishedAt, isRunning, onExpire }: {
+  roundClock?: QbankRunningRoundClock;
   startedAt?: string;
   finishedAt?: string;
+  isRunning?: (clock: QbankRunningRoundClock) => boolean;
   onExpire?: () => void;
 }) {
   const [now, setNow] = useState(Date.now);
+  const shouldTick = useEffectEvent((clock: QbankRunningRoundClock) => !isRunning || isRunning(clock));
   const expire = useEffectEvent(() => onExpire?.());
+  const deadlineAt = roundClock?.deadlineAt;
 
   useEffect(() => {
     if (finishedAt) return;
     let timer: number;
     function tick() {
       window.clearTimeout(timer);
+      if (roundClock && !shouldTick(roundClock)) return;
       const time = Date.now();
       setNow(time);
       if (isRoundTimeUp(deadlineAt, time)) expire();
@@ -28,7 +32,7 @@ export function QbankSessionClock({ deadlineAt, startedAt, finishedAt, onExpire 
       window.clearTimeout(timer);
       document.removeEventListener("visibilitychange", tick);
     };
-  }, [deadlineAt, finishedAt]);
+  }, [deadlineAt, finishedAt, roundClock]);
 
   const countdown = deadlineAt !== undefined && !finishedAt;
   const elapsed = ((finishedAt ? Date.parse(finishedAt) : now) - (startedAt ? Date.parse(startedAt) : now)) / 1000;

@@ -91,8 +91,8 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
     {countdown && <div className="flex justify-end px-3 py-1"><span className="pill">남은 시간 {clock}</span></div>}
     <SkinDocumentNotice title={`${exam.title} · ${timeUp ? "제한시간 종료" : finished ? "제출 완료" : `${answered}/${questions.length} 응답`}`}>
       <div className="chat-exam-notice-info">
-        <dl><div><dt>응답</dt><dd>{answered}/{questions.length}</dd></div><div><dt>보류</dt><dd>{marked}</dd></div>{!countdown && <div><dt>{finished ? "총 경과" : "경과"}</dt><dd>{clock}</dd></div>}</dl>
-        <p>{countdown ? "중단해도 제한시간은 계속 흘러요." : "중단한 시간도 경과시간에 포함돼요."}</p>
+        <dl><div><dt>응답</dt><dd>{answered}/{questions.length}</dd></div><div><dt>보류</dt><dd>{marked}</dd></div>{!countdown && clock && <div><dt>{finished ? "총 경과" : "경과"}</dt><dd>{clock}</dd></div>}</dl>
+        {clock && <p>{countdown ? "문제풀이 화면을 나가거나 닫으면 제한시간이 멈춰요." : "중단한 시간도 경과시간에 포함돼요."}</p>}
         <div><button type="button" onClick={openSheet}>답안표 보기</button><span>{currentIndex + 1}번 · {subject}</span></div>
       </div>
     </SkinDocumentNotice>

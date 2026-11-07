@@ -40,6 +40,7 @@ test('legacy snapshots remain readable without display context', () => {
   assert.equal(parsed.sessionId, 'legacy');
   assert.equal(parsed.context, undefined);
   assert.equal(parsed.deadlineAt, undefined);
+  assert.equal(parsed.roundRemainingMs, undefined);
 });
 
 test('time limits are only accepted for an explicitly timed practice round', () => {
@@ -54,19 +55,39 @@ test('time limits are only accepted for an explicitly timed practice round', () 
   ]) assert.equal(read(overrides), undefined);
 });
 
-test('a saved round keeps its deadline across local and cloud restores, even after expiry', () => {
-  const deadlineAt = Date.parse('2026-09-22T01:00:00Z');
-  const timed = { ...legacy, sessionId: 'timed', deadlineAt };
+test('a saved round resumes the time left at exit even days later on another device', () => {
+  const start = Date.parse('2026-09-22T00:00:00Z');
+  const deadlineAt = roundTimer.resumeRoundDeadline({ roundRemainingMs: 60_000 }, start);
+  const checkpoint = roundTimer.remainingRoundMs(deadlineAt, start + 12_000);
+  assert.equal(checkpoint, 48_000);
+  // Saving while the tab is hidden doesn't change the in-memory deadline.
+  const exit = start + 45_000;
+  const timed = { ...legacy, sessionId: 'timed', updatedAt: new Date(exit).toISOString(), roundRemainingMs: roundTimer.remainingRoundMs(deadlineAt, exit) };
   saveLocalActiveQbankSession(timed);
   const local = loadLocalActiveQbankSession(timed.sessionId);
   const cloud = activeSessionsFrom({ sessions: [JSON.parse(JSON.stringify(local))] })[0];
-  assert.equal(cloud.deadlineAt, deadlineAt);
-  assert.equal(roundTimer.remainingRoundSeconds(cloud.deadlineAt, deadlineAt - 1001), 2);
-  assert.equal(roundTimer.isRoundTimeUp(cloud.deadlineAt, deadlineAt - 1), false);
-  assert.equal(roundTimer.isRoundTimeUp(cloud.deadlineAt, deadlineAt), true);
-  assert.equal(roundTimer.remainingRoundSeconds(cloud.deadlineAt, deadlineAt + 5000), 0);
-  assert.equal(activeSessionFrom({ ...timed, deadlineAt: 'invalid' }).deadlineAt, undefined);
+  assert.equal(cloud.roundRemainingMs, 15_000);
+  assert.equal(cloud.deadlineAt, undefined);
+  const reopen = start + 5 * 86_400_000;
+  const resumedDeadline = roundTimer.resumeRoundDeadline(cloud, reopen);
+  assert.equal(resumedDeadline, reopen + 15_000);
+  assert.equal(roundTimer.remainingRoundSeconds(resumedDeadline, reopen + 13_999), 2);
+  assert.equal(roundTimer.isRoundTimeUp(resumedDeadline, reopen + 14_999), false);
+  assert.equal(roundTimer.isRoundTimeUp(resumedDeadline, reopen + 15_000), true);
   clearLocalActiveQbankSession(timed.sessionId);
+});
+
+test('zero time stays expired, a live round never gains time on sync, and old timers use their last save', () => {
+  const savedAt = Date.parse(legacy.updatedAt);
+  const reopen = savedAt + 86_400_000;
+  assert.equal(roundTimer.resumeRoundDeadline({ roundRemainingMs: 0 }, reopen), reopen);
+  assert.equal(activeSessionFrom({ ...legacy, roundRemainingMs: 0 }).roundRemainingMs, 0);
+  assert.equal(activeSessionFrom({ ...legacy, roundRemainingMs: -1 }).roundRemainingMs, undefined);
+  assert.equal(activeSessionFrom({ ...legacy, roundRemainingMs: '15000' }).roundRemainingMs, undefined);
+  const old = activeSessionFrom({ ...legacy, deadlineAt: savedAt + 15_000 });
+  assert.equal(roundTimer.resumeRoundDeadline(old, reopen), reopen + 15_000);
+  assert.equal(roundTimer.resumeRoundDeadline({ roundRemainingMs: 15_000 }, reopen, reopen + 1_000), reopen + 1_000);
+  assert.equal(roundTimer.resumeRoundDeadline(legacy, reopen), undefined);
 });
 
 test('structured context is sanitized and survives a JSON round trip', () => {
@@ -184,8 +205,13 @@ test('a newer offline answer is scheduled to replace older server progress', () 
   assert.equal(plan.toUpload.length, 1);
 });
 
-const { saveCloudActiveQbankSession, removeCloudActiveQbankSession } = compile('qbank-active-session-cloud.ts', {
+const exitRequests = [];
+const { saveCloudActiveQbankSession, removeCloudActiveQbankSession, saveCloudActiveQbankSessionOnPageExit } = compile('qbank-active-session-cloud.ts', {
   './qbank-active-session': { activeSessionFrom, activeSessionsFrom },
+}, {
+  process: { env: { NEXT_PUBLIC_SUPABASE_URL: 'https://example.test', NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: 'test-publishable' } },
+  URL, TextEncoder,
+  fetch: (url, options) => { exitRequests.push({ url, options }); return Promise.resolve({ ok: true, status: 204 }); },
 });
 
 function fakeActiveSessionClient(initial = []) {
@@ -210,12 +236,14 @@ function fakeActiveSessionClient(initial = []) {
             eq(key, value) { filters[key] = value; return this; },
             is(key, value) { filters[key] = value; return this; },
             lt(key, value) { filters[`lt:${key}`] = value; return this; },
+            lte(key, value) { filters[`lte:${key}`] = value; return this; },
             select() { return this; },
             then(resolve, reject) {
               const row = rows.get(filters.session_id);
               const matches = row && row.user_id === filters.user_id
                 && (!Object.hasOwn(filters, 'ended_at') || row.ended_at == null)
-                && (!filters['lt:updated_at'] || row.updated_at < filters['lt:updated_at']);
+                && (!filters['lt:updated_at'] || row.updated_at < filters['lt:updated_at'])
+                && (!filters['lte:updated_at'] || row.updated_at <= filters['lte:updated_at']);
               if (matches) rows.set(filters.session_id, { ...row, ...patch });
               return Promise.resolve({ data: matches ? [{ session_id: filters.session_id }] : [], error: null }).then(resolve, reject);
             },
@@ -245,4 +273,34 @@ test('ending a local-only set records a tombstone before another device can uplo
   await removeCloudActiveQbankSession(client, 'user', legacy.sessionId, legacy);
   await saveCloudActiveQbankSession(client, 'user', { ...legacy, updatedAt: '2026-09-25T00:00:00.000Z' });
   assert.ok(client.rows.get(legacy.sessionId).ended_at);
+});
+
+test('saving a pause does not overwrite a newer snapshot from a different device', async () => {
+  const newer = { ...legacy, currentIndex: 2, updatedAt: '2026-09-24T00:00:00.000Z', roundRemainingMs: 10_000 };
+  const client = fakeActiveSessionClient([{ user_id: 'user', session_id: newer.sessionId, payload: newer, updated_at: newer.updatedAt }]);
+  await saveCloudActiveQbankSession(client, 'user', { ...legacy, roundRemainingMs: 20_000, updatedAt: '2026-09-25T00:00:00.000Z' }, legacy.updatedAt);
+  assert.equal(client.rows.get(legacy.sessionId).payload.roundRemainingMs, 10_000);
+});
+
+test('closing the page dispatches authenticated keepalive writes with a freshness and end guard', async () => {
+  const paused = { ...legacy, updatedAt: '2026-09-22T00:00:30.000Z', roundRemainingMs: 30_000 };
+  const auth = { userId: 'user', accessToken: 'test-user-token' };
+  const dispatched = saveCloudActiveQbankSessionOnPageExit(auth, paused, false, legacy.updatedAt);
+  assert.equal(exitRequests.length, 2); // Both requests are dispatched before any response is awaited.
+  await dispatched;
+  const [update, insert] = exitRequests.splice(0);
+  assert.equal(update.url.searchParams.get('user_id'), 'eq.user');
+  assert.equal(update.url.searchParams.get('session_id'), `eq.${legacy.sessionId}`);
+  assert.equal(update.url.searchParams.get('ended_at'), 'is.null');
+  assert.equal(update.url.searchParams.get('updated_at'), `lte.${legacy.updatedAt}`);
+  assert.equal(update.options.method, 'PATCH');
+  assert.equal(update.options.keepalive, true);
+  assert.equal(update.options.headers.Authorization, 'Bearer test-user-token');
+  assert.equal(JSON.parse(update.options.body).payload.roundRemainingMs, 30_000);
+  assert.equal(insert.options.keepalive, true);
+  assert.equal(insert.options.method, 'POST');
+  assert.match(insert.options.headers.Prefer, /resolution=ignore-duplicates/);
+  await saveCloudActiveQbankSessionOnPageExit(auth, paused, true);
+  assert.equal(exitRequests.length, 1);
+  exitRequests.length = 0;
 });

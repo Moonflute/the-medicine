@@ -18,7 +18,7 @@ import { ChatOptionalTools } from "@/components/chat-room";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { QbankSessionClock } from "@/components/qbank-session-clock";
 import { readMockExam, type MockExamState } from "@/lib/mock-exam";
-import { isRoundTimeUp, practiceRoundLimitFromParams, readRoundDeadline } from "@/lib/qbank-round-timer";
+import { isRoundTimeUp, practiceRoundLimitFromParams, remainingRoundMs, resumeRoundDeadline, type QbankRunningRoundClock } from "@/lib/qbank-round-timer";
 import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
 import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
 import { QbankCopyButton } from "@/components/qbank-copy-button";
@@ -28,7 +28,7 @@ import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
 import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
 import {
@@ -43,12 +43,12 @@ import {
 } from "@/lib/qbank-store";
 import type { QbankAnswer, QbankSelection, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary, RelatedTheoryDocument } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { activeSessionFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, QBANK_SESSION_STORAGE_PREFIX, readQbankSessionDrafts, saveLocalActiveQbankSession, type QbankActiveSession, type QbankSessionAnswer, type QbankSessionSnapshot } from "@/lib/qbank-active-session";
+import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, QBANK_SESSION_STORAGE_PREFIX, readQbankSessionDrafts, saveLocalActiveQbankSession, type QbankActiveSession, type QbankSessionAnswer, type QbankSessionSnapshot } from "@/lib/qbank-active-session";
 import { QbankEditButton } from "@/components/qbank-edit-button";
 import { RelatedTheoryLauncher } from "@/components/related-theory-launcher";
 import { filterRelatedTheoryQuestions, parseRelatedTheoryTopicKeys, relatedTheoryTopicKey, type RelatedTheoryTopic } from "@/lib/qbank-related-theory";
 import { qbankSessionContextFromParams } from "@/lib/qbank-session-context";
-import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
+import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession, saveCloudActiveQbankSessionOnPageExit } from "@/lib/qbank-active-session-cloud";
 import type { QbankSessionContext } from "@/lib/qbank-active-session";
 
 type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">>;
@@ -226,7 +226,10 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
 
 export function QbankSessionClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
   const [mockExam, setMockExam] = useState<MockExamState | null>(null);
-  const [deadlineAt, setDeadlineAt] = useState<number>();
+  const [roundClock, setRoundClock] = useState<QbankRunningRoundClock>();
+  const deadlineAt = roundClock?.deadlineAt;
+  const liveRoundClockRef = useRef<QbankRunningRoundClock | undefined>(undefined);
+  const pausedRoundRef = useRef<{ sessionId: string; roundRemainingMs: number } | null>(null);
   const [optionSessionId, setOptionSessionId] = useState("");
   const [questions, setQuestions] = useState<SessionQuestion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -253,12 +256,23 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const newSetRequestedRef = useRef(false);
   const activeSessionChannelRef = useRef<RealtimeChannel | null>(null);
   const activeSessionTimerRef = useRef<number | null>(null);
-  const pendingCloudSessionRef = useRef<{ userId: string; snapshot: QbankActiveSession } | null>(null);
+  const pendingCloudSessionRef = useRef<{ userId: string; snapshot: QbankActiveSession; latestKnownAt?: string } | null>(null);
+  const cloudSessionIdRef = useRef<string | null>(null);
+  const exitAuthRef = useRef<{ userId: string; accessToken: string } | null>(null);
+  const restoredLocalVersionRef = useRef<Pick<QbankActiveSession, "sessionId" | "updatedAt"> | null>(null);
+  const latestSavedVersionRef = useRef<Pick<QbankActiveSession, "sessionId" | "updatedAt"> | null>(null);
   const remoteSessionApplyingRef = useRef(false);
   const appliedRemoteSessionVersionRef = useRef("");
   const [syncUserId, setSyncUserId] = useState<string | null>(null);
   const [remoteActiveSession, setRemoteActiveSession] = useState<QbankActiveSession | null>(null);
   const [sessionContext, setSessionContext] = useState<QbankSessionContext | undefined>();
+
+  const startRoundClock = useCallback((deadline: number | undefined) => {
+    const clock = deadline === undefined ? undefined : { deadlineAt: deadline };
+    liveRoundClockRef.current = clock;
+    setRoundClock(clock);
+  }, []);
+  const isRoundClockRunning = useCallback((clock: QbankRunningRoundClock) => liveRoundClockRef.current === clock, []);
 
   const flushPendingCloudSession = useCallback(() => {
     const pending = pendingCloudSessionRef.current;
@@ -267,7 +281,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     appliedRemoteSessionVersionRef.current = pending.snapshot.updatedAt;
     const supabase = getSupabaseBrowserClient();
     if (!supabase) return;
-    void saveCloudActiveQbankSession(supabase, pending.userId, pending.snapshot)
+    void saveCloudActiveQbankSession(supabase, pending.userId, pending.snapshot, pending.latestKnownAt)
+      .then(() => { if (sessionIdRef.current === pending.snapshot.sessionId) cloudSessionIdRef.current = pending.snapshot.sessionId; })
       .catch((error) => console.warn("Q-bank active session sync failed.", error));
   }, []);
 
@@ -302,12 +317,19 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const requestedContext = qbankSessionContextFromParams(params, specialties);
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
-    let snapshot: QbankSessionSnapshot | null = null;
-    try {
-      const stored = window.sessionStorage.getItem(storageKey) ?? window.localStorage.getItem(storageKey);
-      const parsed = stored ? JSON.parse(stored) as QbankSessionSnapshot : null;
-      if (Array.isArray(parsed?.questionIds) && parsed.questionIds.length > 0 && Array.isArray(parsed.answers)) snapshot = parsed;
-    } catch { /* Storage may be unavailable. */ }
+    const storedSnapshots = (["sessionStorage", "localStorage"] as const).flatMap(storage => {
+      try {
+        const stored = window[storage].getItem(storageKey);
+        const parsed = stored ? JSON.parse(stored) as QbankSessionSnapshot : null;
+        return Array.isArray(parsed?.questionIds) && parsed.questionIds.length > 0 && Array.isArray(parsed.answers) ? [parsed] : [];
+      } catch { return []; }
+    });
+    const localActive = activeSessionsFrom(storedSnapshots).find(item => item.sessionId === sessionIdRef.current);
+    const snapshot = localActive ?? storedSnapshots[0];
+    if (localActive) {
+      restoredLocalVersionRef.current = { sessionId: localActive.sessionId, updatedAt: localActive.updatedAt };
+      latestSavedVersionRef.current = restoredLocalVersionRef.current;
+    }
     if (params.get("resume") === "1" || (requestedSessionIdRef.current && !snapshot)) {
       waitingForRemoteResumeRef.current = true;
       return;
@@ -350,7 +372,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const restoredAnswer = snapshot?.answers.find((item) => item.questionId === restoredQuestion?.id);
         const startedAt = Date.now();
         const minutes = practiceRoundLimitFromParams(params);
-        setDeadlineAt(snapshot ? readRoundDeadline(snapshot.deadlineAt) : minutes !== undefined ? startedAt + minutes * 60_000 : undefined);
+        startRoundClock(snapshot ? resumeRoundDeadline(snapshot, startedAt) : minutes !== undefined ? startedAt + minutes * 60_000 : undefined);
         setMockExam(snapshot ? readMockExam(snapshot.mockExam) : params.get("exam") === "1" ? { version: 1, title: `${params.get("practiceYears") || "모의고사"}년 모의고사`, startedAt: new Date(startedAt).toISOString(), drafts: {}, flaggedIds: [] } : null);
         setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
@@ -367,7 +389,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       .catch((reason: unknown) => { if (!cancelled && !remoteSessionApplyingRef.current) setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."); })
       .finally(() => { if (!cancelled && !remoteSessionApplyingRef.current) setLoading(false); });
     return () => { cancelled = true; };
-  }, [sessionStorageKey, specialties]);
+  }, [sessionStorageKey, specialties, startRoundClock]);
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
@@ -378,11 +400,18 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     };
     if (!supabase) { queueMicrotask(resumeFailed); return () => { active = false; }; }
 
+    const exitAuth = supabase.auth.onAuthStateChange((_event, session) => {
+      exitAuthRef.current = session ? { userId: session.user.id, accessToken: session.access_token } : null;
+    });
+
     const applyRemote = (value: unknown) => {
       const session = activeSessionFrom(value);
-      if (!active || finishingRef.current || !session || session.updatedAt <= appliedRemoteSessionVersionRef.current) return;
+      if (!active || finishingRef.current || !session) return;
       if (requestedSessionIdRef.current && requestedSessionIdRef.current !== session.sessionId) return;
       if (newSetRequestedRef.current && session.sessionId !== sessionIdRef.current) return;
+      if (session.sessionId === sessionIdRef.current) cloudSessionIdRef.current = session.sessionId;
+      const localVersion = restoredLocalVersionRef.current;
+      if (pausedRoundRef.current || session.updatedAt <= appliedRemoteSessionVersionRef.current || (localVersion?.sessionId === session.sessionId && session.updatedAt <= localVersion.updatedAt)) return;
       remoteSessionApplyingRef.current = true;
       setRemoteActiveSession(session);
     };
@@ -393,6 +422,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         if (sessionId !== sessionIdRef.current || finishingRef.current) return;
         if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
         pendingCloudSessionRef.current = null;
+        liveRoundClockRef.current = undefined;
+        pausedRoundRef.current = null;
         clearLocalActiveQbankSession(sessionId);
         setError("다른 기기에서 종료된 문제 세트입니다.");
         setLoading(false);
@@ -409,6 +440,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       try {
         const cloud = await loadCloudActiveQbankSessionState(supabase, user.id);
         if (requestedSessionIdRef.current && cloud.endedSessionIds.includes(requestedSessionIdRef.current)) {
+          liveRoundClockRef.current = undefined;
+          pausedRoundRef.current = null;
           clearLocalActiveQbankSession(requestedSessionIdRef.current);
           setError("이미 종료된 문제 세트입니다.");
           setLoading(false);
@@ -433,23 +466,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     return () => {
       active = false;
       if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
-      flushPendingCloudSession();
+      exitAuth.data.subscription.unsubscribe();
       activeSessionChannelRef.current?.unsubscribe();
       activeSessionChannelRef.current = null;
     };
-  }, [flushPendingCloudSession]);
-
-  useEffect(() => {
-    const flushWhenHidden = () => {
-      if (document.visibilityState === "hidden") flushPendingCloudSession();
-    };
-    window.addEventListener("pagehide", flushPendingCloudSession);
-    document.addEventListener("visibilitychange", flushWhenHidden);
-    return () => {
-      window.removeEventListener("pagehide", flushPendingCloudSession);
-      document.removeEventListener("visibilitychange", flushWhenHidden);
-    };
-  }, [flushPendingCloudSession]);
+  }, []);
 
   useEffect(() => {
     if (!remoteActiveSession || remoteActiveSession.updatedAt === appliedRemoteSessionVersionRef.current) return;
@@ -457,12 +478,16 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     void loadQuestions(specialties, "all", "all", "", new Set(remoteActiveSession.questionIds))
       .then((loaded) => {
         const restoredQuestions = remoteActiveSession.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item));
-        if (cancelled || finishingRef.current) return;
+        if (cancelled || finishingRef.current || pausedRoundRef.current) return;
         if (restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) throw new Error("저장된 문제에 접근할 수 없습니다.");
         const restoredIndex = Math.min(Math.max(remoteActiveSession.currentIndex, 0), restoredQuestions.length - 1);
         const restoredQuestion = restoredQuestions[restoredIndex];
         const restoredAnswer = remoteActiveSession.answers.find((item) => item.questionId === restoredQuestion.id);
+        const sameSet = sessionIdRef.current === remoteActiveSession.sessionId;
+        const previousDeadline = sameSet ? liveRoundClockRef.current?.deadlineAt : undefined;
         sessionIdRef.current = remoteActiveSession.sessionId;
+        cloudSessionIdRef.current = remoteActiveSession.sessionId;
+        latestSavedVersionRef.current = { sessionId: remoteActiveSession.sessionId, updatedAt: remoteActiveSession.updatedAt };
         const params = new URLSearchParams(window.location.search);
         params.set("session", remoteActiveSession.sessionId);
         params.delete("resume");
@@ -470,7 +495,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         window.sessionStorage.setItem(`${QBANK_SESSION_STORAGE_PREFIX}${remoteActiveSession.sessionId}`, JSON.stringify(remoteActiveSession));
         saveLocalActiveQbankSession(remoteActiveSession);
         setMockExam(readMockExam(remoteActiveSession.mockExam));
-        setDeadlineAt(remoteActiveSession.deadlineAt);
+        const restoredDeadline = resumeRoundDeadline(remoteActiveSession, Date.now(), previousDeadline);
+        if (!sameSet || restoredDeadline !== previousDeadline) startRoundClock(restoredDeadline);
         setSessionContext(remoteActiveSession.context);
         setOptionSessionId(remoteActiveSession.sessionId);
         setQuestions(restoredQuestions);
@@ -488,7 +514,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       .catch((error) => { console.warn("Q-bank active session could not be restored.", error); if (!cancelled) setError("저장된 풀이를 복원하지 못했습니다. 로그인과 문제 접근 권한을 확인해 주세요."); })
       .finally(() => { if (!cancelled) setLoading(false); window.setTimeout(() => { remoteSessionApplyingRef.current = false; }, 0); });
     return () => { cancelled = true; };
-  }, [remoteActiveSession, specialties]);
+  }, [remoteActiveSession, specialties, startRoundClock]);
 
   const current = questions[currentIndex];
   useStudyPageSource(current ? {
@@ -507,6 +533,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       if (nextId && nextId === ownerId) return;
       ownerId = nextId;
       if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+      pendingCloudSessionRef.current = null;
+      liveRoundClockRef.current = undefined;
+      pausedRoundRef.current = null;
       setSyncUserId(null);
       setQuestions([]);
       setRemoteActiveSession(null);
@@ -584,6 +613,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     }
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
     pendingCloudSessionRef.current = null;
+    liveRoundClockRef.current = undefined;
     endingSnapshotRef.current = sessionIdRef.current ? loadLocalActiveQbankSession(sessionIdRef.current) : null;
     try { clearLocalActiveQbankSession(sessionIdRef.current ?? undefined); } catch { /* Result is already saved. */ }
     setFinishConfirm(false);
@@ -665,43 +695,115 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [chooseOption, current, currentIndex, mockExam, next, optionSessionId, previous, selected, submit, submitted, completed, finishConfirm]);
-  useEffect(() => {
-    if (loading || completed || finishingRef.current || questions.length === 0 || !sessionIdRef.current) return;
-    const snapshot: QbankActiveSession = {
+  const buildSnapshot = useCallback((now: number): QbankActiveSession | null => {
+    const sessionId = sessionIdRef.current;
+    if (loading || error || completed || finishingRef.current || questions.length === 0 || !sessionId) return null;
+    const lastVersion = latestSavedVersionRef.current;
+    const lastSavedAt = lastVersion?.sessionId === sessionId ? Date.parse(lastVersion.updatedAt) : NaN;
+    const clock = liveRoundClockRef.current;
+    return {
       context: sessionContext,
       mockExam,
-      deadlineAt,
+      roundRemainingMs: clock ? remainingRoundMs(clock.deadlineAt, now) : undefined,
       drafts: current && selected && !submitted ? { ...drafts, [current.id]: selected } : drafts,
-      sessionId: sessionIdRef.current,
+      sessionId,
       questionIds: questions.map((item) => item.id),
       currentIndex,
       answers,
       selected,
       submitted,
-      updatedAt: new Date().toISOString(),
+      updatedAt: new Date(Number.isFinite(lastSavedAt) ? Math.max(now, lastSavedAt + 1) : now).toISOString(),
     };
+  }, [answers, completed, current, currentIndex, drafts, error, loading, mockExam, questions, selected, sessionContext, submitted]);
+
+  const persistSnapshot = useCallback((snapshot: QbankActiveSession) => {
+    latestSavedVersionRef.current = { sessionId: snapshot.sessionId, updatedAt: snapshot.updatedAt };
     try {
-      window.sessionStorage.setItem(sessionStorageKey(), JSON.stringify(snapshot));
+      window.sessionStorage.setItem(`${QBANK_SESSION_STORAGE_PREFIX}${snapshot.sessionId}`, JSON.stringify(snapshot));
+    } catch { /* The local active-set list is still attempted below. */ }
+    try {
       saveLocalActiveQbankSession(snapshot);
-      if (mockExam) {
-        window.localStorage.setItem(sessionStorageKey(), JSON.stringify(snapshot));
-        window.localStorage.setItem("medicine-web-last-mock", JSON.stringify({ updatedAt: snapshot.updatedAt, title: mockExam.title, finished: Boolean(mockExam.finishedAt), href: `/review/qbank/session${window.location.search}` }));
+      if (snapshot.mockExam) {
+        window.localStorage.setItem("medicine-web-last-mock", JSON.stringify({ updatedAt: snapshot.updatedAt, title: snapshot.mockExam.title, finished: Boolean(snapshot.mockExam.finishedAt), href: `/review/qbank/session?session=${encodeURIComponent(snapshot.sessionId)}` }));
       }
     } catch {
       // Keep the session usable when browser storage is unavailable.
     }
-    if (!syncUserId || remoteSessionApplyingRef.current) return;
+  }, []);
+
+  const queueCloudSnapshot = useCallback((snapshot: QbankActiveSession, userId: string | null, immediate = false, latestKnownAt?: string) => {
+    if (!userId || (!immediate && remoteSessionApplyingRef.current)) return;
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
-    pendingCloudSessionRef.current = { userId: syncUserId, snapshot };
-    activeSessionTimerRef.current = window.setTimeout(() => {
+    pendingCloudSessionRef.current = { userId, snapshot, latestKnownAt };
+    if (immediate) flushPendingCloudSession();
+    else activeSessionTimerRef.current = window.setTimeout(flushPendingCloudSession, snapshot.mockExam ? 0 : 500);
+  }, [flushPendingCloudSession]);
+
+  useEffect(() => {
+    if (pausedRoundRef.current) return;
+    const snapshot = buildSnapshot(Date.now());
+    if (!snapshot) return;
+    persistSnapshot(snapshot);
+    queueCloudSnapshot(snapshot, syncUserId);
+  }, [buildSnapshot, persistSnapshot, queueCloudSnapshot, roundClock, syncUserId]);
+
+  const checkpointRound = useEffectEvent((event: "hidden" | "pagehide" | "leave") => {
+    const snapshot = liveRoundClockRef.current ? buildSnapshot(Date.now()) : null;
+    if (!snapshot || snapshot.roundRemainingMs === undefined || snapshot.mockExam?.finishedAt) {
       flushPendingCloudSession();
-    }, mockExam ? 0 : 500);
-  }, [answers, completed, current, currentIndex, deadlineAt, drafts, flushPendingCloudSession, loading, mockExam, questions, selected, sessionContext, sessionStorageKey, submitted, syncUserId]);
+      return;
+    }
+    const previous = latestSavedVersionRef.current;
+    const latestKnownAt = previous?.sessionId === snapshot.sessionId ? previous.updatedAt : undefined;
+    if (event !== "hidden") {
+      // Hiding the tab only checkpoints. Leaving the page ends this run of the clock.
+      pausedRoundRef.current = { sessionId: snapshot.sessionId, roundRemainingMs: snapshot.roundRemainingMs };
+      liveRoundClockRef.current = undefined;
+    }
+    persistSnapshot(snapshot);
+    const auth = exitAuthRef.current;
+    if (event === "pagehide" && auth && auth.userId === syncUserId) {
+      const request = saveCloudActiveQbankSessionOnPageExit(auth, snapshot, cloudSessionIdRef.current === snapshot.sessionId, latestKnownAt);
+      if (request) {
+        if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+        pendingCloudSessionRef.current = null;
+        appliedRemoteSessionVersionRef.current = snapshot.updatedAt;
+        void request.catch(error => console.warn("Q-bank page exit sync failed; the timer was saved locally.", error));
+        return;
+      }
+    }
+    queueCloudSnapshot(snapshot, syncUserId, true, latestKnownAt);
+  });
+
+  const resumePausedRound = useEffectEvent(() => {
+    const paused = pausedRoundRef.current;
+    if (!paused || paused.sessionId !== sessionIdRef.current || error || completed || mockExam?.finishedAt) return;
+    pausedRoundRef.current = null;
+    startRoundClock(resumeRoundDeadline(paused, Date.now()));
+  });
+
+  useEffect(() => {
+    const whenHidden = () => { if (document.visibilityState === "hidden") checkpointRound("hidden"); };
+    const onPageHide = () => checkpointRound("pagehide");
+    const onPageShow = (event: PageTransitionEvent) => { if (event.persisted) resumePausedRound(); };
+    window.addEventListener("pagehide", onPageHide);
+    window.addEventListener("pageshow", onPageShow);
+    document.addEventListener("visibilitychange", whenHidden);
+    resumePausedRound();
+    return () => {
+      window.removeEventListener("pagehide", onPageHide);
+      window.removeEventListener("pageshow", onPageShow);
+      document.removeEventListener("visibilitychange", whenHidden);
+      checkpointRound("leave");
+    };
+  }, []);
+
   useEffect(() => {
     if (!mockExam?.finishedAt || !sessionIdRef.current) return;
     const finishedSessionId = sessionIdRef.current;
     if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
     pendingCloudSessionRef.current = null;
+    liveRoundClockRef.current = undefined;
     const endingSnapshot = loadLocalActiveQbankSession(finishedSessionId);
     try { clearLocalActiveQbankSession(finishedSessionId); } catch { /* The completed result is already stored separately. */ }
     const client = getSupabaseBrowserClient();
@@ -717,7 +819,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     </div>
   );
 
-  if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} deadlineAt={deadlineAt} onChange={setMockExam} onMove={setCurrentIndex} />;
+  if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} roundClock={roundClock} isRunning={isRoundClockRunning} onChange={setMockExam} onMove={setCurrentIndex} />;
 
   if (completed) {
     const gradedCount = answers.filter((item) => item.correct !== null).length;
@@ -783,7 +885,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}
           </button>
         </DocumentToolbar>
-        {deadlineAt !== undefined && <div className="mt-2 flex justify-end"><span className="pill">남은 시간 <QbankSessionClock deadlineAt={deadlineAt} onExpire={finish} /></span></div>}
+        {roundClock && <div className="mt-2 flex justify-end"><span className="pill">남은 시간 <QbankSessionClock roundClock={roundClock} isRunning={isRoundClockRunning} onExpire={finish} /></span></div>}
         <SkinDocumentNotice title={`${practiceQuestionLabel(current)} · ${current.questionType}`}><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</SkinDocumentNotice>
         <SkinQuestionWorkspace sourceTitle={practiceQuestionLabel(current)} number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length}
           hint={selectionHint(current)}

@@ -1,6 +1,6 @@
 import { isSelection } from "./qbank-grading";
 import { readMockExam, type MockExamState } from "./mock-exam";
-import { readRoundDeadline } from "./qbank-round-timer";
+import { readRoundDeadline, readRoundRemainingMs } from "./qbank-round-timer";
 import type { QbankSelection, RelatedTheoryDocument } from "./types";
 
 export type QbankSessionAnswer = { questionId: string; selected?: QbankSelection; correct: boolean | null; specialty: string };
@@ -19,6 +19,8 @@ export type QbankSessionSnapshot = {
   context?: QbankSessionContext;
   drafts?: Record<string, QbankSelection>;
   mockExam?: MockExamState | null;
+  roundRemainingMs?: number;
+  /** Legacy v0.14.1 snapshots only. */
   deadlineAt?: number;
   questionIds: string[];
   currentIndex: number;
@@ -94,6 +96,7 @@ export function activeSessionFrom(value: unknown): QbankActiveSession | null {
     sessionId: candidate.sessionId,
     context: readSessionContext(candidate.context),
     mockExam: readMockExam(candidate.mockExam),
+    roundRemainingMs: readRoundRemainingMs(candidate.roundRemainingMs),
     deadlineAt: readRoundDeadline(candidate.deadlineAt),
     drafts: readQbankSessionDrafts(candidate.drafts),
     questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),

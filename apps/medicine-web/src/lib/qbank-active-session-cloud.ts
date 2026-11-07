@@ -29,7 +29,7 @@ export async function loadCloudActiveQbankSessionState(client: SupabaseClient, u
   };
 }
 
-export async function saveCloudActiveQbankSession(client: SupabaseClient, userId: string, session: QbankActiveSession): Promise<void> {
+export async function saveCloudActiveQbankSession(client: SupabaseClient, userId: string, session: QbankActiveSession, latestKnownAt?: string): Promise<void> {
   const parsed = activeSessionFrom(session);
   if (!parsed) return;
   const { data: inserted, error } = await client.from("qbank_active_sessions").upsert({
@@ -43,15 +43,57 @@ export async function saveCloudActiveQbankSession(client: SupabaseClient, userId
     if (inserted?.length) return;
     // A different device may have a newer snapshot or an end tombstone.
     // Never overwrite either with an older local copy.
-    const { error: updateError } = await client.from("qbank_active_sessions")
+    const update = client.from("qbank_active_sessions")
       .update({ payload: parsed, updated_at: parsed.updatedAt })
       .eq("user_id", userId).eq("session_id", parsed.sessionId)
       .is("ended_at", null).lt("updated_at", parsed.updatedAt);
+    const { error: updateError } = await (latestKnownAt ? update.lte("updated_at", latestKnownAt) : update);
     if (updateError) throw updateError;
     return;
   }
   const { error: legacyError } = await client.from("user_preferences").upsert({ user_id: userId, qbank_active_session: parsed }, { onConflict: "user_id" });
   if (legacyError) throw legacyError;
+}
+
+/** The normal SDK save can await auth and an upsert response. At pagehide, dispatch the guarded write immediately. */
+export function saveCloudActiveQbankSessionOnPageExit(
+  auth: { userId: string; accessToken: string },
+  session: QbankActiveSession,
+  alreadyInCloud: boolean,
+  latestKnownAt?: string,
+): Promise<void> | undefined {
+  const apiUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const parsed = activeSessionFrom(session);
+  if (!apiUrl || !key || !auth.accessToken || !parsed) return;
+
+  const endpoint = new URL(`${apiUrl.replace(/\/+$/, "")}/rest/v1/qbank_active_sessions`);
+  const updateUrl = new URL(endpoint);
+  updateUrl.searchParams.set("user_id", `eq.${auth.userId}`);
+  updateUrl.searchParams.set("session_id", `eq.${parsed.sessionId}`);
+  updateUrl.searchParams.set("ended_at", "is.null");
+  updateUrl.searchParams.set("updated_at", latestKnownAt ? `lte.${latestKnownAt}` : `lt.${parsed.updatedAt}`);
+  const insertUrl = new URL(endpoint);
+  insertUrl.searchParams.set("on_conflict", "user_id,session_id");
+
+  const row = { payload: parsed, updated_at: parsed.updatedAt };
+  const updateBody = JSON.stringify(row);
+  const insertBody = alreadyInCloud ? undefined : JSON.stringify({ ...row, user_id: auth.userId, session_id: parsed.sessionId });
+  // Browsers cap the total pending keepalive body size. Current timed rounds are much smaller than this.
+  const encoder = new TextEncoder();
+  const updateSize = encoder.encode(updateBody).byteLength;
+  const insertSize = insertBody ? encoder.encode(insertBody).byteLength : 0;
+  if (updateSize > 64 * 1024) return;
+  const headers = { apikey: key, Authorization: `Bearer ${auth.accessToken}`, "Content-Type": "application/json" };
+  const requests = [fetch(updateUrl, { method: "PATCH", body: updateBody, keepalive: true, headers: { ...headers, Prefer: "return=minimal" } })];
+  if (insertBody && updateSize + insertSize <= 64 * 1024) {
+    // In case the user left before the first save: insert only if the row is still absent.
+    requests.push(fetch(insertUrl, { method: "POST", body: insertBody, keepalive: true, headers: { ...headers, Prefer: "resolution=ignore-duplicates,return=minimal" } }));
+  }
+  return Promise.all(requests).then(responses => {
+    const failed = responses.find(response => !response.ok);
+    if (failed) throw new Error(`Active session exit sync returned ${failed.status}`);
+  });
 }
 
 export async function removeCloudActiveQbankSession(client: SupabaseClient, userId: string, sessionId: string, localSession?: QbankActiveSession | null): Promise<void> {
