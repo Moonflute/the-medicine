@@ -457,12 +457,12 @@ export const assetRevisions={
     "bytes": 1667119
   },
   "./models/current/journey-circulation.json": {
-    "sha256": "cee103fb6506933bd192c28088eb9aebd229c769abfff67407d5b8c9063de86e",
-    "bytes": 78629
+    "sha256": "234b08e80a8f03e1ea2e7cdccb60d5c0d956c35ba2e6b6fff5a000a4aa63e19d",
+    "bytes": 78668
   },
   "./models/current/journey-circulation-surface.bin.gz": {
-    "sha256": "37d82932fb6726c0428b7306fcbd4c74d563099b67fdca22c1ab394a4e0fb575",
-    "bytes": 5727876
+    "sha256": "b5e6c92901d1bacd681b2ea09d3f2793bc165fb3c0358ead1266e03f0086531e",
+    "bytes": 5620128
   },
   "./models/current/journey-circulation-volume.bin.gz": {
     "sha256": "ea19b37fb2a293727f0c2582b20fb43a666d07bee29d5b549a09c7f8cd03be62",

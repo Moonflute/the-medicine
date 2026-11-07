@@ -218,26 +218,30 @@ else:
 labels[~mask]=0
 distance_cache.clear();del components,sizes,remove
 distance=bounded_distance(mask)-step*.5
-smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.75 if cfg['key']=='upper' else .55)
-verts,faces,normals,_=marching_cubes(smooth,level=.5,spacing=(step,step,step),allow_degenerate=False)
-verts=(verts[:,::-1]+origin).astype('<f4');normals=normals[:,::-1].astype('<f4');faces=faces.astype('<u4')
-# Remove voxel stair steps without enlarging the uncertainty budget. Taubin
-# smoothing is clamped to 0.18 mm; collision clearance reserves at least 0.28 mm
-# for smoothing and 0.12 mm for subsequent mesh simplification.
-edges=np.concatenate([faces[:,[0,1]],faces[:,[1,2]],faces[:,[2,0]]]);edges=np.concatenate([edges,edges[:,::-1]]);edges=np.unique(edges,axis=0)
-adj=coo_matrix((np.ones(len(edges)),(edges[:,0],edges[:,1])),shape=(len(verts),len(verts))).tocsr();adj=diags(1/np.maximum(1,np.asarray(adj.sum(axis=1)).ravel()))@adj
-original=verts.copy()
-for _ in range(5):
- for factor in [.45,-.47]:
-  verts=verts+factor*(adj@verts-verts);delta=verts-original;length=np.linalg.norm(delta,axis=1);verts=original+delta*np.minimum(1,.00018/np.maximum(length,1e-12))[:,None]
-verts=verts.astype('<f4');normals=np.zeros_like(verts);face_normals=np.cross(verts[faces[:,1]]-verts[faces[:,0]],verts[faces[:,2]]-verts[faces[:,0]])
-for corner in range(3):np.add.at(normals,faces[:,corner],face_normals)
-normals/=np.maximum(np.linalg.norm(normals,axis=1,keepdims=True),1e-12)
-locations=np.clip(np.round((verts-origin)/step).astype(int),[0,0,0],[nx-1,ny-1,nz-1]);region=labels[locations[:,2],locations[:,1],locations[:,0]]
-missing=np.flatnonzero(region==0)
-if len(missing):
- inside=np.argwhere(mask);tree=cKDTree(world(inside));_,near=tree.query(verts[missing]);region[missing]=labels[tuple(inside[near].T)]
-colors=np.array([[int(p['color'][i:i+2],16) for i in [1,3,5]] for p in cfg['parts']],dtype=np.uint8)[region-1]
+if cfg.get('kind')=='circulation':
+ from journey_mesh import build_surface
+ verts,faces,normals,colors,locations=build_surface(labels,cfg)
+else:
+ smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.75 if cfg['key']=='upper' else .55)
+ verts,faces,normals,_=marching_cubes(smooth,level=.5,spacing=(step,step,step),allow_degenerate=False)
+ verts=(verts[:,::-1]+origin).astype('<f4');normals=normals[:,::-1].astype('<f4');faces=faces.astype('<u4')
+ # Remove voxel stair steps without enlarging the uncertainty budget. Taubin
+ # smoothing is clamped to 0.18 mm; collision clearance reserves at least 0.28 mm
+ # for smoothing and 0.12 mm for subsequent mesh simplification.
+ edges=np.concatenate([faces[:,[0,1]],faces[:,[1,2]],faces[:,[2,0]]]);edges=np.concatenate([edges,edges[:,::-1]]);edges=np.unique(edges,axis=0)
+ adj=coo_matrix((np.ones(len(edges)),(edges[:,0],edges[:,1])),shape=(len(verts),len(verts))).tocsr();adj=diags(1/np.maximum(1,np.asarray(adj.sum(axis=1)).ravel()))@adj
+ original=verts.copy()
+ for _ in range(5):
+  for factor in [.45,-.47]:
+   verts=verts+factor*(adj@verts-verts);delta=verts-original;length=np.linalg.norm(delta,axis=1);verts=original+delta*np.minimum(1,.00018/np.maximum(length,1e-12))[:,None]
+ verts=verts.astype('<f4');normals=np.zeros_like(verts);face_normals=np.cross(verts[faces[:,1]]-verts[faces[:,0]],verts[faces[:,2]]-verts[faces[:,0]])
+ for corner in range(3):np.add.at(normals,faces[:,corner],face_normals)
+ normals/=np.maximum(np.linalg.norm(normals,axis=1,keepdims=True),1e-12)
+ locations=np.clip(np.round((verts-origin)/step).astype(int),[0,0,0],[nx-1,ny-1,nz-1]);region=labels[locations[:,2],locations[:,1],locations[:,0]]
+ missing=np.flatnonzero(region==0)
+ if len(missing):
+  inside=np.argwhere(mask);tree=cKDTree(world(inside));_,near=tree.query(verts[missing]);region[missing]=labels[tuple(inside[near].T)]
+ colors=np.array([[int(p['color'][i:i+2],16) for i in [1,3,5]] for p in cfg['parts']],dtype=np.uint8)[region-1]
 for landmark in cfg.get('landmarks',[]):
  distance_to_source=bounded_distance(obstacles!=landmark['id'],step*3)
  near=distance_to_source[locations[:,2],locations[:,1],locations[:,0]]<step*1.6
@@ -270,5 +274,5 @@ for part in parts:
 clearance=np.floor(np.maximum(0,distance-step*.35)/.00025).clip(0,255).astype(np.uint8)
 surface=verts.tobytes()+normals.tobytes()+colors.tobytes()+faces.tobytes()
 volume=clearance.tobytes()+labels.tobytes()
-report={'vertices':len(verts),'triangles':len(faces),'surfaceBytes':len(surface),'distanceUnit':.00025,'parts':parts,'junctions':junctions,'junctionWindows':junction_windows,'boundaries':boundaries,'selfContactBarrierVoxels':self_contact_voxels,'sourceOverlapAdjustedVoxels':source_overlap_voxels,'discardedVoxels':discarded,'componentsBeforeCleanup':int(count),'gridBytes':len(volume),'limits':'Navigation cavity reconstructed from exterior source surfaces; not measured lumen or histology.'}
+report={'surfaceIsolation':'per-blood-circuit' if cfg.get('kind')=='circulation' else 'single-lumen','vertices':len(verts),'triangles':len(faces),'surfaceBytes':len(surface),'distanceUnit':.00025,'parts':parts,'junctions':junctions,'junctionWindows':junction_windows,'boundaries':boundaries,'selfContactBarrierVoxels':self_contact_voxels,'sourceOverlapAdjustedVoxels':source_overlap_voxels,'discardedVoxels':discarded,'componentsBeforeCleanup':int(count),'gridBytes':len(volume),'limits':'Navigation cavity reconstructed from exterior source surfaces; not measured lumen or histology.'}
 sys.stdout.buffer.write((json.dumps(report)+'\n').encode());sys.stdout.buffer.write(surface);sys.stdout.buffer.write(volume)

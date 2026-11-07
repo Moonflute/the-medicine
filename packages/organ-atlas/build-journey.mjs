@@ -16,6 +16,20 @@ import {JourneyVolume,packJourneyBricks} from './src/journey/volume.js';
 import {sampleCardiacBloodSpace} from './journey-cardiac-lumen.mjs';
 const directory='static/models/current/',sourceManifest=JSON.parse(fs.readFileSync(directory+'z-whole-manifest.json','utf8'));
 if(process.argv[2]&&!Object.hasOwn(journeySources,process.argv[2]))throw Error('Unknown journey region: '+process.argv[2]);
+if(process.argv.includes('--surface-only')){
+ const key=process.argv[2];if(key!=='circulation')throw Error('Surface-only rebuild requires the reviewed circulation field');
+ const manifest=JSON.parse(fs.readFileSync(directory+'journey-'+key+'.json','utf8'));
+ for(const asset of manifest.sourceAssets)if(createHash('sha256').update(fs.readFileSync(directory+asset.file)).digest('hex')!==asset.sha256)throw Error('Source changed; a complete reconstruction is required');
+ const result=spawnSync('python',['-X','utf8','rebuild-journey-mesh.py'],{input:JSON.stringify(manifest)+'\n',maxBuffer:128*1024*1024});
+ if(result.status!==0)throw Error(result.stderr.toString()||result.error?.message||'Surface rebuild failed');
+ const separator=result.stdout.indexOf(10),report=JSON.parse(result.stdout.subarray(0,separator)),raw=result.stdout.subarray(separator+1);
+ if(raw.length!==report.surfaceBytes)throw Error('Incomplete surface rebuild');
+ const optimized=await compactJourneySurface(raw,report);
+ fs.writeFileSync(directory+'journey-'+key+'-surface.bin.gz',gzipSync(optimized,{level:9}));
+ fs.writeFileSync(directory+'journey-'+key+'.json',JSON.stringify({...manifest,...report}));
+ console.log(JSON.stringify({key,...report,compressedSurfaceBytes:fs.statSync(directory+'journey-'+key+'-surface.bin.gz').size,collisionFieldUnchanged:true}));
+ process.exit(0);
+}
 for(const [key,config]of Object.entries(journeySources)){
  if(process.argv[2]&&process.argv[2]!==key)continue;
  console.error('Building '+key+': source surfaces');
