@@ -28,7 +28,13 @@ for key in ([sys.argv[1]] if len(sys.argv)>1 else ['upper','airways','vessels','
   ids=[int(components[tuple(p)]) for p in points]
   if radius==.0004:assert all(ids),'Start point is outside navigable volume'
   radii[str(radius)]=ids
-  if radius==.0004:assert len(set(ids))==1,f'{key}: some anatomical destinations cannot be reached at the smallest size: {ids}'
+  if radius==.0004:
+   if m.get('expectedComponents',1)==2:
+    groups={c:{ids[p['id']-1] for p in m['parts'] if p['circuit']==c} for c in ['right','left']}
+    assert all(len(v)==1 for v in groups.values()) and len(set(ids))==2,f'{key}: interrupted or joined cardiac circuits {groups}'
+   else:assert len(set(ids))==1,f'{key}: some anatomical destinations cannot be reached at the smallest size: {ids}'
+  if radius==.0016 and m.get('expectedComponents',1)==2:
+   for a,b in [(1,2),(2,5),(3,4),(4,12)]:assert ids[a-1] and ids[a-1]==ids[b-1],f'{key}: valve passage too narrow at full size {a}->{b}'
   if radius==.0016 and key in ['vessels','veins','airways','thoracic-veins']:
    trunks=[1,2,3,9] if key=='vessels' else [1,2,3,4,5,6,7,8,9] if key=='airways' else [1,2,3] if key=='thoracic-veins' else [1,2]
    trunk_ids=[ids[i-1] for i in trunks]

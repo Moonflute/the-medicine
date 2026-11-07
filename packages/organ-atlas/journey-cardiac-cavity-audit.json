@@ -1,0 +1,71 @@
+{
+  "method": "Oriented source wall crossings: leave tissue then enter tissue; at least two orthogonal axes agree; tissue excluded",
+  "origin": [
+    -0.05,
+    1.23,
+    -0.045
+  ],
+  "spacing": 0.0006,
+  "parts": [
+    {
+      "name": "Right atrium",
+      "rays": 42824,
+      "odd": 11272,
+      "bloodIntervals": 20858,
+      "volumeMl": 80.23,
+      "components": 2,
+      "largestFraction": 1.0,
+      "seed": [
+        -0.01580000000000001,
+        1.3152,
+        0.018000000000000002
+      ],
+      "clearanceMm": 15.012
+    },
+    {
+      "name": "Right ventricle",
+      "rays": 55584,
+      "odd": 24771,
+      "bloodIntervals": 26360,
+      "volumeMl": 122.65,
+      "components": 6,
+      "largestFraction": 1.0,
+      "seed": [
+        0.020799999999999985,
+        1.2774,
+        0.06059999999999999
+      ],
+      "clearanceMm": 16.3
+    },
+    {
+      "name": "Left atrium",
+      "rays": 60062,
+      "odd": 9559,
+      "bloodIntervals": 17146,
+      "volumeMl": 51.43,
+      "components": 35,
+      "largestFraction": 0.999,
+      "seed": [
+        0.005799999999999993,
+        1.299,
+        -0.0144
+      ],
+      "clearanceMm": 13.254
+    },
+    {
+      "name": "Left ventricle",
+      "rays": 62427,
+      "odd": 22719,
+      "bloodIntervals": 23418,
+      "volumeMl": 103.89,
+      "components": 5,
+      "largestFraction": 1.0,
+      "seed": [
+        0.047799999999999995,
+        1.2822,
+        0.0228
+      ],
+      "clearanceMm": 19.891
+    }
+  ]
+}

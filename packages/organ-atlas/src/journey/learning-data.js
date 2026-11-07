@@ -2,9 +2,7 @@
 // Source mesh IDs stay in the manifest; related notes use the host's search.
 export const journeyModes=[
  {id:'upper',label:'입 · 소화관 · 기관지',start:1},
- {id:'vessels',label:'대동맥 · 주요 동맥',start:2},
- {id:'veins',label:'하대정맥 · 주요 정맥',start:2},
- {id:'thoracic-veins',label:'상대정맥 · 목·상지 정맥',start:1}
+ {id:'circulation',label:'심장 · 동맥 · 정맥',start:1}
 ];
 export const journeyKind=manifest=>manifest.kind||(manifest.key==='upper'?'digestive-airway':manifest.key==='veins'?'vein':'artery');
 export function journeyStartGroups(manifest){
@@ -34,6 +32,23 @@ const upper={
  14:['골반 중앙의 원위부 대장입니다. 이 자료로 직장·항문관의 정확한 경계를 정하지 않았습니다.','직장',digestion]
 };
 export function structureLesson(manifest,part){
+ if(journeyKind(manifest)==='circulation'){
+  if(part.lessonKey)return structureLesson({key:part.lessonKey,kind:part.kind},{...part,id:part.lessonId});
+  const descriptions={
+   'Right atrium':'상·하대정맥과 관상정맥동의 혈액이 모이는 우심방입니다. 삼첨판 통과부를 거쳐 우심실로 이어집니다.',
+   'Right ventricle':'우심방에서 받은 혈액이 폐동맥판 통과부와 폐동맥줄기를 거쳐 폐로 향합니다. 좌심실과는 중격으로 분리되어 있습니다.',
+   'Left atrium':'좌우 폐의 네 폐정맥에서 돌아온 산소화된 혈액이 모입니다. 승모판 통과부를 거쳐 좌심실로 이어집니다.',
+   'Left ventricle':'좌심방에서 받은 혈액이 대동맥판 통과부를 거쳐 대동맥과 전신 동맥으로 이어집니다. 우심실과 직접 통하지 않습니다.',
+   'Pulmonary trunk':'우심실에서 나온 혈액이 우·좌폐동맥으로 갈라지는 줄기입니다. 폐 모세혈관망 이후 폐정맥으로 돌아오지만, 이 자료에는 모세혈관망이 없습니다.',
+   'Right pulmonary artery':'폐동맥줄기에서 오른쪽 폐로 향하는 가지입니다. 이 원본의 근위부까지 이동할 수 있으며, 폐정맥으로 직접 연결하지 않습니다.',
+   'Left pulmonary artery':'폐동맥줄기에서 왼쪽 폐로 향하는 가지입니다. 이 원본의 근위부까지 이동할 수 있으며, 폐정맥으로 직접 연결하지 않습니다.',
+   'Superior vena cava':'머리·목·상지의 정맥혈을 우심방으로 전달합니다. 팔머리정맥에서 우심방 안까지 같은 공간으로 이어집니다.',
+   'Inferior vena cava — upper segment':'복부·골반·하지에서 돌아오는 혈액이 우심방으로 들어가는 하대정맥 상부입니다. 상부·하부의 구분은 원본 분할 기준입니다.',
+   'Coronary sinus':'심장 근육의 정맥혈을 모아 우심방으로 전달합니다. 관상동맥과 직접 연결된 통로가 아니며, 심장정맥의 세부 분지는 생략되어 있습니다.',
+   'Ascending aorta':'좌심실에서 대동맥판 통과부를 거쳐 이어집니다. 근위부에서 관상동맥이 갈라지고, 위로 대동맥활과 전신 동맥 분지가 이어집니다.'
+  };
+  return {description:descriptions[part.name]||'폐에서 산소화된 혈액을 좌심방으로 전달하는 폐정맥입니다. 폐 모세혈관망과 더 작은 폐내 분지는 생략되어 있습니다.',query:part.korean,reference:'https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy'};
+ }
  if(manifest.key==='upper'&&part.id>=15){
   const branches=manifest.connections.some(([parent])=>parent===part.id);
   const description=part.id===15?'우상엽기관지가 분지한 뒤 이어지는 중간기관지입니다. 우중엽·우하엽기관지로 이어집니다.':part.id===36?'좌하엽의 기저기관지 묶음입니다. 이 원본은 공통 줄기가 여러 분절 이름에 걸쳐 있어, 실제 형상을 유지하고 개별 분절 경계를 임의로 나누지 않았습니다.':part.group+'에 공기를 전달하는 기관지입니다. '+(branches?'상위 기관지와 다음 분지의 연결 방향을 살펴보세요.':'상위 기관지로 돌아갈 수 있습니다. 이후 세기관지·폐포는 포함하지 않습니다.');
@@ -91,6 +106,10 @@ export const clinicalExamples={
  mucus:{id:'mucus',label:'점액 축적',english:'Mucus accumulation',description:'기관지 안에 점액이 쌓여 통로가 줄어드는 형태를 보여 줍니다. 천식의 염증·근육 수축 전체를 나타내지는 않습니다.',query:'천식',reference:'https://www.nhlbi.nih.gov/health/asthma/causes',solid:true}
 };
 export function examplesFor(manifest,part){
+ if(journeyKind(manifest)==='circulation'){
+  if(part.lessonKey)return examplesFor({key:part.lessonKey,kind:part.kind},{...part,id:part.lessonId});
+  return part.name==='Ascending aorta'?[clinicalExamples.plaque]:['Superior vena cava','Inferior vena cava — upper segment'].includes(part.name)?[clinicalExamples.thrombus]:[];
+ }
  if(journeyKind(manifest)==='artery')return [clinicalExamples.plaque];
  if(journeyKind(manifest)==='vein')return [clinicalExamples.thrombus];
  if(journeyKind(manifest)==='airway'||(part.system==='respiratory'&&part.id!==6))return [clinicalExamples.mucus];
@@ -102,7 +121,7 @@ export function examplesFor(manifest,part){
 export function connectedStructures(manifest,id){
  return manifest.connections.filter(([a,b])=>a===id||b===id).map(([a,b])=>{
   const next=manifest.parts.find(p=>p.id===(a===id?b:a));
-  const kind=journeyKind(manifest),respiratory=manifest.parts.find(p=>p.id===id).system==='respiratory'&&next.system==='respiratory',label=kind==='vein'?(b===id?'유출':'유입'):kind==='artery'?(b===id?'기시':'분지'):kind==='airway'||respiratory?(b===id?'상위 기도':'분지'):'연결';
+  const kind=journeyKind(manifest),respiratory=manifest.parts.find(p=>p.id===id).system==='respiratory'&&next.system==='respiratory',label=kind==='circulation'?(manifest.flowConnections.some(([from,to])=>from===id&&to===next.id)?'혈류 나가는 방향':'혈류 들어오는 방향'):kind==='vein'?(b===id?'유출':'유입'):kind==='artery'?(b===id?'기시':'분지'):kind==='airway'||respiratory?(b===id?'상위 기도':'분지'):'연결';
   return {id:next.id,name:next.name,label};
  });
 }

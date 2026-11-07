@@ -80,6 +80,7 @@ if cfg['key']=='upper':
  stamp_sections([[1.553,.024,.015,.010],[1.540,.010,.017,.013],[1.520,.002,.016,.013],[1.507,.001,.016,.013],[1.495,-.003,.014,.010],[1.482,-.002,.009,.006],[1.472,.002,.007,.004]],2)
  stamp_sections([[1.514,.014,.012,.010],[1.506,.012,.011,.010],[1.496,.014,.010,.009],[1.485,.013,.009,.008],[1.477,.013,.006,.006],[1.466,.012,.007,.006],[1.455,.010,.008,.007]],6)
 
+if cfg.get('kind')=='circulation':labels[obstacles>0]=0
 # Remove only subvoxel speckle inside a source part, never fill across organs.
 for part in range(1,len(cfg['parts'])+1):
  points=np.argwhere(labels==part)
@@ -87,9 +88,10 @@ for part in range(1,len(cfg['parts'])+1):
  # Some supplied exterior meshes have tiny open seams (odd ray intersections).
  # Repair only within this one region; do not close across separate organs.
  if cfg['parts'][part-1].get('sourceSweep'):continue
- repair_steps=max(1,int(np.ceil(cfg.get('sourceSeamRadius',step*2)/step-1e-9)));padding=repair_steps+1
+ repair_steps=max(1,int(np.ceil(cfg['parts'][part-1].get('sourceSeamRadius',cfg.get('sourceSeamRadius',step*2))/step-1e-9)));padding=repair_steps+1
  lo=np.maximum(0,points.min(axis=0)-padding);hi=np.minimum(labels.shape,points.max(axis=0)+padding+1);slices=tuple(slice(int(a),int(b)) for a,b in zip(lo,hi));sub=labels[slices];mask=sub==part
- filled=ndi.binary_fill_holes(ndi.binary_closing(mask,iterations=repair_steps))
+ closed=ndi.binary_closing(mask,iterations=repair_steps)
+ filled=closed if cfg['parts'][part-1].get('preserveInternalTissue') else ndi.binary_fill_holes(closed)
  sub[filled&(sub==0)]=part
 
 distance_cache={}
@@ -106,7 +108,8 @@ for a,b in cfg['bridges']:
  surface_a,va,loa,da=region_distance(a);surface_b,vb,lob,db=region_distance(b)
  bowel=cfg['key']=='upper' and 10<=max(a,b)<=14
  local_join=cfg['key']!='upper' or (b>=15 and cfg['parts'][b-1].get('system')=='respiratory')
- threshold=.008 if bowel and min(a,b)>=11 else .005 if bowel else .0022 if a==3 or b==3 else .0032
+ passage=cfg.get('valvePassages',{}).get(f'{a}:{b}')
+ threshold=.008 if bowel and min(a,b)>=11 else .005 if bowel else .0022 if cfg['key']=='upper' and (a==3 or b==3) else .0032
  aa=surface_a[va>=min(threshold,va.max()*.85)];bb=surface_b[vb>=min(threshold,vb.max()*.85)]
  if local_join:
   # Narrow branch origins must be searched locally. A whole-vessel maximum
@@ -136,6 +139,8 @@ for a,b in cfg['bridges']:
   else:aa=aa[in_window(aa,window)];bb=bb[in_window(bb,window)]
  if not len(aa) or not len(bb):raise ValueError(f'Missing reviewed junction interior {a}->{b}')
  distances,near=cKDTree(aa).query(bb,k=1); k=int(np.argmin(distances));pa=world(aa[[near[k]]])[0];pb=world(bb[[k]])[0];gap=float(distances[k]*step)
+ if passage:
+  anchor=np.array(passage['center']);pa=world(aa)[np.argmin(np.sum((world(aa)-anchor)**2,axis=1))];pb=world(bb)[np.argmin(np.sum((world(bb)-anchor)**2,axis=1))];gap=float(np.linalg.norm(pa-pb))
  # Interior endpoints include depth into both source surfaces. Keep a strict
  # separate limit on the actual exterior gap, which was measured before this.
  surface_gap=float(cKDTree(surface_a).query(surface_b,k=1)[0].min()*step)
@@ -143,6 +148,7 @@ for a,b in cfg['bridges']:
  if surface_gap>max_gap or gap>.035: raise ValueError(f'Unreviewed gap {a}->{b}: {surface_gap}, interior span {gap}')
  maximum=.008 if bowel and min(a,b)>=11 else .006 if bowel else .0035
  ra=float(min(maximum,da[tuple(aa[near[k]]-loa)]));rb=float(min(maximum,db[tuple(bb[k]-lob)]))
+ if passage:ra=rb=passage['radius']
  stamp_transition(pa,pb,ra,rb,a)
  seam_voxels=0
  if local_join:
@@ -155,7 +161,7 @@ for a,b in cfg['bridges']:
   near_a=ndi.distance_transform_edt(~aa_mask)*step<=step*3;near_b=ndi.distance_transform_edt(~bb_mask)*step<=step*3
   seam=closed&near_a&near_b&(sub==0);seam_voxels=int(seam.sum());sub[seam]=a
  distance_cache.pop(a,None)
- junctions.append({'from':a,'to':b,'gapMetres':round(surface_gap,6),'interiorSpanMetres':round(gap,6),'radiusMetres':min(ra,rb),'endRadiiMetres':[ra,rb],'start':pa.tolist(),'end':pb.tolist(),'seamRepairVoxels':seam_voxels,'kind':'reconstructed-junction'})
+ junctions.append({'from':a,'to':b,'gapMetres':round(surface_gap,6),'interiorSpanMetres':round(gap,6),'radiusMetres':min(ra,rb),'endRadiiMetres':[ra,rb],'start':pa.tolist(),'end':pb.tolist(),'seamRepairVoxels':seam_voxels,'kind':'open-valve-passage' if passage else 'reconstructed-junction',**({'valve':passage} if passage else {})})
 
 # The immediate fork belongs to the parent lumen. Separating two daughters at
 # their shared ostium would manufacture a wall through the bifurcation itself.
@@ -179,13 +185,37 @@ for axis in range(3):
    window=junction_windows.get(f'{pair[0]}:{pair[1]}')
    if not window:continue
    where=np.argwhere(touch);keep=in_window(where,window);touch[tuple(where[keep].T)]=False
-  remove[tuple(s)]|=touch;remove[tuple(t)]|=touch
+  # Preserve a source vessel running against the conservative chamber mask.
+  # Cutting BOTH sides would amputate a narrow coronary origin. The chamber
+  # side alone receives the separating wall; no arterial lumen is widened.
+  chamber_a=cfg.get('kind')=='circulation' and cfg['parts'][int(a)-1].get('bloodSpace',False)
+  chamber_b=cfg.get('kind')=='circulation' and cfg['parts'][int(b)-1].get('bloodSpace',False)
+  if chamber_a!=chamber_b and pair not in allowed:
+   remove[tuple(s) if chamber_a else tuple(t)]|=touch
+  else:remove[tuple(s)]|=touch;remove[tuple(t)]|=touch
 labels[remove]=0
+# Short, reviewed vessel seam repairs share the source vessel's priority over
+# the approximate myocardial mask. Chamber tissue remains impermeable.
+if cfg.get('kind')=='circulation':
+ vessel_ids=[i for i,p in enumerate(cfg['parts'],1) if not p.get('bloodSpace')]
+ vascular_space=np.isin(labels,vessel_ids);obstacles[vascular_space]=0;del vascular_space
 labels[obstacles>0]=0
 mask=labels>0
 mask[[0,-1],:,:]=False;mask[:,[0,-1],:]=False;mask[:,:,[0,-1]]=False;labels[~mask]=0
-# One connected traversable space per mode is mandatory.
-components,count=ndi.label(mask);sizes=np.bincount(components.ravel());sizes[0]=0;largest=int(sizes.argmax());discarded=int(mask.sum()-sizes[largest]);mask=components==largest;labels[~mask]=0
+# Cardiac right and left blood spaces MUST remain separate without a supplied
+# pulmonary capillary bed. Every source part must belong to its main circuit.
+components,count=ndi.label(mask);sizes=np.bincount(components.ravel());sizes[0]=0
+if cfg.get('expectedComponents',1)>1:
+ retained=set();circuits={};part_components={}
+ for number,part in enumerate(cfg['parts'],1):
+  counts=np.bincount(components[labels==number]);counts[0]=0;component=int(counts.argmax());retained.add(component)
+  circuit=part['circuit'];circuits.setdefault(circuit,set()).add(component)
+  part_components[part['name']]=component
+ if len(retained)!=cfg['expectedComponents'] or any(len(c)!=1 for c in circuits.values()):raise ValueError(f'Incomplete or falsely connected cardiac circuits: {circuits}; parts={part_components}')
+ mask=np.isin(components,list(retained));discarded=int(sizes.sum()-mask.sum())
+else:
+ largest=int(sizes.argmax());discarded=int(mask.sum()-sizes[largest]);mask=components==largest
+labels[~mask]=0
 distance_cache.clear();del components,sizes,remove
 distance=bounded_distance(mask)-step*.5
 smooth=ndi.gaussian_filter(mask.astype(np.float32),sigma=.75 if cfg['key']=='upper' else .55)
@@ -234,6 +264,7 @@ for part in parts:
  positions=world(points);farthest=positions[np.argmax(np.sum((positions-entry)**2,axis=1))]
  continuation=('이 기관의 위쪽 후두·인두는 이 표본의 탐험 범위에 포함하지 않았어요.' if number==1 else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.') if cfg.get('kind')=='airway' else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.' if part.get('system')=='respiratory' else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
  boundaries.append({'part':number,'position':farthest.tolist(),'returnPoint':entry.tolist(),'range':.026,'name':part['name'],'continuation':continuation})
+ if cfg.get('kind')=='circulation':boundaries[-1]['continuation']='이후의 더 작은 혈관과 모세혈관망은 포함하지 않았어요. 이 끝에서 동맥과 정맥을 직접 연결하지 않습니다.'
 
 # Preserve conservative clearance, including the smoothing displacement.
 clearance=np.floor(np.maximum(0,distance-step*.35)/.00025).clip(0,255).astype(np.uint8)

@@ -13,6 +13,10 @@ export function visibleThroughLumen(field,from,to,{surface=false}={}){
 export function entranceHints(manifest){
  if(manifest.key!=='upper')return manifest.junctions.flatMap(j=>{
   const parent=manifest.parts.find(p=>p.id===j.from),child=manifest.parts.find(p=>p.id===j.to),kind=journeyKind(manifest),vein=kind==='vein';
+  if(kind==='circulation'){
+   const forward=manifest.flowConnections.some(([a,b])=>a===j.from&&b===j.to);
+   return [{id:`branch-${j.from}-${j.to}`,name:j.valve?.name||child.name,detail:(j.valve?child.name+' · ':'')+(forward?'혈류 나가는 방향':'혈류 들어오는 방향'),point:j.end,regions:[j.from],range:.07},{id:`parent-${j.to}-${j.from}`,name:j.valve?.name||parent.name,detail:(j.valve?parent.name+' · ':'')+(forward?'혈류 들어오는 방향':'혈류 나가는 방향'),point:j.start,regions:[j.to],range:.07}];
+  }
   return [
    {id:`branch-${j.from}-${j.to}`,name:child.name,detail:vein?'유입 정맥':'분지',point:j.end,regions:[j.from],range:.055},
    {id:`parent-${j.to}-${j.from}`,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':'기시 혈관',point:j.start,regions:[j.to],range:.055}

@@ -17,7 +17,7 @@ for(const mode of journeyModes){
   const lesson=structureLesson(manifest,part);assert(lesson.description&&lesson.query&&lesson.reference.startsWith('https://'));assert(connectedStructures(manifest,part.id).every(next=>manifest.parts.some(p=>p.id===next.id)));lessons++;
  }
  for(const part of manifest.parts.filter(p=>p.system==='respiratory'&&p.id>=15))assert.deepEqual(examplesFor(manifest,part).map(e=>e.id),['mucus'],'new bronchi must not inherit the old colon ID range');
- const cases=mode.id==='upper'?[[4,'ulcer'],[11,'polyp'],[8,'mucus'],[15,'mucus'],[36,'mucus']]:mode.id==='vessels'?[[9,'plaque'],[15,'plaque'],[30,'plaque'],[32,'plaque']]:mode.id==='thoracic-veins'?[[1,'thrombus'],[4,'thrombus']]:[[2,'thrombus'],[6,'thrombus']];
+ const cases=mode.id==='upper'?[[4,'ulcer'],[11,'polyp'],[8,'mucus'],[15,'mucus'],[36,'mucus']]:[['Abdominal aorta','plaque'],['Left renal artery','plaque'],['Right coronary artery','plaque'],['Anterior interventricular artery (LAD)','plaque'],['Superior vena cava','thrombus'],['Left subclavian vein','thrombus']].map(([name,example])=>[manifest.parts.find(p=>p.name===name).id,example]);
  for(const [id,name]of cases){
   const part=manifest.parts.find(p=>p.id===id),example=clinicalExamples[name];assert(examplesFor(manifest,part).includes(example));camera.position.fromArray(part.position);let result;
   for(const direction of [[0,-1,0],[0,0,1],[1,0,0],[0,1,0],[0,0,-1],[-1,0,0]]){

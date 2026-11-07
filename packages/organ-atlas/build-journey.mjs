@@ -13,6 +13,7 @@ import {journeySources,journeyNotice} from './journey-sources.mjs';
 import {journeyLandmarks} from './journey-landmarks.mjs';
 import {sourceBowelPath,applySourcePathStarts} from './journey-bowel.mjs';
 import {JourneyVolume,packJourneyBricks} from './src/journey/volume.js';
+import {sampleCardiacBloodSpace} from './journey-cardiac-lumen.mjs';
 const directory='static/models/current/',sourceManifest=JSON.parse(fs.readFileSync(directory+'z-whole-manifest.json','utf8'));
 if(process.argv[2]&&!Object.hasOwn(journeySources,process.argv[2]))throw Error('Unknown journey region: '+process.argv[2]);
 for(const [key,config]of Object.entries(journeySources)){
@@ -22,12 +23,14 @@ for(const [key,config]of Object.entries(journeySources)){
  for(const file of new Set([config.file,...config.parts.map(p=>p.sourceFile).filter(Boolean)])){
   const bytes=fs.readFileSync(directory+file),raw=gunzipSync(bytes),root=(await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(raw.buffer.slice(raw.byteOffset,raw.byteOffset+raw.byteLength),'')).scene;
   root.updateMatrixWorld(true);roots.push(root);sourceAssets.push({file,sha256:createHash('sha256').update(bytes).digest('hex')});
-  root.traverse(mesh=>{if(!mesh.isMesh)return;const sourceName=sourceManifest.identities[mesh.name]?.sourceMesh||mesh.name,index=config.parts.findIndex(p=>p.source===sourceName&&(p.sourceFile||config.file)===file);if(index<0)return;const geometry=mesh.geometry.clone().applyMatrix4(mesh.matrixWorld);geometry.computeBoundingBox();bounds.union(geometry.boundingBox);meshes.push({id:index+1,name:mesh.name,geometry,bvh:new MeshBVH(geometry,{indirect:true})});config.parts[index].sourceId=mesh.name;});
+  root.traverse(mesh=>{if(!mesh.isMesh)return;const sourceName=sourceManifest.identities[mesh.name]?.sourceMesh||mesh.name,index=config.parts.findIndex(p=>p.source===sourceName&&(p.sourceFile||config.file)===file);if(index<0)return;const geometry=mesh.geometry.clone().applyMatrix4(mesh.matrixWorld);geometry.computeBoundingBox();const box=geometry.boundingBox.clone(),crop=config.parts[index].crop;if(crop)box.intersect(new T.Box3(new T.Vector3(...crop.min),new T.Vector3(...crop.max)));bounds.union(box);meshes.push({id:index+1,name:mesh.name,geometry,bvh:new MeshBVH(geometry,{indirect:true})});config.parts[index].sourceId=mesh.name;});
  }
  const root=roots[0];
  const continuity=key==='upper'?JSON.parse(fs.readFileSync('journey-continuity-source-audit.json','utf8')):null;
  if(continuity&&sourceAssets.find(a=>a.file===continuity.output.file)?.sha256!==continuity.output.sha256)throw Error('Unreviewed bronchial source revision');
  const sourceContinuity=continuity&&Object.fromEntries(['sourceURL','sourceBlob','sourceSha256','method','coordinateFrame','checks','grouping'].map(k=>[k,continuity[k]]));
+ const sourceCardiac=config.kind==='circulation'?JSON.parse(fs.readFileSync('journey-cardiac-source-audit.json','utf8')):null;
+ if(sourceCardiac&&sourceAssets.find(a=>a.file===sourceCardiac.output.file)?.sha256!==sourceCardiac.output.sha256)throw Error('Unreviewed cardiac source revision');
  for(const part of config.parts)if(part.source&&!part.sourceId)throw Error('Missing source mesh: '+part.source);
  if(config.crop){bounds.min.fromArray(config.crop.min);bounds.max.fromArray(config.crop.max);}
  if(key==='upper')bounds.expandByPoint(new T.Vector3(0,1.58,.105));
@@ -35,9 +38,10 @@ for(const [key,config]of Object.entries(journeySources)){
  const [nx,ny,nz]=dimensions,labels=new Uint8Array(nx*ny*nz),obstacles=new Uint8Array(labels.length),forkOverlaps=new Uint8Array(labels.length),forkParents=new Map(),ray=new T.Ray(new T.Vector3(),new T.Vector3(1,0,0));let oddRays=0,castRays=0;
  for(const [parent,children]of config.forks||[])for(let i=0;i<children.length;i++)for(let j=i+1;j<children.length;j++)forkParents.set([children[i],children[j]].sort((a,b)=>a-b).join(':'),parent);
  const anatomy=key==='upper'?await journeyLandmarks(root):null;
- const centerlines=key==='upper'?[sourceBowelPath(meshes.find(m=>m.id===10).geometry)]:[];
+ const centerlines=key==='upper'?[sourceBowelPath(meshes.find(m=>m.id===10).geometry)]:[],bloodSpaceAudit=[];
  for(const {id,geometry,bvh,obstacle=false}of [...meshes,...(anatomy?.meshes||[]).map(m=>({...m,obstacle:true}))]){
   if(!obstacle&&config.parts[id-1].sourceSweep){geometry.dispose();continue;}
+  if(!obstacle&&config.parts[id-1].bloodSpace){bloodSpaceAudit.push(sampleCardiacBloodSpace({id,geometry,bvh},{origin,dimensions,step,labels,obstacles}));geometry.dispose();continue;}
   const votes=!obstacle&&id>=11&&config.parts[id-1].hollowShell?new Uint8Array(labels.length):null;
   const sourceMin=geometry.boundingBox.min.toArray(),box=geometry.boundingBox.clone(),crop=!obstacle&&config.parts[id-1].crop;if(crop){box.min.max(new T.Vector3(...crop.min));box.max.min(new T.Vector3(...crop.max));}const min=box.min.toArray(),max=box.max.toArray();
   // Source surfaces have small open seams. Combine independent orthogonal
@@ -60,7 +64,12 @@ for(const [key,config]of Object.entries(journeySources)){
  // Some source daughters duplicate their proximal stem. Its shared volume is
  // the parent fork, not two adjacent channels with a manufactured divider.
  let sharedBranchVoxels=0;for(let i=0;i<labels.length;i++)if(forkOverlaps[i]){labels[i]=forkOverlaps[i];sharedBranchVoxels++;}
- const header={key,...config,origin,dimensions,castRays,oddRays,sharedBranchVoxels,sourceSha256:sourceAssets[0].sha256,sourceAssets,...(sourceContinuity?{sourceContinuity}:{}),centerlines,landmarks:anatomy?.landmarks||[],landmarkRegistration:anatomy?.registration||null};
+ // Source-segmented vessels can run within myocardium (notably coronaries).
+ // The conservative chamber-wall approximation must not erase those actual
+ // vessel interiors. Later adjacency barriers still prohibit septal shortcuts.
+ let sourceVesselWallOverlapVoxels=0;
+ if(config.kind==='circulation')for(let i=0;i<labels.length;i++)if(obstacles[i]&&labels[i]&&!config.parts[labels[i]-1].bloodSpace){obstacles[i]=0;sourceVesselWallOverlapVoxels++;}
+ const header={key,...config,origin,dimensions,castRays,oddRays,sharedBranchVoxels,sourceVesselWallOverlapVoxels,sourceSha256:sourceAssets[0].sha256,sourceAssets,...(sourceContinuity?{sourceContinuity}:{}),...(sourceCardiac?{sourceCardiac}:{}),...(bloodSpaceAudit.length?{bloodSpaceAudit}:{}),centerlines,landmarks:anatomy?.landmarks||[],landmarkRegistration:anatomy?.registration||null};
  console.error('Building '+key+': connections, surface and collision field');
  const result=spawnSync('python',['build-journey-surface.py'],{input:Buffer.concat([Buffer.from(JSON.stringify(header)+'\n'),Buffer.from(labels),Buffer.from(obstacles)]),maxBuffer:Math.max(128*1024*1024,labels.length*2+64*1024*1024)});
  if(result.stderr.length)console.error(result.stderr.toString());if(result.status!==0)throw Error('Surface build failed: '+(result.error?.message||result.signal||result.status));

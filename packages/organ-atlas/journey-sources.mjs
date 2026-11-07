@@ -2,7 +2,10 @@
 // This is a source-derived navigation reconstruction, NOT a segmented mucosa.
 import {airwaySource,thoracicVeinSource,coronaryParts} from './journey-expansion-sources.mjs';
 import {continuousBronchi,bronchialConnections,bronchialForks} from './journey-continuity-sources.mjs';
+import {cardiacSource} from './journey-cardiac-sources.mjs';
+import {circulationSource} from './journey-circulation-sources.mjs';
 export function journeyNotice(key){
+ if(key==='cardiac'||key==='circulation')return '같은 Z-Anatomy 좌표에서 심근과 구별한 4방의 혈액 공간을 대정맥·폐동맥·폐정맥·대동맥에 연결한 탐험용 재구성입니다. 판막 통과부는 탐험을 위해 열어 두었으며 실제 박동·판막 개폐의 생리적 한 시점을 뜻하지 않습니다. 폐·전신 모세혈관망과 관상 미세순환은 생략하며 좌우 중격을 관통하는 통로를 만들지 않습니다.';
  if(key==='airways')return '기존 HRA 남성 표본의 기관·엽기관지·분절기관지 표면과 상대 좌표를 보존한 내부 탐색용 재구성입니다. 원본이 구분한 가지까지만 제공하며 세기관지·폐포와 실제 점막은 포함하지 않습니다. 입·소화관 탐험과 다른 표본이므로 영역을 바꾸어 탐험합니다. 좌측 분절 형태는 이 원본의 구분을 따릅니다.';
  if(key==='thoracic-veins')return '기존 Z-Anatomy 좌표의 상대정맥·팔머리정맥·목과 상지 주요 정맥을 재구성했습니다. 잘린 끝은 제공 범위이며 심방이나 하대정맥까지 임의로 연결하지 않았습니다. 정맥판막·모세혈관은 포함하지 않습니다.';
  const common='기존 원본의 외형·좌표를 바탕으로 만든 내부 탐색용 재구성입니다. 실제 점막·벽 두께·생리적 개폐를 분할한 자료가 아닙니다. 연결부는 원본 위치와 해부학적 순서를 대조해 보강했으며, 표시된 끝은 모델 제공 범위입니다.';
@@ -87,6 +90,7 @@ export const journeySources={
   references:['https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways']}
 };
 journeySources.airways=airwaySource;
+journeySources.cardiac=cardiacSource;
 journeySources['thoracic-veins']=thoracicVeinSource;
 journeySources.upper.spacing=.0008;
 journeySources.upper.title='입 · 소화관 · 기관지';
@@ -99,5 +103,6 @@ journeySources.upper.forks=[[7,[8,9]],...bronchialForks];
 journeySources.vessels.parts.push(...coronaryParts);
 journeySources.vessels.connections.push([1,30],[1,31],[31,32]);
 journeySources.vessels.forks.push([1,[2,30,31]]);
+journeySources.circulation=circulationSource(journeySources);
 // A connection is a reviewed source adjacency, not an arbitrary nearest mesh.
 for(const [key,config]of Object.entries(journeySources)){config.bridges??=config.connections;config.coordinateFrame??='z-anatomy';config.kind??=key==='upper'?'digestive-airway':key==='veins'?'vein':'artery';}

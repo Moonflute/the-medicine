@@ -2,7 +2,7 @@ import * as T from 'three';
 import {loadJourney} from './assets.js';
 import {JourneyControls} from './controls.js';
 import {JOURNEY_RADIUS,relativeSize,anatomicalHeading,JourneyPerspective} from './perspective.js';
-import {JourneyWayfinding,entranceHints} from './wayfinding.js';
+import {JourneyWayfinding,entranceHints,visibleThroughLumen} from './wayfinding.js';
 import {JourneyMiniMap} from './minimap.js';
 import {JourneyBoundaryGuide} from './boundaries.js';
 import {nearbyInterior,fittingRadius,journeyFrame} from './context.js';
@@ -13,13 +13,13 @@ import {JourneyEnvironment} from './environment.js';
 import './viewer.css';
 
 // Loaded only on entry. The atlas keeps its camera/selection and pauses its GPU.
-export async function openJourney({onClose=()=>{}}={}){
+export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const dialog=document.createElement('dialog');dialog.className='journey';dialog.setAttribute('aria-label','1인칭 내부 탐험');
  dialog.innerHTML=`<div class="journey-top"><button class="journey-back" aria-label="해부모형으로 돌아가기">← <span>해부모형</span></button><button class="journey-location" aria-label="현재 구조 설명과 병태" aria-expanded="false" aria-controls="journey-learning"><small>INTERNAL EXPLORER · 재구성 모델</small><strong aria-live="polite">준비 중</strong><span class="journey-info-mark" aria-hidden="true">ⓘ</span></button><select class="journey-mode" aria-label="탐험 영역">${journeyModes.map(m=>`<option value="${m.id}">${m.label}</option>`).join('')}</select></div>
  <div class="journey-stage"><div class="journey-message" role="status">내부 공간을 준비하고 있어요…</div><div class="journey-reticle" aria-hidden="true"></div><div class="journey-feedback" role="status"></div><div class="journey-map" hidden><div class="journey-map-modes" role="group" aria-label="위치도 방향"><button data-projection="side">옆</button><button data-projection="front">앞</button></div><canvas width="240" height="380" aria-label="현재 위치와 시선 방향"></canvas><span class="journey-map-caption">뒤 P · 앞 A</span></div>
  <div class="journey-touch"><div class="journey-stick" role="group" aria-label="전후·좌우 이동"><span></span><i>이동</i></div><div class="journey-height"><button data-lift="1" aria-label="화면 위로 이동">↑</button><button data-lift="-1" aria-label="화면 아래로 이동">↓</button></div></div></div>
  <div class="journey-bottom"><div class="journey-size" role="group" aria-label="탐험 크기"><span>크기</span><button data-size="1" aria-pressed="true">1×</button><button data-size="0.5" aria-pressed="false">½×</button><button data-size="0.25" aria-pressed="false">¼×</button></div><button class="journey-map-toggle" aria-pressed="false">위치</button><button class="journey-help-toggle" aria-expanded="false" aria-controls="journey-help">조작 · 안내</button></div>
- <section id="journey-help" class="journey-help" hidden><div><b>자유롭게 이동하기</b><button class="journey-help-close" aria-label="안내 닫기">×</button></div><p><kbd>W / S</kbd> 바라보는 쪽으로 전진·후진<br><kbd>A / D</kbd> 화면 왼쪽·오른쪽<br><kbd>Q / E</kbd> 화면 아래·위 · <kbd>Shift</kbd> 빠르게<br>화면 한 번 클릭 → 마우스 움직임으로 둘러보기<br>클릭을 누르고 있을 필요가 없어요 · Esc로 해제<br>방향키로도 시선을 돌릴 수 있어요</p><p>터치: 왼쪽 조이스틱으로 이동, 화면을 드래그해 둘러보세요. 오른쪽 ↑↓는 화면 기준 위아래 이동입니다.</p><p>크기가 작아지면 시야가 넓어지고 이동 속도가 줄어, 같은 공간이 상대적으로 넓게 느껴집니다. 시선 방향 표시는 인체 기준입니다.</p><label>시작 위치 <select class="journey-start" aria-label="탐험 시작 위치"></select></label><p class="journey-notice"></p><p>입에서 소화관 또는 기관·엽·분절기관지까지 이어서 이동할 수 있습니다. 좁은 가지에서는 크기를 줄여 보세요. 혈관 선택은 같은 인체 좌표의 가까운 내부 위치로 영역을 전환하는 동작입니다. 소화관과 혈관을 관통하는 통로는 아닙니다. 돌아오면 이전 위치·시선·크기를 복원합니다.</p><div class="journey-sources"></div></section>`;
+ <section id="journey-help" class="journey-help" hidden><div><b>자유롭게 이동하기</b><button class="journey-help-close" aria-label="안내 닫기">×</button></div><p><kbd>W / S</kbd> 바라보는 쪽으로 전진·후진<br><kbd>A / D</kbd> 화면 왼쪽·오른쪽<br><kbd>Q / E</kbd> 화면 아래·위 · <kbd>Shift</kbd> 빠르게<br>화면 한 번 클릭 → 마우스 움직임으로 둘러보기<br>클릭을 누르고 있을 필요가 없어요 · Esc로 해제<br>방향키로도 시선을 돌릴 수 있어요</p><p>터치: 왼쪽 조이스틱으로 이동, 화면을 드래그해 둘러보세요. 오른쪽 ↑↓는 화면 기준 위아래 이동입니다.</p><p>크기가 작아지면 시야가 넓어지고 이동 속도가 줄어, 같은 공간이 상대적으로 넓게 느껴집니다. 시선 방향 표시는 인체 기준입니다.</p><label>시작 위치 <select class="journey-start" aria-label="탐험 시작 위치"></select></label><p class="journey-notice"></p><p>입에서 소화관 또는 기관·엽·분절기관지까지 이어서 이동할 수 있습니다. 좁은 가지에서는 크기를 줄여 보세요. 심장 · 동맥 · 정맥에서는 우심방→우심실→폐동맥, 폐정맥→좌심방→좌심실→전신 동맥을 따라 이동합니다. 좌우 심장의 시작점은 위 목록에서 선택할 수 있습니다. 폐·전신 모세혈관망은 생략되어 두 경로를 직접 연결하지 않습니다. 소화관과 혈관의 영역 선택은 화면 전환입니다. 돌아오면 이전 위치·시선·크기를 복원합니다.</p><div class="journey-sources"></div></section>`;
  const previousOverflow=document.documentElement.style.overflow;document.documentElement.style.overflow='hidden';document.body.append(dialog);dialog.showModal();
  const find=s=>dialog.querySelector(s),stage=find('.journey-stage'),message=find('.journey-message'),mode=find('.journey-mode'),start=find('.journey-start'),map=find('.journey-map'),help=find('.journey-help');
  const hintControl=document.createElement('label');hintControl.className='journey-hint-control';hintControl.innerHTML='입구 · 구조 이름 표시 <input type="checkbox" checked>';help.insertBefore(hintControl,find('.journey-notice'));
@@ -59,6 +59,13 @@ export async function openJourney({onClose=()=>{}}={}){
  const updateLocation=()=>{if(!asset||!controls)return;camera.getWorldDirection(headingVector);const text='시선 · '+anatomicalHeading(headingVector);if(heading.textContent!==text)heading.textContent=text;const id=asset.field.region(camera.position.toArray()),part=asset.manifest.parts.find(p=>p.id===id);if(part&&id!==lastRegion){lastRegion=id;find('.journey-location strong').textContent=part.name;canvas.dataset.region=String(id);environment.setWidth(part.clearance);dirty=true;}canvas.dataset.position=camera.position.toArray().map(v=>v.toFixed(5)).join(',');};
  const place=id=>{const part=asset?.manifest.parts.find(p=>p.id===Number(id));if(!part||!controls)return;controls.clear();clinical?.reset();syncClinical();camera.position.fromArray(part.position);let direction;
   if(asset.manifest.key==='upper'){const forwardJunction=asset.manifest.junctions.find(j=>j.from===part.id),parentJunction=part.id>=15&&asset.manifest.junctions.find(j=>j.to===part.id),target=forwardJunction?.start||parentJunction?.start;direction=target?new T.Vector3(...target).sub(camera.position).toArray():part.id===1?[0,-.25,-1]:part.id===5?[.5,-1,-.2]:part.id===8?[.7,-.7,-.1]:part.id===9?[-.3,-1,-.1]:[0,-1,-.15];}
+  else if(journeyKind(asset.manifest)==='circulation'){
+   const outgoing=asset.manifest.flowConnections.find(([from])=>from===part.id),neighbor=outgoing?.[1]||asset.manifest.flowConnections.find(([,to])=>to===part.id)?.[0],junction=asset.manifest.junctions.find(j=>(j.from===part.id&&j.to===neighbor)||(j.to===part.id&&j.from===neighbor));
+   const preferred=junction?(junction.from===part.id?junction.end:junction.start):asset.manifest.parts.find(p=>p.id===neighbor).position,visible=entranceHints(asset.manifest).filter(h=>h.regions.includes(part.id)).find(h=>visibleThroughLumen(asset.field,part.position,h.point));
+   // At an explicit start, show a real visible entrance rather than aiming
+   // through the curved chamber wall. Walking/annotation clicks never re-aim.
+   const target=visibleThroughLumen(asset.field,part.position,preferred)?preferred:visible?.point||preferred;direction=new T.Vector3(...target).sub(camera.position).toArray();
+  }
   else{const vein=journeyKind(asset.manifest)==='vein',junction=asset.manifest.junctions.find(j=>vein?j.to===part.id:j.from===part.id);
    const neighbor=asset.manifest.connections.find(([a,b])=>a===part.id||b===part.id),fallback=asset.manifest.parts.find(p=>p.id===(neighbor[0]===part.id?neighbor[1]:neighbor[0]));
    const target=junction?(vein?junction.start:junction.end):fallback.position;direction=new T.Vector3(...target).sub(camera.position).toArray();
@@ -83,7 +90,7 @@ export async function openJourney({onClose=()=>{}}={}){
    find('.journey-notice').textContent=asset.manifest.notice;start.replaceChildren(...journeyStartGroups(asset.manifest).map(({label,parts})=>{const group=document.createElement('optgroup');group.label=label;group.append(...parts.map(p=>new Option(p.name,p.id)));return group;}));
    const sources=find('.journey-sources');sources.replaceChildren();
    for(const [label,url]of [[journeyFrame(asset.manifest)==='hra-united-male-v1.10'?'HRA · CC BY 4.0':'Z-Anatomy · CC BY-SA 4.0',asset.manifest.source.url],...(asset.manifest.landmarkRegistration?[['BodyParts3D · DBCLS','https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html']]:[]),['해부학 참고',asset.manifest.references[0]]]){const a=document.createElement('a');a.textContent=label+' ↗';a.href=url;a.target='_blank';a.rel='noopener noreferrer';sources.append(a);}
-   const saved=savedViews.get(key),savedRadius=saved&&fittingRadius(asset.field,saved.position,saved.radius),near=!savedRadius&&origin&&origin.frame===journeyFrame(asset.manifest)?nearbyInterior(asset.field,origin.position,controls.radius):null;
+   const saved=savedViews.get(key),savedRadius=saved&&fittingRadius(asset.field,saved.position,saved.radius),near=key!=='circulation'&&!savedRadius&&origin&&origin.frame===journeyFrame(asset.manifest)?nearbyInterior(asset.field,origin.position,controls.radius):null;
    if(savedRadius||near){const pose=savedRadius?saved:origin;camera.position.fromArray(savedRadius?saved.position:near.position);controls.radius=savedRadius||controls.radius;controls.yaw=pose.yaw;controls.pitch=pose.pitch;controls.updateRotation();updateLocation();if(near)feedback('같은 인체 좌표의 가까운 '+(key==='upper'?'장관·기도':'혈관')+'으로 영역을 전환했어요.',3500);}
    else{place(journeyModes.find(m=>m.id===key).start);if(origin&&origin.frame!==journeyFrame(asset.manifest))feedback('다른 표본의 시작 위치에서 열었어요. 이전 영역의 시점은 보존됩니다.',3500);}
    start.value=String(asset.field.region(camera.position.toArray()));syncSize({immediate:true});
@@ -102,5 +109,5 @@ export async function openJourney({onClose=()=>{}}={}){
  listen(dialog,'focusin',e=>{if(e.target!==canvas)controls?.clear();});listen(window,'blur',()=>resetStick());
  const frame=now=>{if(closed)return;frameId=requestAnimationFrame(frame);const dt=Math.min(.05,(now-last)/1000);last=now;if(document.hidden)return;if(perspective.update(dt)){dirty=true;wayfinding?.update();}if(environment.update(dt))dirty=true;if(!loading&&help.hidden&&learning.hidden&&controls){controls.step(dt);if(now-lastHud>100){updateLocation();minimap?.draw();wayfinding?.update();if(feedbackUntil&&now>feedbackUntil)feedback('');if(boundaryGuide?.update())feedback('');else if(controls.blocked)feedback('벽이나 병변에 닿았어요 · 방향을 바꾸거나 크기를 줄여보세요.');else if(lastFeedback.startsWith('벽'))feedback('');lastHud=now;}}if(dirty){renderer.render(scene,camera);dirty=false;}};
  const visibility=()=>{controls?.clear();resetStick();last=performance.now();dirty=true;};listen(document,'visibilitychange',visibility);frameId=requestAnimationFrame(frame);
- await changeWorld('upper');
+ mode.value=journeyModes.some(item=>item.id===initialMode)?initialMode:'upper';await changeWorld(mode.value);
 }

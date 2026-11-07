@@ -1,0 +1,279 @@
+{
+  "sourceURL": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/PC-Version/Resources/Models/FBX/CardioVascular41.fbx",
+  "sourceBlob": "aa5bbcb63ae6e9ace8051111b3a85ea87f00c4f3",
+  "sourceSha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680",
+  "coordinateFrame": "z-anatomy",
+  "method": "FBX world coordinates converted from cm to m; no fitted translation, rotation or scaling beyond unit conversion. Four chambers independently compared against the existing unmodified high-resolution Z-Anatomy asset.",
+  "checks": [
+    {
+      "name": "Right atrium",
+      "forward": {
+        "maxMetres": 0.00007355656533407237,
+        "p95Metres": 0.00002900960824702392,
+        "rmsMetres": 0.000014982778261719972
+      },
+      "reverse": {
+        "maxMetres": 0.00011402957272312031,
+        "p95Metres": 0.000026228638745603326,
+        "rmsMetres": 0.000013253116174570108
+      }
+    },
+    {
+      "name": "Right ventricle",
+      "forward": {
+        "maxMetres": 0.00005903117736782221,
+        "p95Metres": 0.000027230662945338855,
+        "rmsMetres": 0.000014470802654258864
+      },
+      "reverse": {
+        "maxMetres": 0.00006016997887851525,
+        "p95Metres": 0.000024246011155214466,
+        "rmsMetres": 0.000012844783189399189
+      }
+    },
+    {
+      "name": "Left atrium",
+      "forward": {
+        "maxMetres": 0.00035792687790329363,
+        "p95Metres": 0.0001533089100851519,
+        "rmsMetres": 0.00007554966947776712
+      },
+      "reverse": {
+        "maxMetres": 0.0004917600151813016,
+        "p95Metres": 0.00015520362543802716,
+        "rmsMetres": 0.00007669932435653679
+      }
+    },
+    {
+      "name": "Left ventricle",
+      "forward": {
+        "maxMetres": 0.00005740924247187301,
+        "p95Metres": 0.00002952301391409102,
+        "rmsMetres": 0.000016661354789256542
+      },
+      "reverse": {
+        "maxMetres": 0.00006453041984747155,
+        "p95Metres": 0.000026004105887381305,
+        "rmsMetres": 0.000014410731015197606
+      }
+    }
+  ],
+  "parts": [
+    {
+      "name": "Pulmonary trunk",
+      "sourceMeshes": [
+        "Pulmonary_trunk",
+        "Bifurcation_of_pulmonary_trunk"
+      ],
+      "bounds": [
+        [
+          0.005366402678191662,
+          1.3241760730743408,
+          -0.00882872287184
+        ],
+        [
+          0.045381784439086914,
+          1.3600900173187256,
+          0.06318225711584091
+        ]
+      ],
+      "vertices": 1695
+    },
+    {
+      "name": "Right pulmonary artery",
+      "sourceMeshes": [
+        "Right_pulmonary_artery"
+      ],
+      "bounds": [
+        [
+          -0.038075655698776245,
+          1.3239353895187378,
+          -0.01459051575511694
+        ],
+        [
+          0.014233188703656197,
+          1.3517471551895142,
+          0.011768653057515621
+        ]
+      ],
+      "vertices": 708
+    },
+    {
+      "name": "Left pulmonary artery",
+      "sourceMeshes": [
+        "Left_pulmonary_artery"
+      ],
+      "bounds": [
+        [
+          0.02244771644473076,
+          1.2669105529785156,
+          -0.03981703892350197
+        ],
+        [
+          0.08986277878284454,
+          1.3588582277297974,
+          0.00002445503560011275
+        ]
+      ],
+      "vertices": 2478
+    },
+    {
+      "name": "Right superior pulmonary vein",
+      "sourceMeshes": [
+        "Right_superior_pulmonary_vein"
+      ],
+      "bounds": [
+        [
+          -0.0451376773416996,
+          1.3048744201660156,
+          -0.016408374533057213
+        ],
+        [
+          -0.012868492864072323,
+          1.3402202129364014,
+          0.004354409873485565
+        ]
+      ],
+      "vertices": 2124
+    },
+    {
+      "name": "Right inferior pulmonary vein",
+      "sourceMeshes": [
+        "Right_inferior_pulmonary_vein"
+      ],
+      "bounds": [
+        [
+          -0.02519814297556877,
+          1.287060260772705,
+          -0.030172256752848625
+        ],
+        [
+          -0.0016708247130736709,
+          1.301694393157959,
+          -0.01699422113597393
+        ]
+      ],
+      "vertices": 708
+    },
+    {
+      "name": "Left superior pulmonary vein",
+      "sourceMeshes": [
+        "Left_superior_pulmonary_vein"
+      ],
+      "bounds": [
+        [
+          0.038128599524497986,
+          1.3114897012710571,
+          -0.01472923532128334
+        ],
+        [
+          0.055658482015132904,
+          1.3237701654434204,
+          -0.0016600644448772073
+        ]
+      ],
+      "vertices": 1062
+    },
+    {
+      "name": "Left inferior pulmonary vein",
+      "sourceMeshes": [
+        "Left_inferior_pulmonary_vein"
+      ],
+      "bounds": [
+        [
+          0.03673195466399193,
+          1.2860560417175293,
+          -0.027273911982774734
+        ],
+        [
+          0.05190107226371765,
+          1.299941897392273,
+          -0.016987601295113564
+        ]
+      ],
+      "vertices": 1062
+    },
+    {
+      "name": "Inferior papillary muscle of left ventricle",
+      "sourceMeshes": [
+        "Inferior_papillary_muscle_of_left_ventricle"
+      ],
+      "bounds": [
+        [
+          0.04854781553149223,
+          1.251101016998291,
+          0.007105046417564154
+        ],
+        [
+          0.07803161442279816,
+          1.282201886177063,
+          0.05068346485495567
+        ]
+      ],
+      "vertices": 1914
+    },
+    {
+      "name": "Inferior papillary muscle of right ventricle",
+      "sourceMeshes": [
+        "Inferior_papillary_muscle_of_right_ventricle"
+      ],
+      "bounds": [
+        [
+          0.007954823784530163,
+          1.2411577701568604,
+          0.035046111792325974
+        ],
+        [
+          0.038567837327718735,
+          1.2560725212097168,
+          0.06463397294282913
+        ]
+      ],
+      "vertices": 1338
+    },
+    {
+      "name": "Anterior papillary muscle of right ventricle",
+      "sourceMeshes": [
+        "Anterior_papillary_muscle_of_right_ventricle"
+      ],
+      "bounds": [
+        [
+          0.01296328380703926,
+          1.242293119430542,
+          0.05499626696109772
+        ],
+        [
+          0.049465112388134,
+          1.2726420164108276,
+          0.07728863507509232
+        ]
+      ],
+      "vertices": 1896
+    },
+    {
+      "name": "Septal papillary muscle of right ventricle",
+      "sourceMeshes": [
+        "Septal_papillary_muscle_of_right_ventricle"
+      ],
+      "bounds": [
+        [
+          0.013936544768512249,
+          1.2772588729858398,
+          0.03132285177707672
+        ],
+        [
+          0.03405408933758736,
+          1.3051083087921143,
+          0.04726999253034592
+        ]
+      ],
+      "vertices": 1038
+    }
+  ],
+  "output": {
+    "file": "z-cardiac-source.glb.gz",
+    "bytes": 63490,
+    "sha256": "8191aa72ec15a9280900ea745b8d7bdadfa098fafe9cdd10c7655b386e646a66"
+  },
+  "limits": "Original leaflet meshes are incomplete and some hierarchy labels are inconsistent. Do not infer complete moving valves from this export."
+}
