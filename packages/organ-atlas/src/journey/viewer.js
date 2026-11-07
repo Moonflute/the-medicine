@@ -32,9 +32,12 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const canvas=renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('aria-label','1인칭 탐험. W A S D로 이동, Q E로 화면 아래·위 이동, 화면 한 번 클릭 후 마우스 움직임 또는 방향키로 시선 회전');stage.prepend(canvas);
  renderer.setPixelRatio(Math.min(devicePixelRatio,1.25));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
  const scene=new T.Scene();scene.background=new T.Color('#2e1e24');scene.fog=new T.FogExp2('#35232a',9);
- const camera=new T.PerspectiveCamera(76,1,.00012,1.4);scene.add(camera);scene.add(new T.AmbientLight('#f5e0d8',.35));
+ const camera=new T.PerspectiveCamera(76,1,.00012,1.4);scene.add(camera);scene.add(new T.AmbientLight('#f4efed',.24));
  const perspective=new JourneyPerspective(camera,{reducedMotion:matchMedia('(prefers-reduced-motion: reduce)').matches}),headingVector=new T.Vector3();
- const light=new T.PointLight('#fff4e8',1.8,.18,0);camera.add(light);light.position.set(0,0,0);
+ const light=new T.PointLight('#fff4e8',1.5,.18,0);camera.add(light);light.position.set(0,0,0);
+ // A single shadow-free oblique fill reveals chamber wall relief without
+ // additional meshes, textures, shadow maps or post-processing passes.
+ const fill=new T.DirectionalLight('#f1f5ff',.48);camera.add(fill,fill.target);fill.position.set(-.8,.55,.6);fill.target.position.set(.2,-.1,-1);
  const environment=new JourneyEnvironment(scene,light,{reducedMotion:perspective.reducedMotion});
  map.hidden=!matchMedia('(min-width: 800px) and (min-height: 500px)').matches;find('.journey-map-toggle').setAttribute('aria-pressed',String(!map.hidden));
  const mapZoom=document.createElement('button');mapZoom.dataset.mapZoom='';mapZoom.textContent='확대';mapZoom.setAttribute('aria-label','위치도에서 현재 영역 확대');mapZoom.setAttribute('aria-pressed','false');map.querySelector('.journey-map-modes').append(mapZoom);
@@ -49,7 +52,7 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const toggleLearning=value=>{if(!asset||loading)return;if(value){toggleHelp(false);learning.update(asset.manifest,currentPart(),clinical?.active);if(document.pointerLockElement===canvas)document.exitPointerLock();}learning.setOpen(value);find('.journey-location').setAttribute('aria-expanded',String(value));controls?.clear();if(!value)canvas.focus({preventScroll:true});};
  learning=new JourneyLearningPanel(dialog,{onToggle:toggleLearning,onExample:(example,amount)=>{
   if(!clinical||!controls)return;const result=clinical.apply(example,amount,currentPart(),controls.radius);syncClinical();if(!result.ok)feedback(result.message,4500);else feedback('');
- },onHighlight:id=>{if(wayfinding){wayfinding.enabled=true;hintControl.querySelector('input').checked=true;const visible=wayfinding.highlight(id);feedback(visible?'연결 위치를 표시했어요.':'연결부가 현재 시야 밖에 있어요. 직접 둘러보세요.',3500);}}});
+ },onHighlight:id=>{if(wayfinding){wayfinding.enabled=true;hintControl.querySelector('input').checked=true;const state=wayfinding.highlight(id);feedback(state==='visible'?'연결 위치를 표시했어요.':state==='offscreen'?'화살표 방향으로 직접 둘러보세요.':state==='occluded'?'연결부가 벽 뒤에 가려져 있어요. 통로를 따라 이동해 보세요.':'이 위치에서는 연결 입구를 표시할 수 없어요.',3500);}}});
  find('.journey-location').onclick=()=>toggleLearning(learning.hidden);badge.onclick=()=>{clinical?.reset();syncClinical();canvas.focus({preventScroll:true});};
  find('.journey-help-toggle').onclick=()=>toggleHelp(help.hidden);find('.journey-help-close').onclick=()=>toggleHelp(false);
  hintControl.querySelector('input').onchange=e=>{if(wayfinding){wayfinding.enabled=e.target.checked;wayfinding.update();}};
@@ -57,7 +60,7 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const syncSize=({immediate=false}={})=>{if(!controls)return;const scale=relativeSize(controls.radius);perspective.setRadius(controls.radius,{immediate});dialog.querySelectorAll('[data-size]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.size)===scale)));dirty=true;};
  const setSize=scale=>{if(!controls||loading)return;const radius=JOURNEY_RADIUS*scale;if(controls.field.clearance(camera.position.toArray())<radius){feedback('이곳은 좁아서 크기를 늘릴 수 없어요. 넓은 곳으로 이동하세요.');return;}if(radius!==controls.radius){controls.radius=radius;syncSize();feedback(`몸 크기 ${scale===1?'1':scale===.5?'½':'¼'}× · 상대 공간 ${1/scale}×`,2500);}canvas.focus({preventScroll:true});};
  dialog.querySelectorAll('[data-size]').forEach(button=>button.onclick=()=>setSize(Number(button.dataset.size)));
- const updateLocation=()=>{if(!asset||!controls)return;camera.getWorldDirection(headingVector);const text='시선 · '+anatomicalHeading(headingVector);if(heading.textContent!==text)heading.textContent=text;const id=asset.field.region(camera.position.toArray()),part=asset.manifest.parts.find(p=>p.id===id);if(part&&id!==lastRegion){lastRegion=id;find('.journey-location strong').textContent=part.name;canvas.dataset.region=String(id);environment.setWidth(part.clearance);dirty=true;}canvas.dataset.position=camera.position.toArray().map(v=>v.toFixed(5)).join(',');};
+ const updateLocation=()=>{if(!asset||!controls)return;camera.getWorldDirection(headingVector);const text='시선 · '+anatomicalHeading(headingVector);if(heading.textContent!==text)heading.textContent=text;const id=asset.field.region(camera.position.toArray()),part=asset.manifest.parts.find(p=>p.id===id);if(part&&id!==lastRegion){lastRegion=id;find('.journey-location strong').textContent=part.name;find('.journey-location small').textContent=part.kind==='heart'?(part.circuit==='right'?'RIGHT':'LEFT')+' HEART · '+(part.name.endsWith('atrium')?'ATRIUM':'VENTRICLE'):'INTERNAL EXPLORER · 재구성 모델';canvas.dataset.region=String(id);environment.setWidth(part.clearance,{chamber:part.kind==='heart'});dirty=true;}canvas.dataset.position=camera.position.toArray().map(v=>v.toFixed(5)).join(',');};
  const place=id=>{const part=asset?.manifest.parts.find(p=>p.id===Number(id));if(!part||!controls)return;controls.clear();clinical?.reset();syncClinical();camera.position.fromArray(part.position);let direction;
   if(asset.manifest.key==='upper'){const forwardJunction=asset.manifest.junctions.find(j=>j.from===part.id),parentJunction=part.id>=15&&asset.manifest.junctions.find(j=>j.to===part.id),target=forwardJunction?.start||parentJunction?.start;direction=target?new T.Vector3(...target).sub(camera.position).toArray():part.id===1?[0,-.25,-1]:part.id===5?[.5,-1,-.2]:part.id===8?[.7,-.7,-.1]:part.id===9?[-.3,-1,-.1]:[0,-1,-.15];}
   else if(journeyKind(asset.manifest)==='circulation'){
@@ -75,7 +78,7 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
   // Only an explicit start-location change aims the camera. Center the two
   // entrances together so both fit a portrait viewport at the pharynx start.
   if(asset.manifest.key==='upper'&&part.id===2){const entrances=entranceHints(asset.manifest).filter(h=>['laryngeal-inlet','esophagus'].includes(h.id));if(entrances.length===2)direction=new T.Vector3(...entrances[0].point).add(new T.Vector3(...entrances[1].point)).multiplyScalar(.5).sub(camera.position).toArray();}
-  if(part.lookDirection)direction=part.lookDirection;controls.aim(direction);const radius=fittingRadius(asset.field,part.position,controls.radius);if(radius)controls.radius=radius;syncSize();lastRegion=0;updateLocation();environment.setWidth(part.clearance,{immediate:true});minimap?.resetTrail();minimap?.draw();wayfinding?.update();boundaryGuide?.reset();dirty=true;feedback('');};
+  if(part.lookDirection)direction=part.lookDirection;controls.aim(direction);const radius=fittingRadius(asset.field,part.position,controls.radius);if(radius)controls.radius=radius;syncSize();lastRegion=0;updateLocation();environment.setWidth(part.clearance,{immediate:true,chamber:part.kind==='heart'});minimap?.resetTrail();minimap?.draw();wayfinding?.update();boundaryGuide?.reset();dirty=true;feedback('');};
  async function changeWorld(key){
   const origin=asset&&controls?{position:camera.position.toArray(),yaw:controls.yaw,pitch:controls.pitch,radius:controls.radius,projection:minimap?.axis,frame:journeyFrame(asset.manifest)}:null;
   if(origin)savedViews.set(asset.manifest.key,origin);
@@ -96,7 +99,7 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
    else{place(journeyModes.find(m=>m.id===key).start);if(origin&&origin.frame!==journeyFrame(asset.manifest))feedback('다른 표본의 시작 위치에서 열었어요. 이전 영역의 시점은 보존됩니다.',3500);}
    start.value=String(asset.field.region(camera.position.toArray()));syncSize({immediate:true});
    minimap=new JourneyMiniMap(map,asset,camera,()=>canvas.focus({preventScroll:true}));if(saved?.projection){minimap.axis=saved.projection;minimap.draw();}wayfinding=new JourneyWayfinding(stage,{...asset,field:clinical.field},camera);wayfinding.enabled=hintControl.querySelector('input').checked;boundaryGuide=new JourneyBoundaryGuide(stage,asset,camera);
-   environment.setWidth(currentPart()?.clearance||.02,{immediate:true});message.hidden=true;dialog.dataset.ready=key;canvas.focus({preventScroll:true});
+   environment.setWidth(currentPart()?.clearance||.02,{immediate:true,chamber:currentPart()?.kind==='heart'});message.hidden=true;dialog.dataset.ready=key;canvas.focus({preventScroll:true});
   }catch(error){if(closed||token!==request)return;if(asset){mode.value=asset.manifest.key;dialog.dataset.ready=asset.manifest.key;}if(controls){controls.clear();controls.enabled=true;}message.replaceChildren(document.createTextNode('탐험 데이터를 불러오지 못했어요. '));const retry=document.createElement('button');retry.textContent='다시 시도';retry.onclick=()=>changeWorld(key);message.append(retry);if(asset){const dismiss=document.createElement('button');dismiss.textContent='계속 보기';dismiss.onclick=()=>{message.hidden=true;canvas.focus({preventScroll:true});};message.append(dismiss);}console.error(error);}
   finally{if(!closed&&token===request){loading=false;mode.disabled=start.disabled=false;dialog.removeAttribute('aria-busy');}}
  }

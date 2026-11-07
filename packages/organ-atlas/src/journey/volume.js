@@ -63,18 +63,29 @@ export function moveInLumen(field,position,delta,radius){
   const fraction=clip(p,next);p=p.map((v,k)=>v+d[k]*fraction);
   const remaining=d.map(v=>v*(1-fraction)),budget=travel*(1-fraction),normal=field.gradient(p),n2=normal.reduce((s,v)=>s+v*v,0);if(n2<1e-12||budget<1e-10)continue;
   const inward=Math.min(0,remaining.reduce((s,v,k)=>s+v*normal[k],0)/n2),slide=remaining.map((v,k)=>v-inward*normal[k]);if(Math.hypot(...slide)<budget*.04)continue;
-  let candidate=p.map((v,k)=>v+slide[k]);
+  let candidate=p.map((v,k)=>v+slide[k]);const contacts=[normal];
   // A tangent to a curved/quantised wall can still end just inside its next
   // facet. A tiny bounded inward correction lets it slide around that facet.
   for(let attempt=0;attempt<4;attempt++){
    const clearance=field.clearance(candidate);if(clearance>=radius&&safe(p,candidate))break;
    const gradient=field.gradient(candidate),norm2=gradient.reduce((s,v)=>s+v*v,0);if(norm2<1e-12)break;
+   contacts.push(gradient);
    const correction=Math.min(Math.max(0,radius+skin-clearance)/Math.sqrt(norm2),budget*.35);
    if(correction<1e-12)break;candidate=candidate.map((v,k)=>v+gradient[k]/Math.sqrt(norm2)*correction);
    const offset=candidate.map((v,k)=>v-p[k]),distance=Math.hypot(...offset);if(distance>budget)candidate=p.map((v,k)=>v+offset[k]*budget/distance);
   }
-  const advance=candidate.reduce((s,v,k)=>s+(v-p[k])*remaining[k],0);
-  if(advance>budget*budget*.02){const t=safe(p,candidate)?1:clip(p,candidate);p=p.map((v,k)=>v+(candidate[k]-v)*t);}
+  const advance=point=>point.reduce((s,v,k)=>s+(v-p[k])*remaining[k],0);
+  const t=safe(p,candidate)?1:clip(p,candidate);let best=p.map((v,k)=>v+(candidate[k]-v)*t),bestProgress=advance(best);
+  // At a tight bend two walls can meet. Repeatedly pushing away from just
+  // one wall loses the free direction along their crease. Try that shared
+  // tangent only when the ordinary curved-wall correction could not finish.
+  if(t<.95&&contacts.length>1)for(const other of contacts.slice(1)){
+   const crease=[normal[1]*other[2]-normal[2]*other[1],normal[2]*other[0]-normal[0]*other[2],normal[0]*other[1]-normal[1]*other[0]],length2=crease.reduce((s,v)=>s+v*v,0);
+   if(length2<1e-8*n2*other.reduce((s,v)=>s+v*v,0))continue;
+   const along=remaining.reduce((s,v,k)=>s+v*crease[k],0)/length2,point=p.map((v,k)=>v+crease[k]*along),fraction=safe(p,point)?1:clip(p,point),clipped=p.map((v,k)=>v+(point[k]-v)*fraction),progress=advance(clipped);
+   if(progress>bestProgress){best=clipped;bestProgress=progress;}
+  }
+  if(bestProgress>budget*budget*.002)p=best;
  }
  const progress=p.reduce((s,v,k)=>s+(v-position[k])*delta[k]/length,0);
  return {position:p,contacted,blocked:contacted&&progress<travel*count*.12};

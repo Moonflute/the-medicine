@@ -36,4 +36,12 @@ const wall={step:.0006,clearance:([x])=>Math.abs(x)-.0001,gradient:([x])=>[Math.
 const stop=moveInLumen(wall,[-.003,0,0],[1,0,0],radius);assert(stop.blocked);assert(stop.position[0]<=-.0009&&wall.clearance(stop.position)>=radius);
 const slide=moveInLumen(wall,[-.000901,0,0],[.001,.012,0],radius);assert(!slide.blocked&&slide.position[1]>.011&&slide.position[0]<=-.0009);
 assert.deepEqual(moveInLumen(wall,[0,0,0],[.1,0,0],radius).position,[0,0,0],'an invalid start must never teleport to another lumen');
-console.log(JSON.stringify({realWallRegressions:cases.length,minForwardProgress:minimumProgress,continuousWallTravelMetres:cases[2][0][1]-p[1],obliqueWalls:3,thinWallPreserved:true,contactIsNotBlocked:true}));
+// Two wall contacts at narrow branch roots must keep the shared free direction.
+// The previous single-plane correction completely stopped at 120/150 degrees.
+for(const degrees of [60,90,120,150]){
+ const angle=degrees*Math.PI/180,n=[Math.cos(angle),Math.sin(angle),0],f={step:.0006,clearance:([x,y])=>Math.min(x,n[0]*x+n[1]*y),gradient:([x,y])=>x<n[0]*x+n[1]*y?[1,0,0]:n};
+ let point=[radius+1e-10,radius*(1-n[0])/n[1]+1e-9,0];const start=[...point];
+ for(const sign of [1,-1])for(let i=0;i<20;i++){const result=moveInLumen(f,point,[-.0006,-.0006,.0004*sign],radius);assert(!result.blocked,'keep moving along the crease');assert(f.clearance(result.position)>=radius);assert(Math.abs(result.position[2]-point[2]-.0004*sign)<1e-8);point=result.position;}
+ assert(Math.abs(point[2]-start[2])<1e-8,'a corner permits immediate backtracking');
+}
+console.log(JSON.stringify({realWallRegressions:cases.length,minForwardProgress:minimumProgress,continuousWallTravelMetres:cases[2][0][1]-p[1],obliqueWalls:3,twoWallCorners:4,thinWallPreserved:true,contactIsNotBlocked:true}));
