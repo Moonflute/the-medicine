@@ -1,5 +1,6 @@
 import { isSelection } from "./qbank-grading";
 import { readMockExam, type MockExamState } from "./mock-exam";
+import { readRoundDeadline } from "./qbank-round-timer";
 import type { QbankSelection, RelatedTheoryDocument } from "./types";
 
 export type QbankSessionAnswer = { questionId: string; selected?: QbankSelection; correct: boolean | null; specialty: string };
@@ -18,6 +19,7 @@ export type QbankSessionSnapshot = {
   context?: QbankSessionContext;
   drafts?: Record<string, QbankSelection>;
   mockExam?: MockExamState | null;
+  deadlineAt?: number;
   questionIds: string[];
   currentIndex: number;
   answers: QbankSessionAnswer[];
@@ -92,6 +94,7 @@ export function activeSessionFrom(value: unknown): QbankActiveSession | null {
     sessionId: candidate.sessionId,
     context: readSessionContext(candidate.context),
     mockExam: readMockExam(candidate.mockExam),
+    deadlineAt: readRoundDeadline(candidate.deadlineAt),
     drafts: readQbankSessionDrafts(candidate.drafts),
     questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
     currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,

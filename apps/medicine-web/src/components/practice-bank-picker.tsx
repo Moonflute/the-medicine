@@ -11,17 +11,19 @@ type Dimension = "departments" | "specialties" | "years";
 function PickerFooter({ target, children }: { target?: HTMLDivElement | null; children: ReactNode }) {
   return target ? createPortal(children, target) : children;
 }
-export function PracticeBankPicker({ questions, filters, onChange, message, appearance = "default", footerTarget }: {
-  questions: PracticeIndex[]; filters: PracticeFilters; onChange: (next: PracticeFilters) => void; message: string; appearance?: "default" | "chat"; footerTarget?: HTMLDivElement | null;
+export function PracticeBankPicker({ questions, filters, onChange, message, appearance = "default", footerTarget, topActionsTarget }: {
+  questions: PracticeIndex[]; filters: PracticeFilters; onChange: (next: PracticeFilters) => void; message: string; appearance?: "default" | "chat";
+  footerTarget?: HTMLDivElement | null; topActionsTarget?: HTMLDivElement | null;
 }) {
   const [examMode, setExamMode] = useState(true);
   const chat = appearance === "chat";
   if (!questions.length) return <p className="rounded-lg bg-slate-50 p-4 text-sm text-slate-600" role="status">{message}</p>;
   const ordered = filters.order === "book";
+  const selectedIds = questions.filter((question) => matchesPractice(question, filters)).map((question) => question.id);
   const modes = <fieldset className={chat ? "chat-qbank-modes" : "flex flex-wrap gap-4"}><legend className="mb-2 font-semibold">문제 선택 방식</legend>{([['random', '분과·조건 선택'], ['book', '회차 전체 풀기']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
   if (ordered) {
     const exams = practiceMockExams(questions);
-    const active = filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length
+    const active = filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length && !filters.series?.length
       ? exams.find((exam) => filters.years[0] === String(exam.year)) : undefined;
     return <div className={chat ? "chat-qbank-practice" : undefined}>
       {modes}
@@ -36,10 +38,10 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
         })}</div>
       </fieldset>
       <fieldset className="mt-5 grid gap-2 sm:grid-cols-2"><legend className="mb-2 font-semibold">채점 방식</legend>{[[true, "모의고사", "자유롭게 답을 수정하고 종료 후 일괄 채점"], [false, "즉시 해설 학습", "한 문제씩 채점하고 바로 해설 확인"]].map(([value, title, detail]) => <label key={String(value)} className={chat ? "chat-qbank-option" : `flex cursor-pointer gap-3 rounded-xl border p-4 ${examMode === value ? "border-teal-500 bg-teal-50" : "border-slate-200"}`} data-checked={examMode === value}><input type="radio" name="exam-mode" checked={examMode === value} onChange={() => setExamMode(value === true)} className="accent-teal-600" /><span><span className="block text-sm font-semibold">{title}</span><span className="text-xs text-slate-500">{detail}</span></span></label>)}</fieldset>
-      <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.label || "no-round"} total={active?.count ?? 0} questionIds={questions.filter((question) => matchesPractice(question, filters)).map((question) => question.id)} filters={filters} exam={examMode} label={active?.label} /></PickerFooter>
+      <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.label || "no-round"} total={active?.count ?? 0} questionIds={selectedIds} filters={filters} exam={examMode} round label={active?.label} topActionsTarget={topActionsTarget} /></PickerFooter>
     </div>;
   }
-  const selected = questions.filter((q) => matchesPractice(q, filters)).length;
+  const activeDetails = filters.specialties.length + filters.years.length;
   const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
   const group = (key: Dimension, title: string, items: [string, string][]) => <fieldset className="mt-5">
     <legend className="font-semibold text-slate-900">{title}</legend>
@@ -58,18 +60,21 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
   return <div className={chat ? "chat-qbank-practice" : undefined}>
     {modes}
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
-    {PRACTICE_DEPARTMENTS.map((d) => {
-      const sections = practiceTopicSections(questions, d);
-      const topicCount = sections.reduce((count, section) => count + section.topics.length, 0);
-      const chosen = sections.flatMap((section) => section.topics).filter(([key]) => filters.specialties.includes(key)).length;
-      return <details key={d} className={chat ? "chat-qbank-topics" : "mt-3 rounded-xl border border-slate-200 bg-slate-50/50 px-3 pb-3 sm:px-4"}>
-        <summary className="-mb-3 cursor-pointer py-3 text-sm font-semibold text-slate-800 marker:text-teal-600">{d} · 세부 주제 <span className="ml-2 text-xs font-normal text-slate-500">{chosen ? `${chosen}개 선택` : `${topicCount}개`}</span></summary>
-        <div className="mt-5 space-y-5">
-          {sections.map((section) => <div key={section.id}>{group("specialties", section.title, section.topics)}</div>)}
-        </div>
-      </details>;
-    })}
-    {group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}
-    <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={JSON.stringify(filters)} total={selected} questionIds={questions.filter((question) => matchesPractice(question, filters)).map((question) => question.id)} filters={filters} /></PickerFooter>
+    <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
+      <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">세부 필터{activeDetails ? <span className="ml-2 text-xs font-normal text-slate-500">{activeDetails}개 적용</span> : null}</summary>
+      <div className="pb-3">
+        {PRACTICE_DEPARTMENTS.map((d) => {
+          const sections = practiceTopicSections(questions, d);
+          const topicCount = sections.reduce((count, section) => count + section.topics.length, 0);
+          const chosen = sections.flatMap((section) => section.topics).filter(([key]) => filters.specialties.includes(key)).length;
+          return <details key={d} className={chat ? "chat-qbank-topics" : "mt-2 rounded-lg border border-slate-200 bg-white px-3"}>
+            <summary className="cursor-pointer py-2 text-sm font-semibold text-slate-800 marker:text-teal-600">{d} · 세부 주제 <span className="ml-2 text-xs font-normal text-slate-500">{chosen ? `${chosen}개 선택` : `${topicCount}개`}</span></summary>
+            <div className="pb-3">{sections.map((section) => <div key={section.id}>{group("specialties", section.title, section.topics)}</div>)}</div>
+          </details>;
+        })}
+        {group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}
+      </div>
+    </details>
+    <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={JSON.stringify(filters)} total={selectedIds.length} questionIds={selectedIds} filters={filters} topActionsTarget={topActionsTarget} /></PickerFooter>
   </div>;
 }

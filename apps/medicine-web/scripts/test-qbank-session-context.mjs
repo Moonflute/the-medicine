@@ -14,7 +14,7 @@ const compile = (name, deps = {}) => {
 
 const grading = compile("qbank-grading.ts");
 const mockExam = compile("mock-exam.ts", { "./qbank-grading": grading });
-const activeSession = compile("qbank-active-session.ts", { "./qbank-grading": grading, "./mock-exam": mockExam });
+const activeSession = compile("qbank-active-session.ts", { "./qbank-grading": grading, "./mock-exam": mockExam, "./qbank-round-timer": compile("qbank-round-timer.ts") });
 const { qbankSessionContextFromParams } = compile("qbank-session-context.ts", { "./qbank-active-session": activeSession });
 const specialties = [
   { name: "01 순환기", slug: "cardiology", count: 10 },

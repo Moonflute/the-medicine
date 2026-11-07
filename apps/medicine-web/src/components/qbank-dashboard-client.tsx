@@ -152,6 +152,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const clinicalSpecialties = useMemo(() => specialtyChoices(availableQuestions, "clinical"), [availableQuestions]);
   const [tab, setTab] = useState<"theory" | "clinical" | "practice">("theory");
   const [chatPracticeFooter, setChatPracticeFooter] = useState<HTMLDivElement | null>(null);
+  const [topActionsTarget, setTopActionsTarget] = useState<HTMLDivElement | null>(null);
   const chatPickerContent = useRef<HTMLDivElement>(null);
   const chooseBank = (next: "theory" | "clinical" | "practice") => {
     setTab(next);
@@ -386,9 +387,10 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     onCountChange={setCount}
     error={!validCount && randomPool > 0 ? "1~100 사이의 정수를 입력하세요." : undefined}
     actions={[{ label: randomStartEnabled ? `${drawCount}문항 랜덤 시작` : "랜덤 시작", href: randomStartEnabled ? sessionHref : undefined }]}
+    topActionsTarget={loadedDraft === draftKey ? topActionsTarget : null}
     appearance={chatLayout ? "chat" : "default"}
   /> : null;
-  const selectionTabs = <div role="tablist" aria-label="문제 종류" className={`grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1 ${chatLayout || relatedTarget ? "mt-5" : ""}`}>
+  const selectionTabs = <div role="tablist" aria-label="문제 종류" className="grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
         {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => chooseBank(key)} onKeyDown={(event) => {
           const tabs = ['theory', 'clinical', 'practice'] as const;
           const index = tabs.indexOf(key);
@@ -404,7 +406,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <QuestionBankPicker appearance={chatLayout ? "chat" : "default"} questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
       </div>
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
-        <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
+        <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} topActionsTarget={tab === "practice" && loadedDraft === draftKey ? topActionsTarget : null} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
       </div></>;
   if (chatLayout) {
     return <ChatQbankLobby
@@ -420,6 +422,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     >
       <fieldset disabled={loadedDraft !== draftKey} className="chat-qbank-form">
         {selectionTabs}
+        <div ref={setTopActionsTarget} className="flex shrink-0 justify-end px-3 py-1 empty:hidden" />
         <div ref={chatPickerContent} className="chat-qbank-picker-content">{selectionPanels}</div>
         <div ref={setChatPracticeFooter} className="chat-qbank-practice-footer" hidden={tab !== "practice"} />
         {randomStartBar}
@@ -467,13 +470,12 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
 
     <SkinPanel className={relatedTarget ? "surface p-5 sm:p-6" : "surface p-3 sm:p-4"} title="문제 세트 구성" ordinal={3}>
       <fieldset disabled={loadedDraft !== draftKey}>
-      {relatedTarget ? <>
-        <div className="flex flex-wrap items-baseline justify-between gap-3"><h2 className="text-xl font-semibold text-slate-950">{relatedTarget.label} 관련 문제</h2><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
-        {selectionTabs}
-      </> : <div className="flex flex-wrap items-center gap-2">
+      {relatedTarget ? <h2 className="text-xl font-semibold text-slate-950">{relatedTarget.label} 관련 문제</h2> : null}
+      <div className={`flex flex-wrap items-center gap-2 ${relatedTarget ? "mt-3" : ""}`}>
         <div className="min-w-0 flex-[1_1_15rem]">{selectionTabs}</div>
         <span className="pill shrink-0">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span>
-      </div>}
+        <div ref={setTopActionsTarget} className="shrink-0 empty:hidden" />
+      </div>
       {selectionPanels}
       {randomStartBar}
 

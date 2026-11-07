@@ -39,9 +39,9 @@ function ChatExamDialog({ dialogRef, title, children, fullScreen = false, onClos
 }
 
 /** Exam actions use the existing composer; only the presentation moves. */
-export function ChatMockExamTools({ questions, exam, currentIndex, answered, marked, time, confirm, error, onMove, onToggleFlag, onClearAnswer, onRequestSubmit, onCancelSubmit, onFinish }: {
+export function ChatMockExamTools({ questions, exam, currentIndex, answered, marked, clock, countdown, timeUp, confirm, error, onMove, onToggleFlag, onClearAnswer, onRequestSubmit, onCancelSubmit, onFinish }: {
   questions: QbankQuestion[]; exam: MockExamState; currentIndex: number;
-  answered: number; marked: number; time: string; confirm: boolean; error: string;
+  answered: number; marked: number; clock: ReactNode; countdown: boolean; timeUp: boolean; confirm: boolean; error: string;
   onMove: (index: number) => void; onToggleFlag: () => void; onClearAnswer: () => void;
   onRequestSubmit: () => void; onCancelSubmit: () => void; onFinish: () => void;
 }) {
@@ -88,10 +88,11 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
       <Link href="/review/qbank" aria-label={finished ? "문제은행" : "나중에 이어풀기"}>{finished ? <MessageCircle size={22} /> : <LogOut size={22} />}</Link>
       {finished ? <Link href="/review/qbank/stats" aria-label="학습 통계"><BarChart3 size={22} /></Link> : <button type="button" aria-label="시험 종료" aria-haspopup="dialog" onClick={onRequestSubmit}><Send size={22} /></button>}
     </DocumentToolbar>
-    <SkinDocumentNotice title={`${exam.title} · ${finished ? "제출 완료" : `${answered}/${questions.length} 응답`}`}>
+    {countdown && <div className="flex justify-end px-3 py-1"><span className="pill">남은 시간 {clock}</span></div>}
+    <SkinDocumentNotice title={`${exam.title} · ${timeUp ? "제한시간 종료" : finished ? "제출 완료" : `${answered}/${questions.length} 응답`}`}>
       <div className="chat-exam-notice-info">
-        <dl><div><dt>응답</dt><dd>{answered}/{questions.length}</dd></div><div><dt>보류</dt><dd>{marked}</dd></div><div><dt>{finished ? "총 경과" : "경과"}</dt><dd>{time}</dd></div></dl>
-        <p>중단한 시간도 경과시간에 포함돼요.</p>
+        <dl><div><dt>응답</dt><dd>{answered}/{questions.length}</dd></div><div><dt>보류</dt><dd>{marked}</dd></div>{!countdown && <div><dt>{finished ? "총 경과" : "경과"}</dt><dd>{clock}</dd></div>}</dl>
+        <p>{countdown ? "중단해도 제한시간은 계속 흘러요." : "중단한 시간도 경과시간에 포함돼요."}</p>
         <div><button type="button" onClick={openSheet}>답안표 보기</button><span>{currentIndex + 1}번 · {subject}</span></div>
       </div>
     </SkinDocumentNotice>

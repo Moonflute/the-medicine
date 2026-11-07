@@ -13,11 +13,13 @@ import { DocumentToolbar } from "@/components/document-toolbar";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { ChatOptionalTools } from "@/components/chat-room";
 import { ChatMockExamResult, ChatMockExamTools } from "@/components/chat-mock-exam";
+import { QbankSessionClock } from "@/components/qbank-session-clock";
 import { useSkinTheme } from "@/components/theme-provider";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Check, ChevronLeft, ChevronRight, Flag } from "lucide-react";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { gradeMockExam, mockSubject, type MockExamState } from "@/lib/mock-exam";
+import { isRoundTimeUp } from "@/lib/qbank-round-timer";
 import { recordMockExam } from "@/lib/qbank-store";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import type { QbankAnswer, QbankQuestion } from "@/lib/types";
@@ -26,13 +28,12 @@ import { QbankCopyButton } from "@/components/qbank-copy-button";
 import { QbankExplanation } from "@/components/qbank-explanation";
 import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
 
-export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChange, onMove }: {
-  questions: QbankQuestion[]; exam: MockExamState; sessionId: string; currentIndex: number;
+export function MockExamPanel({ questions, exam, sessionId, currentIndex, deadlineAt, onChange, onMove }: {
+  questions: QbankQuestion[]; exam: MockExamState; sessionId: string; currentIndex: number; deadlineAt?: number;
   onChange: (state: MockExamState) => void; onMove: (index: number) => void;
 }) {
   const { theme } = useSkinTheme();
   const chatLayout = theme === "chat";
-  const [now, setNow] = useState(() => Date.now());
   const [confirm, setConfirm] = useState(false);
   const [error, setError] = useState("");
   const [review, setReview] = useState(false);
@@ -43,46 +44,42 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChan
   const result = exam.results?.find(r => r.questionId === current.id);
   const answered = questions.filter(q => exam.drafts[q.id]).length;
   const marked = questions.filter(q => exam.flaggedIds.includes(q.id)).length;
-  const elapsed = Math.max(0, Math.floor(((exam.finishedAt ? Date.parse(exam.finishedAt) : now) - Date.parse(exam.startedAt)) / 1000));
-  const time = `${Math.floor(elapsed / 60)}:${String(elapsed % 60).padStart(2, "0")}`;
+  const countdown = deadlineAt !== undefined && !finished;
+  const timeUp = Boolean(exam.finishedAt && isRoundTimeUp(deadlineAt, Date.parse(exam.finishedAt)));
+  const clock = <QbankSessionClock deadlineAt={deadlineAt} startedAt={exam.startedAt} finishedAt={exam.finishedAt} onExpire={finish} />;
   const subjects = [...new Set(questions.map(q => mockSubject(q.id)))];
   const correct = exam.results?.filter(r => r.correct === true).length ?? 0;
   const graded = exam.results?.filter(r => r.correct !== null).length ?? 0;
 
-  useEffect(() => {
-    if (finished) return;
-    const timer = window.setInterval(() => setNow(Date.now()), 1000);
-    return () => window.clearInterval(timer);
-  }, [finished]);
-
-  function choose(answer: QbankAnswer) {
-    if (!finished) {
+  const choose = useCallback((answer: QbankAnswer) => {
+    if (!finished && !isRoundTimeUp(deadlineAt)) {
       const next = toggleSelection(current, exam.drafts[current.id], answer);
       const drafts = { ...exam.drafts };
       if (next) drafts[current.id] = next; else delete drafts[current.id];
       onChange({ ...exam, drafts });
     }
-  }
+  }, [current, deadlineAt, exam, finished, onChange]);
   useEffect(() => {
     function keyDown(event: KeyboardEvent) {
       if (document.documentElement.dataset.highlighterMode && document.documentElement.dataset.highlighterMode !== "read") return;
       if (confirm || document.querySelector("dialog[open]") || event.altKey || event.ctrlKey || event.metaKey || (event.target instanceof HTMLElement && (event.target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT", "BUTTON", "A"].includes(event.target.tagName)))) return;
       if (!finished && /^[1-5]$/.test(event.key)) {
         const answer = "ABCDE"[Number(event.key) - 1] as QbankAnswer;
-        if (current.options[answer] !== undefined) { event.preventDefault(); const next = toggleSelection(current, exam.drafts[current.id], answer); const drafts = { ...exam.drafts }; if (next) drafts[current.id] = next; else delete drafts[current.id]; onChange({ ...exam, drafts }); }
+        if (current.options[answer] !== undefined) { event.preventDefault(); choose(answer); }
       } else if (event.key === "ArrowRight" && currentIndex < questions.length - 1) { event.preventDefault(); onMove(currentIndex + 1); }
       else if (event.key === "ArrowLeft" && currentIndex > 0) { event.preventDefault(); onMove(currentIndex - 1); }
     }
     window.addEventListener("keydown", keyDown);
     return () => window.removeEventListener("keydown", keyDown);
-  }, [confirm, current, currentIndex, exam, finished, onChange, onMove, questions.length]);
+  }, [choose, confirm, current, currentIndex, finished, onMove, questions.length]);
 
   function finish() {
     if (submitting.current || finished) return;
     submitting.current = true;
     try {
       const results = gradeMockExam(questions, exam.drafts);
-      const finishedAt = new Date().toISOString();
+      const now = Date.now();
+      const finishedAt = new Date(deadlineAt === undefined ? now : Math.min(now, deadlineAt)).toISOString();
       recordMockExam({ id: `mock-${sessionId}`, startedAt: exam.startedAt, completedAt: finishedAt, questionIds: questions.map(q => q.id), correct: results.filter(r => r.correct === true).length, total: results.filter(r => r.correct !== null).length }, results);
       onChange({ ...exam, finishedAt, results }); setConfirm(false);
     } catch { submitting.current = false; setError("결과를 저장하지 못했습니다. 저장 공간을 확인한 뒤 다시 제출해 주세요."); }
@@ -94,9 +91,11 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChan
     window.requestAnimationFrame(() => document.getElementById("mock-question")?.scrollIntoView({ block: "start" }));
   }
   function toggleFlag() {
+    if (finished || isRoundTimeUp(deadlineAt)) return;
     onChange({ ...exam, flaggedIds: exam.flaggedIds.includes(current.id) ? exam.flaggedIds.filter(id => id !== current.id) : [...exam.flaggedIds, current.id] });
   }
   function clearAnswer() {
+    if (finished || isRoundTimeUp(deadlineAt)) return;
     const drafts = { ...exam.drafts };
     delete drafts[current.id];
     onChange({ ...exam, drafts });
@@ -119,7 +118,7 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, onChan
   </SkinPanel>;
 
   return <div className={chatLayout ? "chat-mock-exam" : "space-y-5"}>
-    {chatLayout ? <ChatMockExamTools questions={questions} exam={exam} currentIndex={currentIndex} answered={answered} marked={marked} time={time} confirm={confirm} error={error} onMove={moveToQuestion} onToggleFlag={toggleFlag} onClearAnswer={clearAnswer} onRequestSubmit={requestSubmit} onCancelSubmit={() => setConfirm(false)} onFinish={finish} /> : <SkinPanel className="surface flex flex-wrap items-center justify-between gap-3 p-4 sm:p-5" title="시험 정보" ordinal={1}><div><p className="text-xs font-medium text-teal-700">실전 모의고사{finished ? " · 제출 완료" : ""}</p><h1 className="mt-1 text-xl font-semibold">{exam.title}</h1><p className="mt-1 text-xs text-slate-500">{finished ? "총 경과시간" : "시작 후 경과시간"} {time} · 중단 시간 포함</p></div><div className="flex flex-wrap gap-2"><a className="secondary-action" href="#mock-answer-sheet">답안표</a><Link className="secondary-action" href="/review/qbank">{finished ? "문제은행" : "나중에 이어풀기"}</Link>{!finished && <button type="button" className="primary-action" onClick={requestSubmit}>시험 종료</button>}{finished && <Link className="primary-action" href="/review/qbank/stats">학습 통계</Link>}</div></SkinPanel>}
+    {chatLayout ? <ChatMockExamTools questions={questions} exam={exam} currentIndex={currentIndex} answered={answered} marked={marked} clock={clock} countdown={countdown} timeUp={timeUp} confirm={confirm} error={error} onMove={moveToQuestion} onToggleFlag={toggleFlag} onClearAnswer={clearAnswer} onRequestSubmit={requestSubmit} onCancelSubmit={() => setConfirm(false)} onFinish={finish} /> : <SkinPanel className="surface flex flex-wrap items-center justify-between gap-3 p-4 sm:p-5" title="시험 정보" ordinal={1}><div><p className="text-xs font-medium text-teal-700">실전 모의고사{timeUp ? " · 제한시간 종료" : finished ? " · 제출 완료" : ""}</p><h1 className="mt-1 text-xl font-semibold">{exam.title}</h1><p className="mt-1 text-xs text-slate-500">{countdown ? "남은 시간" : finished ? "총 경과시간" : "시작 후 경과시간"} {clock} · 중단 시간 포함</p></div><div className="flex flex-wrap gap-2"><a className="secondary-action" href="#mock-answer-sheet">답안표</a><Link className="secondary-action" href="/review/qbank">{finished ? "문제은행" : "나중에 이어풀기"}</Link>{!finished && <button type="button" className="primary-action" onClick={requestSubmit}>시험 종료</button>}{finished && <Link className="primary-action" href="/review/qbank/stats">학습 통계</Link>}</div></SkinPanel>}
     {error && (!chatLayout || !confirm) && <p role="alert" className="text-sm text-rose-700">{error}</p>}
     {!chatLayout && confirm && !finished && <section role="region" aria-label="제출 확인" className="rounded-xl border border-amber-300 bg-amber-50 p-5"><h2 className="font-semibold">답안을 제출하고 채점할까요?</h2><p className="mt-2 text-sm">미응답 {questions.length - answered}문항 · 보류 {marked}문항입니다. 전원 정답 문항을 제외한 채점 가능한 미응답은 오답으로 처리되며 제출 후 답을 바꿀 수 없습니다.</p><div className="mt-4 flex flex-wrap gap-2"><button type="button" className="primary-action" onClick={finish}>제출하고 채점</button><button type="button" className="secondary-action" onClick={() => setConfirm(false)}>계속 풀기</button></div></section>}
     {finished && (chatLayout ? <ChatMockExamResult subject={mockSubject(current.id)} correct={correct} graded={graded} unanswered={questions.length - answered} omitted={questions.length - graded} scores={subjects.map(subject => { const rs = exam.results?.filter(r => r.specialty === subject && r.correct !== null) ?? []; return { subject, correct: rs.filter(r => r.correct).length, total: rs.length }; })} review={review} onToggleReview={() => setReview(!review)}><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></ChatMockExamResult> : <SkinPanel className="surface p-6" title="채점 결과" ordinal={2}><p className="text-sm text-slate-500">모의고사 결과</p><p className="mt-2 text-3xl font-bold">{correct} / {graded} <span className="text-lg font-medium text-teal-700">{graded ? Math.round(correct / graded * 100) : 0}%</span></p><p className="mt-2 text-xs text-slate-500">미응답 {questions.length - answered}문항 · 채점 제외 {questions.length - graded}문항</p><div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">{subjects.map(subject => { const rs = exam.results?.filter(r => r.specialty === subject && r.correct !== null) ?? []; return <div key={subject} className="rounded-lg bg-slate-50 p-3 text-sm"><span className="block text-slate-500">{subject}</span><span className="font-semibold">{rs.filter(r => r.correct).length}/{rs.length}</span></div>; })}</div><button type="button" className="secondary-action mt-4" onClick={() => setReview(!review)}>{review ? "해설 접기" : "문제·해설 확인"}</button><div className="mt-3"><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></div></SkinPanel>)}

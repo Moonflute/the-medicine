@@ -23,9 +23,11 @@ const storage = () => {
 const browser = { localStorage: storage(), sessionStorage: storage() };
 const grading = compile('qbank-grading.ts');
 const mockExam = compile('mock-exam.ts', { './qbank-grading': grading });
+const roundTimer = compile('qbank-round-timer.ts');
 const { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, loadLocalActiveQbankSessions, planActiveQbankSessionSync, remapLocalActiveQbankSession, saveLocalActiveQbankSession } = compile('qbank-active-session.ts', {
   './qbank-grading': grading,
   './mock-exam': mockExam,
+  './qbank-round-timer': roundTimer,
 }, { window: browser });
 
 const legacy = {
@@ -37,6 +39,34 @@ test('legacy snapshots remain readable without display context', () => {
   const parsed = activeSessionFrom(legacy);
   assert.equal(parsed.sessionId, 'legacy');
   assert.equal(parsed.context, undefined);
+  assert.equal(parsed.deadlineAt, undefined);
+});
+
+test('time limits are only accepted for an explicitly timed practice round', () => {
+  const read = (overrides = {}) => roundTimer.practiceRoundLimitFromParams(new URLSearchParams({
+    practiceRound: '1', practiceOnly: '1', mode: 'practice-book', practiceYears: '2026', timeLimit: '60', ...overrides,
+  }));
+  assert.equal(read(), 60);
+  assert.equal(read({ mode: 'selection', timeLimit: '15' }), 15);
+  for (const overrides of [
+    { practiceRound: '0' }, { practiceOnly: '0' }, { mode: 'related' }, { practiceYears: '2026,2025' },
+    { practiceDepartments: '내과' }, { theory: 'cardiology' }, { timeLimit: '0' }, { timeLimit: '0.5' }, { timeLimit: '361' },
+  ]) assert.equal(read(overrides), undefined);
+});
+
+test('a saved round keeps its deadline across local and cloud restores, even after expiry', () => {
+  const deadlineAt = Date.parse('2026-09-22T01:00:00Z');
+  const timed = { ...legacy, sessionId: 'timed', deadlineAt };
+  saveLocalActiveQbankSession(timed);
+  const local = loadLocalActiveQbankSession(timed.sessionId);
+  const cloud = activeSessionsFrom({ sessions: [JSON.parse(JSON.stringify(local))] })[0];
+  assert.equal(cloud.deadlineAt, deadlineAt);
+  assert.equal(roundTimer.remainingRoundSeconds(cloud.deadlineAt, deadlineAt - 1001), 2);
+  assert.equal(roundTimer.isRoundTimeUp(cloud.deadlineAt, deadlineAt - 1), false);
+  assert.equal(roundTimer.isRoundTimeUp(cloud.deadlineAt, deadlineAt), true);
+  assert.equal(roundTimer.remainingRoundSeconds(cloud.deadlineAt, deadlineAt + 5000), 0);
+  assert.equal(activeSessionFrom({ ...timed, deadlineAt: 'invalid' }).deadlineAt, undefined);
+  clearLocalActiveQbankSession(timed.sessionId);
 });
 
 test('structured context is sanitized and survives a JSON round trip', () => {
