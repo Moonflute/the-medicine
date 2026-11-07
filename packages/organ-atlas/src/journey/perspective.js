@@ -1,7 +1,7 @@
 import * as T from 'three';
 
 export const JOURNEY_RADIUS=.0016;
-export const relativeSize=radius=>T.MathUtils.clamp(radius/JOURNEY_RADIUS,.25,1);
+export const relativeSize=radius=>T.MathUtils.clamp(radius/JOURNEY_RADIUS,.0625,1);
 
 // Source coordinates match the existing anatomical minimap: +X left,
 // +Y superior, +Z anterior. This heading does not change the movement frame.
@@ -19,7 +19,7 @@ export function anatomicalHeading(direction){
 export class JourneyPerspective{
  constructor(camera,{reducedMotion=false}={}){this.camera=camera;this.reducedMotion=reducedMotion;this.target=camera.fov;this.active=false;}
  setRadius(radius,{immediate=false}={}){
-  const size=relativeSize(radius),target=76+10*Math.log2(1/size);
+  const size=relativeSize(radius),target=Math.min(106,76+10*Math.log2(1/size));
   this.camera.near=.00012*size;
   if(immediate||this.reducedMotion){this.camera.fov=target;this.active=false;}
   else if(target!==this.target){this.start=this.camera.fov;this.elapsed=0;this.active=this.start!==target;}

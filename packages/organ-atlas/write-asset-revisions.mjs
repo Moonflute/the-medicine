@@ -9,7 +9,7 @@ export function writeAssetRevisions(){
  for(const name of fs.readdirSync(models).filter(name=>name.endsWith('.glb.gz')&&!sourceOnlyModels.includes(name)).sort())add(new URL(name,models),'./models/current/'+name);
  const wholeManifest=new URL('z-whole-manifest.json',models);
  if(fs.existsSync(wholeManifest))add(wholeManifest,'./models/current/z-whole-manifest.json');
- for(const mode of journeyModes)for(const suffix of ['.json','-surface.bin.gz','-volume.bin.gz']){const name='journey-'+mode.id+suffix;add(new URL(name,models),'./models/current/'+name);}
+ for(const mode of journeyModes)for(const suffix of mode.id==='brain'?['.json','-surface.bin.gz']:['.json','-surface.bin.gz','-volume.bin.gz']){const name='journey-'+mode.id+suffix;add(new URL(name,models),'./models/current/'+name);}
  for(const axis of ['front','side']){const name='journey-context-'+axis+'.png';add(new URL(name,models),'./models/current/'+name);}
  const imaging=new URL('./static/imaging/',import.meta.url);
  if(fs.existsSync(imaging)){

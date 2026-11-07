@@ -9,5 +9,5 @@ export function nearbyInterior(field,origin,radius,maxDistance=.18){
 }
 
 export function fittingRadius(field,position,requested){
- const clearance=field.clearance(position);return [.0016,.0008,.0004].find(radius=>radius<=requested+1e-9&&radius<=clearance+1e-9)??null;
+ const clearance=field.clearance(position);return [.0016,.0008,.0004,.0002,.0001].find(radius=>radius<=requested+1e-9&&radius<=clearance+1e-9)??null;
 }

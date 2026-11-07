@@ -18,10 +18,10 @@ export function entranceHints(manifest){
    return [{id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:j.valve?.name||child.name,target:j.valve?child.name:'',detail:forward?'혈류 유출 →':'← 혈류 유입',point:j.valve?.center||j.start,nearPoint:j.start,regions:[j.from],range:.09,valve:!!j.valve},{id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:j.valve?.name||parent.name,target:j.valve?parent.name:'',detail:forward?'← 혈류 유입':'혈류 유출 →',point:j.valve?.center||j.end,nearPoint:j.end,regions:[j.to],range:.09,valve:!!j.valve}];
   }
   return [
-   {id:`branch-${j.from}-${j.to}`,name:child.name,detail:vein?'유입 정맥':'분지',point:j.end,regions:[j.from],range:.055},
-   {id:`parent-${j.to}-${j.from}`,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':'기시 혈관',point:j.start,regions:[j.to],range:.055}
+   {id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:child.name,detail:vein?'유입 정맥':['urinary','biliary'].includes(kind)?'연결 구간':'분지',point:j.end,regions:[j.from],range:.055},
+   {id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':['urinary','biliary'].includes(kind)?'연결 구간':'기시 혈관',point:j.start,regions:[j.to],range:.055}
   ];
- });
+ }).concat((manifest.sourceLandmarks||[]).map(p=>({id:p.sourceId,name:p.name,detail:'',point:p.position,regions:[p.part],range:.06,surface:true})));
  const junction=(a,b,side='end')=>manifest.junctions.find(j=>j.from===a&&j.to===b)?.[side];
  return [
   {id:'oropharynx',from:1,to:2,name:'Oropharynx',detail:'인두로',point:[0,1.537,.012],regions:[1],range:.055},

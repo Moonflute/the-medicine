@@ -23,13 +23,17 @@ def bounded_distance(mask,limit=.065):
  # Only distances below the field's 63.75 mm storage ceiling matter. Slabs with
  # a larger halo preserve those exact Euclidean distances without allocating
  # scipy's full-body 3-axis index/double buffers at coronary resolution.
- axis=int(np.argmax(mask.shape));halo=int(np.ceil(limit/step))+2;result=np.empty(mask.shape,dtype=np.float32)
- for begin in range(0,mask.shape[axis],80):
-  end=min(begin+80,mask.shape[axis]);lo=max(0,begin-halo);hi=min(mask.shape[axis],end+halo)
-  source=[slice(None)]*3;source[axis]=slice(lo,hi);core=[slice(None)]*3;core[axis]=slice(begin-lo,end-lo);target=[slice(None)]*3;target[axis]=slice(begin,end)
-  d=ndi.distance_transform_edt(mask[tuple(source)])
-  result[tuple(target)]=np.minimum(d[tuple(core)]*step,limit)
-  del d
+ halo=int(np.ceil(limit/step))+2;result=np.zeros(mask.shape,dtype=np.float32)
+ # Three-dimensional tiles cap scipy's temporary coordinate arrays even for
+ # broad, finely sampled organs. Empty tiles need no distance transform.
+ for z in range(0,mask.shape[0],64):
+  for y in range(0,mask.shape[1],64):
+   for x in range(0,mask.shape[2],64):
+    begin=np.array([z,y,x]);end=np.minimum(begin+64,mask.shape);target=tuple(slice(int(a),int(b)) for a,b in zip(begin,end))
+    if not mask[target].any():continue
+    lo=np.maximum(0,begin-halo);hi=np.minimum(mask.shape,end+halo);source=tuple(slice(int(a),int(b)) for a,b in zip(lo,hi));core=tuple(slice(int(a),int(b)) for a,b in zip(begin-lo,end-lo))
+    if mask[source].all():result[target]=limit;continue
+    d=ndi.distance_transform_edt(mask[source]);result[target]=np.minimum(d[core]*step,limit);del d
  return result
 def stamp_capsule(a,b,r,label):
  a,b=np.array(a),np.array(b); lo=np.maximum(0,np.floor((np.minimum(a,b)-r-origin)/step).astype(int)); hi=np.minimum([nx-1,ny-1,nz-1],np.ceil((np.maximum(a,b)+r-origin)/step).astype(int))
@@ -194,6 +198,8 @@ for axis in range(3):
    remove[tuple(s) if chamber_a else tuple(t)]|=touch
   else:remove[tuple(s)]|=touch;remove[tuple(t)]|=touch
 labels[remove]=0
+del candidates,touch,la,lb
+distance_cache.clear()
 # Short, reviewed vessel seam repairs share the source vessel's priority over
 # the approximate myocardial mask. Chamber tissue remains impermeable.
 if cfg.get('kind')=='circulation':
@@ -204,21 +210,31 @@ mask=labels>0
 mask[[0,-1],:,:]=False;mask[:,[0,-1],:]=False;mask[:,:,[0,-1]]=False;labels[~mask]=0
 # Cardiac right and left blood spaces MUST remain separate without a supplied
 # pulmonary capillary bed. Every source part must belong to its main circuit.
-components,count=ndi.label(mask);sizes=np.bincount(components.ravel());sizes[0]=0
+components,count=ndi.label(mask);sizes=np.bincount(components[mask]);sizes[0]=0
 if cfg.get('expectedComponents',1)>1:
  retained=set();circuits={};part_components={}
  for number,part in enumerate(cfg['parts'],1):
   counts=np.bincount(components[labels==number]);counts[0]=0;component=int(counts.argmax());retained.add(component)
   circuit=part['circuit'];circuits.setdefault(circuit,set()).add(component)
   part_components[part['name']]=component
- if len(retained)!=cfg['expectedComponents'] or any(len(c)!=1 for c in circuits.values()):raise ValueError(f'Incomplete or falsely connected cardiac circuits: {circuits}; parts={part_components}')
+ if len(retained)!=cfg['expectedComponents'] or any(len(c)!=1 for c in circuits.values()):
+  diagnostic=[]
+  for number,part in enumerate(cfg['parts'],1):
+   if 'anterior tibial artery' not in part['name'].lower():continue
+   for component in np.unique(components[labels==number]):
+    points=np.argwhere((labels==number)&(components==component));diagnostic.append({'part':part['name'],'component':int(component),'count':len(points),'min':world(points).min(axis=0).tolist(),'max':world(points).max(axis=0).tolist()})
+  raise ValueError(f'Incomplete or falsely connected circuits: {circuits}; parts={part_components}; regions={diagnostic}; junctions={junctions}')
  mask=np.isin(components,list(retained));discarded=int(sizes.sum()-mask.sum())
 else:
  largest=int(sizes.argmax());discarded=int(mask.sum()-sizes[largest]);mask=components==largest
+ missing=[p['name'] for i,p in enumerate(cfg['parts'],1) if not np.any(mask&(labels==i))]
+ if missing:
+  detail={p['name']:{'voxels':int((labels==i).sum()),'component':int(np.bincount(components[labels==i]).argmax())} for i,p in enumerate(cfg['parts'],1)}
+  raise ValueError(f'Disconnected source regions before meshing: {detail}; junctions={junctions}')
 labels[~mask]=0
 distance_cache.clear();del components,sizes,remove
-distance=bounded_distance(mask)-step*.5
-if cfg.get('kind')=='circulation':
+distance=bounded_distance(mask,cfg.get('maxClearance',.065))-step*.5
+if cfg.get('kind')=='circulation' or cfg.get('preserveSeparation'):
  from journey_mesh import build_surface
  verts,faces,normals,colors,locations=build_surface(labels,cfg)
 else:
@@ -260,7 +276,7 @@ for number,part in enumerate(cfg['parts'],1):
 boundaries=[]
 for part in parts:
  number=part['id'];neighbors=[b if a==number else a for a,b in cfg['connections'] if a==number or b==number]
- if (len(neighbors)!=1 and not (cfg.get('kind')=='airway' and number==1)) or (cfg['key']=='upper' and number==1):continue
+ if (len(neighbors)!=1 and number not in cfg.get('terminalParts',[]) and not (cfg.get('kind')=='airway' and number==1)) or (cfg['key']=='upper' and number==1):continue
  junction=next((j for j in junctions if {j['from'],j['to']}=={number,neighbors[0]}),None)
  if not junction:continue
  entry=np.array(junction['start'] if junction['from']==number else junction['end']);points=np.argwhere((labels==number)&(distance>=.0025))
@@ -268,11 +284,14 @@ for part in parts:
  positions=world(points);farthest=positions[np.argmax(np.sum((positions-entry)**2,axis=1))]
  continuation=('이 기관의 위쪽 후두·인두는 이 표본의 탐험 범위에 포함하지 않았어요.' if number==1 else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.') if cfg.get('kind')=='airway' else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.' if part.get('system')=='respiratory' else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
  boundaries.append({'part':number,'position':farthest.tolist(),'returnPoint':entry.tolist(),'range':.026,'name':part['name'],'continuation':continuation})
- if cfg.get('kind')=='circulation':boundaries[-1]['continuation']='이후의 더 작은 혈관과 모세혈관망은 포함하지 않았어요. 이 끝에서 동맥과 정맥을 직접 연결하지 않습니다.'
+ if cfg.get('kind') in ('circulation','artery','vein'):boundaries[-1]['continuation']='이후의 더 작은 혈관과 모세혈관망은 포함하지 않았어요. 이 끝에서 동맥과 정맥을 직접 연결하지 않습니다.'
+ if cfg.get('kind')=='urinary':boundaries[-1]['continuation']=part.get('endNotice','신우 이전의 신배·집합관·네프론은 이번 탐험에 포함하지 않았어요.')
+ if cfg.get('kind')=='biliary':boundaries[-1]['continuation']=part.get('endNotice','원본에 포함된 담도·췌관 구간의 끝입니다. 더 작은 분지는 포함하지 않았어요.')
 
 # Preserve conservative clearance, including the smoothing displacement.
-clearance=np.floor(np.maximum(0,distance-step*.35)/.00025).clip(0,255).astype(np.uint8)
+distance_unit=cfg.get('distanceUnit',.00025)
+clearance=np.floor(np.maximum(0,distance-step*.35)/distance_unit).clip(0,255).astype(np.uint8)
 surface=verts.tobytes()+normals.tobytes()+colors.tobytes()+faces.tobytes()
 volume=clearance.tobytes()+labels.tobytes()
-report={'surfaceIsolation':'per-blood-circuit' if cfg.get('kind')=='circulation' else 'single-lumen','vertices':len(verts),'triangles':len(faces),'surfaceBytes':len(surface),'distanceUnit':.00025,'parts':parts,'junctions':junctions,'junctionWindows':junction_windows,'boundaries':boundaries,'selfContactBarrierVoxels':self_contact_voxels,'sourceOverlapAdjustedVoxels':source_overlap_voxels,'discardedVoxels':discarded,'componentsBeforeCleanup':int(count),'gridBytes':len(volume),'limits':'Navigation cavity reconstructed from exterior source surfaces; not measured lumen or histology.'}
+report={'surfaceIsolation':'per-blood-circuit' if cfg.get('kind')=='circulation' else 'single-lumen','vertices':len(verts),'triangles':len(faces),'surfaceBytes':len(surface),'distanceUnit':distance_unit,'parts':parts,'junctions':junctions,'junctionWindows':junction_windows,'boundaries':boundaries,'selfContactBarrierVoxels':self_contact_voxels,'sourceOverlapAdjustedVoxels':source_overlap_voxels,'discardedVoxels':discarded,'componentsBeforeCleanup':int(count),'gridBytes':len(volume),'limits':'Navigation cavity reconstructed from exterior source surfaces; not measured lumen or histology.'}
 sys.stdout.buffer.write((json.dumps(report)+'\n').encode());sys.stdout.buffer.write(surface);sys.stdout.buffer.write(volume)

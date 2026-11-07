@@ -7,7 +7,9 @@ import {JourneyClinicalLayer} from './src/journey/clinical-layer.js';
 import {clinicalExamples,structureLesson,connectedStructures,examplesFor,journeyModes,journeyStartGroups} from './src/journey/learning-data.js';
 
 let lessons=0,placements=0;
-for(const mode of journeyModes){
+// Existing pathology examples belong to the original digestive/cardiac worlds.
+// New surfaces/fields have their own geometry/navigation contract verification.
+for(const mode of journeyModes.filter(mode=>['upper','circulation'].includes(mode.id))){
  const stem=new URL('./static/models/current/journey-'+mode.id,import.meta.url),manifest=JSON.parse(fs.readFileSync(new URL(stem.href+'.json'))),raw=Uint8Array.from(gunzipSync(fs.readFileSync(new URL(stem.href+'-surface.bin.gz')))),n=manifest.vertices;
  const geometry=new T.BufferGeometry();geometry.setAttribute('position',new T.BufferAttribute(new Float32Array(raw.buffer,0,n*3),3));geometry.setIndex(new T.BufferAttribute(new Uint32Array(raw.slice(n*27).buffer),1));geometry.computeBoundingSphere();
  const mesh=new T.Mesh(geometry,new T.MeshStandardMaterial({side:T.DoubleSide})),field=new JourneyVolume(manifest,Uint8Array.from(gunzipSync(fs.readFileSync(new URL(stem.href+'-volume.bin.gz'))))),asset={manifest,mesh,field},camera=new T.PerspectiveCamera(),scene=new T.Scene();scene.add(mesh);

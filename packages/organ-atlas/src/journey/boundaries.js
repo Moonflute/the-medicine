@@ -1,10 +1,11 @@
 import * as T from 'three';
+import {regionTransitions} from './region-transitions.js';
 
 // Scope boundaries describe missing data, never an anatomical obstruction.
 // Guidance uses the recent traveled path and does not rotate/teleport the view.
 export class JourneyBoundaryGuide{
- constructor(host,asset,camera,{transfers,onTransfer=()=>{}}={}){
-  this.transfers=transfers;this.onTransfer=onTransfer;this.preferred=null;
+ constructor(host,asset,camera,{transfers,onTransfer=()=>{},onRegion=()=>{}}={}){
+  this.transfers=transfers;this.onTransfer=onTransfer;this.onRegion=onRegion;this.preferred=null;
   this.asset=asset;this.camera=camera;this.trail=[];this.vector=new T.Vector3();this.forward=new T.Vector3();this.right=new T.Vector3();this.up=new T.Vector3();
   this.panel=document.createElement('div');this.panel.className='journey-boundary';this.panel.hidden=true;this.panel.setAttribute('role','status');
   this.title=document.createElement('strong');this.title.textContent='탐험 범위 끝';this.detail=document.createElement('p');this.direction=document.createElement('span');this.actions=document.createElement('div');this.actions.className='journey-transfer-actions';this.panel.append(this.title,this.detail,this.actions,this.direction);host.append(this.panel);this.reset();
@@ -17,10 +18,11 @@ export class JourneyBoundaryGuide{
   const region=this.asset.field.region(p),boundary=(this.asset.manifest.boundaries||[]).filter(b=>b.part===region&&distance(p,b.position)<b.range).sort((a,b)=>distance(p,a.position)-distance(p,b.position))[0];
   this.panel.hidden=!boundary;if(!boundary){this.current=0;return false;}
   if(this.current!==boundary.part){
-   this.current=boundary.part;const options=this.transfers?.options(region)||[];
-   this.title.textContent=options.length?'미세순환 생략 · '+options[0].territory:'탐험 범위 끝';
-   this.defaultDetail=options.length?'말초 분지와 모세혈관을 건너 연결 혈관으로 이동합니다.':boundary.continuation;
-   this.actions.replaceChildren();this.panel.dataset.transfer=String(!!options.length);
+   this.current=boundary.part;const options=this.transfers?.options(region)||[],regions=regionTransitions(this.asset.manifest,region);
+   this.title.textContent=regions.length?(regions[0].type==='capillary'?'미세순환 생략 · '+regions[0].territory:'이어지는 혈관'):options.length?'미세순환 생략 · '+options[0].territory:'탐험 범위 끝';
+   this.defaultDetail=regions.length?(regions[0].type==='capillary'?'말초 분지와 모세혈관을 건너 대응 혈관으로 이동합니다.':'현재 위치와 시선을 유지하며 다음 영역을 불러옵니다.'):options.length?'말초 분지와 모세혈관을 건너 연결 혈관으로 이동합니다.':boundary.continuation;
+   this.actions.replaceChildren();this.panel.dataset.transfer=String(!!(options.length||regions.length));
+   for(const option of regions){const button=document.createElement('button');button.textContent=option.label+' →';button.dataset.regionTo=option.key;button.onclick=()=>this.onRegion(option);this.actions.append(button);}
    for(const option of options){
     const button=document.createElement('button'),part=this.asset.manifest.parts.find(p=>p.id===option.to);
     button.textContent=(option.forward?'→ ':'↶ ')+part.name+(option.forward?'':' · 역방향');button.dataset.transferTo=String(option.to);

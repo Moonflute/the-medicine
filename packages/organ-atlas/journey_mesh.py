@@ -24,7 +24,7 @@ def build_surface(labels, cfg):
         slices = tuple(slice(int(a), int(b)) for a, b in zip(lo, hi))
         mask = np.isin(labels[slices], ids)
         smooth = ndi.gaussian_filter(mask.astype(np.float32), sigma=.75 if cfg['key'] == 'upper' else .55)
-        if cfg.get('kind') == 'circulation':
+        if cfg.get('kind') == 'circulation' or cfg.get('preserveSeparation'):
             # Even within one circuit, e.g. atrium beside pulmonary artery,
             # a one-voxel separating wall must survive filtering. Reserve a
             # scalar margin on both sides, not merely an epsilon-thick sheet.

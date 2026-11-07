@@ -5,10 +5,11 @@ import {CapillaryTransfers} from './capillary-transfers.js';
 // invent a geometric shortcut, steer the camera, or change collision clearance.
 export class AnatomicalRoutes{
  constructor(manifest,{includeTransfers=true}={}){
-  this.transfers=new CapillaryTransfers(includeTransfers?manifest:{...manifest,key:''});
+  this.transfers=new CapillaryTransfers(includeTransfers?manifest:{...manifest,key:'',kind:''});
   this.parts=new Map(manifest.parts.map(part=>[part.id,part]));
   this.neighbors=new Map(manifest.parts.map(part=>[part.id,[]]));
   this.flow=new Set((manifest.flowConnections||[]).map(([a,b])=>`${a}:${b}`));
+  this.flowLabel=manifest.kind==='urinary'?'소변 흐름':'혈류';
   const hints=entranceHints(manifest);
   for(const [a,b]of manifest.connections){
    if(!this.parts.has(a)||!this.parts.has(b))continue;
@@ -60,7 +61,7 @@ export class AnatomicalRoutes{
  clear(){this.target=null;this.current=null;this.route=null;this.arrived=false;}
  get next(){return this.route?.[1]??null;}
  get transfer(){return this.transfers.get(this.current,this.next);}
- get direction(){return this.next===null?'':this.transfer?.forward||this.flow.has(`${this.current}:${this.next}`)?'혈류 방향':this.flow.has(`${this.next}:${this.current}`)?'혈류 반대 방향':'';}
+ get direction(){return this.next===null?'':this.transfer?.forward||this.flow.has(`${this.current}:${this.next}`)?this.flowLabel+' 방향':this.flow.has(`${this.next}:${this.current}`)?this.flowLabel+' 반대 방향':'';}
 }
 
 export class JourneyRouteGuide{

@@ -16,13 +16,14 @@ export function loadJourneyManifest(key){
 export async function loadJourney(key){
  if(!journeyModes.some(mode=>mode.id===key))throw Error('Unknown exploration region');
  const manifest=await loadJourneyManifest(key);
- const [surface,volume]=await Promise.all([unpack(manifest.surface),unpack(manifest.volume)]),n=manifest.vertices;
+ const [surface,volume]=await Promise.all([unpack(manifest.surface),manifest.volume?unpack(manifest.volume):null]),n=manifest.vertices;
  if(surface.byteLength!==n*27+manifest.triangles*12)throw Error('Invalid exploration surface');
- const field=new JourneyVolume(manifest,volume);
+ const field=volume?new JourneyVolume(manifest,volume):null;
  const geometry=new T.BufferGeometry();geometry.setAttribute('position',new T.BufferAttribute(new Float32Array(surface.buffer,surface.byteOffset,n*3),3));geometry.setAttribute('normal',new T.BufferAttribute(new Float32Array(surface.buffer,surface.byteOffset+n*12,n*3),3));
  // Vertex colors are converted from display sRGB before lighting.
  const colors=new Float32Array(n*3),color=new T.Color();for(let i=0;i<n;i++){color.setRGB(surface[n*24+i*3]/255,surface[n*24+i*3+1]/255,surface[n*24+i*3+2]/255,T.SRGBColorSpace);color.toArray(colors,i*3);}geometry.setAttribute('color',new T.BufferAttribute(colors,3));
  const indices=surface.slice(n*27);geometry.setIndex(new T.BufferAttribute(new Uint32Array(indices.buffer),1));geometry.computeVertexNormals();geometry.computeBoundingSphere();
+ if(manifest.kind==='brain'){const {createBrainAsset}=await import('./brain-field.js');return createBrainAsset(manifest,geometry);}
  const material=new T.MeshStandardMaterial({vertexColors:true,side:T.DoubleSide,roughness:.86,metalness:0});
  const mesh=new T.Mesh(geometry,material);mesh.updateMatrixWorld(true);
  return {manifest,mesh,field,dispose(){geometry.dispose();material.dispose();}};

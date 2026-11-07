@@ -82,6 +82,7 @@ jobs:
           node ../../packages/organ-atlas/verify-journey-guidance.mjs
           node ../../packages/organ-atlas/verify-journey-circulation.mjs
           node ../../packages/organ-atlas/verify-journey-cardiac-walls.mjs
+          node ../../packages/organ-atlas/verify-journey-expansion.mjs
 
       - name: Verify lab workspace
         run: node --test scripts/test-lab-workbench.mjs

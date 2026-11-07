@@ -4,7 +4,11 @@ import {airwaySource,thoracicVeinSource,coronaryParts} from './journey-expansion
 import {continuousBronchi,bronchialConnections,bronchialForks} from './journey-continuity-sources.mjs';
 import {cardiacSource} from './journey-cardiac-sources.mjs';
 import {circulationSource} from './journey-circulation-sources.mjs';
+import {organJourneySources} from './journey-organ-sources.mjs';
+import {limbJourneySources} from './journey-limb-sources.mjs';
 export function journeyNotice(key){
+ if(organJourneySources[key])return organJourneySources[key].notice;
+ if(limbJourneySources[key])return limbJourneySources[key].notice;
  if(key==='cardiac'||key==='circulation')return '같은 Z-Anatomy 좌표에서 심근과 구별한 4방의 혈액 공간을 대정맥·폐동맥·폐정맥·대동맥에 연결한 탐험용 재구성입니다. 판막 통과부는 탐험을 위해 열어 두었으며 실제 박동·판막 개폐의 생리적 한 시점을 뜻하지 않습니다. 폐·전신 모세혈관망과 관상 미세순환은 생략하며 좌우 중격을 관통하는 통로를 만들지 않습니다.';
  if(key==='airways')return '기존 HRA 남성 표본의 기관·엽기관지·분절기관지 표면과 상대 좌표를 보존한 내부 탐색용 재구성입니다. 원본이 구분한 가지까지만 제공하며 세기관지·폐포와 실제 점막은 포함하지 않습니다. 입·소화관 탐험과 다른 표본이므로 영역을 바꾸어 탐험합니다. 좌측 분절 형태는 이 원본의 구분을 따릅니다.';
  if(key==='thoracic-veins')return '기존 Z-Anatomy 좌표의 상대정맥·팔머리정맥·목과 상지 주요 정맥을 재구성했습니다. 잘린 끝은 제공 범위이며 심방이나 하대정맥까지 임의로 연결하지 않았습니다. 정맥판막·모세혈관은 포함하지 않습니다.';
@@ -104,5 +108,7 @@ journeySources.vessels.parts.push(...coronaryParts);
 journeySources.vessels.connections.push([1,30],[1,31],[31,32]);
 journeySources.vessels.forks.push([1,[2,30,31]]);
 journeySources.circulation=circulationSource(journeySources);
+Object.assign(journeySources,organJourneySources);
+Object.assign(journeySources,limbJourneySources);
 // A connection is a reviewed source adjacency, not an arbitrary nearest mesh.
 for(const [key,config]of Object.entries(journeySources)){config.bridges??=config.connections;config.coordinateFrame??='z-anatomy';config.kind??=key==='upper'?'digestive-airway':key==='veins'?'vein':'artery';}

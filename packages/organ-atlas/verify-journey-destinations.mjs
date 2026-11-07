@@ -4,13 +4,15 @@ import {gunzipSync} from 'node:zlib';
 import {JourneyVolume} from './src/journey/volume.js';
 import {journeyFrame} from './src/journey/context.js';
 import {destinationSystems,journeyDestinations,filterDestinations,destinationPose,restoreJourneyPose} from './src/journey/destinations.js';
+import {journeyModes} from './src/journey/learning-data.js';
 
 const root=new URL('./static/models/current/',import.meta.url);
 const manifests=['upper','circulation'].map(key=>JSON.parse(fs.readFileSync(new URL(`journey-${key}.json`,root))));
 const entries=journeyDestinations(manifests);
 assert.equal(entries.length,100);
 assert.equal(new Set(entries.map(p=>p.key+':'+p.id)).size,100,'IDs from different worlds must not collide');
-for(const system of destinationSystems)assert(filterDestinations(entries,'',system.id).length>0);
+const expanded=journeyDestinations(journeyModes.map(mode=>JSON.parse(fs.readFileSync(new URL(`journey-${mode.id}.json`,root)))));
+for(const system of destinationSystems)assert(filterDestinations(expanded,'',system.id).length>0);
 for(const entry of entries){
  assert(filterDestinations(entries,entry.korean).some(p=>p.key===entry.key&&p.id===entry.id),'all Korean names are searchable');
  assert(filterDestinations(entries,entry.name.toUpperCase()).some(p=>p.key===entry.key&&p.id===entry.id),'all English names are searchable');

@@ -51,10 +51,13 @@ export function packJourneyBricks(field){
 export function moveInLumen(field,position,delta,radius){
  const length=Math.hypot(...delta);if(!length)return {position:[...position],blocked:false,contacted:false};
  const step=Math.min(radius*.4,field.step*.4),count=Math.min(256,Math.ceil(length/step)),factor=Math.min(1,count*step/length)/count,d=delta.map(v=>v*factor),travel=Math.hypot(...d),skin=Math.min(radius*.04,field.step*.04,travel*.1);let p=[...position],contacted=false;
- if(field.clearance(p)<radius)return {position:p,blocked:true,contacted:true};
+ // Trilinear interpolation at an exact stored clearance can differ by a few
+ // floating-point ulps. A picometre tolerance is numerical, not extra room.
+ const minimum=radius-1e-12;
+ if(field.clearance(p)<minimum)return {position:p,blocked:true,contacted:true};
  const sample=[0,0,0],safe=(from,to)=>{
   const dx=to[0]-from[0],dy=to[1]-from[1],dz=to[2]-from[2],samples=Math.max(1,Math.ceil(Math.hypot(dx,dy,dz)/(step*.5)));
-  for(let i=1;i<=samples;i++){sample[0]=from[0]+dx*i/samples;sample[1]=from[1]+dy*i/samples;sample[2]=from[2]+dz*i/samples;if(field.clearance(sample)<radius)return false;}
+  for(let i=1;i<=samples;i++){sample[0]=from[0]+dx*i/samples;sample[1]=from[1]+dy*i/samples;sample[2]=from[2]+dz*i/samples;if(field.clearance(sample)<minimum)return false;}
   return true;
  };
  const clip=(from,to)=>{
@@ -72,7 +75,7 @@ export function moveInLumen(field,position,delta,radius){
   // A tangent to a curved/quantised wall can still end just inside its next
   // facet. A tiny bounded inward correction lets it slide around that facet.
   for(let attempt=0;attempt<4;attempt++){
-   const clearance=field.clearance(candidate);if(clearance>=radius&&safe(p,candidate))break;
+   const clearance=field.clearance(candidate);if(clearance>=minimum&&safe(p,candidate))break;
    const gradient=field.gradient(candidate),norm2=gradient.reduce((s,v)=>s+v*v,0);if(norm2<1e-12)break;
    contacts.push(gradient);
    const correction=Math.min(Math.max(0,radius+skin-clearance)/Math.sqrt(norm2),budget*.35);
