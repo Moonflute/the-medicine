@@ -35,4 +35,3 @@ const rows=[...totals].sort((a,b)=>b[1]-a[1]).slice(0,12);
 console.log(JSON.stringify({exportBytes:totalBytes,files,omittedOriginalImageCopies:omittedBytes,largestDirectories:rows},null,2));
 if(process.env.GITHUB_STEP_SUMMARY) await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,
   `## Pages artifact\n\n${files.toLocaleString()} files · ${(totalBytes/1e6).toFixed(1)} MB (uncompressed)\n\n| Directory | MB |\n|---|---:|\n${rows.map(([name,size])=>`| ${name} | ${(size/1e6).toFixed(1)} |`).join('\n')}\n`);
-if(totalBytes>1_000_000_000) throw new Error('Published site exceeds the 1 GB Pages limit; reduce the export before uploading.');

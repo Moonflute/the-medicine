@@ -3,9 +3,19 @@ import {fetchModelResponse,fetchModelManifest} from '../local-model-store.js';
 import {JourneyVolume} from './volume.js';
 import {journeyModes} from './learning-data.js';
 async function unpack(url){const response=await fetchModelResponse(url);if(!response.ok)throw Error('탐험 데이터를 불러오지 못했어요.');if(response.headers.get('X-Atlas-Decoded-Gzip')==='1'||response.headers.get('Content-Encoding')?.toLowerCase().includes('gzip'))return new Uint8Array(await response.arrayBuffer());if('DecompressionStream'in globalThis)return new Uint8Array(await new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer());const {gunzipSync}=await import('three/addons/libs/fflate.module.js');return gunzipSync(new Uint8Array(await response.arrayBuffer()));}
+const manifests=new Map();
+export function loadJourneyManifest(key){
+ if(!journeyModes.some(mode=>mode.id===key))return Promise.reject(Error('Unknown exploration region'));
+ if(!manifests.has(key))manifests.set(key,(async()=>{
+  const response=await fetchModelManifest('./models/current/journey-'+key+'.json');
+  if(!response.ok)throw Error('탐험 목록을 불러오지 못했어요.');
+  return response.json();
+ })().catch(error=>{manifests.delete(key);throw error;}));
+ return manifests.get(key);
+}
 export async function loadJourney(key){
  if(!journeyModes.some(mode=>mode.id===key))throw Error('Unknown exploration region');
- const response=await fetchModelManifest('./models/current/journey-'+key+'.json');if(!response.ok)throw Error('탐험 목록을 불러오지 못했어요.');const manifest=await response.json();
+ const manifest=await loadJourneyManifest(key);
  const [surface,volume]=await Promise.all([unpack(manifest.surface),unpack(manifest.volume)]),n=manifest.vertices;
  if(surface.byteLength!==n*27+manifest.triangles*12)throw Error('Invalid exploration surface');
  const field=new JourneyVolume(manifest,volume);

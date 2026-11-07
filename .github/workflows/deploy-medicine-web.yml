@@ -75,6 +75,7 @@ jobs:
         run: |
           node ../../packages/organ-atlas/verify-journey-clinical.mjs
           node ../../packages/organ-atlas/verify-journey-navigation.mjs
+          node ../../packages/organ-atlas/verify-journey-destinations.mjs
           node ../../packages/organ-atlas/verify-journey-sliding.mjs
           node ../../packages/organ-atlas/verify-journey-guidance.mjs
           node ../../packages/organ-atlas/verify-journey-circulation.mjs
