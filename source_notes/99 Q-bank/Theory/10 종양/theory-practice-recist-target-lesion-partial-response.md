@@ -1,0 +1,53 @@
+---
+type: qbank
+schema_version: 1
+id: theory-practice-recist-target-lesion-partial-response
+source: Internal-Theory
+source_split: theory
+source_meta: practice-concept-review
+exam: Theory
+language: ko
+specialty: 10 종양
+target_type: disease
+target_title: "종양"
+target_slug: "MTAg7KKF7JaRL-yiheyWkS5tZA"
+theory_objective_id: practice-concept-recist-target-lesion-partial-response
+question_type: diagnosis
+question_mode: application
+difficulty: standard
+answer: B
+translation_status: not-applicable
+explanation_status: manually-reviewed
+review_status: manually-reviewed
+medical_review_status: official-source-reviewed
+wrong_notes_review_status: reviewed
+reviewed_at: 2026-11-07
+---
+
+# 이론 문제
+
+## 문제
+
+RECIST 1.1 평가에서 표적 병변 직경 합은 치료 전 60 mm, 추적에서 42 mm이다. 새 병변과 비표적 병변 진행은 없다. 이번 평가 결과는?
+
+## 선택지
+
+A. 완전반응
+B. 부분반응
+C. 안정질환
+D. 진행질환
+
+## 해설
+
+기준 시점보다 직경 합이 정확히 30% 감소했다. RECIST 1.1의 부분반응 역치는 30% 이상 감소이며, 이 증례에는 전체 판정을 진행으로 바꿀 새 병변이나 비표적 병변 진행이 없다.
+
+## 오답 포인트
+
+완전반응은 병변 소실 등의 요건이 필요하다. 안정질환은 반응·진행 역치를 모두 충족하지 않는 경우이고, 진행 판단에서는 최저 직경 합과 새 병변 등을 확인한다.
+
+## 출처
+
+- 내부 학습 노트: 종양
+- 원본 경로: `source_notes/02 Diseases/10 종양/종양.md`
+- 학습 목표: RECIST 1.1 평가에서 표적 병변 직경 합은 치료 전 60 mm, 추적에서 42 mm이다. 새 병변과 비표적 병변 진행은 없다. 이번 평가 결과는?
+- 근거: [EORTC RECIST 1.1](https://recist.eortc.org/recist-1-1/)

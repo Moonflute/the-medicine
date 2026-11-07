@@ -3,7 +3,8 @@
 이 폴더에는 이론 문제 Markdown만 둡니다.
 
 - 분과 하위 폴더는 원본 질병·CC·약물 문서의 주 분과를 따릅니다.
-- 각 문서는 `question_mode`, `target_type`, `target_slug`를 포함해 관련 질병 또는 CC 페이지에서 직접 필터링할 수 있습니다.
+- 각 문서는 `question_mode`, `target_type`, `target_slug`를 포함해 관련 문서의 이론문제를 필터링할 수 있습니다. 질병·CC·약물 외 공통 소생술·기도관리 개념은 기존 술기 문서를 정본으로 사용할 수 있습니다.
+- `target_type: skill`은 술기 문서의 `id`를 `target_slug`로 사용하고 표시 이름을 `target_title`에 기록합니다. 해당 문서의 관련 이론문제 범위와 해설 원문 링크에 함께 사용합니다.
 - 생성 체크포인트, API 원시 응답, 병합 전 백업은 `workspace_ops/qbank/theory/`에 보관하며 이 폴더에는 넣지 않습니다.
 
 ## 보기 품질 기준

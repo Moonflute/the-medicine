@@ -1585,6 +1585,7 @@ function buildQbank({ write = true, cleanStale = true } = {}) {
   const canonicalDiseaseSlug = (slug) => diseaseHierarchy.canonicalSlugBySlug[slug] ?? slug;
   const ccSlugByTitle = new Map(buildChiefComplaints().map((item) => [item.title, item.slug]));
   const drugBySlug = new Map(buildDrugs().map((item) => [item.slug, item]));
+  const skillById = new Map(buildSkills().items.map((item) => [item.id, item]));
   const diseaseBySlug = new Map(diseases.map((item) => [item.slug, item]));
   const diseaseCandidates = diseases.filter((item) => item.documentRole !== "compatibility").flatMap((item) =>
     [item.title, ...(item.aliases || [])]
@@ -1629,7 +1630,14 @@ function buildQbank({ write = true, cleanStale = true } = {}) {
     const targetType = questionBank === "theory" ? readScalar(frontmatter.target_type) : "";
     const rawTargetSlug = questionBank === "theory" ? readScalar(frontmatter.target_slug) : "";
     const targetSlug = targetType === "disease" ? canonicalDiseaseSlug(rawTargetSlug) : rawTargetSlug;
-    const targetTitle = targetType === "disease" ? (diseaseBySlug.get(targetSlug)?.displayTitle || diseaseBySlug.get(targetSlug)?.title || "") : "";
+    const targetTitle = targetType === "disease"
+      ? (diseaseBySlug.get(targetSlug)?.displayTitle || diseaseBySlug.get(targetSlug)?.title || "")
+      : targetType === "skill"
+        ? (skillById.get(targetSlug)?.name || "")
+        : readScalar(frontmatter.target_title);
+    if (targetType === "skill" && !skillById.has(targetSlug)) {
+      throw new Error(`Q-bank unknown skill target for ${id}: ${targetSlug}`);
+    }
     const relatedDiseaseSlugs = [...new Set([
       // A persisted field is authoritative.  This keeps source tags as raw
       // metadata while avoiding a second, lossy runtime synonym resolution.

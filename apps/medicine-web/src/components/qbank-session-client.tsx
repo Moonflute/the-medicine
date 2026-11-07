@@ -108,6 +108,8 @@ function theoryTargetHref(question: QbankQuestion): string | null {
   if (question.targetType === "disease") return `/disease/${question.targetSlug}`;
   if (question.targetType === "cc") return `/cc/${question.targetSlug}`;
   if (question.targetType === "drug") return `/drugs/${question.targetSlug}`;
+  if (question.targetType === "skill") return `/skills/${encodeURIComponent(question.targetSlug)}`;
+  if (question.targetType === "lab") return `/lab-img/${encodeURIComponent(question.targetSlug)}`;
   return null;
 }
 
