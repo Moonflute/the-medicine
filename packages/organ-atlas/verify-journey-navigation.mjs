@@ -28,6 +28,12 @@ controls.radius=JOURNEY_RADIUS;controls.yaw=controls.pitch=0;controls.updateRota
 controls.field={step:.001,clearance:([,,z])=>.006-Math.abs(z),gradient:([,,z])=>[0,0,-Math.sign(z)]};camera.position.set(0,0,0);
 for(let i=0;i<15;i++)controls.step(.05);
 assert(controls.field.clearance(camera.position.toArray())>=controls.radius-1e-9,'view-relative movement still respects wall clearance');
+controls.keys.clear();controls.yaw=controls.pitch=0;controls.look(100,0);assert(Math.abs(controls.yaw+.48)<1e-10,'mouse and touch turn through a useful angle without a long swipe');
+controls.yaw=controls.pitch=0;controls.updateRotation();controls.keys=new Set(['ArrowRight']);for(let i=0;i<20;i++)controls.step(.05);assert(Math.abs(controls.yaw+1.584)<1e-9,'keyboard look turns about ninety degrees per second');
+controls.keys=new Set(['KeyW']);controls.yaw=controls.pitch=0;controls.updateRotation();controls.radius=.0008;camera.position.set(0,0,0);controls.field={step:.0006,clearance:([,,z])=>.0008+z,gradient:()=>[0,0,1]};controls.stalledFor=0;controls.blocked=false;
+for(let i=0;i<3;i++){controls.step(.05);assert(!controls.blocked,'a brief contact must not flash the blocked message');}
+controls.step(.05);assert(controls.blocked,'sustained inability to move is still reported');controls.keys.clear();controls.step(.05);assert(!controls.blocked,'releasing movement clears stale collision feedback');
+controls.keys=new Set(['KeyW']);for(let i=0;i<4;i++)controls.step(.05);assert(controls.blocked);controls.clearInputs();assert(!controls.blocked&&controls.stalledFor===0,'focus/input reset also clears collision feedback');
 controls.enabled=false;const frozen=[...camera.position.toArray(),...camera.quaternion.toArray()];controls.look(20,10);controls.step(.05);assert.deepEqual([...camera.position.toArray(),...camera.quaternion.toArray()],frozen,'loading another region freezes the retained view');controls.dispose();
 
 camera.position.set(.01,1.5,.03);camera.rotation.set(.3,.7,0,'YXZ');camera.updateMatrixWorld();

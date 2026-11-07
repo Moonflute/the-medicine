@@ -70,6 +70,7 @@ jobs:
         run: |
           node ../../packages/organ-atlas/verify-journey-clinical.mjs
           node ../../packages/organ-atlas/verify-journey-navigation.mjs
+          node ../../packages/organ-atlas/verify-journey-sliding.mjs
           node ../../packages/organ-atlas/verify-journey-circulation.mjs
 
       - name: Verify lab workspace

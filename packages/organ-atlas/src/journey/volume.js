@@ -21,7 +21,16 @@ export class JourneyVolume{
  forEachVoxel(fn){const [bx,by]=this.brickDimensions;for(let b=0;b<this.brickIndex.length;b++){const id=this.brickIndex[b];if(id<0)continue;const x0=(b%bx)*8,y0=(Math.floor(b/bx)%by)*8,z0=Math.floor(b/(bx*by))*8,brick=this.bricks[id];for(let z=0;z<8;z++)for(let y=0;y<8;y++)for(let x=0;x<8;x++){const at=x+8*(y+8*z);if(brick[at+512])fn(x0+x,y0+y,z0+z,brick[at+512],brick[at]);}}}
  clearance(point){const q=point.map((v,i)=>(v-this.origin[i])/this.step),base=q.map(Math.floor),t=q.map((v,i)=>v-base[i]);let value=0;for(let z=0;z<2;z++)for(let y=0;y<2;y++)for(let x=0;x<2;x++)value+=this.value(base[0]+x,base[1]+y,base[2]+z)*(x?t[0]:1-t[0])*(y?t[1]:1-t[1])*(z?t[2]:1-t[2]);return value*this.unit;}
  region(point){const q=point.map((v,i)=>Math.round((v-this.origin[i])/this.step));return this.value(...q,true);}
- gradient(point){const s=this.step;return [0,1,2].map(axis=>{const a=[...point],b=[...point];a[axis]+=s;b[axis]-=s;return (this.clearance(a)-this.clearance(b))/(2*s)});}
+ gradient(point){
+  // Differentiate the SAME trilinear field used by clearance. A whole-voxel
+  // finite difference can point across a neighbouring facet and make a valid
+  // tangential move penetrate this facet, repeatedly trapping the camera.
+  const q=point.map((v,i)=>(v-this.origin[i])/this.step),base=q.map(Math.floor),t=q.map((v,i)=>v-base[i]),g=[0,0,0];
+  for(let z=0;z<2;z++)for(let y=0;y<2;y++)for(let x=0;x<2;x++){
+   const value=this.value(base[0]+x,base[1]+y,base[2]+z)*this.unit/this.step,wx=x?t[0]:1-t[0],wy=y?t[1]:1-t[1],wz=z?t[2]:1-t[2];
+   g[0]+=value*(x?1:-1)*wy*wz;g[1]+=value*wx*(y?1:-1)*wz;g[2]+=value*wx*wy*(z?1:-1);
+  }return g;
+ }
 }
 
 // Offline packing and test roundtrips share the runtime brick layout. Browsers
@@ -31,16 +40,42 @@ export function packJourneyBricks(field){
  for(let key=0;key<field.brickIndex.length;key++){const i=field.brickIndex[key];if(i<0)continue;view.setUint32(4+i*4,key,true);bytes.set(field.bricks[i],offset+i*1024);}return bytes;
 }
 
-// A swept sphere with bounded steps, tangent sliding, and no penetration recovery
-// teleport. A blocked move leaves the last valid position intact.
+// Small swept steps, followed by contact-plane sliding. Corrections go into
+// free space, never by shrinking the camera, changing the anatomy or jumping
+// across a wall. Contact is distinct from being unable to make progress.
 export function moveInLumen(field,position,delta,radius){
- const length=Math.hypot(...delta);if(!length)return {position:[...position],blocked:false};
- const step=Math.min(radius*.4,field.step*.4),count=Math.min(256,Math.ceil(length/step)),factor=Math.min(1,count*step/length)/count,d=delta.map(v=>v*factor);let p=[...position],blocked=false;
- if(field.clearance(p)<radius)return {position:p,blocked:true};
+ const length=Math.hypot(...delta);if(!length)return {position:[...position],blocked:false,contacted:false};
+ const step=Math.min(radius*.4,field.step*.4),count=Math.min(256,Math.ceil(length/step)),factor=Math.min(1,count*step/length)/count,d=delta.map(v=>v*factor),travel=Math.hypot(...d),skin=Math.min(radius*.04,field.step*.04,travel*.1);let p=[...position],contacted=false;
+ if(field.clearance(p)<radius)return {position:p,blocked:true,contacted:true};
+ const safe=(from,to)=>{
+  const samples=Math.max(1,Math.ceil(Math.hypot(...to.map((v,k)=>v-from[k]))/(step*.5)));
+  for(let i=1;i<=samples;i++)if(field.clearance(from.map((v,k)=>v+(to[k]-v)*i/samples))<radius)return false;
+  return true;
+ };
+ const clip=(from,to)=>{
+  let lo=0,hi=1;
+  for(let i=0;i<7;i++){const t=(lo+hi)*.5,q=from.map((v,k)=>v+(to[k]-v)*t);if(safe(from,q))lo=t;else hi=t;}
+  return lo;
+ };
  for(let i=0;i<count;i++){
-  const next=p.map((v,k)=>v+d[k]);if(field.clearance(next)>=radius){p=next;continue;}
-  blocked=true;const normal=field.gradient(next),n=Math.hypot(...normal);if(n>1e-8){const dot=d.reduce((v,x,k)=>v+x*normal[k]/n,0),slide=d.map((v,k)=>v-Math.min(0,dot)*normal[k]/n),candidate=p.map((v,k)=>v+slide[k]);if(field.clearance(candidate)>=radius){p=candidate;continue;}}
-  for(const axis of [0,1,2]){const candidate=[...p];candidate[axis]+=d[axis];if(field.clearance(candidate)>=radius)p=candidate;}
+  const next=p.map((v,k)=>v+d[k]);if(safe(p,next)){p=next;continue;}
+  contacted=true;
+  const fraction=clip(p,next);p=p.map((v,k)=>v+d[k]*fraction);
+  const remaining=d.map(v=>v*(1-fraction)),budget=travel*(1-fraction),normal=field.gradient(p),n2=normal.reduce((s,v)=>s+v*v,0);if(n2<1e-12||budget<1e-10)continue;
+  const inward=Math.min(0,remaining.reduce((s,v,k)=>s+v*normal[k],0)/n2),slide=remaining.map((v,k)=>v-inward*normal[k]);if(Math.hypot(...slide)<budget*.04)continue;
+  let candidate=p.map((v,k)=>v+slide[k]);
+  // A tangent to a curved/quantised wall can still end just inside its next
+  // facet. A tiny bounded inward correction lets it slide around that facet.
+  for(let attempt=0;attempt<4;attempt++){
+   const clearance=field.clearance(candidate);if(clearance>=radius&&safe(p,candidate))break;
+   const gradient=field.gradient(candidate),norm2=gradient.reduce((s,v)=>s+v*v,0);if(norm2<1e-12)break;
+   const correction=Math.min(Math.max(0,radius+skin-clearance)/Math.sqrt(norm2),budget*.35);
+   if(correction<1e-12)break;candidate=candidate.map((v,k)=>v+gradient[k]/Math.sqrt(norm2)*correction);
+   const offset=candidate.map((v,k)=>v-p[k]),distance=Math.hypot(...offset);if(distance>budget)candidate=p.map((v,k)=>v+offset[k]*budget/distance);
+  }
+  const advance=candidate.reduce((s,v,k)=>s+(v-p[k])*remaining[k],0);
+  if(advance>budget*budget*.02){const t=safe(p,candidate)?1:clip(p,candidate);p=p.map((v,k)=>v+(candidate[k]-v)*t);}
  }
- return {position:p,blocked};
+ const progress=p.reduce((s,v,k)=>s+(v-position[k])*delta[k]/length,0);
+ return {position:p,contacted,blocked:contacted&&progress<travel*count*.12};
 }

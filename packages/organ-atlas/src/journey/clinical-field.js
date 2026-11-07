@@ -11,6 +11,9 @@ export class ClinicalField{
  clearance(p){let d=this.base.clearance(p);for(const shape of this.shapes)d=Math.min(d,ellipsoidClearance(p,shape));return d;}
  gradient(p){
   if(!this.shapes.length)return this.base.gradient(p);
-  const h=this.step*.4;return [0,1,2].map(i=>{const a=[...p],b=[...p];a[i]+=h;b[i]-=h;return (this.clearance(a)-this.clearance(b))/(2*h);});
+  let nearest=this.base.clearance(p),shape=null;for(const candidate of this.shapes){const distance=ellipsoidClearance(p,candidate);if(distance<nearest){nearest=distance;shape=candidate;}}
+  if(!shape)return this.base.gradient(p);
+  const delta=p.map((v,i)=>v-shape.center[i]),local=shape.axes.map(axis=>axis.reduce((s,v,i)=>s+v*delta[i],0)),length=Math.hypot(...local.map((v,i)=>v/shape.radii[i]));if(length<1e-12)return [0,0,0];
+  return [0,1,2].map(k=>shape.axes.reduce((s,axis,i)=>s+axis[k]*local[i]/(shape.radii[i]**2),0)*Math.min(...shape.radii)/length);
  }
 }
