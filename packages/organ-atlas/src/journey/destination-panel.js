@@ -3,13 +3,14 @@ import {journeyModes} from './learning-data.js';
 import {destinationSystems,journeyDestinations,filterDestinations} from './destinations.js';
 
 export class JourneyDestinationPanel{
- constructor(dialog,{onToggle,onTravel,onReturn}){
-  this.onToggle=onToggle;this.onTravel=onTravel;this.onReturn=onReturn;
+ constructor(dialog,{onToggle,onTravel,onReturn,onGuide}){
+  this.onToggle=onToggle;this.onTravel=onTravel;this.onReturn=onReturn;this.onGuide=onGuide;this.action='travel';this.reachable=new Set();
   this.manifests=new Map();this.entries=[];this.disposed=false;this.pending=false;
   this.element=document.createElement('section');this.element.id='journey-destinations';
   this.element.className='journey-destinations';this.element.hidden=true;
   this.element.setAttribute('aria-labelledby','journey-destinations-title');
   this.element.innerHTML=`<div class="journey-destinations-head"><h2 id="journey-destinations-title">부위 이동</h2><button class="journey-destinations-close" aria-label="부위 이동 닫기">×</button></div>
+   <div class="journey-destination-actions" role="group" aria-label="부위 선택 방식"><button data-destination-action="travel" aria-pressed="true">바로 이동</button><button data-destination-action="guide" aria-pressed="false">경로 안내</button></div>
    <div class="journey-destination-search"><input type="search" placeholder="장기·부위 검색" aria-label="이동할 부위 검색" autocomplete="off" spellcheck="false"><select aria-label="이동할 부위의 계통"><option value="">전체 계통</option>${destinationSystems.map(s=>`<option value="${s.id}">${s.label}</option>`).join('')}</select></div>
    <button class="journey-return" hidden></button><p class="journey-destination-count" role="status"></p>
    <div class="journey-destination-results"></div><div class="journey-destination-error" hidden><span></span><button>다시 시도</button></div>`;
@@ -21,19 +22,23 @@ export class JourneyDestinationPanel{
   this.error=this.element.querySelector('.journey-destination-error');
   this.element.querySelector('.journey-destinations-close').onclick=()=>onToggle(false);
   this.returnButton.onclick=()=>onReturn();this.error.querySelector('button').onclick=()=>this.load();
+  this.element.querySelectorAll('[data-destination-action]').forEach(button=>button.onclick=()=>{
+   this.action=button.dataset.destinationAction;
+   this.element.querySelectorAll('[data-destination-action]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));this.render();
+  });
   this.input.oninput=this.select.onchange=()=>this.render();
   this.input.onkeydown=e=>{
-   const buttons=this.results.querySelectorAll('button');
+   const buttons=this.results.querySelectorAll('button:not(:disabled)');
    if(e.key==='ArrowDown'&&buttons.length){e.preventDefault();buttons[0].focus();}
    if(e.key==='Enter'&&!e.isComposing&&buttons.length===1){e.preventDefault();buttons[0].click();}
   };
   this.element.onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();onToggle(false);}};
  }
  get hidden(){return this.element.hidden;}
- setOpen(value,current,previous){
+ setOpen(value,current,previous,reachable=new Set(),directReachable=reachable){
   this.element.hidden=!value;
   if(!value)return;
-  this.current=current;this.returnButton.hidden=!previous;
+  this.current=current;this.reachable=reachable;this.directReachable=directReachable;this.returnButton.hidden=!previous;
   this.returnButton.textContent=previous?'↶ 이전 위치 · '+previous.name:'';
   this.render();this.load();
   // Do not summon a mobile keyboard until the user actually taps search.
@@ -59,14 +64,20 @@ export class JourneyDestinationPanel{
    const label=system.label+' · '+part.group;if(!groups.has(label))groups.set(label,[]);groups.get(label).push(part);
   }
   this.results.replaceChildren();
-  this.count.textContent=this.pending&&!this.entries.length?'부위 목록을 불러오는 중…':`${matches.length}개 내부 구간`;
+  const canGuide=part=>part.key===this.current?.key&&part.id!==this.current.id&&this.reachable.has(part.id);
+  this.count.textContent=this.pending&&!this.entries.length?'부위 목록을 불러오는 중…':this.action==='guide'?`${matches.filter(canGuide).length}개 안내 가능 · ${matches.length}개 내부 구간`:`${matches.length}개 내부 구간`;
   for(const [label,parts]of groups){
    const group=document.createElement('section'),title=document.createElement('h3');title.textContent=label;group.append(title);
    for(const part of parts){
     const button=document.createElement('button'),name=document.createElement('strong'),detail=document.createElement('span');
     button.dataset.destination=part.key+':'+part.id;name.textContent=part.name;detail.textContent=part.korean;
     if(this.current?.key===part.key&&this.current.id===part.id){button.setAttribute('aria-current','location');detail.textContent+=' · 현재 위치';}
-    button.append(name,detail);button.onclick=()=>this.onTravel(part);group.append(button);
+    if(this.action==='guide'&&!canGuide(part)){
+     button.disabled=true;
+     if(button.getAttribute('aria-current')!=='location')detail.textContent+=part.key!==this.current?.key?' · 다른 탐험 영역':' · 직접 연결 없음';
+    }
+    if(this.action==='guide'&&canGuide(part)&&!this.directReachable.has(part.id))detail.textContent+=' · 미세순환 생략 포함';
+    button.append(name,detail);button.onclick=()=>this.action==='guide'?this.onGuide(part):this.onTravel(part);group.append(button);
    }
    this.results.append(group);
   }

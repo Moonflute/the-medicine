@@ -9,6 +9,8 @@ import {journeyFrame} from './context.js';
 import {journeyModes,clinicalExamples} from './learning-data.js';
 import {destinationPose,restoreJourneyPose} from './destinations.js';
 import {JourneyDestinationPanel} from './destination-panel.js';
+import {JourneyRouteGuide} from './route-guide.js';
+import {CapillaryTransfers,transferPose} from './capillary-transfers.js';
 import {JourneyClinicalLayer} from './clinical-layer.js';
 import {JourneyLearningPanel} from './learning-panel.js';
 import {JourneyEnvironment} from './environment.js';
@@ -21,13 +23,14 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  <div class="journey-stage"><div class="journey-message" role="status">내부 공간을 준비하고 있어요…</div><div class="journey-reticle" aria-hidden="true"></div><div class="journey-feedback" role="status"></div><div class="journey-map" hidden><div class="journey-map-modes" role="group" aria-label="위치도 방향"><button data-projection="side">옆</button><button data-projection="front">앞</button></div><canvas width="240" height="380" aria-label="현재 위치와 시선 방향"></canvas><span class="journey-map-caption">뒤 P · 앞 A</span></div>
  <div class="journey-touch"><div class="journey-stick" role="group" aria-label="전후·좌우 이동"><span></span><i>이동</i></div><div class="journey-height"><button data-lift="1" aria-label="화면 위로 이동">↑</button><button data-lift="-1" aria-label="화면 아래로 이동">↓</button></div></div></div>
  <div class="journey-bottom"><div class="journey-size" role="group" aria-label="탐험 크기"><span>크기</span><button data-size="1" aria-pressed="true">1×</button><button data-size="0.5" aria-pressed="false">½×</button><button data-size="0.25" aria-pressed="false">¼×</button></div><button class="journey-map-toggle" aria-pressed="false">위치</button><button class="journey-help-toggle" aria-expanded="false" aria-controls="journey-help">조작 · 안내</button></div>
- <section id="journey-help" class="journey-help" hidden><div><b>자유롭게 이동하기</b><button class="journey-help-close" aria-label="안내 닫기">×</button></div><p><kbd>W / S</kbd> 바라보는 쪽으로 전진·후진<br><kbd>A / D</kbd> 화면 왼쪽·오른쪽<br><kbd>Q / E</kbd> 화면 아래·위 · <kbd>Shift</kbd> 빠르게<br>화면 한 번 클릭 → 마우스 움직임으로 둘러보기<br>클릭을 누르고 있을 필요가 없어요 · Esc로 해제<br>방향키로도 시선을 돌릴 수 있어요</p><p>터치: 왼쪽 조이스틱으로 이동, 화면을 드래그해 둘러보세요. 오른쪽 ↑↓는 화면 기준 위아래 이동입니다.</p><p>크기가 작아지면 시야가 넓어지고 이동 속도가 줄어, 같은 공간이 상대적으로 넓게 느껴집니다. 시선 방향 표시는 인체 기준입니다.</p><p class="journey-notice"></p><p>입에서 소화관 또는 기관·엽·분절기관지까지 이어서 이동할 수 있습니다. 좁은 가지에서는 크기를 줄여 보세요. 심장 · 동맥 · 정맥에서는 우심방→우심실→폐동맥, 폐정맥→좌심방→좌심실→전신 동맥을 따라 이동합니다. 상단 부위 이동에서 장기·부위를 검색해 바로 이동할 수 있습니다. 폐·전신 모세혈관망은 생략되어 두 경로를 직접 연결하지 않습니다. 소화관과 혈관 사이의 부위 이동은 위치 전환입니다. 부위 이동의 이전 위치를 누르면 이동 전 위치·시선·크기를 복원합니다.</p><div class="journey-sources"></div></section>`;
+ <section id="journey-help" class="journey-help" hidden><div><b>자유롭게 이동하기</b><button class="journey-help-close" aria-label="안내 닫기">×</button></div><p><kbd>W / S</kbd> 바라보는 쪽으로 전진·후진<br><kbd>A / D</kbd> 화면 왼쪽·오른쪽<br><kbd>Q / E</kbd> 화면 아래·위 · <kbd>Shift</kbd> 빠르게<br>화면 한 번 클릭 → 마우스 움직임으로 둘러보기<br>클릭을 누르고 있을 필요가 없어요 · Esc로 해제<br>방향키로도 시선을 돌릴 수 있어요</p><p>터치: 왼쪽 조이스틱으로 이동, 화면을 드래그해 둘러보세요. 오른쪽 ↑↓는 화면 기준 위아래 이동입니다.</p><p>크기가 작아지면 시야가 넓어지고 이동 속도가 줄어, 같은 공간이 상대적으로 넓게 느껴집니다. 시선 방향 표시는 인체 기준입니다.</p><p class="journey-notice"></p><p>입에서 소화관 또는 기관·엽·분절기관지까지 이어서 이동할 수 있습니다. 좁은 가지에서는 크기를 줄여 보세요. 심장 · 동맥 · 정맥에서는 우심방→우심실→폐동맥, 폐정맥→좌심방→좌심실→전신 동맥을 따라 이동합니다. 상단 부위 이동에서 장기·부위를 검색해 바로 이동할 수 있습니다. 경로 안내를 고르면 연결된 다음 입구를 순서대로 표시하며, 이동과 시선은 직접 조작합니다. 대응 혈관이 있는 폐·신장·골반·상지의 끝에서는 미세순환 생략을 선택해 반대편 혈관으로 전환합니다. 말초 분지와 모세혈관을 생략한 위치 이동이며 실제 직통 혈관은 아닙니다. 정맥 쪽에서는 역방향 탐험도 가능합니다. 소화관과 혈관 사이의 부위 이동은 위치 전환입니다. 부위 이동의 이전 위치를 누르면 이동 전 위치·시선·크기를 복원합니다.</p><div class="journey-sources"></div></section>`;
  const previousOverflow=document.documentElement.style.overflow;document.documentElement.style.overflow='hidden';document.body.append(dialog);dialog.showModal();
+ const notifyHost=open=>{if(window.parent!==window)window.parent.postMessage({type:'atlas:journey',open},location.origin);};notifyHost(true);
  const find=s=>dialog.querySelector(s),stage=find('.journey-stage'),message=find('.journey-message'),travelToggle=find('.journey-travel-toggle'),map=find('.journey-map'),help=find('.journey-help');
  const hintControl=document.createElement('label');hintControl.className='journey-hint-control';hintControl.innerHTML='입구 · 구조 이름 표시 <input type="checkbox" checked>';help.insertBefore(hintControl,find('.journey-notice'));
- let renderer,controls,asset,closed=false,loading=false,request=0,dirty=true,last=0,lastHud=0,lastRegion=0,lastFeedback='',feedbackUntil=0,observer,frameId=0,wayfinding,minimap,boundaryGuide,clinical,learning,destinations,previousView=null;
+ let renderer,controls,asset,closed=false,loading=false,transitioning=false,request=0,dirty=true,last=0,lastHud=0,lastRegion=0,lastFeedback='',feedbackUntil=0,observer,frameId=0,wayfinding,minimap,boundaryGuide,clinical,learning,destinations,routeGuide,transfers,previousView=null;
  const cleanups=[],listen=(target,event,fn)=>{target.addEventListener(event,fn);cleanups.push(()=>target.removeEventListener(event,fn));};
- const close=()=>{if(closed)return;closed=true;request++;cancelAnimationFrame(frameId);controls?.dispose();wayfinding?.dispose();minimap?.dispose();boundaryGuide?.dispose();clinical?.dispose();learning?.dispose();destinations?.dispose();observer?.disconnect();asset?.dispose();renderer?.dispose();renderer?.forceContextLoss();cleanups.forEach(fn=>fn());dialog.close();dialog.remove();document.documentElement.style.overflow=previousOverflow;onClose();};
+ const close=()=>{if(closed)return;closed=true;request++;cancelAnimationFrame(frameId);controls?.dispose();wayfinding?.dispose();minimap?.dispose();boundaryGuide?.dispose();clinical?.dispose();learning?.dispose();destinations?.dispose();routeGuide?.dispose();observer?.disconnect();asset?.dispose();renderer?.dispose();renderer?.forceContextLoss();cleanups.forEach(fn=>fn());dialog.close();dialog.remove();document.documentElement.style.overflow=previousOverflow;notifyHost(false);onClose();};
  find('.journey-back').onclick=close;listen(dialog,'cancel',e=>{e.preventDefault();if(controls?.consumeEscape()||document.pointerLockElement)return;if(destinations&&!destinations.hidden){toggleDestinations(false);return;}if(learning&&!learning.hidden){toggleLearning(false);return;}if(!help.hidden){toggleHelp(false);return;}close();});listen(window,'pagehide',e=>{if(!e.persisted)close();});
  try{renderer=new T.WebGLRenderer({antialias:true,alpha:false});}catch(error){message.textContent='이 환경에서는 3D 탐험을 열 수 없어요. 해부모형으로 돌아가 주세요.';console.error(error);return;}
  const canvas=renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('aria-label','1인칭 탐험. W A S D로 이동, Q E로 화면 아래·위 이동, 화면 한 번 클릭 후 마우스 움직임 또는 방향키로 시선 회전');stage.prepend(canvas);
@@ -42,10 +45,10 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const environment=new JourneyEnvironment(scene,light,{reducedMotion:perspective.reducedMotion});
  map.hidden=!matchMedia('(min-width: 800px) and (min-height: 500px)').matches;find('.journey-map-toggle').setAttribute('aria-pressed',String(!map.hidden));
  const mapZoom=document.createElement('button');mapZoom.dataset.mapZoom='';mapZoom.textContent='확대';mapZoom.setAttribute('aria-label','위치도에서 현재 영역 확대');mapZoom.setAttribute('aria-pressed','false');map.querySelector('.journey-map-modes').append(mapZoom);
- const resize=()=>{const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;dialog.style.setProperty('--journey-header-height',stage.offsetTop+'px');renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();dirty=true;};observer=new ResizeObserver(resize);observer.observe(stage);resize();
+ const resize=()=>{const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;dialog.style.setProperty('--journey-header-height',find('.journey-top').offsetHeight+'px');dialog.style.setProperty('--journey-footer-height',find('.journey-bottom').offsetHeight+'px');renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();dirty=true;};observer=new ResizeObserver(resize);observer.observe(stage);observer.observe(find('.journey-top'));observer.observe(find('.journey-bottom'));resize();
  const blockedMessage='이 방향으로는 지나갈 수 없어요 · 방향을 바꾸거나 크기를 줄여보세요.';
  const feedback=(text,duration=0)=>{if(text!==lastFeedback){lastFeedback=text;find('.journey-feedback').textContent=text;}feedbackUntil=duration?performance.now()+duration:0;};
- const syncInput=()=>{if(controls)controls.enabled=!loading&&help.hidden&&(!learning||learning.hidden)&&(!destinations||destinations.hidden);};
+ const syncInput=()=>{if(controls)controls.enabled=!loading&&!transitioning&&help.hidden&&(!learning||learning.hidden)&&(!destinations||destinations.hidden);};
  const toggleHelp=value=>{if(value&&learning&&!learning.hidden)toggleLearning(false);if(value&&destinations&&!destinations.hidden)toggleDestinations(false);help.hidden=!value;find('.journey-help-toggle').setAttribute('aria-expanded',String(value));controls?.clear();syncInput();if(!value)canvas.focus({preventScroll:true});};
  const currentPart=()=>asset?.manifest.parts.find(p=>p.id===asset.field.region(camera.position.toArray()));
  const badge=document.createElement('button');badge.className='journey-clinical-badge';badge.hidden=true;stage.append(badge);
@@ -62,27 +65,44 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const syncSize=({immediate=false}={})=>{if(!controls)return;const scale=relativeSize(controls.radius);perspective.setRadius(controls.radius,{immediate});dialog.querySelectorAll('[data-size]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.size)===scale)));dirty=true;};
  const setSize=scale=>{if(!controls||loading)return;const radius=JOURNEY_RADIUS*scale;if(controls.field.clearance(camera.position.toArray())<radius){feedback('이곳은 좁아서 크기를 늘릴 수 없어요. 넓은 곳으로 이동하세요.');return;}if(radius!==controls.radius){controls.radius=radius;syncSize();feedback(`몸 크기 ${scale===1?'1':scale===.5?'½':'¼'}× · 상대 공간 ${1/scale}×`,2500);}canvas.focus({preventScroll:true});};
  dialog.querySelectorAll('[data-size]').forEach(button=>button.onclick=()=>setSize(Number(button.dataset.size)));
- const updateLocation=()=>{if(!asset||!controls)return;camera.getWorldDirection(headingVector);const text='시선 · '+anatomicalHeading(headingVector);if(heading.textContent!==text)heading.textContent=text;const id=asset.field.region(camera.position.toArray()),part=asset.manifest.parts.find(p=>p.id===id);if(part&&id!==lastRegion){lastRegion=id;find('.journey-location strong').textContent=part.name;find('.journey-location small').textContent=part.kind==='heart'?(part.circuit==='right'?'RIGHT':'LEFT')+' HEART · '+(part.name.endsWith('atrium')?'ATRIUM':'VENTRICLE'):'INTERNAL EXPLORER · 재구성 모델';canvas.dataset.region=String(id);environment.setWidth(part.clearance,{chamber:part.kind==='heart'});dirty=true;}canvas.dataset.position=camera.position.toArray().map(v=>v.toFixed(5)).join(',');};
+ const updateLocation=()=>{if(!asset||!controls)return;camera.getWorldDirection(headingVector);const text='시선 · '+anatomicalHeading(headingVector);if(heading.textContent!==text)heading.textContent=text;const id=asset.field.region(camera.position.toArray()),part=asset.manifest.parts.find(p=>p.id===id);if(part&&id!==lastRegion){lastRegion=id;find('.journey-location strong').textContent=part.name;find('.journey-location small').textContent=part.kind==='heart'?(part.circuit==='right'?'RIGHT':'LEFT')+' HEART · '+(part.name.endsWith('atrium')?'ATRIUM':'VENTRICLE'):'INTERNAL EXPLORER · 재구성 모델';canvas.dataset.region=String(id);environment.setWidth(part.clearance,{chamber:part.kind==='heart'});dirty=true;}routeGuide?.update(id);canvas.dataset.position=camera.position.toArray().map(v=>v.toFixed(5)).join(',');};
  const captureView=()=>asset&&controls?{key:asset.manifest.key,name:currentPart()?.name||asset.manifest.key,position:camera.position.toArray(),yaw:controls.yaw,pitch:controls.pitch,radius:controls.radius,projection:minimap?.axis,frame:journeyFrame(asset.manifest)}:null;
  const toggleDestinations=value=>{
-  if(value&&(!asset||loading))return;
+  if(value&&(!asset||loading||transitioning))return;
   if(value){toggleHelp(false);toggleLearning(false);}
-  controls?.clear();destinations.setOpen(value,asset?{key:asset.manifest.key,id:currentPart()?.id}:null,previousView);
+  controls?.clear();destinations.setOpen(value,asset?{key:asset.manifest.key,id:currentPart()?.id}:null,previousView,value?routeGuide?.routes.reachable(currentPart()?.id):undefined,value?new Set(routeGuide?.routes.tree(currentPart()?.id).keys()):undefined);
   travelToggle.setAttribute('aria-expanded',String(value));syncInput();
   if(!value)canvas.focus({preventScroll:true});
  };
- destinations=new JourneyDestinationPanel(dialog,{onToggle:toggleDestinations,onTravel:part=>changeWorld(part.key,{id:part.id}),onReturn:()=>{if(previousView)changeWorld(previousView.key,{view:previousView});}});
+ destinations=new JourneyDestinationPanel(dialog,{onToggle:toggleDestinations,onTravel:part=>changeWorld(part.key,{id:part.id}),onReturn:()=>{if(previousView)changeWorld(previousView.key,{view:previousView});},onGuide:part=>{
+  if(loading||!asset||part.key!==asset.manifest.key)return;
+  if(!routeGuide?.select(currentPart()?.id,part.id)){feedback('현재 위치에서 이어지는 탐험 통로가 없어요.',3500);return;}
+  toggleDestinations(false);feedback('');
+ }});
  travelToggle.onclick=()=>toggleDestinations(destinations.hidden);
- const applyPose=pose=>{
-  controls.clear();clinical.reset();syncClinical();camera.position.fromArray(pose.position);controls.radius=pose.radius;
+ const applyPose=(pose,{keepRoute=false}={})=>{
+  controls.clear();if(!keepRoute)routeGuide?.clear();clinical.reset();syncClinical();camera.position.fromArray(pose.position);controls.radius=pose.radius;
   if(pose.direction)controls.aim(pose.direction);else{controls.yaw=pose.yaw;controls.pitch=pose.pitch;controls.updateRotation();}
   syncSize({immediate:true});lastRegion=0;updateLocation();
   const part=currentPart();environment.setWidth(part?.clearance||.02,{immediate:true,chamber:part?.kind==='heart'});
   if(minimap){if(pose.projection)minimap.axis=pose.projection;minimap.resetTrail();minimap.draw();}
   wayfinding?.update();boundaryGuide?.reset();dirty=true;
  };
+ const transit=document.createElement('div');transit.className='journey-transit';transit.hidden=true;transit.setAttribute('role','status');stage.append(transit);
+ async function crossCapillary(option){
+  if(loading||transitioning||closed)return;
+  const link=transfers?.available(currentPart()?.id,option.to,camera.position.toArray());if(!link)return;
+  const pose=transferPose(asset,link,controls.radius);if(!pose){feedback('연결 혈관에 안전한 이동 위치를 찾지 못했어요.',3500);return;}
+  const origin=captureView();transitioning=true;controls.clear();syncInput();travelToggle.disabled=true;
+  transit.textContent=link.territory+' · 미세순환 생략'+(link.forward?'':' · 역방향 탐험');transit.hidden=false;
+  try{
+   if(!perspective.reducedMotion)await new Promise(resolve=>setTimeout(resolve,180));if(closed)return;
+   applyPose(pose,{keepRoute:true});previousView=origin;feedback('미세순환 생략 → '+pose.name,3000);
+   if(!perspective.reducedMotion)await new Promise(resolve=>setTimeout(resolve,120));
+  }finally{transitioning=false;if(!closed){transit.hidden=true;travelToggle.disabled=false;controls.clearInputs();syncInput();canvas.focus({preventScroll:true});}}
+ }
  async function changeWorld(key,{id,view}={}){
-  if(loading||closed)return;
+  if(loading||transitioning||closed)return;
   const origin=captureView(),targetId=id??journeyModes.find(m=>m.id===key)?.start;
   const resolvePose=next=>view?restoreJourneyPose(next,view):destinationPose(next,targetId,origin?.radius??(key==='upper'?.0016:.0008));
   if(asset?.manifest.key===key){
@@ -99,7 +119,7 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
    const pose=resolvePose(pendingAsset);if(!pose)throw Error('No safe destination in this exploration region');
    // Do not discard the current world until both the new asset and landing
    // point are ready. A failed download leaves its position and input intact.
-   controls?.dispose();controls=null;wayfinding?.dispose();wayfinding=null;minimap?.dispose();minimap=null;boundaryGuide?.dispose();boundaryGuide=null;clinical?.dispose();clinical=null;badge.hidden=true;
+   controls?.dispose();controls=null;wayfinding?.dispose();wayfinding=null;minimap?.dispose();minimap=null;boundaryGuide?.dispose();boundaryGuide=null;clinical?.dispose();clinical=null;routeGuide?.dispose();routeGuide=null;badge.hidden=true;
    if(asset){scene.remove(asset.mesh);asset.dispose();}asset=pendingAsset;pendingAsset=null;scene.add(asset.mesh);lastRegion=0;dirty=true;
    clinical=new JourneyClinicalLayer(asset,scene,camera);
    controls=new JourneyControls(camera,canvas,{field:clinical.field,radius:pose.radius,onChange:()=>dirty=true,onLookModeChange:mode=>feedback(mode==='off'?'시선 조작 해제 · 화면 클릭으로 다시 시작':'마우스로 둘러보기 · Esc로 해제',2500),onExit:()=>{if(!destinations.hidden)toggleDestinations(false);else if(!learning.hidden)toggleLearning(false);else if(!help.hidden)toggleHelp(false);else close();}});
@@ -109,7 +129,9 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
    for(const [label,url]of [['Z-Anatomy · CC BY-SA 4.0',asset.manifest.source.url],...(asset.manifest.landmarkRegistration?[['BodyParts3D · DBCLS','https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html']]:[]),['해부학 참고',asset.manifest.references[0]]]){const a=document.createElement('a');a.textContent=label+' ↗';a.href=url;a.target='_blank';a.rel='noopener noreferrer';sources.append(a);}
    applyPose(pose);
    minimap=new JourneyMiniMap(map,asset,camera,()=>canvas.focus({preventScroll:true}));if(pose.projection){minimap.axis=pose.projection;minimap.draw();}
-   wayfinding=new JourneyWayfinding(stage,{...asset,field:clinical.field},camera);wayfinding.enabled=hintControl.querySelector('input').checked;boundaryGuide=new JourneyBoundaryGuide(stage,asset,camera);
+   transfers=new CapillaryTransfers(asset.manifest);
+   wayfinding=new JourneyWayfinding(stage,{...asset,field:clinical.field},camera);wayfinding.enabled=hintControl.querySelector('input').checked;boundaryGuide=new JourneyBoundaryGuide(stage,asset,camera,{transfers,onTransfer:crossCapillary});
+   routeGuide=new JourneyRouteGuide(stage,asset.manifest,{onStep:(from,to,transfer)=>{wayfinding?.setRoute(from,to,transfer);boundaryGuide?.setPreferred(transfer?.to??null);},onStop:()=>canvas.focus({preventScroll:true})});
    if(origin)previousView=origin;message.hidden=true;dialog.dataset.ready=key;canvas.focus({preventScroll:true});if(origin)feedback('이동 · '+currentPart().name,2500);
   }catch(error){
    pendingAsset?.dispose();if(closed||token!==request)return;if(asset)dialog.dataset.ready=asset.manifest.key;
@@ -125,7 +147,7 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const resetStick=e=>{if(e&&stickId!==e.pointerId)return;stickId=null;knob.style.transform='';if(controls){controls.axes[0]=controls.axes[1]=0;}};for(const event of ['pointerup','pointercancel','lostpointercapture'])listen(stick,event,resetStick);
  dialog.querySelectorAll('[data-lift]').forEach(button=>{listen(button,'pointerdown',e=>{e.preventDefault();button.setPointerCapture(e.pointerId);if(controls)controls.axes[2]=Number(button.dataset.lift);});for(const event of ['pointerup','pointercancel','lostpointercapture'])listen(button,event,()=>{if(controls)controls.axes[2]=0;});});
  listen(dialog,'focusin',e=>{if(e.target!==canvas)controls?.clear();});listen(window,'blur',()=>resetStick());
- const frame=now=>{if(closed)return;frameId=requestAnimationFrame(frame);const dt=Math.min(.05,(now-last)/1000);last=now;if(document.hidden)return;if(perspective.update(dt)){dirty=true;wayfinding?.update();}if(environment.update(dt))dirty=true;if(!loading&&help.hidden&&learning.hidden&&destinations.hidden&&controls){controls.step(dt);if(now-lastHud>100){updateLocation();minimap?.draw();wayfinding?.update();if(feedbackUntil&&now>feedbackUntil)feedback('');if(boundaryGuide?.update())feedback('');else if(controls.blocked)feedback(blockedMessage);else if(lastFeedback===blockedMessage)feedback('');lastHud=now;}}if(dirty){renderer.render(scene,camera);dirty=false;}};
+ const frame=now=>{if(closed)return;frameId=requestAnimationFrame(frame);const dt=Math.min(.05,(now-last)/1000);last=now;if(document.hidden)return;if(perspective.update(dt)){dirty=true;wayfinding?.update();}if(environment.update(dt))dirty=true;if(!loading&&!transitioning&&help.hidden&&learning.hidden&&destinations.hidden&&controls){controls.step(dt);if(now-lastHud>100){updateLocation();minimap?.draw();wayfinding?.update();if(feedbackUntil&&now>feedbackUntil)feedback('');if(boundaryGuide?.update())feedback('');else if(controls.blocked)feedback(blockedMessage);else if(lastFeedback===blockedMessage)feedback('');lastHud=now;}}if(dirty){renderer.render(scene,camera);dirty=false;}};
  const visibility=()=>{controls?.clear();resetStick();last=performance.now();dirty=true;};listen(document,'visibilitychange',visibility);frameId=requestAnimationFrame(frame);
  await changeWorld(journeyModes.some(item=>item.id===initialMode)?initialMode:'upper');
 }

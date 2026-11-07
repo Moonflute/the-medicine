@@ -57,6 +57,15 @@ export function placeEntranceLabel(x,y,w,h,width,height,occupied=[]){
  }return null;
 }
 
+export function connectionHint(manifest,hints,region,id){
+ if(!manifest.connections.some(([a,b])=>a===region&&b===id||a===id&&b===region))return null;
+ const j=manifest.junctions.find(j=>(j.from===region&&j.to===id)||(j.to===region&&j.from===id));
+ const known=hints.find(h=>h.from===region&&h.to===id),reverse=hints.find(h=>h.from===id&&h.to===region);
+ if(!j&&!known&&!reverse)return null;
+ const near=j?(j.from===region?j.start:j.end):(known||reverse).point;
+ return {...(known||{name:j?.valve?.name||manifest.parts.find(p=>p.id===id).name,detail:'이어지는 구간',point:j?.valve?.center||near,nearPoint:near,valve:!!j?.valve}),from:region,to:id,baseId:known?.id,regions:[region],range:.12};
+}
+
 export class JourneyWayfinding{
  constructor(host,asset,camera){
   this.host=host;this.asset=asset;this.camera=camera;this.enabled=true;this.vector=new T.Vector3();this.clip=new T.Vector3();this.items=[];this.hints=entranceHints(asset.manifest);this.byRegion=new Map();this.previous=new Set();
@@ -67,42 +76,49 @@ export class JourneyWayfinding{
   this.cue=document.createElement('div');this.cue.className='journey-turn-cue';this.cue.hidden=true;this.layer.append(this.cue);
  }
  highlight(id){
-  const region=this.asset.field.region(this.camera.position.toArray()),manifest=this.asset.manifest;
-  if(!manifest.connections.some(([a,b])=>a===region&&b===id||a===id&&b===region))return 'unavailable';
-  const j=manifest.junctions.find(j=>(j.from===region&&j.to===id)||(j.to===region&&j.from===id)),known=this.hints.find(h=>h.from===region&&h.to===id);if(!j&&!known)return 'unavailable';
-  const near=j?(j.from===region?j.start:j.end):known.point;
-  this.focus={...(known||{name:j.valve?.name||this.asset.manifest.parts.find(p=>p.id===id).name,detail:'선택한 연결부',point:j.valve?.center||near,nearPoint:near,regions:[region],valve:!!j.valve}),id:'selected-connection',baseId:known?.id,range:.12};
+  const region=this.asset.field.region(this.camera.position.toArray()),hint=connectionHint(this.asset.manifest,this.hints,region,id);if(!hint)return 'unavailable';
+  this.focus={...hint,id:'selected-connection'};
   this.frame=null;this.update();return this.focusState;
  }
+ setRoute(region,id,transfer=null){
+  const boundary=transfer&&this.asset.manifest.boundaries?.find(b=>b.part===region);
+  const hint=boundary?{name:'미세순환 생략 · '+transfer.territory,target:this.asset.manifest.parts.find(p=>p.id===id).name,detail:'혈관 끝에서 전환 선택',point:boundary.position,regions:[region],range:.18,transfer:true}:id===null?null:connectionHint(this.asset.manifest,this.hints,region,id);
+  this.route=hint?{...hint,id:'route-connection'}:null;this.frame=null;this.update();
+ }
  update(){
-  this.layer.hidden=!this.enabled;if(!this.enabled)return;
+  this.layer.hidden=!this.enabled&&!this.route;if(this.layer.hidden)return;
   const {camera,asset}=this,position=camera.position.toArray(),region=asset.field.region(position),width=this.host.clientWidth,height=this.host.clientHeight;
-  const exclusions=[...this.host.querySelectorAll('.journey-map,.journey-heading,.journey-clinical-badge,.journey-stick,.journey-height,.journey-boundary,.journey-feedback')].filter(el=>!el.hidden&&el.getClientRects().length),stageRect=this.host.getBoundingClientRect(),rectangles=exclusions.map(el=>{const r=el.getBoundingClientRect();return {left:r.left-stageRect.left,top:r.top-stageRect.top,right:r.right-stageRect.left,bottom:r.bottom-stageRect.top};});
-  const frame=[...position,...camera.quaternion.toArray(),camera.fov,camera.near,width,height,JSON.stringify(rectangles)].join(',');if(frame===this.frame)return;this.frame=frame;
+  const exclusions=[...this.host.parentElement.querySelectorAll('.journey-top,.journey-bottom,.journey-map,.journey-heading,.journey-clinical-badge,.journey-route,.journey-stick,.journey-height,.journey-boundary,.journey-feedback')].filter(el=>!el.hidden&&el.getClientRects().length),stageRect=this.host.getBoundingClientRect(),rectangles=exclusions.map(el=>{const r=el.getBoundingClientRect();return {left:r.left-stageRect.left,top:r.top-stageRect.top,right:r.right-stageRect.left,bottom:r.bottom-stageRect.top};});
+  const frame=[...position,...camera.quaternion.toArray(),camera.fov,camera.near,width,height,this.enabled,JSON.stringify(rectangles)].join(',');if(frame===this.frame)return;this.frame=frame;
   camera.updateMatrixWorld();
-  for(const item of this.items)item.label.hidden=item.anchor.hidden=item.line.hidden=true;this.cue.hidden=true;this.focusState='occluded';
+  for(const item of this.items)item.label.hidden=item.anchor.hidden=item.line.hidden=true;this.cue.hidden=true;this.focusState=this.routeState='occluded';
   if(this.focus&&!this.focus.regions.includes(region))this.focus=null;
+  // Keep the route across an unlabelled boundary sample. The route controller
+  // replaces it on the next named segment; only render it in its own region.
+  const activeRoute=this.route?.regions.includes(region)?this.route:null;
   const candidates=[];
-  for(const hint of [...(this.focus?[this.focus]:[]),...(this.byRegion.get(region)||[])]){
-   if(hint.id===this.focus?.baseId)continue;
+  const selected=hint=>hint===this.focus||hint===this.route,state=(hint,value)=>{if(hint===this.focus)this.focusState=value;if(hint===this.route)this.routeState=value;};
+  for(const hint of [...(activeRoute?[activeRoute]:[]),...(this.enabled?[...(this.focus?[this.focus]:[]),...(this.byRegion.get(region)||[])]:[])]){
+   if(hint.id===this.focus?.baseId||hint.id===this.route?.baseId)continue;
    const point=[hint.point,hint.nearPoint].filter(Boolean).find(p=>Math.hypot(...p.map((v,i)=>v-position[i]))<=hint.range&&visibleThroughLumen(asset.field,position,p,hint));if(!point)continue;
    this.vector.fromArray(point);const distance=this.vector.distanceTo(camera.position);if(distance<.0015)continue;
    this.clip.copy(this.vector).project(camera);const inFront=this.clip.z>=-1&&this.clip.z<=1,inView=inFront&&Math.abs(this.clip.x)<.94&&Math.abs(this.clip.y)<.9,edge=!inView&&inFront&&Math.abs(this.clip.x)<2.4&&Math.abs(this.clip.y)<1.6;
-   if(!inView&&!edge){if(hint===this.focus){const local=this.vector.clone().applyMatrix4(camera.matrixWorldInverse),back=local.z>0,horizontal=Math.abs(local.x)>Math.abs(local.y),arrow=back?'↶':horizontal?(local.x>0?'→':'←'):(local.y>0?'↑':'↓'),where=back?'뒤쪽':horizontal?(local.x>0?'오른쪽':'왼쪽'):(local.y>0?'위쪽':'아래쪽');this.cue.textContent=arrow+' '+hint.name+' · '+where;this.cue.hidden=false;this.focusState='offscreen';}continue;}
+   if(!inView&&!edge){if(selected(hint)){if(this.cue.hidden){const local=this.vector.clone().applyMatrix4(camera.matrixWorldInverse),back=local.z>0,horizontal=Math.abs(local.x)>Math.abs(local.y),arrow=back?'↶':horizontal?(local.x>0?'→':'←'):(local.y>0?'↑':'↓'),where=back?'뒤쪽':horizontal?(local.x>0?'오른쪽':'왼쪽'):(local.y>0?'위쪽':'아래쪽');this.cue.textContent=arrow+' '+hint.name+' · '+where;this.cue.hidden=false;}state(hint,'offscreen');}continue;}
    const horizontal=Math.abs(this.clip.x)/.94>Math.abs(this.clip.y)/.9,arrow=horizontal?(this.clip.x>0?'→':'←'):(this.clip.y>0?'↑':'↓');
-   candidates.push({hint,point,distance,edge,arrow,x:Math.max(12,Math.min(width-12,(this.clip.x+1)*width/2)),y:Math.max(18,Math.min(height-18,(1-this.clip.y)*height/2)),score:(hint===this.focus?-100:0)+(hint.valve?-.35:0)+(edge?.6:0)+(this.previous.has(hint.id)?-.2:0)+distance/hint.range+Math.hypot(this.clip.x,this.clip.y)*.2});
+   candidates.push({hint,point,distance,edge,arrow,x:Math.max(12,Math.min(width-12,(this.clip.x+1)*width/2)),y:Math.max(18,Math.min(height-18,(1-this.clip.y)*height/2)),score:(hint===this.route?-200:hint===this.focus?-100:0)+(hint.valve?-.35:0)+(edge?.6:0)+(this.previous.has(hint.id)?-.2:0)+distance/hint.range+Math.hypot(this.clip.x,this.clip.y)*.2});
   }
   if(!this.cue.hidden){const w=Math.min(240,width-32);Object.assign(this.cue.style,{width:w+'px',boxSizing:'border-box',transform:'none'});const h=this.cue.offsetHeight,rect=placeEntranceLabel(width/2,80,w,h,width,height,rectangles)||placeEntranceLabel(width/2,height*.55,w,h,width,height,rectangles);if(rect){Object.assign(this.cue.style,{left:rect.left+'px',top:rect.top+'px'});rectangles.push(rect);}else this.cue.hidden=true;}
   candidates.sort((a,b)=>a.score-b.score);const shown=new Set();let index=0;
   for(const {hint,point,x,y,edge,arrow}of candidates){
    if(index>=(width<600?3:4))break;
    // A selected opening replaces its ordinary label, including custom GI names.
-   if(this.items.slice(0,index).some(item=>item.hint.name===hint.name&&Math.hypot(...item.point.map((v,i)=>v-point[i]))<.002))continue;
-   const item=this.items[index],{label,name,target,detail,anchor,line}=item,w=Math.min(186,width*.44);label.dataset.hint=hint.id;label.dataset.valve=anchor.dataset.valve=String(!!hint.valve);label.classList.toggle('journey-hint-focus',hint===this.focus);anchor.dataset.edge=String(edge);anchor.textContent=edge?arrow:'';
-   name.textContent=hint.name;target.textContent=hint.target?'→ '+hint.target:'';detail.textContent=edge?arrow+' 시야 밖 · '+hint.detail:hint.detail;label.style.width=w+'px';label.hidden=false;
+   const duplicate=this.items.slice(0,index).find(item=>item.hint.name===hint.name&&Math.hypot(...item.point.map((v,i)=>v-point[i]))<.002);
+   if(duplicate){if(selected(hint))state(hint,duplicate.anchor.dataset.edge==='true'?'offscreen':'visible');continue;}
+   const item=this.items[index],{label,name,target,detail,anchor,line}=item,w=Math.min(186,width*.44);label.dataset.hint=hint.id;label.dataset.valve=anchor.dataset.valve=String(!!hint.valve);label.classList.toggle('journey-hint-focus',hint===this.focus);label.classList.toggle('journey-hint-route',hint===this.route);anchor.dataset.edge=String(edge);anchor.textContent=edge?arrow:'';
+   name.textContent=hint.name;target.textContent=hint.target?'→ '+hint.target:'';detail.textContent=(hint===this.route&&!hint.transfer?'다음 입구 · ':'')+(edge?arrow+' 시야 밖 · ':'')+hint.detail;label.style.width=w+'px';label.hidden=false;
    const h=label.offsetHeight,rect=placeEntranceLabel(x,y,w,h,width,height,rectangles);if(!rect){label.hidden=true;continue;}
    rectangles.push(rect);shown.add(hint.id);item.point=point;item.hint=hint;index++;anchor.hidden=false;line.hidden=edge;
-   if(hint===this.focus)this.focusState=edge?'offscreen':'visible';
+   if(selected(hint))state(hint,edge?'offscreen':'visible');
    Object.assign(label.style,{left:rect.left+'px',top:rect.top+'px'});Object.assign(anchor.style,{left:x+'px',top:y+'px'});
    const lx=Math.max(rect.left+8,Math.min(rect.right-8,x)),ly=rect.top>y?rect.top:rect.bottom,dx=lx-x,dy=ly-y;Object.assign(line.style,{left:x+'px',top:y+'px',width:Math.hypot(dx,dy)+'px',transform:`rotate(${Math.atan2(dy,dx)}rad)`});
   }

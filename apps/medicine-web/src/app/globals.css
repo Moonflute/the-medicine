@@ -499,3 +499,8 @@ body:has(.home-settings-dialog[open]) {
     right: 1.5rem;
   }
 }
+
+/* Internal exploration owns the viewport until its own back control is used. */
+html[data-atlas-journey="true"] .atlas-host-toolbar{display:none}
+html[data-atlas-journey="true"] .atlas-workspace{position:fixed;inset:0;z-index:90}
+html[data-atlas-journey="true"] .study-flow-toggle,html[data-atlas-journey="true"] .study-flow-panel{display:none}
