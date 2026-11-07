@@ -69,7 +69,11 @@ export class JourneyControls{
   // All three axes belong to the view, including Q/E and touch lift buttons.
   const direction=this.forward.multiplyScalar(forward).addScaledVector(this.right,right).addScaledVector(this.up,up).normalize();
   const speed=.028*relativeSize(this.radius)*(key('ShiftLeft')||key('ShiftRight')?1.7:1),delta=direction.multiplyScalar(speed*dt).toArray();
-  const result=moveInLumen(this.field,this.camera.position.toArray(),delta,this.radius);this.camera.position.fromArray(result.position);this.stalledFor=result.blocked?this.stalledFor+dt:0;this.blocked=this.stalledFor>=.18;this.onChange();return true;
+  const position=this.camera.position.toArray(),result=moveInLumen(this.field,position,delta,this.radius),moved=result.position.some((v,i)=>Math.abs(v-position[i])>1e-12);
+  this.stalledFor=result.blocked?this.stalledFor+dt:0;this.blocked=this.stalledFor>=.18;
+  // Holding against a solid wall still updates collision feedback, but an
+  // unchanged camera does not need another GPU render.
+  if(moved){this.camera.position.fromArray(result.position);this.onChange();}return moved||!!(yaw||pitch);
  }
  dispose(){this.disposed=true;this.clear();this.cleanups.forEach(fn=>fn());}
 }

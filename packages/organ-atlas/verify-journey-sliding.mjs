@@ -21,6 +21,14 @@ for(const [p,delta]of cases){
 let p=[...cases[2][0]];for(let i=0;i<20;i++){p=moveInLumen(field,p,cases[2][1],.0008).position;assert(field.clearance(p)>=.0008);}
 assert(cases[2][0][1]-p[1]>.009,'holding forward continues along the actual sloping aortic wall');
 
+// An actual aortic orifice facet previously allowed only 1.25% of a shallow
+// forward move. A small clearance reserve must glide without crossing it.
+const valvePosition=[.02535073047306803,1.3078699400246143,.030999166395581635],valveDelta=[.0001303938424120837,.0007903500058978528,.00023652550399116967];
+const valveMove=moveInLumen(field,valvePosition,valveDelta,.0016),valveProgress=valveMove.position.reduce((s,v,k)=>s+(v-valvePosition[k])*valveDelta[k],0)/valveDelta.reduce((s,v)=>s+v*v,0);
+assert(valveProgress>.8&&!valveMove.blocked,'a shallow valve contact keeps useful forward movement');
+assert(field.clearance(valveMove.position)>=.0016);
+assert(Math.hypot(...valveMove.position.map((v,i)=>v-valvePosition[i]))<=Math.hypot(...valveDelta)+1e-9,'clearance correction shares the movement budget');
+
 // Gradient consistency at interior interpolation points, away from voxel seams.
 for(const [point]of cases){const p=point.map((v,i)=>field.origin[i]+(Math.floor((v-field.origin[i])/field.step)+.37)*field.step),analytic=field.gradient(p),h=1e-8;for(let axis=0;axis<3;axis++){const a=[...p],b=[...p];a[axis]+=h;b[axis]-=h;assert(Math.abs(analytic[axis]-(field.clearance(a)-field.clearance(b))/(2*h))<1e-6);}}
 
@@ -44,4 +52,4 @@ for(const degrees of [60,90,120,150]){
  for(const sign of [1,-1])for(let i=0;i<20;i++){const result=moveInLumen(f,point,[-.0006,-.0006,.0004*sign],radius);assert(!result.blocked,'keep moving along the crease');assert(f.clearance(result.position)>=radius);assert(Math.abs(result.position[2]-point[2]-.0004*sign)<1e-8);point=result.position;}
  assert(Math.abs(point[2]-start[2])<1e-8,'a corner permits immediate backtracking');
 }
-console.log(JSON.stringify({realWallRegressions:cases.length,minForwardProgress:minimumProgress,continuousWallTravelMetres:cases[2][0][1]-p[1],obliqueWalls:3,twoWallCorners:4,thinWallPreserved:true,contactIsNotBlocked:true}));
+console.log(JSON.stringify({realWallRegressions:cases.length,minForwardProgress:minimumProgress,valveForwardProgress:valveProgress,continuousWallTravelMetres:cases[2][0][1]-p[1],obliqueWalls:3,twoWallCorners:4,thinWallPreserved:true,contactIsNotBlocked:true}));

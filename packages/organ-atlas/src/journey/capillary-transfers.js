@@ -1,4 +1,4 @@
-import {fittingRadius} from './context.js';
+import {moveInLumen} from './volume.js';
 
 // Region-level transitions over omitted distal branches AND microcirculation.
 // These are navigation actions, never anatomical lumen/mesh connections.
@@ -43,20 +43,25 @@ export class CapillaryTransfers{
 }
 
 // Land just inside the existing distal end; never place the camera in a void
-// between vessels or extrapolate missing capillaries. The explicit action may
-// reduce body size to fit and faces back along the recipient vessel.
-export function transferPose({manifest,field},transfer,requested){
+// between vessels or extrapolate missing capillaries. Preserve the chosen
+// size and world-space gaze. If they cannot fit, leave the current view alone.
+export function transferPose({manifest,field},transfer,view){
  const part=manifest.parts.find(p=>p.id===transfer.to),boundary=manifest.boundaries?.find(b=>b.part===transfer.to);
- if(!part||!boundary)return null;
- const safeField={clearance:point=>field.clearance(point)-.00015};
- for(let step=0;step<=32;step++){
-  const position=boundary.position.map((v,i)=>v+(part.position[i]-v)*step/32);
-  if(field.region(position)!==part.id)continue;
-  const radius=fittingRadius(safeField,position,requested);if(!radius)continue;
-  let direction=boundary.returnPoint.map((v,i)=>v-position[i]);
-  if(Math.hypot(...direction)<1e-8)direction=part.position.map((v,i)=>v-position[i]);
-  if(Math.hypot(...direction)<1e-8)continue;
-  return {key:manifest.key,id:part.id,name:part.name,position,radius,direction};
+ if(!part||!boundary||view?.key!==manifest.key||![view.radius,view.yaw,view.pitch].every(Number.isFinite)||![.0016,.0008,.0004].includes(view.radius))return null;
+ const radius=view.radius;
+ // Search only the reviewed terminal/return/start points of this vessel.
+ // Prefer a nearby point with usable inward travel, not merely a spot that
+ // fits the camera but traps it against the terminal cap on arrival.
+ for(const target of [boundary.returnPoint,part.position])for(let step=0;step<=32;step++){
+  const position=boundary.position.map((v,i)=>v+(target[i]-v)*step/32);
+  if(field.region(position)!==part.id||field.clearance(position)<radius+.00015)continue;
+  let inwardDirection=boundary.returnPoint.map((v,i)=>v-position[i]),length=Math.hypot(...inwardDirection);
+  if(length<radius){inwardDirection=boundary.returnPoint.map((v,i)=>v-boundary.position[i]);length=Math.hypot(...inwardDirection);}
+  if(length<1e-8)continue;
+  inwardDirection=inwardDirection.map(v=>v/length);
+  const distance=radius*2,move=moveInLumen(field,position,inwardDirection.map(v=>v*distance),radius);
+  if(move.position.reduce((sum,v,i)=>sum+(v-position[i])*inwardDirection[i],0)<distance*.75)continue;
+  return {key:manifest.key,id:part.id,name:part.name,position,radius,yaw:view.yaw,pitch:view.pitch,projection:view.projection,inwardDirection};
  }
  return null;
 }

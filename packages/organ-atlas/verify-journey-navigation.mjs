@@ -34,6 +34,8 @@ controls.keys=new Set(['KeyW']);controls.yaw=controls.pitch=0;controls.updateRot
 for(let i=0;i<3;i++){controls.step(.05);assert(!controls.blocked,'a brief contact must not flash the blocked message');}
 controls.step(.05);assert(controls.blocked,'sustained inability to move is still reported');controls.keys.clear();controls.step(.05);assert(!controls.blocked,'releasing movement clears stale collision feedback');
 controls.keys=new Set(['KeyW']);for(let i=0;i<4;i++)controls.step(.05);assert(controls.blocked);controls.clearInputs();assert(!controls.blocked&&controls.stalledFor===0,'focus/input reset also clears collision feedback');
+let unchangedRenders=0;controls.onChange=()=>unchangedRenders++;controls.keys.add('KeyW');for(let i=0;i<20;i++)controls.step(.05);
+assert(controls.blocked&&unchangedRenders===0,'holding against a wall updates feedback without redrawing an unchanged view');
 controls.enabled=false;const frozen=[...camera.position.toArray(),...camera.quaternion.toArray()];controls.look(20,10);controls.step(.05);assert.deepEqual([...camera.position.toArray(),...camera.quaternion.toArray()],frozen,'loading another region freezes the retained view');controls.dispose();
 
 camera.position.set(.01,1.5,.03);camera.rotation.set(.3,.7,0,'YXZ');camera.updateMatrixWorld();

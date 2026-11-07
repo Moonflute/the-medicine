@@ -50,5 +50,22 @@ for(let x=580;x<=710;x+=5)for(let y=300;y<=400;y+=5){
  }
 }
 assert(thinWallRays>50,'the regression must cover the thin-wall area, not just the open caval ostium');
+
+// Cover all chambers and both sides of every reviewed valve passage. A ray
+// may pass through a genuine ostium, but must hit render tissue before it
+// crosses a sustained wall in the navigation mask (three voxels thick).
+const sites=manifest.parts.filter(p=>p.kind==='heart').map(p=>({name:p.name,point:p.position}));
+for(const junction of manifest.junctions.filter(j=>j.valve))for(const end of ['start','end'])sites.push({name:junction.valve.name+' '+end,point:junction[end]});
+let chamberAndValveRays=0;
+for(const site of sites)for(let i=0;i<256;i++){
+ const y=1-2*(i+.5)/256,angle=i*Math.PI*(3-Math.sqrt(5)),direction=new T.Vector3(Math.sqrt(1-y*y)*Math.cos(angle),y,Math.sqrt(1-y*y)*Math.sin(angle)),ray=new T.Ray(new T.Vector3(...site.point),direction),hit=tree.raycastFirst(ray,T.DoubleSide);
+ let gap=0,checked=false;const step=manifest.spacing*.5;
+ for(let distance=step;distance<.16;distance+=step){
+  gap=field.region(ray.at(distance,point).toArray())?0:gap+step;
+  if(gap<manifest.spacing*3)continue;
+  assert(hit&&hit.distance<=distance+step,`${site.name}: rendered tissue must cover the separating wall`);checked=true;chamberAndValveRays++;break;
+ }
+ assert(checked,site.name+': every audit direction must reach a wall');
+}
 geometry.dispose();original.dispose();scene.traverse(item=>{item.geometry?.dispose();if(Array.isArray(item.material))item.material.forEach(material=>material.dispose());else item.material?.dispose();});
-console.log(JSON.stringify({separateRenderCircuits:2,atrialWallRegressionRays:directions.length,thinWallRays,sourceWallErrorMm:errors.map(v=>Math.round(v*1000)/1000),triangles:manifest.triangles}));
+console.log(JSON.stringify({separateRenderCircuits:2,atrialWallRegressionRays:directions.length,thinWallRays,chamberAndValveSites:sites.length,chamberAndValveRays,sourceWallErrorMm:errors.map(v=>Math.round(v*1000)/1000),triangles:manifest.triangles}));

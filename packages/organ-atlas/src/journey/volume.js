@@ -19,7 +19,12 @@ export class JourneyVolume{
  offset(x,y,z){const [nx,ny,nz]=this.dimensions;return x<0||y<0||z<0||x>=nx||y>=ny||z>=nz?-1:x+nx*(y+ny*z);}
  value(x,y,z,label=false){if(this.offset(x,y,z)<0)return 0;const [bx,by]=this.brickDimensions,id=this.brickIndex[(x>>3)+bx*((y>>3)+by*(z>>3))];return id<0?0:this.bricks[id][(x&7)+8*((y&7)+8*(z&7))+(label?512:0)];}
  forEachVoxel(fn){const [bx,by]=this.brickDimensions;for(let b=0;b<this.brickIndex.length;b++){const id=this.brickIndex[b];if(id<0)continue;const x0=(b%bx)*8,y0=(Math.floor(b/bx)%by)*8,z0=Math.floor(b/(bx*by))*8,brick=this.bricks[id];for(let z=0;z<8;z++)for(let y=0;y<8;y++)for(let x=0;x<8;x++){const at=x+8*(y+8*z);if(brick[at+512])fn(x0+x,y0+y,z0+z,brick[at+512],brick[at]);}}}
- clearance(point){const q=point.map((v,i)=>(v-this.origin[i])/this.step),base=q.map(Math.floor),t=q.map((v,i)=>v-base[i]);let value=0;for(let z=0;z<2;z++)for(let y=0;y<2;y++)for(let x=0;x<2;x++)value+=this.value(base[0]+x,base[1]+y,base[2]+z)*(x?t[0]:1-t[0])*(y?t[1]:1-t[1])*(z?t[2]:1-t[2]);return value*this.unit;}
+ clearance(point){
+  // This is the movement hot path. Interpolate in place without allocating
+  // coordinate/base/weight arrays for every swept collision sample.
+  const qx=(point[0]-this.origin[0])/this.step,qy=(point[1]-this.origin[1])/this.step,qz=(point[2]-this.origin[2])/this.step,bx=Math.floor(qx),by=Math.floor(qy),bz=Math.floor(qz),tx=qx-bx,ty=qy-by,tz=qz-bz;
+  let value=0;for(let z=0;z<2;z++)for(let y=0;y<2;y++)for(let x=0;x<2;x++)value+=this.value(bx+x,by+y,bz+z)*(x?tx:1-tx)*(y?ty:1-ty)*(z?tz:1-tz);return value*this.unit;
+ }
  region(point){const q=point.map((v,i)=>Math.round((v-this.origin[i])/this.step));return this.value(...q,true);}
  gradient(point){
   // Differentiate the SAME trilinear field used by clearance. A whole-voxel
@@ -47,9 +52,9 @@ export function moveInLumen(field,position,delta,radius){
  const length=Math.hypot(...delta);if(!length)return {position:[...position],blocked:false,contacted:false};
  const step=Math.min(radius*.4,field.step*.4),count=Math.min(256,Math.ceil(length/step)),factor=Math.min(1,count*step/length)/count,d=delta.map(v=>v*factor),travel=Math.hypot(...d),skin=Math.min(radius*.04,field.step*.04,travel*.1);let p=[...position],contacted=false;
  if(field.clearance(p)<radius)return {position:p,blocked:true,contacted:true};
- const safe=(from,to)=>{
-  const samples=Math.max(1,Math.ceil(Math.hypot(...to.map((v,k)=>v-from[k]))/(step*.5)));
-  for(let i=1;i<=samples;i++)if(field.clearance(from.map((v,k)=>v+(to[k]-v)*i/samples))<radius)return false;
+ const sample=[0,0,0],safe=(from,to)=>{
+  const dx=to[0]-from[0],dy=to[1]-from[1],dz=to[2]-from[2],samples=Math.max(1,Math.ceil(Math.hypot(dx,dy,dz)/(step*.5)));
+  for(let i=1;i<=samples;i++){sample[0]=from[0]+dx*i/samples;sample[1]=from[1]+dy*i/samples;sample[2]=from[2]+dz*i/samples;if(field.clearance(sample)<radius)return false;}
   return true;
  };
  const clip=(from,to)=>{
@@ -84,6 +89,19 @@ export function moveInLumen(field,position,delta,radius){
    if(length2<1e-8*n2*other.reduce((s,v)=>s+v*v,0))continue;
    const along=remaining.reduce((s,v,k)=>s+v*crease[k],0)/length2,point=p.map((v,k)=>v+crease[k]*along),fraction=safe(p,point)?1:clip(p,point),clipped=p.map((v,k)=>v+(point[k]-v)*fraction),progress=advance(clipped);
    if(progress>bestProgress){best=clipped;bestProgress=progress;}
+  }
+  // At a voxel crease, an exactly tangent sweep can hit the next facet at
+  // distance zero. Reserve a small amount of the SAME movement budget for
+  // clearance into this lumen, then sweep the complete candidate as usual.
+  // Only stalled contacts pay this cost; no shrinking or wall crossing.
+  if(bestProgress<budget*budget*.12){
+   const normalLength=Math.sqrt(n2);
+   for(const fraction of [.08,.18,.3]){
+    const inset=Math.min(budget*fraction,field.step*.1),offset=slide.map((v,k)=>v+normal[k]/normalLength*inset),length=Math.hypot(...offset),scale=Math.min(1,budget/length);
+    const point=p.map((v,k)=>v+offset[k]*scale),fractionSafe=safe(p,point)?1:clip(p,point),clipped=p.map((v,k)=>v+(point[k]-v)*fractionSafe),progress=advance(clipped);
+    if(progress>bestProgress){best=clipped;bestProgress=progress;}
+    if(bestProgress>=budget*budget*.4)break;
+   }
   }
   if(bestProgress>budget*budget*.002)p=best;
  }
