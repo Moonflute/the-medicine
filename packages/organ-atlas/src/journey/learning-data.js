@@ -1,8 +1,7 @@
 // Short educational descriptions, kept separate from geometry and UI.
 // Source mesh IDs stay in the manifest; related notes use the host's search.
 export const journeyModes=[
- {id:'upper',label:'입 · 소화관 · 기도',start:1},
- {id:'airways',label:'기관 · 엽·분절기관지',start:1},
+ {id:'upper',label:'입 · 소화관 · 기관지',start:1},
  {id:'vessels',label:'대동맥 · 주요 동맥',start:2},
  {id:'veins',label:'하대정맥 · 주요 정맥',start:2},
  {id:'thoracic-veins',label:'상대정맥 · 목·상지 정맥',start:1}
@@ -26,8 +25,8 @@ const upper={
  5:['위 다음의 첫 소장 구간입니다. 이후 공장으로 이어지며 담즙과 췌장액이 소화에 참여합니다.','십이지장 궤양',digestion],
  6:['인두와 기관 사이의 기도입니다. 후두개 주변에서 식도 입구와 방향을 비교할 수 있습니다.','후두',airway],
  7:['좌우 주기관지로 갈라지는 기도입니다. 분기부에서 각각 다른 폐로 이어집니다.','기관',airway],
- 8:['왼쪽 폐로 들어가는 주기관지입니다. 이 모델은 더 작은 엽기관지 이전에서 끝납니다.','천식',airway],
- 9:['오른쪽 폐로 들어가는 주기관지입니다. 이 모델은 더 작은 엽기관지 이전에서 끝납니다.','천식',airway],
+ 8:['왼쪽 폐로 들어가는 주기관지입니다. 좌상엽·좌하엽기관지와 원본의 분절 가지까지 이어집니다.','천식',airway],
+ 9:['오른쪽 폐로 들어가는 주기관지입니다. 우상엽기관지가 갈라지고, 중간기관지는 중엽·하엽으로 이어집니다.','천식',airway],
  10:['소화와 흡수에 관여하는 소장입니다. 이 원본은 공장·회장의 정확한 경계를 나누지 않습니다.','크론병',digestion],
  11:['회장에서 넘어온 내용물이 맹장으로 들어와 상행결장으로 이어집니다.','대장 용종',digestion],
  12:['오른쪽 결장굽이에서 왼쪽 결장굽이로 이어지는 대장 구간입니다.','대장 용종',digestion],
@@ -35,6 +34,11 @@ const upper={
  14:['골반 중앙의 원위부 대장입니다. 이 자료로 직장·항문관의 정확한 경계를 정하지 않았습니다.','직장',digestion]
 };
 export function structureLesson(manifest,part){
+ if(manifest.key==='upper'&&part.id>=15){
+  const branches=manifest.connections.some(([parent])=>parent===part.id);
+  const description=part.id===15?'우상엽기관지가 분지한 뒤 이어지는 중간기관지입니다. 우중엽·우하엽기관지로 이어집니다.':part.id===36?'좌하엽의 기저기관지 묶음입니다. 이 원본은 공통 줄기가 여러 분절 이름에 걸쳐 있어, 실제 형상을 유지하고 개별 분절 경계를 임의로 나누지 않았습니다.':part.group+'에 공기를 전달하는 기관지입니다. '+(branches?'상위 기관지와 다음 분지의 연결 방향을 살펴보세요.':'상위 기관지로 돌아갈 수 있습니다. 이후 세기관지·폐포는 포함하지 않습니다.');
+  return {description,query:'기관지',reference:airway};
+ }
  if(journeyKind(manifest)==='airway'){
   const hasBranches=manifest.connections.some(([parent])=>parent===part.id);
   let description=part.group+'에 공기를 전달하는 기관지입니다. '+(hasBranches?'상위 기관지와 이어지는 입구 및 다음 분지를 살펴보세요.':'상위 기관지로 이어지는 입구를 살펴보세요. 이후의 더 작은 가지는 이 탐험에 포함하지 않았습니다.');
@@ -89,16 +93,16 @@ export const clinicalExamples={
 export function examplesFor(manifest,part){
  if(journeyKind(manifest)==='artery')return [clinicalExamples.plaque];
  if(journeyKind(manifest)==='vein')return [clinicalExamples.thrombus];
- if(journeyKind(manifest)==='airway')return [clinicalExamples.mucus];
+ if(journeyKind(manifest)==='airway'||(part.system==='respiratory'&&part.id!==6))return [clinicalExamples.mucus];
  if([4,5].includes(part.id))return [clinicalExamples.ulcer];
- if(part.id>=11)return [clinicalExamples.polyp];
+ if(part.id>=11&&part.id<=14)return [clinicalExamples.polyp];
  if([7,8,9].includes(part.id))return [clinicalExamples.mucus];
  return [];
 }
 export function connectedStructures(manifest,id){
  return manifest.connections.filter(([a,b])=>a===id||b===id).map(([a,b])=>{
   const next=manifest.parts.find(p=>p.id===(a===id?b:a));
-  const kind=journeyKind(manifest),label=kind==='vein'?(b===id?'유출':'유입'):kind==='artery'?(b===id?'기시':'분지'):kind==='airway'?(b===id?'상위 기관지':'분지'):'연결';
+  const kind=journeyKind(manifest),respiratory=manifest.parts.find(p=>p.id===id).system==='respiratory'&&next.system==='respiratory',label=kind==='vein'?(b===id?'유출':'유입'):kind==='artery'?(b===id?'기시':'분지'):kind==='airway'||respiratory?(b===id?'상위 기도':'분지'):'연결';
   return {id:next.id,name:next.name,label};
  });
 }

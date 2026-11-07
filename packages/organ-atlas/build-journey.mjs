@@ -18,9 +18,16 @@ if(process.argv[2]&&!Object.hasOwn(journeySources,process.argv[2]))throw Error('
 for(const [key,config]of Object.entries(journeySources)){
  if(process.argv[2]&&process.argv[2]!==key)continue;
  console.error('Building '+key+': source surfaces');
- const bytes=fs.readFileSync(directory+config.file),raw=gunzipSync(bytes),root=(await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(raw.buffer.slice(raw.byteOffset,raw.byteOffset+raw.byteLength),'')).scene;
- root.updateMatrixWorld(true);const meshes=[],bounds=new T.Box3();
- root.traverse(mesh=>{if(!mesh.isMesh)return;const sourceName=sourceManifest.identities[mesh.name]?.sourceMesh||mesh.name,index=config.parts.findIndex(p=>p.source===sourceName);if(index<0)return;const geometry=mesh.geometry.clone().applyMatrix4(mesh.matrixWorld);geometry.computeBoundingBox();bounds.union(geometry.boundingBox);meshes.push({id:index+1,name:mesh.name,geometry,bvh:new MeshBVH(geometry,{indirect:true})});config.parts[index].sourceId=mesh.name;});
+ const meshes=[],bounds=new T.Box3(),roots=[],sourceAssets=[];
+ for(const file of new Set([config.file,...config.parts.map(p=>p.sourceFile).filter(Boolean)])){
+  const bytes=fs.readFileSync(directory+file),raw=gunzipSync(bytes),root=(await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(raw.buffer.slice(raw.byteOffset,raw.byteOffset+raw.byteLength),'')).scene;
+  root.updateMatrixWorld(true);roots.push(root);sourceAssets.push({file,sha256:createHash('sha256').update(bytes).digest('hex')});
+  root.traverse(mesh=>{if(!mesh.isMesh)return;const sourceName=sourceManifest.identities[mesh.name]?.sourceMesh||mesh.name,index=config.parts.findIndex(p=>p.source===sourceName&&(p.sourceFile||config.file)===file);if(index<0)return;const geometry=mesh.geometry.clone().applyMatrix4(mesh.matrixWorld);geometry.computeBoundingBox();bounds.union(geometry.boundingBox);meshes.push({id:index+1,name:mesh.name,geometry,bvh:new MeshBVH(geometry,{indirect:true})});config.parts[index].sourceId=mesh.name;});
+ }
+ const root=roots[0];
+ const continuity=key==='upper'?JSON.parse(fs.readFileSync('journey-continuity-source-audit.json','utf8')):null;
+ if(continuity&&sourceAssets.find(a=>a.file===continuity.output.file)?.sha256!==continuity.output.sha256)throw Error('Unreviewed bronchial source revision');
+ const sourceContinuity=continuity&&Object.fromEntries(['sourceURL','sourceBlob','sourceSha256','method','coordinateFrame','checks','grouping'].map(k=>[k,continuity[k]]));
  for(const part of config.parts)if(part.source&&!part.sourceId)throw Error('Missing source mesh: '+part.source);
  if(config.crop){bounds.min.fromArray(config.crop.min);bounds.max.fromArray(config.crop.max);}
  if(key==='upper')bounds.expandByPoint(new T.Vector3(0,1.58,.105));
@@ -53,7 +60,7 @@ for(const [key,config]of Object.entries(journeySources)){
  // Some source daughters duplicate their proximal stem. Its shared volume is
  // the parent fork, not two adjacent channels with a manufactured divider.
  let sharedBranchVoxels=0;for(let i=0;i<labels.length;i++)if(forkOverlaps[i]){labels[i]=forkOverlaps[i];sharedBranchVoxels++;}
- const header={key,...config,origin,dimensions,castRays,oddRays,sharedBranchVoxels,sourceSha256:createHash('sha256').update(bytes).digest('hex'),centerlines,landmarks:anatomy?.landmarks||[],landmarkRegistration:anatomy?.registration||null};
+ const header={key,...config,origin,dimensions,castRays,oddRays,sharedBranchVoxels,sourceSha256:sourceAssets[0].sha256,sourceAssets,...(sourceContinuity?{sourceContinuity}:{}),centerlines,landmarks:anatomy?.landmarks||[],landmarkRegistration:anatomy?.registration||null};
  console.error('Building '+key+': connections, surface and collision field');
  const result=spawnSync('python',['build-journey-surface.py'],{input:Buffer.concat([Buffer.from(JSON.stringify(header)+'\n'),Buffer.from(labels),Buffer.from(obstacles)]),maxBuffer:Math.max(128*1024*1024,labels.length*2+64*1024*1024)});
  if(result.stderr.length)console.error(result.stderr.toString());if(result.status!==0)throw Error('Surface build failed: '+(result.error?.message||result.signal||result.status));
@@ -65,5 +72,5 @@ for(const [key,config]of Object.entries(journeySources)){
 
  const manifest={...header,...report,centerlines:undefined,sourcePaths:centerlines.map(({points,...audit})=>({...audit,ends:[points[0].slice(0,3),points.at(-1).slice(0,3)]})),volumeFormat:'bricks-v1',volumeBytes:packed.byteLength,surface:'./models/current/journey-'+key+'-surface.bin.gz',volume:'./models/current/journey-'+key+'-volume.bin.gz',source:config.source||sourceManifest.source,representation:'source-derived-navigation-reconstruction',license:config.license||'CC BY-SA 4.0',notice:journeyNotice(key)};
  fs.writeFileSync(directory+'journey-'+key+'.json',JSON.stringify(manifest));
- root.traverse(m=>{m.geometry?.dispose();m.material?.dispose();});console.log(JSON.stringify({key,dimensions,vertices:report.vertices,triangles:report.triangles,bytes:fs.statSync(directory+'journey-'+key+'-surface.bin.gz').size+fs.statSync(directory+'journey-'+key+'-volume.bin.gz').size}));
+ for(const source of roots)source.traverse(m=>{m.geometry?.dispose();m.material?.dispose();});console.log(JSON.stringify({key,dimensions,vertices:report.vertices,triangles:report.triangles,bytes:fs.statSync(directory+'journey-'+key+'-surface.bin.gz').size+fs.statSync(directory+'journey-'+key+'-volume.bin.gz').size}));
 }

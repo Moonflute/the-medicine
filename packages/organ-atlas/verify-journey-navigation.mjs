@@ -3,6 +3,7 @@ import * as T from 'three';
 import {JourneyControls} from './src/journey/controls.js';
 import {JOURNEY_RADIUS,JourneyPerspective,anatomicalHeading} from './src/journey/perspective.js';
 import {compatibleJourneyFrames} from './src/journey/context.js';
+import {JourneyEnvironment} from './src/journey/environment.js';
 
 // Exercise the production controller without a WebGL context.
 globalThis.window=new EventTarget();globalThis.document=new EventTarget();
@@ -26,7 +27,8 @@ assert(Math.abs(distances[1]/distances[0]-.5)<1e-9&&Math.abs(distances[2]/distan
 controls.radius=JOURNEY_RADIUS;controls.yaw=controls.pitch=0;controls.updateRotation();
 controls.field={step:.001,clearance:([,,z])=>.006-Math.abs(z),gradient:([,,z])=>[0,0,-Math.sign(z)]};camera.position.set(0,0,0);
 for(let i=0;i<15;i++)controls.step(.05);
-assert(controls.field.clearance(camera.position.toArray())>=controls.radius-1e-9,'view-relative movement still respects wall clearance');controls.dispose();
+assert(controls.field.clearance(camera.position.toArray())>=controls.radius-1e-9,'view-relative movement still respects wall clearance');
+controls.enabled=false;const frozen=[...camera.position.toArray(),...camera.quaternion.toArray()];controls.look(20,10);controls.step(.05);assert.deepEqual([...camera.position.toArray(),...camera.quaternion.toArray()],frozen,'loading another region freezes the retained view');controls.dispose();
 
 camera.position.set(.01,1.5,.03);camera.rotation.set(.3,.7,0,'YXZ');camera.updateMatrixWorld();
 const pose=[...camera.position.toArray(),...camera.quaternion.toArray()],lens=new JourneyPerspective(camera);
@@ -44,5 +46,9 @@ lens.setRadius(JOURNEY_RADIUS,{immediate:true});assert.equal(camera.fov,76,'rest
 const reduced=new JourneyPerspective(camera,{reducedMotion:true});reduced.setRadius(JOURNEY_RADIUS/4);assert.equal(camera.fov,96);assert.equal(reduced.update(.05),false,'reduced motion skips the transition');
 assert(compatibleJourneyFrames({key:'upper'},{coordinateFrame:'z-anatomy'}),'existing Z-Anatomy regions retain nearby-coordinate transfer');
 assert(!compatibleJourneyFrames({key:'upper'},{coordinateFrame:'hra-united-male-v1.10'}),'different specimens must not inherit nearby coordinates');
+const scene={fog:{density:9}},light={distance:.18},environment=new JourneyEnvironment(scene,light);
+environment.setWidth(.003);assert.equal(scene.fog.density,9,'entering a narrow branch must not snap the light');environment.update(.05);assert(scene.fog.density>9&&scene.fog.density<55);assert(light.distance<.18&&light.distance>.025);
+for(let i=0;i<100;i++)environment.update(.05);assert.equal(environment.update(.05),false,'settled illumination stops rendering');
+const reducedEnvironment=new JourneyEnvironment(scene,light,{reducedMotion:true});reducedEnvironment.setWidth(.05);assert.equal(scene.fog.density,8);assert.equal(reducedEnvironment.update(.05),false);
 for(const [axis,label]of [[[1,0,0],'왼쪽 L'],[[-1,0,0],'오른쪽 R'],[[0,1,0],'머리쪽 S'],[[0,-1,0],'발쪽 I'],[[0,0,1],'앞쪽 A'],[[0,0,-1],'뒤쪽 P']])assert.equal(anatomicalHeading(new T.Vector3(...axis)),label);
 console.log(JSON.stringify({screenRelativeDirections:directions,touchBasis:true,sizeSpeed:true,collision:true,visibleScale:true,cameraPreserved:true,reducedMotion:true,anatomicalAxes:true}));

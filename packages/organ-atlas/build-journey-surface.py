@@ -104,10 +104,11 @@ for a,b in cfg['bridges']:
  # Join the interiors at the junction, not the nearest exterior edge: edge-only
  # contacts are connected mathematically but cannot admit a finite camera.
  surface_a,va,loa,da=region_distance(a);surface_b,vb,lob,db=region_distance(b)
- bowel=cfg['key']=='upper' and max(a,b)>=10
+ bowel=cfg['key']=='upper' and 10<=max(a,b)<=14
+ local_join=cfg['key']!='upper' or (b>=15 and cfg['parts'][b-1].get('system')=='respiratory')
  threshold=.008 if bowel and min(a,b)>=11 else .005 if bowel else .0022 if a==3 or b==3 else .0032
  aa=surface_a[va>=min(threshold,va.max()*.85)];bb=surface_b[vb>=min(threshold,vb.max()*.85)]
- if cfg['key']!='upper':
+ if local_join:
   # Narrow branch origins must be searched locally. A whole-vessel maximum
   # can otherwise choose a distant wider segment and bridge over real bends.
   anchor=cfg.get('junctionAnchors',{}).get(f'{a}:{b}')
@@ -125,18 +126,26 @@ for a,b in cfg['bridges']:
  if cfg['key']=='upper' and (a,b)==(3,4): aa=aa[world(aa)[:,1]<1.215]
  if cfg['key']=='upper' and (a,b)==(2,3): aa=aa[world(aa)[:,1]<1.49];bb=bb[world(bb)[:,1]>1.46]
  window=junction_windows.get(f'{a}:{b}')
- if window:aa=aa[in_window(aa,window)];bb=bb[in_window(bb,window)]
+ if window:
+  if cfg['key']=='upper' and not local_join:
+   # At a reviewed bowel endpoint the local opening can be narrower than the
+   # widest lumen elsewhere in the organ. Choose its local interior only.
+   wa=in_window(surface_a,window);wb=in_window(surface_b,window)
+   if not wa.any() or not wb.any():raise ValueError(f'Missing reviewed endpoint {a}->{b}')
+   aa=surface_a[wa&(va>=min(threshold,va[wa].max()*.85))];bb=surface_b[wb&(vb>=min(threshold,vb[wb].max()*.85))]
+  else:aa=aa[in_window(aa,window)];bb=bb[in_window(bb,window)]
  if not len(aa) or not len(bb):raise ValueError(f'Missing reviewed junction interior {a}->{b}')
  distances,near=cKDTree(aa).query(bb,k=1); k=int(np.argmin(distances));pa=world(aa[[near[k]]])[0];pb=world(bb[[k]])[0];gap=float(distances[k]*step)
  # Interior endpoints include depth into both source surfaces. Keep a strict
  # separate limit on the actual exterior gap, which was measured before this.
  surface_gap=float(cKDTree(surface_a).query(surface_b,k=1)[0].min()*step)
- if surface_gap>cfg.get('maxJunctionGap',.018) or gap>.035: raise ValueError(f'Unreviewed gap {a}->{b}: {surface_gap}, interior span {gap}')
+ max_gap=cfg.get('branchJunctionMaxGap',.004) if cfg['key']=='upper' and local_join else cfg.get('maxJunctionGap',.018)
+ if surface_gap>max_gap or gap>.035: raise ValueError(f'Unreviewed gap {a}->{b}: {surface_gap}, interior span {gap}')
  maximum=.008 if bowel and min(a,b)>=11 else .006 if bowel else .0035
  ra=float(min(maximum,da[tuple(aa[near[k]]-loa)]));rb=float(min(maximum,db[tuple(bb[k]-lob)]))
  stamp_transition(pa,pb,ra,rb,a)
  seam_voxels=0
- if cfg['key']!='upper':
+ if local_join:
   # Source segments may have slightly misaligned cut faces. A narrow bridge
   # alone leaves artificial shutters across a large aortic/caval lumen. Close
   # only sub-2.4 mm seams simultaneously adjacent to BOTH reviewed parts.
@@ -200,7 +209,7 @@ if len(missing):
  inside=np.argwhere(mask);tree=cKDTree(world(inside));_,near=tree.query(verts[missing]);region[missing]=labels[tuple(inside[near].T)]
 colors=np.array([[int(p['color'][i:i+2],16) for i in [1,3,5]] for p in cfg['parts']],dtype=np.uint8)[region-1]
 for landmark in cfg.get('landmarks',[]):
- distance_to_source=ndi.distance_transform_edt(obstacles!=landmark['id'])*step
+ distance_to_source=bounded_distance(obstacles!=landmark['id'],step*3)
  near=distance_to_source[locations[:,2],locations[:,1],locations[:,0]]<step*1.6
  colors[near]=[int(landmark['color'][i:i+2],16) for i in [1,3,5]]
 parts=[]
@@ -223,7 +232,7 @@ for part in parts:
  entry=np.array(junction['start'] if junction['from']==number else junction['end']);points=np.argwhere((labels==number)&(distance>=.0025))
  if not len(points):points=np.argwhere(labels==number)
  positions=world(points);farthest=positions[np.argmax(np.sum((positions-entry)**2,axis=1))]
- continuation=('이 기관의 위쪽 후두·인두는 이 표본의 탐험 범위에 포함하지 않았어요.' if number==1 else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.') if cfg.get('kind')=='airway' else '더 작은 기관지는 이 모델에 포함하지 않았어요.' if cfg['key']=='upper' and number in [8,9] else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
+ continuation=('이 기관의 위쪽 후두·인두는 이 표본의 탐험 범위에 포함하지 않았어요.' if number==1 else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.') if cfg.get('kind')=='airway' else '이후의 더 작은 기관지·세기관지·폐포는 포함하지 않았어요.' if part.get('system')=='respiratory' else '항문관과 외부 개구의 정확한 경계는 제공하지 않아요.' if cfg['key']=='upper' else '이후의 혈관·심장 연결은 이 탐험 범위에 포함하지 않았어요.'
  boundaries.append({'part':number,'position':farthest.tolist(),'returnPoint':entry.tolist(),'range':.026,'name':part['name'],'continuation':continuation})
 
 # Preserve conservative clearance, including the smoothing displacement.

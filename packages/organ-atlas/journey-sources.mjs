@@ -1,11 +1,12 @@
 // Metres in the existing Z-Anatomy frame: +X left, +Y superior, +Z anterior.
 // This is a source-derived navigation reconstruction, NOT a segmented mucosa.
 import {airwaySource,thoracicVeinSource,coronaryParts} from './journey-expansion-sources.mjs';
+import {continuousBronchi,bronchialConnections,bronchialForks} from './journey-continuity-sources.mjs';
 export function journeyNotice(key){
  if(key==='airways')return '기존 HRA 남성 표본의 기관·엽기관지·분절기관지 표면과 상대 좌표를 보존한 내부 탐색용 재구성입니다. 원본이 구분한 가지까지만 제공하며 세기관지·폐포와 실제 점막은 포함하지 않습니다. 입·소화관 탐험과 다른 표본이므로 영역을 바꾸어 탐험합니다. 좌측 분절 형태는 이 원본의 구분을 따릅니다.';
  if(key==='thoracic-veins')return '기존 Z-Anatomy 좌표의 상대정맥·팔머리정맥·목과 상지 주요 정맥을 재구성했습니다. 잘린 끝은 제공 범위이며 심방이나 하대정맥까지 임의로 연결하지 않았습니다. 정맥판막·모세혈관은 포함하지 않습니다.';
  const common='기존 원본의 외형·좌표를 바탕으로 만든 내부 탐색용 재구성입니다. 실제 점막·벽 두께·생리적 개폐를 분할한 자료가 아닙니다. 연결부는 원본 위치와 해부학적 순서를 대조해 보강했으며, 표시된 끝은 모델 제공 범위입니다.';
- return common+(key==='upper'?' 혀는 기존 좌표의 표면을, 후두개는 연골 기준으로 좌표 정합한 기존 BodyParts3D 표면을 재사용했습니다. 원본이 구분하지 않는 장관은 묶음 이름으로 표시합니다.':key==='veins'?' 하대정맥과 신장·골반의 주요 정맥 및 간정맥 합류부를 포함합니다. 심방·정맥판막·간내 세부 분지는 재현하지 않았습니다.':' 장간막동맥은 근위부만 포함하며, 심장 내부·모세혈관까지 이어지는 전체 순환은 제공하지 않습니다.');
+ return common+(key==='upper'?' 혀는 기존 좌표의 표면을, 후두개는 연골 기준으로 좌표 정합한 기존 BodyParts3D 표면을 재사용했습니다. 입에서 같은 원본의 엽·분절기관지까지 이어집니다. 원본이 구분하지 않는 장관과 좌하엽 기저기관지는 묶음 이름으로 표시합니다.':key==='veins'?' 하대정맥과 신장·골반의 주요 정맥 및 간정맥 합류부를 포함합니다. 심방·정맥판막·간내 세부 분지는 재현하지 않았습니다.':' 장간막동맥은 근위부만 포함하며, 심장 내부·모세혈관까지 이어지는 전체 순환은 제공하지 않습니다.');
 }
 export const journeySources={
  upper:{title:'입 · 소화관 · 기도',file:'z-whole-organs.glb.gz',spacing:.001,
@@ -87,6 +88,14 @@ export const journeySources={
 };
 journeySources.airways=airwaySource;
 journeySources['thoracic-veins']=thoracicVeinSource;
+journeySources.upper.spacing=.0008;
+journeySources.upper.title='입 · 소화관 · 기관지';
+journeySources.upper.branchJunctionMaxGap=.004;
+journeySources.upper.parts.forEach((part,i)=>{part.system=i>=5&&i<=8?'respiratory':'digestive';part.group=i<2?'입 · 인두':part.system==='respiratory'?'기관 · 주기관지':'소화관';});
+journeySources.upper.parts.push(...continuousBronchi);
+journeySources.upper.connections.push(...bronchialConnections);
+journeySources.upper.bridges.push(...bronchialConnections);
+journeySources.upper.forks=[[7,[8,9]],...bronchialForks];
 journeySources.vessels.parts.push(...coronaryParts);
 journeySources.vessels.connections.push([1,30],[1,31],[31,32]);
 journeySources.vessels.forks.push([1,[2,30,31]]);

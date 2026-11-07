@@ -444,53 +444,21 @@ export const assetRevisions={
     "sha256": "34b8a7e8a8238831a2a4ba8aa9bb3fa434047824addc8805dfef3c792f959d37",
     "bytes": 1133961
   },
-  "./models/current/journey-airways-surface.bin.gz": {
-    "sha256": "d8f05ac0d344464f593bf2bae7172b6ff107ffcb3323f6a32baa484c17b2d965",
-    "bytes": 1230668
-  },
-  "./models/current/journey-airways-volume.bin.gz": {
-    "sha256": "5806d0d1e597ecf506859b5374083af1d5feaf4969adb72a42f45191b94affb4",
-    "bytes": 157950
-  },
-  "./models/current/journey-airways.json": {
-    "sha256": "c91109d6978c14c15925cbbb99324a6b95ea14bde2aad702f8823bcd9e7a4d4d",
-    "bytes": 28241
-  },
-  "./models/current/journey-thoracic-veins-surface.bin.gz": {
-    "sha256": "8debcffddd0a7e2cebd73db7505ee40409f79d733859996746a863b130144190",
-    "bytes": 334220
-  },
-  "./models/current/journey-thoracic-veins-volume.bin.gz": {
-    "sha256": "7eec88c07e1a639baf9a4a15fafa9945dff4241950ccc5ed584b32c1b7024ae6",
-    "bytes": 50092
-  },
-  "./models/current/journey-thoracic-veins.json": {
-    "sha256": "8b4707d9636911a133f107193b2dcd929620147ab7c6e7b04102e85712ce92b6",
-    "bytes": 8825
+  "./models/current/journey-upper.json": {
+    "sha256": "1381b70bf01a7f3a32c4e2ac67b3e0aa6b090d7f4c5fb0727a81b0dcc2b72e42",
+    "bytes": 40206
   },
   "./models/current/journey-upper-surface.bin.gz": {
-    "sha256": "ef902c3852febc1d4fdfda4babb963c186bd9bc01c905947ee4acb8545535014",
-    "bytes": 3041088
+    "sha256": "e94be958dc6310d041a1f76d33f514c57f974ef1fbc4b8f5ba3c3a3fdac84fe7",
+    "bytes": 5823076
   },
   "./models/current/journey-upper-volume.bin.gz": {
-    "sha256": "624e55b1deacd10158199b3745725858042a63027e35a452ab73a889ebaf9481",
-    "bytes": 878072
+    "sha256": "e89c5e23c36d89086cc3247017b91581c51e9fb6dc3d8dd031a2740522ab82e9",
+    "bytes": 1667119
   },
-  "./models/current/journey-upper.json": {
-    "sha256": "e1cdf0e52392e49f74a7f259d6c73d4e855eb8ea4b89286921ab392de2802ecc",
-    "bytes": 13573
-  },
-  "./models/current/journey-veins-surface.bin.gz": {
-    "sha256": "99067aa6059b91b9a3ae46f197dc609d272a54c540b7f972e45d652d539b1b90",
-    "bytes": 486325
-  },
-  "./models/current/journey-veins-volume.bin.gz": {
-    "sha256": "124ccee4aa656c2b48d4c7a16262e0438b926c9f0015aba93f8159b0cbf0f0a8",
-    "bytes": 79964
-  },
-  "./models/current/journey-veins.json": {
-    "sha256": "2caec112897a467e90c238c6c1e481dbb1edad2457e0aa102a475590dcc016c3",
-    "bytes": 11226
+  "./models/current/journey-vessels.json": {
+    "sha256": "331a126c8689b0a44bb264aeb890353f3b52ac793545f47466bdfd1a957fc5c2",
+    "bytes": 29724
   },
   "./models/current/journey-vessels-surface.bin.gz": {
     "sha256": "f822688dd2f5058e51894c2322d05d634eb67fc9853ae3f6e356334409f89912",
@@ -500,9 +468,37 @@ export const assetRevisions={
     "sha256": "a7ea2e3800eac0119211c4c0027f92ec005eb84e9213e388a753f323673b40cb",
     "bytes": 410411
   },
-  "./models/current/journey-vessels.json": {
-    "sha256": "331a126c8689b0a44bb264aeb890353f3b52ac793545f47466bdfd1a957fc5c2",
-    "bytes": 29724
+  "./models/current/journey-veins.json": {
+    "sha256": "2caec112897a467e90c238c6c1e481dbb1edad2457e0aa102a475590dcc016c3",
+    "bytes": 11226
+  },
+  "./models/current/journey-veins-surface.bin.gz": {
+    "sha256": "99067aa6059b91b9a3ae46f197dc609d272a54c540b7f972e45d652d539b1b90",
+    "bytes": 486325
+  },
+  "./models/current/journey-veins-volume.bin.gz": {
+    "sha256": "124ccee4aa656c2b48d4c7a16262e0438b926c9f0015aba93f8159b0cbf0f0a8",
+    "bytes": 79964
+  },
+  "./models/current/journey-thoracic-veins.json": {
+    "sha256": "8b4707d9636911a133f107193b2dcd929620147ab7c6e7b04102e85712ce92b6",
+    "bytes": 8825
+  },
+  "./models/current/journey-thoracic-veins-surface.bin.gz": {
+    "sha256": "8debcffddd0a7e2cebd73db7505ee40409f79d733859996746a863b130144190",
+    "bytes": 334220
+  },
+  "./models/current/journey-thoracic-veins-volume.bin.gz": {
+    "sha256": "7eec88c07e1a639baf9a4a15fafa9945dff4241950ccc5ed584b32c1b7024ae6",
+    "bytes": 50092
+  },
+  "./models/current/journey-context-front.png": {
+    "sha256": "9ab5d0f385b12dc29d6ddfd1d70243b22fb987105d66e99e392037fc71a2fce3",
+    "bytes": 60939
+  },
+  "./models/current/journey-context-side.png": {
+    "sha256": "1cb2df5c6e4c755867b52c3052f64e78bc5c1c23ab1640d0b61bf26a0212bcf5",
+    "bytes": 45184
   },
   "./imaging/spl-abdomen/I.nrrd": {
     "sha256": "741e36154074b3834be49c0554e1b49875a9a96d8ed1e466d7614758f2a8f726",

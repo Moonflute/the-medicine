@@ -1,0 +1,2 @@
+// Generated from attributed Z-Anatomy surfaces by prepare-journey-context.mjs.
+export const bodyContext={"bounds":{"min":[-0.36,0,-0.15],"max":[0.36,1.74,0.18]},"files":{"front":"./models/current/journey-context-front.png","side":"./models/current/journey-context-side.png"},"coordinateFrame":"z-anatomy","sources":[{"file":"z-whole-skeleton-optimized.glb.gz","sha256":"bf87e05b1711e60a32871dd1eead35e9f91dff14825e1c7db086858ffa8b522b"},{"file":"z-whole-organs.glb.gz","sha256":"ace69067a7130b6cf76e53e7cfa3324f320709b117cd36432f1fccc642b665ca"}]};

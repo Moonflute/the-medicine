@@ -30,6 +30,10 @@ export function entranceHints(manifest){
   {id:'ileocecal',name:'Ileocecal junction',detail:'Cecum으로',point:junction(10,11),regions:[10,11],range:.04},
   {id:'hepatic-flexure',name:'Right colic flexure',detail:'Transverse colon으로',point:junction(11,12),regions:[11,12],range:.05},
   {id:'splenic-flexure',name:'Left colic flexure',detail:'Descending colon으로',point:junction(12,13),regions:[12,13],range:.05},
+  ...manifest.junctions.filter(j=>j.to>=15).flatMap(j=>[
+   {id:`branch-${j.from}-${j.to}`,name:manifest.parts.find(p=>p.id===j.to).name,detail:'분지',point:j.end,regions:[j.from],range:.055},
+   {id:`parent-${j.to}-${j.from}`,name:manifest.parts.find(p=>p.id===j.from).name,detail:'상위 기관지',point:j.start,regions:[j.to],range:.055}
+  ]),
   ...(manifest.landmarks||[]).map(p=>({id:p.name.toLowerCase(),name:p.name,detail:'',point:p.position,regions:p.id===1?[1,2]:[2,6],range:p.id===1?.05:.045,surface:true}))
  ].filter(h=>h.point);
 }
