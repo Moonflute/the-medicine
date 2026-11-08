@@ -200,6 +200,10 @@ export const assetRevisions={
     "sha256": "0f402c25fd939cb954b8fdff06ecdfbf6be13ffc5f0023e5caa7fe20eec7ffd4",
     "bytes": 2982415
   },
+  "./models/current/journey-cardiac-details.glb.gz": {
+    "sha256": "abd89fedd9572fac35d7cc28294537a4682bb5e0d58654e81054391e3eb52b63",
+    "bytes": 220315
+  },
   "./models/current/kidneys-light.glb.gz": {
     "sha256": "963a77309d9ce15712669e442e2f5ddb6252005ee33eeb1d7875f3e467e44c7c",
     "bytes": 1535984
@@ -445,8 +449,8 @@ export const assetRevisions={
     "bytes": 1133961
   },
   "./models/current/journey-upper.json": {
-    "sha256": "1381b70bf01a7f3a32c4e2ac67b3e0aa6b090d7f4c5fb0727a81b0dcc2b72e42",
-    "bytes": 40206
+    "sha256": "ad8bb7c40856ecbc3f56c97cca9c29c8d2f6d953ee293f9e010aeef29a50afda",
+    "bytes": 46211
   },
   "./models/current/journey-upper-surface.bin.gz": {
     "sha256": "e94be958dc6310d041a1f76d33f514c57f974ef1fbc4b8f5ba3c3a3fdac84fe7",
@@ -457,8 +461,8 @@ export const assetRevisions={
     "bytes": 1667119
   },
   "./models/current/journey-circulation.json": {
-    "sha256": "711b38868b954e13ce2111efe19fa94baeb082b46ee296d3175dc8c9e37012b4",
-    "bytes": 93475
+    "sha256": "3f131a6e3a30d35b4b22b3a6fbfa22f96dda781ef24ebfd49089ebec5d3ab35d",
+    "bytes": 115000
   },
   "./models/current/journey-circulation-surface.bin.gz": {
     "sha256": "624a85a8cd664fe9b0a8113171bc72cb627069b6bed4358c5fb38e527097f50e",
@@ -481,8 +485,8 @@ export const assetRevisions={
     "bytes": 312941
   },
   "./models/current/journey-urinary.json": {
-    "sha256": "4f3d3efb74e4385ce813facb1677ab512354a96621dca76a4be59f6a570db3c3",
-    "bytes": 10757
+    "sha256": "a5dfc232044a2664f19c560cbaa49cbbf737a648eb44a740958f31e28dd431f8",
+    "bytes": 13196
   },
   "./models/current/journey-urinary-surface.bin.gz": {
     "sha256": "5dbc1506d4b2b88bec125af158fa8f74100b4926f4485f3e5207ff2e3973cc11",
@@ -517,8 +521,8 @@ export const assetRevisions={
     "bytes": 71822
   },
   "./models/current/journey-urinary-outlet.json": {
-    "sha256": "f44b5bcfa9c540dda623f257fb91b119dda1888d5e68032e46dda1e42981e474",
-    "bytes": 7045
+    "sha256": "cae64487ccd786d7cae4651df7f001e46d5cd84e1bcf2722624408223a007a4c",
+    "bytes": 9518
   },
   "./models/current/journey-urinary-outlet-surface.bin.gz": {
     "sha256": "a9f095ddbf1d0b80f84f0b297c5ca243fbd52651b6ba822d37f6c7ceda2cb06d",
@@ -529,8 +533,8 @@ export const assetRevisions={
     "bytes": 519670
   },
   "./models/current/journey-biliary.json": {
-    "sha256": "359dd879db69f93d01f4c8dbe649829990e5381f303e06083afb3a338531ba81",
-    "bytes": 12799
+    "sha256": "7ca623ff0d1ce7fe782f3bcb20f35cab72a2640a0325e60a1a7893ec9a8130e5",
+    "bytes": 14330
   },
   "./models/current/journey-biliary-surface.bin.gz": {
     "sha256": "38a2e13f0ab28108468bc7a0c769781c70b87bc99e358bf07167b399b3ce396d",
@@ -539,6 +543,18 @@ export const assetRevisions={
   "./models/current/journey-biliary-volume.bin.gz": {
     "sha256": "55851e6828e83ba76c091535d59e9460e5087ed8c2564863248553b923566ecb",
     "bytes": 592388
+  },
+  "./models/current/journey-duodenum.json": {
+    "sha256": "15d7c6089f19d060012e92323664bd65f42381e77d55c0ddd68a48bde017aa90",
+    "bytes": 9941
+  },
+  "./models/current/journey-duodenum-surface.bin.gz": {
+    "sha256": "6baa327459796845f7d03e8c5c0f1fb67536628f7e8719ae2fcb84f39be8656d",
+    "bytes": 1927488
+  },
+  "./models/current/journey-duodenum-volume.bin.gz": {
+    "sha256": "fb1044d1b49eeb5a7f0f29a2011698306ea58a20737b04265331eddca0582304",
+    "bytes": 889140
   },
   "./models/current/journey-arm-right.json": {
     "sha256": "7d1050b691bdf2989c725b68c92fa879474f123c24721a3d168bbbd61f20166c",

@@ -58,7 +58,7 @@ export function destinationPose({manifest,field},id,requested=.0016){
 
 export function restoreJourneyPose({manifest,field},view){
  if(!view||view.key!==manifest.key||view.frame!==journeyFrame(manifest)||!view.position?.every(Number.isFinite)||!Number.isFinite(view.yaw)||!Number.isFinite(view.pitch))return null;
- if(manifest.kind==='brain'){const mode=field.mode,side=field.side,walkState=field.walkState;try{field.setMode(view.mode,view.side);return field.clearance(view.position)>=view.radius-1e-12?{...view,position:[...view.position]}:null;}finally{field.setMode(mode,side);field.walkState=walkState;}}
+ if(manifest.kind==='brain'){const mode=field.mode,side=field.side,exposed=field.exposed,walkState=field.walkState;try{field.exposed=view.exposed??false;field.setMode(view.mode,view.side);return field.clearance(view.position)>=view.radius-1e-12?{...view,position:[...view.position]}:null;}finally{field.exposed=exposed;field.setMode(mode,side);field.walkState=walkState;}}
  const radius=fittingRadius(field,view.position,view.radius);
  return radius&&field.region(view.position)?{...view,position:[...view.position],radius}:null;
 }

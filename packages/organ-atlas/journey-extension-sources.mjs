@@ -6,6 +6,14 @@ const csfRef='https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-ci
 const hra={source:{name:'Human Reference Atlas · reference organs',url:'https://purl.humanatlas.io/ref-organ/united-male/v1.10'},license:'CC BY 4.0',coordinateFrame:'hra-united-male-v1.10'};
 const base={...hra,spacing:.0004,distanceUnit:.00005,minRadius:.0002,maxClearance:.018,maxJunctionGap:.002,enforceSurfaceClearance:true,expectedComponents:1,sourceSeamRadius:.0008,junctionCoreRadius:.0012,junctionCoreFraction:.65};
 export const extensionJourneySources={};
+const digestiveRef='https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder';
+extensionJourneySources['duodenum']={...base,file:'small-intestine.glb.gz',title:'십이지장 · 담췌관 연결',kind:'digestive',spacing:.00025,distanceUnit:.000025,minRadius:.0001,maxClearance:.014,maxJunctionGap:.004,surfaceError:.00005,boundaryRange:.009,
+ parts:[...['superior','descending','horizonal','ascending'].map((source,i)=>({name:['Superior','Descending','Horizontal','Ascending'][i]+' part of duodenum',korean:['십이지장 위부분','십이지장 내림부분','십이지장 수평부분','십이지장 오름부분'][i],source:'VH_M_duodenum_'+source,hollowShell:true,kind:'digestive',group:'십이지장 · HRA 표본',color:'#cd9b87',description:i===1?'같은 HRA 표본의 간췌팽대가 열리는 십이지장 내림부분입니다. 작은십이지장유두 표지는 별도 원본 구조이며 큰십이지장유두와 혼동하지 않습니다.':'HRA 표본의 십이지장 구간입니다. 원본 벽과 상대 좌표를 보존한 탐험 공간이며 점막 주름의 세부 재현은 아닙니다.',reference:digestiveRef})),
+ {...structuredClone(organJourneySources.biliary.parts[6]),sourceFile:'pancreas.glb.gz',endNotice:'같은 간췌팽대에서 담도·췌관으로 이어집니다.'}],
+ connections:[[1,2],[2,3],[3,4],[2,5]],flowConnections:[[1,2],[2,3],[3,4],[5,2]],references:[digestiveRef],
+ junctionAnchors:{'2:5':[-.032752,.311043,.022678]},junctionWindows:{'2:5':{min:[-.039,.305,.016],max:[-.027,.317,.029]}},
+ sourceLandmarks:[{sourceId:'VH_M_papilla_of_santorini',name:'Minor duodenal papilla',part:2,position:[-.03253,.33194,.02349]},{sourceId:'VH_M_hepatopancreatic_ampulla',name:'Hepatopancreatic ampulla opening',part:2,position:[-.032752,.311043,.022678]}],
+ notice:'HRA의 같은 남성 표본에서 십이지장과 간췌팽대의 실제 접점을 이용합니다. 기존 입·소화관 탐험은 다른 Z-Anatomy 표본이므로 명시적인 표본 전환으로 연결합니다. 괄약근 운동·전체 점막 주름은 재현하지 않습니다.'};
 for(const side of ['Right','Left']){
  const suffix=side==='Right'?'R':'L',ko=side==='Right'?'우':'좌',key='renal-'+side.toLowerCase();
  const pelvis=structuredClone(organJourneySources.urinary.parts[side==='Right'?0:4]);

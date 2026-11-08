@@ -2,7 +2,7 @@ import * as T from 'three';
 import {fetchModelResponse,fetchModelManifest} from '../local-model-store.js';
 import {JourneyVolume} from './volume.js';
 import {journeyModes} from './learning-data.js';
-async function unpack(url){const response=await fetchModelResponse(url);if(!response.ok)throw Error('탐험 데이터를 불러오지 못했어요.');if(response.headers.get('X-Atlas-Decoded-Gzip')==='1'||response.headers.get('Content-Encoding')?.toLowerCase().includes('gzip'))return new Uint8Array(await response.arrayBuffer());if('DecompressionStream'in globalThis)return new Uint8Array(await new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer());const {gunzipSync}=await import('three/addons/libs/fflate.module.js');return gunzipSync(new Uint8Array(await response.arrayBuffer()));}
+export async function unpack(url){const response=await fetchModelResponse(url);if(!response.ok)throw Error('탐험 데이터를 불러오지 못했어요.');if(response.headers.get('X-Atlas-Decoded-Gzip')==='1'||response.headers.get('Content-Encoding')?.toLowerCase().includes('gzip'))return new Uint8Array(await response.arrayBuffer());if('DecompressionStream'in globalThis)return new Uint8Array(await new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer());const {gunzipSync}=await import('three/addons/libs/fflate.module.js');return gunzipSync(new Uint8Array(await response.arrayBuffer()));}
 const manifests=new Map();
 export function loadJourneyManifest(key){
  if(!journeyModes.some(mode=>mode.id===key))return Promise.reject(Error('Unknown exploration region'));

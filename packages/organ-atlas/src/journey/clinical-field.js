@@ -6,10 +6,11 @@ export function ellipsoidClearance(point,shape){
  return (Math.sqrt(q)-1)*Math.min(...shape.radii)-.00008;
 }
 export class ClinicalField{
- constructor(base){this.base=base;this.step=base.step;this.shapes=[];}
+ constructor(base){this.base=base;this.step=base.step;this.shapes=[];this.surfaces=[];this.revision=0;}
  region(p){return this.base.region(p);}
- clearance(p){let d=this.base.clearance(p);for(const shape of this.shapes)d=Math.min(d,ellipsoidClearance(p,shape));return d;}
+ clearance(p){let d=this.base.clearance(p);for(const shape of this.shapes)d=Math.min(d,ellipsoidClearance(p,shape));for(const surface of this.surfaces)d=Math.min(d,surface.distance(p));return d;}
  gradient(p){
+  if(this.surfaces.length){const h=.00004;return [0,1,2].map(i=>{const a=[...p],b=[...p];a[i]+=h;b[i]-=h;return (this.clearance(a)-this.clearance(b))/(2*h);});}
   if(!this.shapes.length)return this.base.gradient(p);
   let nearest=this.base.clearance(p),shape=null;for(const candidate of this.shapes){const distance=ellipsoidClearance(p,candidate);if(distance<nearest){nearest=distance;shape=candidate;}}
   if(!shape)return this.base.gradient(p);

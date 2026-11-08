@@ -11,9 +11,10 @@ for(const side of ['Right','Left']){
  definitions.push({from:'arm-'+side.toLowerCase(),key:'head-artery',name:`${side} subclavian artery`,label:'머리 · 목 동맥'});
 }
 definitions.push({from:'urinary',key:'urinary-outlet',name:'Urinary bladder',label:'남성 요도'});
+definitions.push({from:'biliary',key:'duodenum',name:'Hepatopancreatic ampulla',label:'십이지장'});
 export function regionTransitions(manifest,partId){
  const part=manifest.parts.find(p=>p.id===partId);if(!part)return [];
- const options=definitions.filter(d=>d.name===part.name&&((manifest.key===d.from&&d.direction!=='in')||(manifest.key===d.key&&d.direction!=='out'))).map(d=>({key:manifest.key===d.from?d.key:d.from,name:d.name,label:manifest.key===d.from?d.label+' 계속':d.from==='urinary'?'요관 · 방광 계속':d.from.startsWith('arm')?'상지 혈관 계속':'심장 쪽 혈관 계속'}));
+ const options=definitions.filter(d=>d.name===part.name&&((manifest.key===d.from&&d.direction!=='in')||(manifest.key===d.key&&d.direction!=='out'))).map(d=>({key:manifest.key===d.from?d.key:d.from,name:d.name,label:manifest.key===d.from?d.label+' 계속':d.from==='biliary'?'담도 · 췌관 계속':d.from==='urinary'?'요관 · 방광 계속':d.from.startsWith('arm')?'상지 혈관 계속':'심장 쪽 혈관 계속'}));
  if(/^leg-(right|left)-(artery|vein)$/.test(manifest.key)){
   const side=manifest.key.includes('right')?'Right':'Left',out=part.kind==='artery';
   for(const stem of ['deep femoral','anterior tibial','posterior tibial','fibular']){

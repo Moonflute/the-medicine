@@ -1,6 +1,9 @@
 import * as T from 'three';
 import {loadJourney,loadJourneyManifest} from './assets.js';
 import {JourneyFlow} from './flow.js';
+import {JourneyAnatomyFocus,JourneyNativeDetails} from './anatomy.js';
+import {JourneyPhysiology} from './physiology.js';
+import {JourneyStudyTour} from './study-tours.js';
 import {JourneyControls} from './controls.js';
 import {JOURNEY_RADIUS,relativeSize,anatomicalHeading,JourneyPerspective} from './perspective.js';
 import {JourneyWayfinding} from './wayfinding.js';
@@ -26,16 +29,17 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  <div class="journey-stage"><div class="journey-message" role="status">내부 공간을 준비하고 있어요…</div><div class="journey-reticle" aria-hidden="true"></div><div class="journey-feedback" role="status"></div><div class="journey-map" hidden><div class="journey-map-modes" role="group" aria-label="위치도 방향"><button data-projection="side">옆</button><button data-projection="front">앞</button></div><canvas width="240" height="380" aria-label="현재 위치와 시선 방향"></canvas><span class="journey-map-caption">뒤 P · 앞 A</span></div>
  <div class="journey-touch"><div class="journey-stick" role="group" aria-label="전후·좌우 이동"><span></span><i>이동</i></div><div class="journey-height"><button data-lift="1" aria-label="화면 위로 이동">↑</button><button data-lift="-1" aria-label="화면 아래로 이동">↓</button></div></div></div>
  <div class="journey-bottom"><div class="journey-size" role="group" aria-label="탐험 크기"><span>크기</span><button data-size-step="1" aria-label="탐험 크기 줄이기">−</button><output class="journey-size-value" aria-live="polite">1×</output><button data-size-step="-1" aria-label="탐험 크기 늘리기">+</button></div><button class="journey-map-toggle" aria-pressed="false">위치</button><button class="journey-help-toggle" aria-expanded="false" aria-controls="journey-help">조작 · 안내</button></div>
- <section id="journey-help" class="journey-help" hidden><div><b>자유롭게 이동하기</b><button class="journey-help-close" aria-label="안내 닫기">×</button></div><p><kbd>W / S</kbd> 바라보는 쪽으로 전진·후진<br><kbd>A / D</kbd> 화면 왼쪽·오른쪽<br><kbd>Q / E</kbd> 화면 아래·위 · <kbd>Shift</kbd> 빠르게<br>화면 한 번 클릭 → 마우스 움직임으로 둘러보기<br>클릭을 누르고 있을 필요가 없어요 · Esc로 해제<br>방향키로도 시선을 돌릴 수 있어요</p><p>터치: 왼쪽 조이스틱으로 이동, 화면을 드래그해 둘러보세요. 오른쪽 ↑↓는 화면 기준 위아래 이동입니다.</p><p>크기가 작아지면 시야가 넓어지고 이동 속도가 줄어, 같은 공간이 상대적으로 넓게 느껴집니다. 시선 방향 표시는 인체 기준입니다.</p><p class="journey-notice"></p><p>입에서 소화관 또는 기관·엽·분절기관지까지 이어서 이동할 수 있습니다. 좁은 가지에서는 크기를 줄여 보세요. 심장 · 동맥 · 정맥에서는 우심방→우심실→폐동맥, 폐정맥→좌심방→좌심실→전신 동맥을 따라 이동합니다. 상단 부위 이동에서 장기·부위를 검색해 바로 이동할 수 있습니다. 경로 안내를 고르면 연결된 다음 입구를 순서대로 표시하며, 이동과 시선은 직접 조작합니다. 같은 원본의 연결 영역은 이동 중 자동으로 이어집니다. 흐름 입자는 방향 학습용이며 실제 유속·압력·판막 운동을 재현하지 않습니다. 대응 혈관이 있는 폐·신장·골반·상지의 끝에서는 미세순환 생략을 선택해 반대편 혈관으로 전환합니다. 말초 분지와 모세혈관을 생략한 위치 이동이며 실제 직통 혈관은 아닙니다. 정맥 쪽에서는 역방향 탐험도 가능합니다. 소화관과 혈관 사이의 부위 이동은 위치 전환입니다. 부위 이동의 이전 위치를 누르면 이동 전 위치·시선·크기를 복원합니다.</p><div class="journey-sources"></div></section>`;
+ <section id="journey-help" class="journey-help" hidden><div><b>자유롭게 이동하기</b><button class="journey-help-close" aria-label="안내 닫기">×</button></div><p><kbd>W / S</kbd> 바라보는 쪽으로 전진·후진<br><kbd>A / D</kbd> 화면 왼쪽·오른쪽<br><kbd>Q / E</kbd> 화면 아래·위 · <kbd>Shift</kbd> 빠르게<br>화면 한 번 클릭 → 마우스 움직임으로 둘러보기<br>클릭을 누르고 있을 필요가 없어요 · Esc로 해제<br>방향키로도 시선을 돌릴 수 있어요</p><p>터치: 왼쪽 조이스틱으로 이동, 화면을 드래그해 둘러보세요. 오른쪽 ↑↓는 화면 기준 위아래 이동입니다.</p><p>크기가 작아지면 시야가 넓어지고 이동 속도가 줄어, 같은 공간이 상대적으로 넓게 느껴집니다. 시선 방향 표시는 인체 기준입니다.</p><p class="journey-notice"></p><p>입에서 소화관 또는 기관·엽·분절기관지까지 이어서 이동할 수 있습니다. 좁은 가지에서는 크기를 줄여 보세요. 심장 · 동맥 · 정맥에서는 우심방→우심실→폐동맥, 폐정맥→좌심방→좌심실→전신 동맥을 따라 이동합니다. 상단 부위 이동에서 장기·부위를 검색해 바로 이동할 수 있습니다. 경로 안내를 고르면 연결된 다음 입구를 순서대로 표시하며, 이동과 시선은 직접 조작합니다. 같은 원본의 연결 영역은 이동 중 자동으로 이어집니다. 흐름 입자는 방향 학습용입니다. 생리 주기는 심장 충만·박출과 호흡·소변 이동 파동을 표시하며, 판막 위치의 링은 개폐 시점 표식입니다. 실제 유속·압력·벽 변형을 계산하지 않습니다. 원본 판엽 관찰은 별도의 정적 구조 보기입니다. 대응 혈관이 있는 폐·신장·골반·상지의 끝에서는 미세순환 생략을 선택해 반대편 혈관으로 전환합니다. 말초 분지와 모세혈관을 생략한 위치 이동이며 실제 직통 혈관은 아닙니다. 정맥 쪽에서는 역방향 탐험도 가능합니다. 소화관과 혈관 사이의 부위 이동은 위치 전환입니다. 부위 이동의 이전 위치를 누르면 이동 전 위치·시선·크기를 복원합니다.</p><div class="journey-sources"></div></section>`;
  const previousOverflow=document.documentElement.style.overflow;document.documentElement.style.overflow='hidden';document.body.append(dialog);dialog.showModal();
  const notifyHost=open=>{if(window.parent!==window)window.parent.postMessage({type:'atlas:journey',open},location.origin);};notifyHost(true);
  const find=s=>dialog.querySelector(s),stage=find('.journey-stage'),message=find('.journey-message'),travelToggle=find('.journey-travel-toggle'),map=find('.journey-map'),help=find('.journey-help');
  const hintControl=document.createElement('label');hintControl.className='journey-hint-control';hintControl.innerHTML='입구 · 구조 이름 표시 <input type="checkbox" checked>';help.insertBefore(hintControl,find('.journey-notice'));
- let renderer,controls,asset,closed=false,loading=false,transitioning=false,request=0,dirty=true,last=0,lastHud=0,lastRegion=0,lastFeedback='',feedbackUntil=0,observer,frameId=0,wayfinding,minimap,boundaryGuide,clinical,learning,destinations,routeGuide,transfers,network,directNetwork,flow,previousView=null;
+ let renderer,controls,asset,closed=false,loading=false,transitioning=false,request=0,dirty=true,last=0,lastHud=0,lastRegion=0,lastFeedback='',feedbackUntil=0,observer,frameId=0,wayfinding,minimap,boundaryGuide,clinical,learning,destinations,routeGuide,transfers,network,directNetwork,flow,anatomy,nativeDetails,physiology,study,focusName='',previousView=null;
  const streamer=new JourneyRegionStreamer(loadJourney);
  const flowControl=document.createElement('label');flowControl.className='journey-hint-control';flowControl.innerHTML='흐름 방향 · 학습용 <input type="checkbox">';help.insertBefore(flowControl,find('.journey-notice'));flowControl.querySelector('input').checked=!matchMedia('(prefers-reduced-motion: reduce)').matches;flowControl.querySelector('input').onchange=e=>{if(flow)flow.enabled=e.target.checked;dirty=true;};
+ const motionControl=document.createElement('label');motionControl.className='journey-hint-control';motionControl.innerHTML='생리 주기 · 학습용 <input type="checkbox">';help.insertBefore(motionControl,find('.journey-notice'));motionControl.querySelector('input').onchange=e=>{if(physiology)physiology.enabled=e.target.checked;if(e.target.checked){flowControl.querySelector('input').checked=true;if(flow)flow.enabled=true;}dirty=true;};
  const cleanups=[],listen=(target,event,fn)=>{target.addEventListener(event,fn);cleanups.push(()=>target.removeEventListener(event,fn));};
- const close=()=>{if(closed)return;closed=true;request++;cancelAnimationFrame(frameId);controls?.dispose();wayfinding?.dispose();minimap?.dispose();boundaryGuide?.dispose();clinical?.dispose();learning?.dispose();destinations?.dispose();routeGuide?.dispose();flow?.dispose();streamer.dispose();observer?.disconnect();asset?.dispose();renderer?.dispose();renderer?.forceContextLoss();cleanups.forEach(fn=>fn());dialog.close();dialog.remove();document.documentElement.style.overflow=previousOverflow;notifyHost(false);onClose();};
+ const close=()=>{if(closed)return;closed=true;request++;cancelAnimationFrame(frameId);controls?.dispose();wayfinding?.dispose();minimap?.dispose();boundaryGuide?.dispose();clinical?.dispose();learning?.dispose();destinations?.dispose();routeGuide?.dispose();flow?.dispose();nativeDetails?.dispose();physiology?.dispose();study?.dispose();streamer.dispose();observer?.disconnect();asset?.dispose();renderer?.dispose();renderer?.forceContextLoss();cleanups.forEach(fn=>fn());dialog.close();dialog.remove();document.documentElement.style.overflow=previousOverflow;notifyHost(false);onClose();};
  find('.journey-back').onclick=close;listen(dialog,'cancel',e=>{e.preventDefault();if(controls?.consumeEscape()||document.pointerLockElement)return;if(destinations&&!destinations.hidden){toggleDestinations(false);return;}if(learning&&!learning.hidden){toggleLearning(false);return;}if(!help.hidden){toggleHelp(false);return;}close();});listen(window,'pagehide',e=>{if(!e.persisted)close();});
  try{renderer=new T.WebGLRenderer({antialias:true,alpha:false});}catch(error){message.textContent='이 환경에서는 3D 탐험을 열 수 없어요. 해부모형으로 돌아가 주세요.';console.error(error);return;}
  const canvas=renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('aria-label','1인칭 탐험. W A S D로 이동, Q E로 화면 아래·위 이동, 화면 한 번 클릭 후 마우스 움직임 또는 방향키로 시선 회전');stage.prepend(canvas);
@@ -58,11 +62,16 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const currentPart=()=>asset?.manifest.parts.find(p=>p.id===(asset.inspect?.(camera)||asset.field.region(camera.position.toArray())));
  const badge=document.createElement('button');badge.className='journey-clinical-badge';badge.hidden=true;stage.append(badge);
  const heading=document.createElement('span');heading.className='journey-heading';heading.setAttribute('aria-label','현재 시선의 해부학적 방향');heading.title='인체 기준 방향 · 이동 조작은 현재 화면 기준';stage.append(heading);
- const syncClinical=()=>{learning?.syncExample(clinical?.active);badge.hidden=!clinical?.active;badge.textContent=clinical?.active?clinicalExamples[clinical.active.id].english+' · 해제 ×':'';if(wayfinding){wayfinding.frame=null;wayfinding.update();}dirty=true;};
- const toggleLearning=value=>{if(!asset||loading||transitioning)return;if(value){toggleHelp(false);toggleDestinations(false);learning.update(asset.manifest,currentPart(),clinical?.active);}learning.setOpen(value);find('.journey-location').setAttribute('aria-expanded',String(value));controls?.clear();syncInput();if(!value)canvas.focus({preventScroll:true});};
+ const focusBadge=document.createElement('button');focusBadge.className='journey-feature-badge';focusBadge.hidden=true;stage.append(focusBadge);
+ const phaseLabel=document.createElement('span');phaseLabel.className='journey-phase';stage.append(phaseLabel);
+ const syncFocus=()=>{focusBadge.hidden=!focusName&&!nativeDetails?.enabled;focusBadge.textContent=(focusName||'원본 판엽 관찰')+' · 해제 ×';dirty=true;};
+ focusBadge.onclick=()=>{anatomy?.reset();focusName='';nativeDetails?.setEnabled(false);if(clinical?.field)clinical.field.revision++;wayfinding?.setDetailHints([]);syncFocus();canvas.focus({preventScroll:true});};
+ const learningState=()=>({native:!!nativeDetails?.enabled,exposed:!!asset?.field.exposed,mode:asset?.field.mode,details:nativeDetails?.enabled?nativeDetails.records:[]});
+ const syncClinical=()=>{learning?.syncExample(clinical?.active);badge.hidden=!clinical?.active;badge.textContent=clinical?.active?clinicalExamples[clinical.active.id].english+' · 해제 ×':'';if(wayfinding){const active=clinical?.active;if(active?.position){const point=new T.Vector3(...active.position),shape=clinical.field.shapes[0];if(shape)point.addScaledVector(camera.position.clone().sub(point).normalize(),Math.max(...shape.radii)+.0002);wayfinding.focus={id:'clinical-lesion',name:clinicalExamples[active.id].english,detail:'국소 병태',point:point.toArray(),regions:[active.part],range:.12,surface:true};wayfinding.enabled=true;hintControl.querySelector('input').checked=true;}else if(wayfinding.focus?.id==='clinical-lesion')wayfinding.focus=null;wayfinding.frame=null;wayfinding.update();}dirty=true;};
+ const toggleLearning=value=>{if(!asset||loading||transitioning)return;if(value){toggleHelp(false);toggleDestinations(false);learning.update(asset.manifest,currentPart(),clinical?.active,learningState());}learning.setOpen(value);find('.journey-location').setAttribute('aria-expanded',String(value));controls?.clear();syncInput();if(!value)canvas.focus({preventScroll:true});};
  learning=new JourneyLearningPanel(dialog,{onToggle:toggleLearning,onExample:(example,amount)=>{
   if(!clinical||!controls)return;const result=clinical.apply(example,amount,currentPart(),controls.radius);syncClinical();if(!result.ok)feedback(result.message,4500);else feedback('');
- },onHighlight:id=>{if(wayfinding){wayfinding.enabled=true;hintControl.querySelector('input').checked=true;const state=wayfinding.highlight(id);feedback(state==='visible'?'구조 위치를 표시했어요.':state==='offscreen'?'화살표 방향으로 직접 둘러보세요.':state==='occluded'?'구조가 벽 뒤에 가려져 있어요. 통로를 따라 이동해 보세요.':'이 위치에서는 연결 입구를 표시할 수 없어요.',3500);}}});
+ },onTravel:part=>{study?.clear();changeWorld(part.key,{id:part.id});},onDetails:async value=>{const target=nativeDetails;if(!target||loading)return false;try{const result=await target.setEnabled(value,camera.position.toArray(),controls.radius);if(target!==nativeDetails||closed)return false;if(!result.ok){feedback(result.message||'판엽을 불러오지 못했어요.',4000);return false;}clinical.field.revision++;wayfinding?.setDetailHints(value?target.records:[]);syncFocus();learning.update(asset.manifest,currentPart(),clinical.active,learningState());return true;}catch{feedback('원본 판엽을 불러오지 못했어요. 다시 시도해 주세요.',4000);return false;}},onExposure:value=>{if(!asset.field.setExposure?.(value,camera.position.toArray(),controls.radius)){feedback('이 위치에서는 주변 피질을 다시 표시할 수 없어요. 열린 공간으로 이동해주세요.',4500);return;}learning.update(asset.manifest,currentPart(),clinical.active,learningState());minimap?.draw();dirty=true;},onHighlight:id=>{const feature=anatomy?.select(id);focusName=feature?.name||'';syncFocus();if(asset?.manifest.kind==='brain'&&feature){feedback('');return;}if(wayfinding){wayfinding.enabled=true;hintControl.querySelector('input').checked=true;const state=wayfinding.highlight(id);feedback(state==='visible'?'구조 위치를 표시했어요.':state==='offscreen'?'화살표 방향으로 직접 둘러보세요.':state==='occluded'?'구조가 벽 뒤에 가려져 있어요. 통로를 따라 이동해 보세요.':'이 위치에서는 연결 입구를 표시할 수 없어요.',3500);}}});
  find('.journey-location').onclick=()=>toggleLearning(learning.hidden);badge.onclick=()=>{clinical?.reset();syncClinical();canvas.focus({preventScroll:true});};
  find('.journey-help-toggle').onclick=()=>toggleHelp(help.hidden);find('.journey-help-close').onclick=()=>toggleHelp(false);
  hintControl.querySelector('input').onchange=e=>{if(wayfinding){wayfinding.enabled=e.target.checked;wayfinding.update();}};
@@ -71,8 +80,8 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const syncSize=({immediate=false}={})=>{if(!controls)return;const scale=relativeSize(controls.radius);perspective.setRadius(controls.radius,{immediate});find('.journey-size-value').textContent=sizeLabel(scale);find('[data-size-step="1"]').disabled=scale<=sizeSteps.at(-1);find('[data-size-step="-1"]').disabled=scale>=1;dirty=true;};
  const setSize=scale=>{if(!controls||loading||transitioning)return;const radius=JOURNEY_RADIUS*scale;if(asset.manifest.kind==='brain'&&asset.field.mode==='surface'){const hit=asset.field.walkState||asset.field.project(camera.position.toArray());if(hit){const point=hit.point.clone().addScaledVector(hit.normal,radius*3.5);if(asset.field.clearance(point.toArray())>=radius){camera.position.copy(point);asset.field.place({position:point.toArray(),id:hit.id,surfaceContact:{point:hit.point.toArray(),normal:hit.normal.toArray()}});controls.radius=radius;syncSize();canvas.focus({preventScroll:true});return;}}}if(controls.field.clearance(camera.position.toArray())<radius){feedback('이곳은 좁아서 크기를 늘릴 수 없어요. 넓은 곳으로 이동하세요.');return;}if(radius!==controls.radius){controls.radius=radius;syncSize();feedback(`몸 크기 ${sizeLabel(scale)} · 상대 공간 ${1/scale}×`,2500);}canvas.focus({preventScroll:true});};
  dialog.querySelectorAll('[data-size-step]').forEach(button=>button.onclick=()=>{if(!controls)return;const index=sizeSteps.indexOf(relativeSize(controls.radius)),next=sizeSteps[index+Number(button.dataset.sizeStep)];if(next)setSize(next);});
- const updateLocation=()=>{if(!asset||!controls)return;camera.getWorldDirection(headingVector);const text='시선 · '+anatomicalHeading(headingVector);if(heading.textContent!==text)heading.textContent=text;const part=currentPart(),id=part?.id;if(part&&id!==lastRegion){lastRegion=id;find('.journey-location strong').textContent=part.name;find('.journey-location small').textContent=part.kind==='heart'?(part.circuit==='right'?'RIGHT':'LEFT')+' HEART · '+(part.name.endsWith('atrium')?'ATRIUM':'VENTRICLE'):asset.manifest.kind==='brain'?(asset.field.mode==='surface'?'CORTICAL SURFACE · 피질 걷기':'DISSECTION · 내부 해부'):'INTERNAL EXPLORER · 재구성 모델';canvas.dataset.region=String(id);environment.setWidth(asset.manifest.kind==='brain'?.06:part.clearance,{chamber:part.kind==='heart'});dirty=true;}routeGuide?.update(asset.manifest.key,id);canvas.dataset.position=camera.position.toArray().map(v=>v.toFixed(5)).join(',');};
- const captureView=()=>asset&&controls?{key:asset.manifest.key,id:currentPart()?.id,name:currentPart()?.name||asset.manifest.key,position:camera.position.toArray(),yaw:controls.yaw,pitch:controls.pitch,radius:controls.radius,projection:minimap?.axis,frame:journeyFrame(asset.manifest),navigationFrame:controls.frame.toArray(),mode:asset.field.mode,side:asset.field.side,surfaceContact:asset.field.walkState?{point:asset.field.walkState.point.toArray(),normal:asset.field.walkState.normal.toArray()}:undefined}:null;
+ const updateLocation=()=>{if(!asset||!controls)return;camera.getWorldDirection(headingVector);const text='시선 · '+anatomicalHeading(headingVector);if(heading.textContent!==text)heading.textContent=text;const part=currentPart(),id=part?.id;if(part&&id!==lastRegion){if(lastRegion){anatomy?.reset();focusName='';syncFocus();}lastRegion=id;if(clinical?.active?.part===id)syncClinical();find('.journey-location strong').textContent=part.name;find('.journey-location small').textContent=part.kind==='heart'?(part.circuit==='right'?'RIGHT':'LEFT')+' HEART · '+(part.name.endsWith('atrium')?'ATRIUM':'VENTRICLE'):asset.manifest.kind==='brain'?(asset.field.mode==='surface'?'CORTICAL SURFACE · 피질 걷기':'DISSECTION · 내부 해부'):'INTERNAL EXPLORER · 재구성 모델';canvas.dataset.region=String(id);environment.setWidth(asset.manifest.kind==='brain'?.06:part.clearance,{chamber:part.kind==='heart'});dirty=true;}routeGuide?.update(asset.manifest.key,id);canvas.dataset.position=camera.position.toArray().map(v=>v.toFixed(5)).join(',');};
+ const captureView=()=>asset&&controls?{key:asset.manifest.key,id:currentPart()?.id,name:currentPart()?.name||asset.manifest.key,position:camera.position.toArray(),yaw:controls.yaw,pitch:controls.pitch,radius:controls.radius,projection:minimap?.axis,frame:journeyFrame(asset.manifest),navigationFrame:controls.frame.toArray(),mode:asset.field.mode,side:asset.field.side,exposed:asset.field.exposed,surfaceContact:asset.field.walkState?{point:asset.field.walkState.point.toArray(),normal:asset.field.walkState.normal.toArray()}:undefined}:null;
  const toggleDestinations=value=>{
   if(value&&(!asset||loading||transitioning))return;
   if(value){toggleHelp(false);toggleLearning(false);}
@@ -89,11 +98,12 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
   const entrances=continuationEntrances(asset.manifest,network.manifests.get(next.key),option),after=routeGuide.path?.[2],entrance=entrances.find(e=>e.part.id===after?.id)||entrances[0];
   wayfinding.setPortal(entrance?{name:entrance.part.name,detail:'이어서 이동 →',point:entrance.point,regions:[from.id]}:null);
  },onStop:()=>canvas.focus({preventScroll:true})});
- destinations=new JourneyDestinationPanel(dialog,{onToggle:toggleDestinations,onCatalog:manifests=>{
+ study=new JourneyStudyTour(stage,{onTravel:part=>{toggleDestinations(false);routeGuide.clear();return changeWorld(part.key,{id:part.id});},onStop:()=>canvas.focus({preventScroll:true})});
+ destinations=new JourneyDestinationPanel(dialog,{onToggle:toggleDestinations,onTour:tour=>{routeGuide.clear();study.start(tour);},onCatalog:manifests=>{
   network=new JourneyNetwork(manifests);directNetwork=new JourneyNetwork(manifests,{includeTransfers:false});routeGuide.setNetwork(network);streamer.setManifests(manifests);
   if(asset){destinations.reachable=network.reachable(asset.manifest.key,currentPart()?.id);destinations.directReachable=directNetwork.reachable(asset.manifest.key,currentPart()?.id);}
- },onTravel:part=>changeWorld(part.key,{id:part.id}),onReturn:()=>{if(previousView)changeWorld(previousView.key,{view:previousView});},onGuide:part=>{
-  if(loading||!asset)return;
+ },onTravel:part=>{study.clear();changeWorld(part.key,{id:part.id});},onReturn:()=>{if(previousView)changeWorld(previousView.key,{view:previousView});},onGuide:part=>{
+  if(loading||!asset)return;study.clear();
   if(!routeGuide?.select(asset.manifest.key,currentPart()?.id,part)){feedback('현재 위치에서 이어지는 탐험 통로가 없어요.',3500);return;}
   toggleDestinations(false);feedback('');
  }});
@@ -101,8 +111,8 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
  const brainModes=document.createElement('div');brainModes.className='journey-brain-modes';brainModes.hidden=true;brainModes.setAttribute('role','group');brainModes.setAttribute('aria-label','뇌 탐험 방식');
  for(const [mode,label]of [['surface','피질 걷기'],['interior','내부 해부'],['csf','뇌실']]){const button=document.createElement('button');button.dataset.brainMode=mode;button.textContent=label;button.onclick=async()=>{if(!asset||loading||transitioning)return;if(mode==='csf'){changeWorld('brain-csf',{id:1});return;}if(asset.manifest.kind==='csf'){try{const brain=await loadJourneyManifest('brain'),target=brain.parts.find(p=>p.layer===(mode==='surface'?0:1)&&p.navigable!==false);if(!closed&&target)changeWorld('brain',{id:target.id});}catch{feedback('뇌 목록을 불러오지 못했어요.',3000);}return;}if(asset.manifest.kind!=='brain')return;const part=asset.manifest.parts.find(p=>p.layer===(mode==='surface'?0:1)&&p.hemisphere===asset.field.side&&p.navigable!==false);if(part)changeWorld('brain',{id:part.id});};brainModes.append(button);}find('.journey-bottom').insertBefore(brainModes,find('.journey-map-toggle'));
  const applyPose=(pose,{keepRoute=false,preserveInput=false}={})=>{
-  if(!preserveInput)controls.clear();if(!keepRoute)routeGuide?.clear();clinical.reset();syncClinical();camera.position.fromArray(pose.position);controls.radius=pose.radius;
-  if(asset.manifest.kind==='brain'){asset.field.setMode(pose.mode||'surface',pose.side||'L');asset.field.place(pose);find('.journey-height').hidden=asset.field.mode==='surface';}
+  if(!preserveInput)controls.clear();if(!keepRoute)routeGuide?.clear();clinical.reset();syncClinical();nativeDetails?.setEnabled(false);wayfinding?.setDetailHints([]);anatomy?.reset();focusName='';syncFocus();camera.position.fromArray(pose.position);controls.radius=pose.radius;
+  if(asset.manifest.kind==='brain'){asset.field.exposed=pose.exposed??asset.field.exposed;asset.field.setMode(pose.mode||'surface',pose.side||'L');asset.field.place(pose);find('.journey-height').hidden=asset.field.mode==='surface';}
   controls.resetFrame(asset.field.upAt?.(pose.position)||[0,1,0],pose.navigationFrame);
   for(const b of brainModes.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.brainMode===(asset.manifest.kind==='csf'?'csf':asset.field.mode)));
   if(pose.direction)controls.aim(pose.direction);else{controls.yaw=pose.yaw;controls.pitch=pose.pitch;controls.updateRotation();}
@@ -125,14 +135,14 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
   }finally{transitioning=false;if(!closed){transit.hidden=true;travelToggle.disabled=false;controls.clearInputs();syncInput();canvas.focus({preventScroll:true});}}
  }
  async function changeWorld(key,{id,view,shared,automatic=false}={}){
-  if(loading||transitioning||closed)return;
+  if(loading||transitioning||closed)return false;
   if(!automatic&&streamer.ready?.manifest.key!==key)streamer.clear();
   const origin=captureView(),targetId=id??journeyModes.find(m=>m.id===key)?.start;
   const resolvePose=next=>shared?regionTransitionPose(asset,next,shared,origin):view?restoreJourneyPose(next,view):destinationPose(next,targetId,origin?.radius??(key==='upper'?.0016:.0008));
   if(asset?.manifest.key===key){
    const pose=resolvePose(asset);if(!pose){feedback('이 위치로 이동할 수 없어요.',3500);return;}
    toggleDestinations(false);toggleHelp(false);toggleLearning(false);applyPose(pose);previousView=origin;
-   message.hidden=true;feedback('이동 · '+currentPart().name,2500);return;
+   message.hidden=true;feedback('이동 · '+currentPart().name,2500);return true;
   }
   if(!automatic){toggleDestinations(false);toggleHelp(false);toggleLearning(false);}
   const token=++request;loading=true;travelToggle.disabled=true;dialog.setAttribute('aria-busy','true');delete dialog.dataset.ready;if(!automatic)controls?.clear();syncInput();
@@ -143,27 +153,29 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
    const pose=resolvePose(pendingAsset);if(!pose&&shared){pendingAsset.dispose();pendingAsset=null;message.hidden=true;feedback('현재 크기·위치로는 다음 공간에 들어갈 수 없어요. 크기를 줄이거나 조금 안쪽에서 다시 선택하세요.',4500);return;}if(!pose)throw Error('No safe destination in this exploration region');
    // Do not discard the current world until both the new asset and landing
    // point are ready. A failed download leaves its position and input intact.
-   if(!automatic){controls?.dispose();controls=null;}wayfinding?.dispose();wayfinding=null;minimap?.dispose();minimap=null;boundaryGuide?.dispose();boundaryGuide=null;clinical?.dispose();clinical=null;flow?.dispose();flow=null;badge.hidden=true;
+   if(!automatic){controls?.dispose();controls=null;}wayfinding?.dispose();wayfinding=null;minimap?.dispose();minimap=null;boundaryGuide?.dispose();boundaryGuide=null;clinical?.dispose();clinical=null;flow?.dispose();flow=null;nativeDetails?.dispose();nativeDetails=null;physiology?.dispose();physiology=null;anatomy=null;focusName='';focusBadge.hidden=true;badge.hidden=true;
    if(asset){scene.remove(asset.mesh);asset.dispose();}asset=pendingAsset;pendingAsset=null;scene.add(asset.mesh);lastRegion=0;dirty=true;
    const isBrain=asset.manifest.kind==='brain';brainModes.hidden=!isBrain&&asset.manifest.kind!=='csf';find('.journey-height').hidden=false;
-   clinical=isBrain?{field:asset.field,active:null,reset(){},dispose(){}}:new JourneyClinicalLayer(asset,scene,camera);
+   nativeDetails=isBrain?null:new JourneyNativeDetails(asset,scene);
+   clinical=isBrain?{field:asset.field,active:null,reset(){},dispose(){}}:new JourneyClinicalLayer({...asset,field:nativeDetails.field},scene,camera);
+   anatomy=new JourneyAnatomyFocus(asset);physiology=new JourneyPhysiology(asset,scene);physiology.enabled=motionControl.querySelector('input').checked;
    if(controls)controls.field=clinical.field;else controls=new JourneyControls(camera,canvas,{field:clinical.field,radius:pose.radius,onChange:()=>dirty=true,onLookModeChange:mode=>feedback(mode==='off'?'시선 조작 해제 · 화면 클릭으로 다시 시작':'마우스로 둘러보기 · Esc로 해제',2500),onExit:()=>{if(!destinations.hidden)toggleDestinations(false);else if(!learning.hidden)toggleLearning(false);else if(!help.hidden)toggleHelp(false);else close();}});
    syncInput();scene.background.set(isBrain?'#34424a':asset.manifest.kind==='csf'?'#27414b':'#2e1e24');scene.fog.color.set(isBrain?'#34424a':asset.manifest.kind==='csf'?'#27414b':'#35232a');
    find('.journey-notice').textContent=asset.manifest.notice;
    const sources=find('.journey-sources');sources.replaceChildren();
    for(const [label,url]of [[(asset.manifest.source.name||'Z-Anatomy')+' · '+asset.manifest.license,asset.manifest.source.url],...(asset.manifest.landmarkRegistration?[['BodyParts3D · DBCLS','https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html']]:[]),['해부학 참고',asset.manifest.references[0]]]){const a=document.createElement('a');a.textContent=label+' ↗';a.href=url;a.target='_blank';a.rel='noopener noreferrer';sources.append(a);}
    applyPose(pose,{keepRoute:!!shared,preserveInput:automatic});
-   flow=new JourneyFlow(asset,scene,camera,{reducedMotion:perspective.reducedMotion});flow.enabled=flowControl.querySelector('input').checked;
+   flow=new JourneyFlow(asset,scene,camera,{reducedMotion:perspective.reducedMotion});flow.enabled=flowControl.querySelector('input').checked;flow.physiology=physiology;
    minimap=new JourneyContextView(map,asset,camera,()=>{dirty=true;});if(pose.projection){minimap.axis=pose.projection;minimap.draw();}
    transfers=new CapillaryTransfers(asset.manifest);
    wayfinding=new JourneyWayfinding(stage,{...asset,field:clinical.field},camera);wayfinding.enabled=hintControl.querySelector('input').checked;boundaryGuide=new JourneyBoundaryGuide(stage,asset,camera,{transfers,onTransfer:crossCapillary,onRegion:option=>changeWorld(option.key,{shared:option})});
    routeGuide.current=null;routeGuide.update(asset.manifest.key,currentPart()?.id);destinations.load();
-   if(origin&&!automatic)previousView=origin;message.hidden=true;dialog.dataset.ready=key;canvas.focus({preventScroll:true});if(origin&&!automatic)feedback((shared?.type==='capillary'?'미세순환 생략 → ':'이동 · ')+currentPart().name,2500);
+   if(origin&&!automatic)previousView=origin;message.hidden=true;dialog.dataset.ready=key;canvas.focus({preventScroll:true});if(origin&&!automatic)feedback((shared?.type==='capillary'?'미세순환 생략 → ':'이동 · ')+currentPart().name,2500);return true;
   }catch(error){
    pendingAsset?.dispose();if(closed||token!==request)return;if(asset)dialog.dataset.ready=asset.manifest.key;
    message.replaceChildren(document.createTextNode('탐험 데이터를 불러오지 못했어요. '));
    const retry=document.createElement('button');retry.textContent='다시 시도';retry.onclick=()=>changeWorld(key,{id,view,shared});message.append(retry);
-   if(asset){const dismiss=document.createElement('button');dismiss.textContent='계속 보기';dismiss.onclick=()=>{message.hidden=true;canvas.focus({preventScroll:true});};message.append(dismiss);}console.error(error);
+   if(asset){const dismiss=document.createElement('button');dismiss.textContent='계속 보기';dismiss.onclick=()=>{message.hidden=true;canvas.focus({preventScroll:true});};message.append(dismiss);}console.error(error);return false;
   }finally{if(!closed&&token===request){loading=false;travelToggle.disabled=!asset;dialog.removeAttribute('aria-busy');if(!automatic)controls?.clearInputs();syncInput();}}
  }
  // Independent touch pointers allow looking and moving at the same time.
@@ -180,7 +192,7 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
    controls.step(dt);
    if(now-lastHud>100){
     updateLocation();minimap?.draw();wayfinding?.update();
-    const continuation=!clinical?.active&&asset.manifest.kind!=='brain'?streamer.update(asset,captureView(),controls.motion,routeGuide.path?.[1]?.via.type==='region'?routeGuide.path[1].key:null):null;
+    const continuation=!clinical?.active&&!nativeDetails?.enabled&&asset.manifest.kind!=='brain'?streamer.update(asset,captureView(),controls.motion,routeGuide.path?.[1]?.via.type==='region'?routeGuide.path[1].key:null):null;
     if(continuation){changeWorld(continuation.key,{shared:continuation,automatic:true});lastHud=now;return;}if(feedbackUntil&&now>feedbackUntil)feedback('');
     const atBoundary=boundaryGuide?.update(lastFeedback===blockedMessage?'':lastFeedback);
     find('.journey-feedback').hidden=!!atBoundary;
@@ -192,7 +204,10 @@ export async function openJourney({onClose=()=>{},initialMode='upper'}={}){
     lastHud=now;
    }
   }
-  if(flow?.update(now,controls.field,!loading&&!transitioning&&help.hidden&&learning.hidden&&destinations.hidden))dirty=true;
+  const active=!loading&&!transitioning&&help.hidden&&learning.hidden&&destinations.hidden;
+  if(physiology?.update(now,active&&!nativeDetails?.enabled&&!perspective.reducedMotion))dirty=true;
+  const phase=nativeDetails?.enabled?'':physiology?.label(asset?.manifest.parts.find(p=>p.id===lastRegion))||'';if(phaseLabel.textContent!==phase)phaseLabel.textContent=phase;
+  if(flow?.update(now,controls.field,active&&!nativeDetails?.enabled))dirty=true;
   if(dirty){renderer.render(scene,camera);minimap?.render(renderer);dirty=false;}
  };
  const visibility=()=>{controls?.clear();resetStick();last=performance.now();dirty=true;};listen(document,'visibilitychange',visibility);frameId=requestAnimationFrame(frame);

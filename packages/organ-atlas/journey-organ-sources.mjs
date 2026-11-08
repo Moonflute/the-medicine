@@ -29,9 +29,9 @@ export const organJourneySources={
    biliary('Right hepatic duct','우간관','VH_M_right_hepatic_duct','오른쪽 간의 담즙을 모읍니다. 원본에 포함된 간 밖 구간까지만 탐험합니다.'),
    biliary('Left hepatic duct','좌간관','VH_M_left_hepatic_duct','왼쪽 간의 담즙을 모읍니다. 원본에 포함된 간 밖 구간까지만 탐험합니다.'),
    biliary('Common bile duct','총담관','VH_M_common_bile_duct','총간관과 담낭관의 합류 뒤 이어져 십이지장 방향으로 담즙을 전달합니다.'),
-   biliary('Hepatopancreatic ampulla','간췌팽대','VH_M_hepatopancreatic_ampulla','담관과 췌관이 만나는 원본의 팽대부입니다. 십이지장 개구의 실제 괄약근 운동은 재현하지 않습니다.',{sourceFile:'pancreas.glb.gz',endNotice:'팽대부까지 탐험할 수 있어요. 다른 표본의 십이지장과 실제 통로로 이어 붙이지 않았어요.'}),
+   biliary('Hepatopancreatic ampulla','간췌팽대','VH_M_hepatopancreatic_ampulla','담관과 췌관이 만나는 원본의 팽대부입니다. 십이지장 개구의 실제 괄약근 운동은 재현하지 않습니다.',{sourceFile:'pancreas.glb.gz',endNotice:'같은 HRA 표본의 십이지장 내림부분으로 이어집니다.'}),
    biliary('Ventral pancreatic duct — source segment','복측 췌관 구간','VH_M_ventral_pancreatic_duct','이 원본이 복측 췌관으로 구분한 구간입니다. 주췌관·부췌관의 개인별 합류 형태를 일반화하지 않습니다.',{sourceFile:'pancreas.glb.gz',color:'#d9b89d'}),
    biliary('Dorsal pancreatic duct — source segment','배측 췌관 구간','VH_M_dorsal_pancreatic_duct','이 원본이 배측 췌관으로 구분한 구간입니다. 세부 췌관 분지는 포함하지 않습니다.',{sourceFile:'pancreas.glb.gz',color:'#d9b89d'})
-  ],connections:[[1,2],[2,6],[3,4],[3,5],[3,6],[6,7],[7,8],[8,9]],forks:[[3,[4,5]],[6,[2,3]]],references:[biliaryReference],
-  notice:'HRA 담낭·담도·췌관의 원본 외형과 상대 좌표를 보존한 탐험용 재구성입니다. 소화관 탐험과 표본이 달라 십이지장에 임의로 접합하지 않습니다. 원본 췌관 구분을 따르며 실제 점막·괄약근·담즙 흐름은 재현하지 않습니다.'}
+  ],connections:[[1,2],[2,6],[3,4],[3,5],[3,6],[6,7],[7,8],[8,9]],flowConnections:[[4,3],[5,3],[3,6],[6,7],[9,8],[8,7]],forks:[[3,[4,5]],[6,[2,3]]],references:[biliaryReference],
+  notice:'HRA 담낭·담도·췌관의 원본 외형과 상대 좌표를 보존한 탐험용 재구성입니다. 같은 HRA 십이지장과 팽대부에서 이어집니다. 기존 입·소화관은 다른 표본으로 전환합니다. 원본 췌관 구분을 따르며 실제 점막·괄약근·담즙 흐름은 재현하지 않습니다.'}
 };

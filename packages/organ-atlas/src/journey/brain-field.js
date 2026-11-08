@@ -12,7 +12,8 @@ export class BrainField{
   this.layers=meshes.map(mesh=>({mesh,bvh:new MeshBVH(mesh.geometry,{indirect:true}),center:mesh.geometry.boundingBox.getCenter(new T.Vector3())}));
   this.ray=new T.Ray();this.point=new T.Vector3();this.target={};this.a=new T.Vector3();this.b=new T.Vector3();this.c=new T.Vector3();this.closestResult={};this.lastId=1;
  }
- setMode(mode,side=this.side){if(mode!==this.mode||side!==this.side)this.walkState=null;this.mode=mode;this.side=side;for(const {mesh}of this.layers)mesh.visible=mode==='surface'||mesh.userData.layer==='deep'||mesh.userData.layer!==side;}
+ setMode(mode,side=this.side){if(mode!==this.mode||side!==this.side)this.walkState=null;this.mode=mode;this.side=side;for(const {mesh}of this.layers)mesh.visible=mode==='surface'||mesh.userData.layer==='deep'||!this.exposed&&mesh.userData.layer!==side;}
+ setExposure(value,position,radius){if(this.mode!=='interior')return false;const previous=this.exposed;this.exposed=value;this.setMode(this.mode,this.side);if(this.clearance(position)<radius){this.exposed=previous;this.setMode(this.mode,this.side);return false;}return true;}
  place(pose){this.walkState=pose.surfaceContact?{eye:new T.Vector3(...pose.position),point:new T.Vector3(...pose.surfaceContact.point),normal:new T.Vector3(...pose.surfaceContact.normal),id:pose.id}:null;}
  owner(hit,layer){const index=layer.mesh.geometry.index;return this.regions.getX(index.getX(hit.faceIndex*3));}
  normal(hit,layer){const index=layer.mesh.geometry.index;this.a.fromBufferAttribute(this.position,index.getX(hit.faceIndex*3));this.b.fromBufferAttribute(this.position,index.getX(hit.faceIndex*3+1));this.c.fromBufferAttribute(this.position,index.getX(hit.faceIndex*3+2));return this.b.sub(this.a).cross(this.c.sub(this.a)).normalize().clone();}

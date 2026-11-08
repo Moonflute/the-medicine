@@ -39,7 +39,7 @@ for(const key of process.argv.slice(2).length?process.argv.slice(2):journeyModes
   // A complex source part can contain narrow subregions. Keep a valid local
   // junction cue rather than drawing a straight line through that tissue.
   if(!route){const j=m.junctions.find(j=>j.from===from&&j.to===to||j.from===to&&j.to===from);if(j){route=flowPath(field,j.from===from?j.start:j.end,j.from===from?j.end:j.start,allowed);scope='junction-only';}}
-  if(route?.length>1)paths.push({from,to,kind:a.kind||m.kind,scope,points:simplifyFlowPath(field,route)});else omitted.push([from,to]);
+  if(route?.length>1)paths.push({from,to,kind:a.system==='respiratory'||b.system==='respiratory'?'airway':a.kind||m.kind,scope,points:simplifyFlowPath(field,route)});else omitted.push([from,to]);
  }
  m.flowPaths=paths;m.flowAudit={method:'bounded-A-star-in-shipped-lumen; wall-checked simplification',minimumClearanceMetres:.00008,omitted,meaning:'Illustrative transport direction, not simulated rate, pressure or pulsatility.'};
  fs.writeFileSync(path,JSON.stringify(m));console.log(JSON.stringify({key,paths:paths.length,points:paths.reduce((n,p)=>n+p.points.length,0),localOnly:paths.filter(p=>p.scope==='junction-only').length,omitted}));

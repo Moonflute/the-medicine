@@ -7,6 +7,7 @@ export const journeyModes=[
  {id:'urinary',label:'신우 · 요관 · 방광',start:1},
  ...['renal-right','renal-left','urinary-outlet'].map((id,i)=>({id,label:['우측 신배 · 신우','좌측 신배 · 신우','방광 · 남성 요도'][i],start:1})),
  {id:'biliary',label:'담낭 · 담도 · 췌관',start:1},
+ {id:'duodenum',label:'십이지장 · 담췌관 연결',start:2},
  ...['arm-right','arm-left','leg-right-artery','leg-right-vein','leg-left-artery','leg-left-vein'].map(id=>({id,label:(id.includes('right')?'우측 ':'좌측 ')+(id.startsWith('arm')?'상지 혈관':id.endsWith('artery')?'하지 동맥':'하지 정맥'),start:1})),
  {id:'brain',label:'뇌 · 피질 걷기 · 내부 해부',start:1},
  {id:'brain-csf',label:'뇌실 · CSF 경로',start:1}
@@ -107,6 +108,9 @@ export function structureLesson(manifest,part){
 }
 
 export const clinicalExamples={
+ stone:{id:'stone',label:'요로결석',english:'Urinary calculus',description:'원본 요로 안에 결석을 배치해 남는 통로를 비교합니다. 크기는 교육용이며 자연 배출 가능성을 예측하지 않습니다.',query:'요로결석',reference:'https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/definition-facts',solid:true,placement:'lumen'},
+ gallstone:{id:'gallstone',label:'담석 · 담도 폐쇄',english:'Gallstone',description:'담낭·담관 안의 결석과 통로 감소를 표시합니다. 담낭염·췌장염·상류 확장까지 재현하는 모델은 아닙니다.',query:'담석증',reference:'https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/definition-facts',solid:true,placement:'lumen'},
+ aqueduct:{id:'aqueduct',label:'뇌수도관 협착',english:'Cerebral aqueduct stenosis',description:'원본 뇌수도관 벽을 따라 국소적으로 좁아지는 형태입니다. 상류 뇌실 확장이나 뇌압 상승을 계산하지 않습니다.',query:'수두증',reference:'https://www.ninds.nih.gov/health-information/disorders/hydrocephalus',solid:true,placement:'lumen'},
  plaque:{id:'plaque',label:'죽상경화 플라크',english:'Atherosclerotic plaque',description:'동맥벽의 국소 플라크가 안쪽으로 돌출되어 통로가 좁아지는 형태를 보여 줍니다.',query:'죽상경화증',reference:'https://www.nhlbi.nih.gov/health/atherosclerosis',solid:true},
  thrombus:{id:'thrombus',label:'정맥 내 혈전',english:'Venous thrombus',description:'정맥 안의 혈전이 통로 일부를 차지하는 모식 예시입니다. 이동·색전 과정은 재현하지 않습니다.',query:'심부 정맥 혈전증',reference:'https://www.nhlbi.nih.gov/health/venous-thromboembolism',solid:true},
  polyp:{id:'polyp',label:'용종',english:'Polyp',description:'벽에서 안쪽으로 돌출되는 용종의 형태 예시입니다. 겉모양만으로 조직형이나 악성 여부를 판단할 수 없습니다.',query:'대장 용종',reference:'https://www.niddk.nih.gov/health-information/digestive-diseases/colon-polyps/definition-facts',solid:true},
@@ -114,7 +118,11 @@ export const clinicalExamples={
  mucus:{id:'mucus',label:'점액 축적',english:'Mucus accumulation',description:'기관지 안에 점액이 쌓여 통로가 줄어드는 형태를 보여 줍니다. 천식의 염증·근육 수축 전체를 나타내지는 않습니다.',query:'천식',reference:'https://www.nhlbi.nih.gov/health/asthma/causes',solid:true}
 };
 export function examplesFor(manifest,part){
- if(['urinary','biliary','brain','csf'].includes(journeyKind(manifest)))return [];
+ if(journeyKind(manifest)==='urinary')return /urethra/i.test(part.name)?[]:[clinicalExamples.stone];
+ if(journeyKind(manifest)==='biliary')return ['Gallbladder','Cystic duct','Common bile duct'].includes(part.name)?[clinicalExamples.gallstone]:[];
+ if(journeyKind(manifest)==='csf')return part.name==='Cerebral aqueduct'?[clinicalExamples.aqueduct]:[];
+ if(journeyKind(manifest)==='brain')return [];
+ if(manifest.key==='duodenum')return part.kind==='digestive'?[clinicalExamples.ulcer]:[];
  if(journeyKind(manifest)==='circulation'){
   if(part.lessonKey)return examplesFor({key:part.lessonKey,kind:part.kind},{...part,id:part.lessonId});
   return part.name==='Ascending aorta'?[clinicalExamples.plaque]:['Superior vena cava','Inferior vena cava — upper segment'].includes(part.name)?[clinicalExamples.thrombus]:[];

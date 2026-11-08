@@ -18,8 +18,8 @@ export function entranceHints(manifest){
    return [{id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:j.valve?.name||child.name,target:j.valve?child.name:'',detail:forward?'혈류 유출 →':'← 혈류 유입',point:j.valve?.center||j.start,nearPoint:j.start,regions:[j.from],range:.09,valve:!!j.valve},{id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:j.valve?.name||parent.name,target:j.valve?parent.name:'',detail:forward?'← 혈류 유입':'혈류 유출 →',point:j.valve?.center||j.end,nearPoint:j.end,regions:[j.to],range:.09,valve:!!j.valve}];
   }
   return [
-   {id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:child.name,detail:vein?'유입 정맥':['urinary','biliary','csf'].includes(kind)?'연결 구간':'분지',point:j.end,regions:[j.from],range:.055},
-   {id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':['urinary','biliary','csf'].includes(kind)?'연결 구간':'기시 혈관',point:j.start,regions:[j.to],range:.055}
+   {id:`branch-${j.from}-${j.to}`,from:j.from,to:j.to,name:child.name,detail:vein?'유입 정맥':['urinary','biliary','csf','digestive'].includes(kind)?'연결 구간':'분지',point:j.end,regions:[j.from],range:.055},
+   {id:`parent-${j.to}-${j.from}`,from:j.to,to:j.from,name:parent.name,detail:vein?'유출 방향':kind==='airway'?'상위 기관지':['urinary','biliary','csf','digestive'].includes(kind)?'연결 구간':'기시 혈관',point:j.start,regions:[j.to],range:.055}
   ];
  }).concat([...(manifest.sourceLandmarks||[]),...(manifest.landmarks||[])].filter(p=>p.part).map(p=>({id:p.sourceId,name:p.name,detail:'',point:p.position,regions:[p.part],range:.06,surface:true})));
  const junction=(a,b,side='end')=>manifest.junctions.find(j=>j.from===a&&j.to===b)?.[side];
@@ -82,6 +82,10 @@ export class JourneyWayfinding{
   this.focus={...hint,id:'selected-connection'};
   this.frame=null;this.update();return this.focusState;
  }
+ setDetailHints(records){
+  this.hints=this.hints.filter(h=>!h.nativeDetail).concat(records.map(r=>({id:r.sourceId,name:r.name,detail:'원본 판엽',point:r.position,regions:[r.part],range:.08,surface:true,nativeDetail:true})));
+  this.byRegion.clear();for(const hint of this.hints)for(const id of hint.regions){if(!this.byRegion.has(id))this.byRegion.set(id,[]);this.byRegion.get(id).push(hint);}if(!records.length&&this.focus?.nativeDetail)this.focus=null;this.frame=null;this.update();
+ }
  setRoute(region,id,transfer=null){
   const boundary=transfer&&this.asset.manifest.boundaries?.find(b=>b.part===region);
   const hint=boundary?{name:'미세순환 생략 · '+transfer.territory,target:this.asset.manifest.parts.find(p=>p.id===id).name,detail:'혈관 끝에서 전환 선택',point:boundary.position,regions:[region],range:.18,transfer:true}:id===null?null:connectionHint(this.asset.manifest,this.hints,region,id);
@@ -91,7 +95,7 @@ export class JourneyWayfinding{
  update(){
   this.layer.hidden=!this.enabled&&!this.route;if(this.layer.hidden)return;
   const {camera,asset}=this,position=camera.position.toArray(),region=asset.field.region(position),width=this.host.clientWidth,height=this.host.clientHeight;
-  const exclusions=[...this.host.parentElement.querySelectorAll('.journey-top,.journey-bottom,.journey-map,.journey-heading,.journey-clinical-badge,.journey-route,.journey-stick,.journey-height,.journey-boundary,.journey-feedback')].filter(el=>!el.hidden&&el.getClientRects().length),stageRect=this.host.getBoundingClientRect(),rectangles=exclusions.map(el=>{const r=el.getBoundingClientRect();return {left:r.left-stageRect.left,top:r.top-stageRect.top,right:r.right-stageRect.left,bottom:r.bottom-stageRect.top};});
+  const exclusions=[...this.host.parentElement.querySelectorAll('.journey-top,.journey-bottom,.journey-map,.journey-heading,.journey-clinical-badge,.journey-feature-badge,.journey-phase,.journey-route,.journey-stick,.journey-height,.journey-boundary,.journey-feedback')].filter(el=>!el.hidden&&el.getClientRects().length),stageRect=this.host.getBoundingClientRect(),rectangles=exclusions.map(el=>{const r=el.getBoundingClientRect();return {left:r.left-stageRect.left,top:r.top-stageRect.top,right:r.right-stageRect.left,bottom:r.bottom-stageRect.top};});
   const frame=[...position,...camera.quaternion.toArray(),camera.fov,camera.near,width,height,this.enabled,JSON.stringify(rectangles)].join(',');if(frame===this.frame)return;this.frame=frame;
   camera.updateMatrixWorld();
   for(const item of this.items)item.label.hidden=item.anchor.hidden=item.line.hidden=true;this.cue.hidden=true;this.focusState=this.routeState='occluded';

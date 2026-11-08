@@ -118,3 +118,6 @@ Object.assign(journeySources,extensionJourneySources);
 Object.assign(journeySources,headJourneySources);
 // A connection is a reviewed source adjacency, not an arbitrary nearest mesh.
 for(const [key,config]of Object.entries(journeySources)){config.bridges??=config.connections;config.coordinateFrame??='z-anatomy';config.kind??=key==='upper'?'digestive-airway':key==='veins'?'vein':'artery';}
+
+// Transport orientation in the reviewed source tree; airway cues reverse during expiration.
+journeySources.upper.flowConnections=journeySources.upper.connections.map(pair=>[...pair]);

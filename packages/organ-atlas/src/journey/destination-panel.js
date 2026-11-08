@@ -1,18 +1,19 @@
 import {loadJourneyManifest} from './assets.js';
 import {journeyModes} from './learning-data.js';
 import {destinationSystems,journeyDestinations,filterDestinations} from './destinations.js';
+import {studyTours} from './study-tours.js';
 
 export class JourneyDestinationPanel{
- constructor(dialog,{onToggle,onTravel,onReturn,onGuide,onCatalog=()=>{}}){
+ constructor(dialog,{onToggle,onTravel,onReturn,onGuide,onTour=()=>{},onCatalog=()=>{}}){
   this.onToggle=onToggle;this.onTravel=onTravel;this.onReturn=onReturn;this.onGuide=onGuide;this.onCatalog=onCatalog;this.action='travel';this.reachable=new Set();this.directReachable=new Set();
-  this.manifests=new Map();this.entries=[];this.disposed=false;this.pending=false;
+  this.manifests=new Map();this.entries=[];this.disposed=false;this.pending=false;this.onTour=onTour;
   this.element=document.createElement('section');this.element.id='journey-destinations';
   this.element.className='journey-destinations';this.element.hidden=true;
   this.element.setAttribute('aria-labelledby','journey-destinations-title');
   this.element.innerHTML=`<div class="journey-destinations-head"><h2 id="journey-destinations-title">부위 이동</h2><button class="journey-destinations-close" aria-label="부위 이동 닫기">×</button></div>
    <div class="journey-destination-actions" role="group" aria-label="부위 선택 방식"><button data-destination-action="travel" aria-pressed="true">바로 이동</button><button data-destination-action="guide" aria-pressed="false">경로 안내</button></div>
    <div class="journey-destination-search"><input type="search" placeholder="장기·부위 검색" aria-label="이동할 부위 검색" autocomplete="off" spellcheck="false"><select aria-label="이동할 부위의 계통"><option value="">전체 계통</option>${destinationSystems.map(s=>`<option value="${s.id}">${s.label}</option>`).join('')}</select></div>
-   <button class="journey-return" hidden></button><p class="journey-destination-count" role="status"></p>
+   <details class="journey-tours"><summary>뇌 구조 따라 보기</summary><div></div></details><button class="journey-return" hidden></button><p class="journey-destination-count" role="status"></p>
    <div class="journey-destination-results"></div><div class="journey-destination-error" hidden><span></span><button>다시 시도</button></div>`;
   dialog.append(this.element);
   this.input=this.element.querySelector('input');this.select=this.element.querySelector('select');
@@ -54,6 +55,7 @@ export class JourneyDestinationPanel{
   results.forEach((result,i)=>{if(result.status==='fulfilled')this.manifests.set(missing[i].id,result.value);});
   this.entries=journeyDestinations(journeyModes.flatMap(mode=>this.manifests.has(mode.id)?[this.manifests.get(mode.id)]:[]));
   this.onCatalog([...this.manifests.values()]);
+  const tours=this.element.querySelector('.journey-tours div');tours.replaceChildren();for(const tour of studyTours([...this.manifests.values()])){const button=document.createElement('button');button.textContent=tour.name+' →';button.onclick=()=>this.onTour(tour);tours.append(button);}
   this.pending=false;this.element.removeAttribute('aria-busy');
   this.error.hidden=results.every(result=>result.status==='fulfilled');
   this.error.querySelector('span').textContent=this.entries.length?'일부 영역 목록을 불러오지 못했어요.':'부위 목록을 불러오지 못했어요.';
