@@ -136,3 +136,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # Pages can finish syncing the model assets before publication is finalized.
+          timeout: 1200000
