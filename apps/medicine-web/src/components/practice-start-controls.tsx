@@ -6,9 +6,9 @@ import type { PracticeFilters } from "@/lib/practice-selection";
 import { QBANK_ROUND_DEFAULT_MINUTES, QBANK_ROUND_MAX_MINUTES, readRoundLimitMinutes } from "@/lib/qbank-round-timer";
 import { isQbankProgressedInCurrentView, loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 
-export function PracticeStartControls({ total, questionIds, filters, exam = false, round = false, label, appearance = "default", topActionsTarget }: {
+export function PracticeStartControls({ total, questionIds, filters, exam = false, round = false, label, appearance = "default", topControlsTarget }: {
   total: number; questionIds: string[]; filters: PracticeFilters; exam?: boolean; round?: boolean; label?: string;
-  appearance?: "default" | "chat"; topActionsTarget?: HTMLDivElement | null;
+  appearance?: "default" | "chat"; topControlsTarget?: HTMLDivElement | null;
 }) {
   const [count, setCount] = useState(() => String(total));
   const [unattemptedOnly, setUnattemptedOnly] = useState(false);
@@ -48,7 +48,7 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
     disabled={available === 0}
     error={!valid && available > 0 ? `1~${available.toLocaleString()} 사이의 정수를 입력하세요.` : undefined}
     appearance={appearance}
-    topActionsTarget={topActionsTarget}
+    topControlsTarget={topControlsTarget}
     options={<><label className="inline-flex cursor-pointer items-center gap-1 whitespace-nowrap">
       <input type="checkbox" checked={unattemptedOnly} onChange={(event) => {
         const next = event.target.checked;
@@ -70,8 +70,8 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
     </label>}
     {timed && minutes === undefined && <span role="status" className="text-rose-700">1~{QBANK_ROUND_MAX_MINUTES}분을 입력하세요.</span>}</>}
     actions={[
-      { label: "순서대로 시작", href: canStart ? href(true) : undefined },
-      { label: "섞어서 시작", href: canStart ? href(false) : undefined },
+      { label: "순서대로 시작", topLabel: "순서대로", href: canStart ? href(true) : undefined },
+      { label: "섞어서 시작", topLabel: "섞어서", href: canStart ? href(false) : undefined },
     ]}
   />;
 }
