@@ -22,6 +22,10 @@ test('unapproved explanations remain hidden', () => {
 test('manually corrected clinical explanations are exported', () => {
   assert.equal(qbankExplanation(body, { explanation_status: 'manual-reviewed' }), '근거');
 });
+test('manually-reviewed theory explanations and reviewed wrong-option notes are exported', () => {
+  const text = qbankExplanation(body, { explanation_status: 'manually-reviewed', wrong_notes_review_status: 'reviewed' });
+  assert.equal(text, '근거\n\n오답 포인트\n- **약물명:** 다른 기전이다.');
+});
 test('qbank-only count refresh preserves unrelated manifest domains', () => {
   const original={generatedAt:'full-sync',domains:{diseases:{count:12},qbank:{count:99,custom:'preserve'}}};
   const result=updatedQbankManifest(original,51,'qbank-sync');

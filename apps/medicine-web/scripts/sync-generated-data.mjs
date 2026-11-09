@@ -1552,7 +1552,8 @@ function qbankSection(body, title) {
 }
 
 function qbankExplanation(body, frontmatter) {
-  if (!["verified", "human-verified", "manual-reviewed", "machine-generated"].includes(readScalar(frontmatter.explanation_status))) return "";
+  // Theory coverage notes use "manually-reviewed" for the same review state.
+  if (!["verified", "human-verified", "manual-reviewed", "manually-reviewed", "machine-generated"].includes(readScalar(frontmatter.explanation_status))) return "";
   const explanation = qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim();
   // Old automatically generated notes have not had a content review. Do not
   // silently expose them. Reviewed notes use option text, not shuffled letters.

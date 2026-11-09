@@ -106,7 +106,11 @@ jobs:
           python ../../workspace_ops/scripts/test_group_overview_members.py
 
       - name: Verify question sessions
-        run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-qbank-session-results.mjs scripts/test-qbank-active-session.mjs scripts/test-qbank-related-theory.mjs scripts/test-qbank-session-context.mjs scripts/test-qbank-copy.mjs scripts/test-ocr-paragraphs.mjs
+        run: >-
+          node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test
+          scripts/test-qbank-session-results.mjs scripts/test-qbank-active-session.mjs
+          scripts/test-qbank-related-theory.mjs scripts/test-qbank-session-context.mjs
+          scripts/test-qbank-copy.mjs scripts/test-ocr-paragraphs.mjs scripts/test-qbank-curation.mjs
 
       - name: Verify interactive physiology
         if: steps.inputs.outputs.physiology == 'true'
