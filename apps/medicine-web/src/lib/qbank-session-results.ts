@@ -1,6 +1,14 @@
 import { isSelection } from "./qbank-grading";
 import type { QbankSelection } from "./types";
 
+export function restoreQbankQuestionOrder<T extends { id: string }>(loaded: readonly T[], ids: readonly string[]): T[] {
+  const byId = new Map(loaded.map((question) => [question.id, question]));
+  return ids.flatMap((id) => {
+    const question = byId.get(id);
+    return question ? [question] : [];
+  });
+}
+
 export function remainingQuestions(ids: string[], answers: { questionId: string }[], drafts: Record<string, QbankSelection>, currentId?: string, selected?: QbankSelection | null) {
   const submitted = new Set(answers.map(answer => answer.questionId));
   const remaining = ids.map((id, index) => ({ id, index })).filter(item => !submitted.has(item.id));

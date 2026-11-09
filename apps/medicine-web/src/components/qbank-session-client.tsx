@@ -8,7 +8,8 @@ import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
 
 import { correctAnswers, gradeQuestion, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
-import { remainingQuestions, sessionWrongIds } from "@/lib/qbank-session-results";
+import { remainingQuestions, restoreQbankQuestionOrder, sessionWrongIds } from "@/lib/qbank-session-results";
+import { resolveQbankSessionCount } from "@/lib/qbank-question-count";
 import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
 import { SkinQuestionWorkspace, SkinQuestionChoices, SkinQuestionAction, SkinQuestionReferences } from "@/components/skin-question";
@@ -74,10 +75,10 @@ function balancedUnattemptedFirst(questions: QbankQuestion[], progress: Record<s
       bucket.push(question);
       groups.set(key, bucket);
     }
-    const queues = shuffled([...groups.values()]);
+    const queues = shuffled([...groups.values()]).map((group) => group.reverse());
     while (queues.some((queue) => queue.length > 0) && selected.length < count) {
       for (const queue of queues) {
-        const question = queue.shift();
+        const question = queue.pop();
         if (question && !used.has(question.id) && selected.length < count) {
           selected.push(question);
           used.add(question.id);
@@ -347,7 +348,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         : undefined;
     let cancelled = false;
     // Resume the original set by ID; filters such as '미풀이만' would now exclude answered questions.
-    const request = snapshot ? loadQuestions(specialties, "all", "all", "", new Set(snapshot.questionIds))
+    const savedQuestionIds = snapshot ? new Set(snapshot.questionIds) : undefined;
+    const request = savedQuestionIds ? loadQuestions(specialties, "all", "all", "", savedQuestionIds)
       : loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) }, practiceUnattemptedOnly, relatedTopicKeys);
     void request
       .then((loaded) => {
@@ -357,10 +359,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
         if (mode === "wrong" || mode === "bookmarks" || mode === "retry") filtered = loaded.filter((item) => targetIds?.has(item.id));
         if (mode === "unattempted") filtered = loaded.filter((item) => !state.progress[item.id]);
-        const requestedCount = requestedCountValue === "all"
-          ? filtered.length
-          : Math.max(1, Math.min(mode === "practice-book" || params.get("practiceOnly") === "1" ? filtered.length : 100, Number(requestedCountValue) || 10));
-        const restoredQuestions = snapshot?.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is SessionQuestion => Boolean(item)) ?? [];
+        const requestedCount = resolveQbankSessionCount(requestedCountValue, filtered.length);
+        const restoredQuestions = snapshot ? restoreQbankQuestionOrder(loaded, snapshot.questionIds) : [];
         if (snapshot && restoredQuestions.length !== snapshot.questionIds.length) throw new Error("저장된 문제에 접근할 수 없습니다.");
         const selectedQuestions = snapshot ? restoredQuestions : mode === "practice-book"
           ? [...filtered].sort(comparePracticeOrder).slice(0, requestedCount)
@@ -378,7 +378,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setQuestions(selectedQuestions);
         setSessionContext(snapshot?.context ?? requestedContext);
         setCurrentIndex(restoredIndex);
-        setAnswers(snapshot?.answers.filter((item) => selectedQuestions.some((question) => question.id === item.questionId)) ?? []);
+        setAnswers(snapshot?.answers.filter((item) => savedQuestionIds?.has(item.questionId)) ?? []);
         setDrafts(readQbankSessionDrafts(snapshot?.drafts));
         setSelected(restoredAnswer?.selected ?? snapshot?.selected ?? null);
         setSubmitted(Boolean(restoredAnswer));
@@ -475,10 +475,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   useEffect(() => {
     if (!remoteActiveSession || remoteActiveSession.updatedAt === appliedRemoteSessionVersionRef.current) return;
     let cancelled = false;
-    void loadQuestions(specialties, "all", "all", "", new Set(remoteActiveSession.questionIds))
+    const savedQuestionIds = new Set(remoteActiveSession.questionIds);
+    void loadQuestions(specialties, "all", "all", "", savedQuestionIds)
       .then((loaded) => {
-        const restoredQuestions = remoteActiveSession.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item));
         if (cancelled || finishingRef.current || pausedRoundRef.current) return;
+        const restoredQuestions = restoreQbankQuestionOrder(loaded, remoteActiveSession.questionIds);
         if (restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) throw new Error("저장된 문제에 접근할 수 없습니다.");
         const restoredIndex = Math.min(Math.max(remoteActiveSession.currentIndex, 0), restoredQuestions.length - 1);
         const restoredQuestion = restoredQuestions[restoredIndex];
@@ -501,7 +502,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setOptionSessionId(remoteActiveSession.sessionId);
         setQuestions(restoredQuestions);
         setCurrentIndex(restoredIndex);
-        setAnswers(remoteActiveSession.answers.filter((item) => restoredQuestions.some((question) => question.id === item.questionId)));
+        setAnswers(remoteActiveSession.answers.filter((item) => savedQuestionIds.has(item.questionId)));
         setDrafts(readQbankSessionDrafts(remoteActiveSession.drafts));
         setSelected(restoredAnswer?.selected ?? remoteActiveSession.selected);
         setSubmitted(Boolean(restoredAnswer));
@@ -545,6 +546,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [questions]);
   const displayedOptions = current ? optionOrder(current, optionSessionId) : [];
   const currentTheoryTargetHref = current ? theoryTargetHref(current) : null;
+  const answersById = useMemo(() => new Map(answers.map((answer) => [answer.questionId, answer])), [answers]);
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
   const specialtyResults = useMemo(() => {
     const summary = new Map<string, { correct: number; total: number }>();
@@ -567,7 +569,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       else delete nextDrafts[current.id];
       return nextDrafts;
     });
-    const previousAnswer = answers.find((item) => item.questionId === question.id);
+    const previousAnswer = answersById.get(question.id);
     const state = loadQbankState();
     setCurrentIndex(index);
     setBookmarked(state.bookmarkIds.includes(question.id));
@@ -575,7 +577,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     setSubmitted(Boolean(previousAnswer));
     setWrongTracked(state.wrongIds.includes(question.id));
     setQuestionProgress(state.progress[question.id] ?? null);
-  }, [answers, questions, current, currentIndex, selected, submitted, drafts]);
+  }, [answersById, questions, current, currentIndex, selected, submitted, drafts]);
 
   const chooseOption = useCallback((answer: QbankAnswer) => {
     if (!current || submitted || isRoundTimeUp(deadlineAt)) return;
@@ -858,7 +860,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             <summary className="cursor-pointer list-none rounded-md border border-slate-300 bg-white px-2.5 py-2 text-xs font-medium text-slate-600 hover:bg-slate-50">전체 번호</summary>
             <div className="absolute right-0 z-10 mt-2 grid max-h-64 w-[calc(100vw-2rem)] max-w-[38.5rem] grid-cols-[repeat(8,minmax(0,1fr))] gap-1 overflow-y-auto rounded-lg border border-slate-200 bg-white p-3 shadow-lg sm:grid-cols-[repeat(12,minmax(0,1fr))] lg:grid-cols-[repeat(20,minmax(0,1fr))]">
               {questions.map((question, index) => {
-                const answer = answers.find(item => item.questionId === question.id);
+                const answer = answersById.get(question.id);
                 const chosen = index === currentIndex ? selected : drafts[question.id];
                 const status = answer ? answer.correct === null ? "채점 제외" : answer.correct ? "정답" : "오답" : chosen ? "선택 중" : "미응답";
                 return <button key={question.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 · ${status}`} title={`${index + 1}번 · ${status}`} onClick={() => showQuestion(index)} className={`h-[27px] w-full min-w-0 rounded-md border p-0 text-[11px] tabular-nums ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""} ${answer ? answer.correct === null ? "border-slate-200 bg-slate-100" : answer.correct ? "border-teal-200 bg-teal-50 text-teal-800" : "border-rose-200 bg-rose-50 text-rose-800" : chosen ? "border-blue-200 bg-blue-50 text-blue-800" : "border-slate-200 bg-white text-slate-600"}`}>{index + 1}</button>;

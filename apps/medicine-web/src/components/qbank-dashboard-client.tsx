@@ -14,6 +14,7 @@ import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceTopicKey, practiceTopi
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
+import { QBANK_DEFAULT_COUNT, readQbankQuestionCount } from "@/lib/qbank-question-count";
 import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSessions, planActiveQbankSessionSync, remapLocalActiveQbankSession, saveLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
 import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
 import { OWNER_KEY } from "@/lib/learning-sync-outbox";
@@ -352,13 +353,15 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     { label: "실전", count: includePractice ? practiceCount : 0 },
   ].filter(source => source.count > 0);
   const randomPool = randomSources.reduce((sum, source) => sum + source.count, 0);
-  const validCount = /^\d+$/.test(count) && Number(count) >= 1 && Number(count) <= 100;
-  const drawCount = Math.min(Number(count) || 0, randomPool);
+  const requestedCount = readQbankQuestionCount(count);
+  const drawCount = Math.min(requestedCount ?? 0, randomPool);
+  const quickCount = requestedCount ?? QBANK_DEFAULT_COUNT;
+  const unattemptedSize = readQbankQuestionCount(unattemptedCount);
   const sessionParams = new URLSearchParams({
     mode: relatedTarget ? "related" : "selection",
     theory: includeTheory ? selectedTheory.join(",") : "",
     clinical: includeClinical ? selectedClinical.join(",") : "",
-    count,
+    count: String(drawCount),
     practiceSeries: includePractice ? (practiceFilters.series ?? []).join(",") : "",
     practiceDepartments: includePractice ? (practiceFilters.departments ?? []).join(",") : "",
     practiceBooks: includePractice ? practiceFilters.books.join(",") : "",
@@ -372,14 +375,14 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     if (relatedTarget.type === "disease") sessionParams.set("targets", (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).join(","));
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
-  const randomStartEnabled = randomPool > 0 && validCount;
+  const randomStartEnabled = drawCount > 0;
   const randomStartBar = tab !== "practice" ? <QbankStartBar
     label="랜덤풀이 시작"
     summary={`${randomSources.length === 1 ? randomSources[0].label : "선택"} ${randomPool.toLocaleString()}문항`}
     count={count}
-    max={100}
+    max={randomPool || undefined}
     onCountChange={setCount}
-    error={!validCount && randomPool > 0 ? "1~100 사이의 정수를 입력하세요." : undefined}
+    error={requestedCount === undefined && randomPool > 0 ? "문항 수는 1 이상의 정수로 입력하세요." : undefined}
     actions={[{ label: randomStartEnabled ? `${drawCount}문항 랜덤 시작` : "랜덤 시작", topLabel: "시작", href: randomStartEnabled ? sessionHref : undefined }]}
     topControlsTarget={loadedDraft === draftKey ? topControlsTarget : null}
     appearance={chatLayout ? "chat" : "default"}
@@ -411,7 +414,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   if (chatLayout) {
     return <ChatQbankLobby
       banks={[{ id: "theory", label: "이론", selected: selectedTheoryCount }, { id: "clinical", label: "임상", selected: selectedClinicalCount }, { id: "practice", label: "실전", selected: practiceCount }]}
-      bank={tab} onChooseBank={chooseBank} stats={stats} total={questions.length + practice.length} quickCount={count}
+      bank={tab} onChooseBank={chooseBank} stats={stats} total={questions.length + practice.length} quickCount={quickCount}
       endingSessionId={endingActiveSessionId} onEndSession={(id) => { const session = activeSessions.find((item) => item.sessionId === id); if (session) void endActiveSession(session); }}
       syncStatus={<>{activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="chat-qbank-sync" /> : null}{activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="chat-qbank-sync" /> : null}</>}
       conversations={activeSessions.map((session) => ({
@@ -479,8 +482,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
 
     {!relatedTarget ? <SkinPanel className="grid gap-2 sm:grid-cols-3" title="빠른 실행" ordinal={5}>
       <button type="button" onClick={() => setShowUnattemptedDialog(true)} className="list-tile flex items-center gap-2.5 px-3.5 py-3 text-left"><RotateCcw className="h-4 w-4 shrink-0 text-teal-700" /><h3 className="font-semibold">미풀이 문제</h3></button>
-      <Link href={`/review/qbank/session?mode=wrong&count=${count}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><CircleAlert className="h-4 w-4 shrink-0 text-rose-700" /><h3 className="font-semibold">오답 다시 풀기</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.wrong}개</span></Link>
-      <Link href={`/review/qbank/session?mode=bookmarks&count=${count}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><Bookmark className="h-4 w-4 shrink-0 text-amber-700" /><h3 className="font-semibold">북마크</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.bookmarks}개</span></Link>
+      <Link href={`/review/qbank/session?mode=wrong&count=${quickCount}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><CircleAlert className="h-4 w-4 shrink-0 text-rose-700" /><h3 className="font-semibold">오답 다시 풀기</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.wrong}개</span></Link>
+      <Link href={`/review/qbank/session?mode=bookmarks&count=${quickCount}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><Bookmark className="h-4 w-4 shrink-0 text-amber-700" /><h3 className="font-semibold">북마크</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.bookmarks}개</span></Link>
     </SkinPanel> : null}
 
     {showUnattemptedDialog ? <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/35 p-4" role="dialog" aria-modal="true" aria-labelledby="unattempted-dialog-title">
@@ -488,11 +491,12 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <h2 id="unattempted-dialog-title" className="text-lg font-semibold text-slate-950">미풀이 문제</h2>
         <p className="mt-1 text-sm leading-6 text-slate-600">풀지 않은 문제 중에서 무작위로 출제할 문항 수를 입력하세요.</p>
         <label className="mt-5 block text-sm font-medium text-slate-700">문항 수
-          <input type="number" min="1" max="100" step="1" inputMode="numeric" autoFocus value={unattemptedCount} onChange={(event) => setUnattemptedCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" />
+          <input type="number" min="1" step="1" inputMode="numeric" autoFocus value={unattemptedCount} onChange={(event) => setUnattemptedCount(event.target.value)} aria-invalid={unattemptedSize === undefined} aria-describedby="qbank-unattempted-help" className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" />
         </label>
+        <p id="qbank-unattempted-help" className="mt-2 text-xs text-slate-600">{unattemptedSize === undefined ? "문항 수는 1 이상의 정수로 입력하세요." : "남아 있는 미풀이 문항까지만 출제합니다."}</p>
         <div className="mt-5 flex justify-end gap-2">
           <button type="button" onClick={() => setShowUnattemptedDialog(false)} className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700">취소</button>
-          <Link href={`/review/qbank/session?mode=unattempted&count=${encodeURIComponent(unattemptedCount)}`} onClick={() => setShowUnattemptedDialog(false)} className="rounded-lg bg-teal-700 px-4 py-2 text-sm font-semibold text-white hover:bg-teal-800">시작하기</Link>
+          {unattemptedSize === undefined ? <button type="button" disabled className="rounded-lg bg-teal-700 px-4 py-2 text-sm font-semibold text-white opacity-40">시작하기</button> : <Link href={`/review/qbank/session?mode=unattempted&count=${unattemptedSize}`} onClick={() => setShowUnattemptedDialog(false)} className="rounded-lg bg-teal-700 px-4 py-2 text-sm font-semibold text-white hover:bg-teal-800">시작하기</Link>}
         </div>
       </div>
     </div> : null}

@@ -10,7 +10,7 @@ export function QbankStartBar({ label, summary, count, max, onCountChange, disab
   label: string;
   summary: string;
   count: string;
-  max: number;
+  max?: number;
   onCountChange: (value: string) => void;
   disabled?: boolean;
   error?: string;
@@ -24,7 +24,7 @@ export function QbankStartBar({ label, summary, count, max, onCountChange, disab
   const actionClass = chat ? "chat-qbank-start whitespace-nowrap" : "primary-action min-h-9 px-2.5 py-1 text-xs whitespace-nowrap disabled:opacity-40";
   const countInput = (compact: boolean) => <label className="inline-flex items-center gap-1 whitespace-nowrap">
     <span className={compact ? "sr-only sm:not-sr-only" : undefined}>문항 수</span>
-    <input type="number" min="1" max={Math.max(1, max)} step="1" inputMode="numeric" disabled={disabled} value={count} onChange={event => onCountChange(event.target.value)} aria-invalid={Boolean(error)} aria-describedby={error ? errorId : undefined} className="h-9 w-12 rounded-md border border-slate-300 bg-white px-1.5 text-sm tabular-nums [appearance:textfield] sm:w-16 [&::-webkit-inner-spin-button]:appearance-none" />
+    <input type="number" min="1" max={max === undefined ? undefined : Math.max(1, max)} step="1" inputMode="numeric" disabled={disabled} value={count} onChange={event => onCountChange(event.target.value)} aria-invalid={Boolean(error)} aria-describedby={error ? errorId : undefined} className="h-9 w-12 rounded-md border border-slate-300 bg-white px-1.5 text-sm tabular-nums [appearance:textfield] sm:w-16 [&::-webkit-inner-spin-button]:appearance-none" />
   </label>;
   const actionButtons = (compact: boolean) => <div className={`flex flex-wrap gap-1.5${chat ? " chat-qbank-start-actions" : ""}`} role="group" aria-label={label}>
     {actions.map(action => {

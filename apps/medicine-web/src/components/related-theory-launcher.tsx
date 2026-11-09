@@ -6,6 +6,7 @@ import Link from "next/link";
 import { SkinStatus } from "@/components/skin-status";
 import { BookOpenCheck, X } from "lucide-react";
 import { useMemo, useState } from "react";
+import { readQbankQuestionCount } from "@/lib/qbank-question-count";
 import {
   buildRelatedTheoryTopicStats,
   relatedTheoryTopicKey,
@@ -53,8 +54,9 @@ export function RelatedTheoryLauncher({ question }: { question: QbankQuestion })
   const allStats = useMemo(() => buildRelatedTheoryTopicStats(index, topics), [index, topics]);
   const selectedTopics = useMemo(() => topics.filter((topic) => selectedKeys.includes(relatedTheoryTopicKey(topic))), [selectedKeys, topics]);
   const selectedStats = useMemo(() => buildRelatedTheoryTopicStats(index, selectedTopics), [index, selectedTopics]);
-  const validCount = /^\d+$/.test(count) && Number(count) >= 1 && Number(count) <= 100;
-  const drawCount = validCount ? Math.min(Number(count), selectedStats.questionIds.length) : 0;
+  const requestedCount = readQbankQuestionCount(count);
+  const availableCount = selectedStats.questionIds.length;
+  const drawCount = Math.min(requestedCount ?? 0, availableCount);
 
   async function showPicker() {
     setOpen(true);
@@ -125,9 +127,9 @@ export function RelatedTheoryLauncher({ question }: { question: QbankQuestion })
             })}</div>
             <section className="mt-5 rounded-xl border border-teal-200 bg-teal-50/50 p-4">
               <p className="text-sm text-slate-700">선택 범위 <strong className="text-teal-900">{selectedStats.questionIds.length.toLocaleString()}문항</strong>{selectedStats.topics.length > 1 ? " · 여러 주제에 겹치는 문항은 한 번만 출제" : ""}</p>
-              <div className="mt-4 flex flex-wrap items-end gap-3"><label className="block text-sm font-medium text-slate-700">이번에 풀 문항 수<input type="number" min="1" max={Math.min(100, Math.max(1, selectedStats.questionIds.length))} step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} disabled={selectedStats.questionIds.length === 0} className="mt-1.5 block w-28 rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
+              <div className="mt-4 flex flex-wrap items-end gap-3"><label className="block text-sm font-medium text-slate-700">이번에 풀 문항 수<input type="number" min="1" max={Math.max(1, availableCount)} step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} disabled={availableCount === 0} aria-invalid={requestedCount === undefined} className="mt-1.5 block w-28 rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
               {drawCount > 0 ? <Link href={`/review/qbank/session?${params.toString()}`} className="primary-action" onClick={() => setOpen(false)}>관련 문제 {drawCount}개 풀기</Link> : <button type="button" disabled className="primary-action opacity-40">출제할 주제를 선택하세요</button>}</div>
-              {!validCount ? <p className="mt-2 text-xs text-rose-700">문항 수는 1~100 사이의 정수로 입력하세요.</p> : Number(count) > selectedStats.questionIds.length && selectedStats.questionIds.length > 0 ? <p className="mt-2 text-xs text-slate-500">선택 범위의 {selectedStats.questionIds.length}문항을 모두 출제합니다.</p> : null}
+              {requestedCount === undefined ? <p className="mt-2 text-xs text-rose-700">문항 수는 1 이상의 정수로 입력하세요.</p> : requestedCount > availableCount && availableCount > 0 ? <p className="mt-2 text-xs text-slate-500">선택 범위의 {availableCount.toLocaleString()}문항을 모두 출제합니다.</p> : null}
             </section>
           </> : null}
         </div>

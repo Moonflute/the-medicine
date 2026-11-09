@@ -5,6 +5,7 @@ import { useId, useRef, useState, type ReactNode, type RefObject } from "react";
 import { createPortal } from "react-dom";
 import { BarChart3, Bookmark, ChevronLeft, Ellipsis, Plus, RotateCcw, X } from "lucide-react";
 import { useChatRoom } from "@/components/chat-room";
+import { readQbankQuestionCount } from "@/lib/qbank-question-count";
 
 type Bank = "theory" | "clinical" | "practice";
 type Conversation = {
@@ -35,15 +36,14 @@ export function ChatQbankLobby({ banks, bank, onChooseBank, conversations, syncS
   banks: Array<{ id: Bank; label: string; selected: number }>; bank: Bank; onChooseBank: (bank: Bank) => void;
   conversations: Conversation[]; syncStatus: ReactNode; endingSessionId: string;
   onEndSession: (id: string) => void; stats: { attempted: number; wrong: number; bookmarks: number };
-  total: number; quickCount: string; children: ReactNode;
+  total: number; quickCount: number; children: ReactNode;
 }) {
   const room = useChatRoom();
   const picker = useRef<HTMLDialogElement>(null);
   const more = useRef<HTMLDialogElement>(null);
   const unattempted = useRef<HTMLDialogElement>(null);
   const [unattemptedCount, setUnattemptedCount] = useState("10");
-  const validUnattemptedCount = /^\d+$/.test(unattemptedCount) && Number(unattemptedCount) >= 1 && Number(unattemptedCount) <= 100;
-  const safeQuickCount = /^\d+$/.test(quickCount) && Number(quickCount) >= 1 && Number(quickCount) <= 100 ? quickCount : "10";
+  const unattemptedSize = readQbankQuestionCount(unattemptedCount);
   const openPicker = (next: Bank = bank) => {
     picker.current?.showModal();
     onChooseBank(next);
@@ -83,11 +83,11 @@ export function ChatQbankLobby({ banks, bank, onChooseBank, conversations, syncS
         <span className="chat-qbank-utility-avatar" aria-hidden="true"><RotateCcw size={23} /></span>
         <span className="chat-qbank-contact-copy"><strong>미풀이 문제</strong><span>아직 답하지 않은 문제와 새 대화</span></span>
       </button>
-      <Link href={`/review/qbank/session?mode=wrong&count=${safeQuickCount}`} className="chat-qbank-contact">
+      <Link href={`/review/qbank/session?mode=wrong&count=${quickCount}`} className="chat-qbank-contact">
         <span className="chat-qbank-utility-avatar" aria-hidden="true"><RotateCcw size={23} /></span>
         <span className="chat-qbank-contact-copy"><strong>오답 노트</strong><span>틀린 문제 다시 살펴보기</span></span><span className="chat-qbank-unread">{stats.wrong.toLocaleString()}</span>
       </Link>
-      <Link href={`/review/qbank/session?mode=bookmarks&count=${safeQuickCount}`} className="chat-qbank-contact">
+      <Link href={`/review/qbank/session?mode=bookmarks&count=${quickCount}`} className="chat-qbank-contact">
         <span className="chat-qbank-utility-avatar" aria-hidden="true"><Bookmark size={22} /></span>
         <span className="chat-qbank-contact-copy"><strong>저장한 문제</strong><span>북마크한 문제 이어서 보기</span></span><span className="chat-qbank-unread">{stats.bookmarks.toLocaleString()}</span>
       </Link>
@@ -102,9 +102,9 @@ export function ChatQbankLobby({ banks, bank, onChooseBank, conversations, syncS
     <ChatQbankDialog dialogRef={unattempted} title="미풀이 문제">
       <div className="chat-qbank-unattempted">
         <p>아직 답하지 않은 문제를 무작위로 골라요.</p>
-        <label>문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={unattemptedCount} onChange={(event) => setUnattemptedCount(event.target.value)} aria-describedby="chat-unattempted-help" /></label>
-        <p id="chat-unattempted-help">{validUnattemptedCount ? "한 번에 최대 100문항까지 시작할 수 있어요." : "1~100 사이의 정수를 입력하세요."}</p>
-        {validUnattemptedCount ? <Link href={`/review/qbank/session?mode=unattempted&count=${encodeURIComponent(unattemptedCount)}`} className="chat-qbank-start">대화 시작</Link> : <button type="button" disabled className="chat-qbank-start">문항 수를 확인하세요</button>}
+        <label>문항 수<input type="number" min="1" step="1" inputMode="numeric" value={unattemptedCount} onChange={(event) => setUnattemptedCount(event.target.value)} aria-invalid={unattemptedSize === undefined} aria-describedby="chat-unattempted-help" /></label>
+        <p id="chat-unattempted-help">{unattemptedSize === undefined ? "문항 수는 1 이상의 정수로 입력하세요." : "남아 있는 미풀이 문항까지만 출제해요."}</p>
+        {unattemptedSize !== undefined ? <Link href={`/review/qbank/session?mode=unattempted&count=${unattemptedSize}`} className="chat-qbank-start">대화 시작</Link> : <button type="button" disabled className="chat-qbank-start">문항 수를 확인하세요</button>}
       </div>
     </ChatQbankDialog>
   </div>;
