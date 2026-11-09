@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-임신 초기 무증상 환자의 적절히 채취한 소변배양에서 대장균이 10⁵ CFU/mL 이상이다. 배양 감수성을 확인했을 때 처치는?
+임신 초기 무증상 환자에게서 적절히 채취한 소변을 배양했더니 대장균이 10⁵ CFU/mL 이상 자랐다. 배양 감수성을 확인했을 때 처치는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 입원해 광범위 정맥 항생제 시작
 
 - 내부 학습 노트: 임신 중 무증상 세균뇨
 - 원본 경로: `source_notes/02 Diseases/12 산과/무증상 세균뇨 (Asymptomatic Bacteriuria).md`
-- 학습 목표: 임신 초기 무증상 환자의 적절히 채취한 소변배양에서 대장균이 10⁵ CFU/mL 이상이다. 배양 감수성을 확인했을 때 처치는?
+- 학습 목표: 임신 초기 무증상 환자에게서 적절히 채취한 소변을 배양했더니 대장균이 10⁵ CFU/mL 이상 자랐다. 배양 감수성을 확인했을 때 처치는?
 - 근거: https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals

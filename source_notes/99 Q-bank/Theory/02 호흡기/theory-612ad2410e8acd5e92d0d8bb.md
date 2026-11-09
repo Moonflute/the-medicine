@@ -36,7 +36,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 배양과 임상적 추가 평가를 계속한다
+A. 객담 배양 등 추가 평가를 계속한다
 B. 활동성 결핵 평가를 종료한다
 C. TST로 약제 감수성을 판정한다
 D. IGRA로 활동성 결핵을 확진한다

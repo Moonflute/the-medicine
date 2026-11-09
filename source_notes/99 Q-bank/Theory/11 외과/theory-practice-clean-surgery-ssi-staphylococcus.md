@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-장관을 열지 않는 청결 수술의 절개부 감염에서 대표적으로 우선 고려할 병원체는?
+장관을 열지 않는 청결 수술의 절개부 감염에서 우선 고려할 대표적인 원인균은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. Staphylococcus aureus
 
 - 내부 학습 노트: 창상 감염 (Wound Infection)
 - 원본 경로: `source_notes/02 Diseases/11 외과/창상 감염 (Wound Infection).md`
-- 학습 목표: 장관을 열지 않는 청결 수술의 절개부 감염에서 대표적으로 우선 고려할 병원체는?
+- 학습 목표: 장관을 열지 않는 청결 수술의 절개부 감염에서 우선 고려할 대표적인 원인균은?
 - 근거: https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/

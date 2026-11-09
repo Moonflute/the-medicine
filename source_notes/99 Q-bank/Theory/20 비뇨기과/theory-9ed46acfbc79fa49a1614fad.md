@@ -35,7 +35,7 @@ medical_review_status: curriculum-reviewed
 
 ## 선택지
 
-A. 단순촬영 불명확·비조영 CT 검출 가능
+A. 단순 X선에서는 대개 보이지 않지만 비조영 CT로는 찾을 수 있음
 B. 단순촬영 명확·비조영 CT 검출 불가
 C. 단순촬영·비조영 CT 모두 검출 불가
 D. 조영제를 써야만 CT 검출 가능

@@ -24,7 +24,7 @@ review_status: manual-reviewed
 
 ## 문제
 
-침습 환기 중인 중증 ARDS에서 폐보호 환기에 더할 체위는?
+침습적 환기 중인 중증 ARDS 환자에게 폐보호 환기와 함께 적용할 자세는?
 
 ## 선택지
 

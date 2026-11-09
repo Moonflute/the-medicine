@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-수술 후 IAP 30mmHg와 새 무뇨·쇼크가 지속된다. 비수술적 감압에 반응하지 않는 복강구획증후군의 확정 감압 처치는?
+수술 후 복강내압이 30 mmHg이고 새로 발생한 무뇨와 쇼크가 지속된다. 비수술적 감압에 반응하지 않는 복강구획증후군에서 복강내압을 직접 낮추기 위한 처치는?
 
 ## 선택지
 
@@ -49,6 +49,6 @@ D. 지속적 신대체요법만
 
 - 내부 학습 노트: 복강 구획 증후군 (Abdominal Compartment Syndrome)
 - 원본 경로: `source_notes/02 Diseases/11 외과/복강 구획 증후군 (Abdominal Compartment Syndrome).md`
-- 학습 목표: 수술 후 IAP 30mmHg와 새 무뇨·쇼크가 지속된다. 비수술적 감압에 반응하지 않는 복강구획증후군의 확정 감압 처치는?
+- 학습 목표: 수술 후 복강내압이 30 mmHg이고 새로 발생한 무뇨와 쇼크가 지속된다. 비수술적 감압에 반응하지 않는 복강구획증후군에서 복강내압을 직접 낮추기 위한 처치는?
 - 근거: https://www.wsacs.org/education/436/wsacs-consensus-guidelines-summary/
 - 근거: https://www.east.org/education-resources/practice-management-guidelines/details/open-abdomen-in-trauma-and-emergency-general-surgery-management-of-part-1

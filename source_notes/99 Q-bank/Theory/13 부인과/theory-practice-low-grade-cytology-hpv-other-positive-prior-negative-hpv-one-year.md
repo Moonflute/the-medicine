@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-36세 비임신 성인의 자궁경부 동시 선별검사가 LSIL이고 HPV는 16·18 이외 고위험형 양성이다. 3년 전 정기 선별 HPV 검사는 음성이었고 과거 고등급 병변·면역저하는 없다. ASCCP 위험 기반 추적은?
+36세 비임신 성인의 자궁경부 세포진에서 LSIL이 나왔고, 함께 시행한 HPV 검사에서 16·18형이 아닌 고위험형이 검출됐다. 3년 전 정기 선별 HPV 검사는 음성이었고 과거 고등급 병변·면역저하는 없다. ASCCP 위험 기반 추적은?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 과거 HPV 결과와 무관하게 즉시 질확대경을 한다
 
 - 내부 학습 노트: 자궁경부 상피내 종양 (Cervical Intraepithelial Neoplasia)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁경부 상피내 종양 (Cervical Intraepithelial Neoplasia).md`
-- 학습 목표: 36세 비임신 성인의 자궁경부 동시 선별검사가 LSIL이고 HPV는 16·18 이외 고위험형 양성이다. 3년 전 정기 선별 HPV 검사는 음성이었고 과거 고등급 병변·면역저하는 없다. ASCCP 위험 기반 추적은?
+- 학습 목표: 36세 비임신 성인의 자궁경부 세포진에서 LSIL이 나왔고, 함께 시행한 HPV 검사에서 16·18형이 아닌 고위험형이 검출됐다. 3년 전 정기 선별 HPV 검사는 음성이었고 과거 고등급 병변·면역저하는 없다. ASCCP 위험 기반 추적은?
 - 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
 - 근거: https://www.cdc.gov/std/treatment-guidelines/table-2.htm

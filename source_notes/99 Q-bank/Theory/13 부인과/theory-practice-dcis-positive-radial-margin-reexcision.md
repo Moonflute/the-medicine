@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-DCIS 유방보존술 후 잔여 유방조직 쪽 절제면의 잉크에 종양이 닿아 있다. 일반적으로 먼저 논의할 처치는?
+DCIS 유방보존술 후 남은 유방조직과 맞닿던 절제면에 표시한 잉크에 종양이 닿아 있다. 일반적으로 먼저 논의할 처치는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 항암화학요법만 투여
 
 - 내부 학습 노트: 비침윤성 유방암 (Non-invasive Breast Cancer)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/비침윤성 유방암 (Non-invasive Breast Cancer).md`
-- 학습 목표: DCIS 유방보존술 후 잔여 유방조직 쪽 절제면의 잉크에 종양이 닿아 있다. 일반적으로 먼저 논의할 처치는?
+- 학습 목표: DCIS 유방보존술 후 남은 유방조직과 맞닿던 절제면에 표시한 잉크에 종양이 닿아 있다. 일반적으로 먼저 논의할 처치는?
 - 근거: https://www.breastsurgeons.org/docs/statements/asbrs-rg-margins.pdf

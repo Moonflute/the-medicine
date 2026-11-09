@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-새로 발생한 원인불명 비성형변이 하루 3회 이상이며 C. difficile 감염이 의심된다. 적절한 검사 원칙은?
+다른 원인이 뚜렷하지 않은 묽은 변을 새로 하루 3회 이상 보며 C. difficile 감염이 의심된다. 적절한 검사 원칙은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 대변검사 대신 내시경 거짓막 우선 확인
 
 - 내부 학습 노트: 거짓막 결장염 (Pseudomembranous Colitis)
 - 원본 경로: `source_notes/02 Diseases/08 감염/거짓막 결장염 (Pseudomembranous Colitis).md`
-- 학습 목표: 새로 발생한 원인불명 비성형변이 하루 3회 이상이며 C. difficile 감염이 의심된다. 적절한 검사 원칙은?
+- 학습 목표: 다른 원인이 뚜렷하지 않은 묽은 변을 새로 하루 3회 이상 보며 C. difficile 감염이 의심된다. 적절한 검사 원칙은?
 - 근거: https://www.idsociety.org/practice-guideline/clostridium-difficile/

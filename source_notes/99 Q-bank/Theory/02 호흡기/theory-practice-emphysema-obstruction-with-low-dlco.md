@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-폐기종과 기도 중심 폐쇄성 질환을 감별한다. 빈혈 등 확산능을 낮추는 다른 이유는 없다. 폐기종에서 특히 예상하는 폐기능검사 조합은?
+폐기종과 주로 기도가 좁아지는 폐쇄성 질환을 감별한다. 빈혈 등 확산능을 낮추는 다른 이유는 없다. 폐기종에서 특히 예상하는 폐기능검사 조합은?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. FEV₁/FVC 보존, DLCO 증가
 
 - 내부 학습 노트: 만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease).md`
-- 학습 목표: 폐기종과 기도 중심 폐쇄성 질환을 감별한다. 빈혈 등 확산능을 낮추는 다른 이유는 없다. 폐기종에서 특히 예상하는 폐기능검사 조합은?
+- 학습 목표: 폐기종과 주로 기도가 좁아지는 폐쇄성 질환을 감별한다. 빈혈 등 확산능을 낮추는 다른 이유는 없다. 폐기종에서 특히 예상하는 폐기능검사 조합은?
 - 근거: https://publications.ersnet.org/content/erj/60/1/2101499.full
 - 근거: https://goldcopd.org/2026-gold-report-and-pocket-guide/

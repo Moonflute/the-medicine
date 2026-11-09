@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-COPD 환자에게 큰 이차성 자연기흉이 생겨 호흡곤란·저산소혈증이 뚜렷하다. 긴장성 쇼크는 없을 때 필요한 흉막 처치는?
+COPD 환자에게 큰 이차성 자연기흉이 생겨 호흡곤란·저산소혈증이 뚜렷하다. 긴장성 기흉을 시사하는 쇼크는 없다. 필요한 흉막 처치는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ COPD 약물만으로 흉막강 공기를 제거하지 못한다. 긴장성 기�
 
 - 내부 학습 노트: 이차성 기흉 (Secondary Spontaneous Pneumothorax)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/이차성 기흉 (Secondary Spontaneous Pneumothorax).md`
-- 학습 목표: COPD 환자에게 큰 이차성 자연기흉이 생겨 호흡곤란·저산소혈증이 뚜렷하다. 긴장성 쇼크는 없을 때 필요한 흉막 처치는?
+- 학습 목표: COPD 환자에게 큰 이차성 자연기흉이 생겨 호흡곤란·저산소혈증이 뚜렷하다. 긴장성 기흉을 시사하는 쇼크는 없다. 필요한 흉막 처치는?
 - 근거: https://www.brit-thoracic.org.uk/clinical-resources/guidelines/pleural-disease-full-guideline/

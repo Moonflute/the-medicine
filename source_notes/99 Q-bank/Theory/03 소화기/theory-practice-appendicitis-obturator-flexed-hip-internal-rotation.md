@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-골반 쪽 충수염이 의심된다. 환자를 바로 눕히고 오른쪽 고관절과 무릎을 굽힌 뒤 어떤 동작으로 하복부·골반 통증이 유발되면 폐쇄근 징후인가?
+골반 쪽에 위치한 충수에 염증이 생긴 것으로 의심된다. 환자를 바로 눕히고 오른쪽 고관절과 무릎을 굽힌 뒤 어떤 동작으로 하복부·골반 통증이 유발되면 폐쇄근 징후인가?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 오른쪽 늑골하부 압박 중 깊은 흡기
 
 - 내부 학습 노트: 급성 충수염 (Acute Appendicitis)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/급성 충수염 (Acute Appendicitis).md`
-- 학습 목표: 골반 쪽 충수염이 의심된다. 환자를 바로 눕히고 오른쪽 고관절과 무릎을 굽힌 뒤 어떤 동작으로 하복부·골반 통증이 유발되면 폐쇄근 징후인가?
+- 학습 목표: 골반 쪽에 위치한 충수에 염증이 생긴 것으로 의심된다. 환자를 바로 눕히고 오른쪽 고관절과 무릎을 굽힌 뒤 어떤 동작으로 하복부·골반 통증이 유발되면 폐쇄근 징후인가?
 - 근거: https://www.acponline.org/sites/default/files/documents/clinical_information/journals_publications/books/teaching_clinical_reasoning/curriculum.pdf

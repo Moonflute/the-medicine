@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-IgA 콩팥병의 추적에서 진행 위험을 더 높게 보게 하는 소견은?
+IgA 콩팥병의 추적에서 신장질환의 진행 위험이 높음을 시사하는 소견은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 지속 단백뇨와 조절되지 않는 고혈압
 
 - 내부 학습 노트: IgA 콩팥병증 (IgAN) (IgA Nephropathy)
 - 원본 경로: `source_notes/02 Diseases/05 신장/IgA 콩팥병증 (IgAN) (IgA Nephropathy).md`
-- 학습 목표: IgA 콩팥병의 추적에서 진행 위험을 더 높게 보게 하는 소견은?
+- 학습 목표: IgA 콩팥병의 추적에서 신장질환의 진행 위험이 높음을 시사하는 소견은?
 - 근거: https://kdigo.org/wp-content/uploads/2025/09/KDIGO-2025-IgAN-IgAV-Guideline.pdf

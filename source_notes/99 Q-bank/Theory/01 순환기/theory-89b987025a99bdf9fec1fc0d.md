@@ -36,7 +36,7 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 전략에 따라 반복 또는 추가 초음파 평가
+A. 검사 범위와 임상 확률에 따라 초음파를 반복하거나 추가한다
 B. 초기 음성을 근거로 DVT 평가 종료
 C. D-dimer 양성이면 영상 없이 DVT 확진
 D. 종아리 압통만으로 DVT 확진

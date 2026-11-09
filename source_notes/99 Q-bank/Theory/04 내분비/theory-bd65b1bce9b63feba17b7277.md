@@ -37,7 +37,7 @@ review_status: manual-reviewed
 ## 선택지
 
 A. 뇌하수체 밖 종양에서 분비되는 ACTH
-B. 뇌하수체 corticotroph 종양에서 분비되는 ACTH
+B. 뇌하수체 종양에서 분비되는 ACTH
 C. 부신피질 선종에서 ACTH와 무관하게 분비되는 코르티솔
 D. 투여된 외인성 글루코코르티코이드
 

@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-임신 31주에 진통 전 양막파수가 확인됐다. 태아 심박이 안정적이고 감염·태반조기박리 소견이 없다. 입원 기대요법에서 기본적으로 고려할 조합은?
+임신 31주에 진통 전 양막파수가 확인됐다. 태아 심박이 안정적이고 감염·태반조기박리 소견이 없다. 입원해 경과를 보며 임신을 유지할 때 기본적으로 고려할 처치는?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 폐 성숙도 양수천자와 즉시 유도분만
 
 - 내부 학습 노트: 조기 양막 파수 (Premature Rupture of Membranes)
 - 원본 경로: `source_notes/02 Diseases/12 산과/조기 양막 파수 (Premature Rupture of Membranes).md`
-- 학습 목표: 임신 31주에 진통 전 양막파수가 확인됐다. 태아 심박이 안정적이고 감염·태반조기박리 소견이 없다. 입원 기대요법에서 기본적으로 고려할 조합은?
+- 학습 목표: 임신 31주에 진통 전 양막파수가 확인됐다. 태아 심박이 안정적이고 감염·태반조기박리 소견이 없다. 입원해 경과를 보며 임신을 유지할 때 기본적으로 고려할 처치는?
 - 근거: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/03/prelabor-rupture-of-membranes
 - 근거: https://www.nice.org.uk/guidance/ng25/chapter/Recommendations

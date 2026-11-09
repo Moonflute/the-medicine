@@ -32,7 +32,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-폐결절 FDG PET에서 악성종양이 아니어도 섭취가 높아질 수 있는 대표 원인은?
+폐결절이 악성종양이 아닌데도 FDG PET에서 섭취가 증가할 수 있는 경우는?
 
 ## 선택지
 

@@ -39,11 +39,11 @@ D. Carbapenem
 
 ## 해설
 
-중증 ESBL 장내세균의 요로 밖 침습 감염에는 meropenem 또는 imipenem-cilastatin 같은 carbapenem이 우선이다. 배양·감염원 조절·내성·알부민·중증도를 고려하고 안정화 뒤 적절한 경구 전환을 평가한다. 단순 설사나 cefoxitin 내성만으로 ESBL·carbapenem 적응증을 확정하지 않는다.
+ESBL 생성 장내세균으로 인한 중증 요로 외 감염에는 meropenem 또는 imipenem-cilastatin 같은 carbapenem이 우선이다. 배양·감염원 조절·내성·알부민·중증도를 고려하고 안정화 뒤 적절한 경구 전환을 평가한다. 단순 설사나 cefoxitin 내성만으로 ESBL·carbapenem 적응증을 확정하지 않는다.
 
 ## 오답 포인트
 
-감수성 결과는 감염 위치·중증도와 함께 해석한다. Fluoroquinolone이 안정된 환자의 전환 대안일 수 있어도 중증 균혈증의 초기 치료와 동일하지 않다. Shiga 독소 생성 장염의 항생제 판단은 별개다.
+감수성 결과는 감염 위치·중증도와 함께 해석한다. Fluoroquinolone이 안정된 환자의 전환 대안일 수 있어도 중증 균혈증의 초기 치료와 동일하지 않다.
 
 ## 출처
 

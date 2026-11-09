@@ -32,7 +32,7 @@ review_status: machine-generated
 
 ## 문제
 
-다음 중 자유 생활 아메바에 의해 발생하는 원발성 아메바성 뇌수막뇌염(PAM)의 원인균은?
+다음 중 자유 생활 아메바에 의해 발생하는 원발성 아메바성 수막뇌염(PAM)의 원인체는?
 
 ## 선택지
 
@@ -43,11 +43,11 @@ D. Sappinia pedata
 
 ## 해설
 
-Naegleria fowleri는 따뜻한 민물에서 코를 통해 침투해 후각신경을 따라 뇌로 이동, 원발성 아메바성 뇌수막뇌염을 일으킨다.
+Naegleria fowleri는 따뜻한 민물에서 코를 통해 침투해 후각신경을 따라 뇌로 이동해 원발성 아메바성 수막뇌염을 일으킨다.
 
 ## 오답 포인트
 
-- **Acanthamoeba spp.:** Acanthamoeba는 주로 각막염을 일으키며 PAM의 주요 원인균이 아니다.
+- **Acanthamoeba spp.:** Acanthamoeba는 주로 각막염을 일으키며 PAM의 원인체와는 다르다.
 
 ## 출처
 

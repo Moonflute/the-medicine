@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-초발 비전격 C. difficile 감염인 성인이다. 약을 사용할 수 있고 비용 제약이 없을 때 재발 감소를 고려해 선호하는 초기 경구제는?
+전격성이 아닌 C. difficile 감염이 처음 발생한 성인이다. 약을 사용할 수 있고 비용 제약이 없을 때 재발 감소를 고려해 선호하는 초기 경구제는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ Metronidazole은 선호 약제가 가능한 경우 일반적인 첫 선택이 �
 
 - 내부 학습 노트: 거짓막 결장염 (Pseudomembranous Colitis)
 - 원본 경로: `source_notes/02 Diseases/08 감염/거짓막 결장염 (Pseudomembranous Colitis).md`
-- 학습 목표: 초발 비전격 C. difficile 감염인 성인이다. 약을 사용할 수 있고 비용 제약이 없을 때 재발 감소를 고려해 선호하는 초기 경구제는?
+- 학습 목표: 전격성이 아닌 C. difficile 감염이 처음 발생한 성인이다. 약을 사용할 수 있고 비용 제약이 없을 때 재발 감소를 고려해 선호하는 초기 경구제는?
 - 근거: https://pubmed.ncbi.nlm.nih.gov/42383946/

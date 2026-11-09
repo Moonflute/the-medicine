@@ -39,14 +39,14 @@ Fondaparinux는 어떤 물질에 선택적으로 결합하여 어떤 응고인�
 
 ## 선택지
 
-A. Antithrombin 매개 Xa 억제
-B. Antithrombin 매개 IIa 억제
+A. 항트롬빈을 통한 Xa 억제
+B. 항트롬빈을 통한 IIa 억제
 C. 직접 Xa 억제
 D. 직접 IIa 억제
 
 ## 해설
 
-Fondaparinux는 항트롬빈 III에 선택적으로 결합해 Factor Xa를 억제함으로써 트롬빈 생성을 차단한다.
+Fondaparinux는 항트롬빈 III에 선택적으로 결합해 활성화된 제X인자(Xa)를 억제해 트롬빈 생성을 줄인다.
 
 ## 출처
 

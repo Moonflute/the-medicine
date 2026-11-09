@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-STEMI 증상 발생 3시간이다. 현재 병원은 일차 PCI를 할 수 없고 환자는 과거 자발성 뇌내출혈이 있었다. 재관류 계획은?
+STEMI 증상이 시작된 지 3시간이 지났다. 현재 병원은 일차 PCI를 할 수 없고 환자는 과거 자발성 뇌내출혈이 있었다. 재관류 계획은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 심근효소를 추적한 뒤 PCI 기관 이송
 
 - 내부 학습 노트: ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction).md`
-- 학습 목표: STEMI 증상 발생 3시간이다. 현재 병원은 일차 PCI를 할 수 없고 환자는 과거 자발성 뇌내출혈이 있었다. 재관류 계획은?
+- 학습 목표: STEMI 증상이 시작된 지 3시간이 지났다. 현재 병원은 일차 PCI를 할 수 없고 환자는 과거 자발성 뇌내출혈이 있었다. 재관류 계획은?
 - 근거: https://www.jacc.org/doi/10.1016/j.jacc.2024.11.009

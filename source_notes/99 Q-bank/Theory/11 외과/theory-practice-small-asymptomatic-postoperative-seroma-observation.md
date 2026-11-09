@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-수술 후 작은 장액종이 확인되었다. 통증·감염·피부 장력이나 상처 벌어짐이 없다. 적절한 초기 관리는?
+수술 후 작은 장액종이 확인되었다. 통증이나 감염 소견이 없고, 피부가 팽팽해지거나 상처가 벌어지지도 않았다. 적절한 초기 관리는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 보존적 경과관찰
 
 - 내부 학습 노트: 장액종 (Seroma)
 - 원본 경로: `source_notes/02 Diseases/11 외과/장액종 (Seroma).md`
-- 학습 목표: 수술 후 작은 장액종이 확인되었다. 통증·감염·피부 장력이나 상처 벌어짐이 없다. 적절한 초기 관리는?
+- 학습 목표: 수술 후 작은 장액종이 확인되었다. 통증이나 감염 소견이 없고, 피부가 팽팽해지거나 상처가 벌어지지도 않았다. 적절한 초기 관리는?
 - 근거: https://www.uclahealth.org/departments/radiology/education/breast-imaging-teaching-resources/cases/post-surgical-fluid-collections

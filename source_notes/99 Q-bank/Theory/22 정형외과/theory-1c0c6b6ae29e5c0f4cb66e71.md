@@ -32,7 +32,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-석회화건염의 정의는 무엇인가?
+어깨 석회화건염에서 나타나는 변화는?
 
 ## 선택지
 

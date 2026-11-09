@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-C. difficile 감염에 의한 저혈압·쇼크가 확인된 전격성 질환에서 IDSA/SHEA 지침의 기본 항균 전략은?
+C. difficile 감염으로 저혈압과 쇼크가 생긴 전격성 감염에서 IDSA/SHEA 지침의 기본 항균 전략은?
 
 ## 선택지
 
@@ -49,6 +49,6 @@ D. IV vancomycin + 경구 metronidazole
 
 - 내부 학습 노트: 거짓막 결장염 (Pseudomembranous Colitis)
 - 원본 경로: `source_notes/02 Diseases/08 감염/거짓막 결장염 (Pseudomembranous Colitis).md`
-- 학습 목표: C. difficile 감염에 의한 저혈압·쇼크가 확인된 전격성 질환에서 IDSA/SHEA 지침의 기본 항균 전략은?
+- 학습 목표: C. difficile 감염으로 저혈압과 쇼크가 생긴 전격성 감염에서 IDSA/SHEA 지침의 기본 항균 전략은?
 - 근거: https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/
 - 근거: https://www.idsociety.org/practice-guideline/clostridium-difficile/

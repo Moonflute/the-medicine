@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-큰 심실중격결손을 치료받지 않은 소아에서 예전보다 전수축기 잡음이 약해졌다. 그러나 운동 시 숨참이 늘고 폐동맥판 닫힘음이 커졌다. 단락 감소에도 증상이 나빠질 수 있는 기전은?
+큰 심실중격결손이 있지만 교정술을 받지 않은 소아에서 예전보다 전수축기 잡음이 약해졌다. 그러나 운동 시 숨참이 늘고 폐동맥판 닫힘음이 커졌다. 단락 감소에도 증상이 나빠질 수 있는 기전은?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 승모판 협착으로 우심실에서 체순환으로 가는 혈류가 늘�
 
 - 내부 학습 노트: 심실 중격 결손 (Ventricular Septal Defect)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/심실 중격 결손 (Ventricular Septal Defect).md`
-- 학습 목표: 큰 심실중격결손을 치료받지 않은 소아에서 예전보다 전수축기 잡음이 약해졌다. 그러나 운동 시 숨참이 늘고 폐동맥판 닫힘음이 커졌다. 단락 감소에도 증상이 나빠질 수 있는 기전은?
+- 학습 목표: 큰 심실중격결손이 있지만 교정술을 받지 않은 소아에서 예전보다 전수축기 잡음이 약해졌다. 그러나 운동 시 숨참이 늘고 폐동맥판 닫힘음이 커졌다. 단락 감소에도 증상이 나빠질 수 있는 기전은?
 - 근거: https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/pulmonary-hypertension/
 - ACC 소아 단락 지침: https://www.acc.org/latest-in-cardiology/journal-scans/2026/03/24/18/20/new-ccg-isolated-left-to-right-shunt-lesions-in-pediatric-patients

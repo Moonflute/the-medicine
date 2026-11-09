@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-최적 약물치료 뒤에도 NYHA III 증상이 남는다. 동율동, LVEF 28%, 좌각차단 QRS 162 ms이다. 심실 수축의 비동기성을 교정할 치료는?
+최적 약물치료 뒤에도 NYHA III 증상이 남는다. 동율동이고 좌심실 박출률은 28%다. 좌각차단이 있고 QRS 폭은 162 ms다. 심실 수축의 비동기성을 교정할 치료는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 심방세동 도자절제술
 
 - 내부 학습 노트: 만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))
 - 원본 경로: `source_notes/02 Diseases/01 순환기/만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF)).md`
-- 학습 목표: 최적 약물치료 뒤에도 NYHA III 증상이 남는다. 동율동, LVEF 28%, 좌각차단 QRS 162 ms이다. 심실 수축의 비동기성을 교정할 치료는?
+- 학습 목표: 최적 약물치료 뒤에도 NYHA III 증상이 남는다. 동율동이고 좌심실 박출률은 28%다. 좌각차단이 있고 QRS 폭은 162 ms다. 심실 수축의 비동기성을 교정할 치료는?
 - 근거: [ESC 2026 심부전 지침](https://doi.org/10.1093/eurheartj/ehag100)

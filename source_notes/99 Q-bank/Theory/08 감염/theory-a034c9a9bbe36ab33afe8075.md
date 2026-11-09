@@ -32,7 +32,7 @@ review_status: machine-generated
 
 ## 문제
 
-사슬알균 인두염을 일으키는 균은?
+A군 사슬알균 인두염의 원인균은?
 
 ## 선택지
 

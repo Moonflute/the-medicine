@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-신생아실의 미숙아가 호흡을 멈췄고 기도 위치를 바로잡고 부드럽게 자극해도 무호흡과 서맥·산소저하가 계속된다. 신생아팀이 즉시 시행할 처치는?
+신생아실의 미숙아가 호흡을 멈췄고 기도 위치를 바로잡고 부드럽게 자극해도 무호흡과 서맥이 계속되고 산소포화도도 낮다. 신생아팀이 즉시 시행할 처치는?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 계면활성제를 준비하면서 자극만 계속 반복
 
 - 내부 학습 노트: 미숙아 무호흡 (Apnea of Prematurity)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/미숙아 무호흡 (Apnea of Prematurity).md`
-- 학습 목표: 신생아실의 미숙아가 호흡을 멈췄고 기도 위치를 바로잡고 부드럽게 자극해도 무호흡과 서맥·산소저하가 계속된다. 신생아팀이 즉시 시행할 처치는?
+- 학습 목표: 신생아실의 미숙아가 호흡을 멈췄고 기도 위치를 바로잡고 부드럽게 자극해도 무호흡과 서맥이 계속되고 산소포화도도 낮다. 신생아팀이 즉시 시행할 처치는?
 - 근거: https://www.clinicalguidelines.scot.nhs.uk/ggc-paediatric-guidelines/ggc-paediatric-guidelines/neonatology/apnoea-of-prematurity/
 - 환기 원칙: https://kids.bwc.nhs.uk/wp-content/uploads/2024/01/Neonatal-Network-Guidelines-2022-24.pdf

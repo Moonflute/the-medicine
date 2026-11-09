@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-성인 심정지에서 제세동 직후부터 다음 계획된 리듬 확인까지의 기본 순서는?
+성인 심정지에서 제세동 직후부터 다음 심장 리듬 확인까지 어떤 순서로 처치하는가?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ ROSC를 뒷받침하는 징후가 있으면 순환 상태를 확인하되 불필
 
 - 내부 학습 노트: 심폐소생술 (CPR)
 - 원본 경로: `source_notes/07 Skills/5. CPR·호흡/심폐소생술 (CPR).md`
-- 학습 목표: 성인 심정지에서 제세동 직후부터 다음 계획된 리듬 확인까지의 기본 순서는?
+- 학습 목표: 성인 심정지에서 제세동 직후부터 다음 심장 리듬 확인까지 어떤 순서로 처치하는가?
 - 근거: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support

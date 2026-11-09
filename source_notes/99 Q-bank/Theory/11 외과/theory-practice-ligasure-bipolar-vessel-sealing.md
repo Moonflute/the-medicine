@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-LigaSure 계열 혈관봉합기의 혈관 밀봉에 이용되는 대표적 에너지는?
+LigaSure 계열 기구가 혈관을 밀봉할 때 사용하는 에너지는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ LigaSure의 혈관 밀봉은 압박과 양극성 전기에너지를 이용한다
 
 - 내부 학습 노트: 외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols)
 - 원본 경로: `source_notes/02 Diseases/11 외과/외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols).md`
-- 학습 목표: LigaSure 계열 혈관봉합기의 혈관 밀봉에 이용되는 대표적 에너지는?
+- 학습 목표: LigaSure 계열 기구가 혈관을 밀봉할 때 사용하는 에너지는?
 - 근거: https://www.medtronic.com/en-us/healthcare-professionals/products/surgical-energy/vessel-sealing/open-instruments/ligasure-exact-dissector.html

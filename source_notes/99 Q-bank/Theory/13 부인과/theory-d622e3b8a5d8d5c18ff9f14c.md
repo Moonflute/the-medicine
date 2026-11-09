@@ -31,7 +31,7 @@ medical_review_status: curriculum-reviewed
 
 ## 문제
 
-자궁 근종의 정의는 무엇입니까?
+자궁근종은 어떤 조직에서 생기는 종양인가?
 
 ## 선택지
 

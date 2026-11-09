@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-청소년의 난소 악성 생식세포종양을 감별한다. 혈청 AFP가 뚜렷하게 높고 β-hCG는 정상이다. 보기 중 가장 전형적으로 맞는 종양은?
+청소년의 난소 악성 생식세포종양을 감별한다. 혈청 AFP가 뚜렷하게 높고 β-hCG는 정상이다. 이 검사 결과에 가장 잘 맞는 종양은?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 성숙 낭성 기형종
 
 - 내부 학습 노트: 내배엽동종양 (Endodermal Sinus Tumor)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/내배엽동종양 (Endodermal Sinus Tumor).md`
-- 학습 목표: 청소년의 난소 악성 생식세포종양을 감별한다. 혈청 AFP가 뚜렷하게 높고 β-hCG는 정상이다. 보기 중 가장 전형적으로 맞는 종양은?
+- 학습 목표: 청소년의 난소 악성 생식세포종양을 감별한다. 혈청 AFP가 뚜렷하게 높고 β-hCG는 정상이다. 이 검사 결과에 가장 잘 맞는 종양은?
 - 근거: https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq

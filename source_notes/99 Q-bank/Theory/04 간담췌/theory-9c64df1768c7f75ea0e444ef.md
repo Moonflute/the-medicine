@@ -34,7 +34,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Ursodeoxycholic Acid의 작용 메커니즘은 무엇입니까?
+우르소데옥시콜산의 작용 기전은?
 
 ## 선택지
 

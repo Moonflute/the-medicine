@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-현장 안전이 확보된 낙뢰 다수사상자에서 역선별(reverse triage)로 우선 소생할 대상은?
+낙뢰로 여러 명이 다쳤고 현장은 안전하다. 역선별(reverse triage)을 적용할 때 우선 소생할 환자는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 반응이 없고 정상 호흡이 없는 환자
 
 - 내부 학습 노트: 전기 화상 (Electrical Burn)
 - 원본 경로: `source_notes/02 Diseases/11 외과/전기 화상 (Electrical Burn).md`
-- 학습 목표: 현장 안전이 확보된 낙뢰 다수사상자에서 역선별(reverse triage)로 우선 소생할 대상은?
+- 학습 목표: 낙뢰로 여러 명이 다쳤고 현장은 안전하다. 역선별(reverse triage)을 적용할 때 우선 소생할 환자는?
 - 근거: https://handbook.bcehs.ca/clinical-practice-guidelines/h-traumatic-injuries/h11-electrical-injuries/

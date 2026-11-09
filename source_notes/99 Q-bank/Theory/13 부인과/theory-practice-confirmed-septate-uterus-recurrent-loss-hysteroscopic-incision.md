@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-반복 유산 환자의 3차원 질초음파에서 자궁 외부 바닥 윤곽은 정상이고 자궁강을 가르는 중격이 확인됐다. 상담에서 제안할 수 있는 교정술은?
+반복 유산 환자의 3차원 질초음파에서 자궁저부의 바깥 윤곽은 정상이고 자궁강을 가르는 중격이 확인됐다. 상담에서 제안할 수 있는 교정술은?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 자궁동맥 색전으로 중격 혈류 차단
 
 - 내부 학습 노트: 자궁 선천기형 (Congenital Uterine Anomaly)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/자궁 선천기형 (Congenital Uterine Anomaly).md`
-- 학습 목표: 반복 유산 환자의 3차원 질초음파에서 자궁 외부 바닥 윤곽은 정상이고 자궁강을 가르는 중격이 확인됐다. 상담에서 제안할 수 있는 교정술은?
+- 학습 목표: 반복 유산 환자의 3차원 질초음파에서 자궁저부의 바깥 윤곽은 정상이고 자궁강을 가르는 중격이 확인됐다. 상담에서 제안할 수 있는 교정술은?
 - 근거: https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-diagnosis-and-treatment-for-uterine-septum-a-guideline-2024/

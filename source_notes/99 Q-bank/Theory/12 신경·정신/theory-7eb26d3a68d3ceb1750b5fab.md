@@ -45,7 +45,7 @@ D. MAO 효소 억제
 
 ## 해설
 
-Duloxetine은 SNRI로 serotonin과 norepinephrine의 재흡수를 억제한다. SSRI·TCA·다른 기전의 항우울제와 구분하는 것이 핵심이다.
+둘록세틴은 세로토닌과 노르에피네프린 재흡수를 억제하는 SNRI다. SSRI·TCA·다른 기전의 항우울제와 구분하는 것이 핵심이다.
 
 ## 출처
 

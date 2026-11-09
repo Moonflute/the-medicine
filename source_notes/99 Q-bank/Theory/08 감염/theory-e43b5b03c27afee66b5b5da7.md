@@ -34,18 +34,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Ciprofloxacin이 억제하는 세균 효소의 분류는?
+시프로플록사신이 억제하는 세균 효소는 어느 계열인가?
 
 ## 선택지
 
-A. II형 topoisomerase
+A. II형 토포이소머라제
 B. RNA polymerase
 C. Transpeptidase
 D. Folate 환원효소
 
 ## 해설
 
-Ciprofloxacin은 플루오로퀴놀론계 항생제로 DNA gyrase와 topoisomerase IV를 억제해 DNA 복제와 세포 분열을 방해합니다.
+시프로플록사신은 플루오로퀴놀론계 항생제다. II형 토포이소머라제에 속하는 DNA 자이라제와 토포이소머라제 IV를 억제한다.
 
 ## 오답 포인트
 

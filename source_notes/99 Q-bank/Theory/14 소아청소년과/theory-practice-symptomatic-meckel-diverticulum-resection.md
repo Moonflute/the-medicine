@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-Meckel 게실이 반복되는 유의한 소장출혈의 원인으로 확인되었다. 확정적 치료 원칙은?
+Meckel 게실이 반복되는 유의한 소장출혈의 원인으로 확인되었다. 출혈의 원인을 치료하는 방법은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 대장 점막 절제술
 
 - 내부 학습 노트: 메켈 게실 (Meckel's Diverticulum)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/메켈 게실 (Meckel's Diverticulum).md`
-- 학습 목표: Meckel 게실이 반복되는 유의한 소장출혈의 원인으로 확인되었다. 확정적 치료 원칙은?
+- 학습 목표: Meckel 게실이 반복되는 유의한 소장출혈의 원인으로 확인되었다. 출혈의 원인을 치료하는 방법은?
 - 근거: https://medlineplus.gov/ency/article/002929.htm

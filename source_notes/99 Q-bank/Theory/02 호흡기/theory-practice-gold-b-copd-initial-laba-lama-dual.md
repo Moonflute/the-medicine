@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-유지 흡입제를 처음 시작하는 안정된 COPD 환자다. 일상에서 숨이 차서 mMRC 2점이고 최근 1년 중등도·중증 악화와 동반 천식은 없다. GOLD 2026의 우선 초기 유지 흡입요법은?
+유지 흡입제를 처음 시작하는 안정된 COPD 환자다. 호흡곤란은 mMRC 2점이다. 최근 1년간 중등도·중증 악화가 없고 천식도 동반되지 않았다. GOLD 2026의 우선 초기 유지 흡입요법은?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. LABA + ICS 병용
 
 - 내부 학습 노트: 만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease).md`
-- 학습 목표: 유지 흡입제를 처음 시작하는 안정된 COPD 환자다. 일상에서 숨이 차서 mMRC 2점이고 최근 1년 중등도·중증 악화와 동반 천식은 없다. GOLD 2026의 우선 초기 유지 흡입요법은?
+- 학습 목표: 유지 흡입제를 처음 시작하는 안정된 COPD 환자다. 호흡곤란은 mMRC 2점이다. 최근 1년간 중등도·중증 악화가 없고 천식도 동반되지 않았다. GOLD 2026의 우선 초기 유지 흡입요법은?
 - 근거: https://goldcopd.org/2026-gold-report-and-pocket-guide/

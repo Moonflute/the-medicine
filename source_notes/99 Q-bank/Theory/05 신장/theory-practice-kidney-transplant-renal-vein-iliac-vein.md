@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-일반적인 성인 장골와 신장이식에서 공여 신정맥을 연결하는 수혜자 혈관의 대표 예는?
+일반적인 성인 장골와 신장이식에서 공여자의 신정맥을 주로 어느 수혜자 혈관에 연결하는가?
 
 ## 선택지
 
@@ -49,6 +49,6 @@ D. 대퇴동맥
 
 - 내부 학습 노트: 신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications)
 - 원본 경로: `source_notes/02 Diseases/05 신장/신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications).md`
-- 학습 목표: 일반적인 성인 장골와 신장이식에서 공여 신정맥을 연결하는 수혜자 혈관의 대표 예는?
+- 학습 목표: 일반적인 성인 장골와 신장이식에서 공여자의 신정맥을 주로 어느 수혜자 혈관에 연결하는가?
 - 근거: https://www.nhsbt.nhs.uk/organ-transplantation/kidney/at-the-transplant-centre/kidney-transplant-surgery/
 - 근거: https://uroweb.org/guidelines/renal-transplantation/chapter/the-guideline

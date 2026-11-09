@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-반복 임신 소실과 지속 항인지질항체로 산과 항인지질증후군이 확인됐다. 이전 혈전은 없고 임신이 확인됐다. 출산 결과를 개선하기 위한 기본 병합요법은?
+유산이 반복됐고 항인지질항체가 지속해서 양성이어서 산과적 항인지질증후군으로 진단됐다. 이전 혈전은 없고 임신이 확인됐다. 출산 결과를 개선하기 위한 기본 병합요법은?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 치료 용량 와파린과 정맥 면역글로불린
 
 - 내부 학습 노트: 항인지질 증후군 (Antiphospholipid Syndrome)
 - 원본 경로: `source_notes/02 Diseases/07 류마티스/항인지질 증후군 (Antiphospholipid Syndrome).md`
-- 학습 목표: 반복 임신 소실과 지속 항인지질항체로 산과 항인지질증후군이 확인됐다. 이전 혈전은 없고 임신이 확인됐다. 출산 결과를 개선하기 위한 기본 병합요법은?
+- 학습 목표: 유산이 반복됐고 항인지질항체가 지속해서 양성이어서 산과적 항인지질증후군으로 진단됐다. 이전 혈전은 없고 임신이 확인됐다. 출산 결과를 개선하기 위한 기본 병합요법은?
 - 근거: https://acrjournals.onlinelibrary.wiley.com/doi/abs/10.1002/acr.24130
 - 근거: https://www.asrm.org/practice-guidance/practice-committee-documents/recurrent-pregnancy-loss-a-committee-opinion-2026

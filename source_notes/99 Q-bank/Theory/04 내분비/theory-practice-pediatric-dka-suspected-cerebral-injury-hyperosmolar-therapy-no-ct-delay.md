@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-소아 DKA 치료 중 새로 심한 두통, 반응 저하와 서맥이 발생했다. 현장 혈당은 낮지 않으며 뇌손상이 강하게 의심된다. 소생·전문팀 호출과 함께 영상 전에 시행할 처치는?
+소아 DKA 치료 중 새로 심한 두통, 반응 저하와 서맥이 발생했다. 즉시 잰 혈당은 낮지 않으며 뇌손상이 강하게 의심된다. 소생·전문팀 호출과 함께 영상 전에 시행할 처치는?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ DKA 관련 뇌손상이 의심되면 영상 확인을 기다리지 않고 신속
 
 - 내부 학습 노트: 당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)
 - 원본 경로: `source_notes/02 Diseases/04 내분비/당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis).md`
-- 학습 목표: 소아 DKA 치료 중 새로 심한 두통, 반응 저하와 서맥이 발생했다. 현장 혈당은 낮지 않으며 뇌손상이 강하게 의심된다. 소생·전문팀 호출과 함께 영상 전에 시행할 처치는?
+- 학습 목표: 소아 DKA 치료 중 새로 심한 두통, 반응 저하와 서맥이 발생했다. 즉시 잰 혈당은 낮지 않으며 뇌손상이 강하게 의심된다. 소생·전문팀 호출과 함께 영상 전에 시행할 처치는?
 - 근거: https://cps.ca/en/documents/position/current-recommendations-for-management-of-paediatric-diabetic-ketoacidosis

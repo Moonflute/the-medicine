@@ -38,7 +38,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 사용을 피하고 세균 감염 적응증을 별도 평가
+A. 아목시실린을 피하고 항생제가 필요한 세균 감염이 있는지는 별도로 평가
 B. 발진 예방을 위해 macrolide로 자동 교체
 C. EBV 제거 목적으로 amoxicillin 유지
 D. 발진이 생기면 항생제 용량 증량

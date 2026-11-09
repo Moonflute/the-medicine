@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-이식신 기능이 악화되고 혈관·요로 폐쇄 등 가역 원인을 평가한 뒤 급성 거부반응이 의심된다. 조직형 확정을 위한 검사는?
+이식신 기능이 악화되고 혈관·요로 폐쇄 등 가역 원인을 평가한 뒤 급성 거부반응이 의심된다. 거부반응의 유형을 확인하는 검사는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 소변 배양만 시행
 
 - 내부 학습 노트: 신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications)
 - 원본 경로: `source_notes/02 Diseases/05 신장/신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications).md`
-- 학습 목표: 이식신 기능이 악화되고 혈관·요로 폐쇄 등 가역 원인을 평가한 뒤 급성 거부반응이 의심된다. 조직형 확정을 위한 검사는?
+- 학습 목표: 이식신 기능이 악화되고 혈관·요로 폐쇄 등 가역 원인을 평가한 뒤 급성 거부반응이 의심된다. 거부반응의 유형을 확인하는 검사는?
 - 근거: https://uroweb.org/guidelines/renal-transplantation/chapter/the-guideline

@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-선택적 대장절제술의 비경구 예방 항생제가 기본적으로 포함해야 할 균 범위는?
+예정된 대장절제술에서 주사로 투여하는 예방 항생제는 어떤 균에 효과가 있어야 하는가?
 
 ## 선택지
 
@@ -39,7 +39,7 @@ D. 장내 혐기균과 진균
 
 ## 해설
 
-대장 수술은 장내 그람음성균과 혐기균을 함께 포함하는 예방요법이 필요하다. Cefoxitin 단독이나 cefazolin+metronidazole 등이 예이며 알레르기·지역내성·기관 프로토콜에 따라 정한다. 예정 수술의 경구 항생제·장정결은 별도 계획하며 비경구 예방을 대체하지 않는다.
+대장 수술은 장내 그람음성균과 혐기균에 모두 효과가 있는 예방 항생제를 쓴다. Cefoxitin 단독이나 cefazolin+metronidazole 등이 예이며 알레르기·지역내성·기관 프로토콜에 따라 정한다. 예정 수술의 경구 항생제·장정결은 별도 계획하며 비경구 예방을 대체하지 않는다.
 
 ## 오답 포인트
 
@@ -49,5 +49,5 @@ D. 장내 혐기균과 진균
 
 - 내부 학습 노트: 외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols)
 - 원본 경로: `source_notes/02 Diseases/11 외과/외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols).md`
-- 학습 목표: 선택적 대장절제술의 비경구 예방 항생제가 기본적으로 포함해야 할 균 범위는?
+- 학습 목표: 예정된 대장절제술에서 주사로 투여하는 예방 항생제는 어떤 균에 효과가 있어야 하는가?
 - 근거: https://www.ashp.org/-/media/assets/policy-guidelines/docs/therapeutic-guidelines/therapeutic-guidelines-antimicrobial-prophylaxis-surgery.pdf

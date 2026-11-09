@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-간실질 절제에서 초음파로 조직을 파쇄하면서 동시에 흡인·관류하는 장비는?
+간실질 절제에서 초음파로 조직을 파쇄하고 세척액을 흘리면서 파쇄된 조직을 흡인하는 장비는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ Harmonic은 초음파 절단·응고 기구이고 LigaSure는 양극성 혈관 �
 
 - 내부 학습 노트: 외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols)
 - 원본 경로: `source_notes/02 Diseases/11 외과/외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols).md`
-- 학습 목표: 간실질 절제에서 초음파로 조직을 파쇄하면서 동시에 흡인·관류하는 장비는?
+- 학습 목표: 간실질 절제에서 초음파로 조직을 파쇄하고 세척액을 흘리면서 파쇄된 조직을 흡인하는 장비는?
 - 근거: https://marketing.integralife.com/cusa-clarity

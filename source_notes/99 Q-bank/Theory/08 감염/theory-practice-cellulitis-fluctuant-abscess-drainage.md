@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-연조직염으로 의심한 병변에 국한된 파동(fluctuation)이 만져진다. 배농 가능한 농양을 확인했을 때 치료의 핵심은?
+연조직염을 의심한 부위에서 액체가 찬 듯한 파동(fluctuation)이 한곳에 만져진다. 배농 가능한 농양을 확인했을 때 치료의 핵심은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 항생제만 증량
 
 - 내부 학습 노트: 연조직염 (Cellulitis)
 - 원본 경로: `source_notes/02 Diseases/08 감염/연조직염 (Cellulitis).md`
-- 학습 목표: 연조직염으로 의심한 병변에 국한된 파동(fluctuation)이 만져진다. 배농 가능한 농양을 확인했을 때 치료의 핵심은?
+- 학습 목표: 연조직염을 의심한 부위에서 액체가 찬 듯한 파동(fluctuation)이 한곳에 만져진다. 배농 가능한 농양을 확인했을 때 치료의 핵심은?
 - 근거: https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/

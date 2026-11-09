@@ -38,7 +38,7 @@ related_drug_slugs:
 
 ## 선택지
 
-A. 뇌하수체 corticotroph 종양의 ACTH 분비
+A. 뇌하수체에서 ACTH를 분비하는 종양
 B. 뇌하수체 밖 종양의 ACTH 분비
 C. 부신피질 종양의 ACTH 비의존성 코르티솔 분비
 D. 외인성 글루코코르티코이드 과다 노출

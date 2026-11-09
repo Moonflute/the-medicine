@@ -34,7 +34,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Doxorubicin이 DNA 복제와 전사를 차단하는 주요 효소는?
+독소루비신이 DNA 복제와 전사를 방해할 때 억제하는 주요 효소는?
 
 ## 선택지
 

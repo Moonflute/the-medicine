@@ -32,7 +32,7 @@ wrong_notes_review_status: reviewed
 
 ## 문제
 
-외음부 상피내 종양(VIN) 진단에 가장 필수적인 검사는?
+외음부 상피내 종양(VIN)을 조직학적으로 진단하는 검사는?
 
 ## 선택지
 

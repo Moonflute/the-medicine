@@ -34,7 +34,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-Isoniazid의 주요 항결핵 작용 기전은?
+이소니아지드의 주요 항결핵 작용 기전은?
 
 ## 선택지
 
@@ -45,7 +45,7 @@ D. RNA polymerase 억제
 
 ## 해설
 
-Isoniazid는 Mycobacterium의 세포벽 구성 성분인 mycolic acid 합성을 억제해 항결핵 효과를 나타냅니다.
+이소니아지드는 결핵균 세포벽의 구성 성분인 미콜산(mycolic acid) 합성을 억제한다.
 
 ## 오답 포인트
 

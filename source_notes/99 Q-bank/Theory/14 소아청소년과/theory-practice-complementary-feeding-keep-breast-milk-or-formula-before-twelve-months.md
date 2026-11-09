@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-7개월 영아가 철분이 포함된 보완식을 시작했다. CDC 영아영양 권고에 따라 돌 전까지 주된 우유 음료로 적절한 것은?
+7개월 영아가 철분이 포함된 보완식을 시작했다. CDC 영아영양 권고에 따라 돌 전까지 주된 수유로 적절한 것은?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 살균 염소우유로 교체
 
 - 내부 학습 노트: 영아·미숙아 영양과 수유 (Infant and Preterm Nutrition)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/영아·미숙아 영양과 수유 (Infant and Preterm Nutrition).md`
-- 학습 목표: 7개월 영아가 철분이 포함된 보완식을 시작했다. CDC 영아영양 권고에 따라 돌 전까지 주된 우유 음료로 적절한 것은?
+- 학습 목표: 7개월 영아가 철분이 포함된 보완식을 시작했다. CDC 영아영양 권고에 따라 돌 전까지 주된 수유로 적절한 것은?
 - 근거: https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-encourage.html

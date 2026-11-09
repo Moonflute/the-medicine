@@ -47,7 +47,7 @@ D. C. pneumoniae
 
 ## 오답 포인트
 
-- **Treponema pallidum:** Treponema pallidum은 매독의 원인균이며 림프육아종을 일으키지 않는다.
+- **C. trachomatis D–K:** 비임균성 요도염 등과, **A–C:** 트라코마와 관련된다. **C. pneumoniae**는 주로 호흡기 감염의 원인이다.
 
 ## 출처
 

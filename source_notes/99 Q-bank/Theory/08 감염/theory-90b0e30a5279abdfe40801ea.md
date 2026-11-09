@@ -32,7 +32,7 @@ review_status: machine-generated
 
 ## 문제
 
-파상풍은 어떤 병원체가 생성하는 독소에 의해 발생합니까?
+파상풍의 원인 독소를 만드는 세균은?
 
 ## 선택지
 
@@ -43,11 +43,11 @@ D. Staphylococcus aureus
 
 ## 해설
 
-파상풍은 Clostridium tetani가 만든 신경독소 tetanospasmin에 의해 급성 근육 강직을 일으키는 질환입니다.
+Clostridium tetani가 만드는 신경독소 테타노스파스민이 파상풍의 근육 강직과 경련을 일으킨다.
 
 ## 오답 포인트
 
-- **Clostridium perfringens:** Clostridium perfringens는 가스괴저를 일으키며 파상풍과는 관련이 없습니다.
+- **Clostridium perfringens:** Clostridium perfringens는 가스 괴저의 대표적인 원인균으로, 파상풍의 원인균이 아니다.
 
 ## 출처
 

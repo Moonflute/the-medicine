@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-담낭절제 병력이 있는 환자에게 총담관결석과 담즙정체가 확인되었다. 일반적인 해부학에서 우선 평가할 치료는?
+담낭절제 병력이 있는 환자에게 총담관결석과 담즙정체가 확인되었다. 담관 접근을 어렵게 하는 구조적 변형이 없다면 우선할 치료는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 간동맥 색전술
 
 - 내부 학습 노트: 쓸개관돌 (Common Bile Duct Stone)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/간담췌/쓸개관돌 (Common Bile Duct Stone).md`
-- 학습 목표: 담낭절제 병력이 있는 환자에게 총담관결석과 담즙정체가 확인되었다. 일반적인 해부학에서 우선 평가할 치료는?
+- 학습 목표: 담낭절제 병력이 있는 환자에게 총담관결석과 담즙정체가 확인되었다. 담관 접근을 어렵게 하는 구조적 변형이 없다면 우선할 치료는?
 - 근거: https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis

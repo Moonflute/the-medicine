@@ -43,7 +43,7 @@ D. Staphylococcus haemolyticus
 
 ## 해설
 
-S. aureus는 대표적인 coagulase 양성 포도알균이다. 나머지 제시 균종은 통상 coagulase-negative staphylococci로 분류한다. 실제 동정은 검사 특성과 추가 동정 결과를 종합한다.
+S. aureus는 대표적인 coagulase 양성 포도알균이다. 나머지 제시 균종은 통상 응고효소 음성 포도알균으로 분류한다. 실제 동정은 검사 특성과 추가 동정 결과를 종합한다.
 
 ## 오답 포인트
 

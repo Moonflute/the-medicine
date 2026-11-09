@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-팔로사징 영아가 심하게 울다가 갑자기 청색증과 빠른 호흡을 보인다. 기존 폐동맥 유출 잡음은 작아졌다. 과청색증 발작으로 보고 도움을 요청하면서 할 조치는?
+팔로사징 영아가 심하게 울다가 갑자기 청색증과 빠른 호흡을 보인다. 기존에 들리던 우심실 유출로 잡음은 약해졌다. 과청색증 발작으로 보고 도움을 요청하면서 할 조치는?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 고개를 뒤로 젖히고 엉덩이를 폄
 
 - 내부 학습 노트: 팔로 사징 (Tetralogy of Fallot)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/팔로 사징 (Tetralogy of Fallot).md`
-- 학습 목표: 팔로사징 영아가 심하게 울다가 갑자기 청색증과 빠른 호흡을 보인다. 기존 폐동맥 유출 잡음은 작아졌다. 과청색증 발작으로 보고 도움을 요청하면서 할 조치는?
+- 학습 목표: 팔로사징 영아가 심하게 울다가 갑자기 청색증과 빠른 호흡을 보인다. 기존에 들리던 우심실 유출로 잡음은 약해졌다. 과청색증 발작으로 보고 도움을 요청하면서 할 조치는?
 - 근거: https://www.alderhey.nhs.uk/conditions/patient-information-leaflets/cyanotic-spells-blue-spells-in-tetralogy-of-fallot-piag-214/
 - 급성 관리: https://www.merckmanuals.com/en-ca/professional/pediatrics/congenital-cardiovascular-anomalies/tetralogy-of-fallot

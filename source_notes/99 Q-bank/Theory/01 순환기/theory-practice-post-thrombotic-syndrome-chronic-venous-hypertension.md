@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-DVT 이후 수개월간 다리 무거움·부종과 발목 주변 갈색 색소침착이 지속된다. 대표적인 만성 합병증은?
+DVT 이후 수개월간 다리가 무겁고 부으며 발목 주변의 갈색 색소침착이 계속된다. 대표적인 만성 합병증은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ DVT 뒤 잔여 폐쇄와 판막 손상 등으로 정맥압이 높아지면 혈�
 
 - 내부 학습 노트: 심부 정맥 혈전증 (Deep Vein Thrombosis)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/심부 정맥 혈전증 (Deep Vein Thrombosis).md`
-- 학습 목표: DVT 이후 수개월간 다리 무거움·부종과 발목 주변 갈색 색소침착이 지속된다. 대표적인 만성 합병증은?
+- 학습 목표: DVT 이후 수개월간 다리가 무겁고 부으며 발목 주변의 갈색 색소침착이 계속된다. 대표적인 만성 합병증은?
 - 근거: https://www.guysandstthomas.nhs.uk/health-information/post-thrombotic-syndrome-and-chronic-venous-insufficiency

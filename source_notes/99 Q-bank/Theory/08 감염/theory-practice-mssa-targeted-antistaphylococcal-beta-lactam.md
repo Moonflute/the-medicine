@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-심부 연조직 감염에서 배양된 S. aureus가 oxacillin 감수성이다. 정맥 치료가 필요하고 β-lactam 금기가 없다. 좁혀 쓸 약제의 예는?
+심부 연조직 감염에서 배양된 S. aureus가 oxacillin 감수성이다. 정맥 치료가 필요하고 β-lactam 금기가 없다. 배양 결과에 맞춰 항균 범위를 좁힐 때 적절한 약은?
 
 ## 선택지
 
@@ -39,7 +39,7 @@ D. Gentamicin 단독
 
 ## 해설
 
-적절히 확인된 MSSA는 감염 부위와 감수성에 맞춰 cefazolin 또는 nafcillin·oxacillin 같은 항포도알균 β-lactam을 선택할 수 있다. 농양은 배농 필요성을 함께 평가한다. 불필요한 광범위·MRSA 치료를 배양 결과에 맞게 좁힌다.
+적절히 확인된 MSSA는 감염 부위와 감수성에 맞춰 cefazolin 또는 nafcillin·oxacillin 같은 항포도알균 β-lactam을 선택할 수 있다. 농양은 배농 필요성을 함께 평가한다. 배양 결과에 따라 불필요한 광범위 항생제나 MRSA 치료는 줄인다.
 
 ## 오답 포인트
 
@@ -49,5 +49,5 @@ Vancomycin은 MRSA 또는 β-lactam을 쓰기 어려운 상황에서 검토한�
 
 - 내부 학습 노트: 포도알균 감염 (Staphylococcal Infection)
 - 원본 경로: `source_notes/02 Diseases/08 감염/포도알균 감염 (Staphylococcal Infection).md`
-- 학습 목표: 심부 연조직 감염에서 배양된 S. aureus가 oxacillin 감수성이다. 정맥 치료가 필요하고 β-lactam 금기가 없다. 좁혀 쓸 약제의 예는?
+- 학습 목표: 심부 연조직 감염에서 배양된 S. aureus가 oxacillin 감수성이다. 정맥 치료가 필요하고 β-lactam 금기가 없다. 배양 결과에 맞춰 항균 범위를 좁힐 때 적절한 약은?
 - 근거: https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/

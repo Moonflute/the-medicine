@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-조산력이 없는 임신 21주 단태임신이다. 증상은 없고 질식 초음파로 잰 자궁경부 길이는 16 mm다. 자궁경부 개대와 파수는 없다. SMFM이 조산 예방을 위해 권고하는 처치는?
+단태임신 21주이며 이전에 조산한 적은 없다. 증상은 없고 질식 초음파로 잰 자궁경부 길이는 16 mm다. 자궁경부 개대와 파수는 없다. SMFM이 조산 예방을 위해 권고하는 처치는?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 정주 자궁수축억제
 
 - 내부 학습 노트: 자궁경부 무력증 (Incompetent Internal Os of Cervix)
 - 원본 경로: `source_notes/02 Diseases/12 산과/자궁경부 무력증 (Incompetent Internal Os of Cervix).md`
-- 학습 목표: 조산력이 없는 임신 21주 단태임신이다. 증상은 없고 질식 초음파로 잰 자궁경부 길이는 16 mm다. 자궁경부 개대와 파수는 없다. SMFM이 조산 예방을 위해 권고하는 처치는?
+- 학습 목표: 단태임신 21주이며 이전에 조산한 적은 없다. 증상은 없고 질식 초음파로 잰 자궁경부 길이는 16 mm다. 자궁경부 개대와 파수는 없다. SMFM이 조산 예방을 위해 권고하는 처치는?
 - 근거: https://publications.smfm.org/publications/560-society-for-maternal-fetal-medicine-consult-series-70/

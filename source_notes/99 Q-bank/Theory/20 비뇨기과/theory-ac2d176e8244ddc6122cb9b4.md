@@ -31,7 +31,7 @@ medical_review_status: curriculum-reviewed
 
 ## 문제
 
-신장 실질에서 발생하는 악성 종양을 무엇이라고 하는가?
+성인의 신장 실질에서 생기는 가장 흔한 악성 종양은?
 
 ## 선택지
 

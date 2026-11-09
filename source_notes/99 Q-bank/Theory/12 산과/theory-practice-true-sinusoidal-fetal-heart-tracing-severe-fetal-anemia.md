@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-태아심박 기록에서 기저선이 매끈하고 규칙적인 사인파처럼 반복되고 정상 변이도가 분리되어 보이지 않는다. 진성 사인파형으로 판단했다면 우선 감별할 태아 문제는?
+태아심박 기록에서 기저선이 부드럽고 규칙적인 사인파 모양을 반복하며, 그 외의 정상 변이도는 보이지 않는다. 진성 사인파형으로 판단했다면 우선 감별할 태아 문제는?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 태아 출혈 등에 의한 심한 태아 빈혈
 
 - 내부 학습 노트: 임신 중 태아 감시 (Fetal Monitoring)
 - 원본 경로: `source_notes/02 Diseases/12 산과/임신 중 태아 감시 (Fetal Monitoring).md`
-- 학습 목표: 태아심박 기록에서 기저선이 매끈하고 규칙적인 사인파처럼 반복되고 정상 변이도가 분리되어 보이지 않는다. 진성 사인파형으로 판단했다면 우선 감별할 태아 문제는?
+- 학습 목표: 태아심박 기록에서 기저선이 부드럽고 규칙적인 사인파 모양을 반복하며, 그 외의 정상 변이도는 보이지 않는다. 진성 사인파형으로 판단했다면 우선 감별할 태아 문제는?
 - 근거: https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2025/10/intrapartum-fetal-heart-rate-monitoring-interpretation-and-management
 - 원인 감별: https://www.nice.org.uk/guidance/ng229/chapter/Recommendations

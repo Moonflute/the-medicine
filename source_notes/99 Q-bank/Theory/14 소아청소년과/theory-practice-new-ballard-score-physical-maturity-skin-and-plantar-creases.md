@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-New Ballard 평가의 신체 성숙도 항목에서 낮은 재태 성숙도를 함께 시사하는 소견은?
+New Ballard 평가의 신체 성숙도 항목에서 재태 기간이 짧아 신체가 아직 덜 성숙했음을 시사하는 소견은?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 가죽 같은 피부와 발바닥 전후의 깊은 주름
 
 - 내부 학습 노트: 저체중아 (Low Birth Weight Infant)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 총론/저체중아 (Low Birth Weight Infant).md`
-- 학습 목표: New Ballard 평가의 신체 성숙도 항목에서 낮은 재태 성숙도를 함께 시사하는 소견은?
+- 학습 목표: New Ballard 평가의 신체 성숙도 항목에서 재태 기간이 짧아 신체가 아직 덜 성숙했음을 시사하는 소견은?
 - 근거: https://www.ballardscore.com/ScoreSheet/ScoreSheet

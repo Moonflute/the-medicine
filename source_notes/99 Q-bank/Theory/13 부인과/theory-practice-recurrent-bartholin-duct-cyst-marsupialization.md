@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-한쪽 바르톨린관의 통증성 낭종이 단순 흡인 뒤 재발했다. 의심스러운 고형 성분은 없고 환자는 Word 카테터를 원하지 않는다. 배액 통로를 계속 열어 두는 수술은?
+한쪽 바르톨린샘 도관의 통증성 낭종이 단순 흡인 뒤 재발했다. 의심스러운 고형 성분은 없고 환자는 Word 카테터를 원하지 않는다. 배액 통로를 계속 열어 두는 수술은?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 낭 내부를 비운 뒤 흡수성 충전재로 일시 패킹
 
 - 내부 학습 노트: 바르톨린샘염 (Bartholin Gland Inflammation)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/바르톨린샘염 (Bartholin Gland Inflammation).md`
-- 학습 목표: 한쪽 바르톨린관의 통증성 낭종이 단순 흡인 뒤 재발했다. 의심스러운 고형 성분은 없고 환자는 Word 카테터를 원하지 않는다. 배액 통로를 계속 열어 두는 수술은?
+- 학습 목표: 한쪽 바르톨린샘 도관의 통증성 낭종이 단순 흡인 뒤 재발했다. 의심스러운 고형 성분은 없고 환자는 Word 카테터를 원하지 않는다. 배액 통로를 계속 열어 두는 수술은?
 - 근거: https://rightdecisions.scot.nhs.uk/ggc-referral-management/womens-health/gynaecology-clinical-guidelines/management-of-bartholin-s-cyst-and-abscess-gynaecology-066/

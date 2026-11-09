@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-환기 조건을 바꾸지 않은 CPR 중 EtCO₂가 갑자기 지속 상승했다. 우선 의심할 의미는?
+CPR 중 환기 조건이 그대로인데 호기말 이산화탄소(EtCO₂)가 갑자기 오른 뒤 높은 수준을 유지한다. 우선 의심할 의미는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 흉부압박의 효과 소실
 
 - 내부 학습 노트: 심폐소생술 (CPR)
 - 원본 경로: `source_notes/07 Skills/5. CPR·호흡/심폐소생술 (CPR).md`
-- 학습 목표: 환기 조건을 바꾸지 않은 CPR 중 EtCO₂가 갑자기 지속 상승했다. 우선 의심할 의미는?
+- 학습 목표: CPR 중 환기 조건이 그대로인데 호기말 이산화탄소(EtCO₂)가 갑자기 오른 뒤 높은 수준을 유지한다. 우선 의심할 의미는?
 - 근거: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support

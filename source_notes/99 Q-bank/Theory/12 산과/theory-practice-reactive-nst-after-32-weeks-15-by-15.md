@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-임신 36주에 시행한 20분 비수축검사(NST)이다. 기저선과 변이도는 정상이며 감속은 없다. 반응성을 뒷받침하는 태아심박 가속은?
+임신 36주에 시행한 20분 비수축검사(NST)이다. 기저선과 변이도는 정상이며 감속은 없다. 기저선에 비해 어느 정도의 태아심박 상승이 몇 번 있어야 반응성으로 보는가?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 분당 15회 이상 올라 5초 이상 지속된 가속 2회
 
 - 내부 학습 노트: 임신 중 태아 감시 (Fetal Monitoring)
 - 원본 경로: `source_notes/02 Diseases/12 산과/임신 중 태아 감시 (Fetal Monitoring).md`
-- 학습 목표: 임신 36주에 시행한 20분 비수축검사(NST)이다. 기저선과 변이도는 정상이며 감속은 없다. 반응성을 뒷받침하는 태아심박 가속은?
+- 학습 목표: 임신 36주에 시행한 20분 비수축검사(NST)이다. 기저선과 변이도는 정상이며 감속은 없다. 기저선에 비해 어느 정도의 태아심박 상승이 몇 번 있어야 반응성으로 보는가?
 - 근거: https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being
 - 근거: https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-4-fetal-heart-tracings

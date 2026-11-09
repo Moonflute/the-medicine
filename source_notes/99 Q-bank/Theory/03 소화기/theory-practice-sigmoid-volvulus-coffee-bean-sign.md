@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-복부 X선에서 골반에서 시작해 위쪽으로 크게 확장된 대장 고리의 전형적 coffee bean sign을 보이는 질환은?
+복부 X선에서 골반에서 시작해 위쪽으로 크게 확장된 대장 고리의 커피콩 징후(coffee bean sign)가 나타나는 질환은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 독성 거대결장
 
 - 내부 학습 노트: 구불창자 꼬임 (Sigmoid Volvulus)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/구불창자 꼬임 (Sigmoid Volvulus).md`
-- 학습 목표: 복부 X선에서 골반에서 시작해 위쪽으로 크게 확장된 대장 고리의 전형적 coffee bean sign을 보이는 질환은?
+- 학습 목표: 복부 X선에서 골반에서 시작해 위쪽으로 크게 확장된 대장 고리의 커피콩 징후(coffee bean sign)가 나타나는 질환은?
 - 근거: https://link.springer.com/article/10.1186/s13017-023-00502-x

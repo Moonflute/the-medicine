@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-ROSC 후 혼수 상태인 성인의 일반적인 동맥혈 PaCO₂ 목표는?
+자발순환이 회복된 뒤에도 혼수 상태인 성인에서 일반적인 동맥혈 이산화탄소분압(PaCO₂) 목표는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ AHA 2025는 일반적인 생리 범위인 PaCO₂ 35–45 mmHg 유지를 권한�
 
 - 내부 학습 노트: 심정지 후 관리 (Post-Cardiac Arrest Care)
 - 원본 경로: `source_notes/02 Diseases/21 응급의학/심정지 후 관리 (Post-Cardiac Arrest Care).md`
-- 학습 목표: ROSC 후 혼수 상태인 성인의 일반적인 동맥혈 PaCO₂ 목표는?
+- 학습 목표: 자발순환이 회복된 뒤에도 혼수 상태인 성인에서 일반적인 동맥혈 이산화탄소분압(PaCO₂) 목표는?
 - 근거: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/post-cardiac-arrest-care

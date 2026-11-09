@@ -36,7 +36,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 선택지
 
-A. 증상·위험에 맞는 ICS 포함 치료
+A. 증상과 위험에 맞춰 흡입 스테로이드(ICS)를 포함해 치료
 B. 증상 시 SABA 단독 치료 유지
 C. LABA 단독 유지 치료
 D. 항히스타민제만으로 유지 치료

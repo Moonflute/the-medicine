@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-국소마취제 주입 중 입 주위 저림·금속 맛·귀울림이 발생했다. 우선 의심할 합병증은?
+국소마취제 주입 중 입 주위 저림·금속 맛·이명이 발생했다. 우선 의심할 합병증은?
 
 ## 선택지
 
@@ -39,7 +39,7 @@ D. 메트헤모글로빈혈증
 
 ## 해설
 
-국소마취제 전신독성의 초기 신경 증상일 수 있어 투여를 중단하고 기도·산소화·순환을 평가하며 구조 장비와 인력을 요청한다. 경련·심혈관 독성으로 진행하면 LAST 전용 소생과 지질유제 치료를 진행한다.
+국소마취제 전신독성의 초기 신경 증상일 수 있어 투여를 중단하고 기도·산소화·순환을 평가하며 응급 처치에 필요한 장비와 인력을 요청한다. 경련·심혈관 독성으로 진행하면 LAST 전용 소생과 지질유제 치료를 진행한다.
 
 ## 오답 포인트
 
@@ -49,5 +49,5 @@ D. 메트헤모글로빈혈증
 
 - 내부 학습 노트: 국소마취제 전신독성 (Local Anesthetic Systemic Toxicity)
 - 원본 경로: `source_notes/02 Diseases/21 응급의학/국소마취제 전신독성 (Local Anesthetic Systemic Toxicity).md`
-- 학습 목표: 국소마취제 주입 중 입 주위 저림·금속 맛·귀울림이 발생했다. LAST가 의심될 때 우선 조치는?
+- 학습 목표: 국소마취제 주입 중 입 주위 저림·금속 맛·이명이 발생했다. LAST가 의심될 때 우선 조치는?
 - 근거: https://asra.com/news-publications/asra-updates/blog-landing/guidelines/2020/11/01/checklist-for-treatment-of-local-anesthetic-systemic-toxicity

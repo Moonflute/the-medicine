@@ -38,11 +38,11 @@ medical_review_status: curriculum-reviewed
 A. 녹농균(Pseudomonas aeruginosa)
 B. 황색포도상구균(Staphylococcus aureus)
 C. 칸디다(Candida albicans)
-D. 연쇄상구균(Streptococcus pneumoniae)
+D. 폐렴구균(Streptococcus pneumoniae)
 
 ## 해설
 
-외이도 급성 미만성 염증의 주요 원인균은 습한 환경에서 번식하기 쉬운 녹농균이다.
+급성 미만성 외이도염에서는 녹농균이 흔하다. 황색포도상구균도 원인균이 될 수 있다.
 
 ## 출처
 

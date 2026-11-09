@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-성인 패혈성 쇼크에서 초기 수액을 고른다. 외상성 뇌손상이나 중증 저나트륨혈증 같은 별도 적응증은 없다. SSC 2026이 일반적으로 선호하는 수액은?
+성인 패혈성 쇼크에서 초기 수액을 고른다. 외상성 뇌손상이나 중증 저나트륨혈증 같이 수액 선택을 달리할 이유는 없다. SSC 2026이 일반적으로 선호하는 수액은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ SSC는 패혈증 소생의 첫 수액으로 결정질을 사용하고, 일반적
 
 - 내부 학습 노트: 패혈성 쇼크 (Septic Shock)
 - 원본 경로: `source_notes/02 Diseases/11 외과/패혈성 쇼크 (Septic Shock).md`
-- 학습 목표: 성인 패혈성 쇼크에서 초기 수액을 고른다. 외상성 뇌손상이나 중증 저나트륨혈증 같은 별도 적응증은 없다. SSC 2026이 일반적으로 선호하는 수액은?
+- 학습 목표: 성인 패혈성 쇼크에서 초기 수액을 고른다. 외상성 뇌손상이나 중증 저나트륨혈증 같이 수액 선택을 달리할 이유는 없다. SSC 2026이 일반적으로 선호하는 수액은?
 - 근거: https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026

@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-TNF 억제제를 시작하기 전 잠복결핵을 확인했다. 활동성 결핵은 배제됐고 HIV와 주요 약물 상호작용은 없다. CDC가 선호하는 단기 요법의 예는?
+TNF 억제제를 시작하기 전 잠복결핵을 확인했다. 활동성 결핵은 배제됐다. HIV 감염은 없고 중요한 약물 상호작용도 없다. CDC가 선호하는 단기 요법의 예는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 피라진아미드 단독 3개월
 
 - 내부 학습 노트: 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
 - 원본 경로: `source_notes/02 Diseases/02 호흡기/잠복 결핵 (성인) (Latent Tuberculosis (Adult)).md`
-- 학습 목표: TNF 억제제를 시작하기 전 잠복결핵을 확인했다. 활동성 결핵은 배제됐고 HIV와 주요 약물 상호작용은 없다. CDC가 선호하는 단기 요법의 예는?
+- 학습 목표: TNF 억제제를 시작하기 전 잠복결핵을 확인했다. 활동성 결핵은 배제됐다. HIV 감염은 없고 중요한 약물 상호작용도 없다. CDC가 선호하는 단기 요법의 예는?
 - 근거: https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html

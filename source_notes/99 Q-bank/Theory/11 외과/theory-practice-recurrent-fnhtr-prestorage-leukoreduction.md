@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-다른 위험 원인을 배제한 비용혈성 발열 수혈반응이 반복된다. 향후 위험을 줄이는 데 도움이 되는 혈액제제 처리는?
+용혈이나 세균 오염 등 다른 원인을 배제한 뒤 발열성 비용혈성 수혈반응이 반복되는 것으로 판단했다. 향후 위험을 줄이는 데 도움이 되는 혈액제제 처리는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 혈액 가온
 
 - 내부 학습 노트: 비용혈성 발열 수혈 반응 (Non-hemolytic Febrile Transfusion Reaction)
 - 원본 경로: `source_notes/02 Diseases/11 외과/비용혈성 발열 수혈 반응 (Non-hemolytic Febrile Transfusion Reaction).md`
-- 학습 목표: 다른 위험 원인을 배제한 비용혈성 발열 수혈반응이 반복된다. 향후 위험을 줄이는 데 도움이 되는 혈액제제 처리는?
+- 학습 목표: 용혈이나 세균 오염 등 다른 원인을 배제한 뒤 발열성 비용혈성 수혈반응이 반복되는 것으로 판단했다. 향후 위험을 줄이는 데 도움이 되는 혈액제제 처리는?
 - 근거: https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/FNHTR

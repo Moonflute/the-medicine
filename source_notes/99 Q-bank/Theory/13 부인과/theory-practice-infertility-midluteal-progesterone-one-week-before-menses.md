@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-난임 평가 중 월경력이 명확하지 않아 혈청 프로게스테론으로 배란 여부를 확인한다. 가장 적합한 채혈 시점은?
+난임 평가 중 월경력만으로 배란 여부를 판단하기 어려워 혈청 프로게스테론으로 배란 여부를 확인한다. 가장 적합한 채혈 시점은?
 
 ## 선택지
 
@@ -50,5 +50,5 @@ D. 월경량이 가장 많은 날
 
 - 내부 학습 노트: 불임 (Infertility)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/불임 (Infertility).md`
-- 학습 목표: 난임 평가 중 월경력이 명확하지 않아 혈청 프로게스테론으로 배란 여부를 확인한다. 가장 적합한 채혈 시점은?
+- 학습 목표: 난임 평가 중 월경력만으로 배란 여부를 판단하기 어려워 혈청 프로게스테론으로 배란 여부를 확인한다. 가장 적합한 채혈 시점은?
 - 근거: https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026

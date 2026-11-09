@@ -47,7 +47,7 @@ D. Anti‑dsDNA
 
 ## 오답 포인트
 
-- **Anti-topoisomerase I (Scl‑70):** Scl‑70은 주로 확산형에 관련된다.
+- **Anti-topoisomerase I (Scl‑70):** Scl‑70은 미만피부형 전신경화증과 더 관련이 깊다.
 
 ## 출처
 

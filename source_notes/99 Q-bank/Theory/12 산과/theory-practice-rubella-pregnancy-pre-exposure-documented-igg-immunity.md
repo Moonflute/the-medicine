@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-임신 초기에 풍진 환자와 접촉했다. 접촉 전 산전 기록에 풍진 특이 IgG 면역이 문서화되어 있고 현재 발진·발열이 없다. 접촉 전 IgG의 가장 적절한 해석은?
+임신 초기에 풍진 환자와 접촉했다. 접촉 전에 풍진 특이 IgG가 양성임을 확인한 산전 기록이 있고 현재 발진·발열이 없다. 접촉 전 IgG의 가장 적절한 해석은?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 풍진에 감수성이 높다는 근거
 
 - 내부 학습 노트: 선천성 풍진 증후군 (Congenital Rubella Syndrome)
 - 원본 경로: `source_notes/02 Diseases/12 산과/선천성 풍진 증후군 (Congenital Rubella Syndrome).md`
-- 학습 목표: 임신 초기에 풍진 환자와 접촉했다. 접촉 전 산전 기록에 풍진 특이 IgG 면역이 문서화되어 있고 현재 발진·발열이 없다. 접촉 전 IgG의 가장 적절한 해석은?
+- 학습 목표: 임신 초기에 풍진 환자와 접촉했다. 접촉 전에 풍진 특이 IgG가 양성임을 확인한 산전 기록이 있고 현재 발진·발열이 없다. 접촉 전 IgG의 가장 적절한 해석은?
 - 근거: https://www.cdc.gov/rubella/php/laboratories/serology-testing.html
 - 근거: https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5012a1.htm

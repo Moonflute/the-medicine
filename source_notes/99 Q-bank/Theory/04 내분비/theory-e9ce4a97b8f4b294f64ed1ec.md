@@ -36,7 +36,7 @@ review_status: manual-reviewed
 
 ## 선택지
 
-A. 높은 칼슘·PTH 상승 또는 부적절한 정상
+A. 칼슘이 높고 PTH가 상승했거나 억제되지 않음
 B. 높은 칼슘·충분히 억제된 PTH
 C. 낮은 칼슘·보상성 PTH 상승
 D. 정상 칼슘·만성콩팥병의 PTH 상승

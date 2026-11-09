@@ -43,7 +43,7 @@ AHA 2025는 제세동 불응 VF/pVT에서 amiodarone 또는 lidocaine을 고려�
 
 ## 오답 포인트
 
-Verapamil·diltiazem·digoxin 등은 이 심정지 리듬의 표준 구제 항부정맥제가 아니다. Atropine은 비충격 심정지의 일상 약제가 아니며 adenosine은 VF를 종료하지 못한다.
+Verapamil·diltiazem·digoxin 등은 이 심정지 리듬의 표준적으로 사용하는 항부정맥제가 아니다. Atropine은 제세동이 필요하지 않은 심정지 리듬에서도 일률적으로 투여하는 약은 아니며 adenosine은 VF를 종료하지 못한다.
 
 ## 출처
 

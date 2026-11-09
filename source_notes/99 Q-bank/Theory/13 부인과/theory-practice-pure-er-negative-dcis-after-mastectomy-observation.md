@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-순수 DCIS를 음성 절제연으로 유방전절제했고 감시림프절은 음성이다. ER/PR 음성이며 HER2는 양성이다. 일반적인 추가 치료는?
+침윤이 없는 유관상피내암(DCIS)으로 유방전절제술을 받았다. 절제연과 감시림프절은 모두 음성이다. ER/PR 음성이며 HER2는 양성이다. 일반적인 추가 치료는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ HER2 양성이라는 사실만으로 침윤암의 표적치료 적응증이 되�
 
 - 내부 학습 노트: 비침윤성 유방암 (Non-invasive Breast Cancer)
 - 원본 경로: `source_notes/02 Diseases/13 부인과/비침윤성 유방암 (Non-invasive Breast Cancer).md`
-- 학습 목표: 순수 DCIS를 음성 절제연으로 유방전절제했고 감시림프절은 음성이다. ER/PR 음성이며 HER2는 양성이다. 일반적인 추가 치료는?
+- 학습 목표: 침윤이 없는 유관상피내암(DCIS)으로 유방전절제술을 받았다. 절제연과 감시림프절은 모두 음성이다. ER/PR 음성이며 HER2는 양성이다. 일반적인 추가 치료는?
 - 근거: https://www.cancer.gov/types/breast/hp/breast-treatment-pdq

@@ -42,7 +42,7 @@ D. Mycobacterium tuberculosis, Nocardia asteroides, Actinomyces israelii
 
 ## 해설
 
-급성 중이염의 주요 세균은 폐렴구균, 인플루엔자균, 모락살라균이며, 이들이 이관 부종 후 감염을 일으킨다.
+급성 중이염의 주요 세균은 폐렴구균, 인플루엔자균, 모락살라균이며, 상기도 감염 뒤 이관의 환기와 배액이 나빠지면 중이 감염이 생기기 쉽다.
 
 ## 출처
 

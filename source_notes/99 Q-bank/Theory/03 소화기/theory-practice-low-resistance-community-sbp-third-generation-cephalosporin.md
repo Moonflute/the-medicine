@@ -43,7 +43,7 @@ D. Vancomycin 단독
 
 ## 오답 포인트
 
-Cefazolin은 일반적인 SBP 경험적 선택을 대신하지 않는다. Metronidazole·vancomycin 단독은 흔한 장내 그람음성 원인체를 충분히 덮지 못한다. 이차성 복막염 단서는 별도로 평가한다.
+Cefazolin은 일반적인 SBP 경험적 선택을 대신하지 않는다. Metronidazole·vancomycin 단독은 흔한 장내 그람음성균을 충분히 치료하지 못한다. 이차성 복막염 단서는 별도로 평가한다.
 
 ## 출처
 

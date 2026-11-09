@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-청결 탈장 교정술에서 예방항생제 투여가 필요하며 베타락탐 금기·MRSA 보균이 없다. 일반적인 1차 약제는?
+청결 탈장 교정술에서 예방항생제 투여가 필요하며 베타락탐에 금기가 없고 MRSA 보균도 없다. 일반적인 1차 약제는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 이미페넴
 
 - 내부 학습 노트: 외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols)
 - 원본 경로: `source_notes/02 Diseases/11 외과/외과적 도구 및 공통 프로토콜 (Surgical Tools and Core Protocols).md`
-- 학습 목표: 청결 탈장 교정술에서 예방항생제 투여가 필요하며 베타락탐 금기·MRSA 보균이 없다. 일반적인 1차 약제는?
+- 학습 목표: 청결 탈장 교정술에서 예방항생제 투여가 필요하며 베타락탐에 금기가 없고 MRSA 보균도 없다. 일반적인 1차 약제는?
 - 근거: https://www.ashp.org/-/media/assets/policy-guidelines/docs/therapeutic-guidelines/therapeutic-guidelines-antimicrobial-prophylaxis-surgery.pdf

@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-규칙적인 P파가 분당 80회, 규칙적인 QRS가 분당 35회이며 P파가 어느 QRS에도 일정하게 전도되지 않는다. 가장 합당한 방실차단은?
+규칙적인 P파가 분당 80회, 규칙적인 QRS가 분당 35회이며 P파와 QRS 사이에 일정한 관계가 없다. 가장 합당한 방실차단은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ Mobitz I은 보통 PR이 점차 길어지며 탈락하고 Mobitz II는 전도된
 
 - 내부 학습 노트: 방실차단 (AV block)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/방실차단 (AV block).md`
-- 학습 목표: 규칙적인 P파가 분당 80회, 규칙적인 QRS가 분당 35회이며 P파가 어느 QRS에도 일정하게 전도되지 않는다. 가장 합당한 방실차단은?
+- 학습 목표: 규칙적인 P파가 분당 80회, 규칙적인 QRS가 분당 35회이며 P파와 QRS 사이에 일정한 관계가 없다. 가장 합당한 방실차단은?
 - 근거: https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2018/11/06/14/31/2018-acc-aha-hrs-guideline-on-bradycardia

@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-전형적인 심근경색의 유도별 위치 판단에서 V1~V4에 주로 연속된 ST 상승이 나타나는 영역은?
+급성 심근경색이 의심되는 환자의 심전도에서 V1~V4에 ST분절 상승이 보인다. 어느 부위의 손상을 시사하는가?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ V1~V4의 연속된 허혈성 ST 상승은 전중격·전벽 손상을 시사하�
 
 - 내부 학습 노트: ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)
 - 원본 경로: `source_notes/02 Diseases/01 순환기/ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction).md`
-- 학습 목표: 전형적인 심근경색의 유도별 위치 판단에서 V1~V4에 주로 연속된 ST 상승이 나타나는 영역은?
+- 학습 목표: 급성 심근경색이 의심되는 환자의 심전도에서 V1~V4에 ST분절 상승이 보인다. 어느 부위의 손상을 시사하는가?
 - 근거: https://ecg.utah.edu/lesson/9

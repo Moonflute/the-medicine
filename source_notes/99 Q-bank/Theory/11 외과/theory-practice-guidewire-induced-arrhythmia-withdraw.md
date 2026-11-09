@@ -28,12 +28,12 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-중심정맥 유도선을 넣는 순간 새 조기심실수축이 나타났다. 환자는 안정적이다. 우선 할 조치는?
+중심정맥관의 유도선을 넣는 도중 조기심실수축이 새로 나타났다. 환자는 안정적이다. 우선 할 조치는?
 
 ## 선택지
 
 A. 유도선을 더 진행한다.
-B. 진행 중단 후 유도선을 조심스럽게 후퇴한다.
+B. 더 넣지 말고 유도선을 조심스럽게 뒤로 뺀다.
 C. 유도선을 둔 채 리도카인을 우선 투여한다.
 D. 정맥 수액을 급속 증량한다.
 
@@ -49,5 +49,5 @@ D. 정맥 수액을 급속 증량한다.
 
 - 내부 학습 노트: 중심정맥관 삽입술 (Central Venous Catheterization)
 - 원본 경로: `source_notes/02 Diseases/11 외과/중심정맥관 삽입술 (Central Venous Catheterization).md`
-- 학습 목표: 중심정맥 유도선을 넣는 순간 새 조기심실수축이 나타났다. 환자는 안정적이다. 우선 할 조치는?
+- 학습 목표: 중심정맥관의 유도선을 넣는 도중 조기심실수축이 새로 나타났다. 환자는 안정적이다. 우선 할 조치는?
 - 근거: https://www.merckmanuals.com/en-ca/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access

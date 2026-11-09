@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-임신부가 전염기 수두 환자와 긴밀히 접촉한 지 3일 됐다. 수두 면역의 증거가 없고 확인한 VZV IgG도 음성이다. 아직 증상은 없으며 미국 CDC 지침을 적용한다. 노출 후 예방은?
+임신부가 전염력이 있는 수두 환자와 긴밀히 접촉한 지 3일 됐다. 수두 면역의 증거가 없고 확인한 VZV IgG도 음성이다. 아직 증상은 없으며 미국 CDC 지침을 적용한다. 노출 후 예방은?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ CDC는 면역이 없고 발병 위험이 높은 임신부가 의미 있게 노�
 
 - 내부 학습 노트: 임신 중 수두
 - 원본 경로: `source_notes/02 Diseases/12 산과/수두 (Varicella).md`
-- 학습 목표: 임신부가 전염기 수두 환자와 긴밀히 접촉한 지 3일 됐다. 수두 면역의 증거가 없고 확인한 VZV IgG도 음성이다. 아직 증상은 없으며 미국 CDC 지침을 적용한다. 노출 후 예방은?
+- 학습 목표: 임신부가 전염력이 있는 수두 환자와 긴밀히 접촉한 지 3일 됐다. 수두 면역의 증거가 없고 확인한 VZV IgG도 음성이다. 아직 증상은 없으며 미국 CDC 지침을 적용한다. 노출 후 예방은?
 - 근거: https://www.cdc.gov/chickenpox/hcp/clinical-guidance/
 - 근거: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/chickenpox-in-pregnancy-green-top-guideline-no-13/

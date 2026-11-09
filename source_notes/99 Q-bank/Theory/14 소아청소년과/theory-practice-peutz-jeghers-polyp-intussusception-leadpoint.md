@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-Peutz–Jeghers 증후군 환자의 소장 과오종성 용종이 선두점이 되어 잘 유발하는 합병증은?
+Peutz–Jeghers 증후군 환자의 소장 과오종성 용종이 선두점이 될 때 생기기 쉬운 합병증은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ D. 상장간막동맥 혈전
 
 - 내부 학습 노트: 장중첩증 (Intussusception)
 - 원본 경로: `source_notes/02 Diseases/14 소아청소년과/소아과 각론/장중첩증 (Intussusception).md`
-- 학습 목표: Peutz–Jeghers 증후군 환자의 소장 과오종성 용종이 선두점이 되어 잘 유발하는 합병증은?
+- 학습 목표: Peutz–Jeghers 증후군 환자의 소장 과오종성 용종이 선두점이 될 때 생기기 쉬운 합병증은?
 - 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC7865862/

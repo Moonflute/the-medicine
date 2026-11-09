@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-중심정맥관을 가진 입원 소아에게 패혈성 쇼크가 발생했다. 도관 감염이 의심되고 초기 혈액 그람염색은 포도송이 모양 그람양성 알균이다. MRSA 위험이 높은 병동에서 초기 항균요법에 포함할 약은?
+중심정맥관을 가진 입원 소아에게 패혈성 쇼크가 발생했다. 도관 감염이 의심되고 초기 혈액배양 검체의 그람염색에서 포도송이 모양의 그람양성 알균이 보였다. MRSA 위험이 높은 병동에서 초기 항균요법에 포함할 약은?
 
 ## 선택지
 
@@ -50,6 +50,6 @@ D. 아즈트레오남
 
 - 내부 학습 노트: 도관 관련 감염 (Catheter-Related Infection)
 - 원본 경로: `source_notes/02 Diseases/08 감염/도관 관련 감염 (Catheter-Related Infection).md`
-- 학습 목표: 중심정맥관을 가진 입원 소아에게 패혈성 쇼크가 발생했다. 도관 감염이 의심되고 초기 혈액 그람염색은 포도송이 모양 그람양성 알균이다. MRSA 위험이 높은 병동에서 초기 항균요법에 포함할 약은?
+- 학습 목표: 중심정맥관을 가진 입원 소아에게 패혈성 쇼크가 발생했다. 도관 감염이 의심되고 초기 혈액배양 검체의 그람염색에서 포도송이 모양의 그람양성 알균이 보였다. MRSA 위험이 높은 병동에서 초기 항균요법에 포함할 약은?
 - 근거: https://www.idsociety.org/practice-guideline/iv-catheter/
 - 소아 패혈증 2026: https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-the-management-of-sepsis-and-septic-shock-in

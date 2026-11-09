@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-ARB와 티아지드를 쓰는 성인이 새로 경구 NSAID를 시작했다. 신장 관류가 감소한 상황에서 NSAID가 여과를 더 떨어뜨리는 기전은?
+ARB와 티아지드를 쓰는 성인이 새로 경구 NSAID를 시작했다. 신장 관류가 감소한 상황에서 NSAID가 사구체여과율을 더 낮추는 기전은?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ NSAID는 프로스타글란딘 합성을 억제해 수입세동맥의 보상적 
 
 - 내부 학습 노트: 콩팥전 급성 콩팥 손상 (Prerenal Acute Kidney Injury)
 - 원본 경로: `source_notes/02 Diseases/05 신장/콩팥전 급성 콩팥 손상 (Prerenal Acute Kidney Injury).md`
-- 학습 목표: ARB와 티아지드를 쓰는 성인이 새로 경구 NSAID를 시작했다. 신장 관류가 감소한 상황에서 NSAID가 여과를 더 떨어뜨리는 기전은?
+- 학습 목표: ARB와 티아지드를 쓰는 성인이 새로 경구 NSAID를 시작했다. 신장 관류가 감소한 상황에서 NSAID가 사구체여과율을 더 낮추는 기전은?
 - 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC3541472/

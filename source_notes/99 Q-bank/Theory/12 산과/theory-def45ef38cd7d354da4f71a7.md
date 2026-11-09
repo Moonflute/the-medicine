@@ -32,7 +32,7 @@ wrong_notes_review_status: superseded
 
 ## 문제
 
-조기 양막 파수(PPROM)의 정의는 무엇입니까?
+만삭 전 조기 양막파수(PPROM)에 해당하는 것은?
 
 ## 선택지
 

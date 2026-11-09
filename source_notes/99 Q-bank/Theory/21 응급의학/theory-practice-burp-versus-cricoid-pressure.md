@@ -39,7 +39,7 @@ D. Head tilt–chin lift
 
 ## 해설
 
-BURP는 backward, upward, rightward pressure로 갑상연골을 조작해 성문 시야를 개선하는 수기다. 환자 오른쪽이라는 방향을 혼동하지 않는다.
+BURP는 backward, upward, rightward pressure로 갑상연골을 조작해 성문 시야를 개선하는 수기다. 오른쪽은 시술자가 아니라 환자를 기준으로 한다.
 
 ## 오답 포인트
 

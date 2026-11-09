@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-경련성 수축 범위가 긴 III형 식도이완불능증에서 긴 근절개를 맞춤 시행할 수 있어 선호되는 치료는?
+경련성 수축이 넓은 범위에 걸쳐 있는 III형 식도이완불능증에서, 경련 범위에 맞춰 길게 근절개를 할 수 있는 치료는?
 
 ## 선택지
 
@@ -49,5 +49,5 @@ Botulinum toxin은 주로 확정적 중재에 부적합한 환자에서 검토�
 
 - 내부 학습 노트: 식도 이완불능증 (Achalasia)
 - 원본 경로: `source_notes/02 Diseases/03 소화기/위장관/식도 이완불능증 (Achalasia).md`
-- 학습 목표: 경련성 수축 범위가 긴 III형 식도이완불능증에서 긴 근절개를 맞춤 시행할 수 있어 선호되는 치료는?
+- 학습 목표: 경련성 수축이 넓은 범위에 걸쳐 있는 III형 식도이완불능증에서, 경련 범위에 맞춰 길게 근절개를 할 수 있는 치료는?
 - 근거: https://www.sages.org/publications/guidelines/update-to-guidelines-for-the-use-of-poem-for-achalasia/
