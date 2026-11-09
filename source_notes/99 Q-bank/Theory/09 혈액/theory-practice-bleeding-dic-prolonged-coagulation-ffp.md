@@ -28,7 +28,7 @@ reviewed_at: 2026-11-07
 
 ## 문제
 
-DIC 환자가 임상적으로 출혈하고 PT·aPTT가 뚜렷이 연장되어 있다. 여러 응고인자 보충을 위해 고려할 제제는?
+파종성 혈관내 응고(DIC) 환자에게 출혈이 있고 PT와 aPTT가 뚜렷하게 연장됐다. 여러 응고인자를 보충하려면 어떤 제제를 고려하는가?
 
 ## 선택지
 
@@ -43,11 +43,11 @@ D. 알부민
 
 ## 오답 포인트
 
-적혈구는 산소 운반, 혈소판은 혈소판 결핍 보충이 목적이다. 알부민은 소모된 여러 응고인자를 보충하지 못한다. 섬유소원 결핍이면 cryoprecipitate/농축제를 별도로 평가한다.
+적혈구는 산소 운반, 혈소판은 혈소판 결핍 보충이 목적이다. 알부민은 소모된 여러 응고인자를 보충하지 못한다. 섬유소원이 부족하면 동결침전제제나 섬유소원 농축제를 별도로 고려한다.
 
 ## 출처
 
 - 내부 학습 노트: 파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC)
 - 원본 경로: `source_notes/02 Diseases/09 혈액/파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC).md`
-- 학습 목표: DIC 환자가 임상적으로 출혈하고 PT·aPTT가 뚜렷이 연장되어 있다. 여러 응고인자 보충을 위해 고려할 제제는?
+- 학습 목표: 파종성 혈관내 응고(DIC) 환자에게 출혈이 있고 PT와 aPTT가 뚜렷하게 연장됐다. 여러 응고인자를 보충하려면 어떤 제제를 고려하는가?
 - 근거: https://cms.b-s-h.org.uk/guidelines/guidelines/guidelines-for-the-diagnosis-and-management-of-disseminated-intravascular-coagulation

@@ -32,7 +32,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-적절한 임상 맥락에서 IPF 진단을 지지하는 대표 HRCT 패턴은?
+특발성 폐섬유증(IPF)이 의심될 때 고해상도 흉부 CT에서 진단을 뒷받침하는 대표적인 영상 양상은?
 
 ## 선택지
 
