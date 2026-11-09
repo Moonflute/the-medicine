@@ -7,6 +7,7 @@
 @import "./concept-skins.css";
 @import "./skin-workspace.css";
 @import "./question-feedback.css";
+@import "./pixel-skins.css";
 
 :root {
   color-scheme: light;

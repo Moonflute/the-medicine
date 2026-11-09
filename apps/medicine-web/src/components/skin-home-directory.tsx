@@ -6,11 +6,13 @@ import { useSkinTheme } from "@/components/theme-provider";
 import { ConceptHomeDirectory } from "@/components/concept-home";
 import { isConceptTheme } from "@/lib/themes";
 import { skinDestinations } from "@/lib/skin-navigation";
+import { PixelHomeDirectory } from "@/components/pixel-ui";
 
 const entries = skinDestinations.slice(1);
 
 export function SkinHomeDirectory() {
   const { theme } = useSkinTheme();
+  if (theme === "pixel") return <PixelHomeDirectory />;
   if (isConceptTheme(theme)) return <ConceptHomeDirectory theme={theme} />;
   if (theme === "chat") return <div className="skin-conversations">
     <div className="skin-directory-heading"><h2>대화방</h2><span>자료 {entries.length}</span></div>

@@ -432,10 +432,10 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     </ChatQbankLobby>;
   }
 
-  return <div className={relatedTarget ? "space-y-6" : "space-y-3"}>
+  return <div className={`${theme === "pixel" ? "pixel-qbank-lobby " : ""}${relatedTarget ? "space-y-6" : "space-y-3"}`}>
     {!relatedTarget ? <header className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
       <div className="flex min-w-0 flex-wrap items-baseline gap-x-4 gap-y-1">
-        <h1 className="text-lg font-semibold text-slate-950">문제 풀기</h1>
+        <h1 className="text-lg font-semibold text-slate-950">{theme === "pixel" ? "모험 준비" : "문제 풀기"}</h1>
         <dl aria-label="문제풀이 요약" className="flex min-w-0 flex-wrap items-baseline gap-x-3 gap-y-1 text-xs sm:text-sm">
           <div className="flex items-baseline gap-1 whitespace-nowrap"><dt className="text-slate-500">전체 문제</dt><dd className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</dd></div>
           <div className="flex items-baseline gap-1 whitespace-nowrap"><dt className="text-slate-500">풀이 완료</dt><dd className="font-semibold tabular-nums">{stats.attempted.toLocaleString()}</dd></div>

@@ -15,6 +15,7 @@ export function ReviewLaunchActions({ children }: { children: ReactNode }) {
   const { theme } = useSkinTheme();
   return <section className="review-launchers" aria-label="학습 메뉴">
     {theme === "chat" ? <div className="review-launcher-heading"><span>학습 대화</span><span>3개</span></div>
+      : theme === "pixel" ? <div className="review-launcher-heading"><span>SELECT ADVENTURE</span><span>3 MODES</span></div>
       : theme === "sheet" ? <div className="review-launcher-columns" aria-hidden="true"><span /><span>A · 학습</span><span>B · 내용</span><span>C</span></div>
         : theme === "terminal" ? <div className="review-launcher-heading"><span>C:\REVIEW&gt; MENU</span><span>3 COMMANDS</span></div> : null}
     {theme === "mail" || theme === "social" || theme === "editor" ? <div className="skin-directory-heading"><span>{theme === "mail" ? "학습 메일함" : theme === "social" ? "내 학습 피드" : "scripts / learning"}</span><span>3</span></div> : null}

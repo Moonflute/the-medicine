@@ -10,6 +10,8 @@ import { isConceptTheme, isSpecialTheme, type ThemeLayout } from "@/lib/themes";
 import { ConceptWorkspaceProvider, ConceptDesktopRail, ConceptHeader, ConceptNavigation, ConceptFooter } from "@/components/concept-workspace";
 import { SheetWorkbookProvider, SheetDocumentCanvas, useSheetWorkbook } from "@/components/sheet-workbook";
 
+import { PixelSprite, PixelNavigation, pixelDestinations } from "@/components/pixel-ui";
+
 const chatDockIcons = [MessageCircle, UsersRound, MessagesSquare, Bookmark];
 
 type SkinFrameProps = {
@@ -55,11 +57,11 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
     document.addEventListener("keydown", escape);
     return () => { document.removeEventListener("pointerdown", dismiss); document.removeEventListener("keydown", escape); };
   }, [menuOpen]);
-  const menuTitle = theme === "sheet" ? "파일 · 자료 시트" : theme === "terminal" ? "DIRECTORY" : theme === "mail" ? "메일함" : theme === "editor" ? "Go to File" : "더보기";
+  const menuTitle = theme === "pixel" ? "모험 메뉴" : theme === "sheet" ? "파일 · 자료 시트" : theme === "terminal" ? "DIRECTORY" : theme === "mail" ? "메일함" : theme === "editor" ? "Go to File" : "더보기";
   const menu = <nav className="skin-drawer-links" aria-label="전체 메뉴">
     {skinDestinations.map((item, index) => <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined} onClick={() => setMenuOpen(false)}>
-      <span className="skin-nav-marker" aria-hidden="true">{theme === "terminal" ? String(index + 1).padStart(2, "0") : theme === "sheet" ? String.fromCharCode(65 + index) : item.initials}</span>
-      <span>{theme === "terminal" ? item.code : item.title}</span>
+      <span className="skin-nav-marker" aria-hidden="true">{theme === "pixel" ? <PixelSprite name={pixelDestinations[item.href].icon} /> : theme === "terminal" ? String(index + 1).padStart(2, "0") : theme === "sheet" ? String.fromCharCode(65 + index) : item.initials}</span>
+      <span>{theme === "pixel" ? pixelDestinations[item.href].label : theme === "terminal" ? item.code : item.title}</span>
       <small>{theme === "terminal" ? item.short : item.summary}</small>
     </Link>)}
   </nav>;
@@ -80,7 +82,10 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
         {special ? <>
         {concept ? <ConceptHeader theme={theme} pathname={pathname} menuOpen={menuOpen} onMenu={toggleMenu} /> : <>
         <div className="skin-header-line">
-          {theme === "chat" ? <>
+          {theme === "pixel" ? <>
+            <Link href="/" className="pixel-header-brand" aria-label="타이틀로"><PixelSprite name="hero" /></Link>
+            <div className="skin-header-heading"><small>MEDICINE QUEST</small><strong>{pixelDestinations[current.href].label}</strong></div>
+          </> : theme === "chat" ? <>
             {isHome ? <MessageCircle className="skin-header-icon" aria-hidden="true" /> : <Link href={isQbankLobby ? "/review" : current.href} className="skin-icon-button" aria-label="목록으로"><ChevronLeft size={20} /></Link>}
             <div className="skin-header-heading"><strong>{isHome ? "채팅" : inChatRoom ? room?.title : current.title}</strong>{isQbankLobby ? null : <small>{isHome ? "자료를 여는 대화" : conversation || inChatRoom ? "자료 대화방" : "대화방 목록"}</small>}</div>
           </> : theme === "sheet" ? <>
@@ -92,7 +97,7 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
             <div className="skin-header-heading"><strong>NOTES.EXE</strong><small>{current.code} / {conversation ? "READ" : "DIRECTORY"}</small></div>
           </>}
           <div className="skin-header-actions">
-            {theme !== "chat" ? <AuthStatus /> : null}
+            {theme !== "chat" && theme !== "pixel" ? <AuthStatus /> : null}
             <Link href="/search" className="skin-icon-button" aria-label="검색"><Search size={18} /></Link>
             {isQbankLobby ? <div ref={room?.setLobbyToolsTarget} className="chat-qbank-header-tools" /> : <button type="button" className={theme === "terminal" ? "skin-console-menu-toggle" : "skin-icon-button"} aria-label="전체 메뉴" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={toggleMenu}>{theme === "terminal" ? "[MENU]" : menuOpen ? <X size={20} /> : <Menu size={20} />}</button>}
           </div>
@@ -102,12 +107,12 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
           <div className="skin-formula"><span aria-label="선택한 셀">{sheetSelection?.address ?? (workbookTitle ? "B1" : "A1")}</span><i aria-hidden="true">ƒx</i><output title={sheetSelection?.text ?? workbookTitle ?? current.title}>{sheetSelection?.text ?? workbookTitle ?? (isHome ? "자료 목록" : current.title)}</output></div>
         </> : theme === "terminal" ? <><nav className="skin-console-menubar" aria-label="콘솔 명령"><button type="button" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={toggleMenu}>Directory</button><Link href="/search">Find</Link><Link href="/review">Bookmarks</Link><Link href="/review/qbank">Questions</Link></nav><div className="skin-console-path"><span>C:\NOTES\{current.code}&gt;</span><span>v{version} · UTF-8</span></div></> : null}
         </>}
-        {menuOpen ? <div ref={menuRef} id="skin-app-menu" className={`skin-app-menu skin-app-menu--${theme}`}><div className="skin-menu-heading"><strong>{menuTitle}</strong><button type="button" className="skin-icon-button" aria-label="전체 메뉴 닫기" onClick={() => { closeMenu(); menuTrigger.current?.focus(); }}><X size={18} aria-hidden="true" /></button></div>{concept ? <ConceptNavigation theme={theme} pathname={pathname} onNavigate={closeMenu} /> : menu}{theme === "chat" || concept ? <div className="chat-account-tools"><AuthStatus /></div> : null}</div> : null}
+        {menuOpen ? <div ref={menuRef} id="skin-app-menu" className={`skin-app-menu skin-app-menu--${theme}`}><div className="skin-menu-heading"><strong>{menuTitle}</strong><button type="button" className="skin-icon-button" aria-label="전체 메뉴 닫기" onClick={() => { closeMenu(); menuTrigger.current?.focus(); }}><X size={18} aria-hidden="true" /></button></div>{concept ? <ConceptNavigation theme={theme} pathname={pathname} onNavigate={closeMenu} /> : menu}{theme === "chat" || theme === "pixel" || concept ? <div className="chat-account-tools"><AuthStatus /></div> : null}</div> : null}
         </> : normalHeader}
       </header>
       {!special ? normalExtras : null}
       <main key="main-content" data-personal-highlight-root className={special ? "app-main skin-page" : "app-main flex-1 px-4 py-6 sm:px-6 xl:px-8"}><SheetDocumentCanvas className={special ? "skin-page-content" : "mx-auto max-w-7xl"}>{children}</SheetDocumentCanvas><ChatRoomComposer /></main>
-      {concept ? <ConceptFooter theme={theme} pathname={pathname} menuOpen={menuOpen} onMenu={toggleMenu} version={version} /> : special && theme === "chat" ? <nav className="skin-chat-dock app-bottom-nav" aria-label="주 메뉴" hidden={inChatRoom}>
+      {theme === "pixel" ? <PixelNavigation currentHref={current.href} menuOpen={menuOpen} onMenu={toggleMenu} /> : concept ? <ConceptFooter theme={theme} pathname={pathname} menuOpen={menuOpen} onMenu={toggleMenu} version={version} /> : special && theme === "chat" ? <nav className="skin-chat-dock app-bottom-nav" aria-label="주 메뉴" hidden={inChatRoom}>
         {[skinDestinations[0], skinDestinations[1], skinDestinations[2], skinDestinations[6]].map((item, index) => { const Icon = chatDockIcons[index]; return <Link key={item.href} href={item.href} aria-current={active(item.href) ? "page" : undefined}><span className="skin-dock-glyph" aria-hidden="true"><Icon size={23} /></span><span>{item.short}</span></Link>; })}
         <button type="button" aria-label="전체 메뉴" aria-expanded={menuOpen} aria-controls="skin-app-menu" onClick={toggleMenu}><span className="skin-dock-glyph" aria-hidden="true"><Ellipsis size={24} /></span><span>더보기</span></button>
       </nav> : special && theme === "sheet" ? workbookTitle ? <nav className="skin-workbook-tabs sheet-document-tabs app-bottom-nav" aria-label="문서 시트 탐색">

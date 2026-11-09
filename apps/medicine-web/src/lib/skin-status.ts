@@ -31,6 +31,23 @@ const statusCopy = {
 
 export type SkinStatusKind = keyof typeof statusCopy;
 
+const pixelStatus: Record<SkinStatusKind, string> = {
+  questionsLoading: "다음 전투 준비 중…", documentLoading: "도감 펼치는 중…",
+  imageLoading: "도감 그림 불러오는 중…", relatedLoading: "연결된 도감 찾는 중…",
+  statisticsLoading: "모험 기록 불러오는 중…", syncLocal: "이 기기에 세이브됨",
+  syncPending: "세이브 동기화 대기", syncing: "세이브 동기화 중…", synced: "세이브 동기화 완료",
+  syncFailed: "세이브를 동기화하지 못했습니다.", saved: "자료를 보관함에 넣었습니다.",
+  removed: "자료를 보관함에서 꺼냈습니다.", recorded: "모험 기록을 남겼습니다.",
+  questionsError: "전투를 준비하지 못했습니다. 다시 불러와 주세요.",
+  documentError: "도감을 열지 못했습니다.", imageError: "도감 그림을 불러오지 못했습니다.",
+  saveError: "세이브하지 못했습니다.", questionsEmpty: "선택한 범위에 도전할 문제가 없습니다.",
+  searchEmpty: "찾는 자료가 도감에 없습니다.", recentEmpty: "아직 방문한 도감이 없습니다.",
+  savedEmpty: "보관함이 비어 있습니다. 도감의 저장 버튼으로 자료를 넣어 보세요.",
+  recordsEmpty: "이 범위의 전투 기록이 아직 없습니다.", wrongEmpty: "다시 도전할 오답이 없습니다.",
+  draftLoading: "임시 세이브 불러오는 중…", draftSaved: "이 탭에 임시 세이브됨",
+  draftError: "임시 세이브 실패 · 현재 입력은 유지됩니다.",
+};
+
 const conceptStatus: Record<SkinStatusKind, Record<ConceptTheme, string>> = {
   questionsLoading: { mail: "메일 불러오는 중…", social: "문제 게시물 불러오는 중…", editor: "Loading questions…" },
   documentLoading: { mail: "메일 여는 중…", social: "게시물 불러오는 중…", editor: "Opening document.md…" },
@@ -61,6 +78,7 @@ const conceptStatus: Record<SkinStatusKind, Record<ConceptTheme, string>> = {
 };
 
 export function skinStatusMessage(theme: AppTheme, kind: SkinStatusKind, fallback: string): string {
+  if (theme === "pixel") return pixelStatus[kind];
   if (isConceptTheme(theme)) return conceptStatus[kind][theme];
   return theme === "chat" || theme === "sheet" || theme === "terminal" ? statusCopy[kind][theme] : fallback;
 }
