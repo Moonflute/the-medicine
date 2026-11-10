@@ -889,7 +889,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </DocumentToolbar>
         {roundClock && <div className="mt-2 flex justify-end"><span className="pill">남은 시간 <QbankSessionClock roundClock={roundClock} isRunning={isRoundClockRunning} onExpire={finish} /></span></div>}
         <SkinDocumentNotice title={`${practiceQuestionLabel(current)} · ${current.questionType}`}><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</SkinDocumentNotice>
-        <SkinQuestionWorkspace sourceTitle={practiceQuestionLabel(current)} number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length}
+        <SkinQuestionWorkspace sourceTitle={practiceQuestionLabel(current)} number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length} correct={submitted ? gradeQuestion(current, selected) : null}
           hint={selectionHint(current)}
           answerText={displayedOptions.filter(key => selectedAnswers(selected).includes(key)).map(key => `${OPTION_LABELS[displayedOptions.indexOf(key)]}. ${current.options[key] ?? ""}`).join("\n")}
           question={        <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>

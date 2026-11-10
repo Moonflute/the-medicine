@@ -48,6 +48,7 @@ test("game menus retain every original study destination", () => {
   const home = render(pixel.PixelHomeDirectory);
   for (const href of Object.keys(pixel.pixelDestinations).filter(href => href !== "/")) assert.ok(home.includes(`href="${href}"`), href);
   const nav = render(pixel.PixelNavigation, { currentHref: "/review/qbank", menuOpen: false, onMenu() {} });
+  assert.deepEqual([...nav.matchAll(/href="([^"]+)"/g)].map(match => match[1]), ["/", "/cc", "/specialties", "/review/qbank"]);
   assert.match(nav, /href="\/review\/qbank" aria-current="page"/);
   assert.match(nav, /aria-controls="skin-app-menu"/);
 });
@@ -62,13 +63,17 @@ test("battle keeps answer callbacks and grading state, then shows the existing e
   assert.match(choicesHtml, /disabled=""/);
   assert.match(choicesHtml, /data-correct="true"/);
   const props = { question: "문제 원문", choices: "선택지 원문", response: "해설 원문", actions: "이동 버튼", copy: "복사 버튼", hint: "복수 선택 가능", answerText: "A. 답안 내용", number: 2, total: 10, submitted: false, sourceTitle: "순환기" };
-  const before = render(question.SkinQuestionWorkspace, props);
+  const before = render(question.SkinQuestionWorkspace, { ...props, correct: true });
   assert.match(before, /data-question-skin="pixel"/);
+  assert.match(before, /data-outcome="idle"/);
   assert.match(before, /aria-label="현재 문제 위치" value="2" max="10"/);
   assert.ok(!before.includes("해설 원문"));
   const after = render(question.SkinQuestionWorkspace, { ...props, submitted: true });
   for (const text of ["문제 원문", "선택지 원문", "해설 원문", "이동 버튼", "복사 버튼", "복수 선택 가능", "A. 답안 내용"]) assert.ok(after.includes(text), text);
   assert.match(after, /<details class="pixel-choice-history">/);
+  assert.match(after, /data-outcome="ungraded"/);
+  assert.match(render(question.SkinQuestionWorkspace, { ...props, submitted: true, correct: true }), /data-outcome="correct"/);
+  assert.match(render(question.SkinQuestionWorkspace, { ...props, submitted: true, correct: false }), /data-outcome="wrong"/);
 });
 
 test("codex has one active page while retaining hidden content and real links", () => {

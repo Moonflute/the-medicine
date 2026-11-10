@@ -56,7 +56,7 @@ export const pixelDestinations: Record<string, { label: string; icon: PixelSprit
 };
 
 export function PixelNavigation({ currentHref, menuOpen, onMenu }: { currentHref: string; menuOpen: boolean; onMenu: () => void }) {
-  return <nav className="pixel-navigation app-bottom-nav" aria-label="모험 메뉴">{["/", "/review/qbank", "/specialties", "/review"].map(href => <Link key={href} href={href} aria-current={currentHref === href ? "page" : undefined}><PixelSprite name={pixelDestinations[href].icon} /><span>{pixelDestinations[href].label}</span></Link>)}<button type="button" aria-label="전체 메뉴" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={onMenu}><span className="pixel-menu-glyph" aria-hidden="true">▤</span><span>메뉴</span></button></nav>;
+  return <nav className="pixel-navigation app-bottom-nav" aria-label="모험 메뉴">{["/", "/cc", "/specialties", "/review/qbank"].map(href => <Link key={href} href={href} aria-current={currentHref === href ? "page" : undefined}><PixelSprite name={pixelDestinations[href].icon} /><span>{pixelDestinations[href].label}</span></Link>)}<button type="button" aria-label="전체 메뉴" aria-controls="skin-app-menu" aria-expanded={menuOpen} onClick={onMenu}><span className="pixel-menu-glyph" aria-hidden="true">▤</span><span>메뉴</span></button></nav>;
 }
 
 export function PixelHomeDirectory() {
@@ -64,7 +64,7 @@ export function PixelHomeDirectory() {
     <div className="pixel-title-scene">
       <span className="pixel-eyebrow">8-BIT STUDY ADVENTURE</span>
       <h1 className="pixel-wordmark"><span className="sr-only">Medicine Quest</span><PixelWord text="MEDICINE" /><PixelWord text="QUEST" /></h1>
-      <div className="pixel-title-party" aria-hidden="true"><PixelSprite name="hero" /><span className="pixel-trail">· · ·</span><PixelSprite name="book" /><span className="pixel-trail">· · ·</span><PixelSprite name="slime" /></div>
+      <div className="pixel-title-party" aria-hidden="true"><PixelSprite name="hero" className="pixel-hero" /><span className="pixel-trail">· · ·</span><PixelSprite name="book" /><span className="pixel-trail">· · ·</span><PixelSprite name="slime" className="pixel-opponent" /></div>
       <span className="pixel-scene-caption">한 문제씩, 다음 스테이지로.</span>
     </div>
     <nav className="pixel-start-menu" aria-label="게임 시작 메뉴">
@@ -84,15 +84,17 @@ export function PixelDocumentTabs({ sections, activeId, choose }: { sections: { 
   }} title={section.title}><small>{String(index + 1).padStart(2, "0")}</small>{section.title.replace(/\s*\([^)]*\)/g, "")}</button>)}</div>;
 }
 
-export function PixelQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode, sourceTitle }: {
+export function PixelQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode, sourceTitle, correct = null }: {
   question: ReactNode; choices: ReactNode; response: ReactNode; actions: ReactNode; copy: ReactNode;
   hint: string; answerText: string; submitted: boolean; number: number; total: number;
-  mode: "study" | "mock"; sourceTitle: string;
+  mode: "study" | "mock"; sourceTitle: string; correct?: boolean | null;
 }) {
-  return <div className="pixel-battle skin-question-workspace" data-question-skin="pixel" data-submitted={submitted}>
+  const outcome = !submitted ? "idle" : correct === true ? "correct" : correct === false ? "wrong" : "ungraded";
+  const turnLabel = outcome === "correct" ? "정답!" : outcome === "wrong" ? "다시 도전" : submitted ? "TURN END" : "YOUR TURN";
+  return <div className="pixel-battle skin-question-workspace" data-question-skin="pixel" data-submitted={submitted} data-outcome={outcome}>
     <div className="pixel-battle-scene">
       <div className="pixel-battle-hud"><span className="pixel-eyebrow">{mode === "mock" ? "MOCK BATTLE" : "QUESTION BATTLE"}</span><div><strong>ROUND {String(number).padStart(2, "0")}</strong><span>{number} / {total}</span></div><progress aria-label="현재 문제 위치" value={number} max={Math.max(total, number, 1)} /></div>
-      <div className="pixel-battle-party" aria-hidden="true"><PixelSprite name="hero" /><span>{submitted ? "TURN END" : "YOUR TURN"}</span><PixelSprite name="slime" /></div>
+      <div key={`${number}:${outcome}`} className="pixel-battle-party" aria-hidden="true"><PixelSprite name="hero" className="pixel-hero" /><span className="pixel-turn-label">{turnLabel}</span><PixelSprite name="slime" className="pixel-opponent" /></div>
     </div>
     <div className="pixel-battle-panels">
       <section className="pixel-dialogue pixel-question-dialogue" aria-label="문제"><div className="pixel-dialogue-heading"><strong>{sourceTitle}</strong><span className="pixel-question-copy">{copy}</span></div><div className="pixel-question-text">{question}</div>{hint ? <p className="pixel-question-hint">{hint}</p> : null}</section>
