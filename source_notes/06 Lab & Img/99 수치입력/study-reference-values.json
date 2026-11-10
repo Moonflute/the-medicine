@@ -1,0 +1,142 @@
+{
+  "sources": {
+    "cbc": { "label": "Parkview Health · CBC", "href": "https://lab.parkview.com/test-directory/complete-blood-count/" },
+    "haematology": { "label": "Gloucestershire Hospitals · 혈액학", "href": "https://www.gloshospitals.nhs.uk/our-services/services-we-offer/pathology/haematology/haematology-reference-ranges/" },
+    "cmp": { "label": "UCSF Health · CMP", "href": "https://www.ucsfhealth.org/care/medical-tests/comprehensive-metabolic-panel" },
+    "parkview-cmp": { "label": "Parkview Health · CMP", "href": "https://lab.parkview.com/test-directory/comprehensive-metabolic-panel/" },
+    "nbme": { "label": "NBME · 검사 참고값", "href": "https://www.nbme.org/sites/default/files/2020-07/Laboratory_Reference_Values.pdf" },
+    "mg": { "label": "Mayo Clinic Laboratories · Mg", "href": "https://www.mayocliniclabs.com/test-catalog/Overview/8448" },
+    "phosphate": { "label": "Mayo Clinic Laboratories · 인산염", "href": "https://mml.testcatalog.org/show/PHOSS" },
+    "osmolality": { "label": "Mayo Clinic Laboratories · 혈청 삼투압", "href": "https://www.mayocliniclabs.com/test-catalog/overview/614057" },
+    "ggt": { "label": "UW Medicine · GGT", "href": "https://dlmp.uw.edu/test-guide/view/GGT" },
+    "direct-bilirubin": { "label": "OHSU · 직접 빌리루빈", "href": "https://www.ohsu.edu/lab-services/bilirubin-direct" },
+    "abga": { "label": "교토대병원 · 동맥혈가스", "href": "https://clinical-lab.kuhp.kyoto-u.ac.jp/reference/item/9171.html" },
+    "sao2": { "label": "UCSF Health · 혈액가스", "href": "https://www.ucsfhealth.org/care/medical-tests/blood-gases" },
+    "pt-inr": { "label": "OHSU · PT/INR", "href": "https://www.ohsu.edu/lab-services/international-normalized-ratio-inr" },
+    "urine-dipstick": { "label": "OHSU · 요검사", "href": "https://www.ohsu.edu/lab-services/ua-dipstick-only" },
+    "urine-microscopy": { "label": "OHSU · 요현미경 검사", "href": "https://www.ohsu.edu/lab-services/urine-microscopic" },
+    "uacr": { "label": "KDIGO · 알부민뇨 분류", "href": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf" },
+    "iron": { "label": "Michigan Medicine · 철대사", "href": "https://mlabs.umich.edu/tests/iron-binding-capacity" },
+    "ferritin": { "label": "WHO · Ferritin", "href": "https://www.who.int/docs/default-source/micronutrients/ferritin-guideline/ferritin-guidelines-brochure.pdf" },
+    "crp": { "label": "Mayo Clinic Laboratories · CRP", "href": "https://www.mayocliniclabs.com/test-catalog/overview/9731" },
+    "esr": { "label": "South West London Pathology · ESR", "href": "https://www.swlpath.nhs.uk/wp-content/uploads/2026/03/SWLP-handbook-v13.pdf#page=72" },
+    "thyroid": { "label": "Mayo Clinic Laboratories · 갑상샘", "href": "https://endocrinology.testcatalog.org/show/THSCM" },
+    "glucose": { "label": "NHLBI · 공복혈당", "href": "https://www.nhlbi.nih.gov/health/metabolic-syndrome/diagnosis" },
+    "a1c": { "label": "NIDDK · HbA1c", "href": "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test" },
+    "lipids": { "label": "NHLBI · 성인 지질 참고치", "href": "https://www.nhlbi.nih.gov/sites/default/files/publications/THT-CholesterolFactSheet.508.%20FINAL.pdf" }
+  },
+  "groups": [
+    {
+      "id": "cbc",
+      "label": "CBC",
+      "source": "cbc",
+      "rows": [
+        { "id": "wbc", "label": "WBC", "low": "3.4", "high": "10.5", "unit": "×10³/µL" },
+        { "id": "anc", "label": "ANC", "low": "1.8", "high": "7.5", "unit": "×10³/µL", "source": "haematology" },
+        { "id": "rbc", "label": "RBC", "low": "4.0", "high": "5.7", "unit": "×10⁶/µL", "note": "Parkview의 성별 미상 참고범위" },
+        { "id": "hb", "label": "Hb", "low": "12.0", "high": "17.2", "unit": "g/dL", "note": "Parkview의 성별 미상 참고범위" },
+        { "id": "hct", "label": "Hct", "low": "35", "high": "54", "unit": "%", "note": "Parkview의 성별 미상 참고범위" },
+        { "id": "mcv", "label": "MCV", "low": "80", "high": "100", "unit": "fL", "source": "haematology" },
+        { "id": "mch", "label": "MCH", "low": "27", "high": "33", "unit": "pg" },
+        { "id": "mchc", "label": "MCHC", "low": "32", "high": "36", "unit": "g/dL" },
+        { "id": "rdw", "label": "RDW", "low": "11.5", "high": "14.5", "unit": "%", "note": "RDW-CV" },
+        { "id": "plt", "label": "PLT", "low": "150", "high": "450", "unit": "×10³/µL" }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "label": "Chemistry (E′ 포함)",
+      "source": "cmp",
+      "rows": [
+        { "id": "na", "label": "Na", "low": "135", "high": "145", "unit": "mmol/L" },
+        { "id": "k", "label": "K", "low": "3.5", "high": "5.0", "unit": "mmol/L", "source": "nbme" },
+        { "id": "cl", "label": "Cl", "low": "96", "high": "106", "unit": "mmol/L" },
+        { "id": "tco2", "label": "혈청 TCO₂", "low": "23", "high": "29", "unit": "mmol/L" },
+        { "id": "ca", "label": "총 Ca", "low": "8.5", "high": "10.2", "unit": "mg/dL" },
+        { "id": "mg", "label": "Mg", "low": "1.7", "high": "2.3", "unit": "mg/dL", "source": "mg" },
+        { "id": "phosphate", "label": "P", "low": "2.5", "high": "4.5", "unit": "mg/dL", "source": "phosphate" },
+        { "id": "bun", "label": "BUN", "low": "6", "high": "20", "unit": "mg/dL" },
+        { "id": "cr", "label": "Cr", "low": "0.6", "high": "1.3", "unit": "mg/dL" },
+        { "id": "serum-osm", "label": "혈청 삼투압", "low": "275", "high": "295", "unit": "mOsm/kg", "source": "osmolality" },
+        { "id": "ast", "label": "AST", "low": "15", "high": "37", "unit": "U/L", "source": "parkview-cmp" },
+        { "id": "alt", "label": "ALT", "low": "10", "high": "40", "unit": "U/L", "source": "parkview-cmp" },
+        { "id": "alp", "label": "ALP", "low": "40", "high": "110", "unit": "U/L", "source": "parkview-cmp" },
+        { "id": "ggt", "label": "GGT", "low": "0", "high": "55", "unit": "U/L", "source": "ggt", "note": "Beckman 검사법 기준" },
+        { "id": "t-bil", "label": "T-bil", "low": "0.1", "high": "1.2", "unit": "mg/dL" },
+        { "id": "d-bil", "label": "D-bil", "low": "", "high": "≤0.2", "unit": "mg/dL", "source": "direct-bilirubin" },
+        { "id": "alb", "label": "Alb", "low": "3.4", "high": "5.4", "unit": "g/dL" }
+      ]
+    },
+    {
+      "id": "abga",
+      "label": "ABGA",
+      "source": "abga",
+      "rows": [
+        { "id": "ph", "label": "pH", "low": "7.35", "high": "7.45", "unit": "" },
+        { "id": "paco2", "label": "PaCO₂", "low": "35", "high": "45", "unit": "mmHg" },
+        { "id": "abg-hco3", "label": "HCO₃⁻", "low": "22", "high": "26", "unit": "mmol/L" },
+        { "id": "pao2", "label": "PaO₂", "low": "80", "high": "100", "unit": "mmHg", "note": "산소 투여 여부와 FiO₂를 함께 확인" },
+        { "id": "sao2", "label": "SaO₂", "low": "94", "high": "100", "unit": "%", "source": "sao2", "note": "해수면 기준" },
+        { "id": "be", "label": "BE", "low": "-2", "high": "2", "unit": "mmol/L" }
+      ]
+    },
+    {
+      "id": "coagulation",
+      "label": "응고",
+      "source": "haematology",
+      "rows": [
+        { "id": "pt", "label": "PT", "low": "9.6", "high": "13.5", "unit": "초", "source": "pt-inr" },
+        { "id": "inr", "label": "INR", "low": "0.86", "high": "1.20", "unit": "", "source": "pt-inr", "note": "항응고제 치료 목표는 별도" },
+        { "id": "aptt", "label": "aPTT", "low": "22", "high": "36", "unit": "초" },
+        { "id": "fibrinogen", "label": "Fibrinogen", "low": "150", "high": "450", "unit": "mg/dL" }
+      ]
+    },
+    {
+      "id": "urine",
+      "label": "요검사",
+      "source": "urine-dipstick",
+      "rows": [
+        { "id": "urine-sg", "label": "요비중", "low": "1.005", "high": "1.030", "unit": "" },
+        { "id": "urine-ph", "label": "요 pH", "low": "5.0", "high": "8.0", "unit": "" },
+        { "id": "urine-rbc", "label": "요 RBC", "low": "0", "high": "3", "unit": "/HPF", "source": "urine-microscopy" },
+        { "id": "urine-wbc", "label": "요 WBC", "low": "0", "high": "5", "unit": "/HPF", "source": "urine-microscopy" },
+        { "id": "uacr", "label": "UACR", "low": "", "high": "<30", "unit": "mg/g", "source": "uacr", "note": "알부민뇨 A1 분류 상한" }
+      ]
+    },
+    {
+      "id": "iron-inflammation",
+      "label": "철대사·염증",
+      "source": "iron",
+      "rows": [
+        { "id": "ferritin", "label": "Ferritin", "low": "≥15", "high": "", "unit": "ng/mL", "source": "ferritin", "note": "겉보기 건강한 성인의 철결핍 판단 기준. 염증이 있으면 해석이 달라짐." },
+        { "id": "fe", "label": "Fe", "low": "33", "high": "150", "unit": "µg/dL" },
+        { "id": "tibc", "label": "TIBC", "low": "220", "high": "440", "unit": "µg/dL" },
+        { "id": "tsat", "label": "TSAT", "low": "20", "high": "50", "unit": "%" },
+        { "id": "crp", "label": "CRP", "low": "", "high": "<5", "unit": "mg/L", "source": "crp" },
+        { "id": "esr", "label": "ESR", "low": "1", "high": "12", "unit": "mm/h", "source": "esr", "note": "50세 미만 성인 참고범위" }
+      ]
+    },
+    {
+      "id": "thyroid",
+      "label": "갑상샘",
+      "source": "thyroid",
+      "rows": [
+        { "id": "tsh", "label": "TSH", "low": "0.3", "high": "4.2", "unit": "mIU/L" },
+        { "id": "free-t4", "label": "Free T4", "low": "0.9", "high": "1.7", "unit": "ng/dL" }
+      ]
+    },
+    {
+      "id": "glucose-lipids",
+      "label": "당·지질",
+      "source": "lipids",
+      "rows": [
+        { "id": "fasting-glucose", "label": "공복혈당", "low": "70", "high": "99", "unit": "mg/dL", "source": "glucose" },
+        { "id": "hba1c", "label": "HbA1c", "low": "", "high": "<5.7", "unit": "%", "source": "a1c", "note": "당뇨 선별의 정상 범주" },
+        { "id": "tc", "label": "TC", "low": "", "high": "<200", "unit": "mg/dL", "note": "성인 지질 선별에서의 바람직한 수준" },
+        { "id": "ldl-c", "label": "LDL-C", "low": "", "high": "<100", "unit": "mg/dL", "note": "성인 지질 선별 참고치. 개인 치료 목표는 위험도에 따라 다름." },
+        { "id": "hdl-c", "label": "HDL-C", "low": "≥60", "high": "", "unit": "mg/dL", "note": "성인 지질 선별에서의 바람직한 수준" },
+        { "id": "tg", "label": "TG", "low": "", "high": "<150", "unit": "mg/dL", "note": "성인 지질 선별에서의 바람직한 수준" }
+      ]
+    }
+  ]
+}

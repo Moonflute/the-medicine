@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, CheckCheck, CornerDownRight, FilePlus2, GitBranch, ListTree, Plus, RefreshCw, Trash2, X } from "lucide-react";
 import { StudyFlowItemRow, focusStudyItem } from "./study-flow-item-row";
 import { StudyFlowMindmap } from "./study-flow-mindmap";
+import { StudyReferenceTab } from "./study-reference-tab";
 import { outlineStudyItems, studyFlows, studyItemLinkContent, studyItems, type StudyLink } from "@/lib/study-flow-model";
 import { attachStudyLink, createStudyFlow, createStudyItem, deleteStudyFlow, editStudyItem, getStudyServerSnapshot, getStudySnapshot, hasGuestStudyFlows, importGuestStudyFlows, patchStudyRecords, retryStudyStorage, setStudyUI, subscribeStudyFlow, STUDY_FLOW_RETRY } from "@/lib/study-flow-store";
 import { loadStudySearchIndex, type StudySearchEntry } from "@/lib/study-flow-search";
@@ -24,6 +25,8 @@ function noSource() { return null; }
 
 export function StudyFlowPanel() {
   const state = useSyncExternalStore(subscribeStudyFlow, getStudySnapshot, getStudyServerSnapshot);
+  const [tab, setTab] = useState<"memo" | "reference">("memo");
+  const [referenceOpened, setReferenceOpened] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
   const readSource = useCallback(() => currentStudyPageSource(pathname), [pathname]);
@@ -119,60 +122,74 @@ export function StudyFlowPanel() {
   const syncProblem = state.storageError || state.sync.state === "error" || state.sync.state === "offline";
   return <aside id="study-flow-panel" className="study-flow-panel" role="region" aria-label="학습 Flow">
     <header className="study-flow-header">
-      <div><ListTree size={18} /><h2>학습 Flow</h2><span>보려던 것, 이어서</span></div>
+      <div>
+        <ListTree size={18} aria-hidden="true" /><h2>학습 Flow</h2>
+        <div className="study-flow-tabs" role="group" aria-label="학습 Flow 탭">
+          <button type="button" aria-pressed={tab === "memo"} aria-controls="study-flow-memo" onClick={() => setTab("memo")}>메모</button>
+          <button type="button" aria-pressed={tab === "reference"} aria-controls="study-flow-reference" onClick={() => {
+            setReferenceOpened(true);
+            setTab("reference");
+          }}>기준치</button>
+        </div>
+      </div>
       <button id="study-flow-close" type="button" aria-label="학습 Flow 닫기" onClick={() => { setStudyUI({ open: false }); document.getElementById("study-flow-toggle")?.focus(); }}><X size={19} /></button>
     </header>
-    <div className="study-flow-settings">
-      <div className="study-flow-chooser">
-        <select aria-label="학습 Flow 선택" value={flow?.id ?? ""} onChange={event => setStudyUI({ flowId: event.target.value, itemId: null })}>
-          {!flows.length ? <option value="">Flow를 만들어 시작하세요</option> : flows.map(value => <option value={value.id} key={value.id}>{value.title || "이름 없는 Flow"}</option>)}
-        </select>
-        <button type="button" onClick={() => createStudyFlow()} aria-label="새 학습 Flow" title="새 학습 Flow"><Plus size={17} /></button>
-        {flow ? <button type="button" aria-label="현재 Flow 삭제" title="현재 Flow 삭제" onClick={() => {
-          if (window.confirm("이 Flow와 항목을 삭제할까요? 다른 Flow와 연결된 원본 문서는 삭제되지 않습니다.")) deleteStudyFlow(flow.id);
-        }}><Trash2 size={16} /></button> : null}
-      </div>
-      {flow ? <input className="study-flow-title-input" aria-label="Flow 이름" value={flow.title} maxLength={200} placeholder="Flow 이름"
-        onChange={event => patchStudyRecords([{ id: flow.id, values: { title: event.target.value } }])} /> : null}
-      <div className="study-flow-view-bar">
-        <div role="group" aria-label="학습 Flow 보기">
-          <button type="button" className={state.ui.view === "outline" ? "is-active" : ""} aria-pressed={state.ui.view === "outline"} onClick={() => { setStudyUI({ view: "outline" }); if (selected) focusStudyItem(selected.id); }}><ListTree size={15} />Outliner</button>
-          <button type="button" className={state.ui.view === "mindmap" ? "is-active" : ""} aria-pressed={state.ui.view === "mindmap"} onClick={() => setStudyUI({ view: "mindmap" })}><GitBranch size={15} />Mindmap</button>
+    <div id="study-flow-memo" className="study-flow-tab-content" hidden={tab !== "memo"}>
+      <div className="study-flow-settings">
+        <div className="study-flow-chooser">
+          <select aria-label="학습 Flow 선택" value={flow?.id ?? ""} onChange={event => setStudyUI({ flowId: event.target.value, itemId: null })}>
+            {!flows.length ? <option value="">Flow를 만들어 시작하세요</option> : flows.map(value => <option value={value.id} key={value.id}>{value.title || "이름 없는 Flow"}</option>)}
+          </select>
+          <button type="button" onClick={() => createStudyFlow()} aria-label="새 학습 Flow" title="새 학습 Flow"><Plus size={17} /></button>
+          {flow ? <button type="button" aria-label="현재 Flow 삭제" title="현재 Flow 삭제" onClick={() => {
+            if (window.confirm("이 Flow와 항목을 삭제할까요? 다른 Flow와 연결된 원본 문서는 삭제되지 않습니다.")) deleteStudyFlow(flow.id);
+          }}><Trash2 size={16} /></button> : null}
         </div>
-        <label><input type="checkbox" checked={state.ui.hideDone} onChange={event => setStudyUI({ hideDone: event.target.checked })} />완료 숨김</label>
-      </div>
-      <div className="study-flow-add-bar">
-        <button type="button" onClick={() => add()}><Plus size={15} />항목 추가</button>
-        <button type="button" disabled={!currentSource} onClick={addCurrentSource} title={currentSource?.kind === "question" && selected ? "선택한 메모에 현재 문제 연결" : currentSource?.title ?? "문제를 불러오는 중"}><FilePlus2 size={15} />현재 {currentSource?.kind === "question" ? "문제" : "페이지"} {currentSource?.kind === "question" && selected ? "태그" : "추가"}</button>
-        {selected ? <button type="button" title="선택 항목 아래에 추가" aria-label="하위 항목 추가" onClick={() => add(undefined, "child")}><CornerDownRight size={15} /></button> : null}
-      </div>
-      {guestAvailable ? <div className="study-flow-guest"><span>로그인 전에 이 기기에 적어둔 Flow가 있습니다.</span><button type="button" onClick={() => importGuestStudyFlows()}>내 계정으로 가져오기</button></div> : null}
-    </div>
-    <div className="study-flow-body" ref={body}>
-      {!items.length ? <div className="study-flow-empty"><ListTree size={28} /><p>공부할 것들을 적고 순서대로 이어 보세요.</p><span>Enter로 같은 단계 새 항목 · Tab으로 하위 새 항목<br />@로 문서 연결 · Shift Enter로 줄바꿈</span><button type="button" onClick={() => add()}>첫 항목 적기</button></div>
-      : state.ui.view === "outline" ? <div className="study-flow-outline" aria-label="학습 항목 목록">
-        {rows.map((row, index) => <StudyFlowItemRow key={row.item.id} {...rowProps} item={row.item} depth={row.depth} selected={selected?.id === row.item.id} hasChildren={children.has(row.item.id)} collapsed={collapsed.has(row.item.id)} previousId={rows[index - 1]?.item.id} />)}
-        {!rows.length ? <p className="study-flow-empty-note">모든 항목을 완료했습니다. ‘완료 숨김’을 끄면 다시 볼 수 있습니다.</p> : null}
-      </div> : <>
-        <StudyFlowMindmap rows={rows} title={flow?.title ?? ""} selectedId={selected?.id ?? null} onNavigate={openLink} />
-        {selected ? <div className="study-flow-map-editor"><p>선택 항목 편집</p><StudyFlowItemRow key={selected.id} {...rowProps} item={selected} selected hasChildren={children.has(selected.id)} collapsed={collapsed.has(selected.id)} /></div> : <p className="study-flow-empty-note">노드를 선택하면 아래에서 같은 항목을 편집할 수 있습니다.</p>}
-      </>}
-      {items.length ? <button type="button" className="study-flow-append" onClick={() => add(undefined, "end")} title="맨 아래 새 항목 추가" aria-label="맨 아래 새 항목 추가"><Plus size={17} /></button> : null}
-    </div>
-    <footer className="study-flow-footer">
-      {selected ? <div className="study-flow-reading">
-        <span title={selected.text}>{selected.text || "새 항목"}</span>
-        <div>
-          <button type="button" disabled={!previous} aria-label="이전 학습 항목" title="이전 항목" onClick={() => previous && chooseItem(previous.id)}><ArrowLeft size={16} /></button>
-          <button type="button" onClick={completeAndNext}><CheckCheck size={15} />완료하고 다음</button>
-          <button type="button" disabled={!next} aria-label="다음 학습 항목" title="다음 항목" onClick={() => next && chooseItem(next.id)}><ArrowRight size={16} /></button>
+        {flow ? <input className="study-flow-title-input" aria-label="Flow 이름" value={flow.title} maxLength={200} placeholder="Flow 이름"
+          onChange={event => patchStudyRecords([{ id: flow.id, values: { title: event.target.value } }])} /> : null}
+        <div className="study-flow-view-bar">
+          <div role="group" aria-label="학습 Flow 보기">
+            <button type="button" className={state.ui.view === "outline" ? "is-active" : ""} aria-pressed={state.ui.view === "outline"} onClick={() => { setStudyUI({ view: "outline" }); if (selected) focusStudyItem(selected.id); }}><ListTree size={15} />Outliner</button>
+            <button type="button" className={state.ui.view === "mindmap" ? "is-active" : ""} aria-pressed={state.ui.view === "mindmap"} onClick={() => setStudyUI({ view: "mindmap" })}><GitBranch size={15} />Mindmap</button>
+          </div>
+          <label><input type="checkbox" checked={state.ui.hideDone} onChange={event => setStudyUI({ hideDone: event.target.checked })} />완료 숨김</label>
         </div>
-      </div> : null}
-      <div className="study-flow-save-status">
-        <span className={syncProblem ? "has-error" : ""} role="status">{state.sync.message}</span>
-        <small>{items.filter(item => item.done).length}/{items.length}</small>
-        {syncProblem || publicError ? <button type="button" aria-label="저장 및 검색 목록 다시 시도" title="다시 시도" onClick={() => { if (state.storageError) retryStudyStorage(); window.dispatchEvent(new Event(STUDY_FLOW_RETRY)); if (publicError) void publicLoad(); }}><RefreshCw size={13} /></button> : null}
+        <div className="study-flow-add-bar">
+          <button type="button" onClick={() => add()}><Plus size={15} />항목 추가</button>
+          <button type="button" disabled={!currentSource} onClick={addCurrentSource} title={currentSource?.kind === "question" && selected ? "선택한 메모에 현재 문제 연결" : currentSource?.title ?? "문제를 불러오는 중"}><FilePlus2 size={15} />현재 {currentSource?.kind === "question" ? "문제" : "페이지"} {currentSource?.kind === "question" && selected ? "태그" : "추가"}</button>
+          {selected ? <button type="button" title="선택 항목 아래에 추가" aria-label="하위 항목 추가" onClick={() => add(undefined, "child")}><CornerDownRight size={15} /></button> : null}
+        </div>
+        {guestAvailable ? <div className="study-flow-guest"><span>로그인 전에 이 기기에 적어둔 Flow가 있습니다.</span><button type="button" onClick={() => importGuestStudyFlows()}>내 계정으로 가져오기</button></div> : null}
       </div>
-    </footer>
+      <div className="study-flow-body" ref={body}>
+        {!items.length ? <div className="study-flow-empty"><ListTree size={28} /><p>공부할 것들을 적고 순서대로 이어 보세요.</p><span>Enter로 같은 단계 새 항목 · Tab으로 하위 새 항목<br />@로 문서 연결 · Shift Enter로 줄바꿈</span><button type="button" onClick={() => add()}>첫 항목 적기</button></div>
+        : state.ui.view === "outline" ? <div className="study-flow-outline" aria-label="학습 항목 목록">
+          {rows.map((row, index) => <StudyFlowItemRow key={row.item.id} {...rowProps} item={row.item} depth={row.depth} selected={selected?.id === row.item.id} hasChildren={children.has(row.item.id)} collapsed={collapsed.has(row.item.id)} previousId={rows[index - 1]?.item.id} />)}
+          {!rows.length ? <p className="study-flow-empty-note">모든 항목을 완료했습니다. ‘완료 숨김’을 끄면 다시 볼 수 있습니다.</p> : null}
+        </div> : <>
+          <StudyFlowMindmap rows={rows} title={flow?.title ?? ""} selectedId={selected?.id ?? null} onNavigate={openLink} />
+          {selected ? <div className="study-flow-map-editor"><p>선택 항목 편집</p><StudyFlowItemRow key={selected.id} {...rowProps} item={selected} selected hasChildren={children.has(selected.id)} collapsed={collapsed.has(selected.id)} /></div> : <p className="study-flow-empty-note">노드를 선택하면 아래에서 같은 항목을 편집할 수 있습니다.</p>}
+        </>}
+        {items.length ? <button type="button" className="study-flow-append" onClick={() => add(undefined, "end")} title="맨 아래 새 항목 추가" aria-label="맨 아래 새 항목 추가"><Plus size={17} /></button> : null}
+      </div>
+      <footer className="study-flow-footer">
+        {selected ? <div className="study-flow-reading">
+          <span title={selected.text}>{selected.text || "새 항목"}</span>
+          <div>
+            <button type="button" disabled={!previous} aria-label="이전 학습 항목" title="이전 항목" onClick={() => previous && chooseItem(previous.id)}><ArrowLeft size={16} /></button>
+            <button type="button" onClick={completeAndNext}><CheckCheck size={15} />완료하고 다음</button>
+            <button type="button" disabled={!next} aria-label="다음 학습 항목" title="다음 항목" onClick={() => next && chooseItem(next.id)}><ArrowRight size={16} /></button>
+          </div>
+        </div> : null}
+        <div className="study-flow-save-status">
+          <span className={syncProblem ? "has-error" : ""} role="status">{state.sync.message}</span>
+          <small>{items.filter(item => item.done).length}/{items.length}</small>
+          {syncProblem || publicError ? <button type="button" aria-label="저장 및 검색 목록 다시 시도" title="다시 시도" onClick={() => { if (state.storageError) retryStudyStorage(); window.dispatchEvent(new Event(STUDY_FLOW_RETRY)); if (publicError) void publicLoad(); }}><RefreshCw size={13} /></button> : null}
+        </div>
+      </footer>
+    </div>
+    <div id="study-flow-reference" className="study-flow-tab-content" hidden={tab !== "reference"}>
+      {referenceOpened ? <StudyReferenceTab key={state.account ?? "guest"} account={state.account} /> : null}
+    </div>
   </aside>;
 }

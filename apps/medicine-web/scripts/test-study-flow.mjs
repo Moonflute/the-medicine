@@ -62,6 +62,7 @@ function loadEditor(store, source = null) {
       if (name === "@/lib/study-flow-source") return { currentStudyPageSource: () => source, studyPath: value => value, STUDY_SOURCE_EVENT: "source" };
       if (name === "@/lib/practice-bank") return { loadPracticeIndex: async () => ({ questions: [] }) };
       if (name === "./study-flow-mindmap") return { StudyFlowMindmap: () => null };
+      if (name === "./study-reference-tab") return { StudyReferenceTab: () => null };
       if (name === "./study-flow-item-row") return load("study-flow-item-row");
       return require(name);
     };

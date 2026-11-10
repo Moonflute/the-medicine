@@ -1736,6 +1736,8 @@ function buildQbank({ write = true, cleanStale = true } = {}) {
 
 function main() {
   ensureDir(DATA_ROOT);
+  const studyReferencesPath = path.join(SOURCE_NOTES_ROOT, "06 Lab & Img", "99 수치입력", "study-reference-values.json");
+  writePublicGeneratedJson("study-reference-values.json", JSON.parse(readText(studyReferencesPath)));
 
   const diseases = buildDiseases();
   const diseaseHierarchy = buildDiseaseHierarchy(diseases);
