@@ -13,11 +13,14 @@ permissions:
 
 concurrency:
   group: deploy-medicine-web-${{ github.ref }}
-  cancel-in-progress: true
+  # Finish the active Pages publication before the next commit starts publishing.
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      pages-artifact-id: ${{ steps.pages-artifact.outputs.artifact_id }}
     env:
       NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
       NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
@@ -117,7 +120,9 @@ jobs:
         run: npm run verify:physiology
 
       - name: Verify deployment optimizations
-        run: node --experimental-strip-types --test scripts/test-document-links.mjs scripts/test-deployment-inputs.mjs
+        run: |
+          node --test ../../.github/scripts/deploy-pages.test.mjs
+          node --experimental-strip-types --test scripts/test-document-links.mjs scripts/test-deployment-inputs.mjs
 
       - name: Verify document editing preservation and conflicts
         run: node --experimental-strip-types --test scripts/test-document-edit.mjs scripts/test-document-editor-api.mjs scripts/test-document-tiptap.mjs
@@ -126,6 +131,7 @@ jobs:
         run: npm run build -- --webpack
 
       - name: Upload Pages artifact
+        id: pages-artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: apps/medicine-web/out
@@ -135,11 +141,32 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     needs: build
     steps:
+      - name: Checkout publication script
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/github-script@v8
+        env:
+          PAGES_ARTIFACT_ID: ${{ needs.build.outputs.pages-artifact-id }}
         with:
-          # Pages can finish syncing the model assets before publication is finalized.
-          timeout: 1200000
+          # deploy-pages clamps every timeout to 10 minutes and cancels file sync.
+          # Use the same Pages API and OIDC identity, with an actual 25-minute wait.
+          script: |
+            const { deployPages } = await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/deploy-pages.mjs`);
+            await deployPages({ github, context, core, artifactId: process.env.PAGES_ARTIFACT_ID });
+
+      - name: Cancel interrupted Pages publication
+        if: ${{ cancelled() && steps.deployment.outputs.deployment_id != '' && steps.deployment.outputs.status != 'succeed' }}
+        uses: actions/github-script@v8
+        env:
+          PAGES_DEPLOYMENT_ID: ${{ steps.deployment.outputs.deployment_id }}
+        with:
+          script: |
+            const { cancelPages } = await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/deploy-pages.mjs`);
+            await cancelPages({ github, context, core, deploymentId: process.env.PAGES_DEPLOYMENT_ID });
