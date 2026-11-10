@@ -7,6 +7,7 @@ import React from "react";
 import * as jsxRuntime from "react/jsx-runtime";
 import * as lucide from "lucide-react";
 import { renderToStaticMarkup } from "react-dom/server";
+import sharp from "sharp";
 
 const compile = (file, deps = {}) => {
   const compiledModule = { exports: {} };
@@ -16,7 +17,7 @@ const compile = (file, deps = {}) => {
   vm.runInNewContext(output, { module: compiledModule, exports: compiledModule.exports, require: name => {
     assert.ok(name in deps, `Unmocked dependency: ${name}`);
     return deps[name];
-  } });
+  }, process: { env: { NEXT_PUBLIC_BASE_PATH: "/the-medicine" } } });
   return compiledModule.exports;
 };
 const themes = compile("src/lib/themes.ts");
@@ -33,6 +34,18 @@ const question = compile("src/components/skin-question.tsx", {
   "@/components/chat-room": {}, "@/components/concept-question": {},
 });
 const render = (Component, props) => renderToStaticMarkup(React.createElement(Component, props));
+
+test("sprite sheets keep eight full poses per state and planted feet during the dance", async () => {
+  for (const name of ["medic", "slime"]) {
+    const sheet = sharp(`public/themes/pixel/${name}.png`);
+    const metadata = await sheet.metadata();
+    assert.equal(metadata.width, 256);
+    assert.equal(metadata.height, 96);
+    const poses = await Promise.all(Array.from({ length: 8 }, (_, frame) => sheet.clone().extract({ left: frame * 32, top: 0, width: 32, height: 32 }).ensureAlpha().raw().toBuffer()));
+    assert.ok(new Set(poses.map(frame => frame.toString("base64"))).size >= 6, `${name} changes pose, not just position`);
+    if (name === "medic") for (const frame of poses) assert.deepEqual(frame.subarray(29 * 32 * 4, 30 * 32 * 4), poses[0].subarray(29 * 32 * 4, 30 * 32 * 4));
+  }
+});
 
 test("saved pixel theme is restored before first paint without changing chat preferences", () => {
   const values = new Map([[themes.THEME_STORAGE_KEY, "pixel"], [themes.CHAT_SKIN_STORAGE_KEY, "con"]]);
@@ -66,14 +79,23 @@ test("battle keeps answer callbacks and grading state, then shows the existing e
   const before = render(question.SkinQuestionWorkspace, { ...props, correct: true });
   assert.match(before, /data-question-skin="pixel"/);
   assert.match(before, /data-outcome="idle"/);
+  assert.equal([...before.matchAll(/data-pose="dance"/g)].length, 2);
+  assert.match(before, /\/the-medicine\/themes\/pixel\/medic\.png/);
   assert.match(before, /aria-label="현재 문제 위치" value="2" max="10"/);
   assert.ok(!before.includes("해설 원문"));
   const after = render(question.SkinQuestionWorkspace, { ...props, submitted: true });
   for (const text of ["문제 원문", "선택지 원문", "해설 원문", "이동 버튼", "복사 버튼", "복수 선택 가능", "A. 답안 내용"]) assert.ok(after.includes(text), text);
   assert.match(after, /<details class="pixel-choice-history">/);
   assert.match(after, /data-outcome="ungraded"/);
-  assert.match(render(question.SkinQuestionWorkspace, { ...props, submitted: true, correct: true }), /data-outcome="correct"/);
-  assert.match(render(question.SkinQuestionWorkspace, { ...props, submitted: true, correct: false }), /data-outcome="wrong"/);
+  assert.equal([...after.matchAll(/data-pose="still"/g)].length, 2);
+  const right = render(question.SkinQuestionWorkspace, { ...props, submitted: true, correct: true });
+  const wrong = render(question.SkinQuestionWorkspace, { ...props, submitted: true, correct: false });
+  assert.match(right, /data-outcome="correct"/);
+  assert.match(right, /pixel-hero" data-pose="cheer"/);
+  assert.match(right, /pixel-opponent" data-pose="hit"/);
+  assert.match(wrong, /data-outcome="wrong"/);
+  assert.match(wrong, /pixel-hero" data-pose="hit"/);
+  assert.match(wrong, /pixel-opponent" data-pose="cheer"/);
 });
 
 test("codex has one active page while retaining hidden content and real links", () => {

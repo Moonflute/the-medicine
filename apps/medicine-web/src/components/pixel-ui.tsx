@@ -3,7 +3,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 
-// Original, tiny sprites: no font download, image request, or emoji substitution.
+// Small original SVG icons stay static; the two animated characters use editable pixel cels.
 const sprites = {
   hero: ["...kkkk.....", "..kggggk....", "..kyyyyk....", "..kykyk.....", "...yyyy.....", "..kmmmmk....", ".kkmwwmkk...", ".y.mwwm.y...", "...mmmm.....", "...k..k.....", "..kk..kk....", "............"],
   slime: ["............", "............", "....kkkk....", "..kkmmmmkk..", ".kmmmmmmmmk.", ".kmmkmmkmmk.", "kmmmwmmwmmmk", "kmmmmmmmmmmk", "kmmkmmmmkmmk", ".kmmkkkkmmk.", "..kkkkkkkk..", "............"],
@@ -18,6 +18,13 @@ const colors: Record<string, string> = { k: "#243149", m: "#77d6a4", g: "#63866c
 
 export function PixelSprite({ name, className = "" }: { name: PixelSpriteName; className?: string }) {
   return <svg className={`pixel-sprite ${className}`} viewBox="0 0 12 12" shapeRendering="crispEdges" aria-hidden="true" focusable="false">{sprites[name].flatMap((row, y) => [...row].map((color, x) => color === "." ? null : <rect key={`${x}-${y}`} x={x} y={y} width="1" height="1" fill={colors[color]} />))}</svg>;
+}
+
+export function PixelDancer({ name, pose = "dance", className = "" }: {
+  name: "medic" | "slime"; pose?: "dance" | "cheer" | "hit" | "still"; className?: string;
+}) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  return <span className={`pixel-sprite pixel-dancer ${className}`} data-pose={pose} aria-hidden="true" style={{ backgroundImage: `url("${basePath}/themes/pixel/${name}.png")` }} />;
 }
 
 const letters: Record<string, string[]> = {
@@ -64,7 +71,7 @@ export function PixelHomeDirectory() {
     <div className="pixel-title-scene">
       <span className="pixel-eyebrow">8-BIT STUDY ADVENTURE</span>
       <h1 className="pixel-wordmark"><span className="sr-only">Medicine Quest</span><PixelWord text="MEDICINE" /><PixelWord text="QUEST" /></h1>
-      <div className="pixel-title-party" aria-hidden="true"><PixelSprite name="hero" className="pixel-hero" /><span className="pixel-trail">· · ·</span><PixelSprite name="book" /><span className="pixel-trail">· · ·</span><PixelSprite name="slime" className="pixel-opponent" /></div>
+      <div className="pixel-title-party" aria-hidden="true"><PixelDancer name="medic" className="pixel-hero" /><span className="pixel-trail">· · ·</span><PixelSprite name="book" /><span className="pixel-trail">· · ·</span><PixelDancer name="slime" className="pixel-opponent" /></div>
       <span className="pixel-scene-caption">한 문제씩, 다음 스테이지로.</span>
     </div>
     <nav className="pixel-start-menu" aria-label="게임 시작 메뉴">
@@ -94,7 +101,7 @@ export function PixelQuestionWorkspace({ question, choices, response, actions, c
   return <div className="pixel-battle skin-question-workspace" data-question-skin="pixel" data-submitted={submitted} data-outcome={outcome}>
     <div className="pixel-battle-scene">
       <div className="pixel-battle-hud"><span className="pixel-eyebrow">{mode === "mock" ? "MOCK BATTLE" : "QUESTION BATTLE"}</span><div><strong>ROUND {String(number).padStart(2, "0")}</strong><span>{number} / {total}</span></div><progress aria-label="현재 문제 위치" value={number} max={Math.max(total, number, 1)} /></div>
-      <div key={`${number}:${outcome}`} className="pixel-battle-party" aria-hidden="true"><PixelSprite name="hero" className="pixel-hero" /><span className="pixel-turn-label">{turnLabel}</span><PixelSprite name="slime" className="pixel-opponent" /></div>
+      <div key={`${number}:${outcome}`} className="pixel-battle-party" aria-hidden="true"><PixelDancer name="medic" pose={outcome === "correct" ? "cheer" : outcome === "wrong" ? "hit" : outcome === "idle" ? "dance" : "still"} className="pixel-hero" /><span className="pixel-turn-label">{turnLabel}</span><PixelDancer name="slime" pose={outcome === "correct" ? "hit" : outcome === "wrong" ? "cheer" : outcome === "idle" ? "dance" : "still"} className="pixel-opponent" /></div>
     </div>
     <div className="pixel-battle-panels">
       <section className="pixel-dialogue pixel-question-dialogue" aria-label="문제"><div className="pixel-dialogue-heading"><strong>{sourceTitle}</strong><span className="pixel-question-copy">{copy}</span></div><div className="pixel-question-text">{question}</div>{hint ? <p className="pixel-question-hint">{hint}</p> : null}</section>
