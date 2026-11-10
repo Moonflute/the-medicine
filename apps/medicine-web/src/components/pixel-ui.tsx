@@ -105,7 +105,7 @@ export function PixelQuestionWorkspace({ question, choices, response, actions, c
     </div>
     <div className="pixel-battle-panels">
       <section className="pixel-dialogue pixel-question-dialogue" aria-label="문제"><div className="pixel-dialogue-heading"><strong>{sourceTitle}</strong><span className="pixel-question-copy">{copy}</span></div><div className="pixel-question-text">{question}</div>{hint ? <p className="pixel-question-hint">{hint}</p> : null}</section>
-      <section className="pixel-command-window" aria-label="답안 커맨드"><div className="pixel-dialogue-heading"><strong>{submitted ? "선택한 커맨드" : "어떻게 할까?"}</strong><span>{mode === "mock" ? "선택 시 저장" : "COMMAND"}</span></div>{submitted ? <><p className="pixel-answer-log">▶ {answerText || "모르겠습니다."}</p><details className="pixel-choice-history"><summary>선택지 다시 보기</summary>{choices}</details></> : choices}</section>
+      <section className="pixel-command-window" aria-label="답안 커맨드"><div className="pixel-dialogue-heading"><strong>{submitted ? "선택한 커맨드" : "어떻게 할까?"}</strong><span>{mode === "mock" ? "선택 시 저장" : "COMMAND"}</span></div>{submitted ? <p className="pixel-answer-log">▶ {answerText || "모르겠습니다."}</p> : null}{choices}</section>
     </div>
     {submitted ? <section className="pixel-dialogue pixel-battle-response" aria-label="해설" aria-live="polite"><div className="pixel-dialogue-heading"><strong>전투 로그</strong><span>RESULT</span></div><div className="skin-q-response">{response}</div></section> : null}
     <div className="pixel-battle-actions">{actions}</div>

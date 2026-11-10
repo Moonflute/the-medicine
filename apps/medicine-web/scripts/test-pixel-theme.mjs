@@ -85,7 +85,6 @@ test("battle keeps answer callbacks and grading state, then shows the existing e
   assert.ok(!before.includes("해설 원문"));
   const after = render(question.SkinQuestionWorkspace, { ...props, submitted: true });
   for (const text of ["문제 원문", "선택지 원문", "해설 원문", "이동 버튼", "복사 버튼", "복수 선택 가능", "A. 답안 내용"]) assert.ok(after.includes(text), text);
-  assert.match(after, /<details class="pixel-choice-history">/);
   assert.match(after, /data-outcome="ungraded"/);
   assert.equal([...after.matchAll(/data-pose="still"/g)].length, 2);
   const right = render(question.SkinQuestionWorkspace, { ...props, submitted: true, correct: true });
