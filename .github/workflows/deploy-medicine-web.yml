@@ -155,8 +155,8 @@ jobs:
         env:
           PAGES_ARTIFACT_ID: ${{ needs.build.outputs.pages-artifact-id }}
         with:
-          # deploy-pages clamps every timeout to 10 minutes and cancels file sync.
-          # Use the same Pages API and OIDC identity, with an actual 25-minute wait.
+          # Reuse the built artifact for one bounded recovery from unavailable status.
+          # The 25-minute budget covers both attempts, using the same Pages API/OIDC.
           script: |
             const { deployPages } = await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/deploy-pages.mjs`);
             await deployPages({ github, context, core, artifactId: process.env.PAGES_ARTIFACT_ID });

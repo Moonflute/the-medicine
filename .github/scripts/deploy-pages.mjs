@@ -1,7 +1,7 @@
 import { setTimeout as sleep } from 'node:timers/promises';
-import { createHash } from 'node:crypto';
 
-// The official action uses this API too, but caps its wait at 600,000 ms:
+// Pages may return an empty status when its backend publication times out:
+// https://github.com/actions/deploy-pages/issues/166
 // https://github.com/actions/deploy-pages/blob/v4/src/internal/deployment.js
 // https://docs.github.com/en/rest/pages/pages#create-a-github-pages-deployment
 const terminalFailures = new Set([
@@ -27,44 +27,56 @@ export async function cancelPages({ github, context, core, deploymentId }) {
 export async function deployPages({
   github, context, core, artifactId,
   timeoutMs = 25 * 60_000, intervalMs = 15_000,
-  unavailableTimeoutMs = 5 * 60_000, retryDelayMs = 30_000,
+  unavailableTimeoutMs = 2 * 60_000, retryDelayMs = 30_000, startupTimeoutMs = 2 * 60_000,
   runAttempt = process.env.GITHUB_RUN_ATTEMPT || '1',
   now = Date.now, wait = sleep,
 }) {
   const id = Number(artifactId);
   if (!Number.isSafeInteger(id) || id <= 0) throw new Error('Missing Pages artifact ID from the build job.');
-  if (![timeoutMs, intervalMs, unavailableTimeoutMs].every(value => Number.isFinite(value) && value > 0)
+  if (![timeoutMs, intervalMs, unavailableTimeoutMs, startupTimeoutMs].every(value => Number.isFinite(value) && value > 0)
     || !Number.isFinite(retryDelayMs) || retryDelayMs < 0) throw new Error('Pages wait intervals must be positive.');
   if (!context.sha || !context.runId || !runAttempt) throw new Error('Missing Pages workflow identity.');
 
   const started = now();
   const deadline = started + timeoutMs;
-  const deploymentIds = new Set();
   // One recovery attempt, using the already-built artifact. Never overlap publishers.
   for (let attempt = 1; attempt <= 2; attempt++) {
-    // Pages accepts a unique build version, not necessarily a commit SHA. Reusing
-    // context.sha lets a rerun immediately read a previous deployment_cancelled.
-    // Keep the familiar 40-hex shape; OIDC still certifies the real source commit.
-    const buildVersion = createHash('sha256')
-      .update(JSON.stringify([context.sha, context.runId, String(runAttempt), attempt]))
-      .digest('hex').slice(0, 40);
+    // Despite the API documentation's "unique string", an invented build version
+    // returns 404. Use the real commit and remember its old terminal status so a
+    // rerun cannot immediately mistake that status for this publication's result.
+    // https://github.com/actions/deploy-pages/issues/383
+    let previousStatus;
+    let baselineUnavailable = false;
+    try {
+      const previous = await github.request('GET /repos/{owner}/{repo}/pages/deployments/{pages_deployment_id}', {
+        ...context.repo, pages_deployment_id: context.sha, request: requestOptions,
+      });
+      previousStatus = previous.data?.status;
+      baselineUnavailable = !previousStatus || unknownStates.has(previousStatus);
+    } catch (error) {
+      if (error.status !== 404) {
+        if (error.status && error.status !== 429 && error.status < 500) throw error;
+        baselineUnavailable = true;
+        core.warning('Could not read the prior Pages state; a fresh progress state will be required.');
+      }
+    }
     const oidcToken = await core.getIDToken();
     core.setSecret(oidcToken);
     // Do not retry an ambiguous POST failure: it may already have created a deployment.
     const created = await github.request('POST /repos/{owner}/{repo}/pages/deployments', {
-      ...context.repo, artifact_id: id, pages_build_version: buildVersion,
+      ...context.repo, artifact_id: id, pages_build_version: context.sha,
       oidc_token: oidcToken, request: requestOptions,
     });
     const deployment = created.data;
-    const deploymentId = deployment.id || buildVersion;
-    if (deploymentIds.has(deploymentId)) throw new Error(`Pages reused deployment ID ${deploymentId}; refusing to monitor an older attempt.`);
-    deploymentIds.add(deploymentId);
+    const deploymentId = deployment.id || context.sha;
     core.setOutput('deployment_id', deploymentId);
     core.setOutput('page_url', deployment.page_url || '');
-    core.info(`Pages attempt ${attempt}/2: deployment ${deploymentId}, commit ${context.sha}, artifact ${id}; request ${created.headers?.['x-github-request-id'] || 'unavailable'}.`);
+    core.info(`Pages attempt ${attempt}/2 (workflow ${context.runId}/${runAttempt}): deployment ${deploymentId}, artifact ${id}; previous status ${previousStatus || 'unavailable'}; request ${created.headers?.['x-github-request-id'] || 'unavailable'}.`);
 
     let lastStatus = '';
     let lastReport = now();
+    const startupDeadline = now() + startupTimeoutMs;
+    let freshProgress = false;
     let unavailableSince;
     let settled = false;
     let retry = false;
@@ -87,6 +99,13 @@ export async function deployPages({
           diagnostic = `HTTP ${error.status || 'network error'}; request ${error.response?.headers?.['x-github-request-id'] || 'unavailable'}`;
         }
         const status = result?.data?.status;
+        const terminal = status === 'succeed' || terminalFailures.has(status);
+        if (!freshProgress && terminal && (status === previousStatus || baselineUnavailable)) {
+          if (now() >= startupDeadline) throw new Error(`Pages did not expose a fresh publication state; refusing to reuse previous ${status}. Deployment: ${deploymentId}. ${diagnostic}`);
+          core.info(`Pages is still reporting previous ${status}; waiting for this publication to start.`);
+          continue;
+        }
+        if (status && !terminal && !unknownStates.has(status)) freshProgress = true;
         if (status === 'succeed') {
           settled = true;
           core.setOutput('status', 'succeed');

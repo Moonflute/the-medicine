@@ -2,12 +2,14 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { deployPages } from './deploy-pages.mjs';
 
-function fixture(readStatus, { cancelError, createError } = {}) {
+function fixture(readStatus, { cancelError, createError, previousStatus } = {}) {
   let elapsed = 0;
   let reads = 0;
   const calls = [];
   const outputs = {};
   const logs = [];
+  let created = false;
+  let cancelled = false;
   const context = { repo: { owner: 'example', repo: 'site' }, sha: 'current-commit', runId: 456 };
   const options = {
     context, artifactId: '123', runAttempt: '1', now: () => elapsed, wait: async ms => { elapsed += ms; },
@@ -16,11 +18,18 @@ function fixture(readStatus, { cancelError, createError } = {}) {
       calls.push({ route, input, elapsed });
       if (route.endsWith('/cancel')) {
         if (cancelError) throw cancelError;
+        cancelled = true;
         return { status: 204 };
       }
       if (route.startsWith('POST ')) {
         if (createError) throw createError;
+        created = true;
+        cancelled = false;
         return { data: { id: input.pages_build_version, page_url: 'https://example.github.io/site/' } };
+      }
+      if (!created || cancelled) {
+        if (!cancelled && previousStatus === undefined) throw Object.assign(new Error('not found'), { status: 404 });
+        return { data: { status: cancelled ? 'deployment_cancelled' : previousStatus } };
       }
       return { status: 200, headers: { 'x-github-request-id': 'test-request' }, data: await readStatus(elapsed, ++reads, input) };
     } },
@@ -35,10 +44,10 @@ test('file sync can finish after ten minutes without cancellation or another upl
   assert.equal(f.elapsed(), 11 * 60_000);
   assert.equal(f.outputs.status, 'succeed');
   assert.equal(f.calls.filter(call => call.route.startsWith('POST ')).length, 1);
-  assert.equal(f.calls[0].input.artifact_id, 123);
-  assert.notEqual(f.calls[0].input.pages_build_version, 'current-commit');
-  assert.equal(f.calls[1].elapsed, 15_000);
-  assert.equal(f.calls[0].input.oidc_token, 'test-oidc');
+  assert.equal(f.creates()[0].input.artifact_id, 123);
+  assert.equal(f.creates()[0].input.pages_build_version, 'current-commit');
+  assert.equal(f.calls[2].elapsed, 15_000);
+  assert.equal(f.creates()[0].input.oidc_token, 'test-oidc');
 });
 
 test('real Pages failure stops immediately instead of waiting or reporting success', async () => {
@@ -54,7 +63,7 @@ test('twenty empty responses and temporary API errors can recover without failin
     if (read === 1) throw Object.assign(new Error('service unavailable'), { status: 503 });
     return read <= 20 ? {} : { status: 'succeed' };
   });
-  await deployPages(recovered.options);
+  await deployPages({ ...recovered.options, unavailableTimeoutMs: 6 * 60_000 });
   assert.equal(recovered.outputs.status, 'succeed');
   assert.equal(recovered.creates().length, 1);
   assert.ok(recovered.logs.some(line => line.includes('keys (empty); request test-request')));
@@ -69,16 +78,20 @@ test('the actual deadline cancels only this unfinished deployment', async () => 
   assert.equal(f.calls.at(-1).input.pages_deployment_id, f.outputs.deployment_id);
 });
 
-test('a workflow rerun never reads the previous commit-keyed cancellation or success', async () => {
-  const original = fixture(() => ({ status: 'succeed' }));
-  await deployPages(original.options);
-  const rerun = fixture((_ms, _read, input) => ({
-    status: [original.outputs.deployment_id, 'current-commit'].includes(input.pages_deployment_id)
-      ? 'deployment_cancelled' : 'succeed',
-  }));
-  await deployPages({ ...rerun.options, runAttempt: '2' });
-  assert.equal(rerun.outputs.status, 'succeed');
-  assert.notEqual(rerun.outputs.deployment_id, original.outputs.deployment_id);
+test('a rerun waits through stale cancellation or success until the new publication progresses', async () => {
+  for (const previousStatus of ['deployment_cancelled', 'succeed']) {
+    const rerun = fixture((_ms, read) => ({ status: read === 1 ? previousStatus : read === 2 ? 'syncing_files' : 'succeed' }), { previousStatus });
+    await deployPages({ ...rerun.options, runAttempt: '2' });
+    assert.equal(rerun.outputs.status, 'succeed');
+    assert.equal(rerun.elapsed(), 45_000);
+    assert.equal(rerun.creates().length, 1);
+  }
+});
+
+test('an unchanged old success never passes as a new publication', async () => {
+  const f = fixture(() => ({ status: 'succeed' }), { previousStatus: 'succeed' });
+  await assert.rejects(deployPages(f.options), /refusing to reuse previous succeed/);
+  assert.equal(f.outputs.status, undefined);
 });
 
 test('sustained missing status recovers once with the same artifact after cancelling only its own attempt', async () => {
@@ -86,7 +99,7 @@ test('sustained missing status recovers once with the same artifact after cancel
   await deployPages(f.options);
   const [first, second] = f.creates();
   assert.equal(f.creates().length, 2);
-  assert.notEqual(first.input.pages_build_version, second.input.pages_build_version);
+  assert.equal(first.input.pages_build_version, second.input.pages_build_version);
   assert.equal(first.input.artifact_id, second.input.artifact_id);
   const cancellation = f.calls.find(call => call.route.endsWith('/cancel'));
   assert.equal(cancellation.input.pages_deployment_id, first.input.pages_build_version);
@@ -114,7 +127,7 @@ test('failed cancellation prevents overlapping publication', async () => {
 test('ambiguous creation errors and permission errors are not retried as new deployments', async () => {
   const creation = fixture(() => ({}), { createError: new Error('connection reset') });
   await assert.rejects(deployPages(creation.options), /connection reset/);
-  assert.equal(creation.calls.length, 1);
+  assert.equal(creation.creates().length, 1);
   const permission = fixture(() => { throw Object.assign(new Error('forbidden'), { status: 403 }); });
   await assert.rejects(deployPages(permission.options), /forbidden/);
   assert.equal(permission.creates().length, 1);
