@@ -24,10 +24,12 @@ const browser = { localStorage: storage(), sessionStorage: storage() };
 const grading = compile('qbank-grading.ts');
 const mockExam = compile('mock-exam.ts', { './qbank-grading': grading });
 const roundTimer = compile('qbank-round-timer.ts');
+const skips = compile('qbank-skips.ts');
 const { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSession, loadLocalActiveQbankSessions, planActiveQbankSessionSync, remapLocalActiveQbankSession, saveLocalActiveQbankSession } = compile('qbank-active-session.ts', {
   './qbank-grading': grading,
   './mock-exam': mockExam,
   './qbank-round-timer': roundTimer,
+  './qbank-skips': skips,
 }, { window: browser });
 
 const legacy = {
@@ -41,6 +43,31 @@ test('legacy snapshots remain readable without display context', () => {
   assert.equal(parsed.context, undefined);
   assert.equal(parsed.deadlineAt, undefined);
   assert.equal(parsed.roundRemainingMs, undefined);
+  assert.equal(JSON.stringify(parsed.skips), JSON.stringify({ ids: [], reviewing: false, passComplete: false }));
+});
+
+test('skips survive local storage and cloud snapshots without creating attempts', async () => {
+  clearLocalActiveQbankSession();
+  const snapshot = { ...legacy, questionIds: ['a', 'b', 'c'], drafts: { b: 'B' }, skips: { ids: ['b', 'a', 'b', 'unknown'], reviewing: true, passComplete: true } };
+  saveLocalActiveQbankSession(snapshot);
+  const saved = loadLocalActiveQbankSession(snapshot.sessionId);
+  assert.equal(JSON.stringify(saved.skips), JSON.stringify({ ids: ['a', 'b'], reviewing: true, passComplete: true }));
+  assert.equal(saved.answers.length, 0);
+  assert.equal(saved.drafts.b, 'B');
+  const client = fakeActiveSessionClient();
+  await saveCloudActiveQbankSession(client, 'user', saved);
+  const remote = activeSessionFrom(JSON.parse(JSON.stringify(client.rows.get(snapshot.sessionId).payload)));
+  assert.equal(JSON.stringify(remote.skips), JSON.stringify(saved.skips));
+  assert.equal(remote.answers.length, 0);
+  clearLocalActiveQbankSession();
+});
+
+test('submitted answers leave the skip queue and remapped IDs remain navigable', () => {
+  clearLocalActiveQbankSession();
+  saveLocalActiveQbankSession({ ...legacy, questionIds: ['a', 'b'], answers: [{ questionId: 'a', correct: false, specialty: 'test' }], skips: { ids: ['a', 'b'], reviewing: true, passComplete: false } });
+  const remapped = remapLocalActiveQbankSession({ b: 'canonical-b' });
+  assert.equal(JSON.stringify(remapped.skips.ids), JSON.stringify(['canonical-b']));
+  clearLocalActiveQbankSession();
 });
 
 test('time limits are only accepted for an explicitly timed practice round', () => {

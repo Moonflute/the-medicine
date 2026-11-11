@@ -11,7 +11,7 @@ import { selectedAnswers } from "@/lib/qbank-grading";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import type { QbankQuestion } from "@/lib/types";
 
-type Filter = "all" | "unanswered" | "flagged" | "wrong";
+type Filter = "all" | "unanswered" | "flagged" | "skipped" | "wrong";
 
 function ChatExamDialog({ dialogRef, title, children, fullScreen = false, onClose }: {
   dialogRef: RefObject<HTMLDialogElement | null>; title: string; children: ReactNode;
@@ -39,9 +39,10 @@ function ChatExamDialog({ dialogRef, title, children, fullScreen = false, onClos
 }
 
 /** Exam actions use the existing composer; only the presentation moves. */
-export function ChatMockExamTools({ questions, exam, currentIndex, answered, marked, clock, countdown, timeUp, confirm, error, onMove, onToggleFlag, onClearAnswer, onRequestSubmit, onCancelSubmit, onFinish }: {
+export function ChatMockExamTools({ questions, exam, currentIndex, answered, marked, skippedIds, clock, countdown, timeUp, confirm, error, onMove, onToggleFlag, onClearAnswer, onRequestSubmit, onCancelSubmit, onFinish }: {
   questions: QbankQuestion[]; exam: MockExamState; currentIndex: number;
   answered: number; marked: number; clock: ReactNode; countdown: boolean; timeUp: boolean; confirm: boolean; error: string;
+  skippedIds: string[];
   onMove: (index: number) => void; onToggleFlag: () => void; onClearAnswer: () => void;
   onRequestSubmit: () => void; onCancelSubmit: () => void; onFinish: () => void;
 }) {
@@ -57,14 +58,15 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
   const rows = questions.map((question, index) => ({
     question, index, subject: mockSubject(question.id),
     answers: selectedAnswers(exam.drafts[question.id]),
-    flagged: flagged.has(question.id), result: results.get(question.id),
+    flagged: flagged.has(question.id), skipped: !finished && skippedIds.includes(question.id), result: results.get(question.id),
   }));
-  const visible = rows.filter(row => filter === "unanswered" ? !row.answers.length : filter === "flagged" ? row.flagged : filter === "wrong" ? row.result?.correct === false : true);
+  const visible = rows.filter(row => filter === "unanswered" ? !row.answers.length : filter === "flagged" ? row.flagged : filter === "skipped" ? row.skipped : filter === "wrong" ? row.result?.correct === false : true);
   const subjects = [...new Set(visible.map(row => row.subject))];
   const filters: Array<{ id: Filter; label: string; count: number }> = [
     { id: "all", label: "전체", count: questions.length },
     { id: "unanswered", label: "미응답", count: questions.length - answered },
     { id: "flagged", label: "보류", count: marked },
+    ...(!finished ? [{ id: "skipped" as const, label: "건너뜀", count: skippedIds.length }] : []),
     ...(finished ? [{ id: "wrong" as const, label: "오답", count: rows.filter(row => row.result?.correct === false).length }] : []),
   ];
 
@@ -106,9 +108,9 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
         {subjects.map(group => <section key={group} aria-label={group}>
           <h3>{group}</h3>
           {visible.filter(row => row.subject === group).map(row => {
-            const status = finished ? row.result?.correct === null ? "채점 제외" : row.result?.correct ? "정답" : "오답" : row.answers.length ? "응답" : "미응답";
+            const status = finished ? row.result?.correct === null ? "채점 제외" : row.result?.correct ? "정답" : "오답" : row.skipped ? "건너뜀" : row.answers.length ? "응답" : "미응답";
             return <button key={row.question.id} type="button" className="chat-exam-answer-row" aria-current={row.index === currentIndex ? "step" : undefined}
-              aria-label={`${row.index + 1}번 ${group}, ${row.answers.length ? `${row.answers.join(", ")} 선택` : "미응답"}${row.flagged ? ", 보류" : ""}${finished ? `, ${status}` : ""}`}
+              aria-label={`${row.index + 1}번 ${group}, ${row.answers.length ? `${row.answers.join(", ")} 선택` : "미응답"}${row.flagged ? ", 보류" : ""}${row.skipped ? ", 건너뜀" : ""}${finished ? `, ${status}` : ""}`}
               data-status={status} onClick={() => { sheet.current?.close(); onMove(row.index); }}>
               <span className="chat-exam-number" aria-hidden="true">{row.index + 1}</span>
               <span className="chat-exam-answer-copy"><strong>{reflowOcrText(row.question.question).replace(/\s+/g, " ").trim()}</strong><span>{status}{row.flagged ? " · 보류" : ""}{row.index === currentIndex ? " · 현재 문제" : ""}</span></span>
@@ -125,7 +127,7 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
     <ChatExamDialog dialogRef={submission} title="시험 종료" onClose={onCancelSubmit}>
       <div className="chat-exam-submit">
         <p>답안을 제출하고 채점할까요?</p>
-        <dl><div><dt>미응답</dt><dd>{questions.length - answered}문항</dd></div><div><dt>보류</dt><dd>{marked}문항</dd></div></dl>
+        <dl><div><dt>미응답</dt><dd>{questions.length - answered}문항</dd></div><div><dt>보류</dt><dd>{marked}문항</dd></div><div><dt>건너뜀</dt><dd>{skippedIds.length}문항</dd></div></dl>
         <p className="chat-exam-submit-note">전원 정답 문항을 제외한 채점 가능한 미응답은 오답으로 처리돼요. 제출 후에는 답을 바꿀 수 없어요.</p>
         {error && <p role="alert" className="chat-exam-submit-error">{error}</p>}
         <div className="chat-exam-submit-actions"><button type="button" onClick={onCancelSubmit}>계속 풀기</button><button type="button" onClick={onFinish}><Check size={16} />제출하고 채점</button></div>

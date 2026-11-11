@@ -1,6 +1,7 @@
 import { isSelection } from "./qbank-grading";
 import { readMockExam, type MockExamState } from "./mock-exam";
 import { readRoundDeadline, readRoundRemainingMs } from "./qbank-round-timer";
+import { readQbankSkipState, type QbankSkipState } from "./qbank-skips";
 import type { QbankSelection, RelatedTheoryDocument } from "./types";
 
 export type QbankSessionAnswer = { questionId: string; selected?: QbankSelection; correct: boolean | null; specialty: string };
@@ -16,6 +17,7 @@ export type QbankSessionContext = {
   unattempted?: boolean;
 };
 export type QbankSessionSnapshot = {
+  skips?: QbankSkipState;
   context?: QbankSessionContext;
   drafts?: Record<string, QbankSelection>;
   mockExam?: MockExamState | null;
@@ -92,6 +94,7 @@ export function activeSessionFrom(value: unknown): QbankActiveSession | null {
   if (!value || typeof value !== "object") return null;
   const candidate = value as Partial<QbankActiveSession>;
   if (typeof candidate.sessionId !== "string" || !Array.isArray(candidate.questionIds) || !Array.isArray(candidate.answers) || typeof candidate.updatedAt !== "string") return null;
+  const questionIds = candidate.questionIds.filter((item): item is string => typeof item === "string");
   return {
     sessionId: candidate.sessionId,
     context: readSessionContext(candidate.context),
@@ -99,7 +102,8 @@ export function activeSessionFrom(value: unknown): QbankActiveSession | null {
     roundRemainingMs: readRoundRemainingMs(candidate.roundRemainingMs),
     deadlineAt: readRoundDeadline(candidate.deadlineAt),
     drafts: readQbankSessionDrafts(candidate.drafts),
-    questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
+    questionIds,
+    skips: readQbankSkipState(candidate.skips, questionIds, candidate.answers.map(answer => answer?.questionId)),
     currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,
     answers: candidate.answers as QbankSessionAnswer[],
     selected: isSelection(candidate.selected) ? candidate.selected : null,
@@ -210,9 +214,10 @@ export function remapLocalActiveQbankSession(aliases: Record<string, string>) {
     const questionIds = session.questionIds.map(map);
     const answers = session.answers.map((answer) => ({ ...answer, questionId: map(answer.questionId) }));
     const drafts = Object.fromEntries(Object.entries(session.drafts ?? {}).map(([id, value]) => [map(id), value]));
+    const skips = readQbankSkipState({ ...session.skips, ids: session.skips?.ids.map(map) }, questionIds, answers.map(answer => answer.questionId));
     if (questionIds.every((id, index) => id === session.questionIds[index]) && answers.every((answer, index) => answer.questionId === session.answers[index].questionId)) return session;
     changed = true;
-    return { ...session, questionIds, answers, drafts, selected: session.selected };
+    return { ...session, questionIds, answers, drafts, skips, selected: session.selected };
   });
   if (!changed) return sessions[0];
   persistLocalActiveQbankSessions(next);

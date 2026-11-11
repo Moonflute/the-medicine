@@ -9,6 +9,7 @@ import { useChatSenderName } from "@/components/chat-contact";
 import { isConceptTheme, isSpecialTheme } from "@/lib/themes";
 import { ConceptQuestionWorkspace } from "@/components/concept-question";
 import { PixelQuestionWorkspace } from "@/components/pixel-ui";
+import { QbankSkipButton } from "@/components/qbank-skip-controls";
 
 export type SkinChoice = { key: QbankAnswer; label: string; text: string; selected: boolean; correct: boolean; wrong: boolean };
 
@@ -39,16 +40,17 @@ export function SkinQuestionSendIcon({ fallback }: { fallback?: ReactNode }) {
   return <svg width={22} height={22} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M3.2 3.5L21.4 12L3.2 20.5L5.6 13.4L15.7 12L5.6 10.6Z" /></svg>;
 }
 
-export function SkinQuestionAction({ submitted, unknown, last, onSubmit, onNext }: { submitted: boolean; unknown: boolean; last: boolean; onSubmit: () => void; onNext: () => void }) {
+export function SkinQuestionAction({ submitted, unknown, last, onSubmit, onNext, onSkip, nextLabel }: { submitted: boolean; unknown: boolean; last: boolean; onSubmit: () => void; onNext: () => void; onSkip?: () => void; nextLabel?: string }) {
   const { theme } = useSkinTheme();
   const label = theme === "pixel" ? submitted ? last ? "전투 기록 보기" : "다음 라운드 ▶" : unknown ? "모름으로 제출" : "커맨드 실행 ▶" : submitted ? last ? "결과 보기" : theme === "mail" ? "다음 메일" : theme === "social" ? "다음 게시물" : theme === "editor" ? "Next test" : "다음 문제" : unknown ? theme === "mail" ? "모름으로 회신" : theme === "editor" ? "모름으로 실행" : "모름으로 제출" : theme === "mail" ? "회신" : theme === "social" ? "답 제출" : theme === "editor" ? "▶ 실행" : theme === "chat" ? "보내기" : theme === "terminal" ? "ENTER · 제출" : "답안 제출";
-  return <button type="button" onClick={submitted ? onNext : onSubmit} title={label} aria-label={submitted ? last ? "결과 보기" : "다음 문제" : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <SkinQuestionSendIcon /> : null}</button>;
+  return <div className="qbank-question-actions">{!submitted && onSkip && <QbankSkipButton onSkip={onSkip} />}<button type="button" onClick={submitted ? onNext : onSubmit} title={submitted && nextLabel ? nextLabel : label} aria-label={submitted ? nextLabel ?? (last ? "결과 보기" : "다음 문제") : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{submitted && nextLabel ? nextLabel : label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <SkinQuestionSendIcon /> : null}</button></div>;
 }
 
-export function SkinQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode = "study", sourceTitle = "문제은행", choicesCount = 5, correct = null }: {
+export function SkinQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode = "study", sourceTitle = "문제은행", choicesCount = 5, correct = null, progressTools }: {
   question: ReactNode; choices: ReactNode; response: ReactNode; actions: ReactNode; copy: ReactNode;
   hint: string; answerText: string; submitted: boolean; number: number; total: number;
   mode?: "study" | "mock"; sourceTitle?: string; choicesCount?: number; correct?: boolean | null;
+  progressTools?: ReactNode;
 }) {
   const { theme } = useSkinTheme();
   const senderName = useChatSenderName(sourceTitle);
@@ -56,7 +58,7 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
   if (isConceptTheme(theme)) return <ConceptQuestionWorkspace theme={theme} question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} choicesCount={choicesCount} />;
   const hintNode = hint ? <p className="mt-5 text-sm font-medium text-teal-700">{hint}</p> : null;
   if (theme === "chat") return <div className="skin-question-workspace skin-question-chat" data-question-skin="chat">
-    <div className="chat-message-date">{mode === "mock" ? "실전 대화" : "문제 대화"} · {number} / {total}</div>
+    <div className="chat-message-date">{mode === "mock" ? "실전 대화" : "문제 대화"} · {number} / {total}{progressTools}</div>
     <div className="skin-q-received"><span className="skin-message-avatar" aria-hidden="true">{senderName.slice(0, 1)}</span><div className="chat-question-message"><span className="skin-message-sender">{senderName}</span><div className="skin-message-bubble">{question}{hintNode}</div></div></div>
     {submitted ? <><div className="skin-q-sent" aria-label="보낸 답안"><div>{answerText || "모르겠습니다."}</div><small>전송됨</small></div><div className="skin-q-response" aria-live="polite">{response}</div></> : null}
     {submitted ? <details className="chat-answer-history"><summary>보기 다시 보기</summary>{choices}</details> : <div className="chat-reply-choices"><span className="sr-only">보낼 답을 선택하세요{mode === "mock" ? ". 선택한 답은 자동으로 저장됩니다." : ". 입력창의 전송 버튼으로 제출합니다."}</span>{choices}</div>}

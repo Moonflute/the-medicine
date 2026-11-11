@@ -51,6 +51,8 @@ import { filterRelatedTheoryQuestions, parseRelatedTheoryTopicKeys, relatedTheor
 import { qbankSessionContextFromParams } from "@/lib/qbank-session-context";
 import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession, saveCloudActiveQbankSessionOnPageExit } from "@/lib/qbank-active-session-cloud";
 import type { QbankSessionContext } from "@/lib/qbank-active-session";
+import { markQbankSkipped, qbankPassIndex, readQbankSkipState, resolveQbankSkipped, type QbankSkipState } from "@/lib/qbank-skips";
+import { QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank-skip-controls";
 
 type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">>;
 type SessionAnswer = QbankSessionAnswer;
@@ -240,6 +242,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [selected, setSelected] = useState<QbankSelection | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [answers, setAnswers] = useState<SessionAnswer[]>([]);
+  const [skips, setSkips] = useState<QbankSkipState>(() => readQbankSkipState(null, []));
   const [bookmarked, setBookmarked] = useState(false);
   const [wrongTracked, setWrongTracked] = useState(false);
   const [questionProgress, setQuestionProgress] = useState<QbankProgress | null>(null);
@@ -379,6 +382,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setSessionContext(snapshot?.context ?? requestedContext);
         setCurrentIndex(restoredIndex);
         setAnswers(snapshot?.answers.filter((item) => savedQuestionIds?.has(item.questionId)) ?? []);
+        setSkips(readQbankSkipState(snapshot?.skips, selectedQuestions.map(question => question.id), snapshot?.answers.map(answer => answer.questionId)));
         setDrafts(readQbankSessionDrafts(snapshot?.drafts));
         setSelected(restoredAnswer?.selected ?? snapshot?.selected ?? null);
         setSubmitted(Boolean(restoredAnswer));
@@ -503,6 +507,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setQuestions(restoredQuestions);
         setCurrentIndex(restoredIndex);
         setAnswers(remoteActiveSession.answers.filter((item) => savedQuestionIds.has(item.questionId)));
+        setSkips(readQbankSkipState(remoteActiveSession.skips, remoteActiveSession.questionIds, remoteActiveSession.answers.map(answer => answer.questionId)));
         setDrafts(readQbankSessionDrafts(remoteActiveSession.drafts));
         setSelected(restoredAnswer?.selected ?? remoteActiveSession.selected);
         setSubmitted(Boolean(restoredAnswer));
@@ -545,6 +550,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     return () => listener?.data.subscription.unsubscribe();
   }, [questions]);
   const displayedOptions = current ? optionOrder(current, optionSessionId) : [];
+  const questionIds = useMemo(() => questions.map(question => question.id), [questions]);
   const currentTheoryTargetHref = current ? theoryTargetHref(current) : null;
   const answersById = useMemo(() => new Map(answers.map((answer) => [answer.questionId, answer])), [answers]);
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
@@ -562,7 +568,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   const showQuestion = useCallback((index: number) => {
     const question = questions[index];
-    if (!question || index === currentIndex) return;
+    if (!question) return;
+    setSkips(state => state.passComplete ? { ...state, passComplete: false } : state);
+    if (index === currentIndex) return;
     if (current && !submitted) setDrafts(items => {
       const nextDrafts = { ...items };
       if (selected) nextDrafts[current.id] = selected;
@@ -581,6 +589,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   const chooseOption = useCallback((answer: QbankAnswer) => {
     if (!current || submitted || isRoundTimeUp(deadlineAt)) return;
+    setSkips(state => state.passComplete ? { ...state, passComplete: false } : state);
     setSelected(value => toggleSelection(current, value, answer));
   }, [current, deadlineAt, submitted]);
 
@@ -591,6 +600,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
     setQuestionProgress(progress);
     setAnswers((items) => [...items, { questionId: current.id, selected: selected ?? undefined, correct, specialty: practiceQuestionLabel(current) }]);
+    setSkips(state => resolveQbankSkipped(state, current.id));
     setSubmitted(true);
   }, [current, deadlineAt, mockExam, selected, submitted]);
 
@@ -631,13 +641,32 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   const next = useCallback(() => {
     if (completed || finishConfirm) return;
-    if (currentIndex + 1 >= questions.length) {
-      if (remaining.remaining.length) setFinishConfirm(true);
+    const index = qbankPassIndex(questionIds, currentIndex, skips);
+    if (index < 0) {
+      if (skips.ids.length) setSkips(state => ({ ...state, passComplete: true }));
+      else if (remaining.remaining.length) setFinishConfirm(true);
       else finish();
       return;
     }
-    showQuestion(currentIndex + 1);
-  }, [completed, finishConfirm, currentIndex, questions.length, remaining.remaining.length, finish, showQuestion]);
+    showQuestion(index);
+  }, [completed, finishConfirm, currentIndex, questionIds, skips, remaining.remaining.length, finish, showQuestion]);
+
+  const skip = useCallback(() => {
+    if (!current || submitted || completed || finishConfirm || isRoundTimeUp(deadlineAt)) return;
+    const state = markQbankSkipped(skips, current.id);
+    const index = qbankPassIndex(questionIds, currentIndex, state);
+    setSkips({ ...state, passComplete: index < 0 });
+    if (index >= 0) showQuestion(index);
+  }, [current, submitted, completed, finishConfirm, deadlineAt, skips, questionIds, currentIndex, showQuestion]);
+
+  const reviewSkipped = useCallback(() => {
+    const index = questionIds.findIndex(id => skips.ids.includes(id));
+    if (index < 0) return;
+    setFinishConfirm(false);
+    setSkips(state => ({ ...state, reviewing: true, passComplete: false }));
+    showQuestion(index);
+  }, [questionIds, skips.ids, showQuestion]);
+  const showAll = useCallback(() => setSkips(state => ({ ...state, reviewing: false, passComplete: false })), []);
 
   useEffect(() => {
     if (finishConfirm) {
@@ -647,8 +676,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [finishConfirm]);
 
   const previous = useCallback(() => {
-    if (currentIndex > 0) showQuestion(currentIndex - 1);
-  }, [currentIndex, showQuestion]);
+    const index = qbankPassIndex(questionIds, currentIndex, skips, -1);
+    if (index >= 0) showQuestion(index);
+  }, [currentIndex, questionIds, skips, showQuestion]);
   function toggleBookmark() {
     if (!current) return;
     setBookmarked(toggleQbankBookmark(current.id));
@@ -664,8 +694,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       if (event.defaultPrevented) return;
       if (document.documentElement.dataset.highlighterMode && document.documentElement.dataset.highlighterMode !== "read") return;
       const target = event.target;
-      if (target instanceof HTMLElement && (target.closest(".study-flow-host") || target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
-      if (!current || mockExam || completed || finishConfirm || event.isComposing) return;
+      if (target instanceof HTMLElement && (target.closest(".study-flow-host, button, a, summary, dialog") || target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
+      if (!current || mockExam || completed || finishConfirm || skips.passComplete || event.isComposing) return;
 
       if (!submitted && ["1", "2", "3", "4", "5"].includes(event.key)) {
         const answer = optionOrder(current, optionSessionId)[Number(event.key) - 1];
@@ -696,18 +726,24 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [chooseOption, current, currentIndex, mockExam, next, optionSessionId, previous, selected, submit, submitted, completed, finishConfirm]);
+  }, [chooseOption, current, currentIndex, mockExam, next, optionSessionId, previous, selected, submit, submitted, completed, finishConfirm, skips.passComplete]);
   const buildSnapshot = useCallback((now: number): QbankActiveSession | null => {
     const sessionId = sessionIdRef.current;
     if (loading || error || completed || finishingRef.current || questions.length === 0 || !sessionId) return null;
     const lastVersion = latestSavedVersionRef.current;
     const lastSavedAt = lastVersion?.sessionId === sessionId ? Date.parse(lastVersion.updatedAt) : NaN;
     const clock = liveRoundClockRef.current;
+    const snapshotDrafts = { ...drafts };
+    if (current && !submitted) {
+      if (selected) snapshotDrafts[current.id] = selected;
+      else delete snapshotDrafts[current.id];
+    }
     return {
       context: sessionContext,
       mockExam,
+      skips,
       roundRemainingMs: clock ? remainingRoundMs(clock.deadlineAt, now) : undefined,
-      drafts: current && selected && !submitted ? { ...drafts, [current.id]: selected } : drafts,
+      drafts: snapshotDrafts,
       sessionId,
       questionIds: questions.map((item) => item.id),
       currentIndex,
@@ -716,7 +752,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       submitted,
       updatedAt: new Date(Number.isFinite(lastSavedAt) ? Math.max(now, lastSavedAt + 1) : now).toISOString(),
     };
-  }, [answers, completed, current, currentIndex, drafts, error, loading, mockExam, questions, selected, sessionContext, submitted]);
+  }, [answers, completed, current, currentIndex, drafts, error, loading, mockExam, questions, selected, sessionContext, skips, submitted]);
 
   const persistSnapshot = useCallback((snapshot: QbankActiveSession) => {
     latestSavedVersionRef.current = { sessionId: snapshot.sessionId, updatedAt: snapshot.updatedAt };
@@ -821,7 +857,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     </div>
   );
 
-  if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} roundClock={roundClock} isRunning={isRoundClockRunning} onChange={setMockExam} onMove={setCurrentIndex} />;
+  if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} roundClock={roundClock} isRunning={isRoundClockRunning} onChange={setMockExam} onMove={setCurrentIndex} skips={skips} onSkipsChange={setSkips} />;
 
   if (completed) {
     const gradedCount = answers.filter((item) => item.correct !== null).length;
@@ -849,21 +885,23 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         <Link href="/review/qbank" className="inline-flex items-center gap-1 hover:text-teal-700"><ArrowLeft className="h-4 w-4" />나가기</Link>
         <div className="h-2 min-w-28 flex-1 max-w-md overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
         <span className="tabular-nums whitespace-nowrap">{currentIndex + 1} / {questions.length}</span>
+        <QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={showQuestion} onReview={reviewSkipped} onShowAll={showAll} hideInChat />
         {questions.some(question => question.questionBank === "practice") && <ChatOptionalTools><div className="ml-auto flex flex-wrap items-center gap-2" aria-label="문제 번호 이동">
           <label className="sr-only" htmlFor="qbank-question-select">문제 선택</label>
           <select id="qbank-question-select" aria-label="문제 선택" className="h-9 max-w-36 rounded-md border border-slate-300 bg-white px-2 text-sm font-medium" value={currentIndex} onChange={event => showQuestion(Number(event.target.value))}>
               {questions.map((question, index) => <option key={question.id} value={index}>{index + 1}번 · {practiceQuestionLabel(question)}</option>)}
           </select>
-          <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={currentIndex === 0} onClick={previous}>이전</button>
-          <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={currentIndex === questions.length - 1} onClick={() => showQuestion(currentIndex + 1)}>다음</button>
+          <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={qbankPassIndex(questionIds, currentIndex, skips, -1) < 0} onClick={previous}>이전</button>
+          <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={qbankPassIndex(questionIds, currentIndex, skips) < 0} onClick={() => showQuestion(qbankPassIndex(questionIds, currentIndex, skips))}>다음</button>
           <details className="relative">
             <summary className="cursor-pointer list-none rounded-md border border-slate-300 bg-white px-2.5 py-2 text-xs font-medium text-slate-600 hover:bg-slate-50">전체 번호</summary>
             <div className="absolute right-0 z-10 mt-2 grid max-h-64 w-[calc(100vw-2rem)] max-w-[38.5rem] grid-cols-[repeat(8,minmax(0,1fr))] gap-1 overflow-y-auto rounded-lg border border-slate-200 bg-white p-3 shadow-lg sm:grid-cols-[repeat(12,minmax(0,1fr))] lg:grid-cols-[repeat(20,minmax(0,1fr))]">
               {questions.map((question, index) => {
                 const answer = answersById.get(question.id);
                 const chosen = index === currentIndex ? selected : drafts[question.id];
-                const status = answer ? answer.correct === null ? "채점 제외" : answer.correct ? "정답" : "오답" : chosen ? "선택 중" : "미응답";
-                return <button key={question.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 · ${status}`} title={`${index + 1}번 · ${status}`} onClick={() => showQuestion(index)} className={`h-[27px] w-full min-w-0 rounded-md border p-0 text-[11px] tabular-nums ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""} ${answer ? answer.correct === null ? "border-slate-200 bg-slate-100" : answer.correct ? "border-teal-200 bg-teal-50 text-teal-800" : "border-rose-200 bg-rose-50 text-rose-800" : chosen ? "border-blue-200 bg-blue-50 text-blue-800" : "border-slate-200 bg-white text-slate-600"}`}>{index + 1}</button>;
+                const skipped = skips.ids.includes(question.id);
+                const status = answer ? answer.correct === null ? "채점 제외" : answer.correct ? "정답" : "오답" : skipped ? "건너뜀" : chosen ? "선택 중" : "미응답";
+                return <button key={question.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 · ${status}`} title={`${index + 1}번 · ${status}`} onClick={() => showQuestion(index)} className={`h-[27px] w-full min-w-0 rounded-md border p-0 text-[11px] tabular-nums ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""} ${answer ? answer.correct === null ? "border-slate-200 bg-slate-100" : answer.correct ? "border-teal-200 bg-teal-50 text-teal-800" : "border-rose-200 bg-rose-50 text-rose-800" : skipped ? "border-amber-400 bg-amber-50 text-amber-900" : chosen ? "border-blue-200 bg-blue-50 text-blue-800" : "border-slate-200 bg-white text-slate-600"}`}>{index + 1}</button>;
               })}
             </div>
           </details>
@@ -890,6 +928,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         {roundClock && <div className="mt-2 flex justify-end"><span className="pill">남은 시간 <QbankSessionClock roundClock={roundClock} isRunning={isRoundClockRunning} onExpire={finish} /></span></div>}
         <SkinDocumentNotice title={`${practiceQuestionLabel(current)} · ${current.questionType}`}><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</SkinDocumentNotice>
         <SkinQuestionWorkspace sourceTitle={practiceQuestionLabel(current)} number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length} correct={submitted ? gradeQuestion(current, selected) : null}
+          progressTools={<QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={showQuestion} onReview={reviewSkipped} onShowAll={showAll} chatOnly />}
           hint={selectionHint(current)}
           answerText={displayedOptions.filter(key => selectedAnswers(selected).includes(key)).map(key => `${OPTION_LABELS[displayedOptions.indexOf(key)]}. ${current.options[key] ?? ""}`).join("\n")}
           question={        <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>
@@ -924,7 +963,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             </ChatOptionalTools>
           </div>
         ) : null}
-          actions={<SkinQuestionAction submitted={submitted} unknown={!selected} last={currentIndex + 1 === questions.length} onSubmit={submit} onNext={next} />}
+          actions={skips.passComplete && skips.ids.length > 0 ? <QbankSkipPassActions count={skips.ids.length} onReview={reviewSkipped} onFinish={() => remaining.remaining.length ? setFinishConfirm(true) : finish()} /> : <SkinQuestionAction submitted={submitted} unknown={!selected} last={qbankPassIndex(questionIds, currentIndex, skips) < 0} nextLabel={qbankPassIndex(questionIds, currentIndex, skips) < 0 && skips.ids.length ? "건너뛴 문제 확인" : undefined} onSubmit={submit} onNext={next} onSkip={skip} />}
         />
       </article></ChatSenderProvider>
     </div>

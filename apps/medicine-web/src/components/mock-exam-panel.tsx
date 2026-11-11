@@ -27,11 +27,14 @@ import { RelatedTheoryLauncher } from "@/components/related-theory-launcher";
 import { QbankCopyButton } from "@/components/qbank-copy-button";
 import { QbankExplanation } from "@/components/qbank-explanation";
 import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
+import { markQbankSkipped, qbankPassIndex, resolveQbankSkipped, type QbankSkipState } from "@/lib/qbank-skips";
+import { QbankSkipButton, QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank-skip-controls";
 
-export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundClock, isRunning, onChange, onMove }: {
+export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundClock, isRunning, onChange, onMove, skips, onSkipsChange }: {
   questions: QbankQuestion[]; exam: MockExamState; sessionId: string; currentIndex: number; roundClock?: QbankRunningRoundClock;
   isRunning: (clock: QbankRunningRoundClock) => boolean;
   onChange: (state: MockExamState) => void; onMove: (index: number) => void;
+  skips: QbankSkipState; onSkipsChange: (state: QbankSkipState) => void;
 }) {
   const { theme } = useSkinTheme();
   const chatLayout = theme === "chat";
@@ -52,6 +55,9 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
   const subjects = [...new Set(questions.map(q => mockSubject(q.id)))];
   const correct = exam.results?.filter(r => r.correct === true).length ?? 0;
   const graded = exam.results?.filter(r => r.correct !== null).length ?? 0;
+  const questionIds = questions.map(question => question.id);
+  const previousIndex = qbankPassIndex(questionIds, currentIndex, finished ? { ...skips, reviewing: false } : skips, -1);
+  const nextIndex = qbankPassIndex(questionIds, currentIndex, finished ? { ...skips, reviewing: false } : skips);
 
   const choose = useCallback((answer: QbankAnswer) => {
     if (!finished && !isRoundTimeUp(deadlineAt)) {
@@ -59,21 +65,22 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
       const drafts = { ...exam.drafts };
       if (next) drafts[current.id] = next; else delete drafts[current.id];
       onChange({ ...exam, drafts });
+      onSkipsChange(next ? resolveQbankSkipped(skips, current.id) : { ...skips, passComplete: false });
     }
-  }, [current, deadlineAt, exam, finished, onChange]);
+  }, [current, deadlineAt, exam, finished, onChange, onSkipsChange, skips]);
   useEffect(() => {
     function keyDown(event: KeyboardEvent) {
       if (document.documentElement.dataset.highlighterMode && document.documentElement.dataset.highlighterMode !== "read") return;
-      if (confirm || document.querySelector("dialog[open]") || event.altKey || event.ctrlKey || event.metaKey || (event.target instanceof HTMLElement && (event.target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT", "BUTTON", "A"].includes(event.target.tagName)))) return;
+      if (confirm || skips.passComplete || document.querySelector("dialog[open]") || event.altKey || event.ctrlKey || event.metaKey || (event.target instanceof HTMLElement && (event.target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT", "BUTTON", "A"].includes(event.target.tagName)))) return;
       if (!finished && /^[1-5]$/.test(event.key)) {
         const answer = "ABCDE"[Number(event.key) - 1] as QbankAnswer;
         if (current.options[answer] !== undefined) { event.preventDefault(); choose(answer); }
-      } else if (event.key === "ArrowRight" && currentIndex < questions.length - 1) { event.preventDefault(); onMove(currentIndex + 1); }
-      else if (event.key === "ArrowLeft" && currentIndex > 0) { event.preventDefault(); onMove(currentIndex - 1); }
+      } else if (event.key === "ArrowRight" && nextIndex >= 0) { event.preventDefault(); onMove(nextIndex); }
+      else if (event.key === "ArrowLeft" && previousIndex >= 0) { event.preventDefault(); onMove(previousIndex); }
     }
     window.addEventListener("keydown", keyDown);
     return () => window.removeEventListener("keydown", keyDown);
-  }, [choose, confirm, current, currentIndex, finished, onMove, questions.length]);
+  }, [choose, confirm, current, finished, onMove, nextIndex, previousIndex, skips.passComplete]);
 
   function finish() {
     if (submitting.current || finished) return;
@@ -88,6 +95,8 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
   }
 
   function moveToQuestion(index: number) {
+    if (index < 0 || index >= questions.length) return;
+    if (skips.passComplete) onSkipsChange({ ...skips, passComplete: false });
     onMove(index);
     if (finished) setReview(true);
     window.requestAnimationFrame(() => document.getElementById("mock-question")?.scrollIntoView({ block: "start" }));
@@ -107,6 +116,31 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
     setConfirm(true);
   }
 
+  function advance() {
+    if (!finished && isRoundTimeUp(deadlineAt)) return;
+    const state = exam.drafts[current.id] && !finished ? resolveQbankSkipped(skips, current.id) : skips;
+    if (nextIndex >= 0) {
+      onSkipsChange({ ...state, passComplete: false });
+      onMove(nextIndex);
+    } else if (!finished && state.ids.length) onSkipsChange({ ...state, passComplete: true });
+    else if (!finished) requestSubmit();
+  }
+  function skip() {
+    if (finished || isRoundTimeUp(deadlineAt)) return;
+    const state = markQbankSkipped(skips, current.id);
+    const index = qbankPassIndex(questionIds, currentIndex, state);
+    onSkipsChange({ ...state, passComplete: index < 0 });
+    if (index >= 0) onMove(index);
+  }
+  function reviewSkipped() {
+    const index = questionIds.findIndex(id => skips.ids.includes(id));
+    if (index < 0 || finished) return;
+    setConfirm(false);
+    onSkipsChange({ ...skips, reviewing: true, passComplete: false });
+    onMove(index);
+  }
+  function showAll() { onSkipsChange({ ...skips, reviewing: false, passComplete: false }); }
+
   const sheet = <SkinPanel id="mock-answer-sheet" className="surface min-w-0 p-4 sm:p-5" label="모의고사 답안표" title="모의고사 답안표" ordinal={1}>
     <div className="flex items-center justify-between gap-2"><h2 className="font-semibold">답안표</h2><span className="text-xs text-slate-500">{answered}/{questions.length} 응답 · 보류 {marked}</span></div>
     <p className="mt-2 text-xs leading-5 text-slate-500">{finished ? "문항을 누르면 해설을 확인합니다. 정답은 초록색, 오답은 빨간색입니다." : "번호를 눌러 이동 · 파랑: 응답 · 주황 테두리: 보류"}</p>
@@ -114,21 +148,24 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
       if (mockSubject(q.id) !== subject) return null;
       const r = exam.results?.find(item => item.questionId === q.id);
       const flagged = exam.flaggedIds.includes(q.id);
+      const skipped = !finished && skips.ids.includes(q.id);
       const chosen = exam.drafts[q.id];
-      return <button key={q.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 ${subject}, ${chosen ? `${chosen} 선택` : "미응답"}${flagged ? ", 보류" : ""}${finished ? r?.correct === null ? ", 채점 제외" : r?.correct ? ", 정답" : ", 오답" : ""}`} onClick={() => moveToQuestion(index)} className={`min-h-11 rounded-md border px-1 py-1 text-xs tabular-nums ${flagged ? "border-amber-500" : "border-slate-200"} ${finished ? r?.correct === null ? "bg-slate-100 text-slate-500" : r?.correct ? "bg-teal-100 text-teal-900" : "bg-rose-100 text-rose-900" : chosen ? "bg-blue-50 text-blue-900" : "bg-white text-slate-500"} ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""}`}><span className="block font-semibold">{index + 1}{flagged ? " ·" : ""}</span><span className="block">{selectedAnswers(chosen).join(", ") || "—"}</span></button>;
+      return <button key={q.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 ${subject}, ${chosen ? `${chosen} 선택` : "미응답"}${skipped ? ", 건너뜀" : ""}${flagged ? ", 보류" : ""}${finished ? r?.correct === null ? ", 채점 제외" : r?.correct ? ", 정답" : ", 오답" : ""}`} onClick={() => moveToQuestion(index)} className={`min-h-11 rounded-md border px-1 py-1 text-xs tabular-nums ${flagged ? "border-amber-500" : "border-slate-200"} ${finished ? r?.correct === null ? "bg-slate-100 text-slate-500" : r?.correct ? "bg-teal-100 text-teal-900" : "bg-rose-100 text-rose-900" : skipped ? "bg-amber-50 text-amber-900" : chosen ? "bg-blue-50 text-blue-900" : "bg-white text-slate-500"} ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""}`}><span className="block font-semibold">{index + 1}{flagged ? " ·" : ""}</span><span className="block">{skipped ? "건너뜀" : selectedAnswers(chosen).join(", ") || "—"}</span></button>;
     })}</div></div>)}
   </SkinPanel>;
 
   return <div className={chatLayout ? "chat-mock-exam" : theme === "pixel" ? "pixel-mock-exam space-y-5" : "space-y-5"}>
-    {chatLayout ? <ChatMockExamTools questions={questions} exam={exam} currentIndex={currentIndex} answered={answered} marked={marked} clock={clock} countdown={countdown} timeUp={timeUp} confirm={confirm} error={error} onMove={moveToQuestion} onToggleFlag={toggleFlag} onClearAnswer={clearAnswer} onRequestSubmit={requestSubmit} onCancelSubmit={() => setConfirm(false)} onFinish={finish} /> : <SkinPanel className="surface flex flex-wrap items-center justify-between gap-3 p-4 sm:p-5" title="시험 정보" ordinal={1}><div><p className="text-xs font-medium text-teal-700">실전 모의고사{timeUp ? " · 제한시간 종료" : finished ? " · 제출 완료" : ""}</p><h1 className="mt-1 text-xl font-semibold">{exam.title}</h1>{clock && <p className="mt-1 text-xs text-slate-500">{countdown ? "남은 시간" : finished ? "총 경과시간" : "시작 후 경과시간"} {clock}{!countdown && " · 중단 시간 포함"}</p>}</div><div className="flex flex-wrap gap-2"><a className="secondary-action" href="#mock-answer-sheet">답안표</a><Link className="secondary-action" href="/review/qbank">{finished ? "문제은행" : "나중에 이어풀기"}</Link>{!finished && <button type="button" className="primary-action" onClick={requestSubmit}>시험 종료</button>}{finished && <Link className="primary-action" href="/review/qbank/stats">학습 통계</Link>}</div></SkinPanel>}
+    {chatLayout ? <ChatMockExamTools questions={questions} exam={exam} currentIndex={currentIndex} answered={answered} marked={marked} skippedIds={skips.ids} clock={clock} countdown={countdown} timeUp={timeUp} confirm={confirm} error={error} onMove={moveToQuestion} onToggleFlag={toggleFlag} onClearAnswer={clearAnswer} onRequestSubmit={requestSubmit} onCancelSubmit={() => setConfirm(false)} onFinish={finish} /> : <SkinPanel className="surface flex flex-wrap items-center justify-between gap-3 p-4 sm:p-5" title="시험 정보" ordinal={1}><div><p className="text-xs font-medium text-teal-700">실전 모의고사{timeUp ? " · 제한시간 종료" : finished ? " · 제출 완료" : ""}</p><h1 className="mt-1 text-xl font-semibold">{exam.title}</h1>{clock && <p className="mt-1 text-xs text-slate-500">{countdown ? "남은 시간" : finished ? "총 경과시간" : "시작 후 경과시간"} {clock}{!countdown && " · 중단 시간 포함"}</p>}</div><div className="flex flex-wrap gap-2"><a className="secondary-action" href="#mock-answer-sheet">답안표</a><Link className="secondary-action" href="/review/qbank">{finished ? "문제은행" : "나중에 이어풀기"}</Link>{!finished && <button type="button" className="primary-action" onClick={requestSubmit}>시험 종료</button>}{finished && <Link className="primary-action" href="/review/qbank/stats">학습 통계</Link>}</div></SkinPanel>}
     {error && (!chatLayout || !confirm) && <p role="alert" className="text-sm text-rose-700">{error}</p>}
-    {!chatLayout && confirm && !finished && <section role="region" aria-label="제출 확인" className="rounded-xl border border-amber-300 bg-amber-50 p-5"><h2 className="font-semibold">답안을 제출하고 채점할까요?</h2><p className="mt-2 text-sm">미응답 {questions.length - answered}문항 · 보류 {marked}문항입니다. 전원 정답 문항을 제외한 채점 가능한 미응답은 오답으로 처리되며 제출 후 답을 바꿀 수 없습니다.</p><div className="mt-4 flex flex-wrap gap-2"><button type="button" className="primary-action" onClick={finish}>제출하고 채점</button><button type="button" className="secondary-action" onClick={() => setConfirm(false)}>계속 풀기</button></div></section>}
+    {!chatLayout && confirm && !finished && <section role="region" aria-label="제출 확인" className="rounded-xl border border-amber-300 bg-amber-50 p-5"><h2 className="font-semibold">답안을 제출하고 채점할까요?</h2><p className="mt-2 text-sm">미응답 {questions.length - answered}문항 · 보류 {marked}문항 · 건너뜀 {skips.ids.length}문항입니다. 전원 정답 문항을 제외한 채점 가능한 미응답은 오답으로 처리되며 제출 후 답을 바꿀 수 없습니다.</p><div className="mt-4 flex flex-wrap gap-2"><button type="button" className="primary-action" onClick={finish}>제출하고 채점</button><button type="button" className="secondary-action" onClick={() => setConfirm(false)}>계속 풀기</button></div></section>}
     {finished && (chatLayout ? <ChatMockExamResult subject={mockSubject(current.id)} correct={correct} graded={graded} unanswered={questions.length - answered} omitted={questions.length - graded} scores={subjects.map(subject => { const rs = exam.results?.filter(r => r.specialty === subject && r.correct !== null) ?? []; return { subject, correct: rs.filter(r => r.correct).length, total: rs.length }; })} review={review} onToggleReview={() => setReview(!review)}><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></ChatMockExamResult> : <SkinPanel className="surface p-6" title="채점 결과" ordinal={2}><p className="text-sm text-slate-500">모의고사 결과</p><p className="mt-2 text-3xl font-bold">{correct} / {graded} <span className="text-lg font-medium text-teal-700">{graded ? Math.round(correct / graded * 100) : 0}%</span></p><p className="mt-2 text-xs text-slate-500">미응답 {questions.length - answered}문항 · 채점 제외 {questions.length - graded}문항</p><div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">{subjects.map(subject => { const rs = exam.results?.filter(r => r.specialty === subject && r.correct !== null) ?? []; return <div key={subject} className="rounded-lg bg-slate-50 p-3 text-sm"><span className="block text-slate-500">{subject}</span><span className="font-semibold">{rs.filter(r => r.correct).length}/{rs.length}</span></div>; })}</div><button type="button" className="secondary-action mt-4" onClick={() => setReview(!review)}>{review ? "해설 접기" : "문제·해설 확인"}</button><div className="mt-3"><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></div></SkinPanel>)}
     <div className={chatLayout ? "chat-mock-layout" : theme === "pixel" ? "pixel-mock-layout" : "grid items-start gap-5 xl:grid-cols-[minmax(0,1fr)_320px]"}>
       {(!finished || review) && <ChatSenderProvider name={mockSubject(current.id)}><article data-highlight-document={`qbank:${current.id}`} id="mock-question" className="skin-q-article surface min-w-0 scroll-mt-20 p-5 sm:p-7">
         {!chatLayout && <DocumentToolbar title={`${currentIndex + 1}번 · ${mockSubject(current.id)}`} className="document-toolbar--inset">{!finished && <button type="button" aria-pressed={exam.flaggedIds.includes(current.id)} className="secondary-action" onClick={toggleFlag}><Flag className="h-4 w-4" />{exam.flaggedIds.includes(current.id) ? "보류 해제" : "보류"}</button>}</DocumentToolbar>}
         {!chatLayout && <SkinDocumentNotice title={`시험 공지 · ${mockSubject(current.id)}`} className="mt-3"><p className="break-all text-xs text-slate-400">{current.id}</p></SkinDocumentNotice>}
+        {!chatLayout && !finished && <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"><span>{currentIndex + 1} / {questions.length}</span><QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={moveToQuestion} onReview={reviewSkipped} onShowAll={showAll} /></div>}
         <SkinQuestionWorkspace mode="mock" sourceTitle={mockSubject(current.id)} number={currentIndex + 1} total={questions.length} choicesCount={displayedOptions.length} submitted={finished} hint={selectionHint(current)} correct={finished ? result?.correct ?? null : null}
+          progressTools={!finished && <QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={moveToQuestion} onReview={reviewSkipped} onShowAll={showAll} chatOnly />}
           answerText={selectedAnswers(exam.drafts[current.id]).map(key => `${key}. ${reflowOcrText(current.options[key] ?? "")}`).join("\n")}
           question={<><p data-highlight-block="question" className="mt-5 whitespace-pre-line text-[15px] leading-7">{reflowOcrText(current.question)}</p>{current.figures?.map((figure, i) => <figure key={figure.path} className="mt-4"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="text-xs text-slate-500">그림 {i + 1}</figcaption></figure>)}</>}
           choices={<><SkinQuestionChoices disabled={finished} onSelect={choose} choices={displayedOptions.map(key => ({key, label:key, text:reflowOcrText(current.options[key] ?? ""), selected:selectedAnswers(exam.drafts[current.id]).includes(key), correct:finished && correctAnswers(current).includes(key), wrong:finished && result?.correct === false && selectedAnswers(exam.drafts[current.id]).includes(key) && !correctAnswers(current).includes(key)}))} />{!chatLayout && !finished && exam.drafts[current.id] && <button type="button" className="mt-3 text-xs text-slate-500 underline" onClick={clearAnswer}>답 선택 지우기</button>}</>}
@@ -142,7 +179,7 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
             </SkinQuestionReferences>
             <ChatOptionalTools className="qbank-feedback-tools mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200 pt-2"><QbankCopyButton key={`explanation:${current.id}`} text={qbankExplanationCopyText(current, displayedOptions, "source")} label="해설 복사" /><QbankCopyButton key={`both:${current.id}`} text={qbankCombinedCopyText(current, displayedOptions, "source")} label="문제+해설 복사" title="문제와 보기 및 해설 텍스트 복사 · 이미지는 제외" /></ChatOptionalTools>
           </section>}
-          actions={<div className="mt-6 flex justify-between gap-2"><button type="button" aria-label="이전 문제" className="secondary-action disabled:opacity-40" disabled={currentIndex === 0} onClick={() => onMove(currentIndex - 1)}><ChevronLeft className="h-4 w-4" /><span className={chatLayout ? "sr-only" : undefined}>이전</span></button>{currentIndex < questions.length - 1 ? <button type="button" aria-label="다음 문제" className="primary-action" onClick={() => onMove(currentIndex + 1)}><span className={chatLayout ? "sr-only" : undefined}>다음</span><ChevronRight className="h-4 w-4" /></button> : !finished ? <button type="button" aria-label="답안 제출" className="primary-action" onClick={requestSubmit}><span className={chatLayout ? "sr-only" : undefined}>답안 제출</span>{chatLayout && <SkinQuestionSendIcon fallback={<Check className="h-4 w-4" aria-hidden="true" />} />}</button> : null}</div>}
+          actions={skips.passComplete && !finished && skips.ids.length > 0 ? <QbankSkipPassActions count={skips.ids.length} onReview={reviewSkipped} onFinish={requestSubmit} exam /> : <div className="qbank-question-actions"><button type="button" aria-label="이전 문제" className="secondary-action disabled:opacity-40" disabled={previousIndex < 0} onClick={() => moveToQuestion(previousIndex)}><ChevronLeft className="h-4 w-4" /><span className={chatLayout ? "sr-only" : undefined}>이전</span></button>{!finished && <QbankSkipButton onSkip={skip} />}{nextIndex >= 0 || !finished ? <button type="button" aria-label={nextIndex >= 0 ? "다음 문제" : skips.ids.length ? "건너뛴 문제 확인" : "답안 제출"} className="primary-action" onClick={advance}><span className={chatLayout ? "sr-only" : undefined}>{nextIndex >= 0 ? "다음" : skips.ids.length ? "건너뛴 문제 확인" : "답안 제출"}</span>{nextIndex >= 0 || skips.ids.length ? <ChevronRight className="h-4 w-4" /> : chatLayout && <SkinQuestionSendIcon fallback={<Check className="h-4 w-4" aria-hidden="true" />} />}</button> : null}</div>}
         />
       </article></ChatSenderProvider>}
       {!chatLayout && <div className={finished && !review ? "xl:col-span-2" : "min-w-0 xl:sticky xl:top-20"}>{theme === "pixel" ? <details className="pixel-battle-map"><summary>전투 지도 · 답안 {answered}/{questions.length}</summary>{sheet}</details> : isConceptTheme(theme) ? <details className="concept-answer-sheet"><summary>{theme === "mail" ? "첨부: 답안표" : theme === "social" ? "전체 답안 보기" : "answers.json"} · {answered}/{questions.length}</summary>{sheet}</details> : sheet}</div>}
