@@ -16,8 +16,8 @@ export type SkinChoice = { key: QbankAnswer; label: string; text: string; select
 export function SkinQuestionReferences({ available, children }: { available: boolean; children: ReactNode }) {
   const { theme } = useSkinTheme();
   if (!available) return null;
-  if (!isSpecialTheme(theme)) return <>{children}</>;
-  return <details className="qbank-feedback-resources"><summary><ChevronRight size={12} aria-hidden="true" />참고 자료 · 추가 학습</summary><div className="qbank-feedback-resources-content">{children}</div></details>;
+  if (!isSpecialTheme(theme)) return <div className="qbank-feedback-resources-content" data-qbank-reference-links>{children}</div>;
+  return <details className="qbank-feedback-resources" data-qbank-reference-links open><summary><ChevronRight size={12} aria-hidden="true" />참고 자료 · 추가 학습</summary><div className="qbank-feedback-resources-content">{children}</div></details>;
 }
 
 export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: SkinChoice[]; disabled: boolean; onSelect: (key: QbankAnswer) => void }) {
@@ -70,16 +70,16 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
     <div className="skin-q-grid-head" aria-hidden="true"><span /><span>A</span><span>B · {number}/{total}</span></div>
     <div className="skin-q-grid-row"><span className="skin-q-row-number">1</span><span className="skin-q-row-label">문제</span><div className="skin-q-row-content">{question}{hintNode}<div className="mt-2 flex justify-end">{copy}</div></div></div>
     {choices}
-    {submitted ? <div className="skin-q-grid-row"><span className="skin-q-row-number">{choicesCount + 2}</span><span className="skin-q-row-label">결과</span><div className="skin-q-row-content"><p className="mb-2 text-xs text-slate-500">입력: {answerText || "미응답"}</p><div className="skin-q-response" aria-live="polite">{response}</div></div></div> : null}
     <div className="skin-q-actions">{actions}</div>
+    {submitted ? <div className="skin-q-grid-row"><span className="skin-q-row-number">{choicesCount + 2}</span><span className="skin-q-row-label">결과</span><div className="skin-q-row-content"><p className="mb-2 text-xs text-slate-500">입력: {answerText || "미응답"}</p><div className="skin-q-response" aria-live="polite">{response}</div></div></div> : null}
   </div>;
   if (theme === "terminal") return <div className="skin-question-workspace skin-question-console" data-question-skin="terminal">
     <div className="skin-q-console-title"><span>QBANK / QUESTION_{String(number).padStart(3, "0")}</span><span>{number}/{total}</span></div>
     <p className="skin-command-line">C:\QBANK&gt; TYPE QUESTION.TXT</p>{question}{hintNode}
     <p className="skin-command-line">SELECT ANSWER [1-{choicesCount}]</p>{choices}
     <div className="skin-q-command-hints"><span>숫자: 선택 / 해제</span><span>{mode === "mock" ? "← / →: 이동" : "Enter: 제출 / →: 다음"}</span>{copy}</div>
-    {submitted ? <><p className="skin-command-line">C:\QBANK&gt; CHECK {answerText.split("\n").map(text => text.split(".")[0]).join(",") || "NONE"}</p><div className="skin-q-response" aria-live="polite">{response}</div></> : null}
     <div className="skin-q-actions">{actions}</div>
+    {submitted ? <><p className="skin-command-line">C:\QBANK&gt; CHECK {answerText.split("\n").map(text => text.split(".")[0]).join(",") || "NONE"}</p><div className="skin-q-response" aria-live="polite">{response}</div></> : null}
   </div>;
-  return <>{question}{hintNode}{choices}<div className="mt-2 flex justify-end">{copy}</div>{response}<div className="mt-6 flex justify-end">{actions}</div></>;
+  return <>{question}{hintNode}{choices}<div className="mt-2 flex justify-end">{copy}</div><div className="mt-6 flex justify-end">{actions}</div>{response}</>;
 }

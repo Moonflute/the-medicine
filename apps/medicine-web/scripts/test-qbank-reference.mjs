@@ -6,7 +6,7 @@ import ts from 'typescript';
 
 const compiledModule = { exports: {} };
 vm.runInNewContext(ts.transpileModule(fs.readFileSync(new URL('../src/lib/qbank-reference.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText, { module: compiledModule, exports: compiledModule.exports, URL });
-const { referenceLocation, visitReference, moveReference, isQuestionReferenceRoute, qbankReferenceInitScript, QBANK_REFERENCE_FRAME } = compiledModule.exports;
+const { referenceLocation, referenceTarget, referenceNavigationMatches, visitReference, moveReference, isQuestionReferenceRoute, qbankReferenceInitScript, QBANK_REFERENCE_FRAME } = compiledModule.exports;
 const origin = 'https://moonflute.github.io';
 const base = '/the-medicine';
 const plain = value => JSON.parse(JSON.stringify(value));
@@ -23,6 +23,24 @@ test('frame navigation rejects foreign, executable and out-of-app targets', () =
   for (const value of ['javascript:alert(1)', 'data:text/html,hello', 'https://evil.test/the-medicine/', '//evil.test/the-medicine/', '/search/', '/the-medicine-extra/', '/the-medicine/../../other/', 'https://user@moonflute.github.io/the-medicine/', '\\evil.test', null, {}]) {
     assert.equal(referenceLocation(value, origin, base), null, String(value));
   }
+});
+
+test('external evidence is isolated from the trusted internal router', () => {
+  const target = referenceTarget('https://www.cdc.gov/example', origin, base);
+  assert.equal(target.external, true);
+  assert.equal(target.href, 'https://www.cdc.gov/example');
+  assert.equal(referenceLocation(target.href, origin, base), null);
+  assert.equal(referenceTarget(`${base}/disease/copd`, origin, base).external, false);
+  for (const value of ['javascript:alert(1)', 'http://example.com/', 'https://user:password@example.com/', '/outside-app/', null]) assert.equal(referenceTarget(value, origin, base), null);
+});
+
+test('a related learning session can assign an ID without leaving reference navigation pending', () => {
+  const target = `${base}/review/qbank/session/?mode=theory-linked&count=10`;
+  assert.equal(referenceNavigationMatches(target, `${target}&session=new-set`, origin, base), true);
+  assert.equal(referenceNavigationMatches(`${target}&session=one&resume=1`, `${target}&session=one`, origin, base), true);
+  assert.equal(referenceNavigationMatches(`${target}&session=one`, `${target}&session=two`, origin, base), false);
+  assert.equal(referenceNavigationMatches(target, `${base}/review/qbank/session/?count=30&mode=theory-linked&session=new-set`, origin, base), false);
+  assert.equal(referenceNavigationMatches(`${base}/disease/copd/`, `${base}/search/`, origin, base), false);
 });
 
 test('question session and exit links are not hijacked by reference-link interception', () => {
@@ -72,4 +90,10 @@ test('split controls leave the question player mounted and keep its key independ
   assert.match(workspace, /event\.origin !== window\.location\.origin/);
   assert.match(css, /\.app-bottom-nav:not\(\.sheet-document-tabs\)/);
   assert.match(css, /\.chat-room-composer,\.pixel-navigation/);
+  assert.match(workspace, /<header className="qbank-reference-header qbank-shared-header"/);
+  const pane = workspace.slice(workspace.indexOf('<aside id="qbank-reference-pane"'), workspace.indexOf('</aside>'));
+  assert.doesNotMatch(pane, /qbank-reference-header/);
+  assert.match(css, /inset:var\(--qbank-shared-header-height\) 0 0 auto/);
+  assert.match(workspace, /anchor\.closest\("\[data-qbank-reference-links\]"\)/);
+  assert.match(workspace, /sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"/);
 });

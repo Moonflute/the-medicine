@@ -25,6 +25,34 @@ export function isQuestionReferenceRoute(route: string) {
   return /^\/(search|specialties|specialty|disease|cc|drugs|lab-img|skills|interactive|atlas|maternal-child-hub|nervous-system-hub)(\/|\?|#|$)/.test(route);
 }
 
+/** External evidence may be displayed, but never receives our same-origin router bridge. */
+export function referenceTarget(value: unknown, origin: string, basePath = "") {
+  const internal = referenceLocation(value, origin, basePath);
+  if (internal) return { ...internal, external: false as const };
+  if (typeof value !== "string" || /[\\\u0000-\u001f]/.test(value)) return null;
+  try {
+    const url = new URL(value, origin);
+    if (url.protocol !== "https:" || url.origin === origin || url.username || url.password) return null;
+    return { href: url.href, route: "", external: true as const };
+  } catch {
+    return null;
+  }
+}
+
+/** A newly started related quiz assigns its session ID after navigation. */
+export function referenceNavigationMatches(expected: string, actual: string, origin: string, basePath = "") {
+  const before = referenceLocation(expected, origin, basePath);
+  const after = referenceLocation(actual, origin, basePath);
+  if (!before || !after) return false;
+  if (before.href === after.href) return true;
+  const left = new URL(before.href, origin), right = new URL(after.href, origin);
+  if (left.pathname !== right.pathname || !before.route.startsWith("/review/qbank/session/") || left.hash !== right.hash) return false;
+  if (!left.searchParams.has("session")) right.searchParams.delete("session");
+  left.searchParams.delete("resume"); right.searchParams.delete("resume");
+  left.searchParams.sort(); right.searchParams.sort();
+  return left.search === right.search;
+}
+
 export type ReferenceHistory = { entries: string[]; index: number };
 
 export function visitReference(history: ReferenceHistory, href: string, replace = false): ReferenceHistory {

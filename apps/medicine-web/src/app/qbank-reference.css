@@ -1,31 +1,45 @@
 /* Independent browsing, without remounting or hiding the active question on desktop. */
+:root { --qbank-shared-header-height:calc(44px + env(safe-area-inset-top,0px)); }
+html[data-qbank-split="true"] { --app-header-height:var(--qbank-shared-header-height)!important; }
+html[data-qbank-reference="true"] { --app-header-height:0px!important; }
 .qbank-workspace,.qbank-primary-pane { min-width:0; }
+.qbank-workspace[data-split="true"] { padding-top:var(--qbank-shared-header-height); }
+.qbank-workspace[data-split="true"] .qbank-primary-pane :is(.app-header,.qbank-reference-toolbar) { display:none!important; }
+.qbank-workspace[data-split="true"] .qbank-primary-pane [role="dialog"][aria-modal="true"] { z-index:110; }
+.qbank-workspace[data-split="true"] .qbank-primary-pane > [data-conversation],
+.qbank-workspace[data-split="true"] .qbank-primary-pane > [data-conversation] > div { min-height:calc(100dvh - var(--qbank-shared-header-height)); }
 .qbank-reference-toolbar { display:flex; justify-content:flex-end; align-items:center; gap:8px; margin-bottom:8px; }
 .qbank-reference-toolbar button { display:inline-flex; align-items:center; justify-content:center; gap:5px; min-height:30px; padding:4px 8px; border:1px solid var(--line); border-radius:6px; background:var(--surface); color:var(--foreground); font:inherit; font-size:12px; line-height:1.3; cursor:pointer; }
 .qbank-reference-toolbar button[aria-expanded="true"],.qbank-reference-toolbar button[aria-pressed="true"] { color:var(--primary); border-color:var(--primary); background:var(--surface-subtle); }
 .qbank-reference-toolbar button:focus-visible,.qbank-reference-header :is(button,a):focus-visible { outline:2px solid var(--primary); outline-offset:2px; }
 .qbank-reference-mobile-tabs { display:none; }
-.qbank-reference-pane { position:fixed; inset:0 0 0 auto; z-index:60; display:flex; flex-direction:column; width:50%; height:100dvh; border-left:1px solid var(--line); background:var(--background); color:var(--foreground); box-shadow:-3px 0 12px #0001; }
+.qbank-reference-pane { position:fixed; inset:var(--qbank-shared-header-height) 0 0 auto; z-index:60; display:flex; flex-direction:column; width:50%; height:calc(100dvh - var(--qbank-shared-header-height)); border-left:1px solid var(--line); background:var(--background); color:var(--foreground); box-shadow:-3px 0 12px #0001; }
 .qbank-reference-pane[hidden] { display:none; }
 .qbank-reference-header { display:flex; flex-shrink:0; align-items:center; gap:4px; min-height:43px; padding:5px 8px; border-bottom:1px solid var(--line); background:var(--surface); color:var(--foreground); font-size:12px; }
+.qbank-shared-header { position:fixed; inset:0 0 auto; z-index:95; height:var(--qbank-shared-header-height); padding-top:calc(5px + env(safe-area-inset-top,0px)); display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); }
+.qbank-shared-question,.qbank-reference-controls { display:flex; align-items:center; gap:4px; min-width:0; }
+.qbank-reference-controls { padding-left:5px; }
+.qbank-shared-question > a { font-weight:600!important; }
 .qbank-reference-header :is(button,a) { display:inline-flex; flex-shrink:0; align-items:center; justify-content:center; gap:4px; min-width:30px; min-height:30px; padding:4px; border:1px solid transparent; border-radius:4px; background:transparent; color:inherit; font:inherit; cursor:pointer; }
 .qbank-reference-header :is(button,a):hover:not(:disabled) { background:var(--surface-subtle); border-color:var(--line); }
 .qbank-reference-header button:disabled { opacity:.3; cursor:default; }
+.qbank-reference-header button[aria-pressed="true"] { color:var(--primary); border-color:var(--line); background:var(--surface-subtle); }
 .qbank-reference-history { display:flex; flex-shrink:0; }
-.qbank-reference-header .qbank-reference-mobile-back { display:none; }
 .qbank-reference-header .qbank-reference-search { padding-inline:7px; color:var(--primary); }
 .qbank-reference-title { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-inline:4px; color:var(--muted); }
 .qbank-reference-frame { display:block; flex:1; min-height:0; width:100%; border:0; background:var(--background); }
+.qbank-reference-frame[hidden] { display:none; }
+.qbank-reference-external-notice { flex-shrink:0; margin:0; padding:5px 10px; border-bottom:1px solid var(--line); color:var(--muted); background:var(--surface-subtle); font-size:11px; }
+.qbank-reference-external-notice a { color:var(--primary); text-decoration:underline; }
 
 /* Retain each theme's document renderer, local tabs and tools inside the real app frame. */
-html[data-qbank-reference="true"] :is(.app-sidebar,.skin-desktop-rail,.pixel-navigation,.qbank-reference-toolbar) { display:none!important; }
+html[data-qbank-reference="true"] :is(.app-header,.app-sidebar,.skin-desktop-rail,.pixel-navigation,.qbank-reference-toolbar) { display:none!important; }
 html[data-qbank-reference="true"] .app-bottom-nav:not(.sheet-document-tabs) { display:none!important; }
 html[data-qbank-reference="true"] .skin-frame { --skin-rail-width:0px!important; display:flex!important; }
 html[data-qbank-reference="true"] .skin-frame-body { display:flex!important; }
-html[data-qbank-reference="true"] .search-page { min-height:0; align-items:flex-start; padding-block:8px; }
+html[data-qbank-reference="true"] .app-main { padding-top:12px; padding-inline:12px; }
+html[data-qbank-reference="true"] .search-page { min-height:0; align-items:flex-start; padding-block:0; }
 html[data-qbank-reference="true"] .concept-editor-tabs { margin-left:0; }
-html[data-qbank-reference="true"][data-theme="social"] .skin-frame .skin-app-header { height:auto; }
-html[data-qbank-reference="true"][data-theme="social"] .concept-header-line { display:flex; }
 
 /* Chrome follows the palette and typography of the selected app concept. */
 html:is([data-theme="chat"],[data-theme="messenger"]) .qbank-reference-header { background:var(--chat-chrome); color:var(--chat-text); border-color:var(--chat-divider); }
@@ -44,7 +58,7 @@ html[data-theme="social"] .qbank-reference-toolbar button { border-radius:16px; 
   .qbank-workspace[data-split="true"] .qbank-primary-pane :is(.app-sidebar,.skin-desktop-rail) { display:none!important; }
   .qbank-workspace[data-split="true"] .qbank-primary-pane .skin-frame { --skin-rail-width:0px!important; display:flex!important; }
   .qbank-workspace[data-split="true"] .qbank-primary-pane .skin-frame-body { display:flex!important; }
-  .qbank-workspace[data-split="true"] .qbank-primary-pane .app-main { padding-inline:12px; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .app-main { padding-top:12px; padding-inline:12px; }
   .qbank-workspace[data-split="true"] .qbank-primary-pane :is(.skin-page-content,.max-w-7xl) { max-width:none; }
   .qbank-workspace[data-split="true"] .qbank-primary-pane :is(.chat-room-composer,.pixel-navigation) { left:0; right:50%; width:auto; }
   .qbank-workspace[data-split="true"] .qbank-primary-pane .study-flow-toggle { right:50%; }
@@ -59,11 +73,15 @@ html[data-theme="social"] .qbank-reference-toolbar button { border-radius:16px; 
 }
 @media (max-width:1023px) {
   .qbank-reference-pane { width:100%; z-index:90; border-left:0; }
-  .qbank-reference-mobile-tabs { display:flex; gap:4px; margin-right:auto; }
-  .qbank-reference-header .qbank-reference-mobile-back { display:inline-flex; padding-inline:6px; }
-  .qbank-reference-header { padding-top:max(5px,env(safe-area-inset-top)); }
+  .qbank-shared-header { display:flex; gap:6px; }
+  .qbank-reference-controls { flex:1; justify-content:flex-end; padding-left:0; }
+  .qbank-reference-mobile-tabs { display:flex; gap:2px; }
+  .qbank-reference-header :is(.qbank-reference-title,.qbank-shared-question > a > span,.qbank-reference-search > span) { display:none; }
+  .qbank-reference-header .qbank-reference-search { padding-inline:4px; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .app-main { padding-top:12px; }
 }
 @media print {
-  .qbank-reference-pane,.qbank-reference-toolbar { display:none!important; }
+  .qbank-reference-pane,.qbank-reference-toolbar,.qbank-shared-header { display:none!important; }
+  .qbank-workspace[data-split="true"] { padding-top:0; }
   .qbank-workspace[data-split="true"] > .qbank-primary-pane { width:100%; }
 }
