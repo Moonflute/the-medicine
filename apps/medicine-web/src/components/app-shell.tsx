@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, ChevronLeft, FileSpreadsheet, FlaskConical, HeartPulse, House, Menu, MessageCircle, Pill, Search, Stethoscope, Terminal, X } from "lucide-react";
@@ -13,6 +13,9 @@ import { AudioReviewProvider } from "@/components/audio-review-provider";
 import { PersonalHighlighter } from "@/components/personal-highlighter";
 import { ChatRoomProvider } from "@/components/chat-room";
 import { StudyFlowHost } from "@/components/study-flow-host";
+import { QbankReferenceWorkspace } from "@/components/qbank-reference-workspace";
+import { QbankReferenceBridge } from "@/components/qbank-reference-bridge";
+import { QBANK_REFERENCE_SEARCH_EVENT } from "@/lib/qbank-reference";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
@@ -66,6 +69,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       const isSearchShortcut = event.key === "/" || ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k");
       if (!isSearchShortcut || isTyping) return;
       event.preventDefault();
+      if (document.documentElement.dataset.qbankSplit === "true") {
+        window.dispatchEvent(new Event(QBANK_REFERENCE_SEARCH_EVENT));
+        return;
+      }
       if (pathname === "/" || pathname.startsWith("/search")) {
         window.dispatchEvent(new Event("medicine:focus-search"));
       } else {
@@ -93,7 +100,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <AudioReviewProvider>
     <div className={`app-shell min-h-screen bg-slate-100 text-slate-950 ${immersive ? "immersive-shell" : ""} ${atlas ? "atlas-shell" : ""} ${clinical ? "clinical-shell" : ""}`} data-page={isHome ? "home" : "content"} data-view={documentPage ? "document" : "browse"}>
       <LearningSyncProvider />
+      <Suspense fallback={null}><QbankReferenceBridge /></Suspense>
       <ChatRoomProvider>
+      <QbankReferenceWorkspace enabled={pathname.startsWith("/review/qbank/session")}>
       <SkinAppFrame theme={theme} pathname={pathname} headerRef={headerRef} version={version} immersive={immersive}
         conversation={documentPage || pathname.startsWith("/review/qbank/session")}
         normalRail={<>
@@ -213,6 +222,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       >{children}</SkinAppFrame>
       <PersonalHighlighter />
       <StudyFlowHost />
+      </QbankReferenceWorkspace>
       </ChatRoomProvider>
     </div>
     </AudioReviewProvider>

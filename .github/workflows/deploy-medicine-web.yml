@@ -112,7 +112,7 @@ jobs:
         run: >-
           node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test
           scripts/test-qbank-session-results.mjs scripts/test-qbank-active-session.mjs
-          scripts/test-qbank-skips.mjs
+          scripts/test-qbank-skips.mjs scripts/test-qbank-reference.mjs
           scripts/test-qbank-related-theory.mjs scripts/test-qbank-session-context.mjs
           scripts/test-qbank-copy.mjs scripts/test-ocr-paragraphs.mjs scripts/test-qbank-curation.mjs
 

@@ -1,6 +1,7 @@
 "use client";
 import { useSearchParams } from "next/navigation";
 import { QbankSessionClient } from "./qbank-session-client";
+import { QbankReferenceToolbar } from "./qbank-reference-workspace";
 import type { QbankSpecialtySummary } from "@/lib/types";
 
 /** A different question set leaves the previous player even on the same route. */
@@ -11,5 +12,5 @@ export function QbankSessionRoute({ specialties }: { specialties: QbankSpecialty
   selection.delete("session");
   selection.delete("resume");
   selection.sort();
-  return <QbankSessionClient key={selection.toString()} specialties={specialties} />;
+  return <><QbankReferenceToolbar /><QbankSessionClient key={selection.toString()} specialties={specialties} /></>;
 }
