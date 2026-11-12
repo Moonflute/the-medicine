@@ -4,9 +4,9 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import ts from 'typescript';
 
-const module = { exports: {} };
-vm.runInNewContext(ts.transpileModule(fs.readFileSync(new URL('../src/lib/qbank-reference.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText, { module, exports: module.exports, URL });
-const { referenceLocation, visitReference, moveReference, isQuestionReferenceRoute, qbankReferenceInitScript, QBANK_REFERENCE_FRAME } = module.exports;
+const compiledModule = { exports: {} };
+vm.runInNewContext(ts.transpileModule(fs.readFileSync(new URL('../src/lib/qbank-reference.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText, { module: compiledModule, exports: compiledModule.exports, URL });
+const { referenceLocation, visitReference, moveReference, isQuestionReferenceRoute, qbankReferenceInitScript, QBANK_REFERENCE_FRAME } = compiledModule.exports;
 const origin = 'https://moonflute.github.io';
 const base = '/the-medicine';
 const plain = value => JSON.parse(JSON.stringify(value));
