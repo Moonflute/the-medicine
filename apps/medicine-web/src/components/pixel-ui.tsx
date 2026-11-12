@@ -97,11 +97,23 @@ export function PixelQuestionWorkspace({ question, choices, response, actions, c
   mode: "study" | "mock"; sourceTitle: string; correct?: boolean | null;
 }) {
   const outcome = !submitted ? "idle" : correct === true ? "correct" : correct === false ? "wrong" : "ungraded";
-  const turnLabel = outcome === "correct" ? "정답!" : outcome === "wrong" ? "다시 도전" : submitted ? "TURN END" : "YOUR TURN";
+  const turnLabel = outcome === "correct" ? "정답! · CLEAR" : outcome === "wrong" ? "앗! 다시 도전" : submitted ? "TURN END" : "YOUR TURN";
+  const fighting = outcome === "correct" || outcome === "wrong";
   return <div className="pixel-battle skin-question-workspace" data-question-skin="pixel" data-submitted={submitted} data-outcome={outcome}>
     <div className="pixel-battle-scene">
       <div className="pixel-battle-hud"><span className="pixel-eyebrow">{mode === "mock" ? "MOCK BATTLE" : "QUESTION BATTLE"}</span><div><strong>ROUND {String(number).padStart(2, "0")}</strong><span>{number} / {total}</span></div><progress aria-label="현재 문제 위치" value={number} max={Math.max(total, number, 1)} /></div>
-      <div key={`${number}:${outcome}`} className="pixel-battle-party" aria-hidden="true"><PixelDancer name="medic" pose={outcome === "correct" ? "cheer" : outcome === "wrong" ? "hit" : outcome === "idle" ? "dance" : "still"} className="pixel-hero" /><span className="pixel-turn-label">{turnLabel}</span><PixelDancer name="slime" pose={outcome === "correct" ? "hit" : outcome === "wrong" ? "cheer" : outcome === "idle" ? "dance" : "still"} className="pixel-opponent" /></div>
+      <div key={`${mode}:${number}:${outcome}`} className="pixel-battle-party" aria-hidden="true">
+        <span className="pixel-battler pixel-battler--hero"><PixelDancer name="medic" pose={outcome === "correct" ? "cheer" : outcome === "wrong" ? "hit" : outcome === "idle" ? "dance" : "still"} className="pixel-hero" /></span>
+        <span className="pixel-battler pixel-battler--opponent"><PixelDancer name="slime" pose={outcome === "correct" ? "hit" : outcome === "wrong" ? "cheer" : outcome === "idle" ? "dance" : "still"} className="pixel-opponent" /></span>
+        {fighting ? <>
+          <span className="pixel-battle-shot" data-direction={outcome === "correct" ? "right" : "left"}><span className="pixel-projectile-flight"><span className="pixel-projectile" /></span></span>
+          <span className="pixel-battle-muzzle" data-side={outcome === "correct" ? "hero" : "opponent"} />
+          <span className="pixel-battle-impact" data-side={outcome === "correct" ? "opponent" : "hero"} />
+          <span className="pixel-battle-callout pixel-battle-callout--attack" data-side={outcome === "correct" ? "hero" : "opponent"}>{outcome === "correct" ? "뿅!" : "휙!"}</span>
+          <span className="pixel-battle-callout pixel-battle-callout--hit" data-side={outcome === "correct" ? "opponent" : "hero"}>꽥!</span>
+        </> : null}
+        <span className="pixel-turn-label">{turnLabel}</span>
+      </div>
     </div>
     <div className="pixel-battle-panels">
       <section className="pixel-dialogue pixel-question-dialogue" aria-label="문제"><div className="pixel-dialogue-heading"><strong>{sourceTitle}</strong><span className="pixel-question-copy">{copy}</span></div><div className="pixel-question-text">{question}</div>{hint ? <p className="pixel-question-hint">{hint}</p> : null}</section>

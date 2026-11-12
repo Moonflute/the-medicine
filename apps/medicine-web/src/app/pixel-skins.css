@@ -145,7 +145,7 @@ html[data-theme="pixel"] .rich-text-table { border-radius:0; border-color:var(--
 /* Battle: progress is the actual question position; no invented HP or scores. */
 html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; padding:0; box-shadow:none; }
 .pixel-battle { min-width:0; }
-.pixel-battle-scene { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:24px; position:relative; min-height:138px; margin:12px 0 18px; padding:20px 28px 24px; border:2px solid var(--pixel-ink); color:#fff9e7; background-color:var(--pixel-night); background-image:radial-gradient(#94ac8644 1px,transparent 1px); background-size:24px 24px; box-shadow:4px 4px 0 #a9b29b; }
+.pixel-battle-scene { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:center; gap:24px; position:relative; min-height:138px; margin:12px 0 18px; padding:20px 28px 24px; border:2px solid var(--pixel-ink); color:#fff9e7; background-color:var(--pixel-night); background-image:radial-gradient(#94ac8644 1px,transparent 1px); background-size:24px 24px; box-shadow:4px 4px 0 #a9b29b; }
 .pixel-battle-scene::after { content:""; position:absolute; inset:auto 0 0; height:8px; background:repeating-linear-gradient(90deg,#63866c 0 10px,#8caa80 10px 20px); border-top:3px solid #b4cb93; }
 .pixel-battle-hud { max-width:320px; }
 .pixel-battle-hud .pixel-eyebrow { color:#b9d2bc; }
@@ -156,23 +156,58 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battle-hud progress::-webkit-progress-bar { background:#152238; }
 .pixel-battle-hud progress::-webkit-progress-value { background:var(--pixel-mint); border-right:3px solid #c3f2cb; }
 .pixel-battle-hud progress::-moz-progress-bar { background:var(--pixel-mint); }
-.pixel-battle-party { position:relative; display:flex; justify-content:space-around; align-items:center; gap:12px; }
-.pixel-battle-party .pixel-sprite { --pixel-frame-size:64px; width:64px; height:64px; }
-.pixel-battle-party > .pixel-turn-label { min-width:10ch; color:var(--pixel-gold); font:10px/1.5 Consolas,monospace; text-align:center; letter-spacing:1px; }
+.pixel-battle-party { --pixel-battle-size:64px; --pixel-shot-color:var(--pixel-gold); position:relative; width:100%; max-width:300px; height:calc(var(--pixel-battle-size) + 30px); justify-self:center; overflow:hidden; contain:layout paint; pointer-events:none; }
+.pixel-battler { position:absolute; top:8px; width:var(--pixel-battle-size); height:var(--pixel-battle-size); z-index:1; }
+.pixel-battler--hero { left:0; transform-origin:50% 90%; }
+.pixel-battler--opponent { right:0; transform-origin:50% 90%; }
+.pixel-battle-party .pixel-sprite { --pixel-frame-size:var(--pixel-battle-size); display:block; width:var(--pixel-frame-size); height:var(--pixel-frame-size); }
+.pixel-battle-party > .pixel-turn-label { position:absolute; inset:auto 0 0; color:var(--pixel-gold); font:10px/1.5 Consolas,monospace; text-align:center; letter-spacing:.5px; }
 /* Native 32px cels: eight poses per row, dance / cheer / hit. Only pixels move. */
 .pixel-dancer { --pixel-frame-size:32px; background-size:800% 300%; background-position:0 0; background-repeat:no-repeat; contain:paint; }
 .pixel-dancer[data-pose="dance"] { animation:pixel-dance-cels 960ms steps(8,end) infinite; }
 .pixel-dancer[data-pose="cheer"] { background-position-y:calc(var(--pixel-frame-size) * -1); animation:pixel-result-cels 630ms steps(7,end) forwards; }
 .pixel-dancer[data-pose="hit"] { background-position-y:calc(var(--pixel-frame-size) * -2); animation:pixel-result-cels 630ms steps(7,end) forwards; }
-.pixel-battle[data-outcome="correct"] .pixel-battle-party::after { content:""; position:absolute; left:15%; top:20%; width:4px; height:4px; background:var(--pixel-gold); box-shadow:-16px 9px var(--pixel-mint),15px 3px var(--pixel-gold),7px -9px #fff9e7; pointer-events:none; opacity:0; animation:pixel-sparkle 700ms steps(4,end); }
+/* Attack at 180ms, impact at 540ms, then defeat/recovery. The reading layout stays fixed. */
+.pixel-battle-shot { position:absolute; left:calc(var(--pixel-battle-size) * .65); right:calc(var(--pixel-battle-size) * .5); top:calc(8px + var(--pixel-battle-size) * .56); height:6px; z-index:2; }
+.pixel-battle-shot[data-direction="left"] { transform:scaleX(-1); }
+.pixel-projectile-flight { position:absolute; inset:0; opacity:0; animation:pixel-shot-flight 360ms linear 180ms both; }
+.pixel-projectile { display:block; width:12px; height:6px; background:#fff9e7; box-shadow:-5px 0 var(--pixel-shot-color),-9px 1px 0 -1px var(--pixel-shot-color); }
+.pixel-battle-muzzle,.pixel-battle-impact { position:absolute; top:calc(8px + var(--pixel-battle-size) * .56); width:4px; height:4px; z-index:3; opacity:0; background:#fff9e7; }
+.pixel-battle-muzzle { left:calc(var(--pixel-battle-size) * .65); box-shadow:0 -6px var(--pixel-shot-color),0 6px var(--pixel-shot-color),6px 0 var(--pixel-shot-color); animation:pixel-muzzle-flash 200ms steps(3,end) 160ms both; }
+.pixel-battle-muzzle[data-side="opponent"] { left:auto; right:calc(var(--pixel-battle-size) * .5); }
+.pixel-battle-impact { right:calc(var(--pixel-battle-size) * .5); box-shadow:0 -10px var(--pixel-shot-color),0 10px var(--pixel-shot-color),-10px 0 var(--pixel-shot-color),10px 0 var(--pixel-shot-color),-6px -6px #fff9e7,6px 6px #fff9e7; animation:pixel-impact-burst 320ms steps(4,end) 540ms both; }
+.pixel-battle-impact[data-side="hero"] { right:auto; left:calc(var(--pixel-battle-size) * .5); }
+.pixel-battle-callout { position:absolute; top:0; width:var(--pixel-battle-size); z-index:4; color:var(--pixel-shot-color); font:700 11px/1.3 Consolas,monospace; text-align:center; text-shadow:1px 1px var(--pixel-night); opacity:0; }
+.pixel-battle-callout[data-side="hero"] { left:0; }
+.pixel-battle-callout[data-side="opponent"] { right:0; }
+.pixel-battle-callout--attack { animation:pixel-battle-callout 430ms steps(4,end) 160ms both; }
+.pixel-battle-callout--hit { animation:pixel-battle-callout 700ms steps(5,end) 540ms both; }
+.pixel-battle[data-outcome="idle"] .pixel-battler--opponent { animation:pixel-enemy-enter 480ms steps(8,end) both; }
+.pixel-battle[data-outcome="correct"] .pixel-battler--hero { animation:pixel-hero-fire 400ms steps(4,end) both; }
+.pixel-battle[data-outcome="correct"] .pixel-battler--opponent { animation:pixel-enemy-defeat 640ms steps(6,end) 540ms forwards; }
+.pixel-battle[data-outcome="correct"] .pixel-opponent { animation-delay:540ms; }
 .pixel-battle[data-outcome="correct"] .pixel-turn-label { color:var(--pixel-mint); }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party { --pixel-shot-color:#edb29a; }
+.pixel-battle[data-outcome="wrong"] .pixel-battler--opponent { animation:pixel-enemy-strike 400ms steps(4,end) both; }
+.pixel-battle[data-outcome="wrong"] .pixel-battler--hero { animation:pixel-hero-hurt 640ms steps(6,end) 540ms both; }
+.pixel-battle[data-outcome="wrong"] .pixel-hero { animation-delay:540ms; }
 .pixel-battle[data-outcome="wrong"] .pixel-turn-label { color:#edb29a; }
 .pixel-battle[data-outcome="wrong"] .pixel-battle-response { border-left-color:#ae7960; }
 @keyframes pixel-dance-cels { to { background-position-x:calc(var(--pixel-frame-size) * -8); } }
 @keyframes pixel-result-cels { to { background-position-x:calc(var(--pixel-frame-size) * -7); } }
-@keyframes pixel-sparkle { 0% { transform:translateY(0) scale(.5); opacity:0; } 25% { opacity:1; } 100% { transform:translateY(-15px) scale(1.2); opacity:0; } }
+@keyframes pixel-enemy-enter { 0% { transform:translateX(120%); } 75% { transform:translateX(-4px); } 100% { transform:translateX(0); } }
+@keyframes pixel-hero-fire { 0%,100% { transform:translateX(0); } 40% { transform:translateX(3px) rotate(-3deg); } 65% { transform:translateX(-4px); } }
+@keyframes pixel-enemy-strike { 0%,100% { transform:translateX(0); } 45% { transform:translateX(-10px) scale(1.08,.9); } }
+@keyframes pixel-shot-flight { 0% { transform:translateX(0); opacity:0; } 6% { opacity:1; } 94% { opacity:1; } 100% { transform:translateX(100%); opacity:0; } }
+@keyframes pixel-muzzle-flash { 0%,100% { opacity:0; } 25%,65% { opacity:1; } }
+@keyframes pixel-impact-burst { 0% { transform:scale(.5); opacity:0; } 25% { opacity:1; } 100% { transform:scale(1.5); opacity:0; } }
+@keyframes pixel-enemy-defeat { 0% { transform:translateX(0); opacity:1; } 20% { transform:translate(6px,-3px); opacity:.6; } 40% { transform:translate(-3px,0); opacity:1; } 65% { transform:translate(10px,4px) scale(1.2,.65); opacity:.7; } 100% { transform:translate(16px,12px) scale(1.4,.15); opacity:0; } }
+@keyframes pixel-hero-hurt { 0%,100% { transform:translateX(0); opacity:1; } 20% { transform:translate(-6px,-2px) rotate(-7deg); opacity:.5; } 45% { transform:translateX(3px) rotate(4deg); opacity:1; } 70% { transform:translateX(-2px); opacity:.7; } }
+@keyframes pixel-battle-callout { 0% { transform:translateY(4px); opacity:0; } 20%,65% { opacity:1; } 100% { transform:translateY(-4px); opacity:0; } }
 @media(prefers-reduced-motion:reduce) {
-  .pixel-title-party .pixel-sprite,.pixel-battle-party .pixel-sprite,.pixel-battle-party::after { animation:none !important; }
+  .pixel-title-party .pixel-sprite,.pixel-battle-party * { animation:none !important; }
+  .pixel-battle-shot,.pixel-battle-muzzle,.pixel-battle-impact,.pixel-battle-callout { display:none; }
+  .pixel-battle[data-outcome="correct"] .pixel-battler--opponent { opacity:.25; }
   .pixel-dancer[data-pose="cheer"],.pixel-dancer[data-pose="hit"] { background-position-x:calc(var(--pixel-frame-size) * -7); }
 }
 .pixel-battle-panels { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:16px; align-items:start; }
@@ -296,9 +331,8 @@ html[data-theme="pixel"] .review-launcher-details { padding:12px; border-top:1px
   .pixel-battle-hud .pixel-eyebrow { font-size:8px; letter-spacing:.5px; }
   .pixel-battle-hud strong { font-size:14px; letter-spacing:0; }
   .pixel-battle-hud > div > span { font-size:10px; }
-  .pixel-battle-party { gap:4px; flex-wrap:wrap; }
-  .pixel-battle-party .pixel-sprite { --pixel-frame-size:48px; width:48px; height:48px; }
-  .pixel-battle-party > .pixel-turn-label { order:3; flex-basis:100%; font-size:8px; }
+  .pixel-battle-party { --pixel-battle-size:48px; }
+  .pixel-battle-party > .pixel-turn-label { font-size:8px; }
   .pixel-battle-panels { grid-template-columns:minmax(0,1fr); gap:12px; }
   .pixel-question-text { padding:13px; font-size:13px; line-height:1.8; }
   .pixel-dialogue-heading { margin-inline:12px; padding:8px 0; }
