@@ -15,7 +15,7 @@ import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
 import { SkinQuestionWorkspace, SkinQuestionChoices, SkinQuestionAction, SkinQuestionReferences } from "@/components/skin-question";
 import { DocumentToolbar } from "@/components/document-toolbar";
-import { SkinDocumentNotice } from "@/components/skin-document";
+import { QbankReferenceToolbar } from "@/components/qbank-reference-workspace";
 import { ChatOptionalTools } from "@/components/chat-room";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { QbankSessionClock } from "@/components/qbank-session-clock";
@@ -872,11 +872,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }
 
   return (
-    <div className="space-y-5">
+    <div className="qbank-session-player space-y-5">
       <div className="qbank-session-progress flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-600">
         <Link href="/review/qbank" className="inline-flex items-center gap-1 hover:text-teal-700"><ArrowLeft className="h-4 w-4" />나가기</Link>
         <div className="qbank-session-progress-track h-2 min-w-28 flex-1 max-w-md overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
         <span className="qbank-session-position tabular-nums whitespace-nowrap">{currentIndex + 1} / {questions.length}</span>
+        <ChatOptionalTools><QbankReferenceToolbar /></ChatOptionalTools>
         <QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={showQuestion} onReview={reviewSkipped} onShowAll={showAll} hideInChat />
         {questions.some(question => question.questionBank === "practice") && <ChatOptionalTools><div className="ml-auto flex flex-wrap items-center gap-2" aria-label="문제 번호 이동">
           <label className="sr-only" htmlFor="qbank-question-select">문제 선택</label>
@@ -913,17 +914,15 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       </section>}
 
       <ChatSenderProvider name={practiceQuestionLabel(current)}><article data-highlight-document={`qbank:${current.id}`} className="skin-q-article surface p-5 sm:p-7">
-        <DocumentToolbar title={`${currentIndex + 1}번 · ${practiceQuestionLabel(current)}`} className="document-toolbar--inset"><QbankEditButton question={current} onSaved={payload => setQuestions(previous => previous.map(item => item.id === payload.id ? { ...item, ...payload } : item))} /><details className="relative"><summary className="secondary-action h-9 w-9 cursor-pointer list-none !px-0" aria-label="문제 ID 보기" title="문제 ID 보기"><Info className="h-4 w-4" /></summary><div className="absolute right-0 z-20 mt-2 w-64 rounded-lg border border-slate-200 bg-white p-3 shadow-lg"><p className="text-xs font-medium text-slate-500">문제 ID</p><div className="mt-1.5 flex items-center gap-2"><code className="min-w-0 flex-1 truncate rounded bg-slate-100 px-2 py-1.5 text-xs text-slate-700">{current.id}</code><button type="button" onClick={() => void navigator.clipboard?.writeText(current.id)} className="secondary-action h-8 w-8 shrink-0 !px-0" aria-label="문제 ID 복사" title="문제 ID 복사"><Copy className="h-3.5 w-3.5" /></button></div></div></details><button type="button" onClick={toggleBookmark} className="secondary-action h-9 w-9 !px-0" aria-label={bookmarked ? "북마크 해제" : "북마크 저장"} aria-pressed={bookmarked} title={bookmarked ? "북마크 해제" : "북마크 저장"}>
+        <DocumentToolbar title={`${currentIndex + 1}번 · ${practiceQuestionLabel(current)}`} className="document-toolbar--inset" metadata={<><span>{current.questionType}</span><span>{questionProgress ? `풀이 ${questionProgress.attempts}회 · 정답 ${questionProgress.correctAttempts}회${questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}` : "첫 풀이"}</span>{roundClock && <span className="qbank-toolbar-timer">남은 시간 <QbankSessionClock roundClock={roundClock} isRunning={isRoundClockRunning} onExpire={finish} /></span>}</>}><QbankEditButton question={current} onSaved={payload => setQuestions(previous => previous.map(item => item.id === payload.id ? { ...item, ...payload } : item))} /><details className="relative"><summary className="secondary-action h-9 w-9 cursor-pointer list-none !px-0" aria-label="문제 ID 보기" title="문제 ID 보기"><Info className="h-4 w-4" /></summary><div className="absolute right-0 z-20 mt-2 w-64 rounded-lg border border-slate-200 bg-white p-3 shadow-lg"><p className="text-xs font-medium text-slate-500">문제 ID</p><div className="mt-1.5 flex items-center gap-2"><code className="min-w-0 flex-1 truncate rounded bg-slate-100 px-2 py-1.5 text-xs text-slate-700">{current.id}</code><button type="button" onClick={() => void navigator.clipboard?.writeText(current.id)} className="secondary-action h-8 w-8 shrink-0 !px-0" aria-label="문제 ID 복사" title="문제 ID 복사"><Copy className="h-3.5 w-3.5" /></button></div></div></details><button type="button" onClick={toggleBookmark} className="secondary-action h-9 w-9 !px-0" aria-label={bookmarked ? "북마크 해제" : "북마크 저장"} aria-pressed={bookmarked} title={bookmarked ? "북마크 해제" : "북마크 저장"}>
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}
           </button>
         </DocumentToolbar>
-        {roundClock && <div className="mt-2 flex justify-end"><span className="pill">남은 시간 <QbankSessionClock roundClock={roundClock} isRunning={isRoundClockRunning} onExpire={finish} /></span></div>}
-        <SkinDocumentNotice title={`${practiceQuestionLabel(current)} · ${current.questionType}`}><span className="pill">{practiceQuestionLabel(current)}</span><span className="pill">{current.questionType}</span>{questionProgress ? <span className="text-xs tabular-nums text-slate-500">풀이 {questionProgress.attempts}회 · 정답 {questionProgress.correctAttempts}회{questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}</span> : <span className="text-xs text-slate-500">첫 풀이</span>}</SkinDocumentNotice>
         <SkinQuestionWorkspace sourceTitle={practiceQuestionLabel(current)} number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length} correct={submitted ? gradeQuestion(current, selected) : null}
           progressTools={<QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={showQuestion} onReview={reviewSkipped} onShowAll={showAll} chatOnly />}
           hint={selectionHint(current)}
           answerText={displayedOptions.filter(key => selectedAnswers(selected).includes(key)).map(key => `${OPTION_LABELS[displayedOptions.indexOf(key)]}. ${current.options[key] ?? ""}`).join("\n")}
-          question={        <div className={current.figures?.length ? "mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}>
+          question={        <div className={`qbank-question-content ${current.figures?.length ? "grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(21rem,0.9fr)] lg:items-start" : ""}`}>
           <div>
             <p data-highlight-block="question" className={`${current.figures?.length ? "" : "mt-6 "}whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base`}>{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
           </div>

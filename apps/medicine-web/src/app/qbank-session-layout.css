@@ -1,0 +1,67 @@
+/* Keep session navigation and reference access on the same line. */
+.qbank-session-player > .qbank-session-progress { min-height:34px; gap:6px 12px; margin-block-end:10px; }
+.qbank-session-progress > a { flex-shrink:0; white-space:nowrap; }
+.qbank-session-progress > .qbank-reference-toolbar { flex-shrink:0; order:1; margin:0 0 0 auto; }
+.qbank-session-progress > :is(.qbank-skipped-navigation,[aria-label="문제 번호 이동"]) { order:2; }
+.qbank-session-progress-track { min-width:40px; }
+.chat-attachment-actions .qbank-reference-toolbar { margin:0; }
+.chat-attachment-actions .qbank-reference-toolbar button { width:auto; min-height:36px; }
+.chat-tools-grid .qbank-reference-toolbar { display:contents; }
+.chat-tools-grid .qbank-reference-toolbar > button { display:flex; flex-direction:column; justify-content:center; gap:9px; width:100%; min-width:0; height:79px; padding:10px 3px; border:0; border-radius:12px; background:var(--surface-subtle); color:var(--chat-text); font-size:11px; }
+.chat-tools-grid .qbank-reference-toolbar > button > svg { width:22px; height:22px; }
+
+/* Question type, attempts and the clock belong to the existing tool strip. */
+.skin-q-article [data-question-toolbar] { min-width:0; }
+.skin-q-article [data-question-toolbar] .document-toolbar-title { flex:1; min-width:0; overflow:visible; white-space:normal; }
+.skin-q-article [data-question-toolbar] .document-toolbar-title > .qbank-toolbar-label { display:flex; flex-direction:column; gap:2px; min-width:0; overflow:visible; white-space:normal; }
+.qbank-toolbar-name { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.qbank-toolbar-metadata { display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 8px; min-width:0; color:var(--muted); font-size:11px; font-weight:400; line-height:1.45; white-space:normal; overflow-wrap:anywhere; }
+.qbank-toolbar-metadata > span + span::before { content:"·"; margin-right:6px; }
+.qbank-toolbar-metadata > .qbank-toolbar-timer { color:var(--foreground); white-space:nowrap; font-variant-numeric:tabular-nums; }
+.skin-q-article .concept-document-toolbar-title > .qbank-toolbar-metadata { flex-shrink:1; }
+.skin-q-article .sheet-document-ribbon > .qbank-toolbar-metadata { flex:1; }
+.qbank-chat-notice { display:flex; align-items:baseline; gap:8px; padding:7px 10px; margin:0 0 6px; border-radius:4px; background:var(--chat-received); color:var(--chat-meta); }
+.qbank-chat-notice .qbank-toolbar-metadata { color:var(--chat-meta); font-size:11px; }
+.skin-q-article .qbank-question-content [data-highlight-block="question"] { margin-top:0; }
+.skin-q-article > .qbank-question-content { margin-top:14px; }
+
+/* Keep the mock exam identity and its existing actions in a compact header. */
+#qbank-mock-overview { margin:0 0 10px; padding:8px 0; border:0; border-bottom:1px solid var(--line); border-radius:0; background:transparent; box-shadow:none; }
+#qbank-mock-overview > .skin-panel-heading { display:none; }
+#qbank-mock-overview > .skin-panel-content { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:8px 12px; padding:0; }
+#qbank-mock-overview h1 { margin-top:2px; font-size:16px; }
+.qbank-mock-actions { align-items:center; }
+.qbank-mock-actions .qbank-reference-toolbar { margin:0; }
+.qbank-mock-actions :is(.primary-action,.secondary-action) { min-height:32px; padding:5px 8px; font-size:12px; }
+
+/* Preserve each skin's visual language while removing empty space above prose. */
+html[data-theme="pixel"] .skin-q-article [data-question-toolbar] { min-height:46px; padding-block:5px; }
+html[data-theme="notebook"] .skin-q-article > .notebook-document-toolbar[data-question-toolbar] { flex:1 1 100%; width:100%; }
+html[data-theme="notebook"] .skin-q-article > .notebook-document-toolbar[data-question-toolbar] .document-toolbar-title { display:flex; }
+html[data-theme="notebook"] .skin-q-article [data-question-toolbar] :is(.qbank-toolbar-name,.document-toolbar-title > svg) { display:none; }
+html[data-theme="notebook"] .skin-q-article .notebook-question-paper { padding-top:6px; }
+html[data-theme="notebook"] .skin-q-article .notebook-question-heading { padding-bottom:8px; }
+html[data-theme="notebook"] .skin-q-article .notebook-question-text { padding-top:14px; }
+.skin-question-console { padding-top:6px; }
+.skin-question-console > .skin-command-line:first-of-type { margin:8px 0 6px; }
+.concept-question-mail .concept-mail-question-subject > span { padding-top:6px; }
+.concept-mail-question-subject h2 { padding-top:3px; font-size:16px; }
+.concept-mail-question-subject .concept-mail-sender { padding-top:8px; }
+.concept-mail-question-body { padding-block:10px; }
+.concept-question-social > .concept-post-profile { padding-block:8px; }
+.concept-question-slide { padding:16px 14px; }
+.concept-question-slide [data-highlight-block="question"] { margin-top:8px; }
+.concept-question-file { padding-block:7px; }
+.concept-question-source { padding-top:9px; }
+.concept-code-question { margin-top:7px; }
+
+@media (max-width:699px) {
+  .qbank-session-progress-track { display:none; }
+  .skin-q-article [data-question-toolbar] .document-toolbar-actions { gap:4px; }
+  .skin-q-article [data-question-toolbar] .document-toolbar-actions > :is(a[aria-label],button[aria-label]),
+  .skin-q-article [data-question-toolbar] .document-toolbar-actions > details > summary[aria-label],
+  .skin-q-article [data-question-toolbar] [data-highlighter-slot] button { width:32px; min-width:32px; height:32px; min-height:32px; padding:0; }
+  html[data-theme="pixel"] .skin-q-article [data-question-toolbar] .document-toolbar-title > .pixel-sprite { display:none; }
+  .skin-q-article [data-question-toolbar] .qbank-toolbar-metadata { font-size:10px; gap:2px 5px; }
+  html[data-theme="notebook"] .skin-q-article .notebook-question-text { padding-top:10px; }
+}

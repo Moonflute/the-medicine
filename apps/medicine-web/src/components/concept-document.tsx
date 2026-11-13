@@ -20,10 +20,10 @@ export function ConceptProfile({ name, detail, children }: { name: string; detai
   return <div className="concept-post-profile"><span className="concept-profile-avatar" aria-hidden="true">{name.replace(/^\d+\s*/, "").slice(0, 2) || "M"}</span><span><strong>{name}</strong><small>{detail}</small></span>{children}</div>;
 }
 
-export function ConceptDocumentToolbar({ theme, title, children, className }: { theme: ConceptTheme; title: string; children: ReactNode; className: string }) {
+export function ConceptDocumentToolbar({ theme, title, children, metadata, className }: { theme: ConceptTheme; title: string; children: ReactNode; metadata?: ReactNode; className: string }) {
   const [expanded, setExpanded] = useState(false);
-  return <div data-document-toolbar data-highlight-ignore className={`document-toolbar concept-document-toolbar concept-document-toolbar--${theme} ${className}`} data-tools-open={expanded}>
-    <div className="concept-document-toolbar-title">{theme === "mail" ? <Mail size={16} /> : theme === "social" ? <FileText size={15} /> : <Code2 size={15} />}<span>{theme === "mail" ? "메일 읽기" : theme === "social" ? "자료 게시물" : "Markdown"}</span><small title={title}>{title}</small></div>
+  return <div data-document-toolbar data-highlight-ignore data-question-toolbar={metadata ? true : undefined} className={`document-toolbar concept-document-toolbar concept-document-toolbar--${theme} ${className}`} data-tools-open={expanded}>
+    <div className="concept-document-toolbar-title">{theme === "mail" ? <Mail size={16} /> : theme === "social" ? <FileText size={15} /> : <Code2 size={15} />}{metadata ? <span className="qbank-toolbar-metadata">{metadata}</span> : <><span>{theme === "mail" ? "메일 읽기" : theme === "social" ? "자료 게시물" : "Markdown"}</span><small title={title}>{title}</small></>}</div>
     <button type="button" className="concept-document-tools-toggle" aria-label="문서 도구" aria-expanded={expanded} onClick={() => setExpanded(value => !value)}>{theme === "social" ? <MoreHorizontal size={23} /> : <><span>도구</span><ChevronDown size={15} /></>}</button>
     <div className="document-toolbar-actions concept-document-tools" role="group" aria-label="문서 도구" hidden={!expanded}><span data-highlighter-slot className="inline-flex shrink-0" />{children}</div>
   </div>;

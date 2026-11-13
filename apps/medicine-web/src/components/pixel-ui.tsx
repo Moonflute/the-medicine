@@ -101,7 +101,7 @@ export function PixelQuestionWorkspace({ question, choices, response, actions, c
   const fighting = outcome === "correct" || outcome === "wrong";
   return <div className="pixel-battle skin-question-workspace" data-question-skin="pixel" data-submitted={submitted} data-outcome={outcome}>
     <div className="pixel-battle-scene">
-      <div className="pixel-battle-hud"><span className="pixel-eyebrow">{mode === "mock" ? "MOCK BATTLE" : "QUESTION BATTLE"}</span><div><strong>ROUND {String(number).padStart(2, "0")}</strong><span>{number} / {total}</span></div><progress aria-label="현재 문제 위치" value={number} max={Math.max(total, number, 1)} /></div>
+      <div className="pixel-battle-hud"><p className="pixel-battle-caption"><span className="pixel-eyebrow">{mode === "mock" ? "MOCK BATTLE" : "QUESTION BATTLE"}</span><span className="pixel-turn-label">{turnLabel}</span></p><div><strong>ROUND {String(number).padStart(2, "0")}</strong><span>{number} / {total}</span></div><progress aria-label="현재 문제 위치" value={number} max={Math.max(total, number, 1)} /></div>
       <div key={`${mode}:${number}:${outcome}`} className="pixel-battle-party" aria-hidden="true">
         <span className="pixel-battler pixel-battler--hero"><PixelDancer name="medic" pose={outcome === "correct" ? "cheer" : outcome === "wrong" ? "hit" : outcome === "idle" ? "dance" : "still"} className="pixel-hero" /></span>
         <span className="pixel-battler pixel-battler--opponent"><PixelDancer name="slime" pose={outcome === "correct" ? "hit" : outcome === "wrong" ? "cheer" : outcome === "idle" ? "dance" : "still"} className="pixel-opponent" /></span>
@@ -112,7 +112,6 @@ export function PixelQuestionWorkspace({ question, choices, response, actions, c
           <span className="pixel-battle-callout pixel-battle-callout--attack" data-side={outcome === "correct" ? "hero" : "opponent"}>{outcome === "correct" ? "뿅!" : "휙!"}</span>
           <span className="pixel-battle-callout pixel-battle-callout--hit" data-side={outcome === "correct" ? "opponent" : "hero"}>꽥!</span>
         </> : null}
-        <span className="pixel-turn-label">{turnLabel}</span>
       </div>
     </div>
     <div className="pixel-battle-panels">

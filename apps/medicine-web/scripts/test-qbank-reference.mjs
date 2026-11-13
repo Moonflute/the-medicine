@@ -83,7 +83,7 @@ test('split controls leave the question player mounted and keep its key independ
   const route = fs.readFileSync(new URL('../src/components/qbank-session-route.tsx', import.meta.url), 'utf8');
   const workspace = fs.readFileSync(new URL('../src/components/qbank-reference-workspace.tsx', import.meta.url), 'utf8');
   const css = fs.readFileSync(new URL('../src/app/qbank-reference.css', import.meta.url), 'utf8');
-  assert.match(route, /<QbankReferenceToolbar \/><QbankSessionClient key=\{selection\.toString\(\)\}/);
+  assert.match(route, /<QbankSessionClient key=\{selection\.toString\(\)\}/);
   assert.match(workspace, /className="qbank-primary-pane"[^>]+>\{children\}<\/div>/);
   assert.doesNotMatch(workspace, /history\.(back|forward|go)\(/);
   assert.match(workspace, /event\.source !== frame\.current\?\.contentWindow/);

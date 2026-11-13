@@ -112,7 +112,7 @@ function subscribeCompact(callback: () => void) {
 const compactSnapshot = () => window.matchMedia("(max-width:639px)").matches;
 const serverSnapshot = () => false;
 
-export function SheetDocumentToolbar({ children, className }: { children: ReactNode; className: string }) {
+export function SheetDocumentToolbar({ children, metadata, className }: { children: ReactNode; metadata?: ReactNode; className: string }) {
   const bar = useRef<HTMLDivElement>(null);
   const id = useId();
   const compact = useSyncExternalStore(subscribeCompact, compactSnapshot, serverSnapshot);
@@ -130,10 +130,11 @@ export function SheetDocumentToolbar({ children, className }: { children: ReactN
     resize.observe(element);
     return () => { resize.disconnect(); root.style.removeProperty("--sheet-ribbon-height"); document.documentElement.style.removeProperty("--sheet-ribbon-height"); };
   }, []);
-  return <div ref={bar} data-document-toolbar data-highlight-ignore className={`sheet-document-ribbon ${className}`}>
+  return <div ref={bar} data-document-toolbar data-highlight-ignore data-question-toolbar={metadata ? true : undefined} className={`sheet-document-ribbon ${className}`}>
     <button type="button" className="sheet-ribbon-toggle" aria-label="문서 도구" aria-expanded={expanded} aria-controls={id} onClick={() => setExpandedOverride(!expanded)}>검토<span aria-hidden="true">{expanded ? "⌃" : "⌄"}</span></button>
+    {metadata ? <span className="qbank-toolbar-metadata">{metadata}</span> : null}
     <div id={id} className="document-toolbar-actions sheet-ribbon-actions" role="group" aria-label="문서 도구" hidden={!expanded}>{children}</div>
-    <span className="sheet-ribbon-mode">읽기</span>
+    {!metadata && <span className="sheet-ribbon-mode">읽기</span>}
   </div>;
 }
 
