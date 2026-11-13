@@ -10,6 +10,7 @@ import { SkinStatus } from "@/components/skin-status";
 import { correctAnswers, gradeQuestion, selectedAnswers, selectionHint, toggleSelection } from "@/lib/qbank-grading";
 import { remainingQuestions, restoreQbankQuestionOrder, sessionWrongIds } from "@/lib/qbank-session-results";
 import { resolveQbankSessionCount } from "@/lib/qbank-question-count";
+import { hasTheorySelection } from "@/lib/qbank-theory-selection";
 import { SessionRetryActions } from "./session-retry-actions";
 import Link from "next/link";
 import { SkinQuestionWorkspace, SkinQuestionChoices, SkinQuestionAction, SkinQuestionReferences } from "@/components/skin-question";
@@ -97,15 +98,6 @@ async function fetchJson<T>(path: string): Promise<T> {
   const response = await fetch(path);
   if (!response.ok) throw new Error(`문제 데이터를 불러오지 못했습니다 (${response.status}).`);
   return response.json() as Promise<T>;
-}
-
-function theorySelectionKey(item: Pick<QbankQuestionIndex, "targetType" | "specialtySlug">): string {
-  const sourceType = item.targetType === "disease" || item.targetType === "cc" || item.targetType === "drug" ? item.targetType : "other";
-  return `${sourceType}:${item.specialtySlug}`;
-}
-
-function hasTheorySelection(selections: Set<string>, item: QbankQuestionIndex): boolean {
-  return selections.has(theorySelectionKey(item)) || selections.has(item.specialtySlug);
 }
 
 function theoryTargetHref(question: QbankQuestion): string | null {

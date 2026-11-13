@@ -19,10 +19,10 @@ import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, lo
 import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
 import { OWNER_KEY } from "@/lib/learning-sync-outbox";
 import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
+import { normalizeTheorySelections, theorySelectionKey, theorySourceType, type TheorySourceType } from "@/lib/qbank-theory-selection";
 
 type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string; scopeSlugs?: string[] };
 type SpecialtyChoice = QbankSpecialtySummary;
-type TheorySourceType = "disease" | "cc" | "drug" | "other";
 
 function initialActiveSessions() {
   return loadLocalActiveQbankSessions().filter((session) => !session.mockExam?.finishedAt);
@@ -63,7 +63,7 @@ function activeSessionDescription(
 }
 
 const THEORY_SOURCE_GROUPS: Array<{ type: TheorySourceType; title: string; description: string }> = [
-  { type: "disease", title: "질병 이론", description: "질병 문서에서 만든 핵심 개념 문제" },
+  { type: "disease", title: "질병 이론", description: "분과별 질병·검사·처치 핵심 개념 문제" },
   { type: "cc", title: "CC 이론", description: "주호소·증상 접근 문제" },
   { type: "drug", title: "약물 이론", description: "약물 문서에서 만든 핵심 개념 문제" },
   { type: "other", title: "기타 이론", description: "분류되지 않은 이론 문제" },
@@ -78,15 +78,6 @@ const SPECIALTY_SELECTION_GROUPS = [
 function specialtyNumber(name: string) {
   const number = Number(name.match(/^\s*(\d{1,2})\b/)?.[1]);
   return Number.isFinite(number) ? number : null;
-}
-
-function theorySourceType(question: QbankQuestionIndex): TheorySourceType {
-  return question.targetType === "disease" || question.targetType === "cc" || question.targetType === "drug" ? question.targetType : "other";
-}
-
-function theorySelectionKey(question: Pick<QbankQuestionIndex, "targetType" | "specialtySlug">) {
-  const sourceType = question.targetType === "disease" || question.targetType === "cc" || question.targetType === "drug" ? question.targetType : "other";
-  return `${sourceType}:${question.specialtySlug}`;
 }
 
 function specialtyChoices(questions: QbankQuestionIndex[], questionBank: "theory" | "clinical", theorySource?: TheorySourceType): SpecialtyChoice[] {
@@ -162,7 +153,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [practiceFilters, setPracticeFilters] = useState<PracticeFilters>(EMPTY_PRACTICE_FILTERS);
   const [loadedDraft, setLoadedDraft] = useState("");
   const draftKey = `medicine-qbank-picker-v2:${relatedTarget ? `${relatedTarget.type}:${relatedTarget.slug}` : "all"}`;
-  const [selectedTheory, setSelectedTheory] = useState<string[]>([]);
+  const [theorySelections, setSelectedTheory] = useState<string[]>([]);
+  const selectedTheory = useMemo(() => normalizeTheorySelections(theorySelections, availableQuestions), [theorySelections, availableQuestions]);
   const [selectedClinical, setSelectedClinical] = useState<string[]>([]);
   const [count, setCount] = useState("10");
   const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);

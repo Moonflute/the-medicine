@@ -97,3 +97,18 @@ test('split controls leave the question player mounted and keep its key independ
   assert.match(workspace, /anchor\.closest\("\[data-qbank-reference-links\]"\)/);
   assert.match(workspace, /sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"/);
 });
+
+test('mobile split shows two independently scrollable panes instead of switching screens', () => {
+  const workspace = fs.readFileSync(new URL('../src/components/qbank-reference-workspace.tsx', import.meta.url), 'utf8');
+  const css = fs.readFileSync(new URL('../src/app/qbank-reference.css', import.meta.url), 'utf8');
+  const mobile = css.slice(css.indexOf('@media screen and (max-width:1023px)'), css.indexOf('@media print'));
+  assert.doesNotMatch(workspace, /mobileTab|inert=|qbank-reference-mobile-tabs/);
+  assert.match(workspace, /className="qbank-reference-pane"[^>]+hidden=\{!open\}/);
+  assert.match(workspace, /className="qbank-primary-pane"[^>]+tabIndex=\{open \? 0 : undefined\}/);
+  assert.match(mobile, /grid-template-rows:repeat\(2,minmax\(0,1fr\)\)/);
+  assert.match(mobile, /\.qbank-primary-pane\s*\{[^}]*overflow:auto; overscroll-behavior:contain/);
+  assert.match(mobile, /\.qbank-reference-pane\s*\{[^}]*position:relative;[^}]*height:auto; min-height:0/);
+  assert.match(mobile, /\.chat-room-composer\s*\{[^}]*bottom:var\(--qbank-mobile-pane-height\)/);
+  assert.match(mobile, /\.app-bottom-nav:not\(\.sheet-document-tabs\)/);
+  assert.match(css, /@media \(min-width:1024px\)\s*\{\s*\.qbank-workspace\[data-split="true"\] > \.qbank-primary-pane \{ width:50%; \}/);
+});

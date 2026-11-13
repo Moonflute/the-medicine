@@ -2,7 +2,8 @@
 
 import { SkinPanel } from "@/components/skin-panel";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { studyDateKey } from "@/lib/study-date";
 import { activityCalendar as calendarFor, activityStreak as streak, type RangeKey, type DayCell } from "@/lib/study-calendar";
 import { Activity } from "lucide-react";
@@ -45,8 +46,53 @@ function monthOutlines(days: DayCell[], pitch: number, cell: number, offset: num
 
 function CalendarSvg({ range, activity, today, year }: { range: RangeKey; activity: Record<string, QbankDailyActivity>; today: string; year: number }) {
   const calendar = useMemo(() => calendarFor(range, new Date(`${today}T00:00:00+09:00`), year), [range, today, year]);
-  const [hoveredKey, setHoveredKey] = useState<string | null>(null);
-  const [pinnedKey, setPinnedKey] = useState<string | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const tooltipId = useId();
+  const [selection, setSelection] = useState<{
+    key: string;
+    pinned: boolean;
+    left: number;
+    width: number;
+    anchorOffset: number;
+    above: boolean;
+    top?: number;
+    bottom?: number;
+  } | null>(null);
+  useEffect(() => {
+    const dismiss = () => setSelection(null);
+    const onPointerDown = (event: PointerEvent) => {
+      if (event.target instanceof Node && !containerRef.current?.contains(event.target)) dismiss();
+    };
+    const onKeyDown = (event: KeyboardEvent) => { if (event.key === "Escape") dismiss(); };
+    window.addEventListener("scroll", dismiss, true);
+    window.addEventListener("resize", dismiss);
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("scroll", dismiss, true);
+      window.removeEventListener("resize", dismiss);
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, []);
+  const showDay = (key: string, element: SVGRectElement, togglePin = false) => {
+    const bounds = element.getBoundingClientRect();
+    const viewportWidth = document.documentElement.clientWidth;
+    const tooltipWidth = Math.min(208, viewportWidth - 16);
+    const anchor = bounds.left + bounds.width / 2;
+    const left = Math.max(8, Math.min(anchor - tooltipWidth / 2, viewportWidth - tooltipWidth - 8));
+    const above = bounds.top >= 100;
+    setSelection(current => togglePin && current?.key === key && current.pinned ? null : {
+      key,
+      pinned: togglePin || (current?.key === key && current.pinned),
+      left,
+      width: tooltipWidth,
+      anchorOffset: Math.max(8, Math.min(anchor - left, tooltipWidth - 8)),
+      above,
+      top: above ? undefined : bounds.bottom + 8,
+      bottom: above ? window.innerHeight - bounds.top + 8 : undefined,
+    });
+  };
   const cell = range === "week" ? 25 : range === "month" ? 16 : 10;
   const gap = range === "week" ? 5 : range === "month" ? 4 : 3;
   const pitch = cell + gap;
@@ -57,26 +103,38 @@ function CalendarSvg({ range, activity, today, year }: { range: RangeKey; activi
   const height = top + rows * pitch - gap;
   const outlines = range === "year" ? monthOutlines(calendar.days, pitch, cell, top) : [];
   const weekdayLabels = ["\uc77c", "\uc6d4", "\ud654", "\uc218", "\ubaa9", "\uae08", "\ud1a0"];
-  const selectedKey = pinnedKey ?? hoveredKey;
+  const selectedKey = selection?.key;
   const selectedDay = selectedKey ? calendar.days.find((day) => day.key === selectedKey && day.inRange && !day.future) : undefined;
   const selectedValue = selectedDay ? (activity[selectedDay.key] ?? { attempts: 0, correct: 0 }) : undefined;
   const selectedWrong = selectedValue ? Math.max(0, selectedValue.attempts - selectedValue.correct) : 0;
-  return <div className="overflow-x-auto pb-2"><svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} role="img" aria-label={`${calendar.title} \ub0a0\uc9dc\ubcc4 \ubb38\uc81c\ud480\uc774 \ud65c\ub3d9`} className="block min-w-max">
+  return <div ref={containerRef} className="overflow-x-auto pb-2"><svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} role="group" aria-label={`${calendar.title} \ub0a0\uc9dc\ubcc4 \ubb38\uc81c\ud480\uc774 \ud65c\ub3d9`} className="block min-w-max">
     {outlines.map((month) => <g key={month.key}><text x={month.x} y={11} fill="#64748b" fontSize={10}>{month.label}</text><path d={month.path} fill="none" stroke="#94a3b8" strokeWidth={0.8} strokeLinejoin="miter" vectorEffect="non-scaling-stroke" /></g>)}
     {range !== "year" ? weekdayLabels.map((label, index) => <text key={label} x={index * pitch + cell / 2} y={11} textAnchor="middle" fill={index === 0 ? "#e11d48" : index === 6 ? "#2563eb" : "#64748b"} fontSize={10}>{label}</text>) : null}
     {calendar.days.map((day) => {
       const value = activity[day.key] ?? { attempts: 0, correct: 0 };
       const hidden = !day.inRange || day.future;
-      return <rect key={day.key} x={day.col * pitch} y={top + day.row * pitch} width={cell} height={cell} rx={2} fill={hidden ? "transparent" : fill(value.attempts)} aria-label={hidden ? undefined : `${day.key}, ${value.attempts}\ubb38\ud56d`}>
-        {hidden ? null : <title>{`${day.key} · ${value.attempts}\ubb38\ud56d · \uc815\ub2f5 ${value.correct}\uac1c`}</title>}
-      </rect>;
+      return <rect key={day.key} x={day.col * pitch} y={top + day.row * pitch} width={cell} height={cell} rx={2} fill={hidden ? "transparent" : fill(value.attempts)} aria-hidden="true" />;
     })}
     {calendar.days.map((day) => {
       const hidden = !day.inRange || day.future;
-      return hidden ? null : <rect key={`hit-${day.key}`} x={day.col * pitch} y={top + day.row * pitch} width={cell} height={cell} fill="transparent" tabIndex={0} role="button" aria-label={`${day.key} 상세 보기`} className="cursor-pointer outline-none" onMouseEnter={() => setHoveredKey(day.key)} onMouseLeave={() => setHoveredKey(null)} onFocus={() => setHoveredKey(day.key)} onBlur={() => setHoveredKey(null)} onClick={() => setPinnedKey((current) => current === day.key ? null : day.key)} />;
+      return hidden ? null : <rect key={`hit-${day.key}`} x={day.col * pitch} y={top + day.row * pitch} width={cell} height={cell} fill="transparent" tabIndex={0} role="button" aria-label={`${day.key} 상세 보기`} aria-describedby={selectedKey === day.key ? tooltipId : undefined} className="cursor-pointer outline-none focus-visible:stroke-teal-700 focus-visible:stroke-2"
+        onPointerEnter={event => { if (event.pointerType !== "touch") showDay(day.key, event.currentTarget); }}
+        onPointerLeave={() => setSelection(current => current?.key === day.key && !current.pinned ? null : current)}
+        onFocus={event => showDay(day.key, event.currentTarget)}
+        onBlur={() => setSelection(current => current?.key === day.key ? null : current)}
+        onClick={event => showDay(day.key, event.currentTarget, true)}
+        onKeyDown={event => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            showDay(day.key, event.currentTarget, true);
+          }
+        }} />;
     })}
   </svg>
-  {selectedDay && selectedValue ? <div className="mt-2 inline-block rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-[11px] leading-5 text-slate-600 shadow-sm"><div className="font-semibold text-slate-900">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short", timeZone: "UTC" })}</div><div>풀이 {selectedValue.attempts}개 · 정답 {selectedValue.correct}개</div><div className={selectedWrong > 0 ? "text-rose-700" : "text-slate-500"}>오답 {selectedWrong}개{selectedValue.attempts > 0 ? ` · 정답률 ${Math.round(selectedValue.correct / selectedValue.attempts * 100)}%` : ""}</div></div> : null}
+  {selection && selectedDay && selectedValue ? createPortal(<div id={tooltipId} role="tooltip" className="pointer-events-none fixed z-[70] rounded-lg border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-[11px] leading-5 text-[var(--muted)] shadow-md" style={{ left: selection.left, width: selection.width, top: selection.top, bottom: selection.bottom }}>
+    <span aria-hidden="true" className={`absolute h-2 w-2 rotate-45 bg-[var(--surface)] ${selection.above ? "-bottom-[5px] border-r border-b" : "-top-[5px] border-l border-t"} border-[var(--line)]`} style={{ left: selection.anchorOffset - 4 }} />
+    <div className="font-semibold text-[var(--foreground)]">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short", timeZone: "UTC" })}</div><div>풀이 {selectedValue.attempts}개 · 정답 {selectedValue.correct}개</div><div className={selectedWrong > 0 ? "text-rose-600" : undefined}>오답 {selectedWrong}개{selectedValue.attempts > 0 ? ` · 정답률 ${Math.round(selectedValue.correct / selectedValue.attempts * 100)}%` : ""}</div>
+  </div>, document.body) : null}
 </div>;
 }
 
@@ -109,7 +167,7 @@ export function QbankRangeActivityHeatmap({ compact = false }: { compact?: boole
         <div className="inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="tablist" aria-label="\ubb38\uc81c\ud480\uc774 \ud65c\ub3d9 \uae30\uac04">{([['week', '\uc8fc'], ['month', '\uc6d4'], ['year', '\uc5f0']] as Array<[RangeKey, string]>).map(([key, label]) => <button key={key} type="button" role="tab" aria-selected={range === key} onClick={() => setRange(key)} className={`rounded-md px-3 py-1.5 text-xs font-semibold ${range === key ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}>{label}</button>)}</div>
       </div>
     </div>
-    <div className="mt-5"><CalendarSvg range={range} activity={activity} today={today} year={year} /></div>
+    <div className="mt-5"><CalendarSvg key={`${range}:${year}:${today}`} range={range} activity={activity} today={today} year={year} /></div>
     <div className="mt-2 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500"><span>{"\ud65c\ub3d9\uc77c"} {activeDays}{"\uc77c"}</span><div className="flex items-center gap-1.5"><span>{"\uc801\uc74c"}</span>{[0, 3, 10, 20, 40].map((value) => <span key={value} className="h-3 w-3 rounded-[3px]" style={{ backgroundColor: fill(value) }} />)}<span>{"\ub9ce\uc74c"}</span></div></div>
   </SkinPanel>;
 }

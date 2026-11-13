@@ -7,7 +7,7 @@ source_split: theory
 source_meta: practice-concept-review
 exam: Theory
 language: ko
-specialty: 00 입원관리
+specialty: 05 신장
 target_type: lab
 target_title: "Serum Osmolality"
 target_slug: "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvU2VydW0gT3Ntb2xhbGl0eS5tZA"

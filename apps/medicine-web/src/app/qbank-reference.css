@@ -1,4 +1,4 @@
-/* Independent browsing, without remounting or hiding the active question on desktop. */
+/* Independent browsing, without remounting or hiding the active question at any width. */
 :root { --qbank-shared-header-height:calc(44px + env(safe-area-inset-top,0px)); }
 html[data-qbank-split="true"] { --app-header-height:var(--qbank-shared-header-height)!important; }
 html[data-qbank-reference="true"] { --app-header-height:0px!important; }
@@ -12,7 +12,6 @@ html[data-qbank-reference="true"] { --app-header-height:0px!important; }
 .qbank-reference-toolbar button { display:inline-flex; align-items:center; justify-content:center; gap:5px; min-height:30px; padding:4px 8px; border:1px solid var(--line); border-radius:6px; background:var(--surface); color:var(--foreground); font:inherit; font-size:12px; line-height:1.3; cursor:pointer; }
 .qbank-reference-toolbar button[aria-expanded="true"],.qbank-reference-toolbar button[aria-pressed="true"] { color:var(--primary); border-color:var(--primary); background:var(--surface-subtle); }
 .qbank-reference-toolbar button:focus-visible,.qbank-reference-header :is(button,a):focus-visible { outline:2px solid var(--primary); outline-offset:2px; }
-.qbank-reference-mobile-tabs { display:none; }
 .qbank-reference-pane { position:fixed; inset:var(--qbank-shared-header-height) 0 0 auto; z-index:60; display:flex; flex-direction:column; width:50%; height:calc(100dvh - var(--qbank-shared-header-height)); border-left:1px solid var(--line); background:var(--background); color:var(--foreground); box-shadow:-3px 0 12px #0001; }
 .qbank-reference-pane[hidden] { display:none; }
 .qbank-reference-header { display:flex; flex-shrink:0; align-items:center; gap:4px; min-height:43px; padding:5px 8px; border-bottom:1px solid var(--line); background:var(--surface); color:var(--foreground); font-size:12px; }
@@ -71,14 +70,34 @@ html[data-theme="social"] .qbank-reference-toolbar button { border-radius:16px; 
   .qbank-workspace[data-split="true"] .qbank-primary-pane .skin-app-menu { max-width:calc(50vw - 24px); }
   .qbank-workspace[data-split="true"] .qbank-primary-pane .skin-app-menu--editor { left:50%; width:calc(100% - 24px); }
 }
-@media (max-width:1023px) {
-  .qbank-reference-pane { width:100%; z-index:90; border-left:0; }
+@media screen and (max-width:1023px) {
+  html[data-qbank-split="true"] { overflow:hidden; }
+  .qbank-workspace[data-split="true"] {
+    --qbank-mobile-pane-height:calc((100dvh - var(--qbank-shared-header-height))/2);
+    position:fixed; inset:0; height:100dvh;
+    display:grid; grid-template-columns:minmax(0,1fr); grid-template-rows:repeat(2,minmax(0,1fr));
+  }
+  .qbank-workspace[data-split="true"] > .qbank-primary-pane {
+    --app-header-height:0px;
+    min-height:0; width:100%; overflow:auto; overscroll-behavior:contain;
+  }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane > [data-conversation],
+  .qbank-workspace[data-split="true"] .qbank-primary-pane > [data-conversation] > div { min-height:100%; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane :is(.app-sidebar,.skin-desktop-rail,.pixel-navigation),
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .app-bottom-nav:not(.sheet-document-tabs) { display:none!important; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .skin-frame { --skin-rail-width:0px!important; display:flex!important; min-height:100%; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .skin-frame-body { display:flex!important; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .app-main { padding-top:12px; padding-inline:12px; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .chat-room-composer { left:0; right:0; bottom:var(--qbank-mobile-pane-height); width:auto; padding-bottom:0; }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .chat-tools-panel { max-height:max(0px,calc(var(--qbank-mobile-pane-height) - 68px)); }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .study-flow-toggle { top:calc(var(--qbank-shared-header-height) + var(--qbank-mobile-pane-height)/2); }
+  .qbank-workspace[data-split="true"] .qbank-primary-pane .study-flow-drawer { top:calc(var(--qbank-shared-header-height) + 6px); bottom:calc(var(--qbank-mobile-pane-height) + 6px); left:6px; right:6px; width:auto; }
+  .qbank-reference-pane { position:relative; inset:auto; width:100%; height:auto; min-height:0; border-left:0; border-top:2px solid var(--line); box-shadow:0 -2px 8px #0001; }
+  html[data-theme="pixel"] .qbank-reference-pane { border-left:0; border-top:3px solid var(--pixel-ink); }
   .qbank-shared-header { display:flex; gap:6px; }
   .qbank-reference-controls { flex:1; justify-content:flex-end; padding-left:0; }
-  .qbank-reference-mobile-tabs { display:flex; gap:2px; }
-  .qbank-reference-header :is(.qbank-reference-title,.qbank-shared-question > a > span,.qbank-reference-search > span) { display:none; }
+  .qbank-reference-header :is(.qbank-reference-title,.qbank-reference-search > span) { display:none; }
   .qbank-reference-header .qbank-reference-search { padding-inline:4px; }
-  .qbank-workspace[data-split="true"] .qbank-primary-pane .app-main { padding-top:12px; }
 }
 @media print {
   .qbank-reference-pane,.qbank-reference-toolbar,.qbank-shared-header { display:none!important; }

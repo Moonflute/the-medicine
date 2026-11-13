@@ -41,7 +41,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
       <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.label || "no-round"} total={active?.count ?? 0} questionIds={selectedIds} filters={filters} exam={examMode} round label={active?.label} topControlsTarget={topControlsTarget} /></PickerFooter>
     </div>;
   }
-  const activeDetails = filters.specialties.length + filters.years.length;
   const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
   const group = (key: Dimension, title: string, items: [string, string][]) => <fieldset className="mt-5">
     <legend className="font-semibold text-slate-900">{title}</legend>
@@ -61,7 +60,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
     {modes}
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
     <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
-      <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">세부 필터{activeDetails ? <span className="ml-2 text-xs font-normal text-slate-500">{activeDetails}개 적용</span> : null}</summary>
+      <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">세부 주제{filters.specialties.length ? <span className="ml-2 text-xs font-normal text-slate-500">{filters.specialties.length}개 선택</span> : null}</summary>
       <div className="pb-3">
         {PRACTICE_DEPARTMENTS.map((d) => {
           const sections = practiceTopicSections(questions, d);
@@ -72,8 +71,11 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
             <div className="pb-3">{sections.map((section) => <div key={section.id}>{group("specialties", section.title, section.topics)}</div>)}</div>
           </details>;
         })}
-        {group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}
       </div>
+    </details>
+    <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
+      <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">연도 선택{filters.years.length ? <span className="ml-2 text-xs font-normal text-slate-500">{filters.years.length}개 선택</span> : null}</summary>
+      <div className="pb-3">{group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}</div>
     </details>
     <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={JSON.stringify(filters)} total={selectedIds.length} questionIds={selectedIds} filters={filters} topControlsTarget={topControlsTarget} /></PickerFooter>
   </div>;

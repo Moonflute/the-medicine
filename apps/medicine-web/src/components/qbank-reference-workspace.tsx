@@ -9,34 +9,24 @@ import type { ReferenceHistory } from "@/lib/qbank-reference";
 
 const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? "").replace(/\/$/, "");
 const searchHref = `${basePath}/search/`;
-const narrowQuery = "(max-width: 1023px)";
 const subscribeFrame = () => () => {};
 const readFrame = () => window.parent !== window && window.name === QBANK_REFERENCE_FRAME;
-const readNarrow = () => window.matchMedia(narrowQuery).matches;
 const serverFalse = () => false;
-function subscribeNarrow(callback: () => void) {
-  const query = window.matchMedia(narrowQuery);
-  query.addEventListener("change", callback);
-  return () => query.removeEventListener("change", callback);
-}
 
 export function useQbankReferenceFrame() {
   return useSyncExternalStore(subscribeFrame, readFrame, serverFalse);
 }
 
 const ReferenceContext = createContext<{
-  enabled: boolean; open: boolean; mobileTab: "question" | "reference";
-  toggle: () => void; showQuestion: () => void; showReference: () => void;
+  enabled: boolean; open: boolean; toggle: () => void;
 } | null>(null);
 
 /** The question subtree never changes identity when opening, closing or navigating the reference. */
 export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolean; children: ReactNode }) {
   const embedded = useQbankReferenceFrame();
-  const narrow = useSyncExternalStore(subscribeNarrow, readNarrow, serverFalse);
   const available = enabled && !embedded;
   const [opened, setOpened] = useState(false);
   const [initialized, setInitialized] = useState(false);
-  const [mobileTab, setMobileTab] = useState<"question" | "reference">("question");
   const [history, setHistory] = useState<ReferenceHistory>({ entries: [searchHref], index: 0 });
   const [loading, setLoading] = useState(true);
   const [title, setTitle] = useState("자료 검색");
@@ -47,7 +37,6 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
   const ready = useRef(false);
   const pending = useRef<string | null>(searchHref);
   const open = available && opened;
-  const referenceVisible = open && (!narrow || mobileTab === "reference");
 
   const updateHistory = useCallback((next: ReferenceHistory) => {
     historyRef.current = next;
@@ -77,21 +66,14 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
     sendNavigation(location.href);
     setInitialized(true);
     setOpened(true);
-    setMobileTab("reference");
   }, [sendNavigation, updateHistory]);
 
   const showReference = useCallback(() => {
     setInitialized(true);
     setOpened(true);
-    setMobileTab("reference");
-  }, []);
-  const showQuestion = useCallback(() => {
-    setMobileTab("question");
-    requestAnimationFrame(() => document.getElementById("qbank-reference-question-tab")?.focus());
   }, []);
   const close = useCallback(() => {
     setOpened(false);
-    setMobileTab("question");
     requestAnimationFrame(() => document.getElementById("qbank-reference-toggle")?.focus({ preventScroll: true }));
   }, []);
   const toggle = useCallback(() => { if (open) close(); else showReference(); }, [open, close, showReference]);
@@ -135,15 +117,8 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
   }, [open]);
 
   useEffect(() => {
-    if (!referenceVisible || !narrow) return;
-    const previous = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => { document.body.style.overflow = previous; };
-  }, [referenceVisible, narrow]);
-
-  useEffect(() => {
-    if (referenceVisible && !loading && !externalHref) frame.current?.contentWindow?.focus();
-  }, [referenceVisible, loading, externalHref]);
+    if (open && !loading && !externalHref) frame.current?.contentWindow?.focus();
+  }, [open, loading, externalHref]);
 
   const captureReferenceLink = (event: MouseEvent<HTMLDivElement>) => {
     if (!open || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
@@ -161,20 +136,15 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
     const next = moveReference(historyRef.current, delta);
     updateHistory(next);
     sendNavigation(next.entries[next.index]);
-    setMobileTab("reference");
   };
 
-  const context = useMemo(() => ({ enabled: available, open, mobileTab, toggle, showQuestion, showReference }), [available, open, mobileTab, toggle, showQuestion, showReference]);
+  const context = useMemo(() => ({ enabled: available, open, toggle }), [available, open, toggle]);
 
   return <ReferenceContext.Provider value={context}>
     <div className="qbank-workspace" data-split={open}>
       {open ? <header className="qbank-reference-header qbank-shared-header" aria-label="문제와 참고 자료 공통 도구">
         <div className="qbank-shared-question">
           <Link href="/review/qbank" aria-label="문제 목록으로 돌아가기"><ArrowLeft size={16} aria-hidden="true" /><span>문제 풀기</span></Link>
-          <div className="qbank-reference-mobile-tabs" aria-label="화면 선택">
-            <button id="qbank-reference-question-tab" type="button" aria-pressed={mobileTab === "question"} onClick={showQuestion}>문제</button>
-            <button type="button" aria-pressed={mobileTab === "reference"} onClick={showReference}>자료</button>
-          </div>
         </div>
         <div className="qbank-reference-controls">
           <div className="qbank-reference-history">
@@ -187,8 +157,8 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
           <button type="button" onClick={close} aria-label="분할 보기 닫기" title="닫기"><X size={17} /></button>
         </div>
       </header> : null}
-      <div className="qbank-primary-pane" inert={referenceVisible && narrow} onClickCapture={captureReferenceLink}>{children}</div>
-      {available && initialized ? <aside id="qbank-reference-pane" className="qbank-reference-pane" aria-label="검색 및 참고 자료" hidden={!referenceVisible}>
+      <div className="qbank-primary-pane" role={open ? "region" : undefined} aria-label={open ? "문제 풀이" : undefined} tabIndex={open ? 0 : undefined} onClickCapture={captureReferenceLink}>{children}</div>
+      {available && initialized ? <aside id="qbank-reference-pane" className="qbank-reference-pane" aria-label="검색 및 참고 자료" hidden={!open}>
         <iframe ref={frame} name={QBANK_REFERENCE_FRAME} src={searchHref} title="문제 풀이 참고 자료" className="qbank-reference-frame" hidden={Boolean(externalHref)} />
         {externalHref ? <>
           <p className="qbank-reference-external-notice">외부 자료 · 표시되지 않으면 <a href={externalHref} target="_blank" rel="noopener noreferrer">새 탭에서 열기</a></p>
