@@ -78,13 +78,13 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
   return (
     <div className="space-y-5">
       <section className="flex flex-wrap items-center justify-between gap-3">
-        <div className="inline-flex rounded-lg border border-slate-200 bg-white p-1">
+        <div className="review-page-tabs inline-flex rounded-lg border border-slate-200 bg-white p-1" role="group" aria-label="복습 목록 선택">
           {([
             ["activity", "진도"],
             ["saved", "저장"],
             ["recent", "최근"],
           ] as Array<[Tab, string]>).map(([key, label]) => (
-            <button key={key} type="button" onClick={() => setTab(key)} className={`rounded-md px-3 py-2 text-sm font-medium ${tab === key ? "bg-teal-600 text-white" : "text-slate-600"}`}>
+            <button key={key} type="button" aria-pressed={tab === key} onClick={() => setTab(key)} className={`rounded-md px-3 py-2 text-sm font-medium ${tab === key ? "bg-teal-600 text-white" : "text-slate-600"}`}>
               {label}
             </button>
           ))}

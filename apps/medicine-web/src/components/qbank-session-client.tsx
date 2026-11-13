@@ -883,8 +883,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     <div className="space-y-5">
       <div className="qbank-session-progress flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-600">
         <Link href="/review/qbank" className="inline-flex items-center gap-1 hover:text-teal-700"><ArrowLeft className="h-4 w-4" />나가기</Link>
-        <div className="h-2 min-w-28 flex-1 max-w-md overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
-        <span className="tabular-nums whitespace-nowrap">{currentIndex + 1} / {questions.length}</span>
+        <div className="qbank-session-progress-track h-2 min-w-28 flex-1 max-w-md overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
+        <span className="qbank-session-position tabular-nums whitespace-nowrap">{currentIndex + 1} / {questions.length}</span>
         <QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={showQuestion} onReview={reviewSkipped} onShowAll={showAll} hideInChat />
         {questions.some(question => question.questionBank === "practice") && <ChatOptionalTools><div className="ml-auto flex flex-wrap items-center gap-2" aria-label="문제 번호 이동">
           <label className="sr-only" htmlFor="qbank-question-select">문제 선택</label>
