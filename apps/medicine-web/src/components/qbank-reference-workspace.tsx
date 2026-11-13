@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, ExternalLink, PanelRight, Search, X } from "lucide-react";
 import { isQuestionReferenceRoute, moveReference, QBANK_REFERENCE_FRAME, QBANK_REFERENCE_SEARCH_EVENT, referenceLocation, referenceNavigationMatches, referenceTarget, visitReference } from "@/lib/qbank-reference";
 import type { ReferenceHistory } from "@/lib/qbank-reference";
+import { QbankSplitDivider } from "./qbank-split-divider";
 
 const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? "").replace(/\/$/, "");
 const searchHref = `${basePath}/search/`;
@@ -32,6 +33,8 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
   const [title, setTitle] = useState("자료 검색");
   const [externalHref, setExternalHref] = useState<string | null>(null);
   const externalRef = useRef<string | null>(null);
+  const workspace = useRef<HTMLDivElement>(null);
+  const header = useRef<HTMLElement>(null);
   const frame = useRef<HTMLIFrameElement>(null);
   const historyRef = useRef(history);
   const ready = useRef(false);
@@ -141,8 +144,8 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
   const context = useMemo(() => ({ enabled: available, open, toggle }), [available, open, toggle]);
 
   return <ReferenceContext.Provider value={context}>
-    <div className="qbank-workspace" data-split={open}>
-      {open ? <header className="qbank-reference-header qbank-shared-header" aria-label="문제와 참고 자료 공통 도구">
+    <div ref={workspace} className="qbank-workspace" data-split={open}>
+      {open ? <header className="qbank-reference-header qbank-shared-header" ref={header} aria-label="문제와 참고 자료 공통 도구">
         <div className="qbank-shared-question">
           <Link href="/review/qbank" aria-label="문제 목록으로 돌아가기"><ArrowLeft size={16} aria-hidden="true" /><span>문제 풀기</span></Link>
         </div>
@@ -157,7 +160,8 @@ export function QbankReferenceWorkspace({ enabled, children }: { enabled: boolea
           <button type="button" onClick={close} aria-label="분할 보기 닫기" title="닫기"><X size={17} /></button>
         </div>
       </header> : null}
-      <div className="qbank-primary-pane" role={open ? "region" : undefined} aria-label={open ? "문제 풀이" : undefined} tabIndex={open ? 0 : undefined} onClickCapture={captureReferenceLink}>{children}</div>
+      <div id="qbank-primary-pane" className="qbank-primary-pane" role={open ? "region" : undefined} aria-label={open ? "문제 풀이" : undefined} tabIndex={open ? 0 : undefined} onClickCapture={captureReferenceLink}>{children}</div>
+      <QbankSplitDivider open={open} workspaceRef={workspace} headerRef={header} />
       {available && initialized ? <aside id="qbank-reference-pane" className="qbank-reference-pane" aria-label="검색 및 참고 자료" hidden={!open}>
         <iframe ref={frame} name={QBANK_REFERENCE_FRAME} src={searchHref} title="문제 풀이 참고 자료" className="qbank-reference-frame" hidden={Boolean(externalHref)} />
         {externalHref ? <>

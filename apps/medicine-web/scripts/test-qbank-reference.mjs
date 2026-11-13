@@ -105,10 +105,50 @@ test('mobile split shows two independently scrollable panes instead of switching
   assert.doesNotMatch(workspace, /mobileTab|inert=|qbank-reference-mobile-tabs/);
   assert.match(workspace, /className="qbank-reference-pane"[^>]+hidden=\{!open\}/);
   assert.match(workspace, /className="qbank-primary-pane"[^>]+tabIndex=\{open \? 0 : undefined\}/);
-  assert.match(mobile, /grid-template-rows:repeat\(2,minmax\(0,1fr\)\)/);
+  assert.match(mobile, /grid-template-rows:minmax\(0,var\(--qbank-mobile-primary-track\)\) minmax\(0,var\(--qbank-mobile-reference-track\)\)/);
   assert.match(mobile, /\.qbank-primary-pane\s*\{[^}]*overflow:auto; overscroll-behavior:contain/);
   assert.match(mobile, /\.qbank-reference-pane\s*\{[^}]*position:relative;[^}]*height:auto; min-height:0/);
-  assert.match(mobile, /\.chat-room-composer\s*\{[^}]*bottom:var\(--qbank-mobile-pane-height\)/);
+  assert.match(mobile, /\.chat-room-composer\s*\{[^}]*bottom:var\(--qbank-mobile-reference-height\)/);
   assert.match(mobile, /\.app-bottom-nav:not\(\.sheet-document-tabs\)/);
-  assert.match(css, /@media \(min-width:1024px\)\s*\{\s*\.qbank-workspace\[data-split="true"\] > \.qbank-primary-pane \{ width:50%; \}/);
+  assert.match(css, /@media \(min-width:1024px\)\s*\{\s*\.qbank-workspace\[data-split="true"\] > \.qbank-primary-pane \{ width:var\(--qbank-primary-width\); \}/);
+});
+
+const splitModule = { exports: {} };
+vm.runInNewContext(ts.transpileModule(fs.readFileSync(new URL('../src/lib/qbank-split-size.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText, { module: splitModule, exports: splitModule.exports });
+const { clampSplitRatio, pointerSplitRatio, keyboardSplitRatio } = splitModule.exports;
+
+test('desktop drag follows X and mobile drag follows Y below the shared header without a grab jump', () => {
+  assert.equal(pointerSplitRatio(960, 0, 1600, false), 0.6);
+  assert.equal(pointerSplitRatio(504, 44, 800, true, -20), 0.6);
+  assert.equal(pointerSplitRatio(437, 44, 800, true, -7), 0.5);
+  assert.equal(clampSplitRatio(0.9, 1024, false), 1 - 320 / 1024);
+  assert.equal(clampSplitRatio(0, 800, true), 0.2);
+  assert.equal(clampSplitRatio(1, 600, true), 1 - 160 / 600);
+  assert.equal(clampSplitRatio(1, 280, true), 0.5);
+  assert.equal(clampSplitRatio(Number.NaN, 0, true), 0.5);
+});
+
+test('separator keyboard controls use the current axis, respect bounds and reset to half', () => {
+  assert.equal(keyboardSplitRatio('ArrowRight', 0.5, 1600, false), 0.52);
+  assert.equal(keyboardSplitRatio('ArrowUp', 0.5, 800, true, true), 0.4);
+  assert.equal(keyboardSplitRatio('ArrowRight', 0.5, 800, true), null);
+  assert.equal(keyboardSplitRatio('ArrowDown', 0.5, 1600, false), null);
+  assert.equal(keyboardSplitRatio('Home', 0.5, 1600, false), 0.2);
+  assert.equal(keyboardSplitRatio('End', 0.5, 800, true), 0.8);
+  assert.equal(keyboardSplitRatio('Enter', 0.3, 800, true), 0.5);
+});
+
+test('divider captures touch/mouse across iframes and releases on cancel, blur or closing', () => {
+  const divider = fs.readFileSync(new URL('../src/components/qbank-split-divider.tsx', import.meta.url), 'utf8');
+  const css = fs.readFileSync(new URL('../src/app/qbank-reference.css', import.meta.url), 'utf8');
+  assert.match(divider, /role="separator" tabIndex=\{0\}/);
+  assert.match(divider, /setPointerCapture\(event.pointerId\)/);
+  assert.match(divider, /onPointerCancel=\{stopResize\} onLostPointerCapture=\{stopResize\}/);
+  assert.match(divider, /removeEventListener\("blur", cancelGesture\)/);
+  assert.match(divider, /observer.disconnect\(\)/);
+  assert.match(css, /touch-action:none/);
+  assert.match(css, /\[data-resizing="true"\] \.qbank-reference-frame \{ pointer-events:none/);
+  assert.match(css, /\.qbank-resize-shield \{ display:block/);
+  assert.match(css, /cursor:row-resize/);
+  assert.match(css, /cursor:col-resize/);
 });
