@@ -5,6 +5,7 @@ html[data-theme="notebook"] {
   --notebook-ink:#2b3b50; --notebook-blue:#365f91; --notebook-red:#ac4c49;
   --notebook-rule:#e6ebef; --notebook-margin:#eacccc; --notebook-marker:#fff0ac;
   --notebook-hand:var(--font-notebook),"Segoe Print","Malgun Gothic",cursive;
+  --notebook-reading:Inter,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
   --background:#fff; --foreground:#2b3b50; --muted:#697383; --line:#d8dfe5;
   --notebook-page-left:54px; --notebook-page-right:28px; --notebook-margin-x:31px;
   --surface:#fff; --surface-subtle:#f5f7f9; --primary:#365f91; --primary-strong:#294b75; --accent:#365f91;
@@ -25,9 +26,9 @@ html[data-theme="notebook"] :is(button,a,input,select,textarea,summary):focus-vi
 html[data-theme="notebook"] :is(.surface,.bg-white) { background-color:var(--surface); }
 html[data-theme="notebook"] :is(.surface,.surface-subtle,.list-tile) { border-radius:0; box-shadow:none; }
 html[data-theme="notebook"] :is(.page-title,h1) { letter-spacing:-.035em; }
-html[data-theme="notebook"] .primary-action { min-height:38px; padding:7px 10px; border:0; border-bottom:2px solid #789ac0; border-radius:0; background:transparent; color:var(--notebook-blue); box-shadow:none; font-size:13px; font-weight:600; }
+html[data-theme="notebook"] .primary-action { min-height:38px; padding:7px 10px; border:0; border-bottom:2px solid #789ac0; border-radius:0; background:transparent; color:var(--notebook-blue); box-shadow:none; font:400 18px/1.25 var(--notebook-hand); }
 html[data-theme="notebook"] .primary-action:hover { background:#edf3fa; color:var(--primary-strong); }
-html[data-theme="notebook"] .secondary-action { min-height:36px; padding:6px 9px; border:0; border-bottom:1px solid #d2dce7; border-radius:0; background:transparent; color:var(--notebook-blue); font-size:12px; box-shadow:none; }
+html[data-theme="notebook"] .secondary-action { min-height:36px; padding:6px 9px; border:0; border-bottom:1px solid #d2dce7; border-radius:0; background:transparent; color:var(--notebook-blue); font:400 18px/1.25 var(--notebook-hand); box-shadow:none; }
 html[data-theme="notebook"] .secondary-action:hover { border-color:var(--notebook-blue); background:#f5f8fc; }
 html[data-theme="notebook"] .pill { border:0; border-radius:0; background:transparent; color:var(--muted); padding:2px 4px; font-size:11px; }
 
@@ -110,7 +111,7 @@ html[data-theme="notebook"] .home-settings-header { border-bottom:1px dashed var
 .skin-panel--notebook .skin-panel--notebook { margin:10px 0 0; padding:10px 0 0; border:0; border-top:1px dashed var(--line); }
 .skin-panel--notebook .skin-panel-content > :is(.list-tile,a.secondary-action,button.secondary-action) + :is(.list-tile,a.secondary-action,button.secondary-action) { margin-top:7px; }
 html[data-theme="notebook"] :is(.skin-panel-content,.notebook-mock-exam) [role="tablist"] { border-radius:0; padding:0; gap:10px; border-bottom:1px solid var(--line); background:transparent; }
-html[data-theme="notebook"] :is(.skin-panel-content,.notebook-mock-exam) [role="tab"] { padding:10px 5px; border-radius:0; background:transparent; box-shadow:none; font-size:13px; }
+html[data-theme="notebook"] :is(.skin-panel-content,.notebook-mock-exam) [role="tab"] { padding:10px 5px; border-radius:0; background:transparent; box-shadow:none; font:400 20px/1.25 var(--notebook-hand); }
 html[data-theme="notebook"] :is(.skin-panel-content,.notebook-mock-exam) [role="tab"][aria-selected="true"] { color:var(--notebook-blue); box-shadow:inset 0 -3px #92aecf; }
 html[data-theme="notebook"] .skin-panel-content label:has(> input[type="checkbox"]) { border-radius:3px; }
 html[data-theme="notebook"] .review-launcher-heading { padding:3px 2px 14px; color:var(--notebook-blue); }
@@ -260,7 +261,7 @@ html[data-theme="notebook"] .notebook-question-tools :is(.qbank-skip-button,.qba
 html[data-theme="notebook"] .notebook-question-tools .primary-action::before { content:"✓"; font:23px/1 var(--notebook-hand); }
 html[data-theme="notebook"] .notebook-question-tools .primary-action:has(> svg)::before { content:none; }
 html[data-theme="notebook"] .qbank-reference-toolbar { margin:0; }
-html[data-theme="notebook"] .qbank-reference-toolbar button { min-height:30px; padding:3px 0 5px 8px; border:0; border-bottom:1px solid #c6d4e5; border-radius:0; background:transparent; font-size:11px; }
+html[data-theme="notebook"] .qbank-reference-toolbar button { min-height:30px; padding:3px 0 5px 8px; border:0; border-bottom:1px solid #c6d4e5; border-radius:0; background:transparent; font:400 17px/1.25 var(--notebook-hand); }
 html[data-theme="notebook"] .study-flow-toggle { border:0; border-left:2px solid #9ab4d0; border-radius:3px 0 0 4px; background:#eef3f9; color:var(--notebook-blue); box-shadow:none; padding:8px; }
 
 /* Interactive canvases retain their working area and their own internal layout. */
@@ -356,7 +357,7 @@ html[data-theme="notebook"] .skin-frame[data-immersive="true"] .skin-page { padd
   .skin-q-choices--notebook .skin-q-choice { gap:9px; padding:12px 3px; font-size:13px; }
   .skin-q-choices--notebook .skin-q-choice-label { width:22px; font-size:15px; }
   .notebook-question-tools { gap:8px; margin-top:17px; }
-  .notebook-question-tools .primary-action { padding:8px 12px; font-size:12px; }
+  .notebook-question-tools .primary-action { padding:8px 12px; }
 }
 /* Reference panes use their own width, which can be narrow on a desktop screen. */
 html[data-qbank-reference="true"] .skin-frame--notebook .skin-frame-body,
@@ -365,6 +366,19 @@ html[data-theme="notebook"][data-qbank-reference="true"] .skin-frame .skin-page,
 html[data-theme="notebook"] .qbank-workspace[data-split="true"] .skin-frame .skin-page { padding:12px var(--notebook-page-right) 22px var(--notebook-page-left); }
 .qbank-workspace[data-split="true"] .qbank-primary-pane .notebook-mock-layout { grid-template-columns:minmax(0,1fr); }
 .qbank-workspace[data-split="true"] .qbank-primary-pane .notebook-question-text > div > .grid { grid-template-columns:minmax(0,1fr); }
+
+/* Short controls use the same pen lettering as the notebook headings.
+   Reading passages, answer choices and small counts keep their reading face. */
+html[data-theme="notebook"] :is(.qbank-session-action,.qbank-copy-action,.qbank-skipped-trigger,.review-page-tabs button,.cc-document-views button,.home-settings-trigger,.skin-status-retry,.notebook-answer-sheet > summary) { font:400 18px/1.25 var(--notebook-hand); letter-spacing:0; }
+html[data-theme="notebook"] :is(.primary-action,.secondary-action) { letter-spacing:0; }
+html[data-theme="notebook"] :is(.skin-panel-content,.notebook-mock-exam) [role="tab"] > span { font:400 12px/1.4 var(--notebook-reading); }
+html[data-theme="notebook"] :is(#panel-theory,#panel-clinical,#panel-practice) :is(button,summary,label:has(> input:is([type="checkbox"],[type="radio"]))) { font:400 18px/1.3 var(--notebook-hand); letter-spacing:0; }
+html[data-theme="notebook"] :is(#panel-theory,#panel-clinical,#panel-practice) label > input:is([type="checkbox"],[type="radio"]) + span,
+html[data-theme="notebook"] #panel-practice label > input[name="exam-mode"] + span > span:first-child { font:400 18px/1.3 var(--notebook-hand); }
+html[data-theme="notebook"] #panel-practice label > input[name="practice-mock-exam"] + span { font-size:17px; }
+html[data-theme="notebook"] :is(#panel-theory,#panel-clinical,#panel-practice) :is(label,summary) .text-slate-500 { font-family:var(--notebook-reading); font-weight:400; }
+html[data-theme="notebook"] .notebook-solution :is(.secondary-action,.qbank-copy-action) { font-size:16px; }
+
 @media (prefers-reduced-motion:reduce) {
   .skin-frame--notebook * { scroll-behavior:auto; }
 }
