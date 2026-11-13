@@ -13,6 +13,7 @@ export type SkinTextBlock = { kind: "text" | "heading" | "group" | "table" | "sp
 
 export function SkinQuickReference({ children, className }: { children: ReactNode; className: string }) {
   const { theme } = useSkinTheme();
+  if (theme === "notebook") return <aside className="notebook-summary" aria-label="핵심 정리"><h3>여기만 먼저 체크!</h3><div>{children}</div></aside>;
   if (theme === "pixel") return <details className="pixel-codex-note" open><summary><PixelSprite name="bag" />핵심 정보</summary><div>{children}</div></details>;
   if (isConceptTheme(theme)) return <ConceptDocumentSummary theme={theme}>{children}</ConceptDocumentSummary>;
   return <div className={className}><div className="mb-3 text-sm font-semibold text-teal-900">Quick reference</div>{children}</div>;
@@ -20,6 +21,7 @@ export function SkinQuickReference({ children, className }: { children: ReactNod
 
 export function SkinDocumentNotice({ title, children, className = "mt-3 flex flex-wrap items-center gap-2" }: { title: string; children: ReactNode; className?: string }) {
   const { theme } = useSkinTheme();
+  if (theme === "notebook") return <details className="notebook-margin-note"><summary>{title}</summary><div>{children}</div></details>;
   if (theme === "pixel") return <details className="pixel-codex-note"><summary>{title}</summary><div>{children}</div></details>;
   if (isConceptTheme(theme)) return <ConceptDocumentNotice theme={theme} title={title}>{children}</ConceptDocumentNotice>;
   if (theme !== "chat") return <div className={className}>{children}</div>;
@@ -36,6 +38,7 @@ export function SkinTextBlocks({ blocks, className }: { blocks: SkinTextBlock[];
   const senderName = useChatSenderName();
   if (!isSpecialTheme(theme)) return <div className={`min-w-0 ${className}`.trim()}>{blocks.map((block, index) => <div key={index}>{block.content}</div>)}</div>;
   const visible = blocks.filter(block => block.kind !== "space");
+  if (theme === "notebook") return <div className="notebook-text-blocks" data-skin-blocks="notebook">{visible.map((block, index) => <div key={index} className={`notebook-text-block notebook-text-block--${block.kind}`}>{block.content}</div>)}</div>;
   if (theme === "pixel") return <div className="pixel-text-blocks" data-skin-blocks="pixel">{visible.map((block, index) => <div key={index} className={`pixel-text-block pixel-text-block--${block.kind}`}>{block.content}</div>)}</div>;
   if (isConceptTheme(theme)) return <div className={`concept-text-blocks concept-text-blocks--${theme}`} data-skin-blocks={theme}>{visible.map((block, index) => <div key={index} className={`concept-text-block concept-text-block--${block.kind}`}>{theme === "editor" ? <span className="concept-code-gutter" aria-hidden="true">{index + 1}</span> : null}<div className="concept-text-block-content">{block.content}</div></div>)}</div>;
   if (theme === "chat") return <div className="skin-message-stream" data-skin-blocks="chat">
@@ -131,7 +134,7 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
     {sections.map((section, index) => <section key={section.id} id={section.id} tabIndex={-1} hidden={tabbed && activeId !== section.id} role={tabbed ? "tabpanel" : undefined} aria-labelledby={tabbed ? `${section.id}-tab` : `${section.id}-heading`} className={special ? "skin-doc-panel" : plainSectionClassName}>
       {theme === "editor" ? <details className="concept-code-section" open={!collapsed.has(section.id)} onToggle={event => { const open = event.currentTarget.open; setCollapsed(previous => { if (previous.has(section.id) === !open) return previous; const next = new Set(previous); if (open) next.delete(section.id); else next.add(section.id); return next; }); }}><summary><span aria-hidden="true">⌄</span><h3 id={`${section.id}-heading`}><span className="concept-code-keyword">region</span> {section.title}</h3></summary><div className="concept-code-section-body">{section.content}</div><div className="concept-code-comment concept-code-end">{"// endregion"}</div></details> : <>
       {theme === "sheet" ? <SheetCellRow label="목차" heading><h3 id={`${section.id}-heading`}>{section.title}</h3></SheetCellRow> : <div className={special ? "skin-section-heading" : "mb-3 flex items-center gap-2"}>
-        {theme === "chat" ? <span className="skin-section-divider">{String(index + 1).padStart(2, "0")}</span> : theme === "terminal" ? <span aria-hidden="true">[{String(index + 1).padStart(2, "0")}]</span> : section.icon}
+        {theme === "notebook" ? <span className="notebook-section-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span> : theme === "chat" ? <span className="skin-section-divider">{String(index + 1).padStart(2, "0")}</span> : theme === "terminal" ? <span aria-hidden="true">[{String(index + 1).padStart(2, "0")}]</span> : section.icon}
         <h3 id={`${section.id}-heading`} className={special ? "" : "font-semibold text-slate-900"}>{section.title}</h3>
       </div>}
       {section.content}
@@ -142,6 +145,7 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
 
 export function SkinDocumentIntro({ title, category, children, sheetRows }: { title: string; category?: string; children: ReactNode; sheetRows?: SheetIntroRow[] }) {
   const { theme } = useSkinTheme();
+  if (theme === "notebook") return <div className="notebook-document-intro"><div className="notebook-subject-tab">{category || "정리 노트"}</div><div className="skin-document-intro-content">{children}</div></div>;
   if (theme === "pixel") return <div className="pixel-codex-intro"><div className="pixel-codex-stamp"><PixelSprite name="book" /><span>FIELD CODEX<small>{category || "자료 도감"}</small></span></div><div className="skin-document-intro-content">{children}</div></div>;
   if (isConceptTheme(theme)) return <ConceptDocumentIntro theme={theme} title={title} category={category}>{children}</ConceptDocumentIntro>;
   if (theme === "sheet" && title) return <SheetDocumentIntro title={title} category={category} rows={sheetRows}>{children}</SheetDocumentIntro>;

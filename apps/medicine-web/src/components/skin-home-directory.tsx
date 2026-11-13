@@ -7,11 +7,13 @@ import { ConceptHomeDirectory } from "@/components/concept-home";
 import { isConceptTheme } from "@/lib/themes";
 import { skinDestinations } from "@/lib/skin-navigation";
 import { PixelHomeDirectory } from "@/components/pixel-ui";
+import { NotebookHomeDirectory } from "@/components/notebook-ui";
 
 const entries = skinDestinations.slice(1);
 
 export function SkinHomeDirectory() {
   const { theme } = useSkinTheme();
+  if (theme === "notebook") return <NotebookHomeDirectory />;
   if (theme === "pixel") return <PixelHomeDirectory />;
   if (isConceptTheme(theme)) return <ConceptHomeDirectory theme={theme} />;
   if (theme === "chat") return <div className="skin-conversations">

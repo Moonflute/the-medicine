@@ -1,5 +1,5 @@
 export const THEME_STORAGE_KEY = "medicine-web-theme-v1";
-export const THEME_IDS = ["light", "dark", "sepia", "chat", "messenger", "sheet", "terminal", "mail", "social", "editor", "pixel"] as const;
+export const THEME_IDS = ["light", "dark", "sepia", "chat", "messenger", "sheet", "terminal", "mail", "social", "editor", "pixel", "notebook"] as const;
 export type AppTheme = (typeof THEME_IDS)[number];
 export type ThemeLayout = Exclude<AppTheme, "messenger">;
 export const themeLayout = (theme: AppTheme): ThemeLayout => theme === "messenger" ? "chat" : theme;
@@ -45,7 +45,7 @@ export const themeGroups = [
   },
   {
     title: "특수 테마",
-    description: "익숙한 앱과 업무 문서의 화면 구성",
+    description: "앱, 게임, 노트처럼 다르게 펼쳐 보는 자료",
     themes: [
       { id: "chat", label: "카톡 스타일", description: "대화방, 공지, + 메뉴와 답장을 쓰는 입력창", swatch: "#fae100", chrome: "#b2c7d9" },
       { id: "messenger", label: "메신저 스타일", description: "Clear Blue의 파란 대화방, 흰 받은 메시지와 파란 내 메시지 · 원형 전송 버튼", swatch: "#246bce", chrome: "#cfe8ff" },
@@ -55,6 +55,7 @@ export const themeGroups = [
       { id: "social", label: "인스타 스타일", description: "스토리와 자료 피드, 목차를 넘기는 게시물과 투표처럼 고르는 답안", swatch: "#dd2a7b", chrome: "#ffffff" },
       { id: "editor", label: "코드 에디터", description: "파일 탐색기, 문서 탭과 접히는 코드, 답안을 실행하고 확인하는 출력 패널", swatch: "#007acc", chrome: "#181818" },
       { id: "pixel", label: "8-bit RPG", description: "픽셀 모험의 타이틀 화면, 페이지를 넘기는 도감과 커맨드로 푸는 문제 전투", swatch: "#77d6a4", chrome: "#243149" },
+      { id: "notebook", label: "필기 노트", description: "흰 노트에 남색 펜으로 정리한 자료, 형광펜 목차와 동그라미로 고르는 답안", swatch: "#dce7f3", chrome: "#ffffff" },
     ],
   },
 ] satisfies Array<{

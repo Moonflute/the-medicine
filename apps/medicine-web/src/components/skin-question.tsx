@@ -10,6 +10,7 @@ import { isConceptTheme, isSpecialTheme } from "@/lib/themes";
 import { ConceptQuestionWorkspace } from "@/components/concept-question";
 import { PixelQuestionWorkspace } from "@/components/pixel-ui";
 import { QbankSkipButton } from "@/components/qbank-skip-controls";
+import { NotebookQuestionWorkspace } from "@/components/notebook-ui";
 
 export type SkinChoice = { key: QbankAnswer; label: string; text: string; selected: boolean; correct: boolean; wrong: boolean };
 
@@ -42,7 +43,7 @@ export function SkinQuestionSendIcon({ fallback }: { fallback?: ReactNode }) {
 
 export function SkinQuestionAction({ submitted, unknown, last, onSubmit, onNext, onSkip, nextLabel }: { submitted: boolean; unknown: boolean; last: boolean; onSubmit: () => void; onNext: () => void; onSkip?: () => void; nextLabel?: string }) {
   const { theme } = useSkinTheme();
-  const label = theme === "pixel" ? submitted ? last ? "전투 기록 보기" : "다음 라운드 ▶" : unknown ? "모름으로 제출" : "커맨드 실행 ▶" : submitted ? last ? "결과 보기" : theme === "mail" ? "다음 메일" : theme === "social" ? "다음 게시물" : theme === "editor" ? "Next test" : "다음 문제" : unknown ? theme === "mail" ? "모름으로 회신" : theme === "editor" ? "모름으로 실행" : "모름으로 제출" : theme === "mail" ? "회신" : theme === "social" ? "답 제출" : theme === "editor" ? "▶ 실행" : theme === "chat" ? "보내기" : theme === "terminal" ? "ENTER · 제출" : "답안 제출";
+  const label = theme === "notebook" ? submitted ? last ? "풀이 기록 보기" : "다음 문제" : unknown ? "모름으로 제출" : "답 확인하기" : theme === "pixel" ? submitted ? last ? "전투 기록 보기" : "다음 라운드 ▶" : unknown ? "모름으로 제출" : "커맨드 실행 ▶" : submitted ? last ? "결과 보기" : theme === "mail" ? "다음 메일" : theme === "social" ? "다음 게시물" : theme === "editor" ? "Next test" : "다음 문제" : unknown ? theme === "mail" ? "모름으로 회신" : theme === "editor" ? "모름으로 실행" : "모름으로 제출" : theme === "mail" ? "회신" : theme === "social" ? "답 제출" : theme === "editor" ? "▶ 실행" : theme === "chat" ? "보내기" : theme === "terminal" ? "ENTER · 제출" : "답안 제출";
   return <div className="qbank-question-actions">{!submitted && onSkip && <QbankSkipButton onSkip={onSkip} />}<button type="button" onClick={submitted ? onNext : onSubmit} title={submitted && nextLabel ? nextLabel : label} aria-label={submitted ? nextLabel ?? (last ? "결과 보기" : "다음 문제") : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{submitted && nextLabel ? nextLabel : label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <SkinQuestionSendIcon /> : null}</button></div>;
 }
 
@@ -54,6 +55,7 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
 }) {
   const { theme } = useSkinTheme();
   const senderName = useChatSenderName(sourceTitle);
+  if (theme === "notebook") return <NotebookQuestionWorkspace question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} correct={correct} />;
   if (theme === "pixel") return <PixelQuestionWorkspace question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} correct={correct} />;
   if (isConceptTheme(theme)) return <ConceptQuestionWorkspace theme={theme} question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} choicesCount={choicesCount} />;
   const hintNode = hint ? <p className="mt-5 text-sm font-medium text-teal-700">{hint}</p> : null;

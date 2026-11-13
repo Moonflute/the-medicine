@@ -11,7 +11,7 @@ import { ChevronDown, Code2, Paperclip } from "lucide-react";
 
 export function DocumentToc({ id, items }: { id: string; items: { id: string; title: string }[] }) {
   const { theme } = useSkinTheme();
-  const special = theme === "chat" || theme === "sheet" || theme === "terminal";
+  const special = theme === "chat" || theme === "sheet" || theme === "terminal" || theme === "notebook";
   const navRef = useRef<HTMLElement>(null);
   const [pastToc, setPastToc] = useState(false);
 
@@ -35,7 +35,7 @@ export function DocumentToc({ id, items }: { id: string; items: { id: string; ti
   return <>
     <nav ref={navRef} id={id} tabIndex={-1} aria-label="문서 목차" className={special ? `skin-document-toc skin-document-toc--${theme}` : "scroll-mt-20 border-b border-slate-200 px-5 py-3 focus-visible:outline-teal-600 sm:px-6"}>
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs leading-6">
-        <span className="font-semibold text-slate-500">목차</span>
+        <span className="font-semibold text-slate-500">{theme === "notebook" ? "이 페이지의 차례" : "목차"}</span>
         {items.map((item, index) => <a key={item.id} href={`#${item.id}`} onClick={() => window.dispatchEvent(new CustomEvent("medicine:document-section", { detail: item.id }))} className="rounded-sm text-slate-700 underline decoration-slate-300 underline-offset-4 hover:text-teal-700 focus-visible:outline-2 focus-visible:outline-teal-600">{theme === "terminal" ? `[${index + 1}] ` : ""}{item.title}</a>)}
       </div>
     </nav>

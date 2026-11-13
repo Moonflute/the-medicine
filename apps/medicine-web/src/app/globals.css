@@ -10,6 +10,7 @@
 @import "./pixel-skins.css";
 @import "./qbank-skips.css";
 @import "./qbank-reference.css";
+@import "./notebook-skins.css";
 
 :root {
   color-scheme: light;

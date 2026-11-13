@@ -25,6 +25,8 @@ function load(relativePath) {
   return compiledModule.exports;
 }
 const themes = mocks['@/lib/themes'] = load('lib/themes.ts');
+mocks['@/lib/skin-navigation'] = load('lib/skin-navigation.ts');
+mocks['@/components/notebook-ui'] = load('components/notebook-ui.tsx');
 mocks['@/components/concept-question'] = load('components/concept-question.tsx');
 mocks['@/components/pixel-ui'] = load('components/pixel-ui.tsx');
 mocks['@/components/qbank-skip-controls'] = load('components/qbank-skip-controls.tsx');
@@ -48,6 +50,10 @@ for (const theme of themes.THEME_IDS) {
       submitted, number: 1, total: 2,
     }));
     const before = render(false), after = render(true);
+    for (const content of ['QUESTION_MARKER', 'CHOICES_MARKER']) {
+      assert.ok(before.includes(content));
+      assert.ok(after.includes(content));
+    }
     assert.equal((before.match(/ACTION_MARKER/g) ?? []).length, 1);
     assert.equal((after.match(/ACTION_MARKER/g) ?? []).length, 1);
     assert.doesNotMatch(before, /FEEDBACK_MARKER/);
@@ -76,4 +82,33 @@ test('unknown answers, the last question and skip review retain their existing a
   assert.match(renderToStaticMarkup(h(skin.SkinQuestionAction, props)), /결과 보기/);
   assert.match(renderToStaticMarkup(h(skin.SkinQuestionAction, { ...props, nextLabel: '건너뛴 문제 확인' })), /건너뛴 문제 확인/);
   assert.match(renderToStaticMarkup(h(skin.SkinQuestionAction, { ...props, submitted: false, unknown: true })), /모름으로 제출/);
+});
+
+test('notebook navigation, persisted theme and grading retain study semantics', () => {
+  activeTheme = 'notebook';
+  const values = new Map([[themes.THEME_STORAGE_KEY, 'notebook']]);
+  const root = { dataset: {}, style: {} };
+  vm.runInNewContext(themes.themeInitScript, { document: { documentElement: root }, localStorage: { getItem: key => values.get(key), setItem: (key, value) => values.set(key, value) } });
+  assert.equal(root.dataset.theme, 'notebook');
+  assert.equal(root.style.colorScheme, 'light');
+  const notebook = mocks['@/components/notebook-ui'];
+  const home = renderToStaticMarkup(h(notebook.NotebookHomeDirectory));
+  for (const item of mocks['@/lib/skin-navigation'].skinDestinations.slice(1)) assert.ok(home.includes(`href="${item.href}"`));
+  const nav = renderToStaticMarkup(h(notebook.NotebookNavigation, { currentHref: '/review/qbank', menuOpen: false, onMenu() {} }));
+  assert.deepEqual([...nav.matchAll(/href="([^"]+)"/g)].map(match => match[1]), ['/', '/cc', '/specialties', '/review/qbank']);
+  assert.match(nav, /href="\/review\/qbank" aria-current="page"/);
+  let selected;
+  const choices = [{ key: 'B', label: 'B', text: 'ANSWER_MARKER', selected: true, correct: false, wrong: true }];
+  skin.SkinQuestionChoices({ choices, disabled: false, onSelect: key => { selected = key; } }).props.children[0].props.onClick();
+  assert.equal(selected, 'B');
+  const html = renderToStaticMarkup(h(skin.SkinQuestionWorkspace, {
+    question: 'QUESTION_MARKER', choices: h(skin.SkinQuestionChoices, { choices, disabled: true, onSelect() {} }),
+    response: 'EXPLANATION_MARKER', actions: 'ACTION_MARKER', copy: 'COPY_MARKER',
+    hint: '', answerText: 'B. ANSWER_MARKER', submitted: true, correct: false, number: 2, total: 5,
+  }));
+  assert.match(html, /data-question-skin="notebook"/);
+  assert.match(html, /data-result="wrong"/);
+  assert.match(html, /disabled=""[^>]*data-selected="true"[^>]*data-wrong="true"/);
+  assert.doesNotMatch(html, /<details/);
+  for (const content of ['QUESTION_MARKER', 'ANSWER_MARKER', 'EXPLANATION_MARKER', 'ACTION_MARKER', 'COPY_MARKER']) assert.ok(html.includes(content));
 });

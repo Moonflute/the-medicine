@@ -31,6 +31,22 @@ const statusCopy = {
 
 export type SkinStatusKind = keyof typeof statusCopy;
 
+const notebookStatus: Record<SkinStatusKind, string> = {
+  questionsLoading: "연습 노트 펼치는 중…", documentLoading: "노트 펼치는 중…",
+  imageLoading: "노트 그림 불러오는 중…", relatedLoading: "관련 페이지 찾는 중…",
+  statisticsLoading: "풀이 기록 모아 보는 중…", syncLocal: "이 기기에 적어 두었어요",
+  syncPending: "노트 동기화 대기", syncing: "노트 동기화 중…", synced: "노트 동기화 완료",
+  syncFailed: "노트를 동기화하지 못했어요.", saved: "다시 볼 페이지에 표시했어요.",
+  removed: "페이지 표시를 지웠어요.", recorded: "복습 기록을 적어 두었어요.",
+  questionsError: "연습 노트를 불러오지 못했어요.", documentError: "노트를 펼치지 못했어요.",
+  imageError: "노트 그림을 불러오지 못했어요.", saveError: "노트를 저장하지 못했어요.",
+  questionsEmpty: "이 범위에는 풀 문제가 없어요.", searchEmpty: "찾는 페이지가 없어요.",
+  recentEmpty: "아직 펼쳐 본 페이지가 없어요.", savedEmpty: "표시해 둔 페이지가 없어요. 노트 도구의 저장 버튼으로 남겨 보세요.",
+  recordsEmpty: "아직 이 범위에 적어 둔 풀이 기록이 없어요.", wrongEmpty: "다시 풀 오답이 없어요.",
+  draftLoading: "임시로 적어 둔 내용 불러오는 중…", draftSaved: "이 탭에 임시로 적어 두었어요",
+  draftError: "임시 저장하지 못했어요. 입력한 내용은 그대로 있어요.",
+};
+
 const pixelStatus: Record<SkinStatusKind, string> = {
   questionsLoading: "다음 전투 준비 중…", documentLoading: "도감 펼치는 중…",
   imageLoading: "도감 그림 불러오는 중…", relatedLoading: "연결된 도감 찾는 중…",
@@ -78,6 +94,7 @@ const conceptStatus: Record<SkinStatusKind, Record<ConceptTheme, string>> = {
 };
 
 export function skinStatusMessage(theme: AppTheme, kind: SkinStatusKind, fallback: string): string {
+  if (theme === "notebook") return notebookStatus[kind];
   if (theme === "pixel") return pixelStatus[kind];
   if (isConceptTheme(theme)) return conceptStatus[kind][theme];
   return theme === "chat" || theme === "sheet" || theme === "terminal" ? statusCopy[kind][theme] : fallback;

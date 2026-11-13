@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 import "./study-flow.css";
 import "./hubs.css";
@@ -12,6 +13,7 @@ import { studyFlowButtonInitScript } from "@/lib/study-flow-preferences";
 import { qbankReferenceInitScript } from "@/lib/qbank-reference";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const notebookFont = localFont({ src: "./fonts/Gaegu-Regular.woff2", variable: "--font-notebook", weight: "400", display: "swap", preload: false });
 
 export const metadata: Metadata = {
   title: "The Medicine",
@@ -41,7 +43,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ko" suppressHydrationWarning>
+    <html lang="ko" className={notebookFont.variable} suppressHydrationWarning>
       <head><link rel="stylesheet" href={`${basePath}/highlights.css`} /><script id="medicine-theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript + studyFlowButtonInitScript + qbankReferenceInitScript }} /></head>
       <body>
         <PWARegister />

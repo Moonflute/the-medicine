@@ -30,6 +30,7 @@ const deps = {
 const pixel = compile("src/components/pixel-ui.tsx", deps);
 const question = compile("src/components/skin-question.tsx", {
   ...deps, "@/components/pixel-ui": pixel,
+  "@/components/notebook-ui": {},
   "@/components/chat-contact": { useChatSenderName: value => value },
   "@/components/chat-room": {}, "@/components/concept-question": {}, "@/components/qbank-skip-controls": {},
 });

@@ -1,0 +1,9 @@
+Gaegu Regular
+Copyright 2018 The Gaegu Project Authors
+Source: https://github.com/google/fonts/tree/main/ofl/gaegu
+Original: https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Regular.ttf
+License: SIL Open Font License 1.1 (see Gaegu-OFL.txt)
+
+The original TTF was converted to WOFF2 with fontTools 4.62.1.
+All glyphs and font metadata are retained. No subsetting or outline changes.
+Used for notebook headings and short labels; reading text uses the system font.

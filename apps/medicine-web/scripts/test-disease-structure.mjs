@@ -43,7 +43,7 @@ test('all 22 specialty outlines have valid disease links, no duplicate bullets p
 });
 const compile=(file,deps)=>{const compiledModule={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText,{exports:compiledModule.exports,module:compiledModule,require:n=>deps[n],process,Buffer});return compiledModule.exports;};
 test('rendered overview links retain their indentation',()=>{
- for(const theme of ['light','chat','messenger','sheet','terminal','mail','social','editor','pixel']) {
+ for(const theme of ['light','chat','messenger','sheet','terminal','mail','social','editor','pixel','notebook']) {
   const contact=compile('src/components/chat-contact.tsx',{'react':React,'react/jsx-runtime':jsxRuntime});
   const sheet=compile('src/components/sheet-workbook.tsx',{'react':React,'react/jsx-runtime':jsxRuntime,'react-dom':{createPortal}});
   const themes=compile('src/lib/themes.ts',{});
