@@ -267,6 +267,45 @@ html[data-theme="notebook"] .study-flow-toggle { border:0; border-left:2px solid
 .skin-frame--notebook[data-immersive="true"] .skin-frame-body { max-width:none; --notebook-page-left:16px; --notebook-page-right:16px; --notebook-margin-x:5px; }
 html[data-theme="notebook"] .skin-frame[data-immersive="true"] .skin-page { padding-block:12px; }
 
+/* Wide pages carry attached left-edge index tabs. Split/reference panes and
+   interactive workspaces keep their compact navigation and full working width. */
+@media screen and (min-width:1100px) {
+  .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) {
+    --notebook-index-width:68px;
+    padding-left:var(--notebook-index-width);
+  }
+  .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) > .skin-frame-body { border-left:1px solid var(--notebook-rule); }
+  .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) > .skin-frame-body > .notebook-navigation {
+    position:fixed;
+    top:74px;
+    bottom:auto;
+    left:max(4px,calc((100% - 1180px - var(--notebook-index-width)) / 2 + 4px));
+    z-index:35;
+    flex-direction:column;
+    gap:6px;
+    width:calc(var(--notebook-index-width) - 4px);
+    min-height:0;
+    max-height:calc(100svh - 88px);
+    padding:4px 0;
+    background:transparent;
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    scrollbar-width:thin;
+  }
+  .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) .notebook-navigation > :is(a,button) {
+    flex:none;
+    width:100%;
+    max-width:none;
+    min-height:44px;
+    padding:8px 5px;
+    border:1px solid #e1e6ed;
+    border-left-width:2px;
+    border-right:0;
+    border-radius:7px 0 0 5px;
+  }
+  .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) .notebook-navigation > :is([aria-current],[aria-expanded="true"]) { border-color:#7897bc; }
+}
+
 @media (min-width:1100px) {
   .notebook-mock-layout { grid-template-columns:minmax(0,1fr) 270px; }
   .notebook-mock-layout > div:last-child { position:sticky; top:calc(var(--app-header-height,58px) + 12px); }
