@@ -129,12 +129,13 @@ html[data-theme="pixel"] .pixel-codex-intro p { font-size:14px; line-height:1.8;
 .pixel-codex-note > summary .pixel-sprite { width:22px; height:22px; }
 .pixel-codex-note > div { padding:0 14px 12px; font-size:13px; line-height:1.75; }
 .pixel-codex-note:not([open]) > div { display:none; }
-.pixel-codex-tabs { display:flex; align-items:stretch; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; gap:4px; padding:4px 4px 0; border:2px solid var(--pixel-ink); border-bottom:0; background:#c3cdb2; }
-.pixel-codex-tabs > button { display:flex; gap:6px; align-items:center; flex-shrink:0; padding:12px 14px; color:#4e594e; font-size:12px; border:1px solid transparent; cursor:pointer; }
-.pixel-codex-tabs > button small { font:10px Consolas,monospace; opacity:.7; }
-.pixel-codex-tabs > button[aria-selected="true"] { background:var(--surface); color:var(--foreground); border:1px solid #87947b; border-bottom-color:var(--surface); box-shadow:inset 0 3px #63866c; font-weight:700; }
+.pixel-document-outline > nav { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr)); gap:4px; padding:0 10px 10px; }
+.pixel-document-outline:not([open]) > nav { display:none; }
+.pixel-document-outline a { display:flex; min-width:0; min-height:44px; gap:8px; align-items:center; padding:8px 10px; color:var(--foreground); font-size:12px; overflow-wrap:anywhere; text-decoration:none; }
+.pixel-document-outline a small { flex-shrink:0; font:10px Consolas,monospace; opacity:.7; }
+.pixel-document-outline a:is(:hover,:focus-visible) { background:var(--surface); outline:1px solid #87947b; outline-offset:-1px; }
 .skin-document-sections--pixel .skin-doc-panel { min-width:0; padding:22px 24px; border:2px solid var(--pixel-ink); background:var(--surface); box-shadow:4px 4px 0 #b4bca3; scroll-margin-top:calc(var(--app-header-height,65px) + 12px); }
-.skin-document-sections--pixel .skin-doc-panel[hidden] { display:none; }
+.skin-document-sections--pixel .skin-doc-panel + .skin-doc-panel { margin-top:16px; }
 .skin-document-sections--pixel .skin-section-heading { display:flex; align-items:center; gap:8px; padding-bottom:12px; margin:0 0 16px; border-bottom:1px dashed #a6ad96; font-weight:700; font-size:16px; }
 .pixel-text-blocks { min-width:0; font-size:14px; line-height:1.85; overflow-wrap:anywhere; }
 .pixel-text-block + .pixel-text-block { margin-top:10px; }
@@ -324,7 +325,6 @@ html[data-theme="pixel"] .review-launcher-details { padding:12px; border-top:1px
   html[data-theme="pixel"] .pixel-document-toolbar .document-toolbar-actions > :is(a[aria-label],button[aria-label]),
   html[data-theme="pixel"] .pixel-document-toolbar .document-toolbar-actions > details > summary[aria-label],
   html[data-theme="pixel"] .pixel-document-toolbar [data-highlighter-slot] > div > button { width:32px; min-width:32px; height:32px; min-height:32px; padding:0; border-radius:0; }
-  .pixel-codex-tabs > button { padding:12px 10px; font-size:11px; }
   .skin-document-sections--pixel .skin-doc-panel { padding:15px 13px; }
   .skin-document-sections--pixel .skin-section-heading { font-size:14px; }
   .pixel-text-blocks { font-size:13px; }

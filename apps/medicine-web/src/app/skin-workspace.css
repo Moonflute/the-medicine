@@ -50,7 +50,7 @@
   html[data-theme="sheet"] .skin-frame .skin-formula { height:31px; }
   html[data-theme="sheet"] .skin-frame .skin-workbook-tabs { min-height:34px; }
   html[data-theme="sheet"] .skin-frame .skin-workbook-tabs a { height:34px; min-width:64px; }
-  html[data-theme="sheet"] .sheet-section-tabs > button { min-height:34px; padding:7px 16px; }
+  html[data-theme="sheet"] .sheet-section-tabs > a { min-height:34px; padding:7px 16px; }
   .sheet-workbook-status { display:flex; align-items:center; margin-left:auto; padding:0 17px; flex-shrink:0; color:#6a7c6e; font-size:10px; }
   html[data-theme="terminal"] .skin-frame .skin-header-line { height:40px; }
   html[data-theme="terminal"] .skin-header-heading strong { font-size:13px; }

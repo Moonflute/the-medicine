@@ -138,10 +138,10 @@ export function SheetDocumentToolbar({ children, metadata, className }: { childr
   </div>;
 }
 
-export function SheetSectionTabs({ children }: { children: ReactNode }) {
+export function SheetSectionNavigation({ children }: { children: ReactNode }) {
   const workbook = useSheetWorkbook();
-  const tabs = <div className="sheet-section-tabs" role="tablist" aria-label="문서 시트">{children}</div>;
-  return workbook?.tabsTarget ? createPortal(tabs, workbook.tabsTarget) : <div className="sheet-section-tabs-fallback">{tabs}</div>;
+  const navigation = <nav className="sheet-section-tabs" aria-label="문서 목차">{children}</nav>;
+  return workbook?.tabsTarget ? createPortal(navigation, workbook.tabsTarget) : <div className="sheet-section-tabs-fallback">{navigation}</div>;
 }
 
 export function SheetParentDestination({ href }: { href: string }) {

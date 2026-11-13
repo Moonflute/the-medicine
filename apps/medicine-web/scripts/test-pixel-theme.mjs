@@ -7,6 +7,7 @@ import React from "react";
 import * as jsxRuntime from "react/jsx-runtime";
 import * as lucide from "lucide-react";
 import { renderToStaticMarkup } from "react-dom/server";
+import { createPortal } from "react-dom";
 import sharp from "sharp";
 
 const compile = (file, deps = {}) => {
@@ -98,19 +99,29 @@ test("battle keeps answer callbacks and grading state, then shows the existing e
   assert.match(wrong, /pixel-opponent" data-pose="cheer"/);
 });
 
-test("codex has one active page while retaining hidden content and real links", () => {
+const sheet = compile("src/components/sheet-workbook.tsx", { ...deps, "react-dom": { createPortal } });
+for (const theme of themes.THEME_IDS) test(`${theme} keeps every document section visible in reading order`, () => {
   const skin = compile("src/components/skin-document.tsx", {
     ...deps, "@/components/pixel-ui": pixel,
+    "@/components/theme-provider": { useSkinTheme: () => ({ theme: themes.themeLayout(theme) }) },
     "@/components/chat-contact": { useChatSenderName: () => "순환기" },
-    "@/components/sheet-workbook": { useInSheetCell: () => false, useSheetWorkbook: () => null },
+    "@/components/sheet-workbook": sheet,
     "@/components/concept-document": {}, "@/components/concept-workspace": { useConceptWorkspace: () => null },
   });
   const html = render(skin.SkinDocumentSections, { sections: [
     { id: "overview", title: "개요", content: React.createElement("a", { href: "/disease/linked" }, "연결 자료") },
     { id: "treatment", title: "치료", content: "두 번째 문단" },
+    { id: "prognosis", title: "예후", content: "마지막 문단" },
   ] });
-  assert.match(html, /id="overview-tab" role="tab" aria-selected="true"/);
-  assert.match(html, /id="treatment" tabindex="-1" hidden="" role="tabpanel"/);
+  assert.equal([...html.matchAll(/<section\b/g)].length, 3);
+  assert.doesNotMatch(html, /<section\b[^>]*\shidden(?:[=\s>])/);
+  assert.doesNotMatch(html, /role="(?:tab|tabpanel|tablist)"/);
+  for (const id of ["overview", "treatment", "prognosis"]) {
+    assert.ok(html.includes(`aria-labelledby="${id}-heading"`));
+    assert.ok(html.includes(`<h3 id="${id}-heading"`));
+    if (theme === "pixel" || theme === "sheet") assert.ok(html.includes(`href="#${id}"`));
+  }
   assert.match(html, /href="\/disease\/linked"/);
-  assert.ok(html.includes("두 번째 문단"));
+  assert.match(html, /연결 자료[\s\S]*두 번째 문단[\s\S]*마지막 문단/);
+  if (theme === "editor") assert.equal([...html.matchAll(/<details class="concept-code-section" open=""/g)].length, 3);
 });

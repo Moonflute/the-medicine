@@ -3,11 +3,11 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { useSkinTheme } from "@/components/theme-provider";
 import { useChatSenderName } from "@/components/chat-contact";
-import { SheetCellRow, SheetDocumentIntro, SheetSectionTabs, useInSheetCell, useSheetWorkbook, type SheetIntroRow } from "@/components/sheet-workbook";
+import { SheetCellRow, SheetDocumentIntro, SheetSectionNavigation, useInSheetCell, useSheetWorkbook, type SheetIntroRow } from "@/components/sheet-workbook";
 import { isConceptTheme, isSpecialTheme } from "@/lib/themes";
 import { ConceptDocumentIntro, ConceptDocumentNotice, ConceptDocumentSummary } from "@/components/concept-document";
 import { useConceptWorkspace } from "@/components/concept-workspace";
-import { PixelDocumentTabs, PixelSprite } from "@/components/pixel-ui";
+import { PixelDocumentOutline, PixelSprite } from "@/components/pixel-ui";
 
 export type SkinTextBlock = { kind: "text" | "heading" | "group" | "table" | "space"; label?: string; content: ReactNode };
 
@@ -62,9 +62,7 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
   const { theme } = useSkinTheme();
   const resetSelection = useSheetWorkbook()?.reset;
   const setOutline = useConceptWorkspace()?.setOutline;
-  const [selectedId, setSelectedId] = useState(sections[0]?.id ?? "");
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
-  const activeId = sections.some(section => section.id === selectedId) ? selectedId : sections[0]?.id;
   const sectionKey = JSON.stringify(sections.map(section => section.id));
   const outlineKey = JSON.stringify(sections.map(({ id, title }) => ({ id, title })));
   useEffect(() => {
@@ -79,7 +77,6 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
       let id: string;
       try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
       if (ids.has(id)) {
-        setSelectedId(id);
         setCollapsed(previous => { if (!previous.has(id)) return previous; const next = new Set(previous); next.delete(id); return next; });
         if (theme === "sheet") resetSelection?.();
         if (theme === "sheet" || theme === "social" || theme === "editor" || theme === "pixel") window.requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
@@ -88,7 +85,6 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
     const selectFromToc = (event: Event) => {
       const id = (event as CustomEvent<string>).detail;
       if (ids.has(id)) {
-        setSelectedId(id);
         setCollapsed(previous => { if (!previous.has(id)) return previous; const next = new Set(previous); next.delete(id); return next; });
         if (theme === "sheet") resetSelection?.();
         if (theme === "sheet" || theme === "social" || theme === "editor" || theme === "pixel") window.requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
@@ -103,35 +99,13 @@ export function SkinDocumentSections({ sections, className = "", plainSectionCla
     };
   }, [sectionKey, theme, resetSelection]);
 
-  const choose = (id: string) => {
-    setSelectedId(id);
-    if (theme === "sheet") resetSelection?.();
-    const url = new URL(window.location.href);
-    url.hash = id;
-    window.history.replaceState(null, "", url);
-    if (theme === "sheet" || theme === "social") window.requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
-  };
   const special = isSpecialTheme(theme);
-  const tabbed = theme === "sheet" || theme === "social" || theme === "pixel";
   return <div className={special ? `skin-document-sections skin-document-sections--${theme}` : className}>
-    {theme === "pixel" ? <PixelDocumentTabs sections={sections} activeId={activeId} choose={choose} /> : null}
-    {theme === "social" ? <div className="concept-carousel-controls" data-highlight-ignore><button type="button" aria-label="이전 문단" disabled={activeId === sections[0]?.id} onClick={() => choose(sections[Math.max(0, sections.findIndex(section => section.id === activeId) - 1)].id)}>‹</button><div role="tablist" aria-label="게시물 문단">{sections.map(section => <button key={section.id} id={`${section.id}-tab`} type="button" role="tab" aria-label={section.title} aria-selected={activeId === section.id} aria-controls={section.id} tabIndex={activeId === section.id ? 0 : -1} onClick={() => choose(section.id)} onKeyDown={event => {
-      const index = sections.findIndex(item => item.id === section.id);
-      const target = event.key === "ArrowRight" ? sections[(index + 1) % sections.length] : event.key === "ArrowLeft" ? sections[(index + sections.length - 1) % sections.length] : event.key === "Home" ? sections[0] : event.key === "End" ? sections.at(-1) : undefined;
-      if (target) { event.preventDefault(); choose(target.id); document.getElementById(`${target.id}-tab`)?.focus(); }
-    }} title={section.title}><span /></button>)}</div><span className="concept-carousel-count">{sections.findIndex(section => section.id === activeId) + 1}/{sections.length}</span><button type="button" aria-label="다음 문단" disabled={activeId === sections.at(-1)?.id} onClick={() => choose(sections[Math.min(sections.length - 1, sections.findIndex(section => section.id === activeId) + 1)].id)}>›</button></div> : null}
-    {theme === "sheet" ? <SheetSectionTabs>
-      {sections.map(section => <button key={section.id} type="button" id={`${section.id}-tab`} role="tab" aria-selected={activeId === section.id} aria-controls={section.id} tabIndex={activeId === section.id ? 0 : -1} onClick={() => choose(section.id)} onKeyDown={event => {
-        const index = sections.findIndex(item => item.id === section.id);
-        let target: SkinDocumentSection | undefined;
-        if (event.key === "ArrowRight") target = sections[(index + 1) % sections.length];
-        if (event.key === "ArrowLeft") target = sections[(index + sections.length - 1) % sections.length];
-        if (event.key === "Home") target = sections[0];
-        if (event.key === "End") target = sections.at(-1);
-        if (target) { event.preventDefault(); choose(target.id); document.getElementById(`${target.id}-tab`)?.focus(); }
-      }} title={section.title}>{section.title.replace(/\s*[（(].*$/, "").trim()}</button>)}
-    </SheetSectionTabs> : null}
-    {sections.map((section, index) => <section key={section.id} id={section.id} tabIndex={-1} hidden={tabbed && activeId !== section.id} role={tabbed ? "tabpanel" : undefined} aria-labelledby={tabbed ? `${section.id}-tab` : `${section.id}-heading`} className={special ? "skin-doc-panel" : plainSectionClassName}>
+    {theme === "pixel" ? <PixelDocumentOutline sections={sections} /> : null}
+    {theme === "sheet" ? <SheetSectionNavigation>
+      {sections.map(section => <a key={section.id} href={`#${section.id}`} title={section.title}>{section.title.replace(/\s*[（(].*$/, "").trim()}</a>)}
+    </SheetSectionNavigation> : null}
+    {sections.map((section, index) => <section key={section.id} id={section.id} tabIndex={-1} aria-labelledby={`${section.id}-heading`} className={special ? "skin-doc-panel" : plainSectionClassName}>
       {theme === "editor" ? <details className="concept-code-section" open={!collapsed.has(section.id)} onToggle={event => { const open = event.currentTarget.open; setCollapsed(previous => { if (previous.has(section.id) === !open) return previous; const next = new Set(previous); if (open) next.delete(section.id); else next.add(section.id); return next; }); }}><summary><span aria-hidden="true">⌄</span><h3 id={`${section.id}-heading`}><span className="concept-code-keyword">region</span> {section.title}</h3></summary><div className="concept-code-section-body">{section.content}</div><div className="concept-code-comment concept-code-end">{"// endregion"}</div></details> : <>
       {theme === "sheet" ? <SheetCellRow label="목차" heading><h3 id={`${section.id}-heading`}>{section.title}</h3></SheetCellRow> : <div className={special ? "skin-section-heading" : "mb-3 flex items-center gap-2"}>
         {theme === "notebook" ? <span className="notebook-section-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span> : theme === "chat" ? <span className="skin-section-divider">{String(index + 1).padStart(2, "0")}</span> : theme === "terminal" ? <span aria-hidden="true">[{String(index + 1).padStart(2, "0")}]</span> : section.icon}

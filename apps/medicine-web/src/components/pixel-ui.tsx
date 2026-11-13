@@ -84,11 +84,12 @@ export function PixelHomeDirectory() {
   </div>;
 }
 
-export function PixelDocumentTabs({ sections, activeId, choose }: { sections: { id: string; title: string }[]; activeId?: string; choose: (id: string) => void }) {
-  return <div className="pixel-codex-tabs" role="tablist" aria-label="도감 목차" data-highlight-ignore>{sections.map((section, index) => <button key={section.id} type="button" id={`${section.id}-tab`} role="tab" aria-selected={activeId === section.id} aria-controls={section.id} tabIndex={activeId === section.id ? 0 : -1} onClick={() => choose(section.id)} onKeyDown={event => {
-    const target = event.key === "ArrowRight" ? sections[(index + 1) % sections.length] : event.key === "ArrowLeft" ? sections[(index + sections.length - 1) % sections.length] : event.key === "Home" ? sections[0] : event.key === "End" ? sections.at(-1) : undefined;
-    if (target) { event.preventDefault(); choose(target.id); document.getElementById(`${target.id}-tab`)?.focus(); }
-  }} title={section.title}><small>{String(index + 1).padStart(2, "0")}</small>{section.title.replace(/\s*\([^)]*\)/g, "")}</button>)}</div>;
+export function PixelDocumentOutline({ sections }: { sections: { id: string; title: string }[] }) {
+  if (!sections.length) return null;
+  return <details className="pixel-codex-note pixel-document-outline" data-highlight-ignore>
+    <summary><PixelSprite name="book" />도감 목차 · {sections.length}</summary>
+    <nav aria-label="도감 목차">{sections.map((section, index) => <a key={section.id} href={`#${section.id}`} title={section.title}><small aria-hidden="true">{String(index + 1).padStart(2, "0")}</small>{section.title.replace(/\s*\([^)]*\)/g, "")}</a>)}</nav>
+  </details>;
 }
 
 export function PixelQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode, sourceTitle, correct = null }: {
