@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { KeyboardEvent as ReactKeyboardEvent } from "react";
+import type { KeyboardEvent as ReactKeyboardEvent, ReactNode } from "react";
 import { SkinEntry } from "@/components/skin-entry";
 import { SkinStatus } from "@/components/skin-status";
 import { useRouter } from "next/navigation";
@@ -104,7 +104,9 @@ function scoreEntry(entry: SearchEntry, term: string, compactTerm: string) {
   return 0;
 }
 
-export function SearchPanel({ entries, className = "", initialQuery = "" }: { entries: SearchEntry[]; className?: string; initialQuery?: string }) {
+export function SearchPanel({ entries, className = "", initialQuery = "", children }: {
+  entries: SearchEntry[]; className?: string; initialQuery?: string; children?: ReactNode;
+}) {
   const router = useRouter();
   const { theme } = useSkinTheme();
   const specialTheme = isSpecialTheme(theme);
@@ -204,6 +206,7 @@ export function SearchPanel({ entries, className = "", initialQuery = "" }: { en
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
 
+      {children ? <div className={hasSearch ? "hidden" : "contents"}>{children}</div> : null}
       {specialTheme && !hasSearch ? <SkinHomeDirectory /> : null}
 
       {!hasSearch && recentSearches.length > 0 ? (

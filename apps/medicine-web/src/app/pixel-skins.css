@@ -263,7 +263,7 @@ html[data-theme="pixel"] .qbank-session-progress > .h-2 { display:none; }
 .skin-panel--pixel .skin-panel-mark { font:11px/1.5 Consolas,monospace; background:none; width:auto; height:auto; padding:0; color:#526b49; }
 .skin-panel--pixel .skin-panel-content { margin:0; padding:16px; border:0; border-radius:0; background:transparent; }
 html[data-theme="pixel"] .review-launcher-heading { display:flex; justify-content:space-between; padding:10px 0; font:11px/1.5 Consolas,monospace; letter-spacing:1.2px; color:var(--muted); }
-html[data-theme="pixel"] .review-launcher-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+html[data-theme="pixel"] .review-launcher-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
 html[data-theme="pixel"] .review-launcher { position:relative; margin:0; border:2px solid var(--pixel-ink); border-radius:0; background:var(--surface); box-shadow:3px 3px 0 #a9b29b; color:var(--foreground); }
 html[data-theme="pixel"] .review-action-main { display:flex; align-items:flex-start; gap:12px; min-height:124px; width:100%; padding:18px 15px; color:inherit; background:none; text-align:left; border-radius:0; }
 html[data-theme="pixel"] .review-action-main:hover { background:#e9efda; }

@@ -1,14 +1,50 @@
 "use client";
 
 import { useRef, useState, useSyncExternalStore } from "react";
+import { reviewCardsErrorMessage, useReviewCards } from "@/components/review-cards-provider";
 import { useAppTheme } from "@/components/theme-provider";
 import { chatFonts, chatSkins, CHAT_TEXT_SIZES, isChatFont, isChatTextSize, themeGroups } from "@/lib/themes";
 import { getStudyFlowButtonServerSnapshot, getStudyFlowButtonVisible, setStudyFlowButtonVisible, subscribeStudyFlowButton } from "@/lib/study-flow-preferences";
+import type { HomeReviewDisplay } from "@/lib/review-cards";
+
+const homeDisplays = [{ value: "heart", label: "심장" }, { value: "cards", label: "복습카드" }] as const;
+
+function HomeDisplaySetting() {
+  const { account, display, saving, loadError, refresh, setHomeDisplay } = useReviewCards();
+  const [message, setMessage] = useState("");
+
+  async function choose(value: HomeReviewDisplay) {
+    if (value === display) return;
+    setMessage("");
+    try {
+      await setHomeDisplay(value);
+    } catch (error) {
+      setMessage(reviewCardsErrorMessage(error));
+    }
+  }
+
+  return (
+    <section aria-labelledby="home-settings-display-title">
+      <h3 id="home-settings-display-title">홈 화면</h3>
+      <div className="review-card-display-options" role="group" aria-labelledby="home-settings-display-title">
+        {homeDisplays.map(({ value, label }) => <button key={value} type="button"
+          aria-pressed={(display ?? "heart") === value} disabled={!account || !display || saving}
+          onClick={() => void choose(value)}>{label}</button>)}
+      </div>
+      {account === null ? <p className="home-settings-intro">로그인하면 홈에 복습카드를 표시할 수 있어요.</p> : null}
+      {account && !display && loadError ? <p className="home-settings-intro" role="status">
+        설정을 불러오지 못했어요. <button type="button" className="review-card-link" onClick={() => void refresh()}>다시 시도</button>
+      </p> : null}
+      {message ? <p className="home-settings-intro" role="status">{message}</p> : null}
+    </section>
+  );
+}
 
 export function HomeSettings() {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const [open, setOpen] = useState(false);
+  const { account } = useReviewCards();
   const { theme: activeTheme, setTheme, chatSkin, setChatSkin, chatFont, setChatFont, chatTextSize, setChatTextSize } = useAppTheme();
   const [saveMessage, setSaveMessage] = useState("");
   const flowButtonVisible = useSyncExternalStore(subscribeStudyFlowButton, getStudyFlowButtonVisible, getStudyFlowButtonServerSnapshot);
@@ -64,6 +100,7 @@ export function HomeSettings() {
         </div>
 
         <div className="home-settings-content">
+          <HomeDisplaySetting key={account ?? "guest"} />
           <section aria-labelledby="home-settings-theme-title">
             <h3 id="home-settings-theme-title">테마 · 스킨</h3>
             <p className="home-settings-intro">선택하면 바로 적용되고, 다음 방문에도 유지됩니다.</p>

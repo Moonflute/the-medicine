@@ -378,4 +378,4 @@ html[data-theme="terminal"] .review-action-settings { top:12px; right:0; width:4
 html[data-theme="terminal"] .review-action-settings > span { display:block; }
 html[data-theme="terminal"] .review-launcher-details { padding:12px 0; border-top-style:dashed; }
 html[data-theme="terminal"] .review-launcher-option { border-radius:0; color:#fff; }
-@media (min-width:1024px) { .review-launcher-list { grid-template-columns:repeat(3,minmax(0,1fr)); } html:is([data-theme="chat"],[data-theme="messenger"],[data-theme="sheet"],[data-theme="terminal"]) .review-launcher-list { grid-template-columns:minmax(0,1fr); } }
+@media (min-width:1024px) { .review-launcher-list { grid-template-columns:repeat(2,minmax(0,1fr)); } html:is([data-theme="chat"],[data-theme="messenger"],[data-theme="sheet"],[data-theme="terminal"]) .review-launcher-list { grid-template-columns:minmax(0,1fr); } }

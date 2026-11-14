@@ -1,25 +1,27 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Headphones, ListChecks, Settings2, Shuffle } from "lucide-react";
-import type { ReactNode } from "react";
+import { ArrowRight, Headphones, Layers2, ListChecks, Settings2, Shuffle } from "lucide-react";
+import { Children, type ReactNode } from "react";
 import { useSkinTheme } from "@/components/theme-provider";
 
 const actions = {
   qbank: { number: 1, code: "QBANK", label: "문제", title: "문제 풀기", summary: "이론·임상 Q-bank 문제 풀기", icon: ListChecks },
   random: { number: 2, code: "RANDOM", label: "랜덤", title: "랜덤 페이지 학습", summary: "선택한 섹션에서 임의의 페이지를 열어 복습합니다.", icon: Shuffle },
   audio: { number: 3, code: "AUDIO", label: "청취", title: "청취 모드", summary: "팟캐스트처럼 틀어놓고 듣습니다.", icon: Headphones },
+  cards: { number: 4, code: "CARDS", label: "카드", title: "복습카드", summary: "내 카드로 답을 떠올리고 복습합니다.", icon: Layers2 },
 };
 
 export function ReviewLaunchActions({ children }: { children: ReactNode }) {
   const { theme } = useSkinTheme();
+  const count = Children.count(children);
   return <section className="review-launchers" aria-label="학습 메뉴">
     {theme === "notebook" ? <div className="review-launcher-heading"><span>오늘의 복습</span><span>study notes</span></div>
-      : theme === "chat" ? <div className="review-launcher-heading"><span>학습 대화</span><span>3개</span></div>
-      : theme === "pixel" ? <div className="review-launcher-heading"><span>SELECT ADVENTURE</span><span>3 MODES</span></div>
+      : theme === "chat" ? <div className="review-launcher-heading"><span>학습 대화</span><span>{count}개</span></div>
+      : theme === "pixel" ? <div className="review-launcher-heading"><span>SELECT ADVENTURE</span><span>{count} MODES</span></div>
       : theme === "sheet" ? <div className="review-launcher-columns" aria-hidden="true"><span /><span>A · 학습</span><span>B · 내용</span><span>C</span></div>
-        : theme === "terminal" ? <div className="review-launcher-heading"><span>C:\REVIEW&gt; MENU</span><span>3 COMMANDS</span></div> : null}
-    {theme === "mail" || theme === "social" || theme === "editor" ? <div className="skin-directory-heading"><span>{theme === "mail" ? "학습 메일함" : theme === "social" ? "내 학습 피드" : "scripts / learning"}</span><span>3</span></div> : null}
+        : theme === "terminal" ? <div className="review-launcher-heading"><span>C:\REVIEW&gt; MENU</span><span>{count} COMMANDS</span></div> : null}
+    {theme === "mail" || theme === "social" || theme === "editor" ? <div className="skin-directory-heading"><span>{theme === "mail" ? "학습 메일함" : theme === "social" ? "내 학습 피드" : "scripts / learning"}</span><span>{count}</span></div> : null}
     <div className="review-launcher-list" key="actions">{children}</div>
   </section>;
 }

@@ -1,10 +1,11 @@
 import { studyDateKey } from "./study-date";
 import { queueChangedRows } from "./learning-sync-outbox";
 import { reviewRow, coverageRow } from "./learning-sync-data";
+import { nextReviewAt, type ReviewConfidence } from "./review-schedule";
 
 export type ReviewDomain = "disease" | "cc" | "drug" | "lab" | "skill";
 
-export type ReviewConfidence = "again" | "hard" | "good";
+export type { ReviewConfidence } from "./review-schedule";
 
 export type ReviewCatalogItem = {
   type: ReviewDomain;
@@ -162,18 +163,12 @@ export function rateReviewItem(type: ReviewDomain, id: string, confidence: Revie
   const next = items.map((item) => {
     if (item.type !== type || item.id !== id) return item;
     const reviewCount = item.reviewCount + 1;
-    const delayMinutes =
-      confidence === "again"
-        ? 10
-        : confidence === "hard"
-          ? 24 * 60 * Math.max(1, reviewCount)
-          : 3 * 24 * 60 * Math.max(1, reviewCount);
     return {
       ...item,
       confidence,
       reviewCount,
       lastReviewedAt: now.toISOString(),
-      nextReviewAt: new Date(now.getTime() + delayMinutes * 60_000).toISOString(),
+      nextReviewAt: nextReviewAt(confidence, reviewCount, now),
     };
   });
   saveReviewItems(next);

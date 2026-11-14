@@ -70,6 +70,7 @@ export default function ReviewPage() {
         <ReviewLaunchAction kind="qbank" href="/review/qbank" />
         <RandomPageLearningCard catalog={catalog} />
         <ReviewLaunchAction kind="audio" href="/review/audio" />
+        <ReviewLaunchAction kind="cards" href="/review/cards" />
       </ReviewLaunchActions>
       <ReviewPageClient catalog={catalog} />
     </div>

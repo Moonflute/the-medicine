@@ -12,6 +12,7 @@
 @import "./qbank-reference.css";
 @import "./notebook-skins.css";
 @import "./qbank-session-layout.css";
+@import "./review-cards.css";
 
 :root {
   color-scheme: light;
