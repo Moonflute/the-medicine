@@ -26,7 +26,8 @@ export function isReviewCardDue(card: ReviewCard, now: number) {
   return !card.due_at || Date.parse(card.due_at) <= now;
 }
 
-export function nextHomeCard<T extends Pick<ReviewCard, "id">>(cards: readonly T[], lastId: string | null) {
-  const lastIndex = cards.findIndex(card => card.id === lastId);
-  return cards[lastIndex + 1] ?? cards[0] ?? null;
+export function adjacentHomeCard<T extends Pick<ReviewCard, "id">>(cards: readonly T[], currentId: string | null, direction: -1 | 1) {
+  const currentIndex = cards.findIndex(card => card.id === currentId);
+  if (currentIndex < 0) return cards[0] ?? null;
+  return cards[(currentIndex + direction + cards.length) % cards.length];
 }

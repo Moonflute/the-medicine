@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { Plus, Search } from "lucide-react";
+import { Pencil, Plus, Search, X } from "lucide-react";
 import { reviewCardsErrorMessage, useReviewCards } from "@/components/review-cards-provider";
 import { isReviewCardDue, REVIEW_CARD_LIMITS, type ReviewCard, type ReviewCardDraft } from "@/lib/review-cards";
 import type { ReviewConfidence } from "@/lib/review-schedule";
@@ -12,6 +12,7 @@ const ratings: { value: ReviewConfidence; label: string }[] = [
   { value: "good", label: "기억남" },
 ];
 const dueFormat = new Intl.DateTimeFormat("ko-KR", { dateStyle: "medium", timeStyle: "short" });
+const UNDO_WINDOW_MS = 10_000;
 
 export function ReviewCardsClient() {
   const { account, cards, loadError, refresh } = useReviewCards();
@@ -26,7 +27,7 @@ export function ReviewCardsClient() {
 }
 
 function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
-  const { saving, loadError, saveCard, deleteCard, setHomeHidden, rateCard, refresh } = useReviewCards();
+  const { saving, loadError, saveCard, deleteCard, restoreCards, setHomeHidden, rateCard, refresh } = useReviewCards();
   const [now, setNow] = useState(Date.now);
   const [query, setQuery] = useState("");
   const [draft, setDraft] = useState<ReviewCardDraft | null>(null);
@@ -34,12 +35,21 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
   const [revealed, setRevealed] = useState<{ id: string; revision: number } | null>(null);
   const [message, setMessage] = useState("");
   const [draftMessage, setDraftMessage] = useState("");
+  const [pendingUndo, setPendingUndo] = useState<{ cards: ReviewCard[]; expiresAt: number } | null>(null);
+  const [undoError, setUndoError] = useState("");
   const frontInput = useRef<HTMLTextAreaElement>(null);
   const draftId = draft?.id;
 
   useEffect(() => {
     if (draftId) frontInput.current?.focus();
   }, [draftId]);
+
+  useEffect(() => {
+    if (!pendingUndo || saving || undoError) return;
+    const timer = window.setTimeout(() => setPendingUndo(current => current === pendingUndo ? null : current),
+      Math.max(0, pendingUndo.expiresAt - Date.now()));
+    return () => window.clearTimeout(timer);
+  }, [pendingUndo, saving, undoError]);
 
   useEffect(() => {
     const tick = () => setNow(Date.now());
@@ -87,14 +97,39 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
     }
   }
 
-  async function manageCard(action: () => Promise<void>, success: string) {
+  async function manageCard(action: () => Promise<void>) {
     setMessage("");
     try {
       await action();
-      setMessage(success);
     } catch (error) {
       setMessage(reviewCardsErrorMessage(error));
       void refresh();
+    }
+  }
+
+  function removeCard(card: ReviewCard) {
+    return manageCard(async () => {
+      const removed = await deleteCard(card);
+      if (!removed) return;
+      setUndoError("");
+      const now = Date.now();
+      setPendingUndo(previous => ({
+        cards: previous && (previous.expiresAt > now || undoError)
+          ? [...previous.cards.filter(item => item.id !== removed.id), removed] : [removed],
+        expiresAt: now + UNDO_WINDOW_MS,
+      }));
+    });
+  }
+
+  async function undoDelete() {
+    if (saving || !pendingUndo) return;
+    setUndoError("");
+    try {
+      await restoreCards(pendingUndo.cards);
+      setPendingUndo(null);
+      setMessage("삭제를 되돌렸어요.");
+    } catch {
+      setUndoError("카드를 복구하지 못했어요. 다시 시도해 주세요.");
     }
   }
 
@@ -123,7 +158,12 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
     }
   }
 
-  if (session) return (
+  const undoNotice = pendingUndo ? <div className="review-card-undo">
+    <p role="status">{undoError || (pendingUndo.cards.length === 1 ? "카드를 삭제했어요." : `카드 ${pendingUndo.cards.length}장을 삭제했어요.`)}</p>
+    <button type="button" className="review-card-link" disabled={saving} onClick={() => void undoDelete()}>되돌리기</button>
+  </div> : null;
+
+  if (session) return (<>
     <section className="review-card-panel review-card-session" aria-label="복습 진행">
       <div className="review-card-heading">
         <p role="status">{active ? `남은 카드 ${remaining.length}장` : session.graded ? `${session.graded}장 복습했어요.` : "지금 복습할 카드가 없어요."}</p>
@@ -150,7 +190,8 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
       </> : null}
       {message ? <p className="review-card-status" role="status">{message}</p> : null}
     </section>
-  );
+    {undoNotice}
+  </>);
 
   return (
     <>
@@ -194,25 +235,36 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
             <input type="search" value={query} onChange={event => setQuery(event.target.value)} aria-label="카드 앞면 검색" placeholder="카드 앞면 검색" />
           </label>
           {matching.length ? <ul>{matching.map(card => <li key={card.id}>
-            <div className="review-card-list-copy">
-              <p className="review-card-text">{card.front}</p>
+            <dl className="review-card-list-faces">
+              <div><dt>앞면</dt><dd className="review-card-text">{card.front}</dd></div>
+              <div><dt>뒷면</dt><dd className="review-card-text">{card.back}</dd></div>
+            </dl>
+            <div className="review-card-list-footer">
               <p className="review-card-meta">
                 {isReviewCardDue(card, now) ? "복습 가능" : `다음 복습 ${dueFormat.format(new Date(card.due_at!))}`}
-                {card.home_hidden ? " · 홈에서 제외됨" : null}
               </p>
-            </div>
-            <div className="review-card-actions">
-              <button type="button" className="secondary-action" disabled={Boolean(draft) || saving} onClick={() => openDraft(card)}>수정</button>
-              <button type="button" className="secondary-action" disabled={saving} onClick={() => void manageCard(
-                () => setHomeHidden(card.id, !card.home_hidden), card.home_hidden ? "홈에 다시 표시할게요." : "홈에서 제외했어요.",
-              )}>{card.home_hidden ? "홈에 다시 표시" : "홈에서 제외"}</button>
-              <button type="button" className="secondary-action" disabled={saving || draftId === card.id} onClick={() => {
-                if (window.confirm("이 카드를 삭제할까요?")) void manageCard(() => deleteCard(card), "카드를 삭제했어요.");
-              }}>삭제</button>
+              <div className="review-card-row-controls">
+                <label className="review-card-checkbox">
+                  <span>홈 제외</span>
+                  <input type="checkbox" checked={card.home_hidden} disabled={saving} onChange={event => {
+                    const hidden = event.currentTarget.checked;
+                    void manageCard(() => setHomeHidden(card.id, hidden));
+                  }} />
+                </label>
+                <button type="button" className="review-card-icon" aria-label="카드 수정" title="카드 수정"
+                  disabled={Boolean(draft) || saving} onClick={() => openDraft(card)}>
+                  <Pencil size={16} aria-hidden="true" />
+                </button>
+                <button type="button" className="review-card-icon review-card-delete" aria-label="카드 삭제" title="카드 삭제"
+                  disabled={saving || draftId === card.id} onClick={() => void removeCard(card)}>
+                  <X size={18} aria-hidden="true" />
+                </button>
+              </div>
             </div>
           </li>)}</ul> : <p className="review-card-status">{cards.length ? "검색 결과가 없어요." : "아직 복습카드가 없어요."}</p>}
         </section>
       </div>
+      {undoNotice}
     </>
   );
 }

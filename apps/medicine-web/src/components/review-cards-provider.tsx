@@ -27,7 +27,8 @@ type ReviewCardsContextValue = {
   saving: boolean;
   refresh: () => Promise<void>;
   saveCard: (draft: ReviewCardDraft) => Promise<void>;
-  deleteCard: (card: ReviewCard) => Promise<void>;
+  deleteCard: (card: ReviewCard) => Promise<ReviewCard | null>;
+  restoreCards: (cards: ReviewCard[]) => Promise<void>;
   setHomeHidden: (id: string, hidden: boolean) => Promise<void>;
   setHomeDisplay: (display: HomeReviewDisplay) => Promise<void>;
   rateCard: (card: ReviewCard, confidence: ReviewConfidence) => Promise<void>;
@@ -137,6 +138,7 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
       const result = await request(client, account);
       if (pendingWrite.current !== token) throw new CardConflictError("로그인 계정이 바뀌었어요.");
       setData(previous => previous?.account === account ? update(previous, result) : previous);
+      return result;
     } finally {
       if (pendingWrite.current === token) {
         pendingWrite.current = null;
@@ -145,8 +147,8 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
     }
   }
 
-  function writeCard(request: (client: SupabaseClient, owner: string) => Promise<ReviewCard>) {
-    return write(request, (previous, card) => ({
+  async function writeCard(request: (client: SupabaseClient, owner: string) => Promise<ReviewCard>) {
+    await write(request, (previous, card) => ({
       ...previous,
       cards: sortReviewCards([...(previous.cards ?? []).filter(item => item.id !== card.id), card]),
     }));
@@ -186,13 +188,37 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
     return write(async (client, owner) => {
       const table = client.from("review_cards");
       const { data, error } = await table.delete().eq("user_id", owner).eq("id", card.id)
-        .eq("content_revision", card.content_revision).select("id").maybeSingle();
+        .eq("content_revision", card.content_revision).select(REVIEW_CARD_FIELDS).maybeSingle<ReviewCard>();
       if (error) throw error;
-      if (data) return;
+      if (data) return data;
       const { data: latest, error: readError } = await table.select("id").eq("user_id", owner).eq("id", card.id).maybeSingle();
       if (readError) throw readError;
       if (latest) throw new CardConflictError("다른 기기에서 카드가 수정됐어요. 최신 카드를 확인한 다음 삭제해 주세요.");
+      return null;
     }, previous => ({ ...previous, cards: previous.cards?.filter(item => item.id !== card.id) ?? null }));
+  }
+
+  async function restoreCards(deletedCards: ReviewCard[]) {
+    await write(async (client, owner) => {
+      const table = client.from("review_cards");
+      const { data, error } = await table.upsert(deletedCards.map(card => ({ ...card, user_id: owner })),
+        { onConflict: "user_id,id", ignoreDuplicates: true }).select(REVIEW_CARD_FIELDS).returns<ReviewCard[]>();
+      if (error) throw error;
+      if (data.length === deletedCards.length) return data;
+
+      // A previous retry or another device may already have restored a card.
+      const { data: latest, error: readError } = await table.select(REVIEW_CARD_FIELDS)
+        .eq("user_id", owner).in("id", deletedCards.map(card => card.id)).returns<ReviewCard[]>();
+      if (readError) throw readError;
+      if (latest.length !== deletedCards.length) throw new Error("Some review cards could not be restored.");
+      return latest;
+    }, (previous, restored) => {
+      const restoredIds = new Set(restored.map(card => card.id));
+      return {
+        ...previous,
+        cards: sortReviewCards([...(previous.cards ?? []).filter(card => !restoredIds.has(card.id)), ...restored]),
+      };
+    });
   }
 
   function setHomeHidden(id: string, home_hidden: boolean) {
@@ -229,7 +255,7 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
   return (
     <ReviewCardsContext.Provider value={{
       account, cards: current?.cards ?? null, display: current?.display ?? null, loadError, saving,
-      refresh, saveCard, deleteCard, setHomeHidden, setHomeDisplay, rateCard,
+      refresh, saveCard, deleteCard, restoreCards, setHomeHidden, setHomeDisplay, rateCard,
     }}>
       {children}
     </ReviewCardsContext.Provider>
