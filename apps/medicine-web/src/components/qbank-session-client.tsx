@@ -25,6 +25,8 @@ import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
 import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
 import { QbankCopyButton } from "@/components/qbank-copy-button";
 import { QbankExplanation } from "@/components/qbank-explanation";
+import { QbankReviewCardButton } from "@/components/qbank-review-card-button";
+import { elapsedAt, readElapsedMs, resumeElapsedClock, type QbankElapsedClock } from "@/lib/qbank-elapsed-time";
 import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
@@ -204,7 +206,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     const privateIds = privateIndex.filter((q) => {
       if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return trackedIds?.has(q.id) ?? false;
       if (mode === "all" || mode === "study-flow") return targetIds ? targetIds.has(q.id) : !isPracticeRevisionId(q.id);
-      if (mode === "unattempted") return !isPracticeRevisionId(q.id) && !state.progress[q.id];
+      if (mode === "unattempted") return !isPracticeRevisionId(q.id) && !isQbankProgressedInCurrentView(state.progress[q.id]);
       if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
       if (practiceUnattemptedOnly && isQbankProgressedInCurrentView(state.progress[q.id], loadQbankProgressViewResetAt())) return false;
       if (mode !== "related") return true;
@@ -226,7 +228,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [roundClock, setRoundClock] = useState<QbankRunningRoundClock>();
   const deadlineAt = roundClock?.deadlineAt;
   const liveRoundClockRef = useRef<QbankRunningRoundClock | undefined>(undefined);
-  const pausedRoundRef = useRef<{ sessionId: string; roundRemainingMs: number } | null>(null);
+  const pausedRoundRef = useRef<{ sessionId: string; roundRemainingMs?: number; elapsedMs?: number } | null>(null);
+  const elapsedClockRef = useRef<QbankElapsedClock | undefined>(undefined);
+  const [elapsedClock, setElapsedClock] = useState<QbankElapsedClock>();
   const [optionSessionId, setOptionSessionId] = useState("");
   const [questions, setQuestions] = useState<SessionQuestion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -271,6 +275,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     setRoundClock(clock);
   }, []);
   const isRoundClockRunning = useCallback((clock: QbankRunningRoundClock) => liveRoundClockRef.current === clock, []);
+  const restoreElapsedClock = useCallback((value: number | undefined, now: number, sameSet = false) => {
+    const clock = resumeElapsedClock(value, now, sameSet ? elapsedClockRef.current : undefined);
+    elapsedClockRef.current = clock;
+    setElapsedClock(clock);
+  }, []);
 
   const flushPendingCloudSession = useCallback(() => {
     const pending = pendingCloudSessionRef.current;
@@ -355,7 +364,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         let filtered = loaded;
         if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
         if (mode === "wrong" || mode === "bookmarks" || mode === "retry") filtered = loaded.filter((item) => targetIds?.has(item.id));
-        if (mode === "unattempted") filtered = loaded.filter((item) => !state.progress[item.id]);
+        if (mode === "unattempted") filtered = loaded.filter((item) => !isQbankProgressedInCurrentView(state.progress[item.id]));
         const requestedCount = resolveQbankSessionCount(requestedCountValue, filtered.length);
         const restoredQuestions = snapshot ? restoreQbankQuestionOrder(loaded, snapshot.questionIds) : [];
         if (snapshot && restoredQuestions.length !== snapshot.questionIds.length) throw new Error("저장된 문제에 접근할 수 없습니다.");
@@ -370,6 +379,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const startedAt = Date.now();
         const minutes = practiceRoundLimitFromParams(params);
         startRoundClock(snapshot ? resumeRoundDeadline(snapshot, startedAt) : minutes !== undefined ? startedAt + minutes * 60_000 : undefined);
+        restoreElapsedClock(snapshot ? readElapsedMs(snapshot.elapsedMs) : 0, startedAt);
         setMockExam(snapshot ? readMockExam(snapshot.mockExam) : params.get("exam") === "1" ? { version: 1, title: `${params.get("practiceYears") || "모의고사"}년 모의고사`, startedAt: new Date(startedAt).toISOString(), drafts: {}, flaggedIds: [] } : null);
         setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
@@ -387,7 +397,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       .catch((reason: unknown) => { if (!cancelled && !remoteSessionApplyingRef.current) setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."); })
       .finally(() => { if (!cancelled && !remoteSessionApplyingRef.current) setLoading(false); });
     return () => { cancelled = true; };
-  }, [sessionStorageKey, specialties, startRoundClock]);
+  }, [sessionStorageKey, specialties, startRoundClock, restoreElapsedClock]);
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
@@ -495,6 +505,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         saveLocalActiveQbankSession(remoteActiveSession);
         setMockExam(readMockExam(remoteActiveSession.mockExam));
         const restoredDeadline = resumeRoundDeadline(remoteActiveSession, Date.now(), previousDeadline);
+        restoreElapsedClock(remoteActiveSession.elapsedMs, Date.now(), sameSet);
         if (!sameSet || restoredDeadline !== previousDeadline) startRoundClock(restoredDeadline);
         setSessionContext(remoteActiveSession.context);
         setOptionSessionId(remoteActiveSession.sessionId);
@@ -514,7 +525,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       .catch((error) => { console.warn("Q-bank active session could not be restored.", error); if (!cancelled) setError("저장된 풀이를 복원하지 못했습니다. 로그인과 문제 접근 권한을 확인해 주세요."); })
       .finally(() => { if (!cancelled) setLoading(false); window.setTimeout(() => { remoteSessionApplyingRef.current = false; }, 0); });
     return () => { cancelled = true; };
-  }, [remoteActiveSession, specialties, startRoundClock]);
+  }, [remoteActiveSession, specialties, startRoundClock, restoreElapsedClock]);
 
   const current = questions[currentIndex];
   useStudyPageSource(current ? {
@@ -737,6 +748,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       mockExam,
       skips,
       roundRemainingMs: clock ? remainingRoundMs(clock.deadlineAt, now) : undefined,
+      elapsedMs: elapsedAt(elapsedClockRef.current, clock ? Math.min(now, clock.deadlineAt) : now),
       drafts: snapshotDrafts,
       sessionId,
       questionIds: questions.map((item) => item.id),
@@ -780,8 +792,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [buildSnapshot, persistSnapshot, queueCloudSnapshot, roundClock, syncUserId]);
 
   const checkpointRound = useEffectEvent((event: "hidden" | "pagehide" | "leave") => {
-    const snapshot = liveRoundClockRef.current ? buildSnapshot(Date.now()) : null;
-    if (!snapshot || snapshot.roundRemainingMs === undefined || snapshot.mockExam?.finishedAt) {
+    const snapshot = buildSnapshot(Date.now());
+    if (!snapshot || snapshot.mockExam?.finishedAt) {
       flushPendingCloudSession();
       return;
     }
@@ -789,8 +801,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const latestKnownAt = previous?.sessionId === snapshot.sessionId ? previous.updatedAt : undefined;
     if (event !== "hidden") {
       // Hiding the tab only checkpoints. Leaving the page ends this run of the clock.
-      pausedRoundRef.current = { sessionId: snapshot.sessionId, roundRemainingMs: snapshot.roundRemainingMs };
+      pausedRoundRef.current = { sessionId: snapshot.sessionId, roundRemainingMs: snapshot.roundRemainingMs, elapsedMs: snapshot.elapsedMs };
       liveRoundClockRef.current = undefined;
+      elapsedClockRef.current = undefined;
     }
     persistSnapshot(snapshot);
     const auth = exitAuthRef.current;
@@ -812,6 +825,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     if (!paused || paused.sessionId !== sessionIdRef.current || error || completed || mockExam?.finishedAt) return;
     pausedRoundRef.current = null;
     startRoundClock(resumeRoundDeadline(paused, Date.now()));
+    restoreElapsedClock(paused.elapsedMs, Date.now());
   });
 
   useEffect(() => {
@@ -851,7 +865,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     </div>
   );
 
-  if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} roundClock={roundClock} isRunning={isRoundClockRunning} onChange={setMockExam} onMove={setCurrentIndex} skips={skips} onSkipsChange={setSkips} />;
+  if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} roundClock={roundClock} elapsedClock={elapsedClock} isRunning={isRoundClockRunning} onChange={setMockExam} onMove={setCurrentIndex} skips={skips} onSkipsChange={setSkips} />;
 
   if (completed) {
     const gradedCount = answers.filter((item) => item.correct !== null).length;
@@ -950,6 +964,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             <RelatedTheoryLauncher key={current.id} question={current} />
             {currentTheoryTargetHref ? <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
             </SkinQuestionReferences>
+            <div className="mt-3"><QbankReviewCardButton key={current.id} question={current} /></div>
             <ChatOptionalTools className="qbank-feedback-tools mt-3 flex flex-wrap justify-end gap-1.5 border-t border-slate-200/70 pt-2">
               <QbankCopyButton key={`explanation:${current.id}`} text={qbankExplanationCopyText(current, displayedOptions)} label="해설 복사" />
               <QbankCopyButton key={`both:${current.id}`} text={qbankCombinedCopyText(current, displayedOptions)} label="문제+해설 복사" title="문제와 보기 및 해설 텍스트 복사 · 이미지는 제외" />

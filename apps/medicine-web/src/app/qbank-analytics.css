@@ -1,0 +1,46 @@
+.qbank-compact-dialog {
+  margin: auto;
+  width: min(38rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 0;
+  color: var(--foreground);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 12px 45px rgb(0 0 0 / .2);
+}
+.qbank-compact-dialog::backdrop { background: rgb(15 23 42 / .45); }
+.qbank-compact-dialog .review-card-panel { border: 0; }
+.qbank-compact-dialog .primary-action, .qbank-compact-dialog .secondary-action { min-height: 2.75rem; }
+.qbank-add-review-card { font-size: .75rem; min-height: 2.5rem; }
+.qbank-stats-row { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; padding: .65rem 0; }
+.qbank-stats-row-main { flex: 1 1 16rem; min-width: 0; }
+.qbank-stats-row-values { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .8rem; font-size: .75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.qbank-stats-row-values button, .qbank-history-actions button {
+  min-height: 2.5rem; padding: .25rem .6rem; border: 1px solid var(--line); border-radius: 6px;
+  background: var(--surface); color: var(--primary); font-size: .75rem; font-weight: 600;
+}
+.qbank-stats-row-values button:disabled, .qbank-history-actions button:disabled { opacity: .45; cursor: default; }
+.qbank-stats-row-values button:focus-visible, .qbank-history-actions button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.qbank-history-list { display: grid; gap: .65rem; margin-top: .8rem; }
+.qbank-history-record { padding: .8rem; border: 1px solid var(--line); border-radius: 8px; }
+.qbank-history-score { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .4rem; font-size: .75rem; margin: .6rem 0; }
+.qbank-history-score > div { min-width: 0; }
+.qbank-history-score dt { color: var(--muted); }
+.qbank-history-score dd { font-variant-numeric: tabular-nums; font-weight: 600; }
+.qbank-history-actions { display: flex; gap: .4rem; flex-wrap: wrap; }
+.qbank-mock-trends { display: grid; gap: 1rem; margin-block: 1rem; }
+.qbank-mock-trends svg { width: 100%; max-height: 14rem; }
+.qbank-mock-detail { width: min(56rem, calc(100vw - 2rem)); }
+.qbank-mock-detail .qbank-result-buttons { display: flex; flex-wrap: wrap; gap: .35rem; max-height: 9rem; overflow: auto; padding: .4rem; }
+.qbank-result-buttons button { min-width: 2.5rem; min-height: 2.5rem; padding: .3rem; border: 1px solid var(--line); border-radius: 5px; font-size: .8rem; }
+.qbank-result-buttons button[data-result="correct"] { color: var(--primary); }
+.qbank-result-buttons button[data-result="wrong"] { color: light-dark(#be123c, #fda4af); }
+.qbank-result-buttons button[aria-pressed="true"] { outline: 2px solid var(--primary); outline-offset: 1px; }
+@media (min-width: 64rem) { .qbank-mock-trends { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 40rem) {
+  .qbank-card-dialog { margin-bottom: 0; width: 100%; max-height: 92dvh; border-radius: 12px 12px 0 0; padding-bottom: env(safe-area-inset-bottom); }
+  .qbank-stats-row-values { justify-content: flex-start; width: 100%; }
+}

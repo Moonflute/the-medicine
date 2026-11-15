@@ -1,6 +1,7 @@
 import { isSelection } from "./qbank-grading";
 import { readMockExam, type MockExamState } from "./mock-exam";
 import { readRoundDeadline, readRoundRemainingMs } from "./qbank-round-timer";
+import { readElapsedMs } from "./qbank-elapsed-time";
 import { readQbankSkipState, type QbankSkipState } from "./qbank-skips";
 import type { QbankSelection, RelatedTheoryDocument } from "./types";
 
@@ -22,6 +23,7 @@ export type QbankSessionSnapshot = {
   drafts?: Record<string, QbankSelection>;
   mockExam?: MockExamState | null;
   roundRemainingMs?: number;
+  elapsedMs?: number;
   /** Legacy v0.14.1 snapshots only. */
   deadlineAt?: number;
   questionIds: string[];
@@ -100,6 +102,7 @@ export function activeSessionFrom(value: unknown): QbankActiveSession | null {
     context: readSessionContext(candidate.context),
     mockExam: readMockExam(candidate.mockExam),
     roundRemainingMs: readRoundRemainingMs(candidate.roundRemainingMs),
+    elapsedMs: readElapsedMs(candidate.elapsedMs),
     deadlineAt: readRoundDeadline(candidate.deadlineAt),
     drafts: readQbankSessionDrafts(candidate.drafts),
     questionIds,

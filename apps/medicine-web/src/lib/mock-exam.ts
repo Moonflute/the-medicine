@@ -4,6 +4,50 @@ import { correctAnswers, gradeQuestion, isAnswer, isSelection } from "./qbank-gr
 export type MockExamResult = { questionId: string; selected?: QbankSelection; correct: boolean | null; correctAnswer: QbankAnswer | null; correctAnswers?: QbankAnswer[]; specialty: string };
 export type MockExamState = { version: 1; title: string; startedAt: string; drafts: Record<string, QbankSelection>; flaggedIds: string[]; finishedAt?: string; results?: MockExamResult[] };
 
+export const MOCK_SUBJECTS = ["내과", "외과", "산부인과", "소아과"] as const;
+export type MockExamSummary = {
+  version: 1;
+  title: string;
+  durationSeconds?: number;
+  total: number;
+  graded: number;
+  correct: number;
+  subjects: Record<string, { correct: number; total: number }>;
+  wrongQuestionIds: string[];
+  unansweredQuestionIds: string[];
+  omittedQuestionIds: string[];
+  /** Ordered, immutable grading snapshot, independent of later attempts/answer-key edits. */
+  results: MockExamResult[];
+};
+
+export function createMockExamSummary(title: string, results: MockExamResult[], durationSeconds?: number): MockExamSummary {
+  const subjects: MockExamSummary["subjects"] = Object.fromEntries(MOCK_SUBJECTS.map(subject => [subject, { correct: 0, total: 0 }]));
+  for (const result of results) {
+    const score = subjects[result.specialty] ??= { correct: 0, total: 0 };
+    if (result.correct !== null) score.total++;
+    if (result.correct === true) score.correct++;
+  }
+  return {
+    version: 1, title: title.slice(0, 120),
+    durationSeconds: typeof durationSeconds === "number" && Number.isFinite(durationSeconds) && durationSeconds >= 0 ? Math.floor(durationSeconds) : undefined,
+    total: results.length, graded: results.filter(result => result.correct !== null).length,
+    correct: results.filter(result => result.correct === true).length, subjects,
+    wrongQuestionIds: results.filter(result => result.correct === false).map(result => result.questionId),
+    unansweredQuestionIds: results.filter(result => !isSelection(result.selected)).map(result => result.questionId),
+    omittedQuestionIds: results.filter(result => result.correct === null).map(result => result.questionId),
+    results,
+  };
+}
+
+export function readMockExamSummary(value: unknown): MockExamSummary | undefined {
+  if (!value || typeof value !== "object") return undefined;
+  const summary = value as Partial<MockExamSummary>;
+  if (summary.version !== 1 || typeof summary.title !== "string" || !Array.isArray(summary.results) || !summary.results.length) return undefined;
+  const parsed = readMockExam({ version: 1, startedAt: "2000-01-01T00:00:00Z", results: summary.results });
+  if (!parsed?.results || parsed.results.length !== summary.results.length || new Set(parsed.results.map(result => result.questionId)).size !== parsed.results.length) return undefined;
+  return createMockExamSummary(summary.title, parsed.results, summary.durationSeconds);
+}
+
 export function readMockExam(value: unknown): MockExamState | null {
   if (!value || typeof value !== "object") return null;
   const x = value as Partial<MockExamState>;

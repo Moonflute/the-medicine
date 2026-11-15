@@ -1,4 +1,5 @@
 export type HomeReviewDisplay = "heart" | "cards";
+export type ReviewCardSource = { questionId: string; bank: string; label: string };
 
 export type ReviewCard = {
   id: string;
@@ -9,13 +10,15 @@ export type ReviewCard = {
   review_count: number;
   due_at: string | null;
   created_at: string;
+  source?: ReviewCardSource | null;
 };
 
 export type ReviewCardDraft = Pick<ReviewCard, "id" | "front" | "back"> & {
   revision?: number;
+  source?: ReviewCardSource;
 };
 
-export const REVIEW_CARD_FIELDS = "id,front,back,home_hidden,content_revision,review_count,due_at,created_at";
+export const REVIEW_CARD_FIELDS = "id,front,back,home_hidden,content_revision,review_count,due_at,created_at,source";
 export const REVIEW_CARD_LIMITS = { front: 2000, back: 8000 };
 
 export function sortReviewCards(cards: ReviewCard[]) {

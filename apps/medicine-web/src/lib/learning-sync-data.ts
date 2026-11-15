@@ -2,6 +2,7 @@ import { studyDateKey } from "./study-date";
 import { encodeSelection, decodeSelection } from "./qbank-grading";
 import type { RecentReviewItem, ReviewCatalogItem, ReviewCoverageItem, ReviewDomain, ReviewItem } from "./review-store";
 import type { QbankSessionResult, QbankState } from "./qbank-store";
+import { readMockExamSummary } from "./mock-exam";
 type Metadata = Pick<ReviewCatalogItem, "title" | "href" | "category" | "summary" | "categories">;
 type Row = Record<string, unknown>;
 
@@ -113,8 +114,9 @@ function emptyQbankState(): QbankState {
   return { version: 1, progress: {}, wrongIds: [], bookmarkIds: [], sessions: [], dailyActivity: {} };
 }
 
-export function qbankStateFromRows(progressRows: Row[], sessionRows: Row[]): QbankState {
+export function qbankStateFromRows(progressRows: Row[], sessionRows: Row[], preferences: Row[] = []): QbankState {
   const state = emptyQbankState();
+  state.progressResetAt = typeof preferences[0]?.qbank_progress_reset_at === "string" ? preferences[0].qbank_progress_reset_at : null;
   for (const row of progressRows) {
     const questionId = text(row.question_id);
     if (!questionId) continue;
@@ -137,6 +139,7 @@ export function qbankStateFromRows(progressRows: Row[], sessionRows: Row[]): Qba
     questionIds: Array.isArray(row.question_ids) ? row.question_ids.filter((value): value is string => typeof value === "string") : [],
     correct: typeof row.correct === "number" ? row.correct : 0,
     total: typeof row.total === "number" ? row.total : 0,
+    mockExam: readMockExamSummary(row.mock_summary),
   })).filter((session) => Boolean(session.id)).sort((a, b) => b.completedAt.localeCompare(a.completedAt));
   for (const session of state.sessions) {
     const day = studyDateKey(new Date(session.completedAt));
@@ -167,7 +170,8 @@ export function mergeQbank(local: QbankState, remote: QbankState): QbankState {
   state.bookmarkIds = [...new Set([...local.bookmarkIds, ...remote.bookmarkIds])];
   const sessions = new Map<string, QbankSessionResult>();
   for (const item of [...remote.sessions, ...local.sessions]) sessions.set(item.id, item);
-  state.sessions = [...sessions.values()].sort((left, right) => right.completedAt.localeCompare(left.completedAt)).slice(0, 100);
+  state.sessions = [...sessions.values()].sort((left, right) => right.completedAt.localeCompare(left.completedAt));
+  state.progressResetAt = isoMax(local.progressResetAt ?? undefined, remote.progressResetAt ?? undefined) ?? null;
   for (const session of state.sessions) {
     const day = studyDateKey(new Date(session.completedAt));
     const daily = state.dailyActivity[day] ?? { attempts: 0, correct: 0 };
@@ -194,5 +198,5 @@ export function questionRows(state: QbankState): Row[] {
   });
 }
 export function sessionRow(session: QbankSessionResult): Row {
-  return { session_id: session.id, started_at: session.startedAt, completed_at: session.completedAt, question_ids: session.questionIds, correct: session.correct, total: session.total };
+  return { session_id: session.id, started_at: session.startedAt, completed_at: session.completedAt, question_ids: session.questionIds, correct: session.correct, total: session.total, ...(session.mockExam ? { mock_summary: session.mockExam } : {}) };
 }

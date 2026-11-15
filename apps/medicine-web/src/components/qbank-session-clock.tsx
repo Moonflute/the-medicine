@@ -2,9 +2,11 @@
 
 import { useEffect, useEffectEvent, useState } from "react";
 import { formatQbankClock, isRoundTimeUp, remainingRoundSeconds, type QbankRunningRoundClock } from "@/lib/qbank-round-timer";
+import { elapsedAt, type QbankElapsedClock } from "@/lib/qbank-elapsed-time";
 
-export function QbankSessionClock({ roundClock, startedAt, finishedAt, isRunning, onExpire }: {
+export function QbankSessionClock({ roundClock, elapsedClock, startedAt, finishedAt, isRunning, onExpire }: {
   roundClock?: QbankRunningRoundClock;
+  elapsedClock?: QbankElapsedClock;
   startedAt?: string;
   finishedAt?: string;
   isRunning?: (clock: QbankRunningRoundClock) => boolean;
@@ -35,7 +37,7 @@ export function QbankSessionClock({ roundClock, startedAt, finishedAt, isRunning
   }, [deadlineAt, finishedAt, roundClock]);
 
   const countdown = deadlineAt !== undefined && !finishedAt;
-  const elapsed = ((finishedAt ? Date.parse(finishedAt) : now) - (startedAt ? Date.parse(startedAt) : now)) / 1000;
+  const elapsed = elapsedClock ? (elapsedAt(elapsedClock, finishedAt ? Date.parse(finishedAt) : now) ?? 0) / 1000 : ((finishedAt ? Date.parse(finishedAt) : now) - (startedAt ? Date.parse(startedAt) : now)) / 1000;
   const seconds = countdown ? remainingRoundSeconds(deadlineAt, now) : Math.max(0, Math.floor(elapsed));
   return <span role="timer" aria-label={countdown ? "남은 시간" : "경과 시간"} className="tabular-nums">{formatQbankClock(seconds)}</span>;
 }

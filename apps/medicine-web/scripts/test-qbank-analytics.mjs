@@ -1,6 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildQbankAnalytics, readRetryIds } from '../src/lib/qbank-analytics.ts';
+import fs from 'node:fs';
+import ts from 'typescript';
+const compile = name => ts.transpileModule(fs.readFileSync(new URL(`../src/lib/${name}.ts`, import.meta.url), 'utf8'), {compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const url = code => `data:text/javascript;base64,${Buffer.from(code).toString('base64')}`;
+const { buildQbankAnalytics, readRetryIds, sortAnalyticsGroups } = await import(url(compile('qbank-analytics').replace('"./qbank-progress"', JSON.stringify(url(compile('qbank-progress'))))));
 
 const catalog = [
   { id: 'a', bank: 'clinical', department: '내과', topic: '신장', label: 'a' },
@@ -19,7 +23,7 @@ const state = {
 test('separates unresolved, recovered and repeated errors; ignores inaccessible questions', () => {
   const s = buildQbankAnalytics(catalog, state);
   assert.equal(s.attempts, 6); assert.equal(s.correct, 2); assert.equal(s.attempted, 3);
-  assert.equal(s.recovered, 1); assert.deepEqual(s.wrong.map(q => q.id), ['a', 'c']);
+  assert.equal(s.recovered, 1); assert.deepEqual(s.wrong.map(q => q.id), ['a', 'b', 'c']);
   assert.deepEqual(s.repeated.map(q => q.id), ['a']);
 });
 test('filters bank and source department; excludes unattempted from accuracy', () => {
@@ -73,4 +77,17 @@ test('progress reset affects completion only and keeps historical accuracy and p
   assert.deepEqual(s.practiceGroups.map(group => [group.key, group.progressed]), [['내과', 1], ['외과', 1]]);
   assert.deepEqual(s.practiceGroups[0].children.map(group => [group.key, group.progressed]), [['순환기', 0], ['호흡기', 1]]);
   assert.equal(s.recentTotal, 3); assert.equal(s.recentCorrect, 2);
+  assert.deepEqual(s.practiceGroups[0].unattemptedIds,['old']);
+  assert.deepEqual(s.practiceGroups[0].children[0].unattemptedIds,['old']);
+  assert.equal(s.practiceGroups[0].retryIds.length,0); // lastCorrect does not replace the explicit queue.
+});
+
+test('sorting keeps each group IDs and counts unchanged and puts unseen accuracy last',()=>{
+  const groups=buildQbankAnalytics(catalog,state).groups;
+  assert.equal(sortAnalyticsGroups(groups,'wrong')[0].key,'내과');
+  assert.equal(sortAnalyticsGroups(groups,'unattempted')[0].key,'외과');
+  assert.equal(sortAnalyticsGroups(groups,'accuracy')[0].key,'외과');
+  assert.equal(sortAnalyticsGroups(groups,'progress')[0].key,'외과');
+  assert.deepEqual(sortAnalyticsGroups(groups,'wrong').flatMap(g=>g.retryIds).sort(),['a','b','c']);
+  assert.deepEqual(sortAnalyticsGroups(groups,'unattempted').flatMap(g=>g.unattemptedIds),['d']);
 });

@@ -164,7 +164,7 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
       const table = client.from("review_cards");
       const target = () => table.select(REVIEW_CARD_FIELDS).eq("user_id", owner).eq("id", draft.id).maybeSingle<ReviewCard>();
       if (draft.revision === undefined) {
-        const { data, error } = await table.insert({ user_id: owner, id: draft.id, front, back })
+        const { data, error } = await table.insert({ user_id: owner, id: draft.id, front, back, source: draft.source ?? null })
           .select(REVIEW_CARD_FIELDS).single<ReviewCard>();
         if (!error) return data;
         if (error.code !== "23505") throw error;

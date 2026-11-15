@@ -1,8 +1,16 @@
 import type { QbankState } from "./qbank-store";
+import { progressedInRound } from "./qbank-progress";
 
 export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number; subgroup?: string };
-export type AnalyticsGroup = { key: string; total: number; attempted: number; progressed: number; attempts: number; correct: number; wrong: number; retryIds: string[]; order: number; latestCorrect: number; mastered: number };
+export type AnalyticsGroup = { key: string; total: number; attempted: number; progressed: number; attempts: number; correct: number; wrong: number; retryIds: string[]; unattemptedIds: string[]; order: number; latestCorrect: number; mastered: number };
 export type PracticeDepartmentGroup = AnalyticsGroup & { children: AnalyticsGroup[] };
+export type AnalyticsSort = "default" | "accuracy" | "wrong" | "unattempted" | "progress";
+export function sortAnalyticsGroups<T extends AnalyticsGroup>(groups: T[], sort: AnalyticsSort): T[] {
+  const score = (group: AnalyticsGroup) => sort === "accuracy" ? (group.attempts ? group.correct / group.attempts : Infinity)
+    : sort === "wrong" ? -group.wrong : sort === "unattempted" ? -group.unattemptedIds.length
+      : sort === "progress" ? (group.total ? group.progressed / group.total : 1) : group.order;
+  return [...groups].sort((a, b) => score(a) - score(b) || a.order - b.order || a.key.localeCompare(b.key, "ko"));
+}
 export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: QbankState, bank = "all", department = "all", progressResetAt: string | null = null) {
   const catalog = [...new Map(questions.map(q => [q.id, q])).values()];
   const selected = catalog.filter(q => (bank === "all" || q.bank === bank) && (department === "all" || q.department === department));
@@ -12,18 +20,19 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
   const exams = new Map<string, AnalyticsGroup>();
   const practiceDepartments = new Map<string, AnalyticsGroup>();
   const practiceInternalTopics = new Map<string, AnalyticsGroup>();
-  const resetTime = progressResetAt ? new Date(progressResetAt).getTime() : Number.NaN;
+  const wrongIds = new Set(state.wrongIds);
   let attempts = 0, correct = 0, attempted = 0, recovered = 0, latestCorrect = 0, mastered = 0;
   let progressed = 0;
   const wrong: Array<AnalyticsQuestion & { mistakes: number; attempts: number; last: string }> = [];
   const recentResults: Array<{ last: string; correct: boolean }> = [];
   const updateGroup = (map: Map<string, AnalyticsGroup>, key: string | undefined, q: AnalyticsQuestion, count: number, right: number, latestWrong: boolean, isProgressed: boolean, p: QbankState["progress"][string] | undefined) => {
     if (!key) return;
-    const g = map.get(key) ?? { key, total: 0, attempted: 0, progressed: 0, attempts: 0, correct: 0, wrong: 0, retryIds: [], order: q.order ?? 999, latestCorrect: 0, mastered: 0 };
+    const g = map.get(key) ?? { key, total: 0, attempted: 0, progressed: 0, attempts: 0, correct: 0, wrong: 0, retryIds: [], unattemptedIds: [], order: q.order ?? 999, latestCorrect: 0, mastered: 0 };
     g.order = Math.min(g.order, q.order ?? 999);
     if (count > 0 && p?.lastCorrect === true) g.latestCorrect++;
     if (count > 0 && (p?.consecutiveCorrect ?? 0) >= 2) g.mastered++;
     if (isProgressed) g.progressed++;
+    else g.unattemptedIds.push(q.id);
     g.total++; g.attempts += count; g.correct += right;
     if (count > 0) g.attempted++;
     if (latestWrong) { g.wrong++; g.retryIds.push(q.id); }
@@ -33,10 +42,9 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
     const p = state.progress[q.id];
     const count = Math.max(0, Number(p?.attempts) || 0);
     const right = Math.min(count, Math.max(0, Number(p?.correctAttempts) || 0));
-    const latestWrong = count > 0 && p?.lastCorrect === false;
+    const latestWrong = wrongIds.has(q.id);
     const mistakes = count - right;
-    const lastTime = p?.lastAttemptedAt ? new Date(p.lastAttemptedAt).getTime() : Number.NaN;
-    const isProgressed = count > 0 && (Number.isNaN(resetTime) || (!Number.isNaN(lastTime) && lastTime >= resetTime));
+    const isProgressed = progressedInRound(p, progressResetAt);
     attempts += count; correct += right;
     if (count > 0) attempted++;
     if (isProgressed) progressed++;

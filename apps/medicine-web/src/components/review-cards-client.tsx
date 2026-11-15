@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { Pencil, Plus, Search, X } from "lucide-react";
 import { reviewCardsErrorMessage, useReviewCards } from "@/components/review-cards-provider";
-import { isReviewCardDue, REVIEW_CARD_LIMITS, type ReviewCard, type ReviewCardDraft } from "@/lib/review-cards";
+import { isReviewCardDue, type ReviewCard, type ReviewCardDraft } from "@/lib/review-cards";
+import { ReviewCardForm } from "@/components/review-card-form";
+import { ReviewCardSourceLink } from "@/components/review-card-source-link";
 import type { ReviewConfidence } from "@/lib/review-schedule";
 
 const ratings: { value: ReviewConfidence; label: string }[] = [
@@ -37,12 +39,7 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
   const [draftMessage, setDraftMessage] = useState("");
   const [pendingUndo, setPendingUndo] = useState<{ cards: ReviewCard[]; expiresAt: number } | null>(null);
   const [undoError, setUndoError] = useState("");
-  const frontInput = useRef<HTMLTextAreaElement>(null);
   const draftId = draft?.id;
-
-  useEffect(() => {
-    if (draftId) frontInput.current?.focus();
-  }, [draftId]);
 
   useEffect(() => {
     if (!pendingUndo || saving || undoError) return;
@@ -76,11 +73,10 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
   const draftChangedElsewhere = draft?.revision !== undefined && draft.revision !== editingCard?.content_revision && !draftAlreadySaved;
 
   function openDraft(card?: ReviewCard) {
-    setDraft(card ? { id: card.id, front: card.front, back: card.back, revision: card.content_revision }
+    setDraft(card ? { id: card.id, front: card.front, back: card.back, revision: card.content_revision, source: card.source ?? undefined }
       : { id: crypto.randomUUID(), front: "", back: "" });
     setDraftMessage("");
     setMessage("");
-    if (card?.id === draftId) frontInput.current?.focus();
   }
 
   async function submitDraft(event: FormEvent<HTMLFormElement>) {
@@ -177,6 +173,7 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
         <div className="review-card-face" aria-label="앞면">
           <p className="review-card-text">{active.front}</p>
         </div>
+        {active.source && <ReviewCardSourceLink source={active.source} />}
         {showAnswer ? <>
           <div className="review-card-face" aria-label="뒷면" aria-live="polite">
             <p className="review-card-text">{active.back}</p>
@@ -209,26 +206,15 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
       </div> : null}
       {message ? <p className="review-card-status" role="status">{message}</p> : null}
       <div className="review-card-layout" data-editing={Boolean(draft)}>
-        {draft ? <form className="review-card-panel review-card-form" onSubmit={submitDraft}>
-          <h2>{draft.revision === undefined ? "카드 추가" : "카드 수정"}</h2>
-          <label>앞면<textarea ref={frontInput} required rows={3} value={draft.front} maxLength={REVIEW_CARD_LIMITS.front}
-            onChange={event => setDraft({ ...draft, front: event.target.value })} disabled={saving} /></label>
-          <label>뒷면<textarea required rows={5} value={draft.back} maxLength={REVIEW_CARD_LIMITS.back}
-            onChange={event => setDraft({ ...draft, back: event.target.value })} disabled={saving} /></label>
-          {draftChangedElsewhere ? <div className="review-card-status" role="status">
+        {draft ? <ReviewCardForm draft={draft} onChange={setDraft} onSubmit={submitDraft} onCancel={() => setDraft(null)} saving={saving} blocked={draftChangedElsewhere} message={draftMessage}
+          notice={<>{draft.source && <ReviewCardSourceLink source={draft.source} />}{draftChangedElsewhere ? <div className="review-card-status" role="status">
             {editingCard ? "다른 기기에서 이 카드가 수정됐어요." : "다른 기기에서 이 카드가 삭제됐어요."}{" "}
             {editingCard ? <button className="review-card-link" type="button" disabled={saving} onClick={() => openDraft(editingCard)}>최신본 불러오기</button>
               : <button className="review-card-link" type="button" disabled={saving} onClick={() => {
-                setDraft({ id: crypto.randomUUID(), front: draft.front, back: draft.back });
+                setDraft({ id: crypto.randomUUID(), front: draft.front, back: draft.back, source: draft.source });
                 setDraftMessage("");
               }}>새 카드로 작성</button>}
-          </div> : null}
-          {draftMessage ? <p className="review-card-status" role="status">{draftMessage}</p> : null}
-          <div className="review-card-actions">
-            <button className="primary-action" type="submit" disabled={saving || draftChangedElsewhere || !draft.front.trim() || !draft.back.trim()}>저장</button>
-            <button className="secondary-action" type="button" disabled={saving} onClick={() => setDraft(null)}>취소</button>
-          </div>
-        </form> : null}
+          </div> : null}</>} /> : null}
         <section className="review-card-panel review-card-list" aria-label="카드 목록">
           <label className="review-card-search">
             <Search size={16} aria-hidden="true" />
@@ -239,6 +225,7 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
               <div><dt>앞면</dt><dd className="review-card-text">{card.front}</dd></div>
               <div><dt>뒷면</dt><dd className="review-card-text">{card.back}</dd></div>
             </dl>
+            {card.source && <ReviewCardSourceLink source={card.source} />}
             <div className="review-card-list-footer">
               <p className="review-card-meta">
                 {isReviewCardDue(card, now) ? "복습 가능" : `다음 복습 ${dueFormat.format(new Date(card.due_at!))}`}

@@ -29,6 +29,7 @@ const { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loa
   './qbank-grading': grading,
   './mock-exam': mockExam,
   './qbank-round-timer': roundTimer,
+  './qbank-elapsed-time': compile('qbank-elapsed-time.ts'),
   './qbank-skips': skips,
 }, { window: browser });
 

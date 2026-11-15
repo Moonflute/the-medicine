@@ -3,6 +3,8 @@ import { studyDateKey } from "./study-date";
 import { queueChangedRows } from "./learning-sync-outbox";
 import { questionRows, sessionRow } from "./learning-sync-data";
 import type { QbankSelection } from "@/lib/types";
+import { progressedInRound } from "./qbank-progress";
+import { createMockExamSummary, readMockExamSummary, type MockExamSummary } from "./mock-exam";
 
 export type QbankProgress = {
   questionId: string;
@@ -21,6 +23,7 @@ export type QbankSessionResult = {
   questionIds: string[];
   correct: number;
   total: number;
+  mockExam?: MockExamSummary;
 };
 
 export type QbankDailyActivity = {
@@ -35,6 +38,7 @@ export type QbankState = {
   bookmarkIds: string[];
   sessions: QbankSessionResult[];
   dailyActivity: Record<string, QbankDailyActivity>;
+  progressResetAt?: string | null;
 };
 
 const STORAGE_KEY = "medicine-web-qbank-v1";
@@ -68,7 +72,7 @@ export function loadQbankState(): QbankState {
   try {
     const value = JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? "null") as Partial<QbankState> | null;
     if (!value || value.version !== 1) { initializeActivity({}); return {...emptyState(), dailyActivity: loadActivity()}; }
-    const sessions = Array.isArray(value.sessions) ? value.sessions.slice(0, 100) : [];
+    const sessions = Array.isArray(value.sessions) ? value.sessions.map(session => ({ ...session, mockExam: readMockExamSummary(session.mockExam) })) : [];
     initializeActivity(loadDailyActivity(value.dailyActivity, sessions));
     return {
       version: 1,
@@ -77,6 +81,7 @@ export function loadQbankState(): QbankState {
       bookmarkIds: Array.isArray(value.bookmarkIds) ? value.bookmarkIds.filter((item): item is string => typeof item === "string") : [],
       sessions,
       dailyActivity: loadActivity(),
+      progressResetAt: value.progressResetAt ?? loadQbankProgressViewResetAt(),
     };
   } catch {
     return emptyState();
@@ -93,18 +98,14 @@ export function loadQbankProgressViewResetAt(): string | null {
 
 export function resetQbankProgressView() {
   const resetAt = new Date().toISOString();
-  window.localStorage.setItem(PROGRESS_VIEW_STORAGE_KEY, resetAt);
-  window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source: "progress-view-reset" } }));
+  saveQbankState({ ...loadQbankState(), progressResetAt: resetAt });
   return resetAt;
 }
 
 // The analytics progress bar and “unattempted only” use this identical
 // boundary. A reset starts a fresh progress view without erasing history.
 export function isQbankProgressedInCurrentView(progress?: QbankProgress, resetAt = loadQbankProgressViewResetAt()): boolean {
-  const attemptedAt = progress?.lastAttemptedAt ? new Date(progress.lastAttemptedAt).getTime() : Number.NaN;
-  if (Number.isNaN(attemptedAt)) return false;
-  const resetTime = resetAt ? new Date(resetAt).getTime() : Number.NaN;
-  return Number.isNaN(resetTime) || attemptedAt >= resetTime;
+  return progressedInRound(progress, resetAt);
 }
 
 export function saveQbankState(state: QbankState, source: "local" | "remote" = "local") {
@@ -112,8 +113,10 @@ export function saveQbankState(state: QbankState, source: "local" | "remote" = "
     const previous = loadQbankState();
     queueChangedRows("qbank_question_progress", questionRows(previous), questionRows(state));
     queueChangedRows("qbank_sessions", previous.sessions.map(sessionRow), state.sessions.map(sessionRow));
+    queueChangedRows("user_preferences", [{ qbank_progress_reset_at: previous.progressResetAt ?? null }], [{ qbank_progress_reset_at: state.progressResetAt ?? null }]);
   }
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  if (state.progressResetAt) window.localStorage.setItem(PROGRESS_VIEW_STORAGE_KEY, state.progressResetAt);
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
 
@@ -153,7 +156,7 @@ export function recordMockExam(result: QbankSessionResult, outcomes: Array<{ que
   const state = loadQbankState();
   if (state.sessions.some(s => s.id === result.id)) return;
   for (const item of outcomes) if (item.correct !== null) applyAttempt(state, item.questionId, item.selected, item.correct);
-  state.sessions = [result, ...state.sessions].slice(0, 100);
+  state.sessions = [result, ...state.sessions];
   saveQbankState(state);
 }
 
@@ -175,7 +178,7 @@ export function removeQbankWrong(questionId: string) {
 
 export function saveQbankSession(result: QbankSessionResult) {
   const state = loadQbankState();
-  state.sessions = [result, ...state.sessions.filter((item) => item.id !== result.id)].slice(0, 100);
+  state.sessions = [result, ...state.sessions.filter((item) => item.id !== result.id)];
   saveQbankState(state);
 }
 
@@ -207,7 +210,8 @@ export function remapQbankQuestionIds(aliases: Record<string, string>) {
   const sessions = state.sessions.map((session) => {
     const questionIds = mapIds(session.questionIds);
     changed ||= questionIds.some((id, index) => id !== session.questionIds[index]);
-    return { ...session, questionIds };
+    const mockExam = session.mockExam ? createMockExamSummary(session.mockExam.title, session.mockExam.results.map(result => ({ ...result, questionId: aliases[result.questionId] ?? result.questionId })), session.mockExam.durationSeconds) : undefined;
+    return { ...session, questionIds, mockExam };
   });
   if (!changed) return;
   saveQbankState({ ...state, progress, wrongIds, bookmarkIds, sessions });
