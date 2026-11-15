@@ -5,6 +5,8 @@ type AuthUser = {
   id: string;
   email?: string;
   email_confirmed_at?: string;
+  created_at?: string;
+  last_sign_in_at?: string;
   is_anonymous?: boolean;
   banned_until?: string;
   deleted_at?: string;
@@ -27,6 +29,21 @@ function canApprove(user: AuthUser) {
   return Boolean(user.email && user.email_confirmed_at && !user.is_anonymous && !user.deleted_at
     && !(user.banned_until && Date.parse(user.banned_until) > Date.now())
     && Array.isArray(user.app_metadata?.providers) && user.app_metadata.providers.includes("google"));
+}
+
+function accountPermissions(user: AuthUser, enabled: boolean) {
+  let canEditShared = false;
+  try { assertEditor(user); canEditShared = true; }
+  catch { /* Shared editing remains restricted to the existing fixed owner. */ }
+  return {
+    accessLevel: user.id === EDITOR_USER_ID ? "master" : enabled ? "approved" : "basic",
+    canEditShared,
+    canManageAccess: canEditShared && canApprove(user),
+  };
+}
+
+function timestamp(value: unknown): string | null {
+  return typeof value === "string" && Number.isFinite(Date.parse(value)) ? new Date(value).toISOString() : null;
 }
 
 export function createQbankAccessHandler(config: Config) {
@@ -109,6 +126,8 @@ export function createQbankAccessHandler(config: Config) {
             return {
               id: user.id, email: user.email ?? "", name: typeof name === "string" ? name.trim().slice(0, 160) : "",
               enabled: enabledIds.has(user.id), isOwner: user.id === EDITOR_USER_ID, canApprove: canApprove(user),
+              ...accountPermissions(user, enabledIds.has(user.id)),
+              createdAt: timestamp(user.created_at), lastSignInAt: timestamp(user.last_sign_in_at),
             };
           }),
           page, pageSize: PAGE_SIZE, total,
@@ -135,7 +154,7 @@ export function createQbankAccessHandler(config: Config) {
           || saved.data[0]?.user_id !== userId || saved.data[0]?.enabled !== input.enabled) {
           return reply({ error: "저장 결과를 확인하지 못했습니다. 목록을 새로고침해 주세요." }, 502);
         }
-        return reply({ userId, enabled: input.enabled });
+        return reply({ userId, enabled: input.enabled, ...accountPermissions(target.data, input.enabled) });
       }
       return reply({ error: "지원하지 않는 작업입니다." }, 400);
     } catch {
